@@ -127,10 +127,10 @@ ipc
 IPCResult
 RecvProcessPage
 (
-Shmem
+const
+nsCString
 &
-&
-aStoredPage
+aPageFileName
 )
 final
 ;
@@ -275,9 +275,9 @@ nsresult
 PrintPage
 (
 const
-Shmem
+nsCString
 &
-aStoredPage
+aPageFileName
 )
 ;
 nsCOMPtr
