@@ -750,7 +750,7 @@ inline
 ]
 pub
 fn
-auto
+normal
 (
 )
 -
@@ -762,7 +762,7 @@ Self
 :
 new
 (
-ALIGN_AUTO
+ALIGN_NORMAL
 )
 }
 #
