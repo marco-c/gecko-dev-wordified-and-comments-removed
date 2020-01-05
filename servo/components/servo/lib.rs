@@ -221,14 +221,6 @@ use
 compositing
 :
 :
-CompositorMsg
-as
-ConstellationMsg
-;
-use
-compositing
-:
-:
 compositor_thread
 :
 :
@@ -407,6 +399,12 @@ profile_traits
 :
 :
 time
+;
+use
+script_traits
+:
+:
+ConstellationMsg
 ;
 use
 std
