@@ -1887,3 +1887,13 @@ false
 }
 }
 }
+pub
+type
+ColorOrAuto
+=
+Either
+<
+CSSColor
+Auto
+>
+;

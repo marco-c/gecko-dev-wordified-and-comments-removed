@@ -6709,3 +6709,13 @@ ClipRect
 Auto
 >
 ;
+pub
+type
+ColorOrAuto
+=
+Either
+<
+CSSColor
+Auto
+>
+;
