@@ -1401,7 +1401,6 @@ uint64_t
 GetAsyncContainerID
 (
 )
-const
 ;
 bool
 HasCurrentImage
@@ -1613,6 +1612,13 @@ aImages
 void
 EnsureActiveImage
 (
+)
+;
+void
+EnsureImageClient
+(
+bool
+aCreate
 )
 ;
 void
