@@ -110,11 +110,6 @@ EXPORTS
 =
 [
 '
-DecryptJob
-.
-h
-'
-'
 gmp
 -
 api
@@ -481,11 +476,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-DecryptJob
-.
-cpp
-'
 '
 GMPCDMCallbackProxy
 .
