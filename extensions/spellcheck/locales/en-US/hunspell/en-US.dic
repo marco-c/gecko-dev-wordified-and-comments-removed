@@ -1,4 +1,4 @@
-52346
+52343
 0
 /
 nm
@@ -41176,7 +41176,7 @@ anesthetist
 MS
 anesthetization
 /
-M
+SM
 anesthetize
 /
 GDS
@@ -50001,9 +50001,6 @@ burnt
 burp
 /
 MDGS
-burqa
-/
-SM
 burr
 /
 MDGS
@@ -51007,7 +51004,7 @@ canonicalization
 MS
 canonicalize
 /
-DGS
+GDS
 canonization
 /
 SM
@@ -80648,7 +80645,7 @@ M
 highwaymen
 hijab
 /
-S
+SM
 hijack
 /
 SJZGMDR
@@ -88598,9 +88595,6 @@ M
 lasagna
 /
 MS
-lasagne
-/
-MS
 lascivious
 /
 YP
@@ -88991,6 +88985,7 @@ leapfrog
 MS
 leapfrogged
 leapfrogging
+leapt
 learn
 /
 AUGDS
@@ -92891,9 +92886,6 @@ M
 matey
 /
 S
-math
-/
-M
 mathematical
 /
 Y
@@ -92903,7 +92895,6 @@ SM
 mathematics
 /
 M
-maths
 matinee
 /
 SM
@@ -96760,8 +96751,6 @@ multivitamin
 MS
 multiyear
 mum
-/
-SM
 mumble
 /
 MZGDRS
@@ -101086,7 +101075,7 @@ ostrich
 MS
 other
 /
-SP
+MSP
 otherwise
 otherworldly
 otiose
@@ -101285,7 +101274,7 @@ outlet
 SM
 outlier
 /
-SM
+MS
 outline
 /
 MGDS
@@ -120592,7 +120581,6 @@ skiffle
 skiing
 /
 M
-skilfully
 skill
 '
 s
@@ -130296,6 +130284,9 @@ M
 timeshare
 /
 S
+timestamp
+/
+SMD
 timetable
 /
 DSMG

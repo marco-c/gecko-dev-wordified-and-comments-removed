@@ -1,4 +1,4 @@
-49464
+49461
 0
 /
 nm
@@ -33424,7 +33424,7 @@ anesthetist
 MS
 anesthetization
 /
-M
+SM
 anesthetize
 /
 GDS
@@ -39727,6 +39727,8 @@ blowhole
 /
 S
 blowjob
+/
+SM
 blowlamp
 /
 S
@@ -42188,9 +42190,6 @@ burnt
 burp
 /
 MDGS
-burqa
-/
-SM
 burr
 /
 MDGS
@@ -52221,7 +52220,7 @@ MS
 cultivable
 cultivar
 /
-S
+SM
 cultivate
 /
 BDSGN
@@ -61819,6 +61818,8 @@ exodus
 MS
 exogenous
 exon
+/
+MS
 exonerate
 /
 GNDS
@@ -72676,6 +72677,8 @@ highwayman
 M
 highwaymen
 hijab
+/
+SM
 hijack
 /
 SJZGMDR
@@ -80580,9 +80583,6 @@ M
 lasagna
 /
 MS
-lasagne
-/
-MS
 lascivious
 /
 YP
@@ -80973,6 +80973,7 @@ leapfrog
 MS
 leapfrogged
 leapfrogging
+leapt
 learn
 /
 AUGDS
@@ -84860,9 +84861,6 @@ M
 matey
 /
 S
-math
-/
-M
 mathematical
 /
 Y
@@ -84872,7 +84870,6 @@ SM
 mathematics
 /
 M
-maths
 matinee
 /
 SM
@@ -85324,6 +85321,8 @@ meetinghouse
 /
 SM
 meetup
+/
+MS
 meg
 /
 S
@@ -88698,8 +88697,6 @@ multivitamin
 MS
 multiyear
 mum
-/
-SM
 mumble
 /
 MZGDRS
@@ -92998,7 +92995,7 @@ ostrich
 MS
 other
 /
-SP
+MSP
 otherwise
 otherworldly
 otiose
@@ -104307,6 +104304,8 @@ recursion
 /
 S
 recuse
+/
+DSG
 recyclable
 /
 SM
@@ -104404,6 +104403,8 @@ reducer
 M
 reducible
 reductase
+/
+M
 reduction
 /
 SM
@@ -109100,6 +109101,8 @@ screenplay
 /
 SM
 screensaver
+/
+SM
 screenshot
 /
 S
@@ -112390,7 +112393,6 @@ skiffle
 skiing
 /
 M
-skilfully
 skill
 '
 s
@@ -122048,6 +122050,9 @@ M
 timeshare
 /
 S
+timestamp
+/
+SMD
 timetable
 /
 DSMG
@@ -122593,7 +122598,7 @@ tool
 ADGS
 toolbar
 /
-M
+SM
 toolbox
 /
 MS
@@ -128902,6 +128907,8 @@ weapon
 /
 MS
 weaponize
+/
+GDS
 weaponless
 weaponry
 /
@@ -129804,6 +129811,8 @@ wild
 /
 MRYSTP
 wildcard
+/
+MS
 wildcat
 /
 MS
