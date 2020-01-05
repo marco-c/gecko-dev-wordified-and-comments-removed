@@ -850,13 +850,9 @@ reason
 #
 ifndef
 RELEASE_OR_BETA
-MOZ_CRASH_ANNOTATE
+MOZ_CRASH_UNSAFE_OOL
 (
 reason
-)
-;
-MOZ_REALLY_CRASH
-(
 )
 ;
 #
