@@ -188,6 +188,14 @@ ToWrRect
 overflow
 )
 mask
+GetLayer
+(
+)
+-
+>
+GetAnimations
+(
+)
 transform
 FrameMetrics
 :

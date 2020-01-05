@@ -292,6 +292,11 @@ overflow
 MaybeImageMask
 mask
 ;
+Animation
+[
+]
+animations
+;
 Matrix4x4
 matrix
 ;
