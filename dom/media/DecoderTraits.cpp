@@ -1222,10 +1222,8 @@ aCodecs
 )
 ;
 }
+static
 CanPlayStatus
-DecoderTraits
-:
-:
 CanHandleCodecsType
 (
 const
@@ -1309,6 +1307,9 @@ MOZ_OMX_WEBM_DECODER
 )
 if
 (
+DecoderTraits
+:
+:
 IsWebMTypeAndEnabled
 (
 nsDependentCString
@@ -1348,6 +1349,9 @@ ifdef
 MOZ_FMP4
 if
 (
+DecoderTraits
+:
+:
 IsMP4TypeAndEnabled
 (
 nsDependentCString
@@ -1649,10 +1653,8 @@ return
 CANPLAY_YES
 ;
 }
+static
 CanPlayStatus
-DecoderTraits
-:
-:
 CanHandleMediaType
 (
 const
@@ -1767,6 +1769,9 @@ CANPLAY_MAYBE
 }
 if
 (
+DecoderTraits
+:
+:
 IsMP4TypeAndEnabled
 (
 nsDependentCString
@@ -1790,6 +1795,9 @@ MOZ_OMX_WEBM_DECODER
 )
 if
 (
+DecoderTraits
+:
+:
 IsWebMTypeAndEnabled
 (
 nsDependentCString
