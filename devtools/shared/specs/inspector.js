@@ -1590,6 +1590,8 @@ Arg
 (
 0
 "
+nullable
+:
 domnode
 "
 )
