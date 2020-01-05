@@ -5324,11 +5324,14 @@ InitTraceLog
 if
 (
 gLogging
-!
+=
 =
 NoLogging
 )
 {
+return
+;
+}
 AutoTraceLogLock
 lock
 ;
@@ -5459,7 +5462,6 @@ gAllocLog
 ;
 }
 }
-}
 EXPORT_XPCOM_API
 (
 void
@@ -5493,11 +5495,14 @@ InitTraceLog
 if
 (
 gLogging
-!
+=
 =
 NoLogging
 )
 {
+return
+;
+}
 AutoTraceLogLock
 lock
 ;
@@ -5631,7 +5636,6 @@ WalkTheStackCached
 gAllocLog
 )
 ;
-}
 }
 }
 EXPORT_XPCOM_API
