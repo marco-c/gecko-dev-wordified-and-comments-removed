@@ -210,6 +210,7 @@ item_type
                 
 yield
 item_type
+path
 tests
     
 property
