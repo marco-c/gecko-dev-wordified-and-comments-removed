@@ -339,6 +339,13 @@ ReflowGoal
 ForDisplay
 ForScriptQuery
 }
+#
+[
+derive
+(
+PartialEq
+)
+]
 pub
 enum
 ReflowQueryType
