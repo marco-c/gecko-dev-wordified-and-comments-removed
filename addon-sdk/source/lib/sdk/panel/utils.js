@@ -86,7 +86,6 @@ const
 {
 getMostRecentBrowserWindow
 getOwnerBrowserWindow
-getHiddenWindow
 getScreenPixelsPerCSSPixel
 }
 =
