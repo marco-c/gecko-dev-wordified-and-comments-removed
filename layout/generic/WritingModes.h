@@ -1485,8 +1485,7 @@ side
 )
 {
 return
-!
-IsInlineReversed
+IsBidiLTR
 (
 )
 ?
