@@ -208,13 +208,6 @@ num_cpus
 .
 2
 "
-rand
-=
-"
-0
-.
-3
-"
 rustc
 -
 serialize

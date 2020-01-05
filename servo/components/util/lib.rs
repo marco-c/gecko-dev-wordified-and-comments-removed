@@ -180,10 +180,6 @@ num_cpus
 ;
 extern
 crate
-rand
-;
-extern
-crate
 rustc_serialize
 ;
 #
@@ -255,10 +251,6 @@ Arc
 pub
 mod
 basedir
-;
-pub
-mod
-cache
 ;
 pub
 mod
