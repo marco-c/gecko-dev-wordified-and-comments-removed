@@ -375,6 +375,14 @@ mozilla
 :
 layout
 ;
+using
+ShapeType
+=
+nsFloatManager
+:
+:
+ShapeType
+;
 typedef
 nsAbsoluteContainingBlock
 :
@@ -16486,6 +16494,10 @@ GetFloatAvailableSpaceWithState
 aState
 .
 mBCoord
+ShapeType
+:
+:
+ShapeOutside
 &
 floatManagerState
 )
@@ -33505,6 +33517,10 @@ aState
 GetFloatAvailableSpaceWithState
 (
 aLineTop
+ShapeType
+:
+:
+ShapeOutside
 &
 aState
 .
