@@ -75,6 +75,14 @@ InitResponse
 }
 ;
 struct
+InitOriginResponse
+{
+bool
+created
+;
+}
+;
+struct
 ClearOriginResponse
 {
 }
@@ -100,6 +108,8 @@ RequestResponse
 nsresult
 ;
 InitResponse
+;
+InitOriginResponse
 ;
 ClearOriginResponse
 ;
