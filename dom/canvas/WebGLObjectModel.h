@@ -208,6 +208,7 @@ mWebGLRefCnt
 ;
 public
 :
+explicit
 WebGLRefCountedObject
 (
 WebGLContext
