@@ -1834,7 +1834,8 @@ build_display_list_for_background_linear_gradient
 (
 display_list
 level
-absolute_bounds
+&
+bounds
 &
 clip
 gradient
@@ -1866,7 +1867,8 @@ style
 display_list
 layout_context
 level
-absolute_bounds
+&
+bounds
 &
 clip
 image_url
