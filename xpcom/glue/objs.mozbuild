@@ -136,11 +136,6 @@ GenericFactory
 .
 cpp
 '
-'
-nsTextFormatter
-.
-cpp
-'
 ]
 xpcom_gluens_src_cppsrcs
 =

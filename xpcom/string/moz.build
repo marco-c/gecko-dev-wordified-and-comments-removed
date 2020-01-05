@@ -194,6 +194,11 @@ nsTDependentSubstring
 h
 '
 '
+nsTextFormatter
+.
+h
+'
+'
 nsTLiteralString
 .
 h
@@ -311,6 +316,11 @@ cpp
 '
 '
 nsSubstringTuple
+.
+cpp
+'
+'
+nsTextFormatter
 .
 cpp
 '
