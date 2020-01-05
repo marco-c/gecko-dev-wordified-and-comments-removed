@@ -14,7 +14,7 @@ state
 .
 filters
 .
-types
+requestFilterTypes
 .
 toSeq
 (

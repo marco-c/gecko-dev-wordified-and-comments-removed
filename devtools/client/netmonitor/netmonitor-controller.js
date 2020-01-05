@@ -1222,7 +1222,7 @@ dispatch
 (
 Actions
 .
-toggleFilterType
+toggleRequestFilterType
 (
 "
 all

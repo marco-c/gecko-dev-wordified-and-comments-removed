@@ -819,7 +819,7 @@ dispatch
 (
 Actions
 .
-enableFilterTypeOnly
+enableRequestFilterTypeOnly
 (
 item
 .
