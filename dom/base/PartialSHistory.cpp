@@ -789,6 +789,12 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+nsCOMPtr
+<
+nsISupports
+>
+promise
+;
 return
 mOwnerFrameLoader
 -
@@ -796,6 +802,10 @@ mOwnerFrameLoader
 RequestGroupedHistoryNavigation
 (
 aIndex
+getter_AddRefs
+(
+promise
+)
 )
 ;
 }

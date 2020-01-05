@@ -3494,6 +3494,11 @@ FontFaceSetLoadEvent
 webidl
 '
 '
+GroupedHistoryEvent
+.
+webidl
+'
+'
 HashChangeEvent
 .
 webidl
