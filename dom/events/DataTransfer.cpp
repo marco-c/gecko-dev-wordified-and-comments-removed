@@ -6431,13 +6431,6 @@ NS_LITERAL_STRING
 (
 kCustomTypesMime
 )
-)
-;
-item
--
->
-SetKind
-(
 DataTransferItem
 :
 :
