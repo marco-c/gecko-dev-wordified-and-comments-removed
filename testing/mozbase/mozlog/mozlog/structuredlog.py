@@ -1643,14 +1643,15 @@ log_action
 (
 List
 (
+Unicode
 "
 tests
 "
-Unicode
 )
                 
 Dict
 (
+Any
 "
 run_info
 "
@@ -1664,6 +1665,7 @@ True
                 
 Dict
 (
+Any
 "
 version_info
 "
@@ -1677,6 +1679,7 @@ True
                 
 Dict
 (
+Any
 "
 device_info
 "
@@ -1690,6 +1693,7 @@ True
                 
 Dict
 (
+Any
 "
 extra
 "
@@ -1810,6 +1814,7 @@ log_action
 (
 Dict
 (
+Any
 "
 extra
 "
@@ -2111,6 +2116,7 @@ True
                 
 Dict
 (
+Any
 "
 extra
 "
@@ -2420,6 +2426,7 @@ True
                 
 Dict
 (
+Any
 "
 extra
 "
@@ -2911,10 +2918,10 @@ True
                 
 List
 (
+Unicode
 "
 stackwalk_errors
 "
-Unicode
 default
 =
 None
@@ -2974,10 +2981,10 @@ None
                 
 List
 (
+Unicode
 "
 secondary
 "
-Unicode
 default
 =
 None
@@ -3611,13 +3618,13 @@ True
                 
 Tuple
 (
-"
-lineoffset
-"
 (
 Int
 Int
 )
+"
+lineoffset
+"
 default
 =
 None
