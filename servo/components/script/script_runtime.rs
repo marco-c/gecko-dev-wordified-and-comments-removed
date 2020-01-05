@@ -708,6 +708,10 @@ Runtime
 new
 (
 )
+.
+unwrap
+(
+)
 ;
 JS_AddExtraGCRootsTracer
 (
