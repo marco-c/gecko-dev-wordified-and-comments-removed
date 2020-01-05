@@ -99,6 +99,7 @@ defining
 binaries
 toolchains
 locales
+rust
 integrated
 development
 environment
