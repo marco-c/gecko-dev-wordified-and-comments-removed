@@ -413,6 +413,17 @@ override
 ;
 #
 endif
+ChromiumCDMProxy
+*
+AsChromiumCDMProxy
+(
+)
+override
+{
+return
+this
+;
+}
 private
 :
 void
