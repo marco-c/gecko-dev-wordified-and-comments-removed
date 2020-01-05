@@ -93,6 +93,16 @@ aFlags
 eWalkCache
 )
 ;
+TreeWalker
+(
+DocAccessible
+*
+aDocument
+nsIContent
+*
+aAnchorNode
+)
+;
 ~
 TreeWalker
 (
