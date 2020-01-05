@@ -7,7 +7,7 @@ JavaCallbacksSupport_h_
 #
 include
 "
-FennecJNINatives
+GeneratedJNINatives
 .
 h
 "

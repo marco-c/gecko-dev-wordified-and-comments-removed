@@ -43,7 +43,7 @@ C
 JNIEXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_mozglue_SharedMemBuffer_nativeReadFromDirectBuffer
+Java_org_mozilla_gecko_media_SharedMemBuffer_nativeReadFromDirectBuffer
 (
 JNIEnv
 *
@@ -177,7 +177,7 @@ size
 JNIEXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_mozglue_SharedMemBuffer_nativeWriteToDirectBuffer
+Java_org_mozilla_gecko_media_SharedMemBuffer_nativeWriteToDirectBuffer
 (
 JNIEnv
 *

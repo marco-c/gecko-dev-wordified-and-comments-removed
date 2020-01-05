@@ -66,17 +66,6 @@ gecko
 .
 mozglue
 .
-SharedMemBuffer
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
 SharedMemory
 ;
 import
