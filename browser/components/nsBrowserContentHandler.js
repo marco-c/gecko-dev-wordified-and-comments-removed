@@ -1274,7 +1274,7 @@ about
 preferences
 "
 ;
-sa
+args
 .
 appendElement
 (
