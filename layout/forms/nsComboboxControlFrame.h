@@ -146,7 +146,7 @@ NS_DECL_QUERYFRAME_TARGET
 nsComboboxControlFrame
 )
 friend
-nsContainerFrame
+nsComboboxControlFrame
 *
 NS_NewComboboxControlFrame
 (
