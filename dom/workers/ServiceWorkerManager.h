@@ -462,17 +462,6 @@ ErrorResult
 aRv
 )
 ;
-bool
-MayHaveActiveServiceWorkerInstance
-(
-ContentParent
-*
-aContent
-nsIPrincipal
-*
-aPrincipal
-)
-;
 void
 DispatchFetchEvent
 (
