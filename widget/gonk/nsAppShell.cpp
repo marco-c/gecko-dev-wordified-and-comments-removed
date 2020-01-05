@@ -4235,17 +4235,9 @@ ANDROID_VERSION
 18
 &
 &
-(
 defined
 (
 MOZ_OMX_DECODER
-)
-|
-|
-defined
-(
-MOZ_B2G_CAMERA
-)
 )
 android
 :

@@ -117,17 +117,6 @@ kRecorderPaused
 kRecorderResumed
 kPosterCreated
 kPosterFailed
-#
-ifdef
-MOZ_B2G_CAMERA
-kFileSizeLimitReached
-kVideoLengthLimitReached
-kTrackCompleted
-kTrackFailed
-kMediaRecorderFailed
-kMediaServerFailed
-#
-endif
 }
 ;
 enum
