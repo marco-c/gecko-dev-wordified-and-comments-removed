@@ -32,5 +32,5 @@ servo_util
 ;
 pub
 mod
-canvas_render_task
+canvas_paint_task
 ;

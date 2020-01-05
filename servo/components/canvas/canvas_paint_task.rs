@@ -95,7 +95,7 @@ Close
 }
 pub
 struct
-CanvasRenderTask
+CanvasPaintTask
 {
 drawtarget
 :
@@ -111,7 +111,7 @@ stroke_opts
 StrokeOptions
 }
 impl
-CanvasRenderTask
+CanvasPaintTask
 {
 fn
 new
@@ -125,13 +125,13 @@ i32
 )
 -
 >
-CanvasRenderTask
+CanvasPaintTask
 {
-CanvasRenderTask
+CanvasPaintTask
 {
 drawtarget
 :
-CanvasRenderTask
+CanvasPaintTask
 :
 :
 create
@@ -245,9 +245,9 @@ proc
 {
 let
 mut
-renderer
+painter
 =
-CanvasRenderTask
+CanvasPaintTask
 :
 :
 new
@@ -271,7 +271,7 @@ rect
 )
 =
 >
-renderer
+painter
 .
 fill_rect
 (
@@ -284,7 +284,7 @@ rect
 )
 =
 >
-renderer
+painter
 .
 stroke_rect
 (
@@ -297,7 +297,7 @@ rect
 )
 =
 >
-renderer
+painter
 .
 clear_rect
 (
@@ -309,7 +309,7 @@ size
 )
 =
 >
-renderer
+painter
 .
 recreate
 (
@@ -490,7 +490,7 @@ self
 .
 drawtarget
 =
-CanvasRenderTask
+CanvasPaintTask
 :
 :
 create

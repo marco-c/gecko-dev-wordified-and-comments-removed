@@ -93,7 +93,7 @@ use
 gfx
 :
 :
-render_task
+paint_task
 :
 :
 UnusedBufferMsg
@@ -926,7 +926,7 @@ borrow
 .
 pipeline
 .
-render_chan
+paint_chan
 .
 send_opt
 (
@@ -999,7 +999,7 @@ borrow
 .
 pipeline
 .
-render_chan
+paint_chan
 .
 send_opt
 (
@@ -1065,7 +1065,7 @@ borrow
 .
 pipeline
 .
-render_chan
+paint_chan
 .
 send_opt
 (

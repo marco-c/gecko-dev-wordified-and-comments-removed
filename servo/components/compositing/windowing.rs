@@ -77,7 +77,7 @@ compositor_msg
 :
 {
 ReadyState
-RenderState
+PaintState
 }
 ;
 use
@@ -463,13 +463,13 @@ ReadyState
 )
 ;
 fn
-set_render_state
+set_paint_state
 (
 &
 self
-render_state
+paint_state
 :
-RenderState
+PaintState
 )
 ;
 fn

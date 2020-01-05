@@ -276,7 +276,7 @@ CharIndex
 ;
 pub
 struct
-RenderContext
+PaintContext
 <
 '
 a
@@ -335,7 +335,7 @@ impl
 '
 a
 >
-RenderContext
+PaintContext
 <
 '
 a
@@ -5658,7 +5658,7 @@ self
 .
 font_ctx
 .
-get_render_font_from_template
+get_paint_font_from_template
 (
 &
 text
@@ -6453,7 +6453,7 @@ self
 rctx
 :
 &
-RenderContext
+PaintContext
 run
 :
 &
@@ -6496,7 +6496,7 @@ self
 rctx
 :
 &
-RenderContext
+PaintContext
 run
 :
 &

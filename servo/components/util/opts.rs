@@ -112,7 +112,7 @@ Vec
 String
 >
 pub
-n_render_threads
+n_paint_threads
 :
 uint
 pub
@@ -643,7 +643,7 @@ vec
 !
 (
 )
-n_render_threads
+n_paint_threads
 :
 1
 gpu_painting
@@ -894,7 +894,7 @@ threads
 "
 Number
 of
-render
+paint
 threads
 "
 "
@@ -1538,7 +1538,7 @@ unwrap
 ;
 let
 mut
-n_render_threads
+n_paint_threads
 :
 uint
 =
@@ -1554,13 +1554,13 @@ t
 {
 Some
 (
-n_render_threads_str
+n_paint_threads_str
 )
 =
 >
 from_str
 (
-n_render_threads_str
+n_paint_threads_str
 .
 as_slice
 (
@@ -1766,7 +1766,7 @@ layout
 if
 trace_layout
 {
-n_render_threads
+n_paint_threads
 =
 1
 ;
@@ -1967,9 +1967,9 @@ Opts
 urls
 :
 urls
-n_render_threads
+n_paint_threads
 :
-n_render_threads
+n_paint_threads
 gpu_painting
 :
 gpu_painting

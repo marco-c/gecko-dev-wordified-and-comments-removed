@@ -615,7 +615,7 @@ the
 tile
 size
 for
-rendering
+painting
 ;
 defaults
 to

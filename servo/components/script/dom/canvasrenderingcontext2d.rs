@@ -118,12 +118,12 @@ use
 canvas
 :
 :
-canvas_render_task
+canvas_paint_task
 :
 :
 {
 CanvasMsg
-CanvasRenderTask
+CanvasPaintTask
 ClearRect
 Close
 FillRect
@@ -206,7 +206,7 @@ global
 )
 renderer
 :
-CanvasRenderTask
+CanvasPaintTask
 :
 :
 start

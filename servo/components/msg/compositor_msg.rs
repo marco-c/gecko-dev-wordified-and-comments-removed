@@ -80,10 +80,10 @@ Clone
 ]
 pub
 enum
-RenderState
+PaintState
 {
-IdleRenderState
-RenderingRenderState
+IdlePaintState
+PaintingPaintState
 }
 #
 [
@@ -281,7 +281,7 @@ ScrollPolicy
 }
 pub
 trait
-RenderListener
+PaintListener
 for
 Sized
 ?
@@ -347,7 +347,7 @@ LayerBufferSet
 )
 ;
 fn
-render_msg_discarded
+paint_msg_discarded
 (
 &
 mut
@@ -355,13 +355,13 @@ self
 )
 ;
 fn
-set_render_state
+set_paint_state
 (
 &
 mut
 self
 PipelineId
-RenderState
+PaintState
 )
 ;
 }
