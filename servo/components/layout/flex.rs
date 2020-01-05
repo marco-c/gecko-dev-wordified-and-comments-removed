@@ -112,7 +112,7 @@ model
 {
 IntrinsicISizes
 MaybeAuto
-MinMaxConstraint
+SizeConstraint
 }
 ;
 use
@@ -272,7 +272,7 @@ Au
 )
 MinMax
 (
-MinMaxConstraint
+SizeConstraint
 )
 Infinite
 }
@@ -418,7 +418,7 @@ AxisSize
 :
 MinMax
 (
-MinMaxConstraint
+SizeConstraint
 :
 :
 new
@@ -426,6 +426,7 @@ new
 content_size
 min
 max
+None
 )
 )
 }

@@ -1496,7 +1496,6 @@ ImageFragmentInfo
 new
 (
 node
-node
 .
 image_url
 (
@@ -1542,7 +1541,6 @@ ImageFragmentInfo
 :
 new
 (
-node
 node
 .
 object_data
@@ -1711,13 +1709,7 @@ CanvasFragmentInfo
 :
 new
 (
-node
 data
-self
-.
-style_context
-(
-)
 )
 )
 }
@@ -1761,13 +1753,7 @@ SvgFragmentInfo
 :
 new
 (
-node
 data
-self
-.
-style_context
-(
-)
 )
 )
 }
@@ -7758,7 +7744,6 @@ ImageFragmentInfo
 :
 new
 (
-node
 url_value
 .
 url
