@@ -1014,7 +1014,7 @@ BackgroundHangMonitor
 Gecko_Child_ForcePaint
 "
 128
-8192
+1024
 BackgroundHangMonitor
 :
 :
