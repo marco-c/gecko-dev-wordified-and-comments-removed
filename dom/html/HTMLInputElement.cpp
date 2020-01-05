@@ -22412,6 +22412,15 @@ GetEditorState
 )
 )
 {
+mInputData
+.
+mState
+-
+>
+SyncUpSelectionPropertiesBeforeDestruction
+(
+)
+;
 sp
 =
 mInputData
