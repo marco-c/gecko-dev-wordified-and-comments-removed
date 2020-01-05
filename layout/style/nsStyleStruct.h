@@ -5568,7 +5568,7 @@ nsChangeHint
 nsStyleCorners
 mOutlineRadius
 ;
-nsStyleCoord
+nscoord
 mOutlineWidth
 ;
 nscoord

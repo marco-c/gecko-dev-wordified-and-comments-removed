@@ -6896,7 +6896,7 @@ offsetof
 nsStyleOutline
 mOutlineWidth
 )
-eStyleAnimType_Coord
+eStyleAnimType_nscoord
 )
 CSS_PROP_SHORTHAND
 (
