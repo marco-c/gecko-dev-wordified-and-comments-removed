@@ -101,6 +101,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+override
 MOZ_MUST_OVERRIDE
 =
 0
