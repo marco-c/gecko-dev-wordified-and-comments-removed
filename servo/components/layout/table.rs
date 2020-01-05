@@ -63,7 +63,6 @@ flow
 {
 IMPACTED_BY_RIGHT_FLOATS
 ImmutableFlowUtils
-MutableFlowUtils
 OpaqueFlow
 }
 ;
@@ -3609,7 +3608,7 @@ a
 &
 mut
 self
-layout_context
+_
 :
 &
 '
@@ -4033,12 +4032,6 @@ style
 writing_mode
 }
 ;
-kid
-.
-late_store_overflow
-(
-layout_context
-)
 }
 }
 self

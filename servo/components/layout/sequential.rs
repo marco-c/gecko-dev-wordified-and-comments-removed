@@ -535,14 +535,6 @@ assign_inline_sizes
 assign_block_sizes
 )
 ;
-root
-.
-late_store_overflow
-(
-&
-layout_context
-)
-;
 }
 pub
 fn
