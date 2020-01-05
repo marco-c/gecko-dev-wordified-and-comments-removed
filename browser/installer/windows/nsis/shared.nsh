@@ -9736,14 +9736,6 @@ exe
 "
 Push
 "
-minidump
--
-analyzer
-.
-exe
-"
-Push
-"
 updater
 .
 exe

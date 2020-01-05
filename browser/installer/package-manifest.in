@@ -4757,12 +4757,6 @@ BINPATH
 /
 crashreporter
 BIN_SUFFIX
-BINPATH
-/
-minidump
--
-analyzer
-BIN_SUFFIX
 RESPATH
 /
 crashreporter
