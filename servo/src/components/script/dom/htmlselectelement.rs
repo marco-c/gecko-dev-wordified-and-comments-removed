@@ -47,7 +47,7 @@ pub
 struct
 HTMLSelectElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

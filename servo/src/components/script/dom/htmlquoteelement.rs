@@ -26,7 +26,7 @@ pub
 struct
 HTMLQuoteElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

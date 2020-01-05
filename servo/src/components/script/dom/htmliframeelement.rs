@@ -150,7 +150,7 @@ pub
 struct
 HTMLIFrameElement
 {
-parent
+htmlelement
 :
 HTMLElement
 frame
@@ -434,9 +434,9 @@ DOMString
 {
 self
 .
-parent
+htmlelement
 .
-parent
+element
 .
 GetAttribute
 (
@@ -471,9 +471,9 @@ DOMString
 {
 self
 .
-parent
+htmlelement
 .
-parent
+element
 .
 SetAttribute
 (

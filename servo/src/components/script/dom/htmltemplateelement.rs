@@ -11,7 +11,7 @@ pub
 struct
 HTMLTemplateElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

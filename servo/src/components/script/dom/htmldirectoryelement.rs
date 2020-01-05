@@ -23,7 +23,7 @@ pub
 struct
 HTMLDirectoryElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

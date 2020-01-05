@@ -26,7 +26,7 @@ pub
 struct
 HTMLParagraphElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

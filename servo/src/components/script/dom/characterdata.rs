@@ -59,7 +59,7 @@ pub
 struct
 CharacterData
 {
-parent
+node
 :
 Node
 <
@@ -91,7 +91,7 @@ CharacterData
 {
 CharacterData
 {
-parent
+node
 :
 Node
 :
@@ -392,7 +392,7 @@ WrapperCache
 {
 self
 .
-parent
+node
 .
 get_wrappercache
 (
@@ -456,7 +456,7 @@ CacheableWrapper
 {
 self
 .
-parent
+node
 .
 GetParentObject
 (

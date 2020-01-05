@@ -30,7 +30,7 @@ DocumentType
 View
 >
 {
-parent
+node
 :
 Node
 <
@@ -99,7 +99,7 @@ ScriptView
 {
 DocumentType
 {
-parent
+node
 :
 Node
 :

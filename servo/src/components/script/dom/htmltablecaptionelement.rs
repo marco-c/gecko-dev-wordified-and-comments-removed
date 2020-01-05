@@ -26,7 +26,7 @@ pub
 struct
 HTMLTableCaptionElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

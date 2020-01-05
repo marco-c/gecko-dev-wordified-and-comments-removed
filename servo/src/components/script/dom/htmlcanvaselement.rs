@@ -25,7 +25,7 @@ pub
 struct
 HTMLCanvasElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

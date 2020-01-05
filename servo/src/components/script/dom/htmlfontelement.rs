@@ -26,7 +26,7 @@ pub
 struct
 HTMLFontElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

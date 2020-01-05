@@ -732,7 +732,7 @@ root
 =
 HTMLHtmlElement
 {
-parent
+htmlelement
 :
 HTMLElement
 :
@@ -1896,7 +1896,7 @@ s
 =
 text
 .
-parent
+element
 .
 Data
 (
@@ -2124,7 +2124,7 @@ new_title
 =
 HTMLTitleElement
 {
-parent
+htmlelement
 :
 HTMLElement
 :

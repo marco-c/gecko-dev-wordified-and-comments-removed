@@ -307,7 +307,7 @@ _element
 =
 ctor
 {
-parent
+htmlelement
 :
 HTMLElement
 :
@@ -448,7 +448,7 @@ _element
 =
 ctor
 {
-parent
+htmlelement
 :
 HTMLMediaElement
 :
@@ -2345,7 +2345,7 @@ element
 =
 HTMLUnknownElement
 {
-parent
+htmlelement
 :
 HTMLElement
 :
@@ -2654,7 +2654,7 @@ root
 =
 HTMLHtmlElement
 {
-parent
+htmlelement
 :
 HTMLElement
 :
@@ -3200,9 +3200,9 @@ elem
 mut
 iframe_element
 .
-parent
+htmlelement
 .
-parent
+element
 ;
 let
 src_opt
@@ -4008,7 +4008,7 @@ push
 (
 text
 .
-parent
+element
 .
 data
 .
@@ -4231,7 +4231,7 @@ push
 (
 text
 .
-parent
+element
 .
 data
 .

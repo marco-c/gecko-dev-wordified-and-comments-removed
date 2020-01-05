@@ -26,7 +26,7 @@ pub
 struct
 HTMLBaseElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

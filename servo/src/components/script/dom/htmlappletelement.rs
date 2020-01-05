@@ -26,7 +26,7 @@ pub
 struct
 HTMLAppletElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

@@ -26,7 +26,7 @@ pub
 struct
 HTMLLinkElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

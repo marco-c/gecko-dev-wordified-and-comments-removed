@@ -26,7 +26,7 @@ pub
 struct
 HTMLUListElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

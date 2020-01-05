@@ -25,7 +25,7 @@ pub
 struct
 HTMLPreElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

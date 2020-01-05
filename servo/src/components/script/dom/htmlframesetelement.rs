@@ -26,7 +26,7 @@ pub
 struct
 HTMLFrameSetElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

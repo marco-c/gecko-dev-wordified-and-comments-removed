@@ -26,7 +26,7 @@ pub
 struct
 HTMLDataElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

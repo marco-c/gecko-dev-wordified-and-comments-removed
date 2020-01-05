@@ -26,7 +26,7 @@ pub
 struct
 HTMLLegendElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

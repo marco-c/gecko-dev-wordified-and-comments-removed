@@ -89,7 +89,7 @@ pub
 struct
 HTMLElement
 {
-parent
+element
 :
 Element
 }
@@ -114,7 +114,7 @@ HTMLElement
 {
 HTMLElement
 {
-parent
+element
 :
 Element
 :
@@ -658,7 +658,7 @@ WrapperCache
 {
 self
 .
-parent
+element
 .
 get_wrappercache
 (
@@ -728,7 +728,7 @@ CacheableWrapper
 {
 self
 .
-parent
+element
 .
 GetParentObject
 (

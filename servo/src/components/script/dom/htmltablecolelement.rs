@@ -26,7 +26,7 @@ pub
 struct
 HTMLTableColElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

@@ -27,7 +27,7 @@ pub
 struct
 HTMLTextAreaElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

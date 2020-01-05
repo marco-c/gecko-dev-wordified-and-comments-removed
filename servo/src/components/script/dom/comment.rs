@@ -50,7 +50,7 @@ pub
 struct
 Comment
 {
-parent
+element
 :
 CharacterData
 }
@@ -72,7 +72,7 @@ Comment
 {
 Comment
 {
-parent
+element
 :
 CharacterData
 :

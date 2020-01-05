@@ -35,7 +35,7 @@ pub
 struct
 HTMLEmbedElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

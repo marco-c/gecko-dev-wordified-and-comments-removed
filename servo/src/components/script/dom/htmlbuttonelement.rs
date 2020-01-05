@@ -47,7 +47,7 @@ pub
 struct
 HTMLButtonElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

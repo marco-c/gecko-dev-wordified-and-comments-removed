@@ -34,7 +34,7 @@ pub
 struct
 HTMLHeadingElement
 {
-parent
+htmlelement
 :
 HTMLElement
 level

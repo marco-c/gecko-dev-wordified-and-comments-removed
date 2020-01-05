@@ -69,7 +69,7 @@ pub
 struct
 HTMLFieldSetElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }
@@ -197,11 +197,11 @@ doc
 =
 self
 .
-parent
+htmlelement
 .
-parent
+element
 .
-parent
+node
 .
 owner_doc
 .

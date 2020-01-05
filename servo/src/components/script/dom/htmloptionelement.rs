@@ -38,7 +38,7 @@ pub
 struct
 HTMLOptionElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }

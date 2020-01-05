@@ -26,7 +26,7 @@ pub
 struct
 HTMLStyleElement
 {
-parent
+htmlelement
 :
 HTMLElement
 }
