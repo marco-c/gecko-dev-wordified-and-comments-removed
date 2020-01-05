@@ -702,7 +702,7 @@ StyleChildrenIteratorBorrowedMut
 it
 )
 ;
-uint16_t
+uint64_t
 Gecko_ElementState
 (
 RawGeckoElementBorrowed

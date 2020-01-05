@@ -37,7 +37,7 @@ uint64_t
 InternalType
 ;
 typedef
-uint16_t
+uint64_t
 ServoType
 ;
 constexpr
