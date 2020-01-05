@@ -474,6 +474,9 @@ script
 clean
 -
 msg
+clean
+-
+style
 (
 call
 E
