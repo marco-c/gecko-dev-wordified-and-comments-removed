@@ -1007,6 +1007,9 @@ cbHandleCompletion
 "
 safeCallback
 "
+"
+_methodsCallableFromChild
+"
 ]
 "
 controller
@@ -2855,6 +2858,9 @@ sendMessageToJava
 "
 "
 Messaging
+"
+"
+EventDispatcher
 "
 ]
 "
