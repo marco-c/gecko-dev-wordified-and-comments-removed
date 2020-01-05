@@ -1588,13 +1588,6 @@ override
 ;
 virtual
 bool
-IsRunningTimeout
-(
-)
-override
-;
-virtual
-bool
 WouldReuseInnerWindow
 (
 nsIDocument
