@@ -743,6 +743,13 @@ defined
 MOZ_WIDGET_ANDROID
 )
 void
+SetNotificationPipeForChild
+(
+int
+childCrashFd
+)
+;
+void
 AddLibraryMapping
 (
 const
