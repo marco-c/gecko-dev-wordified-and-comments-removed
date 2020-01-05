@@ -4252,14 +4252,7 @@ fail
 =
 nullptr
 )
-DEFINED_ON
-(
-x86
-x64
-arm
-mips32
-mips64
-)
+PER_ARCH
 ;
 inline
 void
