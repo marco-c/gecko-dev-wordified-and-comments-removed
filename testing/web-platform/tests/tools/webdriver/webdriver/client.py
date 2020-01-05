@@ -3302,6 +3302,11 @@ url
 text
 "
 )
+key
+=
+"
+value
+"
 )
     
 property
@@ -3333,6 +3338,11 @@ url
 name
 "
 )
+key
+=
+"
+value
+"
 )
     
 command
@@ -3368,6 +3378,11 @@ s
 %
 property_name
 )
+key
+=
+"
+value
+"
 )
     
 property
@@ -3404,6 +3419,46 @@ rect
 command
     
 def
+property
+(
+self
+name
+)
+:
+        
+return
+self
+.
+session
+.
+send_command
+(
+"
+GET
+"
+self
+.
+url
+(
+"
+property
+/
+%
+s
+"
+%
+name
+)
+key
+=
+"
+value
+"
+)
+    
+command
+    
+def
 attribute
 (
 self
@@ -3434,4 +3489,9 @@ s
 %
 name
 )
+key
+=
+"
+value
+"
 )
