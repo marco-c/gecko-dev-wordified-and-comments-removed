@@ -1973,12 +1973,6 @@ download_update
 (
 dialog
 )
-                
-dialog
-.
-close
-(
-)
             
 finally
 :
