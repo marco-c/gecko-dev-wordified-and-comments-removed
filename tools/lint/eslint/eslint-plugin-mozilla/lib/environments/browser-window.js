@@ -70,12 +70,7 @@ rootDir
 =
 helpers
 .
-getRootDir
-(
-module
-.
-filename
-)
+rootDir
 ;
 const
 EXTRA_SCRIPTS

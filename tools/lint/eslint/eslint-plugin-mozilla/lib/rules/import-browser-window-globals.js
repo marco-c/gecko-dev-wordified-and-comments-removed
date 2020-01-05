@@ -78,10 +78,7 @@ relative
 (
 helpers
 .
-getRootDir
-(
-filePath
-)
+rootDir
 filePath
 )
 ;
