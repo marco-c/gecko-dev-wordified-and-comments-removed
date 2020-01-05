@@ -1497,7 +1497,7 @@ return_
 Label
 bailout
 ;
-loadPtr
+load32
 (
 Address
 (
