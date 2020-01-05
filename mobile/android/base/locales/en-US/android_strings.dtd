@@ -3082,7 +3082,7 @@ Tabs
 <
 !
 ENTITY
-pref_custom_tabs_summary2
+pref_custom_tabs_summary3
 "
 Allow
 apps
@@ -3094,7 +3094,9 @@ a
 customized
 version
 of
-Firefox
+&
+brandShortName
+;
 "
 >
 <
