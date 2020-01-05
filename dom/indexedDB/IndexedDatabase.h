@@ -147,6 +147,9 @@ IDBDatabase
 *
 mDatabase
 ;
+bool
+mHasPreprocessInfo
+;
 inline
 StructuredCloneReadInfo
 (
