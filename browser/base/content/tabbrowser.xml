@@ -45297,6 +45297,9 @@ inherits
 src
 =
 image
+loadingprincipal
+=
+iconLoadingPrincipal
 fadein
 pinned
 selected
