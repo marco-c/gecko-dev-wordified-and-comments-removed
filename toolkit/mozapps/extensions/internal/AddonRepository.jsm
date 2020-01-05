@@ -459,13 +459,6 @@ dictionary
 "
 ;
 const
-KEY_PROFILEDIR
-=
-"
-ProfD
-"
-;
-const
 FILE_DATABASE
 =
 "

@@ -76,15 +76,6 @@ localhost
 PORT
 ;
 const
-DEFAULT_URL
-=
-"
-about
-:
-blank
-"
-;
-const
 REQ_URL
 =
 "

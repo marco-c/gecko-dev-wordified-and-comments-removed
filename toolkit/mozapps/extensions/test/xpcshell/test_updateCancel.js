@@ -413,7 +413,6 @@ UPDATE_WHEN_USER_REQUESTED
 ;
 let
 [
-request
 response
 ]
 =
@@ -567,7 +566,6 @@ UPDATE_WHEN_USER_REQUESTED
 ;
 let
 [
-request
 response
 ]
 =

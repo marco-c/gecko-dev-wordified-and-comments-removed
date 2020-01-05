@@ -3972,7 +3972,6 @@ id
 let
 [
 event
-expectedRestart
 ]
 =
 getExpectedEvent
@@ -4118,7 +4117,6 @@ id
 let
 [
 event
-expectedRestart
 ]
 =
 getExpectedEvent
@@ -4251,7 +4249,6 @@ id
 let
 [
 event
-expectedRestart
 ]
 =
 getExpectedEvent
@@ -4371,7 +4368,6 @@ id
 let
 [
 event
-expectedRestart
 ]
 =
 getExpectedEvent
@@ -4419,7 +4415,6 @@ id
 let
 [
 event
-expectedRestart
 ]
 =
 getExpectedEvent

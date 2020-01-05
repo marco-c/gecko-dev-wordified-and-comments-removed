@@ -35,11 +35,6 @@ XPCShell
 "
 )
 ;
-var
-count
-=
-0
-;
 startupManager
 (
 )

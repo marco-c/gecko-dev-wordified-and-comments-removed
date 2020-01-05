@@ -187,13 +187,6 @@ blockRepoShutdown
 )
 {
 let
-realAddonRepo
-=
-AMscope
-.
-AddonRepository
-;
-let
 mockRepo
 =
 mockAddonProvider

@@ -34,17 +34,6 @@ tempScope
 LightweightThemeManager
 ;
 const
-PREF_GETADDONS_MAXRESULTS
-=
-"
-extensions
-.
-getAddons
-.
-maxResults
-"
-;
-const
 PREF_GETADDONS_GETSEARCHRESULTS
 =
 "

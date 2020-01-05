@@ -462,9 +462,7 @@ startupManager
 ;
 let
 [
-pe
 pd
-ue
 ud
 ]
 =
@@ -934,9 +932,6 @@ uninstall_bootstrap
 let
 [
 pe
-pd
-ue
-ud
 ]
 =
 yield

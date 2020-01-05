@@ -1,6 +1,3 @@
-var
-gManagerWindow
-;
 function
 test
 (

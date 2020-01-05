@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 kXULNS
 =
@@ -30,11 +35,6 @@ kDialog
 =
 "
 dialog
-"
-;
-"
-use
-strict
 "
 ;
 var

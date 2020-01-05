@@ -495,9 +495,6 @@ function
 {
 try
 {
-let
-updates
-=
 yield
 checkUpdates
 (

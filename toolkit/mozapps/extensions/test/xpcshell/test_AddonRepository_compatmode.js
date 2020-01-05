@@ -56,9 +56,6 @@ identity
 .
 primaryPort
 ;
-var
-COMPATIBILITY_PREF
-;
 mapFile
 (
 "

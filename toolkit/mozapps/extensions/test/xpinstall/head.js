@@ -1706,13 +1706,6 @@ false
 )
 ;
 let
-win
-=
-gBrowser
-.
-contentWindow
-;
-let
 listener
 =
 (

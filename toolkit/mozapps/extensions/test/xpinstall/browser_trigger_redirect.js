@@ -296,13 +296,6 @@ install
 "
 )
 ;
-var
-doc
-=
-gBrowser
-.
-contentDocument
-;
 is
 (
 gBrowser

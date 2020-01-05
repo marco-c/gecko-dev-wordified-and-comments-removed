@@ -1,17 +1,4 @@
 const
-PREF_GETADDONS_BROWSESEARCHRESULTS
-=
-"
-extensions
-.
-getAddons
-.
-search
-.
-browseURL
-"
-;
-const
 PREF_GETADDONS_GETSEARCHRESULTS
 =
 "

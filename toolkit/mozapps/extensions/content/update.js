@@ -2256,15 +2256,6 @@ updates
 "
 )
 ;
-var
-itemCount
-=
-gUpdateWizard
-.
-addonsToUpdate
-.
-length
-;
 for
 (
 let

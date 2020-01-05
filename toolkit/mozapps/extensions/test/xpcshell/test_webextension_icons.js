@@ -761,15 +761,6 @@ addon
 null
 )
 ;
-let
-uri
-=
-do_get_addon_root_uri
-(
-profileDir
-ID
-)
-;
 deepEqual
 (
 addon
