@@ -184,6 +184,8 @@ constellation_msg
 :
 {
 LoadIframeUrlMsg
+IFrameSandboxed
+IFrameUnsandboxed
 }
 ;
 use
@@ -4346,6 +4348,7 @@ HtmlDiscoveredIFrame
 iframe_url
 subpage_id
 size_future
+sandboxed
 )
 )
 )
@@ -4364,6 +4367,19 @@ subpage_id
 1
 )
 ;
+let
+sandboxed
+=
+if
+sandboxed
+{
+IFrameSandboxed
+}
+else
+{
+IFrameUnsandboxed
+}
+;
 self
 .
 constellation_chan
@@ -4376,6 +4392,7 @@ iframe_url
 pipeline_id
 subpage_id
 size_future
+sandboxed
 )
 )
 ;
