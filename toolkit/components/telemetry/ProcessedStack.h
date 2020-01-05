@@ -55,10 +55,7 @@ mModIndex
 struct
 Module
 {
-std
-:
-:
-string
+nsString
 mName
 ;
 std
