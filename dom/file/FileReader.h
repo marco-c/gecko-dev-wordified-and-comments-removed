@@ -478,10 +478,7 @@ void
 DispatchError
 (
 nsresult
-rv
-nsAString
-&
-finalEvent
+aRv
 )
 ;
 nsresult
@@ -510,12 +507,6 @@ DoOnLoadEnd
 (
 nsresult
 aStatus
-nsAString
-&
-aSuccessEvent
-nsAString
-&
-aTerminationEvent
 )
 ;
 void
