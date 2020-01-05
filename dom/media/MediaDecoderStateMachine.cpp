@@ -4488,9 +4488,6 @@ TimeDuration
 :
 FromSeconds
 (
-mMaster
--
->
 mBufferingWait
 *
 mMaster
@@ -4505,9 +4502,6 @@ mMaster
 >
 HasLowBufferedData
 (
-mMaster
--
->
 mBufferingWait
 *
 USECS_PER_S
@@ -4538,13 +4532,7 @@ in
 .
 3lfs
 "
-mMaster
--
->
 mBufferingWait
-mMaster
--
->
 mBufferingWait
 -
 elapsed
@@ -4991,6 +4979,12 @@ private
 :
 TimeStamp
 mBufferingStart
+;
+const
+uint32_t
+mBufferingWait
+=
+15
 ;
 }
 ;
@@ -5910,10 +5904,6 @@ thread
 InitVideoQueuePrefs
 (
 )
-;
-mBufferingWait
-=
-15
 ;
 mLowDataThresholdUsecs
 =
