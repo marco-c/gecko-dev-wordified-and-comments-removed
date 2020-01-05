@@ -50902,10 +50902,6 @@ true
 aDialog
 aNavigate
 argv
-1
-.
-0f
-0
 getter_AddRefs
 (
 domReturn
@@ -50955,10 +50951,6 @@ false
 aDialog
 aNavigate
 aExtraArgument
-1
-.
-0f
-0
 getter_AddRefs
 (
 domReturn

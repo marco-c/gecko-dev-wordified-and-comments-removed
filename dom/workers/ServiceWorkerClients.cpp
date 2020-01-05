@@ -2609,10 +2609,6 @@ false
 false
 true
 nullptr
-1
-.
-0f
-0
 getter_AddRefs
 (
 newWindow
