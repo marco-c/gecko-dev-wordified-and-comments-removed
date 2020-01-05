@@ -185,6 +185,8 @@ HACKING_QUICKSTART
 md
 ]
 (
+docs
+/
 HACKING_QUICKSTART
 .
 md
