@@ -5696,13 +5696,13 @@ vp
 ;
 extern
 bool
-GetPropertyForNameLookup
+GetNameBoundInEnvironment
 (
 JSContext
 *
 cx
 HandleObject
-obj
+env
 HandleId
 id
 MutableHandleValue
