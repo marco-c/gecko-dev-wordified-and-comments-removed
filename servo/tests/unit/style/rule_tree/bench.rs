@@ -67,7 +67,6 @@ properties
 :
 {
 longhands
-DeclaredValue
 Importance
 PropertyDeclaration
 PropertyDeclarationBlock
@@ -489,11 +488,6 @@ PropertyDeclaration
 :
 Display
 (
-DeclaredValue
-:
-:
-Value
-(
 longhands
 :
 :
@@ -504,7 +498,6 @@ SpecifiedValue
 :
 :
 block
-)
 )
 Importance
 :

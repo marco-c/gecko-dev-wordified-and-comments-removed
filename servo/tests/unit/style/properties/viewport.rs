@@ -11,10 +11,7 @@ style
 properties
 :
 :
-{
-DeclaredValue
 PropertyDeclaration
-}
 ;
 use
 style
@@ -70,11 +67,6 @@ PropertyDeclaration
 :
 BorderTopWidth
 (
-DeclaredValue
-:
-:
-Value
-(
 border_top_width
 :
 :
@@ -105,7 +97,6 @@ Vw
 )
 )
 )
-)
 ;
 assert
 !
@@ -124,11 +115,6 @@ PropertyDeclaration
 :
 :
 BorderTopWidth
-(
-DeclaredValue
-:
-:
-Value
 (
 border_top_width
 :
@@ -151,7 +137,6 @@ Absolute
 Au
 (
 100
-)
 )
 )
 )

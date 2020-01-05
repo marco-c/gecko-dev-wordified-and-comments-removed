@@ -7521,13 +7521,7 @@ PropertyDeclaration
 :
 property
 (
-DeclaredValue
-:
-:
-Value
-(
 inner
-)
 )
 )
 *
@@ -7676,7 +7670,6 @@ properties
 :
 :
 {
-DeclaredValue
 PropertyDeclaration
 LonghandId
 }
@@ -7803,7 +7796,6 @@ properties
 :
 :
 {
-DeclaredValue
 PropertyDeclaration
 LonghandId
 }
@@ -8165,7 +8157,6 @@ properties
 :
 :
 {
-DeclaredValue
 PropertyDeclaration
 LonghandId
 }
@@ -8279,7 +8270,6 @@ properties
 :
 :
 {
-DeclaredValue
 PropertyDeclaration
 LonghandId
 }
@@ -8583,7 +8573,6 @@ properties
 :
 :
 {
-DeclaredValue
 PropertyDeclaration
 LonghandId
 }
@@ -8738,7 +8727,6 @@ properties
 :
 :
 {
-DeclaredValue
 PropertyDeclaration
 LonghandId
 }
@@ -8866,7 +8854,6 @@ properties
 :
 :
 {
-DeclaredValue
 PropertyDeclaration
 LonghandId
 }
@@ -9015,7 +9002,6 @@ properties
 :
 :
 {
-DeclaredValue
 PropertyDeclaration
 LonghandId
 }
@@ -9190,10 +9176,7 @@ style
 properties
 :
 :
-{
-DeclaredValue
 PropertyDeclaration
-}
 ;
 use
 style
@@ -9289,13 +9272,7 @@ PropertyDeclaration
 :
 FontFamily
 (
-DeclaredValue
-:
-:
-Value
-(
 family
-)
 )
 ;
 declarations
@@ -9340,10 +9317,7 @@ style
 properties
 :
 :
-{
-DeclaredValue
 PropertyDeclaration
-}
 ;
 use
 style
@@ -9402,13 +9376,7 @@ PropertyDeclaration
 :
 TextDecorationLine
 (
-DeclaredValue
-:
-:
-Value
-(
 decoration
-)
 )
 ;
 declarations

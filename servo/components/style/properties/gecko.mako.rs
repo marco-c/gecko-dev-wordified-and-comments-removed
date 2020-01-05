@@ -427,7 +427,6 @@ properties
 :
 :
 {
-DeclaredValue
 Importance
 LonghandId
 }
@@ -1245,11 +1244,6 @@ prop
 camel_case
 }
 (
-DeclaredValue
-:
-:
-Value
-(
 %
 if
 prop
@@ -1317,7 +1311,6 @@ boxed
 )
 %
 endif
-)
 )
 Importance
 :

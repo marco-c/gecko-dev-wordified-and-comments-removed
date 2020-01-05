@@ -1960,11 +1960,10 @@ a
 Name
 specified_value
 :
-&
-'
-a
 DeclaredValue
 <
+'
+a
 Box
 <
 SpecifiedValue
@@ -2096,7 +2095,6 @@ unwrap
 }
 ;
 match
-*
 specified_value
 {
 DeclaredValue
