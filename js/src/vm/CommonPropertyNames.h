@@ -2162,6 +2162,15 @@ RegExpBuiltinExec
 \
 macro
 (
+RegExpFlagsGetter
+RegExpFlagsGetter
+"
+RegExpFlagsGetter
+"
+)
+\
+macro
+(
 RegExpMatcher
 RegExpMatcher
 "
