@@ -577,15 +577,6 @@ XP_WIN
 #
 include
 "
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
-"
 nsWindowsRegKey
 .
 h
