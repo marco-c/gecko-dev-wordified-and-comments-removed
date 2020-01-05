@@ -5104,7 +5104,7 @@ pn
 ;
 }
 void
-setPrologue
+setInDirectivePrologue
 (
 ParseNode
 *

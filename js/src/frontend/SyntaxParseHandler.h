@@ -2183,7 +2183,7 @@ pn
 ;
 }
 void
-setPrologue
+setInDirectivePrologue
 (
 Node
 pn
