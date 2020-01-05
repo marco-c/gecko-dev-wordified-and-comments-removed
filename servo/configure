@@ -1700,6 +1700,11 @@ rust
 core
 -
 foundation
+rust
+-
+core
+-
+graphics
 {
 CFG_SUBMODULES
 }
