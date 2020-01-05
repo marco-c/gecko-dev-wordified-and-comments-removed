@@ -253,6 +253,9 @@ attribute
 boolean
 closed
 ;
+[
+Throws
+]
 void
 postMessage
 (
