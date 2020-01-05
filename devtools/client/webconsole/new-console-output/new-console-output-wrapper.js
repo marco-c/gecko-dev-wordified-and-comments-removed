@@ -666,6 +666,16 @@ messagesClear
 )
 ;
 }
+getStore
+:
+function
+(
+)
+{
+return
+store
+;
+}
 }
 ;
 function
