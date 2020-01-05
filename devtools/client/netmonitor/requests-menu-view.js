@@ -386,6 +386,15 @@ RequestListContextMenu
 (
 )
 ;
+this
+.
+contextMenu
+.
+initialize
+(
+store
+)
+;
 Prefs
 .
 filters
