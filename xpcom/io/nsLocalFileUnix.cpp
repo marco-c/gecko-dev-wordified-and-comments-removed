@@ -5216,8 +5216,10 @@ static
 bool
 GetDeviceName
 (
+unsigned
 int
 aDeviceMajor
+unsigned
 int
 aDeviceMinor
 nsACString
@@ -5259,10 +5261,10 @@ SprintfLiteral
 deviceNum
 "
 %
-d
+u
 :
 %
-d
+u
 "
 aDeviceMajor
 aDeviceMinor
