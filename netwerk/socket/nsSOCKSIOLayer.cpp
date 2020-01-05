@@ -4680,6 +4680,10 @@ unreachable
 )
 )
 ;
+c
+=
+PR_BAD_ADDRESS_ERROR
+;
 break
 ;
 case

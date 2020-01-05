@@ -732,6 +732,15 @@ NS_ERROR_FILE_READ_ONLY
 ;
 break
 ;
+case
+PR_BAD_ADDRESS_ERROR
+:
+rv
+=
+NS_ERROR_UNKNOWN_HOST
+;
+break
+;
 default
 :
 if
