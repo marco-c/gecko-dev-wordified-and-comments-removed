@@ -468,9 +468,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 )
@@ -481,11 +479,6 @@ deferred404Hit
 resolve
 (
 )
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

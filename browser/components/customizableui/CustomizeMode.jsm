@@ -13433,16 +13433,9 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 aFunc
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

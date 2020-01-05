@@ -68377,9 +68377,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 )
@@ -68411,7 +68409,6 @@ e
 ;
 }
 }
-0
 )
 ;
 return

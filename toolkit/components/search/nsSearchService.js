@@ -12788,16 +12788,9 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 func
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

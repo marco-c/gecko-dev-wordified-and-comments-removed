@@ -7019,9 +7019,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 function
 (
@@ -7039,11 +7037,6 @@ getMostRecentBrowserWindow
 )
 ;
 }
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

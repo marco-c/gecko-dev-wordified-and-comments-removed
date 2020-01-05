@@ -6577,9 +6577,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 {
 run
@@ -6594,11 +6592,6 @@ func
 ;
 }
 }
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

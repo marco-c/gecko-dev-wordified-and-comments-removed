@@ -1884,16 +1884,9 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 runnable
-Ci
-.
-nsIEventTarget
-.
-DISPATCH_NORMAL
 )
 ;
 }

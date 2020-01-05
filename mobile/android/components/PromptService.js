@@ -2824,16 +2824,9 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 runnable
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }
