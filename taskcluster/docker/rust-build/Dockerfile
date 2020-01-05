@@ -119,6 +119,9 @@ ADD
 repack_rust
 .
 py
+splat_rust
+.
+py
 /
 build
 /

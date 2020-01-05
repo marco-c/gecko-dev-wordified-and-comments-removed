@@ -128,7 +128,7 @@ linux
 -
 gnu
 "
-arm
+arm_android
 =
 "
 arm
@@ -136,6 +136,15 @@ arm
 linux
 -
 androideabi
+"
+x86_android
+=
+"
+i686
+-
+linux
+-
+android
 "
 mkdir
 -
@@ -180,7 +189,7 @@ target
 x64
 }
 {
-i586
+i686
 }
 {
 OPTIONS
