@@ -781,6 +781,7 @@ tagURI
 (
 uri1
 [
+undefined
 "
 tagSparse
 "
@@ -825,6 +826,7 @@ untagURI
 (
 uri1
 [
+undefined
 "
 tagSparse
 "

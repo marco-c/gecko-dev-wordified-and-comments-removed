@@ -529,6 +529,17 @@ error
 "
 no
 -
+sparse
+-
+arrays
+"
+:
+"
+error
+"
+"
+no
+-
 trailing
 -
 spaces
