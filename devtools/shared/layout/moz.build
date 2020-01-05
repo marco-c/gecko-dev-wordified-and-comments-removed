@@ -88,6 +88,15 @@ MPL
 DevToolsModules
 (
 '
+dom
+-
+matrix
+-
+2d
+.
+js
+'
+'
 utils
 .
 js
