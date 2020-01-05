@@ -35,7 +35,6 @@ percent
 1
 .
 html
-fails
 =
 =
 min
@@ -52,7 +51,6 @@ width
 1
 .
 html
-fails
 =
 =
 min
@@ -69,7 +67,6 @@ height
 1
 .
 html
-fails
 =
 =
 max
@@ -86,7 +83,6 @@ width
 1
 .
 html
-fails
 =
 =
 max
