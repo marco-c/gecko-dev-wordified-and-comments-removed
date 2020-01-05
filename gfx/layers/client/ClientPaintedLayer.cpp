@@ -766,6 +766,16 @@ phase
 "
 )
 ;
+#
+ifdef
+XP_MACOSX
+if
+(
+true
+)
+{
+#
+else
 if
 (
 gfxPrefs
@@ -776,6 +786,8 @@ LayersTilesEnabled
 )
 )
 {
+#
+endif
 RefPtr
 <
 ClientTiledPaintedLayer
