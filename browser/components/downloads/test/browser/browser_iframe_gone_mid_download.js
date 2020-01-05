@@ -213,7 +213,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 }

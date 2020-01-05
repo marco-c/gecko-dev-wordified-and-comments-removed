@@ -800,7 +800,6 @@ addObserver
 (
 kDrawInTitlebarPref
 this
-false
 )
 ;
 }
@@ -1473,7 +1472,6 @@ startup
 -
 finished
 "
-false
 )
 ;
 }
@@ -1905,7 +1903,6 @@ window
 -
 updated
 "
-false
 )
 ;
 CustomizableUI

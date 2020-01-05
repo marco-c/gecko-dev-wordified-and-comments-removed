@@ -859,7 +859,6 @@ bookmarks
 addObserver
 (
 observer
-false
 )
 ;
 }

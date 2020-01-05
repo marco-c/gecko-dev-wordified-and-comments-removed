@@ -917,7 +917,6 @@ addObserver
 (
 this
 aTopic
-false
 )
 ;
 }

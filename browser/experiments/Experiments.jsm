@@ -10627,7 +10627,6 @@ addObserver
 (
 this
 EXPERIMENTS_CHANGED_TOPIC
-false
 )
 ;
 }

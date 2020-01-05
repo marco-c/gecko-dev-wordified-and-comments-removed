@@ -541,7 +541,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -2203,7 +2202,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -3861,7 +3859,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -4631,7 +4628,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -5336,7 +5332,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -5975,7 +5970,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -6559,7 +6553,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -7002,7 +6995,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -7498,7 +7490,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -8060,7 +8051,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let
@@ -8326,7 +8316,6 @@ addObserver
 (
 observer
 OBSERVER_TOPIC
-false
 )
 ;
 let

@@ -224,7 +224,6 @@ visit
 -
 saved
 "
-false
 )
 ;
 BrowserTestUtils

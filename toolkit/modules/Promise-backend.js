@@ -265,7 +265,6 @@ finalization
 -
 witness
 "
-false
 )
 ;
 }

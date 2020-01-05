@@ -446,7 +446,6 @@ history
 addObserver
 (
 historyObserver
-false
 )
 ;
 }

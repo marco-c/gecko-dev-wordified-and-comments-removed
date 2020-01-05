@@ -735,7 +735,6 @@ collection
 -
 statistics
 "
-false
 )
 ;
 if

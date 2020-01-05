@@ -320,7 +320,6 @@ resolve
 ;
 }
 }
-false
 )
 ;
 }

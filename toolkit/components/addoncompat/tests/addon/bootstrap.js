@@ -1037,7 +1037,6 @@ element
 -
 inserted
 "
-false
 )
 ;
 let

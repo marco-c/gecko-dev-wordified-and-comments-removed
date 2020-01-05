@@ -2294,7 +2294,6 @@ manager
 -
 close
 "
-false
 )
 ;
 Services

@@ -54,7 +54,6 @@ test
 -
 flushed
 "
-false
 )
 ;
 notify

@@ -139,7 +139,6 @@ user
 -
 sync
 "
-false
 )
 ;
 suspended

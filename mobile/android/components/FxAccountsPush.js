@@ -208,7 +208,6 @@ FxAccountsPush
 :
 ReceivedPushMessageToDecode
 "
-false
 )
 ;
 EventDispatcher

@@ -748,7 +748,6 @@ _updateMaxTabsUndo
 )
 ;
 }
-false
 )
 ;
 Services
@@ -782,7 +781,6 @@ PREFS_RESTORE_FROM_CRASH
 )
 ;
 }
-false
 )
 ;
 Services
@@ -816,7 +814,6 @@ PREFS_MAX_CRASH_RESUMES
 )
 ;
 }
-false
 )
 ;
 }
@@ -1293,7 +1290,6 @@ windows
 -
 restored
 "
-false
 )
 ;
 this

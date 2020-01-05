@@ -2437,7 +2437,6 @@ addObserver
 (
 this
 topic
-false
 )
 ;
 }

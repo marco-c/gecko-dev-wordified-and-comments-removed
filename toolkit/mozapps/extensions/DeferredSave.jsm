@@ -243,7 +243,6 @@ addObserver
 (
 PREF_LOGGING_ENABLED
 this
-false
 )
 ;
 Services
@@ -258,7 +257,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 this

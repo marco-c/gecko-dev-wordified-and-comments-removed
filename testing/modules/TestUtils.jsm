@@ -180,7 +180,6 @@ ex
 }
 }
 topic
-false
 )
 ;
 }

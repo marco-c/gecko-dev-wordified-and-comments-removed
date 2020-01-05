@@ -161,7 +161,6 @@ monitor
 -
 update
 "
-false
 )
 ;
 Services

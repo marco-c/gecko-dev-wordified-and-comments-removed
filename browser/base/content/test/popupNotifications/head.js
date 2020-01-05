@@ -151,7 +151,6 @@ obsData
 ;
 }
 topic
-false
 )
 ;
 return

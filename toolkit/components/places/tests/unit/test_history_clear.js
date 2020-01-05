@@ -100,7 +100,6 @@ history
 addObserver
 (
 historyObserver
-false
 )
 ;
 return

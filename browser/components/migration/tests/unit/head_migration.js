@@ -399,7 +399,6 @@ Migration
 :
 Ended
 "
-false
 )
 ;
 migrator

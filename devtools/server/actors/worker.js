@@ -1304,7 +1304,6 @@ this
 PushService
 .
 subscriptionModifiedTopic
-false
 )
 ;
 }

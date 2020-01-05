@@ -331,7 +331,6 @@ history
 addObserver
 (
 observer
-false
 )
 ;
 }
@@ -1405,7 +1404,6 @@ uriToRemove
 PlacesUtils
 .
 TOPIC_EXPIRATION_FINISHED
-false
 )
 ;
 Services

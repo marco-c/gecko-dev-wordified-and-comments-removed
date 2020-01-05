@@ -639,7 +639,6 @@ startupcache
 -
 invalidate
 "
-false
 )
 ;
 startupManager

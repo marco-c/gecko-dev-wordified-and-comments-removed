@@ -477,7 +477,6 @@ log
 -
 event
 "
-false
 )
 ;
 registerCleanupFunction

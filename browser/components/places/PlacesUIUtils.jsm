@@ -971,7 +971,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 Services

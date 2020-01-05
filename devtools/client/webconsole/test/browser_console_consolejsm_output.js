@@ -1896,7 +1896,6 @@ api
 -
 profiler
 "
-false
 )
 ;
 console

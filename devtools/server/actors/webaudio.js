@@ -2376,7 +2376,6 @@ node
 -
 demise
 "
-false
 )
 ;
 emit

@@ -608,7 +608,6 @@ addObserver
 (
 JSON_VIEW_PREF
 this
-false
 )
 ;
 Services
@@ -623,7 +622,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

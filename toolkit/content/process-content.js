@@ -184,7 +184,6 @@ addObserver
 (
 this
 topic
-false
 )
 ;
 Services

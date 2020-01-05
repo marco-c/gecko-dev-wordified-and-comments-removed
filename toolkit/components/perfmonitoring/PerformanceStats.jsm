@@ -2120,7 +2120,6 @@ value
 ;
 }
 FINALIZATION_TOPIC
-false
 )
 ;
 this

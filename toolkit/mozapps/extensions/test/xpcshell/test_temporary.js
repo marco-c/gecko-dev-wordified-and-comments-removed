@@ -308,7 +308,6 @@ bootstrapmonitor
 -
 event
 "
-false
 )
 ;
 }

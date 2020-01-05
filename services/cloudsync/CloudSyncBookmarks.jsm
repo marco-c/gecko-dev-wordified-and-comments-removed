@@ -1265,7 +1265,6 @@ bookmarks
 addObserver
 (
 observer
-false
 )
 ;
 suspended

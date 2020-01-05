@@ -158,7 +158,6 @@ window
 -
 ready
 "
-false
 )
 }
 )

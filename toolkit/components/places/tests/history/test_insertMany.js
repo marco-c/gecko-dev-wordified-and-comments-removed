@@ -418,7 +418,6 @@ history
 addObserver
 (
 obs
-false
 )
 ;
 }

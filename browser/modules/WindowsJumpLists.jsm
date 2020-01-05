@@ -2161,7 +2161,6 @@ before
 -
 change
 "
-false
 )
 ;
 Services
@@ -2180,7 +2179,6 @@ session
 -
 history
 "
-false
 )
 ;
 _prefs
@@ -2190,7 +2188,6 @@ addObserver
 "
 "
 this
-false
 )
 ;
 }

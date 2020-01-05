@@ -392,7 +392,6 @@ worker
 -
 shutdown
 "
-false
 )
 ;
 }

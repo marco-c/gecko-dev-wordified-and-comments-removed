@@ -437,7 +437,6 @@ engine
 -
 modified
 "
-false
 )
 ;
 SpecialPowers

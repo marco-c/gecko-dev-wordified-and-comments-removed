@@ -163,7 +163,6 @@ addObserver
 (
 onDialogShown
 obsName
-false
 )
 ;
 yield
@@ -356,7 +355,6 @@ element
 -
 inserted
 "
-false
 )
 ;
 }

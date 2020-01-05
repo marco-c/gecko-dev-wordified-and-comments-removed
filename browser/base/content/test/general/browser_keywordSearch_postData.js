@@ -193,7 +193,6 @@ engine
 -
 modified
 "
-false
 )
 ;
 registerCleanupFunction

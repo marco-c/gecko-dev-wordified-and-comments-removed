@@ -304,7 +304,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 sendAsyncMessage

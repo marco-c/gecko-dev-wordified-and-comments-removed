@@ -479,7 +479,6 @@ quit
 -
 application
 "
-false
 )
 ;
 }

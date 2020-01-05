@@ -219,7 +219,6 @@ login
 :
 finish
 "
-false
 )
 ;
 Services
@@ -238,7 +237,6 @@ sync
 :
 finish
 "
-false
 )
 ;
 Services
@@ -255,7 +253,6 @@ tabs
 :
 update
 "
-false
 )
 ;
 this

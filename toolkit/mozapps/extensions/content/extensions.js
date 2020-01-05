@@ -1631,7 +1631,6 @@ EM
 -
 ping
 "
-false
 )
 ;
 Services

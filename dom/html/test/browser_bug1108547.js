@@ -144,7 +144,6 @@ callback
 ;
 }
 topic
-false
 )
 ;
 }

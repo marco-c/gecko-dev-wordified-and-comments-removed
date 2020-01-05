@@ -894,7 +894,6 @@ addObserver
 (
 PREF_DISABLED
 this
-false
 )
 ;
 Services
@@ -905,7 +904,6 @@ addObserver
 (
 PREF_DISABLED_PLUGIN_TYPES
 this
-false
 )
 ;
 Services
@@ -916,7 +914,6 @@ addObserver
 (
 this
 TOPIC_PDFJS_HANDLER_CHANGED
-false
 )
 ;
 Services
@@ -927,7 +924,6 @@ addObserver
 (
 this
 TOPIC_PLUGINS_LIST_UPDATED
-false
 )
 ;
 Services
@@ -938,7 +934,6 @@ addObserver
 (
 this
 TOPIC_PLUGIN_INFO_UPDATED
-false
 )
 ;
 initializeDefaultPreferences

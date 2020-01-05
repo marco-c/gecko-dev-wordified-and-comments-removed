@@ -932,7 +932,6 @@ devtools
 theme
 "
 handlePrefChange
-false
 )
 ;
 window

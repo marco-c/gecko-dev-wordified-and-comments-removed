@@ -303,7 +303,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 this

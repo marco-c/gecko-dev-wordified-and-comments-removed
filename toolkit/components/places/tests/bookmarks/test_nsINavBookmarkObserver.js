@@ -549,7 +549,6 @@ bookmarks
 addObserver
 (
 gBookmarksObserver
-false
 )
 ;
 PlacesUtils
@@ -559,7 +558,6 @@ bookmarks
 addObserver
 (
 gBookmarkSkipObserver
-false
 )
 ;
 }

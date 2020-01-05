@@ -396,7 +396,6 @@ window
 -
 destroyed
 "
-false
 )
 ;
 }
@@ -1441,7 +1440,6 @@ browser
 -
 shown
 "
-false
 )
 ;
 }

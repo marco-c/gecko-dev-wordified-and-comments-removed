@@ -3939,7 +3939,6 @@ addObserver
 (
 aObservePref
 this
-false
 )
 ;
 }

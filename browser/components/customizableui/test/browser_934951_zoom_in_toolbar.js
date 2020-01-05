@@ -573,7 +573,6 @@ addObserver
 (
 notificationCallback
 aObserver
-false
 )
 ;
 return

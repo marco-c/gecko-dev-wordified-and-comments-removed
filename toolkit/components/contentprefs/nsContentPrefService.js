@@ -136,7 +136,6 @@ context
 -
 exited
 "
-false
 )
 ;
 this
@@ -151,7 +150,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 }

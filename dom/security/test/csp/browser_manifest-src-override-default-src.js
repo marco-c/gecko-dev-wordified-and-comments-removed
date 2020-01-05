@@ -672,7 +672,6 @@ violate
 -
 policy
 "
-false
 )
 ;
 return

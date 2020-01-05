@@ -232,7 +232,6 @@ addObserver
 (
 PREF_UPLOAD_ENABLED
 this
-false
 )
 ;
 Services
@@ -243,7 +242,6 @@ addObserver
 (
 this
 EVENT_HEALTH_RESPONSE
-false
 )
 ;
 }

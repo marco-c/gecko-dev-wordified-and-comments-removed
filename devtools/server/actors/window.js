@@ -237,7 +237,6 @@ webnavigation
 -
 destroy
 "
-false
 )
 ;
 }

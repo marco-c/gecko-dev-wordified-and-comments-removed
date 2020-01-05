@@ -859,7 +859,6 @@ appCache
 {
 }
 }
-false
 )
 ;
 do_test_pending

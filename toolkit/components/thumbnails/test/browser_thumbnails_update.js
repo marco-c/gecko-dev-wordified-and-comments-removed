@@ -314,7 +314,6 @@ thumbnail
 :
 create
 "
-false
 )
 ;
 yield

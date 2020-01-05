@@ -262,7 +262,6 @@ xpcom
 -
 shutdown
 "
-false
 )
 ;
 this

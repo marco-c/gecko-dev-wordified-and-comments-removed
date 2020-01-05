@@ -3065,7 +3065,6 @@ this
 this
 .
 TOPIC_SHUTDOWN
-false
 )
 ;
 }
@@ -11365,7 +11364,6 @@ bookmarks
 addObserver
 (
 observer
-false
 )
 ;
 PlacesUtils
@@ -12230,7 +12228,6 @@ addObserver
 this
 .
 observer
-false
 )
 ;
 PlacesUtils

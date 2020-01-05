@@ -805,7 +805,6 @@ observer
 "
 earlyformsubmit
 "
-false
 )
 ;
 var
@@ -832,7 +831,6 @@ addObserver
 observer
 .
 onPrefChange
-false
 )
 ;
 observer

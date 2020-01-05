@@ -291,7 +291,6 @@ update
 -
 finished
 "
-false
 )
 ;
 let

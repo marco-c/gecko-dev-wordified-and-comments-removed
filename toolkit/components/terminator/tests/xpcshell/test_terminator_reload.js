@@ -363,7 +363,6 @@ resolve
 ;
 }
 TOPIC
-false
 )
 )
 ;

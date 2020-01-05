@@ -244,7 +244,6 @@ addObserver
 (
 obs
 NS_LINK_VISITED_EVENT_TOPIC
-false
 )
 ;
 var

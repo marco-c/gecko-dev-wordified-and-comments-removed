@@ -226,7 +226,6 @@ aData
 ;
 }
 aTopic
-false
 )
 )
 ;

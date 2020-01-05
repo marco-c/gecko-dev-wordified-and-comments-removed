@@ -154,7 +154,6 @@ frameloader
 -
 crashed
 "
-false
 )
 ;
 info

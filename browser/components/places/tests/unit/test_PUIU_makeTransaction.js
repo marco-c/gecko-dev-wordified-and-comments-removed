@@ -337,7 +337,6 @@ aItemType
 ;
 }
 }
-false
 )
 ;
 }

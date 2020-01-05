@@ -684,7 +684,6 @@ addObserver
 "
 "
 this
-false
 )
 ;
 this
@@ -3096,13 +3095,6 @@ clicks
 return
 ;
 }
-BrowserUsageTelemetry
-.
-recordUrlbarSelectedResultMethod
-(
-event
-)
-;
 /
 /
 Determine

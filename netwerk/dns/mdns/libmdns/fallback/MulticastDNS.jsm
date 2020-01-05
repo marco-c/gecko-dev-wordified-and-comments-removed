@@ -851,7 +851,6 @@ this
 .
 _networkLinkObserver
 NS_NETWORK_LINK_TOPIC
-false
 )
 ;
 this

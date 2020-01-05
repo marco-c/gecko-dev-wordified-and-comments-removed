@@ -955,7 +955,6 @@ collection
 -
 statistics
 "
-false
 )
 ;
 }

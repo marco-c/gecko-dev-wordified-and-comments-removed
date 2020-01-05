@@ -376,7 +376,6 @@ addObserver
 (
 observer
 o
-false
 )
 ;
 }
