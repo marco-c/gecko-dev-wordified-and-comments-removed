@@ -204,6 +204,8 @@ int
 start
 int
 end
+int
+flags
 )
 ;
 /

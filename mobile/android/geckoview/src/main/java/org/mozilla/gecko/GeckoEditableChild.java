@@ -250,6 +250,8 @@ int
 start
 int
 end
+int
+flags
 )
 {
 GeckoEditableChild
@@ -260,6 +262,7 @@ onImeUpdateComposition
 (
 start
 end
+flags
 )
 ;
 }
@@ -472,6 +475,15 @@ rangeLineColor
 )
 ;
 WrapForJNI
+public
+static
+final
+int
+FLAG_KEEP_CURRENT_COMPOSITION
+=
+1
+;
+WrapForJNI
 (
 dispatchTo
 =
@@ -489,6 +501,8 @@ int
 start
 int
 end
+int
+flags
 )
 ;
 WrapForJNI

@@ -999,6 +999,8 @@ int32_t
 aStart
 int32_t
 aEnd
+int32_t
+aFlags
 )
 ;
 void
