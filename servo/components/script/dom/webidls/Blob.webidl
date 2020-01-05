@@ -157,6 +157,14 @@ optional
 BlobPropertyBag
 options
 )
+Exposed
+=
+Window
+/
+*
+Worker
+*
+/
 ]
 interface
 Blob
@@ -173,8 +181,6 @@ attribute
 DOMString
 type
 ;
-/
-/
 readonly
 attribute
 boolean
@@ -211,8 +217,6 @@ DOMString
 contentType
 )
 ;
-/
-/
 void
 close
 (
