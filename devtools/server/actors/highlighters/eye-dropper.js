@@ -158,6 +158,8 @@ chrome
 /
 /
 devtools
+-
+shared
 /
 locale
 /
