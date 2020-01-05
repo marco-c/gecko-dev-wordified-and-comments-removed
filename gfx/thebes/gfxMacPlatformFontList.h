@@ -149,13 +149,11 @@ mFontRef
 )
 ;
 }
-virtual
 CGFontRef
 GetFontRef
 (
 )
 ;
-virtual
 hb_blob_t
 *
 GetFontTable
@@ -165,7 +163,6 @@ aTag
 )
 override
 ;
-virtual
 void
 AddSizeOfIncludingThis
 (
@@ -209,7 +206,6 @@ IsCFF
 ;
 protected
 :
-virtual
 gfxFont
 *
 CreateFontInstance
@@ -223,7 +219,6 @@ aNeedsBold
 )
 override
 ;
-virtual
 bool
 HasFontTable
 (
@@ -439,7 +434,6 @@ aList
 ;
 protected
 :
-virtual
 gfxFontFamily
 *
 GetDefaultFontForPlatform
@@ -467,7 +461,6 @@ gfxMacPlatformFontList
 (
 )
 ;
-virtual
 nsresult
 InitFontListForPlatform
 (

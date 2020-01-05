@@ -76,7 +76,6 @@ return
 mCGFont
 ;
 }
-virtual
 uint32_t
 GetSpaceGlyph
 (
@@ -87,7 +86,6 @@ return
 mSpaceGlyph
 ;
 }
-virtual
 bool
 SetupCairoFont
 (
@@ -97,7 +95,6 @@ aDrawTarget
 )
 override
 ;
-virtual
 RunMetrics
 Measure
 (
@@ -122,7 +119,6 @@ aOrientation
 )
 override
 ;
-virtual
 bool
 ProvidesGlyphWidths
 (
@@ -157,7 +153,6 @@ x
 )
 ;
 }
-virtual
 int32_t
 GetGlyphWidth
 (
@@ -169,7 +164,6 @@ aGID
 )
 override
 ;
-virtual
 already_AddRefed
 <
 mozilla
@@ -194,7 +188,6 @@ aTarget
 )
 override
 ;
-virtual
 already_AddRefed
 <
 mozilla
@@ -216,7 +209,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 AddSizeOfExcludingThis
 (
@@ -232,7 +224,6 @@ aSizes
 const
 override
 ;
-virtual
 void
 AddSizeOfIncludingThis
 (
@@ -248,7 +239,6 @@ aSizes
 const
 override
 ;
-virtual
 FontType
 GetType
 (
@@ -276,7 +266,6 @@ nullptr
 ;
 protected
 :
-virtual
 const
 Metrics
 &
@@ -289,7 +278,6 @@ return
 mMetrics
 ;
 }
-virtual
 bool
 ShapeText
 (
