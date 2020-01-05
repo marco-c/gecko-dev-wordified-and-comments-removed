@@ -170,17 +170,6 @@ important
 ;
 }
 .
-controlsSpacer
-[
-hideCursor
-]
-{
-cursor
-:
-none
-;
-}
-.
 controlsOverlay
 [
 scaled
