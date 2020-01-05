@@ -73,8 +73,6 @@ displayWidth
 unsigned
 int
 displayHeight
-double
-frameRate
 )
 ;
 void

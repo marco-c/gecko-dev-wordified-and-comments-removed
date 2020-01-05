@@ -77,9 +77,6 @@ mDisplayWidth
 int32_t
 mDisplayHeight
 ;
-int32_t
-mEncodedFrameRate
-;
 MetadataKind
 GetKind
 (

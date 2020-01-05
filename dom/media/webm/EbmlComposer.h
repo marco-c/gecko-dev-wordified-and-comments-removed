@@ -41,8 +41,6 @@ uint32_t
 aDisplayWidth
 uint32_t
 aDisplayHeight
-float
-aFrameRate
 )
 ;
 void
@@ -185,9 +183,6 @@ mDisplayWidth
 ;
 int
 mDisplayHeight
-;
-float
-mFrameRate
 ;
 float
 mSampleFreq
