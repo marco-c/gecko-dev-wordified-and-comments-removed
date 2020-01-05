@@ -179,11 +179,6 @@ nsMaiInterfaceTable
 cpp
 '
 '
-nsMaiInterfaceTableCell
-.
-cpp
-'
-'
 nsMaiInterfaceText
 .
 cpp
