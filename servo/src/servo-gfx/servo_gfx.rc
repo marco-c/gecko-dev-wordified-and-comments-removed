@@ -372,3 +372,13 @@ gfx_font
 =
 font
 ;
+use
+gfx_font_context
+=
+font_context
+;
+use
+gfx_font_list
+=
+font_list
+;
