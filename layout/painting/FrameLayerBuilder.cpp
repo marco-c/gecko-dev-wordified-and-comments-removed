@@ -18112,7 +18112,6 @@ layerClip
 }
 }
 }
-else
 if
 (
 item
@@ -18129,6 +18128,18 @@ nsDisplayItem
 TYPE_MASK
 )
 {
+MOZ_ASSERT
+(
+layerClip
+.
+GetRoundedRectCount
+(
+)
+=
+=
+0
+)
+;
 nsDisplayMask
 *
 maskItem
