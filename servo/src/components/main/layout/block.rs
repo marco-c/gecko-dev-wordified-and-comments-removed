@@ -1882,7 +1882,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 .
@@ -1908,7 +1907,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 .
@@ -2299,7 +2297,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 ;
@@ -2937,7 +2934,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 ;
@@ -3510,7 +3506,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 .
@@ -3536,7 +3531,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 .
@@ -3635,7 +3629,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 ;
@@ -4160,7 +4153,6 @@ flow
 :
 mut_base
 (
-*
 child
 )
 ;
@@ -4416,7 +4408,6 @@ flow
 :
 mut_base
 (
-*
 child
 )
 ;
@@ -4646,7 +4637,6 @@ flow
 :
 mut_base
 (
-*
 child_ctx
 )
 ;
@@ -5650,7 +5640,6 @@ flow
 :
 mut_base
 (
-*
 kid
 )
 ;
