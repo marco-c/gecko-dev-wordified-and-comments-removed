@@ -502,6 +502,9 @@ self
 session
 action_type
 input_id
+pointer_params
+=
+None
 )
 :
         
@@ -561,6 +564,17 @@ input
 source
 .
         
+:
+param
+pointer_params
+:
+Optional
+dictionary
+of
+pointer
+parameters
+.
+        
 "
 "
 "
@@ -589,6 +603,12 @@ _actions
 =
 [
 ]
+        
+self
+.
+_pointer_params
+=
+pointer_params
     
 property
     
@@ -599,9 +619,10 @@ self
 )
 :
         
-return
+d
+=
 {
-          
+            
 "
 type
 "
@@ -609,7 +630,7 @@ type
 self
 .
 _type
-          
+            
 "
 id
 "
@@ -617,7 +638,7 @@ id
 self
 .
 _id
-          
+            
 "
 actions
 "
@@ -627,6 +648,29 @@ self
 _actions
         
 }
+        
+if
+self
+.
+_pointer_params
+is
+not
+None
+:
+            
+d
+[
+"
+parameters
+"
+]
+=
+self
+.
+_pointer_params
+        
+return
+d
     
 command
     
