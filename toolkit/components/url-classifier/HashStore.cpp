@@ -783,7 +783,7 @@ TableUpdateV4
 NewFullHashResponse
 (
 const
-nsACString
+Prefix
 &
 aPrefix
 CachedFullHashResponse
@@ -800,6 +800,10 @@ mFullHashResponseMap
 LookupOrAdd
 (
 aPrefix
+.
+ToUint32
+(
+)
 )
 ;
 if
