@@ -276,7 +276,6 @@ mem
 :
 {
 transmute
-uninitialized
 zeroed
 }
 ;
@@ -10067,12 +10066,12 @@ coord
 :
 nsStyleCoord
 =
-unsafe
-{
-uninitialized
+nsStyleCoord
+:
+:
+null
 (
 )
-}
 ;
 for
 (
