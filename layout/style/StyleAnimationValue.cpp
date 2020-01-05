@@ -4267,6 +4267,9 @@ break
 case
 eUnit_Filter
 :
+case
+eUnit_Shadow
+:
 {
 if
 (
