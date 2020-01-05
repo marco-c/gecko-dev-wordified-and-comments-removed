@@ -116,6 +116,9 @@ class
 AutoUnlockHelperThreadState
 ;
 class
+CompileError
+;
+class
 PromiseTask
 ;
 struct
@@ -1981,9 +1984,6 @@ sourceCompressionTask
 ;
 Vector
 <
-frontend
-:
-:
 CompileError
 *
 0

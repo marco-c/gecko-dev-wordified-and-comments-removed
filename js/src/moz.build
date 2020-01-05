@@ -2334,6 +2334,13 @@ cpp
 '
 vm
 /
+ErrorReporting
+.
+cpp
+'
+'
+vm
+/
 ForOfIterator
 .
 cpp

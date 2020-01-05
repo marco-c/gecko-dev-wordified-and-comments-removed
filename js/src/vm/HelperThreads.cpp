@@ -91,6 +91,15 @@ include
 "
 vm
 /
+ErrorReporting
+.
+h
+"
+#
+include
+"
+vm
+/
 SharedImmutableStringsCache
 .
 h
@@ -8016,7 +8025,7 @@ JSContext
 :
 addPendingCompileError
 (
-frontend
+js
 :
 :
 CompileError
@@ -8030,7 +8039,7 @@ errorPtr
 =
 make_unique
 <
-frontend
+js
 :
 :
 CompileError

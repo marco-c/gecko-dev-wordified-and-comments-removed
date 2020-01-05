@@ -16230,10 +16230,9 @@ pos
 begin
 )
 )
-ts
-.
-compileError
+ReportCompileError
 (
+cx
 Move
 (
 metadata
