@@ -220,6 +220,7 @@ deriving
 Clone
 Eq
 IterBytes
+Encodable
 )
 ]
 pub
@@ -236,6 +237,7 @@ deriving
 Clone
 Eq
 IterBytes
+Encodable
 )
 ]
 pub

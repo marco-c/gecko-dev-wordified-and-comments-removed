@@ -5,10 +5,7 @@ dom
 node
 :
 :
-{
-AbstractNode
 LayoutDataRef
-}
 ;
 use
 extra
@@ -133,7 +130,7 @@ LayoutQuery
 {
 ContentBoxQuery
 (
-AbstractNode
+TrustedNodeAddress
 Chan
 <
 ContentBoxResponse
@@ -141,7 +138,7 @@ ContentBoxResponse
 )
 ContentBoxesQuery
 (
-AbstractNode
+TrustedNodeAddress
 Chan
 <
 ContentBoxesResponse
@@ -149,7 +146,7 @@ ContentBoxesResponse
 )
 HitTestQuery
 (
-AbstractNode
+TrustedNodeAddress
 Point2D
 <
 f32
@@ -166,7 +163,7 @@ HitTestResponse
 )
 MouseOverQuery
 (
-AbstractNode
+TrustedNodeAddress
 Point2D
 <
 f32
@@ -182,6 +179,13 @@ MouseOverResponse
 >
 )
 }
+pub
+type
+TrustedNodeAddress
+=
+*
+c_void
+;
 pub
 type
 UntrustedNodeAddress
@@ -281,7 +285,7 @@ DocumentDamage
 {
 root
 :
-AbstractNode
+TrustedNodeAddress
 level
 :
 DocumentDamageLevel
@@ -306,7 +310,7 @@ Reflow
 {
 document_root
 :
-AbstractNode
+TrustedNodeAddress
 damage
 :
 DocumentDamage

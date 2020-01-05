@@ -258,6 +258,7 @@ mut
 FlowConstructor
 node
 :
+&
 ThreadSafeLayoutNode
 is_fixed
 :
@@ -318,6 +319,7 @@ mut
 FlowConstructor
 node
 :
+&
 ThreadSafeLayoutNode
 float_type
 :

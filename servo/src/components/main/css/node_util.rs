@@ -78,6 +78,7 @@ ComputedValues
 fn
 have_css_select_results
 (
+&
 self
 )
 -
@@ -87,6 +88,7 @@ bool
 fn
 get_restyle_damage
 (
+&
 self
 )
 -
@@ -96,6 +98,7 @@ RestyleDamage
 fn
 set_restyle_damage
 (
+&
 self
 damage
 :
@@ -189,6 +192,7 @@ unwrap
 fn
 have_css_select_results
 (
+&
 self
 )
 -
@@ -225,6 +229,7 @@ is_some
 fn
 get_restyle_damage
 (
+&
 self
 )
 -
@@ -303,6 +308,7 @@ default
 fn
 set_restyle_damage
 (
+&
 self
 damage
 :

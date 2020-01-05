@@ -2298,6 +2298,7 @@ mut
 FlowConstructor
 node
 :
+&
 ThreadSafeLayoutNode
 )
 -
@@ -2313,7 +2314,6 @@ OpaqueNode
 :
 from_thread_safe_layout_node
 (
-&
 node
 )
 style
