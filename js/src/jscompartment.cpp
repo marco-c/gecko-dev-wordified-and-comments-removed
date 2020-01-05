@@ -4729,6 +4729,12 @@ purge
 (
 )
 ;
+newProxyCache
+.
+purge
+(
+)
+;
 lastCachedNativeIterator
 =
 nullptr
