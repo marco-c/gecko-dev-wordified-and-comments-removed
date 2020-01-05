@@ -91,13 +91,6 @@ BROWSER_CHROME_MANIFESTS
 [
 '
 browser
--
-window
-.
-ini
-'
-'
-browser
 .
 ini
 '
