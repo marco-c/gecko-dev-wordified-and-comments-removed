@@ -762,6 +762,14 @@ ins
 )
 ;
 void
+visitToAsyncIter
+(
+MToAsyncIter
+*
+ins
+)
+;
+void
 visitToId
 (
 MToId
