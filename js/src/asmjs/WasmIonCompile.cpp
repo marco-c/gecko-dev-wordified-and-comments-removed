@@ -17223,12 +17223,8 @@ iter
 (
 )
 .
-readUnary
+readGrowMemory
 (
-ValType
-:
-:
-I32
 &
 delta
 )
@@ -17347,12 +17343,8 @@ iter
 (
 )
 .
-readNullary
+readCurrentMemory
 (
-ValType
-:
-:
-I32
 )
 )
 return

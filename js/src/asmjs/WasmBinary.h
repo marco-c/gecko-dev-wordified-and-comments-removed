@@ -440,6 +440,15 @@ AllowedMask
 ;
 enum
 class
+MemoryTableFlags
+{
+Default
+=
+0x0
+}
+;
+enum
+class
 Expr
 :
 uint32_t
