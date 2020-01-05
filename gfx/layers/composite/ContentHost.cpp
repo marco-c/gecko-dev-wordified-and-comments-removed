@@ -1347,7 +1347,7 @@ mTextureHost
 mTextureHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )
@@ -1361,7 +1361,7 @@ mTextureHostOnWhite
 mTextureHostOnWhite
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 aCompositor
 )
