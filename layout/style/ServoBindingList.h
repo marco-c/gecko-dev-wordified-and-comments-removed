@@ -480,6 +480,15 @@ value
 )
 SERVO_BINDING_FUNC
 (
+Servo_ComputedValues_ExtractAnimationValue
+RawServoAnimationValueStrong
+ServoComputedValuesBorrowed
+computed_values
+nsCSSPropertyID
+property
+)
+SERVO_BINDING_FUNC
+(
 Servo_AnimationValues_Interpolate
 RawServoAnimationValueStrong
 RawServoAnimationValueBorrowed
