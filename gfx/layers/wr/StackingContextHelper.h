@@ -138,6 +138,16 @@ aRect
 )
 const
 ;
+WrPoint
+ToRelativeWrPoint
+(
+const
+LayerPoint
+&
+aPoint
+)
+const
+;
 private
 :
 wr

@@ -231,11 +231,6 @@ LayoutDeviceRect
 aRect
 )
 ;
-LayerPoint
-GetOffsetToParent
-(
-)
-;
 LayerRect
 Bounds
 (
