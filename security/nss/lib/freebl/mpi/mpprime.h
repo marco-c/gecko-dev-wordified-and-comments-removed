@@ -11,6 +11,7 @@ mpi
 .
 h
 "
+SEC_BEGIN_PROTOS
 extern
 const
 int
@@ -160,5 +161,6 @@ long
 nTries
 )
 ;
+SEC_END_PROTOS
 #
 endif

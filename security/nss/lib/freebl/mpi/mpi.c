@@ -6039,9 +6039,6 @@ a
 )
 ;
 }
-#
-if
-MP_NUMTH
 mp_err
 mp_gcd
 (
@@ -9561,8 +9558,6 @@ c
 )
 ;
 }
-#
-endif
 #
 if
 MP_IOFUNC

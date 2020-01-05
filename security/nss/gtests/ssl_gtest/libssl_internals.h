@@ -299,5 +299,12 @@ PRBool
 result
 )
 ;
+void
+SSLInt_SetTicketLifetime
+(
+uint32_t
+lifetime
+)
+;
 #
 endif

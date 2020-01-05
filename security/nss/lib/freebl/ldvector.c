@@ -262,6 +262,7 @@ ChaCha20Poly1305_CreateContext
 ChaCha20Poly1305_DestroyContext
 ChaCha20Poly1305_Seal
 ChaCha20Poly1305_Open
+EC_GetPointSize
 }
 ;
 const

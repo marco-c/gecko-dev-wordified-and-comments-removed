@@ -9,6 +9,7 @@ enum
 {
 ECPoint_Uncompressed
 ECPoint_XOnly
+ECPoint_Undefined
 }
 ECPointEncoding
 ;

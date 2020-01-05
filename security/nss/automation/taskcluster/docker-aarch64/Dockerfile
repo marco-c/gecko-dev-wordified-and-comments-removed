@@ -1,11 +1,9 @@
 FROM
-aarch64
+franziskus
 /
-ubuntu
-:
 xenial
--
-20161213
+:
+aarch64
 MAINTAINER
 Franziskus
 Kiefer
@@ -86,6 +84,12 @@ tmp
 setup
 .
 sh
+#
+Change
+user
+.
+USER
+worker
 #
 Env
 variables

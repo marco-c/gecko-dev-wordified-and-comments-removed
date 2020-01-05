@@ -80,6 +80,11 @@ PRCallOnceType
 error_call_once
 ;
 static
+const
+PRCallOnceType
+error_call_again
+;
+static
 PRStatus
 error_once_function
 (
@@ -653,6 +658,14 @@ PR_SetThreadPrivate
 error_stack_index
 NULL
 )
+;
+error_stack_index
+=
+INVALID_TPD_INDEX
+;
+error_call_once
+=
+error_call_again
 ;
 }
 return

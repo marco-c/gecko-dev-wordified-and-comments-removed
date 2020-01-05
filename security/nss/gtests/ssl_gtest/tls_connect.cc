@@ -1239,6 +1239,11 @@ SSLInt_ClearSessionTicketKey
 (
 )
 ;
+SSLInt_SetTicketLifetime
+(
+10
+)
+;
 ClearStats
 (
 )

@@ -1319,9 +1319,6 @@ mp_int
 a
 )
 ;
-#
-if
-MP_NUMTH
 mp_err
 mp_gcd
 (
@@ -1404,8 +1401,6 @@ mp_int
 c
 )
 ;
-#
-endif
 #
 if
 MP_IOFUNC

@@ -1081,9 +1081,6 @@ name
 SECItem
 curveOID
 ;
-int
-pointSize
-;
 }
 ;
 typedef

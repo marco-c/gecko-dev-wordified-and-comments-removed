@@ -15,7 +15,7 @@ h
 #
 define
 FREEBL_VERSION
-0x0312
+0x0313
 struct
 FREEBLVectorStr
 {
@@ -4219,6 +4219,17 @@ ad
 unsigned
 int
 adLen
+)
+;
+int
+(
+*
+p_EC_GetPointSize
+)
+(
+const
+ECParams
+*
 )
 ;
 }
