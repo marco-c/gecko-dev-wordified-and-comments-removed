@@ -3361,6 +3361,14 @@ ownerDoc
 .
 nodePrincipal
 ;
+json
+.
+triggeringPrincipal
+=
+ownerDoc
+.
+nodePrincipal
+;
 sendAsyncMessage
 (
 "

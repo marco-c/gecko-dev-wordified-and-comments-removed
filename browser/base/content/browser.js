@@ -7797,6 +7797,12 @@ arguments
 [
 7
 ]
+window
+.
+arguments
+[
+8
+]
 )
 ;
 window
@@ -12130,6 +12136,7 @@ referrerPolicy
 userContextId
 originPrincipal
 forceAboutBlankViewerInCurrent
+triggeringPrincipal
 )
 {
 try
@@ -12149,6 +12156,7 @@ postData
 allowThirdPartyFixup
 userContextId
 originPrincipal
+triggeringPrincipal
 forceAboutBlankViewerInCurrent
 }
 )
@@ -30286,6 +30294,11 @@ linkHasNoReferrer
 linkNode
 )
 originPrincipal
+:
+doc
+.
+nodePrincipal
+triggeringPrincipal
 :
 doc
 .
