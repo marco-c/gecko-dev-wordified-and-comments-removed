@@ -452,6 +452,14 @@ isOpaque
 }
 ;
 struct
+SurfaceDescriptorGPUVideo
+{
+uint64_t
+handle
+;
+}
+;
+struct
 RGBDescriptor
 {
 IntSize
@@ -546,6 +554,8 @@ SurfaceDescriptorMacIOSurface
 SurfaceDescriptorGralloc
 ;
 SurfaceDescriptorSharedGLTexture
+;
+SurfaceDescriptorGPUVideo
 ;
 null_t
 ;
