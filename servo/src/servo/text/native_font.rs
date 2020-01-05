@@ -128,7 +128,6 @@ _native_lib
 NativeFontLibrary
 buf
 :
-&
 ~
 [
 u8
@@ -171,7 +170,6 @@ native_lib
 NativeFontLibrary
 buf
 :
-&
 ~
 [
 u8
@@ -191,7 +189,6 @@ ft_native_font
 :
 create
 (
-*
 native_lib
 buf
 )

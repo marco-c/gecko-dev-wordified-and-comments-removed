@@ -659,7 +659,6 @@ create
 (
 buf
 :
-&
 ~
 [
 u8
@@ -795,7 +794,6 @@ res
 =
 create
 (
-&
 buf
 )
 ;

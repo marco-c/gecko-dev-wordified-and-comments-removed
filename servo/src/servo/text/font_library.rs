@@ -147,7 +147,6 @@ native_font
 create
 (
 native_lib
-&
 font_bin
 )
 ;
