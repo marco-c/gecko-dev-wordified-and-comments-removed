@@ -208,6 +208,8 @@ nsCString
 device_name
 nsCString
 device_id
+bool
+scary
 )
 ;
 async

@@ -268,6 +268,7 @@ deviceName
 kMaxDeviceNameLength
 uniqueId
 kMaxUniqueIdLength
+nullptr
 )
 )
 {
@@ -2419,6 +2420,7 @@ sizeof
 (
 uniqueId
 )
+nullptr
 )
 )
 {

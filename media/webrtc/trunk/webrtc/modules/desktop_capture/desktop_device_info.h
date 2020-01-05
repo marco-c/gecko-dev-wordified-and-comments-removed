@@ -65,6 +65,13 @@ char
 deviceUniqueIdUTF8
 )
 ;
+void
+setPid
+(
+pid_t
+pid
+)
+;
 ScreenId
 getScreenId
 (
@@ -81,6 +88,11 @@ const
 char
 *
 getUniqueIdName
+(
+)
+;
+pid_t
+getPid
 (
 )
 ;
@@ -106,6 +118,9 @@ deviceNameUTF8_
 char
 *
 deviceUniqueIdUTF8_
+;
+pid_t
+pid_
 ;
 }
 ;

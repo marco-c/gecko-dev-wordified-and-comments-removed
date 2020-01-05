@@ -325,6 +325,9 @@ unique_idUTF8
 unsigned
 int
 unique_idUTF8Length
+pid_t
+*
+pid
 )
 {
 return
@@ -343,6 +346,7 @@ device_nameUTF8
 device_nameUTF8Length
 unique_idUTF8
 unique_idUTF8Length
+pid
 )
 ;
 }

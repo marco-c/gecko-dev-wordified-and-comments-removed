@@ -37,6 +37,15 @@ rotation
 .
 h
 "
+#
+ifdef
+XP_WIN
+typedef
+int
+pid_t
+;
+#
+endif
 namespace
 webrtc
 {
@@ -357,6 +366,11 @@ const
 unsigned
 int
 unique_idUTF8Length
+pid_t
+*
+pid
+=
+nullptr
 )
 =
 0

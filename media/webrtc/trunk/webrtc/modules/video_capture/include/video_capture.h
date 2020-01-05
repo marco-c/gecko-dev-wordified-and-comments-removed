@@ -220,6 +220,11 @@ uint32_t
 productUniqueIdUTF8Length
 =
 0
+int32_t
+*
+pid
+=
+0
 )
 =
 0
