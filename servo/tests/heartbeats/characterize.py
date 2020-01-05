@@ -353,7 +353,10 @@ p
 %
 d
 -
-x
+o
+output
+.
+png
 -
 y
 %
