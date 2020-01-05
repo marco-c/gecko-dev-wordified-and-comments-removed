@@ -348,7 +348,7 @@ webrender_traits
 self
 LayoutPoint
 ScrollEventPhase
-ScrollLayerId
+ClipId
 ScrollLocation
 }
 ;
@@ -4054,7 +4054,7 @@ f32
 let
 id
 =
-ScrollLayerId
+ClipId
 :
 :
 new
@@ -4075,7 +4075,7 @@ self
 .
 webrender_api
 .
-scroll_layer_with_id
+scroll_node_with_id
 (
 LayoutPoint
 :
@@ -7879,7 +7879,7 @@ self
 .
 webrender_api
 .
-get_scroll_layer_state
+get_scroll_node_state
 (
 )
 {
