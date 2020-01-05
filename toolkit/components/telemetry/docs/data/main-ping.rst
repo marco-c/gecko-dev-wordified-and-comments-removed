@@ -3732,6 +3732,9 @@ GCBytesTrigger
 "
 ZoneChange
 "
+"
+CompartmentRevived
+"
 .
 "
 nonincremental_reason
