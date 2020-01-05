@@ -1299,11 +1299,6 @@ FinishDecodeFirstFrame
 (
 )
 ;
-void
-SeekCompleted
-(
-)
-;
 bool
 CheckIfDecodeComplete
 (
