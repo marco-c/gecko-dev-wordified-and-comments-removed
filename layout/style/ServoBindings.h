@@ -2252,6 +2252,16 @@ unit
 )
 ;
 void
+Gecko_CSSValue_SetAtomIdent
+(
+nsCSSValueBorrowedMut
+css_value
+nsIAtom
+*
+atom
+)
+;
+void
 Gecko_CSSValue_SetArray
 (
 nsCSSValueBorrowedMut
