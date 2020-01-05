@@ -42,8 +42,8 @@ EmptyString
     
 if
 pref
-is
-not
+!
+=
 "
 "
 :
