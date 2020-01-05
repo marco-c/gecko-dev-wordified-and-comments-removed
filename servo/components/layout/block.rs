@@ -7642,6 +7642,9 @@ WritingMode
 &
 mut
 Au
+&
+mut
+Au
 )
 {
 /
@@ -8052,6 +8055,12 @@ mut
 inline_start_margin_edge
 =
 inline_start_content_edge
+;
+let
+mut
+inline_end_margin_edge
+=
+inline_end_content_edge
 ;
 let
 mut
@@ -8527,6 +8536,9 @@ containing_block_mode
 &
 mut
 inline_start_margin_edge
+&
+mut
+inline_end_margin_edge
 )
 ;
 /
@@ -10733,6 +10745,7 @@ inline_start_content_edge
 inline_end_content_edge
 content_inline_size
 |
+_
 _
 _
 _
