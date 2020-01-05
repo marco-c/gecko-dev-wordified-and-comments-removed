@@ -332,6 +332,15 @@ aOutValue
 )
 override
 ;
+NS_IMETHOD
+GetWebRenderEnabled
+(
+bool
+*
+aWebRenderEnabled
+)
+override
+;
 virtual
 nsresult
 Init

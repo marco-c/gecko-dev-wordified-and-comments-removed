@@ -185,6 +185,11 @@ attribute
 DOMString
 ContentBackend
 ;
+readonly
+attribute
+boolean
+WebRenderEnabled
+;
 /
 /
 XXX
