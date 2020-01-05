@@ -89,6 +89,17 @@ extensions
 /
 ext
 -
+browser
+-
+content
+.
+js
+content
+/
+extensions
+/
+ext
+-
 cookies
 .
 js
