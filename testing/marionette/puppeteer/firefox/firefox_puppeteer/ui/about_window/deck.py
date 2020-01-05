@@ -700,7 +700,7 @@ self
 .
 element
 .
-get_attribute
+get_property
 (
 '
 selectedIndex
