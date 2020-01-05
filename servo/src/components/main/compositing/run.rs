@@ -2557,7 +2557,7 @@ color_type
 png
 :
 :
-RGBA8
+RGB8
 pixels
 :
 pixels
