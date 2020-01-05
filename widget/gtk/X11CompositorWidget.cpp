@@ -84,16 +84,11 @@ aWindow
 {
 mXDisplay
 =
-(
-Display
-*
-)
 aWindow
 -
 >
-GetNativeData
+XDisplay
 (
-NS_NATIVE_COMPOSITOR_DISPLAY
 )
 ;
 }
