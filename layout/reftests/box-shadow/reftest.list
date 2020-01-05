@@ -369,6 +369,11 @@ threecorners
 ref
 .
 html
+fuzzy
+(
+2
+440
+)
 =
 =
 boxshadow
@@ -481,6 +486,11 @@ html
 #
 Bug
 1209649
+fuzzy
+(
+3
+500
+)
 fuzzy
 -
 if
