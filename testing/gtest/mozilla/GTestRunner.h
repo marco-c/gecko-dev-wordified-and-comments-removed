@@ -8,6 +8,11 @@ int
 RunGTest
 )
 (
+int
+*
+char
+*
+*
 )
 ;
 }
