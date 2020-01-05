@@ -271,6 +271,12 @@ IsEnableAudioCompeting
 (
 )
 ;
+static
+bool
+IsServiceStarted
+(
+)
+;
 void
 RegisterAudioChannelAgent
 (
