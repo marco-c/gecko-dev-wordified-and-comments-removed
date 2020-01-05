@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 button
@@ -67,7 +66,6 @@ dyn
 disabled
 .
 html
-fails
 =
 =
 button
@@ -184,7 +182,6 @@ fieldset
 2
 .
 html
-fails
 =
 =
 button

@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 fieldset
@@ -27,7 +26,6 @@ fieldset
 valid
 .
 html
-fails
 =
 =
 fieldset
@@ -40,7 +38,6 @@ fieldset
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -61,7 +58,6 @@ invalid
 barred
 .
 html
-fails
 =
 =
 fieldset
@@ -86,7 +82,6 @@ element
 dynamic
 .
 html
-fails
 =
 =
 fieldset
@@ -107,22 +102,8 @@ invalid
 element
 .
 html
-fails
 =
 =
-fieldset
--
-add
--
-invalid
--
-with
--
-valid
--
-element
-.
-html
 fieldset
 -
 add
@@ -136,7 +117,19 @@ valid
 element
 .
 html
-fails
+fieldset
+-
+add
+-
+invalid
+-
+with
+-
+valid
+-
+element
+.
+html
 =
 =
 fieldset
@@ -157,7 +150,6 @@ valid
 element
 .
 html
-fails
 =
 =
 fieldset
@@ -186,7 +178,6 @@ invalid
 element
 .
 html
-fails
 =
 =
 fieldset
@@ -215,7 +206,6 @@ no
 element
 .
 html
-fails
 =
 =
 fieldset
@@ -236,20 +226,8 @@ invalid
 barred
 .
 html
-fails
 =
 =
-fieldset
--
-dynamic
--
-invalid
--
-not
--
-barred
-.
-html
 fieldset
 -
 dynamic
@@ -261,7 +239,17 @@ not
 barred
 .
 html
-fails
+fieldset
+-
+dynamic
+-
+invalid
+-
+not
+-
+barred
+.
+html
 =
 =
 fieldset
@@ -278,7 +266,6 @@ dynamic
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -295,7 +282,6 @@ dynamic
 valid
 .
 html
-fails
 =
 =
 fieldset
@@ -324,7 +310,6 @@ remove
 barred
 .
 html
-fails
 =
 =
 fieldset
@@ -353,7 +338,6 @@ remove
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -374,7 +358,6 @@ and
 barred
 .
 html
-fails
 =
 =
 fieldset
@@ -395,7 +378,6 @@ invalid
 element
 .
 html
-fails
 =
 =
 fieldset
@@ -416,7 +398,6 @@ invalid
 barred
 .
 html
-fails
 =
 =
 fieldset
@@ -433,7 +414,6 @@ static
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -450,7 +430,6 @@ static
 valid
 .
 html
-fails
 =
 =
 fieldset
@@ -479,7 +458,6 @@ remove
 barred
 .
 html
-fails
 =
 =
 fieldset
@@ -500,7 +478,6 @@ and
 barred
 .
 html
-fails
 =
 =
 fieldset
@@ -533,7 +510,6 @@ barred
 dynamic
 .
 html
-fails
 =
 =
 fieldset
@@ -558,7 +534,6 @@ and
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -591,7 +566,6 @@ barred
 dynamic
 .
 html
-fails
 =
 =
 fieldset
@@ -608,7 +582,6 @@ nested
 invalid
 .
 html
-fails
 =
 =
 fieldset

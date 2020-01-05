@@ -397,7 +397,6 @@ fieldset
 legend
 .
 html
-fails
 =
 =
 input
@@ -414,7 +413,6 @@ radio
 required
 .
 html
-fails
 =
 =
 input
@@ -479,7 +477,6 @@ valid
 2
 .
 html
-fails
 =
 =
 input
@@ -528,7 +525,6 @@ required
 invalid
 .
 html
-fails
 =
 =
 input

@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 fieldset
@@ -27,7 +26,6 @@ fieldset
 valid
 .
 html
-fails
 =
 =
 fieldset

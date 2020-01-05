@@ -68,7 +68,6 @@ invalid
 element
 .
 html
-fails
 =
 =
 form
@@ -85,7 +84,6 @@ static
 invalid
 .
 html
-fails
 =
 =
 form
@@ -102,7 +100,6 @@ dynamic
 invalid
 .
 html
-fails
 =
 =
 form
@@ -119,7 +116,6 @@ add
 control
 .
 html
-fails
 =
 =
 form
@@ -206,7 +202,6 @@ invalid
 barred
 .
 html
-fails
 =
 =
 form
@@ -227,7 +222,6 @@ invalid
 element
 .
 html
-fails
 =
 =
 form
@@ -323,7 +317,6 @@ no
 element
 .
 html
-fails
 =
 =
 form
@@ -352,7 +345,6 @@ valid
 element
 .
 html
-fails
 =
 =
 form
@@ -377,20 +369,8 @@ and
 invalid
 .
 html
-fails
 =
 =
-form
--
-add
--
-invalid
--
-element
--
-dynamic
-.
-html
 form
 -
 add
@@ -402,7 +382,17 @@ element
 dynamic
 .
 html
-fails
+form
+-
+add
+-
+invalid
+-
+element
+-
+dynamic
+.
+html
 =
 =
 form
@@ -423,7 +413,6 @@ and
 barred
 .
 html
-fails
 =
 =
 form
@@ -502,7 +491,6 @@ remove
 barred
 .
 html
-fails
 =
 =
 form
