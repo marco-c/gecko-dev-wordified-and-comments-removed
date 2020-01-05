@@ -196,7 +196,7 @@ String
 pub
 size
 :
-u64
+usize
 }
 #
 [
@@ -882,7 +882,7 @@ ReportsTree
 {
 size
 :
-u64
+usize
 count
 :
 u32
@@ -997,7 +997,7 @@ String
 ]
 size
 :
-u64
+usize
 )
 {
 let
@@ -1119,7 +1119,7 @@ self
 )
 -
 >
-u64
+usize
 {
 if
 !
@@ -1397,7 +1397,7 @@ String
 ]
 size
 :
-u64
+usize
 )
 {
 if
@@ -2061,7 +2061,7 @@ get_system_heap_allocated
 >
 Option
 <
-u64
+usize
 >
 {
 let
@@ -2091,7 +2091,7 @@ info
 uordblks
 )
 as
-u64
+usize
 )
 }
 #
@@ -2116,7 +2116,7 @@ get_system_heap_allocated
 >
 Option
 <
-u64
+usize
 >
 {
 None
@@ -2167,7 +2167,7 @@ str
 >
 Option
 <
-u64
+usize
 >
 {
 let
@@ -2351,7 +2351,7 @@ Some
 (
 value
 as
-u64
+usize
 )
 }
 macro_rules
@@ -2407,7 +2407,7 @@ usize
 >
 Option
 <
-u64
+usize
 >
 {
 use
@@ -2513,7 +2513,7 @@ parse
 :
 :
 <
-u64
+usize
 >
 (
 )
@@ -2527,7 +2527,6 @@ Some
 (
 npages
 *
-(
 :
 :
 std
@@ -2538,9 +2537,6 @@ env
 :
 page_size
 (
-)
-as
-u64
 )
 )
 }
@@ -2563,7 +2559,7 @@ get_vsize
 >
 Option
 <
-u64
+usize
 >
 {
 get_proc_self_statm_field
@@ -2590,7 +2586,7 @@ get_resident
 >
 Option
 <
-u64
+usize
 >
 {
 get_proc_self_statm_field
@@ -2617,7 +2613,7 @@ get_vsize
 >
 Option
 <
-u64
+usize
 >
 {
 virtual_size
@@ -2643,7 +2639,7 @@ get_resident
 >
 Option
 <
-u64
+usize
 >
 {
 resident_size
@@ -2680,7 +2676,7 @@ get_vsize
 >
 Option
 <
-u64
+usize
 >
 {
 None
@@ -2715,7 +2711,7 @@ get_resident
 >
 Option
 <
-u64
+usize
 >
 {
 None
@@ -2741,7 +2737,7 @@ Vec
 <
 (
 String
-u64
+usize
 )
 >
 {
@@ -2936,7 +2932,7 @@ seg_map
 HashMap
 <
 String
-u64
+usize
 >
 =
 HashMap
@@ -3201,7 +3197,7 @@ parse
 :
 :
 <
-u64
+usize
 >
 (
 )
@@ -3308,7 +3304,7 @@ Vec
 <
 (
 String
-u64
+usize
 )
 >
 =
@@ -3373,7 +3369,7 @@ Vec
 <
 (
 String
-u64
+usize
 )
 >
 {

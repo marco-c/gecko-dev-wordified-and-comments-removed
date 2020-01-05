@@ -63,7 +63,7 @@ KERN_SUCCESS
 int
 TaskBasicInfoVirtualSize
 (
-int64_t
+size_t
 *
 virtualSize
 )
@@ -104,7 +104,7 @@ rv
 int
 TaskBasicInfoResidentSize
 (
-int64_t
+size_t
 *
 residentSize
 )

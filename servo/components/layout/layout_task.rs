@@ -2892,8 +2892,6 @@ sc
 heap_size_of_children
 (
 )
-as
-u64
 )
 }
 )
