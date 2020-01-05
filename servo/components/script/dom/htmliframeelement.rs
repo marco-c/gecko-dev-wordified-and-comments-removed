@@ -1269,6 +1269,15 @@ root
 )
 ;
 let
+window
+=
+window
+.
+r
+(
+)
+;
+let
 children
 =
 window
