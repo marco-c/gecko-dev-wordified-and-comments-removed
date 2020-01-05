@@ -453,9 +453,11 @@ toBe
 "
 test
 -
-tempfile
+console
+-
+api
 .
-js
+html
 :
 3
 :
@@ -753,7 +755,7 @@ length
 .
 toBe
 (
-3
+5
 )
 ;
 }
