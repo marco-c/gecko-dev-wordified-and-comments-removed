@@ -211,7 +211,6 @@ null
 ;
 [
 Throws
-NeedsCallerType
 ]
 DOMString
 toDataURL
@@ -229,7 +228,6 @@ encoderOptions
 ;
 [
 Throws
-NeedsCallerType
 ]
 void
 toBlob

@@ -567,8 +567,6 @@ aParams
 nsAString
 &
 aDataURL
-CallerType
-aCallerType
 ErrorResult
 &
 aRv
@@ -598,8 +596,6 @@ JS
 Value
 >
 aParams
-CallerType
-aCallerType
 ErrorResult
 &
 aRv
