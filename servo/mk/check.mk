@@ -279,6 +279,9 @@ DEPS_CHECK_TARGETS_FAST
 check
 -
 servo
+check
+-
+content
 tidy
 (
 call
@@ -303,6 +306,9 @@ DEPS_CHECK_TARGETS_ALL
 check
 -
 servo
+check
+-
+content
 tidy
 (
 call
