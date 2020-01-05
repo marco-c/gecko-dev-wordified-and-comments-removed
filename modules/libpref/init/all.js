@@ -10184,7 +10184,7 @@ options
 .
 wasm
 "
-false
+true
 )
 ;
 pref
