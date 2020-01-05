@@ -65,6 +65,9 @@ class
 FileSystemParams
 ;
 class
+PBlobParent
+;
+class
 FileSystemTaskChildBase
 :
 public
