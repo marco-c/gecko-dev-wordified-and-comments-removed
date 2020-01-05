@@ -22,6 +22,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )

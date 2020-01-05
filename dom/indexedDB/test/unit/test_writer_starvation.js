@@ -43,6 +43,7 @@ testSteps
 )
 ;
 function
+*
 testSteps
 (
 )
