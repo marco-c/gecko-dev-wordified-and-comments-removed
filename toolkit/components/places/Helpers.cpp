@@ -1009,7 +1009,7 @@ endif
 nsresult
 GenerateGUID
 (
-nsCString
+nsACString
 &
 _guid
 )
