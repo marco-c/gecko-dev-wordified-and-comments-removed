@@ -17,6 +17,8 @@ import
     
 MarionetteTestCase
     
+run_if_manage_instance
+    
 skip
     
 skip_if_mobile
@@ -1777,6 +1779,31 @@ self
 marionette
 .
 title
+)
+    
+run_if_manage_instance
+(
+"
+Only
+runnable
+if
+Marionette
+manages
+the
+instance
+"
+)
+    
+skip_if_mobile
+(
+"
+Bug
+1322993
+-
+Missing
+temporary
+folder
+"
 )
     
 def
