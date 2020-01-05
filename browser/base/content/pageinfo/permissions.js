@@ -464,7 +464,9 @@ Toggle
 )
 ;
 var
-perm
+{
+state
+}
 =
 SitePermissions
 .
@@ -476,7 +478,12 @@ aPartId
 ;
 if
 (
-perm
+state
+!
+=
+SitePermissions
+.
+UNKNOWN
 )
 {
 checkbox
@@ -515,7 +522,7 @@ true
 "
 )
 ;
-perm
+state
 =
 SitePermissions
 .
@@ -528,7 +535,7 @@ aPartId
 setRadioState
 (
 aPartId
-perm
+state
 )
 ;
 if
@@ -1001,7 +1008,6 @@ SitePermissions
 .
 getStateLabel
 (
-aPartId
 state
 )
 )
@@ -2296,6 +2302,8 @@ setRadioState
 (
 permString
 permission
+.
+state
 )
 ;
 }

@@ -5350,6 +5350,16 @@ false
 pref
 (
 "
+privacy
+.
+temporary_permission_expire_time_ms
+"
+3600000
+)
+;
+pref
+(
+"
 network
 .
 proxy

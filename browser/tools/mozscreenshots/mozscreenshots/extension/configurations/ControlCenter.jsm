@@ -676,9 +676,6 @@ ALLOW
 SitePermissions
 .
 BLOCK
-SitePermissions
-.
-SESSION
 ]
 ;
 let
@@ -716,7 +713,7 @@ states
 [
 index
 %
-3
+2
 ]
 )
 ;
