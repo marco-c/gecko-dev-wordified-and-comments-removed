@@ -302,6 +302,7 @@ defaultValue
 TreatNullAs
 =
 EmptyString
+SetterThrows
 ]
 attribute
 DOMString
