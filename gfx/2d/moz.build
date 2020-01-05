@@ -388,11 +388,6 @@ UNIFIED_SOURCES
 =
 [
 '
-DrawTargetCG
-.
-cpp
-'
-'
 NativeFontResourceMac
 .
 cpp
@@ -404,11 +399,6 @@ cpp
 '
 '
 ScaledFontMac
-.
-cpp
-'
-'
-SourceSurfaceCG
 .
 cpp
 '
