@@ -863,6 +863,7 @@ GetStyleContextInMap
 UndisplayedMap
 *
 aMap
+const
 nsIContent
 *
 aContent
