@@ -2900,9 +2900,51 @@ generated_files
 )
 :
         
-has_linkables
+linkables
 =
-False
+[
+]
+        
+host_linkables
+=
+[
+]
+        
+def
+add_program
+(
+prog
+var
+)
+:
+            
+if
+var
+.
+startswith
+(
+'
+HOST_
+'
+)
+:
+                
+host_linkables
+.
+append
+(
+prog
+)
+            
+else
+:
+                
+linkables
+.
+append
+(
+prog
+)
         
 for
 kind
@@ -3031,9 +3073,16 @@ USE_LIBS
 )
 )
                 
-has_linkables
-=
-True
+add_program
+(
+self
+.
+_binaries
+[
+program
+]
+kind
+)
         
 for
 kind
@@ -3179,9 +3228,16 @@ USE_LIBS
 )
 )
                 
-has_linkables
-=
-True
+add_program
+(
+self
+.
+_binaries
+[
+program
+]
+kind
+)
         
 host_libname
 =
@@ -3270,9 +3326,12 @@ HOST_USE_LIBS
 )
 )
             
-has_linkables
-=
-True
+host_linkables
+.
+append
+(
+lib
+)
         
 final_lib
 =
@@ -4200,9 +4259,12 @@ USE_LIBS
 )
 )
                 
-has_linkables
-=
-True
+linkables
+.
+append
+(
+lib
+)
                 
 generated_files
 .
@@ -4393,9 +4455,12 @@ USE_LIBS
 )
 )
                 
-has_linkables
-=
-True
+linkables
+.
+append
+(
+lib
+)
             
 if
 lib_defines
@@ -4435,7 +4500,11 @@ lib_defines
         
 if
 not
-has_linkables
+(
+linkables
+or
+host_linkables
+)
 :
             
 return
@@ -4932,6 +5001,13 @@ cpp
         
 )
         
+cxx_sources
+=
+defaultdict
+(
+bool
+)
+        
 for
 variable
 (
@@ -5071,6 +5147,28 @@ canonical_suffix_for_file
 )
 :
                     
+if
+canonical_suffix
+in
+(
+'
+.
+cpp
+'
+'
+.
+mm
+'
+)
+:
+                        
+cxx_sources
+[
+variable
+]
+=
+True
+                    
 arglist
 =
 [
@@ -5163,6 +5261,61 @@ flags
 .
 flags
 )
+        
+for
+vars
+linkable_items
+in
+(
+(
+(
+'
+SOURCES
+'
+'
+UNIFIED_SOURCES
+'
+)
+linkables
+)
+                                     
+(
+(
+'
+HOST_SOURCES
+'
+)
+host_linkables
+)
+)
+:
+            
+for
+var
+in
+vars
+:
+                
+if
+cxx_sources
+[
+var
+]
+:
+                    
+for
+l
+in
+linkable_items
+:
+                        
+l
+.
+cxx_link
+=
+True
+                    
+break
     
 def
 emit_from_context

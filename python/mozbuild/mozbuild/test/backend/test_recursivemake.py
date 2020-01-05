@@ -8242,6 +8242,15 @@ foo
 \
 n
 '
+            
+'
+LIB_IS_C_ONLY
+:
+=
+1
+\
+n
+'
         
 ]
 )
@@ -8339,6 +8348,15 @@ DSO_SONAME
 :
 =
 bar
+\
+n
+'
+            
+'
+LIB_IS_C_ONLY
+:
+=
+1
 \
 n
 '

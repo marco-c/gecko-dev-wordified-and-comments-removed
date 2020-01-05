@@ -8133,6 +8133,27 @@ libdef
 .
 symbols_file
 )
+        
+if
+not
+libdef
+.
+cxx_link
+:
+            
+backend_file
+.
+write
+(
+'
+LIB_IS_C_ONLY
+:
+=
+1
+\
+n
+'
+)
     
 def
 _process_static_library

@@ -1640,6 +1640,10 @@ __slots__
 (
         
 '
+cxx_link
+'
+        
+'
 lib_defines
 '
         
@@ -1668,6 +1672,12 @@ __init__
 self
 context
 )
+        
+self
+.
+cxx_link
+=
+False
         
 self
 .
@@ -1785,6 +1795,18 @@ append
 (
 obj
 )
+        
+if
+obj
+.
+cxx_link
+:
+            
+self
+.
+cxx_link
+=
+True
         
 obj
 .
