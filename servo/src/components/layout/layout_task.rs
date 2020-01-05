@@ -1660,6 +1660,9 @@ Mutex
 new
 (
 LocalImageCache
+:
+:
+new
 (
 image_cache_task
 .

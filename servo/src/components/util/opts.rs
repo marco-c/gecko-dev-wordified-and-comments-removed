@@ -649,10 +649,14 @@ f
 {
 args_fail
 (
-f
-.
-to_err_msg
+format
+!
 (
+"
+{
+}
+"
+f
 )
 .
 as_slice
