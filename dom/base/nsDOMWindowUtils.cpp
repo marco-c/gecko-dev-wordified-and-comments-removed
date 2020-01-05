@@ -17135,15 +17135,12 @@ StealNSResult
 )
 ;
 }
-else
-{
 aResult
 .
 Truncate
 (
 )
 ;
-}
 return
 NS_OK
 ;

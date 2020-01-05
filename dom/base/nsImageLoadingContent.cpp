@@ -5342,7 +5342,6 @@ return
 mCurrentRequestRegistered
 ;
 }
-else
 if
 (
 aRequest
@@ -5356,12 +5355,9 @@ return
 mPendingRequestRegistered
 ;
 }
-else
-{
 return
 nullptr
 ;
-}
 }
 void
 nsImageLoadingContent
