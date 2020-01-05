@@ -205,6 +205,10 @@ pub
 mod
 attr
 ;
+pub
+mod
+context
+;
 mod
 custom_properties
 ;
@@ -219,6 +223,10 @@ dom
 pub
 mod
 font_face
+;
+pub
+mod
+matching
 ;
 pub
 mod
