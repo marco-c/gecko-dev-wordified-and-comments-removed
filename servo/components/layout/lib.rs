@@ -11,6 +11,14 @@ as_unsafe_cell
 [
 feature
 (
+box_patterns
+)
+]
+#
+!
+[
+feature
+(
 box_syntax
 )
 ]
