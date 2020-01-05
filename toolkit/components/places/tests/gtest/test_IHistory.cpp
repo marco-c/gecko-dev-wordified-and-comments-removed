@@ -174,8 +174,9 @@ nsIObserver
 VisitURIObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -995,8 +996,9 @@ nsIObserver
 statusObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

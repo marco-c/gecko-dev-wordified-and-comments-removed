@@ -1057,6 +1057,17 @@ EndFrame
 ;
 virtual
 void
+CancelFrame
+(
+)
+{
+ReadUnlockTextures
+(
+)
+;
+}
+virtual
+void
 SetDispAcquireFence
 (
 Layer
