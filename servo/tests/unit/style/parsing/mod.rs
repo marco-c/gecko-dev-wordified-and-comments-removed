@@ -613,6 +613,9 @@ mod
 border
 ;
 mod
+column
+;
+mod
 font
 ;
 mod
