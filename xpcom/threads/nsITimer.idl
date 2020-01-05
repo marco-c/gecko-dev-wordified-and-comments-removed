@@ -242,6 +242,18 @@ has
 expired
 *
 param
+aAnonymize
+whether
+the
+name
+should
+avoid
+including
+privacy
+sensitive
+info
+*
+param
 aClosure
 opaque
 parameter
@@ -279,6 +291,8 @@ nsTimerNameCallbackFunc
 nsITimer
 *
 aTimer
+bool
+aAnonymize
 void
 *
 aClosure
