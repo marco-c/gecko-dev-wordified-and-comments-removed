@@ -1273,3 +1273,16 @@ load
 1332939
 .
 html
+pref
+(
+dom
+.
+webcomponents
+.
+enabled
+true
+)
+load
+1341693
+.
+html

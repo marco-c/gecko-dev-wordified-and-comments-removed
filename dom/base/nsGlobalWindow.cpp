@@ -18243,10 +18243,8 @@ mCustomElements
 {
 mCustomElements
 =
+new
 CustomElementRegistry
-:
-:
-Create
 (
 AsInner
 (
