@@ -69,6 +69,17 @@ shared
 servo
 "
 ]
+quantum_render
+=
+[
+"
+gkrust
+-
+shared
+/
+quantum_render
+"
+]
 [
 dependencies
 ]
