@@ -3756,7 +3756,7 @@ mEventsSuppressed
 -
 mEventsSuppressed
 ;
-MaybeRescheduleAnimationFrameNotifications
+UpdateFrameRequestCallbackSchedulingState
 (
 )
 ;
@@ -5866,16 +5866,6 @@ nsAString
 aSheetSet
 bool
 aUpdateCSSLoader
-)
-;
-void
-RevokeAnimationFrameNotifications
-(
-)
-;
-void
-MaybeRescheduleAnimationFrameNotifications
-(
 )
 ;
 void
