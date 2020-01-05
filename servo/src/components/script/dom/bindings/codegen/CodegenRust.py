@@ -8781,7 +8781,6 @@ isVoid
         
 return
 None
-False
     
 if
 returnType
@@ -8841,7 +8840,6 @@ post
         
 return
 result
-False
     
 if
 returnType
@@ -8888,7 +8886,6 @@ post
         
 return
 result
-False
     
 if
 returnType
@@ -8933,7 +8930,6 @@ identifier
 .
 name
 )
-False
     
 if
 returnType
@@ -9000,7 +8996,6 @@ post
         
 return
 result
-False
     
 if
 returnType
@@ -9018,7 +9013,6 @@ CGGeneric
 JSObject
 "
 )
-False
     
 if
 returnType
@@ -9035,7 +9029,6 @@ CGGeneric
 JSVal
 "
 )
-False
     
 if
 returnType
@@ -9059,7 +9052,6 @@ CGGeneric
 JSObject
 "
 )
-False
     
 if
 returnType
@@ -18896,15 +18888,11 @@ is
 not
 None
         
-(
 result
-resultOutParam
-)
 =
 getRetvalDeclarationForType
 (
 returnType
-                                                               
 descriptorProvider
 )
         
@@ -19044,22 +19032,6 @@ append
 CGGeneric
 (
 name
-)
-)
-        
-if
-resultOutParam
-:
-            
-args
-.
-append
-(
-CGGeneric
-(
-"
-result
-"
 )
 )
         
@@ -19315,9 +19287,6 @@ result
 is
 not
 None
-and
-not
-resultOutParam
 :
             
 call
@@ -19406,9 +19375,6 @@ result
 is
 not
 None
-and
-not
-resultOutParam
 :
                 
 self
@@ -21941,24 +21907,6 @@ argsPre
 [
 ]
         
-(
-_
-resultOutParam
-)
-=
-getRetvalDeclarationForType
-(
-self
-.
-attr
-.
-type
-                                                          
-self
-.
-descriptor
-)
-        
 infallible
 =
 (
@@ -22049,8 +21997,6 @@ abstract_this
 ]
         
 if
-resultOutParam
-or
 self
 .
 attr
