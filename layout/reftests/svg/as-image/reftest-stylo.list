@@ -281,7 +281,6 @@ image
 rect
 (
 )
-fails
 =
 =
 background
@@ -302,7 +301,6 @@ rect
 1svg
 .
 html
-fails
 =
 =
 background
@@ -323,7 +321,6 @@ rect
 1png
 .
 html
-fails
 =
 =
 background
