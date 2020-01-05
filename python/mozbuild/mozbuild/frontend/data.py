@@ -3396,10 +3396,6 @@ manifest_obj_relpath
 '
 dupe_manifest
 '
-        
-'
-default_support_files
-'
     
 )
     
@@ -3530,12 +3526,6 @@ deferred_installs
 set
 (
 )
-        
-self
-.
-default_support_files
-=
-None
 class
 LocalInclude
 (
