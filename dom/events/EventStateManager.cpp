@@ -3392,6 +3392,16 @@ break
 ;
 }
 case
+ePointerGotCapture
+:
+GenerateMouseEnterExit
+(
+mouseEvent
+)
+;
+break
+;
+case
 eDragStart
 :
 if
@@ -18070,6 +18080,9 @@ ePointerMove
 :
 case
 ePointerDown
+:
+case
+ePointerGotCapture
 :
 {
 nsCOMPtr
