@@ -700,16 +700,6 @@ GetCrashHelper
 )
 override
 ;
-protected
-:
-void
-UpdateEstimatedMediaDuration
-(
-int64_t
-aDuration
-)
-override
-;
 public
 :
 bool
