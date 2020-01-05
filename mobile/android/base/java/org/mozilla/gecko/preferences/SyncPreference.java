@@ -370,6 +370,11 @@ profileAvatarTarget
 ;
 setIcon
 (
+null
+)
+;
+setIcon
+(
 R
 .
 drawable
