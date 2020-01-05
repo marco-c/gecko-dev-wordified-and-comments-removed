@@ -2439,6 +2439,16 @@ panel
 setAttribute
 (
 "
+noautohide
+"
+true
+)
+;
+panel
+.
+setAttribute
+(
+"
 ignorekeys
 "
 true
