@@ -1864,7 +1864,7 @@ Services
 .
 locale
 .
-getAppLocale
+getAppLocaleAsLangTag
 (
 )
 ;

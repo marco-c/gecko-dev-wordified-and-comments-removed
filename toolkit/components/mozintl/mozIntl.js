@@ -96,7 +96,7 @@ locales
 return
 localeSvc
 .
-getAppLocales
+getAppLocalesAsBCP47
 (
 )
 ;

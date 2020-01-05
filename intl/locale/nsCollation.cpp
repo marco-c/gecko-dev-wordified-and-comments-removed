@@ -111,7 +111,7 @@ GetInstance
 )
 -
 >
-GetAppLocale
+GetAppLocaleAsLangTag
 (
 appLocale
 )

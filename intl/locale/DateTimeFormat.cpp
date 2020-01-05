@@ -89,7 +89,7 @@ GetInstance
 )
 -
 >
-GetAppLocale
+GetAppLocaleAsBCP47
 (
 locale
 )

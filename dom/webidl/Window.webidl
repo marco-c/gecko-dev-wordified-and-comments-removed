@@ -4074,7 +4074,7 @@ sequence
 <
 DOMString
 >
-getAppLocales
+getAppLocalesAsBCP47
 (
 )
 ;
