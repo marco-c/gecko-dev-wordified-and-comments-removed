@@ -2906,6 +2906,10 @@ dependencies
 '
 deps_path
 '
+        
+'
+features
+'
     
 )
     
@@ -2918,6 +2922,8 @@ basename
 cargo_file
 crate_type
 dependencies
+                 
+features
 *
 *
 args
@@ -3037,6 +3043,12 @@ build_dir
 deps
 '
 )
+        
+self
+.
+features
+=
+features
 class
 SharedLibrary
 (
