@@ -1801,7 +1801,12 @@ svg
 #
 Bug
 1122526
-fails
+skip
+-
+if
+(
+stylo
+)
 =
 =
 animate
@@ -1826,6 +1831,9 @@ inherit
 1
 .
 html
+#
+bug
+1324620
 #
 =
 =
@@ -1879,7 +1887,6 @@ html
 #
 Bug
 1301500
-fails
 =
 =
 dynamic

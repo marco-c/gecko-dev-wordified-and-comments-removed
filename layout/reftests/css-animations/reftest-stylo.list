@@ -87,7 +87,12 @@ animate
 opacity
 .
 html
-fails
+skip
+-
+if
+(
+stylo
+)
 =
 =
 animate
@@ -100,6 +105,9 @@ animate
 preserves3d
 .
 html
+#
+bug
+1324620
 #
 =
 =
@@ -437,7 +445,6 @@ opacity
 1
 .
 html
-fails
 =
 =
 stacking
@@ -559,7 +566,6 @@ over
 transition
 .
 html
-fails
 =
 =
 stacking
@@ -588,7 +594,6 @@ in
 delay
 .
 html
-fails
 =
 =
 stacking
@@ -629,7 +634,6 @@ main
 thread
 .
 html
-fails
 =
 =
 stacking
@@ -775,7 +779,6 @@ opacity
 1
 .
 html
-fails
 =
 =
 stacking
@@ -862,7 +865,6 @@ on
 svg
 .
 html
-fails
 =
 =
 stacking
@@ -935,7 +937,6 @@ preserve
 3d
 .
 html
-fails
 =
 =
 stacking
@@ -968,7 +969,6 @@ fill
 backwards
 .
 html
-fails
 =
 =
 stacking
@@ -1061,7 +1061,6 @@ in
 delay
 .
 html
-fails
 =
 =
 stacking
@@ -1090,7 +1089,6 @@ in
 delay
 .
 html
-fails
 =
 =
 stacking
