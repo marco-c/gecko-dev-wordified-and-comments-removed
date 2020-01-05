@@ -78,6 +78,10 @@ IGeckoCustom_i
 .
 c
 \
+IGeckoCustom
+.
+tlb
+\
 (
 NULL
 )
