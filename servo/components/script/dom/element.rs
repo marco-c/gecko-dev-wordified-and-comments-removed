@@ -5989,12 +5989,10 @@ thread_state
 get
 (
 )
-=
-=
-thread_state
-:
-:
-LAYOUT
+.
+is_layout
+(
+)
 )
 ;
 unsafe
