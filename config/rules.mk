@@ -6829,7 +6829,9 @@ rustflags_override
 \
 CARGO_TARGET_DIR
 =
-.
+(
+CARGO_TARGET_DIR
+)
 \
 RUSTC
 =
