@@ -4136,6 +4136,8 @@ labelOrIdentifierReference
 (
 YieldHandling
 yieldHandling
+bool
+yieldTokenizedAsName
 )
 ;
 PropertyName
@@ -4150,6 +4152,7 @@ return
 labelOrIdentifierReference
 (
 yieldHandling
+false
 )
 ;
 }
@@ -4159,12 +4162,17 @@ identifierReference
 (
 YieldHandling
 yieldHandling
+bool
+yieldTokenizedAsName
+=
+false
 )
 {
 return
 labelOrIdentifierReference
 (
 yieldHandling
+yieldTokenizedAsName
 )
 ;
 }
