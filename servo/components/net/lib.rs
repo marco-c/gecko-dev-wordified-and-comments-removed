@@ -76,7 +76,13 @@ openssl
 ;
 extern
 crate
+"
+rustc
+-
 serialize
+"
+as
+rustc_serialize
 ;
 extern
 crate
