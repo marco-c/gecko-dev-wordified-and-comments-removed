@@ -2938,7 +2938,11 @@ JSBool
 {
 /
 /
-XXX
+FIXME
+(
+#
+347
+)
 should
 trigger
 exception
