@@ -385,10 +385,6 @@ fn
 create
 <
 C
-:
-ScriptListener
-+
-Send
 >
 (
 _phantom
@@ -404,10 +400,7 @@ id
 PipelineId
 compositor
 :
-Box
-<
 C
->
 layout_chan
 :
 &
@@ -443,6 +436,12 @@ window_size
 :
 WindowSizeData
 )
+where
+C
+:
+ScriptListener
++
+Send
 ;
 fn
 create_layout_channel

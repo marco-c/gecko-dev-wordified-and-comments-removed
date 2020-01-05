@@ -290,11 +290,15 @@ ScrollPolicy
 pub
 trait
 RenderListener
+for
+Sized
+?
 {
 fn
 get_graphics_metadata
 (
 &
+mut
 self
 )
 -
@@ -308,6 +312,7 @@ fn
 initialize_layers_for_pipeline
 (
 &
+mut
 self
 pipeline_id
 :
@@ -327,6 +332,7 @@ fn
 paint
 (
 &
+mut
 self
 pipeline_id
 :
@@ -352,6 +358,7 @@ fn
 render_msg_discarded
 (
 &
+mut
 self
 )
 ;
@@ -359,6 +366,7 @@ fn
 set_render_state
 (
 &
+mut
 self
 PipelineId
 RenderState
@@ -368,13 +376,12 @@ RenderState
 pub
 trait
 ScriptListener
-:
-Clone
 {
 fn
 set_ready_state
 (
 &
+mut
 self
 PipelineId
 ReadyState
@@ -384,6 +391,7 @@ fn
 scroll_fragment_point
 (
 &
+mut
 self
 pipeline_id
 :
@@ -403,6 +411,7 @@ fn
 close
 (
 &
+mut
 self
 )
 ;
@@ -410,6 +419,7 @@ fn
 dup
 (
 &
+mut
 self
 )
 -
