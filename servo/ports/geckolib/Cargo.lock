@@ -761,7 +761,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -790,7 +790,7 @@ serde_macros
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -829,7 +829,7 @@ version
 "
 0
 .
-16
+17
 .
 0
 "
@@ -1363,7 +1363,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -1682,7 +1682,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -1711,7 +1711,7 @@ serde_macros
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -2870,7 +2870,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -2899,7 +2899,7 @@ serde_macros
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -3524,7 +3524,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -3553,7 +3553,7 @@ serde_macros
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -4143,7 +4143,7 @@ version
 "
 0
 .
-10
+11
 .
 0
 "
@@ -4185,7 +4185,7 @@ version
 "
 0
 .
-10
+11
 .
 0
 "
@@ -4219,7 +4219,7 @@ dependencies
 aster
 0
 .
-16
+17
 .
 0
 (
@@ -4260,7 +4260,7 @@ version
 "
 0
 .
-10
+11
 .
 0
 "
@@ -4294,7 +4294,7 @@ dependencies
 quasi_codegen
 0
 .
-10
+11
 .
 0
 (
@@ -5154,7 +5154,7 @@ version
 .
 7
 .
-5
+7
 "
 source
 =
@@ -5196,7 +5196,7 @@ version
 .
 7
 .
-5
+7
 "
 source
 =
@@ -5228,7 +5228,7 @@ dependencies
 aster
 0
 .
-16
+17
 .
 0
 (
@@ -5257,7 +5257,7 @@ index
 quasi
 0
 .
-10
+11
 .
 0
 (
@@ -5286,7 +5286,7 @@ index
 quasi_macros
 0
 .
-10
+11
 .
 0
 (
@@ -5329,7 +5329,7 @@ version
 .
 7
 .
-5
+7
 "
 source
 =
@@ -5363,7 +5363,7 @@ serde_codegen
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -5523,7 +5523,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -6053,7 +6053,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -6082,7 +6082,7 @@ serde_macros
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -6450,7 +6450,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -6479,7 +6479,7 @@ serde_macros
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -7327,7 +7327,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -7928,7 +7928,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -7957,7 +7957,7 @@ serde_macros
 .
 7
 .
-5
+7
 (
 registry
 +
@@ -8148,7 +8148,7 @@ serde
 .
 7
 .
-5
+7
 (
 registry
 +

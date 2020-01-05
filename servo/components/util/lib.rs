@@ -43,14 +43,6 @@ plugin
 [
 feature
 (
-panic_handler
-)
-]
-#
-!
-[
-feature
-(
 reflect_marker
 )
 ]

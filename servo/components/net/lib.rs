@@ -35,14 +35,6 @@ fnbox
 [
 feature
 (
-fs_time
-)
-]
-#
-!
-[
-feature
-(
 mpsc_select
 )
 ]

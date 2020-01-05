@@ -19059,7 +19059,11 @@ next
 if
 elements
 .
-is_empty
+peek
+(
+)
+.
+is_none
 (
 )
 {
