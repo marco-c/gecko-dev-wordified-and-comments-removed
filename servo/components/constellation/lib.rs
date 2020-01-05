@@ -33,14 +33,6 @@ mpsc_select
 #
 !
 [
-feature
-(
-plugin
-)
-]
-#
-!
-[
 plugin
 (
 plugins
