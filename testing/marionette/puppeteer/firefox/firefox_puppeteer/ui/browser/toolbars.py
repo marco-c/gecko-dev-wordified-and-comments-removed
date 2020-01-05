@@ -1769,8 +1769,6 @@ By
 .
 ID
 '
-urlbar
--
 reload
 -
 button
@@ -1961,8 +1959,6 @@ By
 .
 ID
 '
-urlbar
--
 stop
 -
 button

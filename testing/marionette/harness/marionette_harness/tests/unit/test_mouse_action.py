@@ -730,17 +730,13 @@ self
 .
 marionette
 .
-find_element
+execute_script
 (
-By
-.
-ID
 "
-urlbar
--
-go
--
-button
+return
+gURLBar
+.
+goButton
 "
 )
             

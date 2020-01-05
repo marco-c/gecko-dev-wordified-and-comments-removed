@@ -5271,6 +5271,9 @@ solid
 GrayText
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 urlbar
 -
@@ -5278,14 +5281,10 @@ go
 -
 button
 #
-urlbar
--
 reload
 -
 button
 #
-urlbar
--
 stop
 -
 button
@@ -5406,8 +5405,6 @@ slice
 ;
 }
 #
-urlbar
--
 reload
 -
 button
@@ -5429,8 +5426,6 @@ rect
 ;
 }
 #
-urlbar
--
 reload
 -
 button
@@ -5461,8 +5456,6 @@ rect
 ;
 }
 #
-urlbar
--
 reload
 -
 button
@@ -5495,8 +5488,6 @@ rect
 ;
 }
 #
-urlbar
--
 reload
 -
 button
@@ -5632,8 +5623,6 @@ scaleX
 ;
 }
 #
-urlbar
--
 stop
 -
 button
@@ -5655,8 +5644,6 @@ rect
 ;
 }
 #
-urlbar
--
 stop
 -
 button
@@ -5687,8 +5674,6 @@ rect
 ;
 }
 #
-urlbar
--
 stop
 -
 button
@@ -5731,14 +5716,10 @@ go
 -
 button
 #
-urlbar
--
 reload
 -
 button
 #
-urlbar
--
 stop
 -
 button
@@ -5784,8 +5765,6 @@ toolbarbutton
 -
 icon
 #
-urlbar
--
 reload
 -
 button
@@ -5795,8 +5774,6 @@ toolbarbutton
 -
 icon
 #
-urlbar
--
 stop
 -
 button
@@ -5887,8 +5864,6 @@ rect
 ;
 }
 #
-urlbar
--
 reload
 -
 button
@@ -5910,8 +5885,6 @@ rect
 ;
 }
 #
-urlbar
--
 reload
 -
 button
@@ -5942,8 +5915,6 @@ rect
 ;
 }
 #
-urlbar
--
 reload
 -
 button
@@ -5976,8 +5947,6 @@ rect
 ;
 }
 #
-urlbar
--
 stop
 -
 button
@@ -5999,8 +5968,6 @@ rect
 ;
 }
 #
-urlbar
--
 stop
 -
 button
@@ -6031,8 +5998,6 @@ rect
 ;
 }
 #
-urlbar
--
 stop
 -
 button
@@ -6058,6 +6023,8 @@ rect
 ;
 }
 }
+%
+endif
 #
 page
 -
