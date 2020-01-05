@@ -1095,7 +1095,7 @@ default
 '
 mozilla
 -
-esr45
+esr52
 '
 :
 {
@@ -1115,7 +1115,7 @@ releases
 /
 mozilla
 -
-esr45
+esr52
 '
         
 '
