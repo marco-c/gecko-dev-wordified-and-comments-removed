@@ -570,7 +570,7 @@ already_AddRefed
 <
 ContentParent
 >
-RandomSelect
+MinTabSelect
 (
 const
 nsTArray
