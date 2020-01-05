@@ -3596,7 +3596,6 @@ f32_rect_to_au_rect
 overflow
 )
 }
-pub
 fn
 hit_test
 <
@@ -3674,22 +3673,16 @@ false
 }
 ;
 let
-effective_point
+mut
+translated_point
 =
 if
 is_fixed
 {
+*
 client_point
 }
 else
-{
-translated_point
-}
-;
-let
-mut
-point
-=
 if
 self
 .
@@ -3705,7 +3698,7 @@ let
 point
 =
 *
-effective_point
+translated_point
 -
 self
 .
@@ -3786,7 +3779,7 @@ y
 else
 {
 *
-effective_point
+translated_point
 }
 ;
 if
@@ -3823,7 +3816,7 @@ self
 id
 )
 {
-point
+translated_point
 .
 x
 -
@@ -3838,7 +3831,7 @@ scroll_offset
 x
 )
 ;
-point
+translated_point
 .
 y
 -
@@ -3889,7 +3882,7 @@ item
 .
 hit_test
 (
-point
+translated_point
 )
 {
 result
@@ -3906,6 +3899,7 @@ child
 hit_test
 (
 traversal
+&
 translated_point
 client_point
 scroll_offsets
@@ -3938,7 +3932,7 @@ item
 .
 hit_test
 (
-point
+translated_point
 )
 {
 result
