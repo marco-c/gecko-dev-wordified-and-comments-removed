@@ -92,7 +92,7 @@ content
 /
 test
 /
-general
+pageinfo
 /
 feed_tab
 .
