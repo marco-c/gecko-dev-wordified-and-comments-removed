@@ -2603,7 +2603,6 @@ Default
 default
 (
 )
-false
 true
 true
 )
@@ -2613,10 +2612,7 @@ glyphs
 add_glyph_for_char_index
 (
 char_idx
-Some
-(
 character
-)
 &
 data
 )
@@ -2670,7 +2666,6 @@ advance
 shape
 .
 offset
-false
 true
 true
 )
@@ -2680,10 +2675,7 @@ glyphs
 add_glyph_for_char_index
 (
 char_idx
-Some
-(
 character
-)
 &
 data
 )
@@ -2741,7 +2733,6 @@ advance
 shape
 .
 offset
-false
 true
 glyph_i
 >
