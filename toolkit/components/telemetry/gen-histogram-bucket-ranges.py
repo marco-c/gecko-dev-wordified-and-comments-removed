@@ -1,8 +1,6 @@
 import
 sys
 import
-re
-import
 histogram_tools
 import
 json
