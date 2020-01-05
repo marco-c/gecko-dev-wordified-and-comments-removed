@@ -295,7 +295,7 @@ domain
 "
 "
 .
-to_string
+to_owned
 (
 )
 Some
@@ -941,7 +941,7 @@ scheme
 https
 "
 .
-to_string
+to_owned
 (
 )
 {

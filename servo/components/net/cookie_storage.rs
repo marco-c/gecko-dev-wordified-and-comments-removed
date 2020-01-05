@@ -690,7 +690,7 @@ fold
 "
 "
 .
-to_string
+to_owned
 (
 )
 reducer

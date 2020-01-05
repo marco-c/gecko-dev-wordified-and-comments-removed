@@ -965,7 +965,7 @@ HeaderData
 (
 header_name
 .
-to_string
+to_owned
 (
 )
 )
@@ -1343,7 +1343,7 @@ MatchHeader
 request
 header_name
 .
-to_string
+to_owned
 (
 )
 tx
@@ -1404,7 +1404,7 @@ MatchHeaderUpdate
 request
 header_name
 .
-to_string
+to_owned
 (
 )
 new_max_age

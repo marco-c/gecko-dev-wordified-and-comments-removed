@@ -946,7 +946,7 @@ many
 redirects
 "
 .
-to_string
+to_owned
 (
 )
 start_chan
@@ -1665,7 +1665,7 @@ description
 (
 )
 .
-to_string
+to_owned
 (
 )
 )
@@ -1854,7 +1854,7 @@ description
 (
 )
 .
-to_string
+to_owned
 (
 )
 )
@@ -1903,7 +1903,7 @@ description
 (
 )
 .
-to_string
+to_owned
 (
 )
 )
@@ -1976,7 +1976,7 @@ description
 (
 )
 .
-to_string
+to_owned
 (
 )
 )
@@ -2004,7 +2004,7 @@ description
 (
 )
 .
-to_string
+to_owned
 (
 )
 )
@@ -2192,7 +2192,7 @@ xhtml
 xml
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -2677,7 +2677,7 @@ new
 (
 host
 .
-to_string
+to_owned
 (
 )
 include_subdomains
@@ -4282,7 +4282,7 @@ main
 fetch
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -4448,7 +4448,7 @@ redirect
 loop
 "
 .
-to_string
+to_owned
 (
 )
 )

@@ -272,7 +272,7 @@ data
 uri
 "
 .
-to_string
+to_owned
 (
 )
 )
@@ -460,7 +460,7 @@ data
 uri
 "
 .
-to_string
+to_owned
 (
 )
 )
