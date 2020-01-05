@@ -500,6 +500,21 @@ clone
 01
 .
 svg
+fails
+=
+=
+comments
+-
+in
+-
+pres
+-
+attrs
+.
+svg
+pass
+.
+svg
 =
 =
 conditions
@@ -6043,6 +6058,7 @@ test
 SVG
 behavior
 .
+fails
 =
 =
 text
@@ -7835,6 +7851,7 @@ change
 restyles
 .
 svg
+fails
 =
 =
 mask
@@ -8746,6 +8763,7 @@ opacity
 01
 .
 svg
+fails
 =
 =
 clipPath
@@ -8766,6 +8784,7 @@ outflowElement
 01a
 .
 html
+fails
 =
 =
 clipPath
@@ -8899,6 +8918,7 @@ outflowElement
 01b
 .
 html
+fails
 =
 =
 clipPath
