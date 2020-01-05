@@ -3007,7 +3007,7 @@ descriptor
 .
 interface
 .
-isProbablyShortLivingObject
+hasProbablyShortLivingWrapper
 (
 )
 :

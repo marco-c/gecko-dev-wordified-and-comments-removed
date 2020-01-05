@@ -161,7 +161,7 @@ Window
 Worker
 System
 )
-ProbablyShortLivingObject
+ProbablyShortLivingWrapper
 ]
 interface
 Event

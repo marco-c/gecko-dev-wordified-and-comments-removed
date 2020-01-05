@@ -114,7 +114,7 @@ IntersectionObserver
 *
 /
 [
-ProbablyShortLivingObject
+ProbablyShortLivingWrapper
 Pref
 =
 "

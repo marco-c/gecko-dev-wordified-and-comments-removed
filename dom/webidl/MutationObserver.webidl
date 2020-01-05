@@ -113,7 +113,7 @@ org
 *
 /
 [
-ProbablyShortLivingObject
+ProbablyShortLivingWrapper
 ]
 interface
 MutationRecord
