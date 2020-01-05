@@ -1921,6 +1921,11 @@ minimizeAllocableSpace
 )
 ;
 void
+maybeClearProfileDurations
+(
+)
+;
+void
 startProfile
 (
 ProfileKey
