@@ -40,6 +40,11 @@ abstract
 patch
 patch
 <
+debug
+.
+patch
+patch
+<
 legacy
 -
 unenumerable

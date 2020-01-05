@@ -42147,6 +42147,10 @@ errorlog
 =
 logger
                                 
+debug
+=
+False
+                                
 )
         
 logger

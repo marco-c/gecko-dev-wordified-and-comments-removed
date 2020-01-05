@@ -90,8 +90,5 @@ config
 mk
 .
 last
-parser
-.
-out
 /
 glfw
