@@ -191,11 +191,6 @@ attribute
 DOMString
 name
 ;
-void
-close
-(
-)
-;
 attribute
 EventHandler
 onconnect
