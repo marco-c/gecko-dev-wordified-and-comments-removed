@@ -1315,6 +1315,11 @@ remoteip
 "
 \
 "
+scheme
+\
+"
+\
+"
 setCookies
 \
 "

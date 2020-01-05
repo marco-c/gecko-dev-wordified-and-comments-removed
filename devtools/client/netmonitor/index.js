@@ -195,6 +195,11 @@ remoteip
 "
 \
 "
+scheme
+\
+"
+\
+"
 setCookies
 \
 "
