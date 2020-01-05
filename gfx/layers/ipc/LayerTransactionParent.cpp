@@ -1642,10 +1642,6 @@ common
 transform
 (
 )
-.
-value
-(
-)
 )
 ;
 layer
