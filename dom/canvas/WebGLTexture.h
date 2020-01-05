@@ -180,8 +180,6 @@ LinkedListElement
 <
 WebGLTexture
 >
-public
-WebGLContextBoundObject
 {
 friend
 class

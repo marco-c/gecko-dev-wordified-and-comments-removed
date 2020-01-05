@@ -51,7 +51,7 @@ return
 if
 (
 !
-ValidateObjectRef
+ValidateObject
 (
 "
 getFragDataLocation

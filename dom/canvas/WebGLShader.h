@@ -91,8 +91,6 @@ LinkedListElement
 <
 WebGLShader
 >
-public
-WebGLContextBoundObject
 {
 friend
 class

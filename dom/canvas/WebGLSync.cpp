@@ -47,7 +47,7 @@ GLbitfield
 flags
 )
 :
-WebGLContextBoundObject
+WebGLRefCountedObject
 (
 webgl
 )

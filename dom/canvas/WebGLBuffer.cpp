@@ -52,7 +52,7 @@ GLuint
 buf
 )
 :
-WebGLContextBoundObject
+WebGLRefCountedObject
 (
 webgl
 )

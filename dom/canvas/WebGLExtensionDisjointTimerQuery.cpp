@@ -344,7 +344,7 @@ if
 mContext
 -
 >
-ValidateObjectRef
+ValidateObject
 (
 funcName
 query

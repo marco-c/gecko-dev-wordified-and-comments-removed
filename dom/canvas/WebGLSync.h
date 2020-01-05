@@ -46,8 +46,6 @@ LinkedListElement
 <
 WebGLSync
 >
-public
-WebGLContextBoundObject
 {
 friend
 class

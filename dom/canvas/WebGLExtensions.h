@@ -1007,6 +1007,7 @@ array
 bool
 IsVertexArrayOES
 (
+const
 WebGLVertexArray
 *
 array

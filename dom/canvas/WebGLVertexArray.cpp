@@ -100,7 +100,7 @@ WebGLContext
 webgl
 )
 :
-WebGLContextBoundObject
+WebGLRefCountedObject
 (
 webgl
 )
@@ -224,6 +224,7 @@ WebGLVertexArray
 IsVertexArray
 (
 )
+const
 {
 return
 IsVertexArrayImpl

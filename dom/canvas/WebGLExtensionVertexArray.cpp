@@ -131,6 +131,7 @@ WebGLExtensionVertexArray
 :
 IsVertexArrayOES
 (
+const
 WebGLVertexArray
 *
 array

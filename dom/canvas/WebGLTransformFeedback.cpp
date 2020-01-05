@@ -45,7 +45,7 @@ GLuint
 tf
 )
 :
-WebGLContextBoundObject
+WebGLRefCountedObject
 (
 webgl
 )

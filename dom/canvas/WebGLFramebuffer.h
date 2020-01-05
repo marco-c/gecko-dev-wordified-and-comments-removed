@@ -524,8 +524,6 @@ LinkedListElement
 WebGLFramebuffer
 >
 public
-WebGLContextBoundObject
-public
 SupportsWeakPtr
 <
 WebGLFramebuffer

@@ -70,8 +70,6 @@ WebGLRenderbuffer
 public
 WebGLRectangleObject
 public
-WebGLContextBoundObject
-public
 WebGLFramebufferAttachable
 {
 friend

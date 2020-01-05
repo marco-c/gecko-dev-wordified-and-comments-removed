@@ -45,7 +45,7 @@ GLuint
 sampler
 )
 :
-WebGLContextBoundObject
+WebGLRefCountedObject
 (
 webgl
 )

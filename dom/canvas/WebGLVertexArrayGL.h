@@ -52,6 +52,7 @@ bool
 IsVertexArrayImpl
 (
 )
+const
 override
 ;
 protected

@@ -72,8 +72,6 @@ LinkedListElement
 <
 WebGLBuffer
 >
-public
-WebGLContextBoundObject
 {
 friend
 class

@@ -618,7 +618,7 @@ GLuint
 tex
 )
 :
-WebGLContextBoundObject
+WebGLRefCountedObject
 (
 webgl
 )

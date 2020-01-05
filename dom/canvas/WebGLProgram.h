@@ -499,8 +499,6 @@ LinkedListElement
 <
 WebGLProgram
 >
-public
-WebGLContextBoundObject
 {
 friend
 class

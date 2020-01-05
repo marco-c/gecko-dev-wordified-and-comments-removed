@@ -1463,6 +1463,7 @@ sampler
 bool
 IsSampler
 (
+const
 WebGLSampler
 *
 sampler
@@ -1535,6 +1536,7 @@ flags
 bool
 IsSync
 (
+const
 WebGLSync
 *
 sync
@@ -1611,6 +1613,7 @@ tf
 bool
 IsTransformFeedback
 (
+const
 WebGLTransformFeedback
 *
 tf
