@@ -658,6 +658,15 @@ Wait
 self
 .
 marionette
+timeout
+=
+self
+.
+marionette
+.
+timeout
+.
+page_load
 )
 .
 until
