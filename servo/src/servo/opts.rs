@@ -39,7 +39,7 @@ from_cmdline_args
 (
 args
 :
-~
+&
 [
 ~
 str

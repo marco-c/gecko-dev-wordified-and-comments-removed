@@ -120,10 +120,12 @@ non_implicitly_copyable_typarams
 fn
 make_url
 (
++
 str_url
 :
 ~
 str
++
 current_url
 :
 Option
@@ -323,7 +325,6 @@ path
 +
 ~
 [
-copy
 str_url
 ]
 "
@@ -351,7 +352,6 @@ path
 }
 else
 {
-copy
 str_url
 }
 ;
