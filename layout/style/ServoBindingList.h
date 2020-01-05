@@ -145,6 +145,15 @@ principal
 )
 SERVO_BINDING_FUNC
 (
+Servo_RestyleWithAddedDeclaration
+ServoComputedValuesStrong
+ServoDeclarationBlockBorrowed
+declarations
+ServoComputedValuesBorrowed
+previous_style
+)
+SERVO_BINDING_FUNC
+(
 Servo_ParseStyleAttribute
 ServoDeclarationBlockStrong
 const
