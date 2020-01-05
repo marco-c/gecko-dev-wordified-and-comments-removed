@@ -125,11 +125,6 @@ _
 GetProp_Fallback
 )
 \
-_
-(
-GetProp_Generic
-)
-\
 \
 _
 (

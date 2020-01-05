@@ -64,6 +64,9 @@ outerScript
 ICFallbackStub
 *
 stub
+bool
+*
+attached
 )
 ;
 }

@@ -1826,6 +1826,15 @@ hasType
 (
 type
 )
+&
+&
+!
+types
+-
+>
+nonConstantProperty
+(
+)
 ;
 return
 false

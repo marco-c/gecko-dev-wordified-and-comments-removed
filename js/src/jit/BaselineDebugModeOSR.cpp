@@ -3131,11 +3131,6 @@ _
 (
 Call_ScriptedFunCall
 )
-\
-_
-(
-GetProp_Generic
-)
 static
 bool
 CloneOldBaselineStub

@@ -208,6 +208,11 @@ LoadTypedElementResult
 \
 _
 (
+MegamorphicLoadSlotByValueResult
+)
+\
+_
+(
 WrapResult
 )
 class
