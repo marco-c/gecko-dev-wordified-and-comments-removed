@@ -3400,7 +3400,15 @@ aRv
 )
 {
 return
-nullptr
+ConstructKeyframeEffect
+<
+KeyframeEffectReadOnly
+>
+(
+aGlobal
+aSource
+aRv
+)
 ;
 }
 void

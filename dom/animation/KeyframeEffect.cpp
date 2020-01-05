@@ -218,7 +218,15 @@ aRv
 )
 {
 return
-nullptr
+ConstructKeyframeEffect
+<
+KeyframeEffect
+>
+(
+aGlobal
+aSource
+aRv
+)
 ;
 }
 already_AddRefed
