@@ -5206,8 +5206,6 @@ MediaDecoder
 :
 OnSeekResolved
 (
-SeekResolveValue
-aVal
 )
 {
 MOZ_ASSERT
