@@ -208,6 +208,11 @@ doorhanger
 js
 '
 '
+enum
+.
+js
+'
+'
 file
 -
 watcher

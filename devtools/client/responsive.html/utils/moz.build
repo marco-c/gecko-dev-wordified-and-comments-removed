@@ -93,11 +93,6 @@ e10s
 js
 '
 '
-enum
-.
-js
-'
-'
 l10n
 .
 js
