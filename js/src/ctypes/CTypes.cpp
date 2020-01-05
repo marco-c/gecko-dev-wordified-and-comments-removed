@@ -6555,10 +6555,6 @@ cx
 const
 char
 *
-arg
-const
-char
-*
 func
 const
 char
@@ -6572,7 +6568,6 @@ cx
 GetErrorMessage
 nullptr
 CTYPESMSG_ARG_RANGE_MISMATCH
-arg
 func
 range
 )
@@ -42919,8 +42914,6 @@ ArgumentRangeMismatch
 (
 cx
 "
-"
-"
 UInt64
 .
 prototype
@@ -42946,8 +42939,6 @@ return
 ArgumentRangeMismatch
 (
 cx
-"
-"
 "
 Int64
 .
