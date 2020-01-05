@@ -157,15 +157,6 @@ src
 /
 base
 /
-lock
-.
-cc
-'
-'
-src
-/
-base
-/
 logging
 .
 cc
