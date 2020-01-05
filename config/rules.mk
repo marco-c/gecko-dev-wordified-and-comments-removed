@@ -3716,6 +3716,16 @@ MOZ_PROFILE_GENERATE
 MOZ_PROFILE_USE
 )
 )
+ifneq
+(
+(
+filter
+target
+(
+MAKECMDGOALS
+)
+)
+)
 ifdef
 GNU_CC
 #
@@ -3747,6 +3757,7 @@ LIBRARY
 )
 :
 FORCE
+endif
 endif
 endif
 endif
