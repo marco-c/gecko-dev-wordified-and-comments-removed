@@ -120,6 +120,8 @@ libgl1
 mesa
 -
 glx
+-
+libmirclient9
 after
 :
 [
