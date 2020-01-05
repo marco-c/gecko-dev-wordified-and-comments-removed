@@ -612,6 +612,28 @@ plugins
 '
 )
 )
+        
+(
+'
+bin
+/
+components
+/
+*
+'
+(
+'
+bin
+/
+components
+'
+'
+bin
+/
+components
+'
+)
+)
     
 }
     
@@ -1340,7 +1362,7 @@ xpt
 }
     
 def
-process_artifact
+process_package_artifact
 (
 self
 filename
@@ -2661,6 +2683,28 @@ plugins
 '
 )
 )
+        
+(
+'
+bin
+/
+components
+/
+*
+'
+(
+'
+bin
+/
+components
+'
+'
+bin
+/
+components
+'
+)
+)
     
 }
     
@@ -2875,6 +2919,7 @@ opt
 (
 AndroidArtifactJob
 (
+r
 '
 (
 public
@@ -2900,12 +2945,54 @@ public
 build
 /
 target
+\
 .
 apk
 )
 '
                                                 
-None
+r
+'
+public
+/
+build
+/
+fennec
+-
+(
+.
+*
+)
+\
+.
+common
+\
+.
+tests
+\
+.
+zip
+|
+public
+/
+build
+/
+target
+-
+(
+.
+*
+)
+\
+.
+common
+\
+.
+tests
+\
+.
+zip
+'
 )
 )
     
@@ -2922,17 +3009,35 @@ debug
 (
 AndroidArtifactJob
 (
+r
 '
 public
 /
 build
 /
 target
+\
 .
 apk
 '
                                                   
-None
+r
+'
+public
+/
+build
+/
+target
+\
+.
+common
+\
+.
+tests
+\
+.
+zip
+'
 )
 )
     
@@ -2947,17 +3052,35 @@ opt
 (
 AndroidArtifactJob
 (
+r
 '
 public
 /
 build
 /
 target
+\
 .
 apk
 '
-                                         
-None
+                                             
+r
+'
+public
+/
+build
+/
+target
+\
+.
+common
+\
+.
+tests
+\
+.
+zip
+'
 )
 )
     
@@ -2970,6 +3093,7 @@ opt
 (
 LinuxArtifactJob
 (
+r
 '
 public
 /
@@ -2994,6 +3118,7 @@ tar
 bz2
 '
                                      
+r
 '
 public
 /
@@ -3027,6 +3152,7 @@ debug
 (
 LinuxArtifactJob
 (
+r
 '
 public
 /
@@ -3050,7 +3176,8 @@ tar
 .
 bz2
 '
-                                 
+                                       
+r
 '
 public
 /
@@ -3084,6 +3211,7 @@ opt
 (
 LinuxArtifactJob
 (
+r
 '
 public
 /
@@ -3108,6 +3236,7 @@ tar
 bz2
 '
                                        
+r
 '
 public
 /
@@ -3141,6 +3270,7 @@ debug
 (
 LinuxArtifactJob
 (
+r
 '
 public
 /
@@ -3155,6 +3285,7 @@ tar
 bz2
 '
                                          
+r
 '
 public
 /
@@ -3183,6 +3314,7 @@ opt
 (
 MacArtifactJob
 (
+r
 '
 public
 /
@@ -3202,6 +3334,7 @@ mac
 dmg
 '
                                       
+r
 '
 public
 /
@@ -3235,6 +3368,7 @@ debug
 (
 MacArtifactJob
 (
+r
 '
 public
 /
@@ -3253,7 +3387,8 @@ mac
 .
 dmg
 '
-                                  
+                                        
+r
 '
 public
 /
@@ -3287,6 +3422,7 @@ opt
 (
 WinArtifactJob
 (
+r
 '
 public
 /
@@ -3305,6 +3441,7 @@ win32
 zip
 '
                                    
+r
 '
 public
 /
@@ -3338,6 +3475,7 @@ debug
 (
 WinArtifactJob
 (
+r
 '
 public
 /
@@ -3355,7 +3493,8 @@ win32
 .
 zip
 '
-                               
+                                     
+r
 '
 public
 /
@@ -3389,6 +3528,7 @@ opt
 (
 WinArtifactJob
 (
+r
 '
 public
 /
@@ -3407,6 +3547,7 @@ win64
 zip
 '
                                    
+r
 '
 public
 /
@@ -3440,6 +3581,7 @@ debug
 (
 WinArtifactJob
 (
+r
 '
 public
 /
@@ -3457,7 +3599,8 @@ win64
 .
 zip
 '
-                               
+                                     
+r
 '
 public
 /
