@@ -14,6 +14,12 @@ create_http_connector
 }
 ;
 use
+content_blocker
+:
+:
+BLOCKED_CONTENT_RULES
+;
+use
 cookie
 ;
 use
@@ -3014,6 +3020,13 @@ auth_cache
 self
 .
 auth_cache
+.
+clone
+(
+)
+blocked_content
+:
+BLOCKED_CONTENT_RULES
 .
 clone
 (
