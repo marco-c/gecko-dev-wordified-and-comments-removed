@@ -401,11 +401,6 @@ side
 -
 width
 "
-boxed
-=
-"
-True
-"
 animation_type
 =
 "

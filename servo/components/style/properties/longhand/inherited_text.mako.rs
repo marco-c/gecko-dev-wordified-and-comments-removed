@@ -3265,11 +3265,6 @@ letter
 -
 spacing
 "
-boxed
-=
-"
-True
-"
 animation_type
 =
 "
@@ -9089,9 +9084,6 @@ products
 "
 gecko
 "
-boxed
-=
-True
 animation_type
 =
 "
@@ -9312,11 +9304,6 @@ text
 stroke
 -
 width
-"
-boxed
-=
-"
-True
 "
 animation_type
 =

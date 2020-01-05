@@ -15520,9 +15520,6 @@ extra_prefixes
 moz
 webkit
 "
-boxed
-=
-True
 creates_stacking_context
 =
 True
