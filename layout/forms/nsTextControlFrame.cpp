@@ -506,6 +506,10 @@ nsContainerFrame
 (
 aContext
 )
+mFirstBaseline
+(
+NS_INTRINSIC_WIDTH_UNKNOWN
+)
 mEditorHasBeenInitialized
 (
 false
@@ -2447,10 +2451,8 @@ this
 inflation
 )
 ;
-aDesiredSize
-.
-SetBlockStartAscent
-(
+mFirstBaseline
+=
 nsLayoutUtils
 :
 :
@@ -2475,6 +2477,12 @@ BStart
 (
 wm
 )
+;
+aDesiredSize
+.
+SetBlockStartAscent
+(
+mFirstBaseline
 )
 ;
 aDesiredSize
