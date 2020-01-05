@@ -242,6 +242,11 @@ FontFamilyMap
 {
 let
 family_names
+:
+CFArray
+<
+CFStringRef
+>
 =
 quartz
 :
@@ -283,6 +288,8 @@ strref
 CFStringRef
 |
 {
+/
+*
 let
 family_name
 =
@@ -291,7 +298,6 @@ CFWrapper
 :
 wrap_shared
 (
-*
 strref
 )
 .
@@ -335,6 +341,8 @@ family_name
 new_family
 )
 ;
+*
+/
 }
 return
 move
