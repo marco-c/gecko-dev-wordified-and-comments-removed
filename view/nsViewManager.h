@@ -777,7 +777,9 @@ PaintWindow
 nsIWidget
 *
 aWidget
+const
 LayoutDeviceIntRegion
+&
 aRegion
 )
 ;
