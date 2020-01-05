@@ -4457,6 +4457,7 @@ from_untrusted_node_address
 runtime
 :
 *
+mut
 JSRuntime
 candidate
 :
@@ -4488,6 +4489,7 @@ let
 object
 :
 *
+mut
 JSObject
 =
 jsfriendapi
@@ -6332,6 +6334,7 @@ Rust
 fn
 (
 *
+mut
 JSContext
 &
 JSRef

@@ -284,6 +284,7 @@ self
 cx
 :
 *
+mut
 JSContext
 )
 -
@@ -304,6 +305,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -336,6 +338,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -360,6 +363,7 @@ self
 cx
 :
 *
+mut
 JSContext
 )
 -
@@ -382,13 +386,6 @@ cx
 &
 mut
 value
-as
-*
-mut
-JSVal
-as
-*
-JSVal
 )
 }
 =
@@ -421,6 +418,7 @@ Default
 cx
 :
 *
+mut
 JSContext
 value
 :
@@ -435,9 +433,11 @@ unsafe
 fn
 (
 *
+mut
 JSContext
 JSVal
 *
+mut
 T
 )
 -
@@ -472,13 +472,6 @@ value
 &
 mut
 ret
-as
-*
-mut
-T
-as
-*
-T
 )
 =
 =
@@ -511,6 +504,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -539,6 +533,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -597,6 +592,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -627,6 +623,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -684,6 +681,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -714,6 +712,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -771,6 +770,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -801,6 +801,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -858,6 +859,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -888,6 +890,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -930,6 +933,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -958,6 +962,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -1000,6 +1005,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -1028,6 +1034,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -1070,6 +1077,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -1103,6 +1111,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -1145,6 +1154,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -1178,6 +1188,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -1220,6 +1231,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -1253,6 +1265,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -1310,6 +1323,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -1341,6 +1355,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 val
 :
@@ -1383,6 +1398,7 @@ self
 cx
 :
 *
+mut
 JSContext
 )
 -
@@ -1493,6 +1509,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 value
 :
@@ -1596,6 +1613,7 @@ self
 cx
 :
 *
+mut
 JSContext
 )
 -
@@ -1683,6 +1701,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 value
 :
@@ -1752,13 +1771,6 @@ string
 &
 mut
 length
-as
-*
-mut
-_
-as
-*
-_
 )
 ;
 slice
@@ -1855,6 +1867,7 @@ self
 cx
 :
 *
+mut
 JSContext
 )
 -
@@ -1903,13 +1916,6 @@ cx
 &
 mut
 value
-as
-*
-mut
-JSVal
-as
-*
-JSVal
 )
 }
 =
@@ -1955,6 +1961,7 @@ from_jsval
 _cx
 :
 *
+mut
 JSContext
 value
 :
@@ -2055,6 +2062,7 @@ self
 cx
 :
 *
+mut
 JSContext
 )
 -
@@ -2098,6 +2106,7 @@ self
 cx
 :
 *
+mut
 JSContext
 )
 -
@@ -2137,6 +2146,7 @@ self
 cx
 :
 *
+mut
 JSContext
 )
 -
@@ -2199,6 +2209,7 @@ from_jsval
 cx
 :
 *
+mut
 JSContext
 value
 :

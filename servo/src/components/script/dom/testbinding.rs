@@ -547,6 +547,7 @@ self
 _
 :
 *
+mut
 JSContext
 )
 -
@@ -565,6 +566,7 @@ self
 _
 :
 *
+mut
 JSContext
 _
 :
@@ -1272,6 +1274,7 @@ self
 _
 :
 *
+mut
 JSContext
 )
 -
@@ -1574,6 +1577,7 @@ self
 _
 :
 *
+mut
 JSContext
 )
 -
@@ -1789,6 +1793,7 @@ self
 _
 :
 *
+mut
 JSContext
 _
 :
@@ -2031,6 +2036,7 @@ self
 _
 :
 *
+mut
 JSContext
 _
 :
@@ -2290,6 +2296,7 @@ self
 _
 :
 *
+mut
 JSContext
 _
 :
@@ -2931,6 +2938,7 @@ self
 _
 :
 *
+mut
 JSContext
 _
 :

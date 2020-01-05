@@ -400,6 +400,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -418,6 +419,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 _val
 :
@@ -790,6 +792,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 )
 -
@@ -815,6 +818,7 @@ self
 _cx
 :
 *
+mut
 JSContext
 _val
 :
