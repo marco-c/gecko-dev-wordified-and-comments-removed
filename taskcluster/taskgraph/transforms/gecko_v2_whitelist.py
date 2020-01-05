@@ -696,6 +696,22 @@ pgo
 '
     
 '
+win32
+-
+qr
+-
+debug
+'
+    
+'
+win32
+-
+qr
+-
+opt
+'
+    
+'
 win64
 -
 st
