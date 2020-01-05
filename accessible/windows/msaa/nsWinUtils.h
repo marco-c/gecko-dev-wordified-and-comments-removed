@@ -64,6 +64,15 @@ L
 MozDocAccessible
 "
 ;
+const
+LPCWSTR
+kPropNameDocAccParent
+=
+L
+"
+MozDocAccessibleParent
+"
+;
 class
 nsWinUtils
 {
