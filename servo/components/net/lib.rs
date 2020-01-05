@@ -184,15 +184,6 @@ pub
 mod
 fetch
 {
-#
-!
-[
-allow
-(
-dead_code
-unused
-)
-]
 pub
 mod
 cors_cache
