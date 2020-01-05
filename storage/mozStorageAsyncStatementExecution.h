@@ -289,8 +289,10 @@ mNativeConnection
 bool
 mHasTransaction
 ;
+RefPtr
+<
 mozIStorageStatementCallback
-*
+>
 mCallback
 ;
 nsCOMPtr
