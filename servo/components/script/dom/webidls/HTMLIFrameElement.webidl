@@ -168,8 +168,6 @@ attribute
 DOMString
 height
 ;
-/
-/
 readonly
 attribute
 Document
