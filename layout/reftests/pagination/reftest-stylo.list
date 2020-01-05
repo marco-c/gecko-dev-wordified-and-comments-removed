@@ -342,7 +342,6 @@ overflow
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -363,7 +362,6 @@ breaking
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -384,7 +382,6 @@ breaking
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -405,7 +402,6 @@ breaking
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -426,7 +422,6 @@ breaking
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -631,7 +626,6 @@ overflow
 cols
 .
 xhtml
-fails
 pref
 (
 layout
@@ -663,7 +657,6 @@ clear
 000
 .
 html
-fails
 pref
 (
 layout
@@ -712,7 +705,6 @@ clear
 001
 .
 html
-fails
 pref
 (
 layout
@@ -744,7 +736,6 @@ clear
 002
 .
 html
-fails
 pref
 (
 layout
@@ -776,7 +767,6 @@ clear
 002
 .
 html
-fails
 =
 =
 float
@@ -793,7 +783,6 @@ clear
 003
 .
 html
-fails
 =
 =
 float
@@ -814,7 +803,6 @@ clear
 print
 .
 html
-fails
 =
 =
 float
@@ -835,7 +823,6 @@ clear
 print
 .
 html
-fails
 =
 =
 float
@@ -856,7 +843,6 @@ clear
 print
 .
 html
-fails
 =
 =
 float
@@ -877,7 +863,6 @@ clear
 print
 .
 html
-fails
 =
 =
 float
@@ -894,7 +879,6 @@ continuations
 000
 .
 html
-fails
 =
 =
 resize
@@ -911,7 +895,6 @@ reflow
 000
 .
 html
-fails
 =
 =
 resize

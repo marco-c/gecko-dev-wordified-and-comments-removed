@@ -1349,7 +1349,6 @@ html
 1
 .
 html
-fails
 =
 =
 97777
@@ -9148,7 +9147,6 @@ html
 1
 .
 html
-fails
 =
 =
 379349
@@ -9172,7 +9170,6 @@ approach
 in
 bug
 1185636
-fails
 =
 =
 379349
@@ -9185,7 +9182,6 @@ xhtml
 1b
 .
 xhtml
-fails
 =
 =
 379349
@@ -9198,7 +9194,6 @@ xhtml
 1c
 .
 xhtml
-fails
 =
 =
 379349
@@ -9211,7 +9206,6 @@ xhtml
 2a
 .
 xhtml
-fails
 =
 =
 379349
@@ -9521,7 +9515,6 @@ html
 1
 .
 html
-fails
 =
 =
 383883
@@ -9534,7 +9527,6 @@ html
 1
 .
 html
-fails
 =
 =
 383883
@@ -9547,7 +9539,6 @@ html
 2
 .
 html
-fails
 =
 =
 383883
@@ -9560,7 +9551,6 @@ html
 3
 .
 html
-fails
 =
 =
 383883
@@ -9573,7 +9563,6 @@ html
 4
 .
 html
-fails
 =
 =
 383884
@@ -9586,7 +9575,6 @@ html
 1
 .
 html
-fails
 =
 =
 383885
@@ -10847,7 +10835,6 @@ xhtml
 1
 .
 xhtml
-fails
 =
 =
 398092
@@ -13043,7 +13030,6 @@ html
 1
 .
 html
-fails
 =
 =
 417676

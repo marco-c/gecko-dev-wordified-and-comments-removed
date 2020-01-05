@@ -123,7 +123,6 @@ width
 1c
 .
 html
-fails
 =
 =
 min
@@ -140,7 +139,6 @@ width
 2
 .
 html
-fails
 =
 =
 column
@@ -161,7 +159,6 @@ overflow
 000
 .
 html
-fails
 =
 =
 column
@@ -182,7 +179,6 @@ overflow
 001
 .
 html
-fails
 =
 =
 column
@@ -203,7 +199,6 @@ overflow
 002
 .
 html
-fails
 =
 =
 column
@@ -264,7 +259,6 @@ overflow
 005
 .
 html
-fails
 =
 =
 column
@@ -281,7 +275,6 @@ balancing
 000
 .
 html
-fails
 =
 =
 column
@@ -298,7 +291,6 @@ balancing
 001
 .
 html
-fails
 =
 =
 column
@@ -315,7 +307,6 @@ balancing
 002
 .
 html
-fails
 =
 =
 column
@@ -332,7 +323,6 @@ balancing
 003
 .
 html
-fails
 =
 =
 column
