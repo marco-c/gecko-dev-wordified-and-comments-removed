@@ -460,6 +460,13 @@ rust
 -
 mozjs
 :
+src
+/
+mozjs
+/
+libjs_static
+.
+a
 (
 MAKE
 )
