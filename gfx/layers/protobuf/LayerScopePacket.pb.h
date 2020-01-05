@@ -301,6 +301,9 @@ LayersPacket_Layer_LayerType_RefLayer
 LayersPacket_Layer_LayerType_ReadbackLayer
 =
 9
+LayersPacket_Layer_LayerType_DisplayItemLayer
+=
+10
 }
 ;
 bool
@@ -8626,6 +8629,13 @@ LayerType
 ColorLayer
 =
 LayersPacket_Layer_LayerType_ColorLayer
+;
+static
+const
+LayerType
+DisplayItemLayer
+=
+LayersPacket_Layer_LayerType_DisplayItemLayer
 ;
 static
 const
