@@ -1290,14 +1290,6 @@ GetSurfaceFlags
 )
 )
 ;
-decoder
--
->
-SetFinalizeFrames
-(
-false
-)
-;
 if
 (
 NS_FAILED
