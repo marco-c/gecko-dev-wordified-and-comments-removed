@@ -2808,6 +2808,14 @@ unwrap
 (
 )
 {
+if
+!
+running_animation
+.
+is_expired
+(
+)
+{
 animation
 :
 :
@@ -2844,6 +2852,7 @@ mark_as_expired
 (
 )
 ;
+}
 }
 }
 had_animations_to_expire
