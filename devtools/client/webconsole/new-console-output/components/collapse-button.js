@@ -67,6 +67,13 @@ CollapseButton
 propTypes
 :
 {
+onClick
+:
+PropTypes
+.
+func
+.
+isRequired
 open
 :
 PropTypes

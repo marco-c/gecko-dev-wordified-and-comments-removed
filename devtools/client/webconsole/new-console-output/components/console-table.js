@@ -212,6 +212,11 @@ PropTypes
 string
 .
 isRequired
+tableData
+:
+PropTypes
+.
+object
 }
 componentWillMount
 :
