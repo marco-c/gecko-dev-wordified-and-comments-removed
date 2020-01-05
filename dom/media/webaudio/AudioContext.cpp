@@ -3553,7 +3553,7 @@ RemoveElement
 promise
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 rv
 "
