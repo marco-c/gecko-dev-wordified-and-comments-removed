@@ -625,6 +625,10 @@ SetUsedDirectly
 ;
 FinishConstruction
 (
+)
+;
+ApplyStyleFixups
+(
 aSkipParentDisplayBasedStyleFixup
 )
 ;
@@ -650,8 +654,6 @@ already_AddRefed
 ServoComputedValues
 >
 aComputedValues
-bool
-aSkipParentDisplayBasedStyleFixup
 )
 :
 nsStyleContext
@@ -679,7 +681,6 @@ aPresContext
 endif
 FinishConstruction
 (
-aSkipParentDisplayBasedStyleFixup
 )
 ;
 }
@@ -689,8 +690,6 @@ nsStyleContext
 :
 FinishConstruction
 (
-bool
-aSkipParentDisplayBasedStyleFixup
 )
 {
 static_assert
@@ -794,22 +793,6 @@ SetStyleBits
 (
 )
 ;
-if
-(
-!
-mSource
-.
-IsServoComputedValues
-(
-)
-)
-{
-ApplyStyleFixups
-(
-aSkipParentDisplayBasedStyleFixup
-)
-;
-}
 #
 define
 eStyleStruct_LastItem
@@ -818,7 +801,7 @@ nsStyleStructID_Length
 -
 1
 )
-NS_ASSERTION
+static_assert
 (
 NS_STYLE_INHERIT_MASK
 &
@@ -6680,8 +6663,6 @@ already_AddRefed
 ServoComputedValues
 >
 aComputedValues
-bool
-aSkipParentDisplayBasedStyleFixup
 )
 {
 RefPtr
@@ -6704,7 +6685,6 @@ Move
 (
 aComputedValues
 )
-aSkipParentDisplayBasedStyleFixup
 )
 ;
 return

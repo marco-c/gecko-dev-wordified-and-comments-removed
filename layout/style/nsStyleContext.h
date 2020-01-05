@@ -175,8 +175,6 @@ already_AddRefed
 ServoComputedValues
 >
 aComputedValues
-bool
-aSkipParentDisplayBasedStyleFixup
 )
 ;
 void
@@ -1538,8 +1536,6 @@ aPseudoType
 void
 FinishConstruction
 (
-bool
-aSkipParentDisplayBasedStyleFixup
 )
 ;
 void
@@ -2892,8 +2888,6 @@ already_AddRefed
 ServoComputedValues
 >
 aComputedValues
-bool
-aSkipParentDisplayBasedStyleFixup
 )
 ;
 #
