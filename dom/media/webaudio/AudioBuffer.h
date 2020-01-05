@@ -70,6 +70,17 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+TypedArray
+.
+h
+"
 namespace
 mozilla
 {
