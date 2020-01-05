@@ -204,17 +204,6 @@ servo
 git
 cd
 servo
-git
-submodule
-init
-git
-submodule
-update
-.
-/
-autogen
-.
-sh
 mkdir
 -
 p
