@@ -96,8 +96,7 @@ marionette
 .
 chrome_window_handles
 )
-!
-=
+>
 len
 (
 self
@@ -133,8 +132,7 @@ marionette
 .
 window_handles
 )
-!
-=
+>
 len
 (
 self

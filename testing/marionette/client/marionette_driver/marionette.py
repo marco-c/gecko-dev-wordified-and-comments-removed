@@ -4000,7 +4000,7 @@ accept
         
 Alert
 (
-merionette
+marionette
 )
 .
 dismiss
