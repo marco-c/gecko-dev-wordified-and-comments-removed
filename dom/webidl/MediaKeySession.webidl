@@ -220,6 +220,10 @@ attribute
 EventHandler
 onkeystatuseschange
 ;
+attribute
+EventHandler
+onmessage
+;
 [
 NewObject
 ]
