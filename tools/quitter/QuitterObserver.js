@@ -162,8 +162,6 @@ isFrameScriptLoaded
 :
 false
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -286,8 +284,6 @@ uninit
 }
 }
 init
-:
-function
 (
 )
 {
@@ -328,8 +324,6 @@ created
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -358,8 +352,6 @@ created
 ;
 }
 receiveMessage
-:
-function
 (
 aMessage
 )

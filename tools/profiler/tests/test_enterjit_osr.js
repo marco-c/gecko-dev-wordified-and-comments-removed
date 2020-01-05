@@ -180,7 +180,6 @@ delayMS
 ;
 }
 }
-;
 var
 profile
 =
