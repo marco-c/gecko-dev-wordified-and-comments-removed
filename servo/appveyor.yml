@@ -198,6 +198,13 @@ make
 python2
 -
 setuptools
+mingw
+-
+w64
+-
+x86_64
+-
+ffmpeg
 "
 -
 bash

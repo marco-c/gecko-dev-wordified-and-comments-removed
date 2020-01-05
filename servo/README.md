@@ -385,6 +385,10 @@ libdbus
 1
 -
 dev
+\
+libavformat
+-
+dev
 If
 you
 are
@@ -526,6 +530,9 @@ libOSMesa
 devel
 \
 dbus
+-
+devel
+ffmpeg
 -
 devel
 On
@@ -821,6 +828,13 @@ make
 python2
 -
 setuptools
+mingw
+-
+w64
+-
+x86_64
+-
+ffmpeg
 export
 GCC_URL
 =
