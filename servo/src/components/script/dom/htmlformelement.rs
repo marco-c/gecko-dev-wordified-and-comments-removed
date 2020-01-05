@@ -18,15 +18,6 @@ use
 dom
 :
 :
-element
-:
-:
-HTMLFormElementTypeId
-;
-use
-dom
-:
-:
 htmlcollection
 :
 :
@@ -50,8 +41,6 @@ node
 :
 {
 AbstractNode
-ElementNodeTypeId
-Node
 ScriptView
 }
 ;
