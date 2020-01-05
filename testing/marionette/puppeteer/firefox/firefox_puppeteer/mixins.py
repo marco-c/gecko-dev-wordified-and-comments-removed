@@ -432,6 +432,8 @@ restart
 (
 self
 *
+args
+*
 *
 kwargs
 )
@@ -464,6 +466,7 @@ Firefox
 "
         
 if
+not
 kwargs
 .
 get
@@ -474,29 +477,30 @@ clean
 )
 :
             
-self
+kwargs
 .
-marionette
-.
-restart
+update
 (
-clean
-=
+{
+"
+in_app
+"
+:
 True
+}
 )
         
-else
-:
-            
 self
 .
 marionette
 .
 restart
 (
-in_app
-=
-True
+*
+args
+*
+*
+kwargs
 )
         
 self
