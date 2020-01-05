@@ -19225,6 +19225,9 @@ if
 (
 !
 mDidInitialize
+|
+|
+mIsDestroying
 )
 {
 return
@@ -19248,6 +19251,15 @@ FlushPendingNotifications
 Flush_ContentAndNotify
 )
 ;
+if
+(
+mIsDestroying
+)
+{
+return
+NS_OK
+;
+}
 nsAutoCauseReflowNotifier
 crNotifier
 (
