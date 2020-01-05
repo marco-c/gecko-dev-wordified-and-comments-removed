@@ -420,9 +420,11 @@ mUndoValue
 =
 aTitle
 )
+{
 return
 NS_OK
 ;
+}
 }
 rv
 =
