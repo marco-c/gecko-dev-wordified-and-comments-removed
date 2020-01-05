@@ -87,12 +87,6 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIASYNCSHUTDOWNBLOCKER
 static
-void
-InitStatics
-(
-)
-;
-static
 MediaShutdownManager
 &
 Instance
@@ -128,7 +122,7 @@ MediaShutdownManager
 )
 ;
 void
-RemoveBlocker
+EnsureCorrectShutdownObserverState
 (
 )
 ;
@@ -149,9 +143,10 @@ MediaDecoder
 mDecoders
 ;
 bool
+mIsObservingShutdown
+;
+bool
 mIsDoingXPCOMShutDown
-=
-false
 ;
 }
 ;

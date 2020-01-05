@@ -810,13 +810,6 @@ h
 #
 include
 "
-MediaShutdownManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -1662,13 +1655,6 @@ Initialize
 ;
 #
 endif
-MediaShutdownManager
-:
-:
-InitStatics
-(
-)
-;
 MediaDecoder
 :
 :
