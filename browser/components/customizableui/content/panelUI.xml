@@ -2217,9 +2217,7 @@ direction
 =
 aAnchor
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (
@@ -3854,9 +3852,7 @@ win
 =
 aSubview
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 body

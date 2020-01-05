@@ -942,9 +942,7 @@ changed
 ;
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 setTimeout
 (

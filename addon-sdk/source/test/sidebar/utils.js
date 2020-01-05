@@ -255,9 +255,7 @@ window
 =
 ele
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 {
@@ -321,9 +319,7 @@ window
 =
 ele
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 {

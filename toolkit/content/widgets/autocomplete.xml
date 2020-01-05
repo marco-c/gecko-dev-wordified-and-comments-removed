@@ -6837,9 +6837,7 @@ nav
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 QueryInterface
 (
@@ -6935,9 +6933,7 @@ popupDirection
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

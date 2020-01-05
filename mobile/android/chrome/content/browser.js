@@ -10592,9 +10592,7 @@ focused
 =
 focused
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 frameElement
 ;
@@ -17145,9 +17143,7 @@ window
 :
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 title
 :
 useTabs
@@ -18069,9 +18065,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 !
@@ -18483,9 +18477,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 this
 .
@@ -27492,9 +27484,7 @@ frame
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 frame
 .
@@ -28784,9 +28774,7 @@ contentDocument
 =
 currentElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 .

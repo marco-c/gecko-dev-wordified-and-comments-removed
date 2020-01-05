@@ -1850,9 +1850,7 @@ _fastFind
 .
 foundLink
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 this
 .

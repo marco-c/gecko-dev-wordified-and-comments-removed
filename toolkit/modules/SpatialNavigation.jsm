@@ -580,9 +580,7 @@ currentlyFocusedWindow
 =
 currentlyFocused
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 bestElementToFocus

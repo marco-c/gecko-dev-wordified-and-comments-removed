@@ -49,9 +49,7 @@ targetWindow
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 var
 scale

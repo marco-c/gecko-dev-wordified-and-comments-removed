@@ -276,9 +276,7 @@ window
 :
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 }
 )
 ;

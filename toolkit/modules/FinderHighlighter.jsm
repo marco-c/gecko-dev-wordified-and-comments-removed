@@ -1810,9 +1810,7 @@ window
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 controller
@@ -3348,9 +3346,7 @@ style
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (
@@ -3988,9 +3984,7 @@ range
 .
 startContainer
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 bounds
@@ -4168,9 +4162,7 @@ range
 .
 startContainer
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 rectsAndTexts
@@ -4421,9 +4413,7 @@ range
 .
 startContainer
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 ;

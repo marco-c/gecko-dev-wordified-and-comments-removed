@@ -6431,9 +6431,7 @@ nsIDocShell
 .
 chromeEventHandler
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 }
 catch

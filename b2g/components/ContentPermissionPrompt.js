@@ -1400,9 +1400,7 @@ window
 |
 targetElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 while
 (
@@ -1421,9 +1419,7 @@ targetWindow
 =
 targetElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 }
 SystemAppProxy

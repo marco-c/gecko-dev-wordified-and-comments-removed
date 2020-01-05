@@ -1417,8 +1417,6 @@ el
 return
 el
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 }

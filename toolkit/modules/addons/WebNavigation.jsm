@@ -1103,9 +1103,7 @@ ownerWin
 =
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 where

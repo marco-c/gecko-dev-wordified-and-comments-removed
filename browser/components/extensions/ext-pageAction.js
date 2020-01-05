@@ -43,7 +43,7 @@ jsm
 ;
 var
 {
-SingletonEventManager
+EventManager
 IconDetails
 }
 =
@@ -754,9 +754,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 switch
 (
@@ -1176,7 +1174,7 @@ pageAction
 onClicked
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -1199,8 +1197,6 @@ tab
 >
 {
 fire
-.
-async
 (
 TabManager
 .

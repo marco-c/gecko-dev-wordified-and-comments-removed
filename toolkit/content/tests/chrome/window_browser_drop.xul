@@ -636,9 +636,7 @@ data
 "
 dropEl
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }

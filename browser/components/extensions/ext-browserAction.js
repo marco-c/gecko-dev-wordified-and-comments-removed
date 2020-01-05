@@ -158,7 +158,7 @@ jsm
 ;
 var
 {
-SingletonEventManager
+EventManager
 IconDetails
 }
 =
@@ -1061,9 +1061,7 @@ window
 =
 button
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 switch
 (
@@ -2405,7 +2403,7 @@ browserAction
 onClicked
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -2433,8 +2431,6 @@ TabManager
 activeTab
 ;
 fire
-.
-async
 (
 TabManager
 .

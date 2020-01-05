@@ -337,9 +337,7 @@ when
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 "
 popupshown
 "
@@ -374,9 +372,7 @@ when
 (
 menu
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 "
 popuphidden
 "

@@ -3214,9 +3214,7 @@ getTabForWindow
 (
 aVideo
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 )
@@ -3673,9 +3671,7 @@ aVideo
 .
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 .

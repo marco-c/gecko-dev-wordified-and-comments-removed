@@ -5869,9 +5869,7 @@ devicePixelRatio
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 size
@@ -7876,9 +7874,7 @@ getComputedStyle
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 badgeNode
@@ -8162,9 +8158,7 @@ getComputedStyle
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 badgeNode

@@ -4779,9 +4779,7 @@ _scrollTimer
 {
 this
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 clearInterval
 (
@@ -5340,9 +5338,7 @@ win
 =
 this
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 this
 .

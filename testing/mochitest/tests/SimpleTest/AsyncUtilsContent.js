@@ -237,9 +237,7 @@ frame
 =
 cur
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 frameElement
 ;

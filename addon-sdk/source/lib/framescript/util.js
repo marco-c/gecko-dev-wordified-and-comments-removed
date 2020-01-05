@@ -90,9 +90,7 @@ windowToMessageManager
 (
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 exports

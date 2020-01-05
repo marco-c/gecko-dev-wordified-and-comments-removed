@@ -70,9 +70,7 @@ _window
 =
 elem
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -229,9 +227,7 @@ if
 (
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 !
 =
 this

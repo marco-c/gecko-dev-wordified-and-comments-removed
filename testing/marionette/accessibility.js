@@ -896,9 +896,7 @@ win
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 disabledAccessibility

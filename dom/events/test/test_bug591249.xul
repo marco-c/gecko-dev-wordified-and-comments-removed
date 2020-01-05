@@ -438,9 +438,7 @@ win
 =
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 var
 utils
@@ -703,9 +701,7 @@ true
 true
 iBox
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 0
 0
 0

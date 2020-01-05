@@ -11731,9 +11731,7 @@ popupDirection
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

@@ -1363,9 +1363,7 @@ this
 .
 _canvas
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 window

@@ -163,9 +163,7 @@ installHelperSheet
 (
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 SIMPLE_OUTLINE_SHEET
 )
 ;

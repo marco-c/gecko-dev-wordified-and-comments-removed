@@ -733,9 +733,7 @@ window
 =
 anchor
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

@@ -205,9 +205,7 @@ this
 .
 _browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 devicePixelRatio
 ;
@@ -389,9 +387,7 @@ this
 .
 _browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 updateCommands
 (

@@ -2332,9 +2332,7 @@ if
 !
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 {
 this

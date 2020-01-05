@@ -752,9 +752,7 @@ aEvent
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 this
 .

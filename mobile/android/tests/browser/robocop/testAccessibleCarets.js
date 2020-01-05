@@ -301,9 +301,7 @@ selection
 :
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getSelection
 (

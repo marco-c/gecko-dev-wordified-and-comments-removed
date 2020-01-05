@@ -230,9 +230,7 @@ style
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

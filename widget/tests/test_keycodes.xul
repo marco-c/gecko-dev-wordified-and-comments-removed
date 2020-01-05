@@ -984,9 +984,7 @@ chromeWin
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 var
 nb

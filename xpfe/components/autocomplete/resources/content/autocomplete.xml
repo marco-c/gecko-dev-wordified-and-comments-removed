@@ -11540,9 +11540,7 @@ viewer
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 QueryInterface
 (
@@ -11656,9 +11654,7 @@ direction
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

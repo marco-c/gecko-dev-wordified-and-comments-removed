@@ -1180,9 +1180,7 @@ this
 .
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -1553,9 +1551,7 @@ targetWindow
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 var
 x

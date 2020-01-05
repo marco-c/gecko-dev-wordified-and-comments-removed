@@ -621,9 +621,7 @@ ignoreWindow
 (
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 )
 return

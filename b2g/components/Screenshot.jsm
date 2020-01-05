@@ -95,9 +95,7 @@ window
 =
 systemAppFrame
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 document

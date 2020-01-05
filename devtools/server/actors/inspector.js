@@ -7504,9 +7504,7 @@ node
 .
 rawNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -12543,9 +12541,7 @@ HTMLImageElement
 =
 image
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -12748,9 +12744,7 @@ HTMLImageElement
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 isImg

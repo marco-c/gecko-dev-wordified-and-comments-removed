@@ -629,9 +629,7 @@ win
 =
 frameLoaderOwner
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 mm

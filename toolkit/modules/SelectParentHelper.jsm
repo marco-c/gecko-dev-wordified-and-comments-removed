@@ -187,9 +187,7 @@ win
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 menupopup
@@ -852,9 +850,7 @@ this
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 addEventListener
 (
@@ -867,9 +863,7 @@ true
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 addEventListener
 (
@@ -882,9 +876,7 @@ true
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 addEventListener
 (
@@ -958,9 +950,7 @@ this
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 removeEventListener
 (
@@ -973,9 +963,7 @@ true
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 removeEventListener
 (
@@ -988,9 +976,7 @@ true
 ;
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 removeEventListener
 (
@@ -1061,9 +1047,7 @@ win
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 textSize

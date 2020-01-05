@@ -9996,9 +9996,7 @@ docShell
 =
 aBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 QueryInterface
 (
@@ -13058,9 +13056,7 @@ docShell
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 QueryInterface
 (
@@ -13106,9 +13102,7 @@ parentWindow
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 PromptUtils
 .

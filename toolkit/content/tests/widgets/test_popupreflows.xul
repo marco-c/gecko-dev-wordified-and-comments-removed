@@ -43,13 +43,6 @@ stylesheet
 href
 =
 "
-chrome
-:
-/
-/
-mochikit
-/
-content
 /
 tests
 /
@@ -478,9 +471,7 @@ docShell
 =
 panel
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 QueryInterface
 (

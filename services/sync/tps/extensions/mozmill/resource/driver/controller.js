@@ -4240,9 +4240,7 @@ true
 true
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 1
 screenX
 screenY

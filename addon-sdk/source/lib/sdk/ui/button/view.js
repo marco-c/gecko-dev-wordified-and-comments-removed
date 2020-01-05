@@ -377,9 +377,7 @@ window
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

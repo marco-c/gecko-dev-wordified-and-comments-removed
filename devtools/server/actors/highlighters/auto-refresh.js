@@ -642,9 +642,7 @@ this
 .
 currentNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 this
 .

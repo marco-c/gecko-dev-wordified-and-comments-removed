@@ -121,9 +121,7 @@ defView
 =
 tipElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

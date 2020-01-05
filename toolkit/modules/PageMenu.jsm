@@ -716,9 +716,7 @@ win
 =
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 windowUtils

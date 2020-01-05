@@ -19152,9 +19152,7 @@ isWindowPrivate
 (
 aOtherTab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 )
 return
@@ -19263,9 +19261,7 @@ remoteBrowser
 =
 aOtherTab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;
@@ -20356,9 +20352,7 @@ remoteBrowser
 =
 aOtherBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;
@@ -27874,9 +27868,7 @@ otherTabbrowser
 =
 otherBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;
@@ -42425,9 +42417,7 @@ tab
 &
 sourceNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 instanceof
 ChromeWindow
 &
@@ -42455,9 +42445,7 @@ browser
 &
 sourceNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 .
@@ -42506,9 +42494,7 @@ isWindowPrivate
 (
 sourceNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 )
 return
@@ -42525,9 +42511,7 @@ gMultiProcessBrowser
 =
 sourceNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gMultiProcessBrowser
 )

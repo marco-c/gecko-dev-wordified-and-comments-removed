@@ -3128,9 +3128,7 @@ e
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -3309,9 +3307,7 @@ e
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

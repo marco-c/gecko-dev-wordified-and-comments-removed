@@ -891,9 +891,7 @@ e
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 ;

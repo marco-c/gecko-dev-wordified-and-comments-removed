@@ -464,9 +464,7 @@ this
 .
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 this
@@ -855,9 +853,7 @@ window
 =
 tabbrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 this
 .
@@ -5181,9 +5177,7 @@ other
 =
 otherBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 PopupNotifications
 ;

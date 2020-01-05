@@ -474,9 +474,7 @@ ownerDocument
 return
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 getWindowHoldingTab

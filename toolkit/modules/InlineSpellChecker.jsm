@@ -1250,9 +1250,7 @@ view
 =
 menu
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 var
 spellcheckChangeEvent
@@ -2339,9 +2337,7 @@ aProp
 return
 aElem
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (
@@ -2560,9 +2556,7 @@ win
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

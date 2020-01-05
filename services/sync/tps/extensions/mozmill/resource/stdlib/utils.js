@@ -1151,9 +1151,7 @@ win
 =
 elem
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 var
 chromeWidth
@@ -1298,9 +1296,7 @@ win
 =
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 rect
 =

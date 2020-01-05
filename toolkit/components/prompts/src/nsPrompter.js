@@ -1568,9 +1568,7 @@ nsIDocShell
 .
 chromeEventHandler
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 wrappedJSObject
 ;

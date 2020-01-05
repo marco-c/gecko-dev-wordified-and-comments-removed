@@ -45,7 +45,7 @@ jsm
 ;
 var
 {
-SingletonEventManager
+EventManager
 PlatformInfo
 }
 =
@@ -549,9 +549,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 pageActionFor
 (
@@ -584,9 +582,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 browserActionFor
 (
@@ -1016,7 +1012,7 @@ shortcut
 onCommand
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -1039,8 +1035,6 @@ commandName
 >
 {
 fire
-.
-async
 (
 commandName
 )

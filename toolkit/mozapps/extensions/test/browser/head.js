@@ -1734,9 +1734,7 @@ managerWindow
 =
 addon
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 nameNode
@@ -3497,9 +3495,7 @@ style
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

@@ -1939,9 +1939,7 @@ getToplevelWindow
 (
 node
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 return

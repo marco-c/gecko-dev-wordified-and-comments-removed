@@ -614,9 +614,7 @@ if
 (
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gInitialPages
 .

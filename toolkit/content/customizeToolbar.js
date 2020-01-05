@@ -4138,9 +4138,7 @@ sourceWindow
 =
 mozSourceNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 sourceWindow

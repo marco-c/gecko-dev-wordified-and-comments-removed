@@ -495,9 +495,7 @@ window
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 tabbrowser

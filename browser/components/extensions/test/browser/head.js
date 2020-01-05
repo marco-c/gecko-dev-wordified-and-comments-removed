@@ -325,9 +325,7 @@ style
 =
 button
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

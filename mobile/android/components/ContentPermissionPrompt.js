@@ -411,9 +411,7 @@ request
 .
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 }
 prompt

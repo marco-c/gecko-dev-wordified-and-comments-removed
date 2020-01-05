@@ -1348,9 +1348,7 @@ this
 .
 _frameElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }
@@ -1364,9 +1362,7 @@ this
 .
 _frameElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 }
 get

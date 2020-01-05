@@ -2323,9 +2323,7 @@ window
 =
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -2361,9 +2359,7 @@ window
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 [
@@ -3644,9 +3640,7 @@ chromeWin
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 chromeWin
@@ -5077,9 +5071,7 @@ if
 !
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gMultiProcessBrowser
 )
@@ -5141,9 +5133,7 @@ if
 !
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gMultiProcessBrowser
 )
@@ -5205,9 +5195,7 @@ if
 !
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gMultiProcessBrowser
 )
@@ -5269,9 +5257,7 @@ if
 !
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gMultiProcessBrowser
 )

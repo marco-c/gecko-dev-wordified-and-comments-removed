@@ -354,9 +354,7 @@ this
 .
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 MutationObserver
 ;
@@ -800,9 +798,7 @@ this
 .
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -980,9 +976,7 @@ this
 .
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -1154,9 +1148,7 @@ element
 return
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (

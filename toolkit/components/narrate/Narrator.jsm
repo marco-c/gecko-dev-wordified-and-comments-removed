@@ -1680,9 +1680,7 @@ this
 .
 container
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 computedStyle

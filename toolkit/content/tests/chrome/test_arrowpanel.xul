@@ -43,13 +43,6 @@ stylesheet
 href
 =
 "
-chrome
-:
-/
-/
-mochikit
-/
-content
 /
 tests
 /
@@ -2218,9 +2211,7 @@ framerect
 =
 anchor
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 frameElement
 .

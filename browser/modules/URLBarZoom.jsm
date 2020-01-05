@@ -110,9 +110,7 @@ win
 =
 aSubject
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 customizableZoomControls

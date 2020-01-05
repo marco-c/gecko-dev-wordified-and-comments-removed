@@ -1473,9 +1473,7 @@ win
 =
 el
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 return
 [
@@ -2162,9 +2160,7 @@ true
 true
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 1
 screenX
 screenY
