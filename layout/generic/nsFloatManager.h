@@ -319,10 +319,11 @@ mBlockStart
 ;
 }
 enum
+class
 BandInfoType
 {
-BAND_FROM_POINT
-WIDTH_WITHIN_HEIGHT
+BandFromPoint
+WidthWithinHeight
 }
 ;
 nsFlowAreaRect
@@ -335,10 +336,10 @@ WritingMode
 aWM
 nscoord
 aBCoord
-BandInfoType
-aInfoType
 nscoord
 aBSize
+BandInfoType
+aBandInfoType
 mozilla
 :
 :
