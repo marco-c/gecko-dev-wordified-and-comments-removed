@@ -69,6 +69,17 @@ content
 /
 extensions
 /
+extension
+-
+process
+-
+script
+.
+js
+content
+/
+extensions
+/
 ext
 -
 alarms

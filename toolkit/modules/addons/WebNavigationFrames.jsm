@@ -57,14 +57,10 @@ docShell
 .
 getDocShellEnumerator
 (
-Ci
-.
-nsIDocShellTreeItem
+docShell
 .
 typeContent
-Ci
-.
-nsIDocShell
+docShell
 .
 ENUMERATE_FORWARDS
 )
@@ -86,9 +82,6 @@ getNext
 )
 ;
 }
-return
-null
-;
 }
 function
 getFrameId
