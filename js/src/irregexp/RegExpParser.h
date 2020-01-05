@@ -754,9 +754,8 @@ SyntaxError
 (
 unsigned
 errorNumber
-.
-.
-.
+va_list
+args
 )
 ;
 public
@@ -767,12 +766,9 @@ ReportError
 (
 unsigned
 errorNumber
-const
-char
-*
-param
-=
-nullptr
+.
+.
+.
 )
 ;
 void
