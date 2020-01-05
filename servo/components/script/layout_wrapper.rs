@@ -2785,7 +2785,7 @@ flags
 )
 }
 fn
-update_animations
+has_animations
 (
 &
 self
@@ -2797,6 +2797,9 @@ Option
 PseudoElement
 >
 )
+-
+>
+bool
 {
 panic
 !
