@@ -38,7 +38,7 @@ http
 RawStatus
 ;
 use
-servo_util
+util
 :
 :
 resource_files

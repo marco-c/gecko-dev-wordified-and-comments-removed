@@ -33,7 +33,7 @@ font
 FractionalPixel
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -45,7 +45,7 @@ px_to_pt
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry

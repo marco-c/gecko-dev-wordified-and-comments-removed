@@ -104,7 +104,7 @@ reflect_dom_object
 }
 ;
 use
-servo_util
+util
 :
 :
 str

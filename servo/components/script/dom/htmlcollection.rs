@@ -140,13 +140,13 @@ window
 Window
 ;
 use
-servo_util
+util
 :
 :
 namespace
 ;
 use
-servo_util
+util
 :
 :
 str

@@ -33,7 +33,7 @@ properties
 longhands
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -1188,7 +1188,7 @@ size
 TypedSize2D
 ;
 use
-servo_util
+util
 :
 :
 geometry

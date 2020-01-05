@@ -94,7 +94,7 @@ libc
 c_int
 ;
 use
-servo_util
+util
 :
 :
 opts

@@ -118,7 +118,7 @@ sync
 Arc
 ;
 use
-servo_util
+util
 :
 :
 logical_geometry
@@ -130,7 +130,7 @@ LogicalMargin
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -1283,7 +1283,7 @@ unused_imports
 )
 ]
 use
-servo_util
+util
 :
 :
 geometry
@@ -1692,7 +1692,7 @@ width
 "
 >
 use
-servo_util
+util
 :
 :
 geometry
@@ -1749,7 +1749,7 @@ mod
 computed_value
 {
 use
-servo_util
+util
 :
 :
 geometry
@@ -2161,7 +2161,7 @@ computed_value
 {
 pub
 use
-servo_util
+util
 :
 :
 geometry
@@ -3729,7 +3729,7 @@ values
 CSSFloat
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -4397,7 +4397,7 @@ values
 CSSFloat
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -8535,7 +8535,7 @@ size
 "
 >
 use
-servo_util
+util
 :
 :
 geometry
@@ -8566,7 +8566,7 @@ mod
 computed_value
 {
 use
-servo_util
+util
 :
 :
 geometry
@@ -9184,7 +9184,7 @@ mod
 computed_value
 {
 use
-servo_util
+util
 :
 :
 geometry
@@ -9369,7 +9369,7 @@ mod
 computed_value
 {
 use
-servo_util
+util
 :
 :
 geometry
@@ -10972,7 +10972,7 @@ cursor
 "
 >
 use
-servo_util
+util
 :
 :
 cursor
@@ -11005,7 +11005,7 @@ mod
 computed_value
 {
 use
-servo_util
+util
 :
 :
 cursor
@@ -11597,7 +11597,7 @@ mod
 computed_value
 {
 use
-servo_util
+util
 :
 :
 geometry
@@ -12028,7 +12028,7 @@ SpecifiedBoxShadow
 >
 {
 use
-servo_util
+util
 :
 :
 geometry
@@ -12358,7 +12358,7 @@ mod
 computed_value
 {
 use
-servo_util
+util
 :
 :
 geometry
@@ -12624,7 +12624,7 @@ ascii
 AsciiExt
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -15176,7 +15176,7 @@ left
 "
 >
 use
-servo_util
+util
 :
 :
 geometry
@@ -18297,7 +18297,7 @@ if
 !
 :
 :
-servo_util
+util
 :
 :
 opts
@@ -19639,7 +19639,7 @@ InheritedBox
 WritingMode
 {
 use
-servo_util
+util
 :
 :
 logical_geometry

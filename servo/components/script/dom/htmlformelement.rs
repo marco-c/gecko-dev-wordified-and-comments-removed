@@ -292,7 +292,7 @@ constellation_msg
 LoadData
 ;
 use
-servo_util
+util
 :
 :
 str

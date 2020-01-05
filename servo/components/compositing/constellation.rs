@@ -230,7 +230,7 @@ StorageTaskMsg
 }
 ;
 use
-servo_util
+util
 :
 :
 cursor
@@ -239,7 +239,7 @@ cursor
 Cursor
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -251,13 +251,13 @@ ViewportPx
 }
 ;
 use
-servo_util
+util
 :
 :
 opts
 ;
 use
-servo_util
+util
 :
 :
 task
@@ -266,7 +266,7 @@ task
 spawn_named
 ;
 use
-servo_util
+util
 :
 :
 time

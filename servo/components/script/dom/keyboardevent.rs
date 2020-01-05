@@ -164,7 +164,7 @@ servo_msg
 constellation_msg
 ;
 use
-servo_util
+util
 :
 :
 str

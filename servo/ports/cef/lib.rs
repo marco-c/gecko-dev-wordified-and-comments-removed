@@ -112,11 +112,7 @@ servo_msg
 ;
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 extern
 crate

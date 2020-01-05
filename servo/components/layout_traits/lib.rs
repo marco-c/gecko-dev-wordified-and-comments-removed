@@ -48,11 +48,7 @@ servo_net
 ;
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 use
 gfx
@@ -105,7 +101,7 @@ resource_task
 ResourceTask
 ;
 use
-servo_util
+util
 :
 :
 time

@@ -226,7 +226,7 @@ base
 Image
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -238,13 +238,13 @@ MAX_RECT
 }
 ;
 use
-servo_util
+util
 :
 :
 opts
 ;
 use
-servo_util
+util
 :
 :
 range

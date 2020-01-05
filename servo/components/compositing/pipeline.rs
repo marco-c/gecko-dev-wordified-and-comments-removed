@@ -122,7 +122,7 @@ storage_task
 StorageTask
 ;
 use
-servo_util
+util
 :
 :
 time

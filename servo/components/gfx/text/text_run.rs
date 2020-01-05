@@ -28,7 +28,7 @@ font_template
 FontTemplateData
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -37,7 +37,7 @@ geometry
 Au
 ;
 use
-servo_util
+util
 :
 :
 range
@@ -46,7 +46,7 @@ range
 Range
 ;
 use
-servo_util
+util
 :
 :
 vec

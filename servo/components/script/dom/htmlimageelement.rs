@@ -194,7 +194,7 @@ servo_net
 image_cache_task
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -203,7 +203,7 @@ geometry
 to_px
 ;
 use
-servo_util
+util
 :
 :
 str

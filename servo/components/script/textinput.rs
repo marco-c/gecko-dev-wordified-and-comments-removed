@@ -38,7 +38,7 @@ keyboardevent
 KeyboardEvent
 ;
 use
-servo_util
+util
 :
 :
 str

@@ -35,7 +35,7 @@ Done
 }
 ;
 use
-servo_util
+util
 :
 :
 task
@@ -44,7 +44,7 @@ task
 spawn_named
 ;
 use
-servo_util
+util
 :
 :
 taskpool
@@ -3012,7 +3012,7 @@ base
 test_image_bin
 ;
 use
-servo_util
+util
 :
 :
 taskpool

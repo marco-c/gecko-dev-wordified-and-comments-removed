@@ -162,7 +162,7 @@ devtools_traits
 AttrInfo
 ;
 use
-servo_util
+util
 :
 :
 str

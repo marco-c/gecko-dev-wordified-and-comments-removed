@@ -57,7 +57,7 @@ cssparser
 Color
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -66,7 +66,7 @@ geometry
 Au
 ;
 use
-servo_util
+util
 :
 :
 smallvec
@@ -75,7 +75,7 @@ smallvec
 VecLike
 ;
 use
-servo_util
+util
 :
 :
 str

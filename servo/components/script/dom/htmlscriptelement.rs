@@ -329,7 +329,7 @@ resource_task
 load_whole_resource
 ;
 use
-servo_util
+util
 :
 :
 str

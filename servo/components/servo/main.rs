@@ -47,11 +47,7 @@ time
 ;
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 #
 [
@@ -166,7 +162,7 @@ test
 )
 ]
 use
-servo_util
+util
 :
 :
 opts
@@ -495,7 +491,7 @@ stdio
 fgets
 ;
 use
-servo_util
+util
 :
 :
 task

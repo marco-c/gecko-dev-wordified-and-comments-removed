@@ -91,11 +91,7 @@ servo_msg
 ;
 extern
 crate
-"
 util
-"
-as
-servo_util
 ;
 use
 actor
@@ -170,7 +166,7 @@ constellation_msg
 PipelineId
 ;
 use
-servo_util
+util
 :
 :
 task

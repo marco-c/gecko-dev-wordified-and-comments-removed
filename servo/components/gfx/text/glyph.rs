@@ -1,5 +1,5 @@
 use
-servo_util
+util
 :
 :
 vec
@@ -8,13 +8,13 @@ vec
 *
 ;
 use
-servo_util
+util
 :
 :
 range
 ;
 use
-servo_util
+util
 :
 :
 range
@@ -27,7 +27,7 @@ EachIndex
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry

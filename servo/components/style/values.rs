@@ -367,7 +367,7 @@ TextWriter
 }
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -5105,7 +5105,7 @@ url
 Url
 ;
 use
-servo_util
+util
 :
 :
 geometry

@@ -22,13 +22,13 @@ JSTracer
 }
 ;
 use
-servo_util
+util
 :
 :
 task_state
 ;
 use
-servo_util
+util
 :
 :
 task_state

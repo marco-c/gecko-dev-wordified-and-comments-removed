@@ -98,7 +98,7 @@ page
 Page
 ;
 use
-servo_util
+util
 :
 :
 str

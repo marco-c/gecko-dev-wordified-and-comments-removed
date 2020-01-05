@@ -643,7 +643,7 @@ storage_task
 StorageTask
 ;
 use
-servo_util
+util
 :
 :
 geometry
@@ -652,7 +652,7 @@ geometry
 to_frac_px
 ;
 use
-servo_util
+util
 :
 :
 smallvec
@@ -661,7 +661,7 @@ smallvec
 SmallVec
 ;
 use
-servo_util
+util
 :
 :
 task
@@ -670,7 +670,7 @@ task
 spawn_named_with_send_on_failure
 ;
 use
-servo_util
+util
 :
 :
 task_state

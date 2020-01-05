@@ -56,7 +56,7 @@ WindowSizeData
 }
 ;
 use
-servo_util
+util
 :
 :
 memory
@@ -65,13 +65,13 @@ memory
 MemoryProfilerChan
 ;
 use
-servo_util
+util
 :
 :
 memory
 ;
 use
-servo_util
+util
 :
 :
 time
@@ -80,7 +80,7 @@ time
 TimeProfilerChan
 ;
 use
-servo_util
+util
 :
 :
 time

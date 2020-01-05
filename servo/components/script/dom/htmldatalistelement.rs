@@ -156,7 +156,7 @@ window_from_node
 }
 ;
 use
-servo_util
+util
 :
 :
 str

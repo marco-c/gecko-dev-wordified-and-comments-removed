@@ -126,7 +126,7 @@ validitystate
 ValidityState
 ;
 use
-servo_util
+util
 :
 :
 str
