@@ -2378,6 +2378,15 @@ indiceSF
 ;
 if
 (
+(
+!
+mPreferRust
+|
+|
+mRustTestMode
+)
+&
+&
 !
 mStagefright
 -
