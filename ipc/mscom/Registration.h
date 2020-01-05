@@ -105,10 +105,10 @@ RegisteredProxy
 )
 ;
 HRESULT
-GetTypeInfoForGuid
+GetTypeInfoForInterface
 (
-REFGUID
-aGuid
+REFIID
+aIid
 ITypeInfo
 *
 *
