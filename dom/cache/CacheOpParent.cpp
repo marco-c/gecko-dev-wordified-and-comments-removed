@@ -250,9 +250,6 @@ mVerifier
 ;
 RefPtr
 <
-cache
-:
-:
 Manager
 >
 manager
@@ -260,9 +257,6 @@ manager
 nsresult
 rv
 =
-cache
-:
-:
 Manager
 :
 :
@@ -325,9 +319,6 @@ CacheOpParent
 :
 Execute
 (
-cache
-:
-:
 Manager
 *
 aManager

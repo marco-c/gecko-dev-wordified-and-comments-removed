@@ -29,17 +29,6 @@ mozilla
 /
 ipc
 /
-CrossProcessMutex
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ipc
-/
 MessageChannel
 .
 h
@@ -51,7 +40,7 @@ mozilla
 /
 ipc
 /
-ProtocolUtils
+CrossProcessMutex
 .
 h
 "
