@@ -280,6 +280,11 @@ DispatchVRDisplayInfoUpdate
 (
 )
 ;
+void
+RefreshVRControllers
+(
+)
+;
 typedef
 nsTHashtable
 <
