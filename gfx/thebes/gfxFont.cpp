@@ -12161,8 +12161,8 @@ mNonAAFont
 )
 {
 mNonAAFont
-.
-reset
+=
+Move
 (
 CopyWithAntialiasOption
 (

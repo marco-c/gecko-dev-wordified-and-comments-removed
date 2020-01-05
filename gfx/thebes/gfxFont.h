@@ -4742,8 +4742,13 @@ mScaledFont
 ;
 }
 virtual
+mozilla
+:
+:
+UniquePtr
+<
 gfxFont
-*
+>
 CopyWithAntialiasOption
 (
 AntialiasOption

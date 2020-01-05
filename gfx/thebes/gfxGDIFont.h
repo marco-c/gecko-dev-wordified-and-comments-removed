@@ -157,9 +157,13 @@ aOrientation
 )
 override
 ;
-virtual
+mozilla
+:
+:
+UniquePtr
+<
 gfxFont
-*
+>
 CopyWithAntialiasOption
 (
 AntialiasOption
