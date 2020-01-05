@@ -497,6 +497,8 @@ if
 http
 )
 {
+rv
+=
 http
 -
 >
@@ -534,6 +536,14 @@ q
 "
 )
 false
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 nsCOMPtr
@@ -581,6 +591,8 @@ if
 loaderUri
 )
 {
+rv
+=
 http
 -
 >
@@ -588,6 +600,14 @@ SetReferrerWithPolicy
 (
 loaderUri
 aReferrerPolicy
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 }

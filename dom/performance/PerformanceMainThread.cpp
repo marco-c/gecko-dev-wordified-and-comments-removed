@@ -468,6 +468,9 @@ entryName
 nsAutoCString
 protocol
 ;
+Unused
+<
+<
 channel
 -
 >
@@ -537,6 +540,9 @@ encodedBodySize
 =
 0
 ;
+Unused
+<
+<
 channel
 -
 >
@@ -559,6 +565,9 @@ transferSize
 =
 0
 ;
+Unused
+<
+<
 channel
 -
 >
@@ -581,6 +590,9 @@ decodedBodySize
 =
 0
 ;
+Unused
+<
+<
 channel
 -
 >

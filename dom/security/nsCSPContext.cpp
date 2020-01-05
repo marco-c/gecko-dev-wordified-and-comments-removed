@@ -4182,6 +4182,8 @@ if
 httpChannel
 )
 {
+rv
+=
 httpChannel
 -
 >
@@ -4192,6 +4194,14 @@ NS_LITERAL_CSTRING
 "
 POST
 "
+)
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
 )
 )
 ;

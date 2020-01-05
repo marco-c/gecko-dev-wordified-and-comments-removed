@@ -1290,6 +1290,12 @@ this
 (
 )
 {
+DebugOnly
+<
+nsresult
+>
+rv
+=
 mListener
 -
 >
@@ -1298,6 +1304,14 @@ OnTransportAvailable
 mTransport
 mInput
 mOutput
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 }

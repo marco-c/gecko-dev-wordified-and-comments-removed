@@ -2139,6 +2139,8 @@ if
 httpChannel
 )
 {
+rv
+=
 httpChannel
 -
 >
@@ -2148,6 +2150,14 @@ nsIHttpChannelInternal
 :
 :
 CORS_MODE_SAME_ORIGIN
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 }
