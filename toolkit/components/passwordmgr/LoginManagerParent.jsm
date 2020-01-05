@@ -1166,6 +1166,7 @@ searchString
 previousResult
 rect
 requestId
+isSecure
 remote
 }
 target
@@ -1338,6 +1339,9 @@ UserAutoCompleteResult
 (
 searchString
 matchingLogins
+{
+isSecure
+}
 )
 ;
 AutoCompletePopup
