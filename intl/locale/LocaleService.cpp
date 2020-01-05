@@ -108,7 +108,7 @@ NS_LITERAL_CSTRING
 global
 "
 )
-true
+false
 uaLangTag
 )
 ;
