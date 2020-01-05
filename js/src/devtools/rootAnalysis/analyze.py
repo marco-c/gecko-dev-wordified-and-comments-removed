@@ -23,6 +23,58 @@ import
 sys
 import
 re
+anystring_t
+=
+str
+if
+sys
+.
+version_info
+[
+0
+]
+>
+2
+else
+basestring
+try
+:
+    
+execfile
+except
+:
+    
+def
+execfile
+(
+thefile
+globals
+)
+:
+        
+exec
+(
+compile
+(
+open
+(
+thefile
+)
+.
+read
+(
+)
+filename
+=
+thefile
+mode
+=
+"
+exec
+"
+)
+globals
+)
 def
 env
 (
@@ -453,7 +505,9 @@ outputs
 output
     
 print
+(
 output
+)
 def
 generate_hazards
 (
@@ -1382,7 +1436,7 @@ if
 isinstance
 (
 outfiles
-basestring
+anystring_t
 )
 :
             
@@ -2424,6 +2478,10 @@ cpp
 '
 ]
 )
+.
+decode
+(
+)
     
 data
 [
@@ -2567,7 +2625,7 @@ if
 isinstance
 (
 outfiles
-basestring
+anystring_t
 )
 :
         
