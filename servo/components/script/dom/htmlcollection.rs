@@ -1086,6 +1086,7 @@ box
 ElementChildFilter
 )
 }
+pub
 fn
 elements_iter
 (
@@ -1158,6 +1159,7 @@ filter
 }
 }
 }
+pub
 struct
 HTMLCollectionElementsIter
 <

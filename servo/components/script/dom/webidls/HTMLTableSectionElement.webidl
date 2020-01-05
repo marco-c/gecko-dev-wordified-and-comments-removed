@@ -119,8 +119,9 @@ attribute
 HTMLCollection
 rows
 ;
-/
-/
+[
+Throws
+]
 HTMLElement
 insertRow
 (
@@ -132,8 +133,9 @@ index
 1
 )
 ;
-/
-/
+[
+Throws
+]
 void
 deleteRow
 (
