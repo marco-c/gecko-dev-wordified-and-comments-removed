@@ -407,6 +407,16 @@ REFLOW
 return
 ;
 }
+}
+pub
+fn
+valign_children
+(
+&
+mut
+self
+)
+{
 let
 first_start
 =

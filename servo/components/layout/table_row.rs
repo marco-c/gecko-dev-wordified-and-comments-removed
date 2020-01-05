@@ -801,6 +801,12 @@ block_size
 ;
 child_table_cell
 .
+valign_children
+(
+)
+;
+child_table_cell
+.
 block_flow
 .
 base
