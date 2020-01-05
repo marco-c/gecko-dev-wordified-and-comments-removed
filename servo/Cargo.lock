@@ -53,7 +53,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -1358,7 +1358,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -3345,7 +3345,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -3374,7 +3374,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -3639,7 +3639,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -4117,7 +4117,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -5058,7 +5058,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -5095,7 +5095,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -5518,7 +5518,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -8565,7 +8565,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -8602,7 +8602,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -10140,7 +10140,7 @@ version
 .
 10
 .
-2
+3
 "
 source
 =
@@ -11519,7 +11519,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -12028,7 +12028,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -13245,7 +13245,7 @@ version
 .
 2
 .
-24
+29
 "
 source
 =
@@ -13441,7 +13441,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -13509,7 +13509,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -16626,7 +16626,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -17750,7 +17750,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -18500,7 +18500,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -20248,7 +20248,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -20308,7 +20308,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -25770,7 +25770,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -25859,7 +25859,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -30801,7 +30801,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -32075,7 +32075,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -32551,7 +32551,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -35429,7 +35429,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -35489,7 +35489,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -35926,7 +35926,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -36325,7 +36325,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -37761,7 +37761,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -38774,7 +38774,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -39102,7 +39102,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -39388,7 +39388,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -43976,7 +43976,7 @@ servo
 /
 webrender
 #
-c4a0c01f7a249a5786a5f32922574feb56b370b2
+b2e02df28a6150433d299bac8435b5812d7bba15
 "
 dependencies
 =
@@ -44225,7 +44225,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -44312,7 +44312,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -44454,12 +44454,12 @@ index
 )
 "
 "
-rayon
-0
+threadpool
+1
 .
-5
+3
 .
-0
+2
 (
 registry
 +
@@ -44571,7 +44571,7 @@ servo
 /
 webrender
 #
-c4a0c01f7a249a5786a5f32922574feb56b370b2
+b2e02df28a6150433d299bac8435b5812d7bba15
 "
 dependencies
 =
@@ -44700,7 +44700,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -44729,7 +44729,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -48627,7 +48627,7 @@ euclid
 .
 10
 .
-2
+3
 (
 registry
 +
@@ -48652,7 +48652,7 @@ index
 "
 =
 "
-44ef2a3e4a621518e488db36820a12b49a9d5004764b8daf1458bbe5d7c9b626
+0c274f13773ec277a48408d0c7a8dc935ad4bfe190f4cfccd0126d203afc3c83
 "
 "
 checksum
@@ -49131,7 +49131,7 @@ gleam
 .
 2
 .
-24
+29
 (
 registry
 +
@@ -49156,7 +49156,7 @@ index
 "
 =
 "
-b04d6c8a1df841e48dfe99ed67829c9d1d17b1bb3e44c5f3283992010e20359b
+1b83402229bde9d923f0b92811be017f9df5946ee86f8647367b1e02bcf5c293
 "
 "
 checksum
