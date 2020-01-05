@@ -21189,11 +21189,11 @@ DeclarationKind
 Const
 )
 {
-reportWithNode
+errorAt
 (
-ParseError
-false
-binding
+namePos
+.
+begin
 JSMSG_BAD_CONST_DECL
 )
 ;
