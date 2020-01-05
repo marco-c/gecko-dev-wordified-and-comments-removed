@@ -515,7 +515,7 @@ glyph_offset
 x
 )
 .
-to_nearest_px
+to_subpx
 (
 )
 as
@@ -532,7 +532,7 @@ glyph_offset
 y
 )
 .
-to_nearest_px
+to_subpx
 (
 )
 as
