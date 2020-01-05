@@ -283,6 +283,12 @@ constellation_msg
 ConstellationChan
 ;
 use
+range
+:
+:
+Range
+;
+use
 script_traits
 :
 :
@@ -402,7 +408,7 @@ unsafe_code
 ]
 unsafe
 fn
-get_absolute_insertion_point_for_layout
+get_absolute_selection_for_layout
 (
 self
 )
@@ -410,7 +416,10 @@ self
 >
 Option
 <
+Range
+<
 usize
+>
 >
 ;
 #
@@ -519,7 +528,7 @@ unsafe_code
 ]
 unsafe
 fn
-get_absolute_insertion_point_for_layout
+get_absolute_selection_for_layout
 (
 self
 )
@@ -527,7 +536,10 @@ self
 >
 Option
 <
+Range
+<
 usize
+>
 >
 {
 if
@@ -570,7 +582,7 @@ borrow_for_layout
 (
 )
 .
-get_absolute_insertion_point
+get_absolute_selection_range
 (
 )
 )

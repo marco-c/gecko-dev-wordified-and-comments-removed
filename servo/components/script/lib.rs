@@ -300,6 +300,10 @@ rand
 ;
 extern
 crate
+range
+;
+extern
+crate
 ref_filter_map
 ;
 extern

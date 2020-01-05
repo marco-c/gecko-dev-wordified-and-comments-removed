@@ -4089,11 +4089,11 @@ is_empty
 return
 }
 let
-insertion_point
+selection
 =
 node
 .
-insertion_point
+selection
 (
 )
 ;
@@ -4142,7 +4142,7 @@ UnscannedTextFragmentInfo
 new
 (
 string
-insertion_point
+selection
 )
 ;
 let
