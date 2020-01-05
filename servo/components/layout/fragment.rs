@@ -1913,6 +1913,14 @@ image_size
 as
 i32
 ;
+if
+image_size
+=
+=
+0
+{
+return
+}
 let
 delta_pixels
 =
