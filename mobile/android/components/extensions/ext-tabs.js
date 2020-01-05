@@ -311,7 +311,7 @@ BrowserApp
 )
 {
 let
-tab
+nativeTab
 =
 BrowserApp
 .
@@ -324,14 +324,14 @@ xulBrowser
 ;
 if
 (
-tab
+nativeTab
 )
 {
 BrowserApp
 .
 closeTab
 (
-tab
+nativeTab
 )
 ;
 }
@@ -462,7 +462,7 @@ browser
 ownerGlobal
 ;
 let
-tab
+nativeTab
 =
 BrowserApp
 .
@@ -477,7 +477,7 @@ initializingTabs
 .
 delete
 (
-tab
+nativeTab
 )
 ;
 let
@@ -489,7 +489,7 @@ tabReadyPromises
 .
 get
 (
-tab
+nativeTab
 )
 ;
 if
@@ -501,7 +501,7 @@ deferred
 .
 resolve
 (
-tab
+nativeTab
 )
 ;
 this
@@ -510,7 +510,7 @@ tabReadyPromises
 .
 delete
 (
-tab
+nativeTab
 )
 ;
 }
@@ -518,7 +518,7 @@ tab
 }
 awaitTabReady
 (
-tab
+nativeTab
 )
 {
 let
@@ -530,7 +530,7 @@ tabReadyPromises
 .
 get
 (
-tab
+nativeTab
 )
 ;
 if
@@ -556,19 +556,19 @@ initializingTabs
 .
 has
 (
-tab
+nativeTab
 )
 &
 &
 (
-tab
+nativeTab
 .
 browser
 .
 innerWindowID
 |
 |
-tab
+nativeTab
 .
 browser
 .
@@ -590,7 +590,7 @@ deferred
 .
 resolve
 (
-tab
+nativeTab
 )
 ;
 }
@@ -608,7 +608,7 @@ tabReadyPromises
 .
 set
 (
-tab
+nativeTab
 deferred
 )
 ;
@@ -730,7 +730,7 @@ awaitTabReady
 (
 tab
 .
-tab
+nativeTab
 )
 ;
 return
@@ -838,7 +838,7 @@ convert
 (
 event
 .
-tab
+nativeTab
 )
 )
 ;
@@ -1286,7 +1286,7 @@ needed
 ]
 ;
 let
-tab
+nativeTab
 ;
 switch
 (
@@ -1315,7 +1315,7 @@ target
 ownerGlobal
 )
 ;
-tab
+nativeTab
 =
 BrowserApp
 .
@@ -1362,7 +1362,7 @@ target
 .
 ownerGlobal
 ;
-tab
+nativeTab
 =
 BrowserApp
 .
@@ -1389,19 +1389,20 @@ break
 if
 (
 !
-tab
+nativeTab
 )
 {
 return
 ;
 }
+let
 tab
 =
 tabManager
 .
 getWrapper
 (
-tab
+nativeTab
 )
 ;
 let
@@ -1460,7 +1461,7 @@ browser
 ownerGlobal
 ;
 let
-tab
+nativeTab
 =
 BrowserApp
 .
@@ -1471,7 +1472,7 @@ browser
 ;
 if
 (
-tab
+nativeTab
 )
 {
 let
@@ -1499,7 +1500,7 @@ tabManager
 .
 wrapTab
 (
-tab
+nativeTab
 )
 changed
 )
@@ -1729,7 +1730,7 @@ initTabReady
 )
 ;
 let
-tab
+nativeTab
 =
 BrowserApp
 .
@@ -1752,7 +1753,7 @@ initializingTabs
 .
 add
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1761,7 +1762,7 @@ tabManager
 .
 convert
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1798,7 +1799,7 @@ tabs
 )
 {
 let
-tab
+nativeTab
 =
 tabTracker
 .
@@ -1807,7 +1808,7 @@ getTab
 tabId
 )
 ;
-tab
+nativeTab
 .
 browser
 .
@@ -1817,7 +1818,7 @@ BrowserApp
 .
 closeTab
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1830,7 +1831,7 @@ updateProperties
 )
 {
 let
-tab
+nativeTab
 =
 getTabOrActive
 (
@@ -1842,7 +1843,7 @@ let
 BrowserApp
 }
 =
-tab
+nativeTab
 .
 browser
 .
@@ -1907,7 +1908,7 @@ url
 )
 ;
 }
-tab
+nativeTab
 .
 browser
 .
@@ -1939,7 +1940,7 @@ BrowserApp
 .
 selectTab
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1952,7 +1953,7 @@ tabManager
 .
 convert
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1964,7 +1965,7 @@ reloadProperties
 )
 {
 let
-tab
+nativeTab
 =
 getTabOrActive
 (
@@ -2000,7 +2001,7 @@ nsIWebNavigation
 LOAD_FLAGS_BYPASS_CACHE
 ;
 }
-tab
+nativeTab
 .
 browser
 .
@@ -2214,7 +2215,7 @@ awaitTabReady
 (
 tab
 .
-tab
+nativeTab
 )
 ;
 return

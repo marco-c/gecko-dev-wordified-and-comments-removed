@@ -224,7 +224,7 @@ prototype
 {
 get
 (
-tab
+nativeTab
 )
 {
 if
@@ -236,7 +236,7 @@ tabData
 .
 has
 (
-tab
+nativeTab
 )
 )
 {
@@ -246,12 +246,12 @@ tabData
 .
 set
 (
-tab
+nativeTab
 this
 .
 getDefaults
 (
-tab
+nativeTab
 )
 )
 ;
@@ -263,13 +263,13 @@ tabData
 .
 get
 (
-tab
+nativeTab
 )
 ;
 }
 clear
 (
-tab
+nativeTab
 )
 {
 this
@@ -278,7 +278,7 @@ tabData
 .
 delete
 (
-tab
+nativeTab
 )
 ;
 }
@@ -300,7 +300,7 @@ TabSelect
 )
 {
 let
-tab
+nativeTab
 =
 event
 .
@@ -315,7 +315,7 @@ tab
 -
 select
 "
-tab
+nativeTab
 )
 ;
 this
@@ -327,7 +327,7 @@ location
 -
 change
 "
-tab
+nativeTab
 )
 ;
 }
@@ -449,7 +449,7 @@ currentURI
 )
 {
 let
-tab
+nativeTab
 =
 gBrowser
 .
@@ -467,7 +467,7 @@ location
 -
 change
 "
-tab
+nativeTab
 true
 )
 ;
@@ -790,7 +790,7 @@ _handleTabDestroyed
 }
 getId
 (
-tab
+nativeTab
 )
 {
 if
@@ -801,7 +801,7 @@ _tabs
 .
 has
 (
-tab
+nativeTab
 )
 )
 {
@@ -812,7 +812,7 @@ _tabs
 .
 get
 (
-tab
+nativeTab
 )
 ;
 }
@@ -835,7 +835,7 @@ this
 .
 setId
 (
-tab
+nativeTab
 id
 )
 ;
@@ -845,7 +845,7 @@ id
 }
 setId
 (
-tab
+nativeTab
 id
 )
 {
@@ -855,7 +855,7 @@ _tabs
 .
 set
 (
-tab
+nativeTab
 id
 )
 ;
@@ -866,7 +866,7 @@ _tabIds
 set
 (
 id
-tab
+nativeTab
 )
 ;
 }
@@ -874,7 +874,7 @@ _handleTabDestroyed
 (
 event
 {
-tab
+nativeTab
 }
 )
 {
@@ -887,7 +887,7 @@ _tabs
 .
 get
 (
-tab
+nativeTab
 )
 ;
 if
@@ -901,7 +901,7 @@ _tabs
 .
 delete
 (
-tab
+nativeTab
 )
 ;
 if
@@ -917,7 +917,7 @@ id
 =
 =
 =
-tab
+nativeTab
 )
 {
 this
@@ -941,7 +941,7 @@ undefined
 )
 {
 let
-tab
+nativeTab
 =
 this
 .
@@ -954,11 +954,11 @@ tabId
 ;
 if
 (
-tab
+nativeTab
 )
 {
 return
-tab
+nativeTab
 ;
 }
 if
@@ -994,7 +994,7 @@ event
 )
 {
 let
-tab
+nativeTab
 =
 event
 .
@@ -1042,7 +1042,7 @@ this
 .
 setId
 (
-tab
+nativeTab
 this
 .
 getId
@@ -1071,7 +1071,7 @@ windowTracker
 .
 getId
 (
-tab
+nativeTab
 .
 ownerGlobal
 )
@@ -1156,7 +1156,7 @@ this
 .
 getId
 (
-tab
+nativeTab
 )
 )
 ;
@@ -1164,7 +1164,7 @@ this
 .
 emitDetached
 (
-tab
+nativeTab
 adoptedBy
 )
 ;
@@ -1175,7 +1175,7 @@ this
 .
 emitRemoved
 (
-tab
+nativeTab
 false
 )
 ;
@@ -1209,7 +1209,7 @@ XULElement
 )
 {
 let
-tab
+nativeTab
 =
 window
 .
@@ -1236,7 +1236,7 @@ adoptedTabs
 .
 set
 (
-tab
+nativeTab
 adoptedBy
 )
 ;
@@ -1249,7 +1249,7 @@ this
 .
 getId
 (
-tab
+nativeTab
 )
 )
 ;
@@ -1267,11 +1267,11 @@ if
 (
 details
 .
-tab
+nativeTab
 =
 =
 =
-tab
+nativeTab
 )
 {
 this
@@ -1332,7 +1332,7 @@ else
 for
 (
 let
-tab
+nativeTab
 of
 window
 .
@@ -1345,7 +1345,7 @@ this
 .
 emitCreated
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1359,7 +1359,7 @@ window
 for
 (
 let
-tab
+nativeTab
 of
 window
 .
@@ -1376,7 +1376,7 @@ adoptedTabs
 .
 has
 (
-tab
+nativeTab
 )
 )
 {
@@ -1384,14 +1384,14 @@ this
 .
 emitDetached
 (
-tab
+nativeTab
 this
 .
 adoptedTabs
 .
 get
 (
-tab
+nativeTab
 )
 )
 ;
@@ -1402,7 +1402,7 @@ this
 .
 emitRemoved
 (
-tab
+nativeTab
 true
 )
 ;
@@ -1411,7 +1411,7 @@ true
 }
 emitAttached
 (
-tab
+nativeTab
 )
 {
 let
@@ -1421,7 +1421,7 @@ windowTracker
 .
 getId
 (
-tab
+nativeTab
 .
 ownerGlobal
 )
@@ -1433,7 +1433,7 @@ this
 .
 getId
 (
-tab
+nativeTab
 )
 ;
 this
@@ -1446,12 +1446,12 @@ tab
 attached
 "
 {
-tab
+nativeTab
 tabId
 newWindowId
 newPosition
 :
-tab
+nativeTab
 .
 _tPos
 }
@@ -1460,7 +1460,7 @@ _tPos
 }
 emitDetached
 (
-tab
+nativeTab
 adoptedBy
 )
 {
@@ -1471,7 +1471,7 @@ windowTracker
 .
 getId
 (
-tab
+nativeTab
 .
 ownerGlobal
 )
@@ -1483,7 +1483,7 @@ this
 .
 getId
 (
-tab
+nativeTab
 )
 ;
 this
@@ -1496,13 +1496,13 @@ tab
 detached
 "
 {
-tab
+nativeTab
 adoptedBy
 tabId
 oldWindowId
 oldPosition
 :
-tab
+nativeTab
 .
 _tPos
 }
@@ -1511,7 +1511,7 @@ _tPos
 }
 emitCreated
 (
-tab
+nativeTab
 )
 {
 this
@@ -1524,14 +1524,14 @@ tab
 created
 "
 {
-tab
+nativeTab
 }
 )
 ;
 }
 emitRemoved
 (
-tab
+nativeTab
 isWindowClosing
 )
 {
@@ -1542,7 +1542,7 @@ windowTracker
 .
 getId
 (
-tab
+nativeTab
 .
 ownerGlobal
 )
@@ -1554,7 +1554,7 @@ this
 .
 getId
 (
-tab
+nativeTab
 )
 ;
 Services
@@ -1580,7 +1580,7 @@ tab
 removed
 "
 {
-tab
+nativeTab
 tabId
 windowId
 isWindowClosing
@@ -1690,7 +1690,7 @@ ownerGlobal
 )
 ;
 let
-tab
+nativeTab
 =
 gBrowser
 .
@@ -1701,7 +1701,7 @@ browser
 ;
 if
 (
-tab
+nativeTab
 )
 {
 result
@@ -1712,7 +1712,7 @@ this
 .
 getId
 (
-tab
+nativeTab
 )
 ;
 }
@@ -1802,7 +1802,7 @@ getIcon
 (
 this
 .
-tab
+nativeTab
 )
 ;
 }
@@ -1814,7 +1814,7 @@ audible
 return
 this
 .
-tab
+nativeTab
 .
 soundPlaying
 ;
@@ -1827,7 +1827,7 @@ browser
 return
 this
 .
-tab
+nativeTab
 .
 linkedBrowser
 ;
@@ -1843,7 +1843,7 @@ getCookieStoreIdForTab
 this
 this
 .
-tab
+nativeTab
 )
 ;
 }
@@ -1868,7 +1868,7 @@ index
 return
 this
 .
-tab
+nativeTab
 .
 _tPos
 ;
@@ -1879,11 +1879,11 @@ mutedInfo
 )
 {
 let
-tab
+{
+nativeTab
+}
 =
 this
-.
-tab
 ;
 let
 mutedInfo
@@ -1891,14 +1891,14 @@ mutedInfo
 {
 muted
 :
-tab
+nativeTab
 .
 muted
 }
 ;
 if
 (
-tab
+nativeTab
 .
 muteReason
 =
@@ -1919,7 +1919,7 @@ user
 else
 if
 (
-tab
+nativeTab
 .
 muteReason
 )
@@ -1936,7 +1936,7 @@ mutedInfo
 .
 extensionId
 =
-tab
+nativeTab
 .
 muteReason
 ;
@@ -1953,7 +1953,7 @@ pinned
 return
 this
 .
-tab
+nativeTab
 .
 pinned
 ;
@@ -1966,7 +1966,7 @@ active
 return
 this
 .
-tab
+nativeTab
 .
 selected
 ;
@@ -1979,7 +1979,7 @@ selected
 return
 this
 .
-tab
+nativeTab
 .
 selected
 ;
@@ -1993,7 +1993,7 @@ if
 (
 this
 .
-tab
+nativeTab
 .
 getAttribute
 (
@@ -2042,7 +2042,7 @@ window
 return
 this
 .
-tab
+nativeTab
 .
 ownerGlobal
 ;
@@ -2738,7 +2738,7 @@ extension
 for
 (
 let
-tab
+nativeTab
 of
 this
 .
@@ -2754,7 +2754,7 @@ tabManager
 .
 getWrapper
 (
-tab
+nativeTab
 )
 ;
 }
@@ -2821,7 +2821,7 @@ tabs
 .
 map
 (
-tab
+tabData
 =
 >
 {
@@ -2831,7 +2831,7 @@ Tab
 convertFromSessionStoreClosedData
 (
 extension
-tab
+tabData
 )
 ;
 }
@@ -2868,7 +2868,7 @@ undefined
 )
 {
 let
-tab
+nativeTab
 =
 tabTracker
 .
@@ -2880,7 +2880,7 @@ default_
 ;
 if
 (
-tab
+nativeTab
 )
 {
 return
@@ -2888,7 +2888,7 @@ this
 .
 getWrapper
 (
-tab
+nativeTab
 )
 ;
 }
@@ -2898,7 +2898,7 @@ default_
 }
 addActiveTabPermission
 (
-tab
+nativeTab
 =
 tabTracker
 .
@@ -2910,13 +2910,13 @@ super
 .
 addActiveTabPermission
 (
-tab
+nativeTab
 )
 ;
 }
 revokeActiveTabPermission
 (
-tab
+nativeTab
 =
 tabTracker
 .
@@ -2928,13 +2928,13 @@ super
 .
 revokeActiveTabPermission
 (
-tab
+nativeTab
 )
 ;
 }
 wrapTab
 (
-tab
+nativeTab
 )
 {
 return
@@ -2944,12 +2944,12 @@ Tab
 this
 .
 extension
-tab
+nativeTab
 tabTracker
 .
 getId
 (
-tab
+nativeTab
 )
 )
 ;
