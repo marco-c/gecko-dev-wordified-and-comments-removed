@@ -66,7 +66,7 @@ hubbub
 libhubbub
 DEPS_rust
 -
-css
+netsurfcss
 +
 =
 \
