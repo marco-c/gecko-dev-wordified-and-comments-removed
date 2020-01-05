@@ -1500,7 +1500,9 @@ func
 ~
 Marionette
 .
-set_script_timeout
+timeout
+.
+script
 and
 handling
 ScriptTimeoutException
