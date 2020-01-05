@@ -207,7 +207,9 @@ mozInlineSpellWordUtil
 :
 Init
 (
+const
 nsWeakPtr
+&
 aWeakEditor
 )
 {

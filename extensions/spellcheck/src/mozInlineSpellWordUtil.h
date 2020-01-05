@@ -165,7 +165,9 @@ false
 nsresult
 Init
 (
+const
 nsWeakPtr
+&
 aWeakEditor
 )
 ;
