@@ -527,6 +527,7 @@ nsString
 &
 aBase64
 )
+const
 {
 if
 (

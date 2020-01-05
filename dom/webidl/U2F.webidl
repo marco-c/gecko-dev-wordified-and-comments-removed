@@ -267,7 +267,7 @@ usb
 }
 ;
 dictionary
-ClientData
+U2FClientData
 {
 DOMString
 typ

@@ -2852,6 +2852,11 @@ WaveShaperNode
 webidl
 '
 '
+WebAuthentication
+.
+webidl
+'
+'
 WebComponents
 .
 webidl
