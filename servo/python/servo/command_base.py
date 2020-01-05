@@ -701,10 +701,11 @@ os
 getenv
 (
 "
-MSYSTEM
+VSInstallDir
 "
 )
 is
+not
 None
 :
             
