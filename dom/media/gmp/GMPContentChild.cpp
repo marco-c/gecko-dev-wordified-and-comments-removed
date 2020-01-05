@@ -285,6 +285,10 @@ GMPContentChild
 :
 AllocPGMPVideoDecoderChild
 (
+const
+uint32_t
+&
+aDecryptorId
 )
 {
 GMPVideoDecoderChild
@@ -904,6 +908,10 @@ RecvPGMPVideoDecoderConstructor
 PGMPVideoDecoderChild
 *
 aActor
+const
+uint32_t
+&
+aDecryptorId
 )
 {
 auto
