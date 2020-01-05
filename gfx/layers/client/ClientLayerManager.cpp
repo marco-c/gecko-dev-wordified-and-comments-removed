@@ -3379,6 +3379,16 @@ LayersBackend
 LAYERS_BASIC
 &
 &
+AsShadowForwarder
+(
+)
+-
+>
+SupportsComponentAlpha
+(
+)
+&
+&
 LayerManager
 :
 :

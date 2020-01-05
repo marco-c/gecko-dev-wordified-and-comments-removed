@@ -438,6 +438,15 @@ mDeviceEx
 ;
 }
 bool
+HasComponentAlpha
+(
+)
+{
+return
+mHasComponentAlpha
+;
+}
+bool
 HasDynamicTextures
 (
 )
@@ -743,6 +752,9 @@ mMaxTextureSize
 ;
 D3DTEXTUREADDRESS
 mTextureAddressingMode
+;
+bool
+mHasComponentAlpha
 ;
 bool
 mHasDynamicTextures

@@ -411,6 +411,9 @@ mSupportsTextureBlitting
 bool
 mSupportsPartialUploads
 ;
+bool
+mSupportsComponentAlpha
+;
 SyncHandle
 mSyncHandle
 ;
@@ -440,6 +443,10 @@ bool
 aSupportsPartialUploads
 =
 false
+bool
+aSupportsComponentAlpha
+=
+true
 SyncHandle
 aSyncHandle
 =
@@ -465,6 +472,10 @@ aSupportsTextureBlitting
 mSupportsPartialUploads
 (
 aSupportsPartialUploads
+)
+mSupportsComponentAlpha
+(
+aSupportsComponentAlpha
 )
 mSyncHandle
 (

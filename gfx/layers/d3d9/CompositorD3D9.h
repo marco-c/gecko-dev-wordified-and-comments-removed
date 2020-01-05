@@ -395,6 +395,15 @@ return
 true
 ;
 }
+virtual
+bool
+SupportsEffect
+(
+EffectTypes
+aEffect
+)
+override
+;
 #
 ifdef
 MOZ_DUMP_PAINTING
