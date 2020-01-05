@@ -30395,7 +30395,7 @@ ms
 "
 }
 "
-URLCLASSIFIER_LOOKUP_TIME
+URLCLASSIFIER_LOOKUP_TIME_2
 "
 :
 {
@@ -30412,6 +30412,13 @@ mozilla
 .
 org
 "
+]
+"
+bug_numbers
+"
+:
+[
+1336376
 ]
 "
 expires_in_version
@@ -30431,12 +30438,12 @@ exponential
 high
 "
 :
-500
+5000
 "
 n_buckets
 "
 :
-10
+30
 "
 description
 "
