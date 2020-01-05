@@ -1831,14 +1831,14 @@ editcacert
 .
 xul
 "
-cert
-.
-dbKey
+"
+"
 "
 chrome
 centerscreen
 modal
 "
+cert
 )
 ;
 }
