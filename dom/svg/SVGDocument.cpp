@@ -124,7 +124,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -133,7 +133,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -675,10 +675,10 @@ if
 uri
 )
 {
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 sheet
 ;
 cssLoader
@@ -729,7 +729,8 @@ GetStyleBackendType
 )
 )
 ;
-StyleSheetHandle
+StyleSheet
+*
 sheet
 =
 cache

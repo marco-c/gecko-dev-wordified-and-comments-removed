@@ -31,7 +31,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -170,7 +170,8 @@ aId
 void
 InsertSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 nsIContent
 *
@@ -180,7 +181,8 @@ aLinkingContent
 void
 RemoveSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 ;

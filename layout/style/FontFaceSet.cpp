@@ -8146,7 +8146,8 @@ FontFaceSet
 :
 StyleSheetLoaded
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate

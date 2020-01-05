@@ -168,7 +168,8 @@ break
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 sheetHandle
 =
 sheet

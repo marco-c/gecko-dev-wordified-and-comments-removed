@@ -17178,7 +17178,8 @@ EditorBase
 :
 CreateTxnForAddStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 AddStyleSheetTransaction
 *
@@ -17235,7 +17236,8 @@ EditorBase
 :
 CreateTxnForRemoveStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 RemoveStyleSheetTransaction
 *

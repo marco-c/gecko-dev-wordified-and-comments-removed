@@ -1432,10 +1432,10 @@ nsIDocument
 aDocument
 )
 {
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 strong
 (
 aSheet

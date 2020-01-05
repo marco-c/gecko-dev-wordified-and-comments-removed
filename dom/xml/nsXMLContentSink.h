@@ -288,7 +288,8 @@ StyleSheetLoaded
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate

@@ -748,7 +748,8 @@ aReturn
 NS_IMETHOD
 StyleSheetLoaded
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate

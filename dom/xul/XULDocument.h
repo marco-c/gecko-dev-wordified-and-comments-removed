@@ -55,7 +55,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -654,7 +654,8 @@ StyleSheetLoaded
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate
@@ -1298,10 +1299,10 @@ mPersistenceIds
 ;
 nsTArray
 <
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 >
 mOverlaySheets
 ;

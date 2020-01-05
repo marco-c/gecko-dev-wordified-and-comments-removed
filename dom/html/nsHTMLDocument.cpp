@@ -758,7 +758,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -767,7 +767,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -10657,10 +10657,10 @@ return
 ;
 nsTArray
 <
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 >
 agentSheets
 ;
@@ -11230,10 +11230,10 @@ NS_ERROR_FAILURE
 ;
 nsTArray
 <
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 >
 agentSheets
 ;
@@ -11266,7 +11266,8 @@ GetStyleBackendType
 )
 )
 ;
-StyleSheetHandle
+StyleSheet
+*
 contentEditableSheet
 =
 cache
@@ -11300,7 +11301,8 @@ if
 designMode
 )
 {
-StyleSheetHandle
+StyleSheet
+*
 designModeSheet
 =
 cache

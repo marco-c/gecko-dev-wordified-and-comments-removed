@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -1477,7 +1477,8 @@ override
 NS_IMETHOD
 StyleSheetLoaded
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate
@@ -1616,7 +1617,8 @@ nsAString
 aURL
 )
 ;
-StyleSheetHandle
+StyleSheet
+*
 GetStyleSheetForURL
 (
 const
@@ -1628,7 +1630,8 @@ aURL
 void
 GetURLForStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 nsAString
 &
@@ -1642,7 +1645,8 @@ const
 nsAString
 &
 aURL
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 ;
@@ -3456,10 +3460,10 @@ mStyleSheetURLs
 ;
 nsTArray
 <
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 >
 mStyleSheets
 ;

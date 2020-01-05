@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -984,7 +984,8 @@ aStringToInsert
 NS_IMETHOD
 CreateTxnForAddStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 AddStyleSheetTransaction
 *
@@ -995,7 +996,8 @@ aTransaction
 NS_IMETHOD
 CreateTxnForRemoveStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 RemoveStyleSheetTransaction
 *

@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -195,7 +195,8 @@ StyleSheetAdded
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 bool
 aDocumentSheet
@@ -210,7 +211,8 @@ StyleSheetRemoved
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 bool
 aDocumentSheet
@@ -225,7 +227,8 @@ StyleSheetApplicableStateChanged
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 =
@@ -238,7 +241,8 @@ StyleRuleChanged
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 =
@@ -251,7 +255,8 @@ StyleRuleAdded
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 =
@@ -264,7 +269,8 @@ StyleRuleRemoved
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 =
@@ -393,7 +399,8 @@ StyleSheetAdded
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 \
 bool
@@ -412,7 +419,8 @@ StyleSheetRemoved
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 \
 bool
@@ -432,7 +440,8 @@ StyleSheetApplicableStateChanged
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 override
@@ -448,7 +457,8 @@ StyleRuleChanged
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 override
@@ -464,7 +474,8 @@ StyleRuleAdded
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 override
@@ -480,7 +491,8 @@ StyleRuleRemoved
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 override
@@ -682,7 +694,8 @@ StyleSheetAdded
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 \
 bool
@@ -703,7 +716,8 @@ StyleSheetRemoved
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 \
 bool
@@ -724,7 +738,8 @@ StyleSheetApplicableStateChanged
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 \
@@ -742,7 +757,8 @@ StyleRuleChanged
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 \
@@ -760,7 +776,8 @@ StyleRuleAdded
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 \
@@ -778,7 +795,8 @@ StyleRuleRemoved
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 \

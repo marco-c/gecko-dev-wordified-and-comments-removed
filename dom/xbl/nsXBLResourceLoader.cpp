@@ -94,7 +94,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -103,7 +103,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -627,10 +627,10 @@ rv
 )
 )
 {
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 sheet
 ;
 rv
@@ -758,7 +758,8 @@ nsXBLResourceLoader
 :
 StyleSheetLoaded
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate
