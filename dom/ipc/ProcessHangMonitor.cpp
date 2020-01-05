@@ -1135,15 +1135,6 @@ nogc
 mContext
 )
 ;
-JS
-:
-:
-AutoAssertOnBarrier
-nobarrier
-(
-mContext
-)
-;
 tabChild
 -
 >
