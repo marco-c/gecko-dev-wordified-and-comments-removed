@@ -409,6 +409,11 @@ get
 -
 secrets
 build
+generate
+-
+build
+-
+stats
 multi
 -
 l10n
