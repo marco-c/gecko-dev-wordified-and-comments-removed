@@ -663,12 +663,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-webrender
-)
 =
 =
 backface
@@ -681,12 +675,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-webrender
-)
 =
 =
 backface
