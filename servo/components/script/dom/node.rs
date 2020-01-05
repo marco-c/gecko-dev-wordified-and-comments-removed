@@ -4260,6 +4260,14 @@ in
 the
 future
 .
+if
+!
+self
+.
+get_has_dirty_siblings
+(
+)
+{
 let
 parent
 =
@@ -4307,6 +4315,7 @@ set_has_dirty_siblings
 true
 )
 ;
+}
 }
 /
 /
