@@ -298,6 +298,11 @@ void
 *
 )
 ;
+size_t
+sizeof_rusturl
+(
+)
+;
 #
 ifdef
 __cplusplus
