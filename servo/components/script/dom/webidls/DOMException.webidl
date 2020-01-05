@@ -399,5 +399,7 @@ attribute
 DOMString
 message
 ;
+stringifier
+;
 }
 ;
