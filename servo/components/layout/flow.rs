@@ -3176,6 +3176,13 @@ abs_descendants
 :
 AbsDescendants
 pub
+block_container_explicit_block_size
+:
+Option
+<
+Au
+>
+pub
 absolute_static_i_offset
 :
 Au
@@ -3635,6 +3642,9 @@ new
 (
 0
 )
+block_container_explicit_block_size
+:
+None
 absolute_cb
 :
 ContainingBlockLink
