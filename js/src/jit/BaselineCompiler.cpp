@@ -2621,7 +2621,6 @@ void
 *
 contextAddr
 =
-&
 cx
 -
 >
@@ -2635,7 +2634,9 @@ group
 )
 -
 >
-context
+addressOfOwnerContext
+(
+)
 ;
 masm
 .
@@ -3409,7 +3410,6 @@ void
 *
 context
 =
-&
 cx
 -
 >
@@ -3423,7 +3423,9 @@ group
 )
 -
 >
-context
+addressOfOwnerContext
+(
+)
 ;
 masm
 .

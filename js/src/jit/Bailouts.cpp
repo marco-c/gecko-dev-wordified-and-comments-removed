@@ -203,11 +203,6 @@ JitActivationIterator
 jitActivations
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 BailoutFrameInfo
@@ -502,11 +497,6 @@ JitActivationIterator
 jitActivations
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 BailoutFrameInfo
@@ -1012,11 +1002,6 @@ JitActivationIterator
 jitActivations
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 BailoutFrameInfo

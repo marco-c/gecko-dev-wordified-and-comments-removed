@@ -3952,11 +3952,6 @@ JitActivationIterator
 iter
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 JitFrameIterator

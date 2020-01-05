@@ -524,7 +524,6 @@ void
 *
 context_addr
 =
-&
 cx
 -
 >
@@ -538,7 +537,9 @@ group
 )
 -
 >
-context
+addressOfOwnerContext
+(
+)
 ;
 masm
 .
@@ -2222,7 +2223,6 @@ void
 *
 context_addr
 =
-&
 cx
 -
 >
@@ -2236,7 +2236,9 @@ group
 )
 -
 >
-context
+addressOfOwnerContext
+(
+)
 ;
 size_t
 baseOffset
@@ -2670,7 +2672,6 @@ void
 *
 contextAddr
 =
-&
 cx
 -
 >
@@ -2684,7 +2685,9 @@ group
 )
 -
 >
-context
+addressOfOwnerContext
+(
+)
 ;
 masm
 .
@@ -5770,7 +5773,6 @@ void
 *
 context_addr
 =
-&
 cx
 -
 >
@@ -5784,7 +5786,9 @@ group
 )
 -
 >
-context
+addressOfOwnerContext
+(
+)
 ;
 size_t
 limitOffset

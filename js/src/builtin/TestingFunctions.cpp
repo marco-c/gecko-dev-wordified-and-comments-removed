@@ -12715,11 +12715,6 @@ JitActivationIterator
 iter
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 if

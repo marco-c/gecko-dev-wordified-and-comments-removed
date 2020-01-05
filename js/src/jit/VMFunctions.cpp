@@ -5706,11 +5706,6 @@ JitActivationIterator
 activations
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 JitFrameIterator

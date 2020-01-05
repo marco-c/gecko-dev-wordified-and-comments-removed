@@ -6472,11 +6472,6 @@ ActivationIterator
 iter
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 !
@@ -21351,11 +21346,6 @@ ActivationIterator
 iter
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 !

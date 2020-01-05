@@ -1797,7 +1797,6 @@ SymbolicAddress
 ContextPtr
 :
 return
-&
 cx
 -
 >
@@ -1811,7 +1810,9 @@ group
 )
 -
 >
-context
+addressOfOwnerContext
+(
+)
 ;
 case
 SymbolicAddress
