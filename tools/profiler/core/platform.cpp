@@ -11212,7 +11212,6 @@ stack
 >
 setSleeping
 (
-1
 )
 ;
 }
@@ -11256,9 +11255,8 @@ return
 stack
 -
 >
-setSleeping
+setAwake
 (
-0
 )
 ;
 }
