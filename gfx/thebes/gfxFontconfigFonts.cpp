@@ -6166,6 +6166,7 @@ Lookup
 (
 fe
 aFontStyle
+nullptr
 )
 ;
 if
@@ -7086,6 +7087,7 @@ Lookup
 fe
 &
 style
+nullptr
 )
 ;
 if
