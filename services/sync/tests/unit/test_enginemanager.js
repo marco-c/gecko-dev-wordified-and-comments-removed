@@ -68,6 +68,7 @@ prototype
 .
 finalize
 =
+async
 function
 (
 )
@@ -96,6 +97,7 @@ prototype
 .
 finalize
 =
+async
 function
 (
 )
@@ -124,6 +126,7 @@ prototype
 .
 finalize
 =
+async
 function
 (
 )
