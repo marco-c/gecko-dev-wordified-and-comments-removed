@@ -967,7 +967,6 @@ const
 =
 0
 ;
-virtual
 bool
 HandleDormant
 (
@@ -1566,7 +1565,6 @@ HandleDormant
 bool
 aDormant
 )
-override
 {
 mPendingDormant
 =
@@ -1790,7 +1788,6 @@ HandleDormant
 bool
 aDormant
 )
-override
 ;
 bool
 HandleCDMProxyReady
@@ -2002,7 +1999,6 @@ HandleDormant
 bool
 aDormant
 )
-override
 ;
 RefPtr
 <
@@ -2222,7 +2218,6 @@ HandleDormant
 bool
 aDormant
 )
-override
 ;
 void
 HandleVideoSuspendTimeout
@@ -3553,7 +3548,6 @@ HandleDormant
 bool
 aDormant
 )
-override
 ;
 bool
 HandleAudioDecoded
@@ -4637,7 +4631,6 @@ HandleDormant
 bool
 aDormant
 )
-override
 {
 return
 true
