@@ -301,6 +301,7 @@ if
 (
 aCanClear
 )
+return
 item
 .
 clear
@@ -317,6 +318,7 @@ if
 canClear
 )
 {
+return
 item
 .
 clear
