@@ -1892,6 +1892,11 @@ noautofocus
 "
 true
 "
+noautohide
+=
+"
+true
+"
 consumeoutsideclicks
 =
 "
