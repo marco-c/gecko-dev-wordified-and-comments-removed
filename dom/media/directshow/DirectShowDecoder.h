@@ -19,6 +19,9 @@ namespace
 mozilla
 {
 class
+MediaContentType
+;
+class
 DirectShowDecoder
 :
 public
@@ -82,7 +85,7 @@ bool
 GetSupportedCodecs
 (
 const
-nsACString
+MediaContentType
 &
 aType
 char
