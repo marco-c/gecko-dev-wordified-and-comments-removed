@@ -52,7 +52,7 @@ quantum_render
 =
 [
 "
-webrender
+webrender_bindings
 "
 ]
 [
@@ -139,7 +139,7 @@ url
 capi
 "
 }
-webrender
+webrender_bindings
 =
 {
 path
@@ -159,7 +159,7 @@ path
 /
 gfx
 /
-webrender
+webrender_bindings
 "
 optional
 =

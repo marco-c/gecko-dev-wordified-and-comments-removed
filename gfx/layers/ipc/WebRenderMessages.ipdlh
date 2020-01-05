@@ -108,6 +108,10 @@ using
 WRImageKey
 from
 "
+mozilla
+/
+gfx
+/
 webrender
 .
 h
@@ -117,6 +121,10 @@ using
 WRRect
 from
 "
+mozilla
+/
+gfx
+/
 webrender
 .
 h

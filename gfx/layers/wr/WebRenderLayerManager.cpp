@@ -116,13 +116,6 @@ WebRenderPaintedLayer
 .
 h
 "
-#
-include
-"
-webrender
-.
-h
-"
 namespace
 mozilla
 {
