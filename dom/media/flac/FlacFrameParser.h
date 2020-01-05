@@ -56,6 +56,11 @@ FlacFrameParser
 (
 )
 ;
+~
+FlacFrameParser
+(
+)
+;
 bool
 IsHeaderBlock
 (
