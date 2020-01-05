@@ -155,14 +155,6 @@ str_utf16
 [
 feature
 (
-vec_from_raw_buf
-)
-]
-#
-!
-[
-feature
-(
 vec_push_all
 )
 ]
