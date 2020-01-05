@@ -7832,10 +7832,6 @@ rv
 rv
 )
 ;
-FlushFrames
-(
-)
-;
 return
 Paste
 (
@@ -8103,12 +8099,6 @@ nsAString
 aStringToInsert
 )
 {
-AutoEditBatch
-beginBatching
-(
-this
-)
-;
 BeginTransaction
 (
 )
@@ -8677,10 +8667,6 @@ newNode
 )
 ;
 }
-FlushFrames
-(
-)
-;
 if
 (
 aAddCites
@@ -9056,10 +9042,6 @@ Collapse
 (
 newNode
 0
-)
-;
-FlushFrames
-(
 )
 ;
 if
