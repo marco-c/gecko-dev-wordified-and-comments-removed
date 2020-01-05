@@ -179,9 +179,10 @@ here
 .
 ifdef
 HAVE_64BIT_BUILD
-EXTRA_DEPS
-+
-=
+(
+RESFILE
+)
+:
 plugin
 -
 container
@@ -192,9 +193,10 @@ exe
 .
 manifest
 else
-EXTRA_DEPS
-+
-=
+(
+RESFILE
+)
+:
 plugin
 -
 container
