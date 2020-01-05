@@ -5730,6 +5730,16 @@ GenerateTabId
 (
 )
 ;
+static
+bool
+SkipCursorMoveForSameValueSet
+(
+)
+{
+return
+sSkipCursorMoveForSameValueSet
+;
+}
 private
 :
 static
@@ -6167,6 +6177,10 @@ sAnimationsAPIElementAnimateEnabled
 static
 bool
 sGetBoxQuadsEnabled
+;
+static
+bool
+sSkipCursorMoveForSameValueSet
 ;
 static
 uint32_t

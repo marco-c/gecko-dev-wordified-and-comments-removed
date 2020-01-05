@@ -770,6 +770,16 @@ return
 mIsDirty
 ;
 }
+void
+SetIsDirty
+(
+)
+{
+mIsDirty
+=
+true
+;
+}
 private
 :
 uint32_t

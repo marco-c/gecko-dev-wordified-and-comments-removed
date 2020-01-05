@@ -110,6 +110,13 @@ focus
 (
 )
 ;
+pressKey
+(
+dbg
+"
+End
+"
+)
 type
 (
 dbg
