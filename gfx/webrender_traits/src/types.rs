@@ -214,14 +214,6 @@ f32
 ScrollEventPhase
 )
 TickScrollingBounce
-SetScrollOffset
-(
-ScrollLayerId
-Point2D
-<
-f32
->
-)
 GenerateFrame
 TranslatePointToLayerSpace
 (
