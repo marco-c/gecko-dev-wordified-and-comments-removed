@@ -221,6 +221,10 @@ attr
 ;
 pub
 mod
+bezier
+;
+pub
+mod
 context
 ;
 mod
