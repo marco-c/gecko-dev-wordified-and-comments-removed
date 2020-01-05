@@ -141,4 +141,12 @@ mtransport
 /
 build
 '
+'
+/
+media
+/
+mtransport
+/
+ipc
+'
 ]

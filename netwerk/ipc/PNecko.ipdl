@@ -213,6 +213,10 @@ bug
 792908
 include
 protocol
+PStunAddrsRequest
+;
+include
+protocol
 PRtspController
 ;
 include
@@ -417,6 +421,9 @@ PTransportProvider
 ;
 manages
 PAltDataOutputStream
+;
+manages
+PStunAddrsRequest
 ;
 parent
 :
@@ -720,6 +727,11 @@ nsCString
 type
 PHttpChannel
 channel
+)
+;
+async
+PStunAddrsRequest
+(
 )
 ;
 /

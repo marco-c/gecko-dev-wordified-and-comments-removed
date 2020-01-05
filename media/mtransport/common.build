@@ -129,6 +129,11 @@ nriceresolverfake
 cpp
 '
 '
+nricestunaddr
+.
+cpp
+'
+'
 nrinterfaceprioritizer
 .
 cpp
