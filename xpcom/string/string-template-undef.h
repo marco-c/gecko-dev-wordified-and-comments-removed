@@ -55,3 +55,6 @@ nsTPromiseFlatString_CharT
 #
 undef
 TPromiseFlatString_CharT
+#
+undef
+nsTSubstringSplitter_CharT
