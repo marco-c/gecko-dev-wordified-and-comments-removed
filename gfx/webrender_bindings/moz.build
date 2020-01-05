@@ -125,6 +125,11 @@ RenderThread
 h
 '
 '
+webrender_ffi
+.
+h
+'
+'
 WebRenderAPI
 .
 h

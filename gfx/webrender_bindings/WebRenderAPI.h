@@ -27,9 +27,9 @@ include
 "
 mozilla
 /
-gfx
-/
 webrender
+/
+webrender_ffi
 .
 h
 "
