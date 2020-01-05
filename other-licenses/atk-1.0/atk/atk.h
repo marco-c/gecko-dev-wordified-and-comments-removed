@@ -8,10 +8,6 @@ __ATK_H__
 define
 __ATK_H_INSIDE__
 #
-define
-ATK_AVAILABLE_IN_2_12
-extern
-#
 include
 <
 atk
@@ -224,15 +220,6 @@ include
 atk
 /
 atktable
-.
-h
->
-#
-include
-<
-atk
-/
-atktablecell
 .
 h
 >
