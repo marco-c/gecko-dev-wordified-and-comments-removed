@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+ServoComputedValuesWithParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h

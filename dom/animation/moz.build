@@ -266,6 +266,11 @@ PseudoElementHashEntry
 h
 '
 '
+ServoComputedValuesWithParent
+.
+h
+'
+'
 TimingParams
 .
 h
