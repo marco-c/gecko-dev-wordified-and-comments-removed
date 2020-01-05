@@ -60,6 +60,17 @@ log
 Logger
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+StringUtils
+;
+import
 ch
 .
 boye
@@ -412,6 +423,9 @@ new
 InputStreamReader
 (
 content
+StringUtils
+.
+UTF_8
 )
 FETCH_BUFFER_SIZE
 )

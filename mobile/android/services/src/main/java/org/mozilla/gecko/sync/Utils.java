@@ -230,6 +230,17 @@ setup
 Constants
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+StringUtils
+;
+import
 android
 .
 content
@@ -311,6 +322,9 @@ new
 String
 (
 encodedBytes
+StringUtils
+.
+UTF_8
 )
 .
 replace
@@ -2680,6 +2694,9 @@ new
 InputStreamReader
 (
 fis
+StringUtils
+.
+UTF_8
 )
 ;
 br

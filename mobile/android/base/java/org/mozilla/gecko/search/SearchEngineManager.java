@@ -185,6 +185,17 @@ gecko
 .
 util
 .
+StringUtils
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
 ThreadUtils
 ;
 import
@@ -1715,6 +1726,9 @@ message
 .
 getBytes
 (
+StringUtils
+.
+UTF_8
 )
 .
 length

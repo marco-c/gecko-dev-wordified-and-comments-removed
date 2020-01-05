@@ -196,6 +196,9 @@ new
 InputStreamReader
 (
 gstream
+StringUtils
+.
+UTF_8
 )
 ;
 BufferedReader

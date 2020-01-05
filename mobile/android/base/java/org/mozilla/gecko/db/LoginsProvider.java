@@ -148,6 +148,17 @@ sync
 Utils
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+StringUtils
+;
+import
 java
 .
 io
@@ -3252,6 +3263,9 @@ Base64
 URL_SAFE
 )
 )
+StringUtils
+.
+UTF_8
 )
 ;
 }
