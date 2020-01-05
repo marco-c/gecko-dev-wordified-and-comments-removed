@@ -790,6 +790,7 @@ v
 getContext
 (
 )
+menuButton
 ActivityStreamContextMenu
 .
 MenuMode

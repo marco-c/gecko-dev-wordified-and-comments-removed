@@ -575,6 +575,7 @@ clickedView
 getContext
 (
 )
+menuButton
 ActivityStreamContextMenu
 .
 MenuMode
