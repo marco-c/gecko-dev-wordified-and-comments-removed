@@ -536,6 +536,17 @@ True
         
 self
 .
+marionette
+.
+set_context
+(
+'
+chrome
+'
+)
+        
+self
+.
 browser
 =
 self
