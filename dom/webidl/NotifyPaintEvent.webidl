@@ -159,6 +159,7 @@ origin
 /
 [
 ChromeOnly
+NeedsCallerType
 ]
 readonly
 attribute
@@ -197,6 +198,7 @@ origin
 /
 [
 ChromeOnly
+NeedsCallerType
 ]
 readonly
 attribute
@@ -205,6 +207,7 @@ boundingClientRect
 ;
 [
 ChromeOnly
+NeedsCallerType
 ]
 readonly
 attribute
@@ -213,6 +216,7 @@ paintRequests
 ;
 [
 ChromeOnly
+NeedsCallerType
 ]
 readonly
 attribute
@@ -223,6 +227,7 @@ transactionId
 ;
 [
 ChromeOnly
+NeedsCallerType
 ]
 readonly
 attribute
