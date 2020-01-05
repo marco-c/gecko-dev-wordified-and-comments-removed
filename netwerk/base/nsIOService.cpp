@@ -1368,7 +1368,7 @@ nsIOService
 nsIOService
 :
 :
-GetInstance
+GetAddRefed
 (
 )
 {
