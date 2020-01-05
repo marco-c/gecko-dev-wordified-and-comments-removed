@@ -96,6 +96,8 @@ aConfig
 ImageContainer
 *
 aImageContainer
+bool
+aLowLatency
 )
 ;
 virtual
@@ -325,6 +327,10 @@ mLastInputDts
 ;
 DurationMap
 mDurationMap
+;
+const
+bool
+mLowLatency
 ;
 }
 ;
