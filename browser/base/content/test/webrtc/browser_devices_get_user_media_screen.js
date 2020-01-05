@@ -2887,7 +2887,7 @@ run
 :
 function
 *
-checkReloading
+checkClickThroughDenies
 (
 )
 {
