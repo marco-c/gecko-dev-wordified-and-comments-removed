@@ -47,10 +47,7 @@ bindings
 error
 :
 :
-{
-ErrorResult
 Fallible
-}
 ;
 use
 dom
@@ -653,9 +650,6 @@ EventTarget
 >
 >
 )
--
->
-ErrorResult
 {
 self
 .
@@ -730,11 +724,6 @@ related_target
 =
 relatedTargetArg
 ;
-Ok
-(
-(
-)
-)
 }
 }
 impl

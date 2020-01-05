@@ -353,6 +353,9 @@ attribute
 DOMString
 title
 ;
+[
+SetterThrows
+]
 attribute
 HTMLElement
 ?

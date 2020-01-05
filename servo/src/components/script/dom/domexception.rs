@@ -82,7 +82,7 @@ uint
 [
 deriving
 (
-ToStr
+Show
 Encodable
 )
 ]

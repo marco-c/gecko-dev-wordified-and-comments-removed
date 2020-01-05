@@ -259,9 +259,6 @@ attribute
 DOMTimeStamp
 timeStamp
 ;
-[
-Throws
-]
 void
 initEvent
 (

@@ -705,12 +705,13 @@ clone
 (
 )
 ;
-do
 spawn_named
 (
 "
 LocalImageCache
 "
+proc
+(
 )
 {
 let
@@ -751,6 +752,8 @@ recv
 )
 ;
 }
+)
+;
 }
 _
 =

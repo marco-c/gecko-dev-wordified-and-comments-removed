@@ -2,6 +2,15 @@ use
 std
 :
 :
+str
+:
+:
+IntoMaybeOwned
+;
+use
+std
+:
+:
 task
 ;
 use
@@ -11,7 +20,7 @@ std
 comm
 :
 :
-SharedChan
+Chan
 ;
 use
 std
@@ -28,7 +37,11 @@ spawn_named
 <
 S
 :
-IntoSendStr
+IntoMaybeOwned
+<
+'
+static
+>
 >
 (
 name
@@ -42,7 +55,6 @@ proc
 )
 {
 let
-mut
 builder
 =
 task
@@ -51,10 +63,8 @@ task
 task
 (
 )
-;
-builder
 .
-name
+named
 (
 name
 )
@@ -86,7 +96,7 @@ msg
 T
 dest
 :
-SharedChan
+Chan
 <
 T
 >
@@ -101,8 +111,11 @@ future_result
 (
 )
 ;
-do
 spawn
+(
+proc
+(
+)
 {
 match
 port
@@ -135,4 +148,5 @@ msg
 )
 }
 }
+)
 }

@@ -32,7 +32,7 @@ std
 comm
 :
 :
-SharedChan
+Chan
 ;
 #
 [
@@ -45,7 +45,7 @@ pub
 struct
 ConstellationChan
 (
-SharedChan
+Chan
 <
 Msg
 >
@@ -75,7 +75,7 @@ port
 chan
 )
 =
-SharedChan
+Chan
 :
 :
 new
@@ -187,7 +187,7 @@ deriving
 (
 Clone
 Eq
-IterBytes
+Hash
 )
 ]
 pub
@@ -203,7 +203,7 @@ deriving
 (
 Clone
 Eq
-IterBytes
+Hash
 )
 ]
 pub
@@ -219,7 +219,7 @@ deriving
 (
 Clone
 Eq
-IterBytes
+Hash
 Encodable
 )
 ]
@@ -236,7 +236,7 @@ deriving
 (
 Clone
 Eq
-IterBytes
+Hash
 Encodable
 )
 ]

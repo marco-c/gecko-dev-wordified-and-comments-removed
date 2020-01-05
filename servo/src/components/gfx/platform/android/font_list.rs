@@ -1,9 +1,9 @@
 extern
-mod
+crate
 freetype
 ;
 extern
-mod
+crate
 fontconfig
 ;
 use
@@ -98,7 +98,7 @@ font_context
 FontContextHandle
 ;
 use
-std
+collections
 :
 :
 hashmap
@@ -411,14 +411,8 @@ FcSetSystem
 let
 font_set_array_ptr
 =
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 font_set
-)
 ;
 let
 pattern

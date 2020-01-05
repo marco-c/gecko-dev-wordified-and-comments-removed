@@ -1133,12 +1133,10 @@ code
                     
 "
 if
-(
 argc
 <
 %
 d
-)
 {
 \
 n
@@ -2318,11 +2316,12 @@ CGGeneric
 let
 argcount
 =
-argc
-.
+cmp
+:
+:
 min
 (
-&
+argc
 %
 d
 )
@@ -2447,11 +2446,8 @@ nativeType
 =
 "
 *
-Box
-<
 %
 s
->
 "
 %
 descriptor
@@ -4882,6 +4878,10 @@ from_utf8
 data
 )
 .
+unwrap
+(
+)
+.
 to_owned
 (
 )
@@ -6854,7 +6854,6 @@ Template
 (
 "
 if
-(
 {
 index
 }
@@ -6862,7 +6861,6 @@ index
 {
 argc
 }
-)
 {
 "
 )
@@ -8012,11 +8010,6 @@ JSString
 JS_NewStringCopyN
 (
 cx
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 %
 (
@@ -8037,7 +8030,6 @@ value
 [
 0
 ]
-)
 as
 *
 i8
@@ -12015,7 +12007,15 @@ unreachable_code
 '
             
 '
+non_camel_case_types
+'
+            
+'
 non_uppercase_statics
+'
+            
+'
+unnecessary_parens
 '
             
 '
@@ -12402,7 +12402,7 @@ PrototypeList
 id
 :
 :
-_ID_Count
+IDCount
 '
 ]
 *
@@ -15956,15 +15956,10 @@ aCx
 *
 handler
                            
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 PrivateValue
 (
-squirrel_away_unique
+squirrel_away_unboxed
 (
 aObject
 )
@@ -15974,7 +15969,6 @@ libc
 :
 :
 c_void
-)
 )
                            
 proto
@@ -16113,7 +16107,7 @@ u32
                      
 PrivateValue
 (
-squirrel_away_unique
+squirrel_away_unboxed
 (
 aObject
 )
@@ -17289,18 +17283,12 @@ val
             
 return
 "
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 %
 s
 [
 0
 ]
-)
 "
 %
 val
@@ -18499,28 +18487,16 @@ uint
                                            
 CreateProxyHandler
 (
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 traps
-)
-ptr
+cast
 :
 :
-to_unsafe_ptr
+transmute
 (
 &
 Class
 )
-as
-*
-libc
-:
-:
-c_void
 )
 )
 ;
@@ -18641,12 +18617,6 @@ borrow
 )
 .
 global_obj
-.
-borrow
-(
-)
-.
-ptr
 ;
   
 let
@@ -19332,12 +19302,10 @@ CGGeneric
 (
 "
 if
-(
 result_fallible
 .
 is_err
 (
-)
 )
 {
 "
@@ -21022,11 +20990,8 @@ let
 this
 :
 *
-Box
-<
 %
 s
->
 ;
 "
 %
@@ -21287,11 +21252,8 @@ Argument
 '
 *
 mut
-Box
-<
 %
 s
->
 '
 %
 descriptor
@@ -21418,7 +21380,7 @@ abstract_this
 s
 :
 :
-from_box
+from_raw
 (
 this
 )
@@ -21471,12 +21433,10 @@ extraPre
 let
 obj
 =
-(
 *
 obj
 .
 unnamed
-)
 ;
 \
 n
@@ -21489,12 +21449,8 @@ this
 =
 &
 mut
-(
 *
 this
-)
-.
-data
 ;
 \
 n
@@ -21832,11 +21788,8 @@ Argument
 '
 *
 mut
-Box
-<
 %
 s
->
 '
 %
 descriptor
@@ -21975,7 +21928,7 @@ abstract_this
 s
 :
 :
-from_box
+from_raw
 (
 this
 )
@@ -22052,12 +22005,10 @@ extraPre
 let
 obj
 =
-(
 *
 obj
 .
 unnamed
-)
 ;
 \
 n
@@ -22070,12 +22021,8 @@ this
 =
 &
 mut
-(
 *
 this
-)
-.
-data
 ;
 \
 n
@@ -22485,11 +22432,8 @@ Argument
 '
 *
 mut
-Box
-<
 %
 s
->
 '
 %
 descriptor
@@ -22608,7 +22552,7 @@ abstract_this
 s
 :
 :
-from_box
+from_raw
 (
 this
 )
@@ -22662,12 +22606,10 @@ extraPre
 let
 obj
 =
-(
 *
 obj
 .
 unnamed
-)
 ;
 \
 n
@@ -22680,12 +22622,8 @@ this
 =
 &
 mut
-(
 *
 this
-)
-.
-data
 ;
 \
 n
@@ -31028,11 +30966,8 @@ let
 box_
 :
 *
-Box
-<
 %
 s
->
 =
 cast
 :
@@ -31051,19 +30986,7 @@ to_private
 ;
   
 return
-ptr
-:
-:
-to_unsafe_ptr
-(
-&
-(
-*
 box_
-)
-.
-data
-)
 ;
 "
 "
@@ -31294,11 +31217,6 @@ jsvalPtr
 '
 :
 '
-ptr
-:
-:
-to_mut_unsafe_ptr
-(
 &
 mut
 (
@@ -31307,7 +31225,6 @@ desc
 )
 .
 value
-)
 '
                               
 '
@@ -31775,19 +31692,14 @@ jsvalPtr
 '
 :
 '
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
+mut
 (
 *
 desc
 )
 .
 value
-)
 '
                               
 '
@@ -33415,14 +33327,8 @@ JS_HasPropertyById
 cx
 expando
 id
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 hasProp
-)
 )
 =
 =
@@ -34251,26 +34157,17 @@ this
 %
 s
 =
-&
-(
-*
 unwrap
 :
 :
 <
 *
-Box
-<
 %
 s
->
 >
 (
 obj
 )
-)
-.
-data
 ;
 "
 "
@@ -35726,14 +35623,10 @@ entries
 .
 append
 (
-'
-_
-'
-+
 enumName
 +
 '
-_Count
+Count
 =
 '
 +
@@ -36872,7 +36765,6 @@ n
             
 "
 if
-(
 !
 initedIds
 &
@@ -36883,7 +36775,6 @@ self
 InitIds
 (
 cx
-)
 )
 {
 \
@@ -37420,14 +37311,8 @@ to_object
 (
 )
 s
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 found
-)
 )
 }
 )
@@ -37465,14 +37350,8 @@ to_object
 (
 )
 s
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 temp
-)
 )
 }
 )
@@ -37513,14 +37392,8 @@ to_object
 )
 %
 s
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 found
-)
 )
 "
 %
@@ -37542,14 +37415,8 @@ to_object
 )
 %
 s
-ptr
-:
-:
-to_unsafe_ptr
-(
 &
 temp
-)
 )
 "
 %
@@ -39018,7 +38885,7 @@ utils
 :
 :
 {
-squirrel_away_unique
+squirrel_away_unboxed
 }
 '
             
@@ -39321,6 +39188,13 @@ cast
 std
 :
 :
+cmp
+'
+            
+'
+std
+:
+:
 libc
 '
             
@@ -39356,13 +39230,10 @@ num
 std
 :
 :
-unstable
+intrinsics
 :
 :
-raw
-:
-:
-Box
+uninit
 '
         
 ]
@@ -42332,7 +42203,7 @@ aExceptionHandling
 "
                              
 "
-eReportExceptions
+ReportExceptions
 "
 )
 )
@@ -44519,7 +44390,7 @@ aExceptionHandling
 "
                                      
 "
-eReportExceptions
+ReportExceptions
 "
 )
 )
@@ -44593,7 +44464,7 @@ callSetup
 +
 =
 "
-eRethrowContentExceptions
+RethrowContentExceptions
 aCompartment
 "
         
@@ -46564,9 +46435,6 @@ CGGeneric
 (
 "
 use
-extra
-:
-:
 serialize
 :
 :

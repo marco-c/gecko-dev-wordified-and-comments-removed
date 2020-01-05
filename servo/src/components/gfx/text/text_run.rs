@@ -1,13 +1,4 @@
 use
-extra
-:
-:
-arc
-:
-:
-Arc
-;
-use
 font
 :
 :
@@ -44,7 +35,7 @@ std
 vec
 :
 :
-VecIterator
+Items
 ;
 use
 style
@@ -54,6 +45,12 @@ computed_values
 :
 :
 text_decoration
+;
+use
+sync
+:
+:
+Arc
 ;
 use
 text
@@ -121,7 +118,7 @@ a
 priv
 glyph_iter
 :
-VecIterator
+Items
 <
 '
 a

@@ -213,9 +213,6 @@ PaddedUnsafeFlow
 std
 :
 :
-unstable
-:
-:
 intrinsics
 :
 :
@@ -1367,9 +1364,6 @@ LayoutNode
 :
 :
 std
-:
-:
-unstable
 :
 :
 intrinsics

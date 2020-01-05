@@ -226,9 +226,6 @@ DOM
 Level
 3
 :
-[
-Throws
-]
 void
 initMouseEvent
 (

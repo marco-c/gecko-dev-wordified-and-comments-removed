@@ -71,9 +71,6 @@ std
 ptr
 ;
 use
-extra
-:
-:
 serialize
 :
 :
@@ -86,9 +83,9 @@ pub
 enum
 ExceptionHandling
 {
-eReportExceptions
-eRethrowContentExceptions
-eRethrowExceptions
+ReportExceptions
+RethrowContentExceptions
+RethrowExceptions
 }
 #
 [

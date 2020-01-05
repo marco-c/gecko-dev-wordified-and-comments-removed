@@ -463,7 +463,6 @@ Auto
 let
 total_margin_val
 =
-(
 available_height
 -
 top
@@ -471,7 +470,6 @@ top
 bottom
 -
 height
-)
 ;
 (
 top
@@ -1063,7 +1061,6 @@ Auto
 let
 total_margin_val
 =
-(
 available_height
 -
 top
@@ -1071,7 +1068,6 @@ top
 bottom
 -
 height
-)
 ;
 (
 top
@@ -1373,13 +1369,22 @@ return
 true
 ;
 }
+let
+AbsoluteAssignHeightsTraversal
+(
+ref
+ctx
+)
+=
+*
+self
+;
 block_flow
 .
 calculate_abs_height_and_margins
 (
 *
-*
-self
+ctx
 )
 ;
 true
@@ -11783,7 +11788,6 @@ specified_or_zero
 ;
 if
 (
-(
 left
 +
 right
@@ -11792,7 +11796,6 @@ width
 )
 >
 available_width
-)
 {
 (
 Specified
@@ -12578,7 +12581,6 @@ Auto
 let
 total_margin_val
 =
-(
 available_width
 -
 left
@@ -12586,7 +12588,6 @@ left
 right
 -
 width
-)
 ;
 if
 total_margin_val
@@ -13843,7 +13844,6 @@ Auto
 let
 total_margin_val
 =
-(
 available_width
 -
 left
@@ -13851,7 +13851,6 @@ left
 right
 -
 width
-)
 ;
 if
 total_margin_val

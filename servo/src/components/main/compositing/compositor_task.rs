@@ -99,10 +99,7 @@ servo_msg
 compositor_msg
 :
 :
-{
 ScriptListener
-Tile
-}
 ;
 use
 servo_msg
@@ -143,18 +140,8 @@ comm
 :
 {
 Chan
-SharedChan
 Port
 }
-;
-use
-std
-:
-:
-num
-:
-:
-Orderable
 ;
 use
 extra
@@ -207,7 +194,7 @@ CompositorChan
 {
 chan
 :
-SharedChan
+Chan
 <
 Msg
 >
@@ -707,7 +694,7 @@ port
 chan
 )
 =
-SharedChan
+Chan
 :
 :
 new

@@ -1966,7 +1966,7 @@ target
 CFG_TARGET_TRIPLES
 }
 -
--
+C
 android
 -
 cross

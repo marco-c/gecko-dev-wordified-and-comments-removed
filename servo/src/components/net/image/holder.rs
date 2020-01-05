@@ -24,10 +24,7 @@ local_image_cache
 LocalImageCache
 ;
 use
-extra
-:
-:
-arc
+sync
 :
 :
 {
@@ -57,7 +54,7 @@ use
 std
 :
 :
-util
+mem
 ;
 #
 [
@@ -236,13 +233,11 @@ will
 be
 used
 .
-unsafe
-{
 holder
 .
 local_image_cache
 .
-unsafe_access
+access
 (
 |
 local_image_cache
@@ -271,7 +266,6 @@ url
 }
 )
 ;
-}
 holder
 }
 /
@@ -525,13 +519,11 @@ is_none
 let
 port
 =
-unsafe
-{
 self
 .
 local_image_cache
 .
-unsafe_access
+access
 (
 |
 local_image_cache
@@ -548,7 +540,6 @@ url
 )
 }
 )
-}
 ;
 match
 port
@@ -633,7 +624,7 @@ to_str
 let
 image
 =
-util
+mem
 :
 :
 replace
@@ -655,7 +646,7 @@ clone
 (
 )
 ;
-util
+mem
 :
 :
 replace

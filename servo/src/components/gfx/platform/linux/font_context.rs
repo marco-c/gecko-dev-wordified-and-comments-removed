@@ -74,6 +74,7 @@ deriving
 Clone
 )
 ]
+pub
 struct
 FreeTypeLibraryHandle
 {

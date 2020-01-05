@@ -17,15 +17,6 @@ text
 TextRun
 ;
 use
-extra
-:
-:
-arc
-:
-:
-Arc
-;
-use
 geom
 :
 :
@@ -82,7 +73,7 @@ std
 vec
 :
 :
-VecIterator
+Items
 ;
 use
 style
@@ -92,6 +83,12 @@ computed_values
 :
 :
 border_style
+;
+use
+sync
+:
+:
+Arc
 ;
 pub
 struct
@@ -343,7 +340,7 @@ E
 EmptyDisplayListIterator
 ParentDisplayListIterator
 (
-VecIterator
+Items
 <
 '
 a
@@ -1228,7 +1225,7 @@ E
 EmptyDisplayItemIterator
 ParentDisplayItemIterator
 (
-VecIterator
+Items
 <
 '
 a

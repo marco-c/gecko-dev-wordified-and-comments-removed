@@ -1,14 +1,11 @@
 use
-extra
-:
-:
-time
+std_time
 :
 :
 precise_time_ns
 ;
 use
-extra
+collections
 :
 :
 treemap
@@ -25,7 +22,7 @@ comm
 :
 {
 Port
-SharedChan
+Chan
 }
 ;
 use
@@ -101,7 +98,7 @@ pub
 struct
 ProfilerChan
 (
-SharedChan
+Chan
 <
 ProfilerMsg
 >
@@ -121,11 +118,17 @@ msg
 ProfilerMsg
 )
 {
+let
+ProfilerChan
 (
-*
+ref
+c
+)
+=
 *
 self
-)
+;
+c
 .
 send
 (
@@ -518,7 +521,7 @@ port
 chan
 )
 =
-SharedChan
+Chan
 :
 :
 new
@@ -884,8 +887,6 @@ self
 )
 {
 println
-(
-format
 !
 (
 "
@@ -949,7 +950,6 @@ _
 _bucket
 size_
 "
-)
 )
 ;
 for
@@ -1096,8 +1096,6 @@ unwrap
 )
 ;
 println
-(
-format
 !
 (
 "
@@ -1147,11 +1145,11 @@ min
 max
 data_len
 )
-)
 ;
 }
 }
 println
+!
 (
 "
 "
@@ -1209,7 +1207,6 @@ let
 ms
 =
 (
-(
 end_time
 -
 start_time
@@ -1218,7 +1215,6 @@ as
 f64
 /
 1000000f64
-)
 ;
 profiler_chan
 .
@@ -1283,7 +1279,6 @@ let
 ms
 =
 (
-(
 end_time
 -
 start_time
@@ -1292,7 +1287,6 @@ as
 f64
 /
 1000000f64
-)
 ;
 if
 ms

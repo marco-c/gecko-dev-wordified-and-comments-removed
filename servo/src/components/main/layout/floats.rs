@@ -815,7 +815,7 @@ list
 .
 floats
 .
-last_opt
+last
 (
 )
 {
@@ -2099,7 +2099,7 @@ Au
 i32
 :
 :
-max_value
+MAX
 )
 )
 )
@@ -2136,7 +2136,7 @@ Au
 i32
 :
 :
-max_value
+MAX
 )
 )
 )
@@ -2275,7 +2275,7 @@ Au
 i32
 :
 :
-max_value
+MAX
 )
 )
 )
@@ -2309,7 +2309,7 @@ Au
 i32
 :
 :
-max_value
+MAX
 )
 )
 )
@@ -2399,7 +2399,7 @@ Au
 i32
 :
 :
-max_value
+MAX
 )
 )
 ;
