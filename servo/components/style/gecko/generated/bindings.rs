@@ -10008,9 +10008,6 @@ RawServoStyleSheetBorrowed
 unique_id
 :
 u32
-flush
-:
-bool
 )
 ;
 }
@@ -10032,9 +10029,6 @@ RawServoStyleSheetBorrowed
 unique_id
 :
 u32
-flush
-:
-bool
 )
 ;
 }
@@ -10053,9 +10047,6 @@ RawServoStyleSetBorrowed
 unique_id
 :
 u32
-flush
-:
-bool
 )
 ;
 }
@@ -10080,9 +10071,6 @@ u32
 before_unique_id
 :
 u32
-flush
-:
-bool
 )
 ;
 }
