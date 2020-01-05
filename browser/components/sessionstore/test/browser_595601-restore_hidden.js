@@ -1,5 +1,5 @@
 var
-state
+windowState
 =
 {
 windows
@@ -296,7 +296,7 @@ true
 ;
 newWindowWithState
 (
-state
+windowState
 function
 (
 win

@@ -1254,7 +1254,7 @@ test_setWindowState
 )
 {
 let
-testState
+newState
 =
 {
 windows
@@ -1555,7 +1555,7 @@ JSON
 .
 stringify
 (
-testState
+newState
 )
 true
 )

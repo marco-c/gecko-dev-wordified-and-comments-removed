@@ -770,7 +770,6 @@ tab2
 yield
 tabRestored
 ;
-let
 tabCrashedPagePromise
 =
 BrowserTestUtils

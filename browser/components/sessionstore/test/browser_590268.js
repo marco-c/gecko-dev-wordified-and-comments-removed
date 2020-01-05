@@ -27,11 +27,6 @@ requestLongerTimeout
 )
 ;
 let
-startedTest
-=
-false
-;
-let
 wasLoaded
 =
 {

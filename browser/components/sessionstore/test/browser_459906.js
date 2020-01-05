@@ -163,7 +163,7 @@ load
 "
 function
 (
-aEvent
+eventTab2
 )
 {
 if
@@ -198,7 +198,7 @@ function
 )
 {
 let
-iframes
+iframesTab2
 =
 tab2
 .
@@ -210,7 +210,7 @@ frames
 ;
 if
 (
-iframes
+iframesTab2
 [
 1
 ]
@@ -249,7 +249,7 @@ return
 }
 is
 (
-iframes
+iframesTab2
 [
 1
 ]
@@ -280,7 +280,7 @@ try
 {
 innerDomain
 =
-iframes
+iframesTab2
 [
 0
 ]

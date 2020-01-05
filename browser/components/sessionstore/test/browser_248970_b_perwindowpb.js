@@ -295,7 +295,7 @@ win
 )
 ;
 function
-test
+checkNoThrow
 (
 aLambda
 )
@@ -713,13 +713,6 @@ max_tabs_undo
 )
 ;
 let
-key
-=
-"
-key
-"
-;
-let
 value
 =
 "
@@ -860,7 +853,7 @@ tab
 let
 tab_A_restored
 =
-test
+checkNoThrow
 (
 (
 )
@@ -941,14 +934,14 @@ true
 }
 function
 (
-aWin
+win
 )
 {
 windowsToClose
 .
 push
 (
-aWin
+win
 )
 ;
 let
@@ -996,7 +989,7 @@ value1
 let
 tab_B
 =
-aWin
+win
 .
 gBrowser
 .
@@ -1038,7 +1031,7 @@ item
 let
 tab_C
 =
-aWin
+win
 .
 gBrowser
 .
@@ -1116,7 +1109,7 @@ duplicated
 "
 )
 ;
-aWin
+win
 .
 gBrowser
 .
@@ -1125,7 +1118,7 @@ removeTab
 tab_C
 )
 ;
-aWin
+win
 .
 gBrowser
 .

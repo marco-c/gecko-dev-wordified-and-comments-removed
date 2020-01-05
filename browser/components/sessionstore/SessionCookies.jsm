@@ -1061,7 +1061,7 @@ Map
 )
 getCookiesForHost
 (
-host
+mainHost
 )
 {
 let
@@ -1147,13 +1147,13 @@ let
 variant
 of
 [
-host
+mainHost
 .
 .
 .
 getPossibleSubdomainVariants
 (
-host
+mainHost
 )
 ]
 )

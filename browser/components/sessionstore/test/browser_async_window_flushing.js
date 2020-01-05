@@ -97,14 +97,14 @@ PAGE
 function
 *
 (
-PAGE
+newPage
 )
 {
 content
 .
 location
 =
-PAGE
+newPage
 ;
 }
 )

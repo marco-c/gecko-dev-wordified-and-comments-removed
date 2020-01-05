@@ -537,7 +537,7 @@ domain
 ;
 }
 let
-uri
+requestUri
 =
 {
 params
@@ -567,7 +567,7 @@ waitForNewCookie
 replaceCurrentURI
 (
 browser
-uri
+requestUri
 )
 ]
 )

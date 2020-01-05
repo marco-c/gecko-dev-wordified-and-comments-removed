@@ -513,15 +513,6 @@ options
 .
 includePrivateData
 ;
-let
-isPinned
-=
-!
-!
-tabData
-.
-pinned
-;
 for
 (
 let

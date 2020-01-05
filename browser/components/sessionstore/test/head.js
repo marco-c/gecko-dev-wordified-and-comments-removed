@@ -103,7 +103,7 @@ js
 ]
 ;
 var
-mm
+globalMM
 =
 Cc
 [
@@ -133,7 +133,7 @@ of
 FRAME_SCRIPTS
 )
 {
-mm
+globalMM
 .
 loadFrameScript
 (
@@ -157,7 +157,7 @@ of
 FRAME_SCRIPTS
 )
 {
-mm
+globalMM
 .
 removeDelayedFrameScript
 (
@@ -1255,9 +1255,9 @@ aTimeout
 function
 observer
 (
-aSubject
-aTopic
-aData
+subject
+topic
+data
 )
 {
 removeObserver
@@ -1602,8 +1602,6 @@ whenWindowLoaded
 (
 aWindow
 aCallback
-=
-next
 )
 {
 aWindow
@@ -2691,8 +2689,8 @@ function
 modifySessionStorage
 (
 browser
-data
-options
+storageData
+storageOptions
 =
 {
 }
@@ -2705,8 +2703,8 @@ spawn
 (
 browser
 [
-data
-options
+storageData
+storageOptions
 ]
 function
 *

@@ -131,7 +131,7 @@ let
 frame_script
 =
 (
-id
+buttonId
 )
 =
 >
@@ -145,7 +145,7 @@ document
 .
 getElementById
 (
-id
+buttonId
 )
 ;
 button

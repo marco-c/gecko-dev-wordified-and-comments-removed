@@ -226,7 +226,6 @@ setTimeout
 function
 step1
 (
-e
 )
 {
 let
@@ -272,7 +271,6 @@ setTimeout
 function
 step2
 (
-e
 )
 {
 let

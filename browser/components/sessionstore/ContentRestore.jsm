@@ -1020,7 +1020,6 @@ return
 }
 let
 {
-entry
 pageStyle
 formdata
 scrollPositions

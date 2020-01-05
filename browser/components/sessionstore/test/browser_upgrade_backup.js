@@ -200,13 +200,6 @@ backups
 [
 ]
 ;
-let
-upgradeBackupPrefix
-=
-Paths
-.
-upgradeBackupPrefix
-;
 try
 {
 iterator

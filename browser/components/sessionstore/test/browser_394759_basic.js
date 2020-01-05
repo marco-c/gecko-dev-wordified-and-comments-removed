@@ -144,7 +144,6 @@ uniqueValue
 let
 [
 txt
-chk
 ]
 =
 newWin
@@ -158,8 +157,6 @@ querySelectorAll
 "
 #
 txt
-#
-chk
 "
 )
 ;
@@ -482,6 +479,8 @@ URL
 )
 ;
 let
+chk
+;
 [
 txt
 chk

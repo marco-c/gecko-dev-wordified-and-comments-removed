@@ -234,11 +234,7 @@ setAttribute
 "
 windowtype
 "
-"
-navigator
-:
-browser
-"
+oldWinType
 )
 ;
 }

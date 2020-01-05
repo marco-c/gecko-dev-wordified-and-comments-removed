@@ -201,7 +201,7 @@ snippet
 function
 *
 (
-snippet
+codeSnippet
 )
 {
 let
@@ -225,7 +225,7 @@ sessionHistory
 ;
 eval
 (
-snippet
+codeSnippet
 )
 ;
 return

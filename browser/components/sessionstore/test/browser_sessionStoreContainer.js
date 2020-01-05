@@ -533,18 +533,6 @@ topic
 data
 )
 {
-let
-cookie
-=
-subj
-.
-QueryInterface
-(
-Ci
-.
-nsICookie2
-)
-;
 if
 (
 data
@@ -735,7 +723,7 @@ spawn
 (
 browser
 cookie
-cookie
+passedCookie
 =
 >
 content
@@ -744,7 +732,7 @@ document
 .
 cookie
 =
-cookie
+passedCookie
 )
 ]
 )

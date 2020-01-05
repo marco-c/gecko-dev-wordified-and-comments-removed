@@ -923,13 +923,6 @@ blank
 "
 )
 ;
-let
-browser
-=
-tab
-.
-linkedBrowser
-;
 aFormData
 .
 url
