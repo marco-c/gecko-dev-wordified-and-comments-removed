@@ -212,7 +212,6 @@ restyle_damage
 BUBBLE_ISIZES
 REFLOW
 REFLOW_OUT_OF_FLOW
-REPAINT
 }
 ;
 use
@@ -15009,17 +15008,6 @@ BorderPaintingMode
 :
 :
 Separate
-)
-;
-self
-.
-fragment
-.
-restyle_damage
-.
-remove
-(
-REPAINT
 )
 ;
 }

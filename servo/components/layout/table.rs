@@ -628,7 +628,6 @@ update_column_inline_sizes_for_row
 row
 :
 &
-mut
 TableRowFlow
 column_inline_sizes
 :
