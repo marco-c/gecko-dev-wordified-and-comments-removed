@@ -994,6 +994,7 @@ removeObserver
 (
 PREF_DISABLED
 this
+false
 )
 ;
 Services
@@ -1004,6 +1005,7 @@ removeObserver
 (
 PREF_DISABLED_PLUGIN_TYPES
 this
+false
 )
 ;
 Services
@@ -1014,6 +1016,7 @@ removeObserver
 (
 this
 TOPIC_PDFJS_HANDLER_CHANGED
+false
 )
 ;
 Services
@@ -1024,6 +1027,7 @@ removeObserver
 (
 this
 TOPIC_PLUGINS_LIST_UPDATED
+false
 )
 ;
 Services
@@ -1034,6 +1038,7 @@ removeObserver
 (
 this
 TOPIC_PLUGIN_INFO_UPDATED
+false
 )
 ;
 this
