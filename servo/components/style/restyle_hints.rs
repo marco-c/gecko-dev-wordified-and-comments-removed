@@ -416,7 +416,7 @@ dependencies
 const
 RESTYLE_STYLE_ATTRIBUTE
 =
-0x80
+0x40
 }
 }
 #
