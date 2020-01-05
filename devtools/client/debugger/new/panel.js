@@ -272,6 +272,7 @@ selected
 -
 1
 }
+;
 }
 frames
 =
