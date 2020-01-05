@@ -6,7 +6,7 @@ layout_traits
 :
 :
 {
-ExitNowMsg
+LayoutControlMsg
 LayoutTaskFactory
 LayoutControlChan
 }
@@ -45,18 +45,6 @@ paint_task
 Msg
 as
 PaintMsg
-;
-use
-gfx
-:
-:
-paint_task
-:
-:
-{
-PaintPermissionGranted
-PaintPermissionRevoked
-}
 ;
 use
 gfx
@@ -784,6 +772,9 @@ paint_chan
 .
 send_opt
 (
+PaintMsg
+:
+:
 PaintPermissionGranted
 )
 ;
@@ -818,6 +809,9 @@ paint_chan
 .
 send_opt
 (
+PaintMsg
+:
+:
 PaintPermissionRevoked
 )
 ;
@@ -984,6 +978,9 @@ layout_channel
 .
 send_opt
 (
+LayoutControlMsg
+:
+:
 ExitNowMsg
 (
 PipelineExitType

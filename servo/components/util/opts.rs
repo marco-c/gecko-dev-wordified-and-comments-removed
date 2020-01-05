@@ -84,6 +84,7 @@ rt
 deriving
 (
 Clone
+Copy
 )
 ]
 pub

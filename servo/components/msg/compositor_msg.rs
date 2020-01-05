@@ -85,7 +85,9 @@ PipelineId
 deriving
 (
 PartialEq
+Eq
 Clone
+Copy
 )
 ]
 pub
@@ -105,6 +107,7 @@ PartialEq
 PartialOrd
 Clone
 Show
+Copy
 )
 ]
 pub
@@ -121,7 +124,9 @@ FinishedLoading
 deriving
 (
 PartialEq
+Eq
 Show
+Copy
 )
 ]
 pub
@@ -169,6 +174,8 @@ deriving
 (
 Clone
 PartialEq
+Eq
+Copy
 )
 ]
 pub
@@ -257,6 +264,8 @@ deriving
 (
 Clone
 PartialEq
+Eq
+Copy
 )
 ]
 pub
@@ -266,6 +275,13 @@ ScrollPolicy
 Scrollable
 FixedPosition
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 LayerMetadata

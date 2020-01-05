@@ -2830,7 +2830,10 @@ character
 =
 '
 \
-u00a0
+u
+{
+a0
+}
 '
 {
 advance

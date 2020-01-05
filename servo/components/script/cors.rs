@@ -176,6 +176,7 @@ bool
 deriving
 (
 PartialEq
+Copy
 Clone
 )
 ]

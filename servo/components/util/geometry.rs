@@ -90,6 +90,7 @@ fmt
 deriving
 (
 Show
+Copy
 )
 ]
 pub
@@ -103,6 +104,7 @@ deriving
 (
 Encodable
 Show
+Copy
 )
 ]
 pub
@@ -116,6 +118,7 @@ deriving
 (
 Encodable
 Show
+Copy
 )
 ]
 pub
@@ -128,12 +131,12 @@ PagePx
 deriving
 (
 Clone
+Copy
 Hash
 PartialEq
 PartialOrd
 Eq
 Ord
-Zero
 )
 ]
 pub

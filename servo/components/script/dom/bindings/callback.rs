@@ -83,6 +83,13 @@ std
 :
 ptr
 ;
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 ExceptionHandling
@@ -95,6 +102,7 @@ RethrowExceptions
 [
 deriving
 (
+Copy
 Clone
 PartialEq
 )
@@ -145,6 +153,7 @@ callback
 [
 deriving
 (
+Copy
 Clone
 PartialEq
 )
@@ -172,6 +181,7 @@ raw_pointer_deriving
 [
 deriving
 (
+Copy
 Clone
 PartialEq
 )

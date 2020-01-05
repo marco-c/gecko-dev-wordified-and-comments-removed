@@ -20,6 +20,9 @@ OwnedAsciiExt
 }
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -76,6 +79,13 @@ namespaces
 :
 NamespaceMap
 ;
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 ParserContext
@@ -124,6 +134,7 @@ Eq
 PartialEq
 Clone
 Hash
+Copy
 )
 ]
 pub
@@ -172,6 +183,7 @@ deriving
 (
 PartialEq
 Clone
+Copy
 )
 ]
 pub
@@ -301,6 +313,7 @@ Eq
 PartialEq
 Clone
 Hash
+Copy
 )
 ]
 pub
@@ -4542,6 +4555,9 @@ mod
 tests
 {
 use
+std
+:
+:
 sync
 :
 :

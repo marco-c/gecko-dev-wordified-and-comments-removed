@@ -292,6 +292,9 @@ computed_values
 border_style
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -367,6 +370,13 @@ Option
 ClippingRegion
 >
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 enum
 Direction
 {
@@ -375,6 +385,13 @@ Left
 Right
 Bottom
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 enum
 DashSize
 {

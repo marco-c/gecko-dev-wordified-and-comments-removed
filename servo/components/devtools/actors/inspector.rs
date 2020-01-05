@@ -54,15 +54,13 @@ serialize
 :
 :
 json
-;
-use
-serialize
 :
 :
-json
-:
-:
+{
+mod
+Json
 ToJson
+}
 ;
 use
 std
@@ -267,7 +265,7 @@ _msg
 json
 :
 :
-JsonObject
+Object
 stream
 :
 &
@@ -416,7 +414,7 @@ msg
 json
 :
 :
-JsonObject
+Object
 stream
 :
 &
@@ -497,7 +495,7 @@ unwrap
 (
 )
 .
-as_list
+as_array
 (
 )
 .
@@ -1148,7 +1146,7 @@ msg
 json
 :
 :
-JsonObject
+Object
 stream
 :
 &
@@ -1595,9 +1593,6 @@ rule
 String
 pseudoElement
 :
-json
-:
-:
 Json
 isSystem
 :
@@ -1694,9 +1689,6 @@ height
 int
 autoMargins
 :
-json
-:
-:
 Json
 from
 :
@@ -1774,7 +1766,7 @@ msg
 json
 :
 :
-JsonObject
+Object
 stream
 :
 &
@@ -2264,7 +2256,7 @@ to_json
 )
 )
 ;
-json
+Json
 :
 :
 Object
@@ -2274,7 +2266,7 @@ m
 }
 else
 {
-json
+Json
 :
 :
 Null
@@ -2348,7 +2340,7 @@ _msg
 json
 :
 :
-JsonObject
+Object
 stream
 :
 &

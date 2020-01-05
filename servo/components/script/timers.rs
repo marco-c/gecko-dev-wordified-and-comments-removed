@@ -188,6 +188,13 @@ Eq
 [
 jstraceable
 ]
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 TimerId
@@ -382,6 +389,7 @@ jstraceable
 deriving
 (
 PartialEq
+Copy
 Clone
 )
 ]

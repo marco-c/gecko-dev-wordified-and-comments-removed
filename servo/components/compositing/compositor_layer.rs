@@ -130,6 +130,9 @@ use
 script_traits
 :
 :
+CompositorEvent
+:
+:
 {
 ClickEvent
 MouseDownEvent
@@ -155,7 +158,6 @@ compositor_msg
 :
 {
 Epoch
-FixedPosition
 LayerId
 ScrollPolicy
 }
@@ -488,6 +490,7 @@ WantsScrollEventsFlag
 [
 deriving
 (
+Copy
 PartialEq
 Clone
 )
@@ -1790,6 +1793,9 @@ borrow
 scroll_policy
 !
 =
+ScrollPolicy
+:
+:
 FixedPosition
 {
 let

@@ -50,17 +50,6 @@ extern
 crate
 rustc
 ;
-#
-[
-cfg
-(
-test
-)
-]
-extern
-crate
-sync
-;
 use
 rustc
 :

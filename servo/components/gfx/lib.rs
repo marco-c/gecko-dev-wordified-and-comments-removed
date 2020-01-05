@@ -144,10 +144,6 @@ style
 ;
 extern
 crate
-sync
-;
-extern
-crate
 time
 ;
 extern

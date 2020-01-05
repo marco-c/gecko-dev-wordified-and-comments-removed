@@ -105,6 +105,7 @@ uint
 deriving
 (
 Eq
+Copy
 )
 ]
 struct

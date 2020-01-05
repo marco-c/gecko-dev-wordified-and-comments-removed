@@ -70,10 +70,6 @@ stb_image
 ;
 extern
 crate
-sync
-;
-extern
-crate
 time
 ;
 extern

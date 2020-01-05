@@ -101,6 +101,15 @@ fmt
 Show
 ;
 use
+std
+:
+:
+sync
+:
+:
+Arc
+;
+use
 servo_util
 :
 :
@@ -111,12 +120,6 @@ logical_geometry
 WritingMode
 LogicalMargin
 }
-;
-use
-sync
-:
-:
-Arc
 ;
 pub
 use
@@ -2175,6 +2178,8 @@ deriving
 (
 Clone
 Show
+PartialEq
+Copy
 )
 ]
 pub
@@ -2208,6 +2213,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 Show
 )
 ]
@@ -3394,6 +3400,8 @@ deriving
 (
 PartialEq
 Clone
+Eq
+Copy
 )
 ]
 pub
@@ -4037,6 +4045,8 @@ fmt
 deriving
 (
 Clone
+PartialEq
+Copy
 )
 ]
 pub
@@ -4382,6 +4392,7 @@ fmt
 deriving
 (
 PartialEq
+Copy
 Clone
 )
 ]
@@ -4696,6 +4707,8 @@ non_camel_case_types
 deriving
 (
 Clone
+PartialEq
+Copy
 )
 ]
 pub
@@ -4985,6 +4998,7 @@ non_camel_case_types
 deriving
 (
 PartialEq
+Copy
 Clone
 )
 ]
@@ -5399,6 +5413,7 @@ fmt
 deriving
 (
 PartialEq
+Eq
 Clone
 )
 ]
@@ -5483,6 +5498,7 @@ non_camel_case_types
 deriving
 (
 PartialEq
+Eq
 Clone
 )
 ]
@@ -6570,6 +6586,7 @@ fmt
 deriving
 (
 PartialEq
+Copy
 Clone
 )
 ]
@@ -6640,6 +6657,8 @@ vertical
 deriving
 (
 Clone
+PartialEq
+Copy
 )
 ]
 pub
@@ -7734,6 +7753,7 @@ fmt
 deriving
 (
 PartialEq
+Eq
 Clone
 )
 ]
@@ -8369,6 +8389,9 @@ fmt
 deriving
 (
 Clone
+PartialEq
+Eq
+Copy
 )
 ]
 pub
@@ -8795,6 +8818,8 @@ fmt
 deriving
 (
 PartialEq
+Eq
+Copy
 Clone
 )
 ]
@@ -10441,6 +10466,8 @@ fmt
 deriving
 (
 PartialEq
+Eq
+Copy
 Clone
 )
 ]
@@ -11044,6 +11071,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 )
 ]
 pub
@@ -11757,6 +11785,8 @@ deriving
 (
 Clone
 PartialEq
+Eq
+Copy
 Show
 )
 ]
@@ -12119,6 +12149,7 @@ SpecifiedBoxShadow
 deriving
 (
 Clone
+PartialEq
 )
 ]
 pub
@@ -12326,6 +12357,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 )
 ]
 pub
@@ -13148,6 +13180,8 @@ deriving
 (
 Clone
 PartialEq
+Eq
+Copy
 Show
 )
 ]
@@ -13194,6 +13228,8 @@ deriving
 (
 Clone
 Show
+PartialEq
+Copy
 )
 ]
 pub
@@ -18180,6 +18216,9 @@ Err
 deriving
 (
 Clone
+PartialEq
+Eq
+Copy
 )
 ]
 pub
@@ -18350,6 +18389,15 @@ SpecifiedValue
 %
 endfor
 }
+#
+[
+deriving
+(
+Eq
+PartialEq
+Copy
+)
+]
 pub
 enum
 PropertyDeclarationParseResult
@@ -19329,6 +19377,13 @@ style_struct
 in
 STYLE_STRUCTS
 :
+#
+[
+allow
+(
+missing_copy_implementations
+)
+]
 #
 [
 deriving

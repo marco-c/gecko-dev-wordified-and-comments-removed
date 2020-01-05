@@ -138,6 +138,13 @@ std
 :
 ptr
 ;
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 GlobalRef

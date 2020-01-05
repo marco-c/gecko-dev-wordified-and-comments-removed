@@ -70,10 +70,6 @@ serialize
 ;
 extern
 crate
-sync
-;
-extern
-crate
 "
 msg
 "
@@ -231,6 +227,9 @@ TimedOut
 }
 ;
 use
+std
+:
+:
 sync
 :
 :

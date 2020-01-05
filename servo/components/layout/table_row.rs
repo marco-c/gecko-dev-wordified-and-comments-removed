@@ -126,6 +126,9 @@ computed_values
 LengthOrPercentageOrAuto
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -166,6 +169,7 @@ ColumnComputedInlineSize
 deriving
 (
 Encodable
+Copy
 )
 ]
 pub

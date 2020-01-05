@@ -123,6 +123,7 @@ uint
 [
 deriving
 (
+Copy
 Show
 )
 ]

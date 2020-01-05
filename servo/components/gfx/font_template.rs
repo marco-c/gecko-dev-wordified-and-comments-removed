@@ -35,6 +35,9 @@ font_template
 FontTemplateData
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -54,6 +57,7 @@ FontHandleMethods
 deriving
 (
 Clone
+Copy
 )
 ]
 pub

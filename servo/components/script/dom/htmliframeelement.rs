@@ -411,6 +411,13 @@ jstraceable
 [
 privatize
 ]
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 IFrameSize

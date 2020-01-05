@@ -284,6 +284,7 @@ UrlParser
 [
 deriving
 (
+Copy
 PartialEq
 )
 ]

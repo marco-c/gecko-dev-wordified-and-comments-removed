@@ -89,6 +89,7 @@ deriving
 (
 Clone
 Show
+Copy
 )
 ]
 struct
@@ -369,6 +370,7 @@ u32
 deriving
 (
 PartialEq
+Copy
 )
 ]
 pub
@@ -1142,6 +1144,7 @@ deriving
 (
 Clone
 Show
+Copy
 )
 ]
 struct
@@ -1205,6 +1208,7 @@ PartialEq
 Clone
 Eq
 Show
+Copy
 )
 ]
 struct
@@ -1834,6 +1838,13 @@ true
 ;
 }
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 GlyphData
@@ -1929,6 +1940,13 @@ ligature_start
 }
 }
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 GlyphInfo

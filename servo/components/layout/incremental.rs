@@ -65,6 +65,13 @@ restyling
 .
 "
 ]
+#
+[
+deriving
+(
+Copy
+)
+]
 flags
 RestyleDamage
 :
@@ -460,7 +467,7 @@ Result
 fmt
 :
 :
-FormatError
+Error
 >
 {
 let
@@ -932,10 +939,12 @@ for
 '
 a
 mut
+(
 Flow
 +
 '
 a
+)
 {
 fn
 compute_layout_damage
@@ -1096,6 +1105,9 @@ float_kind
 !
 =
 float
+:
+:
+T
 :
 :
 none

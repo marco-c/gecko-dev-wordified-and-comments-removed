@@ -676,6 +676,9 @@ ComputedValues
 }
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -820,6 +823,13 @@ items
 #
 [
 jstraceable
+]
+#
+[
+deriving
+(
+Copy
+)
 ]
 flags
 NodeFlags
@@ -1280,6 +1290,13 @@ reap_layout_data
 }
 }
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 enum
 SuppressObserver
 {
@@ -1566,6 +1583,7 @@ borrow_mut
 [
 deriving
 (
+Copy
 PartialEq
 Show
 )
@@ -7468,6 +7486,7 @@ not
 [
 deriving
 (
+Copy
 PartialEq
 )
 ]
@@ -15261,6 +15280,7 @@ deriving
 Clone
 PartialEq
 Eq
+Copy
 )
 ]
 pub
@@ -16213,7 +16233,7 @@ get_attributes
 name
 )
 .
-iter
+into_iter
 (
 )
 .
@@ -16742,6 +16762,7 @@ has_disabled_attrib
 [
 deriving
 (
+Copy
 Clone
 PartialEq
 )

@@ -46,6 +46,7 @@ deriving
 (
 Clone
 PartialEq
+Copy
 )
 ]
 pub
@@ -63,6 +64,7 @@ Opaque
 deriving
 (
 Clone
+Copy
 )
 ]
 pub

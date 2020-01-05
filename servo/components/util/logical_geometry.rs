@@ -40,7 +40,7 @@ fmt
 {
 Show
 Formatter
-FormatError
+Error
 }
 ;
 bitflags
@@ -51,6 +51,7 @@ bitflags
 deriving
 (
 Encodable
+Copy
 )
 ]
 flags
@@ -235,7 +236,7 @@ Result
 <
 (
 )
-FormatError
+Error
 >
 {
 if
@@ -378,6 +379,7 @@ Encodable
 PartialEq
 Eq
 Clone
+Copy
 )
 ]
 struct
@@ -401,6 +403,7 @@ Encodable
 PartialEq
 Eq
 Clone
+Copy
 )
 ]
 struct
@@ -585,7 +588,7 @@ Result
 <
 (
 )
-FormatError
+Error
 >
 {
 write
@@ -624,7 +627,7 @@ Result
 <
 (
 )
-FormatError
+Error
 >
 {
 self
@@ -645,6 +648,7 @@ Encodable
 PartialEq
 Eq
 Clone
+Copy
 )
 ]
 pub
@@ -696,7 +700,7 @@ Result
 <
 (
 )
-FormatError
+Error
 >
 {
 write
@@ -1412,6 +1416,7 @@ PartialEq
 Encodable
 Eq
 Clone
+Copy
 )
 ]
 pub
@@ -1463,7 +1468,7 @@ Result
 <
 (
 )
-FormatError
+Error
 >
 {
 write
@@ -2550,6 +2555,7 @@ Encodable
 PartialEq
 Eq
 Clone
+Copy
 )
 ]
 pub
@@ -2609,7 +2615,7 @@ Result
 <
 (
 )
-FormatError
+Error
 >
 {
 write
@@ -4276,6 +4282,7 @@ Encodable
 PartialEq
 Eq
 Clone
+Copy
 )
 ]
 pub
@@ -4333,7 +4340,7 @@ Result
 <
 (
 )
-FormatError
+Error
 >
 {
 write

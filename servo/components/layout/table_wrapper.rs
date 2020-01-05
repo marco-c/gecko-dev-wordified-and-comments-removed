@@ -134,6 +134,9 @@ computed_values
 table_layout
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -143,6 +146,7 @@ Arc
 [
 deriving
 (
+Copy
 Encodable
 Show
 )
@@ -237,6 +241,9 @@ table_layout
 table_layout
 :
 :
+T
+:
+:
 fixed
 {
 TableLayout
@@ -321,6 +328,9 @@ table_layout
 =
 =
 table_layout
+:
+:
+T
 :
 :
 fixed
@@ -409,6 +419,9 @@ table_layout
 =
 =
 table_layout
+:
+:
+T
 :
 :
 fixed
@@ -2221,6 +2234,7 @@ preferred_guess
 [
 deriving
 (
+Copy
 PartialEq
 Show
 )

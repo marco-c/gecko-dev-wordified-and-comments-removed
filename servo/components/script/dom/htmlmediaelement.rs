@@ -243,6 +243,7 @@ htmlelement
 [
 deriving
 (
+Copy
 PartialEq
 Show
 )

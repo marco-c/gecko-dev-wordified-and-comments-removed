@@ -78,6 +78,7 @@ deriving
 Clone
 Encodable
 Show
+Copy
 )
 ]
 pub
@@ -111,6 +112,9 @@ property
 float
 :
 :
+T
+:
+:
 none
 =
 >
@@ -134,6 +138,9 @@ property
 float
 :
 :
+T
+:
+:
 left
 =
 >
@@ -142,6 +149,9 @@ FloatKind
 :
 Left
 float
+:
+:
+T
 :
 :
 right
@@ -154,6 +164,13 @@ Right
 }
 }
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 enum
 ClearType
@@ -167,6 +184,7 @@ Both
 deriving
 (
 Clone
+Copy
 )
 ]
 struct

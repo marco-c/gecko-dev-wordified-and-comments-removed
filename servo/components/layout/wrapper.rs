@@ -761,6 +761,13 @@ Self
 >
 ;
 }
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 LayoutNode
@@ -2893,6 +2900,13 @@ access
 safe
 properties
 .
+#
+[
+deriving
+(
+Copy
+)
+]
 pub
 struct
 LayoutElement
@@ -3718,6 +3732,9 @@ content_list
 content
 :
 :
+T
+:
+:
 Content
 (
 ref
@@ -3757,6 +3774,9 @@ Some
 content
 :
 :
+ContentItem
+:
+:
 StringContent
 (
 content
@@ -3791,6 +3811,7 @@ into_string
 [
 deriving
 (
+Copy
 PartialEq
 Clone
 )
@@ -3924,6 +3945,7 @@ races
 [
 deriving
 (
+Copy
 Clone
 )
 ]
@@ -4265,6 +4287,9 @@ Before
 display
 :
 :
+T
+:
+:
 inline
 )
 =
@@ -4294,6 +4319,9 @@ PseudoElementType
 Before
 (
 display
+:
+:
+T
 :
 :
 inline
@@ -5712,6 +5740,9 @@ get_inheritedtext
 white_space
 {
 white_space
+:
+:
+T
 :
 :
 normal

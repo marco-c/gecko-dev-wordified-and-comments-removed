@@ -485,6 +485,7 @@ jstraceable
 deriving
 (
 PartialEq
+Copy
 )
 ]
 #

@@ -84,10 +84,6 @@ extern
 crate
 serialize
 ;
-extern
-crate
-sync
-;
 #
 [
 cfg
@@ -187,6 +183,10 @@ debug_utils
 ;
 pub
 mod
+deque
+;
+pub
+mod
 dlist
 ;
 pub
@@ -224,10 +224,6 @@ range
 pub
 mod
 resource_files
-;
-pub
-mod
-rtinstrument
 ;
 pub
 mod

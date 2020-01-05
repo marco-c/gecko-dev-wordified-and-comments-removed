@@ -212,7 +212,6 @@ layout_traits
 :
 :
 {
-mod
 LayoutControlMsg
 LayoutTaskFactory
 }
@@ -294,10 +293,7 @@ script
 layout_interface
 :
 :
-{
-ContentBoxesQuery
-ContentBoxQuery
-}
+ReflowQueryType
 ;
 use
 script
@@ -322,7 +318,6 @@ layout_interface
 {
 MouseOverResponse
 Msg
-NoQuery
 }
 ;
 use
@@ -345,7 +340,7 @@ script_traits
 :
 {
 ConstellationControlMsg
-ReflowEvent
+CompositorEvent
 OpaqueScriptLayoutChannel
 }
 ;
@@ -365,7 +360,7 @@ servo_msg
 compositor_msg
 :
 :
-Scrollable
+ScrollPolicy
 ;
 use
 servo_msg
@@ -443,7 +438,7 @@ servo_util
 cursor
 :
 :
-DefaultCursor
+Cursor
 ;
 use
 servo_util
@@ -589,6 +584,9 @@ Device
 }
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -889,6 +887,9 @@ id
 clone
 (
 )
+CompositorEvent
+:
+:
 ReflowEvent
 (
 nodes
@@ -1972,7 +1973,7 @@ recv
 (
 )
 {
-layout_traits
+LayoutControlMsg
 :
 :
 ExitNowMsg
@@ -4544,6 +4545,9 @@ layer_id
 0
 )
 color
+ScrollPolicy
+:
+:
 Scrollable
 )
 )
@@ -5539,6 +5543,9 @@ data
 .
 query_type
 {
+ReflowQueryType
+:
+:
 ContentBoxQuery
 (
 node
@@ -5559,6 +5566,9 @@ mut
 rw_data
 )
 }
+ReflowQueryType
+:
+:
 ContentBoxesQuery
 (
 node
@@ -5579,6 +5589,9 @@ mut
 rw_data
 )
 }
+ReflowQueryType
+:
+:
 NoQuery
 =
 >
@@ -6693,6 +6706,9 @@ cursor
 }
 else
 {
+Cursor
+:
+:
 DefaultCursor
 }
 ;

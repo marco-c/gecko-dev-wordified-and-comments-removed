@@ -672,6 +672,7 @@ StringOrURLSearchParams
 deriving
 (
 PartialEq
+Copy
 )
 ]
 #
@@ -776,6 +777,7 @@ deriving
 (
 PartialEq
 Clone
+Copy
 )
 ]
 #
@@ -4212,6 +4214,10 @@ request_headers
 set_raw
 (
 n
+.
+into_string
+(
+)
 vec
 !
 [
@@ -4240,6 +4246,10 @@ request_headers
 set_raw
 (
 n
+.
+into_string
+(
+)
 vec
 !
 [
@@ -6298,15 +6308,7 @@ ByteString
 :
 new
 (
-format
-!
-(
-"
-{
-}
-"
 reason
-)
 .
 into_bytes
 (

@@ -135,6 +135,9 @@ use
 style
 ;
 use
+std
+:
+:
 sync
 :
 :
@@ -257,6 +260,13 @@ empty
 bitflags
 !
 {
+#
+[
+deriving
+(
+Copy
+)
+]
 flags
 LayoutDataFlags
 :

@@ -279,6 +279,7 @@ HashMap
 [
 deriving
 (
+Copy
 PartialEq
 )
 ]
@@ -297,6 +298,7 @@ Bubbling
 [
 deriving
 (
+Copy
 PartialEq
 )
 ]
@@ -328,6 +330,7 @@ XMLHttpRequestEventTargetTypeId
 [
 deriving
 (
+Copy
 PartialEq
 )
 ]
@@ -390,6 +393,7 @@ listener
 [
 deriving
 (
+Copy
 PartialEq
 )
 ]
