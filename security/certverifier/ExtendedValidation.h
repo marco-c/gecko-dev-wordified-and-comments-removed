@@ -18,13 +18,6 @@ certt
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 namespace
 mozilla
 {
@@ -47,11 +40,11 @@ LoadExtendedValidationInfo
 (
 )
 ;
-SECStatus
+bool
 GetFirstEVPolicy
 (
 CERTCertificate
-*
+&
 cert
 mozilla
 :
