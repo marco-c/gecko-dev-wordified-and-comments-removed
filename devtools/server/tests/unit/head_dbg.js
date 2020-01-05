@@ -410,6 +410,7 @@ nsIPrincipal
 var
 {
 loadSubScript
+loadSubScriptWithOptions
 }
 =
 Cc
