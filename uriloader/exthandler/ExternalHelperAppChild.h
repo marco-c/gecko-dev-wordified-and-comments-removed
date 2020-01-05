@@ -39,6 +39,9 @@ namespace
 dom
 {
 class
+TabChild
+;
+class
 ExternalHelperAppChild
 :
 public
@@ -103,6 +106,9 @@ divertable
 nsIRequest
 *
 request
+TabChild
+*
+tabChild
 )
 ;
 RefPtr

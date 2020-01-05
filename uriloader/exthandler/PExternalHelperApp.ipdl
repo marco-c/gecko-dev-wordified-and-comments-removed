@@ -1,5 +1,16 @@
 /
 *
+vim
+:
+set
+ft
+=
+cpp
+:
+*
+/
+/
+*
 This
 Source
 Code
@@ -58,6 +69,10 @@ MPL
 /
 include
 protocol
+PBrowser
+;
+include
+protocol
 PContent
 ;
 include
@@ -83,6 +98,8 @@ OnStartRequest
 (
 nsCString
 entityID
+PBrowser
+windowContext
 )
 ;
 async
@@ -108,6 +125,8 @@ DivertToParentUsing
 (
 PChannelDiverter
 diverter
+PBrowser
+windowContext
 )
 ;
 child

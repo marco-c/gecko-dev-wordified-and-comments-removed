@@ -189,6 +189,9 @@ const
 nsCString
 &
 entityID
+PBrowserParent
+*
+aBrowser
 )
 override
 ;
@@ -244,6 +247,9 @@ RecvDivertToParentUsing
 PChannelDiverterParent
 *
 diverter
+PBrowserParent
+*
+aBrowser
 )
 override
 ;
