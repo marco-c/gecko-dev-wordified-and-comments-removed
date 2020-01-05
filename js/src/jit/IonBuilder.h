@@ -5362,8 +5362,9 @@ MBasicBlock
 exit
 )
 ;
-bool
-objectsHaveCommonPrototype
+NativeObject
+*
+commonPrototypeWithGetterSetter
 (
 TemporaryTypeSet
 *
@@ -5373,9 +5374,9 @@ PropertyName
 name
 bool
 isGetter
-JSObject
+JSFunction
 *
-foundProto
+getterOrSetter
 bool
 *
 guardGlobal
@@ -5410,12 +5411,6 @@ PropertyName
 name
 bool
 isGetter
-JSObject
-*
-foundProto
-Shape
-*
-lastProperty
 JSFunction
 *
 getterOrSetter
