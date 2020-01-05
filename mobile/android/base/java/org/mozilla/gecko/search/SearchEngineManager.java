@@ -2559,7 +2559,7 @@ engine
 }
 catch
 (
-Exception
+Throwable
 e
 )
 {
