@@ -35,14 +35,6 @@ custom_derive
 [
 feature
 (
-hashmap_hasher
-)
-]
-#
-!
-[
-feature
-(
 mpsc_select
 )
 ]

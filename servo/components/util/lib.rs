@@ -61,14 +61,6 @@ fnbox
 [
 feature
 (
-hashmap_hasher
-)
-]
-#
-!
-[
-feature
-(
 heap_api
 )
 ]

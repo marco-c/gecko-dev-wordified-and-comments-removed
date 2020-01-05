@@ -135,13 +135,10 @@ use
 std
 :
 :
-collections
+hash
 :
 :
-hash_state
-:
-:
-DefaultState
+BuildHasherDefault
 ;
 use
 std
@@ -545,7 +542,7 @@ Rect
 <
 Au
 >
-DefaultState
+BuildHasherDefault
 <
 FnvHasher
 >
