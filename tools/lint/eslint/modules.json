@@ -4396,16 +4396,7 @@ js
 getChromeWindow
 "
 "
-XPCOMUtils
-"
-"
-Services
-"
-"
 Utils
-"
-"
-Async
 "
 "
 Svc
