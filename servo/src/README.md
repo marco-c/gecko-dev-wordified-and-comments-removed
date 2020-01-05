@@ -124,8 +124,13 @@ layers_
 -
 A
 simple
+GPU
+-
+accelerated
+2D
 scene
 graph
+library
 *
 _servo_
 -
@@ -151,8 +156,8 @@ A
 library
 for
 sharing
-drawing
-surfaces
+3D
+textures
 between
 processes
 #
@@ -195,7 +200,7 @@ from
 the
 NetSurf
 web
-brsower
+browser
 .
 We
 are
@@ -235,7 +240,10 @@ libhubbub
 *
 _mozjs_
 -
+The
 SpiderMonkey
+JavaScript
+engine
 forked
 from
 mozilla
@@ -251,6 +259,8 @@ mozilla
 central
 '
 s
+2D
+vector
 graphics
 abstraction
 layer
@@ -267,6 +277,10 @@ the
 cairo
 drawing
 library
+a
+backend
+for
+Azure
 *
 _rust
 -
@@ -312,6 +326,10 @@ s
 Core
 Graphics
 framework
+a
+backend
+for
+Azure
 *
 _rust
 -
@@ -405,9 +423,7 @@ stb
 image_
 -
 The
-stb
--
-image
+stb_image
 library
 and
 bindings
@@ -434,6 +450,10 @@ The
 Skia
 drawing
 library
+a
+backend
+for
+Azure
 #
 #
 Other
