@@ -130,6 +130,9 @@ TSAN_OPTIONS
 "
 :
 "
+exitcode
+=
+0
 log_path
 =
 {
@@ -145,5 +148,5 @@ max
 errors
 "
 :
-14
+20
 }
