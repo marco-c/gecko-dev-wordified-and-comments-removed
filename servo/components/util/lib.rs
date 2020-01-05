@@ -51,14 +51,6 @@ hash
 [
 feature
 (
-int_uint
-)
-]
-#
-!
-[
-feature
-(
 io
 )
 ]

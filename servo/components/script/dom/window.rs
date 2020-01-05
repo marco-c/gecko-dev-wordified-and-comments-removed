@@ -811,7 +811,7 @@ last_reflow_id
 :
 Cell
 <
-uint
+u32
 >
 dom_static
 :
@@ -2725,7 +2725,7 @@ handle_reflow_complete_msg
 self
 reflow_id
 :
-uint
+u32
 )
 ;
 fn
@@ -3880,7 +3880,7 @@ handle_reflow_complete_msg
 self
 reflow_id
 :
-uint
+u32
 )
 {
 let

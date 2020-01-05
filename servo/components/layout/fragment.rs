@@ -9957,7 +9957,7 @@ begin
 (
 )
 .
-to_uint
+to_usize
 (
 )
 inline_end_range
@@ -9966,7 +9966,7 @@ end
 (
 )
 .
-to_uint
+to_usize
 (
 )
 )
@@ -13924,7 +13924,7 @@ begin
 (
 )
 .
-to_uint
+to_usize
 (
 )
 range
@@ -13933,7 +13933,7 @@ end
 (
 )
 .
-to_uint
+to_usize
 (
 )
 )

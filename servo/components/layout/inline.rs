@@ -4464,7 +4464,7 @@ get_mut
 (
 fragment_index
 .
-to_uint
+to_usize
 (
 )
 )
@@ -4578,7 +4578,7 @@ get
 (
 fragment_index
 .
-to_uint
+to_usize
 (
 )
 )
@@ -4676,7 +4676,7 @@ get_mut
 (
 fragment_index
 .
-to_uint
+to_usize
 (
 )
 )
@@ -4918,7 +4918,7 @@ get_mut
 (
 fragment_index
 .
-to_uint
+to_usize
 (
 )
 )
@@ -6047,7 +6047,7 @@ fragments
 [
 fragment_index
 .
-to_uint
+to_usize
 (
 )
 ]

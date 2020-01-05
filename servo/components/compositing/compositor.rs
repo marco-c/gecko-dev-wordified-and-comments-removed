@@ -513,7 +513,7 @@ shutdown_state
 ShutdownState
 outstanding_paint_msgs
 :
-uint
+u32
 last_composite_time
 :
 u64
@@ -2299,7 +2299,7 @@ mut
 self
 count
 :
-uint
+u32
 )
 {
 if

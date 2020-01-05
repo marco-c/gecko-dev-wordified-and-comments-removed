@@ -376,7 +376,7 @@ Sender
 pub
 id
 :
-uint
+u32
 pub
 query_type
 :

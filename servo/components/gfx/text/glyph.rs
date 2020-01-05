@@ -2066,7 +2066,7 @@ entry_buffer
 [
 entry_i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -2136,7 +2136,7 @@ entry_buffer
 [
 entry_i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -2624,7 +2624,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -2654,7 +2654,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -2834,7 +2834,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -2876,7 +2876,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -2956,7 +2956,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3196,7 +3196,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3237,7 +3237,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3278,7 +3278,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3319,7 +3319,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3360,7 +3360,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3401,7 +3401,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3443,7 +3443,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3454,7 +3454,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3499,7 +3499,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3510,7 +3510,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3555,7 +3555,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3566,7 +3566,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3614,7 +3614,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3625,7 +3625,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -3746,7 +3746,7 @@ entry_buffer
 [
 index
 .
-to_uint
+to_usize
 (
 )
 ]
@@ -4175,7 +4175,7 @@ entry_buffer
 [
 i
 .
-to_uint
+to_usize
 (
 )
 ]

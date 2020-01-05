@@ -267,7 +267,7 @@ CompositorEvent
 ReflowComplete
 (
 PipelineId
-uint
+u32
 )
 Viewport
 (
