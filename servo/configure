@@ -1640,6 +1640,9 @@ rust
 azure
 rust
 -
+cairo
+rust
+-
 stb
 -
 image
@@ -1730,6 +1733,9 @@ freetype
 rust
 -
 fontconfig
+rust
+-
+xlib
 {
 CFG_SUBMODULES
 }

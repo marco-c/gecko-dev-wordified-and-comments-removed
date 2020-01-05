@@ -420,12 +420,6 @@ bindgen
 AzCreateScaledFontWithCairo
 ;
 use
-azure
-:
-:
-cairo
-;
-use
 cairo
 :
 :
@@ -613,7 +607,7 @@ Font
 cairo_font_face_t
 {
 use
-azure
+cairo
 :
 :
 cairo_ft
@@ -681,7 +675,7 @@ Font
 cairo_font_face_t
 {
 use
-azure
+cairo
 :
 :
 cairo_quartz

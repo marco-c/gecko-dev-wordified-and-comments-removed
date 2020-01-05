@@ -77,6 +77,10 @@ azure
 rust
 -
 geom
+\
+rust
+-
+cairo
 DEPS_rust
 -
 glut
@@ -98,6 +102,10 @@ azure
 \
 rust
 -
+cairo
+\
+rust
+-
 geom
 \
 rust
@@ -107,6 +115,10 @@ glut
 rust
 -
 opengles
+\
+(
+NULL
+)
 DEPS_sharegl
 +
 =
@@ -240,7 +252,7 @@ core
 foundation
 DEPS_rust
 -
-layers
+cairo
 +
 =
 \
@@ -304,6 +316,15 @@ CFG_OSTYPE
 )
 linux
 )
+DEPS_rust
+-
+cairo
++
+=
+\
+rust
+-
+xlib
 DEPS_rust
 -
 azure

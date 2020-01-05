@@ -26,16 +26,13 @@ azure_hl
 DrawTarget
 ;
 use
-azure
-:
-:
 cairo
 :
 :
 CAIRO_FORMAT_RGB24
 ;
 use
-azure
+cairo
 :
 :
 cairo_hl
