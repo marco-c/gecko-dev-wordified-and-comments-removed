@@ -3439,6 +3439,16 @@ NS_SetMainThread
 (
 )
 ;
+mozilla
+:
+:
+LogModule
+:
+:
+Init
+(
+)
+;
 char
 aLocal
 ;
