@@ -171,6 +171,7 @@ android
 )
 |
 |
+(
 target
 .
 contains
@@ -178,6 +179,18 @@ contains
 "
 linux
 "
+)
+&
+&
+cfg
+!
+(
+feature
+=
+"
+test_egl_in_linux
+"
+)
 )
 {
 let
