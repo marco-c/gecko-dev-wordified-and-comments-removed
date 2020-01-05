@@ -92,6 +92,9 @@ DedicatedWorkerGlobalScope
 :
 WorkerGlobalScope
 {
+[
+Throws
+]
 void
 postMessage
 (

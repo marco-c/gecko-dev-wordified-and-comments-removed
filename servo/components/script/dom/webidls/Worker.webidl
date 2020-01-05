@@ -172,6 +172,9 @@ terminate
 (
 )
 ;
+[
+Throws
+]
 void
 postMessage
 (
