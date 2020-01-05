@@ -3235,7 +3235,7 @@ characteristic
 (
 name
 :
-BluetoothServiceUUID
+BluetoothCharacteristicUUID
 )
 -
 >
