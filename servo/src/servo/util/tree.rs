@@ -1306,6 +1306,7 @@ p
 p
 children
 :
+move
 children
 }
 ;

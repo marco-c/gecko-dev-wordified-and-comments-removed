@@ -1027,6 +1027,7 @@ token_port
 =
 spawn_css_lexer_from_string
 (
+move
 input
 )
 ;
@@ -1035,6 +1036,7 @@ _actual_rule
 =
 build_stylesheet
 (
+move
 token_port
 )
 ;
@@ -1192,6 +1194,7 @@ token_port
 =
 spawn_css_lexer_from_string
 (
+move
 input
 )
 ;
@@ -1200,6 +1203,7 @@ _actual_rule
 =
 build_stylesheet
 (
+move
 token_port
 )
 ;

@@ -581,6 +581,7 @@ send
 (
 RenderMsg
 (
+move
 render_layer
 )
 )
@@ -607,6 +608,7 @@ render_task
 :
 ExitMsg
 (
+move
 exit_chan
 )
 )

@@ -3027,7 +3027,9 @@ send
 (
 GetImage
 (
+move
 url
+move
 chan
 )
 )
@@ -3129,6 +3131,7 @@ send
 (
 Prefetch
 (
+move
 url
 )
 )
@@ -3207,6 +3210,7 @@ send
 (
 Decode
 (
+move
 url
 )
 )
@@ -3314,7 +3318,9 @@ send
 (
 GetImage
 (
+move
 url
+move
 chan
 )
 )
@@ -3437,6 +3443,7 @@ send
 (
 Prefetch
 (
+move
 url
 )
 )
@@ -3500,6 +3507,8 @@ do
 mock_resource_task
 |
 response
+move
+wait_port
 |
 {
 /
@@ -3620,7 +3629,9 @@ send
 (
 GetImage
 (
+move
 url
+move
 response_chan
 )
 )
@@ -3848,7 +3859,9 @@ send
 (
 GetImage
 (
+move
 url
+move
 response_chan
 )
 )
@@ -4089,6 +4102,7 @@ GetImage
 (
 copy
 url
+move
 response_chan
 )
 )
@@ -4872,7 +4886,9 @@ send
 (
 GetImage
 (
+move
 url
+move
 response_chan
 )
 )
@@ -5106,6 +5122,7 @@ GetImage
 (
 copy
 url
+move
 response_chan
 )
 )
@@ -5154,7 +5171,9 @@ send
 (
 GetImage
 (
+move
 url
+move
 response_chan
 )
 )
@@ -5266,6 +5285,7 @@ wait_to_decode_port_cell
 =
 Cell
 (
+move
 wait_to_decode_port
 )
 ;
@@ -5355,6 +5375,7 @@ image_cache_task
 ImageCacheTask_
 (
 mock_resource_task
+move
 decoder_factory
 )
 ;
@@ -5488,7 +5509,9 @@ send
 (
 GetImage
 (
+move
 url
+move
 response_chan
 )
 )
@@ -5736,7 +5759,9 @@ send
 (
 GetImage
 (
+move
 url
+move
 response_chan
 )
 )
@@ -5963,7 +5988,9 @@ send
 (
 WaitForImage
 (
+move
 url
+move
 response_chan
 )
 )
@@ -6034,6 +6061,8 @@ do
 mock_resource_task
 |
 response
+move
+wait_port
 |
 {
 wait_port
@@ -6137,7 +6166,9 @@ send
 (
 WaitForImage
 (
+move
 url
+move
 response_chan
 )
 )
@@ -6216,6 +6247,8 @@ do
 mock_resource_task
 |
 response
+move
+wait_port
 |
 {
 wait_port
@@ -6319,7 +6352,9 @@ send
 (
 WaitForImage
 (
+move
 url
+move
 response_chan
 )
 )
@@ -6479,7 +6514,9 @@ send
 (
 GetImage
 (
+move
 url
+move
 response_chan
 )
 )

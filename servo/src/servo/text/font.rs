@@ -986,6 +986,10 @@ task
 :
 :
 spawn
+|
+move
+chan
+|
 {
 let
 lib
