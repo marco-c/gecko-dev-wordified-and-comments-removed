@@ -134,10 +134,10 @@ use
 std
 :
 :
-thread_pool
+task_pool
 :
 :
-ThreadPool
+TaskPool
 ;
 pub
 enum
@@ -314,7 +314,7 @@ let
 thread_pool
 =
 do
-ThreadPool
+TaskPool
 :
 :
 new
@@ -512,7 +512,7 @@ LayerBufferSet
 >
 thread_pool
 :
-ThreadPool
+TaskPool
 <
 ThreadRenderContext
 >
