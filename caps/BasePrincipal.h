@@ -170,6 +170,15 @@ aStr
 )
 const
 ;
+void
+CreateAnonymizedSuffix
+(
+nsACString
+&
+aStr
+)
+const
+;
 MOZ_MUST_USE
 bool
 PopulateFromSuffix
