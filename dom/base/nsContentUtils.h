@@ -5820,6 +5820,12 @@ return
 sSkipCursorMoveForSameValueSet
 ;
 }
+static
+bool
+GetUserIsInteracting
+(
+)
+;
 private
 :
 static
@@ -6277,6 +6283,14 @@ sPrivacyMaxInnerWidth
 static
 int32_t
 sPrivacyMaxInnerHeight
+;
+class
+UserInteractionObserver
+;
+static
+UserInteractionObserver
+*
+sUserInteractionObserver
 ;
 static
 nsHtml5StringParser
