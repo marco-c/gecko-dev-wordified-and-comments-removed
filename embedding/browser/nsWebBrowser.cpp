@@ -1034,6 +1034,8 @@ mListenerArray
 ElementAt
 (
 count
+-
+1
 )
 .
 Equals
@@ -1049,6 +1051,8 @@ mListenerArray
 RemoveElementAt
 (
 count
+-
+1
 )
 ;
 break
