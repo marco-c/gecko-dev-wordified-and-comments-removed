@@ -11,10 +11,7 @@ std
 process
 :
 :
-{
 Command
-Stdio
-}
 ;
 fn
 main
