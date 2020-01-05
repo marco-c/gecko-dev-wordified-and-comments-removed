@@ -160,6 +160,15 @@ traits
 .
 32
 "
+openssl
+=
+"
+0
+.
+7
+.
+6
+"
 parse
 -
 hosts

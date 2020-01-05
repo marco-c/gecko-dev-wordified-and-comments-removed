@@ -3316,6 +3316,7 @@ _
 false
 }
 }
+pub
 fn
 should_be_blocked_due_to_nosniff
 (

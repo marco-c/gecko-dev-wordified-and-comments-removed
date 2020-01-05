@@ -2500,6 +2500,13 @@ cookie_jar
 clone
 (
 )
+resource_grp
+.
+ssl_context
+.
+clone
+(
+)
 )
 ;
 }
