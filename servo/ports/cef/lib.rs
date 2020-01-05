@@ -19,14 +19,6 @@ box_syntax
 [
 feature
 (
-convert
-)
-]
-#
-!
-[
-feature
-(
 core_intrinsics
 )
 ]
