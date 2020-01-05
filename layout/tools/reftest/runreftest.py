@@ -2690,6 +2690,17 @@ XPCOM_DEBUG_BREAK
 stack
 "
         
+browserEnv
+[
+"
+MOZ_DEVELOPER_REPO_DIR
+"
+]
+=
+options
+.
+topsrcdir
+        
 if
 mozinfo
 .
