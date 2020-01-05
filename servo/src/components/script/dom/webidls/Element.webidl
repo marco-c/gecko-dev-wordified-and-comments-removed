@@ -395,9 +395,6 @@ DOMString
 localName
 )
 ;
-[
-Throws
-]
 HTMLCollection
 getElementsByTagNameNS
 (
