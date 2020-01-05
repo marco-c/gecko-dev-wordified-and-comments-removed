@@ -142,6 +142,11 @@ SIG64
 noprint
 nostop
 pass
+handle
+SIGSYS
+noprint
+nostop
+pass
 #
 Show
 the
