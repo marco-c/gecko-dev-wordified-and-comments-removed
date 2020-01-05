@@ -99,7 +99,6 @@ index
 ;
 [
 Pure
-Throws
 ]
 boolean
 contains
