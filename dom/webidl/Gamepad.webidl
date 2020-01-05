@@ -150,6 +150,11 @@ pressed
 ;
 readonly
 attribute
+boolean
+touched
+;
+readonly
+attribute
 double
 value
 ;

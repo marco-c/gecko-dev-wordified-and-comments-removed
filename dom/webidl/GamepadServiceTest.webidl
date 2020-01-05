@@ -143,6 +143,8 @@ long
 button
 boolean
 pressed
+boolean
+touched
 )
 ;
 void
@@ -156,6 +158,8 @@ long
 button
 boolean
 pressed
+boolean
+touched
 double
 value
 )
