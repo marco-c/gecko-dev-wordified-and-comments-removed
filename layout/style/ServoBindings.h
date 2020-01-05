@@ -1530,6 +1530,16 @@ aDest
 )
 ;
 void
+Gecko_nsStyleFilter_SetURLValue
+(
+nsStyleFilter
+*
+effects
+ServoBundledURI
+uri
+)
+;
+void
 Gecko_FillAllBackgroundLists
 (
 nsStyleImageLayers
