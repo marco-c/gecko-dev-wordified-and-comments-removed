@@ -2169,6 +2169,9 @@ filter
 types
 :
 [
+'
+filterList
+'
 ]
 }
 '
