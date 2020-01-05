@@ -1707,29 +1707,6 @@ defineLazyModuleGetter
 (
 this
 "
-Task
-"
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetter
-(
-this
-"
 PlacesSearchAutocompleteProvider
 "
 "
@@ -1866,19 +1843,13 @@ new
 Map
 (
 )
-initDatabase
-:
-Task
-.
 async
-(
-function
-*
+initDatabase
 (
 conn
 )
 {
-yield
+await
 conn
 .
 execute
@@ -1903,7 +1874,7 @@ userContextId
 )
 )
 ;
-yield
+await
 conn
 .
 execute
@@ -1993,7 +1964,6 @@ clear
 )
 ;
 }
-)
 add
 (
 uri
@@ -4785,14 +4755,8 @@ false
 pending
 :
 true
-execute
-:
-Task
-.
 async
-(
-function
-*
+execute
 (
 conn
 )
@@ -4828,7 +4792,7 @@ TELEMETRY_6_FIRST_RESULTS
 this
 )
 ;
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 ensureInitialized
@@ -4884,7 +4848,7 @@ this
 _searchQuery
 )
 ;
-yield
+await
 this
 .
 _checkPreloadedSitesExpiry
@@ -4900,7 +4864,7 @@ true
 let
 hasHeuristic
 =
-yield
+await
 this
 .
 _matchFirstHeuristicResult
@@ -4928,7 +4892,7 @@ if
 hasHeuristic
 )
 {
-yield
+await
 this
 .
 _sleep
@@ -4964,7 +4928,7 @@ length
 0
 )
 {
-yield
+await
 this
 .
 _matchSearchSuggestions
@@ -4992,7 +4956,7 @@ of
 queries
 )
 {
-yield
+await
 conn
 .
 executeCached
@@ -5036,7 +5000,7 @@ openpage
 )
 )
 {
-yield
+await
 this
 .
 _matchRemoteTabs
@@ -5096,7 +5060,7 @@ _searchQuery
 ]
 )
 {
-yield
+await
 conn
 .
 executeCached
@@ -5155,7 +5119,7 @@ _searchTokens
 length
 )
 {
-yield
+await
 this
 .
 _matchExtensionSuggestions
@@ -5195,7 +5159,7 @@ _matchPreloadedSites
 (
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -5206,8 +5170,7 @@ _remoteMatchesPromises
 )
 ;
 }
-)
-*
+async
 _checkPreloadedSitesExpiry
 (
 )
@@ -5224,7 +5187,7 @@ return
 let
 profileCreationDate
 =
-yield
+await
 ProfileAgeCreatedPromise
 ;
 let
@@ -5828,7 +5791,7 @@ return
 false
 ;
 }
-*
+async
 _matchFirstHeuristicResult
 (
 conn
@@ -5853,7 +5816,7 @@ hasSearchTerms
 let
 matched
 =
-yield
+await
 this
 .
 _matchExtensionHeuristicResult
@@ -5883,7 +5846,7 @@ hasSearchTerms
 let
 matched
 =
-yield
+await
 this
 .
 _matchSearchEngineAlias
@@ -5913,7 +5876,7 @@ hasSearchTerms
 let
 matched
 =
-yield
+await
 this
 .
 _matchPlacesKeyword
@@ -5950,7 +5913,7 @@ shouldAutofill
 let
 matched
 =
-yield
+await
 this
 .
 _matchKnownUrl
@@ -5981,7 +5944,7 @@ shouldAutofill
 let
 matched
 =
-yield
+await
 this
 .
 _matchSearchEngineUrl
@@ -6045,7 +6008,7 @@ _enableActions
 let
 matched
 =
-yield
+await
 this
 .
 _matchUnknownUrl
@@ -6096,7 +6059,7 @@ _addingHeuristicFirstMatch
 =
 false
 ;
-yield
+await
 this
 .
 _matchCurrentSearchEngine
@@ -6136,7 +6099,7 @@ _originalSearchString
 let
 matched
 =
-yield
+await
 this
 .
 _matchCurrentSearchEngine
@@ -6157,7 +6120,7 @@ return
 false
 ;
 }
-*
+async
 _matchSearchSuggestions
 (
 )
@@ -6372,7 +6335,7 @@ restrict
 )
 )
 {
-yield
+await
 promise
 ;
 this
@@ -6521,7 +6484,7 @@ looksLikeUrl
 )
 ;
 }
-*
+async
 _matchKnownUrl
 (
 conn
@@ -6578,7 +6541,7 @@ this
 .
 _urlQuery
 ;
-yield
+await
 conn
 .
 executeCached
@@ -6626,7 +6589,7 @@ this
 .
 _hostQuery
 ;
-yield
+await
 conn
 .
 executeCached
@@ -6655,7 +6618,6 @@ return
 gotResult
 ;
 }
-*
 _matchExtensionHeuristicResult
 (
 )
@@ -6724,7 +6686,7 @@ return
 false
 ;
 }
-*
+async
 _matchPlacesKeyword
 (
 )
@@ -6742,7 +6704,7 @@ _searchTokens
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -6796,7 +6758,7 @@ url
 postData
 ]
 =
-yield
+await
 BrowserUtils
 .
 parseUrlAndPostData
@@ -6911,7 +6873,7 @@ return
 true
 ;
 }
-*
+async
 _matchSearchEngineUrl
 (
 )
@@ -6929,7 +6891,7 @@ false
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByToken
@@ -7137,7 +7099,7 @@ return
 true
 ;
 }
-*
+async
 _matchSearchEngineAlias
 (
 )
@@ -7168,7 +7130,7 @@ _searchTokens
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 findMatchByAlias
@@ -7218,7 +7180,7 @@ return
 true
 ;
 }
-*
+async
 _matchCurrentSearchEngine
 (
 )
@@ -7226,7 +7188,7 @@ _matchCurrentSearchEngine
 let
 match
 =
-yield
+await
 PlacesSearchAutocompleteProvider
 .
 getDefaultMatch
@@ -7439,7 +7401,6 @@ suggestion
 )
 ;
 }
-*
 _matchExtensionSuggestions
 (
 )
@@ -7515,7 +7476,7 @@ promise
 )
 ;
 }
-*
+async
 _matchRemoteTabs
 (
 )
@@ -7523,7 +7484,7 @@ _matchRemoteTabs
 let
 matches
 =
-yield
+await
 PlacesRemoteTabsAutocompleteProvider
 .
 getMatches
@@ -7633,7 +7594,6 @@ match
 ;
 }
 }
-*
 _matchUnknownUrl
 (
 )
@@ -10147,19 +10107,16 @@ this
 .
 _promiseDatabase
 =
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
 let
 conn
 =
-yield
+await
 Sqlite
 .
 cloneStorageConnection
@@ -10194,12 +10151,8 @@ js
 clone
 closing
 "
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -10209,7 +10162,7 @@ shutdown
 (
 )
 ;
-yield
+await
 conn
 .
 close
@@ -10218,7 +10171,6 @@ close
 ;
 }
 )
-)
 ;
 }
 catch
@@ -10226,7 +10178,7 @@ catch
 ex
 )
 {
-yield
+await
 conn
 .
 close
@@ -10237,7 +10189,7 @@ throw
 ex
 ;
 }
-yield
+await
 conn
 .
 execute
@@ -10251,7 +10203,7 @@ cache_size
 "
 )
 ;
-yield
+await
 SwitchToTabStorage
 .
 initDatabase
@@ -10263,6 +10215,8 @@ return
 conn
 ;
 }
+)
+(
 )
 .
 then
