@@ -32,6 +32,7 @@ selector_impl
 AttrValue
 ElementExt
 NonTSPseudoClass
+Snapshot
 TheSelectorImpl
 }
 ;
@@ -340,9 +341,6 @@ Option
 &
 '
 a
-E
-:
-:
 Snapshot
 >
 }
@@ -402,9 +400,6 @@ snapshot
 &
 '
 a
-E
-:
-:
 Snapshot
 )
 -
@@ -2195,9 +2190,6 @@ E
 snapshot
 :
 &
-E
-:
-:
 Snapshot
 current_state
 :

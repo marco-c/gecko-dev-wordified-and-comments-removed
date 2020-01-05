@@ -97,6 +97,7 @@ selector_impl
 ElementExt
 TheSelectorImpl
 PseudoElement
+Snapshot
 }
 ;
 use
@@ -3046,9 +3047,6 @@ E
 snapshot
 :
 &
-E
-:
-:
 Snapshot
 current_state
 :

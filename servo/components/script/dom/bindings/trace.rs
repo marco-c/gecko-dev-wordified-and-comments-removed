@@ -669,8 +669,8 @@ selector_impl
 :
 :
 {
-ElementSnapshot
 PseudoElement
+Snapshot
 }
 ;
 use
@@ -2186,7 +2186,7 @@ AttrValue
 no_jsmanaged_fields
 !
 (
-ElementSnapshot
+Snapshot
 )
 ;
 no_jsmanaged_fields

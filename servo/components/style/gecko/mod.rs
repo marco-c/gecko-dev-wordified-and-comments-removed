@@ -8,6 +8,10 @@ data
 ;
 pub
 mod
+restyle_damage
+;
+pub
+mod
 snapshot
 ;
 pub
