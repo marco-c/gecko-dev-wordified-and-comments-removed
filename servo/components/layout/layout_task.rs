@@ -327,6 +327,7 @@ self
 Report
 Reporter
 ReporterRequest
+ReportKind
 ReportsChan
 }
 ;
@@ -3563,9 +3564,6 @@ path
 path
 !
 [
-"
-pages
-"
 format
 !
 (
@@ -3591,6 +3589,12 @@ display
 list
 "
 ]
+kind
+:
+ReportKind
+:
+:
+ExplicitJemallocHeapSize
 size
 :
 stacking_context
@@ -3633,9 +3637,6 @@ path
 path
 !
 [
-"
-pages
-"
 format
 !
 (
@@ -3661,6 +3662,12 @@ local
 context
 "
 ]
+kind
+:
+ReportKind
+:
+:
+ExplicitJemallocHeapSize
 size
 :
 heap_size_of_local_context
@@ -3732,9 +3739,6 @@ path
 path
 !
 [
-"
-pages
-"
 format
 !
 (
@@ -3767,6 +3771,12 @@ context
 i
 )
 ]
+kind
+:
+ReportKind
+:
+:
+ExplicitJemallocHeapSize
 size
 :
 *
