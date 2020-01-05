@@ -5093,6 +5093,13 @@ TabsPanelThumbnailView
 java
 '
 '
+tabs
+/
+TabsTouchHelperCallback
+.
+java
+'
+'
 Telemetry
 .
 java
