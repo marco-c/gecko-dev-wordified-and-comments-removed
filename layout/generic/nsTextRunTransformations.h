@@ -336,6 +336,9 @@ public
 explicit
 nsCaseTransformTextRunFactory
 (
+mozilla
+:
+:
 UniquePtr
 <
 nsTransformingTextRunFactory

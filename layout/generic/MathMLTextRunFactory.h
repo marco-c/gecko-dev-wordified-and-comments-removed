@@ -30,6 +30,9 @@ public
 :
 MathMLTextRunFactory
 (
+mozilla
+:
+:
 UniquePtr
 <
 nsTransformingTextRunFactory
@@ -100,6 +103,9 @@ MATH_FONT_FEATURE_DTLS
 }
 ;
 protected
+:
+mozilla
+:
 :
 UniquePtr
 <

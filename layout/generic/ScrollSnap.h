@@ -18,6 +18,9 @@ struct
 ScrollSnapUtils
 {
 static
+mozilla
+:
+:
 Maybe
 <
 nsPoint
