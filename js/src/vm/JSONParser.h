@@ -728,10 +728,7 @@ JSONParserBase
 mozilla
 :
 :
-Forward
-<
-JSONParser
->
+Move
 (
 other
 )
