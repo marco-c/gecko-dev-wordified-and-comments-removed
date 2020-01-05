@@ -610,7 +610,7 @@ WorkerThreadProxy
 >
 used_buffer_count
 :
-uint
+usize
 }
 macro_rules
 !
@@ -1795,7 +1795,7 @@ width
 4
 )
 as
-uint
+usize
 painted_with_cpu
 :
 true
@@ -3648,8 +3648,6 @@ width
 *
 4
 )
-as
-uint
 painted_with_cpu
 :
 false

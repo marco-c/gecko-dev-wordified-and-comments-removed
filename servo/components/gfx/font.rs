@@ -467,7 +467,7 @@ FnOnce
 *
 const
 u8
-uint
+usize
 )
 ;
 }
@@ -830,8 +830,6 @@ chars
 count
 (
 )
-as
-int
 options
 .
 flags

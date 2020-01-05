@@ -414,7 +414,7 @@ float_to_fixed
 (
 before
 :
-int
+usize
 f
 :
 f64
@@ -429,8 +429,6 @@ i32
 <
 <
 before
-as
-uint
 )
 as
 f64
@@ -446,7 +444,7 @@ fixed_to_float
 (
 before
 :
-int
+usize
 f
 :
 i32
@@ -469,8 +467,6 @@ f64
 <
 <
 before
-as
-uint
 )
 as
 f64
@@ -482,14 +478,14 @@ fixed_to_rounded_int
 (
 before
 :
-int
+isize
 f
 :
 i32
 )
 -
 >
-int
+isize
 {
 let
 half
@@ -503,7 +499,7 @@ before
 1
 )
 as
-uint
+usize
 ;
 if
 f
@@ -519,11 +515,9 @@ f
 >
 >
 before
-as
-uint
 )
 as
-int
+isize
 }
 else
 {
@@ -537,10 +531,8 @@ f
 >
 >
 before
-as
-uint
 )
 as
-int
+isize
 }
 }
