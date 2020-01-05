@@ -1770,8 +1770,8 @@ private
 InitUDPSocketParentCallback
 (
 )
-{
-}
+=
+default
 ;
 RefPtr
 <

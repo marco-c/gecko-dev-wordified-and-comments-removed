@@ -742,8 +742,9 @@ mReceiver
 MemoryPorts
 (
 )
-{
-}
+=
+default
+;
 MemoryPorts
 (
 MachPortSender
@@ -861,8 +862,9 @@ mPorts
 ListeningThread
 (
 )
-{
-}
+=
+default
+;
 ListeningThread
 (
 pthread_t

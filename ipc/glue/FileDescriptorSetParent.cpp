@@ -37,8 +37,9 @@ FileDescriptorSetParent
 FileDescriptorSetParent
 (
 )
-{
-}
+=
+default
+;
 void
 FileDescriptorSetParent
 :
