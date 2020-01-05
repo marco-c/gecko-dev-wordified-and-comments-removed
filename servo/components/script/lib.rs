@@ -285,6 +285,7 @@ unsafe_blocks
 deny
 (
 missing_docs
+non_snake_case
 )
 ]
 pub
@@ -353,6 +354,7 @@ bindings
 allow
 (
 missing_docs
+non_snake_case
 )
 ]
 pub

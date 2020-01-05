@@ -1778,7 +1778,7 @@ JSContext
 value
 :
 JSVal
-nullBehavior
+null_behavior
 :
 StringificationBehavior
 )
@@ -1792,7 +1792,7 @@ DOMString
 >
 {
 if
-nullBehavior
+null_behavior
 =
 =
 StringificationBehavior
