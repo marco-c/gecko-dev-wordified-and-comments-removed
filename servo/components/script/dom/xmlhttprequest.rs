@@ -4540,9 +4540,6 @@ clone
 unsafe_request
 :
 true
-same_origin_data
-:
-true
 /
 /
 XXXManishearth

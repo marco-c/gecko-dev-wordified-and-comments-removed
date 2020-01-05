@@ -1232,15 +1232,6 @@ omit_origin_header
 ;
 request
 .
-same_origin_data
-.
-set
-(
-true
-)
-;
-request
-.
 referrer
 =
 temporary_request
