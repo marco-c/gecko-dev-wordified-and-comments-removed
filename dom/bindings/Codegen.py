@@ -214,6 +214,7 @@ name
 def
 mayUseXrayExpandoSlots
 (
+descriptor
 attr
 )
 :
@@ -230,6 +231,10 @@ NewObject
 )
     
 return
+descriptor
+.
+wantsXrays
+and
 not
 attr
 .
@@ -51568,6 +51573,9 @@ mayUseXrayExpandoSlots
 (
 self
 .
+descriptor
+self
+.
 idlNode
 )
             
@@ -59227,6 +59235,9 @@ name
 if
 mayUseXrayExpandoSlots
 (
+self
+.
+descriptor
 self
 .
 attr
