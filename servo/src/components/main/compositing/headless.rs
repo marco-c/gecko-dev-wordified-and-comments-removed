@@ -327,7 +327,13 @@ send
 )
 ;
 }
-NewLayer
+CreateRootCompositorLayerIfNecessary
+(
+.
+.
+)
+|
+CreateDescendantCompositorLayerIfNecessary
 (
 .
 .
@@ -345,7 +351,7 @@ SetLayerClipRect
 .
 )
 |
-DeleteLayer
+DeleteLayerGroup
 (
 .
 .
