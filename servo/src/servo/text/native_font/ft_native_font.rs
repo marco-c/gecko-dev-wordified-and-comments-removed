@@ -71,8 +71,6 @@ FT_Set_Char_Size
 ;
 struct
 FreeTypeNativeFont
-/
-&
 {
 face
 :
@@ -121,8 +119,6 @@ FT_Face
 -
 >
 FreeTypeNativeFont
-/
-&
 {
 assert
 face
@@ -140,8 +136,6 @@ face
 }
 impl
 FreeTypeNativeFont
-/
-&
 {
 fn
 glyph_index
