@@ -190,6 +190,7 @@ characterdata
 {
 CharacterData
 CharacterDataHelpers
+CharacterDataTypeId
 }
 ;
 use
@@ -278,7 +279,13 @@ Node
 NodeTypeId
 :
 :
+CharacterData
+(
+CharacterDataTypeId
+:
+:
 Text
+)
 )
 }
 }
@@ -311,7 +318,7 @@ CharacterData
 :
 new_inherited
 (
-NodeTypeId
+CharacterDataTypeId
 :
 :
 Text
