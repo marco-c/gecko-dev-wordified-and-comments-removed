@@ -3225,7 +3225,7 @@ NoActionState
 TEST_F
 (
 AccessibleCaretEventHubTester
-TestNoEventAsyncPanZoomScroll
+TestAsyncPanZoomScroll
 )
 {
 MockFunction
@@ -3288,7 +3288,7 @@ OnScrollPositionChanged
 .
 Times
 (
-0
+2
 )
 ;
 EXPECT_CALL

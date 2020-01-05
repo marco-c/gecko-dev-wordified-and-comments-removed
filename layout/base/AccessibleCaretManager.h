@@ -296,6 +296,7 @@ uint8_t
 {
 Default
 RespectOldAppearance
+DispatchNoEvent
 }
 ;
 using
@@ -737,6 +738,11 @@ nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_UNKNOWN
+;
+bool
+mIsScrollStarted
+=
+false
 ;
 static
 const
