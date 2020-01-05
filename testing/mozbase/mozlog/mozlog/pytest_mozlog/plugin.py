@@ -747,6 +747,7 @@ else
                 
 raise
 ValueError
+(
 "
 Unable
 to
@@ -764,6 +765,7 @@ nfields
 :
 "
 %
+                                 
 (
 longrepr
 .
@@ -771,6 +773,7 @@ __class__
 dir
 (
 longrepr
+)
 )
 )
         
