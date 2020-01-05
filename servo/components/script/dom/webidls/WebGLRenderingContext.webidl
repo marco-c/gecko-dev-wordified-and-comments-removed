@@ -3662,8 +3662,6 @@ GLboolean
 invert
 )
 ;
-/
-/
 void
 scissor
 (
