@@ -29,7 +29,7 @@ server
 /
 actors
 /
-webbrowser
+tab
 "
 )
 ;

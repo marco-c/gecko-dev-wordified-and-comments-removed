@@ -51,7 +51,7 @@ require
 "
 .
 /
-webbrowser
+tab
 "
 )
 ;

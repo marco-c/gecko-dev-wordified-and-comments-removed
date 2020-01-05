@@ -752,7 +752,7 @@ TabActor
 (
 defined
 in
-webbrowser
+tab
 .
 js
 )
