@@ -1944,7 +1944,7 @@ mVsyncRate
 mVsyncChild
 -
 >
-GetVsyncRate
+VsyncRate
 (
 )
 ;

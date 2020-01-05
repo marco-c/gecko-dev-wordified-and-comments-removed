@@ -93,6 +93,11 @@ GetVsyncRate
 (
 )
 ;
+TimeDuration
+VsyncRate
+(
+)
+;
 private
 :
 VsyncChild

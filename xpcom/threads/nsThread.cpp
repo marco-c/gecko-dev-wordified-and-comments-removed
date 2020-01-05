@@ -4146,13 +4146,6 @@ aEvent
 TimeStamp
 idleDeadline
 ;
-{
-MutexAutoUnlock
-unlock
-(
-mLock
-)
-;
 mIdlePeriod
 -
 >
@@ -4162,7 +4155,6 @@ GetIdlePeriodHint
 idleDeadline
 )
 ;
-}
 if
 (
 !
