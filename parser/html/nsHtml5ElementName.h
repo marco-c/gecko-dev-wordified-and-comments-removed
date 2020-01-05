@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsString
+nsHtml5String
 .
 h
 "

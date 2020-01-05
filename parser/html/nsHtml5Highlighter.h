@@ -112,8 +112,7 @@ MaybeLinkifyAttributeValue
 nsHtml5AttributeName
 *
 aName
-nsString
-*
+nsHtml5String
 aValue
 )
 ;
@@ -188,9 +187,7 @@ aMsgId
 void
 AddBase
 (
-const
-nsString
-&
+nsHtml5String
 aValue
 )
 ;
@@ -317,9 +314,7 @@ aLength
 void
 AddViewSourceHref
 (
-const
-nsString
-&
+nsHtml5String
 aValue
 )
 ;

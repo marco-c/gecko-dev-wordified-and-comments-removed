@@ -245,6 +245,11 @@ nsHtml5StreamParser
 h
 '
 '
+nsHtml5String
+.
+h
+'
+'
 nsHtml5StringParser
 .
 h
@@ -426,6 +431,11 @@ cpp
 '
 '
 nsHtml5StreamParser
+.
+cpp
+'
+'
+nsHtml5String
 .
 cpp
 '
