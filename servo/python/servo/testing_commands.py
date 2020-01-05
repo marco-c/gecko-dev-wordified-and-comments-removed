@@ -1932,6 +1932,11 @@ append
 test
 )
         
+in_crate_packages
+=
+[
+]
+        
 if
 not
 packages
@@ -1973,6 +1978,15 @@ DS_Store
 '
 ]
 )
+            
+in_crate_packages
++
+=
+[
+"
+selectors
+"
+]
         
 packages
 .
@@ -2129,6 +2143,23 @@ p
 s_tests
 "
 %
+crate
+]
+            
+for
+crate
+in
+in_crate_packages
+:
+                
+args
++
+=
+[
+"
+-
+p
+"
 crate
 ]
             
