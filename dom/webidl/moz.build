@@ -277,6 +277,11 @@ BarProp
 webidl
 '
 '
+BaseAudioContext
+.
+webidl
+'
+'
 BaseKeyframeTypes
 .
 webidl

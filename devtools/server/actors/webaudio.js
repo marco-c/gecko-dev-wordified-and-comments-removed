@@ -263,6 +263,9 @@ AUDIO_GLOBALS
 =
 [
 "
+BaseAudioContext
+"
+"
 AudioContext
 "
 "

@@ -167,7 +167,7 @@ enabled
 "
 Constructor
 (
-AudioContext
+BaseAudioContext
 context
 optional
 GainOptions

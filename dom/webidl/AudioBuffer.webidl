@@ -172,7 +172,7 @@ enabled
 "
 Constructor
 (
-AudioContext
+BaseAudioContext
 context
 AudioBufferOptions
 options
