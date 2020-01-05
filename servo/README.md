@@ -680,9 +680,9 @@ new
 packages
 :
 sh
-update
+pacman
 -
-core
+Su
 pacman
 -
 Sy
