@@ -3631,7 +3631,7 @@ allocator
 mParent
 -
 >
-EnsureTextureAllocator
+EnsureTextureAllocatorForDirectBitmap
 (
 )
 ;
@@ -4047,7 +4047,7 @@ allocator
 mParent
 -
 >
-EnsureTextureAllocator
+EnsureTextureAllocatorForDXGISurface
 (
 )
 ;
