@@ -90,6 +90,17 @@ removeEventListener
 error
 "
 "
+mozilla
+/
+use
+-
+ownerGlobal
+"
+:
+"
+error
+"
+"
 no
 -
 unsafe
