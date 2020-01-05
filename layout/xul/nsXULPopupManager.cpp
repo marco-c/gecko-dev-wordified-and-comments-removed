@@ -5727,7 +5727,7 @@ aFrames
 {
 nsTArray
 <
-AutoWeakFrame
+WeakFrame
 >
 weakPopups
 (
@@ -5760,7 +5760,7 @@ f
 +
 )
 {
-AutoWeakFrame
+WeakFrame
 *
 wframe
 =

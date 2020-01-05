@@ -177,7 +177,7 @@ aSelData
 ;
 private
 :
-AutoWeakFrame
+WeakFrame
 mCurrCtrlFrame
 ;
 int32_t

@@ -917,7 +917,7 @@ Element
 >
 mOwnerContentStrong
 ;
-AutoWeakFrame
+WeakFrame
 mDetachedSubdocFrame
 ;
 nsCOMPtr

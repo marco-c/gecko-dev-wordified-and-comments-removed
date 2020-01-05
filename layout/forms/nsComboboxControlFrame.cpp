@@ -1765,7 +1765,7 @@ return
 NS_OK
 ;
 }
-AutoWeakFrame
+WeakFrame
 mFrame
 ;
 }
@@ -2259,7 +2259,7 @@ return
 NS_OK
 ;
 }
-AutoWeakFrame
+WeakFrame
 mFrame
 ;
 }
@@ -2446,7 +2446,7 @@ return
 NS_OK
 ;
 }
-AutoWeakFrame
+WeakFrame
 mFrame
 ;
 }

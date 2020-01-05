@@ -347,7 +347,7 @@ gfxSize
 >
 mPreviousTransformScale
 ;
-AutoWeakFrame
+WeakFrame
 mAnimatingScrollHandlerFrame
 ;
 EnumSet
@@ -433,7 +433,7 @@ aObject
 ;
 public
 :
-AutoWeakFrame
+WeakFrame
 mCurrentScrollHandlerFrame
 ;
 private

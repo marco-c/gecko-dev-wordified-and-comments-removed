@@ -863,7 +863,7 @@ nsPIBoxObject
 >
 mBoxObject
 ;
-AutoWeakFrame
+WeakFrame
 mTopFrame
 ;
 nsIFrame

@@ -687,7 +687,7 @@ NS_OK
 }
 protected
 :
-AutoWeakFrame
+WeakFrame
 mFrame
 ;
 nsCOMPtr
