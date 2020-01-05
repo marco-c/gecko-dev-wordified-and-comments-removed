@@ -87,6 +87,9 @@ startup
 shutdown
 "
 "
+addonIsActive
+"
+"
 registerProvider
 "
 "
