@@ -26,6 +26,7 @@ undefMutualRecStructUnion
 {
 child
 :
+async
 __delete__
 (
 X

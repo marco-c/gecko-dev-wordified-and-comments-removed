@@ -26,6 +26,7 @@ shmem
 {
 child
 :
+async
 Msg
 (
 Shmem

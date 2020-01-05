@@ -27,6 +27,7 @@ are
 reserved
 child
 :
+async
 conflictProtocolMsg
 (
 )

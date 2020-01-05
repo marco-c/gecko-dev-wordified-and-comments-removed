@@ -10,6 +10,7 @@ cyclecheck_Child
 ;
 child
 :
+async
 cyclecheck_Child
 (
 )

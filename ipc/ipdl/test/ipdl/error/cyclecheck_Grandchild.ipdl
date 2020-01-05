@@ -17,6 +17,7 @@ cyclecheck_Parent
 ;
 child
 :
+async
 cyclecheck_Parent
 (
 )

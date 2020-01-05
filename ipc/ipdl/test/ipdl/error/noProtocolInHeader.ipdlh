@@ -3,6 +3,7 @@ noProtocolInHeader
 {
 child
 :
+async
 __delete__
 (
 )

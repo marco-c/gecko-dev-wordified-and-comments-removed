@@ -3,6 +3,7 @@ multiOutStates
 {
 child
 :
+async
 Msg
 (
 )

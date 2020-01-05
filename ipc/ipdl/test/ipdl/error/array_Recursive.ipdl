@@ -3,6 +3,7 @@ array_Recursive
 {
 child
 :
+async
 Msg
 (
 int

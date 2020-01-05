@@ -22,6 +22,7 @@ a
 return
 parent
 :
+async
 Msg
 (
 int

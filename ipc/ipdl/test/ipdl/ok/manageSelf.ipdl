@@ -15,6 +15,7 @@ manageSelf
 ;
 child
 :
+async
 manageSelf
 (
 )

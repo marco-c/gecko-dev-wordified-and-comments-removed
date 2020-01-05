@@ -3,6 +3,7 @@ actorparam
 {
 child
 :
+async
 Msg
 (
 actorparam

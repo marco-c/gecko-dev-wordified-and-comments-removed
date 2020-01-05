@@ -11,6 +11,7 @@ structUnknownField
 {
 child
 :
+async
 __delete__
 (
 S

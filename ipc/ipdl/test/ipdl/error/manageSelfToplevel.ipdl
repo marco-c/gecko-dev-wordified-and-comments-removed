@@ -9,6 +9,7 @@ manageSelfToplevel
 ;
 child
 :
+async
 manageSelfToplevel
 (
 )

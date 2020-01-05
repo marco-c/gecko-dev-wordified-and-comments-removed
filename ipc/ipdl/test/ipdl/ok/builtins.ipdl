@@ -16,6 +16,7 @@ being
 declared
 child
 :
+async
 Msg
 (
 bool

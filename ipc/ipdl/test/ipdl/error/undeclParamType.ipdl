@@ -3,6 +3,7 @@ undeclParamType
 {
 child
 :
+async
 Msg
 (
 FARGLEGARGLE

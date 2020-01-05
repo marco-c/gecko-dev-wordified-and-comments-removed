@@ -8,6 +8,7 @@ emptyStruct
 {
 child
 :
+async
 __delete__
 (
 )

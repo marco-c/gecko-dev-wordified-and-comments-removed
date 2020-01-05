@@ -18,6 +18,7 @@ p1
 {
 child
 :
+async
 Msg
 (
 )
@@ -29,6 +30,7 @@ p2
 {
 child
 :
+async
 Msg
 (
 )

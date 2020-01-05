@@ -24,6 +24,7 @@ undefMutualRecUnion
 {
 child
 :
+async
 __delete__
 (
 X
