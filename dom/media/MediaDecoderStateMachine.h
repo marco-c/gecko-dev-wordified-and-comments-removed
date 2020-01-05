@@ -911,14 +911,6 @@ ReaderSuspendedChanged
 )
 ;
 void
-Push
-(
-MediaData
-*
-aSample
-)
-;
-void
 PushAudio
 (
 MediaData
