@@ -55,9 +55,6 @@ load
 1
 .
 html
-#
-bug
-1334036
 pref
 (
 dom
@@ -77,9 +74,6 @@ load
 2
 .
 html
-#
-bug
-1334036
 pref
 (
 dom
@@ -137,9 +131,6 @@ load
 5
 .
 html
-#
-bug
-1334036
 pref
 (
 dom
@@ -159,9 +150,6 @@ load
 6
 .
 html
-#
-bug
-1334036
 pref
 (
 dom
