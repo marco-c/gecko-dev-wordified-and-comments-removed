@@ -2467,7 +2467,6 @@ sanitize
 .
 js
 )
-*
 content
 /
 browser
@@ -2482,7 +2481,6 @@ sanitize
 .
 xul
 )
-*
 content
 /
 browser
