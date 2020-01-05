@@ -740,11 +740,11 @@ Syntax
 }
 ;
 let
-core_resource_thread
+resource_threads
 =
 global
 .
-core_resource_thread
+resource_threads
 (
 )
 ;
@@ -997,9 +997,9 @@ init
 =
 WorkerGlobalScopeInit
 {
-core_resource_thread
+resource_threads
 :
-core_resource_thread
+resource_threads
 mem_profiler_chan
 :
 global

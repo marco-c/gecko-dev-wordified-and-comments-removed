@@ -306,6 +306,7 @@ net_traits
 LoadContext
 load_whole_resource
 CustomResponse
+IpcSend
 }
 ;
 use
@@ -1410,7 +1411,11 @@ Script
 &
 init
 .
-core_resource_thread
+resource_threads
+.
+sender
+(
+)
 worker_url
 &
 worker_load_origin
