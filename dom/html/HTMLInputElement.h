@@ -4125,6 +4125,17 @@ ErrorResult
 aRv
 )
 ;
+nsIContent
+*
+AsContent
+(
+)
+override
+{
+return
+this
+;
+}
 nsCOMPtr
 <
 nsIControllers

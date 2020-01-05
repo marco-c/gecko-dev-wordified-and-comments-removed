@@ -411,6 +411,17 @@ GetStringInfo
 )
 override
 ;
+nsIContent
+*
+AsContent
+(
+)
+override
+{
+return
+this
+;
+}
 enum
 {
 ATTR_X

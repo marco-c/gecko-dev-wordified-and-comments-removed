@@ -1207,6 +1207,17 @@ aNotify
 )
 override
 ;
+nsIContent
+*
+AsContent
+(
+)
+override
+{
+return
+this
+;
+}
 HTMLFormElement
 *
 mForm

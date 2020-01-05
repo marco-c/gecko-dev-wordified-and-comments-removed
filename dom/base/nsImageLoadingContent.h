@@ -511,6 +511,15 @@ AsyncEventDispatcher
 aEvent
 )
 ;
+virtual
+nsIContent
+*
+AsContent
+(
+)
+=
+0
+;
 private
 :
 struct
