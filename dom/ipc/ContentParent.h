@@ -565,6 +565,12 @@ aContentProcessType
 )
 ;
 static
+void
+ReleaseCachedProcesses
+(
+)
+;
+static
 already_AddRefed
 <
 ContentParent
