@@ -1518,7 +1518,7 @@ Mozilla
 MOZJS_MAJOR_VERSION
 }
 :
-http
+https
 :
 /
 /

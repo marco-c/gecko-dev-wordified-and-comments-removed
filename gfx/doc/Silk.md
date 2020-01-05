@@ -2455,7 +2455,7 @@ shuts
 down
 ]
 (
-http
+https
 :
 /
 /
@@ -2527,7 +2527,7 @@ CompositorBridgeParent
 Destroy
 ]
 (
-http
+https
 :
 /
 /
@@ -2770,7 +2770,7 @@ thread
 destruction
 ]
 (
-http
+https
 :
 /
 /
@@ -3124,7 +3124,7 @@ with
 ClearOnShutdown
 ]
 (
-http
+https
 :
 /
 /
@@ -3200,7 +3200,7 @@ active
 timer
 ]
 (
-http
+https
 :
 /
 /

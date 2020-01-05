@@ -3266,7 +3266,7 @@ Firefox
 prefs
 file
 <
-http
+https
 :
 /
 /
@@ -3569,7 +3569,7 @@ the
 old
 one
 <
-http
+https
 :
 /
 /
