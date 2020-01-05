@@ -89,11 +89,6 @@ Claim
 (
 )
 ;
-void
-Unclaim
-(
-)
-;
 bool
 IsNullTransaction
 (
