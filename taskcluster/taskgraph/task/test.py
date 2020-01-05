@@ -80,7 +80,7 @@ Exception
 (
             
 "
-TestTask
+Test
 kinds
 must
 have

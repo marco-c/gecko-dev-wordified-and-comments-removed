@@ -59,7 +59,7 @@ taskgraph
 .
 task
 .
-docker_image
+transform
 :
 load_tasks
 transforms
