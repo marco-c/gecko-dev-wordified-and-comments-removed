@@ -358,7 +358,10 @@ style
 properties
 :
 :
+{
 ComputedValues
+TComputedValues
+}
 ;
 use
 style

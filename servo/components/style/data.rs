@@ -2,7 +2,7 @@ use
 properties
 :
 :
-ComputedValues
+TComputedValues
 ;
 use
 selectors
@@ -59,6 +59,9 @@ PrivateStyleData
 Impl
 :
 SelectorImpl
+ConcreteComputedValues
+:
+TComputedValues
 >
 {
 pub
@@ -68,7 +71,7 @@ Option
 <
 Arc
 <
-ComputedValues
+ConcreteComputedValues
 >
 >
 pub
@@ -82,7 +85,7 @@ Impl
 PseudoElement
 Arc
 <
-ComputedValues
+ConcreteComputedValues
 >
 BuildHasherDefault
 <
@@ -102,13 +105,20 @@ DomParallelInfo
 impl
 <
 Impl
-:
-SelectorImpl
+ConcreteComputedValues
 >
 PrivateStyleData
 <
 Impl
+ConcreteComputedValues
 >
+where
+Impl
+:
+SelectorImpl
+ConcreteComputedValues
+:
+TComputedValues
 {
 pub
 fn
@@ -120,6 +130,7 @@ new
 PrivateStyleData
 <
 Impl
+ConcreteComputedValues
 >
 {
 PrivateStyleData

@@ -179,7 +179,7 @@ style
 properties
 :
 :
-ComputedValues
+style_structs
 ;
 use
 style
@@ -188,7 +188,10 @@ style
 properties
 :
 :
-style_structs
+{
+ComputedValues
+TComputedValues
+}
 ;
 use
 style

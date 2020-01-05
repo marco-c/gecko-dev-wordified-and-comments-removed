@@ -201,6 +201,15 @@ style
 properties
 :
 :
+TComputedValues
+;
+use
+style
+:
+:
+properties
+:
+:
 longhands
 :
 :

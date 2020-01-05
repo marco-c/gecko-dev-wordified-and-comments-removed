@@ -193,6 +193,15 @@ use
 style
 :
 :
+properties
+:
+:
+ComputedValues
+;
+use
+style
+:
+:
 selector_impl
 :
 :
@@ -225,6 +234,9 @@ LocalLayoutContext
 style_context
 :
 LocalStyleContext
+<
+ComputedValues
+>
 font_context
 :
 RefCell
@@ -595,6 +607,7 @@ StyleContext
 '
 a
 ServoSelectorImpl
+ComputedValues
 >
 for
 LayoutContext
@@ -633,6 +646,9 @@ self
 >
 &
 LocalStyleContext
+<
+ComputedValues
+>
 {
 &
 self

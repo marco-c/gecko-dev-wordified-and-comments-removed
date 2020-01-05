@@ -144,7 +144,10 @@ style
 properties
 :
 :
+{
 ComputedValues
+TComputedValues
+}
 ;
 use
 table

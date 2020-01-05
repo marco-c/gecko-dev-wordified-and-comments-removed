@@ -25,6 +25,13 @@ Project
 Developers
 "
 ]
+build
+=
+"
+build
+.
+rs
+"
 [
 lib
 ]

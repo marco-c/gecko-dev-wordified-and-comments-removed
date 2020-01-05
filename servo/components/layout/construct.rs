@@ -326,6 +326,7 @@ properties
 {
 self
 ComputedValues
+TComputedValues
 }
 ;
 use
