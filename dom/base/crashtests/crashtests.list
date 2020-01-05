@@ -1255,3 +1255,16 @@ load
 1304437
 .
 html
+pref
+(
+dom
+.
+IntersectionObserver
+.
+enabled
+true
+)
+load
+1324209
+.
+html

@@ -43822,3 +43822,15 @@ enabled
 false
 )
 ;
+pref
+(
+"
+dom
+.
+IntersectionObserver
+.
+enabled
+"
+false
+)
+;
