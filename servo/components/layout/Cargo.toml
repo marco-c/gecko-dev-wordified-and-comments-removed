@@ -326,3 +326,12 @@ bitflags
 "
 *
 "
+rustc
+-
+serialize
+=
+"
+0
+.
+2
+"

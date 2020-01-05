@@ -112,10 +112,6 @@ geom
 ;
 extern
 crate
-serialize
-;
-extern
-crate
 text_writer
 ;
 extern

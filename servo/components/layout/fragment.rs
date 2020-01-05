@@ -163,7 +163,7 @@ script_traits
 UntrustedNodeAddress
 ;
 use
-serialize
+rustc_serialize
 :
 :
 {

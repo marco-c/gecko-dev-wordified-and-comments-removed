@@ -13,7 +13,7 @@ use
 flow
 ;
 use
-serialize
+rustc_serialize
 :
 :
 json

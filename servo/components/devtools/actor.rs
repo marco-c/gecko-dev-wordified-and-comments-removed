@@ -62,7 +62,7 @@ raw
 TraitObject
 ;
 use
-serialize
+rustc_serialize
 :
 :
 json

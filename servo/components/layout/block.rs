@@ -201,7 +201,7 @@ DisplayList
 }
 ;
 use
-serialize
+rustc_serialize
 :
 :
 {

@@ -338,3 +338,12 @@ rand
 "
 *
 "
+rustc
+-
+serialize
+=
+"
+0
+.
+2
+"

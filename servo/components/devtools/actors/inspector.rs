@@ -63,7 +63,7 @@ constellation_msg
 PipelineId
 ;
 use
-serialize
+rustc_serialize
 :
 :
 json

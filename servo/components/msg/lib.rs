@@ -17,14 +17,6 @@ int_uint
 #
 !
 [
-feature
-(
-rustc_private
-)
-]
-#
-!
-[
 allow
 (
 missing_copy_implementations
@@ -53,10 +45,6 @@ hyper
 extern
 crate
 layers
-;
-extern
-crate
-serialize
 ;
 extern
 crate

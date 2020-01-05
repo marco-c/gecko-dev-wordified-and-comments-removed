@@ -70,7 +70,7 @@ cell
 RefCell
 ;
 use
-serialize
+rustc_serialize
 :
 :
 json
