@@ -527,6 +527,10 @@ rule_tree
 ;
 pub
 mod
+scoped_tls
+;
+pub
+mod
 selector_parser
 ;
 pub
