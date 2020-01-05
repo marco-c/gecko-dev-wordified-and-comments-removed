@@ -781,7 +781,7 @@ PrincipalOriginAttributes
 attrs
 ;
 nsAutoCString
-dummy
+spec
 ;
 if
 (
@@ -790,7 +790,7 @@ ReadSuffixAndSpec
 (
 aReader
 attrs
-dummy
+spec
 )
 )
 {
@@ -803,6 +803,7 @@ aInfo
 NullPrincipalInfo
 (
 attrs
+spec
 )
 ;
 }
@@ -1243,7 +1244,9 @@ nullInfo
 attrs
 (
 )
-EmptyCString
+nullInfo
+.
+spec
 (
 )
 )
