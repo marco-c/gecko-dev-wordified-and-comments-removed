@@ -1777,6 +1777,17 @@ IsWin10OrLater
 )
 &
 &
+GetModuleHandle
+(
+L
+"
+tiptsf
+.
+dll
+"
+)
+&
+&
 !
 sProcessCaretEventsStub
 )
