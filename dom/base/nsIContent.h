@@ -1956,6 +1956,15 @@ false
 const
 override
 ;
+already_AddRefed
+<
+nsIURI
+>
+GetBaseURIForStyleAttr
+(
+)
+const
+;
 virtual
 nsresult
 GetEventTargetParent

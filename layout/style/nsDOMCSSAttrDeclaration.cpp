@@ -697,7 +697,7 @@ mBaseURI
 mElement
 -
 >
-GetBaseURI
+GetBaseURIForStyleAttr
 (
 )
 ;

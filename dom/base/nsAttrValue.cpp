@@ -7342,7 +7342,7 @@ baseURI
 aElement
 -
 >
-GetBaseURI
+GetBaseURIForStyleAttr
 (
 )
 ;

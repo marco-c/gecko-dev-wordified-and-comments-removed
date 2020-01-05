@@ -5048,6 +5048,16 @@ false
 endif
 }
 static
+bool
+StyleAttrWithXMLBaseDisabled
+(
+)
+{
+return
+sStyleAttrWithXMLBaseDisabled
+;
+}
+static
 uint32_t
 IdlePeriodDeadlineLimit
 (
@@ -5878,6 +5888,10 @@ sStyloEnabled
 ;
 #
 endif
+static
+bool
+sStyleAttrWithXMLBaseDisabled
+;
 static
 uint32_t
 sIdlePeriodDeadlineLimit
