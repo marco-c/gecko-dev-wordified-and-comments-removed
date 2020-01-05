@@ -1643,6 +1643,8 @@ public
 image
 .
 tar
+.
+zst
 "
             
 "
