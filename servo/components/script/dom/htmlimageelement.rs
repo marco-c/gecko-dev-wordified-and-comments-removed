@@ -2897,12 +2897,12 @@ from
 *
 value
 )
-window_from_node
+document_from_node
 (
 self
 )
 .
-get_url
+base_url
 (
 )
 )
