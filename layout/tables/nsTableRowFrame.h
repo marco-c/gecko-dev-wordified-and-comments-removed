@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsTablePainter
-.
-h
-"
-#
-include
-"
 nsTableRowGroupFrame
 .
 h
