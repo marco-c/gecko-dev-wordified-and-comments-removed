@@ -14246,11 +14246,36 @@ infallible
         
 protoID
 =
-0
+"
+prototypes
+:
+:
+id
+:
+:
+%
+s
+as
+uint
+"
+%
+self
+.
+descriptor
+.
+name
         
 depth
 =
-0
+self
+.
+descriptor
+.
+interface
+.
+inheritanceDepth
+(
+)
         
 failstr
 =
