@@ -112,8 +112,6 @@ HTMLTableCellElement
 :
 HTMLElement
 {
-/
-/
 attribute
 unsigned
 long

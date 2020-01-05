@@ -271,6 +271,9 @@ attribute
 boolean
 required
 ;
+[
+SetterThrows
+]
 attribute
 unsigned
 long

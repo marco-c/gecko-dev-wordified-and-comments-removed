@@ -124,6 +124,9 @@ attribute
 boolean
 autofocus
 ;
+[
+SetterThrows
+]
 attribute
 unsigned
 long
@@ -181,6 +184,9 @@ attribute
 boolean
 required
 ;
+[
+SetterThrows
+]
 attribute
 unsigned
 long
