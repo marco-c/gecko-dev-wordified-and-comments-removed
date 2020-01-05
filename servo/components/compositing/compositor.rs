@@ -3655,6 +3655,7 @@ webrender_api
 .
 generate_frame
 (
+None
 )
 ;
 self

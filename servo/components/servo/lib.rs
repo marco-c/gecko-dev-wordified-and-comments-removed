@@ -1010,6 +1010,9 @@ new
 render_target_debug
 :
 false
+workers
+:
+None
 }
 )
 .
