@@ -399,7 +399,7 @@ mCompositor
 mBuffer
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 mCompositor
 )
@@ -485,7 +485,7 @@ MOZ_ASSERT
 mBuffer
 -
 >
-GetCompositor
+GetTextureSourceProvider
 (
 )
 =

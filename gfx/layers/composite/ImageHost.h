@@ -340,9 +340,9 @@ Attach
 Layer
 *
 aLayer
-Compositor
+TextureSourceProvider
 *
-aCompositor
+aProvider
 AttachFlags
 aFlags
 =
@@ -352,11 +352,11 @@ override
 ;
 virtual
 void
-SetCompositor
+SetTextureSourceProvider
 (
-Compositor
+TextureSourceProvider
 *
-aCompositor
+aProvider
 )
 override
 ;

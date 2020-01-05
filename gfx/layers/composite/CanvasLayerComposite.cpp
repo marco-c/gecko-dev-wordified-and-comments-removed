@@ -282,7 +282,7 @@ mCompositor
 mCompositableHost
 -
 >
-SetCompositor
+SetTextureSourceProvider
 (
 mCompositor
 )

@@ -518,11 +518,11 @@ override
 ;
 virtual
 void
-SetCompositor
+SetTextureSourceProvider
 (
-Compositor
+TextureSourceProvider
 *
-aCompositor
+aProvider
 )
 override
 ;
