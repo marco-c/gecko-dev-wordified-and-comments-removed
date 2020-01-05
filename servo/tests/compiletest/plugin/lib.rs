@@ -4,6 +4,14 @@ compiletest_helper
 ;
 #
 [
+macro_use
+]
+extern
+crate
+deny_public_fields
+;
+#
+[
 test
 ]
 fn

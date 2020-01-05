@@ -208,6 +208,14 @@ extern
 crate
 cssparser
 ;
+#
+[
+macro_use
+]
+extern
+crate
+deny_public_fields
+;
 extern
 crate
 devtools_traits
