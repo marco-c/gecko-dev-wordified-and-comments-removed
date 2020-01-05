@@ -1664,6 +1664,15 @@ callback
 &
 callback
 (
+this
+.
+hud
+.
+newConsoleOutput
+.
+getLastMessage
+(
+)
 )
 ;
 return
@@ -1842,6 +1851,7 @@ NEW_CONSOLE_OUTPUT_ENABLED
 resultCallback
 =
 (
+msg
 )
 =
 >
@@ -1849,6 +1859,7 @@ deferred
 .
 resolve
 (
+msg
 )
 ;
 }
@@ -1991,7 +2002,7 @@ this
 .
 hud
 .
-newConsoleOutput
+proxy
 .
 dispatchMessageAdd
 (
