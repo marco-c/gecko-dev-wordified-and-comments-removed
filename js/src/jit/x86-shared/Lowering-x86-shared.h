@@ -289,9 +289,9 @@ ins
 )
 ;
 void
-visitAsmSelect
+visitWasmSelect
 (
-MAsmSelect
+MWasmSelect
 *
 ins
 )

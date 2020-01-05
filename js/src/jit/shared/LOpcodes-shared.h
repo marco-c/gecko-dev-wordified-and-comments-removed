@@ -1918,12 +1918,12 @@ HasClass
 \
 _
 (
-AsmSelect
+WasmSelect
 )
 \
 _
 (
-AsmSelectI64
+WasmSelectI64
 )
 \
 _

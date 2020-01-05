@@ -13369,9 +13369,9 @@ void
 CodeGeneratorARM
 :
 :
-visitAsmSelect
+visitWasmSelect
 (
-LAsmSelect
+LWasmSelect
 *
 ins
 )
@@ -13596,7 +13596,7 @@ MOZ_CRASH
 unhandled
 type
 in
-visitAsmSelect
+visitWasmSelect
 !
 "
 )
@@ -23856,9 +23856,9 @@ void
 CodeGeneratorARM
 :
 :
-visitAsmSelectI64
+visitWasmSelectI64
 (
-LAsmSelectI64
+LWasmSelectI64
 *
 lir
 )

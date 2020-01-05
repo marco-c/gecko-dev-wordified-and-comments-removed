@@ -787,9 +787,9 @@ MOZ_CRASH
 ;
 }
 void
-visitAsmSelect
+visitWasmSelect
 (
-MAsmSelect
+MWasmSelect
 *
 )
 {

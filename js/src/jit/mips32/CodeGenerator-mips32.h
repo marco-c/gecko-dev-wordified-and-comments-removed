@@ -308,9 +308,9 @@ ins
 )
 ;
 void
-visitAsmSelectI64
+visitWasmSelectI64
 (
-LAsmSelectI64
+LWasmSelectI64
 *
 lir
 )

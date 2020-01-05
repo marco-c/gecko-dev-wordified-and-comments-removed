@@ -58282,7 +58282,7 @@ instanceArg_
 }
 ;
 class
-MAsmSelect
+MWasmSelect
 :
 public
 MTernaryInstruction
@@ -58292,7 +58292,7 @@ NoTypePolicy
 :
 Data
 {
-MAsmSelect
+MWasmSelect
 (
 MDefinition
 *
@@ -58365,7 +58365,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmSelect
+WasmSelect
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
@@ -58419,7 +58419,7 @@ ins
 }
 ALLOW_CLONE
 (
-MAsmSelect
+MWasmSelect
 )
 }
 ;
