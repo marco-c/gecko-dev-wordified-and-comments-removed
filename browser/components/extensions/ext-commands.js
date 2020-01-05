@@ -369,6 +369,7 @@ g
 )
 :
 null
+;
 commands
 .
 set
