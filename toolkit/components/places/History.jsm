@@ -232,6 +232,11 @@ ONRESULT_CHUNK_SIZE
 =
 300
 ;
+const
+TIMERS_RESOLUTION_SKEW_MS
+=
+16
+;
 function
 notify
 (
@@ -1271,10 +1276,14 @@ inVisit
 .
 date
 >
+(
 Date
 .
 now
 (
+)
++
+TIMERS_RESOLUTION_SKEW_MS
 )
 )
 {
