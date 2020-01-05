@@ -698,7 +698,7 @@ Shmem
 images
 using
 Shmem
-IPCBlob
+PBlob
 ;
 /
 /
