@@ -35677,7 +35677,6 @@ addon
 .
 type
 )
-;
 if
 (
 theme
