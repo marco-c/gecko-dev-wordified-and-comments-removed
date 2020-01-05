@@ -775,6 +775,10 @@ const
 uint64_t
 &
 aLayersId
+const
+uint64_t
+&
+aSeqNo
 )
 override
 ;

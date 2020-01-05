@@ -375,10 +375,6 @@ mPendingTransaction
 (
 0
 )
-mPendingCompositorUpdates
-(
-0
-)
 mDestroyed
 (
 false
@@ -3607,7 +3603,7 @@ compositable
 ;
 if
 (
-mPendingCompositorUpdates
+mPendingCompositorUpdate
 )
 {
 return
@@ -3693,7 +3689,7 @@ get_OpAttachAsyncCompositable
 ;
 if
 (
-mPendingCompositorUpdates
+mPendingCompositorUpdate
 )
 {
 return

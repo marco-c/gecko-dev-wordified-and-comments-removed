@@ -1303,7 +1303,9 @@ async
 AcknowledgeCompositorUpdate
 (
 uint64_t
-id
+aLayersId
+uint64_t
+aSeqNo
 )
 ;
 /
