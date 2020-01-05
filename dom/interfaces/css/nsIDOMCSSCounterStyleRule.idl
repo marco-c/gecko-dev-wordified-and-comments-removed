@@ -115,7 +115,7 @@ MPL
 #
 include
 "
-nsIDOMCSSRule
+nsISupports
 .
 idl
 "
@@ -137,7 +137,7 @@ aff5
 interface
 nsIDOMCSSCounterStyleRule
 :
-nsIDOMCSSRule
+nsISupports
 {
 attribute
 DOMString
