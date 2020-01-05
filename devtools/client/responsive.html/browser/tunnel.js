@@ -91,6 +91,12 @@ loader
 "
 )
 ;
+exports
+.
+OUTER_FRAME_LOADER_SYMBOL
+=
+FRAME_LOADER
+;
 function
 debug
 (
