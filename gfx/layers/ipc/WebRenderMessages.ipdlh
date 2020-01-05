@@ -215,7 +215,7 @@ from
 "
 mozilla
 /
-layers
+webrender
 /
 WebRenderTypes
 .
@@ -253,7 +253,7 @@ from
 "
 mozilla
 /
-layers
+webrender
 /
 WebRenderTypes
 .

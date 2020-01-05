@@ -47,7 +47,7 @@ include
 "
 mozilla
 /
-layers
+webrender
 /
 RenderThread
 .

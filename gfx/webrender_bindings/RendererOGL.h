@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-layers
+webrender
 /
 RenderThread
 .
@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-layers
+webrender
 /
 WebRenderTypes
 .
