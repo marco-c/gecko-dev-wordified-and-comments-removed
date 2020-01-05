@@ -139,6 +139,15 @@ aHashValue
 override
 ;
 NS_IMETHOD
+SetCsp
+(
+nsIContentSecurityPolicy
+*
+aCsp
+)
+override
+;
+NS_IMETHOD
 GetURI
 (
 nsIURI
