@@ -4845,6 +4845,15 @@ DontNukeWindowReferences
 }
 NukeReferencesToWindow
 ;
+typedef
+enum
+NukeReferencesFromTarget
+{
+NukeAllReferences
+NukeIncomingReferences
+}
+NukeReferencesFromTarget
+;
 struct
 CompartmentFilter
 {
@@ -5049,6 +5058,8 @@ CompartmentFilter
 targetFilter
 NukeReferencesToWindow
 nukeReferencesToWindow
+NukeReferencesFromTarget
+nukeReferencesFromTarget
 )
 ;
 struct
