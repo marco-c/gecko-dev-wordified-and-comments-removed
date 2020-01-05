@@ -149,6 +149,12 @@ Receiver
 Sender
 }
 ;
+use
+std
+:
+:
+thread
+;
 pub
 mod
 image_cache_task
@@ -544,6 +550,15 @@ mut
 self
 )
 {
+if
+!
+thread
+:
+:
+panicking
+(
+)
+{
 assert
 !
 (
@@ -551,6 +566,7 @@ self
 .
 loaded
 )
+}
 }
 }
 impl
