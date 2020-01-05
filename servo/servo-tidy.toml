@@ -153,6 +153,9 @@ versions
 packages
 =
 [
+"
+bitflags
+"
 ]
 #
 Files
