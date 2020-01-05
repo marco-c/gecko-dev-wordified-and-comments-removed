@@ -3177,7 +3177,7 @@ children
 if
 kid
 .
-get_element_type
+get_pseudo_element_type
 (
 )
 !
@@ -3696,7 +3696,7 @@ children
 if
 kid
 .
-get_element_type
+get_pseudo_element_type
 (
 )
 !
@@ -7711,7 +7711,7 @@ layout_data
 match
 self
 .
-get_element_type
+get_pseudo_element_type
 (
 )
 {
@@ -7816,7 +7816,7 @@ layout_data
 match
 self
 .
-get_element_type
+get_pseudo_element_type
 (
 )
 {
