@@ -13419,6 +13419,10 @@ mCachedContentIsPartial
 =
 false
 ;
+mCachePump
+=
+nullptr
+;
 if
 (
 mTransactionPump
