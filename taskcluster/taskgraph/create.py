@@ -57,14 +57,9 @@ create_tasks
 (
 taskgraph
 label_to_taskid
+params
 )
 :
-    
-task_group_id
-=
-slugid
-(
-)
     
 taskid_to_label
 =
@@ -145,6 +140,35 @@ get
 '
 TASK_ID
 '
+)
+    
+task_group_id
+=
+decision_task_id
+or
+slugid
+(
+)
+    
+scheduler_id
+=
+'
+gecko
+-
+level
+-
+{
+}
+'
+.
+format
+(
+params
+[
+'
+level
+'
+]
 )
     
 with
@@ -238,9 +262,7 @@ schedulerId
 '
 ]
 =
-'
--
-'
+scheduler_id
             
 deps_fs
 =

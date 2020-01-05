@@ -325,6 +325,15 @@ create_tasks
 (
 taskgraph
 label_to_taskid
+{
+'
+level
+'
+:
+'
+4
+'
+}
 )
         
 for
@@ -353,6 +362,25 @@ payload
 '
 hello
 world
+'
+)
+            
+self
+.
+assertEqual
+(
+task
+[
+'
+schedulerId
+'
+]
+'
+gecko
+-
+level
+-
+4
 '
 )
             
@@ -505,6 +533,15 @@ create_tasks
 (
 taskgraph
 label_to_taskid
+{
+'
+level
+'
+:
+'
+4
+'
+}
 )
         
 for
