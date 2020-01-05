@@ -335,6 +335,8 @@ gtest
 -
 jittest
 -
+jsreftest
+-
 reftest
 -
 reftest
@@ -342,6 +344,8 @@ reftest
 no
 -
 accel
+-
+xpcshell
 ccov
 -
 code
