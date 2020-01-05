@@ -1800,12 +1800,6 @@ VisibleRegions
 VisibleRegions
 mVisibleRegions
 ;
-UniquePtr
-<
-FPSState
->
-mFPS
-;
 bool
 mInTransaction
 ;
