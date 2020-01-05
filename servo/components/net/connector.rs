@@ -303,6 +303,10 @@ pub
 fn
 create_http_connector
 (
+certificate_file
+:
+&
+str
 )
 -
 >
@@ -357,9 +361,7 @@ requests
 .
 join
 (
-"
-certs
-"
+certificate_file
 )
 )
 .
