@@ -627,6 +627,10 @@ None
 ssh_key
 =
 None
+              
+log
+=
+False
 )
 :
     
@@ -655,6 +659,19 @@ provided
 "
 "
 "
+    
+if
+log
+:
+        
+print
+'
+Uploading
+%
+s
+'
+%
+file
     
 cmdline
 =
@@ -1883,17 +1900,6 @@ get_remote_path
 file
 )
             
-if
-verbose
-:
-                
-print
-"
-Uploading
-"
-+
-file
-            
 DoSCPFile
 (
 file
@@ -1906,6 +1912,10 @@ port
 ssh_key
 =
 ssh_key
+                      
+log
+=
+verbose
 )
             
 remote_files
