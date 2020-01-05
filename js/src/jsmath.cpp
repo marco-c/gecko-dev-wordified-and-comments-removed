@@ -4189,7 +4189,7 @@ cos
 if
 defined
 (
-__GLIBC__
+HAVE_SINCOS
 )
 sincos
 (
@@ -4202,7 +4202,7 @@ cos
 elif
 defined
 (
-HAVE_SINCOS
+HAVE___SINCOS
 )
 __sincos
 (
