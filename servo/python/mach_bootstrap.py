@@ -654,8 +654,28 @@ mach
 "
 )
     
+activate_path
+=
+os
+.
+path
+.
+join
+(
+virtualenv_path
+"
+bin
+"
+"
+activate_this
+.
+py
+"
+)
+    
 if
 not
+(
 os
 .
 path
@@ -663,6 +683,16 @@ path
 exists
 (
 virtualenv_path
+)
+and
+os
+.
+path
+.
+exists
+(
+activate_path
+)
 )
 :
         
@@ -741,25 +771,6 @@ to
 execute
 properly
 .
-"
-)
-    
-activate_path
-=
-os
-.
-path
-.
-join
-(
-virtualenv_path
-"
-bin
-"
-"
-activate_this
-.
-py
 "
 )
     
@@ -917,17 +928,7 @@ except
 OSError
 :
             
-open
-(
-marker_path
-'
-w
-'
-)
-.
-close
-(
-)
+pass
         
 pip
 =
@@ -1012,12 +1013,16 @@ properly
 "
 )
         
-os
-.
-utime
+open
 (
 marker_path
-None
+'
+w
+'
+)
+.
+close
+(
 )
 def
 bootstrap
