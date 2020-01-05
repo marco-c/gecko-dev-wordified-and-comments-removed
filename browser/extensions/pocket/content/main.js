@@ -301,7 +301,7 @@ getSignupPanelTabTestVariant
 =
 =
 '
-tab
+v2
 '
 )
 {
