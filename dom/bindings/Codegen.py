@@ -78486,22 +78486,18 @@ namedBody
             
 if
 (
+!
 found
+|
+|
+deleteSucceeded
 )
 {
               
 return
-deleteSucceeded
-?
 opresult
 .
 succeed
-(
-)
-:
-opresult
-.
-failCantDelete
 (
 )
 ;
@@ -78509,7 +78505,11 @@ failCantDelete
 }
             
 return
-true
+opresult
+.
+failCantDelete
+(
+)
 ;
             
 "
