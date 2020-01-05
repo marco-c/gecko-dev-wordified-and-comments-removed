@@ -160,7 +160,7 @@ Schemas
 jsm
 '
 ]
-EXTRA_COMPONENTS
+EXTRA_PP_COMPONENTS
 +
 =
 [
