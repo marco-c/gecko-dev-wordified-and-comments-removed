@@ -2597,7 +2597,7 @@ mPlayingThroughTheAudioChannel
 }
 }
 void
-NotifyPlayStarted
+NotifyPlayStateChanged
 (
 )
 {
@@ -31037,7 +31037,7 @@ mAudioChannelWrapper
 mAudioChannelWrapper
 -
 >
-NotifyPlayStarted
+NotifyPlayStateChanged
 (
 )
 ;
