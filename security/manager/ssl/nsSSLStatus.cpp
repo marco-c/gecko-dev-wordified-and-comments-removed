@@ -419,19 +419,9 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_NO_EV_CERTS
-return
-NS_OK
-;
-#
-else
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-#
-endif
 }
 NS_IMETHODIMP
 nsSSLStatus
@@ -1123,9 +1113,6 @@ true
 return
 ;
 }
-#
-ifndef
-MOZ_NO_EV_CERTS
 if
 (
 aServerCert
@@ -1159,6 +1146,4 @@ mHasIsEVStatus
 true
 ;
 }
-#
-endif
 }
