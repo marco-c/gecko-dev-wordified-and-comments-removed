@@ -1686,6 +1686,9 @@ XMLHttpRequest
 fetch
 "
 ]
+originAttributes
+:
+attrs
 }
 )
 ;

@@ -11524,6 +11524,10 @@ userContextId
 (
 0
 )
+originAttributes
+(
+cx
+)
 {
 }
 virtual
@@ -11594,6 +11598,12 @@ metadata
 ;
 uint32_t
 userContextId
+;
+JS
+:
+:
+RootedObject
+originAttributes
 ;
 protected
 :
