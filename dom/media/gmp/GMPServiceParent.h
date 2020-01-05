@@ -286,6 +286,11 @@ ServiceUserDestroyed
 (
 )
 ;
+void
+UpdateContentProcessGMPCapabilities
+(
+)
+;
 private
 :
 friend
