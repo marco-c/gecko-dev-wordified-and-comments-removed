@@ -5697,7 +5697,7 @@ crash_count
 0
     
 def
-handle_socket_failure
+_handle_socket_failure
 (
 self
 )
@@ -5712,9 +5712,8 @@ failures
 for
 the
 currently
-running
+connected
 application
-instance
 .
         
 If
@@ -5763,16 +5762,37 @@ kill
 it
 .
         
+Please
+note
+that
+the
+method
+expects
+an
+exception
+to
+be
+handled
+on
+the
+current
+stack
+        
+frame
+and
+is
+only
+called
+via
+the
+do_process_check
+decorator
+.
+        
 "
 "
 "
         
-if
-self
-.
-instance
-:
-            
 exc
 val
 tb
@@ -5782,6 +5802,21 @@ sys
 exc_info
 (
 )
+        
+if
+not
+self
+.
+instance
+:
+            
+raise
+exc
+val
+tb
+        
+else
+:
             
 returncode
 =
@@ -5922,10 +5957,6 @@ reset_session_id
 True
 )
             
-if
-exc
-:
-                
 message
 +
 =

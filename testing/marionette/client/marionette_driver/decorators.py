@@ -151,7 +151,7 @@ kwargs
             
 m
 .
-handle_socket_failure
+_handle_socket_failure
 (
 )
     
