@@ -3731,7 +3731,13 @@ flags
 )
 !
 =
-SECSuccess
+mozilla
+:
+:
+pkix
+:
+:
+Success
 )
 {
 return
