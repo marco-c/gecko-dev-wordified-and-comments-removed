@@ -2952,6 +2952,10 @@ gfxUserFontSet
 *
 GetUserFontSet
 (
+bool
+aFlushUserFontSet
+=
+true
 )
 ;
 void

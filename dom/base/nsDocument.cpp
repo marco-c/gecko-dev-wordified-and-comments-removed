@@ -56223,6 +56223,8 @@ nsIDocument
 :
 GetUserFontSet
 (
+bool
+aFlushUserFontSet
 )
 {
 #
@@ -56242,6 +56244,9 @@ true
 if
 (
 mFontFaceSetDirty
+&
+&
+aFlushUserFontSet
 )
 {
 NS_ASSERTION

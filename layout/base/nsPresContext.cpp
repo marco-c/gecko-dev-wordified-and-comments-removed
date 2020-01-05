@@ -9303,6 +9303,8 @@ nsPresContext
 :
 GetUserFontSet
 (
+bool
+aFlushUserFontSet
 )
 {
 return
@@ -9311,6 +9313,7 @@ mDocument
 >
 GetUserFontSet
 (
+aFlushUserFontSet
 )
 ;
 }
