@@ -193,6 +193,9 @@ init
 void
 shutdown
 (
+in
+bool
+aXpcomShutdown
 )
 ;
 /

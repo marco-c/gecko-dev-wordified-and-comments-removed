@@ -499,6 +499,11 @@ bool
 aGuardLocals
 )
 ;
+nsresult
+ShutdownThread
+(
+)
+;
 struct
 SocketContext
 {

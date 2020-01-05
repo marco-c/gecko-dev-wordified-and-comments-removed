@@ -4265,6 +4265,7 @@ mSocketTransportService
 >
 Shutdown
 (
+mShutdown
 )
 ;
 NS_ASSERTION

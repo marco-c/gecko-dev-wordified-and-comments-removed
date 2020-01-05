@@ -354,6 +354,7 @@ sts
 >
 Shutdown
 (
+true
 )
 ;
 NS_ASSERTION
