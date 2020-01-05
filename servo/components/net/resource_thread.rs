@@ -2299,6 +2299,15 @@ BLOCKED_CONTENT_RULES
 clone
 (
 )
+connector_pool
+:
+group
+.
+connector
+.
+clone
+(
+)
 }
 ;
 let
