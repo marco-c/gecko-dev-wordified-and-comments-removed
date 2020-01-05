@@ -544,7 +544,7 @@ taskcluster
 -
 images
 '
-symbol
+groupSymbol
 :
 '
 I

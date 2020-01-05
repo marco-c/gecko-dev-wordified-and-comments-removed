@@ -492,6 +492,7 @@ path
         
 for
 image_name
+image_symbol
 in
 config
 [
@@ -499,6 +500,10 @@ config
 images
 '
 ]
+.
+iteritems
+(
+)
 :
             
 context_path
@@ -575,6 +580,43 @@ image_name
 :
 image_name
 }
+            
+if
+'
+extra
+'
+in
+image_task
+[
+'
+task
+'
+]
+:
+                
+image_task
+[
+'
+task
+'
+]
+[
+'
+extra
+'
+]
+[
+'
+treeherder
+'
+]
+[
+'
+symbol
+'
+]
+=
+image_symbol
             
 index_paths
 =
