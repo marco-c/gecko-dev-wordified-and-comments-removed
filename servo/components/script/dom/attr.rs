@@ -170,6 +170,7 @@ str
 :
 {
 DOMString
+parse_unsigned_integer
 split_html_space_chars
 }
 ;
@@ -413,13 +414,14 @@ AttrValue
 {
 let
 result
-:
-u32
 =
+parse_unsigned_integer
+(
 string
 .
-parse
+chars
 (
+)
 )
 .
 unwrap_or
