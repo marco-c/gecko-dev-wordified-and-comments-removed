@@ -1768,6 +1768,28 @@ properties
 {
 }
     
+def
+get_remote_path
+(
+p
+)
+:
+        
+return
+GetBaseRelativePath
+(
+path
+os
+.
+path
+.
+abspath
+(
+p
+)
+base_path
+)
+    
 try
 :
         
@@ -1776,17 +1798,6 @@ file
 in
 files
 :
-            
-file
-=
-os
-.
-path
-.
-abspath
-(
-file
-)
             
 if
 not
@@ -1817,11 +1828,9 @@ file
             
 remote_path
 =
-GetBaseRelativePath
+get_remote_path
 (
-path
 file
-base_path
 )
             
 DoSSHCommand
