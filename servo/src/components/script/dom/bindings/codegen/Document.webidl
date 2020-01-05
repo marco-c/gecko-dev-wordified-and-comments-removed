@@ -420,8 +420,6 @@ attribute
 DOMString
 contentType
 ;
-/
-/
 readonly
 attribute
 DocumentType
