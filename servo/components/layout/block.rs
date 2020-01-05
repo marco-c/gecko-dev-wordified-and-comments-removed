@@ -10291,6 +10291,10 @@ intrinsic_inline_sizes
 .
 surround_inline_size
 =
+intrinsic_inline_sizes
+.
+surround_inline_size
++
 fragment_intrinsic_inline_sizes
 .
 surround_inline_size

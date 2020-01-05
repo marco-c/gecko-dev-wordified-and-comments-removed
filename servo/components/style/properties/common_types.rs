@@ -1685,16 +1685,6 @@ computed_value
 :
 T
 pub
-inherited_minimum_line_height
-:
-longhands
-:
-:
-_servo_minimum_line_height
-:
-:
-T
-pub
 inherited_text_decorations_in_effect
 :
 longhands
