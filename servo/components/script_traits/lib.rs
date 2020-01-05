@@ -2621,14 +2621,6 @@ enum
 ConstellationMsg
 {
 Exit
-FrameSize
-(
-PipelineId
-Size2D
-<
-f32
->
-)
 GetFrame
 (
 PipelineId
