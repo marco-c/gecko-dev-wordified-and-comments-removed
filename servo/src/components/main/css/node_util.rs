@@ -23,7 +23,10 @@ layout
 wrapper
 :
 :
-LayoutNode
+{
+TLayoutNode
+ThreadSafeLayoutNode
+}
 ;
 use
 extra
@@ -44,10 +47,7 @@ use
 style
 :
 :
-{
 ComputedValues
-TNode
-}
 ;
 pub
 trait
@@ -110,7 +110,7 @@ ln
 >
 NodeUtil
 for
-LayoutNode
+ThreadSafeLayoutNode
 <
 '
 ln
@@ -237,7 +237,7 @@ default
 if
 self
 .
-is_element
+node_is_element
 (
 )
 {

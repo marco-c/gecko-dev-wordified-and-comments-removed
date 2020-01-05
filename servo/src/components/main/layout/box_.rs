@@ -366,7 +366,10 @@ layout
 wrapper
 :
 :
-LayoutNode
+{
+TLayoutNode
+ThreadSafeLayoutNode
+}
 ;
 #
 [
@@ -631,7 +634,7 @@ new
 node
 :
 &
-LayoutNode
+ThreadSafeLayoutNode
 image_url
 :
 Url
@@ -652,7 +655,7 @@ convert_length
 node
 :
 &
-LayoutNode
+ThreadSafeLayoutNode
 name
 :
 &
@@ -1234,7 +1237,7 @@ new
 node
 :
 &
-LayoutNode
+ThreadSafeLayoutNode
 )
 -
 >
@@ -1511,7 +1514,7 @@ new
 node
 :
 &
-LayoutNode
+ThreadSafeLayoutNode
 )
 -
 >
@@ -1735,7 +1738,7 @@ new
 (
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 specific
 :
 SpecificBoxInfo
@@ -1751,7 +1754,7 @@ node
 OpaqueNode
 :
 :
-from_layout_node
+from_thread_safe_layout_node
 (
 &
 node

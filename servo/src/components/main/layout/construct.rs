@@ -117,8 +117,9 @@ wrapper
 :
 :
 {
-LayoutNode
 PostorderNodeMutTraversal
+TLayoutNode
+ThreadSafeLayoutNode
 }
 ;
 use
@@ -1416,7 +1417,7 @@ mut
 self
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 -
 >
@@ -1524,7 +1525,7 @@ mut
 self
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 -
 >
@@ -1697,7 +1698,7 @@ mut
 Flow
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 {
 if
@@ -1836,7 +1837,7 @@ mut
 Flow
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 {
 let
@@ -1935,7 +1936,7 @@ mut
 Flow
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 {
 /
@@ -2511,7 +2512,7 @@ mut
 self
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 is_fixed
 :
 bool
@@ -2617,7 +2618,7 @@ mut
 self
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 float_type
 :
 FloatType
@@ -2737,7 +2738,7 @@ mut
 self
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 -
 >
@@ -3280,7 +3281,7 @@ Box
 ]
 parent_node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 {
 let
@@ -3575,7 +3576,7 @@ node
 OpaqueNode
 :
 :
-from_layout_node
+from_thread_safe_layout_node
 (
 &
 parent_node
@@ -3636,7 +3637,7 @@ mut
 self
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 -
 >
@@ -3719,7 +3720,7 @@ mut
 self
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 -
 >
@@ -3853,7 +3854,7 @@ mut
 self
 node
 :
-LayoutNode
+ThreadSafeLayoutNode
 )
 -
 >
@@ -4378,7 +4379,7 @@ ln
 >
 NodeUtils
 for
-LayoutNode
+ThreadSafeLayoutNode
 <
 '
 ln
