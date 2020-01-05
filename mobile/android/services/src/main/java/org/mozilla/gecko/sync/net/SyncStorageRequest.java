@@ -1178,16 +1178,6 @@ protected
 BaseResource
 resource
 ;
-public
-SyncStorageRequest
-(
-)
-{
-super
-(
-)
-;
-}
 protected
 BaseResourceDelegate
 makeResourceDelegate
