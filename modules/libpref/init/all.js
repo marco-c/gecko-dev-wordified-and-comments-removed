@@ -2974,7 +2974,6 @@ allowed
 "
 MediaWMFNeeded
 MediaWidevineNoWMFNoSilverlight
-MediaCannotInitializePulseAudio
 "
 )
 ;
