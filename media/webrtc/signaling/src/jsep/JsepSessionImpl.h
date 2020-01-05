@@ -1162,6 +1162,15 @@ description
 )
 ;
 nsresult
+ValidateOffer
+(
+const
+Sdp
+&
+offer
+)
+;
+nsresult
 ValidateAnswer
 (
 const
