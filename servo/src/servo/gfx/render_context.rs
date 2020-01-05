@@ -18,7 +18,6 @@ gfx
 Au
 Font
 FontContext
-TextRun
 }
 ;
 use
@@ -29,6 +28,12 @@ base
 :
 :
 Image
+;
+use
+text
+:
+:
+TextRun
 ;
 use
 util
