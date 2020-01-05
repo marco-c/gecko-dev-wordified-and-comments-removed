@@ -1261,6 +1261,11 @@ aPartId
 aValue
 )
 ;
+if
+(
+radio
+)
+{
 radio
 .
 radioGroup
@@ -1269,6 +1274,7 @@ selectedItem
 =
 radio
 ;
+}
 }
 function
 initIndexedDBRow
