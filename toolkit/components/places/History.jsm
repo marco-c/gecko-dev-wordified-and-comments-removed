@@ -2055,6 +2055,13 @@ IN
 idsList
 }
 )
+AND
+foreign_count
+=
+0
+AND
+last_visit_date
+ISNULL
 )
 ;
 yield

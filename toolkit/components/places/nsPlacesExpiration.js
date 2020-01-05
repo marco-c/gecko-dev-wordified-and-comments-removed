@@ -854,6 +854,13 @@ WHERE
 p_id
 NOTNULL
 )
+AND
+foreign_count
+=
+0
+AND
+last_visit_date
+ISNULL
 actions
 :
 ACTION
