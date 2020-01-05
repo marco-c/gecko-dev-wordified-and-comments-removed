@@ -1091,10 +1091,7 @@ unwrap
 }
 ;
 let
-(
-_js_runtime
-js_context
-)
+runtime
 =
 ScriptTask
 :
@@ -1114,7 +1111,9 @@ new
 worker_url
 id
 devtools_chan
-js_context
+runtime
+.
+cx
 .
 clone
 (
@@ -1147,7 +1146,9 @@ worker
 )
 ;
 match
-js_context
+runtime
+.
+cx
 .
 evaluate_script
 (

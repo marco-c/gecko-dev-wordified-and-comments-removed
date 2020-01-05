@@ -161,7 +161,7 @@ rust
 :
 {
 Cx
-rt
+Runtime
 }
 ;
 use
@@ -1513,7 +1513,7 @@ Cx
 no_jsmanaged_fields
 !
 (
-rt
+Runtime
 )
 ;
 no_jsmanaged_fields
