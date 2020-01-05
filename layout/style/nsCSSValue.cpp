@@ -10672,6 +10672,11 @@ to
 "
 )
 ;
+bool
+didAppendX
+=
+false
+;
 if
 (
 !
@@ -10691,14 +10696,6 @@ NS_STYLE_IMAGELAYER_POSITION_CENTER
 )
 )
 {
-aResult
-.
-Append
-(
-'
-'
-)
-;
 gradient
 -
 >
@@ -10712,6 +10709,10 @@ eCSSProperty_background_position_x
 aResult
 aSerialization
 )
+;
+didAppendX
+=
+true
 ;
 }
 if
@@ -10733,6 +10734,11 @@ NS_STYLE_IMAGELAYER_POSITION_CENTER
 )
 )
 {
+if
+(
+didAppendX
+)
+{
 aResult
 .
 Append
@@ -10741,6 +10747,7 @@ Append
 '
 )
 ;
+}
 gradient
 -
 >
