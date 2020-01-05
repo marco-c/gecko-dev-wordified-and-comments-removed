@@ -320,6 +320,9 @@ const
 nsAString
 &
 aName
+nsIEventTarget
+*
+aMainThread
 )
 =
 0
@@ -824,6 +827,12 @@ mKeys
 const
 nsString
 mKeySystem
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mMainThread
 ;
 RefPtr
 <
