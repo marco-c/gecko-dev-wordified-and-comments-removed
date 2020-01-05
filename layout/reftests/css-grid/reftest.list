@@ -1368,7 +1368,6 @@ sizing
 ref
 .
 html
-#
 fuzzy
 -
 if
@@ -1407,10 +1406,6 @@ definite
 ref
 .
 html
-TODO
-:
-bug
-1303643
 =
 =
 grid
