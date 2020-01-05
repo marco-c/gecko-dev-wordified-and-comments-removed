@@ -1461,14 +1461,6 @@ getFlags
 )
 ;
 }
-cx
--
->
-markAtom
-(
-sourceAtom
-)
-;
 regexp
 -
 >
