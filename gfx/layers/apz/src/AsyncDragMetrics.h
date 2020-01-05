@@ -11,6 +11,13 @@ FrameMetrics
 .
 h
 "
+#
+include
+"
+LayersTypes
+.
+h
+"
 namespace
 IPC
 {
@@ -50,15 +57,6 @@ AsyncDragMetrics
 ;
 public
 :
-enum
-DragDirection
-{
-NONE
-VERTICAL
-HORIZONTAL
-SENTINEL
-}
-;
 AsyncDragMetrics
 (
 )
@@ -81,6 +79,9 @@ mScrollbarDragOffset
 )
 mDirection
 (
+ScrollDirection
+:
+:
 NONE
 )
 {
@@ -100,7 +101,7 @@ uint64_t
 aDragStartSequenceNumber
 CSSCoord
 aScrollbarDragOffset
-DragDirection
+ScrollDirection
 aDirection
 )
 :
@@ -141,7 +142,7 @@ mDragStartSequenceNumber
 CSSCoord
 mScrollbarDragOffset
 ;
-DragDirection
+ScrollDirection
 mDirection
 ;
 }

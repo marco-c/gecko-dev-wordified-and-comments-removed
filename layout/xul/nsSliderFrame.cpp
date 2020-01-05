@@ -4859,12 +4859,12 @@ AppUnitsPerCSSPixel
 )
 isHorizontal
 ?
-AsyncDragMetrics
+ScrollDirection
 :
 :
 HORIZONTAL
 :
-AsyncDragMetrics
+ScrollDirection
 :
 :
 VERTICAL
