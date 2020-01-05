@@ -69,9 +69,6 @@ DIRS
 actions
 '
 '
-components
-'
-'
 har
 '
 '
@@ -83,11 +80,6 @@ selectors
 ]
 DevToolsModules
 (
-'
-constants
-.
-js
-'
 '
 events
 .
@@ -140,13 +132,6 @@ js
 '
 '
 store
-.
-js
-'
-'
-toolbar
--
-view
 .
 js
 '
