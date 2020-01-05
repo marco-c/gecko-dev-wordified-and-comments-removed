@@ -854,6 +854,14 @@ subject
 .
 wrappedJSObject
 ;
+info
+.
+type
+=
+"
+update
+"
+;
 let
 strings
 =
