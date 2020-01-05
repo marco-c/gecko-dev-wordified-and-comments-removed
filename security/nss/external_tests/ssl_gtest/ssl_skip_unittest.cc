@@ -331,11 +331,6 @@ TlsSkipTest
 :
 TlsConnectTestBase
 (
-TlsConnectTestBase
-:
-:
-ToMode
-(
 std
 :
 :
@@ -346,7 +341,6 @@ get
 (
 GetParam
 (
-)
 )
 )
 std

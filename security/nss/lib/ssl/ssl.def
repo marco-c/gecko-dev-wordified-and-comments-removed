@@ -1071,6 +1071,10 @@ global
 :
 SSL_SendAdditionalKeyShares
 ;
+SSL_SignatureSchemePrefSet
+;
+SSL_SignatureSchemePrefGet
+;
 ;
 +
 local

@@ -2190,10 +2190,8 @@ CERTOKDomainName
 next
 ;
 char
+*
 name
-[
-1
-]
 ;
 }
 ;

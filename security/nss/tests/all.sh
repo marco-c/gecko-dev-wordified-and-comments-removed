@@ -844,12 +844,6 @@ NSS_DISABLE_ECC
 disable
 ECC
 #
-NSS_ECC_MORE_THAN_SUITE_B
--
-enable
-extended
-ECC
-#
 #
 Optional
 environment

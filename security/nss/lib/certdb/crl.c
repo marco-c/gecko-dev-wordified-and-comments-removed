@@ -11266,8 +11266,9 @@ SECSuccess
 rv
 )
 {
-rv
-=
+(
+void
+)
 cert_ReleaseNamedCRLCache
 (
 ncc

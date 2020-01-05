@@ -2126,10 +2126,6 @@ curveOidTag
 }
 CurveNameTagPair
 ;
-#
-define
-DEFAULT_CURVE_OID_TAG
-SEC_OID_SECG_EC_SECP192R1
 static
 CurveNameTagPair
 nameTagPair
