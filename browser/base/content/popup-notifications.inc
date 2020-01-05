@@ -200,7 +200,7 @@ oncommand
 "
 webrtcUI
 .
-updateMainActionLabel
+updateWarningLabel
 (
 this
 )
