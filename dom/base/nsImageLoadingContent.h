@@ -921,9 +921,6 @@ mCurrentRequestRegistered
 bool
 mPendingRequestRegistered
 ;
-bool
-mFrameCreateCalled
-;
 }
 ;
 #
