@@ -40,6 +40,7 @@ constellation_msg
 :
 {
 AnimationState
+DocumentState
 IframeLoadInfo
 NavigationDirection
 }
@@ -262,5 +263,14 @@ ViewportConstrained
 (
 PipelineId
 ViewportConstraints
+)
+ActivateDocument
+(
+PipelineId
+)
+SetDocumentState
+(
+PipelineId
+DocumentState
 )
 }
