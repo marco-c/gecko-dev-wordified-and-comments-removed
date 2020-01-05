@@ -3259,8 +3259,6 @@ GLuint
 index
 )
 ;
-/
-/
 WebGLActiveInfo
 ?
 getActiveUniform
