@@ -15101,6 +15101,13 @@ ongamepaddisconnected
 )
 GK_ATOM
 (
+afterPseudoProperty
+"
+afterPseudoProperty
+"
+)
+GK_ATOM
+(
 animationsProperty
 "
 AnimationsProperty
@@ -15139,6 +15146,13 @@ GK_ATOM
 animationEffectsForAfterProperty
 "
 AnimationsEffectsForAfterProperty
+"
+)
+GK_ATOM
+(
+beforePseudoProperty
+"
+beforePseudoProperty
 "
 )
 GK_ATOM
