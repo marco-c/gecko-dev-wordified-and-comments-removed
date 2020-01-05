@@ -1139,6 +1139,16 @@ size_t
 outlen
 )
 ;
+extern
+bool
+StringIsASCII
+(
+const
+char
+*
+s
+)
+;
 }
 inline
 void

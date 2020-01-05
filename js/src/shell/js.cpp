@@ -20595,7 +20595,7 @@ args
 ]
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20853,7 +20853,7 @@ args
 ]
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -20945,7 +20945,7 @@ args
 ]
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21218,7 +21218,7 @@ args
 ]
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21426,7 +21426,7 @@ args
 ]
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -21739,7 +21739,7 @@ args
 ]
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
@@ -22130,7 +22130,7 @@ args
 ]
 )
 ;
-JS_ReportError
+JS_ReportErrorASCII
 (
 cx
 "
