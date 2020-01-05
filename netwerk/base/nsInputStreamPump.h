@@ -191,11 +191,6 @@ OnStateStop
 (
 )
 ;
-nsresult
-CreateBufferedStreamIfNeeded
-(
-)
-;
 uint32_t
 mState
 ;
@@ -234,12 +229,6 @@ nsCOMPtr
 nsIAsyncInputStream
 >
 mAsyncStream
-;
-nsCOMPtr
-<
-nsIInputStream
->
-mBufferedStream
 ;
 uint64_t
 mStreamOffset
