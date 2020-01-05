@@ -2738,9 +2738,6 @@ UIShowDefaultUI
 }
 else
 {
-#
-ifndef
-RELEASE_OR_BETA
 string
 empty
 ;
@@ -2755,8 +2752,6 @@ empty
 true
 )
 ;
-#
-endif
 gExtraFile
 =
 GetAdditionalFilename
