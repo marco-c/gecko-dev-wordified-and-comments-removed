@@ -324,6 +324,10 @@ console
 ;
 pub
 mod
+customevent
+;
+pub
+mod
 document
 ;
 pub

@@ -204,11 +204,12 @@ pub
 enum
 EventTypeId
 {
+CustomEventTypeId
 HTMLEventTypeId
-UIEventTypeId
-MouseEventTypeId
 KeyEventTypeId
+MouseEventTypeId
 ProgressEventTypeId
+UIEventTypeId
 }
 #
 [
