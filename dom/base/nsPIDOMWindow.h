@@ -2216,10 +2216,9 @@ SyncStateFromParentWindow
 )
 ;
 bool
-HasAudioContexts
+IsPlayingAudio
 (
 )
-const
 ;
 mozilla
 :

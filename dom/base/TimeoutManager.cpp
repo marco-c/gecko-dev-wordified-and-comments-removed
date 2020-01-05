@@ -182,7 +182,7 @@ AsInner
 )
 -
 >
-HasAudioContexts
+IsPlayingAudio
 (
 )
 &
