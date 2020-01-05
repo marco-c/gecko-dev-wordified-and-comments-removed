@@ -365,13 +365,6 @@ pub
 mod
 animation
 ;
-#
-[
-allow
-(
-missing_docs
-)
-]
 pub
 mod
 atomic_refcell
