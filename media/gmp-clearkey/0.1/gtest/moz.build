@@ -95,14 +95,6 @@ TestClearKeyUtils
 cpp
 '
 ]
-USE_LIBS
-+
-=
-[
-'
-psshparser
-'
-]
 FINAL_LIBRARY
 =
 '

@@ -391,11 +391,6 @@ media
 /
 libsoundtouch
 '
-'
-media
-/
-psshparser
-'
 ]
 DIRS
 +

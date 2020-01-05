@@ -133,6 +133,11 @@ ClearKeyBase64
 cpp
 '
 '
+ClearKeyCencParser
+.
+cpp
+'
+'
 ClearKeyDecryptionManager
 .
 cpp
@@ -272,6 +277,9 @@ media
 gmp
 '
 ]
+USE_STATIC_LIBS
+=
+True
 DISABLE_STL_WRAPPING
 =
 True
@@ -283,14 +291,6 @@ MOZ_NO_MOZALLOC
 ]
 =
 True
-USE_LIBS
-+
-=
-[
-'
-psshparser
-'
-]
 #
 Suppress
 warnings
