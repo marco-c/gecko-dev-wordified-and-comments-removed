@@ -232,7 +232,7 @@ nsresult
 SystemPrincipal
 :
 :
-GetOriginNoSuffixInternal
+GetOriginInternal
 (
 nsACString
 &

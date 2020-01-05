@@ -324,7 +324,7 @@ nsresult
 ExpandedPrincipal
 :
 :
-GetOriginNoSuffixInternal
+GetOriginInternal
 (
 nsACString
 &

@@ -239,7 +239,7 @@ aOrigin
 ;
 }
 return
-GetOriginNoSuffixInternal
+GetOriginInternal
 (
 aOrigin
 )
@@ -1889,7 +1889,7 @@ originNoSuffix
 nsresult
 rv
 =
-GetOriginNoSuffixInternal
+GetOriginInternal
 (
 originNoSuffix
 )
