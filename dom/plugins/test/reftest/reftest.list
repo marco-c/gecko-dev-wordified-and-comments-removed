@@ -9,6 +9,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 !
 =
 plugin
@@ -26,6 +27,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 plugin
@@ -62,6 +64,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -102,6 +105,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -148,6 +152,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 windowless
@@ -220,6 +225,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 border
@@ -276,6 +282,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 border
@@ -350,6 +357,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 border
@@ -412,6 +420,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 border
@@ -502,6 +511,7 @@ haveTestPlugin
 !
 Android
 )
+HTTP
 =
 =
 pluginproblemui
@@ -541,6 +551,7 @@ haveTestPlugin
 !
 Android
 )
+HTTP
 =
 =
 pluginproblemui
@@ -583,6 +594,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -625,6 +637,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -690,6 +703,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -755,6 +769,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -816,6 +831,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -881,6 +897,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -946,6 +963,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -1011,6 +1029,7 @@ if
 (
 webrender
 )
+HTTP
 =
 =
 plugin
@@ -1036,6 +1055,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 plugin
@@ -1061,6 +1081,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 plugin
@@ -1086,6 +1107,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 shrink
@@ -1107,6 +1129,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 update
@@ -1128,6 +1151,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 windowless
