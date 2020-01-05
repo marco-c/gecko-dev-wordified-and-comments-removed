@@ -2,12 +2,6 @@ use
 gaol
 :
 :
-platform
-;
-use
-gaol
-:
-:
 profile
 :
 :
@@ -52,6 +46,12 @@ content_process_sandbox_profile
 >
 Profile
 {
+use
+gaol
+:
+:
+platform
+;
 Profile
 :
 :
