@@ -414,7 +414,10 @@ loop
 [
 Throws
 ]
+Promise
+<
 void
+>
 play
 (
 )

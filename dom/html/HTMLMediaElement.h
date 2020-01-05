@@ -1416,7 +1416,10 @@ aRv
 )
 ;
 }
-void
+already_AddRefed
+<
+Promise
+>
 Play
 (
 ErrorResult
@@ -2349,7 +2352,10 @@ mTrackPorts
 ;
 }
 ;
-void
+already_AddRefed
+<
+Promise
+>
 PlayInternal
 (
 ErrorResult
