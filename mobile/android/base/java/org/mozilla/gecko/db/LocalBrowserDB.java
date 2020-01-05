@@ -739,6 +739,16 @@ FENNEC_ACTIVITY_STREAM_TOPSITES_LOADER_TIME_MS
 "
 ;
 private
+static
+final
+String
+TELEMETRY_HISTOGRAM_ACTIVITY_STREAM_HIGHLIGHTS
+=
+"
+FENNEC_ACTIVITY_STREAM_HIGHLIGHTS_LOADER_TIME_MS
+"
+;
+private
 final
 Uri
 mBookmarksUriWithProfile
@@ -10478,7 +10488,7 @@ build
 ;
 return
 new
-CursorLoader
+TelemetrisedCursorLoader
 (
 context
 uri
@@ -10486,6 +10496,7 @@ null
 null
 null
 null
+TELEMETRY_HISTOGRAM_ACTIVITY_STREAM_HIGHLIGHTS
 )
 ;
 }
