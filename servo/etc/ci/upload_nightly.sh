@@ -63,9 +63,7 @@ s3
 /
 servo
 -
-developer
--
-preview
+builds
 /
 nightly
 /
