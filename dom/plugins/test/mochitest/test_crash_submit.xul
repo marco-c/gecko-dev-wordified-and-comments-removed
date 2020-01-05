@@ -931,6 +931,14 @@ Services
 .
 crashmanager
 ;
+yield
+cm
+.
+ensureCrashIsPresent
+(
+crashID
+)
+;
 let
 store
 =
