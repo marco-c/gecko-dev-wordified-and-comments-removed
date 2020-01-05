@@ -3482,15 +3482,11 @@ _buildSubmissionURL
 ping
 )
 ;
-let
-savePromise
-=
+return
 savePing
 (
 ping
 )
-;
-savePromise
 .
 then
 (
@@ -3508,9 +3504,6 @@ id
 url
 )
 )
-;
-return
-savePromise
 ;
 }
 if
