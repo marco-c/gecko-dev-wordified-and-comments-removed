@@ -2250,13 +2250,13 @@ jitflags
     
 options
 .
-can_test_also_noasmjs
+asmjs_enabled
 =
 True
     
 options
 .
-can_test_also_wasm_baseline
+wasm_enabled
 =
 True
     
@@ -2283,13 +2283,13 @@ test_flags
         
 options
 .
-can_test_also_noasmjs
+asmjs_enabled
 =
 False
         
 options
 .
-can_test_also_wasm_baseline
+wasm_enabled
 =
 False
     
@@ -2316,13 +2316,13 @@ test_flags
         
 options
 .
-can_test_also_noasmjs
+asmjs_enabled
 =
 False
         
 options
 .
-can_test_also_wasm_baseline
+wasm_enabled
 =
 False
     
