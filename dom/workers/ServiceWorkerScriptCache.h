@@ -73,6 +73,14 @@ const
 nsACString
 &
 aMaxScope
+)
+=
+0
+;
+virtual
+void
+SaveLoadFlags
+(
 nsLoadFlags
 aLoadFlags
 )
@@ -82,7 +90,7 @@ aLoadFlags
 NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 }
 ;
-void
+nsresult
 Compare
 (
 ServiceWorkerRegistrationInfo
