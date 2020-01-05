@@ -36,14 +36,10 @@ public
 :
 SkBmpMaskCodec
 (
-int
-width
-int
-height
 const
-SkEncodedInfo
+SkImageInfo
 &
-info
+srcInfo
 SkStream
 *
 stream

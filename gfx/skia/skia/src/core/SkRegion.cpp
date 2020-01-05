@@ -6019,11 +6019,6 @@ readS32
 &
 intervalCount
 )
-&
-&
-intervalCount
->
-1
 )
 {
 tmp

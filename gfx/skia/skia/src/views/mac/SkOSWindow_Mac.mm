@@ -417,12 +417,6 @@ SkBackEndTypes
 attachType
 int
 sampleCount
-bool
-/
-*
-deepColor
-*
-/
 AttachmentInfo
 *
 info

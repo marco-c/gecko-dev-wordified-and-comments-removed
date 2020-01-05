@@ -19,7 +19,7 @@ include
 "
 SkCondensedDebug
 .
-inc
+cpp
 "
 #
 else
@@ -28,7 +28,7 @@ include
 "
 SkCondensedRelease
 .
-inc
+cpp
 "
 #
 endif

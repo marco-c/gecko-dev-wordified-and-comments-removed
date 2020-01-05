@@ -18,13 +18,6 @@ GrTypesPriv
 .
 h
 "
-#
-include
-"
-SkRefCnt
-.
-h
-"
 class
 GrFragmentProcessor
 ;
@@ -37,11 +30,9 @@ SkRRect
 namespace
 GrRRectEffect
 {
-sk_sp
-<
 GrFragmentProcessor
->
-Make
+*
+Create
 (
 GrPrimitiveEdgeType
 const

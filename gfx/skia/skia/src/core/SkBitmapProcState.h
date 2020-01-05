@@ -139,7 +139,6 @@ SkShader
 :
 TileMode
 tmy
-SkSourceGammaTreatment
 )
 ;
 SkBitmapProcInfo
@@ -157,7 +156,6 @@ SkShader
 :
 TileMode
 tmy
-SkSourceGammaTreatment
 )
 ;
 ~
@@ -201,9 +199,6 @@ SkMatrix
 :
 TypeMask
 fInvType
-;
-SkSourceGammaTreatment
-fSrcGammaTreatment
 ;
 bool
 init
@@ -263,8 +258,6 @@ SkShader
 :
 TileMode
 tmy
-SkSourceGammaTreatment
-treatment
 )
 :
 SkBitmapProcInfo
@@ -272,7 +265,6 @@ SkBitmapProcInfo
 prov
 tmx
 tmy
-treatment
 )
 {
 }
@@ -292,8 +284,6 @@ SkShader
 :
 TileMode
 tmy
-SkSourceGammaTreatment
-treatment
 )
 :
 SkBitmapProcInfo
@@ -301,7 +291,6 @@ SkBitmapProcInfo
 bitmap
 tmx
 tmy
-treatment
 )
 {
 }

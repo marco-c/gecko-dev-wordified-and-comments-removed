@@ -46,6 +46,7 @@ SkBBHFactory
 )
 {
 }
+;
 }
 ;
 class

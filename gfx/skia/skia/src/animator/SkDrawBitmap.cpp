@@ -347,7 +347,6 @@ const
 char
 *
 formatName
-SK_INIT_TO_AVOID_WARNING
 ;
 switch
 (

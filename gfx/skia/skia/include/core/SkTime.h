@@ -15,7 +15,6 @@ class
 SkString
 ;
 class
-SK_API
 SkTime
 {
 public

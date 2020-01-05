@@ -15,6 +15,13 @@ h
 #
 include
 "
+GrPipelineBuilder
+.
+h
+"
+#
+include
+"
 GrProcOptInfo
 .
 h
@@ -939,6 +946,7 @@ willReadDstColor
 (
 caps
 optimizations
+hasMixedSamples
 )
 )
 {
@@ -1055,6 +1063,8 @@ const
 GrPipelineOptimizations
 &
 optimizations
+bool
+hasMixedSamples
 )
 const
 {
@@ -1067,6 +1077,7 @@ willReadDstColor
 (
 caps
 optimizations
+hasMixedSamples
 )
 &
 &
@@ -1098,6 +1109,8 @@ const
 GrPipelineOptimizations
 &
 optimizations
+bool
+hasMixedSamples
 )
 const
 {
@@ -1116,6 +1129,7 @@ onWillReadDstColor
 (
 caps
 optimizations
+hasMixedSamples
 )
 ;
 }

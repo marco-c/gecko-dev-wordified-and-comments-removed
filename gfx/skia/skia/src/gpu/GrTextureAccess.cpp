@@ -71,6 +71,8 @@ TileMode
 tileXAndY
 GrShaderFlags
 visibility
+GrSLPrecision
+precision
 )
 {
 this
@@ -82,6 +84,7 @@ texture
 filterMode
 tileXAndY
 visibility
+precision
 )
 ;
 }
@@ -100,6 +103,8 @@ GrTextureParams
 params
 GrShaderFlags
 visibility
+GrSLPrecision
+precision
 )
 {
 SkASSERT
@@ -125,6 +130,10 @@ params
 fVisibility
 =
 visibility
+;
+fPrecision
+=
+precision
 ;
 }
 void
@@ -148,6 +157,8 @@ TileMode
 tileXAndY
 GrShaderFlags
 visibility
+GrSLPrecision
+precision
 )
 {
 SkASSERT
@@ -177,5 +188,9 @@ filterMode
 fVisibility
 =
 visibility
+;
+fPrecision
+=
+precision
 ;
 }

@@ -1369,6 +1369,14 @@ curr
 +
 1
 ;
+float
+distSq
+=
+check
+-
+>
+fDistSq
+;
 SkPoint
 distVec
 =
@@ -1377,7 +1385,6 @@ check
 >
 fDistVector
 ;
-float
 distSq
 =
 check

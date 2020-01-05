@@ -26,13 +26,6 @@ SkPath
 .
 h
 "
-#
-include
-"
-SkStrokeRec
-.
-h
-"
 bool
 SkRasterizer
 :
@@ -222,10 +215,10 @@ nullptr
 nullptr
 mask
 mode
-SkStrokeRec
+SkPaint
 :
 :
-kFill_InitStyle
+kFill_Style
 )
 ;
 }

@@ -48,7 +48,7 @@ desc
 .
 fDynamic
 =
-true
+false
 ;
 SkASSERT
 (
@@ -181,6 +181,7 @@ kXferCpuToGpu_GrBufferType
 :
 kXferGpuToCpu_GrBufferType
 kStream_GrAccessPattern
+false
 )
 GrVkBuffer
 (
@@ -193,10 +194,6 @@ this
 >
 registerWithCache
 (
-SkBudgeted
-:
-:
-kYes
 )
 ;
 }

@@ -58,7 +58,7 @@ mat
 {
 fMatrixIsInvertible
 =
-fMatrix
+mat
 .
 invert
 (

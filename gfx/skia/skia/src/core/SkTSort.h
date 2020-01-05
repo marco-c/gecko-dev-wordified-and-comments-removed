@@ -14,7 +14,7 @@ h
 #
 include
 "
-SkMathPriv
+SkMath
 .
 h
 "

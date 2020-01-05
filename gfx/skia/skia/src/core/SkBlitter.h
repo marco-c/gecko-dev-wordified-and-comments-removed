@@ -80,8 +80,6 @@ y
 int
 width
 )
-=
-0
 ;
 virtual
 void
@@ -102,8 +100,6 @@ runs
 [
 ]
 )
-=
-0
 ;
 virtual
 void

@@ -79,10 +79,13 @@ count
 1
 &
 &
-SkIsAlign2
+SkAlign2
 (
 count
 )
+=
+=
+count
 )
 ;
 fIntervals

@@ -125,5 +125,10 @@ fPending
 ;
 }
 ;
+int
+sk_num_cores
+(
+)
+;
 #
 endif

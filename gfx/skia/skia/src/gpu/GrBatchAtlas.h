@@ -1040,12 +1040,6 @@ GrTexture
 *
 fTexture
 ;
-int
-fPlotWidth
-;
-int
-fPlotHeight
-;
 SkDEBUGCODE
 (
 uint32_t

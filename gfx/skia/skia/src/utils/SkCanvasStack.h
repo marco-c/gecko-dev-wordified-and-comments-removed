@@ -109,7 +109,10 @@ onClipRect
 const
 SkRect
 &
-ClipOp
+SkRegion
+:
+:
+Op
 ClipEdgeStyle
 )
 override
@@ -120,7 +123,10 @@ onClipRRect
 const
 SkRRect
 &
-ClipOp
+SkRegion
+:
+:
+Op
 ClipEdgeStyle
 )
 override
@@ -131,7 +137,10 @@ onClipPath
 const
 SkPath
 &
-ClipOp
+SkRegion
+:
+:
+Op
 ClipEdgeStyle
 )
 override
@@ -142,7 +151,10 @@ onClipRegion
 const
 SkRegion
 &
-ClipOp
+SkRegion
+:
+:
+Op
 )
 override
 ;

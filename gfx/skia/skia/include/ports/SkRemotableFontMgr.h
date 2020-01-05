@@ -165,10 +165,8 @@ SkRefCnt
 public
 :
 virtual
-sk_sp
-<
 SkDataTable
->
+*
 getFamilyNames
 (
 )

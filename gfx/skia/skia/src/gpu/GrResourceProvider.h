@@ -48,7 +48,7 @@ class
 GrStencilAttachment
 ;
 class
-GrStyle
+GrStrokeInfo
 ;
 class
 SkDescriptor
@@ -215,7 +215,7 @@ const
 SkPath
 &
 const
-GrStyle
+GrStrokeInfo
 &
 )
 ;
@@ -229,7 +229,7 @@ GrPathRange
 PathGenerator
 *
 const
-GrStyle
+GrStrokeInfo
 &
 )
 ;
@@ -241,13 +241,10 @@ const
 SkTypeface
 *
 const
-SkScalerContextEffects
-&
-const
 SkDescriptor
 *
 const
-GrStyle
+GrStrokeInfo
 &
 )
 ;
@@ -280,10 +277,7 @@ Flags
 {
 kNoPendingIO_Flag
 =
-0x1
-kRequireGpuMemory_Flag
-=
-0x2
+kNoPendingIO_ScratchTextureFlag
 }
 ;
 GrBuffer
@@ -297,12 +291,6 @@ intendedType
 GrAccessPattern
 uint32_t
 flags
-const
-void
-*
-data
-=
-nullptr
 )
 ;
 GrTexture

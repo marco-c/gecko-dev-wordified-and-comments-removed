@@ -91,10 +91,7 @@ CreateFromSkStream
 new
 SkMemoryStream
 (
-sk_ref_sp
-(
 data
-)
 )
 true
 &

@@ -717,8 +717,7 @@ nullptr
 )
 const
 ;
-bool
-SK_WARN_UNUSED_RESULT
+void
 chopAt
 (
 SkScalar
@@ -797,7 +796,6 @@ tol
 const
 ;
 int
-SK_WARN_UNUSED_RESULT
 chopIntoQuadsPOW2
 (
 SkPoint
@@ -1488,8 +1486,6 @@ reset
 fQuadCount
 )
 ;
-fQuadCount
-=
 conic
 .
 chopIntoQuadsPOW2

@@ -45,7 +45,7 @@ class
 GrStencilSettings
 ;
 class
-GrStyle
+GrStrokeInfo
 ;
 class
 GrPathRendering
@@ -144,15 +144,6 @@ kWinding_FillType
 kEvenOdd_FillType
 }
 ;
-static
-const
-GrUserStencilSettings
-&
-GetStencilPassSettings
-(
-FillType
-)
-;
 virtual
 GrPath
 *
@@ -162,7 +153,7 @@ const
 SkPath
 &
 const
-GrStyle
+GrStrokeInfo
 &
 )
 =
@@ -179,7 +170,7 @@ GrPathRange
 PathGenerator
 *
 const
-GrStyle
+GrStrokeInfo
 &
 )
 =
@@ -193,13 +184,10 @@ const
 SkTypeface
 *
 const
-SkScalerContextEffects
-&
-const
 SkDescriptor
 *
 const
-GrStyle
+GrStrokeInfo
 &
 )
 ;
@@ -317,7 +305,7 @@ primProc
 const
 GrStencilSettings
 &
-stencilPassSettings
+stencil
 const
 GrPath
 *
@@ -371,7 +359,7 @@ onDrawPath
 (
 pipeline
 primProc
-stencilPassSettings
+stencil
 path
 )
 ;
@@ -390,7 +378,7 @@ primProc
 const
 GrStencilSettings
 &
-stencilPassSettings
+stencil
 const
 GrPathRange
 *
@@ -474,7 +462,7 @@ onDrawPaths
 (
 pipeline
 primProc
-stencilPassSettings
+stencil
 pathRange
 indices
 indexType

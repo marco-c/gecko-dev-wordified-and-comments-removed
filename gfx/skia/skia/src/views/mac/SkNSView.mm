@@ -816,7 +816,7 @@ if
 fWind
 )
 {
-sk_sp
+SkAutoTUnref
 <
 SkSurface
 >
@@ -825,7 +825,7 @@ surface
 fWind
 -
 >
-makeSurface
+createSurface
 (
 )
 )
@@ -2169,7 +2169,6 @@ msaaSampleCount
 )
 {
 static
-const
 int
 kAttributeCount
 =

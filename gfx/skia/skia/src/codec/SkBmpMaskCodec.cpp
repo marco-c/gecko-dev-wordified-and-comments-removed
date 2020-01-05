@@ -24,12 +24,8 @@ SkBmpMaskCodec
 :
 SkBmpMaskCodec
 (
-int
-width
-int
-height
 const
-SkEncodedInfo
+SkImageInfo
 &
 info
 SkStream
@@ -49,8 +45,6 @@ rowOrder
 :
 INHERITED
 (
-width
-height
 info
 stream
 bitsPerPixel
@@ -165,7 +159,7 @@ kInvalidScale
 if
 (
 !
-conversion_possible_ignore_color_space
+conversion_possible
 (
 dstInfo
 this

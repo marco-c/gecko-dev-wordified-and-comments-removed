@@ -18,9 +18,6 @@ kNone_SkFilterQuality
 kLow_SkFilterQuality
 kMedium_SkFilterQuality
 kHigh_SkFilterQuality
-kLast_SkFilterQuality
-=
-kHigh_SkFilterQuality
 }
 ;
 #

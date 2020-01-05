@@ -242,10 +242,8 @@ override
 ;
 #
 endif
-sk_sp
-<
 SkTypeface
->
+*
 getTypeface
 (
 )
@@ -254,7 +252,7 @@ return
 SkTypeface
 :
 :
-MakeFromName
+CreateFromName
 (
 fontName
 .

@@ -1,13 +1,6 @@
 #
 include
 "
-SkLeanWindows
-.
-h
-"
-#
-include
-"
 SkThreadID
 .
 h
@@ -15,6 +8,13 @@ h
 #
 ifdef
 SK_BUILD_FOR_WIN
+#
+include
+<
+windows
+.
+h
+>
 SkThreadID
 SkGetThreadID
 (

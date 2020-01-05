@@ -37,7 +37,6 @@ clip
 )
 ;
 bool
-SK_WARN_UNUSED_RESULT
 clipCubic
 (
 const
@@ -55,7 +54,6 @@ dst
 ;
 static
 bool
-SK_WARN_UNUSED_RESULT
 ChopMonoAtY
 (
 const

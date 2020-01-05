@@ -11,13 +11,6 @@ SkColorFilter
 .
 h
 "
-#
-include
-"
-SkRefCnt
-.
-h
-"
 class
 SK_API
 SkLumaColorFilter
@@ -78,10 +71,9 @@ override
 #
 if
 SK_SUPPORT_GPU
-sk_sp
-<
+const
 GrFragmentProcessor
->
+*
 asFragmentProcessor
 (
 GrContext

@@ -33,11 +33,9 @@ GrGeometryProcessor
 public
 :
 static
-sk_sp
-<
 GrGeometryProcessor
->
-Make
+*
+Create
 (
 GrColor
 color
@@ -59,11 +57,6 @@ usesLocalCoords
 )
 {
 return
-sk_sp
-<
-GrGeometryProcessor
->
-(
 new
 GrBitmapTextGeoProc
 (
@@ -73,7 +66,6 @@ p
 format
 localMatrix
 usesLocalCoords
-)
 )
 ;
 }

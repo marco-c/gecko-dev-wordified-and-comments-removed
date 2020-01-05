@@ -147,6 +147,7 @@ QuadUVMatrix
 )
 {
 }
+;
 QuadUVMatrix
 (
 const

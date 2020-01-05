@@ -140,6 +140,7 @@ GrTexture
 (
 GrGpu
 *
+LifeCycle
 const
 GrSurfaceDesc
 &
@@ -156,15 +157,6 @@ const
 ;
 private
 :
-void
-computeScratchKey
-(
-GrScratchKey
-*
-)
-const
-override
-;
 size_t
 onGpuMemorySize
 (
@@ -195,9 +187,6 @@ fMipMapsStatus
 ;
 int
 fMaxMipMapLevel
-;
-SkSourceGammaTreatment
-fGammaTreatment
 ;
 friend
 class

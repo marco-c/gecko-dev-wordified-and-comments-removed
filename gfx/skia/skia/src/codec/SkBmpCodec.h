@@ -93,12 +93,8 @@ protected
 :
 SkBmpCodec
 (
-int
-width
-int
-height
 const
-SkEncodedInfo
+SkImageInfo
 &
 info
 SkStream

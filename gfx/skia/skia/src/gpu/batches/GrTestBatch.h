@@ -159,14 +159,6 @@ this
 setBounds
 (
 bounds
-HasAABloat
-:
-:
-kYes
-IsZeroArea
-:
-:
-kYes
 )
 ;
 }

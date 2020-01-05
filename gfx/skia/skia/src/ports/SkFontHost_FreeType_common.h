@@ -80,10 +80,6 @@ SkTypeface
 *
 typeface
 const
-SkScalerContextEffects
-&
-effects
-const
 SkDescriptor
 *
 desc
@@ -92,7 +88,6 @@ desc
 INHERITED
 (
 typeface
-effects
 desc
 )
 {
@@ -106,10 +101,6 @@ const
 SkGlyph
 &
 glyph
-const
-SkMatrix
-&
-bitmapTransform
 )
 ;
 void
@@ -186,7 +177,7 @@ true
 bool
 recognizedFont
 (
-SkStreamAsset
+SkStream
 *
 stream
 int
@@ -198,7 +189,7 @@ const
 bool
 scanFont
 (
-SkStreamAsset
+SkStream
 *
 stream
 int
@@ -250,7 +241,7 @@ private
 FT_Face
 openFace
 (
-SkStreamAsset
+SkStream
 *
 stream
 int
@@ -277,6 +268,8 @@ const
 SkFontStyle
 &
 style
+SkFontID
+uniqueID
 bool
 isFixedPitch
 )
@@ -284,7 +277,13 @@ isFixedPitch
 INHERITED
 (
 style
+uniqueID
 isFixedPitch
+)
+fGlyphCount
+(
+-
+1
 )
 {
 }
@@ -293,9 +292,6 @@ SkScalerContext
 *
 onCreateScalerContext
 (
-const
-SkScalerContextEffects
-&
 const
 SkDescriptor
 *
@@ -414,6 +410,10 @@ override
 ;
 private
 :
+mutable
+int
+fGlyphCount
+;
 typedef
 SkTypeface
 INHERITED

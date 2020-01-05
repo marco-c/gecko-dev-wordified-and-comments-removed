@@ -43,10 +43,8 @@ GrYUVProvider
 )
 {
 }
-sk_sp
-<
 GrTexture
->
+*
 refAsTexture
 (
 GrContext

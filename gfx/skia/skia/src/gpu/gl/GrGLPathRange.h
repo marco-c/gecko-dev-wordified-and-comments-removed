@@ -17,7 +17,7 @@ h
 #
 include
 "
-GrStyle
+GrStrokeInfo
 .
 h
 "
@@ -48,7 +48,7 @@ GrGLGpu
 PathGenerator
 *
 const
-GrStyle
+GrStrokeInfo
 &
 )
 ;
@@ -63,7 +63,7 @@ numPaths
 size_t
 gpuMemorySize
 const
-GrStyle
+GrStrokeInfo
 &
 )
 ;
@@ -142,8 +142,8 @@ fGpuMemorySize
 ;
 }
 const
-GrStyle
-fStyle
+GrStrokeInfo
+fStroke
 ;
 GrGLuint
 fBasePathID

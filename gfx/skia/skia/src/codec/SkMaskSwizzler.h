@@ -92,7 +92,7 @@ void
 dst
 size_t
 rowBytes
-uint64_t
+uint32_t
 colorOrIndex
 SkCodec
 :

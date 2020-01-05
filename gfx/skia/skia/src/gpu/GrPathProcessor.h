@@ -153,6 +153,17 @@ caps
 const
 override
 ;
+bool
+hasTransformedLocalCoords
+(
+)
+const
+override
+{
+return
+false
+;
+}
 const
 GrXPOverridesForBatch
 &

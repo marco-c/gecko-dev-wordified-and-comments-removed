@@ -1,10 +1,4 @@
 #
-ifndef
-SkIntersectionHelper_DEFINED
-#
-define
-SkIntersectionHelper_DEFINED
-#
 include
 "
 SkOpContour
@@ -419,5 +413,3 @@ fSegment
 ;
 }
 ;
-#
-endif

@@ -93,7 +93,7 @@ include
 /
 core
 /
-SkFontLCDConfig
+SkFontHost
 .
 h
 "
@@ -658,13 +658,13 @@ defined
 XP_UNIX
 )
 const
-SkFontLCDConfig
+SkFontHost
 :
 :
 LCDOrder
 order
 =
-SkFontLCDConfig
+SkFontHost
 :
 :
 GetSubpixelOrder
@@ -672,13 +672,13 @@ GetSubpixelOrder
 )
 ;
 const
-SkFontLCDConfig
+SkFontHost
 :
 :
 LCDOrientation
 orientation
 =
-SkFontLCDConfig
+SkFontHost
 :
 :
 GetSubpixelOrientation
@@ -701,7 +701,7 @@ orientation
 )
 {
 case
-SkFontLCDConfig
+SkFontHost
 :
 :
 kHorizontal_LCDOrientation
@@ -723,7 +723,7 @@ width
 break
 ;
 case
-SkFontLCDConfig
+SkFontHost
 :
 :
 kVertical_LCDOrientation
@@ -1003,7 +1003,7 @@ order
 )
 {
 case
-SkFontLCDConfig
+SkFontHost
 :
 :
 kRGB_LCDOrder
@@ -1014,7 +1014,7 @@ orientation
 )
 {
 case
-SkFontLCDConfig
+SkFontHost
 :
 :
 kHorizontal_LCDOrientation
@@ -1062,7 +1062,7 @@ src
 break
 ;
 case
-SkFontLCDConfig
+SkFontHost
 :
 :
 kVertical_LCDOrientation
@@ -1121,7 +1121,7 @@ break
 break
 ;
 case
-SkFontLCDConfig
+SkFontHost
 :
 :
 kBGR_LCDOrder
@@ -1132,7 +1132,7 @@ orientation
 )
 {
 case
-SkFontLCDConfig
+SkFontHost
 :
 :
 kHorizontal_LCDOrientation
@@ -1180,7 +1180,7 @@ src
 break
 ;
 case
-SkFontLCDConfig
+SkFontHost
 :
 :
 kVertical_LCDOrientation
@@ -1239,7 +1239,7 @@ break
 break
 ;
 case
-SkFontLCDConfig
+SkFontHost
 :
 :
 kNONE_LCDOrder

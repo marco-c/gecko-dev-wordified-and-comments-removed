@@ -1110,9 +1110,6 @@ endif
 #
 if
 SK_SUPPORT_GPU
-#
-ifdef
-SK_SUPPORT_COMPRESSED_TEXTURES_IN_CACHERATOR
 static
 GrTexture
 *
@@ -1189,8 +1186,6 @@ rawStart
 )
 ;
 }
-#
-endif
 class
 Generator_GrYUVProvider
 :
@@ -1349,8 +1344,6 @@ CachingHint
 chint
 bool
 willBeMipped
-SkSourceGammaTreatment
-gammaTreatment
 )
 {
 enum
@@ -1504,10 +1497,7 @@ caps
 )
 )
 ;
-#
-ifdef
-SK_SUPPORT_COMPRESSED_TEXTURES_IN_CACHERATOR
-sk_sp
+SkAutoTUnref
 <
 SkData
 >
@@ -1561,8 +1551,6 @@ key
 ;
 }
 }
-#
-endif
 {
 ScopedGenerator
 generator
@@ -1576,10 +1564,8 @@ provider
 generator
 )
 ;
-sk_sp
-<
 GrTexture
->
+*
 tex
 =
 provider
@@ -1609,10 +1595,6 @@ return
 set_key_and_return
 (
 tex
-.
-release
-(
-)
 key
 )
 ;
@@ -1652,7 +1634,6 @@ GrGenerateMipMapsAndUploadToTexture
 (
 ctx
 bitmap
-gammaTreatment
 )
 ;
 }
@@ -1721,8 +1702,6 @@ const
 GrTextureParams
 &
 params
-SkSourceGammaTreatment
-gammaTreatment
 const
 SkImage
 *
@@ -1756,7 +1735,6 @@ chint
 refTextureForParams
 (
 params
-gammaTreatment
 )
 ;
 }
@@ -1775,8 +1753,6 @@ ctx
 const
 GrTextureParams
 &
-SkSourceGammaTreatment
-gammaTreatment
 const
 SkImage
 *

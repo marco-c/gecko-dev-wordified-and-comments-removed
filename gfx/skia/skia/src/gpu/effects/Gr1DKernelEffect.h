@@ -47,7 +47,6 @@ radius
 INHERITED
 (
 texture
-nullptr
 GrCoordTransform
 :
 :
@@ -73,6 +72,7 @@ Gr1DKernelEffect
 )
 {
 }
+;
 static
 int
 WidthFromRadius

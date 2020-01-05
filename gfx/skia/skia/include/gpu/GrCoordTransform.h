@@ -39,6 +39,13 @@ GrShaderVar
 .
 h
 "
+enum
+GrCoordSet
+{
+kLocal_GrCoordSet
+kDevice_GrCoordSet
+}
+;
 class
 GrCoordTransform
 :
@@ -48,6 +55,11 @@ public
 :
 GrCoordTransform
 (
+)
+:
+fSourceCoords
+(
+kLocal_GrCoordSet
 )
 {
 SkDEBUGCODE
@@ -60,6 +72,8 @@ false
 }
 GrCoordTransform
 (
+GrCoordSet
+sourceCoords
 const
 GrTexture
 *
@@ -88,6 +102,7 @@ this
 >
 reset
 (
+sourceCoords
 texture
 filter
 )
@@ -95,6 +110,8 @@ filter
 }
 GrCoordTransform
 (
+GrCoordSet
+sourceCoords
 const
 SkMatrix
 &
@@ -127,6 +144,7 @@ this
 >
 reset
 (
+sourceCoords
 m
 texture
 filter
@@ -135,6 +153,8 @@ filter
 }
 GrCoordTransform
 (
+GrCoordSet
+sourceCoords
 const
 SkMatrix
 &
@@ -157,6 +177,7 @@ this
 >
 reset
 (
+sourceCoords
 m
 precision
 )
@@ -165,6 +186,8 @@ precision
 void
 reset
 (
+GrCoordSet
+sourceCoords
 const
 GrTexture
 *
@@ -192,6 +215,7 @@ this
 >
 reset
 (
+sourceCoords
 MakeDivByTextureWHMatrix
 (
 texture
@@ -204,6 +228,7 @@ filter
 void
 reset
 (
+GrCoordSet
 const
 SkMatrix
 &
@@ -220,6 +245,8 @@ filter
 void
 reset
 (
+GrCoordSet
+sourceCoords
 const
 SkMatrix
 &
@@ -246,6 +273,12 @@ SkASSERT
 !
 fInProcessor
 )
+;
+fSourceCoords
+=
+that
+.
+fSourceCoords
 ;
 fMatrix
 =
@@ -300,6 +333,14 @@ that
 const
 {
 return
+fSourceCoords
+=
+=
+that
+.
+fSourceCoords
+&
+&
 fMatrix
 .
 cheapEqualTo
@@ -347,6 +388,16 @@ this
 =
 that
 )
+;
+}
+GrCoordSet
+sourceCoords
+(
+)
+const
+{
+return
+fSourceCoords
 ;
 }
 const
@@ -427,6 +478,9 @@ mat
 }
 private
 :
+GrCoordSet
+fSourceCoords
+;
 SkMatrix
 fMatrix
 ;
