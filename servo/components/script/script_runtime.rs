@@ -26,7 +26,6 @@ refcounted
 :
 {
 LiveDOMReferences
-TrustedReference
 trace_refcounted_objects
 }
 ;
@@ -269,10 +268,6 @@ CommonScriptMsg
 CollectReports
 (
 ReportsChan
-)
-RefcountCleanup
-(
-TrustedReference
 )
 RunnableMsg
 (
