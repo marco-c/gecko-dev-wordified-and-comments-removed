@@ -320,6 +320,9 @@ mod
 inline
 ;
 mod
+linked_list
+;
+mod
 list_item
 ;
 mod
