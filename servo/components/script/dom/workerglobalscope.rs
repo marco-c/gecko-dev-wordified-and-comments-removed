@@ -80,7 +80,7 @@ Error
 {
 Syntax
 Network
-FailureUnknown
+JSFailed
 }
 ;
 use
@@ -815,7 +815,7 @@ failed
 return
 Err
 (
-FailureUnknown
+JSFailed
 )
 ;
 }

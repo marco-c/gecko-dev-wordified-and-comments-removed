@@ -97,6 +97,8 @@ text
 /
 xml
 "
+/
+*
 "
 application
 /
@@ -116,6 +118,8 @@ svg
 +
 xml
 "
+*
+/
 }
 ;
 [
