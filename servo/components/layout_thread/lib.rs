@@ -5839,6 +5839,14 @@ viewport_size
 builder
 )
 ;
+self
+.
+webrender_api
+.
+generate_frame
+(
+)
+;
 }
 )
 ;
