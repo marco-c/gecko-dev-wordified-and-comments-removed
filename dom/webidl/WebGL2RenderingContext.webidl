@@ -3475,6 +3475,11 @@ GLuint
 srcOffset
 =
 0
+optional
+GLuint
+srcLength
+=
+0
 )
 ;
 void
@@ -3522,6 +3527,11 @@ GLuint
 srcOffset
 =
 0
+optional
+GLuint
+srcLength
+=
+0
 )
 ;
 void
@@ -3567,6 +3577,11 @@ srcData
 optional
 GLuint
 srcOffset
+=
+0
+optional
+GLuint
+srcLength
 =
 0
 )
@@ -3622,6 +3637,11 @@ srcData
 optional
 GLuint
 srcOffset
+=
+0
+optional
+GLuint
+srcLength
 =
 0
 )
