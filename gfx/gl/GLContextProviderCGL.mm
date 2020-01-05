@@ -107,13 +107,6 @@ h
 #
 include
 "
-TextureImageCGL
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h

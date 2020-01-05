@@ -643,11 +643,6 @@ GLContextProviderCGL
 .
 mm
 "
-"
-TextureImageCGL
-.
-mm
-"
 ]
 EXPORTS
 +
