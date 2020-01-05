@@ -43,14 +43,6 @@ field_init_shorthand
 [
 feature
 (
-more_struct_aliases
-)
-]
-#
-!
-[
-feature
-(
 mpsc_select
 )
 ]
