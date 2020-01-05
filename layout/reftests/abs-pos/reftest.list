@@ -1196,12 +1196,6 @@ fails
 -
 if
 (
-webrender
-)
-fails
--
-if
-(
 stylo
 )
 =
