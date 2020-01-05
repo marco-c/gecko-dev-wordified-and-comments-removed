@@ -176,7 +176,10 @@ data
 :
 Option
 <
-String
+Vec
+<
+u8
+>
 >
 }
 impl

@@ -595,14 +595,6 @@ write
 (
 data
 .
-clone
-(
-)
-.
-into_bytes
-(
-)
-.
 as_slice
 (
 )
