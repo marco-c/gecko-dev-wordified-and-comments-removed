@@ -13,11 +13,6 @@ enable
 fuzzing
 -
 -
-disable
--
-debug
--
--
 enable
 -
 debug
@@ -50,6 +45,11 @@ optimize
 "
 :
 true
+"
+debug
+"
+:
+false
 "
 compiler
 "
