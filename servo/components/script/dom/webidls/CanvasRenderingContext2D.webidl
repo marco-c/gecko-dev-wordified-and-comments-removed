@@ -108,13 +108,15 @@ https
 :
 /
 /
-www
+html
+.
+spec
 .
 whatwg
 .
 org
 /
-html
+multipage
 /
 #
 2dcontext
