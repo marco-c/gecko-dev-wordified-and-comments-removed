@@ -588,7 +588,7 @@ WebGLUniformLocation
 }
 ;
 interface
-WebGLVertexArrayObjectOES
+WebGLVertexArrayObject
 {
 }
 ;
@@ -5495,7 +5495,7 @@ VERTEX_ARRAY_BINDING_OES
 =
 0x85B5
 ;
-WebGLVertexArrayObjectOES
+WebGLVertexArrayObject
 ?
 createVertexArrayOES
 (
@@ -5504,7 +5504,7 @@ createVertexArrayOES
 void
 deleteVertexArrayOES
 (
-WebGLVertexArrayObjectOES
+WebGLVertexArrayObject
 ?
 arrayObject
 )
@@ -5515,7 +5515,7 @@ WebGLHandlesContextLoss
 GLboolean
 isVertexArrayOES
 (
-WebGLVertexArrayObjectOES
+WebGLVertexArrayObject
 ?
 arrayObject
 )
@@ -5523,7 +5523,7 @@ arrayObject
 void
 bindVertexArrayOES
 (
-WebGLVertexArrayObjectOES
+WebGLVertexArrayObject
 ?
 arrayObject
 )
