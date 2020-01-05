@@ -4007,6 +4007,14 @@ isGuardRangeBailouts
 (
 )
 )
+{
+if
+(
+DeadIfUnused
+(
+sim
+)
+)
 sim
 -
 >
@@ -4014,6 +4022,7 @@ setGuardRangeBailoutsUnchecked
 (
 )
 ;
+}
 if
 (
 DeadIfUnused
