@@ -542,6 +542,8 @@ aOpeningTab
 mozIDOMWindowProxy
 *
 aOpenerWindow
+uint64_t
+aNextTabParentId
 nsIXULWindow
 *
 *
@@ -732,6 +734,9 @@ mPersistentAttributesMask
 ;
 uint32_t
 mChromeFlags
+;
+uint64_t
+mNextTabParentId
 ;
 nsString
 mTitle

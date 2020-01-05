@@ -452,6 +452,8 @@ aOpeningTabParent
 mozIDOMWindowProxy
 *
 aOpener
+uint64_t
+aNextTabParentId
 nsIWebBrowserChrome
 *
 *

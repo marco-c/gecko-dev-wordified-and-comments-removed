@@ -19889,6 +19889,7 @@ aURI
 aParams
 aWhere
 aFlags
+aNextTabParentId
 )
 {
 let
@@ -19904,9 +19905,11 @@ aWhere
 aFlags
 )
 ;
-return
+if
+(
 browser
-?
+)
+return
 browser
 .
 QueryInterface
@@ -19915,7 +19918,8 @@ Ci
 .
 nsIFrameLoaderOwner
 )
-:
+;
+return
 null
 ;
 }

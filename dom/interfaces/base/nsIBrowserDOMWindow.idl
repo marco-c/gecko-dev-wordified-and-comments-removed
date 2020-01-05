@@ -765,6 +765,11 @@ aWhere
 in
 long
 aFlags
+in
+unsigned
+long
+long
+aNextTabParentId
 )
 ;
 /

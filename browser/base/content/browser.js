@@ -26364,6 +26364,9 @@ null
 aTriggeringPrincipal
 =
 null
+aNextTabParentId
+=
+0
 )
 {
 let
@@ -26516,6 +26519,9 @@ aForceNotRemote
 opener
 :
 aOpener
+nextTabParentId
+:
+aNextTabParentId
 }
 )
 ;
@@ -27107,6 +27113,7 @@ aURI
 aParams
 aWhere
 aFlags
+aNextTabParentId
 )
 {
 if
@@ -27222,6 +27229,7 @@ null
 aParams
 .
 triggeringPrincipal
+aNextTabParentId
 )
 ;
 if
