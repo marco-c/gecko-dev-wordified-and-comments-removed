@@ -107,6 +107,7 @@ waitForHelperSleepFinished
 {
 stageUpdate
 (
+true
 )
 ;
 }
@@ -128,7 +129,7 @@ true
 ;
 checkUpdateLogContents
 (
-LOG_COMPLETE_SUCCESS_STAGE
+LOG_COMPLETE_SUCCESS
 true
 )
 ;
@@ -286,10 +287,6 @@ setupSymLinks
 if
 (
 IS_UNIX
-&
-&
-!
-IS_TOOLKIT_GONK
 )
 {
 removeSymlink
@@ -365,10 +362,6 @@ checkSymLinks
 if
 (
 IS_UNIX
-&
-&
-!
-IS_TOOLKIT_GONK
 )
 {
 checkSymlink

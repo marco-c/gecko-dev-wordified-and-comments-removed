@@ -96,6 +96,7 @@ setupUpdaterTestFinished
 {
 stageUpdate
 (
+true
 )
 ;
 }
@@ -117,7 +118,7 @@ true
 ;
 checkUpdateLogContents
 (
-LOG_PARTIAL_SUCCESS_STAGE
+LOG_PARTIAL_SUCCESS
 true
 false
 true
@@ -128,7 +129,7 @@ runUpdate
 STATE_SUCCEEDED
 true
 0
-false
+true
 )
 ;
 }

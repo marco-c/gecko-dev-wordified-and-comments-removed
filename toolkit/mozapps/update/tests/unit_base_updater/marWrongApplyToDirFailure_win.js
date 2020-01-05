@@ -53,7 +53,7 @@ NoSuchDir
 "
 )
 ;
-runUpdateUsingUpdater
+runUpdate
 (
 STATE_FAILED_INVALID_APPLYTO_DIR_ERROR
 false
@@ -64,6 +64,7 @@ USE_EXECV
 :
 1
 )
+false
 )
 ;
 }

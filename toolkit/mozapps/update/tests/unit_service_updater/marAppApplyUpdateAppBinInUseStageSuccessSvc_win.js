@@ -45,6 +45,7 @@ setupUpdaterTestFinished
 {
 stageUpdate
 (
+true
 )
 ;
 }
@@ -67,7 +68,7 @@ false
 ;
 checkUpdateLogContents
 (
-LOG_COMPLETE_SUCCESS_STAGE
+LOG_COMPLETE_SUCCESS
 true
 )
 ;

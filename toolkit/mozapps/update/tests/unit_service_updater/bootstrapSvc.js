@@ -35,10 +35,11 @@ setupUpdaterTestFinished
 (
 )
 {
-runUpdateUsingService
+runUpdate
 (
 STATE_SUCCEEDED
 false
+0
 true
 )
 ;

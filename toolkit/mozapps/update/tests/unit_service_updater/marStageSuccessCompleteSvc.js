@@ -96,6 +96,7 @@ setupUpdaterTestFinished
 {
 stageUpdate
 (
+true
 )
 ;
 }
@@ -117,7 +118,7 @@ true
 ;
 checkUpdateLogContents
 (
-LOG_COMPLETE_SUCCESS_STAGE
+LOG_COMPLETE_SUCCESS
 true
 )
 ;
@@ -388,10 +389,6 @@ IS_UNIX
 &
 !
 IS_MACOSX
-&
-&
-!
-IS_TOOLKIT_GONK
 )
 {
 removeSymlink
@@ -471,10 +468,6 @@ IS_UNIX
 &
 !
 IS_MACOSX
-&
-&
-!
-IS_TOOLKIT_GONK
 )
 {
 checkSymlink
