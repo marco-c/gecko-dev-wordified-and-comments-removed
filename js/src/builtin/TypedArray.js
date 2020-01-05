@@ -3751,10 +3751,6 @@ comparefn
 undefined
 )
 {
-comparefn
-=
-TypedArrayCompare
-;
 if
 (
 IsUint8TypedArray
@@ -3808,7 +3804,7 @@ buffer
 2
 false
 false
-comparefn
+TypedArrayCompare
 )
 ;
 }
@@ -3830,7 +3826,7 @@ buffer
 2
 true
 false
-comparefn
+TypedArrayCompare
 )
 ;
 }
@@ -3852,7 +3848,7 @@ buffer
 4
 false
 false
-comparefn
+TypedArrayCompare
 )
 ;
 }
@@ -3874,7 +3870,7 @@ buffer
 4
 true
 false
-comparefn
+TypedArrayCompare
 )
 ;
 }
@@ -3896,10 +3892,18 @@ buffer
 4
 true
 true
-comparefn
+TypedArrayCompare
 )
 ;
 }
+return
+QuickSort
+(
+obj
+len
+TypedArrayCompare
+)
+;
 }
 var
 wrappedCompareFn
