@@ -2494,10 +2494,9 @@ return
 ;
 }
 aStatus
-=
-NS_INLINE_LINE_BREAK_AFTER
+.
+SetInlineLineBreakAfter
 (
-aStatus
 )
 ;
 MOZ_ASSERT
@@ -2701,10 +2700,9 @@ AtEnd
 )
 ;
 aStatus
-=
-NS_INLINE_LINE_BREAK_AFTER
+.
+SetInlineLineBreakAfter
 (
-aStatus
 )
 ;
 }
