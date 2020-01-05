@@ -905,6 +905,16 @@ O
 length
 )
 ;
+if
+(
+len
+<
+=
+1
+)
+return
+this
+;
 var
 wrappedCompareFn
 =
