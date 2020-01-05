@@ -9700,6 +9700,10 @@ bool
 unicode
 bool
 ignore_case
+bool
+global
+bool
+sticky
 RegExpCompileData
 *
 data
@@ -9778,6 +9782,14 @@ length
 -
 2
 )
+&
+&
+!
+global
+&
+&
+!
+sticky
 &
 &
 chars
@@ -9916,6 +9928,10 @@ bool
 unicode
 bool
 ignore_case
+bool
+global
+bool
+sticky
 RegExpCompileData
 *
 data
@@ -9958,6 +9974,8 @@ multiline
 match_only
 unicode
 ignore_case
+global
+sticky
 data
 )
 :
@@ -9984,6 +10002,8 @@ multiline
 match_only
 unicode
 ignore_case
+global
+sticky
 data
 )
 ;
