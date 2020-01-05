@@ -33,7 +33,7 @@ MediaStreamPlayback
 prototype
 =
 {
-playMediaWithMediaStreamTracksStop
+playMedia
 :
 function
 (
@@ -75,7 +75,7 @@ then
 >
 this
 .
-stopMediaElement
+detachFromMediaElement
 (
 )
 )
@@ -299,7 +299,7 @@ noTrackEnded
 )
 ;
 }
-playMedia
+playMediaWithoutStoppingTracks
 :
 function
 (
@@ -328,7 +328,7 @@ then
 >
 this
 .
-stopMediaElement
+detachFromMediaElement
 (
 )
 )
@@ -718,7 +718,7 @@ string
 )
 ;
 }
-stopMediaElement
+detachFromMediaElement
 :
 function
 (
@@ -830,7 +830,7 @@ then
 >
 this
 .
-stopMediaElement
+detachFromMediaElement
 (
 )
 )
