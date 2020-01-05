@@ -69,6 +69,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+WebRenderLayersLogging
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h
