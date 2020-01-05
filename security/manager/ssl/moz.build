@@ -317,6 +317,11 @@ DER
 .
 jsm
 '
+'
+X509
+.
+jsm
+'
 ]
 EXPORTS
 +
