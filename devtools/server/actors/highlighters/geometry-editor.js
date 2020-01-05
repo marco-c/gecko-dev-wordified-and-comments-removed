@@ -2364,9 +2364,11 @@ root
 setIgnoreLayoutChanges
 (
 false
-node
+this
 .
-ownerDocument
+highlighterEnv
+.
+document
 .
 documentElement
 )
@@ -2965,9 +2967,9 @@ setIgnoreLayoutChanges
 false
 this
 .
-currentNode
+highlighterEnv
 .
-ownerDocument
+document
 .
 documentElement
 )

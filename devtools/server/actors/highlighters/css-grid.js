@@ -2035,8 +2035,6 @@ this
 .
 highlighterEnv
 .
-window
-.
 document
 .
 documentElement
@@ -4138,8 +4136,6 @@ false
 this
 .
 highlighterEnv
-.
-window
 .
 document
 .
