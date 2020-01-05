@@ -89,6 +89,9 @@ Global
 Worker
 ServiceWorker
 )
+Exposed
+=
+ServiceWorker
 Pref
 =
 "

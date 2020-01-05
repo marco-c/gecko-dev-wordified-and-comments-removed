@@ -78,10 +78,7 @@ workerglobalscope
 Abstract
 Exposed
 =
-(
-Window
 Worker
-)
 ]
 interface
 WorkerGlobalScope
@@ -161,10 +158,7 @@ partial
 [
 Exposed
 =
-(
-Window
 Worker
-)
 ]
 partial
 interface
@@ -208,10 +202,7 @@ Proprietary
 [
 Exposed
 =
-(
-Window
 Worker
-)
 ]
 partial
 interface

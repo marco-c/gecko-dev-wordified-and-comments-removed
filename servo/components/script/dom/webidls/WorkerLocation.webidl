@@ -79,10 +79,7 @@ locations
 [
 Exposed
 =
-(
-Window
 Worker
-)
 ]
 interface
 WorkerLocation
