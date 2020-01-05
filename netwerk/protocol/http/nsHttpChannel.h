@@ -2367,6 +2367,11 @@ mFirstResponseSource
 RESPONSE_PENDING
 ;
 nsresult
+MaybeRaceNetworkWithCache
+(
+)
+;
+nsresult
 TriggerNetwork
 (
 int32_t
