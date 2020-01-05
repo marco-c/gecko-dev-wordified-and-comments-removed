@@ -10,3 +10,9 @@ also
 wasm
 -
 baseline
+;
+include
+:
+wasm
+.
+js

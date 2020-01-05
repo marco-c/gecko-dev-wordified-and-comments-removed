@@ -4,17 +4,6 @@ libdir
 +
 "
 wasm
-.
-js
-"
-)
-;
-load
-(
-libdir
-+
-"
-wasm
 -
 binary
 .

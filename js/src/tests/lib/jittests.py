@@ -782,6 +782,13 @@ False
         
 self
 .
+other_includes
+=
+[
+]
+        
+self
+.
 test_also
 =
 [
@@ -927,6 +934,17 @@ test_also_wasm_baseline
 self
 .
 test_also_wasm_baseline
+        
+t
+.
+other_includes
+=
+self
+.
+other_includes
+[
+:
+]
         
 t
 .
@@ -1495,6 +1513,24 @@ format
 (
 value
 )
+)
+                    
+elif
+name
+=
+=
+'
+include
+'
+:
+                        
+test
+.
+other_includes
+.
+append
+(
+value
 )
                     
 else
@@ -2147,6 +2183,27 @@ jitflags
 e
 '
 expr
+]
+        
+for
+inc
+in
+self
+.
+other_includes
+:
+            
+cmd
++
+=
+[
+'
+-
+f
+'
+libdir
++
+inc
 ]
         
 if

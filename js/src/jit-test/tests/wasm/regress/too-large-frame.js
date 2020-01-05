@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-wasm
-.
-js
-"
-)
-;
 try
 {
 wasmEvalText
