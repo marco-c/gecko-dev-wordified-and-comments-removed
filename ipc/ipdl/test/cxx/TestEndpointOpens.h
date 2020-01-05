@@ -131,6 +131,7 @@ PTestEndpointOpensOpenedParent
 &
 endpoint
 )
+override
 ;
 virtual
 void

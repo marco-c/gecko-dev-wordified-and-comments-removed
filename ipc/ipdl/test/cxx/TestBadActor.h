@@ -154,6 +154,7 @@ PTestBadActorSubParent
 AllocPTestBadActorSubParent
 (
 )
+override
 ;
 virtual
 bool
@@ -163,6 +164,7 @@ PTestBadActorSubParent
 *
 actor
 )
+override
 {
 delete
 actor
@@ -210,6 +212,7 @@ bool
 RecvPing
 (
 )
+override
 ;
 }
 ;
