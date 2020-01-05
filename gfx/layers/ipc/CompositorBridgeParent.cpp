@@ -2250,6 +2250,10 @@ mWidget
 =
 nullptr
 ;
+mAnimationStorage
+=
+nullptr
+;
 }
 mozilla
 :
@@ -2848,10 +2852,6 @@ mCompositorID
 )
 ;
 mCompositionManager
-=
-nullptr
-;
-mAnimationStorage
 =
 nullptr
 ;
