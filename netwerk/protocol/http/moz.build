@@ -590,16 +590,6 @@ EXTRA_COMPONENTS
 =
 [
 '
-UAOverridesBootstrapper
-.
-js
-'
-'
-UAOverridesBootstrapper
-.
-manifest
-'
-'
 WellKnownOpportunisticUtils
 .
 js
