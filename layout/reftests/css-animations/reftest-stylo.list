@@ -114,12 +114,6 @@ hidden
 animation
 .
 html
-skip
--
-if
-(
-stylo
-)
 =
 =
 in
@@ -148,9 +142,6 @@ pseudo
 element
 .
 html
-#
-Bug
-1331047
 =
 =
 partially
