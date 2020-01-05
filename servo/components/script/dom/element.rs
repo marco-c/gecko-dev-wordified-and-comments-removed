@@ -2909,7 +2909,13 @@ LengthOrPercentageOrAuto
 :
 Percentage
 (
+specified
+:
+:
+Percentage
+(
 percentage
+)
 )
 ;
 hints
@@ -3056,7 +3062,13 @@ LengthOrPercentageOrAuto
 :
 Percentage
 (
+specified
+:
+:
+Percentage
+(
 percentage
+)
 )
 ;
 hints
