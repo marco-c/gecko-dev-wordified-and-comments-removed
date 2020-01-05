@@ -88,10 +88,6 @@ function
 )
 {
 return
-content
-.
-document
-.
 docShell
 .
 QueryInterface
@@ -167,10 +163,6 @@ function
 contentPriority
 )
 {
-content
-.
-document
-.
 docShell
 .
 QueryInterface
