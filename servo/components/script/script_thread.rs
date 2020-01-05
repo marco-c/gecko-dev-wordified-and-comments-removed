@@ -1524,6 +1524,7 @@ Navigate
 (
 PipelineId
 LoadData
+bool
 )
 DOMManipulation
 (
@@ -5537,6 +5538,7 @@ Navigate
 parent_pipeline_id
 pipeline_id
 load_data
+replace
 )
 =
 >
@@ -5550,6 +5552,7 @@ Some
 pipeline_id
 )
 load_data
+replace
 )
 ConstellationControlMsg
 :
@@ -5932,6 +5935,7 @@ Navigate
 (
 parent_pipeline_id
 load_data
+replace
 )
 =
 >
@@ -5942,6 +5946,7 @@ handle_navigate
 parent_pipeline_id
 None
 load_data
+replace
 )
 MainThreadScriptMsg
 :
@@ -14232,6 +14237,9 @@ PipelineId
 load_data
 :
 LoadData
+replace
+:
+bool
 )
 {
 /
@@ -14444,6 +14452,7 @@ Some
 (
 load_data
 )
+replace
 )
 ;
 }
@@ -14465,6 +14474,7 @@ LoadUrl
 (
 parent_pipeline_id
 load_data
+replace
 )
 )
 .

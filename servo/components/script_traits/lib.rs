@@ -818,6 +818,7 @@ Navigate
 PipelineId
 PipelineId
 LoadData
+bool
 )
 MozBrowserEvent
 (
@@ -1763,6 +1764,10 @@ pub
 frame_type
 :
 FrameType
+pub
+replace
+:
+bool
 }
 #
 [

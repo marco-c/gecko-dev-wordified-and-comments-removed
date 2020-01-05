@@ -296,6 +296,7 @@ LoadUrl
 (
 PipelineId
 LoadData
+bool
 )
 MozBrowserEvent
 (
