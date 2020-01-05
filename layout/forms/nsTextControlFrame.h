@@ -650,15 +650,6 @@ aState
 override
 ;
 virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
-virtual
 nsresult
 AttributeChanged
 (

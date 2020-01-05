@@ -47,11 +47,17 @@ nsRubyContentFrame
 nsStyleContext
 *
 aContext
+mozilla
+:
+:
+FrameType
+aType
 )
 :
 nsInlineFrame
 (
 aContext
+aType
 )
 {
 }

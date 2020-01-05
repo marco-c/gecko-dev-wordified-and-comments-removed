@@ -30,6 +30,7 @@ nsSharedPageData
 ;
 class
 nsPageContentFrame
+final
 :
 public
 mozilla
@@ -131,15 +132,6 @@ return
 true
 ;
 }
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 #
 ifdef
 DEBUG_FRAME_DUMP
@@ -169,6 +161,13 @@ aContext
 ViewportFrame
 (
 aContext
+mozilla
+:
+:
+FrameType
+:
+:
+PageContent
 )
 {
 }

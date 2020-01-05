@@ -92,15 +92,6 @@ nsColorControlFrame
 )
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 #
 ifdef
 DEBUG_FRAME_DUMP

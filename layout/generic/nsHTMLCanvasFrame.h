@@ -64,6 +64,7 @@ aContext
 ;
 class
 nsHTMLCanvasFrame
+final
 :
 public
 nsContainerFrame
@@ -114,6 +115,13 @@ aContext
 nsContainerFrame
 (
 aContext
+mozilla
+:
+:
+FrameType
+:
+:
+HTMLCanvas
 )
 mBorderPadding
 (
@@ -314,15 +322,6 @@ override
 ;
 #
 endif
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 virtual
 bool
 IsFrameOfType

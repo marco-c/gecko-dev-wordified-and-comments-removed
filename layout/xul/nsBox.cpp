@@ -726,6 +726,13 @@ nsBox
 :
 nsBox
 (
+FrameType
+aType
+)
+:
+nsIFrame
+(
+aType
 )
 {
 MOZ_COUNT_CTOR

@@ -42,6 +42,7 @@ nsSVGDisplayableFrame
 ;
 class
 nsSVGClipPathFrame
+final
 :
 public
 nsSVGContainerFrame
@@ -102,6 +103,13 @@ aContext
 nsSVGContainerFrame
 (
 aContext
+mozilla
+:
+:
+FrameType
+:
+:
+SVGClipPath
 )
 mIsBeingProcessed
 (
@@ -273,15 +281,6 @@ nsIFrame
 *
 aPrevInFlow
 )
-override
-;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
 override
 ;
 #

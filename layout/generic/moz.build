@@ -782,6 +782,11 @@ CSSOrderAwareFrameIterator
 h
 '
 '
+FrameTypeList
+.
+h
+'
+'
 ReflowInput
 .
 h

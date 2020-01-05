@@ -102,6 +102,7 @@ mShrinkToFitRatio
 ;
 class
 nsSimplePageSequenceFrame
+final
 :
 public
 nsContainerFrame
@@ -329,14 +330,6 @@ return
 true
 ;
 }
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 #
 ifdef
 DEBUG_FRAME_DUMP

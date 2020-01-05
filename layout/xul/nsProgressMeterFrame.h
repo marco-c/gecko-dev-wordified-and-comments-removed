@@ -16,6 +16,7 @@ h
 "
 class
 nsProgressMeterFrame
+final
 :
 public
 nsBoxFrame

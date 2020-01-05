@@ -36,6 +36,7 @@ h
 "
 class
 nsGfxButtonControlFrame
+final
 :
 public
 nsHTMLButtonControlFrame
@@ -80,15 +81,6 @@ nsEventStatus
 *
 aEventStatus
 )
-override
-;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
 override
 ;
 #

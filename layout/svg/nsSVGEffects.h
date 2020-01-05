@@ -217,8 +217,10 @@ nsIFrame
 *
 GetReferencedFrame
 (
-nsIAtom
-*
+mozilla
+:
+:
+FrameType
 aFrameType
 bool
 *

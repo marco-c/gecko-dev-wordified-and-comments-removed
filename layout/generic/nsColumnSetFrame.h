@@ -234,15 +234,6 @@ aLists
 )
 override
 ;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 void
 DrainOverflowColumns
 (

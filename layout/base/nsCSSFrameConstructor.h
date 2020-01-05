@@ -1314,7 +1314,7 @@ GetParentType
 aParentFrame
 -
 >
-GetType
+Type
 (
 )
 )
@@ -1324,8 +1324,10 @@ static
 ParentType
 GetParentType
 (
-nsIAtom
-*
+mozilla
+:
+:
+FrameType
 aFrameType
 )
 ;

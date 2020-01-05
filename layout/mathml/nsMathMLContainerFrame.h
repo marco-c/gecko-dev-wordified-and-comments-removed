@@ -92,7 +92,6 @@ nsMathMLmfencedFrame
 ;
 public
 :
-explicit
 nsMathMLContainerFrame
 (
 nsStyleContext
@@ -103,6 +102,13 @@ aContext
 nsContainerFrame
 (
 aContext
+mozilla
+:
+:
+FrameType
+:
+:
+None
 )
 mIntrinsicWidth
 (

@@ -246,11 +246,17 @@ nsSplittableFrame
 nsStyleContext
 *
 aContext
+mozilla
+:
+:
+FrameType
+aType
 )
 :
 nsFrame
 (
 aContext
+aType
 )
 mPrevContinuation
 (

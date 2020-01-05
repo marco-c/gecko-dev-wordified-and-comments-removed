@@ -282,15 +282,9 @@ if
 childFrame2
 -
 >
-GetType
+IsTextFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-textFrame
 )
 {
 childFrame2

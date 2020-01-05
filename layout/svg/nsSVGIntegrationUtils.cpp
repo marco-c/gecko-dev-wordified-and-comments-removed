@@ -843,15 +843,9 @@ eSVG
 aNonSVGFrame
 -
 >
-GetType
+IsSVGOuterSVGFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-svgOuterSVGFrame
 )
 ;
 nsIFrame

@@ -166,11 +166,17 @@ nsSVGPaintServerFrame
 nsStyleContext
 *
 aContext
+mozilla
+:
+:
+FrameType
+aType
 )
 :
 nsSVGContainerFrame
 (
 aContext
+aType
 )
 {
 AddStateBits

@@ -62,6 +62,7 @@ nsStyleContext
 ;
 class
 nsSVGGenericContainerFrame
+final
 :
 public
 nsSVGDisplayContainerFrame
@@ -92,6 +93,13 @@ aContext
 nsSVGDisplayContainerFrame
 (
 aContext
+mozilla
+:
+:
+FrameType
+:
+:
+SVGGenericContainer
 )
 {
 }
@@ -110,15 +118,6 @@ aAttribute
 int32_t
 aModType
 )
-override
-;
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
 override
 ;
 #

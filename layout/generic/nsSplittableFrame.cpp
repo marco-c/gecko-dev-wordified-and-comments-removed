@@ -148,7 +148,7 @@ NS_ASSERTION
 aFrame
 |
 |
-GetType
+Type
 (
 )
 =
@@ -156,7 +156,7 @@ GetType
 aFrame
 -
 >
-GetType
+Type
 (
 )
 "
@@ -231,7 +231,7 @@ NS_ASSERTION
 aFrame
 |
 |
-GetType
+Type
 (
 )
 =
@@ -239,7 +239,7 @@ GetType
 aFrame
 -
 >
-GetType
+Type
 (
 )
 "
@@ -572,7 +572,7 @@ NS_ASSERTION
 aFrame
 |
 |
-GetType
+Type
 (
 )
 =
@@ -580,7 +580,7 @@ GetType
 aFrame
 -
 >
-GetType
+Type
 (
 )
 "
@@ -672,7 +672,7 @@ NS_ASSERTION
 aFrame
 |
 |
-GetType
+Type
 (
 )
 =
@@ -680,7 +680,7 @@ GetType
 aFrame
 -
 >
-GetType
+Type
 (
 )
 "

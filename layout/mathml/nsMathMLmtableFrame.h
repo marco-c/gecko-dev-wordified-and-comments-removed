@@ -50,6 +50,7 @@ h
 "
 class
 nsMathMLmtableWrapperFrame
+final
 :
 public
 nsTableWrapperFrame
@@ -169,6 +170,7 @@ aRowIndex
 ;
 class
 nsMathMLmtableFrame
+final
 :
 public
 nsTableFrame
@@ -472,6 +474,7 @@ mUseCSSSpacing
 ;
 class
 nsMathMLmtrFrame
+final
 :
 public
 nsTableRowFrame
@@ -853,6 +856,7 @@ nsMathMLmtdFrame
 ;
 class
 nsMathMLmtdInnerFrame
+final
 :
 public
 nsBlockFrame

@@ -52,15 +52,6 @@ nsStyleContext
 )
 ;
 virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
-virtual
 bool
 IsFrameOfType
 (

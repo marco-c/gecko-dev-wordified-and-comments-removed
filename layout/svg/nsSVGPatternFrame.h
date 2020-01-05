@@ -78,6 +78,7 @@ nsSVGAnimatedTransformList
 }
 class
 nsSVGPatternFrame
+final
 :
 public
 nsSVGPaintServerFrame
@@ -209,15 +210,6 @@ override
 ;
 #
 endif
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 #
 ifdef
 DEBUG_FRAME_DUMP

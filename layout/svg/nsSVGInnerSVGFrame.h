@@ -39,6 +39,7 @@ gfxContext
 ;
 class
 nsSVGInnerSVGFrame
+final
 :
 public
 nsSVGDisplayContainerFrame
@@ -71,6 +72,13 @@ aContext
 nsSVGDisplayContainerFrame
 (
 aContext
+mozilla
+:
+:
+FrameType
+:
+:
+SVGInnerSVG
 )
 {
 }
@@ -103,15 +111,6 @@ override
 ;
 #
 endif
-virtual
-nsIAtom
-*
-GetType
-(
-)
-const
-override
-;
 #
 ifdef
 DEBUG_FRAME_DUMP

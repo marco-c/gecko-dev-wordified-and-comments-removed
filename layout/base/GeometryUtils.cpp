@@ -949,15 +949,9 @@ Margin
 f
 -
 >
-GetType
+IsTableFrame
 (
 )
-=
-=
-nsGkAtoms
-:
-:
-tableFrame
 )
 {
 f

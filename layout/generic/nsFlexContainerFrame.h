@@ -49,6 +49,7 @@ aContext
 ;
 class
 nsFlexContainerFrame
+final
 :
 public
 nsContainerFrame
@@ -162,14 +163,6 @@ nsRenderingContext
 *
 aRenderingContext
 )
-override
-;
-nsIAtom
-*
-GetType
-(
-)
-const
 override
 ;
 #
@@ -327,6 +320,13 @@ aContext
 nsContainerFrame
 (
 aContext
+mozilla
+:
+:
+FrameType
+:
+:
+FlexContainer
 )
 mBaselineFromLastReflow
 (
