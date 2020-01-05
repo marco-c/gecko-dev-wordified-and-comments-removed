@@ -178,8 +178,6 @@ actual
 expected
 ;
 }
-else
-{
 return
 objEquiv
 (
@@ -187,7 +185,6 @@ actual
 expected
 )
 ;
-}
 }
 function
 isUndefinedOrNull

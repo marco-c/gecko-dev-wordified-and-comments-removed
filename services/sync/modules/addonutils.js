@@ -1164,12 +1164,9 @@ sync
 "
 ;
 }
-else
-{
 return
 param
 ;
-}
 }
 )
 ;

@@ -60,17 +60,6 @@ warn
 "
 no
 -
-else
--
-return
-"
-:
-"
-warn
-"
-"
-no
--
 ex
 -
 assign

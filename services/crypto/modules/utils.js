@@ -1344,8 +1344,6 @@ keyLength
 )
 ;
 }
-else
-{
 return
 CryptoUtils
 .
@@ -1360,7 +1358,6 @@ salt
 keyLength
 )
 ;
-}
 }
 computeHTTPMACSHA1
 :
