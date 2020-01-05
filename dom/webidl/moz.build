@@ -3545,6 +3545,11 @@ Gamepad
 webidl
 '
 '
+GamepadHapticActuator
+.
+webidl
+'
+'
 GamepadPose
 .
 webidl

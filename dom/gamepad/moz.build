@@ -152,6 +152,11 @@ GamepadButton
 h
 '
 '
+GamepadHapticActuator
+.
+h
+'
+'
 GamepadManager
 .
 h
@@ -234,6 +239,11 @@ cpp
 '
 '
 GamepadButton
+.
+cpp
+'
+'
+GamepadHapticActuator
 .
 cpp
 '

@@ -735,6 +735,16 @@ GamepadEvent
 name
 :
 "
+GamepadHapticActuator
+"
+release
+:
+false
+}
+{
+name
+:
+"
 GamepadPose
 "
 release
