@@ -22882,6 +22882,11 @@ bool
 done
 )
 ;
+void
+closeThrow
+(
+)
+;
 bool
 valueIsIterable
 (
