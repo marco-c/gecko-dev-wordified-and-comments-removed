@@ -6940,6 +6940,8 @@ CanAttachDenseElementHole
 JSObject
 *
 obj
+bool
+ownProp
 )
 {
 do
@@ -6970,6 +6972,13 @@ getClass
 )
 return
 false
+;
+if
+(
+ownProp
+)
+return
+true
 ;
 JSObject
 *
@@ -7093,6 +7102,7 @@ if
 CanAttachDenseElementHole
 (
 obj
+false
 )
 )
 return
@@ -10490,6 +10500,7 @@ if
 CanAttachDenseElementHole
 (
 obj
+false
 )
 )
 return
