@@ -1395,9 +1395,8 @@ oncommand
 "
 gSyncUI
 .
-openSetup
+openPrefs
 (
-null
 '
 synced
 -
@@ -1813,9 +1812,8 @@ oncommand
 "
 gSyncUI
 .
-openSetup
+openPrefs
 (
-null
 '
 synced
 -
@@ -1984,9 +1982,8 @@ oncommand
 "
 gSyncUI
 .
-openSetup
+openPrefs
 (
-null
 '
 synced
 -
