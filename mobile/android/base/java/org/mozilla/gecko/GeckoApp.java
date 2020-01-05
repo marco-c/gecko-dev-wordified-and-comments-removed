@@ -4739,7 +4739,7 @@ if
 (
 checkedItemPositions
 .
-get
+valueAt
 (
 i
 )
@@ -4749,7 +4749,12 @@ permissionsToClear
 .
 add
 (
+checkedItemPositions
+.
+keyAt
+(
 i
+)
 )
 ;
 }
