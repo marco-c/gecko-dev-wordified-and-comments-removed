@@ -611,7 +611,7 @@ id
 )
 ;
 int
-SetSendRIDStatus
+SetSendRtpStreamId
 (
 bool
 enable
@@ -624,7 +624,7 @@ rid
 )
 ;
 int
-SetReceiveRIDStatus
+SetReceiveRtpStreamId
 (
 bool
 enable

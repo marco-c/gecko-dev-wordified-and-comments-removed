@@ -6083,7 +6083,7 @@ extension_data
 break
 ;
 case
-kRtpExtensionRID
+kRtpExtensionRtpStreamId
 :
 block_length
 =
@@ -6659,11 +6659,15 @@ id
 ;
 if
 (
+!
+rid_
+|
+|
 rtp_header_extension_map_
 .
 GetId
 (
-kRtpExtensionRID
+kRtpExtensionRtpStreamId
 &
 id
 )
