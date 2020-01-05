@@ -12248,6 +12248,18 @@ errors
 .
 "
 )
+        
+self
+.
+generate_build_props
+(
+console_output
+=
+True
+halt_on_failure
+=
+True
+)
     
 def
 multi_l10n
@@ -12852,9 +12864,6 @@ def
 postflight_build
 (
 self
-console_output
-=
-True
 )
 :
         
@@ -12874,19 +12883,6 @@ s
 "
 "
 "
-        
-self
-.
-generate_build_props
-(
-console_output
-=
-console_output
-                                  
-halt_on_failure
-=
-True
-)
         
 if
 self
