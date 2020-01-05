@@ -142,6 +142,10 @@ DMOZ_STYLO_BINDINGS
 -
 DMOZILLA_INTERNAL_API
 "
+"
+-
+DRUST_BINDGEN
+"
         
 ]
         

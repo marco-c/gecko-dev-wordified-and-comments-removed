@@ -3268,15 +3268,6 @@ RawServoStyleSet
 ;
 pub
 fn
-Servo_StyleWorkerThreadCount
-(
-)
--
->
-u32
-;
-pub
-fn
 Servo_ComputeRestyleHint
 (
 element
