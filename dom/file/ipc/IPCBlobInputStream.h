@@ -25,6 +25,13 @@ nsIIPCSerializableInputStream
 .
 h
 "
+#
+include
+"
+nsISeekableStream
+.
+h
+"
 namespace
 mozilla
 {
@@ -46,6 +53,8 @@ public
 nsICloneableInputStream
 public
 nsIIPCSerializableInputStream
+public
+nsISeekableStream
 {
 public
 :
@@ -55,6 +64,7 @@ NS_DECL_NSIASYNCINPUTSTREAM
 NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSICLONEABLEINPUTSTREAM
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
+NS_DECL_NSISEEKABLESTREAM
 explicit
 IPCBlobInputStream
 (
@@ -88,6 +98,12 @@ nsIEventTarget
 *
 aEventTarget
 )
+;
+bool
+IsSeekableStream
+(
+)
+const
 ;
 RefPtr
 <
