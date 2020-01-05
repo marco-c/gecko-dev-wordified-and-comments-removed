@@ -211,7 +211,9 @@ aTrackType
 void
 OnDecoderInitFailed
 (
+const
 MediaResult
+&
 aError
 )
 ;
@@ -249,14 +251,11 @@ TaskQueue
 >
 mTaskQueue
 ;
-nsTArray
-<
 RefPtr
 <
 MediaRawData
 >
->
-mMediaRawSamples
+mPendingSample
 ;
 MediaDataDecoderCallback
 *
