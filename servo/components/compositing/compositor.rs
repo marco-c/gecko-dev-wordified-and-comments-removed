@@ -536,7 +536,6 @@ Debug
 PartialEq
 )
 ]
-pub
 enum
 UnableToComposite
 {
@@ -555,7 +554,6 @@ Debug
 PartialEq
 )
 ]
-pub
 enum
 NotReadyToPaint
 {
@@ -594,7 +592,6 @@ f32
 .
 1
 ;
-pub
 trait
 ConvertPipelineIdFromWebRender
 {
@@ -905,7 +902,6 @@ Copy
 Clone
 )
 ]
-pub
 struct
 ScrollZoomEvent
 {
@@ -988,7 +984,6 @@ LayerPixel
 f32
 >
 }
-pub
 struct
 PipelineDetails
 {
@@ -1049,7 +1044,6 @@ PartialEq
 Debug
 )
 ]
-pub
 enum
 CompositeTarget
 {
@@ -1414,7 +1408,6 @@ renderbuffer_ids
 renderbuffer_ids
 }
 }
-pub
 fn
 reporter_name
 (
@@ -2219,7 +2212,6 @@ Initial
 ;
 compositor
 }
-pub
 fn
 start_shutting_down
 (
@@ -2310,7 +2302,6 @@ ShutdownState
 ShuttingDown
 ;
 }
-pub
 fn
 finish_shutting_down
 (
@@ -4276,7 +4267,6 @@ false
 }
 }
 }
-pub
 fn
 pipeline_details
 (
@@ -6309,7 +6299,6 @@ e
 ;
 }
 }
-pub
 fn
 move_layer
 (
@@ -13079,7 +13068,6 @@ Image
 is
 returned
 .
-pub
 fn
 composite_specific_target
 (
