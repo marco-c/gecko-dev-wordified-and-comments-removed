@@ -421,6 +421,9 @@ class
 nsRange
 ;
 class
+nsScriptLoader
+;
+class
 nsSMILAnimationController
 ;
 class
@@ -598,9 +601,6 @@ ProcessingInstruction
 ;
 class
 Promise
-;
-class
-ScriptLoader
 ;
 class
 StyleSheetList
@@ -3198,13 +3198,7 @@ WindowID
 ;
 }
 virtual
-mozilla
-:
-:
-dom
-:
-:
-ScriptLoader
+nsScriptLoader
 *
 ScriptLoader
 (

@@ -435,9 +435,6 @@ xhr
 '
 worklet
 '
-'
-script
-'
 ]
 if
 CONFIG

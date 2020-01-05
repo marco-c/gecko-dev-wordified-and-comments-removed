@@ -87,11 +87,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ScriptLoader
+nsScriptLoader
 .
 h
 "
@@ -8276,7 +8272,7 @@ avail
 return
 ;
 }
-ScriptLoader
+nsScriptLoader
 :
 :
 ConvertToUTF16

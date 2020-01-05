@@ -8,11 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-css
-/
-Loader
+nsScriptLoader
 .
 h
 "
@@ -21,9 +17,9 @@ include
 "
 mozilla
 /
-dom
+css
 /
-ScriptLoader
+Loader
 .
 h
 "

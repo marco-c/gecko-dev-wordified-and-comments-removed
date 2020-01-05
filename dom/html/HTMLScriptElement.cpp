@@ -207,7 +207,7 @@ nsGenericHTMLElement
 (
 aNodeInfo
 )
-ScriptElement
+nsScriptElement
 (
 aFromParser
 )
