@@ -220,15 +220,6 @@ extensions
 /
 schemas
 /
-proxy
-.
-json
-content
-/
-extensions
-/
-schemas
-/
 privacy
 .
 json

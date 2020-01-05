@@ -170,11 +170,6 @@ NativeMessaging
 jsm
 '
 '
-ProxyScriptContext
-.
-jsm
-'
-'
 Schemas
 .
 jsm

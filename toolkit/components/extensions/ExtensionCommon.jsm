@@ -2119,10 +2119,6 @@ devtools_child
 :
 [
 ]
-proxy_script
-:
-[
-]
 }
 ;
 }
