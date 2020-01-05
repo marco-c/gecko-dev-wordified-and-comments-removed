@@ -282,6 +282,10 @@ VideoInputFeedBack
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+InputObserver
+)
 explicit
 InputObserver
 (
@@ -308,6 +312,12 @@ CamerasParent
 ;
 private
 :
+~
+InputObserver
+(
+)
+{
+}
 RefPtr
 <
 CamerasParent
@@ -749,8 +759,10 @@ mWebRTCAlive
 ;
 nsTArray
 <
+RefPtr
+<
 InputObserver
-*
+>
 >
 mObservers
 ;
