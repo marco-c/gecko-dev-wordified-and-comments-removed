@@ -654,6 +654,9 @@ endif
 #
 undef
 FORWARD
+#
+undef
+FORWARD_CONCRETE
 inline
 void
 ImplCycleCollectionTraverse
