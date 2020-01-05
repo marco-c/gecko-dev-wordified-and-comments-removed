@@ -132,17 +132,6 @@ WebRenderDisplayItemLayer
 h
 "
 #
-include
-"
-mozilla
-/
-layers
-/
-WebRenderBorderLayer
-.
-h
-"
-#
 define
 ACTIVE
 "
