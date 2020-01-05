@@ -637,8 +637,7 @@ SdpDirectionAttribute
 :
 :
 Direction
-operator
-~
+reverse
 (
 SdpDirectionAttribute
 :

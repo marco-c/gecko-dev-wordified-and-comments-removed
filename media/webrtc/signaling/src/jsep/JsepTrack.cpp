@@ -2543,8 +2543,10 @@ answer
 {
 direction
 =
-~
+reverse
+(
 direction
+)
 ;
 }
 if

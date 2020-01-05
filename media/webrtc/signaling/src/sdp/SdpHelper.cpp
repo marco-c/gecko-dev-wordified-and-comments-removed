@@ -4196,10 +4196,12 @@ negotiatedExt
 .
 direction
 =
-~
+reverse
+(
 negotiatedExt
 .
 direction
+)
 &
 ourExt
 .
