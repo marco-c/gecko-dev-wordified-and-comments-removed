@@ -29938,6 +29938,10 @@ reason
 )
 return
 ;
+interruptCallbackRequested
+=
+false
+;
 currentBudget
 =
 &
@@ -37275,6 +37279,10 @@ JSContext
 cx
 )
 {
+interruptCallbackRequested
+=
+false
+;
 JS
 :
 :
