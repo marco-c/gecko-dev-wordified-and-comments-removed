@@ -123,6 +123,9 @@ protocol
 PMemoryStream
 ;
 include
+IPCBlob
+;
+include
 IPCStream
 ;
 include
@@ -276,7 +279,7 @@ ClonedMessageData
 SerializedStructuredCloneBuffer
 data
 ;
-PBlob
+IPCBlob
 [
 ]
 blobs
