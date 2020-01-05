@@ -5387,8 +5387,9 @@ MOZ_RELEASE_ASSERT
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+cx
 )
 |
 |

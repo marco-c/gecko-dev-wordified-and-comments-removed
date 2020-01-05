@@ -5242,8 +5242,9 @@ chrome
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+cx
 )
 ;
 const
@@ -17160,8 +17161,9 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+IsSystemCaller
 (
+cx
 )
 )
 return
