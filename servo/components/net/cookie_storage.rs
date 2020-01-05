@@ -38,8 +38,9 @@ Url
 [
 derive
 (
-RustcEncodable
 Clone
+RustcDecodable
+RustcEncodable
 )
 ]
 pub
