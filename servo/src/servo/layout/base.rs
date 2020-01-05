@@ -255,6 +255,13 @@ BlockBox
 =
 >
 true
+(
+InlineBox
+InlineBox
+)
+=
+>
+true
 _
 =
 >
