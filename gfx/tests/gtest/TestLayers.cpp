@@ -287,11 +287,14 @@ LAYERS_BASIC
 ;
 }
 virtual
-void
+bool
 BeginTransaction
 (
 )
 {
+return
+true
+;
 }
 virtual
 already_AddRefed
@@ -377,7 +380,7 @@ aLayer
 {
 }
 virtual
-void
+bool
 BeginTransactionWithTarget
 (
 gfxContext
@@ -385,6 +388,9 @@ gfxContext
 aTarget
 )
 {
+return
+true
+;
 }
 virtual
 already_AddRefed

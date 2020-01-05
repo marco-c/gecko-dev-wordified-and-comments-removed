@@ -656,7 +656,7 @@ false
 ;
 }
 virtual
-void
+bool
 BeginTransaction
 (
 )
@@ -664,7 +664,7 @@ BeginTransaction
 0
 ;
 virtual
-void
+bool
 BeginTransactionWithTarget
 (
 gfxContext

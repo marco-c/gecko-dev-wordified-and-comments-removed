@@ -417,14 +417,14 @@ aRect
 )
 ;
 virtual
-void
+bool
 BeginTransaction
 (
 )
 override
 ;
 virtual
-void
+bool
 BeginTransactionWithTarget
 (
 gfxContext
@@ -442,6 +442,9 @@ Use
 BeginTransactionWithDrawTarget
 "
 )
+;
+return
+false
 ;
 }
 void

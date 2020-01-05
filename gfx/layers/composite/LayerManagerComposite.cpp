@@ -850,7 +850,7 @@ AreComponentAlphaLayersEnabled
 )
 ;
 }
-void
+bool
 LayerManagerComposite
 :
 :
@@ -874,10 +874,14 @@ Ready
 )
 {
 return
+false
 ;
 }
 mIsCompositorReady
 =
+true
+;
+return
 true
 ;
 }

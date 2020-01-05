@@ -867,7 +867,7 @@ forget
 )
 ;
 }
-void
+bool
 ClientLayerManager
 :
 :
@@ -924,6 +924,7 @@ died
 "
 ;
 return
+false
 ;
 }
 mInTransaction
@@ -1216,8 +1217,11 @@ mPaintSequenceNumber
 ;
 }
 }
+return
+true
+;
 }
-void
+bool
 ClientLayerManager
 :
 :
@@ -1225,6 +1229,7 @@ BeginTransaction
 (
 )
 {
+return
 BeginTransactionWithTarget
 (
 nullptr
@@ -1711,10 +1716,13 @@ mIsRepeatTransaction
 =
 true
 ;
+if
+(
 BeginTransaction
 (
 )
-;
+)
+{
 ClientLayerManager
 :
 :
@@ -1725,6 +1733,7 @@ aCallbackData
 aFlags
 )
 ;
+}
 mIsRepeatTransaction
 =
 false

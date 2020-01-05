@@ -1895,7 +1895,7 @@ mDoubleBuffering
 aDoubleBuffering
 ;
 }
-void
+bool
 BasicLayerManager
 :
 :
@@ -1911,13 +1911,14 @@ mUsingDefaultTarget
 =
 true
 ;
+return
 BeginTransactionWithTarget
 (
 mDefaultTarget
 )
 ;
 }
-void
+bool
 BasicLayerManager
 :
 :
@@ -1977,6 +1978,9 @@ PHASE_CONSTRUCTION
 mTarget
 =
 aTarget
+;
+return
+true
 ;
 }
 static
