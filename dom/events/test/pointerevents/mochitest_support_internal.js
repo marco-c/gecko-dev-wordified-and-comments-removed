@@ -362,6 +362,12 @@ event
 pointerType
 ]
 ;
+if
+(
+!
+suppressPointerIdCheck
+)
+{
 resultCallback
 (
 {
@@ -386,6 +392,7 @@ pointerId
 }
 )
 ;
+}
 }
 )
 ;
