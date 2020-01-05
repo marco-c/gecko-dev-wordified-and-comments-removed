@@ -599,7 +599,6 @@ const
 {
 EventEmitter
 LocaleData
-getUniqueId
 }
 =
 ExtensionUtils
@@ -3072,6 +3071,11 @@ _browserUpdated
 =
 false
 ;
+let
+nextId
+=
+0
+;
 const
 PROXIED_EVENTS
 =
@@ -3127,9 +3131,9 @@ this
 .
 instanceId
 =
-getUniqueId
-(
-)
+nextId
++
++
 ;
 this
 .
