@@ -533,7 +533,7 @@ currentTest
 +
 "
 .
-sps
+profile
 "
 ;
 return
@@ -607,7 +607,7 @@ profileDir
 /
 startup
 .
-sps
+profile
 "
 ;
 return

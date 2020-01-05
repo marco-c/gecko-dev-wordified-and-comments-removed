@@ -49,9 +49,9 @@ TalosError
 from
 talos
 .
-sps_profile
+gecko_profile
 import
-SpsProfile
+GeckoProfile
 LOG
 =
 get_proxy_logger
@@ -124,7 +124,7 @@ profile_dir
 .
      
 -
-sps
+Gecko
 profiling
 available
 via
@@ -132,7 +132,7 @@ the
 instance
 member
 *
-sps_profile
+gecko_profile
 *
        
 of
@@ -140,7 +140,7 @@ type
 :
 class
 :
-SpsProfile
+GeckoProfile
 or
 None
 if
@@ -315,7 +315,7 @@ profile
         
 self
 .
-sps_profile
+gecko_profile
 =
 None
     
@@ -956,7 +956,7 @@ initialized
 )
     
 def
-_init_sps_profile
+_init_gecko_profile
 (
 self
 )
@@ -981,7 +981,7 @@ test_config
 get
 (
 '
-sps_profile
+gecko_profile
 '
 )
 and
@@ -1017,23 +1017,23 @@ test_config
 get
 (
 '
-sps_profile
+gecko_profile
 '
 )
 :
             
 self
 .
-sps_profile
+gecko_profile
 =
-SpsProfile
+GeckoProfile
 (
 upload_dir
-                                          
+                                              
 self
 .
 browser_config
-                                          
+                                              
 self
 .
 test_config
@@ -1041,7 +1041,7 @@ test_config
             
 self
 .
-sps_profile
+gecko_profile
 .
 update_env
 (
@@ -1069,12 +1069,12 @@ _tmp_dir
 if
 self
 .
-sps_profile
+gecko_profile
 :
             
 self
 .
-sps_profile
+gecko_profile
 .
 clean
 (
@@ -1148,7 +1148,7 @@ raise
         
 self
 .
-_init_sps_profile
+_init_gecko_profile
 (
 )
         

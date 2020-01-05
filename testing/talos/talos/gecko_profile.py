@@ -4,7 +4,7 @@
 module
 to
 handle
-sps
+Gecko
 profilling
 .
 "
@@ -30,14 +30,14 @@ talos
 profiler
 import
 symbolication
-sps
+profiling
 LOG
 =
 get_proxy_logger
 (
 )
 class
-SpsProfile
+GeckoProfile
 (
 object
 )
@@ -48,7 +48,7 @@ object
 "
     
 Handle
-sps
+Gecko
 profilling
 .
     
@@ -56,7 +56,7 @@ This
 allow
 to
 collect
-sps
+Gecko
 profiling
 data
 and
@@ -98,7 +98,7 @@ test_config
 browser_config
 test_config
         
-sps_profile_dir
+gecko_profile_dir
 =
 tempfile
 .
@@ -106,31 +106,31 @@ mkdtemp
 (
 )
         
-sps_profile_interval
+gecko_profile_interval
 =
 test_config
 .
 get
 (
 '
-sps_profile_interval
+gecko_profile_interval
 '
 1
 )
         
-sps_profile_entries
+gecko_profile_entries
 =
 test_config
 .
 get
 (
 '
-sps_profile_entries
+gecko_profile_entries
 '
 1000000
 )
         
-sps_profile_threads
+gecko_profile_threads
 =
 '
 GeckoMain
@@ -157,8 +157,6 @@ profile_
 {
 0
 }
-.
-sps
 .
 zip
 "
@@ -277,11 +275,11 @@ entries
 .
 format
 (
-sps_profile_dir
+gecko_profile_dir
                          
-sps_profile_interval
+gecko_profile_interval
                          
-sps_profile_entries
+gecko_profile_entries
 )
 )
         
@@ -292,28 +290,28 @@ profiling_info
 {
             
 "
-sps_profile_interval
+gecko_profile_interval
 "
 :
-sps_profile_interval
+gecko_profile_interval
             
 "
-sps_profile_entries
+gecko_profile_entries
 "
 :
-sps_profile_entries
+gecko_profile_entries
             
 "
-sps_profile_dir
+gecko_profile_dir
 "
 :
-sps_profile_dir
+gecko_profile_dir
             
 "
-sps_profile_threads
+gecko_profile_threads
 "
 :
-sps_profile_threads
+gecko_profile_threads
         
 }
     
@@ -331,7 +329,7 @@ self
 profiling_info
 [
 "
-sps_profile_
+gecko_profile_
 "
 +
 name
@@ -375,7 +373,7 @@ test_config
 get
 (
 '
-sps_profile_startup
+gecko_profile_startup
 '
 )
 :
@@ -448,7 +446,7 @@ threads
 )
     
 def
-_save_sps_profile
+_save_gecko_profile
 (
 self
 cycle
@@ -500,7 +498,7 @@ symbolicate_profile
 profile
 )
             
-sps
+profiling
 .
 save_profile
 (
@@ -608,7 +606,7 @@ cycle
 "
         
 Symbolicate
-sps
+Gecko
 profiling
 data
 for
@@ -823,7 +821,7 @@ zipfile
 .
 ZIP_STORED
         
-sps_profile_dir
+gecko_profile_dir
 =
 self
 .
@@ -858,7 +856,7 @@ os
 .
 listdir
 (
-sps_profile_dir
+gecko_profile_dir
 )
 :
                 
@@ -873,7 +871,7 @@ endswith
 (
 "
 .
-sps
+profile
 "
 )
 :
@@ -885,7 +883,7 @@ testname
 0
 :
 -
-4
+8
 ]
                 
 profile_path
@@ -896,13 +894,13 @@ path
 .
 join
 (
-sps_profile_dir
+gecko_profile_dir
 profile_filename
 )
                 
 self
 .
-_save_sps_profile
+_save_gecko_profile
 (
 cycle
 symbolicator
@@ -920,7 +918,7 @@ cycle_
 0
 }
 .
-sps
+profile
 "
 .
 format

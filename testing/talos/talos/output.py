@@ -1193,7 +1193,7 @@ results_url
         
 if
 '
-spsProfile
+geckoProfile
 '
 not
 in

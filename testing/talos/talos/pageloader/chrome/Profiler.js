@@ -467,7 +467,7 @@ currentTest
 +
 "
 .
-sps
+profile
 "
 )
 ;
@@ -540,7 +540,7 @@ currentTest
 +
 "
 .
-sps
+profile
 "
 ;
 Components
@@ -777,7 +777,7 @@ profiler_dir
 /
 startup
 .
-sps
+profile
 "
 )
 ;

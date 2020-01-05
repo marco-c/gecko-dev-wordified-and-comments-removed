@@ -467,7 +467,7 @@ currentTest
 +
 "
 .
-sps
+profile
 "
 )
 ;
@@ -504,7 +504,7 @@ profiler_dir
 /
 startup
 .
-sps
+profile
 "
 )
 ;

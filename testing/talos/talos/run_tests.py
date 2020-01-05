@@ -247,7 +247,7 @@ if
 test
 [
 '
-sps_profile
+gecko_profile
 '
 ]
 :
@@ -257,7 +257,7 @@ LOG
 info
 (
 "
-sps
+Gecko
 profiling
 is
 enabled
@@ -1209,7 +1209,7 @@ not
 config
 [
 '
-sps_profile
+gecko_profile
 '
 ]
 :
@@ -1296,7 +1296,7 @@ if
 config
 [
 '
-sps_profile
+gecko_profile
 '
 ]
 :
@@ -1306,7 +1306,7 @@ talos_results
 add_extra_option
 (
 '
-spsProfile
+geckoProfile
 '
 )
     
@@ -1542,7 +1542,7 @@ or
 config
 [
 '
-sps_profile
+gecko_profile
 '
 ]
 :

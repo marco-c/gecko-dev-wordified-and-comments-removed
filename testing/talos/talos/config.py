@@ -92,15 +92,15 @@ e10s
 =
 False
         
-sps_profile
+gecko_profile
 =
 False
         
-sps_profile_interval
+gecko_profile_interval
 =
 1
         
-sps_profile_entries
+gecko_profile_entries
 =
 100000
         
@@ -1910,15 +1910,15 @@ cycles
 '
     
 '
-sps_profile
+gecko_profile
 '
     
 '
-sps_profile_interval
+gecko_profile_interval
 '
     
 '
-sps_profile_entries
+gecko_profile_entries
 '
     
 '
@@ -2653,7 +2653,7 @@ key
 !
 =
 '
-sps_profile
+gecko_profile
 '
 :
             
