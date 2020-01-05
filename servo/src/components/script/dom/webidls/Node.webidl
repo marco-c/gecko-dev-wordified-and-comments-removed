@@ -325,7 +325,6 @@ Node
 nextSibling
 ;
 [
-SetterThrows
 Pure
 ]
 attribute
@@ -334,7 +333,6 @@ DOMString
 nodeValue
 ;
 [
-SetterThrows
 Pure
 ]
 attribute
