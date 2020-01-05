@@ -260,9 +260,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-nsRuleData
+GenericSpecifiedValues
 *
-aRuleData
+aGenericData
 )
 ;
 virtual

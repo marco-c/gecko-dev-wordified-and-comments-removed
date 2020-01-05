@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+GenericSpecifiedValues
+.
+h
+"
+#
+include
+"
 nsStyledElement
 .
 h
@@ -37,7 +46,7 @@ const
 nsMappedAttributes
 *
 aAttributes
-nsRuleData
+GenericSpecifiedValues
 *
 aData
 )
@@ -94,9 +103,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-nsRuleData
+GenericSpecifiedValues
 *
-aRuleData
+aGenericData
 )
 ;
 NS_IMETHOD

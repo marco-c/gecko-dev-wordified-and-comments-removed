@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsRuleData
+.
+h
+"
+#
+include
+"
 nsRuleWalker
 .
 h
@@ -22,7 +29,9 @@ h
 #
 include
 "
-nsRuleData
+mozilla
+/
+GenericSpecifiedValues
 .
 h
 "

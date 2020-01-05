@@ -533,6 +533,11 @@ DocumentStyleRootIterator
 h
 '
 '
+GenericSpecifiedValues
+.
+h
+'
+'
 HandleRefPtr
 .
 h
