@@ -293,10 +293,6 @@ jitZone_
 group
 nullptr
 )
-gcState_
-(
-NoGC
-)
 gcScheduled_
 (
 false

@@ -2261,6 +2261,7 @@ sop
 >
 ForgetGlobalObject
 (
+obj
 )
 ;
 DestroyProtoAndIfaceCache

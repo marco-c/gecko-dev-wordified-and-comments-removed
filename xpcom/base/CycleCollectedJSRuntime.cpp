@@ -5417,7 +5417,7 @@ wrapper
 cache
 -
 >
-GetWrapperPreserveColor
+GetWrapperMaybeDead
 (
 )
 ;
@@ -5562,7 +5562,7 @@ MOZ_ASSERT
 aCache
 -
 >
-GetWrapperPreserveColor
+GetWrapperMaybeDead
 (
 )
 )
@@ -5578,7 +5578,7 @@ ObjectIsTenured
 aCache
 -
 >
-GetWrapperPreserveColor
+GetWrapperMaybeDead
 (
 )
 )

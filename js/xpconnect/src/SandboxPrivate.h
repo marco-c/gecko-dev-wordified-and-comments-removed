@@ -120,10 +120,14 @@ GetWrapper
 void
 ForgetGlobalObject
 (
+JSObject
+*
+obj
 )
 {
 ClearWrapper
 (
+obj
 )
 ;
 }
