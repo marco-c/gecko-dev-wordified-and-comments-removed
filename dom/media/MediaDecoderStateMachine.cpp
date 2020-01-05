@@ -6728,7 +6728,7 @@ override
 mMaster
 -
 >
-Push
+PushAudio
 (
 aAudio
 )
@@ -6755,7 +6755,7 @@ override
 mMaster
 -
 >
-Push
+PushVideo
 (
 aVideo
 )
@@ -9492,6 +9492,13 @@ mMaster
 ScheduleStateMachineIn
 (
 USECS_PER_S
+)
+;
+mMaster
+-
+>
+DispatchDecodeTasksIfNeeded
+(
 )
 ;
 return
