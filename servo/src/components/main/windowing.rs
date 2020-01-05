@@ -89,6 +89,10 @@ Point2D
 <
 f32
 >
+Point2D
+<
+i32
+>
 )
 ZoomWindowEvent
 (
@@ -190,5 +194,16 @@ render_state
 :
 RenderState
 )
+;
+pub
+fn
+hidpi_factor
+(
+mut
+self
+)
+-
+>
+f32
 ;
 }
