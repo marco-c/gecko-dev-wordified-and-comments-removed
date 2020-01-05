@@ -82,6 +82,12 @@ seq_parameter_set_id
 uint8_t
 chroma_format_idc
 ;
+uint8_t
+bit_depth_luma_minus8
+;
+uint8_t
+bit_depth_chroma_minus8
+;
 bool
 separate_colour_plane_flag
 ;
@@ -123,6 +129,9 @@ frame_mbs_only_flag
 ;
 bool
 mb_adaptive_frame_field_flag
+;
+bool
+direct_8x8_inference_flag
 ;
 bool
 frame_cropping_flag
