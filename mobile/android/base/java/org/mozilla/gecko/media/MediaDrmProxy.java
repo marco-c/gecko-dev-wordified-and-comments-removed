@@ -278,7 +278,7 @@ AppConstants
 .
 Versions
 .
-preMarshmallow
+preLollipop
 )
 {
 if
