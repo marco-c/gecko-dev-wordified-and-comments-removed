@@ -644,6 +644,10 @@ nodelist
 ;
 pub
 mod
+processinginstruction
+;
+pub
+mod
 uievent
 ;
 pub
