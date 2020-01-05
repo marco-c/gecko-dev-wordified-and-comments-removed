@@ -117,7 +117,7 @@ IDecodingTask
 aTask
 )
 ;
-void
+bool
 SyncRunIfPreferred
 (
 IDecodingTask

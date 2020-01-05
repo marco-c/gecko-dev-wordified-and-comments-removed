@@ -683,7 +683,7 @@ mAnimationConsumers
 )
 ;
 }
-NS_IMETHOD
+bool
 Decode
 (
 const

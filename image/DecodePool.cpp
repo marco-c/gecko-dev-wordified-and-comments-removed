@@ -1292,7 +1292,7 @@ aTask
 )
 ;
 }
-void
+bool
 DecodePool
 :
 :
@@ -1333,12 +1333,16 @@ Run
 )
 ;
 return
+true
 ;
 }
 AsyncRun
 (
 aTask
 )
+;
+return
+false
 ;
 }
 void

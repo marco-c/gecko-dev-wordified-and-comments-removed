@@ -1294,6 +1294,9 @@ locked
 "
 )
 ;
+bool
+ranSync
+=
 Decode
 (
 requestedSize
@@ -1303,9 +1306,14 @@ aPlaybackType
 ;
 if
 (
+ranSync
+|
+|
+(
 aFlags
 &
 FLAG_SYNC_DECODE
+)
 )
 {
 result
@@ -4162,7 +4170,7 @@ NS_OK
 ;
 }
 static
-void
+bool
 LaunchDecodingTask
 (
 IDecodingTask
@@ -4240,6 +4248,7 @@ aTask
 )
 ;
 return
+true
 ;
 }
 if
@@ -4286,6 +4295,7 @@ get
 )
 )
 ;
+return
 DecodePool
 :
 :
@@ -4298,8 +4308,6 @@ SyncRunIfPreferred
 (
 aTask
 )
-;
-return
 ;
 }
 }
@@ -4316,8 +4324,11 @@ AsyncRun
 aTask
 )
 ;
+return
+false
+;
 }
-NS_IMETHODIMP
+bool
 RasterImage
 :
 :
@@ -4346,7 +4357,7 @@ mError
 )
 {
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 if
@@ -4360,7 +4371,7 @@ mWantFullDecode
 true
 ;
 return
-NS_OK
+false
 ;
 }
 SurfaceCache
@@ -4518,13 +4529,14 @@ task
 )
 {
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 mDecodeCount
 +
 +
 ;
+return
 LaunchDecodingTask
 (
 task
@@ -4532,9 +4544,6 @@ this
 aFlags
 mHasSourceData
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
