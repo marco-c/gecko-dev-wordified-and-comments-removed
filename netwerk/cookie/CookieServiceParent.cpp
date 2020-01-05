@@ -372,6 +372,10 @@ bool
 &
 aIsForeign
 const
+bool
+&
+aFromHttp
+const
 OriginAttributes
 &
 aAttrs
@@ -428,7 +432,7 @@ GetCookieStringInternal
 (
 hostURI
 aIsForeign
-false
+aFromHttp
 aAttrs
 isPrivate
 *
@@ -469,6 +473,10 @@ const
 nsCString
 &
 aServerTime
+const
+bool
+&
+aFromHttp
 const
 OriginAttributes
 &
@@ -556,7 +564,7 @@ hostURI
 aIsForeign
 cookieString
 aServerTime
-false
+aFromHttp
 aAttrs
 isPrivate
 dummyChannel

@@ -128,6 +128,8 @@ char
 *
 *
 aCookieString
+bool
+aFromHttp
 )
 ;
 nsresult
@@ -147,6 +149,8 @@ const
 char
 *
 aServerTime
+bool
+aFromHttp
 )
 ;
 void

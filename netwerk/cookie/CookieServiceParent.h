@@ -79,6 +79,10 @@ bool
 &
 aIsForeign
 const
+bool
+&
+aFromHttp
+const
 OriginAttributes
 &
 aAttrs
@@ -114,6 +118,10 @@ const
 nsCString
 &
 aServerTime
+const
+bool
+&
+aFromHttp
 const
 OriginAttributes
 &
