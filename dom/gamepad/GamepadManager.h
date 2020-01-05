@@ -122,6 +122,8 @@ nsAString
 aID
 GamepadMappingType
 aMapping
+GamepadServiceType
+aServiceType
 uint32_t
 aNumButtons
 uint32_t
@@ -133,6 +135,8 @@ RemoveGamepad
 (
 uint32_t
 aIndex
+GamepadServiceType
+aServiceType
 )
 ;
 void
@@ -310,6 +314,15 @@ bool
 aHasSeen
 =
 true
+)
+;
+uint32_t
+GetGamepadIndexWithServiceType
+(
+uint32_t
+aIndex
+GamepadServiceType
+aServiceType
 )
 ;
 nsRefPtrHashtable

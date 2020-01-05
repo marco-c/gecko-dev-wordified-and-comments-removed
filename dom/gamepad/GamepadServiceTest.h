@@ -11,6 +11,17 @@ nsIIPCBackgroundChildCreateCallback
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+GamepadBinding
+.
+h
+"
 namespace
 mozilla
 {

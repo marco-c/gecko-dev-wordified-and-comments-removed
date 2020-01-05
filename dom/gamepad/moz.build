@@ -174,6 +174,13 @@ h
 '
 ipc
 /
+GamepadMessageUtils
+.
+h
+'
+'
+ipc
+/
 GamepadTestChannelChild
 .
 h

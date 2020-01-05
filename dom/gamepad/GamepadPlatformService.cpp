@@ -321,10 +321,11 @@ aID
 )
 )
 index
-(
-uint32_t
-)
 aMapping
+GamepadServiceType
+:
+:
+Standard
 aNumButtons
 aNumAxes
 )
@@ -370,6 +371,10 @@ GamepadRemoved
 a
 (
 aIndex
+GamepadServiceType
+:
+:
+Standard
 )
 ;
 NotifyGamepadChange

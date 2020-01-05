@@ -135,6 +135,17 @@ kRightStickYAxis
 =
 3
 ;
+enum
+class
+GamepadServiceType
+:
+uint16_t
+{
+Standard
+VR
+NumGamepadServiceType
+}
+;
 class
 Gamepad
 final
