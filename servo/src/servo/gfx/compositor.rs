@@ -1,4 +1,4 @@
-import
+use
 dom
 :
 :
@@ -7,7 +7,7 @@ event
 :
 Event
 ;
-import
+use
 azure
 :
 :

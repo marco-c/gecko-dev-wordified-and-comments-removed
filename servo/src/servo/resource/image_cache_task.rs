@@ -21,7 +21,7 @@ ImageCacheTaskClient
 export
 SyncImageCacheTask
 ;
-import
+use
 image
 :
 :
@@ -34,7 +34,7 @@ load_from_memory
 test_image_bin
 }
 ;
-import
+use
 std
 :
 :
@@ -46,7 +46,7 @@ url
 :
 Url
 ;
-import
+use
 util
 :
 :
@@ -59,7 +59,7 @@ UrlMap
 url_map
 }
 ;
-import
+use
 comm
 :
 :
@@ -68,7 +68,7 @@ Chan
 Port
 }
 ;
-import
+use
 task
 :
 :
@@ -77,19 +77,19 @@ spawn
 spawn_listener
 }
 ;
-import
+use
 resource
 :
 :
 resource_task
 ;
-import
+use
 resource_task
 :
 :
 ResourceTask
 ;
-import
+use
 std
 :
 :
@@ -98,7 +98,7 @@ arc
 :
 ARC
 ;
-import
+use
 clone_arc
 =
 std
@@ -109,7 +109,7 @@ arc
 :
 clone
 ;
-import
+use
 std
 :
 :
@@ -118,7 +118,7 @@ cell
 :
 Cell
 ;
-import
+use
 to_str
 :
 :

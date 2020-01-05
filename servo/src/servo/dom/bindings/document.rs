@@ -1,4 +1,4 @@
-import
+use
 js
 :
 :
@@ -12,7 +12,7 @@ methods
 jsobj
 }
 ;
-import
+use
 js
 :
 :
@@ -27,7 +27,7 @@ JS_SET_RVAL
 JSPROP_NATIVE_ACCESSORS
 }
 ;
-import
+use
 js
 :
 :
@@ -44,7 +44,7 @@ JSClass
 JSFreeOp
 }
 ;
-import
+use
 js
 :
 :
@@ -66,7 +66,7 @@ JS_DefineProperty
 JS_DefineProperties
 }
 ;
-import
+use
 js
 :
 :
@@ -78,7 +78,7 @@ bindgen
 :
 *
 ;
-import
+use
 js
 :
 :
@@ -90,7 +90,7 @@ PROPERTY_STUB
 STRICT_PROPERTY_STUB
 }
 ;
-import
+use
 js
 :
 :
@@ -105,19 +105,19 @@ JS_ConvertStub
 JS_ResolveStub
 }
 ;
-import
+use
 ptr
 :
 :
 null
 ;
-import
+use
 libc
 :
 :
 c_uint
 ;
-import
+use
 utils
 :
 :
@@ -129,7 +129,7 @@ squirrel_away
 str
 }
 ;
-import
+use
 bindings
 :
 :
@@ -138,7 +138,7 @@ node
 :
 create
 ;
-import
+use
 base
 :
 :

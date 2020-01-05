@@ -1,4 +1,4 @@
-import
+use
 geom
 :
 :
@@ -7,7 +7,7 @@ point
 :
 Point2D
 ;
-import
+use
 geom
 :
 :
@@ -16,7 +16,7 @@ rect
 :
 Rect
 ;
-import
+use
 geom
 :
 :
@@ -25,7 +25,7 @@ size
 :
 Size2D
 ;
-import
+use
 num
 :
 :

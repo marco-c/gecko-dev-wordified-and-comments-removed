@@ -71,7 +71,7 @@ str
 >
 Opts
 {
-import
+use
 std
 :
 :

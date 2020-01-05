@@ -1,7 +1,7 @@
 export
 build_display_list
 ;
-import
+use
 css
 :
 :
@@ -14,7 +14,7 @@ BgTransparent
 Specified
 }
 ;
-import
+use
 base
 :
 :
@@ -25,7 +25,7 @@ ImageHolder
 TextBoxKind
 }
 ;
-import
+use
 dl
 =
 layout
@@ -33,7 +33,7 @@ layout
 :
 display_list
 ;
-import
+use
 dom
 :
 :
@@ -45,7 +45,7 @@ Text
 NodeScope
 }
 ;
-import
+use
 dom
 :
 :
@@ -54,7 +54,7 @@ rcu
 :
 Scope
 ;
-import
+use
 either
 :
 :
@@ -63,7 +63,7 @@ Left
 Right
 }
 ;
-import
+use
 geom
 :
 :
@@ -72,7 +72,7 @@ point
 :
 Point2D
 ;
-import
+use
 geom
 :
 :
@@ -81,7 +81,7 @@ rect
 :
 Rect
 ;
-import
+use
 geom
 :
 :
@@ -90,7 +90,7 @@ size
 :
 Size2D
 ;
-import
+use
 gfx
 :
 :
@@ -104,19 +104,19 @@ box
 px_to_au
 }
 ;
-import
+use
 util
 :
 :
 tree
 ;
-import
+use
 dvec
 :
 :
 DVec
 ;
-import
+use
 vec
 :
 :

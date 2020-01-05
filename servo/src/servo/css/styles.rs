@@ -14,7 +14,7 @@ matching
 .
 "
 ]
-import
+use
 std
 :
 :
@@ -27,7 +27,7 @@ get
 clone
 }
 ;
-import
+use
 css
 :
 :
@@ -36,7 +36,7 @@ values
 :
 *
 ;
-import
+use
 css
 :
 :
@@ -45,7 +45,7 @@ values
 :
 Stylesheet
 ;
-import
+use
 dom
 :
 :
@@ -60,7 +60,7 @@ UnknownElement
 HTMLScriptElement
 }
 ;
-import
+use
 dom
 :
 :
@@ -76,7 +76,7 @@ NodeKind
 Text
 }
 ;
-import
+use
 util
 :
 :
@@ -88,7 +88,7 @@ Color
 rgb
 }
 ;
-import
+use
 util
 :
 :
@@ -103,7 +103,7 @@ white
 black
 }
 ;
-import
+use
 layout
 :
 :

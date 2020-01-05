@@ -3,7 +3,7 @@ GlyphIndex
 GlyphPos
 Glyph
 ;
-import
+use
 gfx
 :
 :
@@ -12,7 +12,7 @@ geometry
 :
 au
 ;
-import
+use
 geom
 :
 :

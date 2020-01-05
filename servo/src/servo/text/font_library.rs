@@ -2,7 +2,7 @@ export
 FontLibrary
 native
 ;
-import
+use
 font
 :
 :
@@ -34,6 +34,10 @@ native_lib
 )
 ;
 }
+}
+impl
+FontLibrary
+{
 fn
 get_font
 (
@@ -204,7 +208,7 @@ linux
 mod
 native
 {
-import
+use
 ptr
 :
 :
@@ -213,13 +217,13 @@ null
 addr_of
 }
 ;
-import
+use
 azure
 :
 :
 freetype
 ;
-import
+use
 freetype
 :
 :
@@ -228,7 +232,7 @@ FT_Library
 FT_Error
 }
 ;
-import
+use
 freetype
 :
 :

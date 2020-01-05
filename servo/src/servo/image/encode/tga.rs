@@ -1,10 +1,10 @@
-import
+use
 gfx
 :
 :
 surface
 ;
-import
+use
 io
 :
 :

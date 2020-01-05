@@ -470,6 +470,10 @@ DVec
 ~
 Attr
 >
+}
+impl
+ElementData
+{
 fn
 get_attr
 (

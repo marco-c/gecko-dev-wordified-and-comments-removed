@@ -13,7 +13,7 @@ boxes
 .
 "
 ]
-import
+use
 gfx
 :
 :
@@ -22,7 +22,7 @@ geometry
 :
 au_to_px
 ;
-import
+use
 layout
 :
 :
@@ -42,7 +42,7 @@ IntrinsicBox
 TextBox
 }
 ;
-import
+use
 layout
 :
 :
@@ -53,7 +53,7 @@ traverse
 top_down_traversal
 }
 ;
-import
+use
 std
 :
 :
@@ -65,7 +65,7 @@ url
 :
 Url
 ;
-import
+use
 resource
 :
 :
@@ -74,7 +74,7 @@ image_cache_task
 :
 ImageCacheTask
 ;
-import
+use
 css
 :
 :

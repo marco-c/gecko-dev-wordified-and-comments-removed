@@ -1,4 +1,4 @@
-import
+use
 js
 :
 :
@@ -11,7 +11,7 @@ bare_compartment
 methods
 }
 ;
-import
+use
 js
 :
 :
@@ -25,7 +25,7 @@ JS_THIS_OBJECT
 JS_SET_RVAL
 }
 ;
-import
+use
 js
 :
 :
@@ -42,7 +42,7 @@ JSClass
 JSFreeOp
 }
 ;
-import
+use
 js
 :
 :
@@ -66,7 +66,7 @@ JS_GetClass
 JS_GetPrototype
 }
 ;
-import
+use
 js
 :
 :
@@ -81,7 +81,7 @@ CONVERT_STUB
 RESOLVE_STUB
 }
 ;
-import
+use
 js
 :
 :
@@ -93,7 +93,7 @@ bindgen
 :
 *
 ;
-import
+use
 ptr
 :
 :

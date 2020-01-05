@@ -3,7 +3,7 @@ make_url
 UrlMap
 url_map
 ;
-import
+use
 std
 :
 :
@@ -12,7 +12,7 @@ net
 :
 url
 ;
-import
+use
 std
 :
 :
@@ -24,7 +24,7 @@ url
 :
 Url
 ;
-import
+use
 std
 :
 :
@@ -33,7 +33,7 @@ map
 :
 hashmap
 ;
-import
+use
 path
 :
 :
@@ -864,7 +864,7 @@ UrlMap
 T
 >
 {
-import
+use
 core
 :
 :

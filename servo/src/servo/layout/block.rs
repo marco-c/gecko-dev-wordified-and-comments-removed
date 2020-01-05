@@ -8,7 +8,7 @@ layout
 .
 "
 ]
-import
+use
 css
 :
 :
@@ -17,7 +17,7 @@ values
 :
 *
 ;
-import
+use
 geom
 :
 :
@@ -26,7 +26,7 @@ point
 :
 Point2D
 ;
-import
+use
 geom
 :
 :
@@ -35,7 +35,7 @@ size
 :
 Size2D
 ;
-import
+use
 gfx
 :
 :
@@ -47,13 +47,13 @@ px_to_au
 au
 }
 ;
-import
+use
 util
 :
 :
 tree
 ;
-import
+use
 base
 :
 :

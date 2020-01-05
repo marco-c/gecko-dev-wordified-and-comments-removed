@@ -15,7 +15,7 @@ layout
 boxes
 "
 ]
-import
+use
 base
 :
 :
@@ -25,7 +25,7 @@ BTree
 NodeMethods
 }
 ;
-import
+use
 intrinsic
 :
 :

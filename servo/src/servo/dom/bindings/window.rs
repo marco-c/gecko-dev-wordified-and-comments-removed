@@ -1,4 +1,4 @@
-import
+use
 js
 :
 :
@@ -10,7 +10,7 @@ bare_compartment
 methods
 }
 ;
-import
+use
 js
 :
 :
@@ -24,7 +24,7 @@ JS_THIS_OBJECT
 JS_SET_RVAL
 }
 ;
-import
+use
 js
 :
 :
@@ -41,7 +41,7 @@ JSClass
 JSFreeOp
 }
 ;
-import
+use
 js
 :
 :
@@ -65,7 +65,7 @@ JS_EncodeString
 JS_free
 }
 ;
-import
+use
 js
 :
 :
@@ -77,7 +77,7 @@ bindgen
 :
 *
 ;
-import
+use
 js
 :
 :
@@ -86,7 +86,7 @@ global
 :
 jsval_to_rust_str
 ;
-import
+use
 js
 :
 :
@@ -101,7 +101,7 @@ JS_ConvertStub
 JS_ResolveStub
 }
 ;
-import
+use
 js
 :
 :
@@ -113,19 +113,19 @@ bindgen
 :
 RUST_JSVAL_TO_INT
 ;
-import
+use
 ptr
 :
 :
 null
 ;
-import
+use
 libc
 :
 :
 c_uint
 ;
-import
+use
 utils
 :
 :
@@ -135,7 +135,7 @@ squirrel_away
 jsval_to_str
 }
 ;
-import
+use
 bindings
 :
 :
@@ -144,7 +144,7 @@ node
 :
 create
 ;
-import
+use
 dom
 :
 :
@@ -156,7 +156,7 @@ Node
 Window
 }
 ;
-import
+use
 dvec
 :
 :

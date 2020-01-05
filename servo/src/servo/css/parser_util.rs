@@ -831,7 +831,7 @@ test
 mod
 test
 {
-import
+use
 css
 :
 :
@@ -840,7 +840,7 @@ lexer
 :
 spawn_css_lexer_from_string
 ;
-import
+use
 css
 :
 :
@@ -849,7 +849,7 @@ parser
 :
 build_stylesheet
 ;
-import
+use
 css
 :
 :

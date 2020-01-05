@@ -57,7 +57,7 @@ export
 NativeFont
 create
 ;
-import
+use
 font_library
 :
 :

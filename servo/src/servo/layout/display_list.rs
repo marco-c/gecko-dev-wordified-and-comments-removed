@@ -1,4 +1,4 @@
-import
+use
 gfx
 :
 :
@@ -7,7 +7,7 @@ geometry
 :
 *
 ;
-import
+use
 geom
 :
 :
@@ -16,7 +16,7 @@ rect
 :
 Rect
 ;
-import
+use
 image
 :
 :
@@ -25,7 +25,7 @@ base
 :
 Image
 ;
-import
+use
 servo_text
 :
 :
@@ -34,7 +34,7 @@ text_run
 :
 TextRun
 ;
-import
+use
 std
 :
 :
@@ -43,7 +43,7 @@ arc
 :
 ARC
 ;
-import
+use
 dvec
 :
 :

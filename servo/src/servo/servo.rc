@@ -375,7 +375,7 @@ url
 mod
 opts
 ;
-import
+use
 servo_text
 =
 text
