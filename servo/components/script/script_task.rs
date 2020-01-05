@@ -184,6 +184,7 @@ document
 Document
 DocumentProgressHandler
 DocumentSource
+FocusType
 IsHTMLDocument
 }
 ;
@@ -526,7 +527,6 @@ constellation_msg
 :
 {
 ConstellationChan
-FocusType
 LoadData
 }
 ;

@@ -230,7 +230,10 @@ dom
 document
 :
 :
+{
 Document
+FocusType
+}
 ;
 use
 dom
@@ -348,15 +351,6 @@ virtualmethods
 :
 :
 VirtualMethods
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-FocusType
 ;
 use
 selectors
