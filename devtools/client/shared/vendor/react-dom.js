@@ -91,6 +91,7 @@ else
 {
 var
 g
+;
 if
 (
 typeof
