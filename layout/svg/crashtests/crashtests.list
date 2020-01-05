@@ -472,12 +472,6 @@ load
 458453
 .
 html
-skip
--
-if
-(
-stylo
-)
 load
 459666
 -
@@ -928,12 +922,6 @@ load
 1
 .
 svg
-skip
--
-if
-(
-stylo
-)
 load
 789390
 -

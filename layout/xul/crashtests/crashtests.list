@@ -339,12 +339,6 @@ load
 1
 .
 xhtml
-skip
--
-if
-(
-stylo
-)
 load
 397293
 .

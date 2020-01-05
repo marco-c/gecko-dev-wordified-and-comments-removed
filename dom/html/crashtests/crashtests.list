@@ -84,12 +84,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-stylo
-)
 load
 395340
 -

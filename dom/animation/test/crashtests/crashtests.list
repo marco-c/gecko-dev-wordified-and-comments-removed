@@ -193,6 +193,9 @@ bug
 and
 bug
 1332657
+and
+bug
+1336769
 skip
 -
 if
@@ -224,6 +227,9 @@ bug
 and
 bug
 1332657
+and
+bug
+1336769
 pref
 (
 dom
@@ -378,12 +384,6 @@ bug
 and
 bug
 1311257
-skip
--
-if
-(
-stylo
-)
 pref
 (
 dom
@@ -436,13 +436,7 @@ load
 html
 #
 bug
-1324690
-skip
--
-if
-(
-stylo
-)
+1339318
 pref
 (
 dom

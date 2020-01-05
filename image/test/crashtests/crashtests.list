@@ -388,12 +388,6 @@ gotten
 our
 size
 .
-skip
--
-if
-(
-stylo
-)
 asserts
 (
 0
