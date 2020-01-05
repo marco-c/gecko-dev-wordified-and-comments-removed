@@ -910,6 +910,9 @@ None
 :
 if
 input
+is
+not
+None
 :
 #
 Wrap
