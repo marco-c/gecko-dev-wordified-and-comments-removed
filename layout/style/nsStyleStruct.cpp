@@ -222,9 +222,6 @@ nsStyleGridLine
 :
 :
 kMinLine
-=
--
-10000
 ;
 const
 int32_t
@@ -232,8 +229,6 @@ nsStyleGridLine
 :
 :
 kMaxLine
-=
-10000
 ;
 static
 bool
@@ -3691,8 +3686,6 @@ nsStyleColumn
 :
 :
 kMaxColumnCount
-=
-1000
 ;
 nsStyleColumn
 :
