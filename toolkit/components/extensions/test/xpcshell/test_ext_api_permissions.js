@@ -106,6 +106,11 @@ background
 (
 )
 {
+void
+browser
+.
+storage
+;
 }
 manifest
 :
@@ -137,6 +142,11 @@ context
 =
 yield
 contextPromise
+;
+void
+context
+.
+apiObj
 ;
 ok
 (
@@ -191,6 +201,11 @@ background
 (
 )
 {
+void
+browser
+.
+storage
+;
 }
 manifest
 :
@@ -225,6 +240,11 @@ context
 =
 yield
 contextPromise
+;
+void
+context
+.
+apiObj
 ;
 equal
 (
