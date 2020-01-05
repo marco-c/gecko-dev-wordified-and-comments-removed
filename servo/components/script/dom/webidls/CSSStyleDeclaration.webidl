@@ -624,8 +624,6 @@ attribute
 DOMString
 textShadow
 ;
-/
-/
 [
 TreatNullAs
 =
@@ -633,14 +631,8 @@ EmptyString
 ]
 attribute
 DOMString
-float
+_float
 ;
-/
-/
-XXXjdm
-need
-BinaryName
-annotation
 [
 TreatNullAs
 =
