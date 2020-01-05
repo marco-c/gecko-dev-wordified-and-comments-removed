@@ -796,7 +796,7 @@ __linux__
 |
 defined
 (
-SOLARIS
+__sun
 )
 #
 if
