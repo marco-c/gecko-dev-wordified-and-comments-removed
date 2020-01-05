@@ -152,8 +152,6 @@ attribute
 DOMString
 formTarget
 ;
-/
-/
 attribute
 DOMString
 name
@@ -162,8 +160,6 @@ attribute
 DOMString
 type
 ;
-/
-/
 attribute
 DOMString
 value
