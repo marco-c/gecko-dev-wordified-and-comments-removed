@@ -918,6 +918,11 @@ ReferrerPolicy
 .
 h
 '
+'
+TCPFastOpen
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -1250,6 +1255,11 @@ cpp
 '
 '
 StreamingProtocolService
+.
+cpp
+'
+'
+TCPFastOpenLayer
 .
 cpp
 '
