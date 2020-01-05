@@ -602,9 +602,12 @@ test
 /
 ref
 /
-*
+basic
 .
 list
+(
+TESTNAME
+)
 -
 -
 -
@@ -649,9 +652,12 @@ test
 /
 ref
 /
-*
+basic
 .
 list
+(
+TESTNAME
+)
 .
 PHONY
 :
