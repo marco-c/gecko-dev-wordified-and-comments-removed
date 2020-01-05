@@ -232,13 +232,13 @@ if
 CONFIG
 [
 '
-OS_TARGET
+OS_ARCH
 '
 ]
 !
 =
 '
-Android
+Linux
 '
 :
 SOURCES
