@@ -69,6 +69,17 @@ CONTRIBUTING
 .
 md
 )
+and
+[
+HACKING_QUICKSTART
+.
+md
+]
+(
+HACKING_QUICKSTART
+.
+md
+)
 for
 help
 getting
