@@ -4578,6 +4578,7 @@ mRuleGeneration
 uint8_t
 mSystem
 ;
+MOZ_INIT_OUTSIDE_CTOR
 uint8_t
 mSpeakAs
 ;
