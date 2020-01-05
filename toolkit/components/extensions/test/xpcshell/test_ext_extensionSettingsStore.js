@@ -232,6 +232,11 @@ test_settings_store
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 let
 testExtensions
 =
@@ -286,11 +291,6 @@ manifest
 )
 ]
 ;
-await
-promiseStartupManager
-(
-)
-;
 for
 (
 let
@@ -320,8 +320,6 @@ extension
 extension
 .
 extension
-.
-_extension
 )
 ;
 let

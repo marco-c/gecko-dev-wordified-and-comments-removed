@@ -425,6 +425,11 @@ test_preference_manager
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 let
 testExtensions
 =
@@ -463,11 +468,6 @@ manifest
 )
 ]
 ;
-await
-promiseStartupManager
-(
-)
-;
 for
 (
 let
@@ -497,8 +497,6 @@ extension
 extension
 .
 extension
-.
-_extension
 )
 ;
 for
