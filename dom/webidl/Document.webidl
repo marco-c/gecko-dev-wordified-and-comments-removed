@@ -399,7 +399,11 @@ namespace
 DOMString
 qualifiedName
 optional
+(
 ElementCreationOptions
+or
+DOMString
+)
 options
 )
 ;

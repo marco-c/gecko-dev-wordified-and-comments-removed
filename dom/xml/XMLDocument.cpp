@@ -1082,6 +1082,15 @@ IsEmpty
 ErrorResult
 result
 ;
+ElementCreationOptionsOrString
+options
+;
+options
+.
+SetAsString
+(
+)
+;
 nsCOMPtr
 <
 Element
@@ -1095,9 +1104,7 @@ CreateElementNS
 (
 aNamespaceURI
 aQualifiedName
-ElementCreationOptions
-(
-)
+options
 result
 )
 ;

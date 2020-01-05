@@ -6304,7 +6304,7 @@ mozilla
 dom
 :
 :
-ElementCreationOptions
+ElementCreationOptionsOrString
 &
 aOptions
 mozilla
