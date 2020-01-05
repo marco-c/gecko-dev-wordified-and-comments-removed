@@ -6,11 +6,15 @@ use
 gfx
 :
 :
-{
 au
+;
+use
+gfx
+:
+:
+{
 Au
 Font
-FontCache
 }
 ;
 use

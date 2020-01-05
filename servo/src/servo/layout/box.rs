@@ -3310,11 +3310,6 @@ run
 .
 serialize
 (
-builder
-.
-ctx
-.
-font_cache
 )
 d
 .

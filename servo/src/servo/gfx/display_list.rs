@@ -366,7 +366,7 @@ deserialize
 (
 ctx
 .
-font_cache
+font_ctx
 )
 ;
 let

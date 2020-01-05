@@ -13,7 +13,7 @@ gfx
 :
 {
 Au
-FontCache
+FontContext
 }
 ;
 use
@@ -40,9 +40,9 @@ Url
 struct
 LayoutContext
 {
-font_cache
+font_ctx
 :
-FontCache
+FontContext
 image_cache
 :
 LocalImageCache
