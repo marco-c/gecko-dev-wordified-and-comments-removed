@@ -777,6 +777,11 @@ CSSAlignUtils
 h
 '
 '
+CSSOrderAwareFrameIterator
+.
+h
+'
+'
 ReflowInput
 .
 h
@@ -846,6 +851,11 @@ cpp
 '
 '
 CSSAlignUtils
+.
+cpp
+'
+'
+CSSOrderAwareFrameIterator
 .
 cpp
 '
