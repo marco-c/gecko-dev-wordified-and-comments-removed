@@ -1,5 +1,7 @@
+static
+const
 uint8_t
-webMSample
+sWebMSample
 [
 ]
 =
