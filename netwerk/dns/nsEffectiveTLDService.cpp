@@ -1064,7 +1064,7 @@ nullptr
 ;
 while
 (
-1
+true
 )
 {
 if
@@ -1303,7 +1303,7 @@ eTLD
 ;
 while
 (
-1
+true
 )
 {
 if
