@@ -3858,7 +3858,7 @@ servo
 /
 libfontconfig
 #
-ce4a38633dc649b95c9b4935c0cce53e76d8b46a
+dc21212ea0088fe8ada3027c365012e1c1ec8311
 "
 dependencies
 =
@@ -7789,7 +7789,7 @@ rust
 -
 mozjs
 #
-18f507903856a814f12cce2ffda8065695d8f485
+4c311480691348aeecfa2adecca5bb9787cce8cc
 "
 dependencies
 =
@@ -9672,7 +9672,7 @@ servo
 /
 mozjs
 #
-19edb950930f03f0ad305ffbd9548b92fdb0a250
+2d5bc1838f8cc2f37177c705fb9bc583c742bc33
 "
 [
 [
