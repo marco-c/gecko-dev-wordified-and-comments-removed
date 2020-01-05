@@ -201,7 +201,13 @@ aDrawTargetForTightBoundingBox
 Spacing
 *
 aSpacing
-uint16_t
+mozilla
+:
+:
+gfx
+:
+:
+ShapedTextFlags
 aOrientation
 )
 override

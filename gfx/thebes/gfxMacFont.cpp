@@ -855,7 +855,10 @@ aRefDrawTarget
 Spacing
 *
 aSpacing
-uint16_t
+gfx
+:
+:
+ShapedTextFlags
 aOrientation
 )
 {
