@@ -3452,17 +3452,6 @@ MacroAssembler
 masm
 )
 ;
-MOZ_MUST_USE
-bool
-callTypeUpdateIC
-(
-MacroAssembler
-&
-masm
-uint32_t
-objectOffset
-)
-;
 void
 enterStubFrame
 (
