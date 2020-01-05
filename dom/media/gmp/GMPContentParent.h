@@ -144,8 +144,10 @@ ChromiumCDMParent
 aCDM
 )
 ;
+nsCOMPtr
+<
 nsIThread
-*
+>
 GMPThread
 (
 )

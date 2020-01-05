@@ -702,8 +702,10 @@ return
 NS_OK
 ;
 }
+nsCOMPtr
+<
 nsIThread
-*
+>
 GMPContentParent
 :
 :

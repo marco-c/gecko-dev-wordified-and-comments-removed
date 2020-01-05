@@ -368,8 +368,10 @@ State
 )
 const
 ;
+nsCOMPtr
+<
 nsIThread
-*
+>
 GMPThread
 (
 )
@@ -813,12 +815,6 @@ GMPStorageParent
 >
 >
 mStorage
-;
-nsCOMPtr
-<
-nsIThread
->
-mGMPThread
 ;
 nsCString
 mNodeId
