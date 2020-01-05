@@ -49,7 +49,7 @@ namespace
 layers
 {
 class
-WebRenderBridgeParent
+CompositorBridgeParentBase
 ;
 class
 RendererOGL
@@ -73,7 +73,7 @@ Create
 (
 bool
 aEnableProfiler
-WebRenderBridgeParent
+CompositorBridgeParentBase
 *
 aBridge
 RefPtr
