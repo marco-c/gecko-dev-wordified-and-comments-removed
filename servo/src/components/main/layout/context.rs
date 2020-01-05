@@ -110,6 +110,15 @@ FontContextInfo
 }
 ;
 use
+script
+:
+:
+layout_interface
+:
+:
+LayoutChan
+;
+use
 servo_msg
 :
 :
@@ -192,6 +201,9 @@ MutexArc
 <
 DomLeafSet
 >
+layout_chan
+:
+LayoutChan
 flow_leaf_set
 :
 MutexArc
