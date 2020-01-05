@@ -300,6 +300,15 @@ openssl
 .
 6
 "
+openssl
+-
+verify
+=
+"
+0
+.
+1
+"
 rustc
 -
 serialize

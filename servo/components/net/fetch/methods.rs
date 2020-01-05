@@ -1,4 +1,10 @@
 use
+connector
+:
+:
+create_http_connector
+;
+use
 data_loader
 :
 :
@@ -19,7 +25,6 @@ http_loader
 :
 {
 NetworkHttpRequestFactory
-create_http_connector
 obtain_response
 }
 ;
