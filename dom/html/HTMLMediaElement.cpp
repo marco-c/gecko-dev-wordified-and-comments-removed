@@ -11466,6 +11466,11 @@ pause
 )
 )
 ;
+AsyncRejectPendingPlayPromises
+(
+NS_ERROR_DOM_MEDIA_ABORT_ERR
+)
+;
 }
 }
 NS_IMETHODIMP
