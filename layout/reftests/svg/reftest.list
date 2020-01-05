@@ -8723,6 +8723,12 @@ svg
 about
 :
 blank
+fails
+-
+if
+(
+webrender
+)
 =
 =
 paint
@@ -8745,6 +8751,12 @@ maskLayer
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 paint
