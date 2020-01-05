@@ -510,8 +510,9 @@ tabIndex
 tabIndex
 =
 =
--
-1
+Tabs
+.
+NEW_LAST_INDEX
 ?
 tabsAdapter
 .
