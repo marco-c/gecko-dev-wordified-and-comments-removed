@@ -3827,17 +3827,6 @@ aRv
 )
 ;
 }
-nsresult
-GetURIListAttr
-(
-nsIAtom
-*
-aAttr
-nsAString
-&
-aResult
-)
-;
 virtual
 already_AddRefed
 <
