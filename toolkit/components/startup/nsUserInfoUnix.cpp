@@ -428,6 +428,8 @@ uname
 &
 buf
 )
+<
+0
 )
 {
 return
