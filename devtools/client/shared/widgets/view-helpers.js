@@ -4271,7 +4271,7 @@ focusPrevItem
 (
 )
 ;
-return
+break
 ;
 case
 KeyCodes
@@ -4289,7 +4289,7 @@ focusNextItem
 (
 )
 ;
-return
+break
 ;
 case
 KeyCodes
@@ -4317,7 +4317,7 @@ PAGE_SIZE_ITEM_COUNT_RATIO
 )
 )
 ;
-return
+break
 ;
 case
 KeyCodes
@@ -4345,7 +4345,7 @@ PAGE_SIZE_ITEM_COUNT_RATIO
 )
 )
 ;
-return
+break
 ;
 case
 KeyCodes
@@ -4358,7 +4358,7 @@ focusFirstVisibleItem
 (
 )
 ;
-return
+break
 ;
 case
 KeyCodes
@@ -4371,7 +4371,7 @@ focusLastVisibleItem
 (
 )
 ;
-return
+break
 ;
 }
 }

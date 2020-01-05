@@ -843,6 +843,4 @@ open
 fpCallback
 )
 ;
-return
-;
 }

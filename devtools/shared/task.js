@@ -152,10 +152,7 @@ createAsyncFunction
 (
 task
 )
-.
-call
 (
-undefined
 )
 ;
 }

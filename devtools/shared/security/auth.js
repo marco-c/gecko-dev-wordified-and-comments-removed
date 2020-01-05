@@ -718,7 +718,7 @@ authResult
 )
 )
 ;
-return
+break
 ;
 }
 }

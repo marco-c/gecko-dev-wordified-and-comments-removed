@@ -2814,8 +2814,6 @@ moreChildrenAvailable
 }
 )
 ;
-return
-;
 }
 }
 )
@@ -3063,11 +3061,6 @@ id
 )
 ;
 }
-}
-else
-{
-return
-;
 }
 }
 ;

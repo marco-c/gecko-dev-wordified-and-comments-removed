@@ -3642,10 +3642,6 @@ app
 ;
 break
 ;
-default
-:
-return
-;
 }
 }
 )

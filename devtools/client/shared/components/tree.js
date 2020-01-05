@@ -1057,7 +1057,7 @@ _focusPrevNode
 (
 )
 ;
-return
+break
 ;
 case
 "
@@ -1070,7 +1070,7 @@ _focusNextNode
 (
 )
 ;
-return
+break
 ;
 case
 "
@@ -1130,7 +1130,7 @@ _focusParentNode
 )
 ;
 }
-return
+break
 ;
 case
 "
@@ -1175,7 +1175,7 @@ _focusNextNode
 )
 ;
 }
-return
+break
 ;
 }
 }

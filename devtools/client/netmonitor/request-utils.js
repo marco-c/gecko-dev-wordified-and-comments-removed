@@ -103,10 +103,7 @@ filterKeyboardEvent
 )
 {
 callback
-.
-call
 (
-null
 key
 )
 ;
