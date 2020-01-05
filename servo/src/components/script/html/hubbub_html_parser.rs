@@ -1795,7 +1795,7 @@ tag
 "
 main
 "
-HTMLMainElement
+HTMLElement
 )
 ;
 handle_element

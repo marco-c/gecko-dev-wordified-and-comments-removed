@@ -518,7 +518,6 @@ HTMLLabelElementTypeId
 HTMLLegendElementTypeId
 HTMLLinkElementTypeId
 HTMLLIElementTypeId
-HTMLMainElementTypeId
 HTMLMapElementTypeId
 HTMLMediaElementTypeId
 HTMLMetaElementTypeId
