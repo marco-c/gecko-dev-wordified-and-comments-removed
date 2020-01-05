@@ -133,6 +133,11 @@ info
 :
 false
 "
+ignoreAllUncaughtExceptions
+"
+:
+false
+"
 is
 "
 :

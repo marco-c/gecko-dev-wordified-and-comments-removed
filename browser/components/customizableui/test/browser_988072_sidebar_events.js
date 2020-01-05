@@ -862,6 +862,8 @@ addEventListener
 "
 command
 "
+window
+.
 sawEvent
 )
 ;
@@ -910,6 +912,8 @@ addEventListener
 "
 click
 "
+window
+.
 sawEvent
 )
 ;
@@ -960,6 +964,8 @@ addEventListener
 "
 command
 "
+window
+.
 sawEvent
 )
 ;
@@ -970,6 +976,8 @@ addEventListener
 "
 click
 "
+window
+.
 sawEvent
 )
 ;
@@ -1021,6 +1029,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1074,6 +1084,8 @@ setAttribute
 onclick
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1129,6 +1141,8 @@ setAttribute
 onclick
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1145,6 +1159,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1205,6 +1221,8 @@ setAttribute
 onclick
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1220,6 +1238,8 @@ addEventListener
 "
 command
 "
+window
+.
 sawEvent
 )
 ;
@@ -1275,6 +1295,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1290,6 +1312,8 @@ addEventListener
 "
 click
 "
+window
+.
 sawEvent
 )
 ;
@@ -1346,6 +1370,8 @@ setAttribute
 onclick
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1361,6 +1387,8 @@ addEventListener
 "
 click
 "
+window
+.
 sawEvent
 )
 ;
@@ -1414,6 +1442,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1429,6 +1459,8 @@ addEventListener
 "
 command
 "
+window
+.
 sawEvent
 )
 ;
@@ -1504,6 +1536,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1636,6 +1670,8 @@ setAttribute
 onclick
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1770,6 +1806,8 @@ setAttribute
 onclick
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1786,6 +1824,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1924,6 +1964,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -1978,6 +2020,8 @@ addEventListener
 "
 click
 "
+window
+.
 sawEvent
 )
 ;
@@ -2072,6 +2116,8 @@ setAttribute
 onclick
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -2126,6 +2172,8 @@ addEventListener
 "
 command
 "
+window
+.
 sawEvent
 )
 ;
@@ -2228,6 +2276,8 @@ setAttribute
 onclick
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -2282,6 +2332,8 @@ addEventListener
 "
 click
 "
+window
+.
 sawEvent
 )
 ;
@@ -2381,6 +2433,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -2435,6 +2489,8 @@ addEventListener
 "
 command
 "
+window
+.
 sawEvent
 )
 ;
@@ -2538,6 +2594,8 @@ addEventListener
 "
 command
 "
+window
+.
 sawEvent
 )
 ;
@@ -2639,6 +2697,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -2766,6 +2826,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -2795,6 +2857,8 @@ addEventListener
 "
 command
 "
+window
+.
 sawEvent
 )
 ;
@@ -2896,6 +2960,8 @@ setAttribute
 oncommand
 "
 "
+window
+.
 sawEvent
 (
 event
@@ -2925,6 +2991,8 @@ addEventListener
 "
 command
 "
+window
+.
 sawEvent
 )
 ;
@@ -2947,6 +3015,8 @@ addEventListener
 "
 click
 "
+window
+.
 sawEvent
 )
 ;

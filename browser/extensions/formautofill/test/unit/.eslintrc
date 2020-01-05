@@ -27,6 +27,8 @@ xpcshell
 xpcshell
 .
 eslintrc
+.
+js
 "
 ]
 }

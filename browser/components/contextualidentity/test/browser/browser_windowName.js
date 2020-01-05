@@ -299,6 +299,7 @@ new
 '
 }
 function
+*
 (
 opts
 )

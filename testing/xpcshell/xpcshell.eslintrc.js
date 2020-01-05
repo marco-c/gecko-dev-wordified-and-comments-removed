@@ -94,6 +94,11 @@ do_get_profile
 :
 false
 "
+do_get_tempdir
+"
+:
+false
+"
 do_load_module
 "
 :
