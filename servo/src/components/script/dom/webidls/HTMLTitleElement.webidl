@@ -112,8 +112,9 @@ HTMLTitleElement
 :
 HTMLElement
 {
-/
-/
+[
+Pure
+]
 attribute
 DOMString
 text
