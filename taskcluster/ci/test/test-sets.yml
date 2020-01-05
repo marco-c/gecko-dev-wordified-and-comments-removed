@@ -339,6 +339,10 @@ jittest
 -
 jsreftest
 -
+mochitest
+-
+a11y
+-
 reftest
 -
 reftest
