@@ -727,6 +727,11 @@ CSSLexer
 h
 '
 '
+CSSMediaRule
+.
+h
+'
+'
 CSSRuleList
 .
 h
@@ -847,6 +852,11 @@ cpp
 '
 '
 CSSLexer
+.
+cpp
+'
+'
+CSSMediaRule
 .
 cpp
 '
