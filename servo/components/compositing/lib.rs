@@ -112,10 +112,6 @@ gleam
 ;
 extern
 crate
-webdriver_traits
-;
-extern
-crate
 clipboard
 ;
 extern
