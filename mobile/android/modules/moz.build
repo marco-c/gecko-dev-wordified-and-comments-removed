@@ -232,6 +232,11 @@ GeckoViewContent
 jsm
 '
 '
+GeckoViewModule
+.
+jsm
+'
+'
 GeckoViewNavigation
 .
 jsm
