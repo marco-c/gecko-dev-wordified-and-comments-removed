@@ -9290,6 +9290,17 @@ return
 NS_OK
 ;
 }
+if
+(
+mCanceled
+)
+{
+return
+CallOnStartRequest
+(
+)
+;
+}
 uint32_t
 httpStatus
 =
