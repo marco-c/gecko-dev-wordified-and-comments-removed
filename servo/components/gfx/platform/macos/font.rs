@@ -404,6 +404,7 @@ template
 .
 ctfont
 (
+size
 )
 {
 Some
