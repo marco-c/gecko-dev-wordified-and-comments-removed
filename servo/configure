@@ -1783,8 +1783,6 @@ src
 servo
 -
 gfx
--
-2
 make_dir
 src
 /

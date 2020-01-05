@@ -1033,8 +1033,6 @@ src
 servo
 -
 gfx
--
-2
 /
 *
 .
@@ -1050,8 +1048,6 @@ src
 servo
 -
 gfx
--
-2
 /
 servo_gfx
 .
@@ -1066,8 +1062,6 @@ src
 servo
 -
 gfx
--
-2
 /
 libservogfx
 .
@@ -1114,8 +1108,6 @@ src
 servo
 -
 gfx
--
-2
 SRC_servo
 =
 (
