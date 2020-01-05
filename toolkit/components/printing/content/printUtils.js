@@ -580,8 +580,9 @@ PRINT_PREVIEW_OPENED_COUNT
 }
 else
 {
-let
-ppBrowser
+this
+.
+_sourceBrowser
 =
 this
 .
@@ -591,7 +592,9 @@ getPrintPreviewBrowser
 (
 )
 ;
-ppBrowser
+this
+.
+_sourceBrowser
 .
 collapsed
 =
@@ -2013,11 +2016,7 @@ URL
 :
 this
 .
-_sourceBrowser
-.
-currentURI
-.
-spec
+_originalURL
 windowID
 :
 this
