@@ -706,6 +706,8 @@ i32
 GLContextAttributes
 IpcSender
 <
+Result
+<
 (
 IpcSender
 <
@@ -713,6 +715,8 @@ CanvasMsg
 >
 usize
 )
+String
+>
 >
 )
 }
