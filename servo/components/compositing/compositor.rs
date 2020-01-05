@@ -15703,6 +15703,12 @@ webrender_api
 tick_scrolling_bounce_animations
 (
 )
+;
+self
+.
+send_webrender_viewport_rects
+(
+)
 }
 }
 pub
