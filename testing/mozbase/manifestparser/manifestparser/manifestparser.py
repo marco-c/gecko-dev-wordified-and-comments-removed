@@ -968,6 +968,28 @@ in
 sections
 :
             
+subsuite
+=
+'
+'
+            
+if
+'
+subsuite
+'
+in
+data
+:
+                
+subsuite
+=
+data
+[
+'
+subsuite
+'
+]
+            
 if
 defaults_only
 and
@@ -1227,6 +1249,15 @@ relpath
 path
 rootdir
 )
+            
+test
+[
+'
+subsuite
+'
+]
+=
+subsuite
             
 test
 [

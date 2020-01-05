@@ -2298,15 +2298,11 @@ flavor
 '
 ]
 test
-.
-get
-(
+[
 '
 subsuite
 '
-'
-'
-)
+]
 )
             
 buckets

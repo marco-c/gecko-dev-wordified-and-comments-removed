@@ -2383,15 +2383,11 @@ flavor
 '
 ]
 test
-.
-get
-(
+[
 '
 subsuite
 '
-'
-'
-)
+]
 )
             
 if
@@ -2426,13 +2422,11 @@ default
                 
 if
 test
-.
-get
-(
+[
 '
 subsuite
 '
-)
+]
 :
                     
 unsupported
@@ -2448,15 +2442,11 @@ elif
 subsuite
 and
 test
-.
-get
-(
+[
 '
 subsuite
 '
-'
-'
-)
+]
 !
 =
 subsuite
