@@ -166,10 +166,7 @@ use
 url
 :
 :
-{
 Url
-UrlParser
-}
 ;
 use
 util
@@ -2483,15 +2480,6 @@ network_error
 let
 location_url
 =
-UrlParser
-:
-:
-new
-(
-)
-.
-base_url
-(
 self
 .
 url_list
@@ -2503,9 +2491,8 @@ last
 unwrap
 (
 )
-)
 .
-parse
+join
 (
 &
 *
