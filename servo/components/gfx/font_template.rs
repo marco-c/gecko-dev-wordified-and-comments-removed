@@ -70,6 +70,8 @@ derive
 (
 Clone
 Copy
+Eq
+Hash
 )
 ]
 pub

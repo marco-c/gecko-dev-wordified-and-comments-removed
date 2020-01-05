@@ -89,6 +89,7 @@ Eq
 PartialEq
 FromPrimitive
 Copy
+Hash
 )
 ]
 pub

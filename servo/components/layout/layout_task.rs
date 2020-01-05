@@ -3541,9 +3541,12 @@ font_cache_task
 .
 add_web_font
 (
+(
+*
 family
+)
 .
-to_owned
+clone
 (
 )
 (
