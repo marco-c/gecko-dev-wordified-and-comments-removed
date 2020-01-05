@@ -721,7 +721,12 @@ DOMString
 error
 =
 "
-maxTimersExceeded
+"
+;
+DOMString
+name
+=
+"
 "
 ;
 }
