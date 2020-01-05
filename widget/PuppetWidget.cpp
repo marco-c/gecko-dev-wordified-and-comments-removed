@@ -2680,6 +2680,10 @@ PLayerTransactionChild
 aShadowManager
 )
 {
+DestroyLayerManager
+(
+)
+;
 mLayerManager
 =
 new
