@@ -61,6 +61,11 @@ main
 "
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 runTools
 (
