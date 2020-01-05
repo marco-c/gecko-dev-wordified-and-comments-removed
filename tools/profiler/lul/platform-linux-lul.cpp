@@ -158,14 +158,7 @@ i
 if
 defined
 (
-SPS_OS_android
-)
-&
-&
-!
-defined
-(
-MOZ_WIDGET_GONK
+USE_FAULTY_LIB
 )
 AutoObjectMapperFaultyLib
 mapper
