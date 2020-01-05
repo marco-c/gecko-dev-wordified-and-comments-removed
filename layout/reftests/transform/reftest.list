@@ -2070,12 +2070,6 @@ inherit
 ref
 .
 html
-random
--
-if
-(
-webrender
-)
 =
 =
 animate
