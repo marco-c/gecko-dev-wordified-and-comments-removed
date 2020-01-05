@@ -6335,7 +6335,7 @@ single_vec_keyword_value
 !
 (
 repeat
-repeat_x
+RepeatX
 )
 ;
 let
@@ -6745,7 +6745,7 @@ single_vec_keyword_value
 !
 (
 repeat
-repeat_x
+RepeatX
 )
 ;
 let
