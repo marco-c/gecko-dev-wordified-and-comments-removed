@@ -67,11 +67,6 @@ ping
 *
 -
 ping
-addons
--
-malware
--
-ping
 The
 mozilla
 -
