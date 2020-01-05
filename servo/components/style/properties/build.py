@@ -15,6 +15,17 @@ path
 dirname
 (
 __file__
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
+)
 )
 sys
 .

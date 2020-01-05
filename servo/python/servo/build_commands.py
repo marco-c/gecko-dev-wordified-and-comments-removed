@@ -2701,6 +2701,14 @@ time
 (
 )
         
+env
+=
+self
+.
+build_env
+(
+)
+        
 with
 cd
 (
@@ -2735,11 +2743,7 @@ opts
                        
 env
 =
-self
-.
-build_env
-(
-)
+env
 verbose
 =
 verbose
