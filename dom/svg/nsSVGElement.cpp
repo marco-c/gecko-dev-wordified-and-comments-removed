@@ -5756,10 +5756,10 @@ propertyID
 value
 false
 data
-LengthParsingMode
+ParsingMode
 :
 :
-SVG
+AllowUnitlessLength
 )
 ;
 }

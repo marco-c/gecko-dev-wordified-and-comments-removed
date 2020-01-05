@@ -530,8 +530,8 @@ data
 mozilla
 :
 :
-LengthParsingMode
-length_parsing_mode
+ParsingMode
+parsing_mode
 )
 SERVO_BINDING_FUNC
 (
@@ -816,8 +816,8 @@ data
 mozilla
 :
 :
-LengthParsingMode
-length_parsing_mode
+ParsingMode
+parsing_mode
 )
 SERVO_BINDING_FUNC
 (
@@ -839,8 +839,8 @@ data
 mozilla
 :
 :
-LengthParsingMode
-length_parsing_mode
+ParsingMode
+parsing_mode
 )
 SERVO_BINDING_FUNC
 (

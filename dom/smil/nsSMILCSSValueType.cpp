@@ -2425,10 +2425,10 @@ aPropID
 &
 value
 data
-LengthParsingMode
+ParsingMode
 :
 :
-SVG
+AllowUnitlessLength
 )
 .
 Consume

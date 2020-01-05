@@ -156,10 +156,10 @@ UpdateAnimationsTasks
 )
 enum
 class
-LengthParsingMode
+ParsingMode
 {
 Default
-SVG
+AllowUnitlessLength
 }
 ;
 enum

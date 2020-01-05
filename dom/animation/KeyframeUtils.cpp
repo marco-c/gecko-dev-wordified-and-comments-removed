@@ -3140,7 +3140,7 @@ aProperty
 &
 value
 data
-LengthParsingMode
+ParsingMode
 :
 :
 Default
