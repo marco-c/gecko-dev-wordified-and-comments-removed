@@ -372,9 +372,16 @@ ServiceWorkerGlobalScope
 "
 ServiceWorkerRegistration
 "
+{
+name
+:
 "
 StorageManager
 "
+nightly
+:
+true
+}
 "
 SubtleCrypto
 "

@@ -355,9 +355,16 @@ Response
 "
 ServiceWorkerRegistration
 "
+{
+name
+:
 "
 StorageManager
 "
+nightly
+:
+true
+}
 "
 SubtleCrypto
 "
