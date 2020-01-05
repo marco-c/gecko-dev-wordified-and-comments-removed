@@ -84,8 +84,6 @@ Init
 CompositableClient
 *
 aCompositable
-uint64_t
-aAsyncID
 )
 ;
 virtual
@@ -122,16 +120,6 @@ return
 nullptr
 ;
 }
-uint64_t
-GetAsyncID
-(
-)
-const
-{
-return
-mAsyncID
-;
-}
 bool
 IsConnected
 (
@@ -165,9 +153,6 @@ protected
 CompositableClient
 *
 mCompositableClient
-;
-uint64_t
-mAsyncID
 ;
 bool
 mCanSend
