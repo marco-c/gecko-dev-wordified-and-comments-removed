@@ -45,6 +45,14 @@ decode_utf16
 [
 feature
 (
+fnbox
+)
+]
+#
+!
+[
+feature
+(
 optin_builtin_traits
 )
 ]
@@ -272,6 +280,10 @@ unsafe_code
 pub
 mod
 opts
+;
+pub
+mod
+panicking
 ;
 #
 [
