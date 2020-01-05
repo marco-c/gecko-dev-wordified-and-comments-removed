@@ -1187,6 +1187,12 @@ Create
 (
 mKeySystem
 mJavaCallbacks
+MediaPrefs
+:
+:
+PDMAndroidRemoteCodecEnabled
+(
+)
 )
 ;
 }

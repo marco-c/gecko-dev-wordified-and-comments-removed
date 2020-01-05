@@ -1164,6 +1164,8 @@ String
 keySystem
 Callbacks
 nativeCallbacks
+boolean
+isRemote
 )
 {
 MediaDrmProxy
