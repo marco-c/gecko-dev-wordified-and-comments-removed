@@ -16045,9 +16045,8 @@ double
 value
 )
 {
-*
-value
-=
+if
+(
 !
 JitOptions
 .
@@ -16055,7 +16054,10 @@ wasmTestMode
 &
 &
 FPSCR_default_NaN_mode_
-?
+)
+*
+value
+=
 JS
 :
 :
@@ -16064,9 +16066,6 @@ CanonicalizeNaN
 *
 value
 )
-:
-*
-value
 ;
 }
 void
@@ -16080,9 +16079,8 @@ float
 value
 )
 {
-*
-value
-=
+if
+(
 !
 JitOptions
 .
@@ -16090,7 +16088,10 @@ wasmTestMode
 &
 &
 FPSCR_default_NaN_mode_
-?
+)
+*
+value
+=
 JS
 :
 :
@@ -16099,9 +16100,6 @@ CanonicalizeNaN
 *
 value
 )
-:
-*
-value
 ;
 }
 bool
