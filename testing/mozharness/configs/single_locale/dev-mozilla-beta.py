@@ -153,7 +153,11 @@ branch
 "
 :
 "
-default
+%
+(
+revision
+)
+s
 "
         
 "
