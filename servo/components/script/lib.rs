@@ -99,14 +99,6 @@ plugin
 [
 feature
 (
-question_mark
-)
-]
-#
-!
-[
-feature
-(
 slice_patterns
 )
 ]

@@ -394,7 +394,7 @@ winapi
 ;
 static
 mut
-g_nested_event_loop_listener
+G_NESTED_EVENT_LOOP_LISTENER
 :
 Option
 <
@@ -2040,7 +2040,7 @@ u32
 unsafe
 {
 match
-g_nested_event_loop_listener
+G_NESTED_EVENT_LOOP_LISTENER
 {
 None
 =
@@ -4169,7 +4169,7 @@ static
 )
 )
 {
-g_nested_event_loop_listener
+G_NESTED_EVENT_LOOP_LISTENER
 =
 Some
 (
@@ -4185,7 +4185,7 @@ remove_nested_event_loop_listener
 self
 )
 {
-g_nested_event_loop_listener
+G_NESTED_EVENT_LOOP_LISTENER
 =
 None
 }
