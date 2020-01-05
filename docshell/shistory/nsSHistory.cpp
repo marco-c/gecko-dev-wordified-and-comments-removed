@@ -6375,9 +6375,6 @@ aExtraHeaderStream
 nsIURI
 *
 aBaseURI
-nsIPrincipal
-*
-aTriggeringPrincipal
 )
 {
 return
