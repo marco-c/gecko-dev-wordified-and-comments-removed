@@ -19,8 +19,10 @@ SkTypes
 .
 h
 "
+sk_sp
+<
 SkFontMgr
-*
+>
 SkFontMgr
 :
 :

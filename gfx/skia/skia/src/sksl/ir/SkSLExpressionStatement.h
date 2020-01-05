@@ -59,10 +59,7 @@ expression
 )
 {
 }
-std
-:
-:
-string
+String
 description
 (
 )
@@ -82,7 +79,6 @@ description
 "
 ;
 }
-const
 std
 :
 :

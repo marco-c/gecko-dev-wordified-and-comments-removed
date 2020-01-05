@@ -814,6 +814,10 @@ fAttachments
 if
 (
 attachment
+.
+get
+(
+)
 =
 =
 deleted
@@ -923,7 +927,7 @@ AttachmentPoint
 :
 kColor
 ;
-SkAutoTUnref
+sk_sp
 <
 const
 FramebufferAttachment
@@ -996,7 +1000,7 @@ fBoundBuffers
 )
 )
 ;
-fExtensions
+fAdvertisedExtensions
 .
 push_back
 (
@@ -1005,7 +1009,7 @@ GL_ARB_framebuffer_object
 "
 )
 ;
-fExtensions
+fAdvertisedExtensions
 .
 push_back
 (
@@ -1014,7 +1018,7 @@ GL_ARB_blend_func_extended
 "
 )
 ;
-fExtensions
+fAdvertisedExtensions
 .
 push_back
 (
@@ -1023,7 +1027,7 @@ GL_ARB_timer_query
 "
 )
 ;
-fExtensions
+fAdvertisedExtensions
 .
 push_back
 (
@@ -1032,7 +1036,7 @@ GL_ARB_draw_buffers
 "
 )
 ;
-fExtensions
+fAdvertisedExtensions
 .
 push_back
 (
@@ -1041,7 +1045,7 @@ GL_ARB_occlusion_query
 "
 )
 ;
-fExtensions
+fAdvertisedExtensions
 .
 push_back
 (
@@ -1055,7 +1059,7 @@ if
 enableNVPR
 )
 {
-fExtensions
+fAdvertisedExtensions
 .
 push_back
 (
@@ -1064,7 +1068,7 @@ GL_NV_path_rendering
 "
 )
 ;
-fExtensions
+fAdvertisedExtensions
 .
 push_back
 (
@@ -1074,7 +1078,7 @@ GL_ARB_program_interface_query
 )
 ;
 }
-fExtensions
+fAdvertisedExtensions
 .
 push_back
 (
@@ -2533,7 +2537,7 @@ i
 ;
 while
 (
-fExtensions
+fAdvertisedExtensions
 [
 i
 +
@@ -3005,7 +3009,7 @@ const
 GrGLubyte
 *
 )
-fExtensions
+fAdvertisedExtensions
 [
 i
 ]
@@ -3503,7 +3507,7 @@ fCurrUniformLocation
 GrGLuint
 fCurrPathID
 ;
-SkAutoTUnref
+sk_sp
 <
 const
 Texture
@@ -3516,7 +3520,7 @@ const
 char
 *
 >
-fExtensions
+fAdvertisedExtensions
 ;
 static
 const
@@ -3614,6 +3618,10 @@ Texture
 }
 return
 fSingleTextureObject
+.
+get
+(
+)
 ;
 }
 const
@@ -3656,7 +3664,7 @@ i
 ;
 while
 (
-fExtensions
+fAdvertisedExtensions
 [
 i
 ]
@@ -3682,7 +3690,7 @@ gExtString
 .
 append
 (
-fExtensions
+fAdvertisedExtensions
 [
 i
 ]

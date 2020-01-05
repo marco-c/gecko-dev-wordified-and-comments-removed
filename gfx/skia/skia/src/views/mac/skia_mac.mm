@@ -135,6 +135,8 @@ void
 dealloc
 {
 delete
+self
+.
 fWind
 ;
 [
@@ -149,6 +151,8 @@ void
 )
 begin
 {
+self
+.
 fWind
 =
 create_sk_window

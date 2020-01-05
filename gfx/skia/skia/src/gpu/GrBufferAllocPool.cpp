@@ -1774,8 +1774,7 @@ startVertex
 ;
 size_t
 offset
-=
-0
+SK_INIT_TO_AVOID_WARNING
 ;
 void
 *
@@ -1879,8 +1878,7 @@ startIndex
 ;
 size_t
 offset
-=
-0
+SK_INIT_TO_AVOID_WARNING
 ;
 void
 *

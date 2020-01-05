@@ -7,7 +7,7 @@ SkVertState_DEFINED
 #
 include
 "
-SkCanvas
+SkVertices
 .
 h
 "
@@ -73,7 +73,7 @@ VertState
 Proc
 chooseProc
 (
-SkCanvas
+SkVertices
 :
 :
 VertexMode

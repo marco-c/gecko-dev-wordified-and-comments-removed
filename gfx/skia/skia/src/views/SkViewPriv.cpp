@@ -1,6 +1,13 @@
 #
 include
 "
+SkDOM
+.
+h
+"
+#
+include
+"
 SkViewPriv
 .
 h

@@ -4,6 +4,13 @@ SkShadowParams_DEFINED
 #
 define
 SkShadowParams_DEFINED
+#
+include
+"
+SkScalar
+.
+h
+"
 struct
 SkShadowParams
 {

@@ -65,14 +65,6 @@ FontFlags
 )
 0
 )
-fLastGlyphID
-(
-0
-)
-fEmSize
-(
-0
-)
 fStyle
 (
 (
@@ -153,12 +145,6 @@ kNotSubsettable_FontFlag
 ;
 FontFlags
 fFlags
-;
-uint16_t
-fLastGlyphID
-;
-uint16_t
-fEmSize
 ;
 enum
 StyleFlags

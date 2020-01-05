@@ -50,11 +50,7 @@ coinPtTEnd
 (
 )
 const
-{
-return
-fCoinPtTEnd
 ;
-}
 const
 SkOpPtT
 *
@@ -62,11 +58,7 @@ coinPtTStart
 (
 )
 const
-{
-return
-fCoinPtTStart
 ;
-}
 SkOpPtT
 *
 coinPtTEndWritable
@@ -423,11 +415,7 @@ oppPtTStart
 (
 )
 const
-{
-return
-fOppPtTStart
 ;
-}
 const
 SkOpPtT
 *
@@ -435,11 +423,7 @@ oppPtTEnd
 (
 )
 const
-{
-return
-fOppPtTEnd
 ;
-}
 SkOpPtT
 *
 oppPtTStartWritable
@@ -479,6 +463,9 @@ fOppPtTEnd
 bool
 ordered
 (
+bool
+*
+result
 )
 const
 ;
@@ -533,7 +520,7 @@ ptT
 )
 )
 ;
-SkASSERT
+SkOPASSERT
 (
 !
 fCoinPtTStart
@@ -594,7 +581,7 @@ SkOpPtT
 ptT
 )
 {
-SkASSERT
+SkOPASSERT
 (
 ptT
 =
@@ -782,7 +769,7 @@ SkOpPtT
 ptT
 )
 {
-SkASSERT
+SkOPASSERT
 (
 ptT
 =
@@ -800,7 +787,7 @@ ptT
 )
 )
 ;
-SkASSERT
+SkOPASSERT
 (
 !
 fOppPtTEnd
@@ -1028,7 +1015,7 @@ DEBUG_COIN_DECLARE_PARAMS
 )
 )
 ;
-void
+bool
 apply
 (
 DEBUG_COIN_DECLARE_ONLY_PARAMS
@@ -1437,7 +1424,7 @@ SkOpPtT
 oppPtTEnd
 )
 ;
-void
+bool
 findOverlaps
 (
 SkOpCoincidence
@@ -1497,7 +1484,7 @@ fHead
 fTop
 ;
 }
-void
+bool
 mark
 (
 DEBUG_COIN_DECLARE_ONLY_PARAMS

@@ -8,12 +8,14 @@ h
 #
 include
 "
-SkFontMgr_custom
+SkFontMgr_empty
 .
 h
 "
+sk_sp
+<
 SkFontMgr
-*
+>
 SkFontMgr
 :
 :

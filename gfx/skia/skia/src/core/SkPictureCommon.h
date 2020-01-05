@@ -1,4 +1,10 @@
 #
+ifndef
+SkPictureCommon_DEFINED
+#
+define
+SkPictureCommon_DEFINED
+#
 include
 "
 SkPathEffect
@@ -724,6 +730,8 @@ op
 opAA
 .
 aa
+(
+)
 &
 &
 !
@@ -849,3 +857,5 @@ fNumSlowPathsAndDashEffects
 ;
 }
 ;
+#
+endif

@@ -33,11 +33,11 @@ SkWebpCodec
 *
 )
 ;
-virtual
 ~
 SkWebpAdapterCodec
 (
 )
+override
 {
 }
 protected

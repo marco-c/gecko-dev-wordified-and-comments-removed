@@ -19,8 +19,10 @@ SkFontMgr_FontConfigInterface
 .
 h
 "
+sk_sp
+<
 SkFontMgr
-*
+>
 SkFontMgr
 :
 :

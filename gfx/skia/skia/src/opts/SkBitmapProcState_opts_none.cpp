@@ -21,14 +21,3 @@ platformProcs
 )
 {
 }
-void
-SkBitmapScaler
-:
-:
-PlatformConvolutionProcs
-(
-SkConvolutionProcs
-*
-)
-{
-}

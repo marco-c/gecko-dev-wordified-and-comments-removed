@@ -1156,7 +1156,6 @@ fBottom
 ;
 }
 bool
-SK_WARN_UNUSED_RESULT
 intersect
 (
 const
@@ -1437,7 +1436,6 @@ false
 ;
 }
 bool
-SK_WARN_UNUSED_RESULT
 intersect
 (
 int32_t
@@ -3016,7 +3014,6 @@ dy
 ;
 }
 bool
-SK_WARN_UNUSED_RESULT
 intersect
 (
 const
@@ -3026,7 +3023,6 @@ r
 )
 ;
 bool
-SK_WARN_UNUSED_RESULT
 intersect
 (
 SkScalar

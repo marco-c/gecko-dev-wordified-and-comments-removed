@@ -36,10 +36,7 @@ Position
 position
 Kind
 kind
-std
-:
-:
-string
+String
 name
 )
 :
@@ -68,10 +65,7 @@ Kind
 fKind
 ;
 const
-std
-:
-:
-string
+String
 fName
 ;
 typedef

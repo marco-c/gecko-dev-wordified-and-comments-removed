@@ -12,6 +12,9 @@ GrFragmentProcessor
 .
 h
 "
+#
+if
+GR_TEST_UTILS
 sk_sp
 <
 GrFragmentProcessor
@@ -93,3 +96,5 @@ nullptr
 #
 endif
 }
+#
+endif

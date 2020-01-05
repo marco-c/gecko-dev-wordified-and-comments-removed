@@ -228,8 +228,10 @@ Get
 )
 ;
 virtual
+sk_sp
+<
 SkSpecialImage
-*
+>
 get
 (
 const

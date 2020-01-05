@@ -1,14 +1,14 @@
 #
 include
 "
-SkOpts
+SkArenaAlloc
 .
 h
 "
 #
 include
 "
-SkSmallAllocator
+SkOpts
 .
 h
 "
@@ -828,7 +828,7 @@ int
 left
 int
 top
-SkTBlitterAllocator
+SkArenaAlloc
 *
 allocator
 )
@@ -881,7 +881,7 @@ blitter
 allocator
 -
 >
-createT
+make
 <
 SkSpriteBlitter_Src_SrcOver
 >

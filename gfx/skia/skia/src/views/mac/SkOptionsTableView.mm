@@ -679,9 +679,14 @@ initWithCapacity
 count
 ]
 ;
-SkAutoTDeleteArray
+std
+:
+:
+unique_ptr
 <
 SkString
+[
+]
 >
 ada
 (

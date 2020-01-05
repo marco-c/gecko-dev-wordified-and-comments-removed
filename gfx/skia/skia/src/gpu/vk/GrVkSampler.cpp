@@ -8,13 +8,6 @@ h
 #
 include
 "
-GrTextureAccess
-.
-h
-"
-#
-include
-"
 GrVkGpu
 .
 h
@@ -110,7 +103,7 @@ GrVkGpu
 *
 gpu
 const
-GrTextureParams
+GrSamplerParams
 &
 params
 uint32_t
@@ -282,7 +275,7 @@ minLod
 bool
 useMipMaps
 =
-GrTextureParams
+GrSamplerParams
 :
 :
 kMipMap_FilterMode
@@ -416,7 +409,7 @@ GrVkSampler
 GenerateKey
 (
 const
-GrTextureParams
+GrSamplerParams
 &
 params
 uint32_t

@@ -77,7 +77,7 @@ SkOpPtT
 pt3
 )
 ;
-void
+bool
 deferredLine
 (
 const

@@ -5,6 +5,13 @@ SkMask
 .
 h
 "
+#
+include
+"
+SkMalloc
+.
+h
+"
 static
 int32_t
 safeMul32
