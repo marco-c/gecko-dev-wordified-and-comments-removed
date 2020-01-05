@@ -349,6 +349,9 @@ None
 dump_flow_tree
 :
 false
+validate_display_list_geometry
+:
+false
 }
 ;
 native
