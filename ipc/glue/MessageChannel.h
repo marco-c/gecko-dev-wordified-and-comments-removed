@@ -2241,7 +2241,7 @@ mFlags
 ;
 RefPtr
 <
-RefCountedTask
+CancelableRunnable
 >
 mOnChannelConnectedTask
 ;
