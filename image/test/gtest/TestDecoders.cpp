@@ -217,17 +217,6 @@ HasError
 )
 )
 ;
-EXPECT_TRUE
-(
-!
-aDecoder
--
->
-WasAborted
-(
-)
-)
-;
 Progress
 progress
 =
