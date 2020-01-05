@@ -564,10 +564,5 @@ DOMString
 ?
 localName
 ;
-boolean
-hasAttributes
-(
-)
-;
 }
 ;
