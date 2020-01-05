@@ -870,7 +870,7 @@ document
 .
 getElementById
 (
-PanelUI
+appMenu
 -
 {
 notificationId
