@@ -11,6 +11,13 @@ VorbisDecoder_h_
 #
 include
 "
+AudioConverter
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -21,13 +28,6 @@ include
 mozilla
 /
 Maybe
-.
-h
-"
-#
-include
-"
-AudioConverter
 .
 h
 "

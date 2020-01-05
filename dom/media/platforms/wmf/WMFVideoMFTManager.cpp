@@ -1970,6 +1970,9 @@ layers
 LayersBackend
 mBackend
 ;
+layers
+:
+:
 KnowsCompositor
 *
 mKnowsCompositor

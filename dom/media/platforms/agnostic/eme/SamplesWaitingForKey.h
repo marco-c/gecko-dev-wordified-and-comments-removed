@@ -7,6 +7,13 @@ SamplesWaitingForKey_h_
 #
 include
 "
+MediaInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MozPromise
@@ -28,13 +35,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-MediaInfo
 .
 h
 "

@@ -47,13 +47,6 @@ nscore
 .
 h
 "
-#
-include
-"
-GMPService
-.
-h
-"
 namespace
 mozilla
 {

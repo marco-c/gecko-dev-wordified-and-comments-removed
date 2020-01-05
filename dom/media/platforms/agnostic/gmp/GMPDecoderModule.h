@@ -52,12 +52,6 @@ GMPDecoderModule
 (
 )
 ;
-virtual
-~
-GMPDecoderModule
-(
-)
-;
 already_AddRefed
 <
 MediaDataDecoder
@@ -124,6 +118,14 @@ nsCString
 >
 &
 aGMP
+)
+;
+private
+:
+virtual
+~
+GMPDecoderModule
+(
 )
 ;
 }

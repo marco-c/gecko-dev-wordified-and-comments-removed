@@ -1,14 +1,14 @@
 #
 include
 "
-WAVDecoder
+AudioSampleFormat
 .
 h
 "
 #
 include
 "
-AudioSampleFormat
+WAVDecoder
 .
 h
 "
