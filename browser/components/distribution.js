@@ -3048,7 +3048,7 @@ toolbar
 menubar
 "
 "
-collapsed
+autohide
 "
 "
 false
