@@ -3660,12 +3660,6 @@ hasBaselineScript
 CancelOffThreadIonCompile
 (
 script
--
->
-compartment
-(
-)
-script
 )
 ;
 }
