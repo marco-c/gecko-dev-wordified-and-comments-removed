@@ -202,7 +202,7 @@ fontSet
 .
 nfont
 as
-int
+isize
 )
 {
 let
@@ -517,7 +517,7 @@ matches
 .
 nfont
 as
-int
+isize
 )
 {
 let
