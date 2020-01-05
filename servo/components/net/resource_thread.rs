@@ -1507,7 +1507,7 @@ let
 Some
 (
 ref
-profile_dir
+config_dir
 )
 =
 opts
@@ -1517,7 +1517,7 @@ get
 (
 )
 .
-profile_dir
+config_dir
 {
 match
 self
@@ -1541,7 +1541,7 @@ write_json_to_file
 &
 *
 auth_cache
-profile_dir
+config_dir
 "
 auth_cache
 .
@@ -1589,7 +1589,7 @@ write_json_to_file
 &
 *
 jar
-profile_dir
+config_dir
 "
 cookie_jar
 .
@@ -1637,7 +1637,7 @@ write_json_to_file
 &
 *
 hsts
-profile_dir
+config_dir
 "
 hsts_list
 .
@@ -1685,7 +1685,7 @@ data
 &
 mut
 T
-profile_dir
+config_dir
 :
 &
 str
@@ -1703,7 +1703,7 @@ Path
 :
 new
 (
-profile_dir
+config_dir
 )
 .
 join
@@ -1907,7 +1907,7 @@ data
 :
 &
 T
-profile_dir
+config_dir
 :
 &
 str
@@ -1957,7 +1957,7 @@ Path
 :
 new
 (
-profile_dir
+config_dir
 )
 .
 join
@@ -2528,7 +2528,7 @@ let
 Some
 (
 ref
-profile_dir
+config_dir
 )
 =
 opts
@@ -2538,14 +2538,14 @@ get
 (
 )
 .
-profile_dir
+config_dir
 {
 read_json_from_file
 (
 &
 mut
 auth_cache
-profile_dir
+config_dir
 "
 auth_cache
 .
@@ -2558,7 +2558,7 @@ read_json_from_file
 &
 mut
 hsts_list
-profile_dir
+config_dir
 "
 hsts_list
 .
@@ -2571,7 +2571,7 @@ read_json_from_file
 &
 mut
 cookie_jar
-profile_dir
+config_dir
 "
 cookie_jar
 .
