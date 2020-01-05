@@ -198,10 +198,6 @@ mFrameStats
 (
 aFrameStats
 )
-mVideoFrameEndTime
-(
-0
-)
 mHasVideo
 (
 false
@@ -425,6 +421,10 @@ kVideoTrack
 {
 return
 mVideoFrameEndTime
+.
+ToMicroseconds
+(
+)
 ;
 }
 else
@@ -942,7 +942,12 @@ nullptr
 }
 mVideoFrameEndTime
 =
-0
+TimeUnit
+:
+:
+Zero
+(
+)
 ;
 }
 bool
@@ -1967,6 +1972,11 @@ std
 max
 (
 mVideoFrameEndTime
+TimeUnit
+:
+:
+FromMicroseconds
+(
 currentFrame
 ?
 currentFrame
@@ -1977,6 +1987,7 @@ GetEndTime
 )
 :
 lastFrameEndTime
+)
 )
 ;
 MaybeResolveEndPromise
@@ -2267,6 +2278,10 @@ GetSize
 (
 )
 mVideoFrameEndTime
+.
+ToMicroseconds
+(
+)
 mHasVideo
 mVideoSinkEndRequest
 .

@@ -445,7 +445,7 @@ GenericPromise
 >
 mVideoSinkEndRequest
 ;
-int64_t
+TimeUnit
 mVideoFrameEndTime
 ;
 MediaEventListener
