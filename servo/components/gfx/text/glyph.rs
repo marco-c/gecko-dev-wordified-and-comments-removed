@@ -3759,7 +3759,6 @@ each_index
 )
 {
 let
-mut
 entry
 =
 &

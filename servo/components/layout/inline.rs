@@ -2543,7 +2543,6 @@ append_fragment_to_line_if_possible
 &
 mut
 self
-mut
 fragment
 :
 Fragment
@@ -3194,7 +3193,6 @@ inline_start_fragment
 )
 Some
 (
-mut
 inline_end_fragment
 )
 )
@@ -3227,7 +3225,6 @@ inline_end_fragment
 (
 Some
 (
-mut
 fragment
 )
 None
