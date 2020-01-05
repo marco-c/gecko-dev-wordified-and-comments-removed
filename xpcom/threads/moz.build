@@ -297,6 +297,11 @@ SyncRunnable
 h
 '
 '
+SystemGroup
+.
+h
+'
+'
 TaskCategory
 .
 h
@@ -408,6 +413,11 @@ cpp
 '
 '
 SharedThreadPool
+.
+cpp
+'
+'
+SystemGroup
 .
 cpp
 '
