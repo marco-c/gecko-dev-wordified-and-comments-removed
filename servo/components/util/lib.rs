@@ -53,14 +53,6 @@ decode_utf16
 [
 feature
 (
-fnbox
-)
-]
-#
-!
-[
-feature
-(
 optin_builtin_traits
 )
 ]
@@ -288,10 +280,6 @@ thread
 pub
 mod
 thread_state
-;
-pub
-mod
-threadpool
 ;
 pub
 mod
