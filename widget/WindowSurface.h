@@ -70,17 +70,6 @@ aInvalidRegion
 =
 0
 ;
-virtual
-bool
-IsFallback
-(
-)
-const
-{
-return
-false
-;
-}
 }
 ;
 }
