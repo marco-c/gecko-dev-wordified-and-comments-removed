@@ -651,6 +651,7 @@ RenderBoxData
 str
 )
 }
+pub
 enum
 SplitBoxResult
 {
