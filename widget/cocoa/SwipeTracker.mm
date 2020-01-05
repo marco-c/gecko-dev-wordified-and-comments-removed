@@ -133,6 +133,15 @@ include
 "
 mozilla
 /
+FlushType
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -1028,7 +1037,10 @@ mRefreshDriver
 AddRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 mRegisteredWithRefreshDriver
