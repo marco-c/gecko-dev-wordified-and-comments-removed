@@ -800,6 +800,16 @@ imgIRequest
 "
 Maybe
 "
+            
+"
+StyleShapeSource
+"
+"
+StyleClipPath
+"
+"
+StyleShapeOutside
+"
         
 ]
     

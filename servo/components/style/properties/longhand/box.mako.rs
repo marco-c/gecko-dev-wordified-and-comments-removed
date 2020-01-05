@@ -692,6 +692,11 @@ need_clone
 "
 True
 "
+gecko_enum_prefix
+=
+"
+StyleFloat
+"
 gecko_ffi_name
 =
 "
