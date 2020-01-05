@@ -26801,6 +26801,11 @@ offset
 rv
 )
 ;
+freeI32
+(
+rv
+)
+;
 break
 ;
 }
@@ -26825,6 +26830,11 @@ global
 offset
 (
 )
+rv
+)
+;
+freeI64
+(
 rv
 )
 ;
@@ -26855,6 +26865,11 @@ offset
 rv
 )
 ;
+freeF32
+(
+rv
+)
+;
 break
 ;
 }
@@ -26879,6 +26894,11 @@ global
 offset
 (
 )
+rv
+)
+;
+freeF64
+(
 rv
 )
 ;
