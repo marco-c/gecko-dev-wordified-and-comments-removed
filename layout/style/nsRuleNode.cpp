@@ -39506,7 +39506,7 @@ corner
 int
 cx
 =
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 false
@@ -39515,7 +39515,7 @@ false
 int
 cy
 =
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 true
@@ -40334,7 +40334,7 @@ corner
 int
 cx
 =
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 false
@@ -40343,7 +40343,7 @@ false
 int
 cy
 =
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 true
@@ -50217,7 +50217,7 @@ corner
 int
 cx
 =
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 false
@@ -50226,7 +50226,7 @@ false
 int
 cy
 =
-NS_FULL_TO_HALF_CORNER
+FullToHalfCorner
 (
 corner
 true
