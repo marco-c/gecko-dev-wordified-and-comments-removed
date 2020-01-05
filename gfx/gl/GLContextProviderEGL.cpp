@@ -1606,7 +1606,7 @@ GLContextEGL
 :
 RenewSurface
 (
-nsIWidget
+CompositorWidget
 *
 aWidget
 )
@@ -1625,6 +1625,11 @@ ReleaseSurface
 (
 )
 ;
+MOZ_ASSERT
+(
+aWidget
+)
+;
 mSurface
 =
 mozilla
@@ -1636,6 +1641,11 @@ gl
 CreateSurfaceForWindow
 (
 aWidget
+-
+>
+RealWidget
+(
+)
 mConfig
 )
 ;

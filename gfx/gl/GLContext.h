@@ -194,9 +194,6 @@ GeckoProfiler
 .
 h
 "
-class
-nsIWidget
-;
 namespace
 android
 {
@@ -253,6 +250,13 @@ layers
 {
 class
 ColorTextureLayerProgram
+;
+}
+namespace
+widget
+{
+class
+CompositorWidget
 ;
 }
 }
@@ -12253,7 +12257,10 @@ virtual
 bool
 RenewSurface
 (
-nsIWidget
+widget
+:
+:
+CompositorWidget
 *
 aWidget
 )

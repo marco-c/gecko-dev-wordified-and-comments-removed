@@ -289,11 +289,6 @@ mCompositor
 GetWidget
 (
 )
--
->
-RealWidget
-(
-)
 )
 ;
 result

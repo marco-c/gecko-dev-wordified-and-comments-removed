@@ -22,6 +22,13 @@ namespace
 mozilla
 {
 namespace
+widget
+{
+class
+CompositorWidget
+;
+}
+namespace
 gl
 {
 class
@@ -266,7 +273,10 @@ virtual
 bool
 RenewSurface
 (
-nsIWidget
+widget
+:
+:
+CompositorWidget
 *
 aWidget
 )
