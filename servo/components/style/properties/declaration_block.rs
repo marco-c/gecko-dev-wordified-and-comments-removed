@@ -484,6 +484,7 @@ append_declaration_value
 dest
 appendable_value
 importance
+false
 )
 }
 Err
@@ -1804,6 +1805,9 @@ I
 importance
 :
 Importance
+is_overflow_with_name
+:
+bool
 )
 -
 >
@@ -1891,6 +1895,24 @@ decls
 =
 >
 {
+if
+is_overflow_with_name
+{
+try
+!
+(
+shorthand
+.
+overflow_longhands_to_css
+(
+decls
+dest
+)
+)
+;
+}
+else
+{
 try
 !
 (
@@ -1903,6 +1925,7 @@ dest
 )
 )
 ;
+}
 }
 }
 if
@@ -2024,6 +2047,7 @@ append_declaration_value
 dest
 appendable_value
 importance
+true
 )
 ;
 }
@@ -2142,6 +2166,7 @@ append_declaration_value
 dest
 appendable_value
 importance
+false
 )
 )
 ;
