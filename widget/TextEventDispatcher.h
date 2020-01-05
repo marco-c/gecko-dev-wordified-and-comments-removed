@@ -425,6 +425,10 @@ void
 aData
 =
 nullptr
+bool
+aNeedsCallback
+=
+false
 )
 ;
 private
@@ -738,6 +742,10 @@ uint32_t
 aIndexOfKeypress
 =
 0
+bool
+aNeedsCallback
+=
+false
 )
 ;
 }

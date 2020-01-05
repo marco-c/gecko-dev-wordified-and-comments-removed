@@ -1484,6 +1484,8 @@ void
 aData
 uint32_t
 aIndexOfKeypress
+bool
+aNeedsCallback
 )
 {
 MOZ_ASSERT
@@ -1899,6 +1901,9 @@ eKeyPress
 &
 &
 (
+aNeedsCallback
+|
+|
 keyEvent
 .
 IsControl
@@ -2164,6 +2169,8 @@ aStatus
 void
 *
 aData
+bool
+aNeedsCallback
 )
 {
 if
@@ -2268,6 +2275,7 @@ aKeyboardEvent
 aStatus
 aData
 i
+aNeedsCallback
 )
 )
 {
