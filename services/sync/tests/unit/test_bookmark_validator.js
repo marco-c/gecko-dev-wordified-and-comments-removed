@@ -2509,12 +2509,14 @@ b
 =
 >
 String
-.
-localeCompare
 (
 a
 .
 name
+)
+.
+localeCompare
+(
 b
 .
 name
