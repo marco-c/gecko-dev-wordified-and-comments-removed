@@ -751,7 +751,7 @@ rust
 -
 azure
 #
-d4ae702d7525a560d15e08238c7b7b75c093209d
+2e75a1ce23c44720612e050c214ee673d0b89cd7
 "
 dependencies
 =
@@ -5731,7 +5731,7 @@ smallvec
 .
 1
 .
-4
+5
 (
 registry
 +
@@ -9641,7 +9641,7 @@ smallvec
 .
 1
 .
-4
+5
 (
 registry
 +
@@ -14491,7 +14491,7 @@ smallvec
 .
 1
 .
-4
+5
 (
 registry
 +
@@ -15099,7 +15099,7 @@ smallvec
 .
 1
 .
-4
+5
 (
 registry
 +
@@ -15699,7 +15699,7 @@ version
 .
 1
 .
-4
+5
 "
 source
 =
@@ -16547,7 +16547,7 @@ smallvec
 .
 1
 .
-4
+5
 (
 registry
 +
@@ -17844,7 +17844,7 @@ smallvec
 .
 1
 .
-4
+5
 (
 registry
 +
