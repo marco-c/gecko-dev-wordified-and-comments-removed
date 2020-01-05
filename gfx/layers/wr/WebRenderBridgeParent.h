@@ -762,9 +762,6 @@ mPendingTransactionId
 bool
 mDestroyed
 ;
-uint32_t
-mWREpoch
-;
 }
 ;
 }

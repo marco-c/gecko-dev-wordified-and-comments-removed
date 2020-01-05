@@ -323,10 +323,6 @@ mDestroyed
 (
 false
 )
-mWREpoch
-(
-0
-)
 {
 MOZ_ASSERT
 (
@@ -1526,9 +1522,6 @@ wr_dp_end
 (
 mWRWindowState
 mWRState
-mWREpoch
-+
-+
 )
 ;
 ScheduleComposition
@@ -2434,6 +2427,7 @@ mWRState
 {
 wr_destroy
 (
+mWRWindowState
 mWRState
 )
 ;
