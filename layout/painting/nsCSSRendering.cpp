@@ -8919,7 +8919,7 @@ GetType
 eStyleImageType_Image
 ;
 }
-void
+DrawResult
 nsCSSRendering
 :
 :
@@ -9008,6 +9008,10 @@ UsedAppearance
 )
 {
 return
+DrawResult
+:
+:
+NOT_READY
 ;
 }
 nsIContent
@@ -9038,6 +9042,10 @@ GetParent
 )
 {
 return
+DrawResult
+:
+:
+NOT_READY
 ;
 }
 sc
@@ -12346,7 +12354,7 @@ return
 result
 ;
 }
-void
+DrawResult
 nsCSSRendering
 :
 :
@@ -12551,6 +12559,10 @@ IsEmpty
 )
 {
 return
+DrawResult
+:
+:
+SUCCESS
 ;
 }
 nsBackgroundLayerState
@@ -12588,6 +12600,7 @@ IsEmpty
 )
 )
 {
+return
 state
 .
 mImageRenderer
@@ -12628,6 +12641,12 @@ opacity
 )
 ;
 }
+return
+DrawResult
+:
+:
+SUCCESS
+;
 }
 nsRect
 nsCSSRendering

@@ -524,7 +524,7 @@ float
 aOpacity
 )
 ;
-void
+DrawResult
 BuildWebRenderDisplayItemsForLayer
 (
 nsPresContext
@@ -799,7 +799,7 @@ aOpacity
 0
 )
 ;
-void
+DrawResult
 BuildWebRenderDisplayItems
 (
 nsPresContext

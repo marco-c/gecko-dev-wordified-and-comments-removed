@@ -1319,7 +1319,7 @@ aLayer
 )
 ;
 static
-void
+DrawResult
 BuildWebRenderDisplayItemsForStyleImageLayer
 (
 const
@@ -1359,7 +1359,7 @@ aLayer
 )
 ;
 static
-void
+DrawResult
 BuildWebRenderDisplayItemsForStyleImageLayerWithSC
 (
 const
