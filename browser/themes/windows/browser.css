@@ -6445,6 +6445,16 @@ forward
 -
 button
 )
+:
+not
+(
+#
+new
+-
+tab
+-
+button
+)
 >
 .
 toolbarbutton
