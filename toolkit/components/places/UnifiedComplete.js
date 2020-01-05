@@ -6070,6 +6070,10 @@ newURI
 this
 .
 _strippedPrefix
++
+match
+.
+token
 )
 ;
 let
