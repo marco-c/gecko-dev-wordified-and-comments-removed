@@ -26919,7 +26919,7 @@ aError
 )
 ;
 }
-CSSIntPoint
+CSSPoint
 nsGlobalWindow
 :
 :
@@ -27013,15 +27013,16 @@ true
 ;
 }
 return
-sf
--
->
-GetScrollPositionCSSPixels
+CSSPoint
+:
+:
+FromAppUnits
 (
+scrollPos
 )
 ;
 }
-int32_t
+double
 nsGlobalWindow
 :
 :
@@ -27045,7 +27046,7 @@ false
 x
 ;
 }
-int32_t
+double
 nsGlobalWindow
 :
 :
@@ -27066,7 +27067,7 @@ aError
 )
 ;
 }
-int32_t
+double
 nsGlobalWindow
 :
 :
@@ -27090,7 +27091,7 @@ false
 y
 ;
 }
-int32_t
+double
 nsGlobalWindow
 :
 :
