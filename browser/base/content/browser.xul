@@ -7691,12 +7691,12 @@ pageReportIcon
 tooltip
 ;
 "
-onclick
+onmousedown
 =
 "
 gPopupBlockerObserver
 .
-onReportButtonClick
+onReportButtonMousedown
 (
 event
 )
