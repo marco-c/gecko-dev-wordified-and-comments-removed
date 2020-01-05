@@ -422,6 +422,11 @@ ArenaRefPtrInlines
 h
 '
 '
+GeckoRestyleManager
+.
+h
+'
+'
 GeometryUtils
 .
 h
@@ -438,11 +443,6 @@ h
 '
 '
 RestyleLogging
-.
-h
-'
-'
-RestyleManager
 .
 h
 '
@@ -498,6 +498,11 @@ cpp
 '
 '
 FramePropertyTable
+.
+cpp
+'
+'
+GeckoRestyleManager
 .
 cpp
 '
@@ -603,11 +608,6 @@ cpp
 '
 '
 PresShell
-.
-cpp
-'
-'
-RestyleManager
 .
 cpp
 '
