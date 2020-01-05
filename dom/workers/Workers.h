@@ -963,6 +963,11 @@ PrincipalIsValid
 )
 const
 ;
+bool
+PrincipalURIMatchesScriptURL
+(
+)
+;
 #
 endif
 bool
