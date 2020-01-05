@@ -411,6 +411,12 @@ aMayWait
 true
 )
 ;
+extern
+bool
+NS_IsInCompositorThread
+(
+)
+;
 inline
 already_AddRefed
 <
