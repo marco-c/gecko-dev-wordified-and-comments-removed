@@ -290,6 +290,14 @@ lir
 )
 ;
 void
+visitTestI64AndBranch
+(
+LTestI64AndBranch
+*
+lir
+)
+;
+void
 visitOutOfLineBailout
 (
 OutOfLineBailout
