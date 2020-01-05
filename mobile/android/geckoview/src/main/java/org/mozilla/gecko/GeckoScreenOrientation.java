@@ -279,6 +279,16 @@ return
 sInstance
 ;
 }
+private
+GeckoScreenOrientation
+(
+)
+{
+update
+(
+)
+;
+}
 public
 void
 enableNotifications
