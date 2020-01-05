@@ -37913,6 +37913,14 @@ newLabel
 if
 (
 !
+functionEnd
+)
+return
+false
+;
+if
+(
+!
 pushControl
 (
 &
