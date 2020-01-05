@@ -694,6 +694,11 @@ RemoteCompositorSession
 aSession
 )
 ;
+void
+RebuildRemoteSessions
+(
+)
+;
 private
 :
 GPUProcessManager

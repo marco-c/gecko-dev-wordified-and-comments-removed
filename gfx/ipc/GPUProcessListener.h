@@ -29,6 +29,13 @@ OnCompositorUnexpectedShutdown
 )
 {
 }
+virtual
+void
+OnCompositorDeviceReset
+(
+)
+{
+}
 }
 ;
 }

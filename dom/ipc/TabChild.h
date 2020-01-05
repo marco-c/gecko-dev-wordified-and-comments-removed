@@ -2512,6 +2512,11 @@ ReinitRendering
 )
 ;
 void
+ReinitRenderingForDeviceReset
+(
+)
+;
+void
 CompositorUpdated
 (
 const

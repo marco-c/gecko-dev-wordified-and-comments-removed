@@ -131,6 +131,16 @@ return
 mId
 ;
 }
+void
+MarkDestroyed
+(
+)
+{
+mDestroyed
+=
+true
+;
+}
 protected
 :
 explicit

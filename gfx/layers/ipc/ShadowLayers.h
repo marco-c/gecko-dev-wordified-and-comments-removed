@@ -747,6 +747,11 @@ get
 )
 ;
 }
+void
+SynchronouslyShutdown
+(
+)
+;
 virtual
 void
 WindowOverlayChanged
