@@ -1,4 +1,17 @@
 use
+ipc_channel
+:
+:
+ipc
+:
+:
+{
+self
+IpcReceiver
+IpcSender
+}
+;
+use
 std
 :
 :
@@ -35,11 +48,7 @@ sync
 mpsc
 :
 :
-{
 channel
-Receiver
-Sender
-}
 ;
 use
 url
@@ -110,7 +119,14 @@ chan
 port
 )
 =
+ipc
+:
+:
 channel
+(
+)
+.
+unwrap
 (
 )
 ;
@@ -150,7 +166,7 @@ StorageManager
 {
 port
 :
-Receiver
+IpcReceiver
 <
 StorageTaskMsg
 >
@@ -185,7 +201,7 @@ new
 (
 port
 :
-Receiver
+IpcReceiver
 <
 StorageTaskMsg
 >
@@ -497,7 +513,7 @@ length
 self
 sender
 :
-Sender
+IpcSender
 <
 usize
 >
@@ -567,7 +583,7 @@ key
 self
 sender
 :
-Sender
+IpcSender
 <
 Option
 <
@@ -662,7 +678,7 @@ mut
 self
 sender
 :
-Sender
+IpcSender
 <
 (
 bool
@@ -826,7 +842,7 @@ get_item
 self
 sender
 :
-Sender
+IpcSender
 <
 Option
 <
@@ -916,7 +932,7 @@ mut
 self
 sender
 :
-Sender
+IpcSender
 <
 Option
 <
@@ -1001,7 +1017,7 @@ mut
 self
 sender
 :
-Sender
+IpcSender
 <
 bool
 >
