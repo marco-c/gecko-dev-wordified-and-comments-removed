@@ -7937,6 +7937,11 @@ month
 "
 long
 "
+timeZone
+:
+"
+UTC
+"
 }
 )
 ;
@@ -7972,9 +7977,14 @@ tempDate
 new
 Date
 (
+Date
+.
+UTC
+(
 2005
 0
 1
+)
 )
 ;
 for
@@ -7995,7 +8005,7 @@ month
 {
 tempDate
 .
-setMonth
+setUTCMonth
 (
 month
 )

@@ -1135,6 +1135,11 @@ month
 "
 short
 "
+timeZone
+:
+"
+UTC
+"
 }
 )
 .
@@ -1253,8 +1258,13 @@ monthFormat
 new
 Date
 (
+Date
+.
+UTC
+(
 0
 month
+)
 )
 )
 viewportSize
