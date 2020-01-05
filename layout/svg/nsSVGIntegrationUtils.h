@@ -375,6 +375,15 @@ PaintFramesParams
 aParams
 )
 ;
+static
+gfxMatrix
+GetCSSPxToDevPxMatrix
+(
+nsIFrame
+*
+aNonSVGFrame
+)
+;
 enum
 {
 FLAG_SYNC_DECODE_IMAGES

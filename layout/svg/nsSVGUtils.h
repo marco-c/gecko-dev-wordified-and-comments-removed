@@ -1585,15 +1585,6 @@ bool
 aHandleOpacity
 )
 ;
-static
-gfxMatrix
-GetCSSPxToDevPxMatrix
-(
-nsIFrame
-*
-aNonSVGFrame
-)
-;
 }
 ;
 #

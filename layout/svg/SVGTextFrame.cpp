@@ -9575,7 +9575,7 @@ appUnitsPerDevPixel
 gfxMatrix
 tm
 =
-nsSVGUtils
+nsSVGIntegrationUtils
 :
 :
 GetCSSPxToDevPxMatrix

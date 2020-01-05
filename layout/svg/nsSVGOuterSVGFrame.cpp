@@ -2735,7 +2735,7 @@ Save
 gfxMatrix
 tm
 =
-nsSVGUtils
+nsSVGIntegrationUtils
 :
 :
 GetCSSPxToDevPxMatrix
