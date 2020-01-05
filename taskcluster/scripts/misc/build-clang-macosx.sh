@@ -140,6 +140,14 @@ the
 command
 line
 .
+export
+PATH
+=
+PATH
+:
+CROSS_CCTOOLS_PATH
+/
+bin
 ln
 -
 sf
@@ -154,8 +162,7 @@ apple
 darwin11
 -
 lipo
-/
-usr
+CROSS_CCTOOLS_PATH
 /
 bin
 /
