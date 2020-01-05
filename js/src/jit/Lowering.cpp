@@ -366,7 +366,7 @@ JS_NUNBOX32
 if
 defined
 (
-MOZ_BIG_ENDIAN
+IS_BIG_ENDIAN
 )
 ins
 -

@@ -9115,7 +9115,7 @@ littleEndian
 {
 #
 if
-MOZ_LITTLE_ENDIAN
+IS_LITTLE_ENDIAN
 return
 !
 littleEndian
