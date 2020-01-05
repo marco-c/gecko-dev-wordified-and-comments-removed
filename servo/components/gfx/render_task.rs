@@ -244,6 +244,12 @@ use
 servo_util
 :
 :
+task_state
+;
+use
+servo_util
+:
+:
 time
 :
 :
@@ -777,6 +783,10 @@ spawn_named_with_send_on_failure
 "
 RenderTask
 "
+task_state
+:
+:
+Render
 proc
 (
 )

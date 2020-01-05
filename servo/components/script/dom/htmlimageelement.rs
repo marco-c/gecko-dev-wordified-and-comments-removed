@@ -647,7 +647,7 @@ unsafe_get
 .
 image
 .
-borrow
+borrow_for_layout
 (
 )
 .
