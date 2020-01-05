@@ -55,8 +55,8 @@ pub
 enum
 ApacheBugFlag
 {
-ON
-OFF
+On
+Off
 }
 impl
 ApacheBugFlag
@@ -145,14 +145,14 @@ UTF
 ApacheBugFlag
 :
 :
-ON
+On
 }
 else
 {
 ApacheBugFlag
 :
 :
-OFF
+Off
 }
 }
 }
@@ -167,8 +167,8 @@ pub
 enum
 NoSniffFlag
 {
-ON
-OFF
+On
+Off
 }
 pub
 type
@@ -314,7 +314,7 @@ no_sniff_flag
 NoSniffFlag
 :
 :
-ON
+On
 =
 >
 supplied_type
@@ -325,7 +325,7 @@ clone
 NoSniffFlag
 :
 :
-OFF
+Off
 =
 >
 match
@@ -334,7 +334,7 @@ apache_bug_flag
 ApacheBugFlag
 :
 :
-ON
+On
 =
 >
 self
@@ -346,7 +346,7 @@ data
 ApacheBugFlag
 :
 :
-OFF
+Off
 =
 >
 match
@@ -944,7 +944,7 @@ no_sniff_flag
 NoSniffFlag
 :
 :
-OFF
+Off
 ;
 let
 sniffed
