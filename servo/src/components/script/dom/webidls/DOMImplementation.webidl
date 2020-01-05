@@ -180,9 +180,8 @@ DOMString
 systemId
 )
 ;
-/
-*
 [
+Creator
 Throws
 ]
 Document
@@ -206,8 +205,6 @@ doctype
 null
 )
 ;
-*
-/
 [
 Creator
 ]
