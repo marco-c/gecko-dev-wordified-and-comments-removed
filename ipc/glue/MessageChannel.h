@@ -172,9 +172,6 @@ stack
 namespace
 mozilla
 {
-class
-AbstractThread
-;
 namespace
 ipc
 {
@@ -1868,12 +1865,6 @@ mLink
 MessageLoop
 *
 mWorkerLoop
-;
-RefPtr
-<
-AbstractThread
->
-mAbstractThread
 ;
 RefPtr
 <
