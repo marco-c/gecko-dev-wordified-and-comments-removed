@@ -143,6 +143,14 @@ Chan
 )
 >
 )
+FailureMsg
+(
+PipelineId
+Option
+<
+SubpageId
+>
+)
 InitLoadUrlMsg
 (
 Url

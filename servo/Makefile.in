@@ -210,6 +210,11 @@ CFG_RUSTC_FLAGS
 -
 cfg
 debug
+-
+Z
+debug
+-
+info
 ifdef
 CFG_DISABLE_OPTIMIZE
 (
