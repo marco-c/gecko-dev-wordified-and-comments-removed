@@ -188,6 +188,8 @@ Servo_StyleSet_NoteStyleSheetsChanged
 void
 RawServoStyleSetBorrowed
 set
+bool
+author_style_disabled
 )
 SERVO_BINDING_FUNC
 (
