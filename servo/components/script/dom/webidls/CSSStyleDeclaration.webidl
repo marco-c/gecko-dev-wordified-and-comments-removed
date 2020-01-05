@@ -316,6 +316,15 @@ EmptyString
 ]
 attribute
 DOMString
+backgroundClip
+;
+[
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
 border
 ;
 [

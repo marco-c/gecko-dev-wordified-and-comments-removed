@@ -776,6 +776,16 @@ vec
 PropertyDeclaration
 :
 :
+BackgroundClip
+(
+DeclaredValue
+:
+:
+Initial
+)
+PropertyDeclaration
+:
+:
 BackgroundOrigin
 (
 DeclaredValue
