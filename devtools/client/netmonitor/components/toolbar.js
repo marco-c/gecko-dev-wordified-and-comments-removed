@@ -59,7 +59,7 @@ buttons
 )
 ;
 const
-SearchBox
+ToolbarSearchBox
 =
 createFactory
 (
@@ -174,7 +174,7 @@ group
 SummaryButton
 (
 )
-SearchBox
+ToolbarSearchBox
 (
 )
 ToggleButton

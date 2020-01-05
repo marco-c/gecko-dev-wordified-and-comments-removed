@@ -5,8 +5,8 @@ strict
 ;
 const
 {
-TOGGLE_REQUEST_FILTER_TYPE
 ENABLE_REQUEST_FILTER_TYPE_ONLY
+TOGGLE_REQUEST_FILTER_TYPE
 SET_REQUEST_FILTER_TEXT
 }
 =
@@ -70,8 +70,8 @@ module
 exports
 =
 {
-toggleRequestFilterType
 enableRequestFilterTypeOnly
+toggleRequestFilterType
 setRequestFilterText
 }
 ;

@@ -56,6 +56,13 @@ MPL
 DevToolsModules
 (
 '
+cookies
+-
+panel
+.
+js
+'
+'
 editor
 .
 js
