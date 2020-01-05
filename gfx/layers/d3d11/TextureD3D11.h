@@ -1380,6 +1380,12 @@ OpenSharedHandle
 ;
 RefPtr
 <
+ID3D11Device
+>
+mDevice
+;
+RefPtr
+<
 ID3D11Texture2D
 >
 mTexture
