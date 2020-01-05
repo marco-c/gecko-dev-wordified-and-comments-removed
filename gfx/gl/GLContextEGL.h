@@ -388,6 +388,10 @@ friend
 class
 GLContextProviderEGL
 ;
+friend
+class
+GLContextEGLFactory
+;
 public
 :
 const
