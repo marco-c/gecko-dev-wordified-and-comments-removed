@@ -4039,6 +4039,17 @@ title_changed
 self
 )
 {
+if
+self
+.
+browsing_context
+(
+)
+.
+is_some
+(
+)
+{
 self
 .
 trigger_mozbrowser_event
@@ -4068,6 +4079,7 @@ send_title_to_compositor
 (
 )
 ;
+}
 }
 pub
 fn
