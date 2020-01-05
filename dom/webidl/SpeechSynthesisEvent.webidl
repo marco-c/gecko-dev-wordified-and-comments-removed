@@ -188,6 +188,13 @@ charIndex
 ;
 readonly
 attribute
+unsigned
+long
+?
+charLength
+;
+readonly
+attribute
 float
 elapsedTime
 ;
@@ -213,6 +220,13 @@ long
 charIndex
 =
 0
+;
+unsigned
+long
+?
+charLength
+=
+null
 ;
 float
 elapsedTime

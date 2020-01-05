@@ -336,6 +336,8 @@ OnWillSpeakWord
 (
 uint32_t
 aIndex
+uint32_t
+aLength
 )
 ;
 void
@@ -646,6 +648,8 @@ OnWillSpeakWord
 (
 uint32_t
 aIndex
+uint32_t
+aLength
 )
 {
 mCurrentIndex
@@ -689,6 +693,8 @@ GetTimeDurationFromStart
 (
 )
 mCurrentIndex
+aLength
+1
 )
 ;
 }
@@ -846,6 +852,9 @@ OnWillSpeakWord
 aRange
 .
 location
+aRange
+.
+length
 )
 ;
 }

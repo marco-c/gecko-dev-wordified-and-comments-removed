@@ -1604,6 +1604,7 @@ start
 "
 )
 0
+nullptr
 0
 EmptyString
 (
@@ -1846,6 +1847,7 @@ end
 "
 )
 aCharIndex
+nullptr
 aElapsedTime
 EmptyString
 (
@@ -2008,6 +2010,7 @@ pause
 "
 )
 aCharIndex
+nullptr
 aElapsedTime
 EmptyString
 (
@@ -2173,6 +2176,7 @@ resume
 "
 )
 aCharIndex
+nullptr
 aElapsedTime
 EmptyString
 (
@@ -2342,6 +2346,7 @@ error
 "
 )
 aCharIndex
+nullptr
 aElapsedTime
 EmptyString
 (
@@ -2366,6 +2371,10 @@ float
 aElapsedTime
 uint32_t
 aCharIndex
+uint32_t
+aCharLength
+uint8_t
+argc
 )
 {
 if
@@ -2403,6 +2412,8 @@ DispatchBoundaryImpl
 aName
 aElapsedTime
 aCharIndex
+aCharLength
+argc
 )
 ;
 }
@@ -2420,6 +2431,10 @@ float
 aElapsedTime
 uint32_t
 aCharIndex
+uint32_t
+aCharLength
+uint8_t
+argc
 )
 {
 MOZ_ASSERT
@@ -2463,6 +2478,20 @@ boundary
 "
 )
 aCharIndex
+argc
+?
+static_cast
+<
+Nullable
+<
+uint32_t
+>
+>
+(
+aCharLength
+)
+:
+nullptr
 aElapsedTime
 aName
 )
@@ -2582,6 +2611,7 @@ mark
 "
 )
 aCharIndex
+nullptr
 aElapsedTime
 aName
 )

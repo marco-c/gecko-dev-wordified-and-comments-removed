@@ -783,6 +783,10 @@ float
 aElapsedTime
 uint32_t
 aCharIndex
+uint32_t
+aCharLength
+uint8_t
+argc
 )
 {
 MOZ_ASSERT
@@ -807,6 +811,8 @@ aName
 )
 aElapsedTime
 aCharIndex
+aCharLength
+argc
 )
 )
 )

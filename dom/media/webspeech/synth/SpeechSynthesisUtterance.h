@@ -330,6 +330,11 @@ nsAString
 aEventType
 uint32_t
 aCharIndex
+Nullable
+<
+uint32_t
+>
+aCharLength
 float
 aElapsedTime
 const
