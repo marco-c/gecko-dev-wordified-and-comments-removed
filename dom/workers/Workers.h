@@ -909,6 +909,14 @@ nsILoadGroup
 aLoadGroup
 )
 ;
+nsresult
+SetPrincipalFromChannel
+(
+nsIChannel
+*
+aChannel
+)
+;
 }
 ;
 void
