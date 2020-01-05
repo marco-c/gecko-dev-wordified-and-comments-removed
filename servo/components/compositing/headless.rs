@@ -50,7 +50,7 @@ msg
 constellation_msg
 :
 :
-Msg
+CompositorMsg
 as
 ConstellationMsg
 ;
@@ -104,6 +104,9 @@ CompositorReceiver
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 time_profiler_chan
 :
 time

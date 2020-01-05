@@ -497,6 +497,17 @@ msg
 constellation_msg
 :
 :
+ScriptMsg
+as
+ConstellationMsg
+;
+use
+msg
+:
+:
+constellation_msg
+:
+:
 {
 ConstellationChan
 LoadData
@@ -1288,6 +1299,9 @@ hard
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 fragment_name
 :
 DOMRefCell
@@ -8570,6 +8584,9 @@ self
 -
 >
 ConstellationChan
+<
+ConstellationMsg
+>
 {
 self
 .
@@ -9600,6 +9617,9 @@ ScriptToDevtoolsControlMsg
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 scheduler_chan
 :
 IpcSender

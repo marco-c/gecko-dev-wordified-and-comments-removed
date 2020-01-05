@@ -86,6 +86,17 @@ msg
 constellation_msg
 :
 :
+CompositorMsg
+as
+ConstellationMsg
+;
+use
+msg
+:
+:
+constellation_msg
+:
+:
 {
 AnimationState
 ConstellationChan
@@ -915,6 +926,9 @@ Sender
 )
 >
 ConstellationChan
+<
+ConstellationMsg
+>
 )
 LoadStart
 (
@@ -1760,6 +1774,9 @@ pub
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 pub
 time_profiler_chan
 :

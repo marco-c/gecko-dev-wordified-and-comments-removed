@@ -216,6 +216,17 @@ msg
 constellation_msg
 :
 :
+ScriptMsg
+as
+ConstellationMsg
+;
+use
+msg
+:
+:
+constellation_msg
+:
+:
 {
 ConstellationChan
 PipelineId
@@ -382,6 +393,9 @@ pub
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 pub
 scheduler_chan
 :
@@ -578,6 +592,9 @@ std
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 #
 [
 ignore_heap_size_of
@@ -858,6 +875,9 @@ self
 -
 >
 ConstellationChan
+<
+ConstellationMsg
+>
 {
 self
 .

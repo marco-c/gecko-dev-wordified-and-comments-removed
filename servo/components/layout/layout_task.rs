@@ -256,7 +256,7 @@ msg
 constellation_msg
 :
 :
-Msg
+ScriptMsg
 as
 ConstellationMsg
 ;
@@ -745,6 +745,9 @@ pub
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 pub
 stacking_context
 :
@@ -849,6 +852,9 @@ Sender
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 script_chan
 :
 Sender
@@ -1029,6 +1035,9 @@ LayoutControlMsg
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 failure_msg
 :
 Failure
@@ -1719,6 +1728,9 @@ LayoutControlMsg
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 script_chan
 :
 Sender

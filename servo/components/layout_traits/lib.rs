@@ -92,6 +92,17 @@ msg
 constellation_msg
 :
 :
+ScriptMsg
+as
+ConstellationMsg
+;
+use
+msg
+:
+:
+constellation_msg
+:
+:
 {
 ConstellationChan
 Failure
@@ -209,6 +220,9 @@ LayoutControlMsg
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 failure_msg
 :
 Failure

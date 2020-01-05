@@ -259,7 +259,7 @@ msg
 constellation_msg
 :
 :
-Msg
+CompositorMsg
 as
 ConstellationMsg
 ;
@@ -769,6 +769,9 @@ FrameTreeId
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 time_profiler_chan
 :
 time
@@ -3745,6 +3748,9 @@ Sender
 new_constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 )
 {
 response_chan

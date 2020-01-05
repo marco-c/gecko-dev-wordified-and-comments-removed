@@ -163,7 +163,7 @@ msg
 constellation_msg
 :
 :
-Msg
+ScriptMsg
 as
 ConstellationMsg
 ;
@@ -1154,6 +1154,9 @@ C
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 time_profiler_chan
 :
 time
@@ -1282,6 +1285,9 @@ C
 constellation_chan
 :
 ConstellationChan
+<
+ConstellationMsg
+>
 font_cache_task
 :
 FontCacheTask
