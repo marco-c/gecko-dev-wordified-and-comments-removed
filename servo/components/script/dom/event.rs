@@ -985,6 +985,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 (
 *
 self
@@ -996,6 +998,7 @@ type_
 .
 to_owned
 (
+)
 )
 }
 fn

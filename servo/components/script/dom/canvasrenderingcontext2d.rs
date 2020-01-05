@@ -4523,6 +4523,8 @@ borrow
 (
 )
 ;
+DOMString
+(
 match
 state
 .
@@ -4565,6 +4567,7 @@ to_owned
 (
 )
 }
+)
 }
 /
 /
@@ -6737,7 +6740,10 @@ StringOrCanvasGradientOrCanvasPattern
 :
 eString
 (
+DOMString
+(
 result
+)
 )
 }
 CanvasFillOrStrokeStyle
@@ -7051,7 +7057,10 @@ StringOrCanvasGradientOrCanvasPattern
 :
 eString
 (
+DOMString
+(
 result
+)
 )
 }
 CanvasFillOrStrokeStyle
@@ -9031,6 +9040,8 @@ borrow
 (
 )
 ;
+DOMString
+(
 match
 state
 .
@@ -9076,6 +9087,7 @@ to_owned
 (
 )
 }
+)
 }
 /
 /
@@ -9210,6 +9222,8 @@ borrow
 (
 )
 ;
+DOMString
+(
 match
 state
 .
@@ -9255,6 +9269,7 @@ to_owned
 (
 )
 }
+)
 }
 /
 /
@@ -9976,7 +9991,10 @@ unwrap
 (
 )
 ;
+DOMString
+(
 result
+)
 }
 /
 /

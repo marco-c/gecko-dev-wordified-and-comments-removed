@@ -1538,7 +1538,10 @@ unwrap
 (
 )
 ;
+DOMString
+(
 output
+)
 }
 /
 /
@@ -1657,7 +1660,10 @@ base64
 )
 }
 ;
+DOMString
+(
 output
+)
 }
 }
 impl
@@ -2226,7 +2232,7 @@ dispatch_progress_event
 self
 type_
 :
-DOMString
+String
 loaded
 :
 u64
@@ -2262,7 +2268,10 @@ global
 r
 (
 )
+DOMString
+(
 type_
+)
 EventBubbles
 :
 :

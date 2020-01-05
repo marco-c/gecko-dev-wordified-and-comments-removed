@@ -356,6 +356,15 @@ use
 util
 :
 :
+str
+:
+:
+DOMString
+;
+use
+util
+:
+:
 task
 :
 :
@@ -1661,7 +1670,10 @@ scope
 .
 execute_script
 (
+DOMString
+(
 source
+)
 )
 ;
 }

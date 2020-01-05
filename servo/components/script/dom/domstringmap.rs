@@ -323,7 +323,7 @@ found
 =
 false
 ;
-String
+DOMString
 :
 :
 new

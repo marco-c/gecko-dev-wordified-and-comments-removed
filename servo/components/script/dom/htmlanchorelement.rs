@@ -1515,7 +1515,7 @@ hyperlink_suffix
 :
 Option
 <
-DOMString
+String
 >
 )
 {
@@ -1625,6 +1625,8 @@ suffix
 hyperlink_suffix
 {
 href
+.
+0
 .
 push_str
 (

@@ -543,6 +543,7 @@ str
 :
 :
 {
+DOMString
 LengthOrPercentageOrAuto
 }
 ;
@@ -1810,6 +1811,12 @@ no_jsmanaged_fields
 !
 (
 ElementState
+)
+;
+no_jsmanaged_fields
+!
+(
+DOMString
 )
 ;
 impl

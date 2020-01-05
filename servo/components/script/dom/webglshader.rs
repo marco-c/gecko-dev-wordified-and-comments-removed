@@ -148,6 +148,15 @@ ONCE_INIT
 Once
 }
 ;
+use
+util
+:
+:
+str
+:
+:
+DOMString
+;
 #
 [
 derive
@@ -191,7 +200,7 @@ DOMRefCell
 <
 Option
 <
-String
+DOMString
 >
 >
 info_log
@@ -1028,7 +1037,7 @@ self
 >
 Option
 <
-String
+DOMString
 >
 {
 self
@@ -1051,7 +1060,7 @@ set_source
 self
 source
 :
-String
+DOMString
 )
 {
 *

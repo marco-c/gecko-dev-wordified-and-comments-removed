@@ -629,6 +629,8 @@ unwrap
 ;
 text
 .
+0
+.
 push_str
 (
 &

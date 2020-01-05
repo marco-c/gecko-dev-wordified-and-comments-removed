@@ -385,6 +385,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 self
 .
 Href
@@ -392,5 +394,6 @@ Href
 )
 .
 0
+)
 }
 }

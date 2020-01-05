@@ -6394,6 +6394,8 @@ TextContent
 Text
 (
 data
+.
+0
 )
 ;
 }

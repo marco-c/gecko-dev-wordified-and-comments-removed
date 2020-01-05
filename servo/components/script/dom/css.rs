@@ -135,6 +135,8 @@ ident
 &
 mut
 escaped
+.
+0
 )
 .
 unwrap

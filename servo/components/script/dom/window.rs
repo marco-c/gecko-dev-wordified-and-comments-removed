@@ -1967,11 +1967,14 @@ RFC4648
 "
 Ok
 (
+DOMString
+(
 octets
 .
 to_base64
 (
 STANDARD
+)
 )
 )
 }
@@ -2396,6 +2399,8 @@ data
 >
 Ok
 (
+DOMString
+(
 data
 .
 iter
@@ -2420,6 +2425,7 @@ collect
 String
 >
 (
+)
 )
 )
 Err
@@ -7982,7 +7988,7 @@ Atom
 >
 Option
 <
-String
+DOMString
 >
 {
 self
@@ -8027,6 +8033,11 @@ resolved_style
 )
 ;
 resolved
+.
+map
+(
+DOMString
+)
 }
 pub
 fn

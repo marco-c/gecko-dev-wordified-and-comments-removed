@@ -536,6 +536,8 @@ map
 |
 token
 |
+DOMString
+(
 (
 *
 *
@@ -544,6 +546,7 @@ token
 .
 to_owned
 (
+)
 )
 )
 }
@@ -1137,6 +1140,8 @@ self
 local_name
 )
 ;
+DOMString
+(
 str_join
 (
 &
@@ -1145,6 +1150,7 @@ tokenlist
 \
 x20
 "
+)
 )
 }
 fn

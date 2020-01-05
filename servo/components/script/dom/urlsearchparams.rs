@@ -741,11 +741,14 @@ self
 >
 DOMString
 {
+DOMString
+(
 self
 .
 serialize
 (
 None
+)
 )
 }
 }

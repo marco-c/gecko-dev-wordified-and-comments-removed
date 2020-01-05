@@ -468,6 +468,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 self
 .
 encoder
@@ -478,6 +480,7 @@ name
 .
 to_owned
 (
+)
 )
 }
 #

@@ -132,6 +132,15 @@ cell
 :
 Cell
 ;
+use
+util
+:
+:
+str
+:
+:
+DOMString
+;
 #
 [
 dom_struct
@@ -700,7 +709,7 @@ get_attrib_location
 self
 name
 :
-String
+DOMString
 )
 -
 >
@@ -803,6 +812,8 @@ self
 .
 id
 name
+.
+0
 sender
 )
 )
@@ -837,7 +848,7 @@ get_uniform_location
 self
 name
 :
-String
+DOMString
 )
 -
 >
@@ -940,6 +951,8 @@ self
 .
 id
 name
+.
+0
 sender
 )
 )

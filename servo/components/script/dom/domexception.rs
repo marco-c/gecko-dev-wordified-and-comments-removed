@@ -445,6 +445,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 format
 !
 (
@@ -457,6 +459,7 @@ format
 self
 .
 code
+)
 )
 }
 /
@@ -864,10 +867,13 @@ failed
 "
 }
 ;
+DOMString
+(
 message
 .
 to_owned
 (
+)
 )
 }
 /
@@ -906,8 +912,10 @@ self
 )
 -
 >
-String
+DOMString
 {
+DOMString
+(
 format
 !
 (
@@ -927,6 +935,7 @@ self
 .
 Message
 (
+)
 )
 )
 }

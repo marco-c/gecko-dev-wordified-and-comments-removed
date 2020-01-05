@@ -335,7 +335,10 @@ data
 ;
 }
 }
+DOMString
+(
 content
+)
 }
 fn
 SetText

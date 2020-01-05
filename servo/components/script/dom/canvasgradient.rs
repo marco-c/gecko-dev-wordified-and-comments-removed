@@ -129,6 +129,15 @@ canvasrenderingcontext2d
 :
 parse_color
 ;
+use
+util
+:
+:
+str
+:
+:
+DOMString
+;
 #
 [
 dom_struct
@@ -272,7 +281,7 @@ f64
 >
 color
 :
-String
+DOMString
 )
 -
 >

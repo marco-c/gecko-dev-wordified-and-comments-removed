@@ -1523,6 +1523,8 @@ name
 .
 .
 ]
+DOMString
+(
 (
 *
 *
@@ -1535,6 +1537,7 @@ value
 .
 to_owned
 (
+)
 )
 )
 ;

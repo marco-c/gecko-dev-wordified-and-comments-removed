@@ -1829,6 +1829,8 @@ node
 .
 query_selector_iter
 (
+DOMString
+(
 "
 button
 [
@@ -1840,6 +1842,7 @@ submit
 .
 to_owned
 (
+)
 )
 )
 .

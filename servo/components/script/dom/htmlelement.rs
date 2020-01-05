@@ -2386,7 +2386,10 @@ ch
 ;
 }
 }
+DOMString
+(
 attr_name
+)
 }
 /
 /
@@ -2653,7 +2656,10 @@ curr_char
 }
 Some
 (
+DOMString
+(
 result
+)
 )
 }
 impl
@@ -2820,6 +2826,8 @@ map
 attr
 |
 {
+DOMString
+(
 (
 *
 *
@@ -2832,6 +2840,7 @@ value
 .
 to_owned
 (
+)
 )
 }
 )
@@ -3697,6 +3706,8 @@ name
 .
 .
 ]
+DOMString
+(
 (
 *
 *
@@ -3709,6 +3720,7 @@ value
 .
 to_owned
 (
+)
 )
 )
 ;

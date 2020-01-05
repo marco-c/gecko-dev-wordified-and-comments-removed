@@ -355,10 +355,10 @@ clone
 None
 =
 >
-"
-"
-.
-to_owned
+DOMString
+:
+:
+new
 (
 )
 }

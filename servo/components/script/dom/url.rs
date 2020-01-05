@@ -1283,6 +1283,8 @@ self
 >
 DOMString
 {
+DOMString
+(
 self
 .
 Href
@@ -1290,6 +1292,7 @@ Href
 )
 .
 0
+)
 }
 fn
 Username
