@@ -1664,10 +1664,12 @@ ADTSTrackDemuxer
 :
 Seek
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTime
 )
 {
@@ -2418,10 +2420,12 @@ ADTSTrackDemuxer
 :
 SkipToNextRandomAccessPoint
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTimeThreshold
 )
 {

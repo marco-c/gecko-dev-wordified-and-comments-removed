@@ -399,10 +399,12 @@ SeekPromise
 >
 Seek
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTime
 )
 override
@@ -444,10 +446,12 @@ SkipAccessPointPromise
 >
 SkipToNextRandomAccessPoint
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTimeThreshold
 )
 override

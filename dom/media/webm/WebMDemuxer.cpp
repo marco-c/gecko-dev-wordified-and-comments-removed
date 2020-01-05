@@ -5058,10 +5058,12 @@ WebMTrackDemuxer
 :
 Seek
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTime
 )
 {
@@ -6038,10 +6040,12 @@ WebMTrackDemuxer
 :
 SkipToNextRandomAccessPoint
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTimeThreshold
 )
 {

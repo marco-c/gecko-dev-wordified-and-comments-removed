@@ -883,7 +883,9 @@ MP3TrackDemuxer
 :
 Seek
 (
+const
 TimeUnit
+&
 aTime
 )
 {
@@ -1716,7 +1718,9 @@ MP3TrackDemuxer
 :
 SkipToNextRandomAccessPoint
 (
+const
 TimeUnit
+&
 aTimeThreshold
 )
 {

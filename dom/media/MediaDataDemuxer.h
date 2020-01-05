@@ -352,10 +352,12 @@ SeekPromise
 >
 Seek
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTime
 )
 =
@@ -434,10 +436,12 @@ SkipAccessPointPromise
 >
 SkipToNextRandomAccessPoint
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTimeThreshold
 )
 =
