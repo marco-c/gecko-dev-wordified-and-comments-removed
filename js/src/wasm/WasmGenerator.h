@@ -965,6 +965,15 @@ finishLinkData
 (
 )
 ;
+void
+generateBytecodeHash
+(
+const
+ShareableBytes
+&
+bytecode
+)
+;
 MOZ_MUST_USE
 bool
 addFuncImport
