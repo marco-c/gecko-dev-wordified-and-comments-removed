@@ -4392,6 +4392,9 @@ CFG_RUSTC_FLAGS
 (
 RFLAGS_servo
 )
+-
+C
+rpath
 <
 -
 -
@@ -4660,6 +4663,9 @@ RFLAGS_embedding
 (
 CRATE_embedding
 )
+-
+C
+rpath
 -
 -
 crate
