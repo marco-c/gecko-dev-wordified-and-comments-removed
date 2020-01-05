@@ -291,7 +291,10 @@ net_traits
 filemanager_thread
 :
 :
+{
 SelectedFileId
+RelativePos
+}
 ;
 use
 net_traits
@@ -2073,6 +2076,12 @@ no_jsmanaged_fields
 !
 (
 SelectedFileId
+)
+;
+no_jsmanaged_fields
+!
+(
+RelativePos
 )
 ;
 no_jsmanaged_fields
