@@ -4496,6 +4496,15 @@ browser
 <
 !
 ENTITY
+pref_private_data_openTabs
+"
+Open
+tabs
+"
+>
+<
+!
+ENTITY
 pref_private_data_history2
 "
 Browsing
