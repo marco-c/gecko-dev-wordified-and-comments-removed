@@ -1082,10 +1082,6 @@ JSContext
 *
 aCx
 const
-ConsoleStackEntry
-&
-aFrame
-const
 Sequence
 <
 JS
