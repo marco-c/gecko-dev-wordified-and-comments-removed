@@ -1005,7 +1005,11 @@ base
 flow
 )
 .
-is_inorder
+flags
+.
+inorder
+(
+)
 }
 }
 struct
