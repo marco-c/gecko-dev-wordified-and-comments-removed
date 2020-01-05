@@ -5,6 +5,8 @@ os
 import
 re
 import
+sys
+import
 mozinfo
 from
 firefox_puppeteer
@@ -2659,10 +2661,6 @@ snippet
 "
 "
         
-snippet
-=
-None
-        
 try
 :
             
@@ -2678,8 +2676,7 @@ urlopen
 update_url
 )
             
-snippet
-=
+return
 response
 .
 read
@@ -2690,10 +2687,36 @@ except
 Exception
 :
             
-pass
-        
-return
+exc
+val
+tb
+=
+sys
+.
+exc_info
+(
+)
+            
+raise
+exc
+"
+Failed
+to
+retrieve
+update
 snippet
+:
+{
+}
+"
+.
+format
+(
+val
+.
+reason
+)
+tb
     
 def
 get_formatted_update_url
