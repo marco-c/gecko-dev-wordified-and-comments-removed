@@ -1442,6 +1442,13 @@ unwrap
 (
 )
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 /
 /
 https
@@ -1504,6 +1511,8 @@ parameters
 from
 the
 spec
+unsafe
+{
 let
 mut
 rval
@@ -1584,6 +1593,7 @@ NullValue
 rval
 .
 ptr
+}
 }
 /
 /

@@ -12440,6 +12440,8 @@ evaluated
 11
 .
 )
+unsafe
+{
 let
 mut
 jsval
@@ -12507,6 +12509,7 @@ new
 (
 )
 )
+}
 }
 else
 {

@@ -5822,40 +5822,6 @@ true
 ;
 "
         
-transmute
-=
-"
-mem
-:
-:
-transmute
-(
-index
-)
-"
-        
-if
-isMember
-=
-=
-'
-Dictionary
-'
-:
-            
-transmute
-=
-'
-unsafe
-{
-'
-+
-transmute
-+
-'
-}
-'
-        
 template
 =
 (
@@ -5947,11 +5913,13 @@ n
 "
             
 "
-%
-(
+mem
+:
+:
 transmute
+(
+index
 )
-s
 \
 n
 "
@@ -5985,12 +5953,6 @@ exceptionCode
 "
 :
 exceptionCode
-                   
-"
-transmute
-"
-:
-transmute
                    
 "
 handleInvalidEnumValueCode
@@ -24666,6 +24628,7 @@ super
 s
 {
     
+unsafe
 fn
 to_jsval
 (
@@ -25560,6 +25523,7 @@ for
 s
 {
     
+unsafe
 fn
 to_jsval
 (
@@ -26505,6 +26469,7 @@ n
 pre
 =
 "
+unsafe
 fn
 from_jsval
 (
@@ -26673,6 +26638,7 @@ jsConversion
 pre
 =
 "
+unsafe
 fn
 TryConvertTo
 %
@@ -36846,6 +36812,7 @@ n
             
 "
 pub
+unsafe
 fn
 empty
 (
@@ -36897,6 +36864,7 @@ n
             
 "
 pub
+unsafe
 fn
 new
 (
@@ -37106,6 +37074,7 @@ n
 "
             
 "
+unsafe
 fn
 to_jsval
 (
@@ -37129,8 +37098,6 @@ n
 let
 obj
 =
-unsafe
-{
 RootedObject
 :
 :
@@ -37148,7 +37115,6 @@ null
 )
 )
 )
-}
 ;
 \
 n
@@ -38517,6 +38483,16 @@ JSITER_SYMBOLS
 js
 :
 :
+error
+:
+:
+throw_type_error
+'
+            
+'
+js
+:
+:
 jsapi
 :
 :
@@ -39434,19 +39410,6 @@ error
 :
 :
 throw_dom_exception
-'
-            
-'
-dom
-:
-:
-bindings
-:
-:
-error
-:
-:
-throw_type_error
 '
             
 '
@@ -41174,6 +41137,7 @@ type
 }
 {
     
+unsafe
 fn
 to_jsval
 (
@@ -41888,6 +41852,10 @@ replacements
 )
         
 return
+CGWrapper
+(
+CGIndenter
+(
 CGList
 (
 [
@@ -41906,6 +41874,24 @@ body
 "
 \
 n
+"
+)
+4
+)
+pre
+=
+"
+unsafe
+{
+\
+n
+"
+post
+=
+"
+\
+n
+}
 "
 )
 .
@@ -43033,16 +43019,6 @@ getCallable
             
 "
 let
-ok
-=
-unsafe
-{
-\
-n
-"
-            
-"
-let
 rootedThis
 =
 RootedObject
@@ -43061,6 +43037,9 @@ n
 "
             
 "
+let
+ok
+=
 JS_CallFunctionValue
 (
 \
@@ -43126,12 +43105,6 @@ handle_mut
 (
 )
 )
-\
-n
-"
-            
-"
-}
 ;
 \
 n
@@ -43243,8 +43216,6 @@ new
 cx
 ObjectValue
 (
-unsafe
-{
 &
 *
 self
@@ -43254,7 +43225,6 @@ parent
 callback
 (
 )
-}
 )
 )
 ;
@@ -43467,8 +43437,6 @@ return
 let
 isCallable
 =
-unsafe
-{
 IsCallable
 (
 self
@@ -43479,7 +43447,6 @@ callback
 (
 )
 )
-}
 ;
 \
 n
@@ -43506,8 +43473,6 @@ isCallable
 CGGeneric
 (
 '
-unsafe
-{
 RootedValue
 :
 :
@@ -43527,7 +43492,6 @@ callback
 )
 )
 )
-}
 '
 )
                                 

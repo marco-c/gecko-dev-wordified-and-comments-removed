@@ -280,6 +280,11 @@ EvaluateJSReply
 )
 {
 let
+result
+=
+unsafe
+{
+let
 cx
 =
 global
@@ -316,10 +321,6 @@ handle_mut
 )
 )
 ;
-reply
-.
-send
-(
 if
 rval
 .
@@ -482,8 +483,6 @@ to_object
 let
 class_name
 =
-unsafe
-{
 CStr
 :
 :
@@ -499,7 +498,6 @@ handle
 )
 )
 )
-}
 ;
 let
 class_name
@@ -546,6 +544,13 @@ to_string
 )
 }
 }
+}
+;
+reply
+.
+send
+(
+result
 )
 .
 unwrap

@@ -5688,6 +5688,8 @@ JSContext
 >
 JSVal
 {
+unsafe
+{
 let
 mut
 rval
@@ -5855,8 +5857,6 @@ collect
 (
 )
 ;
-unsafe
-{
 if
 !
 JS_ParseJSON
@@ -5893,7 +5893,6 @@ NullValue
 ;
 }
 }
-}
 _
 =
 >
@@ -5928,6 +5927,7 @@ handle_mut
 rval
 .
 ptr
+}
 }
 /
 /
