@@ -2146,6 +2146,12 @@ ConsumeStyleBehavior
 mozilla
 :
 :
+CSSPseudoClassType
+"
+"
+mozilla
+:
+:
 css
 :
 :
@@ -3134,6 +3140,9 @@ ThreadSafePrincipalHolder
 "
 "
 ConsumeStyleBehavior
+"
+"
+CSSPseudoClassType
 "
 "
 TraversalRootBehavior
