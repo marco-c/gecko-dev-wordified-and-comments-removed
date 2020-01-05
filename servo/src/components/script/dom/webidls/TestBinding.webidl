@@ -2075,5 +2075,16 @@ any
 args
 )
 ;
+static
+attribute
+boolean
+booleanAttributeStatic
+;
+static
+void
+receiveVoidStatic
+(
+)
+;
 }
 ;
