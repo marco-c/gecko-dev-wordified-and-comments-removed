@@ -1556,6 +1556,11 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+obj
+)
+;
 js
 :
 :
