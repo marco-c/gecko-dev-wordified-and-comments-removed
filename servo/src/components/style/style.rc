@@ -214,6 +214,7 @@ selectors
 PseudoElement
 Before
 After
+AttrSelector
 }
 ;
 mod
