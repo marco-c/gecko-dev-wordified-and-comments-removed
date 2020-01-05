@@ -151,7 +151,6 @@ nsChangeHint
 aHint
 )
 ;
-static
 void
 DebugVerifyStyleTree
 (
