@@ -1336,6 +1336,9 @@ case
 PNK_NULL
 :
 case
+PNK_RAW_UNDEFINED
+:
+case
 PNK_THIS
 :
 case
@@ -1704,6 +1707,15 @@ node
 >
 isKind
 (
+PNK_RAW_UNDEFINED
+)
+|
+|
+node
+-
+>
+isKind
+(
 PNK_FUNCTION
 )
 |
@@ -1814,6 +1826,9 @@ PNK_FALSE
 :
 case
 PNK_NULL
+:
+case
+PNK_RAW_UNDEFINED
 :
 return
 Falsy
@@ -7387,6 +7402,9 @@ PNK_FALSE
 :
 case
 PNK_NULL
+:
+case
+PNK_RAW_UNDEFINED
 :
 case
 PNK_ELISION
