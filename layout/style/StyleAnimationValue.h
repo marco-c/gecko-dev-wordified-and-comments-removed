@@ -1911,7 +1911,6 @@ RawServoAnimationValue
 >
 mServo
 ;
-inline
 bool
 operator
 =
@@ -1942,14 +1941,12 @@ IsNull
 mServo
 ;
 }
-inline
 float
 GetOpacity
 (
 )
 const
 ;
-inline
 gfxSize
 GetScaleValue
 (
@@ -1960,7 +1957,6 @@ aFrame
 )
 const
 ;
-inline
 void
 SerializeSpecifiedValue
 (
