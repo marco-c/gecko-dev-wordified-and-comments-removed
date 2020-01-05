@@ -4522,6 +4522,7 @@ StyleBackendType
 :
 :
 Gecko
+nullptr
 )
 ;
 }
