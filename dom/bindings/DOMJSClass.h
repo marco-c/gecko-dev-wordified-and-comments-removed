@@ -372,6 +372,16 @@ WorkerDebuggerGlobalScope
 <
 5
 ;
+static
+const
+uint32_t
+WorkletGlobalScope
+=
+1u
+<
+<
+6
+;
 }
 struct
 PrefableDisablers

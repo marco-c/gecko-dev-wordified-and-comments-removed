@@ -2952,6 +2952,11 @@ Worklet
 webidl
 '
 '
+WorkletGlobalScope
+.
+webidl
+'
+'
 XMLDocument
 .
 webidl

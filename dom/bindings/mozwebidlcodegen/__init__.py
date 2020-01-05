@@ -754,6 +754,12 @@ h
 '
         
 '
+RegisterWorkletBindings
+.
+h
+'
+        
+'
 ResolveSystemBinding
 .
 h
@@ -791,6 +797,12 @@ cpp
         
 '
 RegisterWorkerDebuggerBindings
+.
+cpp
+'
+        
+'
+RegisterWorkletBindings
 .
 cpp
 '
