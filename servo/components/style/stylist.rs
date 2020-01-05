@@ -1400,10 +1400,7 @@ ComputedValues
 default
 :
 &
-Arc
-<
 ComputedValues
->
 cascade_flags
 :
 CascadeFlags
@@ -1591,10 +1588,7 @@ ComputedValues
 default_style
 :
 &
-Arc
-<
 ComputedValues
->
 )
 -
 >
