@@ -1305,6 +1305,9 @@ perspective_origin
 get_effects
 .
 mix_blend_mode
+get_effects
+.
+opacity
 get_inheritedbox
 .
 image_rendering
