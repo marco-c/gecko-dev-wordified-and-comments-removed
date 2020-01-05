@@ -418,7 +418,7 @@ u8
 >
 |
 {
-crust
+extern
 fn
 write_fn
 (

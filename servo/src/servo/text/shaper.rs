@@ -607,7 +607,7 @@ ret
 glyphs
 ;
 }
-crust
+extern
 fn
 glyph_func
 (
@@ -695,7 +695,7 @@ as
 hb_bool_t
 ;
 }
-crust
+extern
 fn
 glyph_h_advance_func
 (

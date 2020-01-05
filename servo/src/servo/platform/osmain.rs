@@ -1600,7 +1600,7 @@ sel
 mod
 MainObj
 {
-crust
+extern
 fn
 applicationDidFinishLaunching
 (
