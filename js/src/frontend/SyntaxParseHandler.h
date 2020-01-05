@@ -1046,8 +1046,6 @@ uint32_t
 begin
 Node
 value
-Node
-gen
 )
 {
 return
@@ -1061,8 +1059,6 @@ uint32_t
 begin
 Node
 value
-Node
-gen
 )
 {
 return
@@ -1076,8 +1072,6 @@ uint32_t
 begin
 Node
 value
-Node
-gen
 )
 {
 return

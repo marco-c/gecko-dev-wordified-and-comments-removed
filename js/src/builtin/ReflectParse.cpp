@@ -14441,7 +14441,7 @@ next
 pn_kid
 -
 >
-pn_left
+pn_kid
 )
 ;
 RootedValue
@@ -14459,7 +14459,7 @@ next
 pn_kid
 -
 >
-pn_left
+pn_kid
 &
 body
 )
@@ -16465,7 +16465,7 @@ encloses
 pn
 -
 >
-pn_left
+pn_kid
 -
 >
 pn_pos
@@ -16484,7 +16484,7 @@ expression
 pn
 -
 >
-pn_left
+pn_kid
 &
 arg
 )
@@ -16514,7 +16514,7 @@ MOZ_ASSERT_IF
 pn
 -
 >
-pn_left
+pn_kid
 pn
 -
 >
@@ -16525,7 +16525,7 @@ encloses
 pn
 -
 >
-pn_left
+pn_kid
 -
 >
 pn_pos
@@ -16544,7 +16544,7 @@ optExpression
 pn
 -
 >
-pn_left
+pn_kid
 &
 arg
 )
@@ -18284,7 +18284,7 @@ pnstart
 >
 isKind
 (
-PNK_YIELD
+PNK_INITIALYIELD
 )
 )
 {

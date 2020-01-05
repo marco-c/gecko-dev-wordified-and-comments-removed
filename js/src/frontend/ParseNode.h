@@ -376,6 +376,11 @@ GENERATOR
 \
 F
 (
+INITIALYIELD
+)
+\
+F
+(
 YIELD
 )
 \
