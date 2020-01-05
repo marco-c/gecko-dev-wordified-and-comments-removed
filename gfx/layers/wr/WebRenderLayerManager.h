@@ -218,7 +218,11 @@ ImageKey
 >
 &
 aOldKey
-uint64_t
+wr
+:
+:
+ExternalImageId
+&
 aExternalImageId
 )
 ;

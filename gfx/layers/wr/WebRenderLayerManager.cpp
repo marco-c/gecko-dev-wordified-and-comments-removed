@@ -968,7 +968,11 @@ ImageKey
 >
 &
 aOldKey
-uint64_t
+wr
+:
+:
+ExternalImageId
+&
 aExternalImageId
 )
 {
@@ -980,11 +984,6 @@ aImageClient
 MOZ_ASSERT
 (
 aContainer
-)
-;
-MOZ_ASSERT
-(
-aExternalImageId
 )
 ;
 uint32_t

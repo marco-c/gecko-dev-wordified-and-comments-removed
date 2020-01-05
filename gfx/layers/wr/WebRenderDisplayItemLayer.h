@@ -96,10 +96,6 @@ WebRenderLayer
 this
 )
 )
-mExternalImageId
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -209,7 +205,13 @@ ImageContainer
 >
 mImageContainer
 ;
-uint64_t
+Maybe
+<
+wr
+:
+:
+ExternalImageId
+>
 mExternalImageId
 ;
 Maybe

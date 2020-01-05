@@ -4770,7 +4770,7 @@ descriptor
 WrImageDescriptor
 external_image_id
 :
-u64
+WrExternalImageId
 )
 {
 assert
@@ -4803,9 +4803,10 @@ ExternalImageData
 {
 id
 :
-ExternalImageId
-(
 external_image_id
+.
+into
+(
 )
 image_type
 :
@@ -4845,7 +4846,7 @@ descriptor
 WrImageDescriptor
 external_image_id
 :
-u64
+WrExternalImageId
 )
 {
 assert
@@ -4878,9 +4879,10 @@ ExternalImageData
 {
 id
 :
-ExternalImageId
-(
 external_image_id
+.
+into
+(
 )
 image_type
 :

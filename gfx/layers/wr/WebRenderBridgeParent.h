@@ -655,7 +655,7 @@ IPCResult
 RecvAddExternalImageId
 (
 const
-uint64_t
+ExternalImageId
 &
 aImageId
 const
@@ -675,7 +675,7 @@ IPCResult
 RecvAddExternalImageIdForCompositable
 (
 const
-uint64_t
+ExternalImageId
 &
 aImageId
 const
@@ -695,7 +695,7 @@ IPCResult
 RecvRemoveExternalImageId
 (
 const
-uint64_t
+ExternalImageId
 &
 aImageId
 )

@@ -62,10 +62,6 @@ WebRenderLayer
 this
 )
 )
-mExternalImageId
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -151,7 +147,13 @@ override
 ;
 protected
 :
-uint64_t
+Maybe
+<
+wr
+:
+:
+ExternalImageId
+>
 mExternalImageId
 ;
 }

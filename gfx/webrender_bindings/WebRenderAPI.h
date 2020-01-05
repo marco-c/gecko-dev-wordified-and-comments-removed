@@ -269,7 +269,7 @@ const
 ImageDescriptor
 &
 aDescriptor
-uint64_t
+ExternalImageId
 aHandle
 )
 ;
@@ -282,7 +282,7 @@ const
 ImageDescriptor
 &
 aDescriptor
-uint64_t
+ExternalImageId
 aHandle
 )
 ;

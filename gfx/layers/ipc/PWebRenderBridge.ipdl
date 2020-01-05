@@ -206,7 +206,7 @@ mozilla
 wr
 :
 :
-ImageKey
+ExternalImageId
 from
 "
 mozilla
@@ -225,7 +225,7 @@ mozilla
 wr
 :
 :
-FontKey
+ImageKey
 from
 "
 mozilla
@@ -480,7 +480,7 @@ texture
 async
 AddExternalImageId
 (
-uint64_t
+ExternalImageId
 aImageId
 CompositableHandle
 aHandle
@@ -489,7 +489,7 @@ aHandle
 async
 AddExternalImageIdForCompositable
 (
-uint64_t
+ExternalImageId
 aImageId
 CompositableHandle
 aHandle
@@ -498,7 +498,7 @@ aHandle
 async
 RemoveExternalImageId
 (
-uint64_t
+ExternalImageId
 aImageId
 )
 ;
