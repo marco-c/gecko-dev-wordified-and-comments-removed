@@ -219,6 +219,13 @@ path
 bluetooth_traits
 "
 }
+byteorder
+=
+"
+0
+.
+5
+"
 canvas_traits
 =
 {
