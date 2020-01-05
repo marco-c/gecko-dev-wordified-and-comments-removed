@@ -1327,6 +1327,8 @@ url
 }
 )
 ;
+break
+;
 default
 :
 throw
