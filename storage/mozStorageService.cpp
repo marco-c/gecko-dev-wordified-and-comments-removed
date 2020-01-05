@@ -564,7 +564,7 @@ cache
 "
 )
 cacheDesc
-SQLITE_DBSTATUS_CACHE_USED
+SQLITE_DBSTATUS_CACHE_USED_SHARED
 &
 totalConnSize
 )
