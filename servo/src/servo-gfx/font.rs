@@ -817,13 +817,6 @@ SelectorPlatformIdentifier
 ~
 str
 )
-SelectorStubDummy
-/
-/
-aka
-use
-Josephin
-Sans
 }
 /
 /
