@@ -179,7 +179,7 @@ VREventObserver
 aObserver
 )
 ;
-int
+uint32_t
 GetInputFrameID
 (
 )
@@ -790,7 +790,7 @@ GamepadManager
 *
 mGamepadManager
 ;
-int32_t
+uint32_t
 mInputFrameID
 ;
 MessageLoop
