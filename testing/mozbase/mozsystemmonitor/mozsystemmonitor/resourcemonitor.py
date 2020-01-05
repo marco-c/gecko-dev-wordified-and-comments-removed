@@ -326,8 +326,13 @@ RuntimeError
         
 io_counters
 =
-[
-]
+PsutilStub
+(
+)
+.
+disk_io_counters
+(
+)
     
 return
 io_counters
