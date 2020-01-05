@@ -2390,7 +2390,10 @@ userinterface
 mUserInput
 =
 =
-NS_STYLE_USER_INPUT_NONE
+StyleUserInput
+:
+:
+None
 |
 |
 userinterface
@@ -2399,7 +2402,10 @@ userinterface
 mUserInput
 =
 =
-NS_STYLE_USER_INPUT_DISABLED
+StyleUserInput
+:
+:
+Disabled
 )
 {
 return

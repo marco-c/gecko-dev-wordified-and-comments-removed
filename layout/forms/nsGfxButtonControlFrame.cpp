@@ -807,7 +807,10 @@ uiStyle
 mUserInput
 =
 =
-NS_STYLE_USER_INPUT_NONE
+StyleUserInput
+:
+:
+None
 |
 |
 uiStyle
@@ -816,8 +819,12 @@ uiStyle
 mUserInput
 =
 =
-NS_STYLE_USER_INPUT_DISABLED
+StyleUserInput
+:
+:
+Disabled
 )
+{
 return
 nsFrame
 :
@@ -829,6 +836,7 @@ aEvent
 aEventStatus
 )
 ;
+}
 return
 NS_OK
 ;
