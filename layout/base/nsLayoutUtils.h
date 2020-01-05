@@ -5807,6 +5807,15 @@ StyleGeometryBox
 aGeometryBox
 )
 ;
+static
+bool
+HasCSSBoxLayout
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 static
