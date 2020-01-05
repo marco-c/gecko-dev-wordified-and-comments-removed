@@ -1915,8 +1915,9 @@ NetAddrElement
 NetAddrElement
 (
 )
-{
-}
+=
+default
+;
 AddrInfo
 :
 :
@@ -2060,7 +2061,7 @@ if
 addIt
 )
 {
-NetAddrElement
+auto
 *
 addrElement
 =

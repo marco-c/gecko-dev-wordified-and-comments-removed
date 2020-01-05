@@ -2897,7 +2897,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-nsBinaryDetector
+auto
 *
 inst
 =
