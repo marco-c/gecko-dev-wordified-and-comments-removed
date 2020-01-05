@@ -1447,11 +1447,8 @@ compute_used_inline_size
 (
 layout_context
 containing_block_inline_size
+&
 intermediate_column_inline_sizes
-.
-as_slice
-(
-)
 )
 ;
 if

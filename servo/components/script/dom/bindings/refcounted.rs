@@ -180,6 +180,8 @@ struct
 Trusted
 <
 T
+:
+Reflectable
 >
 {
 ptr

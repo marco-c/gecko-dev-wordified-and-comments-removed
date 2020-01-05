@@ -2716,6 +2716,8 @@ struct
 Root
 <
 T
+:
+Reflectable
 >
 {
 root_list
