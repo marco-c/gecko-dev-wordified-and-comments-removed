@@ -285,10 +285,6 @@ DOMTokenListBinding
 Wrap
 )
 }
-}
-impl
-DOMTokenList
-{
 fn
 attribute
 (

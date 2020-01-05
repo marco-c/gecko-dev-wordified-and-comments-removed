@@ -340,10 +340,6 @@ ImageDataBinding
 Wrap
 )
 }
-}
-impl
-ImageData
-{
 #
 [
 allow

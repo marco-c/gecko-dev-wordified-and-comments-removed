@@ -623,10 +623,6 @@ HTMLElementBinding
 Wrap
 )
 }
-}
-impl
-HTMLElement
-{
 fn
 is_body_or_frameset
 (

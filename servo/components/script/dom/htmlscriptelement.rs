@@ -3652,10 +3652,6 @@ true
 )
 ;
 }
-}
-impl
-HTMLScriptElement
-{
 fn
 dispatch_event
 (

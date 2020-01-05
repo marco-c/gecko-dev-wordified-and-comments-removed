@@ -1154,10 +1154,6 @@ new_subpage_id
 )
 ;
 }
-}
-impl
-HTMLIFrameElement
-{
 #
 [
 allow
@@ -1324,10 +1320,6 @@ Auto
 )
 }
 }
-}
-impl
-HTMLIFrameElement
-{
 fn
 new_inherited
 (

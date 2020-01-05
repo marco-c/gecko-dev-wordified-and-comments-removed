@@ -565,10 +565,6 @@ to_ascii_lowercase
 )
 )
 }
-}
-impl
-Blob
-{
 pub
 fn
 read_out_buffer

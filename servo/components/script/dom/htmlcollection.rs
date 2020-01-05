@@ -331,10 +331,6 @@ HTMLCollectionBinding
 Wrap
 )
 }
-}
-impl
-HTMLCollection
-{
 pub
 fn
 create

@@ -3328,10 +3328,6 @@ f32
 )
 )
 }
-}
-impl
-CanvasRenderingContext2D
-{
 pub
 fn
 get_renderer_id

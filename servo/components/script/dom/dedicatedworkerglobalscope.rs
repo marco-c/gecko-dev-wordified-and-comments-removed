@@ -1158,10 +1158,6 @@ cx
 scope
 )
 }
-}
-impl
-DedicatedWorkerGlobalScope
-{
 pub
 fn
 run_worker_scope
@@ -1572,10 +1568,6 @@ CollectReports
 )
 ;
 }
-}
-impl
-DedicatedWorkerGlobalScope
-{
 pub
 fn
 script_chan
@@ -1739,10 +1731,6 @@ msg
 )
 ;
 }
-}
-impl
-DedicatedWorkerGlobalScope
-{
 #
 [
 allow
