@@ -205,7 +205,6 @@ bool
 CanSerialize
 (
 )
-override
 {
 return
 true
