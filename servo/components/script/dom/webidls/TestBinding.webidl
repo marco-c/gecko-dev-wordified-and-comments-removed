@@ -1619,6 +1619,17 @@ arg
 )
 ;
 void
+passUnion10
+(
+(
+DOMString
+or
+object
+)
+arg
+)
+;
+void
 passUnionWithTypedef
 (
 (
