@@ -44768,6 +44768,13 @@ entries
 append
 (
 '
+#
+[
+allow
+(
+dead_code
+)
+]
 Last
 =
 '

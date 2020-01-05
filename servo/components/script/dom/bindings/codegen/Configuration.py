@@ -2858,6 +2858,22 @@ hasInterfaceObject
 (
 )
         
+if
+self
+.
+interface
+.
+getExtendedAttribute
+(
+"
+Inline
+"
+)
+:
+            
+return
+False
+        
 return
 self
 .
