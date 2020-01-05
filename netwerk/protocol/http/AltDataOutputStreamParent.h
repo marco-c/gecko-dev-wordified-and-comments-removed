@@ -115,6 +115,9 @@ mOutputStream
 nsresult
 mStatus
 ;
+bool
+mIPCOpen
+;
 }
 ;
 }
