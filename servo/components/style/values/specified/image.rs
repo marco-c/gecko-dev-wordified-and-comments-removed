@@ -4844,12 +4844,6 @@ Image
 >
 )
 ;
-use
-values
-:
-:
-HasViewportPercentage
-;
 no_viewport_percentage
 !
 (

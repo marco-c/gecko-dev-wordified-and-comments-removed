@@ -410,12 +410,6 @@ use
 values
 :
 :
-HasViewportPercentage
-;
-use
-values
-:
-:
 computed
 :
 :
