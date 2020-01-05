@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsPrincipal
+ContentPrincipal
 .
 h
 "
@@ -2687,12 +2687,12 @@ forget
 }
 RefPtr
 <
-nsPrincipal
+ContentPrincipal
 >
 codebase
 =
 new
-nsPrincipal
+ContentPrincipal
 (
 )
 ;

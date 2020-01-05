@@ -62,13 +62,6 @@ h
 #
 include
 "
-nsPrincipal
-.
-h
-"
-#
-include
-"
 nsIScriptSecurityManager
 .
 h
@@ -93,6 +86,13 @@ include
 mozilla
 /
 LoadInfo
+.
+h
+"
+#
+include
+"
+ContentPrincipal
 .
 h
 "

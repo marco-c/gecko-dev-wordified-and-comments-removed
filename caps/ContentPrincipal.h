@@ -1,9 +1,9 @@
 #
 ifndef
-nsPrincipal_h__
+ContentPrincipal_h
 #
 define
-nsPrincipal_h__
+ContentPrincipal_h
 #
 include
 "
@@ -63,7 +63,7 @@ BasePrincipal
 h
 "
 class
-nsPrincipal
+ContentPrincipal
 final
 :
 public
@@ -163,7 +163,7 @@ aOrigin
 )
 override
 ;
-nsPrincipal
+ContentPrincipal
 (
 )
 ;
@@ -223,7 +223,7 @@ protected
 :
 virtual
 ~
-nsPrincipal
+ContentPrincipal
 (
 )
 ;

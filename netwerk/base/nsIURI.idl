@@ -652,7 +652,7 @@ intermediate
 IIDs
 until
 *
-nsPrincipal
+ContentPrincipal
 is
 fixed
 to

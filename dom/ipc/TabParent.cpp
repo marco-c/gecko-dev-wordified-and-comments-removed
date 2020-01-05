@@ -454,13 +454,6 @@ h
 #
 include
 "
-nsPrincipal
-.
-h
-"
-#
-include
-"
 nsIPromptFactory
 .
 h
@@ -525,6 +518,13 @@ h
 include
 "
 nsIWidget
+.
+h
+"
+#
+include
+"
+nsNetUtil
 .
 h
 "

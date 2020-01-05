@@ -211,7 +211,7 @@ h
 #
 include
 "
-nsPrincipal
+ContentPrincipal
 .
 h
 "
@@ -1517,7 +1517,7 @@ InitializeStatics
 (
 )
 ;
-nsPrincipal
+ContentPrincipal
 :
 :
 InitializeStatics
