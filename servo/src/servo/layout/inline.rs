@@ -3432,9 +3432,12 @@ None
 =
 >
 {
-fail
-~
+error
+!
+(
 "
+LineboxScanner
+:
 This
 split
 case
@@ -3443,6 +3446,8 @@ no
 sense
 !
 "
+)
+;
 }
 }
 return
@@ -3586,9 +3591,12 @@ None
 =
 >
 {
-fail
-~
+error
+!
+(
 "
+LineboxScanner
+:
 This
 split
 case
@@ -3597,6 +3605,8 @@ no
 sense
 !
 "
+)
+;
 }
 }
 return
