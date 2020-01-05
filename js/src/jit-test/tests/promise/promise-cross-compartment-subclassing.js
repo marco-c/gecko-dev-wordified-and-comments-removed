@@ -1,9 +1,11 @@
+const
 global
 =
 newGlobal
 (
 )
 ;
+const
 OtherPromise
 =
 global
