@@ -323,7 +323,7 @@ ExpirationChange
 nsCString
 aSessionId
 double
-aSecondsSinceEpoch
+aExpiryTime
 )
 ;
 async
