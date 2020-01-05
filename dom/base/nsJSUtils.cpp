@@ -632,6 +632,9 @@ JSObject
 aGlobal
 )
 :
+#
+ifdef
+MOZ_GECKO_PROFILER
 mSamplerRAII
 (
 "
@@ -652,6 +655,8 @@ Category
 JS
 __LINE__
 )
+#
+endif
 mCx
 (
 aCx
