@@ -2485,13 +2485,6 @@ java
 '
 gfx
 /
-ProgressiveUpdateData
-.
-java
-'
-'
-gfx
-/
 RectUtils
 .
 java
