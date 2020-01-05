@@ -285,6 +285,14 @@ Drain
 (
 )
 ;
+RefPtr
+<
+ShutdownPromise
+>
+ShutdownVideoDecoder
+(
+)
+;
 protected
 :
 ~
