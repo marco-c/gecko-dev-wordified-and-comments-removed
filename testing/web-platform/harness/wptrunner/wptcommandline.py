@@ -1609,6 +1609,9 @@ equal_time
 "
 hash
 "
+"
+dir_hash
+"
 ]
                                 
 default
