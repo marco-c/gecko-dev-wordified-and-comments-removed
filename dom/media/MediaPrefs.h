@@ -1222,7 +1222,7 @@ endif
 if
 defined
 (
-OS_LINUX
+MOZ_WIDGET_GTK
 )
 DECL_MEDIA_PREF
 (
