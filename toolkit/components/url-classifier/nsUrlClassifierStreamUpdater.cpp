@@ -440,12 +440,6 @@ mDownloadErrorCallback
 =
 nullptr
 ;
-mTelemetryProvider
-.
-Truncate
-(
-)
-;
 }
 nsresult
 nsUrlClassifierStreamUpdater
@@ -3585,6 +3579,12 @@ FinishUpdate
 )
 ;
 }
+mTelemetryProvider
+.
+Truncate
+(
+)
+;
 mChannel
 =
 nullptr
