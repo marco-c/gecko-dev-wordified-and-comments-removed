@@ -1519,6 +1519,7 @@ y
 [
 Throws
 UnsafeInPrerendering
+NeedsCallerType
 ]
 void
 resizeTo
@@ -1532,6 +1533,7 @@ y
 [
 Throws
 UnsafeInPrerendering
+NeedsCallerType
 ]
 void
 resizeBy
@@ -2494,6 +2496,7 @@ window
 [
 Throws
 UnsafeInPrerendering
+NeedsCallerType
 ]
 void
 sizeToContent
