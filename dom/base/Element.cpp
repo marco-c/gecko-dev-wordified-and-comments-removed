@@ -9687,6 +9687,14 @@ mClass
 eKeyboardEventClass
 )
 {
+event
+.
+mFlags
+.
+mIsPositionless
+=
+true
+;
 inputSource
 =
 nsIDOMMouseEvent
