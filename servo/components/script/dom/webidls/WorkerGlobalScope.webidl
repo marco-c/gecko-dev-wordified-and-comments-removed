@@ -186,8 +186,6 @@ WorkerGlobalScope
 implements
 WindowTimers
 ;
-/
-/
 WorkerGlobalScope
 implements
 WindowBase64
