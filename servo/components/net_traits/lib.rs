@@ -1683,7 +1683,6 @@ move
 |
 message
 |
-{
 f
 (
 message
@@ -1696,8 +1695,6 @@ unwrap
 (
 )
 )
-;
-}
 )
 ;
 core_resource_thread
@@ -2272,8 +2269,8 @@ buf
 =
 vec
 !
-(
-)
+[
+]
 ;
 let
 mut

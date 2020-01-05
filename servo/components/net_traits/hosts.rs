@@ -440,13 +440,11 @@ clone
 |
 host_table
 |
-{
 host_replacement
 (
 host_table
 url
 )
-}
 )
 }
 pub
@@ -481,6 +479,7 @@ and_then
 |
 domain
 |
+{
 host_table
 .
 get
@@ -519,6 +518,7 @@ unwrap
 new_url
 }
 )
+}
 )
 .
 unwrap_or_else
