@@ -131,6 +131,11 @@ mId
 ;
 }
 void
+GenerateFrame
+(
+)
+;
+void
 SetRootDisplayList
 (
 gfx

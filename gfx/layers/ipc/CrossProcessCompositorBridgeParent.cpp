@@ -1324,6 +1324,12 @@ WebRenderBridgeParent
 this
 aPipelineId
 nullptr
+root
+-
+>
+CompositorScheduler
+(
+)
 Move
 (
 api

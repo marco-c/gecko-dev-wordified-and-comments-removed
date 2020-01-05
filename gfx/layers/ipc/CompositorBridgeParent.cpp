@@ -7310,6 +7310,7 @@ WebRenderBridgeParent
 this
 aPipelineId
 mWidget
+nullptr
 Move
 (
 api

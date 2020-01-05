@@ -159,6 +159,9 @@ widget
 CompositorWidget
 *
 aWidget
+CompositorVsyncScheduler
+*
+aScheduler
 RefPtr
 <
 wr
