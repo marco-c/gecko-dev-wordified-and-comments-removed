@@ -373,9 +373,7 @@ value
 =
 >
 {
-let
-value_lower
-=
+match
 value
 .
 as_slice
@@ -385,9 +383,6 @@ as_slice
 to_ascii_lower
 (
 )
-;
-match
-value_lower
 .
 as_slice
 (
