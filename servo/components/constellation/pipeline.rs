@@ -621,7 +621,7 @@ pipeline_namespace_id
 :
 PipelineNamespaceId
 pub
-parent_visibility
+prev_visibility
 :
 Option
 <
@@ -1503,7 +1503,7 @@ state
 window_size
 state
 .
-parent_visibility
+prev_visibility
 .
 unwrap_or
 (
