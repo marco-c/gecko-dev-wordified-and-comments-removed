@@ -423,6 +423,9 @@ Europe
 Astrakhan
 Europe
 /
+Saratov
+Europe
+/
 Ulyanovsk
 "
 }
@@ -4862,14 +4865,6 @@ Australia
 Perth
 "
 }
-AQ
-{
-"
-Antarctica
-/
-Casey
-"
-}
 AU
 {
 "
@@ -5221,6 +5216,9 @@ Aqtau
 Asia
 /
 Aqtobe
+Asia
+/
+Atyrau
 "
 }
 MV
