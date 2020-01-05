@@ -3707,9 +3707,6 @@ waitForZeroTimer
 Promise
 "
 "
-add_identity_test
-"
-"
 MockFxaStorageManager
 "
 "

@@ -326,9 +326,8 @@ run_next_test
 )
 ;
 }
-add_identity_test
+add_task
 (
-this
 async
 function
 test_wipeServer_list_success
@@ -600,9 +599,8 @@ resetBranch
 }
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_wipeServer_list_503
@@ -925,9 +923,8 @@ resetBranch
 }
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_wipeServer_all_success
@@ -1091,9 +1088,8 @@ resetBranch
 }
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_wipeServer_all_404
@@ -1285,9 +1281,8 @@ resetBranch
 }
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_wipeServer_all_503
@@ -1472,9 +1467,8 @@ resetBranch
 }
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_wipeServer_all_connectionRefused

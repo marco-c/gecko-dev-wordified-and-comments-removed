@@ -455,9 +455,8 @@ eol
 )
 ;
 }
-add_identity_test
+add_task
 (
-this
 async
 function
 test_200_hard
@@ -582,9 +581,8 @@ server
 }
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_513_hard
@@ -711,9 +709,8 @@ server
 }
 )
 ;
-add_identity_test
+add_task
 (
-this
 async
 function
 test_200_soft
