@@ -7035,17 +7035,11 @@ mParent
 >
 ReadOggChain
 (
-TimeUnit
-:
-:
-FromMicroseconds
-(
 data
 -
 >
 GetEndTime
 (
-)
 )
 )
 ;
