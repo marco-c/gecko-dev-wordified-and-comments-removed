@@ -673,7 +673,7 @@ processes
 }
 let
 {
-type
+viewType
 uri
 contentWindow
 }
@@ -682,9 +682,9 @@ params
 ;
 this
 .
-type
+viewType
 =
-type
+viewType
 ;
 this
 .
@@ -814,8 +814,6 @@ envType
 addon_parent
 "
 viewType
-:
-type
 url
 :
 uri

@@ -93,7 +93,7 @@ null
 &
 view
 .
-type
+viewType
 !
 =
 fetchProperties

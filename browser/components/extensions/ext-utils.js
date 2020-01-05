@@ -556,7 +556,7 @@ if
 (
 context
 .
-type
+viewType
 =
 =
 "
