@@ -9800,6 +9800,9 @@ uint32_t
 expirationTime
 bool
 aPinned
+nsILoadContextInfo
+*
+aInfo
 )
 {
 MOZ_ASSERT

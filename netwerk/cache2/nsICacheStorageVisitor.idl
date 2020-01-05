@@ -69,6 +69,9 @@ nsIURI
 interface
 nsIFile
 ;
+interface
+nsILoadContextInfo
+;
 [
 scriptable
 uuid
@@ -140,6 +143,9 @@ aExpirationTime
 in
 boolean
 aPinned
+in
+nsILoadContextInfo
+aInfo
 )
 ;
 /

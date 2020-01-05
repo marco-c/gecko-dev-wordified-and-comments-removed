@@ -1080,6 +1080,7 @@ fetchCount
 lastModified
 expirationTime
 false
+mLoadInfo
 )
 ;
 *
