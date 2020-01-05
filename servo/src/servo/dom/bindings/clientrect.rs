@@ -31,6 +31,9 @@ dom
 bindings
 :
 :
+codegen
+:
+:
 ClientRectBinding
 ;
 use

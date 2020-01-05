@@ -29,6 +29,9 @@ dom
 bindings
 :
 :
+codegen
+:
+:
 ClientRectListBinding
 ;
 use

@@ -232,12 +232,17 @@ clientrectlist
 ;
 pub
 mod
+codegen
+{
+pub
+mod
 ClientRectBinding
 ;
 pub
 mod
 ClientRectListBinding
 ;
+}
 }
 pub
 mod
