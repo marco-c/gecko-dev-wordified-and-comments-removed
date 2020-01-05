@@ -556,7 +556,9 @@ isEditable
 &
 this
 .
-toolbox
+ruleView
+.
+inspector
 .
 target
 .

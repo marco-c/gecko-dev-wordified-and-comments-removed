@@ -666,7 +666,7 @@ this
 let
 target
 =
-gToolbox
+gInspector
 .
 target
 ;
