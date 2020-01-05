@@ -459,7 +459,6 @@ vec
 :
 consume
 (
-move
 result_vec
 )
 |
@@ -535,7 +534,6 @@ recv
 {
 JSTaskNewFile
 (
-move
 url
 )
 =
@@ -627,7 +625,6 @@ recv
 {
 Payload
 (
-move
 data
 )
 =
@@ -653,7 +650,6 @@ result_chan
 .
 send
 (
-move
 buf
 )
 ;
@@ -735,7 +731,6 @@ to_parent
 .
 send
 (
-move
 js_scripts
 )
 ;
@@ -1481,7 +1476,6 @@ url
 (
 copy
 scope
-move
 url
 )
 ;
@@ -1739,7 +1733,6 @@ result
 :
 unwrap
 (
-move
 url
 )
 copy
@@ -1753,7 +1746,6 @@ send
 (
 CSSTaskNewFile
 (
-move
 provenance
 )
 )
@@ -1843,7 +1835,6 @@ new_node
 (
 Comment
 (
-move
 data
 )
 )
@@ -1987,9 +1978,7 @@ copy
 doctype
 .
 name
-move
 public_id
-move
 system_id
 copy
 doctype
@@ -2006,7 +1995,6 @@ new_node
 (
 Doctype
 (
-move
 data
 )
 )
@@ -2038,8 +2026,6 @@ hubbub
 :
 :
 Tag
-move
-image_cache_task
 |
 {
 debug
@@ -2102,7 +2088,6 @@ copy
 tag
 .
 name
-move
 elem_kind
 )
 ;
@@ -2207,12 +2192,10 @@ href
 (
 Some
 (
-move
 rel
 )
 Some
 (
-move
 href
 )
 )
@@ -2373,7 +2356,6 @@ image_cache_task
 :
 Prefetch
 (
-move
 img_url
 )
 )
@@ -2413,7 +2395,6 @@ new_node
 (
 Element
 (
-move
 elem
 )
 )
@@ -2462,7 +2443,6 @@ new_node
 (
 Text
 (
-move
 data
 )
 )
@@ -2712,7 +2692,6 @@ scope
 .
 new_node
 (
-move
 data
 )
 ;
@@ -2962,7 +2941,6 @@ src
 {
 Some
 (
-move
 src
 )
 =
@@ -2986,7 +2964,6 @@ new_url
 =
 make_url
 (
-move
 src
 Some
 (
@@ -3002,7 +2979,6 @@ send
 (
 JSTaskNewFile
 (
-move
 new_url
 )
 )

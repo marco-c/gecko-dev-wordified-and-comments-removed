@@ -231,7 +231,6 @@ i
 ;
 }
 ;
-move
 data
 }
 }
@@ -402,14 +401,11 @@ Port
 <
 TimerControlMsg
 >
-move
-content_chan
 |
 {
 loop
 {
 match
-move
 timer_port
 .
 recv
@@ -422,7 +418,6 @@ TimerMessage_Close
 break
 TimerMessage_Fire
 (
-move
 td
 )
 =
@@ -434,7 +429,6 @@ send
 (
 Timer
 (
-move
 td
 )
 )

@@ -48,9 +48,9 @@ LayoutData
 ;
 }
 impl
-Node
-:
 LayoutAuxMethods
+for
+Node
 {
 fn
 initialize_layout_data

@@ -4186,7 +4186,6 @@ oblique
 oblique
 families
 :
-move
 font_families
 }
 }
@@ -4236,9 +4235,9 @@ text_align
 }
 }
 impl
-RenderBox
-:
 BoxedDebugMethods
+for
+RenderBox
 {
 pure
 fn
@@ -4533,14 +4532,12 @@ element
 )
 Some
 (
-move
 parent
 )
 =
 >
 node
 =
-move
 parent
 }
 }
@@ -4568,9 +4565,9 @@ Color
 ;
 }
 impl
-Color
-:
 ToGfxColor
+for
+Color
 {
 fn
 to_gfx_color

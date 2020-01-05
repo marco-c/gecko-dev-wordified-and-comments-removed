@@ -668,7 +668,6 @@ pipes
 :
 SharedChan
 (
-move
 dom_event_chan
 )
 ;
@@ -726,7 +725,6 @@ send
 (
 AddKeyHandler
 (
-move
 keypress_to_engine
 )
 )
@@ -818,7 +816,6 @@ send
 (
 LoadURLMsg
 (
-move
 url
 )
 )
@@ -906,7 +903,6 @@ engine
 :
 ExitMsg
 (
-move
 exit_chan
 )
 )
@@ -1055,7 +1051,6 @@ pipes
 :
 SharedChan
 (
-move
 dom_event_chan
 )
 ;
@@ -1116,13 +1111,9 @@ Engine
 (
 copy
 compositor
-move
 dom_event_port
-move
 dom_event_chan
-move
 resource_task
-move
 image_cache_task
 )
 ;
@@ -1201,7 +1192,6 @@ engine
 :
 ExitMsg
 (
-move
 exit_chan
 )
 )

@@ -39,9 +39,9 @@ FlowContext
 ;
 }
 impl
-FlowContext
-:
 FlowContextTraversals
+for
+FlowContext
 {
 fn
 traverse_preorder

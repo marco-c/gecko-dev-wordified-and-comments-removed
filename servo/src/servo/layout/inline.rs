@@ -1444,7 +1444,6 @@ dvec
 :
 unwrap
 (
-move
 out_boxes
 )
 }
@@ -2012,7 +2011,6 @@ fontgroup
 .
 create_textrun
 (
-move
 transformed_text
 )
 ;
@@ -2441,7 +2439,6 @@ fonts
 [
 0
 ]
-move
 run_str
 )
 ;
@@ -3435,7 +3432,6 @@ boxes
 .
 set
 (
-move
 boxes
 )
 ;
@@ -3466,7 +3462,6 @@ lines
 .
 set
 (
-move
 boxes
 )
 ;
@@ -3957,7 +3952,6 @@ line_spans
 .
 push
 (
-move
 line_range
 )
 ;
@@ -4992,9 +4986,9 @@ DisplayList
 ;
 }
 impl
-FlowContext
-:
 InlineLayout
+for
+FlowContext
 {
 pure
 fn

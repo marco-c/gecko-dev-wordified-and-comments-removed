@@ -86,9 +86,9 @@ SelectCtx
 ;
 }
 impl
-Node
-:
 MatchMethods
+for
+Node
 {
 fn
 restyle_subtree
@@ -136,7 +136,6 @@ compose_results
 (
 &
 self
-move
 incomplete_results
 )
 ;
@@ -144,7 +143,6 @@ self
 .
 set_css_select_results
 (
-move
 complete_results
 )
 ;
@@ -212,7 +210,6 @@ CompleteSelectResults
 :
 new_root
 (
-move
 results
 )
 Some
@@ -237,7 +234,6 @@ CompleteSelectResults
 new_from_parent
 (
 parent_results
-move
 results
 )
 }

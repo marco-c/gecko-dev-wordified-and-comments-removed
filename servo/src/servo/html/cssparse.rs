@@ -136,7 +136,6 @@ provenance_cell
 =
 Cell
 (
-move
 provenance
 )
 ;
@@ -146,8 +145,6 @@ task
 :
 spawn
 |
-move
-provenance_cell
 copy
 resource_task
 |
@@ -174,7 +171,6 @@ the_url
 )
 =
 >
-move
 the_url
 InlineProvenance
 (
@@ -184,7 +180,6 @@ _
 )
 =
 >
-move
 the_url
 }
 }
@@ -240,12 +235,10 @@ ResourceTask
 DataStream
 {
 match
-move
 provenance
 {
 UrlProvenance
 (
-move
 url
 )
 =
@@ -270,7 +263,6 @@ send
 (
 Load
 (
-move
 url
 input_chan
 )
@@ -284,7 +276,6 @@ input_port
 InlineProvenance
 (
 _
-move
 data
 )
 =
@@ -292,7 +283,6 @@ data
 {
 data_to_data_stream
 (
-move
 data
 )
 }
@@ -325,14 +315,12 @@ recv
 {
 Payload
 (
-move
 data
 )
 =
 >
 Some
 (
-move
 data
 )
 Done
@@ -362,14 +350,11 @@ data_cell
 =
 Cell
 (
-move
 data
 )
 ;
 return
 |
-move
-data_cell
 |
 {
 if

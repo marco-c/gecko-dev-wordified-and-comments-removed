@@ -252,8 +252,6 @@ node
 }
 }
 impl
-NodeTree
-:
 tree
 :
 :
@@ -261,6 +259,8 @@ ReadMethods
 <
 Node
 >
+for
+NodeTree
 {
 fn
 with_tree_fields
@@ -393,9 +393,9 @@ self
 }
 }
 impl
-Node
-:
 DebugMethods
+for
+Node
 {
 /
 *
@@ -695,15 +695,12 @@ DoctypeData
 {
 name
 :
-move
 name
 public_id
 :
-move
 public_id
 system_id
 :
-move
 system_id
 force_quirks
 :
@@ -860,9 +857,9 @@ non_implicitly_copyable_typarams
 )
 ]
 impl
-NodeScope
-:
 NodeScopeExtensions
+for
+NodeScope
 {
 fn
 new_node
@@ -894,7 +891,6 @@ empty
 kind
 :
 ~
-move
 k
 }
 )
@@ -968,8 +964,6 @@ non_implicitly_copyable_typarams
 )
 ]
 impl
-NodeScope
-:
 tree
 :
 :
@@ -977,6 +971,8 @@ ReadMethods
 <
 Node
 >
+for
+NodeScope
 {
 fn
 with_tree_fields
@@ -1061,8 +1057,6 @@ non_implicitly_copyable_typarams
 )
 ]
 impl
-NodeScope
-:
 tree
 :
 :
@@ -1070,6 +1064,8 @@ WriteMethods
 <
 Node
 >
+for
+NodeScope
 {
 pure
 fn

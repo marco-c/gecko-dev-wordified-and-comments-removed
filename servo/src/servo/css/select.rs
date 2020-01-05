@@ -110,7 +110,6 @@ OriginUA
 )
 ;
 return
-move
 ctx
 ;
 }
@@ -235,8 +234,6 @@ d
 DataStream
 =
 |
-move
-style
 |
 if
 !

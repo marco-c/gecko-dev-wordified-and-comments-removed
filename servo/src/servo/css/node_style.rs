@@ -44,9 +44,9 @@ self
 ;
 }
 impl
-Node
-:
 StyledNode
+for
+Node
 {
 fn
 style

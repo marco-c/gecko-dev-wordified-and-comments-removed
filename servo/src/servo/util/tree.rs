@@ -1152,12 +1152,12 @@ dtree
 dtree
 }
 impl
-dtree
-:
 ReadMethods
 <
 dummy
 >
+for
+dtree
 {
 fn
 with_tree_fields
@@ -1197,12 +1197,12 @@ fields
 }
 }
 impl
-dtree
-:
 WriteMethods
 <
 dummy
 >
+for
+dtree
 {
 fn
 with_tree_fields
@@ -1365,7 +1365,6 @@ p
 p
 children
 :
-move
 children
 }
 ;

@@ -672,7 +672,6 @@ local_image_cache
 :
 LocalImageCache
 (
-move
 image_cache_task
 )
 from_content
@@ -736,7 +735,6 @@ recv
 {
 AddStylesheet
 (
-move
 sheet
 )
 =
@@ -746,14 +744,12 @@ self
 .
 handle_add_stylesheet
 (
-move
 sheet
 )
 ;
 }
 BuildMsg
 (
-move
 data
 )
 =
@@ -764,7 +760,6 @@ data
 =
 Cell
 (
-move
 data
 )
 ;
@@ -866,7 +861,6 @@ sheet
 =
 Cell
 (
-move
 sheet
 )
 ;
@@ -1020,7 +1014,6 @@ self
 .
 make_on_image_available_cb
 (
-move
 dom_event_chan
 )
 )
@@ -1075,7 +1068,6 @@ self
 font_ctx
 doc_url
 :
-move
 doc_url
 screen_size
 :
@@ -1463,7 +1455,6 @@ send
 (
 RenderMsg
 (
-move
 render_layer
 )
 )
@@ -1648,7 +1639,6 @@ Ok
 (
 ContentSize
 (
-move
 size
 )
 )
@@ -1708,8 +1698,6 @@ ImageResponseMsg
 )
 =
 |
-move
-dom_event_chan
 |
 {
 let
@@ -1731,9 +1719,7 @@ ImageResponseMsg
 )
 =
 |
-_msg
-move
-dom_event_chan
+_
 |
 {
 dom_event_chan
@@ -1744,7 +1730,6 @@ ReflowEvent
 )
 }
 ;
-move
 f
 }
 ;

@@ -352,10 +352,6 @@ Msg
 (
 |
 po
-move
-dom_event_chan
-move
-opts
 |
 {
 let
@@ -476,8 +472,6 @@ uint
 >
 }
 impl
-AzureDrawTargetImageData
-:
 layers
 :
 :
@@ -485,6 +479,8 @@ layers
 :
 :
 ImageData
+for
+AzureDrawTargetImageData
 {
 fn
 size
@@ -692,7 +688,6 @@ window
 =
 GlutWindow
 (
-move
 glut_window
 )
 ;
@@ -756,7 +751,6 @@ window
 =
 ShareWindow
 (
-move
 share_context
 )
 ;
@@ -966,7 +960,6 @@ resize_rate_limiter
 =
 ResizeRateLimiter
 (
-move
 dom_event_chan
 )
 ;
@@ -1027,7 +1020,6 @@ recv
 {
 AddKeyHandler
 (
-move
 key_ch
 )
 =
@@ -1036,12 +1028,10 @@ key_handlers
 .
 push
 (
-move
 key_ch
 )
 BeginDrawing
 (
-move
 sender
 )
 =
@@ -1049,14 +1039,11 @@ sender
 lend_surface
 (
 surfaces
-move
 sender
 )
 Draw
 (
-move
 sender
-move
 draw_target
 )
 =
@@ -1077,14 +1064,12 @@ frame
 return_surface
 (
 surfaces
-move
 draw_target
 )
 ;
 lend_surface
 (
 surfaces
-move
 sender
 )
 ;
@@ -1468,7 +1453,6 @@ layer_buffer_set
 .
 buffers
 =
-move
 buffers
 ;
 }
@@ -1873,7 +1857,6 @@ send
 (
 BeginDrawing
 (
-move
 next_dt
 )
 )
@@ -1903,9 +1886,7 @@ send
 (
 Draw
 (
-move
 next_dt
-move
 draw_me
 )
 )
@@ -2047,7 +2028,6 @@ surface
 layer_buffer
 )
 ;
-move
 layer_buffer
 }
 ;
@@ -2059,7 +2039,6 @@ layer_buffer_set
 .
 buffers
 =
-move
 old_layer_buffers
 ;
 let
@@ -2069,7 +2048,6 @@ LayerBufferSet
 {
 buffers
 :
-move
 new_layer_buffers
 }
 ;
@@ -2077,7 +2055,6 @@ receiver
 .
 send
 (
-move
 new_layer_buffer_set
 )
 ;
@@ -2189,7 +2166,6 @@ back
 .
 layer_buffer_set
 =
-move
 layer_buffer_set
 ;
 /
@@ -2306,7 +2282,6 @@ buffers
 :
 ~
 [
-move
 layer_buffer
 ]
 }
@@ -2315,7 +2290,6 @@ Surface
 {
 layer_buffer_set
 :
-move
 layer_buffer_set
 have
 :
@@ -2394,10 +2368,6 @@ PlatformThread
 )
 .
 spawn
-|
-move
-f
-|
 {
 let
 (
@@ -2421,7 +2391,6 @@ ch
 ;
 f
 (
-move
 po
 )
 ;
