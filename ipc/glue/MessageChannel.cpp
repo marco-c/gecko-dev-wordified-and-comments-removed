@@ -6661,7 +6661,7 @@ Connected
 ReportConnectionError
 (
 "
-OnMaybeDequeueOne
+RunMessage
 "
 )
 ;
@@ -6969,6 +6969,10 @@ isInList
 )
 )
 ;
+mScheduled
+=
+true
+;
 RefPtr
 <
 MessageTask
@@ -6991,10 +6995,6 @@ forget
 (
 )
 )
-;
-mScheduled
-=
-true
 ;
 }
 void
