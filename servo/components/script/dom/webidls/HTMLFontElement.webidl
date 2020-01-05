@@ -121,8 +121,6 @@ attribute
 DOMString
 color
 ;
-/
-/
 attribute
 DOMString
 face
