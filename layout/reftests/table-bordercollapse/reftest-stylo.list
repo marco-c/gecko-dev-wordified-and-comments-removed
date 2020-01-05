@@ -658,7 +658,6 @@ borderhandling
 8
 .
 html
-fails
 =
 =
 borderhandling
@@ -675,7 +674,6 @@ frame
 border
 .
 html
-fails
 =
 =
 borderhandling
@@ -700,7 +698,6 @@ empty
 quirks
 .
 html
-fails
 =
 =
 borderhandling
@@ -725,7 +722,6 @@ rules
 quirks
 .
 html
-fails
 =
 =
 borderhandling
@@ -750,7 +746,6 @@ none
 quirks
 .
 html
-fails
 =
 =
 borderhandling
@@ -775,7 +770,6 @@ groups
 quirks
 .
 html
-fails
 =
 =
 borderhandling
@@ -800,7 +794,6 @@ rows
 quirks
 .
 html
-fails
 =
 =
 borderhandling
@@ -825,7 +818,6 @@ cols
 quirks
 .
 html
-fails
 =
 =
 borderhandling
@@ -850,7 +842,6 @@ all
 quirks
 .
 html
-fails
 =
 =
 borderhandling
@@ -875,7 +866,6 @@ empty
 strict
 .
 html
-fails
 =
 =
 borderhandling
@@ -900,7 +890,6 @@ rules
 strict
 .
 html
-fails
 =
 =
 borderhandling
@@ -925,7 +914,6 @@ none
 strict
 .
 html
-fails
 =
 =
 borderhandling
@@ -950,7 +938,6 @@ groups
 strict
 .
 html
-fails
 =
 =
 borderhandling
@@ -975,7 +962,6 @@ rows
 strict
 .
 html
-fails
 =
 =
 borderhandling
@@ -1000,7 +986,6 @@ cols
 strict
 .
 html
-fails
 =
 =
 borderhandling
