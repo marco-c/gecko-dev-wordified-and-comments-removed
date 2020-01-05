@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsComputedDOMStyle
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
