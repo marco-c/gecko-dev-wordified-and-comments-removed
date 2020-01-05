@@ -80,6 +80,11 @@ gBrowser
 .
 removeCurrentTab
 (
+{
+skipPermitUnload
+:
+true
+}
 )
 ;
 is
@@ -181,6 +186,11 @@ gBrowser
 .
 removeCurrentTab
 (
+{
+skipPermitUnload
+:
+true
+}
 )
 ;
 finish
