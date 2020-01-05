@@ -20044,7 +20044,7 @@ restoreBackgroundColor
 super
 setBackgroundColor
 :
-mBackgroundColor
+mColor
 ]
 ;
 }
