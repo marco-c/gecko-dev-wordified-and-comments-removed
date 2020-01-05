@@ -49,7 +49,7 @@ additional_methods
 Method
 (
 "
-outline_is_none_or_hidden_and_has_nonzero_width
+outline_has_nonzero_width
 "
 "
 bool
@@ -104,6 +104,11 @@ name
 outline
 -
 style
+"
+need_clone
+=
+"
+True
 "
 >
 pub

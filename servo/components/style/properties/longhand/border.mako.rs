@@ -55,7 +55,7 @@ border_
 side
 +
 "
-_is_none_or_hidden_and_has_nonzero_width
+_has_nonzero_width
 "
 "
 bool
@@ -180,6 +180,9 @@ BorderStyle
 :
 none
 "
+need_clone
+=
+True
 )
 }
 %
