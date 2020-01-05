@@ -159,7 +159,7 @@ True
 animation_type
 =
 "
-none
+normal
 "
 extra_prefixes
 =
