@@ -379,6 +379,15 @@ CloseAllReadStreamsWithoutReporting
 (
 )
 ;
+if
+(
+!
+mStreamList
+)
+{
+return
+;
+}
 mStreamList
 -
 >
