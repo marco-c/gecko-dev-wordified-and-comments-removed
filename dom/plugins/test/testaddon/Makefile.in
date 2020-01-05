@@ -154,8 +154,6 @@ testdir
 testaddon
 .
 xpi
-ifdef
-COMPILE_ENVIRONMENT
 libs
 :
 :
@@ -212,4 +210,3 @@ plugins
 name
 )
 )
-endif
