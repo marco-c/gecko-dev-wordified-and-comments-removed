@@ -2007,6 +2007,11 @@ searchbar
 if
 (
 searchBar
+&
+&
+searchBar
+.
+textbox
 )
 searchBar
 .
