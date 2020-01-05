@@ -68,10 +68,7 @@ dom
 element
 :
 :
-{
-HTMLHtmlElement
 HTMLHtmlElementTypeId
-}
 ;
 use
 dom
@@ -90,6 +87,15 @@ htmlelement
 :
 :
 HTMLElement
+;
+use
+dom
+:
+:
+htmlhtmlelement
+:
+:
+HTMLHtmlElement
 ;
 use
 dom

@@ -1,0 +1,17 @@
+use
+dom
+:
+:
+htmlelement
+:
+:
+HTMLElement
+;
+pub
+struct
+HTMLFormElement
+{
+parent
+:
+HTMLElement
+}
