@@ -13168,6 +13168,13 @@ aBuilder
 ;
 public
 :
+enum
+PrerenderDecision
+{
+NoPrerender
+FullPrerender
+}
+;
 typedef
 Matrix4x4
 (
@@ -13851,7 +13858,7 @@ nullptr
 )
 ;
 static
-bool
+PrerenderDecision
 ShouldPrerenderTransformedContent
 (
 nsDisplayListBuilder
