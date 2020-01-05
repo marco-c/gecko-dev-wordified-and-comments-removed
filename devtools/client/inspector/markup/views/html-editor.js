@@ -813,9 +813,9 @@ stopPropagation
 )
 ;
 }
-exports
+module
 .
-HTMLEditor
+exports
 =
 HTMLEditor
 ;
