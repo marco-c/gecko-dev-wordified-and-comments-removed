@@ -126,17 +126,6 @@ msg
 constellation_msg
 :
 :
-ScriptMsg
-as
-ConstellationMsg
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
 {
 ConstellationChan
 Failure
@@ -223,7 +212,9 @@ script_traits
 {
 LayoutControlMsg
 NewLayoutInfo
-ScriptTaskFactory
+ScriptMsg
+as
+ConstellationMsg
 }
 ;
 use
@@ -231,6 +222,7 @@ script_traits
 :
 :
 {
+ScriptTaskFactory
 TimerEventRequest
 }
 ;

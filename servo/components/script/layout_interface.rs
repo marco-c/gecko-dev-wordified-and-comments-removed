@@ -74,17 +74,6 @@ msg
 constellation_msg
 :
 :
-ScriptMsg
-as
-ConstellationMsg
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
 {
 ConstellationChan
 Failure
@@ -127,6 +116,7 @@ script_traits
 {
 ConstellationControlMsg
 LayoutControlMsg
+OpaqueScriptLayoutChannel
 }
 ;
 use
@@ -134,7 +124,9 @@ script_traits
 :
 :
 {
-OpaqueScriptLayoutChannel
+ScriptMsg
+as
+ConstellationMsg
 UntrustedNodeAddress
 }
 ;

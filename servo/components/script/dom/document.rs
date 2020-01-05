@@ -939,17 +939,6 @@ msg
 constellation_msg
 :
 :
-ScriptMsg
-as
-ConstellationMsg
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
 {
 ALT
 CONTROL
@@ -1047,6 +1036,9 @@ script_traits
 :
 :
 {
+ScriptMsg
+as
+ConstellationMsg
 TouchEventType
 TouchId
 UntrustedNodeAddress

@@ -249,10 +249,7 @@ msg
 constellation_msg
 :
 :
-{
 ConstellationChan
-ScriptMsg
-}
 ;
 use
 msg
@@ -339,6 +336,7 @@ script_traits
 :
 :
 {
+ScriptMsg
 TimerEventId
 TimerSource
 UntrustedNodeAddress

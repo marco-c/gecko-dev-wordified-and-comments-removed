@@ -517,17 +517,6 @@ msg
 constellation_msg
 :
 :
-ScriptMsg
-as
-ConstellationMsg
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
 {
 ConstellationChan
 LoadData
@@ -731,8 +720,10 @@ script_traits
 :
 {
 OpaqueScriptLayoutChannel
+ScriptMsg
+as
+ConstellationMsg
 ScriptState
-ScriptTaskFactory
 }
 ;
 use
@@ -740,6 +731,7 @@ script_traits
 :
 :
 {
+ScriptTaskFactory
 TimerEvent
 TimerEventRequest
 TimerSource
