@@ -2230,7 +2230,7 @@ ClearGetFilesHelpers
 {
 if
 (
-mGetFilesNonRecursiveHelper
+mGetFilesRecursiveHelper
 )
 {
 mGetFilesRecursiveHelper
