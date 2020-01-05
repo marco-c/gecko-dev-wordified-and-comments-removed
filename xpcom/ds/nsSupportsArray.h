@@ -552,6 +552,17 @@ mAutoArray
 kAutoArraySize
 ]
 ;
+#
+if
+DEBUG_SUPPORTSARRAY
+uint32_t
+mMaxCount
+;
+uint32_t
+mMaxSize
+;
+#
+endif
 private
 :
 explicit
