@@ -1464,6 +1464,9 @@ sub_properties
 experimental
 =
 False
+*
+*
+kwargs
 )
 "
 >
@@ -1484,9 +1487,16 @@ split
 experimental
 =
 experimental
+*
+*
+kwargs
 )
 %
 >
+%
+if
+shorthand
+:
 pub
 mod
 {
@@ -1884,6 +1894,8 @@ body
 }
 }
 }
+%
+endif
 <
 /
 %
