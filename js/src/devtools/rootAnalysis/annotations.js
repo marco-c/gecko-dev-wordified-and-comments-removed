@@ -845,6 +845,11 @@ je_malloc_printf
 :
 true
 "
+malloc_usable_size
+"
+:
+true
+"
 vprintf_stderr
 "
 :
