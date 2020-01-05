@@ -218,8 +218,6 @@ setting
 /
 user
 interaction
-/
-/
 attribute
 boolean
 hidden
