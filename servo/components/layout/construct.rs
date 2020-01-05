@@ -203,11 +203,16 @@ text
 TextRunScanner
 ;
 use
+traversal
+:
+:
+PostorderNodeMutTraversal
+;
+use
 wrapper
 :
 :
 {
-PostorderNodeMutTraversal
 PseudoElementType
 ThreadSafeLayoutNode
 }
@@ -3717,6 +3722,8 @@ create_fragments_for_node_text_content
 mut
 initial_fragments
 node
+&
+*
 node
 .
 style
