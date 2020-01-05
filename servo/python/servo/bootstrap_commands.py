@@ -450,6 +450,15 @@ assertions
 ]
 :
             
+if
+not
+self
+.
+use_stable_rust
+(
+)
+:
+                
 install_dir
 +
 =
