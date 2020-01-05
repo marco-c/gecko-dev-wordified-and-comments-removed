@@ -205,6 +205,7 @@ Mutex
 (
 )
 ;
+explicit
 inline
 Mutex
 (
@@ -297,6 +298,7 @@ is_safe_
 true
 ;
 }
+explicit
 Mutex
 (
 Mutex
