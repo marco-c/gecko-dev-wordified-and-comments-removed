@@ -567,6 +567,16 @@ text
 frame
 )
 {
+if
+(
+!
+frame
+)
+{
+return
+false
+;
+}
 return
 Object
 .
