@@ -215,6 +215,9 @@ GSUB
 struct
 GPOS
 ;
+struct
+MATH
+;
 }
 struct
 hb_ot_layout_lookup_accelerator_t
@@ -297,6 +300,10 @@ hb_blob_t
 *
 gpos_blob
 ;
+hb_blob_t
+*
+math_blob
+;
 const
 struct
 OT
@@ -323,6 +330,15 @@ OT
 GPOS
 *
 gpos
+;
+const
+struct
+OT
+:
+:
+MATH
+*
+math
 ;
 unsigned
 int

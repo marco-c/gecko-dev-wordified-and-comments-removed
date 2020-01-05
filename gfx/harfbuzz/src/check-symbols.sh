@@ -187,7 +187,15 @@ __gcov_flush
 >
 \
 |
+___gcov_flush
+\
+>
+\
+|
 llvm_
+\
+|
+_llvm_
 '
 |
 cut
