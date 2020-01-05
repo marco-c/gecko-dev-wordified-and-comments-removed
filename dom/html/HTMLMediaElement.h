@@ -1609,6 +1609,17 @@ nsAString
 aString
 )
 ;
+already_AddRefed
+<
+Promise
+>
+MozRequestDebugInfo
+(
+ErrorResult
+&
+aRv
+)
+;
 void
 MozDumpDebugInfo
 (
