@@ -2363,7 +2363,11 @@ deref
 (
 )
 .
-value_ref
+value
+(
+)
+.
+as_slice
 (
 )
 =
