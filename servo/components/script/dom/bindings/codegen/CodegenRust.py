@@ -14313,6 +14313,11 @@ if
 self
 .
 unsafe
+and
+not
+self
+.
+extern
 :
             
 body
