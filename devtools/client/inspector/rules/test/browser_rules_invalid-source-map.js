@@ -230,6 +230,13 @@ view
 querySelector
 (
 "
+.
+ruleview
+-
+rule
+-
+source
+-
 label
 "
 )
@@ -243,12 +250,7 @@ waitForSuccess
 >
 label
 .
-getAttribute
-(
-"
-value
-"
-)
+textContent
 =
 =
 text
