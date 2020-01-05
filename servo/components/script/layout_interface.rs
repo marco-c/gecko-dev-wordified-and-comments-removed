@@ -42,7 +42,10 @@ servo_msg
 constellation_msg
 :
 :
+{
+PipelineExitType
 WindowSizeData
+}
 ;
 use
 servo_util
@@ -154,6 +157,9 @@ Sender
 >
 )
 ExitNow
+(
+PipelineExitType
+)
 }
 pub
 trait

@@ -595,3 +595,10 @@ pub
 uint
 )
 ;
+pub
+enum
+PipelineExitType
+{
+PipelineOnly
+Complete
+}

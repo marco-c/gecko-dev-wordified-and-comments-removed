@@ -125,6 +125,15 @@ use
 servo_msg
 :
 :
+constellation_msg
+:
+:
+PipelineExitType
+;
+use
+servo_msg
+:
+:
 compositor_msg
 :
 :
@@ -262,6 +271,7 @@ WindowSizeData
 ExitPipelineMsg
 (
 PipelineId
+PipelineExitType
 )
 SendEventMsg
 (
