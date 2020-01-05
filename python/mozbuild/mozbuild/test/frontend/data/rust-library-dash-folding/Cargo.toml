@@ -39,6 +39,6 @@ type
 =
 [
 "
-staticlib
+rlib
 "
 ]
