@@ -2897,13 +2897,13 @@ XPC_LOG_ALWAYS
 "
 nsXPCWrappedJS
 %
-x
+p
 with
 mRefCnt
 =
 %
-d
 "
+PRIuPTR
 this
 mRefCnt
 .
@@ -2927,7 +2927,7 @@ wrapper
 around
 JSObject
 %
-x
+p
 "
 \
 IsRootWrapper
@@ -3046,7 +3046,7 @@ XPC_LOG_ALWAYS
 "
 nsXPCWrappedJSClass
 %
-x
+p
 "
 mClass
 .

@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -142,6 +151,11 @@ fmt
 .
 .
 .
+)
+MOZ_FORMAT_PRINTF
+(
+1
+2
 )
 ;
 bool

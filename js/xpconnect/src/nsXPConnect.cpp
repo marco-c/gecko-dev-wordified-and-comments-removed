@@ -4408,13 +4408,13 @@ XPC_LOG_ALWAYS
 "
 nsXPConnect
 %
-x
+p
 with
 mRefCnt
 =
 %
-d
 "
+PRIuPTR
 this
 mRefCnt
 .
@@ -4434,7 +4434,7 @@ XPC_LOG_ALWAYS
 "
 gSelf
 %
-x
+p
 "
 gSelf
 )
@@ -4480,7 +4480,7 @@ XPC_LOG_ALWAYS
 "
 XPCJSContext
 %
-x
+p
 "
 mContext
 )
@@ -4787,7 +4787,7 @@ dump
 the
 nsISupports
 %
-x
+p
 "
 p
 )
