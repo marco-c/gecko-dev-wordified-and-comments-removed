@@ -29,7 +29,7 @@ Components
 const
 TABS_TTL
 =
-604800
+1814400
 ;
 const
 TAB_ENTRIES_LIMIT
