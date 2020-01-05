@@ -494,9 +494,7 @@ STRINGS_URI
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 canvasdebugger
 .
@@ -509,9 +507,7 @@ SHARED_STRINGS_URI
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 shared
 .

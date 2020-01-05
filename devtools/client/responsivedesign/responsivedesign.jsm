@@ -359,9 +359,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 shared
 .

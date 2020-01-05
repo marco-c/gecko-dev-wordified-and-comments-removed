@@ -51,9 +51,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 toolbox
 .

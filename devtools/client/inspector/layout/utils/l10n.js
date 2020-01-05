@@ -28,9 +28,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 layout
 .

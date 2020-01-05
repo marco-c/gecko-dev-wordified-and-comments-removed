@@ -131,9 +131,7 @@ LocalizationHelper
 "
 devtools
 /
-client
-/
-locales
+locale
 /
 dom
 .

@@ -66,10 +66,10 @@ LocalizationHelper
 (
 "
 devtools
-/
+-
 shared
 /
-locales
+locale
 /
 csscoverage
 .
