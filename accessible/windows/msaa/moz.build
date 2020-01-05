@@ -123,6 +123,11 @@ IDSet
 .
 h
 '
+'
+MsaaIdGenerator
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -185,6 +190,11 @@ cpp
 '
 '
 IUnknownImpl
+.
+cpp
+'
+'
+MsaaIdGenerator
 .
 cpp
 '
