@@ -14882,6 +14882,9 @@ GetObserverService
 if
 (
 observerService
+&
+&
+mDoc
 )
 {
 nsAutoString
