@@ -3388,6 +3388,17 @@ context
 simple
 "
 ;
+newEnvVars
+[
+"
+NO_AT_BRIDGE
+"
+]
+=
+"
+1
+"
+;
 }
 #
 endif
