@@ -173,6 +173,13 @@ infinity
 js
 '
 '
+load
+-
+reps
+.
+js
+'
+'
 long
 -
 string
@@ -250,6 +257,11 @@ js
 reps
 .
 css
+'
+'
+reps
+.
+js
 '
 '
 string
