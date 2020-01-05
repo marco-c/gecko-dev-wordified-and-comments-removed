@@ -288,11 +288,6 @@ ev
 .
 init_custom_event
 (
-global
-.
-get_cx
-(
-)
 type_
 bubbles
 cancelable
@@ -384,11 +379,6 @@ init_custom_event
 (
 &
 self
-_cx
-:
-*
-mut
-JSContext
 type_
 :
 Atom
@@ -507,7 +497,6 @@ self
 .
 init_custom_event
 (
-_cx
 Atom
 :
 :
