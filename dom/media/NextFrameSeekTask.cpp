@@ -134,14 +134,6 @@ aThread
 aReader
 aTarget
 )
-mCurrentTime
-(
-aCurrentTime
-)
-mDuration
-(
-aDuration
-)
 {
 AssertOwnerThread
 (
