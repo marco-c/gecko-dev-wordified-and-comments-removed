@@ -2634,6 +2634,13 @@ Au
 [
 inline
 ]
+#
+[
+allow
+(
+missing_docs
+)
+]
 pub
 fn
 get_initial_value

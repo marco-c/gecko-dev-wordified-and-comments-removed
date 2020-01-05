@@ -488,6 +488,10 @@ property_animation
 property_name
 (
 )
+.
+into
+(
+)
 frame
 .
 duration

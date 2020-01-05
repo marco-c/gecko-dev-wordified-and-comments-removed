@@ -504,6 +504,7 @@ ident
 allow
 (
 non_camel_case_types
+missing_docs
 )
 ]
 #
@@ -535,6 +536,18 @@ variant
 impl
 name
 {
+/
+/
+/
+Parse
+this
+property
+from
+a
+CSS
+input
+stream
+.
 pub
 fn
 parse

@@ -6,6 +6,14 @@ allow
 unsafe_code
 )
 ]
+#
+!
+[
+deny
+(
+missing_docs
+)
+]
 use
 arc_ptr_eq
 ;

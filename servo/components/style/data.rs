@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+missing_docs
+)
+]
 use
 dom
 :
@@ -1028,6 +1036,13 @@ snapshot
 derive
 (
 Debug
+)
+]
+#
+[
+allow
+(
+missing_docs
 )
 ]
 pub

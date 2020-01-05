@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+missing_docs
+)
+]
 use
 Atom
 ;
@@ -1042,7 +1050,10 @@ self
 )
 -
 >
-String
+&
+'
+static
+str
 {
 self
 .
@@ -1511,7 +1522,7 @@ self
 other
 :
 &
-PropertyAnimation
+Self
 )
 -
 >

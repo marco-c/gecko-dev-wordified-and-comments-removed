@@ -64,6 +64,13 @@ HeapSizeOf
 )
 )
 ]
+#
+[
+allow
+(
+missing_docs
+)
+]
 pub
 struct
 GridLine
