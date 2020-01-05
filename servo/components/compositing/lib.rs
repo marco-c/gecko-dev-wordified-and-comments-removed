@@ -362,6 +362,9 @@ surface_map
 mod
 timer_scheduler
 ;
+mod
+touch
+;
 pub
 mod
 windowing
