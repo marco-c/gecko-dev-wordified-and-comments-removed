@@ -1510,6 +1510,15 @@ break
 ;
 if
 (
+i
+!
+=
+=
+0
+)
+{
+if
+(
 subtag
 .
 length
@@ -1541,13 +1550,6 @@ subtag
 else
 if
 (
-i
-!
-=
-=
-0
-&
-&
 subtag
 .
 length
@@ -1565,6 +1567,7 @@ std_String_toUpperCase
 subtag
 )
 ;
+}
 }
 if
 (
