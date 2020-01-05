@@ -192,16 +192,8 @@ LateWriteChecks
 h
 "
 #
-if
-defined
-(
-MOZ_STACKWALKING
-)
-#
 define
 OBSERVE_LATE_WRITES
-#
-endif
 using
 namespace
 mozilla

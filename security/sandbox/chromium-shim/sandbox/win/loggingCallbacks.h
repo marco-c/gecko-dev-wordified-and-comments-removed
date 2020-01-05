@@ -51,9 +51,6 @@ nsContentUtils
 h
 "
 #
-ifdef
-MOZ_STACKWALKING
-#
 include
 "
 mozilla
@@ -62,8 +59,6 @@ StackWalk
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -98,9 +93,6 @@ __VA_ARGS__
 namespace
 sandboxing
 {
-#
-ifdef
-MOZ_STACKWALKING
 static
 uint32_t
 sStackTraceDepth
@@ -198,8 +190,6 @@ flush
 )
 ;
 }
-#
-endif
 static
 void
 Log
@@ -269,9 +259,6 @@ for
 aContext
 ;
 }
-#
-ifdef
-MOZ_STACKWALKING
 if
 (
 aShouldLogStackTrace
@@ -310,8 +297,6 @@ nullptr
 ;
 }
 }
-#
-endif
 std
 :
 :
@@ -437,12 +422,6 @@ if
 defined
 (
 MOZ_CONTENT_SANDBOX
-)
-&
-&
-defined
-(
-MOZ_STACKWALKING
 )
 if
 (

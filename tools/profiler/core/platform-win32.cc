@@ -55,9 +55,6 @@ nsMemoryReporterManager
 h
 "
 #
-ifdef
-MOZ_STACKWALKING
-#
 include
 "
 mozilla
@@ -66,8 +63,6 @@ StackWalk_windows
 .
 h
 "
-#
-endif
 class
 PlatformData
 {
@@ -786,9 +781,6 @@ profiled_thread
 return
 ;
 }
-#
-ifdef
-MOZ_STACKWALKING
 if
 (
 thread_profile
@@ -820,8 +812,6 @@ ReleaseStackWalkWorkaroundLock
 )
 ;
 }
-#
-endif
 #
 if
 V8_HOST_ARCH_X64
