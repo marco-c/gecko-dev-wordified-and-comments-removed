@@ -623,6 +623,11 @@ remote
 "
 true
 "
+remoteType
+=
+"
+web
+"
 noisolation
 =
 "
