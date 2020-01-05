@@ -6154,6 +6154,10 @@ mIsInitialDocumentInWindow
 (
 false
 )
+mIgnoreDocGroupMismatches
+(
+false
+)
 mLoadedAsData
 (
 false
@@ -22087,6 +22091,10 @@ mDocGroup
 &
 !
 mIsGoingAway
+&
+&
+!
+mIgnoreDocGroupMismatches
 )
 {
 mDocGroup
@@ -34767,6 +34775,10 @@ mMessage
 !
 =
 eVoidEvent
+&
+&
+!
+mIgnoreDocGroupMismatches
 )
 {
 mDocGroup

@@ -548,6 +548,12 @@ rv
 =
 =
 NS_ERROR_REMOTE_XUL
+|
+|
+rv
+=
+=
+NS_ERROR_DOCSHELL_DYING
 )
 {
 aRequest
