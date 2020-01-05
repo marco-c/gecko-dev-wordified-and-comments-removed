@@ -133,10 +133,22 @@ var
 iterator
 =
 {
+throw
+:
+function
+(
+e
+)
+{
+throw
+e
+;
+}
 next
 :
 function
 (
+x
 )
 {
 if
@@ -153,6 +165,7 @@ overrides
 .
 next
 (
+x
 )
 ;
 return
@@ -167,6 +180,7 @@ return
 :
 function
 (
+x
 )
 {
 if
@@ -183,6 +197,7 @@ overrides
 .
 ret
 (
+x
 )
 ;
 return
