@@ -46,6 +46,7 @@ config
 mk
 .
 last
+/
 build
 *
 objdir
