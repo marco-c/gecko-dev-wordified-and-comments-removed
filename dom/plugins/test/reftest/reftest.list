@@ -313,15 +313,9 @@ if
 (
 !
 haveTestPlugin
-)
-skip
--
-if
-(
+|
+|
 Android
-|
-|
-B2G
 )
 =
 =
