@@ -107,9 +107,6 @@ mDefaultIndex
 uint32_t
 mSearchResult
 ;
-bool
-mTypeAheadResult
-;
 nsCOMPtr
 <
 nsIAutoCompleteSimpleResultListener
