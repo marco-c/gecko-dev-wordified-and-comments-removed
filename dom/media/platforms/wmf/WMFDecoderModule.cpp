@@ -1045,6 +1045,15 @@ WMFDecoderModule
 HasH264
 (
 )
+&
+&
+!
+MediaPrefs
+:
+:
+PDMWMFAllowUnsupportedResolutions
+(
+)
 )
 {
 const
