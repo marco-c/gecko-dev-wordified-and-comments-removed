@@ -1543,8 +1543,8 @@ format
 int64_t
 )
 %
-lld
 "
+PRId64
 *
 (
 int64_t
