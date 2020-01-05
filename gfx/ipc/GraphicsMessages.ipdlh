@@ -343,6 +343,8 @@ IntSize
 ;
 nsCString
 ;
+int32_t
+;
 }
 ;
 struct
