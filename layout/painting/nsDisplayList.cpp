@@ -529,7 +529,7 @@ mozilla
 /
 layers
 /
-WebrenderLayerManager
+WebRenderLayerManager
 .
 h
 "
@@ -540,7 +540,7 @@ mozilla
 /
 layers
 /
-WebrenderMessages
+WebRenderMessages
 .
 h
 "
