@@ -572,6 +572,7 @@ bool
 match
 buffer
 {
+&
 [
 b
 '
