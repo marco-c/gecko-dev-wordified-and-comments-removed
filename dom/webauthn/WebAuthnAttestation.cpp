@@ -54,7 +54,7 @@ WebAuthnAttestation
 :
 WebAuthnAttestation
 (
-WebAuthentication
+nsPIDOMWindowInner
 *
 aParent
 )
