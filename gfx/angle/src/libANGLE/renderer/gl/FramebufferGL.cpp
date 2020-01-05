@@ -2389,7 +2389,6 @@ glFormat
 .
 computeRowPitch
 (
-type
 area
 .
 width
@@ -2595,7 +2594,6 @@ glFormat
 .
 computeRowPitch
 (
-type
 area
 .
 width
