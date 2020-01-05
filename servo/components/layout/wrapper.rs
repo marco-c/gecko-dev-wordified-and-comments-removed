@@ -1324,6 +1324,8 @@ ln
 >
 TNode
 <
+'
+ln
 LayoutElement
 <
 '
@@ -2316,6 +2318,10 @@ impl
 le
 >
 TElement
+<
+'
+le
+>
 for
 LayoutElement
 <
@@ -2407,7 +2413,7 @@ Option
 <
 &
 '
-static
+le
 str
 >
 {
@@ -2436,7 +2442,7 @@ Option
 <
 &
 '
-static
+le
 str
 >
 {
@@ -3671,6 +3677,10 @@ self
 -
 >
 ThreadSafeLayoutElement
+<
+'
+ln
+>
 {
 unsafe
 {
@@ -4640,7 +4650,7 @@ Option
 <
 &
 '
-static
+le
 str
 >
 {
