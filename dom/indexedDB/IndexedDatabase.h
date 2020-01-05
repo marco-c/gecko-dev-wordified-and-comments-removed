@@ -59,6 +59,7 @@ Type
 {
 eBlob
 eMutableFile
+eStructuredClone
 }
 ;
 RefPtr

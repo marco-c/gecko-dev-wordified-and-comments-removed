@@ -281,6 +281,8 @@ PBackgroundMutableFile
 union
 BlobOrMutableFile
 {
+null_t
+;
 PBlob
 ;
 NullableMutableFile
