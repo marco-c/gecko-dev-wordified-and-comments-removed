@@ -116,6 +116,12 @@ _updateSavedFieldNames
 ;
 formAutofillParent
 .
+init
+(
+)
+;
+formAutofillParent
+.
 observe
 (
 null
