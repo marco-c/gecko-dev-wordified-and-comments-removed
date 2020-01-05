@@ -810,6 +810,8 @@ false
 )
 ;
 }
+else
+{
 dispatcher
 .
 unregisterAllEventListeners
@@ -823,6 +825,7 @@ sendSuccess
 true
 )
 ;
+}
 }
 break
 ;
