@@ -2549,7 +2549,7 @@ window
 readystatechange
 "
 .
-to_string
+into_string
 (
 )
 EventBubbles
@@ -2988,7 +2988,7 @@ text
 html
 "
 .
-to_string
+into_string
 (
 )
 IsHTMLDocument
@@ -3003,7 +3003,7 @@ application
 xml
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -3042,7 +3042,7 @@ UTF
 8
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -3728,7 +3728,7 @@ NoQuirks
 CSS1Compat
 "
 .
-to_string
+into_string
 (
 )
 Quirks
@@ -3738,7 +3738,7 @@ Quirks
 BackCompat
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -4861,7 +4861,7 @@ s
 |
 s
 .
-to_string
+into_string
 (
 )
 )
@@ -5011,7 +5011,7 @@ String
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -6352,7 +6352,7 @@ new
 title
 "
 .
-to_string
+into_string
 (
 )
 None

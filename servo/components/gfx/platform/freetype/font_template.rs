@@ -125,7 +125,7 @@ identifier
 :
 identifier
 .
-to_string
+into_string
 (
 )
 }

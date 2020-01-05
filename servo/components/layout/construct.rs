@@ -2773,7 +2773,7 @@ from_text
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -4161,7 +4161,7 @@ from_text
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -6543,7 +6543,7 @@ text
 =
 text
 .
-to_string
+into_string
 (
 )
 ;

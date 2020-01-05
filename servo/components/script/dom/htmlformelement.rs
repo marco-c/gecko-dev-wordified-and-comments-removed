@@ -1504,7 +1504,7 @@ win
 submit
 "
 .
-to_string
+into_string
 (
 )
 EventBubbles
@@ -1778,7 +1778,7 @@ _
 "
 "
 .
-to_string
+into_string
 (
 )
 /
@@ -2114,7 +2114,7 @@ buf
 "
 "
 .
-to_string
+into_string
 (
 )
 ;
@@ -2610,7 +2610,7 @@ value
 on
 "
 .
-to_string
+into_string
 (
 )
 ;
@@ -2979,7 +2979,7 @@ win
 reset
 "
 .
-to_string
+into_string
 (
 )
 EventBubbles
@@ -4143,7 +4143,7 @@ map_or
 "
 "
 .
-to_string
+into_string
 (
 )
 |

@@ -534,7 +534,7 @@ as
 uint
 )
 .
-to_string
+into_string
 (
 )
 )
@@ -622,7 +622,7 @@ count
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -717,7 +717,7 @@ as
 uint
 )
 .
-to_string
+into_string
 (
 )
 ;

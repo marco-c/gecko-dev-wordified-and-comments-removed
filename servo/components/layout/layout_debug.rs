@@ -530,7 +530,7 @@ new
 root
 "
 .
-to_string
+into_string
 (
 )
 flow_trace

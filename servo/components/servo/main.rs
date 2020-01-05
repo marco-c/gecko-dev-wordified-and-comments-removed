@@ -347,7 +347,7 @@ vec
 servo
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -366,7 +366,7 @@ wiki
 Rust
 "
 .
-to_string
+into_string
 (
 )
 ]

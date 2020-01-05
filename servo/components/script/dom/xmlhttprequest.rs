@@ -1177,7 +1177,7 @@ response_url
 "
 "
 .
-to_string
+into_string
 (
 )
 status
@@ -3925,7 +3925,7 @@ dispatch_response_progress_event
 loadstart
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -3968,7 +3968,7 @@ dispatch_upload_progress_event
 loadstart
 "
 .
-to_string
+into_string
 (
 )
 Some
@@ -4662,7 +4662,7 @@ set_raw
 Referer
 "
 .
-to_string
+into_string
 (
 )
 vec
@@ -4695,7 +4695,7 @@ insert_trusted_header
 origin
 "
 .
-to_string
+into_string
 (
 )
 format
@@ -5493,7 +5493,7 @@ else
 "
 "
 .
-to_string
+into_string
 (
 )
 .
@@ -5555,7 +5555,7 @@ unwrap
 (
 )
 .
-to_string
+into_string
 (
 )
 ;
@@ -5718,7 +5718,7 @@ Ok
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -6326,7 +6326,7 @@ root_ref
 readystatechange
 "
 .
-to_string
+into_string
 (
 )
 EventBubbles
@@ -6574,7 +6574,7 @@ dispatch_upload_progress_event
 progress
 "
 .
-to_string
+into_string
 (
 )
 None
@@ -6593,7 +6593,7 @@ dispatch_upload_progress_event
 load
 "
 .
-to_string
+into_string
 (
 )
 None
@@ -6612,7 +6612,7 @@ dispatch_upload_progress_event
 loadend
 "
 .
-to_string
+into_string
 (
 )
 None
@@ -6869,7 +6869,7 @@ dispatch_response_progress_event
 progress
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -6999,7 +6999,7 @@ dispatch_response_progress_event
 progress
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -7017,7 +7017,7 @@ dispatch_response_progress_event
 load
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -7035,7 +7035,7 @@ dispatch_response_progress_event
 loadend
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -7146,7 +7146,7 @@ dispatch_upload_progress_event
 progress
 "
 .
-to_string
+into_string
 (
 )
 None
@@ -7163,7 +7163,7 @@ dispatch_upload_progress_event
 (
 errormsg
 .
-to_string
+into_string
 (
 )
 None
@@ -7182,7 +7182,7 @@ dispatch_upload_progress_event
 loadend
 "
 .
-to_string
+into_string
 (
 )
 None
@@ -7202,7 +7202,7 @@ dispatch_response_progress_event
 progress
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -7218,7 +7218,7 @@ dispatch_response_progress_event
 (
 errormsg
 .
-to_string
+into_string
 (
 )
 )
@@ -7236,7 +7236,7 @@ dispatch_response_progress_event
 loadend
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -8019,7 +8019,7 @@ unwrap
 (
 )
 .
-to_string
+into_string
 (
 )
 }

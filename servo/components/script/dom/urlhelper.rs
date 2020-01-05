@@ -63,7 +63,7 @@ None
 "
 "
 .
-to_string
+into_string
 (
 )
 Some
@@ -86,7 +86,7 @@ as_slice
 "
 "
 .
-to_string
+into_string
 (
 )
 Some
@@ -132,7 +132,7 @@ None
 "
 "
 .
-to_string
+into_string
 (
 )
 Some
@@ -155,7 +155,7 @@ as_slice
 "
 "
 .
-to_string
+into_string
 (
 )
 Some

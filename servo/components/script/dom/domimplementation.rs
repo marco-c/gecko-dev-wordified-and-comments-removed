@@ -1029,7 +1029,7 @@ new
 html
 "
 .
-to_string
+into_string
 (
 )
 None
@@ -1093,7 +1093,7 @@ new
 html
 "
 .
-to_string
+into_string
 (
 )
 None
@@ -1150,7 +1150,7 @@ new
 head
 "
 .
-to_string
+into_string
 (
 )
 None
@@ -1228,7 +1228,7 @@ new
 title
 "
 .
-to_string
+into_string
 (
 )
 None
@@ -1333,7 +1333,7 @@ new
 body
 "
 .
-to_string
+into_string
 (
 )
 None

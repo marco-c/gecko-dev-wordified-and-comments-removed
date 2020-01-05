@@ -215,7 +215,7 @@ typeString
 "
 "
 .
-to_string
+into_string
 (
 )
 global
@@ -606,7 +606,7 @@ None
 "
 "
 .
-to_string
+into_string
 (
 )
 Some

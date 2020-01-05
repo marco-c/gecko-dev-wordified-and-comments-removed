@@ -810,7 +810,7 @@ Single
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -1082,7 +1082,7 @@ s
 |
 s
 .
-to_string
+into_string
 (
 )
 )
@@ -1117,7 +1117,7 @@ InputRadio
 "
 "
 .
-to_string
+into_string
 (
 )
 InputType
@@ -1134,7 +1134,7 @@ InputImage
 "
 "
 .
-to_string
+into_string
 (
 )
 InputType
@@ -1155,7 +1155,7 @@ unwrap_or_else
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -1176,7 +1176,7 @@ unwrap_or_else
 |
 DEFAULT_SUBMIT_VALUE
 .
-to_string
+into_string
 (
 )
 )
@@ -1197,7 +1197,7 @@ unwrap_or_else
 |
 DEFAULT_RESET_VALUE
 .
-to_string
+into_string
 (
 )
 )
@@ -2636,7 +2636,7 @@ radio
 ]
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -3617,7 +3617,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 )
@@ -3981,7 +3981,7 @@ set_content
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -5338,7 +5338,7 @@ radio
 ]
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -6424,7 +6424,7 @@ win
 input
 "
 .
-to_string
+into_string
 (
 )
 EventBubbles
@@ -6497,7 +6497,7 @@ win
 change
 "
 .
-to_string
+into_string
 (
 )
 EventBubbles
@@ -6706,7 +6706,7 @@ submit
 ]
 "
 .
-to_string
+into_string
 (
 )
 )

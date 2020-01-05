@@ -867,7 +867,7 @@ Fira
 Sans
 "
 .
-to_string
+into_string
 (
 )
 "
@@ -875,14 +875,14 @@ DejaVu
 Sans
 "
 .
-to_string
+into_string
 (
 )
 "
 Arial
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -917,7 +917,7 @@ vec
 Roboto
 "
 .
-to_string
+into_string
 (
 )
 )

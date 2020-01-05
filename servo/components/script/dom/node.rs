@@ -5208,7 +5208,7 @@ unwrap_or
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -5241,7 +5241,7 @@ unwrap_or
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -5259,7 +5259,7 @@ namespaceURI
 "
 "
 .
-to_string
+into_string
 (
 )
 /
@@ -5300,7 +5300,7 @@ name
 "
 "
 .
-to_string
+into_string
 (
 )
 publicId
@@ -5308,7 +5308,7 @@ publicId
 "
 "
 .
-to_string
+into_string
 (
 )
 systemId
@@ -5316,7 +5316,7 @@ systemId
 "
 "
 .
-to_string
+into_string
 (
 )
 attrs
@@ -5404,7 +5404,7 @@ unwrap_or
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -10102,7 +10102,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 )
@@ -11093,7 +11093,7 @@ Text
 text
 "
 .
-to_string
+into_string
 (
 )
 NodeTypeId
@@ -11140,7 +11140,7 @@ Comment
 comment
 "
 .
-to_string
+into_string
 (
 )
 NodeTypeId
@@ -11193,7 +11193,7 @@ document
 fragment
 "
 .
-to_string
+into_string
 (
 )
 NodeTypeId
@@ -11207,7 +11207,7 @@ Document
 document
 "
 .
-to_string
+into_string
 (
 )
 }

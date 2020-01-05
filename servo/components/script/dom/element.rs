@@ -6294,7 +6294,7 @@ return
 "
 "
 .
-to_string
+into_string
 (
 )
 ;
@@ -6405,7 +6405,7 @@ _
 "
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -6480,7 +6480,7 @@ None
 "
 "
 .
-to_string
+into_string
 (
 )
 }
@@ -6989,7 +6989,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 )
@@ -7012,7 +7012,7 @@ as_slice
 (
 )
 .
-to_string
+into_string
 (
 )
 }
@@ -8224,7 +8224,7 @@ s
 |
 s
 .
-to_string
+into_string
 (
 )
 )

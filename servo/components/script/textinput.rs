@@ -385,7 +385,7 @@ replace_selection
 "
 "
 .
-to_string
+into_string
 (
 )
 )
@@ -661,7 +661,7 @@ s
 |
 s
 .
-to_string
+into_string
 (
 )
 )
@@ -685,7 +685,7 @@ new_line
 =
 prefix
 .
-to_string
+into_string
 (
 )
 ;
@@ -1780,7 +1780,7 @@ content
 "
 "
 .
-to_string
+into_string
 (
 )
 ;
@@ -1882,7 +1882,7 @@ s
 |
 s
 .
-to_string
+into_string
 (
 )
 )

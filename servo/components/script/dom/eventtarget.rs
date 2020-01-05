@@ -1486,7 +1486,7 @@ set_inline_event_listener
 (
 ty
 .
-to_string
+into_string
 (
 )
 event_listener
@@ -1523,7 +1523,7 @@ get_inline_event_listener
 (
 ty
 .
-to_string
+into_string
 (
 )
 )

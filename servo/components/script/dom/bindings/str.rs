@@ -752,7 +752,7 @@ new
 (
 s
 .
-to_string
+into_string
 (
 )
 .

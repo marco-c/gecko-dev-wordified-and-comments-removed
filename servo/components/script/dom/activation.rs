@@ -262,7 +262,7 @@ win
 click
 "
 .
-to_string
+into_string
 (
 )
 false
