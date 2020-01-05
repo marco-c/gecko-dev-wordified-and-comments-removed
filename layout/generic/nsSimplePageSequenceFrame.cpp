@@ -2861,7 +2861,7 @@ renderingContext
 dc
 -
 >
-CreateReferenceRenderingContext
+CreateRenderingContext
 (
 )
 ;
