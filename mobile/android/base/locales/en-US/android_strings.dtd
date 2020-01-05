@@ -5528,6 +5528,16 @@ Screen
 <
 !
 ENTITY
+contextmenu_set_as_homepage
+"
+Set
+as
+Homepage
+"
+>
+<
+!
+ENTITY
 contextmenu_share
 "
 Share
