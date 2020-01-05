@@ -2455,7 +2455,9 @@ parse
 for
 "
 +
-uri
+doc
+.
+baseURIObject
 .
 spec
 +
