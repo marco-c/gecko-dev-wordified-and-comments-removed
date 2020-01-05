@@ -13,7 +13,7 @@ import
     
 ElementNotAccessibleException
     
-ElementNotVisibleException
+ElementNotInteractableException
 )
 from
 marionette_harness
@@ -465,7 +465,7 @@ self
 .
 assertRaises
 (
-ElementNotVisibleException
+ElementNotInteractableException
                                                                
 button
 .
@@ -520,7 +520,7 @@ self
 .
 assertRaises
 (
-ElementNotVisibleException
+ElementNotInteractableException
                                                                
 button
 .
@@ -609,7 +609,7 @@ self
 .
 assertRaises
 (
-ElementNotVisibleException
+ElementNotInteractableException
                                                                
 button
 .
@@ -664,7 +664,7 @@ self
 .
 assertRaises
 (
-ElementNotVisibleException
+ElementNotInteractableException
                                                                
 button
 .
