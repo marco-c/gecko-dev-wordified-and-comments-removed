@@ -711,6 +711,9 @@ style
 font_weight
 style
 .
+font_stretch
+style
+.
 font_style
 =
 =

@@ -891,6 +891,15 @@ EmptyString
 ]
 attribute
 DOMString
+fontStretch
+;
+[
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
 fontStyle
 ;
 [
