@@ -2052,12 +2052,6 @@ mVolume
 ;
 Mirror
 <
-double
->
-mLogicalPlaybackRate
-;
-Mirror
-<
 bool
 >
 mPreservesPitch
