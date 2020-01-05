@@ -4402,11 +4402,15 @@ GetTextureInfo
 )
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 actor
 )
+{
+return
 ;
+}
 aCompositable
 -
 >
