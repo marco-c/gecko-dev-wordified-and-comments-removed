@@ -2379,11 +2379,6 @@ KEYCODE_DEL
 |
 |
 (
-Versions
-.
-feature11Plus
-&
-&
 keyCode
 =
 =

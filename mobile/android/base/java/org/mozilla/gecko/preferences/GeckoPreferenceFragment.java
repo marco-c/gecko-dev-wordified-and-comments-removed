@@ -795,11 +795,6 @@ getActivity
 ;
 if
 (
-Versions
-.
-feature11Plus
-&
-&
 activity
 .
 isMultiPane
@@ -1115,11 +1110,6 @@ settings
 boolean
 isMultiPane
 =
-Versions
-.
-feature11Plus
-&
-&
 (
 (
 GeckoPreferences

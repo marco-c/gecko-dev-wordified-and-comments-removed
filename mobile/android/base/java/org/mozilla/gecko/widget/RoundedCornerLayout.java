@@ -189,13 +189,6 @@ context
 {
 cannotClipPath
 =
-AppConstants
-.
-Versions
-.
-feature11Plus
-&
-&
 !
 AppConstants
 .

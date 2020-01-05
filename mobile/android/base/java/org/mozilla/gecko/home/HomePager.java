@@ -796,11 +796,6 @@ final
 boolean
 shouldAnimate
 =
-Versions
-.
-feature11Plus
-&
-&
 animator
 !
 =

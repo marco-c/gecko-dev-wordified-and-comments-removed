@@ -986,13 +986,6 @@ id
 tabs_counter
 )
 ;
-if
-(
-Versions
-.
-feature11Plus
-)
-{
 tabsCounter
 .
 setLayerType
@@ -1003,7 +996,6 @@ LAYER_TYPE_SOFTWARE
 null
 )
 ;
-}
 menuButton
 =
 (

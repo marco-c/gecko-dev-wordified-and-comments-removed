@@ -4246,12 +4246,6 @@ final
 boolean
 extraCreateNewTab
 =
-(
-Versions
-.
-feature12Plus
-)
-?
 intent
 .
 getBooleanExtra
@@ -4261,8 +4255,6 @@ Browser
 EXTRA_CREATE_NEW_TAB
 false
 )
-:
-false
 ;
 final
 Tab

@@ -837,11 +837,6 @@ true
 ;
 if
 (
-Versions
-.
-feature11Plus
-&
-&
 treeObserver
 !
 =

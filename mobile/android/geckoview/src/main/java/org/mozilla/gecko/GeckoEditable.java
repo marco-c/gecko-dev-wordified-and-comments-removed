@@ -2981,13 +2981,6 @@ tpUnderlineThickness
 .
 0f
 ;
-if
-(
-Versions
-.
-feature14Plus
-)
-{
 tpUnderlineColor
 =
 (
@@ -3018,7 +3011,6 @@ underlineThickness
 0f
 )
 ;
-}
 if
 (
 tpUnderlineColor

@@ -224,9 +224,7 @@ shouldUseTransactions
 )
 {
 return
-Versions
-.
-feature11Plus
+true
 ;
 }
 private
