@@ -889,11 +889,7 @@ new
 (
 text
 .
-chars
-(
-)
-.
-count
+len
 (
 )
 options

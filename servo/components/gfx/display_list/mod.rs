@@ -283,7 +283,7 @@ text
 glyph
 :
 :
-CharIndex
+ByteIndex
 ;
 use
 util
@@ -5089,7 +5089,7 @@ range
 :
 Range
 <
-CharIndex
+ByteIndex
 >
 pub
 text_color

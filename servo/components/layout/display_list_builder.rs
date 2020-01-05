@@ -235,7 +235,7 @@ text
 glyph
 :
 :
-CharIndex
+ByteIndex
 ;
 use
 gfx_traits
@@ -6170,7 +6170,7 @@ Range
 :
 new
 (
-CharIndex
+ByteIndex
 (
 0
 )
