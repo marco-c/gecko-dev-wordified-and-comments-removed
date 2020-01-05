@@ -993,25 +993,13 @@ update
 {
         
 "
-decision_task_id
+action_args
 "
 :
 "
 {
 {
-decision_task_id
-}
-}
-"
-        
-"
-task_labels
-"
-:
-"
-{
-{
-task_labels
+action_args
 }
 }
 "
