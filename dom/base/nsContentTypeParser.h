@@ -44,6 +44,7 @@ nsAString
 &
 aResult
 )
+const
 ;
 nsresult
 GetType
@@ -52,6 +53,7 @@ nsAString
 &
 aResult
 )
+const
 ;
 private
 :
