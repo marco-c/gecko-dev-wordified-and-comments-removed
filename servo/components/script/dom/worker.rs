@@ -253,8 +253,8 @@ devtools_traits
 :
 :
 {
-DevtoolsControlMsg
 DevtoolsPageInfo
+ScriptToDevtoolsControlMsg
 }
 ;
 use
@@ -265,6 +265,12 @@ str
 :
 :
 DOMString
+;
+use
+ipc_channel
+:
+:
+ipc
 ;
 use
 js
@@ -648,7 +654,14 @@ devtools_sender
 _
 )
 =
+ipc
+:
+:
 channel
+(
+)
+.
+unwrap
 (
 )
 ;
@@ -697,7 +710,7 @@ chan
 .
 send
 (
-DevtoolsControlMsg
+ScriptToDevtoolsControlMsg
 :
 :
 NewGlobal

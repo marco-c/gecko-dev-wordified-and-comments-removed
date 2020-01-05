@@ -87,9 +87,9 @@ devtools_traits
 :
 :
 {
-DevtoolsControlMsg
 ConsoleMessage
 LogLevel
+ScriptToDevtoolsControlMsg
 }
 ;
 use
@@ -756,7 +756,7 @@ chan
 .
 send
 (
-DevtoolsControlMsg
+ScriptToDevtoolsControlMsg
 :
 :
 SendConsoleMessage

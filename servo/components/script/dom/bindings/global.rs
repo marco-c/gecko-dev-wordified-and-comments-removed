@@ -95,7 +95,7 @@ use
 devtools_traits
 :
 :
-DevtoolsControlChan
+ScriptToDevtoolsControlMsg
 ;
 use
 script_task
@@ -132,6 +132,15 @@ profile_traits
 :
 :
 mem
+;
+use
+ipc_channel
+:
+:
+ipc
+:
+:
+IpcSender
 ;
 use
 js
@@ -542,7 +551,10 @@ self
 >
 Option
 <
-DevtoolsControlChan
+IpcSender
+<
+ScriptToDevtoolsControlMsg
+>
 >
 {
 match

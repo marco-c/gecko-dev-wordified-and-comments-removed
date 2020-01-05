@@ -12308,6 +12308,8 @@ Eq
 Copy
 Clone
 Hash
+Deserialize
+Serialize
 )
 ]
 pub

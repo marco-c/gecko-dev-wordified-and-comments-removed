@@ -67,7 +67,7 @@ use
 devtools_traits
 :
 :
-DevtoolsControlChan
+ScriptToDevtoolsControlMsg
 ;
 use
 ipc_channel
@@ -208,8 +208,8 @@ mpsc
 :
 :
 {
-Sender
 Receiver
+Sender
 }
 ;
 use
@@ -672,7 +672,10 @@ devtools_chan
 :
 Option
 <
-DevtoolsControlChan
+IpcSender
+<
+ScriptToDevtoolsControlMsg
+>
 >
 window_size
 :

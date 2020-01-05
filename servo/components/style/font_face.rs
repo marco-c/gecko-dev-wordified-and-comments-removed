@@ -72,6 +72,8 @@ Clone
 Debug
 PartialEq
 Eq
+Deserialize
+Serialize
 )
 ]
 pub
@@ -95,6 +97,8 @@ Clone
 Debug
 PartialEq
 Eq
+Deserialize
+Serialize
 )
 ]
 pub

@@ -50,6 +50,7 @@ devtools_traits
 :
 :
 {
+ChromeToDevtoolsControlMsg
 DevtoolsControlChan
 DevtoolsControlMsg
 }
@@ -2748,7 +2749,13 @@ send
 DevtoolsControlMsg
 :
 :
+FromChrome
+(
+ChromeToDevtoolsControlMsg
+:
+:
 ServerExitMsg
+)
 )
 .
 unwrap
