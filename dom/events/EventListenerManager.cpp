@@ -4057,7 +4057,7 @@ TYPE_SCRIPT
 EmptyString
 (
 )
-false
+true
 scriptSample
 0
 &
