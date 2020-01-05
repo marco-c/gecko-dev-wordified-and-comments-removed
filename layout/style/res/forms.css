@@ -2816,6 +2816,10 @@ color
 :
 unset
 ;
+color
+:
+unset
+;
 }
 input
 [
@@ -2992,6 +2996,13 @@ block
 size
 :
 13px
+;
+color
+:
+-
+moz
+-
+FieldText
 ;
 border
 :
