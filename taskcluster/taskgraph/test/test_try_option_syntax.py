@@ -151,8 +151,6 @@ chrome
 '
 '
 linux
-/
-opt
 '
 )
     
@@ -169,8 +167,6 @@ e10s
 '
 '
 linux64
-/
-debug
 '
 )
     
@@ -183,8 +179,6 @@ chrome
 '
 '
 linux
-/
-this
 '
 )
     
@@ -197,8 +191,6 @@ webgl
 '
 '
 linux
-/
-that
 '
 )
     
@@ -211,8 +203,6 @@ e10s
 '
 '
 linux
-/
-other
 '
 )
     
@@ -223,8 +213,6 @@ gtest
 '
 '
 linux64
-/
-asan
 '
 )
     
@@ -235,8 +223,6 @@ dromaeojs
 '
 '
 linux64
-/
-psan
 '
 )
 ]
