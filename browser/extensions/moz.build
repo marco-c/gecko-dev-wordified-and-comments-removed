@@ -104,13 +104,6 @@ pocket
 '
 webcompat
 '
-'
-shield
--
-recipe
--
-client
-'
 ]
 #
 Only
@@ -147,6 +140,13 @@ formautofill
 '
 '
 presentation
+'
+'
+shield
+-
+recipe
+-
+client
 '
 ]
 #
