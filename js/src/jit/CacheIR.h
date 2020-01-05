@@ -6217,6 +6217,15 @@ HandleId
 id
 )
 ;
+bool
+tryAttachEnvironmentName
+(
+ObjOperandId
+objId
+HandleId
+id
+)
+;
 public
 :
 BindNameIRGenerator
