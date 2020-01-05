@@ -551,6 +551,15 @@ spsdata
 )
 &
 &
+(
+spsdata
+.
+profile_idc
+=
+=
+244
+|
+|
 spsdata
 .
 chroma_format_idc
@@ -560,6 +569,7 @@ PDMFactory
 :
 :
 kYUV444
+)
 )
 {
 return
