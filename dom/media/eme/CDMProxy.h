@@ -282,6 +282,9 @@ bool
 aDistinctiveIdentifierRequired
 bool
 aPersistentStateRequired
+nsIEventTarget
+*
+aMainThread
 )
 :
 mKeys
@@ -299,6 +302,10 @@ aDistinctiveIdentifierRequired
 mPersistentStateRequired
 (
 aPersistentStateRequired
+)
+mMainThread
+(
+aMainThread
 )
 {
 }
@@ -320,9 +327,6 @@ const
 nsAString
 &
 aName
-nsIEventTarget
-*
-aMainThread
 )
 =
 0
@@ -828,12 +832,6 @@ const
 nsString
 mKeySystem
 ;
-nsCOMPtr
-<
-nsIEventTarget
->
-mMainThread
-;
 RefPtr
 <
 nsIThread
@@ -853,6 +851,13 @@ mDistinctiveIdentifierRequired
 const
 bool
 mPersistentStateRequired
+;
+const
+nsCOMPtr
+<
+nsIEventTarget
+>
+mMainThread
 ;
 }
 ;

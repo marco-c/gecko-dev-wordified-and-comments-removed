@@ -458,6 +458,9 @@ CDMProxy
 >
 CreateCDMProxy
 (
+nsIEventTarget
+*
+aMainThread
 )
 ;
 already_AddRefed

@@ -68,6 +68,9 @@ bool
 aDistinctiveIdentifierRequired
 bool
 aPersistentStateRequired
+nsIEventTarget
+*
+aMainThread
 )
 ;
 void
@@ -87,9 +90,6 @@ const
 nsAString
 &
 aGMPName
-nsIEventTarget
-*
-aMainThread
 )
 override
 ;
