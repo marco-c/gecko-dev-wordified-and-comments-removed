@@ -293,6 +293,16 @@ navigate
 .
 js
 )
+content
+/
+assert
+.
+js
+(
+assert
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
