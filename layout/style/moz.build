@@ -633,6 +633,11 @@ ServoNamespaceRule
 h
 '
 '
+ServoPageRule
+.
+h
+'
+'
 ServoPropPrefList
 .
 h
@@ -1202,6 +1207,11 @@ cpp
 '
 '
 ServoNamespaceRule
+.
+cpp
+'
+'
+ServoPageRule
 .
 cpp
 '
