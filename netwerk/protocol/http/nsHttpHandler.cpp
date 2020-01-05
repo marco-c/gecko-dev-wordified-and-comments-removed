@@ -11448,14 +11448,6 @@ request
 nullptr
 )
 ;
-if
-(
-!
-IsNeckoChild
-(
-)
-)
-{
 for
 (
 auto
@@ -11513,7 +11505,6 @@ SendSpeculativeConnectRequest
 (
 )
 ;
-}
 }
 }
 nsISiteSecurityService
