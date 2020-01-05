@@ -14,17 +14,6 @@ AboutHome
 "
 ]
 "
-AddonLogging
-.
-jsm
-"
-:
-[
-"
-LogManager
-"
-]
-"
 AddonManager
 .
 jsm
