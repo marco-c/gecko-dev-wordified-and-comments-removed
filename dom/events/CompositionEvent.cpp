@@ -252,6 +252,12 @@ forget
 )
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_INHERITED
+(
+CompositionEvent
+UIEvent
+mRanges
+)
 NS_IMPL_ADDREF_INHERITED
 (
 CompositionEvent
@@ -262,7 +268,7 @@ NS_IMPL_RELEASE_INHERITED
 CompositionEvent
 UIEvent
 )
-NS_INTERFACE_MAP_BEGIN
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 CompositionEvent
 )
