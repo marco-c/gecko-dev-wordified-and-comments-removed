@@ -223,10 +223,10 @@ fmt
 Write
 {
 match
+*
 self
 {
 (
-&
 name
 :
 :
@@ -469,10 +469,10 @@ fmt
 Write
 {
 match
+*
 self
 {
 (
-&
 name
 :
 :
@@ -641,9 +641,9 @@ f32
 bool
 {
 match
+*
 self
 {
-&
 AllowedNumericType
 :
 :
@@ -651,7 +651,6 @@ All
 =
 >
 true
-&
 AllowedNumericType
 :
 :
@@ -1020,9 +1019,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 FontRelativeLength
 :
 :
@@ -1043,7 +1042,6 @@ em
 "
 length
 )
-&
 FontRelativeLength
 :
 :
@@ -1064,7 +1062,6 @@ ex
 "
 length
 )
-&
 FontRelativeLength
 :
 :
@@ -1085,7 +1082,6 @@ ch
 "
 length
 )
-&
 FontRelativeLength
 :
 :
@@ -1130,9 +1126,9 @@ Au
 Au
 {
 match
+*
 self
 {
-&
 FontRelativeLength
 :
 :
@@ -1148,7 +1144,6 @@ scale_by
 (
 length
 )
-&
 FontRelativeLength
 :
 :
@@ -1157,7 +1152,6 @@ Ex
 length
 )
 |
-&
 FontRelativeLength
 :
 :
@@ -1184,7 +1178,6 @@ length
 em_factor
 )
 }
-&
 FontRelativeLength
 :
 :
@@ -1269,9 +1262,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 ViewportPercentageLength
 :
 :
@@ -1292,7 +1285,6 @@ vw
 "
 length
 )
-&
 ViewportPercentageLength
 :
 :
@@ -1313,7 +1305,6 @@ vh
 "
 length
 )
-&
 ViewportPercentageLength
 :
 :
@@ -1334,7 +1325,6 @@ vmin
 "
 length
 )
-&
 ViewportPercentageLength
 :
 :
@@ -1405,9 +1395,9 @@ let
 value
 =
 match
+*
 self
 {
-&
 ViewportPercentageLength
 :
 :
@@ -1426,7 +1416,6 @@ viewport_size
 .
 width
 )
-&
 ViewportPercentageLength
 :
 :
@@ -1445,7 +1434,6 @@ viewport_size
 .
 height
 )
-&
 ViewportPercentageLength
 :
 :
@@ -1473,7 +1461,6 @@ viewport_size
 height
 )
 )
-&
 ViewportPercentageLength
 :
 :
@@ -1649,9 +1636,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 Length
 :
 :
@@ -1676,7 +1663,6 @@ to_f32_px
 (
 )
 )
-&
 Length
 :
 :
@@ -1692,7 +1678,6 @@ to_css
 (
 dest
 )
-&
 Length
 :
 :
@@ -1708,7 +1693,6 @@ to_css
 (
 dest
 )
-&
 Length
 :
 :
@@ -2913,9 +2897,9 @@ CSSFloat
 SimplifiedValueNode
 {
 match
+*
 self
 {
-&
 SimplifiedValueNode
 :
 :
@@ -2934,7 +2918,6 @@ l
 *
 scalar
 )
-&
 SimplifiedValueNode
 :
 :
@@ -2953,7 +2936,6 @@ p
 *
 scalar
 )
-&
 SimplifiedValueNode
 :
 :
@@ -2972,7 +2954,6 @@ n
 *
 scalar
 )
-&
 SimplifiedValueNode
 :
 :
@@ -3642,9 +3623,9 @@ CSSFloat
 >
 {
 match
+*
 node
 {
-&
 CalcValueNode
 :
 :
@@ -3658,7 +3639,6 @@ Some
 (
 number
 )
-&
 CalcValueNode
 :
 :
@@ -4001,9 +3981,9 @@ node_with_unit
 Some
 (
 match
+*
 node
 {
-&
 CalcValueNode
 :
 :
@@ -4026,7 +4006,6 @@ simplify_products_in_sum
 sum
 )
 )
-&
 CalcValueNode
 :
 :
@@ -4043,7 +4022,6 @@ Length
 (
 l
 )
-&
 CalcValueNode
 :
 :
@@ -5107,9 +5085,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 LengthOrPercentage
 :
 :
@@ -5125,7 +5103,6 @@ to_css
 (
 dest
 )
-&
 LengthOrPercentage
 :
 :
@@ -5141,7 +5118,6 @@ to_css
 (
 dest
 )
-&
 LengthOrPercentage
 :
 :
@@ -5533,9 +5509,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -5551,7 +5527,6 @@ to_css
 (
 dest
 )
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -5567,7 +5542,6 @@ to_css
 (
 dest
 )
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -5582,7 +5556,6 @@ write_str
 auto
 "
 )
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -5963,9 +5936,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 LengthOrPercentageOrNone
 :
 :
@@ -5981,7 +5954,6 @@ to_css
 (
 dest
 )
-&
 LengthOrPercentageOrNone
 :
 :
@@ -5997,7 +5969,6 @@ to_css
 (
 dest
 )
-&
 LengthOrPercentageOrNone
 :
 :
@@ -6332,9 +6303,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 LengthOrNone
 :
 :
@@ -6350,7 +6321,6 @@ to_css
 (
 dest
 )
-&
 LengthOrNone
 :
 :
@@ -7366,9 +7336,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 Image
 :
 :
@@ -7440,7 +7410,6 @@ Ok
 )
 )
 }
-&
 Image
 :
 :
@@ -7834,9 +7803,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 AngleOrCorner
 :
 :
@@ -7852,7 +7821,6 @@ to_css
 (
 dest
 )
-&
 AngleOrCorner
 :
 :
@@ -9540,9 +9508,9 @@ Context
 Au
 {
 match
+*
 self
 {
-&
 specified
 :
 :
@@ -9556,7 +9524,6 @@ length
 =
 >
 length
-&
 specified
 :
 :
@@ -9580,7 +9547,6 @@ context
 .
 root_font_size
 )
-&
 specified
 :
 :
@@ -9601,7 +9567,6 @@ context
 .
 viewport_size
 )
-&
 specified
 :
 :
@@ -10127,9 +10092,9 @@ fmt
 Result
 {
 match
+*
 self
 {
-&
 LengthOrPercentage
 :
 :
@@ -10151,7 +10116,6 @@ f
 "
 length
 )
-&
 LengthOrPercentage
 :
 :
@@ -10175,7 +10139,6 @@ percentage
 100
 .
 )
-&
 LengthOrPercentage
 :
 :
@@ -10348,9 +10311,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 LengthOrPercentage
 :
 :
@@ -10366,7 +10329,6 @@ to_css
 (
 dest
 )
-&
 LengthOrPercentage
 :
 :
@@ -10390,7 +10352,6 @@ percentage
 100
 .
 )
-&
 LengthOrPercentage
 :
 :
@@ -10467,9 +10428,9 @@ fmt
 Result
 {
 match
+*
 self
 {
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -10491,7 +10452,6 @@ f
 "
 length
 )
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -10515,7 +10475,6 @@ percentage
 100
 .
 )
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -10530,7 +10489,6 @@ f
 auto
 "
 )
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -10722,9 +10680,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -10740,7 +10698,6 @@ to_css
 (
 dest
 )
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -10764,7 +10721,6 @@ percentage
 100
 .
 )
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -10779,7 +10735,6 @@ write_str
 auto
 "
 )
-&
 LengthOrPercentageOrAuto
 :
 :
@@ -10852,9 +10807,9 @@ fmt
 Result
 {
 match
+*
 self
 {
-&
 LengthOrPercentageOrNone
 :
 :
@@ -10876,7 +10831,6 @@ f
 "
 length
 )
-&
 LengthOrPercentageOrNone
 :
 :
@@ -10900,7 +10854,6 @@ percentage
 100
 .
 )
-&
 LengthOrPercentageOrNone
 :
 :
@@ -11059,9 +11012,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 LengthOrPercentageOrNone
 :
 :
@@ -11077,7 +11030,6 @@ to_css
 (
 dest
 )
-&
 LengthOrPercentageOrNone
 :
 :
@@ -11101,7 +11053,6 @@ percentage
 100
 .
 )
-&
 LengthOrPercentageOrNone
 :
 :
@@ -11169,9 +11120,9 @@ fmt
 Result
 {
 match
+*
 self
 {
-&
 LengthOrNone
 :
 :
@@ -11193,7 +11144,6 @@ f
 "
 length
 )
-&
 LengthOrNone
 :
 :
@@ -11329,9 +11279,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 LengthOrNone
 :
 :
@@ -11347,7 +11297,6 @@ to_css
 (
 dest
 )
-&
 LengthOrNone
 :
 :
@@ -11520,9 +11469,9 @@ fmt
 Result
 {
 match
+*
 self
 {
-&
 Image
 :
 :
@@ -11550,7 +11499,6 @@ url
 "
 url
 )
-&
 Image
 :
 :
