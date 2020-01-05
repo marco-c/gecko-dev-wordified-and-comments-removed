@@ -481,7 +481,7 @@ mStopped
 }
 ;
 class
-BasicUnstoppableTrackSource
+BasicTrackSource
 :
 public
 MediaStreamTrackSource
@@ -489,7 +489,7 @@ MediaStreamTrackSource
 public
 :
 explicit
-BasicUnstoppableTrackSource
+BasicTrackSource
 (
 nsIPrincipal
 *
@@ -529,19 +529,6 @@ mMediaSource
 ;
 }
 void
-GetSettings
-(
-dom
-:
-:
-MediaTrackSettings
-&
-aResult
-)
-override
-{
-}
-void
 Stop
 (
 )
@@ -551,7 +538,7 @@ override
 protected
 :
 ~
-BasicUnstoppableTrackSource
+BasicTrackSource
 (
 )
 {

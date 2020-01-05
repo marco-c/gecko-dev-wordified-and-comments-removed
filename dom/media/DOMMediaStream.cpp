@@ -861,7 +861,7 @@ nullptr
 source
 =
 new
-BasicUnstoppableTrackSource
+BasicTrackSource
 (
 principal
 )
@@ -3987,12 +3987,12 @@ AUDIO_TRACK
 ;
 RefPtr
 <
-BasicUnstoppableTrackSource
+BasicTrackSource
 >
 audioCaptureSource
 =
 new
-BasicUnstoppableTrackSource
+BasicTrackSource
 (
 aPrincipal
 MediaSourceEnum
