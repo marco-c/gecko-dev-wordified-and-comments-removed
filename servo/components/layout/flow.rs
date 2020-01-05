@@ -298,6 +298,7 @@ wrapper
 :
 {
 PseudoElementType
+ServoThreadSafeLayoutNode
 ThreadSafeLayoutNode
 }
 ;
@@ -2075,7 +2076,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -5641,7 +5642,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >

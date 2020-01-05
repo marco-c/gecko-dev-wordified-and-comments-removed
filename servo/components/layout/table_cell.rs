@@ -160,7 +160,10 @@ use
 wrapper
 :
 :
+{
+ServoThreadSafeLayoutNode
 ThreadSafeLayoutNode
+}
 ;
 #
 [
@@ -200,7 +203,7 @@ from_node_fragment_and_visibility_flag
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 fragment
 :
 Fragment

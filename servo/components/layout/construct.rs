@@ -393,7 +393,9 @@ wrapper
 :
 {
 PseudoElementType
+ServoThreadSafeLayoutNode
 TextContent
+ThreadSafeLayoutElement
 ThreadSafeLayoutNode
 }
 ;
@@ -796,7 +798,7 @@ from_inline_node
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -1165,7 +1167,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 result
 :
 ConstructionResult
@@ -1188,7 +1190,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -1599,7 +1601,7 @@ FlowRef
 child_node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 {
 if
@@ -2049,7 +2051,7 @@ AbsoluteDescendants
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 {
 let
@@ -2623,10 +2625,10 @@ FlowRef
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 kid
 :
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 inline_fragment_accumulator
 :
 &
@@ -3316,7 +3318,7 @@ FlowRef
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 initial_fragments
 :
 IntermediateInlineFragments
@@ -3772,7 +3774,7 @@ FlowRef
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -4017,7 +4019,7 @@ IntermediateInlineFragments
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 style
 :
 &
@@ -4343,7 +4345,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 float_kind
 :
 Option
@@ -4447,7 +4449,7 @@ InlineBlockSplit
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 fragment_accumulator
 :
 &
@@ -4582,7 +4584,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -5325,7 +5327,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -5670,7 +5672,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -5901,7 +5903,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -6120,7 +6122,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -6240,7 +6242,7 @@ FlowRef
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 side
 :
 caption_side
@@ -6399,7 +6401,7 @@ FlowRef
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 {
 let
@@ -6564,7 +6566,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 float_value
 :
 float
@@ -7030,7 +7032,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -7113,7 +7115,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -7199,7 +7201,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -7288,7 +7290,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -7520,7 +7522,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 flotation
 :
 float
@@ -8015,7 +8017,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -8146,7 +8148,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -8384,7 +8386,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 float_kind
 :
 Option
@@ -8522,7 +8524,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -9320,7 +9322,7 @@ self
 node
 :
 &
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 )
 -
 >
@@ -10687,7 +10689,7 @@ ln
 >
 NodeUtils
 for
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 <
 '
 ln
@@ -11155,7 +11157,7 @@ ObjectElement
 ln
 >
 for
-ThreadSafeLayoutNode
+ServoThreadSafeLayoutNode
 <
 '
 ln

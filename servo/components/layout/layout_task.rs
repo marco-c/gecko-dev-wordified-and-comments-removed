@@ -634,7 +634,15 @@ wrapper
 LayoutDocument
 LayoutElement
 LayoutNode
+}
+;
+use
+wrapper
+:
+:
+{
 ServoLayoutNode
+ThreadSafeLayoutNode
 }
 ;
 pub
