@@ -912,6 +912,10 @@ str
 from_utf8
 (
 bytes
+.
+as_slice
+(
+)
 )
 .
 unwrap

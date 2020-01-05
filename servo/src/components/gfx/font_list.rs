@@ -561,10 +561,10 @@ str
 pub
 entries
 :
-~
-[
+Vec
+<
 FontEntry
-]
+>
 }
 impl
 FontFamily
@@ -593,9 +593,10 @@ to_str
 )
 entries
 :
-~
-[
-]
+vec
+!
+(
+)
 }
 }
 fn

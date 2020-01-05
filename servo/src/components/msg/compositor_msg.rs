@@ -135,11 +135,11 @@ LayerBufferSet
 pub
 buffers
 :
-~
-[
+Vec
+<
 ~
 LayerBuffer
-]
+>
 }
 impl
 LayerBufferSet

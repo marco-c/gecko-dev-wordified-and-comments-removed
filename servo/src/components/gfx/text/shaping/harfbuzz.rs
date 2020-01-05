@@ -2690,9 +2690,10 @@ let
 mut
 datas
 =
-~
-[
-]
+vec
+!
+(
+)
 ;
 for
 glyph_i
@@ -2753,6 +2754,10 @@ add_glyphs_for_char_index
 (
 char_idx
 datas
+.
+as_slice
+(
+)
 )
 ;
 let
