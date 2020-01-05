@@ -416,6 +416,14 @@ ThrowMemoryCachedData
 )
 ;
 nsresult
+GetAltDataSize
+(
+int64_t
+*
+aSize
+)
+;
+nsresult
 GetElement
 (
 const
