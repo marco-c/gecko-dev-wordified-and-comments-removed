@@ -181,6 +181,7 @@ CompressionMode
 str
 {
 let
+mut
 out_str
 :
 ~
@@ -263,6 +264,7 @@ str
 push_char
 (
 &
+mut
 out_str
 ch
 )
@@ -437,6 +439,7 @@ str
 push_char
 (
 &
+mut
 out_str
 ch
 )
@@ -482,6 +485,7 @@ str
 push_char
 (
 &
+mut
 out_str
 '
 '

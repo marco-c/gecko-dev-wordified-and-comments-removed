@@ -1771,6 +1771,7 @@ str
 push_str
 (
 &
+mut
 run_str
 transformed_strs
 [

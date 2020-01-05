@@ -368,7 +368,7 @@ vec
 raw
 :
 :
-from_buf
+from_buf_raw
 (
 chars
 as
