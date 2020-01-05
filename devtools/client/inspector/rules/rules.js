@@ -562,8 +562,6 @@ document
 this
 .
 cssProperties
-.
-supportsType
 )
 ;
 this

@@ -3919,6 +3919,7 @@ function
 SwatchFilterTooltip
 (
 toolbox
+cssIsValid
 )
 {
 let
@@ -3952,6 +3953,12 @@ this
 toolbox
 stylesheet
 )
+;
+this
+.
+_cssIsValid
+=
+cssIsValid
 ;
 this
 .
@@ -4060,6 +4067,9 @@ CSSFilterEditorWidget
 (
 container
 filter
+this
+.
+_cssIsValid
 )
 ;
 }

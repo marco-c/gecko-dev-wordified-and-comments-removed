@@ -536,6 +536,7 @@ value
 =
 "
 "
+cssIsValid
 )
 {
 this
@@ -561,6 +562,12 @@ this
 el
 =
 el
+;
+this
+.
+_cssIsValid
+=
+cssIsValid
 ;
 this
 .
@@ -4451,9 +4458,9 @@ url
 if
 (
 !
-DOMUtils
+this
 .
-cssPropertyIsValid
+_cssIsValid
 (
 "
 filter

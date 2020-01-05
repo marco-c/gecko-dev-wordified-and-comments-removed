@@ -165,8 +165,6 @@ OutputParser
 (
 doc
 cssProperties
-.
-supportsType
 )
 ;
 testParseCssProperty
