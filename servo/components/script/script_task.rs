@@ -1440,6 +1440,8 @@ owner
 =
 >
 {
+unsafe
+{
 let
 page
 =
@@ -1447,7 +1449,7 @@ owner
 .
 page
 .
-borrow_mut
+borrow_for_script_deallocation
 (
 )
 ;
@@ -1463,7 +1465,7 @@ iter
 *
 page
 .
-mut_js_info
+unsafe_mut_js_info
 (
 )
 =
@@ -1475,12 +1477,13 @@ owner
 .
 js_context
 .
-borrow_mut
+borrow_for_script_deallocation
 (
 )
 =
 None
 ;
+}
 }
 None
 =
