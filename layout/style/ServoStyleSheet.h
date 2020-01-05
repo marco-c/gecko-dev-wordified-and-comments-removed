@@ -227,13 +227,6 @@ mSheet
 aSheet
 ;
 }
-nsMediaList
-*
-Media
-(
-)
-final
-;
 nsIDOMCSSRule
 *
 GetDOMOwnerRule
@@ -298,6 +291,12 @@ ErrorResult
 aRv
 )
 ;
+void
+EnabledStateChangedInternal
+(
+)
+{
+}
 private
 :
 void

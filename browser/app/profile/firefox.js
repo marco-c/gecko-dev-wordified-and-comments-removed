@@ -4514,6 +4514,9 @@ hiddenOneOffs
 "
 )
 ;
+#
+ifndef
+RELEASE_OR_BETA
 pref
 (
 "
@@ -4528,6 +4531,8 @@ enabled
 true
 )
 ;
+#
+endif
 pref
 (
 "
