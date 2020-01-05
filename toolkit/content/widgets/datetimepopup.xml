@@ -1287,6 +1287,16 @@ monthStrings
 weekdayStrings
 locale
 dir
+min
+:
+detail
+.
+min
+max
+:
+detail
+.
+max
 }
 }
 )
