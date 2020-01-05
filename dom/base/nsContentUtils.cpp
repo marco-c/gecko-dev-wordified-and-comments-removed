@@ -37775,6 +37775,8 @@ aPressure
 unsigned
 short
 aInputSourceArg
+uint32_t
+aIdentifier
 bool
 aToWindow
 bool
@@ -38060,6 +38062,12 @@ WidgetMouseEvent
 :
 eNormal
 )
+;
+event
+.
+pointerId
+=
+aIdentifier
 ;
 event
 .
