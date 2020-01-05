@@ -95,10 +95,6 @@ MPL
 /
 include
 protocol
-PCrashReporter
-;
-include
-protocol
 PGMPContent
 ;
 include
@@ -139,9 +135,6 @@ protocol
 PGMP
 {
 manages
-PCrashReporter
-;
-manages
 PGMPTimer
 ;
 manages
@@ -150,10 +143,10 @@ PGMPStorage
 parent
 :
 async
-PCrashReporter
+InitCrashReporter
 (
-NativeThreadId
-tid
+Shmem
+shmem
 )
 ;
 async

@@ -151,8 +151,6 @@ manager
 PContent
 or
 PPluginModule
-or
-PGMP
 ;
 parent
 :
