@@ -245,6 +245,10 @@ mWaitingOnAsyncRedirect
 (
 false
 )
+mOpenRedirectChannel
+(
+false
+)
 mStatus
 (
 NS_OK
