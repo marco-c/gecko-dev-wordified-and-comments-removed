@@ -6317,7 +6317,7 @@ gfxFontFamily
 *
 family
 =
-FindFamily
+FindSystemFontFamily
 (
 familyNameString
 )
