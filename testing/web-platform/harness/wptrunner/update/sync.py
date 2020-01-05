@@ -913,9 +913,6 @@ manifest_path
 "
 test_manifest
 "
-"
-old_manifest
-"
 ]
     
 def
@@ -953,29 +950,12 @@ json
         
 state
 .
-old_manifest
-=
-manifest
-.
-load
-(
-state
-.
-tests_path
-state
-.
-manifest_path
-)
-        
-state
-.
 test_manifest
 =
 manifest
 .
 Manifest
 (
-None
 "
 /
 "
@@ -1032,9 +1012,6 @@ sync
 path
 "
 ]
-"
-/
-"
 state
 .
 test_manifest

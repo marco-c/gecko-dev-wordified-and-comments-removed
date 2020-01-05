@@ -204,6 +204,7 @@ chunk_number
 1
         
 for
+test_type
 test_path
 tests
 in
@@ -239,6 +240,7 @@ chunk_index
 :
                 
 yield
+test_type
 test_path
 tests
 class
@@ -299,6 +301,7 @@ chunk_number
 1
         
 for
+test_type
 test_path
 tests
 in
@@ -341,6 +344,7 @@ chunk_index
 :
                 
 yield
+test_type
 test_path
 tests
 class
@@ -503,6 +507,7 @@ total_time
 for
 i
 (
+test_type
 test_path
 tests
 )
@@ -613,6 +618,7 @@ tests
 append
 (
 (
+test_type
 test_path
 tests
 )
@@ -2529,6 +2535,7 @@ manifest_iter
 :
         
 for
+test_type
 test_path
 tests
 in
@@ -2570,6 +2577,7 @@ include_tests
 :
                 
 yield
+test_type
 test_path
 include_tests
 class
@@ -2864,7 +2872,6 @@ manifest
 .
 Manifest
 (
-None
 url_base
 )
         
@@ -2898,7 +2905,6 @@ manifest
 .
 Manifest
 (
-None
 url_base
 )
             
@@ -2907,8 +2913,8 @@ manifest_update
 update
 (
 tests_path
-url_base
 manifest_file
+True
 )
         
 manifest
@@ -3622,6 +3628,7 @@ manifest_items
 )
         
 for
+test_type
 test_path
 tests
 in
@@ -3689,8 +3696,6 @@ tests
                 
 yield
 test_path
-test
-.
 test_type
 test
     
