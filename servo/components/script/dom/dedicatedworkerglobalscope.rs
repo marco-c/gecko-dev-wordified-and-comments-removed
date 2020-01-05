@@ -1009,7 +1009,7 @@ Url
 id
 :
 PipelineId
-devtools_port
+from_devtools_receiver
 :
 Receiver
 <
@@ -1068,7 +1068,7 @@ DedicatedGlobalScope
 init
 worker_url
 runtime
-devtools_port
+from_devtools_receiver
 )
 id
 :
@@ -1106,7 +1106,7 @@ Url
 id
 :
 PipelineId
-devtools_port
+from_devtools_receiver
 :
 Receiver
 <
@@ -1164,7 +1164,7 @@ new_inherited
 init
 worker_url
 id
-devtools_port
+from_devtools_receiver
 runtime
 .
 clone
@@ -1205,7 +1205,7 @@ Url
 id
 :
 PipelineId
-devtools_ipc_port
+from_devtools_receiver
 :
 IpcReceiver
 <
@@ -1422,7 +1422,7 @@ ROUTER
 .
 route_ipc_receiver_to_mpsc_sender
 (
-devtools_ipc_port
+from_devtools_receiver
 devtools_mpsc_chan
 )
 ;
@@ -1928,7 +1928,7 @@ devtools_port
 =
 scope
 .
-devtools_port
+from_devtools_receiver
 (
 )
 ;
@@ -1975,7 +1975,7 @@ add
 if
 scope
 .
-devtools_sender
+from_devtools_sender
 (
 )
 .
