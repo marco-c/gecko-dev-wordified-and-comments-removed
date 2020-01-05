@@ -35712,6 +35712,7 @@ addon
 .
 type
 )
+;
 if
 (
 theme
