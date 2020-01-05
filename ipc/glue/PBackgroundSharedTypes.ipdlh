@@ -120,6 +120,9 @@ attrs
 struct
 ExpandedPrincipalInfo
 {
+PrincipalOriginAttributes
+attrs
+;
 PrincipalInfo
 [
 ]
