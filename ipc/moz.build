@@ -163,9 +163,6 @@ DIRS
 hal
 '
 '
-keystore
-'
-'
 netd
 '
 ]
