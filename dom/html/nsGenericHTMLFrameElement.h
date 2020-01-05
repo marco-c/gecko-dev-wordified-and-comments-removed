@@ -348,12 +348,9 @@ aError
 void
 SwapFrameLoaders
 (
-RefPtr
-<
-nsFrameLoader
->
-&
-aOtherLoader
+nsIFrameLoaderOwner
+*
+aOtherLoaderOwner
 mozilla
 :
 :
