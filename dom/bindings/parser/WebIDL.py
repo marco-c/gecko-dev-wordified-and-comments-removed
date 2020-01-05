@@ -12417,6 +12417,10 @@ sequence
 mozmap
 '
         
+'
+promise
+'
+        
 )
     
 def
@@ -16780,6 +16784,17 @@ self
 )
 :
         
+if
+self
+.
+isPromise
+(
+)
+:
+            
+return
+False
+        
 return
 (
 isinstance
@@ -17097,6 +17112,21 @@ IDLType
 Tags
 .
 interface
+        
+elif
+self
+.
+isPromise
+(
+)
+:
+            
+return
+IDLType
+.
+Tags
+.
+promise
         
 elif
 self
@@ -17493,35 +17523,6 @@ exposureSet
 :
         
 if
-not
-self
-.
-isInterface
-(
-)
-:
-            
-return
-True
-        
-iface
-=
-self
-.
-inner
-        
-if
-iface
-.
-isExternal
-(
-)
-:
-            
-return
-True
-        
-if
 (
 self
 .
@@ -17550,6 +17551,35 @@ exposureSet
             
 return
 False
+        
+if
+not
+self
+.
+isInterface
+(
+)
+:
+            
+return
+True
+        
+iface
+=
+self
+.
+inner
+        
+if
+iface
+.
+isExternal
+(
+)
+:
+            
+return
+True
         
 return
 iface
@@ -25572,6 +25602,7 @@ location
 )
         
 if
+(
 not
 self
 .
@@ -25581,6 +25612,17 @@ isInterface
 (
 )
 and
+            
+not
+self
+.
+type
+.
+isPromise
+(
+)
+and
+            
 self
 .
 getExtendedAttribute
@@ -25588,6 +25630,7 @@ getExtendedAttribute
 "
 SameObject
 "
+)
 )
 :
             
