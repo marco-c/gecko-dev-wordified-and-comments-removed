@@ -151,15 +151,6 @@ log
 .
 5
 "
-rustc
--
-serialize
-=
-"
-0
-.
-3
-"
 serde
 =
 "

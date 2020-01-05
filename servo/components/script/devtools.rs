@@ -1489,7 +1489,7 @@ msg
 =
 PageError
 {
-_type
+type_
 :
 "
 PageError
@@ -1586,7 +1586,7 @@ msg
 =
 ConsoleAPI
 {
-_type
+type_
 :
 "
 ConsoleAPI
