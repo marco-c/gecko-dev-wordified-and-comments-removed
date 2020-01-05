@@ -1332,7 +1332,13 @@ task
 queue
 (
 runnable
+GlobalRef
+:
+:
+Window
+(
 window
+)
 )
 ;
 }

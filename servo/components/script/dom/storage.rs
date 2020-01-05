@@ -1418,7 +1418,7 @@ key
 old_value
 new_value
 )
-window
+global_ref
 )
 .
 unwrap
