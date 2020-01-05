@@ -1227,7 +1227,10 @@ mRefreshDriver
 RemoveRefreshObserver
 (
 this
-Flush_Style
+FlushType
+:
+:
+Style
 )
 ;
 }
