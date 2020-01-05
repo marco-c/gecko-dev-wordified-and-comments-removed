@@ -3153,11 +3153,14 @@ usize
 let
 jsstr
 =
+unsafe
+{
 ToString
 (
 cx
 v
 )
+}
 ;
 if
 jsstr
