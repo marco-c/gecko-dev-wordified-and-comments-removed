@@ -4247,15 +4247,17 @@ mochitest
 gl
 mochitest
 -
-stylo
+style
 :
 description
 :
 "
 Mochitest
+plain
 run
 for
-Stylo
+style
+system
 "
 suite
 :
@@ -4263,7 +4265,7 @@ mochitest
 /
 mochitest
 -
-stylo
+style
 treeherder
 -
 symbol
@@ -4331,7 +4333,7 @@ suite
 =
 mochitest
 -
-stylo
+style
 reftest
 :
 description
