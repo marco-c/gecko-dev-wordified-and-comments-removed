@@ -204,8 +204,6 @@ attribute
 DOMString
 appName
 ;
-/
-/
 readonly
 attribute
 DOMString
