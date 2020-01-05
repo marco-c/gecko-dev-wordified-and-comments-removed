@@ -6,6 +6,8 @@ unicode_literals
 import
 argparse
 import
+sys
+import
 os
 import
 os
@@ -108,6 +110,8 @@ built_tests
             
 return
         
+returncode
+=
 Registrar
 .
 dispatch
@@ -122,6 +126,17 @@ context
 self
 .
 context
+)
+	
+if
+returncode
+:
+	    
+sys
+.
+exit
+(
+returncode
 )
         
 self
