@@ -1600,7 +1600,7 @@ mScope
 mScope
 =
 new
-WorkletGlobalScope
+AudioWorkletGlobalScope
 (
 mWindow
 )

@@ -94,6 +94,11 @@ dom
 =
 [
 '
+AudioWorkletGlobalScope
+.
+h
+'
+'
 Worklet
 .
 h
@@ -108,6 +113,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AudioWorkletGlobalScope
+.
+cpp
+'
 '
 Worklet
 .

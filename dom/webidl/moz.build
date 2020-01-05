@@ -272,6 +272,11 @@ AudioTrackList
 webidl
 '
 '
+AudioWorkletGlobalScope
+.
+webidl
+'
+'
 AutocompleteInfo
 .
 webidl

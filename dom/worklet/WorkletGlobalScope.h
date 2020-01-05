@@ -84,7 +84,6 @@ Console
 ;
 class
 WorkletGlobalScope
-final
 :
 public
 nsIGlobalObject
@@ -141,6 +140,7 @@ aGivenProto
 )
 override
 ;
+virtual
 bool
 WrapGlobalObject
 (
@@ -160,6 +160,8 @@ JSObject
 >
 aReflector
 )
+=
+0
 ;
 virtual
 JSObject
@@ -197,13 +199,15 @@ aString
 )
 const
 ;
-private
+protected
 :
 ~
 WorkletGlobalScope
 (
 )
 ;
+private
+:
 nsCOMPtr
 <
 nsPIDOMWindowInner
