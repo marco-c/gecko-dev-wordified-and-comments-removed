@@ -1591,6 +1591,17 @@ case
 popupshowing
 "
 :
+if
+(
+!
+global
+.
+actionContextMenu
+)
+{
+break
+;
+}
 const
 menu
 =
