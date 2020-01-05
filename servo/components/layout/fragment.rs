@@ -562,7 +562,7 @@ emit_struct
 "
 fragment
 "
-0
+3
 |
 e
 |
