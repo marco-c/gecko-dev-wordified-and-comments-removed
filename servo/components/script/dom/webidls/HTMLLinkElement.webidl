@@ -83,10 +83,9 @@ attribute
 DOMString
 href
 ;
-/
-/
 attribute
 DOMString
+?
 crossOrigin
 ;
 attribute

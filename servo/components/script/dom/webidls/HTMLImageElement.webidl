@@ -110,6 +110,7 @@ srcset
 ;
 attribute
 DOMString
+?
 crossOrigin
 ;
 attribute
