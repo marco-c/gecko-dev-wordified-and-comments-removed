@@ -23592,13 +23592,6 @@ true
 }
 if
 (
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
-if
-(
 !
 docURI
 .
@@ -23622,7 +23615,6 @@ browser
 contentDocument
 )
 ;
-}
 }
 break
 ;
