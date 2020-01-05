@@ -128,6 +128,16 @@ aMimeType
 ;
 static
 bool
+IsAAC
+(
+const
+nsACString
+&
+aMimeType
+)
+;
+static
+bool
 IsEnabled
 (
 )
