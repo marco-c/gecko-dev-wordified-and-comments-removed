@@ -328,7 +328,6 @@ IsInComposedDoc
 StartObjectLoad
 (
 aHaveNotified
-false
 )
 ;
 }
@@ -1091,12 +1090,6 @@ nsGkAtoms
 :
 :
 data
-&
-&
-!
-BlockEmbedOrObjectContentLoading
-(
-)
 )
 {
 return
@@ -1171,12 +1164,6 @@ nsGkAtoms
 :
 :
 data
-&
-&
-!
-BlockEmbedOrObjectContentLoading
-(
-)
 )
 {
 return
@@ -1990,8 +1977,6 @@ StartObjectLoad
 (
 bool
 aNotify
-bool
-aForce
 )
 {
 if
@@ -2011,11 +1996,6 @@ OwnerDoc
 IsActive
 (
 )
-|
-|
-BlockEmbedOrObjectContentLoading
-(
-)
 )
 {
 return
@@ -2024,7 +2004,6 @@ return
 LoadObject
 (
 aNotify
-aForce
 )
 ;
 SetIsNetworkCreated

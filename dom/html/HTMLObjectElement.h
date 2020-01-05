@@ -428,7 +428,6 @@ StartObjectLoad
 StartObjectLoad
 (
 true
-false
 )
 ;
 }
@@ -1119,17 +1118,15 @@ aSubjectPrincipal
 )
 ;
 }
+private
+:
 void
 StartObjectLoad
 (
 bool
 aNotify
-bool
-aForceLoad
 )
 ;
-private
-:
 bool
 IsFocusableForTabIndex
 (
