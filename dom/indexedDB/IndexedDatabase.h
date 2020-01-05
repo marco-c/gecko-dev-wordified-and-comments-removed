@@ -60,6 +60,7 @@ FileType
 eBlob
 eMutableFile
 eStructuredClone
+eEndGuard
 }
 ;
 RefPtr
