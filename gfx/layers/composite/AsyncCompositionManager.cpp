@@ -164,6 +164,17 @@ mozilla
 /
 layers
 /
+AnimationHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 APZUtils
 .
 h
