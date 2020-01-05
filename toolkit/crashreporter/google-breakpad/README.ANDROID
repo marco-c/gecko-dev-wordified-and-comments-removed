@@ -70,7 +70,7 @@ release
 requires
 NDK
 release
-r10c
+r11c
 or
 higher
 .

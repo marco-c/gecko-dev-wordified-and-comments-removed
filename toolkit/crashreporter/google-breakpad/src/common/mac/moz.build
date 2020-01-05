@@ -245,6 +245,14 @@ O2
 -
 g
 '
+'
+-
+stdlib
+=
+libc
++
++
+'
 ]
 HostLibrary
 (

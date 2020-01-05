@@ -785,7 +785,7 @@ claims
 there
 are
 %
-ld
+zu
 "
 "
 load
@@ -795,7 +795,7 @@ load
 command
 #
 %
-ld
+zu
 "
 filename_
 .
@@ -870,7 +870,7 @@ load
 command
 #
 %
-ld
+zu
 of
 type
 %

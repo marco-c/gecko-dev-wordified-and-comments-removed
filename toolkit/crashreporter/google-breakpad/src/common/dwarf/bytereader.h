@@ -7,6 +7,13 @@ COMMON_DWARF_BYTEREADER_H__
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 #
@@ -64,7 +71,7 @@ uint8
 ReadOneByte
 (
 const
-char
+uint8_t
 *
 buffer
 )
@@ -74,7 +81,7 @@ uint16
 ReadTwoBytes
 (
 const
-char
+uint8_t
 *
 buffer
 )
@@ -84,7 +91,7 @@ uint64
 ReadFourBytes
 (
 const
-char
+uint8_t
 *
 buffer
 )
@@ -94,7 +101,7 @@ uint64
 ReadEightBytes
 (
 const
-char
+uint8_t
 *
 buffer
 )
@@ -104,7 +111,7 @@ uint64
 ReadUnsignedLEB128
 (
 const
-char
+uint8_t
 *
 buffer
 size_t
@@ -117,7 +124,7 @@ int64
 ReadSignedLEB128
 (
 const
-char
+uint8_t
 *
 buffer
 size_t
@@ -147,7 +154,7 @@ uint64
 ReadAddress
 (
 const
-char
+uint8_t
 *
 buffer
 )
@@ -157,7 +164,7 @@ uint64
 ReadInitialLength
 (
 const
-char
+uint8_t
 *
 start
 size_t
@@ -169,7 +176,7 @@ uint64
 ReadOffset
 (
 const
-char
+uint8_t
 *
 buffer
 )
@@ -198,7 +205,7 @@ SetCFIDataBase
 uint64
 section_base
 const
-char
+uint8_t
 *
 buffer_base
 )
@@ -249,7 +256,7 @@ uint64
 ReadEncodedPointer
 (
 const
-char
+uint8_t
 *
 buffer
 DwarfPointerEncoding
@@ -257,6 +264,12 @@ encoding
 size_t
 *
 len
+)
+const
+;
+Endianness
+GetEndianness
+(
 )
 const
 ;
@@ -273,7 +286,7 @@ AddressReader
 )
 (
 const
-char
+uint8_t
 *
 )
 const
@@ -308,7 +321,7 @@ data_base_
 function_base_
 ;
 const
-char
+uint8_t
 *
 buffer_base_
 ;
