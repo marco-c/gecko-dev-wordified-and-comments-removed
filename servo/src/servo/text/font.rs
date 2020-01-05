@@ -122,6 +122,7 @@ Font
 let
 fontbuf
 :
+~
 [
 u8
 ]
@@ -194,6 +195,7 @@ buf
 )
 -
 >
+~
 [
 u8
 ]
@@ -649,6 +651,7 @@ get_cairo_font
 buf
 :
 &
+~
 [
 u8
 ]
@@ -883,6 +886,7 @@ get_cairo_face
 buf
 :
 &
+~
 [
 u8
 ]
@@ -1680,6 +1684,7 @@ should_fail
 get_cairo_face
 (
 &
+~
 [
 0u8
 1u8

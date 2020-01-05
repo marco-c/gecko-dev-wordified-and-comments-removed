@@ -154,6 +154,16 @@ CLEAN_DEPS
 =
 AZURE_DEPS
 =
+\
+src
+/
+rust
+-
+geom
+/
+libgeom
+.
+dummy
 ifeq
 (
 (
