@@ -1342,7 +1342,9 @@ AudioBuffer
 :
 Create
 (
-this
+GetOwner
+(
+)
 aNumberOfChannels
 aLength
 aSampleRate

@@ -155,6 +155,7 @@ unsigned
 long
 length
 ;
+required
 float
 sampleRate
 ;
@@ -172,8 +173,6 @@ enabled
 "
 Constructor
 (
-BaseAudioContext
-context
 AudioBufferOptions
 options
 )

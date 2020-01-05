@@ -1650,6 +1650,11 @@ AudioBuffer
 Create
 (
 context
+-
+>
+GetOwner
+(
+)
 inputChannelCount
 aNode
 -

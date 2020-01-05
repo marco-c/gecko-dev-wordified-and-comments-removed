@@ -690,6 +690,11 @@ AudioBuffer
 Create
 (
 context
+-
+>
+GetOwner
+(
+)
 mNumberOfChannels
 mLength
 mSampleRate

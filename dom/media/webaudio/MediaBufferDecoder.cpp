@@ -2191,6 +2191,11 @@ AudioBuffer
 Create
 (
 mContext
+-
+>
+GetOwner
+(
+)
 channelCount
 mWriteIndex
 mContext
