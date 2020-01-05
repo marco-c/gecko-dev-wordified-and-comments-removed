@@ -8,7 +8,8 @@ input
 )
 :
     
-if
+is_darwin
+=
 buildconfig
 .
 substs
@@ -17,54 +18,10 @@ substs
 OS_ARCH
 '
 ]
-not
-in
-(
-'
-Linux
-'
+=
+=
 '
 Darwin
-'
-)
-:
-        
-print
-"
-Error
-:
-unhandled
-OS_ARCH
-%
-s
-"
-%
-buildconfig
-.
-substs
-[
-'
-OS_ARCH
-'
-]
-        
-return
-1
-    
-is_linux
-=
-buildconfig
-.
-substs
-[
-'
-OS_ARCH
-'
-]
-=
-=
-'
-Linux
 '
     
 with
@@ -105,8 +62,7 @@ line
 continue
             
 if
-not
-is_linux
+is_darwin
 and
 '
 ;
@@ -179,7 +135,7 @@ i
 :
                 
 if
-is_linux
+is_darwin
 :
                     
 line
@@ -188,8 +144,6 @@ line
 [
 :
 i
-+
-1
 ]
                 
 else
@@ -201,13 +155,14 @@ line
 [
 :
 i
++
+1
 ]
             
 if
 line
 and
-not
-is_linux
+is_darwin
 :
                 
 output
