@@ -223,6 +223,17 @@ ext
 -
 c
 -
+contextMenus
+.
+js
+content
+/
+browser
+/
+ext
+-
+c
+-
 pageAction
 .
 js
