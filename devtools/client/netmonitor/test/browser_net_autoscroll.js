@@ -12,7 +12,7 @@ function
 {
 requestLongerTimeout
 (
-2
+4
 )
 ;
 let
@@ -24,6 +24,7 @@ yield
 initNetMonitor
 (
 INFINITE_GET_URL
+true
 )
 ;
 let

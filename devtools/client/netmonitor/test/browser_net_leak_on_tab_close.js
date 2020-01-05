@@ -23,7 +23,6 @@ about
 :
 config
 "
-null
 true
 )
 ;

@@ -54,7 +54,6 @@ yield
 initNetMonitor
 (
 TEST_URL
-null
 true
 )
 ;

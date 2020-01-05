@@ -20,7 +20,6 @@ yield
 initNetMonitor
 (
 STATUS_CODES_URL
-null
 true
 )
 ;
