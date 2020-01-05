@@ -4591,8 +4591,7 @@ ExpD
 LogD
 PowD
 ATan2D
-Context
-InterruptUint32
+ContextPtr
 ReportOverRecursed
 HandleExecutionInterrupt
 HandleDebugTrap
