@@ -72,7 +72,10 @@ u8
 >
 Image
 {
-Image
+stb_image
+:
+:
+new_image
 (
 width
 height
