@@ -107,6 +107,12 @@ AnimationValueMap
 }
 ;
 use
+shared_lock
+:
+:
+Locked
+;
+use
 stylesheets
 :
 :
@@ -228,7 +234,7 @@ obj
 impl_arc_ffi
 !
 (
-RwLock
+Locked
 <
 CssRules
 >
@@ -270,7 +276,7 @@ Servo_ComputedValues_Release
 impl_arc_ffi
 !
 (
-RwLock
+Locked
 <
 PropertyDeclarationBlock
 >
@@ -286,7 +292,7 @@ Servo_DeclarationBlock_Release
 impl_arc_ffi
 !
 (
-RwLock
+Locked
 <
 StyleRule
 >
@@ -302,7 +308,7 @@ Servo_StyleRule_Release
 impl_arc_ffi
 !
 (
-RwLock
+Locked
 <
 ImportRule
 >
@@ -347,7 +353,7 @@ Servo_AnimationValueMap_Release
 impl_arc_ffi
 !
 (
-RwLock
+Locked
 <
 MediaList
 >
@@ -363,7 +369,7 @@ Servo_MediaList_Release
 impl_arc_ffi
 !
 (
-RwLock
+Locked
 <
 MediaRule
 >
@@ -379,7 +385,7 @@ Servo_MediaRule_Release
 impl_arc_ffi
 !
 (
-RwLock
+Locked
 <
 NamespaceRule
 >

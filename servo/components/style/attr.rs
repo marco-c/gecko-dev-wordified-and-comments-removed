@@ -38,12 +38,6 @@ num_traits
 ToPrimitive
 ;
 use
-parking_lot
-:
-:
-RwLock
-;
-use
 properties
 :
 :
@@ -54,6 +48,12 @@ servo_url
 :
 :
 ServoUrl
+;
+use
+shared_lock
+:
+:
+Locked
 ;
 use
 std
@@ -285,7 +285,7 @@ Arc
 ]
 Arc
 <
-RwLock
+Locked
 <
 PropertyDeclarationBlock
 >

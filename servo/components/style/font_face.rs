@@ -75,6 +75,15 @@ Parse
 }
 ;
 use
+shared_lock
+:
+:
+{
+SharedRwLockReadGuard
+ToCssWithGuard
+}
+;
+use
 std
 :
 :
@@ -1181,7 +1190,7 @@ o_initial
 }
 }
 impl
-ToCss
+ToCssWithGuard
 for
 FontFaceRule
 {
@@ -1202,6 +1211,10 @@ W
 (
 &
 self
+_guard
+:
+&
+SharedRwLockReadGuard
 dest
 :
 &

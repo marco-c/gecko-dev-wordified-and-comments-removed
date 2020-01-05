@@ -1835,8 +1835,13 @@ guard
 =
 declarations
 .
-read
+read_with
 (
+context
+.
+guards
+.
+author
 )
 ;
 debug_assert
