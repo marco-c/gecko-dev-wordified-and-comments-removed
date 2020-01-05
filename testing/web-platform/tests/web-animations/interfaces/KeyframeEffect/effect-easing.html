@@ -4716,13 +4716,13 @@ description
 }
 )
 ;
-gInvalidEasingTests
+gInvalidEasings
 .
 forEach
 (
 function
 (
-options
+invalidEasing
 )
 {
 test
@@ -4760,9 +4760,7 @@ animate
 {
 easing
 :
-options
-.
-easing
+invalidEasing
 }
 100
 *
@@ -4783,9 +4781,7 @@ value
 '
 '
 +
-options
-.
-easing
+invalidEasing
 +
 '
 \

@@ -373,13 +373,13 @@ desc
 }
 )
 ;
-gInvalidEasingTests
+gInvalidEasings
 .
 forEach
 (
 function
 (
-options
+invalidEasing
 )
 {
 test
@@ -438,9 +438,7 @@ timing
 .
 easing
 =
-options
-.
-easing
+invalidEasing
 ;
 }
 )
@@ -457,9 +455,7 @@ test
 '
 '
 +
-options
-.
-easing
+invalidEasing
 +
 '
 \
