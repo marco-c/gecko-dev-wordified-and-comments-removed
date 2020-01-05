@@ -1008,6 +1008,24 @@ return
 [
 ]
         
+line
+=
+line
+.
+decode
+(
+'
+utf
+-
+8
+'
+errors
+=
+'
+replace
+'
+)
+        
 try
 :
             
