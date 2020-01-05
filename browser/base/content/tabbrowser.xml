@@ -19431,6 +19431,14 @@ ourBrowser
 )
 ;
 }
+SitePermissions
+.
+copyTemporaryPermissions
+(
+otherBrowser
+ourBrowser
+)
+;
 /
 /
 If
