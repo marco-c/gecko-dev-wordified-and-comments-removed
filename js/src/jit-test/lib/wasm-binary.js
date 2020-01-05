@@ -342,6 +342,11 @@ F64ConstCode
 0x44
 ;
 const
+I32AddCode
+=
+0x6a
+;
+const
 I32DivSCode
 =
 0x6d

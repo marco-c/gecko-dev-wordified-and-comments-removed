@@ -536,14 +536,7 @@ d
 (
 bytecode
 .
-begin
-(
-)
-bytecode
-.
-end
-(
-)
+bytes
 error
 )
 ;
