@@ -220,7 +220,6 @@ win
 getComputedStyle
 (
 closeElement
-null
 )
 ;
 ok

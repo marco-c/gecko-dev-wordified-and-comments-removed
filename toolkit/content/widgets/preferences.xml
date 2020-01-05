@@ -9902,8 +9902,6 @@ getComputedStyle
 this
 .
 _content
-"
-"
 )
 .
 height
@@ -9921,8 +9919,6 @@ getComputedStyle
 this
 .
 _content
-"
-"
 )
 .
 marginTop
@@ -9940,8 +9936,6 @@ getComputedStyle
 this
 .
 _content
-"
-"
 )
 .
 marginBottom

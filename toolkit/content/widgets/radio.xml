@@ -2656,8 +2656,6 @@ defaultView
 getComputedStyle
 (
 this
-"
-"
 )
 .
 direction
@@ -2769,8 +2767,6 @@ defaultView
 getComputedStyle
 (
 this
-"
-"
 )
 .
 direction
