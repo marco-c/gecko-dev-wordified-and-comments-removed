@@ -124,9 +124,7 @@ uploadBPSMax
 let
 client
 =
-monitor
-.
-_controller
+NetMonitorController
 .
 webConsoleClient
 ;
