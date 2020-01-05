@@ -168,15 +168,6 @@ mozilla
 namespace
 dom
 {
-union
-OptionalID
-{
-nsID
-;
-void_t
-;
-}
-;
 struct
 MessagePortIdentifier
 {
