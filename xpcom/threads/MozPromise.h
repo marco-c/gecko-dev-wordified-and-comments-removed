@@ -6199,7 +6199,14 @@ Any
 (
 IsPointer
 <
-ArgTypes
+typename
+RemoveReference
+<
+ActualArgTypes
+>
+:
+:
+Type
 >
 :
 :
@@ -6265,7 +6272,7 @@ StoreCopyPassByRRef
 typename
 Decay
 <
-ArgTypes
+ActualArgTypes
 >
 :
 :

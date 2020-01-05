@@ -3672,11 +3672,6 @@ __func__
 }
 return
 InvokeAsync
-<
-nsString
-&
-&
->
 (
 mMainThread
 this
