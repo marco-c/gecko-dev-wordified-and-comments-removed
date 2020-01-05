@@ -187,7 +187,6 @@ NS_INTERFACE_TABLE
 (
 nsSimpleURI
 nsIURI
-nsIURIWithQuery
 nsISerializable
 nsIClassInfo
 nsIMutable

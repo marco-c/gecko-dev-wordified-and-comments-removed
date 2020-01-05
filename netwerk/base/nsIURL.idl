@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIURIWithQuery
+nsIURI
 .
 idl
 "
@@ -240,7 +240,7 @@ b0fe
 interface
 nsIURL
 :
-nsIURIWithQuery
+nsIURI
 {
 /
 *
@@ -346,7 +346,7 @@ These
 are
 inherited
 from
-nsIURIWithQuery
+nsIURI
 .
 *
 /

@@ -725,11 +725,6 @@ nsIURIWithPrincipal
 idl
 '
 '
-nsIURIWithQuery
-.
-idl
-'
-'
 nsIURL
 .
 idl

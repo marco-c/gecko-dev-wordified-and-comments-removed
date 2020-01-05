@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIURIWithQuery
-.
-h
-"
-#
-include
-"
 nsISerializable
 .
 h
@@ -116,7 +109,7 @@ class
 nsSimpleURI
 :
 public
-nsIURIWithQuery
+nsIURI
 public
 nsISerializable
 public
@@ -140,7 +133,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIURI
-NS_DECL_NSIURIWITHQUERY
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
 NS_DECL_NSIMUTABLE
