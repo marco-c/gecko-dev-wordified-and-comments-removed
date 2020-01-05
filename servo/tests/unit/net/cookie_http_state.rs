@@ -9273,10 +9273,6 @@ r
 [
 test
 ]
-#
-[
-should_panic
-]
 fn
 test_domain0017
 (

@@ -150,6 +150,16 @@ test
 )
 ]
 mod
+pub_domains
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
 resource_thread
 ;
 #
