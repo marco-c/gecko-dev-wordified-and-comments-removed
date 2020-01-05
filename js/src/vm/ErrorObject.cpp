@@ -914,14 +914,9 @@ return
 copy
 ;
 }
+static
 bool
-js
-:
-:
-ErrorObject
-:
-:
-checkAndUnwrapThis
+ErrorObject_checkAndUnwrapThis
 (
 JSContext
 *
@@ -1172,7 +1167,7 @@ cx
 if
 (
 !
-checkAndUnwrapThis
+ErrorObject_checkAndUnwrapThis
 (
 cx
 args
