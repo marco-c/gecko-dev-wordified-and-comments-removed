@@ -1996,6 +1996,9 @@ compositor
 .
 set_ready_state
 (
+self
+.
+id
 PerformingLayout
 )
 ;
