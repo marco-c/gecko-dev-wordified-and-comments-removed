@@ -577,10 +577,6 @@ AsElement
 (
 )
 ;
-PreTraverseSync
-(
-)
-;
 RefPtr
 <
 ServoComputedValues
@@ -598,6 +594,10 @@ LazyComputeBehavior
 Allow
 )
 {
+PreTraverseSync
+(
+)
+;
 computedValues
 =
 ResolveStyleLazily
