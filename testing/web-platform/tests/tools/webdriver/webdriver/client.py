@@ -2226,10 +2226,13 @@ None
 required_capabilities
 =
 None
-extension
-=
-None
 timeout
+=
+transport
+.
+HTTP_TIMEOUT
+                 
+extension
 =
 None
 )

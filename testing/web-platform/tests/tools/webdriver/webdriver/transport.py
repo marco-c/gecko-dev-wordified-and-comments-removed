@@ -4,6 +4,9 @@ import
 json
 import
 urlparse
+HTTP_TIMEOUT
+=
+5
 class
 Response
 (
@@ -239,7 +242,7 @@ url_prefix
 "
 timeout
 =
-None
+HTTP_TIMEOUT
 )
 :
         
@@ -516,31 +519,6 @@ url_prefix
 +
 url
         
-kwargs
-=
-{
-}
-        
-if
-self
-.
-_timeout
-is
-not
-None
-:
-            
-kwargs
-[
-"
-timeout
-"
-]
-=
-self
-.
-_timeout
-        
 conn
 =
 httplib
@@ -557,9 +535,11 @@ port
 strict
 =
 True
-*
-*
-kwargs
+timeout
+=
+self
+.
+_timeout
 )
         
 conn
