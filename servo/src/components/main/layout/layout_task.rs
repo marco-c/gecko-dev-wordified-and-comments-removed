@@ -176,6 +176,15 @@ use
 extra
 :
 :
+url
+:
+:
+Url
+;
+use
+extra
+:
+:
 arc
 :
 :
@@ -2645,6 +2654,10 @@ LayoutContext
 node
 :
 LayoutNode
+url
+:
+&
+Url
 )
 -
 >
@@ -2674,6 +2687,7 @@ FlowConstructor
 init
 (
 layout_context
+url
 )
 )
 ;
@@ -3792,6 +3806,10 @@ mut
 layout_ctx
 *
 node
+&
+data
+.
+url
 )
 )
 }
