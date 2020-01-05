@@ -1,5 +1,15 @@
 #
 if
+!
+defined
+(
+TEST_COMMON
+)
+#
+define
+TEST_COMMON
+#
+if
 defined
 (
 _WIN32
@@ -243,3 +253,5 @@ return
 1
 ;
 }
+#
+endif
