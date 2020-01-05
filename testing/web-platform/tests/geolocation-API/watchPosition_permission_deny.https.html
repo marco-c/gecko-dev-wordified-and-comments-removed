@@ -200,7 +200,7 @@ checkMethodHasReturned
 =
 t
 .
-step_func
+step_func_done
 (
 function
 (
@@ -209,10 +209,6 @@ function
 assert_true
 (
 hasMethodReturned
-)
-;
-done
-(
 )
 ;
 }
@@ -242,13 +238,7 @@ e
 {
 t
 .
-step
-(
-function
-(
-)
-{
-assert_unreached
+unreached_func
 (
 '
 An
@@ -262,9 +252,6 @@ unexpectedly
 e
 .
 message
-)
-;
-}
 )
 ;
 }

@@ -56,6 +56,13 @@ exit
 (
 2
 )
+args
+=
+lint
+.
+parse_args
+(
+)
 sys
 .
 exit
@@ -66,6 +73,12 @@ lint
 .
 main
 (
+*
+*
+vars
+(
+args
+)
 )
 =
 =

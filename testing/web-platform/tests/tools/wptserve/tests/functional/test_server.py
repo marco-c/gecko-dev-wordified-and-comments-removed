@@ -1,5 +1,7 @@
 import
 unittest
+import
+pytest
 from
 six
 .
@@ -10,8 +12,16 @@ urllib
 error
 import
 HTTPError
-import
 wptserve
+=
+pytest
+.
+importorskip
+(
+"
+wptserve
+"
+)
 from
 .
 base

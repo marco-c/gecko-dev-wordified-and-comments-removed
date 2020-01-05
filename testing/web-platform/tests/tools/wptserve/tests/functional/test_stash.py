@@ -3,7 +3,17 @@ unittest
 import
 uuid
 import
+pytest
 wptserve
+=
+pytest
+.
+importorskip
+(
+"
+wptserve
+"
+)
 from
 wptserve
 .

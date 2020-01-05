@@ -59,10 +59,7 @@ org
 license
 =
 "
-MPL
-2
-.
-0
+BSD
 "
       
 packages

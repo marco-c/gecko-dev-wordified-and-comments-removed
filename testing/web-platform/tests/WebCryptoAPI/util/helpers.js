@@ -1377,6 +1377,7 @@ function
 allNameVariants
 (
 name
+slowTest
 )
 {
 var
@@ -1414,6 +1415,15 @@ substring
 (
 1
 )
+;
+if
+(
+slowTest
+)
+return
+[
+mixedCaseName
+]
 ;
 return
 [

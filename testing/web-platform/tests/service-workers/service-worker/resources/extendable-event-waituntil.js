@@ -357,6 +357,15 @@ rejectPromise
 )
 )
 ;
+e
+.
+waitUntil
+(
+fulfillPromise
+(
+)
+)
+;
 break
 ;
 }

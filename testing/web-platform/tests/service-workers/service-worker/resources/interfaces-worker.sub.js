@@ -81,6 +81,9 @@ EVENT_HANDLER
 onmessage
 :
 EVENT_HANDLER
+onmessageerror
+:
+EVENT_HANDLER
 }
 )
 ;

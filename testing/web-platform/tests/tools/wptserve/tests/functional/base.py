@@ -9,6 +9,8 @@ logging
 import
 os
 import
+pytest
+import
 unittest
 from
 six
@@ -43,8 +45,16 @@ urllib
 request
 import
 urlopen
-import
 wptserve
+=
+pytest
+.
+importorskip
+(
+"
+wptserve
+"
+)
 logging
 .
 basicConfig

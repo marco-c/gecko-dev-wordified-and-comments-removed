@@ -20,5 +20,16 @@ DOMString
 )
 test
 ;
+attribute
+(
+[
+EnforceRange
+]
+long
+or
+Date
+)
+test2
+;
 }
 ;

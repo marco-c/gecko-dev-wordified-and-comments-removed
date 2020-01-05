@@ -14,11 +14,6 @@ navigator
 geolocation
 ;
 }
-{
-explicit_done
-:
-true
-}
 )
 ;
 var

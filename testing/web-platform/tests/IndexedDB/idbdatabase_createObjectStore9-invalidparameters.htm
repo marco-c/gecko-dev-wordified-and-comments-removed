@@ -98,6 +98,11 @@ invalid_optionalParameters
 (
 desc
 params
+exception
+=
+"
+InvalidAccessError
+"
 )
 {
 var
@@ -130,7 +135,7 @@ e
 {
 assert_throws
 (
-null
+exception
 function
 (
 )
@@ -197,6 +202,9 @@ keyPath
 [
 ]
 }
+"
+SyntaxError
+"
 )
 ;
 invalid_optionalParameters
@@ -247,6 +255,9 @@ b
 2
 }
 }
+"
+SyntaxError
+"
 )
 ;
 <

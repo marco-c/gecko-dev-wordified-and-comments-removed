@@ -1,7 +1,17 @@
 import
 unittest
 import
+pytest
 wptserve
+=
+pytest
+.
+importorskip
+(
+"
+wptserve
+"
+)
 from
 .
 base

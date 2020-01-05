@@ -8,11 +8,11 @@ import
 (
     
 create_frame
+create_session
 create_window
 http
 server_config
 session
-session_session
     
 url
 )
@@ -23,6 +23,14 @@ fixture
 )
 (
 create_frame
+)
+pytest
+.
+fixture
+(
+)
+(
+create_session
 )
 pytest
 .
@@ -60,14 +68,6 @@ function
 )
 (
 session
-)
-pytest
-.
-fixture
-(
-)
-(
-session_session
 )
 pytest
 .

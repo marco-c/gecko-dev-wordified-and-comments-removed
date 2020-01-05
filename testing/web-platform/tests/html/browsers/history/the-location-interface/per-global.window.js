@@ -1,0 +1,7 @@
+testIsPerWindow
+(
+"
+location
+"
+)
+;

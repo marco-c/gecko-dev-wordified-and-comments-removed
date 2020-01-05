@@ -8,12 +8,6 @@ type
 typedef
 "
 "
-typeExtAttrs
-"
-:
-[
-]
-"
 idlType
 "
 :

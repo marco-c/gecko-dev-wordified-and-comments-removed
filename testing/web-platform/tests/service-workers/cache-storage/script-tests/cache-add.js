@@ -682,7 +682,7 @@ test
 )
 {
 return
-assert_promise_rejects
+promise_rejects
 (
 test
 new
@@ -804,6 +804,7 @@ url
 return
 promise_rejects
 (
+test
 new
 TypeError
 (
@@ -939,7 +940,7 @@ fetch
 -
 status
 .
-php
+py
 ?
 status
 =

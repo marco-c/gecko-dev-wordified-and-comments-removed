@@ -132,9 +132,6 @@ requestInit
 ;
 if
 (
-redirectLocation
-&
-&
 redirectMode
 =
 =
@@ -241,15 +238,6 @@ empty
 ;
 if
 (
-redirectMode
-=
-=
-=
-"
-manual
-"
-|
-|
 redirectMode
 =
 =
