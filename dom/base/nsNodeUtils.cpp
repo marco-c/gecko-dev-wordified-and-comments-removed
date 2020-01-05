@@ -1751,6 +1751,7 @@ aNode
 ClearForm
 (
 true
+true
 )
 ;
 }

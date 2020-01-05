@@ -277,6 +277,8 @@ ClearForm
 (
 bool
 aRemoveFromForm
+bool
+aUnbindOrDelete
 )
 =
 0
