@@ -2017,6 +2017,15 @@ stderr
 =
 stderr
         
+orig_env
+=
+dict
+(
+os
+.
+environ
+)
+        
 try
 :
             
@@ -2186,6 +2195,23 @@ return
         
 finally
 :
+            
+os
+.
+environ
+.
+clear
+(
+)
+            
+os
+.
+environ
+.
+update
+(
+orig_env
+)
             
 sys
 .
