@@ -60,9 +60,6 @@ DOMString
 system_id
 :
 DOMString
-force_quirks
-:
-bool
 }
 impl
 DocumentType
@@ -89,9 +86,6 @@ Option
 ~
 str
 >
-force_quirks
-:
-bool
 document
 :
 AbstractDocument
@@ -135,9 +129,6 @@ unwrap_or
 "
 "
 )
-force_quirks
-:
-force_quirks
 }
 }
 pub
@@ -162,9 +153,6 @@ Option
 ~
 str
 >
-force_quirks
-:
-bool
 document
 :
 AbstractDocument
@@ -184,7 +172,6 @@ new_inherited
 name
 public_id
 system_id
-force_quirks
 document
 )
 ;

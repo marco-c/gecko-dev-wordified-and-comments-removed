@@ -2371,7 +2371,7 @@ system_id
 system_id
 force_quirks
 :
-force_quirks
+_
 }
 =
 doctype
@@ -2387,7 +2387,6 @@ new
 name
 public_id
 system_id
-force_quirks
 document
 )
 ;

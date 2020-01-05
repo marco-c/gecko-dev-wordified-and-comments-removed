@@ -245,13 +245,6 @@ Fallible
 AbstractNode
 >
 {
-let
-force_quirks
-:
-bool
-=
-false
-;
 match
 xml_name_type
 (
@@ -291,7 +284,6 @@ Some
 (
 sysid
 )
-force_quirks
 self
 .
 owner
