@@ -979,12 +979,6 @@ locationInWindow
 [
 1
 ]
-+
-layerView
-.
-getSurfaceTranslation
-(
-)
 )
 (
 int
@@ -1019,12 +1013,6 @@ locationInWindow
 [
 1
 ]
-+
-layerView
-.
-getSurfaceTranslation
-(
-)
 +
 handlesOffset
 )
