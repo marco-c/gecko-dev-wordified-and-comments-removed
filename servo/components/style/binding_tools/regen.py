@@ -1385,6 +1385,9 @@ RawGeckoDocument
 "
 ServoNodeData
 "
+"
+nsString
+"
         
 ]
         
