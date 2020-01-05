@@ -42,13 +42,6 @@ _moz_activated
 )
 GK_ATOM
 (
-_moz_anonclass
-"
-_moz_anonclass
-"
-)
-GK_ATOM
-(
 _moz_resizing
 "
 _moz_resizing
@@ -15549,6 +15542,13 @@ GK_ATOM
 RemoteId
 "
 _remote_id
+"
+)
+GK_ATOM
+(
+RemoteType
+"
+remoteType
 "
 )
 GK_ATOM
