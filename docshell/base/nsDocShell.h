@@ -917,6 +917,15 @@ InFrameSwap
 (
 )
 ;
+private
+:
+bool
+CanSetOriginAttributes
+(
+)
+;
+public
+:
 const
 mozilla
 :
