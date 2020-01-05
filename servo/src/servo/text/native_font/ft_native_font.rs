@@ -9,7 +9,7 @@ vec_as_buf
 vec
 :
 :
-as_buf
+as_imm_buf
 ;
 use
 ptr
