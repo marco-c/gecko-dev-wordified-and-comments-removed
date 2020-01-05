@@ -3663,7 +3663,7 @@ skipping
 &
 fragment
 .
-is_whitespace_only
+is_ignorable_whitespace
 (
 )
 {
@@ -3759,7 +3759,7 @@ unwrap
 (
 )
 .
-is_whitespace_only
+is_ignorable_whitespace
 (
 )
 {
