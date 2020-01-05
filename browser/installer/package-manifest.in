@@ -994,13 +994,6 @@ RESPATH
 /
 components
 /
-cookie
-.
-xpt
-RESPATH
-/
-components
-/
 directory
 .
 xpt
