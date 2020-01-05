@@ -24,13 +24,6 @@ Intent
 import
 android
 .
-os
-.
-Bundle
-;
-import
-android
-.
 support
 .
 annotation
@@ -223,6 +216,17 @@ gecko
 util
 .
 EventCallback
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+GeckoBundle
 ;
 import
 java
@@ -566,7 +570,7 @@ handleMessage
 (
 String
 event
-Bundle
+GeckoBundle
 message
 EventCallback
 callback
@@ -652,7 +656,7 @@ private
 void
 doFxaRegistration
 (
-Bundle
+GeckoBundle
 subscription
 )
 throws
@@ -713,7 +717,7 @@ final
 Context
 context
 final
-Bundle
+GeckoBundle
 subscription
 final
 boolean
@@ -1464,7 +1468,7 @@ final
 Context
 context
 final
-Bundle
+GeckoBundle
 subscription
 final
 boolean

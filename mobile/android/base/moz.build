@@ -1271,6 +1271,13 @@ java
 '
 util
 /
+GeckoBundle
+.
+java
+'
+'
+util
+/
 GeckoEventListener
 .
 java

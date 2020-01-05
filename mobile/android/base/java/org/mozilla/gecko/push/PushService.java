@@ -209,6 +209,17 @@ gecko
 .
 util
 .
+GeckoBundle
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
 ThreadUtils
 ;
 import
@@ -1571,7 +1582,7 @@ final
 String
 event
 final
-Bundle
+GeckoBundle
 message
 final
 EventCallback

@@ -1630,6 +1630,12 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIANDROIDBRIDGE
 NS_DECL_NSIOBSERVER
+NS_FORWARD_NSIANDROIDEVENTDISPATCHER
+(
+mEventDispatcher
+-
+>
+)
 nsAndroidBridge
 (
 )
@@ -1665,6 +1671,12 @@ nsTArray
 uint64_t
 >
 mAudioPlayingWindows
+;
+nsCOMPtr
+<
+nsIAndroidEventDispatcher
+>
+mEventDispatcher
 ;
 protected
 :

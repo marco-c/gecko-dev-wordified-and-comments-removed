@@ -203,6 +203,11 @@ ANRReporter
 cpp
 '
 '
+EventDispatcher
+.
+cpp
+'
+'
 GeneratedJNIWrappers
 .
 cpp
