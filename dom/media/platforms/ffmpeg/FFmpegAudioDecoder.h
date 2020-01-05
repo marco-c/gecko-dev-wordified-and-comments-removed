@@ -7,14 +7,14 @@ __FFmpegAACDecoder_h__
 #
 include
 "
-FFmpegLibWrapper
+FFmpegDataDecoder
 .
 h
 "
 #
 include
 "
-FFmpegDataDecoder
+FFmpegLibWrapper
 .
 h
 "
