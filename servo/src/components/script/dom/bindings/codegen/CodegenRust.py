@@ -19896,6 +19896,7 @@ uint
 deriving
 (
 Encodable
+Eq
 )
 ]
 pub

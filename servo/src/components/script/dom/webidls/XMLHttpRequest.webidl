@@ -444,8 +444,6 @@ attribute
 ByteString
 statusText
 ;
-/
-/
 ByteString
 ?
 getResponseHeader

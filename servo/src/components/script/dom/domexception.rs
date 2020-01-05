@@ -304,6 +304,13 @@ InvalidStateError
 error
 :
 :
+Syntax
+=
+>
+SyntaxError
+error
+:
+:
 NamespaceError
 =
 >
@@ -311,10 +318,10 @@ NamespaceError
 error
 :
 :
-Syntax
+InvalidAccess
 =
 >
-SyntaxError
+InvalidAccessError
 error
 :
 :
