@@ -31,7 +31,17 @@ ModMaskI
 \
 _
 (
+DivOrModI64
+)
+\
+_
+(
 UDivOrMod
+)
+\
+_
+(
+UDivOrModI64
 )
 #
 endif
