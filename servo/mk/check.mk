@@ -593,6 +593,7 @@ Q
 .
 /
 reftest
+cpu
 (
 S
 )
@@ -608,10 +609,6 @@ list
 (
 TESTNAME
 )
--
--
--
-c
 .
 PHONY
 :
@@ -643,6 +640,7 @@ Q
 .
 /
 reftest
+gpu
 (
 S
 )
