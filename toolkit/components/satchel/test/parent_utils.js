@@ -403,6 +403,8 @@ waitForCondition
 =
 >
 {
+try
+{
 return
 gAutocompletePopup
 .
@@ -440,6 +442,16 @@ getValueAt
 expectedFirstValue
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+false
+;
+}
 }
 "
 Waiting
