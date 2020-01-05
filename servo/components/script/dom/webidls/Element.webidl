@@ -259,6 +259,14 @@ getAttributeNames
 [
 Pure
 ]
+boolean
+hasAttributes
+(
+)
+;
+[
+Pure
+]
 DOMString
 ?
 getAttribute
