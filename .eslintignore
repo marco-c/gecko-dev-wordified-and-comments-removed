@@ -280,15 +280,6 @@ base
 /
 content
 /
-nsContextMenu
-.
-js
-browser
-/
-base
-/
-content
-/
 sanitizeDialog
 .
 js
