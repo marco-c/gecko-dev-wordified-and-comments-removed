@@ -481,6 +481,15 @@ implemented
 )
 }
 fn
+mark_as_root
+(
+&
+mut
+self
+)
+{
+}
+fn
 debug_str
 (
 &
@@ -1980,6 +1989,10 @@ v
 impl
 FlowData
 {
+#
+[
+inline
+]
 pub
 fn
 new

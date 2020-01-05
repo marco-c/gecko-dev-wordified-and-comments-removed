@@ -71,6 +71,10 @@ AbstractNode
 LayoutView
 >
 {
+#
+[
+inline
+]
 fn
 style
 (
