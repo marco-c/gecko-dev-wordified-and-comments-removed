@@ -809,6 +809,15 @@ float
 kAcceleration
 )
 ;
+SCOPED_GFX_PREF
+(
+APZFlingAccelMinVelocity
+float
+0
+.
+0
+)
+;
 RefPtr
 <
 TestAsyncPanZoomController
