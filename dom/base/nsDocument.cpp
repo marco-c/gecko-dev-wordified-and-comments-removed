@@ -6204,6 +6204,10 @@ mPostedFlushUserFontSet
 (
 false
 )
+mBidiOptions
+(
+IBMBIDI_DEFAULT_BIDI_OPTIONS
+)
 mPartID
 (
 0
