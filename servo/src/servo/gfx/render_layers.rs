@@ -20,6 +20,12 @@ LayerBufferSet
 }
 ;
 use
+opts
+:
+:
+Opts
+;
+use
 azure
 :
 :
@@ -34,7 +40,6 @@ azure_hl
 :
 {
 B8G8R8A8
-CairoBackend
 DrawTarget
 }
 ;
@@ -115,6 +120,10 @@ RenderLayer
 buffer_set
 :
 LayerBufferSet
+opts
+:
+&
+Opts
 f
 :
 &
@@ -492,7 +501,9 @@ DrawTarget
 :
 new
 (
-CairoBackend
+opts
+.
+render_backend
 size
 B8G8R8A8
 )
