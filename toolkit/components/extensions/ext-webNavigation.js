@@ -280,6 +280,14 @@ eventName
 "
 onHistoryStateUpdated
 "
+|
+|
+eventName
+=
+=
+"
+onReferenceFragmentUpdated
+"
 )
 {
 let
