@@ -54,6 +54,13 @@ SerializedStructuredCloneReadInfo
 struct
 StructuredCloneFile
 {
+enum
+Type
+{
+eBlob
+eMutableFile
+}
+;
 RefPtr
 <
 Blob
@@ -72,8 +79,8 @@ FileInfo
 >
 mFileInfo
 ;
-bool
-mMutable
+Type
+mType
 ;
 inline
 StructuredCloneFile
