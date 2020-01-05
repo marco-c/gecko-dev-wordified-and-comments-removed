@@ -22,6 +22,16 @@ jsm
 this
 )
 ;
+const
+EXPIRE_TIME_MS
+=
+100
+;
+const
+TIMEOUT_MS
+=
+500
+;
 add_task
 (
 function
@@ -44,7 +54,7 @@ privacy
 .
 temporary_permission_expire_time_ms
 "
-100
+EXPIRE_TIME_MS
 ]
 ]
 }
@@ -143,7 +153,7 @@ c
 setTimeout
 (
 c
-500
+TIMEOUT_MS
 )
 )
 ;
