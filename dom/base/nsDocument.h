@@ -1927,6 +1927,16 @@ aSpeculative
 override
 ;
 virtual
+already_AddRefed
+<
+nsIParser
+>
+CreatorParserOrNull
+(
+)
+override
+;
+virtual
 void
 SetPrincipal
 (
