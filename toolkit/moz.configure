@@ -6042,14 +6042,12 @@ enable
 webrender
 '
 milestone
-target
 )
 def
 webrender
 (
 value
 milestone
-target
 )
 :
 build_webrender
