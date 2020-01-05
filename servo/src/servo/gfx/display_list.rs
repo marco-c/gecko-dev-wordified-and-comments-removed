@@ -217,6 +217,7 @@ DisplayItemData
 ~
 SendableTextRun
 Range
+Color
 )
 Image
 (
@@ -274,6 +275,7 @@ Text
 (
 ref
 d
+_
 _
 _
 )
@@ -342,6 +344,7 @@ Text
 _
 run
 range
+color
 )
 =
 >
@@ -405,6 +408,7 @@ ctx
 new_run
 range
 baseline_origin
+color
 )
 ;
 }
@@ -584,6 +588,9 @@ SendableTextRun
 range
 :
 Range
+color
+:
+Color
 )
 -
 >
@@ -601,6 +608,7 @@ bounds
 move
 run
 range
+color
 )
 }
 /
