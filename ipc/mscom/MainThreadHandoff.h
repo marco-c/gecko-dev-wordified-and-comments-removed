@@ -282,8 +282,10 @@ GetHandlerPayloadSize
 (
 REFIID
 aIid
+InterceptorTargetPtr
+<
 IUnknown
-*
+>
 aTarget
 DWORD
 *
@@ -299,8 +301,10 @@ IStream
 aStream
 REFIID
 aIid
+InterceptorTargetPtr
+<
 IUnknown
-*
+>
 aTarget
 )
 override
