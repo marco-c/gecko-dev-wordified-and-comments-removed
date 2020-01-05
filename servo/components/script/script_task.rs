@@ -8294,11 +8294,6 @@ new
 incomplete
 .
 pipeline_id
-final_url
-.
-clone
-(
-)
 )
 )
 ;

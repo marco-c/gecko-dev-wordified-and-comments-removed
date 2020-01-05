@@ -82,12 +82,6 @@ rc
 :
 Rc
 ;
-use
-url
-:
-:
-Url
-;
 #
 [
 derive
@@ -111,9 +105,6 @@ Option
 Frame
 >
 >
-url
-:
-Url
 needs_reflow
 :
 Cell
@@ -303,9 +294,6 @@ new
 id
 :
 PipelineId
-url
-:
-Url
 )
 -
 >
@@ -325,9 +313,6 @@ new
 (
 None
 )
-url
-:
-url
 needs_reflow
 :
 Cell
