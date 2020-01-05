@@ -1463,13 +1463,6 @@ true
 ;
 }
 virtual
-IMENotificationRequests
-GetIMENotificationRequests
-(
-)
-override
-;
-virtual
 MOZ_MUST_USE
 nsresult
 OnDefaultButtonLoaded
