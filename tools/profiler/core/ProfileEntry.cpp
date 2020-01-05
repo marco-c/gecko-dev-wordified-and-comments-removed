@@ -3819,7 +3819,7 @@ Now
 (
 )
 -
-sStartTime
+gStartTime
 )
 .
 ToMilliseconds

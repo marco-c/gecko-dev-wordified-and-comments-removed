@@ -37,7 +37,7 @@ lul
 :
 LUL
 *
-sLUL
+gLUL
 ;
 #
 endif
