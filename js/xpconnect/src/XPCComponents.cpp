@@ -10755,10 +10755,10 @@ JSContext
 *
 cx
 =
-nsXPConnect
+XPCJSContext
 :
 :
-GetContextInstance
+Get
 (
 )
 -
