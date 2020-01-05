@@ -437,9 +437,6 @@ kSignMask
 )
 return
 -
-Double
-:
-:
 Infinity
 (
 )
@@ -1279,6 +1276,11 @@ kPhysicalSignificandSize
 )
 ;
 }
+DISALLOW_COPY_AND_ASSIGN
+(
+Double
+)
+;
 }
 ;
 class
@@ -1992,6 +1994,11 @@ kNaN
 const
 uint32_t
 d32_
+;
+DISALLOW_COPY_AND_ASSIGN
+(
+Single
+)
 ;
 }
 ;

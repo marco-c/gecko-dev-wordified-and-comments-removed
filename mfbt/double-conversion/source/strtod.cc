@@ -516,6 +516,11 @@ length
 kMaxSignificantDecimalDigits
 )
 {
+(
+void
+)
+space_size
+;
 ASSERT
 (
 space_size
@@ -1151,13 +1156,6 @@ UNREACHABLE
 (
 )
 ;
-return
-DiyFp
-(
-0
-0
-)
-;
 }
 }
 static
@@ -1212,7 +1210,7 @@ exponent
 =
 remaining_decimals
 ;
-int
+uint64_t
 error
 =
 (

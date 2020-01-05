@@ -85,13 +85,6 @@ exponent
 )
 ;
 void
-AddUInt16
-(
-uint16_t
-operand
-)
-;
-void
 AddUInt64
 (
 uint64_t
