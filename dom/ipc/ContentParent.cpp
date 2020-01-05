@@ -22206,6 +22206,9 @@ aTextureFactoryIdentifier
 uint64_t
 *
 aLayersId
+CompositorOptions
+*
+aCompositorOptions
 )
 {
 *
@@ -22421,6 +22424,16 @@ aResult
 NS_ERROR_FAILURE
 ;
 }
+*
+aCompositorOptions
+=
+rfp
+-
+>
+GetCompositorOptions
+(
+)
+;
 return
 IPC_OK
 (

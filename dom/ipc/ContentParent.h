@@ -2137,6 +2137,15 @@ aTextureFactoryIdentifier
 uint64_t
 *
 aLayersId
+mozilla
+:
+:
+layers
+:
+:
+CompositorOptions
+*
+aCompositorOptions
 )
 override
 ;

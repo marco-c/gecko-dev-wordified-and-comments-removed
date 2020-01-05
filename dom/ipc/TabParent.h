@@ -698,6 +698,9 @@ aTextureFactoryIdentifier
 uint64_t
 *
 aLayersId
+CompositorOptions
+*
+aCompositorOptions
 )
 override
 ;

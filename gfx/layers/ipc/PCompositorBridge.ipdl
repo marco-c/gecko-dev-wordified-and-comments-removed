@@ -1429,6 +1429,11 @@ NotifyChildCreated
 uint64_t
 id
 )
+returns
+(
+CompositorOptions
+compositorOptions
+)
 ;
 /
 /
@@ -1478,6 +1483,11 @@ uint64_t
 id
 ProcessId
 owner
+)
+returns
+(
+CompositorOptions
+compositorOptions
 )
 ;
 async
@@ -1534,6 +1544,11 @@ NotifyChildRecreated
 (
 uint64_t
 id
+)
+returns
+(
+CompositorOptions
+compositorOptions
 )
 ;
 /
