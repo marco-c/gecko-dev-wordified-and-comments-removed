@@ -58,7 +58,14 @@ mIsInterval
 (
 false
 )
-mPublicId
+mReason
+(
+Reason
+:
+:
+eTimeoutOrInterval
+)
+mTimeoutId
 (
 0
 )
