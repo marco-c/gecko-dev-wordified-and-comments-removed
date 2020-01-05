@@ -233,8 +233,9 @@ mozharness
 zip
 ;
 then
-break
-else
+return
+0
+fi
 echo
 "
 error
@@ -246,7 +247,6 @@ zip
 >
 &
 2
-fi
 else
 echo
 "
