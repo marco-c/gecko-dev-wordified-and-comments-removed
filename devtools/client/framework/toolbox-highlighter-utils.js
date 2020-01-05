@@ -79,8 +79,6 @@ getHighlighterUtils
 "
 )
 ;
-return
-;
 }
 let
 exported
@@ -227,9 +225,6 @@ args
 ;
 }
 ;
-let
-togglePicker
-=
 exported
 .
 togglePicker
@@ -250,15 +245,12 @@ cancelPicker
 )
 ;
 }
-else
-{
 return
 startPicker
 (
 doFocus
 )
 ;
-}
 }
 ;
 let
@@ -810,9 +802,6 @@ nodeFront
 }
 )
 ;
-let
-highlightDomValueGrip
-=
 exported
 .
 highlightDomValueGrip
@@ -906,9 +895,6 @@ actor
 }
 )
 ;
-let
-unhighlight
-=
 exported
 .
 unhighlight
@@ -987,9 +973,6 @@ unhighlight
 }
 )
 ;
-let
-getHighlighterByType
-=
 exported
 .
 getHighlighterByType
