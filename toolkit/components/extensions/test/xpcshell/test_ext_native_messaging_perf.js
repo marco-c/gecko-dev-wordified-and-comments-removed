@@ -80,9 +80,9 @@ AppConstants
 .
 ASAN
 ?
-36
+60
 :
-18
+30
 ;
 const
 MAX_RETRIES
