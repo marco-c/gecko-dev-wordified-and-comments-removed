@@ -452,7 +452,6 @@ case
 String
 "
 :
-{
 this
 .
 _prefBranch
@@ -463,7 +462,6 @@ prefName
 prefValue
 )
 ;
-}
 break
 ;
 case
