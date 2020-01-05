@@ -1924,10 +1924,6 @@ SeekTarget
 :
 :
 Accurate
-MediaDecoderEventVisibility
-:
-:
-Suppressed
 )
 ;
 RefPtr
@@ -5034,10 +5030,6 @@ GetMediaTime
 (
 )
 type
-MediaDecoderEventVisibility
-:
-:
-Suppressed
 true
 )
 ;
