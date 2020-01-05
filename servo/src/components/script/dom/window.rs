@@ -666,6 +666,7 @@ Navigator
 :
 new
 (
+self
 )
 )
 ;
