@@ -138,6 +138,7 @@ CompositorWidget
 CreateLocal
 (
 initData
+aOptions
 aWidget
 )
 ;

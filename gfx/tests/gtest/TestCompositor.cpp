@@ -913,6 +913,9 @@ MockWidget
 (
 )
 ;
+CompositorOptions
+options
+;
 RefPtr
 <
 widget
@@ -928,6 +931,7 @@ widget
 :
 InProcessCompositorWidget
 (
+options
 widget
 )
 ;

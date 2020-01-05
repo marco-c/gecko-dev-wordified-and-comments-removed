@@ -31,6 +31,13 @@ const
 CompositorWidgetInitData
 &
 aInitData
+const
+layers
+:
+:
+CompositorOptions
+&
+aOptions
 nsIWidget
 *
 aWidget
@@ -41,6 +48,7 @@ new
 InProcessX11CompositorWidget
 (
 aInitData
+aOptions
 static_cast
 <
 nsWindow
@@ -61,6 +69,13 @@ const
 CompositorWidgetInitData
 &
 aInitData
+const
+layers
+:
+:
+CompositorOptions
+&
+aOptions
 nsWindow
 *
 aWindow
@@ -69,6 +84,7 @@ aWindow
 X11CompositorWidget
 (
 aInitData
+aOptions
 aWindow
 )
 {

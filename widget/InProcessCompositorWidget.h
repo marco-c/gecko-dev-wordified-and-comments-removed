@@ -28,6 +28,13 @@ public
 explicit
 InProcessCompositorWidget
 (
+const
+layers
+:
+:
+CompositorOptions
+&
+aOptions
 nsBaseWidget
 *
 aWidget
