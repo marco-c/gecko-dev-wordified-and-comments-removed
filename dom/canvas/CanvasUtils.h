@@ -195,6 +195,17 @@ CORSUsed
 )
 ;
 bool
+HasDrawWindowPrivilege
+(
+JSContext
+*
+aCx
+JSObject
+*
+aObj
+)
+;
+bool
 CoerceDouble
 (
 const
