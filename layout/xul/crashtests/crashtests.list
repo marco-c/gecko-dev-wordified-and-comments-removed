@@ -423,6 +423,13 @@ gtkWidget
 browserIsRemote
 6
 )
+asserts
+-
+if
+(
+stylo
+5
+)
 load
 415394
 -
@@ -434,6 +441,9 @@ Bug
 163838
 bug
 1195474
+#
+bug
+1324651
 load
 417509
 .
