@@ -350,7 +350,7 @@ loop
 {
 select
 !
-{
+(
 request
 =
 >
@@ -529,14 +529,14 @@ channel
 break
 }
 }
-}
+)
 }
 }
 }
 proto
 !
 EngineProto
-{
+(
 Running
 :
 send
@@ -562,4 +562,4 @@ Exited
 >
 !
 }
-}
+)
