@@ -105,12 +105,12 @@ override
 ;
 static
 bool
-CanHandleMediaType
+IsSupportedType
 (
 const
 MediaContentType
 &
-aType
+aContentType
 DecoderDoctorDiagnostics
 *
 aDiagnostics

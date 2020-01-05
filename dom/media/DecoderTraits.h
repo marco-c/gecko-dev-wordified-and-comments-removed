@@ -122,10 +122,10 @@ aType
 ;
 static
 bool
-IsMP4TypeAndEnabled
+IsMP4SupportedType
 (
 const
-nsACString
+MediaContentType
 &
 aType
 DecoderDoctorDiagnostics
