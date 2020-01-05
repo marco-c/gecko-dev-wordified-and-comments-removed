@@ -140,8 +140,6 @@ attribute
 DOMString
 useMap
 ;
-/
-/
 readonly
 attribute
 HTMLFormElement

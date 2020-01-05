@@ -124,8 +124,6 @@ attribute
 DOMSettableTokenList
 htmlFor
 ;
-/
-/
 readonly
 attribute
 HTMLFormElement

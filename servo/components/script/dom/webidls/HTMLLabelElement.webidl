@@ -112,8 +112,6 @@ HTMLLabelElement
 :
 HTMLElement
 {
-/
-/
 readonly
 attribute
 HTMLFormElement
