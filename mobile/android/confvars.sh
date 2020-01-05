@@ -222,6 +222,9 @@ MOZ_CAPTURE
 MOZ_RAW
 =
 1
+MOZ_RUST_MP4PARSE
+=
+1
 #
 use
 custom
