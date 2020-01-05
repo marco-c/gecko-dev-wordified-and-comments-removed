@@ -1326,6 +1326,11 @@ UINT32_MAX
 bool
 reportCompileErrorNumberVA
 (
+UniquePtr
+<
+JSErrorNotes
+>
+notes
 uint32_t
 offset
 unsigned
@@ -1339,6 +1344,11 @@ args
 bool
 reportStrictModeErrorNumberVA
 (
+UniquePtr
+<
+JSErrorNotes
+>
+notes
 uint32_t
 offset
 bool
@@ -1352,6 +1362,11 @@ args
 bool
 reportExtraWarningErrorNumberVA
 (
+UniquePtr
+<
+JSErrorNotes
+>
+notes
 uint32_t
 offset
 unsigned
