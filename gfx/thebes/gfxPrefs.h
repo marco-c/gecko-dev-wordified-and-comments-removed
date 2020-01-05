@@ -3543,7 +3543,12 @@ enabled
 "
 WebRenderOMTAEnabled
 bool
-false
+gfxPrefs
+:
+:
+OverrideBase_WebRender
+(
+)
 )
 ;
 DECL_GFX_PREF
