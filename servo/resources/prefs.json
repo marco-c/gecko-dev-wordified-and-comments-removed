@@ -2,6 +2,15 @@
 "
 dom
 .
+forcetouch
+.
+enabled
+"
+:
+false
+"
+dom
+.
 mouseevent
 .
 which
