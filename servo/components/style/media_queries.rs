@@ -14,7 +14,6 @@ cssparser
 {
 Delimiter
 Parser
-ToCss
 Token
 }
 ;
@@ -55,7 +54,10 @@ use
 style_traits
 :
 :
+{
+ToCss
 ViewportPx
+}
 ;
 use
 values

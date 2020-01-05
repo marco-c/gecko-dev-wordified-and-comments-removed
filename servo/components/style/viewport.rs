@@ -17,12 +17,6 @@ parse_important
 }
 ;
 use
-cssparser
-:
-:
-ToCss
-;
-use
 euclid
 :
 :
@@ -110,7 +104,10 @@ use
 style_traits
 :
 :
+{
+ToCss
 ViewportPx
+}
 ;
 use
 style_traits

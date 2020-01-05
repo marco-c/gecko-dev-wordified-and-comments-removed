@@ -19,6 +19,12 @@ position
 :
 *
 ;
+use
+style_traits
+:
+:
+ToCss
+;
 #
 [
 test

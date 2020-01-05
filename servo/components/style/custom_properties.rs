@@ -9,7 +9,6 @@ cssparser
 Delimiter
 Parser
 SourcePosition
-ToCss
 Token
 TokenSerializationType
 }
@@ -64,6 +63,12 @@ sync
 :
 :
 Arc
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 pub
 type

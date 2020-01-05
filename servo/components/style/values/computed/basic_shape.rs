@@ -1,10 +1,4 @@
 use
-cssparser
-:
-:
-ToCss
-;
-use
 properties
 :
 :
@@ -18,6 +12,12 @@ std
 :
 :
 fmt
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 use
 url
@@ -191,12 +191,6 @@ fmt
 :
 Write
 {
-use
-values
-:
-:
-LocalToCss
-;
 match
 *
 self

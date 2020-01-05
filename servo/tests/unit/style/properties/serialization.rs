@@ -1,12 +1,5 @@
 pub
 use
-cssparser
-:
-:
-ToCss
-;
-pub
-use
 std
 :
 :
@@ -124,6 +117,13 @@ specified
 :
 :
 UrlExtraData
+;
+pub
+use
+style_traits
+:
+:
+ToCss
 ;
 pub
 use

@@ -614,12 +614,6 @@ mod
 workqueue
 ;
 use
-cssparser
-:
-:
-ToCss
-;
-use
 std
 :
 :
@@ -633,6 +627,12 @@ sync
 :
 :
 Arc
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 #
 [

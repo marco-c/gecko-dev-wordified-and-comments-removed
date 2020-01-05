@@ -40,6 +40,10 @@ style
 ;
 extern
 crate
+style_traits
+;
+extern
+crate
 url
 ;
 mod

@@ -2,10 +2,7 @@ use
 cssparser
 :
 :
-{
 Parser
-ToCss
-}
 ;
 use
 parser
@@ -33,6 +30,12 @@ std
 :
 :
 fmt
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 use
 url
@@ -217,12 +220,6 @@ fmt
 :
 Write
 {
-use
-values
-:
-:
-LocalToCss
-;
 match
 *
 self

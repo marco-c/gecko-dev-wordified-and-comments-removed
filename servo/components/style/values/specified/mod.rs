@@ -11,7 +11,6 @@ cssparser
 {
 self
 Parser
-ToCss
 Token
 }
 ;
@@ -108,6 +107,12 @@ ops
 :
 :
 Mul
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 use
 super
@@ -3801,12 +3806,6 @@ fmt
 :
 Write
 {
-use
-values
-:
-:
-LocalToCss
-;
 match
 *
 self

@@ -10,7 +10,6 @@ cssparser
 :
 {
 Parser
-ToCss
 Token
 }
 ;
@@ -63,6 +62,12 @@ use
 style_traits
 :
 :
+ToCss
+;
+use
+style_traits
+:
+:
 values
 :
 :
@@ -91,7 +96,6 @@ values
 CSSFloat
 FONT_MEDIUM_PX
 HasViewportPercentage
-LocalToCss
 computed
 }
 ;

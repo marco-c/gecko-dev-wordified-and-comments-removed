@@ -8,10 +8,7 @@ use
 cssparser
 :
 :
-{
 Parser
-ToCss
-}
 ;
 use
 env_logger
@@ -516,6 +513,12 @@ timer
 :
 :
 Timer
+;
+use
+style_traits
+:
+:
+ToCss
 ;
 use
 url

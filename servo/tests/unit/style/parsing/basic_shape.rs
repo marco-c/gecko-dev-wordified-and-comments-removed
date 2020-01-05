@@ -28,6 +28,12 @@ basic_shape
 :
 *
 ;
+use
+style_traits
+:
+:
+ToCss
+;
 macro_rules
 !
 assert_roundtrip_basicshape
@@ -141,7 +147,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -166,7 +172,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -191,7 +197,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -216,7 +222,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -241,7 +247,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -266,7 +272,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -291,7 +297,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
@@ -316,7 +322,7 @@ assert_eq
 (
 :
 :
-cssparser
+style_traits
 :
 :
 ToCss
