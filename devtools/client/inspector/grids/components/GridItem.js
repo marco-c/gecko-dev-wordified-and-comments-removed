@@ -422,9 +422,6 @@ attributesLength
 attributes
 .
 length
-isConnected
-:
-true
 nodeName
 :
 nodeFront
@@ -546,13 +543,6 @@ dom
 li
 (
 {
-className
-:
-"
-grid
--
-item
-"
 }
 dom
 .
