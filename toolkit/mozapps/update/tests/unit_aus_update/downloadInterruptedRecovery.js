@@ -564,7 +564,7 @@ Cr
 NS_ERROR_OFFLINE
 ;
 let
-tm
+tm2
 =
 Cc
 [
@@ -588,7 +588,7 @@ Ci
 nsIThreadManager
 )
 ;
-tm
+tm2
 .
 mainThread
 .
