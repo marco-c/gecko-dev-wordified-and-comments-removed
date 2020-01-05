@@ -302,7 +302,7 @@ getVersionParams
 (
 )
 ;
-setUpdateURLOverride
+setUpdateURL
 (
 url
 )

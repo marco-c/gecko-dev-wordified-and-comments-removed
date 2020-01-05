@@ -28,7 +28,7 @@ start_httpserver
 (
 )
 ;
-setUpdateURLOverride
+setUpdateURL
 (
 gURLData
 +

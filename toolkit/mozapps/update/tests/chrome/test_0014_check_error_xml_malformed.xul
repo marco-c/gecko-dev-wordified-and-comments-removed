@@ -265,7 +265,7 @@ xmlMalformed
 1
 "
 ;
-setUpdateURLOverride
+setUpdateURL
 (
 url
 )

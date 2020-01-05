@@ -298,7 +298,7 @@ unsupported
 1
 "
 ;
-setUpdateURLOverride
+setUpdateURL
 (
 url
 )
