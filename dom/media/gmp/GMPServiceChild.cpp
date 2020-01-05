@@ -997,6 +997,7 @@ GMPCapabilityData
 aCapabilities
 )
 {
+{
 StaticMutexAutoLock
 lock
 (
@@ -1075,6 +1076,7 @@ get
 )
 )
 ;
+}
 nsCOMPtr
 <
 nsIObserverService
