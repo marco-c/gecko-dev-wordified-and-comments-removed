@@ -300,13 +300,6 @@ SubpageId
 SubpageId
 )
 }
-unsafe
-impl
-Send
-for
-ConstellationControlMsg
-{
-}
 #
 [
 derive
