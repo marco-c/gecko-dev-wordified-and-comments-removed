@@ -2107,7 +2107,16 @@ set_config
 '
 MOZ_SYSTEM_HUNSPELL
 '
+depends_if
+(
 system_hunspell
+)
+(
+lambda
+_
+:
+True
+)
 )
 depends
 (
