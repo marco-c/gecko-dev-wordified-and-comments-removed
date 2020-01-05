@@ -40822,6 +40822,7 @@ to_owned
 derive
 (
 PartialEq
+Clone
 )
 ]
 pub
