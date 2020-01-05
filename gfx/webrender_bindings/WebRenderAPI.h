@@ -522,14 +522,6 @@ WrRect
 &
 aBounds
 const
-WrRect
-&
-aOverflow
-const
-WrImageMask
-*
-aMask
-const
 float
 aOpacity
 const

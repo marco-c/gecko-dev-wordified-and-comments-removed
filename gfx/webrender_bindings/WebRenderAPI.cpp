@@ -2042,14 +2042,6 @@ WrRect
 &
 aBounds
 const
-WrRect
-&
-aOverflow
-const
-WrImageMask
-*
-aMask
-const
 float
 aOpacity
 const
@@ -2069,8 +2061,6 @@ wr_dp_push_stacking_context
 (
 mWrState
 aBounds
-aOverflow
-aMask
 aOpacity
 ToWrMatrix
 (
