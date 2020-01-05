@@ -3343,6 +3343,11 @@ endif
 }
 #
 endif
+bool
+ForceDoubleCacheFlush
+(
+)
+;
 #
 define
 JS_CODEGEN_REGISTER_PAIR
