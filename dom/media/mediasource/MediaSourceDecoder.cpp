@@ -1394,13 +1394,7 @@ interval
 currentPosition
 currentPosition
 +
-TimeUnit
-:
-:
-FromMicroseconds
-(
 DEFAULT_NEXT_FRAME_AVAILABLE_BUFFERED
-)
 )
 ;
 return
