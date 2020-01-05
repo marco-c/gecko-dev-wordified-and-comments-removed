@@ -321,9 +321,6 @@ const
 char16_t
 *
 aText
-hb_buffer_t
-*
-aBuffer
 bool
 aVertical
 RoundingFlags
@@ -336,9 +333,6 @@ GetGlyphPositions
 gfxContext
 *
 aContext
-hb_buffer_t
-*
-aBuffer
 nsTArray
 <
 nsPoint
@@ -414,6 +408,10 @@ mHBFace
 hb_font_t
 *
 mHBFont
+;
+hb_buffer_t
+*
+mBuffer
 ;
 FontCallbackData
 mCallbackData
