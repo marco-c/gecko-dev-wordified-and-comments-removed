@@ -178,13 +178,13 @@ l10n
 :
 mobile
 /
-android
-/
 locales
 /
-all
+l10n
 -
-locales
+changesets
+.
+json
 run
 -
 time
