@@ -527,6 +527,11 @@ CSSStyleDeclaration
 webidl
 '
 '
+CSSStyleRule
+.
+webidl
+'
+'
 CSSStyleSheet
 .
 webidl
