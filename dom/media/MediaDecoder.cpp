@@ -1432,11 +1432,11 @@ OwnerDoc
 )
 )
 ;
-NS_ENSURE_TRUE_VOID
+if
 (
 layerManager
 )
-;
+{
 RefPtr
 <
 KnowsCompositor
@@ -1457,6 +1457,7 @@ Notify
 knowsCompositor
 )
 ;
+}
 }
 void
 MediaDecoder
@@ -7952,7 +7953,7 @@ GetStateMachine
 )
 )
 ;
-nsAutoCString
+nsString
 str
 ;
 GetMozDebugReaderData
@@ -7981,7 +7982,10 @@ n
 %
 s
 "
+NS_ConvertUTF16toUTF8
+(
 str
+)
 .
 get
 (
