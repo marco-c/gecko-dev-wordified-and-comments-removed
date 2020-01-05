@@ -473,6 +473,15 @@ GPUProcessListener
 aListener
 )
 ;
+bool
+NotifyGpuObservers
+(
+const
+char
+*
+aTopic
+)
+;
 GPUChild
 *
 GetGPUChild
