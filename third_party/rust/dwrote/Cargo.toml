@@ -48,7 +48,7 @@ version
 .
 1
 .
-6
+0
 "
 authors
 =
@@ -146,6 +146,15 @@ sys
 2
 "
 gdi32
+-
+sys
+=
+"
+0
+.
+2
+"
+dwrite
 -
 sys
 =
