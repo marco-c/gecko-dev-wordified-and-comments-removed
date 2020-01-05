@@ -365,6 +365,13 @@ eMouseEventClass
 )
 EVENT
 (
+close
+eClose
+EventNameType_HTML
+eBasicEventClass
+)
+EVENT
+(
 contextmenu
 eContextMenu
 EventNameType_HTMLXUL
