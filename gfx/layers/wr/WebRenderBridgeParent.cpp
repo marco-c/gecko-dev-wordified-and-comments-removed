@@ -1264,7 +1264,10 @@ BufferDescriptor
 TRGBDescriptor
 )
 ;
+DebugOnly
+<
 uint32_t
+>
 stride
 =
 ImageDataSerializer
