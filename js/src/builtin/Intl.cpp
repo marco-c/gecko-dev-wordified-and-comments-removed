@@ -250,6 +250,8 @@ PodCopy
 if
 !
 ENABLE_INTL_API
+namespace
+{
 typedef
 bool
 UBool
@@ -269,7 +271,6 @@ U_ZERO_ERROR
 U_BUFFER_OVERFLOW_ERROR
 }
 ;
-static
 inline
 UBool
 U_FAILURE
@@ -336,7 +337,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 u_strlen
 (
@@ -361,7 +361,6 @@ disabled
 struct
 UEnumeration
 ;
-static
 int32_t
 uenum_count
 (
@@ -385,7 +384,6 @@ disabled
 )
 ;
 }
-static
 const
 char
 *
@@ -414,7 +412,6 @@ disabled
 )
 ;
 }
-static
 void
 uenum_close
 (
@@ -497,7 +494,6 @@ UCOL_LESS
 1
 }
 ;
-static
 int32_t
 ucol_countAvailable
 (
@@ -515,7 +511,6 @@ disabled
 )
 ;
 }
-static
 const
 char
 *
@@ -537,7 +532,6 @@ disabled
 )
 ;
 }
-static
 UCollator
 *
 ucol_open
@@ -563,7 +557,6 @@ disabled
 )
 ;
 }
-static
 void
 ucol_setAttribute
 (
@@ -591,7 +584,6 @@ disabled
 )
 ;
 }
-static
 UCollationResult
 ucol_strcoll
 (
@@ -625,7 +617,6 @@ disabled
 )
 ;
 }
-static
 void
 ucol_close
 (
@@ -646,7 +637,6 @@ disabled
 )
 ;
 }
-static
 UEnumeration
 *
 ucol_getKeywordValuesForLocale
@@ -729,7 +719,6 @@ UNumberFormatTextAttribute
 UNUM_CURRENCY_CODE
 }
 ;
-static
 int32_t
 unum_countAvailable
 (
@@ -747,7 +736,6 @@ disabled
 )
 ;
 }
-static
 const
 char
 *
@@ -769,7 +757,6 @@ disabled
 )
 ;
 }
-static
 UNumberFormat
 *
 unum_open
@@ -806,7 +793,6 @@ disabled
 )
 ;
 }
-static
 void
 unum_setAttribute
 (
@@ -831,7 +817,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 unum_formatDouble
 (
@@ -866,7 +851,6 @@ disabled
 )
 ;
 }
-static
 void
 unum_close
 (
@@ -887,7 +871,6 @@ disabled
 )
 ;
 }
-static
 void
 unum_setTextAttribute
 (
@@ -924,7 +907,6 @@ void
 *
 UNumberingSystem
 ;
-static
 UNumberingSystem
 *
 unumsys_open
@@ -950,7 +932,6 @@ disabled
 )
 ;
 }
-static
 const
 char
 *
@@ -974,7 +955,6 @@ disabled
 )
 ;
 }
-static
 void
 unumsys_close
 (
@@ -1070,7 +1050,6 @@ UCAL_DAY_OF_MONTH
 UCAL_DATE
 }
 ;
-static
 UCalendar
 *
 ucal_open
@@ -1104,7 +1083,6 @@ disabled
 )
 ;
 }
-static
 const
 char
 *
@@ -1131,7 +1109,6 @@ disabled
 )
 ;
 }
-static
 UEnumeration
 *
 ucal_getKeywordValuesForLocale
@@ -1163,7 +1140,6 @@ disabled
 )
 ;
 }
-static
 void
 ucal_close
 (
@@ -1184,7 +1160,6 @@ disabled
 )
 ;
 }
-static
 UCalendarWeekdayType
 ucal_getDayOfWeekType
 (
@@ -1211,7 +1186,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 ucal_getAttribute
 (
@@ -1235,7 +1209,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 ucal_get
 (
@@ -1262,7 +1235,6 @@ disabled
 )
 ;
 }
-static
 UEnumeration
 *
 ucal_openTimeZones
@@ -1284,7 +1256,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 ucal_getCanonicalTimeZoneID
 (
@@ -1319,7 +1290,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 ucal_getDefaultTimeZone
 (
@@ -1350,7 +1320,6 @@ void
 *
 UDateTimePatternGenerator
 ;
-static
 UDateTimePatternGenerator
 *
 udatpg_open
@@ -1376,7 +1345,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 udatpg_getBestPattern
 (
@@ -1411,7 +1379,6 @@ disabled
 )
 ;
 }
-static
 void
 udatpg_close
 (
@@ -1576,7 +1543,6 @@ UDAT_IGNORE
 UDAT_PATTERN
 }
 ;
-static
 int32_t
 udat_countAvailable
 (
@@ -1594,7 +1560,6 @@ disabled
 )
 ;
 }
-static
 const
 char
 *
@@ -1616,7 +1581,6 @@ disabled
 )
 ;
 }
-static
 UDateFormat
 *
 udat_open
@@ -1658,7 +1622,6 @@ disabled
 )
 ;
 }
-static
 const
 UCalendar
 *
@@ -1682,7 +1645,6 @@ disabled
 )
 ;
 }
-static
 void
 ucal_setGregorianChange
 (
@@ -1708,7 +1670,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 udat_format
 (
@@ -1743,7 +1704,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 udat_formatForFields
 (
@@ -1778,7 +1738,6 @@ disabled
 )
 ;
 }
-static
 UFieldPositionIterator
 *
 ufieldpositer_open
@@ -1800,7 +1759,6 @@ disabled
 )
 ;
 }
-static
 void
 ufieldpositer_close
 (
@@ -1821,7 +1779,6 @@ disabled
 )
 ;
 }
-static
 int32_t
 ufieldpositer_next
 (
@@ -1848,7 +1805,6 @@ disabled
 )
 ;
 }
-static
 void
 udat_close
 (
@@ -1868,6 +1824,7 @@ disabled
 "
 )
 ;
+}
 }
 #
 endif
