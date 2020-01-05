@@ -1372,6 +1372,10 @@ TransportLayerDtls
 (
 )
 {
+ssl_fd_
+=
+nullptr
+;
 nspr_io_adapter_
 -
 >
