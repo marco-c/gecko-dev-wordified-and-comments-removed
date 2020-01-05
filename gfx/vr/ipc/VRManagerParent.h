@@ -237,6 +237,11 @@ HaveEventListener
 (
 )
 ;
+bool
+HaveControllerListener
+(
+)
+;
 virtual
 void
 NotifyNotUsed
@@ -596,6 +601,9 @@ mVRManagerHolder
 ;
 bool
 mHaveEventListener
+;
+bool
+mHaveControllerListener
 ;
 bool
 mIsContentChild
