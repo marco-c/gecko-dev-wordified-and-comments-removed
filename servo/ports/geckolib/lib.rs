@@ -1,11 +1,3 @@
-#
-!
-[
-feature
-(
-as_unsafe_cell
-)
-]
 extern
 crate
 app_units
