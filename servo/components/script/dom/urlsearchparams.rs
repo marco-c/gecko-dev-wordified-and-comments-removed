@@ -75,8 +75,8 @@ StringOrURLSearchParams
 :
 :
 {
-eURLSearchParams
 eString
+eURLSearchParams
 }
 ;
 use

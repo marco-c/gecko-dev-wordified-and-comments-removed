@@ -4,8 +4,8 @@ actor
 :
 {
 Actor
-ActorRegistry
 ActorMessageStatus
+ActorRegistry
 }
 ;
 use
@@ -43,8 +43,8 @@ DevtoolScriptControlMsg
 :
 :
 {
-SetTimelineMarkers
 DropTimelineMarkers
+SetTimelineMarkers
 }
 ;
 use
@@ -90,9 +90,9 @@ rustc_serialize
 :
 :
 {
-json
-Encoder
 Encodable
+Encoder
+json
 }
 ;
 use

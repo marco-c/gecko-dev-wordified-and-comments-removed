@@ -74,10 +74,10 @@ euclid
 :
 :
 {
-Size2D
+Matrix4
 Point2D
 Rect
-Matrix4
+Size2D
 }
 ;
 use
@@ -304,9 +304,9 @@ mem
 :
 {
 self
+ReportKind
 Reporter
 ReporterRequest
-ReportKind
 }
 ;
 use

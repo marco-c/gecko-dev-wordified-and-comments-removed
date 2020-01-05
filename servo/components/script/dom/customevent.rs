@@ -63,8 +63,8 @@ InheritTypes
 :
 :
 {
-EventCast
 CustomEventDerived
+EventCast
 }
 ;
 use
@@ -102,8 +102,8 @@ js
 :
 :
 {
-Root
 MutHeapJSVal
+Root
 }
 ;
 use
@@ -138,8 +138,8 @@ jsapi
 :
 :
 {
-JSContext
 HandleValue
+JSContext
 }
 ;
 use

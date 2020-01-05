@@ -132,8 +132,8 @@ InheritTypes
 :
 :
 {
-HTMLIFrameElementCast
 HTMLCanvasElementCast
+HTMLIFrameElementCast
 }
 ;
 use
@@ -314,9 +314,9 @@ node
 :
 {
 HAS_CHANGED
-IS_DIRTY
-HAS_DIRTY_SIBLINGS
 HAS_DIRTY_DESCENDANTS
+HAS_DIRTY_SIBLINGS
+IS_DIRTY
 }
 ;
 use
@@ -378,8 +378,8 @@ parser
 :
 :
 {
-NamespaceConstraint
 AttrSelector
+NamespaceConstraint
 }
 ;
 use

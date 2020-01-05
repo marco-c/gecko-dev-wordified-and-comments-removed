@@ -35,8 +35,8 @@ flow
 :
 :
 {
-FlowClass
 Flow
+FlowClass
 OpaqueFlow
 }
 ;
@@ -57,8 +57,8 @@ rustc_serialize
 :
 :
 {
-Encoder
 Encodable
+Encoder
 }
 ;
 use

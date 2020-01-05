@@ -32,8 +32,8 @@ flow
 :
 :
 {
-FlowClass
 Flow
+FlowClass
 OpaqueFlow
 }
 ;

@@ -3,10 +3,10 @@ cssparser
 :
 :
 {
-Parser
-DeclarationListParser
 AtRuleParser
+DeclarationListParser
 DeclarationParser
+Parser
 parse_important
 }
 ;
@@ -84,10 +84,10 @@ viewport
 :
 :
 {
-UserZoom
-Zoom
 Orientation
+UserZoom
 ViewportConstraints
+Zoom
 }
 ;
 use

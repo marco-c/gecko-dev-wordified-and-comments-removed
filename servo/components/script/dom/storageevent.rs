@@ -134,9 +134,9 @@ event
 :
 {
 Event
-EventTypeId
 EventBubbles
 EventCancelable
+EventTypeId
 }
 ;
 use

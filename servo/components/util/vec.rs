@@ -6,9 +6,9 @@ cmp
 :
 :
 {
-PartialOrd
-PartialEq
 Ordering
+PartialEq
+PartialOrd
 }
 ;
 use

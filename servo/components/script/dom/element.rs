@@ -281,8 +281,8 @@ InheritTypes
 :
 :
 {
-HTMLTableElementCast
 HTMLTableCellElementCast
+HTMLTableElementCast
 }
 ;
 use
@@ -460,8 +460,8 @@ utils
 :
 {
 namespace_from_domstring
-xml_name_type
 validate_and_extract
+xml_name_type
 }
 ;
 use
@@ -613,8 +613,8 @@ node
 :
 :
 {
-document_from_node
 NodeDamage
+document_from_node
 }
 ;
 use
@@ -684,8 +684,8 @@ TraversalScope
 :
 :
 {
-IncludeNode
 ChildrenOnly
+IncludeNode
 }
 ;
 use
@@ -696,8 +696,8 @@ tree_builder
 :
 :
 {
-NoQuirks
 LimitedQuirks
+NoQuirks
 Quirks
 }
 ;
@@ -709,8 +709,8 @@ matching
 :
 :
 {
-matches
 DeclarationBlock
+matches
 }
 ;
 use
@@ -850,8 +850,8 @@ properties
 :
 :
 {
-PropertyDeclarationBlock
 PropertyDeclaration
+PropertyDeclarationBlock
 parse_style_attribute
 }
 ;

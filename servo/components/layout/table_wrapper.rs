@@ -11,9 +11,9 @@ block
 :
 :
 {
+AbsoluteNonReplaced
 BlockFlow
 FloatNonReplaced
-AbsoluteNonReplaced
 ISizeAndMarginsComputer
 ISizeConstraintInput
 }
@@ -53,8 +53,8 @@ flow
 :
 :
 {
-FlowClass
 Flow
+FlowClass
 ImmutableFlowUtils
 }
 ;

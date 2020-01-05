@@ -12,8 +12,8 @@ fragment
 :
 {
 Fragment
-SpecificFragmentInfo
 ScannedTextFragmentInfo
+SpecificFragmentInfo
 UnscannedTextFragmentInfo
 }
 ;

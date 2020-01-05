@@ -87,9 +87,9 @@ jsapi
 :
 :
 {
-RootedValue
 HandleValue
 Heap
+RootedValue
 }
 ;
 use
@@ -109,9 +109,9 @@ script_task
 :
 :
 {
+CommonScriptMsg
 ScriptChan
 TimerSource
-CommonScriptMsg
 }
 ;
 use
@@ -200,8 +200,8 @@ mpsc
 :
 :
 {
-channel
 Sender
+channel
 }
 ;
 use

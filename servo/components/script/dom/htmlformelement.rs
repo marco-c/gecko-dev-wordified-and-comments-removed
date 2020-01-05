@@ -385,8 +385,8 @@ script_task
 :
 :
 {
-ScriptChan
 MainThreadScriptMsg
+ScriptChan
 }
 ;
 use

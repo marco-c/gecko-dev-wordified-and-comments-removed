@@ -4,8 +4,8 @@ cssparser
 :
 {
 self
-RGBA
 Color
+RGBA
 }
 ;
 use
@@ -79,9 +79,9 @@ str
 :
 :
 {
-from_utf8
 FromStr
 Split
+from_utf8
 }
 ;
 pub

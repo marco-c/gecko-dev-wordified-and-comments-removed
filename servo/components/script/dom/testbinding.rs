@@ -255,9 +255,9 @@ jsapi
 :
 :
 {
+HandleValue
 JSContext
 JSObject
-HandleValue
 }
 ;
 use

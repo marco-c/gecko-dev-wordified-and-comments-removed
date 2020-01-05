@@ -79,8 +79,8 @@ traversal
 :
 {
 BubbleISizes
-RecalcStyleForNode
 ConstructFlows
+RecalcStyleForNode
 }
 ;
 use
@@ -88,8 +88,8 @@ traversal
 :
 :
 {
-ComputeAbsolutePositions
 BuildDisplayList
+ComputeAbsolutePositions
 }
 ;
 use
@@ -97,8 +97,8 @@ traversal
 :
 :
 {
-PreorderDomTraversal
 PostorderDomTraversal
+PreorderDomTraversal
 }
 ;
 use

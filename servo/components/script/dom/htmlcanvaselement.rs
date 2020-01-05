@@ -135,10 +135,10 @@ js
 :
 :
 {
+HeapGCValue
 JS
 LayoutJS
 MutNullableHeap
-HeapGCValue
 Root
 }
 ;
@@ -243,8 +243,8 @@ webglrenderingcontext
 :
 :
 {
-WebGLRenderingContext
 LayoutCanvasWebGLRenderingContextHelpers
+WebGLRenderingContext
 }
 ;
 use
@@ -273,8 +273,8 @@ jsapi
 :
 :
 {
-JSContext
 HandleValue
+JSContext
 }
 ;
 use

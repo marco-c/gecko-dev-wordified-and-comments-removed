@@ -56,8 +56,8 @@ flow
 self
 AbsoluteDescendants
 Flow
-ImmutableFlowUtils
 IS_ABSOLUTELY_POSITIONED
+ImmutableFlowUtils
 }
 ;
 use

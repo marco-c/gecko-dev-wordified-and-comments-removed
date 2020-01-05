@@ -21,9 +21,9 @@ net_traits
 :
 {
 Metadata
-load_whole_resource
-ResourceTask
 PendingAsyncLoad
+ResourceTask
+load_whole_resource
 }
 ;
 use

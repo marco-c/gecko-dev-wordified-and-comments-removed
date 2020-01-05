@@ -3,12 +3,12 @@ cssparser
 :
 :
 {
-Parser
-Token
-SourcePosition
 Delimiter
-TokenSerializationType
+Parser
+SourcePosition
 ToCss
+Token
+TokenSerializationType
 }
 ;
 use

@@ -133,8 +133,8 @@ htmlcollection
 :
 :
 {
-HTMLCollection
 CollectionFilter
+HTMLCollection
 }
 ;
 use

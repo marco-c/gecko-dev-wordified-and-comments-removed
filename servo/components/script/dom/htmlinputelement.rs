@@ -167,9 +167,9 @@ InheritTypes
 :
 :
 {
-HTMLInputElementDerived
-HTMLFieldSetElementDerived
 EventTargetCast
+HTMLFieldSetElementDerived
+HTMLInputElementDerived
 }
 ;
 use
@@ -269,8 +269,8 @@ htmlformelement
 :
 :
 {
-FormSubmitter
 FormControl
+FormSubmitter
 HTMLFormElement
 }
 ;
@@ -282,8 +282,8 @@ htmlformelement
 :
 :
 {
-SubmittedFrom
 ResetFrom
+SubmittedFrom
 }
 ;
 use
@@ -370,10 +370,10 @@ KeyReaction
 :
 :
 {
-TriggerDefaultAction
 DispatchInput
 Nothing
 RedrawSelection
+TriggerDefaultAction
 }
 ;
 use

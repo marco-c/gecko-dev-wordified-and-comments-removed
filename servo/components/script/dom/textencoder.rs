@@ -132,8 +132,8 @@ encoding
 :
 :
 {
-Encoding
 EncoderTrap
+Encoding
 }
 ;
 use
@@ -156,8 +156,8 @@ jsapi
 :
 :
 {
-JS_NewUint8Array
 JS_GetUint8ArrayData
+JS_NewUint8Array
 }
 ;
 use

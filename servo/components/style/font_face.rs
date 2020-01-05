@@ -12,11 +12,11 @@ cssparser
 :
 :
 {
-Token
-Parser
-DeclarationListParser
 AtRuleParser
+DeclarationListParser
 DeclarationParser
+Parser
+Token
 }
 ;
 use

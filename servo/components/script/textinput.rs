@@ -24,8 +24,10 @@ constellation_msg
 :
 :
 {
-Key
-KeyModifiers
+ALT
+CONTROL
+SHIFT
+SUPER
 }
 ;
 use
@@ -36,10 +38,8 @@ constellation_msg
 :
 :
 {
-SHIFT
-CONTROL
-ALT
-SUPER
+Key
+KeyModifiers
 }
 ;
 use
@@ -59,8 +59,8 @@ cmp
 :
 :
 {
-min
 max
+min
 }
 ;
 use

@@ -93,8 +93,9 @@ InheritTypes
 :
 :
 {
-HTMLElementCast
-HTMLImageElementDerived
+ElementCast
+EventTargetCast
+NodeCast
 }
 ;
 use
@@ -111,9 +112,8 @@ InheritTypes
 :
 :
 {
-NodeCast
-ElementCast
-EventTargetCast
+HTMLElementCast
+HTMLImageElementDerived
 }
 ;
 use
@@ -233,10 +233,10 @@ node
 :
 :
 {
-document_from_node
 Node
-NodeTypeId
 NodeDamage
+NodeTypeId
+document_from_node
 window_from_node
 }
 ;
@@ -302,9 +302,9 @@ script_task
 :
 :
 {
+CommonScriptMsg
 Runnable
 ScriptChan
-CommonScriptMsg
 }
 ;
 use

@@ -1,11 +1,3 @@
-#
-!
-[
-deny
-(
-unsafe_code
-)
-]
 use
 azure
 :
@@ -56,12 +48,12 @@ euclid
 :
 :
 {
+Matrix2D
+Matrix4
 Point2D
 Rect
 SideOffsets2D
 Size2D
-Matrix2D
-Matrix4
 }
 ;
 use

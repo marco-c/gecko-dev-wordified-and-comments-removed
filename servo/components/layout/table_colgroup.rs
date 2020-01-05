@@ -27,8 +27,8 @@ flow
 :
 {
 BaseFlow
-FlowClass
 Flow
+FlowClass
 ForceNonfloatedFlag
 OpaqueFlow
 }

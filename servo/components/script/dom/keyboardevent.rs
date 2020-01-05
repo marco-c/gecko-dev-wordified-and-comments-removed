@@ -30,8 +30,8 @@ KeyboardEventBinding
 :
 :
 {
-KeyboardEventMethods
 KeyboardEventConstants
+KeyboardEventMethods
 }
 ;
 use
@@ -67,8 +67,8 @@ InheritTypes
 :
 {
 EventCast
-UIEventCast
 KeyboardEventDerived
+UIEventCast
 }
 ;
 use
@@ -172,8 +172,10 @@ constellation_msg
 :
 :
 {
-Key
-KeyModifiers
+ALT
+CONTROL
+SHIFT
+SUPER
 }
 ;
 use
@@ -184,10 +186,8 @@ constellation_msg
 :
 :
 {
-SHIFT
-CONTROL
-ALT
-SUPER
+Key
+KeyModifiers
 }
 ;
 use
@@ -207,8 +207,8 @@ cell
 :
 :
 {
-RefCell
 Cell
+RefCell
 }
 ;
 use

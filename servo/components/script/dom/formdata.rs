@@ -119,8 +119,8 @@ global
 :
 :
 {
-GlobalRef
 GlobalField
+GlobalRef
 }
 ;
 use

@@ -158,9 +158,9 @@ mpsc
 :
 :
 {
-channel
 Receiver
 Sender
+channel
 }
 ;
 use

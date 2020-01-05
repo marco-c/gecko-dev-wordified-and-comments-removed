@@ -54,8 +54,8 @@ rustc_serialize
 :
 :
 {
-Encoder
 Encodable
+Encoder
 }
 ;
 use
@@ -88,11 +88,11 @@ ops
 :
 {
 Add
-Sub
-Neg
-Mul
 Div
+Mul
+Neg
 Rem
+Sub
 }
 ;
 #

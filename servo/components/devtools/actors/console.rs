@@ -4,8 +4,8 @@ actor
 :
 {
 Actor
-ActorRegistry
 ActorMessageStatus
+ActorRegistry
 }
 ;
 use
@@ -31,9 +31,9 @@ EvaluateJSReply
 :
 :
 {
-NullValue
-VoidValue
-NumberValue
+ActorValue
+BooleanValue
+StringValue
 }
 ;
 use
@@ -44,9 +44,9 @@ EvaluateJSReply
 :
 :
 {
-StringValue
-BooleanValue
-ActorValue
+NullValue
+NumberValue
+VoidValue
 }
 ;
 use
@@ -54,10 +54,10 @@ devtools_traits
 :
 :
 {
+CONSOLE_API
 CachedConsoleMessageTypes
 DevtoolScriptControlMsg
 PAGE_ERROR
-CONSOLE_API
 }
 ;
 use

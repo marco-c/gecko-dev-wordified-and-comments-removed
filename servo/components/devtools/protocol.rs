@@ -27,8 +27,8 @@ rustc_serialize
 :
 :
 {
-json
 Encodable
+json
 }
 ;
 use

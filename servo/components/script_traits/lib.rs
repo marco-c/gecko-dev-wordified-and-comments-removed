@@ -12,6 +12,7 @@ plugin
 [
 plugin
 (
+plugins
 serde_macros
 )
 ]
@@ -57,11 +58,11 @@ serde
 ;
 extern
 crate
-util
+url
 ;
 extern
 crate
-url
+util
 ;
 use
 devtools_traits
@@ -127,8 +128,8 @@ constellation_msg
 :
 {
 ConstellationChan
-PipelineId
 Failure
+PipelineId
 WindowSizeData
 }
 ;
@@ -140,11 +141,11 @@ constellation_msg
 :
 :
 {
+Key
+KeyModifiers
+KeyState
 LoadData
 SubpageId
-Key
-KeyState
-KeyModifiers
 }
 ;
 use

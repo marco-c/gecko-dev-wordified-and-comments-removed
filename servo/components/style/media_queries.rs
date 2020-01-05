@@ -3,9 +3,9 @@ cssparser
 :
 :
 {
-Token
-Parser
 Delimiter
+Parser
+Token
 }
 ;
 use

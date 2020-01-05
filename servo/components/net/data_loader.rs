@@ -21,8 +21,8 @@ ProgressMsg
 :
 :
 {
-Payload
 Done
+Payload
 }
 ;
 use
@@ -30,9 +30,9 @@ net_traits
 :
 :
 {
+LoadConsumer
 LoadData
 Metadata
-LoadConsumer
 }
 ;
 use

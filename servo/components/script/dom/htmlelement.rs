@@ -154,8 +154,8 @@ InheritTypes
 :
 :
 {
-HTMLElementDerived
 HTMLBodyElementDerived
+HTMLElementDerived
 HTMLHtmlElementDerived
 }
 ;
@@ -222,8 +222,8 @@ cssstyledeclaration
 :
 :
 {
-CSSStyleDeclaration
 CSSModificationAccess
+CSSStyleDeclaration
 }
 ;
 use
@@ -306,9 +306,9 @@ node
 {
 Node
 NodeTypeId
+SEQUENTIALLY_FOCUSABLE
 document_from_node
 window_from_node
-SEQUENTIALLY_FOCUSABLE
 }
 ;
 use

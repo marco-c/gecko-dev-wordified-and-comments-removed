@@ -21,9 +21,9 @@ script_task
 :
 :
 {
-ScriptChan
-Runnable
 CommonScriptMsg
+Runnable
+ScriptChan
 }
 ;
 use

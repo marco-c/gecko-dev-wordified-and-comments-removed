@@ -93,8 +93,8 @@ utils
 :
 :
 {
-namespace_from_domstring
 Reflector
+namespace_from_domstring
 reflect_dom_object
 }
 ;

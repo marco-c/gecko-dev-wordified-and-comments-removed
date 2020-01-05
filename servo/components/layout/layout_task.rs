@@ -254,8 +254,8 @@ compositor_msg
 :
 {
 Epoch
-ScrollPolicy
 LayerId
+ScrollPolicy
 }
 ;
 use
@@ -291,9 +291,9 @@ image_cache_task
 :
 :
 {
-ImageCacheTask
-ImageCacheResult
 ImageCacheChan
+ImageCacheResult
+ImageCacheTask
 }
 ;
 use
@@ -301,8 +301,8 @@ net_traits
 :
 :
 {
-load_bytes_iter
 PendingAsyncLoad
+load_bytes_iter
 }
 ;
 use
@@ -448,8 +448,8 @@ layout_interface
 :
 :
 {
-NewLayoutTaskInfo
 Msg
+NewLayoutTaskInfo
 Reflow
 ReflowGoal
 ReflowQueryType
@@ -570,10 +570,10 @@ mpsc
 :
 :
 {
-channel
-Sender
 Receiver
 Select
+Sender
+channel
 }
 ;
 use
@@ -616,9 +616,9 @@ media_queries
 :
 :
 {
-MediaType
-MediaQueryList
 Device
+MediaQueryList
+MediaType
 }
 ;
 use
@@ -662,9 +662,9 @@ stylesheets
 :
 :
 {
+CSSRuleIteratorExt
 Origin
 Stylesheet
-CSSRuleIteratorExt
 }
 ;
 use

@@ -122,9 +122,9 @@ eventtarget
 :
 :
 {
+EventListenerType
 EventTarget
 ListenerPhase
-EventListenerType
 }
 ;
 use

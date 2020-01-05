@@ -3,10 +3,10 @@ devtools_traits
 :
 :
 {
+CONSOLE_API
 CachedConsoleMessage
 CachedConsoleMessageTypes
 PAGE_ERROR
-CONSOLE_API
 }
 ;
 use
@@ -14,10 +14,10 @@ devtools_traits
 :
 :
 {
+ComputedNodeLayout
 ConsoleAPI
 PageError
 ScriptToDevtoolsControlMsg
-ComputedNodeLayout
 }
 ;
 use
@@ -26,8 +26,8 @@ devtools_traits
 :
 {
 EvaluateJSReply
-NodeInfo
 Modification
+NodeInfo
 TimelineMarker
 TimelineMarkerType
 }
@@ -104,8 +104,8 @@ InheritTypes
 :
 :
 {
-NodeCast
 ElementCast
+NodeCast
 }
 ;
 use

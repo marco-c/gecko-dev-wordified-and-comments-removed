@@ -129,8 +129,8 @@ node
 :
 :
 {
-window_from_node
 Node
+window_from_node
 }
 ;
 use
@@ -168,8 +168,8 @@ types
 :
 :
 {
-Encoding
 DecoderTrap
+Encoding
 }
 ;
 use
@@ -215,8 +215,8 @@ mime
 :
 {
 Mime
-TopLevel
 SubLevel
+TopLevel
 }
 ;
 use
@@ -245,8 +245,8 @@ net_traits
 :
 :
 {
-Metadata
 AsyncResponseListener
+Metadata
 }
 ;
 use
@@ -266,8 +266,8 @@ script_task
 :
 :
 {
-ScriptTask
 ScriptChan
+ScriptTask
 }
 ;
 use

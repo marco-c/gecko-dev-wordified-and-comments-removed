@@ -32,8 +32,8 @@ rand
 :
 {
 Rng
-weak_rng
 XorShiftRng
+weak_rng
 }
 ;
 use
@@ -62,9 +62,9 @@ mpsc
 :
 :
 {
-channel
-Sender
 Receiver
+Sender
+channel
 }
 ;
 use

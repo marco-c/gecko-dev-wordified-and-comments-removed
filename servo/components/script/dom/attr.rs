@@ -90,9 +90,9 @@ js
 :
 :
 {
+LayoutJS
 Root
 RootedReference
-LayoutJS
 }
 ;
 use

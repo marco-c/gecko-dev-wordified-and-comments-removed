@@ -30,8 +30,8 @@ euclid
 :
 :
 {
-Size2D
 Point2D
+Size2D
 }
 ;
 use

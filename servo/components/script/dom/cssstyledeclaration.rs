@@ -33,8 +33,8 @@ InheritTypes
 :
 :
 {
-NodeCast
 ElementCast
+NodeCast
 }
 ;
 use
@@ -103,8 +103,8 @@ element
 :
 :
 {
-StylePriority
 Element
+StylePriority
 }
 ;
 use
@@ -115,9 +115,9 @@ node
 :
 :
 {
-window_from_node
-document_from_node
 NodeDamage
+document_from_node
+window_from_node
 }
 ;
 use

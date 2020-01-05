@@ -102,8 +102,8 @@ error
 :
 :
 {
-Fallible
 ErrorResult
+Fallible
 }
 ;
 use
@@ -117,8 +117,8 @@ global
 :
 :
 {
-GlobalRef
 GlobalField
+GlobalRef
 }
 ;
 use
@@ -259,8 +259,9 @@ jsapi
 :
 :
 {
-JSAutoRequest
-JSAutoCompartment
+HandleValue
+JSContext
+RootedValue
 }
 ;
 use
@@ -271,9 +272,8 @@ jsapi
 :
 :
 {
-JSContext
-HandleValue
-RootedValue
+JSAutoCompartment
+JSAutoRequest
 }
 ;
 use
@@ -290,8 +290,8 @@ script_task
 :
 :
 {
-ScriptChan
 Runnable
+ScriptChan
 }
 ;
 use
@@ -314,8 +314,8 @@ mpsc
 :
 :
 {
-channel
 Sender
+channel
 }
 ;
 use
