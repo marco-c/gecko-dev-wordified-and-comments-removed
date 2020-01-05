@@ -27678,7 +27678,7 @@ uint32_t
 )
 ;
 }
-int32_t
+uint32_t
 selEnd
 selStart
 ;
@@ -27799,7 +27799,7 @@ uint32_t
 )
 ;
 }
-int32_t
+uint32_t
 selEnd
 selStart
 ;
@@ -27928,10 +27928,10 @@ HTMLInputElement
 :
 GetSelectionRange
 (
-int32_t
+uint32_t
 *
 aSelectionStart
-int32_t
+uint32_t
 *
 aSelectionEnd
 ErrorResult

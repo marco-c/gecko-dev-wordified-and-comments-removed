@@ -2625,12 +2625,12 @@ return
 NS_OK
 ;
 }
-int32_t
+uint32_t
 start
 =
 0
 ;
-int32_t
+uint32_t
 end
 =
 0
@@ -3475,7 +3475,7 @@ rv
 rv
 )
 ;
-int32_t
+uint32_t
 start
 end
 ;
@@ -3550,9 +3550,9 @@ ePrevious
 aCollapsedAction
 &
 &
-0
-<
 start
+>
+0
 )
 {
 mPasswordText
@@ -5104,7 +5104,7 @@ return
 rv
 ;
 }
-int32_t
+uint32_t
 start
 end
 ;
@@ -5135,7 +5135,7 @@ GetComposition
 (
 )
 ;
-int32_t
+uint32_t
 oldCompStrLength
 =
 composition
@@ -5154,7 +5154,7 @@ Length
 0
 ;
 const
-int32_t
+uint32_t
 selectionLength
 =
 end
@@ -5323,7 +5323,7 @@ TextEditRules
 :
 RemoveIMETextFromPWBuf
 (
-int32_t
+uint32_t
 &
 aStart
 nsAString
@@ -5471,7 +5471,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-int32_t
+uint32_t
 start
 end
 ;
