@@ -38,6 +38,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 GIVING
 :
@@ -57,6 +59,8 @@ TAKING
 recv
 __delete__
 ;
+*
+/
 }
 ;
 }

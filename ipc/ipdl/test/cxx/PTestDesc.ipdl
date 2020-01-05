@@ -50,6 +50,8 @@ PTestDescSubsub
 a
 )
 ;
+/
+*
 state
 CONSTRUCT
 :
@@ -80,6 +82,8 @@ DEAD
 send
 __delete__
 ;
+*
+/
 }
 ;
 }

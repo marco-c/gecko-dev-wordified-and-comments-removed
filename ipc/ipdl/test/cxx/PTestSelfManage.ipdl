@@ -31,6 +31,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 LIVE
 :
@@ -42,6 +44,8 @@ LIVE
 send
 __delete__
 ;
+*
+/
 }
 ;
 }

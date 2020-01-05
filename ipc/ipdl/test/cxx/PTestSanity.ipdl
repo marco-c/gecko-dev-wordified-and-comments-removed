@@ -38,6 +38,8 @@ uint8_t
 dummy
 )
 ;
+/
+*
 state
 PING
 :
@@ -60,6 +62,8 @@ DEAD
 send
 __delete__
 ;
+*
+/
 }
 ;
 }

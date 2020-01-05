@@ -43,6 +43,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 CREATING
 :
@@ -70,6 +72,8 @@ DEAD
 recv
 __delete__
 ;
+*
+/
 }
 ;
 }

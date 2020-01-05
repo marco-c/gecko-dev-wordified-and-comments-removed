@@ -52,6 +52,8 @@ A_
 (
 )
 ;
+/
+*
 state
 PARENT_START
 :
@@ -114,6 +116,8 @@ DYING
 send
 __delete__
 ;
+*
+/
 }
 ;
 }

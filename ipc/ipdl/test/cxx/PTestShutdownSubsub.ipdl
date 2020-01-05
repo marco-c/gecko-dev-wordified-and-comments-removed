@@ -1,10 +1,6 @@
 include
 protocol
-"
 PTestShutdownSub
-.
-ipdl
-"
 ;
 namespace
 mozilla
@@ -26,12 +22,16 @@ __delete__
 (
 )
 ;
+/
+*
 state
 LIVE
 :
 recv
 __delete__
 ;
+*
+/
 }
 ;
 }

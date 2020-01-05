@@ -94,6 +94,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 ALIVE
 :
@@ -108,6 +110,8 @@ CRASH
 send
 __delete__
 ;
+*
+/
 }
 ;
 }

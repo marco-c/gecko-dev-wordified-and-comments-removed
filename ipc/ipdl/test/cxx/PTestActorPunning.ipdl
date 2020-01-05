@@ -85,6 +85,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 PING
 :
@@ -131,6 +133,8 @@ DEAD
 recv
 __delete__
 ;
+*
+/
 }
 ;
 }

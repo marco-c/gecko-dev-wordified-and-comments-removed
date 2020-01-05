@@ -27,6 +27,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 CONSTRUCT
 :
@@ -41,6 +43,8 @@ DEAD
 send
 __delete__
 ;
+*
+/
 }
 ;
 }

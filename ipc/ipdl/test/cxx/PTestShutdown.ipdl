@@ -93,6 +93,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 START
 :
@@ -120,6 +122,8 @@ DYING
 recv
 __delete__
 ;
+*
+/
 }
 ;
 }

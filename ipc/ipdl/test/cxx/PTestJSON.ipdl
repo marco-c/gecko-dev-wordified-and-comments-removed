@@ -129,6 +129,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 START
 :
@@ -153,6 +155,8 @@ TEST
 recv
 __delete__
 ;
+*
+/
 }
 ;
 }

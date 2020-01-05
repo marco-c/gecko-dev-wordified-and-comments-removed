@@ -27,6 +27,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 START
 :
@@ -49,6 +51,8 @@ DEAD
 recv
 __delete__
 ;
+*
+/
 }
 ;
 }
