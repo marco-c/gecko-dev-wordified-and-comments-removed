@@ -47,12 +47,6 @@ nsCharProps2
 {
 unsigned
 char
-mPairedBracketType
-:
-2
-;
-unsigned
-char
 mVertOrient
 :
 2
