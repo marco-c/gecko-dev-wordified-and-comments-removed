@@ -31,7 +31,7 @@ specified
 :
 {
 ViewportPercentageLength
-Length
+NoCalcLength
 }
 ;
 use
@@ -64,7 +64,7 @@ length_has_viewport_percentage
 let
 l
 =
-Length
+NoCalcLength
 :
 :
 ViewportPercentage
@@ -92,7 +92,7 @@ has_viewport_percentage
 let
 l
 =
-Length
+NoCalcLength
 :
 :
 Absolute

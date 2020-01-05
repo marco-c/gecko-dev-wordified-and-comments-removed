@@ -2933,6 +2933,7 @@ specified
 {
 LengthOrPercentage
 Length
+NoCalcLength
 Percentage
 }
 ;
@@ -3131,7 +3132,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 FontRelative
@@ -3161,7 +3162,7 @@ LengthOrPercentage
 :
 Length
 (
-Length
+NoCalcLength
 :
 :
 ServoCharacterWidth
@@ -3420,10 +3421,7 @@ expect_ident
 )
 )
 ;
-specified
-:
-:
-Length
+NoCalcLength
 :
 :
 from_str

@@ -49,6 +49,7 @@ specified
 :
 {
 Length
+NoCalcLength
 ViewportPercentageLength
 }
 ;
@@ -85,6 +86,11 @@ from_length
 Length
 :
 :
+NoCalc
+(
+NoCalcLength
+:
+:
 ViewportPercentage
 (
 ViewportPercentageLength
@@ -94,6 +100,7 @@ Vw
 (
 100
 .
+)
 )
 )
 )
@@ -134,11 +141,17 @@ from_length
 Length
 :
 :
+NoCalc
+(
+NoCalcLength
+:
+:
 Absolute
 (
 Au
 (
 100
+)
 )
 )
 )
