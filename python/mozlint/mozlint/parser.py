@@ -32,6 +32,8 @@ and
 validates
 .
 lint
+.
+py
 files
 .
 "
@@ -494,6 +496,8 @@ endswith
 '
 .
 lint
+.
+py
 '
 )
 :
@@ -512,6 +516,8 @@ with
 '
 .
 lint
+.
+py
 '
 !
 "
