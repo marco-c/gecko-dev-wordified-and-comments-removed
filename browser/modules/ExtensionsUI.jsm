@@ -1067,10 +1067,10 @@ name
 )
 ;
 let
-addonLabel
+addonName
 =
 <
-label
+span
 class
 =
 "
@@ -1086,7 +1086,7 @@ name
 }
 <
 /
-label
+span
 >
 ;
 let
@@ -1109,7 +1109,7 @@ webextPerms
 header
 "
 [
-addonLabel
+addonName
 ]
 )
 ;
@@ -1221,7 +1221,7 @@ webextPerms
 sideloadHeader
 "
 [
-addonLabel
+addonName
 ]
 )
 ;
@@ -1329,7 +1329,7 @@ webextPerms
 updateText
 "
 [
-addonLabel
+addonName
 ]
 )
 ;
@@ -2122,10 +2122,10 @@ name
 )
 ;
 let
-addonLabel
+addonName
 =
 <
-label
+span
 class
 =
 "
@@ -2141,7 +2141,7 @@ name
 }
 <
 /
-label
+span
 >
 ;
 let
@@ -2228,7 +2228,7 @@ addonPostInstall
 message1
 "
 [
-addonLabel
+addonName
 appName
 ]
 )
