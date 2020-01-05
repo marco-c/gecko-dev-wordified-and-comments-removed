@@ -212,7 +212,7 @@ with
 Files
 (
 '
-nsBRFrame
+BRFrame
 .
 *
 '
@@ -840,6 +840,11 @@ BlockReflowInput
 cpp
 '
 '
+BRFrame
+.
+cpp
+'
+'
 CSSAlignUtils
 .
 cpp
@@ -876,11 +881,6 @@ cpp
 '
 '
 nsBlockReflowContext
-.
-cpp
-'
-'
-nsBRFrame
 .
 cpp
 '

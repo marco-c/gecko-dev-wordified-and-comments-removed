@@ -79,6 +79,9 @@ using
 namespace
 mozilla
 ;
+namespace
+mozilla
+{
 class
 BRFrame
 :
@@ -91,6 +94,8 @@ NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
+:
+:
 NS_NewBRFrame
 (
 nsIPresShell
@@ -323,6 +328,7 @@ mAscent
 ;
 }
 ;
+}
 nsIFrame
 *
 NS_NewBRFrame
