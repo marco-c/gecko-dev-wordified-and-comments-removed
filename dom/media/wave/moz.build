@@ -99,11 +99,6 @@ WaveDemuxer
 .
 h
 '
-'
-WaveReader
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -116,11 +111,6 @@ cpp
 '
 '
 WaveDemuxer
-.
-cpp
-'
-'
-WaveReader
 .
 cpp
 '
