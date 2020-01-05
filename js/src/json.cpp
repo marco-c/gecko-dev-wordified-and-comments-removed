@@ -118,6 +118,13 @@ h
 #
 include
 "
+jsarrayinlines
+.
+h
+"
+#
+include
+"
 jsatominlines
 .
 h
@@ -2582,7 +2589,6 @@ GetElement
 (
 cx
 obj
-obj
 i
 &
 outputValue
@@ -3340,7 +3346,6 @@ if
 GetElement
 (
 cx
-replacer
 replacer
 k
 &
