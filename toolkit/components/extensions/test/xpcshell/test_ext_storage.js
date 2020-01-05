@@ -1099,9 +1099,12 @@ Promise
 resolve
 =
 >
+{
 gResolve
 =
 resolve
+;
+}
 )
 ;
 }
