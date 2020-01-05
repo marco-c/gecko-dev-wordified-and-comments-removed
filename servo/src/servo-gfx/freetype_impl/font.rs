@@ -183,7 +183,7 @@ FontTableMethods
 fn
 with_buffer
 (
-blk
+_blk
 :
 fn
 &

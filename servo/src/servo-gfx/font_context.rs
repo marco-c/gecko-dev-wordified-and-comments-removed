@@ -398,6 +398,13 @@ new
 )
 }
 }
+#
+[
+allow
+(
+non_implicitly_copyable_typarams
+)
+]
 pub
 struct
 FontContext
@@ -437,6 +444,13 @@ str
 str
 >
 }
+#
+[
+allow
+(
+non_implicitly_copyable_typarams
+)
+]
 pub
 impl
 FontContext

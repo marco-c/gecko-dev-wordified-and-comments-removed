@@ -13,7 +13,6 @@ A
 Owned
 >
 (
-+
 f
 :
 fn
@@ -128,7 +127,6 @@ B
 Owned
 >
 (
-+
 f
 :
 fn

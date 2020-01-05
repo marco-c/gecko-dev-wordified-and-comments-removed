@@ -1281,6 +1281,13 @@ else
 UnknownElement
 }
 }
+#
+[
+allow
+(
+non_implicitly_copyable_typarams
+)
+]
 pub
 fn
 parse_html
