@@ -8178,9 +8178,7 @@ false
 ;
 }
 }
-if
-(
-!
+return
 c
 .
 buffer
@@ -8194,12 +8192,6 @@ append
 n
 "
 )
-)
-return
-false
-;
-return
-true
 ;
 }
 static
@@ -9082,9 +9074,7 @@ false
 ;
 }
 }
-if
-(
-!
+return
 c
 .
 buffer
@@ -9097,12 +9087,6 @@ append
 n
 "
 )
-)
-return
-false
-;
-return
-true
 ;
 }
 static
