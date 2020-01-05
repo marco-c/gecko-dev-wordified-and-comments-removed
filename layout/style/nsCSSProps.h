@@ -1241,6 +1241,7 @@ EnabledState
 struct
 KTableEntry
 {
+constexpr
 KTableEntry
 (
 nsCSSKeyword
@@ -1286,6 +1287,7 @@ value
 :
 type
 >
+constexpr
 KTableEntry
 (
 nsCSSKeyword
