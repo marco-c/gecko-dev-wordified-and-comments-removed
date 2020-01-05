@@ -5818,6 +5818,13 @@ onmouseleave
 )
 GK_ATOM
 (
+onmouselongtap
+"
+onmouselongtap
+"
+)
+GK_ATOM
+(
 onmousemove
 "
 onmousemove
