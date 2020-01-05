@@ -128,6 +128,10 @@ cssparser
 ;
 extern
 crate
+deque
+;
+extern
+crate
 encoding
 ;
 extern
@@ -183,6 +187,10 @@ extern
 crate
 lazy_static
 ;
+extern
+crate
+libc
+;
 #
 [
 macro_use
@@ -209,6 +217,10 @@ matches
 extern
 crate
 num_traits
+;
+extern
+crate
+rand
 ;
 extern
 crate
@@ -359,6 +371,10 @@ servo
 ;
 pub
 mod
+sink
+;
+pub
+mod
 stylesheets
 ;
 pub
@@ -383,6 +399,10 @@ values
 pub
 mod
 viewport
+;
+pub
+mod
+workqueue
 ;
 #
 [

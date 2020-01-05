@@ -842,12 +842,6 @@ parse_author_origin_selector_list_from_str
 }
 ;
 use
-smallvec
-:
-:
-VecLike
-;
-use
 std
 :
 :
@@ -1010,6 +1004,15 @@ selector_impl
 NonTSPseudoClass
 ServoSelectorImpl
 }
+;
+use
+style
+:
+:
+sink
+:
+:
+Push
 ;
 use
 style
@@ -2257,7 +2260,7 @@ V
 where
 V
 :
-VecLike
+Push
 <
 DeclarationBlock
 <
@@ -2583,7 +2586,7 @@ V
 where
 V
 :
-VecLike
+Push
 <
 DeclarationBlock
 <

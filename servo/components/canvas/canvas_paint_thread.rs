@@ -160,15 +160,6 @@ thread
 spawn_named
 ;
 use
-util
-:
-:
-vec
-:
-:
-byte_swap
-;
-use
 webrender_traits
 ;
 impl
