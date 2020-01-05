@@ -237,9 +237,6 @@ GeckoCppUnitTests
 (
 [
 '
-TestFile
-'
-'
 TestHashtables
 '
 '
