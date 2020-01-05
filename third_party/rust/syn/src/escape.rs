@@ -17,7 +17,7 @@ num
 ParseIntError
 ;
 use
-nom
+synom
 :
 :
 IResult
@@ -1896,6 +1896,8 @@ cfg_attr
 feature
 =
 "
+cargo
+-
 clippy
 "
 allow
@@ -2011,6 +2013,8 @@ cfg_attr
 feature
 =
 "
+cargo
+-
 clippy
 "
 allow
@@ -2155,6 +2159,8 @@ cfg_attr
 feature
 =
 "
+cargo
+-
 clippy
 "
 allow

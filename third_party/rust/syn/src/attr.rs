@@ -423,6 +423,9 @@ parsing
 lit
 ;
 use
+synom
+:
+:
 space
 :
 :
@@ -739,16 +742,12 @@ punct
 not
 !
 (
-peek
-!
-(
 tag
 !
 (
 "
 /
 "
-)
 )
 )
 >
