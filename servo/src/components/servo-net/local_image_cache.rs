@@ -161,6 +161,7 @@ pub
 impl
 LocalImageCache
 {
+pub
 fn
 next_round
 (
@@ -664,7 +665,9 @@ Url
 mut
 ImageState
 {
-*
+let
+state
+=
 do
 self
 .
@@ -704,5 +707,8 @@ ImageNotReady
 ;
 new_state
 }
+;
+*
+state
 }
 }
