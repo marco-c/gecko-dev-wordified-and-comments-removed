@@ -101,6 +101,13 @@ jittest
 timeouts
 .
 txt
+-
+-
+unusable
+-
+error
+-
+status
 "
 "
 JSTESTS_EXTRA_ARGS

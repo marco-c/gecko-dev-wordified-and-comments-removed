@@ -3044,6 +3044,22 @@ err
 return
 True
         
+if
+test
+.
+expect_status
+!
+=
+0
+and
+options
+.
+unusable_error_status
+:
+            
+return
+True
+        
 return
 False
     
