@@ -134,6 +134,10 @@ arm_api15
 =
 0b01111000001000000001001001110001
         
+arm64_api21
+=
+0b01111000001000000001001001110100
+        
 x86_api9
 =
 0b01111000001000000001001001110100
@@ -160,6 +164,30 @@ max_sdk
 None
 )
 arm_api15
+)
+        
+self
+.
+assertEqual
+(
+android_version_code_v1
+(
+buildid
+cpu_arch
+=
+'
+arm64
+-
+v8a
+'
+min_sdk
+=
+21
+max_sdk
+=
+None
+)
+arm64_api21
 )
         
 self
