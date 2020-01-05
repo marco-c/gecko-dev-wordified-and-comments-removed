@@ -145,7 +145,6 @@ id
 :
 messageId
 exceptionDocURL
-frame
 }
 =
 message
@@ -214,7 +213,6 @@ props
 autoscroll
 serviceContainer
 exceptionDocURL
-frame
 }
 ;
 return

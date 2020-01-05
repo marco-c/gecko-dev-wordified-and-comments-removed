@@ -584,9 +584,17 @@ tooltip
 =
 long
 ;
+const
+shouldDisplayLine
+=
+isLinkable
+&
+&
+line
+;
 if
 (
-line
+shouldDisplayLine
 )
 {
 tooltip
@@ -780,7 +788,7 @@ displaySource
 ;
 if
 (
-line
+shouldDisplayLine
 )
 {
 let
