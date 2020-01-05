@@ -5385,10 +5385,6 @@ neededDisplacement
 )
 ;
 }
-ScheduleComposite
-(
-)
-;
 if
 (
 !
@@ -5456,6 +5452,10 @@ UpdateSharedCompositorFrameMetrics
 )
 ;
 }
+ScheduleComposite
+(
+)
+;
 mLastZoomFocus
 =
 focusPoint
