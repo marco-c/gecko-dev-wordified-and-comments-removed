@@ -269,6 +269,13 @@ jstraceable
 [
 privatize
 ]
+#
+[
+allow
+(
+raw_pointer_derive
+)
+]
 pub
 struct
 BrowserContext
