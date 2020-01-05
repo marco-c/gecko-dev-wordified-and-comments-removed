@@ -423,6 +423,10 @@ layout_task
 from_master
 resource_task
 img_cache_task
+.
+clone
+(
+)
 )
 ;
 compositor
@@ -879,6 +883,10 @@ resource_task
 self
 .
 image_cache_task
+.
+clone
+(
+)
 )
 ;
 let

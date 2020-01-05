@@ -345,6 +345,10 @@ Layout
 (
 render_task
 img_cache_task
+.
+clone
+(
+)
 from_content
 )
 .
@@ -840,6 +844,10 @@ image_cache
 self
 .
 image_cache_task
+.
+clone
+(
+)
 font_cache
 :
 self
