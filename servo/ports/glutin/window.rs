@@ -99,12 +99,6 @@ use
 std
 :
 :
-mem
-;
-use
-std
-:
-:
 rc
 :
 :
@@ -2086,6 +2080,12 @@ Vec
 WindowEvent
 >
 {
+use
+std
+:
+:
+mem
+;
 let
 mut
 events
