@@ -486,6 +486,10 @@ tinyfiledialogs
 ;
 extern
 crate
+unicode_segmentation
+;
+extern
+crate
 url
 ;
 extern
