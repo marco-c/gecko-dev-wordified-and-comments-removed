@@ -457,6 +457,8 @@ createGenerated
 (
 favicon
 color
+&
+0x7FFFFFFF
 )
 ;
 }

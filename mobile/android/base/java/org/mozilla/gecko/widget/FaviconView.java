@@ -467,8 +467,6 @@ sBackgroundPaint
 setColor
 (
 mDominantColor
-&
-0x7FFFFFFF
 )
 ;
 if

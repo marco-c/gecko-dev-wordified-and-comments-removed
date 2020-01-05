@@ -226,6 +226,8 @@ assertEquals
 Color
 .
 RED
+&
+0x7FFFFFFF
 response
 .
 getColor
