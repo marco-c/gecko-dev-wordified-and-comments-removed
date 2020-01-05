@@ -299,6 +299,15 @@ GetActive
 )
 const
 ;
+ServiceWorkerInfo
+*
+GetByID
+(
+uint64_t
+aID
+)
+const
+;
 void
 SetEvaluating
 (
