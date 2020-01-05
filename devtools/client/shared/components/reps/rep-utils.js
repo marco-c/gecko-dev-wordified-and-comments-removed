@@ -174,15 +174,8 @@ if
 (
 !
 limit
-)
-{
-limit
-=
-50
-;
-}
-if
-(
+|
+|
 limit
 <
 =
