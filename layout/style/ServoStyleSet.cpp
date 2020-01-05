@@ -3665,7 +3665,7 @@ bool
 ServoStyleSet
 :
 :
-FillKeyframesForName
+GetKeyframesForName
 (
 const
 nsString
@@ -3698,7 +3698,7 @@ aName
 )
 ;
 return
-Servo_StyleSet_FillKeyframesForName
+Servo_StyleSet_GetKeyframesForName
 (
 mRawSet
 .

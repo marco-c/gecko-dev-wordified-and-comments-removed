@@ -191,7 +191,7 @@ author_style_disabled
 )
 SERVO_BINDING_FUNC
 (
-Servo_StyleSet_FillKeyframesForName
+Servo_StyleSet_GetKeyframesForName
 bool
 RawServoStyleSetBorrowed
 set
