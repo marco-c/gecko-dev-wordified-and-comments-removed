@@ -706,6 +706,17 @@ Viewport
 ProfilerCategory
 :
 :
+ScriptTimerEvent
+=
+>
+"
+Script
+Timer
+Event
+"
+ProfilerCategory
+:
+:
 ScriptWebSocketEvent
 =
 >

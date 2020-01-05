@@ -218,6 +218,7 @@ ScriptResize
 ScriptEvent
 ScriptUpdateReplacedElement
 ScriptSetViewport
+ScriptTimerEvent
 ScriptWebSocketEvent
 ScriptWorkerEvent
 ScriptXhrEvent
