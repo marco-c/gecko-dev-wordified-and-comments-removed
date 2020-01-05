@@ -903,13 +903,6 @@ aWarning
 )
 ;
 void
-RecordFrameSizeTelemetry
-(
-uint32_t
-aPixelArea
-)
-;
-void
 CalculateCumulativeChangeHint
 (
 nsStyleContext
@@ -1297,11 +1290,6 @@ mBaseStyleValuesForServo
 ;
 bool
 mRecordedContentTooLarge
-=
-false
-;
-bool
-mRecordedFrameSize
 =
 false
 ;
