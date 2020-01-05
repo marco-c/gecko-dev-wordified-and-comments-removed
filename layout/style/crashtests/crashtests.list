@@ -509,6 +509,15 @@ if
 (
 stylo
 )
+asserts
+-
+if
+(
+stylo
+3
+-
+4
+)
 =
 =
 645951
@@ -523,6 +532,9 @@ html
 ref
 .
 html
+#
+bug
+1324621
 load
 652976
 -
@@ -579,7 +591,7 @@ asserts
 if
 (
 stylo
-2
+4
 )
 load
 700116
@@ -1253,6 +1265,13 @@ load
 1
 .
 html
+asserts
+-
+if
+(
+stylo
+2
+)
 pref
 (
 dom
@@ -1272,6 +1291,9 @@ load
 2
 .
 html
+#
+bug
+1324686
 pref
 (
 dom
@@ -1394,7 +1416,7 @@ asserts
 if
 (
 stylo
-1
+4
 )
 HTTP
 load
@@ -1403,6 +1425,3 @@ load
 1
 .
 html
-#
-bug
-1324702
