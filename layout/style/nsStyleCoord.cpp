@@ -1735,7 +1735,7 @@ result
 \
 static_assert
 (
-NS_SIDE_TO_FULL_CORNER
+SideToFullCorner
 (
 side
 second
@@ -1745,7 +1745,7 @@ second
 result
 \
 "
-NS_SIDE_TO_FULL_CORNER
+SideToFullCorner
 is
 wrong
 "
