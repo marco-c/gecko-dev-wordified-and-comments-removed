@@ -2449,7 +2449,7 @@ bool
 nsLayoutUtils
 :
 :
-HasActiveAnimationOfProperty
+HasCurrentAnimationOfProperty
 (
 const
 nsIFrame
@@ -2477,13 +2477,6 @@ return
 aEffect
 .
 IsCurrent
-(
-)
-&
-&
-aEffect
-.
-IsInEffect
 (
 )
 &
@@ -2780,7 +2773,6 @@ propIdx
 ;
 )
 {
-const
 AnimationProperty
 &
 prop
@@ -2827,7 +2819,6 @@ segIdx
 ;
 )
 {
-const
 AnimationPropertySegment
 &
 segment
