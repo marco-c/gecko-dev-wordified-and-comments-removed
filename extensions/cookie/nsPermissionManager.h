@@ -837,11 +837,6 @@ int64_t
 aModificationTime
 )
 ;
-nsresult
-FetchPermissions
-(
-)
-;
 nsCOMPtr
 <
 mozIStorageConnection
@@ -883,6 +878,12 @@ nsTArray
 nsCString
 >
 mTypeArray
+;
+nsTHashtable
+<
+nsCStringHashKey
+>
+mAvailablePermissionKeys
 ;
 bool
 mIsShuttingDown
