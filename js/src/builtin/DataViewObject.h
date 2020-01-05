@@ -1079,10 +1079,6 @@ args
 NativeType
 *
 val
-const
-char
-*
-method
 )
 ;
 template
@@ -1107,10 +1103,6 @@ const
 CallArgs
 &
 args
-const
-char
-*
-method
 )
 ;
 void

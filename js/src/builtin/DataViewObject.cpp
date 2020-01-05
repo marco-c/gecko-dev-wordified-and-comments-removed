@@ -2369,10 +2369,6 @@ args
 NativeType
 *
 val
-const
-char
-*
-method
 )
 {
 uint64_t
@@ -2690,10 +2686,6 @@ const
 CallArgs
 &
 args
-const
-char
-*
-method
 )
 {
 uint64_t
@@ -2969,9 +2961,6 @@ thisView
 args
 &
 val
-"
-getInt8
-"
 )
 )
 return
@@ -3096,9 +3085,6 @@ thisView
 args
 &
 val
-"
-getUint8
-"
 )
 )
 return
@@ -3223,9 +3209,6 @@ thisView
 args
 &
 val
-"
-getInt16
-"
 )
 )
 return
@@ -3350,9 +3333,6 @@ thisView
 args
 &
 val
-"
-getUint16
-"
 )
 )
 return
@@ -3477,9 +3457,6 @@ thisView
 args
 &
 val
-"
-getInt32
-"
 )
 )
 return
@@ -3604,9 +3581,6 @@ thisView
 args
 &
 val
-"
-getUint32
-"
 )
 )
 return
@@ -3731,9 +3705,6 @@ thisView
 args
 &
 val
-"
-getFloat32
-"
 )
 )
 return
@@ -3861,9 +3832,6 @@ thisView
 args
 &
 val
-"
-getFloat64
-"
 )
 )
 return
@@ -3989,9 +3957,6 @@ int8_t
 cx
 thisView
 args
-"
-setInt8
-"
 )
 )
 return
@@ -4113,9 +4078,6 @@ uint8_t
 cx
 thisView
 args
-"
-setUint8
-"
 )
 )
 return
@@ -4237,9 +4199,6 @@ int16_t
 cx
 thisView
 args
-"
-setInt16
-"
 )
 )
 return
@@ -4361,9 +4320,6 @@ uint16_t
 cx
 thisView
 args
-"
-setUint16
-"
 )
 )
 return
@@ -4485,9 +4441,6 @@ int32_t
 cx
 thisView
 args
-"
-setInt32
-"
 )
 )
 return
@@ -4609,9 +4562,6 @@ uint32_t
 cx
 thisView
 args
-"
-setUint32
-"
 )
 )
 return
@@ -4733,9 +4683,6 @@ float
 cx
 thisView
 args
-"
-setFloat32
-"
 )
 )
 return
@@ -4857,9 +4804,6 @@ double
 cx
 thisView
 args
-"
-setFloat64
-"
 )
 )
 return
