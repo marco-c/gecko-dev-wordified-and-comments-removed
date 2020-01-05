@@ -1847,22 +1847,6 @@ debugger
         
 if
 "
-MOZ_WIN_INHERIT_STD_HANDLES_PRE_VISTA
-"
-in
-browserEnv
-:
-            
-del
-browserEnv
-[
-"
-MOZ_WIN_INHERIT_STD_HANDLES_PRE_VISTA
-"
-]
-        
-if
-"
 XPCOM_MEM_BLOAT_LOG
 "
 in

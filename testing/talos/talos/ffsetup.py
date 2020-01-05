@@ -380,19 +380,6 @@ MOZ_CRASHREPORTER_NO_REPORT
 1
 '
         
-self
-.
-env
-[
-'
-MOZ_WIN_INHERIT_STD_HANDLES_PRE_VISTA
-'
-]
-=
-'
-1
-'
-        
 if
 self
 .
