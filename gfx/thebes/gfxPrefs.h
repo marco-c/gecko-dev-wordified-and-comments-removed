@@ -4085,7 +4085,7 @@ bool
 false
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Live
 "
@@ -4098,8 +4098,12 @@ outline
 layers
 "
 LayersAllowOutlineLayers
-bool
-false
+gfxPrefs
+:
+:
+OverrideBase_WebRender
+(
+)
 )
 ;
 DECL_GFX_PREF
