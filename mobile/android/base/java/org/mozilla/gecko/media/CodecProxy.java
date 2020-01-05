@@ -342,7 +342,7 @@ fatal
 )
 ;
 }
-public
+private
 void
 reportError
 (
