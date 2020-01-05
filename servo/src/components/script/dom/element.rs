@@ -1666,10 +1666,6 @@ self
 .
 tag_name
 .
-to_owned
-(
-)
-.
 to_ascii_upper
 (
 )
