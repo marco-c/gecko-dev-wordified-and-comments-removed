@@ -2381,19 +2381,8 @@ GeckoRestyleManager
 :
 PostRestyleEventInternal
 (
-bool
-aForLazyConstruction
 )
 {
-bool
-inRefresh
-=
-!
-aForLazyConstruction
-&
-&
-mInStyleRefresh
-;
 nsIPresShell
 *
 presShell
@@ -2410,7 +2399,7 @@ PresShell
 if
 (
 !
-inRefresh
+mInStyleRefresh
 )
 {
 presShell
@@ -2519,7 +2508,6 @@ true
 }
 PostRestyleEventInternal
 (
-false
 )
 ;
 }
@@ -2598,7 +2586,6 @@ aRestyleHint
 ;
 PostRestyleEventInternal
 (
-false
 )
 ;
 }
