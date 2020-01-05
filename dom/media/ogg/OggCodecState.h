@@ -812,8 +812,7 @@ aFoundGranulepos
 ;
 nsTArray
 <
-ogg_packet
-*
+OggPacketPtr
 >
 mUnstamped
 ;
