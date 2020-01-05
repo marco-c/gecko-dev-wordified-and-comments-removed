@@ -127,12 +127,6 @@ windowing
 WindowEvent
 ;
 use
-net_traits
-:
-:
-hosts
-;
-use
 servo
 :
 :
@@ -206,13 +200,6 @@ _
 as_slice
 (
 )
-)
-;
-hosts
-:
-:
-global_init
-(
 )
 ;
 let
