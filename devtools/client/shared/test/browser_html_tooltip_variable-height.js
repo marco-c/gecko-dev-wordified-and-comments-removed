@@ -246,6 +246,8 @@ shared
 /
 widgets
 /
+tooltip
+/
 HTMLTooltip
 "
 )

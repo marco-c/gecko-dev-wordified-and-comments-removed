@@ -450,6 +450,8 @@ shared
 /
 widgets
 /
+tooltip
+/
 HTMLTooltip
 "
 )

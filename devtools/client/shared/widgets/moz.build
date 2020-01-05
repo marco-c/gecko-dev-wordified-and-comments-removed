@@ -151,11 +151,6 @@ GraphsWorker
 js
 '
 '
-HTMLTooltip
-.
-js
-'
-'
 LineGraphWidget
 .
 js
@@ -187,11 +182,6 @@ js
 '
 '
 TableWidget
-.
-js
-'
-'
-Tooltip
 .
 js
 '

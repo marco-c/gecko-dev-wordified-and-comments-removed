@@ -98,6 +98,11 @@ EventTooltipHelper
 js
 '
 '
+HTMLTooltip
+.
+js
+'
+'
 ImageTooltipHelper
 .
 js
@@ -119,6 +124,11 @@ js
 '
 '
 SwatchFilterTooltip
+.
+js
+'
+'
+Tooltip
 .
 js
 '

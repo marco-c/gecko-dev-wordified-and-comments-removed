@@ -145,6 +145,8 @@ shared
 /
 widgets
 /
+tooltip
+/
 Tooltip
 "
 )

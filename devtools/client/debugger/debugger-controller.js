@@ -958,6 +958,8 @@ shared
 /
 widgets
 /
+tooltip
+/
 Tooltip
 "
 )
