@@ -848,6 +848,9 @@ wrap_runnable
 runnable
 )
 ;
+let
+_
+=
 script_chan
 .
 send
@@ -860,10 +863,6 @@ RunnableMsg
 UpdateReplacedElement
 runnable
 )
-)
-.
-unwrap
-(
 )
 ;
 }
