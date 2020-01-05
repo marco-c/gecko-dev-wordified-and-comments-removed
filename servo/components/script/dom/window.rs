@@ -2336,10 +2336,6 @@ fire_timer
 (
 timer_id
 self
-.
-clone
-(
-)
 )
 ;
 self
