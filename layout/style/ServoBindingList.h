@@ -49,6 +49,10 @@ css
 :
 SheetParsingMode
 parsing_mode
+const
+RawServoMediaList
+*
+media_list
 RawGeckoURLExtraData
 *
 extra_data
