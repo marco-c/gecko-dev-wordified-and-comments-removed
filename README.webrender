@@ -306,9 +306,11 @@ release
 section
 of
 your
-gfx
+toolkit
 /
-webrender
+library
+/
+rust
 /
 Cargo
 .

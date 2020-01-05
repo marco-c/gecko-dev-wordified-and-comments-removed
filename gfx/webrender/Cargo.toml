@@ -335,16 +335,3 @@ text
 .
 0
 "
-[
-profile
-.
-release
-]
-panic
-=
-"
-abort
-"
-debug
-=
-true
