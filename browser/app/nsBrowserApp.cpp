@@ -26,7 +26,9 @@ h
 #
 include
 "
-nsXPCOMGlue
+mozilla
+/
+Bootstrap
 .
 h
 "

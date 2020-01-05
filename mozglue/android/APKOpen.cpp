@@ -212,13 +212,6 @@ XREChildData
 h
 "
 #
-include
-"
-nsXPCOMGlue
-.
-h
-"
-#
 ifndef
 RUSAGE_THREAD
 #

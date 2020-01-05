@@ -157,16 +157,6 @@ Library
 xpcomglue
 '
 )
-EXPORTS
-+
-=
-[
-'
-nsXPCOMGlue
-.
-h
-'
-]
 SDK_LIBRARY
 =
 True
