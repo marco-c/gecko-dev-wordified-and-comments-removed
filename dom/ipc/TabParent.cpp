@@ -3085,11 +3085,6 @@ frameLoader
 success
 )
 ;
-MOZ_ASSERT
-(
-success
-)
-;
 layersId
 =
 renderFrame
