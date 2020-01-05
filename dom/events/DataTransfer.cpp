@@ -1439,12 +1439,12 @@ item
 Kind
 (
 )
-=
+!
 =
 DataTransferItem
 :
 :
-KIND_STRING
+KIND_FILE
 |
 |
 type
