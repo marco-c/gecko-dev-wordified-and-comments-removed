@@ -778,6 +778,15 @@ aContent
 )
 ;
 static
+bool
+IsMissingDisplayPortBaseRect
+(
+nsIContent
+*
+aContent
+)
+;
+static
 void
 UpdateDisplayPortMarginsFromPendingMessages
 (
