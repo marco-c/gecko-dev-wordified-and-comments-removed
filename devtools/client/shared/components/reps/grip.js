@@ -633,9 +633,7 @@ object
 object
 }
 {
-object
-.
-ownPropertyLength
+propertiesLength
 -
 max
 }
