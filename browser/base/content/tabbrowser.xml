@@ -13676,9 +13676,6 @@ audioPlaybackStarted
 audioPlaybackStopped
 "
 "
-adjustPriority
-"
-"
 pauseMedia
 "
 "
