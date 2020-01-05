@@ -509,7 +509,9 @@ testURL
 )
 ;
 yield
-promiseErrorPageLoaded
+BrowserTestUtils
+.
+waitForErrorPage
 (
 browser
 )
@@ -622,7 +624,9 @@ testURL
 )
 ;
 yield
-promiseErrorPageLoaded
+BrowserTestUtils
+.
+waitForErrorPage
 (
 browser
 )
@@ -803,7 +807,9 @@ testURL
 )
 ;
 yield
-promiseErrorPageLoaded
+BrowserTestUtils
+.
+waitForErrorPage
 (
 browser
 )
