@@ -61,7 +61,7 @@ mozilla
 /
 webrender
 /
-RenderTextureHost
+RenderBufferTextureHost
 .
 h
 "
