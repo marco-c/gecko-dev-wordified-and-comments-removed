@@ -741,8 +741,6 @@ etag
 )
 ;
 }
-else
-{
 return
 reject
 (
@@ -785,7 +783,6 @@ body
 )
 )
 ;
-}
 }
 ;
 if

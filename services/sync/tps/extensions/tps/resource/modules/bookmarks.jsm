@@ -1182,13 +1182,10 @@ return
 1
 ;
 }
-else
-{
 folder_id
 =
 subfolder_id
 ;
-}
 }
 return
 folder_id

@@ -3562,12 +3562,9 @@ return
 false
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 catch
 (
@@ -6967,8 +6964,6 @@ return
 true
 ;
 }
-else
-{
 if
 (
 !
@@ -7046,7 +7041,6 @@ false
 return
 true
 ;
-}
 }
 _shouldLogin
 :
