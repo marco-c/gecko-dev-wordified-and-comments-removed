@@ -234,6 +234,10 @@ isSome
 )
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
 aResult
 .
 Surface
@@ -247,13 +251,6 @@ frameCount
 -
 1
 )
-;
-if
-(
-aResult
-.
-Surface
-(
 )
 &
 &
