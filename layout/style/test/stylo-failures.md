@@ -948,7 +948,7 @@ test_value_storage
 html
 url
 [
-89
+53
 ]
 *
 test_shorthand_property_getters
