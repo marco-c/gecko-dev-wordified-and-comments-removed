@@ -49,8 +49,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -165,7 +165,7 @@ appender
 "
 )
 ;
-yield
+await
 new
 Promise
 (

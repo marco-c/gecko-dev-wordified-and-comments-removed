@@ -23,6 +23,9 @@ false
 gTestPath
 :
 false
+Cu
+:
+false
 }
 rules
 :
