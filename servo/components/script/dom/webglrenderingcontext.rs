@@ -368,6 +368,12 @@ image_cache_task
 ImageResponse
 ;
 use
+offscreen_gl_context
+:
+:
+GLContextAttributes
+;
+use
 std
 :
 :
@@ -423,12 +429,6 @@ vec
 :
 :
 byte_swap
-;
-use
-offscreen_gl_context
-:
-:
-GLContextAttributes
 ;
 pub
 const

@@ -1,4 +1,10 @@
 use
+cssparser
+:
+:
+serialize_identifier
+;
+use
 dom
 :
 :
@@ -45,12 +51,6 @@ str
 :
 :
 DOMString
-;
-use
-cssparser
-:
-:
-serialize_identifier
 ;
 #
 [

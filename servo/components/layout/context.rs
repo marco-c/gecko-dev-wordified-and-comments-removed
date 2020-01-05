@@ -7,6 +7,12 @@ unsafe_code
 )
 ]
 use
+canvas_traits
+:
+:
+CanvasMsg
+;
+use
 css
 :
 :
@@ -17,12 +23,6 @@ matching
 ApplicableDeclarationsCache
 StyleSharingCandidateCache
 }
-;
-use
-canvas_traits
-:
-:
-CanvasMsg
 ;
 use
 euclid

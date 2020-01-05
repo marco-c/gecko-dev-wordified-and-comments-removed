@@ -7,12 +7,6 @@ unsafe_code
 )
 ]
 use
-fragment
-:
-:
-Fragment
-;
-use
 euclid
 :
 :
@@ -21,6 +15,12 @@ Matrix4
 SideOffsets2D
 Size2D
 }
+;
+use
+fragment
+:
+:
+Fragment
 ;
 use
 std

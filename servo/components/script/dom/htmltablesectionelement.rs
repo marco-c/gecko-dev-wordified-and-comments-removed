@@ -1,4 +1,10 @@
 use
+cssparser
+:
+:
+RGBA
+;
+use
 dom
 :
 :
@@ -117,12 +123,6 @@ virtualmethods
 :
 :
 VirtualMethods
-;
-use
-cssparser
-:
-:
-RGBA
 ;
 use
 std

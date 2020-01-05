@@ -1,7 +1,4 @@
 use
-opts
-;
-use
 ipc_channel
 :
 :
@@ -21,6 +18,9 @@ router
 :
 :
 ROUTER
+;
+use
+opts
 ;
 use
 serde

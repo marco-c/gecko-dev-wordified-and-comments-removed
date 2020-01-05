@@ -11,6 +11,12 @@ use
 constellation_msg
 :
 :
+PipelineId
+;
+use
+constellation_msg
+:
+:
 {
 Key
 KeyState
@@ -83,12 +89,6 @@ fmt
 Formatter
 Debug
 }
-;
-use
-constellation_msg
-:
-:
-PipelineId
 ;
 #
 [

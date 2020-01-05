@@ -209,6 +209,12 @@ Serializer
 }
 ;
 use
+std
+:
+:
+thread
+;
+use
 url
 :
 :
@@ -222,12 +228,6 @@ mem
 :
 :
 HeapSizeOf
-;
-use
-std
-:
-:
-thread
 ;
 pub
 mod

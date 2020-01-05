@@ -1,10 +1,4 @@
 use
-geometry
-:
-:
-Au
-;
-use
 cssparser
 :
 :
@@ -13,6 +7,12 @@ self
 RGBA
 Color
 }
+;
+use
+geometry
+:
+:
+Au
 ;
 use
 libc

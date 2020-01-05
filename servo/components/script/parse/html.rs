@@ -279,12 +279,6 @@ FragmentContext
 }
 ;
 use
-parse
-:
-:
-Parser
-;
-use
 encoding
 :
 :
@@ -358,6 +352,12 @@ constellation_msg
 :
 :
 PipelineId
+;
+use
+parse
+:
+:
+Parser
 ;
 use
 std

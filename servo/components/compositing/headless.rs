@@ -17,12 +17,6 @@ Msg
 }
 ;
 use
-windowing
-:
-:
-WindowEvent
-;
-use
 euclid
 :
 :
@@ -83,6 +77,12 @@ profile_traits
 :
 :
 time
+;
+use
+windowing
+:
+:
+WindowEvent
 ;
 pub
 struct
