@@ -372,6 +372,15 @@ ES
 *
 support
 /
+png
+:
+Bindings
+to
+libpng
+.
+*
+support
+/
 sharegl
 :
 A

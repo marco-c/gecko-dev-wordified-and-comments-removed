@@ -84,7 +84,6 @@ libtool
 pkg
 -
 config
-libpng
 On
 OS
 X
@@ -136,9 +135,6 @@ libglib2
 dev
 \
 xorg
--
-dev
-libpng
 -
 dev
 msttcorefonts
