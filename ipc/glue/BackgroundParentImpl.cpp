@@ -589,6 +589,7 @@ protected
 TestParent
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -598,7 +599,6 @@ TestParent
 }
 public
 :
-virtual
 void
 ActorDestroy
 (
@@ -1770,6 +1770,7 @@ private
 InitUDPSocketParentCallback
 (
 )
+override
 =
 default
 ;
@@ -2470,6 +2471,7 @@ private
 CheckPermissionRunnable
 (
 )
+override
 {
 NS_ProxyRelease
 (
