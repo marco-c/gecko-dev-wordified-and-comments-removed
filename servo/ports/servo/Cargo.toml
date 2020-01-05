@@ -334,15 +334,6 @@ libservo
 testing
 "
 ]
-clippy
-=
-[
-"
-libservo
-/
-clippy
-"
-]
 debugmozjs
 =
 [

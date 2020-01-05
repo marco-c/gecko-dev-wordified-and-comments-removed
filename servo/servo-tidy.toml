@@ -155,9 +155,6 @@ packages
 byteorder
 "
 "
-semver
-"
-"
 serde_codegen_internals
 "
 "
