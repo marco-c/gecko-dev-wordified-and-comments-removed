@@ -801,8 +801,6 @@ NodeAdvancer
 <
 '
 a
-'
-b
 >
 =
 |
@@ -817,7 +815,7 @@ Node
 |
 :
 '
-b
+a
 -
 >
 Option
@@ -833,8 +831,6 @@ PrivateTreeWalkerHelpers
 <
 '
 a
-'
-b
 >
 {
 fn
@@ -847,8 +843,6 @@ NodeAdvancer
 <
 '
 a
-'
-b
 >
 next_sibling
 :
@@ -856,8 +850,6 @@ NodeAdvancer
 <
 '
 a
-'
-b
 >
 )
 -
@@ -883,8 +875,6 @@ NodeAdvancer
 <
 '
 a
-'
-b
 >
 next_sibling
 :
@@ -892,8 +882,6 @@ NodeAdvancer
 <
 '
 a
-'
-b
 >
 )
 -
@@ -991,15 +979,11 @@ impl
 <
 '
 a
-'
-b
 >
 PrivateTreeWalkerHelpers
 <
 '
 a
-'
-b
 >
 for
 JSRef
@@ -1039,8 +1023,6 @@ NodeAdvancer
 <
 '
 a
-'
-b
 >
 next_sibling
 :
@@ -1048,8 +1030,6 @@ NodeAdvancer
 <
 '
 a
-'
-b
 >
 )
 -
@@ -1725,8 +1705,6 @@ NodeAdvancer
 <
 '
 a
-'
-b
 >
 next_sibling
 :
@@ -1734,8 +1712,6 @@ NodeAdvancer
 <
 '
 a
-'
-b
 >
 )
 -
