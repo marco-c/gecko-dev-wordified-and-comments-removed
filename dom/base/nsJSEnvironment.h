@@ -270,14 +270,6 @@ GetWindowProxy
 )
 override
 ;
-virtual
-JSObject
-*
-GetWindowProxyPreserveColor
-(
-)
-override
-;
 static
 void
 LoadStart

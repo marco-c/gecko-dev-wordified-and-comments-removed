@@ -9410,8 +9410,9 @@ nsIDOMOfflineResourceList
 >
 mApplicationCache
 ;
-nsAutoPtr
-<
+using
+XBLPrototypeHandlerTable
+=
 nsJSThingHashtable
 <
 nsPtrHashKey
@@ -9421,6 +9422,10 @@ nsXBLPrototypeHandler
 JSObject
 *
 >
+;
+nsAutoPtr
+<
+XBLPrototypeHandlerTable
 >
 mCachedXBLPrototypeHandlers
 ;

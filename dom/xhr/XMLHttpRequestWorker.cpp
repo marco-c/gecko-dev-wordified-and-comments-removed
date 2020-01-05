@@ -9474,16 +9474,6 @@ str
 ;
 }
 }
-JS
-:
-:
-ExposeValueToActiveJS
-(
-mStateData
-.
-mResponse
-)
-;
 aRv
 =
 mStateData

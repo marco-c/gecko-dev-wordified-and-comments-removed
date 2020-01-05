@@ -662,14 +662,6 @@ Clear
 )
 ;
 }
-JS
-:
-:
-ExposeObjectToActiveJS
-(
-mScanRecord
-)
-;
 aScanRecord
 .
 set

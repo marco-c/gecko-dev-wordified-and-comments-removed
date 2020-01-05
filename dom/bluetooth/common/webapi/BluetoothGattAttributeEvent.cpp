@@ -694,14 +694,6 @@ Clear
 )
 ;
 }
-JS
-:
-:
-ExposeObjectToActiveJS
-(
-mValue
-)
-;
 aValue
 .
 set

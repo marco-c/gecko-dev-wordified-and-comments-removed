@@ -212,15 +212,6 @@ GetWindowProxy
 =
 0
 ;
-virtual
-JSObject
-*
-GetWindowProxyPreserveColor
-(
-)
-=
-0
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

@@ -265,14 +265,6 @@ ErrorResult
 aRv
 )
 {
-JS
-:
-:
-ExposeValueToActiveJS
-(
-mData
-)
-;
 aData
 .
 set

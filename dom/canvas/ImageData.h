@@ -249,14 +249,6 @@ GetDataObject
 )
 const
 {
-JS
-:
-:
-ExposeObjectToActiveJS
-(
-mData
-)
-;
 return
 mData
 ;

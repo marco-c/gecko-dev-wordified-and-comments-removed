@@ -215,14 +215,6 @@ pending
 "
 )
 ;
-JS
-:
-:
-ExposeValueToActiveJS
-(
-mResult
-)
-;
 aRetval
 .
 set
