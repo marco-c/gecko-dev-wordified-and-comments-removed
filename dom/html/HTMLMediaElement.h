@@ -291,8 +291,6 @@ nsIDOMHTMLMediaElement
 public
 MediaDecoderOwner
 public
-nsIAudioChannelAgentCallback
-public
 PrincipalChangeObserver
 <
 DOMMediaStream
@@ -403,7 +401,6 @@ aListener
 )
 ;
 NS_DECL_NSIDOMHTMLMEDIAELEMENT
-NS_DECL_NSIAUDIOCHANNELAGENTCALLBACK
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -2147,6 +2144,9 @@ HTMLMediaElement
 )
 ;
 class
+AudioChannelAgentCallback
+;
+class
 ChannelLoader
 ;
 class
@@ -2963,8 +2963,10 @@ ShouldElementBePaused
 )
 ;
 void
-AudioCaptureStreamChangeIfNeeded
+AudioCaptureStreamChange
 (
+bool
+aCapture
 )
 ;
 void
@@ -3694,6 +3696,12 @@ UniquePtr
 ErrorSink
 >
 mErrorSink
+;
+RefPtr
+<
+AudioChannelAgentCallback
+>
+mAudioChannelWrapper
 ;
 }
 ;
