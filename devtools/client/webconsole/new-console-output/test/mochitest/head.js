@@ -415,10 +415,10 @@ waitFor
 "
 interval
 =
-100
+10
 maxTries
 =
-50
+500
 )
 {
 return
