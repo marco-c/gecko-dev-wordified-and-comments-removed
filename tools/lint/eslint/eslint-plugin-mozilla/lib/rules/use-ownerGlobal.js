@@ -114,6 +114,7 @@ node
 use
 .
 ownerGlobal
+instead
 of
 .
 ownerDocument
