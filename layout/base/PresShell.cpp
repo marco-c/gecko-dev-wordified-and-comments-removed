@@ -27673,6 +27673,13 @@ AutoAssertNoContentJS
 >
 nojs
 ;
+#
+if
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 if
 (
 !
@@ -27702,6 +27709,8 @@ GetJSContext
 )
 ;
 }
+#
+endif
 NS_ASSERTION
 (
 !
