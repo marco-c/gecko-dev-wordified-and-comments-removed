@@ -4480,6 +4480,14 @@ aWindow
 aBrowser
 )
 ;
+this
+.
+onTabScroll
+(
+aWindow
+aBrowser
+)
+;
 }
 log
 (
