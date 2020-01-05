@@ -5374,6 +5374,13 @@ id
 "
 browserContainersSettings
 "
+class
+=
+"
+accessory
+-
+button
+"
 label
 =
 "
