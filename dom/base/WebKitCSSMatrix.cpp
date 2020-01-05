@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsPresContext
+.
+h
+"
+#
+include
+"
 nsStyleTransformMatrix
 .
 h
