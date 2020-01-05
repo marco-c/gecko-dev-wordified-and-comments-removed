@@ -2358,11 +2358,6 @@ symbols
 (
 MAKE_SYM_STORE_PATH
 )
-|
-grep
--
-iv
-test
 >
 \
 (
