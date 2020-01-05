@@ -432,12 +432,6 @@ worker
 '
         
 '
-macosx
--
-engine
-'
-        
-'
 generic
 -
 worker
@@ -706,21 +700,6 @@ config
 default
 =
 False
-)
-:
-bool
-        
-Optional
-(
-'
-include
--
-blob
--
-upload
--
-branch
-'
 )
 :
 bool
