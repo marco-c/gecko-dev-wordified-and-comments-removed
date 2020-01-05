@@ -601,7 +601,6 @@ push
 (
 new_running_animation
 )
-;
 }
 let
 animation_state
