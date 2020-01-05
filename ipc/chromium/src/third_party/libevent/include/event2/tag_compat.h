@@ -1,9 +1,9 @@
 #
 ifndef
-_EVENT2_TAG_COMPAT_H_
+EVENT2_TAG_COMPAT_H_INCLUDED_
 #
 define
-_EVENT2_TAG_COMPAT_H_
+EVENT2_TAG_COMPAT_H_INCLUDED_
 #
 define
 encode_int

@@ -1,9 +1,9 @@
 #
 ifndef
-_EVENT2_HTTP_COMPAT_H_
+EVENT2_HTTP_COMPAT_H_INCLUDED_
 #
 define
-_EVENT2_HTTP_COMPAT_H_
+EVENT2_HTTP_COMPAT_H_INCLUDED_
 #
 ifdef
 __cplusplus
@@ -27,7 +27,7 @@ h
 >
 #
 ifdef
-_EVENT_HAVE_SYS_TYPES_H
+EVENT__HAVE_SYS_TYPES_H
 #
 include
 <
@@ -41,7 +41,7 @@ h
 endif
 #
 ifdef
-_EVENT_HAVE_SYS_TIME_H
+EVENT__HAVE_SYS_TIME_H
 #
 include
 <
@@ -71,8 +71,7 @@ const
 char
 *
 address
-unsigned
-short
+ev_uint16_t
 port
 )
 ;
@@ -85,8 +84,7 @@ const
 char
 *
 address
-unsigned
-short
+ev_uint16_t
 port
 )
 ;

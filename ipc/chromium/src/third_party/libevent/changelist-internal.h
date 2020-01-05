@@ -1,9 +1,9 @@
 #
 ifndef
-_CHANGELIST_H_
+CHANGELIST_INTERNAL_H_INCLUDED_
 #
 define
-_CHANGELIST_H_
+CHANGELIST_INTERNAL_H_INCLUDED_
 #
 include
 "
@@ -27,6 +27,9 @@ read_change
 ;
 ev_uint8_t
 write_change
+;
+ev_uint8_t
+close_change
 ;
 }
 ;
@@ -58,7 +61,7 @@ sizeof
 int
 )
 void
-event_changelist_init
+event_changelist_init_
 (
 struct
 event_changelist
@@ -67,7 +70,7 @@ changelist
 )
 ;
 void
-event_changelist_remove_all
+event_changelist_remove_all_
 (
 struct
 event_changelist
@@ -80,7 +83,7 @@ base
 )
 ;
 void
-event_changelist_freemem
+event_changelist_freemem_
 (
 struct
 event_changelist
@@ -89,7 +92,7 @@ changelist
 )
 ;
 int
-event_changelist_add
+event_changelist_add_
 (
 struct
 event_base
@@ -107,7 +110,7 @@ p
 )
 ;
 int
-event_changelist_del
+event_changelist_del_
 (
 struct
 event_base

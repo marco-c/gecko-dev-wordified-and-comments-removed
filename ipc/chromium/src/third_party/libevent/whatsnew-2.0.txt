@@ -3001,7 +3001,7 @@ access
 to
 the
 whole
-bufer
+buffer
 as
 a
 linear

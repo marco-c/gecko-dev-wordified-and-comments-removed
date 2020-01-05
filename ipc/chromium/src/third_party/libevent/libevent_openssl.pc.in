@@ -53,10 +53,7 @@ Libs
 private
 :
 LIBS
--
-lssl
--
-lcrypto
+OPENSSL_LIBS
 Cflags
 :
 -
@@ -64,3 +61,4 @@ I
 {
 includedir
 }
+OPENSSL_INCS

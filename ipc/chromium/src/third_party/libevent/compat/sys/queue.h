@@ -1,9 +1,9 @@
 #
 ifndef
-_SYS_QUEUE_H_
+SYS_QUEUE_H__
 #
 define
-_SYS_QUEUE_H_
+SYS_QUEUE_H__
 #
 define
 SLIST_HEAD
@@ -41,7 +41,7 @@ NULL
 }
 #
 ifndef
-WIN32
+_WIN32
 #
 define
 SLIST_ENTRY

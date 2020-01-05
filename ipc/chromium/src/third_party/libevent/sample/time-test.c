@@ -29,7 +29,7 @@ h
 >
 #
 ifndef
-WIN32
+_WIN32
 #
 include
 <
@@ -57,7 +57,7 @@ h
 >
 #
 ifdef
-_EVENT_HAVE_SYS_TIME_H
+EVENT__HAVE_SYS_TIME_H
 #
 include
 <
@@ -133,7 +133,7 @@ h
 >
 #
 ifdef
-WIN32
+_WIN32
 #
 include
 <
@@ -302,7 +302,7 @@ flags
 ;
 #
 ifdef
-WIN32
+_WIN32
 WORD
 wVersionRequested
 ;

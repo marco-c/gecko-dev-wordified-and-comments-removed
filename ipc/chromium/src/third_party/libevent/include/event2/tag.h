@@ -1,9 +1,18 @@
 #
 ifndef
-_EVENT2_TAG_H_
+EVENT2_TAG_H_INCLUDED_
 #
 define
-_EVENT2_TAG_H_
+EVENT2_TAG_H_INCLUDED_
+#
+include
+<
+event2
+/
+visibility
+.
+h
+>
 #
 ifdef
 __cplusplus
@@ -27,7 +36,7 @@ h
 >
 #
 ifdef
-_EVENT_HAVE_SYS_TYPES_H
+EVENT__HAVE_SYS_TYPES_H
 #
 include
 <
@@ -41,7 +50,7 @@ h
 endif
 #
 ifdef
-_EVENT_HAVE_SYS_TIME_H
+EVENT__HAVE_SYS_TIME_H
 #
 include
 <
@@ -65,12 +74,14 @@ h
 struct
 evbuffer
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evtag_init
 (
 void
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_unmarshal_header
 (
@@ -83,6 +94,7 @@ ev_uint32_t
 ptag
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evtag_marshal
 (
@@ -100,6 +112,7 @@ ev_uint32_t
 len
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evtag_marshal_buffer
 (
@@ -115,6 +128,7 @@ evbuffer
 data
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evtag_encode_int
 (
@@ -126,6 +140,7 @@ ev_uint32_t
 number
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evtag_encode_int64
 (
@@ -137,6 +152,7 @@ ev_uint64_t
 number
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evtag_marshal_int
 (
@@ -150,6 +166,7 @@ ev_uint32_t
 integer
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evtag_marshal_int64
 (
@@ -163,6 +180,7 @@ ev_uint64_t
 integer
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evtag_marshal_string
 (
@@ -178,6 +196,7 @@ char
 string
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evtag_marshal_timeval
 (
@@ -193,6 +212,7 @@ timeval
 tv
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_unmarshal
 (
@@ -209,6 +229,7 @@ evbuffer
 dst
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_peek
 (
@@ -221,6 +242,7 @@ ev_uint32_t
 ptag
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_peek_length
 (
@@ -233,6 +255,7 @@ ev_uint32_t
 plength
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_payload_length
 (
@@ -245,6 +268,7 @@ ev_uint32_t
 plength
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_consume
 (
@@ -254,6 +278,7 @@ evbuffer
 evbuf
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_unmarshal_int
 (
@@ -268,6 +293,7 @@ ev_uint32_t
 pinteger
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_unmarshal_int64
 (
@@ -282,6 +308,7 @@ ev_uint64_t
 pinteger
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_unmarshal_fixed
 (
@@ -298,6 +325,7 @@ size_t
 len
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_unmarshal_string
 (
@@ -313,6 +341,7 @@ char
 pstring
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_unmarshal_timeval
 (

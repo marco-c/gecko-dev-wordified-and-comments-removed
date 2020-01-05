@@ -1,9 +1,9 @@
 #
 ifndef
-_TESTUTILS_H
+REGRESS_TESTUTILS_H_INCLUDED_
 #
 define
-_TESTUTILS_H
+REGRESS_TESTUTILS_H_INCLUDED_
 #
 include
 "
@@ -33,6 +33,9 @@ ans
 ;
 int
 seen
+;
+int
+lower
 ;
 }
 ;

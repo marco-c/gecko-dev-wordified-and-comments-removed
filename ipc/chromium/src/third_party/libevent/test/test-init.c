@@ -29,7 +29,7 @@ h
 >
 #
 ifdef
-_EVENT_HAVE_SYS_TIME_H
+EVENT__HAVE_SYS_TIME_H
 #
 include
 <
@@ -43,7 +43,7 @@ h
 endif
 #
 ifdef
-_EVENT_HAVE_SYS_SOCKET_H
+EVENT__HAVE_SYS_SOCKET_H
 #
 include
 <
@@ -85,7 +85,7 @@ h
 >
 #
 ifndef
-WIN32
+_WIN32
 #
 include
 <
@@ -122,7 +122,7 @@ argv
 {
 #
 ifdef
-WIN32
+_WIN32
 WORD
 wVersionRequested
 ;

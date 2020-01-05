@@ -1,9 +1,9 @@
 #
 ifndef
-_EVENT_MM_INTERNAL_H
+MM_INTERNAL_H_INCLUDED_
 #
 define
-_EVENT_MM_INTERNAL_H
+MM_INTERNAL_H_INCLUDED_
 #
 include
 <
@@ -25,7 +25,7 @@ C
 endif
 #
 ifndef
-_EVENT_DISABLE_MM_REPLACEMENT
+EVENT__DISABLE_MM_REPLACEMENT
 void
 *
 event_mm_malloc_
@@ -51,7 +51,7 @@ event_mm_strdup_
 const
 char
 *
-s
+str
 )
 ;
 void

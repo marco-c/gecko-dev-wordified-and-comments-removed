@@ -1,9 +1,18 @@
 #
 ifndef
-_EVENT2_DNS_H_
+EVENT2_DNS_H_INCLUDED_
 #
 define
-_EVENT2_DNS_H_
+EVENT2_DNS_H_INCLUDED_
+#
+include
+<
+event2
+/
+visibility
+.
+h
+>
 #
 ifdef
 __cplusplus
@@ -140,6 +149,15 @@ evdns_base
 struct
 event_base
 ;
+#
+define
+EVDNS_BASE_INITIALIZE_NAMESERVERS
+1
+#
+define
+EVDNS_BASE_DISABLE_WHEN_INACTIVE
+0x8000
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_base
 *
@@ -153,6 +171,7 @@ int
 initialize_nameservers
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_base_free
 (
@@ -164,6 +183,17 @@ int
 fail_requests
 )
 ;
+EVENT2_EXPORT_SYMBOL
+void
+evdns_base_clear_host_addresses
+(
+struct
+evdns_base
+*
+base
+)
+;
+EVENT2_EXPORT_SYMBOL
 const
 char
 *
@@ -173,6 +203,7 @@ int
 err
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_nameserver_add
 (
@@ -186,6 +217,7 @@ int
 address
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_count_nameservers
 (
@@ -195,6 +227,7 @@ evdns_base
 base
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_clear_nameservers_and_suspend
 (
@@ -204,6 +237,7 @@ evdns_base
 base
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_resume
 (
@@ -213,6 +247,7 @@ evdns_base
 base
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_nameserver_ip_add
 (
@@ -226,6 +261,7 @@ char
 ip_as_string
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_nameserver_sockaddr_add
 (
@@ -247,6 +283,7 @@ flags
 struct
 evdns_request
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_request
 *
@@ -269,6 +306,7 @@ void
 ptr
 )
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_request
 *
@@ -297,6 +335,7 @@ in_addr
 struct
 in6_addr
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_request
 *
@@ -320,6 +359,7 @@ void
 ptr
 )
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_request
 *
@@ -343,6 +383,7 @@ void
 ptr
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_cancel_request
 (
@@ -356,6 +397,7 @@ evdns_request
 req
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_set_option
 (
@@ -373,6 +415,7 @@ char
 val
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_resolv_conf_parse
 (
@@ -389,6 +432,7 @@ const
 filename
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_load_hosts
 (
@@ -404,7 +448,8 @@ hosts_fname
 ;
 #
 ifdef
-WIN32
+_WIN32
+EVENT2_EXPORT_SYMBOL
 int
 evdns_base_config_windows_nameservers
 (
@@ -418,6 +463,7 @@ define
 EVDNS_BASE_CONFIG_WINDOWS_NAMESERVERS_IMPLEMENTED
 #
 endif
+EVENT2_EXPORT_SYMBOL
 void
 evdns_base_search_clear
 (
@@ -427,6 +473,7 @@ evdns_base
 base
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_base_search_add
 (
@@ -440,6 +487,7 @@ char
 domain
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_base_search_ndots_set
 (
@@ -467,6 +515,7 @@ char
 msg
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_set_log_fn
 (
@@ -474,6 +523,7 @@ evdns_debug_log_fn_type
 fn
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_set_transaction_id_fn
 (
@@ -487,6 +537,7 @@ void
 )
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_set_random_bytes_fn
 (
@@ -586,6 +637,7 @@ EVDNS_FLAGS_AA
 define
 EVDNS_FLAGS_RD
 0x080
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_server_port
 *
@@ -606,6 +658,7 @@ void
 user_data
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_close_server_port
 (
@@ -615,6 +668,7 @@ evdns_server_port
 port
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_server_request_set_flags
 (
@@ -626,6 +680,7 @@ int
 flags
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_server_request_add_reply
 (
@@ -655,6 +710,7 @@ char
 data
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_server_request_add_a_reply
 (
@@ -676,6 +732,7 @@ int
 ttl
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_server_request_add_aaaa_reply
 (
@@ -697,6 +754,7 @@ int
 ttl
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_server_request_add_ptr_reply
 (
@@ -720,6 +778,7 @@ int
 ttl
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_server_request_add_cname_reply
 (
@@ -739,6 +798,7 @@ int
 ttl
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_server_request_respond
 (
@@ -750,6 +810,7 @@ int
 err
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_server_request_drop
 (
@@ -762,13 +823,14 @@ req
 struct
 sockaddr
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evdns_server_request_get_requesting_addr
 (
 struct
 evdns_server_request
 *
-_req
+req
 struct
 sockaddr
 *
@@ -801,6 +863,7 @@ evdns_base
 struct
 evdns_getaddrinfo_request
 ;
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_getaddrinfo_request
 *
@@ -830,6 +893,7 @@ void
 arg
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evdns_getaddrinfo_cancel
 (
@@ -837,6 +901,24 @@ struct
 evdns_getaddrinfo_request
 *
 req
+)
+;
+EVENT2_EXPORT_SYMBOL
+int
+evdns_base_get_nameserver_addr
+(
+struct
+evdns_base
+*
+base
+int
+idx
+struct
+sockaddr
+*
+sa
+ev_socklen_t
+len
 )
 ;
 #

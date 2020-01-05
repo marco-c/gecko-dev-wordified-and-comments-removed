@@ -11,6 +11,18 @@ h
 "
 #
 include
+"
+evconfig
+-
+private
+.
+h
+"
+#
+ifdef
+EVENT__HAVE_DEVPOLL
+#
+include
 <
 sys
 /
@@ -29,7 +41,7 @@ h
 >
 #
 ifdef
-_EVENT_HAVE_SYS_TIME_H
+EVENT__HAVE_SYS_TIME_H
 #
 include
 <
@@ -524,7 +536,7 @@ if
 (
 dpfd
 =
-evutil_open_closeonexec
+evutil_open_closeonexec_
 (
 "
 /
@@ -671,7 +683,7 @@ NULL
 )
 ;
 }
-evsig_init
+evsig_init_
 (
 base
 )
@@ -958,7 +970,7 @@ which
 )
 continue
 ;
-evmap_io_active
+evmap_io_active_
 (
 base
 events
@@ -1241,7 +1253,7 @@ base
 >
 evbase
 ;
-evsig_dealloc
+evsig_dealloc_
 (
 base
 )
@@ -1311,3 +1323,5 @@ devpollop
 )
 ;
 }
+#
+endif

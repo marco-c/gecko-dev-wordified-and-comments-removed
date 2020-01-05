@@ -28,7 +28,7 @@ h
 >
 #
 ifndef
-WIN32
+_WIN32
 #
 include
 <
@@ -212,7 +212,7 @@ sin
 ;
 #
 ifdef
-WIN32
+_WIN32
 WSADATA
 wsa_data
 ;

@@ -143,6 +143,23 @@ cppdirect
 =
 [
 ]
+QUIETLY
+=
+0
+def
+declare
+(
+s
+)
+:
+    
+if
+not
+QUIETLY
+:
+        
+print
+s
 def
 TranslateList
 (
@@ -229,12 +246,8 @@ _tags
 {
 }
         
-print
->
->
-sys
-.
-stderr
+declare
+(
 '
 Created
 struct
@@ -244,6 +257,7 @@ s
 '
 %
 name
+)
     
 def
 AddEntry
@@ -349,12 +363,8 @@ Name
 (
 )
         
-print
->
->
-sys
-.
-stderr
+declare
+(
 '
 Added
 entry
@@ -367,6 +377,7 @@ entry
 .
 Name
 (
+)
 )
     
 def
@@ -1273,12 +1284,11 @@ struct
 name
 )
 s_access_
-__
 %
 (
 name
 )
-s_base
+s_base__
 =
 {
 '
@@ -1506,12 +1516,11 @@ tmp
 base
 =
 &
-__
 %
 (
 name
 )
-s_base
+s_base__
 ;
 \
 n
@@ -2854,7 +2863,7 @@ n
 struct
 evbuffer
 *
-_buf
+buf_
 =
 evbuffer_new
 (
@@ -2867,7 +2876,7 @@ n
 '
 assert
 (
-_buf
+buf_
 !
 =
 NULL
@@ -2884,7 +2893,7 @@ name
 )
 s_marshal
 (
-_buf
+buf_
 msg
 )
 ;
@@ -2897,7 +2906,7 @@ evtag_marshal_buffer
 (
 evbuf
 tag
-_buf
+buf_
 )
 ;
 \
@@ -2907,7 +2916,7 @@ n
 '
 evbuffer_free
 (
-_buf
+buf_
 )
 ;
 \
@@ -12440,7 +12449,7 @@ name
         
 return
 '
-_
+EVENT_RPCOUT_
 '
 +
 nonident
@@ -12846,8 +12855,18 @@ n
                  
 '
 #
-ifdef
-_EVENT___func__
+if
+defined
+(
+EVENT____func__
+)
+&
+&
+!
+defined
+(
+__func__
+)
 \
 n
 '
@@ -12856,7 +12875,7 @@ n
 #
 define
 __func__
-_EVENT___func__
+EVENT____func__
 \
 n
 '
@@ -13291,6 +13310,41 @@ len
 (
 argv
 )
+>
+=
+2
+and
+argv
+[
+1
+]
+=
+=
+'
+-
+-
+quiet
+'
+:
+            
+global
+QUIETLY
+            
+QUIETLY
+=
+1
+            
+del
+argv
+[
+1
+]
+        
+if
+len
+(
+argv
+)
 <
 2
 or
@@ -13558,12 +13612,8 @@ self
 .
 factory
         
-print
->
->
-sys
-.
-stderr
+declare
+(
 '
 Reading
 \
@@ -13575,6 +13625,7 @@ s
 '
 %
 filename
+)
         
 fp
 =
@@ -13600,12 +13651,8 @@ close
 (
 )
         
-print
->
->
-sys
-.
-stderr
+declare
+(
 '
 .
 .
@@ -13618,6 +13665,7 @@ s
 '
 %
 header_file
+)
         
 header_fp
 =
@@ -13697,12 +13745,8 @@ close
 (
 )
         
-print
->
->
-sys
-.
-stderr
+declare
+(
 '
 .
 .
@@ -13715,6 +13759,7 @@ s
 '
 %
 impl_file
+)
         
 impl_fp
 =
