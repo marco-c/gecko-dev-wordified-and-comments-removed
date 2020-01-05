@@ -444,6 +444,14 @@ display_list_builder
 ;
 pub
 mod
+float_context
+;
+pub
+mod
+float
+;
+pub
+mod
 flow
 ;
 pub
@@ -464,11 +472,7 @@ text
 ;
 pub
 mod
-float_context
-;
-pub
-mod
-float
+util
 ;
 mod
 aux
