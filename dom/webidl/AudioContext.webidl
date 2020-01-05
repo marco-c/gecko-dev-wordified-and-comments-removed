@@ -155,6 +155,8 @@ DecodeErrorCallback
 =
 void
 (
+DOMException
+error
 )
 ;
 enum
