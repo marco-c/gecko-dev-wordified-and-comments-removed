@@ -524,6 +524,7 @@ any
 argument
 )
 ;
+unsigned
 long
 requestAnimationFrame
 (
@@ -534,6 +535,7 @@ callback
 void
 cancelAnimationFrame
 (
+unsigned
 long
 handle
 )
