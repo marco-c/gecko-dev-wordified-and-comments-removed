@@ -109,11 +109,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-AddonWatcher
-.
-jsm
-'
-'
 PerformanceStats
 -
 content
