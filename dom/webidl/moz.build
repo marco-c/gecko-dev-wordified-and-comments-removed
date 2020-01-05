@@ -5914,11 +5914,6 @@ DeviceOrientationEvent
 webidl
 '
 '
-DeviceStorageChangeEvent
-.
-webidl
-'
-'
 HashChangeEvent
 .
 webidl
@@ -6126,11 +6121,6 @@ webidl
 '
 '
 DeviceProximityEvent
-.
-webidl
-'
-'
-DeviceStorageChangeEvent
 .
 webidl
 '

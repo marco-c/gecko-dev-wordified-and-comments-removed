@@ -587,16 +587,6 @@ desktop
 :
 false
 }
-{
-name
-:
-"
-DeviceStorageChangeEvent
-"
-desktop
-:
-false
-}
 "
 Directory
 "
