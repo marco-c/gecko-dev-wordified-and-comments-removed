@@ -14,6 +14,9 @@ FontTableTag
 }
 ;
 use
+servo_util
+:
+:
 geometry
 :
 :

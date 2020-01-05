@@ -11,6 +11,9 @@ font_context
 FontContext
 ;
 use
+servo_util
+:
+:
 geometry
 :
 :

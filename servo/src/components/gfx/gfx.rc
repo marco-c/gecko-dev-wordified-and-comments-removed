@@ -364,10 +364,6 @@ display_list
 ;
 pub
 mod
-geometry
-;
-pub
-mod
 render_task
 ;
 pub

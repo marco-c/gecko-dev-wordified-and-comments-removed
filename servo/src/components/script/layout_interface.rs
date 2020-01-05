@@ -59,7 +59,7 @@ point
 Point2D
 ;
 use
-gfx
+servo_util
 :
 :
 geometry

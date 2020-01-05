@@ -17,7 +17,7 @@ font_context
 FontContext
 ;
 use
-gfx
+servo_util
 :
 :
 geometry

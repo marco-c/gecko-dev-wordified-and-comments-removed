@@ -102,7 +102,7 @@ display_list
 DisplayList
 ;
 use
-gfx
+servo_util
 :
 :
 geometry
@@ -111,7 +111,7 @@ geometry
 Au
 ;
 use
-gfx
+servo_util
 :
 :
 geometry

@@ -126,7 +126,7 @@ display_list
 DisplayList
 ;
 use
-gfx
+servo_util
 :
 :
 geometry
@@ -138,7 +138,7 @@ to_frac_px
 }
 ;
 use
-gfx
+servo_util
 :
 :
 geometry

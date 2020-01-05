@@ -113,9 +113,17 @@ extern
 mod
 extra
 ;
+extern
+mod
+geom
+;
 pub
 mod
 cache
+;
+pub
+mod
+geometry
 ;
 pub
 mod
