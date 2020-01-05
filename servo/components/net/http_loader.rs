@@ -1220,20 +1220,10 @@ ui_provider
 =
 TFDProvider
 ;
-let
-context
-=
-load_data
-.
-context
-.
-clone
-(
-)
-;
 match
 load
 (
+&
 load_data
 &
 ui_provider
@@ -1463,6 +1453,8 @@ LoadData
 :
 new
 (
+load_data
+.
 context
 Url
 :
@@ -1528,6 +1520,8 @@ clone
 ;
 send_data
 (
+load_data
+.
 context
 &
 mut
@@ -5024,6 +5018,7 @@ B
 (
 load_data
 :
+&
 LoadData
 ui_provider
 :
