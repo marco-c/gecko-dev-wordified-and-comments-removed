@@ -27,10 +27,4 @@ getManifest
 )
 )
 ;
-window
-.
-close
-(
-)
-;
 }
