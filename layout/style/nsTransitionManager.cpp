@@ -2611,7 +2611,7 @@ afterChangeStyle
 styleSet
 -
 >
-ResolveStyleWithoutAnimation
+ResolveStyleByRemovingAnimation
 (
 aElement
 newStyleContext

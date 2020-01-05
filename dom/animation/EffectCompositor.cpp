@@ -4046,7 +4046,7 @@ AsGecko
 )
 -
 >
-ResolveStyleWithoutAnimation
+ResolveStyleByRemovingAnimation
 (
 &
 aElement

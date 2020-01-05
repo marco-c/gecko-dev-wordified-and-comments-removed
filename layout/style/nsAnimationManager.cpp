@@ -4272,7 +4272,7 @@ AsGecko
 )
 -
 >
-ResolveStyleWithoutAnimation
+ResolveStyleByRemovingAnimation
 (
 mTarget
 mStyleContext
