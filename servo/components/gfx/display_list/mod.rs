@@ -270,10 +270,7 @@ util
 geometry
 :
 :
-{
-self
 MAX_RECT
-}
 ;
 use
 util

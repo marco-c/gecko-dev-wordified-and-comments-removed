@@ -40,15 +40,6 @@ std
 :
 i32
 ;
-use
-std
-:
-:
-ops
-:
-:
-Add
-;
 #
 [
 derive
