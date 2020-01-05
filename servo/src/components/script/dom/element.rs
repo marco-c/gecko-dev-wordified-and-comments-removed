@@ -1380,9 +1380,6 @@ name
 &
 str
 )
--
->
-ErrorResult
 ;
 fn
 notify_attribute_changed
@@ -2168,9 +2165,6 @@ name
 &
 str
 )
--
->
-ErrorResult
 {
 let
 (
@@ -2352,11 +2346,6 @@ idx
 }
 }
 ;
-Ok
-(
-(
-)
-)
 }
 fn
 notify_attribute_changed
@@ -3208,9 +3197,6 @@ name
 :
 DOMString
 )
--
->
-ErrorResult
 ;
 fn
 RemoveAttributeNS
@@ -3227,9 +3213,6 @@ localname
 :
 DOMString
 )
--
->
-ErrorResult
 ;
 fn
 HasAttribute
@@ -4918,9 +4901,6 @@ name
 :
 DOMString
 )
--
->
-ErrorResult
 {
 let
 name
@@ -4997,9 +4977,6 @@ localname
 :
 DOMString
 )
--
->
-ErrorResult
 {
 let
 namespace

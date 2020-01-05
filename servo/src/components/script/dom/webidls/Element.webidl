@@ -313,9 +313,6 @@ DOMString
 value
 )
 ;
-[
-Throws
-]
 void
 removeAttribute
 (
@@ -323,9 +320,6 @@ DOMString
 name
 )
 ;
-[
-Throws
-]
 void
 removeAttributeNS
 (
