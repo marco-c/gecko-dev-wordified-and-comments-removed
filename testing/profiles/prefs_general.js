@@ -3344,3 +3344,17 @@ recommended
 false
 )
 ;
+user_pref
+(
+"
+extensions
+.
+screenshots
+.
+system
+-
+disabled
+"
+true
+)
+;
