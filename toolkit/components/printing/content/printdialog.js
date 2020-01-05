@@ -50,8 +50,8 @@ initDialog
 {
 dialog
 =
-new
-Object
+{
+}
 ;
 dialog
 .

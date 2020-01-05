@@ -56,8 +56,8 @@ initDialogObject
 {
 dialog
 =
-new
-Object
+{
+}
 ;
 dialog
 .

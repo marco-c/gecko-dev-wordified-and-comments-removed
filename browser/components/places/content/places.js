@@ -6728,10 +6728,8 @@ options
 aOptions
 |
 |
-new
-Object
-(
-)
+{
+}
 }
 )
 ;

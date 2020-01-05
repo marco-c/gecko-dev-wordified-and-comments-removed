@@ -998,8 +998,8 @@ return
 }
 dialog
 =
-new
-Object
+{
+}
 ;
 dialog
 .

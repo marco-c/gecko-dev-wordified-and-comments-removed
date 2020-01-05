@@ -5035,8 +5035,6 @@ name
 ;
 if
 (
-!
-!
 currentAnno
 )
 {

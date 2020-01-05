@@ -2418,8 +2418,6 @@ this
 _terminateReason
 activeExperiment
 :
-!
-!
 activeExperiment
 ?
 activeExperiment
@@ -7325,8 +7323,6 @@ this
 .
 _lastChangedDate
 =
-!
-!
 this
 .
 _endDate
@@ -9938,9 +9934,6 @@ permission
 }
 if
 (
-!
-!
-(
 addon
 .
 operationsRequiringRestart
@@ -9948,7 +9941,6 @@ operationsRequiringRestart
 AddonManager
 .
 OP_NEEDS_RESTART_ENABLE
-)
 )
 {
 throw
