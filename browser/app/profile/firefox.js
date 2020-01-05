@@ -12486,6 +12486,16 @@ e10sBlocksEnabling
 true
 )
 ;
+pref
+(
+"
+extensions
+.
+e10sMultiBlocksEnabling
+"
+true
+)
+;
 #
 endif
 pref
