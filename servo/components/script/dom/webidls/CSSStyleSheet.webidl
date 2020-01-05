@@ -95,6 +95,7 @@ CSSRule
 ownerRule
 ;
 [
+Throws
 SameObject
 ]
 readonly
