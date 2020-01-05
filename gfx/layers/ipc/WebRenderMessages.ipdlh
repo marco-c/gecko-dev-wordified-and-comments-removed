@@ -222,7 +222,7 @@ namespace
 layers
 {
 struct
-OpPushDLBuilder
+OpDPPushStackingContext
 {
 WRRect
 bounds
@@ -239,7 +239,7 @@ scrollid
 }
 ;
 struct
-OpPopDLBuilder
+OpDPPopStackingContext
 {
 }
 ;
@@ -352,9 +352,9 @@ layersid
 union
 WebRenderCommand
 {
-OpPushDLBuilder
+OpDPPushStackingContext
 ;
-OpPopDLBuilder
+OpDPPopStackingContext
 ;
 OpDPPushRect
 ;

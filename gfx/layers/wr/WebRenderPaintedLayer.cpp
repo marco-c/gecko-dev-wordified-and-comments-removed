@@ -462,7 +462,7 @@ WRBridge
 >
 AddWebRenderCommand
 (
-OpPushDLBuilder
+OpDPPushStackingContext
 (
 toWrRect
 (
@@ -569,7 +569,7 @@ WRBridge
 >
 AddWebRenderCommand
 (
-OpPopDLBuilder
+OpDPPopStackingContext
 (
 )
 )

@@ -598,7 +598,7 @@ WR_FUNC
 ;
 WR_INLINE
 void
-wr_push_dl_builder
+wr_dp_push_stacking_context
 (
 wrstate
 *
@@ -616,7 +616,7 @@ WR_FUNC
 ;
 WR_INLINE
 void
-wr_pop_dl_builder
+wr_dp_pop_stacking_context
 (
 wrstate
 *
