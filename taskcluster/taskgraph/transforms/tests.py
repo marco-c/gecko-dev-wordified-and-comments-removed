@@ -592,6 +592,9 @@ test
 -
 platform
 '
+'
+project
+'
         
 Any
 (
@@ -2788,6 +2791,17 @@ test
 test
 -
 name
+'
+]
+                             
+project
+=
+config
+.
+params
+[
+'
+project
 '
 ]
 )
