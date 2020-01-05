@@ -5583,11 +5583,8 @@ web
 compatible
 .
 match
+*
 property
-.
-clone
-(
-)
 {
 atom
 !
@@ -6266,6 +6263,7 @@ for
 line
 -
 height
+ref
 property
 =
 >
