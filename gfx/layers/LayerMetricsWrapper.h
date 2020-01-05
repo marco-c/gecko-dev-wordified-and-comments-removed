@@ -1179,7 +1179,7 @@ GetScrollbarTargetContainerId
 ;
 }
 int32_t
-GetScrollbarSize
+GetScrollThumbLength
 (
 )
 const

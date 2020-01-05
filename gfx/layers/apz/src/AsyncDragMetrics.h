@@ -98,10 +98,10 @@ uint32_t
 aPresShellId
 uint64_t
 aDragStartSequenceNumber
-CSSIntCoord
+CSSCoord
 aScrollbarDragOffset
 const
-CSSIntRect
+CSSRect
 &
 aScrollTrack
 DragDirection
@@ -146,10 +146,10 @@ mPresShellId
 uint64_t
 mDragStartSequenceNumber
 ;
-CSSIntCoord
+CSSCoord
 mScrollbarDragOffset
 ;
-CSSIntRect
+CSSRect
 mScrollTrack
 ;
 DragDirection
