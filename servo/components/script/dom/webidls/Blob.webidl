@@ -107,11 +107,6 @@ attribute
 DOMString
 type
 ;
-readonly
-attribute
-boolean
-isClosed
-;
 /
 /
 slice
@@ -141,11 +136,6 @@ end
 optional
 DOMString
 contentType
-)
-;
-void
-close
-(
 )
 ;
 }
