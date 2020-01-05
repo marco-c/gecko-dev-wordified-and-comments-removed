@@ -551,6 +551,12 @@ event
 )
 {
 AndroidFxAccount
+.
+invalidateCaches
+(
+)
+;
+AndroidFxAccount
 fxAccount
 =
 null
@@ -1029,6 +1035,12 @@ event
 )
 )
 {
+AndroidFxAccount
+.
+invalidateCaches
+(
+)
+;
 final
 Account
 account
