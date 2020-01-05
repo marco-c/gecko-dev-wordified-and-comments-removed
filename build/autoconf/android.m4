@@ -370,6 +370,17 @@ ANDROID_CPU_ARCH
 mips
 ;
 ;
+aarch64
+-
+*
+)
+ANDROID_CPU_ARCH
+=
+arm64
+-
+v8a
+;
+;
 esac
 AC_SUBST
 (
