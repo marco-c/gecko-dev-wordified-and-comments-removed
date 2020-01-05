@@ -822,6 +822,11 @@ delete
 ;
 static
 nsresult
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ReportOnCallerUTF8
 (
 JSContext
@@ -906,6 +911,11 @@ NS_OK
 }
 static
 nsresult
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ReportOnCallerUTF8
 (
 JSCLContextHelper

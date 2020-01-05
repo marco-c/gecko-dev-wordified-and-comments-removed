@@ -28952,7 +28952,9 @@ location
 s
 :
 %
-u
+"
+PRIuSIZE
+"
 \
 "
 \
@@ -28962,7 +28964,9 @@ offset
 "
 :
 %
-u
+"
+PRIuSIZE
+"
 \
 "
 index

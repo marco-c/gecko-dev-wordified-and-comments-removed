@@ -416,4 +416,10 @@ Wno
 -
 shadow
 '
+'
+-
+Werror
+=
+format
+'
 ]
