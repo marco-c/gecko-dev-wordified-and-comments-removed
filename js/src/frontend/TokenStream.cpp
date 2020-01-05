@@ -5784,16 +5784,6 @@ Modifier
 modifier
 )
 {
-AutoTraceLog
-tokenizerLog
-(
-TraceLoggerForCurrentThread
-(
-cx
-)
-TraceLogger_Tokenizing
-)
-;
 int
 c
 ;
