@@ -3074,17 +3074,6 @@ break
 ;
 }
 }
-if
-(
-bIncludesDouble
-&
-&
-bIncludesSingle
-)
-{
-break
-;
-}
 }
 char16_t
 cDelimiter
