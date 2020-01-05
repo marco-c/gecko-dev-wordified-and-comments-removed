@@ -8,13 +8,6 @@ gecko
 util
 ;
 import
-junit
-.
-framework
-.
-Assert
-;
-import
 org
 .
 junit
@@ -90,8 +83,6 @@ testIsHttpOrHttps
 (
 )
 {
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -102,8 +93,6 @@ null
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -115,8 +104,6 @@ isHttpOrHttps
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -248,8 +235,6 @@ products
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -270,8 +255,6 @@ org
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -290,8 +273,6 @@ com
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -308,8 +289,6 @@ tel
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
@@ -324,8 +303,6 @@ com
 )
 )
 ;
-Assert
-.
 assertFalse
 (
 StringUtils
