@@ -18,9 +18,9 @@ mimetypes
 :
 {
 "
-application
+nonexistent
 /
-pdf
+type
 "
 :
 {
@@ -99,8 +99,6 @@ refer
 =
 ff
 &
-amp
-;
 url
 =
 %

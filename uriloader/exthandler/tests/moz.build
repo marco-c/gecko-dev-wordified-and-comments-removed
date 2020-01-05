@@ -170,6 +170,16 @@ xpcshell
 ini
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+HandlerServiceTestUtils
+.
+jsm
+'
+]
 GeckoSimplePrograms
 (
 [
