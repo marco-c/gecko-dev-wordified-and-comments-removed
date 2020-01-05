@@ -1224,12 +1224,6 @@ defined
 (
 OS_LINUX
 )
-&
-&
-defined
-(
-DEBUG
-)
 DECL_MEDIA_PREF
 (
 "
