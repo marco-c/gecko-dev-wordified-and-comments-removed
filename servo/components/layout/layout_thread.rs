@@ -245,10 +245,7 @@ use
 layout_traits
 :
 :
-{
-ConvertPipelineIdToWebRender
 LayoutThreadFactory
-}
 ;
 use
 log
