@@ -6,6 +6,11 @@ test_screenshot
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 yield
 SpecialPowers
 .
