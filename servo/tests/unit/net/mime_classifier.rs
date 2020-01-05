@@ -71,7 +71,9 @@ new
 /
 tests
 /
-content
+unit
+/
+net
 /
 parsable_mime
 /
@@ -273,7 +275,9 @@ new
 /
 tests
 /
-content
+unit
+/
+net
 /
 parsable_mime
 /
