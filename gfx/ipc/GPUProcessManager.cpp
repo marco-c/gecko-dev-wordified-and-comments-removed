@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
