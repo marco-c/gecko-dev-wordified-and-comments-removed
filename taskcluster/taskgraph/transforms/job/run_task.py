@@ -35,6 +35,14 @@ run_job_using
 from
 taskgraph
 .
+util
+.
+schema
+import
+Schema
+from
+taskgraph
+.
 transforms
 .
 job
@@ -50,7 +58,6 @@ support_vcs_checkout
 from
 voluptuous
 import
-Schema
 Required
 Any
 run_task_schema

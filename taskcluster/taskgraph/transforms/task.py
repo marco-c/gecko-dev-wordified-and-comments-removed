@@ -88,6 +88,7 @@ util
 schema
 import
 validate_schema
+Schema
 from
 taskgraph
 .
@@ -99,7 +100,6 @@ get_release_config
 from
 voluptuous
 import
-Schema
 Any
 Required
 Optional

@@ -83,7 +83,12 @@ util
 .
 schema
 import
+(
+    
 validate_schema
+    
+Schema
+)
 from
 taskgraph
 .
@@ -104,8 +109,6 @@ Extra
 Optional
     
 Required
-    
-Schema
 )
 logger
 =
