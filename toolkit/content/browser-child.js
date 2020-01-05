@@ -87,7 +87,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -99,7 +99,7 @@ modules
 XPCOMUtils
 .
 jsm
-'
+"
 )
 ;
 Cu
@@ -2455,9 +2455,9 @@ this
 .
 _refreshZoomValue
 (
-'
+"
 fullZoom
-'
+"
 )
 ;
 }
@@ -2470,9 +2470,9 @@ this
 .
 _refreshZoomValue
 (
-'
+"
 textZoom
-'
+"
 )
 ;
 }
