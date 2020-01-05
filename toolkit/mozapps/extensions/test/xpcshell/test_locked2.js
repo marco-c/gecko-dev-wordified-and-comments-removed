@@ -898,7 +898,8 @@ permissions
 0
 ;
 }
-startupManager
+yield
+promiseStartupManager
 (
 false
 )
@@ -1276,7 +1277,8 @@ permissions
 =
 filePermissions
 ;
-startupManager
+yield
+promiseStartupManager
 (
 )
 ;

@@ -84,11 +84,13 @@ test_chromemanifest_5
 "
 )
 ]
+async
 function
 (
 )
 {
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -138,6 +140,7 @@ mozilla
 org
 "
 ]
+async
 function
 (
 [

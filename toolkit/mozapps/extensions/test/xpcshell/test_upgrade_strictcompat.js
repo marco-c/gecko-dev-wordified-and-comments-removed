@@ -446,12 +446,14 @@ do_test_finished
 )
 ;
 }
+async
 function
 run_test_1
 (
 )
 {
-startupManager
+await
+promiseStartupManager
 (
 )
 ;
@@ -592,6 +594,7 @@ run_test_2
 )
 ;
 }
+async
 function
 run_test_2
 (
@@ -663,7 +666,8 @@ dest
 gInstallTime
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 "
 2
@@ -878,7 +882,7 @@ dest
 gInstallTime
 )
 ;
-gExtensionsINI
+gAddonStartup
 .
 remove
 (

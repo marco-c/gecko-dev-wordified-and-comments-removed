@@ -2619,7 +2619,8 @@ permissions
 =
 filePermissions
 ;
-startupManager
+yield
+promiseStartupManager
 (
 )
 ;

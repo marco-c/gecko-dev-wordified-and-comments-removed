@@ -701,7 +701,7 @@ exists
 ;
 do_check_false
 (
-gExtensionsINI
+gAddonStartup
 .
 exists
 (
@@ -866,6 +866,7 @@ main
 )
 ;
 }
+async
 function
 run_test_1
 (
@@ -938,7 +939,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -1023,14 +1025,14 @@ Checking
 for
 "
 +
-gExtensionsINI
+gAddonStartup
 .
 path
 )
 ;
 do_check_true
 (
-gExtensionsINI
+gAddonStartup
 .
 exists
 (
@@ -1820,6 +1822,7 @@ run_test_2
 )
 ;
 }
+async
 function
 run_test_2
 (
@@ -1926,7 +1929,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -1998,7 +2002,7 @@ gCachePurged
 ;
 do_check_true
 (
-gExtensionsINI
+gAddonStartup
 .
 exists
 (
@@ -2374,6 +2378,7 @@ run_test_3
 )
 ;
 }
+async
 function
 run_test_3
 (
@@ -2462,7 +2467,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -2911,6 +2917,7 @@ run_test_4
 )
 ;
 }
+async
 function
 run_test_4
 (
@@ -2936,7 +2943,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -3222,6 +3230,7 @@ run_test_5
 )
 ;
 }
+async
 function
 run_test_5
 (
@@ -3247,7 +3256,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -3596,6 +3606,7 @@ run_test_6
 )
 ;
 }
+async
 function
 run_test_6
 (
@@ -3618,7 +3629,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -3951,6 +3963,7 @@ run_test_7
 )
 ;
 }
+async
 function
 run_test_7
 (
@@ -4009,7 +4022,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -4424,6 +4438,7 @@ run_test_8
 )
 ;
 }
+async
 function
 run_test_8
 (
@@ -4447,7 +4462,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -4730,6 +4746,7 @@ run_test_9
 )
 ;
 }
+async
 function
 run_test_9
 (
@@ -4833,7 +4850,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -5220,6 +5238,7 @@ run_test_10
 )
 ;
 }
+async
 function
 run_test_10
 (
@@ -5278,7 +5297,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;
@@ -5665,6 +5685,7 @@ run_test_11
 )
 ;
 }
+async
 function
 run_test_11
 (
@@ -5739,7 +5760,8 @@ gCachePurged
 =
 false
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

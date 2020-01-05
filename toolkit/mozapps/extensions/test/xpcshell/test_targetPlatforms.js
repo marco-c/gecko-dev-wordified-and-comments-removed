@@ -368,6 +368,7 @@ extensions
 "
 )
 ;
+async
 function
 run_test
 (
@@ -407,7 +408,8 @@ addon5
 profileDir
 )
 ;
-restartManager
+await
+promiseRestartManager
 (
 )
 ;

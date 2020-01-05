@@ -780,7 +780,8 @@ theme2
 profileDir
 )
 ;
-startupManager
+yield
+promiseStartupManager
 (
 )
 ;
@@ -1549,7 +1550,8 @@ permissions
 0
 ;
 }
-startupManager
+yield
+promiseStartupManager
 (
 false
 )
@@ -2077,7 +2079,8 @@ e
 )
 {
 }
-startupManager
+yield
+promiseStartupManager
 (
 false
 )
@@ -2636,7 +2639,8 @@ permissions
 =
 filePermissions
 ;
-startupManager
+yield
+promiseStartupManager
 (
 false
 )
