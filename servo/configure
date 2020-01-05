@@ -1252,7 +1252,7 @@ bin
 rustc
 fi
 else
-probe
+probe_need
 CFG_RUSTC
 rustc
 fi
