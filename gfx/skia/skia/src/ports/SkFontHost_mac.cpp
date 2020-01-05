@@ -3756,6 +3756,16 @@ nullptr
 )
 )
 ;
+if
+(
+darwinVersion
+(
+)
+>
+=
+16
+)
+{
 CFDictionaryRef
 variations
 =
@@ -3828,6 +3838,7 @@ transform
 varDesc
 )
 ;
+}
 }
 return
 CTFontCreateWithGraphicsFont

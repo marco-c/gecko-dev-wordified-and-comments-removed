@@ -137,5 +137,16 @@ mOSXVersion
 ;
 }
 ;
+extern
+"
+C
+"
+{
+bool
+Gecko_OnSierraOrLater
+(
+)
+;
+}
 #
 endif
