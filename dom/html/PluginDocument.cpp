@@ -130,7 +130,6 @@ PluginDocument
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPLUGINDOCUMENT
-virtual
 nsresult
 StartDocumentLoad
 (
@@ -163,7 +162,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 SetScriptGlobalObject
 (
@@ -173,7 +171,6 @@ aScriptGlobalObject
 )
 override
 ;
-virtual
 bool
 CanSavePresentation
 (
@@ -225,11 +222,11 @@ MediaDocument
 )
 protected
 :
-virtual
 ~
 PluginDocument
 (
 )
+override
 ;
 nsresult
 CreateSyntheticPluginDocument
@@ -289,6 +286,7 @@ nsISupports
 *
 ctxt
 )
+override
 ;
 private
 :

@@ -988,6 +988,7 @@ private
 CancelableRunnableWrapper
 (
 )
+override
 =
 default
 ;
@@ -2067,7 +2068,6 @@ NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSISEEKABLESTREAM
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 NS_DECL_NSIFILEMETADATA
-virtual
 nsIInputStream
 *
 BlockAndGetInternalStream
@@ -2127,12 +2127,12 @@ InputStreamChild
 InputStreamChild
 (
 )
+override
 =
 default
 ;
 private
 :
-virtual
 bool
 Recv__delete__
 (
@@ -2310,6 +2310,7 @@ InputStreamParent
 InputStreamParent
 (
 )
+override
 {
 AssertIsOnOwningThread
 (
@@ -2408,7 +2409,6 @@ aFDs
 }
 private
 :
-virtual
 void
 ActorDestroy
 (
@@ -6092,6 +6092,7 @@ private
 OpenStreamRunnable
 (
 )
+override
 =
 default
 ;
@@ -6891,7 +6892,6 @@ BaseRemoteBlobImpl
 const
 ;
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 void
 GetMozFullPathInternal
 (
@@ -6905,7 +6905,6 @@ aRv
 const
 override
 ;
-virtual
 bool
 IsDirectory
 (
@@ -6913,7 +6912,6 @@ IsDirectory
 const
 override
 ;
-virtual
 already_AddRefed
 <
 BlobImpl
@@ -6934,7 +6932,6 @@ aRv
 )
 override
 ;
-virtual
 void
 GetInternalStream
 (
@@ -6948,14 +6945,12 @@ aRv
 )
 override
 ;
-virtual
 int64_t
 GetFileId
 (
 )
 override
 ;
-virtual
 int64_t
 GetLastModified
 (
@@ -6965,7 +6960,6 @@ aRv
 )
 override
 ;
-virtual
 void
 SetLastModified
 (
@@ -6974,7 +6968,6 @@ aLastModified
 )
 override
 ;
-virtual
 nsresult
 SetMutable
 (
@@ -6983,7 +6976,6 @@ aMutable
 )
 override
 ;
-virtual
 BlobChild
 *
 GetBlobChild
@@ -6991,7 +6983,6 @@ GetBlobChild
 )
 override
 ;
-virtual
 BlobParent
 *
 GetBlobParent
@@ -7043,6 +7034,7 @@ aLength
 RemoteBlobImpl
 (
 )
+override
 {
 MOZ_ASSERT_IF
 (
@@ -7201,6 +7193,7 @@ private
 CreateStreamHelper
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -7332,7 +7325,6 @@ EnsureActorWasCreatedInternal
 }
 }
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 BlobChild
 *
 GetBlobChild
@@ -7346,6 +7338,7 @@ private
 RemoteBlobSliceImpl
 (
 )
+override
 =
 default
 ;
@@ -7402,7 +7395,6 @@ NoteDyingActor
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 void
 GetName
 (
@@ -7413,7 +7405,6 @@ aName
 const
 override
 ;
-virtual
 void
 GetPath
 (
@@ -7424,7 +7415,6 @@ aPath
 const
 override
 ;
-virtual
 void
 SetPath
 (
@@ -7435,7 +7425,6 @@ aPath
 )
 override
 ;
-virtual
 int64_t
 GetLastModified
 (
@@ -7445,7 +7434,6 @@ aRv
 )
 override
 ;
-virtual
 void
 SetLastModified
 (
@@ -7454,7 +7442,6 @@ aLastModified
 )
 override
 ;
-virtual
 void
 GetMozFullPath
 (
@@ -7468,7 +7455,6 @@ aRv
 const
 override
 ;
-virtual
 void
 GetMozFullPathInternal
 (
@@ -7482,7 +7468,6 @@ aRv
 const
 override
 ;
-virtual
 bool
 IsDirectory
 (
@@ -7490,7 +7475,6 @@ IsDirectory
 const
 override
 ;
-virtual
 uint64_t
 GetSize
 (
@@ -7500,7 +7484,6 @@ aRv
 )
 override
 ;
-virtual
 void
 GetType
 (
@@ -7510,7 +7493,6 @@ aType
 )
 override
 ;
-virtual
 uint64_t
 GetSerialNumber
 (
@@ -7518,7 +7500,6 @@ GetSerialNumber
 const
 override
 ;
-virtual
 already_AddRefed
 <
 BlobImpl
@@ -7539,7 +7520,6 @@ aRv
 )
 override
 ;
-virtual
 const
 nsTArray
 <
@@ -7555,7 +7535,6 @@ GetSubBlobImpls
 const
 override
 ;
-virtual
 void
 GetInternalStream
 (
@@ -7569,14 +7548,12 @@ aRv
 )
 override
 ;
-virtual
 int64_t
 GetFileId
 (
 )
 override
 ;
-virtual
 nsresult
 GetSendInfo
 (
@@ -7596,7 +7573,6 @@ aCharset
 )
 override
 ;
-virtual
 nsresult
 GetMutable
 (
@@ -7607,7 +7583,6 @@ aMutable
 const
 override
 ;
-virtual
 nsresult
 SetMutable
 (
@@ -7616,7 +7591,6 @@ aMutable
 )
 override
 ;
-virtual
 void
 SetLazyData
 (
@@ -7635,7 +7609,6 @@ aLastModifiedDate
 )
 override
 ;
-virtual
 bool
 IsMemoryFile
 (
@@ -7643,7 +7616,6 @@ IsMemoryFile
 const
 override
 ;
-virtual
 bool
 IsSizeUnknown
 (
@@ -7651,7 +7623,6 @@ IsSizeUnknown
 const
 override
 ;
-virtual
 bool
 IsDateUnknown
 (
@@ -7659,7 +7630,6 @@ IsDateUnknown
 const
 override
 ;
-virtual
 bool
 IsFile
 (
@@ -7667,7 +7637,6 @@ IsFile
 const
 override
 ;
-virtual
 bool
 MayBeClonedToOtherThreads
 (
@@ -7675,7 +7644,6 @@ MayBeClonedToOtherThreads
 const
 override
 ;
-virtual
 BlobChild
 *
 GetBlobChild
@@ -7683,7 +7651,6 @@ GetBlobChild
 )
 override
 ;
-virtual
 BlobParent
 *
 GetBlobParent
@@ -7697,6 +7664,7 @@ private
 RemoteBlobImpl
 (
 )
+override
 {
 MOZ_ASSERT_IF
 (

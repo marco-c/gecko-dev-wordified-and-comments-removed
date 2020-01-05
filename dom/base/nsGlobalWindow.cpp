@@ -3930,7 +3930,6 @@ Wrapper
 )
 {
 }
-virtual
 bool
 finalizeInBackground
 (
@@ -3949,7 +3948,6 @@ return
 false
 ;
 }
-virtual
 bool
 getOwnPropertyDescriptor
 (
@@ -3988,7 +3986,6 @@ desc
 const
 override
 ;
-virtual
 bool
 defineProperty
 (
@@ -4033,7 +4030,6 @@ result
 const
 override
 ;
-virtual
 bool
 ownPropertyKeys
 (
@@ -4059,7 +4055,6 @@ props
 const
 override
 ;
-virtual
 bool
 delete_
 (
@@ -4093,7 +4088,6 @@ result
 const
 override
 ;
-virtual
 bool
 getPrototypeIfOrdinary
 (
@@ -4125,7 +4119,6 @@ protop
 const
 override
 ;
-virtual
 bool
 enumerate
 (
@@ -4154,7 +4147,6 @@ vp
 const
 override
 ;
-virtual
 bool
 preventExtensions
 (
@@ -4180,7 +4172,6 @@ result
 const
 override
 ;
-virtual
 bool
 isExtensible
 (
@@ -4203,7 +4194,6 @@ extensible
 const
 override
 ;
-virtual
 bool
 has
 (
@@ -4234,7 +4224,6 @@ bp
 const
 override
 ;
-virtual
 bool
 get
 (
@@ -4284,7 +4273,6 @@ vp
 const
 override
 ;
-virtual
 bool
 set
 (
@@ -4340,7 +4328,6 @@ result
 const
 override
 ;
-virtual
 bool
 getPropertyDescriptor
 (
@@ -4379,7 +4366,6 @@ desc
 const
 override
 ;
-virtual
 bool
 hasOwn
 (
@@ -4410,7 +4396,6 @@ bp
 const
 override
 ;
-virtual
 bool
 getOwnEnumerablePropertyKeys
 (
@@ -4436,7 +4421,6 @@ props
 const
 override
 ;
-virtual
 const
 char
 *
@@ -4458,7 +4442,6 @@ wrapper
 const
 override
 ;
-virtual
 void
 finalize
 (
@@ -4472,7 +4455,6 @@ proxy
 const
 override
 ;
-virtual
 bool
 isCallable
 (
@@ -4487,7 +4469,6 @@ return
 false
 ;
 }
-virtual
 bool
 isConstructor
 (
@@ -4502,7 +4483,6 @@ return
 false
 ;
 }
-virtual
 bool
 watch
 (
@@ -4539,7 +4519,6 @@ callable
 const
 override
 ;
-virtual
 bool
 unwatch
 (
@@ -6421,7 +6400,6 @@ nsOuterWindowProxy
 )
 {
 }
-virtual
 const
 char
 *
@@ -27231,11 +27209,11 @@ override
 ;
 private
 :
-virtual
 ~
 FullscreenTransitionTask
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -38386,13 +38364,12 @@ js
 :
 CompartmentFilter
 {
-virtual
 bool
 match
 (
 JSCompartment
 *
-c
+aC
 )
 const
 override
@@ -38410,7 +38387,7 @@ get
 (
 JS_GetCompartmentPrincipals
 (
-c
+aC
 )
 )
 ;

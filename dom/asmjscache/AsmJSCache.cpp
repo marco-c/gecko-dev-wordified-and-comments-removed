@@ -1314,6 +1314,7 @@ nullptr
 FileDescriptorHolder
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -1665,6 +1666,7 @@ private
 ParentRunnable
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -2066,7 +2068,6 @@ return
 ;
 }
 }
-virtual
 void
 DirectoryLockAcquired
 (
@@ -2076,7 +2077,6 @@ aLock
 )
 override
 ;
-virtual
 void
 DirectoryLockFailed
 (
@@ -4765,6 +4765,7 @@ private
 ChildRunnable
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -6353,6 +6354,7 @@ Client
 Client
 (
 )
+override
 =
 default
 ;
@@ -6376,7 +6378,6 @@ Release
 )
 override
 ;
-virtual
 Type
 GetType
 (
@@ -6387,7 +6388,6 @@ return
 ASMJS
 ;
 }
-virtual
 nsresult
 InitOrigin
 (
@@ -6427,7 +6427,6 @@ aUsageInfo
 )
 ;
 }
-virtual
 nsresult
 GetUsageForOrigin
 (
@@ -6716,7 +6715,6 @@ return
 NS_OK
 ;
 }
-virtual
 void
 OnOriginClearCompleted
 (
@@ -6730,7 +6728,6 @@ aOrigin
 override
 {
 }
-virtual
 void
 ReleaseIOThreadObjects
 (
@@ -6738,7 +6735,6 @@ ReleaseIOThreadObjects
 override
 {
 }
-virtual
 void
 AbortOperations
 (
@@ -6750,7 +6746,6 @@ aOrigin
 override
 {
 }
-virtual
 void
 AbortOperationsForProcess
 (
@@ -6760,7 +6755,6 @@ aContentParentId
 override
 {
 }
-virtual
 void
 StartIdleMaintenance
 (
@@ -6768,7 +6762,6 @@ StartIdleMaintenance
 override
 {
 }
-virtual
 void
 StopIdleMaintenance
 (
@@ -6776,7 +6769,6 @@ StopIdleMaintenance
 override
 {
 }
-virtual
 void
 ShutdownWorkThreads
 (

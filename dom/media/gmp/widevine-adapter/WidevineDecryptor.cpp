@@ -754,6 +754,7 @@ mTimestamp
 WidevineDecryptedBlock
 (
 )
+override
 {
 if
 (
@@ -1143,6 +1144,7 @@ aSize
 WidevineBuffer
 (
 )
+override
 {
 Log
 (

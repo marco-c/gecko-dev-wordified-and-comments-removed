@@ -19023,11 +19023,11 @@ sRunnableListHead
 )
 ;
 }
-virtual
 ~
 nsPluginDestroyRunnable
 (
 )
+override
 {
 PR_REMOVE_LINK
 (
