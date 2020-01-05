@@ -90,6 +90,8 @@ modules
 /
 test
 /
+browser
+/
 contentSearchSuggestions
 .
 sjs

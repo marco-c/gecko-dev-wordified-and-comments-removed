@@ -90,6 +90,8 @@ modules
 /
 test
 /
+browser
+/
 usageTelemetrySearchSuggestions
 .
 sjs

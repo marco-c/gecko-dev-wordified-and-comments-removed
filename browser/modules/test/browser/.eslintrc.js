@@ -23,6 +23,9 @@ extends
 .
 .
 /
+.
+.
+/
 testing
 /
 mochitest

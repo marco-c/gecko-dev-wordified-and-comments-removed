@@ -210,14 +210,6 @@ true
 }
 )
 ;
-gAppInfo
-=
-tmp
-.
-getAppInfo
-(
-)
-;
 }
 function
 initApp
