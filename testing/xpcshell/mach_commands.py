@@ -354,6 +354,7 @@ append
 src_build_path
 )
         
+return
 self
 .
 run_suite
