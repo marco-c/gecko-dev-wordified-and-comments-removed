@@ -1365,7 +1365,7 @@ ICStubReg
 ;
 masm
 .
-loadPtr
+jump
 (
 Address
 (
@@ -1377,14 +1377,6 @@ offsetOfStubCode
 (
 )
 )
-r0
-)
-;
-masm
-.
-Br
-(
-x0
 )
 ;
 }

@@ -1431,9 +1431,6 @@ loadPtr
 Address
 (
 ICStubReg
-(
-int32_t
-)
 ICStub
 :
 :
@@ -1451,9 +1448,6 @@ jmp
 Operand
 (
 ICStubReg
-(
-int32_t
-)
 ICStub
 :
 :
