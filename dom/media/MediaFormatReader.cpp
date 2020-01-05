@@ -12440,8 +12440,6 @@ const
 SeekTarget
 &
 aTarget
-int64_t
-aUnused
 )
 {
 MOZ_ASSERT

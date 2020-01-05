@@ -1622,8 +1622,6 @@ const
 SeekTarget
 &
 aTarget
-int64_t
-aEndTime
 )
 {
 MOZ_ASSERT

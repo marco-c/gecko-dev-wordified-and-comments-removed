@@ -633,13 +633,6 @@ const
 SeekTarget
 &
 aTarget
-const
-media
-:
-:
-TimeUnit
-&
-aEndTime
 )
 {
 MOZ_ASSERT
@@ -678,7 +671,6 @@ InvokeAsync
 SeekTarget
 &
 &
-int64_t
 >
 (
 mReader
@@ -701,11 +693,6 @@ Seek
 Move
 (
 adjustedTarget
-)
-aEndTime
-.
-ToMicroseconds
-(
 )
 )
 ;

@@ -426,8 +426,6 @@ const
 SeekTarget
 &
 aTarget
-int64_t
-aEndTime
 )
 =
 0
