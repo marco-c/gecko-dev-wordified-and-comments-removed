@@ -285,6 +285,9 @@ bad_certificate_hash_value
 no_application_protocol
 =
 120
+no_alert
+=
+256
 }
 SSL3AlertDescription
 ;
@@ -666,7 +669,7 @@ TLSFinished
 typedef
 struct
 {
-PRUint32
+PRTime
 received_timestamp
 ;
 PRUint32

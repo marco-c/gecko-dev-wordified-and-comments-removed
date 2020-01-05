@@ -1939,7 +1939,7 @@ append
 SECStatus
 rv
 ;
-PRUint32
+PRTime
 age
 ;
 unsigned
@@ -2049,7 +2049,7 @@ loser
 ;
 age
 =
-ssl_Time
+PR_Now
 (
 )
 -
@@ -2057,6 +2057,11 @@ session_ticket
 -
 >
 received_timestamp
+;
+age
+/
+=
+PR_USEC_PER_MSEC
 ;
 age
 +
@@ -3041,7 +3046,6 @@ return
 -
 1
 ;
-}
 xtnData
 -
 >
@@ -3057,6 +3061,7 @@ numAdvertised
 =
 ssl_tls13_early_data_xtn
 ;
+}
 return
 extension_length
 ;

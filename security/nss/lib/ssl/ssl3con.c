@@ -47589,7 +47589,7 @@ newSessionTicket
 .
 received_timestamp
 =
-ssl_Time
+PR_Now
 (
 )
 ;

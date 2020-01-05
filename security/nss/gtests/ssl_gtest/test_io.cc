@@ -1747,6 +1747,10 @@ if
 (
 !
 peer_
+|
+|
+!
+writeable_
 )
 {
 PR_SetError

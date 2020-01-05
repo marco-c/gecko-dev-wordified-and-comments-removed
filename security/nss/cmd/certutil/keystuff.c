@@ -252,7 +252,6 @@ RAND_BUF_SIZE
 ;
 int
 fd
-count
 ;
 int
 c
@@ -261,6 +260,9 @@ int
 rv
 =
 0
+;
+size_t
+count
 ;
 #
 ifdef
