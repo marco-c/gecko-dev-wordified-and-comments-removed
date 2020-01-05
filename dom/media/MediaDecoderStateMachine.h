@@ -1510,11 +1510,6 @@ SeekTask
 >
 mSeekTask
 ;
-void
-DiscardSeekTaskIfExist
-(
-)
-;
 int64_t
 mFragmentEndTime
 ;
