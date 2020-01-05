@@ -772,7 +772,7 @@ open
 (
 js_template_path
 '
-r
+rb
 '
 )
 as
@@ -828,7 +828,7 @@ open
 (
 destination_path
 '
-w
+wb
 '
 )
 as
