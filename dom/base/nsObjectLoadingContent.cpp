@@ -2833,6 +2833,14 @@ UnloadObject
 )
 ;
 }
+if
+(
+mType
+=
+=
+eType_Plugin
+)
+{
 nsIDocument
 *
 doc
@@ -2880,6 +2888,7 @@ NS_DispatchToCurrentThread
 ev
 )
 ;
+}
 }
 }
 nsObjectLoadingContent
