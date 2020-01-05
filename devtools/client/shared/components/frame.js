@@ -584,17 +584,9 @@ tooltip
 =
 long
 ;
-const
-shouldDisplayLine
-=
-isLinkable
-&
-&
-line
-;
 if
 (
-shouldDisplayLine
+line
 )
 {
 tooltip
@@ -788,7 +780,7 @@ displaySource
 ;
 if
 (
-shouldDisplayLine
+line
 )
 {
 let
