@@ -5055,17 +5055,6 @@ optimizations
 ]
 )
         
-optimizations
-.
-append
-(
-[
-'
-seta
-'
-]
-)
-        
 if
 '
 when
