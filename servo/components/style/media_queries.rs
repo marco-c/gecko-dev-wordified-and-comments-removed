@@ -590,6 +590,7 @@ compute_Au_with_font_size
 (
 length
 initial_font_size
+initial_font_size
 )
 )
 }
