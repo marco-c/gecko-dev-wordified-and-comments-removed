@@ -518,7 +518,8 @@ GeckoChildProcessHost
 if
 (
 mChildProcessHandle
->
+!
+=
 0
 )
 {
