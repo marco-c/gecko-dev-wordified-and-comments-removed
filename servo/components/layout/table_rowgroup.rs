@@ -274,6 +274,7 @@ from_node_and_fragment
 (
 node
 fragment
+None
 )
 column_intrinsic_inline_sizes
 :

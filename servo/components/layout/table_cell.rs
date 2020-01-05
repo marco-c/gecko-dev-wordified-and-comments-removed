@@ -242,6 +242,7 @@ from_node_and_fragment
 (
 node
 fragment
+None
 )
 collapsed_borders
 :
