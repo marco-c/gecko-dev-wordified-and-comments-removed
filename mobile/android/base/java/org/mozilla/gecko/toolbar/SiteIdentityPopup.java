@@ -2716,6 +2716,7 @@ true
 ;
 }
 }
+public
 void
 setSiteIdentity
 (
