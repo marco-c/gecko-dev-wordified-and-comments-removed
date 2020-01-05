@@ -28,6 +28,12 @@ parse_one_rule
 }
 ;
 use
+error_reporting
+:
+:
+NullReporter
+;
+use
 parser
 :
 :
@@ -128,7 +134,6 @@ stylesheets
 :
 {
 CssRuleType
-MemoryHoleReporter
 Stylesheet
 VendorPrefix
 }
@@ -780,7 +785,7 @@ Self
 let
 error_reporter
 =
-MemoryHoleReporter
+NullReporter
 ;
 let
 context

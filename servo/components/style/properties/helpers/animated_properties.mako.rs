@@ -3125,7 +3125,7 @@ use
 error_reporting
 :
 :
-StdoutErrorReporter
+RustLogReporter
 ;
 use
 properties
@@ -3487,7 +3487,7 @@ custom_properties
 let
 reporter
 =
-StdoutErrorReporter
+RustLogReporter
 ;
 match
 id

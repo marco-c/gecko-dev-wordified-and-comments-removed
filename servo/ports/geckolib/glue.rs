@@ -148,7 +148,7 @@ style
 error_reporting
 :
 :
-StdoutErrorReporter
+RustLogReporter
 ;
 use
 style
@@ -1377,7 +1377,7 @@ Box
 :
 new
 (
-StdoutErrorReporter
+RustLogReporter
 )
 local_context_creation_data
 :
@@ -3721,7 +3721,7 @@ empty
 shared_lock
 None
 &
-StdoutErrorReporter
+RustLogReporter
 0u64
 )
 )
@@ -3997,7 +3997,7 @@ media
 shared_lock
 loader
 &
-StdoutErrorReporter
+RustLogReporter
 0u64
 )
 )
@@ -4157,7 +4157,7 @@ input
 url_data
 loader
 &
-StdoutErrorReporter
+RustLogReporter
 )
 ;
 }
@@ -7152,7 +7152,7 @@ data
 let
 reporter
 =
-StdoutErrorReporter
+RustLogReporter
 ;
 let
 context
@@ -7333,7 +7333,7 @@ data
 let
 reporter
 =
-StdoutErrorReporter
+RustLogReporter
 ;
 let
 context
@@ -8441,7 +8441,7 @@ property_id
 value
 url_data
 &
-StdoutErrorReporter
+RustLogReporter
 length_parsing_mode
 )
 {
@@ -9056,7 +9056,7 @@ dummy_url_data
 let
 reporter
 =
-StdoutErrorReporter
+RustLogReporter
 ;
 let
 context
@@ -9290,7 +9290,7 @@ dummy_url_data
 let
 reporter
 =
-StdoutErrorReporter
+RustLogReporter
 ;
 let
 context
@@ -9397,7 +9397,7 @@ dummy_url_data
 let
 reporter
 =
-StdoutErrorReporter
+RustLogReporter
 ;
 let
 context
@@ -12024,7 +12024,7 @@ to_string
 let
 error_reporter
 =
-StdoutErrorReporter
+RustLogReporter
 ;
 let
 context
@@ -12339,7 +12339,7 @@ id
 value
 url_data
 &
-StdoutErrorReporter
+RustLogReporter
 LengthParsingMode
 :
 :
@@ -12437,7 +12437,7 @@ dummy_url_data
 let
 reporter
 =
-StdoutErrorReporter
+RustLogReporter
 ;
 let
 context

@@ -67,7 +67,7 @@ use
 error_reporting
 :
 :
-StdoutErrorReporter
+RustLogReporter
 ;
 use
 font_metrics
@@ -2032,7 +2032,7 @@ parse_style_attribute
 value
 url_data
 &
-StdoutErrorReporter
+RustLogReporter
 )
 }
 fn

@@ -831,7 +831,10 @@ style
 error_reporting
 :
 :
-StdoutErrorReporter
+{
+NullReporter
+RustLogReporter
+}
 ;
 use
 style
@@ -10422,7 +10425,7 @@ clone
 )
 None
 &
-StdoutErrorReporter
+NullReporter
 )
 )
 }
@@ -10571,7 +10574,7 @@ clone
 )
 None
 &
-StdoutErrorReporter
+RustLogReporter
 )
 )
 ;

@@ -38,7 +38,7 @@ use
 error_reporting
 :
 :
-StdoutErrorReporter
+RustLogReporter
 ;
 use
 font_metrics
@@ -1922,7 +1922,7 @@ p
 )
 None
 &
-StdoutErrorReporter
+RustLogReporter
 font_metrics
 cascade_flags
 )
@@ -2443,7 +2443,7 @@ parent
 )
 None
 &
-StdoutErrorReporter
+RustLogReporter
 font_metrics
 CascadeFlags
 :
@@ -3943,7 +3943,7 @@ parent_style
 )
 None
 &
-StdoutErrorReporter
+RustLogReporter
 &
 metrics
 CascadeFlags
