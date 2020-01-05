@@ -119,11 +119,6 @@ BroadcastChannelParent
 cpp
 '
 '
-BroadcastChannelParentMessage
-.
-cpp
-'
-'
 BroadcastChannelService
 .
 cpp
