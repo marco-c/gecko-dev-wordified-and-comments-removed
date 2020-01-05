@@ -126,3 +126,10 @@ string
 -
 cache
 "
+branch
+=
+"
+pre
+-
+rustup
+"
