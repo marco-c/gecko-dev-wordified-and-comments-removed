@@ -43728,7 +43728,7 @@ IntersectionObserver
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -43856,5 +43856,17 @@ outline
 layers
 "
 2
+)
+;
+user_pref
+(
+"
+extensions
+.
+throw_on_docgroup_mismatch
+.
+enabled
+"
+true
 )
 ;
