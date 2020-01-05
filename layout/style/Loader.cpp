@@ -7302,6 +7302,8 @@ if
 httpChannel
 )
 {
+rv
+=
 httpChannel
 -
 >
@@ -7333,6 +7335,12 @@ q
 false
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 nsCOMPtr
 <
 nsIURI
@@ -7350,6 +7358,9 @@ if
 (
 referrerURI
 )
+{
+rv
+=
 httpChannel
 -
 >
@@ -7367,6 +7378,13 @@ GetReferrerPolicy
 )
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
+}
 nsCOMPtr
 <
 nsIHttpChannelInternal
@@ -7383,6 +7401,8 @@ if
 internalChannel
 )
 {
+rv
+=
 internalChannel
 -
 >
@@ -7393,6 +7413,12 @@ sriMetadata
 GetIntegrityString
 (
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }

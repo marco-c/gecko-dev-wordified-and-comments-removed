@@ -2970,6 +2970,8 @@ if
 httpChannel
 )
 {
+rv
+=
 httpChannel
 -
 >
@@ -2985,6 +2987,12 @@ mDocument
 GetReferrerPolicy
 (
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsAutoCString
@@ -3049,6 +3057,8 @@ q
 )
 ;
 }
+rv
+=
 httpChannel
 -
 >
@@ -3062,6 +3072,12 @@ Accept
 )
 accept
 false
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 if
@@ -3084,6 +3100,8 @@ FLAG_FORMAT_WOFF2
 )
 )
 {
+rv
+=
 httpChannel
 -
 >
@@ -3104,6 +3122,12 @@ identity
 "
 )
 false
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
