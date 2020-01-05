@@ -2606,6 +2606,18 @@ fmt
 )
 )
 )
+            
+files
+.
+append
+(
+self
+.
+_get_summary_filename
+(
+fmt
+)
+)
         
 bucket
 =
