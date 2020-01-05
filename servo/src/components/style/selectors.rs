@@ -362,6 +362,7 @@ SimpleSelector
 AnyLink
 Link
 Visited
+Hover
 FirstChild
 LastChild
 OnlyChild
@@ -1195,6 +1196,9 @@ Link
 |
 &
 Visited
+|
+&
+Hover
 |
 &
 FirstChild
@@ -3084,6 +3088,15 @@ visited
 Some
 (
 Visited
+)
+"
+hover
+"
+=
+>
+Some
+(
+Hover
 )
 "
 first

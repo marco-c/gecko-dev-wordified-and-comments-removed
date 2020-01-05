@@ -213,4 +213,14 @@ self
 a
 Namespace
 ;
+fn
+get_hover_state
+(
+&
+self
+)
+-
+>
+bool
+;
 }

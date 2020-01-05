@@ -84,6 +84,13 @@ MouseWindowEventClass
 (
 MouseWindowEvent
 )
+MouseWindowMoveEventClass
+(
+Point2D
+<
+f32
+>
+)
 ScrollWindowEvent
 (
 Point2D

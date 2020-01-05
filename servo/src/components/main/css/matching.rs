@@ -226,6 +226,14 @@ layout_data
 =
 >
 {
+layout_data
+.
+data
+.
+init_applicable_declarations
+(
+)
+;
 stylist
 .
 push_applicable_declarations
