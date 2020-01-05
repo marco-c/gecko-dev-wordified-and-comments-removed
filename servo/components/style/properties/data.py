@@ -1113,6 +1113,9 @@ False
 allow_quirks
 =
 False
+vector
+=
+False
 )
 :
         
@@ -1356,6 +1359,12 @@ self
 allow_quirks
 =
 allow_quirks
+        
+self
+.
+is_vector
+=
+vector
         
 self
 .
