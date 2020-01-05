@@ -356,7 +356,12 @@ function
 )
 {
 return
-kPermissionIDs
+Object
+.
+keys
+(
+gPermissionObject
+)
 ;
 }
 getAvailableStates
