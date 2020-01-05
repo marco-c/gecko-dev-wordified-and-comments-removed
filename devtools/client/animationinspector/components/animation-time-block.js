@@ -1385,6 +1385,17 @@ if
 state
 .
 easing
+&
+&
+state
+.
+easing
+!
+=
+=
+"
+linear
+"
 )
 {
 text
