@@ -92,7 +92,7 @@ const
 uint32_t
 JumpImmediateRange
 =
-25
+20
 *
 1024
 *
