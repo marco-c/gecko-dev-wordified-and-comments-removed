@@ -2683,8 +2683,10 @@ length
 {
 blobImpl
 =
-new
 BlobImplStream
+:
+:
+Create
 (
 inputStream
 aMetadata
@@ -2728,8 +2730,10 @@ length
 {
 blobImpl
 =
-new
 BlobImplStream
+:
+:
+Create
 (
 inputStream
 aMetadata
