@@ -211,13 +211,6 @@ NetMonitor
 :
 ResponseImageThumbnailAvailable
 "
-SIDEBAR_POPULATED
-:
-"
-NetMonitor
-:
-SidebarPopulated
-"
 PLACEHOLDER_CHARTS_DISPLAYED
 :
 "

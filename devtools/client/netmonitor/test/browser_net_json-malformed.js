@@ -195,12 +195,15 @@ mousedown
 }
 document
 .
-getElementById
+querySelector
 (
 "
+.
+network
+-
 details
 -
-pane
+panel
 -
 toggle
 "

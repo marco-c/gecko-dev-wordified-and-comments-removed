@@ -158,13 +158,6 @@ view
 js
 '
 '
-sidebar
--
-view
-.
-js
-'
-'
 sort
 -
 predicates

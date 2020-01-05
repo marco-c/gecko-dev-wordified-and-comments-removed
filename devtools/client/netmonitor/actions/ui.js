@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-OPEN_SIDEBAR
+OPEN_NETWORK_DETAILS
 OPEN_STATISTICS
 SELECT_DETAILS_PANEL_TAB
 WATERFALL_RESIZE
@@ -22,7 +22,7 @@ constants
 )
 ;
 function
-openSidebar
+openNetworkDetails
 (
 open
 )
@@ -31,7 +31,7 @@ return
 {
 type
 :
-OPEN_SIDEBAR
+OPEN_NETWORK_DETAILS
 open
 }
 ;
@@ -82,7 +82,7 @@ id
 ;
 }
 function
-toggleSidebar
+toggleNetworkDetails
 (
 )
 {
@@ -95,7 +95,7 @@ getState
 >
 dispatch
 (
-openSidebar
+openNetworkDetails
 (
 !
 getState
@@ -104,7 +104,7 @@ getState
 .
 ui
 .
-sidebarOpen
+networkDetailsOpen
 )
 )
 ;
@@ -142,11 +142,11 @@ module
 exports
 =
 {
-openSidebar
+openNetworkDetails
 openStatistics
 resizeWaterfall
 selectDetailsPanelTab
-toggleSidebar
+toggleNetworkDetails
 toggleStatistics
 }
 ;
