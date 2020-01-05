@@ -607,7 +607,7 @@ eviction_threshold
 .
 audio
 "
-10
+12
 *
 1024
 *
