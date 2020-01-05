@@ -2366,7 +2366,7 @@ flash
 =
 =
 "
-function
+object
 "
 "
 <
