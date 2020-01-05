@@ -644,9 +644,12 @@ loader
 (
 )
 ;
+(
+*
 loader
 .
 resource_task
+)
 .
 clone
 (

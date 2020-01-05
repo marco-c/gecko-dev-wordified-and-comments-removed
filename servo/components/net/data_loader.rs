@@ -193,6 +193,7 @@ query
 {
 Some
 (
+ref
 query
 )
 =
@@ -211,7 +212,6 @@ scheme_data
 .
 push_str
 (
-&
 query
 )
 ;

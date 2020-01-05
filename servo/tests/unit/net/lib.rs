@@ -12,6 +12,10 @@ box_raw
 ]
 extern
 crate
+ipc_channel
+;
+extern
+crate
 net
 ;
 extern
