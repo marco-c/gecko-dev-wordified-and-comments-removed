@@ -981,7 +981,9 @@ safeGetCharPref
 (
 getPrefActionForType
 (
-feedType
+feed
+.
+type
 )
 "
 bookmarks
