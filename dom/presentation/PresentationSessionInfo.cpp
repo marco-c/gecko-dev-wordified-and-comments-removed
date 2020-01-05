@@ -5837,7 +5837,7 @@ NS_ERROR_DOM_OPERATION_ERR
 return
 ;
 }
-HTMLIFrameElement
+Element
 *
 frame
 =
@@ -5848,7 +5848,7 @@ rv
 =
 UNWRAP_OBJECT
 (
-HTMLIFrameElement
+Element
 obj
 frame
 )
