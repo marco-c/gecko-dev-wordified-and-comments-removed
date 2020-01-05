@@ -795,7 +795,6 @@ mTextRenderer
 new
 TextRenderer
 (
-aCompositor
 )
 ;
 mDiagnostics
@@ -3031,6 +3030,7 @@ mTextRenderer
 >
 RenderText
 (
+mCompositor
 text
 IntPoint
 (
@@ -6742,14 +6742,6 @@ CancelFrame
 mCompositor
 =
 aNewCompositor
-;
-mTextRenderer
-=
-new
-TextRenderer
-(
-aNewCompositor
-)
 ;
 mTwoPassTmpTarget
 =
