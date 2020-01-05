@@ -286,6 +286,7 @@ text
 ;
 [
 SetterThrows
+NeedsSubjectPrincipal
 ]
 attribute
 DOMString

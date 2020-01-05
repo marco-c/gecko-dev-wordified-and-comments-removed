@@ -6909,6 +6909,17 @@ const
 nsAString
 &
 aURI
+const
+mozilla
+:
+:
+Maybe
+<
+nsIPrincipal
+*
+>
+&
+aSubjectPrincipal
 mozilla
 :
 :

@@ -228,6 +228,9 @@ attribute
 boolean
 noResize
 ;
+[
+NeedsSubjectPrincipal
+]
 readonly
 attribute
 Document

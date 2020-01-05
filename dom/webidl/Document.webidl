@@ -2619,6 +2619,7 @@ Func
 "
 IsChromeOrXBL
 "
+NeedsSubjectPrincipal
 ]
 void
 loadBindingDocument

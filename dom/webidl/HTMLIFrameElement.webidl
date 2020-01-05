@@ -278,6 +278,9 @@ attribute
 DOMString
 referrerPolicy
 ;
+[
+NeedsSubjectPrincipal
+]
 readonly
 attribute
 Document
@@ -391,6 +394,9 @@ HTMLIFrameElement
 /
 /
 GetSVGDocument
+[
+NeedsSubjectPrincipal
+]
 Document
 ?
 getSVGDocument
