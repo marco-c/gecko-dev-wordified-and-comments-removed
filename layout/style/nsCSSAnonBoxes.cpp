@@ -237,6 +237,17 @@ nsIAtom
 aPseudo
 )
 {
+MOZ_ASSERT
+(
+nsCSSAnonBoxes
+:
+:
+IsAnonBox
+(
+aPseudo
+)
+)
+;
 return
 StringBeginsWith
 (

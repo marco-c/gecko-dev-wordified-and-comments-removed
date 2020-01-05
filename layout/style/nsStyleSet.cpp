@@ -10878,7 +10878,7 @@ ResolveXULTreePseudoStyle
 Element
 *
 aParentElement
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 aPseudoTag
 nsStyleContext

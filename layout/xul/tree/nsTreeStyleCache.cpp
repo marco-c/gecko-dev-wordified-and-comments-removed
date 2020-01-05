@@ -166,7 +166,7 @@ aContent
 nsStyleContext
 *
 aContext
-nsIAtom
+nsICSSAnonBoxPseudo
 *
 aPseudoElement
 const
@@ -175,6 +175,17 @@ AtomArray
 aInputWord
 )
 {
+MOZ_ASSERT
+(
+nsCSSAnonBoxes
+:
+:
+IsTreePseudoElement
+(
+aPseudoElement
+)
+)
+;
 uint32_t
 count
 =
