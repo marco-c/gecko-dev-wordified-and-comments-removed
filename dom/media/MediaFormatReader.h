@@ -1677,6 +1677,9 @@ NotifyDataArrivedPromise
 >
 mNotifyDataArrivedPromise
 ;
+bool
+mPendingNotifyDataArrived
+;
 void
 OnDemuxFailed
 (
