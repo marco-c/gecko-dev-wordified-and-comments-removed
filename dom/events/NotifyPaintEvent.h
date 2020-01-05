@@ -92,6 +92,8 @@ nsInvalidateRequestList
 aInvalidateRequests
 uint64_t
 aTransactionId
+DOMHighResTimeStamp
+aTimeStamp
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -209,6 +211,11 @@ TransactionId
 (
 )
 ;
+DOMHighResTimeStamp
+PaintTimeStamp
+(
+)
+;
 protected
 :
 ~
@@ -235,6 +242,9 @@ mInvalidateRequests
 ;
 uint64_t
 mTransactionId
+;
+DOMHighResTimeStamp
+mTimeStamp
 ;
 }
 ;
@@ -287,6 +297,10 @@ aInvalidateRequests
 nullptr
 uint64_t
 aTransactionId
+=
+0
+DOMHighResTimeStamp
+aTimeStamp
 =
 0
 )

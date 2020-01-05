@@ -130,5 +130,10 @@ long
 long
 transactionId
 ;
+readonly
+attribute
+DOMHighResTimeStamp
+paintTimeStamp
+;
 }
 ;

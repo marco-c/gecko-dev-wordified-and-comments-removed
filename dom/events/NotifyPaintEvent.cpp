@@ -92,6 +92,8 @@ nsInvalidateRequestList
 aInvalidateRequests
 uint64_t
 aTransactionId
+DOMHighResTimeStamp
+aTimeStamp
 )
 :
 Event
@@ -136,6 +138,10 @@ mRequests
 mTransactionId
 =
 aTransactionId
+;
+mTimeStamp
+=
+aTimeStamp
 ;
 }
 NS_INTERFACE_MAP_BEGIN
@@ -850,6 +856,18 @@ return
 mTransactionId
 ;
 }
+DOMHighResTimeStamp
+NotifyPaintEvent
+:
+:
+PaintTimeStamp
+(
+)
+{
+return
+mTimeStamp
+;
+}
 }
 }
 using
@@ -885,6 +903,8 @@ nsInvalidateRequestList
 aInvalidateRequests
 uint64_t
 aTransactionId
+DOMHighResTimeStamp
+aTimeStamp
 )
 {
 RefPtr
@@ -902,6 +922,7 @@ aEvent
 aEventMessage
 aInvalidateRequests
 aTransactionId
+aTimeStamp
 )
 ;
 return
