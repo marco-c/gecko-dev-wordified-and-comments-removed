@@ -756,6 +756,10 @@ create_source_surface_from_data
 image
 .
 pixels
+.
+as_slice
+(
+)
 size
 stride
 as
