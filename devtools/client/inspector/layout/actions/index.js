@@ -25,6 +25,9 @@ createEnum
 (
 [
 "
+UPDATE_GRID_COLOR
+"
+"
 UPDATE_GRID_HIGHLIGHTED
 "
 "

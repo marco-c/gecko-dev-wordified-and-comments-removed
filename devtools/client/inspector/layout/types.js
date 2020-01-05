@@ -45,6 +45,11 @@ id
 PropTypes
 .
 number
+color
+:
+PropTypes
+.
+string
 gridFragments
 :
 PropTypes

@@ -89,6 +89,13 @@ GridList
 propTypes
 :
 {
+getSwatchColorPickerTooltip
+:
+PropTypes
+.
+func
+.
+isRequired
 grids
 :
 PropTypes
@@ -104,6 +111,13 @@ Types
 grid
 )
 )
+.
+isRequired
+onSetGridOverlayColor
+:
+PropTypes
+.
+func
 .
 isRequired
 onToggleGridHighlighter
@@ -127,7 +141,9 @@ render
 {
 let
 {
+getSwatchColorPickerTooltip
 grids
+onSetGridOverlayColor
 onToggleGridHighlighter
 }
 =
@@ -180,7 +196,9 @@ grid
 GridItem
 (
 {
+getSwatchColorPickerTooltip
 grid
+onSetGridOverlayColor
 onToggleGridHighlighter
 }
 )
