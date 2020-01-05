@@ -426,7 +426,7 @@ self
 .
 software_update
 .
-get_update_url
+get_formatted_update_url
 (
 )
         
@@ -458,7 +458,7 @@ self
 .
 software_update
 .
-get_update_url
+get_formatted_update_url
 (
 True
 )

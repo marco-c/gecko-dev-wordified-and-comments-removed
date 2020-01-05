@@ -2410,27 +2410,13 @@ update_url
             
 self
 .
-puppeteer
+software_update
 .
-prefs
-.
-set_pref
-(
-"
-app
-.
-update
-.
-url
-"
+update_url
+=
 self
 .
 update_url
-                                          
-default_branch
-=
-True
-)
     
 def
 wait_for_download_finished
