@@ -35,6 +35,8 @@ BlobURLStoreError
 {
 InvalidFileID
 InvalidOrigin
+InvalidEntry
+External
 }
 #
 [

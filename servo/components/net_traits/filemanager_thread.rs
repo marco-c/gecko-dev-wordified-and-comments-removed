@@ -575,6 +575,15 @@ DecRef
 (
 SelectedFileId
 FileOrigin
+IpcSender
+<
+Result
+<
+(
+)
+BlobURLStoreError
+>
+>
 )
 IncRef
 (
