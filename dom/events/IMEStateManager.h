@@ -44,9 +44,6 @@ class
 nsIContent
 ;
 class
-nsIDOMMouseEvent
-;
-class
 nsIEditor
 ;
 class
@@ -320,7 +317,8 @@ aPresContext
 nsIContent
 *
 aContent
-nsIDOMMouseEvent
+const
+WidgetMouseEvent
 *
 aMouseEvent
 )
