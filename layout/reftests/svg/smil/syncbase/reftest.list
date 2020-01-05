@@ -1440,12 +1440,6 @@ Cross
 time
 container
 dependencies
-fails
--
-if
-(
-stylo
-)
 =
 =
 cross
@@ -1478,12 +1472,6 @@ box
 ref
 .
 xhtml
-fails
--
-if
-(
-stylo
-)
 =
 =
 cross

@@ -41,12 +41,6 @@ fail
 .
 svg
 fails
--
-if
-(
-!
-stylo
-)
 =
 =
 lreas_selflink_dtd_id

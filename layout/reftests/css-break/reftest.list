@@ -155,12 +155,6 @@ if
 !
 gtkWidget
 )
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
@@ -264,12 +258,6 @@ if
 Android
 8
 6627
-)
-fails
--
-if
-(
-stylo
 )
 =
 =

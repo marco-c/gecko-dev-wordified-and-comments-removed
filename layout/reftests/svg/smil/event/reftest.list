@@ -505,12 +505,6 @@ box
 ref
 .
 svg
-fails
--
-if
-(
-stylo
-)
 =
 =
 event

@@ -69,12 +69,6 @@ multiline
 empty
 .
 xul
-fails
--
-if
-(
-stylo
-)
 =
 =
 videocontrols

@@ -1,9 +1,3 @@
-fails
--
-if
-(
-stylo
-)
 =
 =
 input
@@ -32,12 +26,6 @@ image
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 button

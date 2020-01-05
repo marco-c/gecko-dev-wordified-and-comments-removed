@@ -1020,12 +1020,6 @@ ref
 .
 html
 fails
--
-if
-(
-!
-stylo
-)
 =
 =
 object
@@ -1056,12 +1050,6 @@ html
 bug
 1092436
 fails
--
-if
-(
-!
-stylo
-)
 =
 =
 object

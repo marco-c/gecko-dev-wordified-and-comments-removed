@@ -86,12 +86,6 @@ OSX
 1
 10
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 dynamic
@@ -120,12 +114,6 @@ OSX
 1010
 1
 10
-)
-fails
--
-if
-(
-stylo
 )
 =
 =

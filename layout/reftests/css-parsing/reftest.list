@@ -16,12 +16,6 @@ rule
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 invalid

@@ -190,12 +190,6 @@ winWidget
 100
 1000
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 tab

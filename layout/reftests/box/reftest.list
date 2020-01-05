@@ -160,12 +160,6 @@ vertical
 ref
 .
 xhtml
-fails
--
-if
-(
-stylo
-)
 =
 =
 flexbox
@@ -192,12 +186,6 @@ horizontal
 ref
 .
 xhtml
-fails
--
-if
-(
-stylo
-)
 =
 =
 flexbox

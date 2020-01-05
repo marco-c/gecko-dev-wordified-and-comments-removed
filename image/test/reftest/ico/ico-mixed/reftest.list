@@ -5,12 +5,6 @@ and
 PNG
 mixed
 tests
-fails
--
-if
-(
-stylo
-)
 =
 =
 mixed
