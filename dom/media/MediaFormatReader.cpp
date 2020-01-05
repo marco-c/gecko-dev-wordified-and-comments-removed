@@ -401,6 +401,10 @@ ReentrantMonitorAutoEnter
 aProofOfLock
 )
 ;
+static
+StaticMutex
+sMutex
+;
 ReentrantMonitor
 mMonitor
 ;
@@ -420,6 +424,12 @@ PromisePrivate
 mPromises
 ;
 }
+;
+StaticMutex
+DecoderAllocPolicy
+:
+:
+sMutex
 ;
 class
 DecoderAllocPolicy
@@ -569,6 +579,12 @@ Instance
 (
 )
 {
+StaticMutexAutoLock
+lock
+(
+sMutex
+)
+;
 static
 auto
 sPolicy
