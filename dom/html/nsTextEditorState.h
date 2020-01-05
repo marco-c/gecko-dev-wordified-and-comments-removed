@@ -338,6 +338,11 @@ aIgnoreWrap
 )
 const
 ;
+bool
+HasNonEmptyValue
+(
+)
+;
 void
 EmptyValue
 (
