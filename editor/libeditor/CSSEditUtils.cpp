@@ -2901,7 +2901,7 @@ AsGecko
 )
 -
 >
-GetValue
+GetPropertyValueByID
 (
 prop
 aValue

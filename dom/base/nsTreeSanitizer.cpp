@@ -5046,7 +5046,7 @@ eCSSProperty_binding
 aDeclaration
 -
 >
-RemoveProperty
+RemovePropertyByID
 (
 eCSSProperty_binding
 )
