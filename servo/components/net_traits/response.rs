@@ -595,7 +595,7 @@ is_network_error
 }
 pub
 fn
-get_actual_response
+actual_response
 (
 &
 self
