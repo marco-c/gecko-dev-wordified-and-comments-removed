@@ -29,15 +29,6 @@ rules
 :
 {
 "
-brace
--
-style
-"
-:
-"
-warn
-"
-"
 consistent
 -
 return
