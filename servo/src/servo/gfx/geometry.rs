@@ -43,6 +43,7 @@ num
 for
 au
 {
+pure
 fn
 add
 (
@@ -65,6 +66,7 @@ self
 other
 )
 }
+pure
 fn
 sub
 (
@@ -87,6 +89,7 @@ self
 other
 )
 }
+pure
 fn
 mul
 (
@@ -109,6 +112,7 @@ self
 other
 )
 }
+pure
 fn
 div
 (
@@ -131,6 +135,7 @@ self
 other
 )
 }
+pure
 fn
 modulo
 (
@@ -153,6 +158,7 @@ self
 other
 )
 }
+pure
 fn
 neg
 (
@@ -168,6 +174,7 @@ au
 self
 )
 }
+pure
 fn
 to_int
 (
@@ -179,6 +186,7 @@ int
 *
 self
 }
+pure
 fn
 from_int
 (
