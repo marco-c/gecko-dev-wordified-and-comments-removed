@@ -1187,3 +1187,14 @@ complex
 object
 .
 js
+js1_8_5
+/
+extensions
+/
+clone
+-
+object
+-
+deep
+.
+js
