@@ -2347,7 +2347,13 @@ _fastFind
 isRangeVisible
 (
 range
-false
+this
+.
+_getDocShell
+(
+range
+)
+true
 )
 )
 continue
