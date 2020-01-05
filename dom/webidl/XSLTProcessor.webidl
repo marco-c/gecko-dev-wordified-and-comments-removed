@@ -690,6 +690,7 @@ reset
 /
 [
 ChromeOnly
+NeedsCallerType
 ]
 attribute
 unsigned
