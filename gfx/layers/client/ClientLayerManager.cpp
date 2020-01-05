@@ -696,6 +696,10 @@ forget
 )
 ;
 }
+mWidget
+=
+nullptr
+;
 }
 int32_t
 ClientLayerManager
