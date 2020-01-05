@@ -2245,6 +2245,13 @@ NotifyAudibleStateChanged
 MediaShutdownManager
 :
 :
+InitStatics
+(
+)
+;
+MediaShutdownManager
+:
+:
 Instance
 (
 )
