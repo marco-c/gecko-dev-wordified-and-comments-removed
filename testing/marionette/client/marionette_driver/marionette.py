@@ -10802,19 +10802,6 @@ currently
 open
 .
         
-On
-B2G
-this
-method
-is
-a
-noop
-and
-will
-return
-immediately
-.
-        
 "
 "
 "
@@ -10856,19 +10843,6 @@ the
 last
 window
 open
-.
-        
-On
-B2G
-this
-method
-is
-a
-noop
-and
-will
-return
-immediately
 .
         
 "
