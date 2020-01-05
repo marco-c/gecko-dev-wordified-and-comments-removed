@@ -982,10 +982,6 @@ r
 QuerySelector
 (
 selector
-.
-clone
-(
-)
 )
 {
 Ok
@@ -1091,10 +1087,6 @@ r
 QuerySelectorAll
 (
 selector
-.
-clone
-(
-)
 )
 {
 Ok

@@ -496,6 +496,14 @@ DOMString
 )
 union2Attribute
 ;
+attribute
+(
+Event
+or
+USVString
+)
+union3Attribute
+;
 readonly
 attribute
 Uint8ClampedArray
