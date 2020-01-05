@@ -347,12 +347,7 @@ HTMLHeadElement
 ?
 head
 ;
-/
-*
 NodeList
-*
-/
-HTMLCollection
 getElementsByName
 (
 DOMString
