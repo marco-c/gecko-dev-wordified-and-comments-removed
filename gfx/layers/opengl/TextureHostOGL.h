@@ -1566,6 +1566,8 @@ gfx
 :
 IntSize
 aSize
+bool
+aContinuousUpdate
 )
 ;
 virtual
@@ -1723,6 +1725,9 @@ gfx
 :
 IntSize
 mSize
+;
+bool
+mContinuousUpdate
 ;
 RefPtr
 <
