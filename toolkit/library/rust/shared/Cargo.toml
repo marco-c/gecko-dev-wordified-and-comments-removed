@@ -290,6 +290,15 @@ cubeb
 pulse
 "
 ]
+gecko_debug
+=
+[
+"
+geckoservo
+/
+gecko_debug
+"
+]
 [
 lib
 ]

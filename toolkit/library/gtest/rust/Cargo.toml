@@ -91,6 +91,17 @@ shared
 cubeb_pulse_rust
 "
 ]
+gecko_debug
+=
+[
+"
+gkrust
+-
+shared
+/
+gecko_debug
+"
+]
 [
 dependencies
 ]
