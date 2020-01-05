@@ -165,8 +165,6 @@ prototype
 =
 {
 handler
-:
-function
 (
 )
 {

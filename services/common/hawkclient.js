@@ -396,8 +396,6 @@ prototype
 .
 willUTF8EncodeObjectRequests
 _constructError
-:
-function
 (
 restResponse
 error
@@ -407,8 +405,6 @@ let
 errorObj
 =
 {
-error
-:
 error
 errorString
 :
@@ -524,8 +520,6 @@ errorObj
 ;
 }
 _updateClockOffset
-:
-function
 (
 dateString
 )
@@ -614,8 +608,6 @@ _localtimeOffsetMsec
 ;
 }
 now
-:
-function
 (
 )
 {
@@ -628,8 +620,6 @@ now
 ;
 }
 request
-:
-function
 (
 path
 method
@@ -1008,7 +998,6 @@ response
 )
 ;
 }
-;
 function
 onComplete
 (
@@ -1173,8 +1162,6 @@ observerPrefix
 :
 null
 _maybeNotifyBackoff
-:
-function
 (
 response
 headerName
@@ -1283,8 +1270,6 @@ backoffInterval
 ;
 }
 newHAWKAuthenticatedRESTRequest
-:
-function
 (
 uri
 credentials

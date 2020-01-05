@@ -209,8 +209,6 @@ prototype
 =
 {
 getTokenFromAssertion
-:
-function
 (
 assertion
 scope
@@ -261,8 +259,6 @@ params
 =
 {
 scope
-:
-scope
 client_id
 :
 this
@@ -270,8 +266,6 @@ this
 parameters
 .
 client_id
-assertion
-:
 assertion
 response_type
 :
@@ -294,8 +288,6 @@ params
 ;
 }
 destroyToken
-:
-function
 (
 token
 )
@@ -325,8 +317,6 @@ params
 =
 {
 token
-:
-token
 }
 ;
 return
@@ -343,8 +333,6 @@ params
 ;
 }
 _validateOptions
-:
-function
 (
 options
 )
@@ -417,8 +405,6 @@ _Request
 :
 RESTRequest
 _createRequest
-:
-function
 (
 path
 method

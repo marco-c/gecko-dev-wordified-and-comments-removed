@@ -179,8 +179,6 @@ platformVersion
 "
 "
 OS
-:
-OS
 }
 )
 ;

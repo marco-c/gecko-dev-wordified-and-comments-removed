@@ -1608,7 +1608,6 @@ id
 ;
 }
 else
-{
 if
 (
 idToRecord
@@ -1634,7 +1633,6 @@ id
 ;
 continue
 ;
-}
 }
 idToRecord
 .
@@ -3930,7 +3928,6 @@ serverRecordCount
 ;
 }
 }
-;
 BookmarkValidator
 .
 prototype

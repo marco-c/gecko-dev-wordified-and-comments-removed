@@ -134,8 +134,6 @@ prototype
 =
 {
 Modify
-:
-function
 (
 )
 {
@@ -351,8 +349,6 @@ break
 }
 }
 Find
-:
-function
 (
 )
 {

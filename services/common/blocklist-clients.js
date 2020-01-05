@@ -739,8 +739,6 @@ remote
 :
 base
 bucket
-:
-bucket
 adapter
 :
 FirefoxAdapter
@@ -1638,11 +1636,6 @@ e
 }
 }
 }
-else
-{
-return
-;
-}
 }
 function
 *
@@ -1714,8 +1707,6 @@ const
 eventData
 =
 {
-filename
-:
 filename
 }
 ;

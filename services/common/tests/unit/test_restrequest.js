@@ -904,7 +904,6 @@ INHIBIT_CACHING
 )
 ;
 }
-;
 function
 onComplete
 (
@@ -1011,7 +1010,6 @@ run_next_test
 )
 ;
 }
-;
 do_check_eq
 (
 request
@@ -2118,7 +2116,6 @@ length
 )
 ;
 }
-;
 function
 onComplete
 (
@@ -2258,7 +2255,6 @@ run_next_test
 )
 ;
 }
-;
 do_check_eq
 (
 request
@@ -2495,7 +2491,6 @@ length
 )
 ;
 }
-;
 function
 onComplete
 (
@@ -2603,7 +2598,6 @@ run_next_test
 )
 ;
 }
-;
 do_check_eq
 (
 request

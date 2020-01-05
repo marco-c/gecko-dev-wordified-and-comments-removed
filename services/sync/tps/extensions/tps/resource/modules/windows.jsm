@@ -51,8 +51,6 @@ BrowserWindows
 =
 {
 Add
-:
-function
 (
 aPrivate
 fn

@@ -183,8 +183,6 @@ nsISupportsWeakReference
 ]
 )
 ensureLoaded
-:
-function
 (
 )
 {
@@ -243,8 +241,6 @@ Service
 ;
 }
 whenLoaded
-:
-function
 (
 )
 {
@@ -404,8 +400,6 @@ username
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -695,8 +689,6 @@ nsISupportsWeakReference
 ]
 )
 getURIFlags
-:
-function
 (
 aURI
 )
@@ -706,8 +698,6 @@ return
 ;
 }
 newChannel
-:
-function
 (
 aURI
 aLoadInfo

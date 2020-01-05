@@ -515,8 +515,6 @@ ex
 }
 )
 _rawRequest
-:
-function
 (
 path
 method
@@ -799,8 +797,6 @@ ERROR_MSG_METHOD_NOT_ALLOWED
 ;
 }
 fetchProfile
-:
-function
 (
 )
 {
@@ -832,8 +828,6 @@ GET
 ;
 }
 fetchProfileImage
-:
-function
 (
 )
 {

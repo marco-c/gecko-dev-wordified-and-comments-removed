@@ -5079,8 +5079,6 @@ msec
 ;
 }
 clearServerAlerts
-:
-function
 (
 )
 {
@@ -5099,8 +5097,6 @@ alert
 ;
 }
 handleServerAlert
-:
-function
 (
 xwa
 )
@@ -5293,8 +5289,6 @@ code
 }
 }
 checkServerError
-:
-function
 (
 resp
 )

@@ -143,8 +143,6 @@ version
 :
 DATA_FORMAT_VERSION
 accountData
-:
-accountData
 }
 }
 this
@@ -254,8 +252,6 @@ data
 version
 :
 DATA_FORMAT_VERSION
-accountData
-:
 accountData
 }
 }

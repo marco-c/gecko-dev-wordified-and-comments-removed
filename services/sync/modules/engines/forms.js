@@ -301,8 +301,6 @@ guid
 "
 ]
 _promiseSearch
-:
-function
 (
 terms
 searchData
@@ -367,8 +365,6 @@ callbacks
 )
 }
 _searchSpinningly
-:
-function
 (
 terms
 searchData
@@ -390,8 +386,6 @@ searchData
 ;
 }
 _updateSpinningly
-:
-function
 (
 changes
 )
@@ -423,8 +417,6 @@ callbacks
 =
 {
 handleCompletion
-:
-function
 (
 reason
 )
@@ -455,8 +447,6 @@ wait
 ;
 }
 getEntry
-:
-function
 (
 guid
 )
@@ -472,8 +462,6 @@ this
 .
 _getEntryCols
 {
-guid
-:
 guid
 }
 )
@@ -512,8 +500,6 @@ value
 ;
 }
 getGUID
-:
-function
 (
 name
 value
@@ -526,8 +512,6 @@ query
 fieldname
 :
 name
-value
-:
 value
 }
 ;
@@ -560,8 +544,6 @@ null
 ;
 }
 hasGUID
-:
-function
 (
 guid
 )
@@ -576,8 +558,6 @@ this
 _guidCols
 {
 guid
-:
-guid
 }
 )
 .
@@ -588,8 +568,6 @@ length
 ;
 }
 replaceGUID
-:
-function
 (
 oldGUID
 newGUID
@@ -731,8 +709,6 @@ Store
 .
 prototype
 _processChange
-:
-function
 (
 change
 )
@@ -765,8 +741,6 @@ change
 ;
 }
 applyIncomingBatch
-:
-function
 (
 records
 )
@@ -822,8 +796,6 @@ failures
 ;
 }
 getAllIDs
-:
-function
 (
 )
 {
@@ -871,8 +843,6 @@ guids
 ;
 }
 changeItemID
-:
-function
 (
 oldID
 newID
@@ -888,8 +858,6 @@ newID
 ;
 }
 itemExists
-:
-function
 (
 id
 )
@@ -904,8 +872,6 @@ id
 ;
 }
 createRecord
-:
-function
 (
 id
 collection
@@ -970,8 +936,6 @@ record
 ;
 }
 create
-:
-function
 (
 record
 )
@@ -1024,8 +988,6 @@ change
 ;
 }
 remove
-:
-function
 (
 record
 )
@@ -1073,8 +1035,6 @@ change
 ;
 }
 update
-:
-function
 (
 record
 )
@@ -1097,8 +1057,6 @@ request
 ;
 }
 wipe
-:
-function
 (
 )
 {
@@ -1166,8 +1124,6 @@ nsISupportsWeakReference
 ]
 )
 startTracking
-:
-function
 (
 )
 {
@@ -1189,8 +1145,6 @@ this
 ;
 }
 stopTracking
-:
-function
 (
 )
 {
@@ -1212,8 +1166,6 @@ this
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -1309,8 +1261,6 @@ break
 }
 }
 trackEntry
-:
-function
 (
 guid
 )

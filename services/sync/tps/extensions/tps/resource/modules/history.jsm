@@ -453,8 +453,6 @@ type
 ;
 }
 Add
-:
-function
 (
 item
 usSinceEpoch
@@ -517,8 +515,6 @@ let
 place
 =
 {
-uri
-:
 uri
 visits
 :
@@ -657,8 +653,6 @@ wait
 ;
 }
 Find
-:
-function
 (
 item
 usSinceEpoch
@@ -863,8 +857,6 @@ all_items_found
 ;
 }
 Delete
-:
-function
 (
 item
 usSinceEpoch

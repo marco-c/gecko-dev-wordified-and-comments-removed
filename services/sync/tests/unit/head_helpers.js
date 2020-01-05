@@ -352,8 +352,6 @@ provider
 =
 {
 getFile
-:
-function
 (
 prop
 persistent
@@ -901,8 +899,6 @@ listener
 =
 {
 onUninstalled
-:
-function
 (
 uninstalled
 )
@@ -1107,8 +1103,6 @@ gBrowser
 :
 {
 tabs
-:
-tabs
 }
 }
 ;
@@ -1243,8 +1237,6 @@ tabs
 return
 {
 hasMoreElements
-:
-function
 (
 )
 {
@@ -1255,8 +1247,6 @@ length
 ;
 }
 getNext
-:
-function
 (
 )
 {
@@ -2481,10 +2471,6 @@ resolve
 (
 {
 subject
-:
-subject
-data
-:
 data
 }
 )

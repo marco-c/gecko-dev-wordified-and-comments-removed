@@ -128,8 +128,6 @@ removed
 :
 false
 removeClientData
-:
-function
 (
 )
 {

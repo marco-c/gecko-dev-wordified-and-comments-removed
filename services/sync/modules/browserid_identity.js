@@ -565,8 +565,6 @@ prototype
 =
 {
 toString
-:
-function
 (
 )
 {
@@ -776,8 +774,6 @@ deviceId
 ;
 }
 initialize
-:
-function
 (
 )
 {
@@ -843,8 +839,6 @@ err
 ;
 }
 ensureLoggedIn
-:
-function
 (
 )
 {
@@ -931,8 +925,6 @@ promise
 ;
 }
 finalize
-:
-function
 (
 )
 {
@@ -969,8 +961,6 @@ null
 ;
 }
 offerSyncOptions
-:
-function
 (
 )
 {
@@ -1048,8 +1038,6 @@ data
 ;
 }
 initializeWithCurrentIdentity
-:
-function
 (
 isInitialSync
 =
@@ -1537,8 +1525,6 @@ err
 ;
 }
 _updateSignedInUser
-:
-function
 (
 userData
 )
@@ -1586,8 +1572,6 @@ userData
 ;
 }
 logout
-:
-function
 (
 )
 {
@@ -1599,8 +1583,6 @@ null
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -1699,8 +1681,6 @@ break
 }
 }
 _sha256
-:
-function
 (
 message
 )
@@ -1750,8 +1730,6 @@ hasher
 ;
 }
 _computeXClientState
-:
-function
 (
 kBbytes
 )
@@ -1778,8 +1756,6 @@ false
 ;
 }
 _now
-:
-function
 (
 )
 {
@@ -1806,8 +1782,6 @@ localtimeOffsetMsec
 ;
 }
 usernameFromAccount
-:
-function
 (
 val
 )
@@ -1922,8 +1896,6 @@ _syncKeyBundle
 ;
 }
 resetCredentials
-:
-function
 (
 )
 {
@@ -1955,8 +1927,6 @@ null
 ;
 }
 resetSyncKey
-:
-function
 (
 )
 {
@@ -1986,16 +1956,12 @@ false
 ;
 }
 prefetchMigrationSentinel
-:
-function
 (
 service
 )
 {
 }
 _getSyncCredentialsHosts
-:
-function
 (
 )
 {
@@ -2065,8 +2031,6 @@ STATUS_OK
 ;
 }
 _canFetchKeys
-:
-function
 (
 )
 {
@@ -2101,8 +2065,6 @@ kB
 ;
 }
 unlockAndVerifyAuthState
-:
-function
 (
 )
 {
@@ -2249,8 +2211,6 @@ result
 ;
 }
 hasValidToken
-:
-function
 (
 )
 {
@@ -2401,8 +2361,6 @@ url
 ;
 }
 _fetchTokenForUser
-:
-function
 (
 )
 {
@@ -3067,8 +3025,6 @@ err
 ;
 }
 _ensureValidToken
-:
-function
 (
 )
 {
@@ -3188,8 +3144,6 @@ error
 ;
 }
 getResourceAuthenticator
-:
-function
 (
 )
 {
@@ -3205,8 +3159,6 @@ this
 ;
 }
 getRESTRequestAuthenticator
-:
-function
 (
 )
 {
@@ -3222,8 +3174,6 @@ this
 ;
 }
 _getAuthenticationHeader
-:
-function
 (
 httpObject
 method
@@ -3363,8 +3313,6 @@ this
 .
 _localtimeOffsetMsec
 credentials
-:
-credentials
 }
 ;
 let
@@ -3396,8 +3344,6 @@ field
 ;
 }
 _addAuthenticationHeader
-:
-function
 (
 request
 method
@@ -3443,8 +3389,6 @@ request
 ;
 }
 createClusterManager
-:
-function
 (
 service
 )
@@ -3493,8 +3437,6 @@ ClusterManager
 .
 prototype
 _findCluster
-:
-function
 (
 )
 {
@@ -3763,8 +3705,6 @@ wait
 ;
 }
 getUserBaseURL
-:
-function
 (
 )
 {

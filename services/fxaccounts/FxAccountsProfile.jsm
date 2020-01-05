@@ -537,8 +537,6 @@ _cachedAt
 }
 }
 tearDown
-:
-function
 (
 )
 {
@@ -572,8 +570,6 @@ ON_PROFILE_CHANGE_NOTIFICATION
 ;
 }
 _getCachedProfile
-:
-function
 (
 )
 {
@@ -589,8 +585,6 @@ _cachedProfile
 ;
 }
 _notifyProfileChange
-:
-function
 (
 uid
 )
@@ -620,8 +614,6 @@ false
 ;
 }
 _cacheProfile
-:
-function
 (
 profileData
 )
@@ -725,8 +717,6 @@ profileData
 ;
 }
 _fetchAndCacheProfile
-:
-function
 (
 )
 {
@@ -819,8 +809,6 @@ this
 _currentFetchPromise
 }
 getProfile
-:
-function
 (
 )
 {

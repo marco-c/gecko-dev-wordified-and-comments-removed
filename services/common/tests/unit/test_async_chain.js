@@ -48,8 +48,6 @@ methods
 =
 {
 save
-:
-function
 (
 x
 callback
@@ -68,8 +66,6 @@ x
 ;
 }
 addX
-:
-function
 (
 x
 callback
@@ -86,8 +82,6 @@ x
 ;
 }
 double
-:
-function
 (
 x
 callback
@@ -102,8 +96,6 @@ x
 ;
 }
 neg
-:
-function
 (
 x
 callback

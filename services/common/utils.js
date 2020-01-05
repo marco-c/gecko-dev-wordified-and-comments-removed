@@ -126,8 +126,6 @@ CommonUtils
 =
 {
 union
-:
-function
 (
 a
 b
@@ -163,8 +161,6 @@ out
 ;
 }
 difference
-:
-function
 (
 a
 b
@@ -200,8 +196,6 @@ out
 ;
 }
 intersection
-:
-function
 (
 a
 b
@@ -247,8 +241,6 @@ out
 ;
 }
 setEqual
-:
-function
 (
 a
 b
@@ -475,8 +467,6 @@ DISPATCH_NORMAL
 ;
 }
 laterTickResolvingPromise
-:
-function
 (
 value
 prototype
@@ -542,8 +532,6 @@ waitForSyncCallback
 (
 cb
 )
-;
-return
 ;
 }
 namedTimer
@@ -1906,8 +1894,6 @@ b64
 ;
 }
 readJSON
-:
-function
 (
 path
 )
@@ -1952,8 +1938,6 @@ data
 ;
 }
 writeJSON
-:
-function
 (
 contents
 path

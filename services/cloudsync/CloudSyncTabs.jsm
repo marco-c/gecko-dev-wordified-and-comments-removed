@@ -215,8 +215,6 @@ version
 :
 DATA_VERSION
 update
-:
-function
 (
 params
 )
@@ -306,8 +304,6 @@ version
 :
 DATA_VERSION
 update
-:
-function
 (
 params
 )
@@ -443,8 +439,6 @@ prototype
 =
 {
 merge
-:
-function
 (
 client
 tabs
@@ -698,8 +692,6 @@ tRecord
 }
 }
 clear
-:
-function
 (
 client
 )
@@ -744,8 +736,6 @@ Map
 }
 }
 get
-:
-function
 (
 )
 {
@@ -782,8 +772,6 @@ results
 ;
 }
 isEmpty
-:
-function
 (
 )
 {
@@ -983,8 +971,6 @@ observer
 =
 {
 observe
-:
-function
 (
 subject
 topic
@@ -1103,11 +1089,6 @@ getNext
 }
 }
 }
-.
-bind
-(
-this
-)
 ;
 let
 suspend
@@ -1169,11 +1150,6 @@ getNext
 }
 }
 }
-.
-bind
-(
-this
-)
 ;
 let
 eventTypes

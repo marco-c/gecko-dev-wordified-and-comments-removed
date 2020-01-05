@@ -684,8 +684,6 @@ _tokenServerClient
 =
 {
 getTokenFromBrowserIDAssertion
-:
-function
 (
 uri
 assertion
