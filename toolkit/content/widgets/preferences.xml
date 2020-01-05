@@ -5761,8 +5761,6 @@ _outer
 :
 this
 observe
-:
-function
 (
 aSubject
 aTopic

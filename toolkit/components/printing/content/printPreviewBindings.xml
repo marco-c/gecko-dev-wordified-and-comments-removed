@@ -2247,10 +2247,6 @@ Navigate
 "
 {
 navType
-:
-navType
-pageNum
-:
 pageNum
 }
 )
@@ -2394,8 +2390,6 @@ result
 =
 {
 value
-:
-value
 }
 ;
 var
@@ -2411,8 +2405,6 @@ promptStr
 result
 null
 {
-value
-:
 value
 }
 )

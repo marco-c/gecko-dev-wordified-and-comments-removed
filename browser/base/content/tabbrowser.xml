@@ -3798,8 +3798,6 @@ mRequestCount
 :
 0
 destroy
-:
-function
 (
 )
 {
@@ -3820,8 +3818,6 @@ mTabBrowser
 ;
 }
 _callProgressListeners
-:
-function
 (
 )
 {
@@ -3852,8 +3848,6 @@ arguments
 ;
 }
 _shouldShowProgress
-:
-function
 (
 aRequest
 )
@@ -3944,8 +3938,6 @@ true
 ;
 }
 onProgressChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -4018,8 +4010,6 @@ aMaxTotalProgress
 ;
 }
 onProgressChange64
-:
-function
 (
 aWebProgress
 aRequest
@@ -4044,8 +4034,6 @@ aMaxTotalProgress
 ;
 }
 onStateChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -5078,8 +5066,6 @@ aStatus
 ;
 }
 onLocationChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -5707,8 +5693,6 @@ now
 }
 }
 onStatusChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -5747,8 +5731,6 @@ aMessage
 ;
 }
 onSecurityChange
-:
-function
 (
 aWebProgress
 aRequest
@@ -5771,8 +5753,6 @@ aState
 ;
 }
 onRefreshAttempted
-:
-function
 (
 aWebProgress
 aURI
@@ -5798,8 +5778,6 @@ aSameURI
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -13802,8 +13780,6 @@ aTab
 permanentKey
 remoteType
 uriIsAboutBlank
-:
-uriIsAboutBlank
 userContextId
 :
 aParams
@@ -14237,8 +14213,6 @@ evt
 ;
 return
 {
-usingPreloadedContent
-:
 usingPreloadedContent
 }
 ;
@@ -24636,8 +24610,6 @@ nsIPromptService
 dialogs
 .
 setTimer
-:
-function
 (
 callback
 timeout
@@ -24695,8 +24667,6 @@ timer
 ;
 }
 clearTimer
-:
-function
 (
 timer
 )
@@ -24709,8 +24679,6 @@ cancel
 ;
 }
 getTabState
-:
-function
 (
 tab
 )
@@ -24787,8 +24755,6 @@ state
 }
 }
 setTabState
-:
-function
 (
 tab
 state
@@ -24916,8 +24882,6 @@ STATE_MINIMIZED
 ;
 }
 init
-:
-function
 (
 )
 {
@@ -25070,8 +25034,6 @@ STATE_LOADED
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -25232,8 +25194,6 @@ clear
 ;
 }
 finish
-:
-function
 (
 )
 {
@@ -25490,8 +25450,6 @@ right
 tab
 .
 updateDisplay
-:
-function
 (
 )
 {
@@ -25956,8 +25914,6 @@ visibleTab
 ;
 }
 assert
-:
-function
 (
 cond
 )
@@ -26037,8 +25993,6 @@ load
 requestedTab
 .
 loadRequestedTab
-:
-function
 (
 )
 {
@@ -26186,8 +26140,6 @@ closed
 tabs
 .
 preActions
-:
-function
 (
 )
 {
@@ -26388,8 +26340,6 @@ auxilliary
 state
 .
 postActions
-:
-function
 (
 )
 {
@@ -26780,8 +26730,6 @@ unused
 tabs
 .
 onUnloadTimeout
-:
-function
 (
 )
 {
@@ -27000,8 +26948,6 @@ too
 long
 .
 onLoadTimeout
-:
-function
 (
 )
 {
@@ -27052,8 +26998,6 @@ a
 tab
 .
 onLayersReady
-:
-function
 (
 browser
 )
@@ -27199,8 +27143,6 @@ layers
 around
 .
 onPaint
-:
-function
 (
 )
 {
@@ -27235,8 +27177,6 @@ a
 tab
 .
 onLayersCleared
-:
-function
 (
 browser
 )
@@ -27352,8 +27292,6 @@ simulate
 it
 .
 onRemotenessChange
-:
-function
 (
 tab
 )
@@ -27467,8 +27405,6 @@ the
 DOM
 .
 onTabRemoved
-:
-function
 (
 tab
 )
@@ -28096,8 +28032,6 @@ given
 tab
 .
 requestTab
-:
-function
 (
 tab
 )
@@ -28264,8 +28198,6 @@ postActions
 ;
 }
 handleEvent
-:
-function
 (
 event
 delayed
@@ -28545,8 +28477,6 @@ timing
 *
 /
 startTabSwitch
-:
-function
 (
 )
 {
@@ -28642,8 +28572,6 @@ finished
 *
 /
 maybeFinishTabSwitch
-:
-function
 (
 )
 {
@@ -28778,8 +28706,6 @@ false
 }
 }
 spinnerDisplayed
-:
-function
 (
 )
 {
@@ -28850,8 +28776,6 @@ SpinnerShown
 ;
 }
 spinnerHidden
-:
-function
 (
 )
 {
@@ -28938,8 +28862,6 @@ maybeFinishTabSwitch
 ;
 }
 addMarker
-:
-function
 (
 marker
 )
@@ -28980,8 +28902,6 @@ _logInit
 :
 false
 logging
-:
-function
 (
 )
 {
@@ -29057,8 +28977,6 @@ _shouldLog
 ;
 }
 tinfo
-:
-function
 (
 tab
 )
@@ -29097,8 +29015,6 @@ null
 ;
 }
 log
-:
-function
 (
 s
 )
@@ -29146,8 +29062,6 @@ s
 }
 }
 logState
-:
-function
 (
 prefix
 )
@@ -31818,15 +31732,11 @@ objects
 .
 popupNode
 browser
-:
-browser
 editFlags
 :
 data
 .
 editFlags
-spellInfo
-:
 spellInfo
 principal
 :
@@ -31843,8 +31753,6 @@ addonInfo
 data
 .
 addonInfo
-documentURIObject
-:
 documentURIObject
 docLocation
 :
@@ -34640,8 +34548,6 @@ this
 tabContextMenu
 }
 getElementsByAttribute
-:
-function
 (
 attr
 attrValue
@@ -34693,8 +34599,6 @@ tab
 container
 )
 addEventListener
-:
-function
 (
 a
 b
@@ -34716,8 +34620,6 @@ c
 ;
 }
 removeEventListener
-:
-function
 (
 a
 b
