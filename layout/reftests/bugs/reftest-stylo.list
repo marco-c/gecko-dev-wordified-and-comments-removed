@@ -24772,7 +24772,6 @@ floatmanager
 reflow
 .
 html
-fails
 pref
 (
 dom
@@ -24794,9 +24793,6 @@ html
 1
 .
 html
-#
-Bug
-1293844
 fails
 =
 =
