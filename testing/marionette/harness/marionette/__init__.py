@@ -17,8 +17,6 @@ CommonTestCase
     
 expectedFailure
     
-MarionetteJSTestCase
-    
 MarionetteTestCase
     
 run_if_e10s
@@ -47,16 +45,6 @@ BaseMarionetteTestRunner
     
 BrowserMobProxyTestCaseMixin
     
-EnduranceArguments
-    
-EnduranceTestCaseMixin
-    
-HTMLReportingArguments
-    
-HTMLReportingTestResultMixin
-    
-HTMLReportingTestRunnerMixin
-    
 Marionette
     
 MarionetteTest
@@ -64,8 +52,6 @@ MarionetteTest
 MarionetteTestResult
     
 MarionetteTextTestRunner
-    
-MemoryEnduranceTestCaseMixin
     
 TestManifest
     

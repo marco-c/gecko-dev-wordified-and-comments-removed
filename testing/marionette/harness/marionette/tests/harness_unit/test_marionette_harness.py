@@ -615,15 +615,6 @@ in
 runner
 .
 test_handlers
-    
-assert
-marionette_test
-.
-MarionetteJSTestCase
-in
-runner
-.
-test_handlers
 if
 __name__
 =

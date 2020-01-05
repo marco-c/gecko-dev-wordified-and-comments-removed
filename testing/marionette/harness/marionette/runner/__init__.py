@@ -28,18 +28,6 @@ mixins
 import
 (
     
-EnduranceArguments
-    
-EnduranceTestCaseMixin
-    
-HTMLReportingArguments
-    
-HTMLReportingTestResultMixin
-    
-HTMLReportingTestRunnerMixin
-    
-MemoryEnduranceTestCaseMixin
-    
 BrowserMobProxyTestCaseMixin
     
 BrowserMobProxyArguments

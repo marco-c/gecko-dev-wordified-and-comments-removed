@@ -2428,32 +2428,6 @@ add_argument
 '
 -
 -
-sources
-'
-                          
-help
-=
-'
-path
-to
-sources
-.
-xml
-(
-Firefox
-OS
-only
-)
-'
-)
-        
-self
-.
-add_argument
-(
-'
--
--
 server
 -
 root
@@ -3968,9 +3942,6 @@ this_chunk
 total_chunks
 =
 1
-sources
-=
-None
                  
 server_root
 =
@@ -4157,12 +4128,6 @@ self
 shuffle_seed
 =
 shuffle_seed
-        
-self
-.
-sources
-=
-sources
         
 self
 .
@@ -6302,12 +6267,6 @@ binary
 self
 .
 bin
-                                                  
-sources
-=
-self
-.
-sources
 )
         
 self

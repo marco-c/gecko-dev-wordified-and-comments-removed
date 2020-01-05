@@ -16,7 +16,6 @@ marionette
 marionette_test
 import
 MarionetteTestCase
-MarionetteJSTestCase
 from
 marionette
 .
@@ -65,7 +64,6 @@ test_handlers
 =
 [
 MarionetteTestCase
-MarionetteJSTestCase
 ]
 class
 MarionetteArguments
