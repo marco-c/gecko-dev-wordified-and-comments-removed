@@ -713,6 +713,11 @@ ClearNonInheritingStyleContexts
 (
 )
 ;
+void
+PreTraverse
+(
+)
+;
 nsPresContext
 *
 mPresContext
