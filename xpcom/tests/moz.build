@@ -172,9 +172,6 @@ TestRegistrationOrder
 TestThreadPoolListener
 '
 '
-TestTimers
-'
-'
 TestUnicodeArguments
 '
 ]
@@ -286,6 +283,9 @@ TestTextFormatter
 '
 '
 TestThreadUtils
+'
+'
+TestTimers
 '
 ]
 )
