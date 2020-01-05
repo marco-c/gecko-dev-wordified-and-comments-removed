@@ -358,17 +358,6 @@ GetNodeId
 )
 ;
 virtual
-uint32_t
-DecryptorId
-(
-)
-const
-{
-return
-0
-;
-}
-virtual
 GMPUniquePtr
 <
 GMPVideoEncodedFrame

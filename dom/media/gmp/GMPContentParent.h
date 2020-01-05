@@ -82,8 +82,6 @@ GMPVideoDecoderParent
 *
 *
 aGMPVD
-uint32_t
-aDecryptorId
 )
 ;
 void
@@ -224,10 +222,6 @@ PGMPVideoDecoderParent
 *
 AllocPGMPVideoDecoderParent
 (
-const
-uint32_t
-&
-aDecryptorId
 )
 override
 ;

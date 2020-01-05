@@ -792,8 +792,6 @@ GMPVideoDecoderParent
 *
 *
 aGMPVD
-uint32_t
-aDecryptorId
 )
 {
 PGMPVideoDecoderParent
@@ -802,7 +800,6 @@ pvdp
 =
 SendPGMPVideoDecoderConstructor
 (
-aDecryptorId
 )
 ;
 if
@@ -920,10 +917,6 @@ GMPContentParent
 :
 AllocPGMPVideoDecoderParent
 (
-const
-uint32_t
-&
-aDecryptorId
 )
 {
 GMPVideoDecoderParent

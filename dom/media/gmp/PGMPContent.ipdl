@@ -158,8 +158,6 @@ PGMPDecryptor
 async
 PGMPVideoDecoder
 (
-uint32_t
-aDecryptorId
 )
 ;
 async

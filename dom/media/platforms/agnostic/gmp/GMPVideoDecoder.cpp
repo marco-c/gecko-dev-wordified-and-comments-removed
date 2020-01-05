@@ -1637,7 +1637,7 @@ NS_FAILED
 mMPS
 -
 >
-GetDecryptingGMPVideoDecoder
+GetGMPVideoDecoder
 (
 mCrashHelper
 &
@@ -1648,9 +1648,6 @@ GetNodeId
 Move
 (
 callback
-)
-DecryptorId
-(
 )
 )
 )
