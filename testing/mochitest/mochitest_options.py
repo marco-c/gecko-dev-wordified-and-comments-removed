@@ -159,6 +159,14 @@ plain
 '
         
 }
+        
+'
+install_subdir
+'
+:
+'
+tests
+'
     
 }
     
