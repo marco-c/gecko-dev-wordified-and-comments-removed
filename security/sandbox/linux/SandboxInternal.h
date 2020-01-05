@@ -20,6 +20,9 @@ Types
 .
 h
 "
+struct
+sock_fprog
+;
 namespace
 mozilla
 {
@@ -41,6 +44,12 @@ extern
 MOZ_EXPORT
 SandboxCrashFunc
 gSandboxCrashFunc
+;
+extern
+const
+sock_fprog
+*
+gSetSandboxFilter
 ;
 }
 #
