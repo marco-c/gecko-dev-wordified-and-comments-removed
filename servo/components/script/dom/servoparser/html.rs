@@ -568,6 +568,7 @@ fn
 get_template_contents
 (
 &
+mut
 self
 target
 :
