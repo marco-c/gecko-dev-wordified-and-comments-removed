@@ -578,6 +578,15 @@ attribute
 EventHandler
 onreadystatechange
 ;
+/
+/
+user
+interaction
+readonly
+attribute
+Window
+defaultView
+;
 }
 ;
 Document
