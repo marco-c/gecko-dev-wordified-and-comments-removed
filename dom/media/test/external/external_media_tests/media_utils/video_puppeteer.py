@@ -470,10 +470,7 @@ arguments
 var
 baseURI
 =
-arguments
-[
-0
-]
+video
 .
 baseURI
 ;
@@ -1668,7 +1665,7 @@ self
 .
 _last_seen_video_state
 .
-video_uri
+base_uri
                                          
 self
 )
