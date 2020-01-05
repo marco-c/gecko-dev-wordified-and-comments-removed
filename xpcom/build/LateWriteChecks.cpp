@@ -191,9 +191,6 @@ LateWriteChecks
 .
 h
 "
-#
-define
-OBSERVE_LATE_WRITES
 using
 namespace
 mozilla
@@ -486,9 +483,6 @@ Observation
 aOb
 )
 {
-#
-ifdef
-OBSERVE_LATE_WRITES
 if
 (
 gShutdownChecks
@@ -991,8 +985,6 @@ get
 )
 )
 ;
-#
-endif
 }
 static
 StaticAutoPtr
