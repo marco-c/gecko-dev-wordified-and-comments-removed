@@ -86,6 +86,16 @@ varying
 float
 vEndRadius
 ;
+flat
+varying
+vec2
+vTileSize
+;
+flat
+varying
+vec2
+vTileRepeat
+;
 varying
 vec2
 vPos

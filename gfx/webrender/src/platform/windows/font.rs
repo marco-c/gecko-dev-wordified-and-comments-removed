@@ -780,10 +780,9 @@ self
 data
 :
 &
-Vec
-<
+[
 u8
->
+]
 width
 :
 usize
@@ -1182,10 +1181,9 @@ self
 pixels
 :
 &
-Vec
-<
+[
 u8
->
+]
 render_mode
 :
 FontRenderMode

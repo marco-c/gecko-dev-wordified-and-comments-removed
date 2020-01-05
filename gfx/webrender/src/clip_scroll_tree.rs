@@ -1464,7 +1464,6 @@ old_states
 .
 get
 (
-&
 scroll_layer_id
 )
 {
@@ -1508,7 +1507,6 @@ pending_scroll_offsets
 .
 remove
 (
-&
 scroll_layer_id
 )
 {
@@ -1582,12 +1580,10 @@ ClipScrollNode
 new_reference_frame
 (
 parent_id
-&
 rect
 rect
 .
 size
-&
 transform
 pipeline_id
 )
