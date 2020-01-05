@@ -399,13 +399,6 @@ Update
 TransactionInfo
 txn
 )
-returns
-(
-EditReply
-[
-]
-reply
-)
 ;
 async
 PaintTime

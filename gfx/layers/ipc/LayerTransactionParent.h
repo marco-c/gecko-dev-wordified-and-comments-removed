@@ -143,13 +143,6 @@ OpDestroyArray
 typedef
 InfallibleTArray
 <
-EditReply
->
-EditReplyArray
-;
-typedef
-InfallibleTArray
-<
 PluginWindowData
 >
 PluginsArray
@@ -484,9 +477,6 @@ const
 TransactionInfo
 &
 aInfo
-EditReplyArray
-*
-reply
 )
 override
 ;

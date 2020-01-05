@@ -1130,6 +1130,12 @@ TextureClient
 >
 mOldTextures
 ;
+Maybe
+<
+nsIntRegion
+>
+mUpdatedRegion
+;
 bool
 mIsNewBuffer
 ;
