@@ -4038,6 +4038,10 @@ new
 alloc
 (
 )
+.
+fallible
+(
+)
 )
 StoreDependency
 (
