@@ -79,6 +79,12 @@ js
 use
 harfbuzz
 ;
+import
+js
+:
+:
+jsapi
+;
 mod
 dom
 {
@@ -174,7 +180,14 @@ tree
 }
 mod
 content
+{
+mod
+js
 ;
+mod
+jsglobal
+;
+}
 mod
 opts
 ;
