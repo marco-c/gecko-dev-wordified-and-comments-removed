@@ -36,6 +36,9 @@ SyncProfile
 void
 StreamJSON
 (
+ProfileBuffer
+*
+aBuffer
 SpliceableJSONWriter
 &
 aWriter

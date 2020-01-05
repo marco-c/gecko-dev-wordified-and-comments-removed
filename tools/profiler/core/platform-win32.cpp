@@ -479,7 +479,7 @@ if
 info
 -
 >
-hasProfile
+HasProfile
 (
 )
 |
@@ -515,6 +515,7 @@ info
 >
 DuplicateLastSample
 (
+gBuffer
 gStartTime
 )
 ;
@@ -847,6 +848,7 @@ context
 ;
 Tick
 (
+gBuffer
 &
 sample
 )

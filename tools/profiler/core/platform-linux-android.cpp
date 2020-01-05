@@ -1166,7 +1166,7 @@ if
 info
 -
 >
-hasProfile
+HasProfile
 (
 )
 |
@@ -1202,6 +1202,7 @@ info
 >
 DuplicateLastSample
 (
+gBuffer
 gStartTime
 )
 ;
@@ -1400,6 +1401,7 @@ ussMemory
 ;
 Tick
 (
+gBuffer
 &
 sample
 )

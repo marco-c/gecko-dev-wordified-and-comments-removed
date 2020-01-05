@@ -677,7 +677,7 @@ if
 info
 -
 >
-hasProfile
+HasProfile
 (
 )
 |
@@ -713,6 +713,7 @@ info
 >
 DuplicateLastSample
 (
+gBuffer
 gStartTime
 )
 ;
@@ -1098,6 +1099,7 @@ undef
 REGISTER_FIELD
 Tick
 (
+gBuffer
 &
 sample
 )

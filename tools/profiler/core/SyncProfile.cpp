@@ -33,13 +33,8 @@ MOZ_COUNT_CTOR
 SyncProfile
 )
 ;
-SetProfile
+SetHasProfile
 (
-new
-ProfileBuffer
-(
-GET_BACKTRACE_DEFAULT_ENTRIES
-)
 )
 ;
 }
@@ -63,6 +58,9 @@ SyncProfile
 :
 StreamJSON
 (
+ProfileBuffer
+*
+aBuffer
 SpliceableJSONWriter
 &
 aWriter
@@ -76,6 +74,7 @@ ThreadInfo
 :
 StreamSamplesAndMarkers
 (
+aBuffer
 aWriter
 0
 aUniqueStacks

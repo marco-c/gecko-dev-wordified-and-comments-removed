@@ -24,11 +24,18 @@ ProfilerBacktrace
 :
 ProfilerBacktrace
 (
+ProfileBuffer
+*
+aBuffer
 SyncProfile
 *
 aProfile
 )
 :
+mBuffer
+(
+aBuffer
+)
 mProfile
 (
 aProfile
@@ -57,6 +64,9 @@ MOZ_COUNT_DTOR
 (
 ProfilerBacktrace
 )
+;
+delete
+mBuffer
 ;
 delete
 mProfile
@@ -95,6 +105,7 @@ mProfile
 >
 StreamJSON
 (
+mBuffer
 aWriter
 aUniqueStacks
 )
