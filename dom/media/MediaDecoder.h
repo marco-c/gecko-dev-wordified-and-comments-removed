@@ -241,9 +241,6 @@ public
 struct
 SeekResolveValue
 {
-bool
-mAtEnd
-;
 }
 ;
 class

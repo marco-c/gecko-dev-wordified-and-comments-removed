@@ -72,8 +72,6 @@ const
 void
 Resolve
 (
-bool
-aAtEnd
 const
 char
 *
