@@ -1184,6 +1184,12 @@ free
 path
 )
 ;
+pthread_mutex_destroy
+(
+&
+mutex
+)
+;
 }
 const
 char
