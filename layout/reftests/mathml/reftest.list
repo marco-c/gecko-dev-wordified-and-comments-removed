@@ -5549,12 +5549,6 @@ ssty
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 ssty
@@ -5569,12 +5563,6 @@ ssty
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 ssty
