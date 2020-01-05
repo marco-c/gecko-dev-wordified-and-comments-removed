@@ -41,7 +41,7 @@ class
 ParseContext
 ;
 class
-FullParseHandler
+FullParseHandlerBase
 ;
 class
 FunctionBox
@@ -1667,7 +1667,7 @@ left
 ParseNode
 *
 right
-FullParseHandler
+FullParseHandlerBase
 *
 handler
 ParseContext

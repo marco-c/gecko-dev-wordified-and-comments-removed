@@ -24016,6 +24016,7 @@ false
 Parser
 <
 FullParseHandler
+char16_t
 >
 parser
 (
@@ -24332,6 +24333,7 @@ frontend
 :
 :
 SyntaxParseHandler
+char16_t
 >
 parser
 (

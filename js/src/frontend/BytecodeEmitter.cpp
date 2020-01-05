@@ -9840,6 +9840,7 @@ parent
 Parser
 <
 FullParseHandler
+char16_t
 >
 *
 parser
@@ -10023,6 +10024,7 @@ parent
 Parser
 <
 FullParseHandler
+char16_t
 >
 *
 parser
