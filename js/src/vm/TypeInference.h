@@ -1183,7 +1183,7 @@ fp
 stderr
 )
 ;
-inline
+MOZ_ALWAYS_INLINE
 bool
 hasType
 (
