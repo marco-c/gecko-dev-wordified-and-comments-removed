@@ -631,13 +631,6 @@ document
 :
 TrustedNodeAddress
 pub
-script_chan
-:
-Sender
-<
-ConstellationControlMsg
->
-pub
 window_size
 :
 WindowSizeData
@@ -649,10 +642,6 @@ Sender
 (
 )
 >
-pub
-id
-:
-u32
 pub
 query_type
 :

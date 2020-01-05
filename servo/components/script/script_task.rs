@@ -9747,13 +9747,6 @@ clone
 )
 self
 .
-control_chan
-.
-clone
-(
-)
-self
-.
 compositor
 .
 borrow_mut
