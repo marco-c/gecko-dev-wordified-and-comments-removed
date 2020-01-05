@@ -25662,6 +25662,7 @@ scheme
 host
 port
 mPrivateBrowsing
+originAttributes
 )
 )
 )

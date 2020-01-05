@@ -1002,6 +1002,10 @@ int32_t
 port
 bool
 pb
+const
+OriginAttributes
+&
+originAttributes
 )
 {
 return
@@ -1014,6 +1018,7 @@ scheme
 host
 port
 pb
+originAttributes
 )
 ;
 }
