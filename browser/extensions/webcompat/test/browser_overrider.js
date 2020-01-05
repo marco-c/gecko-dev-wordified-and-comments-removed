@@ -136,7 +136,7 @@ finalUA
 =
 overrider
 .
-getUAForURI
+lookupUAOverride
 (
 getnsIURI
 (
@@ -226,7 +226,7 @@ finalUA
 =
 overrider
 .
-getUAForURI
+lookupUAOverride
 (
 getnsIURI
 (
