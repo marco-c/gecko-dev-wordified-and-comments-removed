@@ -13,17 +13,6 @@ PlacesUtils
 history
 ;
 var
-systemPrincipal
-=
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-;
-var
 originalFavicon
 =
 {

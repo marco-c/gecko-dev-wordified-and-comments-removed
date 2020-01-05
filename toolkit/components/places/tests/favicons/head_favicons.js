@@ -88,6 +88,17 @@ this
 ;
 }
 const
+systemPrincipal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
+const
 FAVICON_ERRORPAGE_URI
 =
 NetUtil

@@ -193,7 +193,7 @@ unsigned
 long
 MAX_FAVICON_BUFFER_SIZE
 =
-35840
+65536
 ;
 /
 *
