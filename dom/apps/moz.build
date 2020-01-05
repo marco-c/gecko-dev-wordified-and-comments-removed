@@ -124,11 +124,6 @@ AppsServiceChild
 jsm
 '
 '
-PermissionsInstaller
-.
-jsm
-'
-'
 PermissionsTable
 .
 jsm

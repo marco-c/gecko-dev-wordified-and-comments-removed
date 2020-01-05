@@ -1817,11 +1817,6 @@ Permissions
 webidl
 '
 '
-PermissionSettings
-.
-webidl
-'
-'
 PermissionStatus
 .
 webidl

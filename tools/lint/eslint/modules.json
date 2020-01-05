@@ -2817,17 +2817,6 @@ NetworkManager
 "
 ]
 "
-PermissionSettings
-.
-jsm
-"
-:
-[
-"
-PermissionSettingsModule
-"
-]
-"
 PermissionsTable
 .
 jsm
