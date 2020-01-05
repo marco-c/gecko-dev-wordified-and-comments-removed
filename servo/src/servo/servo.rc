@@ -123,6 +123,9 @@ mod
 display_list
 ;
 mod
+inline
+;
+mod
 layout
 ;
 }
