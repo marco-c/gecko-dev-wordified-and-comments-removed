@@ -294,6 +294,10 @@ const
 LocalRegisteredKey
 &
 aRegisteredKey
+const
+CryptoBuffer
+&
+aAppParam
 AbstractThread
 *
 aMainThread
@@ -309,6 +313,9 @@ U2FIsRegisteredTask
 ;
 LocalRegisteredKey
 mRegisteredKey
+;
+CryptoBuffer
+mAppParam
 ;
 }
 ;
