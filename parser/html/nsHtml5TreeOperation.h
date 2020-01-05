@@ -2244,6 +2244,9 @@ nsIContent
 *
 *
 aScriptElement
+bool
+*
+aInterrupted
 )
 ;
 private
