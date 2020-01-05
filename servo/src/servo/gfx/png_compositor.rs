@@ -161,7 +161,7 @@ vec_from_buf
 vec
 :
 :
-unsafe
+raw
 :
 :
 from_buf
@@ -517,11 +517,6 @@ output
 .
 send
 (
-vec
-:
-:
-from_mut
-(
 dvec
 :
 :
@@ -529,7 +524,6 @@ unwrap
 (
 move
 buffer
-)
 )
 )
 ;

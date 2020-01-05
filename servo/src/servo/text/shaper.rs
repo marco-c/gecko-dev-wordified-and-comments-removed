@@ -1,4 +1,5 @@
-use
+extern
+mod
 harfbuzz
 ;
 export
@@ -207,7 +208,7 @@ face_blob
 vec
 :
 :
-as_buf
+as_imm_buf
 (
 *
 (

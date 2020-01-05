@@ -339,7 +339,7 @@ attrs
 vec
 :
 :
-as_buf
+as_imm_buf
 (
 *
 attrs
@@ -563,7 +563,7 @@ attrs
 vec
 :
 :
-as_buf
+as_imm_buf
 (
 *
 attrs
