@@ -117,14 +117,6 @@ HasRules
 )
 const
 ;
-void
-AppendStyleSheet
-(
-ServoStyleSheet
-*
-aSheet
-)
-;
 MOZ_MUST_USE
 nsresult
 ParseSheet

@@ -361,7 +361,6 @@ return
 mParent
 ;
 }
-inline
 void
 AppendStyleSheet
 (

@@ -413,14 +413,6 @@ const
 #
 endif
 void
-AppendStyleSheet
-(
-CSSStyleSheet
-*
-aSheet
-)
-;
-void
 AppendStyleRule
 (
 css
