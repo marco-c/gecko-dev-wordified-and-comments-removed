@@ -3981,7 +3981,7 @@ transforms
 .
 add
 def
-remove_native_non_try
+remove_native
 (
 config
 tests
@@ -3997,12 +3997,11 @@ native
 engine
 jobs
 if
-they
-are
+-
+w
+is
 not
-in
-try
-branch
+given
 .
 "
 "
@@ -4035,17 +4034,14 @@ engine
 or
 config
 .
-params
+config
 [
 '
-project
+args
 '
 ]
-=
-=
-'
-try
-'
+.
+taskcluster_worker
 :
             
 yield
