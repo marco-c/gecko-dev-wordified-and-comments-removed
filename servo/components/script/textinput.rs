@@ -466,8 +466,6 @@ self
 current_line_length
 (
 )
--
-1
 ;
 if
 self
