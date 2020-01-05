@@ -690,7 +690,6 @@ nsCycleCollectionTraversalCallback
 &
 aCb
 )
-const
 ;
 void
 NoteGCThingXPCOMChildren
@@ -1511,6 +1510,19 @@ aZone
 )
 ;
 }
+void
+TraceJSChildren
+(
+JSTracer
+*
+aTrc
+JS
+:
+:
+GCCellPtr
+aThing
+)
+;
 void
 PrepareWaitingZonesForGC
 (
