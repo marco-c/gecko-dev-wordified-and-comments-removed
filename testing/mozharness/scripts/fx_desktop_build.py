@@ -171,6 +171,14 @@ build
 '
                 
 '
+generate
+-
+build
+-
+stats
+'
+                
+'
 upload
 -
 files
@@ -212,14 +220,6 @@ manifest
 multi
 -
 l10n
-'
-                
-'
-generate
--
-build
--
-stats
 '
                 
 '

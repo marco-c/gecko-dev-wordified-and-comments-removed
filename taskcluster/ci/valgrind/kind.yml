@@ -194,14 +194,14 @@ get
 -
 secrets
 build
-valgrind
--
-test
 generate
 -
 build
 -
 stats
+valgrind
+-
+test
 ]
 custom
 -

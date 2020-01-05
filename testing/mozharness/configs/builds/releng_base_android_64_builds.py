@@ -37,6 +37,14 @@ build
 '
         
 '
+generate
+-
+build
+-
+stats
+'
+        
+'
 upload
 -
 files
@@ -50,14 +58,6 @@ sendchange
 multi
 -
 l10n
-'
-        
-'
-generate
--
-build
--
-stats
 '
         
 '
