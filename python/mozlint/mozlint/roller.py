@@ -7,6 +7,8 @@ os
 import
 signal
 import
+sys
+import
 traceback
 from
 collections
@@ -209,6 +211,17 @@ print_exc
 )
         
 raise
+    
+finally
+:
+        
+sys
+.
+stdout
+.
+flush
+(
+)
 class
 LintRoller
 (
