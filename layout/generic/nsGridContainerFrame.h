@@ -1559,6 +1559,9 @@ ifdef
 DEBUG
 bool
 mDidPushItemsBitMayLie
+{
+false
+}
 ;
 #
 endif
