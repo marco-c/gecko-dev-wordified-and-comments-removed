@@ -603,7 +603,7 @@ size
 keyword
 value
 [
-64
+16
 ]
 *
 test_bug357614
@@ -2519,7 +2519,7 @@ max
 -
 content
 [
-52
+46
 ]
 *
 .
@@ -2532,7 +2532,7 @@ min
 -
 content
 [
-12
+6
 ]
 *
 .
@@ -2545,7 +2545,7 @@ fit
 -
 content
 [
-12
+6
 ]
 *
 .
@@ -2556,7 +2556,7 @@ moz
 -
 available
 [
-10
+4
 ]
 *
 -
