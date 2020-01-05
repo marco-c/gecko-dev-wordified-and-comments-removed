@@ -174,7 +174,11 @@ const
 return
 mExtendedMIMEType
 .
-GetCodecs
+Codecs
+(
+)
+.
+AsString
 (
 )
 ;
