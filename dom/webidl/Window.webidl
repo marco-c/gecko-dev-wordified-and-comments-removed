@@ -3726,7 +3726,6 @@ audioWorklet
 enabled
 "
 Throws
-SameObject
 ]
 readonly
 attribute
@@ -3778,7 +3777,6 @@ paintWorklet
 enabled
 "
 Throws
-SameObject
 ]
 readonly
 attribute
