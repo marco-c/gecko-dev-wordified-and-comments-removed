@@ -1302,6 +1302,9 @@ CFDictionaryGetValue
 mutQuarantineProps
 kLSQuarantineOriginURLKey
 )
+&
+&
+referrerURL
 )
 {
 :
@@ -1324,6 +1327,9 @@ CFDictionaryGetValue
 mutQuarantineProps
 kLSQuarantineDataURLKey
 )
+&
+&
+sourceURL
 )
 {
 :
