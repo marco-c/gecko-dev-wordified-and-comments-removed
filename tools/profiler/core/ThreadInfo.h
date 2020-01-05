@@ -176,12 +176,6 @@ return
 mPendingDelete
 ;
 }
-bool
-CanInvokeJS
-(
-)
-const
-;
 size_t
 SizeOfIncludingThis
 (
