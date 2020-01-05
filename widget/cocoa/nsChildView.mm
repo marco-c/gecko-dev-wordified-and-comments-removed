@@ -1780,6 +1780,11 @@ basic
 GL
 functionality
 .
+bool
+forWebRender
+=
+false
+;
 RefPtr
 <
 GLContext
@@ -1795,6 +1800,7 @@ GLContextProvider
 CreateForWindow
 (
 aWindow
+forWebRender
 false
 )
 ;

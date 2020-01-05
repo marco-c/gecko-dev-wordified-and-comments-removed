@@ -113,6 +113,8 @@ int
 *
 const
 out_visid
+bool
+aWebRender
 )
 ;
 ~

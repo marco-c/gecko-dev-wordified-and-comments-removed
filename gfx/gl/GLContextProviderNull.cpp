@@ -51,6 +51,8 @@ nsIWidget
 *
 aWidget
 bool
+aWebRender
+bool
 aForceAccelerated
 )
 {
