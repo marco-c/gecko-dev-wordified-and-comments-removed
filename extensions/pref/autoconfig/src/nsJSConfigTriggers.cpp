@@ -611,7 +611,6 @@ convertedScript
 filename
 cx
 autoconfigSb
-JSVERSION_LATEST
 &
 v
 )
