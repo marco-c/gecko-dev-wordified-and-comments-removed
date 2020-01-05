@@ -446,6 +446,8 @@ JSVal
 >
 JSBool
 {
+/
+*
 unsafe
 {
 let
@@ -529,6 +531,11 @@ return
 1
 ;
 }
+*
+/
+return
+1
+;
 }
 unsafe
 fn
@@ -596,6 +603,8 @@ obj
 JSObject
 )
 {
+/
+*
 debug
 !
 (
@@ -635,6 +644,8 @@ val
 )
 ;
 }
+*
+/
 }
 pub
 fn
@@ -649,6 +660,8 @@ doc
 Document
 )
 {
+/
+*
 let
 obj
 =
@@ -939,4 +952,6 @@ u8
 JSPROP_ENUMERATE
 )
 ;
+*
+/
 }

@@ -8,7 +8,7 @@ dom
 node
 :
 :
-Node
+AbstractNode
 ;
 use
 layout
@@ -198,7 +198,7 @@ node
 :
 Option
 <
-Node
+AbstractNode
 >
 /
 *
@@ -1160,7 +1160,7 @@ Copy
 (
 node
 :
-Node
+AbstractNode
 seed
 :
 B
@@ -1362,7 +1362,7 @@ T
 (
 node
 :
-Node
+AbstractNode
 cb
 :
 pure

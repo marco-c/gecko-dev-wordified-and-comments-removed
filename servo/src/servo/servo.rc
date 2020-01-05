@@ -217,10 +217,6 @@ window
 }
 pub
 mod
-cow
-;
-pub
-mod
 document
 ;
 pub
