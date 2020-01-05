@@ -2625,8 +2625,6 @@ const
 uint64_t
 &
 aInputBlockId
-bool
-aCallTakeFocusForClickFromTap
 )
 ;
 void

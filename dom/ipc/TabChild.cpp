@@ -7831,8 +7831,6 @@ const
 uint64_t
 &
 aInputBlockId
-bool
-aCallTakeFocusForClickFromTap
 )
 {
 nsCOMPtr
@@ -7914,9 +7912,6 @@ eSingleTap
 :
 if
 (
-aCallTakeFocusForClickFromTap
-&
-&
 mRemoteFrame
 )
 {
