@@ -1477,6 +1477,11 @@ instruction
 -
 box
 "
+align
+=
+"
+center
+"
 >
 <
 hbox
