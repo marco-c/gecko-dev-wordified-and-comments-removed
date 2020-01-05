@@ -234,6 +234,9 @@ TextureHost
 class
 TextureReadLock
 ;
+class
+WebRenderCompositorOGL
+;
 enum
 SurfaceInitMode
 {
@@ -1221,6 +1224,17 @@ return
 nullptr
 ;
 }
+virtual
+WebRenderCompositorOGL
+*
+AsWebRenderCompositorOGL
+(
+)
+{
+return
+nullptr
+;
+}
 uint32_t
 GetCompositorID
 (
@@ -1467,6 +1481,7 @@ TimeStamp
 ;
 }
 }
+virtual
 void
 CompositeUntil
 (

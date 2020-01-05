@@ -54,6 +54,10 @@ WebRenderLayer
 this
 )
 )
+mImageId
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -81,13 +85,7 @@ virtual
 WebRenderImageLayer
 (
 )
-{
-MOZ_COUNT_DTOR
-(
-WebRenderImageLayer
-)
 ;
-}
 WebRenderLayerManager
 *
 Manager
@@ -123,6 +121,11 @@ RenderLayer
 (
 )
 override
+;
+protected
+:
+uint64_t
+mImageId
 ;
 }
 ;
