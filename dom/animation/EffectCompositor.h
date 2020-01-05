@@ -210,9 +210,15 @@ nullptr
 enum
 class
 CascadeLevel
+:
+uint32_t
 {
 Animations
+=
+0
 Transitions
+=
+1
 }
 ;
 static

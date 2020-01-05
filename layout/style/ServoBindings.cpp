@@ -1256,6 +1256,11 @@ aElement
 nsIAtom
 *
 aPseudoTag
+EffectCompositor
+:
+:
+CascadeLevel
+aCascadeLevel
 )
 {
 MOZ_ASSERT
@@ -1404,13 +1409,7 @@ GetServoAnimationRule
 (
 aElement
 pseudoType
-EffectCompositor
-:
-:
-CascadeLevel
-:
-:
-Animations
+aCascadeLevel
 )
 ;
 if
