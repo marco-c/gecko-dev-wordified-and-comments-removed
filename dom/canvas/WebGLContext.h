@@ -1304,6 +1304,9 @@ UNPACK_FLIP_Y_WEBGL
 UNPACK_PREMULTIPLY_ALPHA_WEBGL
 =
 0x9241
+UNPACK_REQUIRE_FASTPATH
+=
+0x10001
 CONTEXT_LOST_WEBGL
 =
 0x9242
@@ -9116,6 +9119,9 @@ mPixelStore_FlipY
 ;
 bool
 mPixelStore_PremultiplyAlpha
+;
+bool
+mPixelStore_RequireFastPath
 ;
 class
 FakeBlackTexture
