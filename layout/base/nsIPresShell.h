@@ -2165,9 +2165,6 @@ virtual
 void
 ListStyleContexts
 (
-nsIFrame
-*
-aRootFrame
 FILE
 *
 out
