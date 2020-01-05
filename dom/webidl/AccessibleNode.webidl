@@ -129,5 +129,15 @@ Node
 ?
 DOMNode
 ;
+boolean
+is
+(
+DOMString
+.
+.
+.
+states
+)
+;
 }
 ;
