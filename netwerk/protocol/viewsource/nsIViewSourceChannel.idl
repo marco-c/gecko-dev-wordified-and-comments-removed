@@ -184,6 +184,9 @@ attribute
 .
 *
 /
+[
+must_use
+]
 attribute
 ACString
 originalContentType
@@ -208,6 +211,9 @@ document
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 boolean
@@ -285,6 +291,9 @@ channel
 .
 *
 /
+[
+must_use
+]
 attribute
 nsIURI
 baseURI

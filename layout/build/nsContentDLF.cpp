@@ -579,6 +579,12 @@ source
 nsAutoCString
 type
 ;
+mozilla
+:
+:
+Unused
+<
+<
 viewSourceChannel
 -
 >
