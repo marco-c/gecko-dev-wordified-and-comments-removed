@@ -3523,6 +3523,13 @@ WidgetKeyboardEvent
 event
 )
 ;
+async
+SetHasBeforeUnload
+(
+bool
+aHasBeforeUnload
+)
+;
 child
 :
 async

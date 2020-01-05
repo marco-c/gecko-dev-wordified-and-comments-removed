@@ -3540,6 +3540,9 @@ mActiveSuppressDisplayport
 uint64_t
 mLayersId
 ;
+int64_t
+mBeforeUnloadListeners
+;
 CSSRect
 mUnscaledOuterRect
 ;
