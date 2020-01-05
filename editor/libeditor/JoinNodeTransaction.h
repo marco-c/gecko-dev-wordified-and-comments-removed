@@ -72,10 +72,11 @@ nsINode
 aRightNode
 )
 ;
-nsresult
-CheckValidity
+bool
+CanDoIt
 (
 )
+const
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
