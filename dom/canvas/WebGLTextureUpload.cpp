@@ -9744,6 +9744,8 @@ char
 funcName
 uint32_t
 level
+GLint
+layer
 )
 const
 {
@@ -9790,6 +9792,17 @@ Texture
 =
 =
 this
+&
+&
+attach
+-
+>
+Layer
+(
+)
+=
+=
+layer
 &
 &
 uint32_t
@@ -10663,6 +10676,7 @@ ValidateCopyTexImageForFeedback
 (
 funcName
 level
+zOffset
 )
 )
 return
