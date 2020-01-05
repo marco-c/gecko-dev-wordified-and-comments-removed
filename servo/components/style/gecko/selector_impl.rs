@@ -226,7 +226,7 @@ atom
 :
 &
 WeakAtom
-in_ua
+_in_ua
 :
 bool
 )

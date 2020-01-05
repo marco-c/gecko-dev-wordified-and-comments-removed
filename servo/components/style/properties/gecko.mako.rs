@@ -9932,15 +9932,6 @@ computed_value
 :
 T
 ;
-use
-values
-:
-:
-computed
-:
-:
-LengthOrPercentageOrAuto
-;
 let
 mut
 width
