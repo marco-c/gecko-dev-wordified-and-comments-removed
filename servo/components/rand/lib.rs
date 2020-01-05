@@ -369,7 +369,7 @@ usize
 >
 ServoRng
 {
-debug
+trace
 !
 (
 "
@@ -436,7 +436,7 @@ usize
 ]
 )
 {
-debug
+trace
 !
 (
 "
@@ -475,7 +475,7 @@ new
 >
 ServoRng
 {
-debug
+trace
 !
 (
 "
@@ -564,7 +564,7 @@ mut
 IsaacWordRng
 )
 {
-debug
+trace
 !
 (
 "

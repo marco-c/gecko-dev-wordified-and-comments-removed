@@ -886,7 +886,7 @@ is_markable
 return
 ;
 }
-debug
+trace
 !
 (
 "
@@ -956,7 +956,7 @@ Reflector
 {
 unsafe
 {
-debug
+trace
 !
 (
 "
@@ -1013,7 +1013,7 @@ JSObject
 {
 unsafe
 {
-debug
+trace
 !
 (
 "
@@ -4048,7 +4048,7 @@ mut
 JSTracer
 )
 {
-debug
+trace
 !
 (
 "
