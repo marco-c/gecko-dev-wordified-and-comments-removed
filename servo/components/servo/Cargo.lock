@@ -223,7 +223,7 @@ rust
 -
 azure
 #
-452939480f5ef7640714f16c6a9e5d02e0e2d147
+e8323588209b47a07b67f61812c75dfeb2ad6851
 "
 dependencies
 =
@@ -6611,7 +6611,7 @@ upstream
 -
 16
 #
-c3dd8cacbddbfc20b0dae9b456ac1545b0402cff
+35649d0cddfd89c0bfee0ff558da7291e26d30c3
 "
 dependencies
 =
