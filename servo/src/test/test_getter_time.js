@@ -36,6 +36,7 @@ i
 +
 +
 )
+{
 var
 a
 =
@@ -43,6 +44,7 @@ elem
 .
 nodeType
 ;
+}
 window
 .
 alert
