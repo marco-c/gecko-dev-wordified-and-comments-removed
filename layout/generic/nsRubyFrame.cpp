@@ -803,9 +803,10 @@ if
 boxDecorationBreakClone
 |
 |
-NS_FRAME_IS_COMPLETE
-(
 aStatus
+.
+IsComplete
+(
 )
 )
 {

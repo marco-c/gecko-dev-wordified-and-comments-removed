@@ -5679,9 +5679,10 @@ aReflowStatus
 {
 if
 (
-NS_FRAME_IS_COMPLETE
-(
 aReflowStatus
+.
+IsComplete
+(
 )
 )
 {

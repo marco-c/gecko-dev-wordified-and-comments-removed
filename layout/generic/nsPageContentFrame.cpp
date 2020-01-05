@@ -444,9 +444,10 @@ fixedStatus
 ;
 NS_ASSERTION
 (
-NS_FRAME_IS_COMPLETE
-(
 fixedStatus
+.
+IsComplete
+(
 )
 "
 fixed

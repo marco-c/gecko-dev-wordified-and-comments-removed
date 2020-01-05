@@ -3552,9 +3552,10 @@ wm
 ;
 NS_ASSERTION
 (
-NS_FRAME_IS_COMPLETE
-(
 reflowStatus
+.
+IsComplete
+(
 )
 "
 letter

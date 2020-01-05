@@ -3287,9 +3287,10 @@ GetNextSibling
 NS_ASSERTION
 (
 !
-NS_FRAME_IS_COMPLETE
-(
 aStatus
+.
+IsComplete
+(
 )
 |
 |
@@ -3365,9 +3366,10 @@ frameWM
 if
 (
 (
-NS_FRAME_IS_COMPLETE
-(
 aStatus
+.
+IsComplete
+(
 )
 &
 &

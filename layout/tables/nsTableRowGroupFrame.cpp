@@ -5264,9 +5264,10 @@ cellBSize
 ;
 if
 (
-NS_FRAME_IS_COMPLETE
-(
 status
+.
+IsComplete
+(
 )
 )
 {
