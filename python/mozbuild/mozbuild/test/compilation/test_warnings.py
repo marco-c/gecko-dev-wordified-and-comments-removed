@@ -825,9 +825,10 @@ collector
 =
 WarningsCollector
 (
-resolve_files
-=
-False
+lambda
+w
+:
+None
 )
             
 warning
@@ -932,9 +933,10 @@ collector
 =
 WarningsCollector
 (
-resolve_files
-=
-False
+lambda
+w
+:
+None
 )
             
 warning
