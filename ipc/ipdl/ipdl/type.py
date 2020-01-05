@@ -1297,7 +1297,7 @@ __init__
 (
 self
 qname
-nestedRange
+nested
 sendSemantics
 )
 :
@@ -1312,7 +1312,10 @@ self
 .
 nestedRange
 =
-nestedRange
+(
+NOT_NESTED
+nested
+)
         
 self
 .
@@ -3603,7 +3606,7 @@ ProtocolType
 qname
 p
 .
-nestedRange
+nested
 p
 .
 sendSemantics
