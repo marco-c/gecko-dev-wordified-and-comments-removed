@@ -87,6 +87,7 @@ header
 Location
 qitem
 StrictTransportSecurity
+UserAgent
 }
 ;
 use
@@ -631,6 +632,7 @@ Arc
 <
 MIMEClassifier
 >
+String
 )
 +
 Send
@@ -644,6 +646,7 @@ load_data
 LoadData
 senders
 classifier
+user_agent
 |
 {
 spawn_named
@@ -677,6 +680,7 @@ classifier
 connector
 resource_mgr_chan
 devtools_chan
+user_agent
 )
 }
 )
@@ -941,6 +945,9 @@ Sender
 DevtoolsControlMsg
 >
 >
+user_agent
+:
+String
 )
 {
 let
@@ -966,6 +973,7 @@ resource_mgr_chan
 devtools_chan
 &
 factory
+user_agent
 )
 {
 Err
@@ -3400,6 +3408,9 @@ R
 =
 A
 >
+user_agent
+:
+String
 )
 -
 >
@@ -3722,6 +3733,20 @@ request_headers
 set
 (
 host
+)
+;
+request_headers
+.
+set
+(
+UserAgent
+(
+user_agent
+.
+clone
+(
+)
+)
 )
 ;
 set_default_accept
