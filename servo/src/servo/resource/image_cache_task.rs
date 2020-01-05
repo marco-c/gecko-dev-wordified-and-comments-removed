@@ -124,6 +124,7 @@ to_str
 :
 ToStr
 ;
+pub
 enum
 Msg
 {
@@ -150,6 +151,7 @@ posted
 /
 before
 Decode
+pub
 Prefetch
 (
 Url
@@ -167,11 +169,7 @@ post
 back
 image
 binaries
-/
-*
 priv
-*
-/
 StorePrefetchedImageData
 (
 Url
@@ -206,6 +204,7 @@ before
 GetImage
 /
 WaitForImage
+pub
 Decode
 (
 Url
@@ -226,11 +225,7 @@ back
 to
 the
 cache
-/
-*
 priv
-*
-/
 StoreImage
 (
 Url
@@ -271,6 +266,7 @@ ImageNotReady
 is
 returned
 .
+pub
 GetImage
 (
 Url
@@ -296,6 +292,7 @@ to
 load
 )
 .
+pub
 WaitForImage
 (
 Url
@@ -309,11 +306,7 @@ ImageResponseMsg
 /
 For
 testing
-/
-*
 priv
-*
-/
 OnMsg
 (
 fn
@@ -339,6 +332,7 @@ shutting
 down
 the
 ResourceTask
+pub
 Exit
 (
 Chan
@@ -348,6 +342,7 @@ Chan
 >
 )
 }
+pub
 enum
 ImageResponseMsg
 {
@@ -915,6 +910,7 @@ non_implicitly_copyable_typarams
 impl
 ImageCache
 {
+pub
 fn
 run
 (
@@ -1226,11 +1222,7 @@ None
 }
 }
 }
-/
-*
 priv
-*
-/
 fn
 get_state
 (
@@ -1266,11 +1258,7 @@ None
 Init
 }
 }
-/
-*
 priv
-*
-/
 fn
 set_state
 (
@@ -1294,11 +1282,7 @@ state
 )
 ;
 }
-/
-*
 priv
-*
-/
 fn
 prefetch
 (
@@ -1508,11 +1492,7 @@ image
 }
 }
 }
-/
-*
 priv
-*
-/
 fn
 store_prefetched_image_data
 (
@@ -1667,11 +1647,7 @@ image
 }
 }
 }
-/
-*
 priv
-*
-/
 fn
 decode
 (
@@ -1952,11 +1928,7 @@ decoding
 }
 }
 }
-/
-*
 priv
-*
-/
 fn
 store_image
 (
@@ -2093,11 +2065,7 @@ store_image
 }
 }
 }
-/
-*
 priv
-*
-/
 fn
 purge_waiters
 (
@@ -2168,11 +2136,7 @@ None
 )
 }
 }
-/
-*
 priv
-*
-/
 fn
 get_image
 (
@@ -2290,11 +2254,7 @@ ImageFailed
 }
 }
 }
-/
-*
 priv
-*
-/
 fn
 wait_for_image
 (
