@@ -5,7 +5,7 @@ feature
 (
 plugin
 custom_derive
-alloc
+heap_api
 )
 ]
 #

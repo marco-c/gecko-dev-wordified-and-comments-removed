@@ -6,7 +6,7 @@ cfg_attr
 test
 feature
 (
-alloc
+box_raw
 )
 )
 ]
