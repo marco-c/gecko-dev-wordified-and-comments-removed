@@ -40,6 +40,12 @@ eSameSide
 <
 <
 1
+eIgnoreAutoMargins
+=
+1
+<
+<
+2
 }
 ;
 static

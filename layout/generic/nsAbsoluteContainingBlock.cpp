@@ -1816,7 +1816,7 @@ flags
 AlignJustifyFlags
 :
 :
-eNoFlags
+eIgnoreAutoMargins
 ;
 uint16_t
 alignConst
