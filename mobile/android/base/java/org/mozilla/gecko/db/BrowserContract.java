@@ -3640,6 +3640,16 @@ DATE
 date
 "
 ;
+public
+static
+final
+String
+METADATA
+=
+"
+metadata
+"
+;
 }
 RobocopTarget
 public
