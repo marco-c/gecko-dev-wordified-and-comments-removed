@@ -430,15 +430,6 @@ home
 /
 worker
 /
-hg
--
-shared
-VOLUME
-/
-home
-/
-worker
-/
 checkouts
 VOLUME
 /

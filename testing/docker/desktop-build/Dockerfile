@@ -62,15 +62,6 @@ worker
 tooltool
 -
 cache
-VOLUME
-/
-home
-/
-worker
-/
-hg
--
-shared
 #
 Add
 build
