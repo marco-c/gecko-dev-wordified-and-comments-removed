@@ -380,9 +380,9 @@ classic
 /
 global
 /
-datetimeinputpickers
+filters
 .
-css
+svg
 (
 .
 .
@@ -392,9 +392,9 @@ css
 /
 shared
 /
-datetimeinputpickers
+filters
 .
-css
+svg
 )
 skin
 /
@@ -402,9 +402,9 @@ classic
 /
 global
 /
-filters
+timepicker
 .
-svg
+css
 (
 .
 .
@@ -414,9 +414,9 @@ svg
 /
 shared
 /
-filters
+timepicker
 .
-svg
+css
 )
 skin
 /
