@@ -162,8 +162,6 @@ attribute
 USVString
 search
 ;
-/
-/
 readonly
 attribute
 URLSearchParams
