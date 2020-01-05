@@ -81,15 +81,6 @@ ipc
 :
 PTestShellCommandParent
 ;
-using
-mozilla
-:
-:
-dom
-:
-:
-ContentParent
-;
 void
 TestShellParent
 :
