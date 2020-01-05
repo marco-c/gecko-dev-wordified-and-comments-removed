@@ -132,6 +132,15 @@ use
 dom
 :
 :
+values
+:
+:
+UNSIGNED_LONG_MAX
+;
+use
+dom
+:
+:
 virtualmethods
 :
 :
@@ -415,7 +424,7 @@ result
 if
 result
 >
-2147483647
+UNSIGNED_LONG_MAX
 {
 default
 }
@@ -477,7 +486,7 @@ result
 |
 result
 >
-2147483647
+UNSIGNED_LONG_MAX
 {
 default
 }

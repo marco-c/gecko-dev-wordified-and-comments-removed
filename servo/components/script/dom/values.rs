@@ -1,0 +1,8 @@
+pub
+const
+UNSIGNED_LONG_MAX
+:
+u32
+=
+2147483647
+;
