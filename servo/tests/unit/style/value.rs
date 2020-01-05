@@ -30,6 +30,7 @@ specified
 :
 :
 {
+AbsoluteLength
 ViewportPercentageLength
 NoCalcLength
 }
@@ -97,9 +98,19 @@ NoCalcLength
 :
 Absolute
 (
+AbsoluteLength
+:
+:
+Px
+(
 Au
 (
 100
+)
+.
+to_f32_px
+(
+)
 )
 )
 ;

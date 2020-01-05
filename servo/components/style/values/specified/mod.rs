@@ -248,6 +248,16 @@ self
 length
 :
 :
+AbsoluteLength
+;
+pub
+use
+self
+:
+:
+length
+:
+:
 {
 FontRelativeLength
 ViewportPercentageLength
