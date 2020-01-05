@@ -13,13 +13,7 @@ js
 src
 \
 /
-(
-?
-:
 builtin
-|
-shell
-)
 \
 /
 .

@@ -80,14 +80,6 @@ HandleString
 pathnameStr
 )
 ;
-JS
-:
-:
-UniqueChars
-GetCWD
-(
-)
-;
 }
 }
 #
