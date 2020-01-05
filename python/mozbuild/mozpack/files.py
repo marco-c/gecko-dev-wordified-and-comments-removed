@@ -1891,27 +1891,6 @@ ENOENT
                 
 raise
         
-src
-=
-os
-.
-path
-.
-relpath
-(
-self
-.
-path
-os
-.
-path
-.
-dirname
-(
-dest
-)
-)
-        
 if
 st
 and
@@ -1938,7 +1917,9 @@ if
 link
 =
 =
-src
+self
+.
+path
 :
                 
 return
@@ -1955,7 +1936,9 @@ os
 .
 symlink
 (
-src
+self
+.
+path
 dest
 )
             
@@ -1974,7 +1957,9 @@ os
 .
 symlink
 (
-src
+self
+.
+path
 dest
 )
                 
@@ -2030,7 +2015,9 @@ os
 .
 symlink
 (
-src
+self
+.
+path
 temp_dest
 )
         

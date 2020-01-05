@@ -3735,25 +3735,6 @@ win32
 '
 :
                 
-src
-=
-os
-.
-path
-.
-relpath
-(
-src
-os
-.
-path
-.
-dirname
-(
-out
-)
-)
-                
 os
 .
 symlink
