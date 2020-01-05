@@ -395,6 +395,14 @@ USE_WASAPI
 ]
 =
 True
+OS_LIBS
++
+=
+[
+"
+avrt
+"
+]
 if
 CONFIG
 [
