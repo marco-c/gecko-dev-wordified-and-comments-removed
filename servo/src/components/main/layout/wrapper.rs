@@ -2136,7 +2136,7 @@ self
 .
 element
 .
-tag_name
+local_name
 .
 as_slice
 (

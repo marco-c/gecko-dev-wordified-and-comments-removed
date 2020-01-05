@@ -200,8 +200,6 @@ DOMString
 ?
 prefix
 ;
-/
-/
 readonly
 attribute
 DOMString
