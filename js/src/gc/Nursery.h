@@ -1881,6 +1881,11 @@ shrinkAllocableSpace
 )
 ;
 void
+minimizeAllocableSpace
+(
+)
+;
+void
 startProfile
 (
 ProfileKey
