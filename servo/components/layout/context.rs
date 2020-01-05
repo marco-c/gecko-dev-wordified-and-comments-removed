@@ -155,10 +155,7 @@ sync
 mpsc
 :
 :
-{
 Sender
-channel
-}
 ;
 use
 std
