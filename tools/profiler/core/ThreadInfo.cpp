@@ -84,6 +84,11 @@ mPendingDelete
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+ThreadInfo
+)
+;
 #
 ifndef
 SPS_STANDALONE
@@ -123,6 +128,11 @@ ThreadInfo
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ThreadInfo
+)
+;
 free
 (
 mName
