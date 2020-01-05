@@ -904,9 +904,6 @@ org
 /
 multipage
 /
-forms
-.
-html
 #
 attr
 -

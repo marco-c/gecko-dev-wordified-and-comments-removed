@@ -8870,9 +8870,6 @@ org
 /
 multipage
 /
-browsers
-.
-html
 #
 navigating
 -

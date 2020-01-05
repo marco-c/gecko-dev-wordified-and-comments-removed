@@ -356,7 +356,7 @@ DOMException
 {
 /
 /
-http
+https
 :
 /
 /
@@ -388,7 +388,7 @@ code
 {
 /
 /
-http
+https
 :
 /
 /
@@ -421,7 +421,7 @@ u16
 }
 /
 /
-http
+https
 :
 /
 /
@@ -466,7 +466,7 @@ code
 }
 /
 /
-http
+https
 :
 /
 /

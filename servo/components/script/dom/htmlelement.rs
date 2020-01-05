@@ -800,9 +800,6 @@ org
 /
 multipage
 /
-dom
-.
-html
 #
 dom
 -
