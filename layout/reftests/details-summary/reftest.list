@@ -1441,6 +1441,14 @@ hidden
 details
 .
 html
+fuzzy
+-
+if
+(
+gtkWidget
+1
+20
+)
 =
 =
 mouse
@@ -1463,6 +1471,9 @@ open
 details
 .
 html
+#
+Bug
+1294278
 =
 =
 mouse
