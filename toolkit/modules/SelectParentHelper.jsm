@@ -1702,8 +1702,11 @@ sheet
 .
 insertRule
 (
-menupopup
->
+{
+item
+.
+localName
+}
 :
 nth
 -
@@ -1820,7 +1823,6 @@ item
 isDisabled
 adjustedTextSize
 false
-nthChildIndex
 )
 ;
 }
