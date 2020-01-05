@@ -540,6 +540,11 @@ EnsureClauseArray
 (
 )
 ;
+void
+ReplaceNativeLineBreakers
+(
+)
+;
 static
 void
 AdjustRange
