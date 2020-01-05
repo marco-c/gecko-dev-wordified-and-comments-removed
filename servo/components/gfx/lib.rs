@@ -424,11 +424,11 @@ font
 ;
 pub
 mod
-font_context
+font_cache_task
 ;
 pub
 mod
-font_cache_task
+font_context
 ;
 pub
 mod

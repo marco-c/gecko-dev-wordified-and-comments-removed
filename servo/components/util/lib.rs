@@ -275,15 +275,15 @@ deque
 ;
 pub
 mod
-linked_list
-;
-pub
-mod
 geometry
 ;
 pub
 mod
 ipc
+;
+pub
+mod
+linked_list
 ;
 pub
 mod
@@ -327,7 +327,7 @@ task
 ;
 pub
 mod
-tid
+task_state
 ;
 pub
 mod
@@ -335,7 +335,7 @@ taskpool
 ;
 pub
 mod
-task_state
+tid
 ;
 pub
 mod
