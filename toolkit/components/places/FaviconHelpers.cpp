@@ -4290,6 +4290,8 @@ GetStatement
 DELETE
 FROM
 moz_icons_to_pages
+"
+"
 WHERE
 icon_id
 IN
@@ -4354,6 +4356,11 @@ utc
 "
 "
 )
+AND
+page_id
+=
+:
+page_id
 "
 )
 ;
