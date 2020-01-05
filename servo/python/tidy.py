@@ -1391,9 +1391,6 @@ exceptions
 libc
 "
 "
-byteorder
-"
-"
 cocoa
 "
 ]
