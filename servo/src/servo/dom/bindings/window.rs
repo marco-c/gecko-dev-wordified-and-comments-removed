@@ -549,9 +549,8 @@ obj
 cast
 :
 :
-reinterpret_cast
+transmute
 (
-&
 RUST_JSVAL_TO_PRIVATE
 (
 val
@@ -600,9 +599,8 @@ Window
 cast
 :
 :
-reinterpret_cast
+transmute
 (
-&
 RUST_JSVAL_TO_PRIVATE
 (
 val
@@ -943,9 +941,8 @@ c_void
 cast
 :
 :
-reinterpret_cast
+transmute
 (
-&
 squirrel_away
 (
 win
