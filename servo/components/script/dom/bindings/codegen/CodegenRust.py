@@ -2119,7 +2119,7 @@ n
                     
 "
 return
-0
+JSFalse
 ;
 \
 n
@@ -3208,7 +3208,7 @@ n
                                
 "
 return
-0
+JSFalse
 ;
 "
 %
@@ -5831,7 +5831,7 @@ handleInvalidEnumValueCode
 =
 "
 return
-1
+JSTrue
 ;
 "
         
@@ -6747,7 +6747,7 @@ _
 =
 >
 return
-0
+JSFalse
 \
 n
 "
@@ -6904,7 +6904,7 @@ failureCode
 =
 '
 return
-0
+JSFalse
 '
     
 declType
@@ -8202,7 +8202,7 @@ successCode
 =
 '
 return
-1
+JSTrue
 ;
 '
 pre
@@ -19591,7 +19591,7 @@ return
 "
 \
 nreturn
-1
+JSTrue
 ;
 "
     
@@ -20965,7 +20965,7 @@ n
             
 "
 return
-0
+JSFalse
 ;
 \
 n
