@@ -134,6 +134,10 @@ block_stun_
 (
 false
 )
+block_tcp_
+(
+false
+)
 delay_stun_resp_ms_
 (
 0
@@ -257,6 +261,9 @@ block_udp_
 ;
 bool
 block_stun_
+;
+bool
+block_tcp_
 ;
 uint32_t
 delay_stun_resp_ms_
@@ -921,6 +928,9 @@ RefPtr
 TestNat
 >
 nat_
+;
+bool
+tls_
 ;
 std
 :
