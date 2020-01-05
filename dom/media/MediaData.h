@@ -744,6 +744,16 @@ size_t
 aLength
 )
 {
+if
+(
+!
+aLength
+)
+{
+return
+true
+;
+}
 const
 CheckedInt
 <
