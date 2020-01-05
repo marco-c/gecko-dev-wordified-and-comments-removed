@@ -48,7 +48,7 @@ redux
 )
 ;
 const
-MonitoPanel
+MonitorPanel
 =
 createFactory
 (
@@ -112,7 +112,7 @@ monitor
 !
 statisticsOpen
 ?
-MonitoPanel
+MonitorPanel
 (
 )
 :
