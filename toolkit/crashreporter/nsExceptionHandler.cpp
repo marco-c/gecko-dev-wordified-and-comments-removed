@@ -15452,6 +15452,10 @@ GetCurrentProcessId
 )
 )
 )
+.
+release
+(
+)
 ;
 const
 std
@@ -15602,6 +15606,10 @@ getpid
 (
 )
 )
+)
+.
+release
+(
 )
 ;
 const

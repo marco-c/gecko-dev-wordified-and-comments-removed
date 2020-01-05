@@ -4689,8 +4689,7 @@ WNT_BASE
 ;
 #
 endif
-char
-*
+SmprintfPointer
 buf
 =
 mozilla
@@ -4715,13 +4714,9 @@ buf
 mOscpu
 =
 buf
-;
-mozilla
-:
-:
-SmprintfFree
+.
+get
 (
-buf
 )
 ;
 }

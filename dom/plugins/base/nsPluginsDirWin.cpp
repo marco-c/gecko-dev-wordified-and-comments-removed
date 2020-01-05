@@ -434,6 +434,10 @@ fileInfo
 dwFileVersionLS
 )
 )
+.
+release
+(
+)
 ;
 }
 return
