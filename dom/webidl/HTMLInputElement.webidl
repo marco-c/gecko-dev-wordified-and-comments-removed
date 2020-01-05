@@ -506,6 +506,7 @@ TreatNullAs
 =
 EmptyString
 SetterThrows
+NeedsCallerType
 ]
 attribute
 DOMString

@@ -2995,6 +2995,9 @@ localizedValue
 }
 #
 endif
+IgnoredErrorResult
+rv
+;
 HTMLInputElement
 :
 :
@@ -3007,6 +3010,11 @@ mTextField
 SetValue
 (
 localizedValue
+CallerType
+:
+:
+NonSystem
+rv
 )
 ;
 }

@@ -370,10 +370,6 @@ attribute
 DOMString
 value
 ;
-attribute
-double
-valueAsNumber
-;
 /
 /
 valustAsDate
