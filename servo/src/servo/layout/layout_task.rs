@@ -492,6 +492,7 @@ FontContext
 :
 new
 (
+true
 )
 ;
 Layout

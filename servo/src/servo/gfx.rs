@@ -43,6 +43,13 @@ use
 font
 :
 :
+FontFamily
+;
+pub
+use
+font
+:
+:
 FontGroup
 ;
 pub
@@ -72,6 +79,13 @@ font_context
 :
 :
 FontContext
+;
+pub
+use
+font_list
+:
+:
+FontList
 ;
 pub
 use
