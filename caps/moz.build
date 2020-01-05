@@ -230,6 +230,11 @@ BasePrincipal
 .
 h
 '
+'
+OriginAttributes
+.
+h
+'
 ]
 SOURCES
 +
@@ -294,6 +299,11 @@ cpp
 '
 '
 NullPrincipalURI
+.
+cpp
+'
+'
+OriginAttributes
 .
 cpp
 '
