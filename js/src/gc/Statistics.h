@@ -1056,9 +1056,6 @@ FILE
 *
 fp
 ;
-int
-gcDepth
-;
 ZoneGCStats
 zoneStats
 ;
