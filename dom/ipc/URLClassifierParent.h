@@ -82,6 +82,16 @@ URLClassifierParent
 =
 default
 ;
+uint32_t
+mStartClassifyLog
+=
+0
+;
+nsresult
+mStartClassifyRv
+=
+NS_OK
+;
 }
 ;
 }
