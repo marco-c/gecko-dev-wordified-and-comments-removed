@@ -288,7 +288,6 @@ constellation_msg
 FrameType
 PipelineId
 ReferrerPolicy
-SubpageId
 WindowSizeType
 }
 ;
@@ -1931,7 +1930,6 @@ no_jsmanaged_fields
 !
 (
 FrameType
-SubpageId
 WindowSizeData
 WindowSizeType
 PipelineId

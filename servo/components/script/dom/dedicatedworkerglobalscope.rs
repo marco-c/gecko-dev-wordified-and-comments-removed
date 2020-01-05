@@ -1639,7 +1639,7 @@ clone
 }
 pub
 fn
-pipeline
+pipeline_id
 (
 &
 self

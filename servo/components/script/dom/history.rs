@@ -257,7 +257,7 @@ self
 .
 window
 .
-pipeline
+pipeline_id
 (
 )
 ;
@@ -338,7 +338,7 @@ self
 .
 window
 .
-pipeline
+pipeline_id
 (
 )
 ;

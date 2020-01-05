@@ -699,7 +699,7 @@ Some
 (
 global
 .
-pipeline
+pipeline_id
 (
 )
 )
@@ -750,7 +750,7 @@ pipeline_id
 =
 global
 .
-pipeline
+pipeline_id
 (
 )
 ;
@@ -836,7 +836,7 @@ init
 worker_url
 global
 .
-pipeline
+pipeline_id
 (
 )
 devtools_receiver

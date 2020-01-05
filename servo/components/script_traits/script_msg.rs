@@ -93,7 +93,6 @@ constellation_msg
 :
 {
 PipelineId
-SubpageId
 TraversalDirection
 }
 ;
@@ -303,7 +302,7 @@ MozBrowserEvent
 PipelineId
 Option
 <
-SubpageId
+PipelineId
 >
 MozBrowserEvent
 )

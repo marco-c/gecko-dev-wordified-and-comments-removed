@@ -3676,7 +3676,7 @@ pipeline_id
 :
 window
 .
-pipeline
+pipeline_id
 (
 )
 script_chan

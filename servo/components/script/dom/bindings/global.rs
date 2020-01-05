@@ -420,7 +420,7 @@ scope
 }
 pub
 fn
-pipeline
+pipeline_id
 (
 &
 self
@@ -444,7 +444,7 @@ window
 >
 window
 .
-pipeline
+pipeline_id
 (
 )
 GlobalRef
@@ -458,7 +458,7 @@ worker
 >
 worker
 .
-pipeline
+pipeline_id
 (
 )
 }

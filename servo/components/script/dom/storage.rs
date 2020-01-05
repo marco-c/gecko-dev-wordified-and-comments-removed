@@ -1720,14 +1720,14 @@ get_url
 if
 ev_window
 .
-pipeline
+pipeline_id
 (
 )
 !
 =
 it_window
 .
-pipeline
+pipeline_id
 (
 )
 {
