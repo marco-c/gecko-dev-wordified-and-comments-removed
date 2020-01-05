@@ -80,17 +80,6 @@ label
 <
 !
 ENTITY
-aboutAccounts
-.
-connected
-"
-Account
-connected
-"
->
-<
-!
-ENTITY
 aboutAccountsConfig
 .
 description
