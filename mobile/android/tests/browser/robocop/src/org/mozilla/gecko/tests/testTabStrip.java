@@ -216,7 +216,7 @@ sleep
 ;
 mTabStrip
 .
-assertTabCount
+assertTabCountIs
 (
 1
 )
