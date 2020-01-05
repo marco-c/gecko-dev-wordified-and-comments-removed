@@ -2175,6 +2175,12 @@ Option
 <
 SubpageId
 >
+parent_id
+:
+Option
+<
+PipelineId
+>
 script_pipeline
 :
 Option
@@ -2211,6 +2217,7 @@ STF
 (
 id
 subpage_id
+parent_id
 self
 .
 chan
@@ -3354,6 +3361,7 @@ new_pipeline
 new_id
 subpage_id
 None
+None
 LoadData
 :
 :
@@ -3502,6 +3510,7 @@ self
 new_pipeline
 (
 next_pipeline_id
+None
 None
 None
 LoadData
@@ -4903,6 +4912,10 @@ Some
 (
 new_subpage_id
 )
+Some
+(
+containing_page_pipeline_id
+)
 script_pipeline
 LoadData
 :
@@ -5279,6 +5292,19 @@ borrow
 subpage_id
 ;
 let
+parent_id
+=
+source_frame
+.
+pipeline
+.
+borrow
+(
+)
+.
+parent_id
+;
+let
 next_pipeline_id
 =
 self
@@ -5305,6 +5331,7 @@ new_pipeline
 (
 next_pipeline_id
 subpage_id
+parent_id
 None
 load_data
 )

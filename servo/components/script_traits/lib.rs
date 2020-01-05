@@ -280,6 +280,10 @@ ConstellationControlMsg
 Load
 (
 PipelineId
+Option
+<
+PipelineId
+>
 LoadData
 )
 AttachLayout
