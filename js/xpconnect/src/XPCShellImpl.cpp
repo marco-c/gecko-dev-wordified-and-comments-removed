@@ -4860,7 +4860,7 @@ startline
 )
 jsapi
 .
-ClearException
+ReportException
 (
 )
 ;
