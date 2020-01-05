@@ -4858,7 +4858,7 @@ initSyncItems
 (
 )
 {
-gSync
+gFxAccounts
 .
 initPageContextMenu
 (

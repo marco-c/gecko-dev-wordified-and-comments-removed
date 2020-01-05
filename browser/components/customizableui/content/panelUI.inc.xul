@@ -329,15 +329,6 @@ fxa
 -
 status
 "
-label
-=
-"
-&
-fxaSignedIn
-.
-tooltip
-;
-"
 defaultlabel
 =
 "
@@ -395,7 +386,7 @@ which
 =
 1
 )
-gSync
+gFxAccounts
 .
 onMenuPanelCommand
 (
@@ -426,15 +417,6 @@ PanelUI
 fxa
 -
 label
-"
-label
-=
-"
-&
-fxaSignIn
-.
-label
-;
 "
 fxabrandname
 =
@@ -471,7 +453,7 @@ icon
 oncommand
 =
 "
-gSync
+gSyncUI
 .
 doSync
 (
@@ -1251,7 +1233,7 @@ label
 oncommand
 =
 "
-gSync
+gFxAccounts
 .
 openDevicesManagementPage
 (
@@ -1291,7 +1273,7 @@ subviewbutton
 oncommand
 =
 "
-gSync
+gSyncUI
 .
 doSync
 (
@@ -1603,7 +1585,7 @@ label
 oncommand
 =
 "
-gSync
+gSyncUI
 .
 openPrefs
 (
@@ -2054,7 +2036,7 @@ label
 oncommand
 =
 "
-gSync
+gSyncUI
 .
 openPrefs
 (
@@ -2241,7 +2223,7 @@ label
 oncommand
 =
 "
-gSync
+gSyncUI
 .
 openPrefs
 (

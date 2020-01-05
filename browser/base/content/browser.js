@@ -8613,7 +8613,13 @@ init
 (
 )
 ;
-gSync
+gSyncUI
+.
+init
+(
+)
+;
+gFxAccounts
 .
 init
 (
@@ -9319,7 +9325,7 @@ uninit
 (
 )
 ;
-gSync
+gFxAccounts
 .
 uninit
 (
@@ -10232,7 +10238,7 @@ init
 (
 )
 ;
-gSync
+gSyncUI
 .
 init
 (
@@ -34737,7 +34743,7 @@ BrowserOpenSyncTabs
 (
 )
 {
-gSync
+gSyncUI
 .
 openSyncedTabsPanel
 (
@@ -41925,7 +41931,7 @@ popuphiding
 this
 )
 ;
-gSync
+gFxAccounts
 .
 updateTabContextMenu
 (
