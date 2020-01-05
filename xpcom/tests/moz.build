@@ -168,9 +168,6 @@ TestRacingServiceManager
 TestRegistrationOrder
 '
 '
-TestThreadPoolListener
-'
-'
 TestUnicodeArguments
 '
 ]
