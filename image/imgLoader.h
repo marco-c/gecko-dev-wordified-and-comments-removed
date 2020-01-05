@@ -1036,6 +1036,12 @@ Shutdown
 (
 )
 ;
+static
+void
+ShutdownMemoryReporter
+(
+)
+;
 nsresult
 ClearChromeImageCache
 (
