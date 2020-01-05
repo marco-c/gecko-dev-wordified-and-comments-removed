@@ -4013,7 +4013,7 @@ data
 >
 ValueFor
 (
-eCSSProperty_border_top_colors
+eCSSProperty__moz_border_top_colors
 )
 -
 >
@@ -4030,7 +4030,7 @@ data
 >
 ValueFor
 (
-eCSSProperty_border_right_colors
+eCSSProperty__moz_border_right_colors
 )
 -
 >
@@ -4047,7 +4047,7 @@ data
 >
 ValueFor
 (
-eCSSProperty_border_bottom_colors
+eCSSProperty__moz_border_bottom_colors
 )
 -
 >
@@ -4064,7 +4064,7 @@ data
 >
 ValueFor
 (
-eCSSProperty_border_left_colors
+eCSSProperty__moz_border_left_colors
 )
 -
 >

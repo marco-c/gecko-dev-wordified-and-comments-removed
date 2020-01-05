@@ -930,7 +930,7 @@ text
 size
 -
 adjust
-text_size_adjust
+_moz_text_size_adjust
 WebkitTextSizeAdjust
 WEBKIT_PREFIX_PREF
 )
@@ -1218,7 +1218,7 @@ webkit
 box
 -
 flex
-box_flex
+_moz_box_flex
 WebkitBoxFlex
 WEBKIT_PREFIX_PREF
 )
@@ -1232,7 +1232,7 @@ box
 ordinal
 -
 group
-box_ordinal_group
+_moz_box_ordinal_group
 WebkitBoxOrdinalGroup
 WEBKIT_PREFIX_PREF
 )
@@ -1244,7 +1244,7 @@ webkit
 box
 -
 orient
-box_orient
+_moz_box_orient
 WebkitBoxOrient
 WEBKIT_PREFIX_PREF
 )
@@ -1256,7 +1256,7 @@ webkit
 box
 -
 direction
-box_direction
+_moz_box_direction
 WebkitBoxDirection
 WEBKIT_PREFIX_PREF
 )
@@ -1268,7 +1268,7 @@ webkit
 box
 -
 align
-box_align
+_moz_box_align
 WebkitBoxAlign
 WEBKIT_PREFIX_PREF
 )
@@ -1280,7 +1280,7 @@ webkit
 box
 -
 pack
-box_pack
+_moz_box_pack
 WebkitBoxPack
 WEBKIT_PREFIX_PREF
 )
@@ -1432,7 +1432,7 @@ webkit
 user
 -
 select
-user_select
+_moz_user_select
 WebkitUserSelect
 WEBKIT_PREFIX_PREF
 )

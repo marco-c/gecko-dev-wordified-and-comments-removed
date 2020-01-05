@@ -5040,7 +5040,7 @@ aDeclaration
 >
 HasProperty
 (
-eCSSProperty_binding
+eCSSProperty__moz_binding
 )
 ;
 aDeclaration
@@ -5048,7 +5048,7 @@ aDeclaration
 >
 RemovePropertyByID
 (
-eCSSProperty_binding
+eCSSProperty__moz_binding
 )
 ;
 aDeclaration
