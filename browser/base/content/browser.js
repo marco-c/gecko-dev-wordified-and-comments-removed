@@ -7982,12 +7982,6 @@ init
 (
 )
 ;
-LightweightThemeListener
-.
-init
-(
-)
-;
 UpdateUrlbarSearchSplitterState
 (
 )
@@ -9643,12 +9637,6 @@ uninit
 )
 ;
 IndexedDBPromptHelper
-.
-uninit
-(
-)
-;
-LightweightThemeListener
 .
 uninit
 (
