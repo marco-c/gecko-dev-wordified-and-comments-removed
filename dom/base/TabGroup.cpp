@@ -1001,8 +1001,9 @@ root
 FindItemWithName
 (
 aName
-this
+aRequestor
 aOriginalRequestor
+true
 aFoundItem
 )
 ;

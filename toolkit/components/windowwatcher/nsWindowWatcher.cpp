@@ -6390,6 +6390,7 @@ FindItemWithName
 aTargetName
 nullptr
 nullptr
+false
 getter_AddRefs
 (
 treeItem
@@ -8290,6 +8291,7 @@ FindItemWithName
 aName
 nullptr
 callerItem
+false
 getter_AddRefs
 (
 foundItem
