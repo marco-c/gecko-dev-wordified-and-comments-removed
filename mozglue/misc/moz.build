@@ -107,6 +107,11 @@ PlatformMutex
 h
 '
 '
+Printf
+.
+h
+'
+'
 StackWalk
 .
 h
@@ -151,6 +156,11 @@ SOURCES
 +
 =
 [
+'
+Printf
+.
+cpp
+'
 '
 StackWalk
 .
