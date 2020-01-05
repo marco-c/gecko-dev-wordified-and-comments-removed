@@ -797,7 +797,9 @@ changed
 true
 )
 ;
-Messaging
+EventDispatcher
+.
+instance
 .
 sendRequest
 (
