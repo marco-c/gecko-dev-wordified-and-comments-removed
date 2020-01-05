@@ -181,10 +181,10 @@ layout_interface
 UntrustedNodeAddress
 ;
 use
-script_task
+script_traits
 :
 :
-ScriptChan
+ScriptControlChan
 ;
 use
 geom
@@ -1922,7 +1922,7 @@ goal
 ReflowGoal
 script_chan
 :
-ScriptChan
+ScriptControlChan
 compositor
 :
 &

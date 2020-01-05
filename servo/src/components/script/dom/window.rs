@@ -227,6 +227,12 @@ TriggerFragmentMsg
 }
 ;
 use
+script_traits
+:
+:
+ScriptControlChan
+;
+use
 servo_msg
 :
 :
@@ -566,6 +572,9 @@ pub
 script_chan
 :
 ScriptChan
+control_chan
+:
+ScriptControlChan
 console
 :
 Cell
@@ -2091,7 +2100,7 @@ reflow
 ReflowForDisplay
 self
 .
-script_chan
+control_chan
 .
 clone
 (
@@ -2830,6 +2839,9 @@ Page
 script_chan
 :
 ScriptChan
+control_chan
+:
+ScriptControlChan
 compositor
 :
 Box
@@ -2865,6 +2877,9 @@ WindowTypeId
 script_chan
 :
 script_chan
+control_chan
+:
+control_chan
 console
 :
 Cell

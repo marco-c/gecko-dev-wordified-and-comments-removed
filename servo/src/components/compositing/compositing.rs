@@ -131,7 +131,7 @@ png
 ;
 extern
 crate
-script
+script_traits
 ;
 extern
 crate

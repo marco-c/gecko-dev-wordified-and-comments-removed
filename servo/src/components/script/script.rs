@@ -150,6 +150,10 @@ extern
 crate
 time
 ;
+extern
+crate
+script_traits
+;
 #
 [
 phase

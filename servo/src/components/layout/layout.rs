@@ -84,6 +84,10 @@ script
 ;
 extern
 crate
+script_traits
+;
+extern
+crate
 style
 ;
 #
