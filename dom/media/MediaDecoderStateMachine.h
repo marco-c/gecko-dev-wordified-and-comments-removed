@@ -1515,15 +1515,6 @@ SeekTask
 >
 mSeekTask
 ;
-MozPromiseRequestHolder
-<
-SeekTask
-:
-:
-SeekTaskPromise
->
-mSeekTaskRequest
-;
 void
 DiscardSeekTaskIfExist
 (
