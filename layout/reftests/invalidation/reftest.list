@@ -134,6 +134,7 @@ html
 #
 Bug
 1067360
+skip
 =
 =
 test
@@ -156,6 +157,9 @@ layers
 ref
 .
 html
+#
+Bug
+1067360
 pref
 (
 layout
