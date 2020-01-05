@@ -504,6 +504,7 @@ Debug
 PartialEq
 )
 ]
+pub
 enum
 UnableToComposite
 {
@@ -522,6 +523,7 @@ Debug
 PartialEq
 )
 ]
+pub
 enum
 NotReadyToPaint
 {
@@ -866,6 +868,7 @@ LayerPixel
 f32
 >
 }
+pub
 struct
 PipelineDetails
 {
@@ -926,6 +929,7 @@ PartialEq
 Debug
 )
 ]
+pub
 enum
 CompositeTarget
 {

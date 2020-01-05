@@ -138,6 +138,7 @@ self
 String
 ;
 }
+pub
 trait
 ActorAsAny
 {

@@ -103,6 +103,7 @@ HeapSizeOf
 heap_size_of
 }
 ;
+pub
 struct
 User
 {
