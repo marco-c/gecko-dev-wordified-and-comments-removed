@@ -146,10 +146,6 @@ stb_image
 ;
 extern
 crate
-green
-;
-extern
-crate
 native
 ;
 extern
