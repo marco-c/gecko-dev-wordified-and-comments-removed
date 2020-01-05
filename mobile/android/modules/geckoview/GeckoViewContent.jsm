@@ -113,7 +113,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /

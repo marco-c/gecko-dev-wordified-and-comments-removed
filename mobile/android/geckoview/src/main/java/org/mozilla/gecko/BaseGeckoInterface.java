@@ -428,7 +428,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
