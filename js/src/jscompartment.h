@@ -2826,6 +2826,11 @@ sweepTemplateObjects
 )
 ;
 void
+sweepVarNames
+(
+)
+;
+void
 purge
 (
 )
