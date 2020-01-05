@@ -112,10 +112,6 @@ include
 protocol
 PVsyncBridge
 ;
-include
-protocol
-PVideoDecoderManager
-;
 using
 base
 :
@@ -358,16 +354,6 @@ NewContentVRManager
 Endpoint
 <
 PVRManagerParent
->
-endpoint
-)
-;
-async
-NewContentVideoDecoderManager
-(
-Endpoint
-<
-PVideoDecoderManagerParent
 >
 endpoint
 )
