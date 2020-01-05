@@ -64,7 +64,7 @@ euclid
 :
 :
 {
-Matrix4
+Matrix4D
 Point2D
 Point3D
 Rect
@@ -772,7 +772,10 @@ Au
 )
 -
 >
-Matrix4
+Matrix4D
+<
+f32
+>
 {
 let
 d
@@ -791,7 +794,7 @@ d
 .
 0
 {
-Matrix4
+Matrix4D
 :
 :
 identity
@@ -800,7 +803,7 @@ identity
 }
 else
 {
-Matrix4
+Matrix4D
 :
 :
 create_perspective
@@ -8328,7 +8331,7 @@ let
 mut
 transform
 =
-Matrix4
+Matrix4D
 :
 :
 identity
@@ -8428,7 +8431,7 @@ to_f32_px
 let
 pre_transform
 =
-Matrix4
+Matrix4D
 :
 :
 create_translation
@@ -8447,7 +8450,7 @@ z
 let
 post_transform
 =
-Matrix4
+Matrix4D
 :
 :
 create_translation
@@ -8515,7 +8518,7 @@ radians
 (
 )
 ;
-Matrix4
+Matrix4D
 :
 :
 create_rotation
@@ -8559,7 +8562,7 @@ sz
 =
 >
 {
-Matrix4
+Matrix4D
 :
 :
 create_scale
@@ -8633,7 +8636,7 @@ to_f32_px
 (
 )
 ;
-Matrix4
+Matrix4D
 :
 :
 create_translation
@@ -8676,7 +8679,7 @@ theta_y
 =
 >
 {
-Matrix4
+Matrix4D
 :
 :
 create_skew
@@ -8813,7 +8816,7 @@ to_f32_px
 let
 pre_transform
 =
-Matrix4
+Matrix4D
 :
 :
 create_translation
@@ -8832,7 +8835,7 @@ y
 let
 post_transform
 =
-Matrix4
+Matrix4D
 :
 :
 create_translation
@@ -8879,7 +8882,7 @@ None
 =
 >
 {
-Matrix4
+Matrix4D
 :
 :
 identity
