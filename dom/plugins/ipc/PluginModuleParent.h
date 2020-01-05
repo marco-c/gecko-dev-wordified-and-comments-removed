@@ -944,6 +944,10 @@ const
 nsCString
 &
 aProfile
+const
+bool
+&
+aIsExitProfile
 )
 override
 {
@@ -2197,6 +2201,10 @@ const
 nsCString
 &
 aProfile
+const
+bool
+&
+aIsExitProfile
 )
 override
 ;

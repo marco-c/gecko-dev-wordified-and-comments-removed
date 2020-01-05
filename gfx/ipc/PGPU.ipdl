@@ -858,6 +858,8 @@ Profile
 (
 nsCString
 aProfile
+bool
+aIsExitProfile
 )
 ;
 async

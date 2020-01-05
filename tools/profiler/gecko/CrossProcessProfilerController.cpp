@@ -749,6 +749,8 @@ const
 nsCString
 &
 aProfile
+bool
+aIsExitProfile
 )
 {
 mProfile

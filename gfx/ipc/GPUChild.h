@@ -358,6 +358,10 @@ const
 nsCString
 &
 aProfile
+const
+bool
+&
+aIsExitProfile
 )
 override
 ;

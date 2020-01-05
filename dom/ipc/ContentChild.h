@@ -3323,6 +3323,13 @@ aMsg
 )
 override
 ;
+void
+GatherProfile
+(
+bool
+aIsExitProfile
+)
+;
 InfallibleTArray
 <
 nsAutoPtr

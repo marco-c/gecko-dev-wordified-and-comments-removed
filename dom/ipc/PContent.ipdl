@@ -5276,6 +5276,8 @@ Profile
 (
 nsCString
 aProfile
+bool
+aIsExitProfile
 )
 ;
 /
