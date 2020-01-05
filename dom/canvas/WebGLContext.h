@@ -7592,6 +7592,9 @@ mViewportHeight
 bool
 mAlreadyWarnedAboutViewportLargerThanDest
 ;
+GLfloat
+mLineWidth
+;
 WebGLContextLossHandler
 mContextLossHandler
 ;
