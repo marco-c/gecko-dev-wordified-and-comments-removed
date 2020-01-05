@@ -129,9 +129,6 @@ DIRS
 build
 '
 '
-gtest
-'
-'
 mozjemalloc
 '
 ]
