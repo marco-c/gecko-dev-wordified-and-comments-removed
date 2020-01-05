@@ -1689,7 +1689,8 @@ gNoiseIndent
 printf
 (
 "
-GetAvailableSpace
+%
+s
 :
 band
 =
@@ -1708,6 +1709,7 @@ d
 \
 n
 "
+__func__
 result
 .
 mRect
@@ -1895,7 +1897,8 @@ gNoiseIndent
 printf
 (
 "
-GetAvailableSpaceForHeight
+%
+s
 :
 space
 =
@@ -1914,6 +1917,7 @@ d
 \
 n
 "
+__func__
 result
 .
 mRect
