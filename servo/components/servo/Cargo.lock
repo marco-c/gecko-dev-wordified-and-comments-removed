@@ -23592,7 +23592,7 @@ string_cache_shared
 .
 1
 .
-10
+11
 (
 registry
 +
@@ -23725,7 +23725,7 @@ string_cache_shared
 .
 1
 .
-10
+11
 (
 registry
 +
@@ -23766,7 +23766,7 @@ version
 .
 1
 .
-10
+11
 "
 source
 =
