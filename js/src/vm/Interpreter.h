@@ -2077,6 +2077,7 @@ IteratorNext
 IteratorReturn
 IteratorThrow
 GetIterator
+GetAsyncIterator
 }
 ;
 bool
