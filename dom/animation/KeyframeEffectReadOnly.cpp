@@ -1323,14 +1323,14 @@ parentStyle
 aStyleContext
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 ?
 aStyleContext
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 -
