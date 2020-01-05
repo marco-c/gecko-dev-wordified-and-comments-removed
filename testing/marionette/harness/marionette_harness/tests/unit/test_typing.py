@@ -22,6 +22,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip
 skip_if_mobile
 def
 inline
@@ -152,6 +153,18 @@ chrome
 )
     
 skip_if_mobile
+(
+"
+Interacting
+with
+chrome
+elements
+not
+available
+for
+Fennec
+"
+)
     
 def
 test_cut_and_paste_shortcuts
@@ -1774,6 +1787,20 @@ chees
 )
     
 skip_if_mobile
+(
+"
+Bug
+1324752
+-
+Arrow
+keys
+cannot
+be
+sent
+in
+Fennec
+"
+)
     
 def
 testShouldReportKeyCodeOfArrowKeysUpDownEvents
@@ -2034,15 +2061,15 @@ value
 )
 )
     
+skip
+(
 "
-"
-"
-Disabled
-.
 Reenable
 in
 Bug
 1068728
+"
+)
     
 def
 testNumericShiftKeys
@@ -2175,10 +2202,6 @@ strip
 )
 )
     
-"
-"
-"
-    
 def
 testLowerCaseAlphaKeys
 (
@@ -2254,15 +2277,15 @@ value
 )
 )
     
+skip
+(
 "
-"
-"
-Disabled
-.
 Reenable
 in
 Bug
 1068735
+"
+)
     
 def
 testUppercaseAlphaKeys
@@ -2373,19 +2396,15 @@ strip
 )
 )
     
+skip
+(
 "
-"
-"
-    
-"
-"
-"
-Disabled
-.
 Reenable
 in
 Bug
 1068726
+"
+)
     
 def
 testAllPrintableKeys
@@ -2527,19 +2546,15 @@ strip
 )
 )
     
+skip
+(
 "
-"
-"
-    
-"
-"
-"
-Disabled
-.
 Reenable
 in
 Bug
 1068733
+"
+)
     
 def
 testSpecialSpaceKeys
@@ -2631,10 +2646,6 @@ value
 "
 )
 )
-    
-"
-"
-"
     
 def
 testShouldTypeAnInteger
