@@ -99,7 +99,7 @@ dimen
 name
 =
 "
-tab_panel_grid_padding
+tab_panel_grid_hpadding
 "
 >
 48dp

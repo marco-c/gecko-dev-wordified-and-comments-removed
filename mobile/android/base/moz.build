@@ -5182,6 +5182,13 @@ java
 '
 tabs
 /
+TabsGridLayoutAnimator
+.
+java
+'
+'
+tabs
+/
 TabsLayout
 .
 java
@@ -5197,13 +5204,6 @@ java
 tabs
 /
 TabsLayoutItemView
-.
-java
-'
-'
-tabs
-/
-TabsLayoutRecyclerAdapter
 .
 java
 '
