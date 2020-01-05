@@ -3,6 +3,14 @@
 [
 feature
 (
+const_fn
+)
+]
+#
+!
+[
+feature
+(
 concat_idents
 )
 ]
@@ -33,6 +41,10 @@ bindings
 pub
 mod
 ptr
+;
+pub
+mod
+sugar
 ;
 #
 [

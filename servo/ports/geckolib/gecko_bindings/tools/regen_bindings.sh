@@ -270,6 +270,11 @@ nsStyleXUL
 nsStyleSVGReset
 nsStyleColumn
 nsStyleEffects
+\
+nsStyleImage
+nsStyleGradient
+nsStyleCoord
+nsStyleGradientStop
 do
 MAP_GECKO_TYPES
 =
@@ -375,6 +380,7 @@ in
 SheetParsingMode
 nsMainThreadPtrHandle
 nsMainThreadPtrHolder
+nscolor
 do
 MAP_GECKO_TYPES
 =

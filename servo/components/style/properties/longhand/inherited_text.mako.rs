@@ -2229,15 +2229,10 @@ break
 -
 word
 "
-gecko_ffi_name
-=
-"
-mWordWrap
-"
 gecko_constant_prefix
 =
 "
-NS_STYLE_WORDWRAP
+NS_STYLE_OVERFLOWWRAP
 "
 )
 }
