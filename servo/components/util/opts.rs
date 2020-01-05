@@ -626,6 +626,7 @@ bool
 =
 false
 ;
+pub
 fn
 default_opts
 (
