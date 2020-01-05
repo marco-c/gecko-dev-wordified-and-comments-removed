@@ -948,8 +948,13 @@ HasLowBufferedData
 bool
 HasLowBufferedData
 (
-int64_t
-aUsecs
+const
+media
+:
+:
+TimeUnit
+&
+aThreshold
 )
 ;
 void
