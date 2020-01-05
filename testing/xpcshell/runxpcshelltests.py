@@ -8100,6 +8100,10 @@ None
 rerun_failures
 =
 False
+threadCount
+=
+NUM_THREADS
+                 
 failure_manifest
 =
 None
@@ -8858,6 +8862,14 @@ self
 failure_manifest
 =
 failure_manifest
+        
+self
+.
+threadCount
+=
+threadCount
+or
+NUM_THREADS
         
 self
 .
@@ -9772,7 +9784,9 @@ threads
 .
 "
 %
-NUM_THREADS
+self
+.
+threadCount
 )
         
 running_tests
@@ -9866,7 +9880,9 @@ len
 running_tests
 )
 <
-NUM_THREADS
+self
+.
+threadCount
 )
 :
                 
