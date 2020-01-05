@@ -555,8 +555,8 @@ each
 item
 |
 {
-#
 debug
+!
 [
 "
 drawing
