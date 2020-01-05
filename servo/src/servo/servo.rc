@@ -107,10 +107,6 @@ layers
 ;
 extern
 mod
-netsurfcss
-;
-extern
-mod
 opengles
 ;
 extern
