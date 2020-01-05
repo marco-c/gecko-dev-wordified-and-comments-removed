@@ -3930,10 +3930,15 @@ cleartext
 ;
 }
 ;
+Async
+.
+promiseSpinningly
+(
 collection
 .
 get
 (
+)
 )
 ;
 return
