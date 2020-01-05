@@ -159,6 +159,15 @@ use
 dom
 :
 :
+namespace
+:
+:
+Null
+;
+use
+dom
+:
+:
 node
 :
 :
@@ -2274,7 +2283,7 @@ elem
 .
 get_attr
 (
-None
+Null
 "
 name
 "
@@ -2291,7 +2300,7 @@ elem
 .
 get_attr
 (
-None
+Null
 "
 name
 "
@@ -2813,7 +2822,7 @@ element
 .
 get_attr
 (
-None
+Null
 "
 id
 "

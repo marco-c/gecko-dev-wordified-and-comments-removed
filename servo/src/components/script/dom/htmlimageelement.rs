@@ -56,6 +56,15 @@ use
 dom
 :
 :
+namespace
+:
+:
+Null
+;
+use
+dom
+:
+:
 node
 :
 :
@@ -288,7 +297,7 @@ elem
 .
 get_attr
 (
-None
+Null
 "
 src
 "

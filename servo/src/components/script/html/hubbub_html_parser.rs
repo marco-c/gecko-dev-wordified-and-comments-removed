@@ -73,6 +73,15 @@ use
 dom
 :
 :
+namespace
+:
+:
+Null
+;
+use
+dom
+:
+:
 node
 :
 :
@@ -2581,7 +2590,7 @@ element
 .
 get_attr
 (
-None
+Null
 "
 rel
 "
@@ -2590,7 +2599,7 @@ element
 .
 get_attr
 (
-None
+Null
 "
 href
 "
@@ -2743,7 +2752,7 @@ elem
 .
 get_attr
 (
-None
+Null
 "
 src
 "
@@ -3332,7 +3341,7 @@ script
 .
 get_attr
 (
-None
+Null
 "
 src
 "
