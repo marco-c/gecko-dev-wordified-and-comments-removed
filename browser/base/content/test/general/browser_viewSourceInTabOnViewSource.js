@@ -131,6 +131,15 @@ function
 )
 {
 yield
+new
+Promise
+(
+(
+resolve
+)
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -150,6 +159,10 @@ tab
 true
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;

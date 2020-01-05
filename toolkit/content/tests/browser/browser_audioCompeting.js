@@ -492,6 +492,13 @@ setup_test_preference
 )
 {
 yield
+new
+Promise
+(
+resolve
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -523,6 +530,10 @@ processCount
 1
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;

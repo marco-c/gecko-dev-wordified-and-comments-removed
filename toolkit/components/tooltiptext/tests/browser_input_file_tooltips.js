@@ -10,6 +10,13 @@ setup
 )
 {
 yield
+new
+Promise
+(
+resolve
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -29,6 +36,10 @@ tooltipDelay
 0
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;

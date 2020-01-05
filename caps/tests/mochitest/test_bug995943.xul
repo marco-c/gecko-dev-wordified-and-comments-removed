@@ -726,6 +726,14 @@ prefs
 )
 {
 return
+new
+Promise
+(
+function
+(
+resolve
+)
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -734,6 +742,10 @@ pushPrefEnv
 set
 :
 prefs
+}
+resolve
+)
+;
 }
 )
 ;

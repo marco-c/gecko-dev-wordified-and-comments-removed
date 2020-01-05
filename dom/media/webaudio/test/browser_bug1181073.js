@@ -6,6 +6,12 @@ function
 )
 {
 yield
+new
+Promise
+(
+resolve
+=
+>
 SpecialPowers
 .
 pushPrefEnv
@@ -26,6 +32,8 @@ min_background_timeout_value
 ]
 ]
 }
+resolve
+)
 )
 ;
 yield

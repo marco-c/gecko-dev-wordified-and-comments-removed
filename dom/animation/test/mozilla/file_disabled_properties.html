@@ -47,6 +47,15 @@ value
 )
 {
 return
+new
+Promise
+(
+function
+(
+resolve
+reject
+)
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -62,6 +71,10 @@ pref
 value
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;

@@ -6,6 +6,13 @@ function
 )
 {
 yield
+new
+Promise
+(
+resolve
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -25,6 +32,10 @@ autofocus
 false
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;

@@ -124,6 +124,13 @@ setup
 )
 {
 yield
+new
+Promise
+(
+resolve
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -155,6 +162,10 @@ processCount
 1
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;

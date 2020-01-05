@@ -3185,6 +3185,15 @@ function
 )
 {
 yield
+new
+Promise
+(
+(
+resolve
+)
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -3206,6 +3215,10 @@ showAudioPlayingIcon
 true
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;

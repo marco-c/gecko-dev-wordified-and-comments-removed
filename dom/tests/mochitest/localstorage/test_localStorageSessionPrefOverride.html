@@ -112,6 +112,16 @@ function
 )
 {
 yield
+new
+Promise
+(
+(
+resolve
+reject
+)
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -133,6 +143,10 @@ lifetimePolicy
 ACCEPT_SESSION
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;

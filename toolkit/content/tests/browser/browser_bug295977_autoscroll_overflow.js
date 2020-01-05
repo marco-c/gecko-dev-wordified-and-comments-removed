@@ -18,6 +18,12 @@ value
 )
 {
 return
+new
+Promise
+(
+resolve
+=
+>
 SpecialPowers
 .
 pushPrefEnv
@@ -34,6 +40,8 @@ value
 ]
 ]
 }
+resolve
+)
 )
 ;
 }

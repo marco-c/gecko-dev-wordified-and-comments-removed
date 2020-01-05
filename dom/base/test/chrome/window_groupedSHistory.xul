@@ -325,6 +325,12 @@ run
 (
 )
 {
+new
+Promise
+(
+resolve
+=
+>
 SpecialPowers
 .
 pushPrefEnv
@@ -347,6 +353,8 @@ true
 ]
 ]
 }
+resolve
+)
 )
 .
 then

@@ -1002,6 +1002,13 @@ setup_test_preference
 )
 {
 yield
+new
+Promise
+(
+resolve
+=
+>
+{
 SpecialPowers
 .
 pushPrefEnv
@@ -1023,6 +1030,10 @@ testing
 true
 ]
 ]
+}
+resolve
+)
+;
 }
 )
 ;
