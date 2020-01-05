@@ -11419,6 +11419,10 @@ if
 (
 !
 result
+|
+|
+!
+result
 -
 >
 init
