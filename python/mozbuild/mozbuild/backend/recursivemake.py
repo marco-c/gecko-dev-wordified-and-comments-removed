@@ -8775,6 +8775,29 @@ n
 '
 )
         
+target_dir
+=
+mozpath
+.
+join
+(
+backend_file
+.
+objdir
+libdef
+.
+target_dir
+)
+        
+target_dir
+=
+mozpath
+.
+normpath
+(
+target_dir
+)
+        
 backend_file
 .
 write
@@ -8783,10 +8806,13 @@ write
 CARGO_TARGET_DIR
 :
 =
-.
+%
+s
 \
 n
 '
+%
+target_dir
 )
         
 if

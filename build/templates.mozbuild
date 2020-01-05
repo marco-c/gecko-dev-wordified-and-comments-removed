@@ -410,6 +410,9 @@ name
 features
 =
 None
+target_dir
+=
+None
 )
 :
 '
@@ -436,6 +439,12 @@ features
 RUST_LIBRARY_FEATURES
 =
 features
+if
+target_dir
+:
+RUST_LIBRARY_TARGET_DIR
+=
+target_dir
 template
 def
 SharedLibrary

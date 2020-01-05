@@ -2913,6 +2913,20 @@ profile_name
 context
 )
         
+cargo_target_dir
+=
+context
+.
+get
+(
+'
+RUST_LIBRARY_TARGET_DIR
+'
+'
+.
+'
+)
+        
 dependencies
 =
 set
@@ -3002,6 +3016,7 @@ crate_type
 dependencies
                    
 features
+cargo_target_dir
 *
 *
 static_args
