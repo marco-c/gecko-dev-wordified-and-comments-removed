@@ -212,10 +212,6 @@ nsAString
 &
 aKeySystem
 const
-nsAString
-&
-aCDMVersion
-const
 MediaKeySystemConfiguration
 &
 aConfig
@@ -496,10 +492,6 @@ mParent
 const
 nsString
 mKeySystem
-;
-const
-nsString
-mCDMVersion
 ;
 nsCString
 mNodeId

@@ -179,10 +179,6 @@ const
 nsAString
 &
 aKeySystem
-const
-nsAString
-&
-aCDMVersion
 MediaKeySessionType
 aSessionType
 ErrorResult
@@ -507,10 +503,6 @@ mKeys
 const
 nsString
 mKeySystem
-;
-const
-nsString
-mCDMVersion
 ;
 nsString
 mSessionId

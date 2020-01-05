@@ -870,11 +870,7 @@ new
 MediaKeySystemAccess
 (
 mWindow
-keySystem
-NS_ConvertUTF8toUTF16
-(
-cdmVersion
-)
+aKeySystem
 config
 )
 )
