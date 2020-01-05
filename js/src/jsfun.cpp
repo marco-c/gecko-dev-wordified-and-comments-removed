@@ -7920,7 +7920,7 @@ mutedErrors
 setFileAndLine
 (
 filename
-0
+1
 )
 .
 setNoScriptRval
