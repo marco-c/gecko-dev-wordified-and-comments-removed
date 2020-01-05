@@ -7370,16 +7370,6 @@ true
 GeckoFontMetrics
 ret
 ;
-MOZ_ASSERT
-(
-ServoStyleSet
-:
-:
-IsInServoTraversal
-(
-)
-)
-;
 nsPresContext
 *
 presContext
