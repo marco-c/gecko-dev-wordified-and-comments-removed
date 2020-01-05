@@ -1156,17 +1156,6 @@ release_child_i
 nsIUDPSocketChild
 *
 aChild
-nsCOMPtr
-<
-nsIEventTarget
->
-ststhread
-)
-;
-static
-void
-release_use_s
-(
 )
 ;
 #
