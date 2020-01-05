@@ -100,7 +100,7 @@ Nullable
 ;
 public
 class
-Server11Repository
+Server15Repository
 extends
 Repository
 {
@@ -152,7 +152,7 @@ DEFAULT_BATCH_LIMIT
 100
 ;
 public
-Server11Repository
+Server15Repository
 (
 NonNull
 String
@@ -316,7 +316,7 @@ delegate
 onSessionCreated
 (
 new
-Server11RepositorySession
+Server15RepositorySession
 (
 this
 )

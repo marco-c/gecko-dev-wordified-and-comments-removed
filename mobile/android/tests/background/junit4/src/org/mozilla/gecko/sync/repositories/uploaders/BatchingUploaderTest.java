@@ -148,7 +148,7 @@ sync
 .
 repositories
 .
-Server11Repository
+Server15Repository
 ;
 import
 org
@@ -161,7 +161,7 @@ sync
 .
 repositories
 .
-Server11RepositorySession
+Server15RepositorySession
 ;
 import
 org
@@ -2732,11 +2732,11 @@ MAX_REQUEST_BYTES
 1024L
 )
 ;
-Server11RepositorySession
-server11RepositorySession
+Server15RepositorySession
+server15RepositorySession
 =
 new
-Server11RepositorySession
+Server15RepositorySession
 (
 makeCountConstrainedRepository
 (
@@ -2746,7 +2746,7 @@ firstSync
 )
 )
 ;
-server11RepositorySession
+server15RepositorySession
 .
 setStoreDelegate
 (
@@ -2757,7 +2757,7 @@ return
 new
 BatchingUploader
 (
-server11RepositorySession
+server15RepositorySession
 workQueue
 storeDelegate
 Uri
@@ -2774,7 +2774,7 @@ null
 ;
 }
 private
-Server11Repository
+Server15Repository
 makeCountConstrainedRepository
 (
 long
@@ -2798,7 +2798,7 @@ firstSync
 ;
 }
 private
-Server11Repository
+Server15Repository
 makeConstrainedRepository
 (
 long
@@ -2942,7 +2942,7 @@ try
 {
 return
 new
-Server11Repository
+Server15Repository
 (
 "
 dummyCollection

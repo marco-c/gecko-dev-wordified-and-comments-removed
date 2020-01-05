@@ -240,7 +240,7 @@ sync
 .
 repositories
 .
-Server11Repository
+Server15Repository
 ;
 import
 org
@@ -392,7 +392,7 @@ class
 )
 public
 class
-TestServer11RepositorySession
+TestServer15RepositorySession
 {
 public
 class
@@ -820,11 +820,11 @@ getLocal
 )
 ;
 final
-Server11Repository
+Server15Repository
 remote
 =
 new
-Server11Repository
+Server15Repository
 (
 COLLECTION
 SystemClock

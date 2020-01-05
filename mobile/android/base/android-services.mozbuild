@@ -12856,7 +12856,7 @@ sync
 /
 repositories
 /
-ConstrainedServer11Repository
+ConfigurableServer15Repository
 .
 java
 '
@@ -13364,7 +13364,7 @@ sync
 /
 repositories
 /
-Server11Repository
+Server15Repository
 .
 java
 '
@@ -13373,7 +13373,7 @@ sync
 /
 repositories
 /
-Server11RepositorySession
+Server15RepositorySession
 .
 java
 '
@@ -13506,14 +13506,14 @@ java
 '
 sync
 /
-Server11PreviousPostFailedException
+Server15PreviousPostFailedException
 .
 java
 '
 '
 sync
 /
-Server11RecordPostFailedException
+Server15RecordPostFailedException
 .
 java
 '

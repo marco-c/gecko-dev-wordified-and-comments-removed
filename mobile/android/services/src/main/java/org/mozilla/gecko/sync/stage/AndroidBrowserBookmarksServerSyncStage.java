@@ -66,7 +66,7 @@ sync
 .
 repositories
 .
-ConstrainedServer11Repository
+ConfigurableServer15Repository
 ;
 import
 org
@@ -223,7 +223,7 @@ URISyntaxException
 {
 return
 new
-ConstrainedServer11Repository
+ConfigurableServer15Repository
 (
 getCollection
 (

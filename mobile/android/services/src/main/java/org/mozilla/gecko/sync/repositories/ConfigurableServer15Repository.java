@@ -53,9 +53,9 @@ AuthHeaderProvider
 ;
 public
 class
-ConstrainedServer11Repository
+ConfigurableServer15Repository
 extends
-Server11Repository
+Server15Repository
 {
 private
 final
@@ -73,7 +73,7 @@ boolean
 allowMultipleBatches
 ;
 public
-ConstrainedServer11Repository
+ConfigurableServer15Repository
 (
 String
 collection

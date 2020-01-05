@@ -9,7 +9,7 @@ sync
 ;
 public
 class
-Server11RecordPostFailedException
+Server15RecordPostFailedException
 extends
 SyncException
 {

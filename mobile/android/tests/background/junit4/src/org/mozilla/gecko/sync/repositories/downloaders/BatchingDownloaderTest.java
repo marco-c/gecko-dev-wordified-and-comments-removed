@@ -179,7 +179,7 @@ sync
 .
 repositories
 .
-Server11Repository
+Server15Repository
 ;
 import
 org
@@ -192,7 +192,7 @@ sync
 .
 repositories
 .
-Server11RepositorySession
+Server15RepositorySession
 ;
 import
 org
@@ -338,11 +338,11 @@ class
 BatchingDownloaderTest
 {
 private
-MockSever11Repository
+MockSever15Repository
 serverRepository
 ;
 private
-Server11RepositorySession
+Server15RepositorySession
 repositorySession
 ;
 private
@@ -757,12 +757,12 @@ offset
 }
 }
 class
-MockSever11Repository
+MockSever15Repository
 extends
-Server11Repository
+Server15Repository
 {
 public
-MockSever11Repository
+MockSever15Repository
 (
 NonNull
 String
@@ -810,7 +810,7 @@ infoConfiguration
 class
 MockRepositorySession
 extends
-Server11RepositorySession
+Server15RepositorySession
 {
 public
 boolean
@@ -863,7 +863,7 @@ MockSessionFetchRecordsDelegate
 serverRepository
 =
 new
-MockSever11Repository
+MockSever15Repository
 (
 DEFAULT_COLLECTION_NAME
 DEFAULT_COLLECTION_URL
@@ -881,7 +881,7 @@ InfoConfiguration
 repositorySession
 =
 new
-Server11RepositorySession
+Server15RepositorySession
 (
 serverRepository
 )

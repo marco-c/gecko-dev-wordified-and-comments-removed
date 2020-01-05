@@ -138,7 +138,7 @@ BatchingUploader
 ;
 public
 class
-Server11RepositorySession
+Server15RepositorySession
 extends
 RepositorySession
 {
@@ -149,12 +149,12 @@ String
 LOG_TAG
 =
 "
-Server11RepositorySession
+Server15RepositorySession
 "
 ;
 protected
 final
-Server11Repository
+Server15Repository
 serverRepository
 ;
 private
@@ -167,7 +167,7 @@ BatchingDownloader
 downloader
 ;
 public
-Server11RepositorySession
+Server15RepositorySession
 (
 Repository
 repository
@@ -183,7 +183,7 @@ this
 serverRepository
 =
 (
-Server11Repository
+Server15Repository
 )
 repository
 ;
@@ -500,7 +500,7 @@ BatchingDownloader
 initializeDownloader
 (
 final
-Server11RepositorySession
+Server15RepositorySession
 serverRepositorySession
 )
 {
