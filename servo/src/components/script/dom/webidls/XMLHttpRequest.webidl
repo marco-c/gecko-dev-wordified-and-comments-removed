@@ -468,6 +468,9 @@ DOMString
 mime
 )
 ;
+[
+SetterThrows
+]
 attribute
 XMLHttpRequestResponseType
 responseType
