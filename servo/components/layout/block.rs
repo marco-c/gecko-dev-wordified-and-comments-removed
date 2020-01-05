@@ -172,12 +172,6 @@ use
 layout_debug
 ;
 use
-layout_thread
-:
-:
-DISPLAY_PORT_SIZE_FACTOR
-;
-use
 model
 :
 :
@@ -360,6 +354,13 @@ print_tree
 :
 :
 PrintTree
+;
+const
+DISPLAY_PORT_SIZE_FACTOR
+:
+i32
+=
+8
 ;
 #
 [

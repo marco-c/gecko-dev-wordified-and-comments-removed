@@ -72,7 +72,7 @@ ipc_channel
 pub
 extern
 crate
-layout
+layout_thread
 ;
 pub
 extern
@@ -1160,9 +1160,6 @@ message
 :
 :
 Msg
-layout
-:
-:
 layout_thread
 :
 :
@@ -1358,9 +1355,6 @@ message
 :
 :
 Msg
-layout
-:
-:
 layout_thread
 :
 :
