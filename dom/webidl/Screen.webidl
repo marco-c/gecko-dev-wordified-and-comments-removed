@@ -243,6 +243,9 @@ secondary
 .
 *
 /
+[
+NeedsCallerType
+]
 readonly
 attribute
 DOMString
