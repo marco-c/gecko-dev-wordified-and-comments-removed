@@ -1522,14 +1522,23 @@ is_windows
         
 base_dir
 =
-"
-c
-:
-%
-s
-"
-%
-base_dir
+os
+.
+path
+.
+join
+(
+os
+.
+getcwd
+(
+)
+'
+llvm
+-
+sources
+'
+)
     
 source_dir
 =
