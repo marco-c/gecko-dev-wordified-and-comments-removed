@@ -111,7 +111,7 @@ beta
 "
 :
 "
-51alladdons
+50allmpc
 "
 "
 release
