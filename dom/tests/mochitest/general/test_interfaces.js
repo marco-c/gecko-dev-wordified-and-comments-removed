@@ -1615,9 +1615,6 @@ ServiceWorker
 ServiceWorkerContainer
 "
 "
-ServiceWorkerMessageEvent
-"
-"
 ServiceWorkerRegistration
 "
 {
