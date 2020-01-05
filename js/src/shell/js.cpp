@@ -14265,6 +14265,18 @@ loop
 "
 ;
 case
+JSTRY_FOR_OF_ITERCLOSE
+:
+return
+"
+for
+-
+of
+-
+iterclose
+"
+;
+case
 JSTRY_DESTRUCTURING_ITERCLOSE
 :
 return
@@ -14402,7 +14414,7 @@ jsprintf
 "
 %
 -
-14s
+16s
 %
 6u
 %

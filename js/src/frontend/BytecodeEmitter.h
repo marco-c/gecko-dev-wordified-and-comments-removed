@@ -1694,15 +1694,6 @@ op
 ;
 MOZ_MUST_USE
 bool
-flushPops
-(
-int
-*
-npops
-)
-;
-MOZ_MUST_USE
-bool
 emitCheck
 (
 ptrdiff_t
