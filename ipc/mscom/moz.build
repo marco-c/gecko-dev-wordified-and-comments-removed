@@ -176,11 +176,6 @@ mscom
 =
 [
 '
-ActivationContext
-.
-h
-'
-'
 DispatchForwarder
 .
 h
@@ -241,11 +236,6 @@ UNIFIED_SOURCES
 =
 [
 '
-ActivationContext
-.
-cpp
-'
-'
 DispatchForwarder
 .
 cpp
@@ -270,6 +260,12 @@ LOCAL_INCLUDES
 +
 =
 [
+'
+/
+xpcom
+/
+base
+'
 '
 /
 xpcom
