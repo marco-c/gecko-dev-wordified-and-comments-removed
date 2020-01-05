@@ -1964,10 +1964,6 @@ unwrap
 }
 fn
 get_unclean_dataset
-<
-'
-a
->
 (
 &
 self
@@ -1976,10 +1972,6 @@ submitter
 Option
 <
 FormSubmitter
-<
-'
-a
->
 >
 )
 -
@@ -2245,10 +2237,6 @@ directionality
 pub
 fn
 get_form_dataset
-<
-'
-a
->
 (
 &
 self
@@ -2257,10 +2245,6 @@ submitter
 Option
 <
 FormSubmitter
-<
-'
-a
->
 >
 )
 -
@@ -4017,14 +4001,8 @@ HTMLFormElement
 {
 fn
 super_type
-<
-'
-b
->
 (
 &
-'
-b
 self
 )
 -
@@ -4032,8 +4010,6 @@ self
 Option
 <
 &
-'
-b
 VirtualMethods
 >
 {

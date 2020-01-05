@@ -3268,14 +3268,8 @@ false
 pub
 fn
 pipeline_details
-<
-'
-a
->
 (
 &
-'
-a
 mut
 self
 pipeline_id
@@ -3285,8 +3279,6 @@ PipelineId
 -
 >
 &
-'
-a
 mut
 PipelineDetails
 {
@@ -3337,14 +3329,8 @@ unwrap
 pub
 fn
 pipeline
-<
-'
-a
->
 (
 &
-'
-a
 self
 pipeline_id
 :
@@ -3355,8 +3341,6 @@ PipelineId
 Option
 <
 &
-'
-a
 CompositionPipeline
 >
 {
