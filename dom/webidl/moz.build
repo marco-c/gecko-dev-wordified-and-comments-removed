@@ -337,6 +337,11 @@ BrowserElementDictionaries
 webidl
 '
 '
+BrowserElementProxy
+.
+webidl
+'
+'
 Cache
 .
 webidl
@@ -3419,11 +3424,6 @@ webidl
 '
 '
 MozNetworkStatsManager
-.
-webidl
-'
-'
-MozSpeakerManager
 .
 webidl
 '

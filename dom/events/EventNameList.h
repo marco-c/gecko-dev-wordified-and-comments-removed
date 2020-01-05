@@ -1360,13 +1360,6 @@ eBasicEventClass
 )
 NON_IDL_EVENT
 (
-speakerforcedchange
-eSpeakerForcedChange
-EventNameType_None
-eBasicEventClass
-)
-NON_IDL_EVENT
-(
 text
 eCompositionChange
 EventNameType_XUL
