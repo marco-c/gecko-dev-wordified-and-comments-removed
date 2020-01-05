@@ -37,9 +37,9 @@ base
 :
 :
 {
-es_div
-es_head
-es_img
+HTMLDivElement
+HTMLHeadElement
+HTMLImageElement
 Element
 Text
 node
@@ -223,9 +223,9 @@ alt
 *
 element
 .
-subclass
+kind
 {
-es_div
+HTMLDivElement
 {
 {
 mut
@@ -238,7 +238,7 @@ back_color
 rand_color
 }
 }
-es_head
+HTMLHeadElement
 {
 {
 mut
@@ -251,7 +251,7 @@ back_color
 rand_color
 }
 }
-es_img
+HTMLImageElement
 (
 *
 )
@@ -267,7 +267,7 @@ back_color
 rand_color
 }
 }
-es_unknown
+UnknownElement
 {
 {
 mut

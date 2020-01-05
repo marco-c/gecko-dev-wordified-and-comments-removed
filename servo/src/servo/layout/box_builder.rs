@@ -21,8 +21,8 @@ base
 :
 {
 ElementData
-es_div
-es_img
+HTMLDivElement
+HTMLImageElement
 Element
 Text
 node
@@ -977,13 +977,13 @@ alt
 *
 element
 .
-subclass
+kind
 {
-es_div
+HTMLDivElement
 {
 bk_block
 }
-es_img
+HTMLImageElement
 (
 {
 size
@@ -995,7 +995,7 @@ bk_intrinsic
 size
 )
 }
-es_unknown
+UnknownElement
 {
 bk_inline
 }

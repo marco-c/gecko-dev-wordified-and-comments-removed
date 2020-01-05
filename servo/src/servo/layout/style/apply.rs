@@ -18,7 +18,7 @@ base
 :
 :
 {
-es_img
+HTMLImageElement
 Element
 node
 }
@@ -163,10 +163,10 @@ back_color
 alt
 element
 .
-subclass
+kind
 {
 ~
-es_img
+HTMLImageElement
 (
 *
 )

@@ -1323,10 +1323,8 @@ node_scope
 methods
 Element
 attr
-es_div
-es_img
-es_unknown
-es_head
+HTMLDivElement
+HTMLImageElement
 }
 ;
 import
@@ -1337,6 +1335,8 @@ base
 :
 :
 {
+UnknownElement
+HTMLHeadElement
 wr_tree_ops
 }
 ;
@@ -1383,7 +1383,7 @@ ElementData
 div
 "
 ~
-es_div
+HTMLDivElement
 )
 ;
 let
