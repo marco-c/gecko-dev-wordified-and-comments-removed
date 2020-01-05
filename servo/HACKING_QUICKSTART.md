@@ -1295,6 +1295,8 @@ my
 -
 projects
 /
+servo
+/
 .
 cargo
 /
@@ -1309,6 +1311,8 @@ my
 -
 projects
 /
+servo
+/
 .
 cargo
 /
@@ -1317,9 +1321,15 @@ paths
 =
 [
 '
+.
+.
+/
 glutin
 '
 '
+.
+.
+/
 cocoa
 -
 rs
