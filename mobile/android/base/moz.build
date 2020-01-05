@@ -2910,6 +2910,13 @@ GeckoCustomTabsService
 java
 '
 '
+customtabs
+/
+IntentUtil
+.
+java
+'
+'
 DataReportingNotification
 .
 java
