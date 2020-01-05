@@ -750,16 +750,6 @@ QueueEvents
 (
 )
 ;
-TimeStamp
-ElapsedTimeToTimeStamp
-(
-const
-StickyTimeDuration
-&
-aElapsedTime
-)
-const
-;
 OwningElementRef
 mOwningElement
 ;

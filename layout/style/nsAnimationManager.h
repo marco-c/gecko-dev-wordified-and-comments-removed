@@ -675,16 +675,6 @@ TimeDuration
 )
 ;
 }
-TimeStamp
-ElapsedTimeToTimeStamp
-(
-const
-StickyTimeDuration
-&
-aElapsedTime
-)
-const
-;
 nsString
 mAnimationName
 ;

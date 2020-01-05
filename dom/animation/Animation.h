@@ -761,6 +761,16 @@ aTime
 )
 const
 ;
+TimeStamp
+ElapsedTimeToTimeStamp
+(
+const
+StickyTimeDuration
+&
+aElapsedTime
+)
+const
+;
 bool
 IsPausedOrPausing
 (
