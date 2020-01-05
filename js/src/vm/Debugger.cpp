@@ -7212,7 +7212,6 @@ isMagic
 JS_UNINITIALIZED_LEXICAL
 )
 )
-{
 return
 ThrowUninitializedThis
 (
@@ -7220,7 +7219,6 @@ cx
 frame
 )
 ;
-}
 vp
 .
 set

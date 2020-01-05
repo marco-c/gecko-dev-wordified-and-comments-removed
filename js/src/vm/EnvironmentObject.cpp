@@ -17183,11 +17183,7 @@ frame
 .
 unaliasedLocal
 (
-bi
-.
-location
-(
-)
+loc
 .
 slot
 (
