@@ -101,6 +101,6 @@ TEST_DIRS
 =
 [
 '
-gtest
+tests
 '
 ]
