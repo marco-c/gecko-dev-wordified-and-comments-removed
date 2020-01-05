@@ -262,7 +262,11 @@ inherits
 value
 =
 label
+"
 crop
+=
+"
+end
 "
 class
 =
