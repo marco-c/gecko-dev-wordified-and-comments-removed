@@ -432,7 +432,10 @@ mEventSink
 >
 GetHandler
 (
+WrapNotNull
+(
 aHandlerClsid
+)
 )
 ;
 }
@@ -537,8 +540,11 @@ mEventSink
 >
 GetHandlerPayloadSize
 (
+WrapNotNull
+(
 &
 payloadSize
+)
 )
 ;
 *
@@ -608,7 +614,10 @@ mEventSink
 >
 WriteHandlerPayload
 (
+WrapNotNull
+(
 pStm
+)
 )
 ;
 }
@@ -1483,8 +1492,11 @@ mEventSink
 >
 GetHandler
 (
+WrapNotNull
+(
 &
 dummy
+)
 )
 )
 )
@@ -1533,8 +1545,11 @@ mEventSink
 >
 GetHandler
 (
+WrapNotNull
+(
 &
 dummy
+)
 )
 )
 )

@@ -42,6 +42,13 @@ __XMLDocument_FWD_DEFINED__
 endif
 #
 include
+<
+combaseapi
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -73,6 +80,10 @@ a11y
 typedef
 uint32_t
 IAccessibleHolder
+;
+typedef
+uint32_t
+IHandlerControlHolder
 ;
 }
 }
