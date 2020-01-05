@@ -3,15 +3,6 @@ mod
 freetype
 ;
 use
-freetype_impl
-:
-:
-font_context
-:
-:
-FreeTypeFontContextHandle
-;
-use
 font
 :
 :
