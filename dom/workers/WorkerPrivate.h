@@ -3985,6 +3985,8 @@ nsIEventTarget
 >
 CreateNewSyncLoop
 (
+Status
+aFailStatus
 )
 ;
 bool
@@ -4203,12 +4205,13 @@ mIndex
 ;
 public
 :
-explicit
 AutoSyncLoopHolder
 (
 WorkerPrivate
 *
 aWorkerPrivate
+Status
+aFailStatus
 )
 :
 mWorkerPrivate
@@ -4222,6 +4225,7 @@ aWorkerPrivate
 >
 CreateNewSyncLoop
 (
+aFailStatus
 )
 )
 mIndex
@@ -4254,6 +4258,9 @@ AutoSyncLoopHolder
 if
 (
 mWorkerPrivate
+&
+&
+mTarget
 )
 {
 mWorkerPrivate
@@ -4315,7 +4322,7 @@ RunCurrentSyncLoop
 }
 nsIEventTarget
 *
-EventTarget
+GetEventTarget
 (
 )
 const

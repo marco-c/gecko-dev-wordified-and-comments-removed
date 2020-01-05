@@ -804,6 +804,8 @@ public
 void
 Dispatch
 (
+Status
+aFailStatus
 ErrorResult
 &
 aRv

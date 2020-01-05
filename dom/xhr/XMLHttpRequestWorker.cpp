@@ -659,6 +659,8 @@ AssertIsOnWorkerThread
 void
 Dispatch
 (
+Status
+aFailStatus
 ErrorResult
 &
 aRv
@@ -669,6 +671,7 @@ WorkerMainThreadRunnable
 :
 Dispatch
 (
+aFailStatus
 aRv
 )
 ;
@@ -6455,6 +6458,7 @@ runnable
 >
 Dispatch
 (
+Killing
 forAssertionsOnly
 )
 ;
@@ -7145,6 +7149,7 @@ autoSyncLoop
 emplace
 (
 mWorkerPrivate
+Terminating
 )
 ;
 syncLoopTarget
@@ -7152,10 +7157,26 @@ syncLoopTarget
 autoSyncLoop
 -
 >
-EventTarget
+GetEventTarget
 (
 )
 ;
+if
+(
+!
+syncLoopTarget
+)
+{
+aRv
+.
+Throw
+(
+NS_ERROR_DOM_INVALID_STATE_ERR
+)
+;
+return
+;
+}
 }
 mProxy
 -
@@ -7191,6 +7212,7 @@ aRunnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -7455,6 +7477,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -7594,6 +7617,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -7664,6 +7688,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -7734,6 +7759,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -7804,6 +7830,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -8941,6 +8968,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -9023,6 +9051,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -9116,6 +9145,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -9232,6 +9262,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
@@ -9351,6 +9382,7 @@ runnable
 >
 Dispatch
 (
+Terminating
 aRv
 )
 ;
