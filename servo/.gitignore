@@ -40,6 +40,9 @@ mk
 config
 .
 stamp
+config
+.
+tmp
 parser
 .
 out
