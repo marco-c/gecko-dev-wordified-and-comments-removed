@@ -147,7 +147,10 @@ max
 ;
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 enum

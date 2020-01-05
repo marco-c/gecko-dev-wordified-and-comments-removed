@@ -961,7 +961,10 @@ tr
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 struct
 InProgressLoad
@@ -1285,7 +1288,10 @@ unwrap
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct
@@ -1514,7 +1520,10 @@ None
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct

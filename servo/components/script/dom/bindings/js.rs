@@ -690,7 +690,10 @@ must_root
 ]
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct
@@ -808,7 +811,10 @@ must_root
 ]
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct
@@ -915,7 +921,10 @@ must_root
 ]
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct

@@ -75,6 +75,14 @@ custom_attribute
 [
 feature
 (
+custom_derive
+)
+]
+#
+!
+[
+feature
+(
 drain
 )
 ]

@@ -463,12 +463,9 @@ must_root
 ]
 #
 [
-jstraceable
-]
-#
-[
 derive
 (
+JSTraceable
 Clone
 )
 ]
@@ -536,12 +533,9 @@ must_root
 ]
 #
 [
-jstraceable
-]
-#
-[
 derive
 (
+JSTraceable
 Clone
 )
 ]

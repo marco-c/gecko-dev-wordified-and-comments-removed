@@ -1151,15 +1151,12 @@ other
 [
 derive
 (
+JSTraceable
 Copy
 Clone
 PartialEq
 Debug
 )
-]
-#
-[
-jstraceable
 ]
 pub
 enum

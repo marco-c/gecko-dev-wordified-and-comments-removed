@@ -263,7 +263,10 @@ Default
 ;
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [
@@ -649,7 +652,10 @@ privatize
 ]
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct

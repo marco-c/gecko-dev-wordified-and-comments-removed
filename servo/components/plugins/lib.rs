@@ -138,7 +138,7 @@ register_syntax_extension
 intern
 (
 "
-jstraceable
+derive_JSTraceable
 "
 )
 MultiDecorator

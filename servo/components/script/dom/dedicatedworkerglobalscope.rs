@@ -403,12 +403,9 @@ channel
 [
 derive
 (
+JSTraceable
 Clone
 )
-]
-#
-[
-jstraceable
 ]
 pub
 struct

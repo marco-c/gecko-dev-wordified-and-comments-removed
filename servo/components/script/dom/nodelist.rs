@@ -96,7 +96,10 @@ Window
 ;
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [

@@ -43,12 +43,9 @@ Url
 ;
 #
 [
-jstraceable
-]
-#
-[
 derive
 (
+JSTraceable
 PartialEq
 Clone
 Debug
@@ -149,7 +146,10 @@ url
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct
@@ -174,7 +174,10 @@ LoadType
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct

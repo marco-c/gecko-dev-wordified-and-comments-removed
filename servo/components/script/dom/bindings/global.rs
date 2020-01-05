@@ -237,7 +237,10 @@ WorkerGlobalScope
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [

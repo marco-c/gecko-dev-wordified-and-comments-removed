@@ -420,7 +420,10 @@ HTMLCollection
 {
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 struct
 ElementsFilter

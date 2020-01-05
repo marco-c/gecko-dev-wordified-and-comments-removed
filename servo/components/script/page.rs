@@ -90,7 +90,10 @@ Url
 ;
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct
@@ -700,7 +703,10 @@ frame
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 #
 [

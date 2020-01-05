@@ -206,13 +206,10 @@ ReplacedAttr
 [
 derive
 (
+JSTraceable
 PartialEq
 Clone
 )
-]
-#
-[
-jstraceable
 ]
 pub
 enum

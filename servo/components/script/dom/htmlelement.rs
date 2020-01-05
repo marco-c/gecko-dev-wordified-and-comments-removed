@@ -2444,14 +2444,11 @@ update_sequentially_focusable_status
 [
 derive
 (
+JSTraceable
 Copy
 Clone
 Debug
 )
-]
-#
-[
-jstraceable
 ]
 pub
 enum

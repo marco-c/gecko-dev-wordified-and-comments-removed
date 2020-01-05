@@ -180,7 +180,10 @@ quote_attr
 cx
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 )
 )

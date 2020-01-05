@@ -2359,7 +2359,10 @@ tracer
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct
@@ -2483,7 +2486,10 @@ no_move
 ]
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct

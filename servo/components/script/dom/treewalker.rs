@@ -4319,7 +4319,10 @@ unreachable
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 enum

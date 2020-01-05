@@ -100,12 +100,9 @@ NotSelected
 }
 #
 [
-jstraceable
-]
-#
-[
 derive
 (
+JSTraceable
 Copy
 Clone
 )
@@ -125,7 +122,10 @@ usize
 }
 #
 [
-jstraceable
+derive
+(
+JSTraceable
+)
 ]
 pub
 struct

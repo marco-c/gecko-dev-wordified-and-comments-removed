@@ -714,15 +714,12 @@ time
 [
 derive
 (
+JSTraceable
 Copy
 Clone
 Debug
 PartialEq
 )
-]
-#
-[
-jstraceable
 ]
 enum
 WindowState

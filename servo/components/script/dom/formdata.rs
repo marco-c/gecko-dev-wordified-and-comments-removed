@@ -229,12 +229,9 @@ Vacant
 [
 derive
 (
+JSTraceable
 Clone
 )
-]
-#
-[
-jstraceable
 ]
 #
 [
