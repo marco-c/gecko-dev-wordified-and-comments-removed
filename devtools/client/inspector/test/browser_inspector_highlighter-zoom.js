@@ -261,7 +261,7 @@ let
 style
 =
 yield
-getRootNodeStyle
+getElementsNodeStyle
 (
 testActor
 )
@@ -403,7 +403,7 @@ onHighlight
 }
 function
 *
-getRootNodeStyle
+getElementsNodeStyle
 (
 testActor
 )
@@ -421,7 +421,7 @@ box
 -
 model
 -
-root
+elements
 "
 "
 style
