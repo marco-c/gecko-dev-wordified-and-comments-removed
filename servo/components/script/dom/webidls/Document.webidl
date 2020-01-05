@@ -877,6 +877,10 @@ Document
 implements
 GlobalEventHandlers
 ;
+Document
+implements
+DocumentAndElementEventHandlers
+;
 /
 /
 https
