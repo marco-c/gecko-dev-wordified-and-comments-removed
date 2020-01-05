@@ -31,6 +31,15 @@ Toolbar
 viewport
 )
 ;
+let
+passwordPrompt
+=
+new
+PasswordPrompt
+(
+viewport
+)
+;
 window
 .
 createCustomViewport
