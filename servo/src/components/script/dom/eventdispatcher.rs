@@ -47,17 +47,6 @@ node
 :
 AbstractNode
 ;
-use
-servo_util
-:
-:
-tree
-:
-:
-{
-TreeNodeRef
-}
-;
 pub
 fn
 dispatch_event

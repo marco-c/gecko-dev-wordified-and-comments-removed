@@ -66,13 +66,10 @@ ScriptView
 }
 ;
 use
-servo_util
+style
 :
 :
-tree
-:
-:
-ElementLike
+TElement
 ;
 pub
 struct

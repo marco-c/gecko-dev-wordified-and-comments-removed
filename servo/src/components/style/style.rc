@@ -221,6 +221,16 @@ errors
 :
 with_errors_silenced
 ;
+pub
+use
+node
+:
+:
+{
+TElement
+TNode
+}
+;
 mod
 stylesheets
 ;
@@ -238,6 +248,9 @@ properties
 ;
 mod
 namespaces
+;
+mod
+node
 ;
 mod
 media_queries

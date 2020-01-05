@@ -66,15 +66,6 @@ JSTRACE_OBJECT
 JS_CallTracer
 }
 ;
-use
-servo_util
-:
-:
-tree
-:
-:
-TreeNodeRef
-;
 impl
 Reflectable
 for

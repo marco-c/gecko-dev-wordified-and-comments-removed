@@ -117,13 +117,10 @@ url
 make_url
 ;
 use
-servo_util
+style
 :
 :
-tree
-:
-:
-ElementLike
+TElement
 ;
 pub
 struct
