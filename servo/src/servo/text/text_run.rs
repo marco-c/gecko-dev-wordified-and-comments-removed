@@ -247,12 +247,14 @@ test
 [
 ignore
 (
-reason
+cfg
+(
+target_os
 =
 "
-random
-failures
+macos
 "
+)
 )
 ]
 ;

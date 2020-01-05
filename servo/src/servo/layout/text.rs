@@ -243,6 +243,16 @@ test
 #
 [
 ignore
+(
+cfg
+(
+target_os
+=
+"
+macos
+"
+)
+)
 ]
 ;
 import
