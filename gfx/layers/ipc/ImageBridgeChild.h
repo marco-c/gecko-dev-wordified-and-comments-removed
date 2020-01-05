@@ -264,6 +264,8 @@ static
 void
 InitSameProcess
 (
+uint32_t
+aNamespace
 )
 ;
 static
@@ -277,6 +279,8 @@ PImageBridgeChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 static
@@ -290,6 +294,8 @@ PImageBridgeChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 static
@@ -303,6 +309,8 @@ PImageBridgeChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 static
@@ -1033,10 +1041,18 @@ aMsg
 const
 override
 ;
+uint64_t
+GetNextExternalImageId
+(
+)
+;
 protected
 :
+explicit
 ImageBridgeChild
 (
+uint32_t
+aNamespace
 )
 ;
 bool
@@ -1143,6 +1159,9 @@ ShutdownSingleton
 ;
 private
 :
+uint32_t
+mNamespace
+;
 CompositableTransaction
 *
 mTxn

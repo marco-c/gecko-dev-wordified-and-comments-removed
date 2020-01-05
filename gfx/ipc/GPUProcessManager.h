@@ -384,6 +384,12 @@ PVideoDecoderManagerChild
 >
 *
 aOutVideoManager
+nsTArray
+<
+uint32_t
+>
+*
+aNamespaces
 )
 ;
 already_AddRefed
@@ -434,6 +440,11 @@ aRequestingId
 ;
 uint64_t
 AllocateLayerTreeId
+(
+)
+;
+uint32_t
+AllocateNamespace
 (
 )
 ;
@@ -805,11 +816,6 @@ Observer
 ;
 private
 :
-bool
-mDecodeVideoOnGpuProcess
-=
-true
-;
 RefPtr
 <
 Observer
@@ -833,6 +839,9 @@ mVsyncIOThread
 ;
 uint64_t
 mNextLayerTreeId
+;
+uint32_t
+mNextNamespace
 ;
 uint64_t
 mNextResetSequenceNo

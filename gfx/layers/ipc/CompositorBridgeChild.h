@@ -189,6 +189,8 @@ CompositorBridgeChild
 LayerManager
 *
 aLayerManager
+uint32_t
+aNamespace
 )
 ;
 void
@@ -220,6 +222,8 @@ PCompositorBridgeChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 static
@@ -233,6 +237,8 @@ PCompositorBridgeChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 static
@@ -256,6 +262,8 @@ PCompositorBridgeChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 CompositorBridgeParent
@@ -1013,6 +1021,11 @@ return
 mDeviceResetSequenceNumber
 ;
 }
+uint64_t
+GetNextExternalImageId
+(
+)
+;
 private
 :
 virtual
@@ -1282,6 +1295,9 @@ RefPtr
 LayerManager
 >
 mLayerManager
+;
+uint32_t
+mNamespace
 ;
 RefPtr
 <

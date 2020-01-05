@@ -112,6 +112,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint32_t
+aNamespace
 )
 {
 CompositorWidgetInitData
@@ -152,6 +154,7 @@ new
 CompositorBridgeChild
 (
 aLayerManager
+aNamespace
 )
 ;
 RefPtr

@@ -79,6 +79,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint32_t
+aNamespace
 )
 ;
 CompositorBridgeParent

@@ -1705,11 +1705,17 @@ mPicX
 =
 0
 ;
+uint32_t
+namespaceId
+=
+1
+;
 ImageBridgeChild
 :
 :
 InitSameProcess
 (
+namespaceId
 )
 ;
 RefPtr
