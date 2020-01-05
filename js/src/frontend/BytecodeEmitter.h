@@ -1624,7 +1624,7 @@ EMIT_LINENOTE
 ;
 MOZ_MUST_USE
 bool
-emitConditionallyExecutedTree
+emitTreeInBranch
 (
 ParseNode
 *
@@ -2719,7 +2719,7 @@ flav
 ;
 MOZ_MUST_USE
 bool
-emitConditionallyExecutedDestructuringLHS
+emitDestructuringLHSInBranch
 (
 ParseNode
 *
