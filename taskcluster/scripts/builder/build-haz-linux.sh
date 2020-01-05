@@ -412,11 +412,13 @@ TOOLTOOL_DIR
 python
 GECKO_DIR
 /
-taskcluster
+python
 /
-docker
+mozbuild
 /
-recipes
+mozbuild
+/
+action
 /
 tooltool
 .

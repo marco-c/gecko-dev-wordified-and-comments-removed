@@ -235,11 +235,13 @@ python
 SRCDIR
 }
 /
-taskcluster
+python
 /
-docker
+mozbuild
 /
-recipes
+mozbuild
+/
+action
 /
 tooltool
 .
