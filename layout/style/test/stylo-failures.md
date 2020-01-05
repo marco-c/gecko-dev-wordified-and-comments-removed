@@ -4688,7 +4688,7 @@ test_rule_insertion
 .
 html
 [
-7
+8
 ]
 *
 -
