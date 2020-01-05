@@ -248,7 +248,7 @@ ParserError
 %
 s
 :
-failed
+Failed
 type
 check
 for
@@ -261,6 +261,7 @@ s
 got
 %
 s
+.
 "
 %
                              
@@ -319,7 +320,7 @@ instance_types
 :
             
 raise
-ParserError
+Exception
 (
 "
 At
@@ -329,6 +330,7 @@ instance
 type
 is
 required
+.
 "
 )
         
@@ -373,7 +375,7 @@ ParserError
 %
 s
 :
-failed
+Failed
 type
 check
 for
@@ -387,6 +389,8 @@ expected
 one
 of
 :
+\
+n
 %
 s
 "
@@ -480,7 +484,7 @@ ParserError
 %
 s
 :
-failed
+Failed
 check
 for
 %
@@ -491,6 +495,7 @@ should
 not
 be
 empty
+.
 "
 %
                              
@@ -524,7 +529,7 @@ ParserError
 %
 s
 :
-failed
+Failed
 type
 check
 for
@@ -543,6 +548,7 @@ got
 "
 %
 s
+.
 "
 %
 (
@@ -637,7 +643,7 @@ ParserError
 %
 s
 :
-failed
+Failed
 check
 for
 %
@@ -648,6 +654,7 @@ should
 not
 be
 empty
+.
 "
 %
                              
@@ -685,7 +692,7 @@ ParserError
 %
 s
 :
-failed
+Failed
 dict
 type
 check
@@ -704,6 +711,7 @@ got
 "
 %
 s
+.
 "
 %
                                  
@@ -757,7 +765,7 @@ ParserError
 %
 s
 :
-failed
+Failed
 dict
 type
 check
@@ -780,6 +788,7 @@ s
 got
 %
 s
+.
 "
 %
                                  
@@ -986,8 +995,8 @@ ParserError
 identifier
 +
 '
--
-missing
+:
+Missing
 required
 fields
 :
@@ -1036,8 +1045,8 @@ ParserError
 identifier
 +
 '
--
-unknown
+:
+Unknown
 fields
 :
 '
@@ -1107,7 +1116,7 @@ ParserError
 %
 s
 :
-value
+Value
 '
 %
 s
@@ -1124,6 +1133,7 @@ length
 of
 %
 d
+.
 "
 %
                          
@@ -1153,7 +1163,7 @@ ParserError
 %
 s
 :
-value
+Value
 '
 %
 s
@@ -1170,6 +1180,7 @@ length
 of
 %
 d
+.
 "
 %
                          
@@ -1201,7 +1212,7 @@ ParserError
 %
 s
 :
-string
+String
 value
 "
 %
@@ -1218,6 +1229,7 @@ pattern
 %
 s
 "
+.
 '
 %
                          
@@ -1399,7 +1411,7 @@ ParserError
 %
 s
 :
-value
+Value
 for
 %
 s
@@ -1464,7 +1476,7 @@ identifier
 +
 '
 :
-unknown
+Unknown
 value
 in
 record_in_processes
@@ -1507,13 +1519,14 @@ ParserError
 %
 s
 :
-number
+Number
 of
 extra_keys
 exceeds
 limit
 %
 d
+.
 "
 %
                              
@@ -1652,7 +1665,7 @@ ParserError
 %
 s
 :
-event
+Event
 has
 invalid
 expiry_date
@@ -2323,6 +2336,10 @@ filename
 e
 .
 message
++
+"
+.
+"
 )
     
 except
@@ -2349,6 +2366,10 @@ filename
 e
 .
 message
++
+"
+.
+"
 )
     
 event_list
@@ -2411,6 +2432,10 @@ category
 raise
 ParserError
 (
+'
+Category
+'
++
 category_name
 +
 '
@@ -2420,6 +2445,7 @@ at
 least
 one
 entry
+.
 '
 )
         
