@@ -736,6 +736,17 @@ limit
 )
 ;
 public
+abstract
+void
+blockActivityStreamSite
+(
+ContentResolver
+cr
+String
+url
+)
+;
+public
 static
 BrowserDB
 from
