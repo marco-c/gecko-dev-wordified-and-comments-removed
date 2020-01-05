@@ -754,6 +754,14 @@ ins
 )
 ;
 void
+visitToAsyncGen
+(
+MToAsyncGen
+*
+ins
+)
+;
+void
 visitToId
 (
 MToId
