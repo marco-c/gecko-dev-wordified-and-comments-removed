@@ -55,6 +55,11 @@ exports
 highlighterSettings
 =
 {
+showGridLineNumbers
+:
+PropTypes
+.
+bool
 showInfiniteLines
 :
 PropTypes

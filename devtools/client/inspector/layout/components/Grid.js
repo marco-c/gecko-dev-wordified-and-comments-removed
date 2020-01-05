@@ -140,6 +140,13 @@ PropTypes
 func
 .
 isRequired
+onToggleShowGridLineNumbers
+:
+PropTypes
+.
+func
+.
+isRequired
 onToggleShowInfiniteLines
 :
 PropTypes
@@ -164,6 +171,7 @@ let
 grids
 highlighterSettings
 onToggleGridHighlighter
+onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
 }
 =
@@ -202,6 +210,7 @@ GridDisplaySettings
 (
 {
 highlighterSettings
+onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
 }
 )
