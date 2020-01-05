@@ -1759,6 +1759,10 @@ val
 size
 )
 #
+define
+JS_GC_POISONING
+1
+#
 else
 #
 define

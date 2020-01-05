@@ -1112,6 +1112,15 @@ HandleObject
 obj
 )
 ;
+extern
+JS_FRIEND_API
+(
+int
+)
+IsGCPoisoning
+(
+)
+;
 }
 extern
 JS_FRIEND_API
