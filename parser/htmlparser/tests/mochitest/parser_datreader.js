@@ -352,6 +352,7 @@ fragment
 ;
 }
 function
+*
 test_parser
 (
 testlist
