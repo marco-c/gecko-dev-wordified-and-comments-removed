@@ -2701,7 +2701,7 @@ run
 .
 glyphs
 .
-iter_glyphs_for_byte_range
+iter_glyphs_for_char_range
 (
 range
 )
