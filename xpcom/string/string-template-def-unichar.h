@@ -70,3 +70,7 @@ nsPromiseFlatString
 define
 TPromiseFlatString_CharT
 PromiseFlatString
+#
+define
+nsTSubstringSpliiter_CharT
+nsSubstringSplitter
