@@ -146,6 +146,15 @@ unix
 "
 no
 -
+debugger
+"
+:
+"
+error
+"
+"
+no
+-
 dupe
 -
 args
