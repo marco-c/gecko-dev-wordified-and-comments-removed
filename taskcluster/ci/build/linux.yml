@@ -584,7 +584,7 @@ B
 )
 tier
 :
-2
+1
 worker
 -
 type
@@ -863,11 +863,12 @@ job
 -
 name
 :
-linux32
--
-nightly
+linux
 -
 opt
+type
+:
+nightly
 treeherder
 :
 platform
@@ -1307,9 +1308,10 @@ name
 :
 linux64
 -
-nightly
--
 opt
+type
+:
+nightly
 treeherder
 :
 platform

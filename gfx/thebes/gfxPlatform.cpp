@@ -9717,7 +9717,7 @@ if
 gfxPrefs
 :
 :
-GPUProcessDevEnabled
+GPUProcessEnabled
 (
 )
 &
@@ -9726,7 +9726,7 @@ GPUProcessDevEnabled
 gfxPrefs
 :
 :
-GPUProcessDevForceEnabled
+GPUProcessForceEnabled
 (
 )
 )
@@ -9756,14 +9756,14 @@ SetDefaultFromPref
 gfxPrefs
 :
 :
-GetGPUProcessDevEnabledPrefName
+GetGPUProcessEnabledPrefName
 (
 )
 true
 gfxPrefs
 :
 :
-GetGPUProcessDevEnabledPrefDefault
+GetGPUProcessEnabledPrefDefault
 (
 )
 )
@@ -9773,7 +9773,7 @@ if
 gfxPrefs
 :
 :
-GPUProcessDevForceEnabled
+GPUProcessForceEnabled
 (
 )
 )

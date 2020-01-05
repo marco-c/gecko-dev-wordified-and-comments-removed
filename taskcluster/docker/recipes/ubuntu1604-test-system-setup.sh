@@ -502,6 +502,16 @@ apt_packages
 =
 (
 '
+net
+-
+tools
+'
+)
+apt_packages
++
+=
+(
+'
 pulseaudio
 '
 )

@@ -836,13 +836,6 @@ return
 false
 ;
 }
-gfxDWriteFont
-:
-:
-UpdateClearTypeUsage
-(
-)
-;
 if
 (
 IsPlugin
