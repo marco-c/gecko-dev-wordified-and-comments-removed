@@ -139,7 +139,7 @@ String
 FORM_HISTORY_SORT
 =
 "
-index
+oldest
 "
 ;
 private
@@ -147,14 +147,6 @@ static
 final
 long
 FORM_HISTORY_BATCH_LIMIT
-=
-5000
-;
-private
-static
-final
-long
-FORM_HISTORY_TOTAL_LIMIT
 =
 5000
 ;
@@ -220,6 +212,11 @@ ConstrainedServer11Repository
 collection
 session
 .
+getSyncDeadline
+(
+)
+session
+.
 config
 .
 storageURL
@@ -241,8 +238,8 @@ config
 .
 infoConfiguration
 FORM_HISTORY_BATCH_LIMIT
-FORM_HISTORY_TOTAL_LIMIT
 FORM_HISTORY_SORT
+true
 )
 ;
 }
