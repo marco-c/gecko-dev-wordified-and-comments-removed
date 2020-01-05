@@ -1869,6 +1869,16 @@ aAllocator
 {
 }
 virtual
+uint64_t
+GetLastTransactionId
+(
+)
+{
+return
+0
+;
+}
+virtual
 CompositorBridgeChild
 *
 GetCompositorBridgeChild

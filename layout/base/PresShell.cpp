@@ -28479,6 +28479,12 @@ presContext
 >
 NotifyInvalidation
 (
+layerManager
+-
+>
+GetLastTransactionId
+(
+)
 bounds
 )
 ;

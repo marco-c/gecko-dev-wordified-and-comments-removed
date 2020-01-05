@@ -1041,6 +1041,17 @@ mTransactionIdAllocator
 aAllocator
 ;
 }
+virtual
+uint64_t
+GetLastTransactionId
+(
+)
+override
+{
+return
+mLatestTransactionId
+;
+}
 float
 RequestProperty
 (

@@ -2941,6 +2941,8 @@ EnsureSafeToHandOutCSSRules
 void
 NotifyInvalidation
 (
+uint64_t
+aTransactionId
 const
 nsRect
 &
@@ -2950,6 +2952,8 @@ aRect
 void
 NotifyInvalidation
 (
+uint64_t
+aTransactionId
 const
 nsIntRect
 &
