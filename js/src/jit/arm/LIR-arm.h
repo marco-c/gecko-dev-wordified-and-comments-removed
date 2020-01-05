@@ -2565,9 +2565,6 @@ temp3
 Base
 (
 ptr
-LAllocation
-(
-)
 )
 {
 Base

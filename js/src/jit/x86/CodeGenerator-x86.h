@@ -498,8 +498,6 @@ Register
 addrTemp
 Register
 ptrReg
-Register
-memoryBase
 )
 ;
 }

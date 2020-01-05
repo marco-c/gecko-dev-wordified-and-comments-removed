@@ -485,15 +485,6 @@ mir
 ;
 inline
 LAllocation
-useRegisterOrZero
-(
-MDefinition
-*
-mir
-)
-;
-inline
-LAllocation
 useRegisterOrNonDoubleConstant
 (
 MDefinition
