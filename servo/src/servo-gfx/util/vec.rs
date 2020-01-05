@@ -10,11 +10,7 @@ Ord
 Eq
 }
 ;
-export
-BinarySearchMethods
-binary_search
-binary_search_index
-;
+pub
 trait
 BinarySearchMethods
 <
@@ -64,6 +60,7 @@ uint
 >
 ;
 }
+pub
 impl
 <
 T
