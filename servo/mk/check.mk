@@ -703,6 +703,9 @@ S
 (
 B
 )
+(
+WPTARGS
+)
 .
 PHONY
 :
