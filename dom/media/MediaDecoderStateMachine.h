@@ -1761,6 +1761,12 @@ bool
 >
 mIsVisible
 ;
+Mirror
+<
+bool
+>
+mHasSuspendTaint
+;
 Canonical
 <
 media
