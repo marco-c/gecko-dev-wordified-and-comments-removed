@@ -120,11 +120,6 @@ nsAboutBlank
 cpp
 '
 '
-nsAboutBloat
-.
-cpp
-'
-'
 nsAboutCache
 .
 cpp
