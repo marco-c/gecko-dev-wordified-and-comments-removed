@@ -3183,7 +3183,7 @@ forcedPrefs
 )
 ;
 }
-InitMoz2DLogging
+InitMoz2D
 (
 )
 ;
@@ -3842,7 +3842,7 @@ void
 gfxPlatform
 :
 :
-InitMoz2DLogging
+InitMoz2D
 (
 )
 {
@@ -3904,6 +3904,17 @@ gfxPrefs
 :
 :
 MaxAllocSize
+(
+)
+;
+cfg
+.
+mDefaultSoftwareBackend
+=
+gPlatform
+-
+>
+GetSoftwareBackend
 (
 )
 ;

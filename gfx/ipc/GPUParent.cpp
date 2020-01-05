@@ -446,7 +446,7 @@ InitNullMetadata
 gfxPlatform
 :
 :
-InitMoz2DLogging
+InitMoz2D
 (
 )
 ;
