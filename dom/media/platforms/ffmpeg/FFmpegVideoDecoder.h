@@ -21,7 +21,7 @@ h
 #
 include
 "
-DurationMap
+SimpleMap
 .
 h
 "
@@ -78,6 +78,13 @@ layers
 :
 ImageContainer
 ImageContainer
+;
+typedef
+SimpleMap
+<
+int64_t
+>
+DurationMap
 ;
 public
 :

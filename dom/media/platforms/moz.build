@@ -132,11 +132,6 @@ VPXDecoder
 h
 '
 '
-DurationMap
-.
-h
-'
-'
 MediaTelemetryConstants
 .
 h
@@ -148,6 +143,11 @@ h
 '
 '
 PlatformDecoderModule
+.
+h
+'
+'
+SimpleMap
 .
 h
 '

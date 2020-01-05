@@ -22,7 +22,7 @@ h
 #
 include
 "
-DurationMap
+SimpleMap
 .
 h
 "
@@ -1308,7 +1308,10 @@ AndroidSurfaceTexture
 >
 mSurfaceTexture
 ;
-DurationMap
+SimpleMap
+<
+int64_t
+>
 mInputDurations
 ;
 bool
