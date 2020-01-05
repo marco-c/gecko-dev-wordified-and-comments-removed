@@ -18,7 +18,7 @@ gre
 /
 modules
 /
-ExtensionUtils
+ExtensionCommon
 .
 jsm
 "
@@ -51,7 +51,7 @@ BaseContext
 LocalAPIImplementation
 }
 =
-ExtensionUtils
+ExtensionCommon
 ;
 let
 schemaJson
