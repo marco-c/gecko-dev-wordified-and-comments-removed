@@ -49,10 +49,10 @@ namespace
 dom
 {
 class
-EncodeCompleteCallback
+BlobCallback
 ;
 class
-FileCallback
+EncodeCompleteCallback
 ;
 enum
 class
@@ -171,7 +171,7 @@ aCx
 nsIGlobalObject
 *
 global
-FileCallback
+BlobCallback
 &
 aCallback
 const
