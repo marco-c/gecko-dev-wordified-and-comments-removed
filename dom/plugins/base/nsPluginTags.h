@@ -570,13 +570,6 @@ PluginState
 state
 )
 ;
-void
-ImportFlagsToPrefs
-(
-uint32_t
-flag
-)
-;
 bool
 HasSameNameAndMimes
 (
