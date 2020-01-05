@@ -446,10 +446,9 @@ PipelineId
 new_layers
 :
 &
-Vec
-<
+[
 LayerProperties
->
+]
 )
 where
 Window
@@ -1336,10 +1335,9 @@ PipelineId
 new_layers
 :
 &
-Vec
-<
+[
 LayerProperties
->
+]
 )
 where
 Window
