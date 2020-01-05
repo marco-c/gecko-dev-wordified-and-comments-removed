@@ -2486,6 +2486,9 @@ urllib2
 urlopen
 (
 request
+timeout
+=
+30
 )
         
 if
