@@ -110,6 +110,10 @@ attribute
 DOMString
 type
 ;
+attribute
+DOMString
+integrity
+;
 /
 /
 [

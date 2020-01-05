@@ -271,6 +271,10 @@ resource_thread
 mod
 storage_thread
 ;
+pub
+mod
+subresource_integrity
+;
 mod
 websocket_loader
 ;

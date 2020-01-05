@@ -190,6 +190,16 @@ test
 mod
 filemanager_thread
 ;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+subresource_integrity
+;
 use
 devtools_traits
 :

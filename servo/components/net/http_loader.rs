@@ -8037,13 +8037,9 @@ Ok
 let
 credentials
 =
-request
+response
 .
 headers
-.
-borrow
-(
-)
 .
 get
 :

@@ -113,6 +113,10 @@ attribute
 DOMString
 text
 ;
+attribute
+DOMString
+integrity
+;
 /
 /
 also
