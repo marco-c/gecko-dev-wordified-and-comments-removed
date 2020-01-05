@@ -88,6 +88,16 @@ test
 )
 ]
 mod
+fetch
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
 mime_classifier
 ;
 #

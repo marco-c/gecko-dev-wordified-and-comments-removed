@@ -4036,7 +4036,6 @@ Method
 request_headers
 :
 &
-mut
 Headers
 cancel_listener
 :
@@ -4919,7 +4918,6 @@ url
 &
 method
 &
-mut
 request_headers
 &
 cancel_listener
