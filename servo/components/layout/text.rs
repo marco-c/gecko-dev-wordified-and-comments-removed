@@ -1429,7 +1429,7 @@ bidi_level
 compatible_script
 ;
 let
-flush_mapping
+new_mapping_needed
 =
 flush_run
 |
@@ -1442,7 +1442,12 @@ selected
 selected
 ;
 if
-flush_mapping
+new_mapping_needed
+{
+if
+end_position
+>
+0
 {
 mapping
 .
@@ -1469,6 +1474,7 @@ start_position
 end_position
 )
 ;
+}
 if
 run_info
 .
