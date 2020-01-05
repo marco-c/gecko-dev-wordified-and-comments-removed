@@ -8228,10 +8228,10 @@ form
 =
 uint32_t
 (
-TypeConstructor
+TypeCode
 :
 :
-Function
+Func
 )
 )
 return
@@ -8981,7 +8981,7 @@ typeConstructorValue
 =
 uint32_t
 (
-TypeConstructor
+TypeCode
 :
 :
 AnyFunc
@@ -9249,7 +9249,7 @@ kind
 =
 uint32_t
 (
-TypeConstructor
+TypeCode
 :
 :
 AnyFunc

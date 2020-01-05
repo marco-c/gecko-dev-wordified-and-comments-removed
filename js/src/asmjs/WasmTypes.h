@@ -1338,14 +1338,6 @@ MIRType
 :
 Bool32x4
 ;
-case
-ValType
-:
-:
-Limit
-:
-break
-;
 }
 MOZ_MAKE_COMPILER_ASSUME_IS_UNREACHABLE
 (

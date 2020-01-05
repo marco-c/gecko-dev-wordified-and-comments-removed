@@ -23975,7 +23975,7 @@ if
 !
 e
 .
-writeExprType
+writeBlockType
 (
 b
 .
@@ -25127,7 +25127,7 @@ if
 !
 e
 .
-writeExprType
+writeBlockType
 (
 i
 .
@@ -26211,10 +26211,10 @@ writeVarU32
 (
 uint32_t
 (
-TypeConstructor
+TypeCode
 :
 :
-Function
+Func
 )
 )
 )
@@ -26625,7 +26625,7 @@ writeVarU32
 (
 uint32_t
 (
-TypeConstructor
+TypeCode
 :
 :
 AnyFunc
