@@ -1086,6 +1086,16 @@ successors
 "
 )
 ;
+if
+(
+block
+-
+>
+hasLastIns
+(
+)
+)
+{
 for
 (
 uint32_t
@@ -1140,6 +1150,7 @@ id
 )
 )
 ;
+}
 }
 out
 .
