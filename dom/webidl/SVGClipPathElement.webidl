@@ -164,5 +164,5 @@ transform
 ;
 SVGClipPathElement
 implements
-SVGUnitTypes
+SVGUnitTypeValues
 ;

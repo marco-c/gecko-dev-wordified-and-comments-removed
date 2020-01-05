@@ -209,5 +209,5 @@ SVGURIReference
 ;
 SVGFilterElement
 implements
-SVGUnitTypes
+SVGUnitTypeValues
 ;
