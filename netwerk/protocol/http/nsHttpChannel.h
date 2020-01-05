@@ -1748,6 +1748,13 @@ ReportNetVSCacheTelemetry
 (
 )
 ;
+int64_t
+ComputeTelemetryBucketNumber
+(
+int64_t
+difftime_ms
+)
+;
 void
 UpdateAggregateCallbacks
 (
