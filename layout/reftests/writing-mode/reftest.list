@@ -744,12 +744,6 @@ collapse
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 1124636
@@ -776,12 +770,6 @@ height
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 1124636
