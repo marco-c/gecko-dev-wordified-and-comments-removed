@@ -670,11 +670,6 @@ tab
 setViewportSize
 (
 args
-.
-width
-args
-.
-height
 )
 ;
 break
@@ -1960,8 +1955,7 @@ async
 function
 *
 (
-width
-height
+size
 )
 {
 yield
@@ -1975,8 +1969,7 @@ toolWindow
 .
 setViewportSize
 (
-width
-height
+size
 )
 ;
 }

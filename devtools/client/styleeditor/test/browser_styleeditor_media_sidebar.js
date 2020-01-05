@@ -58,7 +58,7 @@ min
 -
 height
 :
-200px
+300px
 )
 and
 (
@@ -66,7 +66,7 @@ max
 -
 height
 :
-250px
+320px
 )
 "
 "
@@ -88,7 +88,7 @@ LINE_NOS
 7
 19
 25
-30
+31
 ]
 ;
 const

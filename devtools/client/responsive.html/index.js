@@ -631,8 +631,10 @@ window
 setViewportSize
 =
 (
+{
 width
 height
+}
 )
 =
 >

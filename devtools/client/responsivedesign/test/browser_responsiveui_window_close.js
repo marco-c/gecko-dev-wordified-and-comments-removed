@@ -69,7 +69,7 @@ selectedTab
 yield
 ResponsiveUIManager
 .
-runIfNeeded
+openIfNeeded
 (
 newWindow
 tab
