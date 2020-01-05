@@ -122,6 +122,7 @@ IsCCLeaf
 const
 override
 ;
+DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
