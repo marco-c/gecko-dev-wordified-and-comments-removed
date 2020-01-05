@@ -1753,6 +1753,7 @@ gfxFontStyle
 aFontStyle
 )
 {
+const
 LOGFONTW
 *
 ptrLogFont
