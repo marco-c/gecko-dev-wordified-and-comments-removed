@@ -1717,6 +1717,10 @@ IncrementRestyleGeneration
 )
 ;
 }
+FlushOverflowChangedTracker
+(
+)
+;
 mInStyleRefresh
 =
 false
