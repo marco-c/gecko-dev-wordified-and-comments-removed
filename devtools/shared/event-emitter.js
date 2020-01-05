@@ -488,6 +488,9 @@ bind
 emitter
 )
 ;
+return
+objectToDecorate
+;
 }
 ;
 EventEmitter
