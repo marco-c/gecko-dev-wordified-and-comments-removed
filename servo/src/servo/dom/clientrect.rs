@@ -30,10 +30,10 @@ right
 :
 f32
 }
-pub
 impl
 ClientRect
 {
+pub
 fn
 new
 (
@@ -91,6 +91,7 @@ init_wrapper
 ;
 rect
 }
+pub
 fn
 Top
 (
@@ -105,6 +106,7 @@ self
 .
 top
 }
+pub
 fn
 Bottom
 (
@@ -119,6 +121,7 @@ self
 .
 bottom
 }
+pub
 fn
 Left
 (
@@ -133,6 +136,7 @@ self
 .
 left
 }
+pub
 fn
 Right
 (
@@ -147,6 +151,7 @@ self
 .
 right
 }
+pub
 fn
 Width
 (
@@ -171,6 +176,7 @@ self
 left
 )
 }
+pub
 fn
 Height
 (

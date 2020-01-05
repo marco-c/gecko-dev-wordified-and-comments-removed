@@ -79,7 +79,6 @@ flow
 :
 {
 FlowContext
-FlowTree
 RootFlow
 }
 ;
@@ -356,12 +355,9 @@ Au
 )
 ;
 for
-FlowTree
+self
 .
 each_child
-(
-self
-)
 |
 child_ctx
 |
