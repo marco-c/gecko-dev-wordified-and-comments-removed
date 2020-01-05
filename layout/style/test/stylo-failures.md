@@ -2364,7 +2364,7 @@ align
 justify
 -
 [
-8
+2
 ]
 *
 test_inherit_storage
@@ -2373,7 +2373,7 @@ html
 align
 -
 [
-2
+3
 ]
 *
 .
@@ -2382,7 +2382,7 @@ align
 justify
 -
 [
-12
+5
 ]
 *
 test_initial_computation
