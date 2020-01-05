@@ -3051,6 +3051,9 @@ constructor
 "
 byteLength
 "
+Symbol
+.
+toStringTag
 ]
 ;
 gConstructorProperties
@@ -3063,6 +3066,9 @@ SharedArrayBuffer
 constructorProps
 (
 [
+Symbol
+.
+species
 ]
 )
 ;
