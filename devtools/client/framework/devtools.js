@@ -232,10 +232,6 @@ MAX_ORDINAL
 =
 99
 ;
-this
-.
-DevTools
-=
 function
 DevTools
 (
