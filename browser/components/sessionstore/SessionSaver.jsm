@@ -734,9 +734,6 @@ stopWatchStart
 "
 COLLECT_DATA_MS
 "
-"
-COLLECT_DATA_LONGEST_OP_MS
-"
 )
 ;
 let
@@ -876,9 +873,6 @@ stopWatchFinish
 (
 "
 COLLECT_DATA_MS
-"
-"
-COLLECT_DATA_LONGEST_OP_MS
 "
 )
 ;
