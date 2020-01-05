@@ -120,14 +120,10 @@ HTMLFormElement
 ?
 form
 ;
-/
-/
 attribute
 DOMString
 htmlFor
 ;
-/
-/
 readonly
 attribute
 HTMLElement

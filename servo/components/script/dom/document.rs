@@ -7657,6 +7657,7 @@ new_doc
 }
 )
 }
+pub
 fn
 get_element_by_id
 (
