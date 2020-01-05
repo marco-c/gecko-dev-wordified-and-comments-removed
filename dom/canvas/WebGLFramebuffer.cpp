@@ -8361,6 +8361,16 @@ MakeCurrent
 (
 )
 ;
+WebGLContext
+:
+:
+ScopedDrawCallWrapper
+wrapper
+(
+*
+webgl
+)
+;
 gl
 -
 >
