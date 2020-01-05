@@ -30303,6 +30303,9 @@ JitSpew_OptimizationTracking
 )
 return
 ;
+#
+ifdef
+JS_JITSPEW
 unsigned
 column
 =
@@ -30375,6 +30378,8 @@ lineNumber
 column
 )
 ;
+#
+endif
 }
 static
 void
