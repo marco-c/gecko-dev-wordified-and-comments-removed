@@ -4567,16 +4567,6 @@ uint64_t
 aID
 )
 ;
-sync
-OpenAnonymousTemporaryFile
-(
-)
-returns
-(
-FileDescOrError
-aFD
-)
-;
 /
 *
 *
