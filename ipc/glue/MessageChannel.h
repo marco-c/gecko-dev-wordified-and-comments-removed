@@ -427,6 +427,11 @@ Message
 aMsg
 )
 ;
+void
+SendBuildID
+(
+)
+;
 bool
 Echo
 (
