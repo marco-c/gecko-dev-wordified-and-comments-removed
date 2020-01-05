@@ -2103,14 +2103,6 @@ ChromeDelegate
 {
 public
 void
-onReady
-(
-GeckoView
-view
-)
-;
-public
-void
 onAlert
 (
 GeckoView

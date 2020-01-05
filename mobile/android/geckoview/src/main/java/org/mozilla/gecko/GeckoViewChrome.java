@@ -23,16 +23,6 @@ ChromeDelegate
 Override
 public
 void
-onReady
-(
-GeckoView
-view
-)
-{
-}
-Override
-public
-void
 onAlert
 (
 GeckoView
