@@ -1157,7 +1157,7 @@ isdir
 (
 self
 .
-tempdir
+tmpdir
 )
 :
             
