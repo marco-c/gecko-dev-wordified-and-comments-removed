@@ -477,12 +477,6 @@ selectedIndex
 1
 ;
 }
-exports
-.
-AutocompletePopup
-=
-AutocompletePopup
-;
 AutocompletePopup
 .
 prototype
@@ -2424,4 +2418,10 @@ defaultView
 ;
 }
 }
+;
+module
+.
+exports
+=
+AutocompletePopup
 ;

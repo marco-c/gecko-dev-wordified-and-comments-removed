@@ -234,9 +234,7 @@ task
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (

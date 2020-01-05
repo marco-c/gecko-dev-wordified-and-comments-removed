@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
 OutputParser
-}
 =
 require
 (

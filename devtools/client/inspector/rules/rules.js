@@ -94,9 +94,7 @@ styles
 )
 ;
 const
-{
 OutputParser
-}
 =
 require
 (
@@ -132,9 +130,7 @@ prefs
 )
 ;
 const
-{
 ElementStyle
-}
 =
 require
 (
@@ -156,9 +152,7 @@ style
 )
 ;
 const
-{
 Rule
-}
 =
 require
 (
@@ -178,9 +172,7 @@ rule
 )
 ;
 const
-{
 RuleEditor
-}
 =
 require
 (
@@ -346,9 +338,7 @@ emitter
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (
@@ -382,9 +372,7 @@ clipboard
 )
 ;
 const
-{
 AutocompletePopup
-}
 =
 require
 (

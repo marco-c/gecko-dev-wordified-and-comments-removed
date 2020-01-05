@@ -599,7 +599,6 @@ key
 -
 shortcuts
 "
-true
 )
 ;
 loader

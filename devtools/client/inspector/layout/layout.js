@@ -1134,9 +1134,9 @@ refresh
 }
 }
 ;
-exports
+module
 .
-LayoutView
+exports
 =
 LayoutView
 ;

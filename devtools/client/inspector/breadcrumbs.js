@@ -75,9 +75,7 @@ emitter
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (

@@ -160,9 +160,7 @@ templater
 )
 ;
 const
-{
 AutocompletePopup
-}
 =
 require
 (
@@ -180,9 +178,7 @@ popup
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (

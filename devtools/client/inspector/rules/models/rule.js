@@ -2661,9 +2661,9 @@ false
 }
 }
 ;
-exports
+module
 .
-Rule
+exports
 =
 Rule
 ;

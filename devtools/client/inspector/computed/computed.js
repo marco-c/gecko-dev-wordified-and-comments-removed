@@ -90,9 +90,7 @@ Services
 )
 ;
 const
-{
 OutputParser
-}
 =
 require
 (
@@ -253,9 +251,7 @@ overlay
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (
@@ -273,9 +269,7 @@ shortcuts
 )
 ;
 const
-{
 BoxModelView
-}
 =
 require
 (

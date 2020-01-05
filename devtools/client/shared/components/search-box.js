@@ -28,9 +28,7 @@ react
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (

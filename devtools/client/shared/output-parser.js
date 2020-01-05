@@ -220,12 +220,6 @@ this
 )
 ;
 }
-exports
-.
-OutputParser
-=
-OutputParser
-;
 OutputParser
 .
 prototype
@@ -2648,4 +2642,10 @@ defaults
 ;
 }
 }
+;
+module
+.
+exports
+=
+OutputParser
 ;

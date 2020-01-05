@@ -419,7 +419,6 @@ key
 -
 shortcuts
 "
-true
 )
 ;
 loader

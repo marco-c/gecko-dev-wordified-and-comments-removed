@@ -133,7 +133,6 @@ autocomplete
 -
 popup
 "
-true
 )
 ;
 loader

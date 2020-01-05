@@ -254,9 +254,7 @@ properties
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (

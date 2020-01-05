@@ -53,9 +53,7 @@ l10n
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (

@@ -1313,9 +1313,9 @@ listener
 }
 }
 ;
-exports
+module
 .
-KeyShortcuts
+exports
 =
 KeyShortcuts
 ;

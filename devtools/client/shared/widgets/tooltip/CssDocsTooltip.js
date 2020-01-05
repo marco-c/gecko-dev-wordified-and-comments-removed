@@ -46,9 +46,7 @@ MdnDocsWidget
 )
 ;
 const
-{
 KeyShortcuts
-}
 =
 require
 (
