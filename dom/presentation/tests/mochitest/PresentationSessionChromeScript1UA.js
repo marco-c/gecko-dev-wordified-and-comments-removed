@@ -809,6 +809,15 @@ function
 (
 )
 {
+sendAsyncMessage
+(
+'
+device
+-
+disconnected
+'
+)
+;
 }
 isRequestedUrlSupported
 :
