@@ -89,6 +89,8 @@ RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
+bool
+flush
 )
 SERVO_BINDING_FUNC
 (
@@ -98,6 +100,8 @@ RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
+bool
+flush
 )
 SERVO_BINDING_FUNC
 (
@@ -107,6 +111,8 @@ RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
+bool
+flush
 )
 SERVO_BINDING_FUNC
 (
@@ -118,6 +124,15 @@ RawServoStyleSheetBorrowed
 sheet
 RawServoStyleSheetBorrowed
 reference
+bool
+flush
+)
+SERVO_BINDING_FUNC
+(
+Servo_StyleSet_FlushStyleSheets
+void
+RawServoStyleSetBorrowed
+set
 )
 SERVO_BINDING_FUNC
 (
