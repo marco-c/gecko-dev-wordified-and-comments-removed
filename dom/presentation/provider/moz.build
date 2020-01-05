@@ -110,11 +110,6 @@ DeviceProviderHelpers
 cpp
 '
 '
-DisplayDeviceProvider
-.
-cpp
-'
-'
 MulticastDNSDeviceProvider
 .
 cpp
