@@ -159,6 +159,21 @@ DOMString
 name
 ;
 [
+Constant
+]
+readonly
+attribute
+DOMString
+nodeName
+;
+/
+/
+historical
+alias
+of
+.
+name
+[
 Pure
 ]
 attribute
@@ -174,6 +189,7 @@ textContent
 ;
 /
 /
+historical
 alias
 of
 .
@@ -187,6 +203,7 @@ nodeValue
 ;
 /
 /
+historical
 alias
 of
 .
