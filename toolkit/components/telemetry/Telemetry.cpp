@@ -2288,6 +2288,12 @@ nsACString
 aKey
 )
 {
+MutexAutoLock
+captureStackMutex
+(
+mStackCapturerMutex
+)
+;
 if
 (
 !
@@ -2473,12 +2479,6 @@ Telemetry
 GetStackAndModules
 (
 rawStack
-)
-;
-MutexAutoLock
-captureStackMutex
-(
-mStackCapturerMutex
 )
 ;
 size_t
