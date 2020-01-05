@@ -31,6 +31,9 @@ namespace
 mozilla
 {
 class
+AbstractThread
+;
+class
 AudioNodeExternalInputStream
 final
 :
@@ -52,6 +55,9 @@ aGraph
 AudioNodeEngine
 *
 aEngine
+AbstractThread
+*
+aMainThread
 )
 ;
 protected
@@ -63,6 +69,9 @@ AudioNodeEngine
 aEngine
 TrackRate
 aSampleRate
+AbstractThread
+*
+aMainThread
 )
 ;
 ~

@@ -67,6 +67,9 @@ AudioContext
 ;
 }
 class
+AbstractThread
+;
+class
 ThreadSharedFloatArrayBufferList
 ;
 class
@@ -192,6 +195,9 @@ Flags
 aFlags
 TrackRate
 aSampleRate
+AbstractThread
+*
+aMainThread
 )
 ;
 ~

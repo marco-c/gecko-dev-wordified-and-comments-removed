@@ -48,6 +48,9 @@ namespace
 mozilla
 {
 class
+AbstractThread
+;
+class
 AudioNodeStream
 ;
 class
@@ -497,6 +500,13 @@ mVideoBitsPerSecond
 ;
 uint32_t
 mBitsPerSecond
+;
+const
+RefPtr
+<
+AbstractThread
+>
+mAbstractMainThread
 ;
 private
 :
