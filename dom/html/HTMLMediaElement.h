@@ -2953,8 +2953,8 @@ bool
 aPlaying
 )
 ;
-void
-CreateAudioChannelAgent
+bool
+MaybeCreateAudioChannelAgent
 (
 )
 ;
