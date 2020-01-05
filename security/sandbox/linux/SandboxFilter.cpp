@@ -3381,6 +3381,14 @@ nullptr
 )
 ;
 }
+case
+__NR_times
+:
+return
+Allow
+(
+)
+;
 default
 :
 return
