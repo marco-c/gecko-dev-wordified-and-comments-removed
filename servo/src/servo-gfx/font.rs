@@ -2261,6 +2261,8 @@ Range
 >
 RunMetrics
 {
+/
+/
 assert
 range
 .
@@ -2455,6 +2457,7 @@ advance_width
 advance
 bounding_box
 :
+move
 bounds
 ascent
 :
