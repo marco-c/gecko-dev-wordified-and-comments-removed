@@ -177,10 +177,10 @@ onMove
 (
 ev
 .
-screenX
+clientX
 ev
 .
-screenY
+clientY
 )
 ;
 }
