@@ -1165,6 +1165,12 @@ extension
 id
 }
 ;
+let
+optionalFilter
+=
+{
+}
+;
 this
 .
 messenger
@@ -1183,6 +1189,7 @@ messageManager
 ]
 sender
 filter
+optionalFilter
 )
 ;
 if

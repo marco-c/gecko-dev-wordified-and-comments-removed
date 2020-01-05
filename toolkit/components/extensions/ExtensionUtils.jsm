@@ -6375,6 +6375,7 @@ context
 messageManagers
 sender
 filter
+optionalFilter
 )
 {
 this
@@ -6400,6 +6401,12 @@ this
 filter
 =
 filter
+;
+this
+.
+optionalFilter
+=
+optionalFilter
 ;
 MessageChannel
 .
@@ -6586,6 +6593,11 @@ listener
 =
 {
 messageFilterPermissive
+:
+this
+.
+optionalFilter
+messageFilterStrict
 :
 this
 .
@@ -6921,6 +6933,11 @@ listener
 =
 {
 messageFilterPermissive
+:
+this
+.
+optionalFilter
+messageFilterStrict
 :
 this
 .

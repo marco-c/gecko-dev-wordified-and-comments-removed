@@ -1755,6 +1755,12 @@ this
 extension
 .
 id
+}
+;
+let
+optionalFilter
+=
+{
 frameId
 }
 ;
@@ -1773,6 +1779,7 @@ messageManager
 ]
 sender
 filter
+optionalFilter
 )
 ;
 this
