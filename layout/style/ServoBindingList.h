@@ -49,10 +49,6 @@ css
 :
 SheetParsingMode
 parsing_mode
-const
-nsACString
-*
-base_url
 RawGeckoURLExtraData
 *
 extra_data
@@ -439,10 +435,6 @@ const
 nsACString
 *
 value
-const
-nsACString
-*
-base
 RawGeckoURLExtraData
 *
 data
@@ -455,10 +447,6 @@ const
 nsAString
 *
 easing
-const
-nsACString
-*
-base
 RawGeckoURLExtraData
 *
 data
@@ -548,10 +536,6 @@ const
 nsACString
 *
 data
-const
-nsACString
-*
-base
 RawGeckoURLExtraData
 *
 extra_data
@@ -671,10 +655,6 @@ nsACString
 value
 bool
 is_important
-const
-nsACString
-*
-base
 RawGeckoURLExtraData
 *
 data
@@ -693,10 +673,6 @@ nsACString
 value
 bool
 is_important
-const
-nsACString
-*
-base
 RawGeckoURLExtraData
 *
 data

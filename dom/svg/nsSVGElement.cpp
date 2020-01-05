@@ -5717,9 +5717,6 @@ value
 aMappedAttrValue
 )
 ;
-nsCString
-baseString
-;
 RefPtr
 <
 css
@@ -5745,14 +5742,6 @@ NodePrincipal
 )
 )
 ;
-mBaseURI
--
->
-GetSpec
-(
-baseString
-)
-;
 changed
 =
 Servo_DeclarationBlock_SetPropertyById
@@ -5772,8 +5761,6 @@ propertyID
 &
 value
 false
-&
-baseString
 data
 )
 ;
