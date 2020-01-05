@@ -1419,7 +1419,7 @@ AsmSelect
 \
 _
 (
-AsmReinterpret
+WasmReinterpret
 )
 \
 _

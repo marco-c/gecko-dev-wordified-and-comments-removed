@@ -11902,7 +11902,7 @@ f
 .
 unary
 <
-MAsmReinterpret
+MWasmReinterpret
 >
 (
 input

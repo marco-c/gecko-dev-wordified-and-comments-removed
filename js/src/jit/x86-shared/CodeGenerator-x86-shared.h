@@ -1506,9 +1506,9 @@ ins
 ;
 virtual
 void
-visitAsmReinterpret
+visitWasmReinterpret
 (
-LAsmReinterpret
+LWasmReinterpret
 *
 lir
 )
