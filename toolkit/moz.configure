@@ -6013,7 +6013,7 @@ WebRender
 set_config
 (
 '
-MOZ_ENABLE_WEBRENDER
+MOZ_BUILD_WEBRENDER
 '
 depends_if
 (
@@ -6035,7 +6035,7 @@ True
 set_define
 (
 '
-MOZ_ENABLE_WEBRENDER
+MOZ_BUILD_WEBRENDER
 '
 depends_if
 (

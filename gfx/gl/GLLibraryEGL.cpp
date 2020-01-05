@@ -699,7 +699,7 @@ IsInCompositorThread
 {
 #
 ifndef
-MOZ_ENABLE_WEBRENDER
+MOZ_BUILD_WEBRENDER
 MOZ_ASSERT
 (
 false
