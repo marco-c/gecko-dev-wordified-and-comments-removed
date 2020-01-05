@@ -1527,7 +1527,7 @@ ArgumentParser
     
 socket_timeout_default
 =
-60
+360
 .
 0
     
@@ -2650,6 +2650,17 @@ for
 marionette
 socket
 operations
+.
+'
+                               
+'
+Default
+:
+%
+(
+default
+)
+ss
 .
 '
 )
