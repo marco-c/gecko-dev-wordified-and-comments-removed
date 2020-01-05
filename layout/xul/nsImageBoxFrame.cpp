@@ -1814,7 +1814,7 @@ flags
 imgIContainer
 :
 :
-FLAG_NONE
+FLAG_SYNC_DECODE_IF_FAST
 ;
 if
 (
