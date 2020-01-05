@@ -23,7 +23,7 @@ hash
 :
 {
 MessageDigest
-hash
+hash2
 }
 ;
 use
@@ -665,7 +665,7 @@ body
 let
 response_digest
 =
-hash
+hash2
 (
 message_digest
 vec
