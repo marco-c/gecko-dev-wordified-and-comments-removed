@@ -29,10 +29,10 @@ add
 \
 macro
 (
-allowContentIter
-allowContentIter
+allowContentSpread
+allowContentSpread
 "
-allowContentIter
+allowContentSpread
 "
 )
 \
