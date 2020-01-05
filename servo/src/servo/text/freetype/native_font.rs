@@ -77,6 +77,7 @@ FT_UInt
 FT_GlyphSlot
 FT_Size_Metrics
 FT_FaceRec
+FT_F26Dot6
 }
 ;
 use
@@ -928,6 +929,8 @@ float_to_fixed_ft
 (
 pt_size
 )
+as
+FT_F26Dot6
 /
 /
 char
@@ -936,6 +939,8 @@ float_to_fixed_ft
 (
 pt_size
 )
+as
+FT_F26Dot6
 /
 /
 char
