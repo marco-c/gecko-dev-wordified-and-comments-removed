@@ -17,14 +17,10 @@ gTokenPasswordDialogs
 =
 {
 setPassword
-:
 (
 ctx
 tokenName
-canceled
 )
-=
->
 {
 gSetPasswordShownCount
 +
@@ -53,10 +49,7 @@ tokenName
 }
 )
 ;
-canceled
-.
-value
-=
+return
 false
 ;
 }
