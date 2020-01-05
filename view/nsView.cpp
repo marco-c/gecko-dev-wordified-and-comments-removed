@@ -443,12 +443,6 @@ DestroyWidget
 (
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-!
-mFrame
-)
-;
 delete
 mDirtyRegion
 ;
