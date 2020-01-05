@@ -292,14 +292,9 @@ closePromise
 =
 BrowserTestUtils
 .
-removeTab
+tabRemoved
 (
 secondTab
-{
-dontRemove
-:
-true
-}
 )
 ;
 info
