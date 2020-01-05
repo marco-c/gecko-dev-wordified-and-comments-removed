@@ -1081,10 +1081,6 @@ active_
 (
 false
 )
-entrySize_
-(
-aEntrySize
-)
 mBuffer
 (
 new
@@ -6478,10 +6474,7 @@ mWritePos
 *
 aTotalSize
 =
-mBuffer
--
->
-mEntrySize
+gEntrySize
 ;
 *
 aGeneration

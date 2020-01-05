@@ -869,15 +869,6 @@ value
 )
 ;
 }
-int
-EntrySize
-(
-)
-{
-return
-entrySize_
-;
-}
 struct
 PlatformDataDestructor
 {
@@ -1236,10 +1227,6 @@ paused_
 ;
 Atomic32
 active_
-;
-const
-int
-entrySize_
 ;
 #
 if
