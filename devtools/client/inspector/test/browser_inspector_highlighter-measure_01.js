@@ -169,7 +169,7 @@ yield
 isElementHidden
 (
 "
-elements
+root
 "
 )
 ;
