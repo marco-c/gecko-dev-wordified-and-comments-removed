@@ -431,14 +431,14 @@ True
 set_config
 (
 '
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 '
 sps_profiler_define
 )
 set_define
 (
 '
-MOZ_ENABLE_PROFILER_SPS
+MOZ_GECKO_PROFILER
 '
 sps_profiler_define
 )

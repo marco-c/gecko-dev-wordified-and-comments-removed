@@ -497,8 +497,6 @@ visible
 false
 )
 ;
-return
-;
 }
 this
 .
@@ -666,12 +664,6 @@ LOCKED_PORTAL
 return
 ;
 }
-self
-.
-_showNotification
-(
-)
-;
 if
 (
 time

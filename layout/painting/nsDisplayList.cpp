@@ -26285,9 +26285,6 @@ layer
 SetScrollbarData
 (
 mScrollTarget
-Layer
-:
-:
 ScrollDirection
 :
 :
@@ -26309,9 +26306,6 @@ layer
 SetScrollbarData
 (
 mScrollTarget
-Layer
-:
-:
 ScrollDirection
 :
 :

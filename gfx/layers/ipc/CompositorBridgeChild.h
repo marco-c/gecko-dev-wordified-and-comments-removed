@@ -1037,6 +1037,16 @@ aActor
 )
 override
 ;
+uint64_t
+DeviceResetSequenceNumber
+(
+)
+const
+{
+return
+mDeviceResetSequenceNumber
+;
+}
 private
 :
 virtual
@@ -1328,6 +1338,9 @@ mCanSend
 ;
 uint64_t
 mFwdTransactionId
+;
+uint64_t
+mDeviceResetSequenceNumber
 ;
 nsDataHashtable
 <

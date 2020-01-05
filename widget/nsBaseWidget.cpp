@@ -1456,12 +1456,10 @@ ComputeShouldAccelerate
 clm
 -
 >
-GetTextureFactoryIdentifier
+GetCompositorBackendType
 (
 )
-.
-mParentBackend
-!
+=
 =
 LayersBackend
 :
@@ -1507,6 +1505,7 @@ clm
 UpdateTextureFactoryIdentifier
 (
 identifier
+aSeqNo
 )
 ;
 ImageBridgeChild
@@ -5605,6 +5604,7 @@ lm
 UpdateTextureFactoryIdentifier
 (
 textureFactoryIdentifier
+0
 )
 ;
 if

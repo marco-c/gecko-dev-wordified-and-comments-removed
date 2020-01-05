@@ -509,6 +509,10 @@ mFwdTransactionId
 (
 0
 )
+mDeviceResetSequenceNumber
+(
+0
+)
 mMessageLoop
 (
 MessageLoop
@@ -1785,15 +1789,9 @@ aLayersId
 0
 )
 {
-static
-uint64_t
-sLastSeqNo
-=
-0
-;
 if
 (
-sLastSeqNo
+mDeviceResetSequenceNumber
 !
 =
 aSeqNo
@@ -1811,7 +1809,7 @@ CompositorUpdated
 (
 )
 ;
-sLastSeqNo
+mDeviceResetSequenceNumber
 =
 aSeqNo
 ;
@@ -1876,6 +1874,7 @@ child
 CompositorUpdated
 (
 aNewIdentifier
+aSeqNo
 )
 ;
 }
@@ -1894,6 +1893,7 @@ IPC_OK
 SendAcknowledgeCompositorUpdate
 (
 aLayersId
+aSeqNo
 )
 ;
 }

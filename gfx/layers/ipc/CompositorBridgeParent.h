@@ -1116,7 +1116,9 @@ RecvAcknowledgeCompositorUpdate
 const
 uint64_t
 &
-aLayersId
+const
+uint64_t
+&
 )
 override
 {
@@ -1752,8 +1754,11 @@ mPluginData
 bool
 mUpdatedPluginDataAvailable
 ;
-uint32_t
-mPendingCompositorUpdates
+Maybe
+<
+uint64_t
+>
+mPendingCompositorUpdate
 ;
 CompositorController
 *
