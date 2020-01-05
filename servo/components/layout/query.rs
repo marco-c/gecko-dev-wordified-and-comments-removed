@@ -795,7 +795,6 @@ UntrustedNodeAddress
 >
 {
 let
-mut
 page_point
 =
 Point2D
@@ -915,7 +914,6 @@ display_list
 hit_test
 (
 &
-mut
 page_point
 &
 client_point
