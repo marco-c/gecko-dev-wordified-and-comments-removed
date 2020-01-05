@@ -6534,7 +6534,7 @@ image
 =
 handler
 .
-get
+lock
 (
 external_id
 )
@@ -7687,7 +7687,7 @@ trait
 ExternalImageHandler
 {
 fn
-get
+lock
 (
 &
 mut
@@ -7699,6 +7699,17 @@ ExternalImageId
 -
 >
 ExternalImage
+;
+fn
+unlock
+(
+&
+mut
+self
+key
+:
+ExternalImageId
+)
 ;
 fn
 release
