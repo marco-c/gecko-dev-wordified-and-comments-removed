@@ -106,7 +106,7 @@ Arc
 FontTemplateData
 >
 pub
-pt_size
+actual_pt_size
 :
 f64
 pub
@@ -707,11 +707,11 @@ handle
 get_template
 (
 )
-pt_size
+actual_pt_size
 :
 font
 .
-pt_size
+actual_pt_size
 glyphs
 :
 Arc
