@@ -174,6 +174,12 @@ testGCGrayMarking
 AutoNoAnalysisForTest
 disableAnalysis
 ;
+AutoDisableCompactingGC
+disableCompactingGC
+(
+cx
+)
+;
 CHECK
 (
 InitGlobals
