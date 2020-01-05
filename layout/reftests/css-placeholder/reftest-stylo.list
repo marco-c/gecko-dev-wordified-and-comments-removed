@@ -30,7 +30,6 @@ reftest
 stylo
 .
 list
-fails
 =
 =
 css
@@ -43,7 +42,6 @@ css
 restrictions
 .
 html
-fails
 =
 =
 css
@@ -73,7 +71,6 @@ css
 background
 .
 html
-fails
 =
 =
 ignore

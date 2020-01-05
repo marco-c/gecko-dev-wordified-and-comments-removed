@@ -33,7 +33,6 @@ to
 bug
 1220052
 .
-fails
 =
 =
 display
@@ -50,7 +49,6 @@ types
 01
 .
 html
-fails
 =
 =
 dynamic
@@ -67,7 +65,6 @@ attr
 01
 .
 html
-fails
 =
 =
 dynamic
@@ -84,7 +81,6 @@ button
 01a
 .
 html
-fails
 =
 =
 dynamic
@@ -101,7 +97,6 @@ button
 01b
 .
 html
-fails
 =
 =
 dynamic
@@ -118,7 +113,6 @@ fieldset
 01a
 .
 html
-fails
 =
 =
 dynamic
@@ -191,7 +185,6 @@ cell
 01b
 .
 html
-fails
 =
 =
 floated
@@ -216,7 +209,6 @@ images
 01
 .
 html
-fails
 =
 =
 positioned
@@ -252,7 +244,6 @@ quotes
 001
 .
 xml
-fails
 =
 =
 table
@@ -273,7 +264,6 @@ whitespace
 01
 .
 html
-fails
 =
 =
 table

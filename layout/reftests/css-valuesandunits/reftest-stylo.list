@@ -141,7 +141,6 @@ root
 fontsize
 .
 html
-fails
 =
 =
 unit
@@ -174,7 +173,6 @@ unit
 rem
 .
 svg
-fails
 =
 =
 unit
@@ -191,7 +189,6 @@ vh
 vw
 .
 html
-fails
 =
 =
 unit
@@ -237,7 +234,6 @@ overflow
 auto
 .
 html
-fails
 =
 =
 unit
@@ -262,7 +258,6 @@ overflow
 scroll
 .
 html
-fails
 =
 =
 unit
@@ -291,7 +286,6 @@ scroll
 x
 .
 html
-fails
 =
 =
 unit

@@ -195,7 +195,6 @@ border
 mixed
 .
 html
-fails
 =
 =
 border
@@ -216,7 +215,6 @@ non
 integer
 .
 html
-fails
 =
 =
 border

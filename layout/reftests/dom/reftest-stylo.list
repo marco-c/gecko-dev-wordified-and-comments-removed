@@ -218,7 +218,6 @@ have
 multiple
 insertion
 points
-fails
 =
 =
 multipleinsertionpoints
@@ -236,7 +235,6 @@ append
 a
 single
 element
-fails
 =
 =
 multipleinsertionpoints
@@ -253,7 +251,6 @@ appendsingle
 1
 .
 xhtml
-fails
 =
 =
 multipleinsertionpoints
@@ -274,7 +271,6 @@ xhtml
 append
 several
 elements
-fails
 =
 =
 multipleinsertionpoints
@@ -292,7 +288,6 @@ insert
 a
 single
 element
-fails
 =
 =
 multipleinsertionpoints
@@ -309,7 +304,6 @@ insertsingle
 1
 .
 xhtml
-fails
 =
 =
 multipleinsertionpoints
@@ -330,7 +324,6 @@ xhtml
 insert
 several
 elements
-fails
 =
 =
 multipleinsertionpoints
@@ -375,7 +368,6 @@ xhtml
 multipleappendwithxul
 .
 xhtml
-fails
 =
 =
 multipleappendwithinput
@@ -392,7 +384,6 @@ xhtml
 multipleappendwitheditable
 .
 xhtml
-fails
 =
 =
 xbl
@@ -425,7 +416,6 @@ children
 2
 .
 xhtml
-fails
 =
 =
 xbl

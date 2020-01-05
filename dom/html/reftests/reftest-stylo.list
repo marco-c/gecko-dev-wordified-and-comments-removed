@@ -44,7 +44,6 @@ reftest
 stylo
 .
 list
-fails
 =
 =
 41464
@@ -57,7 +56,6 @@ html
 1a
 .
 html
-fails
 =
 =
 41464
@@ -70,7 +68,6 @@ html
 1b
 .
 html
-fails
 =
 =
 52019
@@ -83,7 +80,6 @@ html
 1
 .
 html
-fails
 =
 =
 82711
@@ -96,7 +92,6 @@ html
 1
 .
 html
-fails
 =
 =
 82711
@@ -201,7 +196,6 @@ html
 2
 .
 html
-fails
 =
 =
 484200
@@ -247,7 +241,6 @@ video
 dimensions
 .
 html
-fails
 =
 =
 573322
@@ -260,7 +253,6 @@ html
 quirks
 .
 html
-fails
 =
 =
 573322
@@ -277,7 +269,6 @@ no
 quirks
 .
 html
-fails
 =
 =
 596455
@@ -290,7 +281,6 @@ html
 1a
 .
 html
-fails
 =
 =
 596455
@@ -303,7 +293,6 @@ html
 1b
 .
 html
-fails
 =
 =
 596455
@@ -316,7 +305,6 @@ html
 2a
 .
 html
-fails
 =
 =
 596455
@@ -329,7 +317,6 @@ html
 2b
 .
 html
-fails
 =
 =
 610935
@@ -363,7 +350,6 @@ html
 2
 .
 html
-fails
 =
 =
 741776
@@ -557,7 +543,6 @@ iframe
 1
 .
 html
-fails
 =
 =
 bug917595
@@ -613,7 +598,6 @@ bug1106522
 2
 .
 html
-fails
 =
 =
 href
@@ -643,7 +627,6 @@ html
 figure
 .
 html
-fails
 =
 =
 pre

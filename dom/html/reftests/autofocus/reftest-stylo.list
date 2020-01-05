@@ -35,7 +35,6 @@ forms
 datetime
 true
 )
-fails
 =
 =
 input
@@ -48,7 +47,6 @@ input
 load
 .
 html
-fails
 =
 =
 input
@@ -85,7 +83,6 @@ input
 number
 .
 html
-fails
 =
 =
 input
@@ -98,7 +95,6 @@ input
 time
 .
 html
-fails
 =
 =
 button
@@ -111,7 +107,6 @@ button
 load
 .
 html
-fails
 =
 =
 button
@@ -124,7 +119,6 @@ button
 create
 .
 html
-fails
 =
 =
 textarea
@@ -137,7 +131,6 @@ textarea
 load
 .
 html
-fails
 =
 =
 textarea
@@ -150,7 +143,6 @@ textarea
 create
 .
 html
-fails
 =
 =
 select
@@ -163,7 +155,6 @@ select
 load
 .
 html
-fails
 =
 =
 select
@@ -176,7 +167,6 @@ select
 create
 .
 html
-fails
 needs
 -
 focus
@@ -196,7 +186,6 @@ after
 load
 .
 html
-fails
 =
 =
 autofocus
@@ -213,7 +202,6 @@ leaves
 iframe
 .
 html
-fails
 =
 =
 autofocus

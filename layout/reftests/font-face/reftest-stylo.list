@@ -61,7 +61,6 @@ file
 :
 URLs
 .
-fails
 HTTP
 (
 .
@@ -79,7 +78,6 @@ download
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -97,7 +95,6 @@ download
 2
 .
 html
-fails
 HTTP
 (
 .
@@ -145,7 +142,6 @@ download
 big
 .
 html
-fails
 HTTP
 (
 .
@@ -171,7 +167,6 @@ big
 otf
 .
 html
-fails
 =
 =
 download
@@ -188,7 +183,6 @@ download
 notref
 .
 html
-fails
 =
 =
 download
@@ -205,7 +199,6 @@ download
 ref
 .
 html
-fails
 =
 =
 fallback
@@ -226,7 +219,6 @@ system
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -252,7 +244,6 @@ simple
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -278,7 +269,6 @@ simple
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -300,7 +290,6 @@ override
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -322,7 +311,6 @@ descriptor
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -426,7 +414,6 @@ big
 otf
 .
 html
-fails
 HTTP
 (
 .
@@ -452,7 +439,6 @@ format
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -478,7 +464,6 @@ format
 2
 .
 html
-fails
 HTTP
 (
 .
@@ -504,7 +489,6 @@ format
 3
 .
 html
-fails
 HTTP
 (
 .
@@ -530,7 +514,6 @@ format
 4
 .
 html
-fails
 HTTP
 (
 .
@@ -556,7 +539,6 @@ format
 5
 .
 html
-fails
 HTTP
 (
 .
@@ -633,7 +615,6 @@ format
 7
 .
 html
-fails
 =
 =
 src
@@ -654,7 +635,6 @@ local
 full
 .
 html
-fails
 =
 =
 src
@@ -679,7 +659,6 @@ full
 quotes
 .
 html
-fails
 HTTP
 (
 .
@@ -740,7 +719,6 @@ data
 1
 .
 html
-fails
 =
 =
 src
@@ -761,7 +739,6 @@ data
 2
 .
 html
-fails
 =
 =
 src
@@ -782,7 +759,6 @@ data
 3
 .
 html
-fails
 =
 =
 src
@@ -813,7 +789,6 @@ vs
 font
 data
 load
-fails
 HTTP
 (
 .
@@ -862,7 +837,6 @@ locale
 invariant
 key
 )
-fails
 HTTP
 (
 .
@@ -986,7 +960,6 @@ order
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1004,7 +977,6 @@ order
 2
 .
 html
-fails
 HTTP
 (
 .
@@ -1022,7 +994,6 @@ order
 3
 .
 html
-fails
 HTTP
 (
 .
@@ -1048,7 +1019,6 @@ family
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1074,7 +1044,6 @@ family
 1b
 .
 html
-fails
 HTTP
 (
 .
@@ -1100,7 +1069,6 @@ family
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1134,7 +1102,6 @@ order
 1a
 .
 html
-fails
 HTTP
 (
 .
@@ -1168,7 +1135,6 @@ order
 1b
 .
 html
-fails
 HTTP
 (
 .
@@ -1228,7 +1194,6 @@ html
 unicode
 -
 range
-fails
 HTTP
 (
 .
@@ -1246,7 +1211,6 @@ unicoderange
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1264,7 +1228,6 @@ unicoderange
 2
 .
 html
-fails
 HTTP
 (
 .
@@ -1282,7 +1245,6 @@ unicoderange
 3
 .
 html
-fails
 HTTP
 (
 .
@@ -1589,7 +1551,6 @@ sheet
 5
 .
 html
-fails
 HTTP
 (
 .
@@ -1702,7 +1663,6 @@ rule
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1728,7 +1688,6 @@ add
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1754,7 +1713,6 @@ remove
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1784,7 +1742,6 @@ add
 ref
 .
 html
-fails
 HTTP
 (
 .
@@ -1806,7 +1763,6 @@ metrics
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1854,7 +1810,6 @@ unit
 dynamic
 .
 html
-fails
 =
 =
 local
@@ -1867,7 +1822,6 @@ local
 1
 .
 html
-fails
 =
 =
 local
@@ -1906,7 +1860,6 @@ weight
 style
 .
 html
-fails
 HTTP
 (
 .
@@ -1948,7 +1901,6 @@ without
 bad
 head
 checksum
-fails
 HTTP
 (
 .
@@ -2000,7 +1952,6 @@ name
 collision
 .
 html
-fails
 HTTP
 (
 .
@@ -2026,7 +1977,6 @@ bad
 url
 .
 html
-fails
 HTTP
 (
 .
@@ -2056,7 +2006,6 @@ prefs
 font
 .
 html
-fails
 HTTP
 (
 .
@@ -2148,7 +2097,6 @@ without
 a
 format
 hint
-fails
 HTTP
 (
 .
@@ -2170,7 +2118,6 @@ html
 woff
 .
 html
-fails
 HTTP
 (
 .
@@ -2208,7 +2155,6 @@ load
 bad
 checksums
 )
-fails
 HTTP
 (
 .
@@ -2238,7 +2184,6 @@ checksums
 ttf
 .
 html
-fails
 HTTP
 (
 .
@@ -2281,7 +2226,6 @@ offsets
 signatures
 hint
 )
-fails
 HTTP
 (
 .
@@ -2315,7 +2259,6 @@ version
 ttf
 .
 html
-fails
 HTTP
 (
 .
@@ -2349,7 +2292,6 @@ version
 woff
 .
 html
-fails
 HTTP
 (
 .
@@ -2379,7 +2321,6 @@ woff
 sig
 .
 html
-fails
 HTTP
 (
 .
@@ -2409,7 +2350,6 @@ offset
 woff
 .
 html
-fails
 HTTP
 (
 .
@@ -2496,7 +2436,6 @@ change
 2
 .
 html
-fails
 =
 =
 underline
@@ -2521,7 +2460,6 @@ change
 ref
 .
 html
-fails
 HTTP
 (
 .
@@ -2551,7 +2489,6 @@ cmap
 sentinel
 .
 html
-fails
 HTTP
 (
 .
@@ -2568,7 +2505,6 @@ html
 #
 Bug
 875287
-fails
 HTTP
 (
 .
@@ -2594,7 +2530,6 @@ whitespace
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -2620,7 +2555,6 @@ whitespace
 1
 .
 html
-fails
 =
 =
 ivs
@@ -2633,7 +2567,6 @@ ivs
 1
 .
 html
-fails
 =
 =
 cjkcisvs
@@ -2646,7 +2579,6 @@ cjkcisvs
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -2721,7 +2653,6 @@ error
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -2776,7 +2707,6 @@ html
 Font
 load
 redirection
-fails
 HTTP
 (
 .
@@ -2872,7 +2802,6 @@ COLR
 and
 CPAL
 support
-fails
 HTTP
 (
 .
@@ -2890,7 +2819,6 @@ color
 1a
 .
 html
-fails
 HTTP
 (
 .
@@ -2908,7 +2836,6 @@ color
 1a
 .
 html
-fails
 HTTP
 (
 .
@@ -2926,7 +2853,6 @@ color
 1b
 .
 html
-fails
 HTTP
 (
 .
@@ -2944,7 +2870,6 @@ color
 2a
 .
 html
-fails
 HTTP
 (
 .
@@ -2962,7 +2887,6 @@ color
 2a
 .
 html
-fails
 pref
 (
 gfx
@@ -3029,7 +2953,6 @@ behavior
 with
 downloadable
 fonts
-fails
 HTTP
 (
 .
@@ -3051,7 +2974,6 @@ sanity
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -3077,7 +2999,6 @@ sanity
 data
 .
 html
-fails
 HTTP
 (
 .
@@ -3099,7 +3020,6 @@ sanity
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -3125,7 +3045,6 @@ delay
 1a
 .
 html
-fails
 HTTP
 (
 .
@@ -3151,7 +3070,6 @@ delay
 1b
 .
 html
-fails
 HTTP
 (
 .
@@ -3177,7 +3095,6 @@ delay
 1c
 .
 html
-fails
 HTTP
 (
 .
@@ -3211,7 +3128,6 @@ html
 font
 -
 display
-fails
 pref
 (
 layout
@@ -3246,7 +3162,6 @@ display
 1
 .
 html
-fails
 =
 =
 font

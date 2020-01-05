@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 system
@@ -27,7 +26,6 @@ system
 cyclic
 .
 html
-fails
 =
 =
 system
@@ -40,7 +38,6 @@ system
 fixed
 .
 html
-fails
 =
 =
 system
@@ -53,7 +50,6 @@ system
 symbolic
 .
 html
-fails
 =
 =
 system
@@ -66,7 +62,6 @@ system
 alphabetic
 .
 html
-fails
 =
 =
 system
@@ -79,7 +74,6 @@ system
 numeric
 .
 html
-fails
 =
 =
 system
@@ -92,7 +86,6 @@ system
 additive
 .
 html
-fails
 =
 =
 system
@@ -201,7 +194,6 @@ additive
 invalid
 .
 html
-fails
 =
 =
 system
@@ -218,7 +210,6 @@ extends
 invalid
 .
 html
-fails
 =
 =
 descriptor
@@ -231,7 +222,6 @@ descriptor
 negative
 .
 html
-fails
 =
 =
 descriptor
@@ -244,7 +234,6 @@ descriptor
 prefix
 .
 html
-fails
 =
 =
 descriptor
@@ -257,7 +246,6 @@ descriptor
 suffix
 .
 html
-fails
 =
 =
 descriptor
@@ -270,7 +258,6 @@ descriptor
 range
 .
 html
-fails
 =
 =
 descriptor
@@ -296,7 +283,6 @@ descriptor
 fallback
 .
 html
-fails
 =
 =
 descriptor
@@ -309,7 +295,6 @@ descriptor
 symbols
 .
 html
-fails
 =
 =
 descriptor
@@ -326,7 +311,6 @@ negative
 invalid
 .
 html
-fails
 =
 =
 descriptor
@@ -343,7 +327,6 @@ prefix
 invalid
 .
 html
-fails
 =
 =
 descriptor
@@ -360,7 +343,6 @@ suffix
 invalid
 .
 html
-fails
 =
 =
 descriptor
@@ -377,7 +359,6 @@ range
 invalid
 .
 html
-fails
 =
 =
 descriptor
@@ -407,7 +388,6 @@ descriptor
 fallback
 .
 html
-fails
 =
 =
 descriptor
@@ -424,7 +404,6 @@ symbols
 invalid
 .
 html
-fails
 =
 =
 name
@@ -441,7 +420,6 @@ case
 sensitivity
 .
 html
-fails
 =
 =
 dependent
@@ -454,7 +432,6 @@ dependent
 builtin
 .
 html
-fails
 =
 =
 redefine
@@ -467,7 +444,6 @@ redefine
 builtin
 .
 html
-fails
 =
 =
 redefine
@@ -484,7 +460,6 @@ attr
 mapping
 .
 html
-fails
 =
 =
 disclosure
@@ -497,7 +472,6 @@ disclosure
 styles
 .
 html
-fails
 =
 =
 symbols
@@ -510,7 +484,6 @@ symbols
 function
 .
 html
-fails
 =
 =
 symbols

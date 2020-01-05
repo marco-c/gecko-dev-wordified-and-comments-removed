@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 test
 -
 pref
@@ -42,7 +41,6 @@ html
 1
 .
 html
-fails
 test
 -
 pref
@@ -70,7 +68,6 @@ html
 1
 .
 html
-fails
 test
 -
 pref
@@ -98,7 +95,6 @@ html
 1
 .
 html
-fails
 test
 -
 pref
@@ -725,7 +721,6 @@ in
 delay
 .
 html
-fails
 test
 -
 pref
@@ -785,7 +780,6 @@ to
 replace
 .
 html
-fails
 test
 -
 pref
@@ -845,7 +839,6 @@ to
 accumulate
 .
 html
-fails
 test
 -
 pref

@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 needs
 -
 focus
@@ -53,7 +52,6 @@ within
 2
 .
 html
-fails
 needs
 -
 focus
@@ -73,7 +71,6 @@ within
 3
 .
 html
-fails
 =
 =
 dir
@@ -90,7 +87,6 @@ style
 01a
 .
 html
-fails
 =
 =
 dir
@@ -107,7 +103,6 @@ style
 01b
 .
 html
-fails
 =
 =
 dir
@@ -124,7 +119,6 @@ style
 02a
 .
 html
-fails
 =
 =
 dir
@@ -141,7 +135,6 @@ style
 02b
 .
 html
-fails
 =
 =
 dir
@@ -158,7 +151,6 @@ style
 03a
 .
 html
-fails
 =
 =
 dir
@@ -175,7 +167,6 @@ style
 03b
 .
 html
-fails
 =
 =
 dir

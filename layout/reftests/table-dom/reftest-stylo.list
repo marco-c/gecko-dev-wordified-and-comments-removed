@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 appendCells1
@@ -23,7 +22,6 @@ html
 appendCells1
 .
 html
-fails
 =
 =
 appendCellsRebuild1
@@ -32,7 +30,6 @@ html
 appendCellsRebuild1
 .
 html
-fails
 =
 =
 appendCellsZeroColspan
@@ -41,7 +38,6 @@ html
 appendCellsZeroColspan
 .
 html
-fails
 =
 =
 appendCol1
@@ -50,7 +46,6 @@ html
 appendCol1
 .
 html
-fails
 =
 =
 appendCol2
@@ -59,7 +54,6 @@ html
 appendCol2
 .
 html
-fails
 =
 =
 appendColGroup1
@@ -68,7 +62,6 @@ html
 appendColGroup1
 .
 html
-fails
 =
 =
 appendRowsExpand1
@@ -77,7 +70,6 @@ html
 appendRowsExpand1
 .
 html
-fails
 =
 =
 appendTbodyExpand1
@@ -86,7 +78,6 @@ html
 appendTbodyExpand1
 .
 html
-fails
 =
 =
 deleteCellsRebuild1
@@ -95,7 +86,6 @@ html
 deleteCellsRebuild1
 .
 html
-fails
 =
 =
 deleteCellsShrink1
@@ -104,7 +94,6 @@ html
 deleteCellsShrink1
 .
 html
-fails
 =
 =
 deleteCellsShrink2
@@ -113,7 +102,6 @@ html
 deleteCellsShrink2
 .
 html
-fails
 =
 =
 deleteCellsExpandZeroColspan
@@ -122,7 +110,6 @@ html
 deleteCellsExpandZeroColspan
 .
 html
-fails
 =
 =
 deleteCol1
@@ -131,7 +118,6 @@ html
 deleteCol1
 .
 html
-fails
 =
 =
 deleteCol2
@@ -140,7 +126,6 @@ html
 deleteCol2
 .
 html
-fails
 =
 =
 deleteCol3
@@ -149,7 +134,6 @@ html
 deleteCol3
 .
 html
-fails
 =
 =
 deleteColGroup1
@@ -158,7 +142,6 @@ html
 deleteColGroup1
 .
 html
-fails
 =
 =
 deleteColGroup2
@@ -167,7 +150,6 @@ html
 deleteColGroup2
 .
 html
-fails
 =
 =
 deleteRowsRebuild1
@@ -176,7 +158,6 @@ html
 deleteRowsRebuild1
 .
 html
-fails
 =
 =
 deleteRowsRebuild1a
@@ -185,7 +166,6 @@ html
 deleteRowsRebuild1a
 .
 html
-fails
 =
 =
 deleteRowsShrink1
@@ -194,7 +174,6 @@ html
 deleteRowsShrink1
 .
 html
-fails
 =
 =
 deleteTbodyExpand1
@@ -203,7 +182,6 @@ html
 deleteTbodyExpand1
 .
 html
-fails
 =
 =
 deleteTbodyRebuild1
@@ -244,7 +222,6 @@ html
 insertCaptionsAndRows4
 .
 html
-fails
 =
 =
 insertCellsExpand1
@@ -253,7 +230,6 @@ html
 insertCellsExpand1
 .
 html
-fails
 =
 =
 insertCellsExpand2
@@ -262,7 +238,6 @@ html
 insertCellsExpand2
 .
 html
-fails
 =
 =
 insertCellsExpandZeroRowspan
@@ -271,7 +246,6 @@ html
 insertCellsExpandZeroRowspan
 .
 html
-fails
 =
 =
 insertCellsRebuild1
@@ -280,7 +254,6 @@ html
 insertCellsRebuild1
 .
 html
-fails
 =
 =
 insertCellsRebuild2
@@ -289,7 +262,6 @@ html
 insertCellsRebuild2
 .
 html
-fails
 =
 =
 insertCellsZeroColspan
@@ -298,7 +270,6 @@ html
 insertCellsZeroColspan
 .
 html
-fails
 =
 =
 insertColGroups1
@@ -307,7 +278,6 @@ html
 insertColGroups1
 .
 html
-fails
 =
 =
 insertColGroups2
@@ -316,7 +286,6 @@ html
 insertColGroups2
 .
 html
-fails
 =
 =
 insertColgroupAndRowgroup
@@ -325,7 +294,6 @@ html
 insertColgroupAndRowgroup
 .
 html
-fails
 =
 =
 insertCols1
@@ -334,7 +302,6 @@ html
 insertCols1
 .
 html
-fails
 =
 =
 insertCols2
@@ -343,7 +310,6 @@ html
 insertCols2
 .
 html
-fails
 =
 =
 insertCols3
@@ -352,7 +318,6 @@ html
 insertCols3
 .
 html
-fails
 =
 =
 insertCols4
@@ -361,7 +326,6 @@ html
 insertCols4
 .
 html
-fails
 =
 =
 insertCols5
@@ -370,7 +334,6 @@ html
 insertCols5
 .
 html
-fails
 =
 =
 insertRowsExpand1
@@ -379,7 +342,6 @@ html
 insertRowsExpand1
 .
 html
-fails
 =
 =
 insertRowsRebuild1
@@ -388,7 +350,6 @@ html
 insertRowsRebuild1
 .
 html
-fails
 =
 =
 insertTbodyExpand1
@@ -397,7 +358,6 @@ html
 insertTbodyExpand1
 .
 html
-fails
 =
 =
 insertTbodyRebuild1

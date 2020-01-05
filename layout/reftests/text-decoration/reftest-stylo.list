@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 complex
@@ -35,7 +34,6 @@ style
 quirks
 .
 html
-fails
 =
 =
 complex
@@ -56,7 +54,6 @@ style
 standards
 .
 html
-fails
 =
 =
 decoration
@@ -89,7 +86,6 @@ color
 standards
 .
 html
-fails
 =
 =
 decoration
@@ -122,7 +118,6 @@ style
 standards
 .
 html
-fails
 =
 =
 dynamic
@@ -151,7 +146,6 @@ quirks
 1
 .
 html
-fails
 =
 =
 dynamic
@@ -180,7 +174,6 @@ standards
 1
 .
 html
-fails
 =
 =
 dynamic
@@ -209,7 +202,6 @@ quirks
 2
 .
 html
-fails
 =
 =
 dynamic
@@ -238,7 +230,6 @@ standards
 2
 .
 html
-fails
 =
 =
 line
@@ -267,7 +258,6 @@ solid
 quirks
 .
 html
-fails
 =
 =
 line
@@ -296,7 +286,6 @@ dotted
 quirks
 .
 html
-fails
 =
 =
 line
@@ -325,7 +314,6 @@ dashed
 quirks
 .
 html
-fails
 =
 =
 line
@@ -354,7 +342,6 @@ double
 quirks
 .
 html
-fails
 =
 =
 line
@@ -383,7 +370,6 @@ wavy
 quirks
 .
 html
-fails
 =
 =
 line
@@ -412,7 +398,6 @@ solid
 quirks
 .
 html
-fails
 =
 =
 line
@@ -441,7 +426,6 @@ dotted
 quirks
 .
 html
-fails
 =
 =
 line
@@ -470,7 +454,6 @@ dashed
 quirks
 .
 html
-fails
 =
 =
 line
@@ -499,7 +482,6 @@ double
 quirks
 .
 html
-fails
 =
 =
 line
@@ -808,7 +790,6 @@ wavy
 standards
 .
 html
-fails
 =
 =
 overline
@@ -833,7 +814,6 @@ solid
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -858,7 +838,6 @@ dotted
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -883,7 +862,6 @@ dashed
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -908,7 +886,6 @@ double
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -933,7 +910,6 @@ wavy
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -958,7 +934,6 @@ solid
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -983,7 +958,6 @@ dotted
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -1008,7 +982,6 @@ dashed
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -1033,7 +1006,6 @@ double
 quirks
 .
 html
-fails
 =
 =
 overline
@@ -1298,7 +1270,6 @@ wavy
 standards
 .
 html
-fails
 =
 =
 underline
@@ -1323,7 +1294,6 @@ solid
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -1348,7 +1318,6 @@ dotted
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -1373,7 +1342,6 @@ dashed
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -1398,7 +1366,6 @@ double
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -1423,7 +1390,6 @@ wavy
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -1448,7 +1414,6 @@ solid
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -1473,7 +1438,6 @@ dotted
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -1498,7 +1462,6 @@ dashed
 quirks
 .
 html
-fails
 =
 =
 underline
@@ -1523,7 +1486,6 @@ double
 quirks
 .
 html
-fails
 =
 =
 underline

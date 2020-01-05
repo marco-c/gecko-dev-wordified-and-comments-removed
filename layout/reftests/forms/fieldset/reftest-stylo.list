@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 dynamic
@@ -35,7 +34,6 @@ scroll
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -52,7 +50,6 @@ hidden
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -73,7 +70,6 @@ width
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -94,7 +90,6 @@ padding
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -111,7 +106,6 @@ scroll
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -128,7 +122,6 @@ scrolled
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -149,7 +142,6 @@ auto
 1
 .
 html
-fails
 =
 =
 positioned
@@ -166,7 +158,6 @@ container
 1
 .
 html
-fails
 =
 =
 relpos
@@ -183,7 +174,6 @@ legend
 1
 .
 html
-fails
 =
 =
 relpos
@@ -200,7 +190,6 @@ legend
 2
 .
 html
-fails
 =
 =
 relpos
@@ -217,7 +206,6 @@ legend
 3
 .
 html
-fails
 =
 =
 relpos
@@ -234,7 +222,6 @@ legend
 4
 .
 html
-fails
 =
 =
 sticky
@@ -279,7 +266,6 @@ child
 sizing
 .
 html
-fails
 =
 =
 overflow
@@ -305,7 +291,6 @@ legend
 rtl
 .
 html
-fails
 =
 =
 fieldset
@@ -322,7 +307,6 @@ grid
 001
 .
 html
-fails
 =
 =
 fieldset
@@ -339,7 +323,6 @@ flexbox
 001
 .
 html
-fails
 =
 =
 fieldset
@@ -360,7 +343,6 @@ width
 1a
 .
 html
-fails
 =
 =
 fieldset
@@ -381,7 +363,6 @@ width
 1b
 .
 html
-fails
 =
 =
 fieldset
@@ -402,7 +383,6 @@ width
 2a
 .
 html
-fails
 =
 =
 fieldset
@@ -448,7 +428,6 @@ border
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -469,7 +448,6 @@ image
 1a
 .
 html
-fails
 =
 =
 fieldset
@@ -490,7 +468,6 @@ image
 1b
 .
 html
-fails
 =
 =
 fieldset
@@ -511,7 +488,6 @@ image
 2a
 .
 html
-fails
 =
 =
 fieldset

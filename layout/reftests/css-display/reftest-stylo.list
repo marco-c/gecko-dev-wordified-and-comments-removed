@@ -38,7 +38,6 @@ csswg
 css
 -
 display
-fails
 =
 =
 display
@@ -88,7 +87,6 @@ dyn
 1
 .
 html
-fails
 =
 =
 display
@@ -113,7 +111,6 @@ dyn
 2
 .
 html
-fails
 =
 =
 display
@@ -184,7 +181,6 @@ content
 2
 .
 html
-fails
 =
 =
 display
@@ -209,7 +205,6 @@ inheritance
 1
 .
 html
-fails
 =
 =
 display
@@ -392,7 +387,6 @@ contents
 2d
 .
 html
-fails
 =
 =
 display
@@ -474,6 +468,8 @@ xul
 asserts
 (
 1
+-
+2
 )
 =
 =
@@ -536,6 +532,8 @@ html
 asserts
 (
 1
+-
+2
 )
 =
 =
@@ -605,7 +603,6 @@ mode
 1
 .
 html
-fails
 =
 =
 display

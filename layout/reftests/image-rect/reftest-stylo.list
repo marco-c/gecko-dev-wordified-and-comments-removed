@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 background
@@ -39,7 +38,6 @@ floating
 point
 .
 html
-fails
 =
 =
 background
@@ -60,7 +58,6 @@ usage
 percent
 .
 html
-fails
 =
 =
 background
@@ -133,7 +130,7 @@ asserts
 (
 0
 -
-6
+12
 )
 =
 =
@@ -159,7 +156,6 @@ malformed
 images
 .
 html
-fails
 =
 =
 background
@@ -176,7 +172,6 @@ monster
 rect
 .
 html
-fails
 =
 =
 background
@@ -197,7 +192,6 @@ size
 rect
 .
 html
-fails
 =
 =
 background
@@ -214,7 +208,6 @@ test
 parser
 .
 html
-fails
 =
 =
 background
@@ -235,7 +228,6 @@ other
 properties
 .
 html
-fails
 =
 =
 background
@@ -252,7 +244,6 @@ zoom
 1
 .
 html
-fails
 =
 =
 background
@@ -269,7 +260,6 @@ zoom
 2
 .
 html
-fails
 =
 =
 background
@@ -286,7 +276,6 @@ zoom
 3
 .
 html
-fails
 =
 =
 background
@@ -324,7 +313,6 @@ computed
 style
 .
 html
-fails
 =
 =
 dom

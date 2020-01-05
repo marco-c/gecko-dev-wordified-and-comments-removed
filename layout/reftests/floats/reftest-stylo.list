@@ -214,7 +214,6 @@ rule
 right
 .
 html
-fails
 =
 =
 float
@@ -375,7 +374,6 @@ html
 1
 .
 html
-fails
 =
 =
 478834
@@ -412,7 +410,6 @@ html
 1
 .
 html
-fails
 =
 =
 1114329
@@ -433,7 +430,6 @@ html
 1
 .
 html
-fails
 =
 =
 1260031
@@ -454,7 +450,6 @@ html
 display
 :
 table
-fails
 =
 =
 1260031
@@ -479,7 +474,6 @@ display
 table
 -
 cell
-fails
 =
 =
 1260031
@@ -664,7 +658,6 @@ rtl
 2c
 .
 html
-fails
 =
 =
 float
@@ -745,7 +738,6 @@ rtl
 3c
 .
 html
-fails
 =
 =
 float
@@ -826,7 +818,6 @@ rtl
 4c
 .
 html
-fails
 =
 =
 float
@@ -1151,7 +1142,6 @@ vlr
 2c
 .
 html
-fails
 =
 =
 float
@@ -1248,7 +1238,6 @@ vlr
 3c
 .
 html
-fails
 =
 =
 float
@@ -1345,7 +1334,6 @@ vlr
 4c
 .
 html
-fails
 =
 =
 float
@@ -1538,7 +1526,6 @@ vrl
 2c
 .
 html
-fails
 =
 =
 float
@@ -1635,7 +1622,6 @@ vrl
 3c
 .
 html
-fails
 =
 =
 float
@@ -1732,7 +1718,6 @@ vrl
 4c
 .
 html
-fails
 =
 =
 float
@@ -1789,7 +1774,6 @@ floats
 1b
 .
 html
-fails
 =
 =
 orthogonal
@@ -1806,7 +1790,6 @@ floats
 1c
 .
 html
-fails
 =
 =
 orthogonal
@@ -1823,7 +1806,6 @@ floats
 1d
 .
 html
-fails
 pref
 (
 layout
@@ -1859,7 +1841,6 @@ side
 1
 .
 html
-fails
 pref
 (
 layout
@@ -1895,7 +1876,6 @@ side
 2
 .
 html
-fails
 pref
 (
 layout
@@ -1931,7 +1911,6 @@ side
 3
 .
 html
-fails
 pref
 (
 layout
@@ -1967,7 +1946,6 @@ side
 4
 .
 html
-fails
 =
 =
 float
@@ -1992,7 +1970,6 @@ slr
 1a
 .
 html
-fails
 =
 =
 float
@@ -2017,7 +1994,6 @@ slr
 1b
 .
 html
-fails
 =
 =
 float
@@ -2042,7 +2018,6 @@ slr
 1c
 .
 html
-fails
 =
 =
 float
@@ -2067,7 +2042,6 @@ slr
 1d
 .
 html
-fails
 =
 =
 float
@@ -2092,7 +2066,6 @@ slr
 2a
 .
 html
-fails
 =
 =
 float
@@ -2117,7 +2090,6 @@ slr
 2b
 .
 html
-fails
 =
 =
 float
@@ -2142,7 +2114,6 @@ slr
 2c
 .
 html
-fails
 =
 =
 float
@@ -2167,7 +2138,6 @@ slr
 2d
 .
 html
-fails
 =
 =
 float
@@ -2192,7 +2162,6 @@ slr
 3a
 .
 html
-fails
 =
 =
 float
@@ -2217,7 +2186,6 @@ slr
 3b
 .
 html
-fails
 =
 =
 float
@@ -2242,7 +2210,6 @@ slr
 3c
 .
 html
-fails
 =
 =
 float
@@ -2267,7 +2234,6 @@ slr
 3d
 .
 html
-fails
 =
 =
 float
@@ -2292,7 +2258,6 @@ slr
 4a
 .
 html
-fails
 =
 =
 float
@@ -2317,7 +2282,6 @@ slr
 4b
 .
 html
-fails
 =
 =
 float
@@ -2342,7 +2306,6 @@ slr
 4c
 .
 html
-fails
 =
 =
 float

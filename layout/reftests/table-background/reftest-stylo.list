@@ -21,7 +21,7 @@ be
 moved
 to
 crashtests
-fails
+#
 =
 =
 backgr_border
@@ -38,6 +38,7 @@ table
 cell
 .
 html
+#
 =
 =
 backgr_border
@@ -67,6 +68,7 @@ caused
 by
 bug
 527825
+#
 =
 =
 backgr_border
@@ -319,7 +321,6 @@ table
 cell
 .
 html
-fails
 =
 =
 backgr_simple
@@ -340,7 +341,6 @@ column
 group
 .
 html
-fails
 =
 =
 backgr_simple
@@ -357,7 +357,6 @@ table
 column
 .
 html
-fails
 =
 =
 backgr_simple
@@ -378,7 +377,6 @@ row
 group
 .
 html
-fails
 =
 =
 backgr_simple
@@ -395,7 +393,6 @@ table
 row
 .
 html
-fails
 =
 =
 backgr_simple

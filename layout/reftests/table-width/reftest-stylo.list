@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 spacing
@@ -35,7 +34,6 @@ quirks
 min
 .
 html
-fails
 =
 =
 spacing
@@ -56,7 +54,6 @@ quirks
 pref
 .
 html
-fails
 =
 =
 spacing
@@ -77,7 +74,6 @@ standards
 min
 .
 html
-fails
 =
 =
 spacing
@@ -139,7 +135,6 @@ width
 ref
 .
 html
-fails
 =
 =
 percent
@@ -168,7 +163,6 @@ large
 min
 .
 html
-fails
 =
 =
 percent
@@ -185,7 +179,6 @@ large
 nested
 .
 html
-fails
 =
 =
 percent
@@ -214,7 +207,6 @@ small
 min
 .
 html
-fails
 =
 =
 percent
@@ -231,7 +223,6 @@ small
 nested
 .
 html
-fails
 =
 =
 percent
@@ -248,7 +239,6 @@ small
 2
 .
 html
-fails
 =
 =
 percent
@@ -369,7 +359,6 @@ avail
 ref
 .
 html
-fails
 =
 =
 conflicting
@@ -386,7 +375,6 @@ widths
 1
 .
 html
-fails
 =
 =
 conflicting
@@ -403,7 +391,6 @@ widths
 2
 .
 html
-fails
 =
 =
 conflicting
@@ -420,7 +407,6 @@ widths
 3
 .
 html
-fails
 =
 =
 conflicting
@@ -437,7 +423,6 @@ widths
 4
 .
 html
-fails
 =
 =
 conflicting
@@ -470,7 +455,6 @@ widths
 6
 .
 html
-fails
 =
 =
 conflicting
@@ -487,7 +471,6 @@ widths
 7
 .
 html
-fails
 =
 =
 conflicting
@@ -536,7 +519,6 @@ widths
 10
 .
 html
-fails
 =
 =
 conflicting
@@ -597,7 +579,6 @@ widths
 3
 .
 html
-fails
 =
 =
 percent
@@ -614,7 +595,6 @@ truncation
 1
 .
 html
-fails
 =
 =
 percent
@@ -631,7 +611,6 @@ truncation
 2
 .
 html
-fails
 =
 =
 percent
@@ -648,7 +627,6 @@ truncation
 3
 .
 html
-fails
 =
 =
 balancing
@@ -661,7 +639,6 @@ balancing
 1
 .
 html
-fails
 =
 =
 balancing
@@ -683,7 +660,6 @@ html
 cellpadding
 .
 html
-fails
 =
 =
 cellspacing
@@ -692,7 +668,6 @@ html
 cellspacing
 .
 html
-fails
 =
 =
 percent
@@ -705,7 +680,6 @@ percent
 basis
 .
 html
-fails
 =
 =
 default
@@ -730,7 +704,6 @@ separate
 standards
 .
 html
-fails
 =
 =
 default
@@ -755,7 +728,6 @@ separate
 quirks
 .
 html
-fails
 =
 =
 default
@@ -780,7 +752,6 @@ collapse
 standards
 .
 html
-fails
 =
 =
 default
@@ -805,7 +776,6 @@ collapse
 quirks
 .
 html
-fails
 =
 =
 colspan
@@ -1054,7 +1024,6 @@ large
 fixed
 .
 html
-fails
 =
 =
 colgroup
@@ -1075,7 +1044,6 @@ column
 1
 .
 html
-fails
 =
 =
 colgroup
@@ -1096,7 +1064,6 @@ column
 2
 .
 html
-fails
 =
 =
 colgroup
@@ -1117,7 +1084,6 @@ column
 3
 .
 html
-fails
 =
 =
 colgroup
@@ -1182,7 +1148,6 @@ border
 box
 .
 html
-fails
 =
 =
 colspan
@@ -1207,7 +1172,6 @@ empty
 1a
 .
 html
-fails
 =
 =
 colspan
@@ -1232,7 +1196,6 @@ empty
 1b
 .
 html
-fails
 =
 =
 colspan
@@ -1257,7 +1220,6 @@ empty
 2
 .
 html
-fails
 =
 =
 distribute

@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 text
@@ -39,7 +38,6 @@ parent
 01
 .
 html
-fails
 =
 =
 text
@@ -64,7 +62,6 @@ parent
 02
 .
 html
-fails
 =
 =
 text
@@ -89,7 +86,6 @@ parent
 03
 .
 html
-fails
 =
 =
 text
@@ -172,7 +168,6 @@ root
 rtl
 .
 html
-fails
 =
 =
 text

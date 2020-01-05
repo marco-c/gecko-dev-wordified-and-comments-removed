@@ -169,7 +169,6 @@ text
 colour
 )
 .
-fails
 =
 =
 placeholder
@@ -186,7 +185,6 @@ placeholder
 text
 .
 html
-fails
 =
 =
 placeholder
@@ -203,7 +201,6 @@ placeholder
 password
 .
 html
-fails
 =
 =
 placeholder
@@ -220,7 +217,6 @@ placeholder
 textarea
 .
 html
-fails
 =
 =
 placeholder
@@ -233,7 +229,6 @@ placeholder
 2
 .
 html
-fails
 =
 =
 placeholder
@@ -250,7 +245,6 @@ placeholder
 textarea
 .
 html
-fails
 =
 =
 placeholder
@@ -263,7 +257,6 @@ placeholder
 3
 .
 html
-fails
 =
 =
 placeholder
@@ -276,7 +269,6 @@ placeholder
 4
 .
 html
-fails
 =
 =
 placeholder
@@ -289,7 +281,6 @@ placeholder
 5
 .
 html
-fails
 =
 =
 placeholder
@@ -302,7 +293,6 @@ placeholder
 6
 .
 html
-fails
 =
 =
 placeholder
@@ -367,7 +357,6 @@ placeholder
 9
 .
 html
-fails
 needs
 -
 focus
@@ -383,7 +372,6 @@ placeholder
 10
 .
 html
-fails
 =
 =
 placeholder
@@ -396,7 +384,6 @@ placeholder
 11
 .
 html
-fails
 =
 =
 placeholder
@@ -409,7 +396,6 @@ placeholder
 12
 .
 html
-fails
 =
 =
 placeholder
@@ -422,7 +408,6 @@ placeholder
 13
 .
 html
-fails
 =
 =
 placeholder
@@ -435,7 +420,6 @@ placeholder
 14
 .
 html
-fails
 =
 =
 placeholder
@@ -498,7 +482,7 @@ placeholder
 21
 .
 html
-fails
+#
 needs
 -
 focus
@@ -527,7 +511,6 @@ placeholder
 rtl
 .
 html
-fails
 pref
 (
 dom

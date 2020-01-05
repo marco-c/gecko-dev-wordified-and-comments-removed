@@ -54,7 +54,6 @@ margin
 1
 .
 html
-fails
 =
 =
 auto
@@ -907,7 +906,6 @@ inline
 2
 .
 html
-fails
 =
 =
 scrollframe
@@ -920,7 +918,6 @@ scrollframe
 1
 .
 html
-fails
 =
 =
 scrollframe
@@ -933,7 +930,6 @@ scrollframe
 2
 .
 html
-fails
 =
 =
 select
@@ -946,7 +942,6 @@ select
 1
 .
 html
-fails
 =
 =
 select
@@ -963,7 +958,6 @@ select
 dynamic
 .
 html
-fails
 =
 =
 select
@@ -976,7 +970,6 @@ select
 2
 .
 html
-fails
 =
 =
 select
@@ -989,7 +982,6 @@ select
 3
 .
 html
-fails
 =
 =
 multi
@@ -1030,7 +1022,6 @@ button
 2
 .
 html
-fails
 =
 =
 relative

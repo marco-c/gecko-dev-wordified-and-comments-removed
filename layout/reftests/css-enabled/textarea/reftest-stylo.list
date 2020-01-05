@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 textarea
@@ -31,7 +30,6 @@ fieldset
 1
 .
 html
-fails
 =
 =
 textarea
@@ -48,7 +46,6 @@ fieldset
 2
 .
 html
-fails
 =
 =
 textarea
@@ -65,7 +62,6 @@ fieldset
 3
 .
 html
-fails
 =
 =
 textarea
@@ -82,7 +78,6 @@ fieldset
 4
 .
 html
-fails
 =
 =
 textarea
@@ -103,7 +98,6 @@ legend
 1
 .
 html
-fails
 =
 =
 textarea
@@ -124,7 +118,6 @@ legend
 2
 .
 html
-fails
 =
 =
 textarea
@@ -145,7 +138,6 @@ legend
 3
 .
 html
-fails
 =
 =
 textarea
@@ -166,7 +158,6 @@ legend
 4
 .
 html
-fails
 =
 =
 textarea

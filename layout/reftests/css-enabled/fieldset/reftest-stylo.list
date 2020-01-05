@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 fieldset
@@ -27,7 +26,6 @@ fieldset
 enabled
 .
 html
-fails
 =
 =
 fieldset
@@ -40,7 +38,6 @@ fieldset
 disabled
 .
 html
-fails
 =
 =
 fieldset
@@ -57,7 +54,6 @@ fieldset
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -74,7 +70,6 @@ fieldset
 2
 .
 html
-fails
 =
 =
 fieldset
@@ -91,7 +86,6 @@ fieldset
 3
 .
 html
-fails
 =
 =
 fieldset
@@ -108,7 +102,6 @@ fieldset
 4
 .
 html
-fails
 =
 =
 fieldset
@@ -125,7 +118,6 @@ legend
 1
 .
 html
-fails
 =
 =
 fieldset
@@ -142,7 +134,6 @@ legend
 2
 .
 html
-fails
 =
 =
 fieldset
@@ -159,7 +150,6 @@ legend
 3
 .
 html
-fails
 =
 =
 fieldset
@@ -176,7 +166,6 @@ legend
 4
 .
 html
-fails
 =
 =
 fieldset

@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 input
@@ -27,7 +26,6 @@ input
 submit
 .
 html
-fails
 =
 =
 input
@@ -40,7 +38,6 @@ input
 image
 .
 html
-fails
 =
 =
 button

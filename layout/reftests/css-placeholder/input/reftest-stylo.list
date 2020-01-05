@@ -198,7 +198,6 @@ placeholder
 focus
 .
 html
-fails
 needs
 -
 focus
@@ -214,7 +213,6 @@ placeholder
 blur
 .
 html
-fails
 =
 =
 placeholder
@@ -227,7 +225,6 @@ placeholder
 value
 .
 html
-fails
 =
 =
 placeholder
@@ -244,7 +241,6 @@ empty
 string
 .
 html
-fails
 =
 =
 placeholder
@@ -257,7 +253,6 @@ placeholder
 add
 .
 html
-fails
 =
 =
 placeholder
@@ -270,7 +265,6 @@ placeholder
 removal
 .
 html
-fails
 =
 =
 placeholder
@@ -287,7 +281,6 @@ value
 set
 .
 html
-fails
 =
 =
 placeholder
@@ -304,7 +297,6 @@ value
 unset
 .
 html
-fails
 =
 =
 placeholder
@@ -321,7 +313,6 @@ value
 reset
 .
 html
-fails
 =
 =
 placeholder
@@ -342,7 +333,6 @@ change
 1
 .
 html
-fails
 =
 =
 placeholder
@@ -363,7 +353,6 @@ change
 2
 .
 html
-fails
 =
 =
 placeholdershown
@@ -372,7 +361,6 @@ html
 placeholdershown
 .
 html
-fails
 =
 =
 css
@@ -409,7 +397,6 @@ issues
 explained
 above
 .
-fails
 =
 =
 css
@@ -422,7 +409,6 @@ css
 opacity
 .
 html
-fails
 =
 =
 css

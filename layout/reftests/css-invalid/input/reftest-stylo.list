@@ -150,7 +150,6 @@ required
 valid
 .
 html
-fails
 =
 =
 input
@@ -167,7 +166,6 @@ required
 invalid
 .
 html
-fails
 =
 =
 input
@@ -180,7 +178,6 @@ input
 button
 .
 html
-fails
 =
 =
 input
@@ -193,7 +190,6 @@ input
 reset
 .
 html
-fails
 =
 =
 input
@@ -210,7 +206,6 @@ email
 invalid
 .
 html
-fails
 =
 =
 input
@@ -227,7 +222,6 @@ email
 valid
 .
 html
-fails
 =
 =
 input
@@ -244,7 +238,6 @@ url
 invalid
 .
 html
-fails
 =
 =
 input
@@ -261,7 +254,6 @@ url
 valid
 .
 html
-fails
 =
 =
 input
@@ -278,7 +270,6 @@ pattern
 valid
 .
 html
-fails
 =
 =
 input
@@ -295,7 +286,6 @@ pattern
 invalid
 .
 html
-fails
 =
 =
 input
@@ -312,7 +302,6 @@ type
 barred
 .
 html
-fails
 =
 =
 input
@@ -329,7 +318,6 @@ type
 invalid
 .
 html
-fails
 =
 =
 input
@@ -350,7 +338,6 @@ fieldset
 1
 .
 html
-fails
 =
 =
 input
@@ -371,7 +358,6 @@ fieldset
 2
 .
 html
-fails
 =
 =
 input
@@ -522,7 +508,6 @@ required
 invalid
 .
 html
-fails
 =
 =
 input
@@ -543,7 +528,6 @@ focus
 click
 .
 html
-fails
 =
 =
 input
@@ -556,7 +540,6 @@ input
 submit
 .
 html
-fails
 =
 =
 input

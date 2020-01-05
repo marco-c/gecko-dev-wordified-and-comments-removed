@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 textarea
@@ -27,7 +26,6 @@ textarea
 valid
 .
 html
-fails
 =
 =
 textarea
@@ -40,7 +38,6 @@ textarea
 customerror
 .
 html
-fails
 =
 =
 textarea
@@ -53,7 +50,6 @@ textarea
 disabled
 .
 html
-fails
 =
 =
 textarea
@@ -70,7 +66,6 @@ dyn
 disabled
 .
 html
-fails
 =
 =
 textarea
@@ -91,7 +86,6 @@ not
 disabled
 .
 html
-fails
 =
 =
 textarea
@@ -116,7 +110,6 @@ disabled
 changed
 .
 html
-fails
 =
 =
 textarea
@@ -129,7 +122,6 @@ textarea
 readonly
 .
 html
-fails
 =
 =
 textarea
@@ -146,7 +138,6 @@ dyn
 readonly
 .
 html
-fails
 =
 =
 textarea
@@ -167,7 +158,6 @@ not
 readonly
 .
 html
-fails
 =
 =
 textarea
@@ -192,7 +182,6 @@ readonly
 changed
 .
 html
-fails
 =
 =
 textarea
@@ -209,7 +198,6 @@ required
 valid
 .
 html
-fails
 =
 =
 textarea
@@ -230,7 +218,6 @@ valid
 changed
 .
 html
-fails
 =
 =
 textarea
@@ -247,7 +234,6 @@ required
 invalid
 .
 html
-fails
 =
 =
 textarea
@@ -268,7 +254,6 @@ fieldset
 1
 .
 html
-fails
 =
 =
 textarea
@@ -289,7 +274,6 @@ fieldset
 2
 .
 html
-fails
 =
 =
 textarea
@@ -306,7 +290,6 @@ fieldset
 legend
 .
 html
-fails
 =
 =
 textarea

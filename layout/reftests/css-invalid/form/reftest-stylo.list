@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 form
@@ -31,7 +30,6 @@ static
 valid
 .
 html
-fails
 =
 =
 form
@@ -160,7 +158,6 @@ invalid
 element
 .
 html
-fails
 =
 =
 form
@@ -181,7 +178,6 @@ invalid
 barred
 .
 html
-fails
 =
 =
 form
@@ -202,7 +198,6 @@ invalid
 barred
 .
 html
-fails
 =
 =
 form
@@ -223,7 +218,6 @@ invalid
 element
 .
 html
-fails
 =
 =
 form
@@ -252,7 +246,6 @@ invalid
 element
 .
 html
-fails
 =
 =
 form
@@ -269,7 +262,6 @@ invalid
 barred
 .
 html
-fails
 =
 =
 form
@@ -290,7 +282,6 @@ valid
 element
 .
 html
-fails
 =
 =
 form
@@ -319,7 +310,6 @@ no
 element
 .
 html
-fails
 =
 =
 form
@@ -348,7 +338,6 @@ valid
 element
 .
 html
-fails
 =
 =
 form
@@ -397,7 +386,6 @@ element
 dynamic
 .
 html
-fails
 =
 =
 form
@@ -446,7 +434,6 @@ remove
 barred
 .
 html
-fails
 =
 =
 form
@@ -467,7 +454,6 @@ and
 barred
 .
 html
-fails
 =
 =
 form
@@ -496,7 +482,6 @@ remove
 barred
 .
 html
-fails
 =
 =
 form
@@ -529,7 +514,6 @@ barred
 dynamic
 .
 html
-fails
 =
 =
 form

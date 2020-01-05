@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 bg
@@ -51,7 +50,6 @@ cover
 1
 .
 html
-fails
 =
 =
 bg
@@ -122,7 +120,6 @@ fixed
 child
 .
 html
-fails
 =
 =
 bg
@@ -147,7 +144,6 @@ clip
 1
 .
 html
-fails
 =
 =
 bg
@@ -243,7 +239,6 @@ in
 opacity
 .
 html
-fails
 =
 =
 bg
@@ -539,7 +534,6 @@ cover
 3
 .
 html
-fails
 =
 =
 position
@@ -687,7 +681,6 @@ scrollable
 3
 .
 html
-fails
 =
 =
 fixed
@@ -915,7 +908,7 @@ active
 opacity
 .
 html
-fails
+#
 =
 =
 offscreen
@@ -936,7 +929,6 @@ blendmode
 1
 .
 html
-fails
 =
 =
 offscreen
@@ -1021,7 +1013,7 @@ blendmode
 4
 .
 html
-fails
+#
 =
 =
 perspective
@@ -1038,7 +1030,7 @@ scrolling
 1
 .
 html
-fails
+#
 =
 =
 perspective
@@ -1055,6 +1047,7 @@ scrolling
 2
 .
 html
+#
 fuzzy
 -
 if
@@ -1086,6 +1079,7 @@ scrolling
 3
 .
 html
+#
 fuzzy
 -
 if
@@ -1175,7 +1169,6 @@ mode
 1
 .
 html
-fails
 =
 =
 opaque
@@ -1196,7 +1189,6 @@ displayport
 1
 .
 html
-fails
 =
 =
 opaque

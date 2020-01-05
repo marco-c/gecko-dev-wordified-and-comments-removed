@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 unicode
@@ -31,7 +30,6 @@ attribute
 selector
 .
 html
-fails
 =
 =
 unicode
@@ -48,7 +46,6 @@ element
 selector
 .
 html
-fails
 =
 =
 unicode
@@ -107,7 +104,6 @@ query
 query
 .
 html
-fails
 =
 =
 unicode
@@ -124,7 +120,6 @@ pseudo
 selector
 .
 html
-fails
 =
 =
 langattribute

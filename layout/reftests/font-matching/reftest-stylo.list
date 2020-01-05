@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 CSS21
@@ -49,7 +48,6 @@ tests
 for
 bug
 538730
-fails
 =
 =
 synthetic
@@ -66,7 +64,6 @@ bold
 1
 .
 html
-fails
 =
 =
 synthetic
@@ -523,7 +520,6 @@ as
 English
 names
 do
-fails
 =
 =
 localized
@@ -544,7 +540,6 @@ names
 001
 .
 html
-fails
 =
 =
 localized
@@ -565,7 +560,6 @@ names
 002
 .
 html
-fails
 =
 =
 localized
@@ -586,7 +580,6 @@ names
 003
 .
 html
-fails
 =
 =
 localized
@@ -654,7 +647,6 @@ html
 weight
 mapping
 tests
-fails
 HTTP
 (
 .
@@ -668,7 +660,6 @@ html
 normalmedium
 .
 html
-fails
 HTTP
 (
 .
@@ -689,7 +680,6 @@ due
 to
 bug
 604815
-fails
 =
 =
 weightmapping
@@ -702,7 +692,6 @@ weightmapping
 12
 .
 html
-fails
 HTTP
 (
 .
@@ -720,7 +709,6 @@ weightmapping
 25
 .
 html
-fails
 HTTP
 (
 .
@@ -738,7 +726,6 @@ weightmapping
 45
 .
 html
-fails
 HTTP
 (
 .
@@ -756,7 +743,6 @@ weightmapping
 458
 .
 html
-fails
 HTTP
 (
 .
@@ -774,7 +760,6 @@ weightmapping
 478
 .
 html
-fails
 HTTP
 (
 .
@@ -792,7 +777,6 @@ weightmapping
 7
 .
 html
-fails
 =
 =
 weightmapping
@@ -805,7 +789,6 @@ weightmapping
 12579
 .
 html
-fails
 HTTP
 (
 .
@@ -823,7 +806,6 @@ stretchmapping
 all
 .
 html
-fails
 HTTP
 (
 .
@@ -841,7 +823,6 @@ stretchmapping
 reverse
 .
 html
-fails
 =
 =
 stretchmapping
@@ -854,7 +835,6 @@ stretchmapping
 35
 .
 html
-fails
 =
 =
 stretchmapping
@@ -877,7 +857,6 @@ using
 font
 -
 face
-fails
 HTTP
 (
 .
@@ -899,7 +878,6 @@ stretch
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -951,7 +929,6 @@ a
 true
 styled
 face
-fails
 =
 =
 synthetic
@@ -968,7 +945,6 @@ style
 1
 .
 html
-fails
 =
 =
 synthetic
@@ -1144,7 +1120,6 @@ arial
 arabic
 .
 html
-fails
 =
 =
 syntheticbold
@@ -1157,7 +1132,6 @@ syntheticbold
 rotated
 .
 html
-fails
 HTTP
 (
 .
@@ -1179,7 +1153,6 @@ synthesis
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -1223,7 +1196,6 @@ on
 other
 platforms
 .
-fails
 =
 =
 apple
@@ -1246,7 +1218,6 @@ between
 italic
 and
 oblique
-fails
 =
 =
 simple
@@ -1259,7 +1230,6 @@ simple
 oblique
 .
 html
-fails
 =
 =
 italic
@@ -1276,7 +1246,6 @@ oblique
 1
 .
 html
-fails
 =
 =
 italic
@@ -1293,7 +1262,6 @@ oblique
 2
 .
 html
-fails
 =
 =
 italic
@@ -1310,7 +1278,6 @@ oblique
 3
 .
 html
-fails
 =
 =
 italic
@@ -1327,7 +1294,6 @@ oblique
 4
 .
 html
-fails
 =
 =
 italic
@@ -1344,7 +1310,6 @@ oblique
 5
 .
 html
-fails
 =
 =
 italic
@@ -1361,7 +1326,6 @@ oblique
 6
 .
 html
-fails
 =
 =
 italic
@@ -1378,7 +1342,6 @@ oblique
 7
 .
 html
-fails
 =
 =
 italic
@@ -1395,7 +1358,6 @@ oblique
 8
 .
 html
-fails
 =
 =
 italic
