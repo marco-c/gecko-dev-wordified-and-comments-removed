@@ -219,7 +219,7 @@ TextBoxKind
 TextBox
 )
 }
-class
+struct
 Appearance
 {
 let
@@ -441,7 +441,7 @@ image
 ;
 }
 }
-class
+struct
 Box
 {
 let
@@ -551,7 +551,7 @@ doc
 =
 "
 A
-class
+struct
 to
 store
 image
@@ -588,7 +588,7 @@ demand
 .
 "
 ]
-class
+struct
 ImageHolder
 {
 /

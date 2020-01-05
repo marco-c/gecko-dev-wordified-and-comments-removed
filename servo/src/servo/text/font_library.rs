@@ -21,7 +21,7 @@ ok
 err
 }
 ;
-class
+struct
 FontLibrary
 {
 let

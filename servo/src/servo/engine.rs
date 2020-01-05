@@ -100,7 +100,7 @@ port
 chan
 }
 ;
-class
+struct
 Engine
 <
 S

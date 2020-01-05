@@ -172,7 +172,7 @@ Text
 str
 )
 }
-class
+struct
 ElementData
 {
 let
@@ -301,7 +301,7 @@ i
 none
 }
 }
-class
+struct
 Attr
 {
 let

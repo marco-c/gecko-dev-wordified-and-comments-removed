@@ -74,7 +74,7 @@ text
 .
 "
 ]
-class
+struct
 TextRun
 {
 let

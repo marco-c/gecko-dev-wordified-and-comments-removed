@@ -304,7 +304,7 @@ start
 )
 }
 }
-class
+struct
 ResourceManager
 {
 let

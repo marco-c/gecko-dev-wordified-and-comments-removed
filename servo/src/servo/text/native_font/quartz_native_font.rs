@@ -68,7 +68,7 @@ CGFontCreateWithDataProvider
 CGFontRelease
 }
 ;
-class
+struct
 QuartzNativeFont
 /
 &

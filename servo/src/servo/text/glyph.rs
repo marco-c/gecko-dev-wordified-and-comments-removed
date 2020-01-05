@@ -58,7 +58,7 @@ screen
 .
 "
 ]
-class
+struct
 GlyphPos
 {
 let
@@ -118,7 +118,7 @@ glyph
 .
 "
 ]
-class
+struct
 Glyph
 {
 let

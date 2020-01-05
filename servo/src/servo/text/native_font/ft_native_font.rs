@@ -79,7 +79,7 @@ FT_Load_Glyph
 FT_Set_Char_Size
 }
 ;
-class
+struct
 FreeTypeNativeFont
 /
 &

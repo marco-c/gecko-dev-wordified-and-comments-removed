@@ -650,7 +650,7 @@ A
 >
 }
 ;
-class
+struct
 ScopeResource
 <
 T

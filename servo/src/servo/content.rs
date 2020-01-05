@@ -382,7 +382,7 @@ reader_joined
 ;
 }
 }
-class
+struct
 Document
 {
 let
@@ -426,7 +426,7 @@ css_rules
 ;
 }
 }
-class
+struct
 Content
 <
 S
