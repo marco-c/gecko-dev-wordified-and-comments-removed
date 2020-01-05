@@ -115,6 +115,15 @@ aBuilder
 )
 override
 ;
+Maybe
+<
+WrImageMask
+>
+RenderMaskLayer
+(
+)
+override
+;
 protected
 :
 CompositableType
