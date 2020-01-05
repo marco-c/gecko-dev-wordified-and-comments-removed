@@ -26752,7 +26752,7 @@ id
 Argument
 (
 '
-JSBool
+bool
 '
 '
 set
@@ -26783,7 +26783,7 @@ getOwnPropertyDescriptor
 "
                                         
 "
-JSBool
+bool
 "
 args
 )
@@ -26893,7 +26893,7 @@ s
 ;
 \
 nreturn
-1
+true
 ;
 "
 %
@@ -27129,7 +27129,7 @@ n
                                     
 "
 return
-1
+true
 ;
 \
 n
@@ -27208,7 +27208,7 @@ n
                                     
 "
 return
-1
+true
 ;
 \
 n
@@ -27283,10 +27283,8 @@ setOrIndexedGet
 (
 "
 if
+!
 set
-=
-=
-0
 {
 \
 n
@@ -27366,7 +27364,7 @@ s
 ;
 \
 nreturn
-1
+true
 ;
 "
 %
@@ -27405,10 +27403,8 @@ n
                         
 "
 if
+!
 set
-=
-=
-0
 &
 &
 RUST_JSID_IS_STRING
@@ -27588,9 +27584,6 @@ flags
 =
 if
 set
-!
-=
-0
 {
 JSRESOLVE_ASSIGNING
 }
@@ -27617,7 +27610,7 @@ desc
 {
     
 return
-0
+false
 ;
   
 }
@@ -27657,7 +27650,7 @@ proxy
 ;
     
 return
-1
+true
 ;
   
 }
@@ -27686,7 +27679,7 @@ mut_null
 )
 ;
 return
-1
+true
 ;
 "
 "
@@ -27782,7 +27775,7 @@ descriptor
 defineProperty
 "
 "
-JSBool
+bool
 "
 args
 )
@@ -27969,7 +27962,7 @@ define
                     
 "
 return
-1
+true
 ;
 \
 n
@@ -28019,7 +28012,7 @@ n
                     
 "
 return
-0
+false
 ;
 \
 n
@@ -28336,7 +28329,7 @@ n
                     
 "
 return
-0
+false
 ;
 \
 n
@@ -28373,7 +28366,7 @@ n
                     
 "
 return
-1
+true
 ;
 \
 n
@@ -28501,7 +28494,7 @@ Argument
 '
 *
 mut
-JSBool
+bool
 '
 '
 bp
@@ -28519,7 +28512,7 @@ descriptor
 hasOwn
 "
 "
-JSBool
+bool
 "
 args
 )
@@ -28671,8 +28664,6 @@ n
 bp
 =
 found
-as
-JSBool
 ;
 \
 n
@@ -28681,7 +28672,7 @@ n
                        
 "
 return
-1
+true
 ;
 \
 n
@@ -28835,8 +28826,6 @@ n
 bp
 =
 found
-as
-JSBool
 ;
 \
 n
@@ -28844,7 +28833,7 @@ n
                      
 "
 return
-1
+true
 ;
 \
 n
@@ -28908,8 +28897,6 @@ JSBool
   
 let
 ok
-:
-JSBool
 =
 JS_HasPropertyById
 (
@@ -28920,28 +28907,27 @@ id
 mut
 b
 )
+!
+=
+0
 ;
   
 *
 bp
 =
-!
-!
 b
+!
+=
+0
 ;
   
 if
+!
 ok
-=
-=
-0
 |
 |
 *
 bp
-!
-=
-0
 {
     
 return
@@ -28962,10 +28948,10 @@ named
 *
 bp
 =
-0
+false
 ;
 return
-1
+true
 ;
 "
 "
@@ -29072,7 +29058,7 @@ descriptor
 get
 "
 "
-JSBool
+bool
 "
 args
 )
@@ -29134,7 +29120,7 @@ hasProp
 {
     
 return
-0
+false
 ;
   
 }
@@ -29154,6 +29140,9 @@ expando
 id
 vp
 )
+!
+=
+0
 ;
   
 }
@@ -29165,6 +29154,7 @@ vp
 templateValues
 =
 {
+            
 '
 jsvalRef
 '
@@ -29173,6 +29163,17 @@ jsvalRef
 *
 vp
 '
+            
+'
+successCode
+'
+:
+'
+return
+true
+;
+'
+        
 }
         
 indexedGetter
@@ -29567,7 +29568,7 @@ vp
 {
   
 return
-0
+false
 ;
 }
 if
@@ -29575,7 +29576,7 @@ found
 {
   
 return
-1
+true
 ;
 }
 %
@@ -29588,7 +29589,7 @@ UndefinedValue
 )
 ;
 return
-1
+true
 ;
 "
 "
