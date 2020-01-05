@@ -1347,12 +1347,6 @@ GetMaskFrames
 )
 ;
 bool
-MightHaveNoneSVGMask
-(
-)
-const
-;
-bool
 HasNoOrValidEffects
 (
 )
