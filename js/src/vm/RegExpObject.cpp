@@ -1293,12 +1293,13 @@ LAST_INDEX_SLOT
 )
 ;
 return
-self
--
->
+NativeObject
+:
+:
 addDataProperty
 (
 cx
+self
 cx
 -
 >

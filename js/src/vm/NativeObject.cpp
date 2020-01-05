@@ -5151,6 +5151,8 @@ addDataProperty
 ExclusiveContext
 *
 cx
+HandleNativeObject
+obj
 jsid
 idArg
 uint32_t
@@ -5173,13 +5175,6 @@ JSPROP_SETTER
 )
 )
 ;
-RootedNativeObject
-self
-(
-cx
-this
-)
-;
 RootedId
 id
 (
@@ -5191,7 +5186,7 @@ return
 addProperty
 (
 cx
-self
+obj
 id
 nullptr
 nullptr
@@ -5211,6 +5206,8 @@ addDataProperty
 ExclusiveContext
 *
 cx
+HandleNativeObject
+obj
 HandlePropertyName
 name
 uint32_t
@@ -5233,13 +5230,6 @@ JSPROP_SETTER
 )
 )
 ;
-RootedNativeObject
-self
-(
-cx
-this
-)
-;
 RootedId
 id
 (
@@ -5254,7 +5244,7 @@ return
 addProperty
 (
 cx
-self
+obj
 id
 nullptr
 nullptr

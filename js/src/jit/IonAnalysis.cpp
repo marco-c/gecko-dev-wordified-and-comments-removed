@@ -22282,12 +22282,13 @@ id
 if
 (
 !
-baseobj
--
->
+NativeObject
+:
+:
 addDataProperty
 (
 cx
+baseobj
 id
 baseobj
 -

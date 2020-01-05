@@ -16244,12 +16244,13 @@ empty
 )
 ;
 return
-obj
--
->
+NativeObject
+:
+:
 addDataProperty
 (
 cx
+obj
 cx
 -
 >
