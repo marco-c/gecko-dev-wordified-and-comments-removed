@@ -543,7 +543,7 @@ include_arg
 "
 :
 "
-name
+include
 "
 }
 )
@@ -1452,11 +1452,16 @@ CommandArgument
 '
 -
 -
-name
+include
 '
 default
 =
 None
+nargs
+=
+'
++
+'
                      
 help
 =
@@ -1533,7 +1538,7 @@ self
 kind
 =
 DEFAULT_RENDER_MODE
-name
+include
 =
 None
 servo_params
@@ -1655,20 +1660,11 @@ test_path
 ]
             
 if
-name
+include
 is
 not
 None
 :
-                
-maybe_path
-=
-path
-.
-normpath
-(
-name
-)
                 
 ref_path
 =
@@ -1684,12 +1680,27 @@ ref
 "
 )
                 
+for
+name
+in
+include
+:
+                    
+maybe_path
+=
+path
+.
+normpath
+(
+name
+)
+                    
 if
 ref_path
 in
 maybe_path
 :
-                    
+                        
 test_args
 .
 append
@@ -1702,10 +1713,10 @@ maybe_path
 ref_path
 )
 )
-                
+                    
 else
 :
-                    
+                        
 test_args
 .
 append
