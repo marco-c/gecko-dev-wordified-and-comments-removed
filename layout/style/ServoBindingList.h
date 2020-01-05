@@ -258,15 +258,6 @@ set
 )
 SERVO_BINDING_FUNC
 (
-Servo_RestyleDocument
-void
-RawGeckoDocumentBorrowed
-doc
-RawServoStyleSetBorrowedMut
-set
-)
-SERVO_BINDING_FUNC
-(
 Servo_RestyleSubtree
 void
 RawGeckoNodeBorrowed
