@@ -1632,15 +1632,6 @@ layersBackend
 LayersBackend
 :
 :
-LAYERS_D3D9
-|
-|
-layersBackend
-=
-=
-LayersBackend
-:
-:
 LAYERS_D3D11
 ;
 if

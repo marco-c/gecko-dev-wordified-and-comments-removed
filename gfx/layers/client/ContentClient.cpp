@@ -342,15 +342,6 @@ backend
 LayersBackend
 :
 :
-LAYERS_D3D9
-&
-&
-backend
-!
-=
-LayersBackend
-:
-:
 LAYERS_D3D11
 &
 &
