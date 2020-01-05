@@ -43,6 +43,11 @@ EventEmitter
 :
 true
 "
+getCookieStoreIdForTab
+"
+:
+true
+"
 IconDetails
 "
 :

@@ -125,6 +125,11 @@ TabManager
 :
 true
 "
+WindowListManager
+"
+:
+true
+"
 XPCOMUtils
 "
 :
