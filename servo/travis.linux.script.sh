@@ -133,7 +133,7 @@ doc
 git
 push
 -
-f
+qf
 https
 :
 /
