@@ -1513,12 +1513,8 @@ BitmapUtils
 .
 getResource
 (
+mContext
 imageUri
-R
-.
-drawable
-.
-ic_status_logo
 )
 )
 ;
@@ -1889,12 +1885,8 @@ BitmapUtils
 .
 getResource
 (
+mContext
 actionImage
-R
-.
-drawable
-.
-ic_status_logo
 )
 actionTitle
 pending
