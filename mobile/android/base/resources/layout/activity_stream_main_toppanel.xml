@@ -194,7 +194,7 @@ fillColor
 =
 "
 #
-444444
+ff9d9d9d
 "
 app
 :
@@ -298,9 +298,8 @@ android
 background
 =
 "
-color
-/
-disabled_grey
+#
+ffe0e0e0
 "
 android
 :
