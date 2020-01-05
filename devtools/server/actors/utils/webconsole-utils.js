@@ -74,8 +74,6 @@ WebConsoleUtils
 =
 {
 getWorkerType
-:
-function
 (
 message
 )
@@ -107,8 +105,6 @@ null
 ;
 }
 cloneObject
-:
-function
 (
 object
 recursive
@@ -265,8 +261,6 @@ temp
 ;
 }
 getInnerWindowId
-:
-function
 (
 window
 )
@@ -292,8 +286,6 @@ currentInnerWindowID
 ;
 }
 getInnerWindowIDsForFrames
-:
-function
 (
 window
 )
@@ -373,8 +365,6 @@ ids
 ;
 }
 getPropertyDescriptor
-:
-function
 (
 object
 prop
@@ -496,8 +486,6 @@ desc
 ;
 }
 createValueGrip
-:
-function
 (
 value
 objectWrapper
@@ -732,8 +720,6 @@ Map
 (
 )
 _registerOriginal
-:
-function
 (
 name
 command
@@ -764,8 +750,6 @@ name
 ;
 }
 register
-:
-function
 (
 name
 command
@@ -783,8 +767,6 @@ command
 ;
 }
 unregister
-:
-function
 (
 name
 )
@@ -828,8 +810,6 @@ name
 }
 }
 getCommand
-:
-function
 (
 name
 )
@@ -846,8 +826,6 @@ name
 ;
 }
 hasCommand
-:
-function
 (
 name
 )
@@ -980,8 +958,6 @@ _
 "
 {
 get
-:
-function
 (
 owner
 )
@@ -1098,8 +1074,6 @@ _registerOriginal
 "
 {
 get
-:
-function
 (
 owner
 )

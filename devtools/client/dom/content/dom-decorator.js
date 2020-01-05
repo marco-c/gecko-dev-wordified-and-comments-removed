@@ -31,8 +31,6 @@ prototype
 =
 {
 getRowClass
-:
-function
 (
 object
 )
@@ -117,8 +115,6 @@ null
 ;
 }
 getValueRep
-:
-function
 (
 value
 colId

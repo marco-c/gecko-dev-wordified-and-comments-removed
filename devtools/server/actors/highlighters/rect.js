@@ -81,8 +81,6 @@ typeName
 RectHighlighter
 "
 _buildMarkup
-:
-function
 (
 )
 {
@@ -160,8 +158,6 @@ container
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -181,8 +177,6 @@ destroy
 ;
 }
 getElement
-:
-function
 (
 id
 )
@@ -199,8 +193,6 @@ id
 ;
 }
 _hasValidOptions
-:
-function
 (
 options
 )
@@ -296,8 +288,6 @@ height
 ;
 }
 show
-:
-function
 (
 node
 options
@@ -543,8 +533,6 @@ true
 ;
 }
 hide
-:
-function
 (
 )
 {

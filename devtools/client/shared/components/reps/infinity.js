@@ -152,8 +152,6 @@ rep
 :
 InfinityRep
 supportsObject
-:
-supportsObject
 }
 ;
 }

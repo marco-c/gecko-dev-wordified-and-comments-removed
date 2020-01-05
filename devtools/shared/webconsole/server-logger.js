@@ -104,8 +104,6 @@ trace
 =
 {
 log
-:
-function
 (
 )
 {
@@ -139,8 +137,6 @@ Class
 (
 {
 initialize
-:
-function
 (
 win
 owner
@@ -228,8 +224,6 @@ attach
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -397,8 +391,6 @@ false
 }
 )
 attachParentProcess
-:
-function
 (
 )
 {
@@ -654,8 +646,6 @@ method
 }
 )
 onExamineHeaders
-:
-function
 (
 event
 )
@@ -886,10 +876,6 @@ push
 (
 {
 header
-:
-header
-value
-:
 value
 }
 )
@@ -907,8 +893,6 @@ data
 :
 {
 headers
-:
-headers
 }
 }
 )
@@ -916,8 +900,6 @@ headers
 }
 )
 _matchRequest
-:
-function
 (
 channel
 )
@@ -1045,8 +1027,6 @@ false
 ;
 }
 parse
-:
-function
 (
 header
 value
@@ -1316,10 +1296,6 @@ logs
 :
 rawLogs
 location
-:
-location
-type
-:
 type
 }
 )
@@ -1330,8 +1306,6 @@ parsedMessage
 ;
 }
 getColumnMap
-:
-function
 (
 data
 )
@@ -1380,8 +1354,6 @@ columnMap
 ;
 }
 sendMessage
-:
-function
 (
 msg
 )
@@ -1457,8 +1429,6 @@ category
 "
 server
 "
-innerID
-:
 innerID
 level
 :

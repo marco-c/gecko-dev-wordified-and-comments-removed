@@ -131,8 +131,6 @@ isShown
 :
 false
 show
-:
-function
 (
 )
 {
@@ -144,8 +142,6 @@ true
 ;
 }
 hide
-:
-function
 (
 )
 {

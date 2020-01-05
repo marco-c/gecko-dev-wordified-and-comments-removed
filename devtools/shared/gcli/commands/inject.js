@@ -232,10 +232,8 @@ injectLibraryDesc
 )
 }
 ]
-exec
-:
-function
 *
+exec
 (
 args
 context

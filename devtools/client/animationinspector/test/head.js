@@ -650,10 +650,6 @@ AnimationsPanel
 return
 {
 toolbox
-:
-toolbox
-inspector
-:
 inspector
 controller
 :

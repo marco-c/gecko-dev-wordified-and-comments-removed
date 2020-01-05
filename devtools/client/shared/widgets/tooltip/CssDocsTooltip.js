@@ -234,8 +234,6 @@ prototype
 =
 {
 show
-:
-function
 (
 anchor
 propertyName
@@ -278,8 +276,6 @@ anchor
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -293,8 +289,6 @@ hide
 ;
 }
 _onShortcut
-:
-function
 (
 shortcut
 event
@@ -335,8 +329,6 @@ hide
 ;
 }
 _onVisitLink
-:
-function
 (
 )
 {
@@ -348,8 +340,6 @@ hide
 ;
 }
 setMdnDocsContent
-:
-function
 (
 )
 {
@@ -413,8 +403,6 @@ container
 ;
 }
 destroy
-:
-function
 (
 )
 {

@@ -210,8 +210,6 @@ nsISupports
 ]
 )
 setOriginalListener
-:
-function
 (
 originalListener
 )
@@ -224,8 +222,6 @@ originalListener
 ;
 }
 onStartRequest
-:
-function
 (
 request
 context
@@ -252,8 +248,6 @@ this
 ;
 }
 onStopRequest
-:
-function
 (
 request
 context
@@ -284,8 +278,6 @@ this
 ;
 }
 onDataAvailable
-:
-function
 (
 request
 context
@@ -375,8 +367,6 @@ this
 ;
 }
 sendSomeData
-:
-function
 (
 bytesPermitted
 )
@@ -567,8 +557,6 @@ done
 ;
 }
 pendingCount
-:
-function
 (
 )
 {
@@ -581,8 +569,6 @@ length
 ;
 }
 addActivityCallback
-:
-function
 (
 callback
 httpActivity
@@ -642,8 +628,6 @@ maybeEmitEvents
 ;
 }
 responseStart
-:
-function
 (
 )
 {
@@ -661,8 +645,6 @@ maybeEmitEvents
 ;
 }
 maybeEmitEvents
-:
-function
 (
 )
 {
@@ -734,8 +716,6 @@ ACTIVITY_SUBTYPE_TRANSACTION_CLOSE
 }
 }
 maybeEmit
-:
-function
 (
 code
 )
@@ -876,8 +856,6 @@ prototype
 =
 {
 random
-:
-function
 (
 mean
 max
@@ -913,8 +891,6 @@ random
 ;
 }
 allowDataFrom
-:
-function
 (
 throttleListener
 )
@@ -977,8 +953,6 @@ pump
 ;
 }
 start
-:
-function
 (
 throttleListener
 )
@@ -1042,8 +1016,6 @@ throttleListener
 }
 }
 dataAvailable
-:
-function
 (
 throttleListener
 )
@@ -1079,8 +1051,6 @@ pump
 }
 }
 pump
-:
-function
 (
 )
 {
@@ -1450,8 +1420,6 @@ prototype
 =
 {
 manage
-:
-function
 (
 channel
 )
@@ -1500,8 +1468,6 @@ null
 ;
 }
 manageUpload
-:
-function
 (
 channel
 )

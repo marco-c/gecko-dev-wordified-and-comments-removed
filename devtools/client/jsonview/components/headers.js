@@ -70,8 +70,6 @@ PropTypes
 object
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -81,8 +79,6 @@ return
 ;
 }
 render
-:
-function
 (
 )
 {
@@ -257,8 +253,6 @@ string
 )
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -272,8 +266,6 @@ headers
 ;
 }
 render
-:
-function
 (
 )
 {

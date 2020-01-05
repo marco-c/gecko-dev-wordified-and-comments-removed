@@ -201,8 +201,6 @@ prototype
 =
 {
 complete
-:
-function
 (
 source
 caret
@@ -387,8 +385,6 @@ resolve
 ;
 }
 resolveState
-:
-function
 (
 source
 {
@@ -3660,8 +3656,6 @@ _state
 ;
 }
 suggestSelectors
-:
-function
 (
 )
 {
@@ -3930,8 +3924,6 @@ result
 ;
 }
 prepareSelectorResults
-:
-function
 (
 result
 )
@@ -4253,8 +4245,6 @@ completion
 ;
 }
 completeProperties
-:
-function
 (
 startProp
 )
@@ -4394,8 +4384,6 @@ finalList
 ;
 }
 completeValues
-:
-function
 (
 propName
 startValue
@@ -4546,8 +4534,6 @@ finalList
 ;
 }
 findNearestNullState
-:
-function
 (
 line
 )
@@ -4817,8 +4803,6 @@ return
 ;
 }
 invalidateCache
-:
-function
 (
 line
 )
@@ -4840,8 +4824,6 @@ line
 ;
 }
 getInfoAt
-:
-function
 (
 source
 caret
@@ -5154,8 +5136,6 @@ resolveState
 limitedSource
 {
 line
-:
-line
 ch
 :
 token
@@ -5197,8 +5177,6 @@ prevToken
 location
 =
 {
-line
-:
 line
 ch
 :
@@ -5428,8 +5406,6 @@ resolveState
 limitedSource
 {
 line
-:
-line
 ch
 :
 token
@@ -5484,8 +5460,6 @@ i
 location
 =
 {
-line
-:
 line
 ch
 :
@@ -5732,19 +5706,11 @@ n
 return
 {
 state
-:
-state
-selector
-:
 selector
 loc
 :
 {
 start
-:
-start
-end
-:
 end
 }
 }
@@ -5801,8 +5767,6 @@ ch
 return
 {
 state
-:
-state
 propertyName
 :
 token
@@ -5820,8 +5784,6 @@ start
 :
 {
 line
-:
-line
 ch
 :
 token
@@ -5831,8 +5793,6 @@ startOffset
 end
 :
 {
-line
-:
 line
 ch
 :
@@ -5987,10 +5947,6 @@ n
 return
 {
 state
-:
-state
-propertyName
-:
 propertyName
 selectors
 :
@@ -5998,16 +5954,10 @@ this
 .
 selectors
 value
-:
-value
 loc
 :
 {
 start
-:
-start
-end
-:
 end
 }
 }

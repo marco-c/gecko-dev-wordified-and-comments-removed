@@ -651,8 +651,6 @@ null
 ;
 }
 getOriginalSourceStrings
-:
-function
 (
 )
 {
@@ -741,8 +739,6 @@ shortSource
 (
 {
 href
-:
-href
 }
 )
 +
@@ -759,8 +755,6 @@ sourceStrings
 ;
 }
 matches
-:
-function
 (
 options
 )
@@ -778,8 +772,6 @@ rule
 ;
 }
 createProperty
-:
-function
 (
 name
 value
@@ -889,8 +881,6 @@ prop
 ;
 }
 _applyPropertiesNoAuthored
-:
-function
 (
 modifications
 )
@@ -1169,8 +1159,6 @@ priority
 ;
 }
 _applyPropertiesAuthored
-:
-function
 (
 modifications
 )
@@ -1264,8 +1252,6 @@ updateEditor
 ;
 }
 applyProperties
-:
-function
 (
 modifier
 )
@@ -1397,8 +1383,6 @@ resultPromise
 ;
 }
 setPropertyName
-:
-function
 (
 property
 name
@@ -1467,8 +1451,6 @@ name
 ;
 }
 setPropertyValue
-:
-function
 (
 property
 value
@@ -1549,8 +1531,6 @@ priority
 ;
 }
 previewPropertyValue
-:
-function
 (
 property
 value
@@ -1616,8 +1596,6 @@ _changed
 ;
 }
 setPropertyEnabled
-:
-function
 (
 property
 value
@@ -1687,8 +1665,6 @@ enabled
 ;
 }
 removeProperty
-:
-function
 (
 property
 )
@@ -1740,8 +1716,6 @@ name
 ;
 }
 _getTextProperties
-:
-function
 (
 )
 {
@@ -1882,8 +1856,6 @@ textProps
 ;
 }
 _getDisabledProperties
-:
-function
 (
 )
 {
@@ -1990,8 +1962,6 @@ textProps
 ;
 }
 refresh
-:
-function
 (
 options
 )
@@ -2122,8 +2092,6 @@ populate
 }
 }
 _updateTextProperty
-:
-function
 (
 newProp
 )
@@ -2319,8 +2287,6 @@ false
 ;
 }
 editClosestTextProperty
-:
-function
 (
 textProperty
 direction
@@ -2520,8 +2486,6 @@ click
 }
 }
 stringifyRule
-:
-function
 (
 )
 {
@@ -2618,8 +2582,6 @@ cssText
 ;
 }
 hasAnyVisibleProperties
-:
-function
 (
 )
 {

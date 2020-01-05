@@ -362,14 +362,12 @@ JITOptimizations
 prototype
 =
 {
+*
 [
 Symbol
 .
 iterator
 ]
-:
-function
-*
 (
 )
 {

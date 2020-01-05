@@ -453,8 +453,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 )
 {
@@ -578,8 +576,6 @@ isAnonymous
 ;
 }
 _create
-:
-function
 (
 )
 {
@@ -1308,8 +1304,6 @@ newProperty
 }
 }
 _locationChanged
-:
-function
 (
 )
 {
@@ -1321,8 +1315,6 @@ updateSourceLink
 ;
 }
 updateSourceLink
-:
-function
 (
 )
 {
@@ -1732,8 +1724,6 @@ updated
 }
 }
 populate
-:
-function
 (
 )
 {
@@ -2124,8 +2114,6 @@ element
 }
 }
 addProperty
-:
-function
 (
 name
 value
@@ -2198,8 +2186,6 @@ prop
 ;
 }
 addProperties
-:
-function
 (
 properties
 siblingProp
@@ -2310,8 +2296,6 @@ newProperty
 }
 }
 newProperty
-:
-function
 (
 )
 {
@@ -2489,8 +2473,6 @@ false
 ;
 }
 _onNewProperty
-:
-function
 (
 value
 commit
@@ -2538,8 +2520,6 @@ blur
 ;
 }
 _newPropertyDestroy
-:
-function
 (
 )
 {
@@ -2983,8 +2963,6 @@ err
 }
 )
 _moveSelectorFocus
-:
-function
 (
 direction
 )

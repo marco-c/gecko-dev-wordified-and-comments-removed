@@ -1253,8 +1253,6 @@ _onThemeChanged
 }
 )
 destroy
-:
-function
 (
 )
 {
@@ -1412,8 +1410,6 @@ destroy
 ;
 }
 enableFrontEventListeners
-:
-function
 (
 )
 {
@@ -1431,8 +1427,6 @@ _onFrontEvent
 ;
 }
 disableFrontEventListeners
-:
-function
 (
 )
 {
@@ -1450,8 +1444,6 @@ _onFrontEvent
 ;
 }
 getTheme
-:
-function
 (
 )
 {
@@ -1471,8 +1463,6 @@ theme
 ;
 }
 getOption
-:
-function
 (
 prefName
 )
@@ -1489,8 +1479,6 @@ prefName
 ;
 }
 getPref
-:
-function
 (
 prefName
 )
@@ -1505,8 +1493,6 @@ prefName
 ;
 }
 setPref
-:
-function
 (
 prefName
 prefValue
@@ -2081,8 +2067,6 @@ recording
 }
 )
 setCurrentRecording
-:
-function
 (
 recording
 )
@@ -2117,8 +2101,6 @@ recording
 }
 }
 getCurrentRecording
-:
-function
 (
 )
 {
@@ -2129,8 +2111,6 @@ _currentRecording
 ;
 }
 getLatestManualRecording
-:
-function
 (
 )
 {
@@ -2200,8 +2180,6 @@ null
 ;
 }
 _onRecordingSelectFromView
-:
-function
 (
 _
 recording
@@ -2216,8 +2194,6 @@ recording
 ;
 }
 _onPrefChanged
-:
-function
 (
 _
 prefName
@@ -2237,8 +2213,6 @@ prefValue
 ;
 }
 _onThemeChanged
-:
-function
 (
 )
 {
@@ -2270,8 +2244,6 @@ newValue
 ;
 }
 _onFrontEvent
-:
-function
 (
 eventName
 .
@@ -2362,8 +2334,6 @@ break
 }
 }
 _addRecordingIfUnknown
-:
-function
 (
 recording
 )
@@ -2407,8 +2377,6 @@ recording
 }
 }
 getBufferUsageForRecording
-:
-function
 (
 recording
 )
@@ -2423,8 +2391,6 @@ recording
 ;
 }
 isRecording
-:
-function
 (
 )
 {
@@ -2447,8 +2413,6 @@ isRecording
 ;
 }
 getRecordings
-:
-function
 (
 )
 {
@@ -2459,8 +2423,6 @@ _recordings
 ;
 }
 getTraits
-:
-function
 (
 )
 {
@@ -2471,8 +2433,6 @@ traits
 ;
 }
 isFeatureSupported
-:
-function
 (
 features
 )
@@ -2537,8 +2497,6 @@ f
 ;
 }
 populateWithRecordings
-:
-function
 (
 recordings
 =
@@ -2573,8 +2531,6 @@ RECORDINGS_SEEDED
 ;
 }
 getMultiprocessStatus
-:
-function
 (
 )
 {
@@ -2699,8 +2655,6 @@ promise
 }
 )
 _setMultiprocessAttributes
-:
-function
 (
 )
 {
@@ -2778,8 +2732,6 @@ unsupported
 }
 }
 _pipe
-:
-function
 (
 eventName
 .

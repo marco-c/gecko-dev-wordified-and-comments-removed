@@ -465,8 +465,6 @@ page
 errors
 "
 validator
-:
-function
 (
 )
 {
@@ -714,8 +712,6 @@ new
 error
 "
 validator
-:
-function
 (
 )
 {
@@ -980,8 +976,6 @@ after
 reload
 "
 validator
-:
-function
 (
 )
 {
@@ -1020,8 +1014,6 @@ value
 :
 3
 success
-:
-function
 (
 )
 {

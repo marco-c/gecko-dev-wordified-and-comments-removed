@@ -77,8 +77,6 @@ rangeChangeDebounceTime
 :
 75
 initialize
-:
-function
 (
 )
 {
@@ -311,8 +309,6 @@ MARKER_DETAILS_WIDTH
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -409,8 +405,6 @@ treeContainer
 ;
 }
 render
-:
-function
 (
 interval
 =
@@ -504,8 +498,6 @@ UI_WATERFALL_RENDERED
 ;
 }
 _onMarkerSelected
-:
-function
 (
 event
 marker
@@ -595,8 +587,6 @@ empty
 }
 }
 _onResize
-:
-function
 (
 )
 {
@@ -629,8 +619,6 @@ getTimeInterval
 ;
 }
 _onObservedPrefChange
-:
-function
 (
 _
 prefName
@@ -662,8 +650,6 @@ WeakMap
 ;
 }
 _onViewSource
-:
-function
 (
 _
 data
@@ -683,8 +669,6 @@ line
 ;
 }
 _onShowAllocations
-:
-function
 (
 _
 data
@@ -849,8 +833,6 @@ calltree
 ;
 }
 _prepareWaterfallTree
-:
-function
 (
 markers
 )
@@ -928,8 +910,6 @@ rootMarkerNode
 ;
 }
 _recalculateBounds
-:
-function
 (
 )
 {
@@ -953,8 +933,6 @@ WATERFALL_MARKER_SIDEBAR_SAFE_BOUNDS
 ;
 }
 _populateWaterfallTree
-:
-function
 (
 rootMarkerNode
 interval

@@ -497,8 +497,6 @@ defaultOffsetY
 :
 0
 show
-:
-function
 (
 anchor
 position
@@ -540,8 +538,6 @@ y
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -563,8 +559,6 @@ hidePopup
 ;
 }
 isShown
-:
-function
 (
 )
 {
@@ -601,8 +595,6 @@ hiding
 ;
 }
 setSize
-:
-function
 (
 width
 height
@@ -620,8 +612,6 @@ height
 ;
 }
 empty
-:
-function
 (
 )
 {
@@ -652,8 +642,6 @@ firstChild
 }
 }
 isHidden
-:
-function
 (
 )
 {
@@ -683,8 +671,6 @@ hiding
 ;
 }
 isEmpty
-:
-function
 (
 )
 {
@@ -700,8 +686,6 @@ hasChildNodes
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -989,8 +973,6 @@ firstChild
 ;
 }
 setTextContent
-:
-function
 (
 {
 messages
@@ -1213,8 +1195,6 @@ vbox
 ;
 }
 setIFrameContent
-:
-function
 (
 {
 width

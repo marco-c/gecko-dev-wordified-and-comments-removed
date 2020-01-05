@@ -47,8 +47,6 @@ FrontClassWithSpec
 highlighterSpec
 {
 form
-:
-function
 (
 json
 )

@@ -49,8 +49,6 @@ _simulators
 {
 }
 register
-:
-function
 (
 name
 simulator
@@ -77,8 +75,6 @@ name
 ;
 }
 unregister
-:
-function
 (
 name
 )
@@ -103,8 +99,6 @@ name
 ;
 }
 availableNames
-:
-function
 (
 )
 {
@@ -124,8 +118,6 @@ sort
 ;
 }
 getByName
-:
-function
 (
 name
 )

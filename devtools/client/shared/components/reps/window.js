@@ -89,8 +89,6 @@ PropTypes
 func
 }
 getTitle
-:
-function
 (
 grip
 )
@@ -143,8 +141,6 @@ return
 ;
 }
 getLocation
-:
-function
 (
 grip
 )
@@ -269,8 +265,6 @@ Window
 rep
 :
 Window
-supportsObject
-:
 supportsObject
 }
 ;

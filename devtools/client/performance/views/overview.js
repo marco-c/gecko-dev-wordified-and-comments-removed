@@ -62,11 +62,7 @@ OverviewView
 =
 {
 OVERVIEW_UPDATE_INTERVAL
-:
-OVERVIEW_UPDATE_INTERVAL
 initialize
-:
-function
 (
 )
 {
@@ -445,8 +441,6 @@ isMouseActive
 ;
 }
 disable
-:
-function
 (
 )
 {
@@ -466,8 +460,6 @@ disableAll
 ;
 }
 isDisabled
-:
-function
 (
 )
 {
@@ -478,8 +470,6 @@ _disabled
 ;
 }
 setTimeInterval
-:
-function
 (
 interval
 options
@@ -605,8 +595,6 @@ false
 ;
 }
 getTimeInterval
-:
-function
 (
 )
 {
@@ -846,8 +834,6 @@ _prepareNextTick
 }
 )
 _prepareNextTick
-:
-function
 (
 )
 {
@@ -1002,8 +988,6 @@ dropSelection
 )
 )
 _startPolling
-:
-function
 (
 )
 {
@@ -1023,8 +1007,6 @@ OVERVIEW_UPDATE_INTERVAL
 ;
 }
 _stopPolling
-:
-function
 (
 )
 {
@@ -1043,8 +1025,6 @@ null
 ;
 }
 isRendering
-:
-function
 (
 )
 {
@@ -1094,8 +1074,6 @@ isEnabled
 }
 )
 _onGraphSelecting
-:
-function
 (
 )
 {
@@ -1125,8 +1103,6 @@ getTimeInterval
 ;
 }
 _onGraphRendered
-:
-function
 (
 _
 graphName
@@ -1274,8 +1250,6 @@ break
 }
 )
 _setGraphVisibilityFromRecordingFeatures
-:
-function
 (
 recording
 )
@@ -1316,8 +1290,6 @@ features
 }
 }
 isRealtimeRenderingEnabled
-:
-function
 (
 )
 {
@@ -1330,8 +1302,6 @@ enabled
 ;
 }
 _showGraphsPanel
-:
-function
 (
 recording
 )
@@ -1363,8 +1333,6 @@ hidden
 ;
 }
 _hideGraphsPanel
-:
-function
 (
 )
 {
@@ -1388,8 +1356,6 @@ hidden
 ;
 }
 _onThemeChanged
-:
-function
 (
 _
 theme

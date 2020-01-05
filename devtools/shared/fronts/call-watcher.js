@@ -48,8 +48,6 @@ FrontClassWithSpec
 functionCallSpec
 {
 initialize
-:
-function
 (
 client
 form
@@ -72,8 +70,6 @@ form
 ;
 }
 form
-:
-function
 (
 form
 )
@@ -174,8 +170,6 @@ FrontClassWithSpec
 callWatcherSpec
 {
 initialize
-:
-function
 (
 client
 {

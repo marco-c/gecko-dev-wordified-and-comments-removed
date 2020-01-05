@@ -1326,8 +1326,6 @@ value
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1553,8 +1551,6 @@ onRemoveAll
 ;
 }
 hideSidebar
-:
-function
 (
 )
 {
@@ -1584,8 +1580,6 @@ clearSelection
 ;
 }
 getCurrentActor
-:
-function
 (
 )
 {
@@ -1607,10 +1601,8 @@ type
 ]
 ;
 }
-makeFieldsEditable
-:
-function
 *
+makeFieldsEditable
 (
 editableFields
 )
@@ -1660,8 +1652,6 @@ destroy
 }
 }
 editItem
-:
-function
 (
 eventType
 data
@@ -1685,8 +1675,6 @@ data
 ;
 }
 removeItemFromTable
-:
-function
 (
 name
 )
@@ -1765,8 +1753,6 @@ name
 }
 }
 onCleared
-:
-function
 (
 response
 )
@@ -1955,8 +1941,6 @@ break
 }
 }
 onUpdate
-:
-function
 (
 {
 changed
@@ -2031,8 +2015,6 @@ updated
 }
 }
 handleAddedItems
-:
-function
 (
 added
 )
@@ -2232,8 +2214,6 @@ NEW_ROW
 }
 }
 handleDeletedItems
-:
-function
 (
 deleted
 )
@@ -2500,8 +2480,6 @@ name
 }
 }
 handleChangedItems
-:
-function
 (
 changed
 )
@@ -2903,8 +2881,6 @@ ex
 }
 )
 populateStorageTree
-:
-function
 (
 storageTypes
 )
@@ -3567,8 +3543,6 @@ updated
 }
 )
 parseItemValue
-:
-function
 (
 name
 originalValue
@@ -3857,8 +3831,6 @@ true
 ;
 }
 _extractKeyValPairs
-:
-function
 (
 value
 )
@@ -4214,8 +4186,6 @@ null
 ;
 }
 onHostSelect
-:
-function
 (
 event
 item
@@ -4311,10 +4281,8 @@ itemOffset
 0
 ;
 }
-resetColumns
-:
-function
 *
+resetColumns
 (
 type
 host
@@ -4610,8 +4578,6 @@ editableFields
 ;
 }
 populateTable
-:
-function
 (
 data
 reason
@@ -4850,8 +4816,6 @@ true
 }
 }
 handleKeypress
-:
-function
 (
 event
 )
@@ -4943,8 +4907,6 @@ value
 ;
 }
 handleScrollEnd
-:
-function
 (
 )
 {
@@ -5034,8 +4996,6 @@ NEXT_50_ITEMS
 ;
 }
 onTablePopupShowing
-:
-function
 (
 event
 )
@@ -5262,8 +5222,6 @@ true
 }
 }
 onTreePopupShowing
-:
-function
 (
 event
 )
@@ -5488,8 +5446,6 @@ preventDefault
 }
 }
 onRemoveItem
-:
-function
 (
 )
 {
@@ -5587,8 +5543,6 @@ name
 ;
 }
 onRemoveAll
-:
-function
 (
 )
 {
@@ -5646,8 +5600,6 @@ name
 ;
 }
 onRemoveAllFrom
-:
-function
 (
 )
 {
@@ -5706,8 +5658,6 @@ host
 ;
 }
 onRemoveTreeItem
-:
-function
 (
 )
 {
@@ -5790,8 +5740,6 @@ path
 }
 }
 removeDatabase
-:
-function
 (
 host
 dbName
@@ -5928,8 +5876,6 @@ PRIORITY_CRITICAL_LOW
 ;
 }
 removeCache
-:
-function
 (
 host
 cacheName

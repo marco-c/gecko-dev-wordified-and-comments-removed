@@ -73,8 +73,6 @@ prototype
 =
 {
 initialize
-:
-function
 (
 )
 {
@@ -125,8 +123,6 @@ false
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -302,8 +298,6 @@ CUSTOMREQUESTVIEW_POPULATED
 }
 )
 onUpdate
-:
-function
 (
 field
 )
@@ -596,8 +590,6 @@ break
 }
 }
 updateCustomQuery
-:
-function
 (
 url
 )
@@ -668,8 +660,6 @@ paramsArray
 ;
 }
 updateCustomUrl
-:
-function
 (
 queryText
 )
@@ -878,10 +868,6 @@ push
 (
 {
 name
-:
-name
-value
-:
 value
 }
 )

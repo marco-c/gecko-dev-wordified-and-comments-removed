@@ -132,8 +132,6 @@ func
 isRequired
 }
 render
-:
-function
 (
 )
 {

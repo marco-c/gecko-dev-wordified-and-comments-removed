@@ -292,8 +292,6 @@ rep
 :
 CommentNode
 supportsObject
-:
-supportsObject
 }
 ;
 }

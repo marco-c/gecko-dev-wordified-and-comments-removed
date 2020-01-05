@@ -287,8 +287,6 @@ string
 )
 }
 getDefaultProps
-:
-function
 (
 )
 {
@@ -320,8 +318,6 @@ columns
 ;
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -348,8 +344,6 @@ columns
 ;
 }
 componentWillReceiveProps
-:
-function
 (
 nextProps
 )
@@ -382,8 +376,6 @@ expandedNodes
 ;
 }
 toggle
-:
-function
 (
 nodePath
 )
@@ -448,8 +440,6 @@ nodes
 ;
 }
 isExpanded
-:
-function
 (
 nodePath
 )
@@ -468,8 +458,6 @@ nodePath
 ;
 }
 onClickRow
-:
-function
 (
 nodePath
 event
@@ -490,8 +478,6 @@ nodePath
 ;
 }
 onFilter
-:
-function
 (
 object
 )
@@ -517,8 +503,6 @@ true
 ;
 }
 onSort
-:
-function
 (
 parent
 children
@@ -546,8 +530,6 @@ children
 ;
 }
 getMembers
-:
-function
 (
 parent
 level
@@ -712,8 +694,6 @@ getLabel
 child
 )
 type
-:
-type
 rowClass
 :
 "
@@ -723,13 +703,7 @@ treeRow
 +
 type
 level
-:
-level
 hasChildren
-:
-hasChildren
-value
-:
 value
 open
 :
@@ -758,8 +732,6 @@ child
 ;
 }
 renderRows
-:
-function
 (
 parent
 level
@@ -876,8 +848,6 @@ key
 member
 .
 path
-member
-:
 member
 columns
 :
@@ -1008,8 +978,6 @@ rows
 ;
 }
 render
-:
-function
 (
 )
 {

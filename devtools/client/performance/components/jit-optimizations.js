@@ -427,8 +427,6 @@ Set
 ;
 }
 _createHeader
-:
-function
 (
 {
 frameData
@@ -1339,8 +1337,6 @@ expanded
 }
 )
 onFocus
-:
-function
 (
 )
 {

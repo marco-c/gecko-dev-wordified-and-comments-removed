@@ -91,8 +91,6 @@ PropTypes
 func
 }
 getTitle
-:
-function
 (
 grip
 )
@@ -130,8 +128,6 @@ return
 ;
 }
 summarizeFunction
-:
-function
 (
 grip
 )
@@ -273,8 +269,6 @@ Func
 rep
 :
 Func
-supportsObject
-:
 supportsObject
 }
 ;

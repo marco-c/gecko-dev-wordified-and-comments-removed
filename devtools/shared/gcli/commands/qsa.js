@@ -73,8 +73,6 @@ qsaQueryDesc
 }
 ]
 exec
-:
-function
 (
 args
 context

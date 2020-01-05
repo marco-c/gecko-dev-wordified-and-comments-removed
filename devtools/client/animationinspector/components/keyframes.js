@@ -75,8 +75,6 @@ prototype
 =
 {
 init
-:
-function
 (
 containerEl
 )
@@ -129,8 +127,6 @@ onClick
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -172,8 +168,6 @@ null
 ;
 }
 render
-:
-function
 (
 {
 keyframes
@@ -321,8 +315,6 @@ value
 }
 }
 onClick
-:
-function
 (
 e
 )

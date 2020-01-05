@@ -45,8 +45,6 @@ FrontClassWithSpec
 preferenceSpec
 {
 initialize
-:
-function
 (
 client
 form

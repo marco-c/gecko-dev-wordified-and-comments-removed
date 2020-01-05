@@ -223,8 +223,6 @@ constructor
 :
 TestTabList
 getList
-:
-function
 (
 )
 {
@@ -388,8 +386,6 @@ __name
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -472,8 +468,6 @@ response
 ;
 }
 onAttach
-:
-function
 (
 request
 )
@@ -514,8 +508,6 @@ response
 ;
 }
 onDetach
-:
-function
 (
 request
 )

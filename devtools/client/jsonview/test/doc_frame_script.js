@@ -213,8 +213,6 @@ msg
 name
 {
 text
-:
-text
 }
 )
 ;

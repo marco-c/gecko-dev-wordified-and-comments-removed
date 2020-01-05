@@ -312,8 +312,6 @@ prototype
 =
 {
 setOptions
-:
-function
 (
 options
 )
@@ -381,8 +379,6 @@ reset
 }
 }
 reset
-:
-function
 (
 opts
 =
@@ -440,8 +436,6 @@ null
 }
 }
 source
-:
-function
 (
 {
 source
@@ -628,19 +622,9 @@ this
 .
 _thread
 source
-:
-source
-originalUrl
-:
 originalUrl
 generatedSource
-:
-generatedSource
 isInlineSource
-:
-isInlineSource
-contentType
-:
 contentType
 }
 )
@@ -790,8 +774,6 @@ actor
 ;
 }
 _emitNewSource
-:
-function
 (
 actor
 )
@@ -855,8 +837,6 @@ actor
 }
 }
 getSourceActor
-:
-function
 (
 source
 )
@@ -935,8 +915,6 @@ source
 ;
 }
 getSourceActorByURL
-:
-function
 (
 url
 )
@@ -1013,8 +991,6 @@ url
 ;
 }
 _isMinifiedURL
-:
-function
 (
 uri
 )
@@ -1086,8 +1062,6 @@ uri
 }
 }
 createNonSourceMappedActor
-:
-function
 (
 source
 )
@@ -1449,8 +1423,6 @@ spec
 ;
 }
 _createSourceMappedActors
-:
-function
 (
 source
 )
@@ -1538,8 +1510,6 @@ null
 ;
 }
 createSourceActors
-:
-function
 (
 source
 )
@@ -1588,8 +1558,6 @@ isNotNull
 ;
 }
 fetchSourceMap
-:
-function
 (
 source
 )
@@ -1706,8 +1674,6 @@ result
 ;
 }
 getSourceMap
-:
-function
 (
 source
 )
@@ -1727,8 +1693,6 @@ source
 ;
 }
 setSourceMap
-:
-function
 (
 source
 map
@@ -1749,8 +1713,6 @@ map
 ;
 }
 _fetchSourceMap
-:
-function
 (
 absSourceMapURL
 sourceURL
@@ -1888,8 +1850,6 @@ fetching
 ;
 }
 _setSourceMapRoot
-:
-function
 (
 sourceMap
 absSourceMapURL
@@ -1954,8 +1914,6 @@ base
 ;
 }
 _dirname
-:
-function
 (
 path
 )
@@ -1994,8 +1952,6 @@ lastIndexOf
 ;
 }
 clearSourceMapCache
-:
-function
 (
 sourceMapURL
 opts
@@ -2078,8 +2034,6 @@ source
 }
 }
 setSourceMapHard
-:
-function
 (
 source
 url
@@ -2150,8 +2104,6 @@ source
 ;
 }
 getFrameLocation
-:
-function
 (
 frame
 )
@@ -2212,8 +2164,6 @@ columnNumber
 ;
 }
 getOriginalLocation
-:
-function
 (
 generatedLocation
 )
@@ -2302,8 +2252,6 @@ source
 (
 {
 originalUrl
-:
-originalUrl
 generatedSource
 :
 source
@@ -2330,8 +2278,6 @@ generatedLocation
 ;
 }
 getAllGeneratedLocations
-:
-function
 (
 originalLocation
 )
@@ -2452,8 +2398,6 @@ originalLocation
 ;
 }
 getGeneratedLocation
-:
-function
 (
 originalLocation
 )
@@ -2575,8 +2519,6 @@ originalLocation
 ;
 }
 isBlackBoxed
-:
-function
 (
 url
 )
@@ -2593,8 +2535,6 @@ url
 ;
 }
 blackBox
-:
-function
 (
 url
 )
@@ -2610,8 +2550,6 @@ url
 ;
 }
 unblackBox
-:
-function
 (
 url
 )
@@ -2627,8 +2565,6 @@ url
 ;
 }
 isPrettyPrinted
-:
-function
 (
 url
 )
@@ -2645,8 +2581,6 @@ url
 ;
 }
 prettyPrint
-:
-function
 (
 url
 indent
@@ -2664,8 +2598,6 @@ indent
 ;
 }
 prettyPrintIndent
-:
-function
 (
 url
 )
@@ -2682,8 +2614,6 @@ url
 ;
 }
 disablePrettyPrint
-:
-function
 (
 url
 )
@@ -2699,8 +2629,6 @@ url
 ;
 }
 iter
-:
-function
 (
 )
 {

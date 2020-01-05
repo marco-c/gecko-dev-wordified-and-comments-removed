@@ -463,8 +463,6 @@ center
 :
 true
 selector
-:
-selector
 }
 )
 ;

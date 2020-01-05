@@ -72,8 +72,6 @@ object
 isRequired
 }
 render
-:
-function
 (
 )
 {

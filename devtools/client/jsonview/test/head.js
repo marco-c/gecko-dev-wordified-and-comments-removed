@@ -354,8 +354,6 @@ data
 =
 {
 selector
-:
-selector
 }
 ;
 return
@@ -414,8 +412,6 @@ data
 =
 {
 selector
-:
-selector
 }
 ;
 return
@@ -473,8 +469,6 @@ data
 =
 {
 selector
-:
-selector
 }
 ;
 return
@@ -519,10 +513,6 @@ data
 =
 {
 selector
-:
-selector
-str
-:
 str
 }
 ;

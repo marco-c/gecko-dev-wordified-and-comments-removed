@@ -163,8 +163,6 @@ extends
 :
 EventTarget
 initialize
-:
-function
 (
 tabActor
 )
@@ -244,8 +242,6 @@ _onWindowReady
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -389,8 +385,6 @@ docShells
 ;
 }
 _pullTimelineData
-:
-function
 (
 )
 {
@@ -737,8 +731,6 @@ DEFAULT_TIMELINE_DATA_PULL_TIMEOUT
 ;
 }
 isRecording
-:
-function
 (
 )
 {
@@ -1271,8 +1263,6 @@ endTime
 }
 )
 _onWindowReady
-:
-function
 (
 {
 window
@@ -1321,8 +1311,6 @@ true
 }
 }
 _onGarbageCollection
-:
-function
 (
 {
 collections
@@ -1403,8 +1391,6 @@ GarbageCollection
 causeName
 :
 reason
-nonincrementalReason
-:
 nonincrementalReason
 cycle
 :

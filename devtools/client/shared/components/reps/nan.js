@@ -126,8 +126,6 @@ rep
 :
 NaNRep
 supportsObject
-:
-supportsObject
 }
 ;
 }

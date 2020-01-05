@@ -142,8 +142,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -161,8 +159,6 @@ Class
 (
 {
 initialize
-:
-function
 (
 toolbox
 )
@@ -210,8 +206,6 @@ form
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -249,8 +243,6 @@ disconnect
 }
 }
 startMonitoring
-:
-function
 (
 client
 tabGrip
@@ -328,8 +320,6 @@ connect
 ;
 }
 pageLoadBegin
-:
-function
 (
 response
 )
@@ -342,8 +332,6 @@ resetCollector
 ;
 }
 resetCollector
-:
-function
 (
 )
 {
@@ -394,8 +382,6 @@ start
 ;
 }
 pageLoadDone
-:
-function
 (
 response
 )
@@ -447,8 +433,6 @@ autoExport
 }
 }
 autoExport
-:
-function
 (
 )
 {
@@ -510,8 +494,6 @@ data
 ;
 }
 triggerExport
-:
-function
 (
 data
 )
@@ -552,8 +534,6 @@ data
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -565,8 +545,6 @@ resetCollector
 ;
 }
 executeExport
-:
-function
 (
 data
 )
@@ -622,8 +600,6 @@ this
 view
 :
 this
-items
-:
 items
 }
 ;
@@ -769,8 +745,6 @@ jsonString
 ;
 }
 getString
-:
-function
 (
 stringGrip
 )
@@ -830,8 +804,6 @@ prototype
 =
 {
 connect
-:
-function
 (
 )
 {
@@ -867,8 +839,6 @@ onTabNavigated
 ;
 }
 disconnect
-:
-function
 (
 )
 {
@@ -915,8 +885,6 @@ onTabNavigated
 ;
 }
 onTabNavigated
-:
-function
 (
 type
 packet

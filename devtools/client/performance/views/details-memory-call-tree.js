@@ -27,8 +27,6 @@ rangeChangeDebounceTime
 :
 100
 initialize
-:
-function
 (
 )
 {
@@ -80,8 +78,6 @@ container
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -96,8 +92,6 @@ this
 ;
 }
 render
-:
-function
 (
 interval
 =
@@ -174,8 +168,6 @@ UI_MEMORY_CALL_TREE_RENDERED
 ;
 }
 _onLink
-:
-function
 (
 _
 treeItem
@@ -241,8 +233,6 @@ SOURCE_NOT_FOUND_IN_JS_DEBUGGER
 ;
 }
 _prepareCallTree
-:
-function
 (
 allocations
 {
@@ -283,8 +273,6 @@ invertTree
 ;
 }
 _populateCallTree
-:
-function
 (
 frameNode
 options
@@ -317,8 +305,6 @@ CallView
 frame
 :
 frameNode
-inverted
-:
 inverted
 hidden
 :

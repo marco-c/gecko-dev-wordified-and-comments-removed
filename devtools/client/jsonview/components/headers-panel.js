@@ -131,8 +131,6 @@ PropTypes
 object
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -146,8 +144,6 @@ data
 ;
 }
 render
-:
-function
 (
 )
 {
@@ -196,8 +192,6 @@ Headers
 (
 {
 data
-:
-data
 }
 )
 )
@@ -231,8 +225,6 @@ PropTypes
 object
 }
 onCopy
-:
-function
 (
 event
 )
@@ -249,8 +241,6 @@ onCopyHeaders
 ;
 }
 render
-:
-function
 (
 )
 {

@@ -504,8 +504,6 @@ done
 "
 )
 schedule
-:
-function
 (
 )
 {
@@ -538,8 +536,6 @@ this
 ;
 }
 cancel
-:
-function
 (
 )
 {
@@ -578,8 +574,6 @@ onCancel
 ;
 }
 _timeoutHandler
-:
-function
 (
 )
 {
@@ -648,8 +642,6 @@ e
 }
 }
 _runBatch
-:
-function
 (
 )
 {
@@ -715,8 +707,6 @@ return
 }
 }
 _next
-:
-function
 (
 )
 {
@@ -1387,8 +1377,6 @@ numVisibleProperties
 :
 0
 setPageStyle
-:
-function
 (
 pageStyle
 )
@@ -1414,8 +1402,6 @@ checked
 ;
 }
 _handlePrefChange
-:
-function
 (
 event
 data
@@ -1437,8 +1423,6 @@ refreshPanel
 }
 }
 selectElement
-:
-function
 (
 element
 )
@@ -1546,8 +1530,6 @@ refreshPanel
 ;
 }
 getNodeInfo
-:
-function
 (
 node
 )
@@ -1981,8 +1963,6 @@ value
 ;
 }
 _createPropertyViews
-:
-function
 (
 )
 {
@@ -2187,8 +2167,6 @@ promise
 ;
 }
 refreshPanel
-:
-function
 (
 )
 {
@@ -2571,8 +2549,6 @@ err
 ;
 }
 _onShortcut
-:
-function
 (
 name
 event
@@ -2674,8 +2650,6 @@ preventDefault
 }
 }
 setFilterStyles
-:
-function
 (
 value
 =
@@ -2707,8 +2681,6 @@ _onFilterStyles
 ;
 }
 _onFilterStyles
-:
-function
 (
 )
 {
@@ -2865,8 +2837,6 @@ filterTimeout
 ;
 }
 _onClearSearch
-:
-function
 (
 )
 {
@@ -2896,8 +2866,6 @@ false
 ;
 }
 _onIncludeBrowserStyles
-:
-function
 (
 )
 {
@@ -2915,8 +2883,6 @@ refreshPanel
 ;
 }
 refreshSourceFilter
-:
-function
 (
 )
 {
@@ -2948,8 +2914,6 @@ USER
 ;
 }
 _onSourcePrefChanged
-:
-function
 (
 )
 {
@@ -2995,8 +2959,6 @@ updated
 ;
 }
 createStyleViews
-:
-function
 (
 )
 {
@@ -3231,8 +3193,6 @@ Set
 ;
 }
 focusWindow
-:
-function
 (
 )
 {
@@ -3246,8 +3206,6 @@ focus
 ;
 }
 _onContextMenu
-:
-function
 (
 event
 )
@@ -3263,8 +3221,6 @@ event
 ;
 }
 _onClick
-:
-function
 (
 event
 )
@@ -3331,8 +3287,6 @@ tab
 }
 }
 _onCopy
-:
-function
 (
 event
 )
@@ -3351,8 +3305,6 @@ preventDefault
 ;
 }
 copySelection
-:
-function
 (
 )
 {
@@ -3499,8 +3451,6 @@ e
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -4242,8 +4192,6 @@ hidden
 ;
 }
 buildMain
-:
-function
 (
 )
 {
@@ -4763,8 +4711,6 @@ element
 ;
 }
 buildSelectorContainer
-:
-function
 (
 )
 {
@@ -4844,8 +4790,6 @@ element
 ;
 }
 refresh
-:
-function
 (
 )
 {
@@ -5052,8 +4996,6 @@ refreshMatchedSelectors
 ;
 }
 refreshMatchedSelectors
-:
-function
 (
 )
 {
@@ -5289,8 +5231,6 @@ _matchedSelectorResponse
 ;
 }
 _buildMatchedSelectors
-:
-function
 (
 )
 {
@@ -5631,8 +5571,6 @@ _matchedSelectorViews
 ;
 }
 updateSourceLinks
-:
-function
 (
 )
 {
@@ -5666,8 +5604,6 @@ updateSourceLink
 }
 }
 onMatchedToggle
-:
-function
 (
 event
 )
@@ -5705,8 +5641,6 @@ preventDefault
 ;
 }
 mdnLinkClick
-:
-function
 (
 event
 )
@@ -5757,8 +5691,6 @@ tab
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -5935,8 +5867,6 @@ prototype
 =
 {
 _cacheStatusNames
-:
-function
 (
 )
 {
@@ -6206,8 +6136,6 @@ frag
 ;
 }
 updateSourceLink
-:
-function
 (
 )
 {
@@ -6307,8 +6235,6 @@ source
 ;
 }
 updateSource
-:
-function
 (
 )
 {
@@ -6460,8 +6386,6 @@ shortSource
 (
 {
 href
-:
-href
 }
 )
 +
@@ -6525,8 +6449,6 @@ oldSource
 ;
 }
 openStyleEditor
-:
-function
 (
 )
 {
@@ -6973,8 +6895,6 @@ prototype
 =
 {
 isSidebarActive
-:
-function
 (
 )
 {
@@ -7008,8 +6928,6 @@ computedview
 ;
 }
 onSelected
-:
-function
 (
 event
 )
@@ -7169,8 +7087,6 @@ done
 }
 }
 refresh
-:
-function
 (
 )
 {
@@ -7194,8 +7110,6 @@ refreshPanel
 }
 }
 onPanelSelected
-:
-function
 (
 )
 {
@@ -7236,8 +7150,6 @@ onSelected
 }
 }
 onMutations
-:
-function
 (
 mutations
 )
@@ -7289,8 +7201,6 @@ break
 }
 }
 onResized
-:
-function
 (
 )
 {
@@ -7302,8 +7212,6 @@ refresh
 ;
 }
 destroy
-:
-function
 (
 )
 {

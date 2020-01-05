@@ -216,8 +216,6 @@ ruleview
 ;
 }
 addToView
-:
-function
 (
 view
 )
@@ -316,8 +314,6 @@ onWillNavigate
 ;
 }
 removeFromView
-:
-function
 (
 view
 )
@@ -607,8 +603,6 @@ null
 }
 )
 _getHighlighter
-:
-function
 (
 type
 )
@@ -675,8 +669,6 @@ highlighter
 ;
 }
 _toggleRuleViewGridIcon
-:
-function
 (
 node
 active
@@ -745,8 +737,6 @@ active
 }
 }
 _hideHoveredHighlighter
-:
-function
 (
 )
 {
@@ -829,8 +819,6 @@ hidden
 ;
 }
 _isComputedViewTransform
-:
-function
 (
 nodeInfo
 )
@@ -870,8 +858,6 @@ isTransform
 ;
 }
 _isRuleViewDisplayGrid
-:
-function
 (
 node
 )
@@ -897,8 +883,6 @@ grid
 ;
 }
 _isRuleViewTransform
-:
-function
 (
 nodeInfo
 )
@@ -965,8 +949,6 @@ isEnabled
 ;
 }
 onClick
-:
-function
 (
 event
 )
@@ -1008,8 +990,6 @@ nodeFront
 ;
 }
 onMouseMove
-:
-function
 (
 event
 )
@@ -1187,8 +1167,6 @@ shown
 }
 }
 onMouseOut
-:
-function
 (
 event
 )
@@ -1235,8 +1213,6 @@ _hideHoveredHighlighter
 ;
 }
 onWillNavigate
-:
-function
 (
 )
 {
@@ -1260,8 +1236,6 @@ null
 ;
 }
 destroy
-:
-function
 (
 )
 {

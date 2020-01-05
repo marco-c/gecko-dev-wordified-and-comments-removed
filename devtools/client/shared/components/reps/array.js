@@ -145,8 +145,6 @@ array
 isRequired
 }
 getTitle
-:
-function
 (
 object
 context
@@ -167,8 +165,6 @@ length
 ;
 }
 arrayIterator
-:
-function
 (
 array
 max
@@ -251,8 +247,6 @@ MODE
 .
 TINY
 delim
-:
-delim
 }
 )
 )
@@ -278,8 +272,6 @@ mode
 MODE
 .
 TINY
-delim
-:
 delim
 }
 )
@@ -352,8 +344,6 @@ items
 ;
 }
 hasSpecialProperties
-:
-function
 (
 array
 )
@@ -464,16 +454,12 @@ false
 ;
 }
 onToggleProperties
-:
-function
 (
 event
 )
 {
 }
 onClickBracket
-:
-function
 (
 event
 )
@@ -681,8 +667,6 @@ className
 arrayLeftBracket
 "
 object
-:
-object
 }
 brackets
 .
@@ -700,8 +684,6 @@ className
 "
 arrayRightBracket
 "
-object
-:
 object
 }
 brackets
@@ -843,10 +825,6 @@ Rep
 (
 {
 object
-:
-object
-mode
-:
 mode
 }
 )
@@ -905,8 +883,6 @@ ArrayRep
 rep
 :
 ArrayRep
-supportsObject
-:
 supportsObject
 }
 ;

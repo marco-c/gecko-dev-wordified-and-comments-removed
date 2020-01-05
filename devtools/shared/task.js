@@ -141,8 +141,6 @@ Task
 =
 {
 spawn
-:
-function
 (
 task
 )
@@ -157,8 +155,6 @@ task
 ;
 }
 async
-:
-function
 (
 task
 )
@@ -199,8 +195,6 @@ task
 ;
 }
 Result
-:
-function
 (
 value
 )
@@ -478,8 +472,6 @@ _isStarGenerator
 :
 false
 _run
-:
-function
 (
 sendResolved
 sendValue
@@ -679,8 +671,6 @@ null
 }
 }
 _handleResultValue
-:
-function
 (
 value
 )
@@ -759,8 +749,6 @@ value
 }
 }
 _handleException
-:
-function
 (
 exception
 )
@@ -1127,8 +1115,6 @@ x
 ;
 }
 generateReadableStack
-:
-function
 (
 topStack
 prefix

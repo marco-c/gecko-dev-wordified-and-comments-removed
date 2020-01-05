@@ -213,8 +213,6 @@ prototype
 =
 {
 init
-:
-function
 (
 containerEl
 )
@@ -846,8 +844,6 @@ startListeners
 ;
 }
 startListeners
-:
-function
 (
 )
 {
@@ -935,8 +931,6 @@ onHighlighterLocked
 ;
 }
 stopListeners
-:
-function
 (
 )
 {
@@ -1024,8 +1018,6 @@ onHighlightElClick
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1139,8 +1131,6 @@ null
 ;
 }
 onPreviewMouseOver
-:
-function
 (
 )
 {
@@ -1187,8 +1177,6 @@ e
 ;
 }
 onPreviewMouseOut
-:
-function
 (
 )
 {
@@ -1232,8 +1220,6 @@ e
 ;
 }
 onSelectElClick
-:
-function
 (
 )
 {
@@ -1270,8 +1256,6 @@ preview
 ;
 }
 onHighlightElClick
-:
-function
 (
 e
 )
@@ -1409,8 +1393,6 @@ error
 }
 }
 onHighlighterLocked
-:
-function
 (
 e
 domNodePreview
@@ -1441,8 +1423,6 @@ selected
 }
 }
 onMarkupMutations
-:
-function
 (
 e
 mutations
@@ -1495,8 +1475,6 @@ break
 }
 }
 render
-:
-function
 (
 nodeFront
 )

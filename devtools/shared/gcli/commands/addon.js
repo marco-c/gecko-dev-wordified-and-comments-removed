@@ -276,8 +276,6 @@ cacheable
 :
 true
 constructor
-:
-function
 (
 )
 {
@@ -322,8 +320,6 @@ listener
 ;
 }
 lookup
-:
-function
 (
 )
 {
@@ -383,8 +379,6 @@ _
 ;
 return
 {
-name
-:
 name
 value
 :
@@ -496,8 +490,6 @@ addonListTypeDesc
 }
 ]
 exec
-:
-function
 (
 args
 context
@@ -580,8 +572,6 @@ addon
 return
 {
 addons
-:
-addons
 type
 :
 args
@@ -611,8 +601,6 @@ to
 view
 "
 exec
-:
-function
 (
 addonsInfo
 context
@@ -1133,8 +1121,6 @@ data
 :
 {
 header
-:
-header
 addons
 :
 arrangeAddons
@@ -1370,8 +1356,6 @@ addonNameDesc
 }
 ]
 exec
-:
-function
 (
 args
 context
@@ -1501,8 +1485,6 @@ addonNameDesc
 }
 ]
 exec
-:
-function
 (
 args
 context
@@ -1646,8 +1628,6 @@ addonNameDesc
 }
 ]
 exec
-:
-function
 (
 args
 context

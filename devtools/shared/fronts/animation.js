@@ -65,8 +65,6 @@ FrontClassWithSpec
 animationPlayerSpec
 {
 initialize
-:
-function
 (
 conn
 form
@@ -98,8 +96,6 @@ state
 ;
 }
 form
-:
-function
 (
 form
 detail
@@ -141,8 +137,6 @@ initialState
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -459,8 +453,6 @@ _getCurrentState
 }
 )
 reconstructState
-:
-function
 (
 data
 )
@@ -558,8 +550,6 @@ FrontClassWithSpec
 animationsSpec
 {
 initialize
-:
-function
 (
 client
 {
@@ -593,8 +583,6 @@ this
 ;
 }
 destroy
-:
-function
 (
 )
 {

@@ -234,8 +234,6 @@ FrontClassWithSpec
 cssPropertiesSpec
 {
 initialize
-:
-function
 (
 client
 {

@@ -197,8 +197,6 @@ prototype
 =
 {
 initialize
-:
-function
 (
 rootGrip
 )
@@ -260,8 +258,6 @@ content
 ;
 }
 onMessage
-:
-function
 (
 event
 )

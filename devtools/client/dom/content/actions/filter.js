@@ -25,8 +25,6 @@ filter
 return
 {
 filter
-:
-filter
 type
 :
 constants

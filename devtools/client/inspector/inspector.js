@@ -970,8 +970,6 @@ pasteHTML
 ;
 }
 _handleRejectionIfNotDestroyed
-:
-function
 (
 e
 )
@@ -994,8 +992,6 @@ e
 }
 }
 _detectActorFeatures
-:
-function
 (
 )
 {
@@ -1172,8 +1168,6 @@ e
 ;
 }
 _deferredOpen
-:
-function
 (
 defaultSelection
 )
@@ -1561,8 +1555,6 @@ promise
 ;
 }
 _onBeforeNavigate
-:
-function
 (
 )
 {
@@ -1601,8 +1593,6 @@ null
 ;
 }
 _getPageStyle
-:
-function
 (
 )
 {
@@ -1635,8 +1625,6 @@ _handleRejectionIfNotDestroyed
 ;
 }
 _getDefaultNodeForSelection
-:
-function
 (
 )
 {
@@ -1921,8 +1909,6 @@ value
 ;
 }
 markDirty
-:
-function
 (
 )
 {
@@ -1934,8 +1920,6 @@ true
 ;
 }
 setupSearchBox
-:
-function
 (
 )
 {
@@ -2156,8 +2140,6 @@ autocompleter
 ;
 }
 _updateSearchResultsLabel
-:
-function
 (
 event
 result
@@ -2340,8 +2322,6 @@ _InspectorTabPanel
 ;
 }
 useLandscapeMode
-:
-function
 (
 )
 {
@@ -2372,8 +2352,6 @@ PORTRAIT_MODE_WIDTH
 ;
 }
 setupSplitter
-:
-function
 (
 )
 {
@@ -2567,8 +2545,6 @@ onSidebarHidden
 ;
 }
 teardownSplitter
-:
-function
 (
 )
 {
@@ -2631,8 +2607,6 @@ onSidebarHidden
 ;
 }
 onPanelWindowResize
-:
-function
 (
 )
 {
@@ -2655,8 +2629,6 @@ useLandscapeMode
 ;
 }
 onSidebarShown
-:
-function
 (
 )
 {
@@ -2735,8 +2707,6 @@ height
 ;
 }
 onSidebarHidden
-:
-function
 (
 )
 {
@@ -2791,8 +2761,6 @@ height
 ;
 }
 setupSidebar
-:
-function
 (
 )
 {
@@ -3216,8 +3184,6 @@ defaultTab
 ;
 }
 addSidebarTab
-:
-function
 (
 id
 title
@@ -3682,8 +3648,6 @@ title
 }
 )
 teardownToolbar
-:
-function
 (
 )
 {
@@ -3751,8 +3715,6 @@ null
 }
 }
 onNewRoot
-:
-function
 (
 )
 {
@@ -3985,8 +3947,6 @@ null
 ;
 }
 canAddHTMLChild
-:
-function
 (
 )
 {
@@ -4062,8 +4022,6 @@ toLowerCase
 ;
 }
 onNewSelection
-:
-function
 (
 event
 value
@@ -4238,8 +4196,6 @@ ex
 ;
 }
 updating
-:
-function
 (
 name
 )
@@ -4304,8 +4260,6 @@ Set
 (
 )
 checkDone
-:
-function
 (
 )
 {
@@ -4438,8 +4392,6 @@ done
 ;
 }
 cancelUpdate
-:
-function
 (
 )
 {
@@ -4451,8 +4403,6 @@ null
 ;
 }
 onDetached
-:
-function
 (
 event
 parentNode
@@ -4494,8 +4444,6 @@ detached
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -4894,8 +4842,6 @@ _panelDestroyer
 ;
 }
 _getClipboardContentForPaste
-:
-function
 (
 )
 {
@@ -4989,8 +4935,6 @@ null
 ;
 }
 _onContextMenu
-:
-function
 (
 e
 )
@@ -5026,8 +4970,6 @@ target
 ;
 }
 onTextBoxContextMenu
-:
-function
 (
 e
 )
@@ -5060,8 +5002,6 @@ screenY
 ;
 }
 _openMenu
-:
-function
 (
 {
 target
@@ -6391,8 +6331,6 @@ menu
 ;
 }
 _getPasteSubmenu
-:
-function
 (
 isEditableElement
 )
@@ -6873,8 +6811,6 @@ pasteSubmenu
 ;
 }
 _getAttributesSubmenu
-:
-function
 (
 isEditableElement
 )
@@ -7128,8 +7064,6 @@ attributesSubmenu
 ;
 }
 _getNodeLinkMenuItems
-:
-function
 (
 )
 {
@@ -7475,8 +7409,6 @@ linkCopy
 ;
 }
 _initMarkup
-:
-function
 (
 )
 {
@@ -7640,8 +7572,6 @@ markupView
 ;
 }
 _onMarkupFrameLoad
-:
-function
 (
 )
 {
@@ -7710,8 +7640,6 @@ markuploaded
 ;
 }
 _destroyMarkup
-:
-function
 (
 )
 {
@@ -7828,8 +7756,6 @@ destroyPromise
 ;
 }
 onPaneToggleButtonClicked
-:
-function
 (
 e
 )
@@ -7989,8 +7915,6 @@ sidePaneContainer
 ;
 }
 onEyeDropperButtonClicked
-:
-function
 (
 )
 {
@@ -8019,8 +7943,6 @@ showEyeDropper
 ;
 }
 startEyeDropperListeners
-:
-function
 (
 )
 {
@@ -8076,8 +7998,6 @@ onEyeDropperDone
 ;
 }
 stopEyeDropperListeners
-:
-function
 (
 )
 {
@@ -8133,8 +8053,6 @@ onEyeDropperDone
 ;
 }
 onEyeDropperDone
-:
-function
 (
 )
 {
@@ -8157,8 +8075,6 @@ stopEyeDropperListeners
 ;
 }
 showEyeDropper
-:
-function
 (
 )
 {
@@ -8237,8 +8153,6 @@ e
 ;
 }
 hideEyeDropper
-:
-function
 (
 )
 {
@@ -8380,8 +8294,6 @@ nodeFront
 }
 )
 togglePseudoClass
-:
-function
 (
 pseudo
 )
@@ -8479,8 +8391,6 @@ resolve
 ;
 }
 showDOMProperties
-:
-function
 (
 )
 {
@@ -8545,8 +8455,6 @@ focus
 ;
 }
 useInConsole
-:
-function
 (
 )
 {
@@ -8701,8 +8609,6 @@ ready
 ;
 }
 editHTML
-:
-function
 (
 )
 {
@@ -8744,8 +8650,6 @@ nodeFront
 }
 }
 pasteOuterHTML
-:
-function
 (
 )
 {
@@ -8820,8 +8724,6 @@ oldContent
 ;
 }
 pasteInnerHTML
-:
-function
 (
 )
 {
@@ -8896,8 +8798,6 @@ oldContent
 ;
 }
 pasteAdjacentHTML
-:
-function
 (
 position
 )
@@ -8955,8 +8855,6 @@ content
 ;
 }
 copyInnerHTML
-:
-function
 (
 )
 {
@@ -8995,8 +8893,6 @@ nodeFront
 ;
 }
 copyOuterHTML
-:
-function
 (
 )
 {
@@ -9118,8 +9014,6 @@ break
 }
 }
 copyImageDataUri
-:
-function
 (
 )
 {
@@ -9160,8 +9054,6 @@ copyImageDataUri
 }
 }
 _copyLongString
-:
-function
 (
 longStringActorPromise
 )
@@ -9205,8 +9097,6 @@ e
 ;
 }
 _getLongString
-:
-function
 (
 longStringActorPromise
 )
@@ -9276,8 +9166,6 @@ e
 ;
 }
 copyUniqueSelector
-:
-function
 (
 )
 {
@@ -9334,8 +9222,6 @@ error
 ;
 }
 screenshotNode
-:
-function
 (
 )
 {
@@ -9431,8 +9317,6 @@ selectionCssSelector
 ;
 }
 scrollNodeIntoView
-:
-function
 (
 )
 {
@@ -9463,8 +9347,6 @@ scrollIntoView
 ;
 }
 duplicateNode
-:
-function
 (
 )
 {
@@ -9535,8 +9417,6 @@ e
 ;
 }
 deleteNode
-:
-function
 (
 )
 {
@@ -9603,8 +9483,6 @@ nodeFront
 }
 }
 onAddAttribute
-:
-function
 (
 )
 {
@@ -9632,8 +9510,6 @@ addAttribute
 ;
 }
 onEditAttribute
-:
-function
 (
 )
 {
@@ -9666,8 +9542,6 @@ name
 ;
 }
 onRemoveAttribute
-:
-function
 (
 )
 {
@@ -9700,8 +9574,6 @@ name
 ;
 }
 expandNode
-:
-function
 (
 )
 {
@@ -9720,8 +9592,6 @@ nodeFront
 ;
 }
 collapseNode
-:
-function
 (
 )
 {
@@ -9740,8 +9610,6 @@ nodeFront
 ;
 }
 onFollowLink
-:
-function
 (
 )
 {
@@ -9777,8 +9645,6 @@ link
 ;
 }
 followAttributeLink
-:
-function
 (
 type
 link
@@ -10058,8 +9924,6 @@ e
 }
 }
 onCopyLink
-:
-function
 (
 )
 {
@@ -10083,8 +9947,6 @@ link
 ;
 }
 copyAttributeLink
-:
-function
 (
 link
 )

@@ -329,8 +329,6 @@ _numberOfGroups
 ;
 }
 setFilter
-:
-function
 (
 filter
 )
@@ -480,8 +478,6 @@ length
 ;
 }
 clearView
-:
-function
 (
 )
 {
@@ -514,8 +510,6 @@ markers
 ;
 }
 buildGraphImage
-:
-function
 (
 )
 {
@@ -809,8 +803,6 @@ ticksSpacingMin
 :
 OVERVIEW_HEADER_TICKS_SPACING_MIN
 dataScale
-:
-dataScale
 }
 )
 ;
@@ -1086,8 +1078,6 @@ canvas
 ;
 }
 setTheme
-:
-function
 (
 theme
 )

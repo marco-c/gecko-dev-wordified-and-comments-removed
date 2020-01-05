@@ -1461,8 +1461,6 @@ parsers
 [
 TYPE_URI
 ]
-:
-function
 (
 attributeValue
 )
@@ -1483,8 +1481,6 @@ attributeValue
 [
 TYPE_URI_LIST
 ]
-:
-function
 (
 attributeValue
 )
@@ -1530,8 +1526,6 @@ data
 [
 TYPE_JS_RESOURCE_URI
 ]
-:
-function
 (
 attributeValue
 )
@@ -1552,8 +1546,6 @@ attributeValue
 [
 TYPE_CSS_RESOURCE_URI
 ]
-:
-function
 (
 attributeValue
 )
@@ -1574,8 +1566,6 @@ attributeValue
 [
 TYPE_IDREF
 ]
-:
-function
 (
 attributeValue
 )
@@ -1596,8 +1586,6 @@ attributeValue
 [
 TYPE_IDREF_LIST
 ]
-:
-function
 (
 attributeValue
 )

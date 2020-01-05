@@ -108,8 +108,6 @@ v
 ;
 }
 register
-:
-function
 (
 name
 device
@@ -135,8 +133,6 @@ register
 ;
 }
 unregister
-:
-function
 (
 name
 )
@@ -160,8 +156,6 @@ unregister
 ;
 }
 available
-:
-function
 (
 )
 {
@@ -181,8 +175,6 @@ sort
 ;
 }
 getByName
-:
-function
 (
 name
 )

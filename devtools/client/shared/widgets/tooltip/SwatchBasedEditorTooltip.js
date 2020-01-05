@@ -266,8 +266,6 @@ prototype
 =
 {
 show
-:
-function
 (
 )
 {
@@ -379,8 +377,6 @@ resolve
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -394,8 +390,6 @@ hide
 ;
 }
 addSwatch
-:
-function
 (
 swatchEl
 callbacks
@@ -489,8 +483,6 @@ set
 swatchEl
 {
 callbacks
-:
-callbacks
 }
 )
 ;
@@ -509,8 +501,6 @@ false
 ;
 }
 removeSwatch
-:
-function
 (
 swatchEl
 )
@@ -576,8 +566,6 @@ swatchEl
 }
 }
 _onSwatchClick
-:
-function
 (
 event
 )
@@ -648,8 +636,6 @@ stopPropagation
 }
 }
 preview
-:
-function
 (
 value
 )
@@ -687,8 +673,6 @@ value
 }
 }
 revert
-:
-function
 (
 )
 {
@@ -747,8 +731,6 @@ onRevert
 }
 }
 commit
-:
-function
 (
 )
 {
@@ -784,8 +766,6 @@ onCommit
 }
 }
 destroy
-:
-function
 (
 )
 {

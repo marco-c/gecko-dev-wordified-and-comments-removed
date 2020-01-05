@@ -242,8 +242,6 @@ url
 :
 SIMPLE_URL
 win
-:
-win
 }
 options
 )

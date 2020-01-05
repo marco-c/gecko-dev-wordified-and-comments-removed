@@ -69,8 +69,6 @@ FrontClassWithSpec
 audionodeSpec
 {
 form
-:
-function
 (
 form
 detail
@@ -130,8 +128,6 @@ bypassable
 ;
 }
 initialize
-:
-function
 (
 client
 form
@@ -185,8 +181,6 @@ FrontClassWithSpec
 webAudioSpec
 {
 initialize
-:
-function
 (
 client
 {

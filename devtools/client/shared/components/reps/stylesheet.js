@@ -89,8 +89,6 @@ PropTypes
 func
 }
 getTitle
-:
-function
 (
 grip
 )
@@ -144,8 +142,6 @@ title
 ;
 }
 getLocation
-:
-function
 (
 grip
 )
@@ -282,8 +278,6 @@ StyleSheet
 rep
 :
 StyleSheet
-supportsObject
-:
 supportsObject
 }
 ;

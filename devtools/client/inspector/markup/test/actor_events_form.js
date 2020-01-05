@@ -105,8 +105,6 @@ ActorClassWithSpec
 eventsSpec
 {
 initialize
-:
-function
 (
 )
 {
@@ -124,8 +122,6 @@ arguments
 ;
 }
 attach
-:
-function
 (
 )
 {
@@ -144,8 +140,6 @@ onNodeActorForm
 ;
 }
 detach
-:
-function
 (
 )
 {
@@ -164,8 +158,6 @@ onNodeActorForm
 ;
 }
 onNodeActorForm
-:
-function
 (
 event
 )
@@ -227,8 +219,6 @@ FrontClassWithSpec
 eventsSpec
 {
 initialize
-:
-function
 (
 client
 form

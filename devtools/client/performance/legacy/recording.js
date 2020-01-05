@@ -247,8 +247,6 @@ file
 }
 )
 _populate
-:
-function
 (
 info
 )
@@ -382,8 +380,6 @@ sizes
 ;
 }
 _onStoppingRecording
-:
-function
 (
 endTime
 )
@@ -498,8 +494,6 @@ systemClient
 }
 )
 _getProfilerStartTime
-:
-function
 (
 )
 {
@@ -510,8 +504,6 @@ _profilerStartTime
 ;
 }
 _addTimelineData
-:
-function
 (
 eventName
 .

@@ -421,8 +421,6 @@ prototype
 =
 {
 send
-:
-function
 (
 object
 )
@@ -469,8 +467,6 @@ _flushOutgoing
 ;
 }
 startBulkSend
-:
-function
 (
 header
 )
@@ -522,8 +518,6 @@ streamReadyForWriting
 ;
 }
 close
-:
-function
 (
 reason
 )
@@ -653,8 +647,6 @@ _outgoing
 ;
 }
 _flushOutgoing
-:
-function
 (
 )
 {
@@ -746,8 +738,6 @@ currentThread
 }
 }
 pauseOutgoing
-:
-function
 (
 )
 {
@@ -759,8 +749,6 @@ false
 ;
 }
 resumeOutgoing
-:
-function
 (
 )
 {
@@ -871,8 +859,6 @@ onOutputStreamReady
 "
 )
 _finishCurrentOutgoing
-:
-function
 (
 )
 {
@@ -902,8 +888,6 @@ shift
 }
 }
 _destroyAllOutgoing
-:
-function
 (
 )
 {
@@ -933,8 +917,6 @@ _outgoing
 ;
 }
 ready
-:
-function
 (
 )
 {
@@ -952,8 +934,6 @@ _waitForIncoming
 ;
 }
 _waitForIncoming
-:
-function
 (
 )
 {
@@ -1003,8 +983,6 @@ currentThread
 }
 }
 pauseIncoming
-:
-function
 (
 )
 {
@@ -1016,8 +994,6 @@ false
 ;
 }
 resumeIncoming
-:
-function
 (
 )
 {
@@ -1132,8 +1108,6 @@ onInputStreamReady
 "
 )
 _processIncoming
-:
-function
 (
 stream
 count
@@ -1367,8 +1341,6 @@ true
 ;
 }
 _readHeader
-:
-function
 (
 )
 {
@@ -1495,8 +1467,6 @@ false
 ;
 }
 _flushIncoming
-:
-function
 (
 )
 {
@@ -1541,8 +1511,6 @@ _destroyIncoming
 ;
 }
 _onJSONObjectReady
-:
-function
 (
 object
 )
@@ -1604,8 +1572,6 @@ onPacket
 ;
 }
 _onBulkReadReady
-:
-function
 (
 .
 .
@@ -1676,8 +1642,6 @@ onBulkPacket
 ;
 }
 _destroyIncoming
-:
-function
 (
 )
 {
@@ -1784,8 +1748,6 @@ prototype
 =
 {
 send
-:
-function
 (
 packet
 )
@@ -1988,8 +1950,6 @@ onPacket
 }
 }
 startBulkSend
-:
-function
 (
 {
 actor
@@ -2137,13 +2097,7 @@ packet
 =
 {
 actor
-:
-actor
 type
-:
-type
-length
-:
 length
 copyTo
 :
@@ -2354,8 +2308,6 @@ promise
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -2435,15 +2387,11 @@ null
 }
 }
 ready
-:
-function
 (
 )
 {
 }
 _deepFreeze
-:
-function
 (
 object
 )
@@ -2621,8 +2569,6 @@ e
 }
 }
 ready
-:
-function
 (
 )
 {
@@ -2634,8 +2580,6 @@ _addListener
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -2664,8 +2608,6 @@ onClosed
 ;
 }
 receiveMessage
-:
-function
 (
 {
 data
@@ -2693,8 +2635,6 @@ data
 ;
 }
 send
-:
-function
 (
 packet
 )
@@ -2748,8 +2688,6 @@ e
 }
 }
 startBulkSend
-:
-function
 (
 )
 {
@@ -2859,8 +2797,6 @@ constructor
 :
 WorkerDebuggerTransport
 ready
-:
-function
 (
 )
 {
@@ -2875,8 +2811,6 @@ this
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -2907,8 +2841,6 @@ onClosed
 }
 }
 send
-:
-function
 (
 packet
 )
@@ -2943,8 +2875,6 @@ packet
 ;
 }
 startBulkSend
-:
-function
 (
 )
 {
@@ -2968,8 +2898,6 @@ threads
 ;
 }
 _onMessage
-:
-function
 (
 message
 )
@@ -3097,8 +3025,6 @@ constructor
 :
 WorkerDebuggerTransport
 ready
-:
-function
 (
 )
 {
@@ -3118,8 +3044,6 @@ _onMessage
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -3155,8 +3079,6 @@ onClosed
 }
 }
 send
-:
-function
 (
 packet
 )
@@ -3191,8 +3113,6 @@ packet
 ;
 }
 startBulkSend
-:
-function
 (
 )
 {
@@ -3216,8 +3136,6 @@ threads
 ;
 }
 _onMessage
-:
-function
 (
 event
 )

@@ -1432,8 +1432,6 @@ Server
 (
 )
 _validateOptions
-:
-function
 (
 )
 {
@@ -1537,8 +1535,6 @@ this
 ;
 }
 open
-:
-function
 (
 )
 {
@@ -1797,8 +1793,6 @@ close
 ;
 }
 _advertise
-:
-function
 (
 )
 {
@@ -1857,8 +1851,6 @@ advertisement
 ;
 }
 _createSocketInstance
-:
-function
 (
 )
 {
@@ -2008,8 +2000,6 @@ _socket
 }
 )
 close
-:
-function
 (
 )
 {
@@ -2239,8 +2229,6 @@ onSocketAccepted
 "
 )
 onStopListening
-:
-function
 (
 socket
 status

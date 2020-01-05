@@ -2113,8 +2113,6 @@ individuals
 :
 individualsModel
 view
-:
-function
 (
 app
 )

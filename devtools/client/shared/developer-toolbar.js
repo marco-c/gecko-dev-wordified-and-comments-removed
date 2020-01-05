@@ -352,8 +352,6 @@ CommandUtils
 =
 {
 createRequisition
-:
-function
 (
 target
 options
@@ -420,8 +418,6 @@ options
 ;
 }
 destroyRequisition
-:
-function
 (
 requisition
 target
@@ -442,8 +438,6 @@ target
 ;
 }
 getCommandbarSpec
-:
-function
 (
 pref
 )
@@ -473,8 +467,6 @@ value
 ;
 }
 createCommandButtons
-:
-function
 (
 toolbarSpec
 target
@@ -737,8 +729,6 @@ onChange
 "
 {
 target
-:
-target
 }
 )
 ;
@@ -802,8 +792,6 @@ button
 ;
 }
 createEnvironment
-:
-function
 (
 container
 targetProperty
@@ -1187,8 +1175,6 @@ visible
 "
 {
 get
-:
-function
 (
 )
 {
@@ -1229,8 +1215,6 @@ sequenceId
 "
 {
 get
-:
-function
 (
 )
 {

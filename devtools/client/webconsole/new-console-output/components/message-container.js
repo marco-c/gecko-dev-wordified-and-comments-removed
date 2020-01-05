@@ -229,8 +229,6 @@ number
 isRequired
 }
 getDefaultProps
-:
-function
 (
 )
 {

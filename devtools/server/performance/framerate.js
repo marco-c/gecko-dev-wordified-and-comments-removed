@@ -44,8 +44,6 @@ Class
 (
 {
 initialize
-:
-function
 (
 tabActor
 )
@@ -107,8 +105,6 @@ _onGlobalCreated
 ;
 }
 destroy
-:
-function
 (
 conn
 )
@@ -136,8 +132,6 @@ stopRecording
 ;
 }
 startRecording
-:
-function
 (
 )
 {
@@ -195,8 +189,6 @@ _onRefreshDriverTick
 ;
 }
 stopRecording
-:
-function
 (
 beginAt
 =
@@ -243,8 +235,6 @@ ticks
 ;
 }
 cancelRecording
-:
-function
 (
 )
 {
@@ -280,8 +270,6 @@ _rafID
 ;
 }
 isRecording
-:
-function
 (
 )
 {
@@ -294,8 +282,6 @@ _recording
 ;
 }
 getPendingTicks
-:
-function
 (
 beginAt
 =
@@ -344,8 +330,6 @@ endAt
 ;
 }
 _onRefreshDriverTick
-:
-function
 (
 )
 {
@@ -398,8 +382,6 @@ _startTime
 ;
 }
 _onGlobalCreated
-:
-function
 (
 win
 )

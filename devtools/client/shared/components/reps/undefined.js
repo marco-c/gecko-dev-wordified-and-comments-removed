@@ -152,8 +152,6 @@ rep
 :
 Undefined
 supportsObject
-:
-supportsObject
 }
 ;
 }

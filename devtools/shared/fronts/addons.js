@@ -45,8 +45,6 @@ FrontClassWithSpec
 addonsSpec
 {
 initialize
-:
-function
 (
 client
 {

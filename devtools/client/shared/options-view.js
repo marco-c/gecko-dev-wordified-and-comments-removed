@@ -214,8 +214,6 @@ prototype
 =
 {
 initialize
-:
-function
 (
 )
 {
@@ -437,8 +435,6 @@ _onPopupHidden
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -492,8 +488,6 @@ _onPopupHidden
 ;
 }
 getPref
-:
-function
 (
 prefName
 )
@@ -510,8 +504,6 @@ prefName
 ;
 }
 _onPrefChange
-:
-function
 (
 _
 prefName
@@ -607,8 +599,6 @@ prefName
 ;
 }
 _onOptionChange
-:
-function
 (
 mutations
 )
@@ -667,8 +657,6 @@ value
 ;
 }
 _onPopupShown
-:
-function
 (
 )
 {
@@ -693,8 +681,6 @@ OPTIONS_SHOWN_EVENT
 ;
 }
 _onPopupHidden
-:
-function
 (
 )
 {
@@ -761,8 +747,6 @@ prototype
 =
 {
 get
-:
-function
 (
 prefName
 )
@@ -786,8 +770,6 @@ fullName
 ;
 }
 set
-:
-function
 (
 prefName
 value
@@ -812,8 +794,6 @@ value
 ;
 }
 register
-:
-function
 (
 )
 {
@@ -831,8 +811,6 @@ false
 ;
 }
 unregister
-:
-function
 (
 )
 {
@@ -849,8 +827,6 @@ this
 ;
 }
 observe
-:
-function
 (
 subject
 topic

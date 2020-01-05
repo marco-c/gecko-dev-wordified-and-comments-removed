@@ -884,8 +884,6 @@ deflateThread
 (
 {
 samples
-:
-samples
 markers
 :
 [

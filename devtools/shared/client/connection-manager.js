@@ -117,8 +117,6 @@ Set
 (
 )
 createConnection
-:
-function
 (
 host
 port
@@ -178,8 +176,6 @@ c
 ;
 }
 destroyConnection
-:
-function
 (
 connection
 )
@@ -245,8 +241,6 @@ _connections
 ;
 }
 getFreeTCPPort
-:
-function
 (
 )
 {
@@ -526,8 +520,6 @@ logs
 "
 "
 log
-:
-function
 (
 str
 )
@@ -1012,8 +1004,6 @@ null
 ;
 }
 disconnect
-:
-function
 (
 force
 )
@@ -1107,8 +1097,6 @@ close
 }
 }
 connect
-:
-function
 (
 transport
 )
@@ -1267,8 +1255,6 @@ msg
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -1393,8 +1379,6 @@ transport
 }
 )
 _clientConnect
-:
-function
 (
 )
 {
@@ -1512,8 +1496,6 @@ _status
 ;
 }
 _setStatus
-:
-function
 (
 value
 )
@@ -1563,8 +1545,6 @@ value
 ;
 }
 _onDisconnected
-:
-function
 (
 )
 {
@@ -1728,8 +1708,6 @@ DISCONNECTED
 ;
 }
 _onConnected
-:
-function
 (
 )
 {
@@ -1762,8 +1740,6 @@ CONNECTED
 ;
 }
 _onTimeout
-:
-function
 (
 )
 {

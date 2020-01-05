@@ -263,8 +263,6 @@ model
 -
 "
 _buildMarkup
-:
-function
 (
 )
 {
@@ -891,8 +889,6 @@ highlighterContainer
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -933,8 +929,6 @@ this
 ;
 }
 getElement
-:
-function
 (
 id
 )
@@ -955,8 +949,6 @@ id
 ;
 }
 _isNodeValid
-:
-function
 (
 node
 )
@@ -983,8 +975,6 @@ TEXT_NODE
 ;
 }
 _show
-:
-function
 (
 )
 {
@@ -1046,8 +1036,6 @@ shown
 ;
 }
 _trackMutations
-:
-function
 (
 )
 {
@@ -1105,8 +1093,6 @@ true
 }
 }
 _untrackMutations
-:
-function
 (
 )
 {
@@ -1142,8 +1128,6 @@ null
 }
 }
 _update
-:
-function
 (
 )
 {
@@ -1263,8 +1247,6 @@ shown
 ;
 }
 _hide
-:
-function
 (
 )
 {
@@ -1307,8 +1289,6 @@ documentElement
 ;
 }
 _hideInfobar
-:
-function
 (
 )
 {
@@ -1335,8 +1315,6 @@ true
 ;
 }
 _showInfobar
-:
-function
 (
 )
 {
@@ -1366,8 +1344,6 @@ _updateInfobar
 ;
 }
 _hideBoxModel
-:
-function
 (
 )
 {
@@ -1392,8 +1368,6 @@ true
 ;
 }
 _showBoxModel
-:
-function
 (
 )
 {
@@ -1415,8 +1389,6 @@ hidden
 ;
 }
 _getOuterQuad
-:
-function
 (
 region
 )
@@ -1861,8 +1833,6 @@ quad
 ;
 }
 _updateBoxModel
-:
-function
 (
 )
 {
@@ -2218,8 +2188,6 @@ true
 ;
 }
 _getBoxPathCoordinates
-:
-function
 (
 boxQuad
 nextBoxQuad
@@ -2529,8 +2497,6 @@ path
 ;
 }
 _nodeNeedsHighlighting
-:
-function
 (
 )
 {
@@ -2572,8 +2538,6 @@ length
 ;
 }
 _getOuterBounds
-:
-function
 (
 )
 {
@@ -2689,8 +2653,6 @@ y
 ;
 }
 _showGuides
-:
-function
 (
 region
 )
@@ -2932,8 +2894,6 @@ toShowX
 ;
 }
 _hideGuides
-:
-function
 (
 )
 {
@@ -2970,8 +2930,6 @@ true
 }
 }
 _updateGuide
-:
-function
 (
 side
 point
@@ -3159,8 +3117,6 @@ true
 ;
 }
 _updateInfobar
-:
-function
 (
 )
 {
@@ -3423,8 +3379,6 @@ _moveInfobar
 ;
 }
 _getPseudoClasses
-:
-function
 (
 node
 )
@@ -3464,8 +3418,6 @@ pseudo
 ;
 }
 _moveInfobar
-:
-function
 (
 )
 {
@@ -3503,8 +3455,6 @@ win
 ;
 }
 onWillNavigate
-:
-function
 (
 {
 isTopLevel

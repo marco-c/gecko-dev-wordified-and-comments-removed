@@ -246,8 +246,6 @@ this
 ;
 }
 getMIMETypeFromContent
-:
-function
 (
 request
 data
@@ -332,8 +330,6 @@ Factory
 =
 {
 createInstance
-:
-function
 (
 outer
 iid
@@ -450,10 +446,6 @@ JsonViewSniffer
 =
 {
 register
-:
-register
-unregister
-:
 unregister
 }
 ;

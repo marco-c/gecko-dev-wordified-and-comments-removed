@@ -151,8 +151,6 @@ _panelWin
 ;
 }
 open
-:
-function
 (
 )
 {
@@ -310,8 +308,6 @@ destroy
 ;
 }
 destroy
-:
-function
 (
 )
 {

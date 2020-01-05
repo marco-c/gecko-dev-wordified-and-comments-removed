@@ -880,8 +880,6 @@ matchedSelectors
 :
 true
 filter
-:
-filter
 }
 )
 ;

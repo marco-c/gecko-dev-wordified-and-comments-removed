@@ -85,8 +85,6 @@ ActorClassWithSpec
 gridSpec
 {
 initialize
-:
-function
 (
 layoutActor
 containerEl
@@ -122,8 +120,6 @@ walker
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -158,8 +154,6 @@ null
 ;
 }
 form
-:
-function
 (
 detail
 )
@@ -232,8 +226,6 @@ ActorClassWithSpec
 layoutSpec
 {
 initialize
-:
-function
 (
 conn
 tabActor
@@ -294,8 +286,6 @@ onNavigate
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -339,8 +329,6 @@ null
 ;
 }
 getGrids
-:
-function
 (
 rootNode
 )
@@ -421,8 +409,6 @@ grids
 ;
 }
 getAllGrids
-:
-function
 (
 rootNode
 traverseFrames
@@ -491,8 +477,6 @@ grids
 ;
 }
 onNavigate
-:
-function
 (
 )
 {

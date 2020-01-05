@@ -699,10 +699,8 @@ true
 }
 }
 {
-setup
-:
-function
 *
+setup
 (
 )
 {
@@ -908,10 +906,8 @@ true
 }
 }
 {
-setup
-:
-function
 *
+setup
 (
 )
 {

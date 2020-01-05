@@ -49,8 +49,6 @@ prototype
 =
 {
 init
-:
-function
 (
 )
 {
@@ -63,8 +61,6 @@ observe
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -75,8 +71,6 @@ null
 ;
 }
 observe
-:
-function
 (
 message
 )
@@ -94,8 +88,6 @@ wrappedJSObject
 ;
 }
 getCachedMessages
-:
-function
 (
 )
 {

@@ -327,8 +327,6 @@ extends
 :
 EventTarget
 initialize
-:
-function
 (
 conn
 tabActor
@@ -388,8 +386,6 @@ this
 ;
 }
 connect
-:
-function
 (
 options
 )
@@ -432,8 +428,6 @@ true
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -487,8 +481,6 @@ null
 ;
 }
 _connectComponents
-:
-function
 (
 )
 {
@@ -543,8 +535,6 @@ PROFILER_EVENTS
 ;
 }
 _registerListeners
-:
-function
 (
 )
 {
@@ -592,8 +582,6 @@ _onProfilerEvent
 ;
 }
 _unregisterListeners
-:
-function
 (
 )
 {
@@ -641,8 +629,6 @@ _onProfilerEvent
 ;
 }
 _disconnectComponents
-:
-function
 (
 )
 {
@@ -685,8 +671,6 @@ destroy
 ;
 }
 _onProfilerEvent
-:
-function
 (
 topic
 data
@@ -1048,8 +1032,6 @@ model
 }
 )
 _onProfilerUnexpectedlyStopped
-:
-function
 (
 )
 {
@@ -1068,8 +1050,6 @@ arguments
 ;
 }
 _onTimelineData
-:
-function
 (
 eventName
 .
@@ -1258,8 +1238,6 @@ activeRecordings
 }
 }
 canCurrentlyRecord
-:
-function
 (
 )
 {
@@ -1805,8 +1783,6 @@ model
 }
 )
 isRecording
-:
-function
 (
 )
 {
@@ -1829,8 +1805,6 @@ isRecording
 ;
 }
 getRecordings
-:
-function
 (
 )
 {
@@ -1841,8 +1815,6 @@ _recordings
 ;
 }
 setProfilerStatusInterval
-:
-function
 (
 n
 )
@@ -1858,8 +1830,6 @@ n
 ;
 }
 getConfiguration
-:
-function
 (
 )
 {

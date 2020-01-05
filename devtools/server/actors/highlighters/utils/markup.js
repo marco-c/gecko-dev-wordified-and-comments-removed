@@ -568,14 +568,12 @@ _tokens
 length
 ;
 }
+*
 [
 Symbol
 .
 iterator
 ]
-:
-function
-*
 (
 )
 {
@@ -1162,8 +1160,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 )
 {
@@ -1242,8 +1238,6 @@ _removeAllListeners
 ;
 }
 _insert
-:
-function
 (
 )
 {
@@ -1433,8 +1427,6 @@ node
 ;
 }
 _onWindowReady
-:
-function
 (
 e
 {
@@ -1472,8 +1464,6 @@ document
 }
 }
 getTextContentForElement
-:
-function
 (
 id
 )
@@ -1502,8 +1492,6 @@ id
 ;
 }
 setTextContentForElement
-:
-function
 (
 id
 text
@@ -1529,8 +1517,6 @@ text
 }
 }
 setAttributeForElement
-:
-function
 (
 id
 name
@@ -1558,8 +1544,6 @@ value
 }
 }
 getAttributeForElement
-:
-function
 (
 id
 name
@@ -1590,8 +1574,6 @@ name
 ;
 }
 removeAttributeForElement
-:
-function
 (
 id
 name
@@ -1617,8 +1599,6 @@ name
 }
 }
 hasAttributeForElement
-:
-function
 (
 id
 name
@@ -1642,8 +1622,6 @@ string
 ;
 }
 getCanvasContext
-:
-function
 (
 id
 type
@@ -1672,8 +1650,6 @@ null
 ;
 }
 addEventListenerForElement
-:
-function
 (
 id
 type
@@ -1782,8 +1758,6 @@ handler
 ;
 }
 removeEventListenerForElement
-:
-function
 (
 id
 type
@@ -1851,8 +1825,6 @@ true
 }
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -2007,8 +1979,6 @@ parentNode
 }
 }
 _removeAllListeners
-:
-function
 (
 )
 {
@@ -2061,8 +2031,6 @@ clear
 ;
 }
 getElement
-:
-function
 (
 id
 )
@@ -2281,8 +2249,6 @@ _content
 ;
 }
 scaleRootElement
-:
-function
 (
 node
 id

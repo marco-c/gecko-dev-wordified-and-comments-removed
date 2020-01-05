@@ -184,8 +184,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 )
 {
@@ -199,8 +197,6 @@ remove
 ;
 }
 getInfoAtNode
-:
-function
 (
 )
 {

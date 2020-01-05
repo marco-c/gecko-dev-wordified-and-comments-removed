@@ -356,8 +356,6 @@ prototype
 =
 {
 initialize
-:
-function
 (
 store
 )
@@ -2075,8 +2073,6 @@ cloneSelectedRequest
 ;
 }
 toggleRawHeaders
-:
-function
 (
 )
 {
@@ -2230,8 +2226,6 @@ true
 }
 }
 sendCustomRequest
-:
-function
 (
 )
 {

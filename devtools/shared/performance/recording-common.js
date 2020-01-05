@@ -62,8 +62,6 @@ _systemClient
 :
 null
 isRecording
-:
-function
 (
 )
 {
@@ -74,8 +72,6 @@ _recording
 ;
 }
 isCompleted
-:
-function
 (
 )
 {
@@ -93,8 +89,6 @@ isImported
 ;
 }
 isFinalizing
-:
-function
 (
 )
 {
@@ -116,8 +110,6 @@ isCompleted
 ;
 }
 isConsole
-:
-function
 (
 )
 {
@@ -128,8 +120,6 @@ _console
 ;
 }
 isImported
-:
-function
 (
 )
 {
@@ -140,8 +130,6 @@ _imported
 ;
 }
 getConfiguration
-:
-function
 (
 )
 {
@@ -152,8 +140,6 @@ _configuration
 ;
 }
 getLabel
-:
-function
 (
 )
 {
@@ -164,8 +150,6 @@ _label
 ;
 }
 getDuration
-:
-function
 (
 )
 {
@@ -213,8 +197,6 @@ _estimatedDuration
 ;
 }
 getMarkers
-:
-function
 (
 )
 {
@@ -225,8 +207,6 @@ _markers
 ;
 }
 getFrames
-:
-function
 (
 )
 {
@@ -237,8 +217,6 @@ _frames
 ;
 }
 getMemory
-:
-function
 (
 )
 {
@@ -249,8 +227,6 @@ _memory
 ;
 }
 getTicks
-:
-function
 (
 )
 {
@@ -261,8 +237,6 @@ _ticks
 ;
 }
 getAllocations
-:
-function
 (
 )
 {
@@ -273,8 +247,6 @@ _allocations
 ;
 }
 getProfile
-:
-function
 (
 )
 {
@@ -285,8 +257,6 @@ _profile
 ;
 }
 getHostSystemInfo
-:
-function
 (
 )
 {
@@ -297,8 +267,6 @@ _systemHost
 ;
 }
 getClientSystemInfo
-:
-function
 (
 )
 {
@@ -309,8 +277,6 @@ _systemClient
 ;
 }
 getStartingBufferStatus
-:
-function
 (
 )
 {
@@ -321,8 +287,6 @@ _startingBufferStatus
 ;
 }
 getAllData
-:
-function
 (
 )
 {

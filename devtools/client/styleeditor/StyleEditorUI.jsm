@@ -981,8 +981,6 @@ highlighted
 }
 )
 createUI
-:
-function
 (
 )
 {
@@ -1346,8 +1344,6 @@ PREF_NAV_WIDTH
 ;
 }
 _onOptionsPopupShowing
-:
-function
 (
 )
 {
@@ -1405,8 +1401,6 @@ PREF_MEDIA_SIDEBAR
 ;
 }
 _onOptionsPopupHiding
-:
-function
 (
 )
 {
@@ -1423,8 +1417,6 @@ open
 ;
 }
 _onNewDocument
-:
-function
 (
 )
 {
@@ -1555,8 +1547,6 @@ reset
 }
 )
 _clear
-:
-function
 (
 )
 {
@@ -1609,8 +1599,6 @@ _styleSheetToSelect
 stylesheet
 :
 href
-line
-:
 line
 col
 :
@@ -2004,8 +1992,6 @@ editor
 }
 )
 _importFromFile
-:
-function
 (
 file
 parentWindow
@@ -2163,8 +2149,6 @@ onFileSelected
 ;
 }
 _onStyleSheetCreated
-:
-function
 (
 styleSheet
 file
@@ -2181,8 +2165,6 @@ true
 ;
 }
 _onError
-:
-function
 (
 event
 data
@@ -2200,8 +2182,6 @@ data
 ;
 }
 _toggleOrigSources
-:
-function
 (
 )
 {
@@ -2230,8 +2210,6 @@ isEnabled
 ;
 }
 _toggleMediaSidebar
-:
-function
 (
 )
 {
@@ -2260,8 +2238,6 @@ isEnabled
 ;
 }
 _onMediaPrefChanged
-:
-function
 (
 )
 {
@@ -2278,8 +2254,6 @@ _updateMediaList
 ;
 }
 _updateOpenLinkItem
-:
-function
 (
 )
 {
@@ -2325,8 +2299,6 @@ href
 }
 }
 _openLinkNewTab
-:
-function
 (
 )
 {
@@ -2356,8 +2328,6 @@ tab
 }
 }
 _removeStyleSheetEditor
-:
-function
 (
 editor
 )
@@ -2465,8 +2435,6 @@ editor
 ;
 }
 _clearStyleSheetEditors
-:
-function
 (
 )
 {
@@ -2496,8 +2464,6 @@ editors
 ;
 }
 _sourceLoaded
-:
-function
 (
 editor
 )
@@ -2537,16 +2503,12 @@ data
 :
 {
 editor
-:
-editor
 }
 disableAnimations
 :
 this
 .
 _alwaysDisableAnimations
-ordinal
-:
 ordinal
 onCreate
 :
@@ -3245,8 +3207,6 @@ this
 ;
 }
 switchToSelectedSheet
-:
-function
 (
 )
 {
@@ -3316,8 +3276,6 @@ resolve
 ;
 }
 _isEditorToSelect
-:
-function
 (
 editor
 )
@@ -3392,8 +3350,6 @@ styleSheet
 ;
 }
 _selectEditor
-:
-function
 (
 editor
 line
@@ -3437,8 +3393,6 @@ sourceEditor
 setCursor
 (
 {
-line
-:
 line
 ch
 :
@@ -3497,8 +3451,6 @@ summaryPromise
 ;
 }
 getEditorSummary
-:
-function
 (
 editor
 )
@@ -3589,8 +3541,6 @@ promise
 ;
 }
 getEditorDetails
-:
-function
 (
 editor
 )
@@ -3681,8 +3631,6 @@ promise
 ;
 }
 getStyleSheetIdentifier
-:
-function
 (
 styleSheet
 )
@@ -3717,8 +3665,6 @@ nodeHref
 ;
 }
 selectStyleSheet
-:
-function
 (
 stylesheet
 line
@@ -3731,13 +3677,7 @@ _styleSheetToSelect
 =
 {
 stylesheet
-:
-stylesheet
 line
-:
-line
-col
-:
 col
 }
 ;
@@ -3750,8 +3690,6 @@ switchToSelectedSheet
 ;
 }
 _summaryChange
-:
-function
 (
 editor
 )
@@ -3765,8 +3703,6 @@ editor
 ;
 }
 _updateSummaryForEditor
-:
-function
 (
 editor
 summary
@@ -4085,8 +4021,6 @@ ruleCount
 ;
 }
 _updateMediaList
-:
-function
 (
 editor
 )
@@ -4206,10 +4140,6 @@ location
 =
 {
 line
-:
-line
-column
-:
 column
 source
 :
@@ -4601,8 +4531,6 @@ e
 ;
 }
 _onMediaConditionClick
-:
-function
 (
 e
 )
@@ -4776,8 +4704,6 @@ options
 }
 )
 _jumpToLocation
-:
-function
 (
 location
 )
@@ -4813,8 +4739,6 @@ column
 ;
 }
 destroy
-:
-function
 (
 )
 {

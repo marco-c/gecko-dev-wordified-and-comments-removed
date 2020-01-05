@@ -144,8 +144,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -161,8 +159,6 @@ HarExporter
 =
 {
 save
-:
-function
 (
 options
 )
@@ -318,8 +314,6 @@ jsonString
 ;
 }
 copy
-:
-function
 (
 options
 )
@@ -353,8 +347,6 @@ jsonString
 ;
 }
 fetchHarData
-:
-function
 (
 options
 )
@@ -598,8 +590,6 @@ err
 ;
 }
 buildHarData
-:
-function
 (
 options
 )
@@ -622,8 +612,6 @@ build
 ;
 }
 stringify
-:
-function
 (
 har
 )

@@ -815,8 +815,6 @@ AbstractTreeItem
 prototype
 {
 _displaySelf
-:
-function
 (
 document
 arrowNode
@@ -1051,8 +1049,6 @@ targetNode
 ;
 }
 _populateSelf
-:
-function
 (
 children
 )
@@ -1121,8 +1117,6 @@ this
 ;
 }
 _createCell
-:
-function
 (
 doc
 value
@@ -1192,8 +1186,6 @@ cell
 ;
 }
 _createFunctionCell
-:
-function
 (
 doc
 arrowNode
@@ -1501,8 +1493,6 @@ cell
 ;
 }
 _appendFunctionDetailsCells
-:
-function
 (
 doc
 cell
@@ -1804,8 +1794,6 @@ categoryNode
 }
 }
 getDisplayedData
-:
-function
 (
 )
 {
@@ -1866,8 +1854,6 @@ _cachedDisplayedData
 ;
 }
 toggleCategories
-:
-function
 (
 visible
 )
@@ -1912,8 +1898,6 @@ hidden
 }
 }
 _onUrlClick
-:
-function
 (
 e
 )

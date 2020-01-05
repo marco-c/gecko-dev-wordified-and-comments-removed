@@ -205,8 +205,6 @@ center
 :
 true
 selector
-:
-selector
 }
 )
 ;

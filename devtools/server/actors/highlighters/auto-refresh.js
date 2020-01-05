@@ -160,8 +160,6 @@ window
 ;
 }
 show
-:
-function
 (
 node
 options
@@ -273,8 +271,6 @@ shown
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -336,8 +332,6 @@ hidden
 ;
 }
 _isNodeValid
-:
-function
 (
 node
 )
@@ -350,8 +344,6 @@ node
 ;
 }
 _isSameOptions
-:
-function
 (
 options
 )
@@ -437,8 +429,6 @@ true
 ;
 }
 _updateAdjustedQuads
-:
-function
 (
 )
 {
@@ -471,8 +461,6 @@ region
 }
 }
 _hasMoved
-:
-function
 (
 )
 {
@@ -515,8 +503,6 @@ newQuads
 ;
 }
 update
-:
-function
 (
 )
 {
@@ -561,8 +547,6 @@ updated
 ;
 }
 _show
-:
-function
 (
 )
 {
@@ -584,8 +568,6 @@ method
 ;
 }
 _update
-:
-function
 (
 )
 {
@@ -607,8 +589,6 @@ method
 ;
 }
 _hide
-:
-function
 (
 )
 {
@@ -630,8 +610,6 @@ method
 ;
 }
 _startRefreshLoop
-:
-function
 (
 )
 {
@@ -678,8 +656,6 @@ update
 ;
 }
 _stopRefreshLoop
-:
-function
 (
 )
 {
@@ -725,8 +701,6 @@ null
 ;
 }
 destroy
-:
-function
 (
 )
 {

@@ -286,8 +286,6 @@ tool
 performance
 "
 tab
-:
-tab
 }
 )
 )
@@ -369,8 +367,6 @@ tool
 "
 webconsole
 "
-tab
-:
 tab
 }
 )

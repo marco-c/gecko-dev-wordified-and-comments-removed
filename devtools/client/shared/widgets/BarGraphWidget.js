@@ -383,8 +383,6 @@ minBlocksHeight
 :
 GRAPH_MIN_BLOCKS_HEIGHT
 buildBackgroundImage
-:
-function
 (
 )
 {
@@ -471,8 +469,6 @@ canvas
 ;
 }
 buildGraphImage
-:
-function
 (
 )
 {
@@ -650,10 +646,6 @@ this
 .
 _data
 dataScaleX
-:
-dataScaleX
-minBarsWidth
-:
 minBarsWidth
 }
 )
@@ -920,8 +912,6 @@ push
 (
 {
 type
-:
-type
 start
 :
 prevRight
@@ -933,8 +923,6 @@ top
 bottom
 -
 averageHeight
-bottom
-:
 bottom
 }
 )
@@ -1073,8 +1061,6 @@ canvas
 ;
 }
 buildMaskImage
-:
-function
 (
 highlights
 inPixels
@@ -1376,8 +1362,6 @@ _blocksBoundingRects
 :
 null
 _calcMaxHeight
-:
-function
 (
 {
 data
@@ -1530,8 +1514,6 @@ maxHeight
 ;
 }
 _createLegend
-:
-function
 (
 )
 {
@@ -1579,8 +1561,6 @@ legendNode
 ;
 }
 _createLegendItem
-:
-function
 (
 color
 label
@@ -1776,8 +1756,6 @@ itemNode
 ;
 }
 _onLegendMouseOver
-:
-function
 (
 ev
 )
@@ -1870,8 +1848,6 @@ rects
 ;
 }
 _onLegendMouseOut
-:
-function
 (
 )
 {
@@ -1928,8 +1904,6 @@ unhover
 ;
 }
 _onLegendMouseDown
-:
-function
 (
 ev
 )
@@ -2052,8 +2026,6 @@ rightmost
 ;
 }
 _onLegendMouseUp
-:
-function
 (
 e
 )

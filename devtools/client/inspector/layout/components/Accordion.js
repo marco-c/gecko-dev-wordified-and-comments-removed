@@ -71,8 +71,6 @@ addons
 PureRenderMixin
 ]
 getInitialState
-:
-function
 (
 )
 {
@@ -103,8 +101,6 @@ created
 ;
 }
 handleHeaderClick
-:
-function
 (
 i
 )
@@ -199,8 +195,6 @@ created
 ;
 }
 renderContainer
-:
-function
 (
 item
 i
@@ -376,8 +370,6 @@ null
 ;
 }
 render
-:
-function
 (
 )
 {

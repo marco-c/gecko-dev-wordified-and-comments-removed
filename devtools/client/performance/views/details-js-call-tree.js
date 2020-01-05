@@ -48,8 +48,6 @@ rangeChangeDebounceTime
 :
 75
 initialize
-:
-function
 (
 )
 {
@@ -128,8 +126,6 @@ view
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -171,8 +167,6 @@ this
 ;
 }
 render
-:
-function
 (
 interval
 =
@@ -307,8 +301,6 @@ UI_JS_CALL_TREE_RENDERED
 ;
 }
 showOptimizations
-:
-function
 (
 )
 {
@@ -327,8 +319,6 @@ hidden
 ;
 }
 hideOptimizations
-:
-function
 (
 )
 {
@@ -347,8 +337,6 @@ hidden
 ;
 }
 _onFocus
-:
-function
 (
 _
 treeItem
@@ -540,8 +528,6 @@ treeItem
 ;
 }
 _onLink
-:
-function
 (
 _
 treeItem
@@ -607,8 +593,6 @@ SOURCE_NOT_FOUND_IN_JS_DEBUGGER
 ;
 }
 _prepareCallTree
-:
-function
 (
 profile
 {
@@ -678,8 +662,6 @@ threadNode
 ;
 }
 _populateCallTree
-:
-function
 (
 frameNode
 options
@@ -712,8 +694,6 @@ CallView
 frame
 :
 frameNode
-inverted
-:
 inverted
 hidden
 :

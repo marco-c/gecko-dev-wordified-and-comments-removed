@@ -302,8 +302,6 @@ prototype
 =
 {
 init
-:
-function
 (
 )
 {
@@ -846,8 +844,6 @@ parentNode
 ;
 }
 dispatchMessageAdd
-:
-function
 (
 message
 waitForResponse
@@ -984,8 +980,6 @@ resolve
 ;
 }
 dispatchMessagesAdd
-:
-function
 (
 messages
 )
@@ -1022,8 +1016,6 @@ batchedActions
 ;
 }
 dispatchMessagesClear
-:
-function
 (
 )
 {
@@ -1040,8 +1032,6 @@ messagesClear
 ;
 }
 dispatchTimestampsToggle
-:
-function
 (
 enabled
 )
@@ -1060,8 +1050,6 @@ enabled
 ;
 }
 getStore
-:
-function
 (
 )
 {

@@ -1078,8 +1078,6 @@ prototype
 =
 {
 loadCssDocs
-:
-function
 (
 propertyName
 )
@@ -1306,8 +1304,6 @@ promise
 ;
 }
 destroy
-:
-function
 (
 )
 {

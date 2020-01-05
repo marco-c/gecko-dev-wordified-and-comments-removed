@@ -102,8 +102,6 @@ PropTypes
 bool
 }
 getInitialState
-:
-function
 (
 )
 {
@@ -116,8 +114,6 @@ false
 ;
 }
 shouldComponentUpdate
-:
-function
 (
 nextProps
 nextState
@@ -150,8 +146,6 @@ nextState
 ;
 }
 getCellClass
-:
-function
 (
 object
 id
@@ -228,8 +222,6 @@ classNames
 ;
 }
 updateInputEnabled
-:
-function
 (
 evt
 )
@@ -267,8 +259,6 @@ input
 ;
 }
 render
-:
-function
 (
 )
 {

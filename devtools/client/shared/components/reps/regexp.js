@@ -90,8 +90,6 @@ PropTypes
 func
 }
 getSource
-:
-function
 (
 grip
 )
@@ -211,8 +209,6 @@ RegExp
 rep
 :
 RegExp
-supportsObject
-:
 supportsObject
 }
 ;

@@ -219,8 +219,6 @@ element
 :
 null
 destroy
-:
-function
 (
 )
 {
@@ -269,8 +267,6 @@ destroy
 }
 }
 _changed
-:
-function
 (
 )
 {
@@ -290,8 +286,6 @@ onChanged
 }
 }
 populate
-:
-function
 (
 )
 {
@@ -492,8 +486,6 @@ populated
 ;
 }
 _sortRulesForPseudoElement
-:
-function
 (
 )
 {
@@ -542,8 +534,6 @@ z
 ;
 }
 _maybeAddRule
-:
-function
 (
 options
 existingRules
@@ -703,8 +693,6 @@ true
 ;
 }
 markOverriddenAll
-:
-function
 (
 )
 {
@@ -736,8 +724,6 @@ pseudo
 }
 }
 markOverridden
-:
-function
 (
 pseudo
 =
@@ -1064,8 +1050,6 @@ updateEditor
 }
 }
 _updatePropertyOverridden
-:
-function
 (
 prop
 )
@@ -1168,8 +1152,6 @@ prototype
 =
 {
 getProperty
-:
-function
 (
 style
 name
@@ -1221,8 +1203,6 @@ value
 ;
 }
 setProperty
-:
-function
 (
 style
 bame
@@ -1294,8 +1274,6 @@ props
 }
 }
 contains
-:
-function
 (
 style
 name
@@ -1337,8 +1315,6 @@ entry
 ;
 }
 getKey
-:
-function
 (
 style
 name
@@ -1357,8 +1333,6 @@ name
 ;
 }
 clear
-:
-function
 (
 )
 {

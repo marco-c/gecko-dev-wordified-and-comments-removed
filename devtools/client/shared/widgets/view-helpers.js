@@ -61,8 +61,6 @@ Heritage
 =
 {
 extend
-:
-function
 (
 prototype
 properties
@@ -87,8 +85,6 @@ properties
 ;
 }
 getOwnPropertyDescriptors
-:
-function
 (
 object
 )
@@ -312,8 +308,6 @@ ViewHelpers
 =
 {
 dispatchEvent
-:
-function
 (
 target
 type
@@ -389,8 +383,6 @@ event
 ;
 }
 delegateWidgetAttributeMethods
-:
-function
 (
 widget
 node
@@ -452,8 +444,6 @@ node
 ;
 }
 delegateWidgetEventMethods
-:
-function
 (
 widget
 node
@@ -497,8 +487,6 @@ node
 ;
 }
 isEventEmitter
-:
-function
 (
 object
 )
@@ -528,8 +516,6 @@ emit
 ;
 }
 isNode
-:
-function
 (
 object
 )
@@ -551,8 +537,6 @@ DocumentFragment
 ;
 }
 preventScrolling
-:
-function
 (
 e
 )
@@ -619,8 +603,6 @@ stopPropagation
 }
 }
 isSpaceOrReturn
-:
-function
 (
 event
 )
@@ -649,8 +631,6 @@ DOM_VK_RETURN
 ;
 }
 togglePane
-:
-function
 (
 flags
 pane
@@ -1150,8 +1130,6 @@ _prebuiltNode
 ;
 }
 append
-:
-function
 (
 element
 options
@@ -1245,8 +1223,6 @@ item
 ;
 }
 remove
-:
-function
 (
 item
 )
@@ -1280,8 +1256,6 @@ item
 ;
 }
 _entangleItem
-:
-function
 (
 item
 element
@@ -1305,8 +1279,6 @@ element
 ;
 }
 _untangleItem
-:
-function
 (
 item
 )
@@ -1357,8 +1329,6 @@ null
 ;
 }
 _unlinkItem
-:
-function
 (
 item
 )
@@ -1376,8 +1346,6 @@ _target
 ;
 }
 stringify
-:
-function
 (
 )
 {
@@ -1540,8 +1508,6 @@ _widget
 ;
 }
 push
-:
-function
 (
 [
 element
@@ -1590,10 +1556,6 @@ push
 (
 {
 item
-:
-item
-options
-:
 options
 }
 )
@@ -1641,8 +1603,6 @@ options
 ;
 }
 commit
-:
-function
 (
 options
 =
@@ -1720,8 +1680,6 @@ length
 ;
 }
 remove
-:
-function
 (
 item
 )
@@ -1796,8 +1754,6 @@ _emptyText
 }
 }
 removeAt
-:
-function
 (
 index
 )
@@ -1816,8 +1772,6 @@ index
 ;
 }
 removeForPredicate
-:
-function
 (
 predicate
 )
@@ -1849,8 +1803,6 @@ item
 }
 }
 empty
-:
-function
 (
 )
 {
@@ -1938,8 +1890,6 @@ length
 ;
 }
 ensureItemIsVisible
-:
-function
 (
 item
 )
@@ -1957,8 +1907,6 @@ _target
 ;
 }
 ensureIndexIsVisible
-:
-function
 (
 index
 )
@@ -1977,8 +1925,6 @@ index
 ;
 }
 ensureSelectedItemIsVisible
-:
-function
 (
 )
 {
@@ -2054,8 +2000,6 @@ value
 ;
 }
 toggleContents
-:
-function
 (
 visibleFlag
 )
@@ -2082,8 +2026,6 @@ visibleFlag
 }
 }
 filterContents
-:
-function
 (
 predicate
 =
@@ -2124,8 +2066,6 @@ item
 }
 }
 sortContents
-:
-function
 (
 predicate
 =
@@ -2190,8 +2130,6 @@ i
 }
 }
 swapItems
-:
-function
 (
 first
 second
@@ -2489,8 +2427,6 @@ first
 ;
 }
 swapItemsAtIndices
-:
-function
 (
 first
 second
@@ -2516,8 +2452,6 @@ second
 ;
 }
 containsValue
-:
-function
 (
 value
 )
@@ -2707,8 +2641,6 @@ null
 ;
 }
 _selectItem
-:
-function
 (
 item
 )
@@ -2965,8 +2897,6 @@ value
 ;
 }
 forceSelect
-:
-function
 (
 item
 )
@@ -3006,8 +2936,6 @@ pageSize
 :
 0
 focusFirstVisibleItem
-:
-function
 (
 )
 {
@@ -3023,8 +2951,6 @@ itemCount
 ;
 }
 focusLastVisibleItem
-:
-function
 (
 )
 {
@@ -3040,8 +2966,6 @@ itemCount
 ;
 }
 focusNextItem
-:
-function
 (
 )
 {
@@ -3055,8 +2979,6 @@ focusItemAtDelta
 ;
 }
 focusPrevItem
-:
-function
 (
 )
 {
@@ -3070,8 +2992,6 @@ focusItemAtDelta
 ;
 }
 focusItemAtDelta
-:
-function
 (
 delta
 )
@@ -3194,8 +3114,6 @@ _focusedElement
 ;
 }
 _focusChange
-:
-function
 (
 direction
 )
@@ -3363,8 +3281,6 @@ null
 ;
 }
 getItemAtIndex
-:
-function
 (
 index
 )
@@ -3386,8 +3302,6 @@ index
 ;
 }
 getItemByValue
-:
-function
 (
 value
 )
@@ -3404,8 +3318,6 @@ value
 ;
 }
 getItemForElement
-:
-function
 (
 element
 flags
@@ -3489,8 +3401,6 @@ null
 ;
 }
 getItemForPredicate
-:
-function
 (
 predicate
 owner
@@ -3586,8 +3496,6 @@ null
 ;
 }
 getItemForAttachment
-:
-function
 (
 predicate
 owner
@@ -3613,8 +3521,6 @@ attachment
 ;
 }
 indexOfItem
-:
-function
 (
 item
 )
@@ -3631,8 +3537,6 @@ _target
 ;
 }
 _indexOfElement
-:
-function
 (
 element
 )
@@ -3813,8 +3717,6 @@ hidden
 ;
 }
 isUnique
-:
-function
 (
 item
 )
@@ -3868,8 +3770,6 @@ value
 ;
 }
 isEligible
-:
-function
 (
 item
 )
@@ -3889,8 +3789,6 @@ _prebuiltNode
 ;
 }
 _findExpectedIndexFor
-:
-function
 (
 item
 )
@@ -3946,8 +3844,6 @@ itemCount
 ;
 }
 _insertItemAt
-:
-function
 (
 index
 item
@@ -4115,8 +4011,6 @@ item
 ;
 }
 _entangleItem
-:
-function
 (
 item
 element
@@ -4152,8 +4046,6 @@ element
 ;
 }
 _untangleItem
-:
-function
 (
 item
 )
@@ -4204,8 +4096,6 @@ null
 ;
 }
 _unlinkItem
-:
-function
 (
 item
 )
@@ -4234,8 +4124,6 @@ _target
 ;
 }
 _onWidgetKeyPress
-:
-function
 (
 name
 event
@@ -4376,8 +4264,6 @@ break
 }
 }
 _onWidgetMousePress
-:
-function
 (
 name
 event
@@ -4441,8 +4327,6 @@ focus
 }
 }
 _currentFilterPredicate
-:
-function
 (
 item
 )
@@ -4452,8 +4336,6 @@ true
 ;
 }
 _currentSortPredicate
-:
-function
 (
 first
 second
@@ -4481,8 +4363,6 @@ toLowerCase
 ;
 }
 callMethod
-:
-function
 (
 methodName
 .

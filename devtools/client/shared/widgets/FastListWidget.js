@@ -287,8 +287,6 @@ prototype
 =
 {
 insertItemAt
-:
-function
 (
 index
 contents
@@ -372,8 +370,6 @@ element
 ;
 }
 flush
-:
-function
 (
 )
 {
@@ -390,8 +386,6 @@ _fragment
 ;
 }
 removeAllItems
-:
-function
 (
 )
 {
@@ -444,8 +438,6 @@ clear
 ;
 }
 removeChild
-:
-function
 (
 child
 )
@@ -559,8 +551,6 @@ selectedItem
 ;
 }
 getItemAtIndex
-:
-function
 (
 index
 )
@@ -575,8 +565,6 @@ index
 ;
 }
 setAttribute
-:
-function
 (
 name
 value
@@ -611,8 +599,6 @@ value
 }
 }
 removeAttribute
-:
-function
 (
 name
 )
@@ -645,8 +631,6 @@ _removeEmptyText
 }
 }
 ensureElementIsVisible
-:
-function
 (
 element
 )
@@ -730,8 +714,6 @@ _showEmptyText
 ;
 }
 _showEmptyText
-:
-function
 (
 )
 {
@@ -814,8 +796,6 @@ label
 ;
 }
 _removeEmptyText
-:
-function
 (
 )
 {

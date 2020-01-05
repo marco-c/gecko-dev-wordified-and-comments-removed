@@ -590,8 +590,6 @@ data
 :
 result
 id
-:
-id
 }
 )
 ;

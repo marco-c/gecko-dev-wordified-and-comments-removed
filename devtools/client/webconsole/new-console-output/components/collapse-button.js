@@ -81,8 +81,6 @@ PropTypes
 string
 }
 getDefaultProps
-:
-function
 (
 )
 {
@@ -102,8 +100,6 @@ messageToggleDetails
 ;
 }
 render
-:
-function
 (
 )
 {
@@ -160,8 +156,6 @@ join
 "
 )
 onClick
-title
-:
 title
 }
 )

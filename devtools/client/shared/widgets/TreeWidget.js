@@ -388,8 +388,6 @@ _selectedItem
 ;
 }
 isSelected
-:
-function
 (
 item
 )
@@ -464,8 +462,6 @@ true
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -485,8 +481,6 @@ null
 ;
 }
 setupRoot
-:
-function
 (
 )
 {
@@ -616,8 +610,6 @@ e
 ;
 }
 setPlaceholderText
-:
-function
 (
 text
 )
@@ -632,8 +624,6 @@ text
 ;
 }
 selectItem
-:
-function
 (
 id
 )
@@ -646,8 +636,6 @@ id
 ;
 }
 selectNextItem
-:
-function
 (
 )
 {
@@ -674,8 +662,6 @@ next
 }
 }
 selectPreviousItem
-:
-function
 (
 )
 {
@@ -702,8 +688,6 @@ prev
 }
 }
 getNextVisibleItem
-:
-function
 (
 )
 {
@@ -859,8 +843,6 @@ null
 ;
 }
 getPreviousVisibleItem
-:
-function
 (
 )
 {
@@ -1054,8 +1036,6 @@ null
 ;
 }
 clearSelection
-:
-function
 (
 )
 {
@@ -1068,8 +1048,6 @@ selectedItem
 ;
 }
 add
-:
-function
 (
 items
 )
@@ -1170,8 +1148,6 @@ setPlaceholderText
 ;
 }
 remove
-:
-function
 (
 item
 )
@@ -1230,8 +1206,6 @@ emptyText
 }
 }
 clear
-:
-function
 (
 )
 {
@@ -1276,8 +1250,6 @@ emptyText
 }
 }
 expandAll
-:
-function
 (
 )
 {
@@ -1291,8 +1263,6 @@ expandAll
 ;
 }
 collapseAll
-:
-function
 (
 )
 {
@@ -1306,8 +1276,6 @@ collapseAll
 ;
 }
 onClick
-:
-function
 (
 event
 )
@@ -1449,8 +1417,6 @@ ids
 }
 }
 onKeypress
-:
-function
 (
 event
 )
@@ -1601,8 +1567,6 @@ preventDefault
 ;
 }
 ensureSelectedVisible
-:
-function
 (
 )
 {
@@ -1984,8 +1948,6 @@ level
 :
 0
 add
-:
-function
 (
 items
 defaultType
@@ -2310,8 +2272,6 @@ treeItem
 ;
 }
 remove
-:
-function
 (
 items
 =
@@ -2424,8 +2384,6 @@ destroy
 }
 }
 setSelectedItem
-:
-function
 (
 items
 )
@@ -2547,8 +2505,6 @@ null
 ;
 }
 collapseAll
-:
-function
 (
 )
 {
@@ -2594,8 +2550,6 @@ collapseAll
 }
 }
 expandAll
-:
-function
 (
 )
 {
@@ -2644,8 +2598,6 @@ expandAll
 }
 }
 destroy
-:
-function
 (
 )
 {

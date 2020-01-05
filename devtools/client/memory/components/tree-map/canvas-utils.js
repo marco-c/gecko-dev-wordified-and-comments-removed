@@ -145,8 +145,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 )
 {

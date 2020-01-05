@@ -244,8 +244,6 @@ PropTypes
 object
 }
 onFilter
-:
-function
 (
 object
 )
@@ -290,8 +288,6 @@ filter
 ;
 }
 render
-:
-function
 (
 )
 {
@@ -380,10 +376,6 @@ MODE
 .
 SHORT
 columns
-:
-columns
-renderValue
-:
 renderValue
 onFilter
 :

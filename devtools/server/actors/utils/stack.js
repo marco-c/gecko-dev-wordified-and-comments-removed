@@ -26,8 +26,6 @@ Class
 (
 {
 initialize
-:
-function
 (
 )
 {
@@ -51,8 +49,6 @@ _lastEventSize
 ;
 }
 initFrames
-:
-function
 (
 )
 {
@@ -92,8 +88,6 @@ _lastEventSize
 ;
 }
 clearFrames
-:
-function
 (
 )
 {
@@ -133,8 +127,6 @@ _lastEventSize
 ;
 }
 addFrame
-:
-function
 (
 frame
 )
@@ -165,8 +157,6 @@ frame
 ;
 }
 updateFramePacket
-:
-function
 (
 packet
 )
@@ -229,8 +219,6 @@ packet
 ;
 }
 makeEvent
-:
-function
 (
 )
 {
@@ -332,8 +320,6 @@ packet
 ;
 }
 _assignFrameIndices
-:
-function
 (
 frame
 )
@@ -398,8 +384,6 @@ index
 ;
 }
 _createFrameForms
-:
-function
 (
 frame
 )
