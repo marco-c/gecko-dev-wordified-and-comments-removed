@@ -1,0 +1,16 @@
+#
+include
+<
+inttypes
+.
+h
+>
+namespace
+js
+{
+uint32_t
+GetCPUCount
+(
+)
+;
+}

@@ -109,11 +109,6 @@ js
 class
 AutoLockHelperThreadState
 ;
-unsigned
-GetCPUCount
-(
-)
-;
 namespace
 gcstats
 {
