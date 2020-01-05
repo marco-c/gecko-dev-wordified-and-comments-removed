@@ -588,6 +588,7 @@ pub
 mod
 wrapper
 ;
+pub
 mod
 extra
 ;
