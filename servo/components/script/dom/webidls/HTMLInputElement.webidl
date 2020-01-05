@@ -257,8 +257,6 @@ attribute
 DOMString
 pattern
 ;
-/
-/
 attribute
 DOMString
 placeholder
