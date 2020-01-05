@@ -40,9 +40,10 @@ from
 .
 util
 .
-verifydoc
+verify
 import
 verify_docs
+verify_task_graph_symbol
 logger
 =
 logging
@@ -1407,6 +1408,17 @@ nodes
 }
             
 target_graph
+)
+        
+target_task_graph
+.
+for_each_task
+(
+verify_task_graph_symbol
+scratch_pad
+=
+{
+}
 )
         
 yield
