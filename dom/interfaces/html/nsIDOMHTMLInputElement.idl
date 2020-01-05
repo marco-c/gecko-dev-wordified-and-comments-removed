@@ -504,10 +504,6 @@ select
 (
 )
 ;
-attribute
-long
-selectionEnd
-;
 void
 setSelectionRange
 (

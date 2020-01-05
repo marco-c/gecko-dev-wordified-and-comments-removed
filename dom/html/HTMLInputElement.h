@@ -1082,6 +1082,14 @@ ErrorResult
 aRv
 )
 ;
+int32_t
+GetSelectionEndIgnoringType
+(
+ErrorResult
+&
+aRv
+)
+;
 void
 GetDisplayFileName
 (
