@@ -117,6 +117,11 @@ TestFailUpdate
 cpp
 '
 '
+TestLookupCacheV4
+.
+cpp
+'
+'
 TestPerProviderDirectory
 .
 cpp
