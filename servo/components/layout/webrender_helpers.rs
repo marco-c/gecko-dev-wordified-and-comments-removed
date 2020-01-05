@@ -3232,7 +3232,7 @@ pop_stacking_context
 DisplayItem
 :
 :
-PushScrollRoot
+DefineClip
 (
 ref
 item
@@ -3317,17 +3317,6 @@ pop_clip_id
 (
 )
 ;
-}
-DisplayItem
-:
-:
-PopScrollRoot
-(
-_
-)
-=
->
-{
 }
 }
 }
