@@ -68,7 +68,7 @@ info
 vec4
 start_end_point
 ;
-uvec4
+vec4
 stop_count
 ;
 vec4

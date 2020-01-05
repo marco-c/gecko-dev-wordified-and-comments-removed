@@ -62,10 +62,10 @@ MPL
 struct
 Blend
 {
-uvec4
+vec4
 target_rect
 ;
-uvec4
+vec4
 src_rect
 ;
 vec4

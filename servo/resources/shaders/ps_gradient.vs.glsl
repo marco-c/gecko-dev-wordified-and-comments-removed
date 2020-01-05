@@ -85,7 +85,7 @@ color0
 vec4
 color1
 ;
-uvec4
+vec4
 dir
 ;
 Clip
@@ -221,11 +221,14 @@ local_clamped_pos
 endif
 switch
 (
+uint
+(
 gradient
 .
 dir
 .
 x
+)
 )
 {
 case

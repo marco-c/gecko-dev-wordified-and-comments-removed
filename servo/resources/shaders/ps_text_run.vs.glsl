@@ -65,7 +65,7 @@ TextRunGlyph
 vec4
 local_rect
 ;
-ivec4
+vec4
 uv_rect
 ;
 }
@@ -140,7 +140,7 @@ glyph
 .
 local_rect
 ;
-ivec4
+vec4
 uv_rect
 =
 glyph

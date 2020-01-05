@@ -68,7 +68,7 @@ info
 vec4
 color
 ;
-ivec4
+vec4
 uv_rect
 ;
 }
