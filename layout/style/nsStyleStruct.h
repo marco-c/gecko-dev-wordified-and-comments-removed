@@ -13073,6 +13073,17 @@ mType
 =
 =
 eStyleContentType_Image
+&
+&
+!
+mContent
+.
+mImage
+-
+>
+IsResolved
+(
+)
 )
 {
 mContent
