@@ -566,7 +566,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 jstring
 MOZ_JNICALL
 Java_org_mozilla_gecko_NSSBridge_nativeEncrypt
@@ -692,7 +692,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 jstring
 MOZ_JNICALL
 Java_org_mozilla_gecko_NSSBridge_nativeDecrypt

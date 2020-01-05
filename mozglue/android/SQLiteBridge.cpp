@@ -761,7 +761,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 jobject
 MOZ_JNICALL
 Java_org_mozilla_gecko_sqlite_SQLiteBridge_sqliteCall
@@ -891,7 +891,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 jobject
 MOZ_JNICALL
 Java_org_mozilla_gecko_sqlite_SQLiteBridge_sqliteCallWithDb
@@ -949,7 +949,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 jlong
 MOZ_JNICALL
 Java_org_mozilla_gecko_sqlite_SQLiteBridge_openDatabase
@@ -1055,7 +1055,7 @@ extern
 "
 C
 "
-NS_EXPORT
+APKOPEN_EXPORT
 void
 MOZ_JNICALL
 Java_org_mozilla_gecko_sqlite_SQLiteBridge_closeDatabase

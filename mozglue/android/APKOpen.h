@@ -20,10 +20,10 @@ h
 >
 #
 ifndef
-NS_EXPORT
+APKOPEN_EXPORT
 #
 define
-NS_EXPORT
+APKOPEN_EXPORT
 __attribute__
 (
 (
@@ -55,7 +55,7 @@ offset
 ;
 }
 ;
-NS_EXPORT
+APKOPEN_EXPORT
 const
 struct
 mapping_info
@@ -64,7 +64,7 @@ getLibraryMapping
 (
 )
 ;
-NS_EXPORT
+APKOPEN_EXPORT
 void
 abortThroughJava
 (
@@ -74,7 +74,7 @@ char
 msg
 )
 ;
-NS_EXPORT
+APKOPEN_EXPORT
 pthread_t
 getJavaUiThread
 (
