@@ -543,6 +543,9 @@ bool
 mUsingSSL
 ;
 bool
+mProxyUsingSSL
+;
+bool
 mIsPrivate
 ;
 nsISupports
