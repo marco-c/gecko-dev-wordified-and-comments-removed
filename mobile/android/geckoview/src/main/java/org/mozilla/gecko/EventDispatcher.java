@@ -1143,6 +1143,9 @@ isReadyForDispatchingToGecko
 )
 &
 &
+mAttachedToGecko
+&
+&
 hasGeckoListener
 (
 type
