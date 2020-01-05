@@ -362,6 +362,12 @@ support
 pass
 .
 xht
+fails
+-
+if
+(
+stylo
+)
 =
 =
 css
@@ -376,6 +382,12 @@ support
 pass
 .
 xht
+fails
+-
+if
+(
+stylo
+)
 =
 =
 css

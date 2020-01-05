@@ -177,6 +177,12 @@ webcomponents
 enabled
 true
 )
+fails
+-
+if
+(
+stylo
+)
 =
 =
 basic
@@ -455,6 +461,12 @@ webcomponents
 .
 enabled
 true
+)
+skip
+-
+if
+(
+stylo
 )
 =
 =

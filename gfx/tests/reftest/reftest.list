@@ -29,6 +29,12 @@ fuzzy
 175
 443
 )
+skip
+-
+if
+(
+stylo
+)
 =
 =
 611498
@@ -48,6 +54,12 @@ if
 Android
 8
 1000
+)
+fails
+-
+if
+(
+stylo
 )
 =
 =

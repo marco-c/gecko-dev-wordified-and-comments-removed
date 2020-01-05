@@ -1,3 +1,9 @@
+fails
+-
+if
+(
+stylo
+)
 =
 =
 default
@@ -12,6 +18,12 @@ style
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 default

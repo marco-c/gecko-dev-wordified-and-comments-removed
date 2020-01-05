@@ -1161,6 +1161,12 @@ xyzzy
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 lang
@@ -1179,6 +1185,12 @@ xmllang
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 style

@@ -1,3 +1,9 @@
+fails
+-
+if
+(
+stylo
+)
 =
 =
 legend
@@ -25,6 +31,12 @@ webcomponents
 enabled
 true
 )
+fails
+-
+if
+(
+stylo
+)
 =
 =
 shadow
@@ -49,6 +61,12 @@ html
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 1339287

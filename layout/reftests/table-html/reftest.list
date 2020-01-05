@@ -1,3 +1,9 @@
+fails
+-
+if
+(
+stylo
+)
 =
 =
 cell
@@ -32,6 +38,12 @@ standards
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 cell

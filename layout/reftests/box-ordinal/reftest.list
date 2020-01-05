@@ -101,6 +101,12 @@ ref
 .
 xul
 fails
+-
+if
+(
+!
+stylo
+)
 =
 =
 dynamic
