@@ -97,6 +97,15 @@ GMPUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+SystemGroup
+.
+h
+"
 namespace
 mozilla
 {
