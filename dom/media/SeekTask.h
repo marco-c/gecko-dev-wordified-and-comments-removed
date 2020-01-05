@@ -171,13 +171,6 @@ const
 =
 0
 ;
-const
-SeekTarget
-&
-GetSeekTarget
-(
-)
-;
 virtual
 void
 HandleAudioDecoded

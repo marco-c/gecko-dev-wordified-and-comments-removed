@@ -3297,12 +3297,9 @@ mMaster
 >
 UpdatePlaybackPositionInternal
 (
-mSeekTask
--
->
-GetSeekTarget
-(
-)
+mSeekJob
+.
+mTarget
 .
 GetTime
 (
