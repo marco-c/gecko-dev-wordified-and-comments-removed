@@ -1533,17 +1533,6 @@ function
 (
 )
 {
-if
-(
-gFront
-.
-LEGACY_FRONT
-)
-{
-return
-true
-;
-}
 let
 hasActor
 =
