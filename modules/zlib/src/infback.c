@@ -286,6 +286,9 @@ state
 >
 wbits
 =
+(
+uInt
+)
 windowBits
 ;
 state
