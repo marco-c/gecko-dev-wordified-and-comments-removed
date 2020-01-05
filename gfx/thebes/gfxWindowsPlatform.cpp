@@ -972,16 +972,6 @@ nullptr
 ;
 if
 (
-!
-IsWin7OrLater
-(
-)
-)
-return
-NS_OK
-;
-if
-(
 (
 gdi32Handle
 =
@@ -7919,9 +7909,6 @@ FeatureStatus
 Unavailable
 "
 Windows
-XP
-Vista
-and
 7
 Pre
 -
