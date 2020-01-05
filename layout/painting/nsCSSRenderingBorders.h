@@ -321,6 +321,11 @@ DrawBorders
 (
 )
 ;
+bool
+CanCreateWebrenderCommands
+(
+)
+;
 void
 CreateWebRenderCommands
 (
