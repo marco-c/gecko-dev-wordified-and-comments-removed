@@ -119,16 +119,9 @@ NS_DECL_ABSTRACT_FRAME
 nsSVGGradientFrame
 )
 virtual
-mozilla
-:
-:
-Pair
-<
-DrawResult
-RefPtr
+already_AddRefed
 <
 gfxPattern
->
 >
 GetPaintServerPattern
 (
