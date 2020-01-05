@@ -537,7 +537,7 @@ self
 ;
 document
 .
-url
+base_url
 (
 )
 .
