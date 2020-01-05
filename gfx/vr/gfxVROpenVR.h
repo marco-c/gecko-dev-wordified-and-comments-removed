@@ -442,6 +442,13 @@ ScanForDevices
 )
 override
 ;
+virtual
+void
+RemoveDevices
+(
+)
+override
+;
 private
 :
 VRControllerManagerOpenVR
