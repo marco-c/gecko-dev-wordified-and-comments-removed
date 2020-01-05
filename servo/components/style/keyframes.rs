@@ -1103,6 +1103,7 @@ fn
 parse_prelude
 (
 &
+mut
 self
 input
 :
@@ -1216,6 +1217,7 @@ fn
 parse_block
 (
 &
+mut
 self
 prelude
 :
@@ -1499,6 +1501,7 @@ fn
 parse_value
 (
 &
+mut
 self
 name
 :

@@ -3969,6 +3969,7 @@ fn
 parse_value
 (
 &
+mut
 self
 name
 :
