@@ -7258,7 +7258,10 @@ styleUI
 mWindowDragging
 =
 =
-NS_STYLE_WINDOW_DRAGGING_DEFAULT
+StyleWindowDragging
+:
+:
+Default
 )
 {
 return
@@ -7474,7 +7477,10 @@ styleUI
 mWindowDragging
 =
 =
-NS_STYLE_WINDOW_DRAGGING_DRAG
+StyleWindowDragging
+:
+:
+Drag
 )
 {
 mWindowDraggingRegion

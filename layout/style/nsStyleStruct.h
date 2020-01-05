@@ -13427,7 +13427,10 @@ mForceBrokenImageIcon
 uint8_t
 mIMEMode
 ;
-uint8_t
+mozilla
+:
+:
+StyleWindowDragging
 mWindowDragging
 ;
 uint8_t

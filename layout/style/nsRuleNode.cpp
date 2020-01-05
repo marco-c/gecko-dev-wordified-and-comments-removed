@@ -6700,6 +6700,12 @@ StyleUserModify
 ReadOnly
 WriteOnly
 )
+DEFINE_ENUM_CLASS_SETTER
+(
+StyleWindowDragging
+Default
+NoDrag
+)
 #
 ifdef
 MOZ_XUL
@@ -25386,7 +25392,10 @@ parentUI
 -
 >
 mWindowDragging
-NS_STYLE_WINDOW_DRAGGING_DEFAULT
+StyleWindowDragging
+:
+:
+Default
 )
 ;
 SetValue
