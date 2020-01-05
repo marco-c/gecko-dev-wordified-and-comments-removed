@@ -2268,6 +2268,10 @@ gtk_style_context_invalidate
 )
 STUB
 (
+gtk_style_context_list_classes
+)
+STUB
+(
 gtk_style_context_new
 )
 STUB
