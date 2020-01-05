@@ -930,7 +930,7 @@ currentLabelIndex_
 ;
 static
 bool
-AstDecodeGenerateName
+GenerateName
 (
 AstDecodeContext
 &
@@ -1136,7 +1136,7 @@ true
 }
 static
 bool
-AstDecodeGenerateRef
+GenerateRef
 (
 AstDecodeContext
 &
@@ -1186,7 +1186,7 @@ name
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 prefix
@@ -1704,7 +1704,7 @@ funcDefIndex
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -1960,7 +1960,7 @@ sigRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -2199,7 +2199,7 @@ empty
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -4701,7 +4701,7 @@ localRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -4813,7 +4813,7 @@ localRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -4948,7 +4948,7 @@ localRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -5054,7 +5054,7 @@ globalRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -5166,7 +5166,7 @@ globalRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -7969,7 +7969,7 @@ sigName
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -8282,7 +8282,7 @@ importName
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -8306,7 +8306,7 @@ sigRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -8363,7 +8363,7 @@ importName
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -8465,7 +8465,7 @@ importName
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -8528,7 +8528,7 @@ importName
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -8898,7 +8898,7 @@ name
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -9137,7 +9137,7 @@ name
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -9259,7 +9259,7 @@ globalRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -9374,7 +9374,7 @@ name
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -10202,7 +10202,7 @@ funcName
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -10308,7 +10308,7 @@ varName
 if
 (
 !
-AstDecodeGenerateName
+GenerateName
 (
 c
 AstName
@@ -10578,7 +10578,7 @@ sigRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
@@ -11620,7 +11620,7 @@ funcRef
 if
 (
 !
-AstDecodeGenerateRef
+GenerateRef
 (
 c
 AstName
