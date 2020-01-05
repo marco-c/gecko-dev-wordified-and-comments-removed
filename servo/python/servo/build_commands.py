@@ -290,9 +290,11 @@ time
 (
 )
         
+status
+=
 subprocess
 .
-check_call
+call
 (
 [
 "
@@ -335,6 +337,9 @@ in
 %
 elapsed
 )
+        
+return
+status
     
 Command
 (
@@ -600,9 +605,10 @@ j
 jobs
 ]
         
+return
 subprocess
 .
-check_call
+call
 (
 [
 "
@@ -761,9 +767,10 @@ v
 "
 ]
         
+return
 subprocess
 .
-check_call
+call
 (
 [
 "
