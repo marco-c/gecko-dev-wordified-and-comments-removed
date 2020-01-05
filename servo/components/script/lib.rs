@@ -155,6 +155,14 @@ str_utf16
 [
 feature
 (
+unicode
+)
+]
+#
+!
+[
+feature
+(
 vec_push_all
 )
 ]
@@ -277,6 +285,10 @@ num
 extern
 crate
 rustc_serialize
+;
+extern
+crate
+rustc_unicode
 ;
 extern
 crate
