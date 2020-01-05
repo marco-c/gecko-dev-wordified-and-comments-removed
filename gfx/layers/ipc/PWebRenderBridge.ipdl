@@ -120,6 +120,17 @@ h
 "
 ;
 include
+"
+mozilla
+/
+layers
+/
+WebRenderMessageUtils
+.
+h
+"
+;
+include
 WebRenderMessages
 ;
 include
