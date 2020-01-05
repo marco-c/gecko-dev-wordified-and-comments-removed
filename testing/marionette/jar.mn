@@ -333,6 +333,16 @@ addon
 .
 js
 )
+content
+/
+session
+.
+js
+(
+session
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
