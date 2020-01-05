@@ -31214,6 +31214,13 @@ event
 .
 buttons
 =
+pointerMessage
+=
+=
+ePointerUp
+?
+0
+:
 WidgetMouseEvent
 :
 :
