@@ -786,9 +786,6 @@ DecryptJob
 >
 mDecryptionJobs
 ;
-uint32_t
-mDecryptionJobCount
-;
 bool
 mShutdownCalled
 ;
