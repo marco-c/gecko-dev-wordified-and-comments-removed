@@ -142,8 +142,6 @@ attribute
 boolean
 defaultChecked
 ;
-/
-/
 attribute
 boolean
 checked
@@ -261,8 +259,6 @@ attribute
 boolean
 multiple
 ;
-/
-/
 attribute
 DOMString
 name
@@ -291,8 +287,6 @@ attribute
 boolean
 required
 ;
-/
-/
 attribute
 unsigned
 long
@@ -318,12 +312,15 @@ type
 ;
 /
 /
+XXXjdm
+need
+binaryName
+/
+/
 attribute
 DOMString
 defaultValue
 ;
-/
-/
 [
 TreatNullAs
 =
