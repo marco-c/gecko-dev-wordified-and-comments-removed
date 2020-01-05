@@ -4212,10 +4212,10 @@ mSSLStatus
 SetServerCert
 (
 cert
-nsNSSCertificate
+EVStatus
 :
 :
-ev_status_invalid
+NotEV
 )
 ;
 mSSLStatus

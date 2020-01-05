@@ -740,20 +740,6 @@ nsIObjectOutputStream
 aStream
 )
 {
-uint32_t
-status
-=
-static_cast
-<
-uint32_t
->
-(
-nsNSSCertificate
-:
-:
-ev_status_unknown
-)
-;
 nsresult
 rv
 =
@@ -762,7 +748,7 @@ aStream
 >
 Write32
 (
-status
+0
 )
 ;
 if
@@ -831,7 +817,7 @@ aStream
 )
 {
 uint32_t
-cachedEVStatus
+unusedCachedEVStatus
 ;
 nsresult
 rv
@@ -842,7 +828,7 @@ aStream
 Read32
 (
 &
-cachedEVStatus
+unusedCachedEVStatus
 )
 ;
 if
