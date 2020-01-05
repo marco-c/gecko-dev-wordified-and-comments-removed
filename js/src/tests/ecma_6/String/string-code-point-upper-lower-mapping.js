@@ -44,7 +44,7 @@ String
 .
 fromCodePoint
 (
-0x1042a
+0x1042A
 )
 .
 toUpperCase
@@ -64,7 +64,7 @@ String
 .
 fromCodePoint
 (
-0x1042b
+0x1042B
 )
 .
 toUpperCase
@@ -84,7 +84,7 @@ String
 .
 fromCodePoint
 (
-0x1042c
+0x1042C
 )
 .
 toUpperCase
@@ -104,7 +104,7 @@ String
 .
 fromCodePoint
 (
-0x1042d
+0x1042D
 )
 .
 toUpperCase
@@ -124,7 +124,7 @@ String
 .
 fromCodePoint
 (
-0x1042e
+0x1042E
 )
 .
 toUpperCase
@@ -144,7 +144,7 @@ String
 .
 fromCodePoint
 (
-0x1042f
+0x1042F
 )
 .
 toUpperCase
@@ -215,7 +215,7 @@ codePointAt
 (
 0
 )
-0x1040a
+0x1040A
 )
 ;
 assertEq
@@ -235,7 +235,7 @@ codePointAt
 (
 0
 )
-0x1040b
+0x1040B
 )
 ;
 assertEq
@@ -255,7 +255,7 @@ codePointAt
 (
 0
 )
-0x1040c
+0x1040C
 )
 ;
 assertEq
@@ -275,7 +275,7 @@ codePointAt
 (
 0
 )
-0x1040d
+0x1040D
 )
 ;
 assertEq
@@ -295,7 +295,7 @@ codePointAt
 (
 0
 )
-0x1040e
+0x1040E
 )
 ;
 assertEq
@@ -315,7 +315,7 @@ codePointAt
 (
 0
 )
-0x1040f
+0x1040F
 )
 ;
 assertEq
@@ -364,7 +364,7 @@ String
 .
 fromCodePoint
 (
-0x1043a
+0x1043A
 )
 .
 toUpperCase
@@ -384,7 +384,7 @@ String
 .
 fromCodePoint
 (
-0x1043b
+0x1043B
 )
 .
 toUpperCase
@@ -404,7 +404,7 @@ String
 .
 fromCodePoint
 (
-0x1043c
+0x1043C
 )
 .
 toUpperCase
@@ -424,7 +424,7 @@ String
 .
 fromCodePoint
 (
-0x1043d
+0x1043D
 )
 .
 toUpperCase
@@ -444,7 +444,7 @@ String
 .
 fromCodePoint
 (
-0x1043e
+0x1043E
 )
 .
 toUpperCase
@@ -464,7 +464,7 @@ String
 .
 fromCodePoint
 (
-0x1043f
+0x1043F
 )
 .
 toUpperCase
@@ -535,7 +535,7 @@ codePointAt
 (
 0
 )
-0x1041a
+0x1041A
 )
 ;
 assertEq
@@ -555,7 +555,7 @@ codePointAt
 (
 0
 )
-0x1041b
+0x1041B
 )
 ;
 assertEq
@@ -575,7 +575,7 @@ codePointAt
 (
 0
 )
-0x1041c
+0x1041C
 )
 ;
 assertEq
@@ -595,7 +595,7 @@ codePointAt
 (
 0
 )
-0x1041d
+0x1041D
 )
 ;
 assertEq
@@ -615,7 +615,7 @@ codePointAt
 (
 0
 )
-0x1041e
+0x1041E
 )
 ;
 assertEq
@@ -635,7 +635,7 @@ codePointAt
 (
 0
 )
-0x1041f
+0x1041F
 )
 ;
 assertEq
@@ -684,7 +684,7 @@ String
 .
 fromCodePoint
 (
-0x1044a
+0x1044A
 )
 .
 toUpperCase
@@ -704,7 +704,7 @@ String
 .
 fromCodePoint
 (
-0x1044b
+0x1044B
 )
 .
 toUpperCase
@@ -724,7 +724,7 @@ String
 .
 fromCodePoint
 (
-0x1044c
+0x1044C
 )
 .
 toUpperCase
@@ -744,7 +744,7 @@ String
 .
 fromCodePoint
 (
-0x1044d
+0x1044D
 )
 .
 toUpperCase
@@ -764,7 +764,7 @@ String
 .
 fromCodePoint
 (
-0x1044e
+0x1044E
 )
 .
 toUpperCase
@@ -784,7 +784,7 @@ String
 .
 fromCodePoint
 (
-0x1044f
+0x1044F
 )
 .
 toUpperCase
@@ -804,7 +804,7 @@ String
 .
 fromCodePoint
 (
-0x104d8
+0x104D8
 )
 .
 toUpperCase
@@ -815,7 +815,7 @@ codePointAt
 (
 0
 )
-0x104b0
+0x104B0
 )
 ;
 assertEq
@@ -824,7 +824,7 @@ String
 .
 fromCodePoint
 (
-0x104d9
+0x104D9
 )
 .
 toUpperCase
@@ -835,7 +835,7 @@ codePointAt
 (
 0
 )
-0x104b1
+0x104B1
 )
 ;
 assertEq
@@ -844,7 +844,7 @@ String
 .
 fromCodePoint
 (
-0x104da
+0x104DA
 )
 .
 toUpperCase
@@ -855,7 +855,7 @@ codePointAt
 (
 0
 )
-0x104b2
+0x104B2
 )
 ;
 assertEq
@@ -864,7 +864,7 @@ String
 .
 fromCodePoint
 (
-0x104db
+0x104DB
 )
 .
 toUpperCase
@@ -875,7 +875,7 @@ codePointAt
 (
 0
 )
-0x104b3
+0x104B3
 )
 ;
 assertEq
@@ -884,7 +884,7 @@ String
 .
 fromCodePoint
 (
-0x104dc
+0x104DC
 )
 .
 toUpperCase
@@ -895,7 +895,7 @@ codePointAt
 (
 0
 )
-0x104b4
+0x104B4
 )
 ;
 assertEq
@@ -904,7 +904,7 @@ String
 .
 fromCodePoint
 (
-0x104dd
+0x104DD
 )
 .
 toUpperCase
@@ -915,7 +915,7 @@ codePointAt
 (
 0
 )
-0x104b5
+0x104B5
 )
 ;
 assertEq
@@ -924,7 +924,7 @@ String
 .
 fromCodePoint
 (
-0x104de
+0x104DE
 )
 .
 toUpperCase
@@ -935,7 +935,7 @@ codePointAt
 (
 0
 )
-0x104b6
+0x104B6
 )
 ;
 assertEq
@@ -944,7 +944,7 @@ String
 .
 fromCodePoint
 (
-0x104df
+0x104DF
 )
 .
 toUpperCase
@@ -955,7 +955,7 @@ codePointAt
 (
 0
 )
-0x104b7
+0x104B7
 )
 ;
 assertEq
@@ -964,7 +964,7 @@ String
 .
 fromCodePoint
 (
-0x104e0
+0x104E0
 )
 .
 toUpperCase
@@ -975,7 +975,7 @@ codePointAt
 (
 0
 )
-0x104b8
+0x104B8
 )
 ;
 assertEq
@@ -984,7 +984,7 @@ String
 .
 fromCodePoint
 (
-0x104e1
+0x104E1
 )
 .
 toUpperCase
@@ -995,7 +995,7 @@ codePointAt
 (
 0
 )
-0x104b9
+0x104B9
 )
 ;
 assertEq
@@ -1004,7 +1004,7 @@ String
 .
 fromCodePoint
 (
-0x104e2
+0x104E2
 )
 .
 toUpperCase
@@ -1015,7 +1015,7 @@ codePointAt
 (
 0
 )
-0x104ba
+0x104BA
 )
 ;
 assertEq
@@ -1024,7 +1024,7 @@ String
 .
 fromCodePoint
 (
-0x104e3
+0x104E3
 )
 .
 toUpperCase
@@ -1035,7 +1035,7 @@ codePointAt
 (
 0
 )
-0x104bb
+0x104BB
 )
 ;
 assertEq
@@ -1044,7 +1044,7 @@ String
 .
 fromCodePoint
 (
-0x104e4
+0x104E4
 )
 .
 toUpperCase
@@ -1055,7 +1055,7 @@ codePointAt
 (
 0
 )
-0x104bc
+0x104BC
 )
 ;
 assertEq
@@ -1064,7 +1064,7 @@ String
 .
 fromCodePoint
 (
-0x104e5
+0x104E5
 )
 .
 toUpperCase
@@ -1075,7 +1075,7 @@ codePointAt
 (
 0
 )
-0x104bd
+0x104BD
 )
 ;
 assertEq
@@ -1084,7 +1084,7 @@ String
 .
 fromCodePoint
 (
-0x104e6
+0x104E6
 )
 .
 toUpperCase
@@ -1095,7 +1095,7 @@ codePointAt
 (
 0
 )
-0x104be
+0x104BE
 )
 ;
 assertEq
@@ -1104,7 +1104,7 @@ String
 .
 fromCodePoint
 (
-0x104e7
+0x104E7
 )
 .
 toUpperCase
@@ -1115,7 +1115,7 @@ codePointAt
 (
 0
 )
-0x104bf
+0x104BF
 )
 ;
 assertEq
@@ -1124,7 +1124,7 @@ String
 .
 fromCodePoint
 (
-0x104e8
+0x104E8
 )
 .
 toUpperCase
@@ -1135,7 +1135,7 @@ codePointAt
 (
 0
 )
-0x104c0
+0x104C0
 )
 ;
 assertEq
@@ -1144,7 +1144,7 @@ String
 .
 fromCodePoint
 (
-0x104e9
+0x104E9
 )
 .
 toUpperCase
@@ -1155,7 +1155,7 @@ codePointAt
 (
 0
 )
-0x104c1
+0x104C1
 )
 ;
 assertEq
@@ -1164,7 +1164,7 @@ String
 .
 fromCodePoint
 (
-0x104ea
+0x104EA
 )
 .
 toUpperCase
@@ -1175,7 +1175,7 @@ codePointAt
 (
 0
 )
-0x104c2
+0x104C2
 )
 ;
 assertEq
@@ -1184,7 +1184,7 @@ String
 .
 fromCodePoint
 (
-0x104eb
+0x104EB
 )
 .
 toUpperCase
@@ -1195,7 +1195,7 @@ codePointAt
 (
 0
 )
-0x104c3
+0x104C3
 )
 ;
 assertEq
@@ -1204,7 +1204,7 @@ String
 .
 fromCodePoint
 (
-0x104ec
+0x104EC
 )
 .
 toUpperCase
@@ -1215,7 +1215,7 @@ codePointAt
 (
 0
 )
-0x104c4
+0x104C4
 )
 ;
 assertEq
@@ -1224,7 +1224,7 @@ String
 .
 fromCodePoint
 (
-0x104ed
+0x104ED
 )
 .
 toUpperCase
@@ -1235,7 +1235,7 @@ codePointAt
 (
 0
 )
-0x104c5
+0x104C5
 )
 ;
 assertEq
@@ -1244,7 +1244,7 @@ String
 .
 fromCodePoint
 (
-0x104ee
+0x104EE
 )
 .
 toUpperCase
@@ -1255,7 +1255,7 @@ codePointAt
 (
 0
 )
-0x104c6
+0x104C6
 )
 ;
 assertEq
@@ -1264,7 +1264,7 @@ String
 .
 fromCodePoint
 (
-0x104ef
+0x104EF
 )
 .
 toUpperCase
@@ -1275,7 +1275,7 @@ codePointAt
 (
 0
 )
-0x104c7
+0x104C7
 )
 ;
 assertEq
@@ -1284,7 +1284,7 @@ String
 .
 fromCodePoint
 (
-0x104f0
+0x104F0
 )
 .
 toUpperCase
@@ -1295,7 +1295,7 @@ codePointAt
 (
 0
 )
-0x104c8
+0x104C8
 )
 ;
 assertEq
@@ -1304,7 +1304,7 @@ String
 .
 fromCodePoint
 (
-0x104f1
+0x104F1
 )
 .
 toUpperCase
@@ -1315,7 +1315,7 @@ codePointAt
 (
 0
 )
-0x104c9
+0x104C9
 )
 ;
 assertEq
@@ -1324,7 +1324,7 @@ String
 .
 fromCodePoint
 (
-0x104f2
+0x104F2
 )
 .
 toUpperCase
@@ -1335,7 +1335,7 @@ codePointAt
 (
 0
 )
-0x104ca
+0x104CA
 )
 ;
 assertEq
@@ -1344,7 +1344,7 @@ String
 .
 fromCodePoint
 (
-0x104f3
+0x104F3
 )
 .
 toUpperCase
@@ -1355,7 +1355,7 @@ codePointAt
 (
 0
 )
-0x104cb
+0x104CB
 )
 ;
 assertEq
@@ -1364,7 +1364,7 @@ String
 .
 fromCodePoint
 (
-0x104f4
+0x104F4
 )
 .
 toUpperCase
@@ -1375,7 +1375,7 @@ codePointAt
 (
 0
 )
-0x104cc
+0x104CC
 )
 ;
 assertEq
@@ -1384,7 +1384,7 @@ String
 .
 fromCodePoint
 (
-0x104f5
+0x104F5
 )
 .
 toUpperCase
@@ -1395,7 +1395,7 @@ codePointAt
 (
 0
 )
-0x104cd
+0x104CD
 )
 ;
 assertEq
@@ -1404,7 +1404,7 @@ String
 .
 fromCodePoint
 (
-0x104f6
+0x104F6
 )
 .
 toUpperCase
@@ -1415,7 +1415,7 @@ codePointAt
 (
 0
 )
-0x104ce
+0x104CE
 )
 ;
 assertEq
@@ -1424,7 +1424,7 @@ String
 .
 fromCodePoint
 (
-0x104f7
+0x104F7
 )
 .
 toUpperCase
@@ -1435,7 +1435,7 @@ codePointAt
 (
 0
 )
-0x104cf
+0x104CF
 )
 ;
 assertEq
@@ -1444,7 +1444,7 @@ String
 .
 fromCodePoint
 (
-0x104f8
+0x104F8
 )
 .
 toUpperCase
@@ -1455,7 +1455,7 @@ codePointAt
 (
 0
 )
-0x104d0
+0x104D0
 )
 ;
 assertEq
@@ -1464,7 +1464,7 @@ String
 .
 fromCodePoint
 (
-0x104f9
+0x104F9
 )
 .
 toUpperCase
@@ -1475,7 +1475,7 @@ codePointAt
 (
 0
 )
-0x104d1
+0x104D1
 )
 ;
 assertEq
@@ -1484,7 +1484,7 @@ String
 .
 fromCodePoint
 (
-0x104fa
+0x104FA
 )
 .
 toUpperCase
@@ -1495,7 +1495,7 @@ codePointAt
 (
 0
 )
-0x104d2
+0x104D2
 )
 ;
 assertEq
@@ -1504,7 +1504,7 @@ String
 .
 fromCodePoint
 (
-0x104fb
+0x104FB
 )
 .
 toUpperCase
@@ -1515,7 +1515,7 @@ codePointAt
 (
 0
 )
-0x104d3
+0x104D3
 )
 ;
 assertEq
@@ -1524,7 +1524,7 @@ String
 .
 fromCodePoint
 (
-0x10cc0
+0x10CC0
 )
 .
 toUpperCase
@@ -1535,7 +1535,7 @@ codePointAt
 (
 0
 )
-0x10c80
+0x10C80
 )
 ;
 assertEq
@@ -1544,7 +1544,7 @@ String
 .
 fromCodePoint
 (
-0x10cc1
+0x10CC1
 )
 .
 toUpperCase
@@ -1555,7 +1555,7 @@ codePointAt
 (
 0
 )
-0x10c81
+0x10C81
 )
 ;
 assertEq
@@ -1564,7 +1564,7 @@ String
 .
 fromCodePoint
 (
-0x10cc2
+0x10CC2
 )
 .
 toUpperCase
@@ -1575,7 +1575,7 @@ codePointAt
 (
 0
 )
-0x10c82
+0x10C82
 )
 ;
 assertEq
@@ -1584,7 +1584,7 @@ String
 .
 fromCodePoint
 (
-0x10cc3
+0x10CC3
 )
 .
 toUpperCase
@@ -1595,7 +1595,7 @@ codePointAt
 (
 0
 )
-0x10c83
+0x10C83
 )
 ;
 assertEq
@@ -1604,7 +1604,7 @@ String
 .
 fromCodePoint
 (
-0x10cc4
+0x10CC4
 )
 .
 toUpperCase
@@ -1615,7 +1615,7 @@ codePointAt
 (
 0
 )
-0x10c84
+0x10C84
 )
 ;
 assertEq
@@ -1624,7 +1624,7 @@ String
 .
 fromCodePoint
 (
-0x10cc5
+0x10CC5
 )
 .
 toUpperCase
@@ -1635,7 +1635,7 @@ codePointAt
 (
 0
 )
-0x10c85
+0x10C85
 )
 ;
 assertEq
@@ -1644,7 +1644,7 @@ String
 .
 fromCodePoint
 (
-0x10cc6
+0x10CC6
 )
 .
 toUpperCase
@@ -1655,7 +1655,7 @@ codePointAt
 (
 0
 )
-0x10c86
+0x10C86
 )
 ;
 assertEq
@@ -1664,7 +1664,7 @@ String
 .
 fromCodePoint
 (
-0x10cc7
+0x10CC7
 )
 .
 toUpperCase
@@ -1675,7 +1675,7 @@ codePointAt
 (
 0
 )
-0x10c87
+0x10C87
 )
 ;
 assertEq
@@ -1684,7 +1684,7 @@ String
 .
 fromCodePoint
 (
-0x10cc8
+0x10CC8
 )
 .
 toUpperCase
@@ -1695,7 +1695,7 @@ codePointAt
 (
 0
 )
-0x10c88
+0x10C88
 )
 ;
 assertEq
@@ -1704,7 +1704,7 @@ String
 .
 fromCodePoint
 (
-0x10cc9
+0x10CC9
 )
 .
 toUpperCase
@@ -1715,7 +1715,7 @@ codePointAt
 (
 0
 )
-0x10c89
+0x10C89
 )
 ;
 assertEq
@@ -1724,7 +1724,7 @@ String
 .
 fromCodePoint
 (
-0x10cca
+0x10CCA
 )
 .
 toUpperCase
@@ -1735,7 +1735,7 @@ codePointAt
 (
 0
 )
-0x10c8a
+0x10C8A
 )
 ;
 assertEq
@@ -1744,7 +1744,7 @@ String
 .
 fromCodePoint
 (
-0x10ccb
+0x10CCB
 )
 .
 toUpperCase
@@ -1755,7 +1755,7 @@ codePointAt
 (
 0
 )
-0x10c8b
+0x10C8B
 )
 ;
 assertEq
@@ -1764,7 +1764,7 @@ String
 .
 fromCodePoint
 (
-0x10ccc
+0x10CCC
 )
 .
 toUpperCase
@@ -1775,7 +1775,7 @@ codePointAt
 (
 0
 )
-0x10c8c
+0x10C8C
 )
 ;
 assertEq
@@ -1784,7 +1784,7 @@ String
 .
 fromCodePoint
 (
-0x10ccd
+0x10CCD
 )
 .
 toUpperCase
@@ -1795,7 +1795,7 @@ codePointAt
 (
 0
 )
-0x10c8d
+0x10C8D
 )
 ;
 assertEq
@@ -1804,7 +1804,7 @@ String
 .
 fromCodePoint
 (
-0x10cce
+0x10CCE
 )
 .
 toUpperCase
@@ -1815,7 +1815,7 @@ codePointAt
 (
 0
 )
-0x10c8e
+0x10C8E
 )
 ;
 assertEq
@@ -1824,7 +1824,7 @@ String
 .
 fromCodePoint
 (
-0x10ccf
+0x10CCF
 )
 .
 toUpperCase
@@ -1835,7 +1835,7 @@ codePointAt
 (
 0
 )
-0x10c8f
+0x10C8F
 )
 ;
 assertEq
@@ -1844,7 +1844,7 @@ String
 .
 fromCodePoint
 (
-0x10cd0
+0x10CD0
 )
 .
 toUpperCase
@@ -1855,7 +1855,7 @@ codePointAt
 (
 0
 )
-0x10c90
+0x10C90
 )
 ;
 assertEq
@@ -1864,7 +1864,7 @@ String
 .
 fromCodePoint
 (
-0x10cd1
+0x10CD1
 )
 .
 toUpperCase
@@ -1875,7 +1875,7 @@ codePointAt
 (
 0
 )
-0x10c91
+0x10C91
 )
 ;
 assertEq
@@ -1884,7 +1884,7 @@ String
 .
 fromCodePoint
 (
-0x10cd2
+0x10CD2
 )
 .
 toUpperCase
@@ -1895,7 +1895,7 @@ codePointAt
 (
 0
 )
-0x10c92
+0x10C92
 )
 ;
 assertEq
@@ -1904,7 +1904,7 @@ String
 .
 fromCodePoint
 (
-0x10cd3
+0x10CD3
 )
 .
 toUpperCase
@@ -1915,7 +1915,7 @@ codePointAt
 (
 0
 )
-0x10c93
+0x10C93
 )
 ;
 assertEq
@@ -1924,7 +1924,7 @@ String
 .
 fromCodePoint
 (
-0x10cd4
+0x10CD4
 )
 .
 toUpperCase
@@ -1935,7 +1935,7 @@ codePointAt
 (
 0
 )
-0x10c94
+0x10C94
 )
 ;
 assertEq
@@ -1944,7 +1944,7 @@ String
 .
 fromCodePoint
 (
-0x10cd5
+0x10CD5
 )
 .
 toUpperCase
@@ -1955,7 +1955,7 @@ codePointAt
 (
 0
 )
-0x10c95
+0x10C95
 )
 ;
 assertEq
@@ -1964,7 +1964,7 @@ String
 .
 fromCodePoint
 (
-0x10cd6
+0x10CD6
 )
 .
 toUpperCase
@@ -1975,7 +1975,7 @@ codePointAt
 (
 0
 )
-0x10c96
+0x10C96
 )
 ;
 assertEq
@@ -1984,7 +1984,7 @@ String
 .
 fromCodePoint
 (
-0x10cd7
+0x10CD7
 )
 .
 toUpperCase
@@ -1995,7 +1995,7 @@ codePointAt
 (
 0
 )
-0x10c97
+0x10C97
 )
 ;
 assertEq
@@ -2004,7 +2004,7 @@ String
 .
 fromCodePoint
 (
-0x10cd8
+0x10CD8
 )
 .
 toUpperCase
@@ -2015,7 +2015,7 @@ codePointAt
 (
 0
 )
-0x10c98
+0x10C98
 )
 ;
 assertEq
@@ -2024,7 +2024,7 @@ String
 .
 fromCodePoint
 (
-0x10cd9
+0x10CD9
 )
 .
 toUpperCase
@@ -2035,7 +2035,7 @@ codePointAt
 (
 0
 )
-0x10c99
+0x10C99
 )
 ;
 assertEq
@@ -2044,7 +2044,7 @@ String
 .
 fromCodePoint
 (
-0x10cda
+0x10CDA
 )
 .
 toUpperCase
@@ -2055,7 +2055,7 @@ codePointAt
 (
 0
 )
-0x10c9a
+0x10C9A
 )
 ;
 assertEq
@@ -2064,7 +2064,7 @@ String
 .
 fromCodePoint
 (
-0x10cdb
+0x10CDB
 )
 .
 toUpperCase
@@ -2075,7 +2075,7 @@ codePointAt
 (
 0
 )
-0x10c9b
+0x10C9B
 )
 ;
 assertEq
@@ -2084,7 +2084,7 @@ String
 .
 fromCodePoint
 (
-0x10cdc
+0x10CDC
 )
 .
 toUpperCase
@@ -2095,7 +2095,7 @@ codePointAt
 (
 0
 )
-0x10c9c
+0x10C9C
 )
 ;
 assertEq
@@ -2104,7 +2104,7 @@ String
 .
 fromCodePoint
 (
-0x10cdd
+0x10CDD
 )
 .
 toUpperCase
@@ -2115,7 +2115,7 @@ codePointAt
 (
 0
 )
-0x10c9d
+0x10C9D
 )
 ;
 assertEq
@@ -2124,7 +2124,7 @@ String
 .
 fromCodePoint
 (
-0x10cde
+0x10CDE
 )
 .
 toUpperCase
@@ -2135,7 +2135,7 @@ codePointAt
 (
 0
 )
-0x10c9e
+0x10C9E
 )
 ;
 assertEq
@@ -2144,7 +2144,7 @@ String
 .
 fromCodePoint
 (
-0x10cdf
+0x10CDF
 )
 .
 toUpperCase
@@ -2155,7 +2155,7 @@ codePointAt
 (
 0
 )
-0x10c9f
+0x10C9F
 )
 ;
 assertEq
@@ -2164,7 +2164,7 @@ String
 .
 fromCodePoint
 (
-0x10ce0
+0x10CE0
 )
 .
 toUpperCase
@@ -2175,7 +2175,7 @@ codePointAt
 (
 0
 )
-0x10ca0
+0x10CA0
 )
 ;
 assertEq
@@ -2184,7 +2184,7 @@ String
 .
 fromCodePoint
 (
-0x10ce1
+0x10CE1
 )
 .
 toUpperCase
@@ -2195,7 +2195,7 @@ codePointAt
 (
 0
 )
-0x10ca1
+0x10CA1
 )
 ;
 assertEq
@@ -2204,7 +2204,7 @@ String
 .
 fromCodePoint
 (
-0x10ce2
+0x10CE2
 )
 .
 toUpperCase
@@ -2215,7 +2215,7 @@ codePointAt
 (
 0
 )
-0x10ca2
+0x10CA2
 )
 ;
 assertEq
@@ -2224,7 +2224,7 @@ String
 .
 fromCodePoint
 (
-0x10ce3
+0x10CE3
 )
 .
 toUpperCase
@@ -2235,7 +2235,7 @@ codePointAt
 (
 0
 )
-0x10ca3
+0x10CA3
 )
 ;
 assertEq
@@ -2244,7 +2244,7 @@ String
 .
 fromCodePoint
 (
-0x10ce4
+0x10CE4
 )
 .
 toUpperCase
@@ -2255,7 +2255,7 @@ codePointAt
 (
 0
 )
-0x10ca4
+0x10CA4
 )
 ;
 assertEq
@@ -2264,7 +2264,7 @@ String
 .
 fromCodePoint
 (
-0x10ce5
+0x10CE5
 )
 .
 toUpperCase
@@ -2275,7 +2275,7 @@ codePointAt
 (
 0
 )
-0x10ca5
+0x10CA5
 )
 ;
 assertEq
@@ -2284,7 +2284,7 @@ String
 .
 fromCodePoint
 (
-0x10ce6
+0x10CE6
 )
 .
 toUpperCase
@@ -2295,7 +2295,7 @@ codePointAt
 (
 0
 )
-0x10ca6
+0x10CA6
 )
 ;
 assertEq
@@ -2304,7 +2304,7 @@ String
 .
 fromCodePoint
 (
-0x10ce7
+0x10CE7
 )
 .
 toUpperCase
@@ -2315,7 +2315,7 @@ codePointAt
 (
 0
 )
-0x10ca7
+0x10CA7
 )
 ;
 assertEq
@@ -2324,7 +2324,7 @@ String
 .
 fromCodePoint
 (
-0x10ce8
+0x10CE8
 )
 .
 toUpperCase
@@ -2335,7 +2335,7 @@ codePointAt
 (
 0
 )
-0x10ca8
+0x10CA8
 )
 ;
 assertEq
@@ -2344,7 +2344,7 @@ String
 .
 fromCodePoint
 (
-0x10ce9
+0x10CE9
 )
 .
 toUpperCase
@@ -2355,7 +2355,7 @@ codePointAt
 (
 0
 )
-0x10ca9
+0x10CA9
 )
 ;
 assertEq
@@ -2364,7 +2364,7 @@ String
 .
 fromCodePoint
 (
-0x10cea
+0x10CEA
 )
 .
 toUpperCase
@@ -2375,7 +2375,7 @@ codePointAt
 (
 0
 )
-0x10caa
+0x10CAA
 )
 ;
 assertEq
@@ -2384,7 +2384,7 @@ String
 .
 fromCodePoint
 (
-0x10ceb
+0x10CEB
 )
 .
 toUpperCase
@@ -2395,7 +2395,7 @@ codePointAt
 (
 0
 )
-0x10cab
+0x10CAB
 )
 ;
 assertEq
@@ -2404,7 +2404,7 @@ String
 .
 fromCodePoint
 (
-0x10cec
+0x10CEC
 )
 .
 toUpperCase
@@ -2415,7 +2415,7 @@ codePointAt
 (
 0
 )
-0x10cac
+0x10CAC
 )
 ;
 assertEq
@@ -2424,7 +2424,7 @@ String
 .
 fromCodePoint
 (
-0x10ced
+0x10CED
 )
 .
 toUpperCase
@@ -2435,7 +2435,7 @@ codePointAt
 (
 0
 )
-0x10cad
+0x10CAD
 )
 ;
 assertEq
@@ -2444,7 +2444,7 @@ String
 .
 fromCodePoint
 (
-0x10cee
+0x10CEE
 )
 .
 toUpperCase
@@ -2455,7 +2455,7 @@ codePointAt
 (
 0
 )
-0x10cae
+0x10CAE
 )
 ;
 assertEq
@@ -2464,7 +2464,7 @@ String
 .
 fromCodePoint
 (
-0x10cef
+0x10CEF
 )
 .
 toUpperCase
@@ -2475,7 +2475,7 @@ codePointAt
 (
 0
 )
-0x10caf
+0x10CAF
 )
 ;
 assertEq
@@ -2484,7 +2484,7 @@ String
 .
 fromCodePoint
 (
-0x10cf0
+0x10CF0
 )
 .
 toUpperCase
@@ -2495,7 +2495,7 @@ codePointAt
 (
 0
 )
-0x10cb0
+0x10CB0
 )
 ;
 assertEq
@@ -2504,7 +2504,7 @@ String
 .
 fromCodePoint
 (
-0x10cf1
+0x10CF1
 )
 .
 toUpperCase
@@ -2515,7 +2515,7 @@ codePointAt
 (
 0
 )
-0x10cb1
+0x10CB1
 )
 ;
 assertEq
@@ -2524,7 +2524,7 @@ String
 .
 fromCodePoint
 (
-0x10cf2
+0x10CF2
 )
 .
 toUpperCase
@@ -2535,7 +2535,7 @@ codePointAt
 (
 0
 )
-0x10cb2
+0x10CB2
 )
 ;
 assertEq
@@ -2544,7 +2544,7 @@ String
 .
 fromCodePoint
 (
-0x118c0
+0x118C0
 )
 .
 toUpperCase
@@ -2555,7 +2555,7 @@ codePointAt
 (
 0
 )
-0x118a0
+0x118A0
 )
 ;
 assertEq
@@ -2564,7 +2564,7 @@ String
 .
 fromCodePoint
 (
-0x118c1
+0x118C1
 )
 .
 toUpperCase
@@ -2575,7 +2575,7 @@ codePointAt
 (
 0
 )
-0x118a1
+0x118A1
 )
 ;
 assertEq
@@ -2584,7 +2584,7 @@ String
 .
 fromCodePoint
 (
-0x118c2
+0x118C2
 )
 .
 toUpperCase
@@ -2595,7 +2595,7 @@ codePointAt
 (
 0
 )
-0x118a2
+0x118A2
 )
 ;
 assertEq
@@ -2604,7 +2604,7 @@ String
 .
 fromCodePoint
 (
-0x118c3
+0x118C3
 )
 .
 toUpperCase
@@ -2615,7 +2615,7 @@ codePointAt
 (
 0
 )
-0x118a3
+0x118A3
 )
 ;
 assertEq
@@ -2624,7 +2624,7 @@ String
 .
 fromCodePoint
 (
-0x118c4
+0x118C4
 )
 .
 toUpperCase
@@ -2635,7 +2635,7 @@ codePointAt
 (
 0
 )
-0x118a4
+0x118A4
 )
 ;
 assertEq
@@ -2644,7 +2644,7 @@ String
 .
 fromCodePoint
 (
-0x118c5
+0x118C5
 )
 .
 toUpperCase
@@ -2655,7 +2655,7 @@ codePointAt
 (
 0
 )
-0x118a5
+0x118A5
 )
 ;
 assertEq
@@ -2664,7 +2664,7 @@ String
 .
 fromCodePoint
 (
-0x118c6
+0x118C6
 )
 .
 toUpperCase
@@ -2675,7 +2675,7 @@ codePointAt
 (
 0
 )
-0x118a6
+0x118A6
 )
 ;
 assertEq
@@ -2684,7 +2684,7 @@ String
 .
 fromCodePoint
 (
-0x118c7
+0x118C7
 )
 .
 toUpperCase
@@ -2695,7 +2695,7 @@ codePointAt
 (
 0
 )
-0x118a7
+0x118A7
 )
 ;
 assertEq
@@ -2704,7 +2704,7 @@ String
 .
 fromCodePoint
 (
-0x118c8
+0x118C8
 )
 .
 toUpperCase
@@ -2715,7 +2715,7 @@ codePointAt
 (
 0
 )
-0x118a8
+0x118A8
 )
 ;
 assertEq
@@ -2724,7 +2724,7 @@ String
 .
 fromCodePoint
 (
-0x118c9
+0x118C9
 )
 .
 toUpperCase
@@ -2735,7 +2735,7 @@ codePointAt
 (
 0
 )
-0x118a9
+0x118A9
 )
 ;
 assertEq
@@ -2744,7 +2744,7 @@ String
 .
 fromCodePoint
 (
-0x118ca
+0x118CA
 )
 .
 toUpperCase
@@ -2755,7 +2755,7 @@ codePointAt
 (
 0
 )
-0x118aa
+0x118AA
 )
 ;
 assertEq
@@ -2764,7 +2764,7 @@ String
 .
 fromCodePoint
 (
-0x118cb
+0x118CB
 )
 .
 toUpperCase
@@ -2775,7 +2775,7 @@ codePointAt
 (
 0
 )
-0x118ab
+0x118AB
 )
 ;
 assertEq
@@ -2784,7 +2784,7 @@ String
 .
 fromCodePoint
 (
-0x118cc
+0x118CC
 )
 .
 toUpperCase
@@ -2795,7 +2795,7 @@ codePointAt
 (
 0
 )
-0x118ac
+0x118AC
 )
 ;
 assertEq
@@ -2804,7 +2804,7 @@ String
 .
 fromCodePoint
 (
-0x118cd
+0x118CD
 )
 .
 toUpperCase
@@ -2815,7 +2815,7 @@ codePointAt
 (
 0
 )
-0x118ad
+0x118AD
 )
 ;
 assertEq
@@ -2824,7 +2824,7 @@ String
 .
 fromCodePoint
 (
-0x118ce
+0x118CE
 )
 .
 toUpperCase
@@ -2835,7 +2835,7 @@ codePointAt
 (
 0
 )
-0x118ae
+0x118AE
 )
 ;
 assertEq
@@ -2844,7 +2844,7 @@ String
 .
 fromCodePoint
 (
-0x118cf
+0x118CF
 )
 .
 toUpperCase
@@ -2855,7 +2855,7 @@ codePointAt
 (
 0
 )
-0x118af
+0x118AF
 )
 ;
 assertEq
@@ -2864,7 +2864,7 @@ String
 .
 fromCodePoint
 (
-0x118d0
+0x118D0
 )
 .
 toUpperCase
@@ -2875,7 +2875,7 @@ codePointAt
 (
 0
 )
-0x118b0
+0x118B0
 )
 ;
 assertEq
@@ -2884,7 +2884,7 @@ String
 .
 fromCodePoint
 (
-0x118d1
+0x118D1
 )
 .
 toUpperCase
@@ -2895,7 +2895,7 @@ codePointAt
 (
 0
 )
-0x118b1
+0x118B1
 )
 ;
 assertEq
@@ -2904,7 +2904,7 @@ String
 .
 fromCodePoint
 (
-0x118d2
+0x118D2
 )
 .
 toUpperCase
@@ -2915,7 +2915,7 @@ codePointAt
 (
 0
 )
-0x118b2
+0x118B2
 )
 ;
 assertEq
@@ -2924,7 +2924,7 @@ String
 .
 fromCodePoint
 (
-0x118d3
+0x118D3
 )
 .
 toUpperCase
@@ -2935,7 +2935,7 @@ codePointAt
 (
 0
 )
-0x118b3
+0x118B3
 )
 ;
 assertEq
@@ -2944,7 +2944,7 @@ String
 .
 fromCodePoint
 (
-0x118d4
+0x118D4
 )
 .
 toUpperCase
@@ -2955,7 +2955,7 @@ codePointAt
 (
 0
 )
-0x118b4
+0x118B4
 )
 ;
 assertEq
@@ -2964,7 +2964,7 @@ String
 .
 fromCodePoint
 (
-0x118d5
+0x118D5
 )
 .
 toUpperCase
@@ -2975,7 +2975,7 @@ codePointAt
 (
 0
 )
-0x118b5
+0x118B5
 )
 ;
 assertEq
@@ -2984,7 +2984,7 @@ String
 .
 fromCodePoint
 (
-0x118d6
+0x118D6
 )
 .
 toUpperCase
@@ -2995,7 +2995,7 @@ codePointAt
 (
 0
 )
-0x118b6
+0x118B6
 )
 ;
 assertEq
@@ -3004,7 +3004,7 @@ String
 .
 fromCodePoint
 (
-0x118d7
+0x118D7
 )
 .
 toUpperCase
@@ -3015,7 +3015,7 @@ codePointAt
 (
 0
 )
-0x118b7
+0x118B7
 )
 ;
 assertEq
@@ -3024,7 +3024,7 @@ String
 .
 fromCodePoint
 (
-0x118d8
+0x118D8
 )
 .
 toUpperCase
@@ -3035,7 +3035,7 @@ codePointAt
 (
 0
 )
-0x118b8
+0x118B8
 )
 ;
 assertEq
@@ -3044,7 +3044,7 @@ String
 .
 fromCodePoint
 (
-0x118d9
+0x118D9
 )
 .
 toUpperCase
@@ -3055,7 +3055,7 @@ codePointAt
 (
 0
 )
-0x118b9
+0x118B9
 )
 ;
 assertEq
@@ -3064,7 +3064,7 @@ String
 .
 fromCodePoint
 (
-0x118da
+0x118DA
 )
 .
 toUpperCase
@@ -3075,7 +3075,7 @@ codePointAt
 (
 0
 )
-0x118ba
+0x118BA
 )
 ;
 assertEq
@@ -3084,7 +3084,7 @@ String
 .
 fromCodePoint
 (
-0x118db
+0x118DB
 )
 .
 toUpperCase
@@ -3095,7 +3095,7 @@ codePointAt
 (
 0
 )
-0x118bb
+0x118BB
 )
 ;
 assertEq
@@ -3104,7 +3104,7 @@ String
 .
 fromCodePoint
 (
-0x118dc
+0x118DC
 )
 .
 toUpperCase
@@ -3115,7 +3115,7 @@ codePointAt
 (
 0
 )
-0x118bc
+0x118BC
 )
 ;
 assertEq
@@ -3124,7 +3124,7 @@ String
 .
 fromCodePoint
 (
-0x118dd
+0x118DD
 )
 .
 toUpperCase
@@ -3135,7 +3135,7 @@ codePointAt
 (
 0
 )
-0x118bd
+0x118BD
 )
 ;
 assertEq
@@ -3144,7 +3144,7 @@ String
 .
 fromCodePoint
 (
-0x118de
+0x118DE
 )
 .
 toUpperCase
@@ -3155,7 +3155,7 @@ codePointAt
 (
 0
 )
-0x118be
+0x118BE
 )
 ;
 assertEq
@@ -3164,7 +3164,7 @@ String
 .
 fromCodePoint
 (
-0x118df
+0x118DF
 )
 .
 toUpperCase
@@ -3175,7 +3175,7 @@ codePointAt
 (
 0
 )
-0x118bf
+0x118BF
 )
 ;
 assertEq
@@ -3184,7 +3184,7 @@ String
 .
 fromCodePoint
 (
-0x1e922
+0x1E922
 )
 .
 toUpperCase
@@ -3195,7 +3195,7 @@ codePointAt
 (
 0
 )
-0x1e900
+0x1E900
 )
 ;
 assertEq
@@ -3204,7 +3204,7 @@ String
 .
 fromCodePoint
 (
-0x1e923
+0x1E923
 )
 .
 toUpperCase
@@ -3215,7 +3215,7 @@ codePointAt
 (
 0
 )
-0x1e901
+0x1E901
 )
 ;
 assertEq
@@ -3224,7 +3224,7 @@ String
 .
 fromCodePoint
 (
-0x1e924
+0x1E924
 )
 .
 toUpperCase
@@ -3235,7 +3235,7 @@ codePointAt
 (
 0
 )
-0x1e902
+0x1E902
 )
 ;
 assertEq
@@ -3244,7 +3244,7 @@ String
 .
 fromCodePoint
 (
-0x1e925
+0x1E925
 )
 .
 toUpperCase
@@ -3255,7 +3255,7 @@ codePointAt
 (
 0
 )
-0x1e903
+0x1E903
 )
 ;
 assertEq
@@ -3264,7 +3264,7 @@ String
 .
 fromCodePoint
 (
-0x1e926
+0x1E926
 )
 .
 toUpperCase
@@ -3275,7 +3275,7 @@ codePointAt
 (
 0
 )
-0x1e904
+0x1E904
 )
 ;
 assertEq
@@ -3284,7 +3284,7 @@ String
 .
 fromCodePoint
 (
-0x1e927
+0x1E927
 )
 .
 toUpperCase
@@ -3295,7 +3295,7 @@ codePointAt
 (
 0
 )
-0x1e905
+0x1E905
 )
 ;
 assertEq
@@ -3304,7 +3304,7 @@ String
 .
 fromCodePoint
 (
-0x1e928
+0x1E928
 )
 .
 toUpperCase
@@ -3315,7 +3315,7 @@ codePointAt
 (
 0
 )
-0x1e906
+0x1E906
 )
 ;
 assertEq
@@ -3324,7 +3324,7 @@ String
 .
 fromCodePoint
 (
-0x1e929
+0x1E929
 )
 .
 toUpperCase
@@ -3335,7 +3335,7 @@ codePointAt
 (
 0
 )
-0x1e907
+0x1E907
 )
 ;
 assertEq
@@ -3344,7 +3344,7 @@ String
 .
 fromCodePoint
 (
-0x1e92a
+0x1E92A
 )
 .
 toUpperCase
@@ -3355,7 +3355,7 @@ codePointAt
 (
 0
 )
-0x1e908
+0x1E908
 )
 ;
 assertEq
@@ -3364,7 +3364,7 @@ String
 .
 fromCodePoint
 (
-0x1e92b
+0x1E92B
 )
 .
 toUpperCase
@@ -3375,7 +3375,7 @@ codePointAt
 (
 0
 )
-0x1e909
+0x1E909
 )
 ;
 assertEq
@@ -3384,7 +3384,7 @@ String
 .
 fromCodePoint
 (
-0x1e92c
+0x1E92C
 )
 .
 toUpperCase
@@ -3395,7 +3395,7 @@ codePointAt
 (
 0
 )
-0x1e90a
+0x1E90A
 )
 ;
 assertEq
@@ -3404,7 +3404,7 @@ String
 .
 fromCodePoint
 (
-0x1e92d
+0x1E92D
 )
 .
 toUpperCase
@@ -3415,7 +3415,7 @@ codePointAt
 (
 0
 )
-0x1e90b
+0x1E90B
 )
 ;
 assertEq
@@ -3424,7 +3424,7 @@ String
 .
 fromCodePoint
 (
-0x1e92e
+0x1E92E
 )
 .
 toUpperCase
@@ -3435,7 +3435,7 @@ codePointAt
 (
 0
 )
-0x1e90c
+0x1E90C
 )
 ;
 assertEq
@@ -3444,7 +3444,7 @@ String
 .
 fromCodePoint
 (
-0x1e92f
+0x1E92F
 )
 .
 toUpperCase
@@ -3455,7 +3455,7 @@ codePointAt
 (
 0
 )
-0x1e90d
+0x1E90D
 )
 ;
 assertEq
@@ -3464,7 +3464,7 @@ String
 .
 fromCodePoint
 (
-0x1e930
+0x1E930
 )
 .
 toUpperCase
@@ -3475,7 +3475,7 @@ codePointAt
 (
 0
 )
-0x1e90e
+0x1E90E
 )
 ;
 assertEq
@@ -3484,7 +3484,7 @@ String
 .
 fromCodePoint
 (
-0x1e931
+0x1E931
 )
 .
 toUpperCase
@@ -3495,7 +3495,7 @@ codePointAt
 (
 0
 )
-0x1e90f
+0x1E90F
 )
 ;
 assertEq
@@ -3504,7 +3504,7 @@ String
 .
 fromCodePoint
 (
-0x1e932
+0x1E932
 )
 .
 toUpperCase
@@ -3515,7 +3515,7 @@ codePointAt
 (
 0
 )
-0x1e910
+0x1E910
 )
 ;
 assertEq
@@ -3524,7 +3524,7 @@ String
 .
 fromCodePoint
 (
-0x1e933
+0x1E933
 )
 .
 toUpperCase
@@ -3535,7 +3535,7 @@ codePointAt
 (
 0
 )
-0x1e911
+0x1E911
 )
 ;
 assertEq
@@ -3544,7 +3544,7 @@ String
 .
 fromCodePoint
 (
-0x1e934
+0x1E934
 )
 .
 toUpperCase
@@ -3555,7 +3555,7 @@ codePointAt
 (
 0
 )
-0x1e912
+0x1E912
 )
 ;
 assertEq
@@ -3564,7 +3564,7 @@ String
 .
 fromCodePoint
 (
-0x1e935
+0x1E935
 )
 .
 toUpperCase
@@ -3575,7 +3575,7 @@ codePointAt
 (
 0
 )
-0x1e913
+0x1E913
 )
 ;
 assertEq
@@ -3584,7 +3584,7 @@ String
 .
 fromCodePoint
 (
-0x1e936
+0x1E936
 )
 .
 toUpperCase
@@ -3595,7 +3595,7 @@ codePointAt
 (
 0
 )
-0x1e914
+0x1E914
 )
 ;
 assertEq
@@ -3604,7 +3604,7 @@ String
 .
 fromCodePoint
 (
-0x1e937
+0x1E937
 )
 .
 toUpperCase
@@ -3615,7 +3615,7 @@ codePointAt
 (
 0
 )
-0x1e915
+0x1E915
 )
 ;
 assertEq
@@ -3624,7 +3624,7 @@ String
 .
 fromCodePoint
 (
-0x1e938
+0x1E938
 )
 .
 toUpperCase
@@ -3635,7 +3635,7 @@ codePointAt
 (
 0
 )
-0x1e916
+0x1E916
 )
 ;
 assertEq
@@ -3644,7 +3644,7 @@ String
 .
 fromCodePoint
 (
-0x1e939
+0x1E939
 )
 .
 toUpperCase
@@ -3655,7 +3655,7 @@ codePointAt
 (
 0
 )
-0x1e917
+0x1E917
 )
 ;
 assertEq
@@ -3664,7 +3664,7 @@ String
 .
 fromCodePoint
 (
-0x1e93a
+0x1E93A
 )
 .
 toUpperCase
@@ -3675,7 +3675,7 @@ codePointAt
 (
 0
 )
-0x1e918
+0x1E918
 )
 ;
 assertEq
@@ -3684,7 +3684,7 @@ String
 .
 fromCodePoint
 (
-0x1e93b
+0x1E93B
 )
 .
 toUpperCase
@@ -3695,7 +3695,7 @@ codePointAt
 (
 0
 )
-0x1e919
+0x1E919
 )
 ;
 assertEq
@@ -3704,7 +3704,7 @@ String
 .
 fromCodePoint
 (
-0x1e93c
+0x1E93C
 )
 .
 toUpperCase
@@ -3715,7 +3715,7 @@ codePointAt
 (
 0
 )
-0x1e91a
+0x1E91A
 )
 ;
 assertEq
@@ -3724,7 +3724,7 @@ String
 .
 fromCodePoint
 (
-0x1e93d
+0x1E93D
 )
 .
 toUpperCase
@@ -3735,7 +3735,7 @@ codePointAt
 (
 0
 )
-0x1e91b
+0x1E91B
 )
 ;
 assertEq
@@ -3744,7 +3744,7 @@ String
 .
 fromCodePoint
 (
-0x1e93e
+0x1E93E
 )
 .
 toUpperCase
@@ -3755,7 +3755,7 @@ codePointAt
 (
 0
 )
-0x1e91c
+0x1E91C
 )
 ;
 assertEq
@@ -3764,7 +3764,7 @@ String
 .
 fromCodePoint
 (
-0x1e93f
+0x1E93F
 )
 .
 toUpperCase
@@ -3775,7 +3775,7 @@ codePointAt
 (
 0
 )
-0x1e91d
+0x1E91D
 )
 ;
 assertEq
@@ -3784,7 +3784,7 @@ String
 .
 fromCodePoint
 (
-0x1e940
+0x1E940
 )
 .
 toUpperCase
@@ -3795,7 +3795,7 @@ codePointAt
 (
 0
 )
-0x1e91e
+0x1E91E
 )
 ;
 assertEq
@@ -3804,7 +3804,7 @@ String
 .
 fromCodePoint
 (
-0x1e941
+0x1E941
 )
 .
 toUpperCase
@@ -3815,7 +3815,7 @@ codePointAt
 (
 0
 )
-0x1e91f
+0x1E91F
 )
 ;
 assertEq
@@ -3824,7 +3824,7 @@ String
 .
 fromCodePoint
 (
-0x1e942
+0x1E942
 )
 .
 toUpperCase
@@ -3835,7 +3835,7 @@ codePointAt
 (
 0
 )
-0x1e920
+0x1E920
 )
 ;
 assertEq
@@ -3844,7 +3844,7 @@ String
 .
 fromCodePoint
 (
-0x1e943
+0x1E943
 )
 .
 toUpperCase
@@ -3855,7 +3855,7 @@ codePointAt
 (
 0
 )
-0x1e921
+0x1E921
 )
 ;
 assertEq
@@ -3915,7 +3915,7 @@ codePointAt
 (
 0
 )
-0x1042a
+0x1042A
 )
 ;
 assertEq
@@ -3935,7 +3935,7 @@ codePointAt
 (
 0
 )
-0x1042b
+0x1042B
 )
 ;
 assertEq
@@ -3955,7 +3955,7 @@ codePointAt
 (
 0
 )
-0x1042c
+0x1042C
 )
 ;
 assertEq
@@ -3975,7 +3975,7 @@ codePointAt
 (
 0
 )
-0x1042d
+0x1042D
 )
 ;
 assertEq
@@ -3995,7 +3995,7 @@ codePointAt
 (
 0
 )
-0x1042e
+0x1042E
 )
 ;
 assertEq
@@ -4015,7 +4015,7 @@ codePointAt
 (
 0
 )
-0x1042f
+0x1042F
 )
 ;
 assertEq
@@ -4064,7 +4064,7 @@ String
 .
 fromCodePoint
 (
-0x1040a
+0x1040A
 )
 .
 toLowerCase
@@ -4084,7 +4084,7 @@ String
 .
 fromCodePoint
 (
-0x1040b
+0x1040B
 )
 .
 toLowerCase
@@ -4104,7 +4104,7 @@ String
 .
 fromCodePoint
 (
-0x1040c
+0x1040C
 )
 .
 toLowerCase
@@ -4124,7 +4124,7 @@ String
 .
 fromCodePoint
 (
-0x1040d
+0x1040D
 )
 .
 toLowerCase
@@ -4144,7 +4144,7 @@ String
 .
 fromCodePoint
 (
-0x1040e
+0x1040E
 )
 .
 toLowerCase
@@ -4164,7 +4164,7 @@ String
 .
 fromCodePoint
 (
-0x1040f
+0x1040F
 )
 .
 toLowerCase
@@ -4235,7 +4235,7 @@ codePointAt
 (
 0
 )
-0x1043a
+0x1043A
 )
 ;
 assertEq
@@ -4255,7 +4255,7 @@ codePointAt
 (
 0
 )
-0x1043b
+0x1043B
 )
 ;
 assertEq
@@ -4275,7 +4275,7 @@ codePointAt
 (
 0
 )
-0x1043c
+0x1043C
 )
 ;
 assertEq
@@ -4295,7 +4295,7 @@ codePointAt
 (
 0
 )
-0x1043d
+0x1043D
 )
 ;
 assertEq
@@ -4315,7 +4315,7 @@ codePointAt
 (
 0
 )
-0x1043e
+0x1043E
 )
 ;
 assertEq
@@ -4335,7 +4335,7 @@ codePointAt
 (
 0
 )
-0x1043f
+0x1043F
 )
 ;
 assertEq
@@ -4384,7 +4384,7 @@ String
 .
 fromCodePoint
 (
-0x1041a
+0x1041A
 )
 .
 toLowerCase
@@ -4404,7 +4404,7 @@ String
 .
 fromCodePoint
 (
-0x1041b
+0x1041B
 )
 .
 toLowerCase
@@ -4424,7 +4424,7 @@ String
 .
 fromCodePoint
 (
-0x1041c
+0x1041C
 )
 .
 toLowerCase
@@ -4444,7 +4444,7 @@ String
 .
 fromCodePoint
 (
-0x1041d
+0x1041D
 )
 .
 toLowerCase
@@ -4464,7 +4464,7 @@ String
 .
 fromCodePoint
 (
-0x1041e
+0x1041E
 )
 .
 toLowerCase
@@ -4484,7 +4484,7 @@ String
 .
 fromCodePoint
 (
-0x1041f
+0x1041F
 )
 .
 toLowerCase
@@ -4555,7 +4555,7 @@ codePointAt
 (
 0
 )
-0x1044a
+0x1044A
 )
 ;
 assertEq
@@ -4575,7 +4575,7 @@ codePointAt
 (
 0
 )
-0x1044b
+0x1044B
 )
 ;
 assertEq
@@ -4595,7 +4595,7 @@ codePointAt
 (
 0
 )
-0x1044c
+0x1044C
 )
 ;
 assertEq
@@ -4615,7 +4615,7 @@ codePointAt
 (
 0
 )
-0x1044d
+0x1044D
 )
 ;
 assertEq
@@ -4635,7 +4635,7 @@ codePointAt
 (
 0
 )
-0x1044e
+0x1044E
 )
 ;
 assertEq
@@ -4655,7 +4655,7 @@ codePointAt
 (
 0
 )
-0x1044f
+0x1044F
 )
 ;
 assertEq
@@ -4664,7 +4664,7 @@ String
 .
 fromCodePoint
 (
-0x104b0
+0x104B0
 )
 .
 toLowerCase
@@ -4675,7 +4675,7 @@ codePointAt
 (
 0
 )
-0x104d8
+0x104D8
 )
 ;
 assertEq
@@ -4684,7 +4684,7 @@ String
 .
 fromCodePoint
 (
-0x104b1
+0x104B1
 )
 .
 toLowerCase
@@ -4695,7 +4695,7 @@ codePointAt
 (
 0
 )
-0x104d9
+0x104D9
 )
 ;
 assertEq
@@ -4704,7 +4704,7 @@ String
 .
 fromCodePoint
 (
-0x104b2
+0x104B2
 )
 .
 toLowerCase
@@ -4715,7 +4715,7 @@ codePointAt
 (
 0
 )
-0x104da
+0x104DA
 )
 ;
 assertEq
@@ -4724,7 +4724,7 @@ String
 .
 fromCodePoint
 (
-0x104b3
+0x104B3
 )
 .
 toLowerCase
@@ -4735,7 +4735,7 @@ codePointAt
 (
 0
 )
-0x104db
+0x104DB
 )
 ;
 assertEq
@@ -4744,7 +4744,7 @@ String
 .
 fromCodePoint
 (
-0x104b4
+0x104B4
 )
 .
 toLowerCase
@@ -4755,7 +4755,7 @@ codePointAt
 (
 0
 )
-0x104dc
+0x104DC
 )
 ;
 assertEq
@@ -4764,7 +4764,7 @@ String
 .
 fromCodePoint
 (
-0x104b5
+0x104B5
 )
 .
 toLowerCase
@@ -4775,7 +4775,7 @@ codePointAt
 (
 0
 )
-0x104dd
+0x104DD
 )
 ;
 assertEq
@@ -4784,7 +4784,7 @@ String
 .
 fromCodePoint
 (
-0x104b6
+0x104B6
 )
 .
 toLowerCase
@@ -4795,7 +4795,7 @@ codePointAt
 (
 0
 )
-0x104de
+0x104DE
 )
 ;
 assertEq
@@ -4804,7 +4804,7 @@ String
 .
 fromCodePoint
 (
-0x104b7
+0x104B7
 )
 .
 toLowerCase
@@ -4815,7 +4815,7 @@ codePointAt
 (
 0
 )
-0x104df
+0x104DF
 )
 ;
 assertEq
@@ -4824,7 +4824,7 @@ String
 .
 fromCodePoint
 (
-0x104b8
+0x104B8
 )
 .
 toLowerCase
@@ -4835,7 +4835,7 @@ codePointAt
 (
 0
 )
-0x104e0
+0x104E0
 )
 ;
 assertEq
@@ -4844,7 +4844,7 @@ String
 .
 fromCodePoint
 (
-0x104b9
+0x104B9
 )
 .
 toLowerCase
@@ -4855,7 +4855,7 @@ codePointAt
 (
 0
 )
-0x104e1
+0x104E1
 )
 ;
 assertEq
@@ -4864,7 +4864,7 @@ String
 .
 fromCodePoint
 (
-0x104ba
+0x104BA
 )
 .
 toLowerCase
@@ -4875,7 +4875,7 @@ codePointAt
 (
 0
 )
-0x104e2
+0x104E2
 )
 ;
 assertEq
@@ -4884,7 +4884,7 @@ String
 .
 fromCodePoint
 (
-0x104bb
+0x104BB
 )
 .
 toLowerCase
@@ -4895,7 +4895,7 @@ codePointAt
 (
 0
 )
-0x104e3
+0x104E3
 )
 ;
 assertEq
@@ -4904,7 +4904,7 @@ String
 .
 fromCodePoint
 (
-0x104bc
+0x104BC
 )
 .
 toLowerCase
@@ -4915,7 +4915,7 @@ codePointAt
 (
 0
 )
-0x104e4
+0x104E4
 )
 ;
 assertEq
@@ -4924,7 +4924,7 @@ String
 .
 fromCodePoint
 (
-0x104bd
+0x104BD
 )
 .
 toLowerCase
@@ -4935,7 +4935,7 @@ codePointAt
 (
 0
 )
-0x104e5
+0x104E5
 )
 ;
 assertEq
@@ -4944,7 +4944,7 @@ String
 .
 fromCodePoint
 (
-0x104be
+0x104BE
 )
 .
 toLowerCase
@@ -4955,7 +4955,7 @@ codePointAt
 (
 0
 )
-0x104e6
+0x104E6
 )
 ;
 assertEq
@@ -4964,7 +4964,7 @@ String
 .
 fromCodePoint
 (
-0x104bf
+0x104BF
 )
 .
 toLowerCase
@@ -4975,7 +4975,7 @@ codePointAt
 (
 0
 )
-0x104e7
+0x104E7
 )
 ;
 assertEq
@@ -4984,7 +4984,7 @@ String
 .
 fromCodePoint
 (
-0x104c0
+0x104C0
 )
 .
 toLowerCase
@@ -4995,7 +4995,7 @@ codePointAt
 (
 0
 )
-0x104e8
+0x104E8
 )
 ;
 assertEq
@@ -5004,7 +5004,7 @@ String
 .
 fromCodePoint
 (
-0x104c1
+0x104C1
 )
 .
 toLowerCase
@@ -5015,7 +5015,7 @@ codePointAt
 (
 0
 )
-0x104e9
+0x104E9
 )
 ;
 assertEq
@@ -5024,7 +5024,7 @@ String
 .
 fromCodePoint
 (
-0x104c2
+0x104C2
 )
 .
 toLowerCase
@@ -5035,7 +5035,7 @@ codePointAt
 (
 0
 )
-0x104ea
+0x104EA
 )
 ;
 assertEq
@@ -5044,7 +5044,7 @@ String
 .
 fromCodePoint
 (
-0x104c3
+0x104C3
 )
 .
 toLowerCase
@@ -5055,7 +5055,7 @@ codePointAt
 (
 0
 )
-0x104eb
+0x104EB
 )
 ;
 assertEq
@@ -5064,7 +5064,7 @@ String
 .
 fromCodePoint
 (
-0x104c4
+0x104C4
 )
 .
 toLowerCase
@@ -5075,7 +5075,7 @@ codePointAt
 (
 0
 )
-0x104ec
+0x104EC
 )
 ;
 assertEq
@@ -5084,7 +5084,7 @@ String
 .
 fromCodePoint
 (
-0x104c5
+0x104C5
 )
 .
 toLowerCase
@@ -5095,7 +5095,7 @@ codePointAt
 (
 0
 )
-0x104ed
+0x104ED
 )
 ;
 assertEq
@@ -5104,7 +5104,7 @@ String
 .
 fromCodePoint
 (
-0x104c6
+0x104C6
 )
 .
 toLowerCase
@@ -5115,7 +5115,7 @@ codePointAt
 (
 0
 )
-0x104ee
+0x104EE
 )
 ;
 assertEq
@@ -5124,7 +5124,7 @@ String
 .
 fromCodePoint
 (
-0x104c7
+0x104C7
 )
 .
 toLowerCase
@@ -5135,7 +5135,7 @@ codePointAt
 (
 0
 )
-0x104ef
+0x104EF
 )
 ;
 assertEq
@@ -5144,7 +5144,7 @@ String
 .
 fromCodePoint
 (
-0x104c8
+0x104C8
 )
 .
 toLowerCase
@@ -5155,7 +5155,7 @@ codePointAt
 (
 0
 )
-0x104f0
+0x104F0
 )
 ;
 assertEq
@@ -5164,7 +5164,7 @@ String
 .
 fromCodePoint
 (
-0x104c9
+0x104C9
 )
 .
 toLowerCase
@@ -5175,7 +5175,7 @@ codePointAt
 (
 0
 )
-0x104f1
+0x104F1
 )
 ;
 assertEq
@@ -5184,7 +5184,7 @@ String
 .
 fromCodePoint
 (
-0x104ca
+0x104CA
 )
 .
 toLowerCase
@@ -5195,7 +5195,7 @@ codePointAt
 (
 0
 )
-0x104f2
+0x104F2
 )
 ;
 assertEq
@@ -5204,7 +5204,7 @@ String
 .
 fromCodePoint
 (
-0x104cb
+0x104CB
 )
 .
 toLowerCase
@@ -5215,7 +5215,7 @@ codePointAt
 (
 0
 )
-0x104f3
+0x104F3
 )
 ;
 assertEq
@@ -5224,7 +5224,7 @@ String
 .
 fromCodePoint
 (
-0x104cc
+0x104CC
 )
 .
 toLowerCase
@@ -5235,7 +5235,7 @@ codePointAt
 (
 0
 )
-0x104f4
+0x104F4
 )
 ;
 assertEq
@@ -5244,7 +5244,7 @@ String
 .
 fromCodePoint
 (
-0x104cd
+0x104CD
 )
 .
 toLowerCase
@@ -5255,7 +5255,7 @@ codePointAt
 (
 0
 )
-0x104f5
+0x104F5
 )
 ;
 assertEq
@@ -5264,7 +5264,7 @@ String
 .
 fromCodePoint
 (
-0x104ce
+0x104CE
 )
 .
 toLowerCase
@@ -5275,7 +5275,7 @@ codePointAt
 (
 0
 )
-0x104f6
+0x104F6
 )
 ;
 assertEq
@@ -5284,7 +5284,7 @@ String
 .
 fromCodePoint
 (
-0x104cf
+0x104CF
 )
 .
 toLowerCase
@@ -5295,7 +5295,7 @@ codePointAt
 (
 0
 )
-0x104f7
+0x104F7
 )
 ;
 assertEq
@@ -5304,7 +5304,7 @@ String
 .
 fromCodePoint
 (
-0x104d0
+0x104D0
 )
 .
 toLowerCase
@@ -5315,7 +5315,7 @@ codePointAt
 (
 0
 )
-0x104f8
+0x104F8
 )
 ;
 assertEq
@@ -5324,7 +5324,7 @@ String
 .
 fromCodePoint
 (
-0x104d1
+0x104D1
 )
 .
 toLowerCase
@@ -5335,7 +5335,7 @@ codePointAt
 (
 0
 )
-0x104f9
+0x104F9
 )
 ;
 assertEq
@@ -5344,7 +5344,7 @@ String
 .
 fromCodePoint
 (
-0x104d2
+0x104D2
 )
 .
 toLowerCase
@@ -5355,7 +5355,7 @@ codePointAt
 (
 0
 )
-0x104fa
+0x104FA
 )
 ;
 assertEq
@@ -5364,7 +5364,7 @@ String
 .
 fromCodePoint
 (
-0x104d3
+0x104D3
 )
 .
 toLowerCase
@@ -5375,7 +5375,7 @@ codePointAt
 (
 0
 )
-0x104fb
+0x104FB
 )
 ;
 assertEq
@@ -5384,7 +5384,7 @@ String
 .
 fromCodePoint
 (
-0x10c80
+0x10C80
 )
 .
 toLowerCase
@@ -5395,7 +5395,7 @@ codePointAt
 (
 0
 )
-0x10cc0
+0x10CC0
 )
 ;
 assertEq
@@ -5404,7 +5404,7 @@ String
 .
 fromCodePoint
 (
-0x10c81
+0x10C81
 )
 .
 toLowerCase
@@ -5415,7 +5415,7 @@ codePointAt
 (
 0
 )
-0x10cc1
+0x10CC1
 )
 ;
 assertEq
@@ -5424,7 +5424,7 @@ String
 .
 fromCodePoint
 (
-0x10c82
+0x10C82
 )
 .
 toLowerCase
@@ -5435,7 +5435,7 @@ codePointAt
 (
 0
 )
-0x10cc2
+0x10CC2
 )
 ;
 assertEq
@@ -5444,7 +5444,7 @@ String
 .
 fromCodePoint
 (
-0x10c83
+0x10C83
 )
 .
 toLowerCase
@@ -5455,7 +5455,7 @@ codePointAt
 (
 0
 )
-0x10cc3
+0x10CC3
 )
 ;
 assertEq
@@ -5464,7 +5464,7 @@ String
 .
 fromCodePoint
 (
-0x10c84
+0x10C84
 )
 .
 toLowerCase
@@ -5475,7 +5475,7 @@ codePointAt
 (
 0
 )
-0x10cc4
+0x10CC4
 )
 ;
 assertEq
@@ -5484,7 +5484,7 @@ String
 .
 fromCodePoint
 (
-0x10c85
+0x10C85
 )
 .
 toLowerCase
@@ -5495,7 +5495,7 @@ codePointAt
 (
 0
 )
-0x10cc5
+0x10CC5
 )
 ;
 assertEq
@@ -5504,7 +5504,7 @@ String
 .
 fromCodePoint
 (
-0x10c86
+0x10C86
 )
 .
 toLowerCase
@@ -5515,7 +5515,7 @@ codePointAt
 (
 0
 )
-0x10cc6
+0x10CC6
 )
 ;
 assertEq
@@ -5524,7 +5524,7 @@ String
 .
 fromCodePoint
 (
-0x10c87
+0x10C87
 )
 .
 toLowerCase
@@ -5535,7 +5535,7 @@ codePointAt
 (
 0
 )
-0x10cc7
+0x10CC7
 )
 ;
 assertEq
@@ -5544,7 +5544,7 @@ String
 .
 fromCodePoint
 (
-0x10c88
+0x10C88
 )
 .
 toLowerCase
@@ -5555,7 +5555,7 @@ codePointAt
 (
 0
 )
-0x10cc8
+0x10CC8
 )
 ;
 assertEq
@@ -5564,7 +5564,7 @@ String
 .
 fromCodePoint
 (
-0x10c89
+0x10C89
 )
 .
 toLowerCase
@@ -5575,7 +5575,7 @@ codePointAt
 (
 0
 )
-0x10cc9
+0x10CC9
 )
 ;
 assertEq
@@ -5584,7 +5584,7 @@ String
 .
 fromCodePoint
 (
-0x10c8a
+0x10C8A
 )
 .
 toLowerCase
@@ -5595,7 +5595,7 @@ codePointAt
 (
 0
 )
-0x10cca
+0x10CCA
 )
 ;
 assertEq
@@ -5604,7 +5604,7 @@ String
 .
 fromCodePoint
 (
-0x10c8b
+0x10C8B
 )
 .
 toLowerCase
@@ -5615,7 +5615,7 @@ codePointAt
 (
 0
 )
-0x10ccb
+0x10CCB
 )
 ;
 assertEq
@@ -5624,7 +5624,7 @@ String
 .
 fromCodePoint
 (
-0x10c8c
+0x10C8C
 )
 .
 toLowerCase
@@ -5635,7 +5635,7 @@ codePointAt
 (
 0
 )
-0x10ccc
+0x10CCC
 )
 ;
 assertEq
@@ -5644,7 +5644,7 @@ String
 .
 fromCodePoint
 (
-0x10c8d
+0x10C8D
 )
 .
 toLowerCase
@@ -5655,7 +5655,7 @@ codePointAt
 (
 0
 )
-0x10ccd
+0x10CCD
 )
 ;
 assertEq
@@ -5664,7 +5664,7 @@ String
 .
 fromCodePoint
 (
-0x10c8e
+0x10C8E
 )
 .
 toLowerCase
@@ -5675,7 +5675,7 @@ codePointAt
 (
 0
 )
-0x10cce
+0x10CCE
 )
 ;
 assertEq
@@ -5684,7 +5684,7 @@ String
 .
 fromCodePoint
 (
-0x10c8f
+0x10C8F
 )
 .
 toLowerCase
@@ -5695,7 +5695,7 @@ codePointAt
 (
 0
 )
-0x10ccf
+0x10CCF
 )
 ;
 assertEq
@@ -5704,7 +5704,7 @@ String
 .
 fromCodePoint
 (
-0x10c90
+0x10C90
 )
 .
 toLowerCase
@@ -5715,7 +5715,7 @@ codePointAt
 (
 0
 )
-0x10cd0
+0x10CD0
 )
 ;
 assertEq
@@ -5724,7 +5724,7 @@ String
 .
 fromCodePoint
 (
-0x10c91
+0x10C91
 )
 .
 toLowerCase
@@ -5735,7 +5735,7 @@ codePointAt
 (
 0
 )
-0x10cd1
+0x10CD1
 )
 ;
 assertEq
@@ -5744,7 +5744,7 @@ String
 .
 fromCodePoint
 (
-0x10c92
+0x10C92
 )
 .
 toLowerCase
@@ -5755,7 +5755,7 @@ codePointAt
 (
 0
 )
-0x10cd2
+0x10CD2
 )
 ;
 assertEq
@@ -5764,7 +5764,7 @@ String
 .
 fromCodePoint
 (
-0x10c93
+0x10C93
 )
 .
 toLowerCase
@@ -5775,7 +5775,7 @@ codePointAt
 (
 0
 )
-0x10cd3
+0x10CD3
 )
 ;
 assertEq
@@ -5784,7 +5784,7 @@ String
 .
 fromCodePoint
 (
-0x10c94
+0x10C94
 )
 .
 toLowerCase
@@ -5795,7 +5795,7 @@ codePointAt
 (
 0
 )
-0x10cd4
+0x10CD4
 )
 ;
 assertEq
@@ -5804,7 +5804,7 @@ String
 .
 fromCodePoint
 (
-0x10c95
+0x10C95
 )
 .
 toLowerCase
@@ -5815,7 +5815,7 @@ codePointAt
 (
 0
 )
-0x10cd5
+0x10CD5
 )
 ;
 assertEq
@@ -5824,7 +5824,7 @@ String
 .
 fromCodePoint
 (
-0x10c96
+0x10C96
 )
 .
 toLowerCase
@@ -5835,7 +5835,7 @@ codePointAt
 (
 0
 )
-0x10cd6
+0x10CD6
 )
 ;
 assertEq
@@ -5844,7 +5844,7 @@ String
 .
 fromCodePoint
 (
-0x10c97
+0x10C97
 )
 .
 toLowerCase
@@ -5855,7 +5855,7 @@ codePointAt
 (
 0
 )
-0x10cd7
+0x10CD7
 )
 ;
 assertEq
@@ -5864,7 +5864,7 @@ String
 .
 fromCodePoint
 (
-0x10c98
+0x10C98
 )
 .
 toLowerCase
@@ -5875,7 +5875,7 @@ codePointAt
 (
 0
 )
-0x10cd8
+0x10CD8
 )
 ;
 assertEq
@@ -5884,7 +5884,7 @@ String
 .
 fromCodePoint
 (
-0x10c99
+0x10C99
 )
 .
 toLowerCase
@@ -5895,7 +5895,7 @@ codePointAt
 (
 0
 )
-0x10cd9
+0x10CD9
 )
 ;
 assertEq
@@ -5904,7 +5904,7 @@ String
 .
 fromCodePoint
 (
-0x10c9a
+0x10C9A
 )
 .
 toLowerCase
@@ -5915,7 +5915,7 @@ codePointAt
 (
 0
 )
-0x10cda
+0x10CDA
 )
 ;
 assertEq
@@ -5924,7 +5924,7 @@ String
 .
 fromCodePoint
 (
-0x10c9b
+0x10C9B
 )
 .
 toLowerCase
@@ -5935,7 +5935,7 @@ codePointAt
 (
 0
 )
-0x10cdb
+0x10CDB
 )
 ;
 assertEq
@@ -5944,7 +5944,7 @@ String
 .
 fromCodePoint
 (
-0x10c9c
+0x10C9C
 )
 .
 toLowerCase
@@ -5955,7 +5955,7 @@ codePointAt
 (
 0
 )
-0x10cdc
+0x10CDC
 )
 ;
 assertEq
@@ -5964,7 +5964,7 @@ String
 .
 fromCodePoint
 (
-0x10c9d
+0x10C9D
 )
 .
 toLowerCase
@@ -5975,7 +5975,7 @@ codePointAt
 (
 0
 )
-0x10cdd
+0x10CDD
 )
 ;
 assertEq
@@ -5984,7 +5984,7 @@ String
 .
 fromCodePoint
 (
-0x10c9e
+0x10C9E
 )
 .
 toLowerCase
@@ -5995,7 +5995,7 @@ codePointAt
 (
 0
 )
-0x10cde
+0x10CDE
 )
 ;
 assertEq
@@ -6004,7 +6004,7 @@ String
 .
 fromCodePoint
 (
-0x10c9f
+0x10C9F
 )
 .
 toLowerCase
@@ -6015,7 +6015,7 @@ codePointAt
 (
 0
 )
-0x10cdf
+0x10CDF
 )
 ;
 assertEq
@@ -6024,7 +6024,7 @@ String
 .
 fromCodePoint
 (
-0x10ca0
+0x10CA0
 )
 .
 toLowerCase
@@ -6035,7 +6035,7 @@ codePointAt
 (
 0
 )
-0x10ce0
+0x10CE0
 )
 ;
 assertEq
@@ -6044,7 +6044,7 @@ String
 .
 fromCodePoint
 (
-0x10ca1
+0x10CA1
 )
 .
 toLowerCase
@@ -6055,7 +6055,7 @@ codePointAt
 (
 0
 )
-0x10ce1
+0x10CE1
 )
 ;
 assertEq
@@ -6064,7 +6064,7 @@ String
 .
 fromCodePoint
 (
-0x10ca2
+0x10CA2
 )
 .
 toLowerCase
@@ -6075,7 +6075,7 @@ codePointAt
 (
 0
 )
-0x10ce2
+0x10CE2
 )
 ;
 assertEq
@@ -6084,7 +6084,7 @@ String
 .
 fromCodePoint
 (
-0x10ca3
+0x10CA3
 )
 .
 toLowerCase
@@ -6095,7 +6095,7 @@ codePointAt
 (
 0
 )
-0x10ce3
+0x10CE3
 )
 ;
 assertEq
@@ -6104,7 +6104,7 @@ String
 .
 fromCodePoint
 (
-0x10ca4
+0x10CA4
 )
 .
 toLowerCase
@@ -6115,7 +6115,7 @@ codePointAt
 (
 0
 )
-0x10ce4
+0x10CE4
 )
 ;
 assertEq
@@ -6124,7 +6124,7 @@ String
 .
 fromCodePoint
 (
-0x10ca5
+0x10CA5
 )
 .
 toLowerCase
@@ -6135,7 +6135,7 @@ codePointAt
 (
 0
 )
-0x10ce5
+0x10CE5
 )
 ;
 assertEq
@@ -6144,7 +6144,7 @@ String
 .
 fromCodePoint
 (
-0x10ca6
+0x10CA6
 )
 .
 toLowerCase
@@ -6155,7 +6155,7 @@ codePointAt
 (
 0
 )
-0x10ce6
+0x10CE6
 )
 ;
 assertEq
@@ -6164,7 +6164,7 @@ String
 .
 fromCodePoint
 (
-0x10ca7
+0x10CA7
 )
 .
 toLowerCase
@@ -6175,7 +6175,7 @@ codePointAt
 (
 0
 )
-0x10ce7
+0x10CE7
 )
 ;
 assertEq
@@ -6184,7 +6184,7 @@ String
 .
 fromCodePoint
 (
-0x10ca8
+0x10CA8
 )
 .
 toLowerCase
@@ -6195,7 +6195,7 @@ codePointAt
 (
 0
 )
-0x10ce8
+0x10CE8
 )
 ;
 assertEq
@@ -6204,7 +6204,7 @@ String
 .
 fromCodePoint
 (
-0x10ca9
+0x10CA9
 )
 .
 toLowerCase
@@ -6215,7 +6215,7 @@ codePointAt
 (
 0
 )
-0x10ce9
+0x10CE9
 )
 ;
 assertEq
@@ -6224,7 +6224,7 @@ String
 .
 fromCodePoint
 (
-0x10caa
+0x10CAA
 )
 .
 toLowerCase
@@ -6235,7 +6235,7 @@ codePointAt
 (
 0
 )
-0x10cea
+0x10CEA
 )
 ;
 assertEq
@@ -6244,7 +6244,7 @@ String
 .
 fromCodePoint
 (
-0x10cab
+0x10CAB
 )
 .
 toLowerCase
@@ -6255,7 +6255,7 @@ codePointAt
 (
 0
 )
-0x10ceb
+0x10CEB
 )
 ;
 assertEq
@@ -6264,7 +6264,7 @@ String
 .
 fromCodePoint
 (
-0x10cac
+0x10CAC
 )
 .
 toLowerCase
@@ -6275,7 +6275,7 @@ codePointAt
 (
 0
 )
-0x10cec
+0x10CEC
 )
 ;
 assertEq
@@ -6284,7 +6284,7 @@ String
 .
 fromCodePoint
 (
-0x10cad
+0x10CAD
 )
 .
 toLowerCase
@@ -6295,7 +6295,7 @@ codePointAt
 (
 0
 )
-0x10ced
+0x10CED
 )
 ;
 assertEq
@@ -6304,7 +6304,7 @@ String
 .
 fromCodePoint
 (
-0x10cae
+0x10CAE
 )
 .
 toLowerCase
@@ -6315,7 +6315,7 @@ codePointAt
 (
 0
 )
-0x10cee
+0x10CEE
 )
 ;
 assertEq
@@ -6324,7 +6324,7 @@ String
 .
 fromCodePoint
 (
-0x10caf
+0x10CAF
 )
 .
 toLowerCase
@@ -6335,7 +6335,7 @@ codePointAt
 (
 0
 )
-0x10cef
+0x10CEF
 )
 ;
 assertEq
@@ -6344,7 +6344,7 @@ String
 .
 fromCodePoint
 (
-0x10cb0
+0x10CB0
 )
 .
 toLowerCase
@@ -6355,7 +6355,7 @@ codePointAt
 (
 0
 )
-0x10cf0
+0x10CF0
 )
 ;
 assertEq
@@ -6364,7 +6364,7 @@ String
 .
 fromCodePoint
 (
-0x10cb1
+0x10CB1
 )
 .
 toLowerCase
@@ -6375,7 +6375,7 @@ codePointAt
 (
 0
 )
-0x10cf1
+0x10CF1
 )
 ;
 assertEq
@@ -6384,7 +6384,7 @@ String
 .
 fromCodePoint
 (
-0x10cb2
+0x10CB2
 )
 .
 toLowerCase
@@ -6395,7 +6395,7 @@ codePointAt
 (
 0
 )
-0x10cf2
+0x10CF2
 )
 ;
 assertEq
@@ -6404,7 +6404,7 @@ String
 .
 fromCodePoint
 (
-0x118a0
+0x118A0
 )
 .
 toLowerCase
@@ -6415,7 +6415,7 @@ codePointAt
 (
 0
 )
-0x118c0
+0x118C0
 )
 ;
 assertEq
@@ -6424,7 +6424,7 @@ String
 .
 fromCodePoint
 (
-0x118a1
+0x118A1
 )
 .
 toLowerCase
@@ -6435,7 +6435,7 @@ codePointAt
 (
 0
 )
-0x118c1
+0x118C1
 )
 ;
 assertEq
@@ -6444,7 +6444,7 @@ String
 .
 fromCodePoint
 (
-0x118a2
+0x118A2
 )
 .
 toLowerCase
@@ -6455,7 +6455,7 @@ codePointAt
 (
 0
 )
-0x118c2
+0x118C2
 )
 ;
 assertEq
@@ -6464,7 +6464,7 @@ String
 .
 fromCodePoint
 (
-0x118a3
+0x118A3
 )
 .
 toLowerCase
@@ -6475,7 +6475,7 @@ codePointAt
 (
 0
 )
-0x118c3
+0x118C3
 )
 ;
 assertEq
@@ -6484,7 +6484,7 @@ String
 .
 fromCodePoint
 (
-0x118a4
+0x118A4
 )
 .
 toLowerCase
@@ -6495,7 +6495,7 @@ codePointAt
 (
 0
 )
-0x118c4
+0x118C4
 )
 ;
 assertEq
@@ -6504,7 +6504,7 @@ String
 .
 fromCodePoint
 (
-0x118a5
+0x118A5
 )
 .
 toLowerCase
@@ -6515,7 +6515,7 @@ codePointAt
 (
 0
 )
-0x118c5
+0x118C5
 )
 ;
 assertEq
@@ -6524,7 +6524,7 @@ String
 .
 fromCodePoint
 (
-0x118a6
+0x118A6
 )
 .
 toLowerCase
@@ -6535,7 +6535,7 @@ codePointAt
 (
 0
 )
-0x118c6
+0x118C6
 )
 ;
 assertEq
@@ -6544,7 +6544,7 @@ String
 .
 fromCodePoint
 (
-0x118a7
+0x118A7
 )
 .
 toLowerCase
@@ -6555,7 +6555,7 @@ codePointAt
 (
 0
 )
-0x118c7
+0x118C7
 )
 ;
 assertEq
@@ -6564,7 +6564,7 @@ String
 .
 fromCodePoint
 (
-0x118a8
+0x118A8
 )
 .
 toLowerCase
@@ -6575,7 +6575,7 @@ codePointAt
 (
 0
 )
-0x118c8
+0x118C8
 )
 ;
 assertEq
@@ -6584,7 +6584,7 @@ String
 .
 fromCodePoint
 (
-0x118a9
+0x118A9
 )
 .
 toLowerCase
@@ -6595,7 +6595,7 @@ codePointAt
 (
 0
 )
-0x118c9
+0x118C9
 )
 ;
 assertEq
@@ -6604,7 +6604,7 @@ String
 .
 fromCodePoint
 (
-0x118aa
+0x118AA
 )
 .
 toLowerCase
@@ -6615,7 +6615,7 @@ codePointAt
 (
 0
 )
-0x118ca
+0x118CA
 )
 ;
 assertEq
@@ -6624,7 +6624,7 @@ String
 .
 fromCodePoint
 (
-0x118ab
+0x118AB
 )
 .
 toLowerCase
@@ -6635,7 +6635,7 @@ codePointAt
 (
 0
 )
-0x118cb
+0x118CB
 )
 ;
 assertEq
@@ -6644,7 +6644,7 @@ String
 .
 fromCodePoint
 (
-0x118ac
+0x118AC
 )
 .
 toLowerCase
@@ -6655,7 +6655,7 @@ codePointAt
 (
 0
 )
-0x118cc
+0x118CC
 )
 ;
 assertEq
@@ -6664,7 +6664,7 @@ String
 .
 fromCodePoint
 (
-0x118ad
+0x118AD
 )
 .
 toLowerCase
@@ -6675,7 +6675,7 @@ codePointAt
 (
 0
 )
-0x118cd
+0x118CD
 )
 ;
 assertEq
@@ -6684,7 +6684,7 @@ String
 .
 fromCodePoint
 (
-0x118ae
+0x118AE
 )
 .
 toLowerCase
@@ -6695,7 +6695,7 @@ codePointAt
 (
 0
 )
-0x118ce
+0x118CE
 )
 ;
 assertEq
@@ -6704,7 +6704,7 @@ String
 .
 fromCodePoint
 (
-0x118af
+0x118AF
 )
 .
 toLowerCase
@@ -6715,7 +6715,7 @@ codePointAt
 (
 0
 )
-0x118cf
+0x118CF
 )
 ;
 assertEq
@@ -6724,7 +6724,7 @@ String
 .
 fromCodePoint
 (
-0x118b0
+0x118B0
 )
 .
 toLowerCase
@@ -6735,7 +6735,7 @@ codePointAt
 (
 0
 )
-0x118d0
+0x118D0
 )
 ;
 assertEq
@@ -6744,7 +6744,7 @@ String
 .
 fromCodePoint
 (
-0x118b1
+0x118B1
 )
 .
 toLowerCase
@@ -6755,7 +6755,7 @@ codePointAt
 (
 0
 )
-0x118d1
+0x118D1
 )
 ;
 assertEq
@@ -6764,7 +6764,7 @@ String
 .
 fromCodePoint
 (
-0x118b2
+0x118B2
 )
 .
 toLowerCase
@@ -6775,7 +6775,7 @@ codePointAt
 (
 0
 )
-0x118d2
+0x118D2
 )
 ;
 assertEq
@@ -6784,7 +6784,7 @@ String
 .
 fromCodePoint
 (
-0x118b3
+0x118B3
 )
 .
 toLowerCase
@@ -6795,7 +6795,7 @@ codePointAt
 (
 0
 )
-0x118d3
+0x118D3
 )
 ;
 assertEq
@@ -6804,7 +6804,7 @@ String
 .
 fromCodePoint
 (
-0x118b4
+0x118B4
 )
 .
 toLowerCase
@@ -6815,7 +6815,7 @@ codePointAt
 (
 0
 )
-0x118d4
+0x118D4
 )
 ;
 assertEq
@@ -6824,7 +6824,7 @@ String
 .
 fromCodePoint
 (
-0x118b5
+0x118B5
 )
 .
 toLowerCase
@@ -6835,7 +6835,7 @@ codePointAt
 (
 0
 )
-0x118d5
+0x118D5
 )
 ;
 assertEq
@@ -6844,7 +6844,7 @@ String
 .
 fromCodePoint
 (
-0x118b6
+0x118B6
 )
 .
 toLowerCase
@@ -6855,7 +6855,7 @@ codePointAt
 (
 0
 )
-0x118d6
+0x118D6
 )
 ;
 assertEq
@@ -6864,7 +6864,7 @@ String
 .
 fromCodePoint
 (
-0x118b7
+0x118B7
 )
 .
 toLowerCase
@@ -6875,7 +6875,7 @@ codePointAt
 (
 0
 )
-0x118d7
+0x118D7
 )
 ;
 assertEq
@@ -6884,7 +6884,7 @@ String
 .
 fromCodePoint
 (
-0x118b8
+0x118B8
 )
 .
 toLowerCase
@@ -6895,7 +6895,7 @@ codePointAt
 (
 0
 )
-0x118d8
+0x118D8
 )
 ;
 assertEq
@@ -6904,7 +6904,7 @@ String
 .
 fromCodePoint
 (
-0x118b9
+0x118B9
 )
 .
 toLowerCase
@@ -6915,7 +6915,7 @@ codePointAt
 (
 0
 )
-0x118d9
+0x118D9
 )
 ;
 assertEq
@@ -6924,7 +6924,7 @@ String
 .
 fromCodePoint
 (
-0x118ba
+0x118BA
 )
 .
 toLowerCase
@@ -6935,7 +6935,7 @@ codePointAt
 (
 0
 )
-0x118da
+0x118DA
 )
 ;
 assertEq
@@ -6944,7 +6944,7 @@ String
 .
 fromCodePoint
 (
-0x118bb
+0x118BB
 )
 .
 toLowerCase
@@ -6955,7 +6955,7 @@ codePointAt
 (
 0
 )
-0x118db
+0x118DB
 )
 ;
 assertEq
@@ -6964,7 +6964,7 @@ String
 .
 fromCodePoint
 (
-0x118bc
+0x118BC
 )
 .
 toLowerCase
@@ -6975,7 +6975,7 @@ codePointAt
 (
 0
 )
-0x118dc
+0x118DC
 )
 ;
 assertEq
@@ -6984,7 +6984,7 @@ String
 .
 fromCodePoint
 (
-0x118bd
+0x118BD
 )
 .
 toLowerCase
@@ -6995,7 +6995,7 @@ codePointAt
 (
 0
 )
-0x118dd
+0x118DD
 )
 ;
 assertEq
@@ -7004,7 +7004,7 @@ String
 .
 fromCodePoint
 (
-0x118be
+0x118BE
 )
 .
 toLowerCase
@@ -7015,7 +7015,7 @@ codePointAt
 (
 0
 )
-0x118de
+0x118DE
 )
 ;
 assertEq
@@ -7024,7 +7024,7 @@ String
 .
 fromCodePoint
 (
-0x118bf
+0x118BF
 )
 .
 toLowerCase
@@ -7035,7 +7035,7 @@ codePointAt
 (
 0
 )
-0x118df
+0x118DF
 )
 ;
 assertEq
@@ -7044,7 +7044,7 @@ String
 .
 fromCodePoint
 (
-0x1e900
+0x1E900
 )
 .
 toLowerCase
@@ -7055,7 +7055,7 @@ codePointAt
 (
 0
 )
-0x1e922
+0x1E922
 )
 ;
 assertEq
@@ -7064,7 +7064,7 @@ String
 .
 fromCodePoint
 (
-0x1e901
+0x1E901
 )
 .
 toLowerCase
@@ -7075,7 +7075,7 @@ codePointAt
 (
 0
 )
-0x1e923
+0x1E923
 )
 ;
 assertEq
@@ -7084,7 +7084,7 @@ String
 .
 fromCodePoint
 (
-0x1e902
+0x1E902
 )
 .
 toLowerCase
@@ -7095,7 +7095,7 @@ codePointAt
 (
 0
 )
-0x1e924
+0x1E924
 )
 ;
 assertEq
@@ -7104,7 +7104,7 @@ String
 .
 fromCodePoint
 (
-0x1e903
+0x1E903
 )
 .
 toLowerCase
@@ -7115,7 +7115,7 @@ codePointAt
 (
 0
 )
-0x1e925
+0x1E925
 )
 ;
 assertEq
@@ -7124,7 +7124,7 @@ String
 .
 fromCodePoint
 (
-0x1e904
+0x1E904
 )
 .
 toLowerCase
@@ -7135,7 +7135,7 @@ codePointAt
 (
 0
 )
-0x1e926
+0x1E926
 )
 ;
 assertEq
@@ -7144,7 +7144,7 @@ String
 .
 fromCodePoint
 (
-0x1e905
+0x1E905
 )
 .
 toLowerCase
@@ -7155,7 +7155,7 @@ codePointAt
 (
 0
 )
-0x1e927
+0x1E927
 )
 ;
 assertEq
@@ -7164,7 +7164,7 @@ String
 .
 fromCodePoint
 (
-0x1e906
+0x1E906
 )
 .
 toLowerCase
@@ -7175,7 +7175,7 @@ codePointAt
 (
 0
 )
-0x1e928
+0x1E928
 )
 ;
 assertEq
@@ -7184,7 +7184,7 @@ String
 .
 fromCodePoint
 (
-0x1e907
+0x1E907
 )
 .
 toLowerCase
@@ -7195,7 +7195,7 @@ codePointAt
 (
 0
 )
-0x1e929
+0x1E929
 )
 ;
 assertEq
@@ -7204,7 +7204,7 @@ String
 .
 fromCodePoint
 (
-0x1e908
+0x1E908
 )
 .
 toLowerCase
@@ -7215,7 +7215,7 @@ codePointAt
 (
 0
 )
-0x1e92a
+0x1E92A
 )
 ;
 assertEq
@@ -7224,7 +7224,7 @@ String
 .
 fromCodePoint
 (
-0x1e909
+0x1E909
 )
 .
 toLowerCase
@@ -7235,7 +7235,7 @@ codePointAt
 (
 0
 )
-0x1e92b
+0x1E92B
 )
 ;
 assertEq
@@ -7244,7 +7244,7 @@ String
 .
 fromCodePoint
 (
-0x1e90a
+0x1E90A
 )
 .
 toLowerCase
@@ -7255,7 +7255,7 @@ codePointAt
 (
 0
 )
-0x1e92c
+0x1E92C
 )
 ;
 assertEq
@@ -7264,7 +7264,7 @@ String
 .
 fromCodePoint
 (
-0x1e90b
+0x1E90B
 )
 .
 toLowerCase
@@ -7275,7 +7275,7 @@ codePointAt
 (
 0
 )
-0x1e92d
+0x1E92D
 )
 ;
 assertEq
@@ -7284,7 +7284,7 @@ String
 .
 fromCodePoint
 (
-0x1e90c
+0x1E90C
 )
 .
 toLowerCase
@@ -7295,7 +7295,7 @@ codePointAt
 (
 0
 )
-0x1e92e
+0x1E92E
 )
 ;
 assertEq
@@ -7304,7 +7304,7 @@ String
 .
 fromCodePoint
 (
-0x1e90d
+0x1E90D
 )
 .
 toLowerCase
@@ -7315,7 +7315,7 @@ codePointAt
 (
 0
 )
-0x1e92f
+0x1E92F
 )
 ;
 assertEq
@@ -7324,7 +7324,7 @@ String
 .
 fromCodePoint
 (
-0x1e90e
+0x1E90E
 )
 .
 toLowerCase
@@ -7335,7 +7335,7 @@ codePointAt
 (
 0
 )
-0x1e930
+0x1E930
 )
 ;
 assertEq
@@ -7344,7 +7344,7 @@ String
 .
 fromCodePoint
 (
-0x1e90f
+0x1E90F
 )
 .
 toLowerCase
@@ -7355,7 +7355,7 @@ codePointAt
 (
 0
 )
-0x1e931
+0x1E931
 )
 ;
 assertEq
@@ -7364,7 +7364,7 @@ String
 .
 fromCodePoint
 (
-0x1e910
+0x1E910
 )
 .
 toLowerCase
@@ -7375,7 +7375,7 @@ codePointAt
 (
 0
 )
-0x1e932
+0x1E932
 )
 ;
 assertEq
@@ -7384,7 +7384,7 @@ String
 .
 fromCodePoint
 (
-0x1e911
+0x1E911
 )
 .
 toLowerCase
@@ -7395,7 +7395,7 @@ codePointAt
 (
 0
 )
-0x1e933
+0x1E933
 )
 ;
 assertEq
@@ -7404,7 +7404,7 @@ String
 .
 fromCodePoint
 (
-0x1e912
+0x1E912
 )
 .
 toLowerCase
@@ -7415,7 +7415,7 @@ codePointAt
 (
 0
 )
-0x1e934
+0x1E934
 )
 ;
 assertEq
@@ -7424,7 +7424,7 @@ String
 .
 fromCodePoint
 (
-0x1e913
+0x1E913
 )
 .
 toLowerCase
@@ -7435,7 +7435,7 @@ codePointAt
 (
 0
 )
-0x1e935
+0x1E935
 )
 ;
 assertEq
@@ -7444,7 +7444,7 @@ String
 .
 fromCodePoint
 (
-0x1e914
+0x1E914
 )
 .
 toLowerCase
@@ -7455,7 +7455,7 @@ codePointAt
 (
 0
 )
-0x1e936
+0x1E936
 )
 ;
 assertEq
@@ -7464,7 +7464,7 @@ String
 .
 fromCodePoint
 (
-0x1e915
+0x1E915
 )
 .
 toLowerCase
@@ -7475,7 +7475,7 @@ codePointAt
 (
 0
 )
-0x1e937
+0x1E937
 )
 ;
 assertEq
@@ -7484,7 +7484,7 @@ String
 .
 fromCodePoint
 (
-0x1e916
+0x1E916
 )
 .
 toLowerCase
@@ -7495,7 +7495,7 @@ codePointAt
 (
 0
 )
-0x1e938
+0x1E938
 )
 ;
 assertEq
@@ -7504,7 +7504,7 @@ String
 .
 fromCodePoint
 (
-0x1e917
+0x1E917
 )
 .
 toLowerCase
@@ -7515,7 +7515,7 @@ codePointAt
 (
 0
 )
-0x1e939
+0x1E939
 )
 ;
 assertEq
@@ -7524,7 +7524,7 @@ String
 .
 fromCodePoint
 (
-0x1e918
+0x1E918
 )
 .
 toLowerCase
@@ -7535,7 +7535,7 @@ codePointAt
 (
 0
 )
-0x1e93a
+0x1E93A
 )
 ;
 assertEq
@@ -7544,7 +7544,7 @@ String
 .
 fromCodePoint
 (
-0x1e919
+0x1E919
 )
 .
 toLowerCase
@@ -7555,7 +7555,7 @@ codePointAt
 (
 0
 )
-0x1e93b
+0x1E93B
 )
 ;
 assertEq
@@ -7564,7 +7564,7 @@ String
 .
 fromCodePoint
 (
-0x1e91a
+0x1E91A
 )
 .
 toLowerCase
@@ -7575,7 +7575,7 @@ codePointAt
 (
 0
 )
-0x1e93c
+0x1E93C
 )
 ;
 assertEq
@@ -7584,7 +7584,7 @@ String
 .
 fromCodePoint
 (
-0x1e91b
+0x1E91B
 )
 .
 toLowerCase
@@ -7595,7 +7595,7 @@ codePointAt
 (
 0
 )
-0x1e93d
+0x1E93D
 )
 ;
 assertEq
@@ -7604,7 +7604,7 @@ String
 .
 fromCodePoint
 (
-0x1e91c
+0x1E91C
 )
 .
 toLowerCase
@@ -7615,7 +7615,7 @@ codePointAt
 (
 0
 )
-0x1e93e
+0x1E93E
 )
 ;
 assertEq
@@ -7624,7 +7624,7 @@ String
 .
 fromCodePoint
 (
-0x1e91d
+0x1E91D
 )
 .
 toLowerCase
@@ -7635,7 +7635,7 @@ codePointAt
 (
 0
 )
-0x1e93f
+0x1E93F
 )
 ;
 assertEq
@@ -7644,7 +7644,7 @@ String
 .
 fromCodePoint
 (
-0x1e91e
+0x1E91E
 )
 .
 toLowerCase
@@ -7655,7 +7655,7 @@ codePointAt
 (
 0
 )
-0x1e940
+0x1E940
 )
 ;
 assertEq
@@ -7664,7 +7664,7 @@ String
 .
 fromCodePoint
 (
-0x1e91f
+0x1E91F
 )
 .
 toLowerCase
@@ -7675,7 +7675,7 @@ codePointAt
 (
 0
 )
-0x1e941
+0x1E941
 )
 ;
 assertEq
@@ -7684,7 +7684,7 @@ String
 .
 fromCodePoint
 (
-0x1e920
+0x1E920
 )
 .
 toLowerCase
@@ -7695,7 +7695,7 @@ codePointAt
 (
 0
 )
-0x1e942
+0x1E942
 )
 ;
 assertEq
@@ -7704,7 +7704,7 @@ String
 .
 fromCodePoint
 (
-0x1e921
+0x1E921
 )
 .
 toLowerCase
@@ -7715,7 +7715,7 @@ codePointAt
 (
 0
 )
-0x1e943
+0x1E943
 )
 ;
 if
