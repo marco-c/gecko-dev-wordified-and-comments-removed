@@ -493,8 +493,6 @@ DOMString
 qualifiedName
 )
 ;
-/
-*
 [
 Creator
 ]
@@ -503,8 +501,6 @@ createDocumentFragment
 (
 )
 ;
-*
-/
 [
 Creator
 ]

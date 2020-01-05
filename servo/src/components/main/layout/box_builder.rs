@@ -275,6 +275,18 @@ TextNodeTypeId
 }
 ;
 use
+script
+:
+:
+dom
+:
+:
+node
+:
+:
+DocumentFragmentNodeTypeId
+;
+use
 servo_util
 :
 :
@@ -2742,6 +2754,8 @@ TextNodeTypeId
 >
 CSSDisplayInline
 DoctypeNodeTypeId
+|
+DocumentFragmentNodeTypeId
 |
 CommentNodeTypeId
 =
