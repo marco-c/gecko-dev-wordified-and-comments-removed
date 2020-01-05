@@ -48535,7 +48535,7 @@ parentStyleContext
 aStyleContext
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 ;

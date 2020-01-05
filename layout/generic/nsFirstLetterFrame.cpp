@@ -256,7 +256,7 @@ parentStyleContext
 mStyleContext
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 ;
@@ -1627,7 +1627,7 @@ StyleContext
 )
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 ;
@@ -1890,7 +1890,7 @@ prevInFlow
 mStyleContext
 -
 >
-GetParent
+GetParentAllowServo
 (
 )
 :
