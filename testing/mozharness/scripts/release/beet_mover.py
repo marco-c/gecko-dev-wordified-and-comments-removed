@@ -2440,7 +2440,7 @@ get_hash_for_file
 downloaded_file
 hash_type
 =
-algo
+fmt
 )
                         
 fmt
