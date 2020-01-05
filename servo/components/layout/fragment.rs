@@ -7648,7 +7648,7 @@ offsets
 block_start
 container_size
 .
-inline
+block
 )
 .
 specified_or_zero
@@ -7668,7 +7668,7 @@ offsets
 block_end
 container_size
 .
-inline
+block
 )
 .
 specified_or_zero
