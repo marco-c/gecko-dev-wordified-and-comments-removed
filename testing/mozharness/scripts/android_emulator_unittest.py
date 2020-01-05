@@ -3745,16 +3745,6 @@ str_format_values
 {
             
 '
-app
-'
-:
-self
-.
-_query_package_name
-(
-)
-            
-'
 remote_webserver
 '
 :
@@ -4032,6 +4022,33 @@ None
                 
 continue
             
+if
+opt
+=
+=
+'
+app
+'
+:
+                
+cmd
+.
+extend
+(
+[
+option
+%
+self
+.
+_query_package_name
+(
+)
+]
+)
+            
+else
+:
+                
 cmd
 .
 extend
@@ -6224,7 +6241,7 @@ self
 _install_fennec_apk
 "
 Install
-Fennec
+app
 APK
 "
 )
