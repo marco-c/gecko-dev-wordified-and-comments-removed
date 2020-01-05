@@ -845,7 +845,6 @@ longhands
 self
 background_image
 border_spacing
-height
 }
 ;
 use
