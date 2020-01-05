@@ -311,7 +311,7 @@ mColors
 wr
 :
 :
-ToWRLayoutSize
+ToWrLayoutSize
 (
 mCorners
 [
@@ -321,7 +321,7 @@ mCorners
 wr
 :
 :
-ToWRLayoutSize
+ToWrLayoutSize
 (
 mCorners
 [
@@ -331,7 +331,7 @@ mCorners
 wr
 :
 :
-ToWRLayoutSize
+ToWrLayoutSize
 (
 mCorners
 [
@@ -341,7 +341,7 @@ mCorners
 wr
 :
 :
-ToWRLayoutSize
+ToWrLayoutSize
 (
 mCorners
 [
