@@ -805,6 +805,11 @@ Observer
 ;
 private
 :
+bool
+mDecodeVideoOnGpuProcess
+=
+true
+;
 RefPtr
 <
 Observer
