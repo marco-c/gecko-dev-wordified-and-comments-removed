@@ -3566,11 +3566,11 @@ str
 return
 FindInReadable
 (
-str
 nsDependentAtomString
 (
 aStr
 )
+str
 )
 ;
 }
