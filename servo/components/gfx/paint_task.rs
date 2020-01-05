@@ -139,6 +139,7 @@ compositor_msg
 :
 {
 Epoch
+FrameTreeId
 PaintState
 LayerId
 }
@@ -389,6 +390,7 @@ Vec
 <
 PaintRequest
 >
+FrameTreeId
 )
 UnusedBuffer
 (
@@ -1075,6 +1077,7 @@ Msg
 Paint
 (
 requests
+frame_tree_id
 )
 =
 >
@@ -1305,6 +1308,7 @@ self
 .
 epoch
 replies
+frame_tree_id
 )
 ;
 }
