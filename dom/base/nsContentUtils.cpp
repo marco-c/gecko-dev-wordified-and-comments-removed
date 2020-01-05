@@ -44622,7 +44622,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-LargeAllocationRelatedBrowsingContexts
+LargeAllocationNotOnlyToplevelInTabGroup
 "
 )
 ;
