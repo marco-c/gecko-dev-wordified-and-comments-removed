@@ -16,7 +16,6 @@ extensions
 "
 )
 ;
-async
 function
 run_test
 (
@@ -119,8 +118,7 @@ lastModifiedTime
 5000
 )
 ;
-await
-promiseStartupManager
+startupManager
 (
 )
 ;
@@ -138,7 +136,6 @@ org
 "
 callback_soon
 (
-async
 function
 (
 a
@@ -249,8 +246,7 @@ maxVersion
 profileDir
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;

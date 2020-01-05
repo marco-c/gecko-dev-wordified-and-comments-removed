@@ -275,7 +275,6 @@ run_test_1
 )
 ;
 }
-async
 function
 run_test_1
 (
@@ -305,8 +304,7 @@ addon4
 profileDir
 )
 ;
-await
-promiseStartupManager
+startupManager
 (
 )
 ;
@@ -574,7 +572,6 @@ test_bootstrap1_1
 "
 )
 ]
-async
 function
 (
 )
@@ -887,8 +884,7 @@ uninstall_reason
 "
 )
 ;
-await
-promiseStartupManager
+startupManager
 (
 false
 )
@@ -1212,7 +1208,6 @@ run_test_2
 )
 ;
 }
-async
 function
 run_test_2
 (
@@ -1250,8 +1245,7 @@ addon4
 profileDir
 )
 ;
-await
-promiseStartupManager
+startupManager
 (
 )
 ;
@@ -1531,7 +1525,6 @@ prepare_schema_migrate
 }
 )
 ;
-async
 function
 prepare_schema_migrate
 (
@@ -1853,8 +1846,7 @@ version
 2
 "
 ;
-await
-promiseStartupManager
+startupManager
 (
 true
 )

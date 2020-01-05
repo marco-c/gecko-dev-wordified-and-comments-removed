@@ -74,13 +74,11 @@ test_bug595573
 "
 )
 ]
-async
 function
 (
 )
 {
-await
-promiseRestartManager
+restartManager
 (
 )
 ;

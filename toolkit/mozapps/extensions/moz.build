@@ -146,11 +146,6 @@ amIAddonManager
 idl
 '
 '
-amIAddonManagerStartup
-.
-idl
-'
-'
 amIAddonPathService
 .
 idl
@@ -258,11 +253,6 @@ AddonContentPolicy
 h
 '
 '
-AddonManagerStartup
-.
-h
-'
-'
 AddonManagerWebAPI
 .
 h
@@ -279,11 +269,6 @@ UNIFIED_SOURCES
 [
 '
 AddonContentPolicy
-.
-cpp
-'
-'
-AddonManagerStartup
 .
 cpp
 '

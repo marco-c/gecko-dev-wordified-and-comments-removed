@@ -713,13 +713,11 @@ test_bug587088_1
 "
 )
 ]
-async
 function
 (
 )
 {
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -737,7 +735,6 @@ org
 "
 callback_soon
 (
-async
 function
 (
 a1
@@ -846,8 +843,7 @@ check_addon_uninstalling
 a1
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -865,7 +861,6 @@ org
 "
 callback_soon
 (
-async
 function
 (
 a1_2
@@ -877,8 +872,7 @@ a1_2
 true
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -896,7 +890,6 @@ org
 "
 callback_soon
 (
-async
 function
 (
 a1_3
@@ -914,8 +907,7 @@ close
 (
 )
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;

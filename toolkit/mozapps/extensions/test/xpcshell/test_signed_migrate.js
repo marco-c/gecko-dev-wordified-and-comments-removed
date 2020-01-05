@@ -566,8 +566,7 @@ version
 5
 "
 ;
-yield
-promiseStartupManager
+startupManager
 (
 true
 )
@@ -784,8 +783,7 @@ version
 5
 "
 ;
-yield
-promiseStartupManager
+startupManager
 (
 true
 )

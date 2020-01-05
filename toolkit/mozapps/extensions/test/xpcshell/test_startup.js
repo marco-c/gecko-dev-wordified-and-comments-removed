@@ -701,7 +701,7 @@ exists
 ;
 do_check_false
 (
-gAddonStartup
+gExtensionsINI
 .
 exists
 (
@@ -866,7 +866,6 @@ main
 )
 ;
 }
-async
 function
 run_test_1
 (
@@ -939,8 +938,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -1025,14 +1023,14 @@ Checking
 for
 "
 +
-gAddonStartup
+gExtensionsINI
 .
 path
 )
 ;
 do_check_true
 (
-gAddonStartup
+gExtensionsINI
 .
 exists
 (
@@ -1822,7 +1820,6 @@ run_test_2
 )
 ;
 }
-async
 function
 run_test_2
 (
@@ -1929,8 +1926,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -2002,7 +1998,7 @@ gCachePurged
 ;
 do_check_true
 (
-gAddonStartup
+gExtensionsINI
 .
 exists
 (
@@ -2378,7 +2374,6 @@ run_test_3
 )
 ;
 }
-async
 function
 run_test_3
 (
@@ -2467,8 +2462,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -2917,7 +2911,6 @@ run_test_4
 )
 ;
 }
-async
 function
 run_test_4
 (
@@ -2943,8 +2936,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -3230,7 +3222,6 @@ run_test_5
 )
 ;
 }
-async
 function
 run_test_5
 (
@@ -3256,8 +3247,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -3606,7 +3596,6 @@ run_test_6
 )
 ;
 }
-async
 function
 run_test_6
 (
@@ -3629,8 +3618,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -3963,7 +3951,6 @@ run_test_7
 )
 ;
 }
-async
 function
 run_test_7
 (
@@ -4022,8 +4009,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -4438,7 +4424,6 @@ run_test_8
 )
 ;
 }
-async
 function
 run_test_8
 (
@@ -4462,8 +4447,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -4746,7 +4730,6 @@ run_test_9
 )
 ;
 }
-async
 function
 run_test_9
 (
@@ -4850,8 +4833,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -5238,7 +5220,6 @@ run_test_10
 )
 ;
 }
-async
 function
 run_test_10
 (
@@ -5297,8 +5278,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
@@ -5685,7 +5665,6 @@ run_test_11
 )
 ;
 }
-async
 function
 run_test_11
 (
@@ -5760,8 +5739,7 @@ gCachePurged
 =
 false
 ;
-await
-promiseRestartManager
+restartManager
 (
 )
 ;
