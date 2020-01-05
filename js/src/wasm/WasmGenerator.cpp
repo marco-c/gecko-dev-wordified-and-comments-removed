@@ -4427,7 +4427,9 @@ false
 metadata_
 -
 >
-initStartFuncIndex
+startFuncIndex
+.
+emplace
 (
 funcIndex
 )
