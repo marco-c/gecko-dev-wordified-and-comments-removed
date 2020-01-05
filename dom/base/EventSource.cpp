@@ -2550,13 +2550,6 @@ EventSourceImpl
 aClosure
 )
 ;
-thisObject
--
->
-AssertIsOnTargetThread
-(
-)
-;
 if
 (
 !
@@ -2587,6 +2580,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
+thisObject
+-
+>
+AssertIsOnTargetThread
+(
+)
+;
 thisObject
 -
 >
