@@ -16485,6 +16485,14 @@ aContainerSize
 0
 )
 ;
+placeholder
+-
+>
+AddStateBits
+(
+PLACEHOLDER_STATICPOS_NEEDS_CSSALIGN
+)
+;
 }
 }
 nscoord
