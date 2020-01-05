@@ -173,6 +173,10 @@ friend
 class
 nsAsyncResolveRequest
 ;
+friend
+class
+TestProtocolProxyService_LoadHostFilters_Test
+;
 ~
 nsProtocolProxyService
 (
