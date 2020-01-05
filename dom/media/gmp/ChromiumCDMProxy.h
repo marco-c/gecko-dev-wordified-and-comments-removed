@@ -424,6 +424,17 @@ return
 this
 ;
 }
+already_AddRefed
+<
+gmp
+:
+:
+ChromiumCDMParent
+>
+GetCDMParent
+(
+)
+;
 private
 :
 void
@@ -441,6 +452,9 @@ ChromiumCDMProxy
 GMPCrashHelper
 *
 mCrashHelper
+;
+Mutex
+mCDMMutex
 ;
 RefPtr
 <
