@@ -624,6 +624,16 @@ join
 "
 )
 ]
+spec_base_path
+=
+"
+components
+/
+script
+/
+dom
+/
+"
 def
 is_iter_empty
 (
@@ -4344,19 +4354,8 @@ lines
 )
 :
     
-base_path
-=
-"
-components
-/
-script
-/
-dom
-/
-"
-    
 if
-base_path
+spec_base_path
 not
 in
 file_name
@@ -4384,7 +4383,7 @@ file_name
 [
 0
 ]
-base_path
+spec_base_path
 )
     
 patt
