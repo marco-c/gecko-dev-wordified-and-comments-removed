@@ -507,12 +507,6 @@ transform
 translate
 .
 html
-fails
--
-if
-(
-stylo
-)
 css
 -
 values
