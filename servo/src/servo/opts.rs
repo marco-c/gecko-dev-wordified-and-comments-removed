@@ -41,7 +41,7 @@ enum
 render_mode
 {
 screen
-file
+png
 (
 str
 )
@@ -183,7 +183,7 @@ some
 output_file
 )
 {
-file
+png
 (
 output_file
 )
