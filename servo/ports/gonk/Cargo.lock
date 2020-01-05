@@ -904,7 +904,7 @@ rust
 -
 azure
 #
-b05ba4bb70aefb319c7f168fc83a9fd04a1aa1ef
+7662f94f0b8c368134a04edac936328d603c7ad8
 "
 dependencies
 =
@@ -11101,7 +11101,7 @@ ipc
 -
 channel
 #
-6900611d5f00c7405ae886d75841fe37df6bfc38
+1b95d5490d7b7f49576577315bdb5b4c834d08d0
 "
 dependencies
 =
@@ -11191,9 +11191,9 @@ index
 libc
 0
 .
-1
+2
 .
-12
+2
 (
 registry
 +
