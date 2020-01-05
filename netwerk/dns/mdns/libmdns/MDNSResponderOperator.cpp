@@ -2626,7 +2626,7 @@ guard
 MakeScopeExit
 (
 [
-this
+&
 ]
 {
 Unused
@@ -3222,7 +3222,7 @@ guard
 MakeScopeExit
 (
 [
-this
+&
 ]
 {
 Unused
