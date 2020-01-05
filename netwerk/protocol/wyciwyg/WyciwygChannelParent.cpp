@@ -1155,7 +1155,7 @@ WyciwygChannelParent
 RecvWriteToCacheEntry
 (
 const
-nsString
+nsDependentSubstring
 &
 data
 )

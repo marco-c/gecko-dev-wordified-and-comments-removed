@@ -184,7 +184,7 @@ IPCResult
 RecvWriteToCacheEntry
 (
 const
-nsString
+nsDependentSubstring
 &
 data
 )
