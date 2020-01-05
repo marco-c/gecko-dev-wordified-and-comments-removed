@@ -1162,7 +1162,11 @@ switch
 ins
 -
 >
-accessType
+access
+(
+)
+.
+type
 (
 )
 )
@@ -1462,7 +1466,11 @@ switch
 ins
 -
 >
-accessType
+access
+(
+)
+.
+type
 (
 )
 )

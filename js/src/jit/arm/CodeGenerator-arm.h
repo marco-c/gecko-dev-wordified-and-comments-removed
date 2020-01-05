@@ -1369,13 +1369,6 @@ Label
 done
 )
 ;
-void
-memoryBarrier
-(
-MemoryBarrierBits
-barrier
-)
-;
 public
 :
 CodeGeneratorARM

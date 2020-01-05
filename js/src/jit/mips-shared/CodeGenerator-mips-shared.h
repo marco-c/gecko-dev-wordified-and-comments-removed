@@ -1204,13 +1204,6 @@ ins
 =
 0
 ;
-void
-memoryBarrier
-(
-MemoryBarrierBits
-barrier
-)
-;
 public
 :
 CodeGeneratorMIPSShared
