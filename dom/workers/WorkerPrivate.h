@@ -625,6 +625,9 @@ mIsChromeWorker
 bool
 mMainThreadObjectsForgotten
 ;
+bool
+mIsSecureContext
+;
 WorkerType
 mWorkerType
 ;
@@ -2240,6 +2243,16 @@ IMPL_EVENT_HANDLER
 (
 error
 )
+bool
+IsSecureContext
+(
+)
+const
+{
+return
+mIsSecureContext
+;
+}
 #
 ifdef
 DEBUG

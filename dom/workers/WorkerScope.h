@@ -626,6 +626,12 @@ ErrorResult
 aRv
 )
 ;
+bool
+IsSecureContext
+(
+)
+const
+;
 already_AddRefed
 <
 Promise
