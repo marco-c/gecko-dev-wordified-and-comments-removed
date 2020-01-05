@@ -28,15 +28,6 @@ h
 #
 include
 "
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -7350,13 +7341,6 @@ dwCopyFlags
 =
 COPY_FILE_ALLOW_DECRYPTED_DESTINATION
 ;
-if
-(
-IsVistaOrLater
-(
-)
-)
-{
 bool
 path1Remote
 path2Remote
@@ -7398,7 +7382,6 @@ dwCopyFlags
 =
 COPY_FILE_NO_BUFFERING
 ;
-}
 }
 if
 (
