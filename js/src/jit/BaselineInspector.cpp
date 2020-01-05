@@ -5417,12 +5417,6 @@ case
 ICStub
 :
 :
-GetProp_ArgumentsLength
-:
-case
-ICStub
-:
-:
 GetElem_Arguments
 :
 return
