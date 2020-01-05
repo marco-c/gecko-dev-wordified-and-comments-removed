@@ -3004,7 +3004,6 @@ JSEXN_LIMIT
 }
 JSExnType
 ;
-typedef
 struct
 JSErrorFormatString
 {
@@ -3025,7 +3024,6 @@ int16_t
 exnType
 ;
 }
-JSErrorFormatString
 ;
 typedef
 const
@@ -6290,11 +6288,6 @@ unicodeToNative
 ;
 }
 ;
-typedef
-struct
-JSCTypesCallbacks
-JSCTypesCallbacks
-;
 extern
 JS_PUBLIC_API
 (
@@ -7052,7 +7045,6 @@ JSConstIntegerSpec
 struct
 JSJitInfo
 ;
-typedef
 struct
 JSNativeWrapper
 {
@@ -7065,7 +7057,6 @@ JSJitInfo
 info
 ;
 }
-JSNativeWrapper
 ;
 #
 define
