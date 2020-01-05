@@ -101,8 +101,7 @@ data
 :
 HashMap
 <
-~
-str
+DOMString
 FormDatum
 >
 reflector_

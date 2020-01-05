@@ -104,8 +104,7 @@ type_id
 ElementTypeId
 tag_name
 :
-~
-str
+DOMString
 document
 :
 AbstractDocument
@@ -139,8 +138,7 @@ new
 (
 localName
 :
-~
-str
+DOMString
 document
 :
 AbstractDocument

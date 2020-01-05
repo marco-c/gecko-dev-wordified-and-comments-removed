@@ -175,8 +175,7 @@ handlers
 :
 HashMap
 <
-~
-str
+DOMString
 ~
 [
 EventListenerEntry
