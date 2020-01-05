@@ -928,16 +928,6 @@ mVideoQueue
 ;
 }
 bool
-NeedToDecodeAudio
-(
-)
-;
-bool
-NeedToDecodeVideo
-(
-)
-;
-bool
 HasLowDecodedData
 (
 )
