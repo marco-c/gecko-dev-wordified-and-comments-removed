@@ -3541,7 +3541,7 @@ lock
 ;
 MOZ_MUST_USE
 bool
-findZoneEdgesForWeakMaps
+findInterZoneEdges
 (
 )
 ;

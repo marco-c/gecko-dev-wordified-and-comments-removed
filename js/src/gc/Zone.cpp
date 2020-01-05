@@ -206,6 +206,10 @@ gcZoneGroupEdges_
 (
 group
 )
+hasDeadProxies_
+(
+group
+)
 typeDescrObjects_
 (
 group
