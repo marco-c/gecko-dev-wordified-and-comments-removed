@@ -149,6 +149,7 @@ NotFound
 HierarchyRequest
 InvalidCharacter
 NotSupported
+InUseAttribute
 InvalidState
 Syntax
 Namespace
@@ -276,6 +277,16 @@ DOMErrorName
 :
 :
 NotSupportedError
+Error
+:
+:
+InUseAttribute
+=
+>
+DOMErrorName
+:
+:
+InUseAttributeError
 Error
 :
 :
