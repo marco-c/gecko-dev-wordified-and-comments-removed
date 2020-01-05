@@ -828,6 +828,7 @@ font
 :
 &
 Font
++
 text
 :
 ~
@@ -1032,10 +1033,12 @@ test_iter_indivisible_pieces
 fn
 test_pieces
 (
++
 text
 :
 ~
 str
++
 res
 :
 ~

@@ -1312,6 +1312,7 @@ parse_html
 scope
 :
 NodeScope
++
 url
 :
 Url
@@ -1476,7 +1477,6 @@ url
 (
 copy
 scope
-copy
 url
 )
 ;
