@@ -655,12 +655,6 @@ AsServoComputedValues
 =
 computedValues
 ;
-MOZ_ASSERT_IF
-(
-changeHint
-recreateContext
-)
-;
 if
 (
 recreateContext
