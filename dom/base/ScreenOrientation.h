@@ -221,6 +221,8 @@ const
 uint16_t
 GetAngle
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

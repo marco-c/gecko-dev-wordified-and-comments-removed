@@ -241,6 +241,7 @@ type
 ;
 [
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
