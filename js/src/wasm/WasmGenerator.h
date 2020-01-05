@@ -314,14 +314,6 @@ uint32_t
 numFinishedFuncDefs_
 ;
 bool
-funcIsImport
-(
-uint32_t
-funcIndex
-)
-const
-;
-bool
 funcIsCompiled
 (
 uint32_t
