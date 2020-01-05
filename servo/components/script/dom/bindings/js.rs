@@ -1336,6 +1336,13 @@ inner
 }
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 unsafe
 fn
@@ -1380,6 +1387,13 @@ to_layout
 )
 )
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 get

@@ -172,6 +172,13 @@ NodeListType
 impl
 NodeList
 {
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 fn
 new_inherited
 (
@@ -198,6 +205,13 @@ list_type
 list_type
 }
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new
