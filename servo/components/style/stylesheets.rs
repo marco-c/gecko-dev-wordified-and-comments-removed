@@ -68,6 +68,12 @@ parse_property_declaration_list
 }
 ;
 use
+selector_impl
+:
+:
+ServoSelectorImpl
+;
+use
 selectors
 :
 :
@@ -318,6 +324,9 @@ selectors
 Vec
 <
 Selector
+<
+ServoSelectorImpl
+>
 >
 pub
 declarations
@@ -2476,6 +2485,9 @@ Prelude
 Vec
 <
 Selector
+<
+ServoSelectorImpl
+>
 >
 ;
 type
@@ -2505,6 +2517,9 @@ Result
 Vec
 <
 Selector
+<
+ServoSelectorImpl
+>
 >
 (
 )
@@ -2554,6 +2569,9 @@ prelude
 Vec
 <
 Selector
+<
+ServoSelectorImpl
+>
 >
 input
 :
@@ -2929,6 +2947,9 @@ Prelude
 Vec
 <
 Selector
+<
+ServoSelectorImpl
+>
 >
 ;
 type
@@ -2954,6 +2975,9 @@ Result
 Vec
 <
 Selector
+<
+ServoSelectorImpl
+>
 >
 (
 )
@@ -2980,6 +3004,9 @@ prelude
 Vec
 <
 Selector
+<
+ServoSelectorImpl
+>
 >
 input
 :

@@ -681,6 +681,15 @@ QualName
 }
 ;
 use
+style
+:
+:
+selector_impl
+:
+:
+ServoSelectorImpl
+;
+use
 util
 :
 :
@@ -2010,6 +2019,9 @@ selectors
 Vec
 <
 Selector
+<
+ServoSelectorImpl
+>
 >
 iterator
 :
@@ -2033,6 +2045,9 @@ selectors
 Vec
 <
 Selector
+<
+ServoSelectorImpl
+>
 >
 )
 -

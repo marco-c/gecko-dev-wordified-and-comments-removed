@@ -163,13 +163,6 @@ extern
 crate
 rustc_serialize
 ;
-#
-[
-macro_use
-(
-state_pseudo_classes
-)
-]
 extern
 crate
 selectors
@@ -239,6 +232,10 @@ dom
 ;
 pub
 mod
+element_state
+;
+pub
+mod
 error_reporting
 ;
 pub
@@ -264,6 +261,10 @@ parser
 pub
 mod
 restyle_hints
+;
+pub
+mod
+selector_impl
 ;
 pub
 mod

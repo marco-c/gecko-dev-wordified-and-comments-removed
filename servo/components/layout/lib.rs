@@ -216,13 +216,6 @@ extern
 crate
 script_traits
 ;
-#
-[
-macro_use
-(
-state_pseudo_classes
-)
-]
 extern
 crate
 selectors
