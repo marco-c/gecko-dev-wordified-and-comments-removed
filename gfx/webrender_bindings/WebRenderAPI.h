@@ -299,7 +299,7 @@ WindowId
 aId
 )
 :
-mWRApi
+mWrApi
 (
 aRawApi
 )
@@ -316,7 +316,7 @@ WebRenderAPI
 ;
 WrAPI
 *
-mWRApi
+mWrApi
 ;
 wr
 :
@@ -455,7 +455,10 @@ aMask
 const
 WrTextureFilter
 aFilter
-WrImageKey
+wr
+:
+:
+ImageKey
 aImage
 )
 ;
