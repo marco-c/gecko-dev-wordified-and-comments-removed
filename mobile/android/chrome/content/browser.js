@@ -9295,6 +9295,11 @@ window
 0
 ]
 ;
+if
+(
+closedTabData
+)
+{
 let
 message
 ;
@@ -9454,6 +9459,7 @@ closedTabData
 }
 )
 ;
+}
 }
 aTab
 .
