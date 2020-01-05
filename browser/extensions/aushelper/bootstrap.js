@@ -376,7 +376,7 @@ microCodeVersions
 let
 cpuRevMatch
 =
-false
+null
 ;
 try
 {
@@ -501,6 +501,10 @@ c
 )
 ;
 }
+cpuRevMatch
+=
+false
+;
 if
 (
 microCodeVersions
