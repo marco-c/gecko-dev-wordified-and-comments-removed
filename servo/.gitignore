@@ -26,6 +26,12 @@ pkl
 *
 .
 pyc
+*
+.
+swp
+*
+.
+swo
 servo
 -
 test
