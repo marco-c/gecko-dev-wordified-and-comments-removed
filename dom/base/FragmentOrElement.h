@@ -1038,7 +1038,7 @@ mCustomElementData
 ;
 nsDataHashtable
 <
-nsRefPtrHashKey
+nsPtrHashKey
 <
 DOMIntersectionObserver
 >

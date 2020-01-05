@@ -17862,7 +17862,7 @@ nullptr
 }
 nsDataHashtable
 <
-nsRefPtrHashKey
+nsPtrHashKey
 <
 DOMIntersectionObserver
 >
@@ -17905,7 +17905,7 @@ aObserver
 {
 nsDataHashtable
 <
-nsRefPtrHashKey
+nsPtrHashKey
 <
 DOMIntersectionObserver
 >
@@ -17958,7 +17958,7 @@ aObserver
 {
 nsDataHashtable
 <
-nsRefPtrHashKey
+nsPtrHashKey
 <
 DOMIntersectionObserver
 >
@@ -17995,7 +17995,7 @@ aThreshold
 {
 nsDataHashtable
 <
-nsRefPtrHashKey
+nsPtrHashKey
 <
 DOMIntersectionObserver
 >
