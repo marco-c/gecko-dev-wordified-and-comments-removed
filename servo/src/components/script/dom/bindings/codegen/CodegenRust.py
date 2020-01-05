@@ -27753,10 +27753,7 @@ methodArgs
 "
 Some
 (
-vec
-:
-:
-zip_slice
+zip_copies
 (
 %
 (
@@ -27856,10 +27853,7 @@ attrArgs
 "
 Some
 (
-vec
-:
-:
-zip_slice
+zip_copies
 (
 %
 (
@@ -27959,10 +27953,7 @@ constArgs
 "
 Some
 (
-vec
-:
-:
-zip_slice
+zip_copies
 (
 %
 (
@@ -38076,6 +38067,16 @@ node
 :
 :
 ScriptView
+'
+                          
+'
+servo_util
+:
+:
+vec
+:
+:
+zip_copies
 '
                           
 '
