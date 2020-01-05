@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 RootActor
@@ -35,7 +40,7 @@ main
 function
 createRootActor
 (
-aConnection
+connection
 )
 {
 let
@@ -44,7 +49,7 @@ root
 new
 RootActor
 (
-aConnection
+connection
 {
 globalActorFactories
 :

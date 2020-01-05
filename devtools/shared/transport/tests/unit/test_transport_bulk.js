@@ -375,12 +375,12 @@ onPacket
 :
 function
 (
-aPacket
+packet
 )
 {
 do_check_eq
 (
-aPacket
+packet
 .
 from
 "

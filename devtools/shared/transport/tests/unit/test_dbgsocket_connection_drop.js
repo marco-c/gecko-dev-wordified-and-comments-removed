@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 RawPacket
@@ -319,7 +324,7 @@ onPacket
 :
 function
 (
-aPacket
+packet
 )
 {
 this
@@ -328,7 +333,6 @@ onPacket
 =
 function
 (
-aPacket
 )
 {
 do_throw
@@ -380,7 +384,7 @@ onClosed
 :
 function
 (
-aStatus
+status
 )
 {
 do_check_true
