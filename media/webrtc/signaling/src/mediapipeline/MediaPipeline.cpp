@@ -10589,14 +10589,6 @@ enter
 monitor_
 )
 ;
-#
-endif
-#
-if
-defined
-(
-MOZILLA_INTERNAL_API
-)
 if
 (
 buffer
