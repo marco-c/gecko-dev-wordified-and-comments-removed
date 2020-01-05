@@ -44301,10 +44301,11 @@ idx
 nsRange
 :
 :
-CollectClientRects
+CollectClientRectsAndText
 (
 &
 accumulator
+nullptr
 range
 range
 -

@@ -954,7 +954,7 @@ aEndOffset
 ;
 static
 void
-CollectClientRects
+CollectClientRectsAndText
 (
 nsLayoutUtils
 :
@@ -962,6 +962,15 @@ nsLayoutUtils
 RectCallback
 *
 aCollector
+mozilla
+:
+:
+dom
+:
+:
+DOMStringList
+*
+aTextList
 nsRange
 *
 aRange
