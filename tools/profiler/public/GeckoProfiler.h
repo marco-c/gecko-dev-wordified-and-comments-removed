@@ -951,12 +951,9 @@ PseudoStack
 tlsPseudoStack
 ;
 extern
-MOZ_THREAD_LOCAL
-(
 GeckoSampler
 *
-)
-tlsTicker
+gSampler
 ;
 extern
 bool
