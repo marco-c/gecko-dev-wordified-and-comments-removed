@@ -652,6 +652,15 @@ tab
 )
 ;
 }
+boolean
+isPrivate
+(
+)
+{
+return
+isPrivate
+;
+}
 Override
 public
 boolean
