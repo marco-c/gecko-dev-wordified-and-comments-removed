@@ -70,6 +70,15 @@ stream
 {
 try
 {
+if
+(
+stream
+instanceof
+Ci
+.
+nsISeekableStream
+)
+{
 stream
 .
 seek
@@ -78,6 +87,7 @@ seek
 0
 )
 ;
+}
 }
 catch
 (
