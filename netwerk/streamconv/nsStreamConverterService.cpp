@@ -661,7 +661,6 @@ nsDequeFunctor
 {
 public
 :
-virtual
 void
 *
 operator
@@ -672,6 +671,7 @@ void
 *
 anObject
 )
+override
 {
 nsCString
 *
