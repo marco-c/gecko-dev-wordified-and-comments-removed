@@ -527,6 +527,12 @@ HasRef
 )
 const
 ;
+bool
+MightHaveRef
+(
+)
+const
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 URLValueData
@@ -608,6 +614,13 @@ Maybe
 bool
 >
 mIsLocalRef
+;
+mutable
+Maybe
+<
+bool
+>
+mMightHaveRef
 ;
 protected
 :
