@@ -188,7 +188,6 @@ toString
 )
 "
 async
-function
 foo
 (
 a

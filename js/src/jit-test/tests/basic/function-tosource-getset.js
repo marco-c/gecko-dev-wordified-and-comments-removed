@@ -48,7 +48,6 @@ toString
 (
 )
 "
-function
 get
 prop
 (
@@ -72,8 +71,6 @@ toSource
 (
 )
 "
-(
-function
 get
 prop
 (
@@ -84,7 +81,6 @@ a
 b
 ;
 }
-)
 "
 )
 ;
@@ -98,7 +94,6 @@ toString
 (
 )
 "
-function
 set
 prop
 (
@@ -123,8 +118,6 @@ toSource
 (
 )
 "
-(
-function
 set
 prop
 (
@@ -136,7 +129,6 @@ a
 b
 ;
 }
-)
 "
 )
 ;

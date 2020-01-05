@@ -305,6 +305,10 @@ Nothing
 bool
 createScript
 (
+uint32_t
+preludeStart
+=
+0
 )
 ;
 bool
@@ -1361,6 +1365,8 @@ BytecodeCompiler
 :
 createScript
 (
+uint32_t
+preludeStart
 )
 {
 script
@@ -1379,6 +1385,7 @@ sourceBuffer
 length
 (
 )
+preludeStart
 )
 ;
 return
@@ -2382,6 +2389,13 @@ if
 !
 createScript
 (
+fn
+-
+>
+pn_funbox
+-
+>
+preludeStart
 )
 )
 return
@@ -3295,6 +3309,12 @@ lazy
 -
 >
 end
+(
+)
+lazy
+-
+>
+preludeStart
 (
 )
 )

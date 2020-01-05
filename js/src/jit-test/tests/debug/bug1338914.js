@@ -81,6 +81,7 @@ source
 .
 text
 "
+function
 (
 )
 {

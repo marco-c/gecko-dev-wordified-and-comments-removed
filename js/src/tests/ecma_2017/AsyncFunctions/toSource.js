@@ -194,9 +194,7 @@ toSource
 (
 )
 "
-(
 async
-function
 foo
 (
 a
@@ -208,7 +206,6 @@ await
 a
 ;
 }
-)
 "
 )
 ;

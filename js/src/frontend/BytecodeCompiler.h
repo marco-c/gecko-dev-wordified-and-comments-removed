@@ -373,6 +373,17 @@ bool
 IsIdentifier
 (
 const
+char
+*
+chars
+size_t
+length
+)
+;
+bool
+IsIdentifier
+(
+const
 char16_t
 *
 chars

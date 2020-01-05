@@ -3499,6 +3499,8 @@ fn
 JSFunction
 *
 fun
+uint32_t
+preludeStart
 Directives
 directives
 GeneratorKind
@@ -3742,6 +3744,8 @@ outerpc
 FunctionBox
 *
 funbox
+uint32_t
+preludeStart
 InHandling
 inHandling
 YieldHandling
@@ -3802,6 +3806,8 @@ private
 Node
 functionStmt
 (
+uint32_t
+preludeStart
 YieldHandling
 yieldHandling
 DefaultHandling
@@ -3815,6 +3821,8 @@ SyncFunction
 Node
 functionExpr
 (
+uint32_t
+preludeStart
 InvokedPrediction
 invoked
 =
@@ -4075,6 +4083,8 @@ exportFunctionDeclaration
 (
 uint32_t
 begin
+uint32_t
+preludeStart
 FunctionAsyncKind
 asyncKind
 =
@@ -4109,6 +4119,8 @@ exportDefaultFunctionDeclaration
 (
 uint32_t
 begin
+uint32_t
+preludeStart
 FunctionAsyncKind
 asyncKind
 =
@@ -4422,6 +4434,8 @@ checkAndMarkSuperScope
 Node
 methodDefinition
 (
+uint32_t
+preludeStart
 PropertyType
 propType
 HandleAtom
@@ -4444,6 +4458,8 @@ functionDefinition
 (
 Node
 func
+uint32_t
+preludeStart
 InHandling
 inHandling
 YieldHandling
@@ -4857,6 +4873,8 @@ skipLazyInnerFunction
 (
 Node
 pn
+uint32_t
+preludeStart
 FunctionSyntaxKind
 kind
 bool
@@ -4873,6 +4891,8 @@ ParseContext
 outerpc
 HandleFunction
 fun
+uint32_t
+preludeStart
 InHandling
 inHandling
 YieldHandling
@@ -4899,6 +4919,8 @@ Node
 pn
 HandleFunction
 fun
+uint32_t
+preludeStart
 InHandling
 inHandling
 YieldHandling
