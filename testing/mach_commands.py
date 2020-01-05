@@ -5414,15 +5414,6 @@ exit
 )
         
 if
-kwargs
-[
-"
-verbose
-"
-]
-:
-            
-if
 self
 .
 substs
@@ -5434,7 +5425,7 @@ MOZ_ARTIFACT_BUILDS
 "
 )
 :
-                
+            
 if
 kwargs
 [
@@ -5443,7 +5434,7 @@ no_artifact
 "
 ]
 :
-                    
+                
 print
 (
 '
@@ -5458,7 +5449,7 @@ artifact
 builds
 but
 '
-                          
+                      
 '
 -
 -
@@ -5472,7 +5463,7 @@ including
 -
 artifact
 '
-                          
+                      
 '
 flag
 in
@@ -5480,10 +5471,10 @@ try
 syntax
 '
 )
-                
+            
 else
 :
-                    
+                
 print
 (
 '
@@ -5499,7 +5490,7 @@ builds
 ;
 including
 '
-                          
+                      
 '
 -
 -
@@ -5516,7 +5507,7 @@ no
 -
 artifact
 '
-                          
+                      
 '
 to
 override
