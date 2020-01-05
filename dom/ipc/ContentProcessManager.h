@@ -203,9 +203,13 @@ ContentParentId
 aParentCpId
 )
 ;
-TabId
-AllocateTabId
+bool
+RegisterRemoteFrame
 (
+const
+TabId
+&
+aTabId
 const
 TabId
 &
@@ -221,7 +225,7 @@ aChildCpId
 )
 ;
 void
-DeallocateTabId
+UnregisterRemoteFrame
 (
 const
 ContentParentId
@@ -338,9 +342,6 @@ StaticAutoPtr
 ContentProcessManager
 >
 sSingleton
-;
-TabId
-mUniqueId
 ;
 std
 :

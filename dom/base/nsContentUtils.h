@@ -5710,6 +5710,12 @@ return
 sIsCustomElementsEnabled
 ;
 }
+static
+uint64_t
+GenerateTabId
+(
+)
+;
 private
 :
 static
