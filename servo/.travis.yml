@@ -51,6 +51,15 @@ ci
 lockfile_changed
 .
 sh
+-
+bash
+etc
+/
+ci
+/
+manifest_changed
+.
+sh
 cache
 :
 directories
