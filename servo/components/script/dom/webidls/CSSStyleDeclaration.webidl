@@ -588,6 +588,15 @@ attribute
 DOMString
 boxShadow
 ;
+[
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
+textShadow
+;
 /
 /
 [
