@@ -1406,6 +1406,12 @@ allpaths
 [
 ]
         
+all_paths_set
+=
+set
+(
+)
+        
 for
 p
 in
@@ -1425,8 +1431,15 @@ if
 p
 not
 in
-allpaths
+all_paths_set
 :
+                    
+all_paths_set
+.
+add
+(
+p
+)
                     
 allpaths
 .
@@ -1471,8 +1484,15 @@ if
 path
 not
 in
-allpaths
+all_paths_set
 :
+                    
+all_paths_set
+.
+add
+(
+path
+)
                     
 allpaths
 .
