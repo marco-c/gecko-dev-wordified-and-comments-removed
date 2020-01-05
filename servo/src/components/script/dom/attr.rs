@@ -405,7 +405,6 @@ DOMString
 )
 {
 let
-mut
 owner
 =
 self
@@ -424,7 +423,6 @@ let
 node
 :
 &
-mut
 JSRef
 <
 Node
@@ -433,10 +431,9 @@ Node
 NodeCast
 :
 :
-from_mut_ref
+from_ref
 (
 &
-mut
 *
 owner
 )

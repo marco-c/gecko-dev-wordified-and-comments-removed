@@ -274,7 +274,6 @@ a
 &
 '
 a
-mut
 self
 )
 -
@@ -284,7 +283,6 @@ Option
 &
 '
 a
-mut
 VirtualMethods
 :
 >
@@ -293,7 +291,6 @@ fn
 after_set_attr
 (
 &
-mut
 self
 name
 :
@@ -313,7 +310,6 @@ super_type
 Some
 (
 ref
-mut
 s
 )
 =
@@ -336,7 +332,6 @@ fn
 before_remove_attr
 (
 &
-mut
 self
 name
 :
@@ -356,7 +351,6 @@ super_type
 Some
 (
 ref
-mut
 s
 )
 =
@@ -379,7 +373,6 @@ fn
 bind_to_tree
 (
 &
-mut
 self
 )
 {
@@ -393,7 +386,6 @@ super_type
 Some
 (
 ref
-mut
 s
 )
 =
@@ -414,7 +406,6 @@ fn
 unbind_from_tree
 (
 &
-mut
 self
 )
 {
@@ -428,7 +419,6 @@ super_type
 Some
 (
 ref
-mut
 s
 )
 =
@@ -449,7 +439,6 @@ fn
 child_inserted
 (
 &
-mut
 self
 child
 :
@@ -470,7 +459,6 @@ super_type
 Some
 (
 ref
-mut
 s
 )
 =
@@ -492,7 +480,6 @@ fn
 handle_event
 (
 &
-mut
 self
 event
 :
@@ -546,7 +533,6 @@ node
 &
 '
 a
-mut
 JSRef
 <
 Node
@@ -557,7 +543,6 @@ Node
 &
 '
 a
-mut
 VirtualMethods
 :
 {
@@ -579,7 +564,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 HTMLAnchorElement
@@ -588,7 +572,7 @@ HTMLAnchorElement
 HTMLAnchorElementCast
 :
 :
-to_mut_ref
+to_ref
 (
 node
 )
@@ -600,7 +584,6 @@ unwrap
 element
 as
 &
-mut
 VirtualMethods
 :
 }
@@ -615,7 +598,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 HTMLBodyElement
@@ -624,7 +606,7 @@ HTMLBodyElement
 HTMLBodyElementCast
 :
 :
-to_mut_ref
+to_ref
 (
 node
 )
@@ -636,7 +618,6 @@ unwrap
 element
 as
 &
-mut
 VirtualMethods
 :
 }
@@ -651,7 +632,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 HTMLImageElement
@@ -660,7 +640,7 @@ HTMLImageElement
 HTMLImageElementCast
 :
 :
-to_mut_ref
+to_ref
 (
 node
 )
@@ -672,7 +652,6 @@ unwrap
 element
 as
 &
-mut
 VirtualMethods
 :
 }
@@ -687,7 +666,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 HTMLIFrameElement
@@ -696,7 +674,7 @@ HTMLIFrameElement
 HTMLIFrameElementCast
 :
 :
-to_mut_ref
+to_ref
 (
 node
 )
@@ -708,7 +686,6 @@ unwrap
 element
 as
 &
-mut
 VirtualMethods
 :
 }
@@ -723,7 +700,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 HTMLObjectElement
@@ -732,7 +708,7 @@ HTMLObjectElement
 HTMLObjectElementCast
 :
 :
-to_mut_ref
+to_ref
 (
 node
 )
@@ -744,7 +720,6 @@ unwrap
 element
 as
 &
-mut
 VirtualMethods
 :
 }
@@ -759,7 +734,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 HTMLStyleElement
@@ -768,7 +742,7 @@ HTMLStyleElement
 HTMLStyleElementCast
 :
 :
-to_mut_ref
+to_ref
 (
 node
 )
@@ -780,7 +754,6 @@ unwrap
 element
 as
 &
-mut
 VirtualMethods
 :
 }
@@ -795,7 +768,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 Element
@@ -804,7 +776,7 @@ Element
 ElementCast
 :
 :
-to_mut_ref
+to_ref
 (
 node
 )
@@ -816,7 +788,6 @@ unwrap
 element
 as
 &
-mut
 VirtualMethods
 :
 }
@@ -831,7 +802,6 @@ let
 element
 :
 &
-mut
 JSRef
 <
 HTMLElement
@@ -840,7 +810,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-to_mut_ref
+to_ref
 (
 node
 )
@@ -852,7 +822,6 @@ unwrap
 element
 as
 &
-mut
 VirtualMethods
 :
 }
@@ -863,7 +832,6 @@ _
 node
 as
 &
-mut
 VirtualMethods
 :
 }

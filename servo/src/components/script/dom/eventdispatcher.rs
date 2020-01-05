@@ -724,7 +724,6 @@ node
 Option
 <
 &
-mut
 JSRef
 <
 Node
@@ -734,7 +733,7 @@ Node
 NodeCast
 :
 :
-to_mut_ref
+to_ref
 (
 &
 mut
