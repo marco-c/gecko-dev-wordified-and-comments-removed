@@ -2033,21 +2033,6 @@ marionette
 False
 )
     
-MARIONETTE_UPDATE
-=
-(
-'
-marionette
-'
-'
-marionette
-'
-'
-.
-'
-False
-)
-    
 MARIONETTE_WEBAPI
 =
 (
