@@ -442,6 +442,8 @@ SiteHPKPState
 entry
 uint32_t
 flags
+bool
+aIsPreload
 )
 ;
 const
@@ -475,6 +477,15 @@ mozilla
 DataStorage
 >
 mSiteStateStorage
+;
+RefPtr
+<
+mozilla
+:
+:
+DataStorage
+>
+mPreloadStateStorage
 ;
 }
 ;
