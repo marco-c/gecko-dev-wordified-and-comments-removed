@@ -5988,10 +5988,6 @@ if
 (
 !
 mTabParent
-|
-|
-!
-mObserverId
 )
 {
 return
