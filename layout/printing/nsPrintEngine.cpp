@@ -2676,6 +2676,9 @@ if
 (
 !
 aIsPrintPreview
+|
+|
+printingViaParent
 )
 {
 #
@@ -2756,6 +2759,16 @@ nsPIDOMWindowOuter
 *
 domWin
 =
+nullptr
+;
+if
+(
+!
+aIsPrintPreview
+)
+{
+domWin
+=
 mDocument
 -
 >
@@ -2769,6 +2782,7 @@ domWin
 NS_ERROR_FAILURE
 )
 ;
+}
 nsCOMPtr
 <
 nsIWebBrowserPrint
@@ -2824,6 +2838,10 @@ mPrt
 -
 >
 mPrintSettings
+&
+&
+!
+aIsPrintPreview
 )
 {
 mPrt

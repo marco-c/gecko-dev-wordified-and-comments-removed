@@ -317,11 +317,6 @@ printSettings
 {
 NS_ENSURE_ARG
 (
-parent
-)
-;
-NS_ENSURE_ARG
-(
 webBrowserPrint
 )
 ;
@@ -330,6 +325,17 @@ NS_ENSURE_ARG
 printSettings
 )
 ;
+TabChild
+*
+pBrowser
+=
+nullptr
+;
+if
+(
+parent
+)
+{
 nsCOMPtr
 <
 nsPIDOMWindowOuter
@@ -385,8 +391,6 @@ NS_ENSURE_STATE
 tabchild
 )
 ;
-TabChild
-*
 pBrowser
 =
 static_cast
@@ -402,6 +406,7 @@ get
 )
 )
 ;
+}
 nsresult
 rv
 =

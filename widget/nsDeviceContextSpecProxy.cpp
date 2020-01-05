@@ -194,7 +194,7 @@ Init
 (
 nullptr
 aPrintSettings
-false
+aIsPrintPreview
 )
 ;
 if

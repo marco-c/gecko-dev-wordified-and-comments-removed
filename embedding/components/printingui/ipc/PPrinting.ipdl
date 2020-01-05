@@ -166,6 +166,7 @@ ShowPrintDialog
 (
 PPrintSettingsDialog
 dialog
+nullable
 PBrowser
 browser
 PrintData
