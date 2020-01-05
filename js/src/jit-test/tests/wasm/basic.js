@@ -1510,6 +1510,11 @@ notObject
 import
 object
 field
+'
+\
+w
+*
+'
 is
 not
 an
@@ -1523,6 +1528,11 @@ notFunction
 import
 object
 field
+'
+\
+w
+*
+'
 is
 not
 a
