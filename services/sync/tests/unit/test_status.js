@@ -429,13 +429,13 @@ sync
 SYNC_SUCCEEDED
 )
 ;
-for
+if
 (
-name
-in
 Status
 .
 engines
+.
+length
 )
 {
 do_throw
