@@ -333,7 +333,7 @@ parser
 lexer
 :
 :
-spawn_css_parser_task
+spawn_css_lexer_task
 (
 new_file
 )
@@ -500,6 +500,7 @@ layout
 build
 (
 root
+css_rules
 )
 )
 ;

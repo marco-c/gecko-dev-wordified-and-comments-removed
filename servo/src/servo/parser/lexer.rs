@@ -2693,7 +2693,7 @@ result_port
 ;
 }
 fn
-spawn_css_parser_task
+spawn_css_lexer_task
 (
 filename
 :
