@@ -9500,6 +9500,13 @@ aURI
 true
 )
 ;
+ActivityUtils
+.
+goToHomeScreen
+(
+this
+)
+;
 }
 private
 Bitmap

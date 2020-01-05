@@ -319,11 +319,5 @@ startActivity
 intent
 )
 ;
-activity
-.
-finish
-(
-)
-;
 }
 }
