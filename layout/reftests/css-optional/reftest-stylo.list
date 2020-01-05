@@ -40,6 +40,9 @@ optional
 textarea
 .
 html
+#
+Bug
+1349651
 fails
 =
 =
@@ -57,6 +60,9 @@ optional
 input
 .
 html
+#
+Bug
+1349651
 fails
 =
 =
@@ -74,7 +80,9 @@ optional
 select
 .
 html
-fails
+#
+Bug
+1349651
 =
 =
 css
@@ -117,7 +125,9 @@ dyn
 1
 .
 html
-fails
+#
+Bug
+1349651
 =
 =
 css

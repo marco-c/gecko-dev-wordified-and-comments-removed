@@ -41,6 +41,9 @@ required
 textarea
 .
 html
+#
+Bug
+1349651
 =
 =
 css
@@ -74,6 +77,9 @@ required
 text
 .
 html
+#
+Bug
+1349651
 =
 =
 css
@@ -107,6 +113,9 @@ required
 file
 .
 html
+#
+Bug
+1349651
 fails
 =
 =
@@ -124,6 +133,9 @@ required
 password
 .
 html
+#
+Bug
+1349651
 fails
 =
 =
@@ -141,6 +153,9 @@ required
 tel
 .
 html
+#
+Bug
+1349651
 fails
 =
 =
@@ -158,6 +173,9 @@ required
 search
 .
 html
+#
+Bug
+1349651
 fails
 =
 =
@@ -175,6 +193,9 @@ required
 select
 .
 html
+#
+Bug
+1349651
 #
 Checking
 dynamic
@@ -209,7 +230,9 @@ dyn
 1
 .
 html
-fails
+#
+Bug
+1349651
 =
 =
 css
@@ -251,7 +274,9 @@ dyn
 3
 .
 html
-fails
+#
+Bug
+1349651
 =
 =
 css
@@ -293,7 +318,9 @@ dyn
 5
 .
 html
-fails
+#
+Bug
+1349651
 =
 =
 css
@@ -339,7 +366,6 @@ required
 hidden
 .
 html
-fails
 =
 =
 css
@@ -356,7 +382,6 @@ required
 button
 .
 html
-fails
 =
 =
 css
@@ -373,7 +398,6 @@ required
 submit
 .
 html
-fails
 =
 =
 css
@@ -390,7 +414,6 @@ required
 image
 .
 html
-fails
 =
 =
 css
@@ -419,7 +442,6 @@ can
 t
 be
 required
-fails
 =
 =
 css
