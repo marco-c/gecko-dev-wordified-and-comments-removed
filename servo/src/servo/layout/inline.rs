@@ -68,6 +68,18 @@ layout_methods
 BoxTreeReadMethods
 }
 ;
+trait
+inline_layout_methods
+{
+fn
+reflow_inline
+(
+available_width
+:
+au
+)
+;
+}
 #
 [
 doc
@@ -84,6 +96,8 @@ layout
 "
 ]
 impl
+inline_layout_methods
+of
 inline_layout_methods
 for
 Box

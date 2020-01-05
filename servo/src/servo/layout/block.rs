@@ -53,6 +53,18 @@ layout_methods
 BoxTreeReadMethods
 }
 ;
+trait
+block_layout_methods
+{
+fn
+reflow_block
+(
+available_widh
+:
+au
+)
+;
+}
 #
 [
 doc
@@ -67,6 +79,8 @@ methods
 "
 ]
 impl
+block_layout_methods
+of
 block_layout_methods
 for
 Box
