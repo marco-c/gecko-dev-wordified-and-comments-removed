@@ -5683,6 +5683,9 @@ u8
 buffer_size
 :
 usize
+index
+:
+u32
 )
 {
 assert
@@ -5737,7 +5740,7 @@ add_raw_font
 (
 key
 font_vector
-0
+index
 )
 ;
 }

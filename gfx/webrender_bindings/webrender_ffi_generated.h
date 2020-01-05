@@ -2054,6 +2054,8 @@ uint8_t
 font_buffer
 size_t
 buffer_size
+uint32_t
+index
 )
 WR_FUNC
 ;

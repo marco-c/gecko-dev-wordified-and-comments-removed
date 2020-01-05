@@ -1000,6 +1000,7 @@ AddRawFont
 (
 aFontKey
 slice
+aFontIndex
 )
 ;
 return
