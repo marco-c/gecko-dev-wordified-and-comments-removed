@@ -1127,6 +1127,9 @@ CLASS_CHARACTER
 CLASS_CHARACTER
 }
 ;
+#
+if
+ENABLE_INTL_API
 static_assert
 (
 U_LB_COUNT
@@ -1149,6 +1152,8 @@ mismatch
 "
 )
 ;
+#
+endif
 auto
 cls
 =
