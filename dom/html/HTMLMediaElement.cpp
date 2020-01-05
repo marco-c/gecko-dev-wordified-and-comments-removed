@@ -22691,6 +22691,16 @@ play
 )
 )
 ;
+DispatchAsyncEvent
+(
+NS_LITERAL_STRING
+(
+"
+playing
+"
+)
+)
+;
 }
 bool
 HTMLMediaElement
