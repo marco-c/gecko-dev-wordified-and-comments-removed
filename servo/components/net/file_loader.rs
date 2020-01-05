@@ -5,7 +5,7 @@ net_traits
 {
 LoadData
 Metadata
-ResponseSenders
+LoadConsumer
 }
 ;
 use
@@ -289,7 +289,7 @@ load_data
 LoadData
 senders
 :
-ResponseSenders
+LoadConsumer
 classifier
 :
 Arc

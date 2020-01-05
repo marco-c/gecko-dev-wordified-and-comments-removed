@@ -5,7 +5,7 @@ net_traits
 {
 LoadData
 Metadata
-ResponseSenders
+LoadConsumer
 }
 ;
 use
@@ -77,7 +77,7 @@ load_data
 LoadData
 senders
 :
-ResponseSenders
+LoadConsumer
 _classifier
 :
 Arc
@@ -101,7 +101,7 @@ load_data
 LoadData
 start_chan
 :
-ResponseSenders
+LoadConsumer
 )
 {
 let
