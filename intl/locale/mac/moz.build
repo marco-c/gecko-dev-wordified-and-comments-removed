@@ -90,11 +90,6 @@ UNIFIED_SOURCES
 =
 [
 '
-nsCollationMacUC
-.
-cpp
-'
-'
 nsMacCharset
 .
 cpp
