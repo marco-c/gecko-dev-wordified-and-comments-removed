@@ -118,6 +118,11 @@ ChangeRenderState
 (
 *
 )
+|
+SetUnRenderedColor
+(
+*
+)
 =
 >
 (

@@ -7,6 +7,7 @@ azure_hl
 :
 {
 B8G8R8A8
+Color
 DrawTarget
 StolenGLResources
 }
@@ -228,6 +229,9 @@ Size2D
 <
 uint
 >
+color
+:
+Color
 }
 pub
 enum
@@ -1003,7 +1007,7 @@ self
 .
 compositor
 .
-set_layer_page_size
+set_layer_page_size_and_color
 (
 self
 .
@@ -1014,6 +1018,9 @@ size
 self
 .
 epoch
+render_layer
+.
+color
 )
 ;
 }
@@ -1171,7 +1178,7 @@ self
 .
 compositor
 .
-set_layer_page_size
+set_layer_page_size_and_color
 (
 self
 .
@@ -1182,6 +1189,9 @@ size
 self
 .
 epoch
+render_layer
+.
+color
 )
 ;
 }
