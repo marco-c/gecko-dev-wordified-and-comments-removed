@@ -990,9 +990,6 @@ numPredecessors
 (
 )
 ;
-j
-+
-+
 )
 {
 if
@@ -1011,8 +1008,14 @@ isMarked
 (
 )
 )
+{
+j
++
++
+;
 continue
 ;
+}
 block
 -
 >

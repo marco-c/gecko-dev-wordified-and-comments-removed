@@ -11995,6 +11995,16 @@ return
 reason
 ;
 }
+AssertBasicGraphCoherency
+(
+builder
+-
+>
+graph
+(
+)
+)
+;
 if
 (
 options
