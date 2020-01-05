@@ -18533,7 +18533,7 @@ aDocument
 ;
 nsStyleSet
 *
-styleSet
+geckoSet
 =
 mStyleSet
 -
@@ -18545,7 +18545,7 @@ GetAsGecko
 if
 (
 !
-styleSet
+geckoSet
 )
 {
 NS_WARNING
@@ -18578,15 +18578,14 @@ bug
 "
 )
 ;
-return
-;
 }
+else
 if
 (
 mDidInitialize
 &
 &
-styleSet
+geckoSet
 -
 >
 HasDocumentStateDependentStyle
