@@ -78,7 +78,7 @@ jsm
 ;
 var
 {
-SingletonEventManager
+EventManager
 }
 =
 ExtensionUtils
@@ -2184,7 +2184,7 @@ result
 onChanged
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -2240,8 +2240,6 @@ cookie
 )
 {
 fire
-.
-async
 (
 {
 removed

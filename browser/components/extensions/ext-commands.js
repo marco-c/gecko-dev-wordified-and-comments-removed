@@ -45,7 +45,7 @@ jsm
 ;
 var
 {
-SingletonEventManager
+EventManager
 PlatformInfo
 }
 =
@@ -1016,7 +1016,7 @@ shortcut
 onCommand
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -1039,8 +1039,6 @@ commandName
 >
 {
 fire
-.
-async
 (
 commandName
 )

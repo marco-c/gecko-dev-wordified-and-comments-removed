@@ -108,8 +108,8 @@ jsm
 ;
 var
 {
+EventManager
 ExtensionError
-SingletonEventManager
 }
 =
 ExtensionUtils
@@ -389,7 +389,7 @@ context
 onChanged
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -409,8 +409,6 @@ changes
 >
 {
 fire
-.
-async
 (
 changes
 "
@@ -428,8 +426,6 @@ changes
 >
 {
 fire
-.
-async
 (
 changes
 "

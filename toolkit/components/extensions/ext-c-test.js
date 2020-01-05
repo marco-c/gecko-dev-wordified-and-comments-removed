@@ -757,10 +757,11 @@ args
 =
 >
 {
-fire
+context
 .
-async
+runSafe
 (
+fire
 .
 .
 .

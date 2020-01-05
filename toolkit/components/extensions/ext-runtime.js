@@ -211,8 +211,6 @@ APP_STARTUP
 )
 {
 fire
-.
-async
 (
 )
 ;
@@ -296,8 +294,6 @@ browserUpdated
 )
 {
 fire
-.
-async
 (
 {
 reason
@@ -317,8 +313,6 @@ ADDON_INSTALL
 "
 :
 fire
-.
-async
 (
 {
 reason
@@ -337,8 +331,6 @@ ADDON_UPGRADE
 "
 :
 fire
-.
-async
 (
 {
 reason
@@ -438,10 +430,11 @@ upgrade
 version
 }
 ;
-fire
+context
 .
-async
+runSafe
 (
+fire
 details
 )
 ;
