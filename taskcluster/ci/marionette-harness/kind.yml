@@ -191,9 +191,11 @@ provisioner
 -
 v1
 /
-desktop
+gecko
 -
-test
+t
+-
+linux
 -
 xlarge
 worker
