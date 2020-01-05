@@ -5425,12 +5425,6 @@ case
 ICStub
 :
 :
-GetProp_DOMProxyShadowed
-:
-case
-ICStub
-:
-:
 GetElem_NativeSlotName
 :
 case

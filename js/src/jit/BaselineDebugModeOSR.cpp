@@ -3158,11 +3158,6 @@ GetProp_CallDOMProxyWithGenerationNative
 \
 _
 (
-GetProp_DOMProxyShadowed
-)
-\
-_
-(
 GetProp_Generic
 )
 \
