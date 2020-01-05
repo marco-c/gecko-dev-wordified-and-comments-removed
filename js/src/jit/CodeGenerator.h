@@ -1128,6 +1128,8 @@ Register
 callereg
 bool
 isConstructing
+bool
+ignoresReturnValue
 uint32_t
 argc
 uint32_t

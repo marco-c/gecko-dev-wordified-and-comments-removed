@@ -314,6 +314,8 @@ HandleObject
 obj
 bool
 constructing
+bool
+ignoresReturnValue
 uint32_t
 argc
 Value
@@ -541,10 +543,11 @@ rval
 )
 ;
 }
-InvokeArgs
+InvokeArgsMaybeIgnoresReturnValue
 args
 (
 cx
+ignoresReturnValue
 )
 ;
 if
@@ -646,6 +649,7 @@ InvokeFunction
 cx
 obj
 true
+false
 numActualArgs
 argv
 rval

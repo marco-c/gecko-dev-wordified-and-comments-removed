@@ -822,6 +822,11 @@ JSOP_CALL
 \
 _
 (
+JSOP_CALL_IGNORES_RV
+)
+\
+_
+(
 JSOP_CALLITER
 )
 \
