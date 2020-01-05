@@ -1913,8 +1913,6 @@ openResponses
 get
 (
 channel
-.
-channelId
 )
 ;
 if
@@ -1941,8 +1939,6 @@ openResponses
 delete
 (
 channel
-.
-channelId
 )
 ;
 this
@@ -3242,8 +3238,6 @@ openResponses
 set
 (
 channel
-.
-channelId
 response
 )
 ;
@@ -4327,8 +4321,6 @@ openRequests
 get
 (
 channel
-.
-channelId
 )
 |
 |
@@ -4443,8 +4435,6 @@ openRequests
 set
 (
 channel
-.
-channelId
 httpActivity
 )
 ;
@@ -4955,8 +4945,6 @@ delete
 httpActivity
 .
 channel
-.
-channelId
 )
 ;
 }
