@@ -558,7 +558,7 @@ gfxFontFeature
 aFeatureSettings
 uint32_t
 aLanguageOverride
-gfxSparseBitSet
+gfxCharacterMap
 *
 aUnicodeRanges
 uint8_t
@@ -653,21 +653,10 @@ mLanguageOverride
 =
 aLanguageOverride
 ;
-if
-(
-aUnicodeRanges
-)
-{
 mCharacterMap
 =
-new
-gfxCharacterMap
-(
-*
 aUnicodeRanges
-)
 ;
-}
 }
 gfxUserFontEntry
 :
@@ -717,7 +706,7 @@ gfxFontFeature
 aFeatureSettings
 uint32_t
 aLanguageOverride
-gfxSparseBitSet
+gfxCharacterMap
 *
 aUnicodeRanges
 uint8_t
@@ -4307,7 +4296,7 @@ gfxFontFeature
 aFeatureSettings
 uint32_t
 aLanguageOverride
-gfxSparseBitSet
+gfxCharacterMap
 *
 aUnicodeRanges
 uint8_t
@@ -4417,7 +4406,7 @@ gfxFontFeature
 aFeatureSettings
 uint32_t
 aLanguageOverride
-gfxSparseBitSet
+gfxCharacterMap
 *
 aUnicodeRanges
 uint8_t
@@ -4484,7 +4473,7 @@ gfxFontFeature
 aFeatureSettings
 uint32_t
 aLanguageOverride
-gfxSparseBitSet
+gfxCharacterMap
 *
 aUnicodeRanges
 uint8_t

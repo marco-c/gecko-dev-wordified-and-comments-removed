@@ -163,7 +163,7 @@ gfxFontFeature
 aFeatureSettings
 uint32_t
 aLanguageOverride
-gfxSparseBitSet
+gfxCharacterMap
 *
 aUnicodeRanges
 uint8_t
@@ -407,6 +407,12 @@ aBuffer
 uint32_t
 &
 aLength
+)
+;
+gfxCharacterMap
+*
+GetUnicodeRangeAsCharacterMap
+(
 )
 ;
 static
@@ -890,6 +896,12 @@ mDescriptors
 ;
 RefPtr
 <
+gfxCharacterMap
+>
+mUnicodeRange
+;
+RefPtr
+<
 FontFaceSet
 >
 mFontFaceSet
@@ -902,6 +914,9 @@ FontFaceSet
 >
 >
 mOtherFontFaceSets
+;
+bool
+mUnicodeRangeDirty
 ;
 bool
 mInFontFaceSet
