@@ -8426,6 +8426,15 @@ lts
 -
 >
 mCrossProcessParent
+&
+&
+lts
+-
+>
+mParent
+=
+=
+this
 )
 {
 CrossProcessCompositorBridgeParent
