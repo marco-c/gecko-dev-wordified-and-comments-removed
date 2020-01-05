@@ -6125,6 +6125,10 @@ const
 nsACString
 &
 aOrigin
+const
+AtomicBool
+&
+aCanceled
 UsageInfo
 *
 aUsageInfo
@@ -6147,6 +6151,7 @@ GetUsageForOrigin
 aPersistenceType
 aGroup
 aOrigin
+aCanceled
 aUsageInfo
 )
 ;
@@ -6164,6 +6169,10 @@ const
 nsACString
 &
 aOrigin
+const
+AtomicBool
+&
+aCanceled
 UsageInfo
 *
 aUsageInfo
@@ -6333,12 +6342,7 @@ hasMore
 &
 &
 !
-aUsageInfo
--
->
-Canceled
-(
-)
+aCanceled
 )
 {
 nsCOMPtr
