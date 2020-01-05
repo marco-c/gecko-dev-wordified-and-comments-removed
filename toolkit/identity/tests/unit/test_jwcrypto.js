@@ -876,7 +876,6 @@ err2
 ;
 let
 [
-cert
 assertion
 ]
 =

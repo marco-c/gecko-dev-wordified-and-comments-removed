@@ -318,9 +318,6 @@ resolve
 =
 >
 {
-let
-interval2
-=
 imported
 .
 setInterval

@@ -197,9 +197,6 @@ function
 (
 )
 {
-let
-file
-=
 FileUtils
 .
 getFile
@@ -442,9 +439,6 @@ function
 (
 )
 {
-let
-file
-=
 FileUtils
 .
 getDir

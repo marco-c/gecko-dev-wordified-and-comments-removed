@@ -67,9 +67,6 @@ enabled
 ;
 try
 {
-let
-su
-=
 cr
 .
 serverURL

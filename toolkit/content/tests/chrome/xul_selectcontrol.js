@@ -2211,9 +2211,6 @@ keynav
 )
 )
 {
-var
-fifthitem
-=
 element
 .
 appendItem

@@ -439,15 +439,6 @@ aArgs
 )
 {
 let
-prefix
-=
-aPrefix
-+
-'
-ERROR
-'
-;
-let
 output
 =
 this

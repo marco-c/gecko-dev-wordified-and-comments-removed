@@ -170,9 +170,6 @@ false
 }
 }
 ;
-var
-wrapper
-=
 new
 Wrapper
 (

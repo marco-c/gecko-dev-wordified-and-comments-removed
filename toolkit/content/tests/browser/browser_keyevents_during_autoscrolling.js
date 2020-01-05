@@ -58,9 +58,6 @@ dispatchedKeyEvents
 var
 key
 ;
-var
-root
-;
 function
 sendChar
 (

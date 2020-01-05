@@ -1723,7 +1723,6 @@ for
 (
 let
 [
-k
 statement
 ]
 of
@@ -1757,7 +1756,6 @@ for
 (
 let
 [
-k
 statement
 ]
 of
@@ -1785,7 +1783,6 @@ for
 (
 let
 [
-k
 statement
 ]
 of
@@ -2930,7 +2927,6 @@ for
 (
 let
 [
-k
 statement
 ]
 of
@@ -5006,11 +5002,6 @@ function
 (
 )
 {
-let
-self
-=
-this
-;
 return
 this
 .

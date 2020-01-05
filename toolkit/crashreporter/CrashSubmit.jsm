@@ -2640,8 +2640,6 @@ names
 let
 [
 dump
-extra
-memory
 ]
 =
 getPendingMinidump
@@ -2781,16 +2779,6 @@ let
 recordSubmission
 =
 false
-;
-let
-submitSuccess
-=
-null
-;
-let
-submitError
-=
-null
 ;
 let
 noThrottle
@@ -2936,8 +2924,6 @@ id
 let
 [
 dump
-extra
-mem
 ]
 =
 getPendingMinidump

@@ -2494,9 +2494,6 @@ Ci
 nsIContentFrameMessageManager
 )
 ;
-let
-port
-=
 new
 ChildMessagePort
 (

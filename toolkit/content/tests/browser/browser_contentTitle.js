@@ -46,13 +46,6 @@ addTab
 url
 )
 ;
-let
-browser
-=
-tab
-.
-linkedBrowser
-;
 yield
 new
 Promise

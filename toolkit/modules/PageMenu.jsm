@@ -62,11 +62,6 @@ aTarget
 )
 {
 let
-pageMenu
-=
-null
-;
-let
 target
 =
 aTarget

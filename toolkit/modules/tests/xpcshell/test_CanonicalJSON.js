@@ -556,16 +556,6 @@ id
 }
 ]
 const
-serialized
-=
-CanonicalJSON
-.
-stringify
-(
-records
-)
-;
-const
 expected
 =
 '

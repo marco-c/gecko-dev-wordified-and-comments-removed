@@ -7192,16 +7192,6 @@ SELECTION_FIND
 )
 ;
 let
-selectionIndex
-=
-0
-;
-let
-findSelectionIndex
-=
-0
-;
-let
 shouldDelete
 =
 {

@@ -2244,9 +2244,6 @@ windowsVersion
 {
 try
 {
-let
-dir
-=
 Services
 .
 dirsvc

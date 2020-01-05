@@ -5980,9 +5980,6 @@ array
 260
 )
 ;
-let
-rv
-=
 SHGetSpecialFolderPath
 (
 0
@@ -19731,17 +19728,6 @@ to
 apply
 update
 "
-)
-;
-let
-appBin
-=
-getApplyDirFile
-(
-DIR_MACOS
-+
-FILE_APP_BIN
-false
 )
 ;
 let

@@ -867,12 +867,6 @@ do_test_pending
 )
 ;
 let
-received
-=
-[
-]
-;
-let
 originalGetAssertion
 =
 FirefoxAccounts

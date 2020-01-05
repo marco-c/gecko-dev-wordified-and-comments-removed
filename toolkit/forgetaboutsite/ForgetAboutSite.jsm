@@ -611,14 +611,6 @@ resolve
 =
 >
 {
-let
-tag
-=
-tags
-[
-i
-]
-;
 try
 {
 ph

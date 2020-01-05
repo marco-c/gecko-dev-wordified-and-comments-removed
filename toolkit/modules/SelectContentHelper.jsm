@@ -1148,15 +1148,6 @@ result
 [
 ]
 ;
-let
-win
-=
-node
-.
-ownerDocument
-.
-defaultView
-;
 for
 (
 let

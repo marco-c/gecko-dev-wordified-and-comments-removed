@@ -2026,11 +2026,6 @@ tab
 element
 .
 let
-linkedPanelElm
-=
-null
-;
-let
 linkedPanelId
 =
 aTabElm

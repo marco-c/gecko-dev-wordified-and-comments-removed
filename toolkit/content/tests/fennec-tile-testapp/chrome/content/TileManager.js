@@ -706,11 +706,6 @@ visited
 {
 }
 ;
-let
-evictGuard
-=
-null
-;
 if
 (
 create
@@ -3787,13 +3782,6 @@ translate
 x
 y
 )
-;
-let
-cw
-=
-browserView
-.
-_contentWindow
 ;
 ctx
 .

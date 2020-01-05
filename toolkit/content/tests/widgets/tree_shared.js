@@ -5289,13 +5289,6 @@ rowIndex
 2
 ;
 var
-inputField
-=
-tree
-.
-inputField
-;
-var
 wasEditable
 =
 tree
@@ -7661,11 +7654,6 @@ var
 checkMethod
 actual
 expected
-;
-var
-containerInfo
-=
-null
 ;
 var
 toggleOpenStateOK
