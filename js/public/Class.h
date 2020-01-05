@@ -1667,7 +1667,12 @@ obj
 ;
 \
 }
+#
+define
+JS_STATIC_CLASS
+MOZ_NONHEAP_CLASS
 struct
+JS_STATIC_CLASS
 ClassOps
 {
 JSAddPropertyOp
@@ -1752,6 +1757,7 @@ JSCLASS_CACHED_PROTO_WIDTH
 6
 ;
 struct
+JS_STATIC_CLASS
 ClassSpec
 {
 ClassObjectCreationOp
@@ -1903,6 +1909,7 @@ DontDefineConstructor
 }
 ;
 struct
+JS_STATIC_CLASS
 ClassExtension
 {
 JSWeakmapKeyDelegateOp
@@ -1922,6 +1929,7 @@ define
 JS_NULL_CLASS_EXT
 nullptr
 struct
+JS_STATIC_CLASS
 ObjectOps
 {
 LookupPropertyOp
@@ -1977,6 +1985,7 @@ JSClassInternal
 )
 ;
 struct
+JS_STATIC_CLASS
 JSClassOps
 {
 JSAddPropertyOp
@@ -2549,6 +2558,7 @@ namespace
 js
 {
 struct
+JS_STATIC_CLASS
 Class
 {
 JS_CLASS_MEMBERS
