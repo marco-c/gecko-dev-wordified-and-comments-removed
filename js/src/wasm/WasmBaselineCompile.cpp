@@ -10608,6 +10608,12 @@ localSize_
 ;
 masm
 .
+flush
+(
+)
+;
+masm
+.
 patchAdd32ToPtr
 (
 stackAddOffset_
