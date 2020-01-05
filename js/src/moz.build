@@ -1843,6 +1843,13 @@ cpp
 '
 jit
 /
+IonIC
+.
+cpp
+'
+'
+jit
+/
 IonOptimizationLevels
 .
 cpp
