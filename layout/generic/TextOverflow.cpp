@@ -1103,7 +1103,11 @@ nsLayoutUtils
 GetColor
 (
 mFrame
-eCSSProperty__webkit_text_fill_color
+&
+nsStyleText
+:
+:
+mWebkitTextFillColor
 )
 ;
 nsLayoutUtils
