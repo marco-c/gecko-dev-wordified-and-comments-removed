@@ -99,6 +99,11 @@ Aggregation
 h
 '
 '
+AgileReference
+.
+h
+'
+'
 AsyncInvoker
 .
 h
@@ -143,6 +148,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AgileReference
+.
+cpp
+'
 '
 EnsureMTA
 .
