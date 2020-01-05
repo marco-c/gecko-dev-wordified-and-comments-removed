@@ -665,7 +665,7 @@ checked_changed
 bool
 checked_radio
 :
-MutNullableHeap
+Option
 <
 JS
 <
@@ -703,12 +703,7 @@ checked_changed
 false
 checked_radio
 :
-Default
-:
-:
-default
-(
-)
+None
 was_mutable
 :
 false
@@ -5951,9 +5946,7 @@ Checked
 cache
 .
 checked_radio
-.
-set
-(
+=
 checked_member
 .
 r
@@ -5966,7 +5959,6 @@ JS
 :
 :
 from_ref
-)
 )
 ;
 cache
@@ -6358,10 +6350,6 @@ HTMLInputElement
 cache
 .
 checked_radio
-.
-get
-(
-)
 .
 map
 (
