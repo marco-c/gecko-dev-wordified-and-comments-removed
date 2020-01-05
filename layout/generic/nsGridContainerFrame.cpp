@@ -4213,6 +4213,7 @@ eFirstBaseline
 printf
 (
 "
+first
 baseline
 %
 s
@@ -20917,8 +20918,8 @@ ItemState
 eLastBaseline
 )
 "
-baseline
-and
+first
+/
 last
 baseline
 bits
@@ -24350,10 +24351,10 @@ NS_STYLE_ALIGN_LAST_BASELINE
 NS_WARNING
 (
 "
-'
 NYI
 :
-baseline
+'
+first
 /
 last
 baseline
