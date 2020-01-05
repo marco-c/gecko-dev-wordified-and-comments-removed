@@ -17589,7 +17589,7 @@ handle_mut
 )
 )
 ;
-JS_SetPrototype
+JS_SplicePrototype
 (
 cx
 obj
@@ -42272,7 +42272,7 @@ jsapi
 :
 :
 {
-JS_SetPrototype
+JS_SplicePrototype
 JS_SetReservedSlot
 JSAutoCompartment
 }
