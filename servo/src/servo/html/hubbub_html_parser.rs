@@ -354,6 +354,7 @@ comm
 :
 Chan
 (
+&
 result_port
 )
 ;
@@ -563,6 +564,7 @@ comm
 :
 Chan
 (
+&
 result_port
 )
 ;
