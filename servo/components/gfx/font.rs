@@ -147,6 +147,12 @@ shaping
 ShaperMethods
 ;
 use
+unicode_script
+:
+:
+Script
+;
+use
 util
 :
 :
@@ -702,6 +708,10 @@ pub
 word_spacing
 :
 Au
+pub
+script
+:
+Script
 pub
 flags
 :
