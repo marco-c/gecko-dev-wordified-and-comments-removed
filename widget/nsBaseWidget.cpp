@@ -4979,14 +4979,8 @@ return
 nsEventStatus_eConsumeDoDefault
 ;
 }
-MOZ_ASSERT
+MOZ_CRASH
 (
-aEvent
--
->
-AsKeyboardEvent
-(
-)
 )
 ;
 }

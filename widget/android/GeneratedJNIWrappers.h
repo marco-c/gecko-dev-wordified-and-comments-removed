@@ -16402,7 +16402,7 @@ jni
 DispatchTarget
 :
 :
-GECKO
+PROXY
 ;
 }
 ;
@@ -17052,7 +17052,7 @@ jni
 DispatchTarget
 :
 :
-GECKO
+PROXY
 ;
 }
 ;
@@ -17324,7 +17324,7 @@ jni
 DispatchTarget
 :
 :
-GECKO
+PROXY
 ;
 }
 ;
@@ -17450,7 +17450,7 @@ jni
 DispatchTarget
 :
 :
-GECKO
+PROXY
 ;
 }
 ;
@@ -17611,8 +17611,9 @@ int32_t
 int32_t
 int32_t
 int32_t
-int32_t
 int64_t
+int32_t
+int32_t
 int32_t
 int32_t
 int32_t
@@ -17650,7 +17651,7 @@ signature
 =
 "
 (
-IIIIIJIIIZLandroid
+IIIIJIIIIIZLandroid
 /
 view
 /

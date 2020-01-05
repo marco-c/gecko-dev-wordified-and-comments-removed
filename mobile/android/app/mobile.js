@@ -7595,15 +7595,3 @@ openUnsupportedTypeWithExternalApp
 true
 )
 ;
-pref
-(
-"
-dom
-.
-keyboardevent
-.
-dispatch_during_composition
-"
-true
-)
-;
