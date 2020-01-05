@@ -1927,9 +1927,11 @@ PYTHON
 }
 -
 u
+"
 {
 scriptPath
 }
+"
 %
 *
 \

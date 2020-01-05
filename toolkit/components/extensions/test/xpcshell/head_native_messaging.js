@@ -111,7 +111,8 @@ TmpD
 "
 [
 "
-NativeMessaging
+Native
+Messaging
 "
 ]
 )
@@ -532,6 +533,7 @@ batPath
 =
 getPath
 (
+batch
 {
 script
 .
@@ -567,9 +569,11 @@ pythonPath
 }
 -
 u
+"
 {
 scriptPath
 }
+"
 %
 *
 \
