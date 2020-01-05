@@ -23089,6 +23089,15 @@ if
 mParameters
 .
 mForEventsAndPluginsOnly
+&
+&
+!
+gfxPrefs
+:
+:
+LayoutUseContainersForRootFrames
+(
+)
 )
 {
 NS_ASSERTION

@@ -420,6 +420,8 @@ mochitest
 devtools
 -
 chrome
+-
+xpcshell
 #
 #
 #
