@@ -135,8 +135,10 @@ CrossProcessSemaphore
 {
 public
 :
-explicit
+static
 CrossProcessSemaphore
+*
+Create
 (
 const
 char
@@ -146,8 +148,10 @@ uint32_t
 aInitialValue
 )
 ;
-explicit
+static
 CrossProcessSemaphore
+*
+Create
 (
 CrossProcessSemaphoreHandle
 aHandle
@@ -228,6 +232,13 @@ defined
 (
 OS_WIN
 )
+explicit
+CrossProcessSemaphore
+(
+HANDLE
+aSemaphore
+)
+;
 HANDLE
 mSemaphore
 ;
