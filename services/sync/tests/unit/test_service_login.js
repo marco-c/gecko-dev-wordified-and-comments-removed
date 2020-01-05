@@ -528,6 +528,10 @@ test_login_logout
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 let
 server
 =
@@ -761,6 +765,10 @@ test_login_on_sync
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 let
 server
 =

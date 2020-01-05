@@ -512,6 +512,10 @@ test_something
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "

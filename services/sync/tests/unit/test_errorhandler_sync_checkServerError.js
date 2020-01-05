@@ -557,6 +557,10 @@ test_backoff500
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -697,6 +701,10 @@ test_backoff503
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -905,6 +913,10 @@ test_overQuota
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1054,6 +1066,10 @@ test_service_networkError
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1177,6 +1193,10 @@ test_service_offline
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1341,6 +1361,10 @@ test_engine_networkError
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1491,6 +1515,10 @@ test_resource_timeout
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 let
 server
 =

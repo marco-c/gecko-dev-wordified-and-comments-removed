@@ -588,6 +588,10 @@ test_noEngines
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -676,6 +680,10 @@ test_oneEngine
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -759,6 +767,10 @@ test_bothEnginesSpecified
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -856,6 +868,10 @@ test_bothEnginesSpecified
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -953,6 +969,10 @@ test_bothEnginesDefault
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "

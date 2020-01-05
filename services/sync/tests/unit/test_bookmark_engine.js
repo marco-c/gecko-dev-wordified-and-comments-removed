@@ -1077,6 +1077,10 @@ markBookmarksAsSynced
 (
 )
 ;
+enableValidationPrefs
+(
+)
+;
 Svc
 .
 Obs

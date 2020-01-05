@@ -147,6 +147,10 @@ run_test
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 validate_all_future_pings
 (
 )

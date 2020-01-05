@@ -469,6 +469,10 @@ test_successful_sync_adjustSyncInterval
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1123,6 +1127,10 @@ test_unsuccessful_sync_adjustSyncInterval
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1793,6 +1801,10 @@ test_back_triggers_sync
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 let
 server
 =
@@ -1970,6 +1982,10 @@ test_adjust_interval_on_sync_error
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 let
 server
 =
@@ -2167,6 +2183,10 @@ test_bug671378_scenario
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 let
 server
 =

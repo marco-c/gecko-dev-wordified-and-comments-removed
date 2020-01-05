@@ -67,6 +67,10 @@ test_missing_crypto_collection
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 let
 johnHelper
 =

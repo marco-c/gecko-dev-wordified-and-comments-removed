@@ -150,6 +150,10 @@ shared_setup
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 hmacErrorCount
 =
 0

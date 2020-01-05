@@ -845,6 +845,10 @@ test_momentary_401_engine
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1188,6 +1192,10 @@ test_momentary_401_info_collections
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1315,6 +1323,10 @@ test_momentary_401_storage_loggedin
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1467,6 +1479,10 @@ test_momentary_401_storage_loggedout
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -1599,6 +1615,10 @@ test_loop_avoidance_storage
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
@@ -2088,6 +2108,10 @@ test_loop_avoidance_engine
 (
 )
 {
+enableValidationPrefs
+(
+)
+;
 _
 (
 "
