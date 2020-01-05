@@ -91,8 +91,8 @@ extends
 HomeFragment
 {
 private
-ActivityStream
-activityStream
+ActivityStreamPanel
+activityStreamPanel
 ;
 private
 boolean
@@ -105,7 +105,7 @@ load
 (
 )
 {
-activityStream
+activityStreamPanel
 .
 load
 (
@@ -133,16 +133,16 @@ savedInstanceState
 {
 if
 (
-activityStream
+activityStreamPanel
 =
 =
 null
 )
 {
-activityStream
+activityStreamPanel
 =
 (
-ActivityStream
+ActivityStreamPanel
 )
 inflater
 .
@@ -157,7 +157,7 @@ container
 false
 )
 ;
-activityStream
+activityStreamPanel
 .
 setOnUrlOpenListeners
 (
@@ -167,7 +167,7 @@ mUrlOpenInBackgroundListener
 ;
 }
 return
-activityStream
+activityStreamPanel
 ;
 }
 Override
