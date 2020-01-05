@@ -789,8 +789,6 @@ Element
 ?
 activeElement
 ;
-/
-/
 boolean
 hasFocus
 (
