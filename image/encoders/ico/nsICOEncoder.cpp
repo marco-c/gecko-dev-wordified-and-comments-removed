@@ -891,7 +891,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-uint32_t
+uint16_t
 bpp
 =
 24
@@ -915,6 +915,14 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+MOZ_ASSERT
+(
+bpp
+<
+=
+32
 )
 ;
 mUsePNG
@@ -1014,7 +1022,7 @@ const
 nsAString
 &
 aOptions
-uint32_t
+uint16_t
 &
 aBppOut
 bool
@@ -1738,7 +1746,7 @@ nsICOEncoder
 :
 InitInfoHeader
 (
-uint32_t
+uint16_t
 aBPP
 uint8_t
 aWidth
