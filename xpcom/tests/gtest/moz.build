@@ -110,6 +110,11 @@ TestAutoRef
 cpp
 '
 '
+TestBase64
+.
+cpp
+'
+'
 TestCallTemplates
 .
 cpp
@@ -414,12 +419,6 @@ cpp
 #
 Redefines
 Foo
-#
-'
-TestTArray2
-.
-cpp
-'
 ]
 LOCAL_INCLUDES
 +
