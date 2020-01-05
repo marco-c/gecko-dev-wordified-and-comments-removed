@@ -827,6 +827,12 @@ mWindow
 IsBackgroundInternal
 (
 )
+|
+|
+timeout
+-
+>
+mIsTracking
 )
 {
 realInterval
