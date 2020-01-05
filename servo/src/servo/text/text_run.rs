@@ -1281,6 +1281,9 @@ let
 run
 =
 TextRun
+:
+:
+new
 (
 font
 copy
