@@ -540,6 +540,10 @@ LoadComplete
 (
 PipelineId
 )
+DOMLoad
+(
+PipelineId
+)
 FrameRect
 (
 PipelineId
