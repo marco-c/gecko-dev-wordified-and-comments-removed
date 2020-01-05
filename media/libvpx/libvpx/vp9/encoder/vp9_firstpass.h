@@ -114,6 +114,9 @@ double
 sr_coded_error
 ;
 double
+frame_noise_energy
+;
+double
 pcnt_inter
 ;
 double
@@ -157,9 +160,6 @@ MVcv
 ;
 double
 mv_in_out_count
-;
-double
-new_mv_count
 ;
 double
 duration
@@ -224,6 +224,10 @@ struct
 unsigned
 char
 index
+;
+unsigned
+char
+first_inter_index
 ;
 RATE_FACTOR_LEVEL
 rf_level
@@ -412,6 +416,9 @@ extend_maxq
 ;
 int
 extend_minq_fast
+;
+int
+arnr_strength_adjustment
 ;
 GF_GROUP
 gf_group

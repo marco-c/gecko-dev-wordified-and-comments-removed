@@ -62,6 +62,7 @@ a
 #
 define
 FILTER_HEV_MASK
+\
 do
 {
 \
@@ -152,6 +153,7 @@ oq1
 \
 hev
 =
+\
 _mm_unpacklo_epi8
 (
 _mm_max_epu8
@@ -218,6 +220,7 @@ q3
 \
 abs_p0q0
 =
+\
 _mm_adds_epu8
 (
 abs_p1q1p0q0
@@ -239,6 +242,7 @@ q0
 \
 abs_p1q1
 =
+\
 _mm_unpackhi_epi8
 (
 abs_p1q1p0q0
@@ -448,6 +452,7 @@ while
 #
 define
 FILTER4
+\
 do
 {
 \
@@ -455,6 +460,7 @@ const
 __m128i
 t3t4
 =
+\
 _mm_set_epi8
 (
 3
@@ -465,7 +471,6 @@ _mm_set_epi8
 3
 3
 3
-\
 4
 4
 4
@@ -1928,7 +1933,7 @@ qs1qs0
 ;
 }
 void
-vpx_lpf_horizontal_edge_8_sse2
+vpx_lpf_horizontal_16_sse2
 (
 unsigned
 char
@@ -3047,7 +3052,6 @@ _mm_unpacklo_epi8
 q7p7
 zero
 )
-;
 ;
 p6_16
 =
@@ -4636,7 +4640,7 @@ result
 ;
 }
 void
-vpx_lpf_horizontal_edge_16_sse2
+vpx_lpf_horizontal_16_dual_sse2
 (
 unsigned
 char
@@ -14071,7 +14075,7 @@ dst
 2
 )
 ;
-vpx_lpf_horizontal_edge_8_sse2
+vpx_lpf_horizontal_16_sse2
 (
 t_dst
 +
@@ -14196,7 +14200,7 @@ t_dst
 16
 )
 ;
-vpx_lpf_horizontal_edge_16_sse2
+vpx_lpf_horizontal_16_dual_sse2
 (
 t_dst
 +

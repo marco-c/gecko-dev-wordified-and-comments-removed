@@ -4024,8 +4024,6 @@ const
 uint8
 *
 src_tmp
-=
-NULL
 ;
 asm
 volatile
@@ -4207,7 +4205,8 @@ n
 "
 :
 "
-+
+=
+&
 r
 "
 (
@@ -4729,7 +4728,7 @@ v6
 n
 "
 "
-shrn
+rshrn
 v6
 .
 4h
@@ -4742,7 +4741,7 @@ v16
 n
 "
 "
-shrn2
+rshrn2
 v6
 .
 8h
@@ -7407,8 +7406,6 @@ dx
 ;
 int64
 tmp64
-=
-0
 ;
 asm
 volatile
@@ -7558,7 +7555,8 @@ dx64
 %
 4
 "
-+
+=
+&
 r
 "
 (

@@ -24,7 +24,7 @@ mem
 h
 "
 void
-vpx_lpf_horizontal_edge_8_avx2
+vpx_lpf_horizontal_16_avx2
 (
 unsigned
 char
@@ -2668,7 +2668,7 @@ filt_loopfilter_avx2
 }
 ;
 void
-vpx_lpf_horizontal_edge_16_avx2
+vpx_lpf_horizontal_16_dual_avx2
 (
 unsigned
 char

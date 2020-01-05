@@ -908,6 +908,7 @@ define
 FLOATING_POINT_INIT
 (
 )
+\
 do
 {
 \
@@ -930,7 +931,9 @@ x87_set_control_word
 x87_orig_mode
 )
 ;
+\
 }
+\
 while
 (
 0

@@ -121,7 +121,7 @@ VPX_SS_MAX_LAYERS
 int
 bitrates
 [
-VPX_SS_MAX_LAYERS
+VPX_MAX_LAYERS
 ]
 ;
 double

@@ -144,6 +144,12 @@ get_ext_fb_cb
 vpx_release_frame_buffer_cb_fn_t
 release_ext_fb_cb
 ;
+int
+svc_decoding
+;
+int
+svc_spatial_layer
+;
 }
 ;
 #

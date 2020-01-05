@@ -89,9 +89,9 @@ len
 -
 1
 ;
++
++
 i
-+
-+
 )
 {
 for
@@ -104,9 +104,9 @@ j
 <
 i
 ;
++
++
 j
-+
-+
 )
 {
 if
@@ -204,9 +204,9 @@ len
 -
 1
 ;
++
++
 i
-+
-+
 )
 {
 for
@@ -219,9 +219,9 @@ j
 <
 i
 ;
++
++
 j
-+
-+
 )
 {
 if
@@ -465,6 +465,7 @@ ref_frame_flags
 &
 VP8_LAST_FRAME
 )
+{
 get_plane_pointers
 (
 &
@@ -490,6 +491,7 @@ recon_yoffset
 recon_uvoffset
 )
 ;
+}
 if
 (
 cpi
@@ -499,6 +501,7 @@ ref_frame_flags
 &
 VP8_GOLD_FRAME
 )
+{
 get_plane_pointers
 (
 &
@@ -524,6 +527,7 @@ recon_yoffset
 recon_uvoffset
 )
 ;
+}
 if
 (
 cpi
@@ -533,6 +537,7 @@ ref_frame_flags
 &
 VP8_ALTR_FRAME
 )
+{
 get_plane_pointers
 (
 &
@@ -558,6 +563,7 @@ recon_yoffset
 recon_uvoffset
 )
 ;
+}
 }
 static
 INLINE
@@ -650,9 +656,9 @@ i
 <
 4
 ;
++
++
 i
-+
-+
 )
 ref_frame_map
 [

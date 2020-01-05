@@ -135,9 +135,6 @@ MAX_FB_MT_DEC
 struct
 frame_buffers
 {
-int
-use_frame_threads
-;
 struct
 VP8D_COMP
 *
@@ -376,6 +373,7 @@ CHECK_MEM_ERROR
 lval
 expr
 )
+\
 do
 {
 \
@@ -418,8 +416,8 @@ s
 %
 d
 "
-\
 __FILE__
+\
 __LINE__
 )
 ;
@@ -438,6 +436,7 @@ CHECK_MEM_ERROR
 lval
 expr
 )
+\
 do
 {
 \

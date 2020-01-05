@@ -128,9 +128,9 @@ stride
 void
 vp9_set_mv_search_range
 (
-MACROBLOCK
+MvLimits
 *
-x
+mv_limits
 const
 MV
 *

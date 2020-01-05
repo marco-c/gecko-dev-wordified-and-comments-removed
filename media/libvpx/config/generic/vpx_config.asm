@@ -36,14 +36,6 @@ ARCH_X86_64
 0
 .
 equ
-HAVE_EDSP
-0
-.
-equ
-HAVE_MEDIA
-0
-.
-equ
 HAVE_NEON
 0
 .
@@ -129,10 +121,6 @@ CONFIG_INSTALL_LIBS
 .
 equ
 CONFIG_INSTALL_SRCS
-0
-.
-equ
-CONFIG_USE_X86INC
 0
 .
 equ

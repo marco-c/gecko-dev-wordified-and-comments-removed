@@ -70,7 +70,7 @@ _MIPS_SIM
 _MIPS_SIM_ABI32
 )
 void
-TransposeWx8_MIPS_DSPR2
+TransposeWx8_DSPR2
 (
 const
 uint8
@@ -901,7 +901,7 @@ s1
 ;
 }
 void
-TransposeWx8_Fast_MIPS_DSPR2
+TransposeWx8_Fast_DSPR2
 (
 const
 uint8
@@ -2227,7 +2227,7 @@ s7
 ;
 }
 void
-TransposeUVWx8_MIPS_DSPR2
+TransposeUVWx8_DSPR2
 (
 const
 uint8

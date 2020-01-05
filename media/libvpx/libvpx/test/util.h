@@ -167,6 +167,7 @@ height_y
 +
 i
 )
+{
 for
 (
 j
@@ -234,6 +235,7 @@ d
 *
 d
 ;
+}
 }
 double
 mse

@@ -370,7 +370,7 @@ uint8_t
 *
 dest
 int
-dest_stride
+stride
 int
 tx_type
 )
@@ -390,7 +390,7 @@ uint8_t
 *
 dest
 int
-dest_stride
+stride
 int
 tx_type
 )

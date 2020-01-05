@@ -443,6 +443,7 @@ RET
 endif
 .
 w64
+:
 mov
 r4d
 dword

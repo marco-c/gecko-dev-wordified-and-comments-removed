@@ -352,6 +352,7 @@ absdiff
 =
 7
 )
+{
 adjustment
 =
 adj_val
@@ -359,6 +360,7 @@ adj_val
 0
 ]
 ;
+}
 else
 if
 (
@@ -373,6 +375,7 @@ absdiff
 =
 15
 )
+{
 adjustment
 =
 adj_val
@@ -380,7 +383,9 @@ adj_val
 1
 ]
 ;
+}
 else
+{
 adjustment
 =
 adj_val
@@ -388,6 +393,7 @@ adj_val
 2
 ]
 ;
+}
 if
 (
 diff
@@ -408,6 +414,7 @@ adjustment
 >
 255
 )
+{
 running_avg_y
 [
 c
@@ -415,7 +422,9 @@ c
 =
 255
 ;
+}
 else
+{
 running_avg_y
 [
 c
@@ -428,6 +437,7 @@ c
 +
 adjustment
 ;
+}
 col_sum
 [
 c
@@ -452,6 +462,7 @@ adjustment
 <
 0
 )
+{
 running_avg_y
 [
 c
@@ -459,7 +470,9 @@ c
 =
 0
 ;
+}
 else
+{
 running_avg_y
 [
 c
@@ -472,6 +485,7 @@ c
 -
 adjustment
 ;
+}
 col_sum
 [
 c
@@ -690,6 +704,7 @@ adjustment
 <
 0
 )
+{
 running_avg_y
 [
 c
@@ -697,7 +712,9 @@ c
 =
 0
 ;
+}
 else
+{
 running_avg_y
 [
 c
@@ -710,6 +727,7 @@ c
 -
 adjustment
 ;
+}
 col_sum
 [
 c
@@ -738,6 +756,7 @@ adjustment
 >
 255
 )
+{
 running_avg_y
 [
 c
@@ -745,7 +764,9 @@ c
 =
 255
 ;
+}
 else
+{
 running_avg_y
 [
 c
@@ -758,6 +779,7 @@ c
 +
 adjustment
 ;
+}
 col_sum
 [
 c
@@ -1170,6 +1192,7 @@ absdiff
 =
 7
 )
+{
 adjustment
 =
 adj_val
@@ -1177,6 +1200,7 @@ adj_val
 0
 ]
 ;
+}
 else
 if
 (
@@ -1191,6 +1215,7 @@ absdiff
 =
 15
 )
+{
 adjustment
 =
 adj_val
@@ -1198,7 +1223,9 @@ adj_val
 1
 ]
 ;
+}
 else
+{
 adjustment
 =
 adj_val
@@ -1206,6 +1233,7 @@ adj_val
 2
 ]
 ;
+}
 if
 (
 diff
@@ -1226,6 +1254,7 @@ adjustment
 >
 255
 )
+{
 running_avg_uv
 [
 c
@@ -1233,7 +1262,9 @@ c
 =
 255
 ;
+}
 else
+{
 running_avg_uv
 [
 c
@@ -1246,6 +1277,7 @@ c
 +
 adjustment
 ;
+}
 sum_diff
 +
 =
@@ -1267,6 +1299,7 @@ adjustment
 <
 0
 )
+{
 running_avg_uv
 [
 c
@@ -1274,7 +1307,9 @@ c
 =
 0
 ;
+}
 else
+{
 running_avg_uv
 [
 c
@@ -1287,6 +1322,7 @@ c
 -
 adjustment
 ;
+}
 sum_diff
 -
 =
@@ -1459,6 +1495,7 @@ adjustment
 <
 0
 )
+{
 running_avg_uv
 [
 c
@@ -1466,7 +1503,9 @@ c
 =
 0
 ;
+}
 else
+{
 running_avg_uv
 [
 c
@@ -1479,6 +1518,7 @@ c
 -
 adjustment
 ;
+}
 sum_diff
 -
 =
@@ -1504,6 +1544,7 @@ adjustment
 >
 255
 )
+{
 running_avg_uv
 [
 c
@@ -1511,7 +1552,9 @@ c
 =
 255
 ;
+}
 else
+{
 running_avg_uv
 [
 c
@@ -1524,6 +1567,7 @@ c
 +
 adjustment
 ;
+}
 sum_diff
 +
 =
@@ -1859,9 +1903,9 @@ i
 <
 MAX_REF_FRAMES
 ;
++
++
 i
-+
-+
 )
 {
 denoiser
@@ -2240,9 +2284,9 @@ i
 <
 MAX_REF_FRAMES
 ;
++
++
 i
-+
-+
 )
 {
 vp8_yv12_de_alloc_frame_buffer
@@ -2568,6 +2612,7 @@ mv_col
 =
 NOISE_MOTION_THRESHOLD
 )
+{
 sse_diff_thresh
 =
 (
@@ -2575,6 +2620,7 @@ int
 )
 SSE_DIFF_THRESHOLD
 ;
+}
 if
 (
 frame
@@ -2710,6 +2756,7 @@ scale_increase_filter
 *
 NOISE_MOTION_THRESHOLD
 )
+{
 x
 -
 >
@@ -2717,6 +2764,7 @@ increase_denoising
 =
 1
 ;
+}
 sse_thresh
 =
 denoiser
@@ -2735,6 +2783,7 @@ x
 >
 increase_denoising
 )
+{
 sse_thresh
 =
 denoiser
@@ -2746,6 +2795,7 @@ scale_sse_thresh
 *
 SSE_THRESHOLD_HIGH
 ;
+}
 if
 (
 best_sse
@@ -2757,10 +2807,12 @@ motion_magnitude2
 >
 motion_threshold
 )
+{
 decision
 =
 COPY_BLOCK
 ;
+}
 if
 (
 x
@@ -2780,10 +2832,12 @@ motion_magnitude2
 0
 )
 )
+{
 decision
 =
 COPY_BLOCK
 ;
+}
 if
 (
 decision

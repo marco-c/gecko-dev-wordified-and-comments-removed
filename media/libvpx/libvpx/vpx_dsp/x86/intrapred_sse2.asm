@@ -3797,6 +3797,7 @@ word
 ]
 .
 loop
+:
 pshuflw
 m4
 m2

@@ -7096,13 +7096,12 @@ size
 #
 _c
 (
+\
 uint8_t
 *
 dst
-\
 ptrdiff_t
 stride
-\
 const
 uint8_t
 *

@@ -287,6 +287,10 @@ rc_max_intra_bitrate_pct
 ;
 unsigned
 int
+gf_cbr_boost_pct
+;
+unsigned
+int
 screen_content_mode
 ;
 int
@@ -546,8 +550,7 @@ unsigned
 int
 *
 frame_flags
-unsigned
-long
+size_t
 *
 size
 unsigned

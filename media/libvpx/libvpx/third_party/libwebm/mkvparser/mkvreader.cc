@@ -448,10 +448,16 @@ return
 ;
 #
 else
-fseek
+fseeko
 (
 m_file
+static_cast
+<
+off_t
+>
+(
 offset
+)
 SEEK_SET
 )
 ;

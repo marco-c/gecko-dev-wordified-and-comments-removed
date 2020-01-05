@@ -3993,7 +3993,7 @@ const
 int
 ctx
 =
-vp9_get_pred_context_switchable_interp
+get_pred_context_switchable_interp
 (
 xd
 )

@@ -48,9 +48,9 @@ endif
 int
 vp9_decode_block_tokens
 (
-MACROBLOCKD
+TileWorkerData
 *
-xd
+twd
 int
 plane
 const
@@ -63,9 +63,6 @@ int
 y
 TX_SIZE
 tx_size
-vpx_reader
-*
-r
 int
 seg_id
 )

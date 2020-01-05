@@ -269,15 +269,6 @@ vf
 vpx_subpixvariance_fn_t
 svf
 ;
-vpx_variance_fn_t
-svf_halfpix_h
-;
-vpx_variance_fn_t
-svf_halfpix_v
-;
-vpx_variance_fn_t
-svf_halfpix_hv
-;
 vpx_sad_multi_fn_t
 sdx3f
 ;

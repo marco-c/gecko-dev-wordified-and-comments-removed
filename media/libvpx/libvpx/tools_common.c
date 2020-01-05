@@ -127,6 +127,7 @@ LOG_ERROR
 (
 label
 )
+\
 do
 {
 \
@@ -153,7 +154,6 @@ if
 (
 l
 )
-\
 fprintf
 (
 stderr

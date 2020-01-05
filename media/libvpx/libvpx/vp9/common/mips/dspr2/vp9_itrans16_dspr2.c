@@ -394,9 +394,9 @@ dest
 pitch
 )
 ;
-}
 break
 ;
+}
 case
 ADST_ADST
 :
@@ -547,9 +547,9 @@ i
 )
 ;
 }
-}
 break
 ;
+}
 default
 :
 printf

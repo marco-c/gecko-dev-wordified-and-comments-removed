@@ -35,16 +35,15 @@ BSize
 #
 size_msa
 (
+\
 const
 int16_t
 *
 coeff_ptr
-\
 const
 int16_t
 *
 dq_coeff_ptr
-\
 int64_t
 *
 ssz
@@ -136,8 +135,8 @@ coeff_r_w
 coeff_l_w
 coeff_r_w
 coeff_l_w
-\
 sq_coeff_r
+\
 sq_coeff_l
 )
 ;

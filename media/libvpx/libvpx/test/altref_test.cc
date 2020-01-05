@@ -140,7 +140,6 @@ BeginPassHook
 (
 unsigned
 int
-pass
 )
 {
 altref_count_

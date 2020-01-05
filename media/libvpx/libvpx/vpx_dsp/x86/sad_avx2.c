@@ -44,7 +44,6 @@ const
 uint8_t
 *
 src_ptr
-\
 int
 src_stride
 \
@@ -52,7 +51,6 @@ const
 uint8_t
 *
 ref_ptr
-\
 int
 ref_stride
 )
@@ -136,8 +134,8 @@ sad1_reg
 =
 _mm256_sad_epu8
 (
-ref1_reg
 \
+ref1_reg
 _mm256_loadu_si256
 (
 (
@@ -154,8 +152,8 @@ sad2_reg
 =
 _mm256_sad_epu8
 (
-ref2_reg
 \
+ref2_reg
 _mm256_loadu_si256
 (
 (
@@ -174,6 +172,7 @@ src_ptr
 \
 sum_sad
 =
+\
 _mm256_add_epi32
 (
 sum_sad
@@ -272,7 +271,6 @@ const
 uint8_t
 *
 src_ptr
-\
 int
 src_stride
 \
@@ -280,7 +278,6 @@ const
 uint8_t
 *
 ref_ptr
-\
 int
 ref_stride
 )
@@ -391,8 +388,8 @@ sad1_reg
 =
 _mm256_sad_epu8
 (
-ref1_reg
 \
+ref1_reg
 _mm256_loadu_si256
 (
 (
@@ -409,6 +406,7 @@ sad2_reg
 =
 _mm256_sad_epu8
 (
+\
 ref2_reg
 \
 _mm256_loadu_si256
@@ -429,6 +427,7 @@ src_stride
 \
 sum_sad
 =
+\
 _mm256_add_epi32
 (
 sum_sad
@@ -575,14 +574,13 @@ h
 #
 _avg_avx2
 (
+\
 const
 uint8_t
 *
 src_ptr
-\
 int
 src_stride
-\
 const
 uint8_t
 *
@@ -590,7 +588,6 @@ ref_ptr
 \
 int
 ref_stride
-\
 const
 uint8_t
 *
@@ -676,8 +673,8 @@ ref1_reg
 =
 _mm256_avg_epu8
 (
-ref1_reg
 \
+ref1_reg
 _mm256_loadu_si256
 (
 (
@@ -694,8 +691,8 @@ ref2_reg
 =
 _mm256_avg_epu8
 (
-ref2_reg
 \
+ref2_reg
 _mm256_loadu_si256
 (
 (
@@ -716,8 +713,8 @@ sad1_reg
 =
 _mm256_sad_epu8
 (
-ref1_reg
 \
+ref1_reg
 _mm256_loadu_si256
 (
 (
@@ -734,8 +731,8 @@ sad2_reg
 =
 _mm256_sad_epu8
 (
-ref2_reg
 \
+ref2_reg
 _mm256_loadu_si256
 (
 (
@@ -754,6 +751,7 @@ src_ptr
 \
 sum_sad
 =
+\
 _mm256_add_epi32
 (
 sum_sad
@@ -854,14 +852,13 @@ h
 #
 _avg_avx2
 (
+\
 const
 uint8_t
 *
 src_ptr
-\
 int
 src_stride
-\
 const
 uint8_t
 *
@@ -869,7 +866,6 @@ ref_ptr
 \
 int
 ref_stride
-\
 const
 uint8_t
 *
@@ -982,8 +978,8 @@ ref1_reg
 =
 _mm256_avg_epu8
 (
-ref1_reg
 \
+ref1_reg
 _mm256_loadu_si256
 (
 (
@@ -1000,8 +996,8 @@ ref2_reg
 =
 _mm256_avg_epu8
 (
-ref2_reg
 \
+ref2_reg
 _mm256_loadu_si256
 (
 (
@@ -1022,8 +1018,8 @@ sad1_reg
 =
 _mm256_sad_epu8
 (
-ref1_reg
 \
+ref1_reg
 _mm256_loadu_si256
 (
 (
@@ -1040,6 +1036,7 @@ sad2_reg
 =
 _mm256_sad_epu8
 (
+\
 ref2_reg
 \
 _mm256_loadu_si256
@@ -1060,10 +1057,10 @@ src_stride
 \
 sum_sad
 =
+\
 _mm256_add_epi32
 (
 sum_sad
-\
 _mm256_add_epi32
 (
 sad1_reg

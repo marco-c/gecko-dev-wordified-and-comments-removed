@@ -37,6 +37,7 @@ swap_endian_16
 val
 raw
 )
+\
 do
 {
 \
@@ -56,7 +57,6 @@ raw
 &
 0x00ff
 )
-\
 |
 (
 (
@@ -83,6 +83,7 @@ swap_endian_32
 val
 raw
 )
+\
 do
 {
 \
@@ -98,7 +99,6 @@ raw
 &
 0x000000ff
 )
-\
 |
 (
 (
@@ -110,8 +110,8 @@ raw
 &
 0x0000ff00
 )
-\
 |
+\
 (
 (
 raw
@@ -122,7 +122,6 @@ raw
 &
 0x00ff0000
 )
-\
 |
 (
 (
@@ -148,6 +147,7 @@ swap_endian_16_se
 val
 raw
 )
+\
 do
 {
 \
@@ -202,7 +202,6 @@ static
 VPX_INLINE
 unsigned
 MEM_VALUE_T
-\
 mem_get_
 #
 #
@@ -214,6 +213,7 @@ sz
 #
 _aligned
 (
+\
 const
 void
 *
@@ -264,7 +264,6 @@ static
 VPX_INLINE
 signed
 MEM_VALUE_T
-\
 mem_get_s
 #
 #
@@ -276,6 +275,7 @@ sz
 #
 _aligned
 (
+\
 const
 void
 *
@@ -326,7 +326,6 @@ static
 VPX_INLINE
 unsigned
 MEM_VALUE_T
-\
 mem_get_
 #
 #
@@ -338,6 +337,7 @@ sz
 #
 _aligned
 (
+\
 const
 void
 *
@@ -406,7 +406,6 @@ static
 VPX_INLINE
 signed
 MEM_VALUE_T
-\
 mem_get_s
 #
 #
@@ -418,6 +417,7 @@ sz
 #
 _aligned
 (
+\
 const
 void
 *
@@ -488,7 +488,6 @@ sz
 static
 VPX_INLINE
 void
-\
 mem_put_
 #
 #
@@ -503,6 +502,7 @@ _aligned
 void
 *
 vmem
+\
 MEM_VALUE_T
 val
 )
@@ -558,7 +558,6 @@ sz
 static
 VPX_INLINE
 void
-\
 mem_put_
 #
 #
@@ -573,6 +572,7 @@ _aligned
 void
 *
 vmem
+\
 MEM_VALUE_T
 val
 )

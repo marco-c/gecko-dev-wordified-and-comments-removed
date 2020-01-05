@@ -71,6 +71,11 @@ nmv_context
 mvctx
 int
 usehp
+unsigned
+int
+*
+const
+max_mv_magnitude
 )
 ;
 void

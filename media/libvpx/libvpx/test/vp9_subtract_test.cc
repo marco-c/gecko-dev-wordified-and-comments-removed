@@ -644,9 +644,6 @@ vpx_subtract_block_c
 #
 if
 HAVE_SSE2
-&
-&
-CONFIG_USE_X86INC
 INSTANTIATE_TEST_CASE_P
 (
 SSE2

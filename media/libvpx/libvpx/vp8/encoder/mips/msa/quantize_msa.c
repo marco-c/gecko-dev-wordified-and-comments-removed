@@ -42,9 +42,6 @@ int16_t
 coeff_ptr
 int16_t
 *
-zbin
-int16_t
-*
 round
 int16_t
 *
@@ -1241,15 +1238,6 @@ coeff
 ;
 int16_t
 *
-zbin_ptr
-=
-b
--
->
-zbin
-;
-int16_t
-*
 round_ptr
 =
 b
@@ -1302,7 +1290,6 @@ eob
 fast_quantize_b_msa
 (
 coeff_ptr
-zbin_ptr
 round_ptr
 quant_ptr
 dequant_ptr

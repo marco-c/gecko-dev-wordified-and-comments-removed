@@ -257,6 +257,7 @@ xmm6
 xmm6
 .
 combine
+:
 movdqa
 xmm2
 [
@@ -506,6 +507,7 @@ xmm4
 xmm4
 .
 combine
+:
 movq
 xmm2
 [
@@ -743,6 +745,7 @@ alignment
 .
 .
 accumulate
+:
 movdqa
 xmm0
 [

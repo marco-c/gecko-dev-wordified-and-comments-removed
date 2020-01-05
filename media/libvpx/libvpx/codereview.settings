@@ -32,3 +32,6 @@ review
 googlesource
 .
 com
+GERRIT_SQUASH_UPLOADS
+:
+False

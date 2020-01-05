@@ -99,16 +99,6 @@ __declspec
 (
 deprecated
 )
-/
-*
-*
-<
-\
-copydoc
-#
-DEPRECATED
-*
-/
 #
 else
 #
@@ -313,6 +303,7 @@ VPX_VERSION_MAJOR
 (
 v
 )
+\
 (
 (
 v
@@ -340,6 +331,7 @@ VPX_VERSION_MINOR
 (
 v
 )
+\
 (
 (
 v
@@ -367,6 +359,7 @@ VPX_VERSION_PATCH
 (
 v
 )
+\
 (
 (
 v
@@ -585,6 +578,7 @@ ctx
 id
 data
 )
+\
 vpx_codec_control_
 #
 #
@@ -594,7 +588,6 @@ ctx
 id
 data
 )
-\
 /
 *
 *
@@ -613,7 +606,6 @@ typ
 \
 static
 vpx_codec_err_t
-\
 vpx_codec_control_
 #
 #
@@ -624,13 +616,13 @@ vpx_codec_ctx_t
 int
 typ
 )
+\
 UNUSED
 ;
 \
 \
 static
 vpx_codec_err_t
-\
 vpx_codec_control_
 #
 #
@@ -639,6 +631,7 @@ id
 vpx_codec_ctx_t
 *
 ctx
+\
 int
 ctrl_id
 typ
@@ -675,12 +668,12 @@ typ
 DECLSPEC_DEPRECATED
 static
 vpx_codec_err_t
-\
 vpx_codec_control_
 #
 #
 id
 (
+\
 vpx_codec_ctx_t
 *
 int
@@ -694,12 +687,12 @@ UNUSED
 DECLSPEC_DEPRECATED
 static
 vpx_codec_err_t
-\
 vpx_codec_control_
 #
 #
 id
 (
+\
 vpx_codec_ctx_t
 *
 ctx
@@ -737,7 +730,6 @@ id
 \
 static
 vpx_codec_err_t
-\
 vpx_codec_control_
 #
 #
@@ -747,13 +739,13 @@ vpx_codec_ctx_t
 *
 int
 )
+\
 UNUSED
 ;
 \
 \
 static
 vpx_codec_err_t
-\
 vpx_codec_control_
 #
 #
@@ -762,6 +754,7 @@ id
 vpx_codec_ctx_t
 *
 ctx
+\
 int
 ctrl_id
 )

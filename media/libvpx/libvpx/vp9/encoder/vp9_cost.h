@@ -88,7 +88,6 @@ bit
 (
 prob
 )
-\
 :
 (
 prob

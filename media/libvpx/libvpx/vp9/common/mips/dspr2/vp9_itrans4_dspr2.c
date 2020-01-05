@@ -106,7 +106,7 @@ uint8_t
 *
 dest
 int
-dest_stride
+stride
 int
 tx_type
 )
@@ -200,7 +200,7 @@ out
 0
 ]
 dest
-dest_stride
+stride
 )
 ;
 break
@@ -257,7 +257,7 @@ dest
 [
 j
 *
-dest_stride
+stride
 +
 i
 ]
@@ -277,7 +277,7 @@ dest
 [
 j
 *
-dest_stride
+stride
 +
 i
 ]
@@ -384,7 +384,7 @@ temp_in
 0
 ]
 dest
-dest_stride
+stride
 )
 ;
 break
@@ -491,7 +491,7 @@ dest
 [
 j
 *
-dest_stride
+stride
 +
 i
 ]
@@ -511,7 +511,7 @@ dest
 [
 j
 *
-dest_stride
+stride
 +
 i
 ]

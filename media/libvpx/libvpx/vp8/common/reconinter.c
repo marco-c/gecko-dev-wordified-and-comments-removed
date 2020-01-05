@@ -91,9 +91,9 @@ r
 <
 16
 ;
++
++
 r
-+
-+
 )
 {
 memcpy
@@ -145,9 +145,9 @@ r
 <
 8
 ;
++
++
 r
-+
-+
 )
 {
 memcpy
@@ -199,9 +199,9 @@ r
 <
 4
 ;
++
++
 r
-+
-+
 )
 {
 memcpy
@@ -377,9 +377,9 @@ r
 <
 4
 ;
++
++
 r
-+
-+
 )
 {
 pred_ptr
@@ -884,9 +884,9 @@ r
 <
 4
 ;
++
++
 r
-+
-+
 )
 {
 dst
@@ -1243,9 +1243,9 @@ i
 <
 2
 ;
++
++
 i
-+
-+
 )
 {
 for
@@ -1258,9 +1258,9 @@ j
 <
 2
 ;
++
++
 j
-+
-+
 )
 {
 int
@@ -1651,6 +1651,7 @@ mv
 .
 as_int
 )
+{
 build_inter_predictors2b
 (
 x
@@ -1664,6 +1665,7 @@ base_pre
 pre_stride
 )
 ;
+}
 else
 {
 vp8_build_inter_predictors_b
@@ -1766,6 +1768,7 @@ mv
 .
 as_int
 )
+{
 build_inter_predictors2b
 (
 x
@@ -1779,6 +1782,7 @@ base_pre
 pre_stride
 )
 ;
+}
 else
 {
 vp8_build_inter_predictors_b
@@ -1980,6 +1984,7 @@ mb_to_left_edge
 )
 )
 )
+{
 mv
 -
 >
@@ -1997,6 +2002,7 @@ mb_to_left_edge
 3
 )
 ;
+}
 else
 if
 (
@@ -2017,6 +2023,7 @@ mb_to_right_edge
 3
 )
 )
+{
 mv
 -
 >
@@ -2034,6 +2041,7 @@ mb_to_right_edge
 3
 )
 ;
+}
 if
 (
 mv
@@ -2055,6 +2063,7 @@ mb_to_top_edge
 )
 )
 )
+{
 mv
 -
 >
@@ -2072,6 +2081,7 @@ mb_to_top_edge
 3
 )
 ;
+}
 else
 if
 (
@@ -2092,6 +2102,7 @@ mb_to_bottom_edge
 3
 )
 )
+{
 mv
 -
 >
@@ -2109,6 +2120,7 @@ mb_to_bottom_edge
 3
 )
 ;
+}
 }
 static
 void
@@ -3258,6 +3270,7 @@ mv
 .
 as_int
 )
+{
 build_inter_predictors2b
 (
 x
@@ -3273,6 +3286,7 @@ base_pre
 dst_stride
 )
 ;
+}
 else
 {
 build_inter_predictors_b
@@ -3407,6 +3421,7 @@ mv
 .
 as_int
 )
+{
 build_inter_predictors2b
 (
 x
@@ -3422,6 +3437,7 @@ base_pre
 dst_stride
 )
 ;
+}
 else
 {
 build_inter_predictors_b
@@ -3555,6 +3571,7 @@ mv
 .
 as_int
 )
+{
 build_inter_predictors2b
 (
 x
@@ -3570,6 +3587,7 @@ base_pre
 dst_stride
 )
 ;
+}
 else
 {
 build_inter_predictors_b
@@ -3634,9 +3652,9 @@ i
 <
 2
 ;
++
++
 i
-+
-+
 )
 {
 for
@@ -3649,9 +3667,9 @@ j
 <
 2
 ;
++
++
 j
-+
-+
 )
 {
 int
@@ -3962,6 +3980,7 @@ mbmi
 .
 need_to_clamp_mvs
 )
+{
 clamp_uvmv_to_umv_border
 (
 &
@@ -3981,6 +4000,7 @@ as_mv
 x
 )
 ;
+}
 x
 -
 >

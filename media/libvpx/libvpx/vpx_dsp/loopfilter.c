@@ -2894,7 +2894,7 @@ s
 }
 }
 void
-vpx_lpf_horizontal_edge_8_c
+vpx_lpf_horizontal_16_c
 (
 uint8_t
 *
@@ -2927,7 +2927,7 @@ thresh
 ;
 }
 void
-vpx_lpf_horizontal_edge_16_c
+vpx_lpf_horizontal_16_dual_c
 (
 uint8_t
 *
@@ -6288,7 +6288,7 @@ s
 }
 }
 void
-vpx_highbd_lpf_horizontal_edge_8_c
+vpx_highbd_lpf_horizontal_16_c
 (
 uint16_t
 *
@@ -6324,7 +6324,7 @@ bd
 ;
 }
 void
-vpx_highbd_lpf_horizontal_edge_16_c
+vpx_highbd_lpf_horizontal_16_dual_c
 (
 uint16_t
 *

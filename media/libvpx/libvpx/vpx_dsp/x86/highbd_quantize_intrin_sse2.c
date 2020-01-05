@@ -543,7 +543,7 @@ j
 ;
 const
 int64_t
-tmp1
+tmp3
 =
 abs_coeff
 [
@@ -560,11 +560,11 @@ k
 ;
 const
 int64_t
-tmp2
+tmp4
 =
 (
 (
-tmp1
+tmp3
 *
 quant_ptr
 [
@@ -579,7 +579,7 @@ k
 16
 )
 +
-tmp1
+tmp3
 ;
 const
 uint32_t
@@ -590,7 +590,7 @@ uint32_t
 )
 (
 (
-tmp2
+tmp4
 *
 quant_shift_ptr
 [

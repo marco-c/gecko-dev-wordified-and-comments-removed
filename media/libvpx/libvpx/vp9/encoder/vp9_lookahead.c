@@ -407,8 +407,7 @@ int
 use_highbitdepth
 #
 endif
-unsigned
-int
+vpx_enc_frame_flags_t
 flags
 )
 {

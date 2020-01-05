@@ -127,7 +127,6 @@ filter_x0
 uint32_t
 filter45
 ;
-;
 filter45
 =
 (
@@ -899,7 +898,6 @@ filter_x0
 ;
 uint32_t
 filter45
-;
 ;
 filter45
 =
@@ -2212,7 +2210,6 @@ filter_x0
 ;
 uint32_t
 filter45
-;
 ;
 filter45
 =
@@ -4533,7 +4530,6 @@ filter_x0
 ;
 uint32_t
 filter45
-;
 ;
 filter45
 =

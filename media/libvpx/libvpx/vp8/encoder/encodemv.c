@@ -40,6 +40,15 @@ h
 "
 #
 include
+"
+vpx_ports
+/
+system_state
+.
+h
+"
+#
+include
 <
 math
 .
@@ -607,6 +616,7 @@ mvpis_short
 )
 ;
 do
+{
 cost
 +
 =
@@ -628,6 +638,7 @@ i
 1
 )
 ;
+}
 while
 (
 +
@@ -644,6 +655,7 @@ mvlong_width
 1
 ;
 do
+{
 cost
 +
 =
@@ -665,6 +677,7 @@ i
 1
 )
 ;
+}
 while
 (
 -
@@ -743,7 +756,7 @@ cost1
 =
 0
 ;
-vp8_clear_system_state
+vpx_clear_system_state
 (
 )
 ;
@@ -1422,6 +1435,7 @@ is_short_ct
 c
 ;
 do
+{
 bit_ct
 [
 k
@@ -1440,6 +1454,7 @@ k
 =
 c
 ;
+}
 while
 (
 -
@@ -1506,6 +1521,7 @@ short_ct
 )
 ;
 do
+{
 calc_prob
 (
 Pnew
@@ -1519,6 +1535,7 @@ j
 ]
 )
 ;
+}
 while
 (
 +
@@ -1538,6 +1555,7 @@ j
 0
 ;
 do
+{
 calc_prob
 (
 Pnew
@@ -1551,6 +1569,7 @@ j
 ]
 )
 ;
+}
 while
 (
 +
@@ -1623,6 +1642,7 @@ j
 0
 ;
 do
+{
 update
 (
 w
@@ -1644,6 +1664,7 @@ Pupdate
 updated
 )
 ;
+}
 while
 (
 +
@@ -1682,6 +1703,7 @@ j
 0
 ;
 do
+{
 update
 (
 w
@@ -1703,6 +1725,7 @@ Pupdate
 updated
 )
 ;
+}
 while
 (
 +
@@ -1848,6 +1871,7 @@ flags
 1
 ]
 )
+{
 vp8_build_component_cost_table
 (
 cpi
@@ -1872,6 +1896,7 @@ mvc
 flags
 )
 ;
+}
 #
 ifdef
 VP8_ENTROPY_STATS

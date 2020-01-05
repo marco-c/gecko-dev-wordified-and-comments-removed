@@ -9923,7 +9923,7 @@ s
 }
 }
 void
-vpx_lpf_horizontal_edge_8_dspr2
+vpx_lpf_horizontal_16_dspr2
 (
 unsigned
 char
@@ -9957,7 +9957,7 @@ thresh
 ;
 }
 void
-vpx_lpf_horizontal_edge_16_dspr2
+vpx_lpf_horizontal_16_dual_dspr2
 (
 unsigned
 char

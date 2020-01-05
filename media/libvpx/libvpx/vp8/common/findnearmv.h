@@ -154,6 +154,7 @@ mb_to_left_edge
 LEFT_TOP_MARGIN
 )
 )
+{
 mv
 -
 >
@@ -168,6 +169,7 @@ mb_to_left_edge
 -
 LEFT_TOP_MARGIN
 ;
+}
 else
 if
 (
@@ -185,6 +187,7 @@ mb_to_right_edge
 +
 RIGHT_BOTTOM_MARGIN
 )
+{
 mv
 -
 >
@@ -199,6 +202,7 @@ mb_to_right_edge
 +
 RIGHT_BOTTOM_MARGIN
 ;
+}
 if
 (
 mv
@@ -217,6 +221,7 @@ mb_to_top_edge
 LEFT_TOP_MARGIN
 )
 )
+{
 mv
 -
 >
@@ -231,6 +236,7 @@ mb_to_top_edge
 -
 LEFT_TOP_MARGIN
 ;
+}
 else
 if
 (
@@ -248,6 +254,7 @@ mb_to_bottom_edge
 +
 RIGHT_BOTTOM_MARGIN
 )
+{
 mv
 -
 >
@@ -262,6 +269,7 @@ mb_to_bottom_edge
 +
 RIGHT_BOTTOM_MARGIN
 ;
+}
 }
 static
 INLINE

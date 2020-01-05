@@ -291,7 +291,6 @@ mm_diff
 error_sse2
 sqcoeff_sse2
 ;
-;
 mm_coeff
 =
 _mm_packs_epi32

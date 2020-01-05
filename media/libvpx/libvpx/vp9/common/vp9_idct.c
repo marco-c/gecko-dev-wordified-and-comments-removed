@@ -1881,10 +1881,10 @@ if
 eob
 <
 =
-10
+12
 )
 {
-vpx_highbd_idct8x8_10_add
+vpx_highbd_idct8x8_12_add
 (
 input
 dest

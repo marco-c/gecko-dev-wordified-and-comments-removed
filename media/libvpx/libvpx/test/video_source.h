@@ -17,8 +17,13 @@ NOMINMAX
 define
 NOMINMAX
 #
+ifndef
+WIN32_LEAN_AND_MEAN
+#
 define
 WIN32_LEAN_AND_MEAN
+#
+endif
 #
 include
 <
@@ -897,6 +902,7 @@ frame_
 <
 15
 )
+{
 for
 (
 size_t
@@ -926,7 +932,9 @@ Rand8
 (
 )
 ;
+}
 else
+{
 memset
 (
 img_
@@ -937,6 +945,7 @@ img_data
 raw_sz_
 )
 ;
+}
 }
 }
 ACMRandom

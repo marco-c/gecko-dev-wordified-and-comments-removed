@@ -168,15 +168,6 @@ define
 vp8_block_error
 vp8_block_error_c
 void
-vp8_clear_system_state_c
-(
-)
-;
-#
-define
-vp8_clear_system_state
-vp8_clear_system_state_c
-void
 vp8_copy_mem16x16_c
 (
 unsigned

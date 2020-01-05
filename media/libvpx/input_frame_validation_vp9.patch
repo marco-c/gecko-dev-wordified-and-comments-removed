@@ -89,11 +89,11 @@ vp9_cx_iface
 .
 c
 -
-1080
+1129
 21
 +
-1080
-29
+1129
+30
 static
 vpx_codec_err_t
 encoder_encode
@@ -101,6 +101,11 @@ encoder_encode
 vpx_codec_alg_priv_t
 *
 ctx
+unsigned
+char
+*
+cx_data
+;
 /
 /
 Set
@@ -183,9 +188,9 @@ ctx
 -
 >
 next_frame_flags
--
 &
 sd
+-
 dst_time_stamp
 dst_end_time_stamp
 )
@@ -262,6 +267,7 @@ encoder
 must
 have
 this
++
 resolution
 "
 +
@@ -332,9 +338,9 @@ ctx
 -
 >
 next_frame_flags
-+
 &
 sd
++
 dst_time_stamp
 dst_end_time_stamp
 )

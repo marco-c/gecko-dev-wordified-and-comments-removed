@@ -360,13 +360,6 @@ libvpx_test
 VideoSource
 *
 video
-:
-:
-libvpx_test
-:
-:
-Encoder
-*
 )
 {
 frame_flags_
@@ -759,10 +752,12 @@ num
 >
 kMaxErrorFrames
 )
+{
 num
 =
 kMaxErrorFrames
 ;
+}
 else
 if
 (
@@ -770,10 +765,12 @@ num
 <
 0
 )
+{
 num
 =
 0
 ;
+}
 error_nframes_
 =
 num
@@ -794,6 +791,7 @@ error_nframes_
 +
 i
 )
+{
 error_frames_
 [
 i
@@ -804,6 +802,7 @@ list
 i
 ]
 ;
+}
 }
 void
 SetDroppableFrames
@@ -822,10 +821,12 @@ num
 >
 kMaxDroppableFrames
 )
+{
 num
 =
 kMaxDroppableFrames
 ;
+}
 else
 if
 (
@@ -833,10 +834,12 @@ num
 <
 0
 )
+{
 num
 =
 0
 ;
+}
 droppable_nframes_
 =
 num
@@ -857,6 +860,7 @@ droppable_nframes_
 +
 i
 )
+{
 droppable_frames_
 [
 i
@@ -867,6 +871,7 @@ list
 i
 ]
 ;
+}
 }
 unsigned
 int

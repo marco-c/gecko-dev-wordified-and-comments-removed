@@ -2042,6 +2042,7 @@ if
 (
 u_ptr
 )
+{
 vp8_mbloop_filter_horizontal_edge_c
 (
 u_ptr
@@ -2061,10 +2062,12 @@ hev_thr
 1
 )
 ;
+}
 if
 (
 v_ptr
 )
+{
 vp8_mbloop_filter_horizontal_edge_c
 (
 v_ptr
@@ -2084,6 +2087,7 @@ hev_thr
 1
 )
 ;
+}
 }
 void
 vp8_loop_filter_mbv_c
@@ -2132,6 +2136,7 @@ if
 (
 u_ptr
 )
+{
 vp8_mbloop_filter_vertical_edge_c
 (
 u_ptr
@@ -2151,10 +2156,12 @@ hev_thr
 1
 )
 ;
+}
 if
 (
 v_ptr
 )
+{
 vp8_mbloop_filter_vertical_edge_c
 (
 v_ptr
@@ -2174,6 +2181,7 @@ hev_thr
 1
 )
 ;
+}
 }
 void
 vp8_loop_filter_bh_c
@@ -2272,6 +2280,7 @@ if
 (
 u_ptr
 )
+{
 vp8_loop_filter_horizontal_edge_c
 (
 u_ptr
@@ -2295,10 +2304,12 @@ hev_thr
 1
 )
 ;
+}
 if
 (
 v_ptr
 )
+{
 vp8_loop_filter_horizontal_edge_c
 (
 v_ptr
@@ -2322,6 +2333,7 @@ hev_thr
 1
 )
 ;
+}
 }
 void
 vp8_loop_filter_bhs_c
@@ -2464,6 +2476,7 @@ if
 (
 u_ptr
 )
+{
 vp8_loop_filter_vertical_edge_c
 (
 u_ptr
@@ -2485,10 +2498,12 @@ hev_thr
 1
 )
 ;
+}
 if
 (
 v_ptr
 )
+{
 vp8_loop_filter_vertical_edge_c
 (
 v_ptr
@@ -2510,6 +2525,7 @@ hev_thr
 1
 )
 ;
+}
 }
 void
 vp8_loop_filter_bvs_c

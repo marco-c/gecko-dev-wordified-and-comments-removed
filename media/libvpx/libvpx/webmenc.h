@@ -100,11 +100,6 @@ const
 vpx_codec_enc_cfg_t
 *
 cfg
-const
-struct
-vpx_rational
-*
-fps
 stereo_format_t
 stereo_fmt
 unsigned

@@ -310,10 +310,16 @@ SEEK_SET
 #
 else
 return
-fseek
+fseeko
 (
 file_
+static_cast
+<
+off_t
+>
+(
 position
+)
 SEEK_SET
 )
 ;

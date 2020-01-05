@@ -40,6 +40,11 @@ tmp6
 tmp7
 tmp8
 ;
+(
+void
+)
+above
+;
 __asm__
 __volatile__
 (

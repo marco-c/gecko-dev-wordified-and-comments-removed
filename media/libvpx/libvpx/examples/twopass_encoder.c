@@ -1035,6 +1035,9 @@ arguments
 ;
 max_frames
 =
+(
+int
+)
 strtol
 (
 argv
@@ -1068,6 +1071,9 @@ codec
 ;
 w
 =
+(
+int
+)
 strtol
 (
 width_arg
@@ -1077,6 +1083,9 @@ NULL
 ;
 h
 =
+(
+int
+)
 strtol
 (
 height_arg

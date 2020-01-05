@@ -557,11 +557,17 @@ webm_ctx
 >
 video_track_index
 =
+static_cast
+<
+int
+>
+(
 track
 -
 >
 GetNumber
 (
+)
 )
 ;
 break

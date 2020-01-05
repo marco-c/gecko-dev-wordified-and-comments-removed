@@ -391,6 +391,7 @@ cntx
 ;
 }
 else
+{
 cnt
 [
 CNT_INTRA
@@ -399,6 +400,7 @@ CNT_INTRA
 =
 2
 ;
+}
 }
 if
 (
@@ -497,6 +499,7 @@ cntx
 ;
 }
 else
+{
 cnt
 [
 CNT_INTRA
@@ -505,6 +508,7 @@ CNT_INTRA
 =
 1
 ;
+}
 }
 if
 (
@@ -669,6 +673,7 @@ cnt
 CNT_INTRA
 ]
 )
+{
 near_mvs
 [
 CNT_INTRA
@@ -679,6 +684,7 @@ near_mvs
 CNT_NEAREST
 ]
 ;
+}
 best_mv
 -
 >

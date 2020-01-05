@@ -29,14 +29,6 @@ ARCH_X86_64
 1
 #
 define
-HAVE_EDSP
-0
-#
-define
-HAVE_MEDIA
-0
-#
-define
 HAVE_NEON
 0
 #
@@ -123,10 +115,6 @@ CONFIG_INSTALL_LIBS
 define
 CONFIG_INSTALL_SRCS
 0
-#
-define
-CONFIG_USE_X86INC
-1
 #
 define
 CONFIG_DEBUG

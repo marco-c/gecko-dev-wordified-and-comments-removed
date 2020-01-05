@@ -120,6 +120,9 @@ uint8_t
 *
 consec_zero_mv
 ;
+uint8_t
+speed
+;
 }
 LAYER_CONTEXT
 ;
@@ -172,6 +175,12 @@ MAX_LAG_BUFFERS
 ;
 YV12_BUFFER_CONFIG
 scaled_temp
+;
+int
+scaled_one_half
+;
+int
+scaled_temp_is_alloc
 ;
 LAYER_CONTEXT
 layer_context
