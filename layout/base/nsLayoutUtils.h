@@ -2672,6 +2672,10 @@ uint32_t
 aFlags
 =
 0
+nscoord
+aMarginBoxMinSizeClamp
+=
+NS_MAXSIZE
 )
 ;
 static
