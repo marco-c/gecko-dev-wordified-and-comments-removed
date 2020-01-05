@@ -306,17 +306,6 @@ attribute
 boolean
 hidden
 ;
-[
-binaryname
-(
-DOMClick
-)
-]
-void
-click
-(
-)
-;
 attribute
 long
 tabIndex

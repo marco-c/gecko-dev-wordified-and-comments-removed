@@ -1941,15 +1941,6 @@ editableElt
 return
 nullptr
 ;
-mozilla
-:
-:
-dom
-:
-:
-AutoNoJSAPI
-nojsapi
-;
 nsCOMPtr
 <
 nsIEditor

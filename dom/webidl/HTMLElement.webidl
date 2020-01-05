@@ -236,6 +236,9 @@ attribute
 boolean
 hidden
 ;
+[
+NeedsCallerType
+]
 void
 click
 (
