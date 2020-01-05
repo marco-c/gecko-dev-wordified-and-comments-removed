@@ -429,6 +429,7 @@ LayoutDispListBuild
 PaintingPerTile
 PaintingPrepBuff
 Painting
+ImageDecoding
 }
 impl
 Formatable
@@ -689,6 +690,16 @@ Painting
 >
 "
 Painting
+"
+TimeProfilerCategory
+:
+:
+ImageDecoding
+=
+>
+"
+Image
+Decoding
 "
 }
 ;
