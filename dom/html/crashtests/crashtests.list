@@ -383,17 +383,6 @@ load
 1032654
 .
 html
-pref
-(
-dom
-.
-image
-.
-srcset
-.
-enabled
-true
-)
 load
 1141260
 .
