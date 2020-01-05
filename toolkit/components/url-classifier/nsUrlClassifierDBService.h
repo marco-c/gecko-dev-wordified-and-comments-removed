@@ -645,6 +645,14 @@ PendingLookup
 >
 mPendingLookups
 ;
+#
+ifdef
+MOZ_SAFEBROWSING_DUMP_FAILED_UPDATES
+nsCString
+mRawTableUpdates
+;
+#
+endif
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
