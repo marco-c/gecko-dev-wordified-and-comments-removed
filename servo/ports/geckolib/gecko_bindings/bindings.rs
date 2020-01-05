@@ -3179,7 +3179,7 @@ layers
 *
 mut
 nsStyleImageLayers
-maxLen
+max_len
 :
 u32
 )
