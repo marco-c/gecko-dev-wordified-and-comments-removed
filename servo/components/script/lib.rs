@@ -139,6 +139,14 @@ plugin
 [
 feature
 (
+ref_slice
+)
+]
+#
+!
+[
+feature
+(
 rc_unique
 )
 ]
