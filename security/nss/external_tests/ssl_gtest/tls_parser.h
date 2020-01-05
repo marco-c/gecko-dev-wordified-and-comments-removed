@@ -215,7 +215,7 @@ const
 uint16_t
 kTlsSigSchemeRsaPssSha256
 =
-0x0700
+0x0804
 ;
 const
 uint8_t
