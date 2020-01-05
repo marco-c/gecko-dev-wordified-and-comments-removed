@@ -63147,6 +63147,13 @@ ErrorResult
 aRv
 )
 {
+MOZ_RELEASE_ASSERT
+(
+IsInnerWindow
+(
+)
+)
+;
 if
 (
 !
@@ -63173,7 +63180,9 @@ worklet
 new
 Worklet
 (
-this
+AsInner
+(
+)
 mDoc
 -
 >
