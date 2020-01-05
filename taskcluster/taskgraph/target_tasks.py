@@ -10,61 +10,6 @@ utf
 -
 *
 -
-#
-This
-Source
-Code
-Form
-is
-subject
-to
-the
-terms
-of
-the
-Mozilla
-Public
-#
-License
-v
-.
-2
-.
-0
-.
-If
-a
-copy
-of
-the
-MPL
-was
-not
-distributed
-with
-this
-#
-file
-You
-can
-obtain
-one
-at
-http
-:
-/
-/
-mozilla
-.
-org
-/
-MPL
-/
-2
-.
-0
-/
-.
 from
 __future__
 import
@@ -312,24 +257,6 @@ full_task_graph
 l
 ]
         
-#
-If
-the
-developer
-wants
-test
-jobs
-to
-be
-rebuilt
-N
-times
-we
-add
-that
-value
-here
-        
 if
 options
 .
@@ -369,25 +296,6 @@ profile
 ]
 =
 False
-        
-#
-If
-the
-developer
-wants
-test
-talos
-jobs
-to
-be
-rebuilt
-N
-times
-we
-add
-that
-value
-here
         
 if
 options
@@ -439,13 +347,6 @@ update
 (
 attributes
 )
-    
-#
-Add
-notifications
-here
-as
-well
     
 if
 options
@@ -726,14 +627,6 @@ build_platform
 '
 )
         
-#
-Early
-return
-if
-platform
-is
-None
-        
 if
 not
 platform
@@ -741,12 +634,6 @@ platform
             
 return
 False
-        
-#
-Only
-on
-Linux
-platforms
         
 if
 '
@@ -759,38 +646,6 @@ platform
             
 return
 False
-        
-#
-No
-random
-non
--
-build
-jobs
-either
-.
-This
-is
-being
-purposely
-done
-as
-a
-        
-#
-blacklist
-so
-newly
--
-added
-jobs
-aren
-'
-t
-missed
-by
-default
-.
         
 for
 p
@@ -859,18 +714,6 @@ kind
 return
 False
         
-#
-and
-none
-of
-this
-linux64
--
-asan
-/
-debug
-stuff
-        
 if
 platform
 =
@@ -898,13 +741,6 @@ debug
             
 return
 False
-        
-#
-no
-non
--
-e10s
-tests
         
 if
 task
@@ -936,15 +772,6 @@ e10s
 return
 False
             
-#
-don
-'
-t
-run
-talos
-on
-ash
-            
 if
 task
 .
@@ -965,13 +792,6 @@ talos
                 
 return
 False
-        
-#
-don
-'
-t
-upload
-symbols
         
 if
 task
@@ -1067,11 +887,6 @@ get
 build_platform
 '
 )
-        
-#
-only
-select
-platforms
         
 if
 platform
@@ -2157,11 +1972,6 @@ build_platform
 '
 )
         
-#
-disable
-mobile
-jobs
-        
 if
 str
 (
@@ -2254,11 +2064,6 @@ get
 build_platform
 '
 )
-        
-#
-only
-select
-platforms
         
 if
 platform
