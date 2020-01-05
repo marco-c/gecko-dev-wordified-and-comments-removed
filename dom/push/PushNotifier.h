@@ -108,6 +108,16 @@ HandleNoChildProcesses
 (
 )
 ;
+nsIPrincipal
+*
+GetPrincipal
+(
+)
+{
+return
+mPrincipal
+;
+}
 protected
 :
 PushDispatcher
