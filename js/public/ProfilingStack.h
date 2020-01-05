@@ -714,7 +714,13 @@ cx
 ProfileEntry
 *
 stack
+mozilla
+:
+:
+Atomic
+<
 uint32_t
+>
 *
 size
 uint32_t

@@ -1691,7 +1691,13 @@ geckoProfilingStack
 GeckoProfilingMaxStackSize
 ]
 ;
+mozilla
+:
+:
+Atomic
+<
 uint32_t
+>
 geckoProfilingStackSize
 ;
 OffThreadState
