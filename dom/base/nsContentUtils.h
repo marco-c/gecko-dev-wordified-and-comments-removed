@@ -5342,6 +5342,15 @@ JSObject
 prototype
 )
 ;
+static
+bool
+AttemptLargeAllocationLoad
+(
+nsIHttpChannel
+*
+aChannel
+)
+;
 private
 :
 static

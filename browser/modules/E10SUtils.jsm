@@ -498,6 +498,7 @@ function
 aDocShell
 aURI
 aReferrer
+aFreshProcess
 )
 {
 let
@@ -567,6 +568,11 @@ aReferrer
 spec
 :
 null
+reloadInFreshProcess
+:
+!
+!
+aFreshProcess
 }
 historyIndex
 :

@@ -1080,6 +1080,11 @@ mVisible
 :
 1
 ;
+bool
+mFreshProcess
+:
+1
+;
 }
 ;
 #
