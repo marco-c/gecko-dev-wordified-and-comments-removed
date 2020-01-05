@@ -2005,20 +2005,6 @@ enabled
 False
     
 '
-network
-.
-http
-.
-bypass
--
-cachelock
--
-threshold
-'
-:
-200000
-    
-'
 geo
 .
 provider
