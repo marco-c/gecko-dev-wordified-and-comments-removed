@@ -700,12 +700,14 @@ assign
 (
 {
 }
+(
 defaults
 &
 &
 defaults
 .
 headers
+)
 |
 |
 {

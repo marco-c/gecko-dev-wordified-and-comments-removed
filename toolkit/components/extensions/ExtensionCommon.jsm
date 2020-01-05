@@ -1070,6 +1070,7 @@ instanceof
 ExtensionError
 |
 |
+(
 typeof
 error
 =
@@ -1090,6 +1091,7 @@ Cu
 getObjectPrincipal
 (
 error
+)
 )
 )
 )
