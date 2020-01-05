@@ -167,14 +167,15 @@ if
 (
 strcmp
 (
+R
 "
-\
+(
 "
 argument
 with
 quotes
-\
 "
+)
 "
 argv
 [
