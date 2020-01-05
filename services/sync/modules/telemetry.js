@@ -1606,7 +1606,7 @@ Service
 .
 clientsEngine
 .
-remoteDevices
+remoteClients
 ;
 this
 .
