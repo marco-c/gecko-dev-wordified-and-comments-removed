@@ -3323,14 +3323,6 @@ WTLS
 ECCurve_WTLS_12
 )
 ;
-ECTEST_NAMED_GFP
-(
-"
-Curve25519
-"
-ECCurve25519
-)
-;
 CLEANUP
 :
 EC_FreeCurveParams

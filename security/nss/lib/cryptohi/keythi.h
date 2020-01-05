@@ -8,13 +8,6 @@ _KEYTHI_H_
 #
 include
 "
-eccutil
-.
-h
-"
-#
-include
-"
 plarena
 .
 h
@@ -277,9 +270,6 @@ size
 ;
 SECItem
 publicValue
-;
-ECPointEncoding
-encoding
 ;
 }
 ;

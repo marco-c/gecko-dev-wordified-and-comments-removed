@@ -375,8 +375,6 @@ OPTIONAL
 #
 #
 #
-USE_GCOV
-=
 include
 (
 CORE_DEPTH

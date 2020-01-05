@@ -499,10 +499,6 @@ ecperf
 &
 1
 )
-echo
-"
-ECPERF_OUT
-"
 ECPERF_OUT
 =
 echo

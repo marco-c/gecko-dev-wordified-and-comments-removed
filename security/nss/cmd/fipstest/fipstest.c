@@ -12565,10 +12565,11 @@ SECITEM_AllocItem
 NULL
 &
 pubkey
-ecparams
--
->
-pointSize
+2
+*
+len
++
+1
 )
 ;
 if

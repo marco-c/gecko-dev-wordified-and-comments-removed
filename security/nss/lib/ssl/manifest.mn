@@ -219,10 +219,6 @@ sslcert
 .
 c
 \
-sslgrp
-.
-c
-\
 (
 NULL
 )
