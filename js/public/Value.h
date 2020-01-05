@@ -4163,6 +4163,7 @@ v
 }
 static
 inline
+MOZ_MAY_CALL_AFTER_MUST_RETURN
 Value
 NullValue
 (
