@@ -12023,7 +12023,7 @@ ret
 =
 Type
 .
-BOOL
+VOID
 )
 )
         
@@ -12113,12 +12113,8 @@ nullerrorblock
 .
 addstmt
 (
-            
-StmtReturn
+StmtBreak
 (
-ExprLiteral
-.
-TRUE
 )
 )
         
@@ -12160,11 +12156,8 @@ actor
 '
 )
             
-StmtReturn
+StmtBreak
 (
-ExprLiteral
-.
-FALSE
 )
 ]
 )
@@ -12244,12 +12237,8 @@ dyingblock
 .
 addstmt
 (
-                
-StmtReturn
+StmtBreak
 (
-ExprLiteral
-.
-TRUE
 )
 )
             
@@ -12289,11 +12278,8 @@ state
 '
 )
             
-StmtReturn
+StmtBreak
 (
-ExprLiteral
-.
-FALSE
 )
 ]
 )
@@ -32620,16 +32606,12 @@ pqReplyId
 (
 )
         
-ifbad
-=
-StmtIf
+return
+[
+StmtExpr
 (
-ExprNot
-(
-            
 ExprCall
 (
-                
 ExprVar
 (
 self
@@ -32644,7 +32626,7 @@ name
 Transition
 '
 )
-                
+                                   
 args
 =
 [
@@ -32652,7 +32634,7 @@ ExprVar
 (
 msgid
 )
-                       
+                                   
 ExprAddrOf
 (
 stateexpr
@@ -32660,20 +32642,6 @@ stateexpr
 ]
 )
 )
-)
-        
-ifbad
-.
-addifstmts
-(
-_badTransition
-(
-)
-)
-        
-return
-[
-ifbad
 ]
     
 def
