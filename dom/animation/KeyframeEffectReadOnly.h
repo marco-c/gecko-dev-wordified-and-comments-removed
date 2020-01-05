@@ -1008,6 +1008,16 @@ aProperty
 )
 const
 ;
+bool
+ContainsAnimatedScale
+(
+const
+nsIFrame
+*
+aFrame
+)
+const
+;
 protected
 :
 KeyframeEffectReadOnly
