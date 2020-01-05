@@ -460,17 +460,6 @@ as
 )
 AC_CHECK_PROGS
 (
-LD
-"
-{
-TOOLCHAIN_PREFIX
-}
-ld
-"
-:
-)
-AC_CHECK_PROGS
-(
 LIPO
 "
 {

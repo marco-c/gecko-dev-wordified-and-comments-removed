@@ -1275,12 +1275,6 @@ ar
 )
 AC_CHECK_PROGS
 (
-LD
-ld
-:
-)
-AC_CHECK_PROGS
-(
 STRIP
 strip
 :
@@ -19589,10 +19583,6 @@ ASFLAGS
 AC_SUBST
 (
 AS_DASH_C_FLAG
-)
-AC_SUBST
-(
-LD
 )
 AC_SUBST
 (

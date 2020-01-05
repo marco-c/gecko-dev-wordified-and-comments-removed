@@ -362,9 +362,6 @@ ar
 AS
 =
 CC
-LD
-=
-ld
 STRIP
 =
 "
@@ -433,7 +430,6 @@ HOST_CXX
 RANLIB
 AR
 AS
-LD
 STRIP
 OTOOL
 fi

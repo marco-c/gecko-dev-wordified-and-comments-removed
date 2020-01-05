@@ -608,12 +608,6 @@ CC
 -
 E
 "
-export
-LD
-=
-"
-CXX
-"
 MOZ_IOS_PATH_PROG
 (
 AR

@@ -1879,12 +1879,6 @@ ar
 )
 AC_CHECK_PROGS
 (
-LD
-ld
-:
-)
-AC_CHECK_PROGS
-(
 STRIP
 strip
 :
@@ -47514,10 +47508,6 @@ AS_DASH_C_FLAG
 )
 AC_SUBST
 (
-LD
-)
-AC_SUBST
-(
 RC
 )
 AC_SUBST
@@ -51941,8 +51931,6 @@ export
 CC
 export
 CXX
-export
-LD
 export
 ARFLAGS
 export
