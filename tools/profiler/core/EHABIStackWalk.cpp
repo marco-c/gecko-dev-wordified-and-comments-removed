@@ -1557,7 +1557,7 @@ next
 #
 if
 DEBUG_EHABI_UNWIND
-LOGF
+LOG
 (
 "
 unwind
@@ -2140,7 +2140,7 @@ continue
 #
 ifdef
 DEBUG_EHABI_UNWIND
-LOGF
+LOG
 (
 "
 Unhandled
