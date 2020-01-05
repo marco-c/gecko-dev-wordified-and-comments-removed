@@ -261,6 +261,10 @@ serviceContainer
 {
 onDOMNodeMouseOver
 =
+serviceContainer
+.
+highlightDomElement
+?
 (
 object
 )
@@ -272,6 +276,8 @@ highlightDomElement
 (
 object
 )
+:
+null
 ;
 onDOMNodeMouseOut
 =
@@ -281,6 +287,10 @@ unHighlightDomElement
 ;
 onInspectIconClick
 =
+serviceContainer
+.
+openNodeInInspector
+?
 (
 object
 )
@@ -292,6 +302,8 @@ openNodeInInspector
 (
 object
 )
+:
+null
 ;
 }
 return
