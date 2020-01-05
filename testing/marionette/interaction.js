@@ -1123,6 +1123,7 @@ addEventListener
 beforeunload
 "
 handleEvent
+false
 )
 ;
 win
