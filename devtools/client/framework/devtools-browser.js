@@ -3623,6 +3623,11 @@ get
 toolId
 )
 ;
+if
+(
+toolDefinition
+)
+{
 gDevToolsBrowser
 .
 _addToolToWindows
@@ -3630,6 +3635,7 @@ _addToolToWindows
 toolDefinition
 )
 ;
+}
 }
 )
 ;
