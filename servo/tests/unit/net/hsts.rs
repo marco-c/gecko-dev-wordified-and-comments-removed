@@ -5,7 +5,10 @@ net
 hsts
 :
 :
-secure_url
+{
+HstsEntry
+HstsList
+}
 ;
 use
 net
@@ -14,10 +17,7 @@ net
 hsts
 :
 :
-{
-HstsList
-HstsEntry
-}
+secure_url
 ;
 use
 net_traits

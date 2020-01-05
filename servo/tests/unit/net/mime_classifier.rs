@@ -5,7 +5,12 @@ net
 mime_classifier
 :
 :
-as_string_option
+{
+ApacheBugFlag
+MimeClassifier
+Mp4Matcher
+NoSniffFlag
+}
 ;
 use
 net
@@ -14,12 +19,7 @@ net
 mime_classifier
 :
 :
-{
-Mp4Matcher
-MimeClassifier
-ApacheBugFlag
-NoSniffFlag
-}
+as_string_option
 ;
 use
 net_traits

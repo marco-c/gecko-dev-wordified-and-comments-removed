@@ -39,7 +39,10 @@ style
 traversal
 :
 :
-RestyleResult
+{
+DomTraversalContext
+recalc_style_at
+}
 ;
 use
 style
@@ -48,10 +51,7 @@ style
 traversal
 :
 :
-{
-DomTraversalContext
-recalc_style_at
-}
+RestyleResult
 ;
 use
 wrapper

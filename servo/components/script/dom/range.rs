@@ -86,7 +86,10 @@ Bindings
 RangeBinding
 :
 :
-RangeMethods
+{
+self
+RangeConstants
+}
 ;
 use
 dom
@@ -104,10 +107,7 @@ Bindings
 RangeBinding
 :
 :
-{
-self
-RangeConstants
-}
+RangeMethods
 ;
 use
 dom
@@ -183,7 +183,10 @@ bindings
 inheritance
 :
 :
-Castable
+{
+CharacterDataTypeId
+NodeTypeId
+}
 ;
 use
 dom
@@ -195,10 +198,7 @@ bindings
 inheritance
 :
 :
-{
-CharacterDataTypeId
-NodeTypeId
-}
+Castable
 ;
 use
 dom

@@ -8,12 +8,6 @@ use
 font
 :
 :
-ShapingOptions
-;
-use
-font
-:
-:
 {
 Font
 FontHandleMethods
@@ -21,6 +15,12 @@ FontMetrics
 IS_WHITESPACE_SHAPING_FLAG
 RunMetrics
 }
+;
+use
+font
+:
+:
+ShapingOptions
 ;
 use
 platform

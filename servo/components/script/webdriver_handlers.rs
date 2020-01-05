@@ -343,8 +343,8 @@ jsapi
 :
 :
 {
-JSContext
 HandleValue
+JSContext
 }
 ;
 use
@@ -402,7 +402,12 @@ script_traits
 webdriver_msg
 :
 :
-WebDriverCookieError
+{
+WebDriverFrameId
+WebDriverJSError
+WebDriverJSResult
+WebDriverJSValue
+}
 ;
 use
 script_traits
@@ -411,12 +416,7 @@ script_traits
 webdriver_msg
 :
 :
-{
-WebDriverFrameId
-WebDriverJSError
-WebDriverJSResult
-WebDriverJSValue
-}
+WebDriverCookieError
 ;
 use
 url

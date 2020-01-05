@@ -56,7 +56,10 @@ hyper
 header
 :
 :
-Headers
+{
+ContentType
+Cookie
+}
 ;
 use
 hyper
@@ -65,10 +68,7 @@ hyper
 header
 :
 :
-{
-ContentType
-Cookie
-}
+Headers
 ;
 use
 hyper

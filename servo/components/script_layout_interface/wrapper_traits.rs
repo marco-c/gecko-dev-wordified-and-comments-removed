@@ -93,7 +93,10 @@ style
 dom
 :
 :
-OpaqueNode
+{
+PresentationalHintsSynthetizer
+TNode
+}
 ;
 use
 style
@@ -102,10 +105,7 @@ style
 dom
 :
 :
-{
-PresentationalHintsSynthetizer
-TNode
-}
+OpaqueNode
 ;
 use
 style

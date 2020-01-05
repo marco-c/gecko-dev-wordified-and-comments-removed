@@ -230,7 +230,10 @@ dom
 document
 :
 :
-DocumentSource
+{
+Document
+IsHTMLDocument
+}
 ;
 use
 dom
@@ -239,10 +242,7 @@ dom
 document
 :
 :
-{
-Document
-IsHTMLDocument
-}
+DocumentSource
 ;
 use
 dom
