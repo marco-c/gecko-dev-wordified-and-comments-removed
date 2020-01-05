@@ -14233,6 +14233,14 @@ if
 selectTab
 >
 0
+&
+&
+selectTab
+<
+=
+tabs
+.
+length
 )
 {
 let
@@ -18646,7 +18654,7 @@ tabs
 .
 length
 +
-2
+1
 ;
 pinnedWindowState
 .
