@@ -115,6 +115,11 @@ ChromiumCDMParent
 h
 '
 '
+ChromiumCDMProxy
+.
+h
+'
+'
 DecryptJob
 .
 h
@@ -498,6 +503,11 @@ cpp
 '
 '
 ChromiumCDMParent
+.
+cpp
+'
+'
+ChromiumCDMProxy
 .
 cpp
 '
