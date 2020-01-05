@@ -2113,6 +2113,11 @@ LoadStart
 MozBrowserEvent
 :
 :
+Connected
+|
+MozBrowserEvent
+:
+:
 OpenWindow
 |
 MozBrowserEvent
