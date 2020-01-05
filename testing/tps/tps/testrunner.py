@@ -453,6 +453,18 @@ tps
 '
 :
 True
+        
+'
+engine
+.
+bookmarks
+.
+repair
+.
+enabled
+'
+:
+False
     
 }
     
