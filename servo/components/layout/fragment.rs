@@ -6519,6 +6519,14 @@ TableColumn
 (
 _
 )
+|
+SpecificFragmentInfo
+:
+:
+InlineAbsoluteHypothetical
+(
+_
+)
 =
 >
 {
