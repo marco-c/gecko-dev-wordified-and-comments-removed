@@ -343,10 +343,11 @@ net
 -
 -
 -
-nested
+prio
 (
+normal
 upto
-inside_cpow
+urgent
 )
 sync
 protocol
@@ -413,9 +414,9 @@ __delete__
 (
 )
 ;
-nested
+prio
 (
-inside_cpow
+urgent
 )
 async
 PCookieService

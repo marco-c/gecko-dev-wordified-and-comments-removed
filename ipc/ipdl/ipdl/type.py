@@ -47,9 +47,9 @@ ipdl
 .
 ast
 import
-NOT_NESTED
-INSIDE_SYNC_NESTED
-INSIDE_CPOW_NESTED
+NORMAL_PRIORITY
+HIGH_PRIORITY
+URGENT_PRIORITY
 import
 ipdl
 .
@@ -1291,14 +1291,14 @@ if
 (
 lesser
 .
-nestedRange
+priorityRange
 [
 0
 ]
 <
 greater
 .
-nestedRange
+priorityRange
 [
 0
 ]
@@ -1306,14 +1306,14 @@ or
             
 lesser
 .
-nestedRange
+priorityRange
 [
 1
 ]
 >
 greater
 .
-nestedRange
+priorityRange
 [
 1
 ]
@@ -1334,12 +1334,12 @@ and
             
 lesser
 .
-nestedRange
+priorityRange
 !
 =
 (
-NOT_NESTED
-NOT_NESTED
+NORMAL_PRIORITY
+NORMAL_PRIORITY
 )
 )
 :
@@ -1489,7 +1489,7 @@ def
 __init__
 (
 self
-nested
+priority
 sendSemantics
 direction
                  
@@ -1535,17 +1535,17 @@ None
         
 self
 .
-nested
+priority
 =
-nested
+priority
         
 self
 .
-nestedRange
+priorityRange
 =
 (
-nested
-nested
+priority
+priority
 )
         
 self
@@ -1831,7 +1831,7 @@ __init__
 (
 self
 qname
-nestedRange
+priorityRange
 sendSemantics
 stateless
 =
@@ -1847,9 +1847,9 @@ qname
         
 self
 .
-nestedRange
+priorityRange
 =
-nestedRange
+priorityRange
         
 self
 .
@@ -4520,7 +4520,7 @@ ProtocolType
 qname
 p
 .
-nestedRange
+priorityRange
 p
 .
 sendSemantics
@@ -7257,7 +7257,7 @@ MessageType
 (
 md
 .
-nested
+priority
 md
 .
 sendSemantics
@@ -9805,10 +9805,10 @@ loc
 if
 mtype
 .
-nested
+priority
 =
 =
-INSIDE_SYNC_NESTED
+HIGH_PRIORITY
 and
 not
 mtype
@@ -9826,8 +9826,8 @@ error
 loc
                 
 "
-inside_sync
-nested
+high
+priority
 messages
 must
 be
@@ -9853,10 +9853,10 @@ pname
 if
 mtype
 .
-nested
+priority
 =
 =
-INSIDE_CPOW_NESTED
+URGENT_PRIORITY
 and
 (
 mtype
@@ -9881,8 +9881,7 @@ error
 loc
                 
 "
-inside_cpow
-nested
+urgent
 parent
 -
 to
@@ -9918,10 +9917,10 @@ isSync
 and
 mtype
 .
-nested
+priority
 =
 =
-NOT_NESTED
+NORMAL_PRIORITY
 and
 (
 mtype

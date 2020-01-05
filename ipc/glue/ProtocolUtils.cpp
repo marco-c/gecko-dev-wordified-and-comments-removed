@@ -346,10 +346,10 @@ ProcessId
 aOtherProcess
 ProtocolId
 aProtocol
-NestedLevel
-aNestedLevel
+PriorityValue
+aPriority
 =
-NOT_NESTED
+PRIORITY_NORMAL
 )
 :
 IPC
@@ -359,7 +359,7 @@ Message
 (
 MSG_ROUTING_CONTROL
 CHANNEL_OPENED_MESSAGE_TYPE
-aNestedLevel
+aPriority
 )
 {
 IPC
@@ -576,7 +576,7 @@ IPC
 Message
 :
 :
-NESTED_INSIDE_CPOW
+PRIORITY_URGENT
 )
 )
 )
@@ -615,7 +615,7 @@ IPC
 Message
 :
 :
-NESTED_INSIDE_CPOW
+PRIORITY_URGENT
 )
 )
 )

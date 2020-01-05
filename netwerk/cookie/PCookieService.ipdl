@@ -227,10 +227,11 @@ see
 nsICookiePermission
 *
 /
-nested
+prio
 (
+normal
 upto
-inside_cpow
+urgent
 )
 sync
 protocol
@@ -431,9 +432,9 @@ string
 .
 *
 /
-nested
+prio
 (
-inside_cpow
+urgent
 )
 sync
 GetCookieString
@@ -659,9 +660,9 @@ mozIThirdPartyUtil
 isThirdPartyChannel
 *
 /
-nested
+prio
 (
-inside_cpow
+urgent
 )
 async
 SetCookieString
