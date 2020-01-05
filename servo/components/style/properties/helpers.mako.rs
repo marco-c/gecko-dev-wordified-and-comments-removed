@@ -140,6 +140,9 @@ expr
 longhand
 (
 name
+predefined_type
+=
+type
 *
 *
 kwargs
