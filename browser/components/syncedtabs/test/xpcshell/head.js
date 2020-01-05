@@ -131,8 +131,6 @@ location
 setTimeout
 setInterval
 clearTimeout
-clearinterval
-:
 clearInterval
 }
 ;
