@@ -192,6 +192,7 @@ XMLDocument
 {
 [
 Throws
+NeedsCallerType
 ]
 boolean
 load

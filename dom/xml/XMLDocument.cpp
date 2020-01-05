@@ -1539,6 +1539,8 @@ const
 nsAString
 &
 aUrl
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1668,12 +1670,13 @@ this
 ;
 if
 (
-nsContentUtils
+aCallerType
+=
+=
+CallerType
 :
 :
-IsCallerChrome
-(
-)
+System
 )
 {
 docForWarning
