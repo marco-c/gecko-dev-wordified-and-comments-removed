@@ -220,6 +220,9 @@ the
 pre
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLPreElement
 :

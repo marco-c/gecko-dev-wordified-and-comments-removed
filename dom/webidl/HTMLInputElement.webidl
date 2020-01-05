@@ -213,6 +213,9 @@ preserve
 interface
 nsIControllers
 ;
+[
+HTMLConstructor
+]
 interface
 HTMLInputElement
 :

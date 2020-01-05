@@ -189,6 +189,9 @@ the
 map
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLMapElement
 :

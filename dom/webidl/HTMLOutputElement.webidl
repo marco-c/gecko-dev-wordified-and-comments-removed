@@ -190,6 +190,9 @@ the
 output
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLOutputElement
 :

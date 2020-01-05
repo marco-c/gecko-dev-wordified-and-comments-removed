@@ -190,6 +190,9 @@ the
 meter
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLMeterElement
 :

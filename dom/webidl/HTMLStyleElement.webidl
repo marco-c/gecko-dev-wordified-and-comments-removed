@@ -158,6 +158,9 @@ and
 apis
 *
 /
+[
+HTMLConstructor
+]
 interface
 HTMLStyleElement
 :

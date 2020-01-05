@@ -216,6 +216,7 @@ object
 -
 element
 [
+HTMLConstructor
 NeedResolve
 UnsafeInPrerendering
 ]

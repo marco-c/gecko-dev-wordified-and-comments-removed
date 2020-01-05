@@ -192,6 +192,9 @@ document
 .
 *
 /
+[
+HTMLConstructor
+]
 interface
 HTMLIFrameElement
 :

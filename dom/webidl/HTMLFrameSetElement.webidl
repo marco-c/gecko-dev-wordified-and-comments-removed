@@ -156,6 +156,9 @@ document
 .
 *
 /
+[
+HTMLConstructor
+]
 interface
 HTMLFrameSetElement
 :

@@ -221,6 +221,9 @@ the
 ol
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLOListElement
 :
