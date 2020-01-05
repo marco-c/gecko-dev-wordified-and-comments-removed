@@ -1601,6 +1601,7 @@ static
 const
 char16_t
 *
+const
 kBinaryFileExtensions
 [
 ]
