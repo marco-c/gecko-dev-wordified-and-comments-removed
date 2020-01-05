@@ -114,7 +114,7 @@ adb_path
 None
         
 '
-addon
+addons
 '
 :
 None
