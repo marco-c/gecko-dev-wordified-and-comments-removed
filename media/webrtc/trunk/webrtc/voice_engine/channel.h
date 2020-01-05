@@ -1685,6 +1685,14 @@ cumulativeLost
 )
 ;
 int
+GetRTCPPacketTypeCounters
+(
+RtcpPacketTypeCounter
+&
+stats
+)
+;
+int
 GetRemoteRTCPReportBlocks
 (
 std
