@@ -5290,6 +5290,13 @@ return
 obj
 ;
 }
+JSAutoCompartment
+ac
+(
+cx
+obj
+)
+;
 if
 (
 !
