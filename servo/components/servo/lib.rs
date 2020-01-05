@@ -1137,6 +1137,13 @@ Constellation
 :
 :
 <
+script
+:
+:
+layout_interface
+:
+:
+Msg
 layout
 :
 :
@@ -1328,6 +1335,13 @@ start_all
 :
 :
 <
+script
+:
+:
+layout_interface
+:
+:
+Msg
 layout
 :
 :
