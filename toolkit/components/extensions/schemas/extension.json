@@ -49,7 +49,7 @@ namespace
 extension
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -140,7 +140,7 @@ optional
 :
 true
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -255,7 +255,7 @@ optional
 :
 true
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -371,7 +371,7 @@ type
 function
 "
 "
-restrictions
+allowedContexts
 "
 :
 [

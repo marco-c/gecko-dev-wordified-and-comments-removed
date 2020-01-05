@@ -94,7 +94,7 @@ namespace
 runtime
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -185,7 +185,7 @@ type
 object
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -361,7 +361,7 @@ type
 object
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -716,7 +716,7 @@ type
 string
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -799,7 +799,7 @@ x86
 "
 ]
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -837,7 +837,7 @@ type
 object
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -1164,7 +1164,7 @@ update_available
 "
 ]
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -1219,7 +1219,7 @@ shared_module_update
 "
 ]
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -1259,7 +1259,7 @@ type
 string
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -1385,7 +1385,7 @@ optional
 :
 true
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -1477,7 +1477,7 @@ type
 string
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -1856,7 +1856,7 @@ name
 getManifest
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -1972,7 +1972,7 @@ type
 function
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -2538,7 +2538,7 @@ type
 function
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -3010,7 +3010,7 @@ allowAmbiguousOptionalArguments
 :
 true
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -4639,7 +4639,7 @@ type
 function
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -4767,7 +4767,7 @@ type
 function
 "
 "
-restrictions
+allowedContexts
 "
 :
 [

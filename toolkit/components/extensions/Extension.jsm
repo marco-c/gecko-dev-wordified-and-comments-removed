@@ -3299,7 +3299,7 @@ shouldInject
 (
 namespace
 name
-restrictions
+allowedContexts
 )
 {
 if
@@ -3316,7 +3316,7 @@ content_parent
 &
 &
 !
-restrictions
+allowedContexts
 .
 includes
 (

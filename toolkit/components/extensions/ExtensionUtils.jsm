@@ -8399,7 +8399,7 @@ shouldInject
 (
 namespace
 name
-restrictions
+allowedContexts
 )
 {
 return
@@ -8416,7 +8416,7 @@ content_child
 "
 |
 |
-restrictions
+allowedContexts
 .
 includes
 (

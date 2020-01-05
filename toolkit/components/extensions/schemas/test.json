@@ -46,7 +46,7 @@ namespace
 test
 "
 "
-restrictions
+allowedContexts
 "
 :
 [
@@ -55,7 +55,7 @@ content
 "
 ]
 "
-defaultRestrictions
+defaultContexts
 "
 :
 [
