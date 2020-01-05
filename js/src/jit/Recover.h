@@ -325,6 +325,7 @@ class
 SnapshotIterator
 ;
 class
+MOZ_NON_PARAM
 RInstruction
 {
 public
