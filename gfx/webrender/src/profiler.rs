@@ -9,6 +9,7 @@ device
 :
 :
 {
+Device
 GpuMarker
 GpuSample
 NamedTag
@@ -3561,6 +3562,11 @@ draw_profile
 &
 mut
 self
+device
+:
+&
+mut
+Device
 frame_profile
 :
 &
@@ -3593,6 +3599,11 @@ GpuMarker
 :
 new
 (
+device
+.
+rc_gl
+(
+)
 "
 profile
 "

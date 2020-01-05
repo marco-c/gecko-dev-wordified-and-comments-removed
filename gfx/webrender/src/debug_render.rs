@@ -1194,6 +1194,11 @@ GpuMarker
 :
 new
 (
+device
+.
+rc_gl
+(
+)
 "
 debug
 "

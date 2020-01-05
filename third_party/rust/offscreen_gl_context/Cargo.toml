@@ -22,9 +22,9 @@ version
 "
 0
 .
-6
+8
 .
-1
+2
 "
 authors
 =
@@ -121,6 +121,9 @@ features
 default
 =
 [
+"
+x11
+"
 ]
 osmesa
 =
@@ -147,10 +150,6 @@ test_egl_in_linux
 =
 [
 ]
-test_osmesa
-=
-[
-]
 [
 dependencies
 ]
@@ -166,9 +165,7 @@ gleam
 "
 0
 .
-2
-.
-31
+4
 "
 euclid
 =
@@ -234,7 +231,7 @@ cgl
 "
 0
 .
-1
+2
 "
 [
 target
@@ -254,6 +251,9 @@ dependencies
 .
 x11
 ]
+optional
+=
+true
 version
 =
 "
