@@ -140,11 +140,6 @@ nsIFormFillController
 idl
 '
 '
-nsIFormHistory
-.
-idl
-'
-'
 nsIInputListAutoComplete
 .
 idl
@@ -187,11 +182,6 @@ js
 '
 '
 nsFormAutoComplete
-.
-js
-'
-'
-nsFormHistory
 .
 js
 '

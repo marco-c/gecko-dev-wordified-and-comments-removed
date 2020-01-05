@@ -2034,13 +2034,6 @@ BINPATH
 /
 components
 /
-nsFormHistory
-.
-js
-BINPATH
-/
-components
-/
 FormHistoryStartup
 .
 js

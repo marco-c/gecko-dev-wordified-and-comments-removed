@@ -2872,13 +2872,6 @@ RESPATH
 /
 components
 /
-nsFormHistory
-.
-js
-RESPATH
-/
-components
-/
 FormHistoryStartup
 .
 js
