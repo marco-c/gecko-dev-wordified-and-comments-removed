@@ -727,11 +727,13 @@ canvas
 .
 fill_rect
 (
+&
 bounds
 .
 to_azure_rect
 (
 )
+&
 ColorPattern
 (
 color
@@ -1729,7 +1731,9 @@ canvas
 .
 fill_rect
 (
+&
 rect
+&
 pattern
 )
 ;

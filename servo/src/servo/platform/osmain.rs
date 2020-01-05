@@ -542,12 +542,15 @@ transform
 .
 scale
 (
+&
 800
 .
 0f32
+&
 600
 .
 0f32
+&
 1
 .
 0f32
@@ -557,7 +560,6 @@ scale
 let
 scene
 =
-mut
 layers
 :
 :
@@ -909,7 +911,6 @@ rendergl
 render_scene
 (
 context
-*
 scene
 )
 ;
@@ -993,7 +994,6 @@ rendergl
 render_scene
 (
 context
-*
 scene
 )
 ;
@@ -1412,6 +1412,7 @@ draw_target
 =
 DrawTarget
 (
+&
 cairo_surface
 )
 ;

@@ -377,6 +377,7 @@ Cell
 (
 DrawTarget
 (
+&
 cairo_surface
 )
 )

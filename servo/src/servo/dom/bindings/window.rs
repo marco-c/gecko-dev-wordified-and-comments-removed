@@ -381,7 +381,7 @@ cx
 :
 *
 JSContext
-argc
+_argc
 :
 c_uint
 vp
