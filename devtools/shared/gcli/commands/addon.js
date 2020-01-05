@@ -928,12 +928,14 @@ nameB
 {
 return
 String
-.
-localeCompare
 (
 nameA
 .
 name
+)
+.
+localeCompare
+(
 nameB
 .
 name

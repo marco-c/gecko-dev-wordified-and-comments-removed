@@ -181,12 +181,14 @@ T
 "
 +
 String
-.
-trim
 (
 value
 .
 textContent
+)
+.
+trim
+(
 )
 )
 ;
