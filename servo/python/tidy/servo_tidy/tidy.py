@@ -5078,6 +5078,29 @@ rs
 '
 )
 )
+            
+(
+r
+"
+-
+>
+\
+(
+\
+)
+"
+"
+encountered
+function
+signature
+with
+-
+>
+(
+)
+"
+no_filter
+)
         
 ]
         

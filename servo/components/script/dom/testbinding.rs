@@ -2840,10 +2840,6 @@ BinaryRenamedMethod
 &
 self
 )
--
->
-(
-)
 {
 }
 fn
@@ -2851,10 +2847,6 @@ ReceiveVoid
 (
 &
 self
-)
--
->
-(
 )
 {
 }

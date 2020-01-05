@@ -175,10 +175,6 @@ obj
 &
 gecko_type
 )
--
->
-(
-)
 {
 <
 servo_type
@@ -208,10 +204,6 @@ obj
 :
 &
 gecko_type
-)
--
->
-(
 )
 {
 <
