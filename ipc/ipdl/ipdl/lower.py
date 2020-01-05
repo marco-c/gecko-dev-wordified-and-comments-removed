@@ -29363,23 +29363,11 @@ itervar
 name
 )
                        
-init
-=
-ExprCall
-(
-ExprVar
-(
-'
-PickleIterator
-'
-)
-                                     
-args
+initargs
 =
 [
 msgvar
 ]
-)
 )
 ]
             
@@ -29878,24 +29866,12 @@ itervar
 .
 name
 )
-                     
-init
-=
-ExprCall
-(
-ExprVar
-(
-'
-PickleIterator
-'
-)
-                                   
-args
+                       
+initargs
 =
 [
 msgvar
 ]
-)
 )
 ]
             
@@ -30105,25 +30081,13 @@ itervar
 name
 )
                        
-init
-=
-ExprCall
-(
-ExprVar
-(
-'
-PickleIterator
-'
-)
-                                     
-args
+initargs
 =
 [
 self
 .
 replyvar
 ]
-)
 )
 ]
             
