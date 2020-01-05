@@ -2322,6 +2322,7 @@ nsAString
 aBgColor
 uint32_t
 aFlags
+SystemCallerGuarantee
 mozilla
 :
 :
