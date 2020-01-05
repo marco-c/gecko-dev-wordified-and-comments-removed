@@ -1638,14 +1638,14 @@ components
 FeedProcessor
 .
 js
-RESPATH
+BINPATH
 /
 components
 /
 UserAgentOverrides
 .
 js
-RESPATH
+BINPATH
 /
 components
 /
