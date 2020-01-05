@@ -285,7 +285,6 @@ offset
 ;
 }
 NS_DECL_QUERYFRAME
-virtual
 void
 BuildDisplayList
 (
@@ -303,7 +302,6 @@ aLists
 )
 override
 ;
-virtual
 void
 Init
 (
@@ -319,7 +317,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 DestroyFrom
 (
@@ -329,7 +326,6 @@ aDestructRoot
 )
 override
 ;
-virtual
 nsresult
 GetCursor
 (
@@ -346,7 +342,6 @@ aCursor
 )
 override
 ;
-virtual
 nsresult
 CharacterDataChanged
 (
@@ -356,7 +351,6 @@ aInfo
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetNextContinuation
@@ -369,7 +363,6 @@ return
 mNextContinuation
 ;
 }
-virtual
 void
 SetNextContinuation
 (
@@ -447,7 +440,6 @@ NS_FRAME_IS_FLUID_CONTINUATION
 )
 ;
 }
-virtual
 nsIFrame
 *
 GetNextInFlowVirtual
@@ -489,7 +481,6 @@ mNextContinuation
 nullptr
 ;
 }
-virtual
 void
 SetNextInFlow
 (
@@ -568,7 +559,6 @@ NS_FRAME_IS_FLUID_CONTINUATION
 )
 ;
 }
-virtual
 nsIFrame
 *
 LastInFlow
@@ -577,7 +567,6 @@ LastInFlow
 const
 override
 ;
-virtual
 nsIFrame
 *
 LastContinuation
@@ -586,7 +575,6 @@ LastContinuation
 const
 override
 ;
-virtual
 nsSplittableType
 GetSplittableType
 (
@@ -598,7 +586,6 @@ return
 NS_FRAME_SPLITTABLE
 ;
 }
-virtual
 nsIAtom
 *
 GetType
@@ -607,7 +594,6 @@ GetType
 const
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -682,7 +668,6 @@ ShouldSuppressLineBreak
 )
 ;
 }
-virtual
 void
 InvalidateFrame
 (
@@ -693,7 +678,6 @@ aDisplayItemKey
 )
 override
 ;
-virtual
 void
 InvalidateFrameWithRect
 (
@@ -734,7 +718,6 @@ aFlags
 const
 override
 ;
-virtual
 nsresult
 GetFrameName
 (
@@ -762,7 +745,6 @@ endif
 #
 ifdef
 DEBUG
-virtual
 nsFrameState
 GetDebugStateBits
 (
@@ -772,7 +754,6 @@ override
 ;
 #
 endif
-virtual
 ContentOffsets
 CalcContentOffsetsFromFramePoint
 (
@@ -803,7 +784,6 @@ SelectionType
 aSelectionType
 )
 ;
-virtual
 FrameSearchResult
 PeekOffsetNoAmount
 (
@@ -815,7 +795,6 @@ aOffset
 )
 override
 ;
-virtual
 FrameSearchResult
 PeekOffsetCharacter
 (
@@ -831,7 +810,6 @@ true
 )
 override
 ;
-virtual
 FrameSearchResult
 PeekOffsetWord
 (
@@ -850,7 +828,6 @@ aState
 )
 override
 ;
-virtual
 nsresult
 CheckVisibility
 (
@@ -893,7 +870,6 @@ aSetLengthFlags
 0
 )
 ;
-virtual
 nsresult
 GetOffsets
 (
@@ -907,7 +883,6 @@ end
 const
 override
 ;
-virtual
 void
 AdjustOffsetsForBidi
 (
@@ -918,7 +893,6 @@ end
 )
 override
 ;
-virtual
 nsresult
 GetPointFromOffset
 (
@@ -930,7 +904,6 @@ outPoint
 )
 override
 ;
-virtual
 nsresult
 GetCharacterRectsInRange
 (
@@ -947,7 +920,6 @@ aRects
 )
 override
 ;
-virtual
 nsresult
 GetChildFrameContainingOffset
 (
@@ -965,7 +937,6 @@ outChildFrame
 )
 override
 ;
-virtual
 bool
 IsVisibleInSelection
 (
@@ -975,14 +946,12 @@ aSelection
 )
 override
 ;
-virtual
 bool
 IsEmpty
 (
 )
 override
 ;
-virtual
 bool
 IsSelfEmpty
 (
@@ -1007,7 +976,6 @@ aWritingMode
 const
 final
 ;
-virtual
 bool
 HasSignificantTerminalNewline
 (
@@ -1043,7 +1011,6 @@ TEXT_HAS_NONCOLLAPSED_CHARACTERS
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -1098,14 +1065,12 @@ float
 aInflation
 )
 ;
-virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -1115,7 +1080,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -1125,7 +1089,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 void
 AddInlineMinISize
 (
@@ -1138,7 +1101,6 @@ aData
 )
 override
 ;
-virtual
 void
 AddInlinePrefISize
 (
@@ -1151,7 +1113,6 @@ aData
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1201,7 +1162,6 @@ aFlags
 )
 override
 ;
-virtual
 nsRect
 ComputeTightBounds
 (
@@ -1212,7 +1172,6 @@ aDrawTarget
 const
 override
 ;
-virtual
 nsresult
 GetPrefWidthTightBounds
 (
@@ -1228,7 +1187,6 @@ aXMost
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -1248,7 +1206,6 @@ aStatus
 )
 override
 ;
-virtual
 bool
 CanContinueTextRun
 (
@@ -1275,7 +1232,6 @@ DrawTarget
 aDrawTarget
 )
 ;
-virtual
 RenderedText
 GetRenderedText
 (
@@ -1864,7 +1820,6 @@ PropertyProvider
 aProvider
 )
 ;
-virtual
 nscolor
 GetCaretColorAt
 (
@@ -2163,7 +2118,6 @@ IsInitialLetterChild
 )
 const
 ;
-virtual
 bool
 ComputeCustomOverflow
 (
@@ -2227,7 +2181,6 @@ mContentLengthHint
 nscoord
 mAscent
 ;
-virtual
 bool
 IsFrameSelected
 (
@@ -2903,7 +2856,6 @@ ClearFrameOffsetCache
 (
 )
 ;
-virtual
 bool
 HasAnyNoncollapsedCharacters
 (
