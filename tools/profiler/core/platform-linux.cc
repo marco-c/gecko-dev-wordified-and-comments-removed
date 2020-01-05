@@ -997,12 +997,7 @@ if
 aIsFirstProfiledThread
 &
 &
-gSampler
--
->
-ProfileMemory
-(
-)
+gProfileMemory
 )
 {
 aInfo

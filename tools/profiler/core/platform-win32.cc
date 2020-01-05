@@ -713,12 +713,7 @@ if
 isFirstProfiledThread
 &
 &
-gSampler
--
->
-ProfileMemory
-(
-)
+gProfileMemory
 )
 {
 sample
