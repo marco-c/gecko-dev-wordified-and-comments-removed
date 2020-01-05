@@ -537,13 +537,9 @@ props
 .
 setSelection
 (
-{
-selection
-:
 targetObj
 .
 dateObj
-}
 )
 ;
 }
