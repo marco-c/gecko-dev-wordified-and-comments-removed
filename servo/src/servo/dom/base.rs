@@ -141,7 +141,10 @@ arc
 ARC
 ;
 import
-style
+css
+:
+:
+values
 :
 :
 Stylesheet

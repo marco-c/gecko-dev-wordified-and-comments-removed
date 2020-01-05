@@ -86,10 +86,10 @@ parser
 Token
 ;
 import
-dom
+css
 :
 :
-style
+values
 :
 :
 Stylesheet

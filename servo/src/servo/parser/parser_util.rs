@@ -15,10 +15,10 @@ attributes
 "
 ]
 import
-dom
+css
 :
 :
-style
+values
 :
 :
 *

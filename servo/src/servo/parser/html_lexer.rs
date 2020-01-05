@@ -8,12 +8,6 @@ Chan
 }
 ;
 import
-dom
-:
-:
-style
-;
-import
 option
 :
 :

@@ -11,6 +11,9 @@ matching
 "
 ]
 import
+dom
+:
+:
 base
 :
 :
@@ -35,10 +38,7 @@ Text
 }
 ;
 import
-dom
-:
-:
-style
+values
 :
 :
 {
@@ -63,7 +63,7 @@ Height
 }
 ;
 import
-style
+styles
 :
 :
 {
