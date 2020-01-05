@@ -475,9 +475,9 @@ virtual
 bool
 IsAcceptableInputEvent
 (
-nsIDOMEvent
+WidgetGUIEvent
 *
-aEvent
+aGUIEvent
 )
 override
 ;
