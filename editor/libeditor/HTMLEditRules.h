@@ -790,7 +790,7 @@ aAction
 )
 ;
 nsresult
-JoinBlocks
+TryToJoinBlocks
 (
 nsIContent
 &
@@ -801,6 +801,9 @@ aRightNode
 bool
 *
 aCanceled
+bool
+*
+aHandled
 )
 ;
 nsresult
@@ -816,6 +819,9 @@ int32_t
 aLeftOffset
 int32_t
 aRightOffset
+bool
+*
+aHandled
 )
 ;
 nsresult
@@ -829,7 +835,10 @@ Element
 aDestElement
 int32_t
 *
-aOffset
+aInOutDestOffset
+bool
+*
+aHandled
 )
 ;
 nsresult
@@ -843,7 +852,10 @@ Element
 aDestElement
 int32_t
 *
-aOffset
+aInOutDestOffset
+bool
+*
+aHandled
 )
 ;
 nsresult
