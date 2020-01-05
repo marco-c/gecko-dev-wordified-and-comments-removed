@@ -1128,10 +1128,12 @@ desc
 JSObject
 *
 obj
+const
 JS
 :
 :
 Value
+&
 v
 bool
 readonly
@@ -1181,10 +1183,12 @@ JSObject
 obj
 unsigned
 attributes
+const
 JS
 :
 :
 Value
+&
 v
 )
 {
