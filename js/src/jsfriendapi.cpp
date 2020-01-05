@@ -500,12 +500,13 @@ proto
 )
 ;
 return
-obj
--
->
+JSObject
+:
+:
 splicePrototype
 (
 cx
+obj
 obj
 -
 >

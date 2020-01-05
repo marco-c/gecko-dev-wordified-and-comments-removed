@@ -6836,12 +6836,13 @@ cx
 if
 (
 !
-global
--
->
+JSObject
+:
+:
 splicePrototype
 (
 cx
+global
 global
 -
 >
