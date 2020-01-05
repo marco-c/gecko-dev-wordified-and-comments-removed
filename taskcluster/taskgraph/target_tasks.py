@@ -1275,6 +1275,16 @@ get
 test_platform
 '
 )
+.
+split
+(
+'
+/
+'
+)
+[
+0
+]
         
 if
 platform
@@ -1409,6 +1419,16 @@ get
 test_platform
 '
 )
+.
+split
+(
+'
+/
+'
+)
+[
+0
+]
         
 if
 platform
