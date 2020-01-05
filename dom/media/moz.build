@@ -567,6 +567,11 @@ MediaCache
 h
 '
 '
+MediaContentType
+.
+h
+'
+'
 MediaData
 .
 h
@@ -1100,6 +1105,11 @@ cpp
 '
 '
 MediaCache
+.
+cpp
+'
+'
+MediaContentType
 .
 cpp
 '
