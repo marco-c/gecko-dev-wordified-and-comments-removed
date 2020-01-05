@@ -224,11 +224,6 @@ FullZoomUI
 jsm
 '
 '
-HiddenFrame
-.
-jsm
-'
-'
 LaterRun
 .
 jsm

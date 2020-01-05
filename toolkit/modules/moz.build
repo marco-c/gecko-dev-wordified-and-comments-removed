@@ -1476,6 +1476,11 @@ GMPUtils
 jsm
 '
 '
+HiddenFrame
+.
+jsm
+'
+'
 Http
 .
 jsm
