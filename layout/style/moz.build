@@ -613,6 +613,11 @@ ServoElementSnapshot
 h
 '
 '
+ServoMediaList
+.
+h
+'
+'
 ServoPropPrefList
 .
 h
@@ -1132,6 +1137,11 @@ cpp
 '
 '
 ServoElementSnapshot
+.
+cpp
+'
+'
+ServoMediaList
 .
 cpp
 '
