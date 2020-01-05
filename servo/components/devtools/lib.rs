@@ -28,14 +28,6 @@ core
 #
 !
 [
-feature
-(
-collections
-)
-]
-#
-!
-[
 allow
 (
 non_snake_case
@@ -48,10 +40,6 @@ macro_use
 extern
 crate
 log
-;
-extern
-crate
-collections
 ;
 extern
 crate

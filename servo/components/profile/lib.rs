@@ -48,10 +48,6 @@ log
 ;
 extern
 crate
-collections
-;
-extern
-crate
 libc
 ;
 #

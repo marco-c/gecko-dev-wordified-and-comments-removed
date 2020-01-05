@@ -1,11 +1,3 @@
-#
-!
-[
-feature
-(
-thread_local
-)
-]
 extern
 crate
 compositing

@@ -93,10 +93,6 @@ bitflags
 ;
 extern
 crate
-collections
-;
-extern
-crate
 geom
 ;
 extern

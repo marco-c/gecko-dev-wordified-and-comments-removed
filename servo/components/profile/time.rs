@@ -1,10 +1,4 @@
 use
-collections
-:
-:
-BTreeMap
-;
-use
 profile_traits
 :
 :
@@ -35,6 +29,15 @@ cmp
 :
 :
 Ordering
+;
+use
+std
+:
+:
+collections
+:
+:
+BTreeMap
 ;
 use
 std
