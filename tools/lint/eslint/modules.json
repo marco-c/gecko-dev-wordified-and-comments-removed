@@ -1613,17 +1613,6 @@ GetClipboardSearchString
 "
 ]
 "
-FormAutofillContent
-.
-jsm
-"
-:
-[
-"
-FormAutofillHandler
-"
-]
-"
 forms
 .
 js
