@@ -1017,7 +1017,7 @@ UnsubmittedCrashHandler
 "
 ContentObservers
 .
-jsm
+js
 "
 :
 [
