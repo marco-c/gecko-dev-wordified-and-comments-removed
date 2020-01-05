@@ -134,8 +134,9 @@ InputTestConsumer
 InputTestConsumer
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 InputTestConsumer

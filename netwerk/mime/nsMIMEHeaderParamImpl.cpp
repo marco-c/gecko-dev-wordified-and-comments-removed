@@ -882,8 +882,9 @@ false
 Continuation
 (
 )
-{
-}
+=
+default
+;
 const
 char
 *

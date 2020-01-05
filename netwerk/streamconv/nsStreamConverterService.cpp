@@ -175,8 +175,9 @@ nsStreamConverterService
 nsStreamConverterService
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsStreamConverterService
 :

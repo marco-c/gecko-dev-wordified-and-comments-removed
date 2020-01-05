@@ -1915,8 +1915,9 @@ NetAddrElement
 NetAddrElement
 (
 )
-{
-}
+=
+default
+;
 AddrInfo
 :
 :

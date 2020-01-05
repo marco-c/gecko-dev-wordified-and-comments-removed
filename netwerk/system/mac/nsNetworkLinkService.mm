@@ -550,8 +550,9 @@ nsNetworkLinkService
 nsNetworkLinkService
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsNetworkLinkService
 :

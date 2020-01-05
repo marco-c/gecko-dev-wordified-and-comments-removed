@@ -390,8 +390,9 @@ virtual
 DataChannelShutdown
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_IMETHOD

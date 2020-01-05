@@ -526,8 +526,9 @@ UDPClientListener
 UDPClientListener
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 UDPClientListener
 :
@@ -806,8 +807,9 @@ UDPServerListener
 UDPServerListener
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 UDPServerListener
 :
@@ -1123,8 +1125,9 @@ MulticastTimerCallback
 MulticastTimerCallback
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 MulticastTimerCallback
 :
