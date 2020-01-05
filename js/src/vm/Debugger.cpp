@@ -32168,6 +32168,19 @@ isWasm
 (
 )
 )
+{
+if
+(
+!
+iter
+.
+wasmDebugEnabled
+(
+)
+)
+return
+false
+;
 return
 observesWasm
 (
@@ -32178,6 +32191,7 @@ wasmInstance
 )
 )
 ;
+}
 return
 observesScript
 (
