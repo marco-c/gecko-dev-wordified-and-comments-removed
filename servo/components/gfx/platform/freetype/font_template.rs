@@ -14,7 +14,10 @@ std
 io
 :
 :
+{
 Read
+Error
+}
 ;
 use
 string_cache
@@ -75,7 +78,11 @@ u8
 )
 -
 >
+Result
+<
 FontTemplateData
+Error
+>
 {
 let
 bytes
@@ -100,6 +107,9 @@ let
 mut
 file
 =
+try
+!
+(
 File
 :
 :
@@ -109,9 +119,6 @@ open
 *
 identifier
 )
-.
-unwrap
-(
 )
 ;
 let
@@ -140,6 +147,8 @@ buffer
 }
 }
 ;
+Ok
+(
 FontTemplateData
 {
 bytes
@@ -149,6 +158,7 @@ identifier
 :
 identifier
 }
+)
 }
 pub
 fn

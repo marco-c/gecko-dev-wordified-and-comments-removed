@@ -91,7 +91,12 @@ std
 io
 :
 :
+{
 Read
+Error
+as
+IoError
+}
 ;
 use
 std
@@ -190,8 +195,14 @@ u8
 )
 -
 >
+Result
+<
 FontTemplateData
+IoError
+>
 {
+Ok
+(
 FontTemplateData
 {
 ctfont
@@ -222,6 +233,7 @@ font_data
 :
 font_data
 }
+)
 }
 pub
 fn

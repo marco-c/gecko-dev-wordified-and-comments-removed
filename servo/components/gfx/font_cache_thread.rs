@@ -495,8 +495,12 @@ return
 ;
 }
 }
+if
 let
+Ok
+(
 template
+)
 =
 FontTemplate
 :
@@ -506,7 +510,7 @@ new
 identifier
 maybe_data
 )
-;
+{
 self
 .
 templates
@@ -516,6 +520,7 @@ push
 template
 )
 ;
+}
 }
 }
 #
