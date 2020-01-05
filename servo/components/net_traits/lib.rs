@@ -1644,6 +1644,12 @@ ResourceTask
 url
 :
 Url
+pipeline_id
+:
+Option
+<
+PipelineId
+>
 )
 -
 >
@@ -1691,7 +1697,7 @@ LoadData
 new
 (
 url
-None
+pipeline_id
 )
 LoadConsumer
 :

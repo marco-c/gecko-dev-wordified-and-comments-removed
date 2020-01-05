@@ -2307,6 +2307,7 @@ load_whole_resource
 &
 resource_task
 url
+None
 )
 {
 Err

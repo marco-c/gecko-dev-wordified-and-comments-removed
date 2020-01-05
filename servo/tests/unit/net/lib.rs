@@ -22,6 +22,10 @@ ipc_channel
 ;
 extern
 crate
+msg
+;
+extern
+crate
 net
 ;
 extern

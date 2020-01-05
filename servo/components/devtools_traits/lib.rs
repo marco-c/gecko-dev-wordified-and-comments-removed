@@ -1000,6 +1000,10 @@ Vec
 u8
 >
 >
+pub
+pipeline_id
+:
+PipelineId
 }
 #
 [
@@ -1037,6 +1041,10 @@ Vec
 u8
 >
 >
+pub
+pipeline_id
+:
+PipelineId
 }
 pub
 enum
