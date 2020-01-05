@@ -120,7 +120,7 @@ dom
 bindings
 :
 :
-utils
+error
 :
 :
 {

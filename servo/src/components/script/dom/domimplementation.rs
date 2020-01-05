@@ -60,7 +60,7 @@ dom
 bindings
 :
 :
-utils
+error
 :
 :
 {

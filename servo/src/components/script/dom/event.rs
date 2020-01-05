@@ -45,7 +45,7 @@ dom
 bindings
 :
 :
-utils
+error
 :
 :
 {

@@ -33,7 +33,7 @@ dom
 bindings
 :
 :
-utils
+error
 :
 :
 Fallible

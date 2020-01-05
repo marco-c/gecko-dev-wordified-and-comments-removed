@@ -32,7 +32,7 @@ dom
 bindings
 :
 :
-utils
+error
 :
 :
 {

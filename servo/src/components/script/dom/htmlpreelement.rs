@@ -44,12 +44,10 @@ dom
 bindings
 :
 :
-utils
+error
 :
 :
-{
 ErrorResult
-}
 ;
 use
 dom
