@@ -155,6 +155,11 @@ LEFT_PANE_QUERY_ANNO
 )
 ;
 }
+const
+BOOKMARK_VALIDATOR_VERSION
+=
+1
+;
 class
 BookmarkProblemData
 {
@@ -3891,6 +3896,11 @@ start
 return
 {
 duration
+version
+:
+self
+.
+version
 problems
 :
 result
@@ -3906,4 +3916,12 @@ serverRecordCount
 ;
 }
 }
+;
+BookmarkValidator
+.
+prototype
+.
+version
+=
+BOOKMARK_VALIDATOR_VERSION
 ;

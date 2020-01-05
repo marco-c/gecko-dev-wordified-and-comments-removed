@@ -961,3 +961,11 @@ serverDeleted
 ;
 }
 }
+CollectionValidator
+.
+prototype
+.
+version
+=
+0
+;
