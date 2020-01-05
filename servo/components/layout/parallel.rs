@@ -589,11 +589,7 @@ child_count
 =
 node
 .
-children
-(
-)
-.
-count
+children_count
 (
 )
 ;
