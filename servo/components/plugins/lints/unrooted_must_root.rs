@@ -40,9 +40,6 @@ use
 rustc
 :
 :
-middle
-:
-:
 ty
 ;
 use
@@ -855,6 +852,7 @@ _
 _
 _
 _
+_
 )
 |
 visit
@@ -866,6 +864,7 @@ FnKind
 Method
 (
 n
+_
 _
 _
 )
@@ -904,6 +903,9 @@ FnKind
 :
 :
 Closure
+(
+_
+)
 =
 >
 return
@@ -1480,9 +1482,7 @@ NodeId
 )
 {
 if
-kind
-=
-=
+let
 visit
 :
 :
@@ -1490,6 +1490,11 @@ FnKind
 :
 :
 Closure
+(
+_
+)
+=
+kind
 {
 visit
 :
