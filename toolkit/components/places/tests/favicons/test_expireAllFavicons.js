@@ -66,7 +66,7 @@ TRANSITION_TYPED
 )
 ;
 yield
-promiseSetIconForPage
+setFaviconForPage
 (
 TEST_PAGE_URI
 SMALLPNG_DATA_URI
@@ -100,7 +100,7 @@ bookmark
 )
 ;
 yield
-promiseSetIconForPage
+setFaviconForPage
 (
 BOOKMARKED_PAGE_URI
 SMALLPNG_DATA_URI

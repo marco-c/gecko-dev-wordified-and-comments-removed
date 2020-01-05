@@ -5095,6 +5095,8 @@ const
 nsACString
 &
 aMimeType
+uint16_t
+aWidth
 )
 {
 if
@@ -7006,6 +7008,7 @@ GetFaviconDataForPage
 (
 aFaviconPageURI
 callback
+0
 )
 ;
 #

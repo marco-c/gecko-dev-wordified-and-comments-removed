@@ -63,6 +63,7 @@ aURI
 aDataLen
 aData
 aMimeType
+aWidth
 )
 {
 equal
@@ -106,6 +107,11 @@ setFavicon
 aMimeType
 check
 "
+)
+;
+dump
+(
+aWidth
 )
 ;
 resolve
