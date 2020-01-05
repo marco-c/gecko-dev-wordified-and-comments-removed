@@ -1212,10 +1212,7 @@ install
 update
 "
 "
-chrome_update
-"
-"
-shared_module_update
+browser_update
 "
 ]
 "
@@ -3968,11 +3965,6 @@ name
 onInstalled
 "
 "
-unsupported
-"
-:
-true
-"
 type
 "
 :
@@ -4083,6 +4075,11 @@ optional
 :
 true
 "
+unsupported
+"
+:
+true
+"
 description
 "
 :
@@ -4129,6 +4126,11 @@ string
 "
 "
 optional
+"
+:
+true
+"
+unsupported
 "
 :
 true

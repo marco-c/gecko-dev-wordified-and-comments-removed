@@ -308,6 +308,11 @@ getPlatformInfo
 "
 runtime
 .
+onInstalled
+"
+"
+runtime
+.
 onUpdateAvailable
 "
 "
