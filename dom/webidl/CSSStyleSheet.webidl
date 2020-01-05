@@ -148,6 +148,7 @@ ownerRule
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 readonly
 attribute
@@ -169,6 +170,7 @@ parsingMode
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 unsigned
 long
@@ -183,6 +185,7 @@ index
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 deleteRule
