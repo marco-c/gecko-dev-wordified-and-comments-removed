@@ -427,11 +427,11 @@ open_file_dialog
 (
 &
 self
-path
+_path
 :
 &
 str
-filter
+_filter
 :
 Option
 <
@@ -482,11 +482,11 @@ open_file_dialog_multi
 (
 &
 self
-path
+_path
 :
 &
 str
-filter
+_filter
 :
 Option
 <
