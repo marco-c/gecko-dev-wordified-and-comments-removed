@@ -25504,11 +25504,10 @@ audio
 )
 ;
 for
-each
 (
 let
 audio
-in
+of
 audioElements
 )
 {
@@ -25551,11 +25550,10 @@ video
 )
 ;
 for
-each
 (
 let
 video
-in
+of
 videoElements
 )
 {
