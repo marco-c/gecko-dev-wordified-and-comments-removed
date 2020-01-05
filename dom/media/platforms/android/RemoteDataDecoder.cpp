@@ -751,6 +751,8 @@ BUFFER_FLAG_END_OF_STREAM
 ;
 int64_t
 durationUs
+=
+0
 ;
 if
 (
