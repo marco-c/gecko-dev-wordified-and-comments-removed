@@ -331,7 +331,11 @@ as_slice
 (
 )
 .
-rev_iter
+iter
+(
+)
+.
+rev
 (
 )
 {
