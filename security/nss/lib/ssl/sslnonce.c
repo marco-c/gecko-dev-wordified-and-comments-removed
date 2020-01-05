@@ -1899,6 +1899,14 @@ ssl_Time
 void
 )
 {
+#
+ifdef
+UNSAFE_FUZZER_MODE
+return
+1234
+;
+#
+endif
 PRUint32
 myTime
 ;

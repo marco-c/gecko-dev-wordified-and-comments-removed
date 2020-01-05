@@ -84,6 +84,8 @@ else
 :
         
 raise
+Exception
+(
 '
 Specify
 either
@@ -100,6 +102,7 @@ second
 argument
 .
 '
+)
     
 try
 :

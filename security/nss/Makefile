@@ -1680,7 +1680,7 @@ OBJDIR_NAME
 )
 endif
 ifndef
-NSS_GYP
+NSS_GYP_PREFIX
 (
 NSPR_CONFIG_STATUS
 )
@@ -1817,7 +1817,7 @@ prefix
 =
 '
 (
-NSPR_PREFIX
+NSS_GYP_PREFIX
 )
 '
 endif

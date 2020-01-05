@@ -169,6 +169,11 @@ ssl_extension_unittest
 cc
 '
 '
+ssl_fuzz_unittest
+.
+cc
+'
+'
 ssl_gtest
 .
 cc
