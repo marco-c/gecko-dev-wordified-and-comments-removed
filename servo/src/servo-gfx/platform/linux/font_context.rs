@@ -234,6 +234,8 @@ do
 path_from_identifier
 (
 name
+&
+style
 )
 .
 chain

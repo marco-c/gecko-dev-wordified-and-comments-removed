@@ -147,7 +147,7 @@ other
 }
 }
 impl
-Div
+Quot
 <
 Au
 Au
@@ -156,7 +156,7 @@ for
 Au
 {
 fn
-div
+quot
 (
 &
 self
@@ -182,7 +182,7 @@ other
 }
 }
 impl
-Modulo
+Rem
 <
 Au
 Au
@@ -191,7 +191,7 @@ for
 Au
 {
 fn
-modulo
+rem
 (
 &
 self
