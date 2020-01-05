@@ -161,10 +161,6 @@ mStartIdx
 uint32_t
 mStateFlagsCopy
 ;
-EventTree
-*
-mEventTree
-;
 bool
 mQueueEvents
 ;
