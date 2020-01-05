@@ -369,3 +369,7 @@ HTMLElement
 implements
 GlobalEventHandlers
 ;
+HTMLElement
+implements
+ElementCSSInlineStyle
+;
