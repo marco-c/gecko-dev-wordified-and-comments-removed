@@ -1,5 +1,5 @@
 use
-css
+newcss
 :
 :
 values
@@ -10,7 +10,7 @@ values
 use
 css
 =
-css
+newcss
 :
 :
 values
@@ -54,6 +54,9 @@ parser_util
 *
 ;
 use
+newcss
+:
+:
 color
 :
 :

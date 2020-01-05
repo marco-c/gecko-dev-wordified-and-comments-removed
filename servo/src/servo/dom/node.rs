@@ -8,7 +8,7 @@ styles
 SpecifiedStyle
 ;
 use
-css
+newcss
 :
 :
 values
