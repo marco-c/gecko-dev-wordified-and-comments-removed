@@ -44649,11 +44649,7 @@ nsCSSShadowArray
 pub
 mRefCnt
 :
-nsAutoRefCnt
-pub
-_mOwningThread
-:
-nsAutoOwningThread
+ThreadSafeAutoRefCnt
 pub
 mLength
 :
@@ -44695,7 +44691,7 @@ nsCSSShadowArray
 >
 (
 )
-48usize
+40usize
 )
 ;
 assert_eq
