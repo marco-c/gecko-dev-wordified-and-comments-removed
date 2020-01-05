@@ -183,6 +183,17 @@ ObjectValue
 UndefinedValue
 }
 ;
+#
+[
+cfg
+(
+target_os
+=
+"
+linux
+"
+)
+]
 use
 servo_config
 :
