@@ -20230,6 +20230,16 @@ aConfig
 ScopedLogging
 log
 ;
+mozilla
+:
+:
+LogModule
+:
+:
+Init
+(
+)
+;
 XRE_CreateStatsObject
 (
 )
