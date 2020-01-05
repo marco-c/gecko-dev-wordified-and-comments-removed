@@ -5408,6 +5408,16 @@ trynotes
 uint32_t
 i
 ;
+size_t
+mainOffset
+=
+script
+-
+>
+mainOffset
+(
+)
+;
 for
 (
 i
@@ -5450,6 +5460,8 @@ JSTRY_CATCH
 note
 .
 start
++
+mainOffset
 =
 =
 loc
