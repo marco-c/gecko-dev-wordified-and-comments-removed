@@ -80,14 +80,14 @@ RestyleDamage
 impl
 <
 '
-self
+ln
 >
 StyledNode
 for
 LayoutNode
 <
 '
-self
+ln
 >
 {
 #

@@ -568,7 +568,7 @@ d
 .
 str_url
 .
-iter
+chars
 (
 )
 .

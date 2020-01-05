@@ -3427,8 +3427,6 @@ RUST_CONFIGURE_ARGS
 -
 -
 target
--
-triples
 =
 arm
 -

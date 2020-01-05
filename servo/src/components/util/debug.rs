@@ -2,16 +2,10 @@ use
 std
 :
 :
-rt
-:
-:
 io
 ;
 use
 std
-:
-:
-rt
 :
 :
 io

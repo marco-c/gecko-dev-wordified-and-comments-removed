@@ -171,10 +171,6 @@ clone
 )
 }
 }
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 get_available_families
@@ -269,7 +265,6 @@ c_int
 =
 0
 ;
-do
 "
 family
 "
@@ -279,6 +274,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_FAMILY
 |
@@ -358,16 +354,14 @@ v
 ;
 }
 }
+)
+;
 }
 }
 return
 family_map
 ;
 }
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 load_variations_for_family
@@ -443,7 +437,6 @@ is_not_null
 )
 )
 ;
-do
 "
 family
 "
@@ -453,11 +446,11 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_FAMILY
 |
 {
-do
 family
 .
 family_name
@@ -467,6 +460,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 family_name
 |
@@ -494,7 +488,11 @@ ok
 )
 ;
 }
+)
+;
 }
+)
+;
 let
 object_set
 =
@@ -512,7 +510,6 @@ is_not_null
 )
 )
 ;
-do
 "
 file
 "
@@ -522,6 +519,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_FILE
 |
@@ -533,7 +531,8 @@ FC_FILE
 )
 ;
 }
-do
+)
+;
 "
 index
 "
@@ -543,6 +542,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_INDEX
 |
@@ -554,6 +554,8 @@ FC_INDEX
 )
 ;
 }
+)
+;
 let
 matches
 =
@@ -617,7 +619,6 @@ i
 let
 file
 =
-do
 "
 file
 "
@@ -627,6 +628,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_FILE
 |
@@ -684,11 +686,11 @@ fail
 ;
 }
 }
+)
 ;
 let
 index
 =
-do
 "
 index
 "
@@ -698,6 +700,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_INDEX
 |
@@ -737,6 +740,7 @@ fail
 ;
 }
 }
+)
 ;
 debug
 !
@@ -883,10 +887,6 @@ Drop
 for
 AutoPattern
 {
-#
-[
-fixed_stack_segment
-]
 fn
 drop
 (
@@ -907,10 +907,6 @@ pattern
 }
 }
 }
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 path_from_identifier
@@ -965,7 +961,6 @@ pattern
 let
 res
 =
-do
 "
 family
 "
@@ -975,11 +970,11 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_FAMILY
 |
 {
-do
 name
 .
 to_c_str
@@ -987,6 +982,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 family
 |
@@ -1001,7 +997,9 @@ as
 FcChar8
 )
 }
+)
 }
+)
 ;
 if
 res
@@ -1052,7 +1050,6 @@ italic
 let
 res
 =
-do
 "
 slant
 "
@@ -1062,6 +1059,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_SLANT
 |
@@ -1073,6 +1071,7 @@ FC_SLANT
 FC_SLANT_ITALIC
 )
 }
+)
 ;
 if
 res
@@ -1111,7 +1110,6 @@ oblique
 let
 res
 =
-do
 "
 slant
 "
@@ -1121,6 +1119,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_SLANT
 |
@@ -1132,6 +1131,7 @@ FC_SLANT
 FC_SLANT_OBLIQUE
 )
 }
+)
 ;
 if
 res
@@ -1176,7 +1176,6 @@ is_bold
 let
 res
 =
-do
 "
 weight
 "
@@ -1186,6 +1185,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_WEIGHT
 |
@@ -1197,6 +1197,7 @@ FC_WEIGHT
 FC_WEIGHT_BOLD
 )
 }
+)
 ;
 if
 res
@@ -1335,7 +1336,6 @@ null
 let
 res
 =
-do
 "
 file
 "
@@ -1345,6 +1345,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 FC_FILE
 |
@@ -1358,6 +1359,7 @@ FC_FILE
 file
 )
 }
+)
 ;
 if
 res

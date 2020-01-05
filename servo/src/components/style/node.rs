@@ -71,6 +71,8 @@ bool
 fn
 with_element
 <
+'
+a
 R
 >
 (
@@ -78,12 +80,10 @@ R
 self
 f
 :
-&
-fn
-(
+|
 &
 E
-)
+|
 -
 >
 R

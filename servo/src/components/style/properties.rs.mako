@@ -463,7 +463,7 @@ input
 {
 Some
 (
-Left
+Some
 (
 keyword
 )
@@ -479,10 +479,7 @@ keyword
 )
 Some
 (
-Right
-(
-Unset
-)
+None
 )
 =
 >
@@ -826,13 +823,13 @@ Option
 SpecifiedValue
 >
 {
-do
 get_ident_lower
 (
 v
 )
 .
 and_then
+(
 |
 keyword
 |
@@ -878,6 +875,7 @@ _
 None
 }
 }
+)
 }
 <
 /
@@ -4785,7 +4783,6 @@ Option
 SpecifiedValue
 >
 {
-do
 specified
 :
 :
@@ -4798,6 +4795,7 @@ input
 )
 .
 map
+(
 |
 value
 |
@@ -4833,6 +4831,7 @@ value
 )
 }
 }
+)
 }
 <
 /
@@ -5731,7 +5730,6 @@ background
 color
 "
 >
-do
 one_component_value
 (
 input
@@ -5749,6 +5747,7 @@ parse
 )
 .
 map
+(
 |
 color
 |
@@ -5763,6 +5762,7 @@ color
 )
 }
 }
+)
 <
 /
 %
@@ -6178,13 +6178,13 @@ width
 }
 "
 >
-do
 parse_border
 (
 input
 )
 .
 map
+(
 |
 (
 color
@@ -6233,6 +6233,7 @@ prop
 endfor
 }
 }
+)
 <
 /
 %
@@ -6310,13 +6311,13 @@ width
 }
 "
 >
-do
 parse_border
 (
 input
 )
 .
 map
+(
 |
 (
 color
@@ -6386,6 +6387,7 @@ endfor
 endfor
 }
 }
+)
 <
 /
 %
@@ -7212,9 +7214,6 @@ CSSWideKeyword
 Initial
 Inherit
 }
-struct
-Unset
-;
 impl
 CSSWideKeyword
 {
@@ -7233,14 +7232,12 @@ ComponentValue
 >
 Option
 <
-Either
+Option
 <
 CSSWideKeyword
-Unset
 >
 >
 {
-do
 one_component_value
 (
 input
@@ -7252,6 +7249,7 @@ get_ident_lower
 )
 .
 and_then
+(
 |
 keyword
 |
@@ -7270,7 +7268,7 @@ initial
 >
 Some
 (
-Left
+Some
 (
 Initial
 )
@@ -7282,7 +7280,7 @@ inherit
 >
 Some
 (
-Left
+Some
 (
 Inherit
 )
@@ -7294,10 +7292,7 @@ unset
 >
 Some
 (
-Right
-(
-Unset
-)
+None
 )
 _
 =
@@ -7305,6 +7300,7 @@ _
 None
 }
 }
+)
 }
 }
 #
@@ -7522,7 +7518,7 @@ value
 {
 Some
 (
-Left
+Some
 (
 keyword
 )
@@ -7561,10 +7557,7 @@ endfor
 }
 Some
 (
-Right
-(
-Unset
-)
+None
 )
 =
 >

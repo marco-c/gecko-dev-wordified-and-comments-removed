@@ -416,7 +416,6 @@ to_str
 )
 )
 ;
-do
 self
 .
 get_image
@@ -424,6 +423,7 @@ get_image
 )
 .
 map
+(
 |
 img
 |
@@ -463,6 +463,7 @@ clone
 (
 )
 }
+)
 }
 pub
 fn

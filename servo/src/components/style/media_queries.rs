@@ -633,7 +633,6 @@ Device
 >
 bool
 {
-do
 self
 .
 media_queries
@@ -643,6 +642,7 @@ iter
 )
 .
 any
+(
 |
 mq
 |
@@ -670,5 +670,6 @@ All
 true
 }
 }
+)
 }
 }

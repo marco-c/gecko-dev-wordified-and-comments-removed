@@ -292,10 +292,6 @@ desc
 )
 }
 }
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 defineProperty_
@@ -460,10 +456,6 @@ id
 desc
 )
 }
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 _obj_toString
@@ -603,7 +595,7 @@ c
 in
 result
 .
-iter
+chars
 (
 )
 .
@@ -682,10 +674,6 @@ chars
 jsstr
 }
 }
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 GetExpandoObject
@@ -745,10 +733,6 @@ val
 }
 }
 }
-#
-[
-fixed_stack_segment
-]
 pub
 fn
 EnsureExpandoObject

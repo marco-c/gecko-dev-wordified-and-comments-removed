@@ -7938,6 +7938,10 @@ from_utf8
 (
 data
 )
+.
+to_owned
+(
+)
 "
 %
                  
@@ -16550,6 +16554,7 @@ unused_variable
 unused_unsafe
 unused_mut
 dead_assignment
+dead_code
 )
 ]
 ;
@@ -19390,7 +19395,20 @@ self
 alwaysInline
 :
             
-pass
+decorators
+.
+append
+(
+'
+#
+[
+inline
+(
+always
+)
+]
+'
+)
         
 elif
 self
@@ -19422,17 +19440,7 @@ self
 extern
 :
             
-decorators
-.
-append
-(
-'
-#
-[
-fixed_stack_segment
-]
-'
-)
+pass
         
 if
 self
@@ -28309,6 +28317,14 @@ return
 "
 "
   
+#
+[
+repr
+(
+uint
+)
+]
+  
 pub
 enum
 valuelist
@@ -28711,12 +28727,6 @@ declaring
 decorators
 =
 [
-'
-#
-[
-fixed_stack_segment
-]
-'
 ]
         
 if
@@ -33389,7 +33399,7 @@ obj
 ;
   
 let
-box
+box_
 :
 *
 Box
@@ -33422,7 +33432,7 @@ to_unsafe_ptr
 &
 (
 *
-box
+box_
 )
 .
 data
@@ -36498,7 +36508,6 @@ return
 "
 "
 "
-do
 "
 %
 s
@@ -36509,6 +36518,7 @@ to_c_str
 )
 .
 with_ref
+(
 |
 s
 |
@@ -36521,6 +36531,7 @@ s
 )
     
 }
+)
 "
 "
 "
@@ -39877,16 +39888,6 @@ else
 "
 "
 )
-+
-            
-"
-#
-[
-fixed_stack_segment
-]
-\
-n
-"
 +
             
 "

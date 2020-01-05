@@ -891,7 +891,6 @@ period
 let
 profiler_period
 =
-do
 opt_match
 .
 opt_default
@@ -905,6 +904,7 @@ p
 )
 .
 map
+(
 |
 period
 |
@@ -918,6 +918,7 @@ unwrap
 (
 )
 }
+)
 ;
 let
 cpu_painting

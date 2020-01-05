@@ -115,7 +115,7 @@ struct
 SliceIterator
 <
 '
-self
+a
 >
 {
 priv
@@ -124,7 +124,7 @@ glyph_iter
 VecIterator
 <
 '
-self
+a
 Arc
 <
 GlyphStore
@@ -142,14 +142,14 @@ uint
 impl
 <
 '
-self
+a
 >
 Iterator
 <
 (
 &
 '
-self
+a
 GlyphStore
 uint
 Range
@@ -159,7 +159,7 @@ for
 SliceIterator
 <
 '
-self
+a
 >
 {
 /
@@ -202,7 +202,7 @@ Option
 (
 &
 '
-self
+a
 GlyphStore
 uint
 Range
@@ -342,7 +342,7 @@ struct
 LineIterator
 <
 '
-self
+a
 >
 {
 priv
@@ -362,13 +362,13 @@ slices
 SliceIterator
 <
 '
-self
+a
 >
 }
 impl
 <
 '
-self
+a
 >
 Iterator
 <
@@ -378,7 +378,7 @@ for
 LineIterator
 <
 '
-self
+a
 >
 {
 fn
@@ -629,7 +629,7 @@ None
 impl
 <
 '
-self
+a
 >
 TextRun
 {
@@ -1122,7 +1122,6 @@ self
 >
 uint
 {
-do
 self
 .
 glyphs
@@ -1138,7 +1137,6 @@ iter
 fold
 (
 0u
-)
 |
 len
 slice_glyphs
@@ -1156,6 +1154,7 @@ char_len
 (
 )
 }
+)
 }
 pub
 fn
@@ -1163,14 +1162,14 @@ glyphs
 (
 &
 '
-self
+a
 self
 )
 -
 >
 &
 '
-self
+a
 ~
 [
 Arc
@@ -1526,7 +1525,7 @@ iter_slices_for_range
 (
 &
 '
-self
+a
 self
 range
 :
@@ -1538,7 +1537,7 @@ Range
 SliceIterator
 <
 '
-self
+a
 >
 {
 SliceIterator
@@ -1571,7 +1570,7 @@ iter_natural_lines_for_range
 (
 &
 '
-self
+a
 self
 range
 :
@@ -1583,7 +1582,7 @@ Range
 LineIterator
 <
 '
-self
+a
 >
 {
 LineIterator

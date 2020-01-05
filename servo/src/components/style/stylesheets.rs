@@ -847,12 +847,10 @@ media_queries
 Device
 callback
 :
-&
-fn
-(
+|
 &
 StyleRule
-)
+|
 )
 {
 for
