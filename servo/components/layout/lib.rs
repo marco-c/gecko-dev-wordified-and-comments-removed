@@ -35,14 +35,6 @@ core
 [
 feature
 (
-hash
-)
-]
-#
-!
-[
-feature
-(
 int_uint
 )
 ]
@@ -51,7 +43,7 @@ int_uint
 [
 feature
 (
-io
+old_io
 )
 ]
 #
@@ -59,7 +51,7 @@ io
 [
 feature
 (
-path
+old_path
 )
 ]
 #
