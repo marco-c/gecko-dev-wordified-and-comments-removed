@@ -157,6 +157,8 @@ const
 nsACString
 &
 aFeatures
+bool
+aForceNoOpener
 mozIDOMWindowProxy
 *
 *

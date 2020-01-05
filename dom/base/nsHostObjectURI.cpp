@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsHostObjectProtocolHandler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
