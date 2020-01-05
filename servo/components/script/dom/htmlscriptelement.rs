@@ -3847,10 +3847,13 @@ is_js
 }
 pub
 fn
-mark_already_started
+set_already_started
 (
 &
 self
+already_started
+:
+bool
 )
 {
 self
@@ -3859,7 +3862,7 @@ already_started
 .
 set
 (
-true
+already_started
 )
 ;
 }
@@ -4278,8 +4281,9 @@ unwrap
 (
 )
 .
-mark_already_started
+set_already_started
 (
+true
 )
 ;
 }

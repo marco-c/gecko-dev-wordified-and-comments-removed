@@ -484,14 +484,10 @@ partial
 interface
 Range
 {
-/
-/
 [
 NewObject
 Throws
 ]
-/
-/
 DocumentFragment
 createContextualFragment
 (
@@ -501,8 +497,6 @@ fragment
 ;
 }
 ;
-/
-/
 /
 /
 http
