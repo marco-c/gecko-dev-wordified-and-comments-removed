@@ -464,6 +464,19 @@ url
 )
 ;
 let
+quirks_mode
+=
+win
+.
+Document
+(
+)
+.
+quirks_mode
+(
+)
+;
+let
 context
 =
 ParserContext
@@ -489,6 +502,7 @@ LengthParsingMode
 :
 :
 Default
+quirks_mode
 )
 ;
 let

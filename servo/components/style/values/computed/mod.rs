@@ -1,4 +1,10 @@
 use
+context
+:
+:
+QuirksMode
+;
+use
 euclid
 :
 :
@@ -314,6 +320,10 @@ pub
 in_media_query
 :
 bool
+pub
+quirks_mode
+:
+QuirksMode
 }
 impl
 <

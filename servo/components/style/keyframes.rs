@@ -815,6 +815,9 @@ LengthParsingMode
 :
 :
 Default
+parent_stylesheet
+.
+quirks_mode
 )
 ;
 let

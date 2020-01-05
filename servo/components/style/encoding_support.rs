@@ -3,6 +3,12 @@ crate
 encoding
 ;
 use
+context
+:
+:
+QuirksMode
+;
+use
 cssparser
 :
 :
@@ -309,6 +315,9 @@ error_reporter
 :
 &
 ParseErrorReporter
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -351,6 +360,7 @@ media
 shared_lock
 stylesheet_loader
 error_reporter
+quirks_mode
 0u64
 )
 }

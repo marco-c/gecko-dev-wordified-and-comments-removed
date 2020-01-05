@@ -7,6 +7,12 @@ missing_docs
 )
 ]
 use
+context
+:
+:
+QuirksMode
+;
+use
 cssparser
 :
 :
@@ -120,6 +126,10 @@ pub
 length_parsing_mode
 :
 LengthParsingMode
+pub
+quirks_mode
+:
+QuirksMode
 }
 impl
 <
@@ -160,6 +170,9 @@ CssRuleType
 length_parsing_mode
 :
 LengthParsingMode
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -189,6 +202,9 @@ line_number_offset
 length_parsing_mode
 :
 length_parsing_mode
+quirks_mode
+:
+quirks_mode
 }
 }
 pub
@@ -216,6 +232,9 @@ CssRuleType
 length_parsing_mode
 :
 LengthParsingMode
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -238,6 +257,7 @@ url_data
 error_reporter
 rule_type
 length_parsing_mode
+quirks_mode
 )
 }
 pub
@@ -295,6 +315,11 @@ length_parsing_mode
 context
 .
 length_parsing_mode
+quirks_mode
+:
+context
+.
+quirks_mode
 }
 }
 pub
@@ -322,6 +347,9 @@ u64
 length_parsing_mode
 :
 LengthParsingMode
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -351,6 +379,9 @@ line_number_offset
 length_parsing_mode
 :
 length_parsing_mode
+quirks_mode
+:
+quirks_mode
 }
 }
 pub

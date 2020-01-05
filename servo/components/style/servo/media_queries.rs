@@ -5,6 +5,12 @@ app_units
 Au
 ;
 use
+context
+:
+:
+QuirksMode
+;
+use
 cssparser
 :
 :
@@ -565,6 +571,9 @@ device
 :
 &
 Device
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -608,6 +617,7 @@ range
 to_computed_range
 (
 device
+quirks_mode
 )
 {
 Range
@@ -894,6 +904,9 @@ device
 :
 &
 Device
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -945,6 +958,9 @@ ServoMetricsProvider
 in_media_query
 :
 true
+quirks_mode
+:
+quirks_mode
 }
 ;
 match

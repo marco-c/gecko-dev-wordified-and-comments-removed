@@ -83,6 +83,15 @@ use
 style
 :
 :
+context
+:
+:
+QuirksMode
+;
+use
+style
+:
+:
 parser
 :
 :
@@ -260,6 +269,10 @@ LengthParsingMode
 :
 :
 Default
+QuirksMode
+:
+:
+NoQuirks
 )
 ;
 decl
@@ -357,6 +370,10 @@ LengthParsingMode
 :
 :
 Default
+QuirksMode
+:
+:
+NoQuirks
 )
 ;
 cond

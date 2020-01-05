@@ -939,6 +939,13 @@ new
 (
 false
 )
+quirks_mode
+:
+document
+.
+quirks_mode
+(
+)
 }
 )
 )

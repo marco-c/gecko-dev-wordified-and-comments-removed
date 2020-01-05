@@ -14,6 +14,12 @@ Namespace
 }
 ;
 use
+context
+:
+:
+QuirksMode
+;
+use
 counter_style
 :
 :
@@ -1204,6 +1210,10 @@ pub
 disabled
 :
 AtomicBool
+pub
+quirks_mode
+:
+QuirksMode
 }
 pub
 struct
@@ -2010,6 +2020,9 @@ LengthParsingMode
 :
 :
 Default
+parent_stylesheet
+.
+quirks_mode
 )
 ;
 let
@@ -3623,6 +3636,9 @@ existing
 shared_lock
 stylesheet_loader
 error_reporter
+existing
+.
+quirks_mode
 0u64
 )
 ;
@@ -3714,6 +3730,9 @@ error_reporter
 :
 &
 ParseErrorReporter
+quirks_mode
+:
+QuirksMode
 line_number_offset
 :
 u64
@@ -3783,6 +3802,7 @@ LengthParsingMode
 :
 :
 Default
+quirks_mode
 )
 state
 :
@@ -3954,6 +3974,9 @@ error_reporter
 :
 &
 ParseErrorReporter
+quirks_mode
+:
+QuirksMode
 line_number_offset
 :
 u64
@@ -3995,6 +4018,7 @@ namespaces
 shared_lock
 stylesheet_loader
 error_reporter
+quirks_mode
 line_number_offset
 )
 ;
@@ -4050,6 +4074,9 @@ new
 (
 false
 )
+quirks_mode
+:
+quirks_mode
 }
 }
 pub
@@ -4131,6 +4158,9 @@ guard
 evaluate
 (
 device
+self
+.
+quirks_mode
 )
 }
 #
@@ -4182,6 +4212,9 @@ guard
 .
 0
 device
+self
+.
+quirks_mode
 guard
 &
 mut
@@ -4259,6 +4292,9 @@ device
 :
 &
 Device
+quirks_mode
+:
+QuirksMode
 guard
 :
 &
@@ -4314,6 +4350,7 @@ media_queries
 evaluate
 (
 device
+quirks_mode
 )
 {
 return
@@ -4323,6 +4360,7 @@ effective_rules
 (
 rules
 device
+quirks_mode
 guard
 f
 )
@@ -5162,6 +5200,13 @@ new
 (
 false
 )
+quirks_mode
+:
+self
+.
+context
+.
+quirks_mode
 }
 )
 }

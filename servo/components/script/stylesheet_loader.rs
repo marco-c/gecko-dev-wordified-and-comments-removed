@@ -882,6 +882,11 @@ win
 css_error_reporter
 (
 )
+document
+.
+quirks_mode
+(
+)
 )
 )
 ;

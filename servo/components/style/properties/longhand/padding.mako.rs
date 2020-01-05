@@ -187,6 +187,13 @@ side
 spec
 =
 spec
+allow_quirks
+=
+not
+side
+[
+1
+]
 )
 }
 %

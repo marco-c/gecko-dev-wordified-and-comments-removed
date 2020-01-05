@@ -137,7 +137,10 @@ style
 context
 :
 :
+{
+QuirksMode
 ReflowGoal
+}
 ;
 use
 style
@@ -178,6 +181,9 @@ Stylesheet
 >
 )
 SetQuirksMode
+(
+QuirksMode
+)
 Reflow
 (
 ScriptReflow

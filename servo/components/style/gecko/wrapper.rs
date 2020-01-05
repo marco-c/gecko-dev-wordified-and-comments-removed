@@ -23,6 +23,7 @@ context
 :
 :
 {
+QuirksMode
 SharedStyleContext
 UpdateAnimationsTasks
 }
@@ -2042,6 +2043,10 @@ value
 url_data
 &
 RustLogReporter
+QuirksMode
+:
+:
+NoQuirks
 )
 }
 fn

@@ -3844,6 +3844,13 @@ result
 =
 None
 ;
+let
+quirks_mode
+=
+context
+.
+quirks_mode
+;
 :
 :
 properties
@@ -3960,6 +3967,7 @@ initial
 }
 &
 reporter
+quirks_mode
 )
 ;
 result

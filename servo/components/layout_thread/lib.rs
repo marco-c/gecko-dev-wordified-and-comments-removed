@@ -3301,6 +3301,9 @@ Msg
 :
 :
 SetQuirksMode
+(
+mode
+)
 =
 >
 self
@@ -3308,6 +3311,7 @@ self
 handle_set_quirks_mode
 (
 possibly_locked_rw_data
+mode
 )
 Msg
 :
@@ -4444,6 +4448,9 @@ a
 '
 b
 >
+quirks_mode
+:
+QuirksMode
 )
 {
 let
@@ -4474,7 +4481,7 @@ unwrap
 .
 set_quirks_mode
 (
-true
+quirks_mode
 )
 ;
 possibly_locked_rw_data
@@ -10426,6 +10433,10 @@ clone
 None
 &
 NullReporter
+QuirksMode
+:
+:
+NoQuirks
 )
 )
 }
@@ -10575,6 +10586,10 @@ clone
 None
 &
 RustLogReporter
+QuirksMode
+:
+:
+NoQuirks
 )
 )
 ;

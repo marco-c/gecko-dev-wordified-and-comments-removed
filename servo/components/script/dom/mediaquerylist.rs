@@ -549,6 +549,13 @@ evaluate
 (
 &
 device
+self
+.
+document
+.
+quirks_mode
+(
+)
 )
 }
 else

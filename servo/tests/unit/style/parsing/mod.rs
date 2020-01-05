@@ -14,6 +14,15 @@ use
 style
 :
 :
+context
+:
+:
+QuirksMode
+;
+use
+style
+:
+:
 parser
 :
 :
@@ -133,6 +142,10 @@ LengthParsingMode
 :
 :
 Default
+QuirksMode
+:
+:
+NoQuirks
 )
 ;
 let

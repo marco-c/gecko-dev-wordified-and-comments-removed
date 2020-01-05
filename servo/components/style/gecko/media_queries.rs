@@ -5,6 +5,12 @@ app_units
 Au
 ;
 use
+context
+:
+:
+QuirksMode
+;
+use
 cssparser
 :
 :
@@ -2952,6 +2958,9 @@ device
 :
 &
 Device
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -3029,6 +3038,7 @@ evaluate_against
 device
 &
 value
+quirks_mode
 )
 }
 fn
@@ -3044,6 +3054,9 @@ actual_value
 :
 &
 MediaExpressionValue
+quirks_mode
+:
+QuirksMode
 )
 -
 >
@@ -3149,6 +3162,9 @@ provider
 in_media_query
 :
 true
+quirks_mode
+:
+quirks_mode
 }
 ;
 let
