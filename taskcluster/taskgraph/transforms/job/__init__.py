@@ -339,6 +339,24 @@ type
 '
 ]
     
+Optional
+(
+'
+needs
+-
+sccache
+'
+)
+:
+task_description_schema
+[
+'
+needs
+-
+sccache
+'
+]
+    
 Required
 (
 '
