@@ -1233,6 +1233,7 @@ parent
 new
 WebRenderBridgeParent
 (
+root
 aPipelineId
 nullptr
 root
