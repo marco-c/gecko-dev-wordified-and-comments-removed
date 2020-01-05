@@ -82,6 +82,15 @@ uint64_t
 aID
 )
 ;
+virtual
+STDMETHODIMP
+get_minimumIncrement
+(
+double
+*
+aIncrement
+)
+;
 private
 :
 GeckoCustom
