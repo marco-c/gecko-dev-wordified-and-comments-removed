@@ -3167,3 +3167,13 @@ obsolete
 true
 )
 ;
+user_pref
+(
+"
+signon
+.
+rememberSignons
+"
+false
+)
+;
