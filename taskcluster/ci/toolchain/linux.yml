@@ -101,6 +101,11 @@ clang
 linux
 .
 sh
+tooltool
+-
+downloads
+:
+public
 worker
 -
 type
@@ -265,6 +270,11 @@ tidy
 linux
 .
 sh
+tooltool
+-
+downloads
+:
+public
 worker
 -
 type
