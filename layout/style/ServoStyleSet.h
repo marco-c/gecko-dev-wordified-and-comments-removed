@@ -159,15 +159,10 @@ static
 bool
 IsInServoTraversal
 (
-bool
-aAssertServoTraversalOrMainThread
-=
-true
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-aAssertServoTraversalOrMainThread
 sInServoTraversal
 |
 |
