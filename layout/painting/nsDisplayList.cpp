@@ -20775,6 +20775,10 @@ StyleBorder
 (
 )
 )
+.
+GetBounds
+(
+)
 ;
 }
 bool
@@ -21512,7 +21516,7 @@ return
 mBounds
 ;
 }
-nsRect
+nsRegion
 nsDisplayBorder
 :
 :
@@ -21573,7 +21577,7 @@ GetComputedBorder
 (
 )
 ;
-nsRect
+nsRegion
 result
 ;
 if
@@ -21621,9 +21625,8 @@ right
 {
 result
 .
-UnionRect
+OrWith
 (
-result
 nsRect
 (
 borderBounds
@@ -21663,9 +21666,8 @@ bottom
 {
 result
 .
-UnionRect
+OrWith
 (
-result
 nsRect
 (
 borderBounds
@@ -21705,9 +21707,8 @@ left
 {
 result
 .
-UnionRect
+OrWith
 (
-result
 nsRect
 (
 borderBounds
@@ -21780,9 +21781,8 @@ NS_CORNER_TOP_LEFT_Y
 ;
 result
 .
-UnionRect
+OrWith
 (
-result
 nsRect
 (
 borderBounds
@@ -21826,9 +21826,8 @@ NS_CORNER_TOP_RIGHT_Y
 ;
 result
 .
-UnionRect
+OrWith
 (
-result
 nsRect
 (
 borderBounds
@@ -21880,9 +21879,8 @@ NS_CORNER_BOTTOM_RIGHT_Y
 ;
 result
 .
-UnionRect
+OrWith
 (
-result
 nsRect
 (
 borderBounds
@@ -21936,9 +21934,8 @@ NS_CORNER_BOTTOM_LEFT_Y
 ;
 result
 .
-UnionRect
+OrWith
 (
-result
 nsRect
 (
 borderBounds
