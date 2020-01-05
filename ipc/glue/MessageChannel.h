@@ -451,6 +451,7 @@ abort
 void
 PeekMessages
 (
+const
 std
 :
 :
@@ -464,6 +465,7 @@ Message
 aMsg
 )
 >
+&
 aInvoke
 )
 ;

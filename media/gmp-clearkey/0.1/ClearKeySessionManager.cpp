@@ -364,7 +364,10 @@ if
 (
 MaybeDeferTillInitialized
 (
+move
+(
 deferrer
+)
 )
 )
 {
@@ -835,7 +838,10 @@ if
 (
 MaybeDeferTillInitialized
 (
+move
+(
 deferrer
+)
 )
 )
 {
@@ -1472,7 +1478,10 @@ if
 (
 MaybeDeferTillInitialized
 (
+move
+(
 deferrer
+)
 )
 )
 {
@@ -2261,7 +2270,10 @@ if
 (
 MaybeDeferTillInitialized
 (
+move
+(
 deferrer
+)
 )
 )
 {
@@ -2490,7 +2502,10 @@ if
 (
 MaybeDeferTillInitialized
 (
+move
+(
 deferrer
+)
 )
 )
 {
@@ -3046,6 +3061,8 @@ void
 (
 )
 >
+&
+&
 aMaybeDefer
 )
 {

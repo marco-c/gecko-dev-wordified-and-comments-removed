@@ -1549,6 +1549,7 @@ ImageBitmapFormat
 aDstFormat
 int
 aDstChannelCount
+const
 std
 :
 :
@@ -1567,6 +1568,7 @@ int
 int
 )
 >
+&
 converter
 )
 {
@@ -1769,6 +1771,7 @@ ImageBitmapFormat
 aDstFormat
 int
 aDstChannelCount
+const
 std
 :
 :
@@ -1795,6 +1798,7 @@ int
 int
 )
 >
+&
 converter
 )
 {
@@ -2032,6 +2036,7 @@ ImageBitmapFormat
 aDstFormat
 int
 aDstChannelCount
+const
 std
 :
 :
@@ -2054,6 +2059,7 @@ int
 int
 )
 >
+&
 converter
 )
 {
@@ -2275,6 +2281,7 @@ uint8_t
 aDstBuffer
 ImageBitmapFormat
 aDstFormat
+const
 std
 :
 :
@@ -2299,6 +2306,7 @@ int
 int
 )
 >
+&
 converter
 )
 {
@@ -2533,6 +2541,7 @@ uint8_t
 aDstBuffer
 ImageBitmapFormat
 aDstFormat
+const
 std
 :
 :
@@ -2554,6 +2563,7 @@ int
 int
 )
 >
+&
 converter
 )
 {

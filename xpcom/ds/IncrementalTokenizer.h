@@ -61,6 +61,8 @@ explicit
 IncrementalTokenizer
 (
 Consumer
+&
+&
 aConsumer
 const
 char

@@ -3378,7 +3378,9 @@ TableUpdate
 >
 *
 aUpdates
+const
 AsyncUpdateCallback
+&
 aCallback
 )
 {

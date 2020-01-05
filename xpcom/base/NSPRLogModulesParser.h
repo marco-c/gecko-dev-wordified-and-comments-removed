@@ -22,6 +22,7 @@ const
 char
 *
 aLogModules
+const
 std
 :
 :
@@ -36,6 +37,7 @@ LogLevel
 int32_t
 )
 >
+&
 aCallback
 )
 ;

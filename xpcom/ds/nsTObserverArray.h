@@ -619,6 +619,7 @@ true
 void
 RemoveElementsBy
 (
+const
 std
 :
 :
@@ -631,6 +632,7 @@ elem_type
 &
 )
 >
+&
 aPredicate
 )
 {

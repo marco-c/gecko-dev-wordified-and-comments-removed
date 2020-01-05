@@ -3816,6 +3816,7 @@ const
 MaskLayerKey
 &
 aKey
+const
 std
 :
 :
@@ -3828,6 +3829,7 @@ Layer
 aLayer
 )
 >
+&
 aSetUserData
 )
 ;
@@ -7500,6 +7502,7 @@ const
 MaskLayerKey
 &
 aKey
+const
 std
 :
 :
@@ -7512,6 +7515,7 @@ Layer
 aLayer
 )
 >
+&
 aSetUserData
 )
 {

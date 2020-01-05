@@ -3258,6 +3258,7 @@ RefreshAgents
 nsPIDOMWindowOuter
 *
 aWindow
+const
 std
 :
 :
@@ -3269,6 +3270,7 @@ AudioChannelAgent
 *
 )
 >
+&
 aFunc
 )
 {

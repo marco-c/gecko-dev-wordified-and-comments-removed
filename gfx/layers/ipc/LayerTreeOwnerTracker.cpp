@@ -259,6 +259,7 @@ LayerTreeOwnerTracker
 :
 Iterate
 (
+const
 std
 :
 :
@@ -275,6 +276,7 @@ ProcessId
 aProcessId
 )
 >
+&
 aCallback
 )
 {
