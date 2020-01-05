@@ -757,6 +757,7 @@ true
 {
 static
 bool
+constexpr
 run
 (
 U
@@ -787,6 +788,7 @@ false
 {
 static
 bool
+constexpr
 run
 (
 U
@@ -839,6 +841,7 @@ false
 {
 static
 bool
+constexpr
 run
 (
 U
@@ -879,6 +882,7 @@ false
 {
 static
 bool
+constexpr
 run
 (
 U
@@ -933,6 +937,7 @@ false
 {
 static
 bool
+constexpr
 run
 (
 U
@@ -987,6 +992,7 @@ typename
 U
 >
 inline
+constexpr
 bool
 IsInRange
 (
@@ -1899,6 +1905,7 @@ typename
 U
 >
 MOZ_IMPLICIT
+constexpr
 CheckedInt
 (
 U
@@ -2010,6 +2017,7 @@ return
 ret
 ;
 }
+constexpr
 CheckedInt
 (
 )
