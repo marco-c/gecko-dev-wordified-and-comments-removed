@@ -121,8 +121,6 @@ Worker
 interface
 AbstractWorker
 {
-/
-/
 attribute
 EventHandler
 onerror
