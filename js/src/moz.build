@@ -1533,13 +1533,6 @@ LifoAlloc
 cpp
 '
 '
-ds
-/
-MemoryProtectionExceptionHandler
-.
-cpp
-'
-'
 frontend
 /
 BytecodeCompiler
