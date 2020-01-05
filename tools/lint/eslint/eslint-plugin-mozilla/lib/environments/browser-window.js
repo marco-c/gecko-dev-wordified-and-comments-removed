@@ -131,6 +131,17 @@ editMenuOverlay
 .
 js
 "
+"
+browser
+/
+base
+/
+content
+/
+utilityOverlay
+.
+js
+"
 ]
 ;
 const
