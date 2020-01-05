@@ -1827,12 +1827,10 @@ WrAPI
 api
 WrImageKey
 key
-uint32_t
-width
-uint32_t
-height
-WrImageFormat
-format
+const
+WrImageDescriptor
+*
+descriptor
 uint64_t
 external_image_id
 )
