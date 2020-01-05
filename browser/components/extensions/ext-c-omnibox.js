@@ -86,7 +86,7 @@ context
 .
 childManager
 .
-callParentAsyncFunction
+callParentFunctionNoReturn
 (
 "
 omnibox_internal
