@@ -1457,15 +1457,9 @@ final
 GeckoPresentationDisplay
 display
 =
-displays
-.
-get
+getPresentationDisplayForRoute
 (
 route
-.
-getId
-(
-)
 )
 ;
 saveAndNotifyOfDisplay
