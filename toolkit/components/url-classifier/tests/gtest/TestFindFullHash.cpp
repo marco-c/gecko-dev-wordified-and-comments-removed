@@ -811,6 +811,8 @@ override
 VerifyDuration
 (
 aMinWaitDuration
+/
+1000
 EXPECTED_MIN_WAIT_DURATION
 )
 ;
@@ -948,13 +950,9 @@ ASSERT_TRUE
 aToVerify
 =
 =
-(
 aExpected
 .
 mSecs
-*
-1000
-)
 )
 ;
 }

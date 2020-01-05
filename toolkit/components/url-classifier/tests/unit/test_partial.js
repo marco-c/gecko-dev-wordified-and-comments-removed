@@ -195,7 +195,7 @@ i
 ;
 cb
 .
-completion
+completionV2
 (
 hash
 self
