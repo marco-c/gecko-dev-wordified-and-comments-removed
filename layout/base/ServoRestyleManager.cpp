@@ -560,6 +560,16 @@ aElement
 ;
 if
 (
+(
+primaryFrame
+|
+|
+changeHint
+&
+nsChangeHint_ReconstructFrame
+)
+&
+&
 changeHint
 )
 {
