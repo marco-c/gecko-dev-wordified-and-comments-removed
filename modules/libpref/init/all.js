@@ -10257,7 +10257,7 @@ false
 ;
 #
 ifdef
-NIGHTLY_BUILD
+RELEASE_BUILD
 pref
 (
 "
@@ -10267,7 +10267,7 @@ options
 .
 shared_memory
 "
-true
+false
 )
 ;
 #
@@ -10281,7 +10281,7 @@ options
 .
 shared_memory
 "
-false
+true
 )
 ;
 #
