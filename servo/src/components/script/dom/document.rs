@@ -1617,6 +1617,10 @@ to
 &
 node
 )
+.
+unwrap
+(
+)
 )
 }
 /
@@ -2627,6 +2631,10 @@ to
 &
 child
 )
+.
+unwrap
+(
+)
 ;
 title
 .
@@ -3091,6 +3099,10 @@ to
 &
 elem
 )
+.
+unwrap
+(
+)
 )
 }
 /
@@ -3205,6 +3217,10 @@ to
 (
 &
 node
+)
+.
+unwrap
+(
 )
 )
 }
@@ -3342,6 +3358,10 @@ to
 (
 &
 node
+)
+.
+unwrap
+(
 )
 )
 }
@@ -3728,6 +3748,10 @@ ElementCast
 to
 (
 node
+)
+.
+unwrap
+(
 )
 ;
 element

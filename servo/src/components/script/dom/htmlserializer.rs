@@ -297,6 +297,10 @@ to
 &
 node
 )
+.
+unwrap
+(
+)
 ;
 serialize_elem
 (
@@ -327,6 +331,10 @@ to
 &
 node
 )
+.
+unwrap
+(
+)
 ;
 serialize_comment
 (
@@ -353,6 +361,10 @@ to
 (
 &
 node
+)
+.
+unwrap
+(
 )
 ;
 serialize_text
@@ -381,6 +393,10 @@ to
 &
 node
 )
+.
+unwrap
+(
+)
 ;
 serialize_doctype
 (
@@ -407,6 +423,10 @@ to
 (
 &
 node
+)
+.
+unwrap
+(
 )
 ;
 serialize_processing_instruction
@@ -587,6 +607,10 @@ ElementCast
 to
 (
 parent
+)
+.
+unwrap
+(
 )
 ;
 match
@@ -941,6 +965,10 @@ CharacterDataCast
 to
 (
 child
+)
+.
+unwrap
+(
 )
 ;
 if

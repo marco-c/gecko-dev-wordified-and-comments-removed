@@ -1560,6 +1560,10 @@ to
 (
 abstract_self
 )
+.
+unwrap
+(
+)
 ;
 elem
 .
@@ -1605,6 +1609,10 @@ to
 (
 abstract_self
 )
+.
+unwrap
+(
+)
 ;
 elem
 .
@@ -1649,6 +1657,10 @@ HTMLObjectElementCast
 to
 (
 abstract_self
+)
+.
+unwrap
+(
 )
 ;
 elem
@@ -2036,6 +2048,10 @@ to
 (
 abstract_self
 )
+.
+unwrap
+(
+)
 ;
 elem
 .
@@ -2075,6 +2091,10 @@ HTMLIFrameElementCast
 to
 (
 abstract_self
+)
+.
+unwrap
+(
 )
 ;
 elem
