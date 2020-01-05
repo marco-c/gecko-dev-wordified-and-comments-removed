@@ -41,6 +41,8 @@ final
 public
 nsIAsyncInputStream
 public
+nsIInputStreamCallback
+public
 nsICloneableInputStream
 public
 nsIIPCSerializableInputStream
@@ -50,6 +52,7 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIASYNCINPUTSTREAM
+NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSICLONEABLEINPUTSTREAM
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 explicit
@@ -73,6 +76,17 @@ private
 ~
 IPCBlobInputStream
 (
+)
+;
+nsresult
+MaybeExecuteCallback
+(
+nsIInputStreamCallback
+*
+aCallback
+nsIEventTarget
+*
+aEventTarget
 )
 ;
 RefPtr
