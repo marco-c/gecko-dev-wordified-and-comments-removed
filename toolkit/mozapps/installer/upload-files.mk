@@ -3453,6 +3453,7 @@ SYMBOL_FULL_ARCHIVE_BASENAME
 .
 zip
 )
+\
 (
 if
 (
