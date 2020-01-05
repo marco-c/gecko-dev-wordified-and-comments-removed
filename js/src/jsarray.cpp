@@ -12665,6 +12665,13 @@ ArrayObject
 >
 (
 )
+&
+&
+!
+ObjectMayHaveExtraIndexedProperties
+(
+obj
+)
 )
 {
 Rooted
