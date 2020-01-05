@@ -352,7 +352,7 @@ create_window
 Servo
 "
 .
-to_owned
+to_string
 (
 )
 )
@@ -1941,7 +1941,7 @@ com
 /
 "
 .
-to_owned
+to_string
 (
 )
 )
