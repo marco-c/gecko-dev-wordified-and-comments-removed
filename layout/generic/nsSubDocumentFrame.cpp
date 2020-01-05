@@ -1492,6 +1492,12 @@ aBuilder
 aFrame
 &
 tmpList
+aBuilder
+-
+>
+CurrentActiveScrolledRoot
+(
+)
 )
 ;
 }
@@ -2079,9 +2085,8 @@ needsOwnLayer
 {
 nestedClipState
 .
-EnterStackingContextContents
+Clear
 (
-true
 )
 ;
 }
