@@ -38,5 +38,10 @@ layout
 PropTypes
 .
 object
+offsetParent
+:
+PropTypes
+.
+object
 }
 ;

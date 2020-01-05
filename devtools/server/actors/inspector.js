@@ -10654,13 +10654,13 @@ getOffsetParent
 :
 function
 (
-domnode
+node
 )
 {
 let
 offsetParent
 =
-domnode
+node
 .
 rawNode
 .
