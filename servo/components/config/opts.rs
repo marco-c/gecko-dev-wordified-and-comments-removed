@@ -540,7 +540,7 @@ disable_text_aa
 :
 bool
 pub
-enable_subpixel_aa
+disable_subpixel_aa
 :
 bool
 pub
@@ -734,7 +734,7 @@ disable_text_aa
 =
 true
 "
-enable
+disable
 -
 subpixel
 -
@@ -744,7 +744,7 @@ aa
 >
 self
 .
-enable_subpixel_aa
+disable_subpixel_aa
 =
 true
 "
@@ -5463,9 +5463,10 @@ debug_options
 disable_text_aa
 enable_subpixel_text_antialiasing
 :
+!
 debug_options
 .
-enable_subpixel_aa
+disable_subpixel_aa
 enable_canvas_antialiasing
 :
 !
