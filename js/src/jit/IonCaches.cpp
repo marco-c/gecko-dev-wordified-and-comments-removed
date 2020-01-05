@@ -4429,6 +4429,7 @@ masm
 .
 enterFakeExitFrame
 (
+scratchReg
 IonOOLNativeExitFrameLayoutToken
 )
 ;
@@ -4698,6 +4699,7 @@ masm
 .
 enterFakeExitFrame
 (
+scratchReg
 IonOOLPropertyOpExitFrameLayoutToken
 )
 ;
@@ -7574,6 +7576,7 @@ masm
 .
 enterFakeExitFrame
 (
+scratch
 IonOOLProxyExitFrameLayoutToken
 )
 ;
@@ -8386,6 +8389,7 @@ masm
 .
 enterFakeExitFrame
 (
+tempReg
 IonOOLNativeExitFrameLayoutToken
 )
 ;
@@ -8663,6 +8667,7 @@ masm
 .
 enterFakeExitFrame
 (
+tempReg
 IonOOLSetterOpExitFrameLayoutToken
 )
 ;

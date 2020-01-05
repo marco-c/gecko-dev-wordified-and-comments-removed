@@ -2452,17 +2452,6 @@ cx
 )
 ;
 void
-trace
-(
-JSTracer
-*
-trc
-JSCompartment
-*
-compartment
-)
-;
-void
 sweep
 (
 FreeOp

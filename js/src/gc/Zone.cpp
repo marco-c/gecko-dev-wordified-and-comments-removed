@@ -1296,12 +1296,7 @@ optimizedStubSpace
 >
 freeAllAfterMinorGC
 (
-fop
--
->
-runtime
-(
-)
+this
 )
 ;
 jitZone

@@ -22273,6 +22273,7 @@ masm
 .
 enterFakeExitFrameForNative
 (
+scratch
 isConstructing_
 )
 ;
@@ -22683,6 +22684,7 @@ masm
 .
 enterFakeExitFrameForNative
 (
+scratch
 isConstructing_
 )
 ;
