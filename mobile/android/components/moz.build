@@ -185,6 +185,11 @@ PresentationDevicePrompt
 js
 '
 '
+PresentationRequestUIGlue
+.
+js
+'
+'
 PromptService
 .
 js

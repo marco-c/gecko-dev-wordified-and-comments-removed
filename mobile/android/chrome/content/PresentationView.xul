@@ -90,6 +90,16 @@ startup
 )
 ;
 "
+onunload
+=
+"
+PresentationView
+.
+stop
+(
+)
+;
+"
 windowtype
 =
 "
