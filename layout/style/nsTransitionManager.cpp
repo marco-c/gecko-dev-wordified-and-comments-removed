@@ -2807,7 +2807,7 @@ p
 )
 )
 {
-ConsiderStartingTransition
+ConsiderInitiatingTransition
 (
 p
 t
@@ -2845,7 +2845,7 @@ CSSEnabledState
 eForAllContent
 )
 {
-ConsiderStartingTransition
+ConsiderInitiatingTransition
 (
 *
 subprop
@@ -2864,7 +2864,7 @@ whichStarted
 }
 else
 {
-ConsiderStartingTransition
+ConsiderInitiatingTransition
 (
 property
 t
@@ -3253,7 +3253,7 @@ void
 nsTransitionManager
 :
 :
-ConsiderStartingTransition
+ConsiderInitiatingTransition
 (
 nsCSSPropertyID
 aProperty

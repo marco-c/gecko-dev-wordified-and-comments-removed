@@ -1358,7 +1358,7 @@ aNewStyleContext
 )
 ;
 void
-ConsiderStartingTransition
+ConsiderInitiatingTransition
 (
 nsCSSPropertyID
 aProperty

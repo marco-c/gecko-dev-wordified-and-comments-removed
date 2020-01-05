@@ -697,7 +697,7 @@ mReframingStyleContexts
 }
 static
 bool
-TryStartingTransition
+TryInitiatingTransition
 (
 nsPresContext
 *

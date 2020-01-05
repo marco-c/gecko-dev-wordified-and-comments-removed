@@ -7906,7 +7906,7 @@ oldStyleContext
 RestyleManager
 :
 :
-TryStartingTransition
+TryInitiatingTransition
 (
 aState
 .
@@ -21538,7 +21538,7 @@ oldStyleContext
 RestyleManager
 :
 :
-TryStartingTransition
+TryInitiatingTransition
 (
 presContext
 aContent
@@ -45479,14 +45479,6 @@ content
 -
 >
 IsStyledByServo
-(
-)
-&
-&
-content
--
->
-IsElement
 (
 )
 content
