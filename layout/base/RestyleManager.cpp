@@ -42,6 +42,17 @@ h
 #
 include
 "
+mozilla
+/
+css
+/
+StyleRule
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
