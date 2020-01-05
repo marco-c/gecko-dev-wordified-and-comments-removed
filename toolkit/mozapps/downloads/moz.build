@@ -128,11 +128,6 @@ DownloadPaths
 jsm
 '
 '
-DownloadTaskbarProgress
-.
-jsm
-'
-'
 DownloadUtils
 .
 jsm
