@@ -590,9 +590,10 @@ timeout
 "
 Set
 the
-marionette
+Marionette
 script
 timeout
+.
         
 :
 param
@@ -602,6 +603,7 @@ Script
 timeout
 in
 seconds
+        
 "
 "
 "
@@ -610,12 +612,11 @@ self
 .
 marionette
 .
-set_script_timeout
-(
 timeout
-*
-1000
-)
+.
+script
+=
+timeout
         
 self
 .
@@ -956,16 +957,13 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-(
+timeout
+.
+script
+=
 socket_timeout
 /
 2
-)
-*
-1000
-)
         
 while
 True
