@@ -8870,7 +8870,7 @@ if
 chromeInstance
 -
 >
-CallGetKeyState
+SendGetKeyState
 (
 aVirtKey
 &
