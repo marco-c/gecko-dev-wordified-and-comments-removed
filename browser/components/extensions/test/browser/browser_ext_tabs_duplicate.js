@@ -731,7 +731,7 @@ gBrowser
 duplicateTab
 (
 tab
-false
+true
 )
 ;
 BrowserTestUtils
