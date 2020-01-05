@@ -1158,6 +1158,12 @@ Atomic
 <
 bool
 >
+mDeletingChannelSent
+;
+Atomic
+<
+bool
+>
 mIPCOpen
 ;
 bool
