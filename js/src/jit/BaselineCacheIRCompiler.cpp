@@ -3388,6 +3388,13 @@ done
 ;
 masm
 .
+debugAssertIsObject
+(
+val
+)
+;
+masm
+.
 loadPtr
 (
 shapeAddr
