@@ -931,12 +931,7 @@ T
 (
 )
 const
-#
-ifdef
-MOZ_HAVE_REF_QUALIFIERS
 &
-#
-endif
 {
 return
 get
@@ -944,9 +939,6 @@ get
 )
 ;
 }
-#
-ifdef
-MOZ_HAVE_REF_QUALIFIERS
 operator
 T
 *
@@ -983,8 +975,6 @@ return
 mRawPtr
 ;
 }
-#
-endif
 T
 *
 operator
