@@ -477,8 +477,10 @@ this
 .
 timeLabel
 )
+{
 return
 ;
+}
 var
 displayedTime
 =
@@ -507,6 +509,7 @@ displayedTime
 00
 "
 )
+{
 this
 .
 timeLabel
@@ -525,6 +528,7 @@ value
 "
 )
 ;
+}
 else
 if
 (
@@ -543,6 +547,7 @@ displayedTime
 00
 "
 )
+{
 this
 .
 timeLabel
@@ -559,6 +564,7 @@ value
 "
 )
 ;
+}
 ]
 ]
 >
@@ -655,6 +661,7 @@ secs
 <
 10
 )
+{
 secs
 =
 "
@@ -663,6 +670,7 @@ secs
 +
 secs
 ;
+}
 if
 (
 hours
@@ -679,6 +687,7 @@ mins
 <
 10
 )
+{
 mins
 =
 "
@@ -687,6 +696,7 @@ mins
 +
 mins
 ;
+}
 timeString
 =
 hours
@@ -818,10 +828,12 @@ type
 scrubber
 "
 )
+{
 return
 "
 "
 ;
+}
 var
 currTime
 =
@@ -987,6 +999,7 @@ type
 scrubber
 "
 )
+{
 this
 .
 valueBar
@@ -997,6 +1010,7 @@ Utils
 .
 progressBar
 ;
+}
 ]
 ]
 >
@@ -1292,8 +1306,10 @@ this
 .
 _userChanged
 )
+{
 return
 ;
+}
 this
 .
 setAttribute
@@ -1315,6 +1331,7 @@ type
 scrubber
 "
 )
+{
 this
 .
 Utils
@@ -1324,6 +1341,7 @@ seekToPosition
 newValue
 )
 ;
+}
 else
 if
 (
@@ -1336,6 +1354,7 @@ type
 volumeControl
 "
 )
+{
 this
 .
 Utils
@@ -1347,6 +1366,7 @@ newValue
 100
 )
 ;
+}
 break
 ;
 case
@@ -2690,8 +2710,10 @@ this
 .
 isTopLevelSyntheticDocument
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -2765,8 +2787,6 @@ suppressError
 :
 false
 setupStatusFader
-:
-function
 (
 immediate
 )
@@ -2978,10 +2998,12 @@ video
 NETWORK_LOADING
 )
 )
+{
 show
 =
 true
 ;
+}
 /
 /
 Explicitly
@@ -3008,10 +3030,12 @@ this
 .
 isAudioOnly
 )
+{
 show
 =
 false
 ;
+}
 this
 .
 log
@@ -3196,8 +3220,6 @@ state
 *
 /
 setupInitialState
-:
-function
 (
 )
 {
@@ -3420,12 +3442,14 @@ videoHeight
 0
 )
 )
+{
 this
 .
 isAudioOnly
 =
 true
 ;
+}
 /
 /
 We
@@ -3518,6 +3542,7 @@ this
 .
 isAudioOnly
 )
+{
 this
 .
 clickToPlay
@@ -3526,6 +3551,7 @@ hidden
 =
 true
 ;
+}
 /
 /
 If
@@ -3559,12 +3585,14 @@ video
 .
 HAVE_CURRENT_DATA
 )
+{
 this
 .
 firstFrameShown
 =
 true
 ;
+}
 /
 /
 We
@@ -3638,13 +3666,16 @@ video
 .
 HAVE_METADATA
 )
+{
 this
 .
 showBuffered
 (
 )
 ;
+}
 else
+{
 this
 .
 bufferBar
@@ -3653,6 +3684,7 @@ value
 =
 0
 ;
+}
 /
 /
 Set
@@ -4014,8 +4046,6 @@ updateVolumeControls
 ;
 }
 setupNewLoadState
-:
-function
 (
 )
 {
@@ -4338,10 +4368,12 @@ mozNoDynamicControls
 "
 )
 )
+{
 enabled
 =
 false
 ;
+}
 /
 /
 If
@@ -4380,10 +4412,12 @@ hasError
 (
 )
 )
+{
 enabled
 =
 false
 ;
+}
 return
 enabled
 ;
@@ -4460,8 +4494,6 @@ volumePercentage
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -4581,6 +4613,7 @@ videocontrols
 .
 isTouchControls
 )
+{
 this
 .
 startFadeOut
@@ -4590,6 +4623,7 @@ this
 controlBar
 )
 ;
+}
 if
 (
 !
@@ -4671,6 +4705,7 @@ scrubber
 .
 isDragging
 )
+{
 this
 .
 setPlayButtonState
@@ -4678,6 +4713,7 @@ setPlayButtonState
 true
 )
 ;
+}
 this
 .
 setupStatusFader
@@ -5309,6 +5345,7 @@ video
 .
 paused
 )
+{
 this
 .
 setPlayButtonState
@@ -5316,6 +5353,7 @@ setPlayButtonState
 false
 )
 ;
+}
 this
 .
 timeUpdateCount
@@ -5413,12 +5451,14 @@ timeUpdateCount
 =
 2
 )
+{
 this
 .
 setupStatusFader
 (
 )
 ;
+}
 /
 /
 If
@@ -5462,8 +5502,10 @@ scrubber
 .
 startToDrag
 )
+{
 return
 ;
+}
 this
 .
 showPosition
@@ -5792,6 +5834,7 @@ this
 .
 firstFrameShown
 )
+{
 this
 .
 startFadeOut
@@ -5801,6 +5844,7 @@ this
 controlBar
 )
 ;
+}
 this
 .
 controlsSpacer
@@ -5862,8 +5906,6 @@ handled
 }
 }
 terminateEventListeners
-:
-function
 (
 )
 {
@@ -5965,8 +6007,6 @@ terminated
 ;
 }
 hasError
-:
-function
 (
 )
 {
@@ -6106,8 +6146,6 @@ hasSources
 ;
 }
 hasSources
-:
-function
 (
 )
 {
@@ -6187,8 +6225,6 @@ false
 ;
 }
 updateErrorText
-:
-function
 (
 )
 {
@@ -6416,8 +6452,6 @@ error
 ;
 }
 formatTime
-:
-function
 (
 aTime
 )
@@ -6501,6 +6535,7 @@ secs
 <
 10
 )
+{
 secs
 =
 "
@@ -6509,6 +6544,7 @@ secs
 +
 secs
 ;
+}
 if
 (
 hours
@@ -6520,6 +6556,7 @@ mins
 <
 10
 )
+{
 mins
 =
 "
@@ -6528,6 +6565,7 @@ mins
 +
 mins
 ;
+}
 timeString
 =
 hours
@@ -6563,8 +6601,6 @@ timeString
 ;
 }
 initPositionDurationBox
-:
-function
 (
 )
 {
@@ -6742,8 +6778,6 @@ v
 ;
 }
 showDuration
-:
-function
 (
 duration
 )
@@ -6787,12 +6821,14 @@ duration
 |
 isInfinite
 )
+{
 duration
 =
 this
 .
 maxCurrentTimeSeen
 ;
+}
 /
 /
 Format
@@ -6976,8 +7012,6 @@ duration
 ;
 }
 pauseVideoDuringDragging
-:
-function
 (
 )
 {
@@ -7021,8 +7055,6 @@ pause
 }
 }
 onScrubberInput
-:
-function
 (
 e
 )
@@ -7099,8 +7131,6 @@ true
 ;
 }
 onScrubberChange
-:
-function
 (
 e
 )
@@ -7214,8 +7244,6 @@ value
 }
 }
 seekToPosition
-:
-function
 (
 newPosition
 )
@@ -7311,8 +7339,6 @@ newPosition
 }
 }
 setVolume
-:
-function
 (
 newVolume
 )
@@ -7351,8 +7377,6 @@ false
 ;
 }
 showPosition
-:
-function
 (
 currentTime
 duration
@@ -7412,12 +7436,14 @@ this
 .
 maxCurrentTimeSeen
 )
+{
 this
 .
 maxCurrentTimeSeen
 =
 currentTime
 ;
+}
 this
 .
 showDuration
@@ -7507,8 +7533,6 @@ updateScrubberProgress
 }
 }
 showBuffered
-:
-function
 (
 )
 {
@@ -7815,8 +7839,6 @@ SHOW_CONTROLS_TIMEOUT_MS
 :
 500
 _showControlsFn
-:
-function
 (
 )
 {
@@ -7864,8 +7886,6 @@ _hideControlsTimeout
 :
 0
 _hideControlsFn
-:
-function
 (
 )
 {
@@ -7907,8 +7927,6 @@ HIDE_CONTROLS_TIMEOUT_MS
 :
 2000
 onMouseMove
-:
-function
 (
 event
 )
@@ -7972,8 +7990,10 @@ this
 .
 dynamicControls
 )
+{
 return
 ;
+}
 clearTimeout
 (
 this
@@ -8049,14 +8069,17 @@ video
 mozAutoplayEnabled
 )
 )
+{
 return
 ;
+}
 if
 (
 this
 .
 _controlsHiddenByTimeout
 )
+{
 this
 .
 _showControlsTimeout
@@ -8071,7 +8094,9 @@ this
 SHOW_CONTROLS_TIMEOUT_MS
 )
 ;
+}
 else
+{
 this
 .
 startFade
@@ -8082,6 +8107,7 @@ controlBar
 true
 )
 ;
+}
 /
 /
 Hide
@@ -8165,8 +8191,6 @@ HIDE_CONTROLS_TIMEOUT_MS
 }
 }
 onMouseInOut
-:
-function
 (
 event
 )
@@ -8191,8 +8215,10 @@ this
 .
 dynamicControls
 )
+{
 return
 ;
+}
 clearTimeout
 (
 this
@@ -8272,8 +8298,10 @@ this
 videocontrols
 )
 )
+{
 return
 ;
+}
 var
 isMouseOver
 =
@@ -8409,8 +8437,10 @@ video
 mozAutoplayEnabled
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -8452,8 +8482,10 @@ clickToPlay
 .
 hidden
 )
+{
 return
 ;
+}
 this
 .
 startFadeOut
@@ -8494,8 +8526,6 @@ false
 }
 }
 startFadeIn
-:
-function
 (
 element
 immediate
@@ -8512,8 +8542,6 @@ immediate
 ;
 }
 startFadeOut
-:
-function
 (
 element
 immediate
@@ -8530,8 +8558,6 @@ immediate
 ;
 }
 startFade
-:
-function
 (
 element
 fadeIn
@@ -8605,6 +8631,7 @@ element
 .
 hidden
 )
+{
 if
 (
 this
@@ -8652,10 +8679,12 @@ currentTime
 ;
 }
 }
+}
 if
 (
 immediate
 )
+{
 element
 .
 setAttribute
@@ -8666,7 +8695,9 @@ immediate
 true
 )
 ;
+}
 else
+{
 element
 .
 removeAttribute
@@ -8676,6 +8707,7 @@ immediate
 "
 )
 ;
+}
 if
 (
 fadeIn
@@ -8743,6 +8775,7 @@ controlBar
 "
 )
 )
+{
 this
 .
 controlsSpacer
@@ -8754,6 +8787,7 @@ hideCursor
 "
 )
 ;
+}
 }
 else
 {
@@ -8798,6 +8832,7 @@ this
 .
 video
 )
+{
 this
 .
 controlsSpacer
@@ -8812,9 +8847,8 @@ true
 ;
 }
 }
+}
 onTransitionEnd
-:
-function
 (
 event
 )
@@ -8841,8 +8875,10 @@ propertyName
 opacity
 "
 )
+{
 return
 ;
+}
 var
 element
 =
@@ -8875,8 +8911,10 @@ fadeout
 "
 )
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -8907,8 +8945,6 @@ _triggeredByControls
 :
 false
 startPlay
-:
-function
 (
 )
 {
@@ -8934,8 +8970,6 @@ play
 ;
 }
 togglePause
-:
-function
 (
 )
 {
@@ -9011,8 +9045,6 @@ playback
 .
 }
 isVideoWithoutAudioTrack
-:
-function
 (
 )
 {
@@ -9046,8 +9078,6 @@ mozHasAudio
 ;
 }
 toggleMute
-:
-function
 (
 )
 {
@@ -9133,8 +9163,6 @@ volume
 .
 }
 isVideoInFullScreen
-:
-function
 (
 )
 {
@@ -9150,8 +9178,6 @@ video
 ;
 }
 toggleFullscreen
-:
-function
 (
 )
 {
@@ -9177,8 +9203,6 @@ mozRequestFullScreen
 ;
 }
 setFullscreenButtonState
-:
-function
 (
 )
 {
@@ -9288,6 +9312,7 @@ isVideoInFullScreen
 (
 )
 )
+{
 this
 .
 fullscreenButton
@@ -9302,7 +9327,9 @@ true
 "
 )
 ;
+}
 else
+{
 this
 .
 fullscreenButton
@@ -9315,9 +9342,8 @@ fullscreened
 )
 ;
 }
+}
 onFullscreenChange
-:
-function
 (
 )
 {
@@ -9353,8 +9379,6 @@ setFullscreenButtonState
 ;
 }
 clickToPlayClickHandler
-:
-function
 (
 e
 )
@@ -9368,8 +9392,10 @@ button
 =
 0
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -9420,8 +9446,10 @@ error
 .
 MEDIA_ERR_ABORTED
 )
+{
 return
 ;
+}
 this
 .
 statusOverlay
@@ -9445,8 +9473,10 @@ e
 .
 defaultPrevented
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -9481,8 +9511,6 @@ pause
 }
 }
 hideClickToPlay
-:
-function
 (
 )
 {
@@ -9642,8 +9670,6 @@ true
 ;
 }
 setPlayButtonState
-:
-function
 (
 aPaused
 )
@@ -9652,6 +9678,7 @@ if
 (
 aPaused
 )
+{
 this
 .
 playButton
@@ -9666,7 +9693,9 @@ true
 "
 )
 ;
+}
 else
+{
 this
 .
 playButton
@@ -9678,6 +9707,7 @@ paused
 "
 )
 ;
+}
 var
 attrName
 =
@@ -9719,8 +9749,6 @@ value
 ;
 }
 isEffectivelyMuted
-:
-function
 (
 )
 {
@@ -9741,8 +9769,6 @@ volume
 ;
 }
 updateMuteButtonState
-:
-function
 (
 )
 {
@@ -9759,6 +9785,7 @@ if
 (
 muted
 )
+{
 this
 .
 muteButton
@@ -9773,7 +9800,9 @@ true
 "
 )
 ;
+}
 else
+{
 this
 .
 muteButton
@@ -9785,6 +9814,7 @@ muted
 "
 )
 ;
+}
 var
 attrName
 =
@@ -9826,8 +9856,6 @@ value
 ;
 }
 _getComputedPropertyValueAsInt
-:
-function
 (
 element
 property
@@ -9856,8 +9884,6 @@ value
 ;
 }
 keyHandler
-:
-function
 (
 event
 )
@@ -9888,8 +9914,10 @@ controls
 "
 )
 )
+{
 return
 ;
+}
 var
 keystroke
 =
@@ -9902,6 +9930,7 @@ event
 .
 altKey
 )
+{
 keystroke
 +
 =
@@ -9910,12 +9939,14 @@ alt
 -
 "
 ;
+}
 if
 (
 event
 .
 shiftKey
 )
+{
 keystroke
 +
 =
@@ -9924,6 +9955,7 @@ shift
 -
 "
 ;
+}
 if
 (
 navigator
@@ -9944,6 +9976,7 @@ event
 .
 metaKey
 )
+{
 keystroke
 +
 =
@@ -9952,12 +9985,14 @@ accel
 -
 "
 ;
+}
 if
 (
 event
 .
 ctrlKey
 )
+{
 keystroke
 +
 =
@@ -9967,6 +10002,7 @@ control
 "
 ;
 }
+}
 else
 {
 if
@@ -9975,6 +10011,7 @@ event
 .
 metaKey
 )
+{
 keystroke
 +
 =
@@ -9983,12 +10020,14 @@ meta
 -
 "
 ;
+}
 if
 (
 event
 .
 ctrlKey
 )
+{
 keystroke
 +
 =
@@ -9997,6 +10036,7 @@ accel
 -
 "
 ;
+}
 }
 switch
 (
@@ -10105,6 +10145,7 @@ charCode
 '
 '
 )
+{
 keystroke
 +
 =
@@ -10112,6 +10153,7 @@ keystroke
 space
 "
 ;
+}
 this
 .
 log
@@ -10345,13 +10387,16 @@ keystroke
 leftArrow
 "
 )
+{
 newval
 =
 oldval
 -
 15
 ;
+}
 else
+{
 newval
 =
 oldval
@@ -10373,6 +10418,7 @@ maxCurrentTimeSeen
 /
 10
 ;
+}
 this
 .
 video
@@ -10455,13 +10501,16 @@ keystroke
 rightArrow
 "
 )
+{
 newval
 =
 oldval
 +
 15
 ;
+}
 else
+{
 newval
 =
 oldval
@@ -10470,6 +10519,7 @@ maxtime
 /
 10
 ;
+}
 this
 .
 video
@@ -10538,6 +10588,7 @@ video
 .
 duration
 )
+{
 this
 .
 video
@@ -10559,6 +10610,7 @@ maxCurrentTimeSeen
 1000
 )
 ;
+}
 break
 ;
 default
@@ -10597,8 +10649,6 @@ page
 scrolling
 }
 isSupportedTextTrack
-:
-function
 (
 textTrack
 )
@@ -10671,8 +10721,6 @@ isSupportedTextTrack
 ;
 }
 isClosedCaptionOn
-:
-function
 (
 )
 {
@@ -10709,8 +10757,6 @@ false
 ;
 }
 setClosedCaptionButtonState
-:
-function
 (
 )
 {
@@ -10862,8 +10908,6 @@ on
 }
 }
 addNewTextTrack
-:
-function
 (
 tt
 )
@@ -11048,8 +11092,6 @@ index
 }
 }
 changeTextTrack
-:
-function
 (
 index
 )
@@ -11150,8 +11192,6 @@ setClosedCaptionButtonState
 ;
 }
 onControlBarTransitioned
-:
-function
 (
 )
 {
@@ -11186,8 +11226,6 @@ controlbarchange
 ;
 }
 toggleClosedCaption
-:
-function
 (
 )
 {
@@ -11236,8 +11274,6 @@ true
 }
 }
 onTextTrackAdd
-:
-function
 (
 trackEvent
 )
@@ -11259,8 +11295,6 @@ setClosedCaptionButtonState
 ;
 }
 onTextTrackRemove
-:
-function
 (
 trackEvent
 )
@@ -11377,8 +11411,6 @@ setClosedCaptionButtonState
 ;
 }
 initTextTracks
-:
-function
 (
 )
 {
@@ -11463,8 +11495,6 @@ setClosedCaptionButtonState
 ;
 }
 isEventWithin
-:
-function
 (
 event
 parent1
@@ -11495,9 +11525,11 @@ node
 =
 parent2
 )
+{
 return
 true
 ;
+}
 node
 =
 node
@@ -11527,8 +11559,6 @@ relatedTarget
 ;
 }
 log
-:
-function
 (
 msg
 )
@@ -11539,6 +11569,7 @@ this
 .
 debug
 )
+{
 console
 .
 log
@@ -11556,6 +11587,7 @@ n
 "
 )
 ;
+}
 }
 get
 isTopLevelSyntheticDocument
@@ -11593,9 +11625,6 @@ win
 top
 ;
 }
-adjustControlSize
-:
-function
 adjustControlSize
 (
 )
@@ -12118,8 +12147,6 @@ px
 }
 }
 init
-:
-function
 (
 binding
 )
@@ -13207,6 +13234,7 @@ this
 .
 isTouchControls
 )
+{
 this
 .
 Utils
@@ -13216,6 +13244,7 @@ onMouseInOut
 event
 )
 ;
+}
 <
 /
 handler
@@ -13235,6 +13264,7 @@ this
 .
 isTouchControls
 )
+{
 this
 .
 Utils
@@ -13244,6 +13274,7 @@ onMouseInOut
 event
 )
 ;
+}
 <
 /
 handler
@@ -13263,6 +13294,7 @@ this
 .
 isTouchControls
 )
+{
 this
 .
 Utils
@@ -13272,6 +13304,7 @@ onMouseMove
 event
 )
 ;
+}
 <
 /
 handler
@@ -14156,8 +14189,6 @@ val
 ;
 }
 toggleControls
-:
-function
 (
 )
 {
@@ -14176,13 +14207,16 @@ this
 .
 visible
 )
+{
 this
 .
 showControls
 (
 )
 ;
+}
 else
+{
 this
 .
 delayHideControls
@@ -14191,9 +14225,8 @@ delayHideControls
 )
 ;
 }
+}
 showControls
-:
-function
 (
 )
 {
@@ -14231,8 +14264,6 @@ controlsTimeout
 }
 }
 clearTimer
-:
-function
 (
 )
 {
@@ -14259,8 +14290,6 @@ null
 }
 }
 delayHideControls
-:
-function
 (
 aTimeout
 )
@@ -14298,8 +14327,6 @@ aTimeout
 ;
 }
 hideControls
-:
-function
 (
 )
 {
@@ -14312,8 +14339,10 @@ Utils
 .
 dynamicControls
 )
+{
 return
 ;
+}
 this
 .
 Utils
@@ -14333,6 +14362,7 @@ this
 .
 firstShow
 )
+{
 this
 .
 videocontrols
@@ -14347,9 +14377,8 @@ false
 )
 ;
 }
+}
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -14403,6 +14432,7 @@ Utils
 .
 randomID
 )
+{
 this
 .
 terminateEventListeners
@@ -14410,9 +14440,8 @@ terminateEventListeners
 )
 ;
 }
+}
 terminateEventListeners
-:
-function
 (
 )
 {
@@ -14425,6 +14454,7 @@ this
 .
 videoEvents
 )
+{
 this
 .
 Utils
@@ -14439,30 +14469,20 @@ false
 )
 ;
 }
+}
 isVideoCasting
-:
-function
 (
 )
 {
-if
-(
+return
 this
 .
 video
 .
 mozIsCasting
-)
-return
-true
-;
-return
-false
 ;
 }
 updateCasting
-:
-function
 (
 eventDetail
 )
@@ -14529,8 +14549,6 @@ setCastButtonState
 ;
 }
 startCasting
-:
-function
 (
 )
 {
@@ -14551,8 +14569,6 @@ VideoBindingCast
 ;
 }
 setCastButtonState
-:
-function
 (
 )
 {
@@ -14630,8 +14646,6 @@ false
 ;
 }
 init
-:
-function
 (
 binding
 )
@@ -14679,6 +14693,7 @@ video
 .
 paused
 )
+{
 self
 .
 delayHideControls
@@ -14686,13 +14701,16 @@ delayHideControls
 0
 )
 ;
+}
 else
+{
 self
 .
 showControls
 (
 )
 ;
+}
 }
 false
 )
@@ -14841,8 +14859,10 @@ e
 .
 isTrusted
 )
+{
 return
 ;
+}
 self
 .
 updateCasting
@@ -14979,12 +14999,14 @@ currentTime
 =
 0
 )
+{
 this
 .
 firstShow
 =
 true
 ;
+}
 /
 /
 If
@@ -15183,6 +15205,7 @@ TouchUtils
 .
 firstShow
 )
+{
 this
 .
 Utils
@@ -15193,6 +15216,7 @@ play
 (
 )
 ;
+}
 this
 .
 TouchUtils
@@ -15451,8 +15475,6 @@ controlListeners
 [
 ]
 terminateEventListeners
-:
-function
 (
 )
 {
@@ -15465,6 +15487,7 @@ this
 .
 videoEvents
 )
+{
 this
 .
 video
@@ -15480,6 +15503,7 @@ true
 }
 )
 ;
+}
 for
 (
 let
@@ -15517,8 +15541,6 @@ controlListeners
 ;
 }
 hasError
-:
-function
 (
 )
 {
@@ -15550,8 +15572,6 @@ NETWORK_NO_SOURCE
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -15647,8 +15667,6 @@ break
 }
 }
 blockedVideoHandler
-:
-function
 (
 )
 {
@@ -15706,8 +15724,6 @@ false
 ;
 }
 clickToPlayClickHandler
-:
-function
 (
 e
 )
@@ -15767,8 +15783,6 @@ play
 ;
 }
 init
-:
-function
 (
 binding
 )
