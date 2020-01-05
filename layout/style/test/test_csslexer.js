@@ -492,6 +492,10 @@ example
 .
 com
 "
+"
+symbol
+:
+"
 ]
 ]
 [

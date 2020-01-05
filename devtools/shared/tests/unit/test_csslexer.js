@@ -830,6 +830,10 @@ example
 .
 com
 "
+"
+symbol
+:
+"
 ]
 ]
 [
