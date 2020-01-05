@@ -32,6 +32,8 @@ Nonce
 (
 )
 ;
+/
+*
 state
 START
 :
@@ -75,6 +77,8 @@ DEAD
 send
 __delete__
 ;
+*
+/
 }
 ;
 }

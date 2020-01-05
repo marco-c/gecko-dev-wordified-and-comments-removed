@@ -39,6 +39,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 START
 :
@@ -124,6 +126,8 @@ DEATH
 send
 __delete__
 ;
+*
+/
 }
 ;
 }

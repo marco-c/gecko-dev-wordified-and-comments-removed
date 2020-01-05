@@ -85,6 +85,8 @@ __delete__
 (
 )
 ;
+/
+*
 state
 START
 :
@@ -355,6 +357,8 @@ DYING
 send
 __delete__
 ;
+*
+/
 }
 ;
 }
