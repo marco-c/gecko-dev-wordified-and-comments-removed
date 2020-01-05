@@ -10023,11 +10023,13 @@ mozpath
 join
 (
 tests_root
-path
+it
+[
+0
+]
 )
 for
-path
-_
+it
 in
 obj
 )
