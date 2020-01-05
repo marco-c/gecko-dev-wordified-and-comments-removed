@@ -123,8 +123,6 @@ attribute
 boolean
 disabled
 ;
-/
-/
 readonly
 attribute
 HTMLFormElement
