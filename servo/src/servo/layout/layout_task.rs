@@ -98,7 +98,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 style
@@ -157,7 +157,7 @@ ARC
 <
 Stylesheet
 >
-url
+Url
 Chan
 <
 Event

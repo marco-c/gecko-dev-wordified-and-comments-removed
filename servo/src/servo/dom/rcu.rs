@@ -1268,6 +1268,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 libc
 :
 :
@@ -1362,6 +1363,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 n
 )
 ;
@@ -1401,6 +1403,7 @@ mut
 T
 >
 (
+&
 t
 )
 ;
@@ -1414,6 +1417,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 t
 )
 )
@@ -1460,6 +1464,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 h
 .
 read_ptr
@@ -1483,6 +1488,7 @@ T
 T
 >
 (
+&
 h
 .
 write_ptr
@@ -1688,6 +1694,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 handle
 .
 write_ptr
@@ -1902,6 +1909,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 self
 .
 clone
@@ -1983,6 +1991,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 libc
 :
 :
@@ -2040,6 +2049,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 (
 *
 d

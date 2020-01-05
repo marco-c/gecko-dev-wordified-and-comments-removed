@@ -33,7 +33,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 http_client
@@ -49,7 +49,7 @@ factory
 +
 url
 :
-url
+Url
 progress_chan
 :
 Chan

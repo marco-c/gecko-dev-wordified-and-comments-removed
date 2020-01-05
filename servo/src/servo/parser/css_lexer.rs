@@ -62,7 +62,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 resource
@@ -1627,7 +1627,7 @@ spawn_css_lexer_task
 -
 url
 :
-url
+Url
 resource_task
 :
 ResourceTask

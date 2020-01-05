@@ -44,7 +44,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 util
@@ -152,7 +152,7 @@ before
 Decode
 Prefetch
 (
-url
+Url
 )
 /
 /
@@ -174,7 +174,7 @@ priv
 /
 StorePrefetchedImageData
 (
-url
+Url
 Result
 <
 Cell
@@ -208,7 +208,7 @@ GetImage
 WaitForImage
 Decode
 (
-url
+Url
 )
 /
 /
@@ -233,7 +233,7 @@ priv
 /
 StoreImage
 (
-url
+Url
 Option
 <
 ARC
@@ -273,7 +273,7 @@ returned
 .
 GetImage
 (
-url
+Url
 Chan
 <
 ImageResponseMsg
@@ -298,7 +298,7 @@ load
 .
 WaitForImage
 (
-url
+Url
 Chan
 <
 ImageResponseMsg
@@ -1218,7 +1218,7 @@ get_state
 +
 url
 :
-url
+Url
 )
 -
 >
@@ -1258,7 +1258,7 @@ set_state
 +
 url
 :
-url
+Url
 state
 :
 ImageState
@@ -1286,7 +1286,7 @@ prefetch
 +
 url
 :
-url
+Url
 )
 {
 match
@@ -1500,7 +1500,7 @@ store_prefetched_image_data
 +
 url
 :
-url
+Url
 data
 :
 &
@@ -1659,7 +1659,7 @@ decode
 +
 url
 :
-url
+Url
 )
 {
 match
@@ -1944,7 +1944,7 @@ store_image
 +
 url
 :
-url
+Url
 image
 :
 &
@@ -2085,7 +2085,7 @@ purge_waiters
 +
 url
 :
-url
+Url
 f
 :
 fn
@@ -2160,7 +2160,7 @@ get_image
 +
 url
 :
-url
+Url
 response
 :
 Chan
@@ -2282,7 +2282,7 @@ wait_for_image
 +
 url
 :
-url
+Url
 response
 :
 Chan
@@ -2491,7 +2491,7 @@ load_image_data
 +
 url
 :
-url
+Url
 resource_task
 :
 ResourceTask

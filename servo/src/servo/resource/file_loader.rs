@@ -33,7 +33,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 io
@@ -57,7 +57,7 @@ factory
 +
 url
 :
-url
+Url
 progress_chan
 :
 Chan

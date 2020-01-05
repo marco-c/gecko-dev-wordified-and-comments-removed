@@ -87,7 +87,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 resource
@@ -108,7 +108,7 @@ Box
 doc_url
 :
 &
-url
+Url
 ;
 image_cache_task
 :
@@ -131,7 +131,7 @@ Box
 doc_url
 :
 &
-url
+Url
 image_cache_task
 :
 ImageCacheTask
@@ -206,7 +206,7 @@ Box
 doc_url
 :
 &
-url
+Url
 image_cache_task
 :
 ImageCacheTask

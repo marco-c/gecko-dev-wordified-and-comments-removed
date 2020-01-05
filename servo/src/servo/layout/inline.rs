@@ -229,9 +229,7 @@ i32
 :
 max
 (
-&
 current_height
-&
 *
 kid
 .
@@ -326,9 +324,7 @@ i32
 :
 max
 (
-&
 x
-&
 *
 self
 .

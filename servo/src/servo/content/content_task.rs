@@ -250,7 +250,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 url_to_str
@@ -334,11 +334,11 @@ ControlMsg
 {
 ParseMsg
 (
-url
+Url
 )
 ExecuteMsg
 (
-url
+Url
 )
 Timer
 (
@@ -586,7 +586,7 @@ doc_url
 :
 Option
 <
-url
+Url
 >
 ;
 let
@@ -1471,7 +1471,7 @@ Document
 doc_url
 :
 &
-url
+Url
 )
 {
 #

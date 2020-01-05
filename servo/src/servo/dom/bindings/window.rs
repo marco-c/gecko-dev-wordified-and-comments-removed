@@ -573,6 +573,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 RUST_JSVAL_TO_PRIVATE
 (
 val
@@ -623,6 +624,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 RUST_JSVAL_TO_PRIVATE
 (
 val
@@ -832,6 +834,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 squirrel_away
 (
 win

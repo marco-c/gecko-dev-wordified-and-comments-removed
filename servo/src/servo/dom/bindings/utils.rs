@@ -437,6 +437,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 buf
 )
 ;
@@ -499,6 +500,7 @@ unsafe
 :
 reinterpret_cast
 (
+&
 priv
 )
 ;

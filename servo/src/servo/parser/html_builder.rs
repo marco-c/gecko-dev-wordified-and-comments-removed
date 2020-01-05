@@ -114,7 +114,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 resource
@@ -141,7 +141,7 @@ CSSMessage
 {
 File
 (
-url
+Url
 )
 Exit
 }
@@ -150,7 +150,7 @@ js_message
 {
 js_file
 (
-url
+Url
 )
 js_exit
 }
@@ -1083,7 +1083,7 @@ Token
 >
 url
 :
-url
+Url
 resource_task
 :
 ResourceTask

@@ -164,7 +164,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 resource
@@ -674,7 +674,7 @@ url
 :
 Option
 <
-url
+Url
 >
 ;
 let
@@ -708,7 +708,7 @@ new
 -
 url
 :
-url
+Url
 image_cache_task
 :
 ImageCacheTask

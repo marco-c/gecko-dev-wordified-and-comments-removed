@@ -29,7 +29,7 @@ import
 intrinsic
 :
 :
-tydesc
+TyDesc
 ;
 export
 full_traversal

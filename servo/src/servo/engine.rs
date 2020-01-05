@@ -86,7 +86,7 @@ net
 url
 :
 :
-url
+Url
 ;
 import
 resource
@@ -543,7 +543,7 @@ send
 {
 LoadURL
 (
-url
+Url
 )
 -
 >

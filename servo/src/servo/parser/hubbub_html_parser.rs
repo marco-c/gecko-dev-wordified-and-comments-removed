@@ -157,8 +157,6 @@ unsafe
 reinterpret_cast
 ;
 use
-Url
-=
 std
 :
 :
@@ -168,7 +166,7 @@ net
 url
 :
 :
-url
+Url
 ;
 type
 JSResult
@@ -1106,6 +1104,7 @@ set_document_node
 (
 reinterpret_cast
 (
+&
 root
 )
 )
@@ -1189,6 +1188,7 @@ unsafe
 {
 reinterpret_cast
 (
+&
 new_node
 )
 }
@@ -1604,6 +1604,7 @@ unsafe
 {
 reinterpret_cast
 (
+&
 node
 )
 }
@@ -1643,6 +1644,7 @@ unsafe
 {
 reinterpret_cast
 (
+&
 new_node
 )
 }
@@ -1684,10 +1686,12 @@ add_child
 (
 reinterpret_cast
 (
+&
 parent
 )
 reinterpret_cast
 (
+&
 child
 )
 )
@@ -1882,6 +1886,7 @@ read
 (
 reinterpret_cast
 (
+&
 script
 )
 )
