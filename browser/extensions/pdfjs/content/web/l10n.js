@@ -595,8 +595,6 @@ get
 :
 translateString
 getLanguage
-:
-function
 (
 )
 {
@@ -605,8 +603,6 @@ gLanguage
 ;
 }
 getDirection
-:
-function
 (
 )
 {
@@ -669,8 +665,6 @@ ltr
 ;
 }
 getReadyState
-:
-function
 (
 )
 {
@@ -679,8 +673,6 @@ gReadyState
 ;
 }
 setExternalLocalizerServices
-:
-function
 (
 externalLocalizerServices
 )

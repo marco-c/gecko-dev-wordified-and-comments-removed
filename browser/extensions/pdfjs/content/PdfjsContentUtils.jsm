@@ -109,8 +109,6 @@ PROCESS_TYPE_CONTENT
 ;
 }
 init
-:
-function
 (
 )
 {
@@ -180,8 +178,6 @@ false
 }
 }
 uninit
-:
-function
 (
 )
 {
@@ -231,8 +227,6 @@ null
 ;
 }
 clearUserPref
-:
-function
 (
 aPrefName
 )
@@ -259,8 +253,6 @@ aPrefName
 ;
 }
 setIntPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -291,8 +283,6 @@ aPrefValue
 ;
 }
 setBoolPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -323,8 +313,6 @@ aPrefValue
 ;
 }
 setCharPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -355,8 +343,6 @@ aPrefValue
 ;
 }
 setStringPref
-:
-function
 (
 aPrefName
 aPrefValue
@@ -387,8 +373,6 @@ aPrefValue
 ;
 }
 isDefaultHandlerApp
-:
-function
 (
 )
 {
@@ -413,13 +397,11 @@ isDefaultHandlerApp
 ;
 }
 displayWarning
-:
-function
 (
 aWindow
 aMessage
 aLabel
-accessKey
+aAccessKey
 )
 {
 let
@@ -475,14 +457,12 @@ label
 aLabel
 accessKey
 :
-accessKey
+aAccessKey
 }
 )
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -511,8 +491,6 @@ uninit
 }
 }
 receiveMessage
-:
-function
 (
 aMsg
 )
