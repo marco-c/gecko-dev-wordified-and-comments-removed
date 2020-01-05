@@ -297,6 +297,10 @@ attr
 ;
 pub
 mod
+attrlist
+;
+pub
+mod
 blob
 ;
 pub
