@@ -473,7 +473,7 @@ JSRef
 <
 Element
 >
-name
+local_name
 :
 &
 Atom
@@ -492,13 +492,14 @@ element
 .
 get_attribute
 (
+&
 ns
 !
 (
 "
 "
 )
-name
+local_name
 )
 .
 root

@@ -1762,15 +1762,12 @@ Element
 )
 {
 let
+ref
 ns
 =
 self
 .
 namespace
-.
-clone
-(
-)
 ;
 match
 (
@@ -1807,6 +1804,7 @@ new
 .
 get_attribute
 (
+&
 ns
 &
 self
@@ -1846,6 +1844,7 @@ old
 .
 get_attribute
 (
+&
 ns
 &
 self

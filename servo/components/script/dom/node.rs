@@ -14559,7 +14559,7 @@ str
 bool
 {
 let
-name
+local_name
 =
 {
 if
@@ -14608,11 +14608,7 @@ as_element
 get_attribute
 (
 ns
-.
-clone
-(
-)
-name
+local_name
 )
 .
 root
@@ -14670,7 +14666,7 @@ as_element
 .
 get_attributes
 (
-name
+local_name
 )
 .
 into_iter

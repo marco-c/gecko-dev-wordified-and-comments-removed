@@ -1022,6 +1022,7 @@ element
 .
 get_attribute
 (
+&
 ns
 !
 (

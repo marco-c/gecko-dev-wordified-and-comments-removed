@@ -507,6 +507,7 @@ elem
 .
 get_attribute
 (
+&
 ns
 !
 (
@@ -546,6 +547,7 @@ elem
 .
 get_attribute
 (
+&
 ns
 !
 (
