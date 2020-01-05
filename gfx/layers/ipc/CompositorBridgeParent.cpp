@@ -439,6 +439,17 @@ mozilla
 /
 layers
 /
+WebRenderAPI
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 WebRenderBridgeParent
 .
 h

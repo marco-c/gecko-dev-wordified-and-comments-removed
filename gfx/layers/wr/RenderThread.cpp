@@ -135,7 +135,7 @@ base
 Thread
 (
 "
-Compositor
+Renderer
 "
 )
 ;
@@ -547,6 +547,8 @@ aEvent
 )
 )
 )
+;
+return
 ;
 }
 aEvent
