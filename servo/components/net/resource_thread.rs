@@ -3854,8 +3854,6 @@ debug
 !
 (
 "
-resource_thread
-:
 loading
 url
 :
@@ -3958,6 +3956,17 @@ clone
 (
 )
 ;
+let
+dc
+=
+self
+.
+devtools_chan
+.
+clone
+(
+)
+;
 spawn_named
 (
 format
@@ -4025,6 +4034,9 @@ http_state
 user_agent
 :
 ua
+devtools_chan
+:
+dc
 }
 ;
 fetch

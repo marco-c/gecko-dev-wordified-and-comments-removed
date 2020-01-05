@@ -1076,6 +1076,10 @@ pub
 send_time
 :
 u64
+pub
+is_xhr
+:
+bool
 }
 #
 [

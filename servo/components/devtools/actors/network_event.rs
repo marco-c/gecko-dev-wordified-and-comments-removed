@@ -179,6 +179,9 @@ HttpRequest
 response
 :
 HttpResponse
+is_xhr
+:
+bool
 }
 #
 [
@@ -1549,6 +1552,9 @@ body
 :
 None
 }
+is_xhr
+:
+false
 }
 }
 pub
@@ -1658,6 +1664,14 @@ send_time
 request
 .
 send_time
+;
+self
+.
+is_xhr
+=
+request
+.
+is_xhr
 ;
 }
 pub
@@ -1789,7 +1803,9 @@ request
 timeStamp
 isXHR
 :
-false
+self
+.
+is_xhr
 private
 :
 false
