@@ -125,7 +125,7 @@ content
 /
 test
 /
-general
+sync
 /
 "
 ;
@@ -256,7 +256,7 @@ content
 /
 test
 /
-general
+sync
 /
 accounts_testRemoteCommands
 .

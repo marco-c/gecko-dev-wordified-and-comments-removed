@@ -1312,7 +1312,7 @@ context_sendTabToDevicePopupMenu
 onpopupshowing
 =
 "
-gFxAccounts
+gSync
 .
 populateSendTabToDevicesMenu
 (
@@ -4701,7 +4701,7 @@ syncedTabsManageDevices
 oncommand
 =
 "
-gFxAccounts
+gSync
 .
 openDevicesManagementPage
 (

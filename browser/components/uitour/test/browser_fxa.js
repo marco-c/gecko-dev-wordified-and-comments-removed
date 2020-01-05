@@ -75,7 +75,7 @@ signOut
 (
 )
 ;
-gFxAccounts
+gSync
 .
 updateUI
 (
@@ -202,7 +202,7 @@ now
 "
 )
 ;
-gFxAccounts
+gSync
 .
 updateUI
 (
