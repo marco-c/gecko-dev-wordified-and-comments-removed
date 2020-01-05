@@ -6507,6 +6507,14 @@ aEventType
 mozilla
 :
 :
+dom
+:
+:
+CallerType
+aCallerType
+mozilla
+:
+:
 ErrorResult
 &
 rv

@@ -136,11 +136,6 @@ nsIDOMCustomEvent
 idl
 '
 '
-nsIDOMDataContainerEvent
-.
-idl
-'
-'
 nsIDOMDataTransfer
 .
 idl

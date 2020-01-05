@@ -91,6 +91,13 @@ MPL
 .
 *
 /
+[
+Func
+=
+"
+IsChromeOrXBL
+"
+]
 interface
 CommandEvent
 :

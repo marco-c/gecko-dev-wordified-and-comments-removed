@@ -482,6 +482,7 @@ node
 [
 NewObject
 Throws
+NeedsCallerType
 ]
 Event
 createEvent

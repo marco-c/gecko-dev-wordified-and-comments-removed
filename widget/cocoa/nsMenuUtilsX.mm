@@ -265,6 +265,13 @@ NS_LITERAL_STRING
 xulcommandevent
 "
 )
+dom
+:
+:
+CallerType
+:
+:
+System
 rv
 )
 ;

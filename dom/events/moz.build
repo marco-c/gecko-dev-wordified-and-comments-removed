@@ -270,11 +270,6 @@ CustomEvent
 h
 '
 '
-DataContainerEvent
-.
-h
-'
-'
 DataTransfer
 .
 h
@@ -478,11 +473,6 @@ cpp
 '
 '
 CustomEvent
-.
-cpp
-'
-'
-DataContainerEvent
 .
 cpp
 '

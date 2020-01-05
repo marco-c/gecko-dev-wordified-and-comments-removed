@@ -101,6 +101,13 @@ idl
 .
 *
 /
+[
+Func
+=
+"
+IsChromeOrXBL
+"
+]
 interface
 SimpleGestureEvent
 :
