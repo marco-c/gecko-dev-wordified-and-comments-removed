@@ -1322,6 +1322,9 @@ except
 (
 urllib2
 .
+HTTPError
+urllib2
+.
 URLError
 socket
 .
