@@ -72,10 +72,6 @@ post
 -
 build
 '
-             
-allow_all_args
-=
-True
 )
     
 CommandArgument
@@ -84,9 +80,6 @@ CommandArgument
 '
 params
 '
-default
-=
-None
 nargs
 =
 '
@@ -183,10 +176,6 @@ post
 -
 build
 '
-             
-allow_all_args
-=
-True
 )
     
 CommandArgument
@@ -288,10 +277,6 @@ post
 -
 build
 '
-             
-allow_all_args
-=
-True
 )
     
 CommandArgument

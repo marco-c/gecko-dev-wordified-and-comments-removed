@@ -55,10 +55,6 @@ category
 '
 devenv
 '
-             
-allow_all_args
-=
-True
 )
     
 CommandArgument
@@ -145,10 +141,6 @@ category
 '
 devenv
 '
-             
-allow_all_args
-=
-True
 )
     
 CommandArgument
@@ -295,10 +287,6 @@ category
 '
 devenv
 '
-             
-allow_all_args
-=
-True
 )
     
 CommandArgument

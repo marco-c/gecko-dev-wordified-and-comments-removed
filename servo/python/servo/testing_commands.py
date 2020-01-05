@@ -381,10 +381,6 @@ category
 '
 testing
 '
-             
-allow_all_args
-=
-True
 )
     
 CommandArgument
@@ -854,10 +850,6 @@ category
 '
 testing
 '
-             
-allow_all_args
-=
-True
 )
     
 CommandArgument
@@ -1067,10 +1059,6 @@ category
 '
 testing
 '
-             
-allow_all_args
-=
-True
 )
     
 CommandArgument
