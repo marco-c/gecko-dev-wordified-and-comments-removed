@@ -179,14 +179,6 @@ SharedLibrary
 replace_jemalloc
 '
 )
-USE_LIBS
-+
-=
-[
-'
-jemalloc
-'
-]
 DEFINES
 [
 '
