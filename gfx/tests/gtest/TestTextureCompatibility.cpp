@@ -268,7 +268,7 @@ aTextureHosts
 .
 AppendElement
 (
-TestCreateTextureHost
+CreateTextureHostWithBackend
 (
 aTextureClients
 [
