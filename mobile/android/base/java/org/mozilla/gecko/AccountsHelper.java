@@ -332,9 +332,9 @@ profile
 EventDispatcher
 dispatcher
 =
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 ;
@@ -422,9 +422,9 @@ uninit
 EventDispatcher
 dispatcher
 =
-EventDispatcher
+GeckoApp
 .
-getInstance
+getEventDispatcher
 (
 )
 ;
