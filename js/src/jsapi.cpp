@@ -24776,7 +24776,10 @@ resolutionValue
 MOZ_ASSERT_IF
 (
 promise
+CheckedUnwrap
+(
 promise
+)
 -
 >
 is
@@ -24844,7 +24847,10 @@ rejectionValue
 MOZ_ASSERT_IF
 (
 promise
+CheckedUnwrap
+(
 promise
+)
 -
 >
 is
