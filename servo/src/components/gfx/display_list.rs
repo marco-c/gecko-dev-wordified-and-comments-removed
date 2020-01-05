@@ -267,7 +267,6 @@ DisplayList
 {
 list
 :
-mut
 list
 }
 =
@@ -588,7 +587,6 @@ floats
 content
 positioned_descendants
 :
-mut
 positioned_descendants
 }
 =

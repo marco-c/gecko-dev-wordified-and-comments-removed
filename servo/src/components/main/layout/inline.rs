@@ -5708,7 +5708,6 @@ FragmentMap
 {
 list
 :
-mut
 other_list
 }
 =
@@ -5868,7 +5867,6 @@ Box
 )
 {
 let
-mut
 old_list
 =
 mem
