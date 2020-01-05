@@ -105,6 +105,7 @@ context
 :
 {
 ThreadLocalStyleContextCreationInfo
+QuirksMode
 ReflowGoal
 SharedStyleContext
 StyleContext
@@ -849,6 +850,12 @@ Timer
 new
 (
 )
+quirks_mode
+:
+QuirksMode
+:
+:
+NoQuirks
 }
 }
 fn
