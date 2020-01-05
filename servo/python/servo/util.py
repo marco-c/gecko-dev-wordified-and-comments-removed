@@ -275,6 +275,10 @@ get
 PLATFORM
 "
 )
+.
+upper
+(
+)
         
 if
 platform_env
