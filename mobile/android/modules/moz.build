@@ -213,4 +213,9 @@ TabMirror
 .
 jsm
 '
+'
+WebsiteMetadata
+.
+jsm
+'
 ]
