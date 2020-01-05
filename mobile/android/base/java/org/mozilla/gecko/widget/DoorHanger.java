@@ -113,13 +113,6 @@ TextView
 import
 org
 .
-json
-.
-JSONObject
-;
-import
-org
-.
 mozilla
 .
 gecko
@@ -259,7 +252,7 @@ public
 void
 onButtonClick
 (
-JSONObject
+GeckoBundle
 response
 DoorHanger
 doorhanger
