@@ -102,6 +102,15 @@ include
 "
 mozilla
 /
+TimeStamp
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -1089,7 +1098,7 @@ digestBufLen
 ;
 }
 static
-PRIntervalTime
+TimeDuration
 OCSPFetchingTypeToTimeoutTime
 (
 NSSCertDBTrustDomain
@@ -1111,7 +1120,10 @@ NSSCertDBTrustDomain
 FetchOCSPForDVSoftFail
 :
 return
-PR_SecondsToInterval
+TimeDuration
+:
+:
+FromSeconds
 (
 2
 )
@@ -1129,7 +1141,10 @@ NSSCertDBTrustDomain
 FetchOCSPForDVHardFail
 :
 return
-PR_SecondsToInterval
+TimeDuration
+:
+:
+FromSeconds
 (
 10
 )
@@ -1146,7 +1161,7 @@ NSSCertDBTrustDomain
 :
 LocalOnlyOCSPForEV
 :
-PR_NOT_REACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 we
@@ -1163,7 +1178,7 @@ here
 break
 ;
 }
-PR_NOT_REACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 we
@@ -1178,7 +1193,10 @@ type
 )
 ;
 return
-PR_SecondsToInterval
+TimeDuration
+:
+:
+FromSeconds
 (
 2
 )
@@ -4660,7 +4678,7 @@ break
 ;
 default
 :
-PR_NOT_REACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 We

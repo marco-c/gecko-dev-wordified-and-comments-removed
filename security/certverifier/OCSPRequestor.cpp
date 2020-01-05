@@ -294,7 +294,7 @@ const
 SECItem
 *
 encodedRequest
-PRIntervalTime
+TimeDuration
 timeout
 bool
 useGET

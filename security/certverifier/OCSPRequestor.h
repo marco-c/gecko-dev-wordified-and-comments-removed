@@ -14,6 +14,15 @@ h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 secmodt
 .
 h
@@ -50,7 +59,7 @@ const
 SECItem
 *
 encodedRequest
-PRIntervalTime
+TimeDuration
 timeout
 bool
 useGET
