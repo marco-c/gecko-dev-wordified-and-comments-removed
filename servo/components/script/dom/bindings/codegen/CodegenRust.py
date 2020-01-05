@@ -15160,7 +15160,10 @@ self
 customDefineProperty
 =
 '
-defineProperty_
+proxyhandler
+:
+:
+define_property
 '
         
 if
@@ -15196,7 +15199,10 @@ defineProperty
 customDelete
 =
 '
-delete_
+proxyhandler
+:
+:
+delete
 '
         
 if
@@ -15234,7 +15240,7 @@ getPropertyDescriptor
 :
 Some
 (
-getPropertyDescriptor
+get_property_descriptor
 as
 unsafe
 extern
@@ -15324,7 +15330,10 @@ getOwnPropertyNames
 :
 Some
 (
-getOwnPropertyNames_
+proxyhandler
+:
+:
+get_own_property_names
 as
 unsafe
 extern
@@ -15382,7 +15391,10 @@ enumerate
 :
 Some
 (
-enumerate_
+proxyhandler
+:
+:
+enumerate
 as
 unsafe
 extern
@@ -27481,7 +27493,7 @@ None
 fillDescriptor
 =
 "
-FillPropertyDescriptor
+fill_property_descriptor
 (
 &
 mut
@@ -27710,7 +27722,7 @@ setOrIndexedGet
 =
 (
 "
-FillPropertyDescriptor
+fill_property_descriptor
 (
 &
 mut
@@ -27792,7 +27804,7 @@ setOrIndexedGet
 =
 (
 "
-FillPropertyDescriptor
+fill_property_descriptor
 (
 &
 mut
@@ -27952,7 +27964,7 @@ None
 fillDescriptor
 =
 "
-FillPropertyDescriptor
+fill_property_descriptor
 (
 &
 mut
@@ -28141,7 +28153,7 @@ expando
 mut
 JSObject
 =
-GetExpandoObject
+get_expando_object
 (
 proxy
 )
@@ -29000,7 +29012,7 @@ return
 proxyhandler
 :
 :
-defineProperty_
+define_property
 (
 %
 s
@@ -29244,7 +29256,7 @@ return
 proxyhandler
 :
 :
-delete_
+delete
 (
 %
 s
@@ -29722,7 +29734,7 @@ expando
 mut
 JSObject
 =
-GetExpandoObject
+get_expando_object
 (
 proxy
 )
@@ -29936,7 +29948,7 @@ getFromExpando
 let
 expando
 =
-GetExpandoObject
+get_expando_object
 (
 proxy
 )
@@ -30717,7 +30729,10 @@ return
 "
 "
 "
-_obj_toString
+proxyhandler
+:
+:
+object_to_string
 (
 cx
 "
@@ -35878,8 +35893,8 @@ proxyhandler
 :
 :
 {
-_obj_toString
-defineProperty_
+fill_property_descriptor
+get_expando_object
 }
 '
             
@@ -35894,40 +35909,7 @@ proxyhandler
 :
 :
 {
-FillPropertyDescriptor
-GetExpandoObject
-}
-'
-            
-'
-dom
-:
-:
-bindings
-:
-:
-proxyhandler
-:
-:
-{
-delete_
-getPropertyDescriptor
-}
-'
-            
-'
-dom
-:
-:
-bindings
-:
-:
-proxyhandler
-:
-:
-{
-getOwnPropertyNames_
-enumerate_
+get_property_descriptor
 }
 '
             

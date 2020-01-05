@@ -190,7 +190,7 @@ pub
 unsafe
 extern
 fn
-getPropertyDescriptor
+get_property_descriptor
 (
 cx
 :
@@ -308,7 +308,7 @@ pub
 unsafe
 extern
 fn
-defineProperty_
+define_property
 (
 cx
 :
@@ -434,7 +434,7 @@ JSMSG_GETTER_ONLY
 let
 expando
 =
-EnsureExpandoObject
+ensure_expando_object
 (
 cx
 proxy
@@ -480,7 +480,7 @@ pub
 unsafe
 extern
 fn
-delete_
+delete
 (
 cx
 :
@@ -508,7 +508,7 @@ bool
 let
 expando
 =
-GetExpandoObject
+get_expando_object
 (
 proxy
 )
@@ -544,7 +544,7 @@ bp
 }
 pub
 fn
-_obj_toString
+object_to_string
 (
 cx
 :
@@ -638,7 +638,7 @@ string
 }
 pub
 fn
-GetExpandoObject
+get_expando_object
 (
 obj
 :
@@ -698,7 +698,7 @@ to_object
 }
 pub
 fn
-EnsureExpandoObject
+ensure_expando_object
 (
 cx
 :
@@ -732,7 +732,7 @@ let
 mut
 expando
 =
-GetExpandoObject
+get_expando_object
 (
 obj
 )
@@ -798,7 +798,7 @@ expando
 }
 pub
 fn
-FillPropertyDescriptor
+fill_property_descriptor
 (
 desc
 :
@@ -860,7 +860,7 @@ pub
 unsafe
 extern
 fn
-getOwnPropertyNames_
+get_own_property_names
 (
 _cx
 :
@@ -888,7 +888,7 @@ pub
 unsafe
 extern
 fn
-enumerate_
+enumerate
 (
 _cx
 :
