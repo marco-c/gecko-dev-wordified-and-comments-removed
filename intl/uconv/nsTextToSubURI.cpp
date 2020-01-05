@@ -1452,7 +1452,9 @@ return
 NS_OK
 ;
 }
-return
+nsresult
+rv
+=
 convertURItoUnicode
 (
 PromiseFlatCString
@@ -1462,5 +1464,15 @@ aCharset
 unescapedSpec
 _retval
 )
+;
+return
+rv
+=
+=
+NS_OK_UDEC_MOREINPUT
+?
+NS_ERROR_UDEC_ILLEGALINPUT
+:
+rv
 ;
 }
