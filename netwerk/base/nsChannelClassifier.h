@@ -57,6 +57,8 @@ final
 :
 public
 nsIURIClassifierCallback
+public
+nsIObserver
 {
 public
 :
@@ -70,6 +72,7 @@ aChannel
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIURICLASSIFIERCALLBACK
+NS_DECL_NSIOBSERVER
 void
 Start
 (

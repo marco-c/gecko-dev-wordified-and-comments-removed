@@ -875,6 +875,15 @@ lock
 mPendingLookupLock
 )
 ;
+if
+(
+gShuttingDownThread
+)
+{
+return
+NS_ERROR_ABORT
+;
+}
 PendingLookup
 *
 lookup
