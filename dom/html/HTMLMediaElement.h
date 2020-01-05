@@ -210,6 +210,9 @@ namespace
 dom
 {
 class
+AudioChannelAgent
+;
+class
 MediaKeys
 ;
 class
@@ -2936,8 +2939,8 @@ bool
 aPlaying
 )
 ;
-bool
-MaybeCreateAudioChannelAgent
+void
+CreateAudioChannelAgent
 (
 )
 ;
@@ -3399,9 +3402,9 @@ mPlayingThroughTheAudioChannel
 bool
 mDisableVideo
 ;
-nsCOMPtr
+RefPtr
 <
-nsIAudioChannelAgent
+AudioChannelAgent
 >
 mAudioChannelAgent
 ;
