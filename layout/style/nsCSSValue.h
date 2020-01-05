@@ -1557,8 +1557,7 @@ ToComplexColor
 const
 {
 return
-StyleComplexColor
-(
+{
 mColor
 .
 ToColor
@@ -1572,7 +1571,7 @@ mForegroundRatio
 .
 0f
 )
-)
+}
 ;
 }
 }
