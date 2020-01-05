@@ -14,15 +14,6 @@ mozilla
 .
 gecko
 .
-EventDispatcher
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoApp
 ;
 import

@@ -73,13 +73,6 @@ util
 Log
 ;
 import
-android
-.
-util
-.
-TypedValue
-;
-import
 java
 .
 nio
