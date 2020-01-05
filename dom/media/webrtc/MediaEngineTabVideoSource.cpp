@@ -1046,6 +1046,17 @@ mon
 mMonitor
 )
 ;
+if
+(
+mState
+!
+=
+kStarted
+)
+{
+return
+;
+}
 RefPtr
 <
 layers
