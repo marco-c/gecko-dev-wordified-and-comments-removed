@@ -498,6 +498,16 @@ TickAnimation
 (
 PipelineId
 )
+GetRootPipeline
+(
+Sender
+<
+Option
+<
+PipelineId
+>
+>
+)
 }
 pub
 enum
