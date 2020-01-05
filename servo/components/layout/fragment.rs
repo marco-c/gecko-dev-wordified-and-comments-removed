@@ -13,15 +13,6 @@ canvas_traits
 CanvasMsg
 ;
 use
-css
-:
-:
-node_style
-:
-:
-StyledNode
-;
-use
 context
 :
 :
