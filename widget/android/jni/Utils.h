@@ -521,6 +521,11 @@ IsFennec
 (
 )
 ;
+int
+GetAPIVersion
+(
+)
+;
 }
 }
 #
