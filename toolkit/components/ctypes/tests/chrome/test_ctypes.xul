@@ -719,8 +719,13 @@ so
 ignore
 them
 .
+event
+.
+preventDefault
+(
+)
+;
 return
-true
 ;
 }
 ok
