@@ -33,8 +33,6 @@ this
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -202,8 +200,6 @@ accessKey
 :
 refreshButtonAccesskey
 callback
-:
-function
 (
 )
 {

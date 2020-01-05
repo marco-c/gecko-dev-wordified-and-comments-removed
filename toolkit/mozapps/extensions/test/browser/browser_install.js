@@ -229,8 +229,6 @@ addListener
 (
 {
 onInstallEnded
-:
-function
 (
 )
 {
@@ -289,8 +287,6 @@ findUpdates
 (
 {
 onUpdateAvailable
-:
-function
 (
 aAddon
 aInstall
@@ -320,8 +316,6 @@ addListener
 (
 {
 onDownloadEnded
-:
-function
 (
 )
 {
@@ -350,8 +344,6 @@ started
 ;
 }
 onInstallEnded
-:
-function
 (
 )
 {
@@ -411,8 +403,6 @@ addListener
 (
 {
 onDownloadEnded
-:
-function
 (
 aInstall
 )
@@ -626,8 +616,6 @@ addListener
 (
 {
 onInstallEnded
-:
-function
 (
 )
 {

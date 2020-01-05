@@ -80,8 +80,6 @@ ObjectUtils
 =
 {
 deepEqual
-:
-function
 (
 a
 b
@@ -96,8 +94,6 @@ b
 ;
 }
 strict
-:
-function
 (
 obj
 )
@@ -638,8 +634,6 @@ Proxy
 obj
 {
 get
-:
-function
 (
 target
 name

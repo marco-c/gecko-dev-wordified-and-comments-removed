@@ -37,8 +37,6 @@ _openTabsCount
 :
 0
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -135,8 +133,6 @@ window
 ;
 }
 onLocationChange
-:
-function
 (
 aBrowser
 aWebProgress
@@ -321,8 +317,6 @@ _itemId
 -
 1
 setup
-:
-function
 (
 )
 {
@@ -436,8 +430,6 @@ pane
 ;
 }
 finish
-:
-function
 (
 )
 {
@@ -449,8 +441,6 @@ runNextTest
 ;
 }
 cleanup
-:
-function
 (
 )
 {
@@ -502,8 +492,6 @@ _folderId
 -
 1
 setup
-:
-function
 (
 )
 {
@@ -641,8 +629,6 @@ pane
 ;
 }
 finish
-:
-function
 (
 )
 {
@@ -654,8 +640,6 @@ runNextTest
 ;
 }
 cleanup
-:
-function
 (
 )
 {
@@ -711,8 +695,6 @@ _queryId
 -
 1
 setup
-:
-function
 (
 )
 {
@@ -931,8 +913,6 @@ pane
 ;
 }
 finish
-:
-function
 (
 )
 {
@@ -944,8 +924,6 @@ runNextTest
 ;
 }
 cleanup
-:
-function
 (
 )
 {

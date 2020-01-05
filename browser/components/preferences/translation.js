@@ -189,8 +189,6 @@ count
 ;
 }
 getSelectedItems
-:
-function
 (
 )
 {
@@ -299,8 +297,6 @@ length
 ;
 }
 getCellText
-:
-function
 (
 aRow
 aColumn
@@ -316,8 +312,6 @@ aRow
 ;
 }
 isSeparator
-:
-function
 (
 aIndex
 )
@@ -327,8 +321,6 @@ false
 ;
 }
 isSorted
-:
-function
 (
 )
 {
@@ -337,8 +329,6 @@ false
 ;
 }
 isContainer
-:
-function
 (
 aIndex
 )
@@ -348,16 +338,12 @@ false
 ;
 }
 setTree
-:
-function
 (
 aTree
 )
 {
 }
 getImageSrc
-:
-function
 (
 aRow
 aColumn
@@ -365,8 +351,6 @@ aColumn
 {
 }
 getProgressMode
-:
-function
 (
 aRow
 aColumn
@@ -374,8 +358,6 @@ aColumn
 {
 }
 getCellValue
-:
-function
 (
 aRow
 aColumn
@@ -383,16 +365,12 @@ aColumn
 {
 }
 cycleHeader
-:
-function
 (
 column
 )
 {
 }
 getRowProperties
-:
-function
 (
 row
 )
@@ -403,8 +381,6 @@ return
 ;
 }
 getColumnProperties
-:
-function
 (
 column
 )
@@ -415,8 +391,6 @@ return
 ;
 }
 getCellProperties
-:
-function
 (
 row
 column
@@ -471,8 +445,6 @@ prototype
 =
 {
 toString
-:
-function
 (
 )
 {
@@ -488,8 +460,6 @@ gTranslationExceptions
 =
 {
 onLoad
-:
-function
 (
 )
 {
@@ -673,8 +643,6 @@ onLanguageSelected
 ;
 }
 getLanguageExceptions
-:
-function
 (
 )
 {
@@ -733,8 +701,6 @@ result
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -1063,8 +1029,6 @@ onLanguageSelected
 }
 }
 _handleButtonDisabling
-:
-function
 (
 aTree
 aIdPart
@@ -1119,8 +1083,6 @@ hasSelection
 ;
 }
 onLanguageSelected
-:
-function
 (
 )
 {
@@ -1138,8 +1100,6 @@ Language
 ;
 }
 onSiteSelected
-:
-function
 (
 )
 {
@@ -1157,8 +1117,6 @@ Site
 ;
 }
 onLanguageDeleted
-:
-function
 (
 )
 {
@@ -1247,8 +1205,6 @@ join
 ;
 }
 onAllLanguagesDeleted
-:
-function
 (
 )
 {
@@ -1265,8 +1221,6 @@ kLanguagesPref
 ;
 }
 onSiteDeleted
-:
-function
 (
 )
 {
@@ -1314,8 +1268,6 @@ kPermissionType
 }
 }
 onAllSitesDeleted
-:
-function
 (
 )
 {
@@ -1400,8 +1352,6 @@ onSiteSelected
 ;
 }
 onSiteKeyPress
-:
-function
 (
 aEvent
 )
@@ -1425,8 +1375,6 @@ onSiteDeleted
 ;
 }
 onLanguageKeyPress
-:
-function
 (
 aEvent
 )
@@ -1450,8 +1398,6 @@ onLanguageDeleted
 ;
 }
 onWindowKeyPress
-:
-function
 (
 aEvent
 )
@@ -1475,8 +1421,6 @@ close
 ;
 }
 uninit
-:
-function
 (
 )
 {

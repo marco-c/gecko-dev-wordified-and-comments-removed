@@ -692,8 +692,6 @@ nsIDirectoryServiceProvider2
 ]
 )
 getFile
-:
-function
 (
 prop
 persistant
@@ -706,8 +704,6 @@ NS_ERROR_FAILURE
 ;
 }
 getFiles
-:
-function
 (
 prop
 )
@@ -924,8 +920,6 @@ registerProvider
 (
 {
 getFile
-:
-function
 (
 aProp
 aPersistent

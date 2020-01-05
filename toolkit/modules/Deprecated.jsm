@@ -190,8 +190,6 @@ Deprecated
 =
 {
 warning
-:
-function
 (
 aText
 aUrl

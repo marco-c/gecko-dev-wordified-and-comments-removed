@@ -630,8 +630,6 @@ _pendingClient
 :
 null
 init
-:
-function
 (
 )
 {
@@ -807,8 +805,6 @@ nsISupportsWeakReference
 ]
 )
 observe
-:
-function
 (
 subject
 topic
@@ -1057,8 +1053,6 @@ this
 ;
 }
 log
-:
-function
 (
 message
 )
@@ -1103,8 +1097,6 @@ message
 ;
 }
 autoCompleteSearchAsync
-:
-function
 (
 aInputName
 aUntrimmedSearchString
@@ -2088,8 +2080,6 @@ historyResult
 ;
 }
 stopAutoCompleteSearch
-:
-function
 (
 )
 {
@@ -2117,8 +2107,6 @@ null
 }
 }
 getAutoCompleteValues
-:
-function
 (
 client
 fieldName
@@ -2227,8 +2215,6 @@ client
 ;
 }
 _calculateScore
-:
-function
 (
 entry
 aSearchString
@@ -2410,8 +2396,6 @@ fieldName
 :
 null
 _checkIndexBounds
-:
-function
 (
 index
 )
@@ -2536,8 +2520,6 @@ length
 ;
 }
 getValueAt
-:
-function
 (
 index
 )
@@ -2561,8 +2543,6 @@ text
 ;
 }
 getLabelAt
-:
-function
 (
 index
 )
@@ -2577,8 +2557,6 @@ index
 ;
 }
 getCommentAt
-:
-function
 (
 index
 )
@@ -2596,8 +2574,6 @@ return
 ;
 }
 getStyleAt
-:
-function
 (
 index
 )
@@ -2615,8 +2591,6 @@ return
 ;
 }
 getImageAt
-:
-function
 (
 index
 )
@@ -2634,8 +2608,6 @@ return
 ;
 }
 getFinalCompleteValueAt
-:
-function
 (
 index
 )
@@ -2650,8 +2622,6 @@ index
 ;
 }
 removeValueAt
-:
-function
 (
 index
 removeFromDB

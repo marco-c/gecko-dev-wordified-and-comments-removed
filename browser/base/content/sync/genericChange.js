@@ -1119,8 +1119,6 @@ close
 ;
 }
 onDialogAccept
-:
-function
 (
 )
 {
@@ -1166,8 +1164,6 @@ undefined
 ;
 }
 doGeneratePassphrase
-:
-function
 (
 )
 {
@@ -1555,8 +1551,6 @@ false
 ;
 }
 validate
-:
-function
 (
 event
 )

@@ -93,8 +93,6 @@ element
 body
 "
 go
-:
-function
 (
 )
 {
@@ -107,8 +105,6 @@ gBrowser
 .
 selectedBrowser
 {
-writeDomainURL
-:
 writeDomainURL
 }
 function
@@ -159,8 +155,6 @@ viewbgimage
 ;
 }
 verify
-:
-function
 (
 )
 {
@@ -235,8 +229,6 @@ element
 img
 "
 go
-:
-function
 (
 )
 {
@@ -249,8 +241,6 @@ gBrowser
 .
 selectedBrowser
 {
-writeDomainURL
-:
 writeDomainURL
 }
 function
@@ -328,8 +318,6 @@ viewimage
 ;
 }
 verify
-:
-function
 (
 )
 {
@@ -405,8 +393,6 @@ element
 iframe
 "
 go
-:
-function
 (
 )
 {
@@ -419,8 +405,6 @@ gBrowser
 .
 selectedBrowser
 {
-writeDomainURL
-:
 writeDomainURL
 }
 function
@@ -526,8 +510,6 @@ true
 ;
 }
 verify
-:
-function
 (
 )
 {

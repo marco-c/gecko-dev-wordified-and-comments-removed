@@ -1815,8 +1815,6 @@ query
 options
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -1875,8 +1873,6 @@ e
 }
 }
 handleError
-:
-function
 (
 aError
 )
@@ -1910,8 +1906,6 @@ message
 ;
 }
 handleCompletion
-:
-function
 (
 aReason
 )

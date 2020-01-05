@@ -259,8 +259,6 @@ _request
 :
 null
 fetch
-:
-function
 (
 searchTerm
 privateMode
@@ -573,8 +571,6 @@ handleRejection
 ;
 }
 stop
-:
-function
 (
 )
 {
@@ -634,8 +630,6 @@ _reset
 ;
 }
 _fetchFormHistory
-:
-function
 (
 searchTerm
 )
@@ -920,8 +914,6 @@ deferredFormHistory
 ;
 }
 _fetchRemote
-:
-function
 (
 searchTerm
 engine
@@ -1120,8 +1112,6 @@ deferredResponse
 ;
 }
 _onRemoteLoaded
-:
-function
 (
 deferredResponse
 )
@@ -1347,8 +1337,6 @@ results
 ;
 }
 _onRemoteTimeout
-:
-function
 (
 )
 {
@@ -1392,8 +1380,6 @@ null
 }
 }
 _dedupeAndReturnResults
-:
-function
 (
 suggestResults
 )
@@ -1667,8 +1653,6 @@ results
 ;
 }
 _reset
-:
-function
 (
 )
 {

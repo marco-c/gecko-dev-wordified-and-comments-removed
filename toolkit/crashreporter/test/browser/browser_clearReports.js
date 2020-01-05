@@ -239,8 +239,6 @@ prompt
 =
 {
 confirm
-:
-function
 (
 )
 {

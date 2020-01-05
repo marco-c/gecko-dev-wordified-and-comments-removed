@@ -2362,8 +2362,6 @@ PasswordManager
 "
 {
 filterString
-:
-filterString
 }
 )
 ;

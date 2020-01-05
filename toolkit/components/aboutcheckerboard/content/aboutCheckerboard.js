@@ -615,8 +615,6 @@ push
 (
 {
 timestamp
-:
-timestamp
 rects
 :
 {

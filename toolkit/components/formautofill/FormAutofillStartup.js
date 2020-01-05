@@ -132,8 +132,6 @@ nsISupportsWeakReference
 ]
 )
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -177,8 +175,6 @@ this
 ;
 }
 receiveMessage
-:
-function
 (
 aMessage
 )

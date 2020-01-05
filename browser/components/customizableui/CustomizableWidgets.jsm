@@ -1309,8 +1309,6 @@ CustomizableUI
 .
 AREA_PANEL
 onViewShowing
-:
-function
 (
 aEvent
 )
@@ -1481,8 +1479,6 @@ query
 options
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -1719,8 +1715,6 @@ fragment
 ;
 }
 handleError
-:
-function
 (
 aError
 )
@@ -1747,8 +1741,6 @@ aError
 ;
 }
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -2042,8 +2034,6 @@ windowsFragment
 ;
 }
 onCreated
-:
-function
 (
 aNode
 )
@@ -2133,8 +2123,6 @@ onRecentlyClosedClick
 ;
 }
 onViewHiding
-:
-function
 (
 aEvent
 )
@@ -3099,8 +3087,6 @@ messageLabel
 ;
 }
 _appendClient
-:
-function
 (
 client
 attachFragment
@@ -3457,8 +3443,6 @@ CustomizableUI
 .
 AREA_PANEL
 onCommand
-:
-function
 (
 e
 )
@@ -3517,8 +3501,6 @@ CustomizableUI
 .
 AREA_PANEL
 onCommand
-:
-function
 (
 aEvent
 )
@@ -3573,8 +3555,6 @@ CustomizableUI
 .
 AREA_PANEL
 onCommand
-:
-function
 (
 aEvent
 )
@@ -3638,8 +3618,6 @@ CustomizableUI
 .
 AREA_PANEL
 onCommand
-:
-function
 (
 aEvent
 )
@@ -3691,8 +3669,6 @@ button
 tooltiptext2
 "
 onViewShowing
-:
-function
 (
 aEvent
 )
@@ -3768,8 +3744,6 @@ type
 custom
 "
 onBuild
-:
-function
 (
 aDocument
 )
@@ -4071,8 +4045,6 @@ CustomizableUI
 .
 AREA_PANEL
 onCommand
-:
-function
 (
 aEvent
 )
@@ -4122,8 +4094,6 @@ CustomizableUI
 .
 AREA_PANEL
 onBuild
-:
-function
 (
 aDocument
 )
@@ -5115,8 +5085,6 @@ bind
 this
 )
 onCustomizeStart
-:
-function
 (
 aWindow
 )
@@ -5138,8 +5106,6 @@ updateZoomResetButton
 }
 }
 onCustomizeEnd
-:
-function
 (
 aWindow
 )
@@ -5243,8 +5209,6 @@ CustomizableUI
 .
 AREA_PANEL
 onBuild
-:
-function
 (
 aDocument
 )
@@ -5803,8 +5767,6 @@ CustomizableUI
 .
 AREA_PANEL
 onClick
-:
-function
 (
 aEvent
 )
@@ -5904,8 +5866,6 @@ target
 }
 }
 onViewShowing
-:
-function
 (
 aEvent
 )
@@ -5971,8 +5931,6 @@ return
 }
 }
 onCreated
-:
-function
 (
 node
 )
@@ -6074,8 +6032,6 @@ CustomizableUI
 .
 AREA_PANEL
 maybeDisableMenu
-:
-function
 (
 aDocument
 )
@@ -6106,8 +6062,6 @@ mayEnableCharacterEncodingMenu
 ;
 }
 populateList
-:
-function
 (
 aDocument
 aContainerId
@@ -6228,8 +6182,6 @@ elem
 }
 }
 updateCurrentCharset
-:
-function
 (
 aDocument
 )
@@ -6320,8 +6272,6 @@ currentCharset
 ;
 }
 updateCurrentDetector
-:
-function
 (
 aDocument
 )
@@ -6388,8 +6338,6 @@ currentDetector
 ;
 }
 _updateElements
-:
-function
 (
 aElements
 aCurrentItem
@@ -6505,8 +6453,6 @@ checked
 }
 }
 onViewShowing
-:
-function
 (
 aEvent
 )
@@ -6646,8 +6592,6 @@ document
 ;
 }
 onCommand
-:
-function
 (
 aEvent
 )
@@ -6804,8 +6748,6 @@ BrowserCharsetReload
 }
 }
 onCreated
-:
-function
 (
 aNode
 )
@@ -7123,8 +7065,6 @@ button
 tooltiptext3
 "
 onCommand
-:
-function
 (
 aEvent
 )
@@ -7174,8 +7114,6 @@ hasObserver
 :
 false
 onCreated
-:
-function
 (
 aNode
 )
@@ -7342,8 +7280,6 @@ true
 }
 }
 onViewShowing
-:
-function
 (
 aEvent
 )
@@ -7720,8 +7656,6 @@ CustomizableUI
 .
 AREA_PANEL
 onCommand
-:
-function
 (
 aEvent
 )
@@ -7885,8 +7819,6 @@ _sanitizer
 :
 null
 _ensureSanitizer
-:
-function
 (
 )
 {
@@ -7956,8 +7888,6 @@ false
 }
 }
 _getSanitizeRange
-:
-function
 (
 aDocument
 )
@@ -7993,8 +7923,6 @@ value
 ;
 }
 forgetButtonCalled
-:
-function
 (
 aEvent
 )
@@ -8219,8 +8147,6 @@ true
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -8249,8 +8175,6 @@ break
 }
 }
 onViewShowing
-:
-function
 (
 aEvent
 )
@@ -8288,8 +8212,6 @@ this
 ;
 }
 onViewHiding
-:
-function
 (
 aEvent
 )
@@ -8364,8 +8286,6 @@ CustomizableUI
 .
 AREA_PANEL
 onBuild
-:
-function
 (
 aDocument
 )
@@ -8421,8 +8341,6 @@ tooltiptext
 ;
 }
 onCommand
-:
-function
 (
 aEvent
 )

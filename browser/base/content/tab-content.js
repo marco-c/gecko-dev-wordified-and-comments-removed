@@ -245,8 +245,6 @@ roku
 ecp
 "
 factory
-:
-function
 (
 aService
 )
@@ -629,10 +627,6 @@ cssHeight
 :
 height
 width
-:
-width
-height
-:
 height
 }
 ;
@@ -664,8 +658,6 @@ AboutHomeListener
 =
 {
 init
-:
-function
 (
 chromeGlobal
 )
@@ -708,8 +700,6 @@ home
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -776,8 +766,6 @@ break
 }
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -821,8 +809,6 @@ break
 }
 }
 onUpdate
-:
-function
 (
 aData
 )
@@ -919,8 +905,6 @@ snippetsVersion
 ;
 }
 onPageLoad
-:
-function
 (
 )
 {
@@ -972,8 +956,6 @@ RequestUpdate
 ;
 }
 onClick
-:
-function
 (
 aEvent
 )
@@ -1188,8 +1170,6 @@ break
 }
 }
 onPageHide
-:
-function
 (
 aEvent
 )
@@ -1409,8 +1389,6 @@ _isLeavingReaderMode
 :
 false
 init
-:
-function
 (
 )
 {
@@ -1473,8 +1451,6 @@ this
 ;
 }
 receiveMessage
-:
-function
 (
 message
 )
@@ -1613,8 +1589,6 @@ reader
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -1774,8 +1748,6 @@ break
 }
 }
 updateReaderButton
-:
-function
 (
 forceNonArticle
 )
@@ -1828,8 +1800,6 @@ forceNonArticle
 ;
 }
 cancelPotentialPendingReadabilityCheck
-:
-function
 (
 )
 {
@@ -1858,8 +1828,6 @@ _pendingReadabilityCheck
 }
 }
 scheduleReadabilityCheckPostPaint
-:
-function
 (
 forceNonArticle
 )
@@ -1904,8 +1872,6 @@ _pendingReadabilityCheck
 ;
 }
 onPaintWhenWaitedFor
-:
-function
 (
 forceNonArticle
 event
@@ -2010,8 +1976,6 @@ newtab
 ]
 )
 init
-:
-function
 (
 chromeGlobal
 )
@@ -2038,8 +2002,6 @@ this
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -2070,8 +2032,6 @@ data
 }
 }
 receiveMessage
-:
-function
 (
 msg
 )
@@ -2170,8 +2130,6 @@ documentURI
 ;
 }
 _sendMsg
-:
-function
 (
 type
 data
@@ -2186,18 +2144,12 @@ ContentSearch
 "
 {
 type
-:
-type
-data
-:
 data
 }
 )
 ;
 }
 _fireEvent
-:
-function
 (
 type
 data
@@ -2217,10 +2169,6 @@ detail
 :
 {
 type
-:
-type
-data
-:
 data
 }
 }
@@ -2258,8 +2206,6 @@ PageStyleHandler
 =
 {
 init
-:
-function
 (
 )
 {
@@ -2312,8 +2258,6 @@ contentViewer
 ;
 }
 sendStyleSheetInfo
-:
-function
 (
 )
 {
@@ -2340,8 +2284,6 @@ StyleSheets
 "
 {
 filteredStyleSheets
-:
-filteredStyleSheets
 authorStyleDisabled
 :
 this
@@ -2361,8 +2303,6 @@ preferredStyleSheetSet
 ;
 }
 getAllStyleSheets
-:
-function
 (
 frameset
 =
@@ -2417,8 +2357,6 @@ subSheets
 ;
 }
 receiveMessage
-:
-function
 (
 msg
 )
@@ -2485,8 +2423,6 @@ sendStyleSheetInfo
 ;
 }
 _stylesheetSwitchAll
-:
-function
 (
 frameset
 title
@@ -2552,8 +2488,6 @@ title
 }
 }
 _stylesheetSwitchFrame
-:
-function
 (
 frame
 title
@@ -2633,8 +2567,6 @@ false
 }
 }
 _stylesheetInFrame
-:
-function
 (
 frame
 title
@@ -2665,8 +2597,6 @@ title
 ;
 }
 _filterStyleSheets
-:
-function
 (
 styleSheets
 )
@@ -3449,8 +3379,6 @@ spec
 :
 null
 id
-:
-id
 }
 )
 ;
@@ -3467,8 +3395,6 @@ aHref
 referrer
 :
 aReferrer
-id
-:
 id
 success
 :
@@ -3607,8 +3533,6 @@ WebBrowserChrome
 =
 {
 onBeforeLinkTraversal
-:
-function
 (
 originalTarget
 linkURI
@@ -3629,8 +3553,6 @@ isAppTab
 ;
 }
 shouldLoadURI
-:
-function
 (
 aDocShell
 aURI
@@ -3668,8 +3590,6 @@ true
 ;
 }
 shouldLoadURIInThisProcess
-:
-function
 (
 aURI
 )
@@ -3684,8 +3604,6 @@ aURI
 ;
 }
 reloadInFreshProcess
-:
-function
 (
 aDocShell
 aURI
@@ -3707,8 +3625,6 @@ true
 ;
 }
 startPrerenderingDocument
-:
-function
 (
 aHref
 aReferrer
@@ -3732,8 +3648,6 @@ aReferrer
 }
 }
 shouldSwitchToPrerenderedDocument
-:
-function
 (
 aHref
 aReferrer
@@ -3813,8 +3727,6 @@ DOMFullscreenHandler
 =
 {
 init
-:
-function
 (
 )
 {
@@ -3923,8 +3835,6 @@ nsIDOMWindowUtils
 ;
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -4031,8 +3941,6 @@ break
 }
 }
 handleEvent
-:
-function
 (
 aEvent
 )

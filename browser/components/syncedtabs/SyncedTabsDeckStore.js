@@ -138,8 +138,6 @@ change
 {
 panels
 isUpdatable
-:
-isUpdatable
 }
 )
 ;

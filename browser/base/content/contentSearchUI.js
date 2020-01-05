@@ -346,8 +346,6 @@ engine
 .
 name
 icon
-:
-icon
 }
 ;
 this
@@ -949,8 +947,6 @@ length
 ;
 }
 selectAndUpdateInput
-:
-function
 (
 idx
 )
@@ -1005,8 +1001,6 @@ _updateSearchWithHeader
 ;
 }
 suggestionAtIndex
-:
-function
 (
 idx
 )
@@ -1034,8 +1028,6 @@ null
 ;
 }
 deleteSuggestionAtIndex
-:
-function
 (
 idx
 )
@@ -1094,8 +1086,6 @@ selectAndUpdateInput
 }
 }
 isFormHistorySuggestionAtIndex
-:
-function
 (
 idx
 )
@@ -1129,8 +1119,6 @@ formHistory
 ;
 }
 addInputValueToFormHistory
-:
-function
 (
 )
 {
@@ -1150,8 +1138,6 @@ value
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -1188,8 +1174,6 @@ event
 ;
 }
 _onCommand
-:
-function
 (
 aEvent
 )
@@ -1241,8 +1225,6 @@ preventDefault
 }
 }
 search
-:
-function
 (
 aEvent
 )
@@ -1471,8 +1453,6 @@ addInputValueToFormHistory
 ;
 }
 _onInput
-:
-function
 (
 )
 {
@@ -1538,8 +1518,6 @@ _updateSearchWithHeader
 ;
 }
 _onKeypress
-:
-function
 (
 event
 )
@@ -2275,8 +2253,6 @@ _currentEngineIndex
 -
 1
 _cycleCurrentEngine
-:
-function
 (
 aReverse
 )
@@ -2357,8 +2333,6 @@ engineName
 ;
 }
 _onFocus
-:
-function
 (
 )
 {
@@ -2394,8 +2368,6 @@ _speculativeConnect
 ;
 }
 _onBlur
-:
-function
 (
 )
 {
@@ -2444,8 +2416,6 @@ _hideSuggestions
 ;
 }
 _onMousemove
-:
-function
 (
 event
 )
@@ -2493,8 +2463,6 @@ idx
 ;
 }
 _onMouseup
-:
-function
 (
 event
 )
@@ -2521,8 +2489,6 @@ event
 ;
 }
 _onMouseout
-:
-function
 (
 event
 )
@@ -2559,8 +2525,6 @@ selectedButtonIndex
 }
 }
 _onClick
-:
-function
 (
 event
 )
@@ -2574,8 +2538,6 @@ event
 ;
 }
 _onContentSearchService
-:
-function
 (
 event
 )
@@ -2615,8 +2577,6 @@ data
 }
 }
 _onMsgFocusInput
-:
-function
 (
 event
 )
@@ -2631,8 +2591,6 @@ focus
 ;
 }
 _onMsgSuggestions
-:
-function
 (
 suggestions
 )
@@ -2988,8 +2946,6 @@ icon
 }
 }
 _onMsgSuggestionsCancelled
-:
-function
 (
 )
 {
@@ -3012,8 +2968,6 @@ _hideSuggestions
 }
 }
 _onMsgState
-:
-function
 (
 state
 )
@@ -3074,8 +3028,6 @@ currentEngine
 ;
 }
 _onMsgCurrentState
-:
-function
 (
 state
 )
@@ -3089,8 +3041,6 @@ state
 ;
 }
 _onMsgCurrentEngine
-:
-function
 (
 engine
 )
@@ -3109,8 +3059,6 @@ true
 ;
 }
 _onMsgStrings
-:
-function
 (
 strings
 )
@@ -3168,8 +3116,6 @@ searchPlaceholder
 ;
 }
 _updateDefaultEngineHeader
-:
-function
 (
 )
 {
@@ -3263,8 +3209,6 @@ name
 ;
 }
 _updateSearchWithHeader
-:
-function
 (
 )
 {
@@ -3344,8 +3288,6 @@ searchWithHeader
 }
 }
 _speculativeConnect
-:
-function
 (
 )
 {
@@ -3373,8 +3315,6 @@ name
 }
 }
 _makeTableRow
-:
-function
 (
 type
 suggestionStr
@@ -3683,8 +3623,6 @@ row
 ;
 }
 _getFaviconURIFromBuffer
-:
-function
 (
 buffer
 )
@@ -3710,8 +3648,6 @@ blob
 ;
 }
 _getImageURIForCurrentResolution
-:
-function
 (
 uri
 )
@@ -3748,8 +3684,6 @@ uri
 ;
 }
 _getSearchEngines
-:
-function
 (
 )
 {
@@ -3764,8 +3698,6 @@ GetState
 ;
 }
 _getStrings
-:
-function
 (
 )
 {
@@ -3780,8 +3712,6 @@ GetStrings
 ;
 }
 _getSuggestions
-:
-function
 (
 )
 {
@@ -3830,8 +3760,6 @@ value
 }
 }
 _clearSuggestionRows
-:
-function
 (
 )
 {
@@ -3857,8 +3785,6 @@ remove
 }
 }
 _hideSuggestions
-:
-function
 (
 )
 {
@@ -3909,8 +3835,6 @@ true
 ;
 }
 _indexOfTableItem
-:
-function
 (
 elt
 )
@@ -4019,8 +3943,6 @@ rowIndex
 ;
 }
 _makeTable
-:
-function
 (
 id
 )
@@ -4608,8 +4530,6 @@ _table
 ;
 }
 _setUpOneOffButtons
-:
-function
 (
 )
 {
@@ -5207,8 +5127,6 @@ false
 ;
 }
 _sendMsg
-:
-function
 (
 type
 data
@@ -5229,10 +5147,6 @@ detail
 :
 {
 type
-:
-type
-data
-:
 data
 }
 }

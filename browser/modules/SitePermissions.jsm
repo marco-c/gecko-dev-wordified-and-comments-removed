@@ -89,8 +89,6 @@ nsICookiePermission
 .
 ACCESS_SESSION
 getAllByURI
-:
-function
 (
 aURI
 )
@@ -196,8 +194,6 @@ result
 ;
 }
 getPermissionItem
-:
-function
 (
 aId
 aState
@@ -275,8 +271,6 @@ availableStates
 ;
 }
 getPermissionDetailsByURI
-:
-function
 (
 aURI
 )
@@ -322,8 +316,6 @@ permissions
 ;
 }
 isSupportedURI
-:
-function
 (
 aURI
 )
@@ -350,8 +342,6 @@ https
 ;
 }
 listPermissions
-:
-function
 (
 )
 {
@@ -365,8 +355,6 @@ gPermissionObject
 ;
 }
 getAvailableStates
-:
-function
 (
 aPermissionID
 )
@@ -432,8 +420,6 @@ BLOCK
 ;
 }
 getDefault
-:
-function
 (
 aPermissionID
 )
@@ -469,8 +455,6 @@ UNKNOWN
 ;
 }
 get
-:
-function
 (
 aURI
 aPermissionID
@@ -538,8 +522,6 @@ state
 ;
 }
 set
-:
-function
 (
 aURI
 aPermissionID
@@ -592,8 +574,6 @@ aState
 ;
 }
 remove
-:
-function
 (
 aURI
 aPermissionID
@@ -623,8 +603,6 @@ aPermissionID
 ;
 }
 getPermissionLabel
-:
-function
 (
 aPermissionID
 )
@@ -662,8 +640,6 @@ label
 ;
 }
 getStateLabel
-:
-function
 (
 aPermissionID
 aState
@@ -778,8 +754,6 @@ image
 :
 {
 getDefault
-:
-function
 (
 )
 {
@@ -831,8 +805,6 @@ SitePermissions
 BLOCK
 ]
 getDefault
-:
-function
 (
 )
 {
@@ -945,8 +917,6 @@ popup
 :
 {
 getDefault
-:
-function
 (
 )
 {
@@ -980,8 +950,6 @@ install
 :
 {
 getDefault
-:
-function
 (
 )
 {

@@ -113,8 +113,6 @@ _notified
 [
 ]
 onVisit
-:
-function
 (
 uri
 id

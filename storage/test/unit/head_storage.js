@@ -1267,8 +1267,6 @@ executeAsync
 (
 {
 handleError
-:
-function
 (
 error
 )
@@ -1282,8 +1280,6 @@ error
 ;
 }
 handleResult
-:
-function
 (
 result
 )
@@ -1301,8 +1297,6 @@ result
 }
 }
 handleCompletion
-:
-function
 (
 result
 )
@@ -1351,8 +1345,6 @@ statements
 length
 {
 handleError
-:
-function
 (
 error
 )
@@ -1366,8 +1358,6 @@ error
 ;
 }
 handleResult
-:
-function
 (
 result
 )
@@ -1385,8 +1375,6 @@ result
 }
 }
 handleCompletion
-:
-function
 (
 result
 )

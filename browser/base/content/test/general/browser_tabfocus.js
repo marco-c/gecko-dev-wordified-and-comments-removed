@@ -408,8 +408,6 @@ GetFocusedElement
 "
 {
 dontCheckExtraFocus
-:
-dontCheckExtraFocus
 }
 )
 ;
@@ -904,8 +902,6 @@ GetCurrentFocus
 "
 {
 details
-:
-details
 }
 )
 ;
@@ -961,8 +957,6 @@ ChangeFocus
 id
 :
 elementid
-type
-:
 type
 }
 )

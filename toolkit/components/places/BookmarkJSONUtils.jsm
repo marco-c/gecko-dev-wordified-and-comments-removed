@@ -931,10 +931,6 @@ writeOptions
 return
 {
 count
-:
-count
-hash
-:
 hash
 }
 ;
@@ -1120,8 +1116,6 @@ NetUtil
 newChannel
 (
 {
-uri
-:
 uri
 loadUsingSystemPrincipal
 :
@@ -2216,8 +2210,6 @@ aData
 .
 title
 feedURI
-:
-feedURI
 parentId
 :
 aContainer
@@ -2229,8 +2221,6 @@ lastModified
 aData
 .
 lastModified
-siteURI
-:
 siteURI
 guid
 :

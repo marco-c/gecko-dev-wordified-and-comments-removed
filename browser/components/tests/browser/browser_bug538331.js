@@ -942,8 +942,6 @@ finishCalled
 :
 false
 start
-:
-function
 (
 )
 {
@@ -958,8 +956,6 @@ this
 ;
 }
 finish
-:
-function
 (
 aFunc
 )
@@ -997,8 +993,6 @@ finishFunc
 ;
 }
 closeWindow
-:
-function
 (
 win
 )
@@ -1051,8 +1045,6 @@ finishFunc
 }
 }
 windowLoad
-:
-function
 (
 win
 )
@@ -1072,8 +1064,6 @@ win
 ;
 }
 observe
-:
-function
 (
 subject
 topic

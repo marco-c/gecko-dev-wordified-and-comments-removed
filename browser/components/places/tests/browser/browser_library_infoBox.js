@@ -50,8 +50,6 @@ pane
 .
 "
 run
-:
-function
 (
 )
 {

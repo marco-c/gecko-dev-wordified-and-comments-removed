@@ -1500,8 +1500,6 @@ DBAddonInternal
 prototype
 {
 applyCompatibilityUpdate
-:
-function
 (
 aUpdate
 aSyncCompatibility
@@ -1653,8 +1651,6 @@ this
 ;
 }
 toJSON
-:
-function
 (
 )
 {
@@ -1832,8 +1828,6 @@ null
 ;
 }
 saveChanges
-:
-function
 (
 )
 {
@@ -2070,8 +2064,6 @@ error
 ;
 }
 flush
-:
-function
 (
 )
 {
@@ -2103,8 +2095,6 @@ flush
 ;
 }
 toJSON
-:
-function
 (
 )
 {
@@ -2161,8 +2151,6 @@ toSave
 ;
 }
 getMigrateDataFromSQLITE
-:
-function
 (
 )
 {
@@ -2264,8 +2252,6 @@ migrateData
 ;
 }
 syncLoadDB
-:
-function
 (
 aRebuildOnError
 )
@@ -2616,8 +2602,6 @@ addonDB
 ;
 }
 parseDB
-:
-function
 (
 aData
 aRebuildOnError
@@ -3025,8 +3009,6 @@ done
 }
 }
 upgradeDB
-:
-function
 (
 aRebuildOnError
 )
@@ -3137,8 +3119,6 @@ done
 ;
 }
 rebuildUnreadableDB
-:
-function
 (
 aError
 aRebuildOnError
@@ -3216,8 +3196,6 @@ done
 ;
 }
 asyncLoadDB
-:
-function
 (
 )
 {
@@ -3504,8 +3482,6 @@ addonDB
 ;
 }
 rebuildDatabase
-:
-function
 (
 aRebuildOnError
 )
@@ -3639,8 +3615,6 @@ true
 }
 }
 getActiveBundles
-:
-function
 (
 )
 {
@@ -3809,8 +3783,6 @@ bundles
 ;
 }
 getMigrateDataFromRDF
-:
-function
 (
 aDbWasMissing
 )
@@ -4242,8 +4214,6 @@ migrateData
 ;
 }
 getMigrateDataFromDatabase
-:
-function
 (
 aConnection
 )
@@ -4761,8 +4731,6 @@ migrateData
 ;
 }
 shutdown
-:
-function
 (
 )
 {
@@ -4952,8 +4920,6 @@ resolve
 ;
 }
 getAddonList
-:
-function
 (
 aFilter
 aCallback
@@ -5025,8 +4991,6 @@ aCallback
 ;
 }
 getAddon
-:
-function
 (
 aFilter
 aCallback
@@ -5092,8 +5056,6 @@ null
 ;
 }
 getAddonInLocation
-:
-function
 (
 aId
 aLocation
@@ -5134,8 +5096,6 @@ aCallback
 ;
 }
 getAddonsInLocation
-:
-function
 (
 aLocation
 aCallback
@@ -5161,8 +5121,6 @@ aCallback
 ;
 }
 getVisibleAddonForID
-:
-function
 (
 aId
 aCallback
@@ -5195,8 +5153,6 @@ aCallback
 ;
 }
 getVisibleAddons
-:
-function
 (
 aTypes
 aCallback
@@ -5250,8 +5206,6 @@ aCallback
 ;
 }
 getAddonsByType
-:
-function
 (
 aType
 )
@@ -5328,8 +5282,6 @@ aType
 ;
 }
 getVisibleAddonForInternalName
-:
-function
 (
 aInternalName
 )
@@ -5404,8 +5356,6 @@ aInternalName
 ;
 }
 getVisibleAddonsWithPendingOperations
-:
-function
 (
 aTypes
 aCallback
@@ -5478,8 +5428,6 @@ aCallback
 ;
 }
 getAddonBySyncGUID
-:
-function
 (
 aGUID
 aCallback
@@ -5503,8 +5451,6 @@ aCallback
 ;
 }
 getAddons
-:
-function
 (
 )
 {
@@ -5535,8 +5481,6 @@ true
 ;
 }
 addAddonMetadata
-:
-function
 (
 aAddon
 aDescriptor
@@ -5623,8 +5567,6 @@ newAddon
 ;
 }
 updateAddonMetadata
-:
-function
 (
 aOldAddon
 aNewAddon
@@ -5711,8 +5653,6 @@ aDescriptor
 ;
 }
 removeAddonMetadata
-:
-function
 (
 aAddon
 )
@@ -5736,8 +5676,6 @@ saveChanges
 ;
 }
 makeAddonVisible
-:
-function
 (
 aAddon
 )
@@ -5840,8 +5778,6 @@ saveChanges
 ;
 }
 setAddonProperties
-:
-function
 (
 aAddon
 aProperties
@@ -5874,8 +5810,6 @@ saveChanges
 ;
 }
 setAddonSyncGUID
-:
-function
 (
 aAddon
 aGUID
@@ -5975,8 +5909,6 @@ saveChanges
 ;
 }
 updateAddonActive
-:
-function
 (
 aAddon
 aActive
@@ -6021,8 +5953,6 @@ saveChanges
 ;
 }
 updateAddonsBlockingE10s
-:
-function
 (
 )
 {
@@ -6103,8 +6033,6 @@ blockE10s
 ;
 }
 updateActiveAddons
-:
-function
 (
 )
 {
@@ -6224,8 +6152,6 @@ saveChanges
 }
 }
 writeAddonsList
-:
-function
 (
 )
 {

@@ -96,8 +96,6 @@ prototype
 =
 {
 handleContent
-:
-function
 (
 aMimetype
 aContext
@@ -238,8 +236,6 @@ null
 mimetype
 :
 XPI_CONTENT_TYPE
-principalToInherit
-:
 principalToInherit
 callbackID
 :
@@ -432,8 +428,6 @@ nsIContentHandler
 ]
 )
 log
-:
-function
 (
 aMsg
 )

@@ -390,8 +390,6 @@ fieldname
 :
 name
 value
-:
-value
 }
 :
 {
@@ -404,8 +402,6 @@ count
 obj
 {
 handleResult
-:
-function
 (
 result
 )
@@ -416,8 +412,6 @@ result
 ;
 }
 handleError
-:
-function
 (
 error
 )
@@ -427,8 +421,6 @@ error
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )

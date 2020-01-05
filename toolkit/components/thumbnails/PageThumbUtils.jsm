@@ -153,8 +153,6 @@ org
 xhtml
 "
 createCanvas
-:
-function
 (
 aWindow
 aWidth
@@ -246,8 +244,6 @@ canvas
 ;
 }
 getThumbnailSize
-:
-function
 (
 aWindow
 =
@@ -492,8 +488,6 @@ _thumbnailHeight
 ;
 }
 getContentSize
-:
-function
 (
 aWindow
 )
@@ -601,8 +595,6 @@ height
 ;
 }
 createSnapshotThumbnail
-:
-function
 (
 aWindow
 aDestCanvas
@@ -919,8 +911,6 @@ finalCanvas
 ;
 }
 determineCropSize
-:
-function
 (
 aWindow
 aCanvas
@@ -1152,8 +1142,6 @@ scale
 ;
 }
 shouldStoreContentThumbnail
-:
-function
 (
 aDocument
 aDocShell
@@ -1390,8 +1378,6 @@ true
 ;
 }
 isChannelErrorResponse
-:
-function
 (
 channel
 )

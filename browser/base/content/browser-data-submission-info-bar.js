@@ -133,8 +133,6 @@ LOGGER_PREFIX
 ;
 }
 init
-:
-function
 (
 )
 {
@@ -199,8 +197,6 @@ true
 }
 }
 _getDataReportingNotification
-:
-function
 (
 name
 =
@@ -221,8 +217,6 @@ name
 ;
 }
 _displayDataPolicyInfoBar
-:
-function
 (
 request
 )
@@ -441,8 +435,6 @@ onUserNotifyComplete
 ;
 }
 _clearPolicyNotification
-:
-function
 (
 )
 {
@@ -482,8 +474,6 @@ close
 }
 }
 observe
-:
-function
 (
 subject
 topic

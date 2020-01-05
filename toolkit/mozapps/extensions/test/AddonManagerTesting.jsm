@@ -89,8 +89,6 @@ AddonManagerTesting
 =
 {
 getAddonById
-:
-function
 (
 id
 )
@@ -119,8 +117,6 @@ addon
 ;
 }
 uninstallAddonByID
-:
-function
 (
 id
 )
@@ -180,8 +176,6 @@ listener
 =
 {
 onUninstalling
-:
-function
 (
 addon
 needsRestart
@@ -222,8 +216,6 @@ true
 }
 }
 onUninstalled
-:
-function
 (
 addon
 )
@@ -257,8 +249,6 @@ false
 ;
 }
 onOperationCancelled
-:
-function
 (
 addon
 )
@@ -324,8 +314,6 @@ promise
 ;
 }
 installXPIFromURL
-:
-function
 (
 url
 hash
@@ -398,8 +386,6 @@ onInstallFailed
 :
 fail
 onInstallEnded
-:
-function
 (
 install
 addon

@@ -442,8 +442,6 @@ name
 ;
 }
 init
-:
-function
 (
 )
 {
@@ -525,8 +523,6 @@ updateUI
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -570,8 +566,6 @@ false
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -632,8 +626,6 @@ break
 }
 }
 onMigrationStateChanged
-:
-function
 (
 )
 {
@@ -839,8 +831,6 @@ updateAppMenuItem
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -866,8 +856,6 @@ updateAppMenuItem
 ;
 }
 updateUI
-:
-function
 (
 )
 {
@@ -921,8 +909,6 @@ updateAppMenuItem
 ;
 }
 updateAppMenuItem
-:
-function
 (
 )
 {
@@ -1765,8 +1751,6 @@ null
 ;
 }
 onMenuPanelCommand
-:
-function
 (
 )
 {
@@ -1856,8 +1840,6 @@ hide
 ;
 }
 openPreferences
-:
-function
 (
 )
 {
@@ -1881,8 +1863,6 @@ menupanel
 ;
 }
 openAccountsPage
-:
-function
 (
 action
 urlParams
@@ -1973,8 +1953,6 @@ true
 ;
 }
 openSignInAgainPage
-:
-function
 (
 entryPoint
 )
@@ -1995,8 +1973,6 @@ entryPoint
 ;
 }
 sendTabToDevice
-:
-function
 (
 url
 clientId
@@ -2018,8 +1994,6 @@ title
 ;
 }
 populateSendTabToDevicesMenu
-:
-function
 (
 devicesPopup
 url
@@ -2281,8 +2255,6 @@ fragment
 ;
 }
 updateTabContextMenu
-:
-function
 (
 aPopupMenu
 )
@@ -2340,8 +2312,6 @@ remoteClientPresent
 ;
 }
 initPageContextMenu
-:
-function
 (
 contextMenu
 )

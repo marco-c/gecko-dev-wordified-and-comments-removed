@@ -382,8 +382,6 @@ resolve
 (
 {
 selectedPane
-:
-selectedPane
 }
 )
 ;

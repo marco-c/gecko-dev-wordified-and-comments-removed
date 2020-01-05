@@ -636,8 +636,6 @@ addInstallListener
 (
 {
 onNewInstall
-:
-function
 (
 aInstall
 )
@@ -648,8 +646,6 @@ installCount
 ;
 }
 onDownloadFailed
-:
-function
 (
 aInstall
 )

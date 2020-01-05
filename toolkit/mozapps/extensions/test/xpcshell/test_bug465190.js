@@ -35,8 +35,6 @@ dirProvider2
 =
 {
 getFile
-:
-function
 (
 prop
 persistent
@@ -69,8 +67,6 @@ null
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )

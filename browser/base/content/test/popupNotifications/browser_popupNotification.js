@@ -61,8 +61,6 @@ Test
 1
 "
 run
-:
-function
 (
 )
 {
@@ -87,8 +85,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -108,8 +104,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -171,8 +165,6 @@ Test
 2
 "
 run
-:
-function
 (
 )
 {
@@ -197,8 +189,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -219,8 +209,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -282,8 +270,6 @@ Test
 2b
 "
 run
-:
-function
 (
 )
 {
@@ -343,8 +329,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -365,8 +349,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -428,8 +410,6 @@ Test
 2c
 "
 run
-:
-function
 (
 )
 {
@@ -519,8 +499,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -541,8 +519,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -604,8 +580,6 @@ Test
 3
 "
 run
-:
-function
 (
 )
 {
@@ -634,8 +608,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -655,8 +627,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -707,10 +677,8 @@ Test
 #
 4
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -870,8 +838,6 @@ Test
 5
 "
 run
-:
-function
 (
 )
 {
@@ -902,8 +868,6 @@ length
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -940,8 +904,6 @@ oldSelectedTab
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -994,10 +956,8 @@ Test
 #
 6
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -1072,8 +1032,6 @@ Test
 7
 "
 run
-:
-function
 (
 )
 {
@@ -1113,8 +1071,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -1137,8 +1093,6 @@ remove
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -1186,8 +1140,6 @@ Test
 8
 "
 run
-:
-function
 (
 )
 {
@@ -1265,8 +1217,6 @@ testNotif2
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -1316,8 +1266,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -1447,8 +1395,6 @@ Test
 9
 "
 run
-:
-function
 (
 )
 {
@@ -1493,8 +1439,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -1506,8 +1450,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -1571,8 +1513,6 @@ Test
 10
 "
 run
-:
-function
 (
 )
 {
@@ -1609,8 +1549,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -1653,8 +1591,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -1718,8 +1654,6 @@ Test
 11
 "
 run
-:
-function
 (
 )
 {
@@ -1797,8 +1731,6 @@ notifyObj2
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -1848,8 +1780,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )

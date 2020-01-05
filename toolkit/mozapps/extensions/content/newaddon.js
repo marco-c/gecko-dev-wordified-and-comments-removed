@@ -67,8 +67,6 @@ EnableListener
 =
 {
 onEnabling
-:
-function
 (
 aAddon
 )

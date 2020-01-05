@@ -20,8 +20,6 @@ removed
 .
 "
 run
-:
-function
 (
 )
 {
@@ -153,8 +151,6 @@ removed
 .
 "
 run
-:
-function
 (
 )
 {

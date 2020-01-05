@@ -3259,8 +3259,6 @@ visitor
 =
 {
 onCacheStorageInfo
-:
-function
 (
 aEntryCount
 aConsumption
@@ -3303,8 +3301,6 @@ cacheListener
 =
 {
 onCacheEntryCheck
-:
-function
 (
 )
 {
@@ -3317,8 +3313,6 @@ ENTRY_WANTED
 ;
 }
 onCacheEntryAvailable
-:
-function
 (
 entry
 isnew
@@ -3622,8 +3616,6 @@ prototype
 =
 {
 acceptDialog
-:
-function
 (
 )
 {
@@ -3673,8 +3665,6 @@ acceptDialog
 ;
 }
 cancelDialog
-:
-function
 (
 )
 {
@@ -3692,8 +3682,6 @@ cancelDialog
 ;
 }
 checkDetails
-:
-function
 (
 aShouldBeShown
 )
@@ -3911,8 +3899,6 @@ list
 ;
 }
 checkPrefCheckbox
-:
-function
 (
 aPrefName
 aCheckState
@@ -4001,8 +3987,6 @@ click
 ;
 }
 _checkAllCheckboxesCustom
-:
-function
 (
 check
 )
@@ -4107,8 +4091,6 @@ click
 }
 }
 checkAllCheckboxes
-:
-function
 (
 )
 {
@@ -4121,8 +4103,6 @@ true
 ;
 }
 uncheckAllCheckboxes
-:
-function
 (
 )
 {
@@ -4135,8 +4115,6 @@ false
 ;
 }
 getDetailsButton
-:
-function
 (
 )
 {
@@ -4156,8 +4134,6 @@ detailsExpander
 ;
 }
 getDurationDropdown
-:
-function
 (
 )
 {
@@ -4177,8 +4153,6 @@ sanitizeDurationChoice
 ;
 }
 getItemList
-:
-function
 (
 )
 {
@@ -4198,8 +4172,6 @@ itemList
 ;
 }
 getWarningPanel
-:
-function
 (
 )
 {
@@ -4219,8 +4191,6 @@ sanitizeEverythingWarningBox
 ;
 }
 isWarningPanelVisible
-:
-function
 (
 )
 {
@@ -4236,8 +4206,6 @@ hidden
 ;
 }
 open
-:
-function
 (
 )
 {
@@ -4509,8 +4477,6 @@ null
 ;
 }
 selectDuration
-:
-function
 (
 aDurVal
 )
@@ -4583,8 +4549,6 @@ TIMESPAN_EVERYTHING
 }
 }
 toggleDetails
-:
-function
 (
 )
 {
@@ -4820,8 +4784,6 @@ timestamp
 }
 {
 handleError
-:
-function
 (
 error
 )
@@ -4848,8 +4810,6 @@ error
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )
@@ -4905,8 +4865,6 @@ count
 =
 result
 handleError
-:
-function
 (
 error
 )
@@ -4934,8 +4892,6 @@ error
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )

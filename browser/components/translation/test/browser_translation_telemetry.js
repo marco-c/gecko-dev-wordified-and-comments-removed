@@ -198,8 +198,6 @@ SHOULD_AUTO_DETECT_LANGUAGE
 )
 }
 reset
-:
-function
 (
 )
 {
@@ -238,8 +236,6 @@ updateMetrics
 ;
 }
 updateMetrics
-:
-function
 (
 )
 {
@@ -558,8 +554,6 @@ sum
 }
 }
 _assertionLoop
-:
-function
 (
 prevMetrics
 metrics
@@ -636,8 +630,6 @@ metric
 }
 }
 checkAdditions
-:
-function
 (
 additions
 )

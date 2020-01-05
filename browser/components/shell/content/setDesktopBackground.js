@@ -107,8 +107,6 @@ nsIShellService
 ;
 }
 load
-:
-function
 (
 )
 {
@@ -326,8 +324,6 @@ this
 ;
 }
 init
-:
-function
 (
 aImage
 )
@@ -492,8 +488,6 @@ updatePosition
 ;
 }
 setDesktopBackground
-:
-function
 (
 )
 {
@@ -647,8 +641,6 @@ _position
 ;
 }
 updatePosition
-:
-function
 (
 )
 {

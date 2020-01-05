@@ -122,8 +122,6 @@ SearchCallback
 =
 {
 searchSucceeded
-:
-function
 (
 addons
 length
@@ -177,8 +175,6 @@ run_current_test
 ;
 }
 searchFailed
-:
-function
 (
 )
 {

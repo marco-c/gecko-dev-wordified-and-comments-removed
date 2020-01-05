@@ -110,8 +110,6 @@ asynctest
 "
 {
 onResult
-:
-function
 (
 aValue
 )

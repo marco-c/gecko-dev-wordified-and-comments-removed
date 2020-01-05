@@ -59,8 +59,6 @@ messageHandlers
 =
 {
 init
-:
-function
 (
 )
 {
@@ -172,8 +170,6 @@ init
 ;
 }
 key
-:
-function
 (
 arg
 )
@@ -242,8 +238,6 @@ key
 ;
 }
 startComposition
-:
-function
 (
 arg
 )
@@ -274,8 +268,6 @@ startComposition
 ;
 }
 changeComposition
-:
-function
 (
 arg
 )
@@ -373,8 +365,6 @@ changeComposition
 ;
 }
 commitComposition
-:
-function
 (
 )
 {
@@ -400,8 +390,6 @@ commitComposition
 ;
 }
 focus
-:
-function
 (
 )
 {
@@ -422,8 +410,6 @@ focus
 ;
 }
 blur
-:
-function
 (
 )
 {
@@ -444,8 +430,6 @@ blur
 ;
 }
 waitForSearch
-:
-function
 (
 )
 {
@@ -468,8 +452,6 @@ aData
 ;
 }
 waitForSearchSettings
-:
-function
 (
 )
 {
@@ -492,8 +474,6 @@ aData
 ;
 }
 mousemove
-:
-function
 (
 itemIndex
 )
@@ -614,8 +594,6 @@ event
 ;
 }
 click
-:
-function
 (
 arg
 )
@@ -728,8 +706,6 @@ click
 ;
 }
 addInputValueToFormHistory
-:
-function
 (
 )
 {
@@ -748,8 +724,6 @@ addInputValueToFormHistory
 ;
 }
 addDuplicateOneOff
-:
-function
 (
 )
 {
@@ -806,8 +780,6 @@ addDuplicateOneOff
 ;
 }
 removeLastOneOff
-:
-function
 (
 )
 {
@@ -832,8 +804,6 @@ removeLastOneOff
 ;
 }
 reset
-:
-function
 (
 )
 {

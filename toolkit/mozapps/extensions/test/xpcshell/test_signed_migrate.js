@@ -130,8 +130,6 @@ sawAddon
 :
 false
 openWindow
-:
-function
 (
 parent
 url
@@ -168,8 +166,6 @@ ID
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )

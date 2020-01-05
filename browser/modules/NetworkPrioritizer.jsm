@@ -333,8 +333,6 @@ aBrowser
 ;
 }
 onRemotenessChange
-:
-function
 (
 aBrowser
 )

@@ -167,8 +167,6 @@ function
 }
 {
 beginProvisioningCallback
-:
-function
 (
 email
 duration_s
@@ -448,8 +446,6 @@ function
 }
 {
 beginProvisioningCallback
-:
-function
 (
 email
 duration_s
@@ -549,8 +545,6 @@ _authId
 ;
 }
 doError
-:
-function
 (
 err
 )

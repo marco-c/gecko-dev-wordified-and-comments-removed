@@ -1049,8 +1049,6 @@ null
 null
 {
 iconURL
-:
-iconURL
 }
 )
 ;

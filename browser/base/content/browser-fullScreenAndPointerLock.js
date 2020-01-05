@@ -9,8 +9,6 @@ _origin
 :
 null
 init
-:
-function
 (
 )
 {
@@ -22,8 +20,6 @@ prototype
 =
 {
 start
-:
-function
 (
 )
 {
@@ -55,8 +51,6 @@ _delay
 ;
 }
 cancel
-:
-function
 (
 )
 {
@@ -83,8 +77,6 @@ _id
 }
 }
 _handle
-:
-function
 (
 )
 {
@@ -143,8 +135,6 @@ delay
 ;
 }
 showPointerLock
-:
-function
 (
 aOrigin
 )
@@ -194,8 +184,6 @@ timeout
 }
 }
 showFullScreen
-:
-function
 (
 aOrigin
 )
@@ -256,8 +244,6 @@ delay
 ;
 }
 show
-:
-function
 (
 aOrigin
 elementId
@@ -574,8 +560,6 @@ start
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -855,8 +839,6 @@ true
 }
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -1097,8 +1079,6 @@ PointerLock
 =
 {
 init
-:
-function
 (
 )
 {
@@ -1132,8 +1112,6 @@ this
 ;
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -1217,8 +1195,6 @@ Painted
 "
 ]
 init
-:
-function
 (
 )
 {
@@ -1296,8 +1272,6 @@ toggle
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -1330,8 +1304,6 @@ cleanup
 ;
 }
 toggle
-:
-function
 (
 )
 {
@@ -1696,8 +1668,6 @@ add
 }
 }
 exitDomFullScreen
-:
-function
 (
 )
 {
@@ -1709,8 +1679,6 @@ exitFullscreen
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
@@ -1832,8 +1800,6 @@ break
 }
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -1960,8 +1926,6 @@ break
 }
 }
 enterDomFullscreen
-:
-function
 (
 aBrowser
 )
@@ -2127,8 +2091,6 @@ this
 ;
 }
 cleanup
-:
-function
 (
 )
 {
@@ -2189,8 +2151,6 @@ false
 }
 }
 cleanupDomFullscreen
-:
-function
 (
 )
 {
@@ -2278,8 +2238,6 @@ inDOMFullscreen
 ;
 }
 _isRemoteBrowser
-:
-function
 (
 aBrowser
 )
@@ -2327,8 +2285,6 @@ nsIDOMWindowUtils
 ;
 }
 getMouseTargetRect
-:
-function
 (
 )
 {
@@ -2339,8 +2295,6 @@ _mouseTargetRect
 ;
 }
 _expandCallback
-:
-function
 (
 )
 {
@@ -2352,8 +2306,6 @@ showNavToolbox
 ;
 }
 onMouseEnter
-:
-function
 (
 )
 {
@@ -2365,8 +2317,6 @@ hideNavToolbox
 ;
 }
 _keyToggleCallback
-:
-function
 (
 aEvent
 )
@@ -2416,8 +2366,6 @@ _isChromeCollapsed
 :
 false
 _safeToCollapse
-:
-function
 (
 )
 {
@@ -2502,8 +2450,6 @@ true
 ;
 }
 _setPopupOpen
-:
-function
 (
 aEvent
 )
@@ -2608,8 +2554,6 @@ true
 }
 }
 getAutohide
-:
-function
 (
 aItem
 )
@@ -2637,8 +2581,6 @@ autohide
 ;
 }
 setAutohide
-:
-function
 (
 )
 {
@@ -2677,8 +2619,6 @@ true
 ;
 }
 showNavToolbox
-:
-function
 (
 trackMouse
 =
@@ -2789,8 +2729,6 @@ false
 ;
 }
 hideNavToolbox
-:
-function
 (
 aAnimate
 =
@@ -2939,8 +2877,6 @@ this
 ;
 }
 _updateToolbars
-:
-function
 (
 aEnterFS
 )

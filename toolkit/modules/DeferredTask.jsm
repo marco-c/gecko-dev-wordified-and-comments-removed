@@ -190,8 +190,6 @@ _timer
 :
 null
 _startTimer
-:
-function
 (
 )
 {
@@ -222,8 +220,6 @@ TYPE_ONE_SHOT
 ;
 }
 arm
-:
-function
 (
 )
 {
@@ -282,8 +278,6 @@ _startTimer
 }
 }
 disarm
-:
-function
 (
 )
 {
@@ -317,8 +311,6 @@ null
 }
 }
 finalize
-:
-function
 (
 )
 {
@@ -396,8 +388,6 @@ _finalized
 :
 false
 _timerCallback
-:
-function
 (
 )
 {

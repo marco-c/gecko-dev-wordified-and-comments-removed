@@ -83,8 +83,6 @@ type
 dragend
 "
 dataTransfer
-:
-dataTransfer
 }
 aToDrag
 .

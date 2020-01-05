@@ -256,8 +256,6 @@ this
 ;
 }
 isZero
-:
-function
 (
 )
 {
@@ -634,8 +632,6 @@ bottom
 ;
 }
 setRect
-:
-function
 (
 x
 y
@@ -676,8 +672,6 @@ this
 ;
 }
 setBounds
-:
-function
 (
 l
 t
@@ -881,8 +875,6 @@ top
 ;
 }
 copyFrom
-:
-function
 (
 other
 )
@@ -924,8 +916,6 @@ this
 ;
 }
 translate
-:
-function
 (
 x
 y
@@ -964,8 +954,6 @@ this
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -1005,8 +993,6 @@ height
 ;
 }
 union
-:
-function
 (
 other
 )
@@ -1025,8 +1011,6 @@ other
 ;
 }
 contains
-:
-function
 (
 other
 )
@@ -1097,8 +1081,6 @@ bottom
 ;
 }
 intersect
-:
-function
 (
 other
 )
@@ -1117,8 +1099,6 @@ other
 ;
 }
 intersects
-:
-function
 (
 other
 )

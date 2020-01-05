@@ -188,8 +188,6 @@ addListener
 (
 {
 onCloseWindow
-:
-function
 (
 )
 {

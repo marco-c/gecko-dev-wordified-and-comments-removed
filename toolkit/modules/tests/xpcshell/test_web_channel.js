@@ -117,8 +117,6 @@ Map
 (
 )
 registerChannel
-:
-function
 (
 channel
 )
@@ -148,8 +146,6 @@ channel
 }
 }
 unregisterChannel
-:
-function
 (
 channelToRemove
 )

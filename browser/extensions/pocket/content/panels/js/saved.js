@@ -1276,8 +1276,6 @@ emptyInputLength
 :
 200
 search_function
-:
-function
 (
 term
 cb
@@ -1459,8 +1457,6 @@ returnlist
 ;
 }
 textToData
-:
-function
 (
 text
 )
@@ -1578,8 +1574,6 @@ toLowerCase
 ;
 }
 onReady
-:
-function
 (
 )
 {
@@ -1964,8 +1958,6 @@ checkPlaceholderStatus
 ;
 }
 onAdd
-:
-function
 (
 )
 {
@@ -1997,8 +1989,6 @@ checkPlaceholderStatus
 ;
 }
 onDelete
-:
-function
 (
 )
 {
@@ -2030,8 +2020,6 @@ checkPlaceholderStatus
 ;
 }
 onShowDropdown
-:
-function
 (
 )
 {
@@ -2046,8 +2034,6 @@ expandSavePanel
 ;
 }
 onHideDropdown
-:
-function
 (
 )
 {
@@ -3739,8 +3725,6 @@ prototype
 =
 {
 create
-:
-function
 (
 )
 {
@@ -3891,8 +3875,6 @@ initAutoCloseEvents
 ;
 }
 createPremiumFunctionality
-:
-function
 (
 )
 {
@@ -3974,8 +3956,6 @@ prototype
 =
 {
 init
-:
-function
 (
 )
 {
@@ -4021,8 +4001,6 @@ true
 ;
 }
 addMessageListener
-:
-function
 (
 messageId
 callback
@@ -4041,8 +4019,6 @@ callback
 ;
 }
 sendMessage
-:
-function
 (
 messageId
 payload
@@ -4063,8 +4039,6 @@ callback
 ;
 }
 create
-:
-function
 (
 )
 {

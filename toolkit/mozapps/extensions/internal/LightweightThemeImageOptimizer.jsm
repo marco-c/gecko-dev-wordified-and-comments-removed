@@ -108,8 +108,6 @@ LightweightThemeImageOptimizer
 =
 {
 optimize
-:
-function
 (
 aThemeData
 aScreen
@@ -182,8 +180,6 @@ data
 ;
 }
 purge
-:
-function
 (
 )
 {
@@ -245,8 +241,6 @@ _inProgress
 {
 }
 getCroppedImageURL
-:
-function
 (
 aImageURL
 aScreen
@@ -425,8 +419,6 @@ aImageURL
 ;
 }
 _crop
-:
-function
 (
 aURI
 aTargetFile
@@ -556,8 +548,6 @@ ImageFile
 =
 {
 read
-:
-function
 (
 aURI
 aCallback
@@ -641,8 +631,6 @@ aCallback
 ;
 }
 write
-:
-function
 (
 aFile
 aInputStream
@@ -748,8 +736,6 @@ ImageTools
 =
 {
 decode
-:
-function
 (
 aInputStream
 aContentType
@@ -791,8 +777,6 @@ value
 ;
 }
 encode
-:
-function
 (
 aImage
 aScreen

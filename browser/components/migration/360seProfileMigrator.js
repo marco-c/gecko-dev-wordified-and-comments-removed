@@ -1430,8 +1430,6 @@ sourceProfiles
 "
 {
 get
-:
-function
 (
 )
 {

@@ -167,8 +167,6 @@ gCrashReporter
 "
 {
 get
-:
-function
 (
 )
 {
@@ -362,8 +360,6 @@ prototype
 =
 {
 wait
-:
-function
 (
 )
 {
@@ -435,8 +431,6 @@ promise
 ;
 }
 add
-:
-function
 (
 key
 )
@@ -517,8 +511,6 @@ indirection
 ;
 }
 delete
-:
-function
 (
 key
 )
@@ -572,8 +564,6 @@ true
 ;
 }
 _ensurePromise
-:
-function
 (
 key
 )
@@ -1327,13 +1317,7 @@ n
 return
 {
 filename
-:
-filename
 lineNumber
-:
-lineNumber
-stack
-:
 stack
 }
 ;
@@ -1494,8 +1478,6 @@ freeze
 (
 {
 addBlocker
-:
-function
 (
 name
 condition
@@ -1515,8 +1497,6 @@ details
 ;
 }
 removeBlocker
-:
-function
 (
 condition
 )
@@ -1653,8 +1633,6 @@ prototype
 =
 {
 addBlocker
-:
-function
 (
 name
 condition
@@ -1676,8 +1654,6 @@ details
 ;
 }
 removeBlocker
-:
-function
 (
 condition
 )
@@ -1711,8 +1687,6 @@ name
 ;
 }
 observe
-:
-function
 (
 )
 {
@@ -2405,16 +2379,8 @@ blocker
 =
 {
 trigger
-:
-trigger
-promise
-:
 promise
 name
-:
-name
-fetchState
-:
 fetchState
 getOrigin
 :
@@ -2627,8 +2593,6 @@ push
 (
 {
 name
-:
-name
 state
 :
 safeGetState
@@ -2636,13 +2600,7 @@ safeGetState
 fetchState
 )
 filename
-:
-filename
 lineNumber
-:
-lineNumber
-stack
-:
 stack
 }
 )
@@ -2653,8 +2611,6 @@ frozen
 ;
 }
 wait
-:
-function
 (
 options
 =
@@ -2689,8 +2645,6 @@ options
 ;
 }
 _wait
-:
-function
 (
 options
 )
@@ -3371,8 +3325,6 @@ promise
 ;
 }
 _removeBlocker
-:
-function
 (
 condition
 )

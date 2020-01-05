@@ -14,8 +14,6 @@ ShimWaiver
 =
 {
 getProperty
-:
-function
 (
 obj
 prop

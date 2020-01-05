@@ -181,8 +181,6 @@ _initialized
 :
 false
 init
-:
-function
 (
 )
 {
@@ -324,8 +322,6 @@ _eventListenersAdded
 :
 false
 _ensureEventListenersAdded
-:
-function
 (
 )
 {
@@ -345,8 +341,6 @@ _addEventListeners
 ;
 }
 _addEventListeners
-:
-function
 (
 )
 {
@@ -394,8 +388,6 @@ true
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -496,8 +488,6 @@ null
 ;
 }
 setMainView
-:
-function
 (
 aMainView
 )
@@ -519,8 +509,6 @@ aMainView
 ;
 }
 toggle
-:
-function
 (
 aEvent
 )
@@ -594,8 +582,6 @@ aEvent
 }
 }
 show
-:
-function
 (
 aEvent
 )
@@ -849,8 +835,6 @@ reason
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -881,8 +865,6 @@ hidePopup
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -1011,8 +993,6 @@ _isReady
 ;
 }
 ensureReady
-:
-function
 (
 aCustomizing
 =
@@ -1344,8 +1324,6 @@ _readyPromise
 ;
 }
 showMainView
-:
-function
 (
 )
 {
@@ -1365,8 +1343,6 @@ showMainView
 ;
 }
 showHelpView
-:
-function
 (
 aAnchor
 )
@@ -2070,8 +2046,6 @@ topright
 }
 )
 disableSingleSubviewPanelAnimations
-:
-function
 (
 )
 {
@@ -2083,8 +2057,6 @@ true
 ;
 }
 enableSingleSubviewPanelAnimations
-:
-function
 (
 )
 {
@@ -2096,8 +2068,6 @@ false
 ;
 }
 onWidgetAfterDOMChange
-:
-function
 (
 aNode
 aNextNode
@@ -2137,8 +2107,6 @@ hyphens
 }
 }
 onWidgetBeforeDOMChange
-:
-function
 (
 aNode
 aNextNode
@@ -2201,8 +2169,6 @@ aNode
 }
 }
 beginBatchUpdate
-:
-function
 (
 )
 {
@@ -2222,8 +2188,6 @@ true
 ;
 }
 endBatchUpdate
-:
-function
 (
 aReason
 )
@@ -2244,8 +2208,6 @@ false
 ;
 }
 _adjustLabelsForAutoHyphens
-:
-function
 (
 aNode
 )
@@ -2347,8 +2309,6 @@ hyphens
 }
 }
 _updatePanelButton
-:
-function
 (
 )
 {
@@ -2383,8 +2343,6 @@ showing
 ;
 }
 _onHelpViewShow
-:
-function
 (
 aEvent
 )
@@ -2607,8 +2565,6 @@ fragment
 ;
 }
 _updateQuitTooltip
-:
-function
 (
 )
 {
@@ -2768,8 +2724,6 @@ _overlayScrollListenerBoundFn
 :
 null
 _overlayScrollListener
-:
-function
 (
 aMQL
 )

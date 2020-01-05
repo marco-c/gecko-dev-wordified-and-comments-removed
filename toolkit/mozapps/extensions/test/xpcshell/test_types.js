@@ -74,8 +74,6 @@ addTypeListener
 (
 {
 onTypeAdded
-:
-function
 (
 aType
 )
@@ -94,8 +92,6 @@ null
 ;
 }
 onTypeRemoved
-:
-function
 (
 aType
 )

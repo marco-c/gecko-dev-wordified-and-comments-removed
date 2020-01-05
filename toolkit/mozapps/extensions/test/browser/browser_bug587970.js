@@ -1066,8 +1066,6 @@ listener
 =
 {
 onDownloadStarted
-:
-function
 (
 aInstall
 )
@@ -1102,8 +1100,6 @@ addon1
 ;
 }
 onInstallEnded
-:
-function
 (
 aInstall
 )

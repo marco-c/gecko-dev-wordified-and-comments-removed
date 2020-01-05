@@ -1149,8 +1149,6 @@ addListener
 (
 {
 onOpenWindow
-:
-function
 (
 aXULWindow
 )
@@ -1171,16 +1169,12 @@ aXULWindow
 ;
 }
 onCloseWindow
-:
-function
 (
 aXULWindow
 )
 {
 }
 onWindowTitleChange
-:
-function
 (
 aXULWindow
 aNewTitle
@@ -8051,8 +8045,6 @@ addListener
 (
 {
 onDownloadCancelled
-:
-function
 (
 )
 {
@@ -8510,8 +8502,6 @@ XPInstallObserver
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic

@@ -1137,8 +1137,6 @@ permissions
 :
 0
 isCompatibleWith
-:
-function
 (
 aAppVersion
 aPlatformVersion
@@ -1149,8 +1147,6 @@ true
 ;
 }
 findUpdates
-:
-function
 (
 aListener
 aReason
@@ -1205,8 +1201,6 @@ this
 ;
 }
 toJSON
-:
-function
 (
 )
 {
@@ -1472,8 +1466,6 @@ _maxResults
 :
 null
 shutdown
-:
-function
 (
 )
 {
@@ -1499,8 +1491,6 @@ false
 ;
 }
 metadataAge
-:
-function
 (
 )
 {
@@ -1563,8 +1553,6 @@ lastUpdate
 ;
 }
 isMetadataStale
-:
-function
 (
 )
 {
@@ -1707,8 +1695,6 @@ _addons
 }
 )
 repopulateCache
-:
-function
 (
 aTimeout
 )
@@ -1724,8 +1710,6 @@ aTimeout
 ;
 }
 _clearCache
-:
-function
 (
 )
 {
@@ -2013,8 +1997,6 @@ updateAddonRepositoryData
 }
 )
 cacheAddons
-:
-function
 (
 aIds
 aCallback
@@ -2224,8 +2206,6 @@ _searching
 ;
 }
 getRecommendedURL
-:
-function
 (
 )
 {
@@ -2259,8 +2239,6 @@ blank
 ;
 }
 getSearchURL
-:
-function
 (
 aSearchTerms
 )
@@ -2301,8 +2279,6 @@ blank
 ;
 }
 cancelSearch
-:
-function
 (
 )
 {
@@ -2342,8 +2318,6 @@ null
 ;
 }
 getAddonsByIDs
-:
-function
 (
 aIDs
 aCallback
@@ -2361,8 +2335,6 @@ false
 ;
 }
 _beginGetAddons
-:
-function
 (
 aIDs
 aCallback
@@ -2384,8 +2356,6 @@ let
 params
 =
 {
-API_VERSION
-:
 API_VERSION
 IDS
 :
@@ -2757,8 +2727,6 @@ result
 =
 {
 addon
-:
-addon
 xpiURL
 :
 null
@@ -2800,8 +2768,6 @@ aTimeout
 ;
 }
 backgroundUpdateCheck
-:
-function
 (
 )
 {
@@ -2815,8 +2781,6 @@ true
 ;
 }
 retrieveRecommendedAddons
-:
-function
 (
 aMaxResults
 aCallback
@@ -2831,8 +2795,6 @@ _formatURLPref
 (
 PREF_GETADDONS_GETRECOMMENDED
 {
-API_VERSION
-:
 API_VERSION
 MAX_RESULTS
 :
@@ -2886,8 +2848,6 @@ handleResults
 ;
 }
 searchAddons
-:
-function
 (
 aSearchTerms
 aMaxResults
@@ -2931,8 +2891,6 @@ let
 substitutions
 =
 {
-API_VERSION
-:
 API_VERSION
 TERMS
 :
@@ -3004,8 +2962,6 @@ handleResults
 ;
 }
 _reportSuccess
-:
-function
 (
 aResults
 aTotalResults
@@ -3064,8 +3020,6 @@ aTotalResults
 ;
 }
 _reportFailure
-:
-function
 (
 )
 {
@@ -3102,8 +3056,6 @@ searchFailed
 ;
 }
 _getUniqueDescendant
-:
-function
 (
 aElement
 aTagName
@@ -3138,8 +3090,6 @@ null
 ;
 }
 _getUniqueDirectDescendant
-:
-function
 (
 aElement
 aTagName
@@ -3185,8 +3135,6 @@ null
 ;
 }
 _getTextContent
-:
-function
 (
 aElement
 )
@@ -3217,8 +3165,6 @@ null
 ;
 }
 _getDescendantTextContent
-:
-function
 (
 aElement
 aTagName
@@ -3254,8 +3200,6 @@ null
 ;
 }
 _getDirectDescendantTextContent
-:
-function
 (
 aElement
 aTagName
@@ -3291,8 +3235,6 @@ null
 ;
 }
 _parseAddon
-:
-function
 (
 aElement
 aSkip
@@ -3385,8 +3327,6 @@ let
 result
 =
 {
-addon
-:
 addon
 xpiURL
 :
@@ -4727,8 +4667,6 @@ result
 ;
 }
 _parseAddons
-:
-function
 (
 aElements
 aTotalResults
@@ -5239,8 +5177,6 @@ null
 }
 }
 _parseAddonCompatElement
-:
-function
 (
 aResultObj
 aElement
@@ -5405,8 +5341,6 @@ let
 appRange
 =
 {
-appID
-:
 appID
 appMinVersion
 :
@@ -5721,8 +5655,6 @@ compat
 ;
 }
 _parseAddonCompatData
-:
-function
 (
 aElements
 )
@@ -5754,8 +5686,6 @@ compatData
 ;
 }
 _beginSearch
-:
-function
 (
 aURI
 aMaxResults
@@ -6126,8 +6056,6 @@ null
 ;
 }
 _getLocalAddonIds
-:
-function
 (
 aCallback
 )
@@ -6248,8 +6176,6 @@ localAddonIds
 ;
 }
 _formatURLPref
-:
-function
 (
 aPreference
 aSubstitutions
@@ -6355,8 +6281,6 @@ url
 ;
 }
 findMatchingCompatOverride
-:
-function
 (
 aAddonVersion
 aCompatOverrides
@@ -6485,8 +6409,6 @@ null
 ;
 }
 flush
-:
-function
 (
 )
 {
@@ -6536,8 +6458,6 @@ FILE_DATABASE
 ;
 }
 openConnection
-:
-function
 (
 )
 {
@@ -6927,8 +6847,6 @@ openConnection
 ;
 }
 shutdown
-:
-function
 (
 aSkipFlush
 )
@@ -6979,8 +6897,6 @@ flush
 ;
 }
 delete
-:
-function
 (
 aCallback
 )
@@ -7101,8 +7017,6 @@ _deleting
 ;
 }
 toJSON
-:
-function
 (
 )
 {
@@ -7192,8 +7106,6 @@ Writer
 ;
 }
 flush
-:
-function
 (
 )
 {
@@ -7221,8 +7133,6 @@ flush
 ;
 }
 retrieveStoredData
-:
-function
 (
 )
 {
@@ -7245,8 +7155,6 @@ addons
 ;
 }
 repopulate
-:
-function
 (
 aAddons
 aCallback
@@ -7405,8 +7313,6 @@ aCallback
 }
 )
 _insertAddon
-:
-function
 (
 aAddon
 )
@@ -7464,8 +7370,6 @@ newAddon
 ;
 }
 _parseAddon
-:
-function
 (
 aObj
 )
@@ -7943,8 +7847,6 @@ addon
 ;
 }
 _saveDBToDisk
-:
-function
 (
 )
 {
@@ -7977,8 +7879,6 @@ e
 ;
 }
 _makeDeveloper
-:
-function
 (
 aObj
 )
@@ -8009,8 +7909,6 @@ url
 ;
 }
 _makeScreenshot
-:
-function
 (
 aObj
 )
@@ -8081,8 +7979,6 @@ caption
 ;
 }
 _makeCompatOverride
-:
-function
 (
 aObj
 )

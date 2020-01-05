@@ -638,8 +638,6 @@ size
 ;
 }
 migrate
-:
-function
 (
 aCallback
 )
@@ -804,8 +802,6 @@ _success
 :
 false
 handleResult
-:
-function
 (
 )
 {
@@ -817,15 +813,11 @@ true
 ;
 }
 handleError
-:
-function
 (
 )
 {
 }
 handleCompletion
-:
-function
 (
 )
 {

@@ -50,8 +50,6 @@ Test
 1
 "
 run
-:
-function
 (
 )
 {
@@ -80,8 +78,6 @@ notifyObj
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -134,8 +130,6 @@ remove
 ;
 }
 onHidden
-:
-function
 (
 )
 {
@@ -150,8 +144,6 @@ Test
 2
 "
 run
-:
-function
 (
 )
 {
@@ -287,8 +279,6 @@ _update
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -319,8 +309,6 @@ remove
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -335,10 +323,8 @@ Test
 #
 3
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -441,10 +427,8 @@ Test
 #
 4
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -511,10 +495,8 @@ notifyObj
 )
 ;
 }
-onShown
-:
-function
 *
+onShown
 (
 popup
 )
@@ -589,8 +571,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -647,10 +627,8 @@ Test
 #
 5
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -717,10 +695,8 @@ notifyObj
 )
 ;
 }
-onShown
-:
-function
 *
+onShown
 (
 popup
 )
@@ -764,8 +740,6 @@ popup
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -823,10 +797,8 @@ Test
 #
 6a
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -862,10 +834,8 @@ notifyObj
 )
 ;
 }
-onShown
-:
-function
 *
+onShown
 (
 popup
 )
@@ -898,8 +868,6 @@ com
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -946,10 +914,8 @@ Test
 #
 6b
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -1037,10 +1003,8 @@ Test
 #
 7
 "
-run
-:
-function
 *
+run
 (
 )
 {
@@ -1330,8 +1294,6 @@ Test
 8
 "
 run
-:
-function
 (
 )
 {
@@ -1459,8 +1421,6 @@ _update
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -1491,8 +1451,6 @@ remove
 ;
 }
 onHidden
-:
-function
 (
 popup
 )
@@ -1508,8 +1466,6 @@ Test
 9
 "
 run
-:
-function
 (
 )
 {
@@ -1695,8 +1651,6 @@ _update
 ;
 }
 onShown
-:
-function
 (
 popup
 )
@@ -1799,8 +1753,6 @@ remove
 ;
 }
 onHidden
-:
-function
 (
 popup
 )

@@ -607,8 +607,6 @@ promiseStartLegacyDownload
 null
 {
 targetFile
-:
-targetFile
 }
 )
 ;
@@ -6115,8 +6113,6 @@ promiseStartLegacyDownload
 null
 {
 targetFile
-:
-targetFile
 }
 )
 ;
@@ -6332,8 +6328,6 @@ promiseStartLegacyDownload
 (
 null
 {
-targetFile
-:
 targetFile
 }
 )
@@ -9604,8 +9598,6 @@ TEST_TARGET_FILE_NAME
 .
 path
 launcherPath
-:
-launcherPath
 launchWhenSucceeded
 :
 true
@@ -9688,8 +9680,6 @@ txt
 "
 )
 {
-launcherPath
-:
 launcherPath
 launchWhenSucceeded
 :
@@ -10069,8 +10059,6 @@ launchWhenSucceeded
 :
 true
 launcherPath
-:
-launcherPath
 }
 )
 ;
@@ -10099,8 +10087,6 @@ txt
 "
 )
 {
-launcherPath
-:
 launcherPath
 launchWhenSucceeded
 :
@@ -10391,8 +10377,6 @@ observer
 =
 {
 observe
-:
-function
 (
 subject
 topic

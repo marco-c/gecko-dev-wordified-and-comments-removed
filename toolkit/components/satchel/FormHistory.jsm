@@ -212,8 +212,6 @@ _expireDays
 ;
 }
 ensureInitialized
-:
-function
 (
 )
 {
@@ -3151,8 +3149,6 @@ handlers
 =
 {
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -3219,8 +3215,6 @@ REASON_FINISHED
 }
 }
 handleError
-:
-function
 (
 aError
 )
@@ -3305,8 +3299,6 @@ aExpireTime
 ]
 {
 handleCompletion
-:
-function
 (
 )
 {
@@ -3318,8 +3310,6 @@ aBeginningCount
 ;
 }
 handleError
-:
-function
 (
 aError
 )
@@ -3351,8 +3341,6 @@ count
 }
 {
 handleResult
-:
-function
 (
 aEndingCount
 )
@@ -3392,8 +3380,6 @@ handleResult
 :
 NOOP
 handleError
-:
-function
 (
 aError
 )
@@ -3425,8 +3411,6 @@ aExpireTime
 ;
 }
 handleError
-:
-function
 (
 aError
 )
@@ -3501,8 +3485,6 @@ handlers
 =
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -3577,8 +3559,6 @@ result
 }
 }
 handleError
-:
-function
 (
 aError
 )
@@ -3728,8 +3708,6 @@ count
 }
 }
 handleError
-:
-function
 (
 aError
 )
@@ -4268,8 +4246,6 @@ foundResult
 :
 false
 handleResult
-:
-function
 (
 aResult
 )
@@ -4363,8 +4339,6 @@ guid
 ;
 }
 handleError
-:
-function
 (
 aError
 )
@@ -4389,8 +4363,6 @@ aError
 }
 }
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -5046,8 +5018,6 @@ executeAsync
 (
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -5113,8 +5083,6 @@ toLowerCase
 (
 )
 frecency
-:
-frecency
 totalScore
 :
 Math
@@ -5155,8 +5123,6 @@ entry
 }
 }
 handleError
-:
-function
 (
 aError
 )
@@ -5181,8 +5147,6 @@ aError
 }
 }
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -5320,8 +5284,6 @@ count
 }
 {
 handleResult
-:
-function
 (
 aBeginningCount
 )
@@ -5334,8 +5296,6 @@ aBeginningCount
 ;
 }
 handleError
-:
-function
 (
 aError
 )

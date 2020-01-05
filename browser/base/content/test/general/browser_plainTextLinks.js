@@ -1238,8 +1238,6 @@ gBrowser
 selectedBrowser
 {
 testid
-:
-testid
 }
 function
 *

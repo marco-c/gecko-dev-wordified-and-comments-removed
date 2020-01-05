@@ -142,8 +142,6 @@ nsIFormSubmitObserver
 ]
 )
 notifyInvalidSubmit
-:
-function
 (
 aFormElement
 aInvalidElements

@@ -304,8 +304,6 @@ selectedIndex
 ;
 }
 init
-:
-function
 (
 )
 {
@@ -703,8 +701,6 @@ accesskey
 ;
 }
 startNewAccountSetup
-:
-function
 (
 )
 {
@@ -737,8 +733,6 @@ NEW_ACCOUNT_START_PAGE
 ;
 }
 useExistingAccount
-:
-function
 (
 )
 {
@@ -970,8 +964,6 @@ true
 ;
 }
 onResetPassphrase
-:
-function
 (
 )
 {
@@ -1017,8 +1009,6 @@ advance
 ;
 }
 onLoginStart
-:
-function
 (
 )
 {
@@ -1031,8 +1021,6 @@ false
 ;
 }
 onLoginEnd
-:
-function
 (
 )
 {
@@ -1045,8 +1033,6 @@ true
 ;
 }
 sendCredentialsAfterSync
-:
-function
 (
 )
 {
@@ -1189,8 +1175,6 @@ false
 ;
 }
 toggleLoginFeedback
-:
-function
 (
 stop
 )
@@ -1359,8 +1343,6 @@ login
 ;
 }
 setupInitialSync
-:
-function
 (
 )
 {
@@ -1428,8 +1410,6 @@ break
 }
 }
 checkFields
-:
-function
 (
 )
 {
@@ -1447,8 +1427,6 @@ readyToAdvance
 ;
 }
 readyToAdvance
-:
-function
 (
 )
 {
@@ -1704,8 +1682,6 @@ PIN_PART_LENGTH
 ;
 }
 onEmailInput
-:
-function
 (
 )
 {
@@ -1748,8 +1724,6 @@ checkAccount
 ;
 }
 checkAccount
-:
-function
 (
 )
 {
@@ -2083,8 +2057,6 @@ checkFields
 ;
 }
 onPasswordChange
-:
-function
 (
 )
 {
@@ -2163,8 +2135,6 @@ checkFields
 ;
 }
 onPageShow
-:
-function
 (
 )
 {
@@ -2815,8 +2785,6 @@ break
 }
 }
 onWizardAdvance
-:
-function
 (
 )
 {
@@ -3380,8 +3348,6 @@ true
 ;
 }
 onWizardBack
-:
-function
 (
 )
 {
@@ -3487,8 +3453,6 @@ true
 ;
 }
 wizardFinish
-:
-function
 (
 )
 {
@@ -3717,8 +3681,6 @@ close
 ;
 }
 onWizardCancel
-:
-function
 (
 )
 {
@@ -3753,8 +3715,6 @@ startOver
 ;
 }
 onSyncOptions
-:
-function
 (
 )
 {
@@ -3778,8 +3738,6 @@ OPTIONS_PAGE
 ;
 }
 returnFromOptions
-:
-function
 (
 )
 {
@@ -4188,8 +4146,6 @@ controller
 ;
 }
 startEasySetup
-:
-function
 (
 )
 {
@@ -4420,8 +4376,6 @@ receiveNoPIN
 ;
 }
 abortEasySetup
-:
-function
 (
 )
 {
@@ -4491,8 +4445,6 @@ _jpakeclient
 ;
 }
 manualSetup
-:
-function
 (
 )
 {
@@ -4512,8 +4464,6 @@ EXISTING_ACCOUNT_LOGIN_PAGE
 ;
 }
 _handleNoScript
-:
-function
 (
 addExceptions
 )
@@ -4648,8 +4598,6 @@ _disabledSites
 }
 }
 onExistingServerCommand
-:
-function
 (
 )
 {
@@ -4753,8 +4701,6 @@ checkFields
 ;
 }
 onExistingServerInput
-:
-function
 (
 )
 {
@@ -4797,8 +4743,6 @@ checkFields
 ;
 }
 onServerCommand
-:
-function
 (
 )
 {
@@ -4948,8 +4892,6 @@ checkFields
 ;
 }
 onServerInput
-:
-function
 (
 )
 {
@@ -4992,8 +4934,6 @@ checkServer
 ;
 }
 checkServer
-:
-function
 (
 )
 {
@@ -5106,8 +5046,6 @@ checkFields
 ;
 }
 _validateServer
-:
-function
 (
 element
 )
@@ -5346,8 +5284,6 @@ valid
 ;
 }
 _handleChoice
-:
-function
 (
 )
 {
@@ -6207,8 +6143,6 @@ true
 ;
 }
 _setFeedback
-:
-function
 (
 element
 success
@@ -6292,8 +6226,6 @@ string
 ;
 }
 _setFeedbackMessage
-:
-function
 (
 element
 success
@@ -6411,8 +6343,6 @@ captchaURI
 }
 }
 onStateChange
-:
-function
 (
 webProgress
 request
@@ -6498,29 +6428,21 @@ responseStatus
 ;
 }
 onProgressChange
-:
-function
 (
 )
 {
 }
 onStatusChange
-:
-function
 (
 )
 {
 }
 onSecurityChange
-:
-function
 (
 )
 {
 }
 onLocationChange
-:
-function
 (
 )
 {

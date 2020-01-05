@@ -170,10 +170,6 @@ ctypes
 size_t
 )
 status
-:
-status
-released
-:
 released
 }
 )
@@ -249,10 +245,6 @@ ctypes
 size_t
 )
 status
-:
-status
-released
-:
 released
 }
 )
@@ -328,10 +320,6 @@ ctypes
 int32_t
 )
 status
-:
-status
-released
-:
 released
 }
 )
@@ -407,10 +395,6 @@ ctypes
 int64_t
 )
 status
-:
-status
-released
-:
 released
 }
 )
@@ -500,10 +484,6 @@ void_t
 ptr
 )
 status
-:
-status
-released
-:
 released
 }
 )
@@ -587,10 +567,6 @@ char
 ptr
 )
 status
-:
-status
-released
-:
 released
 }
 )
@@ -701,10 +677,6 @@ rect_t
 rect_t
 )
 status
-:
-status
-released
-:
 released
 }
 )
@@ -782,8 +754,6 @@ ctypes
 .
 size_t
 )
-status
-:
 status
 released
 :
@@ -875,8 +845,6 @@ ctypes
 .
 size_t
 )
-status
-:
 status
 released
 :
@@ -1027,8 +995,6 @@ void_t
 .
 ptr
 )
-released
-:
 released
 }
 )
@@ -1823,10 +1789,6 @@ push
 (
 {
 original
-:
-original
-finalizer
-:
 finalizer
 }
 )

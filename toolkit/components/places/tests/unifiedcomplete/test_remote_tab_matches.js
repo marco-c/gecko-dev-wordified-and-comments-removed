@@ -938,8 +938,6 @@ addVisits
 [
 {
 uri
-:
-uri
 title
 :
 "

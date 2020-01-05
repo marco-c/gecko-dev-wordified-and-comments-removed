@@ -21,8 +21,6 @@ domUtils
 :
 null
 init
-:
-function
 (
 )
 {
@@ -118,8 +116,6 @@ null
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -158,8 +154,6 @@ break
 }
 }
 isSanityTest
-:
-function
 (
 aUri
 )
@@ -189,8 +183,6 @@ html
 ;
 }
 onStateChange
-:
-function
 (
 webProgress
 req

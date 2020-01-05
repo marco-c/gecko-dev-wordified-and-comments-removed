@@ -426,8 +426,6 @@ removeObserver
 ;
 }
 waitForChecks
-:
-function
 (
 callback
 )
@@ -456,8 +454,6 @@ callback
 ;
 }
 observe
-:
-function
 (
 {
 subject
@@ -595,13 +591,7 @@ push
 (
 {
 name
-:
-name
 value
-:
-value
-message
-:
 message
 }
 )

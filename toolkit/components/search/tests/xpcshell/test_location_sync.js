@@ -96,8 +96,6 @@ nsIConsoleListener
 ]
 )
 observe
-:
-function
 (
 msg
 )

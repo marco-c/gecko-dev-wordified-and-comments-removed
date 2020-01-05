@@ -304,8 +304,6 @@ this
 ;
 }
 getPath
-:
-function
 (
 file
 )
@@ -325,8 +323,6 @@ file
 ;
 }
 getTimes
-:
-function
 (
 file
 =
@@ -385,8 +381,6 @@ times
 ;
 }
 readTimes
-:
-function
 (
 file
 =
@@ -412,8 +406,6 @@ file
 ;
 }
 writeTimes
-:
-function
 (
 contents
 file
@@ -441,8 +433,6 @@ file
 ;
 }
 computeAndPersistCreated
-:
-function
 (
 existingContents
 file
@@ -533,8 +523,6 @@ this
 ;
 }
 getOldestProfileTimestamp
-:
-function
 (
 )
 {
@@ -830,8 +818,6 @@ onFailure
 ;
 }
 recordProfileReset
-:
-function
 (
 time
 =

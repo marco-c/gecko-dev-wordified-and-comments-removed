@@ -758,8 +758,6 @@ value
 }
 {
 handleError
-:
-function
 (
 aError
 )

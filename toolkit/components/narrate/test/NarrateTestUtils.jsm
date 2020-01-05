@@ -221,8 +221,6 @@ skip
 next
 "
 isVisible
-:
-function
 (
 element
 )
@@ -334,8 +332,6 @@ true
 ;
 }
 isStoppedState
-:
-function
 (
 window
 ok
@@ -447,8 +443,6 @@ correct
 ;
 }
 isStartedState
-:
-function
 (
 window
 ok
@@ -562,8 +556,6 @@ correct
 ;
 }
 selectVoice
-:
-function
 (
 window
 voiceUri
@@ -659,8 +651,6 @@ selected
 ;
 }
 getEventUtils
-:
-function
 (
 window
 )
@@ -683,8 +673,6 @@ _EU_Cc
 Components
 .
 classes
-window
-:
 window
 parent
 :
@@ -737,8 +725,6 @@ eventUtils
 ;
 }
 getReaderReadyPromise
-:
-function
 (
 window
 )
@@ -828,8 +814,6 @@ false
 ;
 }
 waitForNarrateToggle
-:
-function
 (
 window
 )
@@ -867,8 +851,6 @@ hidden
 ;
 }
 waitForPrefChange
-:
-function
 (
 pref
 )
@@ -923,8 +905,6 @@ false
 ;
 }
 sendBoundaryEvent
-:
-function
 (
 window
 name
@@ -964,16 +944,12 @@ testsynthevent
 "
 {
 detail
-:
-detail
 }
 )
 )
 ;
 }
 isWordHighlightGone
-:
-function
 (
 window
 ok
@@ -1018,8 +994,6 @@ exist
 ;
 }
 getWordHighlights
-:
-function
 (
 window
 )

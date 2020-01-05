@@ -1611,8 +1611,6 @@ SetCharacterSet
 "
 {
 charset
-:
-charset
 doPageLoad
 :
 this

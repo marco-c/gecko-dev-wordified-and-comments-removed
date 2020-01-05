@@ -1572,8 +1572,6 @@ _promiseConfirmBlock
 :
 null
 unblock
-:
-function
 (
 )
 {
@@ -1758,8 +1756,6 @@ _promiseUnblock
 ;
 }
 confirmBlock
-:
-function
 (
 )
 {
@@ -1916,8 +1912,6 @@ _promiseConfirmBlock
 ;
 }
 launch
-:
-function
 (
 )
 {
@@ -2108,8 +2102,6 @@ _promiseRemovePartialData
 :
 null
 removePartialData
-:
-function
 (
 )
 {
@@ -2284,8 +2276,6 @@ promise
 ;
 }
 refresh
-:
-function
 (
 )
 {
@@ -2567,8 +2557,6 @@ _finalized
 :
 false
 finalize
-:
-function
 (
 aRemovePartialData
 )
@@ -2837,8 +2825,6 @@ _notifyChange
 }
 }
 toSerializable
-:
-function
 (
 )
 {
@@ -2990,8 +2976,6 @@ serializable
 ;
 }
 getSerializationHash
-:
-function
 (
 )
 {
@@ -3392,8 +3376,6 @@ adjustChannel
 :
 null
 toSerializable
-:
-function
 (
 )
 {
@@ -3802,8 +3784,6 @@ false
 }
 )
 toSerializable
-:
-function
 (
 )
 {
@@ -4363,8 +4343,6 @@ innerException
 :
 null
 toSerializable
-:
-function
 (
 )
 {
@@ -4610,8 +4588,6 @@ resolve
 ;
 }
 addToHistory
-:
-function
 (
 )
 {
@@ -4754,8 +4730,6 @@ ex
 }
 }
 toSerializable
-:
-function
 (
 )
 {
@@ -4772,8 +4746,6 @@ implemented
 ;
 }
 getSha256Hash
-:
-function
 (
 )
 {
@@ -4790,8 +4762,6 @@ implemented
 ;
 }
 getSignatureInfo
-:
-function
 (
 )
 {
@@ -5169,8 +5139,6 @@ observer
 =
 {
 onTargetChange
-:
-function
 (
 )
 {
@@ -5521,8 +5489,6 @@ keepPartialData
 ;
 }
 onStatus
-:
-function
 (
 )
 {
@@ -6283,8 +6249,6 @@ null
 }
 }
 removePartialData
-:
-function
 (
 )
 {
@@ -6370,8 +6334,6 @@ this
 ;
 }
 toSerializable
-:
-function
 (
 )
 {
@@ -6422,8 +6384,6 @@ serializable
 ;
 }
 getSha256Hash
-:
-function
 (
 )
 {
@@ -6434,8 +6394,6 @@ _sha256Hash
 ;
 }
 getSignatureInfo
-:
-function
 (
 )
 {
@@ -6446,8 +6404,6 @@ _signatureInfo
 ;
 }
 getRedirects
-:
-function
 (
 )
 {
@@ -6656,8 +6612,6 @@ progressWasNotified
 :
 false
 onTransferStarted
-:
-function
 (
 aRequest
 aAlreadyAddedToHistory
@@ -7193,8 +7147,6 @@ this
 ;
 }
 _checkReputationAndMove
-:
-function
 (
 )
 {
@@ -7260,8 +7212,6 @@ resolve
 }
 }
 removePartialData
-:
-function
 (
 )
 {
@@ -7279,8 +7229,6 @@ this
 ;
 }
 toSerializable
-:
-function
 (
 )
 {
@@ -7298,8 +7246,6 @@ this
 ;
 }
 getSha256Hash
-:
-function
 (
 )
 {
@@ -7327,8 +7273,6 @@ _sha256Hash
 ;
 }
 setSha256Hash
-:
-function
 (
 hash
 )
@@ -7341,8 +7285,6 @@ hash
 ;
 }
 getSignatureInfo
-:
-function
 (
 )
 {
@@ -7370,8 +7312,6 @@ _signatureInfo
 ;
 }
 setSignatureInfo
-:
-function
 (
 signatureInfo
 )
@@ -7384,8 +7324,6 @@ signatureInfo
 ;
 }
 getRedirects
-:
-function
 (
 )
 {
@@ -7413,8 +7351,6 @@ _redirects
 ;
 }
 setRedirects
-:
-function
 (
 redirects
 )
@@ -7471,8 +7407,6 @@ _webBrowserPrint
 :
 null
 execute
-:
-function
 (
 aSetProgressBytesFn
 aSetPropertiesFn
@@ -7779,8 +7713,6 @@ print
 printSettings
 {
 onStateChange
-:
-function
 (
 webProgress
 request
@@ -7837,8 +7769,6 @@ resolve
 }
 }
 onProgressChange
-:
-function
 (
 webProgress
 request
@@ -7857,22 +7787,16 @@ false
 ;
 }
 onLocationChange
-:
-function
 (
 )
 {
 }
 onStatusChange
-:
-function
 (
 )
 {
 }
 onSecurityChange
-:
-function
 (
 )
 {
@@ -7957,8 +7881,6 @@ null
 }
 }
 toSerializable
-:
-function
 (
 )
 {

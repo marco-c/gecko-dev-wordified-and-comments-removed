@@ -320,8 +320,6 @@ nsIObserver
 ]
 )
 STARTUP_RETRY_INTERVAL_MS
-:
-STARTUP_RETRY_INTERVAL_MS
 get
 _currentIndex
 (
@@ -463,8 +461,6 @@ activeTicks
 ;
 }
 incrementActiveTicks
-:
-function
 (
 )
 {
@@ -509,8 +505,6 @@ totalTime
 ;
 }
 updateTotalTime
-:
-function
 (
 )
 {
@@ -761,8 +755,6 @@ value
 ;
 }
 getPreviousSessions
-:
-function
 (
 )
 {
@@ -824,8 +816,6 @@ result
 ;
 }
 getPreviousSession
-:
-function
 (
 index
 )
@@ -852,8 +842,6 @@ index
 ;
 }
 pruneOldSessions
-:
-function
 (
 date
 )
@@ -952,8 +940,6 @@ i
 }
 }
 recordStartupFields
-:
-function
 (
 )
 {
@@ -1162,8 +1148,6 @@ TYPE_REPEATING_SLACK
 }
 }
 _clearStartupTimer
-:
-function
 (
 )
 {
@@ -1190,8 +1174,6 @@ _timer
 }
 }
 onStartup
-:
-function
 (
 )
 {
@@ -1365,8 +1347,6 @@ recordStartupFields
 ;
 }
 onActivity
-:
-function
 (
 active
 )
@@ -1409,8 +1389,6 @@ incrementActiveTicks
 }
 }
 onShutdown
-:
-function
 (
 )
 {
@@ -1558,8 +1536,6 @@ clean
 "
 ]
 _moveCurrentToPrevious
-:
-function
 (
 )
 {
@@ -1774,8 +1750,6 @@ pref
 }
 }
 _deserialize
-:
-function
 (
 s
 )
@@ -1851,8 +1825,6 @@ sr
 ;
 }
 _getStartupInfo
-:
-function
 (
 )
 {
@@ -1887,8 +1859,6 @@ getStartupInfo
 ;
 }
 observe
-:
-function
 (
 subject
 topic

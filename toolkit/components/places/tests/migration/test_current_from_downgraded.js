@@ -46,8 +46,6 @@ openConnection
 (
 {
 path
-:
-path
 }
 )
 ;

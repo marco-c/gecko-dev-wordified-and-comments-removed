@@ -147,8 +147,6 @@ dirProvider
 =
 {
 getFile
-:
-function
 (
 aProp
 aPersistent
@@ -474,8 +472,6 @@ findUpdates
 (
 {
 onUpdateFinished
-:
-function
 (
 )
 {

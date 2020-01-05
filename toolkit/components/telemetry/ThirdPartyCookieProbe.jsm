@@ -134,8 +134,6 @@ nsIObserver
 ]
 )
 init
-:
-function
 (
 )
 {
@@ -196,8 +194,6 @@ false
 ;
 }
 dispose
-:
-function
 (
 )
 {
@@ -255,8 +251,6 @@ rejected
 ;
 }
 observe
-:
-function
 (
 docURI
 topic
@@ -501,8 +495,6 @@ stack
 }
 }
 flush
-:
-function
 (
 aNow
 =
@@ -599,8 +591,6 @@ prototype
 =
 {
 addAccepted
-:
-function
 (
 firstParty
 )
@@ -622,8 +612,6 @@ _acceptedRequests
 ;
 }
 addRejected
-:
-function
 (
 firstParty
 )

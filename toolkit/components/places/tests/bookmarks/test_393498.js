@@ -8,8 +8,6 @@ NavBookmarkObserver
 .
 prototype
 onItemAdded
-:
-function
 (
 id
 folder
@@ -36,8 +34,6 @@ index
 ;
 }
 onItemChanged
-:
-function
 (
 id
 property

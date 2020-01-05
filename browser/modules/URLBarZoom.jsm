@@ -39,8 +39,6 @@ URLBarZoom
 =
 {
 init
-:
-function
 (
 aWindow
 )

@@ -1002,8 +1002,6 @@ SearchStaticData
 =
 {
 getAlternateDomains
-:
-function
 (
 aDomain
 )

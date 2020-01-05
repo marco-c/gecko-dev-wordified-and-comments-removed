@@ -22,8 +22,6 @@ prototype
 =
 {
 handleResult
-:
-function
 (
 result
 )

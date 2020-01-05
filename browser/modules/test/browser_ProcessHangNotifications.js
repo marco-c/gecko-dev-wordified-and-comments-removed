@@ -245,8 +245,6 @@ _hangType
 :
 1
 _tcb
-:
-function
 (
 aCallbackType
 )
@@ -290,8 +288,6 @@ aValue
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -333,8 +329,6 @@ NS_NOINTERFACE
 ;
 }
 userCanceled
-:
-function
 (
 )
 {
@@ -349,8 +343,6 @@ TEST_CALLBACK_CANCELED
 ;
 }
 terminateScript
-:
-function
 (
 )
 {
@@ -365,8 +357,6 @@ TEST_CALLBACK_TERMSCRIPT
 ;
 }
 terminatePlugin
-:
-function
 (
 )
 {
@@ -381,8 +371,6 @@ TEST_CALLBACK_TERMPLUGIN
 ;
 }
 isReportForBrowser
-:
-function
 (
 aFrameLoader
 )

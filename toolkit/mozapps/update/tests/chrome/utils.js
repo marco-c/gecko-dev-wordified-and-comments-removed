@@ -3893,8 +3893,6 @@ maxErrorPref
 :
 null
 init
-:
-function
 (
 aObservePref
 aMaxErrorPref

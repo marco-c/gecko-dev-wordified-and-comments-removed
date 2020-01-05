@@ -1234,15 +1234,11 @@ history
 "
 )
 handleResult
-:
-function
 (
 )
 {
 }
 handleCompletion
-:
-function
 (
 )
 {

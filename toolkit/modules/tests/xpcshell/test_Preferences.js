@@ -1191,8 +1191,6 @@ observed
 :
 false
 observe
-:
-function
 (
 )
 {
@@ -1304,8 +1302,6 @@ observed
 :
 false
 observe
-:
-function
 (
 subject
 topic

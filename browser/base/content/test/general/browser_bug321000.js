@@ -188,8 +188,6 @@ test
 :
 aCurrentTest
 handleEvent
-:
-function
 (
 event
 )

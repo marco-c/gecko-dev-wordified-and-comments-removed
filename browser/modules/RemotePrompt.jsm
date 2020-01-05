@@ -114,8 +114,6 @@ RemotePrompt
 =
 {
 init
-:
-function
 (
 )
 {
@@ -156,8 +154,6 @@ this
 ;
 }
 receiveMessage
-:
-function
 (
 message
 )
@@ -217,8 +213,6 @@ break
 }
 }
 openTabPrompt
-:
-function
 (
 args
 browser
@@ -443,8 +437,6 @@ true
 }
 }
 openModalWindow
-:
-function
 (
 args
 browser

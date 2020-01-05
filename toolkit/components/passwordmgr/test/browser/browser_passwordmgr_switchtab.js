@@ -71,8 +71,6 @@ listener
 =
 {
 onOpenWindow
-:
-function
 (
 window
 )
@@ -174,8 +172,6 @@ domwindow
 ;
 }
 onCloseWindow
-:
-function
 (
 )
 {

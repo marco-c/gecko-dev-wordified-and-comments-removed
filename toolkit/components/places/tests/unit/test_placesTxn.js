@@ -122,8 +122,6 @@ observer
 =
 {
 onBeginUpdateBatch
-:
-function
 (
 )
 {
@@ -138,8 +136,6 @@ _beginUpdateBatch
 :
 false
 onEndUpdateBatch
-:
-function
 (
 )
 {
@@ -154,8 +150,6 @@ _endUpdateBatch
 :
 false
 onItemAdded
-:
-function
 (
 id
 folder
@@ -202,8 +196,6 @@ _itemAddedType
 :
 null
 onItemRemoved
-:
-function
 (
 id
 folder
@@ -240,8 +232,6 @@ _itemRemovedIndex
 :
 null
 onItemChanged
-:
-function
 (
 id
 property
@@ -300,8 +290,6 @@ _itemChangedValue
 :
 null
 onItemVisited
-:
-function
 (
 id
 visitID
@@ -337,8 +325,6 @@ _itemVisitedTime
 :
 null
 onItemMoved
-:
-function
 (
 id
 oldParent
@@ -395,8 +381,6 @@ _itemMovedNewIndex
 :
 null
 QueryInterface
-:
-function
 (
 iid
 )

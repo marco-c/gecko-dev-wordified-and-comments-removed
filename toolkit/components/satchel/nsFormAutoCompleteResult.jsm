@@ -216,8 +216,6 @@ length
 ;
 }
 _checkIndexBounds
-:
-function
 (
 index
 )
@@ -259,8 +257,6 @@ NS_ERROR_ILLEGAL_VALUE
 }
 }
 getValueAt
-:
-function
 (
 index
 )
@@ -282,8 +278,6 @@ index
 ;
 }
 getLabelAt
-:
-function
 (
 index
 )
@@ -313,8 +307,6 @@ index
 ;
 }
 getCommentAt
-:
-function
 (
 index
 )
@@ -336,8 +328,6 @@ index
 ;
 }
 getStyleAt
-:
-function
 (
 index
 )
@@ -410,8 +400,6 @@ null
 ;
 }
 getImageAt
-:
-function
 (
 index
 )
@@ -429,8 +417,6 @@ return
 ;
 }
 getFinalCompleteValueAt
-:
-function
 (
 index
 )
@@ -445,8 +431,6 @@ index
 ;
 }
 removeValueAt
-:
-function
 (
 index
 removeFromDatabase

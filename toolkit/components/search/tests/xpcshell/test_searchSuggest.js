@@ -4284,13 +4284,9 @@ searchbar
 history
 "
 value
-:
-value
 }
 {
 handleError
-:
-function
 (
 error
 )
@@ -4318,8 +4314,6 @@ error
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )

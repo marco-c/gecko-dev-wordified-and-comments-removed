@@ -1445,8 +1445,6 @@ observer
 =
 {
 onFrecencyChanged
-:
-function
 (
 )
 {
@@ -4308,22 +4306,16 @@ observer
 =
 {
 onBeginUpdateBatch
-:
-function
 (
 )
 {
 }
 onEndUpdateBatch
-:
-function
 (
 )
 {
 }
 onVisit
-:
-function
 (
 uri
 )
@@ -4350,8 +4342,6 @@ spec
 ;
 }
 onTitleChanged
-:
-function
 (
 uri
 )
@@ -4378,8 +4368,6 @@ spec
 ;
 }
 onClearHistory
-:
-function
 (
 )
 {
@@ -4397,8 +4385,6 @@ onClearHistory
 ;
 }
 onPageChanged
-:
-function
 (
 uri
 )
@@ -4425,8 +4411,6 @@ spec
 ;
 }
 onFrecencyChanged
-:
-function
 (
 aURI
 )
@@ -4480,8 +4464,6 @@ resolve
 ;
 }
 onManyFrecenciesChanged
-:
-function
 (
 )
 {
@@ -4519,8 +4501,6 @@ called
 ;
 }
 onDeleteURI
-:
-function
 (
 aURI
 )

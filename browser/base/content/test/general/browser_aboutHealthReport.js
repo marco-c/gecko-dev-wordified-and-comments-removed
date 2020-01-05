@@ -505,8 +505,6 @@ html
 }
 )
 run
-:
-function
 (
 iframe
 )

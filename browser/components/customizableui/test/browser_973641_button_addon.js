@@ -49,8 +49,6 @@ type
 button
 '
 onClick
-:
-function
 (
 )
 {

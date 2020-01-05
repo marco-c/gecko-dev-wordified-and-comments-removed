@@ -2578,10 +2578,8 @@ link
 "
 null
 {
-postCheckContextMenuFn
-:
-function
 *
+postCheckContextMenuFn
 (
 )
 {
@@ -3191,10 +3189,8 @@ viewinfo
 true
 ]
 {
-postCheckContextMenuFn
-:
-function
 *
+postCheckContextMenuFn
 (
 )
 {
@@ -4428,10 +4424,8 @@ viewinfo
 true
 ]
 {
-preCheckContextMenuFn
-:
-function
 *
+preCheckContextMenuFn
 (
 )
 {
@@ -4457,10 +4451,8 @@ STATE_CLICKTOPLAY
 )
 ;
 }
-postCheckContextMenuFn
-:
-function
 *
+postCheckContextMenuFn
 (
 )
 {

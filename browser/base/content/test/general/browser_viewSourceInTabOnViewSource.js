@@ -16,8 +16,6 @@ progressListener
 =
 {
 onStateChange
-:
-function
 (
 aWebProgress
 aRequest

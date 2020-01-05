@@ -121,8 +121,6 @@ mimeTypes
 [
 ]
 getMimeTypes
-:
-function
 (
 count
 )
@@ -195,8 +193,6 @@ gPluginHost
 =
 {
 getPluginTags
-:
-function
 (
 count
 )

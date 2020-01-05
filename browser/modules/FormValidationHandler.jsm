@@ -64,8 +64,6 @@ _anchor
 :
 null
 init
-:
-function
 (
 )
 {
@@ -118,8 +116,6 @@ this
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -184,8 +180,6 @@ null
 ;
 }
 hidePopup
-:
-function
 (
 )
 {
@@ -197,8 +191,6 @@ _hidePopup
 ;
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -286,8 +278,6 @@ break
 }
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -302,8 +292,6 @@ _hidePopup
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -360,8 +348,6 @@ break
 }
 }
 _onPopupHiding
-:
-function
 (
 aEvent
 )
@@ -477,8 +463,6 @@ null
 ;
 }
 _showPopup
-:
-function
 (
 aWindow
 aPanelData
@@ -694,8 +678,6 @@ false
 }
 }
 _hidePopup
-:
-function
 (
 )
 {

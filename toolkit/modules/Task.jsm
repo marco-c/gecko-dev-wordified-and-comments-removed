@@ -1202,8 +1202,6 @@ x
 ;
 }
 generateReadableStack
-:
-function
 (
 topStack
 prefix

@@ -199,8 +199,6 @@ TelemetryArchive
 =
 {
 promiseArchivedPingList
-:
-function
 (
 )
 {
@@ -213,8 +211,6 @@ promiseArchivedPingList
 ;
 }
 promiseArchivedPingById
-:
-function
 (
 id
 )
@@ -229,8 +225,6 @@ id
 ;
 }
 promiseArchivePing
-:
-function
 (
 ping
 )
@@ -303,8 +297,6 @@ _logger
 ;
 }
 promiseArchivePing
-:
-function
 (
 ping
 )
@@ -412,8 +404,6 @@ ping
 ;
 }
 _buildArchivedPingList
-:
-function
 (
 archivedPingsMap
 )
@@ -481,8 +471,6 @@ list
 ;
 }
 promiseArchivedPingList
-:
-function
 (
 )
 {
@@ -523,8 +511,6 @@ loadedInfo
 ;
 }
 promiseArchivedPingById
-:
-function
 (
 id
 )

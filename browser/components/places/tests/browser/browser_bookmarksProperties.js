@@ -282,8 +282,6 @@ _cleanShutdown
 :
 false
 setup
-:
-function
 (
 aCallback
 )
@@ -376,8 +374,6 @@ aCallback
 ;
 }
 selectNode
-:
-function
 (
 tree
 )
@@ -437,8 +433,6 @@ selected
 ;
 }
 run
-:
-function
 (
 )
 {
@@ -551,8 +545,6 @@ popupListener
 =
 {
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -809,8 +801,6 @@ window
 ;
 }
 finish
-:
-function
 (
 )
 {
@@ -826,8 +816,6 @@ runNextTest
 ;
 }
 cleanup
-:
-function
 (
 )
 {
@@ -944,8 +932,6 @@ _cleanShutdown
 :
 false
 setup
-:
-function
 (
 aCallback
 )
@@ -1038,8 +1024,6 @@ aCallback
 ;
 }
 selectNode
-:
-function
 (
 tree
 )
@@ -1099,8 +1083,6 @@ selected
 ;
 }
 run
-:
-function
 (
 )
 {
@@ -1213,8 +1195,6 @@ popupListener
 =
 {
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -1461,8 +1441,6 @@ window
 ;
 }
 finish
-:
-function
 (
 )
 {
@@ -1478,8 +1456,6 @@ runNextTest
 ;
 }
 cleanup
-:
-function
 (
 )
 {
@@ -1592,8 +1568,6 @@ window
 :
 null
 setup
-:
-function
 (
 aCallback
 )
@@ -1628,8 +1602,6 @@ aCallback
 ;
 }
 selectNode
-:
-function
 (
 tree
 )
@@ -1692,8 +1664,6 @@ bookmarked
 ;
 }
 run
-:
-function
 (
 )
 {
@@ -1965,8 +1935,6 @@ doCommand
 ;
 }
 finish
-:
-function
 (
 )
 {
@@ -1982,8 +1950,6 @@ runNextTest
 ;
 }
 cleanup
-:
-function
 (
 )
 {

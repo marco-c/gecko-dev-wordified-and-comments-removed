@@ -101,8 +101,6 @@ windowObserver
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic

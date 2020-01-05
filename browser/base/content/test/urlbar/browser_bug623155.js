@@ -145,8 +145,6 @@ gWebProgressListener
 =
 {
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -200,8 +198,6 @@ NS_NOINTERFACE
 ;
 }
 onLocationChange
-:
-function
 (
 aWebProgress
 aRequest

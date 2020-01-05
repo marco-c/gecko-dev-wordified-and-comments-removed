@@ -377,8 +377,6 @@ crashReporting
 ;
 }
 init
-:
-function
 (
 )
 {
@@ -543,8 +541,6 @@ this
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -812,8 +808,6 @@ break
 }
 }
 receiveMessage
-:
-function
 (
 message
 )
@@ -1641,8 +1635,6 @@ childID
 ;
 }
 removeSubmitCheckboxesForSameCrash
-:
-function
 (
 childID
 )
@@ -1800,8 +1792,6 @@ CrashReportSent
 }
 }
 onAboutTabCrashedLoad
-:
-function
 (
 message
 )
@@ -3259,8 +3249,6 @@ viewAll
 "
 )
 callback
-:
-function
 (
 )
 {
