@@ -553,6 +553,17 @@ rs
             
 (
 '
+InterfaceObjectMapData
+'
+'
+InterfaceObjectMapData
+.
+json
+'
+)
+            
+(
+'
 InterfaceTypes
 '
 '
