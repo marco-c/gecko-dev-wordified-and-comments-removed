@@ -118,6 +118,15 @@ mozapps
 update
 /
 tests
+ifeq
+(
+(
+MOZ_SUITE
+)
+(
+MOZ_THUNDERBIRD
+)
+)
 MOCHITESTBROWSERDIR
 =
 (
@@ -141,6 +150,7 @@ content
 test
 /
 appUpdate
+endif
 include
 (
 topsrcdir
@@ -444,6 +454,8 @@ MOCHITESTCHROMEDIR
 /
 data
 /
+ifdef
+MOCHITESTBROWSERDIR
 rsync
 -
 a
@@ -462,6 +474,7 @@ app
 MOCHITESTBROWSERDIR
 )
 /
+endif
 else
 cp
 (
@@ -505,6 +518,8 @@ updater
 (
 BIN_SUFFIX
 )
+ifdef
+MOCHITESTBROWSERDIR
 cp
 (
 FINAL_TARGET
@@ -524,4 +539,5 @@ updater
 (
 BIN_SUFFIX
 )
+endif
 endif
