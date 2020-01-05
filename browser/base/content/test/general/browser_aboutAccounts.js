@@ -1211,8 +1211,7 @@ example
 .
 com
 /
-?
-is_force_auth
+force_auth
 "
 ;
 setPref
@@ -1261,6 +1260,14 @@ expected
 expected_url
 +
 "
+?
+uid
+=
+1234
+%
+40lcip
+.
+org
 &
 email
 =
