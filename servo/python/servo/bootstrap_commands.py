@@ -1105,6 +1105,15 @@ temp_docs
 "
 )
         
+if
+path
+.
+isdir
+(
+temp_dir
+)
+:
+            
 shutil
 .
 rmtree
