@@ -224,10 +224,7 @@ use
 traversal
 :
 :
-{
 DomTraversal
-TraversalFlags
-}
 ;
 pub
 struct
@@ -381,9 +378,9 @@ quirks_mode
 :
 QuirksMode
 pub
-traversal_flags
+animation_only_restyle
 :
-TraversalFlags
+bool
 }
 impl
 <
