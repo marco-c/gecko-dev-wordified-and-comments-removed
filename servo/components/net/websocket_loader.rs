@@ -433,7 +433,12 @@ any
 |
 p
 |
+(
+&
+*
+*
 p
+)
 .
 eq_ignore_ascii_case
 (

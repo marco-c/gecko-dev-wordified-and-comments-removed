@@ -188,8 +188,6 @@ cx
 *
 f
 .
-node
-.
 ty
 "
 reflector
@@ -291,8 +289,6 @@ TyPath
 =
 f
 .
-node
-.
 ty
 .
 node
@@ -329,8 +325,6 @@ get
 (
 &
 f
-.
-node
 .
 ty
 .
