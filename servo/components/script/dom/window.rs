@@ -1395,7 +1395,10 @@ Option
 <
 IpcSender
 <
+Option
+<
 TimelineMarker
+>
 >
 >
 >
@@ -11560,7 +11563,10 @@ sender
 .
 send
 (
+Some
+(
 marker
+)
 )
 .
 unwrap
@@ -11584,7 +11590,10 @@ reply
 :
 IpcSender
 <
+Option
+<
 TimelineMarker
+>
 >
 )
 {

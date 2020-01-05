@@ -691,7 +691,10 @@ receiver
 :
 IpcReceiver
 <
+Option
+<
 TimelineMarker
+>
 >
 mut
 emitter
@@ -770,7 +773,10 @@ while
 let
 Ok
 (
+Some
+(
 marker
+)
 )
 =
 receiver
@@ -922,7 +928,10 @@ channel
 :
 :
 <
+Option
+<
 TimelineMarker
+>
 >
 (
 )
