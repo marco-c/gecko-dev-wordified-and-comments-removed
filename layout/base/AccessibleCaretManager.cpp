@@ -937,6 +937,15 @@ if
 sHideCaretsForMouseInput
 &
 &
+mLastInputSource
+=
+=
+nsIDOMMouseEvent
+:
+:
+MOZ_SOURCE_KEYBOARD
+&
+&
 (
 aReason
 &
