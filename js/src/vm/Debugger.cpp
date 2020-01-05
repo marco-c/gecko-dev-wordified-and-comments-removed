@@ -29015,6 +29015,7 @@ result
 ;
 if
 (
+!
 wasmInstance
 -
 >
