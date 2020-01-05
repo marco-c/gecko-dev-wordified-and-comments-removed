@@ -379,14 +379,10 @@ extractContents
 (
 )
 ;
-/
-/
 [
 NewObject
 Throws
 ]
-/
-/
 DocumentFragment
 cloneContents
 (
