@@ -2585,7 +2585,7 @@ true
 ;
 glyphs
 .
-add_glyph_for_index
+add_glyph_for_char_index
 (
 char_idx
 &
@@ -2661,7 +2661,7 @@ adjust_by
 }
 glyphs
 .
-add_glyphs_for_index
+add_glyphs_for_char_index
 (
 char_idx
 dvec
@@ -2730,7 +2730,7 @@ char_idx
 ;
 glyphs
 .
-add_nonglyph_for_index
+add_nonglyph_for_char_index
 (
 char_idx
 false
