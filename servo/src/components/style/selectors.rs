@@ -308,8 +308,6 @@ FirstChild
 /
 /
 Empty
-/
-/
 Root
 /
 /
@@ -1093,14 +1091,14 @@ Visited
 |
 &
 FirstChild
+|
+&
+Root
 /
 /
 |
 &
 Empty
-|
-&
-Root
 |
 &
 Lang
@@ -2886,8 +2884,6 @@ Some
 (
 FirstChild
 )
-/
-/
 "
 root
 "
