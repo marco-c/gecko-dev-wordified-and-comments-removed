@@ -1659,7 +1659,6 @@ null
 ;
 }
 else
-{
 if
 (
 that
@@ -1682,7 +1681,6 @@ json
 e
 )
 ;
-}
 }
 }
 if
@@ -2166,8 +2164,6 @@ generateRandomBytes
 ;
 }
 isPassphrase
-:
-function
 (
 s
 )
@@ -2904,8 +2900,6 @@ statusInterval
 ;
 }
 getSyncCredentialsHosts
-:
-function
 (
 )
 {
@@ -2947,8 +2941,6 @@ result
 ;
 }
 getSyncCredentialsHostsLegacy
-:
-function
 (
 )
 {
@@ -2963,8 +2955,6 @@ PWDMGR_HOST
 ;
 }
 getSyncCredentialsHostsFxA
-:
-function
 (
 )
 {

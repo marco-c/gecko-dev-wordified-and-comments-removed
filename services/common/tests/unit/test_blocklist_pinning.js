@@ -208,8 +208,6 @@ ID
 :
 id
 version
-:
-version
 platformVersion
 :
 platformVersion

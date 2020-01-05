@@ -385,8 +385,6 @@ _webChannelOrigin
 :
 null
 launchWebFlow
-:
-function
 (
 )
 {
@@ -466,8 +464,6 @@ href
 }
 }
 tearDown
-:
-function
 (
 )
 {
@@ -505,8 +501,6 @@ null
 ;
 }
 _configureChannel
-:
-function
 (
 )
 {
@@ -555,8 +549,6 @@ e
 }
 }
 _registerChannel
-:
-function
 (
 )
 {
@@ -976,8 +968,6 @@ prePath
 ;
 }
 _validateOptions
-:
-function
 (
 options
 )

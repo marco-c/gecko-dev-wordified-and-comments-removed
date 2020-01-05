@@ -301,8 +301,6 @@ allowSkippedRecord
 :
 false
 getChangedIDs
-:
-function
 (
 )
 {
@@ -332,8 +330,6 @@ changedIDs
 ;
 }
 _wipeClient
-:
-function
 (
 )
 {
@@ -356,8 +352,6 @@ true
 ;
 }
 _reconcile
-:
-function
 (
 item
 )
@@ -482,8 +476,6 @@ __prefs
 ;
 }
 _getSyncPrefs
-:
-function
 (
 )
 {
@@ -550,8 +542,6 @@ syncPrefs
 ;
 }
 _isSynced
-:
-function
 (
 pref
 )
@@ -579,8 +569,6 @@ false
 ;
 }
 _getAllPrefs
-:
-function
 (
 )
 {
@@ -677,8 +665,6 @@ themeObject
 ;
 }
 _setAllPrefs
-:
-function
 (
 values
 )
@@ -863,8 +849,6 @@ selectedThemeIDAfter
 }
 }
 getAllIDs
-:
-function
 (
 )
 {
@@ -886,8 +870,6 @@ allprefs
 ;
 }
 changeItemID
-:
-function
 (
 oldID
 newID
@@ -910,8 +892,6 @@ constant
 ;
 }
 itemExists
-:
-function
 (
 id
 )
@@ -927,8 +907,6 @@ PREFS_GUID
 ;
 }
 createRecord
-:
-function
 (
 id
 collection
@@ -977,8 +955,6 @@ record
 ;
 }
 create
-:
-function
 (
 record
 )
@@ -998,8 +974,6 @@ request
 ;
 }
 remove
-:
-function
 (
 record
 )
@@ -1019,8 +993,6 @@ request
 ;
 }
 update
-:
-function
 (
 record
 )
@@ -1064,8 +1036,6 @@ value
 ;
 }
 wipe
-:
-function
 (
 )
 {
@@ -1257,8 +1227,6 @@ __prefs
 ;
 }
 startTracking
-:
-function
 (
 )
 {
@@ -1276,8 +1244,6 @@ false
 ;
 }
 stopTracking
-:
-function
 (
 )
 {
@@ -1300,8 +1266,6 @@ this
 ;
 }
 observe
-:
-function
 (
 subject
 topic

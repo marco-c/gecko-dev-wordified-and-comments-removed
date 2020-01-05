@@ -106,8 +106,6 @@ Utils
 .
 lock
 lock
-:
-function
 (
 )
 {
@@ -145,8 +143,6 @@ true
 ;
 }
 unlock
-:
-function
 (
 )
 {
@@ -164,8 +160,6 @@ false
 ;
 }
 func
-:
-function
 (
 )
 {
@@ -204,8 +198,6 @@ return
 ;
 }
 throwy
-:
-function
 (
 )
 {

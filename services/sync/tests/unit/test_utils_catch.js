@@ -80,8 +80,6 @@ _log
 :
 {
 debug
-:
-function
 (
 str
 )
@@ -103,8 +101,6 @@ Exception
 ;
 }
 info
-:
-function
 (
 str
 )
@@ -132,8 +128,6 @@ syncing
 }
 }
 func
-:
-function
 (
 )
 {
@@ -167,8 +161,6 @@ return
 ;
 }
 throwy
-:
-function
 (
 )
 {
@@ -202,8 +194,6 @@ throw
 ;
 }
 callbacky
-:
-function
 (
 )
 {
@@ -251,8 +241,6 @@ ex
 ;
 }
 lockedy
-:
-function
 (
 )
 {

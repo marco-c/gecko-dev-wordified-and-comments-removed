@@ -302,8 +302,6 @@ localtimeOffsetMsec
 ;
 }
 now
-:
-function
 (
 )
 {
@@ -318,8 +316,6 @@ now
 ;
 }
 _createSession
-:
-function
 (
 path
 email
@@ -363,8 +359,6 @@ creds
 .
 authPW
 )
-email
-:
 email
 }
 ;
@@ -514,8 +508,6 @@ error
 ;
 }
 signUp
-:
-function
 (
 email
 password
@@ -563,8 +555,6 @@ true
 ;
 }
 sessionStatus
-:
-function
 (
 sessionTokenHex
 )
@@ -633,8 +623,6 @@ error
 ;
 }
 signOut
-:
-function
 (
 sessionTokenHex
 options
@@ -697,8 +685,6 @@ sessionToken
 ;
 }
 recoveryEmailStatus
-:
-function
 (
 sessionTokenHex
 options
@@ -761,8 +747,6 @@ sessionToken
 ;
 }
 resendVerificationEmail
-:
-function
 (
 sessionTokenHex
 )
@@ -792,8 +776,6 @@ sessionToken
 ;
 }
 accountKeys
-:
-function
 (
 keyFetchTokenHex
 )
@@ -1038,8 +1020,6 @@ slice
 ;
 }
 signCertificate
-:
-function
 (
 sessionTokenHex
 serializedPublicKey
@@ -1139,8 +1119,6 @@ err
 ;
 }
 accountExists
-:
-function
 (
 email
 )
@@ -1224,8 +1202,6 @@ break
 ;
 }
 accountStatus
-:
-function
 (
 uid
 )
@@ -1663,8 +1639,6 @@ creds
 ;
 }
 _clearBackoff
-:
-function
 (
 )
 {

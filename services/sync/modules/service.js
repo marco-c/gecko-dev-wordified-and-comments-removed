@@ -2917,8 +2917,6 @@ request
 ;
 }
 _fetchInfo
-:
-function
 (
 url
 )
@@ -7624,8 +7622,6 @@ meta
 ;
 }
 uploadMetaGlobal
-:
-function
 (
 meta
 )
@@ -7700,8 +7696,6 @@ meta
 ;
 }
 getFxAMigrationSentinel
-:
-function
 (
 )
 {
@@ -7947,8 +7941,6 @@ null
 }
 }
 setFxAMigrationSentinel
-:
-function
 (
 sentinel
 )

@@ -417,8 +417,6 @@ data
 "
 "
 contentType
-:
-contentType
 }
 ;
 let
@@ -737,8 +735,6 @@ prototype
 =
 {
 init
-:
-function
 (
 )
 {
@@ -759,8 +755,6 @@ false
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -780,8 +774,6 @@ this
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -796,8 +788,6 @@ readPref
 ;
 }
 readPref
-:
-function
 (
 )
 {

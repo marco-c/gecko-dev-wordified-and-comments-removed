@@ -441,8 +441,6 @@ prototype
 =
 {
 hours_to_us
-:
-function
 (
 hours
 )
@@ -466,8 +464,6 @@ hours
 ;
 }
 Create
-:
-function
 (
 )
 {
@@ -554,8 +550,6 @@ else
 ;
 }
 Find
-:
-function
 (
 )
 {
@@ -608,8 +602,6 @@ status
 ;
 }
 Remove
-:
-function
 (
 )
 {

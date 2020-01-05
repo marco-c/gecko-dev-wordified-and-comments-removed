@@ -222,8 +222,6 @@ uid
 uid
 "
 duration
-:
-duration
 }
 )
 ;
@@ -644,8 +642,6 @@ errors
 :
 [
 {
-description
-:
 description
 location
 :
@@ -1579,8 +1575,6 @@ uid
 "
 uid
 "
-duration
-:
 duration
 }
 )
@@ -2928,8 +2922,6 @@ uid
 uid
 "
 duration
-:
-duration
 }
 )
 ;
@@ -3104,8 +3096,6 @@ uid
 "
 uid
 "
-duration
-:
 duration
 }
 )

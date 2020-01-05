@@ -416,8 +416,6 @@ run_next_test
 (
 )
 ;
-return
-;
 }
 )
 ;

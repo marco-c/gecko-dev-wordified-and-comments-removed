@@ -127,8 +127,6 @@ cachedStmts
 {
 }
 getQuery
-:
-function
 (
 queryString
 )
@@ -205,8 +203,6 @@ PlacesQueries
 (
 )
 guidToLocalId
-:
-function
 (
 guid
 )
@@ -338,8 +334,6 @@ promise
 ;
 }
 localIdToGuid
-:
-function
 (
 id
 )
@@ -465,8 +459,6 @@ promise
 ;
 }
 getItemsById
-:
-function
 (
 ids
 types
@@ -654,8 +646,6 @@ promise
 ;
 }
 getItemsByParentId
-:
-function
 (
 parents
 types
@@ -843,8 +833,6 @@ promise
 ;
 }
 getItemsByGuid
-:
-function
 (
 guids
 types
@@ -1043,8 +1031,6 @@ promise
 ;
 }
 updateCachedFolderIds
-:
-function
 (
 folderCache
 folder
@@ -1332,8 +1318,6 @@ promise
 ;
 }
 getLocalIdsWithAnnotation
-:
-function
 (
 anno
 )
@@ -1474,8 +1458,6 @@ promise
 ;
 }
 getItemAnnotationsForLocalId
-:
-function
 (
 id
 )
@@ -1620,8 +1602,6 @@ promise
 ;
 }
 insertBookmark
-:
-function
 (
 parent
 uri
@@ -1734,8 +1714,6 @@ e
 }
 }
 setItemAnnotation
-:
-function
 (
 item
 anno
@@ -1782,8 +1760,6 @@ e
 }
 }
 itemHasAnnotation
-:
-function
 (
 item
 anno
@@ -1824,8 +1800,6 @@ e
 }
 }
 createFolder
-:
-function
 (
 parent
 name
@@ -1887,8 +1861,6 @@ e
 }
 }
 removeFolderChildren
-:
-function
 (
 folder
 )
@@ -1928,8 +1900,6 @@ e
 }
 }
 insertSeparator
-:
-function
 (
 parent
 index
@@ -1972,8 +1942,6 @@ e
 }
 }
 removeItem
-:
-function
 (
 item
 )
@@ -2012,8 +1980,6 @@ e
 }
 }
 setItemDateAdded
-:
-function
 (
 item
 dateAdded
@@ -2054,8 +2020,6 @@ e
 }
 }
 setItemLastModified
-:
-function
 (
 item
 lastModified
@@ -2096,8 +2060,6 @@ e
 }
 }
 setItemTitle
-:
-function
 (
 item
 title
@@ -2138,8 +2100,6 @@ e
 }
 }
 changeBookmarkURI
-:
-function
 (
 item
 uri
@@ -2189,8 +2149,6 @@ e
 }
 }
 moveItem
-:
-function
 (
 item
 parent
@@ -2233,8 +2191,6 @@ e
 }
 }
 setItemIndex
-:
-function
 (
 item
 index
@@ -2275,8 +2231,6 @@ e
 }
 }
 asyncQuery
-:
-function
 (
 query
 names
@@ -2300,8 +2254,6 @@ results
 [
 ]
 handleResult
-:
-function
 (
 results
 )
@@ -2373,8 +2325,6 @@ item
 }
 }
 handleError
-:
-function
 (
 error
 )
@@ -2388,8 +2338,6 @@ error
 ;
 }
 handleCompletion
-:
-function
 (
 reason
 )

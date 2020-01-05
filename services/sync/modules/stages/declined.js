@@ -186,8 +186,6 @@ prototype
 =
 {
 updateDeclined
-:
-function
 (
 meta
 engineManager
@@ -435,13 +433,7 @@ declined
 :
 newDeclined
 enabled
-:
-enabled
 known
-:
-known
-undecided
-:
 undecided
 }
 ;

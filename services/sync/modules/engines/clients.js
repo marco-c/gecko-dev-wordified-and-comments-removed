@@ -2653,10 +2653,6 @@ action
 =
 {
 command
-:
-command
-args
-:
 args
 flowID
 :

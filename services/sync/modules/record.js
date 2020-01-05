@@ -366,8 +366,6 @@ this
 ;
 }
 uri
-:
-function
 (
 base
 )
@@ -1832,8 +1830,6 @@ length
 =
 0
 changed
-:
-changed
 }
 ;
 }
@@ -1893,8 +1889,6 @@ null
 ;
 }
 keyForCollection
-:
-function
 (
 collection
 )
@@ -1926,8 +1920,6 @@ _default
 ;
 }
 _makeWBO
-:
-function
 (
 collections
 defaultBundle
@@ -2008,8 +2000,6 @@ wbo
 ;
 }
 asWBO
-:
-function
 (
 collection
 id
@@ -2030,8 +2020,6 @@ _default
 ;
 }
 newKeys
-:
-function
 (
 collections
 )
@@ -2099,8 +2087,6 @@ newColls
 ;
 }
 generateNewKeysWBO
-:
-function
 (
 collections
 )
@@ -2278,8 +2264,6 @@ newKeys
 ;
 }
 updateNeeded
-:
-function
 (
 info_collections
 )

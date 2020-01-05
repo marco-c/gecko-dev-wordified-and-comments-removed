@@ -151,8 +151,6 @@ FxAccountsManager
 =
 {
 init
-:
-function
 (
 )
 {
@@ -180,8 +178,6 @@ false
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -291,8 +287,6 @@ profile
 }
 }
 _error
-:
-function
 (
 aError
 aDetails
@@ -336,8 +330,6 @@ reason
 ;
 }
 _getError
-:
-function
 (
 aServerResponse
 )
@@ -382,8 +374,6 @@ error
 ;
 }
 _serverError
-:
-function
 (
 aServerResponse
 )
@@ -417,8 +407,6 @@ aServerResponse
 ;
 }
 _getFxAccountsClient
-:
-function
 (
 )
 {
@@ -433,8 +421,6 @@ getAccountsClient
 ;
 }
 _signInSignUp
-:
-function
 (
 aMethod
 aEmail
@@ -637,8 +623,6 @@ error
 ERROR_INTERNAL_INVALID_USER
 {
 user
-:
-user
 }
 )
 ;
@@ -837,8 +821,6 @@ reason
 ;
 }
 _handleGetAssertionError
-:
-function
 (
 reason
 aAudience
@@ -1023,8 +1005,6 @@ reason
 ;
 }
 _getAssertion
-:
-function
 (
 aAudience
 aPrincipal
@@ -1086,8 +1066,6 @@ aPrincipal
 ;
 }
 _refreshAuthentication
-:
-function
 (
 aAudience
 aEmail
@@ -1188,8 +1166,6 @@ reason
 ;
 }
 _localSignOut
-:
-function
 (
 )
 {
@@ -1205,8 +1181,6 @@ true
 ;
 }
 _signOut
-:
-function
 (
 )
 {
@@ -1352,8 +1326,6 @@ reason
 ;
 }
 _uiRequest
-:
-function
 (
 aRequest
 aAudience
@@ -1518,8 +1490,6 @@ error
 ;
 }
 _addPermission
-:
-function
 (
 aPrincipal
 )
@@ -1562,8 +1532,6 @@ e
 }
 }
 signIn
-:
-function
 (
 aEmail
 aPassword
@@ -1585,8 +1553,6 @@ aFetchKeys
 ;
 }
 signUp
-:
-function
 (
 aEmail
 aPassword
@@ -1608,8 +1574,6 @@ aFetchKeys
 ;
 }
 signOut
-:
-function
 (
 )
 {
@@ -1668,8 +1632,6 @@ _signOut
 ;
 }
 resendVerificationEmail
-:
-function
 (
 )
 {
@@ -1714,8 +1676,6 @@ error
 ;
 }
 getAccount
-:
-function
 (
 )
 {
@@ -1957,8 +1917,6 @@ _user
 ;
 }
 queryAccount
-:
-function
 (
 aEmail
 )
@@ -2116,8 +2074,6 @@ reason
 ;
 }
 verificationStatus
-:
-function
 (
 )
 {
@@ -2359,8 +2315,6 @@ reason
 ;
 }
 getAssertion
-:
-function
 (
 aAudience
 aPrincipal
@@ -2444,8 +2398,6 @@ _error
 (
 ERROR_UNVERIFIED_ACCOUNT
 {
-user
-:
 user
 }
 )
@@ -2708,8 +2660,6 @@ principal
 ;
 }
 getKeys
-:
-function
 (
 )
 {
@@ -2839,8 +2789,6 @@ _error
 (
 ERROR_UNVERIFIED_ACCOUNT
 {
-user
-:
 user
 }
 )
