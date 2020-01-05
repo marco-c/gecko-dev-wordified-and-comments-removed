@@ -2340,6 +2340,10 @@ gtk_widget_path_iter_add_class
 )
 STUB
 (
+gtk_widget_path_get_object_type
+)
+STUB
+(
 gtk_widget_path_new
 )
 STUB
