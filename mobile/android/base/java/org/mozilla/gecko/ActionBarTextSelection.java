@@ -185,10 +185,6 @@ Context
 context
 ;
 private
-boolean
-mDraggingHandles
-;
-private
 int
 selectionID
 ;
