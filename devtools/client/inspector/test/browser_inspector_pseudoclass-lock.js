@@ -200,7 +200,12 @@ view
 =
 inspector
 .
+getPanel
+(
+"
 ruleview
+"
+)
 .
 view
 ;

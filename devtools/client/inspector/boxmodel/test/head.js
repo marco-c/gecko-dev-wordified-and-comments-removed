@@ -263,7 +263,12 @@ data
 .
 inspector
 .
+getPanel
+(
+"
 computedview
+"
+)
 testActor
 :
 data
@@ -362,7 +367,12 @@ data
 .
 inspector
 .
+getPanel
+(
+"
 boxmodel
+"
+)
 testActor
 :
 data

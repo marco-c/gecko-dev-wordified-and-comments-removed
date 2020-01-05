@@ -125,7 +125,12 @@ getRuleViewSelectorHighlighterIcon
 (
 inspector
 .
+getPanel
+(
+"
 ruleview
+"
+)
 .
 view
 "
@@ -138,7 +143,12 @@ checkRuleViewContent
 (
 inspector
 .
+getPanel
+(
+"
 ruleview
+"
+)
 .
 view
 )

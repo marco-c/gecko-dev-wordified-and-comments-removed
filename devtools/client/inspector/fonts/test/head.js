@@ -183,7 +183,12 @@ view
 :
 inspector
 .
-fontInspector
+getPanel
+(
+"
+fontinspector
+"
+)
 }
 ;
 }

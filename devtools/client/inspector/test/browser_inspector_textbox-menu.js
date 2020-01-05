@@ -293,7 +293,12 @@ ruleView
 =
 inspector
 .
+getPanel
+(
+"
 ruleview
+"
+)
 .
 view
 ;

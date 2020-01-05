@@ -412,7 +412,12 @@ panelDoc
 activeElement
 inspector
 .
+getPanel
+(
+"
 ruleview
+"
+)
 .
 view
 .
@@ -451,7 +456,12 @@ panelDoc
 activeElement
 inspector
 .
+getPanel
+(
+"
 computedview
+"
+)
 .
 computedView
 .
