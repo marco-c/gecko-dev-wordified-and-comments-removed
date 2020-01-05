@@ -675,6 +675,10 @@ if
 (
 !
 mGL
+|
+|
+!
+mGL
 -
 >
 MakeCurrent

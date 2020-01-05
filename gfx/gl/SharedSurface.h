@@ -183,9 +183,11 @@ const
 AttachmentType
 mAttachType
 ;
-GLContext
-*
 const
+WeakPtr
+<
+GLContext
+>
 mGL
 ;
 const
