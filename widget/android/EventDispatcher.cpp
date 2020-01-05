@@ -2835,11 +2835,15 @@ GetArrayLength
 jarray
 )
 ;
+NS_ENSURE_TRUE
+(
 elements
 .
 initCapacity
 (
 len
+)
+NS_ERROR_FAILURE
 )
 ;
 for
