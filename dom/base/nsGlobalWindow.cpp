@@ -6609,7 +6609,7 @@ else
 {
 MOZ_ASSERT
 (
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -10728,7 +10728,7 @@ window
 aWindow
 -
 >
-NewSuspend
+Suspend
 (
 )
 ;
@@ -12109,7 +12109,7 @@ NS_ASSERTION
 currentInner
 -
 >
-NewIsFrozen
+IsFrozen
 (
 )
 "
@@ -12588,7 +12588,7 @@ if
 currentInner
 -
 >
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -13134,7 +13134,7 @@ endif
 mInnerWindow
 -
 >
-NewSyncStateFromParentWindow
+SyncStateFromParentWindow
 (
 )
 ;
@@ -17197,7 +17197,7 @@ void
 nsPIDOMWindowInner
 :
 :
-NewSuspend
+Suspend
 (
 )
 {
@@ -17210,7 +17210,7 @@ this
 )
 -
 >
-NewSuspend
+Suspend
 (
 )
 ;
@@ -17219,7 +17219,7 @@ void
 nsPIDOMWindowInner
 :
 :
-NewResume
+Resume
 (
 )
 {
@@ -17232,7 +17232,7 @@ this
 )
 -
 >
-NewResume
+Resume
 (
 )
 ;
@@ -17241,7 +17241,7 @@ void
 nsPIDOMWindowInner
 :
 :
-NewFreeze
+Freeze
 (
 )
 {
@@ -17254,7 +17254,7 @@ this
 )
 -
 >
-NewFreeze
+Freeze
 (
 )
 ;
@@ -17263,7 +17263,7 @@ void
 nsPIDOMWindowInner
 :
 :
-NewThaw
+Thaw
 (
 )
 {
@@ -17276,7 +17276,7 @@ this
 )
 -
 >
-NewThaw
+Thaw
 (
 )
 ;
@@ -17285,7 +17285,7 @@ void
 nsPIDOMWindowInner
 :
 :
-NewSyncStateFromParentWindow
+SyncStateFromParentWindow
 (
 )
 {
@@ -17298,7 +17298,7 @@ this
 )
 -
 >
-NewSyncStateFromParentWindow
+SyncStateFromParentWindow
 (
 )
 ;
@@ -37181,7 +37181,7 @@ GetCurrentInnerWindowInternal
 )
 -
 >
-NewSuspend
+Suspend
 (
 )
 ;
@@ -37268,7 +37268,7 @@ mModalStateDepth
 ;
 MOZ_ASSERT
 (
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -37278,7 +37278,7 @@ MOZ_ASSERT
 topWin
 -
 >
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -37320,7 +37320,7 @@ inner
 inner
 -
 >
-NewResume
+Resume
 (
 )
 ;
@@ -43391,7 +43391,7 @@ IsInnerWindow
 ;
 if
 (
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -43554,7 +43554,7 @@ NS_OK
 ;
 if
 (
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -48716,7 +48716,7 @@ NS_IOSERVICE_OFFLINE_STATUS_TOPIC
 if
 (
 !
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -48749,7 +48749,7 @@ true
 ;
 if
 (
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -48804,7 +48804,7 @@ false
 ;
 if
 (
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -49338,7 +49338,7 @@ true
 }
 if
 (
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -49920,7 +49920,7 @@ void
 nsGlobalWindow
 :
 :
-NewSuspend
+Suspend
 (
 )
 {
@@ -49944,7 +49944,7 @@ CallOnChildren
 nsGlobalWindow
 :
 :
-NewSuspend
+Suspend
 )
 ;
 mSuspendDepth
@@ -50139,7 +50139,7 @@ void
 nsGlobalWindow
 :
 :
-NewResume
+Resume
 (
 )
 {
@@ -50163,7 +50163,7 @@ CallOnChildren
 nsGlobalWindow
 :
 :
-NewResume
+Resume
 )
 ;
 MOZ_ASSERT
@@ -50530,7 +50530,7 @@ bool
 nsGlobalWindow
 :
 :
-NewIsSuspended
+IsSuspended
 (
 )
 const
@@ -50563,7 +50563,7 @@ return
 mInnerWindow
 -
 >
-NewIsSuspended
+IsSuspended
 (
 )
 ;
@@ -50579,7 +50579,7 @@ void
 nsGlobalWindow
 :
 :
-NewFreeze
+Freeze
 (
 )
 {
@@ -50597,11 +50597,11 @@ IsInnerWindow
 )
 )
 ;
-NewSuspend
+Suspend
 (
 )
 ;
-NewFreezeInternal
+FreezeInternal
 (
 )
 ;
@@ -50610,7 +50610,7 @@ void
 nsGlobalWindow
 :
 :
-NewFreezeInternal
+FreezeInternal
 (
 )
 {
@@ -50623,7 +50623,7 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -50634,7 +50634,7 @@ CallOnChildren
 nsGlobalWindow
 :
 :
-NewFreezeInternal
+FreezeInternal
 )
 ;
 mFreezeDepth
@@ -50767,7 +50767,7 @@ void
 nsGlobalWindow
 :
 :
-NewThaw
+Thaw
 (
 )
 {
@@ -50785,11 +50785,11 @@ IsInnerWindow
 )
 )
 ;
-NewThawInternal
+ThawInternal
 (
 )
 ;
-NewResume
+Resume
 (
 )
 ;
@@ -50798,7 +50798,7 @@ void
 nsGlobalWindow
 :
 :
-NewThawInternal
+ThawInternal
 (
 )
 {
@@ -50811,7 +50811,7 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -50822,7 +50822,7 @@ CallOnChildren
 nsGlobalWindow
 :
 :
-NewThawInternal
+ThawInternal
 )
 ;
 MOZ_ASSERT
@@ -50978,7 +50978,7 @@ bool
 nsGlobalWindow
 :
 :
-NewIsFrozen
+IsFrozen
 (
 )
 const
@@ -51011,7 +51011,7 @@ return
 mInnerWindow
 -
 >
-NewIsFrozen
+IsFrozen
 (
 )
 ;
@@ -51027,7 +51027,7 @@ mFreezeDepth
 MOZ_ASSERT_IF
 (
 frozen
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -51040,7 +51040,7 @@ void
 nsGlobalWindow
 :
 :
-NewSyncStateFromParentWindow
+SyncStateFromParentWindow
 (
 )
 {
@@ -51140,7 +51140,7 @@ IsInModalState
 )
 )
 {
-NewSuspend
+Suspend
 (
 )
 ;
@@ -51193,7 +51193,7 @@ parentFreezeDepth
 i
 )
 {
-NewFreeze
+Freeze
 (
 )
 ;
@@ -51218,7 +51218,7 @@ parentFreezeDepth
 i
 )
 {
-NewSuspend
+Suspend
 (
 )
 ;
@@ -53171,7 +53171,7 @@ realInterval
 ;
 if
 (
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -53204,7 +53204,7 @@ delta
 if
 (
 !
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -54202,12 +54202,12 @@ mTimer
 {
 NS_ASSERTION
 (
-NewIsFrozen
+IsFrozen
 (
 )
 |
 |
-NewIsSuspended
+IsSuspended
 (
 )
 "
@@ -54334,7 +54334,7 @@ aTimeout
 {
 if
 (
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -54360,7 +54360,7 @@ window
 NS_ASSERTION
 (
 !
-NewIsFrozen
+IsFrozen
 (
 )
 "
@@ -54614,7 +54614,7 @@ dummy_timeout
 &
 &
 !
-NewIsFrozen
+IsFrozen
 (
 )
 ;
@@ -54648,7 +54648,7 @@ continue
 }
 if
 (
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -54959,12 +54959,12 @@ NS_ERROR_NOT_INITIALIZED
 ;
 if
 (
-NewIsFrozen
+IsFrozen
 (
 )
 |
 |
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -55456,7 +55456,7 @@ mTimeoutInsertionPoint
 &
 &
 (
-NewIsFrozen
+IsFrozen
 (
 )
 ?
@@ -56227,7 +56227,7 @@ save
 inner
 -
 >
-NewFreeze
+Freeze
 (
 )
 ;
@@ -56436,7 +56436,7 @@ FLAG_SHOWRING
 inner
 -
 >
-NewThaw
+Thaw
 (
 )
 ;

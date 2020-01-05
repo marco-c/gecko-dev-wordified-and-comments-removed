@@ -2211,7 +2211,7 @@ GetOwner
 )
 -
 >
-NewIsFrozen
+IsFrozen
 (
 )
 |

@@ -7075,7 +7075,7 @@ aWindow
 aWindow
 -
 >
-NewIsFrozen
+IsFrozen
 (
 )
 )
@@ -7102,7 +7102,7 @@ innerWindow
 innerWindow
 -
 >
-NewIsFrozen
+IsFrozen
 (
 )
 )

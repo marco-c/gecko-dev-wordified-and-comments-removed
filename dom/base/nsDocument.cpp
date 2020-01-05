@@ -36517,7 +36517,7 @@ win
 win
 -
 >
-NewIsSuspended
+IsSuspended
 (
 )
 &
@@ -36526,7 +36526,7 @@ NewIsSuspended
 win
 -
 >
-NewIsFrozen
+IsFrozen
 (
 )
 )

@@ -35938,14 +35938,14 @@ GetCurrentInnerWindow
 privWinInner
 -
 >
-NewSyncStateFromParentWindow
+SyncStateFromParentWindow
 (
 )
 ;
 privWinInner
 -
 >
-NewResume
+Resume
 (
 )
 ;

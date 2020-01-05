@@ -9214,7 +9214,7 @@ mLoadInfo
 mWindow
 -
 >
-NewIsSuspended
+IsSuspended
 (
 )
 )
@@ -9236,7 +9236,7 @@ mLoadInfo
 mWindow
 -
 >
-NewIsFrozen
+IsFrozen
 (
 )
 )
