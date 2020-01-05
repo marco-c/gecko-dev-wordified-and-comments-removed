@@ -102,6 +102,9 @@ msg
 ProfilerMsg
 )
 {
+let
+_
+=
 self
 .
 0
@@ -109,10 +112,6 @@ self
 send
 (
 msg
-)
-.
-unwrap
-(
 )
 ;
 }

@@ -90,6 +90,9 @@ message
 T
 )
 {
+let
+_
+=
 Sender
 :
 :
@@ -97,10 +100,6 @@ send
 (
 self
 message
-)
-.
-unwrap
-(
 )
 ;
 }
