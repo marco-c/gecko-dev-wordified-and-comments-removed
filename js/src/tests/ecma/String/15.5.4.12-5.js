@@ -64,6 +64,15 @@ i
 +
 )
 {
+if
+(
+i
+=
+=
+0x0587
+)
+continue
+;
 var
 U
 =
