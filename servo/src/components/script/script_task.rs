@@ -4216,7 +4216,7 @@ handle_exit_window_msg
 &
 mut
 self
-_id
+id
 :
 PipelineId
 )
@@ -4224,6 +4224,13 @@ PipelineId
 >
 bool
 {
+self
+.
+handle_exit_pipeline_msg
+(
+id
+)
+;
 /
 /
 TODO
