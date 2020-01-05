@@ -3,6 +3,22 @@ config
 {
     
 '
+src_mozconfig
+'
+:
+'
+browser
+/
+config
+/
+mozconfigs
+/
+macosx64
+/
+devedition
+'
+    
+'
 force_clobber
 '
 :

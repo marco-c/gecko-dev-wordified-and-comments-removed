@@ -75,6 +75,10 @@ browser
 branding
 /
 aurora
+mk_add_options
+MOZ_PGO
+=
+1
 .
 "
 topsrcdir
