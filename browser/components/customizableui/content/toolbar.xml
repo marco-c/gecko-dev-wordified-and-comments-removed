@@ -2282,8 +2282,6 @@ contextMenu
 ;
 }
 init
-:
-function
 (
 event
 )
@@ -2407,8 +2405,6 @@ false
 ;
 }
 handleEvent
-:
-function
 (
 event
 )
