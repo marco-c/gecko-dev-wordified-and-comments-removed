@@ -1589,6 +1589,13 @@ defined
 (
 XP_DARWIN
 )
+|
+|
+\
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 static
 TimeStamp
 FromSystemTime
