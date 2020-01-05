@@ -518,16 +518,6 @@ DIRS
 =
 [
 '
-javaaddons
-'
-#
-Must
-be
-built
-before
-base
-.
-'
 base
 '
 '

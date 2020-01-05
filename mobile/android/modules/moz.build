@@ -240,11 +240,6 @@ HomeProvider
 jsm
 '
 '
-JavaAddonManager
-.
-jsm
-'
-'
 JNI
 .
 jsm
