@@ -10378,15 +10378,6 @@ endif
 #
 ifdef
 _PR_HAVE_SOCKADDR_LEN
-/
-to
-AF_INET6
-and
-we
-set
-address
-length
-.
 addrCopy
 =
 *
