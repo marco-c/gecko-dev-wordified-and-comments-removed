@@ -121,6 +121,7 @@ pkg
 config
 python
 glfw3
+cmake
 pip
 install
 virtualenv
@@ -139,6 +140,7 @@ python27
 py27
 -
 virtualenv
+cmake
 On
 Debian
 -
@@ -251,6 +253,7 @@ devel
 glfw
 -
 devel
+cmake
 pushd
 .
 cd
@@ -333,6 +336,7 @@ glfw
 ttf
 -
 font
+cmake
 Cross
 -
 compilation
