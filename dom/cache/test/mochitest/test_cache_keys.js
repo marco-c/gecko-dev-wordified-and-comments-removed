@@ -585,6 +585,11 @@ HEAD
 "
 }
 )
+{
+ignoreMethod
+:
+true
+}
 )
 ;
 }
