@@ -1103,7 +1103,7 @@ or
 dtor
 )
 or
-type
+cdtype
 is
 not
 None
