@@ -2541,9 +2541,13 @@ UnitHasStringValue
 )
 )
 {
-DO_RELEASE
-(
+mValue
+.
 mString
+-
+>
+Release
+(
 )
 ;
 }
