@@ -748,12 +748,14 @@ const
 nsAString
 &
 aType
-const
 nsTArray
 <
+OwningNonNull
+<
 FontFace
-*
 >
+>
+&
 &
 aFontFaces
 )
