@@ -229,7 +229,7 @@ boolean
 nameEquals
 (
 in
-wstring
+AString
 name
 )
 ;
@@ -810,7 +810,7 @@ nsIDocShellTreeItem
 findItemWithName
 (
 in
-wstring
+AString
 name
 in
 nsISupports
@@ -1337,7 +1337,7 @@ nsIDocShellTreeItem
 findChildWithName
 (
 in
-wstring
+AString
 aName
 in
 boolean

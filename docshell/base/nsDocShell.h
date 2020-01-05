@@ -2820,8 +2820,8 @@ nsresult
 DoFindItemWithName
 (
 const
-char16_t
-*
+nsAString
+&
 aName
 nsISupports
 *

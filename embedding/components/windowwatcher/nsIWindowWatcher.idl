@@ -1155,7 +1155,7 @@ mozIDOMWindowProxy
 getWindowByName
 (
 in
-wstring
+AString
 aTargetName
 in
 mozIDOMWindowProxy

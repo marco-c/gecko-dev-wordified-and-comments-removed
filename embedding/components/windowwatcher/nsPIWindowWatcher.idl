@@ -1030,7 +1030,7 @@ nsIDocShellTreeItem
 findItemWithName
 (
 in
-wstring
+AString
 aName
 in
 nsIDocShellTreeItem

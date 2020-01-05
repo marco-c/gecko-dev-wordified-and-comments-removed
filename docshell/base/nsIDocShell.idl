@@ -1372,7 +1372,7 @@ in
 uint32_t
 aFlags
 in
-wstring
+AString
 aWindowTarget
 in
 string
