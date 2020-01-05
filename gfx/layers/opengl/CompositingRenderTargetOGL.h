@@ -202,6 +202,13 @@ gfx
 IntSize
 &
 aSize
+const
+gfx
+:
+:
+IntSize
+&
+aPhySize
 GLenum
 aFBOTextureTarget
 SurfaceInitMode
@@ -215,6 +222,10 @@ READY
 mSize
 (
 aSize
+)
+mPhySize
+(
+aPhySize
 )
 mFBOTextureTarget
 (
@@ -239,6 +250,12 @@ gfx
 :
 IntSize
 mSize
+;
+gfx
+:
+:
+IntSize
+mPhySize
 ;
 GLenum
 mFBOTextureTarget
@@ -371,6 +388,7 @@ mInitParams
 InitParams
 (
 aSize
+aSize
 0
 INIT_MODE_NONE
 )
@@ -405,6 +423,13 @@ gfx
 IntSize
 &
 aSize
+const
+gfx
+:
+:
+IntSize
+&
+aPhySize
 GLenum
 aFBOTextureTarget
 SurfaceInitMode
@@ -434,6 +459,7 @@ mInitParams
 InitParams
 (
 aSize
+aPhySize
 aFBOTextureTarget
 aInit
 )
