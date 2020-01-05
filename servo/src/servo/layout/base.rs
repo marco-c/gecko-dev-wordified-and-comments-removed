@@ -934,6 +934,11 @@ image_cache_task
 :
 :
 ImageNotReady
+|
+image_cache_task
+:
+:
+ImageFailed
 =
 >
 {
