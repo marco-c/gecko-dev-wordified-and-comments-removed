@@ -294,7 +294,7 @@ designMode
 ;
 [
 Throws
-NeedsCallerType
+NeedsSubjectPrincipal
 ]
 boolean
 execCommand
@@ -316,7 +316,7 @@ value
 ;
 [
 Throws
-NeedsCallerType
+NeedsSubjectPrincipal
 ]
 boolean
 queryCommandEnabled
