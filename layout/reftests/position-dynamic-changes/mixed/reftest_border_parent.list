@@ -10,12 +10,6 @@ of
 reftest
 .
 list
-random
--
-if
-(
-webrender
-)
 =
 =
 mixed
@@ -34,12 +28,6 @@ ref
 html
 ?
 border_parent
-random
--
-if
-(
-webrender
-)
 =
 =
 mixed

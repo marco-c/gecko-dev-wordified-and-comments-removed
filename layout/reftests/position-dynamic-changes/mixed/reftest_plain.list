@@ -10,12 +10,6 @@ of
 reftest
 .
 list
-random
--
-if
-(
-webrender
-)
 =
 =
 mixed
@@ -30,12 +24,6 @@ dimentionN
 ref
 .
 html
-random
--
-if
-(
-webrender
-)
 =
 =
 mixed
