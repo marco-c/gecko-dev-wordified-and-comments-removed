@@ -221,10 +221,9 @@ getApplicationContext
 ;
 GeckoThread
 .
-init
+initMainProcess
 (
 profile
-null
 null
 false
 )
