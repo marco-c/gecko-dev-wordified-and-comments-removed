@@ -1290,7 +1290,6 @@ D6YCjAVUXgmU7drshik
 struct
 StaticFingerprints
 {
-const
 size_t
 size
 ;
@@ -1950,19 +1949,15 @@ char
 *
 mHost
 ;
-const
 bool
 mIncludeSubdomains
 ;
-const
 bool
 mTestMode
 ;
-const
 bool
 mIsMoz
 ;
-const
 int32_t
 mId
 ;
@@ -9522,6 +9517,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1495379956043000
+1495465368089000
 )
 ;
