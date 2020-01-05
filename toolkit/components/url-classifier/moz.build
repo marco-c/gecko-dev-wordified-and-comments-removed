@@ -170,6 +170,11 @@ LookupCache
 cpp
 '
 '
+LookupCacheV4
+.
+cpp
+'
+'
 nsCheckSummedOutputStream
 .
 cpp
@@ -315,6 +320,11 @@ h
 '
 '
 LookupCache
+.
+h
+'
+'
+LookupCacheV4
 .
 h
 '
