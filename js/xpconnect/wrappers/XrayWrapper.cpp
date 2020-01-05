@@ -872,6 +872,10 @@ HolderClass
 "
 NativePropertyHolder
 "
+JSCLASS_HAS_RESERVED_SLOTS
+(
+2
+)
 }
 ;
 const
