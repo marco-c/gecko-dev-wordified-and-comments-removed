@@ -16802,12 +16802,7 @@ SendGetAnimationOpacity
 layer
 -
 >
-AsShadowableLayer
-(
-)
--
->
-GetShadow
+GetCompositorAnimationsId
 (
 )
 &
@@ -16917,12 +16912,7 @@ SendGetAnimationTransform
 layer
 -
 >
-AsShadowableLayer
-(
-)
--
->
-GetShadow
+GetCompositorAnimationsId
 (
 )
 &

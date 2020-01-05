@@ -689,8 +689,8 @@ indefinite
 sync
 GetAnimationOpacity
 (
-LayerHandle
-layer
+uint64_t
+aCompositorAnimationsId
 )
 returns
 (
@@ -765,8 +765,8 @@ void_t
 sync
 GetAnimationTransform
 (
-LayerHandle
-layer
+uint64_t
+aCompositorAnimationId
 )
 returns
 (
