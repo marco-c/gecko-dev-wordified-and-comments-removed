@@ -579,7 +579,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -694,7 +694,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -809,7 +809,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -927,7 +927,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -1042,7 +1042,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -1157,7 +1157,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -1275,11 +1275,6 @@ media_type
 MediaQueryType
 :
 :
-MediaType
-(
-MediaType
-:
-:
 Unknown
 (
 Atom
@@ -1290,7 +1285,6 @@ from
 "
 fridge
 "
-)
 )
 )
 css
@@ -1401,11 +1395,6 @@ media_type
 MediaQueryType
 :
 :
-MediaType
-(
-MediaType
-:
-:
 Unknown
 (
 Atom
@@ -1416,7 +1405,6 @@ from
 "
 glass
 "
-)
 )
 )
 css
@@ -1527,11 +1515,6 @@ media_type
 MediaQueryType
 :
 :
-MediaType
-(
-MediaType
-:
-:
 Unknown
 (
 Atom
@@ -1542,7 +1525,6 @@ from
 "
 wood
 "
-)
 )
 )
 css
@@ -1987,7 +1969,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -2059,7 +2041,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -2529,7 +2511,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -2704,7 +2686,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -2877,7 +2859,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -3052,11 +3034,6 @@ media_type
 MediaQueryType
 :
 :
-MediaType
-(
-MediaType
-:
-:
 Unknown
 (
 Atom
@@ -3067,7 +3044,6 @@ from
 "
 fridge
 "
-)
 )
 )
 css
@@ -3584,7 +3560,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -4648,7 +4624,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
@@ -4756,7 +4732,7 @@ media_type
 MediaQueryType
 :
 :
-MediaType
+Known
 (
 MediaType
 :
