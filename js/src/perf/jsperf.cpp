@@ -1075,7 +1075,7 @@ p
 return
 p
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
