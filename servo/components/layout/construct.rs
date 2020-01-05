@@ -5893,10 +5893,6 @@ strip
 (
 )
 modified_style
-.
-clone
-(
-)
 node
 .
 selected_style
