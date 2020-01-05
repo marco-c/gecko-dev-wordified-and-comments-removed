@@ -728,8 +728,6 @@ Path2D
 path
 )
 ;
-/
-/
 void
 clip
 (
