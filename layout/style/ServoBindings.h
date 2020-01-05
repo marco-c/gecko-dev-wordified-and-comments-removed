@@ -1249,6 +1249,17 @@ uri
 )
 ;
 void
+Gecko_SetImageElement
+(
+nsStyleImage
+*
+image
+nsIAtom
+*
+atom
+)
+;
+void
 Gecko_CopyImageValueFrom
 (
 nsStyleImage
