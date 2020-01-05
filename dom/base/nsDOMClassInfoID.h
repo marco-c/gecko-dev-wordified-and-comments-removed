@@ -16,6 +16,7 @@ nsDOMClassInfoID
 {
 eDOMClassInfo_DOMPrototype_id
 eDOMClassInfo_DOMConstructor_id
+eDOMClassInfo_CSSStyleRule_id
 eDOMClassInfo_CSSMediaRule_id
 #
 ifdef
