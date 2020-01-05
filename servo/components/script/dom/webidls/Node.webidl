@@ -245,7 +245,6 @@ Pure
 readonly
 attribute
 DOMString
-?
 baseURI
 ;
 [
