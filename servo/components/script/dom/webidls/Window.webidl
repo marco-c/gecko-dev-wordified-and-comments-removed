@@ -551,7 +551,7 @@ org
 multipage
 /
 #
-windowtimers
+timers
 [
 NoInterfaceObject
 /
