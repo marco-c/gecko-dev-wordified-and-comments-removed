@@ -1170,7 +1170,7 @@ aIdNamespace
 {
 #
 ifndef
-MOZ_BUILD_WEBRENDER
+MOZ_ENABLE_WEBRENDER
 MOZ_RELEASE_ASSERT
 (
 false
@@ -1324,8 +1324,10 @@ WebRenderCompositableHolder
 >
 holder
 =
-new
-WebRenderCompositableHolder
+root
+-
+>
+CompositableHolder
 (
 )
 ;
@@ -1415,7 +1417,7 @@ aActor
 {
 #
 ifndef
-MOZ_BUILD_WEBRENDER
+MOZ_ENABLE_WEBRENDER
 MOZ_RELEASE_ASSERT
 (
 false
