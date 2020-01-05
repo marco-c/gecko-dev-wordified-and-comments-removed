@@ -228,11 +228,6 @@ GfxInfo
 cpp
 '
 '
-NativeJSContainer
-.
-cpp
-'
-'
 nsAndroidProtocolHandler
 .
 cpp

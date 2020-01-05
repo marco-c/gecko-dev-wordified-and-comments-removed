@@ -858,7 +858,7 @@ GeckoBundle
 ;
 bundleValue
 .
-put
+putString
 (
 "
 name
@@ -868,7 +868,7 @@ name
 ;
 bundleValue
 .
-put
+putString
 (
 "
 type
@@ -892,7 +892,7 @@ type
 {
 bundleValue
 .
-put
+putBoolean
 (
 "
 value
@@ -922,7 +922,7 @@ type
 {
 bundleValue
 .
-put
+putInt
 (
 "
 value
@@ -952,7 +952,7 @@ type
 {
 bundleValue
 .
-put
+putString
 (
 "
 value
