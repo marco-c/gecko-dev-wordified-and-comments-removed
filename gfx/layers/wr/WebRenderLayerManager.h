@@ -335,6 +335,8 @@ WrImageMask
 >
 BuildWrMaskLayer
 (
+bool
+aUnapplyLayerTransform
 )
 ;
 }
