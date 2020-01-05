@@ -1500,15 +1500,6 @@ actor
 )
 ;
 static
-bool
-DestroyFallback
-(
-PTextureChild
-*
-actor
-)
-;
-static
 already_AddRefed
 <
 TextureClient
