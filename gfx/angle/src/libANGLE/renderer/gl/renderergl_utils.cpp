@@ -7016,7 +7016,6 @@ glFormat
 .
 computePackUnpackEndByte
 (
-type
 size
 state
 is3D
@@ -7030,7 +7029,6 @@ glFormat
 .
 computeRowPitch
 (
-type
 size
 .
 width
@@ -7048,10 +7046,7 @@ pixelBytes
 =
 glFormat
 .
-computePixelBytes
-(
-type
-)
+pixelBytes
 ;
 checkedEndByte
 +
