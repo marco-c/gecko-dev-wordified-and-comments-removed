@@ -5617,8 +5617,7 @@ mLengthComputable
 aTotal
 !
 =
--
-1
+0
 ;
 init
 .
