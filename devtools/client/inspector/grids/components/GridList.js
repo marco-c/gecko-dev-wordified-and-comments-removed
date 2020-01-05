@@ -220,6 +220,11 @@ grid
 GridItem
 (
 {
+key
+:
+grid
+.
+id
 getSwatchColorPickerTooltip
 grid
 setSelectedNode

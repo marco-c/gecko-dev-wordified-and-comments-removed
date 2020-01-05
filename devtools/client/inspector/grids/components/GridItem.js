@@ -543,11 +543,6 @@ dom
 li
 (
 {
-key
-:
-grid
-.
-id
 className
 :
 "
