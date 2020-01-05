@@ -198,6 +198,16 @@ nsStyleChangeList
 aChangeList
 )
 ;
+bool
+IsInStyleRefresh
+(
+)
+const
+{
+return
+mInStyleRefresh
+;
+}
 protected
 :
 void

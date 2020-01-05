@@ -33,6 +33,9 @@ nsCSSSelector
 enum
 nsChangeHint
 {
+nsChangeHint_Empty
+=
+0
 nsChangeHint_RepaintFrame
 =
 1

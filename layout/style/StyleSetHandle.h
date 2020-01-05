@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+ServoTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SheetType
 .
 h
@@ -454,6 +463,10 @@ aElement
 nsStyleContext
 *
 aParentContext
+ConsumeStyleBehavior
+aConsume
+LazyComputeBehavior
+aMayCompute
 )
 ;
 inline
@@ -472,6 +485,10 @@ aElement
 nsStyleContext
 *
 aParentContext
+ConsumeStyleBehavior
+aConsume
+LazyComputeBehavior
+aMayCompute
 TreeMatchContext
 &
 aTreeMatchContext

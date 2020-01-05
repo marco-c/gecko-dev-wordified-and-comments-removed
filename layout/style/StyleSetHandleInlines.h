@@ -288,6 +288,10 @@ aElement
 nsStyleContext
 *
 aParentContext
+ConsumeStyleBehavior
+aConsume
+LazyComputeBehavior
+aMayCompute
 )
 {
 FORWARD
@@ -296,6 +300,8 @@ ResolveStyleFor
 (
 aElement
 aParentContext
+aConsume
+aMayCompute
 )
 )
 ;
@@ -321,6 +327,10 @@ aElement
 nsStyleContext
 *
 aParentContext
+ConsumeStyleBehavior
+aConsume
+LazyComputeBehavior
+aMayCompute
 TreeMatchContext
 &
 aTreeMatchContext
@@ -332,6 +342,8 @@ ResolveStyleFor
 (
 aElement
 aParentContext
+aConsume
+aMayCompute
 aTreeMatchContext
 )
 )

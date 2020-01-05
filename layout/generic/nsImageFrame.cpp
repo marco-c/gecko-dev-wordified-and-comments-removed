@@ -9543,6 +9543,14 @@ AsElement
 StyleContext
 (
 )
+ConsumeStyleBehavior
+:
+:
+DontConsume
+LazyComputeBehavior
+:
+:
+Allow
 )
 ;
 FillCursorInformationFromStyle

@@ -1778,11 +1778,6 @@ GetEditingHost
 (
 )
 ;
-void
-MarkAncestorsAsHavingDirtyDescendantsForServo
-(
-)
-;
 bool
 GetLang
 (

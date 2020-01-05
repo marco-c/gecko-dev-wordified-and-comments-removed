@@ -1835,13 +1835,6 @@ if
 servoSet
 )
 {
-mBoundElement
--
->
-SetHasDirtyDescendantsForServo
-(
-)
-;
 servoSet
 -
 >
