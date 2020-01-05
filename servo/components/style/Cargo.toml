@@ -79,6 +79,11 @@ unstable
 "
 num_cpus
 "
+"
+style_traits
+/
+gecko
+"
 ]
 use_bindgen
 =
