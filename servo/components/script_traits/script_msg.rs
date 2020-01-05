@@ -72,9 +72,9 @@ constellation_msg
 :
 :
 {
-Key
-KeyModifiers
-KeyState
+FrameId
+PipelineId
+TraversalDirection
 }
 ;
 use
@@ -85,8 +85,9 @@ constellation_msg
 :
 :
 {
-PipelineId
-TraversalDirection
+Key
+KeyModifiers
+KeyState
 }
 ;
 use
@@ -456,7 +457,7 @@ LogEntry
 (
 Option
 <
-PipelineId
+FrameId
 >
 Option
 <

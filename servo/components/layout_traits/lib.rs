@@ -66,7 +66,10 @@ msg
 constellation_msg
 :
 :
+{
+FrameId
 PipelineId
+}
 ;
 use
 net_traits
@@ -137,6 +140,12 @@ create
 id
 :
 PipelineId
+top_level_frame_id
+:
+Option
+<
+FrameId
+>
 url
 :
 ServoUrl

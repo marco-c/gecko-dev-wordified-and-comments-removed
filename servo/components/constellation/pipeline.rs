@@ -467,6 +467,10 @@ frame_id
 :
 FrameId
 pub
+top_level_frame_id
+:
+FrameId
+pub
 parent_info
 :
 Option
@@ -1174,6 +1178,11 @@ frame_id
 state
 .
 frame_id
+top_level_frame_id
+:
+state
+.
+top_level_frame_id
 parent_info
 :
 state
@@ -2283,6 +2292,9 @@ PipelineId
 frame_id
 :
 FrameId
+top_level_frame_id
+:
+FrameId
 parent_info
 :
 Option
@@ -2482,6 +2494,11 @@ frame_id
 self
 .
 frame_id
+top_level_frame_id
+:
+self
+.
+top_level_frame_id
 parent_info
 :
 self
@@ -2586,6 +2603,12 @@ create
 self
 .
 id
+Some
+(
+self
+.
+top_level_frame_id
+)
 self
 .
 load_data

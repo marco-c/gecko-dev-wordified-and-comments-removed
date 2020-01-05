@@ -1786,6 +1786,10 @@ frame_id
 :
 FrameId
 pub
+top_level_frame_id
+:
+FrameId
+pub
 control_chan
 :
 IpcSender
@@ -2611,7 +2615,7 @@ LogEntry
 (
 Option
 <
-PipelineId
+FrameId
 >
 Option
 <
