@@ -260,15 +260,6 @@ CreateGradient
 =
 0
 ;
-class
-AutoGradientReferencer
-;
-nsSVGGradientFrame
-*
-GetReferencedGradientIfNotInUse
-(
-)
-;
 uint16_t
 GetEnumValue
 (
