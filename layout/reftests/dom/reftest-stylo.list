@@ -421,6 +421,12 @@ children
 .
 xhtml
 fails
+skip
+-
+if
+(
+stylo
+)
 =
 =
 xbl
@@ -437,6 +443,9 @@ children
 3
 .
 xhtml
+#
+bug
+1347065
 =
 =
 xbl
