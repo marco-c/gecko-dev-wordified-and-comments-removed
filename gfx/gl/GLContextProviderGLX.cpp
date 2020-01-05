@@ -3405,7 +3405,7 @@ glContext
 bool
 error
 ;
-ScopedXErrorHandler
+OffMainThreadScopedXErrorHandler
 xErrorHandler
 ;
 do
@@ -5360,7 +5360,7 @@ visual
 depth
 )
 ;
-ScopedXErrorHandler
+OffMainThreadScopedXErrorHandler
 xErrorHandler
 ;
 bool

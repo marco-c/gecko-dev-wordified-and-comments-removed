@@ -258,6 +258,14 @@ ScopedXErrorHandler
 :
 ScopedXErrorHandler
 (
+bool
+aAllowOffMainThread
+)
+{
+if
+(
+!
+aAllowOffMainThread
 )
 {
 NS_WARNING_ASSERTION
@@ -278,6 +286,7 @@ issues
 "
 )
 ;
+}
 mOldXErrorPtr
 =
 sXErrorPtr
