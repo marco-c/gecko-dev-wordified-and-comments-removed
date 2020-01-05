@@ -1,3 +1,33 @@
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
+gre
+/
+modules
+/
+Services
+.
+jsm
+"
+)
+;
+const
+SYSTEMPRINCIPAL
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
 const
 DUMMY1
 =
@@ -173,6 +203,7 @@ DUMMY2
 )
 null
 null
+SYSTEMPRINCIPAL
 )
 ;
 yield
@@ -346,6 +377,7 @@ LOAD_FLAGS_NONE
 null
 null
 null
+SYSTEMPRINCIPAL
 )
 ;
 yield
@@ -369,6 +401,7 @@ LOAD_FLAGS_NONE
 null
 null
 null
+SYSTEMPRINCIPAL
 )
 ;
 yield
@@ -745,6 +778,7 @@ LOAD_FLAGS_NONE
 null
 null
 null
+SYSTEMPRINCIPAL
 )
 ;
 yield
@@ -768,6 +802,7 @@ LOAD_FLAGS_REPLACE_HISTORY
 null
 null
 null
+SYSTEMPRINCIPAL
 )
 ;
 yield
@@ -805,6 +840,7 @@ LOAD_FLAGS_BYPASS_HISTORY
 null
 null
 null
+SYSTEMPRINCIPAL
 )
 ;
 yield
@@ -886,6 +922,7 @@ null
 {
 }
 null
+SYSTEMPRINCIPAL
 )
 ;
 ok
@@ -949,6 +986,7 @@ null
 null
 {
 }
+SYSTEMPRINCIPAL
 )
 ;
 ok
