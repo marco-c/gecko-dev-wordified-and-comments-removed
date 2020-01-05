@@ -5,16 +5,6 @@ __ATK_STATE_H__
 define
 __ATK_STATE_H__
 #
-ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
-#
 include
 <
 glib
@@ -23,6 +13,7 @@ object
 .
 h
 >
+G_BEGIN_DECLS
 typedef
 enum
 {
@@ -65,6 +56,10 @@ ATK_STATE_SELECTABLE_TEXT
 ATK_STATE_DEFAULT
 ATK_STATE_ANIMATED
 ATK_STATE_VISITED
+ATK_STATE_CHECKABLE
+ATK_STATE_HAS_POPUP
+ATK_STATE_HAS_TOOLTIP
+ATK_STATE_READ_ONLY
 ATK_STATE_LAST_DEFINED
 }
 AtkStateType
@@ -82,7 +77,7 @@ gchar
 name
 )
 ;
-G_CONST_RETURN
+const
 gchar
 *
 atk_state_type_get_name
@@ -100,11 +95,6 @@ gchar
 name
 )
 ;
-#
-ifdef
-__cplusplus
-}
-#
-endif
+G_END_DECLS
 #
 endif

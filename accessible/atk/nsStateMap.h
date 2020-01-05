@@ -137,7 +137,7 @@ kNone
 kMapDirectly
 }
 {
-kNone
+ATK_STATE_CHECKABLE
 kMapDirectly
 }
 {
