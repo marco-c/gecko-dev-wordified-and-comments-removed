@@ -665,9 +665,9 @@ updateUI
 ;
 gFxAccounts
 .
-_profileFetched
+_cachedProfile
 =
-false
+null
 ;
 configureProfileURL
 (
@@ -807,9 +807,9 @@ updateUI
 ;
 gFxAccounts
 .
-_profileFetched
+_cachedProfile
 =
-false
+null
 ;
 configureProfileURL
 (
@@ -931,6 +931,12 @@ updateUI
 "
 1
 )
+;
+gFxAccounts
+.
+_cachedProfile
+=
+null
 ;
 configureProfileURL
 (
