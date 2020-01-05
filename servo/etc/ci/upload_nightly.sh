@@ -239,8 +239,8 @@ main
 )
 {
 if
-[
-[
+(
+(
 "
 {
 #
@@ -249,8 +249,8 @@ if
 !
 =
 1
-]
-]
+)
+)
 ;
 then
 usage
@@ -336,6 +336,8 @@ package
 =
 target
 /
+release
+/
 *
 .
 "
@@ -366,6 +368,8 @@ dmg
 package
 =
 target
+/
+release
 /
 *
 .
@@ -399,6 +403,8 @@ gz
 package
 =
 target
+/
+release
 /
 brew
 /
