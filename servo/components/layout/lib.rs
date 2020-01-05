@@ -60,6 +60,10 @@ cssparser
 ;
 extern
 crate
+canvas
+;
+extern
+crate
 geom
 ;
 extern
@@ -81,6 +85,10 @@ script_traits
 extern
 crate
 serialize
+;
+extern
+crate
+png
 ;
 extern
 crate
