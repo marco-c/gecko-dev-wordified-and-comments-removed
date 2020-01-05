@@ -107,8 +107,6 @@ html
 /
 #
 htmlimageelement
-/
-/
 [
 NamedConstructor
 =
