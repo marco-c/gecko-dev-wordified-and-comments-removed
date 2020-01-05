@@ -151,15 +151,15 @@ InvalidCharacter
 NotSupported
 InvalidState
 Syntax
-NamespaceError
+Namespace
 InvalidAccess
 Security
 Network
 Abort
 Timeout
 DataClone
-NoModificationAllowedError
-TypeError
+NoModificationAllowed
+Type
 (
 DOMString
 )
@@ -299,7 +299,7 @@ SyntaxError
 Error
 :
 :
-NamespaceError
+Namespace
 =
 >
 DOMErrorName
@@ -369,7 +369,7 @@ DataCloneError
 Error
 :
 :
-NoModificationAllowedError
+NoModificationAllowed
 =
 >
 DOMErrorName
@@ -379,7 +379,7 @@ NoModificationAllowedError
 Error
 :
 :
-TypeError
+Type
 (
 message
 )

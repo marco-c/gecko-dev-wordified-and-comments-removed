@@ -344,7 +344,7 @@ Error
 :
 {
 HierarchyRequest
-NamespaceError
+Namespace
 }
 ;
 use
@@ -7319,7 +7319,7 @@ name
 return
 Err
 (
-NamespaceError
+Namespace
 )
 ;
 }
@@ -7400,7 +7400,7 @@ prefix
 return
 Err
 (
-NamespaceError
+Namespace
 )
 ;
 }
@@ -7473,7 +7473,7 @@ xml
 return
 Err
 (
-NamespaceError
+Namespace
 )
 ;
 }
@@ -7579,7 +7579,7 @@ namespace
 return
 Err
 (
-NamespaceError
+Namespace
 )
 ;
 }
