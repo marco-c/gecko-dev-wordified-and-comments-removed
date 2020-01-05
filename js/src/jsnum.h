@@ -1083,11 +1083,6 @@ res
 #
 endif
 }
-void
-FIX_FPU
-(
-)
-;
 }
 #
 endif

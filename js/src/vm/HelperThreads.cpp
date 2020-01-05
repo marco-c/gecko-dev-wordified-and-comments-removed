@@ -35,13 +35,6 @@ h
 #
 include
 "
-jsnum
-.
-h
-"
-#
-include
-"
 builtin
 /
 Promise
@@ -7006,10 +6999,6 @@ SetName
 JS
 Helper
 "
-)
-;
-FIX_FPU
-(
 )
 ;
 static_cast
