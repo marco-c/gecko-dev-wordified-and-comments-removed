@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 723669
@@ -81,7 +80,6 @@ multiple
 noblur
 .
 xul
-fails
 HTTP
 (
 .
@@ -484,7 +482,6 @@ selection
 2
 .
 html
-fails
 =
 =
 overflow

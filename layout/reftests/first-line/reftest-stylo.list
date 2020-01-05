@@ -277,7 +277,6 @@ stress
 11
 .
 xhtml
-fails
 =
 =
 border
@@ -294,7 +293,6 @@ not
 apply
 .
 html
-fails
 =
 =
 287088
@@ -307,7 +305,6 @@ html
 1
 .
 html
-fails
 =
 =
 287088
@@ -320,7 +317,6 @@ html
 2
 .
 html
-fails
 =
 =
 403177
@@ -333,7 +329,6 @@ html
 1
 .
 html
-fails
 =
 =
 469227
@@ -346,7 +341,6 @@ html
 2
 .
 html
-fails
 =
 =
 469227
@@ -359,7 +353,6 @@ html
 3
 .
 html
-fails
 =
 =
 restyle
@@ -380,7 +373,6 @@ first
 line
 .
 html
-fails
 =
 =
 font
@@ -393,7 +385,6 @@ font
 styles
 .
 html
-fails
 =
 =
 font

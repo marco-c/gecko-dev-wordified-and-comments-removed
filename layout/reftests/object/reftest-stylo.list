@@ -422,7 +422,6 @@ malformed
 xml
 .
 html
-fails
 =
 =
 malformed
@@ -499,7 +498,6 @@ for
 these
 to
 pass
-fails
 =
 =
 svg
@@ -508,7 +506,6 @@ html
 svg
 .
 html
-fails
 =
 =
 svg
@@ -690,7 +687,6 @@ to
 run
 them
 #
-fails
 =
 =
 malformed

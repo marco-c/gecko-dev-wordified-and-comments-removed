@@ -50,7 +50,6 @@ html
 2
 .
 html
-fails
 =
 =
 156888
@@ -63,7 +62,6 @@ html
 1
 .
 html
-fails
 =
 =
 156888
@@ -175,7 +173,6 @@ html
 1
 .
 html
-fails
 =
 =
 293576
@@ -200,7 +197,6 @@ html
 1
 .
 html
-fails
 =
 =
 315146
@@ -237,7 +233,6 @@ html
 1b
 .
 html
-fails
 =
 =
 338735
@@ -250,7 +245,6 @@ html
 1
 .
 html
-fails
 =
 =
 339388
@@ -263,7 +257,6 @@ html
 1a
 .
 html
-fails
 =
 =
 339388
@@ -313,7 +306,6 @@ html
 1
 .
 html
-fails
 =
 =
 372641
@@ -326,7 +318,6 @@ xhtml
 1a
 .
 xhtml
-fails
 =
 =
 372641
@@ -339,7 +330,6 @@ xhtml
 1b
 .
 xhtml
-fails
 =
 =
 372641
@@ -376,7 +366,6 @@ html
 1
 .
 html
-fails
 =
 =
 394402
@@ -389,7 +378,6 @@ html
 1a
 .
 html
-fails
 =
 =
 394402
@@ -426,7 +414,6 @@ html
 1
 .
 html
-fails
 =
 =
 443616
@@ -439,7 +426,6 @@ xhtml
 1a
 .
 xhtml
-fails
 =
 =
 443616
@@ -452,7 +438,6 @@ html
 1b
 .
 html
-fails
 =
 =
 448111
@@ -465,7 +450,6 @@ html
 1
 .
 html
-fails
 =
 =
 490174
@@ -478,7 +462,6 @@ html
 1
 .
 html
-fails
 =
 =
 695538
@@ -491,7 +474,6 @@ html
 1
 .
 html
-fails
 =
 =
 infer
@@ -508,7 +490,6 @@ first
 row
 .
 html
-fails
 =
 =
 infer
@@ -533,7 +514,6 @@ and
 table
 .
 html
-fails
 =
 =
 infer
@@ -550,7 +530,6 @@ second
 row
 .
 html
-fails
 =
 =
 infer
@@ -575,7 +554,6 @@ and
 table
 .
 html
-fails
 =
 =
 infer
@@ -604,7 +582,6 @@ footers
 1
 .
 html
-fails
 =
 =
 infer
@@ -633,7 +610,6 @@ footers
 2
 .
 html
-fails
 =
 =
 infer
@@ -662,7 +638,6 @@ footers
 3
 .
 html
-fails
 =
 =
 infer
@@ -683,7 +658,6 @@ inside
 rowgroups
 .
 html
-fails
 =
 =
 infer
@@ -704,7 +678,6 @@ row
 cell
 .
 html
-fails
 =
 =
 infer
@@ -751,7 +724,6 @@ tables
 ref
 .
 html
-fails
 =
 =
 blocks
@@ -772,7 +744,6 @@ tables
 1
 .
 html
-fails
 =
 =
 blocks
@@ -793,7 +764,6 @@ tables
 2
 .
 html
-fails
 =
 =
 infer
@@ -810,7 +780,6 @@ cells
 1
 .
 html
-fails
 =
 =
 infer
@@ -827,7 +796,6 @@ cells
 2
 .
 html
-fails
 =
 =
 infer
@@ -844,7 +812,6 @@ cells
 3
 .
 html
-fails
 =
 =
 infer
@@ -861,7 +828,6 @@ cells
 4
 .
 html
-fails
 =
 =
 cols
@@ -878,7 +844,6 @@ test
 1
 .
 html
-fails
 =
 =
 cols
@@ -895,7 +860,6 @@ test
 2
 .
 html
-fails
 =
 =
 cols
@@ -912,7 +876,6 @@ test
 3
 .
 html
-fails
 =
 =
 dynamic
@@ -984,7 +947,6 @@ removal
 3
 .
 html
-fails
 =
 =
 dynamic
@@ -1001,7 +963,6 @@ removal
 4
 .
 html
-fails
 =
 =
 dynamic
@@ -1018,7 +979,6 @@ removal
 5
 .
 html
-fails
 =
 =
 dynamic
@@ -1035,7 +995,6 @@ removal
 6
 .
 html
-fails
 =
 =
 dynamic
@@ -1052,7 +1011,6 @@ removal
 7
 .
 html
-fails
 =
 =
 dynamic
@@ -1133,7 +1091,6 @@ removal
 12
 .
 html
-fails
 =
 =
 dynamic
@@ -1150,7 +1107,6 @@ removal
 13
 .
 html
-fails
 =
 =
 dynamic
@@ -1167,7 +1123,6 @@ removal
 14
 .
 html
-fails
 =
 =
 dynamic
@@ -1184,7 +1139,6 @@ removal
 15
 .
 html
-fails
 =
 =
 dynamic
@@ -1201,7 +1155,6 @@ removal
 16
 .
 html
-fails
 =
 =
 dynamic
@@ -1218,7 +1171,6 @@ removal
 17
 .
 html
-fails
 =
 =
 dynamic
@@ -1239,7 +1191,6 @@ cell
 1
 .
 html
-fails
 =
 =
 dynamic
@@ -1268,7 +1219,6 @@ cell
 1
 .
 html
-fails
 =
 =
 dynamic
@@ -1297,7 +1247,6 @@ cell
 2
 .
 html
-fails
 =
 =
 dynamic
@@ -1326,7 +1275,6 @@ cell
 3
 .
 html
-fails
 =
 =
 dynamic
@@ -1355,7 +1303,6 @@ cell
 4
 .
 html
-fails
 =
 =
 dynamic
@@ -1384,7 +1331,6 @@ cell
 5
 .
 html
-fails
 =
 =
 dynamic
@@ -1413,7 +1359,6 @@ cell
 1
 .
 html
-fails
 =
 =
 dynamic
@@ -1442,7 +1387,6 @@ cell
 2
 .
 html
-fails
 =
 =
 dynamic
@@ -1471,7 +1415,6 @@ cell
 3
 .
 html
-fails
 =
 =
 dynamic
@@ -1500,7 +1443,6 @@ cell
 4
 .
 html
-fails
 =
 =
 dynamic
@@ -1529,7 +1471,6 @@ cell
 5
 .
 html
-fails
 =
 =
 white
@@ -1563,7 +1504,6 @@ space
 2
 .
 html
-fails
 =
 =
 white
@@ -1580,7 +1520,6 @@ space
 3
 .
 html
-fails
 =
 =
 white
@@ -1597,7 +1536,6 @@ space
 4
 .
 html
-fails
 =
 =
 white
@@ -1614,7 +1552,6 @@ space
 5
 .
 html
-fails
 =
 =
 white
@@ -1951,7 +1888,6 @@ space
 26
 .
 html
-fails
 =
 =
 white

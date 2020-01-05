@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 bdi
@@ -35,7 +34,6 @@ dir
 default
 .
 html
-fails
 =
 =
 dir_auto
@@ -60,7 +58,6 @@ dir
 L
 .
 html
-fails
 =
 =
 dir_auto
@@ -85,7 +82,6 @@ dir
 R
 .
 html
-fails
 =
 =
 dir_auto
@@ -114,7 +110,6 @@ dir
 L
 .
 html
-fails
 =
 =
 dir_auto
@@ -143,7 +138,6 @@ dir
 R
 .
 html
-fails
 =
 =
 dir_auto
@@ -168,7 +162,6 @@ dir
 L
 .
 html
-fails
 =
 =
 dir_auto
@@ -193,7 +186,6 @@ dir
 R
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -210,7 +202,6 @@ setLTR
 Auto1
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -227,7 +218,6 @@ setLTR
 Auto2
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -244,7 +234,6 @@ setLTR
 Auto3
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -261,7 +250,6 @@ setLTR
 Auto4
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -278,7 +266,6 @@ setLTR
 Auto5
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -295,7 +282,6 @@ setLTR
 Auto6
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -312,7 +298,6 @@ setLTR
 LTR1
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -329,7 +314,6 @@ setLTR
 LTR2
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -346,7 +330,6 @@ setLTR
 LTR3
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -363,7 +346,6 @@ setLTR
 LTR4
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -380,7 +362,6 @@ setLTR
 LTR5
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -397,7 +378,6 @@ setLTR
 LTR6
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -414,7 +394,6 @@ setLTR
 LTR7
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -431,7 +410,6 @@ setLTR
 LTR8
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -448,7 +426,6 @@ setLTR
 RTL1
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -465,7 +442,6 @@ setLTR
 RTL2
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -482,7 +458,6 @@ setLTR
 RTL3
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -499,7 +474,6 @@ setLTR
 RTL4
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -516,7 +490,6 @@ setLTR
 RTL5
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -533,7 +506,6 @@ setLTR
 RTL6
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -550,7 +522,6 @@ setLTR
 RTL7
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -567,7 +538,6 @@ setLTR
 RTL8
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -584,7 +554,6 @@ setLTR
 NoDir1
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -601,7 +570,6 @@ setLTR
 NoDir2
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -618,7 +586,6 @@ setLTR
 NoDir3
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -635,7 +602,6 @@ setLTR
 NoDir4
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -652,7 +618,6 @@ setLTR
 NoDir5
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -669,7 +634,6 @@ setLTR
 NoDir6
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -686,7 +650,6 @@ setLTR
 NoDir7
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -703,7 +666,6 @@ setLTR
 NoDir8
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -720,7 +682,6 @@ setLTR
 InvalidDir1
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -737,7 +698,6 @@ setLTR
 InvalidDir2
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -754,7 +714,6 @@ setLTR
 InvalidDir3
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -771,7 +730,6 @@ setLTR
 InvalidDir4
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -788,7 +746,6 @@ setLTR
 InvalidDir5
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -839,7 +796,6 @@ setLTR
 InvalidDir7
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -856,7 +812,6 @@ setRTL
 Auto1
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -873,7 +828,6 @@ setRTL
 Auto2
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -890,7 +844,6 @@ setRTL
 Auto3
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -907,7 +860,6 @@ setRTL
 Auto4
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -924,7 +876,6 @@ setRTL
 Auto5
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -941,7 +892,6 @@ setRTL
 Auto6
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -958,7 +908,6 @@ setRTL
 LTR1
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -975,7 +924,6 @@ setRTL
 LTR2
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -992,7 +940,6 @@ setRTL
 LTR3
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -1009,7 +956,6 @@ setRTL
 LTR4
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -1026,7 +972,6 @@ setRTL
 LTR5
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -1043,7 +988,6 @@ setRTL
 LTR6
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -1060,7 +1004,6 @@ setRTL
 LTR7
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -1077,7 +1020,6 @@ setRTL
 LTR8
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -1094,7 +1036,6 @@ setRTL
 RTL1
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -1111,7 +1052,6 @@ setRTL
 RTL2
 .
 html
-fails
 =
 =
 dynamicDirAuto
@@ -1128,7 +1068,6 @@ setRTL
 RTL3
 .
 html
-fails
 =
 =
 dynamicDirAuto

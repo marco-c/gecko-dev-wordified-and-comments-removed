@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 button
@@ -35,7 +34,6 @@ not
 blank
 .
 html
-fails
 =
 =
 button
@@ -68,7 +66,6 @@ not
 blank
 .
 html
-fails
 =
 =
 combobox
@@ -85,7 +82,6 @@ not
 blank
 .
 html
-fails
 =
 =
 fieldset
@@ -102,7 +98,6 @@ not
 blank
 .
 html
-fails
 =
 =
 file
@@ -119,7 +114,6 @@ not
 blank
 .
 html
-fails
 =
 =
 listbox
@@ -152,7 +146,6 @@ not
 blank
 .
 html
-fails
 =
 =
 text
@@ -173,7 +166,6 @@ not
 blank
 .
 html
-fails
 =
 =
 textarea
@@ -214,7 +206,6 @@ should
 have
 )
 .
-fails
 =
 =
 text
@@ -231,7 +222,6 @@ input
 native
 .
 html
-fails
 =
 =
 text
@@ -256,7 +246,6 @@ when
 styled
 .
 html
-fails
 =
 =
 textarea
@@ -269,7 +258,6 @@ textarea
 native
 .
 html
-fails
 =
 =
 textarea
@@ -290,7 +278,6 @@ when
 styled
 .
 html
-fails
 =
 =
 button
@@ -303,7 +290,6 @@ button
 native
 .
 html
-fails
 =
 =
 button
@@ -324,7 +310,6 @@ when
 styled
 .
 html
-fails
 =
 =
 combobox
@@ -337,7 +322,6 @@ combobox
 native
 .
 html
-fails
 =
 =
 combobox
@@ -358,7 +342,6 @@ when
 styled
 .
 html
-fails
 =
 =
 listbox
@@ -371,7 +354,6 @@ listbox
 native
 .
 html
-fails
 needs
 -
 focus
@@ -481,7 +463,6 @@ when
 styled
 .
 html
-fails
 =
 =
 native
@@ -506,7 +487,6 @@ cascade
 levels
 .
 html
-fails
 =
 =
 427122
@@ -610,7 +590,6 @@ html
 3
 .
 html
-fails
 =
 =
 492155
@@ -623,7 +602,6 @@ html
 4
 .
 html
-fails
 =
 =
 box
@@ -640,7 +618,6 @@ shadow
 input
 .
 html
-fails
 =
 =
 box
@@ -657,7 +634,6 @@ shadow
 button
 .
 html
-fails
 =
 =
 box
@@ -674,7 +650,6 @@ shadow
 listbox
 .
 html
-fails
 =
 =
 box
@@ -1081,7 +1056,6 @@ border
 radius
 .
 html
-fails
 =
 =
 checkbox

@@ -51,7 +51,6 @@ html
 1
 .
 html
-fails
 =
 =
 403669
@@ -104,7 +103,6 @@ html
 1a
 .
 html
-fails
 =
 =
 129941
@@ -177,7 +175,6 @@ html
 1a
 .
 html
-fails
 =
 =
 626395
@@ -202,7 +199,6 @@ html
 2a
 .
 html
-fails
 =
 =
 626395
@@ -227,7 +223,6 @@ html
 2c
 .
 html
-fails
 =
 =
 626395
@@ -253,7 +248,6 @@ html
 1
 .
 html
-fails
 =
 =
 115199
@@ -315,7 +309,6 @@ html
 1
 .
 html
-fails
 =
 =
 820496
@@ -360,7 +353,6 @@ to
 bug
 967311
 .
-fails
 =
 =
 960822
@@ -369,7 +361,6 @@ html
 960822
 .
 html
-fails
 =
 =
 966419
@@ -382,7 +373,6 @@ html
 1
 .
 html
-fails
 =
 =
 966419

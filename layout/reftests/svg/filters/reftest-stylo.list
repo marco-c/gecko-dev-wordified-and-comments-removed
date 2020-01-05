@@ -520,7 +520,6 @@ feGaussianBlur
 6
 .
 svg
-fails
 =
 =
 feGaussianBlur
@@ -577,7 +576,6 @@ feImage
 1
 .
 svg
-fails
 =
 =
 feImage

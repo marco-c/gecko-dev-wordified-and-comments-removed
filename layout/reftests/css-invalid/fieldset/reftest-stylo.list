@@ -82,7 +82,6 @@ element
 dynamic
 .
 html
-fails
 =
 =
 fieldset
@@ -103,22 +102,8 @@ invalid
 element
 .
 html
-fails
 =
 =
-fieldset
--
-add
--
-invalid
--
-with
--
-valid
--
-element
-.
-html
 fieldset
 -
 add
@@ -132,7 +117,19 @@ valid
 element
 .
 html
-fails
+fieldset
+-
+add
+-
+invalid
+-
+with
+-
+valid
+-
+element
+.
+html
 =
 =
 fieldset
@@ -153,7 +150,6 @@ valid
 element
 .
 html
-fails
 =
 =
 fieldset
@@ -182,7 +178,6 @@ invalid
 element
 .
 html
-fails
 =
 =
 fieldset
@@ -271,7 +266,6 @@ dynamic
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -316,7 +310,6 @@ remove
 barred
 .
 html
-fails
 =
 =
 fieldset
@@ -345,7 +338,6 @@ remove
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -422,7 +414,6 @@ static
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -439,7 +430,6 @@ static
 valid
 .
 html
-fails
 =
 =
 fieldset
@@ -468,7 +458,6 @@ remove
 barred
 .
 html
-fails
 =
 =
 fieldset
@@ -489,7 +478,6 @@ and
 barred
 .
 html
-fails
 =
 =
 fieldset
@@ -522,7 +510,6 @@ barred
 dynamic
 .
 html
-fails
 =
 =
 fieldset
@@ -547,7 +534,6 @@ and
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -612,7 +598,6 @@ div
 invalid
 .
 html
-fails
 =
 =
 fieldset
@@ -633,7 +618,6 @@ valid
 invalid
 .
 html
-fails
 =
 =
 fieldset

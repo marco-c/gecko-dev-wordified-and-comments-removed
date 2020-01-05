@@ -26,7 +26,6 @@ filters
 enabled
 true
 )
-fails
 =
 =
 default
@@ -52,7 +51,6 @@ drop
 shadow
 .
 html
-fails
 =
 =
 drop
@@ -69,7 +67,6 @@ shadow
 transformed
 .
 html
-fails
 =
 =
 global
@@ -82,7 +79,6 @@ global
 alpha
 .
 html
-fails
 =
 =
 global
@@ -99,7 +95,6 @@ composite
 operation
 .
 html
-fails
 =
 =
 liveness
@@ -108,7 +103,6 @@ html
 liveness
 .
 html
-fails
 =
 =
 multiple
@@ -125,7 +119,6 @@ drop
 shadows
 .
 html
-fails
 =
 =
 shadow
@@ -134,7 +127,6 @@ html
 shadow
 .
 html
-fails
 =
 =
 subregion
@@ -151,7 +143,6 @@ fill
 paint
 .
 html
-fails
 =
 =
 subregion
@@ -168,7 +159,6 @@ stroke
 paint
 .
 html
-fails
 =
 =
 svg
@@ -181,7 +171,6 @@ svg
 bbox
 .
 html
-fails
 =
 =
 svg
@@ -194,7 +183,6 @@ svg
 inline
 .
 html
-fails
 =
 =
 svg
@@ -207,7 +195,6 @@ svg
 liveness
 .
 html
-fails
 =
 =
 svg
@@ -224,7 +211,6 @@ off
 screen
 .
 html
-fails
 =
 =
 units
@@ -233,7 +219,6 @@ html
 units
 .
 html
-fails
 =
 =
 units
@@ -246,7 +231,6 @@ units
 em
 .
 html
-fails
 =
 =
 units
@@ -259,7 +243,6 @@ units
 ex
 .
 html
-fails
 =
 =
 units
@@ -276,7 +259,6 @@ off
 screen
 .
 html
-fails
 =
 =
 fillText
@@ -301,7 +283,6 @@ opacity
 1
 .
 html
-fails
 =
 =
 fillText
@@ -326,7 +307,6 @@ opacity
 2
 .
 html
-fails
 =
 =
 strokeText
@@ -351,7 +331,6 @@ grayscale
 1
 .
 html
-fails
 =
 =
 strokeText
@@ -376,7 +355,6 @@ grayscale
 2
 .
 html
-fails
 =
 =
 fillText
@@ -397,7 +375,6 @@ shadow
 1
 .
 html
-fails
 =
 =
 fillText
@@ -418,7 +395,6 @@ shadow
 2
 .
 html
-fails
 =
 =
 fillText
@@ -443,7 +419,6 @@ grayscale
 1
 .
 html
-fails
 =
 =
 fillText
@@ -468,7 +443,6 @@ grayscale
 2
 .
 html
-fails
 =
 =
 strokeText
@@ -489,7 +463,6 @@ shadow
 1
 .
 html
-fails
 =
 =
 strokeText

@@ -169,7 +169,6 @@ glyph
 positioning
 .
 svg
-fails
 pref
 (
 gfx
@@ -224,7 +223,6 @@ glyph
 direct
 .
 svg
-fails
 pref
 (
 gfx
@@ -514,7 +512,6 @@ glyph
 objectpattern
 .
 svg
-fails
 pref
 (
 gfx

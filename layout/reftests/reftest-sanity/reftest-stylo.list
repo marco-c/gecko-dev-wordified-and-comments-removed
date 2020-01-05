@@ -105,7 +105,6 @@ not
 just
 scales
 )
-fails
 =
 =
 test
@@ -404,7 +403,6 @@ html
 blank
 .
 html
-fails
 HTTP
 (
 .
@@ -422,7 +420,6 @@ filter
 1
 .
 xhtml
-fails
 HTTP
 (
 .
@@ -947,7 +944,6 @@ displayport
 2
 .
 html
-fails
 =
 =
 647192
@@ -960,7 +956,6 @@ html
 1
 .
 html
-fails
 =
 =
 656041
@@ -1264,7 +1259,6 @@ prefs
 a
 boolean
 pref
-fails
 pref
 (
 gfx
@@ -1291,7 +1285,6 @@ font
 download
 .
 html
-fails
 pref
 (
 gfx
@@ -2751,7 +2744,6 @@ and
 reftest
 -
 wait
-fails
 =
 =
 reftest
@@ -2776,7 +2768,6 @@ wait
 pass
 .
 html
-fails
 =
 =
 reftest
@@ -2857,7 +2848,6 @@ reftest
 assigned
 -
 layer
-fails
 =
 =
 reftest

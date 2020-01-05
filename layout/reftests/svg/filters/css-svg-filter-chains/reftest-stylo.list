@@ -73,7 +73,6 @@ filters
 enabled
 true
 )
-fails
 =
 =
 clip
@@ -94,7 +93,6 @@ css
 filter
 .
 html
-fails
 =
 =
 css
@@ -111,7 +109,6 @@ filter
 first
 .
 html
-fails
 =
 =
 css
@@ -128,7 +125,6 @@ filter
 last
 .
 html
-fails
 =
 =
 css

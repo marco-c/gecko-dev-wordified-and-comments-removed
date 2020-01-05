@@ -44,7 +44,6 @@ html
 hScrollSimpleHeight
 .
 html
-fails
 =
 =
 hScrollSimpleHeightQuirks
@@ -57,7 +56,6 @@ hScrollSimpleHeightQuirks
 1
 .
 html
-fails
 =
 =
 hScrollSimpleHeightQuirks

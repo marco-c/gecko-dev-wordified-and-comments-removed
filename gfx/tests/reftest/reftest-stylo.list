@@ -26,7 +26,6 @@ in
 video
 drivers
 .
-fails
 =
 =
 468496
@@ -52,7 +51,6 @@ html
 1
 .
 html
-fails
 =
 =
 709477
@@ -80,7 +78,6 @@ html
 1086723
 .
 html
-fails
 =
 =
 853889

@@ -29,7 +29,6 @@ reftest
 stylo
 .
 list
-fails
 =
 =
 clipPath
@@ -46,7 +45,6 @@ html
 01
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -67,7 +65,6 @@ html
 extref
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -84,7 +81,6 @@ html
 02
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -105,7 +101,6 @@ html
 extref
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -122,7 +117,6 @@ html
 03
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -143,7 +137,6 @@ html
 extref
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -160,7 +153,6 @@ html
 04
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -181,7 +173,6 @@ html
 extref
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -198,7 +189,6 @@ html
 05
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -219,7 +209,6 @@ html
 extref
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -236,7 +225,6 @@ html
 06
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -257,7 +245,6 @@ html
 extref
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -274,7 +261,6 @@ html
 07
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -291,7 +277,6 @@ html
 08
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -312,7 +297,6 @@ zoomed
 01
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -333,7 +317,6 @@ html
 01
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -354,7 +337,6 @@ html
 02
 .
 xhtml
-fails
 =
 =
 conditions
@@ -375,7 +357,6 @@ svg
 01
 .
 xhtml
-fails
 =
 =
 conditions
@@ -396,7 +377,6 @@ svg
 02
 .
 xhtml
-fails
 =
 =
 dynamic
@@ -421,7 +401,6 @@ svg
 01
 .
 xhtml
-fails
 =
 =
 dynamic
@@ -446,7 +425,6 @@ svg
 02
 .
 xhtml
-fails
 =
 =
 dynamic
@@ -471,7 +449,6 @@ svg
 03
 .
 xhtml
-fails
 =
 =
 dynamic
@@ -496,7 +473,6 @@ svg
 04
 .
 xhtml
-fails
 =
 =
 filter
@@ -513,7 +489,6 @@ html
 01
 .
 xhtml
-fails
 =
 =
 filter
@@ -534,7 +509,6 @@ html
 extref
 .
 xhtml
-fails
 =
 =
 filter
@@ -555,7 +529,6 @@ zoomed
 01
 .
 xhtml
-fails
 =
 =
 mask
@@ -572,7 +545,6 @@ html
 01
 .
 xhtml
-fails
 =
 =
 mask
@@ -622,7 +594,6 @@ extref
 02
 .
 xhtml
-fails
 =
 =
 mask
@@ -643,7 +614,6 @@ zoomed
 01
 .
 xhtml
-fails
 =
 =
 mask
@@ -668,7 +638,6 @@ bound
 01
 .
 html
-fails
 =
 =
 mask
@@ -689,7 +658,6 @@ html
 01
 .
 xhtml
-fails
 =
 =
 mask
@@ -710,7 +678,6 @@ html
 02
 .
 xhtml
-fails
 =
 =
 patterned
@@ -739,7 +706,6 @@ html
 01
 .
 xhtml
-fails
 =
 =
 patterned
@@ -768,7 +734,6 @@ html
 02
 .
 xhtml
-fails
 =
 =
 mask
@@ -789,7 +754,6 @@ opacity
 01a
 .
 xhtml
-fails
 =
 =
 mask
@@ -810,7 +774,6 @@ opacity
 01b
 .
 xhtml
-fails
 =
 =
 mask
@@ -831,7 +794,6 @@ opacity
 01c
 .
 xhtml
-fails
 =
 =
 mask
@@ -852,7 +814,6 @@ opacity
 01d
 .
 xhtml
-fails
 =
 =
 mask

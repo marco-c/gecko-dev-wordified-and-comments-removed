@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 background
@@ -103,7 +102,6 @@ seam
 2
 .
 html
-fails
 =
 =
 image
@@ -120,7 +118,6 @@ zoom
 1
 .
 html
-fails
 =
 =
 image
@@ -137,7 +134,6 @@ zoom
 2
 .
 html
-fails
 =
 =
 invalid
@@ -387,7 +383,6 @@ dyn
 1
 .
 html
-fails
 test
 -
 pref
@@ -435,7 +430,6 @@ background
 1
 .
 html
-fails
 test
 -
 pref
@@ -527,7 +521,6 @@ dyn
 1
 .
 html
-fails
 test
 -
 pref
@@ -575,7 +568,6 @@ background
 1
 .
 html
-fails
 =
 =
 image
@@ -2402,7 +2394,6 @@ img
 srcset
 >
 tests
-fails
 =
 =
 image
@@ -2431,7 +2422,6 @@ selection
 1x
 .
 html
-fails
 =
 =
 image
@@ -2456,7 +2446,6 @@ selection
 2x
 .
 html
-fails
 =
 =
 image
@@ -2485,7 +2474,6 @@ selection
 5x
 .
 html
-fails
 =
 =
 image
@@ -2514,7 +2502,6 @@ selection
 6x
 .
 html
-fails
 =
 =
 image
@@ -2567,7 +2554,6 @@ selection
 1x
 .
 html
-fails
 =
 =
 image
@@ -2600,7 +2586,6 @@ width
 5x
 .
 html
-fails
 =
 =
 image
@@ -2629,7 +2614,6 @@ width
 10x
 .
 html
-fails
 =
 =
 image
@@ -2686,7 +2670,6 @@ width
 1x
 .
 html
-fails
 =
 =
 image
@@ -2727,7 +2710,6 @@ default
 1x
 .
 html
-fails
 =
 =
 image
@@ -2776,7 +2758,6 @@ src
 1x
 .
 html
-fails
 =
 =
 image
@@ -2817,7 +2798,6 @@ orientation
 1x
 .
 html
-fails
 =
 =
 image
@@ -2838,7 +2818,6 @@ svg
 3x
 .
 html
-fails
 =
 =
 image
@@ -2879,7 +2858,6 @@ svg
 1x
 .
 html
-fails
 =
 =
 image
@@ -2948,7 +2926,6 @@ percent
 height
 .
 html
-fails
 =
 =
 image

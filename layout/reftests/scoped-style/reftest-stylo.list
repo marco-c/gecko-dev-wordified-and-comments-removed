@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 scoped
@@ -31,7 +30,6 @@ style
 001
 .
 html
-fails
 =
 =
 scoped
@@ -48,7 +46,6 @@ style
 002
 .
 html
-fails
 =
 =
 scoped
@@ -65,7 +62,6 @@ style
 003
 .
 html
-fails
 =
 =
 scoped
@@ -82,7 +78,6 @@ style
 004
 .
 html
-fails
 =
 =
 scoped

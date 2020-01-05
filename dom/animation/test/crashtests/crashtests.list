@@ -17,13 +17,6 @@ load
 1
 .
 html
-asserts
--
-if
-(
-stylo
-2
-)
 pref
 (
 dom
@@ -43,9 +36,6 @@ load
 1
 .
 html
-#
-bug
-1324696
 pref
 (
 dom
@@ -253,13 +243,6 @@ load
 1
 .
 html
-asserts
--
-if
-(
-stylo
-10
-)
 pref
 (
 dom
@@ -279,9 +262,6 @@ load
 1
 .
 html
-#
-bug
-1324694
 pref
 (
 dom

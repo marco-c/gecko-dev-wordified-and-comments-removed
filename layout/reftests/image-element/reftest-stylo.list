@@ -27,7 +27,6 @@ bug
 364968
 .
 html
-fails
 =
 =
 bug
@@ -40,7 +39,6 @@ bug
 463204
 .
 html
-fails
 =
 =
 canvas
@@ -57,7 +55,6 @@ outside
 document
 .
 html
-fails
 =
 =
 mozsetimageelement
@@ -197,7 +194,6 @@ paint
 simple
 .
 html
-fails
 =
 =
 element
@@ -214,7 +210,6 @@ paint
 repeated
 .
 html
-fails
 =
 =
 element
@@ -231,7 +226,6 @@ paint
 recursion
 .
 html
-fails
 HTTP
 (
 .
@@ -253,7 +247,6 @@ paint
 continuation
 .
 html
-fails
 =
 =
 element
@@ -274,7 +267,6 @@ transform
 01
 .
 html
-fails
 =
 =
 element
@@ -295,7 +287,6 @@ transform
 02
 .
 html
-fails
 =
 =
 element

@@ -105,7 +105,6 @@ align
 content
 property
 )
-fails
 =
 =
 flexbox
@@ -130,7 +129,6 @@ horiz
 001a
 .
 xhtml
-fails
 =
 =
 flexbox

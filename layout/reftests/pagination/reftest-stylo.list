@@ -72,7 +72,6 @@ breaking
 000
 .
 xhtml
-fails
 =
 =
 abspos
@@ -89,7 +88,6 @@ breaking
 001
 .
 xhtml
-fails
 =
 =
 abspos
@@ -106,7 +104,6 @@ breaking
 002
 .
 xhtml
-fails
 =
 =
 abspos
@@ -123,7 +120,6 @@ breaking
 003
 .
 html
-fails
 =
 =
 abspos
@@ -140,7 +136,6 @@ breaking
 004
 .
 html
-fails
 =
 =
 abspos
@@ -157,7 +152,6 @@ breaking
 005
 .
 html
-fails
 =
 =
 abspos
@@ -174,7 +168,6 @@ breaking
 006
 .
 html
-fails
 pref
 (
 layout
@@ -206,7 +199,6 @@ breaking
 007
 .
 html
-fails
 pref
 (
 layout
@@ -238,7 +230,6 @@ breaking
 008
 .
 html
-fails
 pref
 (
 layout
@@ -270,7 +261,6 @@ breaking
 009
 .
 html
-fails
 pref
 (
 layout
@@ -354,7 +344,6 @@ overflow
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -375,7 +364,6 @@ breaking
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -396,7 +384,6 @@ breaking
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -417,7 +404,6 @@ breaking
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -438,7 +424,6 @@ breaking
 cols
 .
 xhtml
-fails
 =
 =
 border
@@ -643,7 +628,6 @@ overflow
 cols
 .
 xhtml
-fails
 test
 -
 pref
@@ -678,7 +662,6 @@ clear
 000
 .
 html
-fails
 test
 -
 pref
@@ -712,7 +695,6 @@ clear
 000
 .
 html
-fails
 =
 =
 float
@@ -729,7 +711,6 @@ clear
 001
 .
 html
-fails
 test
 -
 pref
@@ -764,7 +745,6 @@ clear
 002
 .
 html
-fails
 test
 -
 pref
@@ -798,7 +778,6 @@ clear
 002
 .
 html
-fails
 =
 =
 float
@@ -815,7 +794,6 @@ clear
 003
 .
 html
-fails
 =
 =
 float
@@ -836,7 +814,6 @@ clear
 print
 .
 html
-fails
 =
 =
 float
@@ -857,7 +834,6 @@ clear
 print
 .
 html
-fails
 =
 =
 float
@@ -878,7 +854,6 @@ clear
 print
 .
 html
-fails
 =
 =
 float
@@ -899,7 +874,6 @@ clear
 print
 .
 html
-fails
 =
 =
 float
@@ -916,7 +890,6 @@ continuations
 000
 .
 html
-fails
 =
 =
 resize
@@ -933,7 +906,6 @@ reflow
 000
 .
 html
-fails
 =
 =
 resize
@@ -1095,7 +1067,6 @@ right
 1
 .
 html
-fails
 =
 =
 table
@@ -1124,7 +1095,6 @@ always
 1
 .
 html
-fails
 =
 =
 table
@@ -1153,7 +1123,6 @@ left
 1
 .
 html
-fails
 =
 =
 table
@@ -1182,7 +1151,6 @@ right
 1
 .
 html
-fails
 =
 =
 rowgroup
@@ -1211,7 +1179,6 @@ always
 1
 .
 html
-fails
 =
 =
 row
@@ -1240,7 +1207,6 @@ always
 1
 .
 html
-fails
 =
 =
 row
@@ -1269,7 +1235,6 @@ always
 2
 .
 html
-fails
 =
 =
 rowgroup
@@ -1302,7 +1267,6 @@ always
 1
 .
 html
-fails
 =
 =
 rowgroup
@@ -1335,7 +1299,6 @@ always
 1
 .
 html
-fails
 =
 =
 table
@@ -1356,7 +1319,6 @@ thead
 1
 .
 html
-fails
 =
 =
 table
@@ -1377,7 +1339,6 @@ splitrowgroup
 1
 .
 html
-fails
 =
 =
 table
@@ -1398,7 +1359,6 @@ splitaftercaption
 1
 .
 html
-fails
 =
 =
 table
@@ -1419,7 +1379,6 @@ splitaftercaption
 2
 .
 html
-fails
 =
 =
 table
@@ -1440,7 +1399,6 @@ splitaftercaption
 3
 .
 html
-fails
 =
 =
 table
@@ -1461,7 +1419,6 @@ splitaftercaption
 4
 .
 html
-fails
 =
 =
 table
@@ -1482,7 +1439,6 @@ splitaftercaption
 5
 .
 html
-fails
 =
 =
 table
@@ -1503,7 +1459,6 @@ splitaftercaption
 6
 .
 html
-fails
 =
 =
 table
@@ -1636,7 +1591,6 @@ avoid
 2
 .
 html
-fails
 =
 =
 combobox

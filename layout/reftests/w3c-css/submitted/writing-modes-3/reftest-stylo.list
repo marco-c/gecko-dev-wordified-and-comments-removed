@@ -32,7 +32,6 @@ upright
 enabled
 true
 )
-fails
 =
 =
 text
@@ -61,7 +60,6 @@ inside
 001
 .
 html
-fails
 =
 =
 text
@@ -90,7 +88,6 @@ inside
 001a
 .
 html
-fails
 =
 =
 text
@@ -115,7 +112,6 @@ compression
 001
 .
 html
-fails
 =
 =
 text
@@ -140,7 +136,6 @@ compression
 002
 .
 html
-fails
 =
 =
 text
@@ -165,7 +160,6 @@ compression
 003
 .
 html
-fails
 =
 =
 text
@@ -190,7 +184,6 @@ compression
 004
 .
 html
-fails
 =
 =
 text
@@ -215,7 +208,6 @@ compression
 005
 .
 html
-fails
 =
 =
 text
@@ -240,7 +232,6 @@ compression
 005a
 .
 html
-fails
 =
 =
 text
@@ -265,7 +256,6 @@ compression
 006
 .
 html
-fails
 =
 =
 text
@@ -290,7 +280,6 @@ compression
 006a
 .
 html
-fails
 =
 =
 text
@@ -315,7 +304,6 @@ compression
 007
 .
 html
-fails
 =
 =
 text
@@ -340,7 +328,6 @@ directionality
 001
 .
 html
-fails
 =
 =
 logical

@@ -22,7 +22,6 @@ tests
 for
 bug
 519589
-fails
 =
 =
 1bit
@@ -39,7 +38,6 @@ gif
 trans
 .
 gif
-fails
 =
 =
 in
@@ -56,7 +54,6 @@ colormap
 trans
 .
 gif
-fails
 =
 =
 out
@@ -108,7 +105,6 @@ size
 of
 the
 canvas
-fails
 =
 =
 small
@@ -125,7 +121,6 @@ background
 size
 .
 gif
-fails
 =
 =
 small
@@ -193,7 +188,6 @@ test
 for
 bug
 641198
-fails
 =
 =
 test_bug641198
@@ -215,7 +209,6 @@ color
 and
 an
 offset
-fails
 =
 =
 one
@@ -235,7 +228,6 @@ gif
 #
 Bug
 1068230
-fails
 =
 =
 tile
@@ -496,7 +488,6 @@ parts
 .
 "
 )
-fails
 HTTP
 =
 =
