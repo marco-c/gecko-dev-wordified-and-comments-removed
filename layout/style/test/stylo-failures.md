@@ -3869,14 +3869,6 @@ html
 1
 ]
 *
-test_page_parser
-.
-html
-2in
-[
-8
-]
-*
 insertRule
 /
 deleteRule
