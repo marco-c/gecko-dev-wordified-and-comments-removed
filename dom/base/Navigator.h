@@ -182,9 +182,6 @@ class
 DesktopNotificationCenter
 ;
 class
-MobileMessageManager
-;
-class
 MozIdleObserver
 ;
 #
@@ -785,12 +782,6 @@ ErrorResult
 aRv
 )
 ;
-MobileMessageManager
-*
-GetMozMobileMessage
-(
-)
-;
 Telephony
 *
 GetMozTelephony
@@ -1317,12 +1308,6 @@ RefPtr
 IccManager
 >
 mIccManager
-;
-RefPtr
-<
-MobileMessageManager
->
-mMobileMessageManager
 ;
 RefPtr
 <

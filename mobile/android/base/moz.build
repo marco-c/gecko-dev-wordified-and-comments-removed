@@ -2049,11 +2049,6 @@ GeckoSharedPrefs
 java
 '
 '
-GeckoSmsManager
-.
-java
-'
-'
 GeckoThread
 .
 java
@@ -2289,11 +2284,6 @@ java
 '
 '
 PrefsHelper
-.
-java
-'
-'
-SmsManager
 .
 java
 '

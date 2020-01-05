@@ -344,14 +344,6 @@ mozilla
 .
 gecko
 .
-SmsManager
-\
-org
-.
-mozilla
-.
-gecko
-.
 SysInfo
 \
 org
