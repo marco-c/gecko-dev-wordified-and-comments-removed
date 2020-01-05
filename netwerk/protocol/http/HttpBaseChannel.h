@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsIClassifiedChannel
+.
+h
+"
+#
+include
+"
 nsIApplicationCache
 .
 h
@@ -385,6 +392,8 @@ public
 nsIConsoleReportCollector
 public
 nsIThrottledInputChannel
+public
+nsIClassifiedChannel
 {
 protected
 :
@@ -403,6 +412,7 @@ NS_DECL_NSIUPLOADCHANNEL2
 NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSITIMEDCHANNEL
 NS_DECL_NSITHROTTLEDINPUTCHANNEL
+NS_DECL_NSICLASSIFIEDCHANNEL
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 HTTP_BASE_CHANNEL_IID
@@ -2617,6 +2627,15 @@ mChannelId
 ;
 nsString
 mIntegrityMetadata
+;
+nsCString
+mMatchedList
+;
+nsCString
+mMatchedProvider
+;
+nsCString
+mMatchedPrefix
 ;
 }
 ;

@@ -65,7 +65,11 @@ IPCResult
 Recv__delete__
 (
 const
-MaybeResult
+MaybeInfo
+&
+aInfo
+const
+nsresult
 &
 aResult
 )

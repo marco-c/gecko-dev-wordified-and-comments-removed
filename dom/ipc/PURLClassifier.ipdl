@@ -123,6 +123,9 @@ include
 protocol
 PContent
 ;
+include
+PURLClassifierInfo
+;
 namespace
 mozilla
 {
@@ -130,9 +133,9 @@ namespace
 dom
 {
 union
-MaybeResult
+MaybeInfo
 {
-nsresult
+ClassifierInfo
 ;
 void_t
 ;
@@ -149,8 +152,10 @@ child
 async
 __delete__
 (
-MaybeResult
-status
+MaybeInfo
+info
+nsresult
+errorCode
 )
 ;
 }

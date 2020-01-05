@@ -225,6 +225,11 @@ nsIChildChannel
 idl
 '
 '
+nsIClassifiedChannel
+.
+idl
+'
+'
 nsIClassOfService
 .
 idl
