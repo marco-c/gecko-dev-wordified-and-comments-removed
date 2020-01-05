@@ -4113,7 +4113,6 @@ addEventListener
 click
 "
 function
-onclick
 (
 event
 )
