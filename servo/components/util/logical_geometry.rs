@@ -38,6 +38,7 @@ fmt
 :
 :
 {
+self
 Debug
 Formatter
 Error
@@ -509,7 +510,10 @@ Left
 }
 }
 impl
-Debug
+fmt
+:
+:
+Display
 for
 WritingMode
 {

@@ -16,13 +16,6 @@ exit
 bitflags
 !
 {
-#
-[
-derive
-(
-Debug
-)
-]
 flags
 TaskState
 :
