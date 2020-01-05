@@ -53,6 +53,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsIWebProgress
 .
 h
@@ -993,8 +1000,7 @@ nsPagePrintTimer
 *
 mPagePrintTimer
 ;
-nsIPageSequenceFrame
-*
+nsWeakFrame
 mPageSeqFrame
 ;
 mozilla
