@@ -1371,9 +1371,10 @@ index
 ;
 if
 (
-NS_INLINE_IS_BREAK
-(
 aFrameReflowStatus
+.
+IsInlineBreak
+(
 )
 )
 {
@@ -19693,9 +19694,10 @@ None
 ;
 if
 (
-NS_INLINE_IS_BREAK
-(
 frameReflowStatus
+.
+IsInlineBreak
+(
 )
 |
 |
