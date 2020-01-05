@@ -116,6 +116,7 @@ allow
 unrooted_must_root
 )
 ]
+pub
 fn
 new_inherited
 (

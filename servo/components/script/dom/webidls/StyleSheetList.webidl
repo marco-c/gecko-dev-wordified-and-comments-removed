@@ -84,10 +84,7 @@ ArrayClass
 [
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 StyleSheetList
