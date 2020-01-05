@@ -3687,15 +3687,6 @@ aRecorder
 )
 ;
 static
-void
-SetLogForwarder
-(
-LogForwarder
-*
-aLogFwd
-)
-;
-static
 uint32_t
 GetMaxSurfaceSize
 (
