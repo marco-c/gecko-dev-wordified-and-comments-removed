@@ -1456,7 +1456,7 @@ var
 ExtensionManager
 ;
 class
-ExtensionContext
+ContentScriptContextChild
 extends
 BaseContext
 {
@@ -2181,7 +2181,7 @@ null
 }
 defineLazyGetter
 (
-ExtensionContext
+ContentScriptContextChild
 .
 prototype
 "
@@ -2258,7 +2258,7 @@ optionalFilter
 ;
 defineLazyGetter
 (
-ExtensionContext
+ContentScriptContextChild
 .
 prototype
 "
@@ -3480,7 +3480,7 @@ let
 context
 =
 new
-ExtensionContext
+ContentScriptContextChild
 (
 extension
 window
@@ -3544,7 +3544,7 @@ let
 context
 =
 new
-ExtensionContext
+ContentScriptContextChild
 (
 extension
 window

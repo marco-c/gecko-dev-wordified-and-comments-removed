@@ -1292,7 +1292,7 @@ otherBrowser
 }
 }
 class
-ProxyContext
+ProxyContextParent
 extends
 BaseContext
 {
@@ -1511,7 +1511,7 @@ this
 }
 defineLazyGetter
 (
-ProxyContext
+ProxyContextParent
 .
 prototype
 "
@@ -1544,7 +1544,7 @@ obj
 ;
 defineLazyGetter
 (
-ProxyContext
+ProxyContextParent
 .
 prototype
 "
@@ -1568,9 +1568,15 @@ principal
 )
 ;
 class
-ExtensionChildProxyContext
+ContentScriptContextParent
 extends
-ProxyContext
+ProxyContextParent
+{
+}
+class
+ExtensionPageContextParent
+extends
+ProxyContextParent
 {
 constructor
 (
@@ -2221,7 +2227,7 @@ spec
 context
 =
 new
-ExtensionChildProxyContext
+ExtensionPageContextParent
 (
 envType
 extension
@@ -2244,7 +2250,7 @@ content_parent
 context
 =
 new
-ProxyContext
+ContentScriptContextParent
 (
 envType
 extension

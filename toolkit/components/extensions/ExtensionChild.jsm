@@ -3334,7 +3334,7 @@ name
 }
 }
 class
-ExtensionContext
+ExtensionPageContextChild
 extends
 BaseContext
 {
@@ -3373,7 +3373,7 @@ new
 Error
 (
 "
-ExtensionContext
+ExtensionPageContextChild
 cannot
 be
 created
@@ -3719,7 +3719,7 @@ this
 }
 defineLazyGetter
 (
-ExtensionContext
+ExtensionPageContextChild
 .
 prototype
 "
@@ -3773,7 +3773,7 @@ optionalFilter
 ;
 defineLazyGetter
 (
-ExtensionContext
+ExtensionPageContextChild
 .
 prototype
 "
@@ -4550,7 +4550,7 @@ documentURIObject
 context
 =
 new
-ExtensionContext
+ExtensionPageContextChild
 (
 extension
 {
