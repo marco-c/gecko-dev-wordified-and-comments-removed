@@ -319,6 +319,7 @@ geometry
 self
 Au
 MAX_RECT
+ZERO_POINT
 ZERO_RECT
 }
 ;
@@ -8687,12 +8688,7 @@ y
 )
 )
 ;
-Point2D
-:
-:
-zero
-(
-)
+ZERO_POINT
 }
 SidewaysRight
 =
@@ -8756,12 +8752,7 @@ y
 )
 )
 ;
-Point2D
-:
-:
-zero
-(
-)
+ZERO_POINT
 }
 }
 ;
