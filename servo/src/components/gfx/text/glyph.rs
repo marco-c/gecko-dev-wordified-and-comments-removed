@@ -3949,7 +3949,7 @@ self
 .
 glyph_range
 .
-unwrap
+get_mut_ref
 (
 )
 .
