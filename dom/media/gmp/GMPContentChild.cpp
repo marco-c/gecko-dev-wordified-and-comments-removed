@@ -398,10 +398,10 @@ GMP_API_DECRYPTOR
 nullptr
 &
 ptr
-aActor
+child
 -
 >
-Id
+DecryptorId
 (
 )
 )

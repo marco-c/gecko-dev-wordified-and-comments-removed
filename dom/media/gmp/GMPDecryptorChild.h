@@ -260,6 +260,16 @@ aKeyInfosLength
 )
 override
 ;
+uint32_t
+DecryptorId
+(
+)
+const
+{
+return
+mDecryptorId
+;
+}
 private
 :
 ~
@@ -522,6 +532,10 @@ mSession
 GMPContentChild
 *
 mPlugin
+;
+const
+uint32_t
+mDecryptorId
 ;
 }
 ;
