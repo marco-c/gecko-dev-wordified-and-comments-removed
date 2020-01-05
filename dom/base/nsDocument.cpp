@@ -47053,10 +47053,16 @@ UnblockParsingPromiseHandler
 (
 )
 {
+if
+(
+mDocument
+)
+{
 MaybeUnblockParser
 (
 )
 ;
+}
 }
 private
 :
@@ -47081,7 +47087,7 @@ if
 parser
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mDocument
 )
