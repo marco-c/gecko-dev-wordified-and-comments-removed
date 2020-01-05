@@ -1261,7 +1261,7 @@ queue
 DOMManipulationTask
 :
 :
-MediaTask
+Runnable
 (
 box
 task
@@ -1419,7 +1419,7 @@ queue
 DOMManipulationTask
 :
 :
-MediaTask
+Runnable
 (
 box
 task
@@ -1474,7 +1474,7 @@ queue
 DOMManipulationTask
 :
 :
-MediaTask
+Runnable
 (
 box
 task
@@ -2855,7 +2855,7 @@ queue
 DOMManipulationTask
 :
 :
-MediaTask
+Runnable
 (
 box
 DedicatedMediaSourceFailureTask
