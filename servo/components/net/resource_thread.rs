@@ -2078,6 +2078,7 @@ handle
 (
 msg
 None
+TFD_PROVIDER
 )
 CoreResourceMsg
 :
@@ -3016,9 +3017,6 @@ ProfilerChan
 filemanager
 :
 FileManager
-<
-TFDProvider
->
 cancel_load_map
 :
 HashMap
@@ -3101,7 +3099,6 @@ FileManager
 :
 new
 (
-TFD_PROVIDER
 )
 cancel_load_map
 :

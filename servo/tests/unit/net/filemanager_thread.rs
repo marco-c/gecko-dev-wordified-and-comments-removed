@@ -184,7 +184,6 @@ FileManager
 :
 new
 (
-TEST_PROVIDER
 )
 ;
 let
@@ -322,6 +321,7 @@ clone
 None
 )
 None
+TEST_PROVIDER
 )
 ;
 let
@@ -435,6 +435,7 @@ clone
 )
 )
 None
+TEST_PROVIDER
 )
 ;
 let
@@ -638,6 +639,7 @@ clone
 tx2
 )
 None
+TEST_PROVIDER
 )
 ;
 let
@@ -717,6 +719,7 @@ clone
 )
 )
 None
+TEST_PROVIDER
 )
 ;
 let

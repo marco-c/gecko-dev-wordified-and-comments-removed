@@ -197,15 +197,6 @@ devtools_traits
 DevtoolsControlMsg
 ;
 use
-filemanager_thread
-:
-:
-{
-TestProvider
-TEST_PROVIDER
-}
-;
-use
 hyper
 :
 :
@@ -353,9 +344,6 @@ DevtoolsControlMsg
 -
 >
 FetchContext
-<
-TestProvider
->
 {
 FetchContext
 {
@@ -384,7 +372,6 @@ FileManager
 :
 new
 (
-TEST_PROVIDER
 )
 }
 }
