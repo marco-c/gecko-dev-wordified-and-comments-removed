@@ -9046,7 +9046,7 @@ Range
 Range
 :
 :
-new
+new_with_doc
 (
 self
 )
