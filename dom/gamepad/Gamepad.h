@@ -244,6 +244,13 @@ aPose
 )
 ;
 void
+SetHand
+(
+GamepadHand
+aHand
+)
+;
+void
 SyncState
 (
 Gamepad
