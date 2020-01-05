@@ -239,7 +239,7 @@ const
 size_t
 shift
 =
-5
+6
 ;
 size_t
 index
