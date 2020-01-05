@@ -293,6 +293,9 @@ mDownloadErrorCallback
 nsCString
 mTelemetryProvider
 ;
+PRIntervalTime
+mTelemetryClockStart
+;
 }
 ;
 #
