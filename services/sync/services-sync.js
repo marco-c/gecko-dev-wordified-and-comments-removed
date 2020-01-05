@@ -886,6 +886,6 @@ validation
 .
 maxRecords
 "
-100
+1000
 )
 ;
