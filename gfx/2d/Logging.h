@@ -253,6 +253,7 @@ InvalidCacheSurface
 AlphaWithBasicClient
 UnbalancedClipStack
 ProcessingError
+InvalidDrawTarget
 MustBeLessThanThis
 =
 101
