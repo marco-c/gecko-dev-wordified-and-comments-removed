@@ -169,7 +169,7 @@ nsIgnoreKeys
 {
 eIgnoreKeys_False
 eIgnoreKeys_True
-eIgnoreKeys_Handled
+eIgnoreKeys_Shortcuts
 }
 ;
 #
