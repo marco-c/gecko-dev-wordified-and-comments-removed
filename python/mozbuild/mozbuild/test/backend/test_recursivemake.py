@@ -7093,6 +7093,8 @@ expected
 RUST_LIBRARY_FILE
 :
 =
+.
+/
 x86_64
 -
 unknown
@@ -7103,7 +7105,7 @@ gnu
 /
 release
 /
-libgkrust
+libtest_library
 .
 a
 '
@@ -7238,6 +7240,8 @@ expected
 HOST_RUST_LIBRARY_FILE
 :
 =
+.
+/
 x86_64
 -
 unknown
@@ -7388,6 +7392,8 @@ expected
 HOST_RUST_LIBRARY_FILE
 :
 =
+.
+/
 x86_64
 -
 unknown
@@ -7543,6 +7549,8 @@ expected
 RUST_LIBRARY_FILE
 :
 =
+.
+/
 x86_64
 -
 unknown
@@ -7553,7 +7561,7 @@ gnu
 /
 release
 /
-libgkrust
+libfeature_library
 .
 a
 '

@@ -4,7 +4,9 @@ package
 name
 =
 "
-gkrust
+test
+-
+library
 "
 version
 =

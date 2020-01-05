@@ -73,6 +73,8 @@ True
 RustLibrary
 (
 '
-gkrust
+test
+-
+library
 '
 )

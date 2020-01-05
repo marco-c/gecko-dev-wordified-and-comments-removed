@@ -77,7 +77,9 @@ features
 RustLibrary
 (
 '
-gkrust
+feature
+-
+library
 '
 [
 '
