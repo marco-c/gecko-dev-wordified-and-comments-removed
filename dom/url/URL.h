@@ -74,6 +74,9 @@ MediaSource
 class
 GlobalObject
 ;
+struct
+objectURLOptions
+;
 class
 URL
 :
@@ -218,6 +221,10 @@ aGlobal
 Blob
 &
 aBlob
+const
+objectURLOptions
+&
+aOptions
 nsAString
 &
 aResult
@@ -237,6 +244,10 @@ aGlobal
 DOMMediaStream
 &
 aStream
+const
+objectURLOptions
+&
+aOptions
 nsAString
 &
 aResult
@@ -256,6 +267,10 @@ aGlobal
 MediaSource
 &
 aSource
+const
+objectURLOptions
+&
+aOptions
 nsAString
 &
 aResult
