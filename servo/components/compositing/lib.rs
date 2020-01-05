@@ -11,6 +11,14 @@ box_syntax
 [
 feature
 (
+iter_cmp
+)
+]
+#
+!
+[
+feature
+(
 slice_bytes
 )
 ]
@@ -169,6 +177,9 @@ Constellation
 pub
 mod
 compositor_task
+;
+mod
+buffer_map
 ;
 mod
 compositor_layer

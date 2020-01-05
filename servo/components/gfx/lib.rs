@@ -91,14 +91,6 @@ heap_api
 [
 feature
 (
-iter_cmp
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
@@ -370,9 +362,6 @@ font_cache_task
 pub
 mod
 font_template
-;
-mod
-buffer_map
 ;
 mod
 filters
