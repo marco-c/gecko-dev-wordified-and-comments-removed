@@ -29,16 +29,6 @@ endif
 class
 nsISimpleEnumerator
 ;
-#
-define
-NS_WIN_WMP_SCAN_KEY
-"
-plugin
-.
-scan
-.
-WindowsMediaPlayer
-"
 class
 nsPluginDirServiceProvider
 :
