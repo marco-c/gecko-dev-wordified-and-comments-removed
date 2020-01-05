@@ -335,7 +335,7 @@ beginObject
 ;
 j
 .
-stringProperty
+property
 (
 "
 name
@@ -357,7 +357,7 @@ cacheKind_
 ;
 j
 .
-stringProperty
+property
 (
 "
 file
@@ -378,7 +378,7 @@ filename
 ;
 j
 .
-integerProperty
+property
 (
 "
 mode
@@ -407,7 +407,7 @@ column
 ;
 j
 .
-integerProperty
+property
 (
 "
 line
@@ -425,7 +425,7 @@ column
 ;
 j
 .
-integerProperty
+property
 (
 "
 column
@@ -435,7 +435,7 @@ column
 ;
 j
 .
-stringProperty
+property
 (
 "
 pc
@@ -738,7 +738,7 @@ int32
 ;
 j
 .
-stringProperty
+property
 (
 "
 type
@@ -761,7 +761,7 @@ isInt32
 {
 j
 .
-integerProperty
+property
 (
 "
 value
@@ -786,7 +786,7 @@ isDouble
 {
 j
 .
-doubleProperty
+property
 (
 "
 value
@@ -897,7 +897,7 @@ isObject
 {
 j
 .
-stringProperty
+property
 (
 "
 value
@@ -967,7 +967,7 @@ ref
 (
 )
 .
-stringProperty
+property
 (
 "
 attached

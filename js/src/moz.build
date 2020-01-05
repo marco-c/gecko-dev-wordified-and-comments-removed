@@ -1806,13 +1806,6 @@ cpp
 '
 jit
 /
-JSONPrinter
-.
-cpp
-'
-'
-jit
-/
 JSONSpewer
 .
 cpp
@@ -2384,6 +2377,13 @@ cpp
 vm
 /
 JSONParser
+.
+cpp
+'
+'
+vm
+/
+JSONPrinter
 .
 cpp
 '
