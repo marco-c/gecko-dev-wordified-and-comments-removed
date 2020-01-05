@@ -3161,6 +3161,10 @@ BlobImplBase
 public
 nsIMemoryReporter
 {
+MOZ_DEFINE_MALLOC_SIZE_OF
+(
+MallocSizeOf
+)
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
