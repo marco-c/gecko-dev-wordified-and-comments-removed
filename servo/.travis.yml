@@ -1,13 +1,6 @@
 language
 :
 python
-sudo
-:
-9000
-services
-:
--
-docker
 before_install
 :
 -
@@ -95,6 +88,9 @@ true
 include
 :
 -
+sudo
+:
+false
 env
 :
 -
@@ -113,6 +109,13 @@ DOCKER
 =
 0
 -
+sudo
+:
+9000
+services
+:
+-
+docker
 env
 :
 -
