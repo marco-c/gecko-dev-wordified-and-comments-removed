@@ -70378,6 +70378,9 @@ False
 body
 =
 None
+hasIgnoreInitCheckFlag
+=
+False
 )
 :
         
@@ -70398,6 +70401,13 @@ self
 body
 =
 body
+        
+self
+.
+hasIgnoreInitCheckFlag
+=
+hasIgnoreInitCheckFlag
+;
         
 ClassItem
 .
@@ -70424,6 +70434,8 @@ s
 s
 %
 s
+%
+s
 ;
 \
 n
@@ -70440,10 +70452,22 @@ static
 else
 '
 '
+                                 
+'
+MOZ_INIT_OUTSIDE_CTOR
+'
+                                 
+if
+self
+.
+hasIgnoreInitCheckFlag
+else
+'
+'
+                                 
 self
 .
 type
-                               
 self
 .
 name
@@ -86699,6 +86723,10 @@ getMemberInitializer
 (
 m
 )
+                               
+hasIgnoreInitCheckFlag
+=
+True
 )
                    
 for
