@@ -1967,7 +1967,7 @@ linear
 -
 gradient
 [
-10
+15
 ]
 *
 moz
