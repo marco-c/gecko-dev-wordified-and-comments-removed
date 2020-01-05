@@ -141,6 +141,9 @@ cacheName
 PrincipalInfo
 principal
 ;
+uint32_t
+loadFlags
+;
 }
 ;
 }

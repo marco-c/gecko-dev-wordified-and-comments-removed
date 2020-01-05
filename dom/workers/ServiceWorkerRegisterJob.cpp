@@ -196,6 +196,10 @@ CreateNewRegistration
 (
 mScope
 mPrincipal
+nsIRequest
+:
+:
+LOAD_NORMAL
 )
 ;
 }
