@@ -106,11 +106,19 @@ postflight_build_mach_commands
 '
 gradle
 '
+         
 '
 app
 :
-testAutomationDebugUnitTest
+testOfficialAustralisDebugUnitTest
 '
+         
+'
+app
+:
+testOfficialPhotonDebugUnitTest
+'
+        
 ]
     
 ]
