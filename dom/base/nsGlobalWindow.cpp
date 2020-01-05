@@ -3598,10 +3598,12 @@ virtual
 bool
 finalizeInBackground
 (
+const
 JS
 :
 :
 Value
+&
 priv
 )
 const

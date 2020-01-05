@@ -90,7 +90,9 @@ Wrapper
 :
 finalizeInBackground
 (
+const
 Value
+&
 priv
 )
 const
