@@ -517,11 +517,6 @@ CSSKeyframeRule
 webidl
 '
 '
-CSSKeyframesRule
-.
-webidl
-'
-'
 CSSLexer
 .
 webidl
