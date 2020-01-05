@@ -1001,6 +1001,17 @@ aActive
 )
 override
 ;
+bool
+IsRemote
+(
+)
+const
+override
+{
+return
+true
+;
+}
 protected
 :
 void

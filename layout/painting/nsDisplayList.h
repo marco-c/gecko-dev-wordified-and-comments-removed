@@ -16244,6 +16244,16 @@ AutoRecord
 (
 )
 ;
+TimeStamp
+GetStart
+(
+)
+const
+{
+return
+mStart
+;
+}
 private
 :
 Metric

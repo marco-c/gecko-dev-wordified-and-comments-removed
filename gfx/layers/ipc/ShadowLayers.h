@@ -890,6 +890,16 @@ NS_IsMainThread
 )
 ;
 }
+PaintTiming
+&
+GetPaintTiming
+(
+)
+{
+return
+mPaintTiming
+;
+}
 static
 bool
 IsShmem
@@ -1070,6 +1080,9 @@ CompositableClient
 *
 >
 mCompositables
+;
+PaintTiming
+mPaintTiming
 ;
 }
 ;

@@ -2102,6 +2102,13 @@ cpp
 '
 composite
 /
+Diagnostics
+.
+cpp
+'
+'
+composite
+/
 FPSCounter
 .
 cpp

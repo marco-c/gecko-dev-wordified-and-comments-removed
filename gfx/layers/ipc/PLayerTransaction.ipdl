@@ -1004,6 +1004,13 @@ aTargets
 )
 ;
 async
+RecordPaintTimes
+(
+PaintTiming
+timing
+)
+;
+async
 Shutdown
 (
 )
