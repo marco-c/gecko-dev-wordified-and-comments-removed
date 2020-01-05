@@ -141,11 +141,9 @@ sleep_10_v13
 '
 )
 ;
-setTimeout
-(
 t
 .
-step_func
+step_timeout
 (
 function
 (
@@ -218,7 +216,6 @@ done
 )
 ;
 }
-)
 1000
 )
 ;
@@ -232,9 +229,8 @@ onclose
 =
 t
 .
-step_func
+unreached_func
 (
-assert_unreached
 )
 ;
 }

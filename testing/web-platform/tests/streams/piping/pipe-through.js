@@ -212,7 +212,8 @@ work
 ;
 promise_test
 (
-t
+(
+)
 =
 >
 {
@@ -444,7 +445,6 @@ dummy
 {
 pipeTo
 (
-args
 )
 {
 return
@@ -504,7 +504,6 @@ dummy
 {
 pipeTo
 (
-args
 )
 {
 return

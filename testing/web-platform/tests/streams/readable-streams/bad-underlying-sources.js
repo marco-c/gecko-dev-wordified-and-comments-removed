@@ -752,6 +752,8 @@ new
 TypeError
 (
 )
+(
+)
 =
 >
 controller
@@ -856,6 +858,8 @@ assert_throws
 (
 new
 TypeError
+(
+)
 (
 )
 =

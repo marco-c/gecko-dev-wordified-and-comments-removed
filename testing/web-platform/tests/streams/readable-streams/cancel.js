@@ -236,7 +236,7 @@ then
 =
 >
 {
-let
+const
 cancelPromise
 =
 reader
@@ -263,6 +263,7 @@ cancelPromise
 ;
 }
 )
+;
 return
 readableStreamToArray
 (

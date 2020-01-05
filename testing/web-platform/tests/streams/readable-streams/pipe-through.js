@@ -59,11 +59,15 @@ thisValue
 {
 pipeTo
 (
+.
+.
+.
+args
 )
 {
 pipeToArguments
 =
-arguments
+args
 ;
 }
 }
