@@ -8108,12 +8108,7 @@ rv
 wn
 -
 >
-GetScriptableInfo
-(
-)
--
->
-GetCallback
+GetScriptable
 (
 )
 -
@@ -8254,12 +8249,7 @@ rv
 wn
 -
 >
-GetScriptableInfo
-(
-)
--
->
-GetCallback
+GetScriptable
 (
 )
 -
