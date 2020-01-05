@@ -969,7 +969,7 @@ label
 =
 "
 &
-disconnect2
+disconnect3
 .
 label
 ;
@@ -978,7 +978,7 @@ accesskey
 =
 "
 &
-disconnect2
+disconnect3
 .
 accesskey
 ;
@@ -1840,7 +1840,7 @@ label
 =
 "
 &
-changeSyncDeviceName1
+changeSyncDeviceName2
 .
 label
 ;
@@ -1849,7 +1849,7 @@ accesskey
 =
 "
 &
-changeSyncDeviceName1
+changeSyncDeviceName2
 .
 accesskey
 ;
