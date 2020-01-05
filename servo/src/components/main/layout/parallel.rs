@@ -484,6 +484,7 @@ need
 work
 done
 .
+pub
 children_count
 :
 AtomicInt
@@ -543,6 +544,7 @@ need
 work
 done
 .
+pub
 children_count
 :
 AtomicInt
@@ -556,6 +558,7 @@ the
 parent
 flow
 .
+pub
 parent
 :
 UnsafeFlow
@@ -1597,13 +1600,11 @@ node
 cascade_node
 (
 parent_opt
+&
+*
 layout_context
 .
 initial_css_values
-.
-get
-(
-)
 &
 applicable_declarations
 layout_context

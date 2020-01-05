@@ -78,9 +78,11 @@ pub
 struct
 Metadata
 {
+pub
 final_url
 :
 Url
+pub
 content_type
 :
 Option
@@ -98,6 +100,7 @@ str
 Character
 set
 .
+pub
 charset
 :
 Option
@@ -334,6 +337,7 @@ from
 HTTP
 headers
 .
+pub
 metadata
 :
 Metadata
@@ -345,6 +349,7 @@ for
 reading
 data
 .
+pub
 progress_port
 :
 Receiver

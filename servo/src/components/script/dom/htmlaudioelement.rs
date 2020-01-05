@@ -108,6 +108,7 @@ pub
 struct
 HTMLAudioElement
 {
+pub
 htmlmediaelement
 :
 HTMLMediaElement

@@ -99,12 +99,15 @@ pub
 struct
 NodeList
 {
+pub
 list_type
 :
 NodeListType
+pub
 reflector_
 :
 Reflector
+pub
 window
 :
 JS
@@ -377,6 +380,8 @@ Some
 elems
 [
 index
+as
+uint
 ]
 .
 clone

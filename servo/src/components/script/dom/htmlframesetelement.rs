@@ -120,6 +120,7 @@ pub
 struct
 HTMLFrameSetElement
 {
+pub
 htmlelement
 :
 HTMLElement

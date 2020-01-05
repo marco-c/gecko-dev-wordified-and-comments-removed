@@ -120,6 +120,7 @@ pub
 struct
 Comment
 {
+pub
 characterdata
 :
 CharacterData

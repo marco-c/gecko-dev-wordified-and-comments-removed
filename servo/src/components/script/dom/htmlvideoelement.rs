@@ -120,6 +120,7 @@ pub
 struct
 HTMLVideoElement
 {
+pub
 htmlmediaelement
 :
 HTMLMediaElement

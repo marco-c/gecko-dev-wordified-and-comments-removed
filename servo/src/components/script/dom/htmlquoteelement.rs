@@ -120,6 +120,7 @@ pub
 struct
 HTMLQuoteElement
 {
+pub
 htmlelement
 :
 HTMLElement

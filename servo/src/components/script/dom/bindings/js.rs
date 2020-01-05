@@ -59,7 +59,6 @@ JS
 T
 >
 {
-priv
 ptr
 :
 RefCell

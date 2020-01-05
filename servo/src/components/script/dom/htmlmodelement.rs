@@ -120,6 +120,7 @@ pub
 struct
 HTMLModElement
 {
+pub
 htmlelement
 :
 HTMLElement

@@ -120,6 +120,7 @@ pub
 struct
 HTMLTableSectionElement
 {
+pub
 htmlelement
 :
 HTMLElement

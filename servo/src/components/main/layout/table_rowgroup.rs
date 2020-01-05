@@ -124,9 +124,11 @@ pub
 struct
 TableRowGroupFlow
 {
+pub
 block_flow
 :
 BlockFlow
+pub
 col_widths
 :
 ~
@@ -140,6 +142,7 @@ Column
 min
 widths
 .
+pub
 col_min_widths
 :
 ~
@@ -153,6 +156,7 @@ Column
 pref
 widths
 .
+pub
 col_pref_widths
 :
 ~
@@ -548,6 +552,7 @@ let
 mut
 position
 =
+*
 self
 .
 block_flow
@@ -556,7 +561,7 @@ box_
 .
 border_box
 .
-get
+borrow
 (
 )
 ;
@@ -568,6 +573,7 @@ height
 =
 height
 ;
+*
 self
 .
 block_flow
@@ -576,10 +582,11 @@ box_
 .
 border_box
 .
-set
+borrow_mut
 (
-position
 )
+=
+position
 ;
 self
 .

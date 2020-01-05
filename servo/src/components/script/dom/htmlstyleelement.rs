@@ -152,6 +152,7 @@ pub
 struct
 HTMLStyleElement
 {
+pub
 htmlelement
 :
 HTMLElement

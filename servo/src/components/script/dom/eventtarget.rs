@@ -160,9 +160,11 @@ pub
 struct
 EventListenerEntry
 {
+pub
 phase
 :
 ListenerPhase
+pub
 listener
 :
 EventListener
@@ -178,12 +180,15 @@ pub
 struct
 EventTarget
 {
+pub
 type_id
 :
 EventTargetTypeId
+pub
 reflector_
 :
 Reflector
+pub
 handlers
 :
 HashMap

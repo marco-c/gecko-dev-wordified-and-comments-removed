@@ -689,7 +689,6 @@ The
 wrapped
 node
 .
-priv
 node
 :
 JS
@@ -710,6 +709,7 @@ s
 from
 escaping
 .
+pub
 chain
 :
 &
@@ -1650,7 +1650,6 @@ LayoutNodeChildrenIterator
 a
 >
 {
-priv
 current_node
 :
 Option
@@ -1787,7 +1786,6 @@ LayoutTreeIterator
 a
 >
 {
-priv
 nodes
 :
 ~
@@ -1798,7 +1796,6 @@ LayoutNode
 a
 >
 ]
-priv
 index
 :
 uint
@@ -2052,7 +2049,6 @@ LayoutElement
 le
 >
 {
-priv
 element
 :
 &
@@ -2511,7 +2507,6 @@ The
 wrapped
 node
 .
-priv
 node
 :
 LayoutNode
@@ -2519,7 +2514,6 @@ LayoutNode
 '
 ln
 >
-priv
 pseudo
 :
 PseudoElementType
@@ -2945,10 +2939,6 @@ get_content
 &
 before_style
 .
-get
-(
-)
-.
 Box
 .
 get
@@ -2978,10 +2968,6 @@ get_content
 (
 &
 after_style
-.
-get
-(
-)
 .
 Box
 .
@@ -3389,10 +3375,6 @@ get_ref
 ;
 before_style
 .
-get
-(
-)
-.
 Box
 .
 get
@@ -3422,10 +3404,6 @@ get_ref
 ;
 after_style
 .
-get
-(
-)
-.
 Box
 .
 get
@@ -3452,10 +3430,6 @@ get_ref
 )
 ;
 after_style
-.
-get
-(
-)
 .
 Box
 .
@@ -3760,7 +3734,6 @@ ThreadSafeLayoutNodeChildrenIterator
 a
 >
 {
-priv
 current_node
 :
 Option
@@ -3771,7 +3744,6 @@ ThreadSafeLayoutNode
 a
 >
 >
-priv
 parent_node
 :
 Option
@@ -4060,7 +4032,6 @@ ThreadSafeLayoutElement
 le
 >
 {
-priv
 element
 :
 &

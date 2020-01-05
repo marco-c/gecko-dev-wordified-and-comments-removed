@@ -132,6 +132,7 @@ pub
 struct
 HTMLMapElement
 {
+pub
 htmlelement
 :
 HTMLElement

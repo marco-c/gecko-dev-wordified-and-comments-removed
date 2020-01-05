@@ -654,12 +654,15 @@ pub
 struct
 NewLayoutInfo
 {
+pub
 old_id
 :
 PipelineId
+pub
 new_id
 :
 PipelineId
+pub
 layout_chan
 :
 LayoutChan
@@ -686,6 +689,7 @@ pub
 struct
 ScriptChan
 (
+pub
 Sender
 <
 ScriptMsg
@@ -697,10 +701,15 @@ impl
 S
 :
 Encoder
+<
+E
+>
+E
 >
 Encodable
 <
 S
+E
 >
 for
 ScriptChan
@@ -716,7 +725,20 @@ _s
 mut
 S
 )
+-
+>
+Result
+<
+(
+)
+E
+>
 {
+Ok
+(
+(
+)
+)
 }
 }
 impl
@@ -801,6 +823,7 @@ with
 this
 page
 .
+pub
 id
 :
 PipelineId
@@ -820,6 +843,7 @@ confirming
 completion
 reply
 .
+pub
 last_reflow_id
 :
 Traceable
@@ -843,6 +867,7 @@ and
 page
 URL
 .
+pub
 frame
 :
 Traceable
@@ -868,6 +893,7 @@ the
 layout
 task
 .
+pub
 layout_chan
 :
 Untraceable
@@ -897,6 +923,7 @@ is
 not
 running
 .
+pub
 layout_join_port
 :
 Untraceable
@@ -926,6 +953,7 @@ dirty
 if
 any
 .
+pub
 damage
 :
 Traceable
@@ -950,6 +978,7 @@ window
 in
 pixels
 .
+pub
 window_size
 :
 Untraceable
@@ -962,6 +991,7 @@ uint
 >
 >
 >
+pub
 js_info
 :
 Traceable
@@ -1030,6 +1060,7 @@ required
 when
 reloading
 .
+pub
 url
 :
 Untraceable
@@ -1045,6 +1076,7 @@ bool
 >
 >
 >
+pub
 next_subpage_id
 :
 Untraceable
@@ -1063,6 +1095,7 @@ event
 if
 any
 .
+pub
 resize_event
 :
 Untraceable
@@ -1088,6 +1121,7 @@ fragment
 event
 if
 any
+pub
 fragment_node
 :
 Traceable
@@ -1108,12 +1142,14 @@ pub
 struct
 PageTree
 {
+pub
 page
 :
 Rc
 <
 Page
 >
+pub
 inner
 :
 ~
@@ -1129,7 +1165,6 @@ PageTreeIterator
 a
 >
 {
-priv
 stack
 :
 ~
@@ -3597,6 +3632,7 @@ for
 this
 frame
 .
+pub
 document
 :
 JS
@@ -3613,6 +3649,7 @@ for
 this
 frame
 .
+pub
 window
 :
 JS
@@ -3655,6 +3692,7 @@ to
 the
 DOM
 .
+pub
 dom_static
 :
 GlobalStaticData
@@ -3665,6 +3703,7 @@ The
 JavaScript
 context
 .
+pub
 js_context
 :
 Untraceable
@@ -3730,6 +3769,7 @@ pertaining
 to
 page
 layout
+pub
 page_tree
 :
 RefCell
@@ -3747,6 +3787,7 @@ image
 cache
 task
 .
+pub
 image_cache_task
 :
 ImageCacheTask
@@ -3760,6 +3801,7 @@ the
 resource
 task
 .
+pub
 resource_task
 :
 ResourceTask
@@ -3782,6 +3824,7 @@ exit
 etc
 .
 )
+pub
 port
 :
 Receiver
@@ -3817,6 +3860,7 @@ the
 script
 task
 .
+pub
 chan
 :
 ScriptChan
@@ -3831,6 +3875,7 @@ messages
 to
 the
 constellation
+pub
 constellation_chan
 :
 ConstellationChan
@@ -3848,6 +3893,7 @@ ready
 state
 messages
 .
+pub
 compositor
 :
 ~
@@ -3859,6 +3905,7 @@ The
 JavaScript
 runtime
 .
+pub
 js_runtime
 :
 js
@@ -3868,6 +3915,7 @@ rust
 :
 :
 rt
+pub
 mouse_over_targets
 :
 RefCell
@@ -6825,6 +6873,7 @@ num
 =
 subpage_id
 ;
+*
 page
 .
 next_subpage_id
@@ -6833,14 +6882,15 @@ deref
 (
 )
 .
-set
+borrow_mut
 (
+)
+=
 SubpageId
 (
 num
 +
 1
-)
 )
 ;
 let

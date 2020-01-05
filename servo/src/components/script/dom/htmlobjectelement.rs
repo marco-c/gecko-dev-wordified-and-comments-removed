@@ -236,6 +236,7 @@ pub
 struct
 HTMLObjectElement
 {
+pub
 htmlelement
 :
 HTMLElement

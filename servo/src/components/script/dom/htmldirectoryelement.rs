@@ -120,6 +120,7 @@ pub
 struct
 HTMLDirectoryElement
 {
+pub
 htmlelement
 :
 HTMLElement

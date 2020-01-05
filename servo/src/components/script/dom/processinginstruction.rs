@@ -99,9 +99,11 @@ pub
 struct
 ProcessingInstruction
 {
+pub
 characterdata
 :
 CharacterData
+pub
 target
 :
 DOMString

@@ -151,9 +151,11 @@ pub
 struct
 TableWrapperFlow
 {
+pub
 block_flow
 :
 BlockFlow
+pub
 col_widths
 :
 ~
@@ -167,6 +169,7 @@ Table
 -
 layout
 property
+pub
 table_layout
 :
 TableLayout
@@ -1001,7 +1004,7 @@ box_
 .
 border_box
 .
-get
+borrow
 (
 )
 .
@@ -1020,7 +1023,7 @@ box_
 .
 border_box
 .
-get
+borrow
 (
 )
 .
@@ -1967,6 +1970,10 @@ col_widths
 =
 col_min_widths
 .
+iter
+(
+)
+.
 map
 (
 |
@@ -1986,6 +1993,10 @@ scale_by
 cell_len
 )
 }
+)
+.
+collect
+(
 )
 ;
 }

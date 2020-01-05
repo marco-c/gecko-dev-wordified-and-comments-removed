@@ -1,4 +1,5 @@
 #
+!
 [
 crate_id
 =
@@ -18,8 +19,8 @@ script
 1
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -27,8 +28,8 @@ crate_type
 lib
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -36,8 +37,8 @@ crate_type
 dylib
 "
 ]
-;
 #
+!
 [
 crate_type
 =
@@ -45,8 +46,8 @@ crate_type
 rlib
 "
 ]
-;
 #
+!
 [
 comment
 =
@@ -58,8 +59,8 @@ Browser
 Project
 "
 ]
-;
 #
+!
 [
 license
 =
@@ -67,8 +68,8 @@ license
 MPL
 "
 ]
-;
 #
+!
 [
 feature
 (
@@ -78,15 +79,14 @@ struct_variant
 phase
 )
 ]
-;
 #
+!
 [
 feature
 (
 phase
 )
 ]
-;
 #
 [
 phase
@@ -118,6 +118,10 @@ encoding
 extern
 crate
 js
+;
+extern
+crate
+libc
 ;
 extern
 crate

@@ -67,9 +67,11 @@ pub
 struct
 ClientRectList
 {
+pub
 reflector_
 :
 Reflector
+pub
 rects
 :
 ~
@@ -79,6 +81,7 @@ JS
 ClientRect
 >
 ]
+pub
 window
 :
 JS
@@ -242,6 +245,8 @@ self
 rects
 [
 index
+as
+uint
 ]
 .
 clone

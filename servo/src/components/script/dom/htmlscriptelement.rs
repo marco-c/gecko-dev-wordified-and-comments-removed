@@ -139,6 +139,7 @@ pub
 struct
 HTMLScriptElement
 {
+pub
 htmlelement
 :
 HTMLElement

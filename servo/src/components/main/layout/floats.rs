@@ -501,6 +501,7 @@ of
 the
 float
 .
+pub
 size
 :
 Size2D
@@ -522,6 +523,7 @@ by
 earlier
 elements
 .
+pub
 ceiling
 :
 Au
@@ -542,6 +544,7 @@ the
 containing
 block
 .
+pub
 max_width
 :
 Au
@@ -553,6 +556,7 @@ kind
 of
 float
 .
+pub
 kind
 :
 FloatKind
@@ -646,7 +650,6 @@ list
 of
 floats
 .
-priv
 list
 :
 FloatListRef
@@ -664,7 +667,6 @@ the
 first
 float
 .
-priv
 offset
 :
 Point2D

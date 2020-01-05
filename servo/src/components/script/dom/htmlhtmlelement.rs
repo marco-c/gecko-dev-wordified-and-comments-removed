@@ -120,6 +120,7 @@ pub
 struct
 HTMLHtmlElement
 {
+pub
 htmlelement
 :
 HTMLElement

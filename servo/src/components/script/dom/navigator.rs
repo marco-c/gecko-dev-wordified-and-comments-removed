@@ -79,6 +79,7 @@ pub
 struct
 Navigator
 {
+pub
 reflector_
 :
 Reflector

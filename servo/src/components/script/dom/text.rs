@@ -120,6 +120,7 @@ pub
 struct
 Text
 {
+pub
 characterdata
 :
 CharacterData

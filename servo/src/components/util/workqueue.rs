@@ -82,6 +82,7 @@ QUD
 WUD
 >
 {
+pub
 fun
 :
 extern
@@ -99,6 +100,7 @@ QUD
 WUD
 >
 )
+pub
 data
 :
 WUD
@@ -949,7 +951,7 @@ QUD
 WUD
 >
 {
-priv
+pub
 worker
 :
 &
@@ -964,13 +966,13 @@ QUD
 WUD
 >
 >
-priv
+pub
 ref_count
 :
 *
 mut
 AtomicUint
-priv
+pub
 queue_data
 :
 *
@@ -1133,7 +1135,7 @@ of
 the
 workers
 .
-priv
+pub
 workers
 :
 ~
@@ -1159,7 +1161,7 @@ from
 the
 workers
 .
-priv
+pub
 port
 :
 Receiver
@@ -1182,7 +1184,7 @@ has
 been
 enqueued
 .
-priv
+pub
 work_count
 :
 uint
@@ -1193,6 +1195,7 @@ Arbitrary
 user
 data
 .
+pub
 data
 :
 QUD

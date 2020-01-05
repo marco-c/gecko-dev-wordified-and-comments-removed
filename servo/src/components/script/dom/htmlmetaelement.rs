@@ -120,6 +120,7 @@ pub
 struct
 HTMLMetaElement
 {
+pub
 htmlelement
 :
 HTMLElement

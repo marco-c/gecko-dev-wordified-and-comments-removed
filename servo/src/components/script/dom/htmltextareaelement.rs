@@ -123,6 +123,7 @@ pub
 struct
 HTMLTextAreaElement
 {
+pub
 htmlelement
 :
 HTMLElement

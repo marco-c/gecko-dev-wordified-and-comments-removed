@@ -112,15 +112,9 @@ collections
 HashMap
 ;
 use
-std
-:
-:
 libc
 ;
 use
-std
-:
-:
 libc
 :
 :
@@ -145,6 +139,7 @@ pub
 struct
 FontListHandle
 {
+pub
 fctx
 :
 FontContextHandle

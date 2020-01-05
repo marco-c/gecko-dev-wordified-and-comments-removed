@@ -59,6 +59,7 @@ pub
 struct
 NullCompositor
 {
+pub
 port
 :
 Receiver

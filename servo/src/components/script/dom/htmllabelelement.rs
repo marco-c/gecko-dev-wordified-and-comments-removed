@@ -108,6 +108,7 @@ pub
 struct
 HTMLLabelElement
 {
+pub
 htmlelement
 :
 HTMLElement

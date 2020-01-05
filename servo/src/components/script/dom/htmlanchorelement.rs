@@ -120,6 +120,7 @@ pub
 struct
 HTMLAnchorElement
 {
+pub
 htmlelement
 :
 HTMLElement

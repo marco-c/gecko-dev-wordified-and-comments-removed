@@ -92,6 +92,7 @@ pub
 struct
 TextRunScanner
 {
+pub
 clump
 :
 Range
@@ -1959,10 +1960,6 @@ new_metrics
 new_text_box_info
 .
 run
-.
-get
-(
-)
 .
 metrics_for_range
 (

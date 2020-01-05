@@ -108,6 +108,7 @@ pub
 struct
 HTMLUnknownElement
 {
+pub
 htmlelement
 :
 HTMLElement

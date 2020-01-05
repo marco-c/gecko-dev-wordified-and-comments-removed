@@ -58,9 +58,11 @@ pub
 struct
 MediaRule
 {
+pub
 media_queries
 :
 MediaQueryList
+pub
 rules
 :
 ~
@@ -165,6 +167,7 @@ pub
 struct
 Device
 {
+pub
 media_type
 :
 MediaType

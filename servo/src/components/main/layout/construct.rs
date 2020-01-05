@@ -846,6 +846,7 @@ Small
 vector
 optimization
 .
+pub
 splits
 :
 Option
@@ -868,6 +869,7 @@ ib
 }
 splits
 .
+pub
 boxes
 :
 ~
@@ -887,6 +889,7 @@ re
 bubbling
 up
 .
+pub
 abs_descendants
 :
 AbsDescendants
@@ -1077,6 +1080,7 @@ Small
 vector
 optimization
 .
+pub
 predecessor_boxes
 :
 ~
@@ -1096,6 +1100,7 @@ ib
 }
 split
 .
+pub
 flow
 :
 ~
@@ -1552,6 +1557,7 @@ The
 layout
 context
 .
+pub
 layout_context
 :
 &
@@ -1615,6 +1621,7 @@ having
 slow
 TLS
 .
+pub
 font_context
 :
 Option
@@ -4543,11 +4550,12 @@ let
 mut
 border
 =
+*
 parent_box
 .
 border
 .
-get
+borrow
 (
 )
 ;
@@ -4555,11 +4563,12 @@ let
 mut
 padding
 =
+*
 parent_box
 .
 padding
 .
-get
+borrow
 (
 )
 ;
@@ -6522,10 +6531,6 @@ node
 style
 (
 )
-.
-get
-(
-)
 ;
 (
 display
@@ -6568,10 +6573,6 @@ style
 node
 .
 style
-(
-)
-.
-get
 (
 )
 ;
@@ -7630,10 +7631,6 @@ match
 self
 .
 style
-(
-)
-.
-get
 (
 )
 .

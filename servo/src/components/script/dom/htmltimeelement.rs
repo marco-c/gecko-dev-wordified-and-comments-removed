@@ -120,6 +120,7 @@ pub
 struct
 HTMLTimeElement
 {
+pub
 htmlelement
 :
 HTMLElement

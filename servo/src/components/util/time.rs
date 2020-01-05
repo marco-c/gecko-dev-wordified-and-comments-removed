@@ -72,6 +72,7 @@ pub
 struct
 ProfilerChan
 (
+pub
 Sender
 <
 ProfilerMsg
@@ -463,16 +464,17 @@ pub
 struct
 Profiler
 {
+pub
 port
 :
 Receiver
 <
 ProfilerMsg
 >
-priv
 buckets
 :
 ProfilerBuckets
+pub
 last_msg
 :
 Option

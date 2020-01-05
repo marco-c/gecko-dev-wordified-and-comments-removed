@@ -72,6 +72,7 @@ pub
 struct
 TableCaptionFlow
 {
+pub
 block_flow
 :
 BlockFlow

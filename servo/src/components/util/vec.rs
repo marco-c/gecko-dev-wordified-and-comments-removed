@@ -189,10 +189,7 @@ high
 {
 let
 mid
-:
-int
 =
-(
 (
 (
 low
@@ -209,9 +206,6 @@ uint
 >
 >
 1
-)
-as
-int
 ;
 let
 midv
@@ -229,7 +223,11 @@ key
 {
 low
 =
+(
 mid
+as
+int
+)
 +
 1
 ;
@@ -242,7 +240,11 @@ key
 {
 high
 =
+(
 mid
+as
+int
+)
 -
 1
 ;
@@ -253,8 +255,6 @@ return
 Some
 (
 mid
-as
-uint
 )
 ;
 }

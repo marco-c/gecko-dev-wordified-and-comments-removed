@@ -67,6 +67,7 @@ pub
 struct
 Console
 {
+pub
 reflector_
 :
 Reflector

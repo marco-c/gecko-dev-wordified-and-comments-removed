@@ -88,6 +88,7 @@ pub
 struct
 Stylesheet
 {
+pub
 rules
 :
 ~
@@ -121,6 +122,7 @@ pub
 struct
 StyleRule
 {
+pub
 selectors
 :
 ~
@@ -130,6 +132,7 @@ selectors
 :
 Selector
 ]
+pub
 declarations
 :
 properties

@@ -120,6 +120,7 @@ pub
 struct
 HTMLAreaElement
 {
+pub
 htmlelement
 :
 HTMLElement

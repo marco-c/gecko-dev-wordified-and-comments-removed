@@ -108,6 +108,7 @@ Quadtree
 T
 >
 {
+pub
 root
 :
 ~
@@ -159,6 +160,7 @@ power
 of
 two
 .
+pub
 clip_size
 :
 Size2D
@@ -195,6 +197,7 @@ and
 this
 value
 .
+pub
 max_tile_size
 :
 uint
@@ -235,6 +238,7 @@ prevent
 this
 behavior
 .
+pub
 max_mem
 :
 Option
@@ -286,6 +290,7 @@ can
 have
 tiles
 .
+pub
 tile
 :
 Option
@@ -304,6 +309,7 @@ in
 page
 coordinates
 .
+pub
 origin
 :
 Point2D
@@ -324,6 +330,7 @@ in
 page
 coordinates
 .
+pub
 size
 :
 f32
@@ -336,6 +343,7 @@ node
 s
 children
 .
+pub
 quadrants
 :
 [
@@ -365,6 +373,7 @@ tiles
 of
 all
 descendants
+pub
 tile_mem
 :
 uint
@@ -383,6 +392,7 @@ below
 for
 details
 .
+pub
 status
 :
 NodeStatus
@@ -1757,7 +1767,7 @@ quadrants
 [
 TL
 as
-int
+uint
 ]
 =
 Some
@@ -1819,7 +1829,7 @@ quadrants
 [
 TL
 as
-int
+uint
 ]
 None
 )
@@ -2664,7 +2674,7 @@ quadrants
 [
 quad
 as
-int
+uint
 ]
 {
 Some
@@ -2846,7 +2856,7 @@ quadrants
 [
 quad
 as
-int
+uint
 ]
 =
 Some
@@ -3151,7 +3161,7 @@ quadrants
 [
 quad
 as
-int
+uint
 ]
 {
 None
@@ -3265,7 +3275,7 @@ quadrants
 [
 quad
 as
-int
+uint
 ]
 =
 Some
@@ -3663,7 +3673,7 @@ quadrants
 *
 quad
 as
-int
+uint
 ]
 {
 Some
@@ -3779,7 +3789,7 @@ quadrants
 [
 quad
 as
-int
+uint
 ]
 =
 None
@@ -4690,7 +4700,7 @@ quadrants
 *
 quad
 as
-int
+uint
 ]
 {
 Some
@@ -4824,7 +4834,7 @@ quadrants
 *
 quad
 as
-int
+uint
 ]
 =
 Some

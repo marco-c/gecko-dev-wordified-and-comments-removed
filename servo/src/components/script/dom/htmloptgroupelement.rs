@@ -120,6 +120,7 @@ pub
 struct
 HTMLOptGroupElement
 {
+pub
 htmlelement
 :
 HTMLElement

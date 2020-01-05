@@ -95,9 +95,9 @@ hashmap
 HashMap
 ;
 use
-std
-:
-:
+libc
+;
+use
 libc
 :
 :
@@ -117,12 +117,6 @@ cmp
 :
 :
 Eq
-;
-use
-std
-:
-:
-libc
 ;
 use
 std
@@ -466,6 +460,7 @@ pub
 struct
 GlobalStaticData
 {
+pub
 proxy_handlers
 :
 Untraceable
@@ -480,6 +475,7 @@ libc
 c_void
 >
 >
+pub
 windowproxy_handler
 :
 Untraceable
@@ -1379,6 +1375,7 @@ pub
 struct
 ConstantSpec
 {
+pub
 name
 :
 *
@@ -1386,6 +1383,7 @@ libc
 :
 :
 c_char
+pub
 value
 :
 ConstantVal
@@ -1412,6 +1410,7 @@ decreasing
 /
 derivedness
 .
+pub
 interface_chain
 :
 [
@@ -1431,12 +1430,14 @@ pub
 struct
 DOMJSClass
 {
+pub
 base
 :
 js
 :
 :
 Class
+pub
 dom_class
 :
 DOMClass
@@ -2525,6 +2526,7 @@ pub
 struct
 Reflector
 {
+pub
 object
 :
 *
@@ -3166,7 +3168,7 @@ range
 0
 length
 as
-int
+uint
 )
 .
 all
@@ -3189,6 +3191,8 @@ chars
 offset
 (
 j
+as
+int
 )
 }
 )

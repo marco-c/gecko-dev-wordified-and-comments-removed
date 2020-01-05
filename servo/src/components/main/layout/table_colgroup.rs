@@ -66,15 +66,18 @@ pub
 struct
 TableColGroupFlow
 {
+pub
 base
 :
 BaseFlow
+pub
 box_
 :
 Option
 <
 Box
 >
+pub
 cols
 :
 ~
@@ -90,6 +93,7 @@ widths
 of
 table
 columns
+pub
 widths
 :
 ~

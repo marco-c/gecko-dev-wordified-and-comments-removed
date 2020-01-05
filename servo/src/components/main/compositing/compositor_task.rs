@@ -195,6 +195,7 @@ pub
 struct
 CompositorChan
 {
+pub
 chan
 :
 Sender
@@ -1303,6 +1304,7 @@ pub
 struct
 CompositorTask
 {
+pub
 mode
 :
 CompositorMode

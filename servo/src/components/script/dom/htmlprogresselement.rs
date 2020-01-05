@@ -123,6 +123,7 @@ pub
 struct
 HTMLProgressElement
 {
+pub
 htmlelement
 :
 HTMLElement

@@ -116,12 +116,14 @@ pub
 struct
 DOMParser
 {
+pub
 owner
 :
 JS
 <
 Window
 >
+pub
 reflector_
 :
 Reflector

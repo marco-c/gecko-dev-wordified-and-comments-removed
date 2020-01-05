@@ -276,13 +276,13 @@ pub
 struct
 FontHandle
 {
-priv
 cgfont
 :
 Option
 <
 CGFont
 >
+pub
 ctfont
 :
 CTFont

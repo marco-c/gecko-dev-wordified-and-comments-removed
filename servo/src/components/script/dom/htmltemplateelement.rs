@@ -108,6 +108,7 @@ pub
 struct
 HTMLTemplateElement
 {
+pub
 htmlelement
 :
 HTMLElement

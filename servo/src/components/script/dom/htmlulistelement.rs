@@ -120,6 +120,7 @@ pub
 struct
 HTMLUListElement
 {
+pub
 htmlelement
 :
 HTMLElement
