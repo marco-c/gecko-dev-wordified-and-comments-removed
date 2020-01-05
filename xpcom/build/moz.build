@@ -167,6 +167,11 @@ Services
 h
 '
 '
+TlsAllocationTracker
+.
+h
+'
+'
 XPCOM
 .
 h
@@ -228,6 +233,11 @@ cpp
 '
 '
 PoisonIOInterposerWin
+.
+cpp
+'
+'
+TlsAllocationTracker
 .
 cpp
 '
