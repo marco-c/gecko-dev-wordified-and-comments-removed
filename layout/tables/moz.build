@@ -168,6 +168,11 @@ nsTableFrame
 cpp
 '
 '
+nsTablePainter
+.
+cpp
+'
+'
 nsTableRowFrame
 .
 cpp
