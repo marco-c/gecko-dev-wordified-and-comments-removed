@@ -1436,6 +1436,11 @@ Deprecated
 jsm
 '
 '
+EventEmitter
+.
+jsm
+'
+'
 FileUtils
 .
 jsm
