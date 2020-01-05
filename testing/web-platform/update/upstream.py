@@ -303,14 +303,6 @@ patch
 )
 :
     
-rest
-=
-patch
-.
-message
-.
-body
-    
 if
 patch
 .
@@ -367,6 +359,10 @@ id
 =
 %
 s
+[
+ci
+skip
+]
 "
 %
                           
@@ -392,7 +388,24 @@ patch
 message
 .
 full_summary
-rest
+"
+%
+s
+\
+n
+[
+ci
+skip
+]
+\
+n
+"
+%
+patch
+.
+message
+.
+body
 ]
 )
 class
