@@ -1726,7 +1726,6 @@ None
 }
 }
 let
-mut
 scaled_font
 =
 self
@@ -2350,7 +2349,6 @@ advance
 ;
 }
 let
-mut
 bounds
 =
 Rect
