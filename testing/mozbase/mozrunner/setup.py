@@ -15,7 +15,7 @@ PACKAGE_VERSION
 '
 6
 .
-12
+13
 '
 desc
 =
@@ -110,9 +110,9 @@ crash
 mozcrash
 >
 =
-0
+1
 .
-14
+0
 '
 ]
 }
