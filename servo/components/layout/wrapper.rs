@@ -7168,7 +7168,7 @@ unsafe
 {
 input
 .
-get_value_for_layout
+value_for_layout
 (
 )
 }
@@ -7401,7 +7401,7 @@ unsafe
 {
 input
 .
-get_selection_for_layout
+selection_for_layout
 (
 )
 }

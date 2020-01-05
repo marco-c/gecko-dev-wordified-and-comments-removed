@@ -3146,7 +3146,7 @@ _
 match
 this
 .
-get_size_for_layout
+size_for_layout
 (
 )
 {
@@ -4567,7 +4567,7 @@ unsafe
 {
 input
 .
-get_checked_state_for_layout
+checked_state_for_layout
 (
 )
 }
@@ -4632,7 +4632,7 @@ unsafe
 {
 input
 .
-get_indeterminate_state_for_layout
+indeterminate_state_for_layout
 (
 )
 }
