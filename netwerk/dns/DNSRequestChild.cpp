@@ -592,6 +592,10 @@ mHost
 mDnsRequest
 -
 >
+mOriginAttributes
+mDnsRequest
+-
+>
 mFlags
 mDnsRequest
 -
@@ -628,6 +632,10 @@ nsCString
 &
 aHost
 const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint32_t
 &
 aFlags
@@ -658,6 +666,10 @@ NS_OK
 mHost
 (
 aHost
+)
+mOriginAttributes
+(
+aOriginAttributes
 )
 mFlags
 (
@@ -712,6 +724,7 @@ SendPDNSRequestConstructor
 (
 this
 mHost
+mOriginAttributes
 mFlags
 mNetworkInterface
 )

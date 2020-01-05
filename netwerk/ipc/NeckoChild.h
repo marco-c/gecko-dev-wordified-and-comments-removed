@@ -288,6 +288,10 @@ nsCString
 &
 aHost
 const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint32_t
 &
 aFlags

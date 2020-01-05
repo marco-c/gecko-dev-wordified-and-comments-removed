@@ -69,6 +69,10 @@ nsCString
 &
 aHost
 const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint32_t
 &
 aFlags
@@ -175,6 +179,10 @@ mResultStatus
 ;
 nsCString
 mHost
+;
+const
+OriginAttributes
+mOriginAttributes
 ;
 uint16_t
 mFlags

@@ -601,6 +601,10 @@ nsCString
 &
 aHost
 const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint32_t
 &
 aFlags
@@ -628,6 +632,10 @@ const
 nsCString
 &
 hostName
+const
+OriginAttributes
+&
+aOriginAttributes
 const
 uint32_t
 &
