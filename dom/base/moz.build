@@ -943,6 +943,11 @@ ImageEncoder
 h
 '
 '
+ImageTracker
+.
+h
+'
+'
 ImportManager
 .
 h
@@ -1234,6 +1239,11 @@ cpp
 '
 '
 ImageEncoder
+.
+cpp
+'
+'
+ImageTracker
 .
 cpp
 '

@@ -3539,6 +3539,9 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 if
 (
+dom
+:
+:
 IsJSAPIActive
 (
 )
@@ -3546,6 +3549,9 @@ IsJSAPIActive
 {
 mCx
 =
+dom
+:
+:
 danger
 :
 :
