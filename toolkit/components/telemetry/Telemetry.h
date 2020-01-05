@@ -269,13 +269,6 @@ aAccumulations
 )
 ;
 void
-ClearHistogram
-(
-ID
-id
-)
-;
-void
 SetHistogramRecordingEnabled
 (
 ID
