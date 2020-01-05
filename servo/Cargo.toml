@@ -19,4 +19,13 @@ ports
 /
 servo
 "
+"
+support
+/
+android
+/
+build
+-
+apk
+"
 ]
