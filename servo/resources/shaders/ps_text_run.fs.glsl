@@ -69,7 +69,7 @@ oFragColor
 =
 texture
 (
-sDiffuse
+sColor0
 vUv
 )
 ;
@@ -80,7 +80,7 @@ a
 =
 texture
 (
-sDiffuse
+sColor0
 vUv
 )
 .

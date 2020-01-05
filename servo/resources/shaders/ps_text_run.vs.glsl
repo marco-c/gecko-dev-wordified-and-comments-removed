@@ -234,7 +234,7 @@ vec2
 (
 textureSize
 (
-sDiffuse
+sColor0
 0
 )
 )

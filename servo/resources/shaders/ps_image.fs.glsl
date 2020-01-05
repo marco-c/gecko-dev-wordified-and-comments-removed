@@ -246,7 +246,7 @@ alpha
 *
 texture
 (
-sDiffuse
+sColor0
 st
 )
 ;

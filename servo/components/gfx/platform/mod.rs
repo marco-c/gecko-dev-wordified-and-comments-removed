@@ -14,11 +14,6 @@ target_os
 "
 android
 "
-target_os
-=
-"
-windows
-"
 )
 )
 ]
@@ -87,6 +82,8 @@ windows
 :
 :
 {
+font
+font_context
 font_list
 font_template
 }
@@ -132,11 +129,6 @@ target_os
 =
 "
 android
-"
-target_os
-=
-"
-windows
 "
 )
 )
@@ -305,6 +297,14 @@ windows
 mod
 windows
 {
+pub
+mod
+font
+;
+pub
+mod
+font_context
+;
 pub
 mod
 font_list

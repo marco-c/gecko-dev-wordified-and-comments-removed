@@ -664,7 +664,15 @@ uniforms
 =
 uniform
 sampler2D
-sDiffuse
+sColor0
+;
+uniform
+sampler2D
+sColor1
+;
+uniform
+sampler2D
+sColor2
 ;
 uniform
 sampler2D

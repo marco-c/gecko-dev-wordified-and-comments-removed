@@ -257,7 +257,7 @@ oFragColor
 =
 texture
 (
-sDiffuse
+sColor0
 st
 )
 *
