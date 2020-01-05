@@ -23,6 +23,8 @@ gtest
 *
 *
 /
+pingsender
+/
 pk12util
 /
 ssltunnel

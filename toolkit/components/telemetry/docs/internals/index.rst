@@ -30,3 +30,4 @@ maxdepth
 titlesonly
 :
 preferences
+pingsender

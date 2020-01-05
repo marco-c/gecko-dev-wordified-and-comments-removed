@@ -1764,6 +1764,12 @@ analyzer
 '
 firefox
 /
+pingsender
+'
+        
+'
+firefox
+/
 platform
 .
 ini
@@ -2235,6 +2241,10 @@ dylib
 libsoftokn3
 .
 dylib
+'
+                
+'
+pingsender
 '
                 
 '

@@ -9508,6 +9508,12 @@ exe
 "
 Push
 "
+pingsender
+.
+exe
+"
+Push
+"
 updater
 .
 exe
