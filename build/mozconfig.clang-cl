@@ -1,3 +1,16 @@
+if
+test
+-
+d
+"
+topsrcdir
+/
+clang
+/
+bin
+"
+;
+then
 CLANG_DIR
 =
 cd
@@ -24,6 +37,7 @@ PATH
 "
 mk_export_correct_style
 PATH
+fi
 export
 CC
 =
