@@ -154,6 +154,8 @@ nsStyleFilter
 >
 &
 aFilterChain
+bool
+aFilterInputIsTainted
 const
 UserSpaceMetrics
 &
@@ -183,6 +185,7 @@ nullptr
 aFilteredElement
 aMetrics
 aFilterChain
+aFilterInputIsTainted
 nullptr
 unused
 nullptr
@@ -345,6 +348,7 @@ GetContent
 *
 metrics
 filterChain
+true
 aPaintCallback
 aTransform
 aDirtyArea
@@ -447,6 +451,7 @@ GetContent
 *
 metrics
 filterChain
+true
 nullptr
 unused
 nullptr
@@ -534,6 +539,7 @@ GetContent
 *
 metrics
 filterChain
+true
 nullptr
 unused
 &
@@ -689,6 +695,7 @@ GetContent
 *
 metrics
 filterChain
+true
 nullptr
 unused
 nullptr
@@ -743,6 +750,8 @@ nsStyleFilter
 >
 &
 aFilterChain
+bool
+aFilterInputIsTainted
 nsSVGFilterPaintCallback
 *
 aPaintCallback
@@ -992,6 +1001,7 @@ BuildPrimitives
 (
 aFilterChain
 aTargetFrame
+aFilterInputIsTainted
 )
 ;
 if
@@ -1219,6 +1229,8 @@ aFilterChain
 nsIFrame
 *
 aTargetFrame
+bool
+aFilterInputIsTainted
 )
 {
 NS_ASSERTION
@@ -1260,6 +1272,27 @@ i
 +
 )
 {
+bool
+inputIsTainted
+=
+mPrimitiveDescriptions
+.
+IsEmpty
+(
+)
+?
+aFilterInputIsTainted
+:
+mPrimitiveDescriptions
+.
+LastElement
+(
+)
+.
+IsTainted
+(
+)
+;
 nsresult
 rv
 =
@@ -1270,6 +1303,7 @@ aFilterChain
 i
 ]
 aTargetFrame
+inputIsTainted
 )
 ;
 if
@@ -1309,6 +1343,8 @@ aFilter
 nsIFrame
 *
 aTargetFrame
+bool
+aInputIsTainted
 )
 {
 NS_ASSERTION
@@ -1386,6 +1422,7 @@ BuildPrimitives
 (
 mPrimitiveDescriptions
 mInputImages
+aInputIsTainted
 )
 ;
 }
@@ -1426,6 +1463,7 @@ cssFilterInstance
 BuildPrimitives
 (
 mPrimitiveDescriptions
+aInputIsTainted
 )
 ;
 }

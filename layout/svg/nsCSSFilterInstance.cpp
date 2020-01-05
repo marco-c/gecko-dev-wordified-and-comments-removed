@@ -152,6 +152,8 @@ FilterPrimitiveDescription
 >
 &
 aPrimitiveDescrs
+bool
+aInputIsTainted
 )
 {
 FilterPrimitiveDescription
@@ -181,6 +183,7 @@ PrimitiveType
 :
 GaussianBlur
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -204,6 +207,7 @@ PrimitiveType
 :
 ComponentTransfer
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -227,6 +231,7 @@ PrimitiveType
 :
 ComponentTransfer
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -250,6 +255,7 @@ PrimitiveType
 :
 DropShadow
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -273,6 +279,7 @@ PrimitiveType
 :
 ColorMatrix
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -296,6 +303,7 @@ PrimitiveType
 :
 ColorMatrix
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -319,6 +327,7 @@ PrimitiveType
 :
 ComponentTransfer
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -342,6 +351,7 @@ PrimitiveType
 :
 ComponentTransfer
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -365,6 +375,7 @@ PrimitiveType
 :
 ColorMatrix
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -388,6 +399,7 @@ PrimitiveType
 :
 ColorMatrix
 aPrimitiveDescrs
+aInputIsTainted
 )
 ;
 result
@@ -461,6 +473,8 @@ FilterPrimitiveDescription
 >
 &
 aPrimitiveDescrs
+bool
+aInputIsTainted
 )
 {
 FilterPrimitiveDescription
@@ -493,7 +507,7 @@ inputIndex
 <
 0
 ?
-true
+aInputIsTainted
 :
 aPrimitiveDescrs
 [

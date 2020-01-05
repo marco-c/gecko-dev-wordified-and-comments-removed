@@ -146,6 +146,8 @@ FilterPrimitiveDescription
 >
 &
 aPrimitiveDescrs
+bool
+aInputIsTainted
 )
 ;
 private
@@ -162,6 +164,8 @@ FilterPrimitiveDescription
 >
 &
 aPrimitiveDescrs
+bool
+aInputIsTainted
 )
 ;
 nsresult

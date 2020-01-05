@@ -176,6 +176,8 @@ SourceSurface
 >
 &
 aInputImages
+bool
+aInputIsTainted
 )
 ;
 gfxRect

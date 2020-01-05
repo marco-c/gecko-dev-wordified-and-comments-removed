@@ -205,6 +205,8 @@ nsStyleFilter
 >
 &
 aFilterChain
+bool
+aFilterInputIsTainted
 const
 UserSpaceMetrics
 &
@@ -313,6 +315,8 @@ nsStyleFilter
 >
 &
 aFilterChain
+bool
+aFilterInputIsTainted
 nsSVGFilterPaintCallback
 *
 aPaintCallback
@@ -475,6 +479,8 @@ aFilterChain
 nsIFrame
 *
 aTargetFrame
+bool
+aFilterInputIsTainted
 )
 ;
 nsresult
@@ -487,6 +493,8 @@ aFilter
 nsIFrame
 *
 aTargetFrame
+bool
+aInputIsTainted
 )
 ;
 void
