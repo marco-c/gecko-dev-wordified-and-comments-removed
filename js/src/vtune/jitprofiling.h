@@ -373,6 +373,12 @@ void
 )
 ;
 int
+loadiJIT_Funcs
+(
+void
+)
+;
+int
 JITAPI
 iJIT_NotifyEvent
 (

@@ -227,7 +227,6 @@ executionMode
 =
 iJIT_NOTHING_RUNNING
 ;
-static
 int
 loadiJIT_Funcs
 (
@@ -449,7 +448,6 @@ return
 executionMode
 ;
 }
-static
 int
 loadiJIT_Funcs
 (
