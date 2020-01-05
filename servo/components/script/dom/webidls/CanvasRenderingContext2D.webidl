@@ -343,8 +343,6 @@ double
 f
 )
 ;
-/
-/
 void
 resetTransform
 (
