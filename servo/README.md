@@ -142,12 +142,10 @@ build
 /
 configure
 make
-check
--
-servo
 &
 &
 make
+check
 .
 /
 servo
@@ -158,6 +156,8 @@ src
 /
 test
 /
-hello
+about
+-
+mozilla
 .
 html
