@@ -180,6 +180,10 @@ extern
 crate
 webrender_traits
 ;
+extern
+crate
+webvr_traits
+;
 mod
 constellation
 ;

@@ -462,6 +462,7 @@ WorkerEvent
 ServiceWorkerEvent
 EnterFullscreen
 ExitFullscreen
+WebVREvent
 }
 pub
 trait

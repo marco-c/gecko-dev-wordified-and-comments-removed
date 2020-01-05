@@ -1181,6 +1181,17 @@ Fullscreen
 ProfilerCategory
 :
 :
+ScriptWebVREvent
+=
+>
+"
+Script
+WebVR
+Event
+"
+ProfilerCategory
+:
+:
 ApplicationHeartbeat
 =
 >
