@@ -1923,8 +1923,11 @@ Ubuntu
 selects
 the
 linux
+linux64
 and
 linux64
+-
+asan
 platforms
 for
 gtest
@@ -1979,6 +1982,11 @@ linux
 '
 '
 linux64
+'
+'
+linux64
+-
+asan
 '
 ]
 }
