@@ -976,7 +976,7 @@ self
 LayoutNodeType
 ;
 fn
-style_for_text_node
+parent_style
 (
 &
 self
@@ -1352,7 +1352,7 @@ is_text_node
 ;
 self
 .
-style_for_text_node
+parent_style
 (
 )
 }
@@ -1403,7 +1403,7 @@ is_text_node
 ;
 self
 .
-style_for_text_node
+parent_style
 (
 )
 }

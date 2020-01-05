@@ -4809,7 +4809,7 @@ type_id
 )
 }
 fn
-style_for_text_node
+parent_style
 (
 &
 self
@@ -4821,16 +4821,6 @@ Arc
 ComputedValues
 >
 {
-debug_assert
-!
-(
-self
-.
-is_text_node
-(
-)
-)
-;
 let
 parent
 =
