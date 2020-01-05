@@ -9609,6 +9609,9 @@ NodeTypeId
 :
 :
 Document
+(
+_
+)
 )
 =
 >
@@ -10747,6 +10750,9 @@ NodeTypeId
 :
 :
 Document
+(
+_
+)
 )
 |
 Some

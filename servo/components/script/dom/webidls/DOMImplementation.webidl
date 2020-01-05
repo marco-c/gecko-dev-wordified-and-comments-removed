@@ -176,7 +176,7 @@ systemId
 NewObject
 Throws
 ]
-Document
+XMLDocument
 createDocument
 (
 DOMString
