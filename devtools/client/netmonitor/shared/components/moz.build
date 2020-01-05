@@ -77,13 +77,6 @@ js
 '
 headers
 -
-mdn
-.
-js
-'
-'
-headers
--
 panel
 .
 js
