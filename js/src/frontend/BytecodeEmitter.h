@@ -3127,7 +3127,7 @@ pn
 ;
 MOZ_MUST_USE
 bool
-emitSelfHostedAllowContentSpread
+emitSelfHostedAllowContentIter
 (
 ParseNode
 *
