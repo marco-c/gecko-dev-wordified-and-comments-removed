@@ -834,14 +834,6 @@ JSScript
 script
 )
 ;
-void
-PurgeCaches
-(
-JSScript
-*
-script
-)
-;
 size_t
 SizeOfIonData
 (

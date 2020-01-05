@@ -4809,17 +4809,6 @@ cx
 ;
 }
 ;
-void
-PurgeJITCaches
-(
-JS
-:
-:
-Zone
-*
-zone
-)
-;
 bool
 UninlinedIsInsideNursery
 (

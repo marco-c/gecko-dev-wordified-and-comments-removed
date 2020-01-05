@@ -1044,15 +1044,8 @@ isPreservingCode
 (
 )
 )
-{
-PurgeJITCaches
-(
-this
-)
+return
 ;
-}
-else
-{
 if
 (
 discardBaselineCode
@@ -1254,7 +1247,6 @@ freeAll
 (
 )
 ;
-}
 }
 #
 ifdef
