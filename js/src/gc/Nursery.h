@@ -1357,6 +1357,16 @@ return
 enableProfiling_
 ;
 }
+bool
+trackTimings
+(
+)
+const
+{
+return
+trackTimings_
+;
+}
 private
 :
 static
@@ -1534,6 +1544,9 @@ profileThreshold_
 ;
 bool
 enableProfiling_
+;
+bool
+trackTimings_
 ;
 int64_t
 reportTenurings_
