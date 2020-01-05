@@ -3845,7 +3845,7 @@ cldrVersion
 .
 0
 .
-2
+3
 "
 }
 codeMappings
@@ -73935,13 +73935,7 @@ populationShareF
 :
 int
 {
-49900000
-}
-writingShareF
-:
-int
-{
-48430000
+48520000
 }
 }
 za

@@ -4048,9 +4048,11 @@ ifdef
 USE_WINDOWS_LOCALE_API
 if
 (
+(
 hostid
 &
 0x3FF
+)
 !
 =
 0x92
