@@ -8005,6 +8005,17 @@ nullptr
 ;
 }
 }
+if
+(
+mReadyState
+=
+=
+HAVE_NOTHING
+)
+{
+return
+;
+}
 for
 (
 OutputMediaStream
