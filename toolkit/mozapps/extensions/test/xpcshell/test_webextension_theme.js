@@ -1233,7 +1233,7 @@ add_task
 (
 function
 *
-test_dss_themes
+test_complete_themes
 (
 )
 {
