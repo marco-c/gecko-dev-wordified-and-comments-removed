@@ -2,10 +2,10 @@ use
 layout
 :
 :
-box_
+fragment
 :
 :
-Box
+Fragment
 ;
 use
 computed
@@ -479,7 +479,7 @@ Remove
 this
 method
 once
-box_
+fragment
 is
 not
 an
@@ -527,7 +527,7 @@ self
 fragment
 :
 &
-Box
+Fragment
 can_collapse_top_margin_with_kids
 :
 bool
@@ -568,7 +568,7 @@ self
 fragment
 :
 &
-Box
+Fragment
 can_collapse_bottom_margin_with_kids
 :
 bool
@@ -662,7 +662,7 @@ _
 /
 If
 the
-box
+fragment
 has
 non
 -
@@ -673,9 +673,9 @@ height
 margins
 may
 not
+/
+/
 collapse
-/
-/
 through
 it
 .
@@ -691,7 +691,7 @@ _
 /
 If
 the
-box
+fragment
 has
 an
 explicitly
@@ -700,9 +700,9 @@ height
 margins
 may
 not
+/
+/
 collapse
-/
-/
 through
 it
 .
