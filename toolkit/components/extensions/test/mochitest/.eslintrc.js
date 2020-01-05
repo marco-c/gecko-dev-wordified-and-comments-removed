@@ -55,11 +55,6 @@ globals
 :
 {
 "
-ChromeWorker
-"
-:
-false
-"
 onmessage
 "
 :

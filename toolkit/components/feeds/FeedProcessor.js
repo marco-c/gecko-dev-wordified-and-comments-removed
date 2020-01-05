@@ -1055,8 +1055,6 @@ bag
 try
 {
 return
-value
-=
 bag
 .
 getProperty

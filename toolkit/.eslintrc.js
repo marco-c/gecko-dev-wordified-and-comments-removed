@@ -654,6 +654,11 @@ sizeToContent
 "
 :
 false
+"
+ChromeWorker
+"
+:
+false
 }
 }
 ;

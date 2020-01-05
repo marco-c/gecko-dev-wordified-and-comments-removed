@@ -61,6 +61,10 @@ globals
 :
 {
 "
+"
+:
+false
+"
 add_task
 "
 :
@@ -122,6 +126,11 @@ isDeeply
 false
 "
 isnot
+"
+:
+false
+"
+netscape
 "
 :
 false

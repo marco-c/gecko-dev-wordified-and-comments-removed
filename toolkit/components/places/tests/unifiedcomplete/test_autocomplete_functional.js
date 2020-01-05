@@ -1501,6 +1501,7 @@ openpage
 ;
 for
 (
+let
 type
 of
 types
@@ -1554,6 +1555,7 @@ true
 ;
 for
 (
+let
 type
 of
 types
@@ -1606,6 +1608,7 @@ PREF_AUTOCOMPLETE_ENABLED
 ;
 for
 (
+let
 type
 of
 types

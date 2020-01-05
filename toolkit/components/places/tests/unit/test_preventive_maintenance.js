@@ -5367,6 +5367,7 @@ addPlace
 (
 )
 ;
+let
 stmt
 =
 mDBConn
@@ -6185,6 +6186,7 @@ this
 _placeId
 )
 ;
+let
 stmt
 =
 mDBConn

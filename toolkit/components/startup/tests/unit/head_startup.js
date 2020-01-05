@@ -169,7 +169,9 @@ manager
 .
 QueryInterface
 (
-Ci
+Components
+.
+interfaces
 .
 nsIComponentRegistrar
 )

@@ -1677,6 +1677,8 @@ com
 )
 ;
 yield
+Assert
+.
 rejects
 (
 PlacesSyncUtils
@@ -1709,6 +1711,8 @@ items
 )
 ;
 yield
+Assert
+.
 rejects
 (
 PlacesSyncUtils
@@ -1913,6 +1917,8 @@ exist
 )
 ;
 yield
+Assert
+.
 rejects
 (
 PlacesUtils
@@ -5049,6 +5055,8 @@ root
 )
 ;
 yield
+Assert
+.
 rejects
 (
 PlacesSyncUtils
@@ -6025,6 +6033,8 @@ DEFAULT_INDEX
 )
 ;
 yield
+Assert
+.
 rejects
 (
 PlacesSyncUtils
@@ -6221,6 +6231,8 @@ URI
 )
 ;
 yield
+Assert
+.
 rejects
 (
 PlacesSyncUtils
@@ -6419,6 +6431,8 @@ DEFAULT_INDEX
 )
 ;
 yield
+Assert
+.
 rejects
 (
 PlacesSyncUtils
@@ -6587,6 +6601,8 @@ DEFAULT_INDEX
 )
 ;
 yield
+Assert
+.
 rejects
 (
 PlacesSyncUtils

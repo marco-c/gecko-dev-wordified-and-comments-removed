@@ -2353,7 +2353,6 @@ submitExternalPing
 (
 TEST_PING_TYPE
 payload
-options
 )
 ;
 payload

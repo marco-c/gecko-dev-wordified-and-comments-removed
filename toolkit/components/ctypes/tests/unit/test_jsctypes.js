@@ -28,6 +28,7 @@ e
 )
 {
 }
+const
 CTYPES_TEST_LIB
 =
 ctypes
@@ -41,6 +42,7 @@ test
 "
 )
 ;
+const
 CTYPES_UNICODE_LIB
 =
 ctypes
@@ -453,6 +455,7 @@ double
 8
 )
 ;
+const
 s64limits
 =
 [
@@ -472,6 +475,7 @@ s64limits
 "
 ]
 ;
+const
 u64limits
 =
 [
@@ -578,6 +582,7 @@ UInt64
 u64limits
 )
 ;
+const
 s32limits
 =
 [
@@ -589,6 +594,7 @@ s32limits
 0x80000000
 ]
 ;
+const
 u32limits
 =
 [
@@ -16563,6 +16569,7 @@ array
 "
 )
 ;
+let
 c_array
 =
 array_type
@@ -24626,6 +24633,8 @@ array
 1
 ]
 )
+;
+let
 v1
 =
 ctypes
@@ -24644,6 +24653,8 @@ array
 5
 ]
 )
+;
+let
 v2
 =
 ctypes
@@ -24661,6 +24672,8 @@ array
 13
 ]
 )
+;
+let
 vector_add_va
 =
 library
@@ -24690,6 +24703,8 @@ uint8_t
 .
 "
 )
+;
+let
 vec_sum
 =
 vector_add_va

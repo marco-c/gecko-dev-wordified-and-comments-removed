@@ -2044,6 +2044,7 @@ tmpFolder
 ;
 try
 {
+let
 result
 =
 hs

@@ -100,6 +100,7 @@ handleError
 :
 function
 (
+error
 )
 {
 do_throw
@@ -228,6 +229,7 @@ handleError
 :
 function
 (
+error
 )
 {
 do_throw
@@ -877,6 +879,7 @@ handleError
 :
 function
 (
+error
 )
 {
 do_throw
@@ -1747,6 +1750,7 @@ return
 undefined
 ;
 }
+let
 results
 =
 yield

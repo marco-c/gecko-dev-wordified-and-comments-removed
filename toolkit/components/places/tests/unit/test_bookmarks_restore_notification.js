@@ -482,7 +482,7 @@ Assert
 .
 equal
 (
-aSubject
+resultSubject
 .
 QueryInterface
 (

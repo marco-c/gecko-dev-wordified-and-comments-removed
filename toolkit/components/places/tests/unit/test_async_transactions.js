@@ -9415,7 +9415,7 @@ rootGuid
 }
 )
 ;
-yield
+let
 duplicateGuid
 =
 yield

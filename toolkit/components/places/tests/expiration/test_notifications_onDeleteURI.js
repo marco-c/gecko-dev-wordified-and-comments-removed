@@ -354,6 +354,7 @@ page
 )
 ;
 }
+let
 historyObserver
 =
 {

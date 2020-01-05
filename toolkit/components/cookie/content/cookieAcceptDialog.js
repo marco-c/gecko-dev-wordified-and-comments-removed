@@ -666,6 +666,7 @@ description
 "
 )
 ;
+let
 text
 =
 document

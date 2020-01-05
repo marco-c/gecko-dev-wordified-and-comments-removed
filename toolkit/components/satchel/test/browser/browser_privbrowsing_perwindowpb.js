@@ -170,8 +170,11 @@ handleError
 error
 )
 {
-do_throw
+Assert
+.
+ok
 (
+false
 "
 Error
 occurred

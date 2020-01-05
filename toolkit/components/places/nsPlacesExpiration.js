@@ -3553,7 +3553,7 @@ memSizeBytes
 0
 )
 {
-memsize
+memSizeBytes
 =
 MEMSIZE_FALLBACK_BYTES
 ;

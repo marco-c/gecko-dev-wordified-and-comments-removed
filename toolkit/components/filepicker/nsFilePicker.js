@@ -24,6 +24,9 @@ DEBUG
 =
 false
 ;
+var
+debug
+;
 const
 LOCAL_FILE_CONTRACTID
 =

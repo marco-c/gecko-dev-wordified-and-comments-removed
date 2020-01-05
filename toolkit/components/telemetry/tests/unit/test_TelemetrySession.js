@@ -2046,7 +2046,7 @@ strings
 ;
 checkScalar
 (
-scalar
+scalars
 [
 name
 ]
@@ -2176,7 +2176,7 @@ characters
 ;
 checkScalar
 (
-scalar
+scalars
 [
 name
 ]
@@ -5514,6 +5514,7 @@ TELEMETRY_TEST_KEYED_RELEASE_OPTOUT
 ]
 )
 ;
+let
 checkHistograms
 =
 (
@@ -5608,6 +5609,7 @@ histogram_type
 }
 }
 ;
+let
 checkKeyedHistograms
 =
 (
@@ -6746,6 +6748,7 @@ expectedActiveTicks
 =
 activeTicksAtSubsessionStart
 ;
+let
 incrementActiveTicks
 =
 (

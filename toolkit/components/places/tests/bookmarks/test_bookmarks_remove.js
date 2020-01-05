@@ -985,8 +985,6 @@ MOBILE_ROOT_ANNO
 let
 annos
 =
-rows
-=
 yield
 conn
 .
