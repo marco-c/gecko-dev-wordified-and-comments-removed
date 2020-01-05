@@ -1609,10 +1609,6 @@ split_to_width
 (
 &
 self
-_
-:
-&
-LayoutContext
 max_width
 :
 Au
