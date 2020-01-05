@@ -361,7 +361,6 @@ T
 >
 static
 MOZ_ALWAYS_INLINE
-constexpr
 bool
 IsNaN
 (
