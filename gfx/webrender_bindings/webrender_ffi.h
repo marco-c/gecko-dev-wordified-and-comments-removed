@@ -1336,7 +1336,7 @@ height
 uint8_t
 *
 dst_buffer
-uint32_t
+size_t
 buffer_length
 )
 WR_FUNC
