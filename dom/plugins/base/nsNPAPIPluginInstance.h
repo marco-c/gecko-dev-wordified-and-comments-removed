@@ -1351,11 +1351,6 @@ NPRect
 changed
 )
 ;
-void
-CarbonNPAPIFailure
-(
-)
-;
 double
 GetContentsScaleFactor
 (
