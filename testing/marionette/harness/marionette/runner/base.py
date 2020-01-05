@@ -7586,6 +7586,10 @@ marionette
                                            
 self
 .
+httpd
+                                           
+self
+.
 testvars
                                            
 *

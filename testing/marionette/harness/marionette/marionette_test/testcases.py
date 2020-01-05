@@ -1423,6 +1423,8 @@ filepath
 suite
 testloader
 marionette
+                           
+httpd
 testvars
 )
 :
@@ -1555,6 +1557,16 @@ marionette
 self
 .
 _marionette_weakref
+(
+)
+        
+self
+.
+httpd
+=
+self
+.
+_httpd_weakref
 (
 )
         
@@ -3062,6 +3074,7 @@ __init__
 (
 self
 marionette_weakref
+httpd_weakref
 methodName
 =
 '
@@ -3086,9 +3099,9 @@ marionette_weakref
         
 self
 .
-marionette
+_httpd_weakref
 =
-None
+httpd_weakref
         
 self
 .
@@ -3116,6 +3129,12 @@ testvars
 None
 )
         
+self
+.
+marionette
+=
+None
+        
 super
 (
 MarionetteTestCase
@@ -3142,6 +3161,7 @@ suite
 testloader
 marionette
                            
+httpd
 testvars
 *
 *
@@ -3243,19 +3263,26 @@ ref
 (
 marionette
 )
-                                  
+                                      
+weakref
+.
+ref
+(
+httpd
+)
+                                      
 methodName
 =
 testname
-                                  
+                                      
 filepath
 =
 filepath
-                                  
+                                      
 testvars
 =
 testvars
-                                  
+                                      
 *
 *
 kwargs
@@ -3580,11 +3607,13 @@ __init__
 (
 self
 marionette_weakref
+httpd_weakref
 methodName
 =
 '
 runTest
 '
+                 
 jsFile
 =
 None
@@ -3604,6 +3633,18 @@ self
 jsFile
 =
 jsFile
+        
+self
+.
+_httpd_weakref
+=
+httpd_weakref
+        
+self
+.
+httpd
+=
+None
         
 self
 .
@@ -3640,6 +3681,7 @@ suite
 testloader
 marionette
                            
+httpd
 testvars
 *
 *
@@ -3659,9 +3701,18 @@ ref
 (
 marionette
 )
+                          
+weakref
+.
+ref
+(
+httpd
+)
+                          
 jsFile
 =
 filepath
+                          
 *
 *
 kwargs

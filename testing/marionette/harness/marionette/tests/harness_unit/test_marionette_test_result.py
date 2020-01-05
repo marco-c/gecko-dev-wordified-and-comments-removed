@@ -67,6 +67,10 @@ empty_marionette_testcase
 lambda
 :
 mock_marionette
+lambda
+:
+mock_httpd
+                                     
 '
 test_nothing
 '
