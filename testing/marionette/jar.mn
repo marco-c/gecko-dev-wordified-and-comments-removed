@@ -313,6 +313,16 @@ assert
 .
 js
 )
+content
+/
+addon
+.
+js
+(
+addon
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
