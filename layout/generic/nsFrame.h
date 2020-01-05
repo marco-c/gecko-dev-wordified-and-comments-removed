@@ -520,7 +520,6 @@ GetFrameId
 )
 MOZ_MUST_OVERRIDE
 ;
-virtual
 void
 Init
 (
@@ -536,7 +535,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 DestroyFrom
 (
@@ -546,7 +544,6 @@ aDestructRoot
 )
 override
 ;
-virtual
 nsStyleContext
 *
 GetAdditionalStyleContext
@@ -557,7 +554,6 @@ aIndex
 const
 override
 ;
-virtual
 void
 SetAdditionalStyleContext
 (
@@ -569,7 +565,6 @@ aStyleContext
 )
 override
 ;
-virtual
 nscoord
 GetLogicalBaseline
 (
@@ -582,7 +577,6 @@ aWritingMode
 const
 override
 ;
-virtual
 const
 nsFrameList
 &
@@ -594,7 +588,6 @@ aListID
 const
 override
 ;
-virtual
 void
 GetChildLists
 (
@@ -608,7 +601,6 @@ aLists
 const
 override
 ;
-virtual
 nsresult
 HandleEvent
 (
@@ -627,7 +619,6 @@ aEventStatus
 )
 override
 ;
-virtual
 nsresult
 GetContentForEvent
 (
@@ -644,7 +635,6 @@ aContent
 )
 override
 ;
-virtual
 nsresult
 GetCursor
 (
@@ -661,7 +651,6 @@ aCursor
 )
 override
 ;
-virtual
 nsresult
 GetPointFromOffset
 (
@@ -673,7 +662,6 @@ outPoint
 )
 override
 ;
-virtual
 nsresult
 GetCharacterRectsInRange
 (
@@ -690,7 +678,6 @@ aOutRect
 )
 override
 ;
-virtual
 nsresult
 GetChildFrameContainingOffset
 (
@@ -727,7 +714,6 @@ int8_t
 aOutSideLimit
 )
 ;
-virtual
 nsresult
 CharacterDataChanged
 (
@@ -737,7 +723,6 @@ aInfo
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -751,7 +736,6 @@ aModType
 )
 override
 ;
-virtual
 nsSplittableType
 GetSplittableType
 (
@@ -759,7 +743,6 @@ GetSplittableType
 const
 override
 ;
-virtual
 nsIFrame
 *
 GetPrevContinuation
@@ -768,7 +751,6 @@ GetPrevContinuation
 const
 override
 ;
-virtual
 void
 SetPrevContinuation
 (
@@ -777,7 +759,6 @@ nsIFrame
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetNextContinuation
@@ -786,7 +767,6 @@ GetNextContinuation
 const
 override
 ;
-virtual
 void
 SetNextContinuation
 (
@@ -795,7 +775,6 @@ nsIFrame
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetPrevInFlowVirtual
@@ -804,7 +783,6 @@ GetPrevInFlowVirtual
 const
 override
 ;
-virtual
 void
 SetPrevInFlow
 (
@@ -813,7 +791,6 @@ nsIFrame
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetNextInFlowVirtual
@@ -822,7 +799,6 @@ GetNextInFlowVirtual
 const
 override
 ;
-virtual
 void
 SetNextInFlow
 (
@@ -831,7 +807,6 @@ nsIFrame
 )
 override
 ;
-virtual
 nsIAtom
 *
 GetType
@@ -840,7 +815,6 @@ GetType
 const
 override
 ;
-virtual
 nsresult
 GetSelectionController
 (
@@ -854,7 +828,6 @@ aSelCon
 )
 override
 ;
-virtual
 FrameSearchResult
 PeekOffsetNoAmount
 (
@@ -866,7 +839,6 @@ aOffset
 )
 override
 ;
-virtual
 FrameSearchResult
 PeekOffsetCharacter
 (
@@ -882,7 +854,6 @@ true
 )
 override
 ;
-virtual
 FrameSearchResult
 PeekOffsetWord
 (
@@ -918,7 +889,6 @@ bool
 aIsKeyboardSelect
 )
 ;
-virtual
 nsresult
 CheckVisibility
 (
@@ -940,7 +910,6 @@ _retval
 )
 override
 ;
-virtual
 nsresult
 GetOffsets
 (
@@ -954,7 +923,6 @@ aEnd
 const
 override
 ;
-virtual
 void
 ChildIsDirty
 (
@@ -967,7 +935,6 @@ override
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -982,7 +949,6 @@ override
 ;
 #
 endif
-virtual
 nsStyleContext
 *
 GetParentStyleContext
@@ -1013,28 +979,24 @@ aProviderFrame
 )
 const
 ;
-virtual
 bool
 IsEmpty
 (
 )
 override
 ;
-virtual
 bool
 IsSelfEmpty
 (
 )
 override
 ;
-virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -1044,7 +1006,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -1054,7 +1015,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 void
 AddInlineMinISize
 (
@@ -1067,7 +1027,6 @@ aData
 )
 override
 ;
-virtual
 void
 AddInlinePrefISize
 (
@@ -1080,14 +1039,12 @@ aData
 )
 override
 ;
-virtual
 IntrinsicISizeOffsetData
 IntrinsicISizeOffsets
 (
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1097,14 +1054,12 @@ GetIntrinsicSize
 )
 override
 ;
-virtual
 nsSize
 GetIntrinsicRatio
 (
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1285,7 +1240,6 @@ ComputeSizeFlags
 aFlags
 )
 ;
-virtual
 void
 Reflow
 (
@@ -1305,7 +1259,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 DidReflow
 (
@@ -1370,7 +1323,6 @@ PushDirtyBitToAbsoluteFrames
 (
 )
 ;
-virtual
 bool
 CanContinueTextRun
 (
@@ -1378,7 +1330,6 @@ CanContinueTextRun
 const
 override
 ;
-virtual
 bool
 ComputeCustomOverflow
 (
@@ -1388,7 +1339,6 @@ aOverflowAreas
 )
 override
 ;
-virtual
 void
 UnionChildOverflow
 (
@@ -1516,7 +1466,6 @@ nsPoint
 aPoint
 )
 ;
-virtual
 nsSize
 GetXULPrefSize
 (
@@ -1526,7 +1475,6 @@ aBoxLayoutState
 )
 override
 ;
-virtual
 nsSize
 GetXULMinSize
 (
@@ -1536,7 +1484,6 @@ aBoxLayoutState
 )
 override
 ;
-virtual
 nsSize
 GetXULMaxSize
 (
@@ -1546,14 +1493,12 @@ aBoxLayoutState
 )
 override
 ;
-virtual
 nscoord
 GetXULFlex
 (
 )
 override
 ;
-virtual
 nscoord
 GetXULBoxAscent
 (
@@ -1563,7 +1508,6 @@ aBoxLayoutState
 )
 override
 ;
-virtual
 bool
 ComputesOwnOverflowArea
 (
@@ -1958,7 +1902,6 @@ isOkToTurnOn
 false
 )
 ;
-virtual
 void
 DidSetStyleContext
 (
@@ -2245,7 +2188,6 @@ nsGkAtoms
 blockFrame
 ;
 }
-virtual
 nsILineIterator
 *
 GetLineIterator
@@ -2311,7 +2253,6 @@ override
 #
 ifdef
 DEBUG_LAYOUT
-virtual
 void
 GetBoxName
 (
@@ -2398,7 +2339,6 @@ ifdef
 DEBUG_FRAME_DUMP
 public
 :
-virtual
 nsresult
 GetFrameName
 (
@@ -2439,7 +2379,6 @@ ifdef
 DEBUG
 public
 :
-virtual
 nsFrameState
 GetDebugStateBits
 (
@@ -2447,7 +2386,6 @@ GetDebugStateBits
 const
 override
 ;
-virtual
 nsresult
 DumpRegressionData
 (
