@@ -1648,6 +1648,17 @@ center
 "
 >
 <
+image
+class
+=
+"
+update
+-
+throbber
+"
+/
+>
+<
 label
 >
 &
