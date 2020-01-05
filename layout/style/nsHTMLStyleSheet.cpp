@@ -2156,6 +2156,7 @@ aRule
 new
 HTMLColorRule
 (
+aColor
 )
 ;
 if
@@ -2165,13 +2166,6 @@ aRule
 )
 return
 NS_ERROR_OUT_OF_MEMORY
-;
-aRule
--
->
-mColor
-=
-aColor
 ;
 if
 (

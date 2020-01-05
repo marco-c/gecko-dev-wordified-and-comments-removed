@@ -354,8 +354,16 @@ HTMLColorRule
 }
 public
 :
+explicit
 HTMLColorRule
 (
+nscolor
+aColor
+)
+:
+mColor
+(
+aColor
 )
 {
 }
