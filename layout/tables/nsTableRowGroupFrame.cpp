@@ -2691,7 +2691,7 @@ return
 AutoTArray
 <
 RowInfo
-10
+32
 >
 rowInfo
 ;
