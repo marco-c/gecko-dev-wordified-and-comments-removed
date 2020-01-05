@@ -219,9 +219,8 @@ path
 fill
 =
 "
-context
--
-fill
+#
+0077ff
 "
 fill
 -
@@ -305,9 +304,8 @@ myMask
 fill
 =
 "
-context
--
-fill
+#
+0090ff
 "
 d
 =
