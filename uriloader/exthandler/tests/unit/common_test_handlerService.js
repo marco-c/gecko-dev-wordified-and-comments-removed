@@ -1,7 +1,3 @@
-"
-use
-strict
-"
 Cu
 .
 import
@@ -156,9 +152,9 @@ irc
 let
 executable
 =
-HandlerServiceTest
+Services
 .
-_dirSvc
+dirsvc
 .
 get
 (

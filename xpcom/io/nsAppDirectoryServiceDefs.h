@@ -213,12 +213,6 @@ UPnls
 "
 #
 define
-NS_APP_USER_MIMETYPES_50_FILE
-"
-UMimTyp
-"
-#
-define
 NS_APP_CACHE_PARENT_DIR
 "
 cachePDir

@@ -505,9 +505,9 @@ nsIEnvironment
 var
 greDir
 =
-HandlerServiceTest
+Services
 .
-_dirSvc
+dirsvc
 .
 get
 (
