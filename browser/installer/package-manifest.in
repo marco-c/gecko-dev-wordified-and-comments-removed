@@ -866,6 +866,11 @@ Accessible
 tlb
 BINPATH
 /
+AccessibleHandler
+.
+dll
+BINPATH
+/
 AccessibleMarshal
 .
 dll

@@ -9749,6 +9749,12 @@ end
 "
 Push
 "
+AccessibleHandler
+.
+dll
+"
+Push
+"
 AccessibleMarshal
 .
 dll
