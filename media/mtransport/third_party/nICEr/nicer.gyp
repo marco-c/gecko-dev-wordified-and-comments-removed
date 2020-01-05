@@ -1283,6 +1283,12 @@ Wmissing
 -
 prototypes
 '
+'
+-
+Wno
+-
+format
+'
 ]
 '
 defines
@@ -1492,6 +1498,12 @@ prototypes
 Wmissing
 -
 prototypes
+'
+'
+-
+Wno
+-
+format
 '
 ]
 '
