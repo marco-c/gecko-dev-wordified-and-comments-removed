@@ -106,6 +106,9 @@ nsIWidget
 namespace
 mozilla
 {
+class
+TimeStamp
+;
 namespace
 gfx
 {
@@ -1056,6 +1059,17 @@ aIsVertical
 const
 CGFloat
 aBackingScaleFactor
+)
+;
+static
+mozilla
+:
+:
+TimeStamp
+GetEventTimeStamp
+(
+NSTimeInterval
+aEventTime
 )
 ;
 }
