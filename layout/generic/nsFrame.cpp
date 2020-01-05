@@ -21954,7 +21954,7 @@ StylePosition
 )
 -
 >
-ComputedAlignSelf
+UsedAlignSelf
 (
 StyleContext
 (
@@ -21971,7 +21971,7 @@ StylePosition
 )
 -
 >
-ComputedJustifySelf
+UsedJustifySelf
 (
 StyleContext
 (

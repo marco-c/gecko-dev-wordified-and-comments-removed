@@ -27614,7 +27614,7 @@ GetWritingMode
 stylePos
 -
 >
-ComputedAlignSelf
+UsedAlignSelf
 (
 aFrame
 -
@@ -27632,7 +27632,7 @@ GetParent
 stylePos
 -
 >
-ComputedJustifySelf
+UsedJustifySelf
 (
 aFrame
 -

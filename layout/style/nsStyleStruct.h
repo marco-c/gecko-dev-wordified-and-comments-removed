@@ -6559,7 +6559,7 @@ mAlignItems
 ;
 }
 uint8_t
-ComputedAlignSelf
+UsedAlignSelf
 (
 nsStyleContext
 *
@@ -6587,7 +6587,7 @@ aParent
 const
 ;
 uint8_t
-ComputedJustifySelf
+UsedJustifySelf
 (
 nsStyleContext
 *

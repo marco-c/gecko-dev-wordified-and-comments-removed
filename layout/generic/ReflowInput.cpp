@@ -10534,7 +10534,7 @@ cbwm
 mStylePosition
 -
 >
-ComputedAlignSelf
+UsedAlignSelf
 (
 mFrame
 -
@@ -10552,7 +10552,7 @@ GetParent
 mStylePosition
 -
 >
-ComputedJustifySelf
+UsedJustifySelf
 (
 mFrame
 -

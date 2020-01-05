@@ -18931,7 +18931,7 @@ StylePosition
 )
 -
 >
-ComputedJustifySelf
+UsedJustifySelf
 (
 containerSC
 )
@@ -18944,7 +18944,7 @@ StylePosition
 )
 -
 >
-ComputedAlignSelf
+UsedAlignSelf
 (
 containerSC
 )
@@ -24740,7 +24740,7 @@ childRI
 mStylePosition
 -
 >
-ComputedAlignSelf
+UsedAlignSelf
 (
 StyleContext
 (
@@ -24890,7 +24890,7 @@ childRI
 mStylePosition
 -
 >
-ComputedAlignSelf
+UsedAlignSelf
 (
 containerSC
 )
@@ -24966,7 +24966,7 @@ childRI
 mStylePosition
 -
 >
-ComputedJustifySelf
+UsedJustifySelf
 (
 containerSC
 )
