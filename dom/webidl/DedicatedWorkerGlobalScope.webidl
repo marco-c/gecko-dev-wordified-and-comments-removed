@@ -200,6 +200,9 @@ sequence
 any
 >
 transfer
+=
+[
+]
 )
 ;
 void

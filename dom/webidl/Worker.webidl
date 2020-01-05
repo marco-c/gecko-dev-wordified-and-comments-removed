@@ -218,6 +218,9 @@ sequence
 any
 >
 transfer
+=
+[
+]
 )
 ;
 attribute

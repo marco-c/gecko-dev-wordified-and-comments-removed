@@ -994,6 +994,9 @@ sequence
 Transferable
 >
 transfer
+=
+[
+]
 )
 ;
 /

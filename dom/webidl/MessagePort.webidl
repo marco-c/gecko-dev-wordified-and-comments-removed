@@ -154,6 +154,9 @@ sequence
 Transferable
 >
 transferable
+=
+[
+]
 )
 ;
 void

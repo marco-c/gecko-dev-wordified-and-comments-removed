@@ -246,6 +246,9 @@ sequence
 Transferable
 >
 transferable
+=
+[
+]
 )
 ;
 }

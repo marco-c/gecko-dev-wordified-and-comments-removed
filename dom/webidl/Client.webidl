@@ -158,6 +158,9 @@ sequence
 Transferable
 >
 transfer
+=
+[
+]
 )
 ;
 }
