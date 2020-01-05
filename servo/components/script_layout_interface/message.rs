@@ -200,7 +200,6 @@ AdvanceClockMs
 i32
 bool
 )
-ReflowWithNewlyLoadedWebFont
 ReapStyleAndLayoutData
 (
 OpaqueStyleAndLayoutData
