@@ -621,6 +621,12 @@ bin
 (
 MOZ_APP_NAME
 )
+rm
+-
+rf
+(
+dist_dest
+)
 (
 MKDIR
 )
