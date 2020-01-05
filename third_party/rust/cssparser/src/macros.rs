@@ -193,6 +193,7 @@ expr
 =
 >
 {
+pub
 fn
 name
 (
