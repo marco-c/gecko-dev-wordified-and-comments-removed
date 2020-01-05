@@ -8646,11 +8646,6 @@ runtime
 )
 )
 {
-js_delete
-(
-task
-)
-;
 HelperThreadState
 (
 )
@@ -8660,6 +8655,11 @@ remove
 list
 &
 i
+)
+;
+js_delete
+(
+task
 )
 ;
 }
