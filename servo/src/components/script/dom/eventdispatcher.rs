@@ -230,10 +230,6 @@ eventtarget
 get_listeners_for
 (
 type_
-.
-clone
-(
-)
 Capturing
 )
 {
@@ -352,10 +348,6 @@ eventtarget
 get_listeners
 (
 type_
-.
-clone
-(
-)
 )
 ;
 for
@@ -447,10 +439,6 @@ eventtarget
 get_listeners_for
 (
 type_
-.
-clone
-(
-)
 Bubbling
 )
 {
