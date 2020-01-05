@@ -609,9 +609,6 @@ class
 ImageContainerChild
 ;
 class
-PImageContainerChild
-;
-class
 SharedPlanarYCbCrImage
 ;
 class
@@ -1591,12 +1588,6 @@ const
 ImageCompositeNotification
 &
 aNotification
-)
-;
-PImageContainerChild
-*
-GetPImageContainerChild
-(
 )
 ;
 ImageContainerListener

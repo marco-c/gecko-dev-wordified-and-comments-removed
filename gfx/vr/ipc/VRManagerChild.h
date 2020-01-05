@@ -89,9 +89,6 @@ namespace
 layers
 {
 class
-PCompositableChild
-;
-class
 TextureClient
 ;
 }

@@ -197,9 +197,6 @@ class
 Layer
 ;
 class
-PLayerChild
-;
-class
 PLayerTransactionChild
 ;
 class

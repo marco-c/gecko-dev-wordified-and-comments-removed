@@ -112,9 +112,6 @@ class
 CompositableChild
 ;
 class
-PCompositableChild
-;
-class
 TextureClientRecycleAllocator
 ;
 class
