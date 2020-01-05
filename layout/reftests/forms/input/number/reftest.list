@@ -441,12 +441,6 @@ html
 auto
 width
 :
-fails
--
-if
-(
-stylo
-)
 =
 =
 number

@@ -1,9 +1,3 @@
-fails
--
-if
-(
-stylo
-)
 =
 =
 outline
@@ -538,12 +532,6 @@ height
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 abspos
@@ -574,12 +562,6 @@ margin
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 abspos

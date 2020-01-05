@@ -37,12 +37,6 @@ if
 (
 transparentScrollbars
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 hScrollSimpleHeightQuirks
@@ -61,12 +55,6 @@ random
 if
 (
 transparentScrollbars
-)
-fails
--
-if
-(
-stylo
 )
 =
 =

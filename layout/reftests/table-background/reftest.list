@@ -176,12 +176,6 @@ html
 empty
 .
 html
-fails
--
-if
-(
-stylo
-)
 !
 =
 backgr_index

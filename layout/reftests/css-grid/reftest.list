@@ -76,12 +76,6 @@ handling
 ref
 .
 xhtml
-fails
--
-if
-(
-stylo
-)
 =
 =
 grid

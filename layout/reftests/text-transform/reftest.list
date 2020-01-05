@@ -658,12 +658,6 @@ uppercase
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 irish
@@ -682,12 +676,6 @@ lowercase
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 irish

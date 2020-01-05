@@ -76,12 +76,6 @@ skiaContent
 1
 5
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 bug559996

@@ -754,12 +754,6 @@ Android
 !
 asyncPan
 )
-fails
--
-if
-(
-stylo
-)
 !
 =
 492155

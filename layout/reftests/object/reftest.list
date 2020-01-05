@@ -721,12 +721,6 @@ to
 run
 them
 #
-fails
--
-if
-(
-stylo
-)
 =
 =
 malformed

@@ -91,12 +91,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
@@ -139,12 +133,6 @@ if
 gtkWidget
 2
 289
-)
-fails
--
-if
-(
-stylo
 )
 HTTP
 (

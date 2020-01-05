@@ -132,12 +132,6 @@ scrolled
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 fieldset
@@ -262,12 +256,6 @@ legend
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 sticky

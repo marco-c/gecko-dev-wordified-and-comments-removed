@@ -36,12 +36,6 @@ avoid
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 multicol

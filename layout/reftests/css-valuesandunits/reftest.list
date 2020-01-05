@@ -200,12 +200,6 @@ zoom
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 unit
@@ -341,12 +335,6 @@ skip
 if
 (
 Android
-)
-fails
--
-if
-(
-stylo
 )
 !
 =

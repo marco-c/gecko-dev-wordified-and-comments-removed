@@ -1,9 +1,3 @@
-fails
--
-if
-(
-stylo
-)
 =
 =
 complex
@@ -26,12 +20,6 @@ quirks
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 complex
@@ -2346,12 +2334,6 @@ standards
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 641444

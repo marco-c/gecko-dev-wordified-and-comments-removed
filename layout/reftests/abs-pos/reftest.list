@@ -1004,12 +1004,6 @@ inline
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 scrollframe
@@ -1051,12 +1045,6 @@ asyncPan
 layersGPUAccelerated
 140
 144
-)
-fails
--
-if
-(
-stylo
 )
 =
 =
