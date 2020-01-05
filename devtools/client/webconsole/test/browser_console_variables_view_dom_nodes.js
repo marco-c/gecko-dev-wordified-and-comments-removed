@@ -11,7 +11,6 @@ test
 const
 TEST_URI
 =
-'
 data
 :
 text
@@ -23,15 +22,12 @@ charset
 utf
 -
 8
-\
 <
 html
 >
-\
 <
 head
 >
-\
 <
 title
 >
@@ -46,16 +42,13 @@ view
 /
 title
 >
-\
 <
 /
 head
 >
-\
 <
 body
 >
-\
 <
 div
 >
@@ -63,7 +56,6 @@ div
 /
 div
 >
-\
 <
 div
 id
@@ -76,7 +68,6 @@ testID
 /
 div
 >
-\
 <
 div
 class
@@ -91,7 +82,6 @@ class
 /
 div
 >
-\
 <
 div
 class
@@ -109,7 +99,6 @@ class
 /
 div
 >
-\
 <
 div
 class
@@ -135,7 +124,6 @@ id
 /
 div
 >
-\
 <
 div
 class
@@ -152,7 +140,6 @@ another
 -
 class
 "
-\
 id
 =
 "
@@ -169,7 +156,6 @@ id
 /
 div
 >
-\
 <
 div
 class
@@ -184,7 +170,6 @@ start
 /
 div
 >
-\
 <
 div
 class
@@ -199,7 +184,6 @@ end
 /
 div
 >
-\
 <
 div
 class
@@ -213,17 +197,14 @@ spaces
 /
 div
 >
-\
 <
 /
 body
 >
-\
 <
 /
 html
 >
-'
 ;
 Task
 .
@@ -290,7 +271,7 @@ fetched
 "
 (
 _
-aVar
+val
 )
 =
 >
@@ -298,7 +279,7 @@ deferred
 .
 resolve
 (
-aVar
+val
 )
 )
 ;
@@ -460,6 +441,9 @@ and
 -
 id
 .
+"
++
+"
 multiple
 -
 classes
