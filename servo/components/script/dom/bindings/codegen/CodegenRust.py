@@ -19106,7 +19106,7 @@ libc
 c_uint
 '
 '
-argc
+_argc
 '
 )
                 
@@ -30256,7 +30256,7 @@ mut
 JSObject
 '
 '
-receiver
+_receiver
 '
 )
 Argument
@@ -30883,7 +30883,7 @@ mut
 JSObject
 '
 '
-proxy
+_proxy
 '
 )
 ]
@@ -31726,7 +31726,7 @@ mut
 JSFreeOp
 '
 '
-fop
+_fop
 '
 )
 Argument
