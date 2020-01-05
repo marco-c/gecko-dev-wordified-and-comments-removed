@@ -2011,6 +2011,10 @@ py
 cross
 -
 opt
+-
+st
+-
+an
 '
 :
 '
@@ -2021,7 +2025,7 @@ releng_sub_
 s_configs
 /
 %
-s_cross_opt
+s_cross_opt_st_an
 .
 py
 '
