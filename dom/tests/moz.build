@@ -382,15 +382,6 @@ ini
 '
 mochitest
 /
-webcomponents
-/
-chrome
-.
-ini
-'
-'
-mochitest
-/
 whatwg
 /
 chrome
