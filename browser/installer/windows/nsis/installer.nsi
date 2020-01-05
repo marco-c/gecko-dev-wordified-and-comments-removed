@@ -328,11 +328,7 @@ macro
 define
 NO_STARTMENU_DIR
 ;
-On
-Vista
-and
-above
-attempt
+Attempt
 to
 elevate
 Standard
@@ -1477,10 +1473,6 @@ Remove
 the
 updates
 directory
-for
-Vista
-and
-above
 {
 CleanUpdateDirectories
 }
@@ -2450,7 +2442,6 @@ Start
 Menu
 Internet
 and
-Vista
 Registered
 App
 HKLM
@@ -2594,7 +2585,6 @@ Start
 Menu
 Internet
 and
-Vista
 Registered
 App
 HKCU
@@ -3079,10 +3069,6 @@ the
 permitted
 LSP
 Categories
-for
-WinVista
-and
-above
 {
 SetAppLSPCategories
 }
@@ -4033,12 +4019,6 @@ StrCpy
 0
 "
 "
-{
-If
-}
-{
-AtLeastWinVista
-}
 AppAssocReg
 :
 :
@@ -4117,9 +4097,6 @@ command
 "
 "
 "
-{
-EndIf
-}
 {
 EndIf
 }

@@ -238,11 +238,7 @@ addplugindir
 .
 /
 ;
-On
-Vista
-and
-above
-attempt
+Attempt
 to
 elevate
 Standard
@@ -1593,10 +1589,6 @@ Remove
 the
 updates
 directory
-for
-Vista
-and
-above
 {
 un
 .
