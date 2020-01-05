@@ -400,8 +400,6 @@ attribute
 DOMString
 compatMode
 ;
-/
-/
 readonly
 attribute
 DOMString
