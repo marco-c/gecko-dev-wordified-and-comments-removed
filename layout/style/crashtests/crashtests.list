@@ -887,12 +887,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-stylo
-)
 pref
 (
 dom
@@ -912,9 +906,6 @@ load
 2
 .
 html
-#
-bug
-1323712
 load
 1161366
 -
