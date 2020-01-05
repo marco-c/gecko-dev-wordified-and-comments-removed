@@ -367,6 +367,10 @@ static
 bool
 mDriverInfoObserverInitialized
 ;
+static
+bool
+mShutdownOccurred
+;
 virtual
 nsString
 Model
