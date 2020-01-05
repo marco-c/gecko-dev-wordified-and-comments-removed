@@ -4754,10 +4754,6 @@ Clear
 (
 )
 ;
-mEncrypted
-=
-true
-;
 }
 {
 MonitorAutoLock

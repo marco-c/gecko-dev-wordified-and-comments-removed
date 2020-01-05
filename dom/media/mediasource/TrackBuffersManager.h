@@ -952,9 +952,6 @@ InitPromise
 >
 mDemuxerInitRequest
 ;
-bool
-mEncrypted
-;
 void
 OnDemuxFailed
 (
