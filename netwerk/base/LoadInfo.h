@@ -197,9 +197,6 @@ aTriggeringPrincipal
 nsIPrincipal
 *
 aPrincipalToInherit
-nsIPrincipal
-*
-aSandboxedLoadingPrincipal
 nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
@@ -346,12 +343,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipalToInherit
-;
-nsCOMPtr
-<
-nsIPrincipal
->
-mSandboxedLoadingPrincipal
 ;
 nsWeakPtr
 mLoadingContext
