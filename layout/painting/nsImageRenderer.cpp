@@ -2459,6 +2459,7 @@ DrawBackgroundImage
 (
 *
 ctx
+mForFrame
 aPresContext
 mImageContainer
 imageSize
@@ -4525,6 +4526,7 @@ aRenderingContext
 ThebesContext
 (
 )
+mForFrame
 aPresContext
 subImage
 imageSize

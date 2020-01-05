@@ -3964,6 +3964,9 @@ DrawBackgroundImage
 gfxContext
 &
 aContext
+nsIFrame
+*
+aForFrame
 nsPresContext
 *
 aPresContext
