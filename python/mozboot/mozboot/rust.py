@@ -766,14 +766,6 @@ end
 '
 '
 )
-            
-sys
-.
-stdout
-.
-flush
-(
-)
         
 else
 :
@@ -794,14 +786,6 @@ end
 =
 '
 '
-)
-            
-sys
-.
-stdout
-.
-flush
-(
 )
         
 checksum
@@ -905,6 +889,27 @@ checksums
 '
 '
     
+sys
+.
+stdout
+=
+os
+.
+fdopen
+(
+sys
+.
+stdout
+.
+fileno
+(
+)
+'
+w
+'
+0
+)
+    
 update
 =
 False
@@ -970,14 +975,6 @@ end
 =
 '
 '
-)
-    
-sys
-.
-stdout
-.
-flush
-(
 )
     
 version
