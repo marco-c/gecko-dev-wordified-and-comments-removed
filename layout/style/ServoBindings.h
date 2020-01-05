@@ -1586,6 +1586,13 @@ nsCSSValueSharedList
 CSSValueSharedList
 )
 ;
+bool
+Gecko_PropertyId_IsPrefEnabled
+(
+nsCSSPropertyID
+id
+)
+;
 #
 define
 STYLE_STRUCT
