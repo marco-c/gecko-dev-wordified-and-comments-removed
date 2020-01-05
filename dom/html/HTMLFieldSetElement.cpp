@@ -457,9 +457,9 @@ HTMLFieldSetElement
 :
 MatchListedElements
 (
-nsIContent
+Element
 *
-aContent
+aElement
 int32_t
 aNamespaceID
 nsIAtom
@@ -478,7 +478,7 @@ formControl
 =
 do_QueryInterface
 (
-aContent
+aElement
 )
 ;
 return

@@ -102,9 +102,9 @@ HTMLDataListElement
 :
 MatchOptions
 (
-nsIContent
+Element
 *
-aContent
+aElement
 int32_t
 aNamespaceID
 nsIAtom
@@ -116,7 +116,7 @@ aData
 )
 {
 return
-aContent
+aElement
 -
 >
 NodeInfo
@@ -135,7 +135,7 @@ kNameSpaceID_XHTML
 &
 &
 !
-aContent
+aElement
 -
 >
 HasAttr

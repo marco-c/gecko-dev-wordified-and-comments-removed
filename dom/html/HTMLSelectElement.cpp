@@ -3016,9 +3016,9 @@ HTMLSelectElement
 :
 MatchSelectedOptions
 (
-nsIContent
+Element
 *
-aContent
+aElement
 int32_t
 nsIAtom
 *
@@ -3035,7 +3035,7 @@ HTMLOptionElement
 :
 FromContent
 (
-aContent
+aElement
 )
 ;
 return

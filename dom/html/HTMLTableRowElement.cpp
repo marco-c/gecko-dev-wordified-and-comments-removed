@@ -473,9 +473,9 @@ static
 bool
 IsCell
 (
-nsIContent
+Element
 *
-aContent
+aElement
 int32_t
 aNamespaceID
 nsIAtom
@@ -487,7 +487,7 @@ aData
 )
 {
 return
-aContent
+aElement
 -
 >
 IsAnyOfHTMLElements

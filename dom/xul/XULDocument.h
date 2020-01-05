@@ -715,7 +715,7 @@ static
 bool
 MatchAttribute
 (
-nsIContent
+Element
 *
 aContent
 int32_t
