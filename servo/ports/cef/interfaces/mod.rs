@@ -49,10 +49,12 @@ cef_browser
 CefBrowser
 CefRunFileDialogCallback
 CefNavigationEntryVisitor
+CefPdfPrintCallback
 CefBrowserHost
 cef_browser_t
 cef_run_file_dialog_callback_t
 cef_navigation_entry_visitor_t
+cef_pdf_print_callback_t
 cef_browser_host_t
 }
 ;
@@ -787,6 +789,9 @@ types
 :
 :
 {
+cef_string_map_t
+cef_string_multimap_t
+cef_string_list_t
 cef_window_handle_t
 cef_cursor_handle_t
 cef_string_t
@@ -801,9 +806,11 @@ cef_main_args_t
 cef_color_t
 cef_mouse_event_t
 CefMouseEvent
+cef_errorcode_t
 cef_key_event_t
 CefKeyEvent
 cef_point_t
+cef_draggable_region_t
 CefValueType
 CefProcessId
 cef_settings_t
@@ -828,11 +835,11 @@ cef_cursor_info_t
 CefCursorInfo
 cef_request_context_settings_t
 CefRequestContextSettings
-cef_string_map_t
-cef_string_multimap_t
-cef_string_list_t
+cef_pdf_print_settings_t
+CefPdfPrintSettings
 cef_text_input_context_t
 cef_event_handle_t
+cef_json_parser_error_t
 cef_state_t
 cef_thread_id_t
 cef_navigation_type_t
@@ -840,7 +847,6 @@ cef_mouse_button_type_t
 cef_postdataelement_type_t
 cef_urlrequest_flags_t
 cef_urlrequest_status_t
-cef_errorcode_t
 cef_key_event_type_t
 cef_paint_element_type_t
 cef_dom_document_type_t
@@ -872,6 +878,7 @@ cef_xml_encoding_type_t
 cef_window_open_disposition_t
 cef_cursor_type_t
 cef_return_value_t
+cef_pdf_print_margin_type_t
 }
 ;
 pub

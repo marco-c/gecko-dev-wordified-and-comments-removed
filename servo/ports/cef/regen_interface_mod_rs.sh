@@ -62,13 +62,8 @@ MPL
 setopt
 extended_glob
 echo
--
-e
-(
-cat
-<
-<
-END_MPL
+\
+"
 /
 *
 This
@@ -84,8 +79,6 @@ of
 the
 Mozilla
 Public
-\
-n
 *
 License
 v
@@ -105,8 +98,6 @@ not
 distributed
 with
 this
-\
-n
 *
 file
 You
@@ -131,10 +122,7 @@ MPL
 .
 *
 /
-\
-n
-END_MPL
-)
+"
 >
 >
 |
