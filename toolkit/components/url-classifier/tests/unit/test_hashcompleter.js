@@ -1516,7 +1516,7 @@ callback
 prototype
 =
 {
-completionV2
+completion
 :
 function
 completion
