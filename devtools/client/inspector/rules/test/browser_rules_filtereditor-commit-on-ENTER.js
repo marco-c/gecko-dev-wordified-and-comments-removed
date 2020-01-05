@@ -127,7 +127,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 filterEditor
+"
+)
 ;
 let
 widget

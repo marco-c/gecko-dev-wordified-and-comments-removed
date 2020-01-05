@@ -637,7 +637,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 cubicBezier
+"
+)
 ;
 let
 widget

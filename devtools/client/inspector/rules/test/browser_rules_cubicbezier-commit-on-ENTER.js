@@ -132,7 +132,12 @@ ruleView
 .
 tooltips
 .
+getTooltip
+(
+"
 cubicBezier
+"
+)
 ;
 info
 (

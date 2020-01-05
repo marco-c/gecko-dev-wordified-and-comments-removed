@@ -185,7 +185,12 @@ ruleView
 .
 tooltips
 .
+getTooltip
+(
+"
 colorPicker
+"
+)
 ;
 let
 onColorPickerReady
@@ -385,7 +390,12 @@ ruleView
 .
 tooltips
 .
+getTooltip
+(
+"
 colorPicker
+"
+)
 ;
 onColorPickerReady
 =

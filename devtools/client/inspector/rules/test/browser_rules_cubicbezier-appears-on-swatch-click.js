@@ -335,7 +335,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 cubicBezier
+"
+)
 ;
 ok
 (

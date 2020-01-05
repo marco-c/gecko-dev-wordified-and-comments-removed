@@ -616,7 +616,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 colorPicker
+"
+)
 ;
 info
 (
@@ -736,7 +741,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 cubicBezier
+"
+)
 ;
 info
 (

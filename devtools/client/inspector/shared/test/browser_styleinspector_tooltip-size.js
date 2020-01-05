@@ -159,7 +159,12 @@ ruleView
 .
 tooltips
 .
+getTooltip
+(
+"
 previewTooltip
+"
+)
 ;
 let
 panel
@@ -387,7 +392,12 @@ ruleView
 .
 tooltips
 .
+getTooltip
+(
+"
 colorPicker
+"
+)
 ;
 let
 onReady

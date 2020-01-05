@@ -81,7 +81,12 @@ view
 .
 tooltips
 .
+getTooltip
+(
+"
 filterEditor
+"
+)
 ;
 let
 onRuleViewChanged
