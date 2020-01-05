@@ -144,6 +144,10 @@ msg
 ;
 extern
 crate
+rand
+;
+extern
+crate
 string_cache
 ;
 extern
