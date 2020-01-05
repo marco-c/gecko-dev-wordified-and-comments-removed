@@ -136,17 +136,6 @@ content
 )
 CSS_ANON_BOX
 (
-mozButtonLabel
-"
-:
--
-moz
--
-buttonlabel
-"
-)
-CSS_ANON_BOX
-(
 cellContent
 "
 :
