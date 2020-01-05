@@ -40,17 +40,6 @@ gecko
 .
 fxa
 .
-FxAccountDeviceRegistrator
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-fxa
-.
 authenticator
 .
 AndroidFxAccount
