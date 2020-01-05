@@ -303,14 +303,6 @@ h
 "
 )
 ;
-typedef
-TypedArrayObject
-SomeTypedArray
-;
-typedef
-ArrayBufferObject
-BufferType
-;
 template
 <
 typename
