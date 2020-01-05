@@ -35447,7 +35447,7 @@ command
 mIsEnabled
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :

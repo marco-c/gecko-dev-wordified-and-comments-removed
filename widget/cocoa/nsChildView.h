@@ -1236,7 +1236,9 @@ indexString
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 GetSelectionAsPlaintext
 (
 nsAString
