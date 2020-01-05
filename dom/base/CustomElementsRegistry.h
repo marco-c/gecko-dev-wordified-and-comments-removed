@@ -535,6 +535,17 @@ CandidateMap
 DefinitionMap
 mCustomDefinitions
 ;
+typedef
+nsRefPtrHashtable
+<
+nsISupportsHashKey
+Promise
+>
+WhenDefinedPromiseMap
+;
+WhenDefinedPromiseMap
+mWhenDefinedPromiseMap
+;
 CandidateMap
 mCandidatesMap
 ;
@@ -711,7 +722,7 @@ WhenDefined
 const
 nsAString
 &
-name
+aName
 ErrorResult
 &
 aRv
