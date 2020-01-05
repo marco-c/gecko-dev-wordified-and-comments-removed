@@ -3360,13 +3360,13 @@ adjustedTime
 mMaster
 -
 >
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 )
 ;
 mMaster
 -
 >
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 =
 std
 :
@@ -3382,7 +3382,7 @@ THRESHOLD_FACTOR
 mMaster
 -
 >
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 )
 ;
 SLOG
@@ -3394,13 +3394,13 @@ decode
 set
 "
 "
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 =
 %
 "
 PRId64
 "
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 =
 %
 "
@@ -3416,7 +3416,7 @@ ToMicroseconds
 mMaster
 -
 >
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 .
 ToMicroseconds
 (
@@ -11486,7 +11486,7 @@ detail
 :
 LOW_AUDIO_THRESHOLD
 )
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 (
 detail
 :
@@ -12319,7 +12319,7 @@ OnTaskQueue
 auto
 ampleAudioUSecs
 =
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 .
 ToMicroseconds
 (
@@ -17235,7 +17235,7 @@ mAudioCaptured
 =
 aCaptured
 ;
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 =
 mAudioCaptured
 ?

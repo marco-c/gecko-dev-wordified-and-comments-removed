@@ -1418,7 +1418,7 @@ media
 :
 :
 TimeUnit
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 ;
 uint32_t
 AudioPrerollUsecs
@@ -1434,7 +1434,7 @@ OnTaskQueue
 )
 ;
 return
-mAmpleAudioThresholdUsecs
+mAmpleAudioThreshold
 .
 ToMicroseconds
 (
