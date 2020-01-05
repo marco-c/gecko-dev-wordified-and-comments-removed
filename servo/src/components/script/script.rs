@@ -109,6 +109,10 @@ log
 ;
 extern
 crate
+azure
+;
+extern
+crate
 debug
 ;
 extern
@@ -329,6 +333,10 @@ blob
 pub
 mod
 browsercontext
+;
+pub
+mod
+canvasrenderingcontext2d
 ;
 pub
 mod
