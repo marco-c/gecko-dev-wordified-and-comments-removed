@@ -106,6 +106,7 @@ specified
 {
 Angle
 BorderStyle
+GridLine
 Time
 UrlOrNone
 }

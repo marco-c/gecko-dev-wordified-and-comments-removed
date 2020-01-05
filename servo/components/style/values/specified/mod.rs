@@ -124,6 +124,16 @@ use
 self
 :
 :
+grid
+:
+:
+GridLine
+;
+pub
+use
+self
+:
+:
 image
 :
 :
@@ -214,6 +224,10 @@ CalcUnit
 pub
 mod
 basic_shape
+;
+pub
+mod
+grid
 ;
 pub
 mod
