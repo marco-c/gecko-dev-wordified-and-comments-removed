@@ -803,6 +803,11 @@ WebGLExtensionCompressedTextureS3TC
 cpp
 '
 '
+WebGLExtensionDebugGet
+.
+cpp
+'
+'
 WebGLExtensionDebugRendererInfo
 .
 cpp

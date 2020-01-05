@@ -141,6 +141,7 @@ EXT_sRGB
 EXT_shader_texture_lod
 EXT_texture_filter_anisotropic
 EXT_disjoint_timer_query
+MOZ_debug_get
 OES_element_index_uint
 OES_standard_derivatives
 OES_texture_float
