@@ -1492,6 +1492,9 @@ FlushType
 Display
 |
 |
+mNeedThrottledAnimationFlush
+|
+|
 mInFlush
 ;
 }
@@ -1504,6 +1507,12 @@ SetNeedStyleFlush
 inline
 void
 SetNeedLayoutFlush
+(
+)
+;
+inline
+void
+SetNeedThrottledAnimationFlush
 (
 )
 ;
@@ -4143,6 +4152,11 @@ mNeedLayoutFlush
 ;
 bool
 mNeedStyleFlush
+:
+1
+;
+bool
+mNeedThrottledAnimationFlush
 :
 1
 ;

@@ -1122,7 +1122,7 @@ PresShell
 )
 -
 >
-SetNeedStyleFlush
+SetNeedThrottledAnimationFlush
 (
 )
 ;
