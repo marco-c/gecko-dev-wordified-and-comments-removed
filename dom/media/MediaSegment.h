@@ -321,7 +321,9 @@ mLastPrincipalHandle
 void
 SetLastPrincipalHandle
 (
+const
 PrincipalHandle
+&
 aLastPrincipalHandle
 )
 {
