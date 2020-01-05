@@ -1329,6 +1329,8 @@ deviceUniqueIdUTF8Length
 char
 *
 uint32_t
+pid_t
+*
 )
 {
 if

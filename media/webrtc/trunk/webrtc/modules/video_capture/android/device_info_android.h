@@ -157,6 +157,11 @@ uint32_t
 productUniqueIdUTF8Length
 =
 0
+pid_t
+*
+pid
+=
+0
 )
 ;
 virtual
