@@ -501,6 +501,7 @@ return
 nullptr
 ;
 }
+const
 Element
 *
 el
@@ -851,7 +852,14 @@ uint32_t
 aFlags
 )
 {
+const_cast
+<
+nsINode
+*
+>
+(
 aNode
+)
 -
 >
 SetFlags
@@ -869,7 +877,14 @@ uint32_t
 aFlags
 )
 {
+const_cast
+<
+nsINode
+*
+>
+(
 aNode
+)
 -
 >
 UnsetFlags
@@ -1028,6 +1043,7 @@ node
 "
 )
 ;
+const
 Element
 *
 aElement

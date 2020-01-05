@@ -212,6 +212,7 @@ type_
 )
 typedef
 type_
+const
 *
 type_
 #
@@ -226,6 +227,7 @@ type_
 )
 typedef
 type_
+const
 *
 type_
 #
