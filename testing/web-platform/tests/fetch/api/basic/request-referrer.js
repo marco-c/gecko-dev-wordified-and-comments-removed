@@ -41,6 +41,7 @@ testReferrer
 (
 referrer
 expected
+desc
 )
 {
 promise_test
@@ -162,6 +163,7 @@ empty
 )
 ;
 }
+desc
 )
 ;
 }
@@ -172,11 +174,17 @@ about
 :
 client
 "
-window
+self
 .
 location
 .
 href
+'
+about
+:
+client
+referrer
+'
 )
 ;
 var
@@ -190,7 +198,7 @@ URL
 /
 foo
 "
-window
+self
 .
 location
 )
@@ -201,6 +209,10 @@ testReferrer
 (
 fooURL
 fooURL
+'
+url
+referrer
+'
 )
 ;
 done
