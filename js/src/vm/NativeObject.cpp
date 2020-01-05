@@ -3764,12 +3764,13 @@ previous
 if
 (
 !
-obj
--
->
+NativeObject
+:
+:
 clearFlag
 (
 cx
+obj
 BaseShape
 :
 :
