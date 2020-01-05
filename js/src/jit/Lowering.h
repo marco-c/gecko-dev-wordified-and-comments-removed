@@ -1426,9 +1426,9 @@ ins
 )
 ;
 void
-visitGetNextMapEntryForIterator
+visitGetNextEntryForIterator
 (
-MGetNextMapEntryForIterator
+MGetNextEntryForIterator
 *
 ins
 )

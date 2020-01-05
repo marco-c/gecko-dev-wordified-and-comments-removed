@@ -4686,11 +4686,16 @@ knownValueType
 )
 ;
 InliningStatus
-inlineGetNextMapEntryForIterator
+inlineGetNextEntryForIterator
 (
 CallInfo
 &
 callInfo
+MGetNextEntryForIterator
+:
+:
+Mode
+mode
 )
 ;
 InliningStatus

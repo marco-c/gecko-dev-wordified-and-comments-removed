@@ -546,6 +546,12 @@ IntrinsicGetNextMapEntryForIterator
 \
 _
 (
+IntrinsicGetNextSetEntryForIterator
+)
+\
+\
+_
+(
 IntrinsicArrayBufferByteLength
 )
 \
