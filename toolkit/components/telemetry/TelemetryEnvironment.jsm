@@ -6675,6 +6675,9 @@ hasAVX
 hasAVX2
 "
 "
+hasAES
+"
+"
 hasEDSP
 "
 "
