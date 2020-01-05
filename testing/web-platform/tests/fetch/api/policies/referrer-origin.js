@@ -35,6 +35,17 @@ js
 "
 )
 ;
+importScripts
+(
+"
+nested
+-
+policy
+.
+js
+"
+)
+;
 }
 var
 referrerOrigin
