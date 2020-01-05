@@ -589,6 +589,9 @@ AlignFixedAndStickyLayers
 Layer
 *
 aTransformedSubtreeRoot
+Layer
+*
+aStartTraversalAt
 FrameMetrics
 :
 :
