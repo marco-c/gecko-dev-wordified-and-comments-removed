@@ -93,14 +93,6 @@ DIRS
 converters
 '
 ]
-TEST_DIRS
-+
-=
-[
-'
-test
-'
-]
 XPIDL_SOURCES
 +
 =
