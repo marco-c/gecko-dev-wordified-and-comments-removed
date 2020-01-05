@@ -41,6 +41,7 @@ nsDataHandler
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 Create
 (
@@ -58,6 +59,7 @@ aResult
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 ParseURI
 (
