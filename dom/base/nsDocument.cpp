@@ -17120,6 +17120,11 @@ mPresShell
 IsEventHandlingEnabled
 (
 )
+|
+|
+AnimationsPaused
+(
+)
 )
 {
 return
@@ -44417,6 +44422,12 @@ mPresShell
 &
 &
 IsEventHandlingEnabled
+(
+)
+&
+&
+!
+AnimationsPaused
 (
 )
 )
