@@ -96,10 +96,6 @@ setInputMethodActive
 :
 {
 }
-setNFCFocus
-:
-{
-}
 findAll
 :
 {

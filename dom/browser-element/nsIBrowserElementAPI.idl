@@ -637,14 +637,6 @@ uint32_t
 audioChannel
 )
 ;
-void
-setNFCFocus
-(
-in
-boolean
-isFocus
-)
-;
 nsIDOMDOMRequest
 executeScript
 (

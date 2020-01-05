@@ -586,16 +586,6 @@ ErrorResult
 aRv
 )
 ;
-void
-SetNFCFocus
-(
-bool
-isFocus
-ErrorResult
-&
-aRv
-)
-;
 static
 void
 GenerateAllowedAudioChannels

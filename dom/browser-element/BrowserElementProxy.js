@@ -935,14 +935,6 @@ defineNoReturnMethod
 zoom
 '
 )
-setNFCFocus
-:
-defineNoReturnMethod
-(
-'
-setNFCFocus
-'
-)
 findAll
 :
 defineNoReturnMethod
