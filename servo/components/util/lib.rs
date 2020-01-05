@@ -125,6 +125,10 @@ extern
 crate
 core
 ;
+#
+[
+macro_use
+]
 extern
 crate
 euclid

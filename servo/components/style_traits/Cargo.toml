@@ -71,11 +71,6 @@ serde
 serde_macros
 "
 "
-euclid
-/
-plugins
-"
-"
 cssparser
 /
 heap_size
@@ -105,9 +100,9 @@ euclid
 "
 0
 .
-7
+8
 .
-1
+2
 "
 heapsize
 =

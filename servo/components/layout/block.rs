@@ -352,7 +352,7 @@ util
 geometry
 :
 :
-MAX_RECT
+max_rect
 ;
 const
 DISPLAY_PORT_SIZE_FACTOR
@@ -12903,7 +12903,9 @@ base
 .
 stacking_relative_position_of_display_port
 =
-MAX_RECT
+max_rect
+(
+)
 ;
 }
 let
@@ -13052,7 +13054,9 @@ base
 .
 stacking_relative_position_of_display_port
 =
-MAX_RECT
+max_rect
+(
+)
 ;
 }
 _

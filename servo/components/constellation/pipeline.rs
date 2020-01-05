@@ -462,8 +462,8 @@ Option
 <
 TypedSize2D
 <
-PagePx
 f32
+PagePx
 >
 >
 pub
@@ -602,8 +602,8 @@ Option
 <
 TypedSize2D
 <
-PagePx
 f32
+PagePx
 >
 >
 pub
@@ -611,9 +611,9 @@ device_pixel_ratio
 :
 ScaleFactor
 <
+f32
 ViewportPx
 DevicePixel
-f32
 >
 pub
 script_chan
@@ -1584,8 +1584,8 @@ Option
 <
 TypedSize2D
 <
-PagePx
 f32
+PagePx
 >
 >
 visible

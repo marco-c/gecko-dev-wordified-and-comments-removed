@@ -2816,8 +2816,8 @@ Option
 <
 TypedSize2D
 <
-PagePx
 f32
+PagePx
 >
 >
 script_channel
@@ -3953,7 +3953,7 @@ handle_frame_size_msg
 (
 pipeline_id
 &
-Size2D
+TypedSize2D
 :
 :
 from_untyped
@@ -7164,8 +7164,8 @@ size
 &
 TypedSize2D
 <
-PagePx
 f32
+PagePx
 >
 )
 {
@@ -13365,7 +13365,7 @@ if
 size
 =
 =
-Size2D
+TypedSize2D
 :
 :
 zero

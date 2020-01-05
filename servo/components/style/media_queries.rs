@@ -612,8 +612,8 @@ viewport_size
 :
 TypedSize2D
 <
-ViewportPx
 f32
+ViewportPx
 >
 }
 impl
@@ -630,8 +630,8 @@ viewport_size
 :
 TypedSize2D
 <
-ViewportPx
 f32
+ViewportPx
 >
 )
 -
@@ -681,10 +681,6 @@ self
 viewport_size
 .
 width
-.
-get
-(
-)
 )
 Au
 :
@@ -696,10 +692,6 @@ self
 viewport_size
 .
 height
-.
-get
-(
-)
 )
 )
 }

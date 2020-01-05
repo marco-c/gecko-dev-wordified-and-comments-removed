@@ -254,8 +254,8 @@ Option
 <
 TypedSize2D
 <
-PagePx
 f32
+PagePx
 >
 >
 pub
