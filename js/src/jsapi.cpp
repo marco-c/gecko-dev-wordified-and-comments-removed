@@ -12722,6 +12722,7 @@ assertSameCompartment
 cx
 obj
 id
+v
 receiver
 )
 ;
@@ -12769,6 +12770,7 @@ assertSameCompartment
 cx
 obj
 id
+v
 )
 ;
 RootedValue
@@ -13551,6 +13553,7 @@ assertSameCompartment
 (
 cx
 obj
+props
 )
 ;
 MOZ_ASSERT
