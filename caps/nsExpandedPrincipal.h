@@ -173,6 +173,15 @@ aBaseDomain
 )
 override
 ;
+NS_IMETHOD
+GetAddonId
+(
+nsAString
+&
+aAddonId
+)
+override
+;
 virtual
 bool
 AddonHasPermission
