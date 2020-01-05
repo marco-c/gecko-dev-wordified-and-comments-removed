@@ -1143,13 +1143,6 @@ RESPATH
 /
 components
 /
-dom_telephony
-.
-xpt
-RESPATH
-/
-components
-/
 dom_traversal
 .
 xpt
