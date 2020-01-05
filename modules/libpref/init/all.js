@@ -43659,3 +43659,15 @@ false
 ;
 #
 endif
+pref
+(
+"
+browser
+.
+storageManager
+.
+enabled
+"
+false
+)
+;
