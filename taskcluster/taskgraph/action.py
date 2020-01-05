@@ -1031,6 +1031,8 @@ filters
 ]
         
 if
+filtered
+and
 all
 (
 [
