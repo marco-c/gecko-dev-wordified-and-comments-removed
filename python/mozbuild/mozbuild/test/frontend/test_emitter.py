@@ -3586,6 +3586,26 @@ paths
 expected
 )
     
+unittest
+.
+skip
+(
+'
+Bug
+1304316
+-
+Items
+in
+the
+second
+set
+but
+not
+the
+first
+'
+)
+    
 def
 test_test_manifest_shared_support_files
 (

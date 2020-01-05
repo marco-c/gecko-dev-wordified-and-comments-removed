@@ -930,6 +930,14 @@ DIRS
 /
 testing
 /
+firefox
+-
+ui
+'
+'
+/
+testing
+/
 marionette
 '
 ]
