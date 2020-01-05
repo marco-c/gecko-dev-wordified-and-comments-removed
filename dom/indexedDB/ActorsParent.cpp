@@ -75271,6 +75271,14 @@ mDirectoryLock
 =
 nullptr
 ;
+RefPtr
+<
+Maintenance
+>
+kungFuDeathGrip
+=
+this
+;
 mQuotaClient
 -
 >
