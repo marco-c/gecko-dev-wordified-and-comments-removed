@@ -21,6 +21,15 @@ include
 "
 asmjs
 /
+WasmBinaryFormat
+.
+h
+"
+#
+include
+"
+asmjs
+/
 WasmBinaryIterator
 .
 h

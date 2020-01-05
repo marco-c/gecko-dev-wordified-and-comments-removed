@@ -74,6 +74,15 @@ include
 "
 asmjs
 /
+WasmBinaryFormat
+.
+h
+"
+#
+include
+"
+asmjs
+/
 WasmGenerator
 .
 h

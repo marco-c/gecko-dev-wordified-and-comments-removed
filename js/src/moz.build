@@ -1276,6 +1276,13 @@ cpp
 '
 asmjs
 /
+WasmBinaryFormat
+.
+cpp
+'
+'
+asmjs
+/
 WasmBinaryIterator
 .
 cpp
