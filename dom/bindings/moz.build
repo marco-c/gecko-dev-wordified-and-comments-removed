@@ -265,6 +265,11 @@ WebIDLGlobalNameHash
 .
 h
 '
+'
+XrayExpandoClass
+.
+h
+'
 ]
 #
 Generated
