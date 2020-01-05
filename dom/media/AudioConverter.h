@@ -426,7 +426,6 @@ yet
 explicit
 AudioDataBuffer
 (
-const
 AlignedFloatBuffer
 &
 &
