@@ -602,6 +602,14 @@ use
 url
 :
 :
+Origin
+as
+UrlOrigin
+;
+use
+url
+:
+:
 Url
 ;
 use
@@ -1751,6 +1759,7 @@ String
 Url
 AtomicBool
 AtomicUsize
+UrlOrigin
 Uuid
 )
 ;
