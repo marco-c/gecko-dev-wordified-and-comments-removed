@@ -1,4 +1,7 @@
 use
+IFrameLoadInfo
+;
+use
 canvas_traits
 :
 :
@@ -41,7 +44,6 @@ constellation_msg
 {
 AnimationState
 DocumentState
-IframeLoadInfo
 NavigationDirection
 }
 ;
@@ -280,7 +282,7 @@ PipelineId
 )
 ScriptLoadedURLInIFrame
 (
-IframeLoadInfo
+IFrameLoadInfo
 )
 SetClipboardContents
 (
