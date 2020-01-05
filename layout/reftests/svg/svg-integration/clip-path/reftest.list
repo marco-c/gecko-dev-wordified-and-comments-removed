@@ -315,6 +315,14 @@ stripes
 ref
 .
 html
+fuzzy
+-
+if
+(
+skiaContent
+1
+20
+)
 =
 =
 clip
