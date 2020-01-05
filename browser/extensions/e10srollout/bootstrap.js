@@ -93,13 +93,6 @@ release
 1
 .
 0
-"
-esr
-"
-:
-1
-.
-0
 }
 ;
 const
@@ -119,13 +112,6 @@ release
 :
 "
 51set1
-"
-"
-esr
-"
-:
-"
-esrA
 "
 }
 ;
