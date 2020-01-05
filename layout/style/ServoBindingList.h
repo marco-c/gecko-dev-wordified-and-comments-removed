@@ -409,6 +409,10 @@ GROUP_RULE_FUNCS
 (
 Supports
 )
+GROUP_RULE_FUNCS
+(
+Document
+)
 #
 undef
 GROUP_RULE_FUNCS
@@ -495,6 +499,16 @@ SERVO_BINDING_FUNC
 Servo_SupportsRule_GetConditionText
 void
 RawServoSupportsRuleBorrowed
+rule
+nsAString
+*
+result
+)
+SERVO_BINDING_FUNC
+(
+Servo_DocumentRule_GetConditionText
+void
+RawServoDocumentRuleBorrowed
 rule
 nsAString
 *

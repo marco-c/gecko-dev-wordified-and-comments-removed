@@ -618,6 +618,11 @@ ServoDeclarationBlock
 h
 '
 '
+ServoDocumentRule
+.
+h
+'
+'
 ServoElementSnapshot
 .
 h
@@ -1232,6 +1237,11 @@ cpp
 '
 '
 ServoDeclarationBlock
+.
+cpp
+'
+'
+ServoDocumentRule
 .
 cpp
 '
