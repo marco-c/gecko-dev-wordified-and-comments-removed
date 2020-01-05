@@ -11139,7 +11139,7 @@ JS_FN
 instantiate
 "
 WebAssembly_instantiate
-2
+1
 0
 )
 JS_FN
