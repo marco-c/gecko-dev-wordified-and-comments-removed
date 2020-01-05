@@ -264,7 +264,6 @@ image
 1c
 .
 html
-fails
 =
 =
 mask
@@ -1326,7 +1325,6 @@ contentBox
 1a
 .
 html
-fails
 =
 =
 clip
@@ -1347,7 +1345,6 @@ contentBox
 1b
 .
 html
-fails
 =
 =
 clip
@@ -1396,7 +1393,6 @@ paddingBox
 1a
 .
 html
-fails
 =
 =
 clip
@@ -1417,7 +1413,6 @@ paddingBox
 1b
 .
 html
-fails
 =
 =
 clip
@@ -1463,7 +1458,6 @@ borderBox
 1a
 .
 html
-fails
 =
 =
 clip
@@ -1484,7 +1478,6 @@ borderBox
 1b
 .
 html
-fails
 =
 =
 clip
@@ -1505,7 +1498,6 @@ borderBox
 1c
 .
 html
-fails
 =
 =
 clip
@@ -1526,7 +1518,6 @@ marginBox
 1a
 .
 html
-fails
 =
 =
 clip
@@ -1547,7 +1538,6 @@ fillBox
 1a
 .
 html
-fails
 =
 =
 clip
@@ -1568,7 +1558,6 @@ strokeBox
 1a
 .
 html
-fails
 =
 =
 clip
@@ -1589,7 +1578,6 @@ strokeBox
 1b
 .
 html
-fails
 =
 =
 clip
@@ -1610,7 +1598,6 @@ viewBox
 1a
 .
 html
-fails
 =
 =
 clip
@@ -1631,7 +1618,6 @@ viewBox
 1b
 .
 html
-fails
 =
 =
 clip

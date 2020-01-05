@@ -257,7 +257,6 @@ html
 extref
 .
 xhtml
-fails
 =
 =
 clipPath
@@ -352,7 +351,6 @@ html
 02
 .
 xhtml
-fails
 =
 =
 conditions
@@ -373,7 +371,6 @@ svg
 01
 .
 xhtml
-fails
 =
 =
 conditions
@@ -469,7 +466,6 @@ svg
 03
 .
 xhtml
-fails
 =
 =
 dynamic
@@ -706,7 +702,6 @@ html
 02
 .
 xhtml
-fails
 =
 =
 patterned
@@ -735,7 +730,6 @@ html
 01
 .
 xhtml
-fails
 =
 =
 patterned

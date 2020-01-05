@@ -176,7 +176,6 @@ middle
 01
 .
 svg
-fails
 =
 =
 border
@@ -1570,7 +1569,6 @@ rect
 03
 .
 svg
-fails
 =
 =
 dynamic
@@ -3266,7 +3264,6 @@ transform
 01
 .
 svg
-fails
 =
 =
 import
@@ -4520,7 +4517,6 @@ svg
 01
 .
 svg
-fails
 =
 =
 overflow
@@ -4545,7 +4541,6 @@ svg
 02a
 .
 xhtml
-fails
 =
 =
 overflow
@@ -4570,7 +4565,6 @@ svg
 02b
 .
 xhtml
-fails
 =
 =
 overflow
@@ -4620,7 +4614,6 @@ svg
 02d
 .
 xhtml
-fails
 =
 =
 overflow
@@ -5654,7 +5647,6 @@ type
 attribute
 .
 svg
-fails
 =
 =
 svg
@@ -5675,7 +5667,6 @@ foreignObject
 01
 .
 xhtml
-fails
 =
 =
 svg
@@ -6691,7 +6682,6 @@ textPath
 04
 .
 svg
-fails
 =
 =
 textPath
@@ -7704,7 +7694,6 @@ valid
 01
 .
 svg
-fails
 =
 =
 viewBox
