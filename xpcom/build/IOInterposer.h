@@ -316,6 +316,11 @@ Disable
 )
 ;
 void
+Enable
+(
+)
+;
+void
 Report
 (
 IOInterposeObserver
