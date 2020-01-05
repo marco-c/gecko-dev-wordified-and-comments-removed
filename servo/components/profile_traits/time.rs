@@ -202,6 +202,7 @@ ScriptFileRead
 ScriptImageCacheMsg
 ScriptInputEvent
 ScriptNetworkEvent
+ScriptPlannedNavigation
 ScriptResize
 ScriptSetViewport
 ScriptTimerEvent
