@@ -1054,9 +1054,6 @@ frame
 return
 false
 ;
-bool
-ignore
-;
 double
 when
 =
@@ -1073,7 +1070,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignore
 )
 )
 .

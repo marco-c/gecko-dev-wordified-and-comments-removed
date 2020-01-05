@@ -442,9 +442,6 @@ PRMJ_NowInit
 (
 )
 ;
-bool
-ignored
-;
 mozilla
 :
 :
@@ -453,7 +450,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignored
 )
 ;
 #

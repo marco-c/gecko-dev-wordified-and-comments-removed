@@ -1696,8 +1696,10 @@ TimeStamp
 ProcessCreation
 (
 bool
-&
+*
 aIsInconsistent
+=
+nullptr
 )
 ;
 static

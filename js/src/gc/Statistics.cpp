@@ -4743,9 +4743,6 @@ slice
 .
 startFaults
 ;
-bool
-ignore
-;
 TimeStamp
 originTime
 =
@@ -4754,7 +4751,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignore
 )
 ;
 const
@@ -6393,9 +6389,6 @@ if
 msg
 )
 {
-bool
-ignoredInconsistency
-;
 double
 secSinceStart
 =
@@ -6412,7 +6405,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignoredInconsistency
 )
 )
 .

@@ -8970,9 +8970,6 @@ PS
 (
 )
 ;
-bool
-ignore
-;
 gPS
 -
 >
@@ -8987,7 +8984,6 @@ TimeStamp
 :
 ProcessCreation
 (
-ignore
 )
 )
 ;
