@@ -259,7 +259,9 @@ output
 /
 test
 /
-requireHelper
+require
+-
+helper
 .
 js
 "
