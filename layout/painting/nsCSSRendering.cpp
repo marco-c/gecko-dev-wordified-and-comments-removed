@@ -18394,9 +18394,6 @@ bgClipRect
 =
 aBGClipRect
 ;
-nsPoint
-imageTopLeft
-;
 if
 (
 NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
@@ -18409,9 +18406,8 @@ mAttachment
 &
 !
 transformedFixed
-)
-{
-if
+&
+&
 (
 aFlags
 &
@@ -18420,12 +18416,10 @@ nsCSSRendering
 :
 PAINTBG_TO_WINDOW
 )
+)
 {
 bgClipRect
-.
-IntersectRect
-(
-bgClipRect
+=
 positionArea
 +
 aBorderArea
@@ -18433,9 +18427,7 @@ aBorderArea
 TopLeft
 (
 )
-)
 ;
-}
 }
 int
 repeatX
@@ -18518,6 +18510,9 @@ SetPreferredSize
 intrinsicSize
 imageSize
 )
+;
+nsPoint
+imageTopLeft
 ;
 nsImageRenderer
 :
