@@ -77,6 +77,12 @@ true
 type
 :
 true
+cookies
+:
+false
+setCookies
+:
+false
 transferred
 :
 true
