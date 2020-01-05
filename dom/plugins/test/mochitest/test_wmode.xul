@@ -447,12 +447,10 @@ p2
 hasWidget
 (
 )
-false
+true
 "
 Linux
-does
-not
-support
+supports
 windowed
 plugins
 "
