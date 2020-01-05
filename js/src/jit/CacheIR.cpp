@@ -7500,7 +7500,7 @@ if
 mozilla
 :
 :
-NumberIsInt32
+NumberEqualsInt32
 (
 index
 .
