@@ -9972,6 +9972,15 @@ mVideoCompleted
 =
 true
 ;
+mMaster
+-
+>
+mAudioDataRequest
+.
+DisconnectIfExists
+(
+)
+;
 }
 SeekTarget
 target
