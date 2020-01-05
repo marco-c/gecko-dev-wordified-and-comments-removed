@@ -203,6 +203,15 @@ stylesheets
 Stylesheet
 ;
 use
+style
+:
+:
+viewport
+:
+:
+ViewportRule
+;
+use
 url
 :
 :
@@ -238,6 +247,10 @@ StylesheetLoadResponder
 +
 Send
 >
+)
+AddMetaViewport
+(
+ViewportRule
 )
 SetQuirksMode
 Reflow
