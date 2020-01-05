@@ -665,13 +665,6 @@ h
 #
 include
 "
-nsIEditorIMESupport
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h

@@ -183,13 +183,6 @@ h
 #
 include
 "
-nsIEditorIMESupport
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

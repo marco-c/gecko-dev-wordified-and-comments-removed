@@ -11303,20 +11303,6 @@ nsIDocShell
 editor
 ;
 var
-editorIMESupport
-=
-editor
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIEditorIMESupport
-)
-;
-var
 flags
 =
 editor
@@ -11397,7 +11383,7 @@ kIMEStateChangeFlags
 ;
 ok
 (
-editorIMESupport
+editor
 .
 composing
 description
@@ -11447,7 +11433,7 @@ kIMEStateChangeFlags
 ;
 ok
 (
-editorIMESupport
+editor
 .
 composing
 description
@@ -11495,7 +11481,7 @@ flags
 ;
 ok
 (
-editorIMESupport
+editor
 .
 composing
 description

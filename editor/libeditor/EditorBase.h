@@ -437,8 +437,6 @@ class
 EditorBase
 :
 public
-nsIEditor
-public
 nsIEditorIMESupport
 public
 nsSupportsWeakReference

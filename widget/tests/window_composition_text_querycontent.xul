@@ -1053,15 +1053,6 @@ interfaces
 nsIDOMNSEditableElement
 ;
 const
-nsIEditorIMESupport
-=
-Components
-.
-interfaces
-.
-nsIEditorIMESupport
-;
-const
 nsIInterfaceRequestor
 =
 Components
@@ -1122,7 +1113,7 @@ aFunc
 }
 }
 function
-getEditorIMESupport
+getEditor
 (
 aNode
 )
@@ -1136,11 +1127,6 @@ nsIDOMNSEditableElement
 )
 .
 editor
-.
-QueryInterface
-(
-nsIEditorIMESupport
-)
 ;
 }
 function
@@ -52643,7 +52629,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -52987,7 +52973,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -53009,7 +52995,7 @@ composition
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 input
 )
@@ -53362,7 +53348,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -53703,7 +53689,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -53725,7 +53711,7 @@ composition
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 input
 )
@@ -54093,7 +54079,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -54115,7 +54101,7 @@ composition
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textareaInFrame
 )
@@ -54486,7 +54472,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -54508,7 +54494,7 @@ composition
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textareaInFrame
 )
@@ -54902,7 +54888,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -55762,7 +55748,7 @@ composition
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -56614,7 +56600,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 input
 )
@@ -56937,7 +56923,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -57261,7 +57247,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 input
 )
@@ -58043,7 +58029,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -58378,7 +58364,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 input
 )
@@ -58716,7 +58702,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -59061,7 +59047,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 input
 )
@@ -59911,7 +59897,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -64185,7 +64171,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
@@ -64385,7 +64371,7 @@ target
 ok
 (
 !
-getEditorIMESupport
+getEditor
 (
 textarea
 )
