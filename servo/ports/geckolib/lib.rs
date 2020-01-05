@@ -69,6 +69,9 @@ pub
 mod
 glue
 ;
+mod
+stylesheet_loader
+;
 #
 [
 no_mangle

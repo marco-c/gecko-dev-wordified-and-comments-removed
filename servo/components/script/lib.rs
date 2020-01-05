@@ -561,6 +561,9 @@ mod
 serviceworkerjob
 ;
 mod
+stylesheet_loader
+;
+mod
 task_source
 ;
 pub

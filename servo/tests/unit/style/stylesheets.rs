@@ -434,6 +434,7 @@ Default
 default
 (
 )
+None
 Box
 :
 :
@@ -2384,6 +2385,7 @@ Default
 default
 (
 )
+None
 error_reporter
 ParserContextExtraData
 :
