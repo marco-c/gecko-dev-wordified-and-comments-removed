@@ -279,7 +279,7 @@ and_
 MBitAnd
 :
 :
-NewAsmJS
+New
 (
 graph
 .
@@ -320,7 +320,7 @@ add
 MAdd
 :
 :
-NewAsmJS
+New
 (
 graph
 .

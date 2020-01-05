@@ -409,7 +409,7 @@ addNew
 MAdd
 :
 :
-NewAsmJS
+New
 (
 alloc
 sum

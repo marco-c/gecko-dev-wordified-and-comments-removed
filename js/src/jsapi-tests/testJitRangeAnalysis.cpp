@@ -1176,7 +1176,7 @@ thenAdd
 MAdd
 :
 :
-NewAsmJS
+New
 (
 func
 .
@@ -1311,7 +1311,7 @@ elseThenAdd
 MAdd
 :
 :
-NewAsmJS
+New
 (
 func
 .
@@ -1391,7 +1391,7 @@ elseElseAdd
 MAdd
 :
 :
-NewAsmJS
+New
 (
 func
 .
@@ -1883,7 +1883,7 @@ thenAdd
 MAdd
 :
 :
-NewAsmJS
+New
 (
 func
 .
