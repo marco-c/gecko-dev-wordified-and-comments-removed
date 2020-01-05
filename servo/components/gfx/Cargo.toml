@@ -457,7 +457,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 "
 default_features
 =

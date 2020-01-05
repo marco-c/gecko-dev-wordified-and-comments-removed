@@ -2694,7 +2694,7 @@ util
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -2710,7 +2710,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -2986,7 +2986,7 @@ index
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -3002,7 +3002,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -4002,7 +4002,7 @@ util
 webrender
 0
 .
-2
+4
 .
 0
 (
@@ -4025,7 +4025,7 @@ webrender
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -4041,7 +4041,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -4494,7 +4494,7 @@ util
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -4510,7 +4510,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -9737,7 +9737,7 @@ util
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -9753,7 +9753,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 "
@@ -15457,7 +15457,7 @@ util
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -15473,7 +15473,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -15924,7 +15924,7 @@ util
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -15940,7 +15940,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -16078,7 +16078,7 @@ util
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -16094,7 +16094,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -17980,7 +17980,7 @@ index
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -17996,7 +17996,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -18795,7 +18795,7 @@ index
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -18811,7 +18811,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 "
@@ -25431,7 +25431,7 @@ index
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -25447,7 +25447,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 "
@@ -27862,7 +27862,7 @@ webdriver_server
 webrender
 0
 .
-2
+4
 .
 0
 (
@@ -27885,7 +27885,7 @@ webrender
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -27901,7 +27901,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -35048,7 +35048,7 @@ version
 "
 0
 .
-2
+4
 .
 0
 "
@@ -35069,7 +35069,7 @@ servo
 /
 webrender
 #
-16e427ec2955f0a5f47b279a30b48eaa885d57fb
+b8b719ad5d69249093f505cec8a7d5dac344b802
 "
 dependencies
 =
@@ -35487,12 +35487,12 @@ index
 )
 "
 "
-scoped_threadpool
+rayon
 0
 .
-1
+4
 .
-7
+0
 (
 registry
 +
@@ -35548,7 +35548,7 @@ index
 webrender_traits
 0
 .
-3
+4
 .
 0
 (
@@ -35564,7 +35564,7 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 )
 "
 ]
@@ -35583,7 +35583,7 @@ version
 "
 0
 .
-3
+4
 .
 0
 "
@@ -35602,9 +35602,9 @@ com
 /
 servo
 /
-webrender_traits
+webrender
 #
-4d5036748208733dbdad43b7faec27ccccbce9a6
+b8b719ad5d69249093f505cec8a7d5dac344b802
 "
 dependencies
 =
