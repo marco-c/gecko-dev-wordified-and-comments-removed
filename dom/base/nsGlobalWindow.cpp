@@ -16975,6 +16975,13 @@ mIsDocumentLoaded
 =
 true
 ;
+mTimeoutManager
+-
+>
+OnDocumentLoaded
+(
+)
+;
 nsCOMPtr
 <
 Element
