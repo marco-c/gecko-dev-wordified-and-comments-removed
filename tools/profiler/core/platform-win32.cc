@@ -73,6 +73,7 @@ PlatformData
 {
 public
 :
+explicit
 PlatformData
 (
 int
