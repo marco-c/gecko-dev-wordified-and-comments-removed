@@ -3174,16 +3174,12 @@ ValueUsage
 WantValue
 )
 ;
-MOZ_MUST_USE
 bool
 isRestParameter
 (
 ParseNode
 *
 pn
-bool
-*
-result
 )
 ;
 MOZ_MUST_USE
