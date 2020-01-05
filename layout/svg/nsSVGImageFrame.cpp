@@ -1776,8 +1776,17 @@ imgIContainer
 TYPE_VECTOR
 )
 {
+const
+Maybe
+<
+const
 SVGImageContext
+>
 context
+(
+Some
+(
+SVGImageContext
 (
 CSSIntSize
 :
@@ -1802,6 +1811,8 @@ GetAnimValue
 .
 0
 true
+)
+)
 )
 ;
 LayoutDeviceSize
@@ -1852,7 +1863,6 @@ aDirtyRect
 dirtyRect
 :
 destRect
-&
 context
 drawFlags
 )

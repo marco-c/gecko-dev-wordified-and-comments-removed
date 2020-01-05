@@ -472,6 +472,13 @@ Link
 .
 h
 "
+#
+include
+"
+SVGImageContext
+.
+h
+"
 using
 namespace
 mozilla
@@ -6314,7 +6321,9 @@ this
 )
 dest
 aDirtyRect
-nullptr
+Nothing
+(
+)
 aFlags
 )
 ;
@@ -7769,7 +7778,9 @@ this
 )
 dest
 aDirtyRect
-nullptr
+Nothing
+(
+)
 flags
 &
 anchorPoint

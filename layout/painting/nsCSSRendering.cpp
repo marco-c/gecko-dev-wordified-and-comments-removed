@@ -384,6 +384,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+SVGImageContext
+.
+h
+"
 using
 namespace
 mozilla
@@ -28935,7 +28942,9 @@ subImage
 samplingFilter
 aFill
 aDirtyRect
-nullptr
+Nothing
+(
+)
 drawFlags
 )
 ;

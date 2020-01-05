@@ -271,6 +271,13 @@ Maybe
 h
 "
 #
+include
+"
+SVGImageContext
+.
+h
+"
+#
 define
 ONLOAD_CALLED_TOO_EARLY
 1
@@ -1694,7 +1701,9 @@ this
 )
 dest
 dirty
-nullptr
+Nothing
+(
+)
 aFlags
 anchorPoint
 .

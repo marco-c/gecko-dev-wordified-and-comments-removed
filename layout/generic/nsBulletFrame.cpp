@@ -191,6 +191,13 @@ h
 "
 #
 include
+"
+SVGImageContext
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -1136,7 +1143,9 @@ mImage
 filter
 mDest
 aDirtyRect
-nullptr
+Nothing
+(
+)
 aFlags
 )
 ;
