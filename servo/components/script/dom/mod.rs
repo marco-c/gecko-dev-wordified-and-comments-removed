@@ -265,6 +265,10 @@ filereader
 ;
 pub
 mod
+filereadersync
+;
+pub
+mod
 focusevent
 ;
 pub
