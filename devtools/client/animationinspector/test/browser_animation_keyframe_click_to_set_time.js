@@ -94,7 +94,6 @@ yield
 clickKeyframe
 (
 panel
-0
 "
 background
 -
@@ -151,7 +150,6 @@ yield
 clickKeyframe
 (
 panel
-0
 "
 transform
 "
@@ -187,7 +185,6 @@ function
 clickKeyframe
 (
 panel
-animIndex
 property
 index
 )
@@ -198,7 +195,6 @@ keyframeComponent
 getKeyframeComponent
 (
 panel
-animIndex
 property
 )
 ;
@@ -208,7 +204,6 @@ keyframeEl
 getKeyframeEl
 (
 panel
-animIndex
 property
 index
 )

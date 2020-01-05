@@ -1565,9 +1565,6 @@ resolve
 timeline
 .
 details
-[
-index
-]
 .
 once
 (
@@ -1650,7 +1647,6 @@ function
 getKeyframeComponent
 (
 panel
-animationIndex
 propertyName
 )
 {
@@ -1667,9 +1663,6 @@ detailsComponent
 timeline
 .
 details
-[
-animationIndex
-]
 ;
 return
 detailsComponent
@@ -1695,7 +1688,6 @@ function
 getKeyframeEl
 (
 panel
-animationIndex
 propertyName
 keyframeIndex
 )
@@ -1706,7 +1698,6 @@ keyframeComponent
 getKeyframeComponent
 (
 panel
-animationIndex
 propertyName
 )
 ;

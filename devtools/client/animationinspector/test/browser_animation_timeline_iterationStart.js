@@ -47,7 +47,7 @@ timelineComponent
 timeBlocks
 ;
 let
-detailsComponents
+detailsComponent
 =
 timelineComponent
 .
@@ -136,10 +136,7 @@ state
 let
 keyframeComponent
 =
-detailsComponents
-[
-i
-]
+detailsComponent
 .
 keyframeComponents
 [

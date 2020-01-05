@@ -865,7 +865,6 @@ animated
 properties
 -
 header
-property
 "
 }
 }
@@ -879,7 +878,9 @@ createNode
 {
 parent
 :
-headerEl
+this
+.
+containerEl
 attributes
 :
 {
