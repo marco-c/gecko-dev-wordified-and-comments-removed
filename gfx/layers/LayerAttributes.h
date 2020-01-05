@@ -64,6 +64,10 @@ mThumbRatio
 .
 0f
 )
+mIsAsyncDraggable
+(
+false
+)
 {
 }
 ScrollThumbData
@@ -74,6 +78,8 @@ float
 aThumbRatio
 CSSCoord
 aThumbLength
+bool
+aIsAsyncDraggable
 )
 :
 mDirection
@@ -88,6 +94,10 @@ mThumbLength
 (
 aThumbLength
 )
+mIsAsyncDraggable
+(
+aIsAsyncDraggable
+)
 {
 }
 ScrollDirection
@@ -98,6 +108,9 @@ mThumbRatio
 ;
 CSSCoord
 mThumbLength
+;
+bool
+mIsAsyncDraggable
 ;
 bool
 operator
@@ -134,6 +147,14 @@ mThumbLength
 aOther
 .
 mThumbLength
+&
+&
+mIsAsyncDraggable
+=
+=
+aOther
+.
+mIsAsyncDraggable
 ;
 }
 bool
