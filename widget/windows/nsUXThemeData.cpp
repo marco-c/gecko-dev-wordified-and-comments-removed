@@ -690,10 +690,7 @@ sTitlebarInfoPopulatedAero
 =
 sTitlebarInfoPopulatedThemed
 =
-!
-IsVistaOrLater
-(
-)
+false
 ;
 }
 void
@@ -1503,10 +1500,7 @@ UpdateNativeThemeInfo
 {
 sTitlebarInfoPopulatedThemed
 =
-!
-IsVistaOrLater
-(
-)
+false
 ;
 sIsDefaultWindowsTheme
 =

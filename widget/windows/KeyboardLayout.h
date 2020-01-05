@@ -1765,12 +1765,6 @@ MSG
 aCharMsg
 )
 ;
-bool
-CanComputeVirtualKeyCodeFromScanCode
-(
-)
-const
-;
 uint8_t
 ComputeVirtualKeyCodeFromScanCode
 (
