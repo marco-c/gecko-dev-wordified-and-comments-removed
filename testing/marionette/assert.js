@@ -795,9 +795,15 @@ assert
 .
 that
 (
+o
+=
+>
 Array
 .
 isArray
+(
+o
+)
 msg
 )
 (
