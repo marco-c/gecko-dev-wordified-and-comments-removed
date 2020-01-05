@@ -138,6 +138,15 @@ url
 url
 ;
 import
+resource
+:
+:
+resource_task
+:
+:
+ResourceTask
+;
+import
 dvec
 :
 :
@@ -614,6 +623,9 @@ port
 <
 CSSMessage
 >
+resource_task
+:
+ResourceTask
 )
 {
 let
@@ -677,6 +689,7 @@ spawn_css_lexer_task
 (
 copy
 url
+resource_task
 )
 ;
 let
@@ -947,6 +960,9 @@ Token
 url
 :
 url
+resource_task
+:
+ResourceTask
 )
 -
 >
@@ -1103,6 +1119,7 @@ css_link_listener
 (
 child_chan
 child_port
+resource_task
 )
 ;
 }

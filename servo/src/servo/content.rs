@@ -745,6 +745,9 @@ self
 scope
 stream
 url
+self
+.
+resource_task
 )
 ;
 let
