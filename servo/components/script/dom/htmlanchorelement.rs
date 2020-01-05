@@ -400,7 +400,6 @@ PrivateHTMLAnchorElementHelpers
 fn
 handle_event_impl
 (
-&
 self
 event
 :
@@ -428,7 +427,6 @@ HTMLAnchorElement
 fn
 handle_event_impl
 (
-&
 self
 event
 :
@@ -475,7 +473,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -545,7 +542,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -914,7 +910,6 @@ HTMLAnchorElement
 fn
 Text
 (
-&
 self
 )
 -
@@ -934,7 +929,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -951,7 +945,6 @@ unwrap
 fn
 SetText
 (
-&
 self
 value
 :
@@ -971,7 +964,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

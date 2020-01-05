@@ -240,7 +240,6 @@ WorkerLocation
 fn
 Href
 (
-&
 self
 )
 -
@@ -264,7 +263,6 @@ deref
 fn
 Search
 (
-&
 self
 )
 -
@@ -288,7 +286,6 @@ deref
 fn
 Hash
 (
-&
 self
 )
 -

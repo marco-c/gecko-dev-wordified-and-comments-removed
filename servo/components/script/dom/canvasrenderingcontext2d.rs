@@ -349,7 +349,6 @@ CanvasRenderingContext2D
 fn
 Canvas
 (
-&
 self
 )
 -
@@ -372,7 +371,6 @@ canvas
 fn
 FillRect
 (
-&
 self
 x
 :
@@ -433,7 +431,6 @@ rect
 fn
 ClearRect
 (
-&
 self
 x
 :
@@ -494,7 +491,6 @@ rect
 fn
 StrokeRect
 (
-&
 self
 x
 :

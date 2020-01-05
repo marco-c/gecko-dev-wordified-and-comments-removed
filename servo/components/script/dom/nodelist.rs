@@ -345,7 +345,6 @@ NodeList
 fn
 Length
 (
-&
 self
 )
 -
@@ -409,7 +408,6 @@ u32
 fn
 Item
 (
-&
 self
 index
 :
@@ -522,7 +520,6 @@ child
 fn
 IndexedGetter
 (
-&
 self
 index
 :

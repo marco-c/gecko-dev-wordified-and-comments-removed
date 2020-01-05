@@ -379,7 +379,6 @@ DocumentFragment
 fn
 Children
 (
-&
 self
 )
 -
@@ -394,7 +393,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -414,7 +412,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 )
@@ -422,7 +419,6 @@ self
 fn
 QuerySelector
 (
-&
 self
 selectors
 :
@@ -454,7 +450,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -468,7 +463,6 @@ selectors
 fn
 QuerySelectorAll
 (
-&
 self
 selectors
 :
@@ -497,7 +491,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

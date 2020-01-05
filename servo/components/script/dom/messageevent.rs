@@ -564,7 +564,6 @@ MessageEvent
 fn
 Data
 (
-&
 self
 _cx
 :
@@ -584,7 +583,6 @@ data
 fn
 Origin
 (
-&
 self
 )
 -
@@ -602,7 +600,6 @@ clone
 fn
 LastEventId
 (
-&
 self
 )
 -

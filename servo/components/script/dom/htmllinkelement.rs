@@ -854,7 +854,6 @@ PrivateHTMLLinkElementHelpers
 fn
 handle_stylesheet_url
 (
-&
 self
 href
 :
@@ -880,7 +879,6 @@ HTMLLinkElement
 fn
 handle_stylesheet_url
 (
-&
 self
 href
 :
@@ -893,7 +891,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .

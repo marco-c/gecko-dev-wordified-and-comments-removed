@@ -10411,7 +10411,6 @@ nodetype
 fn
 NodeType
 (
-&
 self
 )
 -
@@ -10500,7 +10499,6 @@ nodename
 fn
 NodeName
 (
-&
 self
 )
 -
@@ -10533,7 +10531,6 @@ ElementCast
 :
 to_ref
 (
-*
 self
 )
 .
@@ -10575,7 +10572,6 @@ ProcessingInstructionCast
 :
 to_ref
 (
-*
 self
 )
 .
@@ -10617,7 +10613,6 @@ DocumentTypeCast
 :
 to_ref
 (
-*
 self
 )
 .
@@ -10686,7 +10681,6 @@ baseuri
 fn
 GetBaseURI
 (
-&
 self
 )
 -
@@ -10730,7 +10724,6 @@ ownerdocument
 fn
 GetOwnerDocument
 (
-&
 self
 )
 -
@@ -10802,7 +10795,6 @@ parentnode
 fn
 GetParentNode
 (
-&
 self
 )
 -
@@ -10860,7 +10852,6 @@ parentelement
 fn
 GetParentElement
 (
-&
 self
 )
 -
@@ -10946,7 +10937,6 @@ haschildnodes
 fn
 HasChildNodes
 (
-&
 self
 )
 -
@@ -10988,7 +10978,6 @@ childnodes
 fn
 ChildNodes
 (
-&
 self
 )
 -
@@ -11070,7 +11059,6 @@ new_child_list
 (
 *
 window
-*
 self
 )
 ;
@@ -11131,7 +11119,6 @@ firstchild
 fn
 GetFirstChild
 (
-&
 self
 )
 -
@@ -11189,7 +11176,6 @@ lastchild
 fn
 GetLastChild
 (
-&
 self
 )
 -
@@ -11247,7 +11233,6 @@ previoussibling
 fn
 GetPreviousSibling
 (
-&
 self
 )
 -
@@ -11305,7 +11290,6 @@ nextsibling
 fn
 GetNextSibling
 (
-&
 self
 )
 -
@@ -11363,7 +11347,6 @@ nodevalue
 fn
 GetNodeValue
 (
-&
 self
 )
 -
@@ -11399,7 +11382,6 @@ CharacterDataCast
 :
 to_ref
 (
-*
 self
 )
 .
@@ -11447,7 +11429,6 @@ nodevalue
 fn
 SetNodeValue
 (
-&
 self
 val
 :
@@ -11507,7 +11488,6 @@ textcontent
 fn
 GetTextContent
 (
-&
 self
 )
 -
@@ -11573,7 +11553,6 @@ CharacterDataCast
 :
 to_ref
 (
-*
 self
 )
 .
@@ -11623,7 +11602,6 @@ textcontent
 fn
 SetTextContent
 (
-&
 self
 value
 :
@@ -11734,7 +11712,6 @@ node
 root_ref
 (
 )
-*
 self
 )
 ;
@@ -11766,7 +11743,6 @@ CharacterDataCast
 :
 to_ref
 (
-*
 self
 )
 .
@@ -11858,7 +11834,6 @@ insertbefore
 fn
 InsertBefore
 (
-&
 self
 node
 :
@@ -11892,7 +11867,6 @@ Node
 pre_insert
 (
 node
-*
 self
 child
 )
@@ -11920,7 +11894,6 @@ appendchild
 fn
 AppendChild
 (
-&
 self
 node
 :
@@ -11945,7 +11918,6 @@ Node
 pre_insert
 (
 node
-*
 self
 None
 )
@@ -11973,7 +11945,6 @@ replace
 fn
 ReplaceChild
 (
-&
 self
 node
 :
@@ -12040,7 +12011,6 @@ node
 .
 is_inclusive_ancestor_of
 (
-*
 self
 )
 {
@@ -12617,7 +12587,6 @@ document
 =
 document_from_node
 (
-*
 self
 )
 .
@@ -12647,7 +12616,6 @@ Node
 remove
 (
 child
-*
 self
 Suppressed
 )
@@ -12663,7 +12631,6 @@ Node
 insert
 (
 node
-*
 self
 reference_child
 Suppressed
@@ -12771,7 +12738,6 @@ removechild
 fn
 RemoveChild
 (
-&
 self
 node
 :
@@ -12796,7 +12762,6 @@ Node
 pre_remove
 (
 node
-*
 self
 )
 }
@@ -12823,7 +12788,6 @@ normalize
 fn
 Normalize
 (
-&
 self
 )
 {
@@ -12991,7 +12955,6 @@ clonenode
 fn
 CloneNode
 (
-&
 self
 deep
 :
@@ -13015,7 +12978,6 @@ Node
 :
 clone
 (
-*
 self
 None
 CloneChildren
@@ -13028,7 +12990,6 @@ Node
 :
 clone
 (
-*
 self
 None
 DoNotCloneChildren
@@ -13058,7 +13019,6 @@ isequalnode
 fn
 IsEqualNode
 (
-&
 self
 maybe_node
 :
@@ -14009,7 +13969,6 @@ node
 >
 is_equal_node
 (
-*
 self
 node
 )
@@ -14038,7 +13997,6 @@ comparedocumentposition
 fn
 CompareDocumentPosition
 (
-&
 self
 other
 :
@@ -14052,7 +14010,6 @@ Node
 u16
 {
 if
-*
 self
 =
 =
@@ -14141,7 +14098,6 @@ if
 ancestor
 =
 =
-*
 self
 {
 /
@@ -14184,7 +14140,6 @@ uintptr_t
 as_uintptr
 (
 &
-*
 self
 )
 ;
@@ -14271,7 +14226,6 @@ if
 child
 =
 =
-*
 self
 {
 /
@@ -14316,7 +14270,6 @@ contains
 fn
 Contains
 (
-&
 self
 maybe_other
 :
@@ -14376,7 +14329,6 @@ lookupprefix
 fn
 LookupPrefix
 (
-&
 self
 _prefix
 :
@@ -14426,7 +14378,6 @@ lookupnamespaceuri
 fn
 LookupNamespaceURI
 (
-&
 self
 _namespace
 :
@@ -14476,7 +14427,6 @@ isdefaultnamespace
 fn
 IsDefaultNamespace
 (
-&
 self
 _namespace
 :

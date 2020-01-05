@@ -482,7 +482,6 @@ HTMLCanvasElement
 fn
 Width
 (
-&
 self
 )
 -
@@ -500,7 +499,6 @@ get
 fn
 SetWidth
 (
-&
 self
 width
 :
@@ -520,7 +518,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -537,7 +534,6 @@ width
 fn
 Height
 (
-&
 self
 )
 -
@@ -555,7 +551,6 @@ get
 fn
 SetHeight
 (
-&
 self
 height
 :
@@ -575,7 +570,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -592,7 +586,6 @@ height
 fn
 GetContext
 (
-&
 self
 id
 :
@@ -642,7 +635,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -691,7 +683,6 @@ Window
 *
 window
 )
-*
 self
 Size2D
 (

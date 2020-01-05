@@ -1301,7 +1301,6 @@ Window
 fn
 Alert
 (
-&
 self
 s
 :
@@ -1326,7 +1325,6 @@ s
 fn
 Close
 (
-&
 self
 )
 {
@@ -1363,7 +1361,6 @@ clone
 fn
 Document
 (
-&
 self
 )
 -
@@ -1407,7 +1404,6 @@ clone
 fn
 Location
 (
-&
 self
 )
 -
@@ -1453,7 +1449,6 @@ Location
 :
 new
 (
-*
 self
 page
 )
@@ -1496,7 +1491,6 @@ clone
 fn
 Console
 (
-&
 self
 )
 -
@@ -1533,7 +1527,6 @@ global
 :
 Window
 (
-*
 self
 )
 )
@@ -1576,7 +1569,6 @@ clone
 fn
 Navigator
 (
-&
 self
 )
 -
@@ -1607,7 +1599,6 @@ Navigator
 :
 new
 (
-*
 self
 )
 ;
@@ -1649,7 +1640,6 @@ clone
 fn
 SetTimeout
 (
-&
 self
 _cx
 :
@@ -1679,7 +1669,6 @@ false
 fn
 ClearTimeout
 (
-&
 self
 handle
 :
@@ -1754,7 +1743,6 @@ handle
 fn
 SetInterval
 (
-&
 self
 _cx
 :
@@ -1784,7 +1772,6 @@ true
 fn
 ClearInterval
 (
-&
 self
 handle
 :
@@ -1802,7 +1789,6 @@ handle
 fn
 Window
 (
-&
 self
 )
 -
@@ -1817,14 +1803,12 @@ Temporary
 :
 from_rooted
 (
-*
 self
 )
 }
 fn
 Self
 (
-&
 self
 )
 -
@@ -1843,7 +1827,6 @@ Window
 fn
 Frames
 (
-&
 self
 )
 -
@@ -1862,7 +1845,6 @@ Window
 fn
 Parent
 (
-&
 self
 )
 -
@@ -1881,7 +1863,6 @@ Window
 fn
 Performance
 (
-&
 self
 )
 -
@@ -1912,7 +1893,6 @@ Performance
 :
 new
 (
-*
 self
 )
 ;
@@ -1954,7 +1934,6 @@ clone
 fn
 GetOnclick
 (
-&
 self
 )
 -
@@ -1977,7 +1956,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1993,7 +1971,6 @@ click
 fn
 SetOnclick
 (
-&
 self
 listener
 :
@@ -2016,7 +1993,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2033,7 +2009,6 @@ listener
 fn
 GetOnload
 (
-&
 self
 )
 -
@@ -2056,7 +2031,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2072,7 +2046,6 @@ load
 fn
 SetOnload
 (
-&
 self
 listener
 :
@@ -2095,7 +2068,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2112,7 +2084,6 @@ listener
 fn
 GetOnunload
 (
-&
 self
 )
 -
@@ -2135,7 +2106,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2151,7 +2121,6 @@ unload
 fn
 SetOnunload
 (
-&
 self
 listener
 :
@@ -2174,7 +2143,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2191,7 +2159,6 @@ listener
 fn
 GetOnerror
 (
-&
 self
 )
 -
@@ -2214,7 +2181,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2230,7 +2196,6 @@ error
 fn
 SetOnerror
 (
-&
 self
 listener
 :
@@ -2253,7 +2218,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2270,7 +2234,6 @@ listener
 fn
 Screen
 (
-&
 self
 )
 -
@@ -2301,7 +2264,6 @@ Screen
 :
 new
 (
-*
 self
 )
 ;
@@ -2343,7 +2305,6 @@ clone
 fn
 Debug
 (
-&
 self
 message
 :
@@ -2366,7 +2327,6 @@ message
 fn
 Gc
 (
-&
 self
 )
 {
@@ -2389,7 +2349,6 @@ get_cx
 fn
 Btoa
 (
-&
 self
 btoa
 :
@@ -2410,7 +2369,6 @@ btoa
 fn
 Atob
 (
-&
 self
 atob
 :
@@ -2469,7 +2427,6 @@ WindowHelpers
 fn
 damage_and_reflow
 (
-&
 self
 damage
 :
@@ -2479,7 +2436,6 @@ DocumentDamageLevel
 fn
 flush_layout
 (
-&
 self
 goal
 :
@@ -2489,14 +2445,12 @@ ReflowGoal
 fn
 wait_until_safe_to_modify_dom
 (
-&
 self
 )
 ;
 fn
 init_browser_context
 (
-&
 self
 doc
 :
@@ -2509,7 +2463,6 @@ Document
 fn
 load_url
 (
-&
 self
 href
 :
@@ -2519,7 +2472,6 @@ DOMString
 fn
 handle_fire_timer
 (
-&
 self
 timer_id
 :
@@ -2534,7 +2486,6 @@ JSContext
 fn
 evaluate_js_with_result
 (
-&
 self
 code
 :
@@ -2552,7 +2503,6 @@ PrivateWindowHelpers
 fn
 set_timeout_or_interval
 (
-&
 self
 callback
 :
@@ -2586,7 +2536,6 @@ Window
 fn
 evaluate_js_with_result
 (
-&
 self
 code
 :
@@ -2722,7 +2671,6 @@ rval
 fn
 damage_and_reflow
 (
-&
 self
 damage
 :
@@ -2769,7 +2717,6 @@ get
 fn
 flush_layout
 (
-&
 self
 goal
 :
@@ -2791,7 +2738,6 @@ goal
 fn
 wait_until_safe_to_modify_dom
 (
-&
 self
 )
 {
@@ -2809,7 +2755,6 @@ join_layout
 fn
 init_browser_context
 (
-&
 self
 doc
 :
@@ -2847,7 +2792,6 @@ doc
 fn
 load_url
 (
-&
 self
 href
 :
@@ -2980,7 +2924,6 @@ url
 fn
 handle_fire_timer
 (
-&
 self
 timer_id
 :
@@ -3127,7 +3070,6 @@ Window
 fn
 set_timeout_or_interval
 (
-&
 self
 callback
 :

@@ -1545,7 +1545,6 @@ Namespace
 fn
 summarize
 (
-&
 self
 )
 -
@@ -1558,7 +1557,6 @@ AttrInfo
 fn
 is_void
 (
-&
 self
 )
 -
@@ -1683,7 +1681,6 @@ namespace
 fn
 summarize
 (
-&
 self
 )
 -
@@ -1770,7 +1767,6 @@ summarized
 fn
 is_void
 (
-&
 self
 )
 -
@@ -1957,7 +1953,6 @@ any
 fn
 get_attribute
 (
-&
 self
 namespace
 :
@@ -1980,7 +1975,6 @@ Attr
 fn
 set_attribute_from_parser
 (
-&
 self
 local_name
 :
@@ -2002,7 +1996,6 @@ DOMString
 fn
 set_attribute
 (
-&
 self
 name
 :
@@ -2016,7 +2009,6 @@ AttrValue
 fn
 do_set_attribute
 (
-&
 self
 local_name
 :
@@ -2052,7 +2044,6 @@ bool
 fn
 parse_attribute
 (
-&
 self
 namespace
 :
@@ -2073,7 +2064,6 @@ AttrValue
 fn
 remove_attribute
 (
-&
 self
 namespace
 :
@@ -2087,7 +2077,6 @@ str
 fn
 notify_attribute_changed
 (
-&
 self
 local_name
 :
@@ -2112,7 +2101,6 @@ bool
 fn
 set_atomic_attribute
 (
-&
 self
 name
 :
@@ -2152,7 +2140,6 @@ attributes
 fn
 has_attribute
 (
-&
 self
 name
 :
@@ -2166,7 +2153,6 @@ bool
 fn
 set_bool_attribute
 (
-&
 self
 name
 :
@@ -2180,7 +2166,6 @@ bool
 fn
 get_url_attribute
 (
-&
 self
 name
 :
@@ -2194,7 +2179,6 @@ DOMString
 fn
 set_url_attribute
 (
-&
 self
 name
 :
@@ -2208,7 +2192,6 @@ DOMString
 fn
 get_string_attribute
 (
-&
 self
 name
 :
@@ -2222,7 +2205,6 @@ DOMString
 fn
 set_string_attribute
 (
-&
 self
 name
 :
@@ -2236,7 +2218,6 @@ DOMString
 fn
 set_tokenlist_attribute
 (
-&
 self
 name
 :
@@ -2250,7 +2231,6 @@ DOMString
 fn
 get_uint_attribute
 (
-&
 self
 name
 :
@@ -2264,7 +2244,6 @@ u32
 fn
 set_uint_attribute
 (
-&
 self
 name
 :
@@ -2293,7 +2272,6 @@ Element
 fn
 get_attribute
 (
-&
 self
 namespace
 :
@@ -2392,7 +2370,6 @@ x
 fn
 set_attribute_from_parser
 (
-&
 self
 local_name
 :
@@ -2505,7 +2482,6 @@ false
 fn
 set_attribute
 (
-&
 self
 name
 :
@@ -2560,7 +2536,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2619,7 +2594,6 @@ name
 fn
 do_set_attribute
 (
-&
 self
 local_name
 :
@@ -2723,7 +2697,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -2754,7 +2727,6 @@ clone
 (
 )
 prefix
-*
 self
 )
 ;
@@ -2831,7 +2803,6 @@ value
 fn
 parse_attribute
 (
-&
 self
 namespace
 :
@@ -2867,7 +2838,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 )
@@ -2893,7 +2863,6 @@ value
 fn
 remove_attribute
 (
-&
 self
 namespace
 :
@@ -3004,7 +2973,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -3061,7 +3029,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 )
@@ -3098,7 +3065,6 @@ idx
 fn
 notify_attribute_changed
 (
-&
 self
 local_name
 :
@@ -3119,7 +3085,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -3275,7 +3240,6 @@ false
 fn
 set_atomic_attribute
 (
-&
 self
 name
 :
@@ -3326,7 +3290,6 @@ value
 fn
 has_attribute
 (
-&
 self
 name
 :
@@ -3434,7 +3397,6 @@ Null
 fn
 set_bool_attribute
 (
-&
 self
 name
 :
@@ -3491,7 +3453,6 @@ name
 fn
 get_url_attribute
 (
-&
 self
 name
 :
@@ -3535,7 +3496,6 @@ name
 fn
 set_url_attribute
 (
-&
 self
 name
 :
@@ -3558,7 +3518,6 @@ value
 fn
 get_string_attribute
 (
-&
 self
 name
 :
@@ -3635,7 +3594,6 @@ to_string
 fn
 set_string_attribute
 (
-&
 self
 name
 :
@@ -3678,7 +3636,6 @@ value
 fn
 set_tokenlist_attribute
 (
-&
 self
 name
 :
@@ -3724,7 +3681,6 @@ value
 fn
 get_uint_attribute
 (
-&
 self
 name
 :
@@ -3820,7 +3776,6 @@ None
 fn
 set_uint_attribute
 (
-&
 self
 name
 :
@@ -3903,7 +3858,6 @@ namespaceuri
 fn
 GetNamespaceURI
 (
-&
 self
 )
 -
@@ -3943,7 +3897,6 @@ to_string
 fn
 LocalName
 (
-&
 self
 )
 -
@@ -3985,7 +3938,6 @@ prefix
 fn
 GetPrefix
 (
-&
 self
 )
 -
@@ -4026,7 +3978,6 @@ tagname
 fn
 TagName
 (
-&
 self
 )
 -
@@ -4132,7 +4083,6 @@ id
 fn
 Id
 (
-&
 self
 )
 -
@@ -4171,7 +4121,6 @@ id
 fn
 SetId
 (
-&
 self
 id
 :
@@ -4212,7 +4161,6 @@ classname
 fn
 ClassName
 (
-&
 self
 )
 -
@@ -4251,7 +4199,6 @@ classname
 fn
 SetClassName
 (
-&
 self
 class
 :
@@ -4292,7 +4239,6 @@ classlist
 fn
 ClassList
 (
-&
 self
 )
 -
@@ -4336,7 +4282,6 @@ DOMTokenList
 :
 new
 (
-*
 self
 "
 class
@@ -4401,7 +4346,6 @@ attributes
 fn
 Attributes
 (
-&
 self
 )
 -
@@ -4462,7 +4406,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -4502,7 +4445,6 @@ new
 (
 *
 window
-*
 self
 )
 ;
@@ -4563,7 +4505,6 @@ getattribute
 fn
 GetAttribute
 (
-&
 self
 name
 :
@@ -4656,7 +4597,6 @@ getattributens
 fn
 GetAttributeNS
 (
-&
 self
 namespace
 :
@@ -4745,7 +4685,6 @@ setattribute
 fn
 SetAttribute
 (
-&
 self
 name
 :
@@ -4772,7 +4711,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -4955,7 +4893,6 @@ setattributens
 fn
 SetAttributeNS
 (
-&
 self
 namespace_url
 :
@@ -4988,7 +4925,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -5406,7 +5342,6 @@ removeattribute
 fn
 RemoveAttribute
 (
-&
 self
 name
 :
@@ -5476,7 +5411,6 @@ removeattributens
 fn
 RemoveAttributeNS
 (
-&
 self
 namespace
 :
@@ -5539,7 +5473,6 @@ hasattribute
 fn
 HasAttribute
 (
-&
 self
 name
 :
@@ -5583,7 +5516,6 @@ hasattributens
 fn
 HasAttributeNS
 (
-&
 self
 namespace
 :
@@ -5614,7 +5546,6 @@ is_some
 fn
 GetElementsByTagName
 (
-&
 self
 localname
 :
@@ -5632,7 +5563,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -5652,7 +5582,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 localname
@@ -5661,7 +5590,6 @@ localname
 fn
 GetElementsByTagNameNS
 (
-&
 self
 maybe_ns
 :
@@ -5685,7 +5613,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -5705,7 +5632,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 localname
@@ -5715,7 +5641,6 @@ maybe_ns
 fn
 GetElementsByClassName
 (
-&
 self
 classes
 :
@@ -5733,7 +5658,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -5753,7 +5677,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 classes
@@ -5786,7 +5709,6 @@ getclientrects
 fn
 GetClientRects
 (
-&
 self
 )
 -
@@ -5801,7 +5723,6 @@ win
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -5822,7 +5743,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -5970,7 +5890,6 @@ getboundingclientrect
 fn
 GetBoundingClientRect
 (
-&
 self
 )
 -
@@ -5985,7 +5904,6 @@ win
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -6006,7 +5924,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6063,7 +5980,6 @@ width
 fn
 GetInnerHTML
 (
-&
 self
 )
 -
@@ -6096,7 +6012,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 false
@@ -6108,7 +6023,6 @@ false
 fn
 GetOuterHTML
 (
-&
 self
 )
 -
@@ -6134,7 +6048,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 true
@@ -6166,7 +6079,6 @@ children
 fn
 Children
 (
-&
 self
 )
 -
@@ -6181,7 +6093,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -6201,7 +6112,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 )
@@ -6229,7 +6139,6 @@ queryselector
 fn
 QuerySelector
 (
-&
 self
 selectors
 :
@@ -6261,7 +6170,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6295,7 +6203,6 @@ queryselectorall
 fn
 QuerySelectorAll
 (
-&
 self
 selectors
 :
@@ -6324,7 +6231,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6358,7 +6264,6 @@ remove
 fn
 Remove
 (
-&
 self
 )
 {
@@ -6375,7 +6280,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6409,7 +6313,6 @@ matches
 fn
 Matches
 (
-&
 self
 selectors
 :
@@ -6464,7 +6367,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

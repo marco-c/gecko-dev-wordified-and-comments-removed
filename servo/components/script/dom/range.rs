@@ -275,7 +275,6 @@ Range
 fn
 Detach
 (
-&
 self
 )
 {

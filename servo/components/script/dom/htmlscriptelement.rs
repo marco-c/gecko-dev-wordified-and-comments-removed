@@ -392,7 +392,6 @@ and
 fn
 is_javascript
 (
-&
 self
 )
 -
@@ -559,7 +558,6 @@ HTMLScriptElement
 fn
 is_javascript
 (
-&
 self
 )
 -
@@ -579,7 +577,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -851,7 +848,6 @@ HTMLScriptElement
 fn
 Src
 (
-&
 self
 )
 -
@@ -871,7 +867,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -887,7 +882,6 @@ src
 fn
 Text
 (
-&
 self
 )
 -
@@ -907,7 +901,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -926,7 +919,6 @@ children
 fn
 SetText
 (
-&
 self
 value
 :
@@ -946,7 +938,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

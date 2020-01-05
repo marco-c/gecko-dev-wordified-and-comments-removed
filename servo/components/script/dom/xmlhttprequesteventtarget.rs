@@ -249,7 +249,6 @@ XMLHttpRequestEventTarget
 fn
 GetOnloadstart
 (
-&
 self
 )
 -
@@ -272,7 +271,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -288,7 +286,6 @@ loadstart
 fn
 SetOnloadstart
 (
-&
 self
 listener
 :
@@ -311,7 +308,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -328,7 +324,6 @@ listener
 fn
 GetOnprogress
 (
-&
 self
 )
 -
@@ -351,7 +346,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -367,7 +361,6 @@ progress
 fn
 SetOnprogress
 (
-&
 self
 listener
 :
@@ -390,7 +383,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -407,7 +399,6 @@ listener
 fn
 GetOnabort
 (
-&
 self
 )
 -
@@ -430,7 +421,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -446,7 +436,6 @@ abort
 fn
 SetOnabort
 (
-&
 self
 listener
 :
@@ -469,7 +458,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -486,7 +474,6 @@ listener
 fn
 GetOnerror
 (
-&
 self
 )
 -
@@ -509,7 +496,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -525,7 +511,6 @@ error
 fn
 SetOnerror
 (
-&
 self
 listener
 :
@@ -548,7 +533,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -565,7 +549,6 @@ listener
 fn
 GetOnload
 (
-&
 self
 )
 -
@@ -588,7 +571,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -604,7 +586,6 @@ load
 fn
 SetOnload
 (
-&
 self
 listener
 :
@@ -627,7 +608,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -644,7 +624,6 @@ listener
 fn
 GetOntimeout
 (
-&
 self
 )
 -
@@ -667,7 +646,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -683,7 +661,6 @@ timeout
 fn
 SetOntimeout
 (
-&
 self
 listener
 :
@@ -706,7 +683,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -723,7 +699,6 @@ listener
 fn
 GetOnloadend
 (
-&
 self
 )
 -
@@ -746,7 +721,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -762,7 +736,6 @@ loadend
 fn
 SetOnloadend
 (
-&
 self
 listener
 :
@@ -785,7 +758,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;

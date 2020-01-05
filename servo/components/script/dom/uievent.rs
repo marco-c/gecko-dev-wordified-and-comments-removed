@@ -501,7 +501,6 @@ UIEvent
 fn
 GetView
 (
-&
 self
 )
 -
@@ -539,7 +538,6 @@ view
 fn
 Detail
 (
-&
 self
 )
 -
@@ -561,7 +559,6 @@ get
 fn
 InitUIEvent
 (
-&
 self
 type_
 :
@@ -599,7 +596,6 @@ EventCast
 :
 from_ref
 (
-*
 self
 )
 ;

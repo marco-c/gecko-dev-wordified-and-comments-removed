@@ -229,7 +229,6 @@ NamedNodeMap
 fn
 Length
 (
-&
 self
 )
 -
@@ -259,7 +258,6 @@ u32
 fn
 Item
 (
-&
 self
 index
 :
@@ -321,7 +319,6 @@ clone
 fn
 IndexedGetter
 (
-&
 self
 index
 :

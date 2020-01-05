@@ -177,7 +177,6 @@ Console
 fn
 Log
 (
-&
 self
 message
 :
@@ -200,7 +199,6 @@ message
 fn
 Debug
 (
-&
 self
 message
 :
@@ -223,7 +221,6 @@ message
 fn
 Info
 (
-&
 self
 message
 :
@@ -246,7 +243,6 @@ message
 fn
 Warn
 (
-&
 self
 message
 :
@@ -269,7 +265,6 @@ message
 fn
 Error
 (
-&
 self
 message
 :
@@ -292,7 +287,6 @@ message
 fn
 Assert
 (
-&
 self
 condition
 :

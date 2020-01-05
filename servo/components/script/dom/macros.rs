@@ -22,7 +22,6 @@ ident
 fn
 attr
 (
-&
 self
 )
 -
@@ -78,7 +77,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -123,7 +121,6 @@ ident
 fn
 attr
 (
-&
 self
 )
 -
@@ -179,7 +176,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -224,7 +220,6 @@ ident
 fn
 attr
 (
-&
 self
 )
 -
@@ -280,7 +275,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;

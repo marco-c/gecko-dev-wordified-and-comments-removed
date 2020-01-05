@@ -182,7 +182,6 @@ Screen
 fn
 ColorDepth
 (
-&
 self
 )
 -
@@ -194,7 +193,6 @@ u32
 fn
 PixelDepth
 (
-&
 self
 )
 -

@@ -464,7 +464,6 @@ unrooted_must_root
 fn
 Append
 (
-&
 self
 name
 :
@@ -554,7 +553,6 @@ clone
 fn
 Append_
 (
-&
 self
 name
 :
@@ -617,7 +615,6 @@ clone
 fn
 Delete
 (
-&
 self
 name
 :
@@ -646,7 +643,6 @@ name
 fn
 Get
 (
-&
 self
 name
 :
@@ -752,7 +748,6 @@ None
 fn
 Has
 (
-&
 self
 name
 :
@@ -790,7 +785,6 @@ unrooted_must_root
 fn
 Set
 (
-&
 self
 name
 :
@@ -855,7 +849,6 @@ file
 fn
 Set_
 (
-&
 self
 name
 :

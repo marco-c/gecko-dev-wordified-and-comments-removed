@@ -1208,7 +1208,6 @@ length
 fn
 Length
 (
-&
 self
 )
 -
@@ -1340,7 +1339,6 @@ item
 fn
 Item
 (
-&
 self
 index
 :
@@ -1534,7 +1532,6 @@ nameditem
 fn
 NamedItem
 (
-&
 self
 key
 :
@@ -1786,7 +1783,6 @@ maybe_elem
 fn
 IndexedGetter
 (
-&
 self
 index
 :
@@ -1831,7 +1827,6 @@ maybe_elem
 fn
 NamedGetter
 (
-&
 self
 name
 :

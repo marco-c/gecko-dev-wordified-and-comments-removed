@@ -267,7 +267,6 @@ DOMRect
 fn
 Top
 (
-&
 self
 )
 -
@@ -281,7 +280,6 @@ top
 fn
 Bottom
 (
-&
 self
 )
 -
@@ -295,7 +293,6 @@ bottom
 fn
 Left
 (
-&
 self
 )
 -
@@ -309,7 +306,6 @@ left
 fn
 Right
 (
-&
 self
 )
 -
@@ -323,7 +319,6 @@ right
 fn
 Width
 (
-&
 self
 )
 -
@@ -347,7 +342,6 @@ abs
 fn
 Height
 (
-&
 self
 )
 -

@@ -349,7 +349,6 @@ HTMLButtonElement
 fn
 Validity
 (
-&
 self
 )
 -
@@ -364,7 +363,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -429,7 +427,6 @@ disabled
 fn
 SetDisabled
 (
-&
 self
 disabled
 :
@@ -449,7 +446,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;

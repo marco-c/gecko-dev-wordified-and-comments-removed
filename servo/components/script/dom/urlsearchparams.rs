@@ -519,7 +519,6 @@ URLSearchParams
 fn
 Append
 (
-&
 self
 name
 :
@@ -579,7 +578,6 @@ update_steps
 fn
 Delete
 (
-&
 self
 name
 :
@@ -614,7 +612,6 @@ update_steps
 fn
 Get
 (
-&
 self
 name
 :
@@ -663,7 +660,6 @@ clone
 fn
 Has
 (
-&
 self
 name
 :
@@ -694,7 +690,6 @@ name
 fn
 Set
 (
-&
 self
 name
 :

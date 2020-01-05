@@ -367,7 +367,6 @@ HTMLTableElement
 fn
 GetCaption
 (
-&
 self
 )
 -
@@ -393,7 +392,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -452,7 +450,6 @@ unwrap
 fn
 SetCaption
 (
-&
 self
 new_caption
 :
@@ -478,7 +475,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -502,10 +498,8 @@ htmlelem
 >
 {
 let
-htmlelem_jsref
+htmlelem_root
 =
-&
-*
 htmlelem
 .
 root
@@ -526,7 +520,7 @@ NodeCast
 from_ref
 (
 *
-htmlelem_jsref
+htmlelem_root
 )
 ;
 assert

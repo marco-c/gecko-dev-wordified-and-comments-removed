@@ -325,7 +325,6 @@ HTMLTitleElement
 fn
 Text
 (
-&
 self
 )
 -
@@ -345,7 +344,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -427,7 +425,6 @@ content
 fn
 SetText
 (
-&
 self
 value
 :
@@ -447,7 +444,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

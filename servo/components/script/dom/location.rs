@@ -237,7 +237,6 @@ Location
 fn
 Href
 (
-&
 self
 )
 -
@@ -262,7 +261,6 @@ get_url
 fn
 Search
 (
-&
 self
 )
 -
@@ -287,7 +285,6 @@ get_url
 fn
 Hash
 (
-&
 self
 )
 -

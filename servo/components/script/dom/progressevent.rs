@@ -415,7 +415,6 @@ ProgressEvent
 fn
 LengthComputable
 (
-&
 self
 )
 -
@@ -429,7 +428,6 @@ length_computable
 fn
 Loaded
 (
-&
 self
 )
 -
@@ -443,7 +441,6 @@ loaded
 fn
 Total
 (
-&
 self
 )
 -

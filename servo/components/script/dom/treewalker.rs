@@ -450,7 +450,6 @@ TreeWalker
 fn
 Root
 (
-&
 self
 )
 -
@@ -473,7 +472,6 @@ root_node
 fn
 WhatToShow
 (
-&
 self
 )
 -
@@ -487,7 +485,6 @@ what_to_show
 fn
 GetFilter
 (
-&
 self
 )
 -
@@ -541,7 +538,6 @@ NodeFilter
 fn
 CurrentNode
 (
-&
 self
 )
 -
@@ -568,7 +564,6 @@ get
 fn
 SetCurrentNode
 (
-&
 self
 node
 :
@@ -618,7 +613,6 @@ Ok
 fn
 ParentNode
 (
-&
 self
 )
 -
@@ -643,7 +637,6 @@ parent_node
 fn
 FirstChild
 (
-&
 self
 )
 -
@@ -668,7 +661,6 @@ first_child
 fn
 LastChild
 (
-&
 self
 )
 -
@@ -693,7 +685,6 @@ last_child
 fn
 PreviousSibling
 (
-&
 self
 )
 -
@@ -718,7 +709,6 @@ prev_sibling
 fn
 NextSibling
 (
-&
 self
 )
 -
@@ -743,7 +733,6 @@ next_sibling
 fn
 PreviousNode
 (
-&
 self
 )
 -
@@ -768,7 +757,6 @@ prev_node
 fn
 NextNode
 (
-&
 self
 )
 -
@@ -865,7 +853,6 @@ b
 fn
 traverse_children
 (
-&
 self
 next_child
 :
@@ -902,7 +889,6 @@ Node
 fn
 traverse_siblings
 (
-&
 self
 next_child
 :
@@ -939,7 +925,6 @@ Node
 fn
 is_root_node
 (
-&
 self
 node
 :
@@ -957,7 +942,6 @@ bool
 fn
 is_current_node
 (
-&
 self
 node
 :
@@ -975,7 +959,6 @@ bool
 fn
 first_following_node_not_following_root
 (
-&
 self
 node
 :
@@ -999,7 +982,6 @@ Node
 fn
 accept_node
 (
-&
 self
 node
 :
@@ -1063,7 +1045,6 @@ children
 fn
 traverse_children
 (
-&
 self
 next_child
 :
@@ -1750,7 +1731,6 @@ siblings
 fn
 traverse_siblings
 (
-&
 self
 next_child
 :
@@ -2377,7 +2357,6 @@ following
 fn
 first_following_node_not_following_root
 (
-&
 self
 node
 :
@@ -2572,7 +2551,6 @@ filter
 fn
 accept_node
 (
-&
 self
 node
 :
@@ -2785,7 +2763,6 @@ callback
 .
 AcceptNode_
 (
-*
 self
 node
 RethrowExceptions
@@ -2795,7 +2772,6 @@ RethrowExceptions
 fn
 is_root_node
 (
-&
 self
 node
 :
@@ -2826,7 +2802,6 @@ root_node
 fn
 is_current_node
 (
-&
 self
 node
 :
@@ -2870,7 +2845,6 @@ a
 fn
 parent_node
 (
-&
 self
 )
 -
@@ -2889,7 +2863,6 @@ Node
 fn
 first_child
 (
-&
 self
 )
 -
@@ -2908,7 +2881,6 @@ Node
 fn
 last_child
 (
-&
 self
 )
 -
@@ -2927,7 +2899,6 @@ Node
 fn
 next_sibling
 (
-&
 self
 )
 -
@@ -2946,7 +2917,6 @@ Node
 fn
 prev_sibling
 (
-&
 self
 )
 -
@@ -2965,7 +2935,6 @@ Node
 fn
 next_node
 (
-&
 self
 )
 -
@@ -2984,7 +2953,6 @@ Node
 fn
 prev_node
 (
-&
 self
 )
 -
@@ -3042,7 +3010,6 @@ parentnode
 fn
 parent_node
 (
-&
 self
 )
 -
@@ -3299,7 +3266,6 @@ firstchild
 fn
 first_child
 (
-&
 self
 )
 -
@@ -3376,7 +3342,6 @@ lastchild
 fn
 last_child
 (
-&
 self
 )
 -
@@ -3453,7 +3418,6 @@ nextsibling
 fn
 next_sibling
 (
-&
 self
 )
 -
@@ -3530,7 +3494,6 @@ previoussibling
 fn
 prev_sibling
 (
-&
 self
 )
 -
@@ -3607,7 +3570,6 @@ previousnode
 fn
 prev_node
 (
-&
 self
 )
 -
@@ -4212,7 +4174,6 @@ nextnode
 fn
 next_node
 (
-&
 self
 )
 -

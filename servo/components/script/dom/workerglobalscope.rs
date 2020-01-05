@@ -521,7 +521,6 @@ WorkerGlobalScope
 fn
 Self
 (
-&
 self
 )
 -
@@ -536,14 +535,12 @@ Temporary
 :
 from_rooted
 (
-*
 self
 )
 }
 fn
 Location
 (
-&
 self
 )
 -
@@ -574,7 +571,6 @@ WorkerLocation
 :
 new
 (
-*
 self
 self
 .
@@ -627,7 +623,6 @@ clone
 fn
 ImportScripts
 (
-&
 self
 url_strings
 :
@@ -859,7 +854,6 @@ Ok
 fn
 Navigator
 (
-&
 self
 )
 -
@@ -890,7 +884,6 @@ WorkerNavigator
 :
 new
 (
-*
 self
 )
 ;
@@ -932,7 +925,6 @@ clone
 fn
 Console
 (
-&
 self
 )
 -
@@ -969,7 +961,6 @@ global
 :
 Worker
 (
-*
 self
 )
 )
@@ -1012,7 +1003,6 @@ clone
 fn
 Btoa
 (
-&
 self
 btoa
 :
@@ -1033,7 +1023,6 @@ btoa
 fn
 Atob
 (
-&
 self
 atob
 :

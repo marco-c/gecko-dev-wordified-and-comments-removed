@@ -467,7 +467,6 @@ CustomEvent
 fn
 Detail
 (
-&
 self
 _cx
 :
@@ -495,7 +494,6 @@ get
 fn
 InitCustomEvent
 (
-&
 self
 _cx
 :
@@ -548,7 +546,6 @@ EventCast
 :
 from_ref
 (
-*
 self
 )
 ;

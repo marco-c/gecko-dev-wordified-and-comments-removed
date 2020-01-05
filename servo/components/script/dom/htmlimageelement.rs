@@ -295,7 +295,6 @@ PrivateHTMLImageElementHelpers
 fn
 update_image
 (
-&
 self
 value
 :
@@ -327,7 +326,6 @@ HTMLImageElement
 fn
 update_image
 (
-&
 self
 value
 :
@@ -354,7 +352,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -688,7 +685,6 @@ Alt
 fn
 SetAlt
 (
-&
 self
 alt
 :
@@ -708,7 +704,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -730,7 +725,6 @@ Src
 fn
 SetSrc
 (
-&
 self
 src
 :
@@ -750,7 +744,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -772,7 +765,6 @@ UseMap
 fn
 SetUseMap
 (
-&
 self
 use_map
 :
@@ -792,7 +784,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -814,7 +805,6 @@ IsMap
 fn
 SetIsMap
 (
-&
 self
 is_map
 :
@@ -834,7 +824,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -855,7 +844,6 @@ to_string
 fn
 Width
 (
-&
 self
 )
 -
@@ -875,7 +863,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -902,7 +889,6 @@ u32
 fn
 SetWidth
 (
-&
 self
 width
 :
@@ -922,7 +908,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -939,7 +924,6 @@ width
 fn
 Height
 (
-&
 self
 )
 -
@@ -959,7 +943,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -986,7 +969,6 @@ u32
 fn
 SetHeight
 (
-&
 self
 height
 :
@@ -1006,7 +988,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1028,7 +1009,6 @@ Name
 fn
 SetName
 (
-&
 self
 name
 :
@@ -1048,7 +1028,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1070,7 +1049,6 @@ Align
 fn
 SetAlign
 (
-&
 self
 align
 :
@@ -1090,7 +1068,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1112,7 +1089,6 @@ Hspace
 fn
 SetHspace
 (
-&
 self
 hspace
 :
@@ -1132,7 +1108,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1154,7 +1129,6 @@ Vspace
 fn
 SetVspace
 (
-&
 self
 vspace
 :
@@ -1174,7 +1148,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1196,7 +1169,6 @@ LongDesc
 fn
 SetLongDesc
 (
-&
 self
 longdesc
 :
@@ -1216,7 +1188,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1238,7 +1209,6 @@ Border
 fn
 SetBorder
 (
-&
 self
 border
 :
@@ -1258,7 +1228,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;

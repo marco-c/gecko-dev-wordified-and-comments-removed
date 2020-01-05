@@ -367,7 +367,6 @@ HTMLBodyElement
 fn
 GetOnunload
 (
-&
 self
 )
 -
@@ -382,7 +381,6 @@ win
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -403,7 +401,6 @@ GetOnunload
 fn
 SetOnunload
 (
-&
 self
 listener
 :
@@ -418,7 +415,6 @@ win
 =
 window_from_node
 (
-*
 self
 )
 .

@@ -804,7 +804,6 @@ MouseEvent
 fn
 ScreenX
 (
-&
 self
 )
 -
@@ -826,7 +825,6 @@ get
 fn
 ScreenY
 (
-&
 self
 )
 -
@@ -848,7 +846,6 @@ get
 fn
 ClientX
 (
-&
 self
 )
 -
@@ -870,7 +867,6 @@ get
 fn
 ClientY
 (
-&
 self
 )
 -
@@ -892,7 +888,6 @@ get
 fn
 CtrlKey
 (
-&
 self
 )
 -
@@ -914,7 +909,6 @@ get
 fn
 ShiftKey
 (
-&
 self
 )
 -
@@ -936,7 +930,6 @@ get
 fn
 AltKey
 (
-&
 self
 )
 -
@@ -958,7 +951,6 @@ get
 fn
 MetaKey
 (
-&
 self
 )
 -
@@ -980,7 +972,6 @@ get
 fn
 Button
 (
-&
 self
 )
 -
@@ -1002,7 +993,6 @@ get
 fn
 GetRelatedTarget
 (
-&
 self
 )
 -
@@ -1044,7 +1034,6 @@ target
 fn
 InitMouseEvent
 (
-&
 self
 typeArg
 :
@@ -1118,7 +1107,6 @@ UIEventCast
 :
 from_ref
 (
-*
 self
 )
 ;

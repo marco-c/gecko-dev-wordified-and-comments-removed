@@ -313,7 +313,6 @@ StyleElementHelpers
 fn
 parse_own_css
 (
-&
 self
 )
 ;
@@ -335,7 +334,6 @@ HTMLStyleElement
 fn
 parse_own_css
 (
-&
 self
 )
 {
@@ -352,7 +350,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

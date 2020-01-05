@@ -303,7 +303,6 @@ DOMParser
 fn
 ParseFromString
 (
-&
 self
 _s
 :

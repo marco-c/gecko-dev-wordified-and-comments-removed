@@ -402,7 +402,6 @@ PrivateHTMLElementHelpers
 fn
 is_body_or_frameset
 (
-&
 self
 )
 -
@@ -427,7 +426,6 @@ HTMLElement
 fn
 is_body_or_frameset
 (
-&
 self
 )
 -
@@ -447,7 +445,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -482,7 +479,6 @@ HTMLElement
 fn
 GetOnclick
 (
-&
 self
 )
 -
@@ -505,7 +501,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -521,7 +516,6 @@ click
 fn
 SetOnclick
 (
-&
 self
 listener
 :
@@ -544,7 +538,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -561,7 +554,6 @@ listener
 fn
 GetOnload
 (
-&
 self
 )
 -
@@ -583,7 +575,6 @@ win
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -609,7 +600,6 @@ None
 fn
 SetOnload
 (
-&
 self
 listener
 :
@@ -631,7 +621,6 @@ win
 =
 window_from_node
 (
-*
 self
 )
 .

@@ -342,7 +342,6 @@ DocumentType
 fn
 Name
 (
-&
 self
 )
 -
@@ -360,7 +359,6 @@ clone
 fn
 PublicId
 (
-&
 self
 )
 -
@@ -378,7 +376,6 @@ clone
 fn
 SystemId
 (
-&
 self
 )
 -
@@ -396,7 +393,6 @@ clone
 fn
 Remove
 (
-&
 self
 )
 {
@@ -413,7 +409,6 @@ NodeCast
 :
 from_ref
 (
-*
 self
 )
 ;

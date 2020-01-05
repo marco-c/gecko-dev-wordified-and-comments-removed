@@ -425,7 +425,6 @@ HTMLIFrameElementHelpers
 fn
 is_sandboxed
 (
-&
 self
 )
 -
@@ -435,7 +434,6 @@ bool
 fn
 get_url
 (
-&
 self
 )
 -
@@ -448,7 +446,6 @@ Url
 fn
 process_the_iframe_attributes
 (
-&
 self
 )
 ;
@@ -470,7 +467,6 @@ HTMLIFrameElement
 fn
 is_sandboxed
 (
-&
 self
 )
 -
@@ -496,7 +492,6 @@ is_some
 fn
 get_url
 (
-&
 self
 )
 -
@@ -519,7 +514,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -576,7 +570,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -628,7 +621,6 @@ ok
 fn
 process_the_iframe_attributes
 (
-&
 self
 )
 {
@@ -695,7 +687,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -926,7 +917,6 @@ HTMLIFrameElement
 fn
 Src
 (
-&
 self
 )
 -
@@ -946,7 +936,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -962,7 +951,6 @@ src
 fn
 SetSrc
 (
-&
 self
 src
 :
@@ -982,7 +970,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -999,7 +986,6 @@ src
 fn
 Sandbox
 (
-&
 self
 )
 -
@@ -1019,7 +1005,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1035,7 +1020,6 @@ sandbox
 fn
 SetSandbox
 (
-&
 self
 sandbox
 :
@@ -1055,7 +1039,6 @@ ElementCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -1073,7 +1056,6 @@ sandbox
 fn
 GetContentWindow
 (
-&
 self
 )
 -
@@ -1109,7 +1091,6 @@ window
 =
 window_from_node
 (
-*
 self
 )
 .
@@ -1120,8 +1101,6 @@ root
 let
 children
 =
-&
-*
 window
 .
 deref

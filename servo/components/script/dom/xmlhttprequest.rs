@@ -779,15 +779,10 @@ SyncOrAsync
 <
 '
 a
-'
-b
 >
 {
 Sync
 (
-&
-'
-b
 JSRef
 <
 '
@@ -1627,7 +1622,6 @@ fetch_type
 {
 Sync
 (
-ref
 xhr
 )
 =
@@ -2073,7 +2067,6 @@ XMLHttpRequest
 fn
 GetOnreadystatechange
 (
-&
 self
 )
 -
@@ -2096,7 +2089,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2112,7 +2104,6 @@ readystatechange
 fn
 SetOnreadystatechange
 (
-&
 self
 listener
 :
@@ -2135,7 +2126,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -2152,7 +2142,6 @@ listener
 fn
 ReadyState
 (
-&
 self
 )
 -
@@ -2176,7 +2165,6 @@ u16
 fn
 Open
 (
-&
 self
 method
 :
@@ -2813,7 +2801,6 @@ Step
 fn
 Open_
 (
-&
 self
 method
 :
@@ -2866,7 +2853,6 @@ url
 fn
 SetRequestHeader
 (
-&
 self
 name
 :
@@ -3385,7 +3371,6 @@ Syntax
 fn
 Timeout
 (
-&
 self
 )
 -
@@ -3407,7 +3392,6 @@ get
 fn
 SetTimeout
 (
-&
 self
 timeout
 :
@@ -3576,7 +3560,6 @@ Ok
 fn
 WithCredentials
 (
-&
 self
 )
 -
@@ -3598,7 +3581,6 @@ get
 fn
 SetWithCredentials
 (
-&
 self
 with_credentials
 :
@@ -3622,7 +3604,6 @@ with_credentials
 fn
 Upload
 (
-&
 self
 )
 -
@@ -3645,7 +3626,6 @@ upload
 fn
 Send
 (
-&
 self
 data
 :
@@ -4851,7 +4831,6 @@ Ok
 fn
 Abort
 (
-&
 self
 )
 {
@@ -4965,7 +4944,6 @@ Unsent
 fn
 ResponseURL
 (
-&
 self
 )
 -
@@ -4983,7 +4961,6 @@ clone
 fn
 Status
 (
-&
 self
 )
 -
@@ -5005,7 +4982,6 @@ get
 fn
 StatusText
 (
-&
 self
 )
 -
@@ -5031,7 +5007,6 @@ clone
 fn
 GetResponseHeader
 (
-&
 self
 name
 :
@@ -5166,7 +5141,6 @@ collect
 fn
 GetAllResponseHeaders
 (
-&
 self
 )
 -
@@ -5261,7 +5235,6 @@ vec
 fn
 ResponseType
 (
-&
 self
 )
 -
@@ -5283,7 +5256,6 @@ get
 fn
 SetResponseType
 (
-&
 self
 response_type
 :
@@ -5390,7 +5362,6 @@ Ok
 fn
 Response
 (
-&
 self
 cx
 :
@@ -5635,7 +5606,6 @@ cx
 fn
 GetResponseText
 (
-&
 self
 )
 -
@@ -5716,7 +5686,6 @@ InvalidState
 fn
 GetResponseXML
 (
-&
 self
 )
 -
@@ -5867,7 +5836,6 @@ unsafe
 fn
 to_trusted
 (
-&
 self
 )
 -
@@ -5877,14 +5845,12 @@ TrustedXHRAddress
 fn
 release_once
 (
-&
 self
 )
 ;
 fn
 change_ready_state
 (
-&
 self
 XMLHttpRequestState
 )
@@ -5892,7 +5858,6 @@ XMLHttpRequestState
 fn
 process_partial_response
 (
-&
 self
 progress
 :
@@ -5902,7 +5867,6 @@ XHRProgress
 fn
 insert_trusted_header
 (
-&
 self
 name
 :
@@ -5915,7 +5879,6 @@ String
 fn
 dispatch_progress_event
 (
-&
 self
 upload
 :
@@ -5937,7 +5900,6 @@ u64
 fn
 dispatch_upload_progress_event
 (
-&
 self
 type_
 :
@@ -5953,7 +5915,6 @@ u64
 fn
 dispatch_response_progress_event
 (
-&
 self
 type_
 :
@@ -5963,7 +5924,6 @@ DOMString
 fn
 text_response
 (
-&
 self
 )
 -
@@ -5973,7 +5933,6 @@ DOMString
 fn
 set_timeout
 (
-&
 self
 timeout
 :
@@ -5983,14 +5942,12 @@ u32
 fn
 cancel_timeout
 (
-&
 self
 )
 ;
 fn
 filter_response_headers
 (
-&
 self
 )
 -
@@ -6037,7 +5994,6 @@ unsafe
 fn
 to_trusted
 (
-&
 self
 )
 -
@@ -6142,7 +6098,6 @@ c_void
 fn
 release_once
 (
-&
 self
 )
 {
@@ -6295,7 +6250,6 @@ rootable
 fn
 change_ready_state
 (
-&
 self
 rs
 :
@@ -6386,7 +6340,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 ;
@@ -6407,7 +6360,6 @@ ok
 fn
 process_partial_response
 (
-&
 self
 progress
 :
@@ -7272,7 +7224,6 @@ release_once
 fn
 insert_trusted_header
 (
-&
 self
 name
 :
@@ -7391,7 +7342,6 @@ unwrap
 fn
 dispatch_progress_event
 (
-&
 self
 upload
 :
@@ -7494,7 +7444,6 @@ EventTargetCast
 :
 from_ref
 (
-*
 self
 )
 }
@@ -7532,7 +7481,6 @@ ok
 fn
 dispatch_upload_progress_event
 (
-&
 self
 type_
 :
@@ -7600,7 +7548,6 @@ total
 fn
 dispatch_response_progress_event
 (
-&
 self
 type_
 :
@@ -7671,7 +7618,6 @@ total
 fn
 set_timeout
 (
-&
 self
 timeout
 :
@@ -7983,7 +7929,6 @@ canceled
 fn
 cancel_timeout
 (
-&
 self
 )
 {
@@ -8062,7 +8007,6 @@ oneshot
 fn
 text_response
 (
-&
 self
 )
 -
@@ -8223,7 +8167,6 @@ to_string
 fn
 filter_response_headers
 (
-&
 self
 )
 -
