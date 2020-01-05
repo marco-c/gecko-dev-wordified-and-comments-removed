@@ -254,7 +254,6 @@ geometry
 {
 Au
 MAX_AU
-ZERO_POINT
 ZERO_RECT
 }
 ;
