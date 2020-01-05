@@ -867,6 +867,12 @@ l10n
 base
 '
 )
+imports
+(
+'
+os
+'
+)
 def
 l10n_base
 (

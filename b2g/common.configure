@@ -180,6 +180,12 @@ depends
 MOZTTDIR
 '
 )
+imports
+(
+'
+os
+'
+)
 def
 mozttdir
 (

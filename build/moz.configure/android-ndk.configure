@@ -436,6 +436,12 @@ platform
 directory
 '
 )
+imports
+(
+'
+os
+'
+)
 def
 android_platform
 (
@@ -700,6 +706,12 @@ or
 '
 not
 found
+'
+)
+imports
+(
+'
+os
 '
 )
 imports

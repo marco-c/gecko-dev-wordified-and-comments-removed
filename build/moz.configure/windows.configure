@@ -2061,6 +2061,12 @@ not
 found
 '
 )
+imports
+(
+'
+os
+'
+)
 def
 dia_sdk_dir
 (

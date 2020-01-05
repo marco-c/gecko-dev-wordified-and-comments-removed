@@ -202,6 +202,12 @@ help
 DIST
 '
 )
+imports
+(
+'
+os
+'
+)
 def
 check_build_environment
 (
@@ -5252,6 +5258,12 @@ check_build_environment
 -
 -
 help
+'
+)
+imports
+(
+'
+os
 '
 )
 def
