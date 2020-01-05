@@ -139,5 +139,10 @@ test_addon_wipe
 .
 js
 "
+"
+test_existing_bookmarks
+.
+js
+"
 ]
 }
