@@ -5573,6 +5573,25 @@ self
 .
 minidump_stackwalk_path
                 
+if
+self
+.
+query_nodejs
+(
+)
+:
+                    
+env
+[
+'
+MOZ_NODE_PATH
+'
+]
+=
+self
+.
+nodejs_path
+                
 env
 [
 '
