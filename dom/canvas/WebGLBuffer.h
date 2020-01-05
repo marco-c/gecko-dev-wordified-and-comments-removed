@@ -313,12 +313,6 @@ WebGLElementArrayCache
 >
 mCache
 ;
-size_t
-mNumActiveTFOs
-;
-bool
-mBoundForTF
-;
 }
 ;
 }
