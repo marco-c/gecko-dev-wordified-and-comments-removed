@@ -7839,10 +7839,7 @@ mWordBreak
 uint8_t
 mOverflowWrap
 ;
-mozilla
-:
-:
-StyleHyphens
+uint8_t
 mHyphens
 ;
 uint8_t
@@ -15474,6 +15471,10 @@ struct
 MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleVariables
 {
+nsStyleVariables
+(
+)
+;
 explicit
 nsStyleVariables
 (
