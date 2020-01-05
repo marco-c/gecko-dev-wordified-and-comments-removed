@@ -171,10 +171,6 @@ mCDM
 (
 nullptr
 )
-mDecryptionJobCount
-(
-0
-)
 mShutdownCalled
 (
 false
@@ -3536,15 +3532,6 @@ AbortedErr
 return
 ;
 }
-aJob
--
->
-mId
-=
-+
-+
-mDecryptionJobCount
-;
 nsTArray
 <
 uint8_t
