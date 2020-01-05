@@ -155,8 +155,9 @@ api
 debug
 test
 -
-set
+sets
 :
+-
 debug
 -
 tests
@@ -187,8 +188,9 @@ api
 opt
 test
 -
-set
+sets
 :
+-
 opt
 -
 tests
@@ -213,8 +215,9 @@ x86
 opt
 test
 -
-set
+sets
 :
+-
 x86
 -
 tests
@@ -249,8 +252,9 @@ gradle
 opt
 test
 -
-set
+sets
 :
+-
 gradle
 -
 tests

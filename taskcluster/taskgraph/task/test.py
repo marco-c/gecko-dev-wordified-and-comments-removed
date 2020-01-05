@@ -602,21 +602,6 @@ test_platform
 {
                 
 '
-test
--
-set
-'
-:
-cfg
-[
-'
-test
--
-set
-'
-]
-                
-'
 build
 -
 platform
@@ -636,6 +621,16 @@ build_platform
 ]
             
 }
+            
+test_platforms
+[
+test_platform
+]
+.
+update
+(
+cfg
+)
         
 return
 test_platforms
@@ -713,22 +708,28 @@ iteritems
 )
 :
             
-test_set
+test_sets
 =
 cfg
 [
 '
 test
 -
-set
+sets
 '
 ]
             
 if
-test_set
 not
-in
+set
+(
+test_sets
+)
+<
+set
+(
 test_sets_cfg
+)
 :
                 
 raise
@@ -737,17 +738,15 @@ Exception
                     
 "
 Test
-set
-'
+sets
 {
 }
-'
 for
 test
 platform
 {
 }
-is
+are
 not
 defined
 "
@@ -755,17 +754,38 @@ defined
 format
 (
                         
-test_set
+'
+'
+.
+join
+(
+test_sets
+)
 test_platform
 )
 )
             
 test_names
 =
+set
+(
+)
+            
+for
+test_set
+in
+test_sets
+:
+                
+test_names
+.
+update
+(
 test_sets_cfg
 [
 test_set
 ]
+)
             
 rv
 [
