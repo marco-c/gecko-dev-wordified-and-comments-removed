@@ -3015,6 +3015,15 @@ self
 >
 bool
 {
+self
+.
+stylesheets_changed_since_reflow
+.
+get
+(
+)
+|
+|
 match
 self
 .
