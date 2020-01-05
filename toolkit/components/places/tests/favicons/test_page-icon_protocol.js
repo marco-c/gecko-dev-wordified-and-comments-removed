@@ -103,7 +103,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_INTERNAL_IMAGE
+TYPE_INTERNAL_IMAGE_FAVICON
 }
 (
 input
