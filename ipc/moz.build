@@ -125,13 +125,6 @@ CONFIG
 MOZ_ENABLE_DBUS
 '
 ]
-or
-CONFIG
-[
-'
-MOZ_B2G_BT_BLUEZ
-'
-]
 :
 DIRS
 +
@@ -146,13 +139,6 @@ CONFIG
 [
 '
 MOZ_B2G_RIL
-'
-]
-or
-CONFIG
-[
-'
-MOZ_B2G_BT
 '
 ]
 or

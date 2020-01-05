@@ -183,12 +183,6 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
-/
-bluetooth
-'
-'
 /
 dom
 /

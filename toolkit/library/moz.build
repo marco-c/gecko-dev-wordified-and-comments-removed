@@ -1116,13 +1116,6 @@ if
 CONFIG
 [
 '
-MOZ_B2G_BT_BLUEZ
-'
-]
-and
-CONFIG
-[
-'
 MOZ_WIDGET_TOOLKIT
 '
 ]

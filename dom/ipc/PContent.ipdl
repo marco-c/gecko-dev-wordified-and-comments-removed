@@ -124,10 +124,6 @@ PBlob
 ;
 include
 protocol
-PBluetooth
-;
-include
-protocol
 PBrowser
 ;
 include
@@ -1398,9 +1394,6 @@ PBackground
 ;
 manages
 PBlob
-;
-manages
-PBluetooth
 ;
 manages
 PBrowser
@@ -4097,11 +4090,6 @@ PStorage
 ;
 async
 PMedia
-(
-)
-;
-async
-PBluetooth
 (
 )
 ;
