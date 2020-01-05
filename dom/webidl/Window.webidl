@@ -510,7 +510,6 @@ CrossOriginWritable
 readonly
 attribute
 Location
-?
 location
 ;
 [
