@@ -67,6 +67,13 @@ testing
 [
 dependencies
 ]
+byteorder
+=
+"
+1
+.
+0
+"
 app_units
 =
 "
