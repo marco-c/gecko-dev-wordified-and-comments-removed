@@ -33,7 +33,7 @@ AttrValue
 ElementExt
 NonTSPseudoClass
 Snapshot
-TheSelectorImpl
+SelectorImpl
 }
 ;
 use
@@ -77,7 +77,6 @@ parser
 AttrSelector
 Combinator
 ComplexSelector
-SelectorImpl
 SimpleSelector
 }
 ;
@@ -246,7 +245,7 @@ MatchAttr
 <
 Impl
 =
-TheSelectorImpl
+SelectorImpl
 >
 {
 fn
@@ -447,7 +446,7 @@ ElementExt
 type
 Impl
 =
-TheSelectorImpl
+SelectorImpl
 ;
 fn
 match_attr_has
@@ -459,7 +458,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 )
 -
@@ -512,7 +511,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -571,7 +570,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -630,7 +629,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -689,7 +688,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -748,7 +747,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -807,7 +806,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -866,7 +865,7 @@ attr
 &
 AttrSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 value
 :
@@ -937,7 +936,7 @@ ElementExt
 <
 Impl
 =
-TheSelectorImpl
+SelectorImpl
 >
 {
 fn
@@ -956,7 +955,7 @@ bool
 let
 flag
 =
-TheSelectorImpl
+SelectorImpl
 :
 :
 pseudo_class_state_flag
@@ -1208,6 +1207,11 @@ Self
 :
 Impl
 as
+:
+:
+selectors
+:
+:
 SelectorImpl
 >
 :
@@ -1237,6 +1241,11 @@ Self
 :
 Impl
 as
+:
+:
+selectors
+:
+:
 SelectorImpl
 >
 :
@@ -1450,7 +1459,7 @@ sel
 &
 SimpleSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 )
 -
@@ -1471,7 +1480,7 @@ pc
 )
 =
 >
-TheSelectorImpl
+SelectorImpl
 :
 :
 pseudo_class_state_flag
@@ -1497,7 +1506,7 @@ sel
 &
 SimpleSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 )
 -
@@ -1788,7 +1797,7 @@ Arc
 <
 ComplexSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 >
 hint
@@ -2000,7 +2009,7 @@ Arc
 <
 ComplexSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 >
 )

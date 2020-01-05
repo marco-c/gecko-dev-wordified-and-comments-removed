@@ -220,7 +220,7 @@ builds
 )
 is
 [
-ServoSelectorImpl
+SelectorImpl
 ]
 [
 servo
@@ -1399,7 +1399,7 @@ servo_selector_parser
 /
 struct
 .
-ServoSelectorImpl
+SelectorImpl
 .
 html
 [

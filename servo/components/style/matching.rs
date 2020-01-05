@@ -101,7 +101,7 @@ selector_parser
 {
 PseudoElement
 RestyleDamage
-TheSelectorImpl
+SelectorImpl
 }
 ;
 use
@@ -2472,7 +2472,7 @@ default
 )
 )
 ;
-TheSelectorImpl
+SelectorImpl
 :
 :
 each_eagerly_cascaded_pseudo_element

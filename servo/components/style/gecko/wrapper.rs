@@ -71,7 +71,7 @@ selector_parser
 :
 :
 {
-GeckoSelectorImpl
+SelectorImpl
 NonTSPseudoClass
 PseudoElement
 }
@@ -3250,7 +3250,7 @@ AttrSelectorHelpers
 for
 AttrSelector
 <
-GeckoSelectorImpl
+SelectorImpl
 >
 {
 fn
@@ -3362,7 +3362,7 @@ le
 type
 Impl
 =
-GeckoSelectorImpl
+SelectorImpl
 ;
 fn
 match_attr_has

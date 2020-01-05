@@ -95,7 +95,7 @@ selector_parser
 :
 {
 ElementExt
-TheSelectorImpl
+SelectorImpl
 PseudoElement
 Snapshot
 }
@@ -373,7 +373,7 @@ Vec
 <
 Selector
 <
-TheSelectorImpl
+SelectorImpl
 >
 >
 #
@@ -398,7 +398,7 @@ Vec
 <
 Selector
 <
-TheSelectorImpl
+SelectorImpl
 >
 >
 }
@@ -504,7 +504,7 @@ vec
 ]
 }
 ;
-TheSelectorImpl
+SelectorImpl
 :
 :
 each_eagerly_cascaded_pseudo_element
@@ -612,7 +612,7 @@ default
 (
 )
 ;
-TheSelectorImpl
+SelectorImpl
 :
 :
 each_eagerly_cascaded_pseudo_element
@@ -861,6 +861,8 @@ in
 guard
 .
 selectors
+.
+0
 {
 let
 map
@@ -965,6 +967,8 @@ in
 guard
 .
 selectors
+.
+0
 {
 state_deps
 .
@@ -1205,7 +1209,7 @@ len
 )
 )
 ;
-TheSelectorImpl
+SelectorImpl
 :
 :
 each_precomputed_pseudo_element
@@ -1301,7 +1305,7 @@ StrongRuleNode
 debug_assert
 !
 (
-TheSelectorImpl
+SelectorImpl
 :
 :
 pseudo_element_cascade_type
@@ -1670,7 +1674,7 @@ Element
 <
 Impl
 =
-TheSelectorImpl
+SelectorImpl
 >
 +
 fmt
@@ -1683,7 +1687,7 @@ PresentationalHintsSynthetizer
 debug_assert
 !
 (
-TheSelectorImpl
+SelectorImpl
 :
 :
 pseudo_element_cascade_type
@@ -2157,7 +2161,7 @@ Element
 <
 Impl
 =
-TheSelectorImpl
+SelectorImpl
 >
 +
 fmt
@@ -2226,7 +2230,7 @@ is_none
 |
 |
 !
-TheSelectorImpl
+SelectorImpl
 :
 :
 pseudo_element_cascade_type
@@ -3475,7 +3479,7 @@ Element
 <
 Impl
 =
-TheSelectorImpl
+SelectorImpl
 >
 V
 :
@@ -3879,7 +3883,7 @@ Element
 <
 Impl
 =
-TheSelectorImpl
+SelectorImpl
 >
 Str
 :
@@ -3987,7 +3991,7 @@ Element
 <
 Impl
 =
-TheSelectorImpl
+SelectorImpl
 >
 V
 :
@@ -4344,7 +4348,7 @@ Option
 <
 LocalNameSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 >
 {
@@ -4452,7 +4456,7 @@ Arc
 <
 ComplexSelector
 <
-TheSelectorImpl
+SelectorImpl
 >
 >
 #

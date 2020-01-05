@@ -129,7 +129,7 @@ selector_parser
 :
 :
 {
-GeckoSelectorImpl
+SelectorImpl
 PseudoElement
 }
 ;
@@ -2466,7 +2466,7 @@ match_element
 )
 ;
 match
-GeckoSelectorImpl
+SelectorImpl
 :
 :
 pseudo_element_cascade_type
