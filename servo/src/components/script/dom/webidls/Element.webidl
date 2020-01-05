@@ -218,12 +218,6 @@ readonly
 attribute
 DOMString
 ?
-namespaceURI
-;
-readonly
-attribute
-DOMString
-?
 prefix
 ;
 readonly
@@ -233,6 +227,14 @@ localName
 ;
 *
 /
+[
+Constant
+]
+readonly
+attribute
+DOMString
+namespaceURI
+;
 /
 /
 Not

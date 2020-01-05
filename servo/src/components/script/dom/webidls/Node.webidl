@@ -517,7 +517,6 @@ spec
 If
 we
 move
-namespaceURI
 prefix
 and
 localName
@@ -534,15 +533,6 @@ non
 nullable
 type
 .
-[
-Constant
-]
-readonly
-attribute
-DOMString
-?
-namespaceURI
-;
 [
 Constant
 ]
