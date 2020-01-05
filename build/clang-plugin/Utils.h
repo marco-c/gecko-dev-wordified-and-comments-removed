@@ -2507,9 +2507,7 @@ const
 Decl
 *
 D
-const
-char
-*
+StringRef
 Spelling
 )
 {
