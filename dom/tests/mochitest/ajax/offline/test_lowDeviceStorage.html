@@ -373,6 +373,10 @@ full
 var
 updateObserver
 =
+SpecialPowers
+.
+wrapCallbackObject
+(
 {
 updateStateChanged
 :
@@ -540,6 +544,7 @@ function
 {
 }
 }
+)
 ;
 var
 manifest
