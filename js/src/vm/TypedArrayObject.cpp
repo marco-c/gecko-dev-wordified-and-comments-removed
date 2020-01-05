@@ -7679,7 +7679,7 @@ TypedArrayObjectSharedTypedArrayPrototypeClassSpec
 GenericCreateConstructor
 <
 TypedArrayConstructor
-3
+0
 gc
 :
 :
