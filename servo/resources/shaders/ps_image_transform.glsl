@@ -62,10 +62,10 @@ vUv
 ;
 varying
 vec3
-vPos
+vLocalPos
 ;
 flat
 varying
 vec4
-vRect
+vLocalRect
 ;
