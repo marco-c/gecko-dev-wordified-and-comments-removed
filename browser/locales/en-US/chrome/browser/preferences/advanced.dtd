@@ -418,8 +418,8 @@ enableTelemetryData
 label
 "
 Share
-additional
-data
+Additional
+Data
 (
 i
 .
@@ -850,7 +850,7 @@ label
 &
 brandShortName
 ;
-updates
+Updates
 "
 >
 <
@@ -997,7 +997,7 @@ autoUpdateOthers
 label
 "
 Automatically
-update
+Update
 "
 >
 <
