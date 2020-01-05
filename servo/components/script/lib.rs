@@ -417,6 +417,10 @@ extern
 crate
 websocket
 ;
+extern
+crate
+xml5ever
+;
 pub
 mod
 clipboard_provider
