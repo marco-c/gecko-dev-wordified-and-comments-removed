@@ -5675,6 +5675,13 @@ Size2D
 Au
 >
 pub
+tile_spacing
+:
+Size2D
+<
+Au
+>
+pub
 image_rendering
 :
 image_rendering
@@ -6634,6 +6641,10 @@ bounds
 image_item
 .
 stretch_size
+&
+image_item
+.
+tile_spacing
 &
 image_item
 .

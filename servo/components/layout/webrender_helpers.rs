@@ -2814,10 +2814,11 @@ stretch_size
 to_sizef
 (
 )
-Size2D
-:
-:
-zero
+item
+.
+tile_spacing
+.
+to_sizef
 (
 )
 item
