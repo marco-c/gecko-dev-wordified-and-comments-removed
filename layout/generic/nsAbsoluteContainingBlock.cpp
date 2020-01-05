@@ -839,9 +839,10 @@ IsIncomplete
 (
 )
 )
-NS_FRAME_SET_OVERFLOW_INCOMPLETE
-(
 reflowStatus
+.
+SetOverflowIncomplete
+(
 )
 ;
 NS_MergeReflowStatusInto

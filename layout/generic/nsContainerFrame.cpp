@@ -5912,9 +5912,10 @@ GetStateBits
 NS_FRAME_OUT_OF_FLOW
 )
 {
-NS_FRAME_SET_OVERFLOW_INCOMPLETE
-(
 frameStatus
+.
+SetOverflowIncomplete
+(
 )
 ;
 }
