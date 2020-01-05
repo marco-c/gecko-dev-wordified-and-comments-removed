@@ -760,6 +760,9 @@ function
 err
 )
 {
+const
+proto
+=
 Error
 .
 call
@@ -819,6 +822,14 @@ this
 message
 =
 err
+;
+this
+.
+stack
+=
+proto
+.
+stack
 ;
 }
 }
