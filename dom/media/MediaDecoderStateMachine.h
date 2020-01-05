@@ -1412,7 +1412,7 @@ media
 :
 :
 TimeUnit
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 ;
 int64_t
 mAmpleAudioThresholdUsecs

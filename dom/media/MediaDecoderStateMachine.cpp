@@ -577,7 +577,7 @@ detail
 static
 constexpr
 auto
-LOW_AUDIO_USECS
+LOW_AUDIO_THRESHOLD
 =
 TimeUnit
 :
@@ -3311,7 +3311,7 @@ adjustedTime
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 .
 ToMicroseconds
 (
@@ -3330,7 +3330,7 @@ HasLowBufferedData
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 =
 TimeUnit
 :
@@ -3365,7 +3365,7 @@ THRESHOLD_FACTOR
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 .
 ToMicroseconds
 (
@@ -3399,7 +3399,7 @@ PRId64
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 .
 ToMicroseconds
 (
@@ -9888,7 +9888,7 @@ GetDecodedAudioDuration
 mMaster
 -
 >
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 .
 ToMicroseconds
 (
@@ -11466,12 +11466,12 @@ mPlaybackRate
 .
 0
 )
-mLowAudioThresholdUsecs
+mLowAudioThreshold
 (
 detail
 :
 :
-LOW_AUDIO_USECS
+LOW_AUDIO_THRESHOLD
 )
 mAmpleAudioThresholdUsecs
 (
