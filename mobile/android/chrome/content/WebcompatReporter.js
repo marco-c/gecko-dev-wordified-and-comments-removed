@@ -914,11 +914,10 @@ webcompatURL
 WEBCOMPAT_ORIGIN
 }
 /
+issues
+/
+new
 ?
-open
-=
-1
-&
 url
 =
 {
