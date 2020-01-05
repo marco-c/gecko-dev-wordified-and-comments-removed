@@ -1373,9 +1373,6 @@ MOZ_MUST_USE
 nsresult
 SetAcceptLanguages
 (
-const
-char
-*
 )
 ;
 MOZ_MUST_USE
@@ -1600,6 +1597,9 @@ mUserAgentOverride
 ;
 bool
 mUserAgentIsDirty
+;
+bool
+mAcceptLanguagesIsDirty
 ;
 bool
 mPromptTempRedirect
