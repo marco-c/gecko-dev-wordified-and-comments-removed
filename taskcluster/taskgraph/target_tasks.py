@@ -1548,6 +1548,11 @@ x86
 -
 nightly
 '
+'
+android
+-
+nightly
+'
 )
 :
             
@@ -1943,6 +1948,19 @@ nightly
 l10n
 -
 signing
+'
+            
+'
+push
+-
+apk
+'
+'
+push
+-
+apk
+-
+breakpoint
 '
         
 ]
