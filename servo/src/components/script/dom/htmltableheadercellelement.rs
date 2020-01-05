@@ -11,7 +11,7 @@ pub
 struct
 HTMLTableHeaderCellElement
 {
-htmlelement
+htmltablecellelement
 :
 HTMLTableCellElement
 }

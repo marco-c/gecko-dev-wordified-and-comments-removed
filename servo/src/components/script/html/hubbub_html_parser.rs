@@ -459,7 +459,7 @@ _element
 =
 ctor
 {
-htmlelement
+htmlmediaelement
 :
 HTMLMediaElement
 :
@@ -530,7 +530,7 @@ _element
 =
 ctor
 {
-htmlelement
+htmltablecellelement
 :
 HTMLTableCellElement
 :
