@@ -20,6 +20,7 @@ actor
 {
 Actor
 ActorRegistry
+ActorMessageStatus
 }
 ;
 #
@@ -123,14 +124,17 @@ TcpStream
 >
 Result
 <
-bool
+ActorMessageStatus
 (
 )
 >
 {
 Ok
 (
-false
+ActorMessageStatus
+:
+:
+Ignored
 )
 }
 }
