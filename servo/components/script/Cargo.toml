@@ -598,6 +598,15 @@ path
 range
 "
 }
+ref_filter_map
+=
+"
+1
+.
+0
+.
+1
+"
 ref_slice
 =
 "
