@@ -458,6 +458,12 @@ as
 NetTraitsRequestType
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -486,12 +492,6 @@ rc
 :
 :
 Rc
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -570,7 +570,7 @@ global
 GlobalScope
 url
 :
-Url
+ServoUrl
 is_service_worker_global_scope
 :
 bool
@@ -659,7 +659,7 @@ global
 GlobalScope
 url
 :
-Url
+ServoUrl
 is_service_worker_global_scope
 :
 bool
@@ -3679,7 +3679,7 @@ global
 GlobalScope
 url
 :
-Url
+ServoUrl
 is_service_worker_global_scope
 :
 bool
@@ -4158,7 +4158,7 @@ includes_credentials
 input
 :
 &
-Url
+ServoUrl
 )
 -
 >

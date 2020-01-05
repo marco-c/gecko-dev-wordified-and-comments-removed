@@ -123,6 +123,10 @@ serde_derive
 ;
 extern
 crate
+servo_url
+;
+extern
+crate
 url
 ;
 extern
@@ -266,6 +270,12 @@ Response
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -281,12 +291,6 @@ storage_thread
 :
 :
 StorageThreadMsg
-;
-use
-url
-:
-:
-Url
 ;
 use
 websocket
@@ -530,7 +534,7 @@ CustomResponse
 pub
 load_url
 :
-Url
+ServoUrl
 }
 #
 [
@@ -574,7 +578,7 @@ LoadData
 pub
 url
 :
-Url
+ServoUrl
 #
 [
 ignore_heap_size_of
@@ -739,7 +743,7 @@ referrer_url
 :
 Option
 <
-Url
+ServoUrl
 >
 }
 impl
@@ -754,7 +758,7 @@ context
 LoadContext
 url
 :
-Url
+ServoUrl
 load_origin
 :
 &
@@ -845,7 +849,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 ;
 fn
@@ -1877,7 +1881,7 @@ WebSocketConnectData
 pub
 resource_url
 :
-Url
+ServoUrl
 pub
 origin
 :
@@ -1929,13 +1933,13 @@ WebSocketConnectData
 )
 SetCookiesForUrl
 (
-Url
+ServoUrl
 String
 CookieSource
 )
 SetCookiesForUrlWithData
 (
-Url
+ServoUrl
 #
 [
 serde
@@ -1967,7 +1971,7 @@ CookieSource
 )
 GetCookiesForUrl
 (
-Url
+ServoUrl
 IpcSender
 <
 Option
@@ -1979,7 +1983,7 @@ CookieSource
 )
 GetCookiesDataForUrl
 (
-Url
+ServoUrl
 IpcSender
 <
 Vec
@@ -2248,7 +2252,7 @@ Request
 pub
 origin
 :
-Url
+ServoUrl
 }
 /
 /
@@ -2291,7 +2295,7 @@ redirects
 pub
 final_url
 :
-Url
+ServoUrl
 #
 [
 ignore_heap_size_of
@@ -2396,7 +2400,7 @@ referrer
 :
 Option
 <
-Url
+ServoUrl
 >
 }
 impl
@@ -2418,7 +2422,7 @@ default
 (
 url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -3211,7 +3215,7 @@ HTML
 parser
 SslValidation
 (
-Url
+ServoUrl
 String
 )
 }

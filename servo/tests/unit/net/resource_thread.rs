@@ -66,6 +66,12 @@ time
 ProfilerChan
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -103,12 +109,6 @@ mpsc
 :
 :
 channel
-;
-use
-url
-:
-:
-Url
 ;
 fn
 ip
@@ -150,7 +150,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 None
@@ -364,7 +364,7 @@ unwrap
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -2115,7 +2115,7 @@ ip
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -2173,7 +2173,7 @@ unwrap
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -2227,7 +2227,7 @@ unwrap
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -2631,7 +2631,7 @@ unwrap
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

@@ -17,6 +17,12 @@ pub_domains
 is_pub_domain
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -47,12 +53,6 @@ now
 at
 Duration
 }
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -116,7 +116,7 @@ Cookie
 request
 :
 &
-Url
+ServoUrl
 source
 :
 CookieSource
@@ -714,7 +714,7 @@ self
 url
 :
 &
-Url
+ServoUrl
 source
 :
 CookieSource

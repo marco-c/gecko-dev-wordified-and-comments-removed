@@ -140,6 +140,11 @@ script_layout_interface
 pub
 extern
 crate
+servo_url
+;
+pub
+extern
+crate
 style
 ;
 pub
@@ -454,6 +459,12 @@ ScriptMsg
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -500,12 +511,6 @@ mpsc
 :
 :
 Sender
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -1252,7 +1257,7 @@ url
 :
 Option
 <
-Url
+ServoUrl
 >
 compositor_proxy
 :

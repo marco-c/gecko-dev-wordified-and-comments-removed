@@ -63,6 +63,12 @@ response
 ResponseBody
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -70,12 +76,6 @@ ops
 :
 :
 Deref
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -120,7 +120,7 @@ u8
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

@@ -2633,10 +2633,10 @@ ImageResponse
 }
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 pub
 fn
@@ -2648,7 +2648,7 @@ window
 Window
 url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -2685,6 +2685,10 @@ image_cache
 request_image
 (
 url
+.
+into
+(
+)
 ImageCacheChan
 (
 response_chan

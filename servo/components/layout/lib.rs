@@ -245,6 +245,10 @@ servo_atoms
 ;
 extern
 crate
+servo_url
+;
+extern
+crate
 smallvec
 ;
 extern
@@ -262,10 +266,6 @@ unicode_bidi
 extern
 crate
 unicode_script
-;
-extern
-crate
-url
 ;
 extern
 crate

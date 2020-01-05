@@ -243,6 +243,12 @@ TouchpadPressureEvent
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -316,12 +322,6 @@ touch
 TouchHandler
 TouchAction
 }
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -3451,7 +3451,7 @@ _
 PipelineId
 url
 :
-Url
+ServoUrl
 )
 {
 self
@@ -4499,7 +4499,7 @@ got_load_complete_message
 false
 ;
 match
-Url
+ServoUrl
 :
 :
 parse

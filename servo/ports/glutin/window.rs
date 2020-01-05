@@ -213,6 +213,12 @@ TouchpadPressurePhase
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -327,12 +333,6 @@ cursor
 :
 :
 Cursor
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -1206,7 +1206,7 @@ RefCell
 <
 Option
 <
-Url
+ServoUrl
 >
 >
 pending_key_event_char
@@ -6728,7 +6728,7 @@ set_page_url
 self
 url
 :
-Url
+ServoUrl
 )
 {
 *
@@ -7291,7 +7291,7 @@ set_favicon
 self
 _
 :
-Url
+ServoUrl
 )
 {
 }

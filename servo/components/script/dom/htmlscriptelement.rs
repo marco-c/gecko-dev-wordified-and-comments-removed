@@ -379,6 +379,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -419,12 +425,6 @@ str
 HTML_SPACE_CHARACTERS
 StaticStringVec
 }
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -809,7 +809,7 @@ text
 DOMString
 url
 :
-Url
+ServoUrl
 external
 :
 bool
@@ -825,7 +825,7 @@ text
 DOMString
 url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -852,7 +852,7 @@ text
 DOMString
 url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -973,7 +973,7 @@ requested
 .
 url
 :
-Url
+ServoUrl
 /
 /
 /
@@ -1579,7 +1579,7 @@ script
 HTMLScriptElement
 url
 :
-Url
+ServoUrl
 cors_setting
 :
 Option

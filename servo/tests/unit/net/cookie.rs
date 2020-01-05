@@ -26,10 +26,10 @@ net_traits
 CookieSource
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 #
 [
@@ -760,7 +760,7 @@ let
 url
 =
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -786,7 +786,7 @@ let
 gov_url
 =
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -1360,7 +1360,7 @@ let
 u
 =
 &
-Url
+ServoUrl
 :
 :
 parse
@@ -1518,7 +1518,7 @@ let
 url
 =
 &
-Url
+ServoUrl
 :
 :
 parse

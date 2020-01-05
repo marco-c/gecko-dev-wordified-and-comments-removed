@@ -198,6 +198,12 @@ as
 ConstellationMsg
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 style
 :
 :
@@ -208,12 +214,6 @@ AttrValue
 ;
 use
 time
-;
-use
-url
-:
-:
-Url
 ;
 const
 INITIAL_REFLOW_DELAY
@@ -698,7 +698,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 ;
 }
@@ -867,7 +867,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 unsafe

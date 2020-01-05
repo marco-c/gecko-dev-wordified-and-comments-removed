@@ -83,6 +83,12 @@ EventResult
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -127,12 +133,6 @@ viewport
 :
 :
 ViewportConstraints
-;
-use
-url
-:
-:
-Url
 ;
 use
 webrender
@@ -344,7 +344,7 @@ String
 ChangePageUrl
 (
 PipelineId
-Url
+ServoUrl
 )
 ChangeRunningAnimationsState
 (
@@ -418,7 +418,7 @@ bool
 )
 NewFavicon
 (
-Url
+ServoUrl
 )
 HeadParsed
 Status

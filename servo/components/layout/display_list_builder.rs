@@ -265,6 +265,12 @@ range
 Range
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -503,12 +509,6 @@ table_cell
 :
 :
 CollapsedBordersForCell
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -2489,7 +2489,7 @@ ClippingRegion
 image_url
 :
 &
-Url
+ServoUrl
 background_index
 :
 usize
@@ -4338,7 +4338,7 @@ ClippingRegion
 image_url
 :
 &
-Url
+ServoUrl
 index
 :
 usize
@@ -4363,6 +4363,10 @@ shared_layout_context
 get_webrender_image_for_url
 (
 image_url
+.
+clone
+(
+)
 UsePlaceholder
 :
 :

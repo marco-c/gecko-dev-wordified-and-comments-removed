@@ -92,10 +92,10 @@ workerglobalscope
 WorkerGlobalScope
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 #
 [
@@ -110,7 +110,7 @@ reflector_
 Reflector
 url
 :
-Url
+ServoUrl
 }
 impl
 WorkerLocation
@@ -120,7 +120,7 @@ new_inherited
 (
 url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -151,7 +151,7 @@ global
 WorkerGlobalScope
 url
 :
-Url
+ServoUrl
 )
 -
 >

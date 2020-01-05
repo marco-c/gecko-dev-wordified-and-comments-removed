@@ -402,6 +402,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -487,12 +493,6 @@ rc
 :
 :
 Rc
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -628,7 +628,7 @@ source
 DOMString
 url
 :
-Url
+ServoUrl
 line
 :
 usize
@@ -2125,7 +2125,7 @@ set_event_handler_uncompiled
 self
 url
 :
-Url
+ServoUrl
 line
 :
 usize

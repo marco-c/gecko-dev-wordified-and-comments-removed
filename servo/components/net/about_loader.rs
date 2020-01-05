@@ -75,6 +75,12 @@ start_sending_sniffed_opt
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -161,6 +167,11 @@ load_data
 .
 url
 =
+ServoUrl
+:
+:
+from_url
+(
 Url
 :
 :
@@ -173,6 +184,7 @@ path
 .
 unwrap
 (
+)
 )
 ;
 Ok

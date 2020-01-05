@@ -29,6 +29,12 @@ constellation_msg
 PipelineId
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -66,7 +72,6 @@ url
 Origin
 as
 UrlOrigin
-Url
 }
 ;
 #
@@ -183,7 +188,7 @@ NoReferrer
 Client
 ReferrerUrl
 (
-Url
+ServoUrl
 )
 }
 #
@@ -380,7 +385,7 @@ Method
 pub
 url
 :
-Url
+ServoUrl
 #
 [
 serde
@@ -470,13 +475,13 @@ bool
 pub
 origin
 :
-Url
+ServoUrl
 pub
 referrer_url
 :
 Option
 <
-Url
+ServoUrl
 >
 pub
 referrer_policy
@@ -520,7 +525,7 @@ Method
 Get
 url
 :
-Url
+ServoUrl
 :
 :
 parse
@@ -590,7 +595,7 @@ use_url_credentials
 false
 origin
 :
-Url
+ServoUrl
 :
 :
 parse
@@ -820,7 +825,7 @@ RefCell
 <
 Vec
 <
-Url
+ServoUrl
 >
 >
 pub
@@ -854,7 +859,7 @@ new
 (
 url
 :
-Url
+ServoUrl
 origin
 :
 Option
@@ -1372,7 +1377,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 self
 .
@@ -1403,7 +1408,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 self
 .
@@ -1526,7 +1531,7 @@ self
 Option
 <
 &
-Url
+ServoUrl
 >
 {
 match
@@ -1569,7 +1574,7 @@ url
 :
 Option
 <
-Url
+ServoUrl
 >
 )
 -
@@ -1613,7 +1618,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 let

@@ -311,6 +311,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -360,12 +366,6 @@ timers
 :
 :
 OneshotTimerCallback
-;
-use
-url
-:
-:
-Url
 ;
 header
 !
@@ -449,7 +449,7 @@ eventtarget
 EventTarget
 url
 :
-Url
+ServoUrl
 request
 :
 DOMRefCell
@@ -2048,7 +2048,7 @@ new_inherited
 (
 url
 :
-Url
+ServoUrl
 with_credentials
 :
 bool
@@ -2142,7 +2142,7 @@ global
 GlobalScope
 url
 :
-Url
+ServoUrl
 with_credentials
 :
 bool

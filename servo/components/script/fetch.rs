@@ -257,6 +257,12 @@ PreInvoke
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -282,12 +288,6 @@ sync
 Arc
 Mutex
 }
-;
-use
-url
-:
-:
-Url
 ;
 struct
 FetchContext
@@ -323,7 +323,7 @@ NetTraitsRequest
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 let

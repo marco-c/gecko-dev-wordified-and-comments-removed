@@ -58,10 +58,10 @@ ToJson
 }
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 #
 [
@@ -306,7 +306,7 @@ GetUrl
 (
 IpcSender
 <
-Url
+ServoUrl
 >
 )
 IsEnabled

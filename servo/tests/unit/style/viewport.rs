@@ -29,6 +29,12 @@ media_queries
 CSSErrorReporterTest
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 style
 :
 :
@@ -142,12 +148,6 @@ viewport
 :
 *
 ;
-use
-url
-:
-:
-Url
-;
 macro_rules
 !
 stylesheet
@@ -177,7 +177,7 @@ Stylesheet
 from_str
 (
 css
-Url
+ServoUrl
 :
 :
 parse
@@ -2816,7 +2816,7 @@ constrain_viewport
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

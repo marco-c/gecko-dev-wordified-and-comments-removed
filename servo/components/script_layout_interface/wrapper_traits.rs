@@ -49,6 +49,12 @@ range
 Range
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -147,12 +153,6 @@ PseudoElementCascadeType
 RestyleDamage
 ServoSelectorImpl
 }
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -1442,7 +1442,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 ;
 fn

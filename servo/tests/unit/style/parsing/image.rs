@@ -49,12 +49,6 @@ style_traits
 :
 ToCss
 ;
-use
-url
-:
-:
-Url
-;
 #
 [
 test

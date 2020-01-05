@@ -409,6 +409,10 @@ servo_atoms
 ;
 extern
 crate
+servo_url
+;
+extern
+crate
 smallvec
 ;
 #

@@ -827,6 +827,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -1099,12 +1105,6 @@ tinyfiledialogs
 self
 MessageBoxIcon
 }
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -4930,7 +4930,7 @@ url
 =
 >
 match
-Url
+ServoUrl
 :
 :
 parse
@@ -6971,7 +6971,7 @@ url
 try
 !
 (
-Url
+ServoUrl
 :
 :
 parse
@@ -10723,7 +10723,7 @@ load_url
 self
 url
 :
-Url
+ServoUrl
 replace
 :
 bool
@@ -10967,7 +10967,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 (
 *

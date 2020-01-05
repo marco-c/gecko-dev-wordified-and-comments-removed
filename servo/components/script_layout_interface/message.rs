@@ -107,6 +107,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -156,12 +162,6 @@ stylesheets
 :
 :
 Stylesheet
-;
-use
-url
-:
-:
-Url
 ;
 pub
 enum
@@ -235,7 +235,7 @@ NewLayoutThreadInfo
 )
 SetFinalUrl
 (
-Url
+ServoUrl
 )
 SetStackingContextScrollStates
 (
@@ -406,7 +406,7 @@ PipelineId
 pub
 url
 :
-Url
+ServoUrl
 pub
 is_parent
 :

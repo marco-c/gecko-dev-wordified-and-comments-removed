@@ -215,6 +215,12 @@ ThreadSafeLayoutNode
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -424,12 +430,6 @@ traversal
 :
 :
 PostorderNodeMutTraversal
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -7765,11 +7765,7 @@ map
 |
 u
 |
-(
-*
-*
 u
-)
 .
 clone
 (
@@ -11456,7 +11452,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 ;
 }
@@ -11569,7 +11565,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 let
@@ -11644,7 +11640,7 @@ uri
 )
 =
 >
-Url
+ServoUrl
 :
 :
 parse

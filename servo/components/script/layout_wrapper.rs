@@ -228,6 +228,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -406,12 +412,6 @@ str
 :
 :
 is_whitespace
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -5499,7 +5499,7 @@ self
 >
 Option
 <
-Url
+ServoUrl
 >
 {
 let

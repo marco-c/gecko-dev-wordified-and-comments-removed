@@ -135,6 +135,12 @@ html5ever_atoms
 LocalName
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 style
 :
 :
@@ -142,12 +148,6 @@ attr
 :
 :
 AttrValue
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -286,7 +286,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 let
 href

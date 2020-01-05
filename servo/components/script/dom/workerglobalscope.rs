@@ -367,6 +367,12 @@ script_traits
 WorkerGlobalScopeInit
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -452,12 +458,6 @@ timers
 IsInterval
 TimerCallback
 }
-;
-use
-url
-:
-:
-Url
 ;
 pub
 fn
@@ -589,7 +589,7 @@ worker_id
 WorkerId
 worker_url
 :
-Url
+ServoUrl
 #
 [
 ignore_heap_size_of
@@ -691,7 +691,7 @@ init
 WorkerGlobalScopeInit
 worker_url
 :
-Url
+ServoUrl
 runtime
 :
 Runtime
@@ -936,7 +936,7 @@ self
 -
 >
 &
-Url
+ServoUrl
 {
 &
 self

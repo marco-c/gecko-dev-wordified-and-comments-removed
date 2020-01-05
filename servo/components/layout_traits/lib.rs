@@ -32,7 +32,7 @@ script_traits
 ;
 extern
 crate
-url
+servo_url
 ;
 extern
 crate
@@ -104,6 +104,12 @@ as
 ConstellationMsg
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -117,12 +123,6 @@ mpsc
 Receiver
 Sender
 }
-;
-use
-url
-:
-:
-Url
 ;
 pub
 trait
@@ -139,7 +139,7 @@ id
 PipelineId
 url
 :
-Url
+ServoUrl
 is_iframe
 :
 bool

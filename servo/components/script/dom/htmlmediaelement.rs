@@ -381,6 +381,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -417,12 +423,6 @@ Timespec
 Duration
 }
 ;
-use
-url
-:
-:
-Url
-;
 struct
 HTMLMediaElementContext
 {
@@ -452,7 +452,7 @@ next_progress_event
 Timespec
 url
 :
-Url
+ServoUrl
 have_metadata
 :
 bool
@@ -946,7 +946,7 @@ elem
 HTMLMediaElement
 url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -2195,7 +2195,7 @@ resource_selection_algorithm_sync
 self
 base_url
 :
-Url
+ServoUrl
 )
 {
 let
@@ -4491,7 +4491,7 @@ HTMLMediaElement
 >
 base_url
 :
-Url
+ServoUrl
 }
 impl
 ResourceSelectionTask
@@ -4505,7 +4505,7 @@ elem
 HTMLMediaElement
 url
 :
-Url
+ServoUrl
 )
 -
 >
@@ -4795,6 +4795,6 @@ Resource
 Object
 Url
 (
-Url
+ServoUrl
 )
 }

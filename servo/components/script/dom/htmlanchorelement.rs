@@ -295,6 +295,12 @@ script_traits
 MozBrowserEvent
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -311,12 +317,6 @@ attr
 :
 :
 AttrValue
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -353,7 +353,7 @@ DOMRefCell
 <
 Option
 <
-Url
+ServoUrl
 >
 >
 }

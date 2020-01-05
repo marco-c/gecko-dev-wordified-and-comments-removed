@@ -23,6 +23,12 @@ IpcSender
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -30,12 +36,6 @@ sync
 :
 :
 Arc
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -244,7 +244,7 @@ ImageCacheCommand
 {
 RequestImage
 (
-Url
+ServoUrl
 ImageCacheChan
 Option
 <
@@ -253,7 +253,7 @@ ImageResponder
 )
 RequestImageAndMetadata
 (
-Url
+ServoUrl
 ImageCacheChan
 Option
 <
@@ -262,7 +262,7 @@ ImageResponder
 )
 GetImageIfAvailable
 (
-Url
+ServoUrl
 UsePlaceholder
 IpcSender
 <
@@ -278,7 +278,7 @@ ImageState
 )
 GetImageOrMetadataIfAvailable
 (
-Url
+ServoUrl
 UsePlaceholder
 IpcSender
 <
@@ -291,7 +291,7 @@ ImageState
 )
 StoreDecodeImage
 (
-Url
+ServoUrl
 Vec
 <
 u8
@@ -379,7 +379,7 @@ request_image
 self
 url
 :
-Url
+ServoUrl
 result_chan
 :
 ImageCacheChan
@@ -425,7 +425,7 @@ request_image_and_metadata
 self
 url
 :
-Url
+ServoUrl
 result_chan
 :
 ImageCacheChan
@@ -471,7 +471,7 @@ find_image
 self
 url
 :
-Url
+ServoUrl
 use_placeholder
 :
 UsePlaceholder
@@ -558,7 +558,7 @@ find_image_or_metadata
 self
 url
 :
-Url
+ServoUrl
 use_placeholder
 :
 UsePlaceholder
@@ -642,7 +642,7 @@ store_complete_image_bytes
 self
 url
 :
-Url
+ServoUrl
 image_data
 :
 Vec

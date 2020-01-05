@@ -208,6 +208,12 @@ WindowSizeData
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -277,12 +283,6 @@ style_traits
 PagePx
 ViewportPx
 }
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -415,7 +415,7 @@ Send
 pub
 url
 :
-Url
+ServoUrl
 pub
 title
 :
@@ -1469,7 +1469,7 @@ is_private
 bool
 url
 :
-Url
+ServoUrl
 size
 :
 Option

@@ -5,6 +5,12 @@ filemanager_thread
 FileOrigin
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -91,7 +97,7 @@ parse_blob_url
 url
 :
 &
-Url
+ServoUrl
 )
 -
 >
@@ -159,6 +165,10 @@ to_string
 )
 ;
 let
+id
+=
+{
+let
 mut
 segs
 =
@@ -198,9 +208,6 @@ ok_or
 )
 )
 ;
-let
-id
-=
 try
 !
 (
@@ -221,6 +228,7 @@ _
 )
 )
 )
+}
 ;
 Ok
 (
@@ -229,7 +237,13 @@ id
 get_blob_origin
 (
 &
+ServoUrl
+:
+:
+from_url
+(
 url_inner
+)
 )
 fragment
 )
@@ -242,7 +256,7 @@ get_blob_origin
 url
 :
 &
-Url
+ServoUrl
 )
 -
 >

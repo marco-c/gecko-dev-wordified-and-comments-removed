@@ -227,10 +227,10 @@ channel
 }
 ;
 use
-std_url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 use
 style_traits
@@ -2300,7 +2300,7 @@ set_favicon
 self
 url
 :
-Url
+ServoUrl
 )
 {
 let
@@ -2351,11 +2351,7 @@ push
 (
 url
 .
-to_string
-(
-)
-.
-clone
+into_string
 (
 )
 )
@@ -3434,7 +3430,7 @@ set_page_url
 self
 url
 :
-Url
+ServoUrl
 )
 {
 /
@@ -3556,7 +3552,7 @@ frame_url
 =
 url
 .
-to_string
+into_string
 (
 )
 ;

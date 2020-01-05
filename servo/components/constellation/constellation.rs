@@ -346,6 +346,12 @@ WindowSizeType
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -488,12 +494,6 @@ timer_scheduler
 :
 :
 TimerScheduler
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -6083,7 +6083,7 @@ scope_things
 ScopeThings
 scope
 :
-Url
+ServoUrl
 )
 {
 if
@@ -6148,7 +6148,7 @@ storage
 StorageType
 url
 :
-Url
+ServoUrl
 key
 :
 Option
@@ -7416,7 +7416,7 @@ Force
 let
 failure_url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -7684,7 +7684,7 @@ mut
 self
 url
 :
-Url
+ServoUrl
 )
 {
 let
@@ -8238,7 +8238,7 @@ clone
 None
 =
 >
-Url
+ServoUrl
 :
 :
 parse

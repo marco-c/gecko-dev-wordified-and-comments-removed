@@ -62,6 +62,10 @@ profile_traits
 ;
 extern
 crate
+servo_url
+;
+extern
+crate
 time
 ;
 extern
@@ -272,6 +276,12 @@ response
 Response
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -297,12 +307,6 @@ std
 :
 :
 thread
-;
-use
-url
-:
-:
-Url
 ;
 const
 DEFAULT_USER_AGENT
@@ -591,7 +595,7 @@ H
 >
 (
 Listening
-Url
+ServoUrl
 )
 {
 let
@@ -657,7 +661,7 @@ port
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

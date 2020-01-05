@@ -351,6 +351,12 @@ WorkerScriptLoadOrigin
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -406,12 +412,6 @@ style
 :
 :
 thread_state
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -694,7 +694,7 @@ init
 WorkerGlobalScopeInit
 worker_url
 :
-Url
+ServoUrl
 from_devtools_receiver
 :
 Receiver
@@ -814,7 +814,7 @@ init
 WorkerGlobalScopeInit
 worker_url
 :
-Url
+ServoUrl
 from_devtools_receiver
 :
 Receiver
@@ -937,7 +937,7 @@ init
 WorkerGlobalScopeInit
 worker_url
 :
-Url
+ServoUrl
 from_devtools_receiver
 :
 IpcReceiver

@@ -35,10 +35,10 @@ net_traits
 CookieSource
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 fn
 run
@@ -77,7 +77,7 @@ new
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -179,7 +179,7 @@ source
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

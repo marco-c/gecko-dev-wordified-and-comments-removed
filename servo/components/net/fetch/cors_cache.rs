@@ -21,6 +21,12 @@ Request
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -37,12 +43,6 @@ time
 self
 Timespec
 }
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -171,7 +171,7 @@ Origin
 pub
 url
 :
-Url
+ServoUrl
 pub
 max_age
 :
@@ -199,7 +199,7 @@ origin
 Origin
 url
 :
-Url
+ServoUrl
 max_age
 :
 u32

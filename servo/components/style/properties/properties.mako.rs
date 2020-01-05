@@ -114,12 +114,6 @@ error_reporting
 :
 ParseErrorReporter
 ;
-use
-url
-:
-:
-Url
-;
 #
 [
 cfg
@@ -193,6 +187,12 @@ Parse
 ParserContext
 ParserContextExtraData
 }
+;
+use
+servo_url
+:
+:
+ServoUrl
 ;
 use
 style_traits
@@ -1976,7 +1976,7 @@ TokenSerializationType
 base_url
 :
 &
-Url
+ServoUrl
 from_shorthand
 :
 Option
@@ -3713,7 +3713,7 @@ first_token_type
 TokenSerializationType
 base_url
 :
-Url
+ServoUrl
 from_shorthand
 :
 Option

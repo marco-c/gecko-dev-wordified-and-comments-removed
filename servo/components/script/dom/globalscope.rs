@@ -365,6 +365,12 @@ TimerSource
 }
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -454,12 +460,6 @@ timers
 OneshotTimers
 TimerCallback
 }
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -1431,7 +1431,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 if
 let
@@ -1508,7 +1508,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 if
 let

@@ -93,11 +93,11 @@ serde_derive
 ;
 extern
 crate
-time
+servo_url
 ;
 extern
 crate
-url
+time
 ;
 use
 hyper
@@ -136,6 +136,12 @@ constellation_msg
 PipelineId
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -155,12 +161,6 @@ time
 :
 :
 Tm
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -182,7 +182,7 @@ String
 pub
 url
 :
-Url
+ServoUrl
 }
 #
 [
@@ -1069,7 +1069,7 @@ HttpRequest
 pub
 url
 :
-Url
+ServoUrl
 pub
 method
 :

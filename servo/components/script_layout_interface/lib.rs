@@ -155,11 +155,11 @@ servo_atoms
 ;
 extern
 crate
-style
+servo_url
 ;
 extern
 crate
-url
+style
 ;
 pub
 mod

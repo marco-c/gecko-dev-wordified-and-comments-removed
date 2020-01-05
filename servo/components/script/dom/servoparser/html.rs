@@ -313,6 +313,12 @@ jsapi
 JSTracer
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -341,12 +347,6 @@ super
 FragmentContext
 Sink
 }
-;
-use
-url
-:
-:
-Url
 ;
 #
 [
@@ -414,7 +414,7 @@ document
 Document
 url
 :
-Url
+ServoUrl
 fragment_context
 :
 Option

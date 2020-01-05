@@ -541,6 +541,12 @@ servo_atoms
 Atom
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -569,12 +575,6 @@ context
 :
 :
 ReflowGoal
-;
-use
-url
-:
-:
-Url
 ;
 use
 util
@@ -728,7 +728,7 @@ self
 )
 -
 >
-Url
+ServoUrl
 {
 let
 element
@@ -815,7 +815,7 @@ unwrap_or_else
 (
 |
 |
-Url
+ServoUrl
 :
 :
 parse

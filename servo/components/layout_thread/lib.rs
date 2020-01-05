@@ -159,11 +159,15 @@ serde_json
 ;
 extern
 crate
+servo_url
+;
+extern
+crate
 style
 ;
 extern
 crate
-url
+style_traits
 ;
 extern
 crate
@@ -651,6 +655,12 @@ selectors
 Element
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -871,12 +881,6 @@ timer
 Timer
 ;
 use
-url
-:
-:
-Url
-;
-use
 util
 :
 :
@@ -924,7 +928,7 @@ id
 PipelineId
 url
 :
-Url
+ServoUrl
 is_iframe
 :
 bool
@@ -1094,7 +1098,7 @@ RwLock
 HashMap
 <
 (
-Url
+ServoUrl
 UsePlaceholder
 )
 WebRenderImageInfo
@@ -1136,7 +1140,7 @@ id
 PipelineId
 url
 :
-Url
+ServoUrl
 is_iframe
 :
 bool
@@ -1843,7 +1847,7 @@ id
 PipelineId
 url
 :
-Url
+ServoUrl
 is_iframe
 :
 bool
@@ -9521,7 +9525,7 @@ from_bytes
 (
 &
 res
-Url
+ServoUrl
 :
 :
 parse

@@ -11,6 +11,12 @@ media_queries
 CSSErrorReporterTest
 ;
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 style
 :
 :
@@ -74,12 +80,6 @@ stylesheets
 :
 Origin
 ;
-use
-url
-:
-:
-Url
-;
 #
 [
 test
@@ -92,7 +92,7 @@ mask_shorthand_should_parse_all_available_properties_when_specified
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -394,7 +394,7 @@ mask_shorthand_should_parse_when_some_fields_set
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -789,7 +789,7 @@ mask_shorthand_should_parse_position_and_size_correctly
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -1055,7 +1055,7 @@ mask_shorthand_should_parse_origin_and_clip_correctly
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse
@@ -1352,7 +1352,7 @@ mask_shorthand_should_not_parse_when_mode_specified_but_image_not
 let
 url
 =
-Url
+ServoUrl
 :
 :
 parse

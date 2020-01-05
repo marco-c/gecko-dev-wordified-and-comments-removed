@@ -1,4 +1,10 @@
 use
+servo_url
+:
+:
+ServoUrl
+;
+use
 std
 :
 :
@@ -11,10 +17,7 @@ use
 url
 :
 :
-{
 Host
-Url
-}
 ;
 use
 url
@@ -95,7 +98,7 @@ new
 url
 :
 &
-Url
+ServoUrl
 )
 -
 >

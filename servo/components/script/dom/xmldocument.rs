@@ -162,10 +162,10 @@ JSObject
 }
 ;
 use
-url
+servo_url
 :
 :
-Url
+ServoUrl
 ;
 #
 [
@@ -200,7 +200,7 @@ url
 :
 Option
 <
-Url
+ServoUrl
 >
 is_html_document
 :
@@ -269,7 +269,7 @@ url
 :
 Option
 <
-Url
+ServoUrl
 >
 doctype
 :
