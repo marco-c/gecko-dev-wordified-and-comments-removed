@@ -118,6 +118,10 @@ extern
 mod
 hubbub
 ;
+extern
+mod
+sharegl
+;
 mod
 engine
 ;
