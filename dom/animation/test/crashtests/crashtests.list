@@ -53,7 +53,7 @@ if
 stylo
 3
 -
-4
+10
 )
 pref
 (
@@ -84,7 +84,7 @@ if
 stylo
 3
 -
-5
+10
 )
 pref
 (
@@ -173,7 +173,7 @@ if
 stylo
 4
 -
-5
+10
 )
 pref
 (
@@ -204,7 +204,7 @@ if
 stylo
 4
 -
-5
+10
 )
 pref
 (
@@ -235,7 +235,7 @@ if
 stylo
 3
 -
-5
+10
 )
 pref
 (
@@ -266,7 +266,7 @@ if
 stylo
 4
 -
-7
+10
 )
 pref
 (
@@ -443,6 +443,15 @@ html
 #
 bug
 1323733
+asserts
+-
+if
+(
+stylo
+0
+-
+5
+)
 pref
 (
 dom
@@ -462,6 +471,18 @@ load
 1
 .
 html
+#
+bug
+1324690
+asserts
+-
+if
+(
+stylo
+0
+-
+5
+)
 pref
 (
 dom
@@ -481,3 +502,6 @@ load
 2
 .
 html
+#
+bug
+1324690
