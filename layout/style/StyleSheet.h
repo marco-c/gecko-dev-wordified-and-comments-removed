@@ -292,6 +292,15 @@ HasRules
 )
 const
 ;
+virtual
+bool
+IsModified
+(
+)
+const
+=
+0
+;
 enum
 DocumentAssociationMode
 {
