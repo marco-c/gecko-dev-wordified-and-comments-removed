@@ -90,7 +90,6 @@ gfx
 Au
 DisplayList
 FontContext
-FontMatcher
 RenderLayer
 }
 ;
@@ -438,9 +437,6 @@ Msg
 font_ctx
 :
 FontContext
-font_matcher
-:
-FontMatcher
 /
 /
 This
@@ -520,15 +516,6 @@ image_cache_task
 from_content
 :
 from_content
-font_matcher
-:
-FontMatcher
-:
-:
-new
-(
-fctx
-)
 font_ctx
 :
 fctx

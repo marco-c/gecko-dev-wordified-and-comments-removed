@@ -75,13 +75,6 @@ FontContext
 ;
 pub
 use
-font_matcher
-:
-:
-FontMatcher
-;
-pub
-use
 geometry
 :
 :

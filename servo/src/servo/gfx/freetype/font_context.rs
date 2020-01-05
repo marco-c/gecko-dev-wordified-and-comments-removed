@@ -25,7 +25,7 @@ FT_Done_FreeType
 ;
 pub
 struct
-FreeTypeFontContext
+FreeTypeFontContextHandle
 {
 ctx
 :
@@ -52,7 +52,7 @@ ctx
 }
 pub
 impl
-FreeTypeFontContext
+FreeTypeFontContextHandle
 {
 static
 pub
@@ -62,7 +62,7 @@ new
 )
 -
 >
-FreeTypeFontContext
+FreeTypeFontContextHandle
 {
 let
 lib
