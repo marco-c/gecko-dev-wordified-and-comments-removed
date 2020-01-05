@@ -154,6 +154,15 @@ use
 util
 :
 :
+memory
+:
+:
+MemoryProfilerChan
+;
+use
+util
+:
+:
 time
 :
 :
@@ -332,6 +341,9 @@ StorageTask
 time_profiler_chan
 :
 TimeProfilerChan
+memory_profiler_chan
+:
+MemoryProfilerChan
 window_size
 :
 Option
@@ -672,6 +684,13 @@ mut
 LTF
 >
 id
+load_data
+.
+url
+.
+clone
+(
+)
 layout_pair
 pipeline_port
 constellation_chan
@@ -690,6 +709,7 @@ resource_task
 image_cache_task
 font_cache_task
 time_profiler_chan
+memory_profiler_chan
 layout_shutdown_chan
 )
 ;
