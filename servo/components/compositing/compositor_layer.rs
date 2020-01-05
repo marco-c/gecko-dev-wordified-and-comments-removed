@@ -1920,10 +1920,13 @@ send_event
 compositor
 MouseMoveEvent
 (
+Some
+(
 cursor
 .
 to_untyped
 (
+)
 )
 )
 )

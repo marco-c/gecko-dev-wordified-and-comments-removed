@@ -614,9 +614,12 @@ f32
 )
 MouseMoveEvent
 (
+Option
+<
 Point2D
 <
 f32
+>
 >
 )
 TouchEvent
