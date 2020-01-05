@@ -99,6 +99,15 @@ worker
 tooltool
 -
 cache
+VOLUME
+/
+home
+/
+worker
+/
+hg
+-
+shared
 #
 install
 non
