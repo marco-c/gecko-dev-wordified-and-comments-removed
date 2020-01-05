@@ -374,6 +374,12 @@ onStart
 (
 )
 {
+super
+.
+onStart
+(
+)
+;
 GeckoApp
 .
 getEventDispatcher
@@ -512,6 +518,12 @@ AndroidCastDevice
 :
 SyncDevice
 "
+)
+;
+super
+.
+onStop
+(
 )
 ;
 }
