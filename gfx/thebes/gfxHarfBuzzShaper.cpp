@@ -1442,6 +1442,8 @@ mNumLongHMetrics
 ;
 }
 const
+:
+:
 GlyphMetrics
 *
 metrics
@@ -1449,6 +1451,8 @@ metrics
 reinterpret_cast
 <
 const
+:
+:
 GlyphMetrics
 *
 >
@@ -1558,6 +1562,8 @@ mNumLongVMetrics
 ;
 }
 const
+:
+:
 GlyphMetrics
 *
 metrics
@@ -1565,6 +1571,8 @@ metrics
 reinterpret_cast
 <
 const
+:
+:
 GlyphMetrics
 *
 >
@@ -2093,6 +2101,8 @@ return
 ;
 }
 const
+:
+:
 GlyphMetrics
 *
 metrics
@@ -2100,6 +2110,8 @@ metrics
 reinterpret_cast
 <
 const
+:
+:
 GlyphMetrics
 *
 >
