@@ -47,7 +47,7 @@ document
 yield
 NarrateTestUtils
 .
-waitForVoiceOptions
+waitForNarrateToggle
 (
 content
 )
@@ -285,7 +285,7 @@ document
 yield
 NarrateTestUtils
 .
-waitForVoiceOptions
+waitForNarrateToggle
 (
 content
 )
@@ -426,7 +426,7 @@ document
 yield
 NarrateTestUtils
 .
-waitForVoiceOptions
+waitForNarrateToggle
 (
 content
 )
