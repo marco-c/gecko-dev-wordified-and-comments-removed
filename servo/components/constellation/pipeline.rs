@@ -622,6 +622,10 @@ webrender_traits
 :
 RenderApiSender
 >
+pub
+is_private
+:
+bool
 }
 impl
 Pipeline
@@ -1469,6 +1473,9 @@ compositor_proxy
 chrome_to_paint_chan
 state
 .
+is_private
+state
+.
 load_data
 .
 url
@@ -1544,6 +1551,9 @@ Sender
 <
 ChromeToPaintMsg
 >
+is_private
+:
+bool
 url
 :
 Url
@@ -1603,12 +1613,12 @@ size
 running_animations
 :
 false
+visible
+:
+visible
 is_private
 :
-false
-visible
-:
-visible
+is_private
 }
 }
 pub

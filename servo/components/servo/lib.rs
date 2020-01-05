@@ -1019,7 +1019,10 @@ new
 )
 ;
 let
-resource_threads
+(
+public_resource_threads
+private_resource_threads
+)
 =
 new_resource_threads
 (
@@ -1047,7 +1050,7 @@ image_cache_thread
 =
 new_image_cache_thread
 (
-resource_threads
+public_resource_threads
 .
 sender
 (
@@ -1079,7 +1082,7 @@ FontCacheThread
 :
 new
 (
-resource_threads
+public_resource_threads
 .
 sender
 (
@@ -1123,9 +1126,12 @@ image_cache_thread
 font_cache_thread
 :
 font_cache_thread
-resource_threads
+public_resource_threads
 :
-resource_threads
+public_resource_threads
+private_resource_threads
+:
+private_resource_threads
 time_profiler_chan
 :
 time_profiler_chan
