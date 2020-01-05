@@ -395,11 +395,6 @@ MediaStreamAudioSourceNode
 h
 '
 '
-OfflineAudioCompletionEvent
-.
-h
-'
-'
 OscillatorNode
 .
 h
@@ -581,11 +576,6 @@ cpp
 '
 '
 MediaStreamAudioSourceNode
-.
-cpp
-'
-'
-OfflineAudioCompletionEvent
 .
 cpp
 '

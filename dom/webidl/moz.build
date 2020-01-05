@@ -287,6 +287,11 @@ BatteryManager
 webidl
 '
 '
+BeforeAfterKeyboardEvent
+.
+webidl
+'
+'
 BeforeUnloadEvent
 .
 webidl
@@ -1718,11 +1723,6 @@ webidl
 '
 '
 NotifyPaintEvent
-.
-webidl
-'
-'
-OfflineAudioCompletionEvent
 .
 webidl
 '
@@ -3510,6 +3510,11 @@ webidl
 '
 '
 MozSettingsTransactionEvent
+.
+webidl
+'
+'
+OfflineAudioCompletionEvent
 .
 webidl
 '
