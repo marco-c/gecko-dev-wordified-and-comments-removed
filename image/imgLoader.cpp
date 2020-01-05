@@ -1,4 +1,7 @@
 #
+undef
+LoadImage
+#
 include
 "
 ImageLogging
@@ -793,6 +796,9 @@ GetRequest
 ;
 RefPtr
 <
+image
+:
+:
 Image
 >
 image
@@ -2310,6 +2316,9 @@ aIsUsed
 {
 RefPtr
 <
+image
+:
+:
 Image
 >
 image
