@@ -1201,7 +1201,7 @@ self
 .
 element
 .
-get_attribute
+get_property
 (
 '
 pageIndex
