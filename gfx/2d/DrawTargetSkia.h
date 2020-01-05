@@ -1046,6 +1046,9 @@ const
 Matrix
 &
 aMaskTransform
+SkBaseDevice
+*
+aPreviousDevice
 )
 :
 mOldPermitSubpixelAA
@@ -1068,6 +1071,10 @@ mMaskTransform
 (
 aMaskTransform
 )
+mPreviousDevice
+(
+aPreviousDevice
+)
 {
 }
 bool
@@ -1087,6 +1094,10 @@ mMask
 ;
 Matrix
 mMaskTransform
+;
+SkBaseDevice
+*
+mPreviousDevice
 ;
 }
 ;
