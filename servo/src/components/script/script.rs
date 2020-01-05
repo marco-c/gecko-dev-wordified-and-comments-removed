@@ -673,6 +673,10 @@ validitystate
 ;
 pub
 mod
+virtualmethods
+;
+pub
+mod
 window
 ;
 pub
