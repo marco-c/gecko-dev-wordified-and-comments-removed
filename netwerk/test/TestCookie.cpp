@@ -66,13 +66,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

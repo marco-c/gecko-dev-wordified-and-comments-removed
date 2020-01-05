@@ -141,13 +141,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-prprf
-.
-h
-"
 static
 const
 uint32_t

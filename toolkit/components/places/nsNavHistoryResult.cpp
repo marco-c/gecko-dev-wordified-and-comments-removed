@@ -101,13 +101,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 nsQueryObject
 .
 h

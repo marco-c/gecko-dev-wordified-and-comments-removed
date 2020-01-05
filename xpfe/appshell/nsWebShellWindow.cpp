@@ -260,13 +260,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 nsIScreenManager
 .
 h

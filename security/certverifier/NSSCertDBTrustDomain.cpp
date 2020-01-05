@@ -187,13 +187,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 secerr
 .
 h

@@ -33,13 +33,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
