@@ -93,7 +93,7 @@ mod
 surface
 ;
 mod
-compositor
+renderer
 ;
 }
 mod

@@ -48,7 +48,7 @@ chan
 )
 }
 fn
-compositor
+renderer
 (
 osmain_ch
 :

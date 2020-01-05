@@ -23,7 +23,7 @@ chan
 gfx
 :
 :
-compositor
+renderer
 :
 :
 msg
@@ -120,7 +120,7 @@ draw_ch
 gfx
 :
 :
-compositor
+renderer
 :
 :
 exit
