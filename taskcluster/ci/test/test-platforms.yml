@@ -179,6 +179,12 @@ sets
 linux32
 -
 tests
+-
+linux32
+-
+opt
+-
+tests
 linux64
 /
 debug
