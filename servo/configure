@@ -1678,9 +1678,6 @@ rust
 -
 mozjs
 mozjs
-servo
--
-gfx
 "
 if
 [
@@ -1777,6 +1774,17 @@ src
 i
 }
 done
+make_dir
+{
+CFG_BUILD_DIR
+}
+src
+/
+servo
+-
+gfx
+-
+2
 make_dir
 src
 /
