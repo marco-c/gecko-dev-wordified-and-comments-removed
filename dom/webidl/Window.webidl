@@ -503,6 +503,11 @@ PutForwards
 =
 href
 Unforgeable
+BinaryName
+=
+"
+getLocation
+"
 CrossOriginReadable
 CrossOriginWritable
 ]

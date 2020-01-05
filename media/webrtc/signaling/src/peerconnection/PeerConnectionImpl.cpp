@@ -2970,7 +2970,7 @@ location
 mWindow
 -
 >
-Location
+GetLocation
 (
 )
 )

@@ -3569,7 +3569,7 @@ dom
 :
 Location
 *
-Location
+GetLocation
 (
 )
 override

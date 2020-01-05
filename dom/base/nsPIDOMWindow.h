@@ -1296,7 +1296,7 @@ dom
 :
 Location
 *
-Location
+GetLocation
 (
 )
 =

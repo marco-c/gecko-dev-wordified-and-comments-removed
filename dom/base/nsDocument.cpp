@@ -30286,7 +30286,7 @@ loc
 window
 -
 >
-Location
+GetLocation
 (
 )
 ;

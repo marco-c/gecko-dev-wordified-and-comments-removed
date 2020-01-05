@@ -3618,7 +3618,7 @@ location
 internalContent
 -
 >
-Location
+GetLocation
 (
 )
 ;

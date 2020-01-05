@@ -2420,7 +2420,7 @@ location
 domWindow
 -
 >
-Location
+GetLocation
 (
 )
 ;
