@@ -414,6 +414,7 @@ ReleaseIPDLReference
 (
 )
 ;
+MOZ_MUST_USE
 bool
 IsSuspended
 (
@@ -810,6 +811,7 @@ aPriority
 )
 override
 ;
+MOZ_MUST_USE
 bool
 GetAssociatedContentSecurity
 (
@@ -919,6 +921,7 @@ SetEventTarget
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 ContinueAsyncOpen
 (
@@ -1405,6 +1408,7 @@ DeleteSelf
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetupRedirect
 (

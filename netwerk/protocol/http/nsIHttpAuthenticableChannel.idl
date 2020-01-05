@@ -151,6 +151,9 @@ SSL
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 boolean
@@ -184,6 +187,9 @@ PR_FALSE
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 boolean
@@ -203,6 +209,9 @@ nsIRequest
 .
 *
 /
+[
+must_use
+]
 void
 cancel
 (
@@ -227,6 +236,9 @@ nsIRequest
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsLoadFlags
@@ -248,6 +260,9 @@ nsIChannel
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsIURI
@@ -278,6 +293,9 @@ nsIRequest
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsILoadGroup
@@ -299,6 +317,9 @@ nsIChannel
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsIInterfaceRequestor
@@ -318,6 +339,9 @@ nsIHttpChannel
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -343,6 +367,9 @@ available
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -361,6 +388,9 @@ header
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -379,6 +409,9 @@ header
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -406,6 +439,9 @@ it
 .
 *
 /
+[
+must_use
+]
 void
 setProxyCredentials
 (
@@ -434,6 +470,9 @@ it
 .
 *
 /
+[
+must_use
+]
 void
 setWWWCredentials
 (
@@ -515,6 +554,9 @@ ignored
 .
 *
 /
+[
+must_use
+]
 void
 onAuthAvailable
 (
@@ -566,6 +608,9 @@ prompt
 .
 *
 /
+[
+must_use
+]
 void
 onAuthCancelled
 (
@@ -607,6 +652,9 @@ connection
 .
 *
 /
+[
+must_use
+]
 void
 closeStickyConnection
 (

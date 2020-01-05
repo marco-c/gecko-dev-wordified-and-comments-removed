@@ -229,6 +229,7 @@ IsHTTPS
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 PrepareForAuthentication
 (
@@ -236,6 +237,7 @@ bool
 proxyAuth
 )
 ;
+MOZ_MUST_USE
 nsresult
 GenCredsAndSetEntry
 (
@@ -281,6 +283,7 @@ char
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetAuthenticator
 (
@@ -318,6 +321,7 @@ nsHttpAuthIdentity
 &
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetCredentials
 (
@@ -332,6 +336,7 @@ nsAFlatCString
 creds
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetCredentialsForChallenge
 (
@@ -353,6 +358,7 @@ nsAFlatCString
 creds
 )
 ;
+MOZ_MUST_USE
 nsresult
 PromptForIdentity
 (
@@ -411,6 +417,7 @@ nsHttpAuthIdentity
 ident
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetCurrentPath
 (
@@ -418,6 +425,7 @@ nsACString
 &
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetAuthorizationMembers
 (
@@ -448,6 +456,7 @@ nsISupports
 continuationState
 )
 ;
+MOZ_MUST_USE
 nsresult
 ContinueOnAuthAvailable
 (
@@ -457,11 +466,13 @@ nsCSubstring
 creds
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoRedirectChannelToHttps
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 ProcessSTSHeader
 (
@@ -472,6 +483,7 @@ BlockPrompt
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 UpdateCache
 (

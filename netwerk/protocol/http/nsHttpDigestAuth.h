@@ -97,6 +97,7 @@ nsHttpDigestAuth
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 ExpandToHex
 (
@@ -109,6 +110,7 @@ char
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 CalculateResponse
 (
@@ -139,6 +141,7 @@ char
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 CalculateHA1
 (
@@ -169,6 +172,7 @@ char
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 CalculateHA2
 (
@@ -191,6 +195,7 @@ char
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 ParseChallenge
 (
@@ -221,6 +226,7 @@ uint16_t
 qop
 )
 ;
+MOZ_MUST_USE
 nsresult
 MD5Hash
 (
@@ -232,6 +238,7 @@ uint32_t
 len
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetMethodAndPath
 (
@@ -244,6 +251,7 @@ nsCString
 &
 )
 ;
+MOZ_MUST_USE
 nsresult
 AppendQuotedString
 (

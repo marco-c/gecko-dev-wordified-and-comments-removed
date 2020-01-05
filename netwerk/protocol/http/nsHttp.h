@@ -279,6 +279,7 @@ struct
 nsHttp
 {
 static
+MOZ_MUST_USE
 nsresult
 CreateAtomTable
 (
@@ -402,6 +403,7 @@ separators
 )
 ;
 static
+MOZ_MUST_USE
 bool
 ParseInt64
 (
@@ -421,6 +423,7 @@ result
 ;
 static
 inline
+MOZ_MUST_USE
 bool
 ParseInt64
 (

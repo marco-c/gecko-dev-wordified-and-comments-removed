@@ -170,6 +170,9 @@ nsIWellKnownOpportunisticUtils
 :
 nsISupports
 {
+[
+must_use
+]
 void
 verify
 (
@@ -184,11 +187,17 @@ long
 aAlternatePort
 )
 ;
+[
+must_use
+]
 readonly
 attribute
 bool
 valid
 ;
+[
+must_use
+]
 readonly
 attribute
 bool
@@ -201,6 +210,9 @@ mixed
 scheme
 *
 /
+[
+must_use
+]
 readonly
 attribute
 long

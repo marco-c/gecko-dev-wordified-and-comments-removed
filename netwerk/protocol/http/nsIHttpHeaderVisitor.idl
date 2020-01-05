@@ -187,6 +187,9 @@ terminate
 enumeration
 *
 /
+[
+must_use
+]
 void
 visitHeader
 (

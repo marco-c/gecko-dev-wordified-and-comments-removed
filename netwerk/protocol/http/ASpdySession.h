@@ -53,6 +53,7 @@ ASpdySession
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 AddStream
 (
@@ -339,6 +340,7 @@ kCount
 =
 1
 ;
+MOZ_MUST_USE
 nsresult
 GetNPNIndex
 (

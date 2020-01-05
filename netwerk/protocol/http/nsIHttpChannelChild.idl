@@ -152,6 +152,9 @@ nsIHttpChannelChild
 :
 nsISupports
 {
+[
+must_use
+]
 void
 addCookiesToRequest
 (
@@ -182,6 +185,9 @@ a
 redirect
 occurs
 .
+[
+must_use
+]
 void
 forceIntercepted
 (
@@ -205,6 +211,9 @@ set
 via
 SetRequestHeader
 .
+[
+must_use
+]
 readonly
 attribute
 RequestHeaderTuples
@@ -261,6 +270,9 @@ the
 parent
 process
 .
+[
+must_use
+]
 void
 removeCorsPreflightCacheEntry
 (

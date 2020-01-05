@@ -422,6 +422,7 @@ HttpBaseChannel
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -1406,6 +1407,7 @@ aApiRedirectToURI
 override
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 AddSecurityMessage
 (
@@ -1826,6 +1828,7 @@ nsContentEncodings
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 PrepareForNext
 (
@@ -1902,6 +1905,7 @@ return
 mPeerAddr
 ;
 }
+MOZ_MUST_USE
 nsresult
 OverrideSecurityInfo
 (
@@ -1930,6 +1934,7 @@ ParsedMethodType
 method
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoApplyContentConversions
 (
@@ -2018,6 +2023,7 @@ AddCookiesToRequest
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 SetupReplacementChannel
 (
@@ -2095,6 +2101,7 @@ GetURIPrincipal
 (
 )
 ;
+MOZ_MUST_USE
 bool
 BypassServiceWorker
 (
@@ -2667,6 +2674,7 @@ mCallOnResume
 )
 {
 }
+MOZ_MUST_USE
 nsresult
 AsyncAbort
 (
@@ -2679,6 +2687,7 @@ HandleAsyncAbort
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 AsyncCall
 (
@@ -2730,6 +2739,7 @@ template
 class
 T
 >
+MOZ_MUST_USE
 nsresult
 HttpAsyncAborter
 <

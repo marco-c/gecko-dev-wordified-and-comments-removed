@@ -170,6 +170,7 @@ Shutdown
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -223,6 +224,7 @@ aRequestingPrincipal
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 StartCORSPreflight
 (
@@ -249,6 +251,7 @@ nsCORSListenerProxy
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 UpdateChannel
 (
@@ -261,6 +264,7 @@ UpdateType
 aUpdateType
 )
 ;
+MOZ_MUST_USE
 nsresult
 CheckRequestApproved
 (
@@ -269,6 +273,7 @@ nsIRequest
 aRequest
 )
 ;
+MOZ_MUST_USE
 nsresult
 CheckPreflightNeeded
 (

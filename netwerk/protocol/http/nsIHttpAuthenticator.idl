@@ -390,6 +390,9 @@ identity
 .
 *
 /
+[
+must_use
+]
 void
 challengeReceived
 (
@@ -707,6 +710,9 @@ finished
 .
 *
 /
+[
+must_use
+]
 void
 generateCredentialsAsync
 (
@@ -1017,6 +1023,9 @@ bellow
 .
 *
 /
+[
+must_use
+]
 string
 generateCredentials
 (
@@ -1141,6 +1150,9 @@ authenticator
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 unsigned

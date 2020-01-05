@@ -181,6 +181,7 @@ Available
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 ReadSegments
 (
@@ -197,6 +198,7 @@ countRead
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 WriteSegments
 (
@@ -213,6 +215,7 @@ countWritten
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 ReadSegmentsAgain
 (
@@ -239,6 +242,7 @@ countRead
 ;
 }
 virtual
+MOZ_MUST_USE
 nsresult
 WriteSegmentsAgain
 (
@@ -300,6 +304,7 @@ Http1xTransactionCount
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 TakeSubTransactions
 (
@@ -393,6 +398,7 @@ ResponseTimeout
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 GetTransactionSecurityInfo
 (
@@ -421,6 +427,7 @@ bool
 {
 }
 virtual
+MOZ_MUST_USE
 bool
 Do0RTT
 (
@@ -431,6 +438,7 @@ false
 ;
 }
 virtual
+MOZ_MUST_USE
 nsresult
 Finish0RTT
 (
@@ -533,6 +541,7 @@ override
 ;
 \
 virtual
+MOZ_MUST_USE
 nsresult
 ReadSegments
 (
@@ -546,6 +555,7 @@ override
 ;
 \
 virtual
+MOZ_MUST_USE
 nsresult
 WriteSegments
 (
@@ -599,6 +609,7 @@ Http1xTransactionCount
 override
 ;
 \
+MOZ_MUST_USE
 nsresult
 TakeSubTransactions
 (
@@ -620,6 +631,7 @@ nsAHttpSegmentReader
 public
 :
 virtual
+MOZ_MUST_USE
 nsresult
 OnReadSegment
 (
@@ -637,6 +649,7 @@ countRead
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 CommitToSegmentSize
 (
@@ -656,6 +669,7 @@ NS_ERROR_FAILURE
 define
 NS_DECL_NSAHTTPSEGMENTREADER
 \
+MOZ_MUST_USE
 nsresult
 OnReadSegment
 (
@@ -674,6 +688,7 @@ nsAHttpSegmentWriter
 public
 :
 virtual
+MOZ_MUST_USE
 nsresult
 OnWriteSegment
 (
@@ -695,6 +710,7 @@ countWritten
 define
 NS_DECL_NSAHTTPSEGMENTWRITER
 \
+MOZ_MUST_USE
 nsresult
 OnWriteSegment
 (

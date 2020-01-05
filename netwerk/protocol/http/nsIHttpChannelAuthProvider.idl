@@ -279,6 +279,9 @@ channel
 .
 *
 /
+[
+must_use
+]
 void
 init
 (
@@ -411,6 +414,9 @@ called
 .
 *
 /
+[
+must_use
+]
 void
 processAuthentication
 (
@@ -458,6 +464,9 @@ cache
 .
 *
 /
+[
+must_use
+]
 void
 addAuthorizationHeaders
 (
@@ -488,6 +497,9 @@ provided
 .
 *
 /
+[
+must_use
+]
 void
 checkForSuperfluousAuth
 (
@@ -514,6 +526,9 @@ references
 .
 *
 /
+[
+must_use
+]
 void
 disconnect
 (

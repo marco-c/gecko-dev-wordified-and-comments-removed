@@ -362,6 +362,9 @@ opened
 .
 *
 /
+[
+must_use
+]
 attribute
 ACString
 requestMethod
@@ -526,6 +529,9 @@ throw
 .
 *
 /
+[
+must_use
+]
 attribute
 nsIURI
 referrer
@@ -820,6 +826,9 @@ details
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 unsigned
@@ -850,6 +859,9 @@ visitRequestHeaders
 .
 *
 /
+[
+must_use
+]
 void
 setReferrerWithPolicy
 (
@@ -904,6 +916,9 @@ onStartRequest
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -927,6 +942,9 @@ payload
 body
 *
 /
+[
+must_use
+]
 readonly
 attribute
 uint64_t
@@ -956,6 +974,9 @@ content
 codings
 *
 /
+[
+must_use
+]
 readonly
 attribute
 uint64_t
@@ -981,6 +1002,9 @@ content
 codings
 *
 /
+[
+must_use
+]
 readonly
 attribute
 uint64_t
@@ -1050,6 +1074,9 @@ set
 .
 *
 /
+[
+must_use
+]
 ACString
 getRequestHeader
 (
@@ -1291,6 +1318,9 @@ visitRequestHeaders
 .
 *
 /
+[
+must_use
+]
 void
 setRequestHeader
 (
@@ -1406,6 +1436,9 @@ visitRequestHeaders
 .
 *
 /
+[
+must_use
+]
 void
 setEmptyRequestHeader
 (
@@ -1456,6 +1489,9 @@ instance
 .
 *
 /
+[
+must_use
+]
 void
 visitRequestHeaders
 (
@@ -1515,6 +1551,9 @@ instance
 .
 *
 /
+[
+must_use
+]
 void
 visitNonDefaultRequestHeaders
 (
@@ -1554,6 +1593,9 @@ opened
 .
 *
 /
+[
+must_use
+]
 attribute
 boolean
 allowPipelining
@@ -1645,6 +1687,9 @@ opened
 .
 *
 /
+[
+must_use
+]
 attribute
 boolean
 allowSTS
@@ -1760,6 +1805,9 @@ implementation
 .
 *
 /
+[
+must_use
+]
 attribute
 unsigned
 long
@@ -1895,6 +1943,9 @@ onStartRequest
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 unsigned
@@ -1980,6 +2031,9 @@ onStartRequest
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -2097,6 +2151,9 @@ onStartRequest
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 boolean
@@ -2149,6 +2206,9 @@ loadflags
 .
 *
 /
+[
+must_use
+]
 attribute
 boolean
 isMainDocumentChannel
@@ -2236,6 +2296,9 @@ response
 .
 *
 /
+[
+must_use
+]
 ACString
 getResponseHeader
 (
@@ -2496,6 +2559,9 @@ getOriginalResponseHeader
 .
 *
 /
+[
+must_use
+]
 void
 setResponseHeader
 (
@@ -2571,6 +2637,9 @@ onStartRequest
 .
 *
 /
+[
+must_use
+]
 void
 visitResponseHeaders
 (
@@ -2690,6 +2759,9 @@ response
 .
 *
 /
+[
+must_use
+]
 void
 getOriginalResponseHeader
 (
@@ -2777,6 +2849,9 @@ onStartRequest
 .
 *
 /
+[
+must_use
+]
 void
 visitOriginalResponseHeaders
 (
@@ -2829,6 +2904,9 @@ onStartRequest
 .
 *
 /
+[
+must_use
+]
 boolean
 isNoStoreResponse
 (
@@ -2922,6 +3000,9 @@ onStartRequest
 .
 *
 /
+[
+must_use
+]
 boolean
 isNoCacheResponse
 (
@@ -2969,6 +3050,9 @@ onStartRequest
 .
 *
 /
+[
+must_use
+]
 boolean
 isPrivateResponse
 (
@@ -3217,6 +3301,9 @@ listener
 .
 *
 /
+[
+must_use
+]
 void
 redirectTo
 (
@@ -3241,6 +3328,7 @@ load
 /
 [
 noscript
+must_use
 ]
 attribute
 nsID
@@ -3287,6 +3375,9 @@ bug
 .
 *
 /
+[
+must_use
+]
 attribute
 ACString
 channelId
@@ -3320,6 +3411,9 @@ in
 .
 *
 /
+[
+must_use
+]
 attribute
 uint64_t
 topLevelContentWindowId

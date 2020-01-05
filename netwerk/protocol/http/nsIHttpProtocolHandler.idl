@@ -134,6 +134,9 @@ string
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -166,6 +169,9 @@ Mozilla
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -205,6 +211,9 @@ eg
 )
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -245,6 +254,9 @@ X11
 )
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -271,6 +283,9 @@ running
 on
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString
@@ -289,6 +304,9 @@ portion
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString

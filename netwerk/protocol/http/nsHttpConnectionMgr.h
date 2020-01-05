@@ -170,6 +170,7 @@ nsHttpConnectionMgr
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -183,6 +184,7 @@ uint16_t
 maxRequestDelay
 )
 ;
+MOZ_MUST_USE
 nsresult
 Shutdown
 (
@@ -205,6 +207,7 @@ ConditionallyStopTimeoutTick
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 AddTransaction
 (
@@ -214,6 +217,7 @@ int32_t
 priority
 )
 ;
+MOZ_MUST_USE
 nsresult
 RescheduleTransaction
 (
@@ -223,6 +227,7 @@ int32_t
 priority
 )
 ;
+MOZ_MUST_USE
 nsresult
 CancelTransaction
 (
@@ -232,6 +237,7 @@ nsresult
 reason
 )
 ;
+MOZ_MUST_USE
 nsresult
 CancelTransactions
 (
@@ -241,21 +247,25 @@ nsresult
 reason
 )
 ;
+MOZ_MUST_USE
 nsresult
 PruneDeadConnections
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 PruneNoTraffic
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 VerifyTraffic
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoShiftReloadConnectionCleanup
 (
@@ -263,6 +273,7 @@ nsHttpConnectionInfo
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetSocketThreadTarget
 (
@@ -271,6 +282,7 @@ nsIEventTarget
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 SpeculativeConnect
 (
@@ -288,6 +300,7 @@ NullHttpTransaction
 nullptr
 )
 ;
+MOZ_MUST_USE
 nsresult
 ReclaimConnection
 (
@@ -296,6 +309,7 @@ nsHttpConnection
 conn
 )
 ;
+MOZ_MUST_USE
 nsresult
 CompleteUpgrade
 (
@@ -307,6 +321,7 @@ nsIHttpUpgradeListener
 aUpgradeListener
 )
 ;
+MOZ_MUST_USE
 nsresult
 UpdateParam
 (
@@ -316,6 +331,7 @@ uint16_t
 value
 )
 ;
+MOZ_MUST_USE
 nsresult
 UpdateRequestTokenBucket
 (
@@ -324,6 +340,7 @@ EventTokenBucket
 aBucket
 )
 ;
+MOZ_MUST_USE
 nsresult
 ClearConnectionHistory
 (
@@ -356,6 +373,7 @@ nsHttpConnection
 conn
 )
 ;
+MOZ_MUST_USE
 nsresult
 ProcessPendingQ
 (
@@ -363,6 +381,7 @@ nsHttpConnectionInfo
 *
 )
 ;
+MOZ_MUST_USE
 bool
 ProcessPendingQForEntry
 (
@@ -370,11 +389,13 @@ nsHttpConnectionInfo
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 ProcessPendingQ
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 CloseIdleConnection
 (
@@ -604,6 +625,7 @@ uint32_t
 caps
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetupStreams
 (
@@ -620,11 +642,13 @@ bool
 isBackup
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetupPrimaryStreams
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetupBackupStreams
 (
@@ -883,6 +907,7 @@ Relaxed
 >
 mIsShuttingDown
 ;
+MOZ_MUST_USE
 bool
 ProcessPendingQForEntry
 (
@@ -901,6 +926,7 @@ uint32_t
 caps
 )
 ;
+MOZ_MUST_USE
 nsresult
 TryDispatchTransaction
 (
@@ -914,6 +940,7 @@ nsHttpTransaction
 trans
 )
 ;
+MOZ_MUST_USE
 nsresult
 DispatchTransaction
 (
@@ -925,6 +952,7 @@ nsHttpConnection
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 DispatchAbstractTransaction
 (
@@ -945,6 +973,7 @@ nsConnectionEntry
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 ProcessNewTransaction
 (
@@ -952,6 +981,7 @@ nsHttpTransaction
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 EnsureSocketThreadTarget
 (
@@ -973,6 +1003,7 @@ nsConnectionEntry
 ent
 )
 ;
+MOZ_MUST_USE
 nsresult
 CreateTransport
 (
@@ -1022,6 +1053,7 @@ bool
 allowWildCard
 )
 ;
+MOZ_MUST_USE
 nsresult
 MakeNewConnection
 (
@@ -1107,6 +1139,7 @@ nsConnectionEntry
 ent
 )
 ;
+MOZ_MUST_USE
 nsresult
 PostEvent
 (

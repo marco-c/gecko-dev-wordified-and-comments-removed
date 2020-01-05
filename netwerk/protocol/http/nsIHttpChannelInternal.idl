@@ -219,6 +219,9 @@ nsIHttpUpgradeListener
 :
 nsISupports
 {
+[
+must_use
+]
 void
 onTransportAvailable
 (
@@ -321,6 +324,9 @@ document
 URI
 *
 /
+[
+must_use
+]
 attribute
 nsIURI
 documentURI
@@ -341,6 +347,9 @@ the
 request
 *
 /
+[
+must_use
+]
 void
 getRequestVersion
 (
@@ -370,6 +379,9 @@ the
 response
 *
 /
+[
+must_use
+]
 void
 getResponseVersion
 (
@@ -406,6 +418,7 @@ retrieval
 /
 [
 noscript
+must_use
 ]
 void
 takeAllSecurityMessages
@@ -466,6 +479,9 @@ parsed
 .
 *
 /
+[
+must_use
+]
 void
 setCookie
 (
@@ -490,6 +506,9 @@ channel
 .
 *
 /
+[
+must_use
+]
 void
 setupFallbackChannel
 (
@@ -566,6 +585,9 @@ channel
 .
 *
 /
+[
+must_use
+]
 attribute
 unsigned
 long
@@ -609,6 +631,9 @@ above
 .
 *
 /
+[
+must_use
+]
 attribute
 boolean
 forceAllowThirdPartyCookie
@@ -627,6 +652,9 @@ canceled
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 boolean
@@ -660,6 +688,9 @@ download
 .
 *
 /
+[
+must_use
+]
 attribute
 boolean
 channelIsForDownload
@@ -759,6 +790,9 @@ and
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AUTF8String
@@ -817,6 +851,9 @@ and
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 int32_t
@@ -885,6 +922,9 @@ and
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 AUTF8String
@@ -943,6 +983,9 @@ and
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 int32_t
@@ -964,6 +1007,7 @@ keys
 /
 [
 noscript
+must_use
 ]
 void
 setCacheKeysRedirectChain
@@ -1102,6 +1146,9 @@ successful
 upgrade
 *
 /
+[
+must_use
+]
 void
 HTTPUpgrade
 (
@@ -1150,6 +1197,9 @@ spdy
 .
 *
 /
+[
+must_use
+]
 attribute
 boolean
 allowSpdy
@@ -1181,6 +1231,9 @@ default
 .
 *
 /
+[
+must_use
+]
 attribute
 boolean
 responseTimeoutEnabled
@@ -1229,6 +1282,9 @@ channel
 .
 *
 /
+[
+must_use
+]
 attribute
 unsigned
 long
@@ -1268,6 +1324,9 @@ called
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsIURI
@@ -1307,6 +1366,9 @@ requisite
 .
 *
 /
+[
+must_use
+]
 attribute
 boolean
 allowAltSvc
@@ -1351,10 +1413,16 @@ false
 .
 *
 /
+[
+must_use
+]
 attribute
 boolean
 beConservative
 ;
+[
+must_use
+]
 readonly
 attribute
 PRTime
@@ -1401,6 +1469,9 @@ ID
 .
 *
 /
+[
+must_use
+]
 void
 forceIntercepted
 (
@@ -1409,6 +1480,9 @@ uint64_t
 aInterceptionID
 )
 ;
+[
+must_use
+]
 readonly
 attribute
 boolean
@@ -1450,6 +1524,9 @@ LOAD_ANONYMOUS
 !
 *
 /
+[
+must_use
+]
 attribute
 boolean
 corsIncludeCredentials
@@ -1501,6 +1578,9 @@ CORS_MODE_NO_CORS
 .
 *
 /
+[
+must_use
+]
 attribute
 unsigned
 long
@@ -1559,6 +1639,9 @@ value
 .
 *
 /
+[
+must_use
+]
 attribute
 unsigned
 long
@@ -1644,6 +1727,9 @@ interception
 .
 *
 /
+[
+must_use
+]
 attribute
 unsigned
 long
@@ -1671,6 +1757,9 @@ channel
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsIURI
@@ -1694,6 +1783,9 @@ channel
 .
 *
 /
+[
+must_use
+]
 attribute
 ACString
 networkInterfaceId
@@ -1724,6 +1816,9 @@ channel
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 nsIURI
@@ -1843,6 +1938,9 @@ integrity
 .
 *
 /
+[
+must_use
+]
 attribute
 AString
 integrityMetadata
@@ -1869,6 +1967,9 @@ separation
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 ACString

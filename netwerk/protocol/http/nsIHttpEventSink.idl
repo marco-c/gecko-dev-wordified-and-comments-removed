@@ -254,6 +254,9 @@ cancels
 redirect
 *
 /
+[
+must_use
+]
 void
 onRedirect
 (

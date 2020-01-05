@@ -425,6 +425,9 @@ this
 request
 *
 /
+[
+must_use
+]
 void
 getAuthIdentity
 (
@@ -670,6 +673,9 @@ this
 request
 *
 /
+[
+must_use
+]
 void
 setAuthIdentity
 (
@@ -725,6 +731,9 @@ cache
 .
 *
 /
+[
+must_use
+]
 void
 clearAll
 (

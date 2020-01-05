@@ -71,6 +71,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_AHTTPCONNECTION_IID
 )
 virtual
+MOZ_MUST_USE
 nsresult
 OnHeadersAvailable
 (
@@ -88,6 +89,7 @@ reset
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 ResumeSend
 (
@@ -96,6 +98,7 @@ ResumeSend
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 ResumeRecv
 (
@@ -104,6 +107,7 @@ ResumeRecv
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 ForceSend
 (
@@ -112,6 +116,7 @@ ForceSend
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 ForceRecv
 (
@@ -166,6 +171,7 @@ nsHttpConnectionInfo
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 TakeTransport
 (
@@ -218,6 +224,7 @@ DontReuse
 0
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 PushBack
 (
@@ -317,15 +324,19 @@ NS_DECL_NSAHTTPCONNECTION
 fwdObject
 )
 \
+MOZ_MUST_USE
 nsresult
 OnHeadersAvailable
 (
 nsAHttpTransaction
 *
+\
 nsHttpRequestHead
 *
+\
 nsHttpResponseHead
 *
+\
 bool
 *
 reset
@@ -343,6 +354,7 @@ nsresult
 override
 ;
 \
+MOZ_MUST_USE
 nsresult
 TakeTransport
 (
@@ -382,6 +394,7 @@ DontReuse
 override
 ;
 \
+MOZ_MUST_USE
 nsresult
 PushBack
 (
@@ -521,6 +534,7 @@ result
 \
 }
 \
+MOZ_MUST_USE
 nsresult
 ResumeSend
 (
@@ -554,6 +568,7 @@ ResumeSend
 \
 }
 \
+MOZ_MUST_USE
 nsresult
 ResumeRecv
 (
@@ -587,6 +602,7 @@ ResumeRecv
 \
 }
 \
+MOZ_MUST_USE
 nsresult
 ForceSend
 (
@@ -620,6 +636,7 @@ ForceSend
 \
 }
 \
+MOZ_MUST_USE
 nsresult
 ForceRecv
 (

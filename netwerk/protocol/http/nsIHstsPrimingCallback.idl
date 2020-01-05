@@ -326,6 +326,7 @@ cache
 [
 noscript
 nostdcall
+must_use
 ]
 void
 onHSTSPrimingSucceeded
@@ -436,6 +437,7 @@ cache
 [
 noscript
 nostdcall
+must_use
 ]
 void
 onHSTSPrimingFailed

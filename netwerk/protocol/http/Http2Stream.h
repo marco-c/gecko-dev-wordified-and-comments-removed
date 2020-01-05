@@ -168,6 +168,7 @@ val
 ;
 }
 virtual
+MOZ_MUST_USE
 nsresult
 ReadSegments
 (
@@ -179,6 +180,7 @@ uint32_t
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 WriteSegments
 (
@@ -491,6 +493,7 @@ uint32_t
 count
 )
 ;
+MOZ_MUST_USE
 nsresult
 ConvertResponseHeaders
 (
@@ -504,6 +507,7 @@ int32_t
 &
 )
 ;
+MOZ_MUST_USE
 nsresult
 ConvertPushHeaders
 (
@@ -650,6 +654,7 @@ mSession
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 MakeOriginURL
 (
@@ -666,6 +671,7 @@ url
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 MakeOriginURL
 (
@@ -805,6 +811,7 @@ AdjustInitialWindow
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 TransmitFrame
 (
@@ -826,6 +833,7 @@ nsAutoPtr
 Http2Stream
 >
 ;
+MOZ_MUST_USE
 nsresult
 ParseHttpRequestHeaders
 (
@@ -837,6 +845,7 @@ uint32_t
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 GenerateOpen
 (
@@ -854,6 +863,7 @@ uint32_t
 bool
 )
 ;
+MOZ_MUST_USE
 nsresult
 BufferInput
 (

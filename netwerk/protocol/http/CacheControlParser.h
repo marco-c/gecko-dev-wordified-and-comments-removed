@@ -36,6 +36,7 @@ const
 header
 )
 ;
+MOZ_MUST_USE
 bool
 MaxAge
 (
@@ -44,6 +45,7 @@ uint32_t
 seconds
 )
 ;
+MOZ_MUST_USE
 bool
 MaxStale
 (
@@ -52,6 +54,7 @@ uint32_t
 seconds
 )
 ;
+MOZ_MUST_USE
 bool
 MinFresh
 (
@@ -82,6 +85,7 @@ IgnoreDirective
 (
 )
 ;
+MOZ_MUST_USE
 bool
 SecondsValue
 (

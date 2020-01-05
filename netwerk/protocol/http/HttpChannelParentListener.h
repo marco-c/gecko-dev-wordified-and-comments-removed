@@ -104,6 +104,7 @@ HttpChannelParent
 aInitialChannel
 )
 ;
+MOZ_MUST_USE
 nsresult
 DivertTo
 (
@@ -112,6 +113,7 @@ nsIStreamListener
 aListener
 )
 ;
+MOZ_MUST_USE
 nsresult
 SuspendForDiversion
 (
@@ -146,6 +148,7 @@ HttpChannelParentListener
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 ResumeForDiversion
 (

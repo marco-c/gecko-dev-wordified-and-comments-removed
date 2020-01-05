@@ -268,6 +268,9 @@ this
 activity
 *
 /
+[
+must_use
+]
 void
 observeActivity
 (
@@ -339,6 +342,9 @@ nsHttpActivityDistributor
 .
 *
 /
+[
+must_use
+]
 readonly
 attribute
 boolean

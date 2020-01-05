@@ -173,11 +173,13 @@ nsHttpHandler
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 Init
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 AddStandardRequestHeaders
 (
@@ -187,6 +189,7 @@ bool
 isSecure
 )
 ;
+MOZ_MUST_USE
 nsresult
 AddConnectionHeader
 (
@@ -775,6 +778,7 @@ return
 mSessionStartTime
 ;
 }
+MOZ_MUST_USE
 nsresult
 InitiateTransaction
 (
@@ -796,6 +800,7 @@ priority
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 RescheduleTransaction
 (
@@ -817,6 +822,7 @@ priority
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 CancelTransaction
 (
@@ -838,6 +844,7 @@ reason
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 ReclaimConnection
 (
@@ -856,6 +863,7 @@ conn
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 ProcessPendingQ
 (
@@ -874,6 +882,7 @@ cinfo
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 ProcessPendingQ
 (
@@ -888,6 +897,7 @@ ProcessPendingQ
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 GetSocketThreadTarget
 (
@@ -907,6 +917,7 @@ target
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 SpeculativeConnect
 (
@@ -1010,6 +1021,7 @@ originAttributes
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 GetStreamConverterService
 (
@@ -1018,6 +1030,7 @@ nsIStreamConverterService
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetIOService
 (
@@ -1125,6 +1138,7 @@ NS_HTTP_ON_EXAMINE_MERGED_RESPONSE_TOPIC
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 AsyncOnChannelRedirect
 (
@@ -1154,6 +1168,7 @@ NS_HTTP_ON_EXAMINE_CACHED_RESPONSE_TOPIC
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 GenerateHostPort
 (
@@ -1309,6 +1324,7 @@ char
 pref
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetAccept
 (
@@ -1317,6 +1333,7 @@ char
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetAcceptLanguages
 (
@@ -1325,6 +1342,7 @@ char
 *
 )
 ;
+MOZ_MUST_USE
 nsresult
 SetAcceptEncodings
 (
@@ -1335,6 +1353,7 @@ bool
 mIsSecure
 )
 ;
+MOZ_MUST_USE
 nsresult
 InitConnectionMgr
 (
@@ -1721,6 +1740,7 @@ mRequestTokenBucket
 ;
 public
 :
+MOZ_MUST_USE
 nsresult
 SubmitPacedRequest
 (
@@ -1838,6 +1858,7 @@ cb
 ;
 private
 :
+MOZ_MUST_USE
 nsresult
 SpeculativeConnectInternal
 (
@@ -1862,6 +1883,7 @@ mUUIDGen
 ;
 public
 :
+MOZ_MUST_USE
 nsresult
 NewChannelId
 (
@@ -1921,6 +1943,7 @@ nsHttpsHandler
 )
 {
 }
+MOZ_MUST_USE
 nsresult
 Init
 (

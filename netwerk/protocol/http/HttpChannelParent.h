@@ -212,6 +212,7 @@ PBOverrideStatus
 aStatus
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -230,18 +231,21 @@ aListener
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 SuspendForDiversion
 (
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 SuspendMessageDiversion
 (
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 ResumeMessageDiversion
 (
@@ -286,6 +290,7 @@ aApplyConversion
 ;
 }
 }
+MOZ_MUST_USE
 nsresult
 OpenAlternativeOutputStream
 (
@@ -315,6 +320,7 @@ aValue
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 ConnectChannel
 (
@@ -328,6 +334,7 @@ bool
 shouldIntercept
 )
 ;
+MOZ_MUST_USE
 bool
 DoAsyncOpen
 (
@@ -774,6 +781,7 @@ why
 )
 override
 ;
+MOZ_MUST_USE
 nsresult
 ResumeForDiversion
 (
@@ -806,6 +814,7 @@ TabParent
 >
 mTabParent
 ;
+MOZ_MUST_USE
 nsresult
 ReportSecurityMessage
 (
@@ -820,6 +829,7 @@ aMessageCategory
 )
 override
 ;
+MOZ_MUST_USE
 bool
 DoSendDeleteSelf
 (

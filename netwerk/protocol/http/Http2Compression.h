@@ -385,6 +385,7 @@ Http2Decompressor
 {
 }
 ;
+MOZ_MUST_USE
 nsresult
 DecodeHeaderBlock
 (
@@ -468,21 +469,25 @@ mHeaderMethod
 }
 private
 :
+MOZ_MUST_USE
 nsresult
 DoIndexed
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoLiteralWithoutIndex
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoLiteralWithIncremental
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoLiteralInternal
 (
@@ -493,16 +498,19 @@ nsACString
 uint32_t
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoLiteralNeverIndexed
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 DoContextUpdate
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 DecodeInteger
 (
@@ -513,6 +521,7 @@ uint32_t
 result
 )
 ;
+MOZ_MUST_USE
 nsresult
 OutputHeader
 (
@@ -520,6 +529,7 @@ uint32_t
 index
 )
 ;
+MOZ_MUST_USE
 nsresult
 OutputHeader
 (
@@ -533,6 +543,7 @@ nsACString
 value
 )
 ;
+MOZ_MUST_USE
 nsresult
 CopyHeaderString
 (
@@ -543,6 +554,7 @@ nsACString
 name
 )
 ;
+MOZ_MUST_USE
 nsresult
 CopyStringFromInput
 (
@@ -563,6 +575,7 @@ uint32_t
 bytesConsumed
 )
 ;
+MOZ_MUST_USE
 nsresult
 CopyHuffmanStringFromInput
 (
@@ -573,6 +586,7 @@ nsACString
 val
 )
 ;
+MOZ_MUST_USE
 nsresult
 DecodeHuffmanCharacter
 (
@@ -591,6 +605,7 @@ uint8_t
 bitsLeft
 )
 ;
+MOZ_MUST_USE
 nsresult
 DecodeFinalHuffmanCharacter
 (
@@ -690,6 +705,7 @@ Http2Compressor
 )
 {
 }
+MOZ_MUST_USE
 nsresult
 EncodeHeaderBlock
 (
