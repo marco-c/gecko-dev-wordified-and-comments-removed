@@ -32,10 +32,7 @@ std
 comm
 :
 :
-{
-Chan
 SharedChan
-}
 ;
 #
 [
@@ -113,13 +110,6 @@ enum
 Msg
 {
 ExitMsg
-(
-Chan
-<
-(
-)
->
-)
 FailureMsg
 (
 PipelineId
