@@ -138,6 +138,12 @@ serviceworker
 ServiceWorker
 ;
 use
+dom_struct
+:
+:
+dom_struct
+;
+use
 script_thread
 :
 :

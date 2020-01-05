@@ -140,6 +140,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+dom_struct
+:
+:
+dom_struct
+;
+use
 html5ever_atoms
 :
 :

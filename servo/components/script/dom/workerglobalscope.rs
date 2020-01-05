@@ -262,6 +262,12 @@ workernavigator
 WorkerNavigator
 ;
 use
+dom_struct
+:
+:
+dom_struct
+;
+use
 fetch
 ;
 use

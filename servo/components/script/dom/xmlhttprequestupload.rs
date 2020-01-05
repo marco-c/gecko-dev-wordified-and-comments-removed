@@ -55,6 +55,12 @@ xmlhttprequesteventtarget
 :
 XMLHttpRequestEventTarget
 ;
+use
+dom_struct
+:
+:
+dom_struct
+;
 #
 [
 dom_struct

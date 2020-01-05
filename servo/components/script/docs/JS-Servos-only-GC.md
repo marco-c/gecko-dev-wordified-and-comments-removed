@@ -1347,6 +1347,12 @@ API
 /
 document
 rust
+use
+dom_struct
+:
+:
+dom_struct
+;
 #
 [
 dom_struct

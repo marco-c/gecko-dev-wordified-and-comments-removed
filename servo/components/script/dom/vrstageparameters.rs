@@ -102,6 +102,12 @@ globalscope
 GlobalScope
 ;
 use
+dom_struct
+:
+:
+dom_struct
+;
+use
 js
 :
 :

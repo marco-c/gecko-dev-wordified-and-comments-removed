@@ -228,6 +228,12 @@ promise
 Promise
 ;
 use
+dom_struct
+:
+:
+dom_struct
+;
+use
 ipc_channel
 :
 :

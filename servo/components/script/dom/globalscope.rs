@@ -200,6 +200,12 @@ workerglobalscope
 WorkerGlobalScope
 ;
 use
+dom_struct
+:
+:
+dom_struct
+;
+use
 ipc_channel
 :
 :

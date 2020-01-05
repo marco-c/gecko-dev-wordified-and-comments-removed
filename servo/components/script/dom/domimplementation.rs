@@ -249,6 +249,12 @@ xmldocument
 XMLDocument
 ;
 use
+dom_struct
+:
+:
+dom_struct
+;
+use
 script_traits
 :
 :

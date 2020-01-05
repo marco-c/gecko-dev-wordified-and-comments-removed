@@ -61,6 +61,12 @@ plugin
 :
 Plugin
 ;
+use
+dom_struct
+:
+:
+dom_struct
+;
 #
 [
 dom_struct

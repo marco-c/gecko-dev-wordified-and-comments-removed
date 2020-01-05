@@ -10,6 +10,12 @@ reflector
 :
 Reflector
 ;
+use
+dom_struct
+:
+:
+dom_struct
+;
 #
 [
 dom_struct
