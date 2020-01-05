@@ -1576,6 +1576,12 @@ longDesc3
 )
 ;
 }
+window
+.
+sizeToContent
+(
+)
+;
 gNeedReset
 =
 true
