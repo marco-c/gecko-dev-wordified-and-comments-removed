@@ -67,12 +67,6 @@ Reset
 )
 ;
 int32_t
-GetFrameWidth
-(
-)
-const
-;
-int32_t
 GetFrameHeight
 (
 )
