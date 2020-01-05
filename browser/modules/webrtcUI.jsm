@@ -3237,6 +3237,17 @@ menupopup
 lastChild
 )
 ;
+menupopup
+.
+parentNode
+.
+removeAttribute
+(
+"
+value
+"
+)
+;
 for
 (
 let
