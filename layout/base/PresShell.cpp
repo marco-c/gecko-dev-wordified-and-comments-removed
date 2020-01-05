@@ -20109,7 +20109,7 @@ layerManager
 layerManager
 -
 >
-AsClientLayerManager
+AsKnowsCompositor
 (
 )
 |
@@ -40997,10 +40997,9 @@ overflow
 NS_ASSERTION
 (
 status
-.
-IsEmpty
-(
-)
+=
+=
+NS_FRAME_COMPLETE
 "
 reflow
 roots
