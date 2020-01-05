@@ -8749,7 +8749,9 @@ static
 void
 defaultValue
 (
+const
 S
+&
 )
 {
 }
@@ -8793,7 +8795,9 @@ static
 bool
 defaultValue
 (
+const
 S
+&
 )
 {
 return
