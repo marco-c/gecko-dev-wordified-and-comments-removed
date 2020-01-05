@@ -1180,11 +1180,6 @@ OnMediaSinkVideoError
 (
 )
 ;
-bool
-NeedToSkipToNextKeyframe
-(
-)
-;
 void
 *
 const
