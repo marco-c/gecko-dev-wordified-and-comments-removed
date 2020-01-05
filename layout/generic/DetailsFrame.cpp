@@ -111,6 +111,9 @@ aContext
 )
 ;
 }
+namespace
+mozilla
+{
 DetailsFrame
 :
 :
@@ -554,5 +557,6 @@ AppendElement
 mDefaultSummary
 )
 ;
+}
 }
 }

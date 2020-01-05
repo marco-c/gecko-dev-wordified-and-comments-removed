@@ -24,6 +24,9 @@ nsContainerFrame
 class
 nsStyleContext
 ;
+namespace
+mozilla
+{
 class
 DetailsFrame
 final
@@ -163,5 +166,6 @@ mDefaultSummary
 ;
 }
 ;
+}
 #
 endif
