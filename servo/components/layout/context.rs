@@ -1,7 +1,7 @@
 #
 !
 [
-deny
+allow
 (
 unsafe_code
 )

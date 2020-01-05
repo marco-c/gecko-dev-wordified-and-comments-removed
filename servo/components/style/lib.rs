@@ -78,14 +78,6 @@ plugin
 plugins
 )
 ]
-#
-!
-[
-deny
-(
-unsafe_code
-)
-]
 extern
 crate
 app_units

@@ -37,7 +37,6 @@ PIE_FLAG
 pie
 "
 fi
-PIE_FLAG
 arm
 -
 linux
