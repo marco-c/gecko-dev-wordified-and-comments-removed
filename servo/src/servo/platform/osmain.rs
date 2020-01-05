@@ -1128,7 +1128,7 @@ task
 :
 :
 osmain
-native_stack_size
+foreign_stack_size
 :
 none
 }
