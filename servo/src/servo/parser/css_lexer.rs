@@ -1622,7 +1622,7 @@ Lexing
 css
 sheet
 %
-s
+?
 "
 copy
 filename
@@ -1656,7 +1656,7 @@ open
 css
 sheet
 %
-s
+?
 "
 copy
 filename
