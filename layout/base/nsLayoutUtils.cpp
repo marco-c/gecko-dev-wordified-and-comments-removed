@@ -3073,7 +3073,7 @@ if
 (
 segment
 .
-HasReplacableFromValue
+HasReplaceableFromValue
 (
 )
 )
@@ -3093,7 +3093,7 @@ if
 (
 segment
 .
-HasReplacableToValue
+HasReplaceableToValue
 (
 )
 )
