@@ -541,15 +541,6 @@ function
 )
 {
 yield
-new
-Promise
-(
-(
-resolve
-)
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -571,10 +562,6 @@ testing
 true
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;

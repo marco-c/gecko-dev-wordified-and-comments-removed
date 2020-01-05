@@ -8,13 +8,6 @@ aPrefs
 )
 {
 return
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -25,10 +18,6 @@ set
 "
 :
 aPrefs
-}
-resolve
-)
-;
 }
 )
 ;

@@ -1838,15 +1838,6 @@ function
 t
 )
 {
-return
-new
-Promise
-(
-function
-(
-resolve
-)
-{
 /
 /
 Needs
@@ -1855,6 +1846,7 @@ to
 cause
 overflow
 .
+return
 SpecialPowers
 .
 pushPrefEnv
@@ -1872,10 +1864,6 @@ showHideScrollbars
 1
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 .

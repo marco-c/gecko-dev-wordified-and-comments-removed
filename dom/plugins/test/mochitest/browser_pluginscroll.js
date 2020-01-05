@@ -194,15 +194,6 @@ function
 )
 {
 yield
-new
-Promise
-(
-(
-resolve
-)
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -290,10 +281,6 @@ durationMinMS
 1999
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;

@@ -1154,13 +1154,6 @@ function
 )
 {
 yield
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -1178,10 +1171,6 @@ entireword
 true
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;
