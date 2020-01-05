@@ -208,6 +208,7 @@ HTMLEventTypeId
 UIEventTypeId
 MouseEventTypeId
 KeyEventTypeId
+ProgressEventTypeId
 }
 #
 [

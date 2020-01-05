@@ -672,6 +672,10 @@ performancetiming
 ;
 pub
 mod
+progressevent
+;
+pub
+mod
 uievent
 ;
 pub
