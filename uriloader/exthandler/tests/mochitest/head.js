@@ -287,6 +287,7 @@ possibleApplicationHandlers
 appendElement
 (
 mockedHandlerApp
+false
 )
 ;
 internalMockedMIME

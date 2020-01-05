@@ -2236,6 +2236,7 @@ exampleURI
 {
 }
 )
+false
 )
 ;
 badRedirects
@@ -2250,6 +2251,7 @@ blocklistedURI
 {
 }
 )
+false
 )
 ;
 badRedirects
@@ -2264,6 +2266,7 @@ whitelistedURI
 {
 }
 )
+false
 )
 ;
 gAppRep

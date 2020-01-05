@@ -137,6 +137,7 @@ possibleApplicationHandlers
 appendElement
 (
 handler
+false
 )
 ;
 gHandlerSvc

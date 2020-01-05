@@ -1182,6 +1182,7 @@ possibleHandlers
 appendElement
 (
 handlerApp
+false
 )
 ;
 }
@@ -2217,6 +2218,7 @@ aPossibleHandlers
 appendElement
 (
 aPreferredHandler
+false
 )
 ;
 var
@@ -2302,6 +2304,7 @@ aPossibleHandlers
 appendElement
 (
 possibleHandler
+false
 )
 ;
 }
@@ -4828,6 +4831,7 @@ aHandlers
 appendElement
 (
 handler
+false
 )
 ;
 }

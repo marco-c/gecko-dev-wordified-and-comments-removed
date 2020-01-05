@@ -265,6 +265,7 @@ possibleApplicationHandlers
 appendElement
 (
 handler
+false
 )
 ;
 handlerService

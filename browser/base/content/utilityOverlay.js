@@ -1466,6 +1466,7 @@ sa
 appendElement
 (
 wuri
+false
 )
 ;
 sa
@@ -1473,6 +1474,7 @@ sa
 appendElement
 (
 charset
+false
 )
 ;
 sa
@@ -1480,6 +1482,7 @@ sa
 appendElement
 (
 referrerURISupports
+false
 )
 ;
 sa
@@ -1487,6 +1490,7 @@ sa
 appendElement
 (
 aPostData
+false
 )
 ;
 sa
@@ -1494,6 +1498,7 @@ sa
 appendElement
 (
 allowThirdPartyFixupSupports
+false
 )
 ;
 sa
@@ -1501,6 +1506,7 @@ sa
 appendElement
 (
 referrerPolicySupports
+false
 )
 ;
 sa
@@ -1508,6 +1514,7 @@ sa
 appendElement
 (
 userContextIdSupports
+false
 )
 ;
 sa
@@ -1515,6 +1522,7 @@ sa
 appendElement
 (
 aPrincipal
+false
 )
 ;
 sa
@@ -1522,6 +1530,7 @@ sa
 appendElement
 (
 aTriggeringPrincipal
+false
 )
 ;
 let
@@ -3755,6 +3764,7 @@ windowArguments
 appendElement
 (
 supportsStringPrefURL
+false
 )
 ;
 win
