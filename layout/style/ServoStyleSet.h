@@ -536,7 +536,7 @@ EventStates
 aStateMask
 )
 ;
-void
+bool
 StyleDocument
 (
 )
@@ -688,7 +688,7 @@ ResolveMappedAttrDeclarationBlocks
 (
 )
 ;
-void
+bool
 PrepareAndTraverseSubtree
 (
 RawGeckoElementBorrowed
