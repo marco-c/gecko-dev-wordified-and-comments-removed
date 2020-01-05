@@ -1239,11 +1239,12 @@ updated
 "
 )
 ;
+await
 PlacesUtils
 .
 history
 .
-removePage
+remove
 (
 uri
 )
@@ -1395,7 +1396,7 @@ PlacesUtils
 .
 history
 .
-removePage
+remove
 (
 uriToRemove
 )
