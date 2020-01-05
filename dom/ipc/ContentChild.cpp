@@ -4782,6 +4782,19 @@ MaybeFileDesc
 aDMDFile
 )
 {
+nsCString
+process
+;
+GetProcessName
+(
+process
+)
+;
+AppendProcessId
+(
+process
+)
+;
 auto
 *
 actor
@@ -4791,6 +4804,7 @@ MemoryReportRequestChild
 (
 aAnonymize
 aDMDFile
+process
 )
 ;
 actor
