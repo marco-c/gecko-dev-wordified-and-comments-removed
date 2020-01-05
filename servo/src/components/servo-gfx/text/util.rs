@@ -678,7 +678,7 @@ test_true_type_tag
 (
 )
 {
-fail_unless
+assert
 !
 (
 true_type_tag
@@ -790,7 +790,7 @@ len
 i
 |
 {
-fail_unless
+assert
 !
 (
 transform_text
@@ -926,7 +926,7 @@ foobarbaz
 "
 ]
 ;
-fail_unless
+assert
 !
 (
 test_strs
@@ -965,7 +965,7 @@ len
 i
 |
 {
-fail_unless
+assert
 !
 (
 transform_text
@@ -1109,7 +1109,7 @@ n
 "
 ]
 ;
-fail_unless
+assert
 !
 (
 test_strs
@@ -1148,7 +1148,7 @@ len
 i
 |
 {
-fail_unless
+assert
 !
 (
 transform_text
@@ -1284,7 +1284,7 @@ foobarbaz
 "
 ]
 ;
-fail_unless
+assert
 !
 (
 test_strs
@@ -1323,7 +1323,7 @@ len
 i
 |
 {
-fail_unless
+assert
 !
 (
 transform_text

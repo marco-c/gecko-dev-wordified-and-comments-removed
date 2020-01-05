@@ -54,7 +54,10 @@ B
 src
 /
 (
+PATH_
+(
 1
+)
 )
 check
 DEPS_CHECK_ALL
@@ -68,7 +71,7 @@ endef
 foreach
 submodule
 (
-CFG_SUBMODULES
+SUBMODULES
 )
 \
 (

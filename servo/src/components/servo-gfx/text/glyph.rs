@@ -3347,7 +3347,7 @@ range
 :
 &
 Range
-cb
+callback
 :
 &
 fn
@@ -3364,6 +3364,9 @@ self
 >
 bool
 )
+-
+>
+bool
 {
 if
 range
@@ -3397,7 +3400,7 @@ length
 )
 ;
 return
-;
+false
 }
 if
 range
@@ -3430,7 +3433,7 @@ length
 )
 ;
 return
-;
+false
 }
 for
 range
@@ -3447,13 +3450,13 @@ self
 iter_glyphs_for_char_index
 (
 i
-cb
+callback
 )
 {
 break
-;
 }
 }
+true
 }
 fn
 iter_all_glyphs
@@ -3479,6 +3482,9 @@ self
 >
 bool
 )
+-
+>
+bool
 {
 for
 uint
@@ -3513,6 +3519,7 @@ break
 ;
 }
 }
+true
 }
 fn
 char_is_space
