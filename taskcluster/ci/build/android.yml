@@ -144,6 +144,9 @@ fx_desktop_build
 .
 py
 "
+secrets
+:
+true
 custom
 -
 build
@@ -291,6 +294,9 @@ fx_desktop_build
 .
 py
 "
+secrets
+:
+true
 custom
 -
 build
@@ -441,6 +447,9 @@ fx_desktop_build
 .
 py
 "
+secrets
+:
+true
 custom
 -
 build
@@ -606,6 +615,9 @@ fx_desktop_build
 .
 py
 "
+secrets
+:
+true
 custom
 -
 build
@@ -912,6 +924,9 @@ fx_desktop_build
 .
 py
 "
+secrets
+:
+true
 custom
 -
 build
