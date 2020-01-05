@@ -1725,7 +1725,9 @@ aFrame
 ReflowOutput
 &
 aMetrics
-uint32_t
+const
+nsReflowStatus
+&
 aStatus
 void
 *

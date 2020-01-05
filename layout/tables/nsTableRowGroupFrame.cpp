@@ -6974,10 +6974,10 @@ AvailableHeight
 &
 &
 (
-NS_FRAME_NOT_COMPLETE
-=
-=
 aStatus
+=
+=
+NS_FRAME_NOT_COMPLETE
 |
 |
 splitDueToPageBreak
