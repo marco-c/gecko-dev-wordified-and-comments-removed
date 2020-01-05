@@ -801,6 +801,7 @@ Runnable
 {
 public
 :
+explicit
 ReleaseDispatcher
 (
 nsISupports
