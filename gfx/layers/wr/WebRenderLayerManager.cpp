@@ -1507,6 +1507,15 @@ DiscardImages
 (
 )
 ;
+WrBridge
+(
+)
+-
+>
+RemoveExpiredFontKeys
+(
+)
+;
 mPaintedLayerCallback
 =
 aCallback
