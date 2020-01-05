@@ -292,6 +292,15 @@ C
 Compiler
 .
 *
+as
+:
+Path
+to
+the
+assembler
+tool
+.
+*
 ar
 :
 Path
