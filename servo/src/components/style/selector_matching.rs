@@ -3225,6 +3225,7 @@ matching
 rs
 .
 )
+pub
 fn
 matches_compound_selector
 <

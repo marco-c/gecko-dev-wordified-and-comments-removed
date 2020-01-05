@@ -183,6 +183,7 @@ selector_matching
 :
 {
 MatchedProperty
+matches_compound_selector
 }
 ;
 pub
@@ -277,6 +278,15 @@ Selector
 CompoundSelector
 SimpleSelector
 Combinator
+}
+;
+pub
+use
+selectors
+:
+:
+{
+parse_selector_list
 }
 ;
 pub

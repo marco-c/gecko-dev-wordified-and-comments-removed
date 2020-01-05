@@ -105,6 +105,10 @@ debug
 ;
 extern
 crate
+cssparser
+;
+extern
+crate
 collections
 ;
 extern
