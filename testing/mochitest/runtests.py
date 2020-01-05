@@ -4830,6 +4830,9 @@ __init__
 (
 self
 logger_options
+quiet
+=
+False
 )
 :
         
@@ -4982,6 +4985,9 @@ logger
 self
 .
 log
+buffering
+=
+quiet
 )
         
 self
@@ -12695,10 +12701,6 @@ bisectChunk
 =
 None
                
-quiet
-=
-False
-               
 marionette_args
 =
 None
@@ -12752,14 +12754,6 @@ seconds
 "
 "
 "
-        
-self
-.
-message_logger
-.
-buffering
-=
-quiet
         
 assert
 not
@@ -15585,12 +15579,6 @@ options
 .
 bisectChunk
                                  
-quiet
-=
-options
-.
-quiet
-                                 
 marionette_args
 =
 marionette_args
@@ -17347,6 +17335,11 @@ runner
 MochitestDesktop
 (
 logger_options
+quiet
+=
+options
+.
+quiet
 )
     
 options
