@@ -19,6 +19,7 @@ namespace
 js
 ;
 namespace
+details
 {
 template
 <
@@ -220,6 +221,9 @@ initialized
 ;
 js_delete
 (
+details
+:
+:
 Utils
 <
 K
@@ -272,6 +276,9 @@ initialized
 )
 ;
 typename
+details
+:
+:
 Utils
 <
 K
@@ -293,6 +300,9 @@ runtime
 new_
 <
 typename
+details
+:
+:
 Utils
 <
 K
@@ -364,6 +374,9 @@ initialized
 )
 ;
 return
+details
+:
+:
 Utils
 <
 K
@@ -417,6 +430,9 @@ initialized
 )
 ;
 typename
+details
+:
+:
 Utils
 <
 K
@@ -430,6 +446,9 @@ Type
 Ptr
 result
 =
+details
+:
+:
 Utils
 <
 K
@@ -454,6 +473,9 @@ if
 result
 )
 return
+details
+:
+:
 DataType
 <
 V
@@ -514,6 +536,9 @@ initialized
 )
 ;
 return
+details
+:
+:
 Utils
 <
 K
