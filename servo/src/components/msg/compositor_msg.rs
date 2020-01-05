@@ -146,6 +146,7 @@ mark_will_leak
 deriving
 (
 Eq
+Clone
 )
 ]
 pub
@@ -160,6 +161,7 @@ RenderingRenderState
 deriving
 (
 Eq
+Clone
 )
 ]
 pub
