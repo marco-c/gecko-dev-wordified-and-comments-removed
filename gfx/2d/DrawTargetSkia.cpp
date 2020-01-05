@@ -9728,7 +9728,6 @@ nullptr
 )
 {
 }
-virtual
 sk_sp
 <
 SkSpecialImage

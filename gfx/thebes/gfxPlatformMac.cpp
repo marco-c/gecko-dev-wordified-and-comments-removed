@@ -1805,7 +1805,6 @@ OSXVsyncSource
 )
 {
 }
-virtual
 Display
 &
 GetGlobalDisplay
@@ -1857,6 +1856,7 @@ NS_TIMER_CONTRACTID
 OSXDisplay
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -1911,7 +1911,6 @@ EnableVsync
 )
 ;
 }
-virtual
 void
 EnableVsync
 (
@@ -2176,7 +2175,6 @@ rateInMs
 ;
 }
 }
-virtual
 void
 DisableVsync
 (
@@ -2217,7 +2215,6 @@ nullptr
 ;
 }
 }
-virtual
 bool
 IsVsyncEnabled
 (
@@ -2238,7 +2235,6 @@ mDisplayLink
 nullptr
 ;
 }
-virtual
 TimeDuration
 GetVsyncRate
 (
@@ -2249,7 +2245,6 @@ return
 mVsyncRate
 ;
 }
-virtual
 void
 Shutdown
 (
@@ -2300,11 +2295,11 @@ mVsyncRate
 ;
 private
 :
-virtual
 ~
 OSXVsyncSource
 (
 )
+override
 =
 default
 ;

@@ -994,7 +994,6 @@ char
 aKey
 )
 ;
-virtual
 void
 Log
 (
@@ -1008,7 +1007,6 @@ aString
 )
 override
 ;
-virtual
 void
 CrashAction
 (
@@ -1017,7 +1015,6 @@ aReason
 )
 override
 ;
-virtual
 bool
 UpdateStringsVector
 (
@@ -1031,7 +1028,6 @@ aString
 )
 override
 ;
-virtual
 LoggingRecord
 LoggingRecordCopy
 (
@@ -1548,11 +1544,11 @@ LogForwarderEvent
 public
 Runnable
 {
-virtual
 ~
 LogForwarderEvent
 (
 )
+override
 =
 default
 ;
@@ -1836,11 +1832,11 @@ CrashTelemetryEvent
 public
 Runnable
 {
-virtual
 ~
 CrashTelemetryEvent
 (
 )
+override
 =
 default
 ;

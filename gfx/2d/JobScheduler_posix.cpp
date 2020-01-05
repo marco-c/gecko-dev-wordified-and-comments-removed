@@ -77,6 +77,7 @@ this
 WorkerThreadPosix
 (
 )
+override
 {
 pthread_join
 (
@@ -85,7 +86,6 @@ nullptr
 )
 ;
 }
-virtual
 void
 SetName
 (
