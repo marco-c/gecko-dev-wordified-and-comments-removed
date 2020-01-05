@@ -383,7 +383,7 @@ MightHaveNoneSVGMask
 (
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 mightHaveNoneSVGMask
 |
