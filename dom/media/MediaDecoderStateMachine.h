@@ -1287,11 +1287,6 @@ StepDecoding
 (
 )
 ;
-void
-StepCompleted
-(
-)
-;
 bool
 IsStateMachineScheduled
 (
