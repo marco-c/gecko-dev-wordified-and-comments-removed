@@ -7804,16 +7804,18 @@ DEFAULT_BEHAVIOR
 ;
 }
 }
-void
+bool
 TabChild
 :
 :
-HandleTap
+RecvHandleTap
 (
+const
 GeckoContentController
 :
 :
 TapType
+&
 aType
 const
 LayoutDevicePoint
@@ -7850,6 +7852,7 @@ presShell
 )
 {
 return
+true
 ;
 }
 if
@@ -7864,6 +7867,7 @@ GetPresContext
 )
 {
 return
+true
 ;
 }
 CSSToLayoutDeviceScale
@@ -8044,6 +8048,9 @@ false
 break
 ;
 }
+return
+true
+;
 }
 bool
 TabChild

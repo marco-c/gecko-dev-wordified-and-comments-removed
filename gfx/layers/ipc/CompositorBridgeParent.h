@@ -1799,6 +1799,15 @@ uint64_t
 aId
 )
 ;
+static
+APZCTreeManagerParent
+*
+GetApzcTreeManagerParentForRoot
+(
+uint64_t
+aContentLayersId
+)
+;
 #
 if
 defined
