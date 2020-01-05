@@ -143,6 +143,9 @@ apppicker
 asyncshutdown
 '
 '
+browser
+'
+'
 commandlines
 '
 '
@@ -277,6 +280,12 @@ urlformatter
 viewconfig
 '
 '
+windowcreator
+'
+'
+windowwatcher
+'
+'
 workerloader
 '
 '
@@ -404,6 +413,9 @@ DIRS
 [
 '
 autocomplete
+'
+'
+printingui
 '
 '
 satchel

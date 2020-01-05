@@ -214,6 +214,9 @@ cache
 canvas
 '
 '
+commandhandler
+'
+'
 crypto
 '
 '
@@ -375,6 +378,9 @@ console
 '
 '
 performance
+'
+'
+webbrowserpersist
 '
 '
 xhr
