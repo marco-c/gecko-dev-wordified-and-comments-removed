@@ -4143,6 +4143,11 @@ CC
 ADC
 {
 }
+Ovr
+{
+:
+?
+}
 "
 self
 .
@@ -4167,6 +4172,9 @@ abs_descendants
 len
 (
 )
+self
+.
+overflow
 )
 }
 }
