@@ -28,6 +28,7 @@ aContext
 ;
 class
 nsListItemFrame
+final
 :
 public
 nsGridRowLeafFrame

@@ -1147,6 +1147,7 @@ true
 }
 class
 nsDisplayXULTextBox
+final
 :
 public
 nsDisplayItem

@@ -31,6 +31,7 @@ nsFontMetrics
 ;
 class
 nsTextBoxFrame
+final
 :
 public
 nsLeafBoxFrame

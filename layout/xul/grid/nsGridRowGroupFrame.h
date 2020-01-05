@@ -22,6 +22,7 @@ h
 "
 class
 nsGridRowGroupFrame
+final
 :
 public
 nsBoxFrame

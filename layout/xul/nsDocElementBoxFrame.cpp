@@ -148,6 +148,7 @@ dom
 ;
 class
 nsDocElementBoxFrame
+final
 :
 public
 nsBoxFrame

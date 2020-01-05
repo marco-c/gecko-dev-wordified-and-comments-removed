@@ -438,6 +438,7 @@ mSuppressStyleCheck
 ;
 class
 nsDisplayXULImage
+final
 :
 public
 nsDisplayImageContainer

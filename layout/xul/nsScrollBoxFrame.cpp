@@ -62,6 +62,7 @@ mozilla
 ;
 class
 nsAutoRepeatBoxFrame
+final
 :
 public
 nsButtonBoxFrame

@@ -22,6 +22,7 @@ h
 "
 class
 nsDeckFrame
+final
 :
 public
 nsBoxFrame
