@@ -741,6 +741,17 @@ marked_
 false
 ;
 }
+bool
+isMarkedGray
+(
+)
+const
+;
+void
+unmarkGray
+(
+)
+;
 static
 size_t
 offsetOfSource
