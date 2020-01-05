@@ -2105,13 +2105,6 @@ TrackType
 aTrack
 )
 ;
-void
-ShutdownDecoderWithPromise
-(
-TrackType
-aTrack
-)
-;
 RefPtr
 <
 ShutdownPromise
