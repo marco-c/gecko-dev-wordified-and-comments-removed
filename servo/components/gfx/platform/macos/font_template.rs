@@ -134,6 +134,12 @@ sync
 :
 Mutex
 ;
+use
+webrender_traits
+:
+:
+NativeFontHandle
+;
 #
 [
 derive
@@ -654,7 +660,7 @@ self
 >
 Option
 <
-CGFont
+NativeFontHandle
 >
 {
 self
@@ -671,10 +677,13 @@ map
 |
 ctfont
 |
+NativeFontHandle
+(
 ctfont
 .
 copy_to_CGFont
 (
+)
 )
 )
 }
