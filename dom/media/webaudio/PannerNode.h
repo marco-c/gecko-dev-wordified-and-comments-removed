@@ -14,13 +14,6 @@ h
 #
 include
 "
-AudioParam
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -42,6 +35,13 @@ include
 mozilla
 /
 WeakPtr
+.
+h
+"
+#
+include
+"
+WebAudioUtils
 .
 h
 "
