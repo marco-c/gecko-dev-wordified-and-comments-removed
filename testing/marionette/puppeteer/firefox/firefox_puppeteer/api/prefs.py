@@ -861,13 +861,30 @@ jsm
 ;
               
 let
-[
 pref_name
-value
-default_branch
-]
 =
 arguments
+[
+0
+]
+;
+              
+let
+value
+=
+arguments
+[
+1
+]
+;
+              
+let
+default_branch
+=
+arguments
+[
+2
+]
 ;
               
 let
