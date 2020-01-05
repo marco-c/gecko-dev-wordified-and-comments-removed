@@ -42242,6 +42242,7 @@ fn
 fun
 directives
 NotGenerator
+SyncFunction
 false
 )
 ;
