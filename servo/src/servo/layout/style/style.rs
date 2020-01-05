@@ -37,12 +37,12 @@ base
 :
 :
 {
+Element
 HTMLDivElement
 HTMLHeadElement
 HTMLImageElement
-Element
+Node
 Text
-node
 }
 ;
 import
@@ -287,7 +287,7 @@ rand_color
 impl
 style_priv
 for
-node
+Node
 {
 #
 [
@@ -409,7 +409,7 @@ the_layout_data
 impl
 style_methods
 for
-node
+Node
 {
 #
 [

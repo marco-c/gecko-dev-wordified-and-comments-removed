@@ -20,7 +20,7 @@ base
 {
 HTMLImageElement
 Element
-node
+Node
 }
 ;
 import

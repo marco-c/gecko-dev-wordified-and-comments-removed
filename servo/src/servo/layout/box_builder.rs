@@ -25,7 +25,7 @@ HTMLDivElement
 HTMLImageElement
 Element
 Text
-node
+Node
 }
 ;
 import
@@ -154,7 +154,7 @@ scanning
 .
 parent_node
 :
-node
+Node
 /
 /
 The
@@ -171,6 +171,8 @@ to
 parent_box
 :
 box
+/
+/
 /
 /
 The
@@ -201,6 +203,8 @@ CSS2
 .
 1
 .
+/
+/
 mut
 anon_box
 :
@@ -215,7 +219,7 @@ new_box
 (
 n
 :
-node
+Node
 kind
 :
 box_kind
@@ -263,7 +267,7 @@ create_context
 (
 parent_node
 :
-node
+Node
 parent_box
 :
 box
@@ -902,7 +906,7 @@ none
 impl
 box_builder_priv
 for
-node
+Node
 {
 #
 [
@@ -1007,7 +1011,7 @@ bk_inline
 impl
 box_builder_methods
 for
-node
+Node
 {
 #
 [

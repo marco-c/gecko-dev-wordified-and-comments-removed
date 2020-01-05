@@ -81,7 +81,7 @@ dom
 base
 :
 :
-node
+Node
 ;
 import
 dom
@@ -159,7 +159,7 @@ Msg
 {
 BuildMsg
 (
-node
+Node
 stylesheet
 )
 PingMsg

@@ -62,7 +62,7 @@ tree
 :
 fields
 <
-node
+Node
 >
 kind
 :
@@ -309,7 +309,7 @@ node
 "
 ]
 type
-node
+Node
 =
 rcu
 :
@@ -362,7 +362,7 @@ node_kind
 )
 -
 >
-node
+Node
 {
 self
 .
@@ -395,7 +395,7 @@ tree
 :
 rd_tree_ops
 <
-node
+Node
 >
 for
 node_scope
@@ -405,12 +405,12 @@ each_child
 (
 node
 :
-node
+Node
 f
 :
 fn
 (
-node
+Node
 )
 -
 >
@@ -432,13 +432,13 @@ get_parent
 (
 node
 :
-node
+Node
 )
 -
 >
 option
 <
-node
+Node
 >
 {
 tree
@@ -458,7 +458,7 @@ R
 (
 node
 :
-node
+Node
 f
 :
 fn
@@ -468,7 +468,7 @@ tree
 :
 fields
 <
-node
+Node
 >
 )
 -
@@ -505,7 +505,7 @@ tree
 :
 wr_tree_ops
 <
-node
+Node
 >
 for
 node_scope
@@ -515,10 +515,10 @@ add_child
 (
 node
 :
-node
+Node
 child
 :
-node
+Node
 )
 {
 tree
@@ -539,7 +539,7 @@ R
 (
 node
 :
-node
+Node
 f
 :
 fn
@@ -549,7 +549,7 @@ tree
 :
 fields
 <
-node
+Node
 >
 )
 -

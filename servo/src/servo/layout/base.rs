@@ -35,7 +35,7 @@ base
 :
 :
 {
-node
+Node
 }
 ;
 import
@@ -232,7 +232,7 @@ box
 >
 node
 :
-node
+Node
 mut
 bounds
 :
@@ -277,7 +277,7 @@ tree
 :
 rd_tree_ops
 <
-node
+Node
 >
 for
 ntree
@@ -287,12 +287,12 @@ each_child
 (
 node
 :
-node
+Node
 f
 :
 fn
 (
-node
+Node
 )
 -
 >
@@ -319,7 +319,7 @@ R
 &
 n
 :
-node
+Node
 f
 :
 fn
@@ -329,7 +329,7 @@ tree
 :
 fields
 <
-node
+Node
 >
 )
 -
@@ -780,7 +780,7 @@ Debugging
 impl
 node_methods_priv
 for
-node
+Node
 {
 #
 [
@@ -894,7 +894,7 @@ indent
 impl
 node_methods
 for
-node
+Node
 {
 #
 [
@@ -961,7 +961,7 @@ base
 :
 :
 {
-node
+Node
 node_kind
 wr_tree_ops
 }
