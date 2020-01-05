@@ -72,14 +72,6 @@ pyflakes
 8
 .
 1
-mako
-=
-=
-0
-.
-9
-.
-1
 #
 For
 test
