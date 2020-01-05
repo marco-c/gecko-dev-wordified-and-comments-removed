@@ -64,6 +64,15 @@ MPL
 "
 ]
 ;
+#
+[
+crate_type
+=
+"
+lib
+"
+]
+;
 use
 std
 ;
