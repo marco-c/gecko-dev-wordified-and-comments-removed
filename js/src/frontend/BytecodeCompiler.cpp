@@ -3672,7 +3672,7 @@ compiler
 compileStandaloneFunction
 (
 fun
-StarGenerator
+NotGenerator
 AsyncFunction
 parameterListEnd
 )

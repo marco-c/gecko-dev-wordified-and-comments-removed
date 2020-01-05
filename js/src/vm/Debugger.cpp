@@ -7435,6 +7435,14 @@ callee
 isStarGenerator
 (
 )
+|
+|
+callee
+-
+>
+isAsync
+(
+)
 )
 {
 if

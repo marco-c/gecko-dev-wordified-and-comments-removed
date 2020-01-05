@@ -581,7 +581,7 @@ MOZ_ASSERT
 unwrapped
 -
 >
-isStarGenerator
+isAsync
 (
 )
 )
