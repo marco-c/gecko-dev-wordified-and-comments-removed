@@ -1314,6 +1314,13 @@ h
 '
 wr
 /
+WebRenderAPI
+.
+h
+'
+'
+wr
+/
 WebRenderBridgeChild
 .
 h
@@ -2481,6 +2488,13 @@ cpp
 wr
 /
 RenderThread
+.
+cpp
+'
+'
+wr
+/
+WebRenderAPI
 .
 cpp
 '

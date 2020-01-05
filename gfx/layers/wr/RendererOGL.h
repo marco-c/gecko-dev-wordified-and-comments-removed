@@ -73,8 +73,10 @@ RendererOGL
 public
 :
 static
+UniquePtr
+<
 RendererOGL
-*
+>
 Create
 (
 already_AddRefed
