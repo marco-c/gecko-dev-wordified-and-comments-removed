@@ -509,10 +509,9 @@ win
 ;
 if
 (
-!
 element
 .
-isPointerInteractable
+isObscured
 (
 containerEl
 )
