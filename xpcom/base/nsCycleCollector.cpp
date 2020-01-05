@@ -67,6 +67,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSRuntime
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -15443,6 +15452,11 @@ mJSContext
 )
 {
 mJSContext
+-
+>
+Runtime
+(
+)
 -
 >
 CheckGrayBits

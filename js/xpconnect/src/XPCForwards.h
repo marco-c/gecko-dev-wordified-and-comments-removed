@@ -11,6 +11,9 @@ class
 XPCJSContext
 ;
 class
+XPCJSRuntime
+;
+class
 XPCContext
 ;
 class

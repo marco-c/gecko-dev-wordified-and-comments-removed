@@ -123,6 +123,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSRuntime
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EndianUtils
 .
 h

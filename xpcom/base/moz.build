@@ -512,6 +512,11 @@ CycleCollectedJSContext
 h
 '
 '
+CycleCollectedJSRuntime
+.
+h
+'
+'
 Debug
 .
 h
@@ -656,6 +661,11 @@ cpp
 '
 '
 CycleCollectedJSContext
+.
+cpp
+'
+'
+CycleCollectedJSRuntime
 .
 cpp
 '

@@ -319,7 +319,7 @@ true
 mozilla
 :
 :
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 .
 DescribeCustomObjects
 "
@@ -329,7 +329,7 @@ true
 mozilla
 :
 :
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 .
 NoteCustomGCThingXPCOMChildren
 "

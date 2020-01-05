@@ -24,7 +24,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 .
 h
 "
