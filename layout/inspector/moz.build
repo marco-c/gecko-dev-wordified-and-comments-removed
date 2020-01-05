@@ -209,11 +209,6 @@ inLayoutUtils
 cpp
 '
 '
-inSearchLoop
-.
-cpp
-'
-'
 nsFontFace
 .
 cpp
