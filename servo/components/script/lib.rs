@@ -179,6 +179,14 @@ heapsize_plugin
 [
 plugin
 (
+phf_macros
+)
+]
+#
+!
+[
+plugin
+(
 plugins
 )
 ]
@@ -289,6 +297,10 @@ num
 extern
 crate
 offscreen_gl_context
+;
+extern
+crate
+phf
 ;
 #
 [
