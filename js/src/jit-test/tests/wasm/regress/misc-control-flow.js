@@ -578,7 +578,7 @@ param
 i32
 )
 (
-call_import
+call
 0
 (
 get_local
@@ -597,7 +597,7 @@ param
 i32
 )
 (
-call_import
+call
 1
 (
 get_local

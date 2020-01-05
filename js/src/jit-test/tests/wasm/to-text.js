@@ -2388,7 +2388,7 @@ const
 )
 )
 (
-call_import
+call
 import1
 (
 f32

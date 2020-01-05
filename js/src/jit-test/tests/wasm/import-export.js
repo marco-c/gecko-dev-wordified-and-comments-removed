@@ -5102,7 +5102,7 @@ wrap
 /
 i64
 (
-call_import
+call
 i
 (
 i64

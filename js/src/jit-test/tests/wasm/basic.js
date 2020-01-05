@@ -1117,7 +1117,7 @@ result
 i32
 )
 (
-call_import
+call
 imp
 (
 i64
@@ -1196,7 +1196,7 @@ result
 i64
 )
 (
-call_import
+call
 imp
 )
 )
@@ -4464,7 +4464,7 @@ a
 (
 func
 (
-call_import
+call
 0
 (
 i32
@@ -4509,7 +4509,7 @@ i32
 (
 func
 (
-call_import
+call
 0
 )
 )
@@ -4545,7 +4545,7 @@ f32
 (
 func
 (
-call_import
+call
 0
 (
 i32
@@ -4590,7 +4590,7 @@ a
 (
 func
 (
-call_import
+call
 1
 )
 )
@@ -4617,7 +4617,7 @@ a
 (
 func
 (
-call_import
+call
 0
 )
 )
@@ -4660,7 +4660,7 @@ i32
 (
 func
 (
-call_import
+call
 0
 (
 i32
@@ -4719,7 +4719,7 @@ result
 f32
 )
 (
-call_import
+call
 0
 )
 )
@@ -4782,7 +4782,7 @@ param
 f32
 )
 (
-call_import
+call
 0
 (
 get_local
@@ -4890,7 +4890,7 @@ inc
 (
 func
 (
-call_import
+call
 0
 )
 )
@@ -4947,11 +4947,11 @@ func
 (
 block
 (
-call_import
+call
 0
 )
 (
-call_import
+call
 0
 )
 )
@@ -5019,7 +5019,7 @@ callf
 (
 func
 (
-call_import
+call
 0
 )
 )
@@ -5086,7 +5086,7 @@ callg
 (
 func
 (
-call_import
+call
 0
 )
 )
@@ -5141,7 +5141,7 @@ callf
 (
 func
 (
-call_import
+call
 0
 )
 )
@@ -5299,7 +5299,7 @@ BODY
 '
 '
 (
-call_import
+call
 0
 )
 '
@@ -5319,7 +5319,7 @@ BODY
 '
 '
 (
-call_import
+call
 1
 )
 '
@@ -5395,7 +5395,7 @@ result
 i32
 )
 (
-call_import
+call
 0
 (
 i32
@@ -5581,7 +5581,7 @@ result
 i32
 )
 (
-call_import
+call
 0
 (
 i64
@@ -5658,7 +5658,7 @@ result
 i32
 )
 (
-call_import
+call
 0
 (
 i64
@@ -5749,7 +5749,7 @@ result
 i64
 )
 (
-call_import
+call
 0
 (
 i32
@@ -5848,7 +5848,7 @@ in
 set_local
 1
 (
-call_import
+call
 0
 (
 i64
@@ -5980,7 +5980,7 @@ in
 set_local
 1
 (
-call_import
+call
 0
 (
 i64
@@ -6641,7 +6641,7 @@ f
 func
 a
 (
-call_import
+call
 foo
 )
 )
@@ -6950,7 +6950,7 @@ a
 (
 func
 (
-call_import
+call
 bar
 )
 )
@@ -7405,11 +7405,11 @@ i32
 (
 select
 (
-call_import
+call
 0
 )
 (
-call_import
+call
 1
 )
 (

@@ -3513,7 +3513,7 @@ result
 i32
 )
 (
-call_import
+call
 f
 (
 i32
