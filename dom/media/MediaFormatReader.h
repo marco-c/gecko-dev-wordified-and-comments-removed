@@ -1695,7 +1695,7 @@ mOriginalInfo
 ;
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mInfo
 ;

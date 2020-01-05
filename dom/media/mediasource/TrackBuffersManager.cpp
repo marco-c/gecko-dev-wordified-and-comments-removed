@@ -4737,7 +4737,7 @@ mAudioTracks
 mInfo
 =
 new
-SharedTrackInfo
+TrackInfoSharedPtr
 (
 info
 .
@@ -4785,7 +4785,7 @@ mVideoTracks
 mInfo
 =
 new
-SharedTrackInfo
+TrackInfoSharedPtr
 (
 info
 .
@@ -4824,7 +4824,7 @@ mAudioTracks
 mLastInfo
 =
 new
-SharedTrackInfo
+TrackInfoSharedPtr
 (
 info
 .
@@ -4837,7 +4837,7 @@ mVideoTracks
 mLastInfo
 =
 new
-SharedTrackInfo
+TrackInfoSharedPtr
 (
 info
 .

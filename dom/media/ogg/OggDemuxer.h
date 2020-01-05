@@ -995,7 +995,7 @@ mOnSeekableEvent
 ;
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mSharedAudioTrackInfo
 ;

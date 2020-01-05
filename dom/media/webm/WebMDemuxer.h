@@ -907,7 +907,7 @@ mLastSeenFrameHeight
 ;
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mSharedVideoTrackInfo
 ;

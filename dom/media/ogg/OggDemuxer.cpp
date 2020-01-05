@@ -4024,7 +4024,7 @@ mInfo
 mSharedAudioTrackInfo
 =
 new
-SharedTrackInfo
+TrackInfoSharedPtr
 (
 mInfo
 .

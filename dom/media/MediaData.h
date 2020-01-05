@@ -130,7 +130,7 @@ class
 MediaByteBuffer
 ;
 class
-SharedTrackInfo
+TrackInfoSharedPtr
 ;
 template
 <
@@ -2115,7 +2115,7 @@ mDiscardPadding
 ;
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mTrackInfo
 ;

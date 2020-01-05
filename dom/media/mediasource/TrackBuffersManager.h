@@ -1260,13 +1260,13 @@ mSizeBuffer
 ;
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mInfo
 ;
 RefPtr
 <
-SharedTrackInfo
+TrackInfoSharedPtr
 >
 mLastInfo
 ;
