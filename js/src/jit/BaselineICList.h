@@ -257,11 +257,6 @@ SetProp_NativeAdd
 \
 _
 (
-SetProp_Unboxed
-)
-\
-_
-(
 SetProp_TypedObject
 )
 \
