@@ -2520,6 +2520,14 @@ case
 Animatable
 :
 :
+Tnull_t
+:
+break
+;
+case
+Animatable
+:
+:
 TArrayOfTransformFunction
 :
 {
@@ -2752,7 +2760,7 @@ type
 )
 !
 =
-BaseAnimationStyle
+Animatable
 :
 :
 Tnull_t
@@ -2765,10 +2773,6 @@ ToStyleAnimationValue
 animation
 .
 baseStyle
-(
-)
-.
-get_Animatable
 (
 )
 )
