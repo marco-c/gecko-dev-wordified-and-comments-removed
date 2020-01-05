@@ -156,13 +156,13 @@ namespace
 dom
 {
 class
+BlobCallback
+;
+class
 CanvasCaptureMediaStream
 ;
 class
 File
-;
-class
-FileCallback
 ;
 class
 HTMLCanvasPrintState
@@ -574,7 +574,7 @@ ToBlob
 JSContext
 *
 aCx
-FileCallback
+BlobCallback
 &
 aCallback
 const

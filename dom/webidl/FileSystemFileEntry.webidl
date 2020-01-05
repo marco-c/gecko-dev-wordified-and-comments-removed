@@ -93,14 +93,13 @@ MPL
 /
 callback
 interface
-BlobCallback
+FileCallback
 {
 void
 handleEvent
 (
-Blob
-?
-blob
+File
+file
 )
 ;
 }
@@ -154,7 +153,7 @@ GetFile
 void
 file
 (
-BlobCallback
+FileCallback
 successCallback
 optional
 ErrorCallback

@@ -22,10 +22,10 @@ namespace
 dom
 {
 class
-BlobCallback
+File
 ;
 class
-File
+FileCallback
 ;
 class
 FileSystemDirectoryEntry
@@ -143,7 +143,7 @@ const
 void
 GetFile
 (
-BlobCallback
+FileCallback
 &
 aSuccessCallback
 const

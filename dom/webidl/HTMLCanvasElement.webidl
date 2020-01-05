@@ -229,7 +229,7 @@ Throws
 void
 toBlob
 (
-FileCallback
+BlobCallback
 _callback
 optional
 DOMString
@@ -409,11 +409,11 @@ ctx
 )
 ;
 callback
-FileCallback
+BlobCallback
 =
 void
 (
 Blob
-file
+blob
 )
 ;
