@@ -88,6 +88,8 @@ MPL
 DevToolsModules
 (
 '
+deprecated
+-
 box
 -
 model
