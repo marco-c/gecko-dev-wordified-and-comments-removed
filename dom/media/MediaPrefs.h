@@ -349,6 +349,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+LINUX
+)
 DECL_MEDIA_PREF
 (
 "
