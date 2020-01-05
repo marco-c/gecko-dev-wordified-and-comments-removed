@@ -11,7 +11,7 @@ dom
 node
 :
 :
-LayoutData
+OpaqueStyleAndLayoutData
 ;
 use
 euclid
@@ -262,9 +262,9 @@ Au
 )
 >
 )
-ReapLayoutData
+ReapStyleAndLayoutData
 (
-LayoutData
+OpaqueStyleAndLayoutData
 )
 CollectReports
 (

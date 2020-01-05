@@ -98,6 +98,15 @@ std
 mem
 ;
 use
+style
+:
+:
+dom
+:
+:
+UnsafeNode
+;
+use
 util
 :
 :
@@ -118,14 +127,6 @@ wrapper
 :
 {
 LayoutNode
-UnsafeLayoutNode
-}
-;
-use
-wrapper
-:
-:
-{
 ThreadSafeLayoutNode
 }
 ;
@@ -149,7 +150,7 @@ Box
 <
 BloomFilter
 >
-UnsafeLayoutNode
+UnsafeNode
 Generation
 )
 >
@@ -396,7 +397,7 @@ BloomFilter
 unsafe_node
 :
 &
-UnsafeLayoutNode
+UnsafeNode
 layout_context
 :
 &
@@ -749,7 +750,7 @@ ConcreteLayoutNode
 {
 node
 .
-initialize_layout_data
+initialize_data
 (
 )
 ;
