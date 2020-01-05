@@ -10378,7 +10378,6 @@ Image
 Gradient
 GradientKind
 GradientShape
-Length
 LengthOrKeyword
 }
 ;
@@ -10389,10 +10388,7 @@ values
 computed
 :
 :
-{
-LengthOrPercentage
 LengthOrPercentageOrKeyword
-}
 ;
 use
 values
@@ -13555,18 +13551,6 @@ computed_value
 T
 )
 {
-use
-values
-:
-:
-computed
-:
-:
-LengthOrPercentage
-:
-:
-*
-;
 match
 v
 .

@@ -131,7 +131,15 @@ plugins
 [
 deny
 (
-unsafe_code
+warnings
+)
+]
+#
+!
+[
+allow
+(
+unused_unsafe
 )
 ]
 #

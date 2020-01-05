@@ -720,8 +720,9 @@ n
                  
 "
 pub
+unsafe
 fn
-unsafe_atom_from_static
+atom_from_static
 (
 ptr
 :
@@ -738,8 +739,6 @@ n
 "
                  
 "
-unsafe
-{
 Atom
 :
 :
@@ -747,7 +746,6 @@ from_static
 (
 ptr
 )
-}
 \
 n
 "
@@ -862,9 +860,17 @@ atom
 )
 =
 >
+\
+n
 '
                  
 '
+{
+{
+'
+                 
+'
+unsafe
 {
 {
 crate
@@ -876,7 +882,7 @@ string_cache
 atom_macro
 :
 :
-unsafe_atom_from_static
+atom_from_static
 '
                  
 '
@@ -898,6 +904,11 @@ as
 mut
 _
 )
+}
+}
+'
+                 
+'
 }
 }
 ;
