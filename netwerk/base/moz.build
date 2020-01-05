@@ -818,11 +818,6 @@ nsNetUtil
 h
 '
 '
-nsNetUtilInlines
-.
-h
-'
-'
 nsReadLine
 .
 h
