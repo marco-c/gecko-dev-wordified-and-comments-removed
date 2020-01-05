@@ -234,10 +234,7 @@ use
 storage_thread
 :
 :
-{
-StorageThread
 StorageThreadMsg
-}
 ;
 use
 url
@@ -839,7 +836,10 @@ core_thread
 CoreResourceThread
 storage_thread
 :
-StorageThread
+IpcSender
+<
+StorageThreadMsg
+>
 }
 impl
 ResourceThreads
@@ -853,7 +853,10 @@ c
 CoreResourceThread
 s
 :
-StorageThread
+IpcSender
+<
+StorageThreadMsg
+>
 )
 -
 >

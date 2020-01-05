@@ -136,12 +136,3 @@ StorageType
 )
 Exit
 }
-pub
-type
-StorageThread
-=
-IpcSender
-<
-StorageThreadMsg
->
-;

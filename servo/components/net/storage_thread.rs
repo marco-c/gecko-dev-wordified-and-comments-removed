@@ -19,7 +19,6 @@ storage_thread
 :
 :
 {
-StorageThread
 StorageThreadMsg
 StorageType
 }
@@ -102,7 +101,10 @@ Self
 impl
 StorageThreadFactory
 for
-StorageThread
+IpcSender
+<
+StorageThreadMsg
+>
 {
 fn
 new
@@ -110,7 +112,10 @@ new
 )
 -
 >
-StorageThread
+IpcSender
+<
+StorageThreadMsg
+>
 {
 let
 (
