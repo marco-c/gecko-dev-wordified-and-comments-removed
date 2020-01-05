@@ -245,5 +245,7 @@ module
 .
 exports
 =
+{
+TimingMarkers
 timingMarkers
-;
+}

@@ -139,5 +139,7 @@ module
 .
 exports
 =
+{
+Sort
 sortReducer
-;
+}

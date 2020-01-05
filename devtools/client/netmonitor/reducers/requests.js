@@ -989,5 +989,7 @@ module
 .
 exports
 =
+{
+Requests
 requestsReducer
-;
+}
