@@ -377,6 +377,15 @@ pdqsort
 .
 0
 "
+precomputed
+-
+hash
+=
+"
+0
+.
+1
+"
 rayon
 =
 "

@@ -26,6 +26,10 @@ extern
 crate
 fnv
 ;
+extern
+crate
+precomputed_hash
+;
 pub
 mod
 bloom
