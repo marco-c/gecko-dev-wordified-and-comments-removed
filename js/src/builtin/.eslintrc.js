@@ -32,6 +32,17 @@ js
 "
 ]
 "
+plugins
+"
+:
+[
+"
+spidermonkey
+-
+js
+"
+]
+"
 rules
 "
 :
