@@ -174,6 +174,15 @@ Async
 \
 macro
 (
+await
+await
+"
+await
+"
+)
+\
+macro
+(
 Bool8x16
 Bool8x16
 "

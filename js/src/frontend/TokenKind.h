@@ -598,6 +598,17 @@ yield
 \
 macro
 (
+AWAIT
+"
+keyword
+'
+await
+'
+"
+)
+\
+macro
+(
 EXPORT
 "
 keyword
