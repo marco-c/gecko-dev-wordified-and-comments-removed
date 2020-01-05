@@ -80,7 +80,7 @@ em
 :
 id
 >
-bootstrap1
+bootstrap3
 tests
 .
 mozilla
@@ -119,18 +119,6 @@ em
 bootstrap
 >
 <
-em
-:
-multiprocessCompatible
->
-true
-<
-/
-em
-:
-multiprocessCompatible
->
-<
 !
 -
 -
@@ -147,7 +135,7 @@ name
 >
 Test
 Bootstrap
-1
+3
 <
 /
 em
