@@ -107,7 +107,7 @@ use
 dom
 :
 :
-browsingcontext
+windowproxy
 ;
 use
 heapsize
@@ -425,7 +425,7 @@ GlobalStaticData
 {
 windowproxy_handler
 :
-browsingcontext
+windowproxy
 :
 :
 new_window_proxy_handler
