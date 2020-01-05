@@ -28,16 +28,6 @@ common
 "
 topsrcdir
 /
-build
-/
-mozconfig
-.
-rust
-"
-.
-"
-topsrcdir
-/
 mobile
 /
 android

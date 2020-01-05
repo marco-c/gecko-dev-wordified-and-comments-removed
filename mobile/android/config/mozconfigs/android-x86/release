@@ -12,16 +12,6 @@ mozconfigs
 /
 common
 "
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
-rust
-"
 #
 Android
 ac_add_options

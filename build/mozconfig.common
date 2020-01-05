@@ -201,3 +201,13 @@ mozconfig
 .
 automation
 "
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+rust
+"
