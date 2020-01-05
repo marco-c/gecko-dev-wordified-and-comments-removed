@@ -365,13 +365,6 @@ aRegion
 )
 override
 ;
-virtual
-bool
-RecvTakeFocusForClickFromTap
-(
-)
-override
-;
 private
 :
 void
