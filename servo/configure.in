@@ -251,16 +251,6 @@ js
 src
 /
 configure
--
--
-enable
--
-debug
--
--
-disable
--
-optimize
 )
 |
 |
