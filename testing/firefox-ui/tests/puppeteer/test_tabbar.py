@@ -535,11 +535,6 @@ tabs
 [
 0
 ]
-trigger
-=
-"
-button
-"
 )
         
 self

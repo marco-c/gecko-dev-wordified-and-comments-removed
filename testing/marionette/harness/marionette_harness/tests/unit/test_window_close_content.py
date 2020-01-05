@@ -438,20 +438,6 @@ start_tabs
 window_handles
 )
     
-skip_if_mobile
-(
-"
-Interacting
-with
-chrome
-windows
-not
-available
-for
-Fennec
-"
-)
-    
 def
 test_close_window_for_browser_window_with_single_tab
 (
