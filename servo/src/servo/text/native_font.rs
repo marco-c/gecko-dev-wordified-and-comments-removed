@@ -58,13 +58,13 @@ NativeFont
 create
 ;
 use
-font_library
+font_cache
 :
 :
 native
 :
 :
-NativeFontLibrary
+NativeFontCache
 ;
 #
 [
@@ -125,7 +125,7 @@ create
 _native_lib
 :
 &
-NativeFontLibrary
+NativeFontCache
 buf
 :
 ~
@@ -167,7 +167,7 @@ create
 native_lib
 :
 &
-NativeFontLibrary
+NativeFontCache
 buf
 :
 ~

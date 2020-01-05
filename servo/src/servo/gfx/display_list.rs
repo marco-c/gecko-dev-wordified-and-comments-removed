@@ -48,6 +48,12 @@ base
 Image
 ;
 use
+render_task
+:
+:
+RenderContext
+;
+use
 std
 :
 :
@@ -88,7 +94,7 @@ DisplayItem
 )
 (
 &
-DrawTarget
+RenderContext
 )
 )
 bounds
@@ -221,7 +227,7 @@ DisplayItem
 ctx
 :
 &
-DrawTarget
+RenderContext
 )
 {
 match
@@ -264,7 +270,7 @@ DisplayItem
 ctx
 :
 &
-DrawTarget
+RenderContext
 )
 {
 match
@@ -303,7 +309,7 @@ DisplayItem
 ctx
 :
 &
-DrawTarget
+RenderContext
 )
 {
 match
@@ -523,7 +529,7 @@ draw
 ctx
 :
 &
-DrawTarget
+RenderContext
 )
 ;
 }
@@ -538,7 +544,7 @@ draw
 ctx
 :
 &
-DrawTarget
+RenderContext
 )
 {
 for

@@ -42,10 +42,10 @@ c_void
 }
 ;
 use
-font_library
+font_cache
 :
 :
-FontLibrary
+FontCache
 ;
 use
 font
@@ -922,7 +922,7 @@ test_calc_min_break_width1
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -977,7 +977,7 @@ test_calc_min_break_width2
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1033,7 +1033,7 @@ test_calc_min_break_width3
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1089,7 +1089,7 @@ test_calc_min_break_width4
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1146,7 +1146,7 @@ test_iter_indivisible_slices
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1219,7 +1219,7 @@ test_iter_indivisible_slices_trailing_whitespace
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1284,7 +1284,7 @@ test_iter_indivisible_slices_leading_whitespace
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1349,7 +1349,7 @@ test_iter_indivisible_slices_empty
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1410,7 +1410,7 @@ test_split
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1494,7 +1494,7 @@ test_split2
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1586,7 +1586,7 @@ test_split3
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1692,7 +1692,7 @@ should_calculate_the_total_size
 let
 flib
 =
-FontLibrary
+FontCache
 (
 )
 ;

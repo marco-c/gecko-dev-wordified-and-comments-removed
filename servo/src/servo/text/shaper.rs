@@ -83,10 +83,10 @@ point
 Point2D
 ;
 use
-font_library
+font_cache
 :
 :
-FontLibrary
+FontCache
 ;
 use
 unsafe
@@ -911,7 +911,7 @@ metrics
 let
 lib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -1005,7 +1005,7 @@ metrics
 let
 lib
 =
-FontLibrary
+FontCache
 (
 )
 ;

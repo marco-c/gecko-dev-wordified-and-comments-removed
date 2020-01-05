@@ -204,6 +204,9 @@ mod
 box_builder
 ;
 mod
+context
+;
+mod
 debug
 ;
 mod
@@ -303,10 +306,10 @@ export
 text_run
 ;
 export
-font_library
+font
 ;
 export
-font
+font_cache
 ;
 export
 shaper
@@ -315,7 +318,7 @@ mod
 font
 ;
 mod
-font_library
+font_cache
 ;
 mod
 glyph

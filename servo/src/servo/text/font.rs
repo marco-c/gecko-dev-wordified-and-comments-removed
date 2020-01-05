@@ -1,3 +1,10 @@
+pub
+use
+font_cache
+:
+:
+FontCache
+;
 export
 Font
 FontMetrics
@@ -46,12 +53,6 @@ native_font
 :
 NativeFont
 ;
-use
-font_library
-:
-:
-FontLibrary
-;
 #
 [
 doc
@@ -96,7 +97,7 @@ library
 alive
 lib
 :
-FontLibrary
+FontCache
 fontbuf
 :
 ~
@@ -200,7 +201,7 @@ Font
 (
 lib
 :
-FontLibrary
+FontCache
 fontbuf
 :
 ~
@@ -333,7 +334,7 @@ should_fail
 let
 lib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -362,7 +363,7 @@ test
 let
 lib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -410,7 +411,7 @@ test
 let
 lib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -497,7 +498,7 @@ spawn
 let
 lib
 =
-FontLibrary
+FontCache
 (
 )
 ;
@@ -580,7 +581,7 @@ spawn
 let
 lib
 =
-FontLibrary
+FontCache
 (
 )
 ;
