@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h
@@ -248,7 +241,7 @@ BgHangMonitor
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 BgHangManager

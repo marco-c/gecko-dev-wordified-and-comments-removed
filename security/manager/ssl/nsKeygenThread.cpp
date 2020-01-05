@@ -420,7 +420,7 @@ Keygen
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 Keygen

@@ -89,13 +89,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StackWalk
@@ -796,7 +789,7 @@ Monitor
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 Hang

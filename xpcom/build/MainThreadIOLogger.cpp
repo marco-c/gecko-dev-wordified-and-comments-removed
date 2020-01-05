@@ -62,13 +62,6 @@ h
 "
 #
 include
-"
-nsThreadUtils
-.
-h
-"
-#
-include
 <
 prenv
 .
@@ -404,7 +397,7 @@ MainThreadIOLogger
 "
 )
 ;
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 MainThreadIOLogger

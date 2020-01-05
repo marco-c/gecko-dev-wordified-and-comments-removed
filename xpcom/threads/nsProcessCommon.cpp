@@ -936,7 +936,7 @@ process
 mBlocking
 )
 {
-NS_SetCurrentThreadName
+PR_SetCurrentThreadName
 (
 "
 RunProcess
