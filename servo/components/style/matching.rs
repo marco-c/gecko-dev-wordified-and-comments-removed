@@ -1779,11 +1779,9 @@ return
 if
 box_style
 .
-animation_name_count
+specifies_animations
 (
 )
->
-0
 {
 debug
 !
