@@ -530,7 +530,7 @@ GetStringFromName
 "
 addonDebugging
 .
-label2
+label
 "
 )
 )
