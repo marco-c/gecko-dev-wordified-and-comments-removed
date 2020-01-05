@@ -2802,21 +2802,6 @@ error_level
 WARNING
 )
             
-else
-:
-                
-self
-.
-mkdir_p
-(
-dirs
-[
-'
-abs_work_dir
-'
-]
-)
-            
 for
 module
 in
@@ -2939,6 +2924,18 @@ query_python_path
         
 else
 :
+            
+self
+.
+mkdir_p
+(
+dirs
+[
+'
+abs_work_dir
+'
+]
+)
             
 self
 .
