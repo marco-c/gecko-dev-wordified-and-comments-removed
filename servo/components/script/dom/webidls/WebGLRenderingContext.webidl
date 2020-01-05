@@ -3540,8 +3540,6 @@ WebGLBuffer
 buffer
 )
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]
