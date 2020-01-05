@@ -123,12 +123,6 @@ function
 (
 )
 {
-this
-.
-stopRecording
-(
-)
-;
 }
 resetCounts
 :
