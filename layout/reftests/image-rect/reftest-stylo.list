@@ -293,7 +293,7 @@ zoom
 4
 .
 html
-fails
+skip
 =
 =
 dom
@@ -317,7 +317,7 @@ html
 #
 Bug
 1341763
-fails
+skip
 =
 =
 dom
