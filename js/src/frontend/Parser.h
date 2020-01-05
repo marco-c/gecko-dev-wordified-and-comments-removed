@@ -4080,7 +4080,7 @@ inHandling
 )
 ;
 Node
-condExpr1
+condExpr
 (
 InHandling
 inHandling
@@ -4098,7 +4098,7 @@ PredictUninvoked
 )
 ;
 Node
-orExpr1
+orExpr
 (
 InHandling
 inHandling
@@ -4677,11 +4677,6 @@ outerpc
 bool
 matchOrInsertSemicolonHelper
 (
-TokenStream
-:
-:
-Modifier
-modifier
 )
 ;
 bool
