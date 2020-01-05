@@ -6527,9 +6527,6 @@ false
 ;
 if
 (
-fd
-&
-&
 mFastOpenCallback
 &
 &
