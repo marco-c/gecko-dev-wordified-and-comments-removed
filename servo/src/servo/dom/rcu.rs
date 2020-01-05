@@ -595,7 +595,7 @@ import
 ptr
 :
 :
-ptr
+Ptr
 ;
 import
 vec

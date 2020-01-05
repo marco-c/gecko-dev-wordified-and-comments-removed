@@ -1417,7 +1417,7 @@ input_port
 comm
 :
 :
-port
+Port
 <
 ProgressMsg
 >
@@ -1468,7 +1468,7 @@ input_port
 comm
 :
 :
-port
+Port
 <
 ProgressMsg
 >

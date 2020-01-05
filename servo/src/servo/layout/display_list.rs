@@ -47,7 +47,7 @@ import
 dvec
 :
 :
-dvec
+DVec
 ;
 enum
 item_type
@@ -97,7 +97,7 @@ au
 type
 display_list
 =
-dvec
+DVec
 <
 display_item
 >

@@ -141,7 +141,7 @@ content
 comm
 :
 :
-chan
+Chan
 <
 content
 :
@@ -245,7 +245,7 @@ start
 comm
 :
 :
-chan
+Chan
 <
 Msg
 >

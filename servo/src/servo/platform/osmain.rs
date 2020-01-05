@@ -69,7 +69,10 @@ import
 dvec
 :
 :
+{
+DVec
 dvec
+}
 ;
 import
 azure
@@ -129,7 +132,7 @@ import
 task
 :
 :
-task_builder
+TaskBuilder
 ;
 import
 vec
@@ -149,7 +152,7 @@ OSMain
 comm
 :
 :
-chan
+Chan
 <
 Msg
 >
@@ -194,7 +197,7 @@ AddEventListener
 comm
 :
 :
-chan
+Chan
 <
 Event
 >
@@ -260,7 +263,7 @@ Msg
 let
 key_handlers
 :
-dvec
+DVec
 <
 pipes
 :
@@ -279,12 +282,12 @@ dvec
 let
 event_listeners
 :
-dvec
+DVec
 <
 comm
 :
 :
-chan
+Chan
 <
 Event
 >
@@ -905,7 +908,7 @@ listener
 comm
 :
 :
-chan
+Chan
 <
 Event
 >
@@ -1266,7 +1269,7 @@ fn
 comm
 :
 :
-port
+Port
 <
 T
 >
@@ -1277,7 +1280,7 @@ T
 comm
 :
 :
-chan
+Chan
 <
 T
 >
@@ -1294,7 +1297,7 @@ sched_mode
 task
 :
 :
-platform_thread
+PlatformThread
 )
 .
 spawn_listener

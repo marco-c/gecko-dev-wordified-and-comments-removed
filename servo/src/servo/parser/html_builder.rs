@@ -622,7 +622,7 @@ to_parent
 comm
 :
 :
-chan
+Chan
 <
 Stylesheet
 >
@@ -631,7 +631,7 @@ from_parent
 comm
 :
 :
-port
+Port
 <
 CSSMessage
 >
@@ -811,7 +811,7 @@ to_parent
 comm
 :
 :
-chan
+Chan
 <
 ~
 [
@@ -826,7 +826,7 @@ from_parent
 comm
 :
 :
-port
+Port
 <
 js_message
 >
@@ -1086,7 +1086,7 @@ stream
 comm
 :
 :
-port
+Port
 <
 Token
 >
@@ -1104,14 +1104,14 @@ Node
 comm
 :
 :
-port
+Port
 <
 Stylesheet
 >
 comm
 :
 :
-port
+Port
 <
 ~
 [

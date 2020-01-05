@@ -159,7 +159,7 @@ Renderer
 comm
 :
 :
-chan
+Chan
 <
 Msg
 >
@@ -269,7 +269,7 @@ listener
 comm
 :
 :
-chan
+Chan
 <
 Event
 >
@@ -295,7 +295,7 @@ S
 comm
 :
 :
-chan
+Chan
 <
 Msg
 >
@@ -311,7 +311,7 @@ po
 comm
 :
 :
-port
+Port
 <
 Msg
 >

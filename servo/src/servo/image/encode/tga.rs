@@ -8,7 +8,7 @@ import
 io
 :
 :
-writer_util
+WriterUtil
 ;
 fn
 encode
@@ -18,7 +18,7 @@ writer
 io
 :
 :
-writer
+Writer
 surface
 :
 surface

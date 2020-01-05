@@ -120,7 +120,10 @@ import
 dvec
 :
 :
+{
+DVec
 dvec
+}
 ;
 import
 ptr
@@ -187,7 +190,7 @@ ElementKind
 let
 attrs
 :
-dvec
+DVec
 <
 ~
 Attr

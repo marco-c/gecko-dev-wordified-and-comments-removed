@@ -208,9 +208,9 @@ either
 :
 :
 {
-either
-left
-right
+Either
+Left
+Right
 }
 ;
 import
@@ -450,7 +450,7 @@ from_master
 comm
 :
 :
-port
+Port
 <
 ControlMsg
 >
@@ -461,7 +461,7 @@ event_port
 comm
 :
 :
-port
+Port
 <
 Event
 >
@@ -629,7 +629,7 @@ handle_msg
 (
 msg
 :
-either
+Either
 <
 ControlMsg
 Event
@@ -642,7 +642,7 @@ bool
 match
 msg
 {
-left
+Left
 (
 control_msg
 )
@@ -654,7 +654,7 @@ handle_control_msg
 (
 control_msg
 )
-right
+Right
 (
 event
 )

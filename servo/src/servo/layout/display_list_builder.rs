@@ -43,8 +43,8 @@ either
 :
 :
 {
-left
-right
+Left
+Right
 }
 ;
 import

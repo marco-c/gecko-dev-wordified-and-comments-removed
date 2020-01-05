@@ -458,7 +458,7 @@ io
 :
 :
 {
-writer
+Writer
 buffered_file_writer
 }
 ;
