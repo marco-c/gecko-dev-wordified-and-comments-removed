@@ -76,6 +76,9 @@ azure
 use
 js
 ;
+use
+harfbuzz
+;
 mod
 dom
 {
