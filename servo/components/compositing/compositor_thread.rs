@@ -998,6 +998,7 @@ LoadComplete
 (
 bool
 bool
+bool
 )
 DelayedCompositionTimeout
 (

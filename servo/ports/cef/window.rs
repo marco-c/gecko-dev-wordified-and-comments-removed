@@ -2812,6 +2812,9 @@ bool
 forward
 :
 bool
+_
+:
+bool
 )
 {
 /
