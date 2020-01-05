@@ -261,14 +261,6 @@ h
 '
 unicode
 /
-uchar
-.
-h
-'
-    
-'
-unicode
-/
 uclean
 .
 h
