@@ -755,11 +755,6 @@ mWarningReporter
 aReporter
 ;
 }
-void
-ApplyContentConversions
-(
-)
-;
 public
 :
 void
