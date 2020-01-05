@@ -127,9 +127,9 @@ extra
 ;
 pub
 mod
-compositor
+compositor_msg
 ;
 pub
 mod
-engine
+constellation_msg
 ;

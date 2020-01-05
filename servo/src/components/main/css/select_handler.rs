@@ -3,12 +3,6 @@ std
 :
 :
 str
-;
-use
-std
-:
-:
-str
 :
 :
 eq_slice

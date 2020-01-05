@@ -40,12 +40,6 @@ std
 result
 ;
 use
-std
-:
-:
-str
-;
-use
 newcss
 :
 :
