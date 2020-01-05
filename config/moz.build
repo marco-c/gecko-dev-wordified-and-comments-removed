@@ -159,15 +159,6 @@ Makefile
 '
 tests
 /
-makefiles
-/
-autodeps
-/
-Makefile
-'
-'
-tests
-/
 src
 -
 simple
