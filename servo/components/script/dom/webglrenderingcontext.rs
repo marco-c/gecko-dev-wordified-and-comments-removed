@@ -555,6 +555,16 @@ JS
 <
 HTMLCanvasElement
 >
+#
+[
+ignore_heap_size_of
+=
+"
+Defined
+in
+webrender_traits
+"
+]
 last_error
 :
 Cell

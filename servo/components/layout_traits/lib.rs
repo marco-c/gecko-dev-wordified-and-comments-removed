@@ -51,6 +51,10 @@ extern
 crate
 util
 ;
+extern
+crate
+webrender_traits
+;
 use
 gfx
 :
@@ -250,6 +254,15 @@ IpcSender
 <
 (
 )
+>
+webrender_api_sender
+:
+Option
+<
+webrender_traits
+:
+:
+RenderApiSender
 >
 )
 ;

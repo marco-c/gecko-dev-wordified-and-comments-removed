@@ -3,14 +3,6 @@
 [
 feature
 (
-nonzero
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
@@ -73,6 +65,10 @@ offscreen_gl_context
 extern
 crate
 util
+;
+extern
+crate
+webrender_traits
 ;
 pub
 mod

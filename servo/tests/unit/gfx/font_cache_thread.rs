@@ -86,6 +86,7 @@ FontCacheThread
 new
 (
 inp_chan
+None
 )
 ;
 let

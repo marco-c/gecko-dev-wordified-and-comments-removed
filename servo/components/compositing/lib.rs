@@ -226,6 +226,14 @@ extern
 crate
 util
 ;
+extern
+crate
+webrender
+;
+extern
+crate
+webrender_traits
+;
 pub
 use
 compositor_thread
