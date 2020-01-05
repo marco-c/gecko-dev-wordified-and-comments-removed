@@ -4189,14 +4189,8 @@ dom
 :
 Navigator
 *
-GetNavigator
+Navigator
 (
-mozilla
-:
-:
-ErrorResult
-&
-aError
 )
 ;
 nsIDOMNavigator

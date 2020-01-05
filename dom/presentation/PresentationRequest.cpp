@@ -887,9 +887,8 @@ GetOwner
 )
 -
 >
-GetNavigator
+Navigator
 (
-aRv
 )
 ;
 if
@@ -2189,9 +2188,6 @@ GetOwner
 return
 ;
 }
-ErrorResult
-rv
-;
 RefPtr
 <
 Navigator
@@ -2209,9 +2205,8 @@ GetOwner
 )
 -
 >
-GetNavigator
+Navigator
 (
-rv
 )
 ;
 if
@@ -2223,6 +2218,9 @@ navigator
 return
 ;
 }
+ErrorResult
+rv
+;
 RefPtr
 <
 Presentation

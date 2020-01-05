@@ -13187,9 +13187,6 @@ if
 win
 )
 {
-ErrorResult
-ignored
-;
 Navigator
 *
 navigator
@@ -13197,14 +13194,7 @@ navigator
 win
 -
 >
-GetNavigator
-(
-ignored
-)
-;
-ignored
-.
-SuppressException
+Navigator
 (
 )
 ;

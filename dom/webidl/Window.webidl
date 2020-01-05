@@ -813,9 +813,6 @@ name
 the
 user
 agent
-[
-Throws
-]
 readonly
 attribute
 Navigator
