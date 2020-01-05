@@ -141,6 +141,15 @@ util
 :
 tree
 ;
+import
+util
+:
+:
+color
+:
+:
+Color
+;
 enum
 box_kind
 {
@@ -176,7 +185,7 @@ background_color
 :
 option
 <
-uint
+Color
 >
 ;
 new

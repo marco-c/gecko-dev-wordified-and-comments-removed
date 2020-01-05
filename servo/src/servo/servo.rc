@@ -209,6 +209,9 @@ mod
 tree
 ;
 mod
+color
+;
+mod
 unsafe
 ;
 }
