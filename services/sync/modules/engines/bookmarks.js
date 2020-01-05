@@ -6310,9 +6310,9 @@ bookmarks
 .
 getItemTitle
 (
-BookmarkSpecialIds
+PlacesUtils
 .
-mobile
+mobileFolderId
 )
 ;
 if
@@ -6329,9 +6329,9 @@ bookmarks
 .
 setItemTitle
 (
-BookmarkSpecialIds
+PlacesUtils
 .
-mobile
+mobileFolderId
 title
 SOURCE_SYNC
 )
