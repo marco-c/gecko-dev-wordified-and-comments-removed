@@ -3344,15 +3344,3 @@ recommended
 false
 )
 ;
-user_pref
-(
-"
-extensions
-.
-throw_on_docgroup_mismatch
-.
-enabled
-"
-false
-)
-;
