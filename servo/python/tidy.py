@@ -11,6 +11,8 @@ re
 import
 StringIO
 import
+site
+import
 subprocess
 import
 sys
@@ -4600,39 +4602,30 @@ tests
 )
 )
     
-lint_cmd
-=
-os
+site
 .
-path
-.
-join
+addsitedir
 (
 wpt_working_dir
-"
+)
+    
+from
+tools
+.
 lint
-"
-)
+import
+lint
     
-try
-:
-        
-subprocess
-.
-check_call
-(
-lint_cmd
-cwd
+returncode
 =
-wpt_working_dir
+lint
+.
+main
+(
 )
     
-except
-subprocess
-.
-CalledProcessError
-as
-e
+if
+returncode
 :
         
 yield
@@ -4664,8 +4657,6 @@ status
 .
 format
 (
-e
-.
 returncode
 )
 )
