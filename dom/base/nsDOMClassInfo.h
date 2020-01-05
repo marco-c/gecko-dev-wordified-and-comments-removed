@@ -106,11 +106,6 @@ struct
 nsDOMClassInfoData
 {
 const
-char
-*
-mName
-;
-const
 char16_t
 *
 mNameUTF16

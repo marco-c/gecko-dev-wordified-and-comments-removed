@@ -626,9 +626,6 @@ _allowXBL
 )
 \
 {
-#
-_class
-\
 nullptr
 \
 XPC_MAKE_CLASS_OPS
@@ -2804,7 +2801,9 @@ RegisterClassName
 (
 data
 .
-mName
+mClass
+.
+name
 i
 data
 .
@@ -3162,7 +3161,9 @@ NS_strdup
 mData
 -
 >
-mName
+mClass
+.
+name
 )
 ;
 return
@@ -3515,7 +3516,9 @@ global
 mData
 -
 >
-mName
+mClass
+.
+name
 &
 desc
 )
@@ -4040,7 +4043,9 @@ name
 mData
 -
 >
-mName
+mClass
+.
+name
 )
 =
 =
