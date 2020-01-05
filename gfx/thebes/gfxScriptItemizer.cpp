@@ -337,6 +337,8 @@ Script
 runScript
 Script
 currCharScript
+uint32_t
+aCurrCh
 )
 {
 return
@@ -362,6 +364,19 @@ currCharScript
 =
 =
 runScript
+|
+|
+IsClusterExtender
+(
+aCurrCh
+)
+|
+|
+HasScript
+(
+aCurrCh
+runScript
+)
 ;
 }
 gfxScriptItemizer
@@ -669,6 +684,7 @@ SameScript
 (
 scriptCode
 sc
+ch
 )
 )
 {
