@@ -20,10 +20,6 @@ error
 ;
 pub
 mod
-global
-;
-pub
-mod
 guard
 ;
 pub

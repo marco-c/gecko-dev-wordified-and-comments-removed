@@ -10504,6 +10504,14 @@ identifier
 "
 Abstract
 "
+or
+                  
+identifier
+=
+=
+"
+Inline
+"
 )
 :
                 

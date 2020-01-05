@@ -91,7 +91,7 @@ sealed
 interface
 Window
 :
-EventTarget
+GlobalScope
 {
 /
 /

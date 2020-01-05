@@ -17,13 +17,10 @@ use
 dom
 :
 :
-bindings
+globalscope
 :
 :
-global
-:
-:
-GlobalRef
+GlobalScope
 ;
 use
 js
@@ -273,7 +270,8 @@ read_clone
 (
 global
 :
-GlobalRef
+&
+GlobalScope
 data
 :
 *
@@ -327,7 +325,8 @@ read
 self
 global
 :
-GlobalRef
+&
+GlobalScope
 rval
 :
 MutableHandleValue

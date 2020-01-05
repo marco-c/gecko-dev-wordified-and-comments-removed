@@ -83,7 +83,7 @@ Worker
 interface
 WorkerGlobalScope
 :
-EventTarget
+GlobalScope
 {
 [
 BinaryName

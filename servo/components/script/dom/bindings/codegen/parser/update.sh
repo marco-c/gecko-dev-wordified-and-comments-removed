@@ -66,6 +66,11 @@ union
 typedef
 .
 patch
+patch
+<
+inline
+.
+patch
 wget
 https
 :
