@@ -385,10 +385,6 @@ mManager
 (
 aManager
 )
-mIsMainScript
-(
-true
-)
 {
 MOZ_ASSERT
 (
@@ -410,8 +406,6 @@ const
 nsAString
 &
 aURL
-bool
-aIsMainScript
 nsILoadGroup
 *
 aLoadGroup
@@ -464,9 +458,6 @@ mChannel
 ;
 nsString
 mBuffer
-;
-bool
-mIsMainScript
 ;
 }
 ;
@@ -1382,12 +1373,6 @@ Cleanup
 void
 FetchScript
 (
-const
-nsAString
-&
-aURL
-bool
-aIsMainScript
 Cache
 *
 const
@@ -1411,8 +1396,7 @@ mCN
 Initialize
 (
 mPrincipal
-aURL
-aIsMainScript
+mURL
 mLoadGroup
 )
 ;
@@ -1896,8 +1880,6 @@ WaitingForScriptOrComparisonResult
 ;
 FetchScript
 (
-mURL
-true
 mOldCache
 )
 ;
@@ -2578,8 +2560,6 @@ const
 nsAString
 &
 aURL
-bool
-aIsMainScript
 nsILoadGroup
 *
 aLoadGroup
@@ -2629,10 +2609,6 @@ return
 rv
 ;
 }
-mIsMainScript
-=
-aIsMainScript
-;
 nsCOMPtr
 <
 nsILoadGroup
@@ -3305,11 +3281,6 @@ return
 NS_OK
 ;
 }
-if
-(
-mIsMainScript
-)
-{
 nsAutoCString
 maxScope
 ;
@@ -3342,7 +3313,6 @@ SetMaxScope
 maxScope
 )
 ;
-}
 bool
 isFromCache
 =
@@ -4598,8 +4568,6 @@ WaitingForScriptOrComparisonResult
 ;
 FetchScript
 (
-mURL
-true
 nullptr
 )
 ;
