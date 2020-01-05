@@ -6026,6 +6026,10 @@ bitmap
 ToCloneData
 (
 )
+.
+release
+(
+)
 ;
 MOZ_ASSERT
 (
