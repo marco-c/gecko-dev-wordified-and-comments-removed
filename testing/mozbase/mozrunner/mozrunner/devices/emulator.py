@@ -1148,6 +1148,19 @@ connected
 =
 False
         
+if
+os
+.
+path
+.
+isdir
+(
+self
+.
+tempdir
+)
+:
+            
 shutil
 .
 rmtree
