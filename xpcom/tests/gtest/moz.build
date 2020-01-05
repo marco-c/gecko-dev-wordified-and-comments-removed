@@ -225,6 +225,11 @@ TestTArray
 cpp
 '
 '
+TestTArray2
+.
+cpp
+'
+'
 TestThreadPool
 .
 cpp
@@ -309,6 +314,12 @@ cpp
 #
 Redefines
 Foo
+#
+'
+TestTArray2
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
