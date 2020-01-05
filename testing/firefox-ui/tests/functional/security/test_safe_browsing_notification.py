@@ -89,27 +89,13 @@ html
 button_property
 '
 :
-'
-safebrowsing
-.
-notADeceptiveSiteButton
-.
-label
-'
+None
                 
 '
 report_page
 '
 :
-'
-google
-.
-com
-/
-safebrowsing
-/
-report_error
-'
+None
                 
 '
 unsafe_page
@@ -145,23 +131,13 @@ html
 button_property
 '
 :
-'
-safebrowsing
-.
-notAnAttackButton
-.
-label
-'
+None
                 
 '
 report_page
 '
 :
-'
-stopbadware
-.
-org
-'
+None
                 
 '
 unsafe_page
