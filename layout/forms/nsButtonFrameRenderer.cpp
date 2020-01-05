@@ -1721,6 +1721,15 @@ if
 (
 !
 br
+|
+|
+!
+br
+-
+>
+CanCreateWebRenderCommands
+(
+)
 )
 {
 return
