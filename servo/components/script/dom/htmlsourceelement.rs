@@ -167,7 +167,6 @@ HTMLSourceElementTypeId
 impl
 HTMLSourceElement
 {
-pub
 fn
 new_inherited
 (

@@ -173,7 +173,6 @@ Reflector
 impl
 DOMParser
 {
-pub
 fn
 new_inherited
 (

@@ -329,7 +329,6 @@ HTMLCanvasElementTypeId
 impl
 HTMLCanvasElement
 {
-pub
 fn
 new_inherited
 (

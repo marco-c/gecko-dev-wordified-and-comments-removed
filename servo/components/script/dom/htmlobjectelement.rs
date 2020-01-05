@@ -292,7 +292,6 @@ HTMLObjectElementTypeId
 impl
 HTMLObjectElement
 {
-pub
 fn
 new_inherited
 (

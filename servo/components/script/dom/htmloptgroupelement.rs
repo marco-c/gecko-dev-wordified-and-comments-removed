@@ -231,7 +231,6 @@ HTMLOptGroupElementTypeId
 impl
 HTMLOptGroupElement
 {
-pub
 fn
 new_inherited
 (

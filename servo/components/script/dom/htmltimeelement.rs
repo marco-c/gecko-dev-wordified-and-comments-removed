@@ -167,7 +167,6 @@ HTMLTimeElementTypeId
 impl
 HTMLTimeElement
 {
-pub
 fn
 new_inherited
 (

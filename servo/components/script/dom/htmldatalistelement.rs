@@ -219,7 +219,6 @@ HTMLDataListElementTypeId
 impl
 HTMLDataListElement
 {
-pub
 fn
 new_inherited
 (

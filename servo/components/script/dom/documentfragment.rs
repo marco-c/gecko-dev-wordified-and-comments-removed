@@ -238,7 +238,6 @@ DocumentFragmentNodeTypeId
 impl
 DocumentFragment
 {
-pub
 fn
 new_inherited
 (

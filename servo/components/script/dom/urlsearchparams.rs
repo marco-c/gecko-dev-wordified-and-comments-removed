@@ -226,7 +226,6 @@ Reflector
 impl
 URLSearchParams
 {
-pub
 fn
 new_inherited
 (

@@ -141,7 +141,6 @@ Page
 impl
 Location
 {
-pub
 fn
 new_inherited
 (

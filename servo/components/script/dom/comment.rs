@@ -197,7 +197,6 @@ CommentNodeTypeId
 impl
 Comment
 {
-pub
 fn
 new_inherited
 (

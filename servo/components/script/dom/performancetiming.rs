@@ -108,7 +108,6 @@ f64
 impl
 PerformanceTiming
 {
-pub
 fn
 new_inherited
 (

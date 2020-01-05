@@ -180,7 +180,6 @@ DoctypeNodeTypeId
 impl
 DocumentType
 {
-pub
 fn
 new_inherited
 (

@@ -369,7 +369,6 @@ TrustedWorkerAddress
 impl
 DedicatedWorkerGlobalScope
 {
-pub
 fn
 new_inherited
 (

@@ -121,7 +121,6 @@ Reflector
 impl
 Navigator
 {
-pub
 fn
 new_inherited
 (

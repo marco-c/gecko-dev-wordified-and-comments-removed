@@ -167,7 +167,6 @@ HTMLUnknownElementTypeId
 impl
 HTMLUnknownElement
 {
-pub
 fn
 new_inherited
 (

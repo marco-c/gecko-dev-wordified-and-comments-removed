@@ -87,7 +87,6 @@ u8
 impl
 ValidityState
 {
-pub
 fn
 new_inherited
 (

@@ -776,7 +776,6 @@ sandboxed
 impl
 HTMLIFrameElement
 {
-pub
 fn
 new_inherited
 (

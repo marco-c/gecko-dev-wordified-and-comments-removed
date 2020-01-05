@@ -302,7 +302,6 @@ HTMLOptionElementTypeId
 impl
 HTMLOptionElement
 {
-pub
 fn
 new_inherited
 (

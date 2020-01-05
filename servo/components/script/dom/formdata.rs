@@ -276,7 +276,6 @@ HTMLFormElement
 impl
 FormData
 {
-pub
 fn
 new_inherited
 (

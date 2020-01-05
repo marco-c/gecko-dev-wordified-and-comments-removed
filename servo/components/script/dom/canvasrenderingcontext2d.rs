@@ -180,7 +180,6 @@ HTMLCanvasElement
 impl
 CanvasRenderingContext2D
 {
-pub
 fn
 new_inherited
 (

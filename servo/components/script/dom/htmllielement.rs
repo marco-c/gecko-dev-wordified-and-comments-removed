@@ -167,7 +167,6 @@ HTMLLIElementTypeId
 impl
 HTMLLIElement
 {
-pub
 fn
 new_inherited
 (

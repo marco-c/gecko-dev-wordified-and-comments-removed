@@ -167,7 +167,6 @@ HTMLDivElementTypeId
 impl
 HTMLDivElement
 {
-pub
 fn
 new_inherited
 (

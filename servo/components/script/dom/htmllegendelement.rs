@@ -167,7 +167,6 @@ HTMLLegendElementTypeId
 impl
 HTMLLegendElement
 {
-pub
 fn
 new_inherited
 (

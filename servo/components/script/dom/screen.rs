@@ -102,7 +102,6 @@ Reflector
 impl
 Screen
 {
-pub
 fn
 new_inherited
 (

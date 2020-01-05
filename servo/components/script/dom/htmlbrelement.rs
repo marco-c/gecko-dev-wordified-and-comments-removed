@@ -167,7 +167,6 @@ HTMLBRElementTypeId
 impl
 HTMLBRElement
 {
-pub
 fn
 new_inherited
 (

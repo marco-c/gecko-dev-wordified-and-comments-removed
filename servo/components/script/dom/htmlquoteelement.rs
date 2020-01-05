@@ -167,7 +167,6 @@ HTMLQuoteElementTypeId
 impl
 HTMLQuoteElement
 {
-pub
 fn
 new_inherited
 (

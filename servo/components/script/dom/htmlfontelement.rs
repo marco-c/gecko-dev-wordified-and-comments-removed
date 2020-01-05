@@ -167,7 +167,6 @@ HTMLFontElementTypeId
 impl
 HTMLFontElement
 {
-pub
 fn
 new_inherited
 (

@@ -256,7 +256,6 @@ HTMLLinkElementTypeId
 impl
 HTMLLinkElement
 {
-pub
 fn
 new_inherited
 (

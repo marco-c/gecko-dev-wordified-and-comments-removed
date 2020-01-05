@@ -119,7 +119,6 @@ XMLHttpRequestEventTarget
 impl
 XMLHttpRequestUpload
 {
-pub
 fn
 new_inherited
 (

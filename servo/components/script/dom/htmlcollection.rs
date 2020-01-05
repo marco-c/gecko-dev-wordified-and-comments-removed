@@ -266,7 +266,6 @@ Reflector
 impl
 HTMLCollection
 {
-pub
 fn
 new_inherited
 (

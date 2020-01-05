@@ -167,7 +167,6 @@ HTMLHtmlElementTypeId
 impl
 HTMLHtmlElement
 {
-pub
 fn
 new_inherited
 (

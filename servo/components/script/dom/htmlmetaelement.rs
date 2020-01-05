@@ -167,7 +167,6 @@ HTMLMetaElementTypeId
 impl
 HTMLMetaElement
 {
-pub
 fn
 new_inherited
 (

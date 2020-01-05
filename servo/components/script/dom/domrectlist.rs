@@ -127,7 +127,6 @@ Window
 impl
 DOMRectList
 {
-pub
 fn
 new_inherited
 (

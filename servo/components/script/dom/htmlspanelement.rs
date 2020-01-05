@@ -167,7 +167,6 @@ HTMLSpanElementTypeId
 impl
 HTMLSpanElement
 {
-pub
 fn
 new_inherited
 (

@@ -240,7 +240,6 @@ CustomEventTypeId
 impl
 CustomEvent
 {
-pub
 fn
 new_inherited
 (

@@ -217,7 +217,6 @@ HTMLTitleElementTypeId
 impl
 HTMLTitleElement
 {
-pub
 fn
 new_inherited
 (

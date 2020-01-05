@@ -127,7 +127,6 @@ Element
 impl
 NamedNodeMap
 {
-pub
 fn
 new_inherited
 (

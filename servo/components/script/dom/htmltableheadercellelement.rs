@@ -167,7 +167,6 @@ HTMLTableHeaderCellElementTypeId
 impl
 HTMLTableHeaderCellElement
 {
-pub
 fn
 new_inherited
 (

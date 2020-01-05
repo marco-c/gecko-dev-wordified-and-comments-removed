@@ -167,7 +167,6 @@ HTMLTableSectionElementTypeId
 impl
 HTMLTableSectionElement
 {
-pub
 fn
 new_inherited
 (

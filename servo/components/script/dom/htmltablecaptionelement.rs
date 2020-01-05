@@ -167,7 +167,6 @@ HTMLTableCaptionElementTypeId
 impl
 HTMLTableCaptionElement
 {
-pub
 fn
 new_inherited
 (

@@ -177,7 +177,6 @@ ProcessingInstructionNodeTypeId
 impl
 ProcessingInstruction
 {
-pub
 fn
 new_inherited
 (

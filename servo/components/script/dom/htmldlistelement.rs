@@ -167,7 +167,6 @@ HTMLDListElementTypeId
 impl
 HTMLDListElement
 {
-pub
 fn
 new_inherited
 (

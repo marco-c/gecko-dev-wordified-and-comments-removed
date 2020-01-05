@@ -197,7 +197,6 @@ TextNodeTypeId
 impl
 Text
 {
-pub
 fn
 new_inherited
 (
