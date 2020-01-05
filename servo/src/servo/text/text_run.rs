@@ -80,6 +80,7 @@ TextRun
 let
 glyphs
 :
+~
 [
 Glyph
 ]

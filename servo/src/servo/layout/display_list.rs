@@ -78,6 +78,7 @@ au
 type
 display_list
 =
+~
 [
 display_item
 ]

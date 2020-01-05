@@ -174,6 +174,7 @@ str
 )
 -
 >
+~
 [
 Glyph
 ]
@@ -460,6 +461,7 @@ let
 mut
 glyphs
 =
+~
 [
 ]
 ;
@@ -569,6 +571,7 @@ y
 glyphs
 +
 =
+~
 [
 Glyph
 (
@@ -893,6 +896,7 @@ assert
 idxs
 =
 =
+~
 [
 32u
 8u
@@ -974,6 +978,8 @@ x
 let
 expected
 =
+(
+~
 [
 6
 4
@@ -987,6 +993,7 @@ expected
 9
 7
 ]
+)
 .
 map
 (

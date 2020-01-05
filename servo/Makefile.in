@@ -1404,6 +1404,9 @@ rust
 -
 glut
 :
+(
+GLUT_DEPS
+)
 RUSTFLAGS
 =
 "
@@ -1441,6 +1444,9 @@ rust
 -
 layers
 :
+(
+LAYERS_DEPS
+)
 RUSTFLAGS
 =
 "

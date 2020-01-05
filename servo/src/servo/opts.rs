@@ -29,6 +29,7 @@ Opts
 {
 urls
 :
+~
 [
 str
 ]
@@ -58,6 +59,7 @@ from_cmdline_args
 (
 args
 :
+~
 [
 str
 ]
@@ -84,6 +86,7 @@ tail
 let
 opts
 =
+~
 [
 getopts
 :

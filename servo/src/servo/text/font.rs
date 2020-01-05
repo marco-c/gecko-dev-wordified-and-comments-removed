@@ -145,6 +145,7 @@ new
 -
 fontbuf
 :
+~
 [
 u8
 ]
@@ -445,10 +446,12 @@ glyph
 let
 glyphs
 :
+~
 [
 cairo_glyph_t
 ]
 =
+~
 [
 {
 index
@@ -1489,6 +1492,7 @@ test_font_bin
 )
 -
 >
+~
 [
 u8
 ]

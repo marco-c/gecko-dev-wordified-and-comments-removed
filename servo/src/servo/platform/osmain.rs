@@ -112,6 +112,12 @@ cmp
 :
 fuzzy_eq
 ;
+import
+vec
+:
+:
+push
+;
 type
 OSMain
 =
