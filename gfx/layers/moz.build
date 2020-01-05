@@ -1361,6 +1361,13 @@ h
 '
 wr
 /
+WebRenderLayer
+.
+h
+'
+'
+wr
+/
 WebRenderLayerManager
 .
 h
@@ -2654,6 +2661,13 @@ cpp
 wr
 /
 WebRenderImageLayer
+.
+cpp
+'
+'
+wr
+/
+WebRenderLayer
 .
 cpp
 '
