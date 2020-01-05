@@ -339,10 +339,6 @@ event
 ;
 pub
 mod
-eventdispatcher
-;
-pub
-mod
 eventsource
 ;
 pub
