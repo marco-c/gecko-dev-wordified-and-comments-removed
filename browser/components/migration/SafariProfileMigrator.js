@@ -1128,6 +1128,7 @@ return
 null
 ;
 }
+this
 )
 .
 filter
