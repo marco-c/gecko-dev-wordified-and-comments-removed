@@ -450,7 +450,7 @@ _rebuildView
 )
 ;
 }
-onPeferenceClick
+onPreferenceClick
 (
 button
 )
