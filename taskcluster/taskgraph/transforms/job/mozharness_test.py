@@ -6,6 +6,14 @@ Required
 from
 taskgraph
 .
+util
+.
+taskcluster
+import
+get_artifact_url
+from
+taskgraph
+.
 transforms
 .
 job
@@ -43,31 +51,6 @@ import
 os
 import
 re
-ARTIFACT_URL
-=
-'
-https
-:
-/
-/
-queue
-.
-taskcluster
-.
-net
-/
-v1
-/
-task
-/
-{
-}
-/
-artifacts
-/
-{
-}
-'
 ARTIFACTS
 =
 [
@@ -493,9 +476,7 @@ blobber_upload_dir
     
 installer_url
 =
-ARTIFACT_URL
-.
-format
+get_artifact_url
 (
 '
 <
@@ -516,16 +497,14 @@ name
     
 test_packages_url
 =
-ARTIFACT_URL
-.
-format
+get_artifact_url
 (
 '
 <
 build
 >
 '
-                                            
+                                         
 '
 public
 /
@@ -541,16 +520,14 @@ json
     
 mozharness_url
 =
-ARTIFACT_URL
-.
-format
+get_artifact_url
 (
 '
 <
 build
 >
 '
-                                         
+                                      
 '
 public
 /
@@ -1789,9 +1766,7 @@ build_platform
     
 installer_url
 =
-ARTIFACT_URL
-.
-format
+get_artifact_url
 (
         
 '
@@ -1818,9 +1793,7 @@ target
     
 test_packages_url
 =
-ARTIFACT_URL
-.
-format
+get_artifact_url
 (
         
 '
@@ -1849,9 +1822,7 @@ target
     
 mozharness_url
 =
-ARTIFACT_URL
-.
-format
+get_artifact_url
 (
         
 '
@@ -2626,9 +2597,7 @@ worker
     
 installer_url
 =
-ARTIFACT_URL
-.
-format
+get_artifact_url
 (
 '
 <
@@ -2649,16 +2618,14 @@ name
     
 test_packages_url
 =
-ARTIFACT_URL
-.
-format
+get_artifact_url
 (
 '
 <
 build
 >
 '
-                                            
+                                         
 '
 public
 /
@@ -2674,16 +2641,14 @@ json
     
 mozharness_url
 =
-ARTIFACT_URL
-.
-format
+get_artifact_url
 (
 '
 <
 build
 >
 '
-                                         
+                                      
 '
 public
 /
