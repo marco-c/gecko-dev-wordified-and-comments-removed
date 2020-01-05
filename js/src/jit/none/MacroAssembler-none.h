@@ -795,6 +795,8 @@ GreaterThanOrEqual
 LessThan
 LessThanOrEqual
 Overflow
+CarrySet
+CarryClear
 Signed
 NotSigned
 Zero
