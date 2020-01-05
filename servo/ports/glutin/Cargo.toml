@@ -81,9 +81,7 @@ euclid
 "
 0
 .
-10
-.
-1
+11
 "
 gleam
 =
@@ -161,7 +159,7 @@ glutin
 "
 0
 .
-8
+9
 "
 servo_geometry
 =

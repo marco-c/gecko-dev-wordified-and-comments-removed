@@ -73,7 +73,7 @@ use
 ipc_channel
 :
 :
-SerializeError
+Error
 ;
 use
 ipc_channel
@@ -596,7 +596,7 @@ InitialPipelineState
 Result
 <
 Pipeline
-SerializeError
+Error
 >
 where
 LTF
@@ -2913,7 +2913,7 @@ Result
 <
 (
 )
-SerializeError
+Error
 >
 {
 use
@@ -3326,7 +3326,7 @@ Result
 <
 (
 )
-SerializeError
+Error
 >
 {
 error

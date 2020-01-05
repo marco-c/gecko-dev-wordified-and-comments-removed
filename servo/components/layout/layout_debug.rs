@@ -314,6 +314,10 @@ state
 flow_root
 )
 )
+.
+unwrap
+(
+)
 ;
 let
 data
@@ -427,6 +431,10 @@ state
 .
 flow_root
 )
+)
+.
+unwrap
+(
 )
 ;
 let
@@ -544,6 +552,10 @@ base
 *
 flow_root
 )
+)
+.
+unwrap
+(
 )
 ;
 let
@@ -682,6 +694,10 @@ thread_state
 .
 flow_root
 )
+)
+.
+unwrap
+(
 )
 ;
 let

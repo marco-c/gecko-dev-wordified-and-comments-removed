@@ -62,9 +62,7 @@ channel
 "
 0
 .
-6
-.
-3
+7
 "
 regex
 =
@@ -78,14 +76,14 @@ serde
 "
 0
 .
-8
+9
 "
 serde_derive
 =
 "
 0
 .
-8
+9
 "
 servo_config
 =

@@ -81,7 +81,7 @@ app_units
 "
 0
 .
-3
+4
 "
 atomic_refcell
 =
@@ -92,15 +92,11 @@ atomic_refcell
 "
 cssparser
 =
-{
-version
-=
 "
 0
 .
-9
+10
 "
-}
 env_logger
 =
 {
@@ -129,9 +125,7 @@ euclid
 "
 0
 .
-10
-.
-1
+11
 "
 lazy_static
 =

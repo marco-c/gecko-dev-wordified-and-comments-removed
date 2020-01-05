@@ -74,13 +74,13 @@ version
 "
 0
 .
-3
+4
 "
 features
 =
 [
 "
-heap_size
+heapsize
 "
 ]
 }
