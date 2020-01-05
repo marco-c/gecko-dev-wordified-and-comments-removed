@@ -177,11 +177,6 @@ NextFrameSeekTask
 (
 )
 ;
-void
-RequestVideoData
-(
-)
-;
 bool
 NeedMoreVideo
 (
