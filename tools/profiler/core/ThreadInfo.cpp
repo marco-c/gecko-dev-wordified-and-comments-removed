@@ -164,14 +164,6 @@ CanInvokeJS
 )
 const
 {
-#
-ifdef
-SPS_STANDALONE
-return
-false
-;
-#
-else
 nsIThread
 *
 thread
@@ -229,6 +221,4 @@ rv
 return
 result
 ;
-#
-endif
 }
