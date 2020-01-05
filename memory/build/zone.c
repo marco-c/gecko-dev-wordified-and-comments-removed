@@ -1073,7 +1073,7 @@ if
 (
 isthreaded
 )
-jemalloc_postfork_parent
+jemalloc_postfork_child
 (
 )
 ;
@@ -1089,7 +1089,7 @@ void
 ;
 extern
 void
-_malloc_postfork
+_malloc_postfork_child
 (
 void
 )
@@ -1117,7 +1117,7 @@ malloc_zone_t
 zone
 )
 {
-_malloc_postfork
+_malloc_postfork_child
 (
 )
 ;
