@@ -114,8 +114,6 @@ HTMLBaseElement
 :
 HTMLElement
 {
-/
-/
 attribute
 DOMString
 href
