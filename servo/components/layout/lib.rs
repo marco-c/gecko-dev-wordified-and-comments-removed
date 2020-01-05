@@ -105,14 +105,6 @@ unsafe_code
 #
 !
 [
-allow
-(
-unrooted_must_root
-)
-]
-#
-!
-[
 plugin
 (
 string_cache_plugin
