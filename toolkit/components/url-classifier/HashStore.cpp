@@ -494,12 +494,12 @@ aSize
 )
 )
 ;
-PrefixStdString
+PrefixString
 *
 prefix
 =
 new
-PrefixStdString
+PrefixString
 (
 aPrefixes
 )

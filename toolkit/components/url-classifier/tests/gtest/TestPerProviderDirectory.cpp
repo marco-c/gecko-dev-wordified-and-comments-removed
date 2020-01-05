@@ -8,13 +8,6 @@ h
 #
 include
 "
-LookupCacheV4
-.
-h
-"
-#
-include
-"
 HashStore
 .
 h
@@ -401,7 +394,7 @@ rootDir
 ;
 VerifyPrivateStorePath
 <
-LookupCacheV2
+LookupCache
 >
 (
 "
@@ -420,7 +413,7 @@ false
 ;
 VerifyPrivateStorePath
 <
-LookupCacheV4
+LookupCache
 >
 (
 "
@@ -438,7 +431,7 @@ false
 ;
 VerifyPrivateStorePath
 <
-LookupCacheV4
+LookupCache
 >
 (
 "

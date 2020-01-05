@@ -170,11 +170,6 @@ LookupCache
 cpp
 '
 '
-LookupCacheV4
-.
-cpp
-'
-'
 nsCheckSummedOutputStream
 .
 cpp
@@ -227,11 +222,6 @@ cpp
 '
 '
 nsUrlClassifierStreamUpdater
-.
-cpp
-'
-'
-VariableLengthPrefixSet
 .
 cpp
 '
@@ -324,11 +314,6 @@ LookupCache
 h
 '
 '
-LookupCacheV4
-.
-h
-'
-'
 nsUrlClassifierPrefixSet
 .
 h
@@ -339,11 +324,6 @@ protobuf
 safebrowsing
 .
 pb
-.
-h
-'
-'
-VariableLengthPrefixSet
 .
 h
 '
