@@ -1386,10 +1386,7 @@ virtual
 mozilla
 :
 :
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 GetCSSDeclaration
 (
@@ -1405,10 +1402,7 @@ SetCSSDeclaration
 mozilla
 :
 :
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 aDecl
 )
@@ -1955,10 +1949,7 @@ virtual
 mozilla
 :
 :
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 GetCSSDeclaration
 (
@@ -1974,10 +1965,7 @@ SetCSSDeclaration
 mozilla
 :
 :
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 aDecl
 )

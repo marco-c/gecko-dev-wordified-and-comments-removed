@@ -2027,10 +2027,7 @@ GetShell
 )
 ;
 }
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 nsComputedDOMStyle
 :
@@ -2061,10 +2058,7 @@ nsComputedDOMStyle
 :
 SetCSSDeclaration
 (
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 )
 {
