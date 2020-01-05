@@ -5362,7 +5362,7 @@ DelayedTask
 (
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 aTask
 )
@@ -5380,7 +5380,7 @@ DelayedTask
 (
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 aTask
 int
@@ -5484,7 +5484,7 @@ return
 }
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 TakeTask
 (
@@ -5500,9 +5500,9 @@ forget
 }
 private
 :
-RefPtr
+nsCOMPtr
 <
-Runnable
+nsIRunnable
 >
 mTask
 ;
@@ -5520,7 +5520,7 @@ PostTaskToUiThread
 (
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 aTask
 int
@@ -5712,9 +5712,9 @@ return
 timeLeft
 ;
 }
-RefPtr
+nsCOMPtr
 <
-Runnable
+nsIRunnable
 >
 nextTask
 (
