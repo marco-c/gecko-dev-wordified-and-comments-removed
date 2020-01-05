@@ -4678,7 +4678,7 @@ ComputedTimingFunction
 &
 aTimingFunction
 const
-StyleAnimationValue
+AnimationValue
 &
 aValue
 dom
@@ -4723,6 +4723,8 @@ UncomputeValue
 (
 aProperty
 aValue
+.
+mGecko
 stringValue
 )
 ;
@@ -4976,8 +4978,6 @@ mTimingFunction
 segment
 .
 mFromValue
-.
-mGecko
 segment
 .
 mFromComposite
@@ -5069,8 +5069,6 @@ Nothing
 segment
 .
 mToValue
-.
-mGecko
 segment
 .
 mToComposite
