@@ -1229,6 +1229,11 @@ leaveZealMode
 #
 endif
 void
+printProfileHeader
+(
+)
+;
+void
 printTotalProfileTimes
 (
 )
@@ -1920,12 +1925,6 @@ maybeEndProfile
 (
 ProfileKey
 key
-)
-;
-static
-void
-printProfileHeader
-(
 )
 ;
 static
