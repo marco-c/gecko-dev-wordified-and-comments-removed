@@ -180,6 +180,11 @@ attribute
 ScalarValueString
 search
 ;
+readonly
+attribute
+DOMString
+search
+;
 /
 /
 attribute
