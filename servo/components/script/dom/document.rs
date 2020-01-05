@@ -10473,7 +10473,11 @@ Cell
 :
 new
 (
-true
+browsing_context
+.
+is_some
+(
+)
 )
 animation_frame_ident
 :
