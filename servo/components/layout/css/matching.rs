@@ -1538,11 +1538,7 @@ link
 :
 element
 .
-get_link
-(
-)
-.
-is_some
+is_link
 (
 )
 namespace
@@ -1944,11 +1940,7 @@ false
 if
 element
 .
-get_link
-(
-)
-.
-is_some
+is_link
 (
 )
 !
