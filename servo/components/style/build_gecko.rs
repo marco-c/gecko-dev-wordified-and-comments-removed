@@ -2247,6 +2247,12 @@ opaque_types
 =
 [
 "
+std
+:
+:
+namespace
+:
+:
 atomic___base
 "
 "
