@@ -100,15 +100,6 @@ extensions
 /
 ext
 -
-contextualIdentities
-.
-js
-content
-/
-extensions
-/
-ext
--
 cookies
 .
 js

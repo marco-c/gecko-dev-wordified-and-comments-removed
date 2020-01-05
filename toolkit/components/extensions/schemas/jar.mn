@@ -80,15 +80,6 @@ extensions
 /
 schemas
 /
-contextual_identities
-.
-json
-content
-/
-extensions
-/
-schemas
-/
 cookies
 .
 json
