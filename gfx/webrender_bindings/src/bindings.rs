@@ -2009,6 +2009,9 @@ WrExternalImageStruct
 image_type
 :
 WrExternalImageType
+handle
+:
+u32
 u0
 :
 f32
@@ -2021,9 +2024,6 @@ f32
 v1
 :
 f32
-handle
-:
-u32
 buff
 :
 *
