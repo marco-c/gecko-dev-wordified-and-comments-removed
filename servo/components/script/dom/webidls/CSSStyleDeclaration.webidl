@@ -2878,5 +2878,15 @@ flex
 -
 direction
 ;
+[
+SetterThrows
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
+order
+;
 }
 ;
