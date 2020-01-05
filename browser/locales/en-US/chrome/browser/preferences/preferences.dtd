@@ -272,6 +272,17 @@ Privacy
 <
 !
 ENTITY
+paneContainers
+.
+title
+"
+Container
+Tabs
+"
+>
+<
+!
+ENTITY
 paneSecurity
 .
 title

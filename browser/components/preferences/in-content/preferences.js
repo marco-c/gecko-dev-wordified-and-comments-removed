@@ -269,6 +269,14 @@ gPrivacyPane
 register_module
 (
 "
+paneContainers
+"
+gContainersPane
+)
+;
+register_module
+(
+"
 paneAdvanced
 "
 gAdvancedPane
