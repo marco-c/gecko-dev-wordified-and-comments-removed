@@ -1,4 +1,7 @@
 use
+AnimationTickType
+;
+use
 CompositorMsg
 as
 ConstellationMsg
@@ -530,6 +533,10 @@ ConstellationMsg
 TickAnimation
 (
 pipeline_id
+AnimationTickType
+:
+:
+Script
 )
 ;
 self
