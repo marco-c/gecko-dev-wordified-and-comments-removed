@@ -7834,9 +7834,6 @@ mTextEmphasisStyle
 uint8_t
 mTextRendering
 ;
-int32_t
-mTabSize
-;
 mozilla
 :
 :
@@ -7854,6 +7851,9 @@ mozilla
 :
 StyleComplexColor
 mWebkitTextStrokeColor
+;
+nsStyleCoord
+mTabSize
 ;
 nsStyleCoord
 mWordSpacing
