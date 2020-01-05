@@ -585,6 +585,9 @@ message
 )
 )
 ;
+delete
+session
+;
 return
 ;
 }
