@@ -122,10 +122,9 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+DOM
 '
 '
-Contextual
-Identity
+Security
 '
 )
