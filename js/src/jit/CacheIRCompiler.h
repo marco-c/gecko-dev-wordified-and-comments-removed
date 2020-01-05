@@ -173,6 +173,11 @@ LoadDenseElementHoleResult
 \
 _
 (
+LoadDenseElementExistsResult
+)
+\
+_
+(
 LoadUnboxedArrayElementResult
 )
 \
