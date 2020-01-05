@@ -291,6 +291,7 @@ ServoNonZeroBorder
 ReadWrite
 ReadOnly
 PlaceholderShown
+Target
 }
 impl
 NonTSPseudoClass
@@ -363,6 +364,10 @@ PlaceholderShown
 =
 >
 IN_PLACEHOLDER_SHOWN_STATE
+Target
+=
+>
+IN_TARGET_STATE
 AnyLink
 |
 Link
@@ -552,6 +557,12 @@ shown
 =
 >
 PlaceholderShown
+"
+target
+"
+=
+>
+Target
 "
 -
 servo

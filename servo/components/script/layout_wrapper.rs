@@ -3381,6 +3381,11 @@ NonTSPseudoClass
 :
 :
 PlaceholderShown
+|
+NonTSPseudoClass
+:
+:
+Target
 =
 >
 self
