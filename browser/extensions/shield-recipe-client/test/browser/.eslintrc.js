@@ -56,12 +56,6 @@ false
 withDriver
 :
 false
-withMockNormandyApi
-:
-false
-withMockPreferences
-:
-false
 }
 }
 ;

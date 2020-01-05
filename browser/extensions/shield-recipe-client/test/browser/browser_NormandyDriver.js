@@ -8,8 +8,8 @@ add_task
 withDriver
 (
 Assert
-async
 function
+*
 uuids
 (
 driver
@@ -68,8 +68,8 @@ add_task
 withDriver
 (
 Assert
-async
 function
+*
 userId
 (
 driver
@@ -102,8 +102,8 @@ add_task
 withDriver
 (
 Assert
-async
 function
+*
 syncDeviceCounts
 (
 driver
@@ -112,7 +112,7 @@ driver
 let
 client
 =
-await
+yield
 driver
 .
 client
@@ -161,7 +161,7 @@ zero
 "
 )
 ;
-await
+yield
 SpecialPowers
 .
 pushPrefEnv
@@ -170,6 +170,16 @@ pushPrefEnv
 set
 :
 [
+[
+"
+services
+.
+sync
+.
+numClients
+"
+9
+]
 [
 "
 services
@@ -204,7 +214,7 @@ desktop
 ;
 client
 =
-await
+yield
 driver
 .
 client
@@ -265,8 +275,8 @@ add_task
 withDriver
 (
 Assert
-async
 function
+*
 distribution
 (
 driver
@@ -275,7 +285,7 @@ driver
 let
 client
 =
-await
+yield
 driver
 .
 client
@@ -299,7 +309,7 @@ value
 "
 )
 ;
-await
+yield
 SpecialPowers
 .
 pushPrefEnv
@@ -324,7 +334,7 @@ funnelcake
 ;
 client
 =
-await
+yield
 driver
 .
 client
