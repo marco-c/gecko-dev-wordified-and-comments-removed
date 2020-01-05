@@ -6593,6 +6593,13 @@ java
 '
 tabs
 /
+TabStripItemAnimator
+.
+java
+'
+'
+tabs
+/
 TabStripItemView
 .
 java
