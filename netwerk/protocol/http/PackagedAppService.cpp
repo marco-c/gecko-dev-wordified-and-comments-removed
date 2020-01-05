@@ -203,11 +203,8 @@ PackagedAppService
 )
 ;
 #
-undef
-LOG
-#
 define
-LOG
+LOG_PAS
 (
 args
 )
@@ -322,7 +319,7 @@ prefix
 "
 ;
 }
-LOG
+LOG_PAS
 (
 (
 "
@@ -1585,7 +1582,7 @@ SetIsFromCache
 isFromCache
 )
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -1828,7 +1825,7 @@ mVerifier
 return
 ;
 }
-LOG
+LOG_PAS
 (
 (
 "
@@ -2407,7 +2404,7 @@ EErrorType
 aError
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -2532,7 +2529,7 @@ if
 aMulitChannel
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -2606,7 +2603,7 @@ aRequest
 nsresult
 rv
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -2674,7 +2671,7 @@ multiChannel
 mWriter
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -2733,7 +2730,7 @@ return
 NS_OK
 ;
 }
-LOG
+LOG_PAS
 (
 (
 "
@@ -3125,7 +3122,7 @@ this
 aURI
 )
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -3178,7 +3175,7 @@ Length
 0
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -3215,7 +3212,7 @@ aCallback
 }
 else
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -3246,7 +3243,7 @@ aCallback
 }
 else
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -3358,7 +3355,7 @@ this
 aURI
 )
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -3479,7 +3476,7 @@ Clear
 (
 )
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -3528,7 +3525,7 @@ spec
 newArray
 )
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -3587,7 +3584,7 @@ safe
 "
 )
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -3711,7 +3708,7 @@ rv
 )
 )
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -3792,7 +3789,7 @@ callback
 }
 else
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -3961,7 +3958,7 @@ ResourceCacheInfo
 aInfo
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4006,7 +4003,7 @@ if
 installer
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4103,7 +4100,7 @@ if
 isSuccess
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4124,7 +4121,7 @@ ERROR_INSTALL_RESOURCE_FAILED
 )
 ;
 }
-LOG
+LOG_PAS
 (
 (
 "
@@ -4320,7 +4317,7 @@ if
 isPackagedSigned
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4401,7 +4398,7 @@ aInfo
 mIsLastPart
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4445,7 +4442,7 @@ gPackagedAppService
 =
 this
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -4471,7 +4468,7 @@ PackagedAppService
 (
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4675,7 +4672,7 @@ safe
 "
 )
 ;
-LOG
+LOG_PAS
 (
 (
 "
@@ -4740,7 +4737,7 @@ if
 securityManager
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4794,7 +4791,7 @@ rv
 principal
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4855,7 +4852,7 @@ if
 loadContextInfo
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4903,7 +4900,7 @@ rv
 )
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -4974,7 +4971,7 @@ rv
 )
 )
 {
-LOG
+LOG_PAS
 (
 (
 "
@@ -5400,7 +5397,7 @@ Remove
 aKey
 )
 ;
-LOG
+LOG_PAS
 (
 (
 "
