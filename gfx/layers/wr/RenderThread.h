@@ -194,6 +194,17 @@ WindowId
 aWindowId
 )
 ;
+RendererOGL
+*
+GetRenderer
+(
+gfx
+:
+:
+WindowId
+aWindowId
+)
+;
 void
 NewFrameReady
 (

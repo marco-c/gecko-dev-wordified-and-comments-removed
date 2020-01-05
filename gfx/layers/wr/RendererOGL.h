@@ -95,6 +95,13 @@ DrawTarget
 aTarget
 )
 ;
+void
+SetProfilerEnabled
+(
+bool
+aEnabled
+)
+;
 ~
 RendererOGL
 (
