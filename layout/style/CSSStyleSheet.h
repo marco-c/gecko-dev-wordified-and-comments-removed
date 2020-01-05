@@ -701,6 +701,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+override
 ;
 dom
 :

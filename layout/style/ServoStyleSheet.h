@@ -149,14 +149,6 @@ LoadFailed
 (
 )
 ;
-size_t
-SizeOfIncludingThis
-(
-MallocSizeOf
-aMallocSizeOf
-)
-const
-;
 RawServoStyleSheet
 *
 RawSheet

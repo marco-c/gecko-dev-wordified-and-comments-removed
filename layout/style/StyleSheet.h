@@ -445,7 +445,7 @@ aResult
 )
 const
 ;
-inline
+virtual
 size_t
 SizeOfIncludingThis
 (
