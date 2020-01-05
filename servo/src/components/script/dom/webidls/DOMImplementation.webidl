@@ -208,10 +208,8 @@ null
 ;
 *
 /
-/
-*
 [
-Throws
+Creator
 ]
 Document
 createHTMLDocument
@@ -221,7 +219,5 @@ DOMString
 title
 )
 ;
-*
-/
 }
 ;
