@@ -1,5 +1,5 @@
 var
-gEffectEasingTests
+gEasingTests
 =
 [
 {
