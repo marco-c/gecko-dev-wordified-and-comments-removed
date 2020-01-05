@@ -207,6 +207,7 @@ node
 :
 Node
 }
+pub
 fn
 apply_style
 (
