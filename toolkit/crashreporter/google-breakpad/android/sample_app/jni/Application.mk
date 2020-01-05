@@ -278,15 +278,3 @@ APP_ABI
 :
 =
 all
-APP_CXXFLAGS
-:
-=
--
-std
-=
-c
-+
-+
-11
--
-D__STDC_LIMIT_MACROS

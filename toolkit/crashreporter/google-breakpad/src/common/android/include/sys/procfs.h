@@ -289,10 +289,12 @@ defined
 (
 __mips__
 )
-__kernel_uid_t
+unsigned
+long
 pr_uid
 ;
-__kernel_gid_t
+unsigned
+long
 pr_gid
 ;
 #

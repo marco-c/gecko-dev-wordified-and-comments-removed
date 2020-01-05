@@ -7,13 +7,6 @@ COMMON_DWARF_DWARF2DIEHANDLER_H__
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 stack
 >
 #
@@ -139,7 +132,7 @@ enum
 DwarfForm
 form
 const
-uint8_t
+char
 *
 data
 uint64
@@ -380,7 +373,7 @@ enum
 DwarfForm
 form
 const
-uint8_t
+char
 *
 data
 uint64

@@ -1,13 +1,6 @@
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 string
 >
 #
@@ -198,7 +191,7 @@ ReadProgram
 void
 (
 const
-uint8_t
+char
 *
 program
 uint64
@@ -414,7 +407,7 @@ operator
 )
 (
 const
-uint8_t
+char
 *
 program
 uint64
@@ -1060,7 +1053,7 @@ appender_
 ;
 static
 const
-uint8_t
+char
 dummy_line_program_
 [
 ]
@@ -1099,7 +1092,7 @@ functions_filled_
 }
 ;
 const
-uint8_t
+char
 CUFixtureBase
 :
 :
@@ -1495,7 +1488,7 @@ DwarfForm
 ;
 static
 const
-uint8_t
+char
 buffer
 [
 10

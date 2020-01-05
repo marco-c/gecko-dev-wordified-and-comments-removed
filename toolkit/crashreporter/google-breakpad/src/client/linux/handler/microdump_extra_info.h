@@ -25,11 +25,6 @@ char
 *
 gpu_fingerprint
 ;
-const
-char
-*
-process_type
-;
 MicrodumpExtraInfo
 (
 )
@@ -43,10 +38,6 @@ product_info
 NULL
 )
 gpu_fingerprint
-(
-NULL
-)
-process_type
 (
 NULL
 )

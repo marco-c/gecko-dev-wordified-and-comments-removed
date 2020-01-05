@@ -284,9 +284,6 @@ artifacts
 ~
 *
 .
-dwo
-*
-.
 o
 lib
 *
@@ -390,16 +387,6 @@ linux
 symupload
 /
 sym_upload
-/
-src
-/
-tools
-/
-mac
-/
-dump_syms
-/
-dump_syms
 #
 Ignore
 autotools

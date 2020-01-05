@@ -478,13 +478,6 @@ AddressType
 (
 )
 ;
-AddressType
-retrieved_delta
-=
-AddressType
-(
-)
-;
 bool
 retrieved
 =
@@ -498,8 +491,6 @@ address
 object
 &
 retrieved_base
-&
-retrieved_delta
 &
 retrieved_size
 )
@@ -714,13 +705,6 @@ AddressType
 )
 ;
 AddressType
-nearest_delta
-=
-AddressType
-(
-)
-;
-AddressType
 nearest_size
 =
 AddressType
@@ -740,8 +724,6 @@ address
 nearest_object
 &
 nearest_base
-&
-nearest_delta
 &
 nearest_size
 )
@@ -1015,7 +997,6 @@ object
 &
 base
 NULL
-NULL
 )
 )
 {
@@ -1223,7 +1204,6 @@ RetrieveRangeAtIndex
 object_count
 &
 object
-NULL
 NULL
 NULL
 )
@@ -1386,7 +1366,6 @@ object_index
 object
 &
 base
-NULL
 NULL
 )
 )
