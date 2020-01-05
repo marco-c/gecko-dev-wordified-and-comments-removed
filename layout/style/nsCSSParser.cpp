@@ -57458,8 +57458,8 @@ values
 .
 SetIntValue
 (
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
-eCSSUnit_Enumerated
+NS_COLOR_CURRENTCOLOR
+eCSSUnit_EnumColor
 )
 ;
 }
@@ -57760,12 +57760,7 @@ cur
 >
 mValue
 VARIANT_COLOR
-|
-VARIANT_KEYWORD
-nsCSSProps
-:
-:
-kBorderColorKTable
+nullptr
 )
 !
 =
@@ -64778,8 +64773,8 @@ values
 .
 SetIntValue
 (
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
-eCSSUnit_Enumerated
+NS_COLOR_CURRENTCOLOR
+eCSSUnit_EnumColor
 )
 ;
 }
@@ -65264,8 +65259,8 @@ values
 .
 SetIntValue
 (
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
-eCSSUnit_Enumerated
+NS_COLOR_CURRENTCOLOR
+eCSSUnit_EnumColor
 )
 ;
 }
