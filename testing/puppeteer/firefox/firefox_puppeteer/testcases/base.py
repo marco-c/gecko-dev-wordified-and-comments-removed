@@ -685,14 +685,6 @@ try
             
 self
 .
-prefs
-.
-restore_all_prefs
-(
-)
-            
-self
-.
 _check_and_fix_leaked_handles
 (
 )
