@@ -2003,9 +2003,6 @@ SystemAllocPolicy
 CCKeyVector
 nurseryCCKeys
 ;
-using
-VarNameSet
-=
 JS
 :
 :
@@ -2025,14 +2022,6 @@ js
 :
 :
 SystemAllocPolicy
->
-;
-JS
-:
-:
-WeakCache
-<
-VarNameSet
 >
 varNames_
 ;
@@ -2994,10 +2983,6 @@ name
 )
 {
 varNames_
-.
-get
-(
-)
 .
 remove
 (
