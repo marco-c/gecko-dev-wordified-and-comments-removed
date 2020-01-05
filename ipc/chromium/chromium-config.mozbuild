@@ -131,9 +131,6 @@ OS_LIBS
 =
 [
 '
-psapi
-'
-'
 shell32
 '
 '
