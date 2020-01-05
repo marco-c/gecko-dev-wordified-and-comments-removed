@@ -151,11 +151,6 @@ amIAddonPathService
 idl
 '
 '
-amIWebInstaller
-.
-idl
-'
-'
 amIWebInstallListener
 .
 idl

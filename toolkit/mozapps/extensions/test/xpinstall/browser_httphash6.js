@@ -392,7 +392,7 @@ gInstall
 ;
 AddonManager
 .
-installAddonsFromWebpage
+installAddonFromWebpage
 (
 "
 application
@@ -407,9 +407,7 @@ selectedBrowser
 gBrowser
 .
 contentPrincipal
-[
 gInstall
-]
 )
 ;
 }
