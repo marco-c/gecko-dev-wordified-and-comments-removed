@@ -1115,7 +1115,7 @@ aHandle
 stack
 -
 >
-popAndMaybeDelete
+pop
 (
 )
 ;

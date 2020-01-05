@@ -1558,6 +1558,17 @@ IsPendingDelete
 )
 )
 {
+MOZ_ASSERT
+(
+!
+info
+-
+>
+Stack
+(
+)
+)
+;
 delete
 info
 ;
@@ -1831,7 +1842,7 @@ ThreadInfo
 info
 =
 new
-StackOwningThreadInfo
+ThreadInfo
 (
 aName
 id
