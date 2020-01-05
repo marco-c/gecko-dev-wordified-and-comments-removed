@@ -710,6 +710,7 @@ TPS_CMDLINE_CLSID
 fileSpec
 )
 ;
+let
 catman
 =
 Components

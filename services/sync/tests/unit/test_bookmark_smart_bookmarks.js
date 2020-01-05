@@ -366,12 +366,6 @@ bookmarks
 unfiledBookmarksFolder
 )
 ;
-startCount
-=
-smartBookmarkCount
-(
-)
-;
 }
 function
 serverForFoo

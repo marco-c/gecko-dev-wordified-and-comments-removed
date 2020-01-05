@@ -2783,7 +2783,7 @@ JSON
 .
 stringify
 (
-step1
+step2
 )
 )
 ;
