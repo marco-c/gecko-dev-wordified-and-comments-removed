@@ -78,6 +78,8 @@ pan
 float
 left_gain
 =
+float
+(
 cos
 (
 pan
@@ -88,10 +90,13 @@ M_PI
 .
 5
 )
+)
 ;
 float
 right_gain
 =
+float
+(
 sin
 (
 pan
@@ -101,6 +106,7 @@ M_PI
 0
 .
 5
+)
 )
 ;
 if
@@ -136,6 +142,8 @@ buf
 i
 ]
 =
+T
+(
 buf
 [
 i
@@ -149,6 +157,7 @@ i
 ]
 *
 left_gain
+)
 ;
 buf
 [
@@ -157,6 +166,8 @@ i
 1
 ]
 =
+T
+(
 buf
 [
 i
@@ -165,6 +176,7 @@ i
 ]
 *
 right_gain
+)
 ;
 }
 }
@@ -194,12 +206,15 @@ buf
 i
 ]
 =
+T
+(
 buf
 [
 i
 ]
 *
 left_gain
+)
 ;
 buf
 [
@@ -208,6 +223,8 @@ i
 1
 ]
 =
+T
+(
 buf
 [
 i
@@ -221,6 +238,7 @@ i
 ]
 *
 right_gain
+)
 ;
 }
 }
@@ -240,14 +258,7 @@ pan
 {
 cubeb_pan_stereo_buffer
 (
-reinterpret_cast
-<
-float
-*
->
-(
 buf
-)
 frames
 pan
 )
@@ -267,14 +278,7 @@ pan
 {
 cubeb_pan_stereo_buffer
 (
-reinterpret_cast
-<
-short
-*
->
-(
 buf
-)
 frames
 pan
 )

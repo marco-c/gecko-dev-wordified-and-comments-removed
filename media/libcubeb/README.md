@@ -43,6 +43,8 @@ cubeb
 )
 See
 INSTALL
+.
+md
 for
 build
 instructions

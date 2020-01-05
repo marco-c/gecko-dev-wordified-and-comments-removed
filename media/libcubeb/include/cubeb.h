@@ -16,6 +16,13 @@ stdint
 h
 >
 #
+include
+"
+cubeb_export
+.
+h
+"
+#
 if
 defined
 (
@@ -128,6 +135,21 @@ typedef
 void
 *
 cubeb_devid
+;
+typedef
+enum
+{
+CUBEB_LOG_DISABLED
+=
+0
+CUBEB_LOG_NORMAL
+=
+1
+CUBEB_LOG_VERBOSE
+=
+2
+}
+cubeb_log_level
 ;
 typedef
 struct
@@ -469,6 +491,23 @@ void
 user_ptr
 )
 ;
+typedef
+void
+(
+*
+cubeb_log_callback
+)
+(
+const
+char
+*
+fmt
+.
+.
+.
+)
+;
+CUBEB_EXPORT
 int
 cubeb_init
 (
@@ -482,6 +521,7 @@ const
 context_name
 )
 ;
+CUBEB_EXPORT
 char
 const
 *
@@ -492,6 +532,7 @@ cubeb
 context
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_get_max_channel_count
 (
@@ -503,6 +544,7 @@ uint32_t
 max_channels
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_get_min_latency
 (
@@ -516,6 +558,7 @@ uint32_t
 latency_frames
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_get_preferred_sample_rate
 (
@@ -527,6 +570,7 @@ uint32_t
 rate
 )
 ;
+CUBEB_EXPORT
 void
 cubeb_destroy
 (
@@ -535,6 +579,7 @@ cubeb
 context
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_init
 (
@@ -571,6 +616,7 @@ void
 user_ptr
 )
 ;
+CUBEB_EXPORT
 void
 cubeb_stream_destroy
 (
@@ -579,6 +625,7 @@ cubeb_stream
 stream
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_start
 (
@@ -587,6 +634,7 @@ cubeb_stream
 stream
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_stop
 (
@@ -595,6 +643,7 @@ cubeb_stream
 stream
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_get_position
 (
@@ -606,6 +655,7 @@ uint64_t
 position
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_get_latency
 (
@@ -617,6 +667,7 @@ uint32_t
 latency
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_set_volume
 (
@@ -627,6 +678,7 @@ float
 volume
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_set_panning
 (
@@ -637,6 +689,7 @@ float
 panning
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_get_current_device
 (
@@ -650,6 +703,7 @@ const
 device
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_device_destroy
 (
@@ -661,6 +715,7 @@ cubeb_device
 devices
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_stream_register_device_changed_callback
 (
@@ -671,6 +726,7 @@ cubeb_device_changed_callback
 device_changed_callback
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_enumerate_devices
 (
@@ -685,6 +741,7 @@ cubeb_device_collection
 collection
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_device_collection_destroy
 (
@@ -693,6 +750,7 @@ cubeb_device_collection
 collection
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_device_info_destroy
 (
@@ -701,6 +759,7 @@ cubeb_device_info
 info
 )
 ;
+CUBEB_EXPORT
 int
 cubeb_register_device_collection_changed
 (
@@ -714,6 +773,16 @@ callback
 void
 *
 user_ptr
+)
+;
+CUBEB_EXPORT
+int
+cubeb_set_log_callback
+(
+cubeb_log_level
+log_level
+cubeb_log_callback
+log_callback
 )
 ;
 #
