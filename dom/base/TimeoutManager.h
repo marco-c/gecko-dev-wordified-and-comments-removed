@@ -247,6 +247,8 @@ ResetTimersForThrottleReduction
 int32_t
 DOMMinTimeoutValue
 (
+bool
+aIsTracking
 )
 const
 ;
@@ -435,8 +437,10 @@ ResetTimersForThrottleReduction
 (
 int32_t
 aPreviousThrottleDelayMS
-int32_t
-aMinTimeoutValueMS
+const
+TimeoutManager
+&
+aTimeoutManager
 SortBy
 aSortBy
 nsIEventTarget
