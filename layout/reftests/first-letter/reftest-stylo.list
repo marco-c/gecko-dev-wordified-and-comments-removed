@@ -288,6 +288,7 @@ dynamic
 2
 .
 html
+fails
 =
 =
 dynamic
@@ -300,6 +301,7 @@ dynamic
 3a
 .
 html
+fails
 =
 =
 dynamic
@@ -489,6 +491,7 @@ xhtml
 1
 .
 xhtml
+fails
 =
 =
 379799
