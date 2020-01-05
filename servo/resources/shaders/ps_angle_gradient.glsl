@@ -56,10 +56,6 @@ MPL
 .
 *
 /
-#
-define
-MAX_STOPS_PER_ANGLE_GRADIENT
-8
 flat
 varying
 int
