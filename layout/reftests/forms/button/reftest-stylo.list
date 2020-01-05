@@ -70,7 +70,6 @@ html
 #
 Bug
 1341086
-fails
 =
 =
 min
@@ -113,7 +112,6 @@ fuzz
 is
 needed
 .
-fails
 =
 =
 overflow
@@ -486,7 +484,6 @@ size
 ltr
 .
 html
-fails
 =
 =
 width
@@ -554,7 +551,6 @@ size
 rtl
 .
 html
-fails
 =
 =
 width

@@ -27,7 +27,6 @@ button
 valid
 .
 html
-fails
 =
 =
 button
@@ -40,7 +39,6 @@ button
 invalid
 .
 html
-fails
 =
 =
 button
@@ -53,7 +51,6 @@ button
 disabled
 .
 html
-fails
 =
 =
 button
@@ -91,7 +88,6 @@ not
 disabled
 .
 html
-fails
 =
 =
 button
@@ -104,7 +100,6 @@ button
 button
 .
 html
-fails
 =
 =
 button
@@ -117,7 +112,6 @@ button
 reset
 .
 html
-fails
 =
 =
 button
@@ -134,7 +128,6 @@ type
 invalid
 .
 html
-fails
 =
 =
 button
@@ -151,7 +144,6 @@ type
 barred
 .
 html
-fails
 =
 =
 button
@@ -172,7 +164,6 @@ fieldset
 1
 .
 html
-fails
 =
 =
 button
@@ -210,7 +201,6 @@ fieldset
 legend
 .
 html
-fails
 =
 =
 button
