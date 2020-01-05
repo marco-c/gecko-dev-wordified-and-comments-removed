@@ -1160,7 +1160,7 @@ mIndex
 :
 glyph
 .
-codepoint
+index
 as
 uint32_t
 mPosition

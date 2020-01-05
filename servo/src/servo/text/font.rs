@@ -4,6 +4,12 @@ create_test_font
 test_font_bin
 ;
 import
+glyph
+:
+:
+GlyphIndex
+;
+import
 vec_to_ptr
 =
 vec
@@ -217,7 +223,7 @@ char
 >
 option
 <
-uint
+GlyphIndex
 >
 {
 #
@@ -368,7 +374,7 @@ glyphs
 .
 index
 as
-uint
+GlyphIndex
 ;
 #
 debug
@@ -423,7 +429,7 @@ glyph_h_advance
 (
 glyph
 :
-uint
+GlyphIndex
 )
 -
 >

@@ -830,7 +830,7 @@ int
 )
 }
 fn
-should_get_glyph_codepoints
+should_get_glyph_indexes
 (
 )
 {
@@ -873,7 +873,7 @@ glyph
 |
 glyph
 .
-codepoint
+index
 }
 ;
 assert
