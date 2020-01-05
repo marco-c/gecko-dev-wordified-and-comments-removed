@@ -1792,9 +1792,6 @@ CreateFromFile
 (
 aWindow
 aFile
-aBag
-.
-mTemporary
 )
 ;
 blob
