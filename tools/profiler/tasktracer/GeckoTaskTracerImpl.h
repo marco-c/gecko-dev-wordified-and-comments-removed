@@ -159,6 +159,7 @@ mNext
 struct
 TraceInfo
 {
+explicit
 TraceInfo
 (
 uint32_t

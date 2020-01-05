@@ -107,6 +107,7 @@ AutoSaveCurTraceInfo
 {
 public
 :
+explicit
 AutoSourceEvent
 (
 SourceEventType
@@ -169,7 +170,6 @@ TimeStamp
 aStartTime
 )
 ;
-const
 PRTime
 GetStartTime
 (
