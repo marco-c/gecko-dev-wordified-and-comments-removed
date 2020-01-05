@@ -13063,7 +13063,11 @@ mStreamIDHash
 .
 Get
 (
-1
+mUseH2Deps
+?
+0xD
+:
+0x3
 )
 ;
 nsAHttpTransaction
