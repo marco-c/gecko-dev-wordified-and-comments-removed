@@ -500,6 +500,18 @@ std
 sync
 :
 :
+atomic
+:
+:
+AtomicBool
+;
+use
+std
+:
+:
+sync
+:
+:
 mpsc
 :
 :
@@ -1549,6 +1561,7 @@ f32
 f64
 String
 Url
+AtomicBool
 )
 ;
 no_jsmanaged_fields
