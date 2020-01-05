@@ -681,6 +681,14 @@ h
 "
 \
 -
+match
+"
+SheetParsingMode
+.
+h
+"
+\
+-
 blacklist
 -
 type

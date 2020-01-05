@@ -326,7 +326,6 @@ StyleContext
 '
 a
 GeckoSelectorImpl
-GeckoComputedValues
 >
 for
 StandaloneStyleContext
