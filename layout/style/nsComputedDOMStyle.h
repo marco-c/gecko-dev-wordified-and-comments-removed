@@ -269,13 +269,6 @@ aPropName
 )
 override
 ;
-enum
-StyleType
-{
-eDefaultOnly
-eAll
-}
-;
 nsComputedDOMStyle
 (
 mozilla
@@ -294,8 +287,6 @@ aPseudoElt
 nsIPresShell
 *
 aPresShell
-StyleType
-aStyleType
 )
 ;
 virtual
@@ -332,10 +323,6 @@ aPseudo
 nsIPresShell
 *
 aPresShell
-StyleType
-aStyleType
-=
-eAll
 )
 ;
 enum
@@ -367,10 +354,6 @@ aPseudo
 nsIPresShell
 *
 aPresShell
-StyleType
-aStyleType
-=
-eAll
 )
 {
 return
@@ -379,7 +362,6 @@ DoGetStyleContextNoFlush
 aElement
 aPseudo
 aPresShell
-aStyleType
 eWithAnimation
 )
 ;
@@ -406,10 +388,6 @@ aPseudo
 nsIPresShell
 *
 aPresShell
-StyleType
-aStyleType
-=
-eAll
 )
 {
 return
@@ -418,7 +396,6 @@ DoGetStyleContextNoFlush
 aElement
 aPseudo
 aPresShell
-aStyleType
 eWithoutAnimation
 )
 ;
@@ -655,8 +632,6 @@ aPseudo
 nsIPresShell
 *
 aPresShell
-StyleType
-aStyleType
 AnimationFlag
 aAnimationFlag
 )
@@ -3796,9 +3771,6 @@ nsIPresShell
 *
 mPresShell
 ;
-StyleType
-mStyleType
-;
 uint64_t
 mStyleContextGeneration
 ;
@@ -3840,16 +3812,6 @@ aPseudoElt
 nsIPresShell
 *
 aPresShell
-nsComputedDOMStyle
-:
-:
-StyleType
-aStyleType
-=
-nsComputedDOMStyle
-:
-:
-eAll
 )
 ;
 #
