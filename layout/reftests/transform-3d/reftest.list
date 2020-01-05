@@ -859,12 +859,6 @@ origin
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 perspective
@@ -1525,12 +1519,6 @@ intermittently
 fuzzy
 on
 Mac
-fails
--
-if
-(
-webrender
-)
 =
 =
 animate
