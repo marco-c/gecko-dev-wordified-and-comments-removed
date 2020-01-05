@@ -386,6 +386,7 @@ cache
 .
 insert
 (
+&
 1
 one
 )
@@ -395,6 +396,7 @@ cache
 .
 find
 (
+&
 1
 )
 .
@@ -407,6 +409,7 @@ cache
 .
 find
 (
+&
 2
 )
 .
@@ -418,6 +421,7 @@ cache
 .
 find_or_create
 (
+&
 2
 |
 _v
@@ -432,6 +436,7 @@ cache
 .
 find
 (
+&
 2
 )
 .
@@ -444,6 +449,7 @@ cache
 .
 find
 (
+&
 1
 )
 .
