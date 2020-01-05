@@ -919,6 +919,17 @@ uint32_t
 aIndex
 )
 ;
+#
+ifdef
+CharT_is_PRUnichar
+using
+nsTSubstring_CharT
+:
+:
+StripChars
+;
+#
+endif
 void
 StripChars
 (
