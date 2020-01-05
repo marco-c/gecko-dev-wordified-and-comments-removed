@@ -4541,6 +4541,12 @@ IsInputDateTimeEnabled
 ;
 static
 bool
+IsInputDateTimeOthersEnabled
+(
+)
+;
+static
+bool
 IsInputNumberEnabled
 (
 )
