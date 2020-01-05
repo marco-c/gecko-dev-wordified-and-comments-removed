@@ -16,6 +16,9 @@ aEntrySize
 :
 mEntries
 (
+mozilla
+:
+:
 MakeUnique
 <
 ProfileEntry

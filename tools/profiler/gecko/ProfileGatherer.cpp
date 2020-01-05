@@ -33,13 +33,6 @@ h
 #
 include
 "
-GeckoSampler
-.
-h
-"
-#
-include
-"
 nsLocalFile
 .
 h
@@ -48,6 +41,13 @@ h
 include
 "
 nsIFileStreams
+.
+h
+"
+#
+include
+"
+platform
 .
 h
 "
@@ -89,7 +89,7 @@ ProfileGatherer
 :
 ProfileGatherer
 (
-GeckoSampler
+Sampler
 *
 aSampler
 )

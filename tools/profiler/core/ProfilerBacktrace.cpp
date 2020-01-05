@@ -87,6 +87,9 @@ UniqueStacks
 aUniqueStacks
 )
 {
+mozilla
+:
+:
 MutexAutoLock
 lock
 (

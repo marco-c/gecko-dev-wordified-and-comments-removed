@@ -227,13 +227,6 @@ h
 #
 include
 "
-GeckoSampler
-.
-h
-"
-#
-include
-"
 mozilla
 /
 TimeStamp

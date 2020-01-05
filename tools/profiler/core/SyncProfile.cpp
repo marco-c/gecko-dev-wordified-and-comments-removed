@@ -70,6 +70,9 @@ ShouldDestroy
 (
 )
 {
+mozilla
+:
+:
 MutexAutoLock
 lock
 (
