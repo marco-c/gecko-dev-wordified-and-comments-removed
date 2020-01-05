@@ -59,6 +59,13 @@ SM_CONVERTIBLESLATEMODE
 define
 SM_SYSTEMDOCKED
 0x00002004
+#
+endif
+#
+if
+WINVER
+<
+0x0601
 typedef
 enum
 _AR_STATE
