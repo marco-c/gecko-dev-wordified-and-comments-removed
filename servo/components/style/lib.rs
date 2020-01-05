@@ -51,6 +51,10 @@ extern
 crate
 app_units
 ;
+extern
+crate
+atomic_refcell
+;
 #
 [
 allow
@@ -364,10 +368,6 @@ unicode_segmentation
 pub
 mod
 animation
-;
-pub
-mod
-atomic_refcell
 ;
 #
 [

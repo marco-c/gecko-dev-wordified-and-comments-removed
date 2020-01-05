@@ -162,6 +162,13 @@ app_units
 .
 3
 "
+atomic_refcell
+=
+"
+0
+.
+1
+"
 bitflags
 =
 "

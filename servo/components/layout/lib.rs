@@ -82,6 +82,10 @@ extern
 crate
 app_units
 ;
+extern
+crate
+atomic_refcell
+;
 #
 [
 allow

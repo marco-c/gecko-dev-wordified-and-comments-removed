@@ -4,6 +4,10 @@ app_units
 ;
 extern
 crate
+atomic_refcell
+;
+extern
+crate
 cssparser
 ;
 extern

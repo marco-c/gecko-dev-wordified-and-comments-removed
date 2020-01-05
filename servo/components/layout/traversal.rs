@@ -1,4 +1,10 @@
 use
+atomic_refcell
+:
+:
+AtomicRefCell
+;
+use
 construct
 :
 :
@@ -57,15 +63,6 @@ servo_config
 :
 :
 opts
-;
-use
-style
-:
-:
-atomic_refcell
-:
-:
-AtomicRefCell
 ;
 use
 style
