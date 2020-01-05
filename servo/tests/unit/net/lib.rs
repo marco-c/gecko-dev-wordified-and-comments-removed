@@ -26,6 +26,10 @@ extern
 crate
 util
 ;
+extern
+crate
+time
+;
 #
 [
 cfg
@@ -65,4 +69,14 @@ test
 ]
 mod
 resource_task
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+hsts
 ;

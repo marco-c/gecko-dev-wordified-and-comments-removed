@@ -170,6 +170,10 @@ resource_task
 ;
 pub
 mod
+hsts
+;
+pub
+mod
 storage_task
 ;
 pub
