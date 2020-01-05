@@ -187,6 +187,13 @@ host_defines
         
 self
 .
+delayed_generated_files
+=
+[
+]
+        
+self
+.
 fh
 =
 FileAvoidWrite
@@ -874,6 +881,32 @@ outputs
 return
 False
             
+if
+'
+application
+.
+ini
+.
+h
+'
+in
+obj
+.
+outputs
+:
+                
+backend_file
+.
+delayed_generated_files
+.
+append
+(
+obj
+)
+            
+else
+:
+                
 self
 .
 _process_generated_file
@@ -981,6 +1014,22 @@ items
 )
 )
 :
+            
+for
+obj
+in
+backend_file
+.
+delayed_generated_files
+:
+                
+self
+.
+_process_generated_file
+(
+backend_file
+obj
+)
             
 with
 self
@@ -1385,10 +1434,6 @@ obj
 skip_directories
 =
 (
-            
-'
-build
-'
             
 '
 layout
