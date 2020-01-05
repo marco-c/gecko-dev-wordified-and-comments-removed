@@ -1333,7 +1333,7 @@ dispatch
 (
 Actions
 .
-toggleFilter
+toggleFilterType
 (
 "
 all

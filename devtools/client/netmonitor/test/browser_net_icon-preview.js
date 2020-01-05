@@ -142,7 +142,7 @@ dispatch
 (
 Actions
 .
-toggleFilter
+toggleFilterType
 (
 "
 images

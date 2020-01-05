@@ -322,7 +322,7 @@ dispatch
 (
 Actions
 .
-toggleFilter
+toggleFilterType
 (
 evt
 .

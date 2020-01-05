@@ -172,6 +172,13 @@ componentWillUnmount
 (
 )
 {
+if
+(
+this
+.
+shortcuts
+)
+{
 this
 .
 shortcuts
@@ -180,6 +187,7 @@ destroy
 (
 )
 ;
+}
 if
 (
 this

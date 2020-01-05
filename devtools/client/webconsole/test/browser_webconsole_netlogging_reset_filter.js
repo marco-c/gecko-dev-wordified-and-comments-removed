@@ -313,7 +313,7 @@ dispatch
 (
 Actions
 .
-toggleFilter
+toggleFilterType
 (
 "
 js
