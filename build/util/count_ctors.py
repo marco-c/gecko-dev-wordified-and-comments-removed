@@ -347,12 +347,18 @@ f
 )
                     
 "
+alertChangeType
+"
+:
+"
+absolute
+"
+                    
+"
 alertThreshold
 "
 :
-0
-.
-25
+3
                 
 }
 ]
