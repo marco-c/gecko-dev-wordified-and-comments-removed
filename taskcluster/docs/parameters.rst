@@ -681,7 +681,7 @@ of
 the
 functions
 in
-tascluster
+taskcluster
 /
 taskgraph
 /
