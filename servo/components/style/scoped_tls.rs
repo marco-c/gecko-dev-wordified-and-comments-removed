@@ -6,6 +6,14 @@ allow
 unsafe_code
 )
 ]
+#
+!
+[
+deny
+(
+missing_docs
+)
+]
 use
 rayon
 ;
@@ -27,7 +35,7 @@ struct
 ScopedTLS
 <
 '
-a
+scope
 T
 :
 Send
@@ -37,7 +45,7 @@ pool
 :
 &
 '
-a
+scope
 rayon
 :
 :
@@ -61,7 +69,7 @@ unsafe
 impl
 <
 '
-a
+scope
 T
 :
 Send
@@ -71,7 +79,7 @@ for
 ScopedTLS
 <
 '
-a
+scope
 T
 >
 {
@@ -79,7 +87,7 @@ T
 impl
 <
 '
-a
+scope
 T
 :
 Send
@@ -87,7 +95,7 @@ Send
 ScopedTLS
 <
 '
-a
+scope
 T
 >
 {
@@ -99,7 +107,7 @@ p
 :
 &
 '
-a
+scope
 rayon
 :
 :

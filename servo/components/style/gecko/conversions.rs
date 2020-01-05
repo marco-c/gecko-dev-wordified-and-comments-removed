@@ -19,10 +19,7 @@ gecko
 values
 :
 :
-{
 convert_rgba_to_nscolor
-StyleCoordHelpers
-}
 ;
 use
 gecko_bindings

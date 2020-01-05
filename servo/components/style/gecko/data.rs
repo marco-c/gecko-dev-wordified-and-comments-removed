@@ -240,6 +240,17 @@ PerDocumentStyleDataImpl
 lazy_static
 !
 {
+/
+/
+/
+The
+number
+of
+layout
+threads
+computed
+statically
+.
 pub
 static
 ref
