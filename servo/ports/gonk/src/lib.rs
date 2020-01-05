@@ -48,11 +48,7 @@ servo_net
 ;
 extern
 crate
-"
 msg
-"
-as
-servo_msg
 ;
 #
 [
@@ -131,7 +127,7 @@ test
 )
 ]
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -152,7 +148,7 @@ test
 )
 ]
 use
-servo_msg
+msg
 :
 :
 constellation_msg

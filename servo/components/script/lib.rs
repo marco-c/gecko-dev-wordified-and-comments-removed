@@ -171,14 +171,6 @@ style
 ;
 extern
 crate
-"
-msg
-"
-as
-servo_msg
-;
-extern
-crate
 url
 ;
 extern

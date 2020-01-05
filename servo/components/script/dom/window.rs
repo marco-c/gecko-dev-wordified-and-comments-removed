@@ -345,7 +345,7 @@ TimerCallback
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -354,7 +354,7 @@ compositor_msg
 ScriptListener
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

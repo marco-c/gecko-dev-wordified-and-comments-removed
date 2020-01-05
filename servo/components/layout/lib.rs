@@ -128,11 +128,7 @@ servo_net
 ;
 extern
 crate
-"
 msg
-"
-as
-servo_msg
 ;
 #
 [

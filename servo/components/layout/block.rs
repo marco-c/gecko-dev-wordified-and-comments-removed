@@ -210,7 +210,7 @@ Encodable
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg

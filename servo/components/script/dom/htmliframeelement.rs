@@ -239,7 +239,7 @@ Page
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -252,7 +252,7 @@ ConstellationChan
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -267,7 +267,7 @@ IFrameUnsandboxed
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

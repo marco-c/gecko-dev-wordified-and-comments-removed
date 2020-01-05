@@ -111,7 +111,7 @@ c_void
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -123,7 +123,7 @@ KeyModifiers
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -135,7 +135,7 @@ PaintState
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

@@ -226,7 +226,7 @@ ScriptControlChan
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -238,7 +238,7 @@ LayerId
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -251,7 +251,7 @@ ScrollPolicy
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -263,7 +263,7 @@ NavigationDirection
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -274,7 +274,7 @@ as
 ConstellationMsg
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -288,7 +288,7 @@ LoadData
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

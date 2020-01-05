@@ -33,7 +33,7 @@ size
 TypedSize2D
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -44,7 +44,7 @@ as
 ConstellationMsg
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

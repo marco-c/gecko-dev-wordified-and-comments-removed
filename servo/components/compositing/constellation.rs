@@ -97,7 +97,7 @@ ScriptTaskFactory
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -106,7 +106,7 @@ compositor_msg
 LayerId
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -119,7 +119,7 @@ Failure
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -131,7 +131,7 @@ NavigationDirection
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -144,7 +144,7 @@ KeyModifiers
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -156,7 +156,7 @@ NavigationType
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -168,7 +168,7 @@ PipelineId
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -180,7 +180,7 @@ WindowSizeData
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

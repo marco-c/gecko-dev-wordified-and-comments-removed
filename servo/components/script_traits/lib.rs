@@ -36,11 +36,7 @@ libc
 ;
 extern
 crate
-"
 msg
-"
-as
-servo_msg
 ;
 extern
 crate
@@ -75,7 +71,7 @@ libc
 c_void
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -89,7 +85,7 @@ WindowSizeData
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -104,7 +100,7 @@ KeyModifiers
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -113,7 +109,7 @@ constellation_msg
 PipelineExitType
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg

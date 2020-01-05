@@ -318,7 +318,7 @@ hyper
 mime
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg

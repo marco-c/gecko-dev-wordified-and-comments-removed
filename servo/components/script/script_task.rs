@@ -522,7 +522,7 @@ script_traits
 ScriptTaskFactory
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -538,7 +538,7 @@ PerformingLayout
 }
 ;
 use
-servo_msg
+msg
 :
 :
 compositor_msg
@@ -550,7 +550,7 @@ ScriptListener
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -561,7 +561,7 @@ ConstellationChan
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -575,7 +575,7 @@ SubpageId
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -590,7 +590,7 @@ KeyState
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -605,7 +605,7 @@ ALT
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
@@ -616,7 +616,7 @@ PipelineExitType
 }
 ;
 use
-servo_msg
+msg
 :
 :
 constellation_msg
