@@ -394,9 +394,6 @@ CreateConfig
 EGLConfig
 *
 aConfig
-nsIWidget
-*
-aWidget
 )
 ;
 #
@@ -2314,9 +2311,6 @@ EGLConfig
 aConfig
 int32_t
 depth
-nsIWidget
-*
-aWidget
 )
 {
 EGLConfig
@@ -2607,9 +2601,6 @@ CreateConfig
 EGLConfig
 *
 aConfig
-nsIWidget
-*
-aWidget
 )
 {
 int32_t
@@ -2634,7 +2625,6 @@ CreateConfig
 (
 aConfig
 depth
-aWidget
 )
 )
 {
@@ -2654,7 +2644,6 @@ CreateConfig
 (
 aConfig
 24
-aWidget
 )
 ;
 }
@@ -2671,7 +2660,6 @@ CreateConfig
 (
 aConfig
 16
-aWidget
 )
 ;
 }
@@ -2916,7 +2904,6 @@ CreateConfig
 (
 &
 config
-aWidget
 )
 )
 {
@@ -3133,14 +3120,6 @@ CreateConfig
 (
 &
 config
-static_cast
-<
-nsIWidget
-*
->
-(
-aWindow
-)
 )
 )
 {
