@@ -209,19 +209,19 @@ use
 dom
 :
 :
-clientrect
+domrect
 :
 :
-ClientRect
+DOMRect
 ;
 use
 dom
 :
 :
-clientrectlist
+domrectlist
 :
 :
-ClientRectList
+DOMRectList
 ;
 use
 dom
@@ -5344,7 +5344,7 @@ self
 >
 Temporary
 <
-ClientRectList
+DOMRectList
 >
 {
 let
@@ -5392,7 +5392,7 @@ Vec
 <
 Root
 <
-ClientRect
+DOMRect
 >
 >
 =
@@ -5408,7 +5408,7 @@ map
 r
 |
 {
-ClientRect
+DOMRect
 :
 :
 new
@@ -5460,7 +5460,7 @@ collect
 (
 )
 ;
-ClientRectList
+DOMRectList
 :
 :
 new
@@ -5529,7 +5529,7 @@ self
 >
 Temporary
 <
-ClientRect
+DOMRect
 >
 {
 let
@@ -5570,7 +5570,7 @@ get_bounding_content_box
 (
 )
 ;
-ClientRect
+DOMRect
 :
 :
 new
