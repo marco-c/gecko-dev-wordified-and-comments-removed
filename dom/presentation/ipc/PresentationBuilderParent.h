@@ -153,6 +153,12 @@ nsIPresentationSessionTransportBuilderListener
 >
 mBuilderListener
 ;
+nsCOMPtr
+<
+nsIPresentationSessionTransport
+>
+mIPCSessionTransport
+;
 }
 ;
 }

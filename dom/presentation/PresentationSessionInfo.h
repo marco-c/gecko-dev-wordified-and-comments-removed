@@ -675,6 +675,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPRESENTATIONCONTROLCHANNELLISTENER
 NS_DECL_NSISERVERSOCKETLISTENER
 NS_DECL_NSILISTNETWORKADDRESSESLISTENER
+NS_DECL_NSIPRESENTATIONSESSIONTRANSPORTCALLBACK
 PresentationControllingInfo
 (
 const
@@ -760,6 +761,13 @@ ContinueReconnect
 (
 )
 ;
+nsresult
+NotifyReconnectResult
+(
+nsresult
+aStatus
+)
+;
 nsCOMPtr
 <
 nsIServerSocket
@@ -774,6 +782,11 @@ mReconnectCallback
 ;
 bool
 mIsReconnecting
+=
+false
+;
+bool
+mDoReconnectAfterClose
 =
 false
 ;

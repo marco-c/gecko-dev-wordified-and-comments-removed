@@ -315,6 +315,17 @@ aSessionId
 )
 ;
 async
+NotifyCloseSessionTransport
+(
+nsString
+aSessionId
+uint8_t
+aRole
+nsresult
+aReason
+)
+;
+async
 PPresentationBuilder
 (
 nsString
