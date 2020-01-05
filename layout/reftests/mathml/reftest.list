@@ -3813,7 +3813,7 @@ skiaContent
 1
 80
 )
-fails
+skip
 -
 if
 (
@@ -3833,6 +3833,11 @@ multiscripts
 ref
 .
 html
+#
+Windows
+:
+bug
+1314684
 =
 =
 mathml
