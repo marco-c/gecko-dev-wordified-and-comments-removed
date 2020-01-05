@@ -1030,6 +1030,11 @@ mozilla
 :
 TraversalRootBehavior
 root_behavior
+mozilla
+:
+:
+TraversalRestyleBehavior
+restyle_behavior
 )
 SERVO_BINDING_FUNC
 (
