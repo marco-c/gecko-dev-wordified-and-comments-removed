@@ -319,6 +319,7 @@ copy
 layout_task
 :
 LayoutTask
++
 compositor
 :
 S
@@ -440,8 +441,6 @@ Content
 C
 :
 Compositor
-send
-copy
 >
 {
 let
@@ -514,6 +513,7 @@ new
 layout_task
 :
 LayoutTask
++
 compositor
 :
 C

@@ -223,9 +223,9 @@ C
 :
 Compositor
 send
-copy
 >
 (
++
 compositor
 :
 C
