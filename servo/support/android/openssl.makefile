@@ -57,7 +57,7 @@ openssl
 .
 0
 .
-1k
+1t
 /
 libssl
 .
@@ -68,7 +68,7 @@ openssl
 .
 0
 .
-1k
+1t
 /
 libssl
 .
@@ -80,7 +80,7 @@ openssl
 .
 0
 .
-1k
+1t
 /
 Configure
 .
@@ -97,7 +97,7 @@ openssl
 .
 0
 .
-1k
+1t
 /
 Configure
 :
@@ -120,7 +120,7 @@ openssl
 .
 0
 .
-1k
+1t
 .
 tar
 .
@@ -134,7 +134,7 @@ openssl
 .
 0
 .
-1k
+1t
 .
 tar
 .
