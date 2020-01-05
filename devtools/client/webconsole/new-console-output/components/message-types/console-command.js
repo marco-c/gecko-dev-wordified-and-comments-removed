@@ -92,11 +92,6 @@ PropTypes
 bool
 .
 isRequired
-serviceContainer
-:
-PropTypes
-.
-object
 }
 ;
 ConsoleCommand
@@ -121,7 +116,6 @@ autoscroll
 indent
 message
 timestampsVisible
-serviceContainer
 }
 =
 props
@@ -137,6 +131,13 @@ messageBody
 }
 =
 message
+;
+const
+{
+serviceContainer
+}
+=
+props
 ;
 return
 Message

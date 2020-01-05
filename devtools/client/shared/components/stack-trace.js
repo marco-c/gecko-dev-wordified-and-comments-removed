@@ -189,11 +189,6 @@ onViewSourceInScratchpad
 PropTypes
 .
 func
-sourceMapService
-:
-PropTypes
-.
-object
 }
 render
 (
@@ -204,7 +199,6 @@ let
 stacktrace
 onViewSourceInDebugger
 onViewSourceInScratchpad
-sourceMapService
 }
 =
 this
@@ -355,7 +349,6 @@ source
 onViewSourceInScratchpad
 :
 onViewSourceInDebugger
-sourceMapService
 }
 )
 "
