@@ -3082,6 +3082,15 @@ vr
 VRControllerState_t
 state
 ;
+if
+(
+!
+mOpenVRInstalled
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 mVRSystem
