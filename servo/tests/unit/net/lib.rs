@@ -92,6 +92,16 @@ test
 )
 ]
 mod
+file_loader
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
 fetch
 ;
 #
