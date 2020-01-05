@@ -1108,13 +1108,6 @@ keyedHistograms
 .
 .
 }
-events
-:
-{
-.
-.
-.
-}
 }
 "
 gpu
