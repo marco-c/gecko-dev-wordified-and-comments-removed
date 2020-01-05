@@ -411,6 +411,7 @@ GetPose
 (
 )
 ;
+virtual
 void
 SetHand
 (
