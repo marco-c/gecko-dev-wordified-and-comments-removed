@@ -7340,7 +7340,7 @@ self
 .
 log
 .
-warning
+error
 (
 '
 Could
