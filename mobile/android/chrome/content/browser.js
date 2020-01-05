@@ -33480,6 +33480,7 @@ cert
 }
 )
 )
+{
 result
 .
 verifier
@@ -33499,6 +33500,13 @@ verified_by_you
 "
 )
 ;
+result
+.
+securityException
+=
+true
+;
+}
 return
 result
 ;
