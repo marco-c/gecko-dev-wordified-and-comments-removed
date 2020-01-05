@@ -2144,6 +2144,15 @@ ownKeys
 \
 macro
 (
+Object_valueOf
+Object_valueOf
+"
+Object_valueOf
+"
+)
+\
+macro
+(
 parseFloat
 parseFloat
 "

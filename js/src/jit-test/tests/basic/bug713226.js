@@ -84,12 +84,10 @@ function
 s
 )
 {
+print
 (
-g
-)
-+
-=
 s
+)
 ;
 }
 ;

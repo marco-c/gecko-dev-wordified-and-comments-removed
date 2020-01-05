@@ -259,8 +259,7 @@ undefined
 {
 ToNumber
 :
-{
-}
+5
 }
 [
 ]
