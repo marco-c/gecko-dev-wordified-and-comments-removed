@@ -332,6 +332,12 @@ NotifyD3D9DeviceReset
 (
 )
 ;
+static
+void
+PreloadAttachmentsOnCompositorThread
+(
+)
+;
 private
 :
 IDXGIAdapter1
