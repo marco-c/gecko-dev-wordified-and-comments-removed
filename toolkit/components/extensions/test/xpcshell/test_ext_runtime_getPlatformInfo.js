@@ -40,9 +40,6 @@ linux
 "
 openbsd
 "
-"
-gonk
-"
 ]
 ;
 let

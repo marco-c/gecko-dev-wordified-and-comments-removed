@@ -115,9 +115,6 @@ file
 ftp
 "
 "
-app
-"
-"
 data
 "
 ]
