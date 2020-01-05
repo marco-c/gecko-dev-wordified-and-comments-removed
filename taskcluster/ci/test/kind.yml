@@ -1,4 +1,4 @@
-implementation
+loader
 :
 taskgraph
 .
@@ -6,7 +6,7 @@ task
 .
 test
 :
-TestTask
+load_tasks
 kind
 -
 dependencies

@@ -53,7 +53,7 @@ MPL
 0
 /
 .
-implementation
+loader
 :
 taskgraph
 .
@@ -61,7 +61,7 @@ task
 .
 beetmover_checksums
 :
-BeetmoverChecksumsTask
+load_tasks
 transforms
 :
 -
