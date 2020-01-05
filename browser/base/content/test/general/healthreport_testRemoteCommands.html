@@ -101,12 +101,12 @@ arg
 =
 =
 =
-'
+"
 [
 object
 Array
 ]
-'
+"
 ;
 }
 function
@@ -614,7 +614,7 @@ matches
 }
 }
 return
-true
+valid
 ;
 }
 function
@@ -777,8 +777,6 @@ payloadType
 prefs
 "
 validateResponse
-:
-function
 (
 payload
 )
@@ -811,8 +809,6 @@ payloadType
 prefs
 "
 validateResponse
-:
-function
 (
 payload
 )
@@ -848,8 +844,6 @@ payloadType
 prefs
 "
 validateResponse
-:
-function
 (
 payload
 )
@@ -898,8 +892,6 @@ ping
 data
 "
 validateResponse
-:
-function
 (
 payload
 )
@@ -931,8 +923,6 @@ payloadType
 prefs
 "
 validateResponse
-:
-function
 (
 payload
 )
@@ -970,8 +960,6 @@ payloadType
 prefs
 "
 validateResponse
-:
-function
 (
 payload
 )
@@ -1017,8 +1005,6 @@ environment
 data
 "
 validateResponse
-:
-function
 (
 payload
 )
@@ -1063,8 +1049,6 @@ ping
 data
 "
 validateResponse
-:
-function
 (
 payload
 )
@@ -1106,8 +1090,6 @@ ping
 list
 "
 validateResponse
-:
-function
 (
 payload
 )
@@ -1239,10 +1221,8 @@ ping
 data
 "
 validateResponse
-:
-function
 (
-payload
+payload2
 )
 {
 return
@@ -1252,7 +1232,7 @@ TEST_PINGS
 [
 i
 ]
-payload
+payload2
 .
 pingData
 )
@@ -1445,13 +1425,7 @@ type
 testResult
 "
 info
-:
-info
 pass
-:
-pass
-error
-:
 error
 }
 ;
@@ -1468,8 +1442,6 @@ FirefoxHealthReportTestResponse
 detail
 :
 {
-data
-:
 data
 }
 bubbles
@@ -1521,8 +1493,6 @@ FirefoxHealthReportTestResponse
 detail
 :
 {
-data
-:
 data
 }
 bubbles
@@ -1597,8 +1567,6 @@ CustomEvent
 RemoteHealthReportCommand
 "
 {
-detail
-:
 detail
 bubbles
 :
