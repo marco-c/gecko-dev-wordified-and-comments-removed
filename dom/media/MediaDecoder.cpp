@@ -5140,9 +5140,15 @@ NotifyDownloadEnded
 status
 =
 %
-x
 "
+PRIx32
+static_cast
+<
+uint32_t
+>
+(
 aStatus
+)
 )
 ;
 if
