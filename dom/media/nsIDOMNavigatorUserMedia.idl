@@ -116,6 +116,11 @@ attribute
 DOMString
 rawId
 ;
+readonly
+attribute
+boolean
+scary
+;
 }
 ;
 [

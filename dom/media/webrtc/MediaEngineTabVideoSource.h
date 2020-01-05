@@ -89,6 +89,17 @@ nsACString_internal
 const
 override
 ;
+bool
+GetScary
+(
+)
+const
+override
+{
+return
+true
+;
+}
 nsresult
 Allocate
 (
