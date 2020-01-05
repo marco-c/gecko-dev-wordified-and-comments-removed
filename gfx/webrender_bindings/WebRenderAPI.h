@@ -115,6 +115,8 @@ CompositorWidget
 &
 &
 aWidget
+LayoutDeviceIntSize
+aSize
 )
 ;
 wr

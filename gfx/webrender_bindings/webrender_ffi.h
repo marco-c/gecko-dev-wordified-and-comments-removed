@@ -1368,6 +1368,10 @@ wr_window_new
 (
 WrWindowId
 window_id
+uint32_t
+window_width
+uint32_t
+window_height
 void
 *
 aGLContext

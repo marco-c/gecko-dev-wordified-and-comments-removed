@@ -1851,12 +1851,6 @@ alpha
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 clipped
@@ -2797,12 +2791,6 @@ mode
 .
 enabled
 true
-)
-fails
--
-if
-(
-webrender
 )
 =
 =

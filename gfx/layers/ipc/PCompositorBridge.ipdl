@@ -363,6 +363,18 @@ h
 "
 ;
 using
+mozilla
+:
+:
+LayoutDeviceIntSize
+from
+"
+Units
+.
+h
+"
+;
+using
 class
 mozilla
 :
@@ -1904,6 +1916,8 @@ PWebRenderBridge
 (
 PipelineId
 pipelineId
+LayoutDeviceIntSize
+aSize
 )
 returns
 (

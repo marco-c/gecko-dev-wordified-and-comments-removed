@@ -981,6 +981,9 @@ wr
 PipelineId
 &
 aPipelineId
+const
+LayoutDeviceIntSize
+&
 TextureFactoryIdentifier
 *
 uint32_t

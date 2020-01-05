@@ -456,6 +456,16 @@ AddNativeFont
 ApiMsg
 :
 :
+DeleteFont
+(
+.
+.
+)
+|
+&
+ApiMsg
+:
+:
 AddImage
 (
 .

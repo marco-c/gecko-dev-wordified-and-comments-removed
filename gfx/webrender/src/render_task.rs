@@ -279,6 +279,10 @@ Vec
 <
 AlphaRenderItem
 >
+pub
+isolate_clear
+:
+bool
 }
 #
 [
@@ -543,6 +547,9 @@ RenderTaskIndex
 screen_origin
 :
 DeviceIntPoint
+isolate_clear
+:
+bool
 location
 :
 RenderTaskLocation
@@ -601,6 +608,9 @@ Vec
 new
 (
 )
+isolate_clear
+:
+isolate_clear
 }
 )
 }
