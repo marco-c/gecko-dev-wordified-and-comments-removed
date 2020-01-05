@@ -176,7 +176,7 @@ nsDocshellIDArray
 (
 nsTArray
 <
-uint64_t
+nsID
 >
 )
 ;

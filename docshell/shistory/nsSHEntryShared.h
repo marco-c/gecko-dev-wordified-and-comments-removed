@@ -197,7 +197,7 @@ nsIContentViewer
 aViewer
 )
 ;
-uint64_t
+nsID
 mDocShellID
 ;
 nsCOMArray
