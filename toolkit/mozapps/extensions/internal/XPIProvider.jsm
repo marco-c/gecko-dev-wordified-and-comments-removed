@@ -21660,6 +21660,7 @@ aType
 aMultiprocessCompatible
 aRunInSafeMode
 aDependencies
+hasEmbeddedWebExtension
 )
 {
 this
@@ -21690,6 +21691,7 @@ aRunInSafeMode
 dependencies
 :
 aDependencies
+hasEmbeddedWebExtension
 }
 ;
 this
@@ -22515,6 +22517,12 @@ runInSafeMode
 aAddon
 .
 dependencies
+aAddon
+.
+hasEmbeddedWebExtension
+|
+|
+false
 )
 ;
 activeAddon
@@ -23579,6 +23587,11 @@ dependencies
 aAddon
 .
 dependencies
+hasEmbeddedWebExtension
+:
+aAddon
+.
+hasEmbeddedWebExtension
 }
 ;
 this
