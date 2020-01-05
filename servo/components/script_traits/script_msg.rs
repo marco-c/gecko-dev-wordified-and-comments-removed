@@ -281,10 +281,7 @@ bool
 MozBrowserEvent
 (
 PipelineId
-Option
-<
 PipelineId
->
 MozBrowserEvent
 )
 TraverseHistory

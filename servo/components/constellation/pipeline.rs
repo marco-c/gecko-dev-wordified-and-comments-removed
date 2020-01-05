@@ -438,10 +438,6 @@ pub
 visible
 :
 bool
-pub
-is_mature
-:
-bool
 }
 pub
 struct
@@ -755,6 +751,11 @@ new_pipeline_id
 state
 .
 id
+frame_id
+:
+state
+.
+frame_id
 frame_type
 :
 frame_type
@@ -1147,6 +1148,11 @@ id
 state
 .
 id
+frame_id
+:
+state
+.
+frame_id
 parent_info
 :
 state
@@ -1505,9 +1511,6 @@ visible
 is_private
 :
 is_private
-is_mature
-:
-false
 }
 }
 pub
@@ -2078,7 +2081,7 @@ child_id
 :
 Option
 <
-PipelineId
+FrameId
 >
 event
 :
@@ -2256,6 +2259,9 @@ UnprivilegedPipelineContent
 id
 :
 PipelineId
+frame_id
+:
+FrameId
 parent_info
 :
 Option
@@ -2450,6 +2456,11 @@ id
 self
 .
 id
+frame_id
+:
+self
+.
+frame_id
 parent_info
 :
 self
