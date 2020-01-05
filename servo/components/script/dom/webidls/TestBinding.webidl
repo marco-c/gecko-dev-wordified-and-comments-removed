@@ -3246,5 +3246,12 @@ receiveVoidStatic
 (
 )
 ;
+boolean
+BooleanMozPreference
+(
+DOMString
+pref_name
+)
+;
 }
 ;
