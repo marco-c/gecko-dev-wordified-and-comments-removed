@@ -53,7 +53,7 @@ rs
 [
 dependencies
 .
-macros
+plugins
 ]
 path
 =
@@ -61,7 +61,7 @@ path
 .
 .
 /
-macros
+plugins
 "
 [
 dependencies

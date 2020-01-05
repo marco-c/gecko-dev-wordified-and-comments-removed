@@ -4,7 +4,7 @@ package
 name
 =
 "
-macros
+plugins
 "
 version
 =
@@ -31,7 +31,7 @@ lib
 name
 =
 "
-macros
+plugins
 "
 path
 =

@@ -108,7 +108,7 @@ style
 [
 dependencies
 .
-macros
+plugins
 ]
 path
 =
@@ -116,7 +116,7 @@ path
 .
 .
 /
-macros
+plugins
 "
 [
 dependencies

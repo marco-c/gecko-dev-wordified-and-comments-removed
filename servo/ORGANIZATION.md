@@ -121,9 +121,13 @@ dependencies
 *
 components
 /
-macros
+plugins
 :
-Macros
+Various
+compiler
+plugins
+and
+macros
 used
 by
 the

@@ -259,7 +259,7 @@ ef89918471815dfced7aaf2f1594d5469f03eab7
 )
 "
 "
-macros
+plugins
 0
 .
 0
@@ -2401,7 +2401,7 @@ ef89918471815dfced7aaf2f1594d5469f03eab7
 )
 "
 "
-macros
+plugins
 0
 .
 0
@@ -3548,7 +3548,7 @@ layout_traits
 1
 "
 "
-macros
+plugins
 0
 .
 0
@@ -3736,7 +3736,7 @@ package
 name
 =
 "
-macros
+plugins
 "
 version
 =
@@ -4694,7 +4694,7 @@ mozjs
 )
 "
 "
-macros
+plugins
 0
 .
 0
@@ -5487,7 +5487,7 @@ e62a65372f1dd9019e37eb9381d819edff80e360
 )
 "
 "
-macros
+plugins
 0
 .
 0
