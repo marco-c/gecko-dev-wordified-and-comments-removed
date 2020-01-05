@@ -597,6 +597,17 @@ ResolvedData
 bool
 hasSampleBuffers
 ;
+std
+:
+:
+vector
+<
+const
+WebGLFBAttachPoint
+*
+>
+colorDrawBuffers
+;
 const
 WebGLFBAttachPoint
 *
