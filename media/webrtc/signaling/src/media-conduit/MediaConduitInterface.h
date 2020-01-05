@@ -984,7 +984,7 @@ VIDEO
 }
 virtual
 void
-AddLocalRTPExtensions
+SetLocalRTPExtensions
 (
 bool
 aIsSend

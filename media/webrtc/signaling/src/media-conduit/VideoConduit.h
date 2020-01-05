@@ -245,7 +245,7 @@ int
 CODEC_PLNAME_SIZE
 ;
 void
-AddLocalRTPExtensions
+SetLocalRTPExtensions
 (
 bool
 aIsSend
