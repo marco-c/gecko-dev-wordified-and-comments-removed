@@ -1065,6 +1065,13 @@ port
 )
 ;
 yield
+TelemetrySend
+.
+shutdown
+(
+)
+;
+yield
 TelemetryController
 .
 testReset
