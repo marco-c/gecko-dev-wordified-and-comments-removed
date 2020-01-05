@@ -483,10 +483,11 @@ testAction
     
 marionette
 .
-set_search_timeout
-(
-15000
-)
+timeout
+.
+implicit
+=
+15
     
 action
 =

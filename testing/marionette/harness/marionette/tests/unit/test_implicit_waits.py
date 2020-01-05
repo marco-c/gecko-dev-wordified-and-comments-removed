@@ -22,7 +22,7 @@ MarionetteTestCase
 :
     
 def
-testShouldImplicitlyWaitForASingleElement
+test_implicitly_wait_for_single_element
 (
 self
 )
@@ -72,10 +72,11 @@ self
 .
 marionette
 .
-set_search_timeout
-(
-30000
-)
+timeout
+.
+implicit
+=
+30
         
 add
 .
@@ -98,7 +99,7 @@ box0
 )
     
 def
-testShouldStillFailToFindAnElementWhenImplicitWaitsAreEnabled
+test_implicit_wait_reaches_timeout
 (
 self
 )
@@ -132,12 +133,19 @@ self
 .
 marionette
 .
-set_search_timeout
-(
-3000
-)
+timeout
+.
+implicit
+=
+3
         
-try
+with
+self
+.
+assertRaises
+(
+NoSuchElementException
+)
 :
             
 self
@@ -151,42 +159,5 @@ By
 ID
 "
 box0
-"
-)
-            
-self
-.
-fail
-(
-"
-Should
-have
-thrown
-a
-a
-NoSuchElementException
-"
-)
-        
-except
-NoSuchElementException
-:
-            
-pass
-        
-except
-Exception
-:
-            
-self
-.
-fail
-(
-"
-Should
-have
-thrown
-a
-NoSuchElementException
 "
 )

@@ -687,10 +687,11 @@ self
 .
 marionette
 .
-set_search_timeout
-(
-1000
-)
+timeout
+.
+implicit
+=
+1
         
 self
 .
@@ -720,10 +721,11 @@ self
 .
 marionette
 .
-set_search_timeout
-(
+timeout
+.
+implicit
+=
 0
-)
         
 self
 .
@@ -776,18 +778,13 @@ myid
         
 self
 .
-assertTrue
-(
-True
-self
-.
 marionette
 .
-set_search_timeout
-(
-4000
-)
-)
+timeout
+.
+implicit
+=
+4
         
 self
 .

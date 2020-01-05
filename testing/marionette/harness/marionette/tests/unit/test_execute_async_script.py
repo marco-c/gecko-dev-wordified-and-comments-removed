@@ -42,10 +42,11 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-1000
-)
+timeout
+.
+script
+=
+1
     
 def
 test_execute_async_simple
@@ -217,10 +218,11 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-10000
-)
+timeout
+.
+script
+=
+10
         
 self
 .
@@ -282,10 +284,11 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-5000
-)
+timeout
+.
+script
+=
+5
         
 unload
 =
@@ -1071,10 +1074,13 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-200
-)
+timeout
+.
+script
+=
+0
+.
+2
         
 self
 .

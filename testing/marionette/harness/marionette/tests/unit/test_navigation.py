@@ -1248,10 +1248,11 @@ self
 .
 marionette
 .
-set_page_load_timeout
-(
+timeout
+.
+page_load
+=
 0
-)
             
 self
 .

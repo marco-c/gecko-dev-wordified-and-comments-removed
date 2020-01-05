@@ -69,10 +69,13 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-500
-)
+timeout
+.
+script
+=
+0
+.
+5
         
 self
 .
@@ -121,10 +124,11 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-6000
-)
+timeout
+.
+script
+=
+6
         
 result
 =

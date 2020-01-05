@@ -229,10 +229,11 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-1000
-)
+timeout
+.
+script
+=
+1
             
 self
 .
@@ -517,10 +518,11 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-1000
-)
+timeout
+.
+script
+=
+1
            
 self
 .
@@ -817,10 +819,11 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-1000
-)
+timeout
+.
+script
+=
+1
             
 self
 .
@@ -1123,10 +1126,11 @@ self
 .
 marionette
 .
-set_script_timeout
-(
-1000
-)
+timeout
+.
+script
+=
+1
             
 self
 .
