@@ -111,6 +111,11 @@ utils
 js
 '
 '
+menu
+.
+js
+'
+'
 prefs
 .
 js
