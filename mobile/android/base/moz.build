@@ -5573,6 +5573,13 @@ java
 '
 widget
 /
+DefaultItemAnimatorBase
+.
+java
+'
+'
+widget
+/
 DoorHanger
 .
 java
