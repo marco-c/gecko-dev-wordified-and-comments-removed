@@ -913,11 +913,6 @@ Shutdown
 (
 )
 ;
-sync
-SyncWithCompositor
-(
-)
-;
 child
 :
 async

@@ -142,6 +142,8 @@ TextureClientPool
 (
 LayersBackend
 aBackend
+int32_t
+aMaxTextureSize
 gfx
 :
 :
@@ -225,6 +227,16 @@ return
 mBackend
 ;
 }
+int32_t
+GetMaxTextureSize
+(
+)
+const
+{
+return
+mMaxTextureSize
+;
+}
 gfx
 :
 :
@@ -271,6 +283,9 @@ ResetTimers
 ;
 LayersBackend
 mBackend
+;
+int32_t
+mMaxTextureSize
 ;
 gfx
 :

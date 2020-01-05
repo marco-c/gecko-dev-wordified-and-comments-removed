@@ -131,7 +131,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )

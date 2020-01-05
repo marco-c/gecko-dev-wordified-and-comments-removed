@@ -493,7 +493,9 @@ GetTextureFactoryIdentifier
 )
 {
 return
-mForwarder
+AsShadowForwarder
+(
+)
 -
 >
 GetTextureFactoryIdentifier

@@ -503,7 +503,7 @@ SharedRGBImage
 :
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )

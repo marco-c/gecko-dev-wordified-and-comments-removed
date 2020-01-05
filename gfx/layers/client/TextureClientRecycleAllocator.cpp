@@ -235,7 +235,7 @@ TextureClient
 >
 Allocate
 (
-TextureForwarder
+KnowsCompositor
 *
 aAllocator
 )
@@ -441,7 +441,7 @@ YCbCrTextureClientAllocationHelper
 :
 Allocate
 (
-TextureForwarder
+KnowsCompositor
 *
 aAllocator
 )
@@ -471,7 +471,7 @@ TextureClientRecycleAllocator
 :
 TextureClientRecycleAllocator
 (
-TextureForwarder
+KnowsCompositor
 *
 aAllocator
 )
@@ -777,6 +777,11 @@ nullptr
 mSurfaceAllocator
 -
 >
+GetTextureForwarder
+(
+)
+-
+>
 GetMessageLoop
 (
 )
@@ -958,12 +963,6 @@ CreateForDrawing
 mSurfaceAllocator
 aFormat
 aSize
-mSurfaceAllocator
--
->
-GetCompositorBackendType
-(
-)
 aSelector
 aTextureFlags
 aAllocFlags

@@ -171,7 +171,7 @@ TextureWrapperImage
 :
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )

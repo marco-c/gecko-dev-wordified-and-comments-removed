@@ -1628,6 +1628,11 @@ uint64_t
 aSerial
 )
 ;
+sync
+SyncWithCompositor
+(
+)
+;
 child
 :
 /

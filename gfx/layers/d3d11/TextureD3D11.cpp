@@ -2104,7 +2104,7 @@ D3D11TextureData
 :
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -2135,7 +2135,7 @@ aAllocFlags
 ID3D11Device
 *
 aDevice
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -2184,9 +2184,11 @@ D3D11TextureData
 :
 CreateSimilar
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 TextureAllocationFlags
@@ -2234,9 +2236,6 @@ DXGIYCbCrTextureData
 :
 Create
 (
-ClientIPCAllocator
-*
-aAllocator
 TextureFlags
 aFlags
 IUnknown
@@ -2408,9 +2407,6 @@ DXGIYCbCrTextureData
 :
 Create
 (
-ClientIPCAllocator
-*
-aAllocator
 TextureFlags
 aFlags
 ID3D11Texture2D
@@ -2659,7 +2655,6 @@ DXGIYCbCrTextureData
 :
 Create
 (
-aAllocator
 aFlags
 aTextureY
 aTextureCb
@@ -2776,7 +2771,7 @@ DXGIYCbCrTextureData
 :
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 )
 {

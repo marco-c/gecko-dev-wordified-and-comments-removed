@@ -206,7 +206,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 )
 override
@@ -246,7 +246,7 @@ SharedSurfaceTextureData
 aData
 TextureFlags
 aFlags
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -277,7 +277,7 @@ gl
 SurfaceFactory
 *
 factory
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 TextureFlags

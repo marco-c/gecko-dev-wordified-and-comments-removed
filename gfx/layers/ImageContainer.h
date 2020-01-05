@@ -629,7 +629,7 @@ class
 TextureClient
 ;
 class
-TextureForwarder
+KnowsCompositor
 ;
 class
 GrallocImage
@@ -881,7 +881,7 @@ TextureClient
 *
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
@@ -2475,7 +2475,7 @@ TextureClient
 *
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )

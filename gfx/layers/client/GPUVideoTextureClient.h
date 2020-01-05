@@ -113,7 +113,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -123,7 +123,7 @@ virtual
 void
 Forget
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )

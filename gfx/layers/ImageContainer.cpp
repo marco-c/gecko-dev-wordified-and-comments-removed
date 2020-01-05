@@ -3711,7 +3711,7 @@ SourceSurfaceImage
 :
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
@@ -3793,12 +3793,6 @@ CreateFromSurface
 (
 aForwarder
 surface
-aForwarder
--
->
-GetCompositorBackendType
-(
-)
 BackendSelector
 :
 :

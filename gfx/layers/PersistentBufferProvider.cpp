@@ -358,7 +358,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-CompositableForwarder
+KnowsCompositor
 *
 aFwd
 )
@@ -371,6 +371,11 @@ aFwd
 |
 !
 aFwd
+-
+>
+GetTextureForwarder
+(
+)
 -
 >
 IPCOpen
@@ -458,7 +463,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-CompositableForwarder
+KnowsCompositor
 *
 aFwd
 RefPtr
@@ -559,7 +564,7 @@ PersistentBufferProviderShared
 :
 SetForwarder
 (
-CompositableForwarder
+KnowsCompositor
 *
 aFwd
 )
@@ -616,7 +621,7 @@ if
 mFwd
 -
 >
-AsTextureForwarder
+GetTextureForwarder
 (
 )
 !
@@ -624,7 +629,7 @@ AsTextureForwarder
 aFwd
 -
 >
-AsTextureForwarder
+GetTextureForwarder
 (
 )
 |
@@ -909,6 +914,11 @@ if
 (
 !
 mFwd
+-
+>
+GetTextureForwarder
+(
+)
 -
 >
 IPCOpen

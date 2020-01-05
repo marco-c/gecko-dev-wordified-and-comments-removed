@@ -117,7 +117,7 @@ gfx
 :
 IntSize
 aSize
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 TextureFlags
@@ -346,7 +346,7 @@ gl
 :
 OriginPos
 aOriginPos
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 TextureFlags

@@ -281,7 +281,7 @@ SharedPlanarYCbCrImage
 :
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
@@ -694,17 +694,10 @@ mCompositable
 GetForwarder
 (
 )
--
->
-AsCompositableForwarder
-(
-)
 ;
 bool
 hasIntermediateBuffer
 =
-fwd
-?
 ComputeHasIntermediateBuffer
 (
 gfx
@@ -721,8 +714,6 @@ GetCompositorBackendType
 (
 )
 )
-:
-true
 ;
 static_cast
 <

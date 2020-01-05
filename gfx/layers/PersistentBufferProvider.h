@@ -40,7 +40,7 @@ mozilla
 /
 layers
 /
-CompositableForwarder
+TextureForwarder
 .
 h
 "
@@ -207,7 +207,7 @@ virtual
 bool
 SetForwarder
 (
-CompositableForwarder
+KnowsCompositor
 *
 aFwd
 )
@@ -423,7 +423,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-CompositableForwarder
+KnowsCompositor
 *
 aFwd
 )
@@ -536,7 +536,7 @@ virtual
 bool
 SetForwarder
 (
-CompositableForwarder
+KnowsCompositor
 *
 aFwd
 )
@@ -568,7 +568,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-CompositableForwarder
+KnowsCompositor
 *
 aFwd
 RefPtr
@@ -631,7 +631,7 @@ mFormat
 ;
 RefPtr
 <
-CompositableForwarder
+KnowsCompositor
 >
 mFwd
 ;

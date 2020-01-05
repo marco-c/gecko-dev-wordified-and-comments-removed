@@ -125,7 +125,7 @@ namespace
 layers
 {
 class
-ClientIPCAllocator
+LayersIPCChannel
 ;
 class
 SharedSurfaceTextureClient
@@ -985,7 +985,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 >
 mAllocator
 ;
@@ -1046,7 +1046,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 >
 &
 allocator

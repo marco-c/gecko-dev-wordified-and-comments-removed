@@ -139,7 +139,7 @@ TextureClient
 *
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )

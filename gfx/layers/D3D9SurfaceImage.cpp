@@ -581,7 +581,7 @@ D3D9SurfaceImage
 :
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
@@ -602,6 +602,11 @@ GetAllocator
 =
 =
 aForwarder
+-
+>
+GetTextureForwarder
+(
+)
 )
 ;
 return
@@ -1003,6 +1008,11 @@ TextureClient
 data
 aTextureFlags
 mSurfaceAllocator
+-
+>
+GetTextureForwarder
+(
+)
 )
 ;
 }

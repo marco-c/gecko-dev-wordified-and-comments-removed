@@ -5107,9 +5107,6 @@ ProxyDeallocShmemNow
 SynchronousTask
 *
 aTask
-ISurfaceAllocator
-*
-aAllocator
 ipc
 :
 :
@@ -5216,7 +5213,6 @@ ImageBridgeChild
 ProxyDeallocShmemNow
 &
 task
-this
 &
 aShmem
 )

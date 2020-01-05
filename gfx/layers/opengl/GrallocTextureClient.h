@@ -152,7 +152,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 )
 override
@@ -161,7 +161,7 @@ virtual
 void
 Forget
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 )
 override
@@ -186,7 +186,7 @@ gfx
 :
 BackendType
 aMoz2dBackend
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -206,7 +206,7 @@ gfx
 :
 IntSize
 aCbCrSize
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -226,7 +226,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -250,7 +250,7 @@ BackendType
 aMoz2DBackend
 uint32_t
 aUsage
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -277,7 +277,7 @@ TextureData
 *
 CreateSimilar
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 TextureFlags

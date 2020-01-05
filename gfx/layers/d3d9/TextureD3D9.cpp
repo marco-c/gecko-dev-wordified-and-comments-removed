@@ -2815,8 +2815,9 @@ D3D9TextureData
 :
 CreateSimilar
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
+LayersBackend
 TextureFlags
 aFlags
 TextureAllocationFlags

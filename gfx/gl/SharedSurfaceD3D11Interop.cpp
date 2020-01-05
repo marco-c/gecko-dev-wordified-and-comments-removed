@@ -1439,7 +1439,7 @@ caps
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 *
 allocator
 const
@@ -1560,7 +1560,7 @@ caps
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 *
 allocator
 const

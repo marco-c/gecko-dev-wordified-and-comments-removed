@@ -58,7 +58,7 @@ public
 explicit
 D3D9RecycleAllocator
 (
-TextureForwarder
+KnowsCompositor
 *
 aAllocator
 IDirect3DDevice9
@@ -204,7 +204,7 @@ TextureClient
 *
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
