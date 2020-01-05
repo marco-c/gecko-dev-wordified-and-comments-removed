@@ -199,7 +199,7 @@ menuButton
 type
 :
 "
-mouseover
+mousemove
 "
 }
 )
