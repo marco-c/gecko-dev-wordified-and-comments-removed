@@ -255,6 +255,9 @@ class
 nsIDOMMozNamedAttrMap
 ;
 class
+nsIMozBrowserFrame
+;
+class
 nsIURI
 ;
 class
@@ -823,6 +826,17 @@ aIgnoreTabindex
 )
 const
 ;
+virtual
+nsIMozBrowserFrame
+*
+GetAsMozBrowserFrame
+(
+)
+{
+return
+nullptr
+;
+}
 NS_IMETHOD_
 (
 bool

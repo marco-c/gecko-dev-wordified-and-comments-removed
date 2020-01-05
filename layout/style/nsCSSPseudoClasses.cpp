@@ -803,14 +803,10 @@ CSSPseudoClassType
 mozBrowserFrame
 :
 {
-nsCOMPtr
-<
 nsIMozBrowserFrame
->
+*
 browserFrame
 =
-do_QueryInterface
-(
 const_cast
 <
 Element
@@ -819,6 +815,10 @@ Element
 (
 aElement
 )
+-
+>
+GetAsMozBrowserFrame
+(
 )
 ;
 return
