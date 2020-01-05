@@ -10,6 +10,7 @@ re
 .
 compile
 (
+b
 "
 D
 \
@@ -34,9 +35,11 @@ allowed_symbols
 frozenset
 (
 [
+b
 '
 unshare
 '
+b
 '
 malloc_usable_size
 '
@@ -90,6 +93,7 @@ so
 .
 split
 (
+b
 '
 \
 n
