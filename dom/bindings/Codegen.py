@@ -79821,6 +79821,36 @@ shadow
 false
 "
             
+if
+self
+.
+descriptor
+.
+supportedNamesNeedCallerType
+(
+)
+:
+                
+callerType
+=
+"
+"
++
+callerTypeGetterForDescriptor
+(
+self
+.
+descriptor
+)
+            
+else
+:
+                
+callerType
+=
+"
+"
+            
 addNames
 =
 fill
@@ -79846,6 +79876,9 @@ proxy
 GetSupportedNames
 (
 names
+{
+callerType
+}
 )
 ;
                 
@@ -79874,6 +79907,10 @@ false
 "
 "
 "
+                
+callerType
+=
+callerType
                 
 shadow
 =

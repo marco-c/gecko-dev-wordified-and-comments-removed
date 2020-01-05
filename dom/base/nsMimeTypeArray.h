@@ -201,6 +201,14 @@ nsString
 >
 &
 retval
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 protected
