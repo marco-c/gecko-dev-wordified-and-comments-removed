@@ -88,7 +88,7 @@ owner
 '
 workerType
 :
-taskcluster
+gecko
 -
 images
 provisionerId
