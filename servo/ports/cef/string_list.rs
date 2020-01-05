@@ -10,12 +10,6 @@ use
 std
 :
 :
-boxed
-;
-use
-std
-:
-:
 slice
 ;
 use
@@ -61,7 +55,7 @@ cef_string_list_alloc
 mut
 cef_string_list_t
 {
-boxed
+Box
 :
 :
 into_raw
@@ -466,7 +460,7 @@ clone
 (
 )
 ;
-boxed
+Box
 :
 :
 into_raw

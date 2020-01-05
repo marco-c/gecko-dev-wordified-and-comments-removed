@@ -304,12 +304,6 @@ use
 std
 :
 :
-boxed
-;
-use
-std
-:
-:
 collections
 :
 :
@@ -1389,7 +1383,7 @@ isize
 =
 0
 ;
-boxed
+Box
 :
 :
 into_raw
