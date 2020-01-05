@@ -1520,7 +1520,12 @@ utf
 catch
 (
 ex
+)
+{
 if
+(
+!
+(
 ex
 instanceof
 OS
@@ -1534,7 +1539,12 @@ ex
 .
 becauseNoSuchFile
 )
+)
 {
+throw
+ex
+;
+}
 }
 cb
 (
@@ -1668,6 +1678,7 @@ gUniqueCounter
 ;
 }
 function
+*
 BrowserWindowIterator
 (
 )
@@ -2017,7 +2028,7 @@ for
 (
 let
 win
-in
+of
 BrowserWindowIterator
 (
 )
@@ -2140,7 +2151,7 @@ for
 (
 let
 win
-in
+of
 BrowserWindowIterator
 (
 )
