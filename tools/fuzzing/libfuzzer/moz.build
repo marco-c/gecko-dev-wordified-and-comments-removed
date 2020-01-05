@@ -171,4 +171,14 @@ FuzzerUtil
 .
 cpp
 '
+'
+FuzzerUtilDarwin
+.
+cpp
+'
+'
+FuzzerUtilLinux
+.
+cpp
+'
 ]
