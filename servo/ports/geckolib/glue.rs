@@ -180,6 +180,12 @@ use
 style
 :
 :
+arc_ptr_eq
+;
+use
+style
+:
+:
 context
 :
 :
@@ -275,12 +281,6 @@ url
 :
 :
 Url
-;
-use
-util
-:
-:
-arc_ptr_eq
 ;
 use
 wrapper

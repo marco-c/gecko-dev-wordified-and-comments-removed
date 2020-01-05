@@ -245,6 +245,12 @@ use
 style
 :
 :
+arc_ptr_eq
+;
+use
+style
+:
+:
 computed_values
 :
 :
@@ -329,9 +335,6 @@ text
 ;
 use
 unicode_bidi
-;
-use
-util
 ;
 static
 FONT_SUBSCRIPT_OFFSET_RATIO
@@ -1399,9 +1402,6 @@ selected
 )
 &
 &
-util
-:
-:
 arc_ptr_eq
 (
 &
@@ -9094,9 +9094,6 @@ nodes
 {
 if
 !
-util
-:
-:
 arc_ptr_eq
 (
 &

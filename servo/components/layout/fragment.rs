@@ -295,6 +295,12 @@ use
 style
 :
 :
+arc_ptr_eq
+;
+use
+style
+:
+:
 computed_values
 :
 :
@@ -432,9 +438,6 @@ url
 :
 :
 Url
-;
-use
-util
 ;
 #
 [
@@ -10355,9 +10358,6 @@ other_info
 debug_assert
 !
 (
-util
-:
-:
 arc_ptr_eq
 (
 &
