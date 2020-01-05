@@ -1194,7 +1194,7 @@ void
 getAnyTransferData
 (
 out
-string
+ACString
 aFlavor
 out
 nsISupports
