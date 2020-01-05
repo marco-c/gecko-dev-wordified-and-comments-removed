@@ -923,16 +923,7 @@ com
 let
 numtabs
 =
-Math
-.
-ceil
-(
-20000
-.
-/
-77
-.
-)
+2600
 ;
 store
 .
@@ -1045,7 +1036,7 @@ record
 tabs
 .
 length
-256
+2501
 )
 ;
 }
