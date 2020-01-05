@@ -3246,8 +3246,6 @@ GLenum
 target
 )
 ;
-/
-/
 WebGLActiveInfo
 ?
 getActiveAttrib
