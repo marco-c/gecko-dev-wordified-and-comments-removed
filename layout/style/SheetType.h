@@ -23,7 +23,6 @@ uint8_t
 Agent
 User
 PresHint
-SVGAttrAnimation
 Doc
 ScopedDoc
 StyleAttr

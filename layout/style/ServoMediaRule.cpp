@@ -16,6 +16,15 @@ ServoBindings
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ServoMediaList
+.
+h
+"
 using
 namespace
 mozilla

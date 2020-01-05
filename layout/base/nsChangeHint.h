@@ -988,8 +988,6 @@ eRestyle_CSSTransitions
 |
 eRestyle_CSSAnimations
 |
-eRestyle_SVGAttrAnimations
-|
 eRestyle_StyleAttribute_Animations
 }
 ;
