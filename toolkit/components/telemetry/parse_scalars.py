@@ -337,7 +337,7 @@ characters
 \
 n
 "
-                                  
+                                   
 "
 See
 :
@@ -353,7 +353,7 @@ definition
 file
 "
 )
-                                 
+                                  
 .
 format
 (
@@ -502,7 +502,7 @@ leading
 /
 trailing
 "
-                                  
+                                   
 "
 digit
 a
@@ -520,7 +520,7 @@ Got
 \
 n
 "
-                                  
+                                   
 "
 See
 :
@@ -821,7 +821,7 @@ join
 missing_fields
 )
 +
-                           
+                              
 '
 .
 \
@@ -891,7 +891,7 @@ join
 unknown_fields
 )
 +
-                           
+                              
 '
 .
 \
@@ -985,7 +985,7 @@ join
 wrong_type_names
 )
 +
-                            
+                              
 '
 .
 \
@@ -1065,7 +1065,7 @@ be
 empty
 "
 +
-                                 
+                                   
 "
 .
 \
@@ -1080,7 +1080,7 @@ fields
 )
 "
 )
-                                
+                                  
 .
 format
 (
@@ -1147,7 +1147,7 @@ type
 {
 }
 "
-                                 
+                                   
 "
 .
 \
@@ -1166,7 +1166,7 @@ file
 )
 "
 )
-                                
+                                  
 .
 format
 (
@@ -1180,7 +1180,7 @@ field
 ]
 .
 __name__
-                                        
+                                          
 BASE_DOC_URL
 )
 )
@@ -1278,7 +1278,7 @@ kind
 +
 scalar_kind
 +
-                             
+                              
 '
 .
 \
@@ -1343,7 +1343,7 @@ policy
 +
 collection_policy
 +
-                             
+                              
 '
 .
 \
@@ -1406,7 +1406,7 @@ cpp_guard
 +
 cpp_guard
 +
-                             
+                              
 '
 .
 \
@@ -1473,7 +1473,7 @@ record_in_processes
 +
 proc
 +
-                                 
+                                  
 '
 .
 \
