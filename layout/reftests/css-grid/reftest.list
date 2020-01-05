@@ -98,12 +98,6 @@ handling
 ref
 .
 xhtml
-fails
--
-if
-(
-stylo
-)
 =
 =
 grid
@@ -1188,12 +1182,6 @@ implicit
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 rtl
