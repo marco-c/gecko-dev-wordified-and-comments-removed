@@ -20,12 +20,6 @@ context
 LayoutContext
 ;
 use
-extra
-:
-:
-LayoutAuxMethods
-;
-use
 util
 :
 :
