@@ -796,11 +796,11 @@ url
 ;
 public
 abstract
-CursorLoader
-getHighlights
+Cursor
+getHighlightCandidates
 (
-Context
-context
+ContentResolver
+contentResolver
 int
 limit
 )
