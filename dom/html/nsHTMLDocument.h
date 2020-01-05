@@ -554,6 +554,15 @@ aUpdateType
 override
 ;
 virtual
+void
+SetMayStartLayout
+(
+bool
+aMayStartLayout
+)
+override
+;
+virtual
 nsresult
 SetEditingState
 (

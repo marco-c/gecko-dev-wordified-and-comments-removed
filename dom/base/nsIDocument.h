@@ -4512,6 +4512,7 @@ return
 mMayStartLayout
 ;
 }
+virtual
 void
 SetMayStartLayout
 (
