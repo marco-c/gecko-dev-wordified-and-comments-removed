@@ -92,8 +92,6 @@ attribute
 DOMString
 keyText
 ;
-/
-/
 readonly
 attribute
 CSSStyleDeclaration
