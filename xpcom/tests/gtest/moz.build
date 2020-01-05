@@ -95,6 +95,11 @@ Helpers
 cpp
 '
 '
+TestArenaAllocator
+.
+cpp
+'
+'
 TestAtoms
 .
 cpp

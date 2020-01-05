@@ -437,6 +437,11 @@ mozilla
 =
 [
 '
+ArenaAllocator
+.
+h
+'
+'
 ArrayIterator
 .
 h
