@@ -155,6 +155,11 @@ testing
 gecko_debug
 =
 [
+"
+nsstring_vendor
+/
+gecko_debug
+"
 ]
 [
 dependencies

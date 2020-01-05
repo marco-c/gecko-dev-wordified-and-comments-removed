@@ -14366,7 +14366,11 @@ if
 cfg
 !
 (
-debug_assertions
+feature
+=
+"
+gecko_debug
+"
 )
 {
 panic

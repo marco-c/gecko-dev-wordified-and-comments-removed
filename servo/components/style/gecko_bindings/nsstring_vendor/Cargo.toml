@@ -56,3 +56,10 @@ Servo
 [
 dependencies
 ]
+[
+features
+]
+gecko_debug
+=
+[
+]

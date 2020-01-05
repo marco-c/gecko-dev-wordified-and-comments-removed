@@ -20,7 +20,11 @@ T
 [
 cfg
 (
-debug_assertions
+feature
+=
+"
+gecko_debug
+"
 )
 ]
 #
@@ -50,7 +54,11 @@ cfg
 (
 not
 (
-debug_assertions
+feature
+=
+"
+gecko_debug
+"
 )
 )
 ]

@@ -5300,7 +5300,11 @@ cfg
 (
 not
 (
-debug_assertions
+feature
+=
+"
+gecko_debug
+"
 )
 )
 ]
@@ -5332,7 +5336,11 @@ C
 [
 cfg
 (
-debug_assertions
+feature
+=
+"
+gecko_debug
+"
 )
 ]
 fn
