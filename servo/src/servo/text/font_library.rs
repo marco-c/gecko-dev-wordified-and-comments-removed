@@ -265,6 +265,15 @@ get_err
 ;
 }
 ;
+let
+metrics
+=
+native_font
+.
+get_metrics
+(
+)
+;
 return
 Ok
 (
@@ -273,6 +282,7 @@ Font
 lib
 font_bin
 native_font
+metrics
 )
 )
 ;
