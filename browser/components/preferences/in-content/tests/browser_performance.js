@@ -1,11 +1,3 @@
-add_task
-(
-function
-*
-(
-)
-{
-yield
 SpecialPowers
 .
 pushPrefEnv
@@ -47,9 +39,6 @@ disabled
 false
 ]
 ]
-}
-)
-;
 }
 )
 ;
