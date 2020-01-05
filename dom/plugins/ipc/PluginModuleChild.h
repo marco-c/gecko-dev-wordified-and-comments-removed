@@ -418,10 +418,6 @@ nsCString
 &
 aMimeType
 const
-uint16_t
-&
-aMode
-const
 InfallibleTArray
 <
 nsCString
@@ -465,10 +461,6 @@ const
 nsCString
 &
 aMimeType
-const
-uint16_t
-&
-aMode
 InfallibleTArray
 <
 nsCString

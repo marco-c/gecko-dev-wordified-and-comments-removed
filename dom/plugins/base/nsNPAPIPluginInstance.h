@@ -1469,14 +1469,6 @@ nsPluginTagType
 result
 )
 ;
-nsresult
-GetMode
-(
-int32_t
-*
-result
-)
-;
 void
 CheckJavaC2PJSObjectQuirk
 (

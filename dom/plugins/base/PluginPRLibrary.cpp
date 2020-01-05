@@ -767,8 +767,6 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16_t
-mode
 int16_t
 argc
 char
@@ -806,7 +804,7 @@ mNPP_New
 (
 pluginType
 instance
-mode
+NP_EMBED
 argc
 argn
 argv

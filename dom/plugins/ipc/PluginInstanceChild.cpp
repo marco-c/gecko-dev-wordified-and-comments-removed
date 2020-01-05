@@ -700,10 +700,6 @@ nsCString
 &
 aMimeType
 const
-uint16_t
-&
-aMode
-const
 InfallibleTArray
 <
 nsCString
@@ -726,10 +722,6 @@ aPluginIface
 mMimeType
 (
 aMimeType
-)
-mMode
-(
-aMode
 )
 mNames
 (
@@ -1370,7 +1362,7 @@ NullableStringGet
 mMimeType
 )
 npp
-mMode
+NP_EMBED
 argc
 argn
 .

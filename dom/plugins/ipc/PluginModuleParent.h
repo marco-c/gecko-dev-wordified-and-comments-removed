@@ -257,10 +257,6 @@ nsCString
 &
 aMimeType
 const
-uint16_t
-&
-aMode
-const
 InfallibleTArray
 <
 nsCString
@@ -925,8 +921,6 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16_t
-mode
 InfallibleTArray
 <
 nsCString
@@ -1409,8 +1403,6 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16_t
-mode
 int16_t
 argc
 char

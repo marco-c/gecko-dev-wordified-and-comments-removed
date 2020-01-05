@@ -432,10 +432,6 @@ mParent
 (
 aParent
 )
-mMode
-(
-0
-)
 mWindow
 (
 nullptr
@@ -490,8 +486,6 @@ NPMIMEType
 aPluginType
 NPP
 aInstance
-uint16_t
-aMode
 int16_t
 aArgc
 char
@@ -534,10 +528,6 @@ instance
 mInstance
 =
 instance
-;
-mMode
-=
-aMode
 ;
 for
 (
@@ -599,8 +589,6 @@ NPMIMEType
 aPluginType
 NPP
 aInstance
-uint16_t
-aMode
 int16_t
 aArgc
 char
@@ -638,7 +626,6 @@ Init
 (
 aPluginType
 aInstance
-aMode
 aArgc
 aArgn
 aArgv
@@ -769,7 +756,6 @@ BeginWriting
 GetNPP
 (
 )
-mMode
 mNames
 mValues
 nullptr

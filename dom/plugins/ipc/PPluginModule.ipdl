@@ -436,8 +436,6 @@ PPluginInstance
 (
 nsCString
 aMimeType
-uint16_t
-aMode
 nsCString
 [
 ]

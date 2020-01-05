@@ -1043,10 +1043,6 @@ nsCString
 &
 aMimeType
 const
-uint16_t
-&
-aMode
-const
 InfallibleTArray
 <
 nsCString
@@ -1826,9 +1822,6 @@ mPluginIface
 ;
 nsCString
 mMimeType
-;
-uint16_t
-mMode
 ;
 InfallibleTArray
 <

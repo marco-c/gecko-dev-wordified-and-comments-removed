@@ -9348,10 +9348,6 @@ nsCString
 &
 aMimeType
 const
-uint16_t
-&
-aMode
-const
 InfallibleTArray
 <
 nsCString
@@ -9560,7 +9556,6 @@ PluginInstanceChild
 &
 mFunctions
 aMimeType
-aMode
 aNames
 aValues
 )
@@ -9676,10 +9671,6 @@ const
 nsCString
 &
 aMimeType
-const
-uint16_t
-&
-aMode
 InfallibleTArray
 <
 nsCString

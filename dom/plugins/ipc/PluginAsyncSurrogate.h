@@ -103,8 +103,6 @@ NPMIMEType
 aPluginType
 NPP
 aInstance
-uint16_t
-aMode
 int16_t
 aArgc
 char
@@ -240,8 +238,6 @@ NPMIMEType
 aPluginType
 NPP
 aInstance
-uint16_t
-aMode
 int16_t
 aArgc
 char
@@ -789,9 +785,6 @@ WeakPtr
 nsNPAPIPluginInstance
 >
 mInstance
-;
-uint16_t
-mMode
 ;
 InfallibleTArray
 <

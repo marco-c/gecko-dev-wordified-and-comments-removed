@@ -328,8 +328,6 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16_t
-mode
 int16_t
 argc
 char

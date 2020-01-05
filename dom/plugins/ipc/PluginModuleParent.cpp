@@ -7377,10 +7377,6 @@ nsCString
 &
 aMimeType
 const
-uint16_t
-&
-aMode
-const
 InfallibleTArray
 <
 nsCString
@@ -11350,8 +11346,6 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16_t
-mode
 int16_t
 argc
 char
@@ -11404,7 +11398,6 @@ Create
 this
 pluginType
 instance
-mode
 argc
 argn
 argv
@@ -11519,7 +11512,6 @@ NPP_NewInternal
 (
 pluginType
 instance
-mode
 names
 values
 saved
@@ -11885,8 +11877,6 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16_t
-mode
 InfallibleTArray
 <
 nsCString
@@ -12281,7 +12271,6 @@ nsDependentCString
 (
 pluginType
 )
-mode
 names
 values
 )
