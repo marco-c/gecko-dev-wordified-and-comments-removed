@@ -10015,7 +10015,7 @@ self
 _send_message
 (
 "
-timeouts
+setTimeouts
 "
 {
 "
@@ -10188,7 +10188,7 @@ self
 _send_message
 (
 "
-timeouts
+setTimeouts
 "
 {
 "
@@ -10323,7 +10323,7 @@ self
 _send_message
 (
 "
-timeouts
+setTimeouts
 "
 {
 "
