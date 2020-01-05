@@ -3892,6 +3892,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_toasynciter
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_toid
 (
 )
