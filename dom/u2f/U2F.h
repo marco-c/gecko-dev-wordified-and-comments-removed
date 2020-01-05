@@ -520,6 +520,15 @@ U2FStatus
 (
 )
 ;
+U2FStatus
+(
+const
+U2FStatus
+&
+)
+=
+delete
+;
 void
 WaitGroupAdd
 (

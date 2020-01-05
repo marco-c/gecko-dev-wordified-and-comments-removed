@@ -2901,6 +2901,7 @@ Then
 mAbstractMainThread
 __func__
 [
+&
 status
 ]
 (
@@ -2953,6 +2954,7 @@ WaitGroupDone
 ;
 }
 [
+&
 status
 ]
 (
@@ -3011,6 +3013,7 @@ Dispatch
 NS_NewRunnableFunction
 (
 [
+&
 status
 this
 ]
@@ -3269,6 +3272,7 @@ Then
 mAbstractMainThread
 __func__
 [
+&
 status
 this
 ]
@@ -3279,6 +3283,7 @@ aResponse
 {
 if
 (
+!
 status
 -
 >
@@ -3287,9 +3292,6 @@ IsStopped
 )
 )
 {
-return
-;
-}
 status
 -
 >
@@ -3302,6 +3304,7 @@ OK
 aResponse
 )
 ;
+}
 status
 -
 >
@@ -3311,6 +3314,7 @@ WaitGroupDone
 ;
 }
 [
+&
 status
 this
 ]
@@ -3321,6 +3325,7 @@ aErrorCode
 {
 if
 (
+!
 status
 -
 >
@@ -3329,9 +3334,6 @@ IsStopped
 )
 )
 {
-return
-;
-}
 status
 -
 >
@@ -3340,6 +3342,7 @@ Stop
 aErrorCode
 )
 ;
+}
 status
 -
 >
@@ -3397,6 +3400,7 @@ Dispatch
 NS_NewRunnableFunction
 (
 [
+&
 status
 this
 ]
@@ -4138,6 +4142,7 @@ Then
 mAbstractMainThread
 __func__
 [
+&
 status
 this
 ]
@@ -4148,6 +4153,7 @@ aResponse
 {
 if
 (
+!
 status
 -
 >
@@ -4156,9 +4162,6 @@ IsStopped
 )
 )
 {
-return
-;
-}
 status
 -
 >
@@ -4171,6 +4174,7 @@ OK
 aResponse
 )
 ;
+}
 status
 -
 >
@@ -4180,6 +4184,7 @@ WaitGroupDone
 ;
 }
 [
+&
 status
 this
 ]
@@ -4190,6 +4195,7 @@ aErrorCode
 {
 if
 (
+!
 status
 -
 >
@@ -4198,9 +4204,6 @@ IsStopped
 )
 )
 {
-return
-;
-}
 status
 -
 >
@@ -4209,6 +4212,7 @@ Stop
 aErrorCode
 )
 ;
+}
 status
 -
 >
@@ -4266,6 +4270,7 @@ Dispatch
 NS_NewRunnableFunction
 (
 [
+&
 status
 this
 ]
