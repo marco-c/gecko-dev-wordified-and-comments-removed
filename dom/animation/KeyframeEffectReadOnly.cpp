@@ -47,6 +47,15 @@ include
 "
 mozilla
 /
+AnimationRule
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AnimationUtils
 .
 h
@@ -1885,10 +1894,7 @@ KeyframeEffectReadOnly
 :
 ComposeStyle
 (
-RefPtr
-<
-AnimValuesStyleRule
->
+AnimationRule
 &
 aStyleRule
 const
@@ -2270,9 +2276,13 @@ if
 (
 !
 aStyleRule
+.
+mGecko
 )
 {
 aStyleRule
+.
+mGecko
 =
 new
 AnimValuesStyleRule
@@ -2289,6 +2299,8 @@ prop
 .
 mProperty
 aStyleRule
+.
+mGecko
 segment
 -
 >
@@ -2308,6 +2320,8 @@ prop
 .
 mProperty
 aStyleRule
+.
+mGecko
 segment
 -
 >
@@ -2368,6 +2382,8 @@ prop
 .
 mProperty
 aStyleRule
+.
+mGecko
 )
 :
 lastSegment
@@ -2443,6 +2459,8 @@ Value
 )
 {
 aStyleRule
+.
+mGecko
 -
 >
 AddValue
@@ -2460,6 +2478,8 @@ fromValue
 else
 {
 aStyleRule
+.
+mGecko
 -
 >
 AddValue
@@ -2561,6 +2581,8 @@ val
 )
 {
 aStyleRule
+.
+mGecko
 -
 >
 AddValue
@@ -2586,6 +2608,8 @@ valuePosition
 )
 {
 aStyleRule
+.
+mGecko
 -
 >
 AddValue
@@ -2603,6 +2627,8 @@ fromValue
 else
 {
 aStyleRule
+.
+mGecko
 -
 >
 AddValue

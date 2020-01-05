@@ -195,6 +195,9 @@ class
 ErrorResult
 ;
 struct
+AnimationRule
+;
+struct
 TimingParams
 ;
 namespace
@@ -1038,10 +1041,7 @@ aStyleContext
 void
 ComposeStyle
 (
-RefPtr
-<
-AnimValuesStyleRule
->
+AnimationRule
 &
 aStyleRule
 const

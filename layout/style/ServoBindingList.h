@@ -350,6 +350,13 @@ RawGeckoPresContextBorrowed
 )
 SERVO_BINDING_FUNC
 (
+Servo_AnimationValues_Uncompute
+RawServoDeclarationBlockStrong
+RawServoAnimationValueBorrowedListBorrowed
+value
+)
+SERVO_BINDING_FUNC
+(
 Servo_ParseStyleAttribute
 RawServoDeclarationBlockStrong
 const

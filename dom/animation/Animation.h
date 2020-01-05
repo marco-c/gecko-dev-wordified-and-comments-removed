@@ -161,8 +161,8 @@ nsIFrame
 namespace
 mozilla
 {
-class
-AnimValuesStyleRule
+struct
+AnimationRule
 ;
 namespace
 dom
@@ -964,10 +964,7 @@ const
 void
 ComposeStyle
 (
-RefPtr
-<
-AnimValuesStyleRule
->
+AnimationRule
 &
 aStyleRule
 const

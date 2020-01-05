@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-AnimValuesStyleRule
+AnimationRule
 .
 h
 "
@@ -711,10 +711,8 @@ Count
 )
 ;
 }
-RefPtr
-<
-AnimValuesStyleRule
->
+struct
+AnimationRule
 &
 AnimationRule
 (
@@ -956,10 +954,10 @@ EffectCompositor
 :
 kCascadeLevelCount
 )
-RefPtr
-<
-AnimValuesStyleRule
->
+mozilla
+:
+:
+AnimationRule
 >
 mAnimationRule
 ;

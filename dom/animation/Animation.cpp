@@ -84,6 +84,15 @@ h
 #
 include
 "
+mozilla
+/
+AnimationRule
+.
+h
+"
+#
+include
+"
 nsAnimationManager
 .
 h
@@ -3505,10 +3514,7 @@ Animation
 :
 ComposeStyle
 (
-RefPtr
-<
-AnimValuesStyleRule
->
+AnimationRule
 &
 aStyleRule
 const
