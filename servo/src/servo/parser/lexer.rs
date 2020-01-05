@@ -625,6 +625,7 @@ c
 )
 {
 if
+!
 c
 .
 is_whitespace
