@@ -764,11 +764,6 @@ Layer
 parent
 =
 aLayer
--
->
-GetParent
-(
-)
 ;
 gfx
 :
