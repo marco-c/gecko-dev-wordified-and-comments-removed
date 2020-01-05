@@ -226,6 +226,10 @@ atomCache_
 (
 group
 )
+externalStringCache_
+(
+group
+)
 usage
 (
 &
