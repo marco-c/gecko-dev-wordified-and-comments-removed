@@ -16257,7 +16257,7 @@ descriptor
 DefineDOMInterface
 '
 '
-bool
+void
 '
 args
 pub
@@ -16660,7 +16660,9 @@ receiver
 )
 ;
   
-return
+assert
+!
+(
 %
 s
 (
@@ -16671,6 +16673,7 @@ receiver
 .
 is_not_null
 (
+)
 )
 ;
 "
@@ -34995,9 +34998,6 @@ lines
 =
 [
 "
-assert
-!
-(
 codegen
 :
 :
@@ -35009,15 +35009,12 @@ DefineDOMInterface
 (
 js_info
 )
-)
 ;
 "
 %
-(
 desc
 .
 name
-)
                  
 for
 desc
