@@ -3,14 +3,6 @@
 [
 macro_use
 ]
-#
-!
-[
-allow
-(
-unsafe_code
-)
-]
 use
 flow_ref
 :
@@ -102,7 +94,6 @@ None
 )
 ;
 static
-mut
 DEBUG_ID_COUNTER
 :
 AtomicUsize
@@ -512,8 +503,6 @@ generate_unique_debug_id
 >
 u16
 {
-unsafe
-{
 DEBUG_ID_COUNTER
 .
 fetch_add
@@ -526,7 +515,6 @@ SeqCst
 )
 as
 u16
-}
 }
 pub
 fn

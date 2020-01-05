@@ -6,11 +6,8 @@ feature
 collections
 exit_status
 fs_walk
-io
-path
 path_ext
 slice_patterns
-std_misc
 test
 )
 ]
@@ -98,15 +95,6 @@ process
 Command
 Stdio
 }
-;
-use
-std
-:
-:
-thunk
-:
-:
-Thunk
 ;
 use
 test
