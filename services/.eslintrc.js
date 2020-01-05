@@ -102,17 +102,6 @@ warn
 "
 no
 -
-irregular
--
-whitespace
-"
-:
-"
-warn
-"
-"
-no
--
 native
 -
 reassign
