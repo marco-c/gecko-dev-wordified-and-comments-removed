@@ -225,10 +225,7 @@ use
 script
 :
 :
-dom
-:
-:
-htmlcanvaselement
+layout_interface
 :
 :
 HTMLCanvasData

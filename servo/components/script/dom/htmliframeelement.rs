@@ -14,10 +14,7 @@ dom
 attr
 :
 :
-{
 Attr
-AttrValue
-}
 ;
 use
 dom
@@ -509,7 +506,10 @@ style
 attr
 :
 :
+{
+AttrValue
 LengthOrPercentageOrAuto
+}
 ;
 use
 style

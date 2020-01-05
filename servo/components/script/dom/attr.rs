@@ -182,7 +182,6 @@ Atom
 Namespace
 }
 ;
-pub
 use
 style
 :

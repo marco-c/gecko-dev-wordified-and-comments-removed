@@ -358,10 +358,7 @@ use
 script
 :
 :
-dom
-:
-:
-node
+layout_interface
 :
 :
 OpaqueStyleAndLayoutData

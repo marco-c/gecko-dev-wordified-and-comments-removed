@@ -19,10 +19,7 @@ dom
 attr
 :
 :
-{
 Attr
-AttrValue
-}
 ;
 use
 dom
@@ -341,6 +338,15 @@ string_cache
 :
 :
 Atom
+;
+use
+style
+:
+:
+attr
+:
+:
+AttrValue
 ;
 use
 style

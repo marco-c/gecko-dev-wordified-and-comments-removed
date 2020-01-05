@@ -11,10 +11,7 @@ dom
 attr
 :
 :
-{
 Attr
-AttrValue
-}
 ;
 use
 dom
@@ -267,6 +264,7 @@ attr
 :
 :
 {
+AttrValue
 LengthOrPercentageOrAuto
 parse_unsigned_integer
 }
