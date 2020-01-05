@@ -913,11 +913,15 @@ PropertyDeclarationBlock
 >
 path
 :
+&
 StrongRuleNode
 )
 -
 >
+Option
+<
 StrongRuleNode
+>
 {
 debug_assert
 !
@@ -1099,7 +1103,7 @@ replacement
 )
 ;
 return
-path
+None
 ;
 }
 }
@@ -1244,6 +1248,8 @@ level
 }
 }
 }
+Some
+(
 self
 .
 insert_ordered_rules_from
@@ -1257,6 +1263,7 @@ into_iter
 .
 rev
 (
+)
 )
 )
 }
@@ -2272,6 +2279,7 @@ RuleNode
 derive
 (
 Debug
+PartialEq
 )
 ]
 pub
