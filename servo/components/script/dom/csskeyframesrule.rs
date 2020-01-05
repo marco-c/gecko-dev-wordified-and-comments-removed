@@ -972,6 +972,7 @@ Error
 match_ignore_ascii_case
 !
 {
+&
 value
 "
 initial

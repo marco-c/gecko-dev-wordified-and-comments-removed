@@ -1118,6 +1118,7 @@ try
 match_ignore_ascii_case
 !
 {
+&
 name
 "
 counter
@@ -1355,6 +1356,7 @@ ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 open

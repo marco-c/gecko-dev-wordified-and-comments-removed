@@ -78,6 +78,14 @@ extern
 crate
 cssparser
 ;
+#
+[
+macro_use
+]
+extern
+crate
+cssparser_macros
+;
 extern
 crate
 encoding

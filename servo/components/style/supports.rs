@@ -215,6 +215,7 @@ ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 and

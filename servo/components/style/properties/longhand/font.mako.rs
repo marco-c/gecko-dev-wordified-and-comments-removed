@@ -475,6 +475,7 @@ _
 match_ignore_ascii_case
 !
 {
+&
 input
 "
 serif
@@ -741,6 +742,7 @@ false
 match_ignore_ascii_case
 !
 {
+&
 first_ident
 "
 serif
@@ -2250,6 +2252,7 @@ input
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -4670,6 +4673,7 @@ false
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (

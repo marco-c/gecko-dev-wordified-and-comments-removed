@@ -264,7 +264,7 @@ version
 "
 0
 .
-10
+11
 "
 features
 =
@@ -277,6 +277,17 @@ serde
 "
 ]
 }
+cssparser
+-
+macros
+=
+"
+0
+.
+1
+.
+0
+"
 deny_public_fields
 =
 {

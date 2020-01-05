@@ -408,6 +408,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 clip
@@ -1308,6 +1309,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 ident
 "
 underline

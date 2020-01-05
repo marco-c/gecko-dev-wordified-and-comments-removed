@@ -2855,6 +2855,7 @@ input
 match_ignore_ascii_case
 !
 {
+&
 function_name
 "
 blur
@@ -3906,6 +3907,7 @@ expect_ident
 match_ignore_ascii_case
 !
 {
+&
 token
 "
 left

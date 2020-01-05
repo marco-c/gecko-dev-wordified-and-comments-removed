@@ -549,6 +549,7 @@ SpecifiedValue
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -2341,6 +2342,7 @@ _
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -4552,6 +4554,7 @@ return
 match_ignore_ascii_case
 !
 {
+&
 function_name
 "
 cubic
@@ -4852,6 +4855,7 @@ try
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -10055,6 +10059,7 @@ break
 match_ignore_ascii_case
 !
 {
+&
 name
 "
 matrix

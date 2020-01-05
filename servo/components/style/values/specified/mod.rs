@@ -2193,6 +2193,7 @@ _
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -2344,6 +2345,7 @@ or_else
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -2519,6 +2521,7 @@ _
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -4667,6 +4670,7 @@ Ok
 match_ignore_ascii_case
 !
 {
+&
 input
 .
 expect_ident

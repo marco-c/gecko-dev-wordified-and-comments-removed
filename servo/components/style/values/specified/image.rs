@@ -625,6 +625,7 @@ stops
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (

@@ -1022,6 +1022,7 @@ BasicShape
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -1792,6 +1793,7 @@ Self
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -3041,6 +3043,7 @@ Self
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -3584,6 +3587,7 @@ Self
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -4135,6 +4139,7 @@ Self
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -4670,6 +4675,7 @@ _
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -5917,6 +5923,7 @@ FillRule
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -6159,6 +6166,7 @@ else
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
@@ -6402,6 +6410,7 @@ Self
 match_ignore_ascii_case
 !
 {
+&
 try
 !
 (
