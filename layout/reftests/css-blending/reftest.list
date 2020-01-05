@@ -1568,12 +1568,6 @@ filters
 enabled
 true
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 mix
@@ -1633,12 +1627,6 @@ filters
 .
 enabled
 true
-)
-fails
--
-if
-(
-webrender
 )
 =
 =
