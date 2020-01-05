@@ -57484,13 +57484,6 @@ PrincipalFlashClassification
 nsresult
 rv
 ;
-bool
-isThirdPartyDoc
-=
-IsThirdParty
-(
-)
-;
 if
 (
 !
@@ -57513,7 +57506,7 @@ return
 FlashClassification
 :
 :
-Allowed
+Unknown
 ;
 }
 nsCOMPtr
@@ -57668,6 +57661,13 @@ MaybeAddTableToTableList
 (
 denyExceptionsTables
 tables
+)
+;
+bool
+isThirdPartyDoc
+=
+IsThirdParty
+(
 )
 ;
 if
