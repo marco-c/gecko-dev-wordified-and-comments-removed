@@ -444,9 +444,9 @@ box
 ]
 #
 [
-warn
+allow
 (
-no_non_implicitly_copyable_typarams
+non_implicitly_copyable_typarams
 )
 ]
 fn
@@ -518,6 +518,8 @@ TextBox
 (
 subbox
 )
+=
+>
 {
 let
 run
@@ -596,6 +598,8 @@ return
 ;
 }
 _
+=
+>
 {
 /
 /
@@ -809,9 +813,9 @@ TextBox
 (
 subbox
 )
-{
+=
+>
 subbox
-}
 }
 ;
 b
@@ -864,9 +868,13 @@ display_item_solid_color
 (
 *
 )
+=
+>
 {
 }
 _
+=
+>
 {
 fail
 }
@@ -939,6 +947,8 @@ TextBox
 (
 subbox
 )
+=
+>
 {
 subbox
 }
@@ -994,9 +1004,13 @@ display_item_text
 (
 _
 )
+=
+>
 {
 }
 _
+=
+>
 {
 fail
 }
@@ -1062,6 +1076,8 @@ TextBox
 (
 subbox
 )
+=
+>
 {
 subbox
 }
@@ -1203,6 +1219,8 @@ TextBox
 (
 subbox
 )
+=
+>
 {
 subbox
 }

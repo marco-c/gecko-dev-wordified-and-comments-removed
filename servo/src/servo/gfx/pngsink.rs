@@ -377,6 +377,8 @@ BeginDrawing
 (
 sender
 )
+=
+>
 {
 #
 debug
@@ -401,6 +403,8 @@ Draw
 sender
 dt
 )
+=
+>
 {
 #
 debug
@@ -422,6 +426,8 @@ cairo_surf
 ;
 }
 Exit
+=
+>
 {
 break
 }

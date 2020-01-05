@@ -554,6 +554,8 @@ status
 =
 =
 CAIRO_STATUS_SUCCESS
+=
+>
 {
 #
 debug
@@ -592,6 +594,8 @@ int
 ;
 }
 status
+=
+>
 {
 import
 str

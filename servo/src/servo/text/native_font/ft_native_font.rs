@@ -442,7 +442,7 @@ vec_as_buf
 buf
 |
 cbuf
-len
+_len
 |
 {
 if

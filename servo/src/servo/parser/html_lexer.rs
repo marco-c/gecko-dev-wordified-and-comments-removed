@@ -182,6 +182,8 @@ CoeChar
 (
 c
 )
+=
+>
 {
 ch
 =
@@ -189,6 +191,8 @@ c
 ;
 }
 CoeEof
+=
+>
 {
 return
 Eof
@@ -204,6 +208,8 @@ self
 parser_state
 {
 NormalHtml
+=
+>
 {
 self
 .
@@ -213,6 +219,8 @@ ch
 )
 }
 TagHtml
+=
+>
 {
 self
 .
@@ -281,6 +289,8 @@ CoeChar
 (
 c
 )
+=
+>
 {
 ch
 =
@@ -288,6 +298,8 @@ c
 ;
 }
 CoeEof
+=
+>
 {
 self
 .
@@ -511,6 +523,8 @@ CoeChar
 (
 c
 )
+=
+>
 {
 if
 c
@@ -551,6 +565,8 @@ c
 ;
 }
 CoeEof
+=
+>
 {
 return
 Text
@@ -629,6 +645,8 @@ CoeChar
 (
 c
 )
+=
+>
 {
 if
 c
@@ -672,6 +690,8 @@ tag
 }
 }
 CoeEof
+=
+>
 {
 #
 warn
@@ -750,6 +770,8 @@ CoeChar
 (
 c
 )
+=
+>
 {
 if
 c
@@ -774,6 +796,8 @@ c
 ;
 }
 CoeEof
+=
+>
 {
 let
 name
@@ -837,6 +861,8 @@ CoeChar
 (
 c
 )
+=
+>
 {
 if
 c
@@ -861,6 +887,8 @@ c
 ;
 }
 CoeEof
+=
+>
 {
 return
 Attr
@@ -954,9 +982,9 @@ state
 }
 #
 [
-warn
+allow
 (
-no_non_implicitly_copyable_typarams
+non_implicitly_copyable_typarams
 )
 ]
 fn
@@ -1013,6 +1041,7 @@ send
 (
 Load
 (
+copy
 url
 input_port
 .

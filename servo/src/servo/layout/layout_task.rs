@@ -140,7 +140,10 @@ Msg
 BuildMsg
 (
 Node
+arc
+<
 Stylesheet
+>
 )
 PingMsg
 (
@@ -165,13 +168,13 @@ Renderer
 >
 Layout
 {
+do
 spawn_listener
 :
 :
 <
 Msg
 >
-(
 |
 request
 |
@@ -189,7 +192,8 @@ PingMsg
 (
 ping_channel
 )
-{
+=
+>
 ping_channel
 .
 send
@@ -199,9 +203,9 @@ content
 :
 PongMsg
 )
-;
-}
 ExitMsg
+=
+>
 {
 #
 debug
@@ -222,6 +226,8 @@ BuildMsg
 node
 styles
 )
+=
+>
 {
 #
 debug
@@ -268,11 +274,7 @@ node
 .
 recompute_style_for_subtree
 (
-arc
-(
-copy
 styles
-)
 )
 ;
 let
@@ -332,5 +334,4 @@ dlist
 }
 }
 }
-)
 }

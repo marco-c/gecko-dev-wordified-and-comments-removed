@@ -51,9 +51,9 @@ str
 }
 #
 [
-warn
+allow
 (
-no_non_implicitly_copyable_typarams
+non_implicitly_copyable_typarams
 )
 ]
 fn
@@ -123,6 +123,8 @@ ok
 (
 m
 )
+=
+>
 {
 copy
 m
@@ -134,6 +136,8 @@ err
 (
 f
 )
+=
+>
 {
 fail
 getopts
@@ -200,6 +204,8 @@ some
 (
 output_file
 )
+=
+>
 {
 Png
 (
@@ -208,6 +214,8 @@ output_file
 )
 }
 none
+=
+>
 {
 Screen
 }

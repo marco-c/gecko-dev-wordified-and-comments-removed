@@ -159,6 +159,8 @@ copy
 p
 {
 none
+=
+>
 {
 return
 ;
@@ -167,6 +169,8 @@ some
 (
 c
 )
+=
+>
 {
 if
 !
@@ -277,6 +281,8 @@ some
 (
 _
 )
+=
+>
 {
 fail
 ~
@@ -289,6 +295,8 @@ parent
 ;
 }
 none
+=
+>
 {
 child_tf
 .
@@ -333,6 +341,8 @@ parent_tf
 last_child
 {
 none
+=
+>
 {
 parent_tf
 .
@@ -348,6 +358,8 @@ some
 (
 lc
 )
+=
+>
 {
 let
 lc

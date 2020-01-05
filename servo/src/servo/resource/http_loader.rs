@@ -83,6 +83,12 @@ http
 do
 spawn
 {
+let
+url
+=
+copy
+url
+;
 #
 debug
 (
@@ -96,6 +102,7 @@ http
 %
 ?
 "
+copy
 url
 )
 ;
@@ -104,6 +111,7 @@ request
 =
 uv_http_request
 (
+copy
 url
 )
 ;
@@ -121,6 +129,12 @@ begin
 event
 |
 {
+let
+url
+=
+copy
+url
+;
 alt
 event
 {
@@ -131,6 +145,8 @@ Status
 (
 *
 )
+=
+>
 {
 }
 http_client
@@ -140,6 +156,8 @@ Payload
 (
 data
 )
+=
+>
 {
 #
 debug
@@ -193,6 +211,8 @@ Error
 (
 *
 )
+=
+>
 {
 #
 debug

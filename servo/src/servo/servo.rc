@@ -322,9 +322,9 @@ url
 }
 #
 [
-warn
+allow
 (
-no_non_implicitly_copyable_typarams
+non_implicitly_copyable_typarams
 )
 ]
 mod

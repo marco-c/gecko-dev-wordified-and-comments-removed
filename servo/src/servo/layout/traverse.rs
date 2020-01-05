@@ -663,7 +663,7 @@ required
 fn
 nop
 (
-box
+_box
 :
 Box
 )

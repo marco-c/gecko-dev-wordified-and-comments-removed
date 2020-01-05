@@ -667,6 +667,8 @@ some
 (
 g
 )
+=
+>
 {
 *
 glyph
@@ -678,6 +680,8 @@ hb_codepoint_t
 true
 }
 none
+=
+>
 {
 false
 }

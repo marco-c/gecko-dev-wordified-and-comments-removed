@@ -230,6 +230,8 @@ Element
 (
 element
 )
+=
+>
 {
 let
 style
@@ -257,11 +259,12 @@ some
 (
 col
 )
-{
+=
+>
 col
-}
 none
-{
+=
+>
 node
 .
 kind
@@ -269,7 +272,6 @@ kind
 default_color
 (
 )
-}
 }
 ;
 alt
@@ -282,6 +284,8 @@ HTMLImageElement
 (
 *
 )
+=
+>
 {
 let
 url
@@ -326,11 +330,15 @@ url
 ;
 }
 _
+=
+>
 {
 }
 }
 }
 _
+=
+>
 {
 }
 }

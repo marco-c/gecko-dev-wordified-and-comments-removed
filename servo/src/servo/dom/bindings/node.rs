@@ -755,6 +755,8 @@ some
 (
 n
 )
+=
+>
 {
 let
 obj
@@ -777,6 +779,8 @@ obj
 ;
 }
 none
+=
+>
 {
 *
 rval
@@ -847,6 +851,8 @@ some
 (
 n
 )
+=
+>
 {
 let
 obj
@@ -869,6 +875,8 @@ obj
 ;
 }
 none
+=
+>
 {
 *
 rval
@@ -938,12 +946,15 @@ Element
 (
 ed
 )
+=
+>
 {
 let
 s
 =
 str
 (
+copy
 ed
 .
 tag_name
@@ -960,6 +971,8 @@ s
 ;
 }
 _
+=
+>
 {
 *
 rval

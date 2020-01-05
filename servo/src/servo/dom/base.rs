@@ -510,9 +510,9 @@ Node
 }
 #
 [
-warn
+allow
 (
-no_non_implicitly_copyable_typarams
+non_implicitly_copyable_typarams
 )
 ]
 impl
@@ -560,9 +560,9 @@ k
 }
 #
 [
-warn
+allow
 (
-no_non_implicitly_copyable_typarams
+non_implicitly_copyable_typarams
 )
 ]
 impl
@@ -676,9 +676,9 @@ tree
 }
 #
 [
-warn
+allow
 (
-no_non_implicitly_copyable_typarams
+non_implicitly_copyable_typarams
 )
 ]
 impl
