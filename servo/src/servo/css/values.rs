@@ -132,6 +132,9 @@ f
 :
 fn
 (
++
+v
+:
 CSSValue
 <
 T
@@ -150,6 +153,7 @@ U
 {
 extract
 (
+&
 self
 f
 )
@@ -167,6 +171,7 @@ U
 (
 res
 :
+&
 ParseResult
 <
 T
@@ -175,6 +180,9 @@ f
 :
 fn
 (
++
+v
+:
 CSSValue
 <
 T
@@ -192,6 +200,7 @@ U
 >
 {
 match
+*
 res
 {
 Fail

@@ -390,6 +390,7 @@ self
 simulate_UA_display_rules
 (
 cur_node
+&
 style
 )
 {
@@ -1082,6 +1083,7 @@ node
 Node
 style
 :
+&
 SpecifiedStyle
 )
 -

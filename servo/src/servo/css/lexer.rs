@@ -1492,6 +1492,7 @@ ProgressMsg
 >
 result_chan
 :
+&
 Chan
 <
 Token
@@ -1552,7 +1553,7 @@ break
 fn
 spawn_css_lexer_from_string
 (
--
++
 content
 :
 ~
@@ -1630,6 +1631,7 @@ Ok
 lex_css_from_bytes
 (
 input_port
+&
 result_chan
 )
 ;
@@ -1649,7 +1651,7 @@ pub
 fn
 spawn_css_lexer_task
 (
--
++
 url
 :
 Url
@@ -1727,6 +1729,7 @@ chan
 lex_css_from_bytes
 (
 input_port
+&
 result_chan
 )
 ;

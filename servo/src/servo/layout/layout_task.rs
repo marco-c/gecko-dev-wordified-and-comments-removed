@@ -902,6 +902,7 @@ recompute_style_for_subtree
 (
 &
 layout_ctx
+&
 styles
 )
 ;
