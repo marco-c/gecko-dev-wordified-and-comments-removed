@@ -883,10 +883,10 @@ typename
 Iterator
 >
 class
-GridItemCSSOrderIteratorT
+CSSOrderAwareFrameIteratorT
 ;
 typedef
-GridItemCSSOrderIteratorT
+CSSOrderAwareFrameIteratorT
 <
 nsFrameList
 :
@@ -896,7 +896,7 @@ iterator
 GridItemCSSOrderIterator
 ;
 typedef
-GridItemCSSOrderIteratorT
+CSSOrderAwareFrameIteratorT
 <
 nsFrameList
 :

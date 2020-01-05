@@ -1741,7 +1741,7 @@ class
 nsGridContainerFrame
 :
 :
-GridItemCSSOrderIteratorT
+CSSOrderAwareFrameIteratorT
 {
 public
 :
@@ -1760,11 +1760,11 @@ eSkipPlaceholders
 eIncludeAll
 }
 ;
-GridItemCSSOrderIteratorT
+CSSOrderAwareFrameIteratorT
 (
 nsIFrame
 *
-aGridContainer
+aContainer
 nsIFrame
 :
 :
@@ -1782,7 +1782,7 @@ eUnknownOrder
 :
 mChildren
 (
-aGridContainer
+aContainer
 -
 >
 GetChildList
@@ -1794,7 +1794,7 @@ mArrayIndex
 (
 0
 )
-mGridItemIndex
+mItemIndex
 (
 0
 )
@@ -1808,9 +1808,9 @@ eSkipPlaceholders
 #
 ifdef
 DEBUG
-mGridContainer
+mContainer
 (
-aGridContainer
+aContainer
 )
 mListID
 (
@@ -2012,7 +2012,7 @@ SkipPlaceholders
 }
 }
 ~
-GridItemCSSOrderIteratorT
+CSSOrderAwareFrameIteratorT
 (
 )
 {
@@ -2023,7 +2023,7 @@ IsForward
 )
 =
 =
-mGridItemCount
+mItemCount
 .
 isNothing
 (
@@ -2097,7 +2097,7 @@ mArrayIndex
 ;
 }
 size_t
-GridItemIndex
+ItemIndex
 (
 )
 const
@@ -2147,10 +2147,10 @@ IsForward
 )
 |
 |
-mGridItemIndex
+mItemIndex
 <
 *
-mGridItemCount
+mItemCount
 "
 Returning
 an
@@ -2159,7 +2159,7 @@ out
 of
 -
 range
-mGridItemIndex
+mItemIndex
 .
 .
 .
@@ -2167,14 +2167,14 @@ mGridItemIndex
 )
 ;
 return
-mGridItemIndex
+mItemIndex
 ;
 }
 void
-SetGridItemCount
+SetItemCount
 (
 size_t
-aGridItemCount
+aItemCount
 )
 {
 #
@@ -2189,7 +2189,7 @@ isSome
 )
 |
 |
-aGridItemCount
+aItemCount
 <
 =
 mArray
@@ -2199,7 +2199,6 @@ Length
 (
 )
 "
-grid
 item
 count
 mismatch
@@ -2208,14 +2207,14 @@ mismatch
 ;
 #
 endif
-mGridItemCount
+mItemCount
 .
 emplace
 (
-aGridItemCount
+aItemCount
 )
 ;
-mGridItemIndex
+mItemIndex
 =
 IsForward
 (
@@ -2224,7 +2223,7 @@ IsForward
 0
 :
 *
-mGridItemCount
+mItemCount
 -
 1
 ;
@@ -2414,7 +2413,7 @@ AtEnd
 nsFrameList
 list
 =
-mGridContainer
+mContainer
 -
 >
 GetChildList
@@ -2496,11 +2495,11 @@ IsForward
 ?
 +
 +
-mGridItemIndex
+mItemIndex
 :
 -
 -
-mGridItemIndex
+mItemIndex
 ;
 }
 if
@@ -2594,7 +2593,7 @@ mArrayIndex
 0
 ;
 }
-mGridItemIndex
+mItemIndex
 =
 IsForward
 (
@@ -2603,7 +2602,7 @@ IsForward
 0
 :
 *
-mGridItemCount
+mItemCount
 -
 1
 ;
@@ -2735,13 +2734,13 @@ size_t
 mArrayIndex
 ;
 size_t
-mGridItemIndex
+mItemIndex
 ;
 Maybe
 <
 size_t
 >
-mGridItemCount
+mItemCount
 ;
 bool
 mSkipPlaceholders
@@ -2751,7 +2750,7 @@ ifdef
 DEBUG
 nsIFrame
 *
-mGridContainer
+mContainer
 ;
 nsIFrame
 :
@@ -15277,7 +15276,7 @@ aState
 .
 mIter
 .
-GridItemIndex
+ItemIndex
 (
 )
 =
@@ -15292,7 +15291,7 @@ Length
 -
 1
 "
-GridItemIndex
+ItemIndex
 (
 )
 is
@@ -15465,7 +15464,7 @@ aState
 .
 mIter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -15685,7 +15684,7 @@ aState
 .
 mIter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -15874,7 +15873,7 @@ aState
 .
 mIter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -15897,7 +15896,7 @@ aState
 .
 mIter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -19937,7 +19936,7 @@ aGridItems
 [
 iter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -21552,7 +21551,7 @@ aGridItems
 [
 iter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -23443,7 +23442,7 @@ aGridItems
 [
 iter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -27237,7 +27236,7 @@ aState
 .
 mIter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -30073,7 +30072,7 @@ aState
 .
 mIter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -35596,7 +35595,7 @@ orderState
 ;
 iter
 .
-SetGridItemCount
+SetItemCount
 (
 aGridItems
 -
@@ -36191,7 +36190,7 @@ aGridItems
 [
 aIter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
@@ -36393,7 +36392,7 @@ aGridItems
 [
 aIter
 .
-GridItemIndex
+ItemIndex
 (
 )
 ]
