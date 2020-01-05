@@ -117,15 +117,11 @@ HTMLTableCaptionElement
 ?
 caption
 ;
-/
-/
 HTMLElement
 createCaption
 (
 )
 ;
-/
-/
 void
 deleteCaption
 (
