@@ -1995,6 +1995,8 @@ FractionalPixel
 }
 }
 }
+/
+*
 fn
 should_destruct_on_fail_without_leaking
 (
@@ -2348,3 +2350,5 @@ get_test_font
 }
 }
 }
+*
+/
