@@ -18565,12 +18565,12 @@ aTargetWinState
 let
 hosts
 =
-Object
+[
 .
-keys
-(
+.
+.
 cookieHosts
-)
+]
 .
 join
 (

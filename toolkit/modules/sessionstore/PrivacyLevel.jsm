@@ -83,9 +83,6 @@ PrivacyLevel
 .
 canSave
 (
-{
-isHttps
-:
 url
 .
 startsWith
@@ -95,15 +92,12 @@ https
 :
 "
 )
-}
 )
 ;
 }
 canSave
 (
-{
 isHttps
-}
 )
 {
 let
