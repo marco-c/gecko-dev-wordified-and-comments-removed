@@ -489,16 +489,12 @@ in
 family
 [
 %
-?
+s
 ]
 matching
 style
-:
-%
-?
 "
 decision
-style
 family_name
 )
 ;
