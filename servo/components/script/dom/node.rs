@@ -13330,16 +13330,11 @@ len
 )
 )
 ;
-let
-attrs
-=
 element
 .
 attrs
 (
 )
-;
-attrs
 .
 iter
 (

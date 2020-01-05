@@ -245,15 +245,6 @@ this
 cef_string_userfree_t
 {
 {
-let
-this
-=
-this
-.
-downcast
-(
-)
-;
 /
 /
 FIXME
@@ -280,6 +271,10 @@ let
 url
 =
 this
+.
+downcast
+(
+)
 .
 url
 .
