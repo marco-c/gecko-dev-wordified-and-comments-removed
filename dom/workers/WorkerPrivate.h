@@ -3819,6 +3819,12 @@ aFlags
 NS_DISPATCH_NORMAL
 )
 ;
+nsIEventTarget
+*
+ControlEventTarget
+(
+)
+;
 private
 :
 WorkerPrivate
