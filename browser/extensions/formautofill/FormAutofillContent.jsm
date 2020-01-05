@@ -1383,7 +1383,7 @@ fieldName
 )
 ;
 }
-_identifyAutofillFields
+identifyAutofillFields
 (
 doc
 )
@@ -1395,7 +1395,7 @@ log
 debug
 (
 "
-_identifyAutofillFields
+identifyAutofillFields
 :
 "
 "

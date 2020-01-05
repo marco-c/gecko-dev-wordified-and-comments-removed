@@ -954,7 +954,7 @@ document
 ;
 FormAutofillContent
 .
-_identifyAutofillFields
+identifyAutofillFields
 (
 doc
 )
