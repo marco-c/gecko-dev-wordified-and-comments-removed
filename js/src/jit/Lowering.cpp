@@ -3401,16 +3401,6 @@ CallTempReg2
 )
 )
 ;
-if
-(
-!
-apply
--
->
-getSingleTarget
-(
-)
-)
 assignSnapshot
 (
 lir
