@@ -44,10 +44,6 @@ rustc
 ;
 extern
 crate
-rustc_front
-;
-extern
-crate
 rustc_plugin
 ;
 #
