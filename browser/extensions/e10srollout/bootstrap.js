@@ -118,7 +118,7 @@ release
 "
 :
 "
-51set1
+50allmpc
 "
 "
 esr
@@ -367,6 +367,15 @@ a57d
 39143191b318
 }
 ;
+"
++
+"
+firefox
+mega
+.
+co
+.
+nz
 "
 )
 ;
