@@ -268,10 +268,7 @@ style
 selector_impl
 :
 :
-{
-SelectorImplExt
 PseudoElementCascadeType
-}
 ;
 use
 style

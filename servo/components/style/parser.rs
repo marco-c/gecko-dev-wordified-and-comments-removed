@@ -37,6 +37,12 @@ GeckoArcURI
 }
 ;
 use
+selector_impl
+:
+:
+TheSelectorImpl
+;
+use
 selectors
 :
 :
@@ -199,6 +205,9 @@ pub
 selector_context
 :
 SelectorParserContext
+<
+TheSelectorImpl
+>
 pub
 error_reporter
 :

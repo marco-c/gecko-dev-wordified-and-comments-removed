@@ -57,10 +57,8 @@ selector_impl
 :
 {
 ElementExt
-SelectorImplExt
 TheSelectorImpl
 PseudoElement
-AttrString
 }
 ;
 use
@@ -1234,9 +1232,6 @@ Element
 Impl
 =
 TheSelectorImpl
-AttrString
-=
-AttrString
 >
 +
 PresentationalHintsSynthetizer
@@ -1601,9 +1596,6 @@ Element
 Impl
 =
 TheSelectorImpl
-AttrString
-=
-AttrString
 >
 +
 PresentationalHintsSynthetizer
