@@ -4780,6 +4780,11 @@ PositionFrameView
 aKidFrame
 )
 ;
+PositionChildViews
+(
+aKidFrame
+)
+;
 }
 aKidFrame
 -
@@ -4944,6 +4949,11 @@ NS_FRAME_NO_MOVE_VIEW
 )
 {
 PositionFrameView
+(
+aKidFrame
+)
+;
+PositionChildViews
 (
 aKidFrame
 )
