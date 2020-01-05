@@ -166,7 +166,7 @@ enabled
 "
 Constructor
 (
-AudioContext
+BaseAudioContext
 context
 optional
 ChannelMergerOptions

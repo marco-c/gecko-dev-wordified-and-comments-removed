@@ -185,7 +185,7 @@ enabled
 "
 Constructor
 (
-AudioContext
+BaseAudioContext
 context
 optional
 AnalyserOptions

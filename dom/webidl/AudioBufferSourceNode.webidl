@@ -187,7 +187,7 @@ enabled
 "
 Constructor
 (
-AudioContext
+BaseAudioContext
 context
 optional
 AudioBufferSourceOptions

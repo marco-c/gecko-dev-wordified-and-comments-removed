@@ -163,7 +163,7 @@ enabled
 "
 Constructor
 (
-AudioContext
+BaseAudioContext
 context
 optional
 ConstantSourceOptions
