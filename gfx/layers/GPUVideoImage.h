@@ -126,7 +126,7 @@ aSize
 TextureFlags
 :
 :
-DEFAULT
+RECYCLE
 ImageBridgeChild
 :
 :
