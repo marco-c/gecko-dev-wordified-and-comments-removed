@@ -202,11 +202,9 @@ SourceSurface
 >
 GetSurfaceSnapshot
 (
-bool
+gfxAlphaType
 *
-aPremultAlpha
-=
-nullptr
+aOutAlphaType
 )
 override
 ;
