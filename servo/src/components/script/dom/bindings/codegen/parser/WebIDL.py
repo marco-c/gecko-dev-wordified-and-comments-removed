@@ -2313,7 +2313,7 @@ self
 .
 type
 .
-isString
+isDOMString
 (
 )
 or
@@ -2450,7 +2450,7 @@ self
 .
 type
 .
-isString
+isDOMString
 (
 )
 :
@@ -11405,6 +11405,35 @@ IDLBuiltinType
 .
 Types
 .
+bytestring
+:
+          
+IDLBuiltinType
+(
+BuiltinLocation
+(
+"
+<
+builtin
+type
+>
+"
+)
+"
+ByteString
+"
+                         
+IDLBuiltinType
+.
+Types
+.
+bytestring
+)
+      
+IDLBuiltinType
+.
+Types
+.
 object
 :
           
@@ -17822,6 +17851,14 @@ DOMSTRING
 "
         
 "
+ByteString
+"
+:
+"
+BYTESTRING
+"
+        
+"
 any
 "
 :
@@ -21436,7 +21473,7 @@ if
 not
 returnType
 .
-isString
+isDOMString
 (
 )
 :
@@ -21448,7 +21485,7 @@ WebIDLError
 stringifier
 must
 have
-string
+DOMString
 return
 type
 "
@@ -23003,6 +23040,9 @@ DATE
 DOMSTRING
                   
 |
+BYTESTRING
+                  
+|
 ANY
                   
 |
@@ -24245,6 +24285,37 @@ IDLBuiltinType
 Types
 .
 domstring
+    
+def
+p_PrimitiveOrStringTypeBytestring
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+PrimitiveOrStringType
+:
+BYTESTRING
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+IDLBuiltinType
+.
+Types
+.
+bytestring
     
 def
 p_UnsignedIntegerTypeUnsigned

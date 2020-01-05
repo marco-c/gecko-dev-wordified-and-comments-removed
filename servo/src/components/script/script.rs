@@ -220,6 +220,10 @@ proxyhandler
 ;
 pub
 mod
+str
+;
+pub
+mod
 trace
 ;
 pub
