@@ -4112,8 +4112,8 @@ Test
 ;
 add_task
 (
-async
 function
+*
 format_errors
 (
 )
@@ -4195,7 +4195,7 @@ Error
 ;
 try
 {
-await
+yield
 Promise
 .
 resolve

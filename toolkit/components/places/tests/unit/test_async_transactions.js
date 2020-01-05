@@ -8867,6 +8867,7 @@ info
 guid
 =
 await
+(
 info
 =
 =
@@ -8892,6 +8893,7 @@ info
 .
 transact
 (
+)
 )
 ;
 }

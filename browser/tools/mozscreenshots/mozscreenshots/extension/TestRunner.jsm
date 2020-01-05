@@ -1502,9 +1502,7 @@ _onConfigurationReady
 )
 ;
 return
-(
 delayedScreenshot
-)
 (
 )
 ;

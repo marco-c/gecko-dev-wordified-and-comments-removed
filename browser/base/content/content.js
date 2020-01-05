@@ -6803,11 +6803,6 @@ document
 window
 )
 ;
-(
-(
-)
-=
->
 this
 .
 processFrames
@@ -6815,9 +6810,6 @@ processFrames
 document
 frameList
 strings
-)
-)
-(
 )
 ;
 }

@@ -646,6 +646,8 @@ S
 null
 "
 fo
+\
+xE9
 "
 )
 new
@@ -670,6 +672,8 @@ A9
 raw
 =
 fo
+\
+xE9
 "
 null
 )
@@ -712,6 +716,8 @@ ISO
 null
 "
 fo
+\
+xE9
 "
 )
 new
@@ -734,6 +740,8 @@ E9
 raw
 =
 fo
+\
+xE9
 "
 null
 )
@@ -1249,11 +1257,13 @@ addedEngine
 }
 }
 }
+async
 function
 cleanupKeywords
 (
 )
 {
+await
 PlacesUtils
 .
 bookmarks

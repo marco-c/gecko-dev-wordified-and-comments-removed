@@ -49,9 +49,7 @@ gTerminationTasks
 try
 {
 await
-(
 taskFn
-)
 (
 )
 ;

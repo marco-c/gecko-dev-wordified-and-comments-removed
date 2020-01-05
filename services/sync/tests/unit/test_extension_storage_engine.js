@@ -337,16 +337,15 @@ resolve
 try
 {
 yield
-*
 withSyncContext
 (
+async
 function
-*
 (
 context
 )
 {
-yield
+await
 extensionStorageSync
 .
 set
@@ -364,7 +363,7 @@ b
 context
 )
 ;
-yield
+await
 engine
 .
 _sync

@@ -207,13 +207,9 @@ length
 )
 {
 await
-(
 gTests
 .
 shift
-(
-)
-)
 (
 )
 ;

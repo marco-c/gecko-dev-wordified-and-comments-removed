@@ -1103,13 +1103,9 @@ try
 {
 rv
 =
-(
 await
-(
 aTask
-)
 (
-)
 )
 ;
 }

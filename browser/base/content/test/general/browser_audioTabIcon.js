@@ -1059,7 +1059,7 @@ expectMuted
 let
 mutedPromise
 =
-test_mute_keybinding
+get_wait_for_mute_promise
 (
 tab
 expectMuted

@@ -367,9 +367,7 @@ name
 )
 ;
 await
-(
 taskFn
-)
 (
 )
 ;

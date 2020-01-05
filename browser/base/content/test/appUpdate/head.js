@@ -801,9 +801,7 @@ function
 )
 {
 return
-(
 step
-)
 (
 )
 ;

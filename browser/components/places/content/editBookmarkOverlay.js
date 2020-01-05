@@ -2794,9 +2794,7 @@ reportError
 )
 ;
 else
-(
 setTags
-)
 (
 )
 .

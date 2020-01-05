@@ -520,9 +520,7 @@ manifests
 .
 length
 )
-(
 finishCleanUp
-)
 (
 )
 .

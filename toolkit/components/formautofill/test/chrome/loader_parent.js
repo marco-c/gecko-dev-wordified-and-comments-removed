@@ -210,9 +210,7 @@ taskId
 )
 ;
 await
-(
 taskFn
-)
 (
 )
 ;
