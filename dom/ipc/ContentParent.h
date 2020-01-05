@@ -620,11 +620,6 @@ ContentParent
 aOpener
 =
 nullptr
-bool
-*
-anew
-=
-nullptr
 )
 ;
 static

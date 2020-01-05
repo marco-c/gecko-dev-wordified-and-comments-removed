@@ -733,9 +733,14 @@ true
 ;
 if
 (
-aDocShell
+Services
 .
-inLargeAllocProcess
+appinfo
+.
+remoteType
+=
+=
+LARGE_ALLOCATION_REMOTE_TYPE
 &
 &
 !
