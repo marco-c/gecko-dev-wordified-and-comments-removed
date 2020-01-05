@@ -33,8 +33,9 @@ restyle_hints
 :
 :
 {
+ElementSnapshot
 RestyleHint
-StateDependencySet
+DependencySet
 }
 ;
 use
@@ -541,7 +542,7 @@ rules_source_order
 usize
 state_deps
 :
-StateDependencySet
+DependencySet
 }
 impl
 Stylist
@@ -608,7 +609,7 @@ rules_source_order
 0
 state_deps
 :
-StateDependencySet
+DependencySet
 :
 :
 new
@@ -1101,7 +1102,7 @@ rules_source_order
 }
 pub
 fn
-restyle_hint_for_state_change
+compute_restyle_hint
 <
 E
 >
@@ -1112,10 +1113,11 @@ element
 :
 &
 E
-current_state
+snapshot
 :
-ElementState
-old_state
+&
+ElementSnapshot
+current_state
 :
 ElementState
 )
@@ -1136,8 +1138,8 @@ state_deps
 compute_hint
 (
 element
+snapshot
 current_state
-old_state
 )
 }
 pub
