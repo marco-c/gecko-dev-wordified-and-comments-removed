@@ -3228,7 +3228,7 @@ GetStart
 )
 lib
 .
-GetName
+GetNativeDebugName
 (
 )
 )
