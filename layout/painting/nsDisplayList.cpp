@@ -36567,16 +36567,6 @@ if
 (
 maskUsage
 .
-opacity
-!
-=
-1
-.
-0
-|
-|
-maskUsage
-.
 shouldApplyClipPath
 )
 {
