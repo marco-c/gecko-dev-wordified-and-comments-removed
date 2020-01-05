@@ -146,8 +146,6 @@ partial
 interface
 HTMLHRElement
 {
-/
-/
 attribute
 DOMString
 align
