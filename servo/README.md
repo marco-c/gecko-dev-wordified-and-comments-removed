@@ -99,6 +99,9 @@ libpango1
 0
 -
 dev
+autoconf2
+.
+13
 #
 #
 #
@@ -132,6 +135,8 @@ autogen
 .
 sh
 mkdir
+-
+p
 build
 &
 &
