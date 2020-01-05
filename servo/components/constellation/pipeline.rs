@@ -119,6 +119,7 @@ constellation_msg
 :
 {
 FrameId
+FrameType
 LoadData
 PanicMsg
 PipelineId
@@ -309,6 +310,7 @@ Option
 (
 PipelineId
 SubpageId
+FrameType
 )
 >
 pub
@@ -411,6 +413,7 @@ Option
 (
 PipelineId
 SubpageId
+FrameType
 )
 >
 pub
@@ -909,6 +912,7 @@ let
 (
 containing_pipeline_id
 subpage_id
+_
 )
 =
 state
@@ -1180,6 +1184,21 @@ parent_info
 state
 .
 parent_info
+.
+map
+(
+|
+(
+parent_id
+subpage_id
+_
+)
+|
+(
+parent_id
+subpage_id
+)
+)
 constellation_chan
 :
 state
@@ -1404,6 +1423,7 @@ Option
 (
 PipelineId
 SubpageId
+FrameType
 )
 >
 script_chan

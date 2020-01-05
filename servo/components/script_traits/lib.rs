@@ -188,6 +188,7 @@ constellation_msg
 :
 {
 FrameId
+FrameType
 Key
 KeyModifiers
 KeyState
@@ -1191,6 +1192,10 @@ pub
 is_private
 :
 bool
+pub
+frame_type
+:
+FrameType
 }
 #
 [
