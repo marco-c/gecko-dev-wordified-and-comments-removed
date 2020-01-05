@@ -26,8 +26,8 @@ Bar
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -157,7 +157,7 @@ isSendableURI
 >
 true
 ;
-yield
+await
 ensureSyncReady
 (
 )
@@ -170,7 +170,7 @@ setupRemoteClientsFixture
 remoteClientsFixture
 )
 ;
-yield
+await
 updateTabContextMenu
 (
 origTab

@@ -24,8 +24,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -149,7 +149,7 @@ Person
 "
 }
 ;
-yield
+await
 promiseMigration
 (
 migrator
@@ -296,7 +296,7 @@ prop
 )
 ;
 }
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain

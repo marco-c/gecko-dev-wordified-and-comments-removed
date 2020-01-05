@@ -376,27 +376,6 @@ javascript
 [
 CDATA
 [
-Components
-.
-utils
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
 SimpleTest
 .
 waitForExplicitFinish
@@ -493,12 +472,9 @@ runTests
 (
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -547,7 +523,7 @@ after_start
 "
 )
 ;
-yield
+await
 popupshown
 ;
 let
@@ -621,7 +597,7 @@ marginLeft
 "
 50px
 "
-yield
+await
 popuppositioned
 ;
 anchorrect
@@ -719,7 +695,7 @@ after_end
 "
 )
 ;
-yield
+await
 popuppositioned
 ;
 let
@@ -814,7 +790,7 @@ after_end
 9
 )
 ;
-yield
+await
 popuppositioned
 ;
 anchor2rect
@@ -914,7 +890,7 @@ collapsed
 =
 true
 ;
-yield
+await
 popuphidden
 ;
 popupshown
@@ -937,7 +913,7 @@ after_start
 "
 )
 ;
-yield
+await
 popupshown
 ;
 /
@@ -982,7 +958,7 @@ selectedIndex
 =
 1
 ;
-yield
+await
 popuphidden
 ;
 let
@@ -1017,7 +993,7 @@ after_start
 "
 )
 ;
-yield
+await
 popupshown
 ;
 /
@@ -1052,7 +1028,7 @@ hidden
 =
 true
 ;
-yield
+await
 popuphidden
 ;
 /
@@ -1112,7 +1088,7 @@ openPopupAtScreen
 200
 )
 ;
-yield
+await
 popupshown
 ;
 popupshown
@@ -1142,7 +1118,7 @@ after_start
 "
 )
 ;
-yield
+await
 popupshown
 ;
 popuphidden
@@ -1171,10 +1147,10 @@ hidePopup
 (
 )
 ;
-yield
+await
 popuphidden
 ;
-yield
+await
 menupopuphidden
 ;
 /
@@ -1220,7 +1196,7 @@ after_start
 "
 )
 ;
-yield
+await
 popupshown
 ;
 let
@@ -1271,7 +1247,7 @@ hidden
 =
 true
 ;
-yield
+await
 new
 Promise
 (
@@ -1351,7 +1327,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popuphidden
 ;
 /
@@ -1408,7 +1384,7 @@ after_start
 "
 )
 ;
-yield
+await
 popupshown
 ;
 let
@@ -1444,7 +1420,7 @@ marginLeft
 "
 50px
 "
-yield
+await
 next
 (
 )
@@ -1513,7 +1489,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popuphidden
 ;
 window
@@ -1535,6 +1511,8 @@ finish
 )
 ;
 }
+)
+(
 )
 ;
 }

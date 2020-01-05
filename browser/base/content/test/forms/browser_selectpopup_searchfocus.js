@@ -105,13 +105,13 @@ html
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -151,8 +151,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_focus_on_search_shouldnt_close_popup
 (
 )
@@ -176,7 +176,7 @@ SELECT
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -217,7 +217,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -238,7 +238,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -279,7 +279,7 @@ focus
 "
 )
 ;
-yield
+await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -290,7 +290,7 @@ searchInput
 window
 )
 ;
-yield
+await
 searchFocused
 ;
 is
@@ -317,7 +317,7 @@ field
 "
 )
 ;
-yield
+await
 hideSelectPopup
 (
 selectPopup
@@ -326,7 +326,7 @@ escape
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

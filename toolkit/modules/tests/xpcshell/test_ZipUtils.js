@@ -366,8 +366,8 @@ target
 ;
 add_task
 (
+async
 function
-*
 test_extractFilesAsync
 (
 )
@@ -406,7 +406,7 @@ FileUtils
 PERMS_DIRECTORY
 )
 ;
-yield
+await
 ZipUtils
 .
 extractFilesAsync

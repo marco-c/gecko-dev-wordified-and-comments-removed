@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -22,7 +22,7 @@ com
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -32,8 +32,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -58,7 +58,7 @@ html
 }
 )
 ;
-yield
+await
 TestUtils
 .
 topicObserved
@@ -74,7 +74,7 @@ complete
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -164,7 +164,7 @@ button
 let
 event
 =
-yield
+await
 popupShownPromise
 ;
 ok
@@ -177,7 +177,7 @@ opened
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -388,7 +388,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 info
@@ -414,7 +414,7 @@ TabClose
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -424,7 +424,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 onClose
 ;
 info

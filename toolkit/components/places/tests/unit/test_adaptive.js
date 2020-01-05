@@ -347,8 +347,8 @@ searchTerm
 )
 ;
 }
+async
 function
-*
 task_setCountRank
 (
 aURI
@@ -398,7 +398,7 @@ TRANSITION_TYPED
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1922,8 +1922,8 @@ deferEnsureResults
 ;
 add_task
 (
+async
 function
-*
 test_adaptive
 (
 )
@@ -2045,7 +2045,7 @@ type
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -2060,12 +2060,12 @@ defer
 (
 )
 ;
-yield
+await
 test
 (
 )
 ;
-yield
+await
 deferEnsureResults
 .
 promise

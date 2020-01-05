@@ -37,8 +37,8 @@ blank
 ;
 add_task
 (
+async
 function
-*
 test_button_state_disabled
 (
 )
@@ -46,7 +46,7 @@ test_button_state_disabled
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -55,7 +55,7 @@ gBrowser
 REPORTABLE_PAGE
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -86,7 +86,7 @@ load
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -121,7 +121,7 @@ load
 let
 tab3
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -151,7 +151,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -182,7 +182,7 @@ TabSelect
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -211,7 +211,7 @@ TabSelect
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -219,7 +219,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -227,7 +227,7 @@ removeTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

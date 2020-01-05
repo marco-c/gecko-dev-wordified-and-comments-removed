@@ -165,8 +165,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 docshell_capabilities
 (
 )
@@ -14,7 +14,7 @@ docshell_capabilities
 let
 tab
 =
-yield
+await
 createTab
 (
 )
@@ -132,13 +132,13 @@ reload
 (
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -226,7 +226,7 @@ disallowed
 "
 )
 ;
-yield
+await
 promiseTabState
 (
 tab
@@ -248,7 +248,7 @@ triggeringPrincipal_base64
 }
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -310,7 +310,7 @@ true
 "
 )
 ;
-yield
+await
 promiseTabState
 (
 tab

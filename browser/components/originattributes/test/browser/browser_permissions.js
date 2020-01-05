@@ -66,8 +66,8 @@ spawn
 (
 aBrowser
 null
+async
 function
-*
 (
 )
 {

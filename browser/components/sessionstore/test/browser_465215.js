@@ -47,8 +47,8 @@ random
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -66,7 +66,7 @@ blank
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab1
@@ -94,7 +94,7 @@ window
 tab1
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -149,7 +149,7 @@ d
 "
 )
 ;
-yield
+await
 promiseTabState
 (
 tab1

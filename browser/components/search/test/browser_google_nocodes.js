@@ -275,8 +275,8 @@ gEngineCount
 ;
 add_task
 (
+async
 function
-*
 preparation
 (
 )
@@ -322,7 +322,7 @@ resolve
 }
 )
 ;
-yield
+await
 asyncInit
 (
 )
@@ -522,12 +522,12 @@ geoUrl
 }
 )
 ;
-yield
+await
 asyncReInit
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -559,8 +559,8 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 tests
 (
 )
@@ -840,8 +840,8 @@ foo
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
@@ -957,7 +957,7 @@ originalGeoURL
 }
 )
 ;
-yield
+await
 asyncReInit
 (
 )

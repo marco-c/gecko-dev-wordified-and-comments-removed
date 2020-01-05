@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 setLinks
 (
 "
@@ -27,14 +27,12 @@ setPinnedLinks
 "
 )
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )
 ;
-yield
-*
+await
 checkGrid
 (
 "
@@ -50,7 +48,7 @@ checkGrid
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -60,8 +58,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -180,7 +178,7 @@ i
 +
 )
 {
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -201,7 +199,7 @@ selectedBrowser
 )
 ;
 }
-yield
+await
 pagesUpdatedPromise
 ;
 ok

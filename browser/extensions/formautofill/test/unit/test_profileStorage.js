@@ -3,25 +3,6 @@ use
 strict
 "
 ;
-Cu
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
 const
 {
 ProfileStorage
@@ -236,12 +217,8 @@ INVALID
 let
 prepareTestRecords
 =
-Task
-.
 async
-(
 function
-*
 (
 path
 )
@@ -255,7 +232,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -297,7 +274,7 @@ add
 TEST_ADDRESS_1
 )
 ;
-yield
+await
 onChanged
 ;
 profileStorage
@@ -307,7 +284,7 @@ add
 TEST_ADDRESS_2
 )
 ;
-yield
+await
 profileStorage
 .
 _saveImmediately
@@ -315,7 +292,6 @@ _saveImmediately
 )
 ;
 }
-)
 ;
 let
 do_check_record_matches
@@ -352,8 +328,8 @@ key
 ;
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
@@ -377,7 +353,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -419,7 +395,7 @@ _store
 .
 data
 ;
-yield
+await
 profileStorage
 .
 _saveImmediately
@@ -434,7 +410,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -458,8 +434,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 test_getAll
 (
 )
@@ -474,7 +450,7 @@ TEST_STORE_FILE_NAME
 .
 path
 ;
-yield
+await
 prepareTestRecords
 (
 path
@@ -489,7 +465,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -560,8 +536,8 @@ TEST_ADDRESS_1
 ;
 add_task
 (
+async
 function
-*
 test_get
 (
 )
@@ -576,7 +552,7 @@ TEST_STORE_FILE_NAME
 .
 path
 ;
-yield
+await
 prepareTestRecords
 (
 path
@@ -591,7 +567,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -682,8 +658,8 @@ record
 ;
 add_task
 (
+async
 function
-*
 test_getByFilter
 (
 )
@@ -698,7 +674,7 @@ TEST_STORE_FILE_NAME
 .
 path
 ;
-yield
+await
 prepareTestRecords
 (
 path
@@ -713,7 +689,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -978,8 +954,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_add
 (
 )
@@ -994,7 +970,7 @@ TEST_STORE_FILE_NAME
 .
 path
 ;
-yield
+await
 prepareTestRecords
 (
 path
@@ -1009,7 +985,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -1144,8 +1120,8 @@ field
 ;
 add_task
 (
+async
 function
-*
 test_update
 (
 )
@@ -1160,7 +1136,7 @@ TEST_STORE_FILE_NAME
 .
 path
 ;
-yield
+await
 prepareTestRecords
 (
 path
@@ -1175,7 +1151,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -1258,10 +1234,10 @@ guid
 TEST_ADDRESS_3
 )
 ;
-yield
+await
 onChanged
 ;
-yield
+await
 profileStorage
 .
 _saveImmediately
@@ -1276,7 +1252,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -1375,8 +1351,8 @@ field
 ;
 add_task
 (
+async
 function
-*
 test_notifyUsed
 (
 )
@@ -1391,7 +1367,7 @@ TEST_STORE_FILE_NAME
 .
 path
 ;
-yield
+await
 prepareTestRecords
 (
 path
@@ -1406,7 +1382,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -1487,10 +1463,10 @@ notifyUsed
 guid
 )
 ;
-yield
+await
 onChanged
 ;
-yield
+await
 profileStorage
 .
 _saveImmediately
@@ -1505,7 +1481,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -1570,8 +1546,8 @@ record
 ;
 add_task
 (
+async
 function
-*
 test_remove
 (
 )
@@ -1586,7 +1562,7 @@ TEST_STORE_FILE_NAME
 .
 path
 ;
-yield
+await
 prepareTestRecords
 (
 path
@@ -1601,7 +1577,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize
@@ -1670,10 +1646,10 @@ remove
 guid
 )
 ;
-yield
+await
 onChanged
 ;
-yield
+await
 profileStorage
 .
 _saveImmediately
@@ -1688,7 +1664,7 @@ ProfileStorage
 path
 )
 ;
-yield
+await
 profileStorage
 .
 initialize

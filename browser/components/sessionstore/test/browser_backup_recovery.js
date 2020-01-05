@@ -91,8 +91,8 @@ utf
 }
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -128,8 +128,8 @@ PREF_SS_INTERVAL
 ;
 add_task
 (
+async
 function
-*
 test_creation
 (
 )
@@ -174,7 +174,7 @@ bak
 "
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -187,7 +187,7 @@ bak
 "
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -200,14 +200,14 @@ backup
 "
 )
 ;
-yield
+await
 SessionFile
 .
 wipe
 (
 )
 ;
-yield
+await
 SessionFile
 .
 read
@@ -228,7 +228,7 @@ ok
 (
 !
 (
-yield
+await
 File
 .
 exists
@@ -261,7 +261,7 @@ ok
 (
 !
 (
-yield
+await
 File
 .
 exists
@@ -285,7 +285,7 @@ ok
 (
 !
 (
-yield
+await
 File
 .
 exists
@@ -361,7 +361,7 @@ write
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -369,7 +369,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -379,7 +379,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 SessionSaver
 .
 run
@@ -389,7 +389,7 @@ run
 ok
 (
 (
-yield
+await
 File
 .
 exists
@@ -414,7 +414,7 @@ ok
 (
 !
 (
-yield
+await
 File
 .
 exists
@@ -439,7 +439,7 @@ exist
 ok
 (
 (
-yield
+await
 promiseRead
 (
 Paths
@@ -471,7 +471,7 @@ ok
 (
 !
 (
-yield
+await
 File
 .
 exists
@@ -533,7 +533,7 @@ loadURI
 URL2
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -541,7 +541,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -551,7 +551,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 SessionSaver
 .
 run
@@ -561,7 +561,7 @@ run
 ok
 (
 (
-yield
+await
 File
 .
 exists
@@ -586,7 +586,7 @@ exists
 ok
 (
 (
-yield
+await
 promiseRead
 (
 Paths
@@ -617,7 +617,7 @@ url
 ok
 (
 (
-yield
+await
 File
 .
 exists
@@ -640,7 +640,7 @@ exists
 let
 backup
 =
-yield
+await
 promiseRead
 (
 Paths
@@ -699,7 +699,7 @@ ok
 (
 !
 (
-yield
+await
 File
 .
 exists
@@ -746,14 +746,14 @@ files
 "
 )
 ;
-yield
+await
 SessionFile
 .
 read
 (
 )
 ;
-yield
+await
 SessionSaver
 .
 run
@@ -764,7 +764,7 @@ ok
 (
 !
 (
-yield
+await
 File
 .
 exists
@@ -799,7 +799,7 @@ ok
 (
 !
 (
-yield
+await
 File
 .
 exists
@@ -834,7 +834,7 @@ ok
 (
 !
 (
-yield
+await
 File
 .
 exists
@@ -872,7 +872,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 SessionFile
 .
 wipe
@@ -885,12 +885,8 @@ wipe
 var
 promiseSource
 =
-Task
-.
 async
-(
 function
-*
 (
 name
 )
@@ -936,7 +932,7 @@ addTab
 URL
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -944,7 +940,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -954,7 +950,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 SessionSaver
 .
 run
@@ -971,7 +967,7 @@ tab
 let
 SOURCE
 =
-yield
+await
 promiseRead
 (
 Paths
@@ -979,7 +975,7 @@ Paths
 recovery
 )
 ;
-yield
+await
 SessionFile
 .
 wipe
@@ -990,17 +986,16 @@ return
 SOURCE
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 test_recovery
 (
 )
 {
-yield
+await
 SessionFile
 .
 wipe
@@ -1023,7 +1018,7 @@ file
 let
 SOURCE
 =
-yield
+await
 promiseSource
 (
 "
@@ -1033,7 +1028,7 @@ recovery
 "
 )
 ;
-yield
+await
 File
 .
 makeDir
@@ -1043,7 +1038,7 @@ Paths
 backups
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1057,7 +1052,7 @@ SOURCE
 is
 (
 (
-yield
+await
 SessionFile
 .
 read
@@ -1079,7 +1074,7 @@ file
 "
 )
 ;
-yield
+await
 SessionFile
 .
 wipe
@@ -1103,7 +1098,7 @@ backup
 ;
 SOURCE
 =
-yield
+await
 promiseSource
 (
 "
@@ -1113,7 +1108,7 @@ recoveryBackup
 "
 )
 ;
-yield
+await
 File
 .
 makeDir
@@ -1123,7 +1118,7 @@ Paths
 backups
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1134,7 +1129,7 @@ recoveryBackup
 SOURCE
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1153,7 +1148,7 @@ JSON
 is
 (
 (
-yield
+await
 SessionFile
 .
 read
@@ -1175,7 +1170,7 @@ file
 "
 )
 ;
-yield
+await
 SessionFile
 .
 wipe
@@ -1187,8 +1182,8 @@ wipe
 ;
 add_task
 (
+async
 function
-*
 test_recovery_inaccessible
 (
 )
@@ -1237,7 +1232,7 @@ backup
 let
 SOURCE_RECOVERY
 =
-yield
+await
 promiseSource
 (
 "
@@ -1250,7 +1245,7 @@ recovery
 let
 SOURCE
 =
-yield
+await
 promiseSource
 (
 "
@@ -1260,7 +1255,7 @@ recoveryBackup
 "
 )
 ;
-yield
+await
 File
 .
 makeDir
@@ -1270,7 +1265,7 @@ Paths
 backups
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1281,7 +1276,7 @@ recoveryBackup
 SOURCE
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1292,7 +1287,7 @@ recovery
 SOURCE_RECOVERY
 )
 ;
-yield
+await
 File
 .
 setPermissions
@@ -1310,7 +1305,7 @@ unixMode
 is
 (
 (
-yield
+await
 SessionFile
 .
 read
@@ -1332,7 +1327,7 @@ file
 "
 )
 ;
-yield
+await
 File
 .
 setPermissions
@@ -1352,13 +1347,13 @@ unixMode
 ;
 add_task
 (
+async
 function
-*
 test_clean
 (
 )
 {
-yield
+await
 SessionFile
 .
 wipe
@@ -1368,7 +1363,7 @@ wipe
 let
 SOURCE
 =
-yield
+await
 promiseSource
 (
 "
@@ -1378,7 +1373,7 @@ clean
 "
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1389,14 +1384,14 @@ clean
 SOURCE
 )
 ;
-yield
+await
 SessionFile
 .
 read
 (
 )
 ;
-yield
+await
 SessionSaver
 .
 run
@@ -1406,7 +1401,7 @@ run
 is
 (
 (
-yield
+await
 promiseRead
 (
 Paths
@@ -1437,8 +1432,8 @@ cleanBackup
 ;
 add_task
 (
+async
 function
-*
 test_version
 (
 )
@@ -1454,7 +1449,7 @@ sessionstore
 let
 SOURCE
 =
-yield
+await
 promiseSource
 (
 "
@@ -1488,7 +1483,7 @@ version
 "
 )
 ;
-yield
+await
 File
 .
 makeDir
@@ -1498,7 +1493,7 @@ Paths
 backups
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1525,7 +1520,7 @@ file
 is
 (
 (
-yield
+await
 SessionFile
 .
 read
@@ -1552,8 +1547,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 test_version_fallback
 (
 )
@@ -1577,7 +1572,7 @@ number
 let
 SOURCE
 =
-yield
+await
 promiseSource
 (
 "
@@ -1590,7 +1585,7 @@ clean
 let
 BACKUP_SOURCE
 =
-yield
+await
 promiseSource
 (
 "
@@ -1649,7 +1644,7 @@ version
 "
 )
 ;
-yield
+await
 File
 .
 makeDir
@@ -1702,7 +1697,7 @@ version
 bookmarks
 "
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1718,7 +1713,7 @@ parsedSource
 )
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1732,7 +1727,7 @@ BACKUP_SOURCE
 is
 (
 (
-yield
+await
 SessionFile
 .
 read
@@ -1798,7 +1793,7 @@ Number
 .
 MAX_SAFE_INTEGER
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1814,7 +1809,7 @@ parsedSource
 )
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -1828,7 +1823,7 @@ BACKUP_SOURCE
 is
 (
 (
-yield
+await
 SessionFile
 .
 read
@@ -1856,13 +1851,13 @@ file
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
 {
-yield
+await
 SessionFile
 .
 wipe

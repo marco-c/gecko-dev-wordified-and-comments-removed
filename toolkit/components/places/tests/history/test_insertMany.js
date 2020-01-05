@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_error_cases
 (
 )
@@ -174,8 +174,8 @@ TypeError
 ;
 add_task
 (
+async
 function
-*
 test_insertMany
 (
 )
@@ -238,12 +238,8 @@ x
 let
 makePageInfos
 =
-Task
-.
 async
-(
 function
-*
 (
 urls
 filter
@@ -304,7 +300,7 @@ pageInfo
 .
 url
 =
-yield
+await
 filter
 (
 uri
@@ -322,17 +318,12 @@ return
 pageInfos
 ;
 }
-)
 ;
 let
 inserter
 =
-Task
-.
 async
-(
 function
-*
 (
 name
 filter
@@ -447,7 +438,7 @@ useCallbacks
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -470,7 +461,7 @@ BAD_URLS
 let
 pageInfos
 =
-yield
+await
 makePageInfos
 (
 allUrls
@@ -496,7 +487,7 @@ onErrorUrls
 ;
 result
 =
-yield
+await
 PlacesUtils
 .
 history
@@ -748,7 +739,7 @@ promiseManyFrecenciesChanged
 ;
 result
 =
-yield
+await
 PlacesUtils
 .
 history
@@ -758,7 +749,7 @@ insertMany
 pageInfos
 )
 ;
-yield
+await
 promiseManyFrecencies
 ;
 }
@@ -798,7 +789,7 @@ Assert
 equal
 (
 expected
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -821,7 +812,7 @@ Assert
 equal
 (
 expected
-yield
+await
 PlacesTestUtils
 .
 visitsInDB
@@ -841,7 +832,6 @@ expected
 ;
 }
 }
-)
 ;
 try
 {
@@ -856,7 +846,7 @@ true
 ]
 )
 {
-yield
+await
 inserter
 (
 "
@@ -877,7 +867,7 @@ x
 useCallbacks
 )
 ;
-yield
+await
 inserter
 (
 "
@@ -901,7 +891,7 @@ spec
 useCallbacks
 )
 ;
-yield
+await
 inserter
 (
 "
@@ -933,7 +923,7 @@ useCallbacks
 let
 pageInfos
 =
-yield
+await
 makePageInfos
 (
 BAD_URLS
@@ -1013,7 +1003,7 @@ URLs
 }
 finally
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -1026,8 +1016,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_transitions
 (
 )
@@ -1088,7 +1078,7 @@ transition
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -1103,7 +1093,7 @@ count
 =
 0
 ;
-yield
+await
 PlacesUtils
 .
 history

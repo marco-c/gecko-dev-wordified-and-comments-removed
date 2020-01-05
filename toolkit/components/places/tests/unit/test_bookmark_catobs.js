@@ -9,8 +9,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_observers
 (
 )
@@ -307,7 +307,7 @@ bookmark
 "
 )
 ;
-yield
+await
 notificationsPromised
 ;
 }

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -13,7 +13,7 @@ focus
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -46,7 +46,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -81,7 +81,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab

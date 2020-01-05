@@ -706,8 +706,8 @@ getAllDisabledHosts
 ;
 add_task
 (
+async
 function
-*
 test_storage_setLoginSavingEnabled_nonascii_IDN_is_supported
 (
 )
@@ -750,8 +750,7 @@ hostname
 false
 )
 ;
-yield
-*
+await
 LoginTestUtils
 .
 reloadData
@@ -820,8 +819,7 @@ encoding
 false
 )
 ;
-yield
-*
+await
 LoginTestUtils
 .
 reloadData
@@ -885,8 +883,8 @@ clearData
 ;
 add_task
 (
+async
 function
-*
 test_storage_setLoginSavingEnabled_nonascii_IDN_not_supported
 (
 )
@@ -929,8 +927,7 @@ hostname
 false
 )
 ;
-yield
-*
+await
 LoginTestUtils
 .
 reloadData
@@ -999,8 +996,7 @@ encoding
 false
 )
 ;
-yield
-*
+await
 LoginTestUtils
 .
 reloadData

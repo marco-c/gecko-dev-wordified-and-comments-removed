@@ -161,8 +161,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_connect_bidirectionally_and_postMessage
 (
 )
@@ -950,7 +950,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -965,7 +965,7 @@ loaded
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -989,7 +989,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1007,7 +1007,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

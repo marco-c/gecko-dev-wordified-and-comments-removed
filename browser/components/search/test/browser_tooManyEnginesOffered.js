@@ -51,8 +51,8 @@ buttons
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -76,7 +76,7 @@ tooManyEnginesOffered
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -122,7 +122,7 @@ VK_DOWN
 }
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -204,7 +204,7 @@ mousemove
 }
 )
 ;
-yield
+await
 promise
 ;
 Assert
@@ -325,7 +325,7 @@ mousemove
 }
 )
 ;
-yield
+await
 promise
 ;
 Assert
@@ -402,7 +402,7 @@ VK_RIGHT
 }
 )
 ;
-yield
+await
 promise
 ;
 Assert
@@ -441,7 +441,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 promise
 ;
 Assert

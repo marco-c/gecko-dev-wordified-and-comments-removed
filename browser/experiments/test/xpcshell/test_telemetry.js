@@ -319,8 +319,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -580,7 +580,7 @@ dummyTimer
 }
 )
 ;
-yield
+await
 removeCacheFile
 (
 )
@@ -590,8 +590,8 @@ removeCacheFile
 ;
 add_task
 (
+async
 function
-*
 test_telemetryBasics
 (
 )
@@ -781,7 +781,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -791,7 +791,7 @@ updateManifest
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -937,7 +937,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -946,7 +946,7 @@ updateManifest
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1053,7 +1053,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -1062,7 +1062,7 @@ updateManifest
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1198,7 +1198,7 @@ sha1
 0000000000000000000000000000000000000000
 "
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -1207,7 +1207,7 @@ updateManifest
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1317,7 +1317,7 @@ xpiHash
 =
 EXPERIMENT2_XPI_SHA1
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -1326,7 +1326,7 @@ updateManifest
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1425,7 +1425,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 disableExperiment
@@ -1439,7 +1439,7 @@ ADDON_UNINSTALLED
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1569,7 +1569,7 @@ MS_IN_ONE_DAY
 )
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -1578,7 +1578,7 @@ updateManifest
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1677,7 +1677,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 disableExperiment
@@ -1691,7 +1691,7 @@ FROM_API
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1821,7 +1821,7 @@ MS_IN_ONE_DAY
 )
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -1830,7 +1830,7 @@ updateManifest
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1942,7 +1942,7 @@ os
 Plan9
 "
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -1951,7 +1951,7 @@ updateManifest
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2039,12 +2039,12 @@ os
 ]
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 removeCacheFile
 (
 )

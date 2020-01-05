@@ -19,8 +19,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_watch_multi_paths
 (
 )
@@ -282,7 +282,7 @@ directory
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -305,7 +305,7 @@ watchSuccessCallback
 )
 ;
 }
-yield
+await
 deferredSuccesses
 .
 promise
@@ -342,7 +342,7 @@ i
 tempFileName
 )
 ;
-yield
+await
 OS
 .
 File
@@ -357,7 +357,7 @@ content
 )
 ;
 }
-yield
+await
 deferredChanges
 .
 promise
@@ -406,7 +406,7 @@ unwatchSuccessCallback
 )
 ;
 }
-yield
+await
 deferredShutdown
 .
 promise

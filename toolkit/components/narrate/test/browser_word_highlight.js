@@ -10,8 +10,8 @@ teardown
 ;
 add_task
 (
+async
 function
-*
 testNarrate
 (
 )
@@ -33,12 +33,12 @@ teresa
 "
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
+async
 function
-*
 (
 )
 {
@@ -57,7 +57,7 @@ content
 document
 )
 ;
-yield
+await
 NarrateTestUtils
 .
 waitForNarrateToggle
@@ -155,7 +155,7 @@ let
 voice
 =
 (
-yield
+await
 promiseEvent
 )
 .
@@ -217,7 +217,7 @@ click
 details
 =
 (
-yield
+await
 promiseEvent
 )
 .
@@ -329,7 +329,7 @@ end
 }
 =
 (
-yield
+await
 promiseEvent
 )
 .
@@ -439,7 +439,7 @@ click
 (
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition

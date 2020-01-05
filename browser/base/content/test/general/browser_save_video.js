@@ -14,8 +14,8 @@ window
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -67,7 +67,7 @@ html
 "
 )
 ;
-yield
+await
 loadPromise
 ;
 let
@@ -83,7 +83,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -118,7 +118,7 @@ video1
 "
 )
 ;
-yield
+await
 popupShownPromise
 ;
 info
@@ -361,10 +361,10 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
-yield
+await
 transferCompletePromise
 ;
 }

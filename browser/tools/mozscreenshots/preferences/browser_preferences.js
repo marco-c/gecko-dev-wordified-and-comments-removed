@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 capture
 (
 )
@@ -31,7 +31,7 @@ Preferences
 "
 ]
 ;
-yield
+await
 TestRunner
 .
 start

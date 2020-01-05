@@ -43,8 +43,8 @@ AREA_NAVBAR
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -240,7 +240,7 @@ hidden2
 id
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -267,7 +267,7 @@ navbar
 customizationTarget
 )
 ;
-yield
+await
 endCustomizing
 (
 )
@@ -298,7 +298,7 @@ item
 "
 )
 ;
-yield
+await
 resetCustomization
 (
 )

@@ -56,12 +56,12 @@ task
 )
 {
 return
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -293,8 +293,8 @@ spawn
 (
 browser
 id
+async
 function
-*
 (
 id
 )
@@ -302,7 +302,7 @@ id
 let
 addon
 =
-yield
+await
 content
 .
 navigator
@@ -350,8 +350,8 @@ add_task
 (
 testWithAPI
 (
+async
 function
-*
 (
 browser
 )
@@ -494,7 +494,7 @@ a2
 a3
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -528,7 +528,7 @@ org
 let
 w1
 =
-yield
+await
 API_getAddonByID
 (
 browser
@@ -545,7 +545,7 @@ org
 let
 w2
 =
-yield
+await
 API_getAddonByID
 (
 browser
@@ -562,7 +562,7 @@ org
 let
 w3
 =
-yield
+await
 API_getAddonByID
 (
 browser
@@ -608,8 +608,8 @@ function
 browser
 )
 {
+async
 function
-*
 check
 (
 value
@@ -619,15 +619,15 @@ message
 let
 enabled
 =
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {

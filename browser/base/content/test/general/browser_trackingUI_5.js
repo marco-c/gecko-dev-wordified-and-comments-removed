@@ -683,13 +683,13 @@ hidden
 }
 add_task
 (
+async
 function
-*
 testExceptionAddition
 (
 )
 {
-yield
+await
 UrlClassifierTestUtils
 .
 addTestTrackers
@@ -699,7 +699,7 @@ addTestTrackers
 let
 privateWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -737,7 +737,7 @@ ownerGlobal
 .
 TrackingProtection
 ;
-yield
+await
 pushPrefs
 (
 [
@@ -775,7 +775,7 @@ elements
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -839,7 +839,7 @@ foobar
 "
 )
 ;
-yield
+await
 tabReloadPromise
 ;
 testTrackingPageUnblocked
@@ -890,7 +890,7 @@ elements
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -901,7 +901,7 @@ testTrackingPageUnblocked
 (
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 privateWin
@@ -912,8 +912,8 @@ privateWin
 ;
 add_task
 (
+async
 function
-*
 testExceptionPersistence
 (
 )
@@ -932,7 +932,7 @@ window
 let
 privateWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -996,7 +996,7 @@ elements
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -1060,7 +1060,7 @@ foobar
 "
 )
 ;
-yield
+await
 tabReloadPromise
 ;
 testTrackingPageUnblocked

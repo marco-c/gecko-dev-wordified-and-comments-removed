@@ -108,8 +108,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -118,7 +118,7 @@ loadAddonManager
 (
 )
 ;
-yield
+await
 removeCacheFile
 (
 )
@@ -608,7 +608,7 @@ gExperiments
 =
 experiments
 ;
-yield
+await
 experiments
 .
 updateManifest

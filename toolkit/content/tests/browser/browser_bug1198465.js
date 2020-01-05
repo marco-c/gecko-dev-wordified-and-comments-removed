@@ -50,15 +50,15 @@ kPrefName
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 aTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -371,7 +371,7 @@ value
 "
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -40,8 +40,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -75,7 +75,7 @@ XPCShell
 "
 )
 ;
-yield
+await
 setEmptyPrefWatchlist
 (
 )
@@ -95,13 +95,13 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_record_activeTicks
 (
 )
 {
-yield
+await
 TelemetryController
 .
 testSetup
@@ -274,7 +274,7 @@ checkActiveTicks
 5
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown

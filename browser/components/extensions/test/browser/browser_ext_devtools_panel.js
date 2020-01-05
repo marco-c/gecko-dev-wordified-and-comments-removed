@@ -53,8 +53,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_devtools_page_panels_create
 (
 )
@@ -62,7 +62,7 @@ test_devtools_page_panels_create
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -483,7 +483,7 @@ devtools_panel
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -505,7 +505,7 @@ tab
 const
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -525,7 +525,7 @@ opened
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -574,7 +574,7 @@ toolboxAdditionalTools
 .
 id
 ;
-yield
+await
 gDevTools
 .
 showToolbox
@@ -588,7 +588,7 @@ const
 devtoolsPageTabId
 }
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -601,7 +601,7 @@ devtools_panel_shown
 const
 devtoolsPanelTabId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -642,7 +642,7 @@ shown
 "
 )
 ;
-yield
+await
 gDevTools
 .
 showToolbox
@@ -656,7 +656,7 @@ webconsole
 const
 results
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -732,7 +732,7 @@ once
 "
 )
 ;
-yield
+await
 gDevTools
 .
 showToolbox
@@ -741,7 +741,7 @@ target
 panelId
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -764,7 +764,7 @@ cycle
 "
 )
 ;
-yield
+await
 gDevTools
 .
 showToolbox
@@ -778,7 +778,7 @@ webconsole
 const
 secondCycleResults
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -912,7 +912,7 @@ unregistered
 panelId
 )
 ;
-yield
+await
 waitToolVisibilityOff
 ;
 ok
@@ -1028,7 +1028,7 @@ registered
 panelId
 )
 ;
-yield
+await
 waitToolVisibilityOn
 ;
 ok
@@ -1085,7 +1085,7 @@ true
 "
 )
 ;
-yield
+await
 gDevTools
 .
 showToolbox
@@ -1094,7 +1094,7 @@ target
 panelId
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1140,7 +1140,7 @@ toggled
 const
 panelTabIdAfterToggle
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1172,7 +1172,7 @@ toggled
 "
 )
 ;
-yield
+await
 gDevTools
 .
 showToolbox
@@ -1186,7 +1186,7 @@ webconsole
 const
 toolToggledResults
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1268,7 +1268,7 @@ times
 "
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -1276,21 +1276,21 @@ closeToolbox
 target
 )
 ;
-yield
+await
 target
 .
 destroy
 (
 )
 ;
-yield
+await
 extension
 .
 unload
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

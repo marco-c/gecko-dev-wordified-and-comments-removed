@@ -54,8 +54,8 @@ mockAppInfo
 ;
 add_task
 (
+async
 function
-*
 test_contentscript
 (
 )
@@ -662,7 +662,7 @@ ok
 "
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -672,7 +672,7 @@ startup
 let
 contentPage
 =
-yield
+await
 ExtensionTestUtils
 .
 loadContentPage
@@ -686,7 +686,7 @@ file_sample
 html
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -697,7 +697,7 @@ chromeNamespacePromise
 ]
 )
 ;
-yield
+await
 contentPage
 .
 close
@@ -743,7 +743,7 @@ once
 "
 )
 ;
-yield
+await
 extension
 .
 unload

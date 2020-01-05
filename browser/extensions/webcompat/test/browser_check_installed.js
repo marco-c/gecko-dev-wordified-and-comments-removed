@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 installed
 (
 )
@@ -14,7 +14,7 @@ installed
 let
 addon
 =
-yield
+await
 new
 Promise
 (

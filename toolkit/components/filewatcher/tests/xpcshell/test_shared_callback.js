@@ -19,8 +19,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_watch_with_shared_callback
 (
 )
@@ -65,7 +65,7 @@ filewatcher_playground2
 )
 ]
 ;
-yield
+await
 OS
 .
 File
@@ -78,7 +78,7 @@ watchedDirs
 ]
 )
 ;
-yield
+await
 OS
 .
 File
@@ -116,7 +116,7 @@ defer
 (
 )
 ;
-yield
+await
 promiseAddPath
 (
 watcher
@@ -132,7 +132,7 @@ deferred
 reject
 )
 ;
-yield
+await
 promiseAddPath
 (
 watcher
@@ -180,7 +180,7 @@ watchedDirs
 tempFileName
 )
 ;
-yield
+await
 OS
 .
 File
@@ -197,7 +197,7 @@ data
 let
 changed
 =
-yield
+await
 deferred
 .
 promise
@@ -224,7 +224,7 @@ deferred
 reject
 )
 ;
-yield
+await
 OS
 .
 File
@@ -237,7 +237,7 @@ watchedDirs
 ]
 )
 ;
-yield
+await
 OS
 .
 File

@@ -19,8 +19,8 @@ task
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -64,10 +64,10 @@ com
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 remote
 (
 (
@@ -117,7 +117,7 @@ neterror
 }
 )
 ;
-yield
+await
 remote
 (
 (
@@ -218,10 +218,10 @@ reload
 (
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 remote
 (
 (

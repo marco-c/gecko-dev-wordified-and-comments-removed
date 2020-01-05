@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -43,7 +43,7 @@ test
 return
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 withNewTab

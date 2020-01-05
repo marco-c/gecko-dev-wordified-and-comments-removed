@@ -10,8 +10,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_InsertVisitedURIs_UpdateFrecency_and_History_InsertPlace
 (
 )
@@ -65,7 +65,7 @@ addDownload
 uri
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -87,8 +87,8 @@ uri
 ;
 add_task
 (
+async
 function
-*
 test_nsNavHistory_UpdateFrecency
 (
 )
@@ -138,7 +138,7 @@ test
 "
 )
 ;
-yield
+await
 onFrecencyChanged
 (
 uri
@@ -149,8 +149,8 @@ uri
 ;
 add_task
 (
+async
 function
-*
 test_nsNavHistory_invalidateFrecencies_somePages
 (
 )
@@ -217,7 +217,7 @@ host
 false
 )
 ;
-yield
+await
 onFrecencyChanged
 (
 uri
@@ -228,13 +228,13 @@ uri
 ;
 add_task
 (
+async
 function
-*
 test_nsNavHistory_invalidateFrecencies_allPages
 (
 )
 {
-yield
+await
 Promise
 .
 all
@@ -256,8 +256,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_nsNavHistory_DecayFrecency_and_nsNavHistory_FixInvalidFrecencies
 (
 )
@@ -285,7 +285,7 @@ daily
 "
 )
 ;
-yield
+await
 Promise
 .
 all

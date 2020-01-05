@@ -733,8 +733,8 @@ password
 }
 add_task
 (
+async
 function
-*
 test_empty_first_entry
 (
 )
@@ -774,7 +774,7 @@ restoreForm
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -811,12 +811,12 @@ down
 let
 results
 =
-yield
+await
 shownPromise
 ;
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -876,7 +876,7 @@ down
 "
 )
 ;
-yield
+await
 index0Promise
 ;
 checkACForm
@@ -908,7 +908,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -928,8 +928,8 @@ pass
 ;
 add_task
 (
+async
 function
-*
 test_empty_second_entry
 (
 )
@@ -955,7 +955,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -992,7 +992,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -1012,8 +1012,8 @@ Pass
 ;
 add_task
 (
+async
 function
-*
 test_empty_third_entry
 (
 )
@@ -1039,7 +1039,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -1079,7 +1079,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -1099,8 +1099,8 @@ PASS
 ;
 add_task
 (
+async
 function
-*
 test_preserve_matching_username_case
 (
 )
@@ -1134,7 +1134,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 /
@@ -1170,7 +1170,7 @@ tab
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )

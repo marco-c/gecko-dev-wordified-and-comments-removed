@@ -9,8 +9,8 @@ Path
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -24,8 +24,8 @@ do_get_profile
 ;
 add_task
 (
+async
 function
-*
 reset_before_launching
 (
 )
@@ -47,7 +47,7 @@ break
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -61,8 +61,8 @@ resetWorker
 ;
 add_task
 (
+async
 function
-*
 transparent_reset
 (
 )
@@ -139,7 +139,7 @@ tmp
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -166,7 +166,7 @@ i
 j
 )
 {
-yield
+await
 OS
 .
 File
@@ -179,7 +179,7 @@ resetWorker
 let
 data
 =
-yield
+await
 OS
 .
 File
@@ -216,8 +216,8 @@ CONTENT
 ;
 add_task
 (
+async
 function
-*
 file_open_cannot_reset
 (
 )
@@ -271,7 +271,7 @@ reset
 let
 openedFile
 =
-yield
+await
 OS
 .
 File
@@ -293,7 +293,7 @@ false
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -354,14 +354,14 @@ reset
 "
 )
 ;
-yield
+await
 openedFile
 .
 close
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -375,8 +375,8 @@ resetWorker
 ;
 add_task
 (
+async
 function
-*
 dir_open_cannot_reset
 (
 )
@@ -384,7 +384,7 @@ dir_open_cannot_reset
 let
 TEST_DIR
 =
-yield
+await
 OS
 .
 File
@@ -434,7 +434,7 @@ false
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -495,14 +495,14 @@ reset
 "
 )
 ;
-yield
+await
 iterator
 .
 close
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -516,8 +516,8 @@ resetWorker
 ;
 add_task
 (
+async
 function
-*
 race_against_itself
 (
 )
@@ -540,7 +540,7 @@ itself
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -596,7 +596,7 @@ resetWorker
 )
 ;
 }
-yield
+await
 Promise
 .
 all
@@ -609,8 +609,8 @@ all
 ;
 add_task
 (
+async
 function
-*
 finish_with_a_reset
 (
 )
@@ -629,7 +629,7 @@ result
 ;
 try
 {
-yield
+await
 OS
 .
 File

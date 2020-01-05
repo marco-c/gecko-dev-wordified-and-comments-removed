@@ -226,7 +226,7 @@ Settings
 button
 .
 "
-*
+async
 run
 (
 )
@@ -234,7 +234,7 @@ run
 let
 engine
 =
-yield
+await
 promiseNewEngine
 (
 kTestEngine
@@ -315,7 +315,7 @@ click
 (
 )
 ;
-yield
+await
 loadPromise
 ;
 is
@@ -379,7 +379,7 @@ Defaults
 button
 .
 "
-*
+async
 run
 (
 )
@@ -503,7 +503,7 @@ click
 (
 )
 ;
-yield
+await
 loadPromise
 ;
 is
@@ -554,7 +554,7 @@ settings
 link
 .
 "
-*
+async
 run
 (
 )
@@ -591,7 +591,7 @@ click
 (
 )
 ;
-yield
+await
 loadPromise
 ;
 checkTelemetryRecords
@@ -618,12 +618,12 @@ the
 buttons
 .
 "
-*
+async
 run
 (
 )
 {
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -656,12 +656,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -744,7 +741,7 @@ purpose
 +
 kSearchPurpose
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -759,7 +756,7 @@ test
 "
 )
 ;
-yield
+await
 testCase
 .
 run
@@ -789,6 +786,8 @@ canRecordExtended
 oldCanRecord
 ;
 }
+)
+(
 )
 .
 then

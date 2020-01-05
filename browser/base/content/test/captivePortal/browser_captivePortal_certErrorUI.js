@@ -21,13 +21,13 @@ com
 ;
 add_task
 (
+async
 function
-*
 checkCaptivePortalCertErrorUI
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -137,7 +137,7 @@ process
 "
 )
 ;
-yield
+await
 captivePortalStatePropagated
 ;
 let
@@ -149,7 +149,7 @@ certErrorLoaded
 let
 errorTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -214,7 +214,7 @@ load
 .
 "
 )
-yield
+await
 certErrorLoaded
 ;
 let
@@ -228,7 +228,7 @@ gBrowser
 CANONICAL_URL
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -330,7 +330,7 @@ click
 let
 portalTab
 =
-yield
+await
 portalTabPromise
 ;
 is
@@ -354,7 +354,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -378,7 +378,7 @@ gBrowser
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -424,7 +424,7 @@ click
 let
 portalTab2
 =
-yield
+await
 portalTabPromise
 ;
 is
@@ -481,7 +481,7 @@ success
 "
 )
 ;
-yield
+await
 portalTabRemoved
 ;
 info
@@ -504,10 +504,10 @@ freed
 "
 )
 ;
-yield
+await
 errorTabReloaded
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -557,7 +557,7 @@ visible
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

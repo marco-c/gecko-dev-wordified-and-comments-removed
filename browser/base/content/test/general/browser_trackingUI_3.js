@@ -51,8 +51,8 @@ PB_PREF
 ;
 add_task
 (
+async
 function
-*
 testNormalBrowsing
 (
 )
@@ -227,8 +227,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 testPrivateBrowsing
 (
 )
@@ -236,7 +236,7 @@ testPrivateBrowsing
 let
 privateWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {

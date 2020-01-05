@@ -24,27 +24,6 @@ jsm
 "
 )
 ;
-Components
-.
-utils
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
 function
 run_test
 (
@@ -66,12 +45,9 @@ filename
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -107,7 +83,7 @@ filename
 let
 openedFile
 =
-yield
+await
 OS
 .
 File
@@ -132,7 +108,7 @@ openedFile
 path
 )
 ;
-yield
+await
 openedFile
 .
 file
@@ -144,7 +120,7 @@ close
 let
 exists
 =
-yield
+await
 OS
 .
 File
@@ -172,7 +148,7 @@ path
 let
 fileInfo
 =
-yield
+await
 OS
 .
 File
@@ -196,7 +172,7 @@ size
 ;
 openedFile
 =
-yield
+await
 OS
 .
 File
@@ -222,7 +198,7 @@ openedFile
 path
 )
 ;
-yield
+await
 openedFile
 .
 file
@@ -233,7 +209,7 @@ close
 ;
 exists
 =
-yield
+await
 OS
 .
 File
@@ -252,7 +228,7 @@ exists
 ;
 fileInfo
 =
-yield
+await
 OS
 .
 File
@@ -300,7 +276,7 @@ i
 {
 openedFile
 =
-yield
+await
 OS
 .
 File
@@ -310,7 +286,7 @@ openUnique
 path
 )
 ;
-yield
+await
 openedFile
 .
 file
@@ -339,7 +315,7 @@ MAX_TRIES
 ;
 openedFile
 =
-yield
+await
 OS
 .
 File
@@ -371,7 +347,7 @@ openedFile
 path
 )
 ;
-yield
+await
 openedFile
 .
 file
@@ -382,7 +358,7 @@ close
 ;
 exists
 =
-yield
+await
 OS
 .
 File
@@ -401,7 +377,7 @@ exists
 ;
 fileInfo
 =
-yield
+await
 OS
 .
 File
@@ -448,7 +424,7 @@ i
 {
 openedFile
 =
-yield
+await
 OS
 .
 File
@@ -463,7 +439,7 @@ true
 }
 )
 ;
-yield
+await
 openedFile
 .
 file
@@ -513,7 +489,7 @@ i
 {
 openedFile
 =
-yield
+await
 OS
 .
 File
@@ -528,7 +504,7 @@ true
 }
 )
 ;
-yield
+await
 openedFile
 .
 file
@@ -589,12 +565,14 @@ becauseExists
 ;
 }
 )
+(
+)
 ;
 }
 add_task
 (
+async
 function
-*
 test_unique
 (
 )
@@ -607,7 +585,7 @@ DEBUG
 =
 true
 ;
-yield
+await
 testFiles
 (
 "
@@ -617,7 +595,7 @@ txt
 "
 )
 ;
-yield
+await
 testFiles
 (
 "

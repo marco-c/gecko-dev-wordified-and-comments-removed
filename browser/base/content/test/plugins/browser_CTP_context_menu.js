@@ -43,8 +43,8 @@ http
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -137,8 +137,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -213,7 +213,7 @@ true
 true
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -228,7 +228,7 @@ html
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -236,7 +236,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 bindingPromise
 ;
 let
@@ -281,7 +281,7 @@ notification
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -307,7 +307,7 @@ activated
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -317,8 +317,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -464,7 +464,7 @@ dismissed
 "
 )
 ;
-yield
+await
 promiseForCondition
 (
 (
@@ -527,7 +527,7 @@ actMenuItem
 }
 )
 ;
-yield
+await
 promiseForCondition
 (
 (
@@ -563,7 +563,7 @@ click
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "

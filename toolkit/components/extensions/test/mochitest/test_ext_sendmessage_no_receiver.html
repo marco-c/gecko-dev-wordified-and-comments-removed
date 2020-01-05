@@ -247,8 +247,8 @@ extensionData
 }
 add_task
 (
+async
 function
-*
 test_content_script_sendMessage_without_listener
 (
 )
@@ -314,7 +314,7 @@ loadContentScriptExtension
 contentScript
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -335,7 +335,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -354,7 +354,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -366,8 +366,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_content_script_chrome_sendMessage_without_listener
 (
 )
@@ -667,7 +667,7 @@ loadContentScriptExtension
 contentScript
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -688,7 +688,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -709,7 +709,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

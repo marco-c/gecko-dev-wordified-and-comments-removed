@@ -353,8 +353,8 @@ header
 }
 add_task
 (
+async
 function
-*
 filter_urls
 (
 )
@@ -370,7 +370,7 @@ addTab
 URL
 )
 ;
-yield
+await
 waitForLoad
 (
 )
@@ -417,7 +417,7 @@ addTab
 URL
 )
 ;
-yield
+await
 waitForLoad
 (
 )

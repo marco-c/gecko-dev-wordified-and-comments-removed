@@ -428,8 +428,8 @@ success
 }
 add_task
 (
+async
 function
-*
 test_web_accessible_resources
 (
 )
@@ -1295,14 +1295,14 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1331,7 +1331,7 @@ com
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1351,7 +1351,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1363,8 +1363,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_web_accessible_resources_csp
 (
 )
@@ -1894,7 +1894,7 @@ examiner
 (
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1952,7 +1952,7 @@ html
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -2017,7 +2017,7 @@ remove
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -2029,8 +2029,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_web_accessible_resources_mixed_content
 (
 )
@@ -2437,7 +2437,7 @@ block_display_content
 true
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -2495,7 +2495,7 @@ html
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -2536,7 +2536,7 @@ loaded
 ]
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -2554,7 +2554,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

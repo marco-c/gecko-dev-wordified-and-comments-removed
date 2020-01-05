@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testIncognitoPopup
 (
 )
@@ -681,14 +681,14 @@ browser
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -698,7 +698,7 @@ incognito
 "
 )
 ;
-yield
+await
 extension
 .
 unload

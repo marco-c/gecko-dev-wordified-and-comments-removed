@@ -60,13 +60,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -74,7 +74,7 @@ addVisits
 TEST_URI
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -122,7 +122,7 @@ TEST_BOOKMARKED_URI
 spec
 )
 ;
-yield
+await
 PlacesUtils
 .
 setCharsetForURI
@@ -131,7 +131,7 @@ TEST_URI
 charset
 )
 ;
-yield
+await
 PlacesUtils
 .
 setCharsetForURI
@@ -157,7 +157,7 @@ charset
 do_check_eq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -171,7 +171,7 @@ charset
 do_check_eq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -182,7 +182,7 @@ TEST_BOOKMARKED_URI
 charset
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -192,7 +192,7 @@ clearHistory
 do_check_neq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -239,7 +239,7 @@ e
 do_check_eq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI
@@ -250,7 +250,7 @@ TEST_BOOKMARKED_URI
 charset
 )
 ;
-yield
+await
 PlacesUtils
 .
 setCharsetForURI
@@ -263,7 +263,7 @@ TEST_BOOKMARKED_URI
 do_check_neq
 (
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI

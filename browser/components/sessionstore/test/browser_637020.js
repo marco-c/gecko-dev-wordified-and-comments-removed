@@ -110,8 +110,8 @@ triggeringPrincipal_base64
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -188,7 +188,7 @@ TEST_STATE
 let
 win
 =
-yield
+await
 promiseWindow
 ;
 info
@@ -206,7 +206,7 @@ checkWindows
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -235,7 +235,7 @@ checkWindows
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -243,7 +243,7 @@ closeWindow
 win
 )
 ;
-yield
+await
 promiseBrowserState
 (
 backupState

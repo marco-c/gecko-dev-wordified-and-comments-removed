@@ -425,12 +425,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -441,7 +438,7 @@ PlacesUtils
 .
 bookmarks
 ;
-yield
+await
 bmu
 .
 insert
@@ -489,7 +486,7 @@ properly
 }
 )
 ;
-yield
+await
 bmu
 .
 insert
@@ -534,7 +531,7 @@ toolbar
 let
 folder
 =
-yield
+await
 bmu
 .
 insert
@@ -614,7 +611,7 @@ tested
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -660,7 +657,7 @@ shortcut
 /
 /
 Cleanup
-yield
+await
 bmu
 .
 eraseEverything
@@ -668,6 +665,8 @@ eraseEverything
 )
 ;
 }
+)
+(
 )
 .
 catch

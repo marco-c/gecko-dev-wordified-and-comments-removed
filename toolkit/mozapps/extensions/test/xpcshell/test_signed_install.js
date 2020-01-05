@@ -709,8 +709,8 @@ updateData
 )
 ;
 }
+async
 function
-*
 test_install_broken
 (
 file
@@ -734,7 +734,7 @@ file
 let
 install
 =
-yield
+await
 createInstall
 (
 "
@@ -753,7 +753,7 @@ file
 leafName
 )
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -802,8 +802,8 @@ null
 )
 ;
 }
+async
 function
-*
 test_install_working
 (
 file
@@ -827,7 +827,7 @@ file
 let
 install
 =
-yield
+await
 createInstall
 (
 "
@@ -846,7 +846,7 @@ file
 leafName
 )
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -905,15 +905,15 @@ uninstall
 )
 ;
 }
+async
 function
-*
 test_update_broken
 (
 file
 expectedError
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -950,7 +950,7 @@ leafName
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -959,7 +959,7 @@ ID
 let
 update
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -972,7 +972,7 @@ update
 .
 updateAvailable
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -1040,15 +1040,15 @@ uninstall
 )
 ;
 }
+async
 function
-*
 test_update_working
 (
 file
 expectedSignedState
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -1085,7 +1085,7 @@ leafName
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1094,7 +1094,7 @@ ID
 let
 update
 =
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -1107,7 +1107,7 @@ update
 .
 updateAvailable
 ;
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -1216,8 +1216,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1238,7 +1238,7 @@ signed
 )
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1259,8 +1259,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1281,7 +1281,7 @@ signed
 )
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1302,8 +1302,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1324,7 +1324,7 @@ signed
 )
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1345,8 +1345,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1364,7 +1364,7 @@ bootstrap
 badid
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1378,8 +1378,8 @@ ERROR_CORRUPT_FILE
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1397,7 +1397,7 @@ bootstrap
 unsigned
 )
 ;
-yield
+await
 test_install_broken
 (
 file
@@ -1411,8 +1411,8 @@ ERROR_SIGNEDSTATE_REQUIRED
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1430,7 +1430,7 @@ bootstrap
 preliminary
 )
 ;
-yield
+await
 test_install_working
 (
 file
@@ -1444,8 +1444,8 @@ SIGNEDSTATE_PRELIMINARY
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1463,7 +1463,7 @@ bootstrap
 signed
 )
 ;
-yield
+await
 test_install_working
 (
 file
@@ -1477,8 +1477,8 @@ SIGNEDSTATE_SIGNED
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1514,7 +1514,7 @@ bootstrap
 privileged
 )
 ;
-yield
+await
 test_install_working
 (
 file
@@ -1537,8 +1537,8 @@ PREF_XPI_SIGNATURES_DEV_ROOT
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1559,7 +1559,7 @@ signed
 )
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1580,8 +1580,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1602,7 +1602,7 @@ signed
 )
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1623,8 +1623,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1645,7 +1645,7 @@ signed
 )
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1666,8 +1666,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1685,7 +1685,7 @@ bootstrap
 badid
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1699,8 +1699,8 @@ ERROR_CORRUPT_FILE
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1718,7 +1718,7 @@ bootstrap
 unsigned
 )
 ;
-yield
+await
 test_update_broken
 (
 file
@@ -1732,8 +1732,8 @@ ERROR_SIGNEDSTATE_REQUIRED
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1751,7 +1751,7 @@ bootstrap
 preliminary
 )
 ;
-yield
+await
 test_update_working
 (
 file
@@ -1765,8 +1765,8 @@ SIGNEDSTATE_PRELIMINARY
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1784,7 +1784,7 @@ bootstrap
 signed
 )
 ;
-yield
+await
 test_update_working
 (
 file

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testWindowCreateParams
 (
 )
@@ -197,14 +197,14 @@ params
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -218,7 +218,7 @@ params
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -67,7 +67,7 @@ childCount
 let
 testRoot
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -172,7 +172,7 @@ empty
 let
 folderA
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -200,7 +200,7 @@ A
 }
 )
 ;
-yield
+await
 populate
 (
 folderA
@@ -209,7 +209,7 @@ folderA
 let
 folderAId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -300,7 +300,7 @@ false
 let
 testRootId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -458,7 +458,7 @@ undoTransaction
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -476,12 +476,8 @@ guid
 var
 populate
 =
-Task
-.
 async
-(
 function
-*
 (
 parentFolder
 )
@@ -489,7 +485,7 @@ parentFolder
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -518,7 +514,7 @@ folder
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -556,7 +552,7 @@ foo
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -580,7 +576,6 @@ guid
 )
 ;
 }
-)
 ;
 function
 validate

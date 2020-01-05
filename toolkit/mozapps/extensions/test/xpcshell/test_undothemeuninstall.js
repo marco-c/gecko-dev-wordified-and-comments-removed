@@ -218,8 +218,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 checkDefault
 (
 )
@@ -230,7 +230,7 @@ defaultTheme
 profileDir
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -238,7 +238,7 @@ promiseRestartManager
 let
 d
 =
-yield
+await
 promiseAddonByID
 (
 "
@@ -295,8 +295,8 @@ classic
 ;
 add_task
 (
+async
 function
-*
 uninstallEnabledOffersUndo
 (
 )
@@ -307,7 +307,7 @@ theme1
 profileDir
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -315,7 +315,7 @@ promiseRestartManager
 let
 t1
 =
-yield
+await
 promiseAddonByID
 (
 "
@@ -347,7 +347,7 @@ userDisabled
 =
 false
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -362,7 +362,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -577,7 +577,7 @@ theme1
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -587,7 +587,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -670,8 +670,8 @@ classic
 ;
 add_task
 (
+async
 function
-*
 canUndoUninstallEnabled
 (
 )
@@ -682,7 +682,7 @@ theme1
 profileDir
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -690,7 +690,7 @@ promiseRestartManager
 let
 t1
 =
-yield
+await
 promiseAddonByID
 (
 "
@@ -722,7 +722,7 @@ userDisabled
 =
 false
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -737,7 +737,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1056,7 +1056,7 @@ AddonManager
 PENDING_NONE
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1066,7 +1066,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1170,7 +1170,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1180,8 +1180,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 uninstallDisabledOffersUndo
 (
 )
@@ -1192,7 +1192,7 @@ theme1
 profileDir
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1203,7 +1203,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1412,7 +1412,7 @@ classic
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1422,7 +1422,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1505,8 +1505,8 @@ classic
 ;
 add_task
 (
+async
 function
-*
 canUndoUninstallDisabled
 (
 )
@@ -1517,7 +1517,7 @@ theme1
 profileDir
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1528,7 +1528,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1827,7 +1827,7 @@ AddonManager
 PENDING_NONE
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1837,7 +1837,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1945,7 +1945,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1955,8 +1955,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 uninstallWebExtensionOffersUndo
 (
 )
@@ -1968,7 +1968,7 @@ id
 addonId
 }
 =
-yield
+await
 promiseInstallWebExtension
 (
 {
@@ -2025,7 +2025,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2287,7 +2287,7 @@ AddonManager
 PENDING_NONE
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2297,7 +2297,7 @@ t1
 d
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2416,7 +2416,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2426,8 +2426,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 uninstallLWTOffersUndo
 (
 )

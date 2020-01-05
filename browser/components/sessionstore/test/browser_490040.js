@@ -190,8 +190,8 @@ random
 ;
 add_task
 (
+async
 function
-*
 test_bug_490040
 (
 )
@@ -213,7 +213,7 @@ getClosedWindowCount
 (
 )
 ;
-yield
+await
 pushPrefs
 (
 [
@@ -242,7 +242,7 @@ getClosedWindowCount
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -281,7 +281,7 @@ tabs
 length
 )
 {
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -294,7 +294,7 @@ selectedBrowser
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow

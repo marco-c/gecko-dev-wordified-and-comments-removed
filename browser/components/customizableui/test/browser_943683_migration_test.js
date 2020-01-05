@@ -57,8 +57,8 @@ btn2
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -233,7 +233,7 @@ item
 let
 otherWindow
 =
-yield
+await
 openAndLoadWindow
 (
 undefined
@@ -347,7 +347,7 @@ window
 }
 finally
 {
-yield
+await
 promiseWindowClosed
 (
 otherWindow

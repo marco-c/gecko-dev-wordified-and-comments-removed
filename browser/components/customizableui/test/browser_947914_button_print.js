@@ -22,12 +22,12 @@ Darwin
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -52,7 +52,7 @@ false
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -72,8 +72,8 @@ com
 /
 "
 }
+async
 function
-*
 (
 )
 {
@@ -89,7 +89,7 @@ functionality
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -106,7 +106,7 @@ opened
 "
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -174,7 +174,7 @@ hide
 (
 )
 ;
-yield
+await
 panelHiddenPromise
 ;
 info
@@ -196,7 +196,7 @@ click
 (
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -228,7 +228,7 @@ exitPrintPreview
 (
 )
 ;
-yield
+await
 waitForCondition
 (
 (

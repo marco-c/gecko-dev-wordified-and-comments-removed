@@ -417,8 +417,8 @@ i
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -484,8 +484,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 sanitize
 (
 )
@@ -498,7 +498,7 @@ Sanitizer
 (
 )
 ;
-yield
+await
 sanitizer
 .
 sanitize

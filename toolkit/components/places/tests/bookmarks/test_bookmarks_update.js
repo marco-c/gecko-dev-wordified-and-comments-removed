@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 invalid_input_throws
 (
 )
@@ -982,15 +982,15 @@ index
 ;
 add_task
 (
+async
 function
-*
 nonexisting_bookmark_throws
 (
 )
 {
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1055,8 +1055,8 @@ ex
 ;
 add_task
 (
+async
 function
-*
 invalid_properties_for_existing_bookmark
 (
 )
@@ -1064,7 +1064,7 @@ invalid_properties_for_existing_bookmark
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1103,7 +1103,7 @@ com
 ;
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1166,7 +1166,7 @@ ex
 }
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1246,7 +1246,7 @@ now
 ;
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1307,7 +1307,7 @@ ex
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1334,7 +1334,7 @@ unfiledGuid
 ;
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1404,7 +1404,7 @@ ex
 let
 separator
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1431,7 +1431,7 @@ unfiledGuid
 ;
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1500,7 +1500,7 @@ ex
 }
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1565,8 +1565,8 @@ ex
 ;
 add_task
 (
+async
 function
-*
 long_title_trim
 (
 )
@@ -1605,7 +1605,7 @@ a
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1642,7 +1642,7 @@ bm
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1687,7 +1687,7 @@ trimmed
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1714,8 +1714,8 @@ newTitle
 ;
 add_task
 (
+async
 function
-*
 update_lastModified
 (
 )
@@ -1738,7 +1738,7 @@ now
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1796,7 +1796,7 @@ Date
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1832,7 +1832,7 @@ time
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1856,7 +1856,7 @@ time
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1887,7 +1887,7 @@ yesterday
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1922,7 +1922,7 @@ time
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1958,7 +1958,7 @@ bm
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1989,8 +1989,8 @@ bm
 ;
 add_task
 (
+async
 function
-*
 update_url
 (
 )
@@ -1998,7 +1998,7 @@ update_url
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2080,7 +2080,7 @@ updated
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2148,7 +2148,7 @@ org
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2254,8 +2254,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 update_index
 (
 )
@@ -2263,7 +2263,7 @@ update_index
 let
 parent
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2291,7 +2291,7 @@ TYPE_FOLDER
 let
 f1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2327,7 +2327,7 @@ index
 let
 f2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2363,7 +2363,7 @@ index
 let
 f3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2405,7 +2405,7 @@ lastModified
 ;
 f1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2458,7 +2458,7 @@ lastModified
 ;
 parent
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2484,7 +2484,7 @@ lastModified
 ;
 f2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2508,7 +2508,7 @@ index
 ;
 f3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2532,7 +2532,7 @@ index
 ;
 f3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2553,7 +2553,7 @@ index
 ;
 f1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2577,7 +2577,7 @@ index
 ;
 f2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2604,8 +2604,8 @@ index
 ;
 add_task
 (
+async
 function
-*
 update_move_folder_into_descendant_throws
 (
 )
@@ -2613,7 +2613,7 @@ update_move_folder_into_descendant_throws
 let
 parent
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2641,7 +2641,7 @@ TYPE_FOLDER
 let
 descendant
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2666,7 +2666,7 @@ TYPE_FOLDER
 ;
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2735,7 +2735,7 @@ ex
 }
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2807,8 +2807,8 @@ ex
 ;
 add_task
 (
+async
 function
-*
 update_move
 (
 )
@@ -2816,7 +2816,7 @@ update_move
 let
 parent
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2844,7 +2844,7 @@ TYPE_FOLDER
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2882,7 +2882,7 @@ TYPE_BOOKMARK
 let
 descendant
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2924,7 +2924,7 @@ lastModified
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2989,7 +2989,7 @@ lastModified
 ;
 parent
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3003,7 +3003,7 @@ guid
 ;
 descendant
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3051,7 +3051,7 @@ index
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3087,7 +3087,7 @@ index
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3135,7 +3135,7 @@ index
 ;
 descendant
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3162,8 +3162,8 @@ index
 ;
 add_task
 (
+async
 function
-*
 update_move_append
 (
 )
@@ -3171,7 +3171,7 @@ update_move_append
 let
 folder_a
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3204,7 +3204,7 @@ folder_a
 let
 folder_b
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3237,7 +3237,7 @@ folder_b
 let
 sep_1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3268,7 +3268,7 @@ sep_1
 let
 sep_2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3299,7 +3299,7 @@ sep_2
 let
 sep_3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3373,7 +3373,7 @@ DEFAULT_INDEX
 ;
 sep_1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3394,7 +3394,7 @@ guid
 ;
 sep_2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3417,7 +3417,7 @@ guid
 ;
 sep_3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3440,7 +3440,7 @@ guid
 ;
 sep_1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3481,7 +3481,7 @@ guid
 ;
 sep_3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3502,7 +3502,7 @@ guid
 ;
 sep_2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3525,7 +3525,7 @@ guid
 ;
 sep_1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3548,7 +3548,7 @@ guid
 ;
 sep_3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3587,7 +3587,7 @@ guid
 ;
 sep_2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3608,7 +3608,7 @@ guid
 ;
 sep_1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3631,7 +3631,7 @@ guid
 ;
 sep_3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3654,7 +3654,7 @@ guid
 ;
 sep_2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

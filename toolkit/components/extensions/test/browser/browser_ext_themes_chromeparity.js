@@ -5,13 +5,13 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -41,8 +41,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_support_theme_frame
 (
 )
@@ -133,7 +133,7 @@ ENCODED_IMAGE_DATA
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -303,7 +303,7 @@ color
 "
 )
 ;
-yield
+await
 extension
 .
 unload

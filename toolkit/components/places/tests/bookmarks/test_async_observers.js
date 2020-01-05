@@ -337,8 +337,8 @@ observer
 ;
 add_task
 (
+async
 function
-*
 test_add_visit
 (
 )
@@ -464,12 +464,12 @@ resolve
 }
 )
 ;
-yield
+await
 deferUpdatePlaces
 .
 promise
 ;
-yield
+await
 observerPromise
 ;
 do_check_eq
@@ -485,8 +485,8 @@ visitId
 ;
 add_task
 (
+async
 function
-*
 test_add_icon
 (
 )
@@ -540,7 +540,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 observerPromise
 ;
 }
@@ -548,8 +548,8 @@ observerPromise
 ;
 add_task
 (
+async
 function
-*
 test_remove_page
 (
 )
@@ -563,7 +563,7 @@ setupCompletionPromise
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -584,7 +584,7 @@ rk
 "
 )
 ;
-yield
+await
 observerPromise
 ;
 }
@@ -612,8 +612,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 shutdown
 (
 )
@@ -756,7 +756,7 @@ shutdownPlaces
 (
 )
 ;
-yield
+await
 deferred
 .
 promise

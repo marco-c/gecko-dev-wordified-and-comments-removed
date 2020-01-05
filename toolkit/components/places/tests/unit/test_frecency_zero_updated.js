@@ -9,8 +9,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -57,7 +57,7 @@ title
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -83,7 +83,7 @@ removeItem
 id
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -99,7 +99,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits

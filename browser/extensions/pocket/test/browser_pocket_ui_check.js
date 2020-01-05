@@ -109,8 +109,8 @@ present
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -206,12 +206,12 @@ enabledOnStartup
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promisePocketEnabled
 (
 )
@@ -275,7 +275,7 @@ menu
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -344,7 +344,7 @@ popuphidden
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -367,7 +367,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 popupShown
 ;
 checkElements
@@ -393,10 +393,10 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHidden
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -404,7 +404,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 promisePocketDisabled
 (
 )
@@ -465,7 +465,7 @@ savelinktopocket
 ]
 )
 ;
-yield
+await
 promisePocketReset
 (
 )

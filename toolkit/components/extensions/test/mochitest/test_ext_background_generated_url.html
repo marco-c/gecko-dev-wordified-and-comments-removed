@@ -163,8 +163,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_url_of_generated_background_page
 (
 )
@@ -265,7 +265,7 @@ backgroundScript
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -275,7 +275,7 @@ startup
 const
 EXPECTED_URL
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -360,7 +360,7 @@ URL
 EXPECTED_URL
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -371,7 +371,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 unload

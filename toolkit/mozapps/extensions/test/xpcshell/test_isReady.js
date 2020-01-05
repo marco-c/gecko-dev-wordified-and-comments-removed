@@ -35,8 +35,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -203,7 +203,7 @@ commences
 "
 )
 ;
-yield
+await
 shutdownPromise
 ;
 equal

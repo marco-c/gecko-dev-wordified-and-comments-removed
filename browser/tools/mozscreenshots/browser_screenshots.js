@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 capture
 (
 )
@@ -66,7 +66,7 @@ split
 "
 )
 ;
-yield
+await
 TestRunner
 .
 start

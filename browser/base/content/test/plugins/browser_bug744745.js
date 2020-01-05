@@ -84,8 +84,8 @@ wrong
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -179,8 +179,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -279,7 +279,7 @@ http
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -294,7 +294,7 @@ html
 "
 )
 ;
-yield
+await
 promiseForCondition
 (
 function
@@ -310,7 +310,7 @@ gNumPluginBindingsAttached
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -318,8 +318,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {

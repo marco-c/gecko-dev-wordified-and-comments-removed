@@ -183,8 +183,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -210,7 +210,7 @@ json
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -358,8 +358,8 @@ zH4KaPiY3vnrzQIDAQAB
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -384,7 +384,7 @@ json
 {
 try
 {
-yield
+await
 checkUpdates
 (
 "
@@ -422,8 +422,8 @@ e
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -448,7 +448,7 @@ json
 {
 try
 {
-yield
+await
 checkUpdates
 (
 "
@@ -486,14 +486,14 @@ e
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 try
 {
-yield
+await
 checkUpdates
 (
 "
@@ -560,7 +560,7 @@ null
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -604,8 +604,8 @@ updates
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -640,7 +640,7 @@ null
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -696,8 +696,8 @@ updates
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -732,7 +732,7 @@ null
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -788,8 +788,8 @@ updates
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -824,7 +824,7 @@ null
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -880,8 +880,8 @@ updates
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -916,7 +916,7 @@ null
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -957,8 +957,8 @@ updates
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -993,7 +993,7 @@ null
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -1049,8 +1049,8 @@ updates
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1076,7 +1076,7 @@ json
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -1105,8 +1105,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1131,7 +1131,7 @@ json
 {
 try
 {
-yield
+await
 checkUpdates
 (
 "
@@ -1178,8 +1178,8 @@ ERROR_PARSE_ERROR
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1205,7 +1205,7 @@ json
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -1263,8 +1263,8 @@ version
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1290,7 +1290,7 @@ json
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "
@@ -1418,8 +1418,8 @@ version
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1445,7 +1445,7 @@ json
 let
 updates
 =
-yield
+await
 checkUpdates
 (
 "

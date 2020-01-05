@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -48,7 +48,7 @@ functionality
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -229,7 +229,7 @@ click
 ;
 try
 {
-yield
+await
 waitForCondition
 (
 (
@@ -239,7 +239,7 @@ waitForCondition
 windowWasHandled
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWindow

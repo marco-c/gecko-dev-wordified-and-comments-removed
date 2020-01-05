@@ -15,8 +15,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_queryMultipleFolders
 (
 )
@@ -52,7 +52,7 @@ i
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -87,7 +87,7 @@ folderIds
 .
 push
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -117,7 +117,7 @@ j
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -128,7 +128,7 @@ insert
 parentGuid
 :
 (
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -166,7 +166,7 @@ bookmarkIds
 .
 push
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId

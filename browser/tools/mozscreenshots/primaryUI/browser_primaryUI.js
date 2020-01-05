@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 capture
 (
 )
@@ -43,7 +43,7 @@ LightweightThemes
 "
 ]
 ;
-yield
+await
 TestRunner
 .
 start

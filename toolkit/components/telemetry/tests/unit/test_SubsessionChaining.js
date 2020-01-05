@@ -706,8 +706,8 @@ expectedSubsessionCounter
 ;
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -745,7 +745,7 @@ XPCShell
 "
 )
 ;
-yield
+await
 setEmptyPrefWatchlist
 (
 )
@@ -763,8 +763,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_subsessionsChaining
 (
 )
@@ -879,14 +879,14 @@ expectedReasons
 [
 ]
 ;
-yield
+await
 TelemetryController
 .
 testSetup
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown
@@ -911,7 +911,7 @@ testReset
 (
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown
@@ -946,7 +946,7 @@ callback
 }
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -967,7 +967,7 @@ ok
 schedulerTickCallback
 )
 ;
-yield
+await
 schedulerTickCallback
 (
 )
@@ -984,7 +984,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1023,7 +1023,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown
@@ -1042,7 +1042,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1060,7 +1060,7 @@ MS_IN_ONE_DAY
 )
 )
 ;
-yield
+await
 schedulerTickCallback
 (
 )
@@ -1097,7 +1097,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testShutdown
@@ -1111,7 +1111,7 @@ push
 REASON_SHUTDOWN
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1150,7 +1150,7 @@ moveClockForward
 6
 )
 ;
-yield
+await
 schedulerTickCallback
 (
 )
@@ -1167,7 +1167,7 @@ moveClockForward
 30
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
@@ -1187,7 +1187,7 @@ fakeNow
 now
 )
 ;
-yield
+await
 schedulerTickCallback
 (
 )
@@ -1224,7 +1224,7 @@ moveClockForward
 6
 )
 ;
-yield
+await
 schedulerTickCallback
 (
 )
@@ -1236,14 +1236,14 @@ push
 REASON_ABORTED_SESSION
 )
 ;
-yield
+await
 TelemetryController
 .
 testReset
 (
 )
 ;
-yield
+await
 promiseValidateArchivedPings
 (
 expectedReasons
@@ -1254,12 +1254,12 @@ expectedReasons
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 TelemetryController
 .
 testShutdown

@@ -7,8 +7,8 @@ gTabRestrictChar
 ;
 add_task
 (
+async
 function
-*
 test_tab_matches
 (
 )
@@ -100,7 +100,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -192,7 +192,7 @@ match
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -285,7 +285,7 @@ match
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -414,7 +414,7 @@ uri2
 1
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -551,7 +551,7 @@ uri5
 3
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -684,7 +684,7 @@ tabs
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -819,7 +819,7 @@ tab
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -956,7 +956,7 @@ uri2
 5
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1086,7 +1086,7 @@ actions
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1209,7 +1209,7 @@ disabled
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1324,7 +1324,7 @@ uri2
 6
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1448,7 +1448,7 @@ uri1
 1
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1520,7 +1520,7 @@ pages
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1578,7 +1578,7 @@ character
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1641,7 +1641,7 @@ character
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1711,7 +1711,7 @@ test
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

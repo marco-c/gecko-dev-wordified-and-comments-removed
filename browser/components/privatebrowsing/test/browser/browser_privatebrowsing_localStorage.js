@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -47,7 +47,7 @@ html
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -83,7 +83,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -127,7 +127,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -152,7 +152,7 @@ items
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_enabled
 (
 )
@@ -14,7 +14,7 @@ test_enabled
 let
 addons
 =
-yield
+await
 new
 Promise
 (

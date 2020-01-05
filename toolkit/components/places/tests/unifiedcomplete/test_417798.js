@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_javascript_match
 (
 )
@@ -56,7 +56,7 @@ javascript
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -78,7 +78,7 @@ javascript
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -110,7 +110,7 @@ search
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -154,7 +154,7 @@ javascript
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -192,7 +192,7 @@ javascript
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -256,7 +256,7 @@ javascript
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -288,7 +288,7 @@ search
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -326,7 +326,7 @@ bookmark
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

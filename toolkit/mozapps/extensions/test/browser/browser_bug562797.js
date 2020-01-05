@@ -1268,12 +1268,9 @@ resolve
 )
 ;
 }
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -1285,7 +1282,7 @@ Part
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1347,7 +1344,7 @@ forward
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1362,7 +1359,7 @@ addons
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1375,7 +1372,7 @@ selectedBrowser
 let
 manager
 =
-yield
+await
 promiseManagerLoaded
 (
 gBrowser
@@ -1451,7 +1448,7 @@ go_back
 manager
 )
 ;
-yield
+await
 promiseLoaded
 ;
 info
@@ -1536,12 +1533,12 @@ go_forward
 manager
 )
 ;
-yield
+await
 promiseLoaded
 ;
 manager
 =
-yield
+await
 promiseManagerLoaded
 (
 gBrowser
@@ -1582,6 +1579,8 @@ run_next_test
 )
 ;
 }
+)
+(
 )
 ;
 }

@@ -280,8 +280,8 @@ now
 }
 add_task
 (
+async
 function
-*
 checkFirstMetadata
 (
 )
@@ -474,7 +474,7 @@ startupManager
 (
 )
 ;
-yield
+await
 AddonRepository
 .
 repopulateCache
@@ -530,7 +530,7 @@ PREF_METADATA_LASTUPDATE
 oldUpdate
 )
 ;
-yield
+await
 AddonRepository
 .
 repopulateCache
@@ -555,8 +555,8 @@ PREF_METADATA_LASTUPDATE
 ;
 add_task
 (
+async
 function
-*
 upgrade_no_lastupdate
 (
 )
@@ -576,7 +576,7 @@ expected
 =
 true
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -596,8 +596,8 @@ expected
 ;
 add_task
 (
+async
 function
-*
 upgrade_old_lastupdate
 (
 )
@@ -629,7 +629,7 @@ expected
 =
 true
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -649,8 +649,8 @@ expected
 ;
 add_task
 (
+async
 function
-*
 upgrade_young_lastupdate
 (
 )
@@ -682,7 +682,7 @@ expected
 =
 false
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -707,8 +707,8 @@ TEST_UPDATETHRESHOLD_SEC
 ;
 add_task
 (
+async
 function
-*
 upgrade_old_pref_lastupdate
 (
 )
@@ -750,7 +750,7 @@ expected
 =
 true
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -770,8 +770,8 @@ expected
 ;
 add_task
 (
+async
 function
-*
 upgrade_young_pref_lastupdate
 (
 )
@@ -803,7 +803,7 @@ expected
 =
 false
 ;
-yield
+await
 promiseRestartManager
 (
 "

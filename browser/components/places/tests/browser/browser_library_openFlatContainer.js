@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -65,7 +65,7 @@ Bookmark
 let
 library
 =
-yield
+await
 promiseLibrary
 (
 "

@@ -92,8 +92,8 @@ data
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -644,7 +644,7 @@ no
 "
 )
 ;
-yield
+await
 promiseWindowLoaded
 (
 newWin
@@ -777,7 +777,7 @@ up
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -789,7 +789,7 @@ net
 "
 )
 ;
-yield
+await
 promiseClearHistory
 (
 )
@@ -882,7 +882,7 @@ max_tabs_undo
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

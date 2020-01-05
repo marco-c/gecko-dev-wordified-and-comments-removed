@@ -271,8 +271,8 @@ exists
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -336,7 +336,7 @@ TOPIC_BROWSERGLUE_TEST
 TOPICDATA_DISTRIBUTION_CUSTOMIZATION
 )
 ;
-yield
+await
 promiseTopicObserved
 (
 TOPIC_CUSTOMIZATION_COMPLETE
@@ -345,7 +345,7 @@ TOPIC_CUSTOMIZATION_COMPLETE
 let
 menuItem
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -382,7 +382,7 @@ Before
 ;
 menuItem
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -419,7 +419,7 @@ After
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -468,7 +468,7 @@ found
 let
 keywordItem
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -497,7 +497,7 @@ null
 let
 toolbarItem
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -535,7 +535,7 @@ Before
 let
 faviconItem
 =
-yield
+await
 waitForResolvedPromise
 (
 (
@@ -652,7 +652,7 @@ spec
 ;
 keywordItem
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -696,7 +696,7 @@ b
 ;
 toolbarItem
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

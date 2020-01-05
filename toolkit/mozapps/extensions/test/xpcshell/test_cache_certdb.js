@@ -309,8 +309,8 @@ certDBFactory
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -350,7 +350,7 @@ overrideCertDB
 let
 install
 =
-yield
+await
 AddonManager
 .
 getInstallForFile

@@ -189,8 +189,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_path_setPermissions
 (
 )
@@ -218,7 +218,7 @@ tmp
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -271,7 +271,7 @@ options
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -286,7 +286,7 @@ options
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -355,7 +355,7 @@ hidden
 }
 finally
 {
-yield
+await
 OS
 .
 File
@@ -371,8 +371,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_file_setPermissions
 (
 )
@@ -400,7 +400,7 @@ tmp
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -420,7 +420,7 @@ try
 let
 fd
 =
-yield
+await
 OS
 .
 File
@@ -473,7 +473,7 @@ options
 )
 )
 ;
-yield
+await
 fd
 .
 setPermissions
@@ -485,7 +485,7 @@ options
 let
 stat
 =
-yield
+await
 fd
 .
 stat
@@ -551,7 +551,7 @@ hidden
 }
 finally
 {
-yield
+await
 fd
 .
 close
@@ -562,7 +562,7 @@ close
 }
 finally
 {
-yield
+await
 OS
 .
 File
@@ -578,8 +578,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_non_existant_file_path_setPermissions
 (
 )
@@ -657,8 +657,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_closed_file_handle_setPermissions
 (
 )
@@ -686,7 +686,7 @@ tmp
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -706,7 +706,7 @@ try
 let
 fd
 =
-yield
+await
 OS
 .
 File
@@ -721,7 +721,7 @@ true
 }
 )
 ;
-yield
+await
 fd
 .
 close
@@ -769,7 +769,7 @@ handle
 }
 finally
 {
-yield
+await
 OS
 .
 File

@@ -26,8 +26,8 @@ spec
 ;
 add_task
 (
+async
 function
-*
 test_domain
 (
 )
@@ -62,7 +62,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -86,7 +86,7 @@ link
 )
 )
 ;
-yield
+await
 setFaviconForPage
 (
 "
@@ -104,7 +104,7 @@ link
 FAVICON_HREF
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -144,7 +144,7 @@ FAVICON_HREF
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -154,8 +154,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_url
 (
 )
@@ -190,7 +190,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -214,7 +214,7 @@ link
 )
 )
 ;
-yield
+await
 setFaviconForPage
 (
 "
@@ -232,7 +232,7 @@ link
 FAVICON_HREF
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -284,7 +284,7 @@ FAVICON_HREF
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -294,8 +294,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untyped_domain
 (
 )
@@ -316,7 +316,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -340,7 +340,7 @@ link
 )
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -362,7 +362,7 @@ moz
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -372,8 +372,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_typed_domain
 (
 )
@@ -391,7 +391,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -422,7 +422,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -450,7 +450,7 @@ org
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -460,8 +460,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_untyped_url
 (
 )
@@ -482,7 +482,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -506,7 +506,7 @@ link
 )
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -540,7 +540,7 @@ li
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -550,8 +550,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_typed_url
 (
 )
@@ -569,7 +569,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -600,7 +600,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -640,7 +640,7 @@ link
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

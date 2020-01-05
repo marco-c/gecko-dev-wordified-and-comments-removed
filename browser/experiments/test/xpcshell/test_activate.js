@@ -218,8 +218,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -421,8 +421,8 @@ promise
 }
 add_task
 (
+async
 function
-*
 test_startStop
 (
 )
@@ -546,7 +546,7 @@ baseDate
 ;
 result
 =
-yield
+await
 isApplicable
 (
 experiment
@@ -591,7 +591,7 @@ enabled
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -630,7 +630,7 @@ MS_IN_ONE_DAY
 ;
 result
 =
-yield
+await
 isApplicable
 (
 experiment
@@ -675,7 +675,7 @@ enabled
 let
 changes
 =
-yield
+await
 experiment
 .
 start
@@ -702,7 +702,7 @@ installed
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -818,7 +818,7 @@ active
 ;
 changes
 =
-yield
+await
 experiment
 .
 stop
@@ -845,7 +845,7 @@ uninstalled
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -891,7 +891,7 @@ Manager
 ;
 changes
 =
-yield
+await
 experiment
 .
 start
@@ -918,7 +918,7 @@ installed
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -1034,7 +1034,7 @@ active
 ;
 result
 =
-yield
+await
 experiment
 .
 shouldStop
@@ -1077,7 +1077,7 @@ enabled
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -1136,7 +1136,7 @@ MS_IN_ONE_DAY
 ;
 result
 =
-yield
+await
 experiment
 .
 shouldStop
@@ -1163,7 +1163,7 @@ true
 ;
 changes
 =
-yield
+await
 experiment
 .
 stop
@@ -1208,7 +1208,7 @@ disabled
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -1251,7 +1251,7 @@ false
 ;
 try
 {
-yield
+await
 experiment
 .
 start
@@ -1309,7 +1309,7 @@ true
 ;
 changes
 =
-yield
+await
 experiment
 .
 start
@@ -1326,7 +1326,7 @@ experiment
 ADDON_CHANGE_INSTALL
 )
 ;
-yield
+await
 experiment
 .
 stop

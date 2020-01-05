@@ -58,8 +58,8 @@ sjs
 ;
 add_task
 (
+async
 function
-*
 test_star_redirect
 (
 )
@@ -153,7 +153,7 @@ addTab
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -161,7 +161,7 @@ secureURL
 secureURL
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -169,7 +169,7 @@ unsecureURL
 secureURL
 )
 ;
-yield
+await
 promiseStarState
 (
 BookmarkingUI
@@ -195,7 +195,7 @@ click
 (
 )
 ;
-yield
+await
 promiseBookmark
 ;
 is

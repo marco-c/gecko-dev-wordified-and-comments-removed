@@ -158,8 +158,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -191,7 +191,7 @@ json
 if
 (
 (
-yield
+await
 OS
 .
 File
@@ -202,7 +202,7 @@ jsonFile
 )
 )
 )
-yield
+await
 OS
 .
 File
@@ -235,7 +235,7 @@ html
 "
 )
 ;
-yield
+await
 BookmarkHTMLUtils
 .
 importFromFile
@@ -277,7 +277,7 @@ of
 bookmarkData
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -311,7 +311,7 @@ of
 bookmarkData
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -334,12 +334,12 @@ title
 )
 ;
 }
-yield
+await
 validate
 (
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -355,7 +355,7 @@ json
 "
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
@@ -372,7 +372,7 @@ json
 "
 )
 ;
-yield
+await
 validate
 (
 )
@@ -388,18 +388,18 @@ import
 }
 )
 ;
+async
 function
-*
 validate
 (
 )
 {
-yield
+await
 testMenuBookmarks
 (
 )
 ;
-yield
+await
 testToolbarBookmarks
 (
 )
@@ -412,7 +412,7 @@ testTags
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -420,8 +420,8 @@ promiseAsyncUpdates
 )
 ;
 }
+async
 function
-*
 testMenuBookmarks
 (
 )
@@ -509,7 +509,7 @@ test
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -660,7 +660,7 @@ dateAdded
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords
@@ -720,7 +720,7 @@ ISO
 1
 "
 (
-yield
+await
 PlacesUtils
 .
 getCharsetForURI

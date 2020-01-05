@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -71,7 +71,7 @@ interfaces
 nsICookiePermission
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -98,7 +98,7 @@ cp
 ACCESS_ALLOW
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -109,13 +109,13 @@ url
 :
 uriString
 }
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 ContentTask
 .
 spawn

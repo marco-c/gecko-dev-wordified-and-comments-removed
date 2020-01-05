@@ -424,8 +424,8 @@ promise
 }
 add_task
 (
+async
 function
-*
 initializeState
 (
 )
@@ -456,7 +456,7 @@ KEY_LOGGING_LEVEL
 ;
 gManagerWindow
 =
-yield
+await
 open_manager
 (
 )
@@ -471,12 +471,8 @@ gManagerWindow
 ;
 registerCleanupFunction
 (
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -647,7 +643,7 @@ GMPPrefs
 KEY_EME_ENABLED
 )
 ;
-yield
+await
 GMPScope
 .
 GMPProvider
@@ -665,7 +661,6 @@ startup
 )
 ;
 }
-)
 )
 ;
 Services
@@ -810,7 +805,7 @@ true
 )
 ;
 }
-yield
+await
 GMPScope
 .
 GMPProvider
@@ -832,8 +827,8 @@ startup
 ;
 add_task
 (
+async
 function
-*
 testNotInstalledDisabled
 (
 )
@@ -858,7 +853,7 @@ visible
 "
 )
 ;
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -1133,8 +1128,8 @@ activate
 ;
 add_task
 (
+async
 function
-*
 testNotInstalledDisabledDetails
 (
 )
@@ -1147,7 +1142,7 @@ of
 gMockAddons
 )
 {
-yield
+await
 openDetailsView
 (
 addon
@@ -1259,7 +1254,7 @@ setting
 0
 ]
 ;
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -1275,8 +1270,8 @@ plugin
 ;
 add_task
 (
+async
 function
-*
 testNotInstalled
 (
 )
@@ -1564,8 +1559,8 @@ activate
 ;
 add_task
 (
+async
 function
-*
 testNotInstalledDetails
 (
 )
@@ -1578,7 +1573,7 @@ of
 gMockAddons
 )
 {
-yield
+await
 openDetailsView
 (
 addon
@@ -1690,7 +1685,7 @@ setting
 0
 ]
 ;
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -1706,8 +1701,8 @@ plugin
 ;
 add_task
 (
+async
 function
-*
 testInstalled
 (
 )
@@ -2039,8 +2034,8 @@ activate
 ;
 add_task
 (
+async
 function
-*
 testInstalledDetails
 (
 )
@@ -2053,7 +2048,7 @@ of
 gMockAddons
 )
 {
-yield
+await
 openDetailsView
 (
 addon
@@ -2274,7 +2269,7 @@ button
 gManagerWindow
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -2311,7 +2306,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -2327,8 +2322,8 @@ plugin
 ;
 add_task
 (
+async
 function
-*
 testInstalledGlobalEmeDisabled
 (
 )
@@ -2427,8 +2422,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 testPreferencesButton
 (
 )
@@ -2530,7 +2525,7 @@ of
 gMockAddons
 )
 {
-yield
+await
 close_manager
 (
 gManagerWindow
@@ -2538,7 +2533,7 @@ gManagerWindow
 ;
 gManagerWindow
 =
-yield
+await
 open_manager
 (
 )
@@ -2591,7 +2586,7 @@ preferences
 enabled
 )
 ;
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -2667,7 +2662,7 @@ deferred
 resolve
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -2689,8 +2684,8 @@ id
 ;
 add_task
 (
+async
 function
-*
 testUpdateButton
 (
 )
@@ -2745,7 +2740,7 @@ of
 gMockAddons
 )
 {
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -2834,7 +2829,7 @@ deferred
 resolve
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -2885,7 +2880,7 @@ clickCount
 gManagerWindow
 )
 ;
-yield
+await
 gInstallDeferred
 .
 promise
@@ -2930,8 +2925,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 testEmeSupport
 (
 )
@@ -2962,7 +2957,7 @@ id
 )
 ;
 }
-yield
+await
 GMPScope
 .
 GMPProvider
@@ -2987,7 +2982,7 @@ of
 gMockAddons
 )
 {
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -3237,7 +3232,7 @@ true
 )
 ;
 }
-yield
+await
 GMPScope
 .
 GMPProvider
@@ -3259,13 +3254,13 @@ startup
 ;
 add_task
 (
+async
 function
-*
 test_cleanup
 (
 )
 {
-yield
+await
 close_manager
 (
 gManagerWindow

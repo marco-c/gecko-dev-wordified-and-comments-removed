@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 changeuri_unvisited_bookmark
 (
 )
@@ -87,7 +87,7 @@ title
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -143,7 +143,7 @@ com
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -176,7 +176,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -185,7 +185,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -197,8 +197,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 changeuri_visited_bookmark
 (
 )
@@ -278,7 +278,7 @@ title
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -311,7 +311,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -319,7 +319,7 @@ addVisits
 TEST_URI
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -349,7 +349,7 @@ com
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -385,7 +385,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -394,7 +394,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -406,8 +406,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 changeuri_bookmark_still_bookmarked
 (
 )
@@ -514,7 +514,7 @@ title
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -570,7 +570,7 @@ com
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -602,7 +602,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -611,7 +611,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -623,8 +623,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 changeuri_nonexistent_bookmark
 (
 )
@@ -796,7 +796,7 @@ tryChange
 id
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -805,7 +805,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

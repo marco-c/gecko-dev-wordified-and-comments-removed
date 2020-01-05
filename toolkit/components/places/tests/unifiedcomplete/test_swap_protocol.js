@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_swap_protocol
 (
 )
@@ -148,7 +148,7 @@ wwwwwwacko
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -355,7 +355,7 @@ site
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -390,7 +390,7 @@ site
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -424,7 +424,7 @@ itself
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -470,7 +470,7 @@ site
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -505,7 +505,7 @@ site
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -540,7 +540,7 @@ site
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -571,7 +571,7 @@ site
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -600,7 +600,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -652,7 +652,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -708,7 +708,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -762,7 +762,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -800,7 +800,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -842,7 +842,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -890,7 +890,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -934,7 +934,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -976,7 +976,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1024,7 +1024,7 @@ www
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1056,7 +1056,7 @@ title
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

@@ -302,8 +302,8 @@ testPage
 )
 ;
 }
+async
 function
-*
 clean_up
 (
 )
@@ -311,7 +311,7 @@ clean_up
 let
 downloadList
 =
-yield
+await
 Downloads
 .
 getList
@@ -324,7 +324,7 @@ ALL
 let
 downloads
 =
-yield
+await
 downloadList
 .
 getAll
@@ -339,7 +339,7 @@ of
 downloads
 )
 {
-yield
+await
 downloadList
 .
 remove
@@ -347,7 +347,7 @@ remove
 download
 )
 ;
-yield
+await
 download
 .
 finalize
@@ -356,7 +356,7 @@ true
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -374,7 +374,7 @@ altClickSave
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -387,13 +387,13 @@ selectedTab
 }
 add_task
 (
+async
 function
-*
 test_alt_click
 (
 )
 {
-yield
+await
 setup
 (
 )
@@ -401,7 +401,7 @@ setup
 let
 downloadList
 =
-yield
+await
 Downloads
 .
 getList
@@ -457,7 +457,7 @@ resolve
 }
 )
 ;
-yield
+await
 downloadList
 .
 addView
@@ -465,7 +465,7 @@ addView
 downloadView
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -484,10 +484,10 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 finishedAllDownloads
 ;
-yield
+await
 downloadList
 .
 removeView
@@ -537,8 +537,7 @@ element
 "
 )
 ;
-yield
-*
+await
 clean_up
 (
 )
@@ -548,13 +547,13 @@ clean_up
 ;
 add_task
 (
+async
 function
-*
 test_alt_click_on_xlinks
 (
 )
 {
-yield
+await
 setup
 (
 )
@@ -562,7 +561,7 @@ setup
 let
 downloadList
 =
-yield
+await
 Downloads
 .
 getList
@@ -629,7 +628,7 @@ resolve
 }
 )
 ;
-yield
+await
 downloadList
 .
 addView
@@ -637,7 +636,7 @@ addView
 downloadView
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -656,7 +655,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -675,10 +674,10 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 finishedAllDownloads
 ;
-yield
+await
 downloadList
 .
 removeView
@@ -758,8 +757,7 @@ element
 "
 )
 ;
-yield
-*
+await
 clean_up
 (
 )

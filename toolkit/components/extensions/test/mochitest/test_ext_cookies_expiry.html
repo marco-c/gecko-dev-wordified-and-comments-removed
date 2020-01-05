@@ -218,8 +218,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_cookies_expiry
 (
 )
@@ -579,14 +579,14 @@ cookie
 )
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -630,7 +630,7 @@ now
 10
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -642,7 +642,7 @@ expiry
 "
 )
 ;
-yield
+await
 extension
 .
 unload

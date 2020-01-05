@@ -165,8 +165,8 @@ ready
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -191,7 +191,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabLoaded
 (
 gBrowser
@@ -227,7 +227,7 @@ unknown_url
 let
 win
 =
-yield
+await
 waitForNewWindow
 (
 )
@@ -289,7 +289,7 @@ close
 (
 )
 ;
-yield
+await
 promiseWaitForFocus
 (
 window

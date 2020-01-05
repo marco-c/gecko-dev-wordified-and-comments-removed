@@ -43,8 +43,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -211,7 +211,7 @@ historyObserver
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -232,7 +232,7 @@ addTab
 TEST_URL
 )
 ;
-yield
+await
 waitForTitleChanged
 (
 )
@@ -334,7 +334,7 @@ handleCompletion
 }
 )
 ;
-yield
+await
 waitForTitleChanged
 (
 )
@@ -366,7 +366,7 @@ visit
 let
 privateWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -378,7 +378,7 @@ true
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -420,7 +420,7 @@ window
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

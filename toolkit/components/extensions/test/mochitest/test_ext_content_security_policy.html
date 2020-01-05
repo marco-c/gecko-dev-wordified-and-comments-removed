@@ -241,8 +241,8 @@ customCSP
 ]
 *
 /
+async
 function
-*
 testPolicy
 (
 customCSP
@@ -933,7 +933,7 @@ content_security_policy
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -942,7 +942,7 @@ startup
 ;
 baseURL
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1000,7 +1000,7 @@ appendChild
 frame
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1020,7 +1020,7 @@ resolve
 let
 backgroundCSP
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1044,7 +1044,7 @@ page
 let
 tabCSP
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1090,7 +1090,7 @@ remove
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1100,13 +1100,13 @@ unload
 }
 add_task
 (
+async
 function
-*
 testCSP
 (
 )
 {
-yield
+await
 testPolicy
 (
 null
@@ -1124,7 +1124,7 @@ NjZhMDQ1YjQ1MjEwMmM1OWQ4NDBlYzA5N2Q1OWQ5NDY3ZTEzYTNmMzRmNjQ5NGU1MzlmZmQzMmMxYmIz
 '
 "
 ;
-yield
+await
 testPolicy
 (
 {
@@ -1177,7 +1177,7 @@ hash
 }
 )
 ;
-yield
+await
 testPolicy
 (
 {

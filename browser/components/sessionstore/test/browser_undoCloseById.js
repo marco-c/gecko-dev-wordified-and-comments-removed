@@ -154,8 +154,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 test_undoCloseById
 (
 )
@@ -186,7 +186,7 @@ window
 let
 win
 =
-yield
+await
 openWindow
 (
 "
@@ -196,7 +196,7 @@ robots
 "
 )
 ;
-yield
+await
 openAndCloseTab
 (
 win
@@ -245,7 +245,7 @@ closedId
 let
 win2
 =
-yield
+await
 openWindow
 (
 "
@@ -255,7 +255,7 @@ mozilla
 "
 )
 ;
-yield
+await
 closeWindow
 (
 win2
@@ -280,7 +280,7 @@ window
 "
 )
 ;
-yield
+await
 openAndCloseTab
 (
 win
@@ -322,7 +322,7 @@ initialClosedId
 2
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -414,7 +414,7 @@ undoCloseById
 initialClosedId
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab2
@@ -447,7 +447,7 @@ opened
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -472,7 +472,7 @@ tab
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab2
@@ -500,7 +500,7 @@ tab
 let
 win3
 =
-yield
+await
 openWindow
 (
 "
@@ -510,7 +510,7 @@ mozilla
 "
 )
 ;
-yield
+await
 closeWindow
 (
 win
@@ -535,7 +535,7 @@ window
 "
 )
 ;
-yield
+await
 closeWindow
 (
 win3
@@ -571,7 +571,7 @@ initialClosedId
 6
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -582,7 +582,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -654,7 +654,7 @@ closedId
 "
 )
 ;
-yield
+await
 closeWindow
 (
 win
@@ -690,7 +690,7 @@ initialClosedId
 5
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -701,7 +701,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -743,7 +743,7 @@ opened
 "
 )
 ;
-yield
+await
 closeWindow
 (
 win

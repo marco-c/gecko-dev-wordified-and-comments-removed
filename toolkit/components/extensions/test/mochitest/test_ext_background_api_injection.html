@@ -174,8 +174,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testBackgroundWindow
 (
 )
@@ -294,7 +294,7 @@ resolve
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -304,7 +304,7 @@ startup
 let
 message
 =
-yield
+await
 awaitConsole
 ;
 ok
@@ -339,7 +339,7 @@ APIs
 "
 )
 ;
-yield
+await
 extension
 .
 unload

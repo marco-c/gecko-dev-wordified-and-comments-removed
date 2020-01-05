@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -99,8 +99,8 @@ error
 }
 add_task
 (
+async
 function
-*
 test_management_get_self_complete
 (
 )
@@ -304,7 +304,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -314,7 +314,7 @@ startup
 let
 extInfo
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -646,7 +646,7 @@ installType
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -658,8 +658,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_management_get_self_minimal
 (
 )
@@ -725,7 +725,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -735,7 +735,7 @@ startup
 let
 extInfo
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -923,7 +923,7 @@ prop
 )
 ;
 }
-yield
+await
 extension
 .
 unload
@@ -935,8 +935,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_management_get_self_permanent
 (
 )
@@ -1002,7 +1002,7 @@ permanent
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1012,7 +1012,7 @@ startup
 let
 extInfo
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1056,7 +1056,7 @@ installType
 "
 )
 ;
-yield
+await
 extension
 .
 unload

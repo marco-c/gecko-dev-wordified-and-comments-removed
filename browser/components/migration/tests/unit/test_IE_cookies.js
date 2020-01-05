@@ -28,8 +28,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -501,7 +501,7 @@ initially
 "
 )
 ;
-yield
+await
 promiseMigration
 (
 migrator

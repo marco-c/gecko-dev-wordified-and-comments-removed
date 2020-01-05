@@ -780,8 +780,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -1313,16 +1313,13 @@ function
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -1341,6 +1338,8 @@ resolve
 )
 ;
 }
+)
+(
 )
 ;
 }
@@ -1745,12 +1744,12 @@ promise
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 waitForUpdates
 (
 )
@@ -1760,8 +1759,8 @@ waitForUpdates
 ;
 add_task
 (
+async
 function
-*
 test_signature_whitelists
 (
 )
@@ -1848,7 +1847,7 @@ destFile
 false
 )
 ;
-yield
+await
 promiseCopyToSaver
 (
 data
@@ -1865,7 +1864,7 @@ Cr
 NS_OK
 )
 ;
-yield
+await
 completionPromise
 ;
 destFile
@@ -1875,7 +1874,7 @@ remove
 false
 )
 ;
-yield
+await
 promiseQueryReputation
 (
 {
@@ -1910,8 +1909,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_blocked_binary
 (
 )
@@ -1946,7 +1945,7 @@ download
 "
 )
 ;
-yield
+await
 promiseQueryReputation
 (
 {
@@ -1983,8 +1982,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_non_binary
 (
 )
@@ -2019,7 +2018,7 @@ throw
 "
 )
 ;
-yield
+await
 promiseQueryReputation
 (
 {
@@ -2056,8 +2055,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_good_binary
 (
 )
@@ -2092,7 +2091,7 @@ download
 "
 )
 ;
-yield
+await
 promiseQueryReputation
 (
 {
@@ -2129,8 +2128,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_disabled
 (
 )
@@ -2239,7 +2238,7 @@ true
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -2249,8 +2248,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test_disabled_through_lists
 (
 )
@@ -2374,7 +2373,7 @@ true
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -2384,8 +2383,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 test_teardown
 (
 )

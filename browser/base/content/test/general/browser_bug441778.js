@@ -52,12 +52,9 @@ org
 /
 "
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -70,7 +67,7 @@ addTab
 (
 )
 ;
-yield
+await
 FullZoomHelper
 .
 selectTabAndWaitForLocationChange
@@ -85,7 +82,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 FullZoomHelper
 .
 load
@@ -222,12 +219,14 @@ url
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
 ;
 }
+)
+(
 )
 .
 then

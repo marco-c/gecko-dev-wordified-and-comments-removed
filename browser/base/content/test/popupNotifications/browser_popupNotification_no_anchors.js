@@ -46,7 +46,7 @@ Test
 #
 1
 "
-*
+async
 run
 (
 )
@@ -59,7 +59,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -220,7 +220,7 @@ Test
 #
 2
 "
-*
+async
 run
 (
 )
@@ -233,7 +233,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -302,13 +302,13 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
 )
 {
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -426,7 +426,7 @@ Test
 #
 3
 "
-*
+async
 run
 (
 )
@@ -439,7 +439,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -535,7 +535,7 @@ visible
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -1114,7 +1114,7 @@ Test
 #
 6
 "
-*
+async
 run
 (
 )
@@ -1176,7 +1176,7 @@ this
 notifyObj
 )
 ;
-yield
+await
 shown
 ;
 let
@@ -1194,7 +1194,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1212,7 +1212,7 @@ com
 "
 )
 ;
-yield
+await
 hidden
 ;
 gURLBar
@@ -1255,7 +1255,7 @@ this
 .
 oldSelectedTab
 ;
-yield
+await
 shown
 ;
 checkPopup
@@ -1282,7 +1282,7 @@ remove
 (
 )
 ;
-yield
+await
 hidden
 ;
 goNext

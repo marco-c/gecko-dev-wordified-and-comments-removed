@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_init
 (
 )
@@ -58,7 +58,7 @@ returned
 let
 recipesParent
 =
-yield
+await
 initPromise1
 ;
 Assert
@@ -98,8 +98,8 @@ recipes
 ;
 add_task
 (
+async
 function
-*
 test_get_missing_host
 (
 )
@@ -107,7 +107,7 @@ test_get_missing_host
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -152,8 +152,8 @@ invalid
 ;
 add_task
 (
+async
 function
-*
 test_add_get_simple_host
 (
 )
@@ -161,7 +161,7 @@ test_add_get_simple_host
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -335,8 +335,8 @@ host
 ;
 add_task
 (
+async
 function
-*
 test_add_get_non_standard_port_host
 (
 )
@@ -344,7 +344,7 @@ test_add_get_non_standard_port_host
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -509,8 +509,8 @@ host
 ;
 add_task
 (
+async
 function
-*
 test_add_multiple_hosts
 (
 )
@@ -518,7 +518,7 @@ test_add_multiple_hosts
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -849,8 +849,8 @@ host
 ;
 add_task
 (
+async
 function
-*
 test_add_pathRegex
 (
 )
@@ -858,7 +858,7 @@ test_add_pathRegex
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -1055,8 +1055,8 @@ pathRegex
 ;
 add_task
 (
+async
 function
-*
 test_add_selectors
 (
 )
@@ -1064,7 +1064,7 @@ test_add_selectors
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -1285,8 +1285,8 @@ passwordSelector
 ;
 add_task
 (
+async
 function
-*
 test_add_missing_prop
 (
 )
@@ -1294,7 +1294,7 @@ test_add_missing_prop
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -1332,8 +1332,8 @@ required
 ;
 add_task
 (
+async
 function
-*
 test_add_unknown_prop
 (
 )
@@ -1341,7 +1341,7 @@ test_add_unknown_prop
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -1388,8 +1388,8 @@ typos
 ;
 add_task
 (
+async
 function
-*
 test_add_invalid_hosts
 (
 )
@@ -1397,7 +1397,7 @@ test_add_invalid_hosts
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -1439,8 +1439,8 @@ array
 ;
 add_task
 (
+async
 function
-*
 test_add_empty_host_array
 (
 )
@@ -1448,7 +1448,7 @@ test_add_empty_host_array
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -1494,8 +1494,8 @@ array
 ;
 add_task
 (
+async
 function
-*
 test_add_pathRegex_non_regexp
 (
 )
@@ -1503,7 +1503,7 @@ test_add_pathRegex_non_regexp
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -1557,8 +1557,8 @@ RegExp
 ;
 add_task
 (
+async
 function
-*
 test_add_usernameSelector_non_string
 (
 )
@@ -1566,7 +1566,7 @@ test_add_usernameSelector_non_string
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent
@@ -1617,8 +1617,8 @@ string
 ;
 add_task
 (
+async
 function
-*
 test_add_passwordSelector_non_string
 (
 )
@@ -1626,7 +1626,7 @@ test_add_passwordSelector_non_string
 let
 recipesParent
 =
-yield
+await
 RecipeHelpers
 .
 initNewParent

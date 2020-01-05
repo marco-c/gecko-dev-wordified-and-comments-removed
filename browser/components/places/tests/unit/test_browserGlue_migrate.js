@@ -41,8 +41,8 @@ remove_bookmarks_html
 ;
 add_task
 (
+async
 function
-*
 test_migrate_bookmarks
 (
 )
@@ -109,7 +109,7 @@ bookmarks
 null
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -195,13 +195,13 @@ bookmarks
 null
 )
 ;
-yield
+await
 promise
 ;
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -222,7 +222,7 @@ index
 }
 )
 ;
-yield
+await
 checkItemHasAnnotation
 (
 bm
@@ -233,7 +233,7 @@ SMART_BOOKMARKS_ANNO
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -272,7 +272,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -303,7 +303,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks

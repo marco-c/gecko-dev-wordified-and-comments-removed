@@ -56,8 +56,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 duration
 (
 )
@@ -90,7 +90,7 @@ null
 let
 currentDir
 =
-yield
+await
 OS
 .
 File
@@ -191,7 +191,7 @@ outExecutionDuration
 ;
 }
 ;
-yield
+await
 OS
 .
 File
@@ -215,7 +215,7 @@ copy
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -274,7 +274,7 @@ null
 let
 contents
 =
-yield
+await
 OS
 .
 File
@@ -310,7 +310,7 @@ tmpPath
 tmpPath
 }
 ;
-yield
+await
 OS
 .
 File
@@ -334,7 +334,7 @@ writeAtomic
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -377,7 +377,7 @@ backupDuration
 =
 ARBITRARY_BASE_DURATION
 ;
-yield
+await
 OS
 .
 File
@@ -405,7 +405,7 @@ copyOptions
 .
 outExecutionDuration
 ;
-yield
+await
 OS
 .
 File
@@ -445,7 +445,7 @@ writeAtomicOptions
 .
 outExecutionDuration
 ;
-yield
+await
 OS
 .
 File
@@ -479,7 +479,7 @@ pathDest
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -489,14 +489,14 @@ open
 pathSource
 )
 ;
-yield
+await
 file
 .
 stat
 (
 )
 ;
-yield
+await
 file
 .
 close

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -30,7 +30,7 @@ com
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -44,7 +44,7 @@ newtab
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -95,7 +95,7 @@ return
 "
 )
 ;
-yield
+await
 errorPageLoaded
 ;
 is
@@ -114,7 +114,7 @@ bar
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -125,7 +125,7 @@ tab
 previousSibling
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -153,7 +153,7 @@ switch
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -166,8 +166,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -188,7 +188,7 @@ the
 question
 "
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -212,7 +212,7 @@ false
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -226,7 +226,7 @@ newtab
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -277,7 +277,7 @@ return
 "
 )
 ;
-yield
+await
 errorPageLoaded
 ;
 is
@@ -313,7 +313,7 @@ browser
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -324,7 +324,7 @@ tab
 previousSibling
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -369,7 +369,7 @@ browser
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

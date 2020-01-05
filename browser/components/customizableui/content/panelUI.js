@@ -2050,12 +2050,9 @@ this
 .
 _readyPromise
 =
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -2067,7 +2064,7 @@ this
 _initialized
 )
 {
-yield
+await
 new
 Promise
 (
@@ -2185,7 +2182,7 @@ this
 _scrollWidth
 =
 (
-yield
+await
 ScrollbarSampler
 .
 getSystemScrollbarWidth
@@ -2347,6 +2344,8 @@ bind
 this
 )
 )
+(
+)
 .
 then
 (
@@ -2407,14 +2406,8 @@ aAnchor
 )
 ;
 }
-showSubView
-:
-Task
-.
 async
-(
-function
-*
+showSubView
 (
 aViewId
 aAnchor
@@ -2954,7 +2947,7 @@ try
 let
 results
 =
-yield
+await
 Promise
 .
 all
@@ -3086,7 +3079,6 @@ topright
 ;
 }
 }
-)
 disableSingleSubviewPanelAnimations
 (
 )

@@ -11,8 +11,8 @@ now
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -303,7 +303,7 @@ stringify
 aData
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 importFromURL
@@ -317,7 +317,7 @@ let
 bookmarks
 ]
 =
-yield
+await
 PlacesBackups
 .
 getBookmarksTree

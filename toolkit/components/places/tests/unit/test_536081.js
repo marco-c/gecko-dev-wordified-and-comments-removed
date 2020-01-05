@@ -66,8 +66,8 @@ goog
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -84,7 +84,7 @@ TEST_URL
 u
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -197,7 +197,7 @@ uri
 ;
 do_check_true
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -214,7 +214,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -228,7 +228,7 @@ uri
 ;
 do_check_false
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB

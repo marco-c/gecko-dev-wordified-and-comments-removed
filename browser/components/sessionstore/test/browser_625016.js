@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -11,7 +11,7 @@ requestLongerTimeout
 2
 )
 ;
-yield
+await
 forceSaveState
 (
 )
@@ -42,8 +42,8 @@ windows
 ;
 add_task
 (
+async
 function
-*
 new_window
 (
 )
@@ -55,7 +55,7 @@ try
 {
 newWin
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -91,7 +91,7 @@ random
 )
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -117,7 +117,7 @@ save
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -137,7 +137,7 @@ JSON
 parse
 (
 (
-yield
+await
 promiseRecoveryFileContents
 (
 )
@@ -215,7 +215,7 @@ if
 newWin
 )
 {
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -224,7 +224,7 @@ newWin
 )
 ;
 }
-yield
+await
 forceSaveState
 (
 )
@@ -235,8 +235,8 @@ forceSaveState
 ;
 add_task
 (
+async
 function
-*
 new_tab
 (
 )
@@ -259,7 +259,7 @@ mozilla
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 newTab
@@ -267,7 +267,7 @@ newTab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -285,7 +285,7 @@ JSON
 parse
 (
 (
-yield
+await
 promiseRecoveryFileContents
 (
 )
@@ -379,13 +379,13 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 done
 (
 )
 {
-yield
+await
 promiseAllButPrimaryWindowClosed
 (
 )

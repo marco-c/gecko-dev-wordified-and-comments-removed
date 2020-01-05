@@ -61,8 +61,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -78,7 +78,7 @@ tab
 let
 firstTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -198,7 +198,7 @@ click
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -208,8 +208,8 @@ firstTab
 linkedBrowser
 "
 "
+async
 function
-*
 (
 )
 {
@@ -248,7 +248,7 @@ opened
 "
 )
 ;
-yield
+await
 tabOpened
 ;
 info
@@ -266,7 +266,7 @@ finish
 "
 )
 ;
-yield
+await
 secondTabLoadedPromise
 ;
 let
@@ -339,7 +339,7 @@ synchronously
 "
 )
 ;
-yield
+await
 closePromise
 ;
 ok
@@ -419,7 +419,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

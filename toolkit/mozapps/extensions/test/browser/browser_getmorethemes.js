@@ -35,13 +35,13 @@ browseURL
 ;
 add_task
 (
+async
 function
-*
 getthemes_link_visible_on_appearance_when_pref_set
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -61,7 +61,7 @@ MAIN_URL
 let
 aManager
 =
-yield
+await
 open_manager
 (
 "
@@ -148,7 +148,7 @@ theme
 aManager
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -226,7 +226,7 @@ button
 aManager
 )
 ;
-yield
+await
 awaitNewTab
 ;
 is
@@ -253,7 +253,7 @@ match
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -263,7 +263,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 close_manager
 (
 aManager
@@ -274,13 +274,13 @@ aManager
 ;
 add_task
 (
+async
 function
-*
 getthemes_link_hidden_on_appearance_when_pref_cleared
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -301,7 +301,7 @@ PREF_GETTHEMESURL
 let
 aManager
 =
-yield
+await
 open_manager
 (
 "
@@ -388,7 +388,7 @@ theme
 aManager
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -433,7 +433,7 @@ hidden
 "
 )
 ;
-yield
+await
 close_manager
 (
 aManager

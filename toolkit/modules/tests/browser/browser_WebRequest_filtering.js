@@ -390,8 +390,8 @@ correct
 }
 add_task
 (
+async
 function
-*
 filter_urls
 (
 )
@@ -470,7 +470,7 @@ addTab
 URL
 )
 ;
-yield
+await
 waitForLoad
 (
 )
@@ -540,8 +540,8 @@ onResponseStarted
 ;
 add_task
 (
+async
 function
-*
 filter_types
 (
 )
@@ -610,7 +610,7 @@ addTab
 URL
 )
 ;
-yield
+await
 waitForLoad
 (
 )

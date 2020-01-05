@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -108,7 +108,7 @@ navbar
 "
 )
 ;
-yield
+await
 resetCustomization
 (
 )
@@ -157,8 +157,8 @@ kWidgetId
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -339,7 +339,7 @@ toolbar
 "
 )
 ;
-yield
+await
 resetCustomization
 (
 )

@@ -12,12 +12,12 @@ gLeftPaneFolderId
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -109,15 +109,15 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -157,7 +157,7 @@ TYPE_FOLDER
 let
 folderId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -206,16 +206,15 @@ gTests
 length
 )
 {
-yield
-Task
-.
-spawn
+await
 (
 gTests
 .
 shift
 (
 )
+)
+(
 )
 ;
 Object
@@ -263,7 +262,7 @@ leftPaneHierarchy
 ;
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -300,7 +299,6 @@ gTests
 =
 [
 function
-*
 test1
 (
 )
@@ -320,8 +318,8 @@ calibration
 )
 ;
 }
+async
 function
-*
 test2
 (
 )
@@ -343,7 +341,7 @@ folder
 let
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -351,7 +349,7 @@ promiseItemGuid
 gLeftPaneFolderId
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -362,8 +360,8 @@ guid
 )
 ;
 }
+async
 function
-*
 test3
 (
 )
@@ -388,7 +386,7 @@ folder
 let
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -399,7 +397,7 @@ gLeftPaneFolderId
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -416,7 +414,7 @@ index
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -429,8 +427,8 @@ guid
 )
 ;
 }
+async
 function
-*
 test4
 (
 )
@@ -449,7 +447,7 @@ AllBookmarks
 let
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -459,7 +457,7 @@ PlacesUIUtils
 allBookmarksFolderId
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -470,8 +468,8 @@ guid
 )
 ;
 }
+async
 function
-*
 test5
 (
 )
@@ -494,7 +492,7 @@ folder
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -534,7 +532,7 @@ TYPE_FOLDER
 let
 folderId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -564,8 +562,8 @@ EXPIRE_NEVER
 )
 ;
 }
+async
 function
-*
 test6
 (
 )
@@ -588,7 +586,7 @@ query
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -628,7 +626,7 @@ TYPE_FOLDER
 let
 folderId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -659,7 +657,6 @@ EXPIRE_NEVER
 ;
 }
 function
-*
 test7
 (
 )
@@ -691,7 +688,6 @@ ORGANIZER_FOLDER_ANNO
 ;
 }
 function
-*
 test8
 (
 )
@@ -724,8 +720,8 @@ ORGANIZER_QUERY_ANNO
 )
 ;
 }
+async
 function
-*
 test9
 (
 )
@@ -747,7 +743,7 @@ AllBookmarks
 let
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -760,7 +756,7 @@ allBookmarksFolderId
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -777,7 +773,7 @@ index
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks

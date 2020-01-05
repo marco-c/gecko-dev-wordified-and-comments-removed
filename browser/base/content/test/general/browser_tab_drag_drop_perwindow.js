@@ -42,8 +42,8 @@ EventUtils
 ;
 add_task
 (
+async
 function
-*
 test_dragging_private_windows
 (
 )
@@ -51,7 +51,7 @@ test_dragging_private_windows
 let
 normalWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -61,7 +61,7 @@ openNewBrowserWindow
 let
 privateWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -76,7 +76,7 @@ true
 let
 normalTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -89,7 +89,7 @@ gBrowser
 let
 privateTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -308,7 +308,7 @@ tabbrowser
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -316,7 +316,7 @@ closeWindow
 normalWin
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -329,8 +329,8 @@ privateWin
 ;
 add_task
 (
+async
 function
-*
 test_dragging_e10s_windows
 (
 )
@@ -347,7 +347,7 @@ return
 let
 remoteWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -362,7 +362,7 @@ true
 let
 nonRemoteWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -377,7 +377,7 @@ false
 let
 remoteTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -390,7 +390,7 @@ gBrowser
 let
 nonRemoteTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -613,7 +613,7 @@ tabbrowser
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -621,7 +621,7 @@ closeWindow
 remoteWin
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -634,8 +634,8 @@ nonRemoteWin
 ;
 add_task
 (
+async
 function
-*
 test_dragging_blacklisted
 (
 )
@@ -652,7 +652,7 @@ return
 let
 remoteWin1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -677,7 +677,7 @@ remoteWin1
 let
 remoteWin2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -716,7 +716,7 @@ js
 let
 blacklistedTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -769,7 +769,7 @@ BLACKLISTED_URL
 let
 otherTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -927,7 +927,7 @@ BLACKLISTED_URL
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -935,7 +935,7 @@ closeWindow
 remoteWin1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -948,8 +948,8 @@ remoteWin2
 ;
 add_task
 (
+async
 function
-*
 test_dragging_adoption_events
 (
 )
@@ -957,7 +957,7 @@ test_dragging_adoption_events
 let
 win1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -967,7 +967,7 @@ openNewBrowserWindow
 let
 win2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -977,7 +977,7 @@ openNewBrowserWindow
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -990,7 +990,7 @@ gBrowser
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1074,13 +1074,13 @@ win2
 let
 closeEvent
 =
-yield
+await
 awaitCloseEvent
 ;
 let
 openEvent
 =
-yield
+await
 awaitOpenEvent
 ;
 is
@@ -1120,7 +1120,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1128,7 +1128,7 @@ closeWindow
 win1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1141,8 +1141,8 @@ win2
 ;
 add_task
 (
+async
 function
-*
 test_dragging_zoom_handling
 (
 )
@@ -1157,7 +1157,7 @@ ZOOM_FACTOR
 let
 win1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1167,7 +1167,7 @@ openNewBrowserWindow
 let
 win2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1177,7 +1177,7 @@ openNewBrowserWindow
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1190,7 +1190,7 @@ gBrowser
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1281,7 +1281,7 @@ win1
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1324,7 +1324,7 @@ reset
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1332,7 +1332,7 @@ closeWindow
 win1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

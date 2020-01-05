@@ -5,13 +5,13 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -38,8 +38,8 @@ processCount
 )
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -371,7 +371,7 @@ value
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -443,7 +443,7 @@ addTab
 testURL
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -487,7 +487,7 @@ max_tabs_undo
 )
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -548,7 +548,7 @@ t
 throw
 "
 )
-yield
+await
 promiseTabRestored
 (
 tab

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -28,7 +28,7 @@ open
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -41,7 +41,7 @@ home
 "
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -201,7 +201,7 @@ homepage
 oldHomepagePref
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -211,7 +211,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

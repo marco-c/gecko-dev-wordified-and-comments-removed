@@ -156,13 +156,13 @@ expectedWarning
 }
 add_task
 (
+async
 function
-*
 test_manifest_themes
 (
 )
 {
-yield
+await
 test_theme_property
 (
 "
@@ -170,7 +170,7 @@ images
 "
 )
 ;
-yield
+await
 test_theme_property
 (
 "
@@ -178,7 +178,7 @@ colors
 "
 )
 ;
-yield
+await
 test_theme_property
 (
 "
@@ -186,7 +186,7 @@ icons
 "
 )
 ;
-yield
+await
 test_theme_property
 (
 "

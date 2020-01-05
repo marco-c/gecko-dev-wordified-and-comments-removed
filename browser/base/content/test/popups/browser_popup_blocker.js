@@ -87,13 +87,13 @@ perm
 }
 add_task
 (
+async
 function
-*
 test_opening_blocked_popups
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -117,7 +117,7 @@ true
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -135,7 +135,7 @@ html
 let
 notification
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -210,7 +210,7 @@ doCommand
 let
 popup_event
 =
-yield
+await
 popupShown
 ;
 let
@@ -236,10 +236,10 @@ shown
 "
 )
 ;
-yield
+await
 popupFilled
 ;
-yield
+await
 new
 Promise
 (
@@ -362,7 +362,7 @@ doCommand
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -520,13 +520,13 @@ hidePopup
 ;
 add_task
 (
+async
 function
-*
 check_icon_hides
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -550,7 +550,7 @@ true
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -581,7 +581,7 @@ button
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -642,7 +642,7 @@ current
 }
 )
 ;
-yield
+await
 otherPageLoaded
 ;
 ok
@@ -664,7 +664,7 @@ loaded
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

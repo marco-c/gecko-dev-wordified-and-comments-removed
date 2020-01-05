@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -232,14 +232,14 @@ reload
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -251,7 +251,7 @@ reload
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -557,8 +557,8 @@ promise
 }
 add_task
 (
+async
 function
-*
 amo_ping_timeout
 (
 )
@@ -585,7 +585,7 @@ PREF_METADATA_LASTUPDATE
 let
 compatWindow
 =
-yield
+await
 promise_open_compatibility_window
 (
 [
@@ -595,7 +595,7 @@ promise_open_compatibility_window
 let
 xhr
 =
-yield
+await
 pXHRStarted
 .
 promise
@@ -657,7 +657,7 @@ ServiceRequest
 =
 oldXHRConstructor
 ;
-yield
+await
 promise_window_close
 (
 compatWindow

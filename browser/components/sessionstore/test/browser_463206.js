@@ -37,8 +37,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -52,7 +52,7 @@ addTab
 TEST_URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -62,7 +62,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -71,8 +71,8 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -211,13 +211,13 @@ duplicateTab
 tab
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -226,8 +226,8 @@ tab2
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {

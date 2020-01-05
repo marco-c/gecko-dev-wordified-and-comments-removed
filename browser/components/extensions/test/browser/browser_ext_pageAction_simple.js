@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -285,14 +285,14 @@ found
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -311,7 +311,7 @@ clickPageAction
 extension
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -321,7 +321,7 @@ popup
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -334,7 +334,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }

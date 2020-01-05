@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -19,7 +19,7 @@ trimURLs
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -29,12 +29,12 @@ gBrowser
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1030,10 +1030,10 @@ com
 "
 )
 ;
-yield
+await
 promiseLoaded
 ;
-yield
+await
 testCopy
 (
 "
@@ -1065,7 +1065,7 @@ valueIsTyped
 =
 true
 ;
-yield
+await
 testCopy
 (
 "

@@ -67,8 +67,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -77,7 +77,7 @@ do_get_profile
 (
 )
 ;
-yield
+await
 File
 .
 resetWorker
@@ -132,8 +132,8 @@ total
 }
 add_task
 (
+async
 function
-*
 test_startup
 (
 )
@@ -161,7 +161,7 @@ telemetry
 .
 histogramSnapshots
 ;
-yield
+await
 File
 .
 getCurrentDirectory
@@ -266,8 +266,8 @@ sum
 ;
 add_task
 (
+async
 function
-*
 test_writeAtomic
 (
 )
@@ -307,7 +307,7 @@ tmp
 "
 )
 ;
-yield
+await
 File
 .
 writeAtomic

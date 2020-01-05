@@ -92,8 +92,8 @@ prototype
 ;
 add_task
 (
+async
 function
-*
 test_userContextId
 (
 )
@@ -101,7 +101,7 @@ test_userContextId
 let
 searchParam
 =
-yield
+await
 doSearch
 (
 "

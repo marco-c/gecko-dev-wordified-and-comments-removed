@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -34,7 +34,7 @@ iframe
 >
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -45,13 +45,13 @@ url
 :
 URL
 }
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -73,8 +73,8 @@ toSource
 (
 )
 }
+async
 function
-*
 (
 {
 is_element_hidden_
@@ -129,7 +129,7 @@ com
 /
 "
 ;
-yield
+await
 loadError
 ;
 let

@@ -5,20 +5,20 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_removeByFilter
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -55,7 +55,7 @@ random
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -68,7 +68,7 @@ Assert
 ok
 (
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -88,12 +88,8 @@ database
 let
 removeByFilterTester
 =
-Task
-.
 async
-(
 function
-*
 (
 visits
 filter
@@ -103,7 +99,7 @@ useCallback
 bookmarkedUri
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -138,7 +134,7 @@ bookmarkedUri
 )
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -232,7 +228,7 @@ size
 ;
 removed
 =
-yield
+await
 PlacesUtils
 .
 history
@@ -295,7 +291,7 @@ else
 {
 removed
 =
-yield
+await
 PlacesUtils
 .
 history
@@ -310,7 +306,7 @@ checkAfterRemove
 (
 )
 ;
-yield
+await
 promiseObserved
 ;
 if
@@ -341,7 +337,7 @@ Assert
 ok
 (
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -363,7 +359,6 @@ return
 removed
 ;
 }
-)
 ;
 const
 remoteUriList
@@ -682,8 +677,8 @@ title
 let
 assertInDB
 =
+async
 function
-*
 (
 aUri
 )
@@ -693,7 +688,7 @@ Assert
 ok
 (
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -708,8 +703,8 @@ aUri
 let
 assertNotInDB
 =
+async
 function
-*
 (
 aUri
 )
@@ -720,7 +715,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -820,7 +815,7 @@ aUri
 }
 ;
 }
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -873,7 +868,7 @@ remoteUriList
 )
 )
 ;
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -915,7 +910,7 @@ remoteUriList
 )
 )
 ;
-yield
+await
 removeByFilterTester
 (
 randomHostVisits
@@ -961,7 +956,7 @@ remoteUriList
 )
 ;
 }
-yield
+await
 removeByFilterTester
 (
 localhostVisits
@@ -995,7 +990,7 @@ assertNotInDB
 callbackUse
 )
 ;
-yield
+await
 removeByFilterTester
 (
 fileVisits
@@ -1028,7 +1023,7 @@ assertNotInDB
 callbackUse
 )
 ;
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -1077,7 +1072,7 @@ remoteUriList
 callbackUse
 )
 ;
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -1115,7 +1110,7 @@ remoteUriList
 callbackUse
 )
 ;
-yield
+await
 removeByFilterTester
 (
 randomHostVisits
@@ -1153,7 +1148,7 @@ assertInDB
 callbackUse
 )
 ;
-yield
+await
 removeByFilterTester
 (
 sameHostVisits
@@ -1209,7 +1204,7 @@ remoteUriList
 callbackUse
 )
 ;
-yield
+await
 removeByFilterTester
 (
 randomHostVisits
@@ -1271,8 +1266,8 @@ callbackUse
 ;
 add_task
 (
+async
 function
-*
 test_error_cases
 (
 )

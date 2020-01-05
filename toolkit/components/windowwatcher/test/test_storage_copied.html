@@ -199,8 +199,8 @@ true
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -251,7 +251,7 @@ a
 new
 tab
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -310,7 +310,7 @@ my_window
 let
 data
 =
-yield
+await
 waitForMessage
 (
 win

@@ -219,12 +219,12 @@ warning
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -232,7 +232,7 @@ openNewForegroundTab
 gBrowser
 )
 ;
-yield
+await
 loadBadCertPage
 (
 MIXED_CONTENT_URL
@@ -261,7 +261,7 @@ disableMixedContentProtection
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -288,7 +288,7 @@ icon
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -311,7 +311,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -380,7 +380,7 @@ com
 1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

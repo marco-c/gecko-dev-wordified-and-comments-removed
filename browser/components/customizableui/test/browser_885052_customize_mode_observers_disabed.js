@@ -33,12 +33,12 @@ fullscreen
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -84,7 +84,7 @@ command
 }
 )
 ;
-yield
+await
 shownPanelPromise
 ;
 let
@@ -108,7 +108,7 @@ command
 }
 )
 ;
-yield
+await
 hiddenPanelPromise
 ;
 let
@@ -170,7 +170,7 @@ BrowserFullScreen
 (
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -199,7 +199,7 @@ fullscreen
 .
 "
 )
-yield
+await
 startCustomizing
 (
 )
@@ -294,7 +294,7 @@ mode
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )
@@ -316,7 +316,7 @@ button
 "
 )
 ;
-yield
+await
 waitForCondition
 (
 (

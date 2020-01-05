@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -235,7 +235,7 @@ addObserver
 bmObserver
 )
 ;
-yield
+await
 promiseMigration
 (
 migrator

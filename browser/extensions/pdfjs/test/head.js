@@ -12,13 +12,13 @@ spawn
 (
 browser
 url
+async
 function
-*
 (
 contentUrl
 )
 {
-yield
+await
 new
 Promise
 (

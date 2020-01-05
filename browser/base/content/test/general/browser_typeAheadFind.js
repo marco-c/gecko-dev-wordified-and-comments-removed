@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 testWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -39,7 +39,7 @@ h1
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -51,7 +51,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -103,7 +103,7 @@ synthesizeKey
 testWindow
 )
 ;
-yield
+await
 findBarOpenPromise
 ;
 ok
@@ -120,7 +120,7 @@ initialized
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

@@ -89,8 +89,8 @@ finalize
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -251,7 +251,7 @@ title1
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -311,13 +311,13 @@ selectedBrowser
 url2
 )
 ;
-yield
+await
 loadPromise
 ;
 let
 data
 =
-yield
+await
 titleChangedPromise
 ;
 is
@@ -445,7 +445,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

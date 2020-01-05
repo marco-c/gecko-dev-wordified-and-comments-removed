@@ -37,8 +37,8 @@ notificationsCount
 =
 0
 ;
+async
 function
-*
 openWindow
 (
 url
@@ -47,7 +47,7 @@ url
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -73,7 +73,7 @@ url
 flags
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 win
@@ -196,13 +196,13 @@ notification
 }
 add_task
 (
+async
 function
-*
 test_closedObjectsChangedNotifications
 (
 )
 {
-yield
+await
 openAndCloseWindow
 (
 "
@@ -212,7 +212,7 @@ robots
 "
 )
 ;
-yield
+await
 awaitNotification
 (
 (
@@ -260,7 +260,7 @@ window
 "
 )
 ;
-yield
+await
 openAndCloseWindow
 (
 "
@@ -318,7 +318,7 @@ undoCloseWindow
 0
 )
 ;
-yield
+await
 promiseDelayedStartupFinished
 (
 win
@@ -332,7 +332,7 @@ assertNotificationCount
 let
 win2
 =
-yield
+await
 openWindow
 (
 "
@@ -352,7 +352,7 @@ windows
 "
 )
 ;
-yield
+await
 closeWindow
 (
 win
@@ -363,7 +363,7 @@ assertNotificationCount
 3
 )
 ;
-yield
+await
 closeWindow
 (
 win2
@@ -403,7 +403,7 @@ MAX_WINDOWS_UNDO_PREF
 }
 )
 ;
-yield
+await
 awaitNotification
 (
 (
@@ -437,7 +437,7 @@ window
 "
 )
 ;
-yield
+await
 awaitNotification
 (
 (
@@ -468,7 +468,7 @@ window
 "
 )
 ;
-yield
+await
 openAndCloseWindow
 (
 "
@@ -528,7 +528,7 @@ closedAt
 =
 1
 ;
-yield
+await
 promiseBrowserState
 (
 state
@@ -549,7 +549,7 @@ daily
 "
 )
 ;
-yield
+await
 awaitNotification
 (
 (
@@ -588,7 +588,7 @@ window
 "
 )
 ;
-yield
+await
 openAndCloseWindow
 (
 "
@@ -613,7 +613,7 @@ history
 "
 )
 ;
-yield
+await
 awaitNotification
 (
 (
@@ -655,7 +655,7 @@ state
 )
 win
 =
-yield
+await
 openWindow
 (
 "
@@ -665,7 +665,7 @@ mozilla
 "
 )
 ;
-yield
+await
 awaitNotification
 (
 (
@@ -696,7 +696,7 @@ countingObserver
 TOPIC
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

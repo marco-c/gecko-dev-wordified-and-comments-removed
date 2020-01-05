@@ -285,8 +285,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_prefs
 (
 )
@@ -649,8 +649,8 @@ addon2
 ;
 add_task
 (
+async
 function
-*
 test_checkForAddons_uninitWithoutCheck
 (
 )
@@ -798,8 +798,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_checkForAddons_noAddonsElement
 (
 )
@@ -829,7 +829,7 @@ GMPInstallManager
 let
 res
 =
-yield
+await
 installManager
 .
 checkForAddons
@@ -857,8 +857,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_checkForAddons_emptyAddonsElement
 (
 )
@@ -892,7 +892,7 @@ GMPInstallManager
 let
 res
 =
-yield
+await
 installManager
 .
 checkForAddons
@@ -1431,8 +1431,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_checkForAddons_singleAddon
 (
 )
@@ -1579,7 +1579,7 @@ GMPInstallManager
 let
 res
 =
-yield
+await
 installManager
 .
 checkForAddons
@@ -1715,8 +1715,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_checkForAddons_singleAddonWithSize
 (
 )
@@ -1879,7 +1879,7 @@ GMPInstallManager
 let
 res
 =
-yield
+await
 installManager
 .
 checkForAddons
@@ -2021,8 +2021,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_checkForAddons_multipleAddonNoUpdatesSomeInvalid
 (
 )
@@ -2673,7 +2673,7 @@ GMPInstallManager
 let
 res
 =
-yield
+await
 installManager
 .
 checkForAddons
@@ -2949,8 +2949,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 test_checkForAddons_updatesWithAddons
 (
 )
@@ -3247,7 +3247,7 @@ GMPInstallManager
 let
 res
 =
-yield
+await
 installManager
 .
 checkForAddons
@@ -4057,8 +4057,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_simpleCheckAndInstall_autoUpdateDisabled
 (
 )
@@ -4222,7 +4222,7 @@ GMPInstallManager
 let
 result
 =
-yield
+await
 installManager
 .
 simpleCheckAndInstall
@@ -4278,8 +4278,8 @@ OPEN_H264_ID
 ;
 add_task
 (
+async
 function
-*
 test_simpleCheckAndInstall_nothingToInstall
 (
 )
@@ -4333,7 +4333,7 @@ GMPInstallManager
 let
 result
 =
-yield
+await
 installManager
 .
 simpleCheckAndInstall
@@ -4361,8 +4361,8 @@ install
 ;
 add_task
 (
+async
 function
-*
 test_simpleCheckAndInstall_tooFrequent
 (
 )
@@ -4416,7 +4416,7 @@ GMPInstallManager
 let
 result
 =
-yield
+await
 installManager
 .
 simpleCheckAndInstall

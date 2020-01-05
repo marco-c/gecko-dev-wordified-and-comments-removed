@@ -42,8 +42,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -92,7 +92,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -112,7 +112,7 @@ HTMLAnchorElement
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -214,7 +214,7 @@ tab
 let
 newTab
 =
-yield
+await
 new
 Promise
 (
@@ -290,7 +290,7 @@ UserContextId
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -298,7 +298,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

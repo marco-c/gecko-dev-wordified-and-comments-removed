@@ -170,13 +170,13 @@ warnings
 }
 add_task
 (
+async
 function
-*
 test_manifest_commands
 (
 )
 {
-yield
+await
 testKeyword
 (
 {
@@ -191,7 +191,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -206,7 +206,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -220,7 +220,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -235,7 +235,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -250,7 +250,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -265,7 +265,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -279,7 +279,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -294,7 +294,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -309,7 +309,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -324,7 +324,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -341,7 +341,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -357,7 +357,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -374,7 +374,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -390,7 +390,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -405,7 +405,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -420,7 +420,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -434,7 +434,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -449,7 +449,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -465,7 +465,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -481,7 +481,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -498,7 +498,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -514,7 +514,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -530,7 +530,7 @@ true
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {
@@ -544,7 +544,7 @@ false
 }
 )
 ;
-yield
+await
 testKeyword
 (
 {

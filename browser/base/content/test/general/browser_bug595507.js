@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -144,7 +144,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -173,7 +173,7 @@ popupshown
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -181,8 +181,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -216,10 +216,10 @@ click
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -227,8 +227,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {

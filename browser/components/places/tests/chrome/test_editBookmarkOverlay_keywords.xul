@@ -452,9 +452,6 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
 test
 .
@@ -462,6 +459,8 @@ bind
 (
 this
 )
+)
+(
 )
 .
 catch
@@ -594,8 +593,8 @@ nsINavBookmarkObserver
 )
 ;
 }
+async
 function
-*
 test
 (
 )
@@ -645,7 +644,7 @@ i
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -695,7 +694,7 @@ i
 let
 node
 =
-yield
+await
 PlacesUIUtils
 .
 promiseNodeLikeFromFetchInfo
@@ -801,7 +800,7 @@ property
 value
 }
 =
-yield
+await
 promise
 ;
 is
@@ -857,7 +856,7 @@ i
 let
 entry
 =
-yield
+await
 PlacesUtils
 .
 keywords

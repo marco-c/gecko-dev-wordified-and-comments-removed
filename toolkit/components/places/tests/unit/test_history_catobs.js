@@ -10,8 +10,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -270,7 +270,7 @@ resolve
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -291,7 +291,7 @@ org
 )
 )
 ;
-yield
+await
 notificationsPromised
 ;
 }

@@ -84,13 +84,13 @@ keyword
 }
 add_task
 (
+async
 function
-*
 openKeywordBookmarkWithWindowOpen
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -207,7 +207,7 @@ values
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -308,7 +308,7 @@ target
 tab
 }
 =
-yield
+await
 tabCreatedPromise
 ;
 info
@@ -354,7 +354,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -396,7 +396,7 @@ tab
 "
 )
 ;
-yield
+await
 Promise
 .
 all

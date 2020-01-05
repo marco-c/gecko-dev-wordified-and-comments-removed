@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -118,10 +118,10 @@ loadURI
 dataUri
 )
 ;
-yield
+await
 loadedPromise
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -142,7 +142,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -152,8 +152,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -226,7 +226,7 @@ e
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -254,7 +254,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -272,7 +272,7 @@ resolve
 let
 msg
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -282,8 +282,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -417,7 +417,7 @@ clearUserPref
 kPrefName_AutoScroll
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus

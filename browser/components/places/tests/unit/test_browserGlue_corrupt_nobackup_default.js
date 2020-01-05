@@ -39,12 +39,12 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 createCorruptDB
 (
 )
@@ -87,7 +87,7 @@ history
 DATABASE_STATUS_CORRUPT
 )
 ;
-yield
+await
 promiseTopicObserved
 (
 "
@@ -104,7 +104,7 @@ complete
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -125,7 +125,7 @@ index
 }
 )
 ;
-yield
+await
 checkItemHasAnnotation
 (
 bm
@@ -136,7 +136,7 @@ SMART_BOOKMARKS_ANNO
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

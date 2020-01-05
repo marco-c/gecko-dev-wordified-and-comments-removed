@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 testCompleteAndPartialPatchesWithBadPartialSize
 (
 )
@@ -19,7 +19,7 @@ promptWaitTime
 0
 "
 ;
-yield
+await
 runUpdateTest
 (
 updateParams

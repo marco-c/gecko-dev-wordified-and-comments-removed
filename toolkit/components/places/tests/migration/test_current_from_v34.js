@@ -510,13 +510,13 @@ tbGuid
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 setupPlacesDatabase
 (
 "
@@ -548,7 +548,7 @@ DB_FILENAME
 let
 db
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -579,7 +579,7 @@ guid
 mobileGuid
 }
 =
-yield
+await
 insertMobileFolder
 (
 db
@@ -593,7 +593,7 @@ guid
 fxGuid
 }
 =
-yield
+await
 insertBookmark
 (
 db
@@ -642,7 +642,7 @@ guid
 dupeMobileGuid
 }
 =
-yield
+await
 insertMobileFolder
 (
 db
@@ -656,7 +656,7 @@ guid
 tbGuid
 }
 =
-yield
+await
 insertBookmark
 (
 db
@@ -682,7 +682,7 @@ dupeMobileGuid
 )
 )
 ;
-yield
+await
 db
 .
 close
@@ -694,8 +694,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 database_is_valid
 (
 )
@@ -719,7 +719,7 @@ DATABASE_STATUS_UPGRADED
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -731,7 +731,7 @@ Assert
 equal
 (
 (
-yield
+await
 db
 .
 getSchemaVersion
@@ -746,8 +746,8 @@ CURRENT_SCHEMA_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_mobile_root
 (
 )
@@ -755,7 +755,7 @@ test_mobile_root
 let
 fxBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -810,7 +810,7 @@ root
 let
 tbBmk
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -865,7 +865,7 @@ root
 let
 mobileRootId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId

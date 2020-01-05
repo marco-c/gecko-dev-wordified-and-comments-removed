@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_match_beginning
 (
 )
@@ -64,7 +64,7 @@ x
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -123,7 +123,7 @@ matchBehavior
 3
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -162,7 +162,7 @@ titles
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -201,7 +201,7 @@ urls
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -240,7 +240,7 @@ urls
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -296,7 +296,7 @@ matchBehavior
 1
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -334,7 +334,7 @@ a
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

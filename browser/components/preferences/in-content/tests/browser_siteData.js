@@ -613,12 +613,12 @@ unregister
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -641,7 +641,7 @@ true
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -650,7 +650,7 @@ gBrowser
 TEST_OFFLINE_URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -660,7 +660,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -669,7 +669,7 @@ gBrowser
 TEST_QUOTA_USAGE_URL
 )
 ;
-yield
+await
 waitForEvent
 (
 gBrowser
@@ -686,7 +686,7 @@ done
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -703,7 +703,7 @@ promiseSiteDataManagerSitesUpdated
 (
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -716,10 +716,10 @@ true
 }
 )
 ;
-yield
+await
 updatedPromise
 ;
-yield
+await
 openSiteDataSettingsDialog
 (
 )
@@ -851,7 +851,7 @@ clear
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -894,7 +894,7 @@ resolve
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -909,12 +909,12 @@ selectedTab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -944,7 +944,7 @@ promiseSiteDataManagerSitesUpdated
 (
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -957,7 +957,7 @@ true
 }
 )
 ;
-yield
+await
 updatedPromise
 ;
 let
@@ -1061,7 +1061,7 @@ updated
 "
 )
 ;
-yield
+await
 SiteDataManager
 .
 getTotalUsage
@@ -1248,7 +1248,7 @@ updated
 "
 )
 ;
-yield
+await
 SiteDataManager
 .
 getTotalUsage
@@ -1303,7 +1303,7 @@ size
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1318,12 +1318,12 @@ selectedTab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1351,7 +1351,7 @@ addPersistentStoragePerm
 TEST_QUOTA_USAGE_ORIGIN
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1360,7 +1360,7 @@ gBrowser
 TEST_QUOTA_USAGE_URL
 )
 ;
-yield
+await
 waitForEvent
 (
 gBrowser
@@ -1377,7 +1377,7 @@ done
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1387,7 +1387,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -1403,7 +1403,7 @@ true
 let
 cacheUsage
 =
-yield
+await
 cacheUsageGetter
 .
 get
@@ -1413,7 +1413,7 @@ get
 let
 quotaUsage
 =
-yield
+await
 getQuotaUsage
 (
 TEST_QUOTA_USAGE_ORIGIN
@@ -1422,7 +1422,7 @@ TEST_QUOTA_USAGE_ORIGIN
 let
 totalUsage
 =
-yield
+await
 SiteDataManager
 .
 getTotalUsage
@@ -1517,7 +1517,7 @@ doCommand
 (
 )
 ;
-yield
+await
 cancelPromise
 ;
 let
@@ -1546,7 +1546,7 @@ permission
 ;
 cacheUsage
 =
-yield
+await
 cacheUsageGetter
 .
 get
@@ -1555,7 +1555,7 @@ get
 ;
 quotaUsage
 =
-yield
+await
 getQuotaUsage
 (
 TEST_QUOTA_USAGE_ORIGIN
@@ -1563,7 +1563,7 @@ TEST_QUOTA_USAGE_ORIGIN
 ;
 totalUsage
 =
-yield
+await
 SiteDataManager
 .
 getTotalUsage
@@ -1657,10 +1657,10 @@ doCommand
 (
 )
 ;
-yield
+await
 acceptPromise
 ;
-yield
+await
 updatePromise
 ;
 mockOfflineAppCacheHelper
@@ -1669,7 +1669,7 @@ unregister
 (
 )
 ;
-yield
+await
 cookiesClearedPromise
 ;
 ok
@@ -1711,7 +1711,7 @@ permission
 ;
 cacheUsage
 =
-yield
+await
 cacheUsageGetter
 .
 get
@@ -1720,7 +1720,7 @@ get
 ;
 quotaUsage
 =
-yield
+await
 getQuotaUsage
 (
 TEST_QUOTA_USAGE_ORIGIN
@@ -1728,7 +1728,7 @@ TEST_QUOTA_USAGE_ORIGIN
 ;
 totalUsage
 =
-yield
+await
 SiteDataManager
 .
 getTotalUsage
@@ -1777,7 +1777,7 @@ removed
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1792,12 +1792,12 @@ selectedTab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1929,7 +1929,7 @@ promiseSiteDataManagerSitesUpdated
 (
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -1942,10 +1942,10 @@ true
 }
 )
 ;
-yield
+await
 updatePromise
 ;
-yield
+await
 openSiteDataSettingsDialog
 (
 )
@@ -2117,7 +2117,7 @@ unregister
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2631,12 +2631,12 @@ host
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -2813,7 +2813,7 @@ promiseSiteDataManagerSitesUpdated
 (
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -2826,10 +2826,10 @@ true
 }
 )
 ;
-yield
+await
 updatePromise
 ;
-yield
+await
 openSiteDataSettingsDialog
 (
 )
@@ -2964,7 +2964,7 @@ unregister
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

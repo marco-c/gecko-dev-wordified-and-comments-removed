@@ -83,8 +83,8 @@ png
 ;
 add_task
 (
+async
 function
-*
 test_normal
 (
 )
@@ -117,7 +117,7 @@ normal
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -125,7 +125,7 @@ addVisits
 pageURI
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -224,8 +224,8 @@ getSystemPrincipal
 ;
 add_task
 (
+async
 function
-*
 test_missing
 (
 )
@@ -250,7 +250,7 @@ missing
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -327,8 +327,8 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 test_fallback
 (
 )
@@ -381,7 +381,7 @@ root
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -429,7 +429,7 @@ png
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 ROOT_URL
@@ -445,7 +445,7 @@ icons
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -524,7 +524,7 @@ resolve
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -617,7 +617,7 @@ page
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -665,7 +665,7 @@ png
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 SUBPAGE_URL
@@ -682,7 +682,7 @@ icons
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -761,7 +761,7 @@ resolve
 }
 )
 ;
-yield
+await
 new
 Promise
 (

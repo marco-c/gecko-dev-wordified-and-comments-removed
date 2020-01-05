@@ -34,13 +34,13 @@ browser
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -68,8 +68,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_timezone
 (
 )
@@ -77,7 +77,7 @@ test_timezone
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -92,7 +92,7 @@ html
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -101,8 +101,8 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -286,7 +286,7 @@ is
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

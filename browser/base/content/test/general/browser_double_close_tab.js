@@ -225,8 +225,8 @@ callback
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -242,14 +242,14 @@ addTab
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 testTab
 TEST_PAGE
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -397,7 +397,7 @@ click
 }
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (

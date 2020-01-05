@@ -39,8 +39,8 @@ foo
 ;
 add_task
 (
+async
 function
-*
 test_addEngineWithDetails
 (
 )
@@ -73,7 +73,7 @@ enabled
 true
 )
 ;
-yield
+await
 asyncInit
 (
 )

@@ -40,15 +40,15 @@ instantApply
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 prefs
 =
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -74,7 +74,7 @@ selected
 ;
 prefs
 =
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -125,7 +125,7 @@ selected
 ;
 prefs
 =
-yield
+await
 openPreferencesViaHash
 (
 "
@@ -157,7 +157,7 @@ privacy
 ;
 prefs
 =
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -194,7 +194,7 @@ requested
 ;
 prefs
 =
-yield
+await
 openPreferencesViaHash
 (
 "
@@ -229,7 +229,7 @@ category
 ;
 prefs
 =
-yield
+await
 openPreferencesViaHash
 (
 )

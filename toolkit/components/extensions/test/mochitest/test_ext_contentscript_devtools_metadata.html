@@ -174,8 +174,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_contentscript_devtools_sandbox_metadata
 (
 )
@@ -325,7 +325,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -376,7 +376,7 @@ nsIDOMWindowUtils
 .
 currentInnerWindowID
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -502,7 +502,7 @@ id
 "
 )
 ;
-yield
+await
 extension
 .
 unload

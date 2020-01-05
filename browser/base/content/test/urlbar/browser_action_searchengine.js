@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -75,7 +75,7 @@ engine
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -138,7 +138,7 @@ clearHistory
 }
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -275,7 +275,7 @@ click
 (
 )
 ;
-yield
+await
 tabPromise
 ;
 is

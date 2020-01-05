@@ -132,8 +132,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_basic
 (
 )
@@ -154,7 +154,7 @@ directory
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -166,7 +166,7 @@ dir
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -176,7 +176,7 @@ makeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -186,7 +186,7 @@ stat
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -196,7 +196,7 @@ makeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -218,7 +218,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -274,8 +274,8 @@ becauseExists
 ;
 add_task
 (
+async
 function
-*
 test_root
 (
 )
@@ -289,7 +289,7 @@ Constants
 Win
 )
 {
-yield
+await
 OS
 .
 File
@@ -302,7 +302,7 @@ C
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -320,7 +320,7 @@ C
 }
 else
 {
-yield
+await
 OS
 .
 File
@@ -338,8 +338,8 @@ makeDir
 ;
 add_task
 (
+async
 function
-*
 test_option_from
 (
 )
@@ -366,7 +366,7 @@ c
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -378,7 +378,7 @@ dir
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -393,7 +393,7 @@ profileDir
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -403,7 +403,7 @@ stat
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -413,7 +413,7 @@ makeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -435,7 +435,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -511,7 +511,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -581,7 +581,7 @@ f
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -593,7 +593,7 @@ dir3
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -611,7 +611,7 @@ profileDir
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -666,7 +666,7 @@ g
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -678,7 +678,7 @@ dir4
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -696,7 +696,7 @@ profileDir
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File

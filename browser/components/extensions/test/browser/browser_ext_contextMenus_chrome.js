@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_actionContextMenus
 (
 )
@@ -240,7 +240,7 @@ background
 const
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -258,7 +258,7 @@ com
 "
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -268,7 +268,7 @@ startup
 const
 tabId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -296,7 +296,7 @@ browser
 const
 menu
 =
-yield
+await
 openActionContextMenu
 (
 extension
@@ -348,7 +348,7 @@ title
 const
 popup
 =
-yield
+await
 openSubmenu
 (
 submenu
@@ -508,7 +508,7 @@ item
 "
 )
 ;
-yield
+await
 closeActionContextMenu
 (
 popup
@@ -522,7 +522,7 @@ info
 tab
 }
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -573,7 +573,7 @@ correct
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -581,7 +581,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -593,8 +593,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_tabContextMenu
 (
 )
@@ -866,7 +866,7 @@ ready
 const
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -884,14 +884,14 @@ com
 "
 )
 ;
-yield
+await
 first
 .
 startup
 (
 )
 ;
-yield
+await
 second
 .
 startup
@@ -901,7 +901,7 @@ startup
 const
 tabId
 =
-yield
+await
 first
 .
 awaitMessage
@@ -911,7 +911,7 @@ ready
 "
 )
 ;
-yield
+await
 second
 .
 awaitMessage
@@ -924,7 +924,7 @@ ready
 const
 menu
 =
-yield
+await
 openTabContextMenu
 (
 )
@@ -1060,7 +1060,7 @@ correct
 const
 popup
 =
-yield
+await
 openSubmenu
 (
 submenu
@@ -1178,7 +1178,7 @@ correct
 "
 )
 ;
-yield
+await
 closeTabContextMenu
 (
 beta
@@ -1187,7 +1187,7 @@ beta
 const
 click
 =
-yield
+await
 first
 .
 awaitMessage
@@ -1257,7 +1257,7 @@ chrome
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1265,14 +1265,14 @@ removeTab
 tab
 )
 ;
-yield
+await
 first
 .
 unload
 (
 )
 ;
-yield
+await
 second
 .
 unload
@@ -1284,8 +1284,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_onclick_frameid
 (
 )
@@ -1381,7 +1381,7 @@ background
 const
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1416,14 +1416,14 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1503,7 +1503,7 @@ click
 let
 info
 =
-yield
+await
 click
 (
 "
@@ -1526,7 +1526,7 @@ click
 ;
 info
 =
-yield
+await
 click
 (
 "
@@ -1565,7 +1565,7 @@ okay
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1573,7 +1573,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 extension
 .
 unload

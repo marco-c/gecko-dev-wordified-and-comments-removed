@@ -169,8 +169,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_multiple_pages
 (
 )
@@ -792,14 +792,14 @@ storage
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -811,7 +811,7 @@ multiple
 "
 )
 ;
-yield
+await
 extension
 .
 unload

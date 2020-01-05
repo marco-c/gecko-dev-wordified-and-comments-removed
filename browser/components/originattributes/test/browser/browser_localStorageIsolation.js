@@ -45,15 +45,15 @@ toString
 (
 )
 ;
+async
 function
-*
 doTest
 (
 aBrowser
 )
 {
 return
-yield
+await
 ContentTask
 .
 spawn

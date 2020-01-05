@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testExecuteScriptAtOnUpdated
 (
 )
@@ -321,7 +321,7 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -335,7 +335,7 @@ sendMessage
 URL
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -352,7 +352,7 @@ tab
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -362,7 +362,7 @@ URL
 true
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -376,14 +376,14 @@ onUpdated
 "
 )
 ;
-yield
+await
 extension
 .
 unload
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

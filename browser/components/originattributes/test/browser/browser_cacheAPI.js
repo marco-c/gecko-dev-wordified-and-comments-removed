@@ -26,8 +26,8 @@ spawn
 (
 aBrowser
 requestURL
+async
 function
-*
 (
 url
 )
@@ -35,7 +35,7 @@ url
 let
 cache
 =
-yield
+await
 content
 .
 caches
@@ -50,7 +50,7 @@ TEST_CACHE
 let
 response
 =
-yield
+await
 cache
 .
 match
@@ -98,7 +98,7 @@ result
 }
 )
 ;
-yield
+await
 cache
 .
 put

@@ -622,8 +622,8 @@ clearUserPref
 ;
 add_task
 (
+async
 function
-*
 check_no_cert_checks
 (
 )
@@ -638,7 +638,7 @@ PREF_EM_CERT_CHECKATTRIBUTES
 false
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -660,8 +660,8 @@ backgroundUpdateCheck
 ;
 add_task
 (
+async
 function
-*
 check_wrong_cert_fingerprint
 (
 )
@@ -694,7 +694,7 @@ foo
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -731,8 +731,8 @@ sha1Fingerprint
 ;
 add_task
 (
+async
 function
-*
 check_right_cert_fingerprint
 (
 )
@@ -803,7 +803,7 @@ A2
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -840,8 +840,8 @@ sha1Fingerprint
 ;
 add_task
 (
+async
 function
-*
 check_multi_cert_fingerprint_1
 (
 )
@@ -930,7 +930,7 @@ foo
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -982,8 +982,8 @@ sha1Fingerprint
 ;
 add_task
 (
+async
 function
-*
 check_multi_cert_fingerprint_2
 (
 )
@@ -1072,7 +1072,7 @@ A2
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1124,8 +1124,8 @@ sha1Fingerprint
 ;
 add_task
 (
+async
 function
-*
 check_no_cert_no_checks
 (
 )
@@ -1156,7 +1156,7 @@ rdf
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1178,8 +1178,8 @@ backgroundUpdateCheck
 ;
 add_task
 (
+async
 function
-*
 check_no_cert_cert_fingerprint_check
 (
 )
@@ -1250,7 +1250,7 @@ A2
 "
 )
 ;
-yield
+await
 Promise
 .
 all

@@ -32,8 +32,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -101,7 +101,7 @@ loadURI
 uri
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -111,7 +111,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -140,7 +140,7 @@ replaceTabWithWindow
 tab
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -174,7 +174,7 @@ permanentKey
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -211,7 +211,7 @@ undoCloseWindow
 0
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -222,7 +222,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -278,7 +278,7 @@ page
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 win

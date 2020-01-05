@@ -475,12 +475,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -493,7 +490,7 @@ bookmark
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -563,7 +560,7 @@ context
 let
 node
 =
-yield
+await
 PlacesUIUtils
 .
 promiseNodeLikeFromFetchInfo
@@ -604,7 +601,7 @@ folderTree
 "
 )
 ;
-yield
+await
 openFolderTree
 (
 tree
@@ -651,7 +648,7 @@ selection
 /
 Cleanup
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -664,6 +661,8 @@ guid
 )
 ;
 }
+)
+(
 )
 .
 then

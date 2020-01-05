@@ -162,8 +162,8 @@ observer
 }
 add_task
 (
+async
 function
-*
 test_disable
 (
 )
@@ -185,7 +185,7 @@ hostSavingDisabled
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -206,7 +206,7 @@ LOGIN_HOST
 false
 )
 ;
-yield
+await
 promiseChanged
 ;
 is
@@ -224,7 +224,7 @@ added
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -237,8 +237,8 @@ dialog
 ;
 add_task
 (
+async
 function
-*
 test_enable
 (
 )
@@ -260,7 +260,7 @@ hostSavingEnabled
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -281,7 +281,7 @@ LOGIN_HOST
 true
 )
 ;
-yield
+await
 promiseChanged
 ;
 is
@@ -299,7 +299,7 @@ removed
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

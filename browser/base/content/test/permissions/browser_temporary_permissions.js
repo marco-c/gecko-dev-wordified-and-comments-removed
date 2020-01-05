@@ -92,8 +92,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 testTempPermissionChangeEvents
 (
 )
@@ -115,7 +115,7 @@ id
 geo
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -124,7 +124,6 @@ uri
 .
 spec
 function
-*
 (
 browser
 )
@@ -252,8 +251,8 @@ visible
 ;
 add_task
 (
+async
 function
-*
 testTempPermissionSubframes
 (
 )
@@ -275,14 +274,14 @@ id
 geo
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
 (
 SUBFRAME_PAGE
+async
 function
-*
 (
 browser
 )
@@ -302,7 +301,7 @@ popupshown
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -380,7 +379,7 @@ click
 }
 )
 ;
-yield
+await
 popupshown
 ;
 let
@@ -418,7 +417,7 @@ secondaryButton
 }
 )
 ;
-yield
+await
 popuphidden
 ;
 Assert

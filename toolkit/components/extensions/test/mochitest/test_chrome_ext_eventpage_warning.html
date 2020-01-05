@@ -318,8 +318,8 @@ html
 }
 add_task
 (
+async
 function
-*
 test_eventpages
 (
 )
@@ -507,7 +507,7 @@ let
 x
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -550,7 +550,7 @@ complete
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -572,7 +572,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 waitForConsole
@@ -669,7 +669,7 @@ complete
 x
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -712,7 +712,7 @@ complete
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -734,7 +734,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }

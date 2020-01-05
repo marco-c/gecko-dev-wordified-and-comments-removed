@@ -38,8 +38,8 @@ window
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -112,7 +112,7 @@ addTab
 URL_PUBLIC
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab1
@@ -138,7 +138,7 @@ addTab
 (
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab2
@@ -146,7 +146,7 @@ tab2
 linkedBrowser
 )
 ;
-yield
+await
 setUsePrivateBrowsing
 (
 tab2
@@ -164,7 +164,7 @@ loadURI
 URL_PRIVATE
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab2
@@ -187,7 +187,7 @@ data
 "
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -197,7 +197,7 @@ tab1
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -219,7 +219,7 @@ state
 let
 state
 =
-yield
+await
 promiseRecoveryFileContents
 (
 )
@@ -375,8 +375,8 @@ tab2
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -413,7 +413,7 @@ forgetClosedWindows
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -461,13 +461,13 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -549,13 +549,13 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -589,7 +589,7 @@ private
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -618,8 +618,8 @@ restore
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -630,7 +630,7 @@ forgetClosedWindows
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 {
@@ -663,13 +663,13 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -733,7 +733,7 @@ restore
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

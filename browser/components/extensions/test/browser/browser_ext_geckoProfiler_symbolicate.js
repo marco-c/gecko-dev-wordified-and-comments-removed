@@ -212,8 +212,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 testProfilerControl
 (
 )
@@ -293,14 +293,14 @@ getExtension
 (
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -310,7 +310,7 @@ symbolicated
 "
 )
 ;
-yield
+await
 extension
 .
 unload

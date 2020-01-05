@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 invalid_input_throws
 (
 )
@@ -410,15 +410,15 @@ url
 ;
 add_task
 (
+async
 function
-*
 remove_nonexistent_guid
 (
 )
 {
 try
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -478,8 +478,8 @@ ex
 ;
 add_task
 (
+async
 function
-*
 remove_roots_fail
 (
 )
@@ -564,8 +564,8 @@ folders
 ;
 add_task
 (
+async
 function
-*
 remove_normal_folder_under_root_succeeds
 (
 )
@@ -573,7 +573,7 @@ remove_normal_folder_under_root_succeeds
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -606,7 +606,7 @@ folder
 let
 removed_folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -629,7 +629,7 @@ Assert
 strictEqual
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -649,8 +649,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 remove_bookmark
 (
 )
@@ -658,7 +658,7 @@ remove_bookmark
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -709,7 +709,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -823,8 +823,8 @@ bookmark
 ;
 add_task
 (
+async
 function
-*
 remove_bookmark_orphans
 (
 )
@@ -832,7 +832,7 @@ remove_bookmark_orphans
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -887,7 +887,7 @@ annotations
 setItemAnnotation
 (
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -910,7 +910,7 @@ testvalue
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -930,7 +930,7 @@ bm2
 let
 conn
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -940,7 +940,7 @@ promiseDBConnection
 let
 annoAttrs
 =
-yield
+await
 conn
 .
 execute
@@ -985,7 +985,7 @@ MOBILE_ROOT_ANNO
 let
 annos
 =
-yield
+await
 conn
 .
 execute
@@ -1060,8 +1060,8 @@ id
 ;
 add_task
 (
+async
 function
-*
 remove_bookmark_empty_title
 (
 )
@@ -1069,7 +1069,7 @@ remove_bookmark_empty_title
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1118,7 +1118,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1172,8 +1172,8 @@ bm2
 ;
 add_task
 (
+async
 function
-*
 remove_folder
 (
 )
@@ -1181,7 +1181,7 @@ remove_folder
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1220,7 +1220,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1327,8 +1327,8 @@ bm2
 ;
 add_task
 (
+async
 function
-*
 test_nested_contents_removed
 (
 )
@@ -1336,7 +1336,7 @@ test_nested_contents_removed
 let
 folder1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1370,7 +1370,7 @@ folder
 let
 folder2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1402,7 +1402,7 @@ folder
 let
 sep
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1425,7 +1425,7 @@ TYPE_SEPARATOR
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1440,7 +1440,7 @@ Assert
 strictEqual
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1460,7 +1460,7 @@ Assert
 strictEqual
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1480,7 +1480,7 @@ Assert
 strictEqual
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1500,8 +1500,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 remove_folder_empty_title
 (
 )
@@ -1509,7 +1509,7 @@ remove_folder_empty_title
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1546,7 +1546,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1600,8 +1600,8 @@ bm2
 ;
 add_task
 (
+async
 function
-*
 remove_separator
 (
 )
@@ -1609,7 +1609,7 @@ remove_separator
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1642,7 +1642,7 @@ bm1
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1750,8 +1750,8 @@ bm2
 ;
 add_task
 (
+async
 function
-*
 test_nested_content_fails_when_not_allowed
 (
 )
@@ -1759,7 +1759,7 @@ test_nested_content_fails_when_not_allowed
 let
 folder1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1790,7 +1790,7 @@ folder
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1819,7 +1819,7 @@ folder
 }
 )
 ;
-yield
+await
 Assert
 .
 rejects

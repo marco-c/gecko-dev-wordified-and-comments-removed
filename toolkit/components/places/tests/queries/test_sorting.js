@@ -1603,7 +1603,7 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_VISITCOUNT_ASCENDING
-*
+async
 setup
 (
 )
@@ -1875,7 +1875,7 @@ _unsortedData
 ]
 ]
 ;
-yield
+await
 task_populateDB
 (
 this
@@ -1883,7 +1883,7 @@ this
 _unsortedData
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -5993,8 +5993,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_sorting
 (
 )
@@ -6007,14 +6007,14 @@ of
 tests
 )
 {
-yield
+await
 test
 .
 setup
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -6033,7 +6033,7 @@ check_reverse
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -6042,7 +6042,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

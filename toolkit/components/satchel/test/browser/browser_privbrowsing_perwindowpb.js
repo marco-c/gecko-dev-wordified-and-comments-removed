@@ -30,8 +30,8 @@ FormHistory
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -69,8 +69,8 @@ subtst_privbrowsing
 html
 "
 ;
+async
 function
-*
 doTest
 (
 aShouldValueExist
@@ -94,7 +94,7 @@ browser
 testURI
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -102,7 +102,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -248,7 +248,7 @@ resolve
 }
 )
 ;
-yield
+await
 doneCounting
 .
 promise
@@ -289,7 +289,7 @@ win
 )
 ;
 }
-yield
+await
 testOnWindow
 (
 {
@@ -308,9 +308,6 @@ aWin
 >
 {
 return
-Task
-.
-spawn
 (
 doTest
 (
@@ -318,11 +315,13 @@ false
 aWin
 )
 )
+(
+)
 ;
 }
 )
 ;
-yield
+await
 testOnWindow
 (
 {
@@ -338,9 +337,6 @@ aWin
 >
 {
 return
-Task
-.
-spawn
 (
 doTest
 (
@@ -348,11 +344,13 @@ true
 aWin
 )
 )
+(
+)
 ;
 }
 )
 ;
-yield
+await
 Promise
 .
 all

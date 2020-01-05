@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -49,7 +49,7 @@ great
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -65,7 +65,7 @@ title
 ]
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -142,7 +142,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promisePopupHidden
 (
 gURLBar

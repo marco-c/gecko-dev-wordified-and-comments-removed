@@ -93,8 +93,8 @@ Ci
 nsIPrefBranch
 )
 ;
+async
 function
-*
 task_add_normalized_visit
 (
 aURI
@@ -222,7 +222,7 @@ at
 timeInMs
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2536,8 +2536,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_history_sidebar
 (
 )
@@ -2567,7 +2567,7 @@ getMinutes
 return
 ;
 }
-yield
+await
 task_fill_history
 (
 )
@@ -2584,7 +2584,7 @@ test_RESULTS_AS_SITE_QUERY
 (
 )
 ;
-yield
+await
 task_test_date_liveupdate
 (
 Ci
@@ -2594,7 +2594,7 @@ nsINavHistoryQueryOptions
 RESULTS_AS_DATE_SITE_QUERY
 )
 ;
-yield
+await
 task_test_date_liveupdate
 (
 Ci

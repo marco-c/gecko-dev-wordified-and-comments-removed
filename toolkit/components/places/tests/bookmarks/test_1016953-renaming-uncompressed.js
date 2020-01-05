@@ -10,8 +10,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_same_date_same_hash
 (
 )
@@ -19,7 +19,7 @@ test_same_date_same_hash
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -55,7 +55,7 @@ count
 hash
 }
 =
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -116,7 +116,7 @@ backupFolder
 filename
 )
 ;
-yield
+await
 OS
 .
 File
@@ -127,7 +127,7 @@ tempPath
 backupFile
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -137,7 +137,7 @@ create
 let
 mostRecentBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -188,7 +188,7 @@ UTF
 let
 result
 =
-yield
+await
 OS
 .
 File
@@ -228,7 +228,7 @@ parse
 jsonString
 )
 ;
-yield
+await
 OS
 .
 File
@@ -238,7 +238,7 @@ remove
 backupFile
 )
 ;
-yield
+await
 OS
 .
 File
@@ -259,8 +259,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_same_date_diff_hash
 (
 )
@@ -268,7 +268,7 @@ test_same_date_diff_hash
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -303,7 +303,7 @@ let
 count
 }
 =
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -361,7 +361,7 @@ backupFolder
 filename
 )
 ;
-yield
+await
 OS
 .
 File
@@ -372,7 +372,7 @@ tempPath
 backupFile
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -382,7 +382,7 @@ create
 let
 mostRecentBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -425,7 +425,7 @@ UTF
 let
 result
 =
-yield
+await
 OS
 .
 File
@@ -472,7 +472,7 @@ parse
 jsonString
 )
 ;
-yield
+await
 OS
 .
 File
@@ -482,7 +482,7 @@ remove
 mostRecentBackupFile
 )
 ;
-yield
+await
 OS
 .
 File
@@ -503,8 +503,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_diff_date_same_hash
 (
 )
@@ -512,7 +512,7 @@ test_diff_date_same_hash
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -548,7 +548,7 @@ count
 hash
 }
 =
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -665,7 +665,7 @@ backupFolder
 newFilename
 )
 ;
-yield
+await
 OS
 .
 File
@@ -676,7 +676,7 @@ tempPath
 backupFile
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -686,7 +686,7 @@ create
 let
 mostRecentBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -701,7 +701,7 @@ mostRecentBackupFile
 newBackupFile
 )
 ;
-yield
+await
 OS
 .
 File
@@ -711,7 +711,7 @@ remove
 mostRecentBackupFile
 )
 ;
-yield
+await
 OS
 .
 File

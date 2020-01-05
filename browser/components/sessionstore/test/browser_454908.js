@@ -30,8 +30,8 @@ random
 ;
 add_task
 (
+async
 function
-*
 test_dont_save_passwords
 (
 )
@@ -68,7 +68,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -87,7 +87,7 @@ random
 (
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -103,7 +103,7 @@ usernameValue
 }
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -119,7 +119,7 @@ PASS
 }
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -141,7 +141,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -150,7 +150,7 @@ tab
 let
 username
 =
-yield
+await
 getInputValue
 (
 browser
@@ -179,7 +179,7 @@ restored
 let
 passwd
 =
-yield
+await
 getInputValue
 (
 browser
@@ -208,12 +208,12 @@ restored
 "
 )
 ;
-yield
+await
 forceSaveState
 (
 )
 ;
-yield
+await
 promiseForEachSessionRestoreFile
 (
 (

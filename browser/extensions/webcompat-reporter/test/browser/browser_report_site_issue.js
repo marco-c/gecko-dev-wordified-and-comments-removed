@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_screenshot
 (
 )
@@ -11,7 +11,7 @@ requestLongerTimeout
 2
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -31,7 +31,7 @@ NEW_ISSUE_PAGE
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -40,7 +40,7 @@ gBrowser
 TEST_PAGE
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -95,10 +95,10 @@ click
 let
 tab2
 =
-yield
+await
 newTabPromise
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForContentEvent
@@ -114,7 +114,7 @@ null
 true
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -244,7 +244,7 @@ postMessaged
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -252,7 +252,7 @@ removeTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

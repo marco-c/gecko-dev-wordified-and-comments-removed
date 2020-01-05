@@ -59,8 +59,8 @@ Another
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -131,7 +131,7 @@ loadURI
 PAGE_2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -152,7 +152,7 @@ remoteness
 "
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -238,15 +238,15 @@ currentURI
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 PAGE_2
+async
 function
-*
 (
 expectedURL
 )
@@ -285,7 +285,7 @@ currentURI
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

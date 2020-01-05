@@ -180,8 +180,8 @@ null
 }
 add_task
 (
+async
 function
-*
 blockRepoShutdown
 (
 )
@@ -237,7 +237,7 @@ promiseShutdownManager
 (
 )
 ;
-yield
+await
 mockProvider
 .
 shutdownPromise
@@ -306,7 +306,7 @@ doneResolve
 (
 )
 ;
-yield
+await
 mockRepo
 .
 shutdownPromise
@@ -389,7 +389,7 @@ doneResolve
 (
 )
 ;
-yield
+await
 managerDown
 ;
 status

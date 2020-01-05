@@ -70,8 +70,8 @@ browser2
 ;
 add_task
 (
+async
 function
-*
 reallyRunTests
 (
 )
@@ -79,7 +79,7 @@ reallyRunTests
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -110,7 +110,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -610,12 +610,12 @@ sendGetBackgroundRequest
 true
 )
 ;
-yield
+await
 testFinished
 .
 promise
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -623,7 +623,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -59,13 +59,13 @@ Another
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -105,8 +105,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_revive_bg_tabs_on_demand
 (
 )
@@ -151,7 +151,7 @@ newTab2
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -159,7 +159,7 @@ browserLoaded
 browser1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -167,7 +167,7 @@ browserLoaded
 browser2
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -188,7 +188,7 @@ SSWindowStateReady
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 crashBrowser
@@ -236,7 +236,7 @@ crashed
 "
 )
 ;
-yield
+await
 windowReady
 ;
 ok
@@ -272,7 +272,7 @@ selectedTab
 =
 newTab2
 ;
-yield
+await
 newTab2Restored
 ;
 ok
@@ -289,7 +289,7 @@ remote
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -297,7 +297,7 @@ removeTab
 newTab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

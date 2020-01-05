@@ -29,8 +29,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_bookmarks_html_singleframe
 (
 )
@@ -56,7 +56,7 @@ html
 "
 )
 ;
-yield
+await
 BookmarkHTMLUtils
 .
 importFromFile

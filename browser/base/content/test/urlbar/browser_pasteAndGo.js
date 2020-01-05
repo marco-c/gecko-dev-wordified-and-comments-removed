@@ -30,8 +30,8 @@ nsIClipboardHelper
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -87,7 +87,7 @@ of
 kURLs
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -97,8 +97,8 @@ about
 :
 blank
 "
+async
 function
-*
 (
 browser
 )
@@ -109,7 +109,7 @@ focus
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -233,7 +233,7 @@ button
 }
 )
 ;
-yield
+await
 cxmenuPromise
 ;
 let
@@ -303,7 +303,7 @@ toSource
 )
 )
 ;
-yield
+await
 browserLoadedPromise
 ;
 ok

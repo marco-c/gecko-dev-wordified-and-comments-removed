@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -22,7 +22,7 @@ Foo
 var
 contextMenu
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -175,7 +175,7 @@ url
 let
 searchDonePromise
 ;
-yield
+await
 new
 Promise
 (
@@ -398,7 +398,7 @@ XUL
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -420,7 +420,7 @@ test
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -430,8 +430,8 @@ tab
 linkedBrowser
 "
 "
+async
 function
-*
 (
 )
 {
@@ -531,7 +531,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupPromise
 ;
 info
@@ -618,7 +618,7 @@ enabled
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -704,7 +704,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 new
 Promise
 (

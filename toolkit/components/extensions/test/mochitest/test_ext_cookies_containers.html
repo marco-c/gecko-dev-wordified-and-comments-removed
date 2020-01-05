@@ -218,8 +218,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -262,8 +262,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_cookie_containers
 (
 )
@@ -828,14 +828,14 @@ org
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -845,7 +845,7 @@ cookies
 "
 )
 ;
-yield
+await
 extension
 .
 unload

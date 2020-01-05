@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_storing_a_normal_16x16_icon
 (
 )
@@ -19,7 +19,7 @@ places
 test
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -27,7 +27,7 @@ addVisits
 PAGE_URL
 )
 ;
-yield
+await
 setFaviconForPage
 (
 PAGE_URL
@@ -48,7 +48,7 @@ data
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 withConnectionWrapper
@@ -89,7 +89,7 @@ data
 mimeType
 }
 =
-yield
+await
 getFaviconDataForPage
 (
 PAGE_URL
@@ -144,7 +144,7 @@ favicon
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 PAGE_URL
@@ -152,7 +152,7 @@ SMALLPNG_DATA_URI
 false
 )
 ;
-yield
+await
 compareFavicons
 (
 "

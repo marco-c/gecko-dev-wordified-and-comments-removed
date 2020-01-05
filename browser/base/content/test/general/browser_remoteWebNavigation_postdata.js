@@ -83,8 +83,8 @@ stream
 }
 add_task
 (
+async
 function
-*
 test_remoteWebNavigation_postdata
 (
 )
@@ -340,12 +340,12 @@ postdata
 )
 )
 ;
-yield
+await
 loadDeferred
 .
 promise
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -381,7 +381,7 @@ resolve
 }
 )
 ;
-yield
+await
 serverStoppedDeferred
 .
 promise

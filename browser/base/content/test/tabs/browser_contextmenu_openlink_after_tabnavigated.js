@@ -31,8 +31,8 @@ tabs
 ;
 add_task
 (
+async
 function
-*
 test_contextmenu_openlink_after_tabnavigated
 (
 )
@@ -51,7 +51,7 @@ html
 const
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -85,7 +85,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -110,7 +110,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 awaitPopupShown
 ;
 info
@@ -148,7 +148,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -233,7 +233,7 @@ opened
 const
 newTab
 =
-yield
+await
 awaitNewTabOpen
 ;
 contextMenu
@@ -242,7 +242,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -255,7 +255,7 @@ linkedBrowser
 const
 newTabURL
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -264,8 +264,8 @@ newTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -305,7 +305,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -313,7 +313,7 @@ removeTab
 newTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

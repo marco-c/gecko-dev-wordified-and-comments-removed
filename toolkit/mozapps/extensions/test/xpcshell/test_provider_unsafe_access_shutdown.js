@@ -142,8 +142,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 unsafeProviderShutdown
 (
 )
@@ -191,7 +191,7 @@ shutdownPromise
 =
 null
 ;
-yield
+await
 new
 Promise
 (
@@ -246,7 +246,7 @@ promiseShutdownManager
 }
 )
 ;
-yield
+await
 shutdownPromise
 ;
 equal

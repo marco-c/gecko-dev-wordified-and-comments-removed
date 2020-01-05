@@ -1055,8 +1055,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1107,7 +1107,7 @@ validate
 }
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 exportToFile
@@ -1133,7 +1133,7 @@ clean
 }
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
@@ -1160,7 +1160,7 @@ validate
 }
 )
 ;
-yield
+await
 OS
 .
 File

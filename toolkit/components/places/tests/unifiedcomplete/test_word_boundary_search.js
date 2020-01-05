@@ -32,8 +32,8 @@ u5802
 ;
 add_task
 (
+async
 function
-*
 test_escape
 (
 )
@@ -232,7 +232,7 @@ pleaseMatchMe
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -366,7 +366,7 @@ title1
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -388,7 +388,7 @@ matchme2
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -446,7 +446,7 @@ CamelCase
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -534,7 +534,7 @@ after
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -616,7 +616,7 @@ CamelCase
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -720,7 +720,7 @@ after
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -853,7 +853,7 @@ boundaries
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -911,7 +911,7 @@ everything
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1104,7 +1104,7 @@ boundaries
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1165,7 +1165,7 @@ beginning
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1214,7 +1214,7 @@ word
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1263,7 +1263,7 @@ word
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1313,7 +1313,7 @@ word
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1362,7 +1362,7 @@ middle
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1401,7 +1401,7 @@ bug
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1433,7 +1433,7 @@ matchBehavior
 1
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1551,7 +1551,7 @@ title1
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

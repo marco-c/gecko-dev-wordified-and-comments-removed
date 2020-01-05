@@ -17,8 +17,8 @@ kTimeoutInMS
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -121,7 +121,7 @@ enlarge
 (
 )
 ;
-yield
+await
 labelUpdatePromise
 ;
 info
@@ -248,7 +248,7 @@ click
 (
 )
 ;
-yield
+await
 zoomResetPromise
 ;
 pageZoomLevel
@@ -308,8 +308,8 @@ hidden
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -402,7 +402,7 @@ enlarge
 (
 )
 ;
-yield
+await
 zoomChangePromise
 ;
 is
@@ -455,8 +455,8 @@ label
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )

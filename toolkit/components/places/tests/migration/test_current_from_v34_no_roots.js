@@ -1,12 +1,12 @@
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 setupPlacesDatabase
 (
 "
@@ -38,7 +38,7 @@ DB_FILENAME
 let
 db
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -48,7 +48,7 @@ path
 }
 )
 ;
-yield
+await
 db
 .
 execute
@@ -60,7 +60,7 @@ moz_bookmarks
 "
 )
 ;
-yield
+await
 db
 .
 close
@@ -72,8 +72,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 database_is_valid
 (
 )
@@ -97,7 +97,7 @@ DATABASE_STATUS_UPGRADED
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -109,7 +109,7 @@ Assert
 equal
 (
 (
-yield
+await
 db
 .
 getSchemaVersion

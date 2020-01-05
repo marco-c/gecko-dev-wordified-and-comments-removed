@@ -19,8 +19,8 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 (
 )
 {
@@ -69,14 +69,14 @@ hidden
 "
 )
 ;
-yield
+await
 gContentAPI
 .
 forceShowReaderIcon
 (
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 (

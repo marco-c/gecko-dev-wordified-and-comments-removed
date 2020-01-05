@@ -426,8 +426,8 @@ source
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -672,7 +672,7 @@ test
 '
 )
 ;
-yield
+await
 watchLinksChangeOnce
 (
 )
@@ -775,7 +775,7 @@ BrowserOpenTab
 (
 )
 ;
-yield
+await
 waitForTransitionEnd
 (
 )

@@ -15,13 +15,13 @@ requestCompleteLog
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -70,8 +70,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 getFeedItem
 (
 )
@@ -142,8 +142,8 @@ handlersView
 )
 add_task
 (
+async
 function
-*
 selectInternalOptionForFeed
 (
 )
@@ -183,7 +183,7 @@ item
 let
 list
 =
-yield
+await
 waitForCondition
 (
 (
@@ -299,7 +299,7 @@ cmdEvent
 ;
 list
 =
-yield
+await
 waitForCondition
 (
 (
@@ -388,8 +388,8 @@ one
 ;
 add_task
 (
+async
 function
-*
 reselectInternalOptionForFeed
 (
 )
@@ -422,7 +422,7 @@ selectItem
 anotherItem
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -467,7 +467,7 @@ feedItem
 let
 list
 =
-yield
+await
 waitForCondition
 (
 (

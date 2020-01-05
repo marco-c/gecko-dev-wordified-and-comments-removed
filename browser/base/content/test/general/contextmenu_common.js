@@ -1844,8 +1844,8 @@ lastElementSelector
 =
 null
 ;
+async
 function
-*
 test_contextmenu
 (
 selector
@@ -1913,7 +1913,7 @@ options
 skipFocusChange
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -1925,8 +1925,8 @@ selectedBrowser
 lastElementSelector
 selector
 ]
+async
 function
-*
 (
 [
 contentLastElementSelector
@@ -2001,7 +2001,7 @@ options
 preCheckContextMenuFn
 )
 {
-yield
+await
 options
 .
 preCheckContextMenuFn
@@ -2034,7 +2034,7 @@ check
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2043,8 +2043,8 @@ gBrowser
 .
 selectedBrowser
 selector
+async
 function
-*
 (
 contentSelector
 )
@@ -2087,7 +2087,7 @@ querySelector
 contentSelector
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -2127,7 +2127,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -2170,7 +2170,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 awaitPopupShown
 ;
 info
@@ -2188,7 +2188,7 @@ options
 onContextMenuShown
 )
 {
-yield
+await
 options
 .
 onContextMenuShown
@@ -2354,7 +2354,7 @@ options
 postCheckContextMenuFn
 )
 {
-yield
+await
 options
 .
 postCheckContextMenuFn
@@ -2376,7 +2376,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 awaitPopupHidden
 ;
 }

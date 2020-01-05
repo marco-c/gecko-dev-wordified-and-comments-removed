@@ -4,8 +4,8 @@ strict
 "
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -50,7 +50,7 @@ com
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -110,7 +110,7 @@ tag1
 let
 library
 =
-yield
+await
 promiseLibrary
 (
 )
@@ -124,12 +124,12 @@ PlacesOrganizer
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseLibraryClosed
 (
 library
@@ -234,7 +234,7 @@ enabled
 "
 )
 ;
-yield
+await
 withBookmarksDialog
 (
 true
@@ -257,8 +257,8 @@ info
 )
 ;
 }
+async
 function
-*
 test
 (
 dialogWin
@@ -374,7 +374,7 @@ tag2
 dialogWin
 )
 ;
-yield
+await
 promiseTitleChangeNotification
 ;
 is

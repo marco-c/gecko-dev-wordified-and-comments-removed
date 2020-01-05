@@ -1473,8 +1473,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -1507,7 +1507,7 @@ performance
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1537,7 +1537,7 @@ addTab
 URL
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1555,12 +1555,8 @@ frameScript
 var
 promiseExpectContent
 =
-Task
-.
 async
-(
 function
-*
 (
 options
 )
@@ -1597,7 +1593,7 @@ i
 i
 )
 {
-yield
+await
 new
 Promise
 (
@@ -1611,7 +1607,7 @@ resolve
 )
 )
 ;
-yield
+await
 promiseContentResponse
 (
 gTabContent
@@ -1634,7 +1630,7 @@ mode
 }
 =
 (
-yield
+await
 promiseContentResponse
 (
 gTabAboutPerformance
@@ -1724,7 +1720,7 @@ ok
 error
 }
 =
-yield
+await
 promiseContentResponse
 (
 gTabAboutPerformance
@@ -1797,12 +1793,11 @@ return
 false
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 test_find_title
 (
 )
@@ -1841,7 +1836,7 @@ mode
 let
 found
 =
-yield
+await
 promiseExpectContent
 (
 {
@@ -1879,8 +1874,8 @@ refresh
 ;
 add_task
 (
+async
 function
-*
 test_close_tab
 (
 )
@@ -2101,7 +2096,7 @@ addTab
 URL
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2137,7 +2132,7 @@ close
 ;
 do
 {
-yield
+await
 new
 Promise
 (
@@ -2151,7 +2146,7 @@ resolve
 )
 )
 ;
-yield
+await
 promiseContentResponse
 (
 tab
@@ -2174,7 +2169,7 @@ found
 error
 }
 =
-yield
+await
 promiseContentResponse
 (
 gTabAboutPerformance
@@ -2278,7 +2273,7 @@ for
 close
 )
 ;
-yield
+await
 promiseClosed
 ;
 }
@@ -2291,10 +2286,10 @@ for
 reload
 )
 ;
-yield
+await
 promiseReloaded
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2310,8 +2305,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
@@ -2324,7 +2319,7 @@ up
 "
 )
 ;
-yield
+await
 promiseContentResponse
 (
 gTabAboutPerformance
@@ -2358,7 +2353,7 @@ gBrowser
 tabs
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab

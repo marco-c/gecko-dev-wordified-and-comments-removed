@@ -14,8 +14,8 @@ config
 ;
 add_task
 (
+async
 function
-*
 test_set_tabstate
 (
 )
@@ -69,7 +69,7 @@ key
 value
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -77,7 +77,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -228,8 +228,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_set_tabstate_and_duplicate
 (
 )
@@ -314,7 +314,7 @@ state
 )
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -358,7 +358,7 @@ restored
 "
 )
 ;
-yield
+await
 setInputValue
 (
 tab
@@ -387,7 +387,7 @@ window
 tab
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -431,7 +431,7 @@ state
 let
 textbox
 =
-yield
+await
 getInputValue
 (
 tab2

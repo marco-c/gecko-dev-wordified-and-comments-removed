@@ -214,7 +214,6 @@ win
 registerCleanupFunction
 (
 function
-*
 cleanUp
 (
 )
@@ -237,8 +236,8 @@ init
 )
 ;
 }
+async
 function
-*
 portalDetected
 (
 )
@@ -259,7 +258,7 @@ login
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -297,8 +296,8 @@ detected
 )
 ;
 }
+async
 function
-*
 freePortal
 (
 aSuccess
@@ -333,7 +332,7 @@ abort
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -371,8 +370,8 @@ freed
 )
 ;
 }
+async
 function
-*
 focusWindowAndWaitForPortalUI
 (
 aLongRecheck
@@ -404,7 +403,7 @@ win
 {
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -412,7 +411,7 @@ openNewBrowserWindow
 )
 ;
 }
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -420,7 +419,7 @@ promiseFocus
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -524,7 +523,7 @@ spec
 CANONICAL_URL
 )
 {
-yield
+await
 BrowserTestUtils
 .
 waitForLocationChange
@@ -863,8 +862,8 @@ visible
 )
 ;
 }
+async
 function
-*
 closeWindowAndWaitForXulWindowVisible
 (
 win
@@ -877,7 +876,7 @@ waitForXulWindowVisible
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -885,12 +884,12 @@ closeWindow
 win
 )
 ;
-yield
+await
 p
 ;
 }
+async
 function
-*
 openWindowAndWaitForFocus
 (
 )
@@ -898,14 +897,14 @@ openWindowAndWaitForFocus
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
 (
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 tags_getter_setter
 (
 )
@@ -215,8 +215,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 invalid_setter_calls
 (
 )
@@ -614,8 +614,8 @@ exc
 ;
 add_task
 (
+async
 function
-*
 not_setting_tags
 (
 )
@@ -645,8 +645,8 @@ checkQueryURI
 ;
 add_task
 (
+async
 function
-*
 empty_array_tags
 (
 )
@@ -679,8 +679,8 @@ checkQueryURI
 ;
 add_task
 (
+async
 function
-*
 set_tags
 (
 )
@@ -758,8 +758,8 @@ so
 ;
 add_task
 (
+async
 function
-*
 no_tags_tagsAreNot
 (
 )
@@ -796,8 +796,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 empty_array_tags_tagsAreNot
 (
 )
@@ -836,8 +836,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -921,8 +921,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 tag_to_uri
 (
 )
@@ -948,7 +948,7 @@ URI
 "
 )
 ;
-yield
+await
 task_doWithVisit
 (
 [
@@ -1051,8 +1051,8 @@ spec
 ;
 add_task
 (
+async
 function
-*
 tags_to_uri
 (
 )
@@ -1079,7 +1079,7 @@ URI
 "
 )
 ;
-yield
+await
 task_doWithVisit
 (
 [
@@ -1222,8 +1222,8 @@ spec
 ;
 add_task
 (
+async
 function
-*
 repeated_tag
 (
 )
@@ -1250,7 +1250,7 @@ matter
 "
 )
 ;
-yield
+await
 task_doWithVisit
 (
 [
@@ -1346,8 +1346,8 @@ spec
 ;
 add_task
 (
+async
 function
-*
 many_tags_no_uri
 (
 )
@@ -1382,7 +1382,7 @@ URI
 "
 )
 ;
-yield
+await
 task_doWithVisit
 (
 [
@@ -1494,8 +1494,8 @@ opts
 ;
 add_task
 (
+async
 function
-*
 nonexistent_tags
 (
 )
@@ -1515,7 +1515,7 @@ results
 "
 )
 ;
-yield
+await
 task_doWithVisit
 (
 [
@@ -1590,8 +1590,8 @@ opts
 ;
 add_task
 (
+async
 function
-*
 tag_to_bookmark
 (
 )
@@ -1617,7 +1617,7 @@ URI
 "
 )
 ;
-yield
+await
 task_doWithBookmark
 (
 [
@@ -1744,8 +1744,8 @@ spec
 ;
 add_task
 (
+async
 function
-*
 many_tags_to_bookmark
 (
 )
@@ -1772,7 +1772,7 @@ URI
 "
 )
 ;
-yield
+await
 task_doWithBookmark
 (
 [
@@ -1947,8 +1947,8 @@ spec
 ;
 add_task
 (
+async
 function
-*
 repeated_tag_to_bookmarks
 (
 )
@@ -1975,7 +1975,7 @@ matter
 "
 )
 ;
-yield
+await
 task_doWithBookmark
 (
 [
@@ -2087,8 +2087,8 @@ spec
 ;
 add_task
 (
+async
 function
-*
 many_tags_no_bookmark
 (
 )
@@ -2123,7 +2123,7 @@ URI
 "
 )
 ;
-yield
+await
 task_doWithBookmark
 (
 [
@@ -2259,8 +2259,8 @@ opts
 ;
 add_task
 (
+async
 function
-*
 nonexistent_tags_bookmark
 (
 )
@@ -2280,7 +2280,7 @@ results
 "
 )
 ;
-yield
+await
 task_doWithBookmark
 (
 [
@@ -2371,8 +2371,8 @@ opts
 ;
 add_task
 (
+async
 function
-*
 tagsAreNot_history
 (
 )
@@ -2485,7 +2485,7 @@ uri
 pURI
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2926,7 +2926,7 @@ tags
 )
 ;
 }
-yield
+await
 task_cleanDatabase
 (
 )
@@ -2936,8 +2936,8 @@ task_cleanDatabase
 ;
 add_task
 (
+async
 function
-*
 tagsAreNot_bookmarks
 (
 )
@@ -3050,7 +3050,7 @@ uri
 pURI
 )
 ;
-yield
+await
 addBookmark
 (
 nsiuri
@@ -3529,7 +3529,7 @@ tags
 )
 ;
 }
-yield
+await
 task_cleanDatabase
 (
 )
@@ -3539,8 +3539,8 @@ task_cleanDatabase
 ;
 add_task
 (
+async
 function
-*
 duplicate_tags
 (
 )
@@ -3594,7 +3594,7 @@ normally
 "
 )
 ;
-yield
+await
 addBookmark
 (
 TEST_URI
@@ -3636,7 +3636,7 @@ bookmark
 let
 dupTag
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3664,7 +3664,7 @@ tagName
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3753,7 +3753,7 @@ tagName
 ]
 )
 ;
-yield
+await
 task_cleanDatabase
 (
 )
@@ -3763,8 +3763,8 @@ task_cleanDatabase
 ;
 add_task
 (
+async
 function
-*
 folder_named_as_tag
 (
 )
@@ -3810,7 +3810,7 @@ it
 "
 )
 ;
-yield
+await
 addBookmark
 (
 TEST_URI
@@ -3841,7 +3841,7 @@ tag
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -3934,7 +3934,7 @@ tagName
 ]
 )
 ;
-yield
+await
 task_cleanDatabase
 (
 )
@@ -3944,8 +3944,8 @@ task_cleanDatabase
 ;
 add_task
 (
+async
 function
-*
 ORed_queries
 (
 )
@@ -4101,7 +4101,7 @@ uri
 pURI
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -4822,7 +4822,7 @@ tags
 )
 ;
 }
-yield
+await
 task_cleanDatabase
 (
 )
@@ -4895,14 +4895,14 @@ aURI
 )
 ;
 }
+async
 function
-*
 task_cleanDatabase
 (
 aCallback
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -4911,7 +4911,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -5082,15 +5082,15 @@ task_cleanDatabase
 )
 ;
 }
+async
 function
-*
 task_doWithVisit
 (
 aTags
 aCallback
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -5108,7 +5108,7 @@ TEST_URI
 aTags
 )
 ;
-yield
+await
 aCallback
 (
 TEST_URI
@@ -5124,7 +5124,7 @@ TEST_URI
 aTags
 )
 ;
-yield
+await
 task_cleanDatabase
 (
 )

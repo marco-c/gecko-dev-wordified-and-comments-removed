@@ -396,8 +396,8 @@ contentScript
 ;
 add_task
 (
+async
 function
-*
 test_contentscript
 (
 )
@@ -412,7 +412,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -433,7 +433,7 @@ html
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -460,7 +460,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -495,7 +495,7 @@ html
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -588,7 +588,7 @@ example
 com
 "
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -604,7 +604,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

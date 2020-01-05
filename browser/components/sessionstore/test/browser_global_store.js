@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -240,7 +240,7 @@ deleted
 )
 ;
 }
-yield
+await
 promiseBrowserState
 (
 testState

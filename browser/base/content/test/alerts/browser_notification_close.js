@@ -63,8 +63,8 @@ oldShowFavicons
 ;
 add_task
 (
+async
 function
-*
 test_notificationClose
 (
 )
@@ -128,7 +128,7 @@ showFavicons
 true
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -139,7 +139,7 @@ notificationURI
 let
 faviconURI
 =
-yield
+await
 new
 Promise
 (
@@ -206,7 +206,7 @@ getSystemPrincipal
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -217,14 +217,14 @@ url
 :
 notificationURL
 }
+async
 function
-*
 dummyTabTask
 (
 aBrowser
 )
 {
-yield
+await
 openNotification
 (
 aBrowser
@@ -282,7 +282,7 @@ platforms
 "
 )
 ;
-yield
+await
 closeNotification
 (
 aBrowser
@@ -462,7 +462,7 @@ button
 "
 )
 ;
-yield
+await
 promiseBeforeUnloadEvent
 ;
 ok
@@ -524,8 +524,8 @@ currentTime
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )

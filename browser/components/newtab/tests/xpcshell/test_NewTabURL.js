@@ -96,8 +96,8 @@ nsIAboutNewTabService
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -177,7 +177,7 @@ override
 url
 )
 ;
-yield
+await
 notificationPromise
 ;
 Assert
@@ -230,7 +230,7 @@ reset
 (
 )
 ;
-yield
+await
 notificationPromise
 ;
 Assert

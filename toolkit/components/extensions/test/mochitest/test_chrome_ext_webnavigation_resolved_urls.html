@@ -192,8 +192,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 webnav_unresolved_uri_on_expected_URI_scheme
 (
 )
@@ -407,7 +407,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -458,7 +458,7 @@ mozilla
 let
 tabURL
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -500,7 +500,7 @@ open
 url
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -511,7 +511,7 @@ next
 )
 ;
 }
-yield
+await
 extension
 .
 unload

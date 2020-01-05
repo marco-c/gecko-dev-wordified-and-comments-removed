@@ -44,8 +44,8 @@ removeCustomToolbars
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -569,13 +569,13 @@ palette
 }
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

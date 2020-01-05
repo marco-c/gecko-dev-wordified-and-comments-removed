@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_periodic_alarm_fires
 (
 )
@@ -241,14 +241,14 @@ alarms
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -260,7 +260,7 @@ periodic
 "
 )
 ;
-yield
+await
 extension
 .
 unload

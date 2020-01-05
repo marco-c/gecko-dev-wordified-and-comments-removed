@@ -23,8 +23,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_resultDomain
 (
 )
@@ -36,7 +36,7 @@ engine2
 engine3
 ]
 =
-yield
+await
 addTestEngines
 (
 [

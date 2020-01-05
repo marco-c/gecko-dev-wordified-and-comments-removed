@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 testPartialPatchApplyFailureWithCompleteAvailable
 (
 )
@@ -72,7 +72,7 @@ null
 promptWaitTime
 )
 ;
-yield
+await
 runUpdateProcessingTest
 (
 updates

@@ -426,8 +426,8 @@ length
 )
 ;
 }
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -471,7 +471,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -785,8 +785,8 @@ run
 )
 ;
 }
+async
 function
-*
 test_cookie_cleared
 (
 )
@@ -823,8 +823,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -840,7 +839,7 @@ value
 userContextId
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -945,7 +944,7 @@ value
 )
 ;
 }
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1341,8 +1340,8 @@ cleared
 ;
 }
 }
+async
 function
-*
 test_image_cache_cleared
 (
 )
@@ -1371,8 +1370,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 "
@@ -1399,7 +1397,7 @@ html
 userContextId
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1444,7 +1442,7 @@ gHits
 =
 0
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1483,8 +1481,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 "
@@ -1511,7 +1508,7 @@ html
 userContextId
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1546,8 +1543,8 @@ times
 )
 ;
 }
+async
 function
-*
 test_storage_cleared
 (
 )
@@ -1576,8 +1573,7 @@ userContextId
 let
 tabInfo
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -1593,7 +1589,7 @@ value
 userContextId
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1609,8 +1605,8 @@ USER_CONTEXTS
 userContextId
 ]
 }
+async
 function
-*
 (
 arg
 )
@@ -1685,7 +1681,7 @@ idb
 let
 db
 =
-yield
+await
 new
 Promise
 (
@@ -1754,7 +1750,7 @@ get
 1
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1807,7 +1803,7 @@ done
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1818,7 +1814,7 @@ tab
 )
 ;
 }
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -1842,8 +1838,7 @@ USER_CONTEXTS
 let
 tabInfo
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -1856,7 +1851,7 @@ html
 userContextId
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1865,8 +1860,8 @@ tabInfo
 .
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -1938,7 +1933,7 @@ idb
 let
 db
 =
-yield
+await
 new
 Promise
 (
@@ -2029,7 +2024,7 @@ expected
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2043,13 +2038,13 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -2137,8 +2132,8 @@ test_storage_cleared
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )

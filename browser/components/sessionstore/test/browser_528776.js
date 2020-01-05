@@ -98,8 +98,8 @@ getBrowserState
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -111,7 +111,7 @@ browserWindowsCount
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -123,7 +123,7 @@ browserWindowsCount
 2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

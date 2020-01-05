@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -31,7 +31,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 promiseTabRestored
 (
 newTab
@@ -54,7 +54,7 @@ tab
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 newTab

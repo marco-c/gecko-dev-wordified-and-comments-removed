@@ -117,13 +117,13 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -169,8 +169,8 @@ infos
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -200,7 +200,7 @@ URI
 userContextId
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -229,7 +229,7 @@ allRegistered
 )
 )
 {
-yield
+await
 promiseAllRegistered
 (
 )
@@ -255,7 +255,7 @@ of
 infos
 )
 {
-yield
+await
 promiseUnregister
 (
 info

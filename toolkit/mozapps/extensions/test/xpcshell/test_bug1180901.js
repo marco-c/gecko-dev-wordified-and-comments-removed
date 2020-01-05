@@ -39,8 +39,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -90,7 +90,7 @@ txt
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -111,7 +111,7 @@ true
 let
 trashDirExists
 =
-yield
+await
 OS
 .
 File
@@ -137,7 +137,7 @@ created
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -160,7 +160,7 @@ winShare
 let
 fileExists
 =
-yield
+await
 OS
 .
 File
@@ -187,7 +187,7 @@ in
 trashDir
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -200,14 +200,14 @@ test_install1
 ]
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
 fileExists
 =
-yield
+await
 OS
 .
 File
@@ -229,14 +229,14 @@ exists
 "
 )
 ;
-yield
+await
 file
 .
 close
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -262,7 +262,7 @@ extensions
 )
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )

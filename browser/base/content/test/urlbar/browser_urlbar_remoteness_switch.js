@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -29,7 +29,7 @@ foo
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -38,8 +38,8 @@ withNewTab
 gBrowser
 url
 }
+async
 function
-*
 (
 browser
 )
@@ -162,7 +162,7 @@ config
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -175,7 +175,7 @@ config
 "
 )
 ;
-yield
+await
 didLoad
 ;
 gBrowser
@@ -184,7 +184,7 @@ goBack
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -211,7 +211,7 @@ goForward
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

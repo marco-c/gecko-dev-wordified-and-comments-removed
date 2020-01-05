@@ -10,12 +10,8 @@ GUID
 var
 getTotalGuidAnnotationsCount
 =
-Task
-.
 async
-(
 function
-*
 (
 db
 )
@@ -23,7 +19,7 @@ db
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -73,17 +69,16 @@ getResultByIndex
 )
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 setupPlacesDatabase
 (
 "
@@ -98,8 +93,8 @@ sqlite
 ;
 add_task
 (
+async
 function
-*
 initial_state
 (
 )
@@ -126,7 +121,7 @@ DB_FILENAME
 let
 db
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -141,7 +136,7 @@ Assert
 equal
 (
 (
-yield
+await
 getTotalGuidAnnotationsCount
 (
 db
@@ -159,7 +154,7 @@ annotation
 "
 )
 ;
-yield
+await
 db
 .
 close
@@ -171,8 +166,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 database_is_valid
 (
 )
@@ -196,7 +191,7 @@ DATABASE_STATUS_UPGRADED
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -208,7 +203,7 @@ Assert
 equal
 (
 (
-yield
+await
 db
 .
 getSchemaVersion
@@ -223,8 +218,8 @@ CURRENT_SCHEMA_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_bookmark_guid_annotation_removed
 (
 )
@@ -232,7 +227,7 @@ test_bookmark_guid_annotation_removed
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -244,7 +239,7 @@ Assert
 equal
 (
 (
-yield
+await
 getTotalGuidAnnotationsCount
 (
 db

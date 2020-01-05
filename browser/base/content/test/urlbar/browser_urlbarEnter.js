@@ -39,8 +39,8 @@ B7
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -84,7 +84,7 @@ VK_RETURN
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -130,7 +130,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -145,8 +145,8 @@ selectedTab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -163,7 +163,7 @@ keypress
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -207,7 +207,7 @@ true
 }
 )
 ;
-yield
+await
 tabOpenPromise
 ;
 is
@@ -246,7 +246,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -254,7 +254,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

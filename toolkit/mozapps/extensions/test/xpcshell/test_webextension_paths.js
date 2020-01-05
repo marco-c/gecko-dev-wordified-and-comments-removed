@@ -13,8 +13,8 @@ profileDir
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -70,8 +70,8 @@ startupManager
 ;
 add_task
 (
+async
 function
-*
 test_bad_unpacked_path
 (
 )
@@ -163,7 +163,7 @@ directories
 {
 try
 {
-yield
+await
 promiseWriteWebManifestForExtension
 (
 manifest
@@ -180,7 +180,7 @@ ex
 continue
 ;
 }
-yield
+await
 promiseRestartManager
 (
 )
@@ -188,7 +188,7 @@ promiseRestartManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 dir
@@ -202,7 +202,7 @@ null
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 MANIFEST_ID

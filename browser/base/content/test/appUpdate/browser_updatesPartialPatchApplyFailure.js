@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 testPartialPatchApplyFailure
 (
 )
@@ -46,7 +46,7 @@ false
 "
 )
 ;
-yield
+await
 runUpdateProcessingTest
 (
 updates
@@ -82,12 +82,12 @@ new
 )
 ;
 }
-*
+async
 cleanup
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

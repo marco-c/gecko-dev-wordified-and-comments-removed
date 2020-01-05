@@ -1,5 +1,5 @@
+async
 function
-*
 test_autocomplete
 (
 data
@@ -23,7 +23,7 @@ info
 desc
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 typed
@@ -83,7 +83,7 @@ expected
 "
 )
 ;
-yield
+await
 promiseSearchComplete
 (
 )
@@ -189,7 +189,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promisePopupHidden
 (
 gURLBar
@@ -206,15 +206,15 @@ blur
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -239,7 +239,7 @@ handleRevert
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -265,7 +265,7 @@ autoFill
 true
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -298,7 +298,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -345,7 +345,7 @@ searchengine
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -396,7 +396,7 @@ visiturl
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -443,7 +443,7 @@ searchengine
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -494,7 +494,7 @@ visiturl
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -546,7 +546,7 @@ searchengine
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -602,7 +602,7 @@ visiturl
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -654,7 +654,7 @@ searchengine
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -710,7 +710,7 @@ visiturl
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -788,7 +788,7 @@ selectionEnd
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -866,7 +866,7 @@ selectionEnd
 }
 )
 ;
-yield
+await
 test_autocomplete
 (
 {
@@ -948,7 +948,7 @@ selectionEnd
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

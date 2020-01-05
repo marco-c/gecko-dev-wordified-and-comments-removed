@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -373,14 +373,14 @@ opened
 )
 ;
 }
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -428,7 +428,7 @@ commands
 const
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -439,7 +439,7 @@ PAGE
 ;
 ok
 (
-yield
+await
 testContext
 (
 "
@@ -454,7 +454,7 @@ worked
 ;
 ok
 (
-yield
+await
 testContext
 (
 "
@@ -469,7 +469,7 @@ worked
 ;
 ok
 (
-yield
+await
 testContext
 (
 "
@@ -482,7 +482,7 @@ worked
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -490,7 +490,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 extension
 .
 unload

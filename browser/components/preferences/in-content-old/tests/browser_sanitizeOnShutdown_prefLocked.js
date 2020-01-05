@@ -187,13 +187,13 @@ custom
 ;
 add_task
 (
+async
 function
-*
 test_preference_enabled_when_unlocked
 (
 )
 {
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -216,8 +216,8 @@ testPrefStateMatchesLockedState
 ;
 add_task
 (
+async
 function
-*
 test_preference_disabled_when_locked
 (
 )
@@ -237,7 +237,7 @@ sanitizeOnShutdown
 "
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "

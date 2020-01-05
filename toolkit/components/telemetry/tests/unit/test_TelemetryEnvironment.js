@@ -4768,8 +4768,8 @@ data
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -5042,7 +5042,7 @@ cleanupAttributionData
 )
 ;
 }
-yield
+await
 spoofProfileReset
 (
 )
@@ -5058,8 +5058,8 @@ delayedInit
 ;
 add_task
 (
+async
 function
-*
 test_checkEnvironment
 (
 )
@@ -5067,7 +5067,7 @@ test_checkEnvironment
 let
 environmentData
 =
-yield
+await
 TelemetryEnvironment
 .
 onInitialized
@@ -5110,8 +5110,8 @@ environmentData
 ;
 add_task
 (
+async
 function
-*
 test_prefWatchPolicies
 (
 )
@@ -5404,7 +5404,7 @@ unexpectedValue
 let
 eventEnvironmentData
 =
-yield
+await
 deferred
 .
 promise
@@ -5543,8 +5543,8 @@ same
 ;
 add_task
 (
+async
 function
-*
 test_prefWatch_prefReset
 (
 )
@@ -5648,7 +5648,7 @@ reset
 PREF_TEST
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -5684,8 +5684,8 @@ testWatchPrefs_reset
 ;
 add_task
 (
+async
 function
-*
 test_prefDefault
 (
 )
@@ -5778,8 +5778,8 @@ expectedValue
 ;
 add_task
 (
+async
 function
-*
 test_addonsWatch_InterestingChange
 (
 )
@@ -5917,7 +5917,7 @@ registerCheckpointPromise
 1
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -5925,7 +5925,7 @@ installXPIFromURL
 ADDON_INSTALL_URL
 )
 ;
-yield
+await
 checkpointPromise
 ;
 assertCheckpoint
@@ -5958,7 +5958,7 @@ registerCheckpointPromise
 let
 addon
 =
-yield
+await
 AddonManagerTesting
 .
 getAddonById
@@ -5972,7 +5972,7 @@ userDisabled
 =
 true
 ;
-yield
+await
 checkpointPromise
 ;
 assertCheckpoint
@@ -6011,7 +6011,7 @@ userDisabled
 =
 false
 ;
-yield
+await
 checkpointPromise
 ;
 assertCheckpoint
@@ -6041,7 +6041,7 @@ registerCheckpointPromise
 4
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 uninstallAddonByID
@@ -6049,7 +6049,7 @@ uninstallAddonByID
 ADDON_ID
 )
 ;
-yield
+await
 checkpointPromise
 ;
 assertCheckpoint
@@ -6099,8 +6099,8 @@ expect
 ;
 add_task
 (
+async
 function
-*
 test_pluginsWatch_Add
 (
 )
@@ -6235,7 +6235,7 @@ null
 PLUGIN_UPDATED_TOPIC
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -6287,8 +6287,8 @@ notification
 ;
 add_task
 (
+async
 function
-*
 test_pluginsWatch_Remove
 (
 )
@@ -6424,7 +6424,7 @@ null
 PLUGIN_UPDATED_TOPIC
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -6460,8 +6460,8 @@ notification
 ;
 add_task
 (
+async
 function
-*
 test_addonsWatch_NotInterestingChange
 (
 )
@@ -6542,7 +6542,7 @@ resolve
 }
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -6550,7 +6550,7 @@ installXPIFromURL
 DICTIONARY_ADDON_INSTALL_URL
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -6558,7 +6558,7 @@ installXPIFromURL
 INTERESTING_ADDON_INSTALL_URL
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -6614,8 +6614,8 @@ testNotInteresting
 ;
 add_task
 (
+async
 function
-*
 test_addonsAndPlugins
 (
 )
@@ -7024,7 +7024,7 @@ resolve
 }
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -7108,14 +7108,14 @@ WEBEXTENSION_ADDON_ID
 }
 )
 ;
-yield
+await
 webextension
 .
 startup
 (
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -7344,7 +7344,7 @@ value
 )
 ;
 }
-yield
+await
 webextension
 .
 unload
@@ -7550,7 +7550,7 @@ reported
 "
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 uninstallAddonByID
@@ -7563,8 +7563,8 @@ ADDON_ID
 ;
 add_task
 (
+async
 function
-*
 test_signedAddon
 (
 )
@@ -7706,7 +7706,7 @@ deferred
 resolve
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -7714,7 +7714,7 @@ installXPIFromURL
 ADDON_INSTALL_URL
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -7814,8 +7814,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_addonsFieldsLimit
 (
 )
@@ -7870,7 +7870,7 @@ deferred
 resolve
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -7878,7 +7878,7 @@ installXPIFromURL
 ADDON_INSTALL_URL
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -8008,8 +8008,8 @@ limited
 ;
 add_task
 (
+async
 function
-*
 test_collectionWithbrokenAddonData
 (
 )
@@ -8327,7 +8327,7 @@ addAddon
 BROKEN_MANIFEST
 )
 ;
-yield
+await
 checkpointPromise
 ;
 assertCheckpoint
@@ -8342,7 +8342,7 @@ registerCheckpointPromise
 2
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -8350,7 +8350,7 @@ installXPIFromURL
 ADDON_INSTALL_URL
 )
 ;
-yield
+await
 checkpointPromise
 ;
 assertCheckpoint
@@ -8477,7 +8477,7 @@ unregisterProvider
 brokenAddonProvider
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 uninstallAddonByID
@@ -8490,8 +8490,8 @@ ADDON_ID
 ;
 add_task
 (
+async
 function
-*
 test_defaultSearchEngine
 (
 )
@@ -8596,7 +8596,7 @@ url
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -8908,7 +8908,7 @@ getEngineByName
 SEARCH_ENGINE_ID
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -9017,7 +9017,7 @@ resolve
 let
 engine
 =
-yield
+await
 new
 Promise
 (
@@ -9188,7 +9188,7 @@ defaultEngine
 =
 engine
 ;
-yield
+await
 promise
 ;
 TelemetryEnvironment
@@ -9312,7 +9312,7 @@ current
 "
 )
 ;
-yield
+await
 promise
 ;
 TelemetryEnvironment
@@ -9430,7 +9430,7 @@ PREF_TEST
 1
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -9543,8 +9543,8 @@ testcohort
 ;
 add_task
 (
+async
 function
-*
 test_osstrings
 (
 )
@@ -9565,7 +9565,7 @@ kernel_version
 3
 }
 ;
-yield
+await
 TelemetryEnvironment
 .
 testCleanRestart
@@ -9665,7 +9665,7 @@ kernel_version
 null
 }
 ;
-yield
+await
 TelemetryEnvironment
 .
 testCleanRestart
@@ -9749,7 +9749,7 @@ overrides
 {
 }
 ;
-yield
+await
 TelemetryEnvironment
 .
 testCleanRestart
@@ -9765,8 +9765,8 @@ onInitialized
 ;
 add_task
 (
+async
 function
-*
 test_experimentsAPI
 (
 )
@@ -9889,7 +9889,7 @@ correct
 ;
 }
 ;
-yield
+await
 TelemetryEnvironment
 .
 testCleanRestart
@@ -9983,7 +9983,7 @@ EXPERIMENT1_BRANCH
 let
 eventEnvironmentData
 =
-yield
+await
 deferred
 .
 promise
@@ -10089,7 +10089,7 @@ EXPERIMENT2_BRANCH
 ;
 eventEnvironmentData
 =
-yield
+await
 deferred
 .
 promise
@@ -10284,7 +10284,7 @@ EXPERIMENT1
 ;
 eventEnvironmentData
 =
-yield
+await
 deferred
 .
 promise
@@ -10360,8 +10360,8 @@ test_experimentsAPI5
 ;
 add_task
 (
+async
 function
-*
 test_experimentsAPI_limits
 (
 )
@@ -10476,7 +10476,7 @@ substring
 100
 )
 ;
-yield
+await
 TelemetryEnvironment
 .
 testCleanRestart
@@ -10561,7 +10561,7 @@ EXPERIMENT
 EXPERIMENT_BRANCH
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -10686,8 +10686,8 @@ test_experimentsAPI
 ;
 add_task
 (
+async
 function
-*
 test_environmentShutdown
 (
 )

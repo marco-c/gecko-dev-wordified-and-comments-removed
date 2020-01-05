@@ -146,8 +146,8 @@ send
 }
 add_task
 (
+async
 function
-*
 simpleDoc
 (
 )
@@ -175,7 +175,7 @@ fileName
 let
 doc
 =
-yield
+await
 promiseDocument
 (
 fileName
@@ -290,8 +290,8 @@ property
 ;
 add_task
 (
+async
 function
-*
 titlesDoc
 (
 )
@@ -318,7 +318,7 @@ fileName
 let
 doc
 =
-yield
+await
 promiseDocument
 (
 fileName
@@ -396,8 +396,8 @@ title
 ;
 add_task
 (
+async
 function
-*
 titlesFallbackDoc
 (
 )
@@ -424,7 +424,7 @@ fileName
 let
 doc
 =
-yield
+await
 promiseDocument
 (
 fileName

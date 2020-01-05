@@ -499,8 +499,8 @@ finalize
 }
 add_task
 (
+async
 function
-*
 test_interface_exists
 (
 )
@@ -544,8 +544,8 @@ mozIAsyncHistory
 ;
 add_task
 (
+async
 function
-*
 test_invalid_uri_throws
 (
 )
@@ -566,7 +566,7 @@ VisitInfo
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -645,7 +645,7 @@ i
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -684,8 +684,8 @@ NS_ERROR_INVALID_ARG
 ;
 add_task
 (
+async
 function
-*
 test_invalid_places_throws
 (
 )
@@ -769,7 +769,7 @@ i
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 value
@@ -808,8 +808,8 @@ NS_ERROR_INVALID_ARG
 ;
 add_task
 (
+async
 function
-*
 test_invalid_guid_throws
 (
 )
@@ -847,7 +847,7 @@ VisitInfo
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -902,7 +902,7 @@ length
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -940,8 +940,8 @@ NS_ERROR_INVALID_ARG
 ;
 add_task
 (
+async
 function
-*
 test_no_visits_throws
 (
 )
@@ -1139,7 +1139,7 @@ place
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -1180,8 +1180,8 @@ NS_ERROR_INVALID_ARG
 ;
 add_task
 (
+async
 function
-*
 test_add_visit_no_date_throws
 (
 )
@@ -1224,7 +1224,7 @@ visitDate
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -1262,8 +1262,8 @@ NS_ERROR_INVALID_ARG
 ;
 add_task
 (
+async
 function
-*
 test_add_visit_no_transitionType_throws
 (
 )
@@ -1306,7 +1306,7 @@ transitionType
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -1344,8 +1344,8 @@ NS_ERROR_INVALID_ARG
 ;
 add_task
 (
+async
 function
-*
 test_add_visit_invalid_transitionType_throws
 (
 )
@@ -1381,7 +1381,7 @@ TRANSITION_LINK
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -1431,7 +1431,7 @@ TRANSITION_RELOAD
 ;
 try
 {
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -1469,8 +1469,8 @@ NS_ERROR_INVALID_ARG
 ;
 add_task
 (
+async
 function
-*
 test_non_addable_uri_errors
 (
 )
@@ -1732,7 +1732,7 @@ ignoring
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 places
@@ -1801,7 +1801,7 @@ NS_ERROR_INVALID_ARG
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -1813,7 +1813,7 @@ uri
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -1825,8 +1825,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_duplicate_guid_errors
 (
 )
@@ -1859,7 +1859,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -1871,7 +1871,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -1910,7 +1910,7 @@ results
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 placeInfo
@@ -1952,7 +1952,7 @@ guid
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 badPlace
@@ -1963,7 +1963,7 @@ uri
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 badPlace
@@ -2012,7 +2012,7 @@ NS_ERROR_STORAGE_CONSTRAINT
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 badPlaceInfo
@@ -2023,7 +2023,7 @@ uri
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -2035,8 +2035,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_invalid_referrerURI_ignored
 (
 )
@@ -2093,7 +2093,7 @@ _unvisistedURI
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -2104,7 +2104,7 @@ uri
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -2121,7 +2121,7 @@ referrerURI
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -2160,7 +2160,7 @@ results
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 placeInfo
@@ -2171,7 +2171,7 @@ uri
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -2245,7 +2245,7 @@ finalize
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -2257,8 +2257,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_nonnsIURI_referrerURI_ignored
 (
 )
@@ -2310,7 +2310,7 @@ _nonnsIURI
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -2322,7 +2322,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -2361,7 +2361,7 @@ results
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 placeInfo
@@ -2430,7 +2430,7 @@ finalize
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -2442,8 +2442,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_old_referrer_ignored
 (
 )
@@ -2497,7 +2497,7 @@ oldTime
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 referrerPlace
@@ -2509,7 +2509,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 referrerPlace
@@ -2538,7 +2538,7 @@ error
 }
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 referrerPlace
@@ -2588,7 +2588,7 @@ visitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -2599,7 +2599,7 @@ uri
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -2638,7 +2638,7 @@ results
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -2743,7 +2743,7 @@ finalize
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -2755,8 +2755,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_place_id_ignored
 (
 )
@@ -2789,7 +2789,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -2801,7 +2801,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -2840,7 +2840,7 @@ results
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -2891,7 +2891,7 @@ placeId
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 badPlace
@@ -2902,7 +2902,7 @@ uri
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 badPlace
@@ -2948,7 +2948,7 @@ placeId
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 badPlace
@@ -2957,7 +2957,7 @@ uri
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -2969,8 +2969,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_handleCompletion_called_when_complete
 (
 )
@@ -3037,7 +3037,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 places
@@ -3051,7 +3051,7 @@ uri
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 places
@@ -3079,7 +3079,7 @@ results
 errors
 }
 =
-yield
+await
 promiseUpdatePlaces
 (
 places
@@ -3101,7 +3101,7 @@ length
 EXPECTED_COUNT_FAILURE
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -3113,8 +3113,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_add_visit
 (
 )
@@ -3199,7 +3199,7 @@ VISIT_TIME
 }
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -3216,7 +3216,7 @@ callbackCount
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -3255,7 +3255,7 @@ results
 {
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -3441,7 +3441,7 @@ visits
 length
 )
 {
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -3455,8 +3455,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_properties_saved
 (
 )
@@ -3529,7 +3529,7 @@ transitionType
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -3554,7 +3554,7 @@ callbackCount
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 places
@@ -3600,7 +3600,7 @@ uri
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 uri
@@ -3957,7 +3957,7 @@ places
 length
 )
 {
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -3971,8 +3971,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_guid_saved
 (
 )
@@ -4017,7 +4017,7 @@ guid
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -4029,7 +4029,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -4075,7 +4075,7 @@ uri
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 uri
@@ -4100,7 +4100,7 @@ place
 guid
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -4112,8 +4112,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_referrer_saved
 (
 )
@@ -4193,7 +4193,7 @@ uri
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 places
@@ -4207,7 +4207,7 @@ uri
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 places
@@ -4227,7 +4227,7 @@ resultCount
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 places
@@ -4273,7 +4273,7 @@ uri
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 uri
@@ -4442,7 +4442,7 @@ finalize
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -4456,8 +4456,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_guid_change_saved
 (
 )
@@ -4490,7 +4490,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -4502,7 +4502,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -4550,7 +4550,7 @@ VisitInfo
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -4587,7 +4587,7 @@ place
 guid
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -4599,8 +4599,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_title_change_saved
 (
 )
@@ -4639,7 +4639,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -4651,7 +4651,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -4698,7 +4698,7 @@ VisitInfo
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -4755,7 +4755,7 @@ VisitInfo
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -4811,7 +4811,7 @@ VisitInfo
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -4848,7 +4848,7 @@ place
 title
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -4860,8 +4860,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_no_title_does_not_clear_title
 (
 )
@@ -4905,7 +4905,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -4917,7 +4917,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -4962,7 +4962,7 @@ VisitInfo
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -4997,7 +4997,7 @@ uri
 TITLE
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -5009,8 +5009,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_title_change_notifies
 (
 )
@@ -5043,7 +5043,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -5094,7 +5094,7 @@ silentObserver
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -5340,7 +5340,7 @@ updatePlaces
 place
 )
 ;
-yield
+await
 visitPromise
 ;
 expectedNotification
@@ -5380,10 +5380,10 @@ updatePlaces
 place
 )
 ;
-yield
+await
 titleChangePromise
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -5395,8 +5395,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_visit_notifies
 (
 )
@@ -5434,7 +5434,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -5651,13 +5651,13 @@ place
 )
 ;
 }
-yield
+await
 promiseVisitObserver
 (
 place
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -5669,8 +5669,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_callbacks_not_supplied
 (
 )
@@ -5819,7 +5819,7 @@ places
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -5831,13 +5831,13 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_typed_hidden_not_overwritten
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -5921,7 +5921,7 @@ TRANSITION_FRAMED_LINK
 }
 ]
 ;
-yield
+await
 promiseUpdatePlaces
 (
 places
@@ -5930,7 +5930,7 @@ places
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -5940,7 +5940,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -6036,7 +6036,7 @@ hidden
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -6048,13 +6048,13 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_omit_frecency_notifications
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -6219,7 +6219,7 @@ frecencyObserverCheck
 }
 )
 ;
-yield
+await
 promiseUpdatePlaces
 (
 places
@@ -6228,7 +6228,7 @@ places
 true
 )
 ;
-yield
+await
 promiseFrecenciesChanged
 ;
 }
@@ -6236,13 +6236,13 @@ promiseFrecenciesChanged
 ;
 add_task
 (
+async
 function
-*
 test_ignore_errors
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -6277,7 +6277,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -6289,7 +6289,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -6328,7 +6328,7 @@ results
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 placeInfo
@@ -6370,7 +6370,7 @@ guid
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 badPlace
@@ -6381,7 +6381,7 @@ uri
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 badPlace
@@ -6485,7 +6485,7 @@ callback
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -6497,13 +6497,13 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_ignore_results
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -6549,7 +6549,7 @@ VisitInfo
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -6632,7 +6632,7 @@ callback
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -6644,13 +6644,13 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_ignore_results_and_errors
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -6685,7 +6685,7 @@ VisitInfo
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 place
@@ -6697,7 +6697,7 @@ uri
 let
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 place
@@ -6736,7 +6736,7 @@ results
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 placeInfo
@@ -6807,7 +6807,7 @@ badPlace
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 badPlace
@@ -6818,7 +6818,7 @@ uri
 ;
 placesResult
 =
-yield
+await
 promiseUpdatePlaces
 (
 allPlaces
@@ -6904,7 +6904,7 @@ callback
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -6916,8 +6916,8 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 test_title_on_initial_visit
 (
 )
@@ -7024,13 +7024,13 @@ visitObserver
 }
 )
 ;
-yield
+await
 promiseUpdatePlaces
 (
 place
 )
 ;
-yield
+await
 visitPromise
 ;
 place
@@ -7131,13 +7131,13 @@ visitObserver
 }
 )
 ;
-yield
+await
 promiseUpdatePlaces
 (
 place
 )
 ;
-yield
+await
 visitPromise
 ;
 place
@@ -7232,13 +7232,13 @@ visitObserver
 }
 )
 ;
-yield
+await
 promiseUpdatePlaces
 (
 place
 )
 ;
-yield
+await
 visitPromise
 ;
 }

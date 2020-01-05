@@ -174,8 +174,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_contentscript_incognito
 (
 )
@@ -556,7 +556,7 @@ cookies
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -586,7 +586,7 @@ html
 ]
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -609,7 +609,7 @@ window
 ]
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -619,7 +619,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 unload

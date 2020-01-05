@@ -151,8 +151,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_contentscript_about_blank
 (
 )
@@ -534,7 +534,7 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -595,7 +595,7 @@ com
 PATH
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -678,7 +678,7 @@ test
 PATH
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -961,7 +961,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

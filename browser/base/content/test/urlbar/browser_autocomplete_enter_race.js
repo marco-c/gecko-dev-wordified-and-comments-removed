@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -9,7 +9,7 @@ setup
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -20,7 +20,7 @@ gBrowser
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -62,12 +62,12 @@ test
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -77,7 +77,7 @@ remove
 bm
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -88,7 +88,7 @@ tab
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -135,13 +135,13 @@ complete
 ;
 add_task
 (
+async
 function
-*
 test_keyword
 (
 )
 {
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -190,7 +190,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -222,13 +222,13 @@ beard
 ;
 add_task
 (
+async
 function
-*
 test_sametext
 (
 )
 {
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -302,7 +302,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -330,13 +330,13 @@ com
 ;
 add_task
 (
+async
 function
-*
 test_after_empty_search
 (
 )
 {
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -391,7 +391,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -419,8 +419,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 test_disabled_ac
 (
 )
@@ -595,7 +595,6 @@ currentEngine
 engine
 ;
 function
-*
 cleanup
 (
 )
@@ -739,7 +738,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -766,7 +765,7 @@ ex
 "
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -776,8 +775,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_delay
 (
 )
@@ -820,7 +819,6 @@ TIMEOUT
 registerCleanupFunction
 (
 function
-*
 (
 )
 {
@@ -850,7 +848,7 @@ now
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -936,7 +934,7 @@ load
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

@@ -19,8 +19,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_watching_non_existing
 (
 )
@@ -78,7 +78,7 @@ resolve
 let
 error
 =
-yield
+await
 deferred
 .
 promise

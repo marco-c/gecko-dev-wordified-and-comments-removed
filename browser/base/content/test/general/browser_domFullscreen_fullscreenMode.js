@@ -726,12 +726,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -797,7 +797,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -876,7 +876,7 @@ FullscreenChanged
 captureUnexpectedFullscreenChange
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -922,7 +922,7 @@ desc
 ;
 contentStates
 =
-yield
+await
 queryFullscreenState
 (
 )
@@ -963,7 +963,7 @@ RequestFullscreen
 ;
 contentStates
 =
-yield
+await
 waitForFullscreenChanges
 (
 FS_CHANGE_BOTH
@@ -1000,7 +1000,7 @@ exitFunc
 ;
 contentStates
 =
-yield
+await
 waitForFullscreenChanges
 (
 FS_CHANGE_BOTH
@@ -1042,7 +1042,7 @@ BrowserFullScreen
 ;
 contentStates
 =
-yield
+await
 waitForFullscreenChanges
 (
 FS_CHANGE_SIZE
@@ -1087,7 +1087,7 @@ RequestFullscreen
 ;
 contentStates
 =
-yield
+await
 waitForFullscreenChanges
 (
 FS_CHANGE_DOM
@@ -1127,7 +1127,7 @@ exitFunc
 ;
 contentStates
 =
-yield
+await
 waitForFullscreenChanges
 (
 test
@@ -1181,7 +1181,7 @@ BrowserFullScreen
 )
 )
 ;
-yield
+await
 waitForFullscreenChanges
 (
 FS_CHANGE_SIZE

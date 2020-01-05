@@ -454,12 +454,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -509,7 +506,7 @@ bookmark
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -567,7 +564,7 @@ context
 let
 node
 =
-yield
+await
 PlacesUIUtils
 .
 promiseNodeLikeFromFetchInfo
@@ -712,7 +709,7 @@ testTag
 ]
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -725,6 +722,8 @@ guid
 )
 ;
 }
+)
+(
 )
 .
 then

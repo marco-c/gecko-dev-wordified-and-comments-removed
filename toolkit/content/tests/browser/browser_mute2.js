@@ -10,8 +10,8 @@ html
 page
 "
 ;
+async
 function
-*
 test_on_browser
 (
 browser
@@ -54,7 +54,7 @@ now
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -91,7 +91,6 @@ now
 ;
 }
 function
-*
 test_on_browser2
 (
 browser
@@ -117,12 +116,12 @@ default
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab

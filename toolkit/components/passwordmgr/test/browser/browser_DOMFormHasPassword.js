@@ -508,8 +508,8 @@ promise
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -640,7 +640,7 @@ html
 "
 )
 ;
-yield
+await
 promise
 ;
 ok

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -177,7 +177,7 @@ true
 ;
 }
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -192,8 +192,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -202,7 +202,7 @@ let
 menu_cut_disabled
 menu_copy_disabled
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -226,7 +226,7 @@ div
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -240,7 +240,7 @@ focus
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -254,7 +254,7 @@ window
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -333,14 +333,14 @@ enabled
 "
 )
 ;
-yield
+await
 new
 Promise
 (
 closeMenu
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -369,7 +369,7 @@ div
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -383,7 +383,7 @@ focus
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -397,7 +397,7 @@ window
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -476,14 +476,14 @@ enabled
 "
 )
 ;
-yield
+await
 new
 Promise
 (
 closeMenu
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -496,7 +496,7 @@ preferences
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -510,7 +510,7 @@ focus
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -524,7 +524,7 @@ window
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -603,7 +603,7 @@ disabled
 "
 )
 ;
-yield
+await
 new
 Promise
 (

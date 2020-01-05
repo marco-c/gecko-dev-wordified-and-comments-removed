@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_insert_error_cases
 (
 )
@@ -652,8 +652,8 @@ TypeError
 ;
 add_task
 (
+async
 function
-*
 test_history_insert
 (
 )
@@ -675,12 +675,8 @@ com
 let
 inserter
 =
-Task
-.
 async
-(
 function
-*
 (
 name
 filter
@@ -767,7 +763,7 @@ pageInfo
 .
 url
 =
-yield
+await
 filter
 (
 uri
@@ -776,7 +772,7 @@ uri
 let
 result
 =
-yield
+await
 PlacesUtils
 .
 history
@@ -968,7 +964,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -986,7 +982,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesTestUtils
 .
 visitsInDB
@@ -1001,7 +997,6 @@ added
 )
 ;
 }
-)
 ;
 try
 {
@@ -1041,7 +1036,7 @@ null
 ]
 )
 {
-yield
+await
 inserter
 (
 "
@@ -1064,7 +1059,7 @@ date
 transition
 )
 ;
-yield
+await
 inserter
 (
 "
@@ -1090,7 +1085,7 @@ date
 transition
 )
 ;
-yield
+await
 inserter
 (
 "
@@ -1126,7 +1121,7 @@ transition
 }
 finally
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory

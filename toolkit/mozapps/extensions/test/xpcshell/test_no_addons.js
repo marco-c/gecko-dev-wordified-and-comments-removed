@@ -222,8 +222,8 @@ checkPending
 }
 add_task
 (
+async
 function
-*
 first_run
 (
 )
@@ -236,14 +236,14 @@ check_empty_state
 (
 )
 ;
-yield
+await
 true
 ;
 }
 )
 ;
+async
 function
-*
 trigger_db_load
 (
 )
@@ -274,7 +274,7 @@ resolve
 let
 addonList
 =
-yield
+await
 addonDefer
 .
 promise
@@ -291,7 +291,7 @@ check_empty_state
 (
 )
 ;
-yield
+await
 true
 ;
 }
@@ -302,8 +302,8 @@ trigger_db_load
 ;
 add_task
 (
+async
 function
-*
 restart_and_recheck
 (
 )
@@ -316,7 +316,7 @@ check_empty_state
 (
 )
 ;
-yield
+await
 true
 ;
 }

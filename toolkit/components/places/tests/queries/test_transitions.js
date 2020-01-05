@@ -423,8 +423,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_transitions
 (
 )
@@ -446,7 +446,7 @@ of
 testData
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -760,7 +760,7 @@ root
 childCount
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits

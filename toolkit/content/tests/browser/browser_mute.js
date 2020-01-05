@@ -11,7 +11,6 @@ page
 "
 ;
 function
-*
 test_on_browser
 (
 browser
@@ -78,12 +77,12 @@ now
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab

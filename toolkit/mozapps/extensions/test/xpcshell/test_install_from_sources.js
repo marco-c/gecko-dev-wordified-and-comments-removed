@@ -58,8 +58,8 @@ ADDON_DOWNGRADE
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -211,7 +211,7 @@ unexpectedly
 }
 )
 ;
-yield
+await
 AddonManager
 .
 installAddonFromSources
@@ -282,7 +282,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -367,7 +367,7 @@ AddonManager
 SIGNEDSTATE_NOT_REQUIRED
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -410,7 +410,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -422,7 +422,7 @@ addon
 null
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )

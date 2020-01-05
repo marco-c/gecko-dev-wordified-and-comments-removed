@@ -438,8 +438,8 @@ test_eleven
 ;
 add_task
 (
+async
 function
-*
 testRestrictions
 (
 )
@@ -459,7 +459,7 @@ stringify
 schemaJson
 )
 ;
-yield
+await
 Schemas
 .
 load

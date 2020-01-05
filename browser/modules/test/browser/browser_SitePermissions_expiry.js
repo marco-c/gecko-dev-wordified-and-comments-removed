@@ -34,8 +34,8 @@ TIMEOUT_MS
 ;
 add_task
 (
+async
 function
-*
 testTemporaryPermissionExpiry
 (
 )
@@ -86,7 +86,7 @@ id
 camera
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -94,8 +94,8 @@ withNewTab
 uri
 .
 spec
+async
 function
-*
 (
 browser
 )
@@ -141,7 +141,7 @@ SCOPE_TEMPORARY
 }
 )
 ;
-yield
+await
 new
 Promise
 (

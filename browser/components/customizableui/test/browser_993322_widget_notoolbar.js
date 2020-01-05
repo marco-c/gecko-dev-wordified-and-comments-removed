@@ -37,8 +37,8 @@ toolbar
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -131,7 +131,7 @@ getWidget
 BUTTONID
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -255,7 +255,7 @@ mode
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )

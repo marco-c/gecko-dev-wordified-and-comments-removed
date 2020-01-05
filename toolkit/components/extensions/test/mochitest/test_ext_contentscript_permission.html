@@ -171,8 +171,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_contentscript
 (
 )
@@ -308,7 +308,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -333,7 +333,7 @@ com
 let
 result
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -361,7 +361,7 @@ mozAddonManager
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -401,7 +401,7 @@ com
 ;
 result
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -429,7 +429,7 @@ mozAddonManager
 "
 )
 ;
-yield
+await
 extension
 .
 unload

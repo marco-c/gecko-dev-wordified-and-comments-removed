@@ -1482,8 +1482,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_async
 (
 )
@@ -1496,7 +1496,7 @@ of
 tests
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1514,7 +1514,7 @@ Test
 (
 )
 ;
-yield
+await
 test
 .
 setup
@@ -1540,7 +1540,7 @@ test
 desc
 )
 ;
-yield
+await
 test
 .
 run
@@ -1548,7 +1548,7 @@ run
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks

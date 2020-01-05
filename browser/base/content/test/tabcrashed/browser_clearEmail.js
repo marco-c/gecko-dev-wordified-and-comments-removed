@@ -69,8 +69,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -147,7 +147,7 @@ MOZ_CRASHREPORTER_URL
 SERVER_URL
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -206,8 +206,8 @@ serverUrl
 ;
 add_task
 (
+async
 function
-*
 test_clear_email
 (
 )
@@ -223,8 +223,8 @@ url
 :
 PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -314,7 +314,7 @@ getTabForBrowser
 browser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 crashBrowser
@@ -380,7 +380,7 @@ click
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -391,7 +391,7 @@ SSTabRestored
 "
 )
 ;
-yield
+await
 crashReport
 ;
 is

@@ -39,27 +39,6 @@ gre
 /
 modules
 /
-Task
-.
-jsm
-"
-)
-;
-Components
-.
-utils
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
 Services
 .
 jsm
@@ -119,8 +98,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -233,7 +212,7 @@ file
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -252,7 +231,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -296,7 +275,7 @@ File
 Error
 )
 ;
-yield
+await
 OS
 .
 File
@@ -311,7 +290,7 @@ true
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -321,7 +300,7 @@ removeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -350,7 +329,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -394,7 +373,7 @@ File
 Error
 )
 ;
-yield
+await
 OS
 .
 File
@@ -404,7 +383,7 @@ makeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -417,7 +396,7 @@ dir
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -429,7 +408,7 @@ dir
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -439,7 +418,7 @@ makeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -462,7 +441,7 @@ tmp
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -475,7 +454,7 @@ dir
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -487,7 +466,7 @@ dir
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -497,7 +476,7 @@ makeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -520,7 +499,7 @@ tmp
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -543,7 +522,7 @@ tmp
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -556,7 +535,7 @@ dir
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -568,7 +547,7 @@ dir
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -578,7 +557,7 @@ makeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -601,7 +580,7 @@ tmp
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -611,7 +590,7 @@ makeDir
 subDir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -634,7 +613,7 @@ tmp
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -647,7 +626,7 @@ dir
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -664,8 +643,8 @@ dir
 ;
 add_task
 (
+async
 function
-*
 test_unix_symlink
 (
 )
@@ -761,7 +740,7 @@ file1
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -773,7 +752,7 @@ dir
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -799,7 +778,7 @@ tmp
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -814,7 +793,7 @@ file
 let
 info
 =
-yield
+await
 OS
 .
 File
@@ -843,7 +822,7 @@ info
 isSymLink
 )
 ;
-yield
+await
 OS
 .
 File
@@ -862,7 +841,7 @@ link
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -881,7 +860,7 @@ link
 ;
 info
 =
-yield
+await
 OS
 .
 File
@@ -917,7 +896,7 @@ isSymLink
 ;
 info
 =
-yield
+await
 OS
 .
 File
@@ -946,7 +925,7 @@ info
 isSymLink
 )
 ;
-yield
+await
 OS
 .
 File
@@ -964,7 +943,7 @@ link
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -981,7 +960,7 @@ link
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -994,7 +973,7 @@ dir
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -1008,7 +987,7 @@ dir
 ;
 info
 =
-yield
+await
 OS
 .
 File
@@ -1058,7 +1037,7 @@ linkdir
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1072,7 +1051,7 @@ link
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -1086,7 +1065,7 @@ link
 ;
 info
 =
-yield
+await
 OS
 .
 File
@@ -1117,7 +1096,7 @@ isSymLink
 ;
 info
 =
-yield
+await
 OS
 .
 File
@@ -1192,7 +1171,7 @@ link2
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1218,7 +1197,7 @@ tmp
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -1230,7 +1209,7 @@ file1
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1243,7 +1222,7 @@ dir3
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -1255,7 +1234,7 @@ dir3
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1281,7 +1260,7 @@ tmp
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -1293,7 +1272,7 @@ file3
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1312,7 +1291,7 @@ link2
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -1324,7 +1303,7 @@ link2
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1337,7 +1316,7 @@ link
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -1352,7 +1331,7 @@ link
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -1364,7 +1343,7 @@ file1
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1377,7 +1356,7 @@ dir
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -1392,7 +1371,7 @@ dir
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -1404,7 +1383,7 @@ file3
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1417,7 +1396,7 @@ dir3
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File

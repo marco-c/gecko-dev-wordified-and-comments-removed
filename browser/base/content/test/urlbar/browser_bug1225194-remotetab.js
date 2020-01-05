@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_remotetab_opens
 (
 )
@@ -35,7 +35,7 @@ dummy_page
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -50,8 +50,8 @@ robots
 "
 gBrowser
 }
+async
 function
-*
 (
 )
 {
@@ -105,7 +105,7 @@ VK_RETURN
 }
 )
 ;
-yield
+await
 promiseTabLoaded
 ;
 Assert

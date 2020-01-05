@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -38,13 +38,13 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -64,7 +64,7 @@ random
 }
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -84,7 +84,7 @@ now
 }
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -104,7 +104,7 @@ random
 }
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -141,7 +141,7 @@ Ci
 nsIFile
 )
 ;
-yield
+await
 setInputValue
 (
 browser
@@ -159,7 +159,7 @@ path
 }
 )
 ;
-yield
+await
 setSelectedIndex
 (
 browser
@@ -175,7 +175,7 @@ index
 }
 )
 ;
-yield
+await
 setMultipleSelected
 (
 browser
@@ -195,7 +195,7 @@ indices
 }
 )
 ;
-yield
+await
 setInputChecked
 (
 browser
@@ -211,7 +211,7 @@ true
 }
 )
 ;
-yield
+await
 setInputChecked
 (
 browser
@@ -227,7 +227,7 @@ false
 }
 )
 ;
-yield
+await
 setInputChecked
 (
 browser
@@ -243,7 +243,7 @@ true
 }
 )
 ;
-yield
+await
 setInputChecked
 (
 browser
@@ -276,7 +276,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -285,7 +285,7 @@ tab2
 let
 inputFired
 =
-yield
+await
 getTextContent
 (
 browser2
@@ -323,7 +323,7 @@ join
 let
 changeFired
 =
-yield
+await
 getTextContent
 (
 browser2

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -46,7 +46,7 @@ existence
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -107,7 +107,7 @@ hide
 (
 )
 ;
-yield
+await
 panelHiddenPromise
 ;
 info

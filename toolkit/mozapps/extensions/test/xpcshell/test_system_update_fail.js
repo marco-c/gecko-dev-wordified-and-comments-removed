@@ -168,7 +168,6 @@ TEST_CONDITIONS
 blank
 :
 {
-*
 setup
 (
 )
@@ -234,7 +233,6 @@ null
 withAppSet
 :
 {
-*
 setup
 (
 )
@@ -308,7 +306,6 @@ null
 withProfileSet
 :
 {
-*
 setup
 (
 )
@@ -382,7 +379,6 @@ null
 withBothSets
 :
 {
-*
 setup
 (
 )
@@ -920,8 +916,8 @@ xpi
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -930,7 +926,7 @@ startupManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -940,8 +936,8 @@ promiseShutdownManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1002,7 +998,7 @@ TESTS
 testName
 ]
 ;
-yield
+await
 execSystemAddonTest
 (
 setupName

@@ -3,8 +3,8 @@ gManagerWindow
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -15,7 +15,7 @@ waitForExplicitFinish
 ;
 gManagerWindow
 =
-yield
+await
 open_manager
 (
 "
@@ -167,12 +167,8 @@ xpinstall
 var
 check_addon
 =
-Task
-.
 async
-(
 function
-*
 (
 aAddon
 aVersion
@@ -258,7 +254,7 @@ let
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 item
@@ -324,16 +320,15 @@ hidden
 )
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 install_addon
 (
 "
@@ -346,7 +341,7 @@ let
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -363,7 +358,7 @@ org
 ]
 )
 ;
-yield
+await
 check_addon
 (
 aAddon
@@ -391,7 +386,7 @@ disabled
 "
 )
 ;
-yield
+await
 install_addon
 (
 "
@@ -403,7 +398,7 @@ browser_bug596336_2
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -420,7 +415,7 @@ org
 ]
 )
 ;
-yield
+await
 check_addon
 (
 aAddon
@@ -476,12 +471,12 @@ list
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 install_addon
 (
 "
@@ -494,7 +489,7 @@ let
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -517,7 +512,7 @@ userDisabled
 =
 true
 ;
-yield
+await
 check_addon
 (
 aAddon
@@ -543,7 +538,7 @@ disabled
 "
 )
 ;
-yield
+await
 install_addon
 (
 "
@@ -555,7 +550,7 @@ browser_bug596336_2
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -572,7 +567,7 @@ org
 ]
 )
 ;
-yield
+await
 check_addon
 (
 aAddon
@@ -626,12 +621,12 @@ list
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 install_addon
 (
 "
@@ -644,7 +639,7 @@ let
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -661,7 +656,7 @@ org
 ]
 )
 ;
-yield
+await
 check_addon
 (
 aAddon
@@ -771,7 +766,7 @@ visible
 "
 )
 ;
-yield
+await
 install_addon
 (
 "
@@ -783,7 +778,7 @@ browser_bug596336_2
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -800,7 +795,7 @@ org
 ]
 )
 ;
-yield
+await
 check_addon
 (
 aAddon
@@ -856,12 +851,12 @@ list
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 install_addon
 (
 "
@@ -874,7 +869,7 @@ let
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -897,7 +892,7 @@ userDisabled
 =
 true
 ;
-yield
+await
 check_addon
 (
 aAddon
@@ -1005,7 +1000,7 @@ visible
 "
 )
 ;
-yield
+await
 install_addon
 (
 "
@@ -1017,7 +1012,7 @@ browser_bug596336_2
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1034,7 +1029,7 @@ org
 ]
 )
 ;
-yield
+await
 check_addon
 (
 aAddon

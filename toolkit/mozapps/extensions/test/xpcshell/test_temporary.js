@@ -321,8 +321,8 @@ event
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -474,7 +474,7 @@ unexpectedly
 }
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -564,7 +564,7 @@ ADDON_INSTALL
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -649,7 +649,7 @@ AddonManager
 SIGNEDSTATE_NOT_REQUIRED
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -670,7 +670,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -682,7 +682,7 @@ addon
 null
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -692,12 +692,12 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -738,7 +738,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -940,7 +940,7 @@ js
 "
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -974,7 +974,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1092,7 +1092,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1283,7 +1283,7 @@ xpi
 "
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -1293,7 +1293,7 @@ packed_addon
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1411,7 +1411,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1544,7 +1544,7 @@ ID
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1564,7 +1564,7 @@ promiseAddonStartup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1699,7 +1699,7 @@ ID
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1719,7 +1719,7 @@ promiseAddonStartup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1876,7 +1876,7 @@ png
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1896,7 +1896,7 @@ promiseAddonStartup
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2003,7 +2003,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2109,7 +2109,7 @@ checkAddonNotStarted
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2119,12 +2119,12 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -2404,7 +2404,7 @@ unexpectedly
 }
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -2430,7 +2430,7 @@ installedCalled
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2540,7 +2540,7 @@ uninstall
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2666,7 +2666,7 @@ checkAddonNotStarted
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2676,8 +2676,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -2748,7 +2748,7 @@ js
 "
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -2830,7 +2830,7 @@ startup
 ID
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -2841,7 +2841,7 @@ unpackedAddon
 const
 shutdown
 =
-yield
+await
 onShutdown
 ;
 equal
@@ -2871,7 +2871,7 @@ ADDON_UPGRADE
 const
 uninstall
 =
-yield
+await
 onUninstall
 ;
 equal
@@ -2901,7 +2901,7 @@ ADDON_UPGRADE
 const
 install
 =
-yield
+await
 onInstall
 ;
 equal
@@ -2945,7 +2945,7 @@ oldVersion
 const
 startup
 =
-yield
+await
 onStartup
 ;
 equal
@@ -2989,7 +2989,7 @@ oldVersion
 const
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -3008,7 +3008,7 @@ remove
 true
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -3018,8 +3018,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -3090,7 +3090,7 @@ js
 "
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -3172,7 +3172,7 @@ startup
 ID
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -3183,7 +3183,7 @@ unpackedAddon
 const
 shutdown
 =
-yield
+await
 onShutdown
 ;
 equal
@@ -3213,7 +3213,7 @@ ADDON_DOWNGRADE
 const
 uninstall
 =
-yield
+await
 onUninstall
 ;
 equal
@@ -3243,7 +3243,7 @@ ADDON_DOWNGRADE
 const
 install
 =
-yield
+await
 onInstall
 ;
 equal
@@ -3273,7 +3273,7 @@ ADDON_DOWNGRADE
 const
 startup
 =
-yield
+await
 onStartup
 ;
 equal
@@ -3303,7 +3303,7 @@ ADDON_DOWNGRADE
 const
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -3322,7 +3322,7 @@ remove
 true
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -3332,8 +3332,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -3426,7 +3426,7 @@ startup
 ID
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -3437,7 +3437,7 @@ unpackedAddon
 const
 initialInstall
 =
-yield
+await
 onInitialInstall
 ;
 equal
@@ -3467,7 +3467,7 @@ ADDON_INSTALL
 const
 initialStartup
 =
-yield
+await
 onInitialStartup
 ;
 equal
@@ -3560,7 +3560,7 @@ startup
 ID
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -3571,7 +3571,7 @@ unpackedAddon
 const
 shutdown
 =
-yield
+await
 onShutdown
 ;
 equal
@@ -3601,7 +3601,7 @@ ADDON_UPGRADE
 const
 uninstall
 =
-yield
+await
 onUninstall
 ;
 equal
@@ -3631,7 +3631,7 @@ ADDON_UPGRADE
 const
 reInstall
 =
-yield
+await
 onInstall
 ;
 equal
@@ -3661,7 +3661,7 @@ ADDON_UPGRADE
 const
 startup
 =
-yield
+await
 onStartup
 ;
 equal
@@ -3691,7 +3691,7 @@ ADDON_UPGRADE
 const
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -3710,7 +3710,7 @@ remove
 true
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -3720,12 +3720,12 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -3766,7 +3766,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -3963,7 +3963,7 @@ true
 }
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -3979,7 +3979,7 @@ extInstallCalled
 let
 tempAddon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -4107,7 +4107,7 @@ false
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -4231,7 +4231,7 @@ checkAddonNotStarted
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -4241,12 +4241,12 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -4307,7 +4307,7 @@ non_restartless_ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 non_restartless_ID
@@ -4484,7 +4484,7 @@ non_restartless_ID
 ;
 try
 {
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -4578,7 +4578,7 @@ checkAddonNotStarted
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -4588,12 +4588,12 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -4609,7 +4609,7 @@ test_bootstrap1_1
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -4725,7 +4725,7 @@ AddonManager
 SIGNEDSTATE_NOT_REQUIRED
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -4762,7 +4762,7 @@ ID
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -4786,12 +4786,12 @@ ID
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -4807,7 +4807,7 @@ test_bootstrap1_1
 const
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -4827,7 +4827,7 @@ temporarilyInstalled
 true
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -4837,12 +4837,12 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -4859,7 +4859,7 @@ true
 const
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -4879,7 +4879,7 @@ temporarilyInstalled
 false
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )

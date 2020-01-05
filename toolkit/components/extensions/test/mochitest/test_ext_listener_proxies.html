@@ -171,8 +171,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_listener_proxies
 (
 )
@@ -367,14 +367,14 @@ listeners
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -386,7 +386,7 @@ listeners
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -467,15 +467,15 @@ listener
 }
 add_task
 (
+async
 function
-*
 test_install_from_file
 (
 )
 {
 gManagerWindow
 =
-yield
+await
 open_manager
 (
 "
@@ -560,7 +560,7 @@ cmd_installFromFile
 "
 )
 ;
-yield
+await
 pInstallURIClosed
 ;
 MockFilePicker
@@ -569,7 +569,7 @@ cleanup
 (
 )
 ;
-yield
+await
 close_manager
 (
 gManagerWindow

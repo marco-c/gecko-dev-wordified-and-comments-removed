@@ -523,8 +523,8 @@ promise
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -650,7 +650,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -662,7 +662,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -674,7 +674,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -686,7 +686,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -698,7 +698,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -714,7 +714,7 @@ A
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -730,7 +730,7 @@ B1
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -746,7 +746,7 @@ B2
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -762,7 +762,7 @@ C
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -896,7 +896,7 @@ resolve
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -905,7 +905,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -915,7 +915,7 @@ null
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -924,7 +924,7 @@ null
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -938,7 +938,7 @@ blah
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -951,7 +951,7 @@ A
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -963,7 +963,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -977,7 +977,7 @@ A
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -990,7 +990,7 @@ A
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -1010,7 +1010,7 @@ defer
 (
 )
 ;
-yield
+await
 FormHistory
 .
 count
@@ -1072,7 +1072,7 @@ resolve
 }
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -1081,7 +1081,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdateEntry
 (
 "
@@ -1095,7 +1095,7 @@ A
 null
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1111,7 +1111,7 @@ A
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1127,7 +1127,7 @@ B1
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1143,7 +1143,7 @@ B2
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1159,7 +1159,7 @@ C
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1175,7 +1175,7 @@ D
 checkExists
 )
 ;
-yield
+await
 countDeletedEntries
 (
 1
@@ -1185,7 +1185,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdateEntry
 (
 "
@@ -1199,7 +1199,7 @@ B
 null
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1215,7 +1215,7 @@ A
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1231,7 +1231,7 @@ B1
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1247,7 +1247,7 @@ B2
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1263,7 +1263,7 @@ C
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1279,7 +1279,7 @@ D
 checkExists
 )
 ;
-yield
+await
 countDeletedEntries
 (
 3
@@ -1289,7 +1289,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1301,7 +1301,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1313,7 +1313,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1325,7 +1325,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1337,7 +1337,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -1355,7 +1355,7 @@ firstUsedEnd
 }
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1367,7 +1367,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1379,7 +1379,7 @@ null
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1391,7 +1391,7 @@ null
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1403,7 +1403,7 @@ null
 checkExists
 )
 ;
-yield
+await
 countDeletedEntries
 (
 4
@@ -1413,7 +1413,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -1431,7 +1431,7 @@ firstUsedEnd
 }
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1443,7 +1443,7 @@ null
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1455,7 +1455,7 @@ null
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1467,7 +1467,7 @@ null
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1479,7 +1479,7 @@ null
 checkExists
 )
 ;
-yield
+await
 countDeletedEntries
 (
 6
@@ -1489,7 +1489,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdateEntry
 (
 "
@@ -1499,7 +1499,7 @@ null
 null
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1511,7 +1511,7 @@ null
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1523,7 +1523,7 @@ null
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1539,7 +1539,7 @@ C
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1555,7 +1555,7 @@ D
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -1563,7 +1563,7 @@ null
 checkNotExists
 )
 ;
-yield
+await
 countDeletedEntries
 (
 6
@@ -1573,7 +1573,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdateEntry
 (
 "
@@ -1591,7 +1591,7 @@ A
 "
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1611,7 +1611,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdateEntry
 (
 "
@@ -1629,7 +1629,7 @@ A
 "
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1649,7 +1649,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdateEntry
 (
 "
@@ -1663,7 +1663,7 @@ value1
 "
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1725,7 +1725,7 @@ undefined
 let
 results
 =
-yield
+await
 promiseSearchEntries
 (
 [
@@ -1785,7 +1785,7 @@ lastUsed
 0
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -1804,7 +1804,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdateEntry
 (
 "
@@ -1818,7 +1818,7 @@ value1b
 "
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1830,7 +1830,7 @@ value1
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1842,7 +1842,7 @@ value1b
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -1863,7 +1863,7 @@ testnum
 ;
 results
 =
-yield
+await
 promiseSearchEntries
 (
 [
@@ -1896,7 +1896,7 @@ results
 3
 ]
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -1914,7 +1914,7 @@ modifiedValue
 }
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1926,7 +1926,7 @@ modifiedValue
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1938,7 +1938,7 @@ value1
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -1950,7 +1950,7 @@ value1b
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -1969,7 +1969,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -2002,7 +2002,7 @@ lastUsed
 ;
 results
 =
-yield
+await
 promiseSearchEntries
 (
 [
@@ -2059,7 +2059,7 @@ do_check_eq
 lastUsed
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -2078,7 +2078,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -2111,7 +2111,7 @@ lastUsed
 ;
 results
 =
-yield
+await
 promiseSearchEntries
 (
 [
@@ -2169,7 +2169,7 @@ lastUsed
 500
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -2188,7 +2188,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -2221,7 +2221,7 @@ lastUsed
 ;
 results
 =
-yield
+await
 promiseSearchEntries
 (
 [
@@ -2278,7 +2278,7 @@ do_check_eq
 lastUsed
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -2299,7 +2299,7 @@ testnum
 ;
 results
 =
-yield
+await
 promiseSearchEntries
 (
 [
@@ -2331,7 +2331,7 @@ results
 3
 ]
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -2355,7 +2355,7 @@ lastUsed
 ;
 results
 =
-yield
+await
 promiseSearchEntries
 (
 [
@@ -2413,7 +2413,7 @@ lastUsed
 400
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -2432,7 +2432,7 @@ testnum
 +
 +
 ;
-yield
+await
 countDeletedEntries
 (
 7
@@ -2440,7 +2440,7 @@ countDeletedEntries
 ;
 results
 =
-yield
+await
 promiseSearchEntries
 (
 [
@@ -2472,7 +2472,7 @@ results
 3
 ]
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -2485,7 +2485,7 @@ guid
 }
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -2497,7 +2497,7 @@ modifiedValue
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -2509,7 +2509,7 @@ value1b
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -2524,13 +2524,13 @@ num
 )
 )
 ;
-yield
+await
 countDeletedEntries
 (
 8
 )
 ;
-yield
+await
 checkTimeDeleted
 (
 guid
@@ -2549,7 +2549,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -2580,7 +2580,7 @@ lastUsed
 }
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -2599,7 +2599,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdate
 (
 {
@@ -2617,7 +2617,7 @@ firstUsedEnd
 }
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -2629,7 +2629,7 @@ modifiedValue
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -2641,7 +2641,7 @@ value2
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -2653,7 +2653,7 @@ value3
 checkExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 "
@@ -2665,7 +2665,7 @@ value4
 checkNotExists
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -2680,7 +2680,7 @@ num
 )
 )
 ;
-yield
+await
 countDeletedEntries
 (
 10
@@ -2690,7 +2690,7 @@ testnum
 +
 +
 ;
-yield
+await
 promiseUpdate
 (
 [
@@ -2749,7 +2749,7 @@ lastUsed
 ]
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -2764,7 +2764,7 @@ num
 )
 )
 ;
-yield
+await
 promiseUpdate
 (
 [
@@ -2807,7 +2807,7 @@ value6
 ;
 results
 =
-yield
+await
 promiseSearchEntries
 (
 [
@@ -2896,7 +2896,7 @@ lastUsed
 700
 )
 ;
-yield
+await
 promiseCountEntries
 (
 null
@@ -3177,7 +3177,7 @@ fail
 "
 )
 ;
-yield
+await
 promiseUpdate
 (
 [

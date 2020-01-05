@@ -452,8 +452,8 @@ XPIStates
 }
 add_task
 (
+async
 function
-*
 detect_touches
 (
 )
@@ -468,7 +468,7 @@ pd
 ud
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -925,8 +925,8 @@ getTime
 ;
 add_task
 (
+async
 function
-*
 uninstall_bootstrap
 (
 )
@@ -936,7 +936,7 @@ let
 pe
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1033,8 +1033,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 install_bootstrap
 (
 )
@@ -1049,7 +1049,7 @@ getXS
 let
 installer
 =
-yield
+await
 promiseInstallFile
 (
 do_get_addon
@@ -1123,8 +1123,8 @@ uninstall
 ;
 add_task
 (
+async
 function
-*
 install_restart
 (
 )
@@ -1139,7 +1139,7 @@ getXS
 let
 installer
 =
-yield
+await
 promiseInstallFile
 (
 do_get_addon
@@ -1192,7 +1192,7 @@ newAddon
 =
 null
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1205,7 +1205,7 @@ getXS
 ;
 newAddon
 =
-yield
+await
 promiseAddonByID
 (
 newID
@@ -1272,7 +1272,7 @@ newAddon
 =
 null
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1311,7 +1311,7 @@ enabled
 ;
 newAddon
 =
-yield
+await
 promiseAddonByID
 (
 newID
@@ -1338,7 +1338,7 @@ newAddon
 =
 null
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1377,7 +1377,7 @@ enabled
 ;
 newAddon
 =
-yield
+await
 promiseAddonByID
 (
 newID
@@ -1423,7 +1423,7 @@ newAddon
 =
 null
 ;
-yield
+await
 promiseRestartManager
 (
 )

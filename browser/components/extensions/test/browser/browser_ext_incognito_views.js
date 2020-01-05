@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testIncognitoViews
 (
 )
@@ -854,14 +854,14 @@ browser
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -873,7 +873,7 @@ views
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -491,12 +491,12 @@ deferredTask
 new
 DeferredTask
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseTimeout
 (
 4
@@ -838,8 +838,8 @@ deferredTask
 new
 DeferredTask
 (
+async
 function
-*
 (
 )
 {
@@ -849,7 +849,7 @@ arm
 (
 )
 ;
-yield
+await
 promiseTimeout
 (
 2
@@ -966,8 +966,8 @@ deferredTask
 new
 DeferredTask
 (
+async
 function
-*
 (
 )
 {
@@ -980,7 +980,7 @@ executed
 =
 true
 ;
-yield
+await
 promiseTimeout
 (
 2
@@ -1291,8 +1291,8 @@ deferredTask
 new
 DeferredTask
 (
+async
 function
-*
 (
 )
 {
@@ -1383,7 +1383,7 @@ true
 )
 ;
 }
-yield
+await
 promiseTimeout
 (
 1

@@ -170,8 +170,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -202,7 +202,7 @@ Reports
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab

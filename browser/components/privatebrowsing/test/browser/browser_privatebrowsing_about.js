@@ -1,5 +1,5 @@
+async
 function
-*
 openAboutPrivateBrowsing
 (
 )
@@ -7,7 +7,7 @@ openAboutPrivateBrowsing
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -39,7 +39,7 @@ privatebrowsing
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -54,8 +54,8 @@ tab
 }
 ;
 }
+async
 function
-*
 testLinkOpensTab
 (
 {
@@ -79,15 +79,15 @@ gBrowser
 expectedUrl
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 tab
 elementId
+async
 function
-*
 (
 elemId
 )
@@ -111,7 +111,7 @@ click
 let
 newTab
 =
-yield
+await
 newTabPromise
 ;
 ok
@@ -132,7 +132,7 @@ tab
 .
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -141,8 +141,8 @@ newTab
 )
 ;
 }
+async
 function
-*
 testLinkOpensUrl
 (
 {
@@ -163,15 +163,15 @@ browserLoaded
 tab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 tab
 elementId
+async
 function
-*
 (
 elemId
 )
@@ -192,7 +192,7 @@ click
 }
 )
 ;
-yield
+await
 loadedPromise
 ;
 is
@@ -221,8 +221,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 test_links
 (
 )
@@ -323,12 +323,12 @@ win
 tab
 }
 =
-yield
+await
 openAboutPrivateBrowsing
 (
 )
 ;
-yield
+await
 testLinkOpensTab
 (
 {
@@ -357,7 +357,7 @@ browsing
 }
 )
 ;
-yield
+await
 testLinkOpensUrl
 (
 {
@@ -384,7 +384,7 @@ tour
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -397,8 +397,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 test_toggleTrackingProtection
 (
 )
@@ -453,7 +453,7 @@ win
 tab
 }
 =
-yield
+await
 openAboutPrivateBrowsing
 (
 )
@@ -548,7 +548,7 @@ waitForPrefChanged
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -556,8 +556,8 @@ spawn
 tab
 {
 }
+async
 function
-*
 (
 )
 {
@@ -579,7 +579,7 @@ click
 }
 )
 ;
-yield
+await
 promisePrefChanged
 ;
 ok
@@ -608,7 +608,7 @@ waitForPrefChanged
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -616,8 +616,8 @@ spawn
 tab
 {
 }
+async
 function
-*
 (
 )
 {
@@ -639,7 +639,7 @@ click
 }
 )
 ;
-yield
+await
 promisePrefChanged
 ;
 ok
@@ -661,7 +661,7 @@ enabled
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

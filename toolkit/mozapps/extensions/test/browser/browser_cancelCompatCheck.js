@@ -652,8 +652,8 @@ deferred
 promise
 ;
 }
+async
 function
-*
 promise_uninstall_test_addons
 (
 )
@@ -672,7 +672,7 @@ uninstalls
 let
 addons
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -824,7 +824,7 @@ null
 )
 ;
 }
-yield
+await
 deferred
 .
 promise
@@ -1230,8 +1230,8 @@ ao9
 id
 ]
 ;
+async
 function
-*
 check_addons_uninstalled
 (
 aAddonList
@@ -1240,7 +1240,7 @@ aAddonList
 let
 foundList
 =
-yield
+await
 promise_addons_by_ids
 (
 aAddonList
@@ -1312,14 +1312,14 @@ complete
 "
 )
 ;
-yield
+await
 true
 ;
 }
 add_task
 (
+async
 function
-*
 cancel_during_repopulate
 (
 )
@@ -1404,7 +1404,7 @@ ao9
 ao10
 ]
 ;
-yield
+await
 promise_install_test_addons
 (
 addonList
@@ -1451,7 +1451,7 @@ a8
 a9
 ]
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -1515,7 +1515,7 @@ compatible
 let
 compatWindow
 =
-yield
+await
 promise_open_compatibility_window
 (
 [
@@ -1535,7 +1535,7 @@ compatWindow
 .
 document
 ;
-yield
+await
 promise_page
 (
 compatWindow
@@ -1544,7 +1544,7 @@ versioninfo
 "
 )
 ;
-yield
+await
 delayMS
 (
 50
@@ -1598,7 +1598,7 @@ complete
 "
 )
 ;
-yield
+await
 installsDone
 ;
 ok
@@ -1638,7 +1638,7 @@ resolve
 let
 installs
 =
-yield
+await
 getInstalls
 .
 promise
@@ -1671,7 +1671,7 @@ a9
 a10
 ]
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -1756,7 +1756,7 @@ done
 "
 )
 ;
-yield
+await
 promise_uninstall_test_addons
 (
 )
@@ -1777,8 +1777,8 @@ ons
 ;
 add_task
 (
+async
 function
-*
 cancel_during_findUpdates
 (
 )
@@ -1875,7 +1875,7 @@ ao8
 ao9
 ]
 ;
-yield
+await
 promise_install_test_addons
 (
 addonList
@@ -1892,7 +1892,7 @@ sjs
 a8
 ]
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -1923,7 +1923,7 @@ true
 let
 compatWindow
 =
-yield
+await
 promise_open_compatibility_window
 (
 inactiveAddonIds
@@ -1936,7 +1936,7 @@ compatWindow
 .
 document
 ;
-yield
+await
 promise_page
 (
 compatWindow
@@ -1958,10 +1958,10 @@ updated
 "
 )
 ;
-yield
+await
 observeUpdateDone
 ;
-yield
+await
 delayMS
 (
 5
@@ -2016,7 +2016,7 @@ complete
 "
 )
 ;
-yield
+await
 installsDone
 ;
 ok
@@ -2042,7 +2042,7 @@ a8
 a9
 ]
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -2122,7 +2122,7 @@ resolve
 let
 installs
 =
-yield
+await
 getInstalls
 .
 promise
@@ -2157,7 +2157,7 @@ done
 "
 )
 ;
-yield
+await
 promise_uninstall_test_addons
 (
 )
@@ -2167,8 +2167,8 @@ promise_uninstall_test_addons
 ;
 add_task
 (
+async
 function
-*
 cancel_mismatch
 (
 )
@@ -2249,7 +2249,7 @@ ao8
 ao9
 ]
 ;
-yield
+await
 promise_install_test_addons
 (
 addonList
@@ -2266,7 +2266,7 @@ sjs
 a8
 ]
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -2291,7 +2291,7 @@ a8
 a9
 ]
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -2383,7 +2383,7 @@ true
 let
 compatWindow
 =
-yield
+await
 promise_open_compatibility_window
 (
 inactiveAddonIds
@@ -2406,7 +2406,7 @@ page
 "
 )
 ;
-yield
+await
 promise_page
 (
 compatWindow
@@ -2454,7 +2454,7 @@ button
 compatWindow
 )
 ;
-yield
+await
 promise_window_close
 (
 compatWindow
@@ -2473,7 +2473,7 @@ cancel_mismatch
 "
 )
 ;
-yield
+await
 installsDone
 ;
 [
@@ -2482,7 +2482,7 @@ a8
 a9
 ]
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -2562,7 +2562,7 @@ resolve
 let
 installs
 =
-yield
+await
 pInstalls
 .
 promise
@@ -2596,12 +2596,12 @@ toSource
 "
 )
 ;
-yield
+await
 promise_uninstall_test_addons
 (
 )
 ;
-yield
+await
 check_addons_uninstalled
 (
 addonList
@@ -2612,8 +2612,8 @@ addonList
 ;
 add_task
 (
+async
 function
-*
 cancel_mismatch_no_updates
 (
 )
@@ -2663,7 +2663,7 @@ ao5
 ao6
 ]
 ;
-yield
+await
 promise_install_test_addons
 (
 addonList
@@ -2682,7 +2682,7 @@ a5
 a6
 ]
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -2756,7 +2756,7 @@ true
 let
 compatWindow
 =
-yield
+await
 promise_open_compatibility_window
 (
 [
@@ -2789,7 +2789,7 @@ page
 "
 )
 ;
-yield
+await
 promise_page
 (
 compatWindow
@@ -2837,7 +2837,7 @@ button
 compatWindow
 )
 ;
-yield
+await
 promise_window_close
 (
 compatWindow
@@ -2849,7 +2849,7 @@ a5
 a6
 ]
 =
-yield
+await
 promise_addons_by_ids
 (
 [
@@ -2929,7 +2929,7 @@ resolve
 let
 installs
 =
-yield
+await
 pInstalls
 .
 promise
@@ -2963,12 +2963,12 @@ toSource
 "
 )
 ;
-yield
+await
 promise_uninstall_test_addons
 (
 )
 ;
-yield
+await
 check_addons_uninstalled
 (
 addonList

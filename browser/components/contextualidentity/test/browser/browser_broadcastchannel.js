@@ -47,8 +47,8 @@ empty_file
 html
 "
 ;
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -92,7 +92,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -109,13 +109,13 @@ browser
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -145,8 +145,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -154,8 +154,7 @@ test
 let
 receiver
 =
-yield
-*
+await
 openTabInUserContext
 (
 URI
@@ -171,7 +170,7 @@ contextualidentity
 broadcastchannel
 "
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -256,8 +255,7 @@ resolve
 let
 sender1
 =
-yield
-*
+await
 openTabInUserContext
 (
 URI
@@ -267,8 +265,7 @@ URI
 let
 sender2
 =
-yield
-*
+await
 openTabInUserContext
 (
 URI
@@ -312,7 +309,7 @@ sender2
 ]
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -363,7 +360,7 @@ message
 )
 ;
 }
-yield
+await
 ContentTask
 .
 spawn
@@ -374,13 +371,13 @@ browser
 sender2
 .
 message
+async
 function
-*
 (
 message
 )
 {
-yield
+await
 content
 .
 window

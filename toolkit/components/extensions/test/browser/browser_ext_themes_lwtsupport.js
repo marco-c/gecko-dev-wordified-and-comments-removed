@@ -5,13 +5,13 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -41,8 +41,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_support_LWT_properties
 (
 )
@@ -110,7 +110,7 @@ BACKGROUND
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -274,7 +274,7 @@ color
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -309,8 +309,8 @@ set
 ;
 add_task
 (
+async
 function
-*
 test_LWT_requires_all_properties_defined_image_only
 (
 )
@@ -362,7 +362,7 @@ BACKGROUND
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -401,7 +401,7 @@ set
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -436,8 +436,8 @@ set
 ;
 add_task
 (
+async
 function
-*
 test_LWT_requires_all_properties_defined_colors_only
 (
 )
@@ -479,7 +479,7 @@ TEXT_COLOR
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -518,7 +518,7 @@ set
 "
 )
 ;
-yield
+await
 extension
 .
 unload

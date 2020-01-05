@@ -192,8 +192,8 @@ ms
 }
 add_task
 (
+async
 function
-*
 test_content_script_css
 (
 )
@@ -274,7 +274,7 @@ width
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -295,7 +295,7 @@ html
 "
 )
 ;
-yield
+await
 waitForLoad
 (
 win
@@ -348,7 +348,7 @@ maxWidth
 break
 ;
 }
-yield
+await
 delay
 (
 0
@@ -370,7 +370,7 @@ applied
 "
 )
 ;
-yield
+await
 extension
 .
 unload

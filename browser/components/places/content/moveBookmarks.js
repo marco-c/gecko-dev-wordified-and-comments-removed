@@ -233,15 +233,15 @@ PlacesTransactions
 .
 batch
 (
+async
 function
-*
 (
 )
 {
 let
 newParentGuid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -272,7 +272,7 @@ selectedFolderId
 )
 continue
 ;
-yield
+await
 PlacesTransactions
 .
 Move

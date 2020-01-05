@@ -382,8 +382,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -407,7 +407,7 @@ org
 "
 )
 ;
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -423,7 +423,7 @@ check_results
 let
 placeId
 =
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -439,7 +439,7 @@ check_results
 do_check_eq
 (
 (
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -458,7 +458,7 @@ check_results
 do_check_eq
 (
 (
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -477,7 +477,7 @@ check_results
 do_check_eq
 (
 (
-yield
+await
 task_add_visit
 (
 TEST_URI
@@ -493,7 +493,7 @@ check_results
 1
 )
 ;
-yield
+await
 task_add_visit
 (
 TEST_URI

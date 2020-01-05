@@ -73,15 +73,15 @@ faster
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -173,7 +173,7 @@ handleCommand
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -234,7 +234,7 @@ synchronously
 "
 )
 ;
-yield
+await
 pageLoadPromise
 ;
 ok
@@ -270,7 +270,7 @@ obs
 =
 null
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

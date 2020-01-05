@@ -190,8 +190,8 @@ loaded
 ;
 add_task
 (
+async
 function
-*
 closeLastTabInWindow
 (
 )
@@ -199,7 +199,7 @@ closeLastTabInWindow
 let
 newWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -216,7 +216,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 promiseTabLoadEvent
 (
 firstTab
@@ -254,7 +254,7 @@ click
 (
 )
 ;
-yield
+await
 windowClosedPromise
 ;
 ok
@@ -291,8 +291,8 @@ closed
 ;
 add_task
 (
+async
 function
-*
 closeWindowWithMultipleTabsIncludingOneBeforeUnload
 (
 )
@@ -316,7 +316,7 @@ false
 let
 newWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -333,14 +333,14 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 promiseTabLoadEvent
 (
 firstTab
 TEST_PAGE
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 newWin
@@ -380,7 +380,7 @@ BrowserTryToCloseWindow
 (
 )
 ;
-yield
+await
 windowClosedPromise
 ;
 ok
@@ -432,8 +432,8 @@ warnOnClose
 ;
 add_task
 (
+async
 function
-*
 closeWindoWithSingleTabTwice
 (
 )
@@ -441,7 +441,7 @@ closeWindoWithSingleTabTwice
 let
 newWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -458,7 +458,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 promiseTabLoadEvent
 (
 firstTab
@@ -520,7 +520,7 @@ click
 (
 )
 ;
-yield
+await
 firstDialogShownPromise
 ;
 info
@@ -566,7 +566,7 @@ click
 (
 )
 ;
-yield
+await
 windowClosedPromise
 ;
 ok

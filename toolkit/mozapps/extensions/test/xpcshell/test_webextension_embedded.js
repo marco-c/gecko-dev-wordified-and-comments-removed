@@ -318,8 +318,8 @@ version
 ;
 add_task
 (
+async
 function
-*
 has_embedded_webextension_persisted
 (
 )
@@ -423,7 +423,7 @@ EMBEDDED_WEBEXT_MANIFEST
 }
 )
 ;
-yield
+await
 promiseInstallFile
 (
 xpiFile
@@ -432,7 +432,7 @@ xpiFile
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -574,7 +574,7 @@ object
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -662,7 +662,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -778,7 +778,7 @@ uninstall
 (
 )
 ;
-yield
+await
 waitUninstall
 ;
 }
@@ -786,8 +786,8 @@ waitUninstall
 ;
 add_task
 (
+async
 function
-*
 run_embedded_webext_bootstrap
 (
 )
@@ -889,7 +889,7 @@ EMBEDDED_WEBEXT_MANIFEST
 }
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -900,7 +900,7 @@ xpiFile
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1091,7 +1091,7 @@ promiseWebExtensionStartup
 const
 embeddedAPI
 =
-yield
+await
 startupInfo
 .
 data
@@ -1102,7 +1102,7 @@ startup
 (
 )
 ;
-yield
+await
 waitForWebExtensionStartup
 ;
 Assert
@@ -1169,10 +1169,10 @@ uninstall
 (
 )
 ;
-yield
+await
 waitForWebExtensionShutdown
 ;
-yield
+await
 waitUninstall
 ;
 BootstrapMonitor
@@ -1270,8 +1270,8 @@ params
 ;
 add_task
 (
+async
 function
-*
 reload_embedded_webext_bootstrap
 (
 )
@@ -1393,7 +1393,7 @@ EMBEDDED_WEBEXT_MANIFEST
 }
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -1404,7 +1404,7 @@ xpiFile
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1556,7 +1556,7 @@ get
 ID
 )
 ;
-yield
+await
 startupInfo
 .
 data
@@ -1583,7 +1583,7 @@ userDisabled
 =
 true
 ;
-yield
+await
 waitForAddonDisabled
 ;
 equal
@@ -1622,7 +1622,7 @@ userDisabled
 =
 false
 ;
-yield
+await
 waitForAddonEnabled
 ;
 equal
@@ -1690,7 +1690,7 @@ get
 ID
 )
 ;
-yield
+await
 startupInfo
 .
 data
@@ -1717,7 +1717,7 @@ reload
 (
 )
 ;
-yield
+await
 waitForReinstalled
 ;
 equal
@@ -1782,7 +1782,7 @@ get
 ID
 )
 ;
-yield
+await
 startupInfo
 .
 data
@@ -1809,7 +1809,7 @@ uninstall
 (
 )
 ;
-yield
+await
 waitUninstalled
 ;
 equal
@@ -1840,8 +1840,8 @@ uninstall
 ;
 add_task
 (
+async
 function
-*
 shutdown_embedded_webext_without_bootstrap_shutdown
 (
 )
@@ -1965,7 +1965,7 @@ EMBEDDED_WEBEXT_MANIFEST
 }
 )
 ;
-yield
+await
 AddonManager
 .
 installTemporaryAddon
@@ -1976,7 +1976,7 @@ xpiFile
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2123,7 +2123,7 @@ promiseWebExtensionStartup
 (
 )
 ;
-yield
+await
 startupInfo
 .
 data
@@ -2134,7 +2134,7 @@ startup
 (
 )
 ;
-yield
+await
 waitForWebExtensionStartup
 ;
 const
@@ -2194,7 +2194,7 @@ uninstall
 (
 )
 ;
-yield
+await
 waitUninstalled
 ;
 equal

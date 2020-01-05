@@ -18,8 +18,8 @@ aElementName
 aBarred
 aType
 ]
+async
 function
-*
 (
 [
 aElementName
@@ -335,8 +335,8 @@ aBrowser
 aElementName
 aBarred
 ]
+async
 function
-*
 (
 [
 aElementName
@@ -430,12 +430,12 @@ remove
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab

@@ -894,13 +894,13 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_getshortcutoruri
 (
 )
 {
-yield
+await
 setupKeywords
 (
 )
@@ -947,7 +947,7 @@ searchWord
 let
 returnedData
 =
-yield
+await
 getShortcutOrURIAndPostData
 (
 query
@@ -1026,7 +1026,7 @@ keyword
 )
 ;
 }
-yield
+await
 cleanupKeywords
 (
 )
@@ -1250,7 +1250,6 @@ addedEngine
 }
 }
 function
-*
 cleanupKeywords
 (
 )

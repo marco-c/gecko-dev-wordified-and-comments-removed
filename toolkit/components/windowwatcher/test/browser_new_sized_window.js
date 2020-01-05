@@ -118,8 +118,8 @@ url
 :
 SCRIPT_PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -127,7 +127,7 @@ browser
 let
 win
 =
-yield
+await
 newWinPromise
 ;
 let
@@ -293,7 +293,7 @@ mode
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -307,13 +307,13 @@ win
 }
 add_task
 (
+async
 function
-*
 test_new_sized_window
 (
 )
 {
-yield
+await
 test_dimensions
 (
 {
@@ -323,7 +323,7 @@ width
 }
 )
 ;
-yield
+await
 test_dimensions
 (
 {
@@ -333,7 +333,7 @@ height
 }
 )
 ;
-yield
+await
 test_dimensions
 (
 {

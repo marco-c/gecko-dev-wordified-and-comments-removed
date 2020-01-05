@@ -19,13 +19,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_paramSubstitution
 (
 )
 {
-yield
+await
 asyncInit
 (
 )
@@ -53,7 +53,7 @@ let
 engine
 ]
 =
-yield
+await
 addTestEngines
 (
 [

@@ -146,8 +146,8 @@ click
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -172,7 +172,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -191,7 +191,7 @@ TAB_STATE
 )
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -293,12 +293,12 @@ true
 let
 win
 =
-yield
+await
 waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

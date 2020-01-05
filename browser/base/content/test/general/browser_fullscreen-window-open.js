@@ -1217,8 +1217,8 @@ stringify
 (
 aParam
 )
+async
 function
-*
 (
 dataTestParam
 )

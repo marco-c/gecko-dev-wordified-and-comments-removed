@@ -173,8 +173,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_background_canvas
 (
 )
@@ -309,14 +309,14 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -328,7 +328,7 @@ canvas
 "
 )
 ;
-yield
+await
 extension
 .
 unload

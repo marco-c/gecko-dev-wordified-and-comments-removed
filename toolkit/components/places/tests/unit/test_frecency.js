@@ -485,8 +485,8 @@ n
 )
 ;
 }
+async
 function
-*
 task_setCountDate
 (
 aURI
@@ -534,7 +534,7 @@ TRANSITION_TYPED
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1202,7 +1202,6 @@ site
 ;
 }
 function
-*
 (
 )
 {
@@ -1248,7 +1247,6 @@ a
 ;
 }
 function
-*
 (
 )
 {
@@ -1294,7 +1292,6 @@ aa
 ;
 }
 function
-*
 (
 )
 {
@@ -1340,7 +1337,6 @@ aaa
 ;
 }
 function
-*
 (
 )
 {
@@ -1386,7 +1382,6 @@ aaaa
 ;
 }
 function
-*
 (
 )
 {
@@ -1432,7 +1427,6 @@ aaa
 ;
 }
 function
-*
 (
 )
 {
@@ -1478,7 +1472,6 @@ aa
 ;
 }
 function
-*
 (
 )
 {
@@ -1530,8 +1523,8 @@ deferEnsureResults
 ;
 add_task
 (
+async
 function
-*
 test_frecency
 (
 )
@@ -1655,7 +1648,7 @@ of
 tests
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1664,7 +1657,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -1679,12 +1672,12 @@ defer
 (
 )
 ;
-yield
+await
 test
 (
 )
 ;
-yield
+await
 deferEnsureResults
 .
 promise

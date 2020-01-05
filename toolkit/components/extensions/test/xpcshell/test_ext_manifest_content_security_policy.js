@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_manifest_csp
 (
 )
@@ -14,7 +14,7 @@ test_manifest_csp
 let
 normalized
 =
-yield
+await
 ExtensionTestUtils
 .
 normalizeManifest
@@ -107,7 +107,7 @@ string
 ;
 normalized
 =
-yield
+await
 ExtensionTestUtils
 .
 normalizeManifest

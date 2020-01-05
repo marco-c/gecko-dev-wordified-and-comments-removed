@@ -33,8 +33,8 @@ FX_SESSION_RESTORE_SEND_UPDATE_CAUSED_OOM
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -166,8 +166,8 @@ sendSyncMessage
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -208,7 +208,7 @@ newTab
 .
 linkedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -285,10 +285,10 @@ failed
 }
 )
 ;
-yield
+await
 promiseReported
 ;
-yield
+await
 new
 Promise
 (
@@ -343,8 +343,8 @@ sum
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )

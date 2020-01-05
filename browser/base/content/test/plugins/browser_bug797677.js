@@ -62,8 +62,8 @@ interfaces
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -209,7 +209,7 @@ registerListener
 errorListener
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -227,7 +227,7 @@ html
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -256,7 +256,7 @@ found
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn

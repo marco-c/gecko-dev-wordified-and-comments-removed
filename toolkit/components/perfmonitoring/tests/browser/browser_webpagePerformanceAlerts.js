@@ -176,8 +176,8 @@ prototype
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -252,8 +252,8 @@ oldDelay
 ;
 add_task
 (
+async
 function
-*
 test_open_window_then_watch_it
 (
 )
@@ -266,12 +266,12 @@ WebpageBurner
 (
 )
 ;
-yield
+await
 burner
 .
 promiseInitialized
 ;
-yield
+await
 burner
 .
 promiseBurnContentCPU
@@ -382,7 +382,7 @@ addTab
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -463,7 +463,7 @@ windowId
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -477,7 +477,7 @@ resolve
 )
 )
 ;
-yield
+await
 burner
 .
 run
@@ -698,7 +698,7 @@ id
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -712,7 +712,7 @@ resolve
 )
 )
 ;
-yield
+await
 burner
 .
 run
@@ -724,7 +724,7 @@ promiseBurnContentCPU
 realListener
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -840,7 +840,7 @@ still
 triggered
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -860,7 +860,7 @@ unregister
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -874,7 +874,7 @@ resolve
 )
 )
 ;
-yield
+await
 burner
 .
 run
@@ -930,7 +930,7 @@ unregister
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -944,7 +944,7 @@ resolve
 )
 )
 ;
-yield
+await
 burner
 .
 run

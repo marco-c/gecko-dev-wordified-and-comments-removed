@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testDetailsObjects
 (
 )
@@ -2197,7 +2197,7 @@ css
 devPixelsPerPx
 "
 ;
-yield
+await
 extension
 .
 startup
@@ -2231,7 +2231,7 @@ extension
 let
 tests
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -2259,7 +2259,7 @@ setIcon
 test
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2269,7 +2269,7 @@ iconSet
 "
 )
 ;
-yield
+await
 promiseAnimationFrame
 (
 )
@@ -2311,7 +2311,7 @@ resolutions
 )
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -2430,7 +2430,7 @@ present
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv
@@ -2461,7 +2461,7 @@ CustomizableUI
 AREA_PANEL
 )
 ;
-yield
+await
 showBrowserAction
 (
 extension
@@ -2493,7 +2493,7 @@ menuResolutions
 )
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -2558,7 +2558,7 @@ x
 resolution
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv
@@ -2566,7 +2566,7 @@ popPrefEnv
 )
 ;
 }
-yield
+await
 closeBrowserAction
 (
 extension
@@ -2585,7 +2585,7 @@ AREA_NAVBAR
 )
 ;
 }
-yield
+await
 extension
 .
 unload

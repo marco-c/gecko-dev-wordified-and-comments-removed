@@ -394,8 +394,8 @@ aurora
 ;
 add_task
 (
+async
 function
-*
 terminateScriptTest
 (
 )
@@ -432,7 +432,7 @@ report
 let
 notification
 =
-yield
+await
 promise
 ;
 let
@@ -475,7 +475,7 @@ click
 (
 )
 ;
-yield
+await
 promise
 ;
 }
@@ -483,8 +483,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 waitForScriptTest
 (
 )
@@ -521,7 +521,7 @@ report
 let
 notification
 =
-yield
+await
 promise
 ;
 let
@@ -538,7 +538,7 @@ button
 "
 )
 ;
-yield
+await
 pushPrefs
 (
 [
@@ -661,7 +661,7 @@ testCallback
 =
 oldcb
 ;
-yield
+await
 popPrefs
 (
 )
@@ -671,13 +671,13 @@ popPrefs
 ;
 add_task
 (
+async
 function
-*
 hangGoesAwayTest
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -721,7 +721,7 @@ report
 "
 )
 ;
-yield
+await
 promise
 ;
 promise
@@ -749,10 +749,10 @@ report
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 popPrefs
 (
 )
@@ -762,8 +762,8 @@ popPrefs
 ;
 add_task
 (
+async
 function
-*
 terminatePluginTest
 (
 )
@@ -800,7 +800,7 @@ report
 let
 notification
 =
-yield
+await
 promise
 ;
 let
@@ -843,7 +843,7 @@ click
 (
 )
 ;
-yield
+await
 promise
 ;
 }

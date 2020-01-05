@@ -109,8 +109,8 @@ spawn
 (
 browser
 blobURL
+async
 function
-*
 (
 contentBlobURL
 )
@@ -283,7 +283,7 @@ blob
 let
 blob
 =
-yield
+await
 blobURLtoBlob
 (
 contentBlobURL
@@ -308,7 +308,7 @@ error
 ;
 }
 return
-yield
+await
 blobToString
 (
 blob
@@ -336,8 +336,8 @@ browser
 scriptFile
 message
 }
+async
 function
-*
 (
 args
 )
@@ -424,7 +424,7 @@ message
 )
 ;
 return
-yield
+await
 promise
 ;
 }

@@ -45,12 +45,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -70,7 +67,7 @@ addTab
 (
 )
 ;
-yield
+await
 FullZoomHelper
 .
 selectTabAndWaitForLocationChange
@@ -78,7 +75,7 @@ selectTabAndWaitForLocationChange
 tab1
 )
 ;
-yield
+await
 FullZoomHelper
 .
 load
@@ -131,7 +128,7 @@ changed
 "
 )
 ;
-yield
+await
 FullZoomHelper
 .
 selectTabAndWaitForLocationChange
@@ -158,7 +155,7 @@ be
 "
 )
 ;
-yield
+await
 FullZoomHelper
 .
 selectTabAndWaitForLocationChange
@@ -185,7 +182,7 @@ changed
 "
 )
 ;
-yield
+await
 FullZoomHelper
 .
 removeTabAndWaitForLocationChange
@@ -193,7 +190,7 @@ removeTabAndWaitForLocationChange
 tab1
 )
 ;
-yield
+await
 FullZoomHelper
 .
 removeTabAndWaitForLocationChange
@@ -202,6 +199,8 @@ tab2
 )
 ;
 }
+)
+(
 )
 .
 then

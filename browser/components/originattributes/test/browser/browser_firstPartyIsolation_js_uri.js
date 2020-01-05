@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -51,8 +51,8 @@ isolate
 ;
 add_task
 (
+async
 function
-*
 test_remote_window_open_js_uri
 (
 )
@@ -60,7 +60,7 @@ test_remote_window_open_js_uri
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -107,7 +107,7 @@ javascript
 ;
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -115,8 +115,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -242,8 +242,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_remote_window_open_js_uri2
 (
 )
@@ -251,7 +251,7 @@ test_remote_window_open_js_uri2
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -354,7 +354,7 @@ com
 ;
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -394,7 +394,7 @@ com
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -402,8 +402,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {

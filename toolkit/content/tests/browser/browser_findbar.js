@@ -86,8 +86,8 @@ s
 ;
 add_task
 (
+async
 function
-*
 test_hotkey_event_propagation
 (
 )
@@ -109,7 +109,7 @@ stopPropagation
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -178,7 +178,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -188,7 +188,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 sendChar
@@ -213,7 +213,7 @@ hidden
 "
 )
 ;
-yield
+await
 closeFindbarAndWait
 (
 findbar
@@ -342,7 +342,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -352,7 +352,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 sendChar
@@ -377,7 +377,7 @@ hidden
 "
 )
 ;
-yield
+await
 closeFindbarAndWait
 (
 findbar
@@ -396,8 +396,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_not_found
 (
 )
@@ -421,7 +421,7 @@ tab
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -430,7 +430,7 @@ gBrowser
 TEST_PAGE_URI
 )
 ;
-yield
+await
 promiseFindFinished
 (
 "
@@ -493,8 +493,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_found
 (
 )
@@ -502,7 +502,7 @@ test_found
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -511,7 +511,7 @@ gBrowser
 TEST_PAGE_URI
 )
 ;
-yield
+await
 promiseFindFinished
 (
 "
@@ -553,8 +553,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_tabwise_case_sensitive
 (
 )
@@ -562,7 +562,7 @@ test_tabwise_case_sensitive
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -583,7 +583,7 @@ getFindBar
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -624,7 +624,7 @@ selectedTab
 =
 tab1
 ;
-yield
+await
 promiseFindFinished
 (
 "
@@ -663,7 +663,7 @@ selectedTab
 =
 tab2
 ;
-yield
+await
 promiseFindFinished
 (
 "
@@ -708,8 +708,8 @@ tab2
 ;
 add_task
 (
+async
 function
-*
 test_reinitialization_at_remoteness_change
 (
 )
@@ -757,7 +757,7 @@ change
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -785,7 +785,7 @@ getFindBar
 (
 )
 ;
-yield
+await
 promiseFindFinished
 (
 "
@@ -818,7 +818,7 @@ found
 "
 )
 ;
-yield
+await
 promiseFindFinished
 (
 "
@@ -859,14 +859,14 @@ now
 "
 )
 ;
-yield
+await
 promiseRemotenessChange
 (
 tab
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -893,7 +893,7 @@ more
 "
 )
 ;
-yield
+await
 promiseFindFinished
 (
 "
@@ -926,7 +926,7 @@ found
 "
 )
 ;
-yield
+await
 promiseFindFinished
 (
 "
@@ -952,7 +952,7 @@ empty
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -965,8 +965,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -998,7 +998,7 @@ return
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1126,7 +1126,7 @@ query
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1172,7 +1172,7 @@ query
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

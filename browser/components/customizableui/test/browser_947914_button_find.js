@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -47,7 +47,7 @@ functionality
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show

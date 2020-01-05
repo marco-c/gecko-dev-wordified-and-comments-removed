@@ -86,14 +86,8 @@ method
 argument
 ;
 }
-asyncMethod
-:
-Task
-.
 async
-(
-function
-*
+asyncMethod
 (
 argument
 )
@@ -112,7 +106,6 @@ asyncMethod
 argument
 ;
 }
-)
 }
 ;
 let
@@ -204,14 +197,8 @@ arguments
 )
 ;
 }
-asyncMethod
-:
-Task
-.
 async
-(
-function
-*
+asyncMethod
 (
 )
 {
@@ -222,7 +209,7 @@ overridden
 "
 +
 (
-yield
+await
 base
 .
 asyncMethod
@@ -235,7 +222,6 @@ arguments
 )
 ;
 }
-)
 }
 )
 ;
@@ -312,14 +298,8 @@ arguments
 )
 ;
 }
-asyncMethod
-:
-Task
-.
 async
-(
-function
-*
+asyncMethod
 (
 )
 {
@@ -330,7 +310,7 @@ overridden
 "
 +
 (
-yield
+await
 base
 .
 asyncMethod
@@ -343,7 +323,6 @@ arguments
 )
 ;
 }
-)
 }
 )
 ;
@@ -547,13 +526,13 @@ overridesCount
 }
 add_task
 (
+async
 function
-*
 test_base
 (
 )
 {
-yield
+await
 assertCurrentCombinedResults
 (
 0
@@ -564,8 +543,8 @@ assertCurrentCombinedResults
 ;
 add_task
 (
+async
 function
-*
 test_override
 (
 )
@@ -579,7 +558,7 @@ register
 overrideFn
 )
 ;
-yield
+await
 assertCurrentCombinedResults
 (
 1
@@ -594,7 +573,7 @@ register
 overrideFn
 )
 ;
-yield
+await
 assertCurrentCombinedResults
 (
 1
@@ -609,7 +588,7 @@ unregister
 overrideFn
 )
 ;
-yield
+await
 assertCurrentCombinedResults
 (
 0
@@ -620,8 +599,8 @@ assertCurrentCombinedResults
 ;
 add_task
 (
+async
 function
-*
 test_override_super_multiple
 (
 )
@@ -644,7 +623,7 @@ register
 superOverrideFn
 )
 ;
-yield
+await
 assertCurrentCombinedResults
 (
 2
@@ -659,7 +638,7 @@ unregister
 overrideFn
 )
 ;
-yield
+await
 assertCurrentCombinedResults
 (
 1
@@ -674,7 +653,7 @@ unregister
 superOverrideFn
 )
 ;
-yield
+await
 assertCurrentCombinedResults
 (
 0
@@ -685,8 +664,8 @@ assertCurrentCombinedResults
 ;
 add_task
 (
+async
 function
-*
 test_override_error
 (
 )
@@ -724,7 +703,7 @@ register
 overrideFn
 )
 ;
-yield
+await
 assertCurrentCombinedResults
 (
 1
@@ -748,7 +727,7 @@ unregister
 overrideFn
 )
 ;
-yield
+await
 assertCurrentCombinedResults
 (
 0
@@ -759,8 +738,8 @@ assertCurrentCombinedResults
 ;
 add_task
 (
+async
 function
-*
 test_state_preserved
 (
 )
@@ -883,8 +862,8 @@ valueObject
 ;
 add_task
 (
+async
 function
-*
 test_xpcom_throws
 (
 )
@@ -933,8 +912,8 @@ NS_NOINTERFACE
 ;
 add_task
 (
+async
 function
-*
 test_defineModuleGetter
 (
 )
@@ -1007,7 +986,7 @@ register
 overrideFn
 )
 ;
-yield
+await
 assertCombinedResults
 (
 objectForGetters
@@ -1016,7 +995,7 @@ integration
 1
 )
 ;
-yield
+await
 assertCombinedResults
 (
 objectForGetters
@@ -1034,7 +1013,7 @@ unregister
 overrideFn
 )
 ;
-yield
+await
 assertCombinedResults
 (
 objectForGetters
@@ -1043,7 +1022,7 @@ integration
 0
 )
 ;
-yield
+await
 assertCombinedResults
 (
 objectForGetters

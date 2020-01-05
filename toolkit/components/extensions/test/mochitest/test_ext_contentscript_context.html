@@ -184,8 +184,8 @@ listeners
 /
 add_task
 (
+async
 function
-*
 test_contentscript_context
 (
 )
@@ -338,7 +338,7 @@ contentScript
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -364,7 +364,7 @@ com
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -378,7 +378,7 @@ ready
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -515,7 +515,7 @@ org
 /
 "
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -573,7 +573,7 @@ back
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -615,7 +615,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -629,7 +629,7 @@ hide
 "
 )
 ;
-yield
+await
 extension
 .
 unload

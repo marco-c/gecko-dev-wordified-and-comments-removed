@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -31,7 +31,7 @@ net
 let
 window1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -41,7 +41,7 @@ openNewBrowserWindow
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -212,14 +212,14 @@ pin
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -233,7 +233,7 @@ pin
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -252,7 +252,7 @@ gBrowser
 tabs
 )
 {
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -261,7 +261,7 @@ tab
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow

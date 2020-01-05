@@ -30,15 +30,15 @@ tabs
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 prefs
 =
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -242,7 +242,7 @@ click
 (
 )
 ;
-yield
+await
 checkboxChanged
 ;
 ok
@@ -277,7 +277,7 @@ click
 (
 )
 ;
-yield
+await
 checkboxChanged
 ;
 ok

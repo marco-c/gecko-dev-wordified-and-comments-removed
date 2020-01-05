@@ -289,13 +289,13 @@ args
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -330,7 +330,7 @@ loads
 "
 )
 ;
-yield
+await
 loadPromise
 ;
 chromeScript
@@ -580,8 +580,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -786,7 +786,7 @@ blank
 html
 "
 ;
-yield
+await
 loadedPromise
 ;
 let
@@ -827,7 +827,7 @@ trying
 to
 submit
 .
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -873,7 +873,7 @@ promise
 above
 resolves
 .
-yield
+await
 new
 Promise
 (

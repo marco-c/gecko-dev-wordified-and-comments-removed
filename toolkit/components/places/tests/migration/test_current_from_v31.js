@@ -69,13 +69,13 @@ repeat
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 setupPlacesDatabase
 (
 "
@@ -107,7 +107,7 @@ DB_FILENAME
 let
 db
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -117,7 +117,7 @@ path
 }
 )
 ;
-yield
+await
 db
 .
 execute
@@ -162,7 +162,7 @@ bmurl
 }
 )
 ;
-yield
+await
 db
 .
 execute
@@ -206,7 +206,7 @@ longurl
 }
 )
 ;
-yield
+await
 db
 .
 close
@@ -218,8 +218,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 database_is_valid
 (
 )
@@ -243,7 +243,7 @@ DATABASE_STATUS_UPGRADED
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -255,7 +255,7 @@ Assert
 equal
 (
 (
-yield
+await
 db
 .
 getSchemaVersion
@@ -270,8 +270,8 @@ CURRENT_SCHEMA_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_longurls
 (
 )
@@ -279,7 +279,7 @@ test_longurls
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -289,7 +289,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -328,7 +328,7 @@ removed
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -367,7 +367,7 @@ retained
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -406,7 +406,7 @@ retained
 ;
 rows
 =
-yield
+await
 db
 .
 execute

@@ -83,8 +83,8 @@ file_firstPartyBasic
 html
 "
 ;
+async
 function
-*
 openTabInUserContext
 (
 aURL
@@ -130,7 +130,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -145,8 +145,8 @@ browser
 }
 ;
 }
+async
 function
-*
 openTabInFirstParty
 (
 aURL
@@ -221,7 +221,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -250,15 +250,15 @@ basicFrameSrc
 basicPageURL
 }
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 pageArgs
+async
 function
-*
 (
 arg
 )
@@ -469,7 +469,7 @@ type
 break
 ;
 }
-yield
+await
 new
 Promise
 (
@@ -692,8 +692,8 @@ return
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -712,14 +712,14 @@ aMode
 ]
 )
 ;
-yield
+await
 SpecialPowers
 .
 flushPrefEnv
 (
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -733,7 +733,7 @@ aPref
 }
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -758,7 +758,7 @@ processCount
 }
 )
 ;
-yield
+await
 aTask
 (
 aMode
@@ -976,8 +976,8 @@ this
 .
 _add_task
 (
+async
 function
-*
 (
 aMode
 )
@@ -1003,7 +1003,7 @@ if
 aBeforeFunc
 )
 {
-yield
+await
 aBeforeFunc
 (
 aMode
@@ -1013,7 +1013,7 @@ aMode
 let
 tabInfoA
 =
-yield
+await
 IsolationTestTools
 .
 _addTab
@@ -1050,7 +1050,7 @@ resultsA
 .
 push
 (
-yield
+await
 getResultFunc
 (
 tabInfoA
@@ -1064,7 +1064,7 @@ browser
 let
 tabInfoB
 =
-yield
+await
 IsolationTestTools
 .
 _addTab
@@ -1103,7 +1103,7 @@ i
 +
 ]
 :
-yield
+await
 getResultFunc
 (
 tabInfoA
@@ -1114,7 +1114,7 @@ browser
 let
 resultB
 =
-yield
+await
 getResultFunc
 (
 tabInfoB
@@ -1152,7 +1152,7 @@ aCompareResultFunc
 {
 result
 =
-yield
+await
 aCompareResultFunc
 (
 shouldIsolate
@@ -1234,7 +1234,7 @@ msg
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1244,7 +1244,7 @@ tabInfoA
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

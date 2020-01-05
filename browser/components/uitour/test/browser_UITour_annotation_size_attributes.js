@@ -43,13 +43,13 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 test_highlight_size_attributes
 (
 )
 {
-yield
+await
 gContentAPI
 .
 showHighlight
@@ -59,7 +59,7 @@ appMenu
 "
 )
 ;
-yield
+await
 elementVisiblePromise
 (
 highlight
@@ -78,7 +78,7 @@ appMenu
 "
 )
 ;
-yield
+await
 gContentAPI
 .
 showHighlight
@@ -88,7 +88,7 @@ urlbar
 "
 )
 ;
-yield
+await
 elementVisiblePromise
 (
 highlight
@@ -103,7 +103,7 @@ urlbar
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -175,13 +175,13 @@ resolve
 ;
 add_UITour_task
 (
+async
 function
-*
 test_info_size_attributes
 (
 )
 {
-yield
+await
 gContentAPI
 .
 showInfo
@@ -199,7 +199,7 @@ text
 "
 )
 ;
-yield
+await
 elementVisiblePromise
 (
 tooltip
@@ -218,7 +218,7 @@ appMenu
 "
 )
 ;
-yield
+await
 gContentAPI
 .
 showInfo
@@ -236,7 +236,7 @@ text
 "
 )
 ;
-yield
+await
 elementVisiblePromise
 (
 tooltip
@@ -251,7 +251,7 @@ urlbar
 "
 )
 ;
-yield
+await
 new
 Promise
 (

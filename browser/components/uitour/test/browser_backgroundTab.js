@@ -24,8 +24,8 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 test_bg_getConfiguration
 (
 )
@@ -45,8 +45,7 @@ work
 "
 )
 ;
-yield
-*
+await
 loadForegroundTab
 (
 )
@@ -54,7 +53,7 @@ loadForegroundTab
 let
 data
 =
-yield
+await
 getConfigurationPromise
 (
 "
@@ -73,7 +72,7 @@ getConfiguration
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -88,8 +87,8 @@ selectedTab
 ;
 add_UITour_task
 (
+async
 function
-*
 test_bg_showInfo
 (
 )
@@ -113,13 +112,12 @@ denied
 "
 )
 ;
-yield
-*
+await
 loadForegroundTab
 (
 )
 ;
-yield
+await
 showInfoPromise
 (
 "
@@ -180,7 +178,7 @@ tab
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -193,8 +191,8 @@ selectedTab
 }
 )
 ;
+async
 function
-*
 loadForegroundTab
 (
 )
@@ -212,8 +210,8 @@ selectedTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -288,7 +286,7 @@ resolve
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -296,7 +294,7 @@ openNewForegroundTab
 gBrowser
 )
 ;
-yield
+await
 promise
 ;
 isnot

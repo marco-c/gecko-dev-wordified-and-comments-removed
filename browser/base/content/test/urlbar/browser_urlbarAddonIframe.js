@@ -35,8 +35,8 @@ gMsgMan
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -180,7 +180,7 @@ contentScriptURL
 false
 )
 ;
-yield
+await
 promiseIframeLoad
 (
 )
@@ -206,7 +206,7 @@ value
 let
 readValue
 =
-yield
+await
 promiseUrlbarFunctionCall
 (
 "
@@ -236,7 +236,7 @@ the
 iframe
 "
 ;
-yield
+await
 promiseUrlbarFunctionCall
 (
 "
@@ -287,7 +287,7 @@ check
 let
 readMaxResults
 =
-yield
+await
 promiseUrlbarFunctionCall
 (
 "
@@ -313,7 +313,7 @@ maxResults
 +
 10
 ;
-yield
+await
 promiseUrlbarFunctionCall
 (
 "
@@ -360,7 +360,7 @@ test
 /
 "
 ;
-yield
+await
 promiseUrlbarFunctionCall
 (
 "
@@ -382,7 +382,7 @@ setValue
 "
 )
 ;
-yield
+await
 promiseUrlbarFunctionCall
 (
 "
@@ -397,7 +397,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -434,7 +434,7 @@ test
 let
 promiseValues
 =
-yield
+await
 Promise
 .
 all
@@ -698,7 +698,7 @@ keydown
 "
 )
 ;
-yield
+await
 keydownPromises
 [
 0
@@ -725,7 +725,7 @@ ArrowDown
 }
 )
 ;
-yield
+await
 keydownPromises
 [
 1
@@ -745,7 +745,7 @@ height
 let
 readHeight
 =
-yield
+await
 promiseUrlbarFunctionCall
 (
 "
@@ -771,7 +771,7 @@ height
 +
 100
 ;
-yield
+await
 promiseUrlbarFunctionCall
 (
 "
@@ -780,7 +780,7 @@ setPanelHeight
 newHeight
 )
 ;
-yield
+await
 new
 Promise
 (

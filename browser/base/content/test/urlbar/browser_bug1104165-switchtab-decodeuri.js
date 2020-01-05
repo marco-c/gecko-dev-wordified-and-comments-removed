@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_switchtab_decodeuri
 (
 )
@@ -51,7 +51,7 @@ test
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -89,7 +89,7 @@ for
 autocomplete
 "
 )
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -154,7 +154,7 @@ tab
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -227,7 +227,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

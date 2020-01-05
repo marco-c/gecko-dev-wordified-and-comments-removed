@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -26,8 +26,8 @@ unfiledBookmarksFolderId
 }
 )
 ;
+async
 function
-*
 addTagItem
 (
 tagName
@@ -92,7 +92,7 @@ tagName
 ]
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -371,7 +371,7 @@ description
 }
 )
 ;
-yield
+await
 addTagItem
 (
 testcase
@@ -416,7 +416,7 @@ prefName
 )
 ;
 }
-yield
+await
 promiseAutocompleteResultPopup
 (
 testcase
@@ -559,7 +559,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promisePopupHidden
 (
 gURLBar

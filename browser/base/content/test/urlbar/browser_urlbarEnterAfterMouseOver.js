@@ -28,8 +28,8 @@ i
 ;
 }
 }
+async
 function
-*
 promiseAutoComplete
 (
 inputText
@@ -69,7 +69,7 @@ slice
 }
 )
 ;
-yield
+await
 promiseSearchComplete
 (
 )
@@ -108,19 +108,19 @@ gMaxResults
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -130,7 +130,7 @@ clearHistory
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -198,7 +198,7 @@ i
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -221,7 +221,7 @@ blank
 "
 )
 ;
-yield
+await
 promiseAutoComplete
 (
 "
@@ -430,7 +430,7 @@ VK_RETURN
 }
 )
 ;
-yield
+await
 Promise
 .
 all

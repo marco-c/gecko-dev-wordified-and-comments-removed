@@ -29,15 +29,15 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 normalWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -47,7 +47,7 @@ openNewBrowserWindow
 let
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -59,7 +59,7 @@ true
 }
 )
 ;
-yield
+await
 runTest
 (
 normalWindow
@@ -67,7 +67,7 @@ privateWindow
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -75,7 +75,7 @@ closeWindow
 normalWindow
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -85,7 +85,7 @@ privateWindow
 ;
 normalWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -94,7 +94,7 @@ openNewBrowserWindow
 ;
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -106,7 +106,7 @@ true
 }
 )
 ;
-yield
+await
 runTest
 (
 privateWindow
@@ -114,7 +114,7 @@ normalWindow
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -122,7 +122,7 @@ closeWindow
 normalWindow
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -132,7 +132,7 @@ privateWindow
 ;
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -144,7 +144,7 @@ true
 }
 )
 ;
-yield
+await
 runTest
 (
 privateWindow
@@ -152,7 +152,7 @@ privateWindow
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -162,14 +162,14 @@ privateWindow
 ;
 normalWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
 (
 )
 ;
-yield
+await
 runTest
 (
 normalWindow
@@ -177,7 +177,7 @@ normalWindow
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -188,8 +188,8 @@ normalWindow
 }
 )
 ;
+async
 function
-*
 runTest
 (
 aSourceWindow
@@ -198,7 +198,7 @@ aExpectSwitch
 aCallback
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -212,7 +212,7 @@ testURL
 let
 testTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -234,7 +234,7 @@ window
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -264,7 +264,7 @@ testTab
 let
 sessionHistoryCount
 =
-yield
+await
 new
 Promise
 (
@@ -347,7 +347,7 @@ blank
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -356,8 +356,8 @@ testTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -412,7 +412,7 @@ attribute
 "
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 testURL
@@ -518,13 +518,13 @@ if
 aExpectSwitch
 )
 {
-yield
+await
 awaitTabSwitch
 ;
 }
 else
 {
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

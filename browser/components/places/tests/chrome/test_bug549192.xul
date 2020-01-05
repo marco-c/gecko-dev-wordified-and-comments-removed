@@ -518,16 +518,13 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -684,7 +681,7 @@ ttype
 }
 ]
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -909,7 +906,7 @@ newTimeInMicroseconds
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1042,7 +1039,7 @@ page
 "
 )
 ;
-yield
+await
 promiseDeleted
 ;
 ok
@@ -1092,7 +1089,7 @@ decreased
 /
 Cleanup
 .
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -1100,6 +1097,8 @@ clearHistory
 )
 ;
 }
+)
+(
 )
 .
 then

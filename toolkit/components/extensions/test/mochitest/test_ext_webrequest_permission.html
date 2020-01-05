@@ -171,8 +171,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_permissions
 (
 )
@@ -307,15 +307,15 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
+async
 function
-*
 check
 (
 )
@@ -427,7 +427,7 @@ html
 let
 result
 =
-yield
+await
 promise
 ;
 document
@@ -446,7 +446,7 @@ result
 let
 results
 =
-yield
+await
 check
 (
 )
@@ -491,7 +491,7 @@ page
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -516,7 +516,7 @@ true
 ;
 results
 =
-yield
+await
 check
 (
 )
@@ -559,7 +559,7 @@ page
 "
 )
 ;
-yield
+await
 extension
 .
 unload

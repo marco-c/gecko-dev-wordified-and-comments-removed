@@ -46,8 +46,8 @@ xml
 ;
 add_task
 (
+async
 function
-*
 prepare
 (
 )
@@ -55,7 +55,7 @@ prepare
 let
 engine
 =
-yield
+await
 promiseNewSearchEngine
 (
 TEST_ENGINE_BASENAME
@@ -149,8 +149,8 @@ closed
 ;
 add_task
 (
+async
 function
-*
 focus
 (
 )
@@ -165,7 +165,7 @@ SUGGEST_ALL_PREF
 true
 )
 ;
-yield
+await
 setUserMadeChoicePref
 (
 false
@@ -206,8 +206,8 @@ closed
 ;
 add_task
 (
+async
 function
-*
 dismissWithoutResults
 (
 )
@@ -222,7 +222,7 @@ SUGGEST_ALL_PREF
 true
 )
 ;
-yield
+await
 setUserMadeChoicePref
 (
 false
@@ -256,7 +256,7 @@ openPopup
 (
 )
 ;
-yield
+await
 popupPromise
 ;
 Assert
@@ -337,7 +337,7 @@ click
 (
 )
 ;
-yield
+await
 transitionPromise
 ;
 Assert
@@ -388,7 +388,7 @@ closed
 "
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -423,8 +423,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 dismissWithResults
 (
 )
@@ -439,7 +439,7 @@ SUGGEST_ALL_PREF
 true
 )
 ;
-yield
+await
 setUserMadeChoicePref
 (
 false
@@ -457,7 +457,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -543,7 +543,7 @@ click
 (
 )
 ;
-yield
+await
 transitionPromise
 ;
 Assert
@@ -593,7 +593,7 @@ closed
 "
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -628,8 +628,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 disable
 (
 )
@@ -644,7 +644,7 @@ SUGGEST_ALL_PREF
 true
 )
 ;
-yield
+await
 setUserMadeChoicePref
 (
 false
@@ -662,7 +662,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -729,7 +729,7 @@ click
 (
 )
 ;
-yield
+await
 transitionPromise
 ;
 gURLBar
@@ -738,7 +738,7 @@ blur
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -761,8 +761,8 @@ suggestionsPresent
 ;
 add_task
 (
+async
 function
-*
 enable
 (
 )
@@ -787,7 +787,7 @@ SUGGEST_URLBAR_PREF
 false
 )
 ;
-yield
+await
 setUserMadeChoicePref
 (
 false
@@ -805,7 +805,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -873,7 +873,7 @@ click
 (
 )
 ;
-yield
+await
 searchPromise
 ;
 Assert
@@ -897,7 +897,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -919,8 +919,8 @@ suggestionsPresent
 ;
 add_task
 (
+async
 function
-*
 privateWindow
 (
 )
@@ -928,7 +928,7 @@ privateWindow
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -956,7 +956,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -979,7 +979,7 @@ blur
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -992,8 +992,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 multipleWindows
 (
 )
@@ -1018,7 +1018,7 @@ SUGGEST_URLBAR_PREF
 false
 )
 ;
-yield
+await
 setUserMadeChoicePref
 (
 false
@@ -1030,7 +1030,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -1046,7 +1046,7 @@ true
 let
 win2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1061,7 +1061,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -1079,7 +1079,7 @@ win2
 let
 win3
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1094,7 +1094,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -1151,7 +1151,7 @@ click
 (
 )
 ;
-yield
+await
 transitionPromise
 ;
 assertVisible
@@ -1168,7 +1168,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -1189,7 +1189,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -1202,7 +1202,7 @@ assertVisible
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1210,7 +1210,7 @@ closeWindow
 win2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1223,8 +1223,8 @@ win3
 ;
 add_task
 (
+async
 function
-*
 enableOutsideNotification
 (
 )
@@ -1249,7 +1249,7 @@ SUGGEST_URLBAR_PREF
 false
 )
 ;
-yield
+await
 setUserMadeChoicePref
 (
 false
@@ -1271,7 +1271,7 @@ focus
 (
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "

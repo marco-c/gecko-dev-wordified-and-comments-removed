@@ -214,8 +214,8 @@ spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -227,7 +227,7 @@ script
 blocked
 "
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -337,8 +337,8 @@ spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -350,7 +350,7 @@ script
 executed
 "
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -451,8 +451,8 @@ spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -463,7 +463,7 @@ expected
 image
 blocked
 "
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -564,8 +564,8 @@ spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -576,7 +576,7 @@ expected
 image
 loaded
 "
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -685,8 +685,8 @@ spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -697,7 +697,7 @@ expected
 image
 loaded
 "
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -823,8 +823,8 @@ spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -835,7 +835,7 @@ expected
 image
 blocked
 "
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -946,8 +946,8 @@ spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -958,7 +958,7 @@ expected
 image
 loaded
 "
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -1060,8 +1060,8 @@ spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1072,7 +1072,7 @@ expected
 image
 loaded
 "
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -1191,8 +1191,8 @@ spawn
 (
 gTestBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1203,7 +1203,7 @@ expected
 image
 blocked
 "
-yield
+await
 ContentTaskUtils
 .
 waitForCondition

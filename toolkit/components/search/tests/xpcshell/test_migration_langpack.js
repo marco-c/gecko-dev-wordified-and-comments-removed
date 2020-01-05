@@ -103,8 +103,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 async_init
 (
 )
@@ -115,7 +115,7 @@ commitPromise
 promiseAfterCache
 (
 )
-yield
+await
 asyncInit
 (
 )
@@ -158,13 +158,13 @@ xml
 "
 )
 ;
-yield
+await
 commitPromise
 ;
 let
 metadata
 =
-yield
+await
 promiseEngineMetadata
 (
 )

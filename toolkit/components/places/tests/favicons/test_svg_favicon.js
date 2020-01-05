@@ -19,12 +19,12 @@ com
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -48,7 +48,7 @@ now
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -149,7 +149,7 @@ getSystemPrincipal
 let
 data
 =
-yield
+await
 PlacesUtils
 .
 promiseFaviconData

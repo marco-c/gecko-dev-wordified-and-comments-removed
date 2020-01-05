@@ -55,13 +55,13 @@ BASE
 {
 filename
 }
+async
 function
-*
 (
 url
 )
 {
-yield
+await
 content
 .
 wrappedJSObject

@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_check_urls_before_restoring
 (
 )
@@ -43,13 +43,13 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
 )
 ;
-yield
+await
 promiseTabState
 (
 tab
@@ -62,7 +62,7 @@ URL
 let
 value
 =
-yield
+await
 getInputValue
 (
 browser
@@ -88,7 +88,7 @@ restored
 "
 )
 ;
-yield
+await
 promiseTabState
 (
 tab
@@ -109,7 +109,7 @@ com
 ;
 value
 =
-yield
+await
 getInputValue
 (
 browser

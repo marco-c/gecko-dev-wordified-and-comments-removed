@@ -63,8 +63,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -99,12 +99,9 @@ observe
 subject
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -133,7 +130,7 @@ LEFT_URL
 is
 (
 (
-yield
+await
 getTransitionForUrl
 (
 url
@@ -172,7 +169,7 @@ RIGHT_URL
 is
 (
 (
-yield
+await
 getTransitionForUrl
 (
 url
@@ -221,6 +218,8 @@ resolve
 }
 }
 )
+(
+)
 ;
 }
 "
@@ -235,7 +234,7 @@ saved
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -254,7 +253,7 @@ visit
 "
 )
 ;
-yield
+await
 deferredLeftFrameVisit
 .
 promise
@@ -267,7 +266,7 @@ link
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -277,8 +276,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -315,12 +314,12 @@ visit
 "
 )
 ;
-yield
+await
 deferredRightFrameVisit
 .
 promise
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -331,14 +330,14 @@ tab
 }
 )
 ;
+async
 function
-*
 getTransitionForUrl
 (
 url
 )
 {
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -348,7 +347,7 @@ promiseAsyncUpdates
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -358,7 +357,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute

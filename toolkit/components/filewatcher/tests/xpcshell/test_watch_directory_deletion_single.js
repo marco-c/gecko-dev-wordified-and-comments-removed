@@ -19,8 +19,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_watch_single_path_directory_deletion
 (
 )
@@ -72,7 +72,7 @@ defer
 (
 )
 ;
-yield
+await
 OS
 .
 File
@@ -82,7 +82,7 @@ makeDir
 tmpDirPath
 )
 ;
-yield
+await
 promiseAddPath
 (
 watcher
@@ -107,7 +107,7 @@ tmpDirPath
 let
 changed
 =
-yield
+await
 deferred
 .
 promise
@@ -118,7 +118,7 @@ changed
 tmpDirPath
 )
 ;
-yield
+await
 promiseRemovePath
 (
 watcher

@@ -811,8 +811,8 @@ aMode
 )
 ;
 }
+async
 function
-*
 doTest
 (
 aBrowser
@@ -830,15 +830,15 @@ TEST_DOMAIN
 TEST_PATH
 }
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 aBrowser
 argObj
+async
 function
-*
 (
 arg
 )
@@ -957,7 +957,7 @@ track
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1151,7 +1151,7 @@ audio
 }
 )
 ;
-yield
+await
 new
 Promise
 (

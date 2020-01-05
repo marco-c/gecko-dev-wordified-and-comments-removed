@@ -93,8 +93,8 @@ test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -198,7 +198,7 @@ form
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -207,7 +207,7 @@ gBrowser
 testPage
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -229,7 +229,7 @@ checkPopupHide
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -242,8 +242,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -327,7 +327,7 @@ form
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -336,7 +336,7 @@ gBrowser
 testPage
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -358,7 +358,7 @@ checkPopupHide
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

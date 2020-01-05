@@ -1034,8 +1034,8 @@ appDirXCurProcD
 }
 add_task
 (
+async
 function
-*
 checkAllTheProperties
 (
 )
@@ -1043,7 +1043,7 @@ checkAllTheProperties
 let
 uris
 =
-yield
+await
 getAllTheFiles
 (
 "
@@ -1150,12 +1150,8 @@ value
 var
 checkDTD
 =
-Task
-.
 async
-(
 function
-*
 (
 aURISpec
 )
@@ -1163,7 +1159,7 @@ aURISpec
 let
 rawContents
 =
-yield
+await
 fetchFile
 (
 aURISpec
@@ -1310,12 +1306,11 @@ str
 ;
 }
 }
-)
 ;
 add_task
 (
+async
 function
-*
 checkAllTheDTDs
 (
 )
@@ -1323,7 +1318,7 @@ checkAllTheDTDs
 let
 uris
 =
-yield
+await
 getAllTheFiles
 (
 "
@@ -1361,7 +1356,7 @@ of
 uris
 )
 {
-yield
+await
 checkDTD
 (
 uri
@@ -1396,7 +1391,7 @@ dtd
 "
 )
 ;
-yield
+await
 checkDTD
 (
 dtdLocation
@@ -1407,8 +1402,8 @@ dtdLocation
 ;
 add_task
 (
+async
 function
-*
 ensureWhiteListIsEmpty
 (
 )

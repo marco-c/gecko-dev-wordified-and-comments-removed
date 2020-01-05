@@ -654,8 +654,8 @@ recursive
 }
 add_task
 (
+async
 function
-*
 test_downloads
 (
 )
@@ -833,14 +833,14 @@ false
 )
 ;
 }
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -858,7 +858,7 @@ started
 "
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -874,7 +874,7 @@ source
 "
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -902,7 +902,7 @@ filename
 "
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -940,7 +940,7 @@ subdirs
 "
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -984,7 +984,7 @@ if
 WINDOWS
 )
 {
-yield
+await
 testDownload
 (
 {
@@ -1033,7 +1033,7 @@ sub
 true
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -1081,7 +1081,7 @@ touch
 FILE_NAME
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -1113,7 +1113,7 @@ touch
 FILE_NAME
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -1135,7 +1135,7 @@ overwrite
 "
 )
 ;
-yield
+await
 download
 (
 {
@@ -1208,7 +1208,7 @@ correct
 }
 )
 ;
-yield
+await
 download
 (
 {
@@ -1303,7 +1303,7 @@ txt
 "
 )
 ;
-yield
+await
 download
 (
 {
@@ -1379,7 +1379,7 @@ if
 WINDOWS
 )
 {
-yield
+await
 download
 (
 {
@@ -1459,7 +1459,7 @@ correct
 )
 ;
 }
-yield
+await
 download
 (
 {
@@ -1548,7 +1548,7 @@ correct
 }
 )
 ;
-yield
+await
 download
 (
 {
@@ -1652,7 +1652,7 @@ Hello
 world
 "
 ;
-yield
+await
 testDownload
 (
 {
@@ -1684,7 +1684,7 @@ killTheBlob
 "
 )
 ;
-yield
+await
 testDownload
 (
 {
@@ -1718,7 +1718,7 @@ killTheBlob
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1730,8 +1730,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_download_post
 (
 )
@@ -2030,7 +2030,7 @@ manifest
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -2078,7 +2078,7 @@ done
 let
 result
 =
-yield
+await
 download
 (
 {
@@ -2112,7 +2112,7 @@ GET
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2163,7 +2163,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2198,7 +2198,7 @@ POST
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2251,7 +2251,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2307,7 +2307,7 @@ work
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2369,7 +2369,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2429,7 +2429,7 @@ Custom
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2493,7 +2493,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2561,7 +2561,7 @@ message
 ;
 result
 =
-yield
+await
 download
 (
 {
@@ -2636,7 +2636,7 @@ log
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_invalid_file
 (
 )
@@ -14,7 +14,7 @@ data
 }
 "
 ;
-yield
+await
 OS
 .
 File
@@ -44,7 +44,7 @@ init
 let
 checkpoints
 =
-yield
+await
 CrashMonitor
 .
 previousCheckpoints

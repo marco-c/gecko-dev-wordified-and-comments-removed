@@ -171,8 +171,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_contentscript
 (
 )
@@ -540,7 +540,7 @@ ran
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -589,7 +589,7 @@ org
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -652,7 +652,7 @@ org
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -695,7 +695,7 @@ ran
 4
 )
 ;
-yield
+await
 extension
 .
 unload

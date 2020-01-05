@@ -95,8 +95,8 @@ updateMultiprocessCompatible
 )
 {
 return
+async
 function
-*
 (
 )
 {
@@ -348,7 +348,7 @@ addonData
 let
 install
 =
-yield
+await
 AddonManager
 .
 getInstallForFile
@@ -381,7 +381,7 @@ multiprocessCompatible
 =
 false
 )
-yield
+await
 promiseCompleteAllInstalls
 (
 [
@@ -395,7 +395,7 @@ if
 bootstrap
 )
 {
-yield
+await
 promiseRestartManager
 (
 )
@@ -427,7 +427,7 @@ multiprocessCompatible
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addonData
@@ -463,7 +463,7 @@ multiprocessCompatible
 false
 )
 ;
-yield
+await
 promiseFindAddonUpdates
 (
 addon
@@ -479,14 +479,14 @@ multiprocessCompatible
 expectedMPC
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 addonData
@@ -540,7 +540,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )

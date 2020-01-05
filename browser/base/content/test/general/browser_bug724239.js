@@ -1,12 +1,12 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -21,8 +21,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -43,7 +43,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

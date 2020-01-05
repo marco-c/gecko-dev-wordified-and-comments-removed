@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -246,8 +246,8 @@ js
 EventUtils
 )
 ;
+async
 function
-*
 dragAndDrop
 (
 tab1
@@ -334,7 +334,7 @@ if
 copy
 )
 {
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -362,7 +362,7 @@ updated
 ;
 }
 }
-yield
+await
 dragAndDrop
 (
 newTab1
@@ -445,7 +445,7 @@ place
 "
 )
 ;
-yield
+await
 dragAndDrop
 (
 newTab2

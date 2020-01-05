@@ -5,15 +5,15 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -61,7 +61,7 @@ toolbar
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -90,7 +90,7 @@ exited
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -98,7 +98,7 @@ closeWindow
 win
 )
 ;
-yield
+await
 obsPromise
 ;
 Assert

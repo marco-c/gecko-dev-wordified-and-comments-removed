@@ -37,27 +37,6 @@ jsm
 }
 )
 ;
-Components
-.
-utils
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
 function
 run_test
 (
@@ -70,8 +49,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 testFileError_with_writeAtomic
 (
 )
@@ -109,7 +88,7 @@ tmp
 "
 )
 ;
-yield
+await
 File
 .
 remove
@@ -117,7 +96,7 @@ remove
 path
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -131,7 +110,7 @@ exception
 ;
 try
 {
-yield
+await
 File
 .
 writeAtomic
@@ -180,8 +159,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 testFileError_with_makeDir
 (
 )
@@ -203,7 +182,7 @@ directory
 "
 )
 ;
-yield
+await
 File
 .
 removeDir
@@ -211,7 +190,7 @@ removeDir
 path
 )
 ;
-yield
+await
 File
 .
 makeDir
@@ -224,7 +203,7 @@ exception
 ;
 try
 {
-yield
+await
 File
 .
 makeDir
@@ -272,8 +251,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 testFileError_with_move
 (
 )
@@ -330,7 +309,7 @@ tmp
 "
 )
 ;
-yield
+await
 File
 .
 remove
@@ -338,7 +317,7 @@ remove
 sourcePath
 )
 ;
-yield
+await
 File
 .
 remove
@@ -346,7 +325,7 @@ remove
 destPath
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -355,7 +334,7 @@ sourcePath
 DEFAULT_CONTENTS
 )
 ;
-yield
+await
 File
 .
 writeAtomic
@@ -369,7 +348,7 @@ exception
 ;
 try
 {
-yield
+await
 File
 .
 move

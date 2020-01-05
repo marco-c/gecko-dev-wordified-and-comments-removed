@@ -191,8 +191,8 @@ complete
 }
 add_task
 (
+async
 function
-*
 test_checkPreferences
 (
 )
@@ -213,7 +213,7 @@ history
 DATABASE_STATUS_CREATE
 )
 ;
-yield
+await
 promiseTopicObserved
 (
 "
@@ -283,8 +283,8 @@ PREF_RESTORE_DEFAULT_BOOKMARKS
 ;
 add_task
 (
+async
 function
-*
 test_import
 (
 )
@@ -305,7 +305,7 @@ true
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -320,7 +320,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -353,7 +353,7 @@ PREF_IMPORT_BOOKMARKS_HTML
 true
 )
 ;
-yield
+await
 simulatePlacesInit
 (
 )
@@ -361,7 +361,7 @@ simulatePlacesInit
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -414,8 +414,8 @@ PREF_IMPORT_BOOKMARKS_HTML
 ;
 add_task
 (
+async
 function
-*
 test_import_noSmartBookmarks
 (
 )
@@ -445,7 +445,7 @@ disabled
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -460,7 +460,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -504,7 +504,7 @@ PREF_IMPORT_BOOKMARKS_HTML
 true
 )
 ;
-yield
+await
 simulatePlacesInit
 (
 )
@@ -512,7 +512,7 @@ simulatePlacesInit
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -565,8 +565,8 @@ PREF_IMPORT_BOOKMARKS_HTML
 ;
 add_task
 (
+async
 function
-*
 test_import_autoExport_updatedSmartBookmarks
 (
 )
@@ -602,7 +602,7 @@ version
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -617,7 +617,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -670,7 +670,7 @@ PREF_IMPORT_BOOKMARKS_HTML
 true
 )
 ;
-yield
+await
 simulatePlacesInit
 (
 )
@@ -678,7 +678,7 @@ simulatePlacesInit
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -741,8 +741,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_import_autoExport_oldSmartBookmarks
 (
 )
@@ -777,7 +777,7 @@ version
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -792,7 +792,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -845,7 +845,7 @@ PREF_IMPORT_BOOKMARKS_HTML
 true
 )
 ;
-yield
+await
 simulatePlacesInit
 (
 )
@@ -853,7 +853,7 @@ simulatePlacesInit
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -916,8 +916,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_restore
 (
 )
@@ -942,7 +942,7 @@ true
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -957,7 +957,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -990,7 +990,7 @@ PREF_RESTORE_DEFAULT_BOOKMARKS
 true
 )
 ;
-yield
+await
 simulatePlacesInit
 (
 )
@@ -999,7 +999,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1041,8 +1041,8 @@ PREF_RESTORE_DEFAULT_BOOKMARKS
 ;
 add_task
 (
+async
 function
-*
 test_restore_import
 (
 )
@@ -1065,7 +1065,7 @@ defaults
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1080,7 +1080,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1123,7 +1123,7 @@ PREF_RESTORE_DEFAULT_BOOKMARKS
 true
 )
 ;
-yield
+await
 simulatePlacesInit
 (
 )
@@ -1132,7 +1132,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesUtils
 .
 bookmarks

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -79,7 +79,7 @@ bar
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -186,7 +186,7 @@ navbar
 }
 finally
 {
-yield
+await
 endCustomizing
 (
 )
@@ -197,8 +197,8 @@ endCustomizing
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )

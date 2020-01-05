@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -46,7 +46,7 @@ select
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -145,7 +145,7 @@ true
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -185,7 +185,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -193,8 +193,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 arg
 )
@@ -217,7 +217,7 @@ focus
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeKey
@@ -236,7 +236,7 @@ browser
 let
 output
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -244,8 +244,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 arg
 )
@@ -285,7 +285,7 @@ focus
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -473,7 +473,7 @@ removeChild
 textbox
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

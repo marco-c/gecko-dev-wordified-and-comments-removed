@@ -348,8 +348,8 @@ i
 }
 add_task
 (
+async
 function
-*
 test_theme_supported_properties
 (
 )
@@ -357,7 +357,7 @@ test_theme_supported_properties
 let
 additionalInvalidProperties
 =
-yield
+await
 getAdditionalInvalidManifestProperties
 (
 )

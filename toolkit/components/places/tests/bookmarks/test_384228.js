@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 search_bookmark_in_folder
 (
 )
@@ -9,7 +9,7 @@ search_bookmark_in_folder
 let
 testFolder1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -56,7 +56,7 @@ index
 let
 testFolder2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -103,7 +103,7 @@ index
 let
 testFolder3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -150,7 +150,7 @@ index
 let
 b1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -201,7 +201,7 @@ index
 let
 b2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -252,7 +252,7 @@ index
 let
 b3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -303,7 +303,7 @@ index
 let
 b4
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -354,7 +354,7 @@ index
 let
 testFolder1_1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -401,7 +401,7 @@ index
 let
 b5
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -461,7 +461,7 @@ folderIds
 .
 push
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -476,7 +476,7 @@ folderIds
 .
 push
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId

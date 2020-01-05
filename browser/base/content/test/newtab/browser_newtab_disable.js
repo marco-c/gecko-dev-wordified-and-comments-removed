@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 setLinks
 (
 "
@@ -30,8 +30,7 @@ setPinnedLinks
 let
 firstTab
 =
-yield
-*
+await
 addNewTabPageTab
 (
 )
@@ -54,8 +53,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -82,7 +81,7 @@ disabled
 let
 isDisabled
 =
-yield
+await
 isGridDisabled
 (
 )
@@ -109,7 +108,7 @@ false
 ;
 isDisabled
 =
-yield
+await
 isGridDisabled
 (
 )
@@ -124,15 +123,14 @@ disabled
 "
 )
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )
 ;
 isDisabled
 =
-yield
+await
 isGridDisabled
 (
 firstTab
@@ -150,7 +148,7 @@ disabled
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -160,8 +158,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -205,7 +203,7 @@ true
 ;
 isDisabled
 =
-yield
+await
 isGridDisabled
 (
 )
@@ -224,7 +222,7 @@ disabled
 ;
 isDisabled
 =
-yield
+await
 isGridDisabled
 (
 firstTab

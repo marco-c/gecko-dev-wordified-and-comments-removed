@@ -134,8 +134,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_async_loading
 (
 )
@@ -326,7 +326,7 @@ order
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -358,7 +358,7 @@ first
 second
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -413,7 +413,7 @@ second
 "
 )
 ;
-yield
+await
 extension
 .
 unload

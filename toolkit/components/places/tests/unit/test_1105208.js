@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 shortcutInfo
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -85,7 +85,7 @@ guid
 let
 toolbarInfo
 =
-yield
+await
 PlacesUtils
 .
 bookmarks

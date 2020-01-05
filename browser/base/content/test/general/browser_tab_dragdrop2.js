@@ -24,8 +24,8 @@ xul
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -57,7 +57,7 @@ args
 URI
 )
 ;
-yield
+await
 promiseTestsDone
 (
 win
@@ -162,7 +162,7 @@ TestsDone
 onTestsDone
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -202,7 +202,7 @@ test_panels
 (
 )
 ;
-yield
+await
 promise
 ;
 ok
@@ -217,13 +217,13 @@ time
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 win2
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 win

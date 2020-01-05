@@ -698,8 +698,8 @@ GC
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -713,7 +713,7 @@ appinfo
 .
 browserTabsRemoteAutostart
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1066,7 +1066,7 @@ GCs
 "
 )
 ;
-yield
+await
 Promise
 .
 all

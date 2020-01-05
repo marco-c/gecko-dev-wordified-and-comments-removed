@@ -427,13 +427,13 @@ initializationPromise
 ;
 add_task
 (
+async
 function
-*
 test_common_initialize
 (
 )
 {
-yield
+await
 OS
 .
 File
@@ -473,7 +473,7 @@ db
 )
 )
 ;
-yield
+await
 Services
 .
 logins

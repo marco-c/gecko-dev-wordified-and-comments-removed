@@ -85,8 +85,8 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 test_scroll_background_about_reader_tabs
 (
 )
@@ -108,7 +108,7 @@ true
 let
 newWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -134,7 +134,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 Promise
 .
 all
@@ -158,7 +158,7 @@ AboutReaderContentReady
 ]
 )
 ;
-yield
+await
 sendMessage
 (
 browser
@@ -179,7 +179,7 @@ SCROLL_READER_MODE_Y
 }
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -195,7 +195,7 @@ fine
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -203,7 +203,7 @@ closeWindow
 newWin
 )
 ;
-yield
+await
 forceSaveState
 (
 )
@@ -217,7 +217,7 @@ undoCloseWindow
 0
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -282,7 +282,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -298,7 +298,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 Promise
 .
 all
@@ -322,7 +322,7 @@ AboutReaderContentReady
 ]
 )
 ;
-yield
+await
 checkScroll
 (
 tab
@@ -339,7 +339,7 @@ fine
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

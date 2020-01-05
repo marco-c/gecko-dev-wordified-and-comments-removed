@@ -4,8 +4,8 @@ strict
 "
 add_task
 (
+async
 function
-*
 test_keyword_bookmarklet
 (
 )
@@ -13,7 +13,7 @@ test_keyword_bookmarklet
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -86,7 +86,7 @@ bm
 }
 )
 ;
-yield
+await
 promisePageShow
 (
 )
@@ -134,12 +134,12 @@ spec
 let
 originalPrincipalURI
 =
-yield
+await
 getPrincipalURI
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -189,7 +189,7 @@ VK_RETURN
 }
 )
 ;
-yield
+await
 promisePageShow
 (
 )
@@ -197,7 +197,7 @@ promisePageShow
 let
 newPrincipalURI
 =
-yield
+await
 getPrincipalURI
 (
 )
@@ -276,7 +276,6 @@ principal
 )
 ;
 function
-*
 promisePageShow
 (
 )

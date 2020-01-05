@@ -272,8 +272,8 @@ png
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -860,7 +860,7 @@ true
 ;
 gManagerWindow
 =
-yield
+await
 open_manager
 (
 null
@@ -1023,12 +1023,12 @@ cls
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -1106,7 +1106,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -1711,7 +1711,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -2309,7 +2309,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -2625,7 +2625,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -3226,7 +3226,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -3590,7 +3590,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -4091,7 +4091,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -4690,7 +4690,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -5054,7 +5054,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -5424,7 +5424,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -5780,7 +5780,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -6175,8 +6175,8 @@ hidden
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -6187,7 +6187,7 @@ a2
 a4
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -6283,12 +6283,12 @@ enable
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -6298,7 +6298,7 @@ plugin
 "
 )
 ;
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -6376,7 +6376,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -6998,7 +6998,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -7596,7 +7596,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -8197,7 +8197,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -8698,7 +8698,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -9266,8 +9266,8 @@ hidden
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -9278,7 +9278,7 @@ a2
 a4
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -9374,8 +9374,8 @@ operations
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -9521,7 +9521,7 @@ name
 version
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -9881,8 +9881,8 @@ hidden
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -10370,8 +10370,8 @@ e
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -10405,7 +10405,7 @@ theme
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -10615,7 +10615,7 @@ let
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -10641,8 +10641,8 @@ uninstall
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -10665,7 +10665,7 @@ let
 aAddon
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -10713,7 +10713,7 @@ extension
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -10897,12 +10897,12 @@ correct
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 close_manager
 (
 gManagerWindow
@@ -10926,7 +10926,7 @@ true
 ;
 gManagerWindow
 =
-yield
+await
 open_manager
 (
 null
@@ -10940,7 +10940,7 @@ CategoryUtilities
 gManagerWindow
 )
 ;
-yield
+await
 gCategoryUtilities
 .
 openType
@@ -11018,7 +11018,7 @@ let
 name
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -11354,7 +11354,7 @@ addon
 name
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -11691,7 +11691,7 @@ addon
 name
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -11933,7 +11933,7 @@ addon
 name
 }
 =
-yield
+await
 get_tooltip_info
 (
 addon
@@ -12240,7 +12240,7 @@ click
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -12390,7 +12390,7 @@ click
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -12501,8 +12501,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

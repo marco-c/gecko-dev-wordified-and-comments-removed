@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -136,7 +136,7 @@ observer
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -145,8 +145,8 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -197,10 +197,10 @@ title
 let
 newtitle
 =
-yield
+await
 newTitlePromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -211,8 +211,8 @@ linkedBrowser
 {
 newtitle
 }
+async
 function
-*
 (
 args
 )
@@ -240,7 +240,7 @@ pushstate
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -38,7 +38,7 @@ false
 let
 newWindow
 =
-yield
+await
 openAndLoadWindow
 (
 )
@@ -140,7 +140,7 @@ BrowserToolbarPalette
 "
 )
 {
-yield
+await
 PanelUI
 .
 ensureReady
@@ -215,7 +215,7 @@ customizationchange
 handler
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWindow
@@ -226,13 +226,13 @@ newWindow
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

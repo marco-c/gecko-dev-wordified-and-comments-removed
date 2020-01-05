@@ -10,8 +10,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -44,7 +44,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -64,7 +64,7 @@ uri1
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 uri1
@@ -87,7 +87,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -107,7 +107,7 @@ uri2
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 uri2
@@ -132,7 +132,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -152,7 +152,7 @@ uri3
 ;
 do_check_true
 (
-yield
+await
 promiseIsURIVisited
 (
 uri3
@@ -177,7 +177,7 @@ com
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 uri4
@@ -463,7 +463,7 @@ history
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 cantAddUri

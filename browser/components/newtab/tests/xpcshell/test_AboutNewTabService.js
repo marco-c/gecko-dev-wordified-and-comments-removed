@@ -179,8 +179,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_override_activity_stream_disabled
 (
 )
@@ -253,7 +253,7 @@ newTabURL
 =
 url
 ;
-yield
+await
 notificationPromise
 ;
 Assert
@@ -327,7 +327,7 @@ resetNewTabURL
 (
 )
 ;
-yield
+await
 notificationPromise
 ;
 Assert
@@ -383,7 +383,7 @@ newTabURL
 =
 DOWNLOADS_URL
 ;
-yield
+await
 notificationPromise
 ;
 Assert
@@ -430,8 +430,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_override_activity_stream_enabled
 (
 )
@@ -470,7 +470,7 @@ enabled
 true
 )
 ;
-yield
+await
 notificationPromise
 ;
 let
@@ -548,7 +548,7 @@ newTabURL
 =
 DEFAULT_CHROME_URL
 ;
-yield
+await
 notificationPromise
 ;
 Assert
@@ -633,8 +633,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_updates
 (
 )
@@ -700,7 +700,7 @@ newTabURL
 =
 testURL
 ;
-yield
+await
 notificationPromise
 ;
 notificationPromise
@@ -763,7 +763,7 @@ page
 "
 )
 ;
-yield
+await
 notificationPromise
 ;
 notificationPromise
@@ -787,7 +787,7 @@ resetNewTabURL
 (
 )
 ;
-yield
+await
 notificationPromise
 ;
 cleanup

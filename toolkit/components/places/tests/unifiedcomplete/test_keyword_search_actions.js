@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_keyword_search
 (
 )
@@ -111,7 +111,7 @@ ISO
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -135,7 +135,7 @@ uri3
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -155,7 +155,7 @@ key
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -183,7 +183,7 @@ s
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -203,7 +203,7 @@ encoded
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -223,7 +223,7 @@ charset
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -243,7 +243,7 @@ noparam
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -281,7 +281,7 @@ query
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -364,7 +364,7 @@ UC
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -428,7 +428,7 @@ query
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -516,7 +516,7 @@ with
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -604,7 +604,7 @@ query
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -694,7 +694,7 @@ page
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -781,7 +781,7 @@ space
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -865,7 +865,7 @@ space
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -944,7 +944,7 @@ Keyword
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1041,7 +1041,7 @@ param
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1077,7 +1077,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1126,7 +1126,7 @@ charset
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1223,7 +1223,7 @@ charset
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1322,7 +1322,7 @@ charset
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1429,7 +1429,7 @@ charset
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1515,7 +1515,7 @@ heuristic
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

@@ -410,13 +410,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_sort_date_site_grouping
 (
 )
 {
-yield
+await
 task_populateDB
 (
 testData
@@ -564,7 +564,7 @@ of
 testDataAddedLater
 )
 {
-yield
+await
 task_populateDB
 (
 [

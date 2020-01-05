@@ -385,8 +385,8 @@ script
 ;
 add_task
 (
+async
 function
-*
 test_backgroundRuntimeConnectParams
 (
 )
@@ -401,14 +401,14 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -422,7 +422,7 @@ params
 "
 )
 ;
-yield
+await
 extension
 .
 unload

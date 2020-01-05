@@ -1028,8 +1028,8 @@ startup
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -1048,7 +1048,7 @@ complete
 "
 )
 ;
-yield
+await
 startupComplete
 ;
 }
@@ -1056,8 +1056,8 @@ startupComplete
 ;
 add_task
 (
+async
 function
-*
 test_noAutologin
 (
 )
@@ -1263,7 +1263,7 @@ level
 proxyAuthinfo
 )
 ;
-yield
+await
 promptDone
 ;
 var
@@ -1357,8 +1357,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_autologin
 (
 )
@@ -1555,8 +1555,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_autologin_incorrect
 (
 )
@@ -1770,7 +1770,7 @@ level
 proxyAuthinfo
 )
 ;
-yield
+await
 promptDone
 ;
 time2
@@ -1863,8 +1863,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_autologin_private
 (
 )

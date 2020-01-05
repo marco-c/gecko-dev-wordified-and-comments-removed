@@ -108,8 +108,8 @@ originalWindowWidth
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -176,7 +176,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -442,7 +442,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -684,8 +684,8 @@ outerHeight
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -780,7 +780,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -954,7 +954,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -1038,8 +1038,8 @@ outerHeight
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1098,7 +1098,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -1439,8 +1439,8 @@ outerHeight
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -1455,7 +1455,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 resetCustomization
 (
 )

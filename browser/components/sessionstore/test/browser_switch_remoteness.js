@@ -34,8 +34,8 @@ browser
 {
 expected
 }
+async
 function
-*
 (
 args
 )
@@ -101,15 +101,15 @@ entries
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -137,7 +137,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -220,7 +220,7 @@ URL
 i
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -240,7 +240,7 @@ remote
 )
 ;
 }
-yield
+await
 countHistoryEntries
 (
 browser
@@ -260,7 +260,7 @@ robots
 "
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -281,7 +281,7 @@ anymore
 "
 )
 ;
-yield
+await
 countHistoryEntries
 (
 browser
@@ -290,7 +290,7 @@ MAX_BACK
 3
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

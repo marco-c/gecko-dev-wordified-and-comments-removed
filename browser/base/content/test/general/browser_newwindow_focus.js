@@ -163,13 +163,13 @@ observer
 }
 add_task
 (
+async
 function
-*
 test_focus_browser
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -180,8 +180,8 @@ url
 PAGE
 gBrowser
 }
+async
 function
-*
 (
 browser
 )
@@ -202,7 +202,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -219,10 +219,10 @@ browser
 let
 newWin
 =
-yield
+await
 newWinPromise
 ;
-yield
+await
 BrowserTestUtils
 .
 contentPainted
@@ -234,7 +234,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 delayedStartupPromise
 ;
 let
@@ -271,7 +271,7 @@ focused
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -287,13 +287,13 @@ newWin
 ;
 add_task
 (
+async
 function
-*
 test_no_steal_focus
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -304,8 +304,8 @@ url
 PAGE
 gBrowser
 }
+async
 function
-*
 (
 browser
 )
@@ -326,7 +326,7 @@ waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -343,7 +343,7 @@ browser
 let
 newWin
 =
-yield
+await
 newWinPromise
 ;
 newWin
@@ -354,7 +354,7 @@ focus
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 contentPainted
@@ -366,7 +366,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 delayedStartupPromise
 ;
 let
@@ -402,7 +402,7 @@ focused
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

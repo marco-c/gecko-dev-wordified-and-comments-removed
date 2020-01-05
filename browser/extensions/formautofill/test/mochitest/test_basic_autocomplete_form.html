@@ -690,13 +690,13 @@ only
 .
 add_task
 (
+async
 function
-*
 history_only_menu_checking
 (
 )
 {
-yield
+await
 setupFormHistory
 (
 )
@@ -718,7 +718,7 @@ down
 "
 )
 ;
-yield
+await
 expectPopup
 (
 )
@@ -753,13 +753,13 @@ storage
 .
 add_task
 (
+async
 function
-*
 check_menu_when_both_existed
 (
 )
 {
-yield
+await
 setupAddressStorage
 (
 )
@@ -781,7 +781,7 @@ down
 "
 )
 ;
-yield
+await
 expectPopup
 (
 )
@@ -839,7 +839,7 @@ down
 "
 )
 ;
-yield
+await
 expectPopup
 (
 )
@@ -895,7 +895,7 @@ down
 "
 )
 ;
-yield
+await
 expectPopup
 (
 )
@@ -952,8 +952,8 @@ addresses
 .
 add_task
 (
+async
 function
-*
 check_fallback_for_mismatched_field
 (
 )
@@ -975,7 +975,7 @@ down
 "
 )
 ;
-yield
+await
 expectPopup
 (
 )
@@ -1003,8 +1003,8 @@ menu
 .
 add_task
 (
+async
 function
-*
 check_fields_after_form_autofill
 (
 )
@@ -1027,7 +1027,7 @@ down
 "
 )
 ;
-yield
+await
 expectPopup
 (
 )
@@ -1078,7 +1078,7 @@ down
 "
 )
 ;
-yield
+await
 checkFormFilled
 (
 MOCK_STORAGE
@@ -1102,8 +1102,8 @@ address
 .
 add_task
 (
+async
 function
-*
 check_fallback_after_form_autofill
 (
 )
@@ -1125,7 +1125,7 @@ down
 "
 )
 ;
-yield
+await
 expectPopup
 (
 )

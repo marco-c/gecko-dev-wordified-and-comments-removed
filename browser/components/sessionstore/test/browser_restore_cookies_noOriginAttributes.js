@@ -572,13 +572,13 @@ global
 ;
 add_task
 (
+async
 function
-*
 run_test
 (
 )
 {
-yield
+await
 SessionStore
 .
 promiseInitialized
@@ -594,7 +594,7 @@ removeAll
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -840,7 +840,7 @@ restored
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

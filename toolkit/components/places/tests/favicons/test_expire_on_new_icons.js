@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_replaceFaviconData_validHistoryURI
 (
 )
@@ -19,7 +19,7 @@ mozilla
 com
 /
 "
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -42,7 +42,7 @@ mozilla
 com
 /
 "
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -177,7 +177,7 @@ icon
 expire
 )
 ;
-yield
+await
 setFaviconForPage
 (
 TEST_URL
@@ -226,7 +226,7 @@ icon
 expire
 )
 ;
-yield
+await
 setFaviconForPage
 (
 TEST_URL2
@@ -243,7 +243,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 TEST_URL
@@ -275,7 +275,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 TEST_URL
@@ -302,7 +302,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 TEST_URL2

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -38,7 +38,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -52,7 +52,7 @@ good_uri
 ;
 do_check_true
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -63,7 +63,7 @@ good_uri
 ;
 do_check_false
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB

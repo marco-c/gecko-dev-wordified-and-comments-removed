@@ -29,8 +29,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_nocache
 (
 )
@@ -49,7 +49,7 @@ promiseAfterCache
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -86,7 +86,7 @@ reject
 )
 )
 ;
-yield
+await
 afterCachePromise
 ;
 let
@@ -114,7 +114,7 @@ exists
 )
 )
 ;
-yield
+await
 addTestEngines
 (
 [
@@ -157,7 +157,7 @@ built
 "
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -176,7 +176,7 @@ cache
 let
 cache
 =
-yield
+await
 promiseCacheData
 (
 )

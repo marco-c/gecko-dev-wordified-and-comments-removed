@@ -11,8 +11,8 @@ capturing_disabled
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -42,7 +42,7 @@ jsm
 imports
 )
 ;
-yield
+await
 pushPrefs
 (
 [
@@ -125,7 +125,7 @@ err
 )
 {
 }
-yield
+await
 setLinks
 (
 "
@@ -156,7 +156,7 @@ complete
 "
 )
 {
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -262,7 +262,7 @@ create
 }
 )
 ;
-yield
+await
 pushPrefs
 (
 [
@@ -271,7 +271,7 @@ false
 ]
 )
 ;
-yield
+await
 thumbnailCreatedPromise
 ;
 gBrowser

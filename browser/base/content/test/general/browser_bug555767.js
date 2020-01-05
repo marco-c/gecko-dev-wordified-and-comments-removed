@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -49,7 +49,7 @@ addTab
 testURL
 )
 ;
-yield
+await
 promiseTabLoaded
 (
 baseTab

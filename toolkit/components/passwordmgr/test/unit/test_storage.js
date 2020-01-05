@@ -33,8 +33,8 @@ clearData
 }
 add_task
 (
+async
 function
-*
 test_storage_addLogin_nonascii
 (
 )
@@ -139,8 +139,7 @@ addLogin
 loginInfo
 )
 ;
-yield
-*
+await
 reloadAndCheckLoginsGen
 (
 [
@@ -178,8 +177,7 @@ addLogin
 loginInfo
 )
 ;
-yield
-*
+await
 reloadAndCheckLoginsGen
 (
 [
@@ -192,8 +190,8 @@ loginInfo
 ;
 add_task
 (
+async
 function
-*
 test_storage_addLogin_newlines
 (
 )
@@ -236,8 +234,7 @@ addLogin
 loginInfo
 )
 ;
-yield
-*
+await
 reloadAndCheckLoginsGen
 (
 [
@@ -250,8 +247,8 @@ loginInfo
 ;
 add_task
 (
+async
 function
-*
 test_storage_addLogin_dot
 (
 )
@@ -286,8 +283,7 @@ addLogin
 loginInfo
 )
 ;
-yield
-*
+await
 reloadAndCheckLoginsGen
 (
 [
@@ -319,8 +315,7 @@ addLogin
 loginInfo
 )
 ;
-yield
-*
+await
 reloadAndCheckLoginsGen
 (
 [
@@ -333,8 +328,8 @@ loginInfo
 ;
 add_task
 (
+async
 function
-*
 test_storage_addLogin_parentheses
 (
 )
@@ -505,8 +500,7 @@ loginInfo
 )
 ;
 }
-yield
-*
+await
 reloadAndCheckLoginsGen
 (
 loginList

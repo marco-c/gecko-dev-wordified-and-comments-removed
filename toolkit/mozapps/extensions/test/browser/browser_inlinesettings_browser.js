@@ -178,14 +178,14 @@ addon
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 gAddon
 =
-yield
+await
 installAddon
 (
 {
@@ -314,7 +314,7 @@ html
 ;
 gOtherAddon
 =
-yield
+await
 installAddon
 (
 {
@@ -323,7 +323,7 @@ installAddon
 ;
 gManagerWindow
 =
-yield
+await
 open_manager
 (
 "
@@ -633,8 +633,8 @@ browser
 }
 add_task
 (
+async
 function
-*
 test_inline_browser_addon
 (
 )
@@ -642,7 +642,7 @@ test_inline_browser_addon
 let
 browser
 =
-yield
+await
 openDetailsBrowser
 (
 gAddon
@@ -768,7 +768,7 @@ resolve
 )
 )
 ;
-yield
+await
 delay
 (
 )
@@ -806,7 +806,7 @@ bigger
 "
 )
 ;
-yield
+await
 delay
 (
 )
@@ -844,7 +844,7 @@ bigger
 "
 )
 ;
-yield
+await
 delay
 (
 )
@@ -854,7 +854,7 @@ checkHeights
 300
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -911,8 +911,8 @@ document
 ;
 add_task
 (
+async
 function
-*
 test_plain_addon
 (
 )
@@ -956,7 +956,7 @@ ensureElementIsVisible
 addon
 )
 ;
-yield
+await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -983,7 +983,7 @@ clickCount
 gManagerWindow
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -1065,7 +1065,7 @@ browser
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1088,8 +1088,8 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 test_inline_browser_addon_again
 (
 )
@@ -1097,7 +1097,7 @@ test_inline_browser_addon_again
 let
 browser
 =
-yield
+await
 openDetailsBrowser
 (
 gAddon
@@ -1105,7 +1105,7 @@ gAddon
 id
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1162,12 +1162,12 @@ document
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 close_manager
 (
 gManagerWindow

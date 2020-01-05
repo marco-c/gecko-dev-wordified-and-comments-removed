@@ -95,8 +95,8 @@ gTabCounter
 ;
 add_task
 (
+async
 function
-*
 step_1
 (
 )
@@ -182,7 +182,7 @@ gTabCounter
 )
 ;
 }
-yield
+await
 Promise
 .
 all
@@ -190,7 +190,7 @@ all
 promises
 )
 ;
-yield
+await
 ensure_opentabs_match_db
 (
 )
@@ -200,8 +200,8 @@ ensure_opentabs_match_db
 ;
 add_task
 (
+async
 function
-*
 step_2
 (
 )
@@ -291,7 +291,7 @@ gTabCounter
 )
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -299,7 +299,7 @@ all
 promises
 )
 ;
-yield
+await
 ensure_opentabs_match_db
 (
 )
@@ -309,8 +309,8 @@ ensure_opentabs_match_db
 ;
 add_task
 (
+async
 function
-*
 step_3
 (
 )
@@ -370,7 +370,7 @@ gTabCounter
 )
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -378,7 +378,7 @@ all
 promises
 )
 ;
-yield
+await
 ensure_opentabs_match_db
 (
 )
@@ -388,8 +388,8 @@ ensure_opentabs_match_db
 ;
 add_task
 (
+async
 function
-*
 step_4
 (
 )
@@ -456,7 +456,7 @@ body
 '
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -466,7 +466,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -475,8 +475,8 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -522,13 +522,13 @@ org
 /
 "
 ;
-yield
+await
 iframe_loaded
 ;
 }
 )
 ;
-yield
+await
 ensure_opentabs_match_db
 (
 )
@@ -538,8 +538,8 @@ ensure_opentabs_match_db
 ;
 add_task
 (
+async
 function
-*
 step_5
 (
 )
@@ -571,7 +571,7 @@ logo
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -579,7 +579,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 ensure_opentabs_match_db
 (
 )
@@ -589,8 +589,8 @@ ensure_opentabs_match_db
 ;
 add_task
 (
+async
 function
-*
 step_6
 (
 )
@@ -646,7 +646,7 @@ mozilla
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -678,11 +678,11 @@ tabToKeep
 tab
 )
 ;
-yield
+await
 ensure_opentabs_match_db
 (
 )
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -690,7 +690,7 @@ removeTab
 tabToKeep
 )
 ;
-yield
+await
 ensure_opentabs_match_db
 (
 )
@@ -700,8 +700,8 @@ ensure_opentabs_match_db
 ;
 add_task
 (
+async
 function
-*
 step_7
 (
 )
@@ -797,7 +797,7 @@ removeCurrentTab
 )
 ;
 }
-yield
+await
 ensure_opentabs_match_db
 (
 )
@@ -807,8 +807,8 @@ ensure_opentabs_match_db
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
@@ -821,7 +821,7 @@ up
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

@@ -112,8 +112,8 @@ q
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -149,7 +149,7 @@ html
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -254,7 +254,7 @@ gContextMenuContentData
 popupNode
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -268,8 +268,8 @@ param
 method
 id
 }
+async
 function
-*
 (
 args
 )
@@ -372,7 +372,7 @@ form
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -401,10 +401,10 @@ linkedBrowser
 let
 target
 =
-yield
+await
 contextMenuPromise
 ;
-yield
+await
 new
 Promise
 (
@@ -617,12 +617,12 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }
 }
-yield
+await
 BrowserTestUtils
 .
 removeTab

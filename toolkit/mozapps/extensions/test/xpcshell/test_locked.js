@@ -699,8 +699,8 @@ extensions
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -802,7 +802,7 @@ a7
 t2
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -920,7 +920,7 @@ AddonManager
 UPDATE_WHEN_PERIODIC_UPDATE
 )
 ;
-yield
+await
 deferredUpdateFinished
 .
 promise
@@ -930,8 +930,8 @@ promise
 ;
 add_task
 (
+async
 function
-*
 run_test_1
 (
 )
@@ -953,7 +953,7 @@ t1
 t2
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -1491,7 +1491,7 @@ O_EXLOCK
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -1565,7 +1565,7 @@ t1
 t2
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2093,7 +2093,7 @@ t1
 t2
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2606,7 +2606,7 @@ gExtensionsJSON
 path
 )
 ;
-yield
+await
 file
 .
 close
@@ -2644,7 +2644,7 @@ t1
 t2
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [

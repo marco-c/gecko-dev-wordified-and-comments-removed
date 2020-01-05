@@ -94,8 +94,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_instantiation
 (
 )
@@ -123,7 +123,7 @@ do_get_profile
 (
 )
 ;
-yield
+await
 makeFakeAppDir
 (
 )

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_reload_generated_background_page
 (
 )
@@ -99,14 +99,14 @@ run
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -117,7 +117,7 @@ run
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -128,7 +128,7 @@ run
 "
 )
 ;
-yield
+await
 extension
 .
 unload

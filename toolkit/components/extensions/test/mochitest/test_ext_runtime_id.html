@@ -184,8 +184,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_runtime_id
 (
 )
@@ -361,7 +361,7 @@ content
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -371,7 +371,7 @@ startup
 let
 backgroundId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -416,7 +416,7 @@ html
 let
 contentId
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -450,7 +450,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

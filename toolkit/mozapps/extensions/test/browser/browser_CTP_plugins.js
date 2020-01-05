@@ -190,8 +190,8 @@ _originalBlocklistURL
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -229,8 +229,8 @@ true
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -251,7 +251,7 @@ nsIPluginTag
 .
 STATE_ENABLED
 ;
-yield
+await
 new
 Promise
 (
@@ -301,7 +301,7 @@ STATE_CLICKTOPLAY
 let
 managerWindow
 =
-yield
+await
 new
 Promise
 (
@@ -326,7 +326,7 @@ resolve
 let
 plugins
 =
-yield
+await
 new
 Promise
 (
@@ -400,7 +400,7 @@ exist
 let
 testPlugin
 =
-yield
+await
 new
 Promise
 (
@@ -605,7 +605,7 @@ selected
 let
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -650,7 +650,7 @@ plugins
 pluginBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -671,7 +671,7 @@ notification
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -715,7 +715,7 @@ doCommand
 ;
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -730,7 +730,7 @@ html
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -739,8 +739,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -798,7 +798,7 @@ objLoadingContent
 .
 activated
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -835,7 +835,7 @@ activated
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -879,7 +879,7 @@ doCommand
 ;
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -900,7 +900,7 @@ pluginTab
 .
 linkedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -909,8 +909,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -977,7 +977,7 @@ activated
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1029,7 +1029,7 @@ details
 managerWindow
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -1122,7 +1122,7 @@ doCommand
 ;
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1143,7 +1143,7 @@ pluginTab
 .
 linkedBrowser
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1152,8 +1152,8 @@ pluginTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1211,7 +1211,7 @@ objLoadingContent
 .
 activated
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -1248,7 +1248,7 @@ activated
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1270,7 +1270,7 @@ doCommand
 ;
 pluginTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1313,7 +1313,7 @@ plugins
 pluginBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -1334,7 +1334,7 @@ notification
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1344,7 +1344,7 @@ pluginTab
 ;
 managerWindow
 =
-yield
+await
 new
 Promise
 (
@@ -1478,7 +1478,7 @@ details
 managerWindow
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent

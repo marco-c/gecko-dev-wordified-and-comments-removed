@@ -28,8 +28,8 @@ selected
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -44,7 +44,7 @@ bookmarks
 push
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -86,7 +86,7 @@ test
 )
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -124,7 +124,7 @@ bookmarks
 push
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -195,7 +195,7 @@ bm
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -208,7 +208,7 @@ mozilla
 "
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -265,7 +265,7 @@ b
 }
 )
 ;
-yield
+await
 promiseSearchComplete
 (
 )
@@ -383,7 +383,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 promisePopupHidden
 (
 gURLBar

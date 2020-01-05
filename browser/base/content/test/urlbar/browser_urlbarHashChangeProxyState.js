@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -49,7 +49,7 @@ baseURL
 foo
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -58,8 +58,8 @@ withNewTab
 gBrowser
 url
 }
+async
 function
-*
 (
 browser
 )
@@ -286,7 +286,7 @@ return
 "
 )
 ;
-yield
+await
 locationChangePromise
 ;
 verifyURLBarState
@@ -336,7 +336,7 @@ return
 "
 )
 ;
-yield
+await
 locationChangePromise
 ;
 verifyURLBarState
@@ -361,7 +361,7 @@ foo
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -424,7 +424,7 @@ click
 }
 )
 ;
-yield
+await
 locationChangePromise
 ;
 verifyURLBarState
@@ -455,7 +455,7 @@ goBack
 (
 )
 ;
-yield
+await
 locationChangePromise
 ;
 verifyURLBarState
@@ -483,7 +483,7 @@ goForward
 (
 )
 ;
-yield
+await
 locationChangePromise
 ;
 verifyURLBarState
@@ -520,7 +520,7 @@ return
 "
 )
 ;
-yield
+await
 locationChangePromise
 ;
 verifyURLBarState
@@ -551,15 +551,15 @@ wpl
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -573,7 +573,7 @@ newtab
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -643,7 +643,7 @@ return
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -784,7 +784,7 @@ newtab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

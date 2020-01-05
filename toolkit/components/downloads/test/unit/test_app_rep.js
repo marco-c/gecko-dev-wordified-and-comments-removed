@@ -431,8 +431,8 @@ length
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -675,16 +675,13 @@ function
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -703,6 +700,8 @@ resolve
 )
 ;
 }
+)
+(
 )
 ;
 }

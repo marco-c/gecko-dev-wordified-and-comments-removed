@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -64,7 +64,7 @@ if
 wasCollapsed
 )
 {
-yield
+await
 promiseSetToolbarVisibility
 (
 toolbar
@@ -75,7 +75,7 @@ true
 let
 sidebar
 =
-yield
+await
 promiseLoadedSidebar
 (
 "
@@ -288,7 +288,7 @@ if
 wasCollapsed
 )
 {
-yield
+await
 promiseSetToolbarVisibility
 (
 toolbar

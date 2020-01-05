@@ -82,8 +82,8 @@ undo
 ;
 add_task
 (
+async
 function
-*
 autoMigrationUndoNotificationShows
 (
 )
@@ -183,7 +183,7 @@ someunknownbrowser
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -225,7 +225,7 @@ it
 .
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForNotificationBar
@@ -313,7 +313,7 @@ closing
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -347,7 +347,7 @@ chrome
 ;
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -388,7 +388,7 @@ it
 .
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForNotificationBar
@@ -423,7 +423,7 @@ notification
 .
 parentNode
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -575,7 +575,7 @@ closing
 let
 surveyTab
 =
-yield
+await
 tabOpenedPromise
 ;
 ok
@@ -593,7 +593,7 @@ survey
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -601,7 +601,7 @@ removeTab
 surveyTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

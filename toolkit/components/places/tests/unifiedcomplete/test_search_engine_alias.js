@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -88,7 +88,7 @@ post
 ]
 )
 {
-yield
+await
 check_autocomplete
 (
 {
@@ -134,7 +134,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -184,7 +184,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -237,7 +237,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -290,7 +290,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -347,7 +347,7 @@ true
 )
 ;
 }
-yield
+await
 cleanup
 (
 )

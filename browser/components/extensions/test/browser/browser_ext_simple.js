@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_simple
 (
 )
@@ -68,7 +68,7 @@ complete
 "
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -83,7 +83,7 @@ complete
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -104,8 +104,8 @@ successfully
 ;
 add_task
 (
+async
 function
-*
 test_background
 (
 )
@@ -281,7 +281,7 @@ let
 x
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -332,7 +332,7 @@ sendMessage
 20
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -347,7 +347,7 @@ complete
 "
 )
 ;
-yield
+await
 extension
 .
 unload

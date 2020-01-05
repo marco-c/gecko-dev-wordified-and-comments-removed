@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -212,7 +212,7 @@ maxTabsUndo
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 {
@@ -458,7 +458,7 @@ max_tabs_undo
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

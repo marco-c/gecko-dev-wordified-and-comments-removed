@@ -32,8 +32,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -225,8 +225,8 @@ remove
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -449,13 +449,13 @@ remove
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

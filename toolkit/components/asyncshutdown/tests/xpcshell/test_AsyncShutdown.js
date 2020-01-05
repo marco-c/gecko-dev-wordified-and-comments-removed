@@ -35,8 +35,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_no_condition
 (
 )
@@ -95,7 +95,7 @@ makeLock
 kind
 )
 ;
-yield
+await
 lock
 .
 wait
@@ -122,8 +122,8 @@ lock
 ;
 add_task
 (
+async
 function
-*
 test_phase_various_failures
 (
 )
@@ -260,7 +260,7 @@ TypeError
 )
 ;
 }
-yield
+await
 lock
 .
 wait
@@ -301,8 +301,8 @@ finished
 ;
 add_task
 (
+async
 function
-*
 test_reentrant
 (
 )
@@ -465,16 +465,13 @@ promise
 let
 promiseSteps
 =
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 Promise
 .
 resolve
@@ -495,7 +492,7 @@ blocker
 "
 )
 ;
-yield
+await
 deferredOuter
 .
 promise
@@ -514,7 +511,7 @@ blocker
 "
 )
 ;
-yield
+await
 deferredInner
 .
 promise
@@ -537,6 +534,8 @@ resolve
 ;
 }
 )
+(
+)
 ;
 do_print
 (
@@ -546,7 +545,7 @@ wait
 "
 )
 ;
-yield
+await
 lock
 .
 wait
@@ -566,7 +565,7 @@ walked
 "
 )
 ;
-yield
+await
 promiseSteps
 ;
 }
@@ -575,8 +574,8 @@ promiseSteps
 ;
 add_task
 (
+async
 function
-*
 test_phase_removeBlocker
 (
 )
@@ -831,7 +830,7 @@ immediately
 "
 )
 ;
-yield
+await
 lock
 .
 wait
@@ -1033,7 +1032,7 @@ quickly
 "
 )
 ;
-yield
+await
 lock
 .
 wait
@@ -1081,7 +1080,7 @@ bind
 Promise
 )
 ;
-yield
+await
 lock
 .
 wait
@@ -1134,8 +1133,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_state
 (
 )
@@ -1363,7 +1362,7 @@ resolve
 (
 )
 ;
-yield
+await
 promiseDone
 ;
 }
@@ -1371,8 +1370,8 @@ promiseDone
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

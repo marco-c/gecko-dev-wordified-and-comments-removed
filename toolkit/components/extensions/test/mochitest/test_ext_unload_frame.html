@@ -980,8 +980,8 @@ extension
 }
 add_task
 (
+async
 function
-*
 testSendMessage_and_remove_frame
 (
 )
@@ -998,7 +998,7 @@ sendMessage_background
 sendMessage_contentScript
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1036,7 +1036,7 @@ appendChild
 frame
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1050,7 +1050,7 @@ frame
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1062,8 +1062,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 testConnect_and_remove_frame
 (
 )
@@ -1080,7 +1080,7 @@ connect_background
 connect_contentScript
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1118,7 +1118,7 @@ appendChild
 frame
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1132,7 +1132,7 @@ frame
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1144,8 +1144,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 testSendMessage_and_remove_window
 (
 )
@@ -1191,7 +1191,7 @@ sendMessage_background
 sendMessage_contentScript
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1209,7 +1209,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1223,7 +1223,7 @@ frame
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1235,8 +1235,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 testConnect_and_remove_window
 (
 )
@@ -1282,7 +1282,7 @@ connect_background
 connect_contentScript
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1300,7 +1300,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1314,7 +1314,7 @@ frame
 "
 )
 ;
-yield
+await
 extension
 .
 unload

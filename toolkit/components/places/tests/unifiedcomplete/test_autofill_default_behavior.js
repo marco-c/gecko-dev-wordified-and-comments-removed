@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_default_behavior_host
 (
 )
@@ -108,7 +108,7 @@ secure
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -166,7 +166,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -181,7 +181,7 @@ bookmarked
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -196,7 +196,7 @@ tpbk
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -218,7 +218,7 @@ foo
 }
 )
 ;
-yield
+await
 setFaviconForPage
 (
 uri1
@@ -239,7 +239,7 @@ svg
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 uri3
@@ -262,7 +262,7 @@ png
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 uri6
@@ -354,7 +354,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -402,7 +402,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -482,7 +482,7 @@ https
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -569,7 +569,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -607,7 +607,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -689,7 +689,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -773,7 +773,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -859,7 +859,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -902,7 +902,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -984,7 +984,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1027,7 +1027,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1142,7 +1142,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1181,7 +1181,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1219,7 +1219,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1293,7 +1293,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1375,7 +1375,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1459,7 +1459,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1505,7 +1505,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1558,7 +1558,7 @@ ta
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1568,8 +1568,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_default_behavior_url
 (
 )
@@ -1650,7 +1650,7 @@ tp
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1695,7 +1695,7 @@ TRANSITION_TYPED
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -1710,7 +1710,7 @@ bookmarked
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -1725,7 +1725,7 @@ tpbk
 }
 )
 ;
-yield
+await
 setFaviconForPage
 (
 uri1
@@ -1746,7 +1746,7 @@ svg
 "
 )
 ;
-yield
+await
 setFaviconForPage
 (
 uri3
@@ -1876,7 +1876,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1932,7 +1932,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2024,7 +2024,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2070,7 +2070,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2182,7 +2182,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2229,7 +2229,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2275,7 +2275,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2357,7 +2357,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2454,7 +2454,7 @@ autoFill
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2534,7 +2534,7 @@ bo
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

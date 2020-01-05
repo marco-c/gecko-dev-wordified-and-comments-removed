@@ -234,8 +234,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_fetchAndCache
 (
 )
@@ -287,7 +287,7 @@ yet
 "
 )
 ;
-yield
+await
 ex
 .
 updateManifest
@@ -315,7 +315,7 @@ now
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -325,8 +325,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 test_checkCache
 (
 )
@@ -342,7 +342,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 ex
 .
 notify
@@ -370,7 +370,7 @@ now
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -380,13 +380,13 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 test_fetchInvalid
 (
 )
 {
-yield
+await
 removeCacheFile
 (
 )
@@ -418,7 +418,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 ex
 .
 updateManifest
@@ -459,7 +459,7 @@ manifest
 "
 )
 ;
-yield
+await
 ex
 .
 updateManifest
@@ -493,7 +493,7 @@ them
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )

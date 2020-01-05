@@ -346,8 +346,8 @@ true
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -487,7 +487,7 @@ tab
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -555,7 +555,7 @@ popupshown
 "
 )
 ;
-yield
+await
 popupPromise
 ;
 info
@@ -621,7 +621,7 @@ completion
 "
 )
 ;
-yield
+await
 promiseTransfer
 ;
 info

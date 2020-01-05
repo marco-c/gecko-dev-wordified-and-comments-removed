@@ -29,8 +29,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_clickInsecureFieldWarning
 (
 )
@@ -56,7 +56,7 @@ form_cross_origin_insecure_action
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -65,8 +65,8 @@ withNewTab
 gBrowser
 url
 }
+async
 function
-*
 (
 browser
 )
@@ -105,7 +105,7 @@ popupshown
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -122,7 +122,7 @@ focused
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -156,7 +156,7 @@ focus
 }
 )
 ;
-yield
+await
 promiseShown
 ;
 ok
@@ -194,7 +194,7 @@ richlistitem
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -248,7 +248,7 @@ warningItem
 let
 supportTab
 =
-yield
+await
 supportTabPromise
 ;
 ok
@@ -261,7 +261,7 @@ opened
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

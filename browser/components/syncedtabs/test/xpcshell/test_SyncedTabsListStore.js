@@ -365,8 +365,8 @@ tabs
 ;
 add_task
 (
+async
 function
-*
 testGetDataEmpty
 (
 )
@@ -424,7 +424,7 @@ change
 spy
 )
 ;
-yield
+await
 store
 .
 getData
@@ -476,7 +476,7 @@ false
 )
 )
 ;
-yield
+await
 store
 .
 getData
@@ -546,8 +546,8 @@ restore
 ;
 add_task
 (
+async
 function
-*
 testRowSelectionWithoutFilter
 (
 )
@@ -594,7 +594,7 @@ FIXTURE
 }
 )
 ;
-yield
+await
 store
 .
 getData
@@ -1015,8 +1015,8 @@ client
 ;
 add_task
 (
+async
 function
-*
 testToggleBranches
 (
 )
@@ -1063,7 +1063,7 @@ FIXTURE
 }
 )
 ;
-yield
+await
 store
 .
 getData
@@ -1291,8 +1291,8 @@ closed
 ;
 add_task
 (
+async
 function
-*
 testRowSelectionWithFilter
 (
 )
@@ -1339,7 +1339,7 @@ FIXTURE
 }
 )
 ;
-yield
+await
 store
 .
 getData
@@ -1540,8 +1540,8 @@ selected
 ;
 add_task
 (
+async
 function
-*
 testFilterAndClearFilter
 (
 )
@@ -1598,7 +1598,7 @@ change
 spy
 )
 ;
-yield
+await
 store
 .
 getData
@@ -1731,7 +1731,7 @@ selected
 "
 )
 ;
-yield
+await
 store
 .
 clearFilter
@@ -1871,8 +1871,8 @@ restore
 ;
 add_task
 (
+async
 function
-*
 testFocusBlurInput
 (
 )
@@ -1929,7 +1929,7 @@ change
 spy
 )
 ;
-yield
+await
 store
 .
 getData

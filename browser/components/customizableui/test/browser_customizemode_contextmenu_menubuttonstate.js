@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -63,7 +63,7 @@ mode
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -155,7 +155,7 @@ button
 }
 )
 ;
-yield
+await
 shownPromise
 ;
 is
@@ -207,7 +207,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 hiddenContextPromise
 ;
 is
@@ -245,7 +245,7 @@ menu
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )

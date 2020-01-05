@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -50,7 +50,7 @@ removeAll
 (
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -83,7 +83,7 @@ addTab
 testURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -93,7 +93,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -291,7 +291,7 @@ removeAll
 (
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 gBrowser

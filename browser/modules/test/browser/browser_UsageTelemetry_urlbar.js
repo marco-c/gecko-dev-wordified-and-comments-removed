@@ -190,12 +190,8 @@ i
 let
 searchInAwesomebar
 =
-Task
-.
 async
-(
 function
-*
 (
 inputText
 win
@@ -203,7 +199,7 @@ win
 window
 )
 {
-yield
+await
 new
 Promise
 (
@@ -244,7 +240,7 @@ startSearch
 inputText
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -259,7 +255,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -285,7 +281,6 @@ STATUS_COMPLETE_NO_MATCH
 )
 ;
 }
-)
 ;
 function
 clickURLBarSuggestion
@@ -345,8 +340,8 @@ return
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -449,7 +444,7 @@ ONEOFF_URLBAR_PREF
 true
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -503,7 +498,7 @@ navigation
 true
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -512,8 +507,8 @@ clearHistory
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -560,7 +555,7 @@ clearUserPref
 ONEOFF_URLBAR_PREF
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -587,8 +582,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_simpleQuery
 (
 )
@@ -699,7 +694,7 @@ getSearchCountsHistogram
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -736,7 +731,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInAwesomebar
 (
 "
@@ -754,7 +749,7 @@ return
 "
 )
 ;
-yield
+await
 p
 ;
 const
@@ -990,7 +985,7 @@ FX_URLBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1003,8 +998,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_searchAlias
 (
 )
@@ -1115,7 +1110,7 @@ getSearchCountsHistogram
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1152,7 +1147,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInAwesomebar
 (
 "
@@ -1170,7 +1165,7 @@ return
 "
 )
 ;
-yield
+await
 p
 ;
 const
@@ -1406,7 +1401,7 @@ FX_URLBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1419,8 +1414,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_oneOff_enter
 (
 )
@@ -1531,7 +1526,7 @@ getSearchCountsHistogram
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1573,7 +1568,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInAwesomebar
 (
 "
@@ -1625,7 +1620,7 @@ return
 "
 )
 ;
-yield
+await
 p
 ;
 const
@@ -1861,7 +1856,7 @@ FX_URLBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1874,8 +1869,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_oneOff_enterSelection
 (
 )
@@ -1925,7 +1920,7 @@ xml
 let
 suggestionEngine
 =
-yield
+await
 new
 Promise
 (
@@ -1992,7 +1987,7 @@ suggestionEngine
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -2036,7 +2031,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInAwesomebar
 (
 "
@@ -2103,7 +2098,7 @@ return
 "
 )
 ;
-yield
+await
 p
 ;
 let
@@ -2143,7 +2138,7 @@ removeEngine
 suggestionEngine
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2156,8 +2151,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_oneOff_click
 (
 )
@@ -2193,7 +2188,7 @@ clear
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -2228,7 +2223,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInAwesomebar
 (
 "
@@ -2268,7 +2263,7 @@ click
 (
 )
 ;
-yield
+await
 p
 ;
 let
@@ -2291,7 +2286,7 @@ FX_URLBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2304,8 +2299,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_suggestion_click
 (
 )
@@ -2430,7 +2425,7 @@ xml
 let
 suggestionEngine
 =
-yield
+await
 new
 Promise
 (
@@ -2497,7 +2492,7 @@ suggestionEngine
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -2541,7 +2536,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInAwesomebar
 (
 "
@@ -2567,7 +2562,7 @@ queryfoo
 "
 )
 ;
-yield
+await
 p
 ;
 const
@@ -2827,7 +2822,7 @@ removeEngine
 suggestionEngine
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -2840,8 +2835,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_suggestion_enterSelection
 (
 )
@@ -2891,7 +2886,7 @@ xml
 let
 suggestionEngine
 =
-yield
+await
 new
 Promise
 (
@@ -2958,7 +2953,7 @@ suggestionEngine
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -3002,7 +2997,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 searchInAwesomebar
 (
 "
@@ -3044,7 +3039,7 @@ return
 "
 )
 ;
-yield
+await
 p
 ;
 let
@@ -3084,7 +3079,7 @@ removeEngine
 suggestionEngine
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

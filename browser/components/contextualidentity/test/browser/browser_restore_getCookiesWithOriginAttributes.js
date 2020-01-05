@@ -80,8 +80,8 @@ COOKIE_NAME
 userContextId
 "
 ;
+async
 function
-*
 openTabInUserContext
 (
 uri
@@ -125,7 +125,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -163,13 +163,13 @@ userContextId
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -405,8 +405,8 @@ originAttributes
 }
 add_task
 (
+async
 function
-*
 test_cookie_getCookiesWithOriginAttributes
 (
 )
@@ -443,8 +443,7 @@ tabs
 userContextId
 ]
 =
-yield
-*
+await
 openTabInUserContext
 (
 TEST_URL
@@ -460,7 +459,7 @@ value
 userContextId
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

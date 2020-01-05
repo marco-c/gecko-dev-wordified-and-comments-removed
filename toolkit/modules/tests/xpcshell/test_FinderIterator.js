@@ -197,8 +197,8 @@ findText
 }
 add_task
 (
+async
 function
-*
 test_start
 (
 )
@@ -226,7 +226,7 @@ count
 =
 0
 ;
-yield
+await
 FinderIterator
 .
 start
@@ -341,8 +341,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_valid_arguments
 (
 )
@@ -370,7 +370,7 @@ count
 =
 0
 ;
-yield
+await
 FinderIterator
 .
 start
@@ -781,8 +781,8 @@ counted
 ;
 add_task
 (
+async
 function
-*
 test_stop
 (
 )
@@ -853,7 +853,7 @@ stop
 (
 )
 ;
-yield
+await
 whenDone
 ;
 Assert
@@ -883,8 +883,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_reset
 (
 )
@@ -1059,7 +1059,7 @@ reset
 "
 )
 ;
-yield
+await
 whenDone
 ;
 Assert
@@ -1083,8 +1083,8 @@ match
 ;
 add_task
 (
+async
 function
-*
 test_parallel_starts
 (
 )
@@ -1149,7 +1149,7 @@ findText
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1224,7 +1224,7 @@ findText
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1261,10 +1261,10 @@ stop
 "
 )
 ;
-yield
+await
 whenDone
 ;
-yield
+await
 whenDone2
 ;
 Assert
@@ -1376,8 +1376,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 test_allowDistance
 (
 )
@@ -1533,7 +1533,7 @@ gu
 }
 )
 ;
-yield
+await
 Promise
 .
 all

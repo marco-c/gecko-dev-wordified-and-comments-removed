@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -48,7 +48,7 @@ test
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 keywords
@@ -100,7 +100,7 @@ bm
 }
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -389,7 +389,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promisePopupHidden
 (
 gURLBar

@@ -107,12 +107,12 @@ name
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -151,7 +151,7 @@ saved
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -160,7 +160,7 @@ gBrowser
 INITIAL_URL
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv
@@ -186,13 +186,13 @@ loadURI
 FINAL_URL
 )
 ;
-yield
+await
 browserLoadedPromise
 ;
 let
 subject
 =
-yield
+await
 visitUriPromise
 ;
 let
@@ -220,7 +220,7 @@ visit
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

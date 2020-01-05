@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_keyword_searc
 (
 )
@@ -49,7 +49,7 @@ ThisPageIsInHistory
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -82,7 +82,7 @@ title
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -112,7 +112,7 @@ query
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -174,7 +174,7 @@ UC
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -238,7 +238,7 @@ query
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -304,7 +304,7 @@ with
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -370,7 +370,7 @@ query
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -434,7 +434,7 @@ page
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -500,7 +500,7 @@ space
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -564,7 +564,7 @@ space
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -615,7 +615,7 @@ heuristic
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

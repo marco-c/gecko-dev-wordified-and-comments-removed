@@ -204,13 +204,13 @@ resetEngine
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
 {
-yield
+await
 promiseNewEngine
 (
 TEST_ENGINE_BASENAME
@@ -226,8 +226,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_searchBarChangeEngine
 (
 )
@@ -235,7 +235,7 @@ test_searchBarChangeEngine
 let
 oneOffButton
 =
-yield
+await
 openPopupAndGetEngineButton
 (
 true
@@ -286,7 +286,7 @@ setDefaultEngineMenuItem
 }
 )
 ;
-yield
+await
 promise
 ;
 Assert
@@ -376,7 +376,7 @@ image
 "
 )
 ;
-yield
+await
 promiseClosePopup
 (
 searchPopup
@@ -387,8 +387,8 @@ searchPopup
 ;
 add_task
 (
+async
 function
-*
 test_urlBarChangeEngine
 (
 )
@@ -406,7 +406,6 @@ true
 registerCleanupFunction
 (
 function
-*
 (
 )
 {
@@ -429,7 +428,7 @@ resetEngine
 let
 oneOffButton
 =
-yield
+await
 openPopupAndGetEngineButton
 (
 false
@@ -480,7 +479,7 @@ setDefaultEngineMenuItem
 }
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -579,7 +578,7 @@ image
 "
 )
 ;
-yield
+await
 promiseClosePopup
 (
 urlbarPopup
@@ -685,8 +684,8 @@ modified
 )
 ;
 }
+async
 function
-*
 openPopupAndGetEngineButton
 (
 isSearch
@@ -749,7 +748,7 @@ a
 )
 ;
 }
-yield
+await
 promise
 ;
 const
@@ -931,15 +930,15 @@ button
 }
 )
 ;
-yield
+await
 promise
 ;
 return
 oneOffButton
 ;
 }
+async
 function
-*
 promiseClosePopup
 (
 popup
@@ -967,10 +966,10 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 EventUtils
 .
 synthesizeNativeMouseMove

@@ -39,8 +39,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -61,7 +61,7 @@ window
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -84,7 +84,7 @@ loadURI
 BASE_URI
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -108,7 +108,7 @@ URL
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -188,7 +188,7 @@ window
 let
 privateWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -216,7 +216,7 @@ loadURI
 BASE_URI
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -224,7 +224,7 @@ browserLoaded
 privateTab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -343,7 +343,7 @@ work
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -351,7 +351,7 @@ closeWindow
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

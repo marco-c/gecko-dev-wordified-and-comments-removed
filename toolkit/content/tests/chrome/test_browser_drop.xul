@@ -194,8 +194,8 @@ runTest
 {
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -225,7 +225,7 @@ height
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -250,7 +250,7 @@ content
 ]
 )
 {
-yield
+await
 win
 .
 dropLinksOnBrowser
@@ -271,7 +271,7 @@ browserType
 )
 ;
 }
-yield
+await
 win
 .
 dropLinksOnBrowser

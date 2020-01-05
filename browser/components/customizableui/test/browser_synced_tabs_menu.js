@@ -177,13 +177,13 @@ false
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -319,8 +319,8 @@ initial
 }
 )
 ;
+async
 function
-*
 openPrefsFromMenuPanel
 (
 expectedPanelId
@@ -366,7 +366,7 @@ com
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -469,7 +469,7 @@ click
 (
 )
 ;
-yield
+await
 tabsUpdatedPromise
 ;
 let
@@ -659,7 +659,7 @@ handler
 true
 )
 ;
-yield
+await
 deferred
 .
 promise
@@ -724,7 +724,7 @@ isPanelUIOpen
 )
 )
 {
-yield
+await
 panelUIHide
 (
 )
@@ -828,8 +828,8 @@ window
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -884,7 +884,7 @@ hidden
 =
 true
 ;
-yield
+await
 openPrefsFromMenuPanel
 (
 "
@@ -910,8 +910,8 @@ asyncCleanup
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -966,7 +966,7 @@ hidden
 =
 true
 ;
-yield
+await
 openPrefsFromMenuPanel
 (
 "
@@ -987,8 +987,8 @@ tabs
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1177,7 +1177,7 @@ button
 +
 )
 {
-yield
+await
 PanelUI
 .
 show
@@ -1232,7 +1232,7 @@ tab
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1364,7 +1364,7 @@ selectedTab
 ;
 }
 }
-yield
+await
 PanelUI
 .
 show
@@ -1431,7 +1431,7 @@ opened
 )
 ;
 }
-yield
+await
 panelUIHide
 (
 )
@@ -1471,8 +1471,8 @@ ios
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1527,7 +1527,7 @@ hidden
 =
 false
 ;
-yield
+await
 PanelUI
 .
 show
@@ -1569,7 +1569,7 @@ click
 (
 )
 ;
-yield
+await
 tabsUpdatedPromise
 ;
 let
@@ -1757,7 +1757,7 @@ resolve
 )
 ;
 }
-yield
+await
 updateTabsPanel
 (
 )
@@ -1942,7 +1942,7 @@ lastUsed
 ;
 }
 ;
-yield
+await
 updateTabsPanel
 (
 )
@@ -2406,7 +2406,7 @@ entries
 "
 )
 ;
-yield
+await
 panelUIHide
 (
 )
@@ -2416,8 +2416,8 @@ panelUIHide
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -2565,7 +2565,7 @@ hidden
 =
 false
 ;
-yield
+await
 PanelUI
 .
 show
@@ -2607,7 +2607,7 @@ click
 (
 )
 ;
-yield
+await
 tabsUpdatedPromise
 ;
 let
@@ -2967,7 +2967,7 @@ More
 "
 )
 ;
-yield
+await
 clickShowMoreButton
 (
 )
@@ -2983,7 +2983,7 @@ More
 "
 )
 ;
-yield
+await
 clickShowMoreButton
 (
 )
@@ -2999,7 +2999,7 @@ All
 "
 )
 ;
-yield
+await
 clickShowMoreButton
 (
 )
@@ -3010,7 +3010,7 @@ checkTabsPage
 null
 )
 ;
-yield
+await
 panelUIHide
 (
 )

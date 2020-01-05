@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 duplicateTab
 (
 )
@@ -28,7 +28,7 @@ addTab
 TEST_URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -38,7 +38,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -123,7 +123,7 @@ duplicateTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -133,7 +133,7 @@ tab2
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -208,7 +208,7 @@ toString
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -216,7 +216,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -229,8 +229,8 @@ tab2
 ;
 add_task
 (
+async
 function
-*
 contentToChromeNavigate
 (
 )
@@ -257,7 +257,7 @@ addTab
 TEST_URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -267,7 +267,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -350,7 +350,7 @@ toString
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -411,7 +411,7 @@ null
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -502,7 +502,7 @@ toString
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

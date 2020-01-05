@@ -65,8 +65,8 @@ undo
 ;
 add_task
 (
+async
 function
-*
 autoMigrationUndoNotificationShows
 (
 )
@@ -288,7 +288,7 @@ state
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -330,7 +330,7 @@ it
 .
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForNotificationBar
@@ -451,7 +451,7 @@ localizedImportItem
 ;
 }
 }
-yield
+await
 BrowserTestUtils
 .
 removeTab

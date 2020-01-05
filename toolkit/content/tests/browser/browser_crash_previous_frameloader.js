@@ -139,8 +139,8 @@ true
 }
 add_task
 (
+async
 function
-*
 test_crash_in_previous_frameloader
 (
 )
@@ -180,7 +180,7 @@ mode
 return
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -199,8 +199,8 @@ example
 com
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -283,7 +283,7 @@ crashed
 onTabCrashed
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -443,7 +443,7 @@ let
 subject
 ]
 =
-yield
+await
 contentProcessGone
 ;
 let
@@ -473,7 +473,7 @@ if
 dumpID
 )
 {
-yield
+await
 Services
 .
 crashmanager

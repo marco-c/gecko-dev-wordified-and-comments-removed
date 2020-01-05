@@ -223,8 +223,8 @@ mochitest
 ;
 add_task
 (
+async
 function
-*
 test_contentscript
 (
 )
@@ -515,7 +515,7 @@ found
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -535,7 +535,7 @@ file_sample
 html
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -565,7 +565,7 @@ loaded
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -578,7 +578,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }

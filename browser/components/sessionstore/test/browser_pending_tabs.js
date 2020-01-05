@@ -38,8 +38,8 @@ index
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -64,7 +64,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -124,10 +124,10 @@ pending
 "
 )
 ;
-yield
+await
 promise
 ;
-yield
+await
 TabStateFlusher
 .
 flush

@@ -4,8 +4,8 @@ strict
 "
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -28,7 +28,7 @@ only
 "
 )
 ;
-yield
+await
 withSidebarTree
 (
 "

@@ -233,13 +233,13 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -274,10 +274,10 @@ loads
 "
 )
 ;
-yield
+await
 loadPromise
 ;
-yield
+await
 loadRecipes
 (
 {
@@ -857,8 +857,8 @@ args
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -982,7 +982,7 @@ blank
 html
 "
 ;
-yield
+await
 loadedPromise
 ;
 let
@@ -1023,7 +1023,7 @@ trying
 to
 submit
 .
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -1067,7 +1067,7 @@ scriptName
 let
 submittedResult
 =
-yield
+await
 processedPromise
 ;
 /

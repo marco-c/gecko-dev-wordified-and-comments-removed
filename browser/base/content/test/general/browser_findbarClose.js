@@ -3,8 +3,8 @@ newTab
 ;
 add_task
 (
+async
 function
-*
 findbar_test
 (
 )
@@ -37,12 +37,12 @@ newTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -93,7 +93,7 @@ html
 "
 )
 ;
-yield
+await
 promise
 ;
 gFindBar
@@ -102,7 +102,7 @@ open
 (
 )
 ;
-yield
+await
 new
 ContentTask
 .

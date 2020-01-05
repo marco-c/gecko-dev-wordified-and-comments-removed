@@ -93,12 +93,8 @@ sqlite
 var
 setupPlacesDatabase
 =
-Task
-.
 async
-(
 function
-*
 (
 aFileName
 )
@@ -106,7 +102,7 @@ aFileName
 let
 currentDir
 =
-yield
+await
 OS
 .
 File
@@ -133,7 +129,7 @@ Assert
 ok
 (
 (
-yield
+await
 OS
 .
 File
@@ -175,7 +171,7 @@ ok
 (
 !
 (
-yield
+await
 OS
 .
 File
@@ -195,7 +191,7 @@ yet
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -207,7 +203,6 @@ dest
 )
 ;
 }
-)
 ;
 function
 run_test

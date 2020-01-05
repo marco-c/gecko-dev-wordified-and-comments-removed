@@ -218,12 +218,12 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForEvent

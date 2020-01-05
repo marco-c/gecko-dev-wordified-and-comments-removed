@@ -65,8 +65,8 @@ removeAll
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -80,7 +80,7 @@ selectedTab
 let
 openedTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -106,7 +106,7 @@ true
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -115,7 +115,7 @@ gBrowser
 firstTab
 )
 ;
-yield
+await
 openedTabGotAttentionPromise
 ;
 is
@@ -162,7 +162,7 @@ selected
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -300,7 +300,7 @@ onButtonClick
 0
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -384,7 +384,7 @@ click
 (
 )
 ;
-yield
+await
 shown
 ;
 let
@@ -497,7 +497,7 @@ true
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -506,7 +506,7 @@ gBrowser
 firstTab
 )
 ;
-yield
+await
 openedTabSelectedPromise
 ;
 ok
@@ -530,7 +530,7 @@ again
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -230,8 +230,8 @@ uninstalled
 .
 add_task
 (
+async
 function
-*
 test_uninstall
 (
 )
@@ -909,7 +909,7 @@ uuid
 flag
 set
 .
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -932,7 +932,7 @@ true
 }
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -996,14 +996,14 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1013,7 +1013,7 @@ finished
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1085,7 +1085,7 @@ a
 meaningful
 test
 !
-yield
+await
 SpecialPowers
 .
 popPrefEnv
@@ -1132,7 +1132,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1142,7 +1142,7 @@ startup
 let
 results
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1201,7 +1201,7 @@ present
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1261,7 +1261,7 @@ temporary
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1270,7 +1270,7 @@ startup
 ;
 results
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1326,7 +1326,7 @@ cleared
 "
 )
 ;
-yield
+await
 extension
 .
 unload

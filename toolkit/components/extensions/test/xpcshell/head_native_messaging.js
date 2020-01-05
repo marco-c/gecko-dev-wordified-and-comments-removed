@@ -180,8 +180,8 @@ mozilla
 org
 "
 ;
+async
 function
-*
 setupHosts
 (
 scripts
@@ -224,7 +224,7 @@ nsIEnvironment
 const
 pythonPath
 =
-yield
+await
 Subprocess
 .
 pathSearch
@@ -239,8 +239,8 @@ PYTHON
 )
 )
 ;
+async
 function
-*
 writeManifest
 (
 script
@@ -266,7 +266,7 @@ script
 script
 }
 ;
-yield
+await
 OS
 .
 File
@@ -277,7 +277,7 @@ scriptPath
 body
 )
 ;
-yield
+await
 OS
 .
 File
@@ -329,7 +329,7 @@ name
 json
 )
 ;
-yield
+await
 OS
 .
 File
@@ -468,7 +468,7 @@ name
 py
 )
 ;
-yield
+await
 writeManifest
 (
 script
@@ -579,7 +579,7 @@ scriptPath
 \
 n
 ;
-yield
+await
 OS
 .
 File
@@ -634,7 +634,7 @@ name
 let
 manifestPath
 =
-yield
+await
 writeManifest
 (
 script

@@ -253,8 +253,8 @@ ownerGlobal
 )
 ;
 }
+async
 function
-*
 togglePasswords
 (
 )
@@ -275,7 +275,7 @@ doCommand
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -298,8 +298,8 @@ documentElement
 clientWidth
 ;
 }
+async
 function
-*
 editUsernamePromises
 (
 site
@@ -388,7 +388,7 @@ signonsTree
 0
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -436,7 +436,7 @@ signonsIntro
 pwmgrdlg
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -540,8 +540,8 @@ update
 )
 ;
 }
+async
 function
-*
 editPasswordPromises
 (
 site
@@ -630,7 +630,7 @@ signonsTree
 0
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -678,7 +678,7 @@ signonsIntro
 pwmgrdlg
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForCondition
@@ -784,8 +784,8 @@ update
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -925,7 +925,7 @@ callee
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -978,8 +978,8 @@ pwmgrdlg
 ;
 add_task
 (
+async
 function
-*
 test_edit_multiple_logins
 (
 )
@@ -1033,8 +1033,7 @@ togglePasswords
 )
 ;
 }
-yield
-*
+await
 testLoginChange
 (
 "
@@ -1061,8 +1060,7 @@ passwordC
 "
 )
 ;
-yield
-*
+await
 testLoginChange
 (
 "
@@ -1089,8 +1087,7 @@ passwordB
 "
 )
 ;
-yield
-*
+await
 testLoginChange
 (
 "

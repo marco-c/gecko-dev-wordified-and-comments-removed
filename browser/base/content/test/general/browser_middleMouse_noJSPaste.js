@@ -18,12 +18,12 @@ autoScroll
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -39,7 +39,7 @@ false
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -65,7 +65,7 @@ com
 /
 "
 ;
-yield
+await
 new
 Promise
 (
@@ -164,7 +164,7 @@ clicking
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -182,7 +182,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 middlePagePromise
 ;
 is

@@ -1439,8 +1439,8 @@ view
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -1575,7 +1575,7 @@ clearDownloads
 }
 )
 ;
-yield
+await
 clearDownloads
 (
 )
@@ -1629,14 +1629,14 @@ downloads
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1651,8 +1651,8 @@ ready
 ;
 add_task
 (
+async
 function
-*
 test_events
 (
 )
@@ -1660,7 +1660,7 @@ test_events
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -1698,7 +1698,7 @@ result
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -1771,8 +1771,8 @@ events
 ;
 add_task
 (
+async
 function
-*
 test_cancel
 (
 )
@@ -1792,7 +1792,7 @@ url
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -1837,7 +1837,7 @@ INT_PARTIAL_LEN
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -1876,7 +1876,7 @@ events
 "
 )
 ;
-yield
+await
 progressPromise
 ;
 do_print
@@ -1891,7 +1891,7 @@ bytes
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -1918,7 +1918,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2031,7 +2031,7 @@ cancel
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2226,7 +2226,7 @@ correct
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2254,7 +2254,7 @@ download
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2285,8 +2285,8 @@ download
 ;
 add_task
 (
+async
 function
-*
 test_pauseresume
 (
 )
@@ -2301,7 +2301,7 @@ getInterruptibleUrl
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2346,7 +2346,7 @@ INT_PARTIAL_LEN
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2385,7 +2385,7 @@ events
 "
 )
 ;
-yield
+await
 progressPromise
 ;
 do_print
@@ -2400,7 +2400,7 @@ bytes
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2427,7 +2427,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2527,7 +2527,7 @@ pause
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2740,7 +2740,7 @@ correct
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2812,7 +2812,7 @@ download
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2841,7 +2841,7 @@ download
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2868,7 +2868,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -2983,7 +2983,7 @@ complete
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3172,7 +3172,7 @@ correct
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3200,7 +3200,7 @@ download
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3231,8 +3231,8 @@ download
 ;
 add_task
 (
+async
 function
-*
 test_pausecancel
 (
 )
@@ -3247,7 +3247,7 @@ getInterruptibleUrl
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3292,7 +3292,7 @@ INT_PARTIAL_LEN
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3331,7 +3331,7 @@ events
 "
 )
 ;
-yield
+await
 progressPromise
 ;
 do_print
@@ -3346,7 +3346,7 @@ bytes
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3373,7 +3373,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3473,7 +3473,7 @@ pause
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3686,7 +3686,7 @@ correct
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3758,7 +3758,7 @@ download
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3785,7 +3785,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -3846,7 +3846,7 @@ cancel
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4020,8 +4020,8 @@ correct
 ;
 add_task
 (
+async
 function
-*
 test_pause_resume_cancel_badargs
 (
 )
@@ -4034,7 +4034,7 @@ BAD_ID
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4088,7 +4088,7 @@ descriptive
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4142,7 +4142,7 @@ descriptive
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4199,8 +4199,8 @@ descriptive
 ;
 add_task
 (
+async
 function
-*
 test_file_removal
 (
 )
@@ -4208,7 +4208,7 @@ test_file_removal
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4246,7 +4246,7 @@ result
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4316,7 +4316,7 @@ events
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4343,7 +4343,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4405,7 +4405,7 @@ file
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4447,8 +4447,8 @@ id
 ;
 add_task
 (
+async
 function
-*
 test_removal_of_incomplete_download
 (
 )
@@ -4463,7 +4463,7 @@ getInterruptibleUrl
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4508,7 +4508,7 @@ INT_PARTIAL_LEN
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4547,7 +4547,7 @@ events
 "
 )
 ;
-yield
+await
 progressPromise
 ;
 do_print
@@ -4562,7 +4562,7 @@ bytes
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4589,7 +4589,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4689,7 +4689,7 @@ pause
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4747,7 +4747,7 @@ incomplete
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4774,7 +4774,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4889,7 +4889,7 @@ complete
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -4925,18 +4925,18 @@ download
 ;
 add_task
 (
+async
 function
-*
 test_erase
 (
 )
 {
-yield
+await
 clearDownloads
 (
 )
 ;
-yield
+await
 runInExtension
 (
 "
@@ -5053,7 +5053,7 @@ ids
 .
 dl1
 =
-yield
+await
 download
 (
 )
@@ -5062,7 +5062,7 @@ ids
 .
 dl2
 =
-yield
+await
 download
 (
 )
@@ -5071,7 +5071,7 @@ ids
 .
 dl3
 =
-yield
+await
 download
 (
 )
@@ -5079,7 +5079,7 @@ download
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5121,7 +5121,7 @@ downloads
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5131,7 +5131,7 @@ clearEvents
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5164,7 +5164,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5203,7 +5203,7 @@ event
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5245,7 +5245,7 @@ downloads
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5272,7 +5272,7 @@ succeeded
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5329,7 +5329,7 @@ events
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5407,8 +5407,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 test_getFileIcon
 (
 )
@@ -5479,7 +5479,7 @@ img
 let
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5517,7 +5517,7 @@ result
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5542,7 +5542,7 @@ succeeded
 "
 )
 ;
-yield
+await
 loadImage
 (
 img
@@ -5587,7 +5587,7 @@ width
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5635,7 +5635,7 @@ events
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5660,7 +5660,7 @@ succeeded
 "
 )
 ;
-yield
+await
 loadImage
 (
 img
@@ -5709,7 +5709,7 @@ download
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5760,7 +5760,7 @@ invalid
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5790,7 +5790,7 @@ succeeded
 "
 )
 ;
-yield
+await
 loadImage
 (
 img
@@ -5837,7 +5837,7 @@ width
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5867,7 +5867,7 @@ succeeded
 "
 )
 ;
-yield
+await
 loadImage
 (
 img
@@ -5914,7 +5914,7 @@ width
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -5971,7 +5971,7 @@ number
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -6025,7 +6025,7 @@ small
 ;
 msg
 =
-yield
+await
 runInExtension
 (
 "
@@ -6088,13 +6088,13 @@ close
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )
 {
-yield
+await
 extension
 .
 unload

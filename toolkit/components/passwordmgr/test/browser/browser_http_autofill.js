@@ -25,8 +25,8 @@ browser
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -138,7 +138,7 @@ addLogin
 login
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -168,8 +168,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_http_autofill
 (
 )
@@ -192,7 +192,7 @@ https
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -215,7 +215,7 @@ username
 password
 ]
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -224,8 +224,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -340,8 +340,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_iframe_in_http_autofill
 (
 )
@@ -364,7 +364,7 @@ https
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -387,7 +387,7 @@ username
 password
 ]
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -396,8 +396,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -534,8 +534,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_http_action_autofill
 (
 )
@@ -558,7 +558,7 @@ secure
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -583,7 +583,7 @@ username
 password
 ]
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -592,8 +592,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {

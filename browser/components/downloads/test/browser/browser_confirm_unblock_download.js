@@ -44,8 +44,8 @@ expectedResult
 }
 add_task
 (
+async
 function
-*
 test_unblock_dialog_unblock
 (
 )
@@ -87,7 +87,7 @@ unblock
 "
 }
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -105,7 +105,7 @@ unblock
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -129,8 +129,8 @@ cancel
 ;
 add_task
 (
+async
 function
-*
 test_chooseUnblock_dialog
 (
 )
@@ -154,7 +154,7 @@ chooseUnblock
 "
 }
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -172,7 +172,7 @@ unblock
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -190,7 +190,7 @@ cancel
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -213,8 +213,8 @@ confirmBlock
 ;
 add_task
 (
+async
 function
-*
 test_chooseOpen_dialog
 (
 )
@@ -238,7 +238,7 @@ chooseOpen
 "
 }
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -256,7 +256,7 @@ open
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {
@@ -274,7 +274,7 @@ cancel
 }
 )
 ;
-yield
+await
 assertDialogResult
 (
 {

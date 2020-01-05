@@ -521,13 +521,13 @@ iframeDoc
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -589,8 +589,8 @@ occur
 ;
 add_task
 (
+async
 function
-*
 test_initial_focus
 (
 )
@@ -598,7 +598,7 @@ test_initial_focus
 let
 results
 =
-yield
+await
 notifyMenuChanged
 (
 2
@@ -638,7 +638,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -673,7 +673,7 @@ filled
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -710,8 +710,8 @@ test
 .
 add_task
 (
+async
 function
-*
 test_not_reopened_if_filled
 (
 )
@@ -755,7 +755,7 @@ occurs
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -798,8 +798,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 test_reopened_after_edit_not_matching_saved
 (
 )
@@ -841,7 +841,7 @@ focus
 (
 )
 ;
-yield
+await
 shownPromise
 ;
 iframeDoc
@@ -866,8 +866,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 test_not_reopened_after_selecting
 (
 )
@@ -970,7 +970,7 @@ occurs
 "
 )
 ;
-yield
+await
 new
 Promise
 (

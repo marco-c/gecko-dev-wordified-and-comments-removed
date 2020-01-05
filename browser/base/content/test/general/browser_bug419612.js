@@ -7,12 +7,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -54,7 +51,7 @@ addTab
 (
 )
 ;
-yield
+await
 FullZoomHelper
 .
 selectTabAndWaitForLocationChange
@@ -62,7 +59,7 @@ selectTabAndWaitForLocationChange
 tab1
 )
 ;
-yield
+await
 FullZoomHelper
 .
 load
@@ -80,7 +77,7 @@ addTab
 (
 )
 ;
-yield
+await
 FullZoomHelper
 .
 load
@@ -107,7 +104,7 @@ tab1
 linkedBrowser
 )
 ;
-yield
+await
 FullZoomHelper
 .
 selectTabAndWaitForLocationChange
@@ -154,7 +151,7 @@ updateBackgroundTabs
 false
 )
 ;
-yield
+await
 FullZoom
 .
 reset
@@ -231,7 +228,7 @@ updateBackgroundTabs
 "
 )
 ;
-yield
+await
 FullZoomHelper
 .
 removeTabAndWaitForLocationChange
@@ -239,7 +236,7 @@ removeTabAndWaitForLocationChange
 tab1
 )
 ;
-yield
+await
 FullZoomHelper
 .
 removeTabAndWaitForLocationChange
@@ -248,6 +245,8 @@ tab2
 )
 ;
 }
+)
+(
 )
 .
 then

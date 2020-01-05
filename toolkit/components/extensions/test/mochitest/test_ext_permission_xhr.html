@@ -181,8 +181,8 @@ listeners
 /
 add_task
 (
+async
 function
-*
 test_simple
 (
 )
@@ -782,7 +782,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -803,7 +803,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -823,7 +823,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -833,7 +833,7 @@ permission_xhr
 "
 )
 ;
-yield
+await
 extension
 .
 unload

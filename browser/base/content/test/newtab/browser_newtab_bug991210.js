@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -52,7 +52,7 @@ addProvider
 afterLoadProvider
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -73,7 +73,7 @@ callback
 ]
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -83,8 +83,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -43,7 +43,7 @@ true
 }
 )
 ;
-yield
+await
 focusPromise
 ;
 Assert

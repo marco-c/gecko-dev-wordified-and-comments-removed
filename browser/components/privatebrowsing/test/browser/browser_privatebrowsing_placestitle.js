@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -66,7 +66,7 @@ clearHistory
 )
 ;
 }
-yield
+await
 cleanup
 (
 )
@@ -247,7 +247,7 @@ historyObserver
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -272,7 +272,7 @@ TEST_URL
 let
 aPageTitle
 =
-yield
+await
 deferredFirst
 .
 promise
@@ -317,7 +317,7 @@ TEST_URL
 ;
 aPageTitle
 =
-yield
+await
 deferredSecond
 .
 promise
@@ -344,7 +344,7 @@ time
 "
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -366,7 +366,7 @@ TEST_URL
 ;
 aPageTitle
 =
-yield
+await
 deferredThird
 .
 promise
@@ -394,7 +394,7 @@ again
 let
 win2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -426,7 +426,7 @@ selectedTab
 =
 private_tab
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -436,7 +436,7 @@ private_tab
 linkedBrowser
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -450,7 +450,7 @@ removeObserver
 historyObserver
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -458,7 +458,7 @@ closeWindow
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

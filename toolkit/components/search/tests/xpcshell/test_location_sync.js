@@ -173,8 +173,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_simple
 (
 )
@@ -272,7 +272,7 @@ search
 isInitialized
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -292,7 +292,7 @@ resolve
 let
 msg
 =
-yield
+await
 promiseTzMessage
 ;
 print

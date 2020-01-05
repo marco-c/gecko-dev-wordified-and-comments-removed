@@ -71,13 +71,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_initalize
 (
 )
 {
-yield
+await
 task_populateDB
 (
 testData

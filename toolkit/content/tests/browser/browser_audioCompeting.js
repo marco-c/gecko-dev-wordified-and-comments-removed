@@ -362,13 +362,13 @@ resolve
 }
 add_task
 (
+async
 function
-*
 setup_test_preference
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -408,8 +408,8 @@ processCount
 ;
 add_task
 (
+async
 function
-*
 cross_tabs_audio_competing
 (
 )
@@ -430,7 +430,7 @@ foreground
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -454,7 +454,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 waitForTabPlayingEvent
 (
 tab1
@@ -477,7 +477,7 @@ foreground
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -501,7 +501,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 waitForTabPlayingEvent
 (
 tab1
@@ -524,7 +524,7 @@ foreground
 let
 tab3
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -539,7 +539,7 @@ blank
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -565,7 +565,7 @@ tab
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -587,7 +587,7 @@ tabs
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -595,7 +595,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -603,7 +603,7 @@ removeTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -616,8 +616,8 @@ tab3
 ;
 add_task
 (
+async
 function
-*
 within_one_tab_audio_competing
 (
 )
@@ -638,7 +638,7 @@ audio1
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -662,7 +662,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 waitForTabPlayingEvent
 (
 tab
@@ -683,7 +683,7 @@ tab
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -705,7 +705,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

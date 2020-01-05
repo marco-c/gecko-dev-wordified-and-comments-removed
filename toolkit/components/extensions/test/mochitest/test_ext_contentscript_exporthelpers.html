@@ -163,8 +163,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_contentscript_exportHelpers
 (
 )
@@ -619,7 +619,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -640,7 +640,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -659,7 +659,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

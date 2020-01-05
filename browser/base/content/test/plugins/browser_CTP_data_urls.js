@@ -77,8 +77,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -252,12 +252,12 @@ in
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -272,7 +272,7 @@ html
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gTestBrowser
@@ -318,7 +318,7 @@ notification
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -353,7 +353,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -361,8 +361,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -388,10 +388,10 @@ click
 }
 )
 ;
-yield
+await
 loadPromise
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gTestBrowser
@@ -435,7 +435,7 @@ notification
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -476,7 +476,7 @@ plugins
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -484,8 +484,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -602,7 +602,7 @@ false
 }
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -638,7 +638,7 @@ panel
 .
 firstChild
 ;
-yield
+await
 promiseForCondition
 (
 condition
@@ -658,7 +658,7 @@ click
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -686,8 +686,8 @@ activated
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -695,7 +695,7 @@ clearAllPluginPermissions
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -710,7 +710,7 @@ html
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gTestBrowser
@@ -756,7 +756,7 @@ notification
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -791,7 +791,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -799,8 +799,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -826,10 +826,10 @@ click
 }
 )
 ;
-yield
+await
 loadPromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -837,8 +837,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -873,7 +873,7 @@ clientTop
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -900,7 +900,7 @@ activated
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -961,7 +961,7 @@ notification
 "
 )
 ;
-yield
+await
 promiseForNotificationShown
 (
 notification
@@ -1142,7 +1142,7 @@ click
 (
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gTestBrowser
@@ -1150,7 +1150,7 @@ gTestBrowser
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -1178,8 +1178,8 @@ activated
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1187,7 +1187,7 @@ clearAllPluginPermissions
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -1202,7 +1202,7 @@ html
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gTestBrowser
@@ -1213,8 +1213,8 @@ gTestBrowser
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1258,7 +1258,7 @@ notification
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -1299,7 +1299,7 @@ plugins
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1307,8 +1307,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -1425,7 +1425,7 @@ false
 }
 )
 ;
-yield
+await
 promise
 ;
 let
@@ -1461,7 +1461,7 @@ panel
 .
 firstChild
 ;
-yield
+await
 promiseForCondition
 (
 condition
@@ -1481,7 +1481,7 @@ click
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -1514,7 +1514,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1522,8 +1522,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -1549,10 +1549,10 @@ click
 }
 )
 ;
-yield
+await
 loadPromise
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gTestBrowser
@@ -1560,7 +1560,7 @@ gTestBrowser
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "

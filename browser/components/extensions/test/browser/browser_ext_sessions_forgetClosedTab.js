@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_sessions_forget_closed_tab
 (
 )
@@ -193,7 +193,7 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -216,7 +216,7 @@ com
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -225,7 +225,7 @@ gBrowser
 tabUrl
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -235,7 +235,7 @@ tab
 ;
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -244,7 +244,7 @@ gBrowser
 tabUrl
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -266,7 +266,7 @@ sessions
 let
 recentlyClosed
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -310,7 +310,7 @@ recentlyClosedTab
 sessionId
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -336,7 +336,7 @@ sessions
 let
 remainingClosed
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -408,7 +408,7 @@ recentlyClosedTab
 sessionId
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -433,7 +433,7 @@ sessions
 ;
 remainingClosed
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -488,7 +488,7 @@ remains
 "
 )
 ;
-yield
+await
 extension
 .
 unload

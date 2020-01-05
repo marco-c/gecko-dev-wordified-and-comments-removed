@@ -61,8 +61,8 @@ frameRight
 html
 "
 ;
+async
 function
-*
 withAddBookmarkForFrame
 (
 taskFn
@@ -71,7 +71,7 @@ taskFn
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -105,7 +105,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -129,10 +129,10 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
-yield
+await
 withBookmarksDialog
 (
 true
@@ -182,7 +182,7 @@ click
 taskFn
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -193,8 +193,8 @@ tab
 }
 add_task
 (
+async
 function
-*
 test_open_add_bookmark_for_frame
 (
 )
@@ -216,11 +216,10 @@ dialog
 "
 )
 ;
-yield
+await
 withAddBookmarkForFrame
 (
 function
-*
 test
 (
 dialogWin
@@ -364,8 +363,8 @@ empty
 ;
 add_task
 (
+async
 function
-*
 test_move_bookmark_whilst_add_bookmark_open
 (
 )
@@ -390,7 +389,7 @@ open
 "
 )
 ;
-yield
+await
 withAddBookmarkForFrame
 (
 function

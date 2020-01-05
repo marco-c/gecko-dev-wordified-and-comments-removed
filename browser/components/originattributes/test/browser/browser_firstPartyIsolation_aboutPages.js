@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -51,8 +51,8 @@ isolate
 ;
 add_task
 (
+async
 function
-*
 test_remote_window_open_aboutBlank
 (
 )
@@ -60,7 +60,7 @@ test_remote_window_open_aboutBlank
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -97,7 +97,7 @@ browser
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -105,8 +105,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -234,8 +234,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_nonremote_window_open_aboutBlank
 (
 )
@@ -243,7 +243,7 @@ test_nonremote_window_open_aboutBlank
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -306,15 +306,15 @@ mozilla
 "
 }
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 attrs
+async
 function
-*
 (
 expectAttrs
 )
@@ -453,8 +453,8 @@ click
 }
 add_task
 (
+async
 function
-*
 test_remote_window_open_data_uri
 (
 )
@@ -462,7 +462,7 @@ test_remote_window_open_data_uri
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -515,7 +515,7 @@ toString
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -543,7 +543,7 @@ hello
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -551,8 +551,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -679,8 +679,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_remote_window_open_data_uri2
 (
 )
@@ -688,7 +688,7 @@ test_remote_window_open_data_uri2
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -766,7 +766,7 @@ loadURI
 DATA_URI
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -775,7 +775,7 @@ browser
 true
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -783,8 +783,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -989,8 +989,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_aboutURL
 (
 )
@@ -1236,7 +1236,7 @@ about
 url
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1269,7 +1269,7 @@ mozilla
 "
 }
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1281,8 +1281,8 @@ linkedBrowser
 attrs
 url
 }
+async
 function
-*
 (
 args
 )

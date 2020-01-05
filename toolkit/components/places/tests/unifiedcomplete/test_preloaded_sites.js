@@ -322,8 +322,8 @@ gooo
 }
 add_task
 (
+async
 function
-*
 test_it_works
 (
 )
@@ -348,7 +348,7 @@ PREF_FEATURE_ENABLED
 false
 )
 ;
-yield
+await
 assert_feature_does_not_appear
 (
 "
@@ -369,7 +369,7 @@ PREF_FEATURE_ENABLED
 true
 )
 ;
-yield
+await
 assert_feature_works
 (
 "
@@ -390,7 +390,7 @@ PREF_FEATURE_EXPIRE_DAYS
 0
 )
 ;
-yield
+await
 assert_feature_does_not_appear
 (
 "
@@ -399,7 +399,7 @@ expired
 "
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -409,8 +409,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_sorting_against_bookmark
 (
 )
@@ -433,7 +433,7 @@ com
 "
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -482,7 +482,7 @@ Bookmarks
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -560,7 +560,7 @@ site
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -570,8 +570,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_sorting_against_history
 (
 )
@@ -594,7 +594,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -646,7 +646,7 @@ entries
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -717,7 +717,7 @@ site
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -727,8 +727,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_scheme_and_www
 (
 )
@@ -1850,7 +1850,7 @@ test
 ]
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1888,7 +1888,7 @@ matches
 )
 ;
 }
-yield
+await
 cleanup
 (
 )
@@ -1898,8 +1898,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_data_file
 (
 )
@@ -1907,7 +1907,7 @@ test_data_file
 let
 response
 =
-yield
+await
 fetch
 (
 "
@@ -1964,7 +1964,7 @@ parsed
 let
 sites
 =
-yield
+await
 response
 .
 json
@@ -2021,7 +2021,7 @@ correctly
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2047,7 +2047,7 @@ spec
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

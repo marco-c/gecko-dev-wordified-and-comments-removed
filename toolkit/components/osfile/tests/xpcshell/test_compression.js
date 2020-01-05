@@ -40,8 +40,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_compress_lz4
 (
 )
@@ -137,7 +137,7 @@ compression
 let
 bytes
 =
-yield
+await
 OS
 .
 File
@@ -185,7 +185,7 @@ decompression
 let
 decompressed
 =
-yield
+await
 OS
 .
 File
@@ -238,8 +238,8 @@ decompressed
 ;
 add_task
 (
+async
 function
-*
 test_uncompressed
 (
 )
@@ -315,7 +315,7 @@ i
 let
 bytes
 =
-yield
+await
 OS
 .
 File
@@ -331,7 +331,7 @@ exn
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -399,8 +399,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_no_header
 (
 )
@@ -457,7 +457,7 @@ header
 let
 bytes
 =
-yield
+await
 OS
 .
 File
@@ -473,7 +473,7 @@ exn
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -542,8 +542,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_invalid_content
 (
 )
@@ -659,7 +659,7 @@ that
 let
 bytes
 =
-yield
+await
 OS
 .
 File
@@ -675,7 +675,7 @@ exn
 ;
 try
 {
-yield
+await
 OS
 .
 File

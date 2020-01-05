@@ -255,8 +255,8 @@ win
 }
 add_task
 (
+async
 function
-*
 test_working
 (
 )
@@ -279,7 +279,7 @@ xml
 let
 dialog
 =
-yield
+await
 promiseDialogOpened
 (
 )
@@ -357,8 +357,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 test_HTTP
 (
 )
@@ -393,7 +393,7 @@ xml
 let
 dialog
 =
-yield
+await
 promiseDialogOpened
 (
 )
@@ -471,8 +471,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 test_relative
 (
 )
@@ -493,7 +493,7 @@ xml
 let
 dialog
 =
-yield
+await
 promiseDialogOpened
 (
 )
@@ -571,8 +571,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 test_invalid
 (
 )
@@ -600,7 +600,7 @@ url
 let
 dialog
 =
-yield
+await
 promiseDialogOpened
 (
 )
@@ -671,8 +671,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 test_missing
 (
 )
@@ -700,7 +700,7 @@ url
 let
 dialog
 =
-yield
+await
 promiseDialogOpened
 (
 )
@@ -771,8 +771,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 test_missing_namespace
 (
 )
@@ -800,7 +800,7 @@ url
 let
 dialog
 =
-yield
+await
 promiseDialogOpened
 (
 )

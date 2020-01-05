@@ -19,8 +19,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_fill_notification_buffer
 (
 )
@@ -46,7 +46,7 @@ filewatcher_playground
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -137,7 +137,7 @@ resolve
 }
 }
 ;
-yield
+await
 promiseAddPath
 (
 watcher
@@ -179,7 +179,7 @@ fileNameBase
 i
 )
 ;
-yield
+await
 OS
 .
 File
@@ -193,7 +193,7 @@ content
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -204,12 +204,12 @@ tmpFilePath
 )
 ;
 }
-yield
+await
 deferred
 .
 promise
 ;
-yield
+await
 promiseRemovePath
 (
 watcher

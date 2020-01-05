@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -28,7 +28,7 @@ spellcheckDefault
 let
 prefs
 =
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -185,7 +185,7 @@ checkbox
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

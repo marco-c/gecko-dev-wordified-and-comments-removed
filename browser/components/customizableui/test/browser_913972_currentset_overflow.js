@@ -17,8 +17,8 @@ AREA_NAVBAR
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -94,7 +94,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -195,7 +195,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -392,8 +392,8 @@ match
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -419,7 +419,7 @@ state
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -461,7 +461,7 @@ mode
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )
@@ -508,13 +508,13 @@ mode
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

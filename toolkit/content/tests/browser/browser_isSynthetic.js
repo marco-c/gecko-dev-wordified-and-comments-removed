@@ -131,8 +131,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -155,7 +155,7 @@ jsm
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -203,8 +203,8 @@ true
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -229,7 +229,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -291,7 +291,7 @@ html
 "
 )
 ;
-yield
+await
 loadPromise
 ;
 is
@@ -342,7 +342,7 @@ png
 "
 )
 ;
-yield
+await
 loadPromise
 ;
 is
@@ -384,7 +384,7 @@ goBack
 (
 )
 ;
-yield
+await
 loadPromise
 ;
 is
@@ -428,7 +428,7 @@ goForward
 (
 )
 ;
-yield
+await
 loadPromise
 ;
 is

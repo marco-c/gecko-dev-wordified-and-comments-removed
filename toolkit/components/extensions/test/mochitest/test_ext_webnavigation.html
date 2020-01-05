@@ -893,8 +893,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 webnav_transitions_props
 (
 )
@@ -1122,7 +1122,7 @@ completedResolve
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1162,7 +1162,7 @@ open
 (
 )
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -1194,7 +1194,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -1427,7 +1427,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -1563,7 +1563,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -1717,7 +1717,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -1883,7 +1883,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -2044,7 +2044,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -2213,7 +2213,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -2372,7 +2372,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -2561,7 +2561,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -2661,7 +2661,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -2842,7 +2842,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -2869,7 +2869,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -3017,7 +3017,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -3167,7 +3167,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -3188,8 +3188,8 @@ unloaded
 ;
 add_task
 (
+async
 function
-*
 webnav_ordering
 (
 )
@@ -3272,14 +3272,14 @@ completedResolve
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -3307,7 +3307,7 @@ open
 (
 )
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -3773,7 +3773,7 @@ after
 )
 ;
 }
-yield
+await
 loadAndWait
 (
 win
@@ -4191,7 +4191,7 @@ description
 }
 )
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -4288,7 +4288,7 @@ waitURL
 }
 )
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -4413,7 +4413,7 @@ waitURL
 }
 )
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -4473,7 +4473,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -4494,8 +4494,8 @@ unloaded
 ;
 add_task
 (
+async
 function
-*
 webnav_error_event
 (
 )
@@ -4658,7 +4658,7 @@ completedResolve
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -4703,7 +4703,7 @@ received
 [
 ]
 ;
-yield
+await
 loadAndWait
 (
 win
@@ -4818,7 +4818,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

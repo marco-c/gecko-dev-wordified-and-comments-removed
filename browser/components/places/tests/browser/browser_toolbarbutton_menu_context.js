@@ -70,8 +70,8 @@ waitForExplicitFinish
 ;
 add_task
 (
+async
 function
-*
 testPopup
 (
 )
@@ -91,7 +91,7 @@ button
 "
 )
 ;
-yield
+await
 checkPopupContextMenu
 (
 )
@@ -162,7 +162,7 @@ button
 "
 )
 ;
-yield
+await
 checkPopupContextMenu
 (
 )
@@ -170,8 +170,8 @@ checkPopupContextMenu
 }
 )
 ;
+async
 function
-*
 checkPopupContextMenu
 (
 )
@@ -241,7 +241,7 @@ shown
 "
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -289,7 +289,7 @@ shown
 "
 )
 ;
-yield
+await
 contextMenuShownPromise
 ;
 ok
@@ -358,7 +358,7 @@ hidden
 "
 )
 ;
-yield
+await
 contextMenuHiddenPromise
 ;
 let
@@ -397,7 +397,7 @@ hidden
 "
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }

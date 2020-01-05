@@ -113,8 +113,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -123,7 +123,7 @@ loadAddonManager
 (
 )
 ;
-yield
+await
 removeCacheFile
 (
 )
@@ -637,8 +637,8 @@ id
 }
 add_task
 (
+async
 function
-*
 test_cache
 (
 )
@@ -954,7 +954,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -964,7 +964,7 @@ updateManifest
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1000,7 +1000,7 @@ values
 )
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1015,7 +1015,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 _run
@@ -1024,7 +1024,7 @@ _run
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1079,7 +1079,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1094,7 +1094,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 _run
@@ -1103,7 +1103,7 @@ _run
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1181,7 +1181,7 @@ values
 let
 branch
 =
-yield
+await
 experiments
 .
 getExperimentBranch
@@ -1197,7 +1197,7 @@ branch
 null
 )
 ;
-yield
+await
 experiments
 .
 setExperimentBranch
@@ -1210,7 +1210,7 @@ testbranch
 ;
 branch
 =
-yield
+await
 experiments
 .
 getExperimentBranch
@@ -1244,7 +1244,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1259,7 +1259,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 _run
@@ -1268,7 +1268,7 @@ _run
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1340,7 +1340,7 @@ values
 ;
 branch
 =
-yield
+await
 experiments
 .
 getExperimentBranch
@@ -1377,7 +1377,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1392,7 +1392,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 _run
@@ -1401,7 +1401,7 @@ _run
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1486,7 +1486,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1501,7 +1501,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 _run
@@ -1510,7 +1510,7 @@ _run
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1575,7 +1575,7 @@ values
 )
 )
 ;
-yield
+await
 experiments
 .
 _toggleExperimentsEnabled
@@ -1583,12 +1583,12 @@ _toggleExperimentsEnabled
 false
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 removeCacheFile
 (
 )
@@ -1598,8 +1598,8 @@ removeCacheFile
 ;
 add_task
 (
+async
 function
-*
 test_expiration
 (
 )
@@ -1892,12 +1892,8 @@ null
 let
 setDateAndRestartExperiments
 =
-Task
-.
 async
-(
 function
-*
 (
 newDate
 )
@@ -1912,7 +1908,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1927,7 +1923,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 _run
@@ -1935,7 +1931,6 @@ _run
 )
 ;
 }
-)
 ;
 now
 =
@@ -1957,7 +1952,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -1967,7 +1962,7 @@ updateManifest
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1992,7 +1987,7 @@ empty
 "
 )
 ;
-yield
+await
 setDateAndRestartExperiments
 (
 startDates
@@ -2003,7 +1998,7 @@ startDates
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2029,7 +2024,7 @@ started
 "
 )
 ;
-yield
+await
 setDateAndRestartExperiments
 (
 endDates
@@ -2040,7 +2035,7 @@ endDates
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2120,7 +2115,7 @@ EXPERIMENT3_ID
 ]
 )
 ;
-yield
+await
 setDateAndRestartExperiments
 (
 startDates
@@ -2131,7 +2126,7 @@ startDates
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2189,7 +2184,7 @@ experimentListData
 list
 )
 ;
-yield
+await
 setDateAndRestartExperiments
 (
 futureDate
@@ -2227,7 +2222,7 @@ EXPERIMENT3_ID
 let
 history
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2258,7 +2253,7 @@ cache
 "
 )
 ;
-yield
+await
 setDateAndRestartExperiments
 (
 now
@@ -2286,7 +2281,7 @@ EXPERIMENT3_ID
 ;
 history
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2346,7 +2341,7 @@ slice
 1
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -2372,7 +2367,7 @@ EXPERIMENT2_ID
 ]
 )
 ;
-yield
+await
 experiments
 .
 _toggleExperimentsEnabled
@@ -2380,12 +2375,12 @@ _toggleExperimentsEnabled
 false
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 removeCacheFile
 (
 )

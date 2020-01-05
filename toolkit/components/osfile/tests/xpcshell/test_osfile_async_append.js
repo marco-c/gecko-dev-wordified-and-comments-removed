@@ -32,27 +32,6 @@ jsm
 "
 )
 ;
-Components
-.
-utils
-.
-import
-(
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
-Task
-.
-jsm
-"
-)
-;
 function
 setup_mode
 (
@@ -94,8 +73,8 @@ return
 realMode
 ;
 }
+async
 function
-*
 test_append
 (
 mode
@@ -126,7 +105,7 @@ tmp
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -169,7 +148,7 @@ mode
 trunc
 )
 {
-yield
+await
 OS
 .
 File
@@ -188,7 +167,7 @@ Uint8Array
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -201,7 +180,7 @@ mode
 ;
 try
 {
-yield
+await
 file
 .
 write
@@ -213,7 +192,7 @@ Uint8Array
 )
 )
 ;
-yield
+await
 file
 .
 setPosition
@@ -226,7 +205,7 @@ File
 POS_START
 )
 ;
-yield
+await
 file
 .
 read
@@ -234,7 +213,7 @@ read
 100
 )
 ;
-yield
+await
 file
 .
 write
@@ -249,7 +228,7 @@ Uint8Array
 let
 stat
 =
-yield
+await
 file
 .
 stat
@@ -267,7 +246,7 @@ size
 }
 finally
 {
-yield
+await
 file
 .
 close
@@ -283,7 +262,7 @@ ex
 {
 try
 {
-yield
+await
 OS
 .
 File
@@ -306,8 +285,8 @@ becauseNoSuchFile
 }
 }
 }
+async
 function
-*
 test_no_append
 (
 mode
@@ -338,7 +317,7 @@ tmp
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -381,7 +360,7 @@ mode
 trunc
 )
 {
-yield
+await
 OS
 .
 File
@@ -400,7 +379,7 @@ Uint8Array
 let
 file
 =
-yield
+await
 OS
 .
 File
@@ -413,7 +392,7 @@ mode
 ;
 try
 {
-yield
+await
 file
 .
 write
@@ -425,7 +404,7 @@ Uint8Array
 )
 )
 ;
-yield
+await
 file
 .
 setPosition
@@ -438,7 +417,7 @@ File
 POS_START
 )
 ;
-yield
+await
 file
 .
 read
@@ -446,7 +425,7 @@ read
 100
 )
 ;
-yield
+await
 file
 .
 write
@@ -461,7 +440,7 @@ Uint8Array
 let
 stat
 =
-yield
+await
 file
 .
 stat
@@ -479,7 +458,7 @@ size
 }
 finally
 {
-yield
+await
 file
 .
 close
@@ -492,7 +471,7 @@ finally
 {
 try
 {
-yield
+await
 OS
 .
 File

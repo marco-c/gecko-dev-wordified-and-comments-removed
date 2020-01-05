@@ -187,8 +187,8 @@ apply_umask
 ;
 add_task
 (
+async
 function
-*
 test_path_setPermissions
 (
 )
@@ -216,7 +216,7 @@ tmp
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -269,7 +269,7 @@ options
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -284,7 +284,7 @@ options
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -312,7 +312,7 @@ expectedMode
 }
 finally
 {
-yield
+await
 OS
 .
 File
@@ -328,8 +328,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_file_setPermissions
 (
 )
@@ -357,7 +357,7 @@ tmp
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -377,7 +377,7 @@ try
 let
 fd
 =
-yield
+await
 OS
 .
 File
@@ -430,7 +430,7 @@ options
 )
 )
 ;
-yield
+await
 fd
 .
 setPermissions
@@ -442,7 +442,7 @@ options
 let
 stat
 =
-yield
+await
 fd
 .
 stat
@@ -467,7 +467,7 @@ expectedMode
 }
 finally
 {
-yield
+await
 fd
 .
 close
@@ -478,7 +478,7 @@ close
 }
 finally
 {
-yield
+await
 OS
 .
 File

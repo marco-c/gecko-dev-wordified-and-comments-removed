@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_escape
 (
 )
@@ -43,7 +43,7 @@ escapeduri
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -82,7 +82,7 @@ itself
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -123,7 +123,7 @@ itself
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -157,7 +157,7 @@ title
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

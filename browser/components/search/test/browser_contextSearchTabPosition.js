@@ -1,12 +1,12 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -32,7 +32,7 @@ true
 let
 engine
 =
-yield
+await
 promiseNewEngine
 (
 "
@@ -206,7 +206,7 @@ firefox
 "
 )
 ;
-yield
+await
 tabsLoadedDeferred
 .
 promise

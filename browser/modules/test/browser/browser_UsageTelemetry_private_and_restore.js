@@ -181,8 +181,8 @@ restored
 }
 add_task
 (
+async
 function
-*
 test_privateMode
 (
 )
@@ -198,7 +198,7 @@ clearScalars
 let
 privateWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -210,7 +210,7 @@ true
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -232,7 +232,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -410,7 +410,7 @@ value
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -423,8 +423,8 @@ privateWin
 ;
 add_task
 (
+async
 function
-*
 test_sessionRestore
 (
 )
@@ -579,7 +579,7 @@ state
 )
 )
 ;
-yield
+await
 tabRestored
 ;
 const
@@ -677,7 +677,7 @@ state
 )
 )
 ;
-yield
+await
 sessionRestored
 ;
 }

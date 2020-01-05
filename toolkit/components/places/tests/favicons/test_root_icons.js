@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -28,7 +28,7 @@ page
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -80,7 +80,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 setFaviconForPage
 (
 pageURI
@@ -91,7 +91,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 pageURI
@@ -105,7 +105,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 "
@@ -126,7 +126,7 @@ faviconURI
 spec
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -136,7 +136,7 @@ promiseAsyncUpdates
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -146,7 +146,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -208,7 +208,7 @@ icon
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -241,7 +241,7 @@ entry
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -272,7 +272,7 @@ entry
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -291,7 +291,7 @@ page2
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -305,7 +305,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 pageURI
@@ -315,7 +315,7 @@ faviconURI
 spec
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -338,7 +338,7 @@ page2
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -374,13 +374,13 @@ removed
 ;
 add_task
 (
+async
 function
-*
 test_removePagesByTimeframe
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -441,7 +441,7 @@ page
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -536,7 +536,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 setFaviconForPage
 (
 pageURI
@@ -563,7 +563,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 setFaviconForPage
 (
 pageURI
@@ -574,7 +574,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 pageURI
@@ -595,7 +595,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 pageURI
@@ -617,7 +617,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 "
@@ -676,7 +676,7 @@ Date
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -686,7 +686,7 @@ promiseAsyncUpdates
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -696,7 +696,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute
@@ -758,7 +758,7 @@ icon
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -791,7 +791,7 @@ entry
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -840,7 +840,7 @@ Date
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -849,7 +849,7 @@ promiseAsyncUpdates
 ;
 rows
 =
-yield
+await
 db
 .
 execute
@@ -910,8 +910,8 @@ entry
 ;
 add_task
 (
+async
 function
-*
 test_different_host
 (
 )
@@ -937,7 +937,7 @@ page
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -987,7 +987,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 setFaviconForPage
 (
 pageURI
@@ -998,7 +998,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 pageURI

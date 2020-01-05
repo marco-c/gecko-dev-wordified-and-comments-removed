@@ -207,8 +207,8 @@ oldEnabledState
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -303,7 +303,7 @@ STATE_ENABLED
 pluginTag
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -312,7 +312,7 @@ gBrowser
 testURL
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -321,8 +321,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -381,7 +381,7 @@ sites
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -475,7 +475,7 @@ com
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -512,7 +512,7 @@ com
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -559,7 +559,7 @@ for
 "
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain

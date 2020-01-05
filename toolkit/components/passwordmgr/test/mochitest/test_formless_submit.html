@@ -230,8 +230,8 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -248,10 +248,10 @@ loads
 "
 )
 ;
-yield
+await
 loadPromise
 ;
-yield
+await
 loadRecipes
 (
 {
@@ -843,8 +843,8 @@ args
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -958,7 +958,7 @@ formLike
 let
 submittedResult
 =
-yield
+await
 processedPromise
 ;
 /

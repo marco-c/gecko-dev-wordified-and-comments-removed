@@ -201,8 +201,8 @@ extension
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -238,7 +238,7 @@ url
 to
 "
 "
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -328,7 +328,7 @@ makeExtension
 (
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -465,8 +465,8 @@ to
 modify
 add_task
 (
+async
 function
-*
 test_webRequest_links
 (
 )
@@ -577,7 +577,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -596,7 +596,7 @@ css
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -625,7 +625,7 @@ css
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -682,8 +682,8 @@ loaded
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_images
 (
 )
@@ -794,7 +794,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -813,7 +813,7 @@ png
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -842,7 +842,7 @@ png
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -857,8 +857,8 @@ done
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_scripts
 (
 )
@@ -969,7 +969,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -988,7 +988,7 @@ js
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1017,7 +1017,7 @@ js
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1061,8 +1061,8 @@ run
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_xhr_get
 (
 )
@@ -1119,7 +1119,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1138,7 +1138,7 @@ js
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1153,8 +1153,8 @@ done
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_nonexistent
 (
 )
@@ -1200,7 +1200,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1219,7 +1219,7 @@ js
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1234,8 +1234,8 @@ done
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_checkCached
 (
 )
@@ -1332,7 +1332,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1378,7 +1378,7 @@ js
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1422,8 +1422,8 @@ run
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_headers
 (
 )
@@ -1597,7 +1597,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1616,7 +1616,7 @@ js
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1631,8 +1631,8 @@ done
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_tabId
 (
 )
@@ -1741,7 +1741,7 @@ background
 }
 )
 ;
-yield
+await
 tabExt
 .
 startup
@@ -1786,7 +1786,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1826,7 +1826,7 @@ click
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1861,10 +1861,10 @@ tab
 "
 )
 ;
-yield
+await
 closed
 ;
-yield
+await
 tabExt
 .
 unload
@@ -1876,8 +1876,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_tabId_browser
 (
 )
@@ -2049,7 +2049,7 @@ expect
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2068,14 +2068,14 @@ from
 a
 system
 principal
-yield
+await
 tabExt
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2094,7 +2094,7 @@ done
 "
 )
 ;
-yield
+await
 tabExt
 .
 awaitMessage
@@ -2104,7 +2104,7 @@ done
 "
 )
 ;
-yield
+await
 tabExt
 .
 unload
@@ -2116,8 +2116,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_webRequest_frames
 (
 )
@@ -2281,7 +2281,7 @@ href
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2315,7 +2315,7 @@ webRequestTest_bad
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2349,7 +2349,7 @@ badrobot
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2364,13 +2364,13 @@ done
 ;
 add_task
 (
+async
 function
-*
 teardown
 (
 )
 {
-yield
+await
 extension
 .
 unload

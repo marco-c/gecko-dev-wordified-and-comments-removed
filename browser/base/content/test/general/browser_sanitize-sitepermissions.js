@@ -98,8 +98,8 @@ result
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -298,7 +298,7 @@ one
 "
 )
 ;
-yield
+await
 s
 .
 sanitize

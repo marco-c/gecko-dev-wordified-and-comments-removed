@@ -454,8 +454,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -485,7 +485,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -536,7 +536,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -564,8 +564,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -600,7 +600,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -651,7 +651,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -679,8 +679,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -710,7 +710,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -761,7 +761,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -789,8 +789,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -813,7 +813,7 @@ profileDir
 ID
 )
 ;
-yield
+await
 promiseSetExtensionModifiedTime
 (
 file
@@ -835,7 +835,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -879,7 +879,7 @@ getActiveVersion
 2
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -912,7 +912,7 @@ startupManager
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -992,7 +992,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1020,8 +1020,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1051,7 +1051,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1102,12 +1102,12 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1131,8 +1131,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1167,7 +1167,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1218,12 +1218,12 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1247,8 +1247,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1278,7 +1278,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1329,12 +1329,12 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1358,8 +1358,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1382,7 +1382,7 @@ profileDir
 ID
 )
 ;
-yield
+await
 promiseSetExtensionModifiedTime
 (
 file
@@ -1404,7 +1404,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1449,7 +1449,7 @@ ID
 )
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1470,7 +1470,7 @@ startupManager
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1550,12 +1550,12 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1579,8 +1579,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1588,7 +1588,7 @@ startupManager
 (
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -1605,7 +1605,7 @@ signed
 ]
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1659,7 +1659,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1676,7 +1676,7 @@ clearCache
 staged
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1686,8 +1686,8 @@ promiseShutdownManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1740,7 +1740,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1775,7 +1775,7 @@ clearCache
 file
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1789,8 +1789,8 @@ resetPrefs
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1820,7 +1820,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1870,7 +1870,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -1898,8 +1898,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1947,7 +1947,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1997,7 +1997,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )

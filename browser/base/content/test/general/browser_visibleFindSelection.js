@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -106,7 +106,7 @@ addTab
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -124,7 +124,7 @@ childContent
 )
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -161,7 +161,7 @@ true
 }
 )
 ;
-yield
+await
 findBarOpenPromise
 ;
 ok
@@ -220,10 +220,10 @@ v
 }
 )
 ;
-yield
+await
 scrollPromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -232,8 +232,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -293,10 +293,10 @@ true
 }
 )
 ;
-yield
+await
 scrollPromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -305,8 +305,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {

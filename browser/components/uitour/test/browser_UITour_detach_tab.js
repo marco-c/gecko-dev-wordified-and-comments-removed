@@ -44,8 +44,8 @@ tests
 [
 taskify
 (
+async
 function
-*
 test_move_tab_to_new_window
 (
 )
@@ -192,7 +192,7 @@ finished
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -281,7 +281,7 @@ appMenu
 "
 )
 ;
-yield
+await
 elementVisiblePromise
 (
 highlight
@@ -298,7 +298,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 browserStartupDeferred
 .
 promise
@@ -317,7 +317,7 @@ UITourHighlight
 "
 )
 ;
-yield
+await
 elementVisiblePromise
 (
 newWindowHighlight
@@ -332,7 +332,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -441,7 +441,7 @@ appMenu
 "
 )
 ;
-yield
+await
 shownPromise
 ;
 isnot
@@ -527,7 +527,7 @@ close
 (
 )
 ;
-yield
+await
 windowDestroyedDeferred
 .
 promise

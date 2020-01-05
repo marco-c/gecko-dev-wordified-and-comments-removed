@@ -145,13 +145,13 @@ null
 }
 add_task
 (
+async
 function
-*
 test_hasEngineWithURL
 (
 )
 {
-yield
+await
 asyncInit
 (
 )

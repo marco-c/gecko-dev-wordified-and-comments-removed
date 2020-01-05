@@ -19,13 +19,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_engine_set_alias
 (
 )
 {
-yield
+await
 asyncInit
 (
 )
@@ -44,7 +44,7 @@ let
 engine1
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -133,8 +133,8 @@ engine1
 ;
 add_task
 (
+async
 function
-*
 test_engine_set_alias_with_left_space
 (
 )
@@ -156,7 +156,7 @@ let
 engine2
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -245,8 +245,8 @@ engine2
 ;
 add_task
 (
+async
 function
-*
 test_engine_set_alias_with_right_space
 (
 )
@@ -268,7 +268,7 @@ let
 engine3
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -357,8 +357,8 @@ engine3
 ;
 add_task
 (
+async
 function
-*
 test_engine_set_alias_with_right_left_space
 (
 )
@@ -382,7 +382,7 @@ let
 engine4
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -471,8 +471,8 @@ engine4
 ;
 add_task
 (
+async
 function
-*
 test_engine_set_alias_with_space
 (
 )
@@ -493,7 +493,7 @@ let
 engine5
 ]
 =
-yield
+await
 addTestEngines
 (
 [

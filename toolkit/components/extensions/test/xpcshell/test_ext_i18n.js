@@ -101,8 +101,8 @@ locale
 ;
 add_task
 (
+async
 function
-*
 test_i18n
 (
 )
@@ -1100,7 +1100,7 @@ runTests
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1110,7 +1110,7 @@ startup
 let
 contentPage
 =
-yield
+await
 ExtensionTestUtils
 .
 loadContentPage
@@ -1124,7 +1124,7 @@ file_sample
 html
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1138,14 +1138,14 @@ finished
 "
 )
 ;
-yield
+await
 contentPage
 .
 close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1157,8 +1157,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_get_accept_languages
 (
 )
@@ -1456,7 +1456,7 @@ checkResults
 let
 contentPage
 =
-yield
+await
 ExtensionTestUtils
 .
 loadContentPage
@@ -1470,7 +1470,7 @@ file_sample
 html
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1505,7 +1505,7 @@ expectedLangs
 ]
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1517,7 +1517,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1580,7 +1580,7 @@ expectedLangs
 ]
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1592,7 +1592,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1615,14 +1615,14 @@ accept_languages
 "
 )
 ;
-yield
+await
 contentPage
 .
 close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1634,8 +1634,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_get_ui_language
 (
 )
@@ -1925,7 +1925,7 @@ checkResults
 let
 contentPage
 =
-yield
+await
 ExtensionTestUtils
 .
 loadContentPage
@@ -1939,7 +1939,7 @@ file_sample
 html
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1962,7 +1962,7 @@ en_US
 ]
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1974,7 +1974,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2018,7 +2018,7 @@ he
 ]
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2030,7 +2030,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2042,14 +2042,14 @@ done
 "
 )
 ;
-yield
+await
 contentPage
 .
 close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -2061,8 +2061,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_detect_language
 (
 )
@@ -2634,7 +2634,7 @@ checkResult
 let
 contentPage
 =
-yield
+await
 ExtensionTestUtils
 .
 loadContentPage
@@ -2648,7 +2648,7 @@ file_sample
 html
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -2698,7 +2698,7 @@ expected
 ]
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2710,7 +2710,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2754,7 +2754,7 @@ expected
 ]
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2766,7 +2766,7 @@ done
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -2778,14 +2778,14 @@ done
 "
 )
 ;
-yield
+await
 contentPage
 .
 close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

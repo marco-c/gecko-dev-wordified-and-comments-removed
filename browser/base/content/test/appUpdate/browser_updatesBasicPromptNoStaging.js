@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 testBasicPromptNoStaging
 (
 )
@@ -35,7 +35,7 @@ promptWaitTime
 0
 "
 ;
-yield
+await
 runUpdateTest
 (
 updateParams

@@ -207,8 +207,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 test_app_addons
 (
 )
@@ -284,7 +284,7 @@ startupManager
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -333,7 +333,7 @@ resolve
 let
 cached
 =
-yield
+await
 getCachedAddon
 (
 "
@@ -354,7 +354,7 @@ null
 ;
 cached
 =
-yield
+await
 getCachedAddon
 (
 "
@@ -375,7 +375,7 @@ null
 ;
 cached
 =
-yield
+await
 getCachedAddon
 (
 "
@@ -394,12 +394,12 @@ cached
 null
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
 ;
-yield
+await
 new
 Promise
 (

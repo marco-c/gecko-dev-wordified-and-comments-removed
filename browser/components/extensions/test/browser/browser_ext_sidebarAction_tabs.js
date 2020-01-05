@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 sidebar_tab_query_bug_1340739
 (
 )
@@ -243,14 +243,14 @@ loadExtension
 data
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -260,7 +260,7 @@ sidebar
 "
 )
 ;
-yield
+await
 extension
 .
 unload

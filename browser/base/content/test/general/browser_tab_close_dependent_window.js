@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 closing_tab_with_dependents_should_close_window
 (
 )
@@ -22,7 +22,7 @@ window
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -43,7 +43,7 @@ URI
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -99,7 +99,7 @@ window
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -141,7 +141,7 @@ TabOpen
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -162,7 +162,7 @@ let
 openedTab
 =
 (
-yield
+await
 depTabOpened
 )
 .
@@ -187,7 +187,7 @@ windowClosed
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -244,7 +244,7 @@ happen
 "
 )
 ;
-yield
+await
 windowClosedPromise
 ;
 }

@@ -26,13 +26,13 @@ this
 ;
 add_task
 (
+async
 function
-*
 testTabSwitchContext
 (
 )
 {
-yield
+await
 runTests
 (
 {

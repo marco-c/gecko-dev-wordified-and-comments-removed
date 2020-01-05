@@ -19,8 +19,8 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 (
 )
 {
@@ -58,14 +58,14 @@ test
 "
 )
 ;
-yield
+await
 gContentAPI
 .
 toggleReaderMode
 (
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 (

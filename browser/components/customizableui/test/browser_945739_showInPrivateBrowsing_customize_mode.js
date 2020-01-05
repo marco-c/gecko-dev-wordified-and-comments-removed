@@ -22,8 +22,8 @@ widget
 ;
 add_task
 (
+async
 function
-*
 testPrivateBrowsingCustomizeModeWidget
 (
 )
@@ -98,7 +98,7 @@ window
 let
 privateWindow
 =
-yield
+await
 openAndLoadWindow
 (
 {
@@ -161,7 +161,7 @@ window
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 privateWindow
@@ -179,13 +179,13 @@ kWidgetId
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
 {
-yield
+await
 resetCustomization
 (
 )

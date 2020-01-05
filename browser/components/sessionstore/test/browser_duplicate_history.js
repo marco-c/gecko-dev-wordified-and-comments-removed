@@ -72,12 +72,12 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -91,8 +91,8 @@ example
 .
 com
 "
+async
 function
-*
 (
 aBrowser
 )
@@ -107,7 +107,7 @@ getTabForBrowser
 aBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -136,7 +136,7 @@ window
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -181,7 +181,7 @@ shared
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

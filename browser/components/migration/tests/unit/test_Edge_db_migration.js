@@ -2151,8 +2151,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -3247,7 +3247,7 @@ bookmarkObserver
 let
 migrateResult
 =
-yield
+await
 new
 Promise
 (
@@ -4162,7 +4162,7 @@ created
 ;
 migrateResult
 =
-yield
+await
 new
 Promise
 (

@@ -19,8 +19,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_watch_single_path_file_modification
 (
 )
@@ -46,7 +46,7 @@ filewatcher_playground
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -94,7 +94,7 @@ watchedDir
 tempFileName
 )
 ;
-yield
+await
 OS
 .
 File
@@ -108,7 +108,7 @@ data
 "
 )
 ;
-yield
+await
 promiseAddPath
 (
 watcher
@@ -121,7 +121,7 @@ deferred
 reject
 )
 ;
-yield
+await
 OS
 .
 File
@@ -139,7 +139,7 @@ data
 let
 changed
 =
-yield
+await
 deferred
 .
 promise
@@ -150,7 +150,7 @@ changed
 tmpFilePath
 )
 ;
-yield
+await
 promiseRemovePath
 (
 watcher
@@ -163,7 +163,7 @@ deferred
 reject
 )
 ;
-yield
+await
 OS
 .
 File

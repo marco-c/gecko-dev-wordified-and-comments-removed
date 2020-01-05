@@ -82,8 +82,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_observe
 (
 )
@@ -245,7 +245,7 @@ actualName
 actualData
 ]
 =
-yield
+await
 promise
 ;
 equal

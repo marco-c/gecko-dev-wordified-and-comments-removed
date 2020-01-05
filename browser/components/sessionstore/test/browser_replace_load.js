@@ -36,12 +36,12 @@ selected
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 testSwitchToTab
 (
 "
@@ -60,7 +60,7 @@ whenComparingAndReplace
 }
 )
 ;
-yield
+await
 testSwitchToTab
 (
 "
@@ -85,12 +85,8 @@ true
 var
 testSwitchToTab
 =
-Task
-.
 async
-(
 function
-*
 (
 url
 options
@@ -117,7 +113,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -177,7 +173,7 @@ pending
 "
 )
 ;
-yield
+await
 promise
 ;
 switchToTabHavingURI
@@ -187,7 +183,7 @@ false
 options
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -208,15 +204,15 @@ loaded
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -282,5 +278,4 @@ tab
 )
 ;
 }
-)
 ;

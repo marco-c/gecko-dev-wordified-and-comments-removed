@@ -128,8 +128,8 @@ false
 )
 ;
 }
+async
 function
-*
 check_normal
 (
 checkMultiDisabled
@@ -138,7 +138,7 @@ checkMultiDisabled
 let
 install
 =
-yield
+await
 promiseInstallFile
 (
 do_get_addon
@@ -191,7 +191,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -343,7 +343,7 @@ checkAddonNotInstalled
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -351,8 +351,8 @@ promiseRestartManager
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -376,7 +376,7 @@ e10sBlocksEnabling
 false
 )
 ;
-yield
+await
 check_normal
 (
 )
@@ -386,8 +386,8 @@ check_normal
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -411,7 +411,7 @@ e10sBlocksEnabling
 true
 )
 ;
-yield
+await
 check_normal
 (
 )
@@ -421,8 +421,8 @@ check_normal
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -446,7 +446,7 @@ e10sBlocksEnabling
 false
 )
 ;
-yield
+await
 check_normal
 (
 )
@@ -456,8 +456,8 @@ check_normal
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -484,7 +484,7 @@ true
 let
 install
 =
-yield
+await
 promiseInstallFile
 (
 do_get_addon
@@ -530,7 +530,7 @@ check_multi_disabled
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -542,7 +542,7 @@ addon
 null
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -572,7 +572,7 @@ ADDON_INSTALL
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -690,14 +690,14 @@ PENDING_ENABLE
 )
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -763,7 +763,7 @@ checkAddonNotInstalled
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -773,8 +773,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -801,7 +801,7 @@ true
 let
 install
 =
-yield
+await
 promiseInstallFile
 (
 do_get_addon
@@ -847,7 +847,7 @@ check_multi_disabled
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -859,7 +859,7 @@ addon
 null
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -917,7 +917,7 @@ ADDON_INSTALL
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -988,7 +988,7 @@ OP_NEEDS_RESTART_ENABLE
 )
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1022,7 +1022,7 @@ check_multi_disabled
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1061,7 +1061,7 @@ PENDING_ENABLE
 )
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1095,7 +1095,7 @@ check_multi_disabled
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1163,7 +1163,7 @@ checkAddonNotInstalled
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1204,8 +1204,8 @@ restartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1235,7 +1235,7 @@ install1
 install2
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -1315,7 +1315,7 @@ PENDING_INSTALL
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1324,7 +1324,7 @@ ID
 let
 addon2
 =
-yield
+await
 promiseAddonByID
 (
 ID2
@@ -1342,7 +1342,7 @@ addon2
 null
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1416,7 +1416,7 @@ ADDON_INSTALL
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1430,7 +1430,7 @@ null
 ;
 addon2
 =
-yield
+await
 promiseAddonByID
 (
 ID2
@@ -1501,7 +1501,7 @@ OP_NEEDS_RESTART_ENABLE
 )
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1535,7 +1535,7 @@ check_multi_disabled
 ;
 addon2
 =
-yield
+await
 promiseAddonByID
 (
 ID2
@@ -1600,7 +1600,7 @@ OP_NEEDS_RESTART_ENABLE
 )
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1634,7 +1634,7 @@ check_multi_disabled
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1673,7 +1673,7 @@ PENDING_ENABLE
 )
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1707,7 +1707,7 @@ check_multi_disabled
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1775,7 +1775,7 @@ checkAddonNotInstalled
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1809,7 +1809,7 @@ check_multi_disabled
 ;
 addon2
 =
-yield
+await
 promiseAddonByID
 (
 ID2
@@ -1830,8 +1830,8 @@ restartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1877,7 +1877,7 @@ test
 "
 )
 ;
-yield
+await
 check_normal
 (
 )
@@ -1888,7 +1888,7 @@ install1
 install2
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -1968,7 +1968,7 @@ PENDING_INSTALL
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -1977,7 +1977,7 @@ ID
 let
 addon2
 =
-yield
+await
 promiseAddonByID
 (
 ID2
@@ -2023,7 +2023,7 @@ checkAddonStarted
 ID2
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2087,7 +2087,7 @@ do_check_true
 blocked
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2114,7 +2114,7 @@ blocked
 ;
 addon2
 =
-yield
+await
 promiseAddonByID
 (
 ID2
@@ -2153,7 +2153,7 @@ checkAddonNotInstalled
 ID2
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2180,7 +2180,7 @@ blocked
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2206,7 +2206,7 @@ checkAddonNotInstalled
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2216,7 +2216,7 @@ install1
 install2
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -2295,7 +2295,7 @@ PENDING_INSTALL
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2303,7 +2303,7 @@ ID
 ;
 addon2
 =
-yield
+await
 promiseAddonByID
 (
 ID2
@@ -2349,7 +2349,7 @@ checkAddonNotStarted
 ID2
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2377,7 +2377,7 @@ blocked
 let
 install3
 =
-yield
+await
 promiseInstallFile
 (
 do_get_addon
@@ -2416,7 +2416,7 @@ PENDING_INSTALL
 let
 addon3
 =
-yield
+await
 promiseAddonByID
 (
 ID3
@@ -2442,7 +2442,7 @@ checkAddonNotStarted
 ID3
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2469,7 +2469,7 @@ blocked
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -2477,7 +2477,7 @@ ID
 ;
 addon2
 =
-yield
+await
 promiseAddonByID
 (
 ID2
@@ -2485,7 +2485,7 @@ ID2
 ;
 addon3
 =
-yield
+await
 promiseAddonByID
 (
 ID3
@@ -2585,7 +2585,7 @@ blocklist
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2595,8 +2595,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -2654,7 +2654,7 @@ checkAttributes
 false
 )
 ;
-yield
+await
 check_normal
 (
 true
@@ -2665,12 +2665,12 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -2699,7 +2699,7 @@ org
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 non_restartless_ID
@@ -2711,7 +2711,7 @@ addon
 null
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2725,7 +2725,7 @@ check_multi_disabled
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 non_restartless_ID
@@ -2751,7 +2751,7 @@ checkAddonNotStarted
 non_restartless_ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2761,12 +2761,12 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -2814,7 +2814,7 @@ experiment_ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 experiment_ID
@@ -2853,7 +2853,7 @@ checkAddonNotStarted
 experiment_ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2891,12 +2891,12 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -2913,7 +2913,7 @@ restartManager
 (
 )
 ;
-yield
+await
 promiseWebExtensionStartup
 (
 )
@@ -2943,7 +2943,7 @@ size
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 we_ID
@@ -2982,7 +2982,7 @@ checkAddonNotStarted
 we_ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )

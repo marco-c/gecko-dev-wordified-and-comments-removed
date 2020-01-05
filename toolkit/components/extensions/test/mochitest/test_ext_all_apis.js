@@ -664,8 +664,8 @@ sort
 }
 add_task
 (
+async
 function
-*
 test_enumerate_content_script_apis
 (
 )
@@ -740,7 +740,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -764,7 +764,7 @@ html
 let
 actualApis
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -799,7 +799,7 @@ APIs
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -811,8 +811,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_enumerate_background_script_apis
 (
 )
@@ -836,7 +836,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -846,7 +846,7 @@ startup
 let
 actualApis
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -875,7 +875,7 @@ APIs
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -18,8 +18,8 @@ about_home
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -157,7 +157,7 @@ engineOneOff
 0
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -196,8 +196,8 @@ true
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -227,7 +227,7 @@ removeEngine
 engineOneOff
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -254,8 +254,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_abouthome_simpleQuery
 (
 )
@@ -286,7 +286,7 @@ getSearchCountsHistogram
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -389,7 +389,7 @@ AboutHomeLoadSnippetsCompleted
 "
 )
 ;
-yield
+await
 promiseAboutHomeLoaded
 ;
 info
@@ -419,7 +419,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 typeInSearchField
 (
 tab
@@ -434,7 +434,7 @@ searchText
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeKey
@@ -449,7 +449,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 p
 ;
 const
@@ -606,7 +606,7 @@ MozSearch
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

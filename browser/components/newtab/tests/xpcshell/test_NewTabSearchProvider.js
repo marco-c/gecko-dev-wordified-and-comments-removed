@@ -140,8 +140,8 @@ aProp
 }
 add_task
 (
+async
 function
-*
 test_search
 (
 )
@@ -244,7 +244,7 @@ init
 (
 )
 ;
-yield
+await
 observerPromise
 ;
 do_check_true
@@ -259,7 +259,7 @@ isInitialized
 let
 state
 =
-yield
+await
 NewTabSearchProvider
 .
 search
@@ -528,7 +528,7 @@ eventName
 actualEngineName
 ]
 =
-yield
+await
 promise
 ;
 equal

@@ -43,8 +43,8 @@ task_clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_indicatorDrop
 (
 )
@@ -130,8 +130,8 @@ js
 EventUtils
 )
 ;
+async
 function
-*
 task_drop
 (
 urls
@@ -168,7 +168,7 @@ n
 let
 list
 =
-yield
+await
 Downloads
 .
 getList
@@ -194,7 +194,7 @@ Set
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -353,12 +353,12 @@ download
 ;
 }
 }
-yield
+await
 task_resetState
 (
 )
 ;
-yield
+await
 setDownloadDir
 (
 )
@@ -367,8 +367,7 @@ startServer
 (
 )
 ;
-yield
-*
+await
 task_drop
 (
 [
@@ -383,8 +382,7 @@ txt
 ]
 )
 ;
-yield
-*
+await
 task_drop
 (
 [

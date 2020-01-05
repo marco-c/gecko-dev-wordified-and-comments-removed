@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -279,7 +279,7 @@ win
 )
 ;
 }
-yield
+await
 testOnWindow
 (
 {
@@ -298,7 +298,7 @@ win
 )
 )
 ;
-yield
+await
 testOnWindow
 (
 {
@@ -338,7 +338,7 @@ reset
 )
 )
 ;
-yield
+await
 Promise
 .
 all

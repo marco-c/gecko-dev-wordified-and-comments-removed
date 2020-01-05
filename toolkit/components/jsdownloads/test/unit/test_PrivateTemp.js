@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_private_temp
 (
 )
@@ -14,7 +14,7 @@ test_private_temp
 let
 download
 =
-yield
+await
 promiseStartExternalHelperAppServiceDownload
 (
 httpUrl
@@ -27,7 +27,7 @@ txt
 )
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download

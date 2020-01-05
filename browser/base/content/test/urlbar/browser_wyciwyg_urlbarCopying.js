@@ -83,8 +83,8 @@ reject
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -122,7 +122,7 @@ html
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -131,7 +131,7 @@ gBrowser
 url
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -183,7 +183,7 @@ URI
 "
 )
 ;
-yield
+await
 testURLBarCopy
 (
 url

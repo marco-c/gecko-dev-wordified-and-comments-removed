@@ -443,12 +443,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -542,7 +539,7 @@ org
 let
 bm1
 =
-yield
+await
 bs
 .
 insert
@@ -628,7 +625,7 @@ org
 let
 bm2
 =
-yield
+await
 bs
 .
 insert
@@ -691,7 +688,7 @@ context
 let
 node1
 =
-yield
+await
 PlacesUIUtils
 .
 promiseNodeLikeFromFetchInfo
@@ -722,7 +719,7 @@ initialized
 "
 )
 ;
-yield
+await
 openTagSelector
 (
 )
@@ -971,7 +968,7 @@ of
 the
 tags
 .
-yield
+await
 bs
 .
 remove
@@ -1242,7 +1239,7 @@ selected
 /
 Cleanup
 .
-yield
+await
 bs
 .
 remove
@@ -1253,6 +1250,8 @@ guid
 )
 ;
 }
+)
+(
 )
 .
 then

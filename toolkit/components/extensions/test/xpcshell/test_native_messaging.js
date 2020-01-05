@@ -501,13 +501,13 @@ PYTHON
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 Schemas
 .
 load
@@ -517,7 +517,7 @@ BASE_SCHEMA
 ;
 PYTHON
 =
-yield
+await
 Subprocess
 .
 pathSearch
@@ -539,7 +539,7 @@ null
 {
 PYTHON
 =
-yield
+await
 Subprocess
 .
 pathSearch
@@ -742,8 +742,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 test_nonexistent_manifest
 (
 )
@@ -751,7 +751,7 @@ test_nonexistent_manifest
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -802,13 +802,13 @@ json
 ;
 add_task
 (
+async
 function
-*
 test_good_manifest
 (
 )
 {
-yield
+await
 writeManifest
 (
 USER_TEST_JSON
@@ -844,7 +844,7 @@ USER_TEST_JSON
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -903,13 +903,13 @@ contents
 ;
 add_task
 (
+async
 function
-*
 test_invalid_json
 (
 )
 {
-yield
+await
 writeManifest
 (
 USER_TEST_JSON
@@ -925,7 +925,7 @@ json
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -953,8 +953,8 @@ json
 ;
 add_task
 (
+async
 function
-*
 test_invalid_name
 (
 )
@@ -982,7 +982,7 @@ name
 test
 "
 ;
-yield
+await
 writeManifest
 (
 USER_TEST_JSON
@@ -992,7 +992,7 @@ manifest
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -1021,8 +1021,8 @@ name
 ;
 add_task
 (
+async
 function
-*
 test_name_mismatch
 (
 )
@@ -1048,7 +1048,7 @@ not
 test
 "
 ;
-yield
+await
 writeManifest
 (
 USER_TEST_JSON
@@ -1058,7 +1058,7 @@ manifest
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -1114,8 +1114,8 @@ property
 ;
 add_task
 (
+async
 function
-*
 test_missing_props
 (
 )
@@ -1167,7 +1167,7 @@ manifest
 prop
 ]
 ;
-yield
+await
 writeManifest
 (
 USER_TEST_JSON
@@ -1177,7 +1177,7 @@ manifest
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -1206,8 +1206,8 @@ prop
 ;
 add_task
 (
+async
 function
-*
 test_invalid_type
 (
 )
@@ -1232,7 +1232,7 @@ type
 bogus
 "
 ;
-yield
+await
 writeManifest
 (
 USER_TEST_JSON
@@ -1242,7 +1242,7 @@ manifest
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -1270,8 +1270,8 @@ type
 ;
 add_task
 (
+async
 function
-*
 test_no_allowed_extensions
 (
 )
@@ -1295,7 +1295,7 @@ allowed_extensions
 [
 ]
 ;
-yield
+await
 writeManifest
 (
 USER_TEST_JSON
@@ -1305,7 +1305,7 @@ manifest
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -1380,13 +1380,13 @@ directory
 ;
 add_task
 (
+async
 function
-*
 good_manifest_system_dir
 (
 )
 {
-yield
+await
 OS
 .
 File
@@ -1396,7 +1396,7 @@ remove
 USER_TEST_JSON
 )
 ;
-yield
+await
 writeManifest
 (
 GLOBAL_TEST_JSON
@@ -1475,7 +1475,7 @@ directory
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -1548,13 +1548,13 @@ where
 ;
 add_task
 (
+async
 function
-*
 test_user_dir_precedence
 (
 )
 {
-yield
+await
 writeManifest
 (
 USER_TEST_JSON
@@ -1590,7 +1590,7 @@ USER_TEST_JSON
 let
 result
 =
-yield
+await
 HostManifestManager
 .
 lookupApplication
@@ -1687,8 +1687,8 @@ exist
 ;
 add_task
 (
+async
 function
-*
 test_native_app_shutdown
 (
 )
@@ -1885,7 +1885,7 @@ win
 "
 )
 {
-yield
+await
 OS
 .
 File
@@ -1937,7 +1937,7 @@ scriptPath
 \
 n
 ;
-yield
+await
 OS
 .
 File
@@ -1948,7 +1948,7 @@ batPath
 batBody
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1969,7 +1969,7 @@ path
 =
 batPath
 ;
-yield
+await
 writeManifest
 (
 manifestPath
@@ -1999,7 +1999,7 @@ manifestPath
 }
 else
 {
-yield
+await
 OS
 .
 File
@@ -2021,7 +2021,7 @@ SCRIPT
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -2042,7 +2042,7 @@ path
 =
 scriptPath
 ;
-yield
+await
 writeManifest
 (
 manifestPath
@@ -2156,7 +2156,7 @@ send
 buffer
 )
 ;
-yield
+await
 recvPromise
 ;
 app
@@ -2217,7 +2217,7 @@ testing
 let
 procs
 =
-yield
+await
 SubprocessImpl
 .
 Process

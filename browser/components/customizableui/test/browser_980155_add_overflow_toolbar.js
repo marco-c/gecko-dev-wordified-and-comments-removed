@@ -34,8 +34,8 @@ toolbar
 ;
 add_task
 (
+async
 function
-*
 addOverflowingToolbar
 (
 )
@@ -261,7 +261,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -348,8 +348,8 @@ outerHeight
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -358,7 +358,7 @@ removeCustomToolbars
 (
 )
 ;
-yield
+await
 resetCustomization
 (
 )

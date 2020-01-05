@@ -24,8 +24,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 testTemporaryPermissionTabURLs
 (
 )
@@ -181,7 +181,7 @@ id
 microphone
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab

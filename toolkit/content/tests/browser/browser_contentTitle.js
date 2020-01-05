@@ -27,8 +27,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -46,7 +46,7 @@ addTab
 url
 )
 ;
-yield
+await
 new
 Promise
 (

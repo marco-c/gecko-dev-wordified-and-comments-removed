@@ -1,12 +1,12 @@
 add_task
 (
+async
 function
-*
 invalid_input_rejects
 (
 )
 {
-yield
+await
 Assert
 .
 throws
@@ -34,7 +34,7 @@ object
 /
 )
 ;
-yield
+await
 Assert
 .
 throws
@@ -63,7 +63,7 @@ object
 /
 )
 ;
-yield
+await
 Assert
 .
 throws
@@ -103,7 +103,7 @@ bookmarks
 .
 unfiledGuid
 ;
-yield
+await
 Assert
 .
 throws
@@ -142,7 +142,7 @@ insert
 /
 )
 ;
-yield
+await
 Assert
 .
 throws
@@ -177,7 +177,7 @@ insert
 /
 )
 ;
-yield
+await
 Assert
 .
 throws
@@ -231,7 +231,7 @@ test
 ]
 }
 ;
-yield
+await
 Assert
 .
 throws
@@ -271,7 +271,7 @@ null
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -311,7 +311,7 @@ guid
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -352,7 +352,7 @@ dateAdded
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -394,7 +394,7 @@ today
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -438,7 +438,7 @@ now
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -479,7 +479,7 @@ lastModified
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -521,7 +521,7 @@ today
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -565,7 +565,7 @@ now
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -627,7 +627,7 @@ time
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -678,7 +678,7 @@ past
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -719,7 +719,7 @@ type
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -759,7 +759,7 @@ type
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -801,7 +801,7 @@ bookmark
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -849,7 +849,7 @@ title
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -896,7 +896,7 @@ url
 }
 ]
 ;
-yield
+await
 Assert
 .
 throws
@@ -960,7 +960,7 @@ bookmarks
 unfiledGuid
 }
 ;
-yield
+await
 Assert
 .
 throws
@@ -1042,7 +1042,7 @@ bookmarks
 unfiledGuid
 }
 ;
-yield
+await
 Assert
 .
 throws
@@ -1104,7 +1104,7 @@ bookmarks
 unfiledGuid
 }
 ;
-yield
+await
 Assert
 .
 throws
@@ -1164,7 +1164,7 @@ bookmarks
 unfiledGuid
 }
 ;
-yield
+await
 Assert
 .
 throws
@@ -1197,8 +1197,8 @@ url
 ;
 add_task
 (
+async
 function
-*
 invalid_properties_for_bookmark_type
 (
 )
@@ -1243,7 +1243,7 @@ bookmarks
 unfiledGuid
 }
 ;
-yield
+await
 Assert
 .
 throws
@@ -1311,7 +1311,7 @@ bookmarks
 unfiledGuid
 }
 ;
-yield
+await
 Assert
 .
 throws
@@ -1370,7 +1370,7 @@ bookmarks
 unfiledGuid
 }
 ;
-yield
+await
 Assert
 .
 throws
@@ -1403,8 +1403,8 @@ title
 ;
 add_task
 (
+async
 function
-*
 create_separator
 (
 )
@@ -1414,7 +1414,7 @@ let
 bm
 ]
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1526,8 +1526,8 @@ set
 ;
 add_task
 (
+async
 function
-*
 create_plain_bm
 (
 )
@@ -1537,7 +1537,7 @@ let
 bm
 ]
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1675,8 +1675,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 create_folder
 (
 )
@@ -1686,7 +1686,7 @@ let
 bm
 ]
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1794,13 +1794,13 @@ Test
 ;
 add_task
 (
+async
 function
-*
 create_in_tags
 (
 )
 {
-yield
+await
 Assert
 .
 throws
@@ -1876,7 +1876,7 @@ let
 guidForTag
 =
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1918,7 +1918,7 @@ tagsGuid
 .
 guid
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1985,7 +1985,7 @@ tags
 /
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1995,7 +1995,7 @@ remove
 guidForTag
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -2007,13 +2007,13 @@ promiseAsyncUpdates
 ;
 add_task
 (
+async
 function
-*
 insert_into_root
 (
 )
 {
-yield
+await
 Assert
 .
 throws
@@ -2089,13 +2089,13 @@ root
 ;
 add_task
 (
+async
 function
-*
 tree_where_separator_or_folder_has_kids
 (
 )
 {
-yield
+await
 Assert
 .
 throws
@@ -2179,7 +2179,7 @@ children
 /
 )
 ;
-yield
+await
 Assert
 .
 throws
@@ -2268,8 +2268,8 @@ children
 ;
 add_task
 (
+async
 function
-*
 create_hierarchy
 (
 )
@@ -2330,7 +2330,7 @@ obs
 let
 bms
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2487,7 +2487,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -2569,7 +2569,7 @@ Assert
 equal
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2760,8 +2760,8 @@ obsInvoked
 ;
 add_task
 (
+async
 function
-*
 insert_many_non_nested
 (
 )
@@ -2822,7 +2822,7 @@ obs
 let
 bms
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2968,7 +2968,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -3045,7 +3045,7 @@ Assert
 equal
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks

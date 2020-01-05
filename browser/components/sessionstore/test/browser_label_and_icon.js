@@ -68,8 +68,8 @@ restore_on_demand
 ;
 add_task
 (
+async
 function
-*
 test_label_and_icon
 (
 )
@@ -95,13 +95,13 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -119,7 +119,7 @@ getTabState
 tab
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -150,7 +150,7 @@ tab
 state
 )
 ;
-yield
+await
 promiseTabRestoring
 (
 tab
@@ -276,7 +276,7 @@ used
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab

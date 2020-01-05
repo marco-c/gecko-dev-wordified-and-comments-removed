@@ -387,12 +387,8 @@ showInfobarCallback
 var
 checkInfobarButton
 =
-Task
-.
 async
-(
 function
-*
 (
 aNotification
 )
@@ -459,21 +455,20 @@ click
 (
 )
 ;
-yield
+await
 paneLoadedPromise
 ;
-yield
+await
 promiseNextTick
 (
 )
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -572,8 +567,8 @@ PREF_ACCEPTED_POLICY_DATE
 }
 add_task
 (
+async
 function
-*
 test_single_window
 (
 )
@@ -582,7 +577,7 @@ clearAcceptedPolicy
 (
 )
 ;
-yield
+await
 closeAllNotifications
 (
 )
@@ -707,7 +702,7 @@ triggerInfoBar
 1000
 )
 ;
-yield
+await
 alertShownPromise
 ;
 Assert
@@ -748,7 +743,7 @@ now
 "
 )
 ;
-yield
+await
 promiseNextTick
 (
 )
@@ -763,7 +758,7 @@ notificationBox
 currentNotification
 )
 ;
-yield
+await
 checkInfobarButton
 (
 notificationBox
@@ -771,7 +766,7 @@ notificationBox
 currentNotification
 )
 ;
-yield
+await
 promiseClosed
 ;
 Assert
@@ -873,8 +868,8 @@ set
 ;
 add_task
 (
+async
 function
-*
 test_multiple_windows
 (
 )
@@ -883,7 +878,7 @@ clearAcceptedPolicy
 (
 )
 ;
-yield
+await
 closeAllNotifications
 (
 )
@@ -891,7 +886,7 @@ closeAllNotifications
 let
 otherWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -1064,7 +1059,7 @@ triggerInfoBar
 1000
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1107,7 +1102,7 @@ close
 (
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1115,7 +1110,7 @@ all
 closeAlertPromises
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

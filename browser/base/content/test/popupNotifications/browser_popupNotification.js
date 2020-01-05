@@ -677,7 +677,7 @@ Test
 #
 4
 "
-*
+async
 run
 (
 )
@@ -701,7 +701,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -757,7 +757,7 @@ showNotification
 wrongBrowserNotificationObject
 )
 ;
-yield
+await
 promiseTopic
 ;
 is
@@ -956,7 +956,7 @@ Test
 #
 6
 "
-*
+async
 run
 (
 )
@@ -990,7 +990,7 @@ length
 1
 ]
 ;
-yield
+await
 promiseTopic
 ;
 is

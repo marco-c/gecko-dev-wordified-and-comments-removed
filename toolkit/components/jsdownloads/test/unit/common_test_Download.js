@@ -73,12 +73,9 @@ promiseStartDownload_tryToKeepPartialData
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -107,7 +104,7 @@ path
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -168,19 +165,19 @@ else
 {
 download
 =
-yield
+await
 promiseStartExternalHelperAppServiceDownload
 (
 )
 ;
 }
-yield
+await
 promiseDownloadMidway
 (
 download
 )
 ;
-yield
+await
 promisePartFileReady
 (
 download
@@ -190,6 +187,8 @@ return
 download
 ;
 }
+)
+(
 )
 ;
 }
@@ -200,12 +199,9 @@ aDownload
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -213,7 +209,7 @@ try
 {
 do
 {
-yield
+await
 promiseTimeout
 (
 50
@@ -224,7 +220,7 @@ while
 (
 !
 (
-yield
+await
 OS
 .
 File
@@ -282,7 +278,7 @@ toString
 )
 )
 ;
-yield
+await
 promiseTimeout
 (
 100
@@ -291,23 +287,21 @@ promiseTimeout
 }
 }
 )
+(
+)
 ;
 }
 var
 promiseVerifyTarget
 =
-Task
-.
 async
-(
 function
-*
 (
 downloadTarget
 expectedContents
 )
 {
-yield
+await
 promiseVerifyContents
 (
 downloadTarget
@@ -334,7 +328,6 @@ length
 )
 ;
 }
-)
 ;
 function
 waitForFileLaunched
@@ -494,8 +487,8 @@ waitFn
 }
 add_task
 (
+async
 function
-*
 test_basic
 (
 )
@@ -519,7 +512,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -589,7 +582,7 @@ targetFile
 path
 )
 ;
-yield
+await
 download
 .
 start
@@ -601,7 +594,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 null
@@ -639,7 +632,7 @@ targetFile
 path
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -659,7 +652,7 @@ referrer
 null
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -673,8 +666,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_basic_tryToKeepPartialData
 (
 )
@@ -682,7 +675,7 @@ test_basic_tryToKeepPartialData
 let
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
@@ -691,13 +684,13 @@ continueResponses
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -710,7 +703,7 @@ TEST_DATA_SHORT
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -744,8 +737,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_channelIsForDownload_classFlags
 (
 )
@@ -764,7 +757,7 @@ gUseLegacySaver
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -806,7 +799,7 @@ path
 }
 )
 ;
-yield
+await
 download
 .
 start
@@ -823,7 +816,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartExternalHelperAppServiceDownload
 (
 )
@@ -840,7 +833,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -885,8 +878,8 @@ Throttleable
 ;
 add_task
 (
+async
 function
-*
 test_unix_permissions
 (
 )
@@ -1027,7 +1020,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -1061,7 +1054,7 @@ launcherPath
 }
 )
 ;
-yield
+await
 download
 .
 start
@@ -1073,7 +1066,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 httpUrl
@@ -1096,7 +1089,7 @@ launcherPath
 }
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -1119,7 +1112,7 @@ isPrivate
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -1205,8 +1198,8 @@ kDeleteTempFileOnExit
 ;
 add_task
 (
+async
 function
-*
 test_referrer
 (
 )
@@ -1321,7 +1314,7 @@ TEST_REFERRER_URL
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -1353,7 +1346,7 @@ referrer
 TEST_REFERRER_URL
 )
 ;
-yield
+await
 download
 .
 start
@@ -1362,7 +1355,7 @@ start
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -1397,7 +1390,7 @@ referrer
 TEST_REFERRER_URL
 )
 ;
-yield
+await
 download
 .
 start
@@ -1430,7 +1423,7 @@ html
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -1462,7 +1455,7 @@ referrer
 TEST_REFERRER_URL
 )
 ;
-yield
+await
 download
 .
 start
@@ -1478,8 +1471,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_adjustChannel
 (
 )
@@ -1741,7 +1734,7 @@ resolve
 const
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -1781,7 +1774,7 @@ toSerializable
 null
 )
 ;
-yield
+await
 download
 .
 start
@@ -1797,8 +1790,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_initial_final_state
 (
 )
@@ -1814,7 +1807,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 )
@@ -1889,7 +1882,7 @@ size
 0
 )
 ;
-yield
+await
 download
 .
 start
@@ -1901,12 +1894,12 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -1989,8 +1982,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_final_state_notified
 (
 )
@@ -2002,7 +1995,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -2065,7 +2058,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 promiseAttempt
 ;
 do_check_true
@@ -2089,8 +2082,8 @@ lastNotifiedProgress
 ;
 add_task
 (
+async
 function
-*
 test_intermediate_progress
 (
 )
@@ -2102,7 +2095,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -2115,7 +2108,7 @@ txt
 )
 )
 ;
-yield
+await
 promiseDownloadMidway
 (
 download
@@ -2173,7 +2166,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -2194,7 +2187,7 @@ progress
 100
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -2210,8 +2203,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_empty_progress
 (
 )
@@ -2219,7 +2212,7 @@ test_empty_progress
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -2232,7 +2225,7 @@ txt
 )
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -2291,7 +2284,7 @@ plain
 do_check_eq
 (
 (
-yield
+await
 OS
 .
 File
@@ -2334,8 +2327,8 @@ size
 ;
 add_task
 (
+async
 function
-*
 test_empty_progress_tryToKeepPartialData
 (
 )
@@ -2361,7 +2354,7 @@ path
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -2422,7 +2415,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartExternalHelperAppServiceDownload
 (
 httpUrl
@@ -2436,7 +2429,7 @@ txt
 )
 ;
 }
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -2445,7 +2438,7 @@ download
 do_check_eq
 (
 (
-yield
+await
 OS
 .
 File
@@ -2485,7 +2478,7 @@ size
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -2519,8 +2512,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_empty_noprogress
 (
 )
@@ -2634,7 +2627,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 sourceUrl
@@ -2703,19 +2696,19 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 sourceUrl
 )
 ;
 }
-yield
+await
 deferRequestReceived
 .
 promise
 ;
-yield
+await
 promiseExecuteSoon
 (
 )
@@ -2754,7 +2747,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -2832,7 +2825,7 @@ size
 do_check_eq
 (
 (
-yield
+await
 OS
 .
 File
@@ -2856,8 +2849,8 @@ size
 ;
 add_task
 (
+async
 function
-*
 test_start_twice
 (
 )
@@ -2877,7 +2870,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 httpUrl
@@ -2895,7 +2888,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 httpUrl
@@ -2931,10 +2924,10 @@ continueResponses
 (
 )
 ;
-yield
+await
 promiseAttempt1
 ;
-yield
+await
 promiseAttempt2
 ;
 do_check_true
@@ -2969,7 +2962,7 @@ error
 null
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -2985,8 +2978,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_cancel_midway
 (
 )
@@ -3012,7 +3005,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 httpUrl
@@ -3030,7 +3023,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 httpUrl
@@ -3132,7 +3125,7 @@ start
 )
 ;
 }
-yield
+await
 deferCancel
 .
 promise
@@ -3201,7 +3194,7 @@ size
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -3254,7 +3247,7 @@ gUseLegacySaver
 {
 try
 {
-yield
+await
 promiseAttempt
 ;
 do_throw
@@ -3313,8 +3306,8 @@ becauseTargetFailed
 ;
 add_task
 (
+async
 function
-*
 test_cancel_midway_tryToKeepPartialData
 (
 )
@@ -3322,14 +3315,14 @@ test_cancel_midway_tryToKeepPartialData
 let
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -3346,7 +3339,7 @@ path
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -3361,14 +3354,14 @@ partFilePath
 )
 )
 ;
-yield
+await
 download
 .
 cancel
 (
 )
 ;
-yield
+await
 download
 .
 removePartialData
@@ -3402,7 +3395,7 @@ null
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -3419,7 +3412,7 @@ path
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -3439,8 +3432,8 @@ partFilePath
 ;
 add_task
 (
+async
 function
-*
 test_cancel_immediately
 (
 )
@@ -3452,7 +3445,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -3499,7 +3492,7 @@ canceled
 ;
 try
 {
-yield
+await
 promiseAttempt
 ;
 do_throw
@@ -3579,7 +3572,7 @@ null
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -3594,7 +3587,7 @@ path
 )
 )
 ;
-yield
+await
 promiseCancel
 ;
 }
@@ -3602,8 +3595,8 @@ promiseCancel
 ;
 add_task
 (
+async
 function
-*
 test_cancel_midway_restart
 (
 )
@@ -3615,7 +3608,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -3628,13 +3621,13 @@ txt
 )
 )
 ;
-yield
+await
 promiseDownloadMidway
 (
 download
 )
 ;
-yield
+await
 download
 .
 cancel
@@ -3716,7 +3709,7 @@ currentBytes
 0
 )
 ;
-yield
+await
 promiseAttempt
 ;
 do_check_true
@@ -3751,7 +3744,7 @@ error
 null
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -3767,8 +3760,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_cancel_midway_restart_tryToKeepPartialData
 (
 )
@@ -3776,12 +3769,12 @@ test_cancel_midway_restart_tryToKeepPartialData
 let
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
 ;
-yield
+await
 download
 .
 cancel
@@ -3804,7 +3797,7 @@ hasPartialData
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -3819,7 +3812,7 @@ path
 )
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 download
@@ -3933,7 +3926,7 @@ start
 (
 )
 ;
-yield
+await
 deferMidway
 .
 promise
@@ -3958,7 +3951,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 promiseAttempt
 ;
 do_check_eq
@@ -3969,7 +3962,7 @@ TEST_DATA_SHORT
 length
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -3982,7 +3975,7 @@ TEST_DATA_SHORT
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -4002,8 +3995,8 @@ partFilePath
 ;
 add_task
 (
+async
 function
-*
 test_cancel_midway_restart_removePartialData
 (
 )
@@ -4011,12 +4004,12 @@ test_cancel_midway_restart_removePartialData
 let
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
 ;
-yield
+await
 download
 .
 cancel
@@ -4030,7 +4023,7 @@ download
 hasPartialData
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 download
@@ -4060,7 +4053,7 @@ size
 0
 )
 ;
-yield
+await
 download
 .
 removePartialData
@@ -4076,7 +4069,7 @@ hasPartialData
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -4114,7 +4107,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 download
 .
 start
@@ -4127,7 +4120,7 @@ gMostRecentFirstBytePos
 0
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -4140,7 +4133,7 @@ TEST_DATA_SHORT
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -4160,8 +4153,8 @@ partFilePath
 ;
 add_task
 (
+async
 function
-*
 test_cancel_midway_restart_tryToKeepPartialData_false
 (
 )
@@ -4169,12 +4162,12 @@ test_cancel_midway_restart_tryToKeepPartialData_false
 let
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
 ;
-yield
+await
 download
 .
 cancel
@@ -4194,7 +4187,7 @@ download
 hasPartialData
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 download
@@ -4205,7 +4198,7 @@ partFilePath
 TEST_DATA_SHORT
 )
 ;
-yield
+await
 download
 .
 removePartialData
@@ -4214,7 +4207,7 @@ removePartialData
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -4249,13 +4242,13 @@ catch
 }
 )
 ;
-yield
+await
 promiseDownloadMidway
 (
 download
 )
 ;
-yield
+await
 promisePartFileReady
 (
 download
@@ -4270,7 +4263,7 @@ hasPartialData
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -4314,7 +4307,7 @@ Linux
 do_check_eq
 (
 (
-yield
+await
 OS
 .
 File
@@ -4334,7 +4327,7 @@ unixMode
 )
 ;
 }
-yield
+await
 download
 .
 cancel
@@ -4350,7 +4343,7 @@ hasPartialData
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -4369,7 +4362,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 download
 .
 start
@@ -4382,7 +4375,7 @@ gMostRecentFirstBytePos
 0
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -4395,7 +4388,7 @@ TEST_DATA_SHORT
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -4415,8 +4408,8 @@ partFilePath
 ;
 add_task
 (
+async
 function
-*
 test_cancel_immediately_restart_immediately
 (
 )
@@ -4428,7 +4421,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -4542,7 +4535,7 @@ continueResponses
 ;
 try
 {
-yield
+await
 promiseAttempt
 ;
 do_print
@@ -4595,7 +4588,7 @@ becauseTargetFailed
 )
 ;
 }
-yield
+await
 promiseRestarted
 ;
 do_check_true
@@ -4630,7 +4623,7 @@ error
 null
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -4646,8 +4639,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_cancel_midway_restart_immediately
 (
 )
@@ -4659,7 +4652,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -4681,7 +4674,7 @@ start
 (
 )
 ;
-yield
+await
 promiseDownloadMidway
 (
 download
@@ -4772,7 +4765,7 @@ continueResponses
 ;
 try
 {
-yield
+await
 promiseAttempt
 ;
 do_throw
@@ -4825,7 +4818,7 @@ becauseTargetFailed
 )
 ;
 }
-yield
+await
 promiseRestarted
 ;
 do_check_true
@@ -4860,7 +4853,7 @@ error
 null
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -4876,8 +4869,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_cancel_successful
 (
 )
@@ -4885,18 +4878,18 @@ test_cancel_successful
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
 )
 ;
-yield
+await
 download
 .
 cancel
@@ -4935,7 +4928,7 @@ error
 null
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -4949,8 +4942,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_cancel_twice
 (
 )
@@ -4962,7 +4955,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -5018,7 +5011,7 @@ cancel
 ;
 try
 {
-yield
+await
 promiseAttempt
 ;
 do_throw
@@ -5071,10 +5064,10 @@ becauseTargetFailed
 )
 ;
 }
-yield
+await
 promiseCancel1
 ;
-yield
+await
 promiseCancel2
 ;
 do_check_true
@@ -5111,7 +5104,7 @@ null
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -5131,8 +5124,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_refresh_succeeded
 (
 )
@@ -5140,25 +5133,25 @@ test_refresh_succeeded
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
 )
 ;
-yield
+await
 download
 .
 refresh
 (
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -5167,7 +5160,7 @@ target
 TEST_DATA_SHORT
 )
 ;
-yield
+await
 OS
 .
 File
@@ -5191,7 +5184,7 @@ old
 "
 )
 ;
-yield
+await
 download
 .
 refresh
@@ -5219,7 +5212,7 @@ TEST_DATA_SHORT
 length
 )
 ;
-yield
+await
 OS
 .
 File
@@ -5243,14 +5236,14 @@ target
 path
 )
 ;
-yield
+await
 download
 .
 refresh
 (
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -5264,8 +5257,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_finalize
 (
 )
@@ -5277,7 +5270,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -5301,7 +5294,7 @@ finalize
 ;
 try
 {
-yield
+await
 download
 .
 start
@@ -5331,7 +5324,7 @@ ex
 )
 {
 }
-yield
+await
 promiseFinalized
 ;
 do_check_true
@@ -5368,7 +5361,7 @@ null
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -5388,8 +5381,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_finalize_tryToKeepPartialData
 (
 )
@@ -5397,12 +5390,12 @@ test_finalize_tryToKeepPartialData
 let
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
 ;
-yield
+await
 download
 .
 finalize
@@ -5418,7 +5411,7 @@ hasPartialData
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -5433,7 +5426,7 @@ partFilePath
 )
 )
 ;
-yield
+await
 download
 .
 removePartialData
@@ -5442,12 +5435,12 @@ removePartialData
 ;
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
 ;
-yield
+await
 download
 .
 finalize
@@ -5464,7 +5457,7 @@ hasPartialData
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -5484,8 +5477,8 @@ partFilePath
 ;
 add_task
 (
+async
 function
-*
 test_whenSucceeded_after_restart
 (
 )
@@ -5508,7 +5501,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 httpUrl
@@ -5550,7 +5543,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 httpUrl
@@ -5572,7 +5565,7 @@ whenSucceeded
 )
 ;
 }
-yield
+await
 download
 .
 cancel
@@ -5599,7 +5592,7 @@ catch
 }
 )
 ;
-yield
+await
 promiseSucceeded
 ;
 do_check_true
@@ -5634,7 +5627,7 @@ error
 null
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -5650,8 +5643,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_error_source
 (
 )
@@ -5701,7 +5694,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 sourceUrl
@@ -5718,7 +5711,7 @@ error
 null
 )
 ;
-yield
+await
 download
 .
 start
@@ -5730,13 +5723,13 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 sourceUrl
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -5829,7 +5822,7 @@ becauseTargetFailed
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -5878,8 +5871,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_error_source_partial
 (
 )
@@ -5994,7 +5987,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 sourceUrl
@@ -6011,7 +6004,7 @@ error
 null
 )
 ;
-yield
+await
 download
 .
 start
@@ -6023,13 +6016,13 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 sourceUrl
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -6134,7 +6127,7 @@ NS_ERROR_NET_PARTIAL_TRANSFER
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -6173,8 +6166,8 @@ size
 ;
 add_task
 (
+async
 function
-*
 test_error_target
 (
 )
@@ -6214,7 +6207,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -6236,7 +6229,7 @@ targetFile
 }
 )
 ;
-yield
+await
 download
 .
 start
@@ -6248,7 +6241,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 null
@@ -6257,7 +6250,7 @@ targetFile
 }
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -6382,8 +6375,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_error_restart
 (
 )
@@ -6421,7 +6414,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -6464,7 +6457,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 null
@@ -6474,7 +6467,7 @@ targetFile
 )
 ;
 }
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -6566,7 +6559,7 @@ false
 ;
 }
 }
-yield
+await
 download
 .
 start
@@ -6613,7 +6606,7 @@ progress
 100
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -6627,8 +6620,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_public_and_private
 (
 )
@@ -6864,7 +6857,7 @@ getTempFile
 TEST_TARGET_FILE_NAME
 )
 ;
-yield
+await
 Downloads
 .
 fetch
@@ -6873,7 +6866,7 @@ sourceUrl
 targetFile
 )
 ;
-yield
+await
 Downloads
 .
 fetch
@@ -6891,7 +6884,7 @@ gUseLegacySaver
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -6913,7 +6906,7 @@ targetFile
 }
 )
 ;
-yield
+await
 download
 .
 start
@@ -6926,7 +6919,7 @@ else
 let
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 sourceUrl
@@ -6937,7 +6930,7 @@ true
 }
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -6953,8 +6946,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_cancel_immediately_restart_and_check_startTime
 (
 )
@@ -6962,7 +6955,7 @@ test_cancel_immediately_restart_and_check_startTime
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 )
@@ -6984,7 +6977,7 @@ startTime
 )
 )
 ;
-yield
+await
 download
 .
 cancel
@@ -7007,13 +7000,13 @@ getTime
 )
 )
 ;
-yield
+await
 promiseTimeout
 (
 10
 )
 ;
-yield
+await
 download
 .
 start
@@ -7042,8 +7035,8 @@ getTime
 ;
 add_task
 (
+async
 function
-*
 test_with_content_encoding
 (
 )
@@ -7177,13 +7170,13 @@ length
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 sourceUrl
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -7207,7 +7200,7 @@ TEST_DATA_SHORT_GZIP_ENCODED
 length
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -7225,8 +7218,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_with_content_encoding_ignore_extension
 (
 )
@@ -7360,13 +7353,13 @@ length
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 sourceUrl
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -7402,7 +7395,7 @@ TEST_DATA_SHORT_GZIP_ENCODED
 length
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -7428,8 +7421,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_cancel_midway_restart_with_content_encoding
 (
 )
@@ -7441,7 +7434,7 @@ mustInterruptResponses
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -7518,7 +7511,7 @@ onchange
 (
 )
 ;
-yield
+await
 deferCancel
 .
 promise
@@ -7540,7 +7533,7 @@ onchange
 =
 null
 ;
-yield
+await
 download
 .
 start
@@ -7565,7 +7558,7 @@ TEST_DATA_SHORT_GZIP_ENCODED
 length
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -7579,8 +7572,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_blocked_parental_controls
 (
 )
@@ -7650,12 +7643,12 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 )
 ;
-yield
+await
 download
 .
 start
@@ -7667,12 +7660,12 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -7738,7 +7731,7 @@ becauseBlockedByParentalControls
 }
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -7762,8 +7755,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_blocked_parental_controls_httpstatus450
 (
 )
@@ -7781,7 +7774,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 httpUrl
@@ -7794,7 +7787,7 @@ zip
 )
 )
 ;
-yield
+await
 download
 .
 start
@@ -7806,7 +7799,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 httpUrl
@@ -7819,7 +7812,7 @@ zip
 )
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -7892,7 +7885,7 @@ stopped
 }
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -7912,8 +7905,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_blocked_runtime_permissions
 (
 )
@@ -7983,12 +7976,12 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 )
 ;
-yield
+await
 download
 .
 start
@@ -8000,12 +7993,12 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -8071,7 +8064,7 @@ becauseBlockedByRuntimePermissions
 }
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -8095,8 +8088,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_getSha256Hash
 (
 )
@@ -8110,7 +8103,7 @@ gUseLegacySaver
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -8123,7 +8116,7 @@ txt
 )
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -8157,12 +8150,8 @@ length
 var
 promiseBlockedDownload
 =
-Task
-.
 async
-(
 function
-*
 (
 options
 )
@@ -8258,7 +8247,7 @@ keepPartialData
 {
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
@@ -8276,7 +8265,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 )
@@ -8286,12 +8275,12 @@ else
 {
 download
 =
-yield
+await
 promiseNewDownload
 (
 )
 ;
-yield
+await
 download
 .
 start
@@ -8311,7 +8300,7 @@ blocked
 )
 ;
 }
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -8416,7 +8405,7 @@ succeeded
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -8439,12 +8428,11 @@ return
 download
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 test_blocked_applicationReputation
 (
 )
@@ -8452,7 +8440,7 @@ test_blocked_applicationReputation
 let
 download
 =
-yield
+await
 promiseBlockedDownload
 (
 {
@@ -8467,7 +8455,7 @@ false
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -8513,8 +8501,8 @@ hasBlockedData
 ;
 add_task
 (
+async
 function
-*
 test_blocked_applicationReputation_race
 (
 )
@@ -8652,7 +8640,7 @@ try
 {
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
@@ -8669,7 +8657,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 firstAttempt
 ;
 do_throw
@@ -8714,7 +8702,7 @@ ex
 ;
 }
 }
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -8736,8 +8724,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_blocked_applicationReputation_confirmBlock
 (
 )
@@ -8745,7 +8733,7 @@ test_blocked_applicationReputation_confirmBlock
 let
 download
 =
-yield
+await
 promiseBlockedDownload
 (
 {
@@ -8767,7 +8755,7 @@ hasBlockedData
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -8782,7 +8770,7 @@ partFilePath
 )
 )
 ;
-yield
+await
 download
 .
 confirmBlock
@@ -8812,7 +8800,7 @@ hasBlockedData
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -8829,7 +8817,7 @@ partFilePath
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -8868,8 +8856,8 @@ size
 ;
 add_task
 (
+async
 function
-*
 test_blocked_applicationReputation_unblock
 (
 )
@@ -8877,7 +8865,7 @@ test_blocked_applicationReputation_unblock
 let
 download
 =
-yield
+await
 promiseBlockedDownload
 (
 {
@@ -8899,7 +8887,7 @@ hasBlockedData
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -8914,7 +8902,7 @@ partFilePath
 )
 )
 ;
-yield
+await
 download
 .
 unblock
@@ -8944,7 +8932,7 @@ hasBlockedData
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -8959,7 +8947,7 @@ partFilePath
 )
 )
 ;
-yield
+await
 promiseVerifyTarget
 (
 download
@@ -9004,8 +8992,8 @@ becauseBlockedByReputationCheck
 ;
 add_task
 (
+async
 function
-*
 test_blocked_applicationReputation_cancel
 (
 )
@@ -9013,7 +9001,7 @@ test_blocked_applicationReputation_cancel
 let
 download
 =
-yield
+await
 promiseBlockedDownload
 (
 {
@@ -9026,7 +9014,7 @@ true
 }
 )
 ;
-yield
+await
 download
 .
 cancel
@@ -9068,8 +9056,8 @@ hasBlockedData
 ;
 add_task
 (
+async
 function
-*
 test_blocked_applicationReputation_decisionRace
 (
 )
@@ -9077,7 +9065,7 @@ test_blocked_applicationReputation_decisionRace
 let
 download
 =
-yield
+await
 promiseBlockedDownload
 (
 {
@@ -9108,7 +9096,7 @@ confirmBlock
 (
 )
 ;
-yield
+await
 confirmBlockPromise
 .
 then
@@ -9138,7 +9126,7 @@ failed
 }
 )
 ;
-yield
+await
 unblockPromise
 ;
 do_check_true
@@ -9164,7 +9152,7 @@ hasBlockedData
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -9181,7 +9169,7 @@ partFilePath
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -9198,7 +9186,7 @@ path
 ;
 download
 =
-yield
+await
 promiseBlockedDownload
 (
 {
@@ -9227,7 +9215,7 @@ unblock
 (
 )
 ;
-yield
+await
 unblockPromise
 .
 then
@@ -9257,7 +9245,7 @@ failed
 }
 )
 ;
-yield
+await
 confirmBlockPromise
 ;
 do_check_true
@@ -9283,7 +9271,7 @@ hasBlockedData
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -9300,7 +9288,7 @@ partFilePath
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -9339,8 +9327,8 @@ size
 ;
 add_task
 (
+async
 function
-*
 test_blocked_applicationReputation_unblock
 (
 )
@@ -9348,7 +9336,7 @@ test_blocked_applicationReputation_unblock
 let
 download
 =
-yield
+await
 promiseBlockedDownload
 (
 {
@@ -9370,7 +9358,7 @@ hasBlockedData
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -9385,7 +9373,7 @@ partFilePath
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -9408,7 +9396,7 @@ unblock
 (
 )
 ;
-yield
+await
 unblockPromise
 .
 then
@@ -9483,8 +9471,8 @@ size
 ;
 add_task
 (
+async
 function
-*
 test_showContainingDirectory
 (
 )
@@ -9502,7 +9490,7 @@ path
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -9536,7 +9524,7 @@ waitForDirectoryShown
 (
 )
 ;
-yield
+await
 download
 .
 showContainingDirectory
@@ -9546,7 +9534,7 @@ showContainingDirectory
 let
 path
 =
-yield
+await
 promiseDirectoryShown
 ;
 try
@@ -9626,7 +9614,7 @@ validResult
 }
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -9664,7 +9652,7 @@ showContainingDirectory
 (
 )
 ;
-yield
+await
 promiseDirectoryShown
 ;
 }
@@ -9672,8 +9660,8 @@ promiseDirectoryShown
 ;
 add_task
 (
+async
 function
-*
 test_launch
 (
 )
@@ -9714,7 +9702,7 @@ gUseLegacySaver
 {
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -9747,7 +9735,7 @@ true
 ;
 try
 {
-yield
+await
 download
 .
 launch
@@ -9797,7 +9785,7 @@ succeeded
 )
 ;
 }
-yield
+await
 download
 .
 start
@@ -9809,7 +9797,7 @@ else
 {
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 httpUrl
@@ -9828,7 +9816,7 @@ true
 }
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -9858,7 +9846,7 @@ launch
 let
 result
 =
-yield
+await
 promiseFileLaunched
 ;
 if
@@ -9919,8 +9907,8 @@ customLauncher
 ;
 add_task
 (
+async
 function
-*
 test_launcherPath_invalid
 (
 )
@@ -9928,7 +9916,7 @@ test_launcherPath_invalid
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -10038,7 +10026,7 @@ waitFn
 }
 )
 ;
-yield
+await
 download
 .
 start
@@ -10053,7 +10041,7 @@ launch
 (
 )
 ;
-yield
+await
 promiseDownloadLaunched
 ;
 do_throw
@@ -10125,8 +10113,8 @@ validResult
 ;
 add_task
 (
+async
 function
-*
 test_launchWhenSucceeded
 (
 )
@@ -10172,7 +10160,7 @@ gUseLegacySaver
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -10203,7 +10191,7 @@ launcherPath
 }
 )
 ;
-yield
+await
 download
 .
 start
@@ -10216,7 +10204,7 @@ else
 let
 download
 =
-yield
+await
 promiseStartLegacyDownload
 (
 httpUrl
@@ -10235,7 +10223,7 @@ true
 }
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -10245,7 +10233,7 @@ download
 let
 result
 =
-yield
+await
 promiseFileLaunched
 ;
 if
@@ -10306,8 +10294,8 @@ customLauncher
 ;
 add_task
 (
+async
 function
-*
 test_contentType
 (
 )
@@ -10315,7 +10303,7 @@ test_contentType
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -10328,7 +10316,7 @@ txt
 )
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -10351,8 +10339,8 @@ contentType
 ;
 add_task
 (
+async
 function
-*
 test_toSerializable_startTime
 (
 )
@@ -10360,7 +10348,7 @@ test_toSerializable_startTime
 let
 download1
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -10373,7 +10361,7 @@ txt
 )
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download1
@@ -10406,7 +10394,7 @@ serializable
 let
 download2
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -10465,8 +10453,8 @@ toJSON
 ;
 add_task
 (
+async
 function
-*
 test_history
 (
 )
@@ -10475,7 +10463,7 @@ mustInterruptResponses
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -10500,7 +10488,7 @@ txt
 let
 download
 =
-yield
+await
 promiseStartDownload
 (
 httpUrl
@@ -10519,7 +10507,7 @@ time
 transitionType
 ]
 =
-yield
+await
 promiseVisit
 ;
 do_check_eq
@@ -10546,7 +10534,7 @@ nsINavHistoryService
 TRANSITION_DOWNLOAD
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -10563,7 +10551,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 download
 .
 start
@@ -10572,7 +10560,7 @@ start
 ;
 do_check_false
 (
-yield
+await
 promiseIsURIVisited
 (
 httpUrl
@@ -10591,13 +10579,13 @@ txt
 ;
 add_task
 (
+async
 function
-*
 test_history_tryToKeepPartialData
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -10631,7 +10619,7 @@ now
 let
 download
 =
-yield
+await
 promiseStartDownload_tryToKeepPartialData
 (
 )
@@ -10642,7 +10630,7 @@ time
 transitionType
 ]
 =
-yield
+await
 promiseVisit
 ;
 do_check_eq
@@ -10671,7 +10659,7 @@ continueResponses
 (
 )
 ;
-yield
+await
 promiseDownloadStopped
 (
 download
@@ -10682,8 +10670,8 @@ download
 ;
 add_task
 (
+async
 function
-*
 test_launchWhenSucceeded_deleteTempFileOnExit
 (
 )
@@ -10735,7 +10723,7 @@ path
 let
 autoDeleteDownloadOne
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -10770,7 +10758,7 @@ customLauncherPath
 }
 )
 ;
-yield
+await
 autoDeleteDownloadOne
 .
 start
@@ -10790,7 +10778,7 @@ true
 let
 autoDeleteDownloadTwo
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -10818,7 +10806,7 @@ customLauncherPath
 }
 )
 ;
-yield
+await
 autoDeleteDownloadTwo
 .
 start
@@ -10838,7 +10826,7 @@ false
 let
 noAutoDeleteDownload
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -10866,7 +10854,7 @@ customLauncherPath
 }
 )
 ;
-yield
+await
 noAutoDeleteDownload
 .
 start
@@ -10884,7 +10872,7 @@ kDeleteTempFileOnExit
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -10897,7 +10885,7 @@ autoDeleteTargetPathOne
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -10910,7 +10898,7 @@ autoDeleteTargetPathTwo
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -10941,7 +10929,7 @@ exited
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -11000,7 +10988,7 @@ null
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -11013,7 +11001,7 @@ autoDeleteTargetPathTwo
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File

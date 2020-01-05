@@ -169,8 +169,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_in_incognito_context_true
 (
 )
@@ -342,14 +342,14 @@ html
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -359,7 +359,7 @@ inIncognitoContext
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -24,7 +24,7 @@ blank
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -83,7 +83,7 @@ foobar
 r
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab

@@ -273,8 +273,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 test_popup_direction
 (
 )
@@ -290,7 +290,7 @@ field1
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -396,13 +396,13 @@ down
 "
 )
 ;
-yield
+await
 popupShown
 ;
 let
 popupState
 =
-yield
+await
 new
 Promise
 (

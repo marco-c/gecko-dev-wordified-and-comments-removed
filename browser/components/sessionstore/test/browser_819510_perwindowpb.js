@@ -5,8 +5,8 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 test_1
 (
 )
@@ -14,12 +14,12 @@ test_1
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
 ;
-yield
+await
 promiseTabLoad
 (
 win
@@ -41,7 +41,7 @@ com
 ;
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 {
@@ -51,7 +51,7 @@ true
 }
 )
 ;
-yield
+await
 promiseTabLoad
 (
 win
@@ -73,12 +73,12 @@ com
 ;
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
 ;
-yield
+await
 promiseTabLoad
 (
 win
@@ -100,7 +100,7 @@ com
 ;
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 {
@@ -110,7 +110,7 @@ true
 }
 )
 ;
-yield
+await
 promiseTabLoad
 (
 win
@@ -222,7 +222,7 @@ JSON
 .
 parse
 (
-yield
+await
 promiseRecoveryFileContents
 (
 )
@@ -321,7 +321,7 @@ disk
 "
 )
 ;
-yield
+await
 promiseAllButPrimaryWindowClosed
 (
 )
@@ -335,8 +335,8 @@ forgetClosedWindows
 ;
 add_task
 (
+async
 function
-*
 test_2
 (
 )
@@ -344,7 +344,7 @@ test_2
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 {
@@ -354,7 +354,7 @@ true
 }
 )
 ;
-yield
+await
 promiseTabLoad
 (
 win
@@ -376,7 +376,7 @@ com
 ;
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 {
@@ -386,7 +386,7 @@ true
 }
 )
 ;
-yield
+await
 promiseTabLoad
 (
 win
@@ -499,7 +499,7 @@ JSON
 .
 parse
 (
-yield
+await
 promiseRecoveryFileContents
 (
 )
@@ -573,7 +573,7 @@ disk
 "
 )
 ;
-yield
+await
 promiseAllButPrimaryWindowClosed
 (
 )
@@ -587,8 +587,8 @@ forgetClosedWindows
 ;
 add_task
 (
+async
 function
-*
 test_3
 (
 )
@@ -596,12 +596,12 @@ test_3
 let
 normalWindow
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
 ;
-yield
+await
 promiseTabLoad
 (
 normalWindow
@@ -624,7 +624,7 @@ com
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 {
@@ -634,7 +634,7 @@ true
 }
 )
 ;
-yield
+await
 promiseTabLoad
 (
 win
@@ -656,12 +656,12 @@ com
 ;
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
 ;
-yield
+await
 promiseTabLoad
 (
 win
@@ -748,7 +748,7 @@ selected
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -793,7 +793,7 @@ JSON
 .
 parse
 (
-yield
+await
 promiseRecoveryFileContents
 (
 )
@@ -917,7 +917,7 @@ private
 "
 )
 ;
-yield
+await
 promiseAllButPrimaryWindowClosed
 (
 )
@@ -929,8 +929,8 @@ forgetClosedWindows
 }
 )
 ;
+async
 function
-*
 promiseTabLoad
 (
 win
@@ -949,7 +949,7 @@ addTab
 url
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -957,7 +957,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush

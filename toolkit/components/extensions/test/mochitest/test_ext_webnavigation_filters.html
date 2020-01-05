@@ -171,8 +171,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_webnav_unresolved_uri_on_expected_URI_scheme
 (
 )
@@ -562,7 +562,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1360,7 +1360,7 @@ EVENTS
 data
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1396,7 +1396,7 @@ data
 .
 url
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1560,7 +1560,7 @@ event
 data
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1580,7 +1580,7 @@ location
 =
 url
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1615,7 +1615,7 @@ event
 data
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1640,7 +1640,7 @@ url
 ref1
 "
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1691,7 +1691,7 @@ event
 data
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1725,7 +1725,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1775,7 +1775,7 @@ completed
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1793,8 +1793,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_webnav_empty_filter_validation_error
 (
 )
@@ -1972,14 +1972,14 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1991,7 +1991,7 @@ emptyFilterValidationError
 "
 )
 ;
-yield
+await
 extension
 .
 unload

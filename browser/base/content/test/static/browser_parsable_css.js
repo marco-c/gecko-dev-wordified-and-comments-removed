@@ -1626,8 +1626,8 @@ available
 }
 add_task
 (
+async
 function
-*
 checkAllTheCSS
 (
 )
@@ -1660,7 +1660,7 @@ nsIFile
 let
 uris
 =
-yield
+await
 generateURIsFromDirTree
 (
 appDir
@@ -1727,7 +1727,7 @@ HiddenFrame
 let
 win
 =
-yield
+await
 hiddenFrame
 .
 get
@@ -1798,7 +1798,7 @@ location
 =
 testFile
 ;
-yield
+await
 iframeLoaded
 ;
 let
@@ -1861,7 +1861,7 @@ true
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -2145,7 +2145,7 @@ linkEl
 )
 ;
 }
-yield
+await
 Promise
 .
 all

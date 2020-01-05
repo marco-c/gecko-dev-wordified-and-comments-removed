@@ -419,8 +419,8 @@ reject
 }
 add_task
 (
+async
 function
-*
 setupEnvironment
 (
 )
@@ -569,8 +569,8 @@ selfSupportURL
 ;
 add_task
 (
+async
 function
-*
 test_selfSupport
 (
 )
@@ -639,7 +639,7 @@ load
 let
 selfSupportBrowser
 =
-yield
+await
 selfSupportBrowserPromise
 ;
 Assert
@@ -716,7 +716,7 @@ resolve
 }
 )
 ;
-yield
+await
 pingPromise
 ;
 info
@@ -736,13 +736,13 @@ spawn
 (
 selfSupportBrowser
 null
+async
 function
-*
 checkObserve
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -876,7 +876,7 @@ now
 }
 )
 ;
-yield
+await
 observePromise
 ;
 info
@@ -914,7 +914,7 @@ close
 (
 )
 ;
-yield
+await
 selfSupportClosed
 ;
 Assert

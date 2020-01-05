@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -21,7 +21,7 @@ rights
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -30,8 +30,8 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -63,7 +63,7 @@ loaded
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

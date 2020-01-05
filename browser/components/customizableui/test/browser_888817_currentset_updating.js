@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -128,7 +128,7 @@ currentSet
 let
 otherWin
 =
-yield
+await
 openAndLoadWindow
 (
 )
@@ -457,7 +457,7 @@ remove
 "
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 otherWin
@@ -468,8 +468,8 @@ otherWin
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -492,7 +492,7 @@ personalbar
 false
 )
 ;
-yield
+await
 resetCustomization
 (
 )

@@ -5,13 +5,13 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -39,8 +39,8 @@ processCount
 ;
 add_task
 (
+async
 function
-*
 test_select_profile
 (
 )
@@ -51,7 +51,7 @@ uiWindow
 promiseResult
 }
 =
-yield
+await
 FormAutofillTest
 .
 showUI
@@ -88,7 +88,7 @@ uiWindow
 let
 result
 =
-yield
+await
 promiseResult
 ;
 Assert
@@ -193,8 +193,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 test_cancel
 (
 )
@@ -205,7 +205,7 @@ uiWindow
 promiseResult
 }
 =
-yield
+await
 FormAutofillTest
 .
 showUI
@@ -242,7 +242,7 @@ uiWindow
 let
 result
 =
-yield
+await
 promiseResult
 ;
 Assert

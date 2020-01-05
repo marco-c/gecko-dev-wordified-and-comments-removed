@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -48,7 +48,7 @@ addTab
 testURL
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -56,7 +56,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -113,13 +113,13 @@ duplicateTab
 tab
 )
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -166,7 +166,7 @@ duplicated
 }
 )
 ;
-yield
+await
 Promise
 .
 all

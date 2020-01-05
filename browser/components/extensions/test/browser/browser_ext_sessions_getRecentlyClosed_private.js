@@ -32,8 +32,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 test_sessions_get_recently_closed_private
 (
 )
@@ -134,7 +134,7 @@ background
 let
 privateWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -146,7 +146,7 @@ true
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -211,7 +211,7 @@ sessions
 let
 recentlyClosed
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -239,7 +239,7 @@ lastModified
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -258,7 +258,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -268,7 +268,7 @@ tab
 ;
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -287,7 +287,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -308,7 +308,7 @@ sessions
 ;
 recentlyClosed
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -331,7 +331,7 @@ privateWinId
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -352,7 +352,7 @@ sessions
 ;
 recentlyClosed
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -389,7 +389,7 @@ data
 "
 )
 ;
-yield
+await
 extension
 .
 unload

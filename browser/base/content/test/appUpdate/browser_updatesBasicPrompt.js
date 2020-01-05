@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 testBasicPrompt
 (
 )
@@ -39,7 +39,7 @@ gUseTestUpdater
 =
 true
 ;
-yield
+await
 runUpdateTest
 (
 updateParams
@@ -90,7 +90,6 @@ button
 "
 secondarybutton
 "
-*
 cleanup
 (
 )

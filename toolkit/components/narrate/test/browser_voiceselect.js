@@ -10,8 +10,8 @@ teardown
 ;
 add_task
 (
+async
 function
-*
 testVoiceselectDropdownAutoclose
 (
 )
@@ -20,7 +20,7 @@ setup
 (
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
@@ -248,8 +248,8 @@ back
 ;
 add_task
 (
+async
 function
-*
 testVoiceselectLabelChange
 (
 )
@@ -258,7 +258,7 @@ setup
 (
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
@@ -389,8 +389,8 @@ voice
 ;
 add_task
 (
+async
 function
-*
 testVoiceselectKeyboard
 (
 )
@@ -399,7 +399,7 @@ setup
 (
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ARTICLE

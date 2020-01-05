@@ -39,13 +39,13 @@ html
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -75,8 +75,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -143,7 +143,7 @@ getBrowserForTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -167,7 +167,7 @@ URL
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -293,7 +293,7 @@ getBrowserForTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -301,7 +301,7 @@ browserLoaded
 browser2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -482,7 +482,7 @@ getBrowserForTab
 tab3
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -490,7 +490,7 @@ browserLoaded
 browser3
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -598,7 +598,7 @@ work
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -606,7 +606,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -614,7 +614,7 @@ removeTab
 tab2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

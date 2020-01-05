@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -14,7 +14,7 @@ test
 let
 win
 =
-yield
+await
 promiseNewWindowLoaded
 (
 )
@@ -44,7 +44,7 @@ robots
 flags
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 win
@@ -70,7 +70,7 @@ mozilla
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab
@@ -78,7 +78,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -88,7 +88,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 win
@@ -136,7 +136,7 @@ checkWindowState
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

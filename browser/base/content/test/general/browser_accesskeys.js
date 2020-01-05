@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -104,7 +104,7 @@ body
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -154,7 +154,7 @@ window
 let
 focusedId
 =
-yield
+await
 performAccessKey
 (
 "
@@ -176,7 +176,7 @@ accesskey
 ;
 focusedId
 =
-yield
+await
 performAccessKey
 (
 "
@@ -248,7 +248,7 @@ window
 ;
 focusedId
 =
-yield
+await
 performAccessKeyForChrome
 (
 "
@@ -316,7 +316,7 @@ body
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -365,7 +365,7 @@ window
 ;
 focusedId
 =
-yield
+await
 performAccessKey
 (
 "
@@ -389,7 +389,7 @@ tab2
 ;
 focusedId
 =
-yield
+await
 performAccessKeyForChrome
 (
 "
@@ -572,8 +572,8 @@ true
 )
 ;
 }
+async
 function
-*
 performAccessKeyForChrome
 (
 key
@@ -609,7 +609,7 @@ true
 }
 )
 ;
-yield
+await
 waitFocusChangePromise
 ;
 return

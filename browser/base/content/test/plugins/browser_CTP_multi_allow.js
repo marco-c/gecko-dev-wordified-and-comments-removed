@@ -72,8 +72,8 @@ nsIPluginHost
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -166,8 +166,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -242,7 +242,7 @@ in
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -257,7 +257,7 @@ html
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -268,7 +268,7 @@ selectedBrowser
 let
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -332,7 +332,7 @@ notification
 "
 )
 ;
-yield
+await
 promiseForNotificationShown
 (
 notification
@@ -363,7 +363,7 @@ notification
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -471,7 +471,7 @@ click
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -533,7 +533,7 @@ notification
 "
 )
 ;
-yield
+await
 promiseForNotificationShown
 (
 notification
@@ -648,7 +648,7 @@ click
 ;
 pluginInfo
 =
-yield
+await
 promiseForPluginInfo
 (
 "
@@ -710,7 +710,7 @@ notification
 "
 )
 ;
-yield
+await
 promiseForNotificationShown
 (
 notification

@@ -67,8 +67,8 @@ bug
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -82,7 +82,7 @@ addTab
 testPage
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 tabToDetach
@@ -127,7 +127,7 @@ replaceTabWithWindow
 tabToDetach
 )
 ;
-yield
+await
 promiseWaitForEvent
 (
 tabToDetach

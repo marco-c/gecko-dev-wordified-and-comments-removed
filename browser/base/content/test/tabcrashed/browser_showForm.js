@@ -37,8 +37,8 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 test_show_form
 (
 )
@@ -54,8 +54,8 @@ url
 :
 PAGE
 }
+async
 function
-*
 (
 browser
 )
@@ -73,7 +73,7 @@ root
 sendReport
 "
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -90,7 +90,7 @@ true
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 crashBrowser

@@ -111,8 +111,8 @@ sandbox
 }
 add_task
 (
+async
 function
-*
 test_post_unload_promises
 (
 )
@@ -187,7 +187,7 @@ catch
 )
 ]
 ;
-yield
+await
 Promise
 .
 all
@@ -244,7 +244,7 @@ unload
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -263,8 +263,8 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 test_post_unload_listeners
 (
 )
@@ -378,7 +378,7 @@ removeListener
 fail
 )
 ;
-yield
+await
 promise
 ;
 onSingleton
@@ -415,7 +415,7 @@ unload
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -560,8 +560,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 test_stringify_toJSON
 (
 )
@@ -655,8 +655,8 @@ expected
 ;
 add_task
 (
+async
 function
-*
 test_stringify_inaccessible
 (
 )
@@ -758,8 +758,8 @@ obj
 ;
 add_task
 (
+async
 function
-*
 test_stringify_accessible
 (
 )

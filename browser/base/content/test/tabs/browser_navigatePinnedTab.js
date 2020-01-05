@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -44,7 +44,7 @@ appTab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -108,7 +108,7 @@ click
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -176,7 +176,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -207,7 +207,7 @@ com
 "
 )
 ;
-yield
+await
 pageLoadPromise
 ;
 info
@@ -240,15 +240,15 @@ org
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -314,7 +314,7 @@ link
 let
 extraTab
 =
-yield
+await
 newTabPromise
 ;
 info
@@ -327,7 +327,7 @@ tab
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -336,8 +336,8 @@ extraTab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -359,7 +359,7 @@ available
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

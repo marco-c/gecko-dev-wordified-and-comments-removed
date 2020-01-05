@@ -231,19 +231,15 @@ true
 var
 check_history
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
 let
 sessionHistory
 =
-yield
+await
 get_remote_history
 (
 gBrowser
@@ -370,7 +366,6 @@ title
 ;
 }
 }
-)
 ;
 function
 clear_history
@@ -395,12 +390,8 @@ entries
 var
 waitForLoad
 =
-Task
-.
 async
-(
 function
-*
 (
 uri
 )
@@ -440,7 +431,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -474,17 +465,12 @@ contentTitle
 )
 ;
 }
-)
 ;
 var
 waitForLoadWithFlags
 =
-Task
-.
 async
-(
 function
-*
 (
 uri
 flags
@@ -525,7 +511,7 @@ null
 null
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -597,17 +583,12 @@ contentTitle
 ;
 }
 }
-)
 ;
 var
 back
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -625,7 +606,7 @@ goBack
 (
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -637,17 +618,12 @@ index
 -
 ;
 }
-)
 ;
 var
 forward
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -665,7 +641,7 @@ goForward
 (
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -677,12 +653,11 @@ index
 +
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 test_navigation
 (
 )
@@ -728,7 +703,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 waitForLoad
 (
 "
@@ -788,7 +763,7 @@ info
 "
 )
 ;
-yield
+await
 waitForLoad
 (
 "
@@ -841,7 +816,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -853,7 +828,7 @@ info
 "
 )
 ;
-yield
+await
 waitForLoad
 (
 "
@@ -899,7 +874,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -911,7 +886,7 @@ info
 "
 )
 ;
-yield
+await
 waitForLoad
 (
 "
@@ -964,7 +939,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -976,7 +951,7 @@ info
 "
 )
 ;
-yield
+await
 back
 (
 )
@@ -1017,7 +992,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1029,7 +1004,7 @@ info
 "
 )
 ;
-yield
+await
 back
 (
 )
@@ -1070,7 +1045,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1082,7 +1057,7 @@ info
 "
 )
 ;
-yield
+await
 forward
 (
 )
@@ -1123,7 +1098,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1135,7 +1110,7 @@ info
 "
 )
 ;
-yield
+await
 forward
 (
 )
@@ -1176,7 +1151,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1188,7 +1163,7 @@ info
 "
 )
 ;
-yield
+await
 back
 (
 )
@@ -1229,7 +1204,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1257,7 +1232,7 @@ length
 1
 )
 ;
-yield
+await
 waitForLoad
 (
 "
@@ -1310,7 +1285,7 @@ same
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1337,8 +1312,8 @@ clear_history
 ;
 add_task
 (
+async
 function
-*
 test_synchronous
 (
 )
@@ -1384,7 +1359,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 waitForLoad
 (
 "
@@ -1454,7 +1429,7 @@ robots
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1505,7 +1480,7 @@ same
 "
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -1570,7 +1545,7 @@ org
 DUMMY_PATH
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -1628,7 +1603,7 @@ same
 "
 )
 ;
-yield
+await
 waitForDocLoadComplete
 (
 )
@@ -1691,8 +1666,8 @@ clear_history
 ;
 add_task
 (
+async
 function
-*
 test_loadflags
 (
 )
@@ -1729,7 +1704,7 @@ true
 }
 )
 ;
-yield
+await
 waitForLoadWithFlags
 (
 "
@@ -1756,7 +1731,7 @@ correct
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1768,7 +1743,7 @@ info
 "
 )
 ;
-yield
+await
 waitForLoadWithFlags
 (
 "
@@ -1807,7 +1782,7 @@ correct
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1819,7 +1794,7 @@ info
 "
 )
 ;
-yield
+await
 waitForLoadWithFlags
 (
 "
@@ -1846,7 +1821,7 @@ correct
 "
 )
 ;
-yield
+await
 check_history
 (
 )
@@ -1858,7 +1833,7 @@ info
 "
 )
 ;
-yield
+await
 waitForLoadWithFlags
 (
 "
@@ -1897,7 +1872,7 @@ correct
 "
 )
 ;
-yield
+await
 check_history
 (
 )

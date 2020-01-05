@@ -206,8 +206,8 @@ destroy
 }
 add_task
 (
+async
 function
-*
 test_windowless_UITour
 (
 )
@@ -483,7 +483,7 @@ true
 }
 )
 ;
-yield
+await
 deferredPing
 .
 promise

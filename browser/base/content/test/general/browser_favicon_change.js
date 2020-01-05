@@ -35,8 +35,8 @@ html
 "
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -205,10 +205,10 @@ true
 }
 )
 ;
-yield
+await
 tabLoaded
 ;
-yield
+await
 haveChanged
 .
 promise
@@ -275,7 +275,7 @@ ev
 }
 )
 ;
-yield
+await
 haveChanged
 .
 promise

@@ -1079,12 +1079,8 @@ iteration
 let
 frameCheck
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -1119,7 +1115,7 @@ iteration
 let
 result
 =
-yield
+await
 source
 (
 )
@@ -1532,7 +1528,6 @@ item
 ;
 }
 }
-)
 ;
 let
 interval
@@ -1565,8 +1560,8 @@ interval
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -1603,7 +1598,7 @@ state
 let
 stats0
 =
-yield
+await
 monitor
 .
 promiseSnapshot
@@ -1696,7 +1691,7 @@ tab
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1841,7 +1836,7 @@ while
 true
 )
 {
-yield
+await
 new
 Promise
 (
@@ -1863,7 +1858,7 @@ titles
 "
 )
 ;
-yield
+await
 promiseContentResponse
 (
 browser
@@ -1900,7 +1895,7 @@ stats
 }
 =
 (
-yield
+await
 promiseContentResponse
 (
 browser

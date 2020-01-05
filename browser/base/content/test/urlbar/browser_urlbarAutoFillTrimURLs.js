@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -30,8 +30,8 @@ autoFill
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -53,7 +53,7 @@ clearUserPref
 PREF_AUTOFILL
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -89,7 +89,7 @@ PREF_AUTOFILL
 true
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -149,8 +149,8 @@ TRANSITION_TYPED
 }
 )
 ;
+async
 function
-*
 promiseSearch
 (
 searchtext
@@ -196,14 +196,14 @@ substr
 }
 )
 ;
-yield
+await
 promiseSearchComplete
 (
 )
 ;
 }
+async
 function
-*
 promiseTestResult
 (
 test
@@ -224,7 +224,7 @@ search
 "
 )
 ;
-yield
+await
 promiseSearch
 (
 test
@@ -767,8 +767,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 autofill_tests
 (
 )
@@ -781,7 +781,7 @@ of
 tests
 )
 {
-yield
+await
 promiseTestResult
 (
 test
@@ -793,13 +793,13 @@ test
 ;
 add_task
 (
+async
 function
-*
 autofill_complete_domain
 (
 )
 {
-yield
+await
 promiseSearch
 (
 "

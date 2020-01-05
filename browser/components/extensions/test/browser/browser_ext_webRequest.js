@@ -347,8 +347,8 @@ connection
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -359,7 +359,7 @@ makeExtension
 (
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -371,8 +371,8 @@ startup
 ;
 add_task
 (
+async
 function
-*
 test_newWindow
 (
 )
@@ -420,7 +420,7 @@ ico
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -433,14 +433,14 @@ continue
 let
 openedWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -456,7 +456,7 @@ newWindow
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -466,7 +466,7 @@ done
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -479,8 +479,8 @@ openedWindow
 ;
 add_task
 (
+async
 function
-*
 test_newTab
 (
 )
@@ -528,7 +528,7 @@ ico
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -541,7 +541,7 @@ continue
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -557,7 +557,7 @@ newTab
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -567,7 +567,7 @@ done
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -580,8 +580,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_subframe
 (
 )
@@ -629,7 +629,7 @@ ico
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -642,7 +642,7 @@ continue
 let
 frameInfo
 =
-yield
+await
 createHiddenBrowser
 (
 dummy
@@ -653,7 +653,7 @@ subframe
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -684,13 +684,13 @@ destroy
 ;
 add_task
 (
+async
 function
-*
 teardown
 (
 )
 {
-yield
+await
 extension
 .
 unload

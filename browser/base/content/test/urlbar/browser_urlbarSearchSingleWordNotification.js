@@ -219,8 +219,8 @@ deferred
 promise
 ;
 }
+async
 function
-*
 runURLBarSearchTest
 (
 {
@@ -268,7 +268,7 @@ valueToOpen
 }
 else
 {
-yield
+await
 new
 Promise
 (
@@ -343,7 +343,7 @@ VK_RETURN
 aWindow
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -371,8 +371,8 @@ valueToOpen
 }
 add_task
 (
+async
 function
-*
 test_navigate_full_domain
 (
 )
@@ -395,7 +395,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -405,8 +405,7 @@ tab
 linkedBrowser
 )
 ;
-yield
-*
+await
 runURLBarSearchTest
 (
 {
@@ -440,8 +439,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_navigate_decimal_ip
 (
 )
@@ -464,7 +463,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -474,8 +473,7 @@ tab
 linkedBrowser
 )
 ;
-yield
-*
+await
 runURLBarSearchTest
 (
 {
@@ -505,8 +503,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_navigate_decimal_ip_with_path
 (
 )
@@ -529,7 +527,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -539,8 +537,7 @@ tab
 linkedBrowser
 )
 ;
-yield
-*
+await
 runURLBarSearchTest
 (
 {
@@ -572,8 +569,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_navigate_large_number
 (
 )
@@ -596,7 +593,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -606,8 +603,7 @@ tab
 linkedBrowser
 )
 ;
-yield
-*
+await
 runURLBarSearchTest
 (
 {
@@ -637,8 +633,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_navigate_small_hex_number
 (
 )
@@ -661,7 +657,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -671,8 +667,7 @@ tab
 linkedBrowser
 )
 ;
-yield
-*
+await
 runURLBarSearchTest
 (
 {
@@ -702,8 +697,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_navigate_large_hex_number
 (
 )
@@ -726,7 +721,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -736,8 +731,7 @@ tab
 linkedBrowser
 )
 ;
-yield
-*
+await
 runURLBarSearchTest
 (
 {
@@ -773,8 +767,8 @@ isPrivate
 )
 {
 return
+async
 function
-*
 test_navigate_single_host
 (
 )
@@ -820,7 +814,7 @@ true
 }
 )
 ;
-yield
+await
 promiseWin
 ;
 let
@@ -840,7 +834,7 @@ resolve
 win
 )
 ;
-yield
+await
 deferredOpenFocus
 .
 promise
@@ -863,7 +857,7 @@ gBrowser
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -881,8 +875,7 @@ pref
 false
 )
 ;
-yield
-*
+await
 runURLBarSearchTest
 (
 {
@@ -997,7 +990,7 @@ state
 "
 )
 ;
-yield
+await
 docLoadPromise
 ;
 browser
@@ -1024,7 +1017,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1034,8 +1027,7 @@ tab
 linkedBrowser
 )
 ;
-yield
-*
+await
 runURLBarSearchTest
 (
 {
@@ -1078,7 +1070,7 @@ close
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1112,7 +1104,7 @@ resolve
 window
 )
 ;
-yield
+await
 deferredFocus
 .
 promise
@@ -1154,8 +1146,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_navigate_invalid_url
 (
 )
@@ -1178,7 +1170,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1188,8 +1180,7 @@ tab
 linkedBrowser
 )
 ;
-yield
-*
+await
 runURLBarSearchTest
 (
 {

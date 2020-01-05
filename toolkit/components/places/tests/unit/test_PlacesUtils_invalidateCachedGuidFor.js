@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -18,7 +18,7 @@ bookmark
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -51,7 +51,7 @@ unfiledGuid
 let
 id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -66,7 +66,7 @@ Assert
 equal
 (
 (
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -103,7 +103,7 @@ GUID
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 withConnectionWrapper
@@ -111,17 +111,13 @@ withConnectionWrapper
 "
 test
 "
-Task
-.
 async
-(
 function
-*
 (
 db
 )
 {
-yield
+await
 db
 .
 execute
@@ -152,14 +148,13 @@ id
 ;
 }
 )
-)
 ;
 Assert
 .
 equal
 (
 (
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -194,7 +189,7 @@ Assert
 equal
 (
 (
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -212,7 +207,7 @@ Assert
 equal
 (
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -225,7 +220,7 @@ promiseItemId
 id
 )
 ;
-yield
+await
 Assert
 .
 rejects

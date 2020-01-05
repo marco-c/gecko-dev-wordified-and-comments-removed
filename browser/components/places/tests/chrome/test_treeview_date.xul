@@ -618,16 +618,13 @@ spec
 )
 ;
 }
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -691,7 +688,7 @@ visit
 after
 midnight
 .
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -827,7 +824,7 @@ visit
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1394,7 +1391,7 @@ break
 /
 Cleanup
 .
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1406,7 +1403,7 @@ bm
 guid
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -1414,6 +1411,8 @@ clearHistory
 )
 ;
 }
+)
+(
 )
 .
 then

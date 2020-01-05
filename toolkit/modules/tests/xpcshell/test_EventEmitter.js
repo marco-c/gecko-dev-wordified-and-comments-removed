@@ -40,8 +40,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_extractFiles
 (
 )
@@ -72,7 +72,7 @@ testEmitter
 decorated
 )
 ;
-yield
+await
 testPromise
 (
 )
@@ -549,7 +549,6 @@ called
 }
 }
 function
-*
 testPromise
 (
 )

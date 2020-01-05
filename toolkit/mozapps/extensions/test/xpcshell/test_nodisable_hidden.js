@@ -88,8 +88,8 @@ XPCShell
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -165,7 +165,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 NORMAL_ID
@@ -350,8 +350,8 @@ shutdownManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -426,7 +426,7 @@ startupManager
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 SYSTEM_ID

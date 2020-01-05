@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 boookmarks_tree_cache
 (
 )
@@ -41,7 +41,7 @@ title
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 promiseBookmarksTree
@@ -57,7 +57,7 @@ removeItem
 id
 )
 ;
-yield
+await
 Assert
 .
 rejects

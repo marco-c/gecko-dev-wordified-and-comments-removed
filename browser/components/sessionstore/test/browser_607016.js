@@ -14,8 +14,8 @@ getBrowserState
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -261,8 +261,8 @@ selected
 ]
 }
 ;
+async
 function
-*
 progressCallback
 (
 )
@@ -763,7 +763,7 @@ length
 1
 )
 {
-yield
+await
 promiseRemoveTab
 (
 gBrowser
@@ -788,7 +788,7 @@ state
 )
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -827,7 +827,7 @@ tab
 )
 )
 ;
-yield
+await
 progressCallback
 (
 )
@@ -862,7 +862,7 @@ restore_tabs_lazily
 "
 )
 ;
-yield
+await
 promiseBrowserState
 (
 stateBackup

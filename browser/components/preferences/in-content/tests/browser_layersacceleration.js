@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -40,7 +40,7 @@ false
 let
 prefs
 =
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -245,7 +245,7 @@ true
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 removeTab

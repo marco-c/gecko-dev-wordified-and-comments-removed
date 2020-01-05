@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -21,7 +21,7 @@ mozilla
 "
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -88,7 +88,7 @@ VK_RIGHT
 }
 )
 ;
-yield
+await
 promisePopupHidden
 (
 gURLBar

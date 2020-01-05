@@ -304,8 +304,8 @@ Trace
 ;
 add_task
 (
+async
 function
-*
 test_provider_basic
 (
 )
@@ -374,7 +374,7 @@ addons
 let
 experimentAddons
 =
-yield
+await
 deferred
 .
 promise
@@ -485,7 +485,7 @@ updatechannel
 ]
 }
 ;
-yield
+await
 e
 .
 updateManifest
@@ -527,7 +527,7 @@ addons
 ;
 experimentAddons
 =
-yield
+await
 deferred
 .
 promise
@@ -552,7 +552,7 @@ experiment
 let
 experiments
 =
-yield
+await
 e
 .
 getExperiments
@@ -616,7 +616,7 @@ endTime
 )
 )
 ;
-yield
+await
 e
 .
 updateManifest
@@ -625,7 +625,7 @@ updateManifest
 ;
 experiments
 =
-yield
+await
 e
 .
 getExperiments
@@ -704,7 +704,7 @@ addons
 ;
 experimentAddons
 =
-yield
+await
 deferred
 .
 promise
@@ -779,7 +779,7 @@ addon
 let
 addon
 =
-yield
+await
 deferred
 .
 promise
@@ -949,7 +949,7 @@ addons
 ;
 experimentAddons
 =
-yield
+await
 deferred
 .
 promise
@@ -1022,8 +1022,8 @@ on
 ;
 add_task
 (
+async
 function
-*
 test_active_and_previous
 (
 )
@@ -1134,7 +1134,7 @@ Date
 )
 )
 ;
-yield
+await
 e
 .
 updateManifest
@@ -1144,7 +1144,7 @@ updateManifest
 let
 experiments
 =
-yield
+await
 e
 .
 getExperiments
@@ -1204,7 +1204,7 @@ addons
 let
 experimentAddons
 =
-yield
+await
 deferred
 .
 promise
@@ -1260,7 +1260,7 @@ addons
 ;
 experimentAddons
 =
-yield
+await
 deferred
 .
 promise

@@ -39,13 +39,13 @@ html
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -85,8 +85,8 @@ open_newwindow
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -153,7 +153,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -212,7 +212,7 @@ _blank
 let
 newWin
 =
-yield
+await
 BrowserTestUtils
 .
 waitForNewWindow
@@ -228,7 +228,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -274,7 +274,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -282,7 +282,7 @@ closeWindow
 newWin
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

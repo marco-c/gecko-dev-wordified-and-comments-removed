@@ -26,12 +26,12 @@ ADDITIONAL_WAIT_MS
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -147,10 +147,10 @@ newtab
 "
 )
 ;
-yield
+await
 browserLoadedPromise
 ;
-yield
+await
 new
 Promise
 (

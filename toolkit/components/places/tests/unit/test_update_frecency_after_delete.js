@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 removed_bookmark
 (
 )
@@ -59,7 +59,7 @@ com
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -86,7 +86,7 @@ TEST_URI
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -119,7 +119,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -129,7 +129,7 @@ remove
 bm
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -162,7 +162,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -171,7 +171,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -183,8 +183,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 removed_but_visited_bookmark
 (
 )
@@ -239,7 +239,7 @@ com
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -266,7 +266,7 @@ TEST_URI
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -299,7 +299,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -307,7 +307,7 @@ addVisits
 TEST_URI
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -317,7 +317,7 @@ remove
 bm
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -353,7 +353,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -362,7 +362,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -374,8 +374,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 remove_bookmark_still_bookmarked
 (
 )
@@ -431,7 +431,7 @@ com
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -459,7 +459,7 @@ TEST_URI
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -487,7 +487,7 @@ TEST_URI
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -520,7 +520,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -530,7 +530,7 @@ remove
 bm1
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -562,7 +562,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -571,7 +571,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -583,8 +583,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 cleared_parent_of_visited_bookmark
 (
 )
@@ -642,7 +642,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -669,7 +669,7 @@ TEST_URI
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -702,7 +702,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -721,7 +721,7 @@ PlacesUtils
 unfiledBookmarksFolderId
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -757,7 +757,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -766,7 +766,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -778,8 +778,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 cleared_parent_of_bookmark_still_bookmarked
 (
 )
@@ -841,7 +841,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -872,7 +872,7 @@ TEST_URI
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -904,7 +904,7 @@ folder
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -930,7 +930,7 @@ TEST_URI
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -963,7 +963,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -973,7 +973,7 @@ remove
 folder
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -989,7 +989,7 @@ TEST_URI
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -998,7 +998,7 @@ eraseEverything
 (
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

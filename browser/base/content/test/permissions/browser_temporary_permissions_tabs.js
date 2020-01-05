@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testTempPermissionOnTabMove
 (
 )
@@ -39,7 +39,7 @@ geo
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -114,7 +114,7 @@ tab
 let
 win
 =
-yield
+await
 promiseWin
 ;
 tab
@@ -164,7 +164,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -177,8 +177,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 testTempPermissionMultipleTabs
 (
 )
@@ -211,7 +211,7 @@ geo
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -225,7 +225,7 @@ spec
 let
 tab2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -354,7 +354,7 @@ visible
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -394,7 +394,7 @@ tab2
 linkedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -402,7 +402,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

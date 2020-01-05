@@ -215,8 +215,8 @@ nsIIdleService
 ;
 add_task
 (
+async
 function
-*
 testWithRealIdleService
 (
 )
@@ -451,7 +451,7 @@ idle
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -509,7 +509,7 @@ addListener
 detectionInterval
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -533,7 +533,7 @@ idleTime
 }
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -561,7 +561,7 @@ checkState
 detectionInterval
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -571,7 +571,7 @@ idle
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -224,8 +224,8 @@ area
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )
@@ -268,7 +268,7 @@ ex
 )
 {
 }
-yield
+await
 resetCustomization
 (
 )

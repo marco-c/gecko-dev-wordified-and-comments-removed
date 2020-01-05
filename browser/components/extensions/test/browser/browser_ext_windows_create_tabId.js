@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testWindowCreate
 (
 )
@@ -1160,14 +1160,14 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1179,7 +1179,7 @@ create
 "
 )
 ;
-yield
+await
 extension
 .
 unload

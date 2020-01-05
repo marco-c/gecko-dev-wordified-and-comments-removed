@@ -124,8 +124,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -140,19 +140,19 @@ file_mixedContentFromOnunload
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
 (
 url
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -197,7 +197,7 @@ file_mixedContentFromOnunload_test1
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -206,7 +206,7 @@ browser
 url
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -248,7 +248,7 @@ file_mixedContentFromOnunload
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -257,7 +257,7 @@ browser
 url
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -275,7 +275,7 @@ file_mixedContentFromOnunload_test2
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -284,7 +284,7 @@ browser
 url
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

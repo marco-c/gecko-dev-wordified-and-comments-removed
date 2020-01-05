@@ -22,8 +22,8 @@ locked
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -156,7 +156,7 @@ NS_ERROR_XPC_GS_RETURNED_FAILURE
 /
 )
 ;
-yield
+await
 promiseLocked
 ;
 dbConn
@@ -238,7 +238,7 @@ Ci
 nsINavHistoryService
 )
 ;
-yield
+await
 promiseComplete
 ;
 }

@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -243,7 +243,7 @@ gBrowser
 TEST_URL
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -254,7 +254,7 @@ newTabPromise
 ]
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

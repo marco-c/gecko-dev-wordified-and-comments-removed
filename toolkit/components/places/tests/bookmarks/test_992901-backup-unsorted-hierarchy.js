@@ -10,8 +10,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -126,7 +126,7 @@ bookmarks
 DEFAULT_INDEX
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -142,13 +142,13 @@ removeItem
 f1
 )
 ;
-yield
+await
 BookmarkJSONUtils
 .
 importFromFile
 (
 (
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup

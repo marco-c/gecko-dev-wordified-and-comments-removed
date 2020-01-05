@@ -172,8 +172,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_contentscript_cache
 (
 )
@@ -325,7 +325,7 @@ loaded
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -335,7 +335,7 @@ startup
 let
 origin
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -442,7 +442,7 @@ com
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -687,7 +687,7 @@ timeout
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -723,7 +723,7 @@ if
 chromeScript
 )
 {
-yield
+await
 chromeScriptDone
 ;
 chromeScript
@@ -757,7 +757,7 @@ com
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -848,7 +848,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

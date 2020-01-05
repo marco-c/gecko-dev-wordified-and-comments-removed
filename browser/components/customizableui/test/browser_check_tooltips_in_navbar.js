@@ -5,13 +5,13 @@ strict
 ;
 add_task
 (
+async
 function
-*
 check_tooltips_in_navbar
 (
 )
 {
-yield
+await
 startCustomizing
 (
 )
@@ -100,7 +100,7 @@ text
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )

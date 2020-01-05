@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_ignoreFragment
 (
 )
@@ -9,7 +9,7 @@ test_ignoreFragment
 let
 tabRefAboutHome
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -24,7 +24,7 @@ home
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -79,12 +79,12 @@ tabRefAboutHome
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -138,7 +138,7 @@ to
 "
 )
 ;
-yield
+await
 hashChangePromise
 ;
 is
@@ -329,7 +329,7 @@ whenComparingAndReplace
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -409,8 +409,8 @@ cleanupTestTabs
 ;
 add_task
 (
+async
 function
-*
 test_ignoreQueryString
 (
 )
@@ -418,7 +418,7 @@ test_ignoreQueryString
 let
 tabRefAboutHome
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -435,7 +435,7 @@ firefox
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -561,8 +561,8 @@ cleanupTestTabs
 ;
 add_task
 (
+async
 function
-*
 test_replaceQueryString
 (
 )
@@ -570,7 +570,7 @@ test_replaceQueryString
 let
 tabRefAboutHome
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -587,7 +587,7 @@ firefox
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -683,7 +683,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -731,8 +731,8 @@ cleanupTestTabs
 ;
 add_task
 (
+async
 function
-*
 test_replaceQueryStringAndFragment
 (
 )
@@ -740,7 +740,7 @@ test_replaceQueryStringAndFragment
 let
 tabRefAboutHome
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -762,7 +762,7 @@ aaa
 let
 tabRefAboutMozilla
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -934,8 +934,8 @@ cleanupTestTabs
 ;
 add_task
 (
+async
 function
-*
 test_ignoreQueryStringIgnoresFragment
 (
 )
@@ -943,7 +943,7 @@ test_ignoreQueryStringIgnoresFragment
 let
 tabRefAboutHome
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -962,7 +962,7 @@ aaa
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab

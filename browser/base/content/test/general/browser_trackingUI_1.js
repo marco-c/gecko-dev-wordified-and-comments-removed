@@ -1108,8 +1108,8 @@ hidden
 )
 ;
 }
+async
 function
-*
 testTrackingProtectionForTab
 (
 tab
@@ -1129,7 +1129,7 @@ elements
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -1153,7 +1153,7 @@ elements
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -1204,7 +1204,7 @@ unblock
 "
 )
 ;
-yield
+await
 tabReloadPromise
 ;
 testTrackingPageUnblocked
@@ -1249,7 +1249,7 @@ block
 "
 )
 ;
-yield
+await
 tabReloadPromise
 ;
 testTrackingPage
@@ -1262,13 +1262,13 @@ ownerGlobal
 }
 add_task
 (
+async
 function
-*
 testNormalBrowsing
 (
 )
 {
-yield
+await
 UrlClassifierTestUtils
 .
 addTestTrackers
@@ -1367,7 +1367,7 @@ pref
 "
 )
 ;
-yield
+await
 testTrackingProtectionForTab
 (
 tab
@@ -1405,8 +1405,8 @@ pref
 ;
 add_task
 (
+async
 function
-*
 testPrivateBrowsing
 (
 )
@@ -1414,7 +1414,7 @@ testPrivateBrowsing
 let
 privateWin
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 {
@@ -1519,7 +1519,7 @@ pref
 "
 )
 ;
-yield
+await
 testTrackingProtectionForTab
 (
 tab

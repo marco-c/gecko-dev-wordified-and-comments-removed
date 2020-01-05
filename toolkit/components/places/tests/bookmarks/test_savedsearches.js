@@ -569,8 +569,8 @@ run_next_test
 ;
 add_task
 (
+async
 function
-*
 test_savedsearches_history
 (
 )
@@ -595,7 +595,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -839,7 +839,7 @@ testURI
 spec
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -877,7 +877,7 @@ childCount
 2
 )
 ;
-yield
+await
 PlacesUtils
 .
 history

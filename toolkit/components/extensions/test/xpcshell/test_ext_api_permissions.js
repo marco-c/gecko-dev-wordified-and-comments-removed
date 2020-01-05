@@ -88,8 +88,8 @@ context
 }
 add_task
 (
+async
 function
-*
 test_storage_api_without_permissions
 (
 )
@@ -150,7 +150,7 @@ getNextContext
 (
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -160,7 +160,7 @@ startup
 let
 context
 =
-yield
+await
 contextPromise
 ;
 void
@@ -191,7 +191,7 @@ initialized
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -203,8 +203,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_storage_api_with_permissions
 (
 )
@@ -259,7 +259,7 @@ getNextContext
 (
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -269,7 +269,7 @@ startup
 let
 context
 =
-yield
+await
 contextPromise
 ;
 void
@@ -298,7 +298,7 @@ initialized
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -2279,12 +2279,8 @@ since
 const
 assertPostedEncryptedKeys
 =
-Task
-.
 async
-(
 function
-*
 (
 fxaService
 post
@@ -2315,7 +2311,7 @@ keys
 let
 body
 =
-yield
+await
 new
 KeyRingEncryptionRemoteTransformer
 (
@@ -2381,7 +2377,6 @@ return
 body
 ;
 }
-)
 ;
 function
 assertKeyRingKey
@@ -2462,12 +2457,8 @@ message
 const
 assertExtensionRecord
 =
-Task
-.
 async
-(
 function
-*
 (
 fxaService
 post
@@ -2500,7 +2491,7 @@ id
 "
 +
 (
-yield
+await
 cryptoCollection
 .
 hashWithExtensionSalt
@@ -2516,7 +2507,7 @@ extensionId
 const
 collectionId
 =
-yield
+await
 cryptoCollection
 .
 extensionIdToCollectionId
@@ -2567,7 +2558,7 @@ key
 let
 decoded
 =
-yield
+await
 transformer
 .
 decode
@@ -2606,7 +2597,6 @@ return
 decoded
 ;
 }
-)
 ;
 const
 defaultExtensionId
@@ -2722,8 +2712,8 @@ toString
 }
 add_task
 (
+async
 function
-*
 test_key_to_id
 (
 )
@@ -3017,8 +3007,8 @@ _2D_
 ;
 add_task
 (
+async
 function
-*
 test_extension_id_to_collection_id
 (
 )
@@ -3040,8 +3030,7 @@ extensionId
 }
 "
 ;
-yield
-*
+await
 withSignedInUser
 (
 loggedInUser
@@ -3108,8 +3097,8 @@ QOjtvo
 ;
 add_task
 (
+async
 function
-*
 ensureCanSync_posts_new_keys
 (
 )
@@ -3121,8 +3110,7 @@ uuid
 (
 )
 ;
-yield
-*
+await
 withContextAndServer
 (
 function
@@ -3558,8 +3546,8 @@ post
 ;
 add_task
 (
+async
 function
-*
 ensureCanSync_pulls_key
 (
 )
@@ -3626,8 +3614,7 @@ generateRandom
 (
 )
 ;
-yield
-*
+await
 withContextAndServer
 (
 function
@@ -4250,8 +4237,8 @@ key
 ;
 add_task
 (
+async
 function
-*
 ensureCanSync_handles_conflicts
 (
 )
@@ -4297,8 +4284,7 @@ generateRandom
 (
 )
 ;
-yield
-*
+await
 withContextAndServer
 (
 function
@@ -4544,8 +4530,8 @@ extensionId
 ;
 add_task
 (
+async
 function
-*
 ensureCanSync_handles_deleted_conflicts
 (
 )
@@ -4564,8 +4550,7 @@ uuid
 (
 )
 ;
-yield
-*
+await
 withContextAndServer
 (
 function
@@ -4874,8 +4859,8 @@ extensionId
 ;
 add_task
 (
+async
 function
-*
 checkSyncKeyRing_reuploads_keys
 (
 )
@@ -4891,8 +4876,7 @@ let
 extensionKey
 extensionSalt
 ;
-yield
-*
+await
 withContextAndServer
 (
 function
@@ -5311,8 +5295,8 @@ mismatch
 ;
 add_task
 (
+async
 function
-*
 checkSyncKeyRing_overwrites_on_conflict
 (
 )
@@ -5327,8 +5311,7 @@ uuid
 let
 extensionKey
 ;
-yield
-*
+await
 withSyncContext
 (
 function
@@ -5801,8 +5784,8 @@ reuploaded
 ;
 add_task
 (
+async
 function
-*
 checkSyncKeyRing_flushes_on_uuid_change
 (
 )
@@ -5823,8 +5806,7 @@ id
 extensionId
 }
 ;
-yield
-*
+await
 withSyncContext
 (
 function
@@ -6479,8 +6461,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_storage_sync_pulls_changes
 (
 )
@@ -6495,8 +6477,7 @@ extension
 =
 defaultExtension
 ;
-yield
-*
+await
 withContextAndServer
 (
 function
@@ -6928,8 +6909,8 @@ newValue
 ;
 add_task
 (
+async
 function
-*
 test_storage_sync_pushes_changes
 (
 )
@@ -6944,8 +6925,7 @@ extensionId
 =
 defaultExtensionId
 ;
-yield
-*
+await
 withContextAndServer
 (
 function
@@ -7532,8 +7512,8 @@ ID
 ;
 add_task
 (
+async
 function
-*
 test_storage_sync_pulls_conflicts
 (
 )
@@ -7554,8 +7534,7 @@ id
 extensionId
 }
 ;
-yield
-*
+await
 withContextAndServer
 (
 function
@@ -8000,8 +7979,8 @@ newValue
 ;
 add_task
 (
+async
 function
-*
 test_storage_sync_pulls_deletes
 (
 )
@@ -8011,8 +7990,7 @@ extension
 =
 defaultExtension
 ;
-yield
-*
+await
 withContextAndServer
 (
 function
@@ -8341,8 +8319,8 @@ listener
 ;
 add_task
 (
+async
 function
-*
 test_storage_sync_pushes_deletes
 (
 )
@@ -8363,8 +8341,7 @@ id
 extensionId
 }
 ;
-yield
-*
+await
 withContextAndServer
 (
 function

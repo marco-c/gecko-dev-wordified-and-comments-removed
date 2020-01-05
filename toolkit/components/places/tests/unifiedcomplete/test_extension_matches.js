@@ -44,8 +44,8 @@ nsIAutoCompleteController
 ;
 add_task
 (
+async
 function
-*
 test_correct_errors_are_thrown
 (
 )
@@ -794,7 +794,7 @@ test
 )
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -804,8 +804,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_correct_events_are_emitted
 (
 )
@@ -1108,8 +1108,8 @@ keyword
 ;
 add_task
 (
+async
 function
-*
 test_removes_suggestion_if_its_content_is_typed_in
 (
 )
@@ -1221,7 +1221,7 @@ keyword
 mockExtension
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1317,7 +1317,7 @@ suggestion
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1395,7 +1395,7 @@ suggestion
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1473,7 +1473,7 @@ suggestion
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1558,7 +1558,7 @@ unregisterKeyword
 keyword
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1568,8 +1568,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_extension_results_should_come_first
 (
 )
@@ -1607,7 +1607,7 @@ com
 b
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1733,7 +1733,7 @@ keyword
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1845,7 +1845,7 @@ unregisterKeyword
 keyword
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -1855,8 +1855,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_setting_the_default_suggestion
 (
 )
@@ -1953,7 +1953,7 @@ keyword
 search
 query
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2007,7 +2007,7 @@ bar
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2053,7 +2053,7 @@ unregisterKeyword
 keyword
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -2063,8 +2063,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_maximum_number_of_suggestions_is_enforced
 (
 )
@@ -2283,7 +2283,7 @@ keyword
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -2422,7 +2422,7 @@ unregisterKeyword
 keyword
 )
 ;
-yield
+await
 cleanup
 (
 )

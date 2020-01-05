@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 invalid_input_throws
 (
 )
@@ -184,13 +184,13 @@ string
 ;
 add_task
 (
+async
 function
-*
 search_bookmark
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -202,7 +202,7 @@ eraseEverything
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -241,7 +241,7 @@ bookmark
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -280,7 +280,7 @@ bookmark
 let
 bm3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -322,7 +322,7 @@ bookmark
 let
 bm4
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -384,7 +384,7 @@ bm4
 let
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -429,7 +429,7 @@ results
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -469,7 +469,7 @@ results
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -516,7 +516,7 @@ results
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -561,7 +561,7 @@ results
 ]
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -575,8 +575,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 search_bookmark_by_query_object
 (
 )
@@ -584,7 +584,7 @@ search_bookmark_by_query_object
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -623,7 +623,7 @@ bookmark
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -672,7 +672,7 @@ bm2
 let
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -721,7 +721,7 @@ results
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -763,7 +763,7 @@ results
 ]
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -777,8 +777,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 search_bookmark_by_url
 (
 )
@@ -786,7 +786,7 @@ search_bookmark_by_url
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -825,7 +825,7 @@ bookmark
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -865,7 +865,7 @@ bookmark
 let
 bm3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -920,7 +920,7 @@ bm3
 let
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -974,7 +974,7 @@ results
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1026,7 +1026,7 @@ results
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1062,7 +1062,7 @@ length
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1095,7 +1095,7 @@ length
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1109,8 +1109,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 search_bookmark_by_title
 (
 )
@@ -1118,7 +1118,7 @@ search_bookmark_by_title
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1157,7 +1157,7 @@ bookmark
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1197,7 +1197,7 @@ bookmark
 let
 bm3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1251,7 +1251,7 @@ bm3
 let
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1299,7 +1299,7 @@ results
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1328,7 +1328,7 @@ length
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1354,7 +1354,7 @@ length
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1368,8 +1368,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 search_bookmark_combinations
 (
 )
@@ -1377,7 +1377,7 @@ search_bookmark_combinations
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1416,7 +1416,7 @@ bookmark
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1456,7 +1456,7 @@ bookmark
 let
 bm3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1510,7 +1510,7 @@ bm3
 let
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1570,7 +1570,7 @@ results
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1616,7 +1616,7 @@ length
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1656,7 +1656,7 @@ length
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1715,7 +1715,7 @@ results
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1753,7 +1753,7 @@ length
 0
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1767,8 +1767,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 search_folder
 (
 )
@@ -1776,7 +1776,7 @@ search_folder
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1811,7 +1811,7 @@ folder
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1858,7 +1858,7 @@ bm
 let
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1937,7 +1937,7 @@ parentGuid
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1995,7 +1995,7 @@ results
 parentGuid
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2009,8 +2009,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 search_excludes_separators
 (
 )
@@ -2018,7 +2018,7 @@ search_excludes_separators
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2057,7 +2057,7 @@ bookmark
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2095,7 +2095,7 @@ bm2
 let
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2181,7 +2181,7 @@ results
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2195,8 +2195,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 search_excludes_tags
 (
 )
@@ -2204,7 +2204,7 @@ search_excludes_tags
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2270,7 +2270,7 @@ Tag
 let
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2324,7 +2324,7 @@ returned
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2356,7 +2356,7 @@ returned
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks

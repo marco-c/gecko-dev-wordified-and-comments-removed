@@ -186,8 +186,8 @@ click
 }
 add_task
 (
+async
 function
-*
 setup_test_preference
 (
 )
@@ -207,7 +207,7 @@ in
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -253,8 +253,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 block_plug_in
 (
 )
@@ -273,7 +273,7 @@ tab
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -297,7 +297,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -319,7 +319,7 @@ audible
 "
 )
 ;
-yield
+await
 waitForTabPlayingEvent
 (
 tab
@@ -355,7 +355,7 @@ default
 "
 )
 ;
-yield
+await
 click_icon
 (
 tab
@@ -387,7 +387,7 @@ plugin
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -409,7 +409,7 @@ plugin
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -447,7 +447,7 @@ now
 "
 )
 ;
-yield
+await
 click_icon
 (
 tab
@@ -482,7 +482,7 @@ audible
 "
 )
 ;
-yield
+await
 waitForTabPlayingEvent
 (
 tab
@@ -499,7 +499,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

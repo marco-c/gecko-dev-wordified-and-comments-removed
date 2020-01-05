@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -40,7 +40,7 @@ pinTab
 tab1
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 tab1
@@ -88,7 +88,7 @@ position
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab1
@@ -145,7 +145,7 @@ position
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -153,7 +153,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

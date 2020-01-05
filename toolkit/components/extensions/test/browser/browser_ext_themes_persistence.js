@@ -5,13 +5,13 @@ strict
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -41,8 +41,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_multiple_windows
 (
 )
@@ -110,7 +110,7 @@ BACKGROUND
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -209,7 +209,7 @@ image
 let
 window2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -303,7 +303,7 @@ image
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -311,7 +311,7 @@ closeWindow
 window2
 )
 ;
-yield
+await
 extension
 .
 unload

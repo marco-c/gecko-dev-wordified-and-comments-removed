@@ -326,12 +326,8 @@ name
 var
 createCorruptDB
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -358,7 +354,7 @@ sqlite
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -371,7 +367,7 @@ dbPath
 let
 dir
 =
-yield
+await
 OS
 .
 File
@@ -397,7 +393,7 @@ sqlite
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -413,7 +409,7 @@ Assert
 ok
 (
 (
-yield
+await
 OS
 .
 File
@@ -433,7 +429,6 @@ now
 )
 ;
 }
-)
 ;
 function
 rebuildSmartBookmarks
@@ -631,12 +626,8 @@ NUMBER_OF_TRIES
 var
 waitForResolvedPromise
 =
-Task
-.
 async
-(
 function
-*
 (
 promiseFn
 timeoutMsg
@@ -657,7 +648,7 @@ try
 let
 value
 =
-yield
+await
 promiseFn
 (
 )
@@ -672,7 +663,7 @@ ex
 )
 {
 }
-yield
+await
 new
 Promise
 (
@@ -705,5 +696,4 @@ timeoutMsg
 )
 ;
 }
-)
 ;

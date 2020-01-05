@@ -346,8 +346,8 @@ FILE2
 ;
 add_task
 (
+async
 function
-*
 test_form_data_restoration
 (
 )
@@ -369,7 +369,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseBrowserLoaded
 (
 browser
@@ -388,7 +388,7 @@ FIELDS
 )
 )
 {
-yield
+await
 setFormValue
 (
 browser
@@ -413,7 +413,7 @@ tab2
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab2
@@ -452,7 +452,7 @@ JSON
 .
 stringify
 (
-yield
+await
 getFormValue
 (
 browser2
@@ -484,13 +484,13 @@ restored
 )
 ;
 }
-yield
+await
 promiseRemoveTab
 (
 tab2
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 tab
@@ -512,7 +512,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 promiseTabRestored
 (
 tab
@@ -547,7 +547,7 @@ expected
 let
 actual
 =
-yield
+await
 getFormValue
 (
 browser
@@ -580,7 +580,7 @@ discarded
 ;
 }
 }
-yield
+await
 promiseRemoveTab
 (
 tab

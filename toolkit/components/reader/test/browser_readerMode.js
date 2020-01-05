@@ -66,8 +66,8 @@ button
 ;
 add_task
 (
+async
 function
-*
 test_reader_button
 (
 )
@@ -220,14 +220,14 @@ readerModeArticle
 html
 "
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
 url
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -272,7 +272,7 @@ click
 (
 )
 ;
-yield
+await
 promiseTabLoad
 ;
 let
@@ -372,7 +372,7 @@ URL
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -449,7 +449,7 @@ click
 (
 )
 ;
-yield
+await
 promisePageShow
 ;
 is
@@ -521,14 +521,14 @@ addTab
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 newTab
 nonReadableUrl
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -567,7 +567,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -625,7 +625,7 @@ AboutReaderContentError
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 newTab
@@ -641,10 +641,10 @@ url
 nonReadableUrl
 )
 ;
-yield
+await
 promiseAboutReaderError
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -697,7 +697,7 @@ click
 (
 )
 ;
-yield
+await
 promisePageShow
 ;
 is
@@ -730,7 +730,7 @@ button
 "
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -768,8 +768,8 @@ page
 ;
 add_task
 (
+async
 function
-*
 test_getOriginalUrl
 (
 )
@@ -986,8 +986,8 @@ URL
 ;
 add_task
 (
+async
 function
-*
 test_reader_view_element_attribute_transform
 (
 )
@@ -1138,7 +1138,7 @@ ReaderView
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1190,7 +1190,7 @@ pageshow
 "
 )
 ;
-yield
+await
 observeAttribute
 (
 command
@@ -1255,7 +1255,7 @@ page
 }
 )
 ;
-yield
+await
 waitForPageshow
 ;
 info
@@ -1286,7 +1286,7 @@ pageshow
 "
 )
 ;
-yield
+await
 observeAttribute
 (
 command
@@ -1353,7 +1353,7 @@ page
 }
 )
 ;
-yield
+await
 waitForPageshow
 ;
 info
@@ -1382,7 +1382,7 @@ pageshow
 "
 )
 ;
-yield
+await
 observeAttribute
 (
 command
@@ -1447,7 +1447,7 @@ page
 }
 )
 ;
-yield
+await
 waitForPageshow
 ;
 info
@@ -1473,7 +1473,7 @@ pageshow
 "
 )
 ;
-yield
+await
 observeAttribute
 (
 readerButton
@@ -1529,7 +1529,7 @@ mode
 }
 )
 ;
-yield
+await
 waitForPageshow
 ;
 info
@@ -1555,7 +1555,7 @@ pageshow
 "
 )
 ;
-yield
+await
 observeAttribute
 (
 readerButton
@@ -1611,7 +1611,7 @@ exited
 }
 )
 ;
-yield
+await
 waitForPageshow
 ;
 info
@@ -1642,7 +1642,7 @@ pageshow
 "
 )
 ;
-yield
+await
 observeAttribute
 (
 command
@@ -1709,7 +1709,7 @@ page
 }
 )
 ;
-yield
+await
 waitForPageshow
 ;
 }

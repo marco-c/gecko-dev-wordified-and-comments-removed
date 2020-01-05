@@ -56,8 +56,8 @@ jsm
 "
 )
 ;
+async
 function
-*
 runReloadTestCase
 (
 {
@@ -113,7 +113,7 @@ urlParams
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -231,7 +231,7 @@ devtoolsPage
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -250,7 +250,7 @@ forTab
 tab
 )
 ;
-yield
+await
 gDevTools
 .
 showToolbox
@@ -270,7 +270,7 @@ opened
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -291,13 +291,13 @@ ready
 "
 )
 ;
-yield
+await
 testCase
 (
 extension
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -305,14 +305,14 @@ closeToolbox
 target
 )
 ;
-yield
+await
 target
 .
 destroy
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -320,7 +320,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -330,8 +330,8 @@ unload
 }
 add_task
 (
+async
 function
-*
 test_devtools_inspectedWindow_reload_ignore_cache
 (
 )
@@ -749,7 +749,7 @@ ready
 )
 ;
 }
-yield
+await
 runReloadTestCase
 (
 {
@@ -820,8 +820,8 @@ done
 ;
 add_task
 (
+async
 function
-*
 test_devtools_inspectedWindow_reload_custom_user_agent
 (
 )
@@ -1239,7 +1239,7 @@ ready
 )
 ;
 }
-yield
+await
 runReloadTestCase
 (
 {
@@ -1323,8 +1323,8 @@ done
 ;
 add_task
 (
+async
 function
-*
 test_devtools_inspectedWindow_reload_injected_script
 (
 )
@@ -1912,7 +1912,7 @@ ready
 )
 ;
 }
-yield
+await
 runReloadTestCase
 (
 {

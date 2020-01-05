@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 startCustomizing
 (
 )
@@ -83,7 +83,7 @@ aftercustomization
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -92,7 +92,7 @@ gBrowser
 nonCustomizingTab
 )
 ;
-yield
+await
 finishedCustomizing
 ;
 let
@@ -120,7 +120,7 @@ customizationstarting
 handler
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -136,7 +136,7 @@ button
 "
 )
 ;
-yield
+await
 gCustomizeMode
 .
 reset
@@ -210,7 +210,7 @@ before
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )

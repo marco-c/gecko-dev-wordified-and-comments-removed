@@ -351,8 +351,8 @@ tmp
 }
 add_task
 (
+async
 function
-*
 init_navigate
 (
 )
@@ -360,7 +360,7 @@ init_navigate
 let
 port
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -444,7 +444,7 @@ blank
 }
 )
 ;
-yield
+await
 waitForMessage
 (
 port
@@ -536,7 +536,7 @@ exception
 )
 ;
 }
-yield
+await
 loaded
 ;
 gBrowser
@@ -547,7 +547,7 @@ goBack
 ;
 port
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -563,7 +563,7 @@ Ping2
 "
 )
 ;
-yield
+await
 waitForMessage
 (
 port
@@ -589,8 +589,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 init_close
 (
 )
@@ -598,7 +598,7 @@ init_close
 let
 port
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -641,7 +641,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 unloadPromise
 ;
 try
@@ -730,8 +730,8 @@ exception
 ;
 add_task
 (
+async
 function
-*
 multiple_ports
 (
 )
@@ -739,7 +739,7 @@ multiple_ports
 let
 port1
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -766,7 +766,7 @@ browser
 let
 port2
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -822,7 +822,7 @@ counter
 let
 message
 =
-yield
+await
 waitForMessage
 (
 port1
@@ -906,7 +906,7 @@ counter
 ;
 message
 =
-yield
+await
 waitForMessage
 (
 port2
@@ -986,7 +986,7 @@ browser
 )
 )
 ;
-yield
+await
 unloadPromise
 ;
 try
@@ -1075,7 +1075,7 @@ counter
 ;
 message
 =
-yield
+await
 waitForMessage
 (
 port1
@@ -1144,7 +1144,7 @@ browser
 )
 )
 ;
-yield
+await
 unloadPromise
 ;
 }
@@ -1152,8 +1152,8 @@ unloadPromise
 ;
 add_task
 (
+async
 function
-*
 browser_switch
 (
 )
@@ -1161,7 +1161,7 @@ browser_switch
 let
 port1
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -1212,7 +1212,7 @@ nom
 let
 port2
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -1283,7 +1283,7 @@ GetCookie
 let
 message
 =
-yield
+await
 waitForMessage
 (
 port1
@@ -1353,7 +1353,7 @@ counter
 ;
 message
 =
-yield
+await
 waitForMessage
 (
 port2
@@ -1450,7 +1450,7 @@ GetCookie
 ;
 message
 =
-yield
+await
 waitForMessage
 (
 port1
@@ -1520,7 +1520,7 @@ counter
 ;
 message
 =
-yield
+await
 waitForMessage
 (
 port2
@@ -1617,7 +1617,7 @@ GetCookie
 ;
 message
 =
-yield
+await
 waitForMessage
 (
 port1
@@ -1687,7 +1687,7 @@ counter
 ;
 message
 =
-yield
+await
 waitForMessage
 (
 port2
@@ -1752,7 +1752,7 @@ browser2
 )
 )
 ;
-yield
+await
 unloadPromise
 ;
 unloadPromise
@@ -1779,7 +1779,7 @@ browser1
 )
 )
 ;
-yield
+await
 unloadPromise
 ;
 }
@@ -1787,8 +1787,8 @@ unloadPromise
 ;
 add_task
 (
+async
 function
-*
 remove_chrome_listener
 (
 )
@@ -1796,7 +1796,7 @@ remove_chrome_listener
 let
 port
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -1868,7 +1868,7 @@ Ping2
 "
 )
 ;
-yield
+await
 waitForMessage
 (
 port
@@ -1896,7 +1896,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 unloadPromise
 ;
 }
@@ -1904,8 +1904,8 @@ unloadPromise
 ;
 add_task
 (
+async
 function
-*
 remove_content_listener
 (
 )
@@ -1913,7 +1913,7 @@ remove_content_listener
 let
 port
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -1965,7 +1965,7 @@ Ping2
 "
 )
 ;
-yield
+await
 waitForMessage
 (
 port
@@ -1993,7 +1993,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 unloadPromise
 ;
 }
@@ -2001,8 +2001,8 @@ unloadPromise
 ;
 add_task
 (
+async
 function
-*
 remote_pages_basic
 (
 )
@@ -2019,7 +2019,7 @@ TEST_URL
 let
 port
 =
-yield
+await
 waitForPage
 (
 pages
@@ -2063,7 +2063,7 @@ removeCurrentTab
 (
 )
 ;
-yield
+await
 unloadPromise
 ;
 pages
@@ -2158,8 +2158,8 @@ exception
 ;
 add_task
 (
+async
 function
-*
 remote_pages_multiple
 (
 )
@@ -2176,7 +2176,7 @@ TEST_URL
 let
 port1
 =
-yield
+await
 waitForPage
 (
 pages
@@ -2185,7 +2185,7 @@ pages
 let
 port2
 =
-yield
+await
 waitForPage
 (
 pages
@@ -2197,7 +2197,7 @@ pongPorts
 [
 ]
 ;
-yield
+await
 new
 Promise
 (
@@ -2433,8 +2433,8 @@ browser
 ;
 add_task
 (
+async
 function
-*
 send_data
 (
 )
@@ -2442,7 +2442,7 @@ send_data
 let
 port
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -2507,7 +2507,7 @@ data
 let
 message
 =
-yield
+await
 waitForMessage
 (
 port
@@ -2541,8 +2541,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 send_data2
 (
 )
@@ -2550,7 +2550,7 @@ send_data2
 let
 port
 =
-yield
+await
 waitForPort
 (
 TEST_URL
@@ -2617,7 +2617,7 @@ data
 let
 message
 =
-yield
+await
 waitForMessage
 (
 port
@@ -2651,8 +2651,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 get_ports_for_browser
 (
 )
@@ -2669,7 +2669,7 @@ TEST_URL
 let
 port
 =
-yield
+await
 waitForPage
 (
 pages

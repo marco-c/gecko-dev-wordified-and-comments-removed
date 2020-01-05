@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testBackgroundWindow
 (
 )
@@ -229,14 +229,14 @@ loadCount
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -264,7 +264,7 @@ once
 "
 )
 ;
-yield
+await
 extension
 .
 unload

@@ -66,8 +66,8 @@ login
 ;
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
@@ -147,8 +147,8 @@ login
 ;
 add_task
 (
+async
 function
-*
 test_context_menu_populate_password_noSchemeUpgrades
 (
 )
@@ -167,7 +167,7 @@ schemeUpgrades
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -236,8 +236,8 @@ hidePopup
 ;
 add_task
 (
+async
 function
-*
 test_context_menu_populate_password_schemeUpgrades
 (
 )
@@ -256,7 +256,7 @@ schemeUpgrades
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -325,8 +325,8 @@ hidePopup
 ;
 add_task
 (
+async
 function
-*
 test_context_menu_populate_username_with_password_noSchemeUpgrades
 (
 )
@@ -345,7 +345,7 @@ schemeUpgrades
 false
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -434,8 +434,8 @@ hidePopup
 ;
 add_task
 (
+async
 function
-*
 test_context_menu_populate_username_with_password_schemeUpgrades
 (
 )
@@ -454,7 +454,7 @@ schemeUpgrades
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -543,8 +543,8 @@ hidePopup
 ;
 add_task
 (
+async
 function
-*
 test_context_menu_password_fill
 (
 )
@@ -563,7 +563,7 @@ schemeUpgrades
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -576,8 +576,8 @@ TEST_HOSTNAME
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
+async
 function
-*
 (
 browser
 )
@@ -585,7 +585,7 @@ browser
 let
 formDescriptions
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -593,8 +593,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -664,7 +664,7 @@ description
 let
 passwordInputIds
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -673,8 +673,8 @@ browser
 {
 description
 }
+async
 function
-*
 (
 {
 description
@@ -763,7 +763,7 @@ field
 inputId
 )
 ;
-yield
+await
 openPasswordContextMenu
 (
 browser
@@ -772,15 +772,15 @@ browser
 "
 +
 inputId
+async
 function
-*
 (
 )
 {
 let
 inputDisabled
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -789,8 +789,8 @@ browser
 {
 inputId
 }
+async
 function
-*
 (
 {
 inputId
@@ -890,7 +890,7 @@ open
 continue
 ;
 }
-yield
+await
 assertContextMenuFill
 (
 browser
@@ -900,7 +900,7 @@ inputId
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -909,8 +909,8 @@ browser
 {
 inputId
 }
+async
 function
-*
 (
 {
 inputId
@@ -968,8 +968,8 @@ hidePopup
 ;
 add_task
 (
+async
 function
-*
 test_context_menu_username_login_fill
 (
 )
@@ -988,7 +988,7 @@ schemeUpgrades
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1001,8 +1001,8 @@ TEST_HOSTNAME
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
+async
 function
-*
 (
 browser
 )
@@ -1010,7 +1010,7 @@ browser
 let
 formDescriptions
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1018,8 +1018,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -1089,7 +1089,7 @@ description
 let
 usernameInputIds
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1098,8 +1098,8 @@ browser
 {
 description
 }
+async
 function
-*
 (
 {
 description
@@ -1188,7 +1188,7 @@ field
 inputId
 )
 ;
-yield
+await
 openPasswordContextMenu
 (
 browser
@@ -1197,8 +1197,8 @@ browser
 "
 +
 inputId
+async
 function
-*
 (
 )
 {
@@ -1229,15 +1229,15 @@ headerDisabled
 let
 shouldContinue
 =
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 data
+async
 function
-*
 (
 data
 )
@@ -1430,7 +1430,7 @@ continue
 let
 passwordFieldId
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -1439,8 +1439,8 @@ browser
 {
 description
 }
+async
 function
-*
 (
 {
 description
@@ -1489,7 +1489,7 @@ id
 }
 )
 ;
-yield
+await
 assertContextMenuFill
 (
 browser
@@ -1499,7 +1499,7 @@ passwordFieldId
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1508,8 +1508,8 @@ browser
 {
 passwordFieldId
 }
+async
 function
-*
 (
 {
 passwordFieldId
@@ -1579,8 +1579,8 @@ hidePopup
 }
 )
 ;
+async
 function
-*
 openPasswordContextMenu
 (
 browser
@@ -1617,7 +1617,7 @@ button
 2
 }
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -1640,7 +1640,7 @@ button
 2
 }
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -1650,7 +1650,7 @@ eventDetails
 browser
 )
 ;
-yield
+await
 contextMenuShownPromise
 ;
 if
@@ -1661,7 +1661,7 @@ assertCallback
 let
 shouldContinue
 =
-yield
+await
 assertCallback
 (
 )
@@ -1701,12 +1701,12 @@ POPUP_HEADER
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 }
+async
 function
-*
 assertContextMenuFill
 (
 browser
@@ -1772,7 +1772,7 @@ usernameFieldId
 )
 ;
 }
-yield
+await
 ContentTask
 .
 spawn
@@ -1781,8 +1781,8 @@ browser
 {
 unchangedSelector
 }
+async
 function
-*
 (
 {
 unchangedSelector
@@ -1888,8 +1888,8 @@ spawn
 (
 browser
 data
+async
 function
-*
 (
 data
 )
@@ -1926,7 +1926,7 @@ formId
 ]
 )
 ;
-yield
+await
 ContentTaskUtils
 .
 waitForEvent

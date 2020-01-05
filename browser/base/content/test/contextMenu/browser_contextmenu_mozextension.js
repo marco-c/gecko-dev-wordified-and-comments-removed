@@ -146,8 +146,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -189,7 +189,7 @@ subtst_contextmenu_webext
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -261,7 +261,7 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -304,13 +304,13 @@ enabled
 ;
 add_task
 (
+async
 function
-*
 test_link
 (
 )
 {
-yield
+await
 test_contextmenu
 (
 "
@@ -403,13 +403,13 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_video
 (
 )
 {
-yield
+await
 test_contextmenu
 (
 "
@@ -585,8 +585,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_cleanup
 (
 )
@@ -595,7 +595,7 @@ lastElementSelector
 =
 null
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -605,7 +605,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 new
 Promise
 (

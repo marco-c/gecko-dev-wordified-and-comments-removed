@@ -112,8 +112,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 testMarkSafe
 (
 )
@@ -173,7 +173,7 @@ unregisterProvider
 provider
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )

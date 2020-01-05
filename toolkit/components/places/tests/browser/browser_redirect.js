@@ -148,8 +148,8 @@ decayRate
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -168,7 +168,7 @@ decayRate
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -464,8 +464,8 @@ expectedTypedVisitBonus
 ;
 add_task
 (
+async
 function
-*
 redirect_check_new_typed_visit
 (
 )
@@ -511,7 +511,7 @@ REDIRECT_URI
 spec
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -533,8 +533,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 redirect_check_second_typed_visit
 (
 )
@@ -580,7 +580,7 @@ REDIRECT_URI
 spec
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -602,8 +602,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 redirect_check_subsequent_link_visit
 (
 )
@@ -640,7 +640,7 @@ REDIRECT_URI
 spec
 )
 ;
-yield
+await
 Promise
 .
 all

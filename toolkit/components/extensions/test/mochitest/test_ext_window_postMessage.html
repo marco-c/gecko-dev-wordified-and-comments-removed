@@ -183,8 +183,8 @@ listeners
 /
 add_task
 (
+async
 function
-*
 test_postMessage
 (
 )
@@ -541,7 +541,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -551,7 +551,7 @@ startup
 let
 iframeURL
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -600,7 +600,7 @@ url
 let
 iframe
 =
-yield
+await
 createIframe
 (
 url
@@ -621,7 +621,7 @@ url
 let
 pong
 =
-yield
+await
 awaitMessage
 (
 )
@@ -646,7 +646,7 @@ remove
 )
 ;
 }
-yield
+await
 extension
 .
 unload

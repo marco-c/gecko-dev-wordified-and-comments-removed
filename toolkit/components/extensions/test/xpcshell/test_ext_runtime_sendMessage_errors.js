@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_sendMessage_error
 (
 )
@@ -340,14 +340,14 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -359,7 +359,7 @@ validation
 "
 )
 ;
-yield
+await
 extension
 .
 unload

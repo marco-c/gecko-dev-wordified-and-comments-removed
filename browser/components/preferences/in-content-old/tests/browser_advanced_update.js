@@ -554,12 +554,12 @@ resetPreferences
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -685,8 +685,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -696,7 +696,7 @@ register
 (
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -769,7 +769,7 @@ doCommand
 (
 )
 ;
-yield
+await
 promiseLoadSubDialog
 (
 "

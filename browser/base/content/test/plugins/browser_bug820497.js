@@ -48,8 +48,8 @@ gNumPluginBindingsAttached
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -131,8 +131,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -216,7 +216,7 @@ true
 true
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -231,7 +231,7 @@ html
 "
 )
 ;
-yield
+await
 promiseForCondition
 (
 function
@@ -247,7 +247,7 @@ gNumPluginBindingsAttached
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -319,7 +319,7 @@ plugin
 }
 )
 ;
-yield
+await
 promisePopupNotification
 (
 "
@@ -368,7 +368,7 @@ notification
 "
 )
 ;
-yield
+await
 promiseForNotificationShown
 (
 notification
@@ -398,7 +398,7 @@ notification
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -406,8 +406,8 @@ spawn
 gTestBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -425,7 +425,7 @@ addSecondPlugin
 }
 )
 ;
-yield
+await
 promiseForCondition
 (
 function
@@ -441,7 +441,7 @@ gNumPluginBindingsAttached
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -539,7 +539,7 @@ notification
 "
 )
 ;
-yield
+await
 promiseForNotificationShown
 (
 notification

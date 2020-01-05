@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 testBasicPrompt
 (
 )
@@ -67,7 +67,7 @@ file
 .
 WFA_READWRITE
 ;
-yield
+await
 runUpdateTest
 (
 updateParams
@@ -86,12 +86,12 @@ button
 "
 button
 "
-*
+async
 cleanup
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

@@ -170,8 +170,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_xhr_capabilities
 (
 )
@@ -528,7 +528,7 @@ contentScript
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -587,7 +587,7 @@ i
 let
 result
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -614,7 +614,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload

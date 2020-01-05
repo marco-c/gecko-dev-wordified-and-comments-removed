@@ -193,13 +193,13 @@ corret
 }
 add_task
 (
+async
 function
-*
 setup_test_preference
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -245,8 +245,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 block_autoplay_media
 (
 )
@@ -296,7 +296,7 @@ loadURI
 PAGE_SHOULD_NOT_PLAY
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -306,7 +306,7 @@ tab1
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -334,7 +334,7 @@ blocked
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab1
@@ -386,7 +386,7 @@ loadURI
 PAGE_SHOULD_PLAY
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -396,7 +396,7 @@ tab2
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -423,7 +423,7 @@ blocked
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab2
@@ -451,7 +451,7 @@ paused
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -462,7 +462,7 @@ gBrowser
 tab1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -488,7 +488,7 @@ blocked
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab1
@@ -515,7 +515,7 @@ blocked
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -526,7 +526,7 @@ gBrowser
 tab2
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab2
@@ -548,14 +548,14 @@ playing
 "
 )
 ;
-yield
+await
 waitForTabPlayingEvent
 (
 tab2
 true
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -582,7 +582,7 @@ type
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -606,7 +606,7 @@ tabs
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -614,7 +614,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

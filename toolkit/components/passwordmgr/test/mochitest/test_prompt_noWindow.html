@@ -377,8 +377,8 @@ login
 ;
 add_task
 (
+async
 function
-*
 test_sandbox_xhr
 (
 )
@@ -639,7 +639,7 @@ sandboxedRequest
 sandbox
 )
 ;
-yield
+await
 promptDone
 ;
 info
@@ -665,7 +665,7 @@ metadata
 are
 updated
 .
-yield
+await
 loginModifiedPromise
 ;
 }

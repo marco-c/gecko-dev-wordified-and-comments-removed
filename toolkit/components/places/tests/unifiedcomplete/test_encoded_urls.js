@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_encoded
 (
 )
@@ -21,7 +21,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -92,7 +92,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -255,7 +255,7 @@ q
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -265,8 +265,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_encoded_trimmed
 (
 )
@@ -286,7 +286,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -357,7 +357,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -508,7 +508,7 @@ q
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -518,8 +518,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_encoded_partial
 (
 )
@@ -539,7 +539,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -610,7 +610,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -769,7 +769,7 @@ q
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -779,8 +779,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_encoded_path
 (
 )
@@ -800,7 +800,7 @@ it
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -863,7 +863,7 @@ TRANSITION_TYPED
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -1005,7 +1005,7 @@ top
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

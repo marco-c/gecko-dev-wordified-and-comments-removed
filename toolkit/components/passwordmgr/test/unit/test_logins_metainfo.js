@@ -1224,14 +1224,13 @@ gLoginMetaInfo3
 ;
 add_task
 (
+async
 function
-*
 test_storage_metainfo
 (
 )
 {
-yield
-*
+await
 LoginTestUtils
 .
 reloadData

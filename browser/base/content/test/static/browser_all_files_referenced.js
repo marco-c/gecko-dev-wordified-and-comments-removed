@@ -5466,8 +5466,8 @@ string
 }
 add_task
 (
+async
 function
-*
 checkAllTheFiles
 (
 )
@@ -5513,7 +5513,7 @@ libxulPath
 let
 libxul
 =
-yield
+await
 OS
 .
 File
@@ -5632,7 +5632,7 @@ nsIFile
 let
 uris
 =
-yield
+await
 generateURIsFromDirTree
 (
 appDir
@@ -5737,7 +5737,7 @@ true
 }
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -5817,7 +5817,7 @@ uri
 )
 ;
 }
-yield
+await
 Promise
 .
 all

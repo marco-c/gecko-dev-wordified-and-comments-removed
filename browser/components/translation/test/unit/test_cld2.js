@@ -9126,8 +9126,8 @@ confidence
 }
 add_task
 (
+async
 function
-*
 test_pairs
 (
 )
@@ -9213,7 +9213,7 @@ item
 let
 result
 =
-yield
+await
 LanguageDetector
 .
 detectLanguage
@@ -9238,8 +9238,8 @@ expected
 ;
 add_task
 (
+async
 function
-*
 test_worker_flush
 (
 )
@@ -9307,7 +9307,7 @@ with
 let
 result
 =
-yield
+await
 LanguageDetector
 .
 detectLanguage
@@ -9385,7 +9385,7 @@ promise
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -9464,7 +9464,7 @@ timeout
 ;
 result
 =
-yield
+await
 LanguageDetector
 .
 detectLanguage

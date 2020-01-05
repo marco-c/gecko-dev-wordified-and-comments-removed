@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_bug1174036
 (
 )
@@ -43,7 +43,7 @@ body
 >
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -71,13 +71,13 @@ encodeURIComponent
 URI
 )
 }
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -193,7 +193,7 @@ false
 let
 findResult
 =
-yield
+await
 promiseFind
 ;
 is
@@ -237,7 +237,7 @@ false
 ;
 findResult
 =
-yield
+await
 promiseFind
 ;
 is
@@ -292,7 +292,7 @@ false
 ;
 findResult
 =
-yield
+await
 promiseFind
 ;
 is

@@ -239,8 +239,8 @@ sendAsyncMessage
 /
 add_task
 (
+async
 function
-*
 test_protocolHandler
 (
 )
@@ -417,7 +417,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -427,7 +427,7 @@ startup
 let
 handlerUrl
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -702,7 +702,7 @@ setup
 let
 data
 =
-yield
+await
 msg
 ;
 ok
@@ -810,7 +810,7 @@ test
 let
 query
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -860,7 +860,7 @@ protocol
 was
 removed
 .
-yield
+await
 extension
 .
 unload
@@ -1015,7 +1015,7 @@ setup
 ;
 data
 =
-yield
+await
 msg
 ;
 ok
@@ -1057,8 +1057,8 @@ destroy
 ;
 add_task
 (
+async
 function
-*
 test_protocolHandler_https_target
 (
 )
@@ -1130,7 +1130,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1148,7 +1148,7 @@ works
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1160,8 +1160,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_protocolHandler_http_target
 (
 )
@@ -1233,7 +1233,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1251,7 +1251,7 @@ works
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1263,8 +1263,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_protocolHandler_restricted_protocol
 (
 )
@@ -1365,7 +1365,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1391,7 +1391,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }
@@ -1399,8 +1399,8 @@ waitForConsole
 ;
 add_task
 (
+async
 function
-*
 test_protocolHandler_restricted_uriTemplate
 (
 )
@@ -1506,7 +1506,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -1532,7 +1532,7 @@ endMonitorConsole
 (
 )
 ;
-yield
+await
 waitForConsole
 ;
 }
@@ -1540,8 +1540,8 @@ waitForConsole
 ;
 add_task
 (
+async
 function
-*
 test_protocolHandler_duplicate
 (
 )
@@ -1638,7 +1638,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1784,7 +1784,7 @@ setup
 let
 data
 =
-yield
+await
 msg
 ;
 is
@@ -1809,7 +1809,7 @@ destroy
 (
 )
 ;
-yield
+await
 extension
 .
 unload

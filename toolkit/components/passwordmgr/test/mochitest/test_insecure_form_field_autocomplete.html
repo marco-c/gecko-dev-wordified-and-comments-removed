@@ -2135,13 +2135,13 @@ resolve
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -2187,13 +2187,13 @@ listenForUnexpectedPopupShown
 ;
 add_task
 (
+async
 function
-*
 test_form1_initial_empty
 (
 )
 {
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -2221,7 +2221,7 @@ checkACForm
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -2246,13 +2246,13 @@ closed
 ;
 add_task
 (
+async
 function
-*
 test_form1_warning_entry
 (
 )
 {
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -2289,13 +2289,13 @@ open
 let
 results
 =
-yield
+await
 shownPromise
 ;
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -2412,7 +2412,7 @@ not
 enter
 "
 !
-yield
+await
 spinEventLoop
 (
 )
@@ -2435,13 +2435,13 @@ checkACForm
 ;
 add_task
 (
+async
 function
-*
 test_form1_first_entry
 (
 )
 {
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -2475,13 +2475,13 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -2558,7 +2558,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -2578,8 +2578,8 @@ temppass1
 ;
 add_task
 (
+async
 function
-*
 test_form1_second_entry
 (
 )
@@ -2610,7 +2610,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -2659,7 +2659,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -2679,8 +2679,8 @@ testpass2
 ;
 add_task
 (
+async
 function
-*
 test_form1_third_entry
 (
 )
@@ -2711,7 +2711,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -2763,7 +2763,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -2783,8 +2783,8 @@ testpass3
 ;
 add_task
 (
+async
 function
-*
 test_form1_fourth_entry
 (
 )
@@ -2815,7 +2815,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -2877,7 +2877,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -2897,8 +2897,8 @@ zzzpass4
 ;
 add_task
 (
+async
 function
-*
 test_form1_wraparound_first_entry
 (
 )
@@ -2912,7 +2912,7 @@ restoreForm
 (
 )
 ;
-yield
+await
 spinEventLoop
 (
 )
@@ -2939,7 +2939,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -3033,7 +3033,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -3053,8 +3053,8 @@ temppass1
 ;
 add_task
 (
+async
 function
-*
 test_form1_wraparound_up_last_entry
 (
 )
@@ -3085,7 +3085,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -3108,7 +3108,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -3128,8 +3128,8 @@ zzzpass4
 ;
 add_task
 (
+async
 function
-*
 test_form1_wraparound_down_up_up
 (
 )
@@ -3160,7 +3160,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -3206,7 +3206,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -3226,8 +3226,8 @@ zzzpass4
 ;
 add_task
 (
+async
 function
-*
 test_form1_wraparound_up_last
 (
 )
@@ -3253,7 +3253,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -3349,7 +3349,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -3369,8 +3369,8 @@ zzzpass4
 ;
 add_task
 (
+async
 function
-*
 test_form1_fill_username_without_autofill_right
 (
 )
@@ -3396,7 +3396,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 /
@@ -3438,7 +3438,7 @@ right
 "
 )
 ;
-yield
+await
 spinEventLoop
 (
 )
@@ -3461,8 +3461,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_form1_fill_username_without_autofill_left
 (
 )
@@ -3488,7 +3488,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 /
@@ -3548,8 +3548,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_form1_pageup_first
 (
 )
@@ -3575,7 +3575,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 /
@@ -3636,7 +3636,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -3656,8 +3656,8 @@ temppass1
 ;
 add_task
 (
+async
 function
-*
 test_form1_pagedown_last
 (
 )
@@ -3683,7 +3683,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 /
@@ -3726,7 +3726,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -3746,8 +3746,8 @@ zzzpass4
 ;
 add_task
 (
+async
 function
-*
 test_form1_untrusted_event
 (
 )
@@ -3756,7 +3756,7 @@ restoreForm
 (
 )
 ;
-yield
+await
 spinEventLoop
 (
 )
@@ -3792,7 +3792,7 @@ sendFakeAutocompleteEvent
 uname
 )
 ;
-yield
+await
 spinEventLoop
 (
 )
@@ -3811,8 +3811,8 @@ zzzuser4
 ;
 add_task
 (
+async
 function
-*
 test_form1_delete
 (
 )
@@ -3838,7 +3838,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 /
@@ -4049,7 +4049,7 @@ delete
 shiftModifier
 )
 ;
-yield
+await
 deletionPromise
 ;
 checkACForm
@@ -4104,7 +4104,7 @@ one
 "
 )
 ;
-yield
+await
 countChangedPromise
 ;
 doKey
@@ -4114,7 +4114,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -4134,8 +4134,8 @@ testpass2
 ;
 add_task
 (
+async
 function
-*
 test_form1_first_after_deletion
 (
 )
@@ -4161,7 +4161,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -4201,7 +4201,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -4221,8 +4221,8 @@ testpass2
 ;
 add_task
 (
+async
 function
-*
 test_form1_delete_second
 (
 )
@@ -4248,7 +4248,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -4357,7 +4357,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -4377,8 +4377,8 @@ zzzpass4
 ;
 add_task
 (
+async
 function
-*
 test_form1_first_after_deletion2
 (
 )
@@ -4404,7 +4404,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -4444,7 +4444,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -4464,8 +4464,8 @@ testpass2
 ;
 add_task
 (
+async
 function
-*
 test_form1_delete_last
 (
 )
@@ -4491,7 +4491,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -4604,7 +4604,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -4624,8 +4624,8 @@ testpass2
 ;
 add_task
 (
+async
 function
-*
 test_form1_first_after_3_deletions
 (
 )
@@ -4651,7 +4651,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -4687,7 +4687,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -4707,8 +4707,8 @@ testpass2
 ;
 add_task
 (
+async
 function
-*
 test_form1_check_only_entry_remaining
 (
 )
@@ -4734,7 +4734,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -4874,8 +4874,8 @@ autocomplete
 off
 add_task
 (
+async
 function
-*
 test_form2
 (
 )
@@ -4938,7 +4938,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -4994,7 +4994,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -5014,8 +5014,8 @@ singlepass5
 ;
 add_task
 (
+async
 function
-*
 test_form3
 (
 )
@@ -5071,7 +5071,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -5127,7 +5127,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -5147,8 +5147,8 @@ singlepass5
 ;
 add_task
 (
+async
 function
-*
 test_form4
 (
 )
@@ -5204,7 +5204,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -5260,7 +5260,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -5280,8 +5280,8 @@ singlepass5
 ;
 add_task
 (
+async
 function
-*
 test_form5
 (
 )
@@ -5337,7 +5337,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -5393,7 +5393,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -5413,8 +5413,8 @@ singlepass5
 ;
 add_task
 (
+async
 function
-*
 test_form6
 (
 )
@@ -5484,8 +5484,8 @@ singlepass5
 ;
 add_task
 (
+async
 function
-*
 test_form6_changeUsername
 (
 )
@@ -5543,7 +5543,7 @@ focus
 (
 )
 ;
-yield
+await
 spinEventLoop
 (
 )
@@ -5575,8 +5575,8 @@ login5
 ;
 add_task
 (
+async
 function
-*
 test_form7
 (
 )
@@ -5763,8 +5763,8 @@ login6B
 ;
 add_task
 (
+async
 function
-*
 test_form7_2
 (
 )
@@ -5790,7 +5790,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -5885,7 +5885,7 @@ values
 filled
 in
 .
-yield
+await
 spinEventLoop
 (
 )
@@ -5951,8 +5951,8 @@ login6A
 ;
 add_task
 (
+async
 function
-*
 test_form8
 (
 )
@@ -5996,8 +5996,8 @@ restoreForm
 ;
 add_task
 (
+async
 function
-*
 test_form8_blur
 (
 )
@@ -6038,8 +6038,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 test_form8_2
 (
 )
@@ -6061,8 +6061,8 @@ restoreForm
 ;
 add_task
 (
+async
 function
-*
 test_form8_3
 (
 )
@@ -6092,8 +6092,8 @@ login7
 ;
 add_task
 (
+async
 function
-*
 test_form9_filtering
 (
 )
@@ -6152,7 +6152,7 @@ form9userAB
 "
 )
 ;
-yield
+await
 shownPromise
 ;
 checkACForm
@@ -6193,7 +6193,7 @@ A
 let
 results
 =
-yield
+await
 shownPromise
 ;
 checkACForm
@@ -6269,7 +6269,7 @@ return
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -6289,8 +6289,8 @@ form9pass
 ;
 add_task
 (
+async
 function
-*
 test_form9_autocomplete_cache
 (
 )
@@ -6367,16 +6367,16 @@ z
 "
 )
 ;
-yield
+await
 promise0
 ;
-yield
+await
 shownPromise
 ;
 let
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -6420,12 +6420,12 @@ z
 "
 )
 ;
-yield
+await
 promise0
 ;
 popupState
 =
-yield
+await
 getPopupState
 (
 )
@@ -6454,13 +6454,13 @@ result
 ;
 add_task
 (
+async
 function
-*
 test_form11_recipes
 (
 )
 {
-yield
+await
 loadRecipes
 (
 {
@@ -6568,7 +6568,7 @@ type
 password
 "
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -6602,7 +6602,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -6653,7 +6653,7 @@ not
 enter
 "
 !
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -6716,7 +6716,7 @@ tab
 "
 )
 ;
-yield
+await
 promiseFormsProcessed
 (
 )
@@ -6731,7 +6731,7 @@ testpass10
 "
 )
 ;
-yield
+await
 resetRecipes
 (
 )
@@ -6741,8 +6741,8 @@ resetRecipes
 ;
 add_task
 (
+async
 function
-*
 test_form12_formless
 (
 )
@@ -6803,7 +6803,7 @@ down
 /
 /
 open
-yield
+await
 shownPromise
 ;
 doKey
@@ -6865,7 +6865,7 @@ not
 enter
 "
 !
-yield
+await
 processedPromise
 ;
 checkACForm

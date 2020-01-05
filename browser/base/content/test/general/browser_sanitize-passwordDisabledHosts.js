@@ -55,12 +55,12 @@ Sanitizer
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -290,7 +290,7 @@ siteSettings
 true
 )
 ;
-yield
+await
 s
 .
 sanitize
@@ -335,7 +335,7 @@ cleared
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv

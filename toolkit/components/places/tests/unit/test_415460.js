@@ -129,8 +129,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -161,7 +161,7 @@ SEARCH_TERM
 /
 "
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits

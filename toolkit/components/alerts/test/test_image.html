@@ -351,8 +351,8 @@ userData
 }
 add_task
 (
+async
 function
-*
 testContext
 (
 )
@@ -412,7 +412,7 @@ ready
 userData
 ]
 =
-yield
+await
 promiseImage
 (
 alert
@@ -475,7 +475,7 @@ ready
 userData
 ]
 =
-yield
+await
 promiseImage
 (
 alert
@@ -525,8 +525,8 @@ image
 ;
 add_task
 (
+async
 function
-*
 testTimeout
 (
 )
@@ -558,7 +558,7 @@ var
 ready
 ]
 =
-yield
+await
 promiseImage
 (
 alert
@@ -583,7 +583,7 @@ fires
 ready
 ]
 =
-yield
+await
 promiseImage
 (
 alert
@@ -610,8 +610,8 @@ timeout
 ;
 add_task
 (
+async
 function
-*
 testAnimatedGIF
 (
 )
@@ -640,7 +640,7 @@ ready
 request
 ]
 =
-yield
+await
 promiseImage
 (
 alert
@@ -718,8 +718,8 @@ be
 ;
 add_task
 (
+async
 function
-*
 testCancel
 (
 )
@@ -746,7 +746,7 @@ t
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -823,8 +823,8 @@ NS_BINDING_ABORTED
 ;
 add_task
 (
+async
 function
-*
 testMixedContent
 (
 )
@@ -900,7 +900,7 @@ ready
 request
 ]
 =
-yield
+await
 promiseImage
 (
 alert

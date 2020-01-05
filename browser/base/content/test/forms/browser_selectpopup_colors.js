@@ -3283,8 +3283,8 @@ color
 }
 }
 }
+async
 function
-*
 testSelectColors
 (
 select
@@ -3311,7 +3311,7 @@ select
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -3352,7 +3352,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -3373,7 +3373,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 if
@@ -3401,7 +3401,7 @@ waitForComputedStyle
 .
 value
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -3890,7 +3890,7 @@ options
 leaveOpen
 )
 {
-yield
+await
 hideSelectPopup
 (
 selectPopup
@@ -3899,7 +3899,7 @@ escape
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -3911,13 +3911,13 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -3959,13 +3959,13 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_colors_applied_to_popup_items
 (
 )
 {
-yield
+await
 testSelectColors
 (
 PAGECONTENT_COLORS
@@ -3982,8 +3982,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_colors_applied_to_popup
 (
 )
@@ -4014,7 +4014,7 @@ rgb
 "
 }
 ;
-yield
+await
 testSelectColors
 (
 PAGECONTENT_COLORS_ON_SELECT
@@ -4027,8 +4027,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_transparent_applied_to_popup
 (
 )
@@ -4061,7 +4061,7 @@ Combobox
 )
 }
 ;
-yield
+await
 testSelectColors
 (
 TRANSPARENT_SELECT
@@ -4074,8 +4074,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_options_inverted_from_select_background
 (
 )
@@ -4106,7 +4106,7 @@ rgb
 "
 }
 ;
-yield
+await
 testSelectColors
 (
 OPTION_COLOR_EQUAL_TO_UABACKGROUND_COLOR_SELECT
@@ -4119,13 +4119,13 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_select_background_using_important
 (
 )
 {
-yield
+await
 testSelectColors
 (
 GENERIC_OPTION_STYLED_AS_IMPORTANT
@@ -4142,8 +4142,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_translucent_select_becomes_opaque
 (
 )
@@ -4174,7 +4174,7 @@ rgb
 "
 }
 ;
-yield
+await
 testSelectColors
 (
 TRANSLUCENT_SELECT_BECOMES_OPAQUE
@@ -4187,8 +4187,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_translucent_select_applies_on_base_color
 (
 )
@@ -4219,7 +4219,7 @@ rgb
 "
 }
 ;
-yield
+await
 testSelectColors
 (
 TRANSLUCENT_SELECT_APPLIES_ON_BASE_COLOR
@@ -4232,8 +4232,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_disabled_optgroup_and_options
 (
 )
@@ -4253,7 +4253,7 @@ win
 return
 ;
 }
-yield
+await
 testSelectColors
 (
 DISABLED_OPTGROUP_AND_OPTIONS
@@ -4270,8 +4270,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_disabled_optgroup_and_options
 (
 )
@@ -4302,7 +4302,7 @@ rgb
 "
 }
 ;
-yield
+await
 testSelectColors
 (
 SELECT_CHANGES_COLOR_ON_FOCUS
@@ -4315,8 +4315,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_bgcolor_on_select_color_on_options
 (
 )
@@ -4347,7 +4347,7 @@ rgb
 "
 }
 ;
-yield
+await
 testSelectColors
 (
 SELECT_BGCOLOR_ON_SELECT_COLOR_ON_OPTIONS
@@ -4360,8 +4360,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_style_of_options_is_dependent_on_focus_of_select
 (
 )
@@ -4392,7 +4392,7 @@ rgb
 "
 }
 ;
-yield
+await
 testSelectColors
 (
 SELECT_STYLE_OF_OPTION_IS_BASED_ON_FOCUS_OF_SELECT
@@ -4405,8 +4405,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_style_of_options_is_dependent_on_focus_of_select_after_event
 (
 )
@@ -4439,7 +4439,7 @@ rgb
 }
 }
 ;
-yield
+await
 testSelectColors
 (
 SELECT_STYLE_OF_OPTION_CHANGES_AFTER_FOCUS_EVENT
@@ -4452,8 +4452,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_style_of_options_is_dependent_on_transitionend
 (
 )
@@ -4516,7 +4516,7 @@ rgb
 }
 }
 ;
-yield
+await
 testSelectColors
 (
 SELECT_STYLE_OF_OPTION_CHANGES_AFTER_TRANSITIONEND
@@ -4529,8 +4529,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_transparent_color_with_text_shadow
 (
 )
@@ -4575,7 +4575,7 @@ rgb
 "
 }
 ;
-yield
+await
 testSelectColors
 (
 SELECT_TRANSPARENT_COLOR_WITH_TEXT_SHADOW
@@ -4588,8 +4588,8 @@ options
 ;
 add_task
 (
+async
 function
-*
 test_select_with_transition_doesnt_lose_scroll_position
 (
 )
@@ -4642,7 +4642,7 @@ leaveOpen
 true
 }
 ;
-yield
+await
 testSelectColors
 (
 SELECT_LONG_WITH_TRANSITION
@@ -4706,7 +4706,7 @@ is
 "
 )
 ;
-yield
+await
 hideSelectPopup
 (
 selectPopup
@@ -4715,7 +4715,7 @@ escape
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

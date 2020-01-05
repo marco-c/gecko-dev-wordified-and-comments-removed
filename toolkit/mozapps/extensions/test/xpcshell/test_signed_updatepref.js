@@ -368,8 +368,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -387,7 +387,7 @@ startupManager
 (
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -407,7 +407,7 @@ xpi
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -443,7 +443,7 @@ AddonManager
 SIGNEDSTATE_MISSING
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -464,7 +464,7 @@ startupManager
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -500,7 +500,7 @@ AddonManager
 SIGNEDSTATE_MISSING
 )
 ;
-yield
+await
 AddonManagerInternal
 .
 backgroundUpdateCheck
@@ -509,7 +509,7 @@ backgroundUpdateCheck
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -548,7 +548,7 @@ SIGNEDSTATE_MISSING
 let
 changes
 =
-yield
+await
 verifySignatures
 (
 )
@@ -576,7 +576,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -618,7 +618,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -628,8 +628,8 @@ promiseShutdownManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -647,7 +647,7 @@ startupManager
 (
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -667,7 +667,7 @@ xpi
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -703,7 +703,7 @@ AddonManager
 SIGNEDSTATE_MISSING
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )
@@ -732,7 +732,7 @@ true
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -774,7 +774,7 @@ uninstall
 (
 )
 ;
-yield
+await
 promiseShutdownManager
 (
 )

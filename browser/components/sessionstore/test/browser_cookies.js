@@ -163,8 +163,8 @@ value
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -192,8 +192,8 @@ removeAll
 ;
 add_task
 (
+async
 function
-*
 test_run
 (
 )
@@ -226,7 +226,7 @@ com
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 gBrowser
@@ -234,7 +234,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 promiseSetCookie
 (
 "
@@ -267,7 +267,7 @@ added
 "
 )
 ;
-yield
+await
 promiseSetCookie
 (
 "
@@ -321,7 +321,7 @@ getDate
 2
 )
 ;
-yield
+await
 promiseSetCookie
 (
 foo
@@ -365,7 +365,7 @@ cookie
 "
 )
 ;
-yield
+await
 promiseSetCookie
 (
 "
@@ -399,7 +399,7 @@ cookie
 "
 )
 ;
-yield
+await
 promiseSetCookie
 (
 "
@@ -444,7 +444,7 @@ removed
 "
 )
 ;
-yield
+await
 promiseSetCookie
 (
 "
@@ -509,7 +509,7 @@ cleared
 "
 )
 ;
-yield
+await
 promiseRemoveTab
 (
 gBrowser

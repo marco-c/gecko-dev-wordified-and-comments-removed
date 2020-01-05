@@ -53,13 +53,13 @@ BEHAVIOR_REJECT
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -68,7 +68,7 @@ BEHAVIOR_REJECT
 ]
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab

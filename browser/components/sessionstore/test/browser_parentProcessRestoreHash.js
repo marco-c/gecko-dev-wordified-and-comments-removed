@@ -261,8 +261,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -275,7 +275,7 @@ register
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -444,7 +444,7 @@ return
 "
 )
 ;
-yield
+await
 locationChangePromise
 ;
 ok
@@ -545,7 +545,7 @@ browser
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

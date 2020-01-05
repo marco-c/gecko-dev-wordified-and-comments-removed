@@ -94,14 +94,12 @@ category
 "
 stop
 "
-*
 prepare
 (
 browser
 )
 {
 }
-*
 doAction
 (
 browser
@@ -140,7 +138,7 @@ category
 "
 back
 "
-*
+async
 prepare
 (
 browser
@@ -153,7 +151,7 @@ loadURI
 PAGE_2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -217,7 +215,7 @@ category
 "
 forward
 "
-*
+async
 prepare
 (
 browser
@@ -230,7 +228,7 @@ loadURI
 PAGE_2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -257,7 +255,7 @@ goBack
 (
 )
 ;
-yield
+await
 pageShow
 ;
 }
@@ -318,7 +316,7 @@ category
 "
 historyNavigation
 "
-*
+async
 prepare
 (
 browser
@@ -331,7 +329,7 @@ loadURI
 PAGE_2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -354,7 +352,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -362,7 +360,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -418,7 +416,7 @@ category
 "
 historyNavigation
 "
-*
+async
 prepare
 (
 browser
@@ -431,7 +429,7 @@ loadURI
 PAGE_2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -454,7 +452,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -482,10 +480,10 @@ gotoIndex
 0
 )
 ;
-yield
+await
 pageShow
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -536,14 +534,13 @@ category
 "
 reload
 "
-*
 prepare
 (
 browser
 )
 {
 }
-*
+async
 doAction
 (
 browser
@@ -564,7 +561,7 @@ doCommand
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -589,14 +586,13 @@ category
 "
 newURI
 "
-*
 prepare
 (
 browser
 )
 {
 }
-*
+async
 doAction
 (
 browser
@@ -610,7 +606,7 @@ current
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -804,8 +800,8 @@ cmdEvent
 }
 add_task
 (
+async
 function
-*
 test_probes
 (
 )
@@ -867,7 +863,7 @@ of
 PROBE_TESTS
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -979,7 +975,7 @@ clear
 let
 newTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -997,7 +993,7 @@ busy
 true
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -13,8 +13,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 checkIdentityOfAboutSupport
 (
 )
@@ -62,7 +62,7 @@ getSystemPrincipal
 }
 )
 ;
-yield
+await
 promiseTabLoaded
 (
 tab

@@ -146,8 +146,8 @@ ospath
 }
 add_task
 (
+async
 function
-*
 test_before_after_profile
 (
 )
@@ -226,7 +226,7 @@ Path
 userApplicationDataDir
 )
 ;
-yield
+await
 makeFakeAppDir
 (
 )
@@ -249,8 +249,8 @@ userApplicationDataDir
 ;
 add_task
 (
+async
 function
-*
 test_simple_paths
 (
 )
@@ -287,8 +287,8 @@ TmpD
 ;
 add_task
 (
+async
 function
-*
 test_desktop_paths
 (
 )
@@ -469,8 +469,8 @@ Trsh
 ;
 add_task
 (
+async
 function
-*
 test_libxul
 (
 )

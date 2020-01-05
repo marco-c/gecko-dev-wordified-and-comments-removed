@@ -4,8 +4,8 @@ strict
 "
 add_task
 (
+async
 function
-*
 test_embed_visit
 (
 )
@@ -72,7 +72,7 @@ results
 let
 updated
 =
-yield
+await
 new
 Promise
 (
@@ -185,8 +185,8 @@ added
 ;
 add_task
 (
+async
 function
-*
 test_misc_visits
 (
 )
@@ -275,7 +275,7 @@ results
 let
 updated
 =
-yield
+await
 new
 Promise
 (

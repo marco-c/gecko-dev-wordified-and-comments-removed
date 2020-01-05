@@ -19,8 +19,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_deprecatedCreationDate
 (
 )
@@ -104,7 +104,7 @@ resolve
 let
 currentDir
 =
-yield
+await
 OS
 .
 File
@@ -140,7 +140,7 @@ consoleListener
 )
 ;
 (
-yield
+await
 OS
 .
 File

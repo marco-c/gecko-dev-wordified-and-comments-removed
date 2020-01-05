@@ -43,8 +43,8 @@ init
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -189,7 +189,7 @@ unpackedAddon
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -221,7 +221,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -331,7 +331,7 @@ remove
 true
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -341,8 +341,8 @@ promiseRestartManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -496,7 +496,7 @@ unpackedAddon
 ID
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -528,7 +528,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -563,7 +563,7 @@ remove
 true
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )

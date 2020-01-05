@@ -1,11 +1,11 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 pushPrefs
 (
 [
@@ -23,7 +23,7 @@ FOCUS_COUNT
 =
 30
 ;
-yield
+await
 setLinks
 (
 "
@@ -45,8 +45,7 @@ setPinnedLinks
 "
 )
 ;
-yield
-*
+await
 addNewTabPageTab
 (
 )

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -706,14 +706,14 @@ ready
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -741,7 +741,7 @@ platform
 }
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -751,7 +751,7 @@ commands
 "
 )
 ;
-yield
+await
 extension
 .
 unload

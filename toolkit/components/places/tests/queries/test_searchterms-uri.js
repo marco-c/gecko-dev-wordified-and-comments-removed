@@ -275,13 +275,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_searchterms_uri
 (
 )
 {
-yield
+await
 task_populateDB
 (
 testData
@@ -485,7 +485,7 @@ mo
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change1
@@ -541,7 +541,7 @@ moz
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change2

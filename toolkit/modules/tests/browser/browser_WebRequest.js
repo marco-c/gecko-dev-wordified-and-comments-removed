@@ -1271,8 +1271,8 @@ correct
 )
 ;
 }
+async
 function
-*
 test_once
 (
 )
@@ -1325,7 +1325,7 @@ addListener
 onResponseStarted
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1340,8 +1340,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -1358,7 +1358,7 @@ browser
 URL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1370,7 +1370,7 @@ expected_browser
 =
 null
 ;
-yield
+await
 ContentTask
 .
 spawn

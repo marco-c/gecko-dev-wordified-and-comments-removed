@@ -276,7 +276,6 @@ skip_if
 ENABLE_TESTS
 }
 function
-*
 test_CaptureStacksIncreasesNumberOfCapturedStacks
 (
 )
@@ -425,7 +424,6 @@ skip_if
 ENABLE_TESTS
 }
 function
-*
 test_CaptureStacksGroupsDuplicateStacks
 (
 )
@@ -576,7 +574,6 @@ skip_if
 ENABLE_TESTS
 }
 function
-*
 test_CaptureStacksSeparatesInformationByKeys
 (
 )
@@ -716,7 +713,6 @@ skip_if
 ENABLE_TESTS
 }
 function
-*
 test_CaptureStacksDoesNotAllowBadKey
 (
 )

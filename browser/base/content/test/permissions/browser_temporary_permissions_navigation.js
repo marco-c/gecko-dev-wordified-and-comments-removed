@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testTempPermissionOnReload
 (
 )
@@ -36,7 +36,7 @@ id
 geo
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -44,8 +44,8 @@ withNewTab
 uri
 .
 spec
+async
 function
-*
 (
 browser
 )
@@ -119,7 +119,7 @@ SCOPE_TEMPORARY
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -142,10 +142,10 @@ reload
 )
 )
 ;
-yield
+await
 reloaded
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -214,7 +214,7 @@ reloadButton
 }
 )
 ;
-yield
+await
 reloaded
 ;
 Assert
@@ -302,7 +302,7 @@ button
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -339,7 +339,7 @@ reloadMenuItem
 }
 )
 ;
-yield
+await
 reloaded
 ;
 Assert
@@ -385,8 +385,8 @@ browser
 ;
 add_task
 (
+async
 function
-*
 testTempPermissionOnReloadAllTabs
 (
 )
@@ -416,7 +416,7 @@ id
 geo
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -424,8 +424,8 @@ withNewTab
 uri
 .
 spec
+async
 function
-*
 (
 browser
 )
@@ -489,7 +489,7 @@ button
 }
 )
 ;
-yield
+await
 popupShownPromise
 ;
 let
@@ -543,7 +543,7 @@ reloadMenuItem
 }
 )
 ;
-yield
+await
 reloaded
 ;
 Assert
@@ -589,8 +589,8 @@ browser
 ;
 add_task
 (
+async
 function
-*
 testTempPermissionOnNavigation
 (
 )
@@ -621,7 +621,7 @@ id
 geo
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -629,8 +629,8 @@ withNewTab
 uri
 .
 spec
+async
 function
-*
 (
 browser
 )
@@ -697,7 +697,7 @@ org
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -727,7 +727,7 @@ org
 "
 )
 ;
-yield
+await
 loaded
 ;
 Assert
@@ -771,7 +771,7 @@ uri
 spec
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -801,7 +801,7 @@ com
 "
 )
 ;
-yield
+await
 loaded
 ;
 Assert

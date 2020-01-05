@@ -661,8 +661,8 @@ extensionData
 }
 add_task
 (
+async
 function
-*
 test_contentscript
 (
 )
@@ -713,7 +713,7 @@ ID2
 ID1
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -750,7 +750,7 @@ go
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -839,14 +839,14 @@ done
 ]
 )
 ;
-yield
+await
 extension1
 .
 unload
 (
 )
 ;
-yield
+await
 extension2
 .
 unload

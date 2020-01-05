@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -93,7 +93,7 @@ lastModified
 )
 ;
 }
-yield
+await
 insertAndTest
 (
 {
@@ -131,7 +131,7 @@ tld
 }
 )
 ;
-yield
+await
 insertAndTest
 (
 {
@@ -165,7 +165,7 @@ BOOKMARKS_MENU
 }
 )
 ;
-yield
+await
 insertAndTest
 (
 {
@@ -190,7 +190,7 @@ Folder
 }
 )
 ;
-yield
+await
 insertAndTest
 (
 {

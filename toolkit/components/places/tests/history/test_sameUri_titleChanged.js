@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -107,7 +107,7 @@ historyObserver
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -376,7 +376,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 promiseTitleChangedNotifications
 ;
 }

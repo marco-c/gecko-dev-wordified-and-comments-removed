@@ -1,12 +1,12 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -25,8 +25,8 @@ utf
 8
 1
 "
+async
 function
-*
 (
 browser
 )
@@ -52,7 +52,7 @@ utf
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -81,7 +81,7 @@ utf
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -89,7 +89,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 duplicate
 (
 0
@@ -101,7 +101,7 @@ index
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -111,7 +111,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 duplicate
 (
 -
@@ -122,7 +122,7 @@ back
 "
 )
 ;
-yield
+await
 duplicate
 (
 1
@@ -132,7 +132,7 @@ forward
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -142,7 +142,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -206,12 +206,8 @@ index
 let
 duplicate
 =
-Task
-.
 async
-(
 function
-*
 (
 delta
 msg
@@ -221,7 +217,7 @@ cb
 var
 startIndex
 =
-yield
+await
 promiseGetIndex
 (
 gBrowser
@@ -247,7 +243,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -261,7 +257,7 @@ SSTabRestored
 let
 endIndex
 =
-yield
+await
 promiseGetIndex
 (
 gBrowser
@@ -279,5 +275,4 @@ msg
 )
 ;
 }
-)
 ;

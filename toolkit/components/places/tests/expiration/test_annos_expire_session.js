@@ -37,8 +37,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_annos_expire_session
 (
 )
@@ -100,7 +100,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -196,7 +196,7 @@ org
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -223,7 +223,7 @@ null
 let
 id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -504,7 +504,7 @@ finalize
 }
 )
 ;
-yield
+await
 deferred
 .
 promise

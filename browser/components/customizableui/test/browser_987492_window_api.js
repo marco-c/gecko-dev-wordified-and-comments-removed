@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testOneWindow
 (
 )
@@ -53,8 +53,8 @@ window
 ;
 add_task
 (
+async
 function
-*
 testOpenCloseWindow
 (
 )
@@ -90,7 +90,7 @@ openListener
 let
 win
 =
-yield
+await
 openAndLoadWindow
 (
 null
@@ -241,7 +241,7 @@ addListener
 closeListener
 )
 ;
-yield
+await
 promiseWindowClosed
 (
 newWindow

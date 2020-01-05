@@ -73,8 +73,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -237,7 +237,7 @@ url
 else
 {
 }
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -260,7 +260,7 @@ transition
 )
 ;
 }
-yield
+await
 completionPromise
 ;
 PlacesUtils

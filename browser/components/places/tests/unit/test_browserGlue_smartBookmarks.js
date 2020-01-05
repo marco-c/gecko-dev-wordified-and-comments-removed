@@ -177,8 +177,8 @@ cc
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -209,7 +209,7 @@ PlacesUtils
 .
 history
 ;
-yield
+await
 promiseTopicObserved
 (
 "
@@ -276,8 +276,8 @@ PREF_IMPORT_BOOKMARKS_HTML
 ;
 add_task
 (
+async
 function
-*
 test_version_0
 (
 )
@@ -304,7 +304,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -330,7 +330,7 @@ Assert
 .
 ok
 (
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -362,7 +362,7 @@ PREF_SMART_BOOKMARKS_VERSION
 0
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )
@@ -417,8 +417,8 @@ SMART_BOOKMARKS_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_version_change
 (
 )
@@ -442,7 +442,7 @@ changes
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -463,7 +463,7 @@ index
 }
 )
 ;
-yield
+await
 checkItemHasAnnotation
 (
 bm
@@ -472,7 +472,7 @@ guid
 SMART_BOOKMARKS_ANNO
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -496,7 +496,7 @@ title
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -565,7 +565,7 @@ PREF_SMART_BOOKMARKS_VERSION
 1
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )
@@ -602,7 +602,7 @@ DEFAULT_BOOKMARKS_ON_MENU
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -623,7 +623,7 @@ index
 }
 )
 ;
-yield
+await
 checkItemHasAnnotation
 (
 bm
@@ -665,8 +665,8 @@ SMART_BOOKMARKS_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_version_change_pos
 (
 )
@@ -718,7 +718,7 @@ DEFAULT_BOOKMARKS_ON_MENU
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -739,7 +739,7 @@ index
 }
 )
 ;
-yield
+await
 checkItemHasAnnotation
 (
 bm
@@ -765,7 +765,7 @@ PREF_SMART_BOOKMARKS_VERSION
 1
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )
@@ -802,7 +802,7 @@ DEFAULT_BOOKMARKS_ON_MENU
 ;
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -823,7 +823,7 @@ index
 }
 )
 ;
-yield
+await
 checkItemHasAnnotation
 (
 bm
@@ -862,8 +862,8 @@ SMART_BOOKMARKS_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_version_change_pos_moved
 (
 )
@@ -916,7 +916,7 @@ DEFAULT_BOOKMARKS_ON_MENU
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -937,7 +937,7 @@ index
 }
 )
 ;
-yield
+await
 checkItemHasAnnotation
 (
 bm1
@@ -953,7 +953,7 @@ bm1
 .
 title
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -986,7 +986,7 @@ DEFAULT_INDEX
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1033,7 +1033,7 @@ PREF_SMART_BOOKMARKS_VERSION
 1
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )
@@ -1070,7 +1070,7 @@ DEFAULT_BOOKMARKS_ON_MENU
 ;
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1095,7 +1095,7 @@ DEFAULT_INDEX
 }
 )
 ;
-yield
+await
 checkItemHasAnnotation
 (
 bm1
@@ -1114,7 +1114,7 @@ title
 firstItemTitle
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1160,8 +1160,8 @@ SMART_BOOKMARKS_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_recreation
 (
 )
@@ -1185,7 +1185,7 @@ recreated
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1206,7 +1206,7 @@ index
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1256,7 +1256,7 @@ PREF_SMART_BOOKMARKS_VERSION
 1
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )
@@ -1309,8 +1309,8 @@ SMART_BOOKMARKS_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_recreation_version_0
 (
 )
@@ -1374,7 +1374,7 @@ PREF_SMART_BOOKMARKS_VERSION
 0
 )
 ;
-yield
+await
 rebuildSmartBookmarks
 (
 )

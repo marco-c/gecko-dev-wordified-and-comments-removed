@@ -212,8 +212,8 @@ spec
 ;
 }
 }
+async
 function
-*
 check_orphans
 (
 )
@@ -221,7 +221,7 @@ check_orphans
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -231,7 +231,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 executeCached
@@ -580,8 +580,8 @@ NS_ERROR_ILLEGAL_VALUE
 ;
 add_task
 (
+async
 function
-*
 test_addBookmarkAndKeyword
 (
 )
@@ -595,7 +595,7 @@ null
 let
 fc
 =
-yield
+await
 foreign_count
 (
 URI1
@@ -646,7 +646,7 @@ keyword
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -691,7 +691,7 @@ bookmark
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -719,7 +719,7 @@ SOURCE_DEFAULT
 ]
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -739,7 +739,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 URI1
@@ -750,14 +750,14 @@ fc
 2
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
 (
 )
 ;
-yield
+await
 check_orphans
 (
 )
@@ -767,8 +767,8 @@ check_orphans
 ;
 add_task
 (
+async
 function
-*
 test_addBookmarkToURIHavingKeyword
 (
 )
@@ -784,7 +784,7 @@ keyword
 let
 fc
 =
-yield
+await
 foreign_count
 (
 URI1
@@ -826,7 +826,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 URI1
@@ -846,7 +846,7 @@ removeItem
 itemId
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -862,8 +862,8 @@ check_orphans
 ;
 add_task
 (
+async
 function
-*
 test_sameKeywordDifferentURI
 (
 )
@@ -871,7 +871,7 @@ test_sameKeywordDifferentURI
 let
 fc1
 =
-yield
+await
 foreign_count
 (
 URI1
@@ -880,7 +880,7 @@ URI1
 let
 fc2
 =
-yield
+await
 foreign_count
 (
 URI2
@@ -945,7 +945,7 @@ kEyWoRd
 let
 bookmark1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -962,7 +962,7 @@ URI1
 let
 bookmark2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -991,7 +991,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1016,7 +1016,7 @@ bookmark1
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1067,7 +1067,7 @@ bookmark2
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1095,7 +1095,7 @@ SOURCE_DEFAULT
 ]
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -1113,7 +1113,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 URI1
@@ -1137,7 +1137,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 URI2
@@ -1148,7 +1148,7 @@ fc2
 2
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -1164,8 +1164,8 @@ check_orphans
 ;
 add_task
 (
+async
 function
-*
 test_sameURIDifferentKeyword
 (
 )
@@ -1173,7 +1173,7 @@ test_sameURIDifferentKeyword
 let
 fc
 =
-yield
+await
 foreign_count
 (
 URI2
@@ -1235,7 +1235,7 @@ bookmarks
 [
 ]
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1273,7 +1273,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1308,7 +1308,7 @@ bookmarks
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1352,7 +1352,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1387,7 +1387,7 @@ bookmarks
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1424,7 +1424,7 @@ SOURCE_DEFAULT
 ]
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -1444,7 +1444,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 URI2
@@ -1455,7 +1455,7 @@ fc
 2
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -1471,8 +1471,8 @@ check_orphans
 ;
 add_task
 (
+async
 function
-*
 test_removeBookmarkWithKeyword
 (
 )
@@ -1480,7 +1480,7 @@ test_removeBookmarkWithKeyword
 let
 fc
 =
-yield
+await
 foreign_count
 (
 URI2
@@ -1531,7 +1531,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 URI2
@@ -1540,7 +1540,7 @@ URI2
 fc
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -1556,8 +1556,8 @@ check_orphans
 ;
 add_task
 (
+async
 function
-*
 test_unsetKeyword
 (
 )
@@ -1565,7 +1565,7 @@ test_unsetKeyword
 let
 fc
 =
-yield
+await
 foreign_count
 (
 URI2
@@ -1617,7 +1617,7 @@ bookmarks
 [
 ]
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1662,7 +1662,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1696,7 +1696,7 @@ bookmarks
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1740,7 +1740,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1774,7 +1774,7 @@ bookmarks
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1818,7 +1818,7 @@ arguments
 :
 [
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1852,7 +1852,7 @@ bookmarks
 .
 type
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -1906,7 +1906,7 @@ Assert
 equal
 (
 (
-yield
+await
 foreign_count
 (
 URI2
@@ -1917,7 +1917,7 @@ fc
 1
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
@@ -1933,8 +1933,8 @@ check_orphans
 ;
 add_task
 (
+async
 function
-*
 test_addRemoveBookmark
 (
 )
@@ -1984,7 +1984,7 @@ keyword
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -2001,7 +2001,7 @@ URI3
 let
 parentId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -2075,7 +2075,7 @@ URI3
 null
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates

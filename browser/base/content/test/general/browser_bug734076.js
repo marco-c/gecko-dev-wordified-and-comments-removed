@@ -1,14 +1,14 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -107,8 +107,8 @@ selectedBrowser
 {
 writeDomainURL
 }
+async
 function
-*
 (
 arg
 )
@@ -167,8 +167,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 arg
 )
@@ -243,8 +243,8 @@ selectedBrowser
 {
 writeDomainURL
 }
+async
 function
-*
 (
 arg
 )
@@ -330,8 +330,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 arg
 )
@@ -407,8 +407,8 @@ selectedBrowser
 {
 writeDomainURL
 }
+async
 function
-*
 (
 arg
 )
@@ -517,8 +517,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 arg
 )
@@ -598,7 +598,7 @@ test
 url
 )
 ;
-yield
+await
 loadedPromise
 ;
 info
@@ -616,7 +616,7 @@ name
 let
 commandToRun
 =
-yield
+await
 test
 .
 go
@@ -636,7 +636,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -661,7 +661,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 info
@@ -713,10 +713,10 @@ click
 (
 )
 ;
-yield
+await
 loadedAfterCommandPromise
 ;
-yield
+await
 test
 .
 verify
@@ -742,7 +742,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }

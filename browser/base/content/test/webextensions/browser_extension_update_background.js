@@ -223,13 +223,13 @@ status
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -275,7 +275,7 @@ robots
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -287,8 +287,8 @@ selectedBrowser
 ;
 registerCleanupFunction
 (
+async
 function
-*
 (
 )
 {
@@ -305,7 +305,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -325,8 +325,8 @@ hookExtensionsTelemetry
 (
 )
 ;
+async
 function
-*
 backgroundUpdateTest
 (
 url
@@ -334,7 +334,7 @@ id
 checkIconFn
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -378,7 +378,7 @@ json
 let
 addon
 =
-yield
+await
 promiseInstallAddon
 (
 url
@@ -431,7 +431,7 @@ backgroundUpdateCheck
 (
 )
 ;
-yield
+await
 updatePromise
 ;
 is
@@ -453,7 +453,7 @@ badge
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -529,7 +529,7 @@ click
 let
 tab
 =
-yield
+await
 tabPromise
 ;
 is
@@ -569,7 +569,7 @@ list
 extension
 "
 ;
-yield
+await
 promiseViewLoaded
 (
 tab
@@ -626,7 +626,7 @@ list
 let
 panel
 =
-yield
+await
 popupPromise
 ;
 checkIconFn
@@ -684,7 +684,7 @@ click
 ;
 addon
 =
-yield
+await
 AddonManager
 .
 getAddonByID
@@ -713,7 +713,7 @@ version
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -738,7 +738,7 @@ gone
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -769,7 +769,7 @@ gone
 "
 )
 ;
-yield
+await
 PanelUI
 .
 hide
@@ -786,14 +786,14 @@ onDownloadEnded
 "
 )
 ;
-yield
+await
 AddonManagerPrivate
 .
 backgroundUpdateCheck
 (
 )
 ;
-yield
+await
 updatePromise
 ;
 is
@@ -815,7 +815,7 @@ badge
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -887,7 +887,7 @@ click
 ;
 tab
 =
-yield
+await
 tabPromise
 ;
 is
@@ -906,7 +906,7 @@ addons
 "
 )
 ;
-yield
+await
 promiseViewLoaded
 (
 tab
@@ -968,7 +968,7 @@ addon
 ;
 panel
 =
-yield
+await
 popupPromise
 ;
 panel
@@ -981,7 +981,7 @@ click
 ;
 addon
 =
-yield
+await
 updatePromise
 ;
 is
@@ -1005,7 +1005,7 @@ version
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1048,7 +1048,7 @@ uninstall
 (
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv

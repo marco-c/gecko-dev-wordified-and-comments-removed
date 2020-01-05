@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_download_embed_bookmarks
 (
 )
@@ -108,7 +108,7 @@ framed
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -201,7 +201,7 @@ TRANSITION_FRAMED_LINK
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -218,7 +218,7 @@ bookmark
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -235,7 +235,7 @@ bookmark
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -264,7 +264,7 @@ matches
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -313,7 +313,7 @@ matches
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -362,7 +362,7 @@ matches
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -412,7 +412,7 @@ match
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -441,7 +441,7 @@ match
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -470,7 +470,7 @@ match
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -486,7 +486,7 @@ matches
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

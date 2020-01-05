@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -28,7 +28,7 @@ mozilla
 "
 )
 ;
-yield
+await
 promiseBrowserLoaded
 (
 gBrowser
@@ -46,13 +46,13 @@ replaceTabWithWindow
 tab
 )
 ;
-yield
+await
 promiseDelayedStartupFinished
 (
 win
 )
 ;
-yield
+await
 promiseBrowserHasURL
 (
 win
@@ -84,7 +84,7 @@ tab
 "
 )
 ;
-yield
+await
 promiseTabRestored
 (
 win
@@ -128,7 +128,7 @@ duplicated
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

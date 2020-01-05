@@ -9,12 +9,12 @@ menuButton
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -79,7 +79,7 @@ appendChild
 button
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -103,7 +103,7 @@ button
 }
 )
 ;
-yield
+await
 hiddenAgain
 ;
 button
@@ -117,8 +117,8 @@ remove
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -244,7 +244,7 @@ appendChild
 menuButton
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -284,10 +284,10 @@ innerButton
 }
 )
 ;
-yield
+await
 hiddenAgain
 ;
-yield
+await
 PanelUI
 .
 show
@@ -337,7 +337,7 @@ dropmarker
 }
 )
 ;
-yield
+await
 menuShown
 ;
 ok
@@ -372,10 +372,10 @@ menuItem
 }
 )
 ;
-yield
+await
 menuHidden
 ;
-yield
+await
 hiddenAgain
 ;
 menuButton
@@ -389,8 +389,8 @@ remove
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -443,14 +443,14 @@ panel
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
 (
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -474,7 +474,7 @@ value
 "
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -581,7 +581,7 @@ button
 }
 )
 ;
-yield
+await
 contextMenuShown
 ;
 ok
@@ -634,7 +634,7 @@ selectAll
 }
 )
 ;
-yield
+await
 contextMenuHidden
 ;
 searchbar
@@ -680,7 +680,7 @@ VK_ESCAPE
 }
 )
 ;
-yield
+await
 hiddenPanelPromise
 ;
 ok
@@ -716,8 +716,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -773,7 +773,7 @@ appendChild
 button
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -832,7 +832,7 @@ button
 }
 )
 ;
-yield
+await
 hiddenAgain
 ;
 button

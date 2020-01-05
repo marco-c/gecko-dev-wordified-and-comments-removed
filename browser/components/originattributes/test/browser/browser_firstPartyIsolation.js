@@ -37,8 +37,8 @@ test
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -96,8 +96,8 @@ removeAll
 ;
 add_task
 (
+async
 function
-*
 principal_test
 (
 )
@@ -118,7 +118,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -147,7 +147,7 @@ html
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -160,8 +160,8 @@ firstPartyDomain
 :
 BASE_DOMAIN
 }
+async
 function
-*
 (
 attrs
 )
@@ -354,8 +354,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 cookie_test
 (
 )
@@ -376,7 +376,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -499,8 +499,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 redirect_test
 (
 )
@@ -521,7 +521,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -531,7 +531,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -548,8 +548,8 @@ example
 com
 "
 }
+async
 function
-*
 (
 attrs
 )
@@ -698,7 +698,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -730,7 +730,7 @@ com
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -747,8 +747,8 @@ example
 com
 "
 }
+async
 function
-*
 (
 attrs
 )
@@ -870,7 +870,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -901,7 +901,7 @@ html
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -918,8 +918,8 @@ mochi
 test
 "
 }
+async
 function
-*
 (
 attrs
 )
@@ -1099,8 +1099,8 @@ tab3
 ;
 add_task
 (
+async
 function
-*
 postMessage_test
 (
 )
@@ -1121,7 +1121,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1150,7 +1150,7 @@ html
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1160,8 +1160,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -1223,8 +1223,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 openWindow_test
 (
 )
@@ -1288,14 +1288,14 @@ html
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 waitForNewWindow
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1314,8 +1314,8 @@ mochi
 test
 "
 }
+async
 function
-*
 (
 attrs
 )
@@ -1449,7 +1449,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1462,8 +1462,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 window_open_redirect_test
 (
 )
@@ -1527,14 +1527,14 @@ html
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1546,7 +1546,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1565,8 +1565,8 @@ mochi
 test
 "
 }
+async
 function
-*
 (
 attrs
 )
@@ -1633,7 +1633,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1646,8 +1646,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 window_open_iframe_test
 (
 )
@@ -1711,14 +1711,14 @@ html
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1731,7 +1731,7 @@ selectedBrowser
 true
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1750,8 +1750,8 @@ mochi
 test
 "
 }
+async
 function
-*
 (
 attrs
 )
@@ -1891,7 +1891,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1904,8 +1904,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 form_test
 (
 )
@@ -1926,7 +1926,7 @@ html
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1936,7 +1936,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1953,8 +1953,8 @@ mochi
 test
 "
 }
+async
 function
-*
 (
 attrs
 )
@@ -2019,8 +2019,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 window_open_form_test
 (
 )
@@ -2084,14 +2084,14 @@ html
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 waitForNewWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -2104,7 +2104,7 @@ selectedBrowser
 true
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2123,8 +2123,8 @@ mochi
 test
 "
 }
+async
 function
-*
 (
 attrs
 )
@@ -2213,7 +2213,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

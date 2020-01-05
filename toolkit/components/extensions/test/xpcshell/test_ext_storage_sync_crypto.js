@@ -306,8 +306,8 @@ KEY_BUNDLE
 ;
 add_task
 (
+async
 function
-*
 test_encryption_transformer_roundtrip
 (
 )
@@ -366,12 +366,12 @@ key
 deepEqual
 (
 record
-yield
+await
 transformer
 .
 decode
 (
-yield
+await
 transformer
 .
 encode
@@ -387,8 +387,8 @@ record
 ;
 add_task
 (
+async
 function
-*
 test_refuses_to_decrypt_tampered
 (
 )
@@ -396,7 +396,7 @@ test_refuses_to_decrypt_tampered
 const
 encryptedRecord
 =
-yield
+await
 transformer
 .
 encode
@@ -445,8 +445,7 @@ hmac
 }
 )
 ;
-yield
-*
+await
 throwsGen
 (
 Utils
@@ -489,8 +488,7 @@ aaaaaaaaaaaaaaaaaaaaaa
 }
 )
 ;
-yield
-*
+await
 throwsGen
 (
 Utils

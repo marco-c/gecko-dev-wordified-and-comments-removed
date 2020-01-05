@@ -204,13 +204,13 @@ gFavicon
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -246,7 +246,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -283,7 +283,7 @@ getSystemPrincipal
 ;
 gDefaultFavicon
 =
-yield
+await
 fetchIconForSpec
 (
 PlacesUtils
@@ -297,7 +297,7 @@ spec
 ;
 gFavicon
 =
-yield
+await
 fetchIconForSpec
 (
 ICON_DATAURL
@@ -308,8 +308,8 @@ ICON_DATAURL
 ;
 add_task
 (
+async
 function
-*
 known_url
 (
 )
@@ -320,7 +320,7 @@ data
 contentType
 }
 =
-yield
+await
 fetchIconForSpec
 (
 "
@@ -366,8 +366,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 unknown_url
 (
 )
@@ -378,7 +378,7 @@ data
 contentType
 }
 =
-yield
+await
 fetchIconForSpec
 (
 "
@@ -431,8 +431,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 invalid_url
 (
 )
@@ -443,7 +443,7 @@ data
 contentType
 }
 =
-yield
+await
 fetchIconForSpec
 (
 "
@@ -489,8 +489,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 subpage_url_fallback
 (
 )
@@ -501,7 +501,7 @@ data
 contentType
 }
 =
-yield
+await
 fetchIconForSpec
 (
 "
@@ -553,8 +553,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 svg_icon
 (
 )
@@ -601,7 +601,7 @@ getSystemPrincipal
 )
 )
 ;
-yield
+await
 setFaviconForPage
 (
 TEST_URI
@@ -611,7 +611,7 @@ faviconURI
 let
 svgIcon
 =
-yield
+await
 fetchIconForSpec
 (
 SMALLSVG_DATA_URI
@@ -628,7 +628,7 @@ contentType
 let
 pageIcon
 =
-yield
+await
 fetchIconForSpec
 (
 "
@@ -679,8 +679,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 page_with_ref
 (
 )
@@ -739,7 +739,7 @@ ref
 ]
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -747,7 +747,7 @@ addVisits
 url
 )
 ;
-yield
+await
 setFaviconForPage
 (
 url
@@ -761,7 +761,7 @@ data
 contentType
 }
 =
-yield
+await
 fetchIconForSpec
 (
 "
@@ -800,7 +800,7 @@ data
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 history

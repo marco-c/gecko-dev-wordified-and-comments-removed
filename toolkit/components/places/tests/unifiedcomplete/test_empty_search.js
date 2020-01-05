@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_javascript_match
 (
 )
@@ -146,7 +146,7 @@ foo
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -224,7 +224,7 @@ title
 ]
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -239,7 +239,7 @@ title
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -254,7 +254,7 @@ title
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -269,7 +269,7 @@ title
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -290,7 +290,7 @@ uri7
 1
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -308,7 +308,7 @@ everything
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -461,7 +461,7 @@ history
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -514,7 +514,7 @@ history
 "
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -599,7 +599,7 @@ bookmark
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -715,7 +715,7 @@ bookmark
 false
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -792,7 +792,7 @@ bookmark
 "
 )
 ;
-yield
+await
 cleanup
 (
 )

@@ -48,8 +48,8 @@ original
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -71,7 +71,7 @@ enabled
 true
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -162,8 +162,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -185,7 +185,7 @@ enabled
 false
 )
 ;
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -276,8 +276,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

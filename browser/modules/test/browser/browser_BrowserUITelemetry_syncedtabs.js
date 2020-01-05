@@ -347,8 +347,8 @@ updated
 }
 add_task
 (
+async
 function
-*
 test_menu
 (
 )
@@ -367,7 +367,7 @@ promiseTabsUpdated
 (
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -394,7 +394,7 @@ click
 (
 )
 ;
-yield
+await
 tabsUpdated
 ;
 let
@@ -494,8 +494,8 @@ subview
 ;
 add_task
 (
+async
 function
-*
 test_sidebar
 (
 )
@@ -507,7 +507,7 @@ _countableEvents
 {
 }
 ;
-yield
+await
 SidebarUI
 .
 show
@@ -575,14 +575,14 @@ class
 container
 )
 ;
-yield
+await
 syncedTabsDeckComponent
 .
 updatePanel
 (
 )
 ;
-yield
+await
 promiseUpdated
 ;
 let
@@ -670,7 +670,7 @@ sidebar
 }
 )
 ;
-yield
+await
 SidebarUI
 .
 hide

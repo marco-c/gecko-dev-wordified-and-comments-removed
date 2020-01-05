@@ -470,8 +470,8 @@ true
 }
 add_task
 (
+async
 function
-*
 test_require_interaction
 (
 )
@@ -592,7 +592,7 @@ available
 return
 ;
 }
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -770,7 +770,7 @@ finishCallback
 var
 xulAlertCreated
 =
-yield
+await
 promiseCreateXULAlert
 (
 alertService
@@ -819,7 +819,7 @@ return
 }
 xulAlertCreated
 =
-yield
+await
 promiseCreateXULAlert
 (
 alertService
@@ -851,7 +851,7 @@ second
 alert
 xulAlertCreated
 =
-yield
+await
 promiseCreateXULAlert
 (
 alertService
@@ -901,7 +901,7 @@ resolve
 ;
 xulAlertCreated
 =
-yield
+await
 promiseCreateXULAlert
 (
 alertService
@@ -943,7 +943,7 @@ alert
 .
 xulAlertCreated
 =
-yield
+await
 promiseCreateXULAlert
 (
 alertService
@@ -1077,7 +1077,7 @@ first
 "
 )
 ;
-yield
+await
 testFinishPromise
 ;
 }

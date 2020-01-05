@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_first_download_panel
 (
 )
@@ -77,7 +77,7 @@ oldPrefValue
 }
 )
 ;
-yield
+await
 task_resetState
 (
 )
@@ -114,7 +114,7 @@ start
 "
 )
 ;
-yield
+await
 promise
 ;
 DownloadsPanel
@@ -202,7 +202,7 @@ start
 "
 )
 ;
-yield
+await
 new
 Promise
 (

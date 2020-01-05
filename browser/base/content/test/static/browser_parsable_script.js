@@ -279,8 +279,8 @@ promise
 }
 add_task
 (
+async
 function
-*
 checkAllTheJS
 (
 )
@@ -456,7 +456,7 @@ URIs
 ;
 uris
 =
-yield
+await
 generateURIsFromDirTree
 (
 appDir
@@ -602,7 +602,7 @@ spec
 let
 promiseResults
 =
-yield
+await
 Promise
 .
 all

@@ -5,8 +5,8 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -37,7 +37,7 @@ value
 )
 ;
 }
-yield
+await
 pushPref
 (
 "
@@ -2024,7 +2024,7 @@ test
 dataUri
 )
 ;
-yield
+await
 loadedPromise
 ;
 continue
@@ -2055,7 +2055,7 @@ if
 prefsChanged
 )
 {
-yield
+await
 pushPref
 (
 "
@@ -2069,7 +2069,7 @@ middlemousepastepref
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -2093,7 +2093,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2103,8 +2103,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -2195,7 +2195,7 @@ started
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -2231,7 +2231,7 @@ if
 prefsChanged
 )
 {
-yield
+await
 SpecialPowers
 .
 popPrefEnv
@@ -2252,7 +2252,7 @@ do
 let
 timestamp
 =
-yield
+await
 new
 Promise
 (
@@ -2352,7 +2352,7 @@ expected
 &
 expectScrollHori
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -2374,8 +2374,8 @@ test
 .
 testwindow
 }
+async
 function
-*
 (
 args
 )
@@ -2748,7 +2748,7 @@ msg
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -2792,7 +2792,7 @@ length
 )
 ;
 }
-yield
+await
 SimpleTest
 .
 promiseFocus

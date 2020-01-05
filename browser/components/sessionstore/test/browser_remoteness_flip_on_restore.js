@@ -238,8 +238,8 @@ _closedTabs
 ]
 }
 ;
+async
 function
-*
 runScenarios
 (
 scenarios
@@ -293,7 +293,7 @@ tab
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -369,7 +369,7 @@ tab
 ;
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -446,7 +446,7 @@ selectedTab
 tabToSelect
 )
 {
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -548,7 +548,7 @@ i
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -560,8 +560,8 @@ win
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -570,7 +570,7 @@ requestLongerTimeout
 5
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -764,8 +764,7 @@ true
 }
 ]
 ;
-yield
-*
+await
 runScenarios
 (
 TEST_SCENARIOS

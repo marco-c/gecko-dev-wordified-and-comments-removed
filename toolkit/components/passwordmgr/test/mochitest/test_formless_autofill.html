@@ -272,8 +272,8 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -289,10 +289,10 @@ setup
 "
 )
 ;
-yield
+await
 doneSetupPromise
 ;
-yield
+await
 loadRecipes
 (
 {
@@ -778,8 +778,8 @@ testpass
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -875,7 +875,7 @@ s
 "
 )
 ;
-yield
+await
 processedFormPromise
 ;
 let

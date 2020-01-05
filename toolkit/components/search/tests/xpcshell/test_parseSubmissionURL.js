@@ -23,8 +23,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_parseSubmissionURL
 (
 )
@@ -61,7 +61,7 @@ engine3
 engine4
 ]
 =
-yield
+await
 addTestEngines
 (
 [

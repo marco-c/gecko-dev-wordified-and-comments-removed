@@ -19,12 +19,12 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -61,7 +61,7 @@ functionality
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -121,7 +121,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -185,8 +185,8 @@ opened
 ;
 add_task
 (
+async
 function
-*
 asyncCleanup
 (
 )

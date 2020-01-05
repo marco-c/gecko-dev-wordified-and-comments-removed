@@ -35,8 +35,8 @@ xml
 ;
 add_task
 (
+async
 function
-*
 switchToTab
 (
 )
@@ -44,7 +44,7 @@ switchToTab
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -57,7 +57,7 @@ about
 "
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "
@@ -163,7 +163,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 promisePopupHidden
 (
 gURLBar
@@ -183,8 +183,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 searchSuggestions
 (
 )
@@ -192,7 +192,7 @@ searchSuggestions
 let
 engine
 =
-yield
+await
 promiseNewSearchEngine
 (
 TEST_ENGINE_BASENAME
@@ -270,7 +270,7 @@ SUGGEST_URLBAR_PREF
 }
 )
 ;
-yield
+await
 promiseAutocompleteResultPopup
 (
 "

@@ -1,12 +1,12 @@
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 setupPlacesDatabase
 (
 "
@@ -21,8 +21,8 @@ sqlite
 ;
 add_task
 (
+async
 function
-*
 database_is_valid
 (
 )
@@ -46,7 +46,7 @@ DATABASE_STATUS_UPGRADED
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -58,7 +58,7 @@ Assert
 equal
 (
 (
-yield
+await
 db
 .
 getSchemaVersion
@@ -73,8 +73,8 @@ CURRENT_SCHEMA_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_sync_fields
 (
 )
@@ -82,7 +82,7 @@ test_sync_fields
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -92,7 +92,7 @@ promiseDBConnection
 let
 syncFields
 =
-yield
+await
 db
 .
 executeCached

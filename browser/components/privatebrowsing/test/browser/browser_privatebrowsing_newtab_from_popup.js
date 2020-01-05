@@ -115,8 +115,8 @@ a
 ;
 add_task
 (
+async
 function
-*
 test_private_popup_window_opens_private_tabs
 (
 )
@@ -124,7 +124,7 @@ test_private_popup_window_opens_private_tabs
 let
 privWin
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -163,7 +163,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -172,7 +172,7 @@ privBrowser
 WINDOW_BODY
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -191,7 +191,7 @@ true
 POPUP_LINK
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -208,7 +208,7 @@ privBrowser
 let
 popupWin
 =
-yield
+await
 openedPromise
 ;
 ok
@@ -249,7 +249,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -266,7 +266,7 @@ popupBrowser
 let
 newPrivTab
 =
-yield
+await
 newTabPromise
 ;
 ok
@@ -290,7 +290,7 @@ private
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -298,7 +298,7 @@ removeTab
 newPrivTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -306,7 +306,7 @@ closeWindow
 popupWin
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

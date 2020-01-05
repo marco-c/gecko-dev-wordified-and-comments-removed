@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_edit_password
 (
 )
@@ -284,7 +284,7 @@ passwordChangedTo
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -322,8 +322,8 @@ form_basic
 html
 "
 }
+async
 function
-*
 (
 browser
 )
@@ -356,15 +356,15 @@ PopupNotifications
 panel
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
 (
 browser
 testCase
+async
 function
-*
 (
 contentTestCase
 )
@@ -432,7 +432,7 @@ submit
 }
 )
 ;
-yield
+await
 promiseShown
 ;
 let
@@ -593,7 +593,7 @@ let
 result
 ]
 =
-yield
+await
 promiseLogin
 ;
 let

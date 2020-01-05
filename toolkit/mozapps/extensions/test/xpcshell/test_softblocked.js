@@ -417,8 +417,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -487,7 +487,7 @@ startupManager
 let
 s1
 =
-yield
+await
 promiseAddonByID
 (
 "
@@ -527,7 +527,7 @@ s1
 isActive
 )
 ;
-yield
+await
 load_blocklist
 (
 "
@@ -558,7 +558,7 @@ s1
 isActive
 )
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -568,7 +568,7 @@ promiseRestartManager
 ;
 s1
 =
-yield
+await
 promiseAddonByID
 (
 "

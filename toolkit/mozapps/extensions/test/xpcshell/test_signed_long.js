@@ -92,13 +92,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_working
 (
 )
 {
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -138,7 +138,7 @@ xpi
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -185,8 +185,8 @@ uninstall
 ;
 add_task
 (
+async
 function
-*
 test_broken
 (
 )
@@ -230,7 +230,7 @@ xpi
 let
 installs
 =
-yield
+await
 Promise
 .
 all

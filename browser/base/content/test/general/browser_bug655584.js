@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -23,7 +23,7 @@ addTab
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -38,7 +38,7 @@ focus
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -53,7 +53,7 @@ openPopup
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab

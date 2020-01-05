@@ -368,13 +368,13 @@ blocked
 }
 add_task
 (
+async
 function
-*
 setup_test_preference
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -420,8 +420,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 unblock_icon_should_disapear_after_resume_tab
 (
 )
@@ -463,7 +463,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -489,7 +489,7 @@ beginning
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -517,7 +517,7 @@ blocked
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -531,7 +531,7 @@ NONE_SUSPENDED
 check_audio_suspended
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -558,7 +558,7 @@ icon
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -614,7 +614,7 @@ tab
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -640,7 +640,7 @@ blocked
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -654,7 +654,7 @@ SUSPENDED_BLOCK
 check_audio_suspended
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -679,7 +679,7 @@ icon
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -699,7 +699,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -726,7 +726,7 @@ blocked
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -740,7 +740,7 @@ NONE_SUSPENDED
 check_audio_suspended
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -766,7 +766,7 @@ icon
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -783,7 +783,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

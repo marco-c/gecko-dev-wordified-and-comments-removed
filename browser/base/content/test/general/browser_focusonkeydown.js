@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -10,7 +10,7 @@ keyUps
 =
 0
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab

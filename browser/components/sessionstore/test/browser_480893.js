@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -62,7 +62,7 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -96,7 +96,7 @@ click
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -126,7 +126,7 @@ test
 /
 "
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -172,7 +172,7 @@ sessionrestore
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -205,7 +205,7 @@ click
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -230,7 +230,7 @@ homepage
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

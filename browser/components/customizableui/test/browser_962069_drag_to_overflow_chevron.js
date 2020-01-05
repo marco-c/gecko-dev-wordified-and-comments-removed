@@ -8,8 +8,8 @@ originalWindowWidth
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -80,7 +80,7 @@ window
 outerHeight
 )
 ;
-yield
+await
 waitForCondition
 (
 (
@@ -232,7 +232,7 @@ identityBox
 overflowChevron
 )
 ;
-yield
+await
 panelShownPromise
 ;
 EventUtils
@@ -272,7 +272,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 panelHiddenPromise
 ;
 }
@@ -280,8 +280,8 @@ panelHiddenPromise
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -307,7 +307,7 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
-yield
+await
 waitForCondition
 (
 (

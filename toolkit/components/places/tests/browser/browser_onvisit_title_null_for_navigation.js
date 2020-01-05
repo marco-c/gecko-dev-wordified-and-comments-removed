@@ -30,8 +30,8 @@ com
 ;
 add_task
 (
+async
 function
-*
 checkTitleNotificationForNavigation
 (
 )
@@ -192,7 +192,7 @@ obs
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -203,10 +203,10 @@ EXPECTED_URL
 spec
 )
 ;
-yield
+await
 promiseTitleChanged
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

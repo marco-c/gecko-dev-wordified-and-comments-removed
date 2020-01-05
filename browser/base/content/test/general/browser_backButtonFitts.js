@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -34,7 +34,7 @@ dummy_page
 html
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -43,7 +43,7 @@ gBrowser
 firstLocation
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -53,8 +53,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -172,7 +172,7 @@ xPixel
 let
 resultLocation
 =
-yield
+await
 new
 Promise
 (

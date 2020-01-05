@@ -237,7 +237,6 @@ false
 }
 }
 function
-*
 createPendingCrashReports
 (
 howMany
@@ -428,12 +427,9 @@ ServerURL
 SERVER_URL
 ;
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -486,7 +482,7 @@ length
 1
 )
 ;
-yield
+await
 createFile
 (
 uuid
@@ -496,7 +492,7 @@ dmp
 accessDate
 )
 ;
-yield
+await
 createFile
 (
 uuid
@@ -519,6 +515,8 @@ return
 uuids
 ;
 }
+)
+(
 )
 ;
 }
@@ -714,13 +712,13 @@ gNotificationBox
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 makeFakeAppDir
 (
 )
@@ -821,7 +819,7 @@ uninit
 (
 )
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -884,8 +882,8 @@ oldServerURL
 ;
 add_task
 (
+async
 function
-*
 test_no_pending_no_notification
 (
 )
@@ -897,7 +895,7 @@ clearPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -935,13 +933,13 @@ reports
 ;
 add_task
 (
+async
 function
-*
 test_one_pending
 (
 )
 {
-yield
+await
 createPendingCrashReports
 (
 1
@@ -950,7 +948,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -988,13 +986,13 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_several_pending
 (
 )
 {
-yield
+await
 createPendingCrashReports
 (
 3
@@ -1003,7 +1001,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1041,8 +1039,8 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_several_pending
 (
 )
@@ -1066,7 +1064,7 @@ DAY
 )
 )
 ;
-yield
+await
 createPendingCrashReports
 (
 3
@@ -1076,7 +1074,7 @@ oldDate
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1110,7 +1108,7 @@ reports
 "
 )
 ;
-yield
+await
 createPendingCrashReports
 (
 1
@@ -1118,7 +1116,7 @@ createPendingCrashReports
 ;
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1156,8 +1154,8 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_can_submit
 (
 )
@@ -1165,7 +1163,7 @@ test_can_submit
 let
 reportIDs
 =
-yield
+await
 createPendingCrashReports
 (
 1
@@ -1174,7 +1172,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1270,7 +1268,7 @@ received
 "
 )
 ;
-yield
+await
 promiseReports
 ;
 info
@@ -1290,8 +1288,8 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_can_submit_several
 (
 )
@@ -1299,7 +1297,7 @@ test_can_submit_several
 let
 reportIDs
 =
-yield
+await
 createPendingCrashReports
 (
 3
@@ -1308,7 +1306,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1404,7 +1402,7 @@ received
 "
 )
 ;
-yield
+await
 promiseReports
 ;
 info
@@ -1424,8 +1422,8 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_can_submit_always
 (
 )
@@ -1472,7 +1470,7 @@ default
 let
 reportIDs
 =
-yield
+await
 createPendingCrashReports
 (
 1
@@ -1481,7 +1479,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1577,7 +1575,7 @@ received
 "
 )
 ;
-yield
+await
 promiseReports
 ;
 info
@@ -1630,13 +1628,13 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_can_auto_submit
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1664,7 +1662,7 @@ true
 let
 reportIDs
 =
-yield
+await
 createPendingCrashReports
 (
 3
@@ -1681,7 +1679,7 @@ reportIDs
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1716,7 +1714,7 @@ received
 "
 )
 ;
-yield
+await
 promiseReports
 ;
 info
@@ -1731,7 +1729,7 @@ clearPendingCrashReports
 (
 )
 ;
-yield
+await
 SpecialPowers
 .
 popPrefEnv
@@ -1743,8 +1741,8 @@ popPrefEnv
 ;
 add_task
 (
+async
 function
-*
 test_can_ignore
 (
 )
@@ -1752,7 +1750,7 @@ test_can_ignore
 let
 reportIDs
 =
-yield
+await
 createPendingCrashReports
 (
 3
@@ -1761,7 +1759,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1824,7 +1822,7 @@ notification
 true
 )
 ;
-yield
+await
 waitForIgnoredReports
 (
 reportIDs
@@ -1832,7 +1830,7 @@ reportIDs
 ;
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1863,13 +1861,13 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_last_shown_date
 (
 )
 {
-yield
+await
 createPendingCrashReports
 (
 1
@@ -1878,7 +1876,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -1971,13 +1969,13 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_shutdown_while_showing
 (
 )
 {
-yield
+await
 createPendingCrashReports
 (
 1
@@ -1986,7 +1984,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -2085,8 +2083,8 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_shutdown_while_not_showing
 (
 )
@@ -2094,7 +2092,7 @@ test_shutdown_while_not_showing
 let
 reportIDs
 =
-yield
+await
 createPendingCrashReports
 (
 1
@@ -2103,7 +2101,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -2166,7 +2164,7 @@ notification
 true
 )
 ;
-yield
+await
 waitForIgnoredReports
 (
 reportIDs
@@ -2233,8 +2231,8 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_dont_decrement_chances_on_same_day
 (
 )
@@ -2273,7 +2271,7 @@ chance
 "
 )
 ;
-yield
+await
 createPendingCrashReports
 (
 1
@@ -2282,7 +2280,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -2407,7 +2405,7 @@ init
 ;
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -2477,8 +2475,8 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_decrement_chances_on_other_day
 (
 )
@@ -2517,7 +2515,7 @@ chance
 "
 )
 ;
-yield
+await
 createPendingCrashReports
 (
 1
@@ -2526,7 +2524,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -2639,7 +2637,7 @@ init
 ;
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -2722,8 +2720,8 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_can_suppress_after_chances
 (
 )
@@ -2784,7 +2782,7 @@ chancesUntilSuppress
 0
 )
 ;
-yield
+await
 createPendingCrashReports
 (
 1
@@ -2793,7 +2791,7 @@ createPendingCrashReports
 let
 notification
 =
-yield
+await
 UnsubmittedCrashHandler
 .
 checkForUnsubmittedCrashReports
@@ -2914,8 +2912,8 @@ clearPendingCrashReports
 ;
 add_task
 (
+async
 function
-*
 test_suppression
 (
 )
@@ -3013,8 +3011,8 @@ init
 ;
 add_task
 (
+async
 function
-*
 test_end_suppression
 (
 )

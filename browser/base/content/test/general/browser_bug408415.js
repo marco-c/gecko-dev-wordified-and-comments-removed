@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -14,7 +14,7 @@ getRootDirectory
 gTestPath
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -29,8 +29,8 @@ about
 blank
 "
 }
+async
 function
-*
 (
 tabBrowser
 )
@@ -124,7 +124,7 @@ URI
 let
 iconURI
 =
-yield
+await
 got_favicon
 .
 promise
@@ -182,7 +182,7 @@ e
 e
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -239,7 +239,7 @@ tabBrowser
 ;
 try
 {
-yield
+await
 got_favicon
 .
 promise

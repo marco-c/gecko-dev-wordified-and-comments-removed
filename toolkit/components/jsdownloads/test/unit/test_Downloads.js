@@ -5,13 +5,13 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_createDownload
 (
 )
 {
-yield
+await
 Downloads
 .
 createDownload
@@ -57,8 +57,8 @@ copy
 ;
 add_task
 (
+async
 function
-*
 test_createDownload_private
 (
 )
@@ -66,7 +66,7 @@ test_createDownload_private
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -124,8 +124,8 @@ isPrivate
 ;
 add_task
 (
+async
 function
-*
 test_createDownload_public
 (
 )
@@ -143,7 +143,7 @@ path
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -193,7 +193,7 @@ isPrivate
 ;
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -243,8 +243,8 @@ isPrivate
 ;
 add_task
 (
+async
 function
-*
 test_createDownload_pdf
 (
 )
@@ -252,7 +252,7 @@ test_createDownload_pdf
 let
 download
 =
-yield
+await
 Downloads
 .
 createDownload
@@ -295,7 +295,7 @@ pdf
 ;
 try
 {
-yield
+await
 download
 .
 start
@@ -395,7 +395,7 @@ becauseTargetFailed
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -415,8 +415,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_fetch_uri_file_arguments
 (
 )
@@ -429,7 +429,7 @@ getTempFile
 TEST_TARGET_FILE_NAME
 )
 ;
-yield
+await
 Downloads
 .
 fetch
@@ -450,7 +450,7 @@ txt
 targetFile
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 targetFile
@@ -464,8 +464,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_fetch_object_arguments
 (
 )
@@ -480,7 +480,7 @@ TEST_TARGET_FILE_NAME
 .
 path
 ;
-yield
+await
 Downloads
 .
 fetch
@@ -504,7 +504,7 @@ targetPath
 }
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 targetPath
@@ -516,8 +516,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_fetch_string_arguments
 (
 )
@@ -532,7 +532,7 @@ TEST_TARGET_FILE_NAME
 .
 path
 ;
-yield
+await
 Downloads
 .
 fetch
@@ -548,7 +548,7 @@ txt
 targetPath
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 targetPath
@@ -564,7 +564,7 @@ TEST_TARGET_FILE_NAME
 .
 path
 ;
-yield
+await
 Downloads
 .
 fetch
@@ -588,7 +588,7 @@ targetPath
 )
 )
 ;
-yield
+await
 promiseVerifyContents
 (
 targetPath
@@ -600,8 +600,8 @@ TEST_DATA_SHORT
 ;
 add_task
 (
+async
 function
-*
 test_getList
 (
 )
@@ -609,7 +609,7 @@ test_getList
 let
 publicListOne
 =
-yield
+await
 Downloads
 .
 getList
@@ -622,7 +622,7 @@ PUBLIC
 let
 privateListOne
 =
-yield
+await
 Downloads
 .
 getList
@@ -635,7 +635,7 @@ PRIVATE
 let
 publicListTwo
 =
-yield
+await
 Downloads
 .
 getList
@@ -648,7 +648,7 @@ PUBLIC
 let
 privateListTwo
 =
-yield
+await
 Downloads
 .
 getList
@@ -681,8 +681,8 @@ privateListOne
 ;
 add_task
 (
+async
 function
-*
 test_getSummary
 (
 )
@@ -690,7 +690,7 @@ test_getSummary
 let
 publicSummaryOne
 =
-yield
+await
 Downloads
 .
 getSummary
@@ -703,7 +703,7 @@ PUBLIC
 let
 privateSummaryOne
 =
-yield
+await
 Downloads
 .
 getSummary
@@ -716,7 +716,7 @@ PRIVATE
 let
 publicSummaryTwo
 =
-yield
+await
 Downloads
 .
 getSummary
@@ -729,7 +729,7 @@ PUBLIC
 let
 privateSummaryTwo
 =
-yield
+await
 Downloads
 .
 getSummary
@@ -762,8 +762,8 @@ privateSummaryOne
 ;
 add_task
 (
+async
 function
-*
 test_getSystemDownloadsDirectory
 (
 )
@@ -771,7 +771,7 @@ test_getSystemDownloadsDirectory
 let
 downloadDir
 =
-yield
+await
 Downloads
 .
 getSystemDownloadsDirectory
@@ -790,8 +790,8 @@ downloadDir
 ;
 add_task
 (
+async
 function
-*
 test_getPreferredDownloadsDirectory
 (
 )
@@ -799,7 +799,7 @@ test_getPreferredDownloadsDirectory
 let
 downloadDir
 =
-yield
+await
 Downloads
 .
 getPreferredDownloadsDirectory
@@ -818,8 +818,8 @@ downloadDir
 ;
 add_task
 (
+async
 function
-*
 test_getTemporaryDownloadsDirectory
 (
 )
@@ -827,7 +827,7 @@ test_getTemporaryDownloadsDirectory
 let
 downloadDir
 =
-yield
+await
 Downloads
 .
 getTemporaryDownloadsDirectory

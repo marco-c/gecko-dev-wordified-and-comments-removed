@@ -475,8 +475,8 @@ closeContextMenu
 }
 add_task
 (
+async
 function
-*
 test_on_created_navigation_target_from_context_menu
 (
 )
@@ -484,7 +484,7 @@ test_on_created_navigation_target_from_context_menu
 const
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -516,7 +516,7 @@ webNavigation
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -526,7 +526,7 @@ startup
 const
 expectedSourceTab
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -552,7 +552,7 @@ menu
 "
 )
 ;
-yield
+await
 runTestCase
 (
 {
@@ -643,7 +643,7 @@ menu
 "
 )
 ;
-yield
+await
 runTestCase
 (
 {
@@ -718,7 +718,7 @@ menu
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -726,7 +726,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -738,8 +738,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_on_created_navigation_target_from_context_menu_subframe
 (
 )
@@ -747,7 +747,7 @@ test_on_created_navigation_target_from_context_menu_subframe
 const
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -779,7 +779,7 @@ webNavigation
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -789,7 +789,7 @@ startup
 const
 expectedSourceTab
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -817,7 +817,7 @@ menu
 "
 )
 ;
-yield
+await
 runTestCase
 (
 {
@@ -942,7 +942,7 @@ menu
 "
 )
 ;
-yield
+await
 runTestCase
 (
 {
@@ -1049,7 +1049,7 @@ subframe
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1057,7 +1057,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 extension
 .
 unload

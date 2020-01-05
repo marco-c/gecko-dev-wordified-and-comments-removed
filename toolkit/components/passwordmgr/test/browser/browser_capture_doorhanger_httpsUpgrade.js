@@ -107,8 +107,8 @@ pass
 ;
 add_task
 (
+async
 function
-*
 test_httpsUpgradeCaptureFields_noChange
 (
 )
@@ -171,7 +171,7 @@ login
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -180,7 +180,6 @@ subtst_notifications_1
 html
 "
 function
-*
 (
 fieldValues
 )
@@ -378,8 +377,8 @@ login1
 ;
 add_task
 (
+async
 function
-*
 test_httpsUpgradeCaptureFields_changePW
 (
 )
@@ -440,7 +439,7 @@ login
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -713,8 +712,8 @@ removeAllLogins
 ;
 add_task
 (
+async
 function
-*
 test_httpsUpgradeCaptureFields_captureMatchingHTTP
 (
 )
@@ -746,7 +745,7 @@ addLogin
 login1HTTPS
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -980,7 +979,7 @@ login
 "
 )
 ;
-yield
+await
 testSubmittingLoginForm
 (
 "
@@ -989,7 +988,6 @@ subtst_notifications_1
 html
 "
 function
-*
 (
 fieldValues
 )

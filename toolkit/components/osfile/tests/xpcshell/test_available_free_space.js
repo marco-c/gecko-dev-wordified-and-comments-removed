@@ -98,8 +98,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -121,7 +121,7 @@ profileDir
 do_check_true
 (
 (
-yield
+await
 OS
 .
 File
@@ -136,7 +136,7 @@ dir
 let
 availableBytes
 =
-yield
+await
 OS
 .
 File

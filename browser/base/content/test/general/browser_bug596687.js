@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -9,7 +9,7 @@ test
 var
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -67,7 +67,7 @@ TabClose
 onTabClose
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

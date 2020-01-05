@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 check_max_backups_is_respected
 (
 )
@@ -9,7 +9,7 @@ check_max_backups_is_respected
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
@@ -42,7 +42,7 @@ json
 let
 oldJsonFile
 =
-yield
+await
 OS
 .
 File
@@ -65,7 +65,7 @@ close
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -102,7 +102,7 @@ json
 let
 jsonFile
 =
-yield
+await
 OS
 .
 File
@@ -125,7 +125,7 @@ close
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -136,7 +136,7 @@ jsonPath
 )
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -169,7 +169,7 @@ backupFolder
 ;
 try
 {
-yield
+await
 iterator
 .
 forEach
@@ -228,7 +228,7 @@ null
 ;
 do_check_false
 (
-yield
+await
 OS
 .
 File
@@ -241,7 +241,7 @@ oldJsonPath
 ;
 do_check_true
 (
-yield
+await
 OS
 .
 File
@@ -257,8 +257,8 @@ jsonPath
 ;
 add_task
 (
+async
 function
-*
 check_max_backups_greater_than_backups
 (
 )
@@ -266,14 +266,14 @@ check_max_backups_greater_than_backups
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
 (
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -306,7 +306,7 @@ backupFolder
 ;
 try
 {
-yield
+await
 iterator
 .
 forEach
@@ -368,8 +368,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 check_max_backups_null
 (
 )
@@ -377,14 +377,14 @@ check_max_backups_null
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
 (
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -417,7 +417,7 @@ backupFolder
 ;
 try
 {
-yield
+await
 iterator
 .
 forEach
@@ -479,8 +479,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 check_max_backups_undefined
 (
 )
@@ -488,14 +488,14 @@ check_max_backups_undefined
 let
 backupFolder
 =
-yield
+await
 PlacesBackups
 .
 getBackupFolder
 (
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -527,7 +527,7 @@ backupFolder
 ;
 try
 {
-yield
+await
 iterator
 .
 forEach

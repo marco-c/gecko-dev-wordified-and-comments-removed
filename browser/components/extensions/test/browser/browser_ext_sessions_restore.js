@@ -59,8 +59,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_sessions_restore
 (
 )
@@ -392,7 +392,7 @@ fired
 )
 ;
 }
-yield
+await
 extension
 .
 startup
@@ -490,7 +490,7 @@ url
 )
 ;
 }
-yield
+await
 extension
 .
 awaitMessage
@@ -503,14 +503,14 @@ ready
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 loadURI
@@ -527,7 +527,7 @@ config
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -558,7 +558,7 @@ mozilla
 ]
 )
 {
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -570,7 +570,7 @@ url
 )
 ;
 }
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -578,7 +578,7 @@ closeWindow
 win
 )
 ;
-yield
+await
 assertNotificationCount
 (
 1
@@ -598,7 +598,7 @@ sessions
 let
 recentlyClosed
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -644,7 +644,7 @@ restore
 "
 )
 ;
-yield
+await
 assertNotificationCount
 (
 2
@@ -653,7 +653,7 @@ assertNotificationCount
 let
 restored
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -752,7 +752,7 @@ window
 id
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -760,7 +760,7 @@ closeWindow
 window
 )
 ;
-yield
+await
 assertNotificationCount
 (
 3
@@ -779,7 +779,7 @@ sessions
 ;
 recentlyClosed
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -806,7 +806,7 @@ window
 sessionId
 )
 ;
-yield
+await
 assertNotificationCount
 (
 4
@@ -814,7 +814,7 @@ assertNotificationCount
 ;
 restored
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -912,7 +912,7 @@ window
 id
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -920,7 +920,7 @@ closeWindow
 window
 )
 ;
-yield
+await
 assertNotificationCount
 (
 5
@@ -929,7 +929,7 @@ assertNotificationCount
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -942,7 +942,7 @@ robots
 "
 )
 ;
-yield
+await
 TabStateFlusher
 .
 flush
@@ -952,7 +952,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -960,7 +960,7 @@ removeTab
 tab
 )
 ;
-yield
+await
 assertNotificationCount
 (
 6
@@ -975,7 +975,7 @@ restore
 "
 )
 ;
-yield
+await
 assertNotificationCount
 (
 7
@@ -983,7 +983,7 @@ assertNotificationCount
 ;
 restored
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1032,7 +1032,7 @@ tab
 id
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1040,7 +1040,7 @@ removeTab
 realTab
 )
 ;
-yield
+await
 assertNotificationCount
 (
 8
@@ -1059,7 +1059,7 @@ sessions
 ;
 recentlyClosed
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1086,7 +1086,7 @@ tab
 sessionId
 )
 ;
-yield
+await
 assertNotificationCount
 (
 9
@@ -1094,7 +1094,7 @@ assertNotificationCount
 ;
 restored
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1142,7 +1142,7 @@ tab
 id
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -1150,7 +1150,7 @@ removeTab
 realTab
 )
 ;
-yield
+await
 assertNotificationCount
 (
 10
@@ -1169,7 +1169,7 @@ reject
 ;
 restored
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1181,7 +1181,7 @@ rejected
 "
 )
 ;
-yield
+await
 extension
 .
 unload

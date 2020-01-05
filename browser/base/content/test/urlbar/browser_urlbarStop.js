@@ -40,8 +40,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -56,7 +56,7 @@ addTab
 goodURL
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -86,7 +86,7 @@ page
 "
 )
 ;
-yield
+await
 typeAndSubmitAndStop
 (
 badURL
@@ -152,7 +152,7 @@ empty
 "
 )
 ;
-yield
+await
 typeAndSubmitAndStop
 (
 badURL
@@ -191,14 +191,14 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 typeAndSubmitAndStop
 (
 url
 )
 {
-yield
+await
 promiseAutocompleteResultPopup
 (
 url
@@ -244,7 +244,7 @@ handleCommand
 (
 )
 ;
-yield
+await
 promise
 ;
 }

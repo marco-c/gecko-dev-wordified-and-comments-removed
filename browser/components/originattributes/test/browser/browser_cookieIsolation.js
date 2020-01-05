@@ -72,15 +72,15 @@ key
 "
 )
 ;
+async
 function
-*
 doTest
 (
 aBrowser
 )
 {
 return
-yield
+await
 ContentTask
 .
 spawn

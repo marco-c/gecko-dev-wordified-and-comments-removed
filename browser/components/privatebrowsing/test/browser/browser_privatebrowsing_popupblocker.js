@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -342,14 +342,14 @@ testURI
 let
 win1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -363,7 +363,7 @@ win1
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -381,7 +381,7 @@ resolve
 let
 win2
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -393,7 +393,7 @@ true
 }
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -407,7 +407,7 @@ win2
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -425,14 +425,14 @@ resolve
 let
 win3
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -446,7 +446,7 @@ win3
 )
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -461,7 +461,7 @@ resolve
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -469,7 +469,7 @@ closeWindow
 win1
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -477,7 +477,7 @@ closeWindow
 win2
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

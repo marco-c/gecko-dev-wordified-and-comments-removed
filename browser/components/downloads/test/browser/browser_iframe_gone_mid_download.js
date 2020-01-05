@@ -22,8 +22,8 @@ windowOptions
 )
 {
 return
+async
 function
-*
 (
 )
 {
@@ -66,7 +66,7 @@ jsm
 let
 win
 =
-yield
+await
 promiseOpenAndLoadWindow
 (
 windowOptions
@@ -83,7 +83,7 @@ addTab
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -224,7 +224,7 @@ remove
 (
 )
 ;
-yield
+await
 promiseIframeWindowGone
 ;
 cw
@@ -256,7 +256,7 @@ try
 {
 someDir
 =
-yield
+await
 new
 Promise
 (
@@ -411,7 +411,7 @@ ex
 )
 ;
 }
-yield
+await
 promiseWindowClosed
 (
 win

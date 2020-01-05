@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 testDownloadFailures
 (
 )
@@ -40,7 +40,7 @@ badURL
 1
 "
 ;
-yield
+await
 runUpdateTest
 (
 updateParams
@@ -87,12 +87,12 @@ button
 "
 button
 "
-*
+async
 cleanup
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

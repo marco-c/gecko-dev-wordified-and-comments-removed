@@ -1,5 +1,5 @@
+async
 function
-*
 add_visit
 (
 aURI
@@ -7,7 +7,7 @@ aDayOffset
 aTransition
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -50,13 +50,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
 {
-yield
+await
 add_visit
 (
 uri
@@ -80,7 +80,7 @@ a
 TRANSITION_LINK
 )
 ;
-yield
+await
 add_visit
 (
 uri
@@ -104,7 +104,7 @@ b
 TRANSITION_LINK
 )
 ;
-yield
+await
 add_visit
 (
 uri
@@ -128,7 +128,7 @@ c
 TRANSITION_FRAMED_LINK
 )
 ;
-yield
+await
 add_visit
 (
 uri
@@ -152,7 +152,7 @@ b
 TRANSITION_EMBED
 )
 ;
-yield
+await
 add_visit
 (
 uri
@@ -176,7 +176,7 @@ a
 TRANSITION_LINK
 )
 ;
-yield
+await
 add_visit
 (
 uri
@@ -200,7 +200,7 @@ b
 TRANSITION_LINK
 )
 ;
-yield
+await
 add_visit
 (
 uri

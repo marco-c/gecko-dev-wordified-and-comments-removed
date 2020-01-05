@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testBUIT
 (
 )
@@ -388,7 +388,7 @@ of
 "
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 function
@@ -434,7 +434,7 @@ of
 "
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 function
@@ -527,7 +527,7 @@ of
 "
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 function
@@ -573,7 +573,7 @@ of
 "
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 function
@@ -686,7 +686,7 @@ name
 "
 )
 ;
-yield
+await
 waitForConditionPromise
 (
 function

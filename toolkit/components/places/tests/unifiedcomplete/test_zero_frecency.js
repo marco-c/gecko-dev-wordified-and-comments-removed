@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_zzero_frec_domain
 (
 )
@@ -39,7 +39,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -70,7 +70,7 @@ TRANSITION_FRAMED_LINK
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -92,7 +92,7 @@ moz
 }
 )
 ;
-yield
+await
 cleanup
 (
 )
@@ -102,8 +102,8 @@ cleanup
 ;
 add_task
 (
+async
 function
-*
 test_zzero_frec_url
 (
 )
@@ -141,7 +141,7 @@ typed
 false
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -172,7 +172,7 @@ TRANSITION_FRAMED_LINK
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -206,7 +206,7 @@ f
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

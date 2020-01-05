@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_create_options
 (
 )
@@ -14,7 +14,7 @@ test_create_options
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -913,14 +913,14 @@ runTests
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -932,14 +932,14 @@ create
 "
 )
 ;
-yield
+await
 extension
 .
 unload
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -952,8 +952,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_urlbar_focus
 (
 )
@@ -1079,7 +1079,7 @@ result
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1113,7 +1113,7 @@ const
 tab1
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -1171,7 +1171,7 @@ tab1
 id
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1195,7 +1195,7 @@ create
 const
 tab2
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1338,7 +1338,7 @@ tab2
 id
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -1348,7 +1348,7 @@ result
 "
 )
 ;
-yield
+await
 extension
 .
 unload

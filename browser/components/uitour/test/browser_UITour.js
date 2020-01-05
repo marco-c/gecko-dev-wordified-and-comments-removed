@@ -3332,8 +3332,8 @@ someOtherEngineID
 }
 taskify
 (
+async
 function
-*
 test_treatment_tag
 (
 )
@@ -3348,14 +3348,14 @@ Checker
 (
 )
 ;
-yield
+await
 ac
 .
 promiseInit
 (
 )
 ;
-yield
+await
 gContentAPI
 .
 setTreatmentTag
@@ -3368,7 +3368,7 @@ baz
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForContentEvent
@@ -3398,7 +3398,7 @@ TelemetrySent
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -3539,8 +3539,8 @@ resolve
 )
 taskify
 (
+async
 function
-*
 cleanupMenus
 (
 )
@@ -3562,7 +3562,7 @@ appMenu
 "
 )
 ;
-yield
+await
 shownPromise
 ;
 }

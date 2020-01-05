@@ -11,8 +11,8 @@ restore_on_demand
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -448,10 +448,10 @@ state1
 true
 )
 ;
-yield
+await
 promiseRestoringTabs
 ;
-yield
+await
 promiseBrowserState
 (
 backupState

@@ -1696,8 +1696,8 @@ id
 }
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -1845,7 +1845,7 @@ remove
 true
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -1892,7 +1892,7 @@ override1x2
 ]
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -1956,7 +1956,7 @@ a2
 a4
 ]
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2005,7 +2005,7 @@ userDisabled
 =
 true
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2058,7 +2058,7 @@ enabled
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2128,7 +2128,7 @@ expected
 =
 true
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -2198,7 +2198,7 @@ expected
 ;
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2267,8 +2267,8 @@ addons
 ;
 add_task
 (
+async
 function
-*
 run_test_1
 (
 )
@@ -2283,7 +2283,7 @@ expected
 =
 true
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -2360,7 +2360,7 @@ false
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2487,8 +2487,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 run_test_2
 (
 )
@@ -2499,7 +2499,7 @@ expected
 =
 true
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -2572,7 +2572,7 @@ expected
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2641,8 +2641,8 @@ addons
 ;
 add_task
 (
+async
 function
-*
 run_test_5
 (
 )
@@ -2667,7 +2667,7 @@ expected
 =
 true
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -2744,7 +2744,7 @@ false
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [
@@ -2847,8 +2847,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 run_test_6
 (
 )
@@ -2859,7 +2859,7 @@ expected
 =
 true
 ;
-yield
+await
 promiseRestartManager
 (
 "
@@ -2940,7 +2940,7 @@ expected
 let
 addons
 =
-yield
+await
 promiseAddonsByIDs
 (
 [

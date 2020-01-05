@@ -67,13 +67,13 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -103,8 +103,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )

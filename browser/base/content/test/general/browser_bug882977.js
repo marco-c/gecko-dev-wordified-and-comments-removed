@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -19,7 +19,7 @@ about
 home
 "
 ;
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -61,7 +61,7 @@ OpenBrowserWindow
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 firstBrowserLoaded
@@ -100,7 +100,7 @@ checkIdentityMode
 win
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

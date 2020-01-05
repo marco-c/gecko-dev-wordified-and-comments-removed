@@ -97,8 +97,8 @@ body
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -127,7 +127,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -145,7 +145,7 @@ testPage
 )
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -276,7 +276,7 @@ html
 "
 "
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -287,8 +287,8 @@ modifier
 htmlPrefix
 htmlPostfix
 }
+async
 function
-*
 (
 arg
 )
@@ -498,7 +498,7 @@ word
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -579,7 +579,7 @@ line
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -864,7 +864,7 @@ character
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -979,7 +979,7 @@ line
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -1277,7 +1277,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 contextMenuShown
 ;
 document
@@ -1303,13 +1303,13 @@ hidePopup
 (
 )
 ;
-yield
+await
 promisePopupHidden
 (
 contextMenu
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus
@@ -1319,7 +1319,7 @@ browser
 contentWindowAsCPOW
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1330,8 +1330,8 @@ modifier
 htmlPrefix
 htmlPostfix
 }
+async
 function
-*
 (
 arg
 )
@@ -1361,7 +1361,7 @@ focus
 (
 )
 ;
-yield
+await
 new
 Promise
 (

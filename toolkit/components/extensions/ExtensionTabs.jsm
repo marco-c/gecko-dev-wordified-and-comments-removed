@@ -2169,7 +2169,6 @@ implemented
 )
 ;
 }
-*
 getTabs
 (
 )
@@ -4102,7 +4101,6 @@ implemented
 )
 ;
 }
-*
 getAll
 (
 )

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testWindowCreate
 (
 )
@@ -673,14 +673,14 @@ html
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -694,7 +694,7 @@ url
 "
 )
 ;
-yield
+await
 extension
 .
 unload

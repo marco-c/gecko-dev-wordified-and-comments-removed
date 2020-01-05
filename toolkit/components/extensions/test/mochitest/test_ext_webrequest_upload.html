@@ -427,15 +427,15 @@ uploads
 ;
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
 {
 files
 =
-yield
+await
 new
 Promise
 (
@@ -1095,8 +1095,8 @@ closed
 }
 add_task
 (
+async
 function
-*
 test_xhr_forms
 (
 )
@@ -1135,7 +1135,7 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1349,7 +1349,7 @@ submit
 (
 )
 ;
-yield
+await
 doneAndTabClosed
 (
 )
@@ -1474,7 +1474,7 @@ updateActionURL
 (
 )
 ;
-yield
+await
 post
 (
 formData
@@ -1507,7 +1507,7 @@ file
 )
 )
 ;
-yield
+await
 post
 (
 testFile
@@ -1532,7 +1532,7 @@ size
 bytes
 )
 ;
-yield
+await
 post
 (
 blob
@@ -1560,7 +1560,7 @@ byteLength
 bytes
 )
 ;
-yield
+await
 post
 (
 new
@@ -1571,7 +1571,7 @@ byteLength
 )
 ;
 }
-yield
+await
 extension
 .
 unload

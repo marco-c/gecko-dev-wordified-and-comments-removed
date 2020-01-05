@@ -410,8 +410,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 webnav_ordering
 (
 )
@@ -478,7 +478,7 @@ expectedBrowser
 =
 browser
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -486,7 +486,7 @@ browserLoaded
 browser
 )
 ;
-yield
+await
 loadViaFrameScript
 (
 URL
@@ -780,7 +780,7 @@ onCompleted
 }
 )
 ;
-yield
+await
 loadViaFrameScript
 (
 FRAME2
@@ -809,7 +809,7 @@ checkRequired
 FRAME2
 )
 ;
-yield
+await
 loadViaFrameScript
 (
 FRAME2

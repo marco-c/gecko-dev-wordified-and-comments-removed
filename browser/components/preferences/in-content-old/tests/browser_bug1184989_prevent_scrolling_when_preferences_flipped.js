@@ -60,8 +60,8 @@ SERIALIZED_SYSTEMPRINCIPAL
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -83,7 +83,7 @@ browser_bug1184989_prevent_scrolling_when_preferences_flipped
 xul
 "
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -306,7 +306,7 @@ radio
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -568,7 +568,7 @@ TAB_STATE
 )
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -637,7 +637,7 @@ synthesizeKey
 }
 )
 ;
-yield
+await
 checkPageScrolling
 (
 doc

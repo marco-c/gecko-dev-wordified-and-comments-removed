@@ -103,8 +103,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_experiment
 (
 )
@@ -123,7 +123,7 @@ checkAddonNotStarted
 ID
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -158,7 +158,7 @@ ID
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -476,8 +476,8 @@ called
 ;
 add_task
 (
+async
 function
-*
 test_userDisabledNotPersisted
 (
 )
@@ -485,7 +485,7 @@ test_userDisabledNotPersisted
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -545,7 +545,7 @@ let
 addon2
 ]
 =
-yield
+await
 promise
 ;
 BootstrapMonitor
@@ -656,7 +656,7 @@ list
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -762,7 +762,7 @@ disable
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -832,7 +832,7 @@ ID
 ;
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID
@@ -917,8 +917,8 @@ ID
 ;
 add_task
 (
+async
 function
-*
 test_checkCompatibility
 (
 )
@@ -960,12 +960,12 @@ checkCompatibility
 false
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 promiseInstallAllFiles
 (
 [
@@ -981,7 +981,7 @@ test_experiment1
 let
 addon
 =
-yield
+await
 promiseAddonByID
 (
 ID

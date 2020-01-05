@@ -605,8 +605,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_basic_save_succeeds
 (
 )
@@ -631,7 +631,7 @@ Test
 Data
 "
 ;
-yield
+await
 tester
 .
 save
@@ -662,8 +662,8 @@ totalSaves
 ;
 add_task
 (
+async
 function
-*
 test_two_saves
 (
 )
@@ -736,7 +736,7 @@ true
 do_report_unexpected_exception
 )
 ;
-yield
+await
 tester
 .
 save
@@ -772,8 +772,8 @@ totalSaves
 ;
 add_task
 (
+async
 function
-*
 test_two_saves_delay
 (
 )
@@ -865,7 +865,7 @@ true
 do_report_unexpected_exception
 )
 ;
-yield
+await
 delay
 (
 2
@@ -888,7 +888,7 @@ secondData
 let
 activeTimer
 =
-yield
+await
 timerPromise
 ;
 activeTimer
@@ -897,7 +897,7 @@ callback
 (
 )
 ;
-yield
+await
 saving
 ;
 do_check_true
@@ -938,8 +938,8 @@ overlappedSaves
 ;
 add_task
 (
+async
 function
-*
 test_error_immediate
 (
 )
@@ -983,7 +983,7 @@ setQuickMockTimer
 (
 )
 ;
-yield
+await
 tester
 .
 save
@@ -1031,7 +1031,7 @@ tester
 lastError
 )
 ;
-yield
+await
 tester
 .
 save
@@ -1065,8 +1065,8 @@ totalSaves
 ;
 add_task
 (
+async
 function
-*
 dirty_while_writing
 (
 )
@@ -1201,7 +1201,7 @@ writer
 let
 writer
 =
-yield
+await
 writeStarted
 .
 promise
@@ -1214,7 +1214,7 @@ started
 "
 )
 ;
-yield
+await
 delay
 (
 1
@@ -1259,7 +1259,7 @@ true
 do_report_unexpected_exception
 )
 ;
-yield
+await
 delay
 (
 1
@@ -1275,7 +1275,7 @@ save
 thirdData
 )
 ;
-yield
+await
 delay
 (
 1
@@ -1290,7 +1290,7 @@ firstData
 length
 )
 ;
-yield
+await
 thirdWrite
 ;
 do_check_true
@@ -1401,8 +1401,8 @@ length
 }
 add_task
 (
+async
 function
-*
 flush_after_save
 (
 )
@@ -1427,7 +1427,7 @@ after
 save
 "
 ;
-yield
+await
 tester
 .
 save
@@ -1435,7 +1435,7 @@ save
 dataToSave
 )
 ;
-yield
+await
 tester
 .
 flush
@@ -1458,8 +1458,8 @@ totalSaves
 ;
 add_task
 (
+async
 function
-*
 flush_during_write
 (
 )
@@ -1544,7 +1544,7 @@ do_report_unexpected_exception
 let
 writer
 =
-yield
+await
 writeStarted
 .
 promise
@@ -1559,7 +1559,7 @@ flush
 disabled_write_callback
 )
 ;
-yield
+await
 delay
 (
 2
@@ -1574,7 +1574,7 @@ dataToSave
 length
 )
 ;
-yield
+await
 flushing
 ;
 do_check_true
@@ -1597,8 +1597,8 @@ totalSaves
 ;
 add_task
 (
+async
 function
-*
 flush_while_dirty
 (
 )
@@ -1671,7 +1671,7 @@ do_report_unexpected_exception
 let
 activeTimer
 =
-yield
+await
 timerPromise
 ;
 let
@@ -1702,7 +1702,7 @@ invalid
 data
 "
 ;
-yield
+await
 flushing
 ;
 do_check_true
@@ -1733,8 +1733,8 @@ totalSaves
 ;
 add_task
 (
+async
 function
-*
 flush_writing_dirty
 (
 )
@@ -1846,7 +1846,7 @@ do_report_unexpected_exception
 let
 activeTimer
 =
-yield
+await
 timerPromise
 ;
 activeTimer
@@ -1858,7 +1858,7 @@ callback
 let
 writer
 =
-yield
+await
 writeStarted
 .
 promise
@@ -1942,7 +1942,7 @@ firstData
 length
 )
 ;
-yield
+await
 flushing
 ;
 do_check_true
@@ -2029,8 +2029,8 @@ err
 }
 add_task
 (
+async
 function
-*
 data_throw
 (
 )
@@ -2051,7 +2051,7 @@ DeferredSaveTester
 badDataProvider
 )
 ;
-yield
+await
 tester
 .
 save
@@ -2091,8 +2091,8 @@ expectedDataError
 ;
 add_task
 (
+async
 function
-*
 data_throw_during_flush
 (
 )
@@ -2165,7 +2165,7 @@ true
 }
 )
 ;
-yield
+await
 tester
 .
 flush
@@ -2208,8 +2208,8 @@ firstCallback_happened
 ;
 add_task
 (
+async
 function
-*
 delay_flush_race
 (
 )
@@ -2289,7 +2289,7 @@ writeCallback
 )
 ;
 (
-yield
+await
 timerPromise
 )
 .
@@ -2300,7 +2300,7 @@ callback
 let
 writer
 =
-yield
+await
 writeStarted
 .
 promise
@@ -2324,7 +2324,7 @@ firstData
 length
 )
 ;
-yield
+await
 firstSave
 ;
 do_check_eq
@@ -2351,7 +2351,7 @@ flush
 (
 )
 ;
-yield
+await
 secondSave
 ;
 do_check_eq
@@ -2362,7 +2362,7 @@ writtenData
 thirdData
 )
 ;
-yield
+await
 flushing
 ;
 do_check_eq

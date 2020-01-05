@@ -221,8 +221,8 @@ listeners
 /
 add_task
 (
+async
 function
-*
 testAlertNotShownInBackgroundWindow
 (
 )
@@ -334,7 +334,7 @@ alertCalled
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -350,7 +350,7 @@ loaded
 "
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -572,7 +572,7 @@ window
 to
 open
 .
-yield
+await
 consoleOpened
 ;
 let
@@ -675,7 +675,7 @@ if
 haveConsole
 )
 {
-yield
+await
 hudservice
 .
 toggleBrowserConsole
@@ -683,7 +683,7 @@ toggleBrowserConsole
 )
 ;
 }
-yield
+await
 extension
 .
 unload

@@ -29,16 +29,15 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 viewSourceTab
 =
-yield
-*
+await
 openDocumentSelect
 (
 source
@@ -50,7 +49,7 @@ a
 let
 href
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -60,8 +59,8 @@ viewSourceTab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {

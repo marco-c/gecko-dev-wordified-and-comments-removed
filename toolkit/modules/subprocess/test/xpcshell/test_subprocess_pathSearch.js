@@ -107,8 +107,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 test_pathSearchAbsolute
 (
 )
@@ -122,7 +122,7 @@ env
 let
 path
 =
-yield
+await
 Subprocess
 .
 pathSearch
@@ -156,7 +156,7 @@ PATH
 ;
 path
 =
-yield
+await
 Subprocess
 .
 pathSearch
@@ -181,7 +181,7 @@ PATH
 "
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -262,8 +262,8 @@ execuable
 ;
 add_task
 (
+async
 function
-*
 test_pathSearchRelative
 (
 )
@@ -274,7 +274,7 @@ env
 {
 }
 ;
-yield
+await
 Assert
 .
 rejects
@@ -355,7 +355,7 @@ PATH_SEP
 let
 path
 =
-yield
+await
 Subprocess
 .
 pathSearch

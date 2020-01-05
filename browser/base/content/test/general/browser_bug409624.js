@@ -23,13 +23,13 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -296,7 +296,7 @@ siteSettings
 false
 )
 ;
-yield
+await
 s
 .
 sanitize
@@ -351,7 +351,7 @@ input
 "
 )
 ;
-yield
+await
 s
 .
 sanitize

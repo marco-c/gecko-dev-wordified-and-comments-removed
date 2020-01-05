@@ -33,8 +33,8 @@ teardown
 ;
 add_task
 (
+async
 function
-*
 testNarratePref
 (
 )
@@ -43,7 +43,7 @@ setup
 (
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
@@ -84,7 +84,7 @@ ENABLE_PREF
 false
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ARTICLE
@@ -127,7 +127,7 @@ ENABLE_PREF
 true
 )
 ;
-yield
+await
 spawnInNewReaderTab
 (
 TEST_ARTICLE

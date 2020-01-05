@@ -128,8 +128,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_execute
 (
 )
@@ -160,7 +160,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -311,7 +311,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -319,7 +319,7 @@ addVisits
 testURI
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -925,7 +925,7 @@ histsvc
 historyDisabled
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -956,7 +956,7 @@ title
 let
 placeInfo
 =
-yield
+await
 PlacesUtils
 .
 promisePlaceInfo
@@ -1065,7 +1065,7 @@ finalize
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 addVisits

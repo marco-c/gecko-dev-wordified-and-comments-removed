@@ -144,8 +144,8 @@ stream
 }
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -273,8 +273,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 testSynchronousConvert
 (
 )
@@ -346,8 +346,8 @@ baz
 ;
 add_task
 (
+async
 function
-*
 testAsyncConvert
 (
 )
@@ -557,7 +557,7 @@ NS_OK
 let
 result
 =
-yield
+await
 awaitResult
 ;
 equal
@@ -585,8 +585,8 @@ baz
 ;
 add_task
 (
+async
 function
-*
 testInvalidUUID
 (
 )
@@ -736,8 +736,8 @@ expectInvalidContextException
 ;
 add_task
 (
+async
 function
-*
 testEmptyStream
 (
 )

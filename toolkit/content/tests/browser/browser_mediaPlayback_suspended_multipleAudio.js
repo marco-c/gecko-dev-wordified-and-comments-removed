@@ -991,8 +991,8 @@ playback
 )
 ;
 }
+async
 function
-*
 suspended_pause
 (
 url
@@ -1037,7 +1037,7 @@ audio
 "
 )
 ;
-yield
+await
 wait_for_event
 (
 browser
@@ -1066,7 +1066,7 @@ suspened
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1099,7 +1099,7 @@ pauseMedia
 false
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1109,7 +1109,7 @@ true
 check_autoplay_audio_pause_state
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1121,7 +1121,7 @@ SUSPENDED_PAUSE
 check_autoplay_audio_suspended
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1150,7 +1150,7 @@ paused
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1160,7 +1160,7 @@ null
 play_nonautoplay_audio_should_be_paused
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1195,7 +1195,7 @@ resumeMedia
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1205,7 +1205,7 @@ null
 all_audio_onresume
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1241,7 +1241,7 @@ pauseMedia
 false
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1252,8 +1252,8 @@ all_audio_onpause
 )
 ;
 }
+async
 function
-*
 suspended_pause_disposable
 (
 url
@@ -1300,7 +1300,7 @@ audio
 "
 )
 ;
-yield
+await
 wait_for_event
 (
 browser
@@ -1329,7 +1329,7 @@ suspened
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1363,7 +1363,7 @@ pauseMedia
 true
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1373,7 +1373,7 @@ true
 check_autoplay_audio_pause_state
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1385,7 +1385,7 @@ SUSPENDED_PAUSE_DISPOSABLE
 check_autoplay_audio_suspended
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1412,7 +1412,7 @@ correctly
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1441,7 +1441,7 @@ resumeMedia
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1451,7 +1451,7 @@ false
 check_autoplay_audio_pause_state
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1464,8 +1464,8 @@ check_all_audio_suspended
 )
 ;
 }
+async
 function
-*
 suspended_stop_disposable
 (
 url
@@ -1512,7 +1512,7 @@ audio
 "
 )
 ;
-yield
+await
 wait_for_event
 (
 browser
@@ -1541,7 +1541,7 @@ suspened
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1574,7 +1574,7 @@ stopMedia
 (
 )
 ;
-yield
+await
 wait_for_event
 (
 browser
@@ -1583,7 +1583,7 @@ DOMAudioPlaybackStopped
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1593,7 +1593,7 @@ true
 check_autoplay_audio_pause_state
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1620,7 +1620,7 @@ correctly
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1652,7 +1652,7 @@ resumeMedia
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1662,7 +1662,7 @@ null
 no_audio_resumed
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1675,8 +1675,8 @@ check_all_audio_suspended
 )
 ;
 }
+async
 function
-*
 suspended_block
 (
 url
@@ -1721,7 +1721,7 @@ audio
 "
 )
 ;
-yield
+await
 wait_for_event
 (
 browser
@@ -1750,7 +1750,7 @@ suspened
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1779,7 +1779,7 @@ blockMedia
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1791,7 +1791,7 @@ SUSPENDED_BLOCK
 check_autoplay_audio_suspended
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1820,7 +1820,7 @@ block
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1855,7 +1855,7 @@ resumeMedia
 (
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1870,13 +1870,13 @@ check_all_audio_suspended
 }
 add_task
 (
+async
 function
-*
 setup_test_preference
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -1906,13 +1906,13 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_suspended_pause
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1941,13 +1941,13 @@ PAGE
 ;
 add_task
 (
+async
 function
-*
 test_suspended_pause_disposable
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -1976,13 +1976,13 @@ PAGE
 ;
 add_task
 (
+async
 function
-*
 test_suspended_stop_disposable
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -2011,13 +2011,13 @@ PAGE
 ;
 add_task
 (
+async
 function
-*
 test_suspended_block
 (
 )
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab

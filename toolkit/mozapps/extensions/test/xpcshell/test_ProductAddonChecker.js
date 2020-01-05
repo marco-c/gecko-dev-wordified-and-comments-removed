@@ -380,8 +380,8 @@ file2
 }
 add_task
 (
+async
 function
-*
 test_404
 (
 )
@@ -389,7 +389,7 @@ test_404
 let
 res
 =
-yield
+await
 ProductAddonChecker
 .
 getProductAddonList
@@ -415,8 +415,8 @@ usedFallback
 ;
 add_task
 (
+async
 function
-*
 test_not_xml
 (
 )
@@ -424,7 +424,7 @@ test_not_xml
 let
 res
 =
-yield
+await
 ProductAddonChecker
 .
 getProductAddonList
@@ -450,8 +450,8 @@ usedFallback
 ;
 add_task
 (
+async
 function
-*
 test_invalid_xml
 (
 )
@@ -459,7 +459,7 @@ test_invalid_xml
 let
 res
 =
-yield
+await
 ProductAddonChecker
 .
 getProductAddonList
@@ -485,8 +485,8 @@ usedFallback
 ;
 add_task
 (
+async
 function
-*
 test_wrong_xml
 (
 )
@@ -494,7 +494,7 @@ test_wrong_xml
 let
 res
 =
-yield
+await
 ProductAddonChecker
 .
 getProductAddonList
@@ -520,8 +520,8 @@ usedFallback
 ;
 add_task
 (
+async
 function
-*
 test_missing
 (
 )
@@ -529,7 +529,7 @@ test_missing
 let
 addons
 =
-yield
+await
 ProductAddonChecker
 .
 getProductAddonList
@@ -554,8 +554,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 test_empty
 (
 )
@@ -563,7 +563,7 @@ test_empty
 let
 res
 =
-yield
+await
 ProductAddonChecker
 .
 getProductAddonList
@@ -604,8 +604,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 test_good_xml
 (
 )
@@ -613,7 +613,7 @@ test_good_xml
 let
 res
 =
-yield
+await
 ProductAddonChecker
 .
 getProductAddonList
@@ -1004,8 +1004,8 @@ undefined
 ;
 add_task
 (
+async
 function
-*
 test_download_nourl
 (
 )
@@ -1015,7 +1015,7 @@ try
 let
 path
 =
-yield
+await
 ProductAddonChecker
 .
 downloadAddon
@@ -1024,7 +1024,7 @@ downloadAddon
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1081,8 +1081,8 @@ url
 ;
 add_task
 (
+async
 function
-*
 test_download_missing
 (
 )
@@ -1092,7 +1092,7 @@ try
 let
 path
 =
-yield
+await
 ProductAddonChecker
 .
 downloadAddon
@@ -1110,7 +1110,7 @@ xpi
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1161,8 +1161,8 @@ file
 ;
 add_task
 (
+async
 function
-*
 test_download_noverify
 (
 )
@@ -1170,7 +1170,7 @@ test_download_noverify
 let
 path
 =
-yield
+await
 ProductAddonChecker
 .
 downloadAddon
@@ -1191,7 +1191,7 @@ xpi
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -1239,7 +1239,7 @@ path
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1254,8 +1254,8 @@ path
 ;
 add_task
 (
+async
 function
-*
 test_download_badsize
 (
 )
@@ -1265,7 +1265,7 @@ try
 let
 path
 =
-yield
+await
 ProductAddonChecker
 .
 downloadAddon
@@ -1286,7 +1286,7 @@ size
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1343,8 +1343,8 @@ size
 ;
 add_task
 (
+async
 function
-*
 test_download_badhashfn
 (
 )
@@ -1354,7 +1354,7 @@ try
 let
 path
 =
-yield
+await
 ProductAddonChecker
 .
 downloadAddon
@@ -1382,7 +1382,7 @@ hashValue
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1441,8 +1441,8 @@ function
 ;
 add_task
 (
+async
 function
-*
 test_download_badhash
 (
 )
@@ -1452,7 +1452,7 @@ try
 let
 path
 =
-yield
+await
 ProductAddonChecker
 .
 downloadAddon
@@ -1480,7 +1480,7 @@ hashValue
 }
 )
 ;
-yield
+await
 OS
 .
 File
@@ -1537,8 +1537,8 @@ hash
 ;
 add_task
 (
+async
 function
-*
 test_download_works
 (
 )
@@ -1546,7 +1546,7 @@ test_download_works
 let
 path
 =
-yield
+await
 ProductAddonChecker
 .
 downloadAddon
@@ -1580,7 +1580,7 @@ hashValue
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -1621,7 +1621,7 @@ path
 )
 )
 ;
-yield
+await
 OS
 .
 File

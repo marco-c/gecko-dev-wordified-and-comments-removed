@@ -253,8 +253,8 @@ nsIContentSecurityManager
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -336,7 +336,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -346,7 +346,7 @@ startup
 let
 url
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -389,7 +389,7 @@ principal
 true
 )
 ;
-yield
+await
 extension
 .
 unload

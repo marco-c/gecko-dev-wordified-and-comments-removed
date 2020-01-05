@@ -66,8 +66,8 @@ button
 ;
 add_task
 (
+async
 function
-*
 test_reader_button
 (
 )
@@ -276,7 +276,7 @@ loadURI
 url
 )
 ;
-yield
+await
 paintPromise
 ;
 is_element_hidden

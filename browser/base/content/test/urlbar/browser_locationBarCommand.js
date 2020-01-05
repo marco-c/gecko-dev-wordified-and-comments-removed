@@ -18,8 +18,8 @@ org
 ;
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -66,8 +66,8 @@ altClickSave
 ;
 add_task
 (
+async
 function
-*
 alt_left_click_test
 (
 )
@@ -129,7 +129,7 @@ true
 }
 )
 ;
-yield
+await
 saveURLPromise
 ;
 ok
@@ -163,8 +163,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 shift_left_click_test
 (
 )
@@ -203,7 +203,7 @@ true
 let
 win
 =
-yield
+await
 newWindowPromise
 ;
 let
@@ -231,7 +231,7 @@ TEST_VALUE
 /
 "
 ;
-yield
+await
 Promise
 .
 all
@@ -285,7 +285,7 @@ value
 "
 )
 ;
-yield
+await
 promiseCheckChildNoFocusedElement
 (
 gBrowser
@@ -329,7 +329,7 @@ window
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -342,8 +342,8 @@ win
 ;
 add_task
 (
+async
 function
-*
 right_click_test
 (
 )
@@ -362,8 +362,7 @@ button
 "
 )
 ;
-yield
-*
+await
 promiseOpenNewTab
 (
 )
@@ -406,8 +405,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 shift_accel_left_click_test
 (
 )
@@ -434,8 +433,7 @@ button
 let
 tab
 =
-yield
-*
+await
 promiseOpenNewTab
 (
 )
@@ -460,7 +458,7 @@ true
 }
 )
 ;
-yield
+await
 loadStartedPromise
 ;
 info
@@ -574,8 +572,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 load_in_current_tab_test
 (
 )
@@ -672,8 +670,7 @@ desc
 let
 tab
 =
-yield
-*
+await
 promiseOpenNewTab
 (
 )
@@ -702,7 +699,7 @@ event
 }
 )
 ;
-yield
+await
 loadStartedPromise
 ;
 info
@@ -736,7 +733,7 @@ entered
 "
 )
 ;
-yield
+await
 promiseCheckChildNoFocusedElement
 (
 gBrowser
@@ -791,8 +788,8 @@ removeCurrentTab
 ;
 add_task
 (
+async
 function
-*
 load_in_new_tab_test
 (
 )
@@ -874,8 +871,7 @@ desc
 let
 tab
 =
-yield
-*
+await
 promiseOpenNewTab
 (
 test
@@ -914,7 +910,7 @@ event
 }
 )
 ;
-yield
+await
 tabSwitchedPromise
 ;
 info
@@ -951,7 +947,7 @@ entered
 "
 )
 ;
-yield
+await
 promiseCheckChildNoFocusedElement
 (
 gBrowser
@@ -1146,8 +1142,8 @@ resolve
 )
 ;
 }
+async
 function
-*
 promiseOpenNewTab
 (
 url
@@ -1183,7 +1179,7 @@ selectedTab
 =
 tab
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -1193,7 +1189,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 tabSwitchPromise
 ;
 return
@@ -1285,8 +1281,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {

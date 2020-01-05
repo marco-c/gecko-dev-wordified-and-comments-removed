@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -94,7 +94,7 @@ bar
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -124,7 +124,7 @@ icon
 mimetype
 )
 ;
-yield
+await
 setFaviconForPage
 (
 pageURI
@@ -137,7 +137,7 @@ Assert
 .
 equal
 (
-yield
+await
 getFaviconUrlForPage
 (
 pageURI

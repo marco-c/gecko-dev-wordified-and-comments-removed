@@ -92,8 +92,8 @@ data
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -614,7 +614,7 @@ promiseClearHistory
 (
 )
 ;
-yield
+await
 ForgetAboutSite
 .
 removeDataFromDomain
@@ -626,7 +626,7 @@ org
 "
 )
 ;
-yield
+await
 clearHistoryPromise
 ;
 let

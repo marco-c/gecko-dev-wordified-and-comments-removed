@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -47,7 +47,7 @@ functionality
 "
 )
 ;
-yield
+await
 PanelUI
 .
 show
@@ -94,7 +94,7 @@ click
 (
 )
 ;
-yield
+await
 fullscreenPromise
 ;
 ok
@@ -125,7 +125,7 @@ window
 .
 fullScreen
 ;
-yield
+await
 fullscreenPromise
 ;
 ok

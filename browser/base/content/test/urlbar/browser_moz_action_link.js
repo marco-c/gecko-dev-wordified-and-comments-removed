@@ -25,8 +25,8 @@ foo
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -71,7 +71,7 @@ a
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -95,7 +95,7 @@ function
 }
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -104,8 +104,8 @@ tab
 .
 linkedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -127,7 +127,7 @@ click
 }
 )
 ;
-yield
+await
 tabSwitchPromise
 ;
 isnot
@@ -174,7 +174,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -183,7 +183,7 @@ gBrowser
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -264,7 +264,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -272,7 +272,7 @@ removeTab
 newTab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

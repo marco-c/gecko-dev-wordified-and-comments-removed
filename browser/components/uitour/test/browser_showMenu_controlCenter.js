@@ -51,8 +51,8 @@ setup_UITourTest
 ;
 add_UITour_task
 (
+async
 function
-*
 test_showMenu
 (
 )
@@ -69,7 +69,7 @@ hidden
 "
 )
 ;
-yield
+await
 showMenuPromise
 (
 CONTROL_CENTER_MENU_NAME
@@ -88,7 +88,7 @@ showMenu
 "
 )
 ;
-yield
+await
 gURLBar
 .
 focus
@@ -109,7 +109,7 @@ outside
 "
 )
 ;
-yield
+await
 showMenuPromise
 (
 CONTROL_CENTER_MENU_NAME
@@ -133,7 +133,7 @@ showMenu
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -149,7 +149,6 @@ blank
 "
 }
 function
-*
 (
 )
 {
@@ -183,8 +182,8 @@ switch
 ;
 add_UITour_task
 (
+async
 function
-*
 test_hideMenu
 (
 )
@@ -201,7 +200,7 @@ hidden
 "
 )
 ;
-yield
+await
 showMenuPromise
 (
 CONTROL_CENTER_MENU_NAME
@@ -229,7 +228,7 @@ window
 CONTROL_CENTER_PANEL
 )
 ;
-yield
+await
 gContentAPI
 .
 hideMenu
@@ -237,7 +236,7 @@ hideMenu
 CONTROL_CENTER_MENU_NAME
 )
 ;
-yield
+await
 hidePromise
 ;
 is_element_hidden

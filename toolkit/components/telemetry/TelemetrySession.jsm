@@ -7580,7 +7580,6 @@ new
 DeferredTask
 (
 function
-*
 (
 )
 {

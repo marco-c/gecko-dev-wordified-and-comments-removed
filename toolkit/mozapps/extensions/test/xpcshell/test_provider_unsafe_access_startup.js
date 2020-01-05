@@ -134,8 +134,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 unsafeProviderStartup
 (
 )
@@ -145,7 +145,7 @@ secondProvider
 =
 null
 ;
-yield
+await
 new
 Promise
 (

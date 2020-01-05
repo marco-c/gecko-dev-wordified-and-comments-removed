@@ -10,8 +10,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_saveBookmarksToJSONFile_and_create
 (
 )
@@ -100,7 +100,7 @@ parseInt
 let
 nodeCount
 =
-yield
+await
 PlacesBackups
 .
 saveBookmarksToJSONFile
@@ -140,7 +140,7 @@ json
 let
 recentBackup
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -186,7 +186,7 @@ length
 24
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -197,7 +197,7 @@ create
 do_check_eq
 (
 (
-yield
+await
 PlacesBackups
 .
 getBackupFiles
@@ -209,7 +209,7 @@ length
 0
 )
 ;
-yield
+await
 PlacesBackups
 .
 create
@@ -219,7 +219,7 @@ create
 do_check_eq
 (
 (
-yield
+await
 PlacesBackups
 .
 getBackupFiles
@@ -234,7 +234,7 @@ length
 let
 mostRecentBackupFile
 =
-yield
+await
 PlacesBackups
 .
 getMostRecentBackup
@@ -292,7 +292,7 @@ remove
 false
 )
 ;
-yield
+await
 PlacesBackups
 .
 create

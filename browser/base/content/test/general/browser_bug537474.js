@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -38,7 +38,7 @@ nsIBrowserDOMWindow
 OPEN_CURRENTWINDOW
 null
 )
-yield
+await
 browserLoadedPromise
 ;
 is

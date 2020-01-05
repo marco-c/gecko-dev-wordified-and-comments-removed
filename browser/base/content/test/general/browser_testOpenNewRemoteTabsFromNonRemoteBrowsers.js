@@ -148,8 +148,8 @@ OPEN_LOCATION_PREF
 ;
 add_task
 (
+async
 function
-*
 test_new_tab
 (
 )
@@ -157,7 +157,7 @@ test_new_tab
 let
 normalWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -172,7 +172,7 @@ true
 let
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -198,7 +198,7 @@ privateWindow
 ]
 )
 {
-yield
+await
 promiseWaitForFocus
 (
 testWindow
@@ -224,7 +224,7 @@ browser
 "
 )
 ;
-yield
+await
 prepareNonRemoteBrowser
 (
 testWindow
@@ -281,7 +281,7 @@ true
 let
 tabOpenEvent
 =
-yield
+await
 waitForNewTabEvent
 (
 testWindow
@@ -296,7 +296,7 @@ tabOpenEvent
 .
 target
 ;
-yield
+await
 promiseTabLoadEvent
 (
 newTab
@@ -347,8 +347,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_new_window
 (
 )
@@ -356,7 +356,7 @@ test_new_window
 let
 normalWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -372,7 +372,7 @@ true
 let
 privateWindow
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -413,7 +413,7 @@ privateWindow
 ]
 )
 {
-yield
+await
 promiseWaitForFocus
 (
 testWindow
@@ -428,7 +428,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 prepareNonRemoteBrowser
 (
 testWindow
@@ -474,7 +474,7 @@ subject
 newWindow
 }
 =
-yield
+await
 promiseTopicObserved
 (
 "
@@ -527,7 +527,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 promiseTabLoadEvent
 (
 newTab

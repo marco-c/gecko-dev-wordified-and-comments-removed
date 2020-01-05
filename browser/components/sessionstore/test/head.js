@@ -1527,12 +1527,8 @@ utf
 var
 promiseForEachSessionRestoreFile
 =
-Task
-.
 async
-(
 function
-*
 (
 cb
 )
@@ -1559,7 +1555,7 @@ try
 {
 data
 =
-yield
+await
 OS
 .
 File
@@ -1621,7 +1617,6 @@ key
 ;
 }
 }
-)
 ;
 function
 promiseBrowserLoaded
@@ -2765,8 +2760,8 @@ browser
 storageData
 storageOptions
 ]
+async
 function
-*
 (
 [
 data

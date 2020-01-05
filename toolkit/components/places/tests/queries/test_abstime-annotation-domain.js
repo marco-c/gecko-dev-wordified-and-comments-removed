@@ -841,13 +841,13 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_abstime_annotation_domain
 (
 )
 {
-yield
+await
 task_populateDB
 (
 testData
@@ -1041,7 +1041,7 @@ jan11_800
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 addItem
@@ -1110,7 +1110,7 @@ mozzie
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change1
@@ -1170,7 +1170,7 @@ jan15_2045
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change3
@@ -1229,7 +1229,7 @@ deleted
 }
 ]
 ;
-yield
+await
 task_populateDB
 (
 change5

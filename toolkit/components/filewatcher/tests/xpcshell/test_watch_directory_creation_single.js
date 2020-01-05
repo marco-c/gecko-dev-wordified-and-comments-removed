@@ -19,8 +19,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_watch_single_path_directory_creation
 (
 )
@@ -46,7 +46,7 @@ filewatcher_playground
 "
 )
 ;
-yield
+await
 OS
 .
 File
@@ -87,7 +87,7 @@ defer
 (
 )
 ;
-yield
+await
 promiseAddPath
 (
 watcher
@@ -100,7 +100,7 @@ deferred
 reject
 )
 ;
-yield
+await
 OS
 .
 File
@@ -113,7 +113,7 @@ tmpDirPath
 let
 changed
 =
-yield
+await
 deferred
 .
 promise
@@ -124,7 +124,7 @@ changed
 tmpDirPath
 )
 ;
-yield
+await
 promiseRemovePath
 (
 watcher
@@ -137,7 +137,7 @@ deferred
 reject
 )
 ;
-yield
+await
 OS
 .
 File

@@ -403,8 +403,8 @@ finalize
 }
 add_task
 (
+async
 function
-*
 test_historyClear
 (
 )
@@ -460,7 +460,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -475,7 +475,7 @@ pageURI
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -502,7 +502,7 @@ null
 let
 id
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -712,7 +712,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -804,7 +804,7 @@ EXPIRE_MONTHS
 )
 ;
 }
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -954,7 +954,7 @@ items
 let
 guid
 =
-yield
+await
 PlacesUtils
 .
 promiseItemGuid
@@ -965,7 +965,7 @@ itemId
 do_check_true
 (
 (
-yield
+await
 PlacesUtils
 .
 bookmarks

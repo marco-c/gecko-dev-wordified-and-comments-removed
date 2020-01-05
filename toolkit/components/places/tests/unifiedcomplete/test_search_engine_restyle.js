@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test_searchEngine
 (
 )
@@ -144,7 +144,7 @@ client
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -164,7 +164,7 @@ Search
 }
 )
 ;
-yield
+await
 addBookmark
 (
 {
@@ -212,7 +212,7 @@ restyleSearches
 true
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -301,7 +301,7 @@ restyleSearches
 false
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -350,7 +350,7 @@ bookmark
 }
 )
 ;
-yield
+await
 cleanup
 (
 )

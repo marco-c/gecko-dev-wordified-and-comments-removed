@@ -383,8 +383,8 @@ ID
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -398,14 +398,14 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -417,7 +417,7 @@ ran
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -531,7 +531,7 @@ resolve
 let
 addon
 =
-yield
+await
 new
 Promise
 (
@@ -929,7 +929,7 @@ reload
 "
 )
 ;
-yield
+await
 addon
 .
 reload
@@ -955,7 +955,7 @@ reloadCounters
 lastAddonInstanceID
 }
 =
-yield
+await
 waitForDebugGlobalChangesOnReload
 ;
 isDeeply
@@ -1015,7 +1015,7 @@ unloading
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1037,7 +1037,7 @@ counters
 unloadCounters
 }
 =
-yield
+await
 waitForDebugGlobalChangesOnShutdown
 ;
 isDeeply

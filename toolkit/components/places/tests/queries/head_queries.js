@@ -170,8 +170,8 @@ DAY_MICROSEC
 7
 )
 ;
+async
 function
-*
 task_populateDB
 (
 aArray
@@ -203,7 +203,7 @@ qdata
 isVisit
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -444,7 +444,7 @@ qdata
 isDetails
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -615,7 +615,7 @@ qdata
 isFolder
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -656,7 +656,7 @@ qdata
 isLivemark
 )
 {
-yield
+await
 PlacesUtils
 .
 livemarks
@@ -672,7 +672,7 @@ title
 parentId
 :
 (
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -784,7 +784,7 @@ lastModified
 )
 ;
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -801,7 +801,7 @@ qdata
 keyword
 )
 {
-yield
+await
 PlacesUtils
 .
 keywords
@@ -856,7 +856,7 @@ qdata
 isSeparator
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks

@@ -40,12 +40,12 @@ instantApply
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openPreferencesViaOpenPreferencesAPI
 (
 "
@@ -254,7 +254,7 @@ click
 let
 win
 =
-yield
+await
 promiseLoadSubDialog
 (
 "

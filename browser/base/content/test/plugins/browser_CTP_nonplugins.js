@@ -72,8 +72,8 @@ nsIPluginHost
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -166,8 +166,8 @@ focus
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -226,7 +226,7 @@ in
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -241,7 +241,7 @@ html
 "
 )
 ;
-yield
+await
 promiseUpdatePluginBindings
 (
 gBrowser
@@ -304,7 +304,7 @@ true
 true
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -314,8 +314,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -406,7 +406,7 @@ image
 }
 )
 ;
-yield
+await
 pluginRemovedPromise
 ;
 popupNotification
@@ -447,7 +447,7 @@ notification
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -457,8 +457,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {

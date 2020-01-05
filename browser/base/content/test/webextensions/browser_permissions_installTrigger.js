@@ -54,8 +54,8 @@ BASE
 {
 filename
 }
+async
 function
-*
 (
 url
 )

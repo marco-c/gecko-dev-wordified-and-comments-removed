@@ -216,8 +216,8 @@ plain
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -251,7 +251,7 @@ XPCShell
 "
 )
 ;
-yield
+await
 setEmptyPrefWatchlist
 (
 )
@@ -281,8 +281,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_sendTelemetryShutsDownWithinReasonableTimeout
 (
 )
@@ -352,7 +352,7 @@ start
 1
 )
 ;
-yield
+await
 TelemetryController
 .
 testSetup
@@ -413,7 +413,7 @@ _trigger
 (
 )
 ;
-yield
+await
 submissionPromise
 ;
 Assert

@@ -1023,13 +1023,13 @@ field1
 ;
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -1209,8 +1209,8 @@ resolve
 ;
 add_task
 (
+async
 function
-*
 test_untrusted_events_ignored
 (
 )
@@ -1349,7 +1349,7 @@ popup
 from
 opening
 .
-yield
+await
 expectPopupDoesNotOpen
 (
 triggerFn
@@ -1382,7 +1382,7 @@ down
 "
 )
 ;
-yield
+await
 popupShown
 ;
 /
@@ -1431,7 +1431,7 @@ triggerFn
 (
 )
 ;
-yield
+await
 checkSelectedIndexAfterResponseTime
 (
 -
@@ -1475,7 +1475,7 @@ down
 "
 )
 ;
-yield
+await
 indexChanged
 ;
 /
@@ -1584,7 +1584,7 @@ triggerFn
 (
 )
 ;
-yield
+await
 checkSelectedIndexAfterResponseTime
 (
 0

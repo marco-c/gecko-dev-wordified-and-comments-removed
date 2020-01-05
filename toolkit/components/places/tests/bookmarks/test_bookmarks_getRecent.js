@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 invalid_input_throws
 (
 )
@@ -145,13 +145,13 @@ zero
 ;
 add_task
 (
+async
 function
-*
 getRecent_returns_recent_bookmarks
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -163,7 +163,7 @@ eraseEverything
 let
 bm1
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -202,7 +202,7 @@ bookmark
 let
 bm2
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -242,7 +242,7 @@ bookmark
 let
 bm3
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -281,7 +281,7 @@ bookmark
 let
 bm4
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -395,7 +395,7 @@ queryType
 let
 bm5
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -431,7 +431,7 @@ bm5
 let
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -579,7 +579,7 @@ bookmark
 ;
 results
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -638,7 +638,7 @@ bookmark
 "
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks

@@ -61,8 +61,8 @@ button
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -152,14 +152,14 @@ readerModeArticle
 html
 "
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
 url
 )
 ;
-yield
+await
 promiseWaitForCondition
 (
 (
@@ -178,7 +178,7 @@ click
 (
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 tab
@@ -223,7 +223,7 @@ click
 (
 )
 ;
-yield
+await
 pageShownPromise
 ;
 is

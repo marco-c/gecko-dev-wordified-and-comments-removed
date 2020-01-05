@@ -823,8 +823,8 @@ newLogin
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -855,7 +855,7 @@ Data
 ;
 dbConn
 =
-yield
+await
 Sqlite
 .
 openConnection
@@ -921,8 +921,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_importIntoEmptyDB
 (
 )
@@ -935,7 +935,7 @@ of
 TEST_LOGINS
 )
 {
-yield
+await
 promiseSetPassword
 (
 login
@@ -1000,7 +1000,7 @@ initially
 "
 )
 ;
-yield
+await
 promiseMigration
 (
 migrator
@@ -1107,8 +1107,8 @@ i
 ;
 add_task
 (
+async
 function
-*
 test_importExistingLogins
 (
 )
@@ -1297,7 +1297,7 @@ i
 )
 ;
 }
-yield
+await
 promiseMigration
 (
 migrator

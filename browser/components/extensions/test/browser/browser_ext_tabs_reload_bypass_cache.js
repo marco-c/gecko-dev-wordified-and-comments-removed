@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -476,14 +476,14 @@ reload_bypass_cache
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -495,7 +495,7 @@ reload_bypass_cache
 "
 )
 ;
-yield
+await
 extension
 .
 unload

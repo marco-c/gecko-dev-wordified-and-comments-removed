@@ -74,8 +74,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {
@@ -94,15 +94,15 @@ localName
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 testTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -121,7 +121,7 @@ linkedBrowser
 is
 (
 (
-yield
+await
 getFocusedLocalName
 (
 browser
@@ -140,7 +140,7 @@ focused
 let
 blankTab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -153,7 +153,7 @@ blank
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -165,7 +165,7 @@ testTab
 is
 (
 (
-yield
+await
 getFocusedLocalName
 (
 browser

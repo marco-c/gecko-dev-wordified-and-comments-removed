@@ -8,13 +8,13 @@ getExpirablePRTime
 ;
 add_task
 (
+async
 function
-*
 test_expire_orphans
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -45,7 +45,7 @@ gNow
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -79,7 +79,7 @@ gNow
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -115,7 +115,7 @@ title
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -125,7 +125,7 @@ remove
 bm
 )
 ;
-yield
+await
 promiseForceExpirationStep
 (
 0
@@ -190,7 +190,7 @@ org
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -202,13 +202,13 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_expire_orphans_optionalarg
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -239,7 +239,7 @@ gNow
 }
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -273,7 +273,7 @@ gNow
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -309,7 +309,7 @@ title
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -319,7 +319,7 @@ remove
 bm
 )
 ;
-yield
+await
 promiseForceExpirationStep
 (
 )
@@ -383,7 +383,7 @@ org
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -395,13 +395,13 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_expire_limited
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -452,7 +452,7 @@ gNow
 ]
 )
 ;
-yield
+await
 promiseForceExpirationStep
 (
 1
@@ -497,7 +497,7 @@ org
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -509,8 +509,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_expire_limited_longurl
 (
 )
@@ -540,7 +540,7 @@ repeat
 232
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -591,7 +591,7 @@ getExpirablePRTime
 ]
 )
 ;
-yield
+await
 promiseForceExpirationStep
 (
 1
@@ -625,7 +625,7 @@ org
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -637,13 +637,13 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_expire_limited_exoticurl
 (
 )
 {
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -722,7 +722,7 @@ transition
 ]
 )
 ;
-yield
+await
 promiseForceExpirationStep
 (
 1
@@ -789,7 +789,7 @@ org
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -801,8 +801,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_expire_unlimited
 (
 )
@@ -832,7 +832,7 @@ repeat
 232
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -985,7 +985,7 @@ getExpirablePRTime
 ]
 )
 ;
-yield
+await
 promiseForceExpirationStep
 (
 -
@@ -1100,7 +1100,7 @@ org
 )
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory

@@ -36,8 +36,8 @@ this
 ;
 add_task
 (
+async
 function
-*
 test_removeVisitsByFilter
 (
 )
@@ -58,12 +58,8 @@ Date
 let
 remover
 =
-Task
-.
 async
-(
 function
-*
 (
 options
 )
@@ -91,14 +87,14 @@ options
 .
 sampleSize
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
 (
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -424,7 +420,7 @@ visit
 i
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -469,7 +465,7 @@ visits
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -1388,7 +1384,7 @@ cbarg
 let
 result
 =
-yield
+await
 PlacesUtils
 .
 history
@@ -1609,7 +1605,7 @@ promises
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1637,7 +1633,7 @@ promises
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1664,7 +1660,6 @@ observer
 )
 ;
 }
-)
 ;
 let
 size
@@ -1807,7 +1802,7 @@ range
 limit
 ;
 }
-yield
+await
 remover
 (
 options
@@ -1819,7 +1814,7 @@ url
 =
 1
 ;
-yield
+await
 remover
 (
 options
@@ -1831,7 +1826,7 @@ url
 =
 2
 ;
-yield
+await
 remover
 (
 options
@@ -1843,7 +1838,7 @@ url
 =
 3
 ;
-yield
+await
 remover
 (
 options
@@ -1851,7 +1846,7 @@ options
 ;
 }
 }
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -1863,8 +1858,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_error_cases
 (
 )
@@ -2391,8 +2386,8 @@ old
 ;
 add_task
 (
+async
 function
-*
 test_orphans
 (
 )
@@ -2416,7 +2411,7 @@ org
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -2471,7 +2466,7 @@ annotations
 EXPIRE_NEVER
 )
 ;
-yield
+await
 PlacesUtils
 .
 history
@@ -2505,7 +2500,7 @@ ok
 (
 !
 (
-yield
+await
 PlacesTestUtils
 .
 isPageInDB
@@ -2525,7 +2520,7 @@ removed
 let
 db
 =
-yield
+await
 PlacesUtils
 .
 promiseDBConnection
@@ -2535,7 +2530,7 @@ promiseDBConnection
 let
 rows
 =
-yield
+await
 db
 .
 execute

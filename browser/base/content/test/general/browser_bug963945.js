@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -9,7 +9,7 @@ test
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -43,7 +43,7 @@ addons
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -53,7 +53,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 promiseWaitForFocus
 (
 win
@@ -123,7 +123,7 @@ opened
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow

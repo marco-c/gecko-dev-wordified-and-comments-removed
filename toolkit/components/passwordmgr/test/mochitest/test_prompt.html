@@ -931,8 +931,8 @@ login2E
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -947,8 +947,8 @@ initLogins
 ;
 add_task
 (
+async
 function
-*
 test_prompt_accept
 (
 )
@@ -1066,7 +1066,7 @@ abc
 result
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -1106,8 +1106,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_prompt_cancel
 (
 )
@@ -1220,7 +1220,7 @@ abc
 result
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -1243,8 +1243,8 @@ cancel
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_defaultAccept
 (
 )
@@ -1380,7 +1380,7 @@ SAVE_PASSWORD_NEVER
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -1417,8 +1417,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_defaultCancel
 (
 )
@@ -1549,7 +1549,7 @@ SAVE_PASSWORD_NEVER
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -1572,8 +1572,8 @@ cancel
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_emptyAccept
 (
 )
@@ -1709,7 +1709,7 @@ SAVE_PASSWORD_NEVER
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -1746,8 +1746,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_saved
 (
 )
@@ -1832,8 +1832,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_noMatchingPasswordForEmptyUN
 (
 )
@@ -1981,7 +1981,7 @@ SAVE_PASSWORD_NEVER
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -2018,8 +2018,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_matchingPWForUN
 (
 )
@@ -2105,8 +2105,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_matchingPWForUN2
 (
 )
@@ -2192,8 +2192,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_matchingPWForUN3
 (
 )
@@ -2283,8 +2283,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_extraAt
 (
 )
@@ -2371,8 +2371,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_usernameEncoding
 (
 )
@@ -2473,8 +2473,8 @@ SAVE_PASSWORD_PERMANENTLY
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_realm
 (
 )
@@ -2619,7 +2619,7 @@ SAVE_PASSWORD_NEVER
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -2656,8 +2656,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptPassword_realm2
 (
 )
@@ -2802,7 +2802,7 @@ SAVE_PASSWORD_PERMANENTLY
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -2839,8 +2839,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_accept
 (
 )
@@ -2981,7 +2981,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -3033,8 +3033,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_cancel
 (
 )
@@ -3165,7 +3165,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -3188,8 +3188,8 @@ cancel
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_autofill
 (
 )
@@ -3333,7 +3333,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -3384,8 +3384,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_multipleExisting
 (
 )
@@ -3546,7 +3546,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -3622,8 +3622,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_multipleExisting1
 (
 )
@@ -3773,7 +3773,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -3825,8 +3825,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_multipleExisting2
 (
 )
@@ -3976,7 +3976,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -4028,8 +4028,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_passwordChange
 (
 )
@@ -4176,7 +4176,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -4228,8 +4228,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_changePasswordBack
 (
 )
@@ -4382,7 +4382,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -4434,8 +4434,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_realm
 (
 )
@@ -4592,7 +4592,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok
@@ -4644,8 +4644,8 @@ password
 ;
 add_task
 (
+async
 function
-*
 test_promptUsernameAndPassword_realm2
 (
 )
@@ -4802,7 +4802,7 @@ uname
 pword
 )
 ;
-yield
+await
 promptDone
 ;
 ok

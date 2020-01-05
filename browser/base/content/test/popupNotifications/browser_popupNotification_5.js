@@ -323,7 +323,7 @@ Test
 #
 3
 "
-*
+async
 run
 (
 )
@@ -350,7 +350,7 @@ true
 let
 win
 =
-yield
+await
 BrowserTestUtils
 .
 openNewBrowserWindow
@@ -408,7 +408,7 @@ remove
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -416,7 +416,7 @@ closeWindow
 win
 )
 ;
-yield
+await
 waitForWindowReadyForPopupNotifications
 (
 window
@@ -436,7 +436,7 @@ Test
 #
 4
 "
-*
+async
 run
 (
 )
@@ -449,7 +449,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -504,7 +504,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -516,7 +516,7 @@ complete
 =
 false
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -534,7 +534,7 @@ org
 "
 )
 ;
-yield
+await
 promiseTabLoadEvent
 (
 gBrowser
@@ -636,7 +636,7 @@ Test
 #
 5
 "
-*
+async
 run
 (
 )
@@ -649,7 +649,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -704,7 +704,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -723,7 +723,7 @@ gBrowser
 .
 selectedBrowser
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -806,7 +806,6 @@ Test
 #
 6a
 "
-*
 run
 (
 )
@@ -843,7 +842,7 @@ notifyObj
 )
 ;
 }
-*
+async
 onShown
 (
 popup
@@ -857,7 +856,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -923,7 +922,6 @@ Test
 #
 6b
 "
-*
 run
 (
 )
@@ -1012,7 +1010,7 @@ Test
 #
 7
 "
-*
+async
 run
 (
 )
@@ -1025,7 +1023,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1050,7 +1048,7 @@ gBrowser
 .
 selectedTab
 ;
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -1103,7 +1101,7 @@ showNotification
 notifyObj
 )
 ;
-yield
+await
 shown
 ;
 ok
@@ -1176,7 +1174,7 @@ firstTab
 let
 win
 =
-yield
+await
 promiseWin
 ;
 let
@@ -1230,7 +1228,7 @@ window
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 closeWindow
@@ -1238,7 +1236,7 @@ closeWindow
 win
 )
 ;
-yield
+await
 waitForWindowReadyForPopupNotifications
 (
 window

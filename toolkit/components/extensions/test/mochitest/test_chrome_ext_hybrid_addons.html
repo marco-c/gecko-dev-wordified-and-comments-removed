@@ -949,8 +949,8 @@ files
 }
 add_task
 (
+async
 function
-*
 test_sdk_hybrid_addon_with_jpm_module_loader
 (
 )
@@ -1196,7 +1196,7 @@ startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -1212,7 +1212,7 @@ onmessage
 "
 )
 ;
-yield
+await
 extension
 .
 unload

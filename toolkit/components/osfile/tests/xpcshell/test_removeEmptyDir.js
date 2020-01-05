@@ -98,8 +98,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -131,7 +131,7 @@ directory
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File
@@ -143,7 +143,7 @@ dir
 )
 )
 ;
-yield
+await
 OS
 .
 File
@@ -153,7 +153,7 @@ removeEmptyDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -175,7 +175,7 @@ null
 ;
 try
 {
-yield
+await
 OS
 .
 File
@@ -226,7 +226,7 @@ exception
 becauseNoSuchFile
 )
 ;
-yield
+await
 OS
 .
 File
@@ -236,7 +236,7 @@ makeDir
 dir
 )
 ;
-yield
+await
 OS
 .
 File
@@ -249,7 +249,7 @@ dir
 do_check_false
 (
 (
-yield
+await
 OS
 .
 File

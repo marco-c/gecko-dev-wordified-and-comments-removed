@@ -214,8 +214,8 @@ MAX_INTROS
 }
 add_task
 (
+async
 function
-*
 setup_test
 (
 )
@@ -230,7 +230,7 @@ PREF_TP_ENABLED
 true
 )
 ;
-yield
+await
 UrlClassifierTestUtils
 .
 addTestTrackers
@@ -242,8 +242,8 @@ addTestTrackers
 ;
 add_task
 (
+async
 function
-*
 test_benignPage
 (
 )
@@ -266,7 +266,7 @@ allowOneIntro
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -362,8 +362,8 @@ page
 ;
 add_task
 (
+async
 function
-*
 test_trackingPages
 (
 )
@@ -385,7 +385,7 @@ allowOneIntro
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -396,12 +396,12 @@ url
 :
 TRACKING_PAGE
 }
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -513,7 +513,7 @@ tabs
 .
 length
 ;
-yield
+await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -615,7 +615,7 @@ children
 let
 tab
 =
-yield
+await
 tabPromise
 ;
 is
@@ -665,7 +665,7 @@ opened
 "
 )
 ;
-yield
+await
 panelHiddenPromise
 ;
 ok
@@ -682,7 +682,7 @@ clicked
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -714,7 +714,7 @@ again
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab

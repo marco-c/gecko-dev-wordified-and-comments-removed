@@ -14,8 +14,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_save_sorted_engines
 (
 )
@@ -26,7 +26,7 @@ engine1
 engine2
 ]
 =
-yield
+await
 addTestEngines
 (
 [
@@ -66,7 +66,7 @@ xml
 ]
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -94,7 +94,7 @@ engine2
 1
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -112,7 +112,7 @@ moveEngine
 let
 metadata
 =
-yield
+await
 promiseEngineMetadata
 (
 )
@@ -160,7 +160,7 @@ removeEngine
 engine1
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -177,7 +177,7 @@ removeEngine
 ;
 metadata
 =
-yield
+await
 promiseEngineMetadata
 (
 )
@@ -234,7 +234,7 @@ searchTerms
 "
 )
 ;
-yield
+await
 promiseAfterCache
 (
 )
@@ -251,7 +251,7 @@ addEngineWithDetails
 ;
 metadata
 =
-yield
+await
 promiseEngineMetadata
 (
 )

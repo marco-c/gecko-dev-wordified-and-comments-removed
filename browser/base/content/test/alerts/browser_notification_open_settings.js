@@ -34,8 +34,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_settingsOpen_observer
 (
 )
@@ -63,7 +63,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -78,8 +78,8 @@ about
 robots
 "
 }
+async
 function
-*
 dummyTabTask
 (
 aBrowser
@@ -167,7 +167,7 @@ settings
 let
 tab
 =
-yield
+await
 tabPromise
 ;
 ok
@@ -182,7 +182,7 @@ opened
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -198,8 +198,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 test_settingsOpen_button
 (
 )
@@ -240,7 +240,7 @@ ALLOW_ACTION
 ;
 try
 {
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -251,8 +251,8 @@ url
 :
 notificationURL
 }
+async
 function
-*
 tabTask
 (
 aBrowser
@@ -267,7 +267,7 @@ notification
 "
 )
 ;
-yield
+await
 openNotification
 (
 aBrowser
@@ -316,7 +316,7 @@ platforms
 "
 )
 ;
-yield
+await
 closeNotification
 (
 aBrowser
@@ -384,7 +384,7 @@ tab
 let
 tab
 =
-yield
+await
 tabPromise
 ;
 ok
@@ -399,10 +399,10 @@ opened
 "
 )
 ;
-yield
+await
 closePromise
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -286,8 +286,8 @@ unload
 }
 add_task
 (
+async
 function
-*
 testGoodPermissions
 (
 )
@@ -295,7 +295,7 @@ testGoodPermissions
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -326,7 +326,7 @@ permission
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -364,7 +364,7 @@ permission
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -405,7 +405,7 @@ permission
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -441,7 +441,7 @@ press
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -613,7 +613,7 @@ click
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -701,7 +701,7 @@ click
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -793,7 +793,7 @@ click
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -874,7 +874,7 @@ click
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -972,7 +972,7 @@ click
 "
 )
 ;
-yield
+await
 testHasPermission
 (
 {
@@ -1030,8 +1030,8 @@ resolve
 }
 setup
 :
+async
 function
-*
 (
 extension
 )
@@ -1074,7 +1074,7 @@ popuphidden
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -1100,7 +1100,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 awaitPopupShown
 ;
 let
@@ -1119,7 +1119,7 @@ activeTab
 "
 )
 ;
-yield
+await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1130,14 +1130,14 @@ item
 window
 )
 ;
-yield
+await
 awaitPopupHidden
 ;
 }
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

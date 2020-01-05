@@ -2015,8 +2015,8 @@ name
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -2035,7 +2035,7 @@ stringify
 json
 )
 ;
-yield
+await
 Schemas
 .
 load
@@ -6208,8 +6208,8 @@ work
 ;
 add_task
 (
+async
 function
-*
 testDeprecation
 (
 )
@@ -6229,7 +6229,7 @@ stringify
 deprecatedJson
 )
 ;
-yield
+await
 Schemas
 .
 load
@@ -6949,8 +6949,8 @@ integer
 ;
 add_task
 (
+async
 function
-*
 testChoices
 (
 )
@@ -6970,7 +6970,7 @@ stringify
 choicesJson
 )
 ;
-yield
+await
 Schemas
 .
 load
@@ -7531,8 +7531,8 @@ parameters
 ;
 add_task
 (
+async
 function
-*
 testPermissions
 (
 )
@@ -7552,7 +7552,7 @@ stringify
 permissionsJson
 )
 ;
-yield
+await
 Schemas
 .
 load
@@ -8135,8 +8135,8 @@ string
 ;
 add_task
 (
+async
 function
-*
 testNestedNamespace
 (
 )
@@ -8156,7 +8156,7 @@ stringify
 nestedNamespaceJson
 )
 ;
-yield
+await
 Schemas
 .
 load
@@ -8317,8 +8317,8 @@ instance
 ;
 add_task
 (
+async
 function
-*
 testLocalAPIImplementation
 (
 )
@@ -8861,8 +8861,8 @@ object
 ;
 add_task
 (
+async
 function
-*
 testDefaults
 (
 )
@@ -8882,7 +8882,7 @@ stringify
 defaultsJson
 )
 ;
-yield
+await
 Schemas
 .
 load

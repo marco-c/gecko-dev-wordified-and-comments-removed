@@ -231,8 +231,8 @@ value
 }
 add_task
 (
+async
 function
-*
 test_background_clipboard_permissions
 (
 )
@@ -319,14 +319,14 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -336,7 +336,7 @@ ready
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -541,8 +541,8 @@ unload
 /
 add_task
 (
+async
 function
-*
 test_contentscript_clipboard_permissions
 (
 )
@@ -684,7 +684,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -705,7 +705,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -721,7 +721,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -733,8 +733,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_contentscript_clipboard_copy
 (
 )
@@ -876,7 +876,7 @@ loadExtension
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -897,7 +897,7 @@ html
 "
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -920,7 +920,7 @@ content
 script
 "
 ;
-yield
+await
 new
 Promise
 (
@@ -959,7 +959,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -971,8 +971,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_contentscript_clipboard_paste
 (
 )
@@ -1091,7 +1091,7 @@ clipboardCopyString
 STRANGE
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1115,7 +1115,7 @@ html
 const
 paste
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1144,7 +1144,7 @@ close
 (
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1156,8 +1156,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_background_clipboard_paste
 (
 )
@@ -1225,7 +1225,7 @@ clipboardCopyString
 STRANGE
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1235,7 +1235,7 @@ startup
 const
 paste
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -1258,7 +1258,7 @@ pasted
 "
 )
 ;
-yield
+await
 extension
 .
 unload

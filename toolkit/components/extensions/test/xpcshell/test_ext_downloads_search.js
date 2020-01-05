@@ -549,8 +549,8 @@ downloads
 }
 add_task
 (
+async
 function
-*
 test_search
 (
 )
@@ -714,7 +714,7 @@ clearDownloads
 }
 )
 ;
-yield
+await
 clearDownloads
 (
 )
@@ -894,14 +894,14 @@ done
 )
 ;
 }
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -928,7 +928,7 @@ downloadIds
 let
 msg
 =
-yield
+await
 download
 (
 {
@@ -973,7 +973,7 @@ txt
 ;
 msg
 =
-yield
+await
 download
 (
 {
@@ -1020,7 +1020,7 @@ Date
 ;
 msg
 =
-yield
+await
 download
 (
 {
@@ -1065,7 +1065,7 @@ html
 ;
 msg
 =
-yield
+await
 download
 (
 {
@@ -1207,7 +1207,7 @@ correct
 )
 ;
 }
-yield
+await
 checkDownloadItem
 (
 downloadIds
@@ -1250,7 +1250,7 @@ true
 }
 )
 ;
-yield
+await
 checkDownloadItem
 (
 downloadIds
@@ -1293,7 +1293,7 @@ true
 }
 )
 ;
-yield
+await
 checkDownloadItem
 (
 downloadIds
@@ -1336,7 +1336,7 @@ true
 }
 )
 ;
-yield
+await
 checkDownloadItem
 (
 downloadIds
@@ -1586,7 +1586,7 @@ INVALID_ID
 =
 1000
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1602,7 +1602,7 @@ id
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1639,7 +1639,7 @@ html
 +
 "
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1661,7 +1661,7 @@ regexp
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1688,7 +1688,7 @@ urlRegex
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1709,7 +1709,7 @@ urlRegex
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1730,7 +1730,7 @@ filename
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1749,7 +1749,7 @@ regex
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1777,7 +1777,7 @@ regex
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1802,7 +1802,7 @@ regex
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1834,7 +1834,7 @@ file_download
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1857,7 +1857,7 @@ NewFile
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1880,7 +1880,7 @@ nEwfiLe
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -1908,7 +1908,7 @@ txt
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2113,7 +2113,7 @@ string
 )
 ;
 }
-yield
+await
 checkSearchWithDate
 (
 {
@@ -2129,7 +2129,7 @@ time1
 "
 )
 ;
-yield
+await
 checkSearchWithDate
 (
 {
@@ -2151,7 +2151,7 @@ time2
 "
 )
 ;
-yield
+await
 checkSearchWithDate
 (
 {
@@ -2179,7 +2179,7 @@ time3
 "
 )
 ;
-yield
+await
 checkSearchWithDate
 (
 {
@@ -2207,7 +2207,7 @@ time1
 "
 )
 ;
-yield
+await
 checkSearchWithDate
 (
 {
@@ -2229,7 +2229,7 @@ time2
 "
 )
 ;
-yield
+await
 checkSearchWithDate
 (
 {
@@ -2245,7 +2245,7 @@ time3
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2266,7 +2266,7 @@ totalBytes
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2287,7 +2287,7 @@ totalBytes
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2316,7 +2316,7 @@ than
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2339,7 +2339,7 @@ TXT_LEN
 }
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2356,7 +2356,7 @@ HTML_LEN
 }
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2373,7 +2373,7 @@ TXT_LEN
 }
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2396,7 +2396,7 @@ HTML_LEN
 }
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2425,7 +2425,7 @@ BIG_LEN
 }
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2451,7 +2451,7 @@ totalBytesGreater
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2477,7 +2477,7 @@ totalBytesGreater
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2508,7 +2508,7 @@ totalBytesGreater
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2529,7 +2529,7 @@ combination
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2550,7 +2550,7 @@ combination
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2571,7 +2571,7 @@ combination
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2599,7 +2599,7 @@ plain
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2627,7 +2627,7 @@ htmlplain
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2649,7 +2649,7 @@ webm
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2670,7 +2670,7 @@ fileSize
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2691,7 +2691,7 @@ fileSize
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2774,7 +2774,7 @@ properties
 "
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2807,7 +2807,7 @@ startTime
 true
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2842,7 +2842,7 @@ startTime
 true
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2881,7 +2881,7 @@ fields
 true
 )
 ;
-yield
+await
 checkSearch
 (
 {
@@ -2972,7 +2972,7 @@ errmsg
 )
 ;
 }
-yield
+await
 checkBadSearch
 (
 "
@@ -2992,7 +2992,7 @@ object
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3015,7 +3015,7 @@ field
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3040,7 +3040,7 @@ string
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3070,7 +3070,7 @@ time
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3100,7 +3100,7 @@ time
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3130,7 +3130,7 @@ time
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3160,7 +3160,7 @@ time
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3187,7 +3187,7 @@ expression
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3214,7 +3214,7 @@ expression
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3239,7 +3239,7 @@ array
 "
 )
 ;
-yield
+await
 checkBadSearch
 (
 {
@@ -3269,7 +3269,7 @@ field
 "
 )
 ;
-yield
+await
 extension
 .
 unload

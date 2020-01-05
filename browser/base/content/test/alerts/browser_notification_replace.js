@@ -34,8 +34,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_notificationReplace
 (
 )
@@ -65,7 +65,7 @@ pm
 ALLOW_ACTION
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -76,14 +76,14 @@ url
 :
 notificationURL
 }
+async
 function
-*
 dummyTabTask
 (
 aBrowser
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -91,8 +91,8 @@ spawn
 aBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -130,7 +130,7 @@ close
 let
 showEvent
 =
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -174,7 +174,7 @@ showNotification2
 let
 newShowEvent
 =
-yield
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -212,7 +212,7 @@ tag
 let
 closeEvent
 =
-yield
+await
 promiseCloseEvent
 ;
 Assert
@@ -259,7 +259,7 @@ close
 let
 newCloseEvent
 =
-yield
+await
 promiseNewCloseEvent
 ;
 Assert
@@ -294,8 +294,8 @@ notification
 ;
 add_task
 (
+async
 function
-*
 cleanup
 (
 )

@@ -168,13 +168,13 @@ correct
 }
 add_task
 (
+async
 function
-*
 setup_test_preference
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -220,8 +220,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 unblock_icon_should_disapear_after_resume_tab
 (
 )
@@ -263,7 +263,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -291,7 +291,7 @@ block
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -318,7 +318,7 @@ icon
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -338,7 +338,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -367,7 +367,7 @@ suspend
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -394,7 +394,7 @@ icon
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -415,7 +415,7 @@ icon
 "
 )
 ;
-yield
+await
 waitForTabPlayingEvent
 (
 tab
@@ -432,7 +432,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -445,8 +445,8 @@ tab
 ;
 add_task
 (
+async
 function
-*
 should_not_show_sound_indicator_after_resume_tab
 (
 )
@@ -488,7 +488,7 @@ loadURI
 PAGE
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -516,7 +516,7 @@ block
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -543,7 +543,7 @@ icon
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -562,7 +562,7 @@ icon
 "
 )
 ;
-yield
+await
 click_unblock_icon
 (
 tab
@@ -586,7 +586,7 @@ suspend
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -613,7 +613,7 @@ icon
 "
 )
 ;
-yield
+await
 waitForTabBlockEvent
 (
 tab
@@ -634,7 +634,7 @@ icon
 "
 )
 ;
-yield
+await
 waitForTabPlayingEvent
 (
 tab
@@ -651,7 +651,7 @@ tab
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

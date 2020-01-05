@@ -4,8 +4,8 @@ strict
 "
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -22,7 +22,7 @@ data
 "
 )
 ;
-yield
+await
 withSidebarTree
 (
 "
@@ -87,8 +87,8 @@ description
 )
 ;
 }
+async
 function
-*
 test
 (
 dialogWin
@@ -137,13 +137,13 @@ modified
 dialogWin
 )
 ;
-yield
+await
 promiseTitleChangeNotification
 ;
 let
 bookmark
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -188,7 +188,7 @@ edited
 let
 livemark
 =
-yield
+await
 PlacesUtils
 .
 livemarks

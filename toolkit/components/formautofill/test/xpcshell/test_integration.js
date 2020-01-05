@@ -6,7 +6,6 @@ strict
 add_task_in_parent_process
 (
 function
-*
 test_initialize
 (
 )
@@ -26,8 +25,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_integration_override
 (
 )
@@ -45,14 +44,8 @@ base
 >
 (
 {
-createRequestAutocompleteUI
-:
-Task
-.
 async
-(
-function
-*
+createRequestAutocompleteUI
 (
 )
 {
@@ -61,7 +54,7 @@ overrideCalled
 true
 ;
 return
-yield
+await
 base
 .
 createRequestAutocompleteUI
@@ -73,7 +66,6 @@ arguments
 )
 ;
 }
-)
 }
 )
 ;
@@ -89,7 +81,7 @@ try
 let
 ui
 =
-yield
+await
 FormAutofill
 .
 integration
@@ -103,7 +95,7 @@ createRequestAutocompleteUI
 let
 result
 =
-yield
+await
 ui
 .
 show
@@ -142,8 +134,8 @@ overrideCalled
 ;
 add_task
 (
+async
 function
-*
 test_integration_override_error
 (
 )
@@ -176,14 +168,8 @@ base
 >
 (
 {
-createRequestAutocompleteUI
-:
-Task
-.
 async
-(
-function
-*
+createRequestAutocompleteUI
 (
 )
 {
@@ -192,7 +178,7 @@ overrideCalled
 true
 ;
 return
-yield
+await
 base
 .
 createRequestAutocompleteUI
@@ -204,7 +190,6 @@ arguments
 )
 ;
 }
-)
 }
 )
 ;
@@ -227,7 +212,7 @@ try
 let
 ui
 =
-yield
+await
 FormAutofill
 .
 integration
@@ -241,7 +226,7 @@ createRequestAutocompleteUI
 let
 result
 =
-yield
+await
 ui
 .
 show

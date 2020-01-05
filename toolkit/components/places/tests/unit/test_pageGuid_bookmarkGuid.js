@@ -24,8 +24,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_addBookmarksAndCheckGuids
 (
 )
@@ -445,7 +445,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -459,8 +459,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 test_updateBookmarksAndCheckGuids
 (
 )
@@ -716,7 +716,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -730,8 +730,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 test_addVisitAndCheckGuid
 (
 )
@@ -753,7 +753,7 @@ com
 "
 )
 ;
-yield
+await
 PlacesTestUtils
 .
 addVisits
@@ -859,7 +859,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 PlacesTestUtils
 .
 clearHistory
@@ -871,8 +871,8 @@ clearHistory
 ;
 add_task
 (
+async
 function
-*
 test_addItemsWithInvalidGUIDsFails
 (
 )
@@ -1029,7 +1029,7 @@ ex
 )
 {
 }
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1043,8 +1043,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 test_addItemsWithGUIDs
 (
 )
@@ -1205,7 +1205,7 @@ containerOpen
 =
 false
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1219,8 +1219,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 test_emptyGUIDIgnored
 (
 )
@@ -1260,7 +1260,7 @@ root
 bookmarkGuid
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -1274,8 +1274,8 @@ eraseEverything
 ;
 add_task
 (
+async
 function
-*
 test_usingSameGUIDFails
 (
 )
@@ -1344,7 +1344,7 @@ ex
 )
 {
 }
-yield
+await
 PlacesUtils
 .
 bookmarks

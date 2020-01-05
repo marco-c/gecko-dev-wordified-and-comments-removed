@@ -176,8 +176,8 @@ BASE
 browser_webext_unsigned
 .
 xpi
+async
 function
-*
 (
 url
 )

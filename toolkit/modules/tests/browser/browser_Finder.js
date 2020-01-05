@@ -7,8 +7,8 @@ interfaces
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -77,7 +77,7 @@ a
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -195,7 +195,7 @@ content
 let
 findResult
 =
-yield
+await
 promiseFind
 ;
 Assert
@@ -233,7 +233,7 @@ Bla
 ;
 findResult
 =
-yield
+await
 promiseFind
 ;
 Assert
@@ -272,7 +272,7 @@ true
 ;
 findResult
 =
-yield
+await
 promiseFind
 ;
 is
@@ -292,7 +292,7 @@ link
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -302,8 +302,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 arg
 )
@@ -360,7 +360,7 @@ false
 ;
 findResult
 =
-yield
+await
 promiseFind
 ;
 is
@@ -381,7 +381,7 @@ again
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -391,8 +391,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 arg
 )

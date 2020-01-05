@@ -87,13 +87,13 @@ tab
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -133,8 +133,8 @@ processCount
 ;
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -175,7 +175,7 @@ cookie
 userContextId
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -211,7 +211,7 @@ foo
 9999
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -272,7 +272,7 @@ getBrowserForTab
 tab
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded

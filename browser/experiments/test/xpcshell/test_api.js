@@ -132,19 +132,16 @@ uninstallExperimentAddons
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -157,7 +154,7 @@ of
 addons
 )
 {
-yield
+await
 AddonManagerTesting
 .
 uninstallAddonByID
@@ -170,6 +167,8 @@ id
 }
 }
 )
+(
+)
 ;
 }
 function
@@ -179,31 +178,30 @@ experimentsInstance
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 promiseRestartManager
 (
 )
 ;
-yield
+await
 uninstallExperimentAddons
 (
 )
 ;
-yield
+await
 removeCacheFile
 (
 )
 ;
 }
+)
+(
 )
 ;
 }
@@ -219,8 +217,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -465,8 +463,8 @@ timeout
 ;
 add_task
 (
+async
 function
-*
 test_contract
 (
 )
@@ -497,8 +495,8 @@ getService
 ;
 add_task
 (
+async
 function
-*
 test_getExperiments
 (
 )
@@ -777,7 +775,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -824,7 +822,7 @@ null
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -852,7 +850,7 @@ empty
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -881,7 +879,7 @@ installed
 ;
 try
 {
-yield
+await
 experiments
 .
 getExperimentBranch
@@ -943,7 +941,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -991,7 +989,7 @@ experiment1
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1020,7 +1018,7 @@ now
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -1124,7 +1122,7 @@ data
 let
 b
 =
-yield
+await
 experiments
 .
 getExperimentBranch
@@ -1149,7 +1147,7 @@ default
 ;
 b
 =
-yield
+await
 experiments
 .
 getExperimentBranch
@@ -1175,7 +1173,7 @@ id
 "
 )
 ;
-yield
+await
 experiments
 .
 setExperimentBranch
@@ -1188,7 +1186,7 @@ foo
 ;
 b
 =
-yield
+await
 experiments
 .
 getExperimentBranch
@@ -1273,7 +1271,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -1320,7 +1318,7 @@ again
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1348,7 +1346,7 @@ entry
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -1483,7 +1481,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 notify
@@ -1531,7 +1529,7 @@ experiment2
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1560,7 +1558,7 @@ now
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -1736,7 +1734,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 notify
@@ -1783,7 +1781,7 @@ again2
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -1812,7 +1810,7 @@ now
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -1949,7 +1947,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -1960,8 +1958,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_getActiveExperimentID
 (
 )
@@ -2091,7 +2089,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -2118,7 +2116,7 @@ experiment1
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -2147,7 +2145,7 @@ uninit
 "
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -2158,8 +2156,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_addonAlreadyInstalled
 (
 )
@@ -2318,7 +2316,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -2347,7 +2345,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2388,7 +2386,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -2416,7 +2414,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2425,7 +2423,7 @@ getExperiments
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2499,7 +2497,7 @@ active
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -2523,7 +2521,7 @@ installed
 "
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -2536,7 +2534,7 @@ EXPERIMENT1_XPI_SHA1
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -2562,7 +2560,7 @@ installed
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2643,7 +2641,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -2654,8 +2652,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_lastActiveToday
 (
 )
@@ -2680,7 +2678,7 @@ FAKE_EXPERIMENTS_1
 let
 e
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2743,7 +2741,7 @@ active
 let
 lastActive
 =
-yield
+await
 experiments
 .
 lastActiveToday
@@ -2777,7 +2775,7 @@ FAKE_EXPERIMENTS_2
 ;
 e
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -2812,7 +2810,7 @@ endDate
 ;
 lastActive
 =
-yield
+await
 experiments
 .
 lastActiveToday
@@ -2852,7 +2850,7 @@ expected
 "
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -2863,8 +2861,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_disableExperiment
 (
 )
@@ -3001,7 +2999,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -3011,7 +3009,7 @@ updateManifest
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -3118,7 +3116,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 disableExperiment
@@ -3130,7 +3128,7 @@ foo
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -3232,7 +3230,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -3241,7 +3239,7 @@ updateManifest
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -3311,7 +3309,7 @@ data
 )
 ;
 }
-yield
+await
 testCleanup
 (
 experiments
@@ -3322,8 +3320,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_disableExperimentsFeature
 (
 )
@@ -3478,7 +3476,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -3488,7 +3486,7 @@ updateManifest
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -3586,7 +3584,7 @@ _toggleExperimentsEnabled
 false
 )
 ;
-yield
+await
 experiments
 .
 notify
@@ -3614,7 +3612,7 @@ now
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -3718,7 +3716,7 @@ now
 ;
 try
 {
-yield
+await
 experiments
 .
 updateManifest
@@ -3734,7 +3732,7 @@ e
 }
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -3804,7 +3802,7 @@ data
 )
 ;
 }
-yield
+await
 testCleanup
 (
 experiments
@@ -3815,8 +3813,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_installFailure
 (
 )
@@ -4068,7 +4066,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -4097,7 +4095,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -4153,7 +4151,7 @@ sha1
 0000000000000000000000000000000000000000
 "
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -4181,7 +4179,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -4268,7 +4266,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -4314,7 +4312,7 @@ now
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -4412,7 +4410,7 @@ xpiHash
 =
 EXPERIMENT1_XPI_SHA1
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -4466,7 +4464,7 @@ MS_IN_ONE_DAY
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -4573,7 +4571,7 @@ data
 ;
 }
 }
-yield
+await
 testCleanup
 (
 experiments
@@ -4584,8 +4582,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_userDisabledAndUpdated
 (
 )
@@ -4744,7 +4742,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -4773,7 +4771,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -4814,7 +4812,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -4842,7 +4840,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -4916,7 +4914,7 @@ active
 let
 todayActive
 =
-yield
+await
 experiments
 .
 lastActiveToday
@@ -4980,7 +4978,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 disableExperiment
@@ -5011,7 +5009,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -5085,7 +5083,7 @@ anymore
 ;
 todayActive
 =
-yield
+await
 experiments
 .
 lastActiveToday
@@ -5169,7 +5167,7 @@ sha1
 0000000000000000000000000000000000000000
 "
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -5196,7 +5194,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -5277,7 +5275,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -5288,8 +5286,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_updateActiveExperiment
 (
 )
@@ -5448,7 +5446,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -5477,7 +5475,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -5505,7 +5503,7 @@ empty
 let
 todayActive
 =
-yield
+await
 experiments
 .
 lastActiveToday
@@ -5543,7 +5541,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -5571,7 +5569,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -5664,7 +5662,7 @@ match
 ;
 todayActive
 =
-yield
+await
 experiments
 .
 lastActiveToday
@@ -5750,7 +5748,7 @@ gDataRoot
 +
 EXPERIMENT1A_XPI_NAME
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -5778,7 +5776,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -5874,7 +5872,7 @@ updated
 ;
 todayActive
 =
-yield
+await
 experiments
 .
 lastActiveToday
@@ -5915,7 +5913,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -5926,8 +5924,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_disableActiveExperiment
 (
 )
@@ -6086,7 +6084,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -6115,7 +6113,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -6156,7 +6154,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -6184,7 +6182,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -6282,7 +6280,7 @@ disabled
 =
 true
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -6310,7 +6308,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -6407,7 +6405,7 @@ experiments
 .
 disabled
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -6416,7 +6414,7 @@ updateManifest
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -6498,7 +6496,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -6509,8 +6507,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_freezePendingExperiment
 (
 )
@@ -6669,7 +6667,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -6698,7 +6696,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -6750,7 +6748,7 @@ frozen
 =
 true
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -6777,7 +6775,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -6830,7 +6828,7 @@ experiments
 .
 frozen
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -6858,7 +6856,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -6940,7 +6938,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -6951,8 +6949,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_freezeActiveExperiment
 (
 )
@@ -7111,7 +7109,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -7140,7 +7138,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -7181,7 +7179,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -7209,7 +7207,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -7327,7 +7325,7 @@ frozen
 =
 true
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -7353,7 +7351,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -7435,7 +7433,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -7446,8 +7444,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_removeActiveExperiment
 (
 )
@@ -7672,7 +7670,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -7701,7 +7699,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -7742,7 +7740,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -7770,7 +7768,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -7888,7 +7886,7 @@ frozen
 =
 true
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -7914,7 +7912,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -7996,7 +7994,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -8007,8 +8005,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_invalidUrl
 (
 )
@@ -8179,7 +8177,7 @@ gTimerScheduleOffset
 =
 null
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -8226,7 +8224,7 @@ scheduled
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -8261,7 +8259,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -8272,8 +8270,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_unexpectedUninstall
 (
 )
@@ -8432,7 +8430,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -8461,7 +8459,7 @@ called
 let
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -8502,7 +8500,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -8530,7 +8528,7 @@ called
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -8601,7 +8599,7 @@ active
 "
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 uninstallAddonByID
@@ -8609,12 +8607,12 @@ uninstallAddonByID
 EXPERIMENT1_ID
 )
 ;
-yield
+await
 experiments
 .
 _mainTask
 ;
-yield
+await
 experiments
 .
 notify
@@ -8623,7 +8621,7 @@ notify
 ;
 list
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -8706,7 +8704,7 @@ observer
 OBSERVER_TOPIC
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -8717,8 +8715,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 testUnknownExperimentsUninstalled
 (
 )
@@ -8737,7 +8735,7 @@ gPolicy
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -8770,7 +8768,7 @@ _unregisterWithAddonManager
 (
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -8789,7 +8787,7 @@ _registerWithAddonManager
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -8825,7 +8823,7 @@ experiments
 ]
 }
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -8835,7 +8833,7 @@ updateManifest
 let
 fromManifest
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -8862,7 +8860,7 @@ manifest
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -8884,7 +8882,7 @@ uninstalled
 "
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -8895,8 +8893,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 testForeignExperimentInstall
 (
 )
@@ -8926,7 +8924,7 @@ experiments
 ]
 }
 ;
-yield
+await
 experiments
 .
 init
@@ -8936,7 +8934,7 @@ init
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -8969,7 +8967,7 @@ false
 ;
 try
 {
-yield
+await
 AddonManagerTesting
 .
 installXPIFromURL
@@ -9011,7 +9009,7 @@ successfully
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9037,7 +9035,7 @@ cancelled
 "
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -9048,8 +9046,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 testEnabledAfterRestart
 (
 )
@@ -9144,7 +9142,7 @@ nightly
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9170,7 +9168,7 @@ installed
 "
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -9180,7 +9178,7 @@ updateManifest
 let
 fromManifest
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -9207,7 +9205,7 @@ known
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9263,7 +9261,7 @@ n
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -9280,7 +9278,7 @@ gPolicy
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9343,7 +9341,7 @@ active
 "
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -9372,7 +9370,7 @@ evaluated
 "
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -9383,8 +9381,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 testMaxStartTimeEvaluation
 (
 )
@@ -9518,7 +9516,7 @@ gPolicy
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9544,7 +9542,7 @@ installed
 "
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -9554,7 +9552,7 @@ updateManifest
 let
 fromManifest
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -9581,7 +9579,7 @@ known
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9661,7 +9659,7 @@ gPolicy
 now
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -9670,7 +9668,7 @@ updateManifest
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9712,7 +9710,7 @@ active
 "
 )
 ;
-yield
+await
 testCleanup
 (
 experiments
@@ -9723,8 +9721,8 @@ experiments
 ;
 add_task
 (
+async
 function
-*
 test_foreignUninstallAndRestart
 (
 )
@@ -9819,7 +9817,7 @@ nightly
 let
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9845,7 +9843,7 @@ installed
 "
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -9855,7 +9853,7 @@ updateManifest
 let
 experimentList
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -9882,7 +9880,7 @@ known
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9927,7 +9925,7 @@ active
 "
 )
 ;
-yield
+await
 AddonManagerTesting
 .
 uninstallAddonByID
@@ -9935,14 +9933,14 @@ uninstallAddonByID
 EXPERIMENT1_ID
 )
 ;
-yield
+await
 experiments
 .
 _mainTask
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -9970,7 +9968,7 @@ removed
 ;
 experimentList
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -10041,7 +10039,7 @@ anymore
 "
 )
 ;
-yield
+await
 promiseRestartManager
 (
 )
@@ -10056,7 +10054,7 @@ Experiments
 gPolicy
 )
 ;
-yield
+await
 experiments
 .
 updateManifest
@@ -10065,7 +10063,7 @@ updateManifest
 ;
 addons
 =
-yield
+await
 getExperimentAddons
 (
 )
@@ -10091,7 +10089,7 @@ installed
 ;
 experimentList
 =
-yield
+await
 experiments
 .
 getExperiments
@@ -10161,7 +10159,7 @@ active
 "
 )
 ;
-yield
+await
 testCleanup
 (
 experiments

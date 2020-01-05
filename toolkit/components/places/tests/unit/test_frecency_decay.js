@@ -223,8 +223,8 @@ promise
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
@@ -250,8 +250,8 @@ PREF_FREC_DECAY_RATE_DEF
 ;
 add_task
 (
+async
 function
-*
 test_frecency_decay
 (
 )
@@ -298,7 +298,7 @@ url
 unvisitedBookmarkFrecency
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -317,7 +317,7 @@ unfiledGuid
 }
 )
 ;
-yield
+await
 promiseOne
 ;
 let
@@ -350,13 +350,13 @@ daily
 "
 )
 ;
-yield
+await
 promiseMany
 ;
 let
 newFrecency
 =
-yield
+await
 PlacesTestUtils
 .
 fieldInDB

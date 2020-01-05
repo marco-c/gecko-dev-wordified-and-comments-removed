@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -54,10 +54,10 @@ loadURI
 htmlContent
 )
 ;
-yield
+await
 loadedPromise
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -67,8 +67,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 arg
 )
@@ -174,7 +174,7 @@ popupshown
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -199,7 +199,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 popupShownPromise
 ;
 ok
@@ -253,7 +253,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 popupHiddenPromise
 ;
 }

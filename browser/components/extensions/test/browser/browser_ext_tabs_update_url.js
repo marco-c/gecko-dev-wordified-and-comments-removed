@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 testTabsUpdateURL
 (
 existentTabURL
@@ -297,7 +297,7 @@ done
 }
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -307,7 +307,7 @@ startup
 let
 mozExtTabURL
 =
-yield
+await
 extension
 .
 awaitMessage
@@ -357,7 +357,7 @@ existentTabURL
 let
 tab1
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -377,7 +377,7 @@ tabsUpdateURL
 isErrorExpected
 )
 ;
-yield
+await
 extension
 .
 awaitMessage
@@ -387,7 +387,7 @@ done
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -395,7 +395,7 @@ removeTab
 tab1
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -405,8 +405,8 @@ unload
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -597,8 +597,7 @@ of
 testCases
 )
 {
-yield
-*
+await
 testTabsUpdateURL
 (
 existentTabURL

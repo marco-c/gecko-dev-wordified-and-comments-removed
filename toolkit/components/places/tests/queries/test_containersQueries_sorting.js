@@ -1782,8 +1782,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_containersQueries_sorting
 (
 )
@@ -1879,7 +1879,7 @@ true
 )
 )
 ;
-yield
+await
 task_populateDB
 (
 visits

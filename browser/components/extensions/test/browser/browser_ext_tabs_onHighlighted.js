@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 testTabEvents
 (
 )
@@ -953,14 +953,14 @@ background
 }
 )
 ;
-yield
+await
 extension
 .
 startup
 (
 )
 ;
-yield
+await
 extension
 .
 awaitFinish
@@ -972,7 +972,7 @@ highlight
 "
 )
 ;
-yield
+await
 extension
 .
 unload

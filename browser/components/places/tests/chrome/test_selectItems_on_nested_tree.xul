@@ -402,16 +402,13 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -457,7 +454,7 @@ shortcut
 }
 )
 ;
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -510,7 +507,7 @@ query
 let
 folder
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -550,7 +547,7 @@ folder
 let
 bm
 =
-yield
+await
 PlacesUtils
 .
 bookmarks
@@ -641,7 +638,7 @@ bookmark
 let
 itemId
 =
-yield
+await
 PlacesUtils
 .
 promiseItemId
@@ -678,6 +675,8 @@ selected
 )
 ;
 }
+)
+(
 )
 .
 then

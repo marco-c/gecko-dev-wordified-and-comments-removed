@@ -172,8 +172,8 @@ deferred
 promise
 ;
 }
+async
 function
-*
 waitForTabBlockEvent
 (
 tab
@@ -236,7 +236,7 @@ changes
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -312,8 +312,8 @@ false
 ;
 }
 }
+async
 function
-*
 waitForTabPlayingEvent
 (
 tab
@@ -376,7 +376,7 @@ changes
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForEvent
@@ -671,7 +671,6 @@ disable
 ;
 }
 function
-*
 hover_icon
 (
 icon

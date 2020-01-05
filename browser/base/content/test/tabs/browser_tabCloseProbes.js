@@ -73,13 +73,13 @@ value
 }
 add_task
 (
+async
 function
-*
 setup
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -142,8 +142,8 @@ oldCanRecord
 ;
 add_task
 (
+async
 function
-*
 test_close_time_anim_probe
 (
 )
@@ -151,7 +151,7 @@ test_close_time_anim_probe
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -159,7 +159,7 @@ openNewForegroundTab
 gBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -185,7 +185,7 @@ clear
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
@@ -235,8 +235,8 @@ clear
 ;
 add_task
 (
+async
 function
-*
 test_close_time_no_anim_probe
 (
 )
@@ -244,7 +244,7 @@ test_close_time_no_anim_probe
 let
 tab
 =
-yield
+await
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -252,7 +252,7 @@ openNewForegroundTab
 gBrowser
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 waitForCondition
@@ -278,7 +278,7 @@ clear
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab

@@ -1646,8 +1646,8 @@ results
 }
 add_task
 (
+async
 function
-*
 test_test_in_background
 (
 )
@@ -1675,7 +1675,7 @@ loadExtensionAndInterceptTest
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1685,7 +1685,7 @@ startup
 let
 results
 =
-yield
+await
 extension
 .
 awaitResults
@@ -1707,7 +1707,7 @@ extension
 "
 )
 ;
-yield
+await
 extension
 .
 unload
@@ -1719,8 +1719,8 @@ unload
 ;
 add_task
 (
+async
 function
-*
 test_test_in_content_script
 (
 )
@@ -1794,7 +1794,7 @@ loadExtensionAndInterceptTest
 extensionData
 )
 ;
-yield
+await
 extension
 .
 startup
@@ -1818,7 +1818,7 @@ html
 let
 results
 =
-yield
+await
 extension
 .
 awaitResults
@@ -1844,7 +1844,7 @@ http
 "
 )
 ;
-yield
+await
 extension
 .
 unload

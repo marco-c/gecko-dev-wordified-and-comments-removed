@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 test_exit_background_customize_mode
 (
 )
@@ -55,7 +55,7 @@ now
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -96,7 +96,7 @@ aftercustomization
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 switchTab
@@ -105,7 +105,7 @@ gBrowser
 nonCustomizingTab
 )
 ;
-yield
+await
 finishedCustomizing
 ;
 custTab
@@ -125,7 +125,7 @@ com
 "
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -172,7 +172,7 @@ now
 "
 )
 ;
-yield
+await
 startCustomizing
 (
 )
@@ -194,12 +194,12 @@ now
 "
 )
 ;
-yield
+await
 endCustomizing
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 removeTab
