@@ -1820,6 +1820,9 @@ RemoveWindowListeners
 (
 )
 ;
+#
+ifdef
+ACCESSIBILITY
 if
 (
 a11y
@@ -1842,6 +1845,8 @@ Destroy
 )
 ;
 }
+#
+endif
 Unused
 <
 <
