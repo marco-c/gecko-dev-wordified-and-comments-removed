@@ -13,6 +13,7 @@ plugin
 [
 plugin
 (
+heapsize_plugin
 serde_macros
 plugins
 )
@@ -28,6 +29,10 @@ bitflags
 extern
 crate
 euclid
+;
+extern
+crate
+heapsize
 ;
 extern
 crate

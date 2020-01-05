@@ -1,8 +1,5 @@
 use
-util
-:
-:
-mem
+heapsize
 :
 :
 HeapSizeOf

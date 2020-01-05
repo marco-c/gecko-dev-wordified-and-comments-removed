@@ -133,6 +133,7 @@ zero_one
 [
 plugin
 (
+heapsize_plugin
 plugins
 serde_macros
 )
@@ -185,6 +186,10 @@ euclid
 extern
 crate
 getopts
+;
+extern
+crate
+heapsize
 ;
 #
 [
@@ -364,14 +369,6 @@ linked_list
 pub
 mod
 logical_geometry
-;
-#
-[
-macro_use
-]
-pub
-mod
-mem
 ;
 #
 [

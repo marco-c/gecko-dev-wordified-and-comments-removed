@@ -12,6 +12,7 @@ plugin
 [
 plugin
 (
+heapsize_plugin
 plugins
 serde_macros
 )
@@ -41,6 +42,10 @@ azure
 extern
 crate
 euclid
+;
+extern
+crate
+heapsize
 ;
 extern
 crate

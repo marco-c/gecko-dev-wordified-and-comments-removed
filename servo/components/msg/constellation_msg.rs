@@ -100,15 +100,6 @@ ViewportPx
 }
 ;
 use
-util
-:
-:
-mem
-:
-:
-HeapSizeOf
-;
-use
 webdriver_msg
 :
 :

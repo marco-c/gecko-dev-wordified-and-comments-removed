@@ -104,6 +104,14 @@ unique
 [
 plugin
 (
+heapsize_plugin
+)
+]
+#
+!
+[
+plugin
+(
 plugins
 )
 ]
@@ -257,6 +265,10 @@ crate
 harfbuzz_sys
 as
 harfbuzz
+;
+extern
+crate
+heapsize
 ;
 extern
 crate

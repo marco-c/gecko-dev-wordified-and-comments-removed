@@ -46,8 +46,8 @@ plugin
 [
 plugin
 (
+heapsize_plugin
 serde_macros
-plugins
 )
 ]
 #
@@ -57,6 +57,10 @@ macro_use
 extern
 crate
 bitflags
+;
+extern
+crate
+heapsize
 ;
 extern
 crate
@@ -170,15 +174,6 @@ url
 :
 :
 Url
-;
-use
-util
-:
-:
-mem
-:
-:
-HeapSizeOf
 ;
 #
 [

@@ -146,13 +146,6 @@ log
 .
 3
 "
-time
-=
-"
-0
-.
-1
-"
 rustc
 -
 serialize
@@ -175,4 +168,11 @@ serde_macros
 0
 .
 6
+"
+time
+=
+"
+0
+.
+1
 "

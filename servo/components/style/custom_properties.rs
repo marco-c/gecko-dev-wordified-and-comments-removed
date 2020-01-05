@@ -68,15 +68,6 @@ string_cache
 :
 Atom
 ;
-use
-util
-:
-:
-mem
-:
-:
-HeapSizeOf
-;
 pub
 type
 Name

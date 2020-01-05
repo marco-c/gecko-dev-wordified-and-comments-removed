@@ -839,9 +839,10 @@ get
 derive
 (
 Clone
-RustcEncodable
 Copy
 Deserialize
+HeapSizeOf
+RustcEncodable
 Serialize
 )
 ]

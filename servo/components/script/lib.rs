@@ -179,6 +179,14 @@ DOM
 [
 plugin
 (
+heapsize_plugin
+)
+]
+#
+!
+[
+plugin
+(
 plugins
 )
 ]
@@ -237,6 +245,10 @@ fnv
 extern
 crate
 gfx_traits
+;
+extern
+crate
+heapsize
 ;
 extern
 crate

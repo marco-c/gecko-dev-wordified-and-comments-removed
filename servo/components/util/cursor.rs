@@ -43,10 +43,11 @@ derive
 (
 Clone
 Copy
-PartialEq
-Eq
 Debug
 Deserialize
+Eq
+HeapSizeOf
+PartialEq
 Serialize
 )
 ]
