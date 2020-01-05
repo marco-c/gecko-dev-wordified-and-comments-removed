@@ -441,6 +441,15 @@ data
 )
 ;
 void
+RunMinidumpAnalyzer
+(
+const
+nsAString
+&
+id
+)
+;
+void
 RenameAdditionalHangMinidump
 (
 nsIFile
