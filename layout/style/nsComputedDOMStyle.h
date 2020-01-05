@@ -612,8 +612,6 @@ nsStyleCorners
 aRadius
 uint8_t
 aFullCorner
-bool
-aIsBorder
 )
 ;
 already_AddRefed
