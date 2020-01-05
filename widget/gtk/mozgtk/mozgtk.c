@@ -1003,10 +1003,6 @@ gtk_image_get_type
 )
 STUB
 (
-gtk_image_menu_item_new
-)
-STUB
-(
 gtk_image_new
 )
 STUB
