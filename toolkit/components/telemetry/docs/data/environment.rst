@@ -1302,8 +1302,6 @@ string
 /
 /
 android
-/
-b2g
 only
 or
 null
@@ -2462,9 +2460,6 @@ of
 the
 current
 persona
-null
-on
-GONK
 }
 experiments
 :
@@ -3733,8 +3728,6 @@ kernelVersion
 :
 an
 Android
-/
-B2G
 only
 string
 representing

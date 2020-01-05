@@ -10717,9 +10717,6 @@ test_abortedSession
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 return
@@ -11243,9 +11240,6 @@ test_abortedSession_Shutdown
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 return
@@ -11415,9 +11409,6 @@ test_abortedDailyCoalescing
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 return
@@ -11718,9 +11709,6 @@ test_schedulerComputerSleep
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 return
@@ -12035,9 +12023,6 @@ test_schedulerEnvironmentReschedules
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 return
@@ -12266,9 +12251,6 @@ test_schedulerNothingDue
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 return
@@ -12852,9 +12834,6 @@ test_schedulerUserIdle
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 return
@@ -13041,9 +13020,6 @@ test_DailyDueAndIdle
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 return
@@ -13273,9 +13249,6 @@ test_userIdleAndSchedlerTick
 if
 (
 gIsAndroid
-|
-|
-gIsGonk
 )
 {
 return

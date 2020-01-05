@@ -734,15 +734,11 @@ getPendingPingsQuota
 AppConstants
 .
 platform
-in
-[
+=
+=
 "
 android
 "
-"
-gonk
-"
-]
 )
 ?
 PENDING_PINGS_QUOTA_BYTES_MOBILE
