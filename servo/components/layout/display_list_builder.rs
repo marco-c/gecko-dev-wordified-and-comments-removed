@@ -3027,6 +3027,8 @@ background
 .
 background_position
 .
+0
+.
 horizontal
 bounds
 .
@@ -3050,6 +3052,8 @@ specified
 background
 .
 background_position
+.
+0
 .
 vertical
 bounds
