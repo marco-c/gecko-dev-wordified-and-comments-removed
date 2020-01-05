@@ -2524,13 +2524,6 @@ ActivityStream
 java
 '
 '
-adjust
-/
-AdjustBrowserAppDelegate
-.
-java
-'
-'
 animation
 /
 AnimationUtils
@@ -5537,6 +5530,13 @@ java
 updater
 /
 UpdateServiceHelper
+.
+java
+'
+'
+util
+/
+ColorUtil
 .
 java
 '
