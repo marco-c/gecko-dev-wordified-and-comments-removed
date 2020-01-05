@@ -554,7 +554,10 @@ aXOffset
 int32_t
 aYOffset
 const
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 dragRect
 )

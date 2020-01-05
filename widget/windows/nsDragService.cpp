@@ -328,7 +328,7 @@ aDOMNode
 return
 false
 ;
-nsIntRect
+LayoutDeviceIntRect
 dragRect
 ;
 RefPtr

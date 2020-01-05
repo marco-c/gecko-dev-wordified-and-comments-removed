@@ -249,7 +249,10 @@ mozilla
 :
 CSSIntPoint
 aScreenPosition
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 *
 aScreenDragRect
 RefPtr
@@ -279,7 +282,10 @@ dom
 HTMLCanvasElement
 *
 aCanvas
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 *
 aScreenDragRect
 RefPtr

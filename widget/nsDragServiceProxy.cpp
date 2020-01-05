@@ -211,7 +211,7 @@ mHasImage
 mSelection
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 dragRect
 ;
 nsPresContext
