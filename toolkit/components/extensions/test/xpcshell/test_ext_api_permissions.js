@@ -158,7 +158,7 @@ storage
 in
 context
 .
-_unwrappedAPIs
+apiObj
 )
 "
 The
@@ -251,7 +251,7 @@ equal
 typeof
 context
 .
-_unwrappedAPIs
+apiObj
 .
 storage
 "
