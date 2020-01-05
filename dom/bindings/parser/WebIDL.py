@@ -1723,28 +1723,18 @@ location
         
 if
 (
+isinstance
+(
 originalObject
-.
-tag
-=
-=
-IDLInterfaceMember
-.
-Tags
-.
-Method
+IDLMethod
+)
 and
-           
+            
+isinstance
+(
 newObject
-.
-tag
-=
-=
-IDLInterfaceMember
-.
-Tags
-.
-Method
+IDLMethod
+)
 )
 :
             
