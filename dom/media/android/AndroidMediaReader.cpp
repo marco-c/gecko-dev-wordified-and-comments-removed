@@ -1640,8 +1640,10 @@ __func__
 self
 ]
 (
+RefPtr
+<
 MediaData
-*
+>
 v
 )
 {

@@ -1228,8 +1228,10 @@ self
 token
 ]
 (
+RefPtr
+<
 Token
-*
+>
 aToken
 )
 {
@@ -2699,8 +2701,10 @@ this
 aData
 ]
 (
+RefPtr
+<
 Token
-*
+>
 aToken
 )
 {
@@ -2717,6 +2721,10 @@ aData
 mToken
 =
 aToken
+.
+forget
+(
+)
 ;
 aData
 .
