@@ -14701,6 +14701,52 @@ fill
 "
 "
             
+/
+/
+We
+deliberately
+use
+brace
+-
+elision
+to
+make
+Visual
+Studio
+produce
+better
+initalization
+code
+.
+            
+#
+if
+defined
+(
+__clang__
+)
+            
+#
+pragma
+clang
+diagnostic
+push
+            
+#
+pragma
+clang
+diagnostic
+ignored
+"
+-
+Wmissing
+-
+braces
+"
+            
+#
+endif
+            
 static
 {
 specType
@@ -14720,6 +14766,22 @@ specs
             
 }
 ;
+            
+#
+if
+defined
+(
+__clang__
+)
+            
+#
+pragma
+clang
+diagnostic
+pop
+            
+#
+endif
             
 {
 disablers
@@ -17984,14 +18046,10 @@ name
             
 return
 "
-{
-{
 %
 s
 %
 s
-}
-}
 "
 %
 \
@@ -18054,10 +18112,8 @@ None
                 
 return
 "
-JSNATIVE_WRAPPER
-(
 nullptr
-)
+nullptr
 "
             
 if
@@ -18164,14 +18220,10 @@ name
             
 return
 "
-{
-{
 %
 s
 %
 s
-}
-}
 "
 %
 \
@@ -18230,21 +18282,24 @@ s
 "
 %
 s
-{
-{
 %
 s
 %
 s
-}
-}
 }
 '
 %
 fields
             
 '
-JS_PS_END
+{
+nullptr
+0
+nullptr
+nullptr
+nullptr
+nullptr
+}
 '
             
 '
