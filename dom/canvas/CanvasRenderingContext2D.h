@@ -3397,10 +3397,6 @@ ScheduleStableStateCallback
 void
 ClearTarget
 (
-bool
-aRetainBuffer
-=
-false
 )
 ;
 void
