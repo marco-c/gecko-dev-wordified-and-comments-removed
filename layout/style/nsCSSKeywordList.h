@@ -2424,6 +2424,13 @@ CSS_KEY
 (
 no
 -
+clip
+no_clip
+)
+CSS_KEY
+(
+no
+-
 close
 -
 quote
