@@ -6,7 +6,6 @@ strict
 const
 {
 getDevices
-addDevice
 }
 =
 require
@@ -1029,7 +1028,7 @@ modal
 "
 )
 ;
-addDevice
+addDeviceForTest
 (
 addedDevice
 )
