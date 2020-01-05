@@ -416,6 +416,7 @@ mRules
 .
 InsertElementAt
 (
+aIndex
 type
 )
 ;
