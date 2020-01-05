@@ -3055,7 +3055,9 @@ MacroAssembler
 :
 storeUnboxedValue
 (
+const
 ConstantOrRegister
+&
 value
 MIRType
 valueType
@@ -3260,7 +3262,9 @@ MacroAssembler
 :
 storeUnboxedValue
 (
+const
 ConstantOrRegister
+&
 value
 MIRType
 valueType
@@ -3279,7 +3283,9 @@ MacroAssembler
 :
 storeUnboxedValue
 (
+const
 ConstantOrRegister
+&
 value
 MIRType
 valueType

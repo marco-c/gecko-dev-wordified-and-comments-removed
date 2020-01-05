@@ -3073,7 +3073,9 @@ T
 address
 JSValueType
 type
+const
 ConstantOrRegister
+&
 value
 Label
 *
@@ -4011,7 +4013,9 @@ Address
 address
 JSValueType
 type
+const
 ConstantOrRegister
+&
 value
 Label
 *
@@ -4029,7 +4033,9 @@ BaseIndex
 address
 JSValueType
 type
+const
 ConstantOrRegister
+&
 value
 Label
 *
@@ -10562,7 +10568,9 @@ convertConstantOrRegisterToFloatingPoint
 JSContext
 *
 cx
+const
 ConstantOrRegister
+&
 src
 FloatRegister
 output
@@ -11930,7 +11938,9 @@ convertConstantOrRegisterToInt
 JSContext
 *
 cx
+const
 ConstantOrRegister
+&
 src
 FloatRegister
 temp
@@ -13385,7 +13395,9 @@ MacroAssembler
 :
 Push
 (
+const
 ConstantOrRegister
+&
 v
 )
 {

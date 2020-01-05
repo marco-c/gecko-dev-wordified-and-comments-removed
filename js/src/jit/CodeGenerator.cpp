@@ -53571,7 +53571,9 @@ MArrayPush
 mir
 Register
 obj
+const
 ConstantOrRegister
+&
 value
 Register
 elementsTemp
@@ -61833,7 +61835,9 @@ LiveRegisterSet
 liveRegs
 Register
 objReg
+const
 ConstantOrRegister
+&
 id
 TypedOrValueRegister
 output
@@ -61895,9 +61899,13 @@ FloatRegister
 tempDouble
 FloatRegister
 tempF32
+const
 ConstantOrRegister
+&
 id
+const
 ConstantOrRegister
+&
 value
 bool
 strict

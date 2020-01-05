@@ -1027,7 +1027,9 @@ LiveRegisterSet
 liveRegs
 Register
 object
+const
 ConstantOrRegister
+&
 id
 TypedOrValueRegister
 output
@@ -1877,9 +1879,13 @@ FloatRegister
 tempDouble
 FloatRegister
 tempFloat32
+const
 ConstantOrRegister
+&
 id
+const
 ConstantOrRegister
+&
 value
 bool
 strict

@@ -11972,7 +11972,9 @@ jsid
 id
 Register
 scratch
+const
 ConstantOrRegister
+&
 value
 Label
 *
@@ -12076,7 +12078,9 @@ Register
 object
 Register
 tempReg
+const
 ConstantOrRegister
+&
 value
 bool
 needsTypeBarrier
@@ -13042,7 +13046,9 @@ LiveRegisterSet
 liveRegs
 Register
 object
+const
 ConstantOrRegister
+&
 value
 void
 *
@@ -13687,7 +13693,9 @@ Register
 object
 Register
 tempReg
+const
 ConstantOrRegister
+&
 value
 Label
 *
@@ -15294,7 +15302,9 @@ Register
 object
 Register
 tempReg
+const
 ConstantOrRegister
+&
 value
 bool
 checkTypeset
@@ -16378,7 +16388,9 @@ JSObject
 obj
 jsid
 id
+const
 ConstantOrRegister
+&
 val
 bool
 *
@@ -16599,7 +16611,9 @@ HandleId
 id
 MutableHandleShape
 pshape
+const
 ConstantOrRegister
+&
 val
 bool
 needsTypeBarrier
@@ -16832,7 +16846,9 @@ NativeObject
 obj
 HandleId
 id
+const
 ConstantOrRegister
+&
 val
 HandleShape
 oldShape
@@ -17067,7 +17083,9 @@ HandleObject
 obj
 HandleId
 id
+const
 ConstantOrRegister
+&
 val
 bool
 needsTypeBarrier
@@ -17280,7 +17298,9 @@ Register
 object
 Register
 tempReg
+const
 ConstantOrRegister
+&
 value
 bool
 checkTypeset
@@ -17453,7 +17473,9 @@ HandleObject
 obj
 HandleId
 id
+const
 ConstantOrRegister
+&
 val
 bool
 needsTypeBarrier
@@ -17573,7 +17595,9 @@ HandleObject
 obj
 HandleId
 id
+const
 ConstantOrRegister
+&
 val
 bool
 needsTypeBarrier
@@ -17724,7 +17748,9 @@ HandleShape
 oldShape
 HandleId
 id
+const
 ConstantOrRegister
+&
 val
 bool
 needsTypeBarrier
@@ -21101,7 +21127,9 @@ Value
 idval
 Register
 object
+const
 ConstantOrRegister
+&
 index
 TypedOrValueRegister
 output
@@ -22641,7 +22669,9 @@ const
 Value
 &
 idval
+const
 ConstantOrRegister
+&
 val
 bool
 needsTypeBarrier
@@ -22829,7 +22859,9 @@ StoreDenseElement
 MacroAssembler
 &
 masm
+const
 ConstantOrRegister
+&
 value
 Register
 elements
@@ -23179,7 +23211,9 @@ Register
 object
 TypedOrValueRegister
 index
+const
 ConstantOrRegister
+&
 value
 Register
 tempToUnboxIndex
@@ -23892,7 +23926,9 @@ Register
 object
 TypedOrValueRegister
 index
+const
 ConstantOrRegister
+&
 value
 Register
 tempUnbox
