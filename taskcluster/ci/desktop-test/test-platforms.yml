@@ -146,6 +146,8 @@ set
 all
 -
 tests
+-
+debug
 linux64
 /
 opt
@@ -164,6 +166,8 @@ set
 all
 -
 tests
+-
+opt
 #
 TODO
 :
@@ -205,6 +209,8 @@ set
 all
 -
 tests
+-
+debug
 linux64
 -
 asan
