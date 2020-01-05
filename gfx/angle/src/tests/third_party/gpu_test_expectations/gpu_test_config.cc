@@ -2320,6 +2320,8 @@ Fail
 to
 identify
 GPU
+\
+n
 "
 ;
 DisableGPUInfoValidation
@@ -2379,6 +2381,8 @@ ERROR
 "
 Unknown
 OS
+\
+n
 "
 ;
 rt

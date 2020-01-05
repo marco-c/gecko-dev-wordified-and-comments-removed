@@ -65,6 +65,8 @@ gl
 Error
 setData
 (
+GLenum
+target
 const
 void
 *
@@ -84,6 +86,8 @@ gl
 Error
 setSubData
 (
+GLenum
+target
 const
 void
 *

@@ -235,6 +235,7 @@ mSourceBuffer
 >
 setData
 (
+GL_ARRAY_BUFFER
 testData
 sizeof
 (

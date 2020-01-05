@@ -57,7 +57,7 @@ ShaderGL
 )
 override
 ;
-int
+ShCompileOptions
 prepareSourceAndReturnOptions
 (
 std

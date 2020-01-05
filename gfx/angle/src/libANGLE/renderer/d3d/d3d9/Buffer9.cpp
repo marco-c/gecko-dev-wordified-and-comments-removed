@@ -73,6 +73,7 @@ Buffer9
 :
 setData
 (
+GLenum
 const
 void
 *
@@ -213,6 +214,7 @@ Buffer9
 :
 setSubData
 (
+GLenum
 const
 void
 *

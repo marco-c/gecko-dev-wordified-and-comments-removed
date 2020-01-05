@@ -128,7 +128,7 @@ Uniform
 >
 &
 uniforms
-int
+ShCompileOptions
 compileOptions
 )
 ;
@@ -280,6 +280,15 @@ visitUnary
 Visit
 visit
 TIntermUnary
+*
+)
+;
+bool
+visitTernary
+(
+Visit
+visit
+TIntermTernary
 *
 )
 ;
@@ -608,7 +617,7 @@ const
 ShShaderOutput
 mOutputType
 ;
-int
+ShCompileOptions
 mCompileOptions
 ;
 bool

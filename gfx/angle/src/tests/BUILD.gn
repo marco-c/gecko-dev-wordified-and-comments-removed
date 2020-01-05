@@ -1804,6 +1804,15 @@ deps
 :
 angle_deqp_libtester
 "
+"
+/
+/
+third_party
+/
+angle
+:
+angle_util
+"
 ]
 configs
 -

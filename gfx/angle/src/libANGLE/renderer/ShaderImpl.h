@@ -60,7 +60,7 @@ ShaderImpl
 {
 }
 virtual
-int
+ShCompileOptions
 prepareSourceAndReturnOptions
 (
 std

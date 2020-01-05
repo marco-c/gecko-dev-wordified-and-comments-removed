@@ -855,7 +855,7 @@ const
 char
 *
 source
-int
+ShCompileOptions
 compileOptions
 const
 char
@@ -1049,7 +1049,7 @@ output
 resources
 )
 ;
-int
+ShCompileOptions
 compileOptions
 =
 SH_LIMIT_EXPRESSION_COMPLEXITY
@@ -1151,7 +1151,7 @@ output
 resources
 )
 ;
-int
+ShCompileOptions
 compileOptions
 =
 SH_LIMIT_EXPRESSION_COMPLEXITY
@@ -1253,7 +1253,7 @@ output
 resources
 )
 ;
-int
+ShCompileOptions
 compileOptions
 =
 SH_LIMIT_CALL_STACK_DEPTH
@@ -1355,7 +1355,7 @@ output
 resources
 )
 ;
-int
+ShCompileOptions
 compileOptions
 =
 SH_LIMIT_CALL_STACK_DEPTH
@@ -1457,7 +1457,7 @@ output
 resources
 )
 ;
-int
+ShCompileOptions
 compileOptions
 =
 0
@@ -2238,7 +2238,7 @@ output
 resources
 )
 ;
-int
+ShCompileOptions
 compileOptions
 =
 SH_LIMIT_EXPRESSION_COMPLEXITY

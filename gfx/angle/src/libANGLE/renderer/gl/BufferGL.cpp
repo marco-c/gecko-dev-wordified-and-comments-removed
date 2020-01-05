@@ -211,6 +211,7 @@ BufferGL
 :
 setData
 (
+GLenum
 const
 void
 *
@@ -326,6 +327,7 @@ BufferGL
 :
 setSubData
 (
+GLenum
 const
 void
 *

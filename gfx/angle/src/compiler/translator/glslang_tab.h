@@ -495,6 +495,9 @@ intermCase
 ;
 union
 {
+TTypeSpecifierNonArray
+typeSpecifierNonArray
+;
 TPublicType
 type
 ;
@@ -521,6 +524,14 @@ field
 TFieldList
 *
 fieldList
+;
+TQualifierWrapperBase
+*
+qualifierWrapper
+;
+TTypeQualifierBuilder
+*
+typeQualifierBuilder
 ;
 }
 ;
