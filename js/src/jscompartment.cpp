@@ -5102,6 +5102,12 @@ lastCachedNativeIterator
 =
 nullptr
 ;
+objectGroups
+.
+purge
+(
+)
+;
 }
 void
 JSCompartment
