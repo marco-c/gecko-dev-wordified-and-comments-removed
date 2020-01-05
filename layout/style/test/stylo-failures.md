@@ -2695,13 +2695,6 @@ shorthand
 bug
 1349417
 *
-test_bug377947
-.
-html
-[
-1
-]
-*
 test_value_storage
 .
 html
@@ -2709,7 +2702,7 @@ html
 font
 '
 [
-160
+128
 ]
 *
 test_shorthand_property_getters
@@ -2725,7 +2718,7 @@ test_system_font_serialization
 .
 html
 [
-10
+5
 ]
 *
 clamp
