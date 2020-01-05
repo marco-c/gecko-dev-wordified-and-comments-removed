@@ -7011,7 +7011,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -9015,6 +9015,13 @@ expires_in_version
 :
 "
 never
+"
+"
+kind
+"
+:
+"
+linear
 "
 "
 kind
@@ -19191,6 +19198,15 @@ n_values
 "
 :
 672
+"
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
+"
 "
 description
 "
@@ -36213,7 +36229,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -36266,7 +36282,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -36323,7 +36339,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -36382,7 +36398,7 @@ expires_in_version
 "
 :
 "
-56
+60
 "
 "
 kind
@@ -65494,7 +65510,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -73795,7 +73811,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -73869,7 +73885,7 @@ expires_in_version
 "
 :
 "
-55
+60
 "
 "
 kind
@@ -73967,7 +73983,7 @@ expires_in_version
 "
 :
 "
-57
+60
 "
 "
 kind
@@ -90290,7 +90306,6 @@ bug_numbers
 "
 :
 [
-1188391
 1319268
 ]
 "
@@ -90307,6 +90322,13 @@ kind
 "
 boolean
 "
+"
+bug_numbers
+"
+:
+[
+1188391
+]
 "
 description
 "
