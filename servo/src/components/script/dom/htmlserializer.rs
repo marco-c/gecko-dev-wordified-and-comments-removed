@@ -481,7 +481,7 @@ target
 +
 processing_instruction
 .
-element
+characterdata
 .
 data
 +

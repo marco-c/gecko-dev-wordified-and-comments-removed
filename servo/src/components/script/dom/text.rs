@@ -75,7 +75,7 @@ pub
 struct
 Text
 {
-element
+characterdata
 :
 CharacterData
 }
@@ -99,7 +99,7 @@ Text
 {
 Text
 {
-element
+characterdata
 :
 CharacterData
 :

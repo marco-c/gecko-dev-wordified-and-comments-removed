@@ -2565,7 +2565,7 @@ title
 +
 text
 .
-element
+characterdata
 .
 Data
 (

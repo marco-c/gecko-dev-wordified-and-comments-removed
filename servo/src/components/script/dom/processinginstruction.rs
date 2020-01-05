@@ -54,7 +54,7 @@ pub
 struct
 ProcessingInstruction
 {
-element
+characterdata
 :
 CharacterData
 target
@@ -84,7 +84,7 @@ ProcessingInstruction
 {
 ProcessingInstruction
 {
-element
+characterdata
 :
 CharacterData
 :

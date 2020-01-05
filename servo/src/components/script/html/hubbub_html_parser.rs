@@ -3447,7 +3447,7 @@ push
 (
 text
 .
-element
+characterdata
 .
 data
 .
@@ -3649,7 +3649,7 @@ push
 (
 text
 .
-element
+characterdata
 .
 data
 .
