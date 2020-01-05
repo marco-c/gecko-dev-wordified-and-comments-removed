@@ -3716,6 +3716,14 @@ mActorDestroyed
 =
 true
 ;
+RefPtr
+<
+ChromiumCDMProxy
+>
+proxy
+=
+mProxy
+;
 if
 (
 !
@@ -3782,7 +3790,7 @@ if
 abnormalShutdown
 &
 &
-mProxy
+proxy
 )
 {
 RefPtr
@@ -3793,7 +3801,7 @@ task
 =
 NewRunnableMethod
 (
-mProxy
+proxy
 &
 ChromiumCDMProxy
 :
@@ -4811,6 +4819,10 @@ return
 mIsShutdown
 =
 true
+;
+mProxy
+=
+nullptr
 ;
 for
 (
