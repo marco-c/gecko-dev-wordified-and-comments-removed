@@ -1271,7 +1271,10 @@ get_background
 background_image
 get_background
 .
-background_position
+background_position_x
+get_background
+.
+background_position_y
 get_background
 .
 background_repeat
