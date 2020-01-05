@@ -20705,9 +20705,8 @@ initialGroup
 group
 -
 >
-setNewScript
+detachNewScript
 (
-nullptr
 )
 ;
 initialGroup
