@@ -2355,6 +2355,13 @@ tgz
 {
 SNAPSHOT_URL
 }
+need_ok
+"
+Fetching
+the
+snapshot
+failed
+"
 fi
 rm
 -
