@@ -164,6 +164,11 @@ EnumVariant
 cpp
 '
 '
+GeckoCustom
+.
+cpp
+'
+'
 HTMLTableAccessibleWrap
 .
 cpp
