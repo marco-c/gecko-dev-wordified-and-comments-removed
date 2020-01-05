@@ -751,14 +751,10 @@ clone
 paint_chan
 :
 box
-(
-)
-(
 paint_chan
 .
 clone
 (
-)
 )
 as
 Box

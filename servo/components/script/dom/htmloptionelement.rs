@@ -731,7 +731,7 @@ collect
 ;
 v
 .
-connect
+join
 (
 "
 "

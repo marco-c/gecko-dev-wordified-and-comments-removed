@@ -763,6 +763,15 @@ borrow
 :
 ToOwned
 ;
+use
+std
+:
+:
+ascii
+:
+:
+AsciiExt
+;
 let
 element
 =
@@ -775,6 +784,7 @@ self
 )
 ;
 let
+mut
 val
 =
 element
@@ -790,8 +800,10 @@ from_slice
 htmlname
 )
 )
+;
+val
 .
-into_ascii_lowercase
+make_ascii_lowercase
 (
 )
 ;

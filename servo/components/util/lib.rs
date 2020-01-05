@@ -107,7 +107,7 @@ rustc_private
 [
 feature
 (
-slice_extras
+slice_splits
 )
 ]
 #

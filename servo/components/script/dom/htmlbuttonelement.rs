@@ -237,7 +237,7 @@ std
 ascii
 :
 :
-OwnedAsciiExt
+AsciiExt
 ;
 use
 std
@@ -635,6 +635,7 @@ self
 )
 ;
 let
+mut
 ty
 =
 elem
@@ -650,8 +651,10 @@ type
 "
 )
 )
+;
+ty
 .
-into_ascii_lowercase
+make_ascii_lowercase
 (
 )
 ;
