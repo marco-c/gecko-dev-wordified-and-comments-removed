@@ -149,6 +149,13 @@ Hash
 Hasher
 }
 ;
+#
+[
+cfg
+(
+debug_assertions
+)
+]
 use
 std
 :
