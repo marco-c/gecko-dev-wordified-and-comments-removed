@@ -4925,6 +4925,10 @@ aLastModified
 const
 bool
 &
+aExistenceCheck
+const
+bool
+&
 aIsFromNsIFile
 )
 override

@@ -186,6 +186,11 @@ name
 "
 "
 ;
+boolean
+existenceCheck
+=
+true
+;
 }
 ;
 /

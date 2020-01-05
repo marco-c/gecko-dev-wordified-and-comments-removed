@@ -5786,6 +5786,8 @@ lastModifiedPassed
 int64_t
 lastModified
 bool
+aExistenceCheck
+bool
 aIsFromNsIFile
 )
 ;
