@@ -1134,7 +1134,7 @@ host
 aURI
 -
 >
-GetHost
+GetAsciiHost
 (
 host
 )
@@ -2513,7 +2513,7 @@ rv
 aUri
 -
 >
-GetHost
+GetAsciiHost
 (
 uriHost
 )
