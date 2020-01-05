@@ -4740,14 +4740,6 @@ move
 ref
 .
 html
-fuzzy
--
-if
-(
-skiaContent
-1
-150
-)
 =
 =
 clip
