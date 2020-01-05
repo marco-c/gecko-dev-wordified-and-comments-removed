@@ -4765,6 +4765,9 @@ HtmlParserResult
 {
 root
 discovery_port
+url
+:
+final_url
 }
 =
 html_parsing_result
@@ -4815,11 +4818,7 @@ url
 Some
 (
 (
-url
-.
-clone
-(
-)
+final_url
 true
 )
 )

@@ -66,6 +66,10 @@ pub
 enum
 ProgressMsg
 {
+UrlChange
+(
+Url
+)
 Payload
 (
 ~
