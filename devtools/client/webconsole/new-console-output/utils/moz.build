@@ -64,6 +64,13 @@ MPL
 DevToolsModules
 (
 '
+context
+-
+menu
+.
+js
+'
+'
 id
 -
 generator

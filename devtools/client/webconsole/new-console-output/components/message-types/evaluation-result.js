@@ -147,6 +147,7 @@ messageId
 exceptionDocURL
 frame
 timeStamp
+parameters
 }
 =
 message
@@ -177,8 +178,6 @@ GripMessageBody
 {
 grip
 :
-message
-.
 parameters
 serviceContainer
 }
@@ -218,6 +217,7 @@ serviceContainer
 exceptionDocURL
 frame
 timeStamp
+parameters
 }
 ;
 return
