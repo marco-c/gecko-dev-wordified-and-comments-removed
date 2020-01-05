@@ -1073,13 +1073,6 @@ HTMLInputElement
 [
 allow
 (
-unrooted_must_root
-)
-]
-#
-[
-allow
-(
 unsafe_code
 )
 ]
