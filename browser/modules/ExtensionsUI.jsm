@@ -1268,7 +1268,7 @@ GetStringFromName
 "
 webextPerms
 .
-sideloadText
+sideloadText2
 "
 )
 ;
@@ -1317,7 +1317,7 @@ GetStringFromName
 "
 webextPerms
 .
-sideloadDisable
+sideloadCancel
 .
 label
 "
@@ -1334,7 +1334,7 @@ GetStringFromName
 "
 webextPerms
 .
-sideloadDisable
+sideloadCancel
 .
 accessKey
 "
