@@ -530,6 +530,17 @@ long
 aCount
 )
 ;
+[
+notxpcom
+]
+boolean
+SizeTo
+(
+in
+long
+aSize
+)
+;
 }
 ;
 %
