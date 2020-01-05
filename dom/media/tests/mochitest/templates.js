@@ -3222,7 +3222,7 @@ test
 .
 pcRemote
 .
-endOfTrickelSdp
+endOfTrickleSdp
 )
 {
 return
