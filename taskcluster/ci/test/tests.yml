@@ -1937,14 +1937,6 @@ test
 -
 platform
 :
-#
-Bug
-1321782
-windows
-.
-*
-:
-false
 android
 .
 *
