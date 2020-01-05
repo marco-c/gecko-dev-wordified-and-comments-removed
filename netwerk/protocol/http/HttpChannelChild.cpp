@@ -11531,6 +11531,19 @@ resultPrincipal
 )
 ;
 }
+OriginAttributes
+originAttributes
+;
+NS_ENSURE_TRUE
+(
+NS_GetOriginAttributes
+(
+this
+originAttributes
+)
+false
+)
+;
 rv
 =
 NS_ShouldSecureUpgrade
@@ -11540,6 +11553,7 @@ mLoadInfo
 resultPrincipal
 mPrivateBrowsing
 mAllowSTS
+originAttributes
 aShouldUpgrade
 )
 ;
