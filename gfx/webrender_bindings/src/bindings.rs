@@ -883,10 +883,10 @@ resource_override_path
 None
 enable_aa
 :
-false
+true
 enable_subpixel_aa
 :
-false
+true
 enable_msaa
 :
 false
