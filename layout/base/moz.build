@@ -197,6 +197,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsILayoutHistoryState
+.
+idl
+'
+'
 nsIPreloadedStyleSheet
 .
 idl
@@ -306,11 +311,6 @@ h
 '
 '
 nsILayoutDebugger
-.
-h
-'
-'
-nsILayoutHistoryState
 .
 h
 '
