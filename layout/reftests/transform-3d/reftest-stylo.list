@@ -14,7 +14,6 @@ list
 for
 Stylo
 testing
-fails
 =
 =
 scalez
@@ -27,7 +26,6 @@ scalez
 1a
 .
 html
-fails
 =
 =
 rotatey
@@ -40,7 +38,6 @@ rotatey
 1a
 .
 html
-fails
 =
 =
 rotatex
@@ -73,7 +70,6 @@ rotateY
 (
 180deg
 )
-fails
 =
 =
 scalezrotatex
@@ -100,7 +96,6 @@ in
 some
 visual
 changes
-fails
 =
 =
 rotatex
@@ -132,7 +127,6 @@ to
 child
 transformed
 elements
-fails
 =
 =
 rotatex
@@ -160,7 +154,6 @@ apply
 to
 child
 elements
-fails
 =
 =
 rotatex
@@ -177,7 +170,6 @@ perspective
 1c
 .
 html
-fails
 =
 =
 rotatex
@@ -194,7 +186,6 @@ perspective
 3a
 .
 html
-fails
 =
 =
 scalez
@@ -207,7 +198,6 @@ scalez
 1a
 .
 html
-fails
 =
 =
 preserve3d
@@ -220,7 +210,6 @@ preserve3d
 1a
 .
 html
-fails
 =
 =
 preserve3d
@@ -233,7 +222,6 @@ preserve3d
 1b
 .
 html
-fails
 =
 =
 preserve3d
@@ -246,7 +234,6 @@ preserve3d
 clipped
 .
 html
-fails
 =
 =
 preserve3d
@@ -259,7 +246,6 @@ preserve3d
 2a
 .
 html
-fails
 =
 =
 preserve3d
@@ -272,7 +258,6 @@ preserve3d
 2b
 .
 html
-fails
 =
 =
 preserve3d
@@ -297,7 +282,6 @@ preserve3d
 2d
 .
 html
-fails
 =
 =
 preserve3d
@@ -310,7 +294,6 @@ preserve3d
 3a
 .
 html
-fails
 =
 =
 preserve3d
@@ -323,7 +306,6 @@ preserve3d
 4a
 .
 html
-fails
 =
 =
 preserve3d
@@ -348,7 +330,6 @@ preserve3d
 6a
 .
 html
-fails
 =
 =
 scale3d
@@ -361,7 +342,6 @@ scale3d
 z
 .
 html
-fails
 =
 =
 scale3d
@@ -374,7 +354,6 @@ scale3d
 all
 .
 html
-fails
 =
 =
 scale3d
@@ -391,7 +370,6 @@ all
 separate
 .
 html
-fails
 =
 =
 scale3d
@@ -404,7 +382,6 @@ scale3d
 xz
 .
 html
-fails
 =
 =
 translatez
@@ -417,7 +394,6 @@ translatez
 1a
 .
 html
-fails
 =
 =
 translatez
@@ -430,7 +406,6 @@ translatez
 1b
 .
 html
-fails
 =
 =
 translate3d
@@ -443,7 +418,6 @@ translate3d
 1a
 .
 html
-fails
 =
 =
 matrix3d
@@ -456,7 +430,6 @@ matrix3d
 1a
 .
 html
-fails
 =
 =
 matrix3d
@@ -469,7 +442,6 @@ matrix3d
 2a
 .
 html
-fails
 =
 =
 rotate3d
@@ -482,7 +454,6 @@ rotate3d
 1a
 .
 html
-fails
 =
 =
 rotate3d
@@ -495,7 +466,6 @@ rotate3d
 2a
 .
 html
-fails
 =
 =
 backface
@@ -512,7 +482,6 @@ visibility
 1a
 .
 html
-fails
 =
 =
 backface
@@ -529,7 +498,6 @@ visibility
 1b
 .
 html
-fails
 =
 =
 backface
@@ -546,7 +514,6 @@ visibility
 1c
 .
 html
-fails
 =
 =
 backface
@@ -595,7 +562,6 @@ clipping
 1
 .
 html
-fails
 =
 =
 perspective
@@ -612,7 +578,6 @@ origin
 1a
 .
 html
-fails
 =
 =
 perspective
@@ -629,7 +594,6 @@ origin
 1b
 .
 html
-fails
 =
 =
 perspective
@@ -662,7 +626,6 @@ origin
 3a
 .
 html
-fails
 =
 =
 perspective
@@ -726,7 +689,6 @@ planes
 different
 z
 depth
-fails
 =
 =
 sorting
@@ -753,7 +715,6 @@ be
 sorted
 !
 )
-fails
 =
 =
 sorting
@@ -766,7 +727,6 @@ sorting
 2b
 .
 html
-fails
 =
 =
 sorting
@@ -791,7 +751,6 @@ transform
 )
 transform
 origins
-fails
 =
 =
 rotatex
@@ -808,7 +767,6 @@ transformorigin
 1a
 .
 html
-fails
 =
 =
 overflow
@@ -825,7 +783,6 @@ hidden
 1a
 .
 html
-fails
 =
 =
 transform

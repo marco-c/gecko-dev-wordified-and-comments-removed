@@ -41,7 +41,6 @@ on
 this
 test
 .
-fails
 =
 =
 singular
@@ -64,7 +63,6 @@ to
 nested
 divs
 .
-fails
 =
 =
 compound
@@ -80,7 +78,6 @@ html
 #
 Bug
 1341785
-fails
 =
 =
 compound
@@ -96,7 +93,6 @@ html
 #
 Bug
 1341785
-fails
 =
 =
 dynamic
@@ -280,7 +276,6 @@ like
 position
 :
 relative
-fails
 =
 =
 translatey
@@ -293,7 +288,6 @@ translatey
 1a
 .
 html
-fails
 =
 =
 translatey
@@ -306,7 +300,6 @@ translatey
 1b
 .
 html
-fails
 =
 =
 translatey
@@ -319,7 +312,6 @@ translatey
 1c
 .
 html
-fails
 =
 =
 translatey
@@ -332,7 +324,6 @@ translatey
 1d
 .
 html
-fails
 =
 =
 translatey
@@ -370,7 +361,6 @@ translatex
 2
 .
 html
-fails
 =
 =
 translatey
@@ -598,7 +588,6 @@ look
 the
 same
 .
-fails
 =
 =
 rotate
@@ -611,7 +600,6 @@ rotate
 2a
 .
 html
-fails
 =
 =
 rotate
@@ -646,7 +634,6 @@ transform
 -
 origins
 .
-fails
 =
 =
 origin
@@ -659,7 +646,6 @@ origin
 1a
 .
 html
-fails
 =
 =
 origin
@@ -693,7 +679,6 @@ transform
 -
 origins
 .
-fails
 =
 =
 origin
@@ -706,7 +691,6 @@ origin
 2a
 .
 html
-fails
 =
 =
 origin
@@ -719,7 +703,6 @@ origin
 2b
 .
 html
-fails
 =
 =
 origin
@@ -748,7 +731,6 @@ with
 equivalent
 values
 .
-fails
 =
 =
 percent
@@ -761,7 +743,6 @@ percent
 1a
 .
 html
-fails
 =
 =
 percent
@@ -774,7 +755,6 @@ percent
 1b
 .
 html
-fails
 =
 =
 percent
@@ -787,7 +767,6 @@ percent
 1c
 .
 html
-fails
 =
 =
 percent
@@ -800,7 +779,6 @@ percent
 1d
 .
 html
-fails
 =
 =
 percent
@@ -813,7 +791,6 @@ percent
 1e
 .
 html
-fails
 =
 =
 percent
@@ -826,7 +803,6 @@ percent
 1f
 .
 html
-fails
 =
 =
 percent
@@ -853,7 +829,6 @@ pos
 containing
 blocks
 .
-fails
 =
 =
 abspos
@@ -866,7 +841,6 @@ abspos
 1a
 .
 html
-fails
 =
 =
 abspos
@@ -879,7 +853,6 @@ abspos
 1b
 .
 html
-fails
 =
 =
 abspos
@@ -892,7 +865,6 @@ abspos
 1c
 .
 html
-fails
 =
 =
 abspos
@@ -905,7 +877,6 @@ abspos
 1d
 .
 html
-fails
 =
 =
 abspos
@@ -918,7 +889,6 @@ abspos
 1e
 .
 html
-fails
 =
 =
 abspos
@@ -931,7 +901,6 @@ abspos
 1f
 .
 html
-fails
 =
 =
 abspos
@@ -956,7 +925,6 @@ right
 "
 etc
 .
-fails
 =
 =
 origin
@@ -973,7 +941,6 @@ name
 1a
 .
 html
-fails
 =
 =
 origin
@@ -990,7 +957,6 @@ name
 1b
 .
 html
-fails
 =
 =
 origin
@@ -1007,7 +973,6 @@ name
 2a
 .
 html
-fails
 =
 =
 origin
@@ -1024,7 +989,6 @@ name
 2b
 .
 html
-fails
 =
 =
 origin
@@ -1041,7 +1005,6 @@ name
 2c
 .
 html
-fails
 =
 =
 origin
@@ -1058,7 +1021,6 @@ name
 3a
 .
 html
-fails
 =
 =
 origin
@@ -1104,7 +1066,6 @@ work
 on
 transforms
 .
-fails
 =
 =
 transform
@@ -1121,7 +1082,6 @@ svg
 1a
 .
 xhtml
-fails
 =
 =
 transform
@@ -1138,7 +1098,6 @@ svg
 2a
 .
 xhtml
-fails
 =
 =
 transform
@@ -1167,7 +1126,6 @@ and
 two
 parameters
 .
-fails
 =
 =
 skew
@@ -1180,7 +1138,6 @@ skew
 1a
 .
 html
-fails
 =
 =
 skew
@@ -1193,7 +1150,6 @@ skew
 1b
 .
 html
-fails
 =
 =
 skew
@@ -1217,7 +1173,6 @@ transforms
 should
 behave
 indistinguishably
-fails
 =
 =
 matrix
@@ -1230,7 +1185,6 @@ matrix
 1a
 .
 html
-fails
 =
 =
 matrix
@@ -1243,7 +1197,6 @@ matrix
 2a
 .
 html
-fails
 =
 =
 matrix
@@ -1256,7 +1209,6 @@ matrix
 3a
 .
 html
-fails
 =
 =
 matrix
@@ -1269,7 +1221,6 @@ matrix
 4a
 .
 html
-fails
 =
 =
 matrix
@@ -1282,7 +1233,6 @@ matrix
 5a
 .
 html
-fails
 =
 =
 matrix
@@ -1295,7 +1245,6 @@ matrix
 6a
 .
 html
-fails
 =
 =
 matrix
@@ -1356,7 +1305,6 @@ html
 Test
 scale
 transforms
-fails
 =
 =
 scalex
@@ -1369,7 +1317,6 @@ scalex
 1
 .
 html
-fails
 =
 =
 scaley
@@ -1382,7 +1329,6 @@ scaley
 1
 .
 html
-fails
 =
 =
 scale
@@ -1395,7 +1341,6 @@ scale
 1a
 .
 html
-fails
 =
 =
 scale
@@ -1433,7 +1378,6 @@ it
 obeys
 selector
 operations
-fails
 =
 =
 descendant
@@ -1446,7 +1390,6 @@ descendant
 1
 .
 html
-fails
 =
 =
 propagate
@@ -1473,7 +1416,6 @@ move
 outside
 an
 iframe
-fails
 =
 =
 iframe
@@ -1529,7 +1471,6 @@ html
 #
 Bug
 722777
-fails
 =
 =
 table
@@ -1542,7 +1483,6 @@ table
 1a
 .
 html
-fails
 =
 =
 table
@@ -1555,7 +1495,6 @@ table
 1b
 .
 html
-fails
 =
 =
 table
@@ -1568,7 +1507,6 @@ table
 1c
 .
 html
-fails
 =
 =
 table
@@ -1581,7 +1519,6 @@ table
 2a
 .
 html
-fails
 =
 =
 table

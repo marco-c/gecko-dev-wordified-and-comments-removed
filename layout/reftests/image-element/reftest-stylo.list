@@ -248,7 +248,6 @@ paint
 continuation
 .
 html
-fails
 =
 =
 element
@@ -269,7 +268,6 @@ transform
 01
 .
 html
-fails
 =
 =
 element
@@ -338,7 +336,6 @@ size
 02
 .
 html
-fails
 =
 =
 element
@@ -359,7 +356,6 @@ transform
 repeated
 .
 html
-fails
 =
 =
 element
@@ -926,7 +922,6 @@ html
 01
 .
 html
-fails
 =
 =
 pattern
