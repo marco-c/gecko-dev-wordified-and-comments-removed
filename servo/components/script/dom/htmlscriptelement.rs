@@ -4145,13 +4145,13 @@ mutation
 )
 ;
 match
+*
 attr
 .
 local_name
 (
 )
 {
-&
 atom
 !
 (

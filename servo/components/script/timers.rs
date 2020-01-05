@@ -437,7 +437,6 @@ reverse
 (
 )
 res
-_
 =
 >
 res

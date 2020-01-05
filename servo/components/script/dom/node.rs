@@ -5333,9 +5333,9 @@ n
 |
 {
 match
+*
 n
 {
-&
 NodeOrString
 :
 :
