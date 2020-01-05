@@ -342,13 +342,6 @@ float_ceiling
 :
 Au
 pub
-index
-:
-Option
-<
-uint
->
-pub
 float_kind
 :
 FloatKind
@@ -382,9 +375,6 @@ Au
 (
 0
 )
-index
-:
-None
 float_kind
 :
 float_kind

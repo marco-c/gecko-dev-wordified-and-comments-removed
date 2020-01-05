@@ -152,7 +152,7 @@ mem
 type
 Generation
 =
-uint
+u32
 ;
 thread_local
 !

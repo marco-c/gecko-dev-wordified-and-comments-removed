@@ -773,7 +773,7 @@ Au
 pub
 generation
 :
-uint
+u32
 pub
 content_box_response
 :

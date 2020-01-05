@@ -462,7 +462,7 @@ self
 )
 -
 >
-uint
+usize
 {
 match
 self

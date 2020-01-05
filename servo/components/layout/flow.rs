@@ -4893,7 +4893,7 @@ self
 )
 -
 >
-uint
+usize
 {
 let
 p
@@ -4906,7 +4906,7 @@ _
 ;
 p
 as
-uint
+usize
 }
 pub
 fn
