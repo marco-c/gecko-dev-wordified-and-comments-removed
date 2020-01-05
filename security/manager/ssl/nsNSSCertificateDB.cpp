@@ -6694,6 +6694,7 @@ VerifySSLServerCert
 (
 nssCert
 nullptr
+nullptr
 aTime
 nullptr
 aHostname
@@ -6725,6 +6726,7 @@ nullptr
 aHostname
 resultChain
 aFlags
+nullptr
 nullptr
 &
 evOidPolicy

@@ -3608,6 +3608,7 @@ VerifySSLServerCert
 (
 nssCert
 nullptr
+nullptr
 now
 nullptr
 host

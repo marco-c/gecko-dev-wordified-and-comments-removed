@@ -72,6 +72,8 @@ Mode
 nameMatchingMode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
+CertificateTransparencyMode
+ctMode
 )
 :
 mozilla
@@ -90,6 +92,7 @@ pinningMode
 sha1Mode
 nameMatchingMode
 netscapeStepUpPolicy
+ctMode
 )
 {
 }
