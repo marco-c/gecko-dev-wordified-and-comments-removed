@@ -284,6 +284,8 @@ bool
 aSendViolationReports
 bool
 aSendContentLocationInViolationReports
+bool
+aParserCreated
 )
 ;
 void

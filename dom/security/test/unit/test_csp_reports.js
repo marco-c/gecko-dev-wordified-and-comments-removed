@@ -614,6 +614,7 @@ nsIContentPolicy
 TYPE_SCRIPT
 "
 "
+false
 "
 "
 0
@@ -856,6 +857,7 @@ nsIContentPolicy
 TYPE_SCRIPT
 "
 "
+false
 "
 "
 0

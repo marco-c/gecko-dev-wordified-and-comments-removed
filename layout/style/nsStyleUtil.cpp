@@ -3931,6 +3931,7 @@ nsIContentPolicy
 :
 TYPE_STYLESHEET
 nonce
+false
 aStyleText
 aLineNumber
 &
