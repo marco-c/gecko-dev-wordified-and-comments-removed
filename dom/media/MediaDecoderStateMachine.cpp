@@ -2021,7 +2021,7 @@ __func__
 mMaster
 -
 >
-Reset
+ResetDecode
 (
 )
 ;
@@ -4114,7 +4114,7 @@ IsVideoOnly
 mMaster
 -
 >
-Reset
+ResetDecode
 (
 TrackInfo
 :
@@ -4128,7 +4128,7 @@ else
 mMaster
 -
 >
-Reset
+ResetDecode
 (
 )
 ;
@@ -10174,7 +10174,7 @@ DisconnectIfExists
 master
 -
 >
-Reset
+ResetDecode
 (
 )
 ;
@@ -15734,7 +15734,7 @@ void
 MediaDecoderStateMachine
 :
 :
-Reset
+ResetDecode
 (
 TrackSet
 aTracks

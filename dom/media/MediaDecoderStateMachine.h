@@ -874,7 +874,7 @@ IsPlaying
 const
 ;
 void
-Reset
+ResetDecode
 (
 TrackSet
 aTracks
