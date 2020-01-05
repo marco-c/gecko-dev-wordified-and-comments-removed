@@ -294,13 +294,13 @@ friend
 class
 JitCompartment
 ;
-UnprotectedData
+ActiveThreadData
 <
 ExecutableAllocator
 >
 execAlloc_
 ;
-UnprotectedData
+ActiveThreadData
 <
 ExecutableAllocator
 >

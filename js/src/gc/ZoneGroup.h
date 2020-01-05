@@ -112,7 +112,7 @@ ownedByCurrentThread
 ;
 private
 :
-UnprotectedData
+ActiveThreadOrGCTaskData
 <
 ZoneVector
 >
@@ -156,7 +156,7 @@ maxNurseryBytes
 ;
 private
 :
-UnprotectedData
+ZoneGroupData
 <
 Nursery
 >
@@ -204,7 +204,7 @@ ref
 )
 ;
 }
-UnprotectedData
+ActiveThreadData
 <
 LifoAlloc
 >

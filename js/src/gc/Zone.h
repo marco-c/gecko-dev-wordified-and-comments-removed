@@ -1498,7 +1498,7 @@ private
 js
 :
 :
-UnprotectedData
+ActiveThreadOrGCTaskData
 <
 CompartmentVector
 >
@@ -1844,7 +1844,7 @@ gcMallocBytes
 js
 :
 :
-UnprotectedData
+ActiveThreadData
 <
 size_t
 >
@@ -2774,7 +2774,7 @@ gcState_
 js
 :
 :
-UnprotectedData
+ActiveThreadData
 <
 bool
 >
