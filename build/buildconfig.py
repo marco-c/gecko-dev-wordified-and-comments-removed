@@ -73,11 +73,19 @@ environ
     
 if
 var
-!
-=
+not
+in
+(
+'
+CPP
+'
+'
+CXXCPP
+'
 '
 SHELL
 '
+)
 and
 var
 in
