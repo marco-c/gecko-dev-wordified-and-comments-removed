@@ -249,6 +249,16 @@ EmptyString
 ]
 attribute
 DOMString
+all
+;
+[
+SetterThrows
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
 background
 ;
 [
