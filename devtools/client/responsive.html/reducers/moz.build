@@ -98,6 +98,13 @@ location
 js
 '
 '
+network
+-
+throttling
+.
+js
+'
+'
 screenshot
 .
 js
