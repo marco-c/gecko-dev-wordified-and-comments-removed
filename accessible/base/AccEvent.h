@@ -251,6 +251,10 @@ class
 :
 nsEventShell
 ;
+friend
+class
+NotificationController
+;
 }
 ;
 class
@@ -537,6 +541,10 @@ mModifiedText
 friend
 class
 EventTree
+;
+friend
+class
+NotificationController
 ;
 }
 ;
@@ -830,6 +838,10 @@ friend
 class
 EventTree
 ;
+friend
+class
+NotificationController
+;
 }
 ;
 class
@@ -947,6 +959,10 @@ mPrevSibling
 friend
 class
 EventTree
+;
+friend
+class
+NotificationController
 ;
 }
 ;
