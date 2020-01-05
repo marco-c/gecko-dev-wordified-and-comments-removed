@@ -63,6 +63,8 @@ import
 socket
 import
 time
+import
+urllib2
 from
 mercurial
 .
@@ -92,8 +94,6 @@ cmdutil
     
 hg
     
-pycompat
-    
 scmutil
     
 util
@@ -101,6 +101,9 @@ util
 testedwith
 =
 '
+3
+.
+7
 3
 .
 8
@@ -119,7 +122,7 @@ minimumhgversion
 '
 3
 .
-8
+7
 '
 cmdtable
 =
@@ -1825,11 +1828,9 @@ elif
 isinstance
 (
 e
-pycompat
+urllib2
 .
-urlerr
-.
-urlerror
+URLError
 )
 :
             
@@ -2012,11 +2013,9 @@ except
 error
 .
 Abort
-pycompat
+urllib2
 .
-urlerr
-.
-urlerror
+URLError
 )
 as
 e
@@ -2409,11 +2408,9 @@ except
 error
 .
 Abort
-pycompat
+urllib2
 .
-urlerr
-.
-urlerror
+URLError
 )
 as
 e
