@@ -46,7 +46,6 @@ ShadowableLayer
 ;
 class
 ShadowLayerChild
-final
 :
 public
 PLayerChild
@@ -82,15 +81,6 @@ return
 mLayer
 ;
 }
-static
-void
-Destroy
-(
-PLayerChild
-*
-aActor
-)
-;
 protected
 :
 virtual
@@ -101,11 +91,6 @@ ActorDestroyReason
 why
 )
 override
-;
-void
-Disconnect
-(
-)
 ;
 private
 :
