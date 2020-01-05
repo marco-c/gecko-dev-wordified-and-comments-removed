@@ -34671,6 +34671,7 @@ if
 mNoDelayedMouseEvents
 &
 &
+(
 aEvent
 -
 >
@@ -34678,6 +34679,16 @@ mMessage
 =
 =
 eMouseUp
+|
+|
+aEvent
+-
+>
+mMessage
+=
+=
+eContextMenu
+)
 )
 {
 DelayedEvent
