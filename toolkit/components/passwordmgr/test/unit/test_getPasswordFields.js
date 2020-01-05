@@ -28,7 +28,7 @@ jsm
 const
 {
 LoginManagerContent
-FormLikeFactory
+LoginFormFactory
 }
 =
 LMCBackstagePass
@@ -801,7 +801,7 @@ input
 let
 formLike
 =
-FormLikeFactory
+LoginFormFactory
 .
 createFromField
 (
@@ -939,7 +939,7 @@ nsIDOMHTMLFormElement
 let
 formLikeFromForm
 =
-FormLikeFactory
+LoginFormFactory
 .
 createFromForm
 (
