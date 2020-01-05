@@ -458,6 +458,10 @@ as
 i32
 )
 }
+#
+[
+inline
+]
 fn
 id
 (
@@ -1590,6 +1594,10 @@ advance
 }
 }
 }
+#
+[
+inline
+]
 pub
 fn
 offset
@@ -1815,6 +1823,10 @@ is_rtl
 is_rtl
 }
 }
+#
+[
+inline
+]
 pub
 fn
 len
@@ -1839,6 +1851,10 @@ as
 isize
 )
 }
+#
+[
+inline
+]
 pub
 fn
 is_whitespace
