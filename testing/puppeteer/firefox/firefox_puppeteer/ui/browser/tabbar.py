@@ -1393,11 +1393,14 @@ element
 )
 :
         
-UIBaseLib
+super
+(
+Tab
+self
+)
 .
 __init__
 (
-self
 marionette
 window
 element

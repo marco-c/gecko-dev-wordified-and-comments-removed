@@ -56,6 +56,17 @@ element
 )
 :
         
+super
+(
+UIBaseLib
+self
+)
+.
+__init__
+(
+marionette
+)
+        
 assert
 isinstance
 (
@@ -68,14 +79,6 @@ isinstance
 (
 element
 HTMLElement
-)
-        
-BaseLib
-.
-__init__
-(
-self
-marionette
 )
         
 self
@@ -258,15 +261,3 @@ element
 :
         
 pass
-    
-def
-get_marionette
-(
-self
-)
-:
-        
-return
-self
-.
-marionette

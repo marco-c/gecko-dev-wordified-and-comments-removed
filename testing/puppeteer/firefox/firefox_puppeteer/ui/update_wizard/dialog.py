@@ -125,30 +125,6 @@ properties
     
 ]
     
-def
-__init__
-(
-self
-*
-args
-*
-*
-kwargs
-)
-:
-        
-BaseWindow
-.
-__init__
-(
-self
-*
-args
-*
-*
-kwargs
-)
-    
 property
     
 def

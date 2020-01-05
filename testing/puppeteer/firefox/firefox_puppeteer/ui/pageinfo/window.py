@@ -120,30 +120,6 @@ properties
     
 ]
     
-def
-__init__
-(
-self
-*
-args
-*
-*
-kwargs
-)
-:
-        
-BaseWindow
-.
-__init__
-(
-self
-*
-args
-*
-*
-kwargs
-)
-    
 property
     
 def
@@ -410,11 +386,14 @@ s
 trigger
 )
         
-BaseWindow
+super
+(
+PageInfoWindow
+self
+)
 .
 close
 (
-self
 callback
 force
 )
