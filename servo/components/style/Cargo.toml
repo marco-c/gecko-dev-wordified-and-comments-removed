@@ -95,6 +95,13 @@ rust
 -
 selectors
 "
+features
+=
+[
+"
+unstable
+"
+]
 [
 dependencies
 .
