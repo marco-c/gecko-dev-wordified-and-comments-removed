@@ -234,7 +234,7 @@ sizeof_checker
 (
 size_element
 Element
-312
+320
 )
 ;
 sizeof_checker
@@ -242,7 +242,7 @@ sizeof_checker
 (
 size_htmlelement
 HTMLElement
-328
+336
 )
 ;
 sizeof_checker
@@ -250,7 +250,7 @@ sizeof_checker
 (
 size_div
 HTMLDivElement
-328
+336
 )
 ;
 sizeof_checker
@@ -258,7 +258,7 @@ sizeof_checker
 (
 size_span
 HTMLSpanElement
-328
+336
 )
 ;
 sizeof_checker
