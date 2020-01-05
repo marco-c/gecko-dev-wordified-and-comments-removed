@@ -2389,7 +2389,7 @@ mFirstResponseSource
 RESPONSE_PENDING
 ;
 nsresult
-MaybeRaceNetworkWithCache
+MaybeRaceCacheWithNetwork
 (
 )
 ;
@@ -2433,7 +2433,7 @@ Atomic
 <
 bool
 >
-mRacingNetAndCache
+mRaceCacheWithNetwork
 ;
 protected
 :

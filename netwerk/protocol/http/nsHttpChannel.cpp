@@ -837,7 +837,7 @@ req
 )
 \
 (
-mRacingNetAndCache
+mRaceCacheWithNetwork
 &
 &
 \
@@ -1479,7 +1479,7 @@ mOnCacheAvailableCalled
 (
 false
 )
-mRacingNetAndCache
+mRaceCacheWithNetwork
 (
 false
 )
@@ -9140,7 +9140,7 @@ MOZ_ASSERT
 mCachedContentIsValid
 |
 |
-mRacingNetAndCache
+mRaceCacheWithNetwork
 "
 We
 should
@@ -15899,7 +15899,7 @@ sizeInKb
 sRCWNSmallResourceSizeKB
 )
 {
-MaybeRaceNetworkWithCache
+MaybeRaceCacheWithNetwork
 (
 )
 ;
@@ -16314,7 +16314,7 @@ entry
 ;
 if
 (
-mRacingNetAndCache
+mRaceCacheWithNetwork
 &
 &
 mFirstResponseSource
@@ -22671,7 +22671,7 @@ mCacheEntryIsWriteOnly
 mCachedContentIsPartial
 |
 |
-mRacingNetAndCache
+mRaceCacheWithNetwork
 )
 ;
 MOZ_ASSERT
@@ -29629,7 +29629,7 @@ mStatus
 ;
 if
 (
-mRacingNetAndCache
+mRaceCacheWithNetwork
 )
 {
 LOG
@@ -29784,7 +29784,7 @@ request
 ;
 MOZ_ASSERT
 (
-mRacingNetAndCache
+mRaceCacheWithNetwork
 |
 |
 !
@@ -33106,7 +33106,7 @@ NS_ERROR_NOT_AVAILABLE
 if
 (
 !
-mRacingNetAndCache
+mRaceCacheWithNetwork
 )
 {
 *
@@ -38602,7 +38602,7 @@ if
 mOnCacheAvailableCalled
 )
 {
-mRacingNetAndCache
+mRaceCacheWithNetwork
 =
 true
 ;
@@ -38722,7 +38722,7 @@ nsresult
 nsHttpChannel
 :
 :
-MaybeRaceNetworkWithCache
+MaybeRaceCacheWithNetwork
 (
 )
 {
@@ -38782,7 +38782,7 @@ LOG
 nsHttpChannel
 :
 :
-MaybeRaceNetworkWithCache
+MaybeRaceCacheWithNetwork
 [
 this
 =
