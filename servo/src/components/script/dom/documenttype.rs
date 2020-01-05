@@ -14,6 +14,15 @@ use
 dom
 :
 :
+document
+:
+:
+AbstractDocument
+;
+use
+dom
+:
+:
 node
 :
 :
@@ -89,6 +98,9 @@ str
 force_quirks
 :
 bool
+document
+:
+AbstractDocument
 )
 -
 >
@@ -107,6 +119,7 @@ Node
 new
 (
 DoctypeNodeTypeId
+document
 )
 name
 :

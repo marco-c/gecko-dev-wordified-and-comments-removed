@@ -380,6 +380,7 @@ HTMLHtmlElementTypeId
 "
 html
 "
+document
 )
 }
 ;

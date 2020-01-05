@@ -27,6 +27,15 @@ use
 dom
 :
 :
+document
+:
+:
+AbstractDocument
+;
+use
+dom
+:
+:
 node
 :
 :
@@ -65,6 +74,9 @@ text
 :
 ~
 str
+document
+:
+AbstractDocument
 )
 -
 >
@@ -81,6 +93,7 @@ new
 (
 TextNodeTypeId
 text
+document
 )
 }
 }
@@ -137,6 +150,11 @@ new
 null_str_as_empty
 (
 text
+)
+owner
+.
+Document
+(
 )
 )
 ;
