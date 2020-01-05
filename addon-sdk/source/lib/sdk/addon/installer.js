@@ -269,9 +269,9 @@ if
 install
 .
 error
-!
 =
-null
+=
+0
 )
 {
 install
