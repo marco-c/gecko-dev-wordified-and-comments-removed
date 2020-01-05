@@ -81,11 +81,6 @@ jsm
 )
 ;
 var
-gProfileDir
-=
-null
-;
-var
 gHttpServer
 =
 null
@@ -111,12 +106,6 @@ run_test
 )
 {
 loadAddonManager
-(
-)
-;
-gProfileDir
-=
-do_get_profile
 (
 )
 ;
