@@ -254,6 +254,12 @@ only
 -
 tests
 -
+desktop
+-
+screenshot
+-
+capture
+-
 talos
 #
 TODO
