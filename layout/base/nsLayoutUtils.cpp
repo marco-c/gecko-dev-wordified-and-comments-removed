@@ -5561,8 +5561,10 @@ return
 false
 ;
 }
-static
 bool
+nsLayoutUtils
+:
+:
 ShouldDisableApzForElement
 (
 nsIContent
@@ -6000,6 +6002,9 @@ IsDisplayportSuppressed
 )
 |
 |
+nsLayoutUtils
+:
+:
 ShouldDisableApzForElement
 (
 aContent

@@ -5389,6 +5389,15 @@ aShell
 )
 ;
 static
+bool
+ShouldDisableApzForElement
+(
+nsIContent
+*
+aContent
+)
+;
+static
 void
 LogTestDataForPaint
 (
