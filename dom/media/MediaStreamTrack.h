@@ -411,6 +411,12 @@ IsEmpty
 )
 )
 {
+MOZ_ASSERT
+(
+!
+mStopped
+)
+;
 Stop
 (
 )
