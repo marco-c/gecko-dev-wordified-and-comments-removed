@@ -218,6 +218,13 @@ MessageManagerReporter
 namespace
 ipc
 {
+static
+const
+uint32_t
+kMinTelemetrySyncMessageManagerLatencyMs
+=
+1
+;
 enum
 MessageManagerFlags
 {
