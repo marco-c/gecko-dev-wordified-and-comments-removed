@@ -1950,7 +1950,6 @@ SharedTrackInfo
 )
 {
 }
-;
 UniquePtr
 <
 TrackInfo

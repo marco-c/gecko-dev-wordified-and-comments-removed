@@ -877,7 +877,6 @@ Exit
 )
 {
 }
-;
 virtual
 void
 Step
@@ -5805,6 +5804,8 @@ lld
 %
 lld
 ]
+"
+"
 containing
 target
 =
@@ -9715,6 +9716,8 @@ lowVideo
 =
 %
 d
+"
+"
 lowUndecoded
 =
 %
@@ -16919,6 +16922,8 @@ mDecodedAudioEndTime
 =
 %
 lld
+"
+"
 mDecodedVideoEndTime
 =
 %

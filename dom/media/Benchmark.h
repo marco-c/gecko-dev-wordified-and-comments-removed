@@ -87,7 +87,6 @@ friend
 class
 Benchmark
 ;
-explicit
 BenchmarkPlayback
 (
 Benchmark
