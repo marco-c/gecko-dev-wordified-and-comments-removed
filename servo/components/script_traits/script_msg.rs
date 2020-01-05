@@ -291,4 +291,13 @@ SetFinalUrl
 PipelineId
 Url
 )
+Alert
+(
+PipelineId
+String
+IpcSender
+<
+bool
+>
+)
 }
