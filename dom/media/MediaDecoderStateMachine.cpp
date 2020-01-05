@@ -4539,6 +4539,18 @@ FinishDecodeFirstFrame
 )
 ;
 }
+if
+(
+!
+mSeekJob
+.
+mTarget
+.
+IsVideoOnly
+(
+)
+)
+{
 mMaster
 -
 >
@@ -4547,6 +4559,7 @@ UpdatePlaybackPositionInternal
 newCurrentTime
 )
 ;
+}
 SLOG
 (
 "
