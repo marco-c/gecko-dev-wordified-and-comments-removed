@@ -599,10 +599,6 @@ BaseShape
 base
 =
 base_
-.
-unbarrieredGet
-(
-)
 ;
 if
 (
