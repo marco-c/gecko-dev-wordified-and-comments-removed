@@ -64,10 +64,12 @@ test_initialize
 let
 tab
 =
-gBrowser
+yield
+BrowserTestUtils
 .
-addTab
+openNewForegroundTab
 (
+gBrowser
 BASE_URI
 )
 ;
