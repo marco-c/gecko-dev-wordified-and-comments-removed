@@ -652,7 +652,7 @@ glob
 str
 :
 :
-bytes
+as_bytes
 (
 "
 x
@@ -676,8 +676,13 @@ test
 "
 1u
 )
-;
 }
+;
+ok
+(
+(
+)
+)
 }
 ;
 }

@@ -1188,7 +1188,7 @@ b0
 =
 n0
 .
-construct_boxes_for_subtree
+construct_boxes
 (
 )
 ;
@@ -1197,7 +1197,7 @@ b1
 =
 n1
 .
-construct_boxes_for_subtree
+construct_boxes
 (
 )
 ;
@@ -1206,7 +1206,7 @@ b2
 =
 n2
 .
-construct_boxes_for_subtree
+construct_boxes
 (
 )
 ;
@@ -1215,7 +1215,7 @@ b3
 =
 n3
 .
-construct_boxes_for_subtree
+construct_boxes
 (
 )
 ;
