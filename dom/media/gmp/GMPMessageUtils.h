@@ -119,6 +119,9 @@ kGMPQuotaExceededError
 case
 kGMPTimeoutError
 :
+case
+kGMPTypeError
+:
 return
 true
 ;

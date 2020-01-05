@@ -1317,6 +1317,12 @@ kGMPTimeoutError
 return
 NS_ERROR_DOM_TIMEOUT_ERR
 ;
+case
+kGMPTypeError
+:
+return
+NS_ERROR_DOM_TYPE_ERR
+;
 default
 :
 return

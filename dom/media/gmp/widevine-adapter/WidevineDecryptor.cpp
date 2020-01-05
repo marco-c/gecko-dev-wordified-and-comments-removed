@@ -1657,7 +1657,7 @@ case
 kInvalidAccessError
 :
 return
-kGMPInvalidAccessError
+kGMPTypeError
 ;
 case
 kQuotaExceededError

@@ -238,6 +238,9 @@ kGMPQuotaExceededError
 kGMPTimeoutError
 =
 23
+kGMPTypeError
+=
+52
 }
 ;
 enum
