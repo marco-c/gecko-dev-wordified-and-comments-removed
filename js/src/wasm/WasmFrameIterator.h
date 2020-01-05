@@ -197,6 +197,14 @@ debugFrame
 )
 const
 ;
+const
+CallSite
+*
+debugTrapCallsite
+(
+)
+const
+;
 }
 ;
 enum
@@ -210,6 +218,7 @@ ImportJit
 ImportInterp
 Native
 Trap
+DebugTrap
 }
 ;
 class

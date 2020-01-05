@@ -4174,12 +4174,12 @@ CallSiteDesc
 uint32_t
 lineOrBytecode_
 :
-30
+29
 ;
 uint32_t
 kind_
 :
-2
+3
 ;
 public
 :
@@ -4190,6 +4190,8 @@ Func
 Dynamic
 Symbolic
 TrapExit
+EnterFrame
+LeaveFrame
 }
 ;
 CallSiteDesc
@@ -4580,6 +4582,8 @@ Context
 InterruptUint32
 ReportOverRecursed
 HandleExecutionInterrupt
+HandleDebugTrap
+HandleDebugThrow
 ReportTrap
 ReportOutOfBounds
 ReportUnalignedAccess
