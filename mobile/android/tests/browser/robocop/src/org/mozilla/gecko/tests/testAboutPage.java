@@ -96,9 +96,16 @@ contentEventExpecter
 =
 mActions
 .
-expectGeckoEvent
+expectGlobalEvent
 (
+Actions
+.
+EventType
+.
+GECKO
 "
+Content
+:
 DOMContentLoaded
 "
 )
