@@ -389,9 +389,15 @@ context_hash
 )
 )
         
-index_paths
+optimizations
 =
 [
+[
+'
+index
+-
+search
+'
 '
 {
 }
@@ -418,6 +424,7 @@ level
 image_name
 context_hash
 )
+]
             
 for
 level
@@ -536,12 +543,10 @@ routes
 routes
             
 '
-index
--
-paths
+optimizations
 '
 :
-index_paths
+optimizations
             
 '
 scopes
