@@ -1641,6 +1641,11 @@ XPCOMCallbackT
 )
 )
 ;
+if
+(
+supp
+)
+{
 return
 supp
 .
@@ -1654,6 +1659,10 @@ XPCOMCallbackT
 >
 (
 )
+;
+}
+return
+nullptr
 ;
 }
 already_AddRefed
