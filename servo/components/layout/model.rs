@@ -799,13 +799,12 @@ MarginCollapseState
 AccumulatingCollapsibleTopMargin
 =
 >
-self
-.
-block_start_margin
-.
-collapse
+{
+Au
 (
+0
 )
+}
 MarginCollapseState
 :
 :
