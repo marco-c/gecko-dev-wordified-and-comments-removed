@@ -711,6 +711,9 @@ refcnt
 ;
 if
 (
+mThread
+&
+&
 count
 =
 =
