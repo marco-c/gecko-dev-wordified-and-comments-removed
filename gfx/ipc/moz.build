@@ -361,6 +361,12 @@ toolkit
 /
 crashreporter
 '
+'
+/
+xpcom
+/
+threads
+'
 ]
 include
 (
