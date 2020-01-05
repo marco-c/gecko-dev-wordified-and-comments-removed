@@ -74,14 +74,6 @@ multipage
 /
 #
 htmldatalistelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLDataListElement
 :

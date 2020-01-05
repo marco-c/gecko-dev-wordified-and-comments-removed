@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlbrelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLBRElement
 :

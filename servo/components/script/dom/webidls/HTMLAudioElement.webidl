@@ -86,14 +86,6 @@ DOMString
 src
 )
 ]
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLAudioElement
 :

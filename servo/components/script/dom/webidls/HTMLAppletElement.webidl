@@ -74,14 +74,6 @@ multipage
 /
 #
 htmlappletelement
-[
-Exposed
-=
-(
-Window
-Worker
-)
-]
 interface
 HTMLAppletElement
 :
