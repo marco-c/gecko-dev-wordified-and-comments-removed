@@ -149,9 +149,7 @@ image
 "
 0
 .
-5
-.
-0
+7
 "
 log
 =
@@ -173,13 +171,6 @@ serde_macros
 0
 .
 6
-"
-stb_image
-=
-"
-0
-.
-2
 "
 url
 =

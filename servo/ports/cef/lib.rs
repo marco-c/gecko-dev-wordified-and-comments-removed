@@ -180,10 +180,6 @@ style_traits
 ;
 extern
 crate
-stb_image
-;
-extern
-crate
 libc
 ;
 extern

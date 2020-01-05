@@ -99,10 +99,6 @@ serde
 ;
 extern
 crate
-stb_image
-;
-extern
-crate
 url
 ;
 extern
