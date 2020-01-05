@@ -597,12 +597,9 @@ return
 mPreviewVisibility
 ;
 }
-bool
+int32_t
 GetMaxLength
 (
-int32_t
-*
-aMaxLength
 )
 ;
 void
