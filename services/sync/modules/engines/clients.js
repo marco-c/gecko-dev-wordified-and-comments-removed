@@ -247,16 +247,7 @@ const
 SUPPORTED_PROTOCOL_VERSIONS
 =
 [
-"
-1
-.
-1
-"
-"
-1
-.
-5
-"
+SYNC_API_VERSION
 ]
 ;
 function
