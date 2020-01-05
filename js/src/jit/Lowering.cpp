@@ -16565,7 +16565,7 @@ IsInsideNursery
 (
 v
 .
-toGCThing
+toMarkablePointer
 (
 )
 )

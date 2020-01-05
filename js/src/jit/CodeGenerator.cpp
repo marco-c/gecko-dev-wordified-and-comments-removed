@@ -52217,7 +52217,7 @@ ImmGCPtr
 (
 v
 .
-toGCThing
+toMarkablePointer
 (
 )
 )
