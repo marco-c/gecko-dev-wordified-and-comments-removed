@@ -785,7 +785,7 @@ wr_api_set_root_display_list
 mWRApi
 aBuilder
 .
-mWRState
+mWrState
 aEpoch
 .
 mHandle
@@ -1228,7 +1228,7 @@ MOZ_COUNT_CTOR
 DisplayListBuilder
 )
 ;
-mWRState
+mWrState
 =
 wr_state_new
 (
@@ -1262,7 +1262,7 @@ ifdef
 MOZ_ENABLE_WEBRENDER
 wr_state_delete
 (
-mWRState
+mWrState
 )
 ;
 #
@@ -1282,7 +1282,7 @@ aSize
 {
 wr_dp_begin
 (
-mWRState
+mWrState
 aSize
 .
 width
@@ -1307,7 +1307,7 @@ aEpoch
 {
 wr_dp_end
 (
-mWRState
+mWrState
 aApi
 .
 mWRApi
@@ -1346,7 +1346,7 @@ aTransform
 {
 wr_dp_push_stacking_context
 (
-mWRState
+mWrState
 aBounds
 aOverflow
 aMask
@@ -1370,7 +1370,7 @@ PopStackingContext
 {
 wr_dp_pop_stacking_context
 (
-mWRState
+mWrState
 )
 ;
 }
@@ -1399,7 +1399,7 @@ aColor
 {
 wr_dp_push_rect
 (
-mWRState
+mWrState
 aBounds
 aClip
 aColor
@@ -1444,7 +1444,7 @@ aImage
 {
 wr_dp_push_image
 (
-mWRState
+mWrState
 aBounds
 aClip
 aMask
@@ -1473,7 +1473,7 @@ aPipeline
 {
 wr_dp_push_iframe
 (
-mWRState
+mWrState
 aBounds
 aClip
 aPipeline
@@ -1532,7 +1532,7 @@ aBottomRightRadius
 {
 wr_dp_push_border
 (
-mWRState
+mWrState
 aBounds
 aClip
 aTop
@@ -1584,7 +1584,7 @@ aGlyphSize
 {
 wr_dp_push_text
 (
-mWRState
+mWrState
 aBounds
 aClip
 ToWRColor
