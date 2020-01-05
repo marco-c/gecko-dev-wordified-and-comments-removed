@@ -157,16 +157,6 @@ BrowserElementParent
 .
 manifest
 '
-'
-BrowserElementProxy
-.
-js
-'
-'
-BrowserElementProxy
-.
-manifest
-'
 ]
 EXTRA_JS_MODULES
 +
