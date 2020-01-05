@@ -207,5 +207,5 @@ SVGURIReference
 ;
 SVGGradientElement
 implements
-SVGUnitTypeValues
+SVGUnitTypes
 ;

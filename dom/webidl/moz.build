@@ -2712,11 +2712,6 @@ SVGUnitTypes
 webidl
 '
 '
-SVGUnitTypeValues
-.
-webidl
-'
-'
 SVGURIReference
 .
 webidl

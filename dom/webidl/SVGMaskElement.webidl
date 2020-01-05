@@ -214,5 +214,5 @@ height
 ;
 SVGMaskElement
 implements
-SVGUnitTypeValues
+SVGUnitTypes
 ;
