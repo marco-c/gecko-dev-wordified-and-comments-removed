@@ -711,10 +711,16 @@ SERVO_BINDING_FUNC
 Servo_AnimationCompose
 void
 RawServoAnimationValueMapBorrowed
+animation_values
+void
+*
+base_values
 nsCSSPropertyID
 property
 RawGeckoAnimationPropertySegmentBorrowed
+animation_segment
 RawGeckoComputedTimingBorrowed
+computed_timing
 )
 SERVO_BINDING_FUNC
 (

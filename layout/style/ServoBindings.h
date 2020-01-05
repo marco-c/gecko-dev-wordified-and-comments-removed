@@ -1028,6 +1028,16 @@ BeforeFlag
 aBeforeFlag
 )
 ;
+RawServoAnimationValueBorrowedOrNull
+Gecko_AnimationGetBaseStyle
+(
+void
+*
+aBaseStyles
+nsCSSPropertyID
+aProperty
+)
+;
 nsIAtom
 *
 Gecko_Atomize
