@@ -586,7 +586,7 @@ aOther
 }
 ;
 struct
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 {
 const
 ServoComputedValues
@@ -920,7 +920,7 @@ Keyframe
 &
 aKeyframes
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 aServoValues
 )
@@ -988,7 +988,7 @@ void
 UpdateProperties
 (
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 aServoValues
 )
@@ -1131,7 +1131,7 @@ void
 CalculateCumulativeChangeHint
 (
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 aServoValues
 )
@@ -1407,7 +1407,7 @@ void
 EnsureBaseStyles
 (
 const
-ServoComputedStyleValues
+ServoComputedValuesWithParent
 &
 aServoValues
 const
