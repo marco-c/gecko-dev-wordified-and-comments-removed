@@ -247,15 +247,6 @@ MediaData
 >
 mFirstVideoFrameAfterSeek
 ;
-MozPromiseRequestHolder
-<
-MediaDecoderReader
-:
-:
-SeekPromise
->
-mSeekRequest
-;
 }
 ;
 }
