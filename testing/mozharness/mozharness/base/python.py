@@ -673,11 +673,20 @@ self
 )
 :
         
-c
-=
-self
+"
+"
+"
+Determine
+the
+absolute
+path
+to
+the
+virtualenv
 .
-config
+"
+"
+"
         
 dirs
 =
@@ -687,10 +696,6 @@ query_abs_dirs
 (
 )
         
-virtualenv
-=
-None
-        
 if
 '
 abs_virtualenv_dir
@@ -699,8 +704,7 @@ in
 dirs
 :
             
-virtualenv
-=
+return
 dirs
 [
 '
@@ -708,17 +712,43 @@ abs_virtualenv_dir
 '
 ]
         
-elif
-c
+p
+=
+self
 .
-get
-(
+config
+[
 '
 virtualenv_path
 '
-)
+]
+        
+if
+not
+p
 :
             
+self
+.
+fatal
+(
+'
+virtualenv_path
+config
+option
+not
+set
+;
+'
+                       
+'
+this
+should
+never
+happen
+'
+)
+        
 if
 os
 .
@@ -726,29 +756,17 @@ path
 .
 isabs
 (
-c
-[
-'
-virtualenv_path
-'
-]
+p
 )
 :
-                
-virtualenv
-=
-c
-[
-'
-virtualenv_path
-'
-]
             
+return
+p
+        
 else
 :
-                
-virtualenv
-=
+            
+return
 os
 .
 path
@@ -761,17 +779,8 @@ dirs
 abs_work_dir
 '
 ]
-                                          
-c
-[
-'
-virtualenv_path
-'
-]
+p
 )
-        
-return
-virtualenv
     
 def
 query_python_path
@@ -860,10 +869,6 @@ query_virtualenv_path
 (
 )
             
-if
-virtualenv_path
-:
-                
 self
 .
 python_paths
@@ -887,23 +892,6 @@ virtualenv_path
 bin_dir
 binary
 )
-)
-            
-else
-:
-                
-self
-.
-python_paths
-[
-binary
-]
-=
-self
-.
-query_exe
-(
-binary
 )
         
 return
