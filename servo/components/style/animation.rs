@@ -1762,6 +1762,7 @@ Some
 previous_style
 )
 None
+None
 context
 .
 error_reporter
