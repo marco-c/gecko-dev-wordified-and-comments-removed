@@ -305,10 +305,6 @@ opts
 ;
 pub
 mod
-persistent_list
-;
-pub
-mod
 prefs
 ;
 pub
