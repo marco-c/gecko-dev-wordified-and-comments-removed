@@ -799,12 +799,12 @@ doc
 ReadyState
 (
 )
-!
+=
 =
 DocumentReadyStateValues
 :
 :
-Complete
+Loading
 {
 let
 ConstellationChan
