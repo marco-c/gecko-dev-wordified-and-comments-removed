@@ -171,7 +171,7 @@ mozilla
 /
 dom
 /
-PMemoryReportRequestParent
+MemoryReportTypes
 .
 h
 "
@@ -8414,7 +8414,7 @@ return
 aChild
 -
 >
-SendPMemoryReportRequestConstructor
+SendRequestMemoryReport
 (
 aState
 -

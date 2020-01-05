@@ -433,6 +433,11 @@ DOMTypes
 ipdlh
 '
 '
+MemoryReportTypes
+.
+ipdlh
+'
+'
 PBrowser
 .
 ipdl
@@ -489,11 +494,6 @@ ipdl
 '
 '
 PFilePicker
-.
-ipdl
-'
-'
-PMemoryReportRequest
 .
 ipdl
 '
