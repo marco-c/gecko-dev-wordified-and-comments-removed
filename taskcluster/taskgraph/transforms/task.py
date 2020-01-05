@@ -2442,6 +2442,25 @@ USE_SCCACHE
 1
 '
     
+else
+:
+        
+worker
+[
+'
+env
+'
+]
+[
+'
+SCCACHE_DISABLE
+'
+]
+=
+'
+1
+'
+    
 capabilities
 =
 {
