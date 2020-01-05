@@ -236,7 +236,7 @@ nsXPLookAndFeel
 )
 ;
 static
-nsLookAndFeel
+nsXPLookAndFeel
 *
 GetInstance
 (
@@ -535,7 +535,7 @@ bool
 sFindbarModalHighlight
 ;
 static
-nsLookAndFeel
+nsXPLookAndFeel
 *
 sInstance
 ;

@@ -623,6 +623,12 @@ InitMoz2DLogging
 (
 )
 ;
+static
+bool
+IsHeadless
+(
+)
+;
 virtual
 already_AddRefed
 <

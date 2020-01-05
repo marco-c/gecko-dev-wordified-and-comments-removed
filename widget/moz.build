@@ -285,6 +285,14 @@ TEST_DIRS
 tests
 '
 ]
+DIRS
++
+=
+[
+'
+headless
+'
+]
 #
 Don
 '
@@ -1349,6 +1357,12 @@ view
 '
 /
 widget
+'
+'
+/
+widget
+/
+headless
 '
 ]
 if

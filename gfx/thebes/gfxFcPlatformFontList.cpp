@@ -2914,6 +2914,16 @@ FcTrue
 ;
 }
 else
+if
+(
+!
+gfxPlatform
+:
+:
+IsHeadless
+(
+)
+)
 {
 #
 ifdef

@@ -1692,6 +1692,17 @@ defined
 (
 MOZ_WIDGET_GTK
 )
+if
+(
+!
+gfxPlatform
+:
+:
+IsHeadless
+(
+)
+)
+{
 XSync
 (
 GDK_DISPLAY_XDISPLAY
@@ -1703,6 +1714,7 @@ gdk_display_get_default
 False
 )
 ;
+}
 #
 endif
 *

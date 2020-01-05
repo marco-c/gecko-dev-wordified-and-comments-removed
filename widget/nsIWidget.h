@@ -3290,6 +3290,15 @@ already_AddRefed
 <
 nsIWidget
 >
+CreateHeadlessWidget
+(
+)
+;
+static
+already_AddRefed
+<
+nsIWidget
+>
 CreatePluginProxyWidget
 (
 TabChild
