@@ -101,6 +101,14 @@ ImageBitmap
 aImageBitmap
 )
 ;
+void
+TransferFromImageBitmap
+(
+ImageBitmap
+&
+aImageBitmap
+)
+;
 virtual
 int32_t
 GetWidth
