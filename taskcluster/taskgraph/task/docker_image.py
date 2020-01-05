@@ -710,6 +710,8 @@ context_hash
 for
 level
 in
+reversed
+(
 range
 (
 int
@@ -722,6 +724,7 @@ level
 ]
 )
 4
+)
 )
 ]
             
@@ -965,6 +968,8 @@ context_hash
 for
 level
 in
+reversed
+(
 range
 (
 int
@@ -977,6 +982,7 @@ level
 ]
 )
 4
+)
 )
 ]
         
