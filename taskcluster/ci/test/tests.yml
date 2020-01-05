@@ -8385,14 +8385,6 @@ test
 -
 platform
 :
-#
-Bug
-1304438
-windows
-.
-*
-:
-false
 macosx
 .
 *
