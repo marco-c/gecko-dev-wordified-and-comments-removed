@@ -5599,13 +5599,10 @@ range
 let
 run
 =
+&
 text_box
 .
 run
-.
-get
-(
-)
 ;
 /
 /
@@ -5687,6 +5684,8 @@ align
 let
 text_ascent
 =
+text_box
+.
 run
 .
 font_metrics
