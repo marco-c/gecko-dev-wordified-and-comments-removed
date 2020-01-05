@@ -11729,7 +11729,7 @@ htmlElement
 nsLayoutUtils
 :
 :
-SFE_WANT_FIRST_FRAME
+SFE_WANT_FIRST_FRAME_IF_IMAGE
 mTarget
 )
 ;
@@ -24040,7 +24040,7 @@ sfeFlags
 nsLayoutUtils
 :
 :
-SFE_WANT_FIRST_FRAME
+SFE_WANT_FIRST_FRAME_IF_IMAGE
 |
 nsLayoutUtils
 :
