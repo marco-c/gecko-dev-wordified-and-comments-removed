@@ -19,6 +19,12 @@ Mach
 from
 mach
 .
+registrar
+import
+Registrar
+from
+mach
+.
 test
 .
 common
@@ -286,7 +292,7 @@ result
             
 fail_msg
 =
-Mach
+Registrar
 .
 _condition_failed_message
 (
@@ -347,7 +353,7 @@ result
             
 fail_msg
 =
-Mach
+Registrar
 .
 _condition_failed_message
 (
