@@ -2173,6 +2173,12 @@ break
 }
 }
 }
+masm_
+.
+flushBuffer
+(
+)
+;
 return
 true
 ;
