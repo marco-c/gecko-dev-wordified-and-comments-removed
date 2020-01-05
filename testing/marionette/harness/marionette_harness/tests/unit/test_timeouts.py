@@ -276,6 +276,20 @@ page
 "
 )
     
+skip_if_mobile
+(
+"
+Bug
+1317121
+-
+android
+emulator
+is
+too
+slow
+"
+)
+    
 def
 test_search_timeout_found_settimeout
 (
