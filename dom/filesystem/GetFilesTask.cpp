@@ -209,6 +209,7 @@ task
 new
 GetFilesTaskChild
 (
+globalObject
 aFileSystem
 aDirectory
 aTargetPath
@@ -258,6 +259,9 @@ GetFilesTaskChild
 :
 GetFilesTaskChild
 (
+nsIGlobalObject
+*
+aGlobalObject
 FileSystemBase
 *
 aFileSystem
@@ -273,6 +277,7 @@ aRecursiveFlag
 :
 FileSystemTaskChildBase
 (
+aGlobalObject
 aFileSystem
 )
 mDirectory

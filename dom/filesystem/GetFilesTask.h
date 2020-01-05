@@ -108,6 +108,9 @@ private
 :
 GetFilesTaskChild
 (
+nsIGlobalObject
+*
+aGlobalObject
 FileSystemBase
 *
 aFileSystem

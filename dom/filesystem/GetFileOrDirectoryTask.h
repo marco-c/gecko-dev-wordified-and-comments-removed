@@ -130,6 +130,9 @@ private
 :
 GetFileOrDirectoryTaskChild
 (
+nsIGlobalObject
+*
+aGlobalObject
 FileSystemBase
 *
 aFileSystem

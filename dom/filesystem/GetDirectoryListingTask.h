@@ -102,6 +102,9 @@ private
 :
 GetDirectoryListingTaskChild
 (
+nsIGlobalObject
+*
+aGlobalObject
 FileSystemBase
 *
 aFileSystem
