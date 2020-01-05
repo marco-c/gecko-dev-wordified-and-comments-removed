@@ -89,6 +89,11 @@ i
 response
 =
 {
+type
+:
+client
+.
+type
 id
 :
 client
