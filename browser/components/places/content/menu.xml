@@ -2358,13 +2358,6 @@ XULBrowserWindow
 )
 {
 let
-elt
-=
-event
-.
-target
-;
-let
 placesNode
 =
 elt

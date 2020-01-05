@@ -1227,7 +1227,6 @@ function
 findNode
 (
 container
-placeURI
 nodesURIChecked
 )
 {
@@ -1362,7 +1361,6 @@ asContainer
 (
 child
 )
-placeURI
 nodesURIChecked
 )
 ;
@@ -1426,7 +1424,6 @@ child
 findNode
 (
 container
-placeURI
 [
 ]
 )

@@ -679,7 +679,7 @@ anonid
 )
 ;
 let
-sortConst
+sortStr
 =
 "
 SORT_BY_
@@ -716,7 +716,7 @@ Ci
 .
 nsINavHistoryQueryOptions
 [
-sortConst
+sortStr
 ]
 ;
 let
@@ -765,8 +765,7 @@ function
 dir
 )
 {
-let
-sortConst
+sortStr
 =
 "
 SORT_BY_
@@ -789,14 +788,13 @@ toUpperCase
 (
 )
 ;
-let
 expectedSortMode
 =
 Ci
 .
 nsINavHistoryQueryOptions
 [
-sortConst
+sortStr
 ]
 ;
 setSort
@@ -857,7 +855,7 @@ prevSortKey
 )
 ;
 let
-sortConst
+sortStr
 =
 "
 SORT_BY_
@@ -882,7 +880,7 @@ Ci
 .
 nsINavHistoryQueryOptions
 [
-sortConst
+sortStr
 ]
 ;
 setSort

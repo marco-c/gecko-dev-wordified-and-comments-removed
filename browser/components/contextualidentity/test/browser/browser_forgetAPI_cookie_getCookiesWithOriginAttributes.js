@@ -427,7 +427,7 @@ USER_CONTEXTS
 )
 {
 let
-enumerator
+e
 =
 getCookiesForOA
 (
@@ -438,7 +438,7 @@ userContextId
 ok
 (
 !
-enumerator
+e
 .
 hasMoreElements
 (

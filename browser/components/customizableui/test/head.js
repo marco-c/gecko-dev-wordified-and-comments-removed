@@ -1516,9 +1516,9 @@ addObserver
 function
 onNotification
 (
-aSubject
-aTopic
-aData
+subject
+topic
+data
 )
 {
 Services
@@ -1528,7 +1528,7 @@ obs
 removeObserver
 (
 onNotification
-aTopic
+topic
 )
 ;
 deferred
@@ -1537,11 +1537,7 @@ resolve
 (
 {
 subject
-:
-aSubject
 data
-:
-aData
 }
 )
 ;

@@ -8743,7 +8743,7 @@ let
 failureHandler
 =
 (
-install
+failureInstall
 handler
 )
 =
@@ -8772,7 +8772,7 @@ state
 "
 +
 (
-install
+failureInstall
 .
 state
 |
@@ -8787,7 +8787,7 @@ error
 =
 "
 +
-install
+failureInstall
 .
 error
 ;
@@ -8817,7 +8817,7 @@ gActiveInstallURLs
 .
 delete
 (
-install
+failureInstall
 .
 sourceURI
 .
@@ -8865,7 +8865,7 @@ _expectedID
 null
 onDownloadEnded
 :
-install
+downloadEndedInstall
 =
 >
 {
@@ -8891,7 +8891,7 @@ id
 ;
 if
 (
-install
+downloadEndedInstall
 .
 existingAddon
 )
@@ -8917,7 +8917,7 @@ installed
 }
 if
 (
-install
+downloadEndedInstall
 .
 addon
 .
@@ -8948,7 +8948,7 @@ type
 "
 )
 ;
-install
+downloadEndedInstall
 .
 cancel
 (
@@ -8958,7 +8958,7 @@ cancel
 }
 onInstallStarted
 :
-install
+installStartedInstall
 =
 >
 {
@@ -8984,7 +8984,7 @@ id
 ;
 if
 (
-install
+installStartedInstall
 .
 existingAddon
 )
@@ -9010,7 +9010,7 @@ installed
 }
 if
 (
-install
+installStartedInstall
 .
 addon
 .
@@ -9051,7 +9051,7 @@ undefined
 }
 onInstallEnded
 :
-install
+installEndedInstall
 =
 >
 {
@@ -9080,7 +9080,7 @@ gActiveInstallURLs
 .
 delete
 (
-install
+installEndedInstall
 .
 sourceURI
 .
@@ -9139,7 +9139,7 @@ id
 let
 addon
 =
-install
+installEndedInstall
 .
 addon
 ;
@@ -9342,12 +9342,12 @@ listener
 what
 ]
 =
-install
+eventInstall
 =
 >
 failureHandler
 (
-install
+eventInstall
 what
 )
 }

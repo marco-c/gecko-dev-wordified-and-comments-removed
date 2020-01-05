@@ -145,7 +145,7 @@ visits
 )
 ;
 let
-bm
+newBookmark
 =
 yield
 PlacesUtils
@@ -194,7 +194,7 @@ TEST_URL
 ;
 ok
 (
-bm
+newBookmark
 "
 A
 bookmark

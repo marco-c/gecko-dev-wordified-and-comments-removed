@@ -2090,15 +2090,6 @@ protocolInfo
 protocol
 ;
 let
-uri
-=
-aButtonInfo
-.
-protocolInfo
-.
-uri
-;
-let
 name
 =
 aButtonInfo
@@ -2146,6 +2137,10 @@ handler
 .
 uriTemplate
 =
+aButtonInfo
+.
+protocolInfo
+.
 uri
 ;
 let

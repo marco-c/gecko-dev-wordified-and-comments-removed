@@ -148,7 +148,7 @@ resolve
 >
 {
 let
-faviconURI
+uri
 =
 makeURI
 (
@@ -178,7 +178,7 @@ favicons
 setAndFetchFaviconForPage
 (
 notificationURI
-faviconURI
+uri
 true
 PlacesUtils
 .
@@ -186,16 +186,13 @@ favicons
 .
 FAVICON_LOAD_NON_PRIVATE
 (
-faviconURI
-iconSize
-iconData
-mimeType
+uriResult
 )
 =
 >
 resolve
 (
-faviconURI
+uriResult
 )
 Services
 .

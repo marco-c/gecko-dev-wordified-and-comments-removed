@@ -83,14 +83,6 @@ args
 )
 {
 let
-{
-url
-domcontentloadedFnStr
-}
-=
-args
-;
-let
 rv
 =
 {
@@ -117,6 +109,8 @@ subdialog
 .
 open
 (
+args
+.
 url
 null
 rv
@@ -149,6 +143,8 @@ result
 ;
 if
 (
+args
+.
 domcontentloadedFnStr
 )
 {
@@ -156,6 +152,8 @@ result
 =
 eval
 (
+args
+.
 domcontentloadedFnStr
 )
 ;
@@ -432,7 +430,7 @@ dialogclosing
 )
 ;
 let
-closingButton
+contentClosingButton
 =
 closingEvent
 .
@@ -568,7 +566,7 @@ Assert
 .
 equal
 (
-closingButton
+contentClosingButton
 expectations
 .
 closingButton
@@ -1620,7 +1618,7 @@ frame
 contentDocument
 ;
 let
-oldHeight
+scrollHeight
 =
 doc
 .
@@ -1789,7 +1787,7 @@ sequi
 nesciunt
 .
 return
-oldHeight
+scrollHeight
 ;
 }
 )
@@ -1806,7 +1804,7 @@ oldHeight
 function
 *
 (
-oldHeight
+contentOldHeight
 )
 {
 let
@@ -1863,7 +1861,7 @@ docEl
 .
 scrollHeight
 >
-oldHeight
+contentOldHeight
 "
 Content
 height
@@ -1872,7 +1870,7 @@ increased
 from
 "
 +
-oldHeight
+contentOldHeight
 +
 "
 to

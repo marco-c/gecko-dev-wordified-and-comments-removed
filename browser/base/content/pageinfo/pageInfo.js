@@ -4428,7 +4428,7 @@ length
 1
 )
 {
-var
+let
 row
 =
 rowArray
@@ -4436,7 +4436,7 @@ rowArray
 0
 ]
 ;
-var
+let
 item
 =
 gImageView
@@ -4449,7 +4449,7 @@ row
 COL_IMAGE_NODE
 ]
 ;
-var
+let
 url
 =
 gImageView
@@ -4592,7 +4592,7 @@ i
 +
 )
 {
-var
+let
 v
 =
 rowArray
@@ -4600,7 +4600,7 @@ rowArray
 i
 ]
 ;
-var
+let
 dir
 =
 aDirectory
@@ -4609,7 +4609,7 @@ clone
 (
 )
 ;
-var
+let
 item
 =
 gImageView
@@ -4622,7 +4622,7 @@ v
 COL_IMAGE_NODE
 ]
 ;
-var
+let
 uriString
 =
 gImageView
@@ -4635,7 +4635,7 @@ v
 COL_IMAGE_ADDRESS
 ]
 ;
-var
+let
 uri
 =
 makeURI

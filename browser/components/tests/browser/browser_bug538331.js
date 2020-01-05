@@ -1325,7 +1325,7 @@ i
 )
 {
 let
-test
+testCase
 =
 BCH_TESTS
 [
@@ -1350,14 +1350,14 @@ i
 :
 "
 +
-test
+testCase
 .
 description
 )
 ;
 if
 (
-test
+testCase
 .
 actions
 )
@@ -1372,7 +1372,7 @@ actions
 "
 "
 +
-test
+testCase
 .
 actions
 +
@@ -1383,7 +1383,7 @@ actions
 ;
 if
 (
-test
+testCase
 .
 openURL
 )
@@ -1398,7 +1398,7 @@ openURL
 "
 "
 +
-test
+testCase
 .
 openURL
 +
@@ -1465,14 +1465,14 @@ overrideArgs
 ;
 if
 (
-test
+testCase
 .
 prefURL
 )
 {
 overrideArgs
 =
-test
+testCase
 .
 prefURL
 ;
@@ -1480,14 +1480,14 @@ prefURL
 else
 if
 (
-test
+testCase
 .
 openURL
 )
 {
 overrideArgs
 =
-test
+testCase
 .
 openURL
 ;
@@ -1527,7 +1527,7 @@ noOverrideArgs
 }
 if
 (
-test
+testCase
 .
 noMstoneChange
 =
@@ -1549,7 +1549,7 @@ PreviousMilestone
 }
 if
 (
-test
+testCase
 .
 noPostUpdatePref
 =
@@ -1608,7 +1608,7 @@ defaultArgs
 ;
 if
 (
-test
+testCase
 .
 noMstoneChange
 =
@@ -1617,7 +1617,7 @@ noMstoneChange
 undefined
 |
 |
-test
+testCase
 .
 noMstoneChange
 !
@@ -1855,7 +1855,7 @@ i
 )
 {
 let
-test
+testCase
 =
 BG_NOTIFY_TESTS
 [
@@ -1880,14 +1880,14 @@ i
 :
 "
 +
-test
+testCase
 .
 description
 )
 ;
 if
 (
-test
+testCase
 .
 actions
 )
@@ -1902,7 +1902,7 @@ actions
 "
 "
 +
-test
+testCase
 .
 actions
 +
@@ -1913,7 +1913,7 @@ actions
 ;
 if
 (
-test
+testCase
 .
 notificationText
 )
@@ -1928,7 +1928,7 @@ notificationText
 "
 "
 +
-test
+testCase
 .
 notificationText
 +
@@ -1940,7 +1940,7 @@ notificationText
 }
 if
 (
-test
+testCase
 .
 notificationURL
 )
@@ -1955,7 +1955,7 @@ notificationURL
 "
 "
 +
-test
+testCase
 .
 notificationURL
 +
@@ -1967,7 +1967,7 @@ notificationURL
 }
 if
 (
-test
+testCase
 .
 notificationButtonLabel
 )
@@ -1982,7 +1982,7 @@ notificationButtonLabel
 "
 "
 +
-test
+testCase
 .
 notificationButtonLabel
 +
@@ -1994,7 +1994,7 @@ notificationButtonLabel
 }
 if
 (
-test
+testCase
 .
 notificationButtonAccessKey
 )
@@ -2009,7 +2009,7 @@ notificationButtonAccessKey
 "
 "
 +
-test
+testCase
 .
 notificationButtonAccessKey
 +
@@ -2088,12 +2088,12 @@ notification
 ;
 if
 (
-test
+testCase
 .
 actions
 &
 &
-test
+testCase
 .
 actions
 .
@@ -2109,7 +2109,7 @@ showNotification
 1
 &
 &
-test
+testCase
 .
 actions
 .
@@ -2146,7 +2146,7 @@ updateBox
 {
 if
 (
-test
+testCase
 .
 notificationText
 )
@@ -2156,7 +2156,7 @@ is
 updateBox
 .
 label
-test
+testCase
 .
 notificationText
 "
@@ -2180,7 +2180,7 @@ update
 }
 if
 (
-test
+testCase
 .
 notificationButtonLabel
 )
@@ -2207,7 +2207,7 @@ is
 button
 .
 label
-test
+testCase
 .
 notificationButtonLabel
 "
@@ -2231,7 +2231,7 @@ update
 ;
 if
 (
-test
+testCase
 .
 notificationButtonAccessKey
 )
@@ -2251,7 +2251,7 @@ accesskey
 is
 (
 accessKey
-test
+testCase
 .
 notificationButtonAccessKey
 "

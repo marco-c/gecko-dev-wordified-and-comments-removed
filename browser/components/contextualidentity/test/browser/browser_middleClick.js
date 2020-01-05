@@ -121,7 +121,7 @@ browser
 URI
 function
 (
-URI
+uri
 )
 {
 let
@@ -157,7 +157,7 @@ setAttribute
 "
 href
 "
-URI
+uri
 )
 ;
 anchor
