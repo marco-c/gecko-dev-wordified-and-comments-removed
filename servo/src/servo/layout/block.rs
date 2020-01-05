@@ -49,10 +49,7 @@ gfx
 display_list
 :
 :
-{
 DisplayList
-DisplayListBuilder
-}
 ;
 use
 gfx
@@ -82,6 +79,15 @@ context
 :
 :
 LayoutContext
+;
+use
+layout
+:
+:
+display_list_builder
+:
+:
+DisplayListBuilder
 ;
 use
 layout

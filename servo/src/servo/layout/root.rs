@@ -40,10 +40,7 @@ gfx
 display_list
 :
 :
-{
 DisplayList
-DisplayListBuilder
-}
 ;
 use
 gfx
@@ -86,6 +83,15 @@ InlineBlockFlow
 BlockFlow
 RootFlow
 }
+;
+use
+layout
+:
+:
+display_list_builder
+:
+:
+DisplayListBuilder
 ;
 use
 util
