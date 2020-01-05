@@ -680,7 +680,7 @@ FINAL_LIBRARY
 ]
 =
 '
-webrtc
+xul
 '
 GYP_DIRS
 [
@@ -765,7 +765,7 @@ FINAL_LIBRARY
 ]
 =
 '
-webrtc
+xul
 '
 GYP_DIRS
 [
