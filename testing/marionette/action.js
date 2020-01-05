@@ -314,7 +314,7 @@ uE006
 "
 :
 "
-Return
+Enter
 "
 "
 \
@@ -4316,12 +4316,6 @@ isComposing
 =
 false
 ;
-this
-.
-keyCode
-=
-0
-;
 }
 update
 (
@@ -5001,9 +4995,9 @@ event
 .
 sendKeyDown
 (
-keyEvent
+a
 .
-key
+value
 keyEvent
 win
 )
@@ -5105,9 +5099,9 @@ event
 .
 sendKeyUp
 (
-keyEvent
+a
 .
-key
+value
 keyEvent
 win
 )
