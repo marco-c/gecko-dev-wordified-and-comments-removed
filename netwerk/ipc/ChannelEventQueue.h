@@ -193,6 +193,11 @@ nsIEventTarget
 aTargetThread
 )
 ;
+nsresult
+ResetDeliveryTarget
+(
+)
+;
 private
 :
 ~

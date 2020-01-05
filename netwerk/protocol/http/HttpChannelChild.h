@@ -906,6 +906,11 @@ mHead
 ;
 }
 ;
+void
+SetEventTarget
+(
+)
+;
 nsresult
 ContinueAsyncOpen
 (
