@@ -93,9 +93,6 @@ DIRS
 aushelper
 '
 '
-disableSHA1rollout
-'
-'
 e10srollout
 '
 '
