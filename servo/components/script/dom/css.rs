@@ -86,7 +86,10 @@ style
 parser
 :
 :
+{
+LengthParsingMode
 ParserContext
+}
 ;
 use
 style
@@ -253,6 +256,10 @@ CssRuleType
 :
 Supports
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 decl
@@ -346,6 +353,10 @@ CssRuleType
 :
 Supports
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 cond

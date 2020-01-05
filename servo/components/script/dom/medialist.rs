@@ -152,7 +152,10 @@ style
 parser
 :
 :
+{
+LengthParsingMode
 ParserContext
+}
 ;
 use
 style
@@ -518,6 +521,10 @@ CssRuleType
 :
 Media
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 *
@@ -760,6 +767,10 @@ CssRuleType
 :
 Media
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 let
@@ -952,6 +963,10 @@ CssRuleType
 :
 Media
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 let

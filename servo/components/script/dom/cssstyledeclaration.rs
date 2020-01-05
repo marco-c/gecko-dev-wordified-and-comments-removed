@@ -191,6 +191,15 @@ use
 style
 :
 :
+parser
+:
+:
+LengthParsingMode
+;
+use
+style
+:
+:
 properties
 :
 :
@@ -1571,6 +1580,10 @@ window
 css_error_reporter
 (
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 /

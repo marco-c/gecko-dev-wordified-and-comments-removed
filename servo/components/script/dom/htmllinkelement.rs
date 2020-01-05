@@ -334,9 +334,12 @@ style
 parser
 :
 :
+{
+LengthParsingMode
 ParserContext
 as
 CssParserContext
+}
 ;
 use
 style
@@ -2057,6 +2060,10 @@ CssRuleType
 :
 Media
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 let

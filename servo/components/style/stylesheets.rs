@@ -166,6 +166,7 @@ parser
 :
 :
 {
+LengthParsingMode
 Parse
 ParserContext
 log_css_error
@@ -1985,6 +1986,10 @@ url_data
 &
 error_reporter
 None
+LengthParsingMode
+:
+:
+Default
 )
 ;
 let
@@ -3731,6 +3736,10 @@ origin
 url_data
 error_reporter
 line_number_offset
+LengthParsingMode
+:
+:
+Default
 )
 state
 :

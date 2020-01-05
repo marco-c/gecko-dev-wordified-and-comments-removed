@@ -200,6 +200,7 @@ parser
 :
 :
 {
+LengthParsingMode
 Parse
 ParserContext
 }
@@ -3121,6 +3122,10 @@ Author
 url_data
 error_reporter
 None
+LengthParsingMode
+:
+:
+Default
 )
 ;
 Parser

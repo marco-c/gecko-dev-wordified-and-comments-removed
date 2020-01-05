@@ -37,6 +37,7 @@ parser
 :
 :
 {
+LengthParsingMode
 ParserContext
 log_css_error
 }
@@ -2753,6 +2754,10 @@ CssRuleType
 :
 Style
 )
+LengthParsingMode
+:
+:
+Default
 )
 ;
 parse_property_declaration_list
@@ -2789,6 +2794,9 @@ error_reporter
 :
 &
 ParseErrorReporter
+length_parsing_mode
+:
+LengthParsingMode
 )
 -
 >
@@ -2820,6 +2828,7 @@ CssRuleType
 :
 Style
 )
+length_parsing_mode
 )
 ;
 Parser

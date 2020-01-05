@@ -1518,6 +1518,15 @@ structs
 :
 UpdateAnimationsTasks
 ;
+use
+gecko_bindings
+:
+:
+structs
+:
+:
+LengthParsingMode
+;
 pub
 type
 nsTArrayBorrowed_uintptr_t
@@ -10543,6 +10552,9 @@ data
 *
 mut
 RawGeckoURLExtraData
+length_parsing_mode
+:
+LengthParsingMode
 )
 -
 >
@@ -10577,6 +10589,9 @@ data
 *
 mut
 RawGeckoURLExtraData
+length_parsing_mode
+:
+LengthParsingMode
 )
 -
 >
