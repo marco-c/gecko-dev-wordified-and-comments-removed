@@ -637,6 +637,11 @@ JSOP_IN
 \
 _
 (
+JSOP_HASOWN
+)
+\
+_
+(
 JSOP_GETGNAME
 )
 \
