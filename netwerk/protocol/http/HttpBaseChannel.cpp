@@ -790,10 +790,6 @@ mResponseHeadersModified
 (
 false
 )
-mAllowPipelining
-(
-true
-)
 mAllowSTS
 (
 true
@@ -7930,7 +7926,7 @@ value
 *
 value
 =
-mAllowPipelining
+false
 ;
 return
 NS_OK
@@ -7949,10 +7945,6 @@ value
 ENSURE_CALLED_BEFORE_CONNECT
 (
 )
-;
-mAllowPipelining
-=
-value
 ;
 return
 NS_OK
@@ -12843,14 +12835,6 @@ SetReferrerWithPolicy
 (
 mReferrer
 mReferrerPolicy
-)
-;
-httpChannel
--
->
-SetAllowPipelining
-(
-mAllowPipelining
 )
 ;
 httpChannel

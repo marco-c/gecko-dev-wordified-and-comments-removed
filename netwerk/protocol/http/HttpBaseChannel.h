@@ -2382,11 +2382,6 @@ mResponseHeadersModified
 1
 ;
 uint32_t
-mAllowPipelining
-:
-1
-;
-uint32_t
 mAllowSTS
 :
 1

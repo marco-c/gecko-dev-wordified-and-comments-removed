@@ -780,9 +780,6 @@ uint8_t
 redirectionLimit
 ;
 bool
-allowPipelining
-;
-bool
 allowSTS
 ;
 uint32_t

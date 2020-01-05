@@ -483,11 +483,6 @@ nsHttpNTLMAuth
 cpp
 '
 '
-nsHttpPipeline
-.
-cpp
-'
-'
 nsHttpRequestHead
 .
 cpp
