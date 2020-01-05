@@ -138,6 +138,10 @@ kiss_fft
 /
 media
 /
+ffvpx
+/
+media
+/
 libav
 /
 media
@@ -269,6 +273,10 @@ brotli
 /
 modules
 /
+fdlibm
+/
+modules
+/
 freetype2
 /
 modules
@@ -300,6 +308,10 @@ nsprpub
 other
 -
 licenses
+/
+parser
+/
+expat
 /
 security
 /
