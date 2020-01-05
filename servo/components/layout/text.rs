@@ -2223,11 +2223,9 @@ Fragment
 if
 fragments
 .
-len
+is_empty
 (
 )
-<
-1
 {
 return
 }
