@@ -212,10 +212,7 @@ globaleventhandlers
 NoInterfaceObject
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 GlobalEventHandlers
@@ -522,10 +519,7 @@ windoweventhandlers
 NoInterfaceObject
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 WindowEventHandlers
@@ -614,10 +608,7 @@ documentandelementeventhandlers
 NoInterfaceObject
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 DocumentAndElementEventHandlers

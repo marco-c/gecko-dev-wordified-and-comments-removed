@@ -83,10 +83,7 @@ interface
 [
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 Screen

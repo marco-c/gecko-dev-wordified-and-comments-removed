@@ -84,10 +84,7 @@ enabled
 "
 Exposed
 =
-(
-Window
-Worker
-)
+ServiceWorker
 ]
 interface
 Client

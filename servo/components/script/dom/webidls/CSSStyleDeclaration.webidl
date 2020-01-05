@@ -107,10 +107,7 @@ Reserved
 [
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 CSSStyleDeclaration
