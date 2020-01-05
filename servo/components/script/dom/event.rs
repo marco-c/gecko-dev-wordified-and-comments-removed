@@ -204,6 +204,7 @@ MessageEventTypeId
 MouseEventTypeId
 ProgressEventTypeId
 UIEventTypeId
+ErrorEventTypeId
 }
 #
 [
