@@ -394,10 +394,6 @@ redirectionLimit
 const
 bool
 &
-allowPipelining
-const
-bool
-&
 allowSTS
 const
 uint32_t

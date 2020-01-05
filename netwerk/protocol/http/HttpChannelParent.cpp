@@ -692,11 +692,6 @@ redirectionLimit
 )
 a
 .
-allowPipelining
-(
-)
-a
-.
 allowSTS
 (
 )
@@ -1560,10 +1555,6 @@ const
 uint8_t
 &
 redirectionLimit
-const
-bool
-&
-allowPipelining
 const
 bool
 &
@@ -2754,14 +2745,6 @@ mChannel
 SetRedirectionLimit
 (
 redirectionLimit
-)
-;
-mChannel
--
->
-SetAllowPipelining
-(
-allowPipelining
 )
 ;
 mChannel
