@@ -505,6 +505,8 @@ __init__
 (
 self
 methodName
+marionette_weakref
+fixtures
 *
 *
 kwargs
@@ -521,6 +523,24 @@ __init__
 (
 methodName
 )
+        
+self
+.
+methodName
+=
+methodName
+        
+self
+.
+_marionette_weakref
+=
+marionette_weakref
+        
+self
+.
+fixtures
+=
+fixtures
         
 self
 .
@@ -1422,8 +1442,11 @@ suite
 testloader
 marionette
                            
-httpd
+fixtures
 testvars
+*
+*
+kwargs
 )
 :
         
@@ -1555,16 +1578,6 @@ marionette
 self
 .
 _marionette_weakref
-(
-)
-        
-self
-.
-httpd
-=
-self
-.
-_httpd_weakref
 (
 )
         
@@ -3046,7 +3059,7 @@ __init__
 (
 self
 marionette_weakref
-httpd_weakref
+fixtures
 methodName
 =
 '
@@ -3062,24 +3075,6 @@ filepath
 kwargs
 )
 :
-        
-self
-.
-_marionette_weakref
-=
-marionette_weakref
-        
-self
-.
-_httpd_weakref
-=
-httpd_weakref
-        
-self
-.
-methodName
-=
-methodName
         
 self
 .
@@ -3101,12 +3096,6 @@ testvars
 None
 )
         
-self
-.
-marionette
-=
-None
-        
 super
 (
 MarionetteTestCase
@@ -3115,7 +3104,14 @@ self
 .
 __init__
 (
+            
 methodName
+marionette_weakref
+=
+marionette_weakref
+fixtures
+=
+fixtures
 *
 *
 kwargs
@@ -3133,7 +3129,7 @@ suite
 testloader
 marionette
                            
-httpd
+fixtures
 testvars
 *
 *
@@ -3236,12 +3232,7 @@ ref
 marionette
 )
                                       
-weakref
-.
-ref
-(
-httpd
-)
+fixtures
                                       
 methodName
 =
