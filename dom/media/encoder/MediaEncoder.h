@@ -490,17 +490,6 @@ IsWebMEncoderEnabled
 ;
 #
 endif
-#
-ifdef
-MOZ_OMX_ENCODER
-static
-bool
-IsOMXEncoderEnabled
-(
-)
-;
-#
-endif
 MOZ_DEFINE_MALLOC_SIZE_OF
 (
 MallocSizeOf
