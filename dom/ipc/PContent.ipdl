@@ -176,6 +176,10 @@ PImageBridge
 ;
 include
 protocol
+PIPCBlobInputStream
+;
+include
+protocol
 PMedia
 ;
 include
@@ -1382,6 +1386,9 @@ PHandlerService
 ;
 manages
 PHeapSnapshotTempFileHelper
+;
+manages
+PIPCBlobInputStream
 ;
 manages
 PMedia
@@ -3068,6 +3075,15 @@ ScreenDetails
 [
 ]
 aScreens
+)
+;
+async
+PIPCBlobInputStream
+(
+nsID
+aID
+uint64_t
+aSize
 )
 ;
 parent

@@ -70,6 +70,10 @@ PFileDescriptorSet
 ;
 include
 protocol
+PIPCBlobInputStream
+;
+include
+protocol
 PParentToChildStream
 ;
 include
