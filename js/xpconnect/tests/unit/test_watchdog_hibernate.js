@@ -1,3 +1,4 @@
+async
 function
 testBody
 (
@@ -104,6 +105,14 @@ stopHibernation
 now
 )
 ;
+await
+new
+Promise
+(
+resolve
+=
+>
+{
 var
 timer
 =
@@ -131,7 +140,7 @@ timer
 .
 initWithCallback
 (
-continueTest
+resolve
 10000
 Ci
 .
@@ -145,7 +154,8 @@ simulateActivityCallback
 false
 )
 ;
-yield
+}
+)
 ;
 simulateActivityCallback
 (
@@ -306,11 +316,5 @@ now
 -
 FUZZ_FACTOR
 )
-;
-do_test_finished
-(
-)
-;
-yield
 ;
 }
