@@ -325,6 +325,15 @@ Weave
 Service
 ;
 }
+tryServerOnlyRepairs
+(
+validationInfo
+)
+{
+return
+false
+;
+}
 startRepairs
 (
 validationInfo
