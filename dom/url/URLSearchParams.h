@@ -78,7 +78,7 @@ class
 URLSearchParams
 ;
 class
-USVStringSequenceSequenceOrUSVString
+USVStringSequenceSequenceOrUSVStringUSVStringRecordOrUSVString
 ;
 class
 URLSearchParamsObserver
@@ -538,7 +538,7 @@ GlobalObject
 &
 aGlobal
 const
-USVStringSequenceSequenceOrUSVString
+USVStringSequenceSequenceOrUSVStringUSVStringRecordOrUSVString
 &
 aInit
 ErrorResult

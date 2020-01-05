@@ -211,6 +211,12 @@ USVString
 >
 >
 or
+record
+<
+USVString
+USVString
+>
+or
 USVString
 )
 init
