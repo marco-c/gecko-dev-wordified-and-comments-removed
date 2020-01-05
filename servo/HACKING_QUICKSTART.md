@@ -166,7 +166,7 @@ release
 build
 "
 .
-Buidling
+Building
 with
 -
 d
