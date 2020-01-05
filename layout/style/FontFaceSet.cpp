@@ -4937,7 +4937,7 @@ stringValue
 ;
 languageOverride
 =
-gfxFontStyle
+nsRuleNode
 :
 :
 ParseFontLanguageOverride

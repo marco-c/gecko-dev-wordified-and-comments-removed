@@ -272,8 +272,10 @@ gfxFontVariation
 >
 fontVariationSettings
 ;
-nsString
+uint32_t
 languageOverride
+=
+0
 ;
 nsFont
 (
