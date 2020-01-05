@@ -1537,6 +1537,11 @@ toNunboxPayload
 const
 {
 return
+static_cast
+<
+PayloadType
+>
+(
 data
 .
 s
@@ -1544,6 +1549,7 @@ s
 payload
 .
 i32
+)
 ;
 }
 JSValueTag

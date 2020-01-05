@@ -80,14 +80,6 @@ disable
 4324
 )
 #
-pragma
-warning
-(
-disable
-:
-4365
-)
-#
 endif
 #
 include
