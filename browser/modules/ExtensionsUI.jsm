@@ -271,6 +271,7 @@ null
 histogram
 :
 null
+async
 init
 (
 )
@@ -355,6 +356,15 @@ permission
 prompt
 "
 )
+;
+await
+RecentWindow
+.
+getMostRecentBrowserWindow
+(
+)
+.
+delayedStartupPromise
 ;
 this
 .
