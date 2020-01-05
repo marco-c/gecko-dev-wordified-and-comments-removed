@@ -119,6 +119,13 @@ protocol
 PBlob
 ;
 include
+protocol
+PSendStream
+;
+include
+IPCStream
+;
+include
 ProtocolTypes
 ;
 using
@@ -220,9 +227,7 @@ memory
 backed
 blobs
 .
-uint8_t
-[
-]
+IPCStream
 ;
 /
 /

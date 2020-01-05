@@ -77,6 +77,10 @@ protocol
 PFileDescriptorSet
 ;
 include
+protocol
+PSendStream
+;
+include
 BlobTypes
 ;
 include
