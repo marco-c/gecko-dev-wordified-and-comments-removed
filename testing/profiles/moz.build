@@ -93,11 +93,6 @@ prefs_general
 .
 js
 '
-'
-webapps_mochitest
-.
-json
-'
 ]
 TEST_HARNESS_FILES
 .
