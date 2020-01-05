@@ -130,7 +130,7 @@ tab
 .
 linkedBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 |
 |
 event
@@ -180,7 +180,7 @@ doc
 =
 gBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 ;
 gMutationObserver
 =
