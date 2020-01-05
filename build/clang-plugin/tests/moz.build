@@ -222,6 +222,11 @@ TestNonMemMovableStd
 cpp
 '
 '
+TestNonParameterChecker
+.
+cpp
+'
+'
 TestNonTemporaryClass
 .
 cpp
