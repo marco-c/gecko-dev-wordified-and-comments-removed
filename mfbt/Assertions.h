@@ -440,10 +440,9 @@ reason
 #
 endif
 MOZ_BEGIN_EXTERN_C
-MOZ_MAYBE_UNUSED
 static
 MOZ_COLD
-MOZ_NEVER_INLINE
+MOZ_ALWAYS_INLINE
 void
 MOZ_ReportAssertionFailure
 (
@@ -538,10 +537,9 @@ stderr
 #
 endif
 }
-MOZ_MAYBE_UNUSED
 static
 MOZ_COLD
-MOZ_NEVER_INLINE
+MOZ_ALWAYS_INLINE
 void
 MOZ_ReportCrash
 (
