@@ -282,7 +282,7 @@ urls
 n_render_threads
 :
 1
-cpu_painting
+gpu_painting
 :
 false
 tile_size

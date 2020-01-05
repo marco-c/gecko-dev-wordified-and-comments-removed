@@ -802,7 +802,7 @@ md
 )
 ;
 let
-cpu_painting
+gpu_painting
 =
 opts
 :
@@ -811,7 +811,7 @@ get
 (
 )
 .
-cpu_painting
+gpu_painting
 ;
 /
 /
@@ -859,13 +859,13 @@ time_profiler_chan
 graphics_context
 :
 if
-cpu_painting
+gpu_painting
 {
-CpuGraphicsContext
+GpuGraphicsContext
 }
 else
 {
-GpuGraphicsContext
+CpuGraphicsContext
 }
 native_graphics_context
 :
