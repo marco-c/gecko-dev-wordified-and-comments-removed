@@ -263,7 +263,10 @@ ResponseHeaderCollection
 pub
 status
 :
+Option
+<
 Status
+>
 }
 impl
 Metadata
@@ -296,7 +299,10 @@ headers
 None
 status
 :
+Some
+(
 StatusOk
+)
 }
 }
 pub
