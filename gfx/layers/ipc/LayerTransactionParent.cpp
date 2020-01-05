@@ -1765,9 +1765,6 @@ scrollbarTargetContainerId
 )
 static_cast
 <
-Layer
-:
-:
 ScrollDirection
 >
 (

@@ -11044,6 +11044,9 @@ GetScrollbarDirection
 )
 =
 =
+ScrollDirection
+:
+:
 VERTICAL
 )
 {
@@ -11077,6 +11080,9 @@ GetScrollbarDirection
 )
 =
 =
+ScrollDirection
+:
+:
 HORIZONTAL
 )
 {
@@ -12336,6 +12342,9 @@ GetScrollbarDirection
 )
 !
 =
+ScrollDirection
+:
+:
 NONE
 )
 {
@@ -12349,6 +12358,9 @@ GetScrollbarDirection
 )
 =
 =
+ScrollDirection
+:
+:
 VERTICAL
 ?
 LayersPacket

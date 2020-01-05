@@ -1128,9 +1128,6 @@ EventRegionsOverride
 NoOverride
 ;
 }
-Layer
-:
-:
 ScrollDirection
 GetScrollbarDirection
 (
@@ -1191,7 +1188,7 @@ GetScrollbarDirection
 )
 =
 =
-Layer
+ScrollDirection
 :
 :
 VERTICAL

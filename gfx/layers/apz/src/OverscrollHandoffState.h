@@ -35,7 +35,11 @@ h
 #
 include
 "
-Layers
+mozilla
+/
+layers
+/
+LayersTypes
 .
 h
 "
@@ -173,9 +177,6 @@ const
 AsyncPanZoomController
 *
 aApzc
-Layer
-:
-:
 ScrollDirection
 aDirection
 )

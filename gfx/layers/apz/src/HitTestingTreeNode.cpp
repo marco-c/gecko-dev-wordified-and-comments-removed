@@ -129,7 +129,7 @@ NULL_SCROLL_ID
 )
 mScrollDir
 (
-Layer
+ScrollDirection
 :
 :
 NONE
@@ -379,9 +379,6 @@ FrameMetrics
 :
 ViewID
 aScrollViewId
-Layer
-:
-:
 ScrollDirection
 aDir
 int32_t
@@ -426,7 +423,7 @@ return
 mScrollDir
 =
 =
-Layer
+ScrollDirection
 :
 :
 HORIZONTAL
@@ -448,7 +445,7 @@ HORIZONTAL
 mScrollDir
 =
 =
-Layer
+ScrollDirection
 :
 :
 VERTICAL
@@ -505,7 +502,7 @@ mIsScrollbarContainer
 mScrollDir
 !
 =
-Layer
+ScrollDirection
 :
 :
 NONE

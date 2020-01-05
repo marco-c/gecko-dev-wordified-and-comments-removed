@@ -709,9 +709,6 @@ const
 bool
 CanScroll
 (
-Layer
-:
-:
 ScrollDirection
 aDirection
 )
