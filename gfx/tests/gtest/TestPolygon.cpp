@@ -118,7 +118,7 @@ triangles
 =
 p
 .
-Triangulate
+ToTriangles
 (
 )
 ;
@@ -280,7 +280,7 @@ triangles
 =
 p
 .
-Triangulate
+ToTriangles
 (
 )
 ;
