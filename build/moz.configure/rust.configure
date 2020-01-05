@@ -486,9 +486,8 @@ version
 )
 depends
 (
-rustc
-cargo
 rustc_info
+cargo_info
 )
 imports
 (
@@ -506,14 +505,13 @@ dedent
 def
 rust_compiler
 (
-rustc
-cargo
 rustc_info
+cargo_info
 )
 :
 if
 not
-rustc
+rustc_info
 :
 die
 (
@@ -739,7 +737,7 @@ rustc_min_version
 )
 if
 not
-cargo
+cargo_info
 :
 die
 (
