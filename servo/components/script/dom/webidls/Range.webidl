@@ -376,13 +376,9 @@ Range
 sourceRange
 )
 ;
-/
-/
 [
 Throws
 ]
-/
-/
 void
 deleteContents
 (
