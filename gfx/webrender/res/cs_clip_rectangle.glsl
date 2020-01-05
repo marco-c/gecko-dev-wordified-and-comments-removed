@@ -65,7 +65,7 @@ vPos
 ;
 flat
 varying
-vec4
+RectWithSize
 vLocalRect
 ;
 flat

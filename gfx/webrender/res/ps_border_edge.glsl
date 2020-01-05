@@ -56,6 +56,7 @@ MPL
 .
 *
 /
+flat
 varying
 vec4
 vColor

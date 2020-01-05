@@ -79,7 +79,7 @@ vLocalPos
 ;
 flat
 varying
-vec4
+RectWithSize
 vLocalRect
 ;
 #

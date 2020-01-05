@@ -64,6 +64,7 @@ BuiltDisplayListDescriptor
 ;
 use
 {
+ClipId
 ColorF
 DeviceIntPoint
 DeviceIntSize
@@ -87,7 +88,6 @@ use
 {
 LayoutTransform
 NativeFontHandle
-ScrollLayerId
 WorldPoint
 }
 ;
@@ -232,10 +232,10 @@ ScrollLocation
 WorldPoint
 ScrollEventPhase
 )
-ScrollLayerWithId
+ScrollNodeWithId
 (
 LayoutPoint
-ScrollLayerId
+ClipId
 )
 TickScrollingBounce
 TranslatePointToLayerSpace
@@ -249,7 +249,7 @@ PipelineId
 )
 >
 )
-GetScrollLayerState
+GetScrollNodeState
 (
 MsgSender
 <
@@ -519,7 +519,7 @@ Scroll
 ApiMsg
 :
 :
-ScrollLayerWithId
+ScrollNodeWithId
 (
 .
 .
@@ -530,7 +530,7 @@ ScrollLayerWithId
 ApiMsg
 :
 :
-ScrollLayerWithId
+ScrollNodeWithId
 "
 ApiMsg
 :
@@ -563,7 +563,7 @@ TranslatePointToLayerSpace
 ApiMsg
 :
 :
-GetScrollLayerState
+GetScrollNodeState
 (
 .
 .
@@ -574,7 +574,7 @@ GetScrollLayerState
 ApiMsg
 :
 :
-GetScrollLayerState
+GetScrollNodeState
 "
 ApiMsg
 :
@@ -1887,7 +1887,7 @@ unwrap
 }
 pub
 fn
-scroll_layer_with_id
+scroll_node_with_id
 (
 &
 self
@@ -1896,7 +1896,7 @@ new_scroll_origin
 LayoutPoint
 id
 :
-ScrollLayerId
+ClipId
 )
 {
 let
@@ -1905,7 +1905,7 @@ msg
 ApiMsg
 :
 :
-ScrollLayerWithId
+ScrollNodeWithId
 (
 new_scroll_origin
 id
@@ -2176,7 +2176,7 @@ unwrap
 }
 pub
 fn
-get_scroll_layer_state
+get_scroll_node_state
 (
 &
 self
@@ -2211,7 +2211,7 @@ msg
 ApiMsg
 :
 :
-GetScrollLayerState
+GetScrollNodeState
 (
 tx
 )
@@ -2690,7 +2690,7 @@ ScrollLayerState
 pub
 id
 :
-ScrollLayerId
+ClipId
 pub
 scroll_offset
 :

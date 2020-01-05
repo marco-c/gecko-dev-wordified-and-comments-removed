@@ -755,6 +755,10 @@ pub
 struct
 BorderPrimitiveCpu
 {
+pub
+use_new_border_path
+:
+bool
 }
 #
 [

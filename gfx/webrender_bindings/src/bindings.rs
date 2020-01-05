@@ -6425,7 +6425,7 @@ frame_builder
 .
 dl_builder
 .
-push_scroll_layer
+push_clip_node
 (
 clip_region
 content_rect
@@ -6469,7 +6469,7 @@ frame_builder
 .
 dl_builder
 .
-pop_scroll_layer
+pop_clip_node
 (
 )
 ;
@@ -6826,6 +6826,7 @@ clip
 to_clip_region
 (
 )
+&
 glyph_vector
 font_key
 colorf
