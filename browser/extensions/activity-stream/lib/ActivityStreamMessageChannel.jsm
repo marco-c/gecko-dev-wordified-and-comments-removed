@@ -346,7 +346,11 @@ ac
 SendToMain
 (
 action
+{
+fromTarget
+:
 targetId
+}
 )
 )
 ;
@@ -707,7 +711,6 @@ portID
 ;
 }
 }
-;
 this
 .
 DEFAULT_OPTIONS
