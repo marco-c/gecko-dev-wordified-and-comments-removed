@@ -3610,6 +3610,14 @@ one
 "
 )
 ;
+let
+countChangedPromise
+=
+notifyMenuChanged
+(
+3
+)
+;
 var
 deletionPromise
 =
@@ -3722,10 +3730,8 @@ one
 "
 )
 ;
-notifyMenuChanged
-(
-4
-)
+yield
+countChangedPromise
 ;
 doKey
 (
