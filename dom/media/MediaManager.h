@@ -1545,7 +1545,7 @@ nsCString
 >
 mGetOriginKeyPledges
 ;
-UniquePtr
+RefPtr
 <
 media
 :
