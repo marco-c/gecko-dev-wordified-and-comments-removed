@@ -413,16 +413,6 @@ MOZ_X11
 '
 ]
 :
-EXPORTS
-+
-=
-[
-'
-nsX11ErrorHandler
-.
-h
-'
-]
 UNIFIED_SOURCES
 +
 =

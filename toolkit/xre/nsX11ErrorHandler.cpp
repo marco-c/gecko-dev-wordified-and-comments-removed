@@ -616,6 +616,14 @@ return
 ;
 }
 }
+#
+if
+(
+MOZ_WIDGET_GTK
+!
+=
+3
+)
 void
 InstallX11ErrorHandler
 (
@@ -665,3 +673,5 @@ True
 ;
 }
 }
+#
+endif

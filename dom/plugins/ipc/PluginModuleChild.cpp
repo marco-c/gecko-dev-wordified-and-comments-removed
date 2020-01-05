@@ -91,13 +91,6 @@ MOZ_X11
 #
 include
 "
-nsX11ErrorHandler
-.
-h
-"
-#
-include
-"
 mozilla
 /
 X11Util
@@ -2455,7 +2448,7 @@ endif
 #
 ifdef
 MOZ_X11
-InstallX11ErrorHandler
+XRE_InstallX11ErrorHandler
 (
 )
 ;
