@@ -8513,9 +8513,10 @@ nsStyleImageRequest
 (
 Mode
 aModeFlags
-nsStringBuffer
-*
-aURLBuffer
+const
+nsAString
+&
+aURL
 already_AddRefed
 <
 URLExtraData
@@ -8531,7 +8532,7 @@ css
 :
 ImageValue
 (
-aURLBuffer
+aURL
 Move
 (
 aExtraData
