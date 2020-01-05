@@ -1,12 +1,12 @@
 import
 sys
-NORMAL_PRIORITY
+NOT_NESTED
 =
 1
-HIGH_PRIORITY
+INSIDE_SYNC_NESTED
 =
 2
-URGENT_PRIORITY
+INSIDE_CPOW_NESTED
 =
 3
 class
@@ -1419,9 +1419,9 @@ ASYNC
         
 self
 .
-priority
+nested
 =
-NORMAL_PRIORITY
+NOT_NESTED
         
 self
 .
@@ -1786,9 +1786,9 @@ ASYNC
         
 self
 .
-priority
+nested
 =
-NORMAL_PRIORITY
+NOT_NESTED
         
 self
 .

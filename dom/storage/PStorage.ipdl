@@ -151,11 +151,10 @@ process
 .
 *
 /
-prio
+nested
 (
-normal
 upto
-urgent
+inside_cpow
 )
 sync
 protocol
@@ -171,9 +170,9 @@ __delete__
 (
 )
 ;
-prio
+nested
 (
-urgent
+inside_cpow
 )
 sync
 Preload
