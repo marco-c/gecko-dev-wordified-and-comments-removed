@@ -2825,32 +2825,14 @@ currentScope
 dict
 )
         
-assert
-not
-hasattr
-(
-node
-'
-symtab
-'
-)
-        
-node
-.
-symtab
-=
-{
-}
-        
 self
 .
 scopes
 .
 append
 (
-node
-.
-symtab
+{
+}
 )
         
 self
@@ -3434,7 +3416,7 @@ hasattr
 (
 tu
 '
-symtab
+visited
 '
 )
 :
@@ -3443,14 +3425,9 @@ return
         
 tu
 .
-symtab
+visited
 =
-SymbolTable
-(
-self
-.
-errors
-)
+True
         
 savedSymtab
 =
@@ -3462,9 +3439,12 @@ self
 .
 symtab
 =
-tu
+SymbolTable
+(
+self
 .
-symtab
+errors
+)
         
 tu
 .
@@ -4223,7 +4203,7 @@ hasattr
 (
 sd
 '
-symtab
+visited
 '
 )
 :
@@ -4246,6 +4226,12 @@ enterScope
 (
 sd
 )
+        
+sd
+.
+visited
+=
+True
         
 for
 f
