@@ -2302,13 +2302,9 @@ bounds
 WrClipRegion
 clip
 WrPoint
-startCenter
-WrPoint
-endCenter
-float
-startRadius
-float
-endRadius
+center
+WrSize
+radius
 const
 WrGradientStop
 *
