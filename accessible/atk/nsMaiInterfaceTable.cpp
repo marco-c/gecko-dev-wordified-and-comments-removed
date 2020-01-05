@@ -1758,7 +1758,6 @@ aColIdx
 )
 ;
 }
-else
 if
 (
 ProxyAccessible
@@ -1843,7 +1842,6 @@ aRowIdx
 )
 ;
 }
-else
 if
 (
 ProxyAccessible
@@ -1931,7 +1929,6 @@ aColIdx
 )
 ;
 }
-else
 if
 (
 ProxyAccessible
