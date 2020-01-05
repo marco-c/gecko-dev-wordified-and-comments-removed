@@ -666,6 +666,10 @@ dom
 :
 RemoteDecoderModule
 ;
+friend
+class
+EMEDecoderModule
+;
 virtual
 already_AddRefed
 <
