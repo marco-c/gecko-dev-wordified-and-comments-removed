@@ -2230,7 +2230,7 @@ flags
 .
 contains
 (
-ALIAS_PROPERTY
+SHORTHAND_ALIAS_PROPERTY
 )
 {
 append_serialization
