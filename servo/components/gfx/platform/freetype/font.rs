@@ -327,6 +327,13 @@ len
 )
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 FontHandle

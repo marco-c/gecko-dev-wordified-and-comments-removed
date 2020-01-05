@@ -560,6 +560,13 @@ SpecifiedFontStyle
 =
 FontStyle
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Font
@@ -714,6 +721,7 @@ Eq
 PartialEq
 Hash
 Copy
+Debug
 )
 ]
 pub
@@ -748,6 +756,7 @@ Clone
 Eq
 PartialEq
 Hash
+Debug
 )
 ]
 pub
@@ -1324,6 +1333,13 @@ FractionalPixel
 )
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 FontGroup

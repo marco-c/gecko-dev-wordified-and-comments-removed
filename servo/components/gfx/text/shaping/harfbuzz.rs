@@ -910,6 +910,13 @@ offset
 }
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 struct
 FontAndShapingOptions
 {
@@ -922,6 +929,13 @@ options
 :
 ShapingOptions
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Shaper
