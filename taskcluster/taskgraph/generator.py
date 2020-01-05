@@ -1188,6 +1188,17 @@ edges
 )
 )
         
+full_task_graph
+.
+for_each_task
+(
+verify_task_graph_symbol
+scratch_pad
+=
+{
+}
+)
+        
 logger
 .
 info
@@ -1414,17 +1425,6 @@ nodes
 }
             
 target_graph
-)
-        
-target_task_graph
-.
-for_each_task
-(
-verify_task_graph_symbol
-scratch_pad
-=
-{
-}
 )
         
 target_task_graph
