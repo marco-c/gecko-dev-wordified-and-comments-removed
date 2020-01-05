@@ -954,7 +954,11 @@ AsDataTextureSource
 override
 {
 return
+mAllowTextureUploads
+?
 this
+:
+false
 ;
 }
 virtual
@@ -1164,6 +1168,9 @@ mIsTiled
 ;
 bool
 mIterating
+;
+bool
+mAllowTextureUploads
 ;
 }
 ;
