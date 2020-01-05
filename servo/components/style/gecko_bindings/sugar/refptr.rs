@@ -272,6 +272,9 @@ mRawPtr
 self
 .
 ptr
+_phantom_0
+:
+PhantomData
 }
 ;
 mem

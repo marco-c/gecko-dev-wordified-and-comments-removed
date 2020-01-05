@@ -130,7 +130,7 @@ selector_parser
 {
 SelectorImpl
 PseudoElement
-Snapshot
+SnapshotMap
 }
 ;
 use
@@ -4120,10 +4120,10 @@ element
 :
 &
 E
-snapshot
+snapshots
 :
 &
-Snapshot
+SnapshotMap
 )
 -
 >
@@ -4140,7 +4140,7 @@ dependencies
 compute_hint
 (
 element
-snapshot
+snapshots
 )
 }
 pub
