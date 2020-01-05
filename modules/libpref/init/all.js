@@ -43872,7 +43872,7 @@ IntersectionObserver
 .
 enabled
 "
-false
+true
 )
 ;
 pref
