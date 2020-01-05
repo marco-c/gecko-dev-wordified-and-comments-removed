@@ -562,7 +562,6 @@ html
 frame_vsides_rules_rows
 .
 html
-fails
 =
 =
 borderhandling
@@ -575,7 +574,6 @@ borderhandling
 1
 .
 html
-fails
 =
 =
 borderhandling
@@ -588,7 +586,6 @@ borderhandling
 2
 .
 html
-fails
 =
 =
 borderhandling
@@ -601,7 +598,6 @@ borderhandling
 3
 .
 html
-fails
 =
 =
 borderhandling
@@ -614,7 +610,6 @@ borderhandling
 4
 .
 html
-fails
 =
 =
 borderhandling
@@ -627,7 +622,6 @@ borderhandling
 5
 .
 xhtml
-fails
 =
 =
 borderhandling
@@ -640,7 +634,6 @@ borderhandling
 6
 .
 xhtml
-fails
 =
 =
 borderhandling
@@ -1032,7 +1025,6 @@ all
 strict
 .
 html
-fails
 =
 =
 bordercolor
@@ -1045,7 +1037,6 @@ bordercolor
 1
 .
 html
-fails
 =
 =
 bordercolor
@@ -1058,7 +1049,6 @@ bordercolor
 2
 .
 html
-fails
 =
 =
 bordercolor
@@ -1071,7 +1061,6 @@ bordercolor
 3
 .
 html
-fails
 =
 =
 bordercolor

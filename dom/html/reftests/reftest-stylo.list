@@ -644,7 +644,6 @@ pre
 1
 .
 html
-fails
 =
 =
 table
@@ -661,9 +660,6 @@ border
 1
 .
 html
-#
-Bug
-1341651
 =
 =
 table

@@ -50,7 +50,6 @@ html
 2
 .
 html
-fails
 =
 =
 156888
@@ -63,7 +62,6 @@ html
 1
 .
 html
-fails
 =
 =
 156888
@@ -172,7 +170,6 @@ html
 1
 .
 html
-fails
 =
 =
 293576
@@ -197,7 +194,6 @@ html
 1
 .
 html
-fails
 =
 =
 315146
@@ -234,7 +230,6 @@ html
 1b
 .
 html
-fails
 =
 =
 338735
@@ -247,7 +242,6 @@ html
 1
 .
 html
-fails
 =
 =
 339388
@@ -260,7 +254,6 @@ html
 1a
 .
 html
-fails
 =
 =
 339388
@@ -309,7 +302,6 @@ html
 1
 .
 html
-fails
 =
 =
 372641
@@ -322,7 +314,6 @@ xhtml
 1a
 .
 xhtml
-fails
 =
 =
 372641
@@ -335,7 +326,6 @@ xhtml
 1b
 .
 xhtml
-fails
 =
 =
 372641
@@ -372,7 +362,6 @@ html
 1
 .
 html
-fails
 =
 =
 394402
@@ -385,7 +374,6 @@ html
 1a
 .
 html
-fails
 =
 =
 394402
@@ -448,7 +436,6 @@ html
 1b
 .
 html
-fails
 =
 =
 448111
@@ -914,7 +901,6 @@ test
 3
 .
 html
-fails
 =
 =
 dynamic

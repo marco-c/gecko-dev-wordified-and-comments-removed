@@ -1866,7 +1866,6 @@ html
 #
 Bug
 1341781
-fails
 =
 =
 underline
@@ -1887,10 +1886,6 @@ caption
 quirks
 .
 html
-#
-Bug
-1341781
-fails
 =
 =
 underline
@@ -1911,10 +1906,6 @@ caption
 quirks
 .
 html
-#
-Bug
-1341781
-fails
 =
 =
 underline
@@ -1935,10 +1926,6 @@ cell
 quirks
 .
 html
-#
-Bug
-1341781
-fails
 =
 =
 underline
@@ -1959,9 +1946,6 @@ cell
 quirks
 .
 html
-#
-Bug
-1341781
 =
 =
 underline
@@ -2079,7 +2063,6 @@ block
 standards
 .
 html
-fails
 =
 =
 underline
@@ -2100,10 +2083,6 @@ caption
 standards
 .
 html
-#
-Bug
-1341651
-fails
 =
 =
 underline
@@ -2124,10 +2103,6 @@ caption
 standards
 .
 html
-#
-Bug
-1341651
-fails
 =
 =
 underline
@@ -2148,10 +2123,6 @@ cell
 standards
 .
 html
-#
-Bug
-1341651
-fails
 =
 =
 underline
@@ -2172,9 +2143,6 @@ cell
 standards
 .
 html
-#
-Bug
-1341651
 =
 =
 underline

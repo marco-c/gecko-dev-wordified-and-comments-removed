@@ -83,7 +83,6 @@ basic
 1
 .
 html
-fails
 =
 =
 9458
@@ -100,7 +99,6 @@ valign
 1
 .
 html
-fails
 =
 =
 9458
@@ -293,7 +291,6 @@ zorder
 5
 .
 html
-fails
 =
 =
 10036
@@ -412,7 +409,6 @@ basic
 2b
 .
 html
-fails
 =
 =
 18217
@@ -919,7 +915,6 @@ html
 2b
 .
 html
-fails
 =
 =
 40596
@@ -945,7 +940,6 @@ html
 1b
 .
 html
-fails
 =
 =
 40596
@@ -1023,7 +1017,6 @@ html
 1h
 .
 html
-fails
 =
 =
 40596
@@ -2244,7 +2237,6 @@ html
 2
 .
 html
-fails
 =
 =
 185388
@@ -2257,7 +2249,6 @@ html
 1
 .
 html
-fails
 =
 =
 186317
@@ -2270,7 +2261,6 @@ html
 1
 .
 html
-fails
 =
 =
 192902
@@ -3712,7 +3702,6 @@ html
 9f
 .
 html
-fails
 =
 =
 244135
@@ -3725,7 +3714,6 @@ html
 1
 .
 html
-fails
 =
 =
 244135
@@ -4082,7 +4070,6 @@ html
 1b
 .
 html
-fails
 =
 =
 281241
@@ -4095,7 +4082,6 @@ html
 1
 .
 html
-fails
 =
 =
 281241
@@ -6578,7 +6564,6 @@ html
 1
 .
 html
-fails
 =
 =
 351641
@@ -6591,7 +6576,6 @@ html
 1a
 .
 html
-fails
 =
 =
 351641
@@ -6604,7 +6588,6 @@ html
 1b
 .
 html
-fails
 =
 =
 351641
@@ -6617,7 +6600,6 @@ html
 2a
 .
 html
-fails
 =
 =
 351641
@@ -7133,7 +7115,6 @@ html
 1
 .
 html
-fails
 =
 =
 362594
@@ -7146,7 +7127,6 @@ html
 1a
 .
 html
-fails
 =
 =
 362594
@@ -7159,7 +7139,6 @@ html
 1b
 .
 html
-fails
 =
 =
 362594
@@ -7172,7 +7151,6 @@ html
 1c
 .
 html
-fails
 =
 =
 362594
@@ -7185,10 +7163,6 @@ html
 2a
 .
 html
-#
-Bug
-1341651
-fails
 =
 =
 362594
@@ -7201,10 +7175,6 @@ html
 2a
 .
 html
-#
-Bug
-1341651
-fails
 =
 =
 362594
@@ -7217,10 +7187,6 @@ html
 2b
 .
 html
-#
-Bug
-1341651
-fails
 =
 =
 362594
@@ -7233,10 +7199,6 @@ html
 2b
 .
 html
-#
-Bug
-1341651
-fails
 =
 =
 362594
@@ -7274,7 +7236,6 @@ html
 1
 .
 html
-fails
 =
 =
 363329
@@ -7300,7 +7261,6 @@ html
 2
 .
 html
-fails
 =
 =
 363370
@@ -7313,7 +7273,6 @@ html
 1
 .
 html
-fails
 =
 =
 363402
@@ -7508,7 +7467,6 @@ html
 363874
 .
 html
-fails
 =
 =
 363874
@@ -7525,7 +7483,6 @@ max
 width
 .
 html
-fails
 =
 =
 364066
@@ -7853,7 +7810,6 @@ html
 1g
 .
 html
-fails
 =
 =
 367375
@@ -7866,7 +7822,6 @@ html
 1
 .
 html
-fails
 =
 =
 367375
@@ -7891,7 +7846,6 @@ html
 1
 .
 html
-fails
 =
 =
 367504
@@ -7908,7 +7862,6 @@ margin
 1
 .
 html
-fails
 =
 =
 367504
@@ -8088,7 +8041,6 @@ xhtml
 1
 .
 xhtml
-fails
 asserts
 (
 4
@@ -8268,7 +8220,6 @@ html
 #
 bug
 1324704
-fails
 =
 =
 368651
@@ -8313,7 +8264,6 @@ xul
 369882
 .
 xul
-fails
 =
 =
 369975
@@ -8523,7 +8473,6 @@ html
 sib
 .
 html
-fails
 =
 =
 370586
@@ -8598,7 +8547,6 @@ html
 1
 .
 html
-fails
 =
 =
 371354
@@ -8647,7 +8595,6 @@ xhtml
 1
 .
 xhtml
-fails
 =
 =
 371925
@@ -8660,7 +8607,6 @@ html
 1a
 .
 html
-fails
 =
 =
 371925
@@ -8762,7 +8708,6 @@ html
 1
 .
 html
-fails
 =
 =
 373295
@@ -10944,7 +10889,6 @@ html
 1
 .
 html
-fails
 =
 =
 398682
@@ -13886,7 +13830,6 @@ html
 1
 .
 html
-fails
 =
 =
 426629
@@ -18239,7 +18182,6 @@ html
 1
 .
 html
-fails
 =
 =
 490173
@@ -19362,7 +19304,6 @@ html
 1
 .
 html
-fails
 =
 =
 522632
@@ -23038,7 +22979,6 @@ html
 1
 .
 html
-fails
 =
 =
 711359
@@ -23692,7 +23632,6 @@ html
 1
 .
 html
-fails
 =
 =
 816458

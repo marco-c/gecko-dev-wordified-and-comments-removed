@@ -166,7 +166,6 @@ large
 min
 .
 html
-fails
 =
 =
 percent
@@ -211,7 +210,6 @@ small
 min
 .
 html
-fails
 =
 =
 percent
@@ -1037,7 +1035,6 @@ large
 fixed
 .
 html
-fails
 =
 =
 colgroup
@@ -1058,7 +1055,6 @@ column
 1
 .
 html
-fails
 =
 =
 colgroup
@@ -1079,7 +1075,6 @@ column
 2
 .
 html
-fails
 =
 =
 colgroup
@@ -1100,7 +1095,6 @@ column
 3
 .
 html
-fails
 =
 =
 colgroup
