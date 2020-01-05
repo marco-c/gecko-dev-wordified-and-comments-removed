@@ -3466,6 +3466,7 @@ CookieStorage
 >
 request
 :
+&
 Url
 cookie_val
 :
@@ -3545,7 +3546,6 @@ Cookie
 new_wrapped
 (
 bare_cookie
-&
 request
 source
 )
@@ -3567,6 +3567,7 @@ set_cookies_from_response
 (
 url
 :
+&
 Url
 response
 :
@@ -3638,11 +3639,8 @@ set_cookie_for_url
 (
 &
 cookie_jar
+&
 url
-.
-clone
-(
-)
 cookie_value
 )
 ;
@@ -5054,10 +5052,6 @@ credentials_flag
 set_cookies_from_response
 (
 url
-.
-clone
-(
-)
 response
 cookie_jar
 )
