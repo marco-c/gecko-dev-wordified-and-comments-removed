@@ -153,6 +153,9 @@ class
 PropertyName
 ;
 class
+WasmActivation
+;
+class
 WasmFunctionCallObject
 ;
 namespace
@@ -4521,8 +4524,6 @@ ExpD
 LogD
 PowD
 ATan2D
-ContextPtr
-ReportOverRecursed
 HandleExecutionInterrupt
 HandleDebugTrap
 HandleThrow
@@ -4569,9 +4570,6 @@ AddressOf
 (
 SymbolicAddress
 imm
-JSContext
-*
-cx
 )
 ;
 struct

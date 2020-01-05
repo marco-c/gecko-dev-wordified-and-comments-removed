@@ -710,6 +710,13 @@ ecx
 static
 constexpr
 Register
+WasmIonExitTlsReg
+=
+esi
+;
+static
+constexpr
+Register
 WasmIonExitRegD0
 =
 edi
@@ -726,7 +733,7 @@ constexpr
 Register
 WasmIonExitRegD2
 =
-esi
+ebx
 ;
 static
 constexpr

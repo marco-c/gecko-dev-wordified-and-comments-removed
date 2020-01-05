@@ -240,8 +240,6 @@ void
 AddressOf
 (
 SymbolicAddress
-JSContext
-*
 )
 ;
 static
