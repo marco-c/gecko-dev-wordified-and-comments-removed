@@ -1303,6 +1303,11 @@ hiddenColumns
 remoteip
 \
 "
+\
+"
+protocol
+\
+"
 ]
 "
 )

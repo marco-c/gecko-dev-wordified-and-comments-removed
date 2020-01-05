@@ -437,6 +437,16 @@ false
 name
 :
 "
+protocol
+"
+canFilter
+:
+true
+}
+{
+name
+:
+"
 domain
 "
 boxName
