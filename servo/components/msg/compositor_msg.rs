@@ -252,6 +252,7 @@ LayerId
 [
 deriving
 (
+Clone
 PartialEq
 )
 ]
