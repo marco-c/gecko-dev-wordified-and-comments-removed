@@ -6920,10 +6920,6 @@ self
 config
 .
 topsrcdir
-find_executables
-=
-False
-            
 ignore
 =
 ignore

@@ -2279,9 +2279,6 @@ finder
 FileFinder
 (
 base
-find_executables
-=
-False
 )
                 
 paths

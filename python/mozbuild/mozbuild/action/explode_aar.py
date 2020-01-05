@@ -160,9 +160,6 @@ destdir
 libs
 '
 )
-find_executables
-=
-False
 )
     
 for

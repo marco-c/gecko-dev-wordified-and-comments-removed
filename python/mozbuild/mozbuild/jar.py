@@ -2975,9 +2975,6 @@ finder
 FileFinder
 (
 _srcdir
-find_executables
-=
-False
 )
                 
 for

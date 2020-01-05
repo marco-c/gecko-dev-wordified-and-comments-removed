@@ -564,9 +564,6 @@ finder
 FileFinder
 (
 full
-find_executables
-=
-False
 )
             
 dirs

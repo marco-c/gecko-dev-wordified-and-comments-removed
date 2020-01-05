@@ -872,10 +872,6 @@ finder
 FileFinder
 (
 vs_path
-find_executables
-=
-False
-                            
 ignore
 =
 entry
@@ -949,10 +945,6 @@ finder
 FileFinder
 (
 sdk_path
-find_executables
-=
-False
-                            
 ignore
 =
 entry

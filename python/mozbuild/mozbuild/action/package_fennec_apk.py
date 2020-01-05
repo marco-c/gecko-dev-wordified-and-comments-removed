@@ -293,9 +293,6 @@ finder
 FileFinder
 (
 features_dir
-find_executables
-=
-False
 )
         
 for
@@ -342,9 +339,6 @@ finder
 FileFinder
 (
 assets_dir
-find_executables
-=
-False
 )
         
 for
@@ -635,9 +629,6 @@ finder
 FileFinder
 (
 lib_dir
-find_executables
-=
-False
 )
         
 for

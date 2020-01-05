@@ -152,9 +152,6 @@ FileFinder
 '
 /
 '
-find_executables
-=
-False
 )
 def
 alphabetical_sorted

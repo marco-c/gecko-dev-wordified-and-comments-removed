@@ -53,9 +53,6 @@ finder
 FileFinder
 (
 root
-find_executables
-=
-False
 )
     
 jarrer
