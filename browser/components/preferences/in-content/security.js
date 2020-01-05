@@ -50,8 +50,6 @@ _pane
 :
 null
 init
-:
-function
 (
 )
 {
@@ -174,8 +172,6 @@ showPasswords
 ;
 }
 readWarnAddonInstall
-:
-function
 (
 )
 {
@@ -221,8 +217,6 @@ undefined
 ;
 }
 showAddonExceptions
-:
-function
 (
 )
 {
@@ -333,8 +327,6 @@ install
 "
 }
 readSavePasswords
-:
-function
 (
 )
 {
@@ -408,8 +400,6 @@ undefined
 ;
 }
 showPasswordExceptions
-:
-function
 (
 )
 {
@@ -499,8 +489,6 @@ params
 ;
 }
 _initMasterPasswordUI
-:
-function
 (
 )
 {
@@ -1061,8 +1049,6 @@ value
 ;
 }
 updateMasterPasswordButton
-:
-function
 (
 )
 {
@@ -1127,8 +1113,6 @@ _initMasterPasswordUI
 ;
 }
 _removeMasterPassword
-:
-function
 (
 )
 {
@@ -1269,8 +1253,6 @@ this
 }
 }
 changeMasterPassword
-:
-function
 (
 )
 {
@@ -1311,8 +1293,6 @@ this
 ;
 }
 showPasswords
-:
-function
 (
 )
 {

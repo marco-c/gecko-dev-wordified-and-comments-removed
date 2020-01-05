@@ -103,8 +103,6 @@ _resizeObserver
 :
 null
 init
-:
-function
 (
 )
 {
@@ -162,8 +160,6 @@ dialogClose
 ;
 }
 updateTitle
-:
-function
 (
 aEvent
 )
@@ -204,8 +200,6 @@ title
 ;
 }
 injectXMLStylesheet
-:
-function
 (
 aStylesheetURL
 )
@@ -266,8 +260,6 @@ documentElement
 ;
 }
 open
-:
-function
 (
 aURL
 aFeatures
@@ -521,8 +513,6 @@ resizable
 ;
 }
 close
-:
-function
 (
 aEvent
 =
@@ -782,8 +772,6 @@ blank
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -913,8 +901,6 @@ break
 }
 }
 _onUnload
-:
-function
 (
 aEvent
 )
@@ -948,8 +934,6 @@ close
 }
 }
 _onContentLoaded
-:
-function
 (
 aEvent
 )
@@ -1254,8 +1238,6 @@ opacity
 ;
 }
 _onLoad
-:
-function
 (
 aEvent
 )
@@ -1928,8 +1910,6 @@ _trapFocus
 ;
 }
 _onResize
-:
-function
 (
 mutations
 )
@@ -2079,8 +2059,6 @@ scrollHeight
 }
 }
 _onDialogClosing
-:
-function
 (
 aEvent
 )
@@ -2107,8 +2085,6 @@ aEvent
 ;
 }
 _onKeyDown
-:
-function
 (
 aEvent
 )
@@ -2342,8 +2318,6 @@ FLAG_BYKEY
 }
 }
 _onParentWinFocus
-:
-function
 (
 aEvent
 )
@@ -2379,8 +2353,6 @@ focus
 }
 }
 _addDialogEventListeners
-:
-function
 (
 )
 {
@@ -2463,8 +2435,6 @@ true
 ;
 }
 _removeDialogEventListeners
-:
-function
 (
 )
 {
@@ -2589,8 +2559,6 @@ _untrapFocus
 ;
 }
 _trapFocus
-:
-function
 (
 )
 {
@@ -2657,8 +2625,6 @@ true
 ;
 }
 _untrapFocus
-:
-function
 (
 )
 {
@@ -2701,8 +2667,6 @@ this
 ;
 }
 _getBrowser
-:
-function
 (
 )
 {

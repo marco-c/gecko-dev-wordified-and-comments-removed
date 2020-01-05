@@ -69,8 +69,6 @@ gContentPane
 =
 {
 init
-:
-function
 (
 )
 {
@@ -591,8 +589,6 @@ important
 }
 }
 updateButtons
-:
-function
 (
 aButtonID
 aPreferenceID
@@ -741,8 +737,6 @@ e
 }
 }
 showPopupExceptions
-:
-function
 (
 )
 {
@@ -836,8 +830,6 @@ params
 ;
 }
 _rebuildFonts
-:
-function
 (
 )
 {
@@ -903,8 +895,6 @@ serif
 ;
 }
 _selectDefaultLanguageGroup
-:
-function
 (
 aLanguageGroup
 aIsSerif
@@ -1288,8 +1278,6 @@ element
 }
 }
 _readDefaultFontTypeForLanguage
-:
-function
 (
 aLanguageGroup
 )
@@ -1416,8 +1404,6 @@ value
 ;
 }
 configureFonts
-:
-function
 (
 )
 {
@@ -1449,8 +1435,6 @@ no
 ;
 }
 configureColors
-:
-function
 (
 )
 {
@@ -1482,8 +1466,6 @@ no
 ;
 }
 showLanguages
-:
-function
 (
 )
 {
@@ -1510,8 +1492,6 @@ xul
 ;
 }
 showTranslationExceptions
-:
-function
 (
 )
 {
@@ -1538,8 +1518,6 @@ xul
 ;
 }
 openTranslationProviderAttribution
-:
-function
 (
 )
 {
@@ -1573,8 +1551,6 @@ openProviderAttribution
 ;
 }
 toggleDoNotDisturbNotifications
-:
-function
 (
 event
 )

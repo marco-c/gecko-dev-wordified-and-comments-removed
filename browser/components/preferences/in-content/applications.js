@@ -531,8 +531,6 @@ _index
 :
 0
 hasMoreElements
-:
-function
 (
 )
 {
@@ -549,8 +547,6 @@ length
 ;
 }
 getNext
-:
-function
 (
 )
 {
@@ -692,8 +688,6 @@ Ci
 nsICategoryManager
 )
 element
-:
-function
 (
 aID
 )
@@ -838,8 +832,6 @@ possibleApplicationHandlers
 ;
 }
 addPossibleApplicationHandler
-:
-function
 (
 aNewHandler
 )
@@ -892,8 +884,6 @@ false
 ;
 }
 removePossibleApplicationHandler
-:
-function
 (
 aHandler
 )
@@ -1292,8 +1282,6 @@ type
 ;
 }
 _getDisabledPluginTypes
-:
-function
 (
 )
 {
@@ -1348,8 +1336,6 @@ return
 ;
 }
 disablePluginType
-:
-function
 (
 )
 {
@@ -1423,8 +1409,6 @@ false
 ;
 }
 enablePluginType
-:
-function
 (
 )
 {
@@ -1514,8 +1498,6 @@ true
 ;
 }
 store
-:
-function
 (
 )
 {
@@ -1546,8 +1528,6 @@ _getIcon
 ;
 }
 _getIcon
-:
-function
 (
 aSize
 )
@@ -1951,8 +1931,6 @@ _removed
 [
 ]
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -2011,8 +1989,6 @@ length
 ;
 }
 enumerate
-:
-function
 (
 )
 {
@@ -2027,8 +2003,6 @@ _inner
 ;
 }
 appendElement
-:
-function
 (
 aHandlerApp
 aWeak
@@ -2045,8 +2019,6 @@ aHandlerApp
 ;
 }
 removeElementAt
-:
-function
 (
 aIndex
 )
@@ -2077,8 +2049,6 @@ aIndex
 ;
 }
 queryElementAt
-:
-function
 (
 aIndex
 aInterface
@@ -2679,8 +2649,6 @@ xml
 ;
 }
 store
-:
-function
 (
 )
 {
@@ -3001,8 +2969,6 @@ HandlerInfoWrapper
 .
 prototype
 store
-:
-function
 (
 )
 {
@@ -3257,8 +3223,6 @@ Ci
 nsIIOService
 )
 init
-:
-function
 (
 )
 {
@@ -3733,8 +3697,6 @@ this
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -3891,8 +3853,6 @@ this
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -3938,8 +3898,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -4000,8 +3958,6 @@ _rebuildView
 }
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -4027,8 +3983,6 @@ destroy
 }
 }
 _loadData
-:
-function
 (
 )
 {
@@ -4058,8 +4012,6 @@ _loadApplicationHandlers
 ;
 }
 _loadFeedHandler
-:
-function
 (
 )
 {
@@ -4110,8 +4062,6 @@ false
 ;
 }
 _loadInternalHandlers
-:
-function
 (
 )
 {
@@ -4152,8 +4102,6 @@ internalHandler
 }
 }
 _loadPluginHandlers
-:
-function
 (
 )
 {
@@ -4262,8 +4210,6 @@ name
 }
 }
 _loadApplicationHandlers
-:
-function
 (
 )
 {
@@ -4360,8 +4306,6 @@ false
 }
 }
 _rebuildVisibleTypes
-:
-function
 (
 )
 {
@@ -4506,8 +4450,6 @@ description
 }
 }
 _rebuildView
-:
-function
 (
 )
 {
@@ -4689,8 +4631,6 @@ _selectLastSelectedType
 ;
 }
 _matchesFilter
-:
-function
 (
 aType
 )
@@ -4752,8 +4692,6 @@ filterValue
 ;
 }
 _describeType
-:
-function
 (
 aHandlerInfo
 )
@@ -4798,8 +4736,6 @@ description
 ;
 }
 _describePreferredAction
-:
-function
 (
 aHandlerInfo
 )
@@ -5081,8 +5017,6 @@ preferredAction
 }
 }
 _selectLastSelectedType
-:
-function
 (
 )
 {
@@ -5152,8 +5086,6 @@ item
 ;
 }
 isValidHandlerApp
-:
-function
 (
 aHandlerApp
 )
@@ -5215,8 +5147,6 @@ false
 ;
 }
 _isValidHandlerExecutable
-:
-function
 (
 aExecutable
 )
@@ -5307,8 +5237,6 @@ leafName
 ;
 }
 rebuildActionsMenu
-:
-function
 (
 )
 {
@@ -6516,8 +6444,6 @@ _sortColumn
 :
 null
 sort
-:
-function
 (
 event
 )
@@ -6615,8 +6541,6 @@ _rebuildView
 ;
 }
 _sortVisibleTypes
-:
-function
 (
 )
 {
@@ -6777,8 +6701,6 @@ reverse
 ;
 }
 filter
-:
-function
 (
 )
 {
@@ -6790,8 +6712,6 @@ _rebuildView
 ;
 }
 focusFilterBox
-:
-function
 (
 )
 {
@@ -6813,8 +6733,6 @@ select
 ;
 }
 onSelectAction
-:
-function
 (
 aActionItem
 )
@@ -6846,8 +6764,6 @@ false
 }
 }
 _storeAction
-:
-function
 (
 aActionItem
 )
@@ -7026,8 +6942,6 @@ handlerInfo
 }
 }
 manageApp
-:
-function
 (
 aEvent
 )
@@ -7148,8 +7062,6 @@ onComplete
 ;
 }
 chooseApp
-:
-function
 (
 aEvent
 )
@@ -7649,8 +7561,6 @@ fpCallback
 }
 }
 onSelectionChanged
-:
-function
 (
 )
 {
@@ -7687,8 +7597,6 @@ type
 ;
 }
 _setIconClassForPreferredAction
-:
-function
 (
 aHandlerInfo
 aElement
@@ -7835,8 +7743,6 @@ false
 ;
 }
 _getIconURLForPreferredAction
-:
-function
 (
 aHandlerInfo
 )
@@ -7902,8 +7808,6 @@ ICON_URL_APP
 }
 }
 _getIconURLForHandlerApp
-:
-function
 (
 aHandlerApp
 )
@@ -7967,8 +7871,6 @@ return
 ;
 }
 _getIconURLForFile
-:
-function
 (
 aFile
 )
@@ -8025,8 +7927,6 @@ size
 ;
 }
 _getIconURLForWebApp
-:
-function
 (
 aWebAppURITemplate
 )
@@ -8094,8 +7994,6 @@ return
 ;
 }
 _getIconURLForSystemDefault
-:
-function
 (
 aHandlerInfo
 )
