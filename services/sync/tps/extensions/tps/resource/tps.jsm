@@ -3832,7 +3832,7 @@ collection
 =
 bookmarkEngine
 .
-_itemSource
+itemSource
 (
 )
 ;
