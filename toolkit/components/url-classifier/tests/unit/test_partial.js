@@ -125,7 +125,9 @@ cb
 .
 completionFinished
 (
-1
+Cr
+.
+NS_ERROR_FAILURE
 )
 ;
 return

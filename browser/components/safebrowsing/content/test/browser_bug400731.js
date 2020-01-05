@@ -147,6 +147,13 @@ waitForExplicitFinish
 (
 )
 ;
+waitForDBInit
+(
+(
+)
+=
+>
+{
 gBrowser
 .
 selectedTab
@@ -181,6 +188,9 @@ html
 onDOMContentLoaded
 (
 testMalware
+)
+;
+}
 )
 ;
 }

@@ -680,11 +680,6 @@ nullptr
 private
 :
 nsresult
-Reset
-(
-)
-;
-nsresult
 LoadPrefixSet
 (
 )
