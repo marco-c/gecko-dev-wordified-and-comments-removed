@@ -1761,8 +1761,10 @@ treeherder
 platform
 :
 linux64
-/
+-
 jsdcov
+/
+opt
 symbol
 :
 tc
@@ -1911,8 +1913,10 @@ treeherder
 platform
 :
 linux64
-/
+-
 ccov
+/
+opt
 symbol
 :
 tc
