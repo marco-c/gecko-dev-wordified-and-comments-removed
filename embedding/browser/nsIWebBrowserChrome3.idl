@@ -259,6 +259,14 @@ nsIURI
 aReferrer
 )
 ;
+bool
+shouldLoadURIInThisProcess
+(
+in
+nsIURI
+aURI
+)
+;
 /
 *
 *
