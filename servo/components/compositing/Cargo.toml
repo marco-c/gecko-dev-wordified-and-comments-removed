@@ -405,17 +405,6 @@ log
 .
 5
 "
-num
--
-traits
-=
-"
-0
-.
-1
-.
-32
-"
 offscreen_gl_context
 =
 "
