@@ -19010,7 +19010,7 @@ justify
 .
 enabled
 "
-false
+true
 )
 ;
 #
