@@ -147,6 +147,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+css
+;
 static
 bool
 IsLocalRefURL

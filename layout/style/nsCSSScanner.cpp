@@ -53,6 +53,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 static
 const
 uint8_t
