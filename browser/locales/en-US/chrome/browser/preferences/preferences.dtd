@@ -323,11 +323,14 @@ Account
 <
 !
 ENTITY
-helpButton
+helpButton2
 .
 label
 "
-Help
+&
+brandShortName
+;
+Support
 "
 >
 <
