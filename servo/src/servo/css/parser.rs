@@ -24,15 +24,12 @@ values
 :
 :
 {
-DisInline
-DisBlock
-DisNone
-Display
 TextColor
 BackgroundColor
 FontSize
 Height
 Width
+Display
 StyleDeclaration
 }
 ;
