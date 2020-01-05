@@ -26,9 +26,9 @@ devtools
 /
 client
 /
-styleeditor
+shared
 /
-utils
+prefs
 "
 )
 ;
