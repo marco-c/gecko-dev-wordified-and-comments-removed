@@ -1074,10 +1074,6 @@ mut
 self
 )
 {
-/
-/
-Handle
-messages
 while
 self
 .
