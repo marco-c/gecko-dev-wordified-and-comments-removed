@@ -191,9 +191,6 @@ e
 tagName
 +
 "
-"
-+
-"
 A
 tooltip
 should

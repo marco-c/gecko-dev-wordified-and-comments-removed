@@ -367,9 +367,6 @@ TESTROOT
 file_pdfjs_test
 .
 pdf
-"
-+
-"
 #
 zoom
 =

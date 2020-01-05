@@ -788,9 +788,6 @@ message
 )
 +
 "
-"
-+
-"
 expected
 "
 +

@@ -260,9 +260,6 @@ Tab
 event
 received
 :
-"
-+
-"
 load
 "
 )
