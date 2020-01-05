@@ -15014,15 +15014,6 @@ continue
 }
 if
 (
-MayBeSameCharMessage
-(
-nextKeyMsgInAllWindows
-nextKeyMsg
-)
-)
-{
-if
-(
 WinUtils
 :
 :
@@ -15109,7 +15100,6 @@ doCrash
 =
 false
 ;
-}
 }
 else
 if
