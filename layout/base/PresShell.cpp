@@ -32901,6 +32901,13 @@ nullptr
 if
 (
 eventHub
+&
+&
+*
+aEventStatus
+!
+=
+nsEventStatus_eConsumeNoDefault
 )
 {
 *
