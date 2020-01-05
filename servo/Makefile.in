@@ -44,6 +44,8 @@ servo
 src
 /
 servo
+/
+servo
 .
 rc
 (
@@ -64,6 +66,8 @@ test
 :
 \
 src
+/
+servo
 /
 servo
 .
