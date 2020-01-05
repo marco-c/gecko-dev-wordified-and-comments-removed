@@ -23,9 +23,6 @@ Attributes
 h
 "
 #
-ifndef
-SPS_STANDALONE
-#
 include
 "
 js
@@ -34,8 +31,6 @@ TypeDecls
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -84,14 +79,9 @@ Promise
 ;
 }
 }
-#
-ifndef
-SPS_STANDALONE
 class
 nsIProfilerStartParams
 ;
-#
-endif
 enum
 TracingMetadata
 {
@@ -501,9 +491,6 @@ return
 nullptr
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 static
 inline
 void
@@ -562,8 +549,6 @@ aFeatures
 )
 {
 }
-#
-endif
 static
 inline
 void

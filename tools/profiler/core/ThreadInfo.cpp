@@ -85,17 +85,12 @@ MOZ_COUNT_CTOR
 ThreadInfo
 )
 ;
-#
-ifndef
-SPS_STANDALONE
 mThread
 =
 NS_GetCurrentThread
 (
 )
 ;
-#
-endif
 #
 ifdef
 XP_MACOSX

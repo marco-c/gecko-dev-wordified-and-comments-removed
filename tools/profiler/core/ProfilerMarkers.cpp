@@ -27,9 +27,6 @@ SyncProfile
 h
 "
 #
-ifndef
-SPS_STANDALONE
-#
 include
 "
 gfxASurface
@@ -52,8 +49,6 @@ Sprintf
 .
 h
 "
-#
-endif
 ProfilerMarkerPayload
 :
 :
@@ -424,9 +419,6 @@ end
 }
 }
 }
-#
-ifndef
-SPS_STANDALONE
 GPUMarkerPayload
 :
 :
@@ -1125,5 +1117,3 @@ VsyncTimestamp
 )
 ;
 }
-#
-endif

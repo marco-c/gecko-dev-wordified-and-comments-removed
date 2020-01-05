@@ -177,9 +177,6 @@ return
 mPendingDelete
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 nsIThread
 *
 GetThread
@@ -195,8 +192,6 @@ get
 )
 ;
 }
-#
-endif
 bool
 CanInvokeJS
 (
@@ -244,17 +239,12 @@ void
 *
 mStackTop
 ;
-#
-ifndef
-SPS_STANDALONE
 nsCOMPtr
 <
 nsIThread
 >
 mThread
 ;
-#
-endif
 bool
 mPendingDelete
 ;

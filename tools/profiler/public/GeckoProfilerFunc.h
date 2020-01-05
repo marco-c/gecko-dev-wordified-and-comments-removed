@@ -5,9 +5,6 @@ PROFILER_FUNCS_H
 define
 PROFILER_FUNCS_H
 #
-ifndef
-SPS_STANDALONE
-#
 include
 "
 js
@@ -16,8 +13,6 @@ TypeDecls
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -255,9 +250,6 @@ double
 aSinceTime
 )
 ;
-#
-ifndef
-SPS_STANDALONE
 JSObject
 *
 mozilla_sampler_get_profile_data
@@ -339,8 +331,6 @@ nsISupports
 aRetVal
 )
 ;
-#
-endif
 extern
 "
 C

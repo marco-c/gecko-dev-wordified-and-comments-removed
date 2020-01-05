@@ -184,9 +184,6 @@ return
 mThreadInfo
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 ThreadResponsiveness
 *
 GetThreadResponsiveness
@@ -198,8 +195,6 @@ return
 mRespInfo
 ;
 }
-#
-endif
 bool
 CanInvokeJS
 (
@@ -359,14 +354,9 @@ void
 const
 mStackTop
 ;
-#
-ifndef
-SPS_STANDALONE
 ThreadResponsiveness
 mRespInfo
 ;
-#
-endif
 #
 ifdef
 XP_LINUX

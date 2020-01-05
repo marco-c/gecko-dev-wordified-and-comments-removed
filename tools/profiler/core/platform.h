@@ -73,9 +73,6 @@ math
 h
 >
 #
-ifndef
-SPS_STANDALONE
-#
 include
 "
 MainThreadUtils
@@ -98,8 +95,6 @@ ThreadResponsiveness
 .
 h
 "
-#
-endif
 #
 include
 "

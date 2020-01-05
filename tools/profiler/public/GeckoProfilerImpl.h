@@ -71,9 +71,6 @@ UniquePtr
 h
 "
 #
-ifndef
-SPS_STANDALONE
-#
 include
 "
 nscore
@@ -87,8 +84,6 @@ nsISupports
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -443,9 +438,6 @@ aSinceTime
 )
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 static
 inline
 JSObject
@@ -559,8 +551,6 @@ aRetVal
 )
 ;
 }
-#
-endif
 static
 inline
 void
@@ -716,9 +706,6 @@ mozilla_sampler_is_sleeping
 )
 ;
 }
-#
-ifndef
-SPS_STANDALONE
 static
 inline
 void
@@ -753,8 +740,6 @@ jsOperationCallback
 )
 ;
 }
-#
-endif
 static
 inline
 double
