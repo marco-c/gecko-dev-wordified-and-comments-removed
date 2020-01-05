@@ -147,11 +147,6 @@ EXPORTS
 =
 [
 '
-LiveResizeListener
-.
-h
-'
-'
 nsAppShellCID
 .
 h
