@@ -358,9 +358,6 @@ bool
 mCheckPhishing
 ;
 bool
-mCheckTracking
-;
-bool
 mCheckBlockedURIs
 ;
 bool
