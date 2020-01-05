@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 buildconfig
 import
@@ -689,11 +693,7 @@ root
 :
                 
 print
->
->
-sys
-.
-stderr
+(
 "
 Failed
 to
@@ -706,6 +706,12 @@ s
 "
 %
 path
+file
+=
+sys
+.
+stderr
+)
         
 cleanroot
 =
@@ -764,11 +770,7 @@ None
 :
             
 print
->
->
-sys
-.
-stderr
+(
 textwrap
 .
 dedent
@@ -777,7 +779,7 @@ dedent
 "
 "
 \
-                
+            
 Could
 not
 determine
@@ -798,7 +800,7 @@ the
 web
 -
 based
-                
+            
 repository
 or
 you
@@ -818,6 +820,11 @@ corrupt
 )
 %
 path
+                  
+sys
+.
+stderr
+)
             
 sys
 .
@@ -1109,11 +1116,7 @@ None
 :
             
 print
->
->
-sys
-.
-stderr
+(
 textwrap
 .
 dedent
@@ -1122,7 +1125,7 @@ dedent
 "
 "
 \
-                
+            
 Could
 not
 determine
@@ -1147,7 +1150,7 @@ a
 web
 -
 based
-                
+            
 repository
 or
 you
@@ -1169,6 +1172,13 @@ corrupt
 (
 path
 root
+)
+                  
+file
+=
+sys
+.
+stderr
 )
             
 sys
@@ -2745,103 +2755,6 @@ files_record
 }
     
 def
-output
-(
-self
-dest
-output_str
-)
-:
-        
-"
-"
-"
-Writes
-|
-output_str
-|
-to
-|
-dest
-|
-holding
-terminates
-with
-a
-newline
-.
-"
-"
-"
-        
-dest
-.
-write
-(
-output_str
-+
-"
-\
-n
-"
-)
-        
-dest
-.
-flush
-(
-)
-    
-def
-output_pid
-(
-self
-dest
-output_str
-)
-:
-        
-"
-"
-"
-Debugging
-output
-;
-prepends
-the
-pid
-to
-the
-string
-.
-"
-"
-"
-        
-self
-.
-output
-(
-dest
-"
-%
-d
-:
-%
-s
-"
-%
-(
-os
-.
-getpid
-(
-)
-output_str
-)
-)
-    
-def
 parse_repo_manifest
 (
 self
@@ -3110,6 +3023,7 @@ remote
 :
                 
 print
+(
 "
 Skipping
 project
@@ -3121,6 +3035,7 @@ proj
 .
 toxml
 (
+)
 )
                 
 continue
@@ -3805,13 +3720,8 @@ touched
 "
 "
         
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 "
 Beginning
 work
@@ -3826,6 +3736,11 @@ str
 (
 files
 )
+file
+=
+sys
+.
+stderr
 )
         
 vcs_root
@@ -3939,13 +3854,8 @@ time
 (
 )
         
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 "
 Processing
 files
@@ -3957,6 +3867,11 @@ s
 (
 files
 )
+file
+=
+sys
+.
+stderr
 )
         
 result
@@ -4015,13 +3930,8 @@ arch
 files
 )
                 
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 '
 '
 .
@@ -4029,6 +3939,11 @@ join
 (
 cmd
 )
+file
+=
+sys
+.
+stderr
 )
                 
 proc
@@ -4467,13 +4382,8 @@ wait
 (
 )
                     
-self
-.
-output
+print
 (
-sys
-.
-stdout
 rel_path
 )
                     
@@ -4530,13 +4440,8 @@ as
 e
 :
                 
-self
-.
-output
+print
 (
-sys
-.
-stderr
 "
 Unexpected
 error
@@ -4545,12 +4450,15 @@ error
 s
 "
 %
-(
 str
 (
 e
 )
-)
+file
+=
+sys
+.
+stderr
 )
                 
 raise
@@ -4576,13 +4484,8 @@ time
 -
 t_start
         
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 '
 Finished
 processing
@@ -4594,11 +4497,16 @@ in
 2fs
 '
 %
-                        
 (
 files
 elapsed
 )
+              
+file
+=
+sys
+.
+stderr
 )
         
 return
@@ -5147,13 +5055,8 @@ full_path
 )
 :
             
-self
-.
-output
+print
 (
-sys
-.
-stdout
 rel_path
 [
 :
@@ -5169,13 +5072,8 @@ _
 else
 :
             
-self
-.
-output
+print
 (
-sys
-.
-stdout
 rel_path
 )
         
@@ -5315,13 +5213,8 @@ full_path
 )
 :
                     
-self
-.
-output
+print
 (
-sys
-.
-stdout
 rel_path
 [
 :
@@ -5337,13 +5230,8 @@ _
 else
 :
                     
-self
-.
-output
+print
 (
-sys
-.
-stdout
 rel_path
 )
     
@@ -5772,13 +5660,8 @@ s
 full_path
 )
             
-self
-.
-output
+print
 (
-sys
-.
-stdout
 rel_path
 +
 "
@@ -6237,13 +6120,8 @@ None
 )
 :
         
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 "
 Starting
 Mac
@@ -6263,6 +6141,12 @@ files
 0
 ]
 )
+              
+file
+=
+sys
+.
+stderr
 )
         
 res
@@ -6477,13 +6361,8 @@ time
 (
 )
         
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 "
 Running
 Mac
@@ -6500,6 +6379,12 @@ s
 (
 file
 )
+              
+file
+=
+sys
+.
+stderr
 )
         
 result
@@ -6603,13 +6488,8 @@ file
 ]
 )
             
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 '
 '
 .
@@ -6617,6 +6497,11 @@ join
 (
 cmd
 )
+file
+=
+sys
+.
+stderr
 )
             
 subprocess
@@ -6645,13 +6530,8 @@ as
 e
 :
             
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 '
 Error
 running
@@ -6665,6 +6545,11 @@ str
 (
 e
 )
+file
+=
+sys
+.
+stderr
 )
         
 if
@@ -6679,13 +6564,8 @@ dsymbundle
 )
 :
             
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 "
 No
 symbols
@@ -6700,6 +6580,11 @@ s
 (
 file
 )
+file
+=
+sys
+.
+stderr
 )
             
 result
@@ -6756,13 +6641,8 @@ time
 -
 t_start
         
-self
-.
-output_pid
+print
 (
-sys
-.
-stderr
 '
 Finished
 processing
@@ -6774,11 +6654,16 @@ in
 2fs
 '
 %
-                        
 (
 file
 elapsed
 )
+              
+file
+=
+sys
+.
+stderr
 )
         
 return
@@ -6996,13 +6881,8 @@ full_path
 )
 :
             
-self
-.
-output
+print
 (
-sys
-.
-stdout
 rel_path
 )
 def
@@ -7491,11 +7371,7 @@ pdbstr
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 Invalid
 path
@@ -7513,6 +7389,12 @@ PDBSTR_PATH
 \
 n
 "
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
