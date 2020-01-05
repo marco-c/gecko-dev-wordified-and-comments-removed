@@ -1343,7 +1343,6 @@ number
 /
 /
 windows
-10
 only
 or
 null
@@ -3755,13 +3754,6 @@ the
 Windows
 build
 number
-only
-available
-for
-Windows
->
-=
-10
 .
 -
 windowsUBR
