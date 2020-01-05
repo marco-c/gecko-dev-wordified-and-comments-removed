@@ -304,6 +304,8 @@ id
 Action
 act
 bool
+mayThrow
+bool
 *
 bp
 )
@@ -1810,6 +1812,7 @@ cx
 wrapper
 id
 act
+mayThrow
 &
 rv
 )
