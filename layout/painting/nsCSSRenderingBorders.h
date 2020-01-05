@@ -486,6 +486,12 @@ aCorner
 bool
 *
 aIsUnfilled
+Float
+aDotOffset
+=
+0
+.
+0f
 )
 ;
 void
