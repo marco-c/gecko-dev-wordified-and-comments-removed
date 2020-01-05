@@ -1864,6 +1864,7 @@ if
 linksOnly
 &
 &
+!
 this
 .
 _rangeStartsInLink
