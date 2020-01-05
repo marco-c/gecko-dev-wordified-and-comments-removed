@@ -11,6 +11,7 @@ components
 bluetooth
 *
 Implementation
+of
 the
 bluetooth
 thread
