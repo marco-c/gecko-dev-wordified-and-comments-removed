@@ -449,6 +449,9 @@ aContextFlags
 nsITabParent
 *
 aOpeningTabParent
+mozIDOMWindowProxy
+*
+aOpener
 nsIWebBrowserChrome
 *
 *

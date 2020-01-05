@@ -125,6 +125,9 @@ nsIDocShell
 interface
 nsITabParent
 ;
+interface
+mozIDOMWindowProxy
+;
 /
 *
 *
@@ -318,6 +321,9 @@ forceInitialBrowserRemote
 void
 forceInitialBrowserNonRemote
 (
+in
+mozIDOMWindowProxy
+openerWindow
 )
 ;
 /

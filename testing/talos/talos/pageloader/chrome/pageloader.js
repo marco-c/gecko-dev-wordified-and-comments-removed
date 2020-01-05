@@ -1172,6 +1172,7 @@ XULBrowserWindow
 .
 forceInitialBrowserNonRemote
 (
+null
 )
 ;
 }

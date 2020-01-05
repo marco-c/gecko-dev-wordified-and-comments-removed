@@ -110,6 +110,9 @@ aIsHiddenWindow
 nsITabParent
 *
 aOpeningTab
+mozIDOMWindowProxy
+*
+aOpenerWIndow
 nsWidgetInitData
 &
 widgetInitData
