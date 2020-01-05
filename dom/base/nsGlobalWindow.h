@@ -8382,6 +8382,15 @@ GetIsPrerendered
 (
 )
 ;
+private
+:
+void
+ReportLargeAllocStatus
+(
+)
+;
+public
+:
 nsresult
 ScheduleNextIdleObserverCallback
 (
