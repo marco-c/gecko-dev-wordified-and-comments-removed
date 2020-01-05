@@ -384,6 +384,15 @@ null
 |
 |
 (
+x
+=
+=
+=
+undefined
+)
+|
+|
+(
 typeof
 x
 =
@@ -637,6 +646,11 @@ exp
 case
 "
 string
+"
+:
+case
+"
+undefined
 "
 :
 if
