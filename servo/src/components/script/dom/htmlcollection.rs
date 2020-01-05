@@ -333,7 +333,10 @@ JSContext
 _name
 :
 &
+Option
+<
 DOMString
+>
 _found
 :
 &

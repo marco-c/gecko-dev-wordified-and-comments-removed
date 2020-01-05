@@ -23,6 +23,7 @@ utils
 {
 Reflectable
 Reflector
+Traceable
 }
 ;
 use
@@ -35,11 +36,7 @@ bindings
 utils
 :
 :
-{
 DOMString
-null_str_as_empty
-Traceable
-}
 ;
 use
 dom
@@ -467,10 +464,8 @@ ALERT
 s
 }
 "
-null_str_as_empty
-(
+*
 s
-)
 )
 )
 ;
@@ -527,7 +522,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -553,7 +550,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn
@@ -707,7 +706,10 @@ DOMString
 )
 -
 >
+Option
+<
 DOMString
+>
 {
 None
 }

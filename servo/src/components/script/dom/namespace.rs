@@ -48,7 +48,10 @@ from_str
 url
 :
 &
+Option
+<
 DOMString
+>
 )
 -
 >
@@ -207,7 +210,10 @@ self
 )
 -
 >
+Option
+<
 DOMString
+>
 {
 match
 *

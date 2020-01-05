@@ -234,7 +234,9 @@ self
 >
 DOMString
 {
-None
+~
+"
+"
 }
 pub
 fn

@@ -5135,13 +5135,10 @@ mut_event
 InitEvent
 (
 &
-Some
-(
 ~
 "
 load
 "
-)
 false
 false
 )

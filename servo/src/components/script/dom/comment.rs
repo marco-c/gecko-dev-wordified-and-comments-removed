@@ -23,7 +23,6 @@ utils
 {
 DOMString
 Fallible
-null_str_as_empty
 }
 ;
 use
@@ -184,9 +183,10 @@ Comment
 :
 new
 (
-null_str_as_empty
-(
 data
+.
+clone
+(
 )
 owner
 .
