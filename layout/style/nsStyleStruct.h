@@ -14184,7 +14184,10 @@ mColumnWidth
 nsStyleCoord
 mColumnGap
 ;
-nscolor
+mozilla
+:
+:
+StyleComplexColor
 mColumnRuleColor
 ;
 uint8_t
@@ -14192,9 +14195,6 @@ mColumnRuleStyle
 ;
 uint8_t
 mColumnFill
-;
-bool
-mColumnRuleColorIsForeground
 ;
 void
 SetColumnRuleWidth
