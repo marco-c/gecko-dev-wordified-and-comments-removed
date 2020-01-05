@@ -672,6 +672,7 @@ add_child
 (
 dtree
 p
+*
 c
 )
 ;

@@ -1758,6 +1758,7 @@ red
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1777,6 +1778,7 @@ lime
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1796,6 +1798,7 @@ blue
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1815,6 +1818,7 @@ green
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1834,6 +1838,7 @@ white
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1853,6 +1858,7 @@ black
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1872,6 +1878,7 @@ gray
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1891,6 +1898,7 @@ silver
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1910,6 +1918,7 @@ maroon
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1929,6 +1938,7 @@ purple
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1948,6 +1958,7 @@ fuchsia
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1967,6 +1978,7 @@ olive
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -1986,6 +1998,7 @@ yellow
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2005,6 +2018,7 @@ navy
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2024,6 +2038,7 @@ teal
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2043,6 +2058,7 @@ aqua
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2084,6 +2100,7 @@ red
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2108,6 +2125,7 @@ red
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2135,6 +2153,7 @@ red
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2160,6 +2179,7 @@ lime
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2190,6 +2210,7 @@ rgb
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2220,6 +2241,7 @@ rgba
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2252,6 +2274,7 @@ rgba
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2306,6 +2329,7 @@ red
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2331,6 +2355,7 @@ lime
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2360,6 +2385,7 @@ blue
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2389,6 +2415,7 @@ green
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2418,6 +2445,7 @@ white
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2447,6 +2475,7 @@ white
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2477,6 +2506,7 @@ black
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2507,6 +2537,7 @@ black
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2537,6 +2568,7 @@ gray
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2567,6 +2599,7 @@ maroon
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2597,6 +2630,7 @@ purple
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2627,6 +2661,7 @@ fuchsia
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2655,6 +2690,7 @@ olive
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2684,6 +2720,7 @@ yellow
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2713,6 +2750,7 @@ navy
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2742,6 +2780,7 @@ teal
 .
 eq
 (
+&
 unwrap
 (
 parse_color
@@ -2771,6 +2810,7 @@ aqua
 .
 eq
 (
+&
 unwrap
 (
 parse_color
