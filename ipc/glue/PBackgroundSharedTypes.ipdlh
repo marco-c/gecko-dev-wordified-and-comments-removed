@@ -115,6 +115,9 @@ NullPrincipalInfo
 PrincipalOriginAttributes
 attrs
 ;
+nsCString
+spec
+;
 }
 ;
 struct
