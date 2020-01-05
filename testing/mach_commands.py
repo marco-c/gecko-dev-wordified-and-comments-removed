@@ -2874,14 +2874,6 @@ bindir
         
 options
 .
-dm_trans
-=
-"
-adb
-"
-        
-options
-.
 local_lib
 =
 self

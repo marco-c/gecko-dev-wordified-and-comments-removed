@@ -108,15 +108,6 @@ manifest
 ini
 '
 '
-mozdevice
-/
-tests
-/
-manifest
-.
-ini
-'
-'
 mozfile
 /
 tests

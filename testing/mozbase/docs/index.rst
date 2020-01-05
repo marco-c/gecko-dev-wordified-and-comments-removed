@@ -368,7 +368,6 @@ gettinginfo
 setuprunning
 mozhttpd
 loggingreporting
-devicemanagement
 Indices
 and
 tables
