@@ -4972,7 +4972,7 @@ Label
 handle_Rectifier
 ;
 Label
-handle_IonAccessorIC
+handle_IonICCall
 ;
 Label
 handle_Entry
@@ -5059,10 +5059,10 @@ Equal
 scratch2
 Imm32
 (
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 )
 &
-handle_IonAccessorIC
+handle_IonICCall
 )
 ;
 masm
@@ -5596,7 +5596,7 @@ masm
 bind
 (
 &
-handle_IonAccessorIC
+handle_IonICCall
 )
 ;
 {
@@ -5626,7 +5626,7 @@ loadPtr
 Address
 (
 scratch2
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 offsetOfDescriptor
@@ -5691,7 +5691,7 @@ masm
 assumeUnreachable
 (
 "
-IonAccessorIC
+IonICCall
 frame
 must
 be
@@ -5731,7 +5731,7 @@ loadPtr
 Address
 (
 scratch2
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 offsetOfReturnAddress
@@ -5758,7 +5758,7 @@ Operand
 scratch2
 scratch3
 TimesOne
-IonAccessorICFrameLayout
+IonICCallFrameLayout
 :
 :
 Size

@@ -79,7 +79,7 @@ JitFrame_BaselineStub
 JitFrame_IonStub
 JitFrame_Entry
 JitFrame_Rectifier
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 JitFrame_Exit
 JitFrame_Bailout
 }
@@ -361,7 +361,7 @@ JitFrame_IonStub
 ;
 }
 bool
-isIonAccessorIC
+isIonICCall
 (
 )
 const
@@ -370,7 +370,7 @@ return
 type_
 =
 =
-JitFrame_IonAccessorIC
+JitFrame_IonICCall
 ;
 }
 bool
