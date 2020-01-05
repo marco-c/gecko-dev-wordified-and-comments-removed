@@ -2174,6 +2174,12 @@ support
 /
 png
 /
+libpng
+\
+support
+/
+png
+/
 rust
 -
 png
