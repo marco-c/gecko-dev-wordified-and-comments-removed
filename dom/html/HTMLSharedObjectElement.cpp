@@ -931,7 +931,7 @@ const
 nsMappedAttributes
 *
 aAttributes
-nsRuleData
+GenericSpecifiedValues
 *
 aData
 )
@@ -981,7 +981,7 @@ const
 nsMappedAttributes
 *
 aAttributes
-nsRuleData
+GenericSpecifiedValues
 *
 aData
 )
@@ -1012,7 +1012,7 @@ const
 nsMappedAttributes
 *
 aAttributes
-nsRuleData
+GenericSpecifiedValues
 *
 aData
 )
