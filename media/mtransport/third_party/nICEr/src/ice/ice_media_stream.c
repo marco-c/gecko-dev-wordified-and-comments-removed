@@ -2872,7 +2872,7 @@ if
 (
 r
 =
-nr_ice_peer_ctx_check_if_done
+nr_ice_peer_ctx_check_if_connected
 (
 stream
 -
@@ -3045,7 +3045,7 @@ if
 (
 r
 =
-nr_ice_peer_ctx_check_if_done
+nr_ice_peer_ctx_check_if_connected
 (
 stream
 -
