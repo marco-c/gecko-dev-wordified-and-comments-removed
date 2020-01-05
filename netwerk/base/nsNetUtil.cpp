@@ -2788,6 +2788,9 @@ uint32_t
 segcount
 bool
 closeWhenDone
+nsIEventTarget
+*
+mainThreadTarget
 )
 {
 nsresult
@@ -2827,6 +2830,7 @@ streamLen
 segsize
 segcount
 closeWhenDone
+mainThreadTarget
 )
 ;
 if

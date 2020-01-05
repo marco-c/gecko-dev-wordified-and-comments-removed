@@ -126,6 +126,11 @@ bool
 closeWhenDone
 =
 false
+nsIEventTarget
+*
+mainThreadTarget
+=
+nullptr
 )
 ;
 typedef
@@ -222,6 +227,12 @@ nsCOMPtr
 nsIEventTarget
 >
 mTargetThread
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mLabeledMainThreadTarget
 ;
 nsCOMPtr
 <
