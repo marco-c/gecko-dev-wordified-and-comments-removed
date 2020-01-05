@@ -486,10 +486,12 @@ SeekPromise
 >
 DoSeek
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTime
 )
 ;
@@ -509,10 +511,12 @@ SkipAccessPointPromise
 >
 DoSkipToNextRandomAccessPoint
 (
+const
 media
 :
 :
 TimeUnit
+&
 aTimeThreadshold
 )
 ;
