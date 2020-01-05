@@ -1489,9 +1489,6 @@ MediaDecoder
 PLAY_STATE_PLAYING
 ;
 }
-SeekJob
-mQueuedSeek
-;
 int64_t
 mFragmentEndTime
 ;
