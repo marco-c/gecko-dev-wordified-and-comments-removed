@@ -40,6 +40,10 @@ name
 :
 String
 pub
+console
+:
+String
+pub
 id
 :
 WorkerId
