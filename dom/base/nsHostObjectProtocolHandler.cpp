@@ -219,6 +219,12 @@ net
 :
 LoadInfo
 ;
+using
+mozilla
+:
+:
+Move
+;
 struct
 DataInfo
 {
@@ -2939,6 +2945,9 @@ IsEmpty
 )
 )
 {
+mozilla
+:
+:
 ReleasingTimerHolder
 :
 :
