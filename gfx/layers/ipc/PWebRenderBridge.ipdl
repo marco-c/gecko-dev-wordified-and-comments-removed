@@ -108,6 +108,9 @@ include
 LayersSurfaces
 ;
 include
+LayersMessages
+;
+include
 "
 mozilla
 /
@@ -280,6 +283,10 @@ WebRenderCommand
 [
 ]
 commands
+OpDestroy
+[
+]
+toDestroy
 uint64_t
 transactionId
 )
@@ -291,6 +298,10 @@ WebRenderCommand
 [
 ]
 commands
+OpDestroy
+[
+]
+toDestroy
 uint64_t
 transactionId
 )
