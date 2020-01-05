@@ -856,11 +856,6 @@ nsPrintSettingsImpl
 cpp
 '
 '
-nsScreenManagerProxy
-.
-cpp
-'
-'
 nsTransferable
 .
 cpp
@@ -887,11 +882,6 @@ cpp
 '
 '
 ScreenManager
-.
-cpp
-'
-'
-ScreenProxy
 .
 cpp
 '

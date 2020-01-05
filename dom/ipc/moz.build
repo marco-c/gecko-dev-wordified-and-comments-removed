@@ -364,11 +364,6 @@ ProcessPriorityManager
 cpp
 '
 '
-ScreenManagerParent
-.
-cpp
-'
-'
 StructuredCloneData
 .
 cpp
@@ -511,11 +506,6 @@ ipdl
 '
 '
 PProcessHangMonitor
-.
-ipdl
-'
-'
-PScreenManager
 .
 ipdl
 '

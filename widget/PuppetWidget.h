@@ -1738,15 +1738,6 @@ PuppetScreen
 )
 ;
 NS_IMETHOD
-GetId
-(
-uint32_t
-*
-aId
-)
-override
-;
-NS_IMETHOD
 GetRect
 (
 int32_t
