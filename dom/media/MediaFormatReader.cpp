@@ -4882,7 +4882,7 @@ p
 p
 -
 >
-Then
+ThenPromise
 (
 OwnerThread
 (
@@ -4938,11 +4938,6 @@ aError
 )
 ;
 }
-)
--
->
-CompletionPromise
-(
 )
 ;
 }
@@ -5342,7 +5337,7 @@ p
 p
 -
 >
-Then
+ThenPromise
 (
 OwnerThread
 (
@@ -5398,11 +5393,6 @@ aError
 )
 ;
 }
-)
--
->
-CompletionPromise
-(
 )
 ;
 }

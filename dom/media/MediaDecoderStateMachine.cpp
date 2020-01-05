@@ -7302,7 +7302,7 @@ Shutdown
 )
 -
 >
-Then
+ThenPromise
 (
 OwnerThread
 (
@@ -7319,11 +7319,6 @@ MediaDecoderStateMachine
 :
 :
 FinishShutdown
-)
--
->
-CompletionPromise
-(
 )
 ;
 }

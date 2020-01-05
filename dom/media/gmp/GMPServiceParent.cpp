@@ -4683,7 +4683,7 @@ dir
 )
 -
 >
-Then
+ThenPromise
 (
 AbstractThread
 :
@@ -4773,11 +4773,6 @@ get
 )
 ;
 }
-)
--
->
-CompletionPromise
-(
 )
 ;
 }
@@ -5880,7 +5875,7 @@ directory
 )
 -
 >
-Then
+ThenPromise
 (
 thread
 __func__
@@ -5977,11 +5972,6 @@ get
 )
 ;
 }
-)
--
->
-CompletionPromise
-(
 )
 ;
 }
