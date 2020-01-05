@@ -7629,7 +7629,7 @@ return
 false
 ;
 }
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -18680,7 +18680,7 @@ if
 fp_
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage

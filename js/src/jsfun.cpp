@@ -2552,7 +2552,7 @@ funNameBytes
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -11489,7 +11489,7 @@ funNameBytes
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -11560,7 +11560,7 @@ funNameBytes
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage

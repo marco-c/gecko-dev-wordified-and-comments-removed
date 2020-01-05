@@ -11475,7 +11475,7 @@ length
 2
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 my_GetErrorMessage
@@ -11510,7 +11510,7 @@ bytes2
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 my_GetErrorMessage
@@ -15839,7 +15839,7 @@ file
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 my_GetErrorMessage

@@ -748,7 +748,7 @@ bytes
 return
 false
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
