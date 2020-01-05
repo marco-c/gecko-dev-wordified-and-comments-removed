@@ -11295,7 +11295,7 @@ return
 DrawResult
 :
 :
-BAD_ARGS
+SUCCESS
 ;
 }
 gfxMatrix
