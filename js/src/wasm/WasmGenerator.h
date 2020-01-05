@@ -18,7 +18,7 @@ include
 "
 wasm
 /
-WasmBinaryFormat
+WasmModule
 .
 h
 "
@@ -27,7 +27,7 @@ include
 "
 wasm
 /
-WasmModule
+WasmValidate
 .
 h
 "

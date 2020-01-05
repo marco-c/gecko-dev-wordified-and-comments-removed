@@ -2659,13 +2659,6 @@ cpp
 '
 wasm
 /
-WasmBinaryFormat
-.
-cpp
-'
-'
-wasm
-/
 WasmBinaryIterator
 .
 cpp
@@ -2793,6 +2786,13 @@ cpp
 wasm
 /
 WasmTypes
+.
+cpp
+'
+'
+wasm
+/
+WasmValidate
 .
 cpp
 '
