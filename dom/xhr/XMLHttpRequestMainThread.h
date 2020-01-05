@@ -664,8 +664,6 @@ nsITimerCallback
 public
 nsISizeOfEventTarget
 public
-nsINamed
-public
 MutableBlobStorageCallback
 {
 friend
@@ -806,7 +804,6 @@ NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIPROGRESSEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSITIMERCALLBACK
-NS_DECL_NSINAMED
 virtual
 size_t
 SizeOfEventTargetIncludingThis
@@ -2137,14 +2134,6 @@ OnRedirectVerifyCallback
 (
 nsresult
 result
-)
-;
-void
-SetTimerEventTarget
-(
-nsITimer
-*
-aTimer
 )
 ;
 already_AddRefed
