@@ -1533,6 +1533,10 @@ compartment
 -
 >
 innerViews
+.
+get
+(
+)
 ;
 if
 (
@@ -1926,6 +1930,10 @@ compartment
 -
 >
 innerViews
+.
+get
+(
+)
 ;
 if
 (
