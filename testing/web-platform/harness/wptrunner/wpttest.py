@@ -1876,11 +1876,11 @@ wdspec
     
 default_timeout
 =
-10
+25
     
 long_timeout
 =
-60
+120
 manifest_test_cls
 =
 {
