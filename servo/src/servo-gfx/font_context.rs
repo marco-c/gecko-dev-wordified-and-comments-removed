@@ -72,7 +72,7 @@ use
 core
 :
 :
-send_map
+hashmap
 :
 :
 linear
@@ -84,7 +84,7 @@ use
 core
 :
 :
-send_map
+hashmap
 :
 :
 linear
@@ -892,7 +892,7 @@ self
 .
 generic_fonts
 .
-find_ref
+find
 (
 &
 family

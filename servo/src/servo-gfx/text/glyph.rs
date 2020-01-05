@@ -2530,7 +2530,7 @@ DetailedGlyphRecord
 vec
 :
 :
-to_mut
+cast_to_mut
 (
 move
 unsorted_records
@@ -2551,7 +2551,7 @@ sorted_records
 vec
 :
 :
-from_mut
+cast_from_mut
 (
 move
 mut_records

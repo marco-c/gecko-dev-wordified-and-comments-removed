@@ -1781,6 +1781,7 @@ get_face_rec
 self
 /
 FT_FaceRec
+{
 unsafe
 {
 &
@@ -1790,6 +1791,7 @@ self
 .
 face
 )
+}
 }
 priv
 fn

@@ -435,7 +435,6 @@ NodeScope
 -
 >
 jsobj
-unsafe
 {
 do
 scope

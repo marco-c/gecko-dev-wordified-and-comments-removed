@@ -1320,7 +1320,6 @@ ImageCacheTask
 -
 >
 HtmlParserResult
-unsafe
 {
 /
 /
@@ -1475,6 +1474,8 @@ move
 url
 )
 ;
+unsafe
+{
 /
 /
 Build
@@ -2475,6 +2476,7 @@ hubbub
 :
 NodeDataPtr
 |
+{
 unsafe
 {
 debug
@@ -2504,8 +2506,6 @@ child
 )
 )
 ;
-unsafe
-{
 let
 p
 :
@@ -2678,8 +2678,6 @@ move
 data
 )
 ;
-unsafe
-{
 cast
 :
 :
@@ -2693,7 +2691,6 @@ unwrap
 new_node
 )
 )
-}
 }
 }
 reparent_children
@@ -2867,6 +2864,7 @@ Chan
 JSMessage
 >
 )
+{
 unsafe
 {
 do
@@ -2987,6 +2985,7 @@ _
 =
 >
 {
+}
 }
 }
 }
@@ -3129,4 +3128,5 @@ js_port
 js_port
 }
 ;
+}
 }

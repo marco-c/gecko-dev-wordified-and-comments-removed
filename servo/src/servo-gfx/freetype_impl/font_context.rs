@@ -218,7 +218,6 @@ FontHandle
 (
 )
 >
-unsafe
 {
 debug
 !

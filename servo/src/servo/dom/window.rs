@@ -172,6 +172,7 @@ JSVal
 -
 >
 TimerData
+{
 unsafe
 {
 let
@@ -229,6 +230,7 @@ i
 ;
 move
 data
+}
 }
 /
 /

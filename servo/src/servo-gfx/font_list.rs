@@ -24,13 +24,10 @@ use
 core
 :
 :
-send_map
+hashmap
 :
 :
-{
 linear
-SendMap
-}
 ;
 #
 [
@@ -336,6 +333,9 @@ linear
 :
 :
 LinearMap
+:
+:
+new
 (
 )
 }
@@ -619,7 +619,7 @@ self
 .
 family_map
 .
-find
+find_copy
 (
 &
 str

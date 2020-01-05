@@ -754,6 +754,7 @@ hb_buffer_t
 -
 >
 ShapedGlyphData
+{
 unsafe
 {
 let
@@ -844,6 +845,7 @@ pos_infos
 pos_infos
 }
 }
+}
 #
 [
 inline
@@ -866,7 +868,6 @@ uint
 -
 >
 uint
-unsafe
 {
 assert
 i
@@ -889,7 +890,8 @@ glyph_infos
 i
 )
 ;
-return
+unsafe
+{
 (
 *
 glyph_info_i
@@ -898,7 +900,7 @@ glyph_info_i
 cluster
 as
 uint
-;
+}
 }
 pure
 fn
@@ -947,7 +949,6 @@ Au
 -
 >
 ShapedGlyphEntry
-unsafe
 {
 assert
 i
@@ -1152,6 +1153,8 @@ y_offset
 )
 }
 ;
+unsafe
+{
 ShapedGlyphEntry
 {
 cluster
@@ -1181,6 +1184,7 @@ offset
 :
 move
 offset
+}
 }
 }
 }
@@ -3296,7 +3300,6 @@ c_void
 -
 >
 hb_bool_t
-unsafe
 {
 let
 font
@@ -3316,6 +3319,8 @@ is_not_null
 (
 )
 ;
+unsafe
+{
 return
 match
 (
@@ -3355,6 +3360,7 @@ as
 hb_bool_t
 ;
 }
+}
 extern
 fn
 glyph_h_advance_func
@@ -3378,7 +3384,6 @@ c_void
 -
 >
 hb_position_t
-unsafe
 {
 let
 font
@@ -3398,6 +3403,8 @@ is_not_null
 (
 )
 ;
+unsafe
+{
 let
 advance
 =
@@ -3421,6 +3428,7 @@ float_to_fixed
 advance
 )
 }
+}
 extern
 fn
 get_font_table_func
@@ -3441,6 +3449,7 @@ c_void
 >
 *
 hb_blob_t
+{
 unsafe
 {
 let
@@ -3578,6 +3587,7 @@ blob
 }
 }
 }
+}
 extern
 fn
 destroy_blob_func
@@ -3587,7 +3597,6 @@ user_data
 *
 c_void
 )
-unsafe
 {
 let
 _wrapper
@@ -3596,6 +3605,8 @@ _wrapper
 ~
 FontTable
 =
+unsafe
+{
 cast
 :
 :
@@ -3603,5 +3614,6 @@ transmute
 (
 user_data
 )
+}
 ;
 }

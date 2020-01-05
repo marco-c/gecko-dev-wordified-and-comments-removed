@@ -309,6 +309,7 @@ JSVal
 -
 >
 JSBool
+{
 unsafe
 {
 let
@@ -391,6 +392,7 @@ return
 1
 ;
 }
+}
 extern
 fn
 close
@@ -410,6 +412,7 @@ JSVal
 -
 >
 JSBool
+{
 unsafe
 {
 (
@@ -440,6 +443,7 @@ JSVAL_NULL
 return
 1
 ;
+}
 }
 unsafe
 fn

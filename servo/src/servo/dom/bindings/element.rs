@@ -658,6 +658,7 @@ JSVal
 -
 >
 JSBool
+{
 unsafe
 {
 let
@@ -885,6 +886,7 @@ return
 1
 ;
 }
+}
 #
 [
 allow
@@ -912,6 +914,7 @@ JSVal
 -
 >
 JSBool
+{
 unsafe
 {
 let
@@ -1085,6 +1088,7 @@ element
 return
 1
 ;
+}
 }
 #
 [
@@ -1271,7 +1275,6 @@ NodeScope
 -
 >
 jsobj
-unsafe
 {
 let
 proto

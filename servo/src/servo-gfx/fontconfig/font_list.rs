@@ -120,13 +120,10 @@ use
 core
 :
 :
-send_map
+hashmap
 :
 :
-{
 linear
-SendMap
-}
 ;
 use
 libc
@@ -201,6 +198,9 @@ linear
 :
 :
 LinearMap
+:
+:
+new
 (
 )
 ;
@@ -851,6 +851,7 @@ str
 (
 )
 >
+{
 unsafe
 {
 let
@@ -1098,4 +1099,5 @@ as
 u8
 )
 )
+}
 }

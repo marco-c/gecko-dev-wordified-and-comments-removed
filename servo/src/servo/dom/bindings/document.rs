@@ -444,6 +444,7 @@ JSVal
 -
 >
 JSBool
+{
 unsafe
 {
 let
@@ -526,6 +527,7 @@ ptr
 return
 1
 ;
+}
 }
 unsafe
 fn
