@@ -24,7 +24,7 @@ cocoa
 .
 4
 .
-3
+4
 (
 registry
 +
@@ -3566,7 +3566,7 @@ version
 .
 4
 .
-3
+4
 "
 source
 =
@@ -10809,7 +10809,7 @@ glutin
 .
 4
 .
-23
+25
 (
 registry
 +
@@ -28205,7 +28205,7 @@ version
 .
 4
 .
-23
+25
 "
 source
 =
@@ -28297,7 +28297,7 @@ cocoa
 .
 4
 .
-3
+4
 (
 registry
 +
@@ -29253,7 +29253,7 @@ glutin
 .
 4
 .
-23
+25
 (
 registry
 +

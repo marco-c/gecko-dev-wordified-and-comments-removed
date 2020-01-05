@@ -601,11 +601,6 @@ Servo
 "
 )
 )
-.
-with_transparent_corner_radius
-(
-8
-)
 }
 #
 [
@@ -1908,6 +1903,7 @@ MouseInput
 (
 element_state
 mouse_button
+_
 )
 =
 >
