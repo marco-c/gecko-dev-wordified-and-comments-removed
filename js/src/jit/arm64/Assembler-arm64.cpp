@@ -585,6 +585,8 @@ executableCopy
 uint8_t
 *
 buffer
+bool
+flushICache
 )
 {
 armbuffer_
@@ -759,6 +761,10 @@ else
 {
 }
 }
+if
+(
+flushICache
+)
 AutoFlushICache
 :
 :
