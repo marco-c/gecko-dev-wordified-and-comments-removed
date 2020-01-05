@@ -1105,7 +1105,7 @@ mCallback
 RejectPromise
 (
 aPromiseId
-kGMPInvalidAccessError
+kGMPTypeError
 nullptr
 0
 )
@@ -1160,7 +1160,7 @@ mCallback
 RejectPromise
 (
 aPromiseId
-kGMPInvalidAccessError
+kGMPTypeError
 nullptr
 0
 )
