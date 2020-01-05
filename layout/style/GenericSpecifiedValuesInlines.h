@@ -20,15 +20,6 @@ GenericSpecifiedValues
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ServoSpecifiedValues
-.
-h
-"
 namespace
 mozilla
 {
@@ -36,7 +27,7 @@ MOZ_DEFINE_STYLO_METHODS
 (
 GenericSpecifiedValues
 nsRuleData
-ServoSpecifiedValues
+nsRuleData
 )
 bool
 GenericSpecifiedValues

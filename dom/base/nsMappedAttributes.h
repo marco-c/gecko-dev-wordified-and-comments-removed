@@ -293,9 +293,14 @@ const
 void
 LazilyResolveServoDeclaration
 (
-nsPresContext
+nsRuleData
 *
-aPresContext
+aRuleData
+nsCSSPropertyID
+*
+aIndexToIdMapping
+size_t
+aRuleDataSize
 )
 ;
 const
