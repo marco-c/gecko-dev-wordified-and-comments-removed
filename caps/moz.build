@@ -268,11 +268,6 @@ DomainPolicy
 cpp
 '
 '
-nsExpandedPrincipal
-.
-cpp
-'
-'
 nsJSPrincipals
 .
 cpp
