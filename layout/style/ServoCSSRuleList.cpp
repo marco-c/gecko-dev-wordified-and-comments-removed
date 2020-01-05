@@ -402,11 +402,6 @@ aIndex
 {
 return
 rule
--
->
-GetDOMRule
-(
-)
 ;
 }
 return
