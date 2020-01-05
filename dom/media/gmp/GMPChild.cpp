@@ -1107,7 +1107,14 @@ logging
 .
 enabled
 "
-true
+)
+|
+|
+PR_GetEnv
+(
+"
+MOZ_SANDBOX_LOGGING
+"
 )
 ;
 info

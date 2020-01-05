@@ -397,9 +397,9 @@ security
 .
 sandbox
 .
-windows
+logging
 .
-log
+enabled
 "
 )
 |
@@ -407,7 +407,7 @@ log
 PR_GetEnv
 (
 "
-MOZ_WIN_SANDBOX_LOGGING
+MOZ_SANDBOX_LOGGING
 "
 )
 )
