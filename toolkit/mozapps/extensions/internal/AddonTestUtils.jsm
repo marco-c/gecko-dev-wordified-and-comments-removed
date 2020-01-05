@@ -5089,6 +5089,15 @@ entry
 target
 )
 ;
+target
+.
+permissions
+|
+=
+FileUtils
+.
+PERMS_FILE
+;
 }
 zip
 .
