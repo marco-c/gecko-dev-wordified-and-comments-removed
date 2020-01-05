@@ -506,6 +506,9 @@ aData
 mCbCrStride
 aStride
 yuvtype
+aData
+.
+mYUVColorSpace
 FILTER_BILINEAR
 )
 ;
@@ -607,6 +610,9 @@ aData
 mCbCrStride
 aStride
 yuvtype
+aData
+.
+mYUVColorSpace
 )
 ;
 }

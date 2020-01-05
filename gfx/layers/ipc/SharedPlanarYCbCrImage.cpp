@@ -528,6 +528,10 @@ GetForwarder
 (
 )
 size
+YUVColorSpace
+:
+:
+BT601
 mCompositable
 -
 >
@@ -746,6 +750,9 @@ crOffset
 aData
 .
 mStereoMode
+aData
+.
+mYUVColorSpace
 hasIntermediateBuffer
 )
 )
@@ -1020,6 +1027,14 @@ mStereoMode
 aData
 .
 mStereoMode
+;
+mData
+.
+mYUVColorSpace
+=
+aData
+.
+mYUVColorSpace
 ;
 mData
 .

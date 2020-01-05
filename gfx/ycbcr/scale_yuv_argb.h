@@ -23,6 +23,13 @@ scale
 h
 "
 #
+include
+"
+ImageTypes
+.
+h
+"
+#
 ifdef
 __cplusplus
 namespace
@@ -58,6 +65,11 @@ int
 src_stride_v
 uint32
 src_fourcc
+mozilla
+:
+:
+YUVColorSpace
+yuv_color_space
 int
 src_width
 int

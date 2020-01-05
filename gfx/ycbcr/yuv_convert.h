@@ -11,6 +11,13 @@ chromium_types
 .
 h
 "
+#
+include
+"
+ImageTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -108,6 +115,8 @@ int
 rgbstride
 YUVType
 yuv_type
+YUVColorSpace
+yuv_color_space
 )
 ;
 void
@@ -180,6 +189,8 @@ int
 rgbstride
 YUVType
 yuv_type
+YUVColorSpace
+yuv_color_space
 ScaleFilter
 filter
 )

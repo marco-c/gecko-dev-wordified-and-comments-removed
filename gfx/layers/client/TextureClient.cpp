@@ -5404,6 +5404,8 @@ IntSize
 aCbCrSize
 StereoMode
 aStereoMode
+YUVColorSpace
+aYUVColorSpace
 TextureFlags
 aTextureFlags
 )
@@ -5482,6 +5484,7 @@ aAllocator
 aYSize
 aCbCrSize
 aStereoMode
+aYUVColorSpace
 aTextureFlags
 )
 ;
@@ -5530,6 +5533,8 @@ KnowsCompositor
 aAllocator
 size_t
 aSize
+YUVColorSpace
+aYUVColorSpace
 TextureFlags
 aTextureFlags
 )
@@ -5587,6 +5592,7 @@ CreateForYCbCrWithBufferSize
 (
 aAllocator
 aSize
+aYUVColorSpace
 aTextureFlags
 )
 ;

@@ -1643,6 +1643,15 @@ MONO
 ;
 clientData
 .
+mYUVColorSpace
+=
+YUVColorSpace
+:
+:
+BT601
+;
+clientData
+.
 mYSkip
 =
 0
@@ -1699,6 +1708,10 @@ StereoMode
 :
 :
 MONO
+YUVColorSpace
+:
+:
+BT601
 TextureFlags
 :
 :
