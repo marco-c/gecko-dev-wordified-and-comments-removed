@@ -57,9 +57,6 @@ rs
 test
 =
 false
-doc
-=
-false
 bench
 =
 false

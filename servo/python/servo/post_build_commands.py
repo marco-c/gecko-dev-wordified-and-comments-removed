@@ -1703,16 +1703,10 @@ build_env
 )
 cwd
 =
-path
+self
 .
-join
+servo_crate
 (
-'
-components
-'
-'
-servo
-'
 )
 )
     
