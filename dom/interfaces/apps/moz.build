@@ -90,11 +90,6 @@ XPIDL_SOURCES
 =
 [
 '
-mozIApplication
-.
-idl
-'
-'
 nsIAppsService
 .
 idl
