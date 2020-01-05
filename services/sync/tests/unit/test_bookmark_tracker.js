@@ -358,6 +358,13 @@ lastSync
 =
 0
 ;
+engine
+.
+_needWeakReupload
+.
+clear
+(
+)
 store
 .
 wipe
