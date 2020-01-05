@@ -104,6 +104,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIIdentityCryptoService
+.
+idl
+'
+'
 nsISyncJPAKE
 .
 idl
@@ -122,6 +127,11 @@ SOURCES
 +
 =
 [
+'
+IdentityCryptoService
+.
+cpp
+'
 '
 nsSyncJPAKE
 .

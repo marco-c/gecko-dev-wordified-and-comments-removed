@@ -1312,13 +1312,6 @@ RESPATH
 /
 components
 /
-identity
-.
-xpt
-RESPATH
-/
-components
-/
 imglib2
 .
 xpt
