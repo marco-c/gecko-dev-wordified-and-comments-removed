@@ -77,7 +77,7 @@ h
 #
 include
 "
-nsHtml5Atoms
+nsGkAtoms
 .
 h
 "

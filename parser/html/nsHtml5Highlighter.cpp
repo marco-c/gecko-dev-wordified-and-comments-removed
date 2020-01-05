@@ -562,7 +562,7 @@ root
 =
 CreateElement
 (
-nsHtml5Atoms
+nsGkAtoms
 :
 :
 html

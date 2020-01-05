@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsHtml5Atoms
-.
-h
-"
-#
-include
-"
 nsHtml5ByteReadable
 .
 h
