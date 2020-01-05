@@ -1840,7 +1840,6 @@ global
 return
 nullptr
 ;
-}
 if
 (
 hookOption
@@ -1857,6 +1856,7 @@ cx
 global
 )
 ;
+}
 return
 global
 ;

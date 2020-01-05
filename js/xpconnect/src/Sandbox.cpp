@@ -6121,6 +6121,13 @@ options
 metadata
 )
 ;
+JSAutoCompartment
+ac
+(
+cx
+sandbox
+)
+;
 JS_FireOnNewGlobalObject
 (
 cx
