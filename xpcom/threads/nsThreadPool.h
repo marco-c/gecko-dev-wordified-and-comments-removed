@@ -161,6 +161,12 @@ mozilla
 Mutex
 mMutex
 ;
+mozilla
+:
+:
+CondVar
+mEventsAvailable
+;
 nsEventQueue
 mEvents
 ;

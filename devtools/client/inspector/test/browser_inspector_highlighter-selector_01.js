@@ -207,6 +207,11 @@ containerCount
 }
 ]
 ;
+requestLongerTimeout
+(
+5
+)
+;
 add_task
 (
 function

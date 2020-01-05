@@ -1405,6 +1405,8 @@ RefPtr
 MessageTask
 >
 >
+public
+nsIRunnablePriority
 {
 public
 :
@@ -1437,6 +1439,7 @@ false
 )
 {
 }
+NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 Run
 (
@@ -1446,6 +1449,15 @@ override
 nsresult
 Cancel
 (
+)
+override
+;
+NS_IMETHOD
+GetPriority
+(
+uint32_t
+*
+aPriority
 )
 override
 ;
@@ -1508,6 +1520,12 @@ MessageTask
 =
 delete
 ;
+~
+MessageTask
+(
+)
+{
+}
 MessageChannel
 *
 mChannel
