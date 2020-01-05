@@ -1191,4 +1191,6 @@ mach
 CUSTOM_MACH_COMMAND
 }
 "
+exit
+?
 fi
