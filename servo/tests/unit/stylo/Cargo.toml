@@ -69,6 +69,17 @@ app_units
 .
 3
 "
+cssparser
+=
+{
+version
+=
+"
+0
+.
+7
+"
+}
 env_logger
 =
 "
