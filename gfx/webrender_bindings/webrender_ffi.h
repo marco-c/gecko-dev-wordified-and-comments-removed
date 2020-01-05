@@ -85,7 +85,7 @@ uint32_t
 WREpoch
 ;
 struct
-WRColor
+WrColor
 {
 float
 r
@@ -105,7 +105,7 @@ operator
 =
 (
 const
-WRColor
+WrColor
 &
 aRhs
 )
@@ -333,7 +333,7 @@ WRBorderSide
 float
 width
 ;
-WRColor
+WrColor
 color
 ;
 WRBorderStyle
@@ -1206,7 +1206,7 @@ WrRect
 bounds
 WrRect
 clip
-WRColor
+WrColor
 color
 WRFontKey
 font_Key

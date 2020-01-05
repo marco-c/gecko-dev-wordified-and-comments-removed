@@ -1587,7 +1587,7 @@ wr_dp_push_text
 mWrState
 aBounds
 aClip
-ToWRColor
+ToWrColor
 (
 aColor
 )

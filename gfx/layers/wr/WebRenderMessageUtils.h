@@ -210,7 +210,7 @@ template
 struct
 ParamTraits
 <
-WRColor
+WrColor
 >
 {
 static
@@ -221,7 +221,7 @@ Message
 *
 aMsg
 const
-WRColor
+WrColor
 &
 aParam
 )
@@ -270,7 +270,7 @@ aMsg
 PickleIterator
 *
 aIter
-WRColor
+WrColor
 *
 aResult
 )
