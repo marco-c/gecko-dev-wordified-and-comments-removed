@@ -754,6 +754,7 @@ intent
 ;
 }
 VisibleForTesting
+RobocopTarget
 public
 State
 getAudioFocusState
@@ -765,6 +766,7 @@ mAudioFocusState
 ;
 }
 VisibleForTesting
+RobocopTarget
 public
 void
 changeAudioFocus
