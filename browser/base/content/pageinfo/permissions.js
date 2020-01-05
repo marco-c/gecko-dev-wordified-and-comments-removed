@@ -1006,7 +1006,7 @@ label
 "
 SitePermissions
 .
-getStateLabel
+getMultichoiceStateLabel
 (
 state
 )
