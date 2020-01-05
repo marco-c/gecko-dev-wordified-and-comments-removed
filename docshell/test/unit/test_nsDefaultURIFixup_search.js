@@ -714,7 +714,6 @@ http
 /
 /
 user
-:
 example
 .
 com

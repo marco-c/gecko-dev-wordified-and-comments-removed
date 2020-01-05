@@ -857,7 +857,6 @@ ftp
 /
 /
 foo
-:
 ftp
 .
 mozilla
