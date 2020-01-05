@@ -19,7 +19,7 @@ base
 :
 {
 es_img
-nk_element
+Element
 node
 }
 ;
@@ -131,7 +131,7 @@ node
 kind
 {
 ~
-nk_element
+Element
 (
 element
 )
