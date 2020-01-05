@@ -1387,11 +1387,6 @@ IDBVersionChangeEvent
 webidl
 '
 '
-IdleDeadline
-.
-webidl
-'
-'
 IIRFilterNode
 .
 webidl
@@ -1443,6 +1438,11 @@ webidl
 '
 '
 InspectorUtils
+.
+webidl
+'
+'
+IntersectionObserver
 .
 webidl
 '
