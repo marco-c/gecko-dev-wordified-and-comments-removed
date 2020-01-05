@@ -410,10 +410,12 @@ SetWriteOnly
 bool
 CoerceDouble
 (
+const
 JS
 :
 :
 Value
+&
 v
 double
 *

@@ -531,10 +531,12 @@ npp
 JSContext
 *
 cx
+const
 JS
 :
 :
 Value
+&
 val
 NPVariant
 *
