@@ -792,13 +792,11 @@ gBrowser
 selectedBrowser
 ;
 yield
-waitForEvent
+BrowserTestUtils
+.
+browserLoaded
 (
 browser
-"
-load
-"
-true
 )
 ;
 browser
