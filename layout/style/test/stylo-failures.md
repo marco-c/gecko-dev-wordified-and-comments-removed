@@ -276,11 +276,6 @@ html
 1
 ]
 *
-*
-disabled
-*
-*
-*
 test_bug418986
 -
 2
@@ -1235,11 +1230,6 @@ html
 [
 3
 ]
-*
-*
-disabled
-*
-*
 *
 namespace
 support
