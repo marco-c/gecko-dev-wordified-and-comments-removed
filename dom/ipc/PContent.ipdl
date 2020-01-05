@@ -2382,6 +2382,8 @@ nsCString
 ID
 nsCString
 vendor
+bool
+safeMode
 )
 ;
 /
