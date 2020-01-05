@@ -2387,6 +2387,25 @@ app
 )
 )
         
+else
+:
+            
+extra_allowed
+.
+append
+(
+(
+'
+mozglue_android
+'
+'
+mozglue
+/
+android
+'
+)
+)
+        
 if
 key
 in
