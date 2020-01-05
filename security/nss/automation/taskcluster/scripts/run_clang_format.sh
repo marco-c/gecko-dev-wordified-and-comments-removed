@@ -335,6 +335,14 @@ top
 /
 gtests
 /
+freebl_gtest
+"
+\
+"
+top
+/
+gtests
+/
 pk11_gtest
 "
 \

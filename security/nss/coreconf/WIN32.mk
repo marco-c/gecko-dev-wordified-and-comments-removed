@@ -1656,6 +1656,8 @@ Sn
 Zi
 -
 coff
+-
+safeseh
 (
 INCLUDES
 )
