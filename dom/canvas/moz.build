@@ -115,10 +115,13 @@ manifest
 :
 #
 *
-Implement
-ReadPixel
-with
-PBOs
+Adjust
+failure
+errata
+for
+webgl
+-
+conf
 .
 MOCHITEST_MANIFESTS
 +
