@@ -2269,10 +2269,6 @@ ReloadChrome
 (
 )
 {
-UpdateSelectedLocale
-(
-)
-;
 FlushAllCaches
 (
 )

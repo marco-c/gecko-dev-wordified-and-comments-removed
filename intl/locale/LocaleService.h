@@ -339,6 +339,17 @@ nsCString
 aRetVal
 )
 ;
+void
+NegotiateAppLocales
+(
+nsTArray
+<
+nsCString
+>
+&
+aRetVal
+)
+;
 virtual
 ~
 LocaleService
