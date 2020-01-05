@@ -99,10 +99,6 @@ extern
 crate
 app_units
 ;
-extern
-crate
-azure
-;
 #
 [
 allow

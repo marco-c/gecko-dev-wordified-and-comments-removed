@@ -5,15 +5,6 @@ app_units
 Au
 ;
 use
-azure
-:
-:
-azure_hl
-:
-:
-Color
-;
-use
 euclid
 :
 :
@@ -204,6 +195,8 @@ webrender_traits
 :
 {
 self
+ColorF
+GradientStop
 WebGLContextId
 }
 ;
@@ -216,16 +209,6 @@ dom
 :
 :
 OpaqueNode
-;
-pub
-use
-azure
-:
-:
-azure_hl
-:
-:
-GradientStop
 ;
 pub
 static
@@ -3762,7 +3745,7 @@ BaseDisplayItem
 pub
 color
 :
-Color
+ColorF
 }
 #
 [
@@ -3812,7 +3795,7 @@ ByteIndex
 pub
 text_color
 :
-Color
+ColorF
 pub
 baseline_origin
 :
@@ -4042,7 +4025,7 @@ color
 :
 SideOffsets2D
 <
-Color
+ColorF
 >
 pub
 style
@@ -4560,7 +4543,7 @@ BaseDisplayItem
 pub
 color
 :
-Color
+ColorF
 pub
 style
 :
@@ -4604,7 +4587,7 @@ Au
 pub
 color
 :
-Color
+ColorF
 pub
 blur_radius
 :
