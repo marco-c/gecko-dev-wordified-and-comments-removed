@@ -2166,10 +2166,7 @@ Option
 <
 Arc
 <
-Box
-<
 Image
->
 >
 >
 {

@@ -69,10 +69,7 @@ Option
 <
 Arc
 <
-Box
-<
 Image
->
 >
 >
 cached_size
@@ -335,10 +332,7 @@ Option
 <
 Arc
 <
-Box
-<
 Image
->
 >
 >
 {
@@ -386,10 +380,7 @@ Option
 <
 Arc
 <
-Box
-<
 Image
->
 >
 >
 {

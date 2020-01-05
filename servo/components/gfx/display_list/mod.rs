@@ -3841,10 +3841,7 @@ image
 :
 Arc
 <
-Box
-<
 Image
->
 >
 pub
 stretch_size
