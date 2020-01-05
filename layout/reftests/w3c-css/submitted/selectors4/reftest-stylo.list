@@ -73,7 +73,6 @@ within
 3
 .
 html
-fails
 =
 =
 dir
@@ -107,7 +106,6 @@ style
 01b
 .
 html
-fails
 =
 =
 dir
@@ -141,7 +139,6 @@ style
 02b
 .
 html
-fails
 =
 =
 dir
@@ -175,7 +172,6 @@ style
 03b
 .
 html
-fails
 =
 =
 dir

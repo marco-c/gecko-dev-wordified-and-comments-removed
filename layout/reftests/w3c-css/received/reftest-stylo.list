@@ -7835,7 +7835,6 @@ selector
 required
 .
 html
-fails
 =
 =
 selectors
@@ -7868,7 +7867,6 @@ ltr
 001
 .
 html
-fails
 =
 =
 selectors
