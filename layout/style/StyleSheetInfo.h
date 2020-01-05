@@ -46,7 +46,7 @@ namespace
 mozilla
 {
 class
-CSSStyleSheet
+StyleSheet
 ;
 }
 class
@@ -121,6 +121,12 @@ mIntegrity
 ;
 bool
 mComplete
+;
+RefPtr
+<
+StyleSheet
+>
+mFirstChild
 ;
 #
 ifdef

@@ -372,6 +372,13 @@ StyleSheet
 aSheet
 )
 ;
+StyleSheet
+*
+GetFirstChild
+(
+)
+const
+;
 inline
 nsIPrincipal
 *
