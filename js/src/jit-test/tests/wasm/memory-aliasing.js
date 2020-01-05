@@ -22,7 +22,12 @@ memory
 )
 (
 data
+(
+i32
+.
+const
 0
+)
 "
 \
 \
