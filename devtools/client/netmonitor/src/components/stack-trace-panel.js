@@ -92,8 +92,7 @@ stacktrace
 onViewSourceInDebugger
 :
 (
-name
-line
+frame
 )
 =
 >
@@ -104,7 +103,11 @@ NetMonitorController
 .
 viewSourceInDebugger
 (
-name
+frame
+.
+url
+frame
+.
 line
 )
 ;
