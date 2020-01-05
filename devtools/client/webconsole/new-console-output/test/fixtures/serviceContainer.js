@@ -64,5 +64,16 @@ openLink
 >
 {
 }
+createElement
+:
+tagName
+=
+>
+document
+.
+createElement
+(
+tagName
+)
 }
 ;

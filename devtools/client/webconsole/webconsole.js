@@ -2169,6 +2169,9 @@ toolbox
 this
 .
 owner
+this
+.
+document
 )
 ;
 let
