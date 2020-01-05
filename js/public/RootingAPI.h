@@ -2653,7 +2653,6 @@ return
 storage
 ;
 }
-MOZ_UBSAN_BLACKLIST_FUNCTION
 static
 void
 TraceWrapped

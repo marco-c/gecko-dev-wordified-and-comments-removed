@@ -271,7 +271,6 @@ return
 cache
 ;
 }
-MOZ_UBSAN_BLACKLIST_FUNCTION
 void
 sweep
 (
