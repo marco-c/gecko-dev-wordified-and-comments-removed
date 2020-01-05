@@ -157,7 +157,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -193,7 +192,6 @@ timing
 &
 Window
 (
-*
 window
 )
 PerformanceTimingBinding

@@ -518,7 +518,6 @@ new_uninitialized
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -543,7 +542,6 @@ new_inherited
 &
 Window
 (
-*
 window
 )
 MouseEventBinding
@@ -558,7 +556,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -673,7 +670,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 ev
 )
@@ -1112,7 +1108,6 @@ EventTarget
 let
 uievent
 :
-&
 JSRef
 <
 UIEvent
@@ -1123,6 +1118,7 @@ UIEventCast
 :
 from_ref
 (
+*
 self
 )
 ;

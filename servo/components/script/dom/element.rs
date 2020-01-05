@@ -695,7 +695,6 @@ DOMString
 >
 document
 :
-&
 JSRef
 <
 Document
@@ -804,7 +803,6 @@ DOMString
 >
 document
 :
-&
 JSRef
 <
 Document
@@ -1585,7 +1583,6 @@ bool
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -1596,6 +1593,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1870,7 +1868,6 @@ DOMString
 cb
 :
 |
-&
 JSRef
 <
 Attr
@@ -2216,7 +2213,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 x
 )
@@ -2383,7 +2379,6 @@ contains
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -2394,6 +2389,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2475,7 +2471,6 @@ DOMString
 cb
 :
 |
-&
 JSRef
 <
 Attr
@@ -2524,7 +2519,6 @@ attr
 |
 cb
 (
-&
 *
 attr
 )
@@ -2558,6 +2552,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -2573,7 +2568,6 @@ Attr
 :
 new
 (
-&
 *
 window
 local_name
@@ -2589,6 +2583,7 @@ clone
 (
 )
 prefix
+*
 self
 )
 ;
@@ -2695,11 +2690,13 @@ Null
 {
 vtable_for
 (
+&
 NodeCast
 :
 :
 from_ref
 (
+*
 self
 )
 )
@@ -2826,7 +2823,6 @@ idx
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -2837,6 +2833,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -2887,11 +2884,13 @@ Value
 ;
 vtable_for
 (
+&
 NodeCast
 :
 :
 from_ref
 (
+*
 self
 )
 )
@@ -2939,7 +2938,6 @@ Atom
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -2950,6 +2948,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -4332,6 +4331,7 @@ DOMTokenList
 :
 new
 (
+*
 self
 "
 class
@@ -4367,7 +4367,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 class_list
 )
@@ -4448,7 +4447,6 @@ doc
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -4459,6 +4457,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -4496,9 +4495,9 @@ NamedNodeMap
 :
 new
 (
-&
 *
 window
+*
 self
 )
 ;
@@ -4758,7 +4757,6 @@ ErrorResult
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -4769,6 +4767,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -4974,7 +4973,6 @@ ErrorResult
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -4985,6 +4983,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -5628,6 +5627,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -5640,7 +5640,6 @@ HTMLCollection
 :
 by_tag_name
 (
-&
 *
 window
 NodeCast
@@ -5648,6 +5647,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 localname
@@ -5680,6 +5680,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -5692,7 +5693,6 @@ HTMLCollection
 :
 by_tag_name_ns
 (
-&
 *
 window
 NodeCast
@@ -5700,6 +5700,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 localname
@@ -5727,6 +5728,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -5739,7 +5741,6 @@ HTMLCollection
 :
 by_class_name
 (
-&
 *
 window
 NodeCast
@@ -5747,6 +5748,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 classes
@@ -5794,6 +5796,7 @@ win
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -5804,7 +5807,6 @@ root
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -5815,6 +5817,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -5855,7 +5858,6 @@ DOMRect
 :
 new
 (
-&
 *
 win
 r
@@ -5907,7 +5909,6 @@ DOMRectList
 :
 new
 (
-&
 *
 win
 rects
@@ -5979,6 +5980,7 @@ win
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -5989,7 +5991,6 @@ root
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -6000,6 +6001,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6017,7 +6019,6 @@ DOMRect
 :
 new
 (
-&
 *
 win
 rect
@@ -6090,6 +6091,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 false
@@ -6127,6 +6129,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 true
@@ -6173,6 +6176,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -6185,7 +6189,6 @@ HTMLCollection
 :
 children
 (
-&
 *
 window
 NodeCast
@@ -6193,6 +6196,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 )
@@ -6242,7 +6246,6 @@ Element
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -6253,6 +6256,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6305,7 +6309,6 @@ NodeList
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -6316,6 +6319,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6356,7 +6360,6 @@ self
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -6367,6 +6370,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6445,7 +6449,6 @@ selectors
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -6456,6 +6459,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6464,6 +6468,7 @@ Ok
 matches
 (
 selectors
+&
 root
 &
 mut
@@ -6640,7 +6645,7 @@ Node
 NodeCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -6716,6 +6721,7 @@ doc
 =
 document_from_node
 (
+*
 self
 )
 .
@@ -6789,7 +6795,6 @@ id
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -6800,6 +6805,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6823,6 +6829,7 @@ doc
 =
 document_from_node
 (
+*
 self
 )
 .
@@ -6834,6 +6841,7 @@ doc
 .
 register_named_element
 (
+*
 self
 value
 .
@@ -6945,7 +6953,6 @@ id
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -6956,6 +6963,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -6979,6 +6987,7 @@ doc
 =
 document_from_node
 (
+*
 self
 )
 .
@@ -6990,6 +6999,7 @@ doc
 .
 unregister_named_element
 (
+*
 self
 value
 )
@@ -7144,6 +7154,7 @@ doc
 =
 document_from_node
 (
+*
 self
 )
 .
@@ -7180,6 +7191,7 @@ deref
 .
 register_named_element
 (
+*
 self
 value
 )
@@ -7263,6 +7275,7 @@ doc
 =
 document_from_node
 (
+*
 self
 )
 .
@@ -7299,6 +7312,7 @@ deref
 .
 unregister_named_element
 (
+*
 self
 value
 )
@@ -7429,7 +7443,6 @@ only
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -7440,6 +7453,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7591,7 +7605,6 @@ bool
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -7602,6 +7615,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7707,7 +7721,6 @@ bool
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -7718,6 +7731,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -7740,7 +7754,6 @@ bool
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -7751,6 +7764,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;

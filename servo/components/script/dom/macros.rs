@@ -68,7 +68,6 @@ StrAsciiExt
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -79,6 +78,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -169,7 +169,6 @@ StrAsciiExt
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -180,6 +179,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -270,7 +270,6 @@ StrAsciiExt
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -281,6 +280,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;

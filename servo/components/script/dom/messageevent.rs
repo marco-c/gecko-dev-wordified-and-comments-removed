@@ -351,7 +351,6 @@ root
 let
 event
 :
-&
 JSRef
 <
 Event
@@ -362,7 +361,6 @@ EventCast
 :
 from_ref
 (
-&
 *
 ev
 )
@@ -381,7 +379,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 ev
 )
@@ -469,7 +466,6 @@ dispatch_jsval
 (
 target
 :
-&
 JSRef
 <
 EventTarget
@@ -523,7 +519,6 @@ root
 let
 event
 :
-&
 JSRef
 <
 Event
@@ -534,7 +529,6 @@ EventCast
 :
 from_ref
 (
-&
 *
 messageevent
 )
@@ -544,8 +538,6 @@ target
 dispatch_event_with_target
 (
 None
-&
-*
 event
 )
 .

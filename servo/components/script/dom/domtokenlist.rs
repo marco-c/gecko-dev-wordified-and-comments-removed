@@ -195,7 +195,6 @@ new_inherited
 (
 element
 :
-&
 JSRef
 <
 Element
@@ -241,7 +240,6 @@ new
 (
 element
 :
-&
 JSRef
 <
 Element

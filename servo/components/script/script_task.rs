@@ -3561,7 +3561,6 @@ root
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -3572,7 +3571,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 document
 )
@@ -3666,7 +3664,6 @@ unwrap
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -3677,7 +3674,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 document_element
 )
@@ -3757,7 +3753,6 @@ root
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -3768,7 +3763,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 document
 )
@@ -3806,7 +3800,6 @@ Temporary
 :
 from_rooted
 (
-&
 candidate
 )
 ;
@@ -3942,7 +3935,6 @@ root
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -3953,7 +3945,6 @@ ElementCast
 :
 to_ref
 (
-&
 *
 node
 )
@@ -5520,7 +5511,6 @@ Document
 :
 new
 (
-&
 *
 window
 doc_url
@@ -5540,7 +5530,6 @@ deref
 .
 init_browser_context
 (
-&
 *
 document
 )
@@ -5664,7 +5653,6 @@ parse_html
 &
 *
 page
-&
 *
 document
 parser_input
@@ -5717,11 +5705,8 @@ JS
 :
 from_rooted
 (
+*
 document
-.
-deref
-(
-)
 )
 window
 :
@@ -5730,11 +5715,8 @@ JS
 :
 from_rooted
 (
+*
 window
-.
-deref
-(
-)
 )
 }
 )
@@ -6204,7 +6186,6 @@ root
 let
 doctarget
 :
-&
 JSRef
 <
 EventTarget
@@ -6215,7 +6196,6 @@ EventTargetCast
 :
 from_ref
 (
-&
 *
 document
 )
@@ -6223,7 +6203,6 @@ document
 let
 wintarget
 :
-&
 JSRef
 <
 EventTarget
@@ -6234,7 +6213,6 @@ EventTargetCast
 :
 from_ref
 (
-&
 *
 window
 )
@@ -6248,16 +6226,8 @@ dispatch_event_with_target
 (
 Some
 (
-(
-*
 doctarget
 )
-.
-clone
-(
-)
-)
-&
 *
 event
 )
@@ -6320,7 +6290,6 @@ pipeline_id
 PipelineId
 node
 :
-&
 JSRef
 <
 Element
@@ -6330,7 +6299,6 @@ Element
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -6652,7 +6620,6 @@ self
 scroll_fragment_point
 (
 pipeline_id
-&
 *
 node
 )
@@ -6768,7 +6735,6 @@ UIEvent
 :
 new
 (
-&
 window
 .
 clone
@@ -6801,7 +6767,6 @@ root
 let
 event
 :
-&
 JSRef
 <
 Event
@@ -6812,7 +6777,6 @@ EventCast
 :
 from_ref
 (
-&
 *
 uievent
 )
@@ -6820,7 +6784,6 @@ uievent
 let
 wintarget
 :
-&
 JSRef
 <
 EventTarget
@@ -6831,7 +6794,6 @@ EventTargetCast
 :
 from_ref
 (
-&
 *
 window
 )
@@ -7216,7 +7178,6 @@ root
 let
 eventtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -7227,7 +7188,6 @@ EventTargetCast
 :
 from_ref
 (
-&
 node
 )
 ;
@@ -7239,7 +7199,6 @@ eventtarget
 dispatch_event_with_target
 (
 None
-&
 *
 event
 )
@@ -7504,7 +7463,6 @@ JS
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -7526,7 +7484,6 @@ JS
 :
 from_rooted
 (
-&
 node
 )
 )
@@ -7781,7 +7738,6 @@ self
 scroll_fragment_point
 (
 pipeline_id
-&
 *
 node
 )

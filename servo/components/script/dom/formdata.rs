@@ -351,7 +351,6 @@ JS
 :
 from_rooted
 (
-&
 f
 )
 )
@@ -472,7 +471,6 @@ name
 DOMString
 value
 :
-&
 JSRef
 <
 Blob
@@ -495,7 +493,6 @@ JS
 :
 from_rooted
 (
-&
 self
 .
 get_file_from_blob
@@ -800,7 +797,6 @@ name
 DOMString
 value
 :
-&
 JSRef
 <
 Blob
@@ -823,7 +819,6 @@ JS
 :
 from_rooted
 (
-&
 self
 .
 get_file_from_blob
@@ -937,7 +932,6 @@ get_file_from_blob
 self
 value
 :
-&
 JSRef
 <
 Blob
@@ -969,7 +963,6 @@ get_file_from_blob
 self
 value
 :
-&
 JSRef
 <
 Blob
@@ -1004,7 +997,6 @@ f
 :
 Option
 <
-&
 JSRef
 <
 File

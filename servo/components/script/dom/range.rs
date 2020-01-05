@@ -165,7 +165,6 @@ new
 (
 document
 :
-&
 JSRef
 <
 Document
@@ -253,7 +252,6 @@ Range
 :
 new
 (
-&
 *
 document
 )

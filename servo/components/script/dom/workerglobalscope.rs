@@ -536,6 +536,7 @@ Temporary
 :
 from_rooted
 (
+*
 self
 )
 }
@@ -573,6 +574,7 @@ WorkerLocation
 :
 new
 (
+*
 self
 self
 .
@@ -880,6 +882,7 @@ WorkerNavigator
 :
 new
 (
+*
 self
 )
 ;

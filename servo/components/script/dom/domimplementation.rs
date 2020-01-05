@@ -280,7 +280,6 @@ new_inherited
 (
 document
 :
-&
 JSRef
 <
 Document
@@ -317,7 +316,6 @@ new
 (
 document
 :
-&
 JSRef
 <
 Document
@@ -539,7 +537,6 @@ Some
 (
 sysid
 )
-&
 *
 document
 )
@@ -636,12 +633,8 @@ Document
 :
 new
 (
-&
+*
 win
-.
-root_ref
-(
-)
 None
 NonHTMLDocument
 None
@@ -709,7 +702,6 @@ elem
 let
 doc_node
 :
-&
 JSRef
 <
 Node
@@ -720,7 +712,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 doc
 )
@@ -749,7 +740,6 @@ doctype
 let
 doc_type
 :
-&
 JSRef
 <
 Node
@@ -760,6 +750,7 @@ NodeCast
 :
 from_ref
 (
+*
 doctype
 )
 ;
@@ -815,7 +806,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 elem
 )
@@ -864,7 +854,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 doc
 )
@@ -946,12 +935,8 @@ Document
 :
 new
 (
-&
+*
 win
-.
-root_ref
-(
-)
 None
 HTMLDocument
 None
@@ -964,7 +949,6 @@ root
 let
 doc_node
 :
-&
 JSRef
 <
 Node
@@ -975,7 +959,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 doc
 )
@@ -1003,7 +986,6 @@ to_string
 )
 None
 None
-&
 *
 doc
 )
@@ -1024,7 +1006,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 doc_type
 )
@@ -1067,7 +1048,6 @@ html
 to_string
 (
 )
-&
 *
 doc
 )
@@ -1093,6 +1073,7 @@ doc_node
 .
 AppendChild
 (
+*
 doc_html
 )
 .
@@ -1132,7 +1113,6 @@ head
 to_string
 (
 )
-&
 *
 doc
 )
@@ -1158,6 +1138,7 @@ doc_html
 .
 AppendChild
 (
+*
 doc_head
 )
 .
@@ -1218,7 +1199,6 @@ title
 to_string
 (
 )
-&
 *
 doc
 )
@@ -1244,6 +1224,7 @@ doc_head
 .
 AppendChild
 (
+*
 doc_title
 )
 .
@@ -1273,7 +1254,6 @@ Text
 new
 (
 title_str
-&
 *
 doc
 )
@@ -1303,6 +1283,7 @@ NodeCast
 :
 from_ref
 (
+*
 title_text
 )
 )
@@ -1340,7 +1321,6 @@ body
 to_string
 (
 )
-&
 *
 doc
 )
@@ -1370,6 +1350,7 @@ NodeCast
 :
 from_ref
 (
+*
 doc_body
 )
 )
@@ -1385,7 +1366,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 doc
 )

@@ -136,7 +136,6 @@ new_inherited
 (
 elem
 :
-&
 JSRef
 <
 Element
@@ -173,14 +172,12 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
 >
 elem
 :
-&
 JSRef
 <
 Element
@@ -206,7 +203,6 @@ elem
 &
 Window
 (
-*
 window
 )
 NamedNodeMapBinding

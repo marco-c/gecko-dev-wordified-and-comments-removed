@@ -604,7 +604,6 @@ DOMString
 >
 owner
 :
-&
 JSRef
 <
 Element
@@ -668,7 +667,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -693,7 +691,6 @@ DOMString
 >
 owner
 :
-&
 JSRef
 <
 Element
@@ -724,7 +721,6 @@ owner
 &
 Window
 (
-*
 window
 )
 AttrBinding
@@ -1042,7 +1038,6 @@ root
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -1053,7 +1048,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 owner
 )
@@ -1083,6 +1077,7 @@ namespace_is_null
 {
 vtable_for
 (
+&
 node
 )
 .
@@ -1135,6 +1130,7 @@ namespace_is_null
 {
 vtable_for
 (
+&
 node
 )
 .

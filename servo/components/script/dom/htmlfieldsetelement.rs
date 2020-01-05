@@ -282,7 +282,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -323,7 +322,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -425,14 +423,12 @@ filter
 self
 elem
 :
-&
 JSRef
 <
 Element
 >
 root
 :
-&
 JSRef
 <
 Node
@@ -478,7 +474,6 @@ textarea
 let
 root
 :
-&
 JSRef
 <
 Element
@@ -534,7 +529,6 @@ as_slice
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -545,6 +539,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -571,7 +566,6 @@ HTMLCollection
 :
 create
 (
-&
 *
 window
 node
@@ -596,6 +590,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -608,7 +603,6 @@ ValidityState
 :
 new
 (
-&
 *
 window
 )
@@ -671,7 +665,6 @@ bool
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -682,6 +675,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -744,7 +738,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -805,7 +799,6 @@ _
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -816,6 +809,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1035,7 +1029,6 @@ _
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -1046,6 +1039,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;

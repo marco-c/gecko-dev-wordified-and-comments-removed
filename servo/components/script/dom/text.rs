@@ -209,7 +209,6 @@ text
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -243,7 +242,6 @@ text
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -324,7 +322,6 @@ Text
 new
 (
 text
-&
 *
 document
 )

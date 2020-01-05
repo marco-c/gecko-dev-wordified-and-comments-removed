@@ -496,7 +496,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 usp
 )

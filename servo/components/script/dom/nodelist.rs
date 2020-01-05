@@ -187,7 +187,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -216,7 +215,6 @@ list_type
 &
 Window
 (
-*
 window
 )
 NodeListBinding
@@ -231,7 +229,6 @@ new_simple_list
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -277,6 +274,7 @@ JS
 :
 from_rooted
 (
+*
 element
 )
 )
@@ -293,14 +291,12 @@ new_child_list
 (
 window
 :
-&
 JSRef
 <
 Window
 >
 node
 :
-&
 JSRef
 <
 Node
@@ -517,7 +513,6 @@ Temporary
 :
 from_rooted
 (
-&
 child
 )
 )

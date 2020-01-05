@@ -144,7 +144,6 @@ new
 (
 document
 :
-&
 JSRef
 <
 Document
@@ -507,7 +506,6 @@ new
 (
 document
 :
-&
 JSRef
 <
 Document

@@ -218,7 +218,6 @@ a
 (
 root
 :
-&
 JSRef
 <
 '
@@ -689,7 +688,6 @@ from_rooted
 (
 root
 :
-&
 T
 )
 -
@@ -1481,6 +1479,7 @@ JS
 :
 from_rooted
 (
+*
 inner
 )
 )
@@ -2671,21 +2670,13 @@ unsafe
 fn
 transmute
 <
-'
-b
 To
 >
 (
-&
-'
-b
 self
 )
 -
 >
-&
-'
-b
 JSRef
 <
 '
@@ -2704,7 +2695,7 @@ self
 pub
 unsafe
 fn
-transmute_mut
+transmute_borrowed
 <
 '
 b
@@ -2714,7 +2705,6 @@ To
 &
 '
 b
-mut
 self
 )
 -
@@ -2722,7 +2712,6 @@ self
 &
 '
 b
-mut
 JSRef
 <
 '

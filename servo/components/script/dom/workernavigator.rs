@@ -141,7 +141,6 @@ new
 (
 global
 :
-&
 JSRef
 <
 WorkerGlobalScope
@@ -166,7 +165,6 @@ new_inherited
 &
 Worker
 (
-*
 global
 )
 WorkerNavigatorBinding

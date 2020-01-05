@@ -626,7 +626,6 @@ SetInterfaceAttribute
 self
 _
 :
-&
 JSRef
 <
 Blob
@@ -2117,7 +2116,6 @@ PassInterface
 self
 _
 :
-&
 JSRef
 <
 Blob

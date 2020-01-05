@@ -271,7 +271,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -312,7 +311,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -384,6 +382,7 @@ win
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -419,6 +418,7 @@ win
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -486,7 +486,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -634,6 +634,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -673,7 +674,6 @@ get_jsobject
 let
 evtarget
 :
-&
 JSRef
 <
 EventTarget
@@ -707,7 +707,6 @@ EventTargetCast
 :
 from_ref
 (
-&
 *
 window
 )
@@ -719,6 +718,7 @@ EventTargetCast
 :
 from_ref
 (
+*
 self
 )
 }

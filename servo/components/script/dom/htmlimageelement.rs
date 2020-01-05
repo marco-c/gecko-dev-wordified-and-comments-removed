@@ -344,7 +344,6 @@ Url
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -355,6 +354,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -511,7 +511,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -567,7 +566,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -700,7 +698,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -711,6 +708,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -742,7 +740,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -753,6 +750,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -784,7 +782,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -795,6 +792,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -826,7 +824,6 @@ bool
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -837,6 +834,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -867,7 +865,6 @@ u32
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -878,6 +875,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -914,7 +912,6 @@ u32
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -925,6 +922,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -951,7 +949,6 @@ u32
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -962,6 +959,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -998,7 +996,6 @@ u32
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -1009,6 +1006,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1040,7 +1038,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1051,6 +1048,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1082,7 +1080,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1093,6 +1090,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1124,7 +1122,6 @@ u32
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1135,6 +1132,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1166,7 +1164,6 @@ u32
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1177,6 +1174,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1208,7 +1206,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1219,6 +1216,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1250,7 +1248,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -1261,6 +1258,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -1323,7 +1321,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -1398,6 +1396,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .

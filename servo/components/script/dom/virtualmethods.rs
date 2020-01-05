@@ -885,7 +885,6 @@ child_inserted
 self
 child
 :
-&
 JSRef
 <
 Node
@@ -926,7 +925,6 @@ handle_event
 self
 event
 :
-&
 JSRef
 <
 Event
@@ -1014,7 +1012,7 @@ HTMLAnchorElement
 HTMLAnchorElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1047,7 +1045,7 @@ HTMLAreaElement
 HTMLAreaElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1080,7 +1078,7 @@ HTMLBodyElement
 HTMLBodyElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1113,7 +1111,7 @@ HTMLButtonElement
 HTMLButtonElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1146,7 +1144,7 @@ HTMLCanvasElement
 HTMLCanvasElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1179,7 +1177,7 @@ HTMLFieldSetElement
 HTMLFieldSetElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1212,7 +1210,7 @@ HTMLImageElement
 HTMLImageElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1245,7 +1243,7 @@ HTMLIFrameElement
 HTMLIFrameElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1278,7 +1276,7 @@ HTMLInputElement
 HTMLInputElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1311,7 +1309,7 @@ HTMLLinkElement
 HTMLLinkElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1344,7 +1342,7 @@ HTMLObjectElement
 HTMLObjectElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1377,7 +1375,7 @@ HTMLOptGroupElement
 HTMLOptGroupElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1410,7 +1408,7 @@ HTMLOptionElement
 HTMLOptionElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1443,7 +1441,7 @@ HTMLSelectElement
 HTMLSelectElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1476,7 +1474,7 @@ HTMLStyleElement
 HTMLStyleElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1509,7 +1507,7 @@ HTMLTextAreaElement
 HTMLTextAreaElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1542,7 +1540,7 @@ Element
 ElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )
@@ -1575,7 +1573,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-to_ref
+to_borrowed_ref
 (
 node
 )

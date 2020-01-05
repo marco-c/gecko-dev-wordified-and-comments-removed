@@ -204,7 +204,6 @@ DOMString
 >
 document
 :
-&
 JSRef
 <
 Document
@@ -285,7 +284,6 @@ DOMString
 >
 document
 :
-&
 JSRef
 <
 Document
@@ -405,7 +403,6 @@ self
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -416,6 +413,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;

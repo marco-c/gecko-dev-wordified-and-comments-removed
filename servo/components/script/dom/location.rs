@@ -171,7 +171,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -203,7 +202,6 @@ page
 &
 Window
 (
-*
 window
 )
 LocationBinding

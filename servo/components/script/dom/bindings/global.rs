@@ -236,9 +236,6 @@ self
 )
 -
 >
-&
-'
-b
 JSRef
 <
 '
@@ -252,7 +249,6 @@ self
 {
 Window
 (
-ref
 window
 )
 =
@@ -584,7 +580,6 @@ global
 {
 Window
 (
-ref
 window
 )
 =
@@ -601,7 +596,6 @@ window
 )
 Worker
 (
-ref
 worker
 )
 =

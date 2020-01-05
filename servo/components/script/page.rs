@@ -1800,7 +1800,6 @@ root
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -1811,7 +1810,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )
@@ -2284,7 +2282,6 @@ get
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -2295,7 +2292,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )
@@ -2502,7 +2498,6 @@ None
 let
 doc_node
 :
-&
 JSRef
 <
 Node
@@ -2513,7 +2508,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 document
 )
@@ -2551,7 +2545,6 @@ node
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -2562,6 +2555,7 @@ ElementCast
 :
 to_ref
 (
+*
 node
 )
 .
@@ -2630,7 +2624,6 @@ ElementCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -2727,7 +2720,6 @@ unwrap
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -2738,7 +2730,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )
@@ -2891,7 +2882,6 @@ unwrap
 let
 root
 :
-&
 JSRef
 <
 Node
@@ -2902,7 +2892,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 root
 )

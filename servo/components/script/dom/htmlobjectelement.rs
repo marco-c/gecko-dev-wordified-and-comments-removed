@@ -304,7 +304,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -345,7 +344,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -459,7 +457,6 @@ ImageCacheTask
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -470,6 +467,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -704,6 +702,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -716,7 +715,6 @@ ValidityState
 :
 new
 (
-&
 *
 window
 )
@@ -770,7 +768,7 @@ HTMLElement
 HTMLElementCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -841,6 +839,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .

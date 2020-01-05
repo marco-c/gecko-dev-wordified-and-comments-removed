@@ -238,7 +238,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -279,7 +278,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -385,7 +383,6 @@ HTMLTableCaptionElement
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -396,6 +393,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -441,7 +439,6 @@ HTMLTableCaptionElementCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -471,7 +468,6 @@ HTMLTableCaptionElement
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -482,6 +478,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -518,7 +515,6 @@ root
 let
 old_caption_node
 :
-&
 JSRef
 <
 Node
@@ -529,6 +525,7 @@ NodeCast
 :
 from_ref
 (
+*
 htmlelem_jsref
 )
 ;
@@ -565,7 +562,6 @@ caption
 let
 new_caption_node
 :
-&
 JSRef
 <
 Node
@@ -576,7 +572,6 @@ NodeCast
 :
 from_ref
 (
-&
 caption
 )
 ;

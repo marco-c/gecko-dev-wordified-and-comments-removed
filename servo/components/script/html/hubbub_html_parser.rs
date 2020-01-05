@@ -1008,7 +1008,6 @@ ns
 Namespace
 document
 :
-&
 JSRef
 <
 Document
@@ -2418,7 +2417,6 @@ page
 Page
 document
 :
-&
 JSRef
 <
 Document
@@ -2943,7 +2941,6 @@ root
 let
 comment
 :
-&
 JSRef
 <
 Node
@@ -2954,7 +2951,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 comment
 )
@@ -3540,7 +3536,6 @@ deref
 .
 AppendChild
 (
-&
 *
 child
 )
@@ -3857,7 +3852,6 @@ script
 :
 Option
 <
-&
 JSRef
 <
 HTMLScriptElement
@@ -3869,7 +3863,6 @@ HTMLScriptElementCast
 :
 to_ref
 (
-&
 *
 script
 )
@@ -3902,7 +3895,6 @@ return
 let
 script_element
 :
-&
 JSRef
 <
 Element
@@ -4088,7 +4080,6 @@ new
 let
 scriptnode
 :
-&
 JSRef
 <
 Node
@@ -4147,7 +4138,6 @@ child
 let
 text
 :
-&
 JSRef
 <
 Text
@@ -4158,7 +4148,6 @@ TextCast
 :
 to_ref
 (
-&
 child
 )
 .

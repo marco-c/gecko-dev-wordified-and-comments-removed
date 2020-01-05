@@ -391,7 +391,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 ev
 )
@@ -539,7 +538,6 @@ detail
 let
 event
 :
-&
 JSRef
 <
 Event
@@ -550,6 +548,7 @@ EventCast
 :
 from_ref
 (
+*
 self
 )
 ;

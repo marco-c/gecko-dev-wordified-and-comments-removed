@@ -1447,7 +1447,6 @@ add_child
 self
 new_child
 :
-&
 JSRef
 <
 Node
@@ -1470,7 +1469,6 @@ remove_child
 self
 child
 :
-&
 JSRef
 <
 Node
@@ -1518,6 +1516,7 @@ document
 =
 document_from_node
 (
+*
 self
 )
 .
@@ -1584,6 +1583,7 @@ parent
 .
 child_inserted
 (
+*
 self
 )
 )
@@ -1628,6 +1628,7 @@ document
 =
 document_from_node
 (
+*
 self
 )
 .
@@ -1674,7 +1675,6 @@ add_child
 self
 new_child
 :
-&
 JSRef
 <
 Node
@@ -1839,7 +1839,6 @@ assign
 (
 Some
 (
-*
 new_child
 )
 )
@@ -1847,7 +1846,6 @@ new_child
 }
 Some
 (
-ref
 prev_sibling
 )
 =
@@ -1861,7 +1859,6 @@ assign
 (
 Some
 (
-*
 new_child
 )
 )
@@ -1874,7 +1871,6 @@ assign
 (
 Some
 (
-*
 *
 prev_sibling
 )
@@ -1890,7 +1886,6 @@ assign
 (
 Some
 (
-*
 new_child
 )
 )
@@ -1935,13 +1930,11 @@ assign
 (
 Some
 (
-*
 new_child
 )
 )
 Some
 (
-ref
 last_child
 )
 =
@@ -1969,7 +1962,6 @@ assign
 (
 Some
 (
-*
 new_child
 )
 )
@@ -1982,7 +1974,6 @@ assign
 (
 Some
 (
-*
 *
 last_child
 )
@@ -1998,7 +1989,6 @@ assign
 (
 Some
 (
-*
 new_child
 )
 )
@@ -2026,7 +2016,6 @@ remove_child
 self
 child
 :
-&
 JSRef
 <
 Node
@@ -2116,7 +2105,6 @@ get
 }
 Some
 (
-ref
 prev_sibling
 )
 =
@@ -2174,7 +2162,6 @@ get
 }
 Some
 (
-ref
 next_sibling
 )
 =
@@ -2311,7 +2298,6 @@ is_inclusive_ancestor_of
 self
 parent
 :
-&
 JSRef
 <
 Node
@@ -2328,7 +2314,6 @@ is_parent_of
 self
 child
 :
-&
 JSRef
 <
 Node
@@ -2448,7 +2433,6 @@ set_owner_doc
 self
 document
 :
-&
 JSRef
 <
 Document
@@ -3628,6 +3612,7 @@ vec
 ;
 gather_abstract_nodes
 (
+*
 self
 &
 mut
@@ -3682,6 +3667,7 @@ vec
 ;
 gather_abstract_nodes
 (
+*
 self
 &
 mut
@@ -3732,7 +3718,6 @@ is_inclusive_ancestor_of
 self
 parent
 :
-&
 JSRef
 <
 Node
@@ -3742,6 +3727,7 @@ Node
 >
 bool
 {
+*
 self
 =
 =
@@ -3818,7 +3804,6 @@ is_parent_of
 self
 child
 :
-&
 JSRef
 <
 Node
@@ -3837,11 +3822,9 @@ parent_node
 {
 Some
 (
-ref
 parent
 )
 if
-*
 parent
 =
 =
@@ -3850,6 +3833,7 @@ Temporary
 :
 from_rooted
 (
+*
 self
 )
 =
@@ -3909,6 +3893,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -3978,6 +3963,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -4165,7 +4151,6 @@ None
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -4176,7 +4161,6 @@ ElementCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -4385,6 +4369,7 @@ window
 =
 window_from_node
 (
+*
 self
 )
 .
@@ -4399,12 +4384,8 @@ NodeList
 :
 new_simple_list
 (
-&
+*
 window
-.
-root_ref
-(
-)
 nodes
 )
 )
@@ -4497,7 +4478,6 @@ set_owner_doc
 self
 document
 :
-&
 JSRef
 <
 Document
@@ -4634,7 +4614,6 @@ node
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -4645,7 +4624,6 @@ ElementCast
 :
 to_ref
 (
-&
 node
 )
 .
@@ -4712,7 +4690,6 @@ root
 {
 Some
 (
-ref
 parent
 )
 =
@@ -4721,6 +4698,7 @@ parent
 .
 remove_child
 (
+*
 self
 )
 None
@@ -4956,7 +4934,6 @@ is_element
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -4967,6 +4944,7 @@ ElementCast
 :
 to_ref
 (
+*
 self
 )
 .
@@ -5013,7 +4991,6 @@ NodeCast
 :
 from_ref
 (
-&
 *
 elem
 .
@@ -5023,6 +5000,7 @@ root
 )
 =
 =
+*
 self
 )
 .
@@ -6285,7 +6263,6 @@ a
 (
 start_node
 :
-&
 JSRef
 <
 '
@@ -6339,7 +6316,6 @@ b
 self
 node
 :
-&
 JSRef
 <
 '
@@ -6375,7 +6351,6 @@ is_element
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -6546,7 +6521,6 @@ self
 .
 next_child
 (
-&
 *
 self
 .
@@ -6567,7 +6541,6 @@ JS
 :
 from_rooted
 (
-&
 child
 )
 )
@@ -6585,7 +6558,6 @@ self
 .
 next_child
 (
-&
 *
 node
 )
@@ -6611,7 +6583,6 @@ JS
 :
 from_rooted
 (
-&
 child
 )
 )
@@ -6623,7 +6594,6 @@ JS
 :
 from_rooted
 (
-&
 *
 node
 )
@@ -6667,7 +6637,6 @@ JS
 :
 from_rooted
 (
-&
 *
 sibling
 )
@@ -6746,7 +6715,6 @@ JS
 :
 from_rooted
 (
-&
 candidate
 )
 =
@@ -6765,7 +6733,6 @@ JS
 :
 from_rooted
 (
-&
 candidate
 )
 !
@@ -6790,6 +6757,7 @@ JS
 :
 from_rooted
 (
+*
 node
 .
 root
@@ -6846,7 +6814,6 @@ a
 (
 cur
 :
-&
 JSRef
 <
 '
@@ -6898,7 +6865,6 @@ children
 {
 gather_abstract_nodes
 (
-&
 kid
 refs
 postorder
@@ -6992,7 +6958,6 @@ N
 >
 document
 :
-&
 JSRef
 <
 Document
@@ -7061,7 +7026,6 @@ type_id
 NodeTypeId
 doc
 :
-&
 JSRef
 <
 Document
@@ -7283,14 +7247,12 @@ adopt
 (
 node
 :
-&
 JSRef
 <
 Node
 >
 document
 :
-&
 JSRef
 <
 Document
@@ -7326,7 +7288,6 @@ Node
 remove
 (
 node
-&
 *
 parent
 Unsuppressed
@@ -7357,7 +7318,6 @@ root
 )
 ;
 if
-&
 *
 node_doc
 !
@@ -7431,14 +7391,12 @@ pre_insert
 (
 node
 :
-&
 JSRef
 <
 Node
 >
 parent
 :
-&
 JSRef
 <
 Node
@@ -7527,7 +7485,6 @@ child
 {
 Some
 (
-ref
 child
 )
 if
@@ -7822,7 +7779,6 @@ child
 {
 Some
 (
-ref
 child
 )
 =
@@ -8170,7 +8126,6 @@ child
 {
 Some
 (
-ref
 child
 )
 if
@@ -8233,7 +8188,6 @@ Node
 adopt
 (
 node
-&
 *
 document
 )
@@ -8296,14 +8250,12 @@ insert
 (
 node
 :
-&
 JSRef
 <
 Node
 >
 parent
 :
-&
 JSRef
 <
 Node
@@ -8419,7 +8371,6 @@ Node
 :
 remove
 (
-&
 c
 node
 Suppressed
@@ -8459,6 +8410,7 @@ parent
 .
 add_child
 (
+*
 node
 child
 )
@@ -8596,7 +8548,6 @@ Node
 >
 parent
 :
-&
 JSRef
 <
 Node
@@ -8613,7 +8564,6 @@ node
 {
 Some
 (
-ref
 node
 )
 =
@@ -8637,7 +8587,6 @@ Node
 adopt
 (
 node
-&
 *
 document
 )
@@ -8695,7 +8644,6 @@ vec
 )
 Some
 (
-ref
 node
 )
 =
@@ -8753,7 +8701,6 @@ Node
 :
 remove
 (
-&
 child
 parent
 Suppressed
@@ -8770,7 +8717,6 @@ node
 {
 Some
 (
-ref
 node
 )
 =
@@ -8874,14 +8820,12 @@ pre_remove
 (
 child
 :
-&
 JSRef
 <
 Node
 >
 parent
 :
-&
 JSRef
 <
 Node
@@ -8911,11 +8855,9 @@ parent_node
 {
 Some
 (
-ref
 node
 )
 if
-*
 node
 !
 =
@@ -8995,14 +8937,12 @@ remove
 (
 node
 :
-&
 JSRef
 <
 Node
 >
 parent
 :
-&
 JSRef
 <
 Node
@@ -9146,7 +9086,6 @@ clone
 (
 node
 :
-&
 JSRef
 <
 Node
@@ -9155,7 +9094,6 @@ maybe_doc
 :
 Option
 <
-&
 JSRef
 <
 Document
@@ -9254,7 +9192,6 @@ DoctypeNodeTypeId
 let
 doctype
 :
-&
 JSRef
 <
 DocumentType
@@ -9316,7 +9253,6 @@ clone
 (
 )
 )
-&
 *
 document
 )
@@ -9341,7 +9277,6 @@ DocumentFragment
 :
 new
 (
-&
 *
 document
 )
@@ -9361,7 +9296,6 @@ CommentNodeTypeId
 let
 comment
 :
-&
 JSRef
 <
 Comment
@@ -9413,7 +9347,6 @@ borrow
 clone
 (
 )
-&
 *
 document
 )
@@ -9433,7 +9366,6 @@ DocumentNodeTypeId
 let
 document
 :
-&
 JSRef
 <
 Document
@@ -9488,7 +9420,6 @@ Document
 :
 new
 (
-&
 *
 window
 Some
@@ -9526,7 +9457,6 @@ ElementNodeTypeId
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -9576,7 +9506,6 @@ namespace
 clone
 (
 )
-&
 *
 document
 )
@@ -9596,7 +9525,6 @@ TextNodeTypeId
 let
 text
 :
-&
 JSRef
 <
 Text
@@ -9648,7 +9576,6 @@ borrow
 clone
 (
 )
-&
 *
 document
 )
@@ -9668,7 +9595,6 @@ ProcessingInstructionNodeTypeId
 let
 pi
 :
-&
 JSRef
 <
 ProcessingInstruction
@@ -9727,7 +9653,6 @@ borrow
 clone
 (
 )
-&
 *
 document
 )
@@ -9764,7 +9689,6 @@ is_document
 let
 doc
 :
-&
 JSRef
 <
 Document
@@ -9775,7 +9699,6 @@ DocumentCast
 :
 to_ref
 (
-&
 *
 copy
 )
@@ -9803,7 +9726,6 @@ JS
 :
 from_rooted
 (
-&
 *
 document
 )
@@ -9862,7 +9784,6 @@ DocumentNodeTypeId
 let
 node_doc
 :
-&
 JSRef
 <
 Document
@@ -9883,7 +9804,6 @@ unwrap
 let
 copy_doc
 :
-&
 JSRef
 <
 Document
@@ -9894,7 +9814,6 @@ DocumentCast
 :
 to_ref
 (
-&
 *
 copy
 )
@@ -9947,7 +9866,6 @@ ElementNodeTypeId
 let
 node_elem
 :
-&
 JSRef
 <
 Element
@@ -9968,7 +9886,6 @@ unwrap
 let
 copy_elem
 :
-&
 JSRef
 <
 Element
@@ -9979,7 +9896,6 @@ ElementCast
 :
 to_ref
 (
-&
 *
 copy
 )
@@ -10073,7 +9989,6 @@ Attr
 :
 new
 (
-&
 *
 window
 attr
@@ -10163,7 +10078,6 @@ clone_children
 CloneChildren
 {
 for
-ref
 child
 in
 node
@@ -10180,12 +10094,9 @@ Node
 :
 clone
 (
-&
-*
 child
 Some
 (
-&
 *
 document
 )
@@ -10204,10 +10115,8 @@ Node
 :
 pre_insert
 (
-&
 *
 child_copy
-&
 *
 copy
 None
@@ -10225,7 +10134,6 @@ Temporary
 :
 from_rooted
 (
-&
 *
 copy
 )
@@ -10405,7 +10313,6 @@ text
 :
 Option
 <
-&
 JSRef
 <
 Text
@@ -10417,7 +10324,6 @@ TextCast
 :
 to_ref
 (
-&
 node
 )
 ;
@@ -10607,7 +10513,6 @@ ElementNodeTypeId
 let
 elem
 :
-&
 JSRef
 <
 Element
@@ -10618,6 +10523,7 @@ ElementCast
 :
 to_ref
 (
+*
 self
 )
 .
@@ -10649,7 +10555,6 @@ ProcessingInstructionNodeTypeId
 let
 processing_instruction
 :
-&
 JSRef
 <
 ProcessingInstruction
@@ -10660,6 +10565,7 @@ ProcessingInstructionCast
 :
 to_ref
 (
+*
 self
 )
 .
@@ -10691,7 +10597,6 @@ DoctypeNodeTypeId
 let
 doctype
 :
-&
 JSRef
 <
 DocumentType
@@ -10702,6 +10607,7 @@ DocumentTypeCast
 :
 to_ref
 (
+*
 self
 )
 .
@@ -10985,7 +10891,6 @@ ElementCast
 :
 to_ref
 (
-&
 *
 parent
 )
@@ -11153,9 +11058,9 @@ NodeList
 :
 new_child_list
 (
-&
 *
 window
+*
 self
 )
 ;
@@ -11474,7 +11379,6 @@ ProcessingInstructionNodeTypeId
 let
 chardata
 :
-&
 JSRef
 <
 CharacterData
@@ -11485,6 +11389,7 @@ CharacterDataCast
 :
 to_ref
 (
+*
 self
 )
 .
@@ -11648,7 +11553,6 @@ ProcessingInstructionNodeTypeId
 let
 characterdata
 :
-&
 JSRef
 <
 CharacterData
@@ -11659,6 +11563,7 @@ CharacterDataCast
 :
 to_ref
 (
+*
 self
 )
 .
@@ -11819,6 +11724,7 @@ node
 root_ref
 (
 )
+*
 self
 )
 ;
@@ -11840,7 +11746,6 @@ wait_until_safe_to_modify_dom
 let
 characterdata
 :
-&
 JSRef
 <
 CharacterData
@@ -11851,6 +11756,7 @@ CharacterDataCast
 :
 to_ref
 (
+*
 self
 )
 .
@@ -11946,7 +11852,6 @@ InsertBefore
 self
 node
 :
-&
 JSRef
 <
 Node
@@ -11977,6 +11882,7 @@ Node
 pre_insert
 (
 node
+*
 self
 child
 )
@@ -12008,7 +11914,6 @@ AppendChild
 self
 node
 :
-&
 JSRef
 <
 Node
@@ -12030,6 +11935,7 @@ Node
 pre_insert
 (
 node
+*
 self
 None
 )
@@ -12061,14 +11967,12 @@ ReplaceChild
 self
 node
 :
-&
 JSRef
 <
 Node
 >
 child
 :
-&
 JSRef
 <
 Node
@@ -12126,6 +12030,7 @@ node
 .
 is_inclusive_ancestor_of
 (
+*
 self
 )
 {
@@ -12341,7 +12246,6 @@ NodeCast
 :
 from_ref
 (
-&
 c
 )
 !
@@ -12435,7 +12339,6 @@ NodeCast
 :
 from_ref
 (
-&
 c
 )
 !
@@ -12506,7 +12409,6 @@ is_doctype
 )
 &
 &
-&
 c
 !
 =
@@ -12532,6 +12434,7 @@ take_while
 |
 c
 |
+*
 c
 !
 =
@@ -12594,11 +12497,9 @@ error
 checks
 .
 if
-*
 node
 =
 =
-*
 child
 {
 return
@@ -12657,7 +12558,6 @@ next_sibling
 {
 Some
 (
-ref
 sibling
 )
 if
@@ -12707,6 +12607,7 @@ document
 =
 document_from_node
 (
+*
 self
 )
 .
@@ -12720,7 +12621,6 @@ Node
 adopt
 (
 node
-&
 *
 document
 )
@@ -12737,6 +12637,7 @@ Node
 remove
 (
 child
+*
 self
 Suppressed
 )
@@ -12752,6 +12653,7 @@ Node
 insert
 (
 node
+*
 self
 reference_child
 Suppressed
@@ -12863,7 +12765,6 @@ RemoveChild
 self
 node
 :
-&
 JSRef
 <
 Node
@@ -12885,6 +12786,7 @@ Node
 pre_remove
 (
 node
+*
 self
 )
 }
@@ -12940,7 +12842,6 @@ is_text
 let
 characterdata
 :
-&
 JSRef
 <
 CharacterData
@@ -12951,7 +12852,6 @@ CharacterDataCast
 :
 to_ref
 (
-&
 child
 )
 .
@@ -12973,7 +12873,6 @@ self
 .
 remove_child
 (
-&
 child
 )
 ;
@@ -12985,8 +12884,6 @@ prev_text
 {
 Some
 (
-ref
-mut
 text_node
 )
 =
@@ -12995,7 +12892,6 @@ text_node
 let
 prev_characterdata
 :
-&
 JSRef
 <
 CharacterData
@@ -13031,7 +12927,6 @@ self
 .
 remove_child
 (
-&
 child
 )
 ;
@@ -13110,6 +13005,7 @@ Node
 :
 clone
 (
+*
 self
 None
 CloneChildren
@@ -13122,6 +13018,7 @@ Node
 :
 clone
 (
+*
 self
 None
 DoNotCloneChildren
@@ -13172,14 +13069,12 @@ is_equal_doctype
 (
 node
 :
-&
 JSRef
 <
 Node
 >
 other
 :
-&
 JSRef
 <
 Node
@@ -13192,7 +13087,6 @@ bool
 let
 doctype
 :
-&
 JSRef
 <
 DocumentType
@@ -13213,7 +13107,6 @@ unwrap
 let
 other_doctype
 :
-&
 JSRef
 <
 DocumentType
@@ -13295,14 +13188,12 @@ is_equal_element
 (
 node
 :
-&
 JSRef
 <
 Node
 >
 other
 :
-&
 JSRef
 <
 Node
@@ -13315,7 +13206,6 @@ bool
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -13336,7 +13226,6 @@ unwrap
 let
 other_element
 :
-&
 JSRef
 <
 Element
@@ -13434,14 +13323,12 @@ is_equal_processinginstruction
 (
 node
 :
-&
 JSRef
 <
 Node
 >
 other
 :
-&
 JSRef
 <
 Node
@@ -13454,7 +13341,6 @@ bool
 let
 pi
 :
-&
 JSRef
 <
 ProcessingInstruction
@@ -13475,7 +13361,6 @@ unwrap
 let
 other_pi
 :
-&
 JSRef
 <
 ProcessingInstruction
@@ -13559,14 +13444,12 @@ is_equal_characterdata
 (
 node
 :
-&
 JSRef
 <
 Node
 >
 other
 :
-&
 JSRef
 <
 Node
@@ -13579,7 +13462,6 @@ bool
 let
 characterdata
 :
-&
 JSRef
 <
 CharacterData
@@ -13600,7 +13482,6 @@ unwrap
 let
 other_characterdata
 :
-&
 JSRef
 <
 CharacterData
@@ -13658,14 +13539,12 @@ is_equal_element_attrs
 (
 node
 :
-&
 JSRef
 <
 Node
 >
 other
 :
-&
 JSRef
 <
 Node
@@ -13678,7 +13557,6 @@ bool
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -13699,7 +13577,6 @@ unwrap
 let
 other_element
 :
-&
 JSRef
 <
 Element
@@ -13892,14 +13769,12 @@ is_equal_node
 (
 this
 :
-&
 JSRef
 <
 Node
 >
 node
 :
-&
 JSRef
 <
 Node
@@ -14089,7 +13964,9 @@ other_child
 {
 is_equal_node
 (
+*
 child
+*
 other_child
 )
 }
@@ -14116,13 +13993,13 @@ Step
 .
 Some
 (
-ref
 node
 )
 =
 >
 is_equal_node
 (
+*
 self
 node
 )
@@ -14155,7 +14032,6 @@ CompareDocumentPosition
 self
 other
 :
-&
 JSRef
 <
 Node
@@ -14166,6 +14042,7 @@ Node
 u16
 {
 if
+*
 self
 =
 =
@@ -14210,7 +14087,6 @@ ancestors
 )
 {
 if
-&
 ancestor
 =
 =
@@ -14252,10 +14128,10 @@ ancestors
 )
 {
 if
-&
 ancestor
 =
 =
+*
 self
 {
 /
@@ -14364,7 +14240,6 @@ traverse_preorder
 )
 {
 if
-&
 child
 =
 =
@@ -14383,10 +14258,10 @@ DOCUMENT_POSITION_PRECEDING
 ;
 }
 if
-&
 child
 =
 =
+*
 self
 {
 /
@@ -14456,7 +14331,6 @@ None
 false
 Some
 (
-ref
 other
 )
 =
@@ -14661,7 +14535,6 @@ NodeBase
 (
 derived
 :
-&
 JSRef
 <
 T
@@ -14677,7 +14550,6 @@ Document
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -14708,7 +14580,6 @@ NodeBase
 (
 derived
 :
-&
 JSRef
 <
 T
@@ -14799,7 +14670,7 @@ EventTarget
 EventTargetCast
 :
 :
-from_ref
+from_borrowed_ref
 (
 self
 )
@@ -15068,7 +14939,6 @@ elem
 :
 Option
 <
-&
 JSRef
 <
 '
@@ -15082,6 +14952,7 @@ ElementCast
 :
 to_ref
 (
+*
 self
 )
 ;
@@ -15095,7 +14966,6 @@ is_some
 )
 )
 ;
-*
 elem
 .
 unwrap
@@ -15262,7 +15132,6 @@ elem
 :
 Option
 <
-&
 JSRef
 <
 '
@@ -15276,6 +15145,7 @@ ElementCast
 :
 to_ref
 (
+*
 self
 )
 ;
@@ -15295,6 +15165,7 @@ elem
 &
 ElementHelpers
 =
+&
 elem
 .
 unwrap
@@ -15405,6 +15276,7 @@ ancestor
 .
 is_parent_of
 (
+*
 self
 )
 {
@@ -15446,7 +15318,6 @@ is_htmllegendelement
 {
 Some
 (
-ref
 legend
 )
 =
@@ -15481,7 +15352,6 @@ ancestor
 ancestor
 =
 =
-*
 legend
 )
 {
@@ -15594,7 +15464,6 @@ self
 let
 elem
 :
-&
 JSRef
 <
 '
@@ -15607,6 +15476,7 @@ ElementCast
 :
 to_ref
 (
+*
 self
 )
 .

@@ -132,7 +132,6 @@ new
 (
 window
 :
-&
 JSRef
 <
 Window
@@ -157,7 +156,6 @@ new_inherited
 &
 Window
 (
-*
 window
 )
 ScreenBinding

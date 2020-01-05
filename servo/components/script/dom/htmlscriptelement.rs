@@ -270,7 +270,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -311,7 +310,6 @@ localName
 DOMString
 document
 :
-&
 JSRef
 <
 Document
@@ -571,7 +569,6 @@ bool
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -582,6 +579,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -863,7 +861,6 @@ DOMString
 let
 element
 :
-&
 JSRef
 <
 Element
@@ -874,6 +871,7 @@ ElementCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -899,7 +897,6 @@ DOMString
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -910,6 +907,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
@@ -938,7 +936,6 @@ DOMString
 let
 node
 :
-&
 JSRef
 <
 Node
@@ -949,6 +946,7 @@ NodeCast
 :
 from_ref
 (
+*
 self
 )
 ;
