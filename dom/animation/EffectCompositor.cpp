@@ -2873,7 +2873,14 @@ CascadeLevel
 :
 Animations
 ?
-nsCSSPropertyIDSet
+effects
+-
+>
+PropertiesForAnimationsLevel
+(
+)
+.
+Invert
 (
 )
 :
