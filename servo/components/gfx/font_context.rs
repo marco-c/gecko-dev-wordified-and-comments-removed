@@ -29,6 +29,11 @@ target_os
 "
 android
 "
+target_os
+=
+"
+windows
+"
 )
 )
 ]
@@ -258,6 +263,11 @@ target_os
 =
 "
 android
+"
+target_os
+=
+"
+windows
 "
 )
 )

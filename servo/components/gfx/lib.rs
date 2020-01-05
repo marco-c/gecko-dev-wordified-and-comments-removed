@@ -39,6 +39,11 @@ target_os
 "
 android
 "
+target_os
+=
+"
+windows
+"
 )
 feature
 (
@@ -227,6 +232,11 @@ target_os
 "
 android
 "
+target_os
+=
+"
+windows
+"
 )
 )
 ]
@@ -249,6 +259,11 @@ target_os
 =
 "
 android
+"
+target_os
+=
+"
+windows
 "
 )
 )

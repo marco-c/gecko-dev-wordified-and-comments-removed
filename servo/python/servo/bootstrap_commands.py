@@ -56,6 +56,8 @@ import
 CommandBase
 cd
 host_triple
+check_call
+BIN_SUFFIX
 def
 download
 (
@@ -674,6 +676,8 @@ bin
 "
 rustc
 "
++
+BIN_SUFFIX
 )
 )
 :
@@ -1560,11 +1564,16 @@ join
 (
 cargo_dir
 "
+cargo
+"
+"
 bin
 "
 "
 cargo
 "
++
+BIN_SUFFIX
 )
 )
 :
@@ -2329,8 +2338,6 @@ again
 return
 1
         
-subprocess
-.
 check_call
 (
             
@@ -2357,8 +2364,6 @@ recursive
 ]
 )
         
-subprocess
-.
 check_call
 (
             

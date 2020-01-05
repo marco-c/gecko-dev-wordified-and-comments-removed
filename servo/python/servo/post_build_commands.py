@@ -45,6 +45,8 @@ command_base
 import
 CommandBase
 cd
+call
+check_call
 def
 read_file
 (
@@ -771,8 +773,6 @@ params
 try
 :
             
-subprocess
-.
 check_call
 (
 args
@@ -1042,8 +1042,6 @@ record
 try
 :
             
-subprocess
-.
 check_call
 (
 rr_cmd
@@ -1130,8 +1128,6 @@ self
 try
 :
             
-subprocess
-.
 check_call
 (
 [
@@ -1492,8 +1488,6 @@ destination
 )
         
 return
-subprocess
-.
 call
 (
 [
@@ -1506,7 +1500,7 @@ doc
 ]
 +
 params
-                               
+                    
 env
 =
 self

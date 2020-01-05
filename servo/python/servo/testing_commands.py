@@ -54,6 +54,8 @@ servo
 command_base
 import
 CommandBase
+call
+check_call
 from
 wptrunner
 import
@@ -462,8 +464,6 @@ t
 :
             
 return
-subprocess
-.
 call
 (
 [
@@ -1603,8 +1603,6 @@ test_patterns
         
 result
 =
-subprocess
-.
 call
 (
 args
@@ -1891,8 +1889,6 @@ ensure_bootstrapped
         
 return
 not
-subprocess
-.
 call
 (
 [
@@ -3862,8 +3858,6 @@ jquery_dir
 )
 :
             
-subprocess
-.
 check_call
 (
                 
@@ -3906,8 +3900,6 @@ jquery_dir
 ]
 )
         
-subprocess
-.
 check_call
 (
             
@@ -3942,8 +3934,6 @@ dev
 )
         
 return
-subprocess
-.
 check_call
 (
             
@@ -4028,8 +4018,6 @@ dromaeo_dir
 )
 :
             
-subprocess
-.
 check_call
 (
                 
@@ -4072,8 +4060,6 @@ dromaeo_dir
 ]
 )
         
-subprocess
-.
 check_call
 (
             
@@ -4092,8 +4078,6 @@ pull
 ]
 )
         
-subprocess
-.
 check_call
 (
             
@@ -4128,8 +4112,6 @@ dev
 )
         
 return
-subprocess
-.
 check_call
 (
             

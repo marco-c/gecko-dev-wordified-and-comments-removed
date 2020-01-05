@@ -658,6 +658,25 @@ mach
 "
 )
     
+script_dir
+=
+"
+Scripts
+"
+if
+os
+.
+name
+=
+=
+"
+nt
+"
+else
+"
+bin
+"
+    
 activate_path
 =
 os
@@ -667,9 +686,7 @@ path
 join
 (
 virtualenv_path
-"
-bin
-"
+script_dir
 "
 activate_this
 .
