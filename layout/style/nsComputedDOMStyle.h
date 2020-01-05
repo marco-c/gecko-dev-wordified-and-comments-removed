@@ -482,12 +482,11 @@ aCSSParseEnv
 )
 override
 ;
-mozilla
+nsDOMCSSDeclaration
 :
 :
-URLExtraData
-*
-GetURLData
+ServoCSSParsingEnvironment
+GetServoCSSParsingEnvironment
 (
 )
 const

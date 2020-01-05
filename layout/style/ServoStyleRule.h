@@ -108,9 +108,8 @@ aCSSParseEnv
 )
 final
 ;
-URLExtraData
-*
-GetURLData
+ServoCSSParsingEnvironment
+GetServoCSSParsingEnvironment
 (
 )
 const
