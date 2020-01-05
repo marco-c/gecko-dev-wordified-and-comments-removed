@@ -200,6 +200,7 @@ toctree
 taskgraph
 loading
 transforms
+optimization
 yaml
 -
 templates
