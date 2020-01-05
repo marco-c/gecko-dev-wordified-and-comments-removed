@@ -7926,6 +7926,10 @@ return
 false
 ;
 }
+aIsPixelAligned
+=
+true
+;
 aClipRect
 =
 D2D1
