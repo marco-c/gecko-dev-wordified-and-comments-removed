@@ -17,7 +17,9 @@ include
 "
 mozilla
 /
-CSSStyleSheet
+dom
+/
+MediaListBinding
 .
 h
 "
@@ -26,9 +28,7 @@ include
 "
 mozilla
 /
-dom
-/
-MediaListBinding
+StyleSheet
 .
 h
 "
@@ -3130,7 +3130,7 @@ nsMediaList
 :
 SetStyleSheet
 (
-CSSStyleSheet
+StyleSheet
 *
 aSheet
 )

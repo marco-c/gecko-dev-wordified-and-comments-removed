@@ -77,7 +77,7 @@ namespace
 mozilla
 {
 class
-CSSStyleSheet
+StyleSheet
 ;
 namespace
 css
@@ -967,7 +967,7 @@ SetStyleSheet
 mozilla
 :
 :
-CSSStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -1133,7 +1133,7 @@ mArray
 mozilla
 :
 :
-CSSStyleSheet
+StyleSheet
 *
 mStyleSheet
 ;
