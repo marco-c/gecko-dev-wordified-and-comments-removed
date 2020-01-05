@@ -2080,12 +2080,9 @@ DeleteShell
 override
 ;
 virtual
-nsresult
+bool
 GetAllowPlugins
 (
-bool
-*
-aAllowPlugins
 )
 override
 ;
