@@ -137,6 +137,13 @@ if
 (
 gtkWidget
 )
+asserts
+-
+if
+(
+stylo
+4
+)
 HTTP
 (
 .
@@ -154,6 +161,9 @@ anonymous
 block
 .
 html
+#
+bug
+1324671
 fails
 HTTP
 (
