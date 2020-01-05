@@ -39,7 +39,7 @@ SystemGroupImpl
 final
 :
 public
-ValidatingDispatcher
+SchedulerGroup
 {
 public
 :

@@ -237,11 +237,6 @@ DeadlockDetector
 h
 '
 '
-Dispatcher
-.
-h
-'
-'
 HangAnnotations
 .
 h
@@ -278,6 +273,11 @@ h
 '
 '
 ReentrantMonitor
+.
+h
+'
+'
+SchedulerGroup
 .
 h
 '
@@ -343,11 +343,6 @@ cpp
 '
 '
 BlockingResourceBase
-.
-cpp
-'
-'
-Dispatcher
 .
 cpp
 '
@@ -418,6 +413,11 @@ cpp
 '
 '
 nsTimerImpl
+.
+cpp
+'
+'
+SchedulerGroup
 .
 cpp
 '

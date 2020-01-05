@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-Dispatcher
+SchedulerGroup
 .
 h
 "

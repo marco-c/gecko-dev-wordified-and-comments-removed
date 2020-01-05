@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Dispatcher_h
+mozilla_SchedulerGroup_h
 #
 define
-mozilla_Dispatcher_h
+mozilla_SchedulerGroup_h
 #
 include
 "
@@ -56,11 +56,11 @@ TabGroup
 ;
 }
 class
-ValidatingDispatcher
+SchedulerGroup
 {
 public
 :
-ValidatingDispatcher
+SchedulerGroup
 (
 )
 ;
@@ -83,7 +83,7 @@ AutoProcessEvent
 ;
 private
 :
-ValidatingDispatcher
+SchedulerGroup
 *
 mPrevRunningDispatcher
 ;
@@ -216,7 +216,7 @@ aCategory
 )
 ;
 static
-ValidatingDispatcher
+SchedulerGroup
 *
 FromEventTarget
 (
@@ -272,7 +272,7 @@ aType
 )
 ;
 static
-ValidatingDispatcher
+SchedulerGroup
 *
 sRunningDispatcher
 ;
