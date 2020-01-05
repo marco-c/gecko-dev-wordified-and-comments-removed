@@ -38544,11 +38544,7 @@ nsStyleCoord_CalcValue
 pub
 mRefCnt
 :
-nsAutoRefCnt
-pub
-_mOwningThread
-:
-nsAutoOwningThread
+ThreadSafeAutoRefCnt
 }
 #
 [
@@ -38578,7 +38574,7 @@ nsStyleCoord_Calc
 >
 (
 )
-32usize
+24usize
 )
 ;
 assert_eq
