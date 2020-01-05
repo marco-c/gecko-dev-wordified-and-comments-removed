@@ -906,3 +906,12 @@ display
 block
 ;
 }
+svg
+>
+*
+{
+display
+:
+none
+;
+}
