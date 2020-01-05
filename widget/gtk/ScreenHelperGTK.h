@@ -73,12 +73,6 @@ ScreenHelperGTK
 )
 override
 ;
-float
-GetSystemDefaultScale
-(
-)
-override
-;
 static
 gint
 GetGTKMonitorScaleFactor

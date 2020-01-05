@@ -49,12 +49,6 @@ ScreenHelperCocoa
 )
 override
 ;
-float
-GetSystemDefaultScale
-(
-)
-override
-;
 void
 RefreshScreens
 (
