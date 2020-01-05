@@ -154,6 +154,12 @@ VP9
 <
 <
 1
+Unknown
+=
+1
+<
+<
+7
 }
 ;
 static
@@ -252,7 +258,7 @@ VideoInfo
 mInfo
 ;
 const
-int
+Codec
 mCodec
 ;
 }
