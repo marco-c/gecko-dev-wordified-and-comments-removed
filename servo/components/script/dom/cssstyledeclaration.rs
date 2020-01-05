@@ -815,6 +815,13 @@ u32
 DOMString
 {
 let
+index
+=
+index
+as
+usize
+;
+let
 owner
 =
 self
@@ -875,8 +882,6 @@ declarations
 {
 if
 index
-as
-uint
 >
 declarations
 .
@@ -893,8 +898,6 @@ important
 get
 (
 index
-as
-uint
 -
 declarations
 .
@@ -934,8 +937,6 @@ normal
 get
 (
 index
-as
-uint
 )
 .
 map

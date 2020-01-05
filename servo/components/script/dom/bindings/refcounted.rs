@@ -187,7 +187,7 @@ Arc
 <
 Mutex
 <
-uint
+usize
 >
 >
 script_chan
@@ -648,7 +648,7 @@ Arc
 <
 Mutex
 <
-uint
+usize
 >
 >
 >
@@ -730,7 +730,7 @@ Arc
 <
 Mutex
 <
-uint
+usize
 >
 >
 {

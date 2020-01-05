@@ -1399,6 +1399,13 @@ Element
 >
 >
 {
+let
+index
+=
+index
+as
+usize
+;
 match
 self
 .
@@ -1423,8 +1430,6 @@ as_slice
 get
 (
 index
-as
-uint
 )
 .
 map
@@ -1500,8 +1505,6 @@ r
 nth
 (
 index
-as
-uint
 )
 .
 clone

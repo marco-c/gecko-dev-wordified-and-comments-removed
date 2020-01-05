@@ -6819,7 +6819,7 @@ index
 }
 )
 as
-uint
+usize
 )
 ;
 \
@@ -10523,8 +10523,6 @@ JSCLASS_RESERVED_SLOTS_MASK
 <
 <
 JSCLASS_RESERVED_SLOTS_SHIFT
-as
-uint
 )
 /
 /
@@ -11158,8 +11156,6 @@ JSCLASS_RESERVED_SLOTS_MASK
 <
 <
 JSCLASS_RESERVED_SLOTS_SHIFT
-as
-uint
 /
 /
 JSCLASS_HAS_RESERVED_SLOTS
@@ -13104,7 +13100,7 @@ Proxies
 %
 s
 as
-uint
+usize
 ]
 ;
 let
@@ -13319,8 +13315,6 @@ JS_SetReservedSlot
 (
 obj
 DOM_OBJECT_SLOT
-as
-u32
                    
 PrivateValue
 (
@@ -13868,7 +13862,7 @@ get_prototype_depth
 )
 -
 >
-uint
+usize
 {
         
 {
@@ -15027,7 +15021,7 @@ offset
 %
 s
 as
-int
+isize
 )
 ;
 if
@@ -15073,7 +15067,7 @@ offset
 %
 s
 as
-int
+isize
 )
 =
 tmp
@@ -20953,7 +20947,7 @@ decl
 [
 repr
 (
-uint
+usize
 )
 ]
 #
@@ -21094,7 +21088,7 @@ strings
 *
 self
 as
-uint
+usize
 ]
 .
 to_jsval
@@ -34797,7 +34791,7 @@ Proxies
 %
 s
 as
-uint
+usize
 ]
 =
 codegen
@@ -40562,7 +40556,7 @@ pub
 const
 MAX_PROTO_CHAIN_LENGTH
 :
-uint
+usize
 =
 %
 d

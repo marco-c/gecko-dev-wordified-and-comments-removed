@@ -2796,7 +2796,7 @@ mut
 self
 index
 :
-uint
+usize
 val
 :
 &
@@ -2864,7 +2864,7 @@ mut
 self
 index
 :
-uint
+usize
 val
 :
 &

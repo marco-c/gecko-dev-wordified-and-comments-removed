@@ -1628,7 +1628,7 @@ ID
 :
 Count
 as
-uint
+usize
 ]
 )
 ;
@@ -2145,7 +2145,7 @@ Result
 <
 Option
 <
-uint
+usize
 >
 (
 )
@@ -2233,7 +2233,7 @@ len
 =
 length
 as
-uint
+usize
 &
 &
 range
@@ -2241,7 +2241,7 @@ range
 0
 length
 as
-uint
+usize
 )
 .
 all
@@ -2269,7 +2269,7 @@ offset
 (
 j
 as
-int
+isize
 )
 }
 )

@@ -516,12 +516,12 @@ borrow
 [
 offset
 as
-uint
+usize
 .
 .
 count
 as
-uint
+usize
 ]
 .
 to_owned
@@ -699,7 +699,7 @@ borrow
 .
 offset
 as
-uint
+usize
 ]
 .
 to_owned
@@ -736,7 +736,7 @@ offset
 count
 )
 as
-uint
+usize
 .
 .
 ]

@@ -330,7 +330,7 @@ rects
 [
 index
 as
-uint
+usize
 ]
 .
 clone
