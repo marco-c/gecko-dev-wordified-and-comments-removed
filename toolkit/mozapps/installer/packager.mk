@@ -564,6 +564,9 @@ dupes
 .
 py
 (
+MOZ_PKG_DUPEFLAGS
+)
+(
 DIST
 )
 /
