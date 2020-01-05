@@ -231,15 +231,11 @@ attribute
 long
 tabIndex
 ;
-/
-/
 void
 focus
 (
 )
 ;
-/
-/
 void
 blur
 (
