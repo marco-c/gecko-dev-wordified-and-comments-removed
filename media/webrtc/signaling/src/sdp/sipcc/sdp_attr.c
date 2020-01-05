@@ -8457,6 +8457,10 @@ strtoul_result
 USHRT_MAX
 )
 {
+temp
+=
+NULL
+;
 continue
 ;
 }
