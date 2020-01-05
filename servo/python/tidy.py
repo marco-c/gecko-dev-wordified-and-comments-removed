@@ -13,8 +13,6 @@ directories_to_check
 [
 "
 ports
-/
-gonk
 "
 "
 components
@@ -143,6 +141,14 @@ src
 native_window_glue
 .
 cpp
+"
+    
+"
+ports
+/
+cef
+/
+*
 "
     
 "
