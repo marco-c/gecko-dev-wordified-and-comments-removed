@@ -9008,6 +9008,16 @@ Start
 (
 )
 ;
+NS_ReleaseOnMainThread
+(
+driver
+.
+forget
+(
+)
+true
+)
+;
 }
 }
 if
