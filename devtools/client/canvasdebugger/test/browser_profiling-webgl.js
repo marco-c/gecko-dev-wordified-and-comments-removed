@@ -662,16 +662,4 @@ correct
 )
 ;
 }
-yield
-removeTab
-(
-target
-.
-tab
-)
-;
-finish
-(
-)
-;
 }

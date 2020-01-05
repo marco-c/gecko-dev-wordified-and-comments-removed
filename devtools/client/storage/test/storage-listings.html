@@ -351,8 +351,8 @@ n
 let
 idbGenerator
 =
+async
 function
-*
 (
 )
 {
@@ -394,7 +394,7 @@ connection
 let
 db
 =
-yield
+await
 new
 Promise
 (
@@ -518,7 +518,7 @@ db
 /
 Prevents
 AbortError
-yield
+await
 new
 Promise
 (
@@ -688,7 +688,7 @@ during
 close
 (
 )
-yield
+await
 new
 Promise
 (
@@ -726,7 +726,7 @@ idb2
 let
 db2
 =
-yield
+await
 new
 Promise
 (
@@ -817,7 +817,7 @@ during
 close
 (
 )
-yield
+await
 new
 Promise
 (
@@ -907,6 +907,7 @@ resolve
 )
 ;
 }
+async
 function
 fetchPut
 (
@@ -917,13 +918,13 @@ url
 let
 response
 =
-yield
+await
 fetch
 (
 url
 )
 ;
-yield
+await
 cache
 .
 put
@@ -936,15 +937,15 @@ response
 let
 cacheGenerator
 =
+async
 function
-*
 (
 )
 {
 let
 cache
 =
-yield
+await
 caches
 .
 open
@@ -954,7 +955,7 @@ plop
 "
 )
 ;
-yield
+await
 fetchPut
 (
 cache
@@ -965,7 +966,7 @@ js
 "
 )
 ;
-yield
+await
 fetchPut
 (
 cache

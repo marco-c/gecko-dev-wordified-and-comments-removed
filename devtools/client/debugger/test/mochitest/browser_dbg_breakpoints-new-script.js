@@ -461,10 +461,8 @@ deferred
 promise
 ;
 }
-Task
-.
-spawn
 (
+async
 function
 (
 )
@@ -486,7 +484,7 @@ runDebuggerStatement
 "
 )
 ;
-yield
+await
 onCaretUpdated
 ;
 is
@@ -531,7 +529,7 @@ incorrect
 "
 )
 ;
-yield
+await
 actions
 .
 addBreakpoint
@@ -550,12 +548,12 @@ line
 }
 )
 ;
-yield
+await
 testResume
 (
 )
 ;
-yield
+await
 testBreakpointHit
 (
 )
@@ -566,6 +564,8 @@ gPanel
 )
 ;
 }
+)
+(
 )
 ;
 }
