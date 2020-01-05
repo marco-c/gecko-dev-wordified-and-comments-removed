@@ -833,6 +833,14 @@ aEvent
 =
 0
 ;
+virtual
+void
+AsyncScrollbarDragRejected
+(
+)
+=
+0
+;
 }
 ;
 #

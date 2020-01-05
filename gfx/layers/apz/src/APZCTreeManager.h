@@ -828,6 +828,16 @@ AsyncPanZoomController
 apzc
 )
 ;
+void
+NotifyScrollbarDragRejected
+(
+const
+ScrollableLayerGuid
+&
+aGuid
+)
+const
+;
 protected
 :
 RefPtr
