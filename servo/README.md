@@ -134,7 +134,6 @@ autoconf213
 rb
 brew
 install
-sdl
 cairo
 On
 OS
@@ -147,7 +146,6 @@ sudo
 port
 install
 autoconf213
-libsdl
 cairo
 +
 x11
@@ -164,11 +162,6 @@ apt
 -
 get
 install
-libsdl1
-.
-2
--
-dev
 libcairo2
 -
 dev
