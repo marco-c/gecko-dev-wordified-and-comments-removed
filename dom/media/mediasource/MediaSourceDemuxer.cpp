@@ -1681,11 +1681,6 @@ BreackCycle
 ;
 return
 InvokeAsync
-<
-TimeUnit
-&
-&
->
 (
 mParent
 -
@@ -1937,11 +1932,6 @@ aTimeThreshold
 {
 return
 InvokeAsync
-<
-TimeUnit
-&
-&
->
 (
 mParent
 -

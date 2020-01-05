@@ -14112,11 +14112,6 @@ aTarget
 {
 return
 InvokeAsync
-<
-SeekTarget
-&
-&
->
 (
 OwnerThread
 (
