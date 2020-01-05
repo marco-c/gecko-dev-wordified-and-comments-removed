@@ -2019,6 +2019,7 @@ e
 )
 ;
 }
+get
 userPermissions
 (
 )
@@ -2027,7 +2028,7 @@ let
 result
 =
 {
-hosts
+origins
 :
 this
 .
@@ -2074,7 +2075,7 @@ content_scripts
 {
 result
 .
-hosts
+origins
 .
 push
 (
@@ -2122,7 +2123,7 @@ p
 !
 result
 .
-hosts
+origins
 .
 includes
 (
@@ -2152,11 +2153,11 @@ newPermissions
 {
 return
 {
-hosts
+origins
 :
 newPermissions
 .
-hosts
+origins
 .
 filter
 (
@@ -2166,7 +2167,7 @@ perm
 !
 oldPermissions
 .
-hosts
+origins
 .
 includes
 (
