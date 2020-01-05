@@ -633,6 +633,11 @@ _
 StrictCompare
 )
 \
+_
+(
+InitHole
+)
+\
 \
 _
 (
