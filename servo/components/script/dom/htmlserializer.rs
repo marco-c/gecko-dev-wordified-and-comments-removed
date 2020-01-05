@@ -182,12 +182,6 @@ text
 :
 Text
 ;
-use
-string_cache
-:
-:
-Atom
-;
 #
 [
 allow
@@ -1326,10 +1320,8 @@ local_name
 )
 =
 =
-Atom
-:
-:
-from_slice
+atom
+!
 (
 "
 xmlns
