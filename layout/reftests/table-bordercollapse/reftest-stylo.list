@@ -150,6 +150,7 @@ html
 bc_dyn_cg3
 .
 html
+fails
 =
 =
 bc_dyn_table1
@@ -158,6 +159,7 @@ html
 bc_dyn_table1
 .
 html
+fails
 =
 =
 bc_dyn_table2
@@ -166,6 +168,7 @@ html
 bc_dyn_table2
 .
 html
+fails
 =
 =
 bc_dyn_table3
@@ -562,6 +565,7 @@ html
 frame_vsides_rules_rows
 .
 html
+fails
 =
 =
 borderhandling
@@ -574,6 +578,7 @@ borderhandling
 1
 .
 html
+fails
 =
 =
 borderhandling
@@ -586,6 +591,7 @@ borderhandling
 2
 .
 html
+fails
 =
 =
 borderhandling
@@ -598,6 +604,7 @@ borderhandling
 3
 .
 html
+fails
 =
 =
 borderhandling
@@ -610,6 +617,7 @@ borderhandling
 4
 .
 html
+fails
 =
 =
 borderhandling
@@ -622,6 +630,7 @@ borderhandling
 5
 .
 xhtml
+fails
 =
 =
 borderhandling
@@ -634,6 +643,7 @@ borderhandling
 6
 .
 xhtml
+fails
 =
 =
 borderhandling
@@ -658,6 +668,7 @@ borderhandling
 8
 .
 html
+fails
 =
 =
 borderhandling
@@ -674,6 +685,7 @@ frame
 border
 .
 html
+fails
 =
 =
 borderhandling
@@ -698,6 +710,7 @@ empty
 quirks
 .
 html
+fails
 =
 =
 borderhandling
@@ -722,6 +735,7 @@ rules
 quirks
 .
 html
+fails
 =
 =
 borderhandling
@@ -746,6 +760,7 @@ none
 quirks
 .
 html
+fails
 =
 =
 borderhandling
@@ -770,6 +785,7 @@ groups
 quirks
 .
 html
+fails
 =
 =
 borderhandling
@@ -794,6 +810,7 @@ rows
 quirks
 .
 html
+fails
 =
 =
 borderhandling
@@ -818,6 +835,7 @@ cols
 quirks
 .
 html
+fails
 =
 =
 borderhandling
@@ -842,6 +860,7 @@ all
 quirks
 .
 html
+fails
 =
 =
 borderhandling
@@ -866,6 +885,7 @@ empty
 strict
 .
 html
+fails
 =
 =
 borderhandling
@@ -890,6 +910,7 @@ rules
 strict
 .
 html
+fails
 =
 =
 borderhandling
@@ -914,6 +935,7 @@ none
 strict
 .
 html
+fails
 =
 =
 borderhandling
@@ -938,6 +960,7 @@ groups
 strict
 .
 html
+fails
 =
 =
 borderhandling
@@ -962,6 +985,7 @@ rows
 strict
 .
 html
+fails
 =
 =
 borderhandling
@@ -986,6 +1010,7 @@ cols
 strict
 .
 html
+fails
 =
 =
 borderhandling
@@ -1010,6 +1035,7 @@ all
 strict
 .
 html
+fails
 =
 =
 bordercolor
@@ -1022,6 +1048,7 @@ bordercolor
 1
 .
 html
+fails
 =
 =
 bordercolor
@@ -1034,6 +1061,7 @@ bordercolor
 2
 .
 html
+fails
 =
 =
 bordercolor
@@ -1046,6 +1074,7 @@ bordercolor
 3
 .
 html
+fails
 =
 =
 bordercolor

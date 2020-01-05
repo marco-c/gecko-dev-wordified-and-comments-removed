@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 ruby
@@ -1419,6 +1420,7 @@ property
 001c
 .
 html
+fails
 =
 =
 text
@@ -1443,6 +1445,7 @@ property
 002
 .
 html
+fails
 =
 =
 text
@@ -1467,6 +1470,7 @@ property
 002a
 .
 html
+fails
 =
 =
 text
@@ -1491,6 +1495,7 @@ property
 002b
 .
 html
+fails
 =
 =
 text
@@ -1707,6 +1712,7 @@ property
 003g
 .
 html
+fails
 =
 =
 text
@@ -1731,6 +1737,7 @@ property
 004
 .
 html
+fails
 =
 =
 text
@@ -1755,6 +1762,7 @@ property
 004a
 .
 html
+fails
 =
 =
 text
@@ -1779,6 +1787,7 @@ property
 004b
 .
 html
+fails
 =
 =
 text
@@ -1803,6 +1812,7 @@ property
 004c
 .
 html
+fails
 =
 =
 text
@@ -1827,6 +1837,7 @@ property
 004d
 .
 html
+fails
 =
 =
 text
@@ -1851,6 +1862,7 @@ property
 004e
 .
 html
+fails
 =
 =
 text
@@ -1875,6 +1887,7 @@ property
 004f
 .
 html
+fails
 =
 =
 text
@@ -2091,6 +2104,7 @@ property
 005g
 .
 html
+fails
 =
 =
 text
@@ -2115,6 +2129,7 @@ property
 006
 .
 html
+fails
 =
 =
 text
@@ -2139,6 +2154,7 @@ property
 006a
 .
 html
+fails
 =
 =
 text
@@ -2163,6 +2179,7 @@ property
 006b
 .
 html
+fails
 =
 =
 text
@@ -2187,6 +2204,7 @@ property
 006c
 .
 html
+fails
 =
 =
 text
@@ -2211,6 +2229,7 @@ property
 006d
 .
 html
+fails
 =
 =
 text
@@ -2235,6 +2254,7 @@ property
 006e
 .
 html
+fails
 =
 =
 text
@@ -2259,6 +2279,7 @@ property
 006f
 .
 html
+fails
 =
 =
 text
@@ -2339,6 +2360,7 @@ ruby
 001
 .
 html
+fails
 =
 =
 text
@@ -2399,6 +2421,7 @@ ruby
 003a
 .
 html
+fails
 =
 =
 text
@@ -2419,6 +2442,7 @@ ruby
 004
 .
 html
+fails
 =
 =
 text
@@ -2529,6 +2553,7 @@ height
 001b
 .
 html
+fails
 =
 =
 text
@@ -2553,6 +2578,7 @@ height
 002a
 .
 html
+fails
 =
 =
 text
@@ -2673,6 +2699,7 @@ height
 003d
 .
 html
+fails
 =
 =
 text
@@ -2697,6 +2724,7 @@ height
 004a
 .
 html
+fails
 =
 =
 text
@@ -2721,6 +2749,7 @@ height
 004b
 .
 html
+fails
 =
 =
 text
@@ -2745,6 +2774,7 @@ height
 004c
 .
 html
+fails
 =
 =
 text
@@ -2788,6 +2818,7 @@ height
 tests
 .
 py
+fails
 =
 =
 text

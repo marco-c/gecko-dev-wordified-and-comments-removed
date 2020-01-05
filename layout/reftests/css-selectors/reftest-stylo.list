@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 state
@@ -34,6 +35,7 @@ in
 any
 .
 html
+fails
 =
 =
 attr
@@ -82,6 +84,7 @@ content
 1
 .
 xhtml
+fails
 =
 =
 sibling
@@ -110,6 +113,7 @@ content
 2
 .
 xhtml
+fails
 =
 =
 nth
@@ -126,6 +130,7 @@ child
 1
 .
 html
+fails
 =
 =
 nth

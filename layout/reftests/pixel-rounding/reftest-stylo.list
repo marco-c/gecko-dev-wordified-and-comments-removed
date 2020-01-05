@@ -2237,6 +2237,7 @@ left
 6
 .
 html
+fails
 pref
 (
 image
@@ -3434,6 +3435,7 @@ image
 tiling
 .
 html
+fails
 =
 =
 border
@@ -3454,6 +3456,7 @@ width
 0
 .
 html
+fails
 =
 =
 border
@@ -3474,6 +3477,7 @@ width
 4
 .
 html
+fails
 =
 =
 border
@@ -3507,6 +3511,7 @@ iframe
 1
 .
 html
+fails
 =
 =
 viewport

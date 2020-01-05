@@ -20,6 +20,7 @@ Basic
 summary
 >
 handling
+fails
 =
 =
 multiple
@@ -32,6 +33,7 @@ multiple
 summary
 .
 html
+fails
 =
 =
 open
@@ -48,6 +50,7 @@ multiple
 summary
 .
 html
+fails
 =
 =
 summary
@@ -68,6 +71,7 @@ first
 child
 .
 html
+fails
 =
 =
 open
@@ -159,6 +163,7 @@ cell
 style
 .
 html
+fails
 =
 =
 no
@@ -171,6 +176,7 @@ no
 summary
 .
 html
+fails
 =
 =
 open
@@ -207,6 +213,7 @@ in
 details
 .
 html
+fails
 =
 =
 summary
@@ -227,6 +234,7 @@ direct
 child
 .
 html
+fails
 =
 =
 float
@@ -247,6 +255,7 @@ html
 Add
 elements
 dynamically
+fails
 =
 =
 dynamic
@@ -267,6 +276,7 @@ single
 summary
 .
 html
+fails
 =
 =
 dynamic
@@ -295,6 +305,7 @@ first
 child
 .
 html
+fails
 =
 =
 dynamic
@@ -319,6 +330,7 @@ and
 paragraph
 .
 html
+fails
 =
 =
 dynamic
@@ -343,6 +355,7 @@ before
 summary
 .
 html
+fails
 =
 =
 dynamic
@@ -371,6 +384,7 @@ summary
 close
 .
 html
+fails
 =
 =
 dynamic
@@ -395,6 +409,7 @@ after
 summary
 .
 html
+fails
 =
 =
 dynamic
@@ -423,6 +438,7 @@ summary
 close
 .
 html
+fails
 =
 =
 dynamic
@@ -439,6 +455,7 @@ add
 details
 .
 html
+fails
 =
 =
 dynamic
@@ -459,6 +476,7 @@ first
 summary
 .
 html
+fails
 =
 =
 dynamic
@@ -483,6 +501,7 @@ html
 Remove
 elements
 dynamically
+fails
 =
 =
 dynamic
@@ -503,6 +522,7 @@ single
 summary
 .
 html
+fails
 =
 =
 dynamic
@@ -531,6 +551,7 @@ first
 child
 .
 html
+fails
 =
 =
 dynamic
@@ -551,6 +572,7 @@ first
 summary
 .
 html
+fails
 =
 =
 dynamic
@@ -577,6 +599,7 @@ details
 by
 open
 attribute
+fails
 =
 =
 close
@@ -593,6 +616,7 @@ nested
 details
 .
 html
+fails
 =
 =
 open
@@ -635,6 +659,7 @@ open
 details
 .
 html
+fails
 =
 =
 overflow
@@ -655,6 +680,7 @@ open
 details
 .
 html
+fails
 =
 =
 overflow
@@ -1116,6 +1142,7 @@ three
 columns
 .
 html
+fails
 =
 =
 details
@@ -1132,6 +1159,7 @@ writing
 mode
 .
 html
+fails
 =
 =
 details
@@ -1164,6 +1192,7 @@ three
 columns
 .
 html
+fails
 =
 =
 details
@@ -1180,6 +1209,7 @@ first
 line
 .
 html
+fails
 =
 =
 open
@@ -1204,6 +1234,7 @@ line
 1
 .
 html
+fails
 =
 =
 open
@@ -1234,6 +1265,7 @@ mouse
 click
 to
 summary
+fails
 =
 =
 mouse
@@ -1254,6 +1286,7 @@ single
 summary
 .
 html
+fails
 =
 =
 mouse
@@ -1278,6 +1311,7 @@ single
 summary
 .
 html
+fails
 =
 =
 mouse
@@ -1302,6 +1336,7 @@ single
 summary
 .
 html
+fails
 =
 =
 mouse
@@ -1330,19 +1365,9 @@ single
 summary
 .
 html
+fails
 =
 =
-mouse
--
-click
--
-open
--
-second
--
-summary
-.
-html
 mouse
 -
 click
@@ -1354,6 +1379,18 @@ second
 summary
 .
 html
+mouse
+-
+click
+-
+open
+-
+second
+-
+summary
+.
+html
+fails
 =
 =
 mouse
@@ -1406,6 +1443,7 @@ hidden
 details
 .
 html
+fails
 =
 =
 mouse
@@ -1430,6 +1468,7 @@ auto
 details
 .
 html
+fails
 =
 =
 mouse
@@ -1458,6 +1497,7 @@ auto
 details
 .
 html
+fails
 =
 =
 mouse
@@ -1482,6 +1522,7 @@ none
 details
 .
 html
+fails
 =
 =
 mouse
@@ -1546,6 +1587,7 @@ display
 none
 .
 html
+fails
 =
 =
 mouse
@@ -1591,6 +1633,7 @@ flow
 details
 or
 summary
+fails
 =
 =
 mouse
@@ -1611,6 +1654,7 @@ fixed
 summary
 .
 html
+fails
 =
 =
 mouse
@@ -1635,6 +1679,7 @@ fixed
 summary
 .
 html
+fails
 =
 =
 mouse
@@ -1655,6 +1700,7 @@ float
 details
 .
 html
+fails
 =
 =
 mouse
@@ -1685,6 +1731,7 @@ keyboard
 event
 to
 summary
+fails
 =
 =
 key
@@ -1705,6 +1752,7 @@ single
 summary
 .
 html
+fails
 =
 =
 key
@@ -1729,6 +1777,7 @@ second
 summary
 .
 html
+fails
 =
 =
 key
@@ -1749,6 +1798,7 @@ prevent
 default
 .
 html
+fails
 =
 =
 key
@@ -1773,6 +1823,7 @@ html
 Generated
 content
 bits
+fails
 =
 =
 details
@@ -1785,6 +1836,7 @@ details
 after
 .
 html
+fails
 =
 =
 details
@@ -1797,6 +1849,7 @@ details
 before
 .
 html
+fails
 =
 =
 open
@@ -1813,6 +1866,7 @@ details
 after
 .
 html
+fails
 =
 =
 open

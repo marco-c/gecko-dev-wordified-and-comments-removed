@@ -292,6 +292,7 @@ that
 resize
 works
 :
+fails
 =
 =
 webgl
@@ -5356,6 +5357,7 @@ html
 #
 Bug
 815648
+fails
 =
 =
 stroketext
@@ -5463,6 +5465,7 @@ html
 capturestream
 .
 html
+fails
 =
 =
 1177726

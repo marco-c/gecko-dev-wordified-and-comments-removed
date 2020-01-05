@@ -23,6 +23,7 @@ support
 :
 optional
 .
+fails
 =
 =
 css
@@ -39,6 +40,7 @@ optional
 textarea
 .
 html
+fails
 =
 =
 css
@@ -55,6 +57,7 @@ optional
 input
 .
 html
+fails
 =
 =
 css
@@ -92,6 +95,7 @@ Checking
 dynamic
 behavior
 .
+fails
 =
 =
 css

@@ -43,6 +43,7 @@ bug
 875750
 )
 .
+fails
 =
 =
 input
@@ -100,6 +101,7 @@ following
 tests
 fail
 .
+fails
 =
 =
 margin
@@ -116,6 +118,7 @@ padding
 1
 .
 html
+fails
 =
 =
 block
@@ -132,6 +135,7 @@ invalidate
 1
 .
 html
+fails
 =
 =
 block
@@ -148,6 +152,7 @@ invalidate
 2
 .
 html
+fails
 =
 =
 transformations
@@ -160,6 +165,7 @@ transformations
 1
 .
 html
+fails
 =
 =
 custom
@@ -176,6 +182,7 @@ style
 1
 .
 html
+fails
 =
 =
 custom

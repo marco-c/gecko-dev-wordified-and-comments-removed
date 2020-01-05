@@ -85,6 +85,7 @@ box
 002
 .
 html
+fails
 =
 =
 shape
@@ -109,6 +110,7 @@ box
 001
 .
 html
+fails
 =
 =
 shape
@@ -133,6 +135,7 @@ box
 002
 .
 html
+fails
 =
 =
 shape
@@ -157,6 +160,7 @@ box
 001
 .
 html
+fails
 =
 =
 shape
@@ -181,6 +185,7 @@ box
 002
 .
 html
+fails
 =
 =
 shape
@@ -205,6 +210,7 @@ box
 001
 .
 html
+fails
 =
 =
 shape
@@ -239,6 +245,7 @@ with
 border
 -
 radius
+fails
 =
 =
 shape
@@ -271,6 +278,7 @@ radius
 001
 .
 html
+fails
 =
 =
 shape
@@ -303,6 +311,7 @@ radius
 002
 .
 html
+fails
 =
 =
 shape
@@ -335,6 +344,7 @@ radius
 003
 .
 html
+fails
 =
 =
 shape
@@ -367,6 +377,7 @@ radius
 004
 .
 html
+fails
 =
 =
 shape
@@ -399,6 +410,7 @@ radius
 005
 .
 html
+fails
 =
 =
 shape
@@ -431,6 +443,7 @@ radius
 006
 .
 html
+fails
 =
 =
 shape
@@ -463,6 +476,7 @@ radius
 007
 .
 html
+fails
 =
 =
 shape
@@ -495,6 +509,7 @@ radius
 008
 .
 html
+fails
 =
 =
 shape
@@ -527,6 +542,7 @@ radius
 001
 .
 html
+fails
 =
 =
 shape
@@ -559,6 +575,7 @@ radius
 002
 .
 html
+fails
 =
 =
 shape
@@ -591,6 +608,7 @@ radius
 003
 .
 html
+fails
 =
 =
 shape
@@ -623,6 +641,7 @@ radius
 004
 .
 html
+fails
 =
 =
 shape
@@ -655,6 +674,7 @@ radius
 005
 .
 html
+fails
 =
 =
 shape
@@ -687,6 +707,7 @@ radius
 006
 .
 html
+fails
 =
 =
 shape
@@ -719,6 +740,7 @@ radius
 007
 .
 html
+fails
 =
 =
 shape
@@ -751,6 +773,7 @@ radius
 008
 .
 html
+fails
 =
 =
 shape
@@ -783,6 +806,7 @@ radius
 009
 .
 html
+fails
 =
 =
 shape
@@ -815,6 +839,7 @@ radius
 010
 .
 html
+fails
 =
 =
 shape
@@ -847,6 +872,7 @@ radius
 011
 .
 html
+fails
 =
 =
 shape
@@ -879,6 +905,7 @@ radius
 012
 .
 html
+fails
 =
 =
 shape
@@ -911,6 +938,7 @@ radius
 001
 .
 html
+fails
 =
 =
 shape
@@ -943,6 +971,7 @@ radius
 002
 .
 html
+fails
 =
 =
 shape
@@ -975,6 +1004,7 @@ radius
 001
 .
 html
+fails
 =
 =
 shape

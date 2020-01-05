@@ -105,6 +105,7 @@ align
 content
 property
 )
+fails
 =
 =
 flexbox
@@ -129,6 +130,7 @@ horiz
 001a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -153,6 +155,7 @@ horiz
 001b
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -177,6 +180,7 @@ vert
 001a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -218,6 +222,7 @@ align
 items
 properties
 )
+fails
 =
 =
 flexbox
@@ -246,6 +251,7 @@ horiz
 001a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -386,6 +392,7 @@ horiz
 005
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -414,6 +421,7 @@ horiz
 006
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -498,6 +506,7 @@ vert
 002
 .
 html
+fails
 =
 =
 flexbox
@@ -526,6 +535,7 @@ horiz
 block
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -650,6 +660,7 @@ horiz
 005
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -746,6 +757,7 @@ vert
 004
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -900,6 +912,7 @@ horiz
 001
 .
 html
+fails
 =
 =
 flexbox
@@ -932,6 +945,7 @@ vert
 001
 .
 html
+fails
 =
 =
 flexbox
@@ -952,6 +966,7 @@ empty
 001a
 .
 html
+fails
 =
 =
 flexbox
@@ -1000,6 +1015,7 @@ horiz
 001
 .
 html
+fails
 =
 =
 flexbox
@@ -1084,6 +1100,7 @@ horiz
 002
 .
 html
+fails
 =
 =
 flexbox
@@ -1112,6 +1129,7 @@ horiz
 003
 .
 html
+fails
 =
 =
 flexbox
@@ -1253,6 +1271,7 @@ blocks
 as
 flex
 items
+fails
 =
 =
 flexbox
@@ -1277,6 +1296,7 @@ horiz
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1320,6 +1340,7 @@ as
 a
 flex
 item
+fails
 =
 =
 flexbox
@@ -1344,6 +1365,7 @@ horiz
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1368,6 +1390,7 @@ vert
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1392,6 +1415,7 @@ horiz
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1416,6 +1440,7 @@ vert
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1440,6 +1465,7 @@ horiz
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1464,6 +1490,7 @@ vert
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1488,6 +1515,7 @@ horiz
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1512,6 +1540,7 @@ vert
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1536,6 +1565,7 @@ horiz
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1560,6 +1590,7 @@ vert
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1584,6 +1615,7 @@ horiz
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1654,6 +1686,7 @@ horiz
 001a
 .
 html
+fails
 =
 =
 flexbox
@@ -1750,6 +1783,7 @@ vert
 001a
 .
 html
+fails
 =
 =
 flexbox
@@ -2123,6 +2157,7 @@ stretching
 flexing
 .
 )
+fails
 =
 =
 flexbox
@@ -2143,6 +2178,7 @@ ratio
 001
 .
 html
+fails
 =
 =
 flexbox
@@ -2163,6 +2199,7 @@ ratio
 002
 .
 html
+fails
 =
 =
 flexbox
@@ -2183,6 +2220,7 @@ ratio
 003
 .
 html
+fails
 =
 =
 flexbox
@@ -2282,6 +2320,7 @@ contexts
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2310,6 +2349,7 @@ contexts
 002
 .
 html
+fails
 =
 =
 flexbox
@@ -2351,6 +2391,7 @@ jusify
 content
 property
 )
+fails
 =
 =
 flexbox
@@ -2375,6 +2416,7 @@ horiz
 001a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2399,6 +2441,7 @@ horiz
 001b
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2423,6 +2466,7 @@ horiz
 002
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2447,6 +2491,7 @@ horiz
 003
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2471,6 +2516,7 @@ horiz
 004
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2495,6 +2541,7 @@ horiz
 005
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2519,6 +2566,7 @@ vert
 001a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2543,6 +2591,7 @@ vert
 001b
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2567,6 +2616,7 @@ vert
 002
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2591,6 +2641,7 @@ vert
 003
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2615,6 +2666,7 @@ vert
 004
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2701,6 +2753,7 @@ horiz
 002
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2721,6 +2774,7 @@ horiz
 001
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2745,6 +2799,7 @@ horiz
 reverse
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2769,6 +2824,7 @@ horiz
 rtl
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2797,6 +2853,7 @@ rtl
 reverse
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2817,6 +2874,7 @@ horiz
 002a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2837,6 +2895,7 @@ horiz
 002b
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -2857,6 +2916,7 @@ horiz
 003
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -3014,6 +3074,7 @@ auto
 002c
 .
 html
+fails
 =
 =
 flexbox
@@ -3038,6 +3099,7 @@ auto
 003
 .
 html
+fails
 =
 =
 flexbox
@@ -3182,6 +3244,7 @@ auto
 003
 .
 html
+fails
 =
 =
 flexbox
@@ -3218,6 +3281,7 @@ overflow
 "
 property
 set
+fails
 =
 =
 flexbox
@@ -3258,6 +3322,7 @@ horiz
 002
 .
 html
+fails
 =
 =
 flexbox
@@ -3298,6 +3363,7 @@ horiz
 004
 .
 html
+fails
 =
 =
 flexbox
@@ -3318,6 +3384,7 @@ horiz
 005
 .
 html
+fails
 =
 =
 flexbox
@@ -3358,6 +3425,7 @@ vert
 002
 .
 html
+fails
 =
 =
 flexbox
@@ -3398,6 +3466,7 @@ vert
 004
 .
 html
+fails
 =
 =
 flexbox
@@ -3480,6 +3549,7 @@ flex
 on
 root
 node
+fails
 =
 =
 flexbox
@@ -3500,6 +3570,7 @@ node
 001a
 .
 html
+fails
 =
 =
 flexbox
@@ -3537,6 +3608,7 @@ min
 max
 size
 constraints
+fails
 =
 =
 flexbox
@@ -3577,6 +3649,7 @@ horiz
 002
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -3634,6 +3707,7 @@ of
 a
 flex
 container
+fails
 =
 =
 flexbox
@@ -3665,6 +3739,7 @@ anonymous
 flex
 items
 .
+fails
 =
 =
 flexbox
@@ -3685,6 +3760,7 @@ handling
 001a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -3705,6 +3781,7 @@ handling
 001b
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -3734,6 +3811,7 @@ with
 pseudo
 -
 elements
+fails
 =
 =
 flexbox
@@ -3782,6 +3860,7 @@ elements
 002
 .
 html
+fails
 =
 =
 flexbox

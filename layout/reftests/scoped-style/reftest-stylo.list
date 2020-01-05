@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 scoped
@@ -30,6 +31,7 @@ style
 001
 .
 html
+fails
 =
 =
 scoped
@@ -46,6 +48,7 @@ style
 002
 .
 html
+fails
 =
 =
 scoped
@@ -62,6 +65,7 @@ style
 003
 .
 html
+fails
 =
 =
 scoped
@@ -78,6 +82,7 @@ style
 004
 .
 html
+fails
 =
 =
 scoped
@@ -126,6 +131,7 @@ style
 007
 .
 html
+fails
 =
 =
 scoped
@@ -142,6 +148,7 @@ style
 008
 .
 html
+fails
 =
 =
 scoped
@@ -158,6 +165,7 @@ style
 009
 .
 html
+fails
 =
 =
 scoped
@@ -174,6 +182,7 @@ style
 010
 .
 html
+fails
 =
 =
 scoped
@@ -190,6 +199,7 @@ style
 011
 .
 html
+fails
 =
 =
 scoped
@@ -206,6 +216,7 @@ style
 012
 .
 html
+fails
 =
 =
 scoped
@@ -238,6 +249,7 @@ style
 014
 .
 html
+fails
 =
 =
 scoped
@@ -270,6 +282,7 @@ style
 016
 .
 html
+fails
 =
 =
 scoped
@@ -286,6 +299,7 @@ style
 017
 .
 html
+fails
 =
 =
 scoped
@@ -366,6 +380,7 @@ style
 022
 .
 html
+fails
 =
 =
 scoped
@@ -382,6 +397,7 @@ style
 023
 .
 html
+fails
 =
 =
 scoped
@@ -418,6 +434,7 @@ important
 001
 .
 html
+fails
 =
 =
 scoped
@@ -538,6 +555,7 @@ important
 007
 .
 html
+fails
 =
 =
 scoped
@@ -558,6 +576,7 @@ dynamic
 001
 .
 html
+fails
 =
 =
 scoped
@@ -578,6 +597,7 @@ dynamic
 002
 .
 html
+fails
 =
 =
 scoped
@@ -598,6 +618,7 @@ dynamic
 003
 .
 html
+fails
 =
 =
 scoped
@@ -638,6 +659,7 @@ dynamic
 005
 .
 html
+fails
 =
 =
 scoped
@@ -658,6 +680,7 @@ dynamic
 006
 .
 html
+fails
 =
 =
 scoped
@@ -678,6 +701,7 @@ dynamic
 007
 .
 html
+fails
 =
 =
 scoped
@@ -698,6 +722,7 @@ dynamic
 008
 .
 html
+fails
 =
 =
 scoped
@@ -738,6 +763,7 @@ dynamic
 010
 .
 html
+fails
 =
 =
 scoped
@@ -838,6 +864,7 @@ dynamic
 015
 .
 svg
+fails
 =
 =
 scoped
@@ -854,6 +881,7 @@ style
 import
 .
 html
+fails
 =
 =
 scoped
@@ -870,6 +898,7 @@ style
 media
 .
 html
+fails
 =
 =
 scoped
@@ -886,6 +915,7 @@ style
 namespace
 .
 html
+fails
 =
 =
 scoped
@@ -902,6 +932,7 @@ style
 charset
 .
 html
+fails
 =
 =
 scoped
@@ -918,6 +949,7 @@ style
 document
 .
 html
+fails
 HTTP
 (
 .
@@ -943,6 +975,7 @@ font
 face
 .
 html
+fails
 =
 =
 scoped
@@ -959,6 +992,7 @@ style
 keyframes
 .
 html
+fails
 =
 =
 scoped
@@ -975,6 +1009,7 @@ style
 supports
 .
 html
+fails
 pref
 (
 layout
@@ -1008,6 +1043,7 @@ pseudo
 001
 .
 html
+fails
 pref
 (
 layout

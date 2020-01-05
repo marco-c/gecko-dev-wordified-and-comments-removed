@@ -142,6 +142,7 @@ block
 1
 .
 html
+fails
 =
 =
 calc
@@ -674,6 +675,7 @@ intrinsic
 1
 .
 html
+fails
 =
 =
 calc
@@ -698,6 +700,7 @@ auto
 1
 .
 html
+fails
 =
 =
 calc

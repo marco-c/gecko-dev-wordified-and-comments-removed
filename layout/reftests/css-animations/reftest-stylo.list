@@ -74,6 +74,7 @@ no
 animations
 .
 html
+fails
 =
 =
 animate
@@ -86,6 +87,7 @@ animate
 opacity
 .
 html
+fails
 =
 =
 animate
@@ -173,6 +175,7 @@ view
 animation
 .
 html
+fails
 =
 =
 animate
@@ -408,6 +411,7 @@ in
 delay
 .
 html
+fails
 =
 =
 stacking
@@ -432,6 +436,7 @@ opacity
 1
 .
 html
+fails
 =
 =
 stacking
@@ -456,6 +461,7 @@ transform
 none
 .
 html
+fails
 =
 =
 stacking
@@ -484,6 +490,7 @@ in
 delay
 .
 html
+fails
 =
 =
 stacking
@@ -524,6 +531,7 @@ main
 thread
 .
 html
+fails
 =
 =
 stacking
@@ -552,6 +560,7 @@ over
 transition
 .
 html
+fails
 =
 =
 stacking
@@ -580,6 +589,7 @@ in
 delay
 .
 html
+fails
 =
 =
 stacking
@@ -620,6 +630,7 @@ main
 thread
 .
 html
+fails
 =
 =
 stacking
@@ -673,6 +684,7 @@ opacity
 animation
 .
 html
+fails
 =
 =
 stacking
@@ -705,6 +717,7 @@ fill
 backwards
 .
 html
+fails
 =
 =
 stacking
@@ -737,6 +750,7 @@ fill
 forwards
 .
 html
+fails
 =
 =
 stacking
@@ -765,6 +779,7 @@ opacity
 1
 .
 html
+fails
 =
 =
 stacking
@@ -818,6 +833,7 @@ none
 animation
 .
 html
+fails
 =
 =
 stacking
@@ -850,6 +866,7 @@ on
 svg
 .
 html
+fails
 =
 =
 stacking
@@ -922,6 +939,7 @@ preserve
 3d
 .
 html
+fails
 =
 =
 stacking
@@ -954,6 +972,7 @@ fill
 backwards
 .
 html
+fails
 =
 =
 stacking
@@ -986,6 +1005,7 @@ fill
 forwards
 .
 html
+fails
 =
 =
 stacking
@@ -1014,6 +1034,7 @@ in
 delay
 .
 html
+fails
 =
 =
 stacking
@@ -1046,6 +1067,7 @@ in
 delay
 .
 html
+fails
 =
 =
 stacking
@@ -1074,6 +1096,7 @@ in
 delay
 .
 html
+fails
 =
 =
 stacking

@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 input
@@ -22,6 +23,7 @@ html
 input
 .
 html
+fails
 =
 =
 button
@@ -30,6 +32,7 @@ html
 button
 .
 html
+fails
 =
 =
 textarea
@@ -38,6 +41,7 @@ html
 textarea
 .
 html
+fails
 =
 =
 select
@@ -64,6 +68,7 @@ html
 output
 .
 html
+fails
 =
 =
 input
@@ -76,6 +81,7 @@ input
 focus
 .
 html
+fails
 needs
 -
 focus
@@ -91,6 +97,7 @@ button
 focus
 .
 html
+fails
 needs
 -
 focus
@@ -106,6 +113,7 @@ textarea
 focus
 .
 html
+fails
 =
 =
 select

@@ -27,6 +27,7 @@ default
 size
 .
 html
+fails
 =
 =
 size
@@ -55,6 +56,7 @@ transaction
 1
 .
 html
+fails
 =
 =
 image
@@ -83,6 +85,7 @@ image
 shadow
 .
 html
+fails
 =
 =
 size
@@ -287,6 +290,7 @@ ltr
 left
 .
 html
+fails
 =
 =
 text
@@ -307,6 +311,7 @@ alignment
 test
 .
 html
+fails
 =
 =
 text
@@ -413,6 +418,7 @@ big
 stroke
 .
 html
+fails
 =
 =
 text
@@ -433,6 +439,7 @@ state
 test
 .
 html
+fails
 =
 =
 text
@@ -449,6 +456,7 @@ font
 inherit
 .
 html
+fails
 =
 =
 text
@@ -469,6 +477,7 @@ replace
 test
 .
 html
+fails
 =
 =
 text
@@ -489,6 +498,7 @@ frame
 test
 .
 html
+fails
 =
 =
 text
@@ -513,6 +523,7 @@ frame
 test
 .
 html
+fails
 =
 =
 text
@@ -579,6 +590,7 @@ ltr
 test
 .
 html
+fails
 =
 =
 text
@@ -599,6 +611,7 @@ rtl
 test
 .
 html
+fails
 =
 =
 text
@@ -615,6 +628,7 @@ font
 lang
 .
 html
+fails
 =
 =
 text
@@ -627,6 +641,7 @@ text
 measure
 .
 html
+fails
 =
 =
 text
@@ -647,6 +662,7 @@ caps
 1
 .
 html
+fails
 =
 =
 text
@@ -663,6 +679,7 @@ subpixel
 1
 .
 html
+fails
 =
 =
 strokeText
@@ -1111,6 +1128,7 @@ radial
 gradient
 .
 html
+fails
 =
 =
 674003
@@ -1135,6 +1153,7 @@ gradient
 superlum
 .
 html
+fails
 =
 =
 693610
@@ -1260,6 +1279,7 @@ html
 1
 .
 html
+fails
 =
 =
 802658
@@ -1284,6 +1304,7 @@ html
 1
 .
 html
+fails
 =
 =
 1107096
@@ -1356,6 +1377,7 @@ html
 1
 .
 html
+fails
 =
 =
 1304353
@@ -1380,6 +1402,7 @@ alpha
 1
 .
 html
+fails
 =
 =
 1304353
@@ -1404,6 +1427,7 @@ alpha
 2
 .
 html
+fails
 =
 =
 1304353

@@ -27,6 +27,7 @@ bug863728
 1
 .
 html
+fails
 =
 =
 bug863728
@@ -64,6 +65,7 @@ bug945215
 1
 .
 html
+fails
 =
 =
 bug945215

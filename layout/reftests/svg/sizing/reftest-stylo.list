@@ -5618,6 +5618,7 @@ base
 #
 coverage
 .
+fails
 HTTP
 (
 .
@@ -5650,6 +5651,7 @@ block
 01
 .
 xhtml
+fails
 =
 =
 inline
@@ -5674,6 +5676,7 @@ inline
 01
 .
 xhtml
+fails
 HTTP
 (
 .
@@ -5710,6 +5713,7 @@ block
 01
 .
 xhtml
+fails
 =
 =
 inline
@@ -5734,6 +5738,7 @@ left
 01
 .
 xhtml
+fails
 =
 =
 inline
@@ -5758,6 +5763,7 @@ right
 01
 .
 xhtml
+fails
 =
 =
 inline
@@ -5782,6 +5788,7 @@ absolute
 01
 .
 xhtml
+fails
 =
 =
 inline
@@ -5806,6 +5813,7 @@ absolute
 02
 .
 xhtml
+fails
 HTTP
 (
 .
@@ -6380,6 +6388,7 @@ of
 the
 SVG
 .
+fails
 =
 =
 dynamic
@@ -6402,6 +6411,7 @@ css
 height
 .
 xhtml
+fails
 =
 =
 dynamic
@@ -6424,6 +6434,7 @@ css
 width
 .
 xhtml
+fails
 =
 =
 dynamic
@@ -6450,6 +6461,7 @@ window
 height
 .
 xhtml
+fails
 =
 =
 dynamic

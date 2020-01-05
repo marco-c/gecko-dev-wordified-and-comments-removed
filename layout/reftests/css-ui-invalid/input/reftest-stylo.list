@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 input
@@ -26,6 +27,7 @@ input
 valid
 .
 html
+fails
 =
 =
 input
@@ -38,6 +40,7 @@ input
 customerror
 .
 html
+fails
 =
 =
 input
@@ -50,15 +53,9 @@ input
 disabled
 .
 html
+fails
 =
 =
-input
--
-dyn
--
-disabled
-.
-html
 input
 -
 dyn
@@ -66,17 +63,16 @@ dyn
 disabled
 .
 html
-=
-=
 input
 -
 dyn
 -
-not
--
 disabled
 .
 html
+fails
+=
+=
 input
 -
 dyn
@@ -86,6 +82,16 @@ not
 disabled
 .
 html
+input
+-
+dyn
+-
+not
+-
+disabled
+.
+html
+fails
 =
 =
 input
@@ -98,6 +104,7 @@ input
 readonly
 .
 html
+fails
 =
 =
 input
@@ -114,6 +121,7 @@ dyn
 readonly
 .
 html
+fails
 =
 =
 input
@@ -142,6 +150,7 @@ not
 changed
 .
 html
+fails
 =
 =
 input
@@ -166,6 +175,7 @@ readonly
 changed
 .
 html
+fails
 =
 =
 input
@@ -182,6 +192,7 @@ required
 valid
 .
 html
+fails
 =
 =
 input
@@ -202,6 +213,7 @@ invalid
 default
 .
 html
+fails
 =
 =
 input
@@ -222,6 +234,7 @@ invalid
 changed
 .
 html
+fails
 =
 =
 input
@@ -234,6 +247,7 @@ input
 button
 .
 html
+fails
 =
 =
 input
@@ -246,6 +260,7 @@ input
 reset
 .
 html
+fails
 =
 =
 input
@@ -266,6 +281,7 @@ invalid
 default
 .
 html
+fails
 =
 =
 input
@@ -286,6 +302,7 @@ invalid
 changed
 .
 html
+fails
 =
 =
 input
@@ -302,6 +319,7 @@ email
 valid
 .
 html
+fails
 =
 =
 input
@@ -322,6 +340,7 @@ invalid
 changed
 .
 html
+fails
 =
 =
 input
@@ -342,6 +361,7 @@ invalid
 default
 .
 html
+fails
 =
 =
 input
@@ -358,6 +378,7 @@ url
 valid
 .
 html
+fails
 =
 =
 input
@@ -374,6 +395,7 @@ pattern
 valid
 .
 html
+fails
 =
 =
 input
@@ -394,6 +416,7 @@ invalid
 default
 .
 html
+fails
 =
 =
 input
@@ -414,6 +437,7 @@ invalid
 changed
 .
 html
+fails
 =
 =
 input
@@ -430,6 +454,7 @@ type
 barred
 .
 html
+fails
 =
 =
 input
@@ -446,6 +471,7 @@ type
 invalid
 .
 html
+fails
 =
 =
 input
@@ -466,6 +492,7 @@ fieldset
 1
 .
 html
+fails
 =
 =
 input
@@ -486,6 +513,7 @@ fieldset
 2
 .
 html
+fails
 =
 =
 input
@@ -598,6 +626,7 @@ invalid
 default
 .
 html
+fails
 =
 =
 input
@@ -622,6 +651,7 @@ invalid
 changed
 .
 html
+fails
 =
 =
 input
@@ -780,6 +810,7 @@ required
 invalid
 .
 html
+fails
 =
 =
 input

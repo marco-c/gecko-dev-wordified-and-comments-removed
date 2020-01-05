@@ -54,6 +54,7 @@ exit
 1
 .
 html
+fails
 =
 =
 pull
@@ -70,7 +71,7 @@ background
 1
 .
 html
-#
+fails
 =
 =
 pull
@@ -87,6 +88,7 @@ background
 2
 .
 html
+fails
 =
 =
 pull
@@ -103,6 +105,7 @@ background
 3
 .
 html
+fails
 =
 =
 pull
@@ -119,7 +122,7 @@ background
 4
 .
 html
-#
+fails
 =
 =
 pull
@@ -136,6 +139,7 @@ background
 5
 .
 html
+fails
 =
 =
 pull
@@ -167,6 +171,7 @@ failures
 passes
 bug
 1150941
+fails
 =
 =
 pull
@@ -191,6 +196,7 @@ position
 1
 .
 html
+fails
 =
 =
 pull
@@ -290,6 +296,7 @@ position
 5
 .
 html
+fails
 =
 =
 pull
@@ -310,7 +317,7 @@ displayport
 1
 .
 html
-#
+fails
 =
 =
 pull
@@ -477,6 +484,7 @@ layer
 transform
 .
 html
+fails
 =
 =
 forced
@@ -505,6 +513,7 @@ visible
 region
 .
 html
+fails
 =
 =
 layerize

@@ -118,6 +118,7 @@ generation
 5
 .
 html
+fails
 =
 =
 box
@@ -134,6 +135,7 @@ properties
 1
 .
 html
+fails
 =
 =
 box
@@ -150,6 +152,7 @@ properties
 2
 .
 html
+fails
 =
 =
 box
@@ -166,6 +169,7 @@ properties
 3
 .
 html
+fails
 =
 =
 box
@@ -214,6 +218,7 @@ insertion
 2
 .
 html
+fails
 =
 =
 dynamic
@@ -382,6 +387,7 @@ whitespace
 1
 .
 html
+fails
 =
 =
 intra
@@ -422,6 +428,7 @@ whitespace
 3
 .
 html
+fails
 =
 =
 intrinsic
@@ -438,6 +445,7 @@ isize
 1
 .
 html
+fails
 =
 =
 intrinsic
@@ -454,6 +462,7 @@ isize
 2
 .
 html
+fails
 =
 =
 justification
@@ -466,6 +475,7 @@ justification
 1
 .
 html
+fails
 =
 =
 justification
@@ -478,6 +488,7 @@ justification
 2
 .
 html
+fails
 =
 =
 lang
@@ -498,6 +509,7 @@ style
 1
 .
 html
+fails
 =
 =
 line
@@ -514,6 +526,7 @@ breaking
 1
 .
 html
+fails
 =
 =
 line
@@ -530,6 +543,7 @@ breaking
 2
 .
 html
+fails
 =
 =
 line
@@ -550,6 +564,7 @@ suppression
 1
 .
 html
+fails
 =
 =
 line
@@ -570,6 +585,7 @@ suppression
 2
 .
 html
+fails
 =
 =
 line
@@ -750,6 +766,7 @@ no
 transform
 .
 html
+fails
 =
 =
 relative
@@ -766,6 +783,7 @@ positioning
 1
 .
 html
+fails
 =
 =
 relative
@@ -782,6 +800,7 @@ positioning
 2
 .
 html
+fails
 =
 =
 ruby
@@ -798,6 +817,7 @@ align
 1
 .
 html
+fails
 =
 =
 ruby
@@ -814,6 +834,7 @@ align
 1a
 .
 html
+fails
 =
 =
 ruby
@@ -830,6 +851,7 @@ align
 2
 .
 html
+fails
 =
 =
 ruby
@@ -846,6 +868,7 @@ align
 2a
 .
 html
+fails
 =
 =
 ruby
@@ -862,6 +885,7 @@ position
 horizontal
 .
 html
+fails
 =
 =
 ruby
@@ -882,6 +906,7 @@ vertical
 lr
 .
 html
+fails
 =
 =
 ruby
@@ -958,6 +983,7 @@ span
 1
 .
 html
+fails
 =
 =
 ruby

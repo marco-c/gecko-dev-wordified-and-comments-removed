@@ -281,6 +281,7 @@ does
 Chromium
 .
 ]
+fails
 =
 =
 pal4rletrns
@@ -326,6 +327,7 @@ bmp
 Ditto
 .
 ]
+fails
 =
 =
 pal8rletrns
@@ -861,6 +863,7 @@ isn
 t
 .
 "
+fails
 =
 =
 rgba16
@@ -1432,6 +1435,7 @@ lucky
 guess
 .
 "
+fails
 =
 =
 rgba32

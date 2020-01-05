@@ -75,6 +75,7 @@ width
 1c
 .
 html
+fails
 =
 =
 min
@@ -91,6 +92,7 @@ width
 1a
 .
 html
+fails
 =
 =
 min
@@ -107,6 +109,7 @@ width
 1b
 .
 html
+fails
 =
 =
 min
@@ -123,6 +126,7 @@ width
 1c
 .
 html
+fails
 =
 =
 min
@@ -139,6 +143,7 @@ width
 2
 .
 html
+fails
 =
 =
 column
@@ -159,6 +164,7 @@ overflow
 000
 .
 html
+fails
 =
 =
 column
@@ -179,6 +185,7 @@ overflow
 001
 .
 html
+fails
 =
 =
 column
@@ -199,6 +206,7 @@ overflow
 002
 .
 html
+fails
 =
 =
 column
@@ -259,6 +267,7 @@ overflow
 005
 .
 html
+fails
 =
 =
 column
@@ -275,6 +284,7 @@ balancing
 000
 .
 html
+fails
 =
 =
 column
@@ -291,6 +301,7 @@ balancing
 001
 .
 html
+fails
 =
 =
 column
@@ -307,6 +318,7 @@ balancing
 002
 .
 html
+fails
 =
 =
 column
@@ -323,6 +335,7 @@ balancing
 003
 .
 html
+fails
 =
 =
 column
@@ -360,6 +373,7 @@ alignment
 rtl
 .
 html
+fails
 HTTP
 (
 .
@@ -377,6 +391,7 @@ columnfill
 balance
 .
 html
+fails
 =
 =
 columnfill
@@ -389,6 +404,7 @@ columnfill
 auto
 .
 html
+fails
 HTTP
 (
 .
@@ -410,6 +426,7 @@ auto
 2
 .
 html
+fails
 HTTP
 (
 .
@@ -431,6 +448,7 @@ auto
 3
 .
 html
+fails
 =
 =
 columnrule
@@ -443,6 +461,7 @@ columnrule
 basic
 .
 html
+fails
 =
 =
 columnrule
@@ -480,6 +499,7 @@ columnrule
 padding
 .
 html
+fails
 =
 =
 columnfill
@@ -532,6 +552,7 @@ bug616722
 2
 .
 html
+fails
 =
 =
 column
@@ -552,6 +573,7 @@ nested
 000
 .
 html
+fails
 =
 =
 column
@@ -584,6 +606,7 @@ columnrule
 overflow
 .
 html
+fails
 =
 =
 columns
@@ -604,6 +627,7 @@ caption
 000
 .
 html
+fails
 =
 =
 positioning

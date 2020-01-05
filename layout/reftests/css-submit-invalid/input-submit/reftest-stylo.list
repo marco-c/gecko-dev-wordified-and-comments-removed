@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 static
@@ -26,6 +27,7 @@ static
 valid
 .
 html
+fails
 =
 =
 dynamic
@@ -38,6 +40,7 @@ dynamic
 valid
 .
 html
+fails
 =
 =
 static
@@ -50,6 +53,7 @@ static
 invalid
 .
 html
+fails
 =
 =
 dynamic
@@ -62,6 +66,7 @@ dynamic
 invalid
 .
 html
+fails
 =
 =
 dynamic
@@ -78,7 +83,7 @@ invalid
 barred
 .
 html
-#
+fails
 =
 =
 dynamic
@@ -99,6 +104,7 @@ barred
 2
 .
 html
+fails
 =
 =
 dynamic
@@ -119,6 +125,7 @@ not
 barred
 .
 html
+fails
 =
 =
 static
@@ -135,6 +142,7 @@ invalid
 barred
 .
 html
+fails
 =
 =
 remove
@@ -151,6 +159,7 @@ invalid
 element
 .
 html
+fails
 =
 =
 add
@@ -167,6 +176,7 @@ invalid
 element
 .
 html
+fails
 =
 =
 add
@@ -183,6 +193,7 @@ submit
 control
 .
 html
+fails
 =
 =
 remove
@@ -199,6 +210,7 @@ submit
 control
 .
 html
+fails
 =
 =
 change
@@ -219,6 +231,7 @@ submit
 control
 .
 html
+fails
 =
 =
 change
@@ -256,6 +269,7 @@ self
 invalid
 .
 html
+fails
 =
 =
 remove

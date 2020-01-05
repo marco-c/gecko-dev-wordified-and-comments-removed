@@ -193,6 +193,7 @@ value
 interpret
 .
 html
+fails
 =
 =
 curved
@@ -1248,6 +1249,7 @@ is
 reduced
 for
 scrollbars
+fails
 =
 =
 scrollbar
@@ -1264,6 +1266,7 @@ clamping
 1
 .
 html
+fails
 =
 =
 scrollbar
@@ -1287,6 +1290,7 @@ bad
 corner
 joins
 .
+fails
 =
 =
 corner
@@ -1303,6 +1307,7 @@ joins
 1
 .
 xhtml
+fails
 =
 =
 corner
@@ -1460,6 +1465,7 @@ layer
 1a
 .
 html
+fails
 =
 =
 corner

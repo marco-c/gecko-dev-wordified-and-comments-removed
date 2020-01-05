@@ -404,6 +404,7 @@ child
 wrap
 .
 html
+fails
 =
 =
 flexbox
@@ -424,6 +425,7 @@ child
 1d
 .
 html
+fails
 =
 =
 flexbox
@@ -448,6 +450,7 @@ child
 wrap
 .
 html
+fails
 =
 =
 flexbox

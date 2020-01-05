@@ -27,6 +27,7 @@ bounds
 1
 .
 html
+fails
 =
 =
 size
@@ -39,6 +40,7 @@ size
 1
 .
 html
+fails
 =
 =
 size
@@ -51,6 +53,7 @@ size
 2
 .
 html
+fails
 HTTP
 (
 .
@@ -101,6 +104,7 @@ height
 1
 .
 xul
+fails
 =
 =
 select

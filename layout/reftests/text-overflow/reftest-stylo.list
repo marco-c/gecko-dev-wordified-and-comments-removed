@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 ellipsis
@@ -30,6 +31,7 @@ font
 fallback
 .
 html
+fails
 =
 =
 line
@@ -42,6 +44,7 @@ line
 clipping
 .
 html
+fails
 =
 =
 marker
@@ -54,6 +57,7 @@ marker
 basic
 .
 html
+fails
 HTTP
 (
 .
@@ -84,6 +88,7 @@ bidi
 simple
 .
 html
+fails
 =
 =
 bidi
@@ -100,6 +105,7 @@ simple
 scrolled
 .
 html
+fails
 =
 =
 scroll
@@ -148,6 +154,7 @@ anonymous
 block
 .
 html
+fails
 HTTP
 (
 .
@@ -169,6 +176,7 @@ marker
 overlap
 .
 html
+fails
 HTTP
 (
 .
@@ -199,6 +207,7 @@ block
 padding
 .
 html
+fails
 HTTP
 (
 .
@@ -216,6 +225,7 @@ quirks
 decorations
 .
 html
+fails
 HTTP
 (
 .
@@ -237,6 +247,7 @@ line
 height
 .
 html
+fails
 HTTP
 (
 .
@@ -254,6 +265,7 @@ standards
 decorations
 .
 html
+fails
 HTTP
 (
 .
@@ -275,6 +287,7 @@ line
 height
 .
 html
+fails
 =
 =
 selection
@@ -283,6 +296,7 @@ html
 selection
 .
 html
+fails
 HTTP
 (
 .
@@ -312,6 +326,7 @@ aligned
 baseline
 .
 html
+fails
 =
 =
 clipped
@@ -341,6 +356,7 @@ theme
 overflow
 .
 html
+fails
 HTTP
 (
 .
@@ -358,6 +374,7 @@ table
 cell
 .
 html
+fails
 =
 =
 two
@@ -374,6 +391,7 @@ value
 syntax
 .
 html
+fails
 HTTP
 (
 .
@@ -391,6 +409,7 @@ single
 value
 .
 html
+fails
 =
 =
 atomic
@@ -407,7 +426,6 @@ under
 marker
 .
 html
-#
 fuzzy
 (
 1
@@ -459,6 +477,7 @@ html
 xulscroll
 .
 html
+fails
 HTTP
 (
 .

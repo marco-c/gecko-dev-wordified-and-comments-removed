@@ -63,6 +63,7 @@ space
 1b
 .
 html
+fails
 =
 =
 background
@@ -103,6 +104,7 @@ space
 2
 .
 html
+fails
 =
 =
 background
@@ -123,6 +125,7 @@ space
 3
 .
 html
+fails
 =
 =
 background
@@ -143,6 +146,7 @@ space
 4
 .
 html
+fails
 =
 =
 background
@@ -163,6 +167,7 @@ space
 5
 .
 html
+fails
 =
 =
 background
@@ -183,6 +188,7 @@ space
 6
 .
 html
+fails
 =
 =
 background
@@ -283,6 +289,7 @@ round
 1a
 .
 html
+fails
 =
 =
 background
@@ -323,6 +330,7 @@ round
 1c
 .
 html
+fails
 =
 =
 background
@@ -343,6 +351,7 @@ round
 1d
 .
 html
+fails
 =
 =
 background
@@ -363,6 +372,7 @@ round
 1e
 .
 html
+fails
 =
 =
 background
@@ -383,6 +393,7 @@ round
 2
 .
 html
+fails
 =
 =
 background
@@ -429,6 +440,7 @@ border
 image
 test
 cases
+fails
 =
 =
 border
@@ -453,6 +465,7 @@ round
 1
 .
 html
+fails
 =
 =
 border
@@ -477,6 +490,7 @@ round
 2
 .
 html
+fails
 =
 =
 border
@@ -501,6 +515,7 @@ space
 1
 .
 html
+fails
 =
 =
 border
@@ -525,6 +540,7 @@ space
 2
 .
 html
+fails
 =
 =
 border
@@ -549,6 +565,7 @@ space
 3
 .
 html
+fails
 =
 =
 border
@@ -605,6 +622,7 @@ ref
 1
 .
 html
+fails
 =
 =
 border
@@ -661,6 +679,7 @@ ref
 1
 .
 html
+fails
 =
 =
 border
@@ -685,6 +704,7 @@ space
 6
 .
 html
+fails
 =
 =
 border
@@ -709,6 +729,7 @@ space
 7
 .
 html
+fails
 =
 =
 border
@@ -735,6 +756,7 @@ background
 attachment
 test
 cases
+fails
 =
 =
 background

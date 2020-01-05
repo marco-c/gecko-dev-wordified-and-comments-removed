@@ -32,6 +32,7 @@ break
 enabled
 true
 )
+fails
 =
 =
 box
@@ -52,7 +53,7 @@ break
 1
 .
 html
-#
+fails
 =
 =
 box
@@ -89,7 +90,7 @@ shadow
 1
 .
 html
-#
+fails
 =
 =
 box
@@ -126,6 +127,7 @@ shadow
 1
 .
 html
+fails
 =
 =
 box
@@ -203,7 +205,7 @@ block
 margin
 .
 html
-#
+fails
 =
 =
 box
@@ -276,6 +278,7 @@ bug
 1235152
 .
 html
+fails
 =
 =
 box

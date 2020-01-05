@@ -54,6 +54,7 @@ bidi
 000
 .
 html
+fails
 =
 =
 bidi
@@ -66,6 +67,7 @@ bidi
 001
 .
 html
+fails
 =
 =
 bidi
@@ -98,6 +100,7 @@ bidi
 v
 .
 html
+fails
 =
 =
 bidi
@@ -110,6 +113,7 @@ bidi
 002
 .
 html
+fails
 =
 =
 bidi
@@ -122,6 +126,7 @@ bidi
 003
 .
 html
+fails
 =
 =
 bidi
@@ -134,6 +139,7 @@ bidi
 004
 .
 html
+fails
 =
 =
 bidi
@@ -162,6 +168,7 @@ bidi
 005
 .
 html
+fails
 =
 =
 bidi
@@ -174,6 +181,7 @@ bidi
 006
 .
 html
+fails
 =
 =
 bidi
@@ -527,6 +535,7 @@ mixedChartype
 j
 .
 html
+fails
 =
 =
 unicode
@@ -547,6 +556,7 @@ anonymous
 001
 .
 html
+fails
 =
 =
 unicode
@@ -587,6 +597,7 @@ isolate
 basic
 .
 html
+fails
 =
 =
 unicode
@@ -607,6 +618,7 @@ isolate
 aharon
 .
 html
+fails
 =
 =
 unicode
@@ -623,6 +635,7 @@ bidi
 plaintext
 .
 html
+fails
 =
 =
 unicode
@@ -647,6 +660,7 @@ textarea
 1
 .
 html
+fails
 =
 =
 unicode
@@ -671,6 +685,7 @@ textarea
 2
 .
 html
+fails
 =
 =
 unicode
@@ -695,6 +710,7 @@ textarea
 3
 .
 html
+fails
 =
 =
 unicode
@@ -799,6 +815,7 @@ letter
 2b
 .
 html
+fails
 =
 =
 83958
@@ -811,6 +828,7 @@ html
 1a
 .
 html
+fails
 =
 =
 83958
@@ -823,6 +841,7 @@ html
 1b
 .
 html
+fails
 =
 =
 83958
@@ -835,6 +854,7 @@ html
 1c
 .
 html
+fails
 =
 =
 83958
@@ -847,6 +867,7 @@ html
 2a
 .
 html
+fails
 =
 =
 83958
@@ -871,6 +892,7 @@ html
 1
 .
 html
+fails
 =
 =
 115921
@@ -1067,6 +1089,7 @@ html
 1
 .
 html
+fails
 =
 =
 229367
@@ -1091,6 +1114,7 @@ html
 3
 .
 html
+fails
 =
 =
 258928
@@ -1103,6 +1127,7 @@ html
 1
 .
 html
+fails
 =
 =
 263359
@@ -1115,6 +1140,7 @@ html
 1
 .
 html
+fails
 =
 =
 263359
@@ -1127,6 +1153,7 @@ html
 1a
 .
 html
+fails
 =
 =
 263359
@@ -1139,6 +1166,7 @@ html
 1b
 .
 html
+fails
 =
 =
 263359
@@ -1163,6 +1191,7 @@ html
 3
 .
 html
+fails
 =
 =
 263359
@@ -1175,6 +1204,7 @@ html
 4
 .
 html
+fails
 =
 =
 267459
@@ -1187,6 +1217,7 @@ html
 1
 .
 html
+fails
 =
 =
 267459
@@ -1223,6 +1254,7 @@ html
 1
 .
 html
+fails
 =
 =
 332655
@@ -1235,6 +1267,7 @@ html
 1
 .
 html
+fails
 =
 =
 332655
@@ -1247,6 +1280,7 @@ html
 2
 .
 html
+fails
 =
 =
 381279
@@ -1259,6 +1293,7 @@ html
 1
 .
 html
+fails
 =
 =
 386339
@@ -1267,6 +1302,7 @@ html
 386339
 .
 html
+fails
 =
 =
 409375
@@ -1299,6 +1335,7 @@ html
 2
 .
 html
+fails
 =
 =
 413928
@@ -1311,6 +1348,7 @@ html
 1
 .
 html
+fails
 =
 =
 413928
@@ -1395,6 +1433,7 @@ html
 1
 .
 html
+fails
 =
 =
 503269
@@ -1431,6 +1470,7 @@ html
 1
 .
 html
+fails
 =
 =
 536963
@@ -1443,6 +1483,7 @@ html
 1
 .
 html
+fails
 =
 =
 562169
@@ -1455,6 +1496,7 @@ html
 1
 .
 html
+fails
 =
 =
 562169
@@ -1467,6 +1509,7 @@ html
 1a
 .
 html
+fails
 =
 =
 562169
@@ -1479,6 +1522,7 @@ html
 2
 .
 html
+fails
 =
 =
 562169
@@ -1515,6 +1559,7 @@ html
 3a
 .
 html
+fails
 =
 =
 562169
@@ -1575,6 +1620,7 @@ html
 1
 .
 html
+fails
 =
 =
 613149
@@ -1587,6 +1633,7 @@ html
 1a
 .
 html
+fails
 =
 =
 613149
@@ -1647,6 +1694,7 @@ html
 2
 .
 html
+fails
 =
 =
 662288
@@ -1659,6 +1707,7 @@ html
 1
 .
 html
+fails
 =
 =
 670226
@@ -1683,6 +1732,7 @@ html
 1
 .
 html
+fails
 =
 =
 698291
@@ -1807,6 +1857,7 @@ html
 3
 .
 html
+fails
 =
 =
 726420
@@ -2135,6 +2186,7 @@ html
 1161752
 .
 html
+fails
 =
 =
 1161752
@@ -2423,6 +2475,7 @@ brackets
 rtl
 .
 html
+fails
 =
 =
 1217833
@@ -2435,6 +2488,7 @@ html
 1
 .
 html
+fails
 =
 =
 1217833

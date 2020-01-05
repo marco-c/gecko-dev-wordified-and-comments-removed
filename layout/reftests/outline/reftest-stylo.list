@@ -186,6 +186,7 @@ inlineblock
 float
 .
 html
+fails
 =
 =
 outline
@@ -202,6 +203,7 @@ auto
 001
 .
 html
+fails
 pref
 (
 layout

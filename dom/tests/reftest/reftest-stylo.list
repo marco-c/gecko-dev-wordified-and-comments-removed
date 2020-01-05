@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 bug453105
@@ -22,6 +23,7 @@ html
 bug453105
 .
 html
+fails
 =
 =
 optiontext
@@ -30,6 +32,7 @@ html
 optiontext
 .
 html
+fails
 =
 =
 bug456008
@@ -54,6 +57,7 @@ xml
 bug427779
 .
 xml
+fails
 =
 =
 bug559996

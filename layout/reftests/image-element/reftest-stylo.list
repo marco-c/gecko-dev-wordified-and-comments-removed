@@ -27,6 +27,7 @@ bug
 364968
 .
 html
+fails
 =
 =
 bug
@@ -39,6 +40,7 @@ bug
 463204
 .
 html
+fails
 =
 =
 canvas
@@ -55,6 +57,7 @@ outside
 document
 .
 html
+fails
 =
 =
 mozsetimageelement
@@ -194,6 +197,7 @@ paint
 simple
 .
 html
+fails
 =
 =
 element
@@ -210,6 +214,7 @@ paint
 repeated
 .
 html
+fails
 =
 =
 element
@@ -226,6 +231,7 @@ paint
 recursion
 .
 html
+fails
 HTTP
 (
 .
@@ -247,6 +253,7 @@ paint
 continuation
 .
 html
+fails
 =
 =
 element
@@ -267,6 +274,7 @@ transform
 01
 .
 html
+fails
 =
 =
 element
@@ -287,6 +295,7 @@ transform
 02
 .
 html
+fails
 =
 =
 element
@@ -311,6 +320,7 @@ size
 01
 .
 html
+fails
 =
 =
 element
@@ -335,6 +345,7 @@ size
 02
 .
 html
+fails
 =
 =
 element
@@ -355,6 +366,7 @@ transform
 repeated
 .
 html
+fails
 =
 =
 element
@@ -375,6 +387,7 @@ transform
 03
 .
 html
+fails
 =
 =
 element
@@ -425,6 +438,7 @@ sampling
 restriction
 .
 html
+fails
 =
 =
 element
@@ -441,6 +455,7 @@ paint
 clippath
 .
 html
+fails
 =
 =
 element
@@ -509,6 +524,7 @@ sharpness
 01c
 .
 html
+fails
 =
 =
 element
@@ -529,6 +545,7 @@ sharpness
 02a
 .
 html
+fails
 =
 =
 element
@@ -549,6 +566,7 @@ sharpness
 02b
 .
 html
+fails
 =
 =
 element
@@ -573,6 +591,7 @@ rounding
 01
 .
 html
+fails
 =
 =
 element
@@ -597,6 +616,7 @@ rounding
 02
 .
 html
+fails
 =
 =
 element
@@ -621,6 +641,7 @@ backgrounds
 01a
 .
 html
+fails
 =
 =
 element
@@ -645,6 +666,7 @@ backgrounds
 01b
 .
 html
+fails
 =
 =
 element
@@ -669,6 +691,7 @@ backgrounds
 01c
 .
 html
+fails
 =
 =
 gradient
@@ -685,6 +708,7 @@ html
 01
 .
 html
+fails
 =
 =
 gradient
@@ -724,6 +748,7 @@ html
 03
 .
 html
+fails
 =
 =
 gradient
@@ -740,6 +765,7 @@ html
 04
 .
 html
+fails
 =
 =
 gradient
@@ -812,6 +838,7 @@ html
 06b
 .
 html
+fails
 =
 =
 gradient
@@ -828,6 +855,7 @@ html
 06c
 .
 html
+fails
 =
 =
 gradient
@@ -875,6 +903,7 @@ html
 07a
 .
 html
+fails
 =
 =
 gradient
@@ -891,6 +920,7 @@ html
 07c
 .
 html
+fails
 HTTP
 =
 =
@@ -904,6 +934,7 @@ invalidate
 1
 .
 html
+fails
 =
 =
 pattern
@@ -920,6 +951,7 @@ html
 01
 .
 html
+fails
 =
 =
 pattern
@@ -936,6 +968,7 @@ html
 02
 .
 html
+fails
 =
 =
 referenced

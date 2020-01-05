@@ -21,7 +21,7 @@ be
 moved
 to
 crashtests
-#
+fails
 =
 =
 backgr_border
@@ -38,7 +38,7 @@ table
 cell
 .
 html
-#
+fails
 =
 =
 backgr_border
@@ -68,7 +68,7 @@ caused
 by
 bug
 527825
-#
+fails
 =
 =
 backgr_border
@@ -85,6 +85,7 @@ table
 column
 .
 html
+fails
 =
 =
 backgr_border
@@ -101,6 +102,7 @@ table
 quirks
 .
 html
+fails
 =
 =
 backgr_border
@@ -121,6 +123,7 @@ row
 group
 .
 html
+fails
 =
 =
 backgr_border
@@ -137,6 +140,7 @@ table
 row
 .
 html
+fails
 =
 =
 backgr_border
@@ -149,6 +153,7 @@ backgr_border
 table
 .
 html
+fails
 =
 =
 backgr_fixed
@@ -161,6 +166,7 @@ backgr_fixed
 bg
 .
 html
+fails
 =
 =
 backgr_index
@@ -169,6 +175,7 @@ html
 backgr_index
 .
 html
+fails
 =
 =
 backgr_layers
@@ -181,6 +188,7 @@ backgr_layers
 hide
 .
 html
+fails
 =
 =
 backgr_layers
@@ -193,6 +201,7 @@ backgr_layers
 opacity
 .
 html
+fails
 =
 =
 backgr_layers
@@ -205,6 +214,7 @@ backgr_layers
 show
 .
 html
+fails
 =
 =
 backgr_position
@@ -221,6 +231,7 @@ table
 cell
 .
 html
+fails
 =
 =
 backgr_position
@@ -241,6 +252,7 @@ column
 group
 .
 html
+fails
 =
 =
 backgr_position
@@ -257,6 +269,7 @@ table
 column
 .
 html
+fails
 =
 =
 backgr_position
@@ -277,6 +290,7 @@ row
 group
 .
 html
+fails
 =
 =
 backgr_position
@@ -293,6 +307,7 @@ table
 row
 .
 html
+fails
 =
 =
 backgr_position
@@ -305,6 +320,7 @@ backgr_position
 table
 .
 html
+fails
 =
 =
 backgr_simple
@@ -321,6 +337,7 @@ table
 cell
 .
 html
+fails
 =
 =
 backgr_simple
@@ -341,6 +358,7 @@ column
 group
 .
 html
+fails
 =
 =
 backgr_simple
@@ -357,6 +375,7 @@ table
 column
 .
 html
+fails
 =
 =
 backgr_simple
@@ -377,6 +396,7 @@ row
 group
 .
 html
+fails
 =
 =
 backgr_simple
@@ -393,6 +413,7 @@ table
 row
 .
 html
+fails
 =
 =
 backgr_simple

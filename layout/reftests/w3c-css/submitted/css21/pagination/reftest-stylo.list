@@ -374,6 +374,7 @@ avoid
 10
 .
 html
+fails
 =
 =
 moz
@@ -518,6 +519,7 @@ avoid
 14
 .
 html
+fails
 =
 =
 moz
@@ -590,6 +592,7 @@ avoid
 1
 .
 html
+fails
 =
 =
 moz
@@ -626,6 +629,7 @@ avoid
 2
 .
 html
+fails
 =
 =
 moz
@@ -698,6 +702,7 @@ avoid
 4
 .
 html
+fails
 =
 =
 moz
@@ -734,6 +739,7 @@ avoid
 5
 .
 html
+fails
 =
 =
 moz
@@ -770,6 +776,7 @@ avoid
 6
 .
 html
+fails
 =
 =
 moz
@@ -806,6 +813,7 @@ avoid
 7
 .
 html
+fails
 =
 =
 moz
@@ -1274,6 +1282,7 @@ avoid
 3
 .
 html
+fails
 =
 =
 moz
@@ -1310,6 +1319,7 @@ avoid
 4
 .
 html
+fails
 =
 =
 moz
@@ -1346,6 +1356,7 @@ avoid
 5
 .
 html
+fails
 =
 =
 moz
@@ -1382,6 +1393,7 @@ avoid
 6
 .
 html
+fails
 =
 =
 moz
@@ -1418,6 +1430,7 @@ avoid
 7
 .
 html
+fails
 =
 =
 moz
@@ -1454,6 +1467,7 @@ avoid
 8
 .
 html
+fails
 =
 =
 moz
@@ -1490,6 +1504,7 @@ avoid
 1
 .
 html
+fails
 =
 =
 moz

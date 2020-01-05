@@ -44,6 +44,7 @@ html
 multiple
 .
 html
+fails
 =
 =
 boguskids
@@ -120,6 +121,7 @@ vertical
 centering
 .
 html
+fails
 =
 =
 997709
@@ -132,6 +134,7 @@ html
 2
 .
 html
+fails
 needs
 -
 focus
@@ -147,6 +150,7 @@ focusring
 1
 .
 html
+fails
 needs
 -
 focus

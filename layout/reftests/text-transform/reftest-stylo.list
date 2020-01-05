@@ -74,6 +74,7 @@ capitalize
 5
 .
 html
+fails
 =
 =
 capitalize
@@ -150,6 +151,7 @@ sigma
 1
 .
 html
+fails
 =
 =
 small
@@ -166,6 +168,7 @@ caps
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -191,6 +194,7 @@ caps
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -216,6 +220,7 @@ caps
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -241,6 +246,7 @@ caps
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -266,6 +272,7 @@ caps
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -332,6 +339,7 @@ for
 consistency
 of
 results
+fails
 =
 =
 all
@@ -344,6 +352,7 @@ all
 upper
 .
 html
+fails
 =
 =
 all
@@ -356,6 +365,7 @@ all
 lower
 .
 html
+fails
 =
 =
 all
@@ -404,6 +414,7 @@ smtp
 title
 .
 html
+fails
 =
 =
 turkish
@@ -420,6 +431,7 @@ casing
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -445,6 +457,7 @@ turkish
 1
 .
 html
+fails
 =
 =
 greek
@@ -461,6 +474,7 @@ uppercase
 1a
 .
 html
+fails
 =
 =
 greek
@@ -477,6 +491,7 @@ uppercase
 1b
 .
 html
+fails
 =
 =
 greek
@@ -493,6 +508,7 @@ uppercase
 2
 .
 html
+fails
 HTTP
 (
 .
@@ -518,6 +534,7 @@ caps
 1
 .
 html
+fails
 =
 =
 irish
@@ -534,6 +551,7 @@ uppercase
 1
 .
 html
+fails
 =
 =
 irish
@@ -550,6 +568,7 @@ lowercase
 1a
 .
 html
+fails
 =
 =
 irish

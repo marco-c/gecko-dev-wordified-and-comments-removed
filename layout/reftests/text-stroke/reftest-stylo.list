@@ -46,6 +46,7 @@ prefixes
 webkit
 true
 )
+fails
 =
 =
 webkit
@@ -70,6 +71,7 @@ property
 001
 .
 html
+fails
 =
 =
 webkit
@@ -94,6 +96,7 @@ property
 002
 .
 html
+fails
 =
 =
 webkit
@@ -118,6 +121,7 @@ property
 003
 .
 html
+fails
 =
 =
 webkit
@@ -142,6 +146,7 @@ property
 004
 .
 html
+fails
 =
 =
 webkit

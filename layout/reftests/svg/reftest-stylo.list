@@ -176,6 +176,7 @@ middle
 01
 .
 svg
+fails
 =
 =
 border
@@ -1407,6 +1408,7 @@ contents
 01
 .
 svg
+fails
 =
 =
 dynamic
@@ -1582,6 +1584,7 @@ rect
 03
 .
 svg
+fails
 =
 =
 dynamic
@@ -2728,6 +2731,7 @@ scaled
 01
 .
 svg
+fails
 =
 =
 filter
@@ -3276,6 +3280,7 @@ transform
 01
 .
 svg
+fails
 =
 =
 import
@@ -3821,6 +3826,7 @@ clipPath
 and
 mask
 clipping
+fails
 =
 =
 mask
@@ -4495,6 +4501,7 @@ padding
 01
 .
 svg
+fails
 =
 =
 outline
@@ -4527,6 +4534,7 @@ svg
 01
 .
 svg
+fails
 =
 =
 overflow
@@ -4551,6 +4559,7 @@ svg
 02a
 .
 xhtml
+fails
 =
 =
 overflow
@@ -4575,6 +4584,7 @@ svg
 02b
 .
 xhtml
+fails
 =
 =
 overflow
@@ -4599,6 +4609,7 @@ svg
 02c
 .
 xhtml
+fails
 =
 =
 overflow
@@ -4623,6 +4634,7 @@ svg
 02d
 .
 xhtml
+fails
 =
 =
 overflow
@@ -4647,6 +4659,7 @@ svg
 03a
 .
 xhtml
+fails
 =
 =
 overflow
@@ -5658,6 +5671,7 @@ type
 attribute
 .
 svg
+fails
 =
 =
 svg
@@ -5678,6 +5692,7 @@ foreignObject
 01
 .
 xhtml
+fails
 =
 =
 svg
@@ -6056,6 +6071,7 @@ test
 SVG
 behavior
 .
+fails
 =
 =
 text
@@ -6693,6 +6709,7 @@ textPath
 04
 .
 svg
+fails
 =
 =
 textPath
@@ -7705,6 +7722,7 @@ valid
 01
 .
 svg
+fails
 =
 =
 viewBox
@@ -7801,6 +7819,7 @@ zoomed
 in
 .
 xhtml
+fails
 =
 =
 svg
@@ -7845,6 +7864,7 @@ change
 restyles
 .
 svg
+fails
 =
 =
 mask
@@ -8756,6 +8776,7 @@ opacity
 01
 .
 svg
+fails
 =
 =
 clipPath
@@ -8776,6 +8797,7 @@ outflowElement
 01a
 .
 html
+fails
 =
 =
 clipPath
@@ -8867,6 +8889,7 @@ html
 default
 -
 preferences
+fails
 =
 =
 mask
@@ -8887,6 +8910,7 @@ outflowElement
 01a
 .
 html
+fails
 =
 =
 mask
@@ -8907,6 +8931,7 @@ outflowElement
 01b
 .
 html
+fails
 =
 =
 clipPath
@@ -8935,6 +8960,7 @@ outflowElement
 01a
 .
 html
+fails
 =
 =
 clipPath

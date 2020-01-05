@@ -185,8 +185,6 @@ html
 asserts
 (
 1
--
-2
 )
 =
 =
@@ -1616,6 +1614,7 @@ spacing
 005
 .
 xht
+fails
 =
 =
 wm
@@ -1636,6 +1635,7 @@ progression
 002
 .
 xht
+fails
 =
 =
 wm
@@ -1656,6 +1656,7 @@ progression
 003
 .
 xht
+fails
 =
 =
 wm
@@ -1676,6 +1677,7 @@ progression
 004
 .
 xht
+fails
 =
 =
 wm
@@ -1696,6 +1698,7 @@ progression
 005
 .
 xht
+fails
 =
 =
 wm
@@ -1716,6 +1719,7 @@ progression
 006
 .
 xht
+fails
 =
 =
 wm
@@ -1952,6 +1956,7 @@ bevels
 1e
 .
 html
+fails
 =
 =
 vertical
@@ -1976,6 +1981,7 @@ progression
 1a
 .
 html
+fails
 =
 =
 vertical
@@ -2000,6 +2006,7 @@ progression
 1b
 .
 html
+fails
 =
 =
 sideways
@@ -2024,6 +2031,7 @@ progression
 1a
 .
 html
+fails
 =
 =
 sideways
@@ -2048,6 +2056,7 @@ progression
 1b
 .
 html
+fails
 =
 =
 sideways
@@ -2072,6 +2081,7 @@ progression
 1a
 .
 html
+fails
 =
 =
 sideways

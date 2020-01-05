@@ -22,6 +22,7 @@ block
 -
 level
 boxes
+fails
 =
 =
 ruby
@@ -42,6 +43,7 @@ blocks
 001
 .
 html
+fails
 =
 =
 ruby
@@ -82,6 +84,7 @@ blocks
 003
 .
 html
+fails
 =
 =
 ruby
@@ -102,6 +105,7 @@ blocks
 004
 .
 html
+fails
 =
 =
 ruby
@@ -130,6 +134,7 @@ base
 -
 identical
 annotations
+fails
 =
 =
 ruby
@@ -146,6 +151,7 @@ autohide
 001
 .
 html
+fails
 =
 =
 ruby
@@ -162,6 +168,7 @@ autohide
 002
 .
 html
+fails
 =
 =
 ruby
@@ -178,6 +185,7 @@ autohide
 003
 .
 html
+fails
 =
 =
 ruby
@@ -204,6 +212,7 @@ text
 combine
 -
 upright
+fails
 =
 =
 ruby
@@ -228,6 +237,7 @@ upright
 001a
 .
 html
+fails
 =
 =
 ruby
@@ -252,6 +262,7 @@ upright
 001b
 .
 html
+fails
 =
 =
 ruby
@@ -276,6 +287,7 @@ upright
 002a
 .
 html
+fails
 =
 =
 ruby
@@ -305,6 +317,7 @@ Tests
 for
 nested
 ruby
+fails
 =
 =
 nested

@@ -113,6 +113,7 @@ boxshadow
 spread
 .
 html
+fails
 =
 =
 tableboxshadow
@@ -125,6 +126,7 @@ tableboxshadow
 basic
 .
 html
+fails
 =
 =
 tableboxshadow
@@ -137,6 +139,7 @@ tableboxshadow
 trshadow
 .
 html
+fails
 =
 =
 tableboxshadow
@@ -161,6 +164,7 @@ boxshadow
 rounding
 .
 html
+fails
 =
 =
 boxshadow
@@ -173,6 +177,7 @@ boxshadow
 button
 .
 html
+fails
 =
 =
 boxshadow
@@ -400,6 +405,7 @@ border
 radius
 .
 html
+fails
 =
 =
 boxshadow
@@ -460,6 +466,7 @@ neg
 spread2
 .
 html
+fails
 =
 =
 boxshadow
@@ -615,6 +622,7 @@ scrollable
 2
 .
 html
+fails
 =
 =
 611574
@@ -627,6 +635,7 @@ html
 1
 .
 html
+fails
 =
 =
 611574
@@ -696,6 +705,7 @@ html
 2
 .
 html
+fails
 =
 =
 1212823
@@ -708,6 +718,7 @@ html
 1
 .
 html
+fails
 =
 =
 boxshadow

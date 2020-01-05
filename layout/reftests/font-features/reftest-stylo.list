@@ -71,6 +71,7 @@ works
 via
 Pango
 )
+fails
 HTTP
 (
 .
@@ -100,6 +101,7 @@ ligatures
 causes
 a
 change
+fails
 HTTP
 (
 .
@@ -130,6 +132,7 @@ ligatures
 causes
 a
 change
+fails
 HTTP
 (
 .
@@ -163,6 +166,7 @@ to
 break
 the
 ligature
+fails
 HTTP
 (
 .
@@ -192,6 +196,7 @@ with
 explicitly
 disabled
 ligatures
+fails
 HTTP
 (
 .
@@ -266,6 +271,7 @@ feature
 in
 style
 rule
+fails
 HTTP
 (
 .
@@ -291,6 +297,7 @@ hlig
 2
 .
 html
+fails
 HTTP
 (
 .
@@ -316,6 +323,7 @@ hlig
 4
 .
 html
+fails
 HTTP
 (
 .
@@ -341,6 +349,7 @@ hlig
 5
 .
 html
+fails
 HTTP
 (
 .
@@ -377,6 +386,7 @@ overrides
 font
 -
 face
+fails
 HTTP
 (
 .
@@ -415,6 +425,7 @@ lang
 -
 tagged
 rendering
+fails
 HTTP
 (
 .
@@ -444,6 +455,7 @@ override
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -487,6 +499,7 @@ override
 explicit
 lang
 tag
+fails
 HTTP
 (
 .
@@ -516,6 +529,7 @@ override
 3
 .
 html
+fails
 HTTP
 (
 .
@@ -545,6 +559,7 @@ override
 4
 .
 html
+fails
 HTTP
 (
 .
@@ -611,6 +626,7 @@ order
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -648,6 +664,7 @@ font
 -
 variant
 subproperty
+fails
 HTTP
 (
 .
@@ -673,6 +690,7 @@ order
 3
 .
 html
+fails
 HTTP
 (
 .
@@ -698,6 +716,7 @@ order
 4
 .
 html
+fails
 HTTP
 (
 .
@@ -735,6 +754,7 @@ font
 variant
 -
 alternates
+fails
 HTTP
 (
 .
@@ -767,6 +787,7 @@ font
 face
 feature
 settings
+fails
 HTTP
 (
 .
@@ -816,6 +837,7 @@ displays
 all
 props
 )
+fails
 HTTP
 (
 .
@@ -837,6 +859,7 @@ variant
 alternates
 .
 html
+fails
 HTTP
 (
 .
@@ -858,6 +881,7 @@ variant
 caps
 .
 html
+fails
 HTTP
 (
 .
@@ -883,6 +907,7 @@ east
 asian
 .
 html
+fails
 HTTP
 (
 .
@@ -904,6 +929,7 @@ variant
 ligatures
 .
 html
+fails
 HTTP
 (
 .
@@ -925,6 +951,7 @@ variant
 numeric
 .
 html
+fails
 HTTP
 (
 .
@@ -950,6 +977,7 @@ html
 font
 -
 kerning
+fails
 HTTP
 (
 .
@@ -971,6 +999,7 @@ kerning
 normal
 .
 html
+fails
 HTTP
 (
 .
@@ -992,6 +1021,7 @@ kerning
 auto
 .
 html
+fails
 HTTP
 (
 .
@@ -1013,6 +1043,7 @@ kerning
 auto
 .
 html
+fails
 HTTP
 (
 .
@@ -1034,6 +1065,7 @@ kerning
 normal
 .
 html
+fails
 HTTP
 (
 .
@@ -1055,6 +1087,7 @@ kerning
 none
 .
 html
+fails
 HTTP
 (
 .
@@ -1076,6 +1109,7 @@ kerning
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -1097,6 +1131,7 @@ kerning
 2
 .
 html
+fails
 HTTP
 (
 .
@@ -1118,6 +1153,7 @@ kerning
 3
 .
 html
+fails
 HTTP
 (
 .
@@ -1180,6 +1216,7 @@ check
 kern
 .
 html
+fails
 HTTP
 (
 .
@@ -1215,6 +1252,7 @@ inter
 -
 word
 spaces
+fails
 HTTP
 (
 .
@@ -1244,6 +1282,7 @@ space
 1
 .
 html
+fails
 HTTP
 (
 .
@@ -1271,6 +1310,7 @@ for
 ignored
 space
 kerns
+fails
 HTTP
 (
 .
@@ -1664,6 +1704,7 @@ like
 the
 default
 rendering
+fails
 HTTP
 (
 .
@@ -1685,6 +1726,7 @@ fallback
 smallcaps1
 .
 html
+fails
 HTTP
 (
 .
@@ -1706,6 +1748,7 @@ fallback
 smallcaps2
 .
 html
+fails
 HTTP
 (
 .
@@ -1727,6 +1770,7 @@ fallback
 petitecaps
 .
 html
+fails
 HTTP
 (
 .
@@ -1748,6 +1792,7 @@ fallback
 allsmallcaps
 .
 html
+fails
 HTTP
 (
 .
@@ -1776,6 +1821,7 @@ normal
 or
 fallback
 rendering
+fails
 HTTP
 (
 .
@@ -1797,6 +1843,7 @@ fallback
 smallcaps1
 .
 html
+fails
 HTTP
 (
 .
@@ -1818,6 +1865,7 @@ fallback
 smallcaps2
 .
 html
+fails
 HTTP
 (
 .
@@ -1839,6 +1887,7 @@ fallback
 petitecaps
 .
 html
+fails
 HTTP
 (
 .
@@ -1860,6 +1909,7 @@ fallback
 allsmallcaps
 .
 html
+fails
 HTTP
 (
 .
@@ -1888,6 +1938,7 @@ variant
 -
 position
 fallback
+fails
 =
 =
 subsuper
@@ -1900,6 +1951,7 @@ subsuper
 fallback
 .
 html
+fails
 HTTP
 (
 .
@@ -1917,6 +1969,7 @@ subsuper
 fallback
 .
 html
+fails
 HTTP
 (
 .
@@ -1934,6 +1987,7 @@ subsuper
 fallback
 .
 html
+fails
 HTTP
 (
 .
@@ -1951,6 +2005,7 @@ subsuper
 fallback
 .
 html
+fails
 HTTP
 (
 .
@@ -1972,6 +2027,7 @@ fallback
 omega
 .
 html
+fails
 HTTP
 (
 .
@@ -1989,6 +2045,7 @@ subsuper
 nofallback
 .
 html
+fails
 =
 =
 subsuper
@@ -2001,6 +2058,7 @@ subsuper
 nofallback
 .
 html
+fails
 HTTP
 (
 .

@@ -252,6 +252,7 @@ declaration
 14
 .
 html
+fails
 =
 =
 variable
@@ -268,6 +269,7 @@ declaration
 15
 .
 html
+fails
 =
 =
 variable
@@ -284,6 +286,7 @@ declaration
 16
 .
 html
+fails
 =
 =
 variable
@@ -300,6 +303,7 @@ declaration
 17
 .
 html
+fails
 =
 =
 variable
@@ -992,6 +996,7 @@ declaration
 01
 .
 html
+fails
 =
 =
 variable
@@ -1056,6 +1061,7 @@ supports
 01
 .
 html
+fails
 =
 =
 variable
@@ -1076,6 +1082,7 @@ face
 01
 .
 html
+fails
 =
 =
 variable
@@ -1656,6 +1663,7 @@ reference
 35
 .
 html
+fails
 =
 =
 variable
@@ -1688,6 +1696,7 @@ reference
 37
 .
 html
+fails
 =
 =
 variable

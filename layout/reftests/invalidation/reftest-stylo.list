@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 table
@@ -47,6 +48,7 @@ repaint
 b
 .
 html
+fails
 =
 =
 table
@@ -91,6 +93,7 @@ xul
 1
 .
 xul
+fails
 =
 =
 543681
@@ -103,6 +106,7 @@ html
 1
 .
 html
+fails
 =
 =
 1243409
@@ -115,6 +119,7 @@ html
 1
 .
 html
+fails
 =
 =
 test
@@ -131,6 +136,7 @@ image
 layers
 .
 html
+fails
 =
 =
 test
@@ -1302,6 +1308,7 @@ fillPaint
 userSpace
 -
 at100
+fails
 =
 =
 scroll
@@ -1318,6 +1325,7 @@ inactive
 layers
 .
 html
+fails
 =
 =
 scroll
@@ -1338,6 +1346,7 @@ layers
 2
 .
 html
+fails
 =
 =
 inactive
@@ -1362,6 +1371,7 @@ region
 1
 .
 html
+fails
 =
 =
 inactive
@@ -1386,6 +1396,7 @@ region
 2
 .
 html
+fails
 =
 =
 transform
@@ -1406,6 +1417,7 @@ point
 invalidation
 .
 html
+fails
 =
 =
 transform
@@ -1430,6 +1442,7 @@ invalidation
 html
 ?
 reverse
+fails
 =
 =
 nudge
@@ -1450,6 +1463,7 @@ integer
 invalidation
 .
 html
+fails
 =
 =
 nudge
@@ -1512,6 +1526,7 @@ recycling
 1
 .
 html
+fails
 =
 =
 paintedlayer
@@ -1528,6 +1543,7 @@ recycling
 2
 .
 html
+fails
 pref
 (
 layers
@@ -1555,6 +1571,7 @@ recycling
 3
 .
 html
+fails
 =
 =
 paintedlayer
@@ -1571,6 +1588,7 @@ recycling
 4
 .
 html
+fails
 =
 =
 paintedlayer
@@ -1587,6 +1605,7 @@ recycling
 5
 .
 html
+fails
 =
 =
 paintedlayer
@@ -1603,6 +1622,7 @@ recycling
 6
 .
 html
+fails
 =
 =
 paintedlayer
@@ -1631,6 +1651,7 @@ masklayer
 1
 .
 html
+fails
 =
 =
 masklayer
@@ -1643,6 +1664,7 @@ masklayer
 2
 .
 html
+fails
 =
 =
 layer
@@ -1659,6 +1681,7 @@ splitting
 1
 .
 html
+fails
 =
 =
 layer
@@ -1675,6 +1698,7 @@ splitting
 2
 .
 html
+fails
 =
 =
 layer
@@ -1691,6 +1715,7 @@ splitting
 3
 .
 html
+fails
 =
 =
 layer
@@ -1707,6 +1732,7 @@ splitting
 4
 .
 html
+fails
 =
 =
 layer
@@ -1723,6 +1749,7 @@ splitting
 5
 .
 html
+fails
 =
 =
 layer
@@ -1739,6 +1766,7 @@ splitting
 6
 .
 html
+fails
 =
 =
 layer
@@ -1755,6 +1783,7 @@ splitting
 7
 .
 html
+fails
 =
 =
 image
@@ -1775,6 +1804,7 @@ zoom
 1
 .
 html
+fails
 =
 =
 image
@@ -1799,6 +1829,7 @@ zoom
 ref
 .
 html
+fails
 pref
 (
 layers
@@ -1968,6 +1999,7 @@ opacity
 text
 .
 html
+fails
 =
 =
 negative
@@ -1984,6 +2016,7 @@ w
 component
 .
 html
+fails
 =
 =
 mask
@@ -2000,6 +2033,7 @@ invalidation
 1a
 .
 html
+fails
 =
 =
 mask
@@ -2016,6 +2050,7 @@ invalidation
 1b
 .
 html
+fails
 =
 =
 mask
@@ -2032,6 +2067,7 @@ invalidation
 2a
 .
 html
+fails
 =
 =
 mask
@@ -2048,6 +2084,7 @@ invalidation
 2b
 .
 html
+fails
 =
 =
 mask
@@ -2064,6 +2101,7 @@ invalidation
 2c
 .
 html
+fails
 =
 =
 mask
@@ -2080,6 +2118,7 @@ invalidation
 2d
 .
 html
+fails
 =
 =
 clip
@@ -2100,6 +2139,7 @@ invalidation
 1a
 .
 html
+fails
 =
 =
 clip
@@ -2120,6 +2160,7 @@ invalidation
 1b
 .
 html
+fails
 =
 =
 clip
@@ -2140,6 +2181,7 @@ invalidation
 1c
 .
 html
+fails
 =
 =
 clip

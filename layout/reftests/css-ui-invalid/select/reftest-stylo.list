@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 needs
 -
 focus
@@ -29,6 +30,7 @@ select
 valid
 .
 html
+fails
 =
 =
 select
@@ -41,6 +43,7 @@ select
 invalid
 .
 html
+fails
 =
 =
 select
@@ -57,6 +60,7 @@ invalid
 reset
 .
 html
+fails
 needs
 -
 focus
@@ -72,6 +76,7 @@ select
 disabled
 .
 html
+fails
 needs
 -
 focus
@@ -91,6 +96,7 @@ dyn
 disabled
 .
 html
+fails
 =
 =
 select
@@ -111,6 +117,7 @@ not
 disabled
 .
 html
+fails
 =
 =
 select
@@ -131,6 +138,7 @@ invalid
 1
 .
 html
+fails
 =
 =
 select
@@ -151,6 +159,7 @@ invalid
 2
 .
 html
+fails
 =
 =
 select
@@ -175,6 +184,7 @@ changed
 1
 .
 html
+fails
 =
 =
 select
@@ -199,6 +209,7 @@ changed
 2
 .
 html
+fails
 =
 =
 select
@@ -215,6 +226,7 @@ required
 valid
 .
 html
+fails
 needs
 -
 focus
@@ -238,6 +250,7 @@ multiple
 invalid
 .
 html
+fails
 =
 =
 select
@@ -262,6 +275,7 @@ invalid
 changed
 .
 html
+fails
 needs
 -
 focus
@@ -285,6 +299,7 @@ multiple
 valid
 .
 html
+fails
 =
 =
 select
@@ -305,6 +320,7 @@ fieldset
 1
 .
 html
+fails
 =
 =
 select
@@ -325,6 +341,7 @@ fieldset
 2
 .
 html
+fails
 =
 =
 select
@@ -341,6 +358,7 @@ fieldset
 legend
 .
 html
+fails
 =
 =
 select

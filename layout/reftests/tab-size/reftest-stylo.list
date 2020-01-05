@@ -48,6 +48,7 @@ size
 8
 .
 html
+fails
 =
 =
 tab
@@ -64,6 +65,7 @@ size
 4
 .
 html
+fails
 =
 =
 tab
@@ -84,6 +86,7 @@ size
 span
 .
 html
+fails
 =
 =
 tab
@@ -125,6 +128,7 @@ size
 multiple
 .
 html
+fails
 =
 =
 tab
@@ -141,6 +145,7 @@ size
 1
 .
 html
+fails
 =
 =
 tab
@@ -157,6 +162,7 @@ size
 0
 .
 html
+fails
 =
 =
 tab
@@ -213,6 +219,7 @@ change
 1b
 .
 html
+fails
 =
 =
 tab

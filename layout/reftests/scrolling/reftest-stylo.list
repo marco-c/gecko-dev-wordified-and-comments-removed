@@ -59,6 +59,7 @@ deferred
 anchor2
 .
 xhtml
+fails
 HTTP
 =
 =
@@ -72,7 +73,7 @@ fixed
 1
 .
 html
-#
+fails
 =
 =
 fixed
@@ -89,6 +90,7 @@ table
 1
 .
 html
+fails
 HTTP
 =
 =
@@ -106,6 +108,7 @@ opacity
 1
 .
 html
+fails
 HTTP
 =
 =
@@ -123,6 +126,7 @@ opacity
 2
 .
 html
+fails
 =
 =
 fixed
@@ -156,6 +160,7 @@ text
 2
 .
 html
+fails
 =
 =
 iframe
@@ -204,6 +209,7 @@ scrolling
 1
 .
 html
+fails
 =
 =
 opacity
@@ -224,6 +230,7 @@ scrolling
 2
 .
 html
+fails
 =
 =
 scroll
@@ -240,6 +247,7 @@ behavior
 1
 .
 html
+fails
 =
 =
 scroll
@@ -256,6 +264,7 @@ behavior
 2
 .
 html
+fails
 =
 =
 scroll
@@ -272,6 +281,7 @@ behavior
 3
 .
 html
+fails
 =
 =
 scroll
@@ -288,6 +298,7 @@ behavior
 4
 .
 html
+fails
 =
 =
 scroll
@@ -304,6 +315,7 @@ behavior
 5
 .
 html
+fails
 =
 =
 scroll
@@ -320,6 +332,7 @@ behavior
 6
 .
 html
+fails
 =
 =
 scroll
@@ -336,6 +349,7 @@ behavior
 7
 .
 html
+fails
 =
 =
 scroll
@@ -352,6 +366,7 @@ behavior
 8
 .
 html
+fails
 =
 =
 scroll
@@ -418,6 +433,7 @@ behavior
 10
 .
 html
+fails
 =
 =
 scroll
@@ -434,6 +450,7 @@ behavior
 textarea
 .
 html
+fails
 HTTP
 =
 =
@@ -546,6 +563,7 @@ uncovering
 2
 .
 html
+fails
 =
 =
 less
@@ -566,6 +584,7 @@ scrollbar
 height
 .
 html
+fails
 =
 =
 huge
@@ -582,6 +601,7 @@ horizontal
 overflow
 .
 html
+fails
 =
 =
 huge
@@ -598,6 +618,7 @@ vertical
 overflow
 .
 html
+fails
 =
 =
 iframe
@@ -618,6 +639,7 @@ attr
 1
 .
 html
+fails
 =
 =
 iframe
@@ -638,6 +660,7 @@ attr
 2
 .
 html
+fails
 =
 =
 frame
@@ -658,6 +681,7 @@ attr
 1
 .
 html
+fails
 =
 =
 frame
@@ -678,6 +702,7 @@ attr
 2
 .
 html
+fails
 =
 =
 move
@@ -3254,6 +3279,7 @@ innerBottom
 scrollBefore
 =
 999
+fails
 =
 =
 fractional

@@ -433,6 +433,7 @@ Xul
 see
 bug
 739714
+fails
 =
 =
 pseudo
@@ -477,6 +478,7 @@ color
 on
 Mac
 .
+fails
 =
 =
 non
@@ -493,6 +495,7 @@ themed
 widget
 .
 html
+fails
 =
 =
 themed
@@ -529,6 +532,7 @@ addrange
 2
 .
 html
+fails
 =
 =
 splitText
@@ -541,6 +545,7 @@ splitText
 normalize
 .
 html
+fails
 =
 =
 modify
@@ -553,6 +558,7 @@ modify
 range
 .
 html
+fails
 =
 =
 dom

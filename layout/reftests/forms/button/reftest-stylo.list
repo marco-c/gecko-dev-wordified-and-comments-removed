@@ -61,6 +61,7 @@ max
 height
 .
 html
+fails
 =
 =
 min
@@ -103,6 +104,7 @@ fuzz
 is
 needed
 .
+fails
 =
 =
 overflow
@@ -238,6 +240,7 @@ vertical
 centering
 .
 html
+fails
 =
 =
 line
@@ -262,6 +265,7 @@ button
 5
 .
 html
+fails
 =
 =
 line
@@ -286,6 +290,7 @@ button
 5
 .
 html
+fails
 =
 =
 line
@@ -310,6 +315,7 @@ input
 5
 .
 html
+fails
 =
 =
 line
@@ -350,6 +356,7 @@ slightly
 different
 from
 ColorGray
+fails
 =
 =
 disabled
@@ -362,6 +369,7 @@ disabled
 1
 .
 html
+fails
 =
 =
 disabled
@@ -374,6 +382,7 @@ disabled
 2
 .
 html
+fails
 =
 =
 disabled
@@ -386,6 +395,7 @@ disabled
 3
 .
 html
+fails
 =
 =
 disabled
@@ -398,6 +408,7 @@ disabled
 4
 .
 html
+fails
 =
 =
 disabled
@@ -410,6 +421,7 @@ disabled
 5
 .
 html
+fails
 =
 =
 disabled
@@ -556,6 +568,7 @@ fit
 rtl
 .
 html
+fails
 =
 =
 display

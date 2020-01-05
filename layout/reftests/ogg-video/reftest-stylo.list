@@ -44,6 +44,7 @@ html
 1
 .
 html
+fails
 =
 =
 aspect
@@ -60,6 +61,7 @@ ratio
 1a
 .
 xhtml
+fails
 =
 =
 aspect
@@ -142,6 +144,7 @@ ratio
 2b
 .
 xhtml
+fails
 HTTP
 (
 .
@@ -163,6 +166,7 @@ ratio
 3a
 .
 xhtml
+fails
 HTTP
 (
 .
@@ -204,6 +208,7 @@ ratio
 1
 .
 html
+fails
 =
 =
 basic
@@ -216,6 +221,7 @@ basic
 1
 .
 xhtml
+fails
 =
 =
 canvas
@@ -228,6 +234,7 @@ canvas
 1a
 .
 xhtml
+fails
 =
 =
 canvas
@@ -291,6 +298,7 @@ when
 this
 is
 ran
+fails
 =
 =
 object
@@ -311,6 +319,7 @@ ratio
 1a
 .
 xhtml
+fails
 =
 =
 object
@@ -569,6 +578,7 @@ poster
 10
 .
 html
+fails
 =
 =
 poster
@@ -581,6 +591,7 @@ poster
 11
 .
 html
+fails
 =
 =
 poster
@@ -593,6 +604,7 @@ poster
 12
 .
 html
+fails
 =
 =
 poster

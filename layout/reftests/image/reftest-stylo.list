@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 background
@@ -102,6 +103,7 @@ seam
 2
 .
 html
+fails
 =
 =
 image
@@ -118,6 +120,7 @@ zoom
 1
 .
 html
+fails
 =
 =
 image
@@ -134,6 +137,7 @@ zoom
 2
 .
 html
+fails
 =
 =
 invalid
@@ -383,6 +387,7 @@ dyn
 1
 .
 html
+fails
 test
 -
 pref
@@ -430,6 +435,7 @@ background
 1
 .
 html
+fails
 test
 -
 pref
@@ -521,6 +527,7 @@ dyn
 1
 .
 html
+fails
 test
 -
 pref
@@ -568,6 +575,7 @@ background
 1
 .
 html
+fails
 =
 =
 image
@@ -697,6 +705,7 @@ image
 html
 ?
 0
+fails
 =
 =
 image
@@ -721,6 +730,7 @@ image
 html
 ?
 90
+fails
 =
 =
 image
@@ -745,6 +755,7 @@ image
 html
 ?
 180
+fails
 =
 =
 image
@@ -769,6 +780,7 @@ image
 html
 ?
 270
+fails
 =
 =
 image
@@ -797,6 +809,7 @@ html
 0
 &
 flip
+fails
 =
 =
 image
@@ -825,6 +838,7 @@ html
 90
 &
 flip
+fails
 =
 =
 image
@@ -853,6 +867,7 @@ html
 180
 &
 flip
+fails
 =
 =
 image
@@ -918,6 +933,7 @@ explicit
 html
 ?
 0
+fails
 =
 =
 image
@@ -938,6 +954,7 @@ explicit
 html
 ?
 90
+fails
 =
 =
 image
@@ -958,6 +975,7 @@ explicit
 html
 ?
 180
+fails
 =
 =
 image
@@ -978,6 +996,7 @@ explicit
 html
 ?
 270
+fails
 =
 =
 image
@@ -1002,6 +1021,7 @@ html
 0
 &
 flip
+fails
 =
 =
 image
@@ -1026,6 +1046,7 @@ html
 90
 &
 flip
+fails
 =
 =
 image
@@ -1050,6 +1071,7 @@ html
 180
 &
 flip
+fails
 =
 =
 image
@@ -1168,6 +1190,7 @@ explicit
 html
 ?
 15
+fails
 =
 =
 image
@@ -1188,6 +1211,7 @@ explicit
 html
 ?
 45
+fails
 =
 =
 image
@@ -1208,6 +1232,7 @@ explicit
 html
 ?
 75
+fails
 =
 =
 image
@@ -1228,6 +1253,7 @@ explicit
 html
 ?
 105
+fails
 =
 =
 image
@@ -1248,6 +1274,7 @@ explicit
 html
 ?
 135
+fails
 =
 =
 image
@@ -1268,6 +1295,7 @@ explicit
 html
 ?
 165
+fails
 =
 =
 image
@@ -1288,6 +1316,7 @@ explicit
 html
 ?
 195
+fails
 =
 =
 image
@@ -1308,6 +1337,7 @@ explicit
 html
 ?
 225
+fails
 =
 =
 image
@@ -1328,6 +1358,7 @@ explicit
 html
 ?
 255
+fails
 =
 =
 image
@@ -1409,6 +1440,7 @@ on
 generated
 content
 :
+fails
 =
 =
 image
@@ -1437,6 +1469,7 @@ html
 from
 -
 image
+fails
 =
 =
 image
@@ -1461,6 +1494,7 @@ content
 html
 ?
 0
+fails
 =
 =
 image
@@ -1485,6 +1519,7 @@ content
 html
 ?
 90
+fails
 =
 =
 image
@@ -1509,6 +1544,7 @@ content
 html
 ?
 180
+fails
 =
 =
 image
@@ -1533,6 +1569,7 @@ content
 html
 ?
 270
+fails
 =
 =
 image
@@ -1561,6 +1598,7 @@ html
 0
 &
 flip
+fails
 =
 =
 image
@@ -1589,6 +1627,7 @@ html
 90
 &
 flip
+fails
 =
 =
 image
@@ -1617,6 +1656,7 @@ html
 180
 &
 flip
+fails
 =
 =
 image
@@ -1708,6 +1748,7 @@ html
 90
 &
 flip
+fails
 =
 =
 image
@@ -1736,6 +1777,7 @@ html
 from
 -
 image
+fails
 =
 =
 image
@@ -1764,6 +1806,7 @@ html
 90
 &
 flip
+fails
 =
 =
 image
@@ -1796,6 +1839,7 @@ html
 from
 -
 image
+fails
 =
 =
 image
@@ -2358,6 +2402,7 @@ img
 srcset
 >
 tests
+fails
 =
 =
 image
@@ -2386,6 +2431,7 @@ selection
 1x
 .
 html
+fails
 =
 =
 image
@@ -2410,6 +2456,7 @@ selection
 2x
 .
 html
+fails
 =
 =
 image
@@ -2438,6 +2485,7 @@ selection
 5x
 .
 html
+fails
 =
 =
 image
@@ -2466,6 +2514,7 @@ selection
 6x
 .
 html
+fails
 =
 =
 image
@@ -2518,6 +2567,7 @@ selection
 1x
 .
 html
+fails
 =
 =
 image
@@ -2550,6 +2600,7 @@ width
 5x
 .
 html
+fails
 =
 =
 image
@@ -2578,6 +2629,7 @@ width
 10x
 .
 html
+fails
 =
 =
 image
@@ -2634,6 +2686,7 @@ width
 1x
 .
 html
+fails
 =
 =
 image
@@ -2674,6 +2727,7 @@ default
 1x
 .
 html
+fails
 =
 =
 image
@@ -2722,6 +2776,7 @@ src
 1x
 .
 html
+fails
 =
 =
 image
@@ -2762,6 +2817,7 @@ orientation
 1x
 .
 html
+fails
 =
 =
 image
@@ -2782,6 +2838,7 @@ svg
 3x
 .
 html
+fails
 =
 =
 image
@@ -2822,6 +2879,7 @@ svg
 1x
 .
 html
+fails
 =
 =
 image
@@ -2890,6 +2948,7 @@ percent
 height
 .
 html
+fails
 =
 =
 image

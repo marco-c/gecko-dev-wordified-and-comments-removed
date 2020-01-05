@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 bug785684
@@ -26,6 +27,7 @@ bug785684
 x
 .
 html
+fails
 =
 =
 bug785684
@@ -38,6 +40,7 @@ bug785684
 y
 .
 html
+fails
 =
 =
 table
@@ -54,6 +57,7 @@ row
 pagination
 .
 html
+fails
 =
 =
 963441
@@ -62,6 +66,7 @@ html
 963441
 .
 html
+fails
 =
 =
 table

@@ -14,6 +14,7 @@ list
 for
 Stylo
 testing
+fails
 =
 =
 outline
@@ -34,6 +35,7 @@ percent
 1
 .
 html
+fails
 =
 =
 min
@@ -50,6 +52,7 @@ width
 1
 .
 html
+fails
 =
 =
 min
@@ -66,6 +69,7 @@ height
 1
 .
 html
+fails
 =
 =
 max
@@ -82,6 +86,7 @@ width
 1
 .
 html
+fails
 =
 =
 max
@@ -98,6 +103,7 @@ height
 1
 .
 html
+fails
 =
 =
 width
@@ -118,6 +124,7 @@ values
 block
 .
 html
+fails
 =
 =
 width
@@ -138,6 +145,7 @@ values
 float
 .
 html
+fails
 =
 =
 width
@@ -162,6 +170,7 @@ image
 block
 .
 html
+fails
 =
 =
 width
@@ -182,6 +191,7 @@ values
 image
 .
 html
+fails
 =
 =
 width
@@ -206,6 +216,7 @@ block
 intrinsic
 .
 html
+fails
 =
 =
 width
@@ -230,6 +241,7 @@ float
 intrinsic
 .
 html
+fails
 =
 =
 minmax
@@ -258,6 +270,7 @@ block
 intrinsic
 .
 html
+fails
 =
 =
 width
@@ -282,6 +295,7 @@ cell
 auto
 .
 html
+fails
 =
 =
 width
@@ -306,6 +320,7 @@ cell
 fixed
 .
 html
+fails
 =
 =
 box
@@ -322,6 +337,7 @@ sizing
 1
 .
 html
+fails
 =
 =
 box
@@ -338,6 +354,7 @@ sizing
 2
 .
 html
+fails
 =
 =
 box
@@ -354,6 +371,7 @@ sizing
 3
 .
 html
+fails
 =
 =
 box
@@ -391,6 +409,7 @@ minmax
 height
 .
 html
+fails
 =
 =
 box
@@ -436,6 +455,7 @@ minmax
 height
 .
 html
+fails
 =
 =
 abspos
@@ -464,6 +484,7 @@ offset
 margin
 .
 html
+fails
 =
 =
 abspos
@@ -488,6 +509,7 @@ offset
 margin
 .
 html
+fails
 HTTP
 (
 .
@@ -565,6 +587,7 @@ clip
 auto
 .
 html
+fails
 =
 =
 clip

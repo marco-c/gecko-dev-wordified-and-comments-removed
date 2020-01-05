@@ -90,6 +90,7 @@ change
 unexpectedly
 .
 )
+fails
 =
 =
 webkit
@@ -114,6 +115,7 @@ linear
 1
 .
 html
+fails
 =
 =
 webkit
@@ -151,6 +153,7 @@ linear
 .
 .
 )
+fails
 =
 =
 webkit
@@ -171,6 +174,7 @@ linear
 1a
 .
 html
+fails
 =
 =
 webkit
@@ -191,6 +195,7 @@ linear
 1b
 .
 html
+fails
 =
 =
 webkit
@@ -211,6 +216,7 @@ linear
 1c
 .
 html
+fails
 =
 =
 webkit
@@ -231,6 +237,7 @@ linear
 1d
 .
 html
+fails
 =
 =
 webkit
@@ -264,6 +271,7 @@ radial
 .
 .
 )
+fails
 =
 =
 webkit
@@ -284,6 +292,7 @@ radial
 1a
 .
 html
+fails
 =
 =
 webkit
@@ -304,6 +313,7 @@ radial
 1b
 .
 html
+fails
 =
 =
 webkit
