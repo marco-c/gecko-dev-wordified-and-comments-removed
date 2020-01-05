@@ -217,6 +217,17 @@ content
 /
 test
 /
+siteIdentity
+/
+browser
+.
+ini
+'
+'
+content
+/
+test
+/
 social
 /
 browser
