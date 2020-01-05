@@ -395,7 +395,8 @@ _optimizations
 opt_type
 ]
         
-opt_result
+optimized
+task_id
 =
 opt_fn
 (
@@ -406,14 +407,18 @@ args
 )
         
 if
-opt_result
+optimized
+or
+task_id
 :
             
 return
-opt_result
+optimized
+task_id
     
 return
 False
+None
 def
 annotate_task_graph
 (
@@ -629,42 +634,14 @@ label
 else
 :
             
-opt_result
+optimized
+replacement_task_id
 =
 optimize_task
 (
 task
 params
 )
-            
-optimized
-=
-True
-            
-replacement_task_id
-=
-None
-            
-if
-opt_result
-is
-False
-:
-                
-optimized
-=
-False
-            
-elif
-opt_result
-is
-not
-True
-:
-                
-replacement_task_id
-=
-opt_result
         
 task
 .
@@ -1149,9 +1126,8 @@ TASK_ID
 )
         
 return
-task_id
-or
 True
+task_id
     
 except
 requests
@@ -1165,6 +1141,7 @@ pass
     
 return
 False
+None
 optimization
 (
 '
@@ -1276,12 +1253,14 @@ bbb_task
         
 return
 True
+None
     
 else
 :
         
 return
 False
+None
 optimization
 (
 '
@@ -1316,6 +1295,7 @@ pushlog_id
         
 return
 True
+None
     
 changed
 =
@@ -1360,6 +1340,8 @@ label
         
 return
 True
+None
     
 return
 False
+None
