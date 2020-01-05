@@ -103,11 +103,6 @@ U2FAuthenticator
 .
 h
 '
-'
-USBToken
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -115,11 +110,6 @@ UNIFIED_SOURCES
 [
 '
 U2F
-.
-cpp
-'
-'
-USBToken
 .
 cpp
 '

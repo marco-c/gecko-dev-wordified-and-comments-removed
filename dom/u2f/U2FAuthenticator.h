@@ -11,13 +11,6 @@ nsIU2FToken
 .
 h
 "
-#
-include
-"
-USBToken
-.
-h
-"
 namespace
 mozilla
 {
