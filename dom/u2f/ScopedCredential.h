@@ -102,6 +102,7 @@ ScopedCredential
 )
 public
 :
+explicit
 ScopedCredential
 (
 WebAuthentication

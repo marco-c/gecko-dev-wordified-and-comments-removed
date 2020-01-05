@@ -97,6 +97,7 @@ ScopedCredentialInfo
 )
 public
 :
+explicit
 ScopedCredentialInfo
 (
 WebAuthentication

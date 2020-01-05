@@ -91,6 +91,7 @@ WebAuthnAttestation
 )
 public
 :
+explicit
 WebAuthnAttestation
 (
 WebAuthentication

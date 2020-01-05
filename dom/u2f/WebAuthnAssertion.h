@@ -91,6 +91,7 @@ WebAuthnAssertion
 )
 public
 :
+explicit
 WebAuthnAssertion
 (
 WebAuthentication
