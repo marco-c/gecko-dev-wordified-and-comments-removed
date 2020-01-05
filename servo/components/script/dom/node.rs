@@ -341,7 +341,6 @@ js
 :
 :
 {
-OptionalSettable
 TemporaryPushable
 OptionalRootedRootable
 }
