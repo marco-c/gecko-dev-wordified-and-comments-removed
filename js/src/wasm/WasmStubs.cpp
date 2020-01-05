@@ -2824,6 +2824,12 @@ framePushed
 offsets
 )
 ;
+masm
+.
+wasmEmitTrapOutOfLineCode
+(
+)
+;
 offsets
 .
 end
