@@ -371,6 +371,13 @@ nsIDOMEvent
 .
 h
 "
+#
+include
+"
+nsDisplayList
+.
+h
+"
 using
 namespace
 mozilla
@@ -7734,6 +7741,13 @@ GetViewManager
 (
 )
 ;
+{
+PaintTelemetry
+:
+:
+AutoRecordPaint
+record
+;
 vm
 -
 >
@@ -7741,6 +7755,7 @@ ProcessPendingUpdates
 (
 )
 ;
+}
 #
 ifdef
 MOZ_DUMP_PAINTING
