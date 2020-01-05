@@ -133,6 +133,13 @@ box
 js
 '
 '
+search
+-
+box
+.
+js
+'
+'
 sidebar
 -
 toggle
