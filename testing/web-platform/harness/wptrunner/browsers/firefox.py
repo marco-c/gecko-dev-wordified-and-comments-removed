@@ -273,6 +273,17 @@ prefs_root
 ]
             
 "
+extra_prefs
+"
+:
+kwargs
+[
+"
+extra_prefs
+"
+]
+            
+"
 debug_info
 "
 :
@@ -762,6 +773,9 @@ self
 logger
 binary
 prefs_root
+extra_prefs
+=
+None
 debug_info
 =
 None
@@ -811,6 +825,12 @@ self
 prefs_root
 =
 prefs_root
+        
+self
+.
+extra_prefs
+=
+extra_prefs
         
 self
 .
@@ -1312,6 +1332,12 @@ self
 )
 :
         
+prefs
+=
+Preferences
+(
+)
+        
 prefs_path
 =
 os
@@ -1341,13 +1367,16 @@ prefs_path
 )
 :
             
-preferences
-=
+prefs
+.
+add
+(
 Preferences
 .
 read_prefs
 (
 prefs_path
+)
 )
         
 else
@@ -1373,14 +1402,23 @@ s
 %
 prefs_path
 )
-            
-preferences
+        
+prefs
+.
+add
+(
+self
+.
+extra_prefs
+cast
 =
-[
-]
+True
+)
         
 return
-preferences
+prefs
+(
+)
     
 def
 stop
