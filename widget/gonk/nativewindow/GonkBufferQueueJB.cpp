@@ -2044,7 +2044,7 @@ USAGE_HW_TEXTURE
 ;
 RefPtr
 <
-ClientIPCAllocator
+LayersIPCChannel
 >
 allocator
 =

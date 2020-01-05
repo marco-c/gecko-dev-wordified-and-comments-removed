@@ -314,7 +314,7 @@ TextureClient
 >
 Allocate
 (
-TextureForwarder
+KnowsCompositor
 *
 aAllocator
 )
@@ -367,6 +367,11 @@ BackendType
 NONE
 usage
 aAllocator
+-
+>
+GetTextureForwarder
+(
+)
 )
 ;
 if
@@ -423,6 +428,11 @@ TextureFlags
 :
 DEALLOCATE_CLIENT
 aAllocator
+-
+>
+GetTextureForwarder
+(
+)
 )
 ;
 return

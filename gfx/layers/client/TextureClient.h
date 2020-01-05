@@ -152,6 +152,17 @@ mozilla
 /
 layers
 /
+ISurfaceAllocator
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 LayersTypes
 .
 h

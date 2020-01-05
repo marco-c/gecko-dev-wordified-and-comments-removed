@@ -280,6 +280,8 @@ CreateSimilar
 LayersIPCChannel
 *
 aAllocator
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 =
