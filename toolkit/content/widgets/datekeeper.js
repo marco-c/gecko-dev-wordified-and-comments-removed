@@ -9,7 +9,7 @@ DateKeeper
 {
 year
 month
-date
+day
 }
 {
 firstDayOfWeek
@@ -74,7 +74,7 @@ _update
 (
 year
 month
-date
+day
 )
 ;
 }
@@ -115,13 +115,13 @@ this
 state
 .
 month
-date
+day
 =
 this
 .
 state
 .
-date
+day
 }
 )
 {
@@ -131,7 +131,7 @@ _update
 (
 year
 month
-date
+day
 )
 ;
 }
@@ -216,7 +216,7 @@ this
 .
 state
 .
-date
+day
 lastDayOfMonth
 )
 )
@@ -267,7 +267,7 @@ this
 .
 state
 .
-date
+day
 lastDayOfMonth
 )
 )
@@ -330,7 +330,7 @@ this
 .
 state
 .
-date
+day
 lastDayOfMonth
 )
 )
@@ -340,7 +340,7 @@ _update
 (
 year
 month
-date
+day
 )
 {
 this
@@ -353,7 +353,7 @@ setUTCFullYear
 (
 year
 month
-date
+day
 )
 ;
 this
@@ -392,7 +392,7 @@ this
 .
 state
 .
-date
+day
 =
 this
 .
@@ -776,7 +776,7 @@ headers
 ]
 ;
 let
-day
+dayOfWeek
 =
 firstDayOfWeek
 ;
@@ -803,7 +803,7 @@ push
 {
 textContent
 :
-day
+dayOfWeek
 %
 DAYS_IN_A_WEEK
 classNames
@@ -816,7 +816,7 @@ weekends
 .
 includes
 (
-day
+dayOfWeek
 %
 DAYS_IN_A_WEEK
 )
@@ -832,7 +832,7 @@ weekend
 }
 )
 ;
-day
+dayOfWeek
 +
 +
 ;
