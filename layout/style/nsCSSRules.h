@@ -2381,6 +2381,10 @@ mDeclaration
 aDeclaration
 )
 {
+SetIsNotDOMBinding
+(
+)
+;
 mDeclaration
 -
 >
@@ -2497,12 +2501,6 @@ aCssText
 )
 const
 override
-;
-nsICSSDeclaration
-*
-Style
-(
-)
 ;
 mozilla
 :
