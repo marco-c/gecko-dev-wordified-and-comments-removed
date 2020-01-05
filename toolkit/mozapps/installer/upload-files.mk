@@ -355,6 +355,9 @@ DIST
 )
 /
 bin
+-
+-
+strip
 (
 abspath
 (
