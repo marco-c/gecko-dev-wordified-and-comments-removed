@@ -6258,7 +6258,6 @@ IsSelected
 )
 const
 ;
-virtual
 nsresult
 IsSelectable
 (
@@ -6273,8 +6272,6 @@ StyleUserSelect
 aSelectStyle
 )
 const
-=
-0
 ;
 virtual
 nsresult
