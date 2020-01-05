@@ -112,8 +112,6 @@ HTMLTableSectionElement
 :
 HTMLElement
 {
-/
-/
 readonly
 attribute
 HTMLCollection
