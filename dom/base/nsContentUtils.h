@@ -3917,6 +3917,16 @@ aDoc
 ;
 static
 bool
+AppendLFInSerialization
+(
+)
+{
+return
+sAppendLFInSerialization
+;
+}
+static
+bool
 IsFocusedContent
 (
 const
@@ -5772,6 +5782,10 @@ sPrivacyResistFingerprinting
 static
 bool
 sSendPerformanceTimingNotifications
+;
+static
+bool
+sAppendLFInSerialization
 ;
 static
 bool
