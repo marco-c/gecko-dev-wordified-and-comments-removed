@@ -215,6 +215,15 @@ extensions
 /
 schemas
 /
+top_sites
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 web_navigation
 .
 json

@@ -197,6 +197,15 @@ extensions
 /
 ext
 -
+topSites
+.
+js
+content
+/
+extensions
+/
+ext
+-
 c
 -
 extension
