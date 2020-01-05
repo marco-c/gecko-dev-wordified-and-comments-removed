@@ -72,6 +72,9 @@ ports
 /
 geckolib
 "
+optional
+=
+true
 }
 mp4parse_capi
 =
@@ -194,6 +197,13 @@ bindgen
 geckoservo
 /
 bindgen
+"
+]
+servo
+=
+[
+"
+geckoservo
 "
 ]
 quantum_render
