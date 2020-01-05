@@ -544,8 +544,11 @@ file_name
 as_slice
 (
 )
+Some
+(
 &
 style
+)
 )
 }
 )
