@@ -69,6 +69,17 @@ shape
 .
 h
 "
+#
+include
+"
+hb
+-
+ot
+-
+var
+.
+h
+"
 HB_BEGIN_DECLS
 HB_END_DECLS
 #

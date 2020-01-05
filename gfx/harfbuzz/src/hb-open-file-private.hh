@@ -415,10 +415,9 @@ version
 ;
 ArrayOf
 <
-OffsetTo
+LOffsetTo
 <
 OffsetTable
-ULONG
 >
 ULONG
 >

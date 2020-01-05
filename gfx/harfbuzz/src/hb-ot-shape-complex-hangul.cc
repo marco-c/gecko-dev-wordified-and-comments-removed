@@ -15,7 +15,7 @@ hh
 "
 enum
 {
-NONE
+_JMO
 LJMO
 VJMO
 TJMO

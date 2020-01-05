@@ -788,10 +788,9 @@ firstGlyphIndex
 USHORT
 lastGlyphIndex
 ;
-OffsetTo
+LOffsetTo
 <
 IndexSubtable
-ULONG
 >
 offsetToSubtable
 ;
@@ -1102,10 +1101,9 @@ numberOfIndexSubtables
 }
 protected
 :
-OffsetTo
+LOffsetTo
 <
 IndexSubtableArray
-ULONG
 >
 indexSubtableArrayOffset
 ;
@@ -1386,10 +1384,9 @@ FixedVersion
 >
 version
 ;
-ArrayOf
+LArrayOf
 <
 BitmapSizeTable
-ULONG
 >
 sizeTables
 ;

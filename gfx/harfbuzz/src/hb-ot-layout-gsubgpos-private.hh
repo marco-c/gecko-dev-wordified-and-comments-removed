@@ -11910,10 +11910,9 @@ LookupList
 >
 lookupList
 ;
-OffsetTo
+LOffsetTo
 <
 FeatureVariations
-ULONG
 >
 featureVars
 ;

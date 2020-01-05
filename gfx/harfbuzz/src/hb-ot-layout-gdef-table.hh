@@ -1123,10 +1123,9 @@ format
 ;
 ArrayOf
 <
-OffsetTo
+LOffsetTo
 <
 Coverage
-ULONG
 >
 >
 coverage
@@ -1901,10 +1900,9 @@ MarkGlyphSets
 >
 markGlyphSetsDef
 ;
-OffsetTo
+LOffsetTo
 <
 VariationStore
-ULONG
 >
 varStore
 ;
