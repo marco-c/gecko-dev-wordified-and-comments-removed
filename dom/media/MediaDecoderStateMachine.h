@@ -123,9 +123,6 @@ MediaSink
 ;
 }
 class
-AbstractThread
-;
-class
 AudioSegment
 ;
 class
@@ -555,6 +552,11 @@ const
 char
 *
 ToStateStr
+(
+)
+;
+nsCString
+GetDebugInfo
 (
 )
 ;
@@ -1182,13 +1184,6 @@ void
 *
 const
 mDecoderID
-;
-const
-RefPtr
-<
-AbstractThread
->
-mAbstractMainThread
 ;
 const
 RefPtr
