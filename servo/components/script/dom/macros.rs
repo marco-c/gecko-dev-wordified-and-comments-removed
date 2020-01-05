@@ -2082,6 +2082,9 @@ ident
 setter
 :
 ident
+setter_fn
+:
+ident
 )
 =
 >
@@ -2217,7 +2220,7 @@ EventTarget
 ;
 eventtarget
 .
-set_event_handler_common
+setter_fn
 (
 stringify
 !
@@ -2255,6 +2258,7 @@ EventHandlerNonNull
 event_type
 getter
 setter
+set_event_handler_common
 )
 ;
 )
@@ -2285,6 +2289,7 @@ OnErrorEventHandlerNonNull
 event_type
 getter
 setter
+set_error_event_handler
 )
 ;
 )
@@ -2327,6 +2332,14 @@ event_handler
 click
 GetOnclick
 SetOnclick
+)
+;
+error_event_handler
+!
+(
+error
+GetOnerror
+SetOnerror
 )
 ;
 event_handler

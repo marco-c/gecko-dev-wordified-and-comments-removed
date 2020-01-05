@@ -1264,10 +1264,6 @@ trap
 ;
 }
 ;
-Window
-implements
-OnErrorEventHandlerForWindow
-;
 /
 /
 WebDriver
