@@ -141,8 +141,6 @@ attribute
 DOMSettableTokenList
 headers
 ;
-/
-/
 readonly
 attribute
 long
