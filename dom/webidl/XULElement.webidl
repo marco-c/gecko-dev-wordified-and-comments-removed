@@ -118,6 +118,13 @@ XULElement
 :
 Element
 {
+[
+SetterThrows
+]
+attribute
+DOMString
+className
+;
 /
 /
 Layout
