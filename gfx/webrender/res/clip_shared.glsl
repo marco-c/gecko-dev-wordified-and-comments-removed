@@ -74,6 +74,9 @@ layer_index
 int
 data_index
 ;
+int
+base_task_index
+;
 }
 ;
 CacheClipInstance
@@ -126,6 +129,14 @@ data_index
 data0
 .
 z
+;
+cci
+.
+base_task_index
+=
+data0
+.
+w
 ;
 return
 cci

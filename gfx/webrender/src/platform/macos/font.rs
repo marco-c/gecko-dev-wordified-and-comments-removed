@@ -731,9 +731,6 @@ FontKey
 size
 :
 Au
-device_pixel_ratio
-:
-f32
 )
 -
 >
@@ -840,12 +837,6 @@ size
 to_f64_px
 (
 )
-*
-(
-device_pixel_ratio
-as
-f64
-)
 )
 ;
 entry
@@ -882,9 +873,6 @@ Au
 character
 :
 u32
-device_pixel_ratio
-:
-f32
 )
 -
 >
@@ -899,7 +887,6 @@ get_ct_font
 (
 font_key
 size
-device_pixel_ratio
 )
 .
 and_then
@@ -995,9 +982,6 @@ Au
 character
 :
 u32
-device_pixel_ratio
-:
-f32
 render_mode
 :
 FontRenderMode
@@ -1016,7 +1000,6 @@ get_ct_font
 (
 font_key
 size
-device_pixel_ratio
 )
 {
 Some

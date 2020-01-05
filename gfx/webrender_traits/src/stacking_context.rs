@@ -37,12 +37,6 @@ Rect
 <
 f32
 >
-overflow
-:
-Rect
-<
-f32
->
 z_index
 :
 i32
@@ -87,9 +81,6 @@ scroll_policy
 bounds
 :
 bounds
-overflow
-:
-overflow
 z_index
 :
 z_index

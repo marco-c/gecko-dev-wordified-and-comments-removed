@@ -146,6 +146,9 @@ tile
 ;
 #
 endif
+#
+ifdef
+WR_FEATURE_CLIP
 write_clip
 (
 vi
@@ -156,4 +159,6 @@ prim
 clip_area
 )
 ;
+#
+endif
 }
