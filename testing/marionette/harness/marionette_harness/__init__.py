@@ -19,6 +19,8 @@ expectedFailure
     
 MarionetteTestCase
     
+parameterized
+    
 run_if_e10s
     
 run_if_manage_instance
