@@ -6712,11 +6712,6 @@ boolean
 aSuppress
 )
 ;
-void
-clearMozAfterPaintEvents
-(
-)
-;
 /
 *
 *
