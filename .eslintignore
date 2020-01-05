@@ -570,6 +570,16 @@ client
 /
 framework
 /
+devtools
+.
+js
+!
+devtools
+/
+client
+/
+framework
+/
 selection
 .
 js
