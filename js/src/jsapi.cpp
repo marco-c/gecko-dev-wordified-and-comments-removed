@@ -4942,9 +4942,7 @@ true
 ;
 }
 }
-if
-(
-!
+return
 global
 -
 >
@@ -4952,12 +4950,6 @@ getOrCreateObjectPrototype
 (
 cx
 )
-)
-return
-false
-;
-return
-true
 ;
 }
 JS_PUBLIC_API
