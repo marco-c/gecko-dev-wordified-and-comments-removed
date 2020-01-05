@@ -62,6 +62,10 @@ characterdata
 ;
 pub
 mod
+css
+;
+pub
+mod
 cssstyledeclaration
 ;
 pub
