@@ -264,6 +264,15 @@ Value
 e
 -
 >
+mDisplay
+=
+aEventInitDict
+.
+mDisplay
+;
+e
+-
+>
 SetTrusted
 (
 trusted
