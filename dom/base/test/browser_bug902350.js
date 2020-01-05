@@ -21,7 +21,7 @@ example
 .
 com
 /
-tests
+browser
 /
 dom
 /
