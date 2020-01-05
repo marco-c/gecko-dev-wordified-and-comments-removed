@@ -2152,11 +2152,16 @@ aGamepadEvent
 {
 if
 (
+mHaveControllerListener
+&
+&
+(
 mIsContentChild
 |
 |
 IsSameProcess
 (
+)
 )
 )
 {
