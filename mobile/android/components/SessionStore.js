@@ -6077,6 +6077,11 @@ browser
 "
 )
 ;
+if
+(
+window
+)
+{
 window
 .
 WindowEventDispatcher
@@ -6128,6 +6133,7 @@ null
 }
 )
 ;
+}
 this
 .
 _lastSaveTime
