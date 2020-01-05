@@ -630,9 +630,6 @@ Option
 DOMString
 >
 {
-let
-key
-=
 self
 .
 key
@@ -640,8 +637,6 @@ key
 borrow
 (
 )
-;
-key
 .
 clone
 (
@@ -659,9 +654,6 @@ Option
 DOMString
 >
 {
-let
-oldValue
-=
 self
 .
 oldValue
@@ -669,8 +661,6 @@ oldValue
 borrow
 (
 )
-;
-oldValue
 .
 clone
 (
@@ -688,9 +678,6 @@ Option
 DOMString
 >
 {
-let
-newValue
-=
 self
 .
 newValue
@@ -698,8 +685,6 @@ newValue
 borrow
 (
 )
-;
-newValue
 .
 clone
 (
@@ -714,9 +699,6 @@ self
 >
 DOMString
 {
-let
-url
-=
 self
 .
 url
@@ -724,8 +706,6 @@ url
 borrow
 (
 )
-;
-url
 .
 clone
 (

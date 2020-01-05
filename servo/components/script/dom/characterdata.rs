@@ -328,9 +328,6 @@ self
 >
 DOMString
 {
-let
-data
-=
 self
 .
 data
@@ -338,8 +335,6 @@ data
 borrow
 (
 )
-;
-data
 .
 clone
 (
@@ -375,9 +370,6 @@ self
 >
 u32
 {
-let
-data
-=
 self
 .
 data
@@ -385,8 +377,6 @@ data
 borrow
 (
 )
-;
-data
 .
 chars
 (
