@@ -1148,6 +1148,13 @@ ctrlTab_uninit
 (
 )
 {
+if
+(
+this
+.
+_recentlyUsedTabs
+)
+{
 this
 .
 _recentlyUsedTabs
@@ -1161,6 +1168,7 @@ _init
 false
 )
 ;
+}
 }
 prefName
 :
@@ -1191,22 +1199,6 @@ prefName
 )
 &
 &
-(
-!
-gPrefService
-.
-prefHasUserValue
-(
-"
-browser
-.
-ctrlTab
-.
-disallowForScreenReaders
-"
-)
-|
-|
 !
 gPrefService
 .
@@ -1219,7 +1211,7 @@ ctrlTab
 .
 disallowForScreenReaders
 "
-)
+false
 )
 ;
 if
@@ -3079,7 +3071,6 @@ toggleEventListener
 SSWindowRestored
 "
 this
-false
 )
 ;
 var
@@ -3098,7 +3089,6 @@ toggleEventListener
 TabOpen
 "
 this
-false
 )
 ;
 tabContainer
@@ -3110,7 +3100,6 @@ toggleEventListener
 TabAttrModified
 "
 this
-false
 )
 ;
 tabContainer
@@ -3122,7 +3111,6 @@ toggleEventListener
 TabSelect
 "
 this
-false
 )
 ;
 tabContainer
@@ -3134,7 +3122,6 @@ toggleEventListener
 TabClose
 "
 this
-false
 )
 ;
 document
@@ -3146,7 +3133,6 @@ toggleEventListener
 keypress
 "
 this
-false
 )
 ;
 gBrowser
