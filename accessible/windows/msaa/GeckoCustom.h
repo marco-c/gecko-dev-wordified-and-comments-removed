@@ -55,6 +55,15 @@ aAcc
 {
 }
 DECL_IUNKNOWN
+virtual
+STDMETHODIMP
+get_anchorCount
+(
+long
+*
+aCount
+)
+;
 private
 :
 GeckoCustom
