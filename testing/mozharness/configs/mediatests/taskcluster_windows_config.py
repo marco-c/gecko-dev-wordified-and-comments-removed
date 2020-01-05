@@ -358,11 +358,9 @@ options
 [
                 
 "
-%
-(
+{
 test_manifest
-)
-s
+}
 "
             
 ]

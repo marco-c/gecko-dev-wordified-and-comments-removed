@@ -152,8 +152,8 @@ mozinstall
 :
 [
 '
-%
-s
+{
+}
 /
 build
 /
@@ -163,16 +163,19 @@ scripts
 /
 python
 '
-%
+.
+format
+(
 os
 .
 getcwd
 (
 )
+)
                        
 '
-%
-s
+{
+}
 /
 build
 /
@@ -186,11 +189,14 @@ script
 .
 py
 '
-%
+.
+format
+(
 os
 .
 getcwd
 (
+)
 )
 ]
         
@@ -436,11 +442,9 @@ options
 [
                 
 "
-%
-(
+{
 test_manifest
-)
-s
+}
 "
             
 ]
