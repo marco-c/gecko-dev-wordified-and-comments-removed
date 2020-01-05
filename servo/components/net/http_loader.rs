@@ -260,6 +260,8 @@ ssl
 :
 :
 {
+SSL_OP_NO_SSLV2
+SSL_OP_NO_SSLV3
 SSL_VERIFY_PEER
 SslContext
 SslMethod
@@ -683,6 +685,15 @@ DEFAULT_CIPHERS
 .
 unwrap
 (
+)
+;
+context
+.
+set_options
+(
+SSL_OP_NO_SSLV2
+|
+SSL_OP_NO_SSLV3
 )
 ;
 let
