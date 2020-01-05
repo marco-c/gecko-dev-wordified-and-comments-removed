@@ -67,6 +67,13 @@ PreferredSampleRate
 (
 )
 ;
+uint32_t
+PreferredChannelMap
+(
+uint32_t
+aChannels
+)
+;
 void
 PrefChanged
 (
