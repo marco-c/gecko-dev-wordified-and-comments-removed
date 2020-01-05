@@ -94,7 +94,6 @@ MediaThreadType
 :
 PLAYBACK
 )
-aAbstractMainThread
 false
 )
 )
