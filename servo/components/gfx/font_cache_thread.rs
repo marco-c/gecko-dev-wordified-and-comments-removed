@@ -214,7 +214,10 @@ font_family
 computed_value
 :
 :
+{
 FontFamily
+FamilyName
+}
 ;
 use
 webrender_traits
@@ -1774,11 +1777,10 @@ LowercaseString
 :
 new
 (
+&
 font
 .
-name
-(
-)
+0
 )
 ;
 let
@@ -2983,7 +2985,7 @@ add_web_font
 self
 family
 :
-FontFamily
+FamilyName
 sources
 :
 EffectiveSources
@@ -3012,11 +3014,10 @@ LowercaseString
 :
 new
 (
+&
 family
 .
-name
-(
-)
+0
 )
 sources
 sender

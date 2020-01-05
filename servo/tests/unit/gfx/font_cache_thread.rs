@@ -23,7 +23,10 @@ computed_values
 font_family
 :
 :
+{
 FontFamily
+FamilyName
+}
 ;
 use
 style
@@ -95,9 +98,6 @@ None
 let
 family_name
 =
-FontFamily
-:
-:
 FamilyName
 (
 From
@@ -115,9 +115,6 @@ family
 let
 variant_name
 =
-FontFamily
-:
-:
 FamilyName
 (
 From
