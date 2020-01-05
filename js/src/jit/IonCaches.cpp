@@ -1677,11 +1677,9 @@ script_
 )
 ;
 }
+static
 void
 *
-jit
-:
-:
 GetReturnAddressToIonCode
 (
 JSContext

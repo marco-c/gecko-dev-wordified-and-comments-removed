@@ -59411,7 +59411,7 @@ ICStubCompiler
 Engine
 :
 :
-IonSharedIC
+IonMonkey
 )
 ;
 stub
@@ -59450,7 +59450,7 @@ ICStubCompiler
 Engine
 :
 :
-IonSharedIC
+IonMonkey
 )
 ;
 stub
@@ -59489,7 +59489,7 @@ ICStubCompiler
 Engine
 :
 :
-IonSharedIC
+IonMonkey
 )
 ;
 stub
@@ -59528,7 +59528,7 @@ ICStubCompiler
 Engine
 :
 :
-IonSharedIC
+IonMonkey
 )
 ;
 stub
@@ -59622,7 +59622,7 @@ ICStubCompiler
 Engine
 :
 :
-IonSharedIC
+IonMonkey
 )
 ;
 stub
@@ -59661,7 +59661,7 @@ ICStubCompiler
 Engine
 :
 :
-IonSharedIC
+IonMonkey
 )
 ;
 stub
@@ -63535,7 +63535,6 @@ id
 output
 maybeTemp
 monitoredResult
-allowDoubleResult
 )
 ;
 addIC
