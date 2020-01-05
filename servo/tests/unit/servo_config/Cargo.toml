@@ -4,7 +4,7 @@ package
 name
 =
 "
-util_tests
+servo_config_tests
 "
 version
 =
@@ -40,7 +40,7 @@ lib
 name
 =
 "
-util_tests
+servo_config_tests
 "
 path
 =
@@ -55,7 +55,7 @@ false
 [
 dependencies
 ]
-util
+servo_config
 =
 {
 path
@@ -72,6 +72,6 @@ path
 /
 components
 /
-util
+config
 "
 }

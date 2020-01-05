@@ -12,6 +12,12 @@ Profile
 }
 ;
 use
+servo_config
+:
+:
+resource_files
+;
+use
 std
 :
 :
@@ -19,12 +25,6 @@ path
 :
 :
 PathBuf
-;
-use
-util
-:
-:
-resource_files
 ;
 #
 [

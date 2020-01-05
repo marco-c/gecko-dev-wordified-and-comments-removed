@@ -273,6 +273,12 @@ num_traits
 Float
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 std
 :
 :
@@ -282,12 +288,6 @@ mem
 ptr
 slice
 }
-;
-use
-util
-:
-:
-opts
 ;
 pub
 trait

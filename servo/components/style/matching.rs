@@ -141,6 +141,12 @@ StyleRelations
 }
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 sink
 :
 :
@@ -187,12 +193,6 @@ stylist
 :
 :
 ApplicableDeclarationBlock
-;
-use
-util
-:
-:
-opts
 ;
 fn
 create_common_style_affecting_attributes_from_element

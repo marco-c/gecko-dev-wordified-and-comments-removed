@@ -96,6 +96,14 @@ script_traits
 ;
 extern
 crate
+servo_config
+;
+extern
+crate
+servo_geometry
+;
+extern
+crate
 servo_url
 ;
 extern
@@ -109,10 +117,6 @@ net_traits
 extern
 crate
 msg
-;
-extern
-crate
-util
 ;
 extern
 crate

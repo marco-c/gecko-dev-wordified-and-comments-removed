@@ -39,6 +39,12 @@ c_void
 }
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 std
 :
 :
@@ -49,12 +55,6 @@ std
 :
 :
 str
-;
-use
-util
-:
-:
-opts
 ;
 const
 MAX_RENDERING_THREADS

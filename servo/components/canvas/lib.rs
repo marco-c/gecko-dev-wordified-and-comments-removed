@@ -64,7 +64,7 @@ offscreen_gl_context
 ;
 extern
 crate
-util
+servo_config
 ;
 extern
 crate

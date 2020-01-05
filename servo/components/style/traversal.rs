@@ -82,6 +82,12 @@ matching
 StyleRelations
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 std
 :
 :
@@ -126,12 +132,6 @@ stylist
 :
 :
 Stylist
-;
-use
-util
-:
-:
-opts
 ;
 pub
 type

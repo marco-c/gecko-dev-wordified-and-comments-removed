@@ -11,7 +11,7 @@ JSContext
 }
 ;
 use
-util
+servo_config
 :
 :
 prefs

@@ -11,7 +11,7 @@ str
 DOMString
 ;
 use
-util
+servo_config
 :
 :
 opts

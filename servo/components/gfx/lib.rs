@@ -338,6 +338,10 @@ serde_derive
 ;
 extern
 crate
+servo_geometry
+;
+extern
+crate
 servo_url
 ;
 #
@@ -390,10 +394,6 @@ time
 extern
 crate
 unicode_script
-;
-extern
-crate
-util
 ;
 extern
 crate

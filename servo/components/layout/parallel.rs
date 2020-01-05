@@ -50,6 +50,12 @@ use
 rayon
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 std
 :
 :
@@ -102,12 +108,6 @@ traversal
 :
 :
 AssignBSizes
-;
-use
-util
-:
-:
-opts
 ;
 pub
 use

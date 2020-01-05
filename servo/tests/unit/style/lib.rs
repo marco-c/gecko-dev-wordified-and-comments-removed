@@ -83,6 +83,10 @@ servo_atoms
 ;
 extern
 crate
+servo_config
+;
+extern
+crate
 servo_url
 ;
 extern
@@ -92,10 +96,6 @@ style
 extern
 crate
 style_traits
-;
-extern
-crate
-util
 ;
 mod
 atomic_refcell

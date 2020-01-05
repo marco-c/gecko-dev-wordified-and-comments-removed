@@ -256,6 +256,12 @@ range
 Range
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 servo_url
 :
 :
@@ -500,12 +506,6 @@ table_cell
 :
 :
 CollapsedBordersForCell
-;
-use
-util
-:
-:
-opts
 ;
 use
 webrender_traits

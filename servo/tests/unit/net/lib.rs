@@ -62,6 +62,10 @@ profile_traits
 ;
 extern
 crate
+servo_config
+;
+extern
+crate
 servo_url
 ;
 extern
@@ -75,10 +79,6 @@ unicase
 extern
 crate
 url
-;
-extern
-crate
-util
 ;
 #
 [

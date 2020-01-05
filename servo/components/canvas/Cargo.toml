@@ -163,7 +163,7 @@ path
 plugins
 "
 }
-util
+servo_config
 =
 {
 path
@@ -172,7 +172,7 @@ path
 .
 .
 /
-util
+config
 "
 }
 [

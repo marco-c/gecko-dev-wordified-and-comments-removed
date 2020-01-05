@@ -75,6 +75,11 @@ url
 /
 heap_size
 "
+"
+url
+/
+serde
+"
 ]
 [
 dependencies

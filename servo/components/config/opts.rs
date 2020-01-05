@@ -8,12 +8,6 @@ size
 TypedSize2D
 ;
 use
-geometry
-:
-:
-ScreenPx
-;
-use
 getopts
 :
 :
@@ -37,6 +31,12 @@ resource_files
 :
 :
 set_resources_path
+;
+use
+servo_geometry
+:
+:
+ScreenPx
 ;
 use
 servo_url

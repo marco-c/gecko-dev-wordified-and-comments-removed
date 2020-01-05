@@ -13,6 +13,12 @@ use
 rayon
 ;
 use
+servo_config
+:
+:
+opts
+;
+use
 std
 :
 :
@@ -42,12 +48,6 @@ traversal
 STYLE_SHARING_CACHE_HITS
 STYLE_SHARING_CACHE_MISSES
 }
-;
-use
-util
-:
-:
-opts
 ;
 pub
 const
