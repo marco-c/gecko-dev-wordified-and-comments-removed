@@ -1340,6 +1340,16 @@ layer_type
 )
 ;
 void
+Gecko_EnsureStyleAnimationArrayLength
+(
+void
+*
+array
+size_t
+len
+)
+;
+void
 Gecko_ResetStyleCoord
 (
 nsStyleUnit
