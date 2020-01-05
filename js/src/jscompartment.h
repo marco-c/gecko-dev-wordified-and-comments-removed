@@ -3073,12 +3073,6 @@ sweepTemplateLiteralMap
 void
 sweepGlobalObject
 (
-js
-:
-:
-FreeOp
-*
-fop
 )
 ;
 void

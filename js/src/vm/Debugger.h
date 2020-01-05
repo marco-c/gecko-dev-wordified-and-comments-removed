@@ -783,6 +783,13 @@ sweep
 (
 )
 {
+MOZ_ASSERT
+(
+CurrentThreadIsPerformingGC
+(
+)
+)
+;
 for
 (
 Enum
@@ -846,7 +853,7 @@ key
 )
 -
 >
-zone
+zoneFromAnyThread
 (
 )
 )
