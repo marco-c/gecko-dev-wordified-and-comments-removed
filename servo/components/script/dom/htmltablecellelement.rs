@@ -324,6 +324,7 @@ SetColSpan
 "
 colspan
 "
+DEFAULT_COLSPAN
 )
 ;
 fn
