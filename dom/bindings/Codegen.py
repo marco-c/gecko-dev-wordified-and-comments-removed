@@ -37614,13 +37614,13 @@ fill
             
 {
               
-bool
-ok
-;
-              
 int
 index
-=
+;
+              
+if
+(
+!
 FindEnumStringIndex
 <
 {
@@ -37646,14 +37646,8 @@ sourceDescription
 }
 "
 &
-ok
+index
 )
-;
-              
-if
-(
-!
-ok
 )
 {
                 
