@@ -1454,14 +1454,6 @@ NS_IsMainThread
 )
 )
 ;
-LOG
-(
-"
-Sampler
-started
-"
-)
-;
 #
 if
 defined

@@ -545,7 +545,7 @@ NULL
 }
 static
 void
-AddActiveSampler
+StartSampler
 (
 )
 {
@@ -554,6 +554,12 @@ MOZ_RELEASE_ASSERT
 NS_IsMainThread
 (
 )
+)
+;
+MOZ_RELEASE_ASSERT
+(
+!
+mInstance
 )
 ;
 if
@@ -583,7 +589,7 @@ Start
 }
 static
 void
-RemoveActiveSampler
+StopSampler
 (
 )
 {
@@ -1124,6 +1130,9 @@ threadInfo
 =
 aThreadInfo
 ;
+#
+undef
+REGISTER_FIELD
 Tick
 (
 sample
@@ -1156,9 +1165,6 @@ SamplerThread
 ;
 }
 ;
-#
-undef
-REGISTER_FIELD
 SamplerThread
 *
 SamplerThread
@@ -1174,6 +1180,13 @@ PlatformStart
 (
 )
 {
+MOZ_RELEASE_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 MOZ_ASSERT
 (
 !
@@ -1187,7 +1200,7 @@ true
 SamplerThread
 :
 :
-AddActiveSampler
+StartSampler
 (
 )
 ;
@@ -1198,6 +1211,13 @@ PlatformStop
 (
 )
 {
+MOZ_RELEASE_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 MOZ_ASSERT
 (
 gIsActive
@@ -1210,7 +1230,7 @@ false
 SamplerThread
 :
 :
-RemoveActiveSampler
+StopSampler
 (
 )
 ;
