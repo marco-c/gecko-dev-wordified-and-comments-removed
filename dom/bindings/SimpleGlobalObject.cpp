@@ -340,12 +340,8 @@ setInvisibleToDebugger
 true
 )
 .
-setZone
+setSystemZone
 (
-JS
-:
-:
-SystemZone
 )
 ;
 if

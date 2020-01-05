@@ -551,9 +551,9 @@ MOZ_IS_CLASS_INIT
 nsresult
 Initialize
 (
-JSContext
+JSRuntime
 *
-aParentContext
+aParentRuntime
 uint32_t
 aMaxBytes
 uint32_t

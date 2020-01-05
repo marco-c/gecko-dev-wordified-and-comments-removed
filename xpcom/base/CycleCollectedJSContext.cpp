@@ -2070,9 +2070,9 @@ CycleCollectedJSContext
 :
 Initialize
 (
-JSContext
+JSRuntime
 *
-aParentContext
+aParentRuntime
 uint32_t
 aMaxBytes
 uint32_t
@@ -2115,7 +2115,7 @@ JS_NewContext
 (
 aMaxBytes
 aMaxNurseryBytes
-aParentContext
+aParentRuntime
 )
 ;
 if

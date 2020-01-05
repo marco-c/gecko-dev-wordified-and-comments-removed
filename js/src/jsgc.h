@@ -3860,12 +3860,6 @@ NewCompartment
 JSContext
 *
 cx
-JS
-:
-:
-Zone
-*
-zone
 JSPrincipals
 *
 principals

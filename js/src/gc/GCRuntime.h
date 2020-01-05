@@ -3686,6 +3686,13 @@ Zone
 >
 systemZone
 ;
+UnprotectedData
+<
+ZoneGroup
+*
+>
+systemZoneGroup
+;
 ActiveThreadOrGCTaskData
 <
 ZoneGroupVector

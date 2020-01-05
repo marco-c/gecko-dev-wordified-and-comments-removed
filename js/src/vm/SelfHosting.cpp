@@ -16832,12 +16832,8 @@ creationOptions
 (
 )
 .
-setZone
+setNewZoneInSystemZoneGroup
 (
-JS
-:
-:
-FreshZone
 )
 ;
 options
@@ -16858,7 +16854,6 @@ compartment
 NewCompartment
 (
 cx
-nullptr
 nullptr
 options
 )
