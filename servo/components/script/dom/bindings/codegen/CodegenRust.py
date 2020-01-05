@@ -39225,11 +39225,6 @@ webIDLFile
 webIDLFile
 )
         
-cgthings
-=
-[
-]
-        
 mainCallbacks
 =
 config
@@ -39256,6 +39251,38 @@ isCallback
 True
 )
         
+enums
+=
+config
+.
+getEnums
+(
+webIDLFile
+)
+        
+if
+not
+(
+descriptors
+or
+dictionaries
+or
+mainCallbacks
+or
+callbackDescriptors
+or
+enums
+)
+:
+            
+self
+.
+root
+=
+None
+            
+return
+        
 cgthings
 =
 [
@@ -39266,12 +39293,7 @@ e
 for
 e
 in
-config
-.
-getEnums
-(
-webIDLFile
-)
+enums
 ]
         
 cgthings
@@ -40606,6 +40628,16 @@ define
 self
 )
 :
+        
+if
+not
+self
+.
+root
+:
+            
+return
+None
         
 return
 stripTrailingWhitespace
