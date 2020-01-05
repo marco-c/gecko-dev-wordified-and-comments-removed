@@ -167,7 +167,9 @@ WRBridge
 )
 -
 >
-SendDPPushRect
+AddWebRenderCommand
+(
+OpDPPushRect
 (
 toWrRect
 (
@@ -189,6 +191,7 @@ b
 mColor
 .
 a
+)
 )
 ;
 }

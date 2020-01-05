@@ -2759,6 +2759,13 @@ PWebRenderBridge
 .
 ipdl
 '
+'
+ipc
+/
+WebRenderMessages
+.
+ipdlh
+'
 ]
 include
 (

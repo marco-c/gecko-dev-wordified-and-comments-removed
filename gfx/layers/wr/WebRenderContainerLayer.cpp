@@ -132,8 +132,11 @@ WRBridge
 )
 -
 >
-SendPushDLBuilder
+AddWebRenderCommand
 (
+OpPushDLBuilder
+(
+)
 )
 ;
 for
@@ -161,7 +164,9 @@ WRBridge
 )
 -
 >
-SendPopDLBuilder
+AddWebRenderCommand
+(
+OpPopDLBuilder
 (
 toWrRect
 (
@@ -176,6 +181,7 @@ FrameMetrics
 :
 :
 NULL_SCROLL_ID
+)
 )
 ;
 }
@@ -269,7 +275,9 @@ WRBridge
 )
 -
 >
-SendDPPushIframe
+AddWebRenderCommand
+(
+OpDPPushIframe
 (
 toWrRect
 (
@@ -280,6 +288,7 @@ toWrRect
 relBounds
 )
 mId
+)
 )
 ;
 }
