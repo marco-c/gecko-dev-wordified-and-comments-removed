@@ -2016,17 +2016,6 @@ promise
 mKeys
 -
 >
-ConnectPendingPromiseIdWithToken
-(
-pid
-Token
-(
-)
-)
-;
-mKeys
--
->
 GetCDMProxy
 (
 )
