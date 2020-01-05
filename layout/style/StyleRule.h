@@ -1382,14 +1382,6 @@ Clone
 const
 override
 ;
-virtual
-nsIDOMCSSRule
-*
-GetDOMRule
-(
-)
-override
-;
 #
 ifdef
 DEBUG
