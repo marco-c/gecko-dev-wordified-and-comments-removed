@@ -3594,6 +3594,12 @@ AutoLockForExclusiveAccess
 lock
 )
 ;
+bool
+allCCVisibleZonesWereCollected
+(
+)
+const
+;
 void
 sweepZones
 (

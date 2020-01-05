@@ -903,6 +903,17 @@ runtime
 ;
 MOZ_ASSERT
 (
+!
+zone
+-
+>
+usedByHelperThread
+(
+)
+)
+;
+MOZ_ASSERT
+(
 thing
 -
 >
