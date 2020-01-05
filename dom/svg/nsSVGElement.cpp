@@ -1204,7 +1204,7 @@ Type
 nsAttrValue
 :
 :
-eGeckoCSSDeclaration
+eCSSDeclaration
 )
 {
 nsAttrValue

@@ -95,6 +95,13 @@ namespace
 mozilla
 {
 namespace
+css
+{
+class
+Declaration
+;
+}
+namespace
 dom
 {
 class
