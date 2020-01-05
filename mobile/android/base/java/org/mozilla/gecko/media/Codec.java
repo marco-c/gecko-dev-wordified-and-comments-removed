@@ -1144,6 +1144,8 @@ onRelease
 (
 Sample
 sample
+boolean
+render
 )
 {
 Integer
@@ -1221,7 +1223,7 @@ mCodec
 releaseOutputBuffer
 (
 i
-true
+render
 )
 ;
 mSamplePool
@@ -2298,6 +2300,8 @@ releaseOutput
 (
 Sample
 sample
+boolean
+render
 )
 {
 mOutputProcessor
@@ -2305,6 +2309,7 @@ mOutputProcessor
 onRelease
 (
 sample
+render
 )
 ;
 }

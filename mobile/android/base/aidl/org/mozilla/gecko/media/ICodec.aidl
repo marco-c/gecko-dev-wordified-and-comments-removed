@@ -201,6 +201,9 @@ releaseOutput
 in
 Sample
 sample
+in
+boolean
+render
 )
 ;
 }
