@@ -2209,7 +2209,7 @@ A
 named
 tuple
 '
-yt_state_info
+player_state_info
 '
 derived
 from
@@ -2630,7 +2630,8 @@ We
 do
         
 this
-allin
+all
+in
 one
 so
 that
@@ -3461,10 +3462,10 @@ _last_seen_player_state
 field
 )
 )
-                        
 .
 encode
 (
+                    
 '
 ascii
 '
