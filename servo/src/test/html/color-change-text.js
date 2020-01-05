@@ -6,6 +6,8 @@ function
 (
 )
 {
+window
+.
 document
 .
 getElementsByTagName
