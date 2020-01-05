@@ -84,6 +84,9 @@ Au
 "
 parse_non_negative
 "
+animatable
+=
+True
 )
 }
 %

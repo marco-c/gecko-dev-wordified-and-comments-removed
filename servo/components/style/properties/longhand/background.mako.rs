@@ -88,6 +88,9 @@ transparent
 *
 /
 "
+animatable
+=
+True
 )
 }
 <
@@ -101,6 +104,11 @@ name
 background
 -
 image
+"
+animatable
+=
+"
+False
 "
 >
 use
@@ -587,6 +595,11 @@ name
 background
 -
 position
+"
+animatable
+=
+"
+True
 "
 >
 use
@@ -1377,6 +1390,9 @@ no
 -
 repeat
 "
+animatable
+=
+False
 )
 }
 {
@@ -1409,6 +1425,9 @@ else
 "
 "
 )
+animatable
+=
+False
 )
 }
 {
@@ -1432,6 +1451,9 @@ content
 -
 box
 "
+animatable
+=
+False
 )
 }
 {
@@ -1455,6 +1477,9 @@ content
 -
 box
 "
+animatable
+=
+False
 )
 }
 <
@@ -1468,6 +1493,11 @@ name
 background
 -
 size
+"
+animatable
+=
+"
+True
 "
 >
 use

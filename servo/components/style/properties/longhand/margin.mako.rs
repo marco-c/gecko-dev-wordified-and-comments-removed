@@ -81,6 +81,9 @@ Au
 )
 )
 "
+animatable
+=
+True
 )
 }
 %

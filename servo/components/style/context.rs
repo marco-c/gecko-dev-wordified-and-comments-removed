@@ -140,6 +140,9 @@ Mutex
 Sender
 <
 Animation
+<
+Impl
+>
 >
 >
 pub
@@ -159,6 +162,9 @@ OpaqueNode
 Vec
 <
 Animation
+<
+Impl
+>
 >
 >
 >
@@ -176,6 +182,9 @@ OpaqueNode
 Vec
 <
 Animation
+<
+Impl
+>
 >
 >
 >

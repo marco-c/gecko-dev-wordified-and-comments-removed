@@ -89,6 +89,9 @@ gecko_constant_prefix
 "
 NS_STYLE_BOX_ALIGN
 "
+animatable
+=
+False
 )
 }
 {
@@ -125,5 +128,8 @@ gecko_ffi_name
 "
 mBoxFlex
 "
+animatable
+=
+False
 )
 }

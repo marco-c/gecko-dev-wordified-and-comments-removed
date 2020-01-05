@@ -1,4 +1,7 @@
 use
+animation
+;
+use
 context
 ;
 use
@@ -67,6 +70,18 @@ context
 :
 :
 SharedStyleContext
+<
+ServoSelectorImpl
+>
+;
+pub
+type
+Animation
+=
+animation
+:
+:
+Animation
 <
 ServoSelectorImpl
 >

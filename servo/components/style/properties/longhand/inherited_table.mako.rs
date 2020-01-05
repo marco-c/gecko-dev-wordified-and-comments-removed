@@ -57,6 +57,9 @@ gecko_constant_prefix
 "
 NS_STYLE_BORDER
 "
+animatable
+=
+False
 )
 }
 {
@@ -78,6 +81,9 @@ gecko_constant_prefix
 "
 NS_STYLE_TABLE_EMPTY_CELLS
 "
+animatable
+=
+False
 )
 }
 {
@@ -106,6 +112,9 @@ bottom
 -
 outside
 "
+animatable
+=
+False
 )
 }
 <
@@ -119,6 +128,11 @@ name
 border
 -
 spacing
+"
+animatable
+=
+"
+False
 "
 >
 use
