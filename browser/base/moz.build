@@ -283,6 +283,17 @@ content
 /
 test
 /
+webextensions
+/
+browser
+.
+ini
+'
+'
+content
+/
+test
+/
 webrtc
 /
 browser

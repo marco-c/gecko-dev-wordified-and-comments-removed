@@ -52,7 +52,7 @@ content
 /
 test
 /
-general
+webextensions
 /
 browser_webext_update2
 .
@@ -137,7 +137,7 @@ content
 /
 test
 /
-general
+webextensions
 /
 browser_webext_update_icon2
 .
@@ -222,7 +222,7 @@ content
 /
 test
 /
-general
+webextensions
 /
 browser_webext_update_perms2
 .
@@ -307,7 +307,7 @@ content
 /
 test
 /
-general
+webextensions
 /
 browser_legacy_webext
 .

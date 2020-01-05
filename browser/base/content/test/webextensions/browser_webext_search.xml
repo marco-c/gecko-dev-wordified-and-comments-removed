@@ -217,7 +217,7 @@ content
 /
 test
 /
-general
+webextensions
 /
 browser_webext_permissions
 .
@@ -422,7 +422,7 @@ content
 /
 test
 /
-general
+webextensions
 /
 browser_webext_nopermissions
 .

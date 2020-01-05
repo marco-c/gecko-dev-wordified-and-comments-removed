@@ -46,7 +46,7 @@ content
 /
 test
 /
-general
+webextensions
 "
 ;
 const
