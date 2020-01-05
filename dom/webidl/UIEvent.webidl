@@ -259,10 +259,6 @@ attribute
 long
 rangeOffset
 ;
-attribute
-boolean
-cancelBubble
-;
 readonly
 attribute
 boolean

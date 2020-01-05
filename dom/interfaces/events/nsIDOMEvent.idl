@@ -1430,6 +1430,10 @@ attribute
 boolean
 isTrusted
 ;
+attribute
+boolean
+cancelBubble
+;
 [
 noscript
 ]

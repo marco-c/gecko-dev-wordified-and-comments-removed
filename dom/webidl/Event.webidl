@@ -326,6 +326,10 @@ boolean
 cancelable
 )
 ;
+attribute
+boolean
+cancelBubble
+;
 }
 ;
 /
