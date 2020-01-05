@@ -3063,6 +3063,11 @@ nscoord
 )
 NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 (
+BClampMarginBoxMinSizeProperty
+nscoord
+)
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
+(
 IBaselinePadProperty
 nscoord
 )
