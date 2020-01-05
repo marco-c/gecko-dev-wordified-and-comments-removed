@@ -13055,9 +13055,6 @@ static
 void
 NormalizeUSVStringInternal
 (
-JSContext
-*
-aCx
 T
 &
 aString
@@ -13155,9 +13152,6 @@ enumerated
 void
 NormalizeUSVString
 (
-JSContext
-*
-aCx
 nsAString
 &
 aString
@@ -13165,7 +13159,6 @@ aString
 {
 NormalizeUSVStringInternal
 (
-aCx
 aString
 )
 ;
@@ -13173,9 +13166,6 @@ aString
 void
 NormalizeUSVString
 (
-JSContext
-*
-aCx
 binding_detail
 :
 :
@@ -13186,7 +13176,6 @@ aString
 {
 NormalizeUSVStringInternal
 (
-aCx
 aString
 )
 ;
