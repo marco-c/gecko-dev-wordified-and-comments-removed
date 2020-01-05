@@ -140,8 +140,8 @@ PromiseHandlerIdentity
 =
 0
 PromiseHandlerThrower
-PromiseHandlerAwaitFulfilled
-PromiseHandlerAwaitRejected
+PromiseHandlerAsyncFunctionAwaitFulfilled
+PromiseHandlerAsyncFunctionAwaitRejected
 }
 ;
 enum
@@ -618,7 +618,7 @@ REACTION_FLAG_IGNORE_DEFAULT_RESOLUTION
 0x4
 #
 define
-REACTION_FLAG_AWAIT
+REACTION_FLAG_ASYNC_FUNCTION_AWAIT
 0x8
 class
 PromiseReactionRecord
@@ -813,7 +813,7 @@ flags
 ;
 }
 void
-setIsAwait
+setIsAsyncFunctionAwait
 (
 )
 {
@@ -830,7 +830,7 @@ flags
 flags
 |
 =
-REACTION_FLAG_AWAIT
+REACTION_FLAG_ASYNC_FUNCTION_AWAIT
 ;
 setFixedSlot
 (
@@ -843,7 +843,7 @@ flags
 ;
 }
 bool
-isAwait
+isAsyncFunctionAwait
 (
 )
 {
@@ -860,7 +860,7 @@ flags
 return
 flags
 &
-REACTION_FLAG_AWAIT
+REACTION_FLAG_ASYNC_FUNCTION_AWAIT
 ;
 }
 Value
@@ -3537,7 +3537,7 @@ true
 static
 MOZ_MUST_USE
 bool
-AwaitPromiseReactionJob
+AsyncFunctionAwaitPromiseReactionJob
 (
 JSContext
 *
@@ -3557,7 +3557,7 @@ MOZ_ASSERT
 reaction
 -
 >
-isAwait
+isAsyncFunctionAwait
 (
 )
 )
@@ -3641,13 +3641,13 @@ MOZ_ASSERT
 handlerNum
 =
 =
-PromiseHandlerAwaitFulfilled
+PromiseHandlerAsyncFunctionAwaitFulfilled
 |
 |
 handlerNum
 =
 =
-PromiseHandlerAwaitRejected
+PromiseHandlerAsyncFunctionAwaitRejected
 )
 ;
 if
@@ -3655,7 +3655,7 @@ if
 handlerNum
 =
 =
-PromiseHandlerAwaitFulfilled
+PromiseHandlerAsyncFunctionAwaitFulfilled
 )
 {
 if
@@ -3818,12 +3818,12 @@ if
 reaction
 -
 >
-isAwait
+isAsyncFunctionAwait
 (
 )
 )
 return
-AwaitPromiseReactionJob
+AsyncFunctionAwaitPromiseReactionJob
 (
 cx
 reaction
@@ -9210,7 +9210,7 @@ onFulfilled
 cx
 Int32Value
 (
-PromiseHandlerAwaitFulfilled
+PromiseHandlerAsyncFunctionAwaitFulfilled
 )
 )
 ;
@@ -9220,7 +9220,7 @@ onRejected
 cx
 Int32Value
 (
-PromiseHandlerAwaitRejected
+PromiseHandlerAsyncFunctionAwaitRejected
 )
 )
 ;
@@ -9274,7 +9274,7 @@ false
 reaction
 -
 >
-setIsAwait
+setIsAsyncFunctionAwait
 (
 )
 ;
