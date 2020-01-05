@@ -41,7 +41,6 @@ feature
 (
 globs
 macro_rules
-managed_boxes
 phase
 thread_local
 )

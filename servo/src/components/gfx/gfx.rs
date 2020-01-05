@@ -51,7 +51,6 @@ rlib
 feature
 (
 globs
-managed_boxes
 macro_rules
 phase
 )
