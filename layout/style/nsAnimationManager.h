@@ -558,6 +558,10 @@ AnimationChanged
 this
 )
 ;
+PostUpdate
+(
+)
+;
 }
 mAnimationIndex
 =
