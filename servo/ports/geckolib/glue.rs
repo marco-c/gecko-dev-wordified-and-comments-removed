@@ -64,7 +64,6 @@ bindings
 {
 ThreadSafePrincipalHolder
 ThreadSafeURIHolder
-nsIAtom
 }
 ;
 use
@@ -86,7 +85,10 @@ gecko_bindings
 structs
 :
 :
+{
 SheetParsingMode
+nsIAtom
+}
 ;
 use
 properties

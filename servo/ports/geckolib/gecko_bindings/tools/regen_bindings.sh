@@ -385,6 +385,7 @@ nsFont
 \
 FontFamilyList
 FontFamilyType
+nsIAtom
 do
 MAP_GECKO_TYPES
 =

@@ -209,6 +209,12 @@ structs
 FontFamilyType
 ;
 use
+structs
+:
+:
+nsIAtom
+;
+use
 heapsize
 :
 :
@@ -1109,11 +1115,6 @@ usize
 {
 0
 }
-}
-pub
-enum
-nsIAtom
-{
 }
 pub
 enum
