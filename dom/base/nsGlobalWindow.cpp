@@ -59624,7 +59624,7 @@ infoFlag
 message
 =
 "
-LargeAllocationSuccess
+LargeAllocationNonWin32
 "
 ;
 break
