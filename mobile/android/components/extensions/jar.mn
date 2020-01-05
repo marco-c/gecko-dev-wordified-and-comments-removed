@@ -86,6 +86,13 @@ content
 /
 ext
 -
+browserAction
+.
+js
+content
+/
+ext
+-
 pageAction
 .
 js
