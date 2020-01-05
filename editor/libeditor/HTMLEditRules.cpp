@@ -1535,6 +1535,13 @@ GetSelection
 ;
 if
 (
+NS_WARN_IF
+(
+!
+selection
+)
+|
+|
 !
 selection
 -
