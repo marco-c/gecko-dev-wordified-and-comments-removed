@@ -113,6 +113,12 @@ optimize_target_tasks
 '
 :
 True
+        
+'
+include_nightly
+'
+:
+False
     
 }
     
@@ -135,6 +141,12 @@ optimize_target_tasks
 '
 :
 True
+        
+'
+include_nightly
+'
+:
+False
     
 }
     
@@ -157,6 +169,12 @@ optimize_target_tasks
 '
 :
 True
+        
+'
+include_nightly
+'
+:
+False
     
 }
     
@@ -179,6 +197,12 @@ optimize_target_tasks
 '
 :
 True
+        
+'
+include_nightly
+'
+:
+False
     
 }
     
@@ -200,6 +224,12 @@ mozilla_beta_tasks
         
 '
 optimize_target_tasks
+'
+:
+True
+        
+'
+include_nightly
 '
 :
 True
@@ -227,6 +257,12 @@ optimize_target_tasks
 '
 :
 True
+        
+'
+include_nightly
+'
+:
+True
     
 }
     
@@ -249,6 +285,12 @@ optimize_target_tasks
 '
 :
 True
+        
+'
+include_nightly
+'
+:
+False
     
 }
     
@@ -271,6 +313,12 @@ optimize_target_tasks
 '
 :
 True
+        
+'
+include_nightly
+'
+:
+False
     
 }
 }

@@ -690,3 +690,14 @@ eligible
 for
 optimization
 .
+include_nightly
+If
+true
+then
+nightly
+tasks
+are
+eligible
+for
+optimization
+.
