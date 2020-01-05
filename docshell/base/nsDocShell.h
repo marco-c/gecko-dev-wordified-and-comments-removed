@@ -854,14 +854,6 @@ Value
 )
 override
 ;
-NS_IMETHOD
-IsTrackingProtectionOn
-(
-bool
-*
-)
-override
-;
 nsresult
 RestoreFromHistory
 (
@@ -2672,6 +2664,11 @@ mUseGlobalHistory
 ;
 bool
 mUseRemoteTabs
+:
+1
+;
+bool
+mUseTrackingProtection
 :
 1
 ;
