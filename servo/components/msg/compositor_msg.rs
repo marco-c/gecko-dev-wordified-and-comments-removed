@@ -348,7 +348,7 @@ Epoch
 )
 ;
 fn
-paint
+assign_painted_buffers
 (
 &
 mut

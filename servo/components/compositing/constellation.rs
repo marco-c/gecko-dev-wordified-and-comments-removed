@@ -7094,7 +7094,7 @@ debug
 "
 Constellation
 sending
-SetIds
+SetFrameTree
 "
 )
 ;
@@ -7107,7 +7107,7 @@ send
 CompositorMsg
 :
 :
-SetIds
+SetFrameTree
 (
 frame_tree
 .

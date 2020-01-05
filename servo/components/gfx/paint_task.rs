@@ -1557,7 +1557,7 @@ self
 .
 compositor
 .
-paint
+assign_painted_buffers
 (
 self
 .

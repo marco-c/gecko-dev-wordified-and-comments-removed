@@ -359,7 +359,7 @@ None
 Msg
 :
 :
-SetIds
+SetFrameTree
 (
 _
 response_chan
@@ -400,7 +400,7 @@ send
 Msg
 :
 :
-CreateOrUpdateRootLayer
+CreateOrUpdateBaseLayer
 (
 .
 .
@@ -427,7 +427,7 @@ SetLayerOrigin
 Msg
 :
 :
-Paint
+AssignPaintedBuffers
 (
 .
 .
