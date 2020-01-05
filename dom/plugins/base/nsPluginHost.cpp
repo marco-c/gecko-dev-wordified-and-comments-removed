@@ -1083,8 +1083,9 @@ nsInvalidPluginTag
 nsInvalidPluginTag
 (
 )
-{
-}
+=
+default
+;
 static
 bool
 IsTypeInList
@@ -7595,8 +7596,9 @@ virtual
 ClearDataFromSitesClosure
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
@@ -8023,8 +8025,9 @@ virtual
 GetSitesClosure
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
@@ -17380,7 +17383,7 @@ true
 ;
 while
 (
-1
+true
 )
 {
 rv
@@ -18849,11 +18852,11 @@ sRunnableListHead
 )
 ;
 }
-virtual
 ~
 nsPluginDestroyRunnable
 (
 )
+override
 {
 PR_REMOVE_LINK
 (

@@ -1240,8 +1240,9 @@ private
 UITimerCallback
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 mPreviousCount
 ;
@@ -1394,8 +1395,9 @@ OverOutElementsWrapper
 OverOutElementsWrapper
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION
 (
 OverOutElementsWrapper
@@ -16129,7 +16131,6 @@ aTarget
 )
 {
 }
-virtual
 void
 HandleEvent
 (
@@ -16137,6 +16138,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
+override
 {
 if
 (

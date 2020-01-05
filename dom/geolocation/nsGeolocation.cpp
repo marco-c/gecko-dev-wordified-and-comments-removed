@@ -420,8 +420,9 @@ private
 TimerCallbackHolder
 (
 )
-{
-}
+=
+default
+;
 WeakPtr
 <
 nsGeolocationRequest
@@ -808,8 +809,9 @@ PositionError
 PositionError
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 PositionError
 :
@@ -2835,8 +2837,9 @@ nsGeolocationService
 nsGeolocationService
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsGeolocationService
 :
