@@ -447,7 +447,7 @@ assertEq
 desc
 .
 configurable
-true
+false
 )
 ;
 assertEq

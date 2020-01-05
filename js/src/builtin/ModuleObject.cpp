@@ -2081,7 +2081,7 @@ desc
 .
 setConfigurable
 (
-true
+false
 )
 ;
 desc
