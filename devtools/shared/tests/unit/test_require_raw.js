@@ -62,7 +62,9 @@ raw
 !
 devtools
 /
-locale
+client
+/
+locales
 /
 shared
 .

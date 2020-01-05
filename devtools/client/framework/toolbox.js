@@ -390,7 +390,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 toolbox
 .

@@ -106,7 +106,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 graphs
 .

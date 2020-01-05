@@ -128,7 +128,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 har
 .

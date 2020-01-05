@@ -53,7 +53,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 startup
 .
@@ -70,7 +72,9 @@ LocalizationHelper
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 toolbox
 .
@@ -180,7 +184,9 @@ bundle
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 startup
 .
@@ -349,7 +355,9 @@ bundle
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 toolbox
 .
