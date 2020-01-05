@@ -105,6 +105,9 @@ rs
 .
 servobuild
 /
+.
+servo
+/
 tests
 /
 wpt
