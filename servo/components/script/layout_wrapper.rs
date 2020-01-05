@@ -2890,7 +2890,10 @@ self
 .
 get_attr
 (
+&
 ns
+.
+url
 name
 )
 .
@@ -5711,7 +5714,10 @@ self
 .
 get_attr
 (
+&
 ns
+.
+url
 &
 attr
 .

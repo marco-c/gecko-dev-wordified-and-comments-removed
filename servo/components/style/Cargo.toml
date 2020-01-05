@@ -334,7 +334,9 @@ selectors
 "
 0
 .
-9
+10
+.
+1
 "
 serde
 =
@@ -381,7 +383,7 @@ version
 .
 2
 .
-23
+24
 "
 features
 =

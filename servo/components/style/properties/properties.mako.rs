@@ -3457,6 +3457,9 @@ is_important
 )
 ;
 }
+try
+!
+(
 write
 !
 (
@@ -3467,6 +3470,7 @@ dest
 :
 "
 property_name
+)
 )
 ;
 /
