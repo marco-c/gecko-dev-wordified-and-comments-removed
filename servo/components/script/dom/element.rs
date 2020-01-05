@@ -1071,7 +1071,7 @@ prefix
 :
 Option
 <
-DOMString
+Atom
 >
 document
 :
@@ -5341,7 +5341,7 @@ prefix
 :
 Option
 <
-DOMString
+Atom
 >
 )
 ;
@@ -5396,7 +5396,7 @@ prefix
 :
 Option
 <
-DOMString
+Atom
 >
 cb
 :
@@ -6170,7 +6170,7 @@ prefix
 :
 Option
 <
-DOMString
+Atom
 >
 )
 {
@@ -6294,6 +6294,8 @@ format
 {
 }
 "
+&
+*
 *
 prefix
 &
@@ -6614,7 +6616,7 @@ prefix
 :
 Option
 <
-DOMString
+Atom
 >
 cb
 :
@@ -9375,18 +9377,6 @@ clone
 (
 )
 prefix
-.
-map
-(
-|
-s
-|
-s
-.
-to_owned
-(
-)
-)
 |
 attr
 |
