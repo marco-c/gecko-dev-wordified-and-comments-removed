@@ -117,6 +117,15 @@ use
 style
 :
 :
+servo
+:
+:
+SharedStyleContext
+;
+use
+style
+:
+:
 values
 :
 :
@@ -391,7 +400,7 @@ self
 _
 :
 &
-LayoutContext
+SharedStyleContext
 )
 {
 }
