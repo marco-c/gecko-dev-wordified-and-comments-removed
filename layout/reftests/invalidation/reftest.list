@@ -1268,7 +1268,7 @@ if
 (
 webrender
 )
-skip
+fails
 -
 if
 (
@@ -1288,12 +1288,6 @@ html
 about
 :
 blank
-#
-Bug
-1334036
-(
-stylo
-)
 fails
 -
 if
