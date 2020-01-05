@@ -1305,6 +1305,14 @@ aMode
 )
 const
 ;
+CSSPoint
+GetCurrentAsyncScrollOffsetInCssPixels
+(
+AsyncMode
+aMode
+)
+const
+;
 AsyncTransformComponentMatrix
 GetOverscrollTransform
 (
