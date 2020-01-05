@@ -337,10 +337,7 @@ index
 if
 (
 !
-js
-:
-:
-ToIntegerIndex
+NonStandardToIndex
 (
 cx
 v

@@ -2173,7 +2173,7 @@ DataViewObject
 *
 >
 obj
-double
+uint64_t
 offset
 bool
 *
