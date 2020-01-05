@@ -154,7 +154,6 @@ self
 traversal_data
 :
 &
-mut
 PerLevelTraversalData
 thread_local
 :
