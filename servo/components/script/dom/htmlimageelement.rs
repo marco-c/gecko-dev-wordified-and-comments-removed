@@ -899,7 +899,7 @@ new_inherited
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -961,7 +961,7 @@ new
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -1058,10 +1058,8 @@ HTMLImageElement
 :
 new
 (
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 img

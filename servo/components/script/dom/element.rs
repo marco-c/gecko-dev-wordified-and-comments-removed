@@ -1076,7 +1076,7 @@ new_inherited
 (
 local_name
 :
-DOMString
+Atom
 namespace
 :
 Namespace
@@ -1121,7 +1121,7 @@ state
 ElementState
 local_name
 :
-DOMString
+Atom
 namespace
 :
 Namespace
@@ -1153,15 +1153,7 @@ document
 )
 local_name
 :
-Atom
-:
-:
-from
-(
-&
-*
 local_name
-)
 namespace
 :
 namespace
@@ -1231,7 +1223,7 @@ new
 (
 local_name
 :
-DOMString
+Atom
 namespace
 :
 Namespace

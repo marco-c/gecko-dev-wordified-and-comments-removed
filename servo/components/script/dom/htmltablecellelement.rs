@@ -196,7 +196,7 @@ new_inherited
 (
 tag_name
 :
-DOMString
+Atom
 prefix
 :
 Option

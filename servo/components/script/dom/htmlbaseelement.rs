@@ -98,6 +98,12 @@ virtualmethods
 VirtualMethods
 ;
 use
+string_cache
+:
+:
+Atom
+;
+use
 url
 :
 :
@@ -135,7 +141,7 @@ new_inherited
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -179,7 +185,7 @@ new
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option

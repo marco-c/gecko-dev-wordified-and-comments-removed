@@ -202,7 +202,7 @@ new_inherited
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -246,7 +246,7 @@ new
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -497,10 +497,8 @@ HTMLTableRowElement
 :
 new
 (
-DOMString
-:
-:
-from
+atom
+!
 (
 "
 tr

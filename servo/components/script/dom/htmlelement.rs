@@ -494,7 +494,7 @@ new_inherited
 (
 tag_name
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -535,7 +535,7 @@ state
 ElementState
 tag_name
 :
-DOMString
+Atom
 prefix
 :
 Option
@@ -601,7 +601,7 @@ new
 (
 localName
 :
-DOMString
+Atom
 prefix
 :
 Option
