@@ -7,6 +7,8 @@ unicode_literals
 import
 re
 import
+copy
+import
 pprint
 import
 voluptuous
@@ -354,9 +356,14 @@ try
 :
         
 return
+copy
+.
+deepcopy
+(
 schema
 (
 obj
+)
 )
     
 except
