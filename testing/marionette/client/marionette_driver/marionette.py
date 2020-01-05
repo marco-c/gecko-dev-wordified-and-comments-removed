@@ -8307,14 +8307,6 @@ start_session
             
 self
 .
-timeout
-.
-reset
-(
-)
-            
-self
-.
 set_context
 (
 context
@@ -8700,14 +8692,6 @@ launched
 by
 Marionette
 "
-)
-        
-self
-.
-timeout
-.
-reset
-(
 )
         
 if
@@ -9159,14 +9143,6 @@ start_session
 session_id
 =
 session_id
-)
-        
-self
-.
-timeout
-.
-reset
-(
 )
         
 self
