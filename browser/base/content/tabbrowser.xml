@@ -32539,7 +32539,7 @@ linkedBrowser
 .
 frameLoader
 .
-partialSessionHistory
+partialSHistory
 ;
 groupedSHistory
 .
@@ -32569,7 +32569,7 @@ browser
 .
 frameLoader
 .
-groupedSessionHistory
+groupedSHistory
 ;
 if
 (
@@ -32611,7 +32611,7 @@ browser
 .
 frameLoader
 .
-groupedSessionHistory
+groupedSHistory
 ;
 if
 (

@@ -1453,7 +1453,7 @@ to
 *
 /
 void
-onPartialSessionHistoryActive
+onPartialSHistoryActive
 (
 in
 long
@@ -1485,7 +1485,7 @@ history
 *
 /
 void
-onPartialSessionHistoryDeactive
+onPartialSHistoryDeactive
 (
 )
 ;
@@ -1527,7 +1527,7 @@ object
 *
 /
 void
-onAttachGroupedSessionHistory
+onAttachGroupedSHistory
 (
 in
 long

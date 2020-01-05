@@ -5443,7 +5443,7 @@ object
 *
 /
 async
-NotifyAttachGroupedSessionHistory
+NotifyAttachGroupedSHistory
 (
 uint32_t
 aOffset
@@ -5508,7 +5508,7 @@ to
 *
 /
 async
-NotifyPartialSessionHistoryActive
+NotifyPartialSHistoryActive
 (
 uint32_t
 aGlobalLength
@@ -5544,7 +5544,7 @@ history
 *
 /
 async
-NotifyPartialSessionHistoryDeactive
+NotifyPartialSHistoryDeactive
 (
 )
 ;

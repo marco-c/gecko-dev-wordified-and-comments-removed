@@ -542,7 +542,7 @@ linkedBrowser
 .
 frameLoader
 .
-groupedSessionHistory
+groupedSHistory
 ;
 is
 (

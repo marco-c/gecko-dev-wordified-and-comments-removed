@@ -461,7 +461,7 @@ browser1
 .
 frameLoader
 .
-appendPartialSessionHistoryAndSwap
+appendPartialSHistoryAndSwap
 (
 tab2
 .

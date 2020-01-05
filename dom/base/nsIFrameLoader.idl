@@ -392,7 +392,7 @@ complete
 *
 /
 nsISupports
-appendPartialSessionHistoryAndSwap
+appendPartialSHistoryAndSwap
 (
 in
 nsIFrameLoader
@@ -1440,7 +1440,7 @@ history
 readonly
 attribute
 nsIPartialSHistory
-partialSessionHistory
+partialSHistory
 ;
 /
 *
@@ -1466,7 +1466,7 @@ docshells
 readonly
 attribute
 nsIGroupedSHistory
-groupedSessionHistory
+groupedSHistory
 ;
 /
 *

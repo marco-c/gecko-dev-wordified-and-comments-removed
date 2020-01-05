@@ -5464,7 +5464,7 @@ frameLoader
 return
 f1
 .
-appendPartialSessionHistoryAndSwap
+appendPartialSHistoryAndSwap
 (
 f2
 )
@@ -5886,7 +5886,7 @@ is
 (
 frameLoader
 .
-groupedSessionHistory
+groupedSHistory
 .
 count
 globalLength

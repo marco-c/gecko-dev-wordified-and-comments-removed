@@ -545,7 +545,7 @@ NS_IMETHODIMP
 PartialSHistory
 :
 :
-OnAttachGroupedSessionHistory
+OnAttachGroupedSHistory
 (
 nsIGroupedSHistory
 *
@@ -614,7 +614,7 @@ return
 shistory
 -
 >
-OnAttachGroupedSessionHistory
+OnAttachGroupedSHistory
 (
 aOffset
 )
@@ -660,7 +660,7 @@ Unused
 tabParent
 -
 >
-SendNotifyAttachGroupedSessionHistory
+SendNotifyAttachGroupedSHistory
 (
 aOffset
 )
@@ -801,7 +801,7 @@ return
 shistory
 -
 >
-OnPartialSessionHistoryActive
+OnPartialSHistoryActive
 (
 aGlobalLength
 aTargetLocalIndex
@@ -848,7 +848,7 @@ Unused
 tabParent
 -
 >
-SendNotifyPartialSessionHistoryActive
+SendNotifyPartialSHistoryActive
 (
 aGlobalLength
 aTargetLocalIndex
@@ -901,7 +901,7 @@ NS_FAILED
 shistory
 -
 >
-OnPartialSessionHistoryDeactive
+OnPartialSHistoryDeactive
 (
 )
 )
@@ -955,7 +955,7 @@ Unused
 tabParent
 -
 >
-SendNotifyPartialSessionHistoryDeactive
+SendNotifyPartialSHistoryDeactive
 (
 )
 ;

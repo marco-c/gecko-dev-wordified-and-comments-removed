@@ -5988,10 +5988,6 @@ if
 (
 !
 mTabParent
-|
-|
-!
-mObserverId
 )
 {
 return
@@ -15402,7 +15398,7 @@ partialHistory
 frameLoader
 -
 >
-GetPartialSessionHistory
+GetPartialSHistory
 (
 getter_AddRefs
 (

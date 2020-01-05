@@ -259,7 +259,7 @@ list
 *
 /
 void
-appendPartialSessionHistory
+appendPartialSHistory
 (
 in
 nsIPartialSHistory

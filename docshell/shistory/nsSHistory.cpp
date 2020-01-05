@@ -1745,7 +1745,7 @@ NS_IMETHODIMP
 nsSHistory
 :
 :
-OnPartialSessionHistoryActive
+OnPartialSHistoryActive
 (
 int32_t
 aGlobalLength
@@ -1804,7 +1804,7 @@ NS_IMETHODIMP
 nsSHistory
 :
 :
-OnPartialSessionHistoryDeactive
+OnPartialSHistoryDeactive
 (
 )
 {
@@ -7574,7 +7574,7 @@ NS_IMETHODIMP
 nsSHistory
 :
 :
-OnAttachGroupedSessionHistory
+OnAttachGroupedSHistory
 (
 int32_t
 aOffset

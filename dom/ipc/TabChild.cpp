@@ -7048,7 +7048,7 @@ IPCResult
 TabChild
 :
 :
-RecvNotifyAttachGroupedSessionHistory
+RecvNotifyAttachGroupedSHistory
 (
 const
 uint32_t
@@ -7099,7 +7099,7 @@ NS_FAILED
 shistory
 -
 >
-OnAttachGroupedSessionHistory
+OnAttachGroupedSHistory
 (
 aOffset
 )
@@ -7129,7 +7129,7 @@ IPCResult
 TabChild
 :
 :
-RecvNotifyPartialSessionHistoryActive
+RecvNotifyPartialSHistoryActive
 (
 const
 uint32_t
@@ -7189,7 +7189,7 @@ NS_FAILED
 shistory
 -
 >
-OnPartialSessionHistoryActive
+OnPartialSHistoryActive
 (
 aGlobalLength
 aTargetLocalIndex
@@ -7220,7 +7220,7 @@ IPCResult
 TabChild
 :
 :
-RecvNotifyPartialSessionHistoryDeactive
+RecvNotifyPartialSHistoryDeactive
 (
 )
 {
@@ -7250,7 +7250,7 @@ NS_FAILED
 shistory
 -
 >
-OnPartialSessionHistoryDeactive
+OnPartialSHistoryDeactive
 (
 )
 )
