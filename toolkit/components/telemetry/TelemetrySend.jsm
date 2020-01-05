@@ -4331,8 +4331,8 @@ nsIChannel
 .
 LOAD_CLASSIFY_URI
 ;
-let
-startTime
+const
+monotonicStartTime
 =
 monotonicNow
 (
@@ -4403,7 +4403,7 @@ this
 _onPingRequestFinished
 (
 success
-startTime
+monotonicStartTime
 id
 isPersisted
 )
@@ -4788,6 +4788,7 @@ UTF
 8
 "
 ;
+let
 startTime
 =
 new
