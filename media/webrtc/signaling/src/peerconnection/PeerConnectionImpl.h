@@ -3464,6 +3464,9 @@ mAllowIceLoopback
 bool
 mAllowIceLinkLocal
 ;
+bool
+mForceIceTcp
+;
 RefPtr
 <
 PeerConnectionMedia

@@ -1223,6 +1223,9 @@ const
 JsepSession
 &
 aSession
+const
+bool
+forceIceTcp
 )
 ;
 void
