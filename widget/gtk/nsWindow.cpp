@@ -2940,6 +2940,17 @@ DestroyCompositor
 (
 )
 ;
+#
+ifdef
+MOZ_X11
+mSurfaceProvider
+.
+CleanupResources
+(
+)
+;
+#
+endif
 ClearCachedResources
 (
 )
