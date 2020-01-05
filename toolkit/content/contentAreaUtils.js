@@ -3878,9 +3878,11 @@ aFile
 )
 {
 return
-BrowserUtils
+Services
 .
-makeFileURI
+io
+.
+newFileURI
 (
 aFile
 )
