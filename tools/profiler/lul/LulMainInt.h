@@ -178,6 +178,7 @@ PfxInstr
 &
 other
 )
+const
 {
 return
 mOpcode
