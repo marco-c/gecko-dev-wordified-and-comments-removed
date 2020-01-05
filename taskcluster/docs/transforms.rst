@@ -1132,6 +1132,10 @@ mach
 *
 mozharness
 *
+mozharness
+-
+test
+*
 run
 -
 task
