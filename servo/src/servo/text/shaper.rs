@@ -93,6 +93,7 @@ hb_buffer_t
 hb_codepoint_t
 hb_bool_t
 hb_glyph_position_t
+hb_var_int_t
 }
 ;
 import
@@ -221,7 +222,9 @@ as
 int32_t
 var
 :
-0i32
+0
+as
+hb_var_int_t
 }
 ;
 let
