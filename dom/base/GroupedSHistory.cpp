@@ -8,6 +8,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Promise
+.
+h
+"
+#
+include
+"
 TabParent
 .
 h
