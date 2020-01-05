@@ -2732,6 +2732,9 @@ sweepZoneCallback
 JSCompartmentNameCallback
 compartmentNameCallback
 ;
+JSExternalStringSizeofCallback
+externalStringSizeofCallback
+;
 js
 :
 :

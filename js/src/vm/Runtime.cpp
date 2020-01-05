@@ -821,6 +821,10 @@ compartmentNameCallback
 (
 nullptr
 )
+externalStringSizeofCallback
+(
+nullptr
+)
 activityCallback
 (
 nullptr
