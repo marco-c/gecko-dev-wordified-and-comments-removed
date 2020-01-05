@@ -1575,6 +1575,16 @@ activeContextChangeProhibited
 )
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+gc
+.
+canChangeActiveContext
+(
+cx
+)
+)
+;
 activeContext_
 =
 cx

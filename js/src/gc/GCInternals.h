@@ -151,12 +151,6 @@ prevState
 AutoGeckoProfilerEntry
 pseudoFrame
 ;
-JSRuntime
-:
-:
-AutoProhibitActiveContextChange
-prohibitActiveContextChange
-;
 }
 ;
 class
