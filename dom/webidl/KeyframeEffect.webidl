@@ -366,7 +366,6 @@ required
 double
 offset
 ;
-required
 DOMString
 value
 ;
