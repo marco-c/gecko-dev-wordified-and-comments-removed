@@ -209,6 +209,13 @@ name_pool
 ;
 }
 mod
+net
+{
+mod
+uri
+;
+}
+mod
 opts
 ;
 mod
