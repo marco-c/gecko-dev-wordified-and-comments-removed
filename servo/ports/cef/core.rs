@@ -324,6 +324,9 @@ false
 show_debug_borders
 :
 false
+show_debug_fragment_borders
+:
+false
 enable_text_antialiasing
 :
 true
