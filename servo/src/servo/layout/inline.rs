@@ -46,12 +46,6 @@ gfx
 display_list
 ;
 use
-dom
-:
-:
-rcu
-;
-use
 geom
 :
 :

@@ -588,7 +588,7 @@ auxiliary
 box
 in
 the
-RCU
+COW
 model
 )
 and

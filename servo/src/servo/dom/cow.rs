@@ -7,7 +7,11 @@ str
 "
 Implements
 the
-RCU
+copy
+-
+on
+-
+write
 DOM
 -
 sharing
@@ -68,7 +72,7 @@ every
 object
 in
 the
-RCU
+COW
 pool
 has
 both
@@ -151,7 +155,7 @@ write
 scheme
 .
 Each
-RCU
+COW
 node
 maintains
 two
@@ -244,7 +248,7 @@ pointer
 #
 Using
 the
-RCU
+COW
 APIs
 as
 a
@@ -265,10 +269,10 @@ the
 memory
 and
 the
-RCU
+COW
 operations
 .
-RCU
+COW
 '
 d
 objects
@@ -294,7 +298,7 @@ To
 create
 a
 new
-RCU
+COW
 object
 you
 use
@@ -318,7 +322,7 @@ To
 write
 to
 an
-RCU
+COW
 object
 use
 scope
@@ -356,7 +360,7 @@ between
 tasks
 but
 the
-RCU
+COW
 scope
 cannot
 .
@@ -384,7 +388,7 @@ reader_joined
 to
 keep
 the
-RCU
+COW
 scope
 abreast
 of
@@ -409,7 +413,7 @@ worse
 #
 Using
 the
-RCU
+COW
 APIs
 as
 a
@@ -562,7 +566,7 @@ live
 independent
 of
 the
-RCU
+COW
 nodes
 themselves
 .
