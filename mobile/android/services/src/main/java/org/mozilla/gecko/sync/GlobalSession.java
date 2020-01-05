@@ -3075,6 +3075,9 @@ final
 CollectionKeys
 keys
 final
+long
+timestamp
+final
 KeyUploadDelegate
 keyUploadDelegate
 )
@@ -3132,7 +3135,12 @@ ifUnmodifiedSince
 )
 {
 return
-null
+Utils
+.
+millisecondsToDecimalSecondsString
+(
+timestamp
+)
 ;
 }
 Override
@@ -4512,6 +4520,7 @@ session
 uploadKeys
 (
 keys
+0L
 new
 KeyUploadDelegate
 (
