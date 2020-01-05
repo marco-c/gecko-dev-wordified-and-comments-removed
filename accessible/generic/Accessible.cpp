@@ -10769,6 +10769,11 @@ aChild
 IsDoc
 (
 )
+|
+|
+IsApplication
+(
+)
 "
 Illicit
 children
