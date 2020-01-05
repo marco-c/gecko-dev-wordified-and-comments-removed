@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsCOMArray
+nsTObserverArray
 .
 h
 "
@@ -248,10 +248,17 @@ mSortingZOrder
 bool
 mReady
 ;
-nsCOMArray
+typedef
+nsTObserverArray
+<
+nsCOMPtr
 <
 nsIWindowMediatorListener
 >
+>
+ListenerArray
+;
+ListenerArray
 mListeners
 ;
 }
