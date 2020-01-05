@@ -305,6 +305,12 @@ use
 libc
 ;
 use
+microtask
+:
+:
+Microtask
+;
+use
 msg
 :
 :
@@ -338,7 +344,6 @@ script_runtime
 :
 {
 CommonScriptMsg
-EnqueuedPromiseCallback
 ScriptChan
 ScriptPort
 }
@@ -2593,7 +2598,7 @@ unreachable
 }
 pub
 fn
-flush_promise_jobs
+perform_a_microtask_checkpoint
 (
 &
 self
@@ -2615,9 +2620,8 @@ return
 ScriptThread
 :
 :
-flush_promise_jobs
+invoke_perform_a_microtask_checkpoint
 (
-self
 )
 ;
 }
@@ -2642,7 +2646,7 @@ WorkerGlobalScope
 return
 worker
 .
-flush_promise_jobs
+perform_a_microtask_checkpoint
 (
 )
 ;
@@ -2655,13 +2659,13 @@ unreachable
 }
 pub
 fn
-enqueue_promise_job
+enqueue_microtask
 (
 &
 self
 job
 :
-EnqueuedPromiseCallback
+Microtask
 )
 {
 if
@@ -2680,10 +2684,9 @@ return
 ScriptThread
 :
 :
-enqueue_promise_job
+enqueue_microtask
 (
 job
-self
 )
 ;
 }
@@ -2708,7 +2711,7 @@ WorkerGlobalScope
 return
 worker
 .
-enqueue_promise_job
+enqueue_microtask
 (
 job
 )
