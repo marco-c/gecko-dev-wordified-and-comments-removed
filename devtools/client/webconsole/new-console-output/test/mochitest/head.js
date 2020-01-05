@@ -215,7 +215,7 @@ function
 messagesReceieved
 (
 e
-newMessage
+newMessages
 )
 {
 for
@@ -236,6 +236,14 @@ matched
 continue
 ;
 }
+for
+(
+let
+newMessage
+of
+newMessages
+)
+{
 if
 (
 newMessage
@@ -304,6 +312,9 @@ messages
 "
 )
 ;
+break
+;
+}
 }
 if
 (
