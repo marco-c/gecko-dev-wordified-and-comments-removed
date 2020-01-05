@@ -1113,11 +1113,6 @@ Exists
 )
 ;
 }
-void
-DispatchDecodeTasksIfNeeded
-(
-)
-;
 int64_t
 GetMediaTime
 (
