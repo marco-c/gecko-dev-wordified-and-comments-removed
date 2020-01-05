@@ -1702,6 +1702,13 @@ function
 reason
 )
 {
+if
+(
+this
+.
+_callback
+)
+{
 sendAsyncMessage
 (
 '
@@ -1730,6 +1737,7 @@ notifyTransportClosed
 reason
 )
 ;
+}
 }
 simulateTransportReady
 :
