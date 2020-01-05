@@ -237,6 +237,11 @@ TestOverrideBaseCall
 cpp
 '
 '
+TestOverrideBaseCallAnnotation
+.
+cpp
+'
+'
 TestRefCountedCopyConstructor
 .
 cpp
