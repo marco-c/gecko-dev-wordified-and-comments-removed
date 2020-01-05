@@ -78,10 +78,7 @@ gfx_traits
 ScrollPolicy
 ;
 use
-msg
-:
-:
-constellation_msg
+layout_traits
 :
 :
 ConvertPipelineIdToWebRender

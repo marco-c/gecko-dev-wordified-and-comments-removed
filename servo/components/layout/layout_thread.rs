@@ -249,7 +249,10 @@ use
 layout_traits
 :
 :
+{
+ConvertPipelineIdToWebRender
 LayoutThreadFactory
+}
 ;
 use
 log
@@ -263,7 +266,6 @@ constellation_msg
 :
 {
 ConstellationChan
-ConvertPipelineIdToWebRender
 PanicMsg
 PipelineId
 }

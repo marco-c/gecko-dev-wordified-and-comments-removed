@@ -247,7 +247,10 @@ use
 layout_traits
 :
 :
+{
+ConvertPipelineIdToWebRender
 LayoutControlChan
+}
 ;
 use
 msg
@@ -258,7 +261,6 @@ constellation_msg
 :
 {
 ConvertPipelineIdFromWebRender
-ConvertPipelineIdToWebRender
 Image
 PixelFormat
 }
