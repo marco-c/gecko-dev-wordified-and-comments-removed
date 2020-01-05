@@ -1201,8 +1201,9 @@ self
 .
 _depends
 =
-{
-}
+OrderedDict
+(
+)
         
 self
 .
@@ -2374,6 +2375,27 @@ template
 %
 key
 )
+        
+if
+isinstance
+(
+value
+SandboxDependsFunction
+)
+:
+            
+self
+.
+_depends
+[
+value
+]
+.
+func
+.
+__name__
+=
+key
         
 return
 super
