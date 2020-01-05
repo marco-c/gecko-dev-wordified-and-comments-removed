@@ -2111,12 +2111,9 @@ vm
 >
 CreateVRServiceTestDisplay
 (
-nsCString
-(
-ToNewUTF8String
+NS_ConvertUTF16toUTF8
 (
 aID
-)
 )
 p
 )
@@ -2220,12 +2217,9 @@ vm
 >
 CreateVRServiceTestController
 (
-nsCString
-(
-ToNewUTF8String
+NS_ConvertUTF16toUTF8
 (
 aID
-)
 )
 p
 )
