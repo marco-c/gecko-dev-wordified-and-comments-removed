@@ -1482,11 +1482,6 @@ libFuzzerRunner
 0
 ;
 }
-extern
-"
-C
-"
-MOZ_EXPORT
 void
 XRE_LibFuzzerSetMain
 (
