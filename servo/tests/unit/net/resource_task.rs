@@ -84,6 +84,7 @@ resource_task
 new_resource_task
 (
 None
+None
 )
 ;
 resource_task
@@ -115,6 +116,7 @@ resource_task
 =
 new_resource_task
 (
+None
 None
 )
 ;
@@ -164,6 +166,7 @@ LoadData
 new
 (
 url
+None
 )
 LoadConsumer
 :
@@ -2175,6 +2178,7 @@ resource_task
 new_resource_task
 (
 None
+None
 )
 ;
 let
@@ -2238,6 +2242,7 @@ LoadData
 new
 (
 url
+None
 )
 host_table
 )

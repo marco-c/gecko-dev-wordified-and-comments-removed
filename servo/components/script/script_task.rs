@@ -9635,6 +9635,12 @@ data
 cors
 :
 None
+pipeline_id
+:
+Some
+(
+id
+)
 }
 LoadConsumer
 :

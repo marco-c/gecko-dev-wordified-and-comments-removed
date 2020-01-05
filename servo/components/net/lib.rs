@@ -90,6 +90,10 @@ cookie_rs
 ;
 extern
 crate
+devtools_traits
+;
+extern
+crate
 collections
 ;
 extern
@@ -135,6 +139,10 @@ time
 extern
 crate
 url
+;
+extern
+crate
+uuid
 ;
 extern
 crate
