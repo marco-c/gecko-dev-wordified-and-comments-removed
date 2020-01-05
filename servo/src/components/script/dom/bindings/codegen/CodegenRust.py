@@ -19138,7 +19138,7 @@ Argument
 JSHandleObject
 '
 '
-obj
+_obj
 '
 )
                 
@@ -19322,20 +19322,6 @@ method
 pre
 =
 extraPre
-+
-                             
-"
-let
-obj
-=
-*
-obj
-.
-unnamed
-;
-\
-n
-"
 +
                              
 "
@@ -19674,7 +19660,7 @@ Argument
 JSHandleObject
 '
 '
-obj
+_obj
 '
 )
                  
@@ -19894,20 +19880,6 @@ attr
 pre
 =
 extraPre
-+
-                             
-"
-let
-obj
-=
-*
-obj
-.
-unnamed
-;
-\
-n
-"
 +
                              
 "
@@ -20318,7 +20290,7 @@ Argument
 JSHandleObject
 '
 '
-obj
+_obj
 '
 )
                  
@@ -20495,20 +20467,6 @@ attr
 pre
 =
 extraPre
-+
-                             
-"
-let
-obj
-=
-*
-obj
-.
-unnamed
-;
-\
-n
-"
 +
                              
 "
