@@ -16793,6 +16793,14 @@ container
 outerFrame
 )
 ;
+container
+-
+>
+AddStateBits
+(
+NS_FRAME_OWNS_ANON_BOXES
+)
+;
 auto
 outerDisplay
 =
