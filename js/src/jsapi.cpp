@@ -33655,6 +33655,8 @@ JS
 :
 MutableHandleScript
 scriptp
+size_t
+cursorIndex
 )
 {
 XDRDecoder
@@ -33662,6 +33664,7 @@ decoder
 (
 cx
 buffer
+cursorIndex
 )
 ;
 decoder
@@ -33722,6 +33725,8 @@ JS
 :
 MutableHandleFunction
 funp
+size_t
+cursorIndex
 )
 {
 XDRDecoder
@@ -33729,6 +33734,7 @@ decoder
 (
 cx
 buffer
+cursorIndex
 )
 ;
 decoder

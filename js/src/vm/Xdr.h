@@ -55,6 +55,10 @@ JS
 TranscodeBuffer
 &
 buffer
+size_t
+cursor
+=
+0
 )
 :
 context_
@@ -67,7 +71,7 @@ buffer
 )
 cursor_
 (
-0
+cursor
 )
 {
 }
@@ -310,12 +314,17 @@ JS
 TranscodeBuffer
 &
 buffer
+size_t
+cursor
+=
+0
 )
 :
 buf
 (
 cx
 buffer
+cursor
 )
 resultCode_
 (

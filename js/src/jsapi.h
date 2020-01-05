@@ -22083,6 +22083,10 @@ JS
 :
 MutableHandleScript
 scriptp
+size_t
+cursorIndex
+=
+0
 )
 ;
 extern
@@ -22103,6 +22107,10 @@ JS
 :
 MutableHandleFunction
 funp
+size_t
+cursorIndex
+=
+0
 )
 ;
 }
