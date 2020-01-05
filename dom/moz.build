@@ -391,6 +391,9 @@ performance
 '
 xhr
 '
+'
+worklet
+'
 ]
 if
 CONFIG

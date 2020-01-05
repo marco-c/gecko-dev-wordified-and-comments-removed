@@ -2947,6 +2947,11 @@ WorkerNavigator
 webidl
 '
 '
+Worklet
+.
+webidl
+'
+'
 XMLDocument
 .
 webidl
