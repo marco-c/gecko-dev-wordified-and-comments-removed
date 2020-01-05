@@ -11168,13 +11168,7 @@ aOther
 nsStyleDisplay
 (
 )
-{
-MOZ_COUNT_DTOR
-(
-nsStyleDisplay
-)
 ;
-}
 void
 FinishStyle
 (
