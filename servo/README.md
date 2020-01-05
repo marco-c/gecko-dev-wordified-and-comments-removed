@@ -146,7 +146,11 @@ xorg
 -
 dev
 \
-msttcorefonts
+ttf
+-
+mscorefonts
+-
+installer
 gperf
 g
 +
