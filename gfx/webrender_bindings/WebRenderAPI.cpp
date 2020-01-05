@@ -1161,6 +1161,9 @@ RendererEvent
 aEvent
 )
 {
+#
+ifdef
+MOZ_ENABLE_WEBRENDER
 auto
 event
 =
@@ -1182,6 +1185,8 @@ mWrApi
 event
 )
 ;
+#
+endif
 }
 DisplayListBuilder
 :
