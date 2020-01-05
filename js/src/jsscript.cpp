@@ -1745,6 +1745,14 @@ script
 treatAsRunOnce
 (
 )
+&
+&
+script
+-
+>
+hasRunOnce
+(
+)
 )
 {
 JSCompartment
