@@ -553,13 +553,13 @@ GetURI
 const
 ;
 bool
-GetLocalURLFlag
+IsLocalRef
 (
 )
 const
 {
 return
-mLocalURLFlag
+mIsLocalRef
 ;
 }
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -608,7 +608,7 @@ bool
 mURIResolved
 ;
 bool
-mLocalURLFlag
+mIsLocalRef
 ;
 protected
 :

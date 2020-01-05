@@ -6281,7 +6281,7 @@ GetURLStructValue
 )
 -
 >
-GetLocalURLFlag
+IsLocalRef
 (
 )
 ;
