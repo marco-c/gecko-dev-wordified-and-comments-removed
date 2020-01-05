@@ -93,7 +93,7 @@ TILE_SIZE
 :
 uint
 =
-4096
+512
 ;
 pub
 struct
@@ -416,6 +416,8 @@ reverse
 and
 pop
 .
+/
+*
 if
 buffers
 .
@@ -465,6 +467,8 @@ shift
 }
 else
 {
+*
+/
 /
 /
 Create
@@ -723,7 +727,6 @@ stride
 stride
 }
 ;
-}
 let
 _
 =
