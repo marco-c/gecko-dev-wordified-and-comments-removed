@@ -537,7 +537,10 @@ border
 .
 color
 :
+SideOffsets2D
+<
 Color
+>
 }
 impl
 <
