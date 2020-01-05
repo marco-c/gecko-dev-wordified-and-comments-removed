@@ -79,6 +79,8 @@ derive
 Clone
 Debug
 Copy
+Deserialize
+Serialize
 )
 ]
 struct
@@ -1123,6 +1125,8 @@ derive
 Clone
 Debug
 Copy
+Deserialize
+Serialize
 )
 ]
 struct
@@ -1187,6 +1191,8 @@ Clone
 Eq
 Debug
 Copy
+Deserialize
+Serialize
 )
 ]
 struct
@@ -1271,6 +1277,8 @@ entry_offset
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 struct
@@ -2173,6 +2181,8 @@ offset
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2199,6 +2209,8 @@ int_range_index
 [
 derive
 (
+Deserialize
+Serialize
 RustcEncodable
 )
 ]

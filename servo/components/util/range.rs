@@ -793,6 +793,8 @@ derive
 Clone
 RustcEncodable
 Copy
+Deserialize
+Serialize
 )
 ]
 pub

@@ -21372,6 +21372,8 @@ Clone
 PartialEq
 Debug
 HeapSizeOf
+Deserialize
+Serialize
 )
 ]
 pub
@@ -21423,6 +21425,8 @@ Clone
 PartialEq
 Debug
 HeapSizeOf
+Deserialize
+Serialize
 )
 ]
 pub
@@ -27350,6 +27354,8 @@ Clone
 Debug
 PartialEq
 HeapSizeOf
+Deserialize
+Serialize
 )
 ]
 pub

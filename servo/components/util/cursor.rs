@@ -46,6 +46,8 @@ Copy
 PartialEq
 Eq
 Debug
+Deserialize
+Serialize
 )
 ]
 #

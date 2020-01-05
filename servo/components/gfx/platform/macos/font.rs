@@ -354,6 +354,7 @@ None
 }
 ;
 match
+*
 template
 .
 ctfont

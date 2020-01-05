@@ -27,6 +27,14 @@ box_syntax
 [
 feature
 (
+custom_derive
+)
+]
+#
+!
+[
+feature
+(
 filling_drop
 )
 ]
@@ -170,10 +178,6 @@ util
 ;
 extern
 crate
-rustc_serialize
-;
-extern
-crate
 azure
 ;
 extern
@@ -226,6 +230,10 @@ msg
 ;
 extern
 crate
+rustc_serialize
+;
+extern
+crate
 script
 ;
 extern
@@ -235,6 +243,10 @@ script_traits
 extern
 crate
 selectors
+;
+extern
+crate
+serde
 ;
 extern
 crate

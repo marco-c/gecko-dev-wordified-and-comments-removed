@@ -22,6 +22,14 @@ string_cache
 :
 Atom
 ;
+#
+[
+derive
+(
+Deserialize
+Serialize
+)
+]
 pub
 struct
 FontTemplateData

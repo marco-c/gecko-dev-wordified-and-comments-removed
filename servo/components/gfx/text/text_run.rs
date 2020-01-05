@@ -104,6 +104,8 @@ GlyphStore
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -148,6 +150,8 @@ GlyphRun
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub

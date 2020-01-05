@@ -316,6 +316,8 @@ spawn_named
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2184,7 +2186,6 @@ transform
 perspective
 next_parent_id
 )
-;
 }
 }
 }

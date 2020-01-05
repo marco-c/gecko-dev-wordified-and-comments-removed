@@ -65,9 +65,9 @@ vec_push_all
 #
 !
 [
-feature
+plugin
 (
-vec_push_all
+string_cache_plugin
 )
 ]
 #
@@ -75,7 +75,7 @@ vec_push_all
 [
 plugin
 (
-string_cache_plugin
+serde_macros
 )
 ]
 #
@@ -109,6 +109,10 @@ fnv
 extern
 crate
 euclid
+;
+extern
+crate
+serde
 ;
 extern
 crate
