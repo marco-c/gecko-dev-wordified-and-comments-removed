@@ -12207,7 +12207,7 @@ IsEmpty
 )
 {
 nsAutoCString
-originNoSuffix
+specNoSuffix
 ;
 OriginAttributes
 attrs
@@ -12220,7 +12220,7 @@ attrs
 PopulateFromOrigin
 (
 serializedInfo
-originNoSuffix
+specNoSuffix
 )
 )
 {
@@ -12260,7 +12260,10 @@ ipc
 ContentPrincipalInfo
 (
 attrs
-originNoSuffix
+void_t
+(
+)
+specNoSuffix
 )
 ;
 }
