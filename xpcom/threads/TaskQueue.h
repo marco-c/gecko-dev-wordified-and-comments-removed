@@ -162,7 +162,6 @@ rv
 DispatchLocked
 (
 r
-AbortIfFlushing
 aFailureHandling
 aReason
 )
@@ -243,13 +242,6 @@ AwaitIdleLocked
 (
 )
 ;
-enum
-DispatchMode
-{
-AbortIfFlushing
-IgnoreFlushing
-}
-;
 nsresult
 DispatchLocked
 (
@@ -259,8 +251,6 @@ nsIRunnable
 >
 &
 aRunnable
-DispatchMode
-aMode
 DispatchFailureHandling
 aFailureHandling
 DispatchReason

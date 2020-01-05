@@ -135,7 +135,6 @@ mTaskQueue
 DispatchLocked
 (
 runnable
-AbortIfFlushing
 DontAssertDispatchSuccess
 NormalDispatch
 )
@@ -304,8 +303,6 @@ nsIRunnable
 >
 &
 aRunnable
-DispatchMode
-aMode
 DispatchFailureHandling
 aFailureHandling
 DispatchReason
