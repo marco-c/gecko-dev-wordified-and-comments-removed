@@ -682,9 +682,9 @@ bing
 "
 amazon
 -
-co
+en
 -
-uk
+GB
 "
 "
 duckduckgo
@@ -888,9 +888,9 @@ bing
 "
 amazon
 -
-co
+en
 -
-uk
+GB
 "
 "
 duckduckgo
@@ -1399,7 +1399,7 @@ bing
 "
 amazon
 -
-fr
+france
 "
 "
 wikipedia
@@ -1549,9 +1549,9 @@ google
 "
 amazon
 -
-co
+en
 -
-uk
+GB
 "
 "
 tearma
@@ -1843,9 +1843,9 @@ bing
 "
 amazon
 -
-co
+en
 -
-uk
+GB
 "
 "
 duckduckgo
@@ -3010,7 +3010,7 @@ twitter
 "
 wikipedia
 -
-pt
+br
 "
 ]
 }
@@ -3038,7 +3038,7 @@ google
 "
 wikipedia
 -
-pt
+ptpt
 "
 ]
 }
@@ -3292,9 +3292,9 @@ bing
 "
 amazon
 -
-co
+en
 -
-uk
+GB
 "
 "
 twitter
