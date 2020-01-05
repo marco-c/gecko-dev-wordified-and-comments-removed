@@ -64,7 +64,7 @@ PROCESS_TYPE_CONTENT
 {
 PdfJs
 .
-updateRegistration
+ensureRegistered
 (
 )
 ;
