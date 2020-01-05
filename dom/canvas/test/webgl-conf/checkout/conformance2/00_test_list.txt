@@ -28,6 +28,11 @@ misc
 00_test_list
 .
 txt
+programs
+/
+00_test_list
+.
+txt
 query
 /
 00_test_list
