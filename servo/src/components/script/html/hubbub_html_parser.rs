@@ -2992,6 +2992,7 @@ element
 .
 set_attr
 (
+node
 &
 str
 (

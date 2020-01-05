@@ -390,6 +390,12 @@ SetWidth
 &
 mut
 self
+abstract_self
+:
+AbstractNode
+<
+ScriptView
+>
 width
 :
 u32
@@ -415,6 +421,7 @@ node
 .
 set_attr
 (
+abstract_self
 &
 str
 (
@@ -587,6 +594,12 @@ SetHeight
 &
 mut
 self
+abstract_self
+:
+AbstractNode
+<
+ScriptView
+>
 height
 :
 u32
@@ -612,6 +625,7 @@ node
 .
 set_attr
 (
+abstract_self
 &
 str
 (
