@@ -270,6 +270,11 @@ ProxyAccessibleBase
 .
 h
 '
+'
+ProxyAccessibleShared
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
