@@ -1192,6 +1192,12 @@ enable0RttData
 :
 1
 ;
+unsigned
+int
+enableShortHeaders
+:
+1
+;
 }
 sslOptions
 ;
@@ -2355,6 +2361,9 @@ helloRetry
 ;
 ssl3KEADef
 kea_def_mutable
+;
+PRBool
+shortHeaders
 ;
 }
 SSL3HandshakeState

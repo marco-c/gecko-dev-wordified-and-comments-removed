@@ -136,6 +136,11 @@ ssl_tls13_psk_key_exchange_modes_xtn
 tls13_ServerHandlePskKeyExchangeModesXtn
 }
 {
+ssl_tls13_short_header_xtn
+&
+tls13_HandleShortHeaderXtn
+}
+{
 -
 1
 NULL
@@ -209,6 +214,11 @@ tls13_ClientHandlePreSharedKeyXtn
 ssl_tls13_early_data_xtn
 &
 tls13_ClientHandleEarlyDataXtn
+}
+{
+ssl_tls13_short_header_xtn
+&
+tls13_HandleShortHeaderXtn
 }
 {
 -
@@ -383,6 +393,11 @@ tls13_ClientSendEarlyDataXtn
 ssl_tls13_supported_versions_xtn
 &
 tls13_ClientSendSupportedVersionsXtn
+}
+{
+ssl_tls13_short_header_xtn
+&
+tls13_SendShortHeaderXtn
 }
 {
 ssl_signature_algorithms_xtn

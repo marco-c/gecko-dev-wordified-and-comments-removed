@@ -626,6 +626,9 @@ protocolVersion
 PRUint16
 cipherSuite
 ;
+PRBool
+canSendEarlyData
+;
 }
 SSLPreliminaryChannelInfo
 ;
@@ -812,6 +815,9 @@ ssl_next_proto_nego_xtn
 ssl_renegotiation_info_xtn
 =
 0xff01
+ssl_tls13_short_header_xtn
+=
+0xff03
 }
 SSLExtensionType
 ;
@@ -822,7 +828,7 @@ ssl_supported_groups_xtn
 #
 define
 SSL_MAX_EXTENSIONS
-18
+19
 typedef
 enum
 {

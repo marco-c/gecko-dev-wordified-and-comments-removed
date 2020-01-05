@@ -2848,6 +2848,16 @@ n
 )
 ;
 }
+signerinfo
+-
+>
+cmsg
+-
+>
+pwfn_arg
+=
+pwcb_arg
+;
 if
 (
 NSS_CMSSignerInfo_IncludeCerts

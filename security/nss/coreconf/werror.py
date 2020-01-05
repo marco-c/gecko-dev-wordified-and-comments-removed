@@ -49,6 +49,7 @@ subprocess
 .
 check_output
 (
+          
 [
 cc
 '
@@ -57,6 +58,9 @@ cc
 version
 '
 ]
+universal_newlines
+=
+True
 stderr
 =
 sink
