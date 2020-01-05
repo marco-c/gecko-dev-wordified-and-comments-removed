@@ -381,6 +381,7 @@ Mali400MP
 Mali450MP
 SGX530
 SGX540
+SGX544MP
 Tegra
 AndroidEmulator
 GalliumLlvmpipe
