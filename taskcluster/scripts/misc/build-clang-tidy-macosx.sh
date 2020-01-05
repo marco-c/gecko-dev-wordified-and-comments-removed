@@ -245,8 +245,6 @@ p
 UPLOAD_DIR
 cp
 clang
--
-tidy
 .
 tar
 .
