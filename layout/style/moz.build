@@ -431,6 +431,11 @@ nsRuleWalker
 h
 '
 '
+nsStyleAutoArray
+.
+h
+'
+'
 nsStyleConsts
 .
 h
