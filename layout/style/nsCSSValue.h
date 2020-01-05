@@ -2814,6 +2814,12 @@ GetAngleValueInRadians
 )
 const
 ;
+double
+GetAngleValueInDegrees
+(
+)
+const
+;
 nsAString
 &
 GetStringValue
