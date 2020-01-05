@@ -2092,11 +2092,6 @@ ServiceWorkerGlobalScope
 webidl
 '
 '
-ServiceWorkerMessageEvent
-.
-webidl
-'
-'
 ServiceWorkerRegistration
 .
 webidl
@@ -3833,6 +3828,11 @@ webidl
 '
 '
 ScrollViewChangeEvent
+.
+webidl
+'
+'
+ServiceWorkerMessageEvent
 .
 webidl
 '

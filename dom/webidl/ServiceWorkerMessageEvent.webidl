@@ -161,9 +161,6 @@ event
 .
 *
 /
-[
-GetterThrows
-]
 readonly
 attribute
 any
