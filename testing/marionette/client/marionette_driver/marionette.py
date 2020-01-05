@@ -4428,6 +4428,12 @@ None
         
 self
 .
+process_id
+=
+None
+        
+self
+.
 window
 =
 None
@@ -9188,14 +9194,7 @@ in_app
 and
 self
 .
-session
-.
-get
-(
-"
-processId
-"
-)
+process_id
 :
             
 self
@@ -9210,12 +9209,7 @@ check_for_detached
 (
 self
 .
-session
-[
-"
-processId
-"
-]
+process_id
 )
     
 def
@@ -9547,6 +9541,33 @@ capabilities
 "
 ]
         
+self
+.
+process_id
+=
+self
+.
+session
+.
+get
+(
+"
+moz
+:
+processID
+"
+self
+.
+session
+.
+get
+(
+"
+processId
+"
+)
+)
+        
 return
 self
 .
@@ -9749,6 +9770,12 @@ None
 self
 .
 session
+=
+None
+            
+self
+.
+process_id
 =
 None
             
