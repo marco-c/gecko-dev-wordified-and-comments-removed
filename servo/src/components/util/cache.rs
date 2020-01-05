@@ -98,7 +98,6 @@ V
 )
 >
 }
-pub
 impl
 <
 K
@@ -116,6 +115,7 @@ K
 V
 >
 {
+pub
 fn
 new
 (
@@ -224,6 +224,7 @@ Some
 (
 ref
 k
+ref
 v
 )
 )
@@ -239,6 +240,8 @@ key
 {
 Some
 (
+copy
+*
 v
 )
 }
@@ -481,7 +484,6 @@ cache_size
 :
 uint
 }
-pub
 impl
 <
 K
@@ -499,6 +501,7 @@ K
 V
 >
 {
+pub
 fn
 new
 (
@@ -526,6 +529,7 @@ cache_size
 size
 }
 }
+pub
 fn
 touch
 (
@@ -579,6 +583,7 @@ push
 (
 (
 key
+copy
 val
 )
 )
@@ -800,6 +805,7 @@ self
 insert
 (
 key
+copy
 val
 )
 ;

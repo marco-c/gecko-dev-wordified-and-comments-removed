@@ -26,13 +26,13 @@ script_task
 task_from_context
 ;
 use
-core
+std
 :
 :
 cast
 ;
 use
-core
+std
 :
 :
 hashmap
@@ -41,7 +41,19 @@ hashmap
 HashMap
 ;
 use
-core
+std
+:
+:
+libc
+;
+use
+std
+:
+:
+ptr
+;
+use
+std
 :
 :
 ptr
@@ -53,13 +65,34 @@ to_unsafe_ptr
 }
 ;
 use
+std
+:
+:
+result
+;
+use
+std
+:
+:
+str
+;
+use
+std
+:
+:
+sys
+;
+use
+std
+:
+:
+uint
+;
+use
 js
 :
 :
 glue
-:
-:
-bindgen
 :
 :
 *
@@ -69,9 +102,6 @@ js
 :
 :
 glue
-:
-:
-bindgen
 :
 :
 {
@@ -102,9 +132,6 @@ js
 jsapi
 :
 :
-bindgen
-:
-:
 {
 JS_AlreadyHasOwnProperty
 JS_NewObject
@@ -116,9 +143,6 @@ js
 :
 :
 jsapi
-:
-:
-bindgen
 :
 :
 {
@@ -134,9 +158,6 @@ js
 jsapi
 :
 :
-bindgen
-:
-:
 {
 JS_EncodeString
 JS_free
@@ -148,9 +169,6 @@ js
 :
 :
 jsapi
-:
-:
-bindgen
 :
 :
 {
@@ -166,9 +184,6 @@ js
 jsapi
 :
 :
-bindgen
-:
-:
 {
 JS_GetFunctionPrototype
 JS_InternString
@@ -180,9 +195,6 @@ js
 :
 :
 jsapi
-:
-:
-bindgen
 :
 :
 {
@@ -198,9 +210,6 @@ js
 jsapi
 :
 :
-bindgen
-:
-:
 {
 JS_NewStringCopyN
 JS_DefineFunctions
@@ -212,9 +221,6 @@ js
 :
 :
 jsapi
-:
-:
-bindgen
 :
 :
 {
@@ -702,10 +708,10 @@ str
 )
 null_string
 }
-pub
 impl
 DOMString
 {
+pub
 fn
 to_str
 (
@@ -938,6 +944,8 @@ str
 )
 >
 {
+unsafe
+{
 let
 jsstr
 ;
@@ -983,8 +991,6 @@ Err
 ;
 }
 }
-unsafe
-{
 let
 strbuf
 =
@@ -1197,6 +1203,8 @@ non
 -
 object
 values
+unsafe
+{
 let
 mut
 o
@@ -1263,6 +1271,7 @@ return
 1
 ;
 }
+}
 pub
 fn
 prototype_jsclass
@@ -1303,6 +1312,8 @@ compartment
 mut
 Compartment
 |
+{
+unsafe
 {
 JSClass
 {
@@ -1559,6 +1570,7 @@ null
 40
 }
 }
+}
 ;
 return
 f
@@ -1612,6 +1624,8 @@ compartment
 mut
 Compartment
 |
+{
+unsafe
 {
 JSClass
 {
@@ -1872,6 +1886,7 @@ null
 40
 }
 }
+}
 ;
 return
 f
@@ -1984,6 +1999,8 @@ ptr
 }
 )
 ;
+unsafe
+{
 compartment
 .
 define_property
@@ -2024,6 +2041,7 @@ obj
 return
 obj
 ;
+}
 }
 /
 /
@@ -2598,6 +2616,8 @@ null
 )
 ;
 }
+unsafe
+{
 JS_SetReservedSlot
 (
 proto
@@ -2614,6 +2634,7 @@ c_void
 )
 )
 ;
+}
 }
 let
 mut
@@ -2749,6 +2770,8 @@ c_char
 >
 *
 JSObject
+{
+unsafe
 {
 let
 constructor
@@ -3122,6 +3145,7 @@ return
 constructor
 ;
 }
+}
 fn
 DefineConstants
 (
@@ -3303,6 +3327,8 @@ JSFunctionSpec
 >
 bool
 {
+unsafe
+{
 JS_DefineFunctions
 (
 cx
@@ -3312,6 +3338,7 @@ methods
 !
 =
 0
+}
 }
 fn
 DefineProperties
@@ -3333,6 +3360,8 @@ JSPropertySpec
 >
 bool
 {
+unsafe
+{
 JS_DefineProperties
 (
 cx
@@ -3342,6 +3371,7 @@ properties
 !
 =
 0
+}
 }
 fn
 CreateInterfacePrototypeObject
@@ -3379,6 +3409,8 @@ ConstantSpec
 >
 *
 JSObject
+{
+unsafe
 {
 let
 ourProto
@@ -3485,6 +3517,7 @@ null
 return
 ourProto
 ;
+}
 }
 pub
 extern
@@ -3656,10 +3689,10 @@ wrapper
 *
 JSObject
 }
-pub
 impl
 WrapperCache
 {
+pub
 fn
 get_wrapper
 (
@@ -3684,6 +3717,7 @@ wrapper
 )
 }
 }
+pub
 fn
 set_wrapper
 (
@@ -3703,6 +3737,7 @@ wrapper
 wrapper
 ;
 }
+pub
 fn
 get_rootable
 (
@@ -3725,6 +3760,7 @@ wrapper
 )
 ;
 }
+pub
 fn
 new
 (
@@ -4150,6 +4186,8 @@ Option
 u32
 >
 {
+unsafe
+{
 if
 RUST_JSID_IS_INT
 (
@@ -4174,6 +4212,7 @@ u32
 return
 None
 ;
+}
 /
 /
 if
@@ -4625,6 +4664,8 @@ Option
 jsid
 >
 {
+unsafe
+{
 let
 s
 =
@@ -4653,6 +4694,7 @@ s
 else
 {
 None
+}
 }
 }
 pub

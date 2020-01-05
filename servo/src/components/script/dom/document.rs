@@ -65,9 +65,6 @@ js
 jsapi
 :
 :
-bindgen
-:
-:
 {
 JS_AddObjectRoot
 JS_RemoveObjectRoot
@@ -128,6 +125,8 @@ Window
 >
 mut
 Document
+{
+unsafe
 {
 let
 doc
@@ -217,10 +216,11 @@ doc
 ;
 doc
 }
-pub
+}
 impl
 Document
 {
+pub
 fn
 getElementsByTagName
 (
@@ -314,6 +314,7 @@ elements
 )
 )
 }
+pub
 fn
 content_changed
 (
@@ -326,7 +327,11 @@ self
 .
 window
 .
-each
+iter
+(
+)
+.
+advance
 |
 window
 |
@@ -338,12 +343,15 @@ content_changed
 )
 }
 }
+pub
 fn
 teardown
 (
 &
 self
 )
+{
+unsafe
 {
 let
 compartment
@@ -401,6 +409,7 @@ ptr
 rootable
 )
 ;
+}
 }
 }
 }

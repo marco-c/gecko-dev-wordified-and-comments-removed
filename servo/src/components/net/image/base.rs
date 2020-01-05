@@ -1,4 +1,10 @@
 use
+std
+:
+:
+vec
+;
+use
 stb_image
 =
 stb_image

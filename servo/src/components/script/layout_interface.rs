@@ -21,7 +21,7 @@ ScriptChan
 }
 ;
 use
-core
+std
 :
 :
 comm
@@ -78,7 +78,7 @@ stylesheet
 Stylesheet
 ;
 use
-std
+extra
 :
 :
 net

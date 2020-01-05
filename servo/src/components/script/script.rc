@@ -204,7 +204,7 @@ msg
 ;
 extern
 mod
-std
+extra
 ;
 pub
 mod

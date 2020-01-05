@@ -1,4 +1,10 @@
 use
+std
+:
+:
+cast
+;
+use
 dom
 :
 :
@@ -52,9 +58,6 @@ js
 glue
 :
 :
-bindgen
-:
-:
 RUST_OBJECT_TO_JSVAL
 ;
 use
@@ -70,7 +73,6 @@ JSContext
 JSVal
 }
 ;
-pub
 impl
 EventTarget
 {

@@ -1,5 +1,5 @@
 use
-core
+std
 :
 :
 comm
@@ -11,7 +11,7 @@ SharedChan
 }
 ;
 use
-std
+extra
 :
 :
 net

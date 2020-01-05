@@ -9,7 +9,7 @@ Payload
 }
 ;
 use
-core
+std
 :
 :
 io
@@ -21,7 +21,7 @@ file_reader
 }
 ;
 use
-core
+std
 :
 :
 task

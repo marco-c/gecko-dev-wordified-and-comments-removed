@@ -2,15 +2,6 @@ use
 servo_util
 :
 :
-range
-:
-:
-Range
-;
-use
-servo_util
-:
-:
 vec
 :
 :
@@ -35,7 +26,7 @@ use
 geometry
 ;
 use
-core
+std
 :
 :
 cmp
@@ -47,7 +38,7 @@ Eq
 }
 ;
 use
-core
+std
 :
 :
 num
@@ -56,13 +47,28 @@ num
 NumCast
 ;
 use
-core
+std
 :
 :
 u16
 ;
 use
-core
+std
+:
+:
+vec
+;
+use
+std
+:
+:
+uint
+;
+use
+std
+:
+:
+util
 ;
 use
 geom
@@ -74,7 +80,7 @@ point
 Point2D
 ;
 use
-std
+extra
 :
 :
 sort
@@ -1990,9 +1996,6 @@ DetailedGlyphRecord
 [
 ]
 ;
-core
-:
-:
 util
 :
 :
@@ -2033,9 +2036,6 @@ sorted_records
 =
 mut_records
 ;
-core
-:
-:
 util
 :
 :
@@ -2353,8 +2353,21 @@ inline
 always
 )
 ]
+/
+/
+FIXME
+:
+Resolution
+conflicts
+with
+IteratorUtil
+trait
+so
+adding
+trailing
+_
 fn
-advance
+advance_
 (
 self
 )
@@ -2583,7 +2596,6 @@ detail_store
 :
 DetailedGlyphStore
 }
-pub
 impl
 <
 '
@@ -2619,6 +2631,7 @@ store
 glyph
 data
 .
+pub
 fn
 new
 (
@@ -2665,6 +2678,7 @@ new
 )
 }
 }
+pub
 fn
 finalize_changes
 (
@@ -2682,6 +2696,7 @@ ensure_sorted
 )
 ;
 }
+pub
 fn
 add_glyph_for_char_index
 (
@@ -2901,6 +2916,7 @@ i
 entry
 ;
 }
+pub
 fn
 add_glyphs_for_char_index
 (
@@ -3115,6 +3131,7 @@ a
 ligature
 continuation
 .
+pub
 fn
 add_nonglyph_for_char_index
 (
@@ -3190,6 +3207,7 @@ i
 entry
 ;
 }
+pub
 fn
 iter_glyphs_for_char_index
 (
@@ -3336,6 +3354,7 @@ proxy
 }
 true
 }
+pub
 fn
 iter_glyphs_for_char_range
 (
@@ -3458,6 +3477,7 @@ break
 }
 true
 }
+pub
 fn
 iter_all_glyphs
 (
@@ -3521,6 +3541,7 @@ break
 }
 true
 }
+pub
 fn
 char_is_space
 (
@@ -3559,6 +3580,7 @@ char_is_space
 (
 )
 }
+pub
 fn
 char_is_tab
 (
@@ -3597,6 +3619,7 @@ char_is_tab
 (
 )
 }
+pub
 fn
 char_is_newline
 (
@@ -3635,6 +3658,7 @@ char_is_newline
 (
 )
 }
+pub
 fn
 is_ligature_start
 (
@@ -3673,6 +3697,7 @@ is_ligature_start
 (
 )
 }
+pub
 fn
 is_cluster_start
 (
@@ -3711,6 +3736,7 @@ is_cluster_start
 (
 )
 }
+pub
 fn
 can_break_before
 (
@@ -3749,6 +3775,7 @@ can_break_before
 (
 )
 }
+pub
 fn
 set_char_is_space
 (
@@ -3798,6 +3825,7 @@ set_char_is_space
 )
 ;
 }
+pub
 fn
 set_char_is_tab
 (
@@ -3847,6 +3875,7 @@ set_char_is_tab
 )
 ;
 }
+pub
 fn
 set_char_is_newline
 (
@@ -3896,6 +3925,7 @@ set_char_is_newline
 )
 ;
 }
+pub
 fn
 set_can_break_before
 (

@@ -24,6 +24,24 @@ Direct2DBackend
 SkiaBackend
 }
 ;
+use
+std
+:
+:
+f64
+;
+use
+std
+:
+:
+result
+;
+use
+std
+:
+:
+uint
+;
 pub
 struct
 Opts
@@ -105,7 +123,7 @@ str
 Opts
 {
 use
-std
+extra
 :
 :
 getopts
@@ -129,7 +147,6 @@ getopts
 :
 optopt
 (
-~
 "
 o
 "
@@ -143,7 +160,6 @@ getopts
 :
 optopt
 (
-~
 "
 r
 "
@@ -157,7 +173,6 @@ getopts
 :
 optopt
 (
-~
 "
 s
 "
@@ -172,7 +187,6 @@ getopts
 :
 optopt
 (
-~
 "
 t
 "
@@ -188,7 +202,6 @@ getopts
 :
 optflagopt
 (
-~
 "
 p
 "
@@ -205,7 +218,6 @@ getopts
 :
 optopt
 (
-~
 "
 z
 "
@@ -312,7 +324,6 @@ opt_present
 (
 &
 opt_match
-~
 "
 o
 "
@@ -346,7 +357,6 @@ opt_maybe_str
 (
 &
 opt_match
-~
 "
 r
 "
@@ -457,7 +467,6 @@ opt_maybe_str
 (
 &
 opt_match
-~
 "
 s
 "
@@ -499,7 +508,6 @@ opt_maybe_str
 (
 &
 opt_match
-~
 "
 t
 "
@@ -564,11 +572,9 @@ opt_default
 (
 &
 opt_match
-~
 "
 p
 "
-~
 "
 5
 "
@@ -613,7 +619,6 @@ opt_maybe_str
 (
 &
 opt_match
-~
 "
 z
 "

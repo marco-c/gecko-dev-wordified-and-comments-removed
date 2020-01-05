@@ -18,10 +18,10 @@ wrapper
 :
 WrapperCache
 }
-pub
 impl
 EventTarget
 {
+pub
 fn
 new
 (

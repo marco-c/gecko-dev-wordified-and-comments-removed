@@ -31,9 +31,6 @@ fontconfig
 fontconfig
 :
 :
-bindgen
-:
-:
 {
 FcConfigGetCurrent
 FcConfigGetFonts
@@ -97,7 +94,7 @@ font_context
 FontContextHandle
 ;
 use
-core
+std
 :
 :
 hashmap
@@ -106,7 +103,13 @@ hashmap
 HashMap
 ;
 use
-core
+std
+:
+:
+libc
+;
+use
+std
 :
 :
 libc
@@ -115,13 +118,22 @@ libc
 c_int
 ;
 use
-core
+std
 :
 :
 ptr
+;
+use
+std
 :
 :
-Ptr
+str
+;
+use
+std
+:
+:
+uint
 ;
 pub
 struct
@@ -131,7 +143,6 @@ fctx
 :
 FontContextHandle
 }
-pub
 impl
 FontListHandle
 {
@@ -159,6 +170,7 @@ clone
 )
 }
 }
+pub
 fn
 get_available_families
 (
@@ -350,6 +362,7 @@ return
 family_map
 ;
 }
+pub
 fn
 load_variations_for_family
 (
@@ -374,6 +387,8 @@ for
 family
 )
 ;
+unsafe
+{
 let
 config
 =
@@ -402,8 +417,6 @@ to_unsafe_ptr
 font_set
 )
 ;
-unsafe
-{
 let
 pattern
 =
@@ -828,6 +841,7 @@ object_set
 ;
 }
 }
+pub
 fn
 get_last_resort_font_families
 (
@@ -869,6 +883,8 @@ finalize
 self
 )
 {
+unsafe
+{
 FcPatternDestroy
 (
 self
@@ -876,6 +892,7 @@ self
 pattern
 )
 ;
+}
 }
 }
 pub

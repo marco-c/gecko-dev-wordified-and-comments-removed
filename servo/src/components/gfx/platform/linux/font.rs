@@ -93,9 +93,6 @@ freetype
 freetype
 :
 :
-bindgen
-:
-:
 {
 FT_Get_Char_Index
 FT_Get_Postscript_Name
@@ -106,9 +103,6 @@ freetype
 :
 :
 freetype
-:
-:
-bindgen
 :
 :
 {
@@ -123,9 +117,6 @@ freetype
 freetype
 :
 :
-bindgen
-:
-:
 {
 FT_New_Face
 FT_Get_Sfnt_Table
@@ -136,9 +127,6 @@ freetype
 :
 :
 freetype
-:
-:
-bindgen
 :
 :
 {
@@ -218,6 +206,30 @@ tt_os2
 :
 :
 TT_OS2
+;
+use
+std
+:
+:
+cast
+;
+use
+std
+:
+:
+ptr
+;
+use
+std
+:
+:
+str
+;
+use
+std
+:
+:
+vec
 ;
 fn
 float_to_fixed_ft
@@ -373,6 +385,8 @@ is_not_null
 )
 )
 ;
+unsafe
+{
 if
 !
 FT_Done_Face
@@ -396,6 +410,7 @@ failed
 "
 )
 ;
+}
 }
 }
 }
@@ -601,6 +616,8 @@ FT_Face
 )
 >
 {
+unsafe
+{
 let
 mut
 face
@@ -692,6 +709,7 @@ Err
 (
 )
 )
+}
 }
 }
 }
@@ -889,6 +907,8 @@ default_weight
 }
 else
 {
+unsafe
+{
 let
 os2
 =
@@ -913,8 +933,6 @@ is_not_null
 )
 &
 &
-unsafe
-{
 (
 *
 os2
@@ -924,7 +942,6 @@ version
 !
 =
 0xffff
-}
 ;
 if
 valid
@@ -932,15 +949,12 @@ valid
 let
 weight
 =
-unsafe
-{
 (
 *
 os2
 )
 .
 usWeightClass
-}
 ;
 match
 weight
@@ -1038,6 +1052,7 @@ default_weight
 }
 }
 }
+}
 fn
 clone_with_style
 (
@@ -1090,7 +1105,7 @@ style
 }
 FontSourceFile
 (
-copy
+ref
 file
 )
 =
@@ -1102,6 +1117,8 @@ FontHandle
 new_from_file
 (
 fctx
+copy
+*
 file
 style
 )
@@ -1137,6 +1154,8 @@ is_not_null
 )
 )
 ;
+unsafe
+{
 let
 idx
 =
@@ -1185,6 +1204,7 @@ None
 }
 ;
 }
+}
 pub
 fn
 glyph_h_advance
@@ -1214,6 +1234,8 @@ is_not_null
 )
 )
 ;
+unsafe
+{
 let
 res
 =
@@ -1234,8 +1256,6 @@ res
 succeeded
 (
 )
-{
-unsafe
 {
 let
 void_glyph
@@ -1336,7 +1356,6 @@ FractionalPixel
 )
 ;
 }
-}
 else
 {
 debug
@@ -1362,6 +1381,7 @@ res
 return
 None
 ;
+}
 }
 }
 pub
@@ -1533,7 +1553,6 @@ FontTable
 None
 }
 }
-pub
 impl
 <
 '
@@ -1592,6 +1611,8 @@ v_dpi
 =
 72
 ;
+unsafe
+{
 let
 result
 =
@@ -1626,6 +1647,7 @@ Err
 )
 }
 }
+}
 pub
 fn
 new_from_file
@@ -1651,6 +1673,8 @@ FontHandle
 (
 )
 >
+{
+unsafe
 {
 let
 ft_ctx
@@ -1787,6 +1811,7 @@ Err
 )
 }
 }
+}
 pub
 fn
 new_from_file_unstyled
@@ -1808,6 +1833,8 @@ FontHandle
 (
 )
 >
+{
+unsafe
 {
 let
 ft_ctx
@@ -1918,6 +1945,7 @@ handle
 fctx
 }
 )
+}
 }
 priv
 fn

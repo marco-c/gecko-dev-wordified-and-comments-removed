@@ -20,7 +20,7 @@ box
 RenderBox
 ;
 use
-core
+std
 :
 :
 cell
@@ -29,7 +29,7 @@ cell
 Cell
 ;
 use
-core
+std
 :
 :
 num
@@ -1063,7 +1063,9 @@ is_zero
 {
 return
 }
-if
+let
+borders
+=
 [
 border
 .
@@ -1075,6 +1077,13 @@ border
 .
 bottom
 ]
+;
+if
+borders
+.
+iter
+(
+)
 .
 all
 (

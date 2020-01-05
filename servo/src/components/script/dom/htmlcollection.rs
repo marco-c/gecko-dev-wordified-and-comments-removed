@@ -49,6 +49,12 @@ JSObject
 JSContext
 }
 ;
+use
+std
+:
+:
+ptr
+;
 pub
 struct
 HTMLCollection
@@ -66,10 +72,10 @@ wrapper
 :
 WrapperCache
 }
-pub
 impl
 HTMLCollection
 {
+pub
 fn
 new
 (
@@ -115,6 +121,7 @@ init_wrapper
 ;
 collection
 }
+pub
 fn
 Length
 (
@@ -135,6 +142,7 @@ len
 as
 u32
 }
+pub
 fn
 Item
 (
@@ -178,6 +186,7 @@ else
 None
 }
 }
+pub
 fn
 NamedItem
 (
@@ -217,6 +226,7 @@ null
 (
 )
 }
+pub
 fn
 IndexedGetter
 (

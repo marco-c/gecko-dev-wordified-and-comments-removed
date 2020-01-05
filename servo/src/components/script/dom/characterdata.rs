@@ -28,7 +28,7 @@ ScriptView
 }
 ;
 use
-core
+std
 :
 :
 str
@@ -238,12 +238,10 @@ data
 =
 str
 (
-str
-:
-:
+s
+.
 append
 (
-s
 arg
 .
 to_str

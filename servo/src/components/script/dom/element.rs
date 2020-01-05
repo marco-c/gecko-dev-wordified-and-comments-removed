@@ -60,7 +60,7 @@ ContentBoxesResponse
 }
 ;
 use
-core
+std
 :
 :
 cell
@@ -69,7 +69,13 @@ cell
 Cell
 ;
 use
-core
+std
+:
+:
+uint
+;
+use
+std
 :
 :
 str
@@ -78,7 +84,7 @@ str
 eq_slice
 ;
 use
-std
+extra
 :
 :
 net
@@ -476,7 +482,6 @@ Element
 methods
 /
 /
-pub
 impl
 <
 '
@@ -524,6 +529,7 @@ attrs
 ]
 }
 }
+pub
 fn
 get_attr
 (
@@ -621,6 +627,7 @@ return
 None
 ;
 }
+pub
 fn
 set_attr
 (
@@ -675,6 +682,9 @@ let
 value_cell
 =
 Cell
+:
+:
+new
 (
 value
 )
@@ -803,6 +813,7 @@ None
 }
 }
 }
+pub
 fn
 getClientRects
 (
@@ -1062,6 +1073,7 @@ rects
 )
 )
 }
+pub
 fn
 getBoundingClientRect
 (

@@ -111,7 +111,7 @@ lib
 ;
 extern
 mod
-std
+extra
 ;
 pub
 mod

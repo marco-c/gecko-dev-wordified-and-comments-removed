@@ -210,7 +210,6 @@ glyphs
 }
 }
 }
-pub
 impl
 <
 '
@@ -218,6 +217,7 @@ self
 >
 TextRun
 {
+pub
 fn
 new
 (
@@ -246,12 +246,10 @@ GlyphStore
 :
 new
 (
-str
-:
-:
+text
+.
 char_len
 (
-text
 )
 )
 ;
@@ -316,6 +314,7 @@ return
 run
 ;
 }
+pub
 fn
 teardown
 (
@@ -332,6 +331,7 @@ teardown
 )
 ;
 }
+pub
 fn
 compute_potential_breaks
 (
@@ -396,12 +396,10 @@ len
 let
 range
 =
-str
-:
-:
+text
+.
 char_range_at
 (
-text
 byte_i
 )
 ;
@@ -624,6 +622,7 @@ self
 glyphs
 }
 }
+pub
 fn
 char_len
 (
@@ -644,6 +643,7 @@ len
 (
 )
 }
+pub
 fn
 glyphs
 (
@@ -664,6 +664,7 @@ self
 .
 glyphs
 }
+pub
 fn
 range_is_trimmable_whitespace
 (
@@ -728,6 +729,7 @@ return
 true
 ;
 }
+pub
 fn
 metrics_for_range
 (
@@ -752,6 +754,7 @@ self
 range
 )
 }
+pub
 fn
 min_width_for_range
 (
@@ -842,6 +845,7 @@ return
 max_piece_width
 ;
 }
+pub
 fn
 iter_natural_lines_for_range
 (
@@ -1001,6 +1005,7 @@ clump
 }
 true
 }
+pub
 fn
 iter_indivisible_pieces_for_range
 (

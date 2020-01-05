@@ -57,7 +57,7 @@ layout
 text
 ;
 use
-core
+std
 :
 :
 cell
@@ -66,7 +66,7 @@ cell
 Cell
 ;
 use
-core
+std
 :
 :
 cmp
@@ -75,19 +75,25 @@ cmp
 ApproxEq
 ;
 use
-core
+std
 :
 :
 managed
 ;
 use
-core
+std
 :
 :
 num
 :
 :
 Zero
+;
+use
+std
+:
+:
+uint
 ;
 use
 geom
@@ -331,7 +337,7 @@ range
 *
 ;
 use
-std
+extra
 :
 :
 net
@@ -981,7 +987,6 @@ id
 }
 }
 }
-pub
 impl
 RenderBox
 {
@@ -1009,6 +1014,7 @@ inline
 always
 )
 ]
+pub
 fn
 with_base
 <
@@ -1118,6 +1124,7 @@ inline
 always
 )
 ]
+pub
 fn
 with_mut_base
 <
@@ -1221,6 +1228,7 @@ of
 this
 box
 .
+pub
 fn
 position
 (
@@ -1262,6 +1270,7 @@ of
 this
 box
 .
+pub
 fn
 id
 (
@@ -1311,6 +1320,7 @@ and
 so
 on
 .
+pub
 fn
 is_replaced
 (
@@ -1357,6 +1367,7 @@ for
 text
 boxes
 .
+pub
 fn
 can_split
 (
@@ -1403,6 +1414,7 @@ entirely
 of
 whitespace
 .
+pub
 fn
 is_whitespace_only
 (
@@ -1452,6 +1464,7 @@ another
 render
 box
 .
+pub
 fn
 can_merge_with_box
 (
@@ -1582,6 +1595,7 @@ unscanned
 text
 box
 .
+pub
 fn
 split_to_width
 (
@@ -2592,6 +2606,7 @@ the
 CSS
 specification
 .
+pub
 fn
 get_min_width
 (
@@ -2835,6 +2850,7 @@ the
 CSS
 specification
 .
+pub
 fn
 get_pref_width
 (
@@ -3098,7 +3114,7 @@ line_width
 =
 glyph
 .
-advance
+advance_
 (
 )
 }
@@ -3170,6 +3186,7 @@ padding
 and
 width
 .
+pub
 fn
 get_used_width
 (
@@ -3251,6 +3268,7 @@ padding
 and
 width
 .
+pub
 fn
 get_used_height
 (
@@ -3300,6 +3318,7 @@ Au
 )
 )
 }
+pub
 fn
 compute_padding
 (
@@ -3336,6 +3355,7 @@ cb_width
 ;
 }
 }
+pub
 fn
 get_noncontent_width
 (
@@ -3387,6 +3407,7 @@ padding
 right
 }
 }
+pub
 fn
 with_model
 <
@@ -3462,6 +3483,7 @@ the
 owning
 flow
 .
+pub
 fn
 content_box
 (
@@ -3586,6 +3608,7 @@ the
 owning
 flow
 .
+pub
 fn
 border_box
 (
@@ -3650,6 +3673,7 @@ the
 owning
 flow
 .
+pub
 fn
 margin_box
 (
@@ -3706,6 +3730,7 @@ box
 /
 represents
 .
+pub
 fn
 style
 (
@@ -3749,6 +3774,7 @@ render
 box
 represents
 .
+pub
 fn
 node
 (
@@ -3818,6 +3844,7 @@ Element
 node
 fails
 .
+pub
 fn
 nearest_ancestor_element
 (
@@ -4104,6 +4131,7 @@ flattens
 the
 list
 .
+pub
 fn
 build_display_list
 <
@@ -5038,6 +5066,7 @@ list
 if
 necessary
 .
+pub
 fn
 paint_background_if_applicable
 <
@@ -5239,6 +5268,7 @@ used
 for
 rendering
 .
+pub
 fn
 font_style
 (
@@ -5382,13 +5412,10 @@ monospace
 let
 font_families
 =
-str
-:
-:
+font_families
+.
 connect
 (
-font_families
-~
 "
 "
 )
@@ -5584,6 +5611,7 @@ Element
 /
 node
 .
+pub
 fn
 text_align
 (
@@ -5648,6 +5676,7 @@ the
 nearest
 Element
 node
+pub
 fn
 text_decoration
 (
@@ -6070,16 +6099,14 @@ text
 s
 )
 "
-str
-:
-:
-substr
-(
 text_box
 .
 run
 .
 text
+.
+slice
+(
 text_box
 .
 range
@@ -6087,6 +6114,14 @@ range
 begin
 (
 )
+text_box
+.
+range
+.
+begin
+(
+)
++
 text_box
 .
 range

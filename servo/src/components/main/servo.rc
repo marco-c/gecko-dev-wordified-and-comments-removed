@@ -232,7 +232,7 @@ stb_image
 ;
 extern
 mod
-std
+extra
 ;
 #
 [
@@ -329,7 +329,7 @@ PrintMsg
 }
 ;
 use
-std
+extra
 :
 :
 uv_global_loop
@@ -360,6 +360,18 @@ url
 :
 :
 make_url
+;
+use
+std
+:
+:
+comm
+;
+use
+std
+:
+:
+os
 ;
 #
 [
@@ -611,7 +623,7 @@ spawn
 {
 loop
 {
-std
+extra
 :
 :
 timer

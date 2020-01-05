@@ -8,7 +8,7 @@ aux
 LayoutAuxMethods
 ;
 use
-core
+std
 :
 :
 cast

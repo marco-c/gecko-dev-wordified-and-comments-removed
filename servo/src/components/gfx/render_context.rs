@@ -60,7 +60,7 @@ azure
 AzFloat
 ;
 use
-core
+std
 :
 :
 libc
@@ -117,13 +117,7 @@ base
 Image
 ;
 use
-std
-:
-:
-arc
-;
-use
-std
+extra
 :
 :
 arc
@@ -156,7 +150,6 @@ opts
 self
 Opts
 }
-pub
 impl
 <
 '
@@ -388,13 +381,10 @@ Image
 let
 image
 =
-arc
-:
-:
+image
+.
 get
 (
-&
-image
 )
 ;
 let
@@ -532,6 +522,7 @@ draw_options
 )
 ;
 }
+pub
 fn
 clear
 (
@@ -650,6 +641,7 @@ to_float
 fn
 to_float
 (
+&
 self
 )
 -
@@ -665,6 +657,7 @@ u8
 fn
 to_float
 (
+&
 self
 )
 -
@@ -672,6 +665,7 @@ self
 float
 {
 (
+*
 self
 as
 float

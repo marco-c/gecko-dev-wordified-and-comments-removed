@@ -134,7 +134,7 @@ stb_image
 ;
 extern
 mod
-std
+extra
 ;
 /
 /

@@ -53,15 +53,6 @@ servo_util
 time
 :
 :
-time
-;
-use
-servo_util
-:
-:
-time
-:
-:
 profile
 ;
 use
@@ -74,7 +65,7 @@ time
 ProfilerChan
 ;
 use
-core
+std
 :
 :
 hashmap
@@ -160,10 +151,10 @@ prof_chan
 :
 ProfilerChan
 }
-pub
 impl
 FontList
 {
+pub
 fn
 new
 (
@@ -312,6 +303,7 @@ get_available_families
 ;
 }
 }
+pub
 fn
 find_font_in_family
 (
@@ -393,7 +385,11 @@ None
 for
 family
 .
-each
+iter
+(
+)
+.
+advance
 |
 fam
 |
