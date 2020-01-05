@@ -8401,6 +8401,12 @@ mCompatMode
 ReadyState
 mReadyState
 ;
+mozilla
+:
+:
+StyleBackendType
+mStyleBackendType
+;
 #
 ifdef
 MOZILLA_INTERNAL_API
@@ -8448,12 +8454,6 @@ mDummy
 ;
 #
 endif
-mozilla
-:
-:
-StyleBackendType
-mStyleBackendType
-;
 bool
 mBidiEnabled
 :
