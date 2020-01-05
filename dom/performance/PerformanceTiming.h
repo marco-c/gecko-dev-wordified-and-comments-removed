@@ -670,6 +670,12 @@ nsITimedChannel
 aChannel
 )
 ;
+bool
+IsTopLevelContentDocument
+(
+)
+const
+;
 RefPtr
 <
 Performance
