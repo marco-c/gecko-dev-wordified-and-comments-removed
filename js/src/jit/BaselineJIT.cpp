@@ -560,7 +560,7 @@ Maybe
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 >
 nogc
 ;

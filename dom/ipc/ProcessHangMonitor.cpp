@@ -1095,7 +1095,7 @@ tabChild
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 (
 mContext

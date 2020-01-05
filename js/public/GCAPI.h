@@ -1111,7 +1111,7 @@ AutoRequireNoGC
 class
 JS_PUBLIC_API
 (
-AutoAssertOnGC
+AutoAssertNoGC
 )
 :
 public
@@ -1132,12 +1132,12 @@ gcNumber
 ;
 public
 :
-AutoAssertOnGC
+AutoAssertNoGC
 (
 )
 ;
 explicit
-AutoAssertOnGC
+AutoAssertNoGC
 (
 JSContext
 *
@@ -1145,7 +1145,7 @@ cx
 )
 ;
 ~
-AutoAssertOnGC
+AutoAssertNoGC
 (
 )
 ;
@@ -1332,7 +1332,7 @@ AutoCheckCannotGC
 )
 :
 public
-AutoAssertOnGC
+AutoAssertNoGC
 {
 public
 :
@@ -1340,7 +1340,7 @@ AutoCheckCannotGC
 (
 )
 :
-AutoAssertOnGC
+AutoAssertNoGC
 (
 )
 {
@@ -1353,7 +1353,7 @@ JSContext
 cx
 )
 :
-AutoAssertOnGC
+AutoAssertNoGC
 (
 cx
 )

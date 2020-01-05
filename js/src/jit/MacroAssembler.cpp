@@ -7245,7 +7245,7 @@ InlineTypedObject
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 ;
 size_t

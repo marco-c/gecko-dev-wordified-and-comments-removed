@@ -33345,10 +33345,10 @@ endif
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 (
 )
 :
@@ -33428,10 +33428,10 @@ enterUnsafeRegion
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 (
 JSContext
 *
@@ -33469,11 +33469,11 @@ enterUnsafeRegion
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 :
 :
 ~
-AutoAssertOnGC
+AutoAssertNoGC
 (
 )
 {
@@ -33505,7 +33505,7 @@ GC
 ran
 inside
 an
-AutoAssertOnGC
+AutoAssertNoGC
 scope
 .
 "
@@ -37313,7 +37313,7 @@ false
 JS
 :
 :
-AutoAssertOnGC
+AutoAssertNoGC
 nogc
 (
 cx
