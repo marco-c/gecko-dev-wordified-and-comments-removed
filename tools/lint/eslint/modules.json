@@ -2866,6 +2866,12 @@ PlacesEditItemTitleTransaction
 PlacesEditBookmarkURITransaction
 "
 "
+PlacesEditLivemarkFeedURITransaction
+"
+"
+PlacesEditLivemarkSiteURITransaction
+"
+"
 PlacesSetItemAnnotationTransaction
 "
 "
