@@ -1839,7 +1839,7 @@ vec
 )
 ;
 for
-f
+fragment
 in
 fragments
 .
@@ -1848,7 +1848,7 @@ iter
 )
 {
 match
-f
+fragment
 .
 specific
 {
@@ -2682,6 +2682,7 @@ ConstructionItem
 Whitespace
 (
 whitespace_node
+mut
 whitespace_style
 whitespace_damage
 )
@@ -2735,6 +2736,16 @@ to_owned
 (
 )
 )
+)
+;
+properties
+:
+:
+modify_style_for_replaced_content
+(
+&
+mut
+whitespace_style
 )
 ;
 let
@@ -4215,6 +4226,7 @@ ConstructionItem
 Whitespace
 (
 whitespace_node
+mut
 whitespace_style
 whitespace_damage
 )
@@ -4249,6 +4261,16 @@ to_owned
 (
 )
 )
+)
+;
+properties
+:
+:
+modify_style_for_replaced_content
+(
+&
+mut
+whitespace_style
 )
 ;
 let
