@@ -1154,9 +1154,6 @@ Rect
 <
 Au
 >
-is_absolutely_positioned
-:
-bool
 )
 ;
 fn
@@ -9165,9 +9162,6 @@ Rect
 <
 Au
 >
-is_absolutely_positioned
-:
-bool
 )
 {
 /
