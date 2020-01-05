@@ -355,6 +355,15 @@ ini
 '
 mochitest
 /
+geolocation
+/
+chrome
+.
+ini
+'
+'
+mochitest
+/
 localstorage
 /
 chrome
