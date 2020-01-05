@@ -23,9 +23,12 @@ test
 tidy
 -
 -
-self
+no
 -
-test
+progress
+-
+-
+all
 -
 .
 /
@@ -38,6 +41,11 @@ tidy
 no
 -
 progress
+-
+-
+self
+-
+test
 cache
 :
 false
