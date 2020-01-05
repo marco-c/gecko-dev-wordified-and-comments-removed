@@ -231,9 +231,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 {
 run
@@ -247,11 +245,6 @@ bind
 this
 )
 }
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 return

@@ -9457,9 +9457,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 function
@@ -9483,11 +9481,6 @@ null
 ;
 }
 )
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 break

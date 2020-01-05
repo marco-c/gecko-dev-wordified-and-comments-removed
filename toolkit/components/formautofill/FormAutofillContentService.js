@@ -864,16 +864,9 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 resolve
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

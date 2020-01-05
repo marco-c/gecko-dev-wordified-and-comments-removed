@@ -2586,9 +2586,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 function
 (
@@ -2602,13 +2600,6 @@ null
 )
 ;
 }
-Components
-.
-interfaces
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

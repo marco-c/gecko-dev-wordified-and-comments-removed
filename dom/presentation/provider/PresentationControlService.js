@@ -713,9 +713,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 )
@@ -745,11 +743,6 @@ certFingerprint
 ;
 }
 }
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }
@@ -764,9 +757,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 )
@@ -791,11 +782,6 @@ aRv
 ;
 }
 }
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

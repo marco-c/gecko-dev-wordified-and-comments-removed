@@ -3505,9 +3505,7 @@ Services
 .
 tm
 .
-mainThread
-.
-dispatch
+dispatchToMainThread
 (
 (
 )
@@ -3524,11 +3522,6 @@ aVisitedStatus
 )
 ;
 }
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }

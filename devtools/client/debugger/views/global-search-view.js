@@ -888,9 +888,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 {
 run
@@ -905,7 +903,6 @@ this
 sourceResults
 )
 }
-0
 )
 ;
 }
@@ -1265,9 +1262,7 @@ Services
 .
 tm
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 {
 run
@@ -1318,7 +1313,6 @@ focused
 ;
 }
 }
-0
 )
 ;
 aMatch

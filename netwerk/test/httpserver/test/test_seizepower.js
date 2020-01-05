@@ -178,9 +178,7 @@ fun
 {
 gThreadManager
 .
-currentThread
-.
-dispatch
+dispatchToMainThread
 (
 {
 run
@@ -195,11 +193,6 @@ fun
 ;
 }
 }
-Ci
-.
-nsIThread
-.
-DISPATCH_NORMAL
 )
 ;
 }
