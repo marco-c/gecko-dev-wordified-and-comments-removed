@@ -3,13 +3,6 @@ use
 strict
 "
 ;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-]
-;
 const
 {
 classes
