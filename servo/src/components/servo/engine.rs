@@ -37,7 +37,7 @@ script_task
 :
 {
 ExecuteMsg
-ParseMsg
+LoadMsg
 ScriptTask
 }
 ;
@@ -324,6 +324,9 @@ let
 script_task
 =
 ScriptTask
+:
+:
+new
 (
 layout_task
 .
@@ -457,6 +460,8 @@ self
 .
 script_task
 .
+chan
+.
 send
 (
 ExecuteMsg
@@ -471,9 +476,11 @@ self
 .
 script_task
 .
+chan
+.
 send
 (
-ParseMsg
+LoadMsg
 (
 url
 )
@@ -492,6 +499,8 @@ sender
 self
 .
 script_task
+.
+chan
 .
 send
 (

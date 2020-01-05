@@ -2296,11 +2296,7 @@ global_script_context
 (
 )
 .
-compartment
-.
-get
-(
-)
+js_compartment
 .
 cx
 .

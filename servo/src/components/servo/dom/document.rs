@@ -161,11 +161,7 @@ global_script_context
 (
 )
 .
-compartment
-.
-get
-(
-)
+js_compartment
 ;
 do
 root
@@ -247,11 +243,7 @@ global_script_context
 (
 )
 .
-compartment
-.
-get
-(
-)
+js_compartment
 ;
 do
 self
