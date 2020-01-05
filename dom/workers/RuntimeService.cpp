@@ -8970,11 +8970,6 @@ WORKERPREF_
 #
 NAME
 )
-\
-Preferences
-:
-:
-ExactMatch
 )
 )
 |
@@ -8998,13 +8993,6 @@ RegisterCallbackAndCall
 callback
 \
 name
-\
-nullptr
-\
-Preferences
-:
-:
-ExactMatch
 )
 )
 |
