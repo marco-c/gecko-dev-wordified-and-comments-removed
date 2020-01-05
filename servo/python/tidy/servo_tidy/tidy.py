@@ -3269,6 +3269,28 @@ String
 "
 no_filter
 )
+            
+(
+r
+"
+^
+&
+&
+"
+"
+operators
+should
+go
+at
+the
+end
+of
+the
+first
+line
+"
+no_filter
+)
         
 ]
         
@@ -5415,6 +5437,8 @@ format
 error
 )
     
+print
+    
 if
 error
 is
@@ -5423,8 +5447,6 @@ None
         
 print
 "
-\
-n
 \
 033
 [
