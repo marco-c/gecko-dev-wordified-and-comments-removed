@@ -903,6 +903,12 @@ aOutID
 nsCString
 *
 aOutDisplayName
+Endpoint
+<
+PGMPContentParent
+>
+*
+aOutEndpoint
 nsresult
 *
 aOutRv

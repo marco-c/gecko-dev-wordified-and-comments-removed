@@ -138,10 +138,6 @@ intr
 protocol
 PGMP
 {
-parent
-opens
-PGMPContent
-;
 manages
 PCrashReporter
 ;
@@ -206,6 +202,16 @@ libs
 async
 CloseActive
 (
+)
+;
+async
+InitGMPContentChild
+(
+Endpoint
+<
+PGMPContentChild
+>
+endpoint
 )
 ;
 }

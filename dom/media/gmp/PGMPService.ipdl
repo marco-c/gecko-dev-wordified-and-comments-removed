@@ -95,7 +95,7 @@ MPL
 /
 include
 protocol
-PGMP
+PGMPContent
 ;
 using
 base
@@ -122,12 +122,6 @@ protocol
 PGMPService
 {
 parent
-spawns
-PGMP
-as
-child
-;
-parent
 :
 sync
 LaunchGMP
@@ -153,6 +147,11 @@ ProcessId
 id
 nsCString
 displayName
+Endpoint
+<
+PGMPContentParent
+>
+endpoint
 nsresult
 aResult
 )
