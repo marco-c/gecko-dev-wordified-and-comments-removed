@@ -4004,7 +4004,6 @@ CacheKind
 :
 :
 GetElem
-engine
 &
 isTemporarilyUnoptimizable
 lhs

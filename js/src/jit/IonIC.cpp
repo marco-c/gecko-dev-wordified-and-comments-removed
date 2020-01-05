@@ -672,10 +672,6 @@ ic
 kind
 (
 )
-ICStubEngine
-:
-:
-IonIC
 &
 isTemporarilyUnoptimizable
 val

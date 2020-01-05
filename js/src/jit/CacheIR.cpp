@@ -189,8 +189,6 @@ jsbytecode
 pc
 CacheKind
 cacheKind
-ICStubEngine
-engine
 bool
 *
 isTemporarilyUnoptimizable
@@ -216,10 +214,6 @@ val
 idVal_
 (
 idVal
-)
-engine_
-(
-engine
 )
 isTemporarilyUnoptimizable_
 (
@@ -1166,8 +1160,6 @@ shape
 jsbytecode
 *
 pc
-ICStubEngine
-engine
 CanAttachGetter
 canAttachGetter
 bool
@@ -1325,21 +1317,9 @@ shape
 isTemporarilyUnoptimizable
 )
 )
-{
-if
-(
-engine
-!
-=
-ICStubEngine
-:
-:
-IonSharedIC
-)
 return
 CanAttachCallGetter
 ;
-}
 if
 (
 IsCacheableGetPropCallNative
@@ -2332,7 +2312,6 @@ holder
 &
 shape
 pc_
-engine_
 canAttachGetter_
 isTemporarilyUnoptimizable_
 )
@@ -2585,7 +2564,6 @@ holder
 &
 shape
 pc_
-engine_
 canAttachGetter_
 isTemporarilyUnoptimizable_
 )
@@ -3037,7 +3015,6 @@ holder
 &
 propShape
 pc_
-engine_
 canAttachGetter_
 isTemporarilyUnoptimizable_
 )
@@ -3540,7 +3517,6 @@ holder
 &
 shape
 pc_
-engine_
 canAttachGetter_
 isTemporarilyUnoptimizable_
 )
@@ -5268,7 +5244,6 @@ holder
 &
 shape
 pc_
-engine_
 canAttachGetter_
 isTemporarilyUnoptimizable_
 )

@@ -76,7 +76,6 @@ FrameType
 JitFrame_IonJS
 JitFrame_BaselineJS
 JitFrame_BaselineStub
-JitFrame_IonStub
 JitFrame_Entry
 JitFrame_Rectifier
 JitFrame_IonICCall
@@ -345,19 +344,6 @@ type_
 =
 =
 JitFrame_IonJS
-;
-}
-bool
-isIonStub
-(
-)
-const
-{
-return
-type_
-=
-=
-JitFrame_IonStub
 ;
 }
 bool
