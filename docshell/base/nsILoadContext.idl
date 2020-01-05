@@ -181,7 +181,6 @@ happening
 *
 /
 [
-builtinclass
 scriptable
 uuid
 (
@@ -915,11 +914,15 @@ origin
 attributes
 .
 *
+*
+Defined
+in
+LoadContext
+.
+cpp
+*
 /
-NS_IMETHOD_
-(
-void
-)
+bool
 GetOriginAttributes
 (
 mozilla
@@ -929,8 +932,6 @@ OriginAttributes
 &
 aAttrs
 )
-=
-0
 ;
 #
 endif
