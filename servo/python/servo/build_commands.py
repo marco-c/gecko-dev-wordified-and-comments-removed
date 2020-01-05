@@ -3215,6 +3215,9 @@ build_env
 is_build
 =
 True
+geckolib
+=
+True
 )
         
 geckolib_build_path
@@ -3244,15 +3247,6 @@ UTF
 8
 "
 )
-        
-env
-[
-"
-CARGO_TARGET_DIR
-"
-]
-=
-geckolib_build_path
         
 ret
 =
