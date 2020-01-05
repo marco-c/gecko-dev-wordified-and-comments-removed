@@ -131,9 +131,9 @@ entries
 &
 interval
 &
-filters
-&
 features
+&
+filters
 )
 ;
 ASSERT_TRUE
