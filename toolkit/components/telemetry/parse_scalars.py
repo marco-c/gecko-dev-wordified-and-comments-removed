@@ -294,7 +294,6 @@ of
 characters
 .
 "
-\
                                 
 .
 format
@@ -434,7 +433,6 @@ Got
 }
 '
 "
-\
                     
 .
 format
@@ -794,7 +792,6 @@ f
 .
 __name__
 )
-\
             
 for
 f
@@ -1724,7 +1721,6 @@ nsITelemetry
 '
 DATASET_RELEASE_CHANNEL_OPTOUT
 '
-\
             
 if
 release_channel_collection

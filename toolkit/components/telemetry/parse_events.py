@@ -1112,7 +1112,6 @@ of
 d
 "
 %
-\
                          
 (
 identifier
@@ -1159,7 +1158,6 @@ of
 d
 "
 %
-\
                          
 (
 identifier

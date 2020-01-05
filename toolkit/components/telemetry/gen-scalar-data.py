@@ -217,7 +217,6 @@ print
 }
 }
 "
-\
           
 .
 format
