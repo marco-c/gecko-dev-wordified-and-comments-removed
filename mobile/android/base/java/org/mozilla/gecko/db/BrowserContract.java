@@ -472,6 +472,16 @@ public
 static
 final
 String
+PARAM_OLD_BOOKMARK_PARENT
+=
+"
+old_bookmark_parent
+"
+;
+public
+static
+final
+String
 PARAM_INSERT_IF_NEEDED
 =
 "
