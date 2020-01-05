@@ -3122,6 +3122,17 @@ NATIVE_WIN32_PYTHON
 sys
 .
 executable
+            
+env
+[
+"
+HARFBUZZ_SYS_NO_PKG_CONFIG
+"
+]
+=
+"
+true
+"
         
 if
 not

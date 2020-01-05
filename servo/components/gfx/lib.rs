@@ -23,11 +23,6 @@ target_os
 "
 android
 "
-target_os
-=
-"
-windows
-"
 )
 feature
 (
