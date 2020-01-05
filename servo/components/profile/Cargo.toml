@@ -126,13 +126,6 @@ path
 /
 config
 "
-features
-=
-[
-"
-servo
-"
-]
 }
 time
 =

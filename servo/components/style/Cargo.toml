@@ -119,6 +119,9 @@ servo
 servo_atoms
 "
 "
+servo_config
+"
+"
 html5ever
 -
 atoms
@@ -143,8 +146,6 @@ unstable
 "
 "
 servo_url
-/
-servo
 "
 ]
 testing
@@ -449,6 +450,9 @@ path
 /
 config
 "
+optional
+=
+true
 }
 smallvec
 =
@@ -480,6 +484,9 @@ path
 /
 url
 "
+optional
+=
+true
 }
 time
 =

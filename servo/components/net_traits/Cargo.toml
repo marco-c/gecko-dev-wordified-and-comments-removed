@@ -181,13 +181,6 @@ path
 /
 config
 "
-features
-=
-[
-"
-servo
-"
-]
 }
 servo_url
 =
@@ -200,13 +193,6 @@ path
 /
 url
 "
-features
-=
-[
-"
-servo
-"
-]
 }
 url
 =

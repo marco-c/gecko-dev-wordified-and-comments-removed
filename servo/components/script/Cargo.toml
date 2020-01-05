@@ -713,13 +713,6 @@ path
 /
 config
 "
-features
-=
-[
-"
-servo
-"
-]
 }
 servo_geometry
 =
@@ -756,13 +749,6 @@ path
 /
 url
 "
-features
-=
-[
-"
-servo
-"
-]
 }
 smallvec
 =

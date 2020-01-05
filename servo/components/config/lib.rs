@@ -40,17 +40,6 @@ rustc_serialize
 ;
 #
 [
-cfg
-(
-feature
-=
-"
-servo
-"
-)
-]
-#
-[
 macro_use
 ]
 extern
