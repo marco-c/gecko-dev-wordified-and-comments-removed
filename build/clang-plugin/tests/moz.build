@@ -222,6 +222,11 @@ TestNonMemMovableStd
 cpp
 '
 '
+TestNonMemMovableStdAtomic
+.
+cpp
+'
+'
 TestNonParameterChecker
 .
 cpp
