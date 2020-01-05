@@ -1838,6 +1838,8 @@ ANNOTATION_PROCESSOR_JAR_FILES
 :
 =
 (
+abspath
+(
 DEPTH
 )
 /
@@ -1848,6 +1850,7 @@ annotationProcessors
 annotationProcessors
 .
 jar
+)
 #
 This
 annotation
@@ -2452,6 +2455,8 @@ all_resources
 =
 \
 (
+abspath
+(
 DEPTH
 )
 /
@@ -2464,6 +2469,7 @@ base
 AndroidManifest
 .
 xml
+)
 \
 (
 android_res_files
@@ -3711,6 +3717,8 @@ aapt
 nodeps
 :
 (
+abspath
+(
 DEPTH
 )
 /
@@ -3723,6 +3731,7 @@ base
 AndroidManifest
 .
 xml
+)
 FORCE
 (
 eval
@@ -3734,6 +3743,8 @@ aapt
 .
 nodeps
 (
+abspath
+(
 DEPTH
 )
 /
@@ -3746,6 +3757,7 @@ base
 AndroidManifest
 .
 xml
+)
 FORCE
 gecko
 -
@@ -4060,6 +4072,8 @@ gradle
 targets
 :
 (
+abspath
+(
 DEPTH
 )
 /
@@ -4072,6 +4086,7 @@ base
 AndroidManifest
 .
 xml
+)
 gradle
 -
 targets
