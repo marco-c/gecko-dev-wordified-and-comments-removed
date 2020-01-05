@@ -5724,6 +5724,11 @@ fmt
 va_list
 args
 )
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 ;
 #
 endif

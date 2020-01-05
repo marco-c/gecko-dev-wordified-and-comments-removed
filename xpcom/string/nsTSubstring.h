@@ -2271,6 +2271,11 @@ aFormat
 va_list
 aAp
 )
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 ;
 void
 AppendInt

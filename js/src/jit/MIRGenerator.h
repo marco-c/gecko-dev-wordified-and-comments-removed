@@ -344,6 +344,11 @@ message
 va_list
 ap
 )
+MOZ_FORMAT_PRINTF
+(
+3
+0
+)
 ;
 void
 setOffThreadStatus

@@ -117,6 +117,11 @@ char
 format
 va_list
 )
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 ;
 protected
 :
@@ -442,6 +447,11 @@ char
 format
 va_list
 ap_list
+)
+MOZ_FORMAT_PRINTF
+(
+2
+0
 )
 {
 return
@@ -820,6 +830,11 @@ mozilla
 :
 MallocAllocPolicy
 >
+MOZ_FORMAT_PRINTF
+(
+1
+0
+)
 SmprintfPolicyPointer
 <
 AllocPolicy
@@ -875,6 +890,11 @@ mozilla
 :
 MallocAllocPolicy
 >
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 SmprintfPolicyPointer
 <
 AllocPolicy

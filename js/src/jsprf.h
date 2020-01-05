@@ -120,6 +120,11 @@ fmt
 va_list
 ap
 )
+MOZ_FORMAT_PRINTF
+(
+1
+0
+)
 ;
 extern
 JS_PUBLIC_API
@@ -144,6 +149,11 @@ char
 fmt
 va_list
 ap
+)
+MOZ_FORMAT_PRINTF
+(
+2
+0
 )
 ;
 #

@@ -129,6 +129,11 @@ fmt
 va_list
 ap
 )
+MOZ_FORMAT_PRINTF
+(
+2
+0
+)
 ;
 virtual
 void

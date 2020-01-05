@@ -1554,6 +1554,11 @@ aFmt
 va_list
 aArgs
 )
+MOZ_FORMAT_PRINTF
+(
+1
+0
+)
 ;
 void
 fprintf_stderr
