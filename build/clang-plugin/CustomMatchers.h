@@ -7,13 +7,6 @@ CustomMatchers_h__
 #
 include
 "
-MozChecker
-.
-h
-"
-#
-include
-"
 MemMoveAnnotation
 .
 h
@@ -38,9 +31,6 @@ heapAllocator
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 &
@@ -58,9 +48,6 @@ noArithmeticExprInArgs
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 &
@@ -78,9 +65,6 @@ hasTrivialCtorDtor
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 &
@@ -98,9 +82,6 @@ hasNoAddRefReleaseOnReturnAttr
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 &
@@ -624,9 +605,6 @@ hasNeedsNoVTableTypeAttr
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 &
@@ -659,9 +637,6 @@ needsMemMovableTemplateArg
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 &
@@ -679,9 +654,6 @@ needsMemMovableMembers
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 &
@@ -772,9 +744,6 @@ isMarkedImplicit
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 &
@@ -837,9 +806,6 @@ getAsCXXRecordDecl
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 Rec
@@ -1143,9 +1109,6 @@ return
 Decl
 &
 &
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 Decl

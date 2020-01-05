@@ -138,11 +138,6 @@ MozCheckAction
 cpp
 '
 '
-MozChecker
-.
-cpp
-'
-'
 MustOverrideChecker
 .
 cpp

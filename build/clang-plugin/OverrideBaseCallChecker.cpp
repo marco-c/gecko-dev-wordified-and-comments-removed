@@ -58,9 +58,6 @@ Method
 )
 {
 return
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 Method

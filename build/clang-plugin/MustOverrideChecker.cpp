@@ -186,9 +186,6 @@ methods
 {
 if
 (
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 M

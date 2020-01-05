@@ -117,9 +117,6 @@ isExplicitSpecified
 &
 &
 !
-MozChecker
-:
-:
 hasCustomAnnotation
 (
 Method
