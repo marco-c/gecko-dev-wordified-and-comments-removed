@@ -5328,8 +5328,7 @@ JSObject
 target
 )
 ;
-MOZ_MUST_USE
-bool
+InliningStatus
 inlineScriptedCall
 (
 CallInfo
