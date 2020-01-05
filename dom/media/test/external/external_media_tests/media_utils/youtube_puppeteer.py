@@ -445,6 +445,8 @@ ad_inactive
 and
 self
 .
+_last_seen_video_state
+.
 duration
 and
 not
@@ -459,7 +461,7 @@ break
         
 self
 .
-update_expected_duration
+_update_expected_duration
 (
 )
     
@@ -2465,7 +2467,10 @@ self
 .
 ad_playing
 and
+                
 self
+.
+_last_seen_video_state
 .
 video_src
 .
@@ -2479,12 +2484,16 @@ and
                 
 self
 .
+_last_seen_video_state
+.
 duration
 )
 :
             
 return
 self
+.
+_last_seen_video_state
 .
 duration
         
@@ -2726,7 +2735,7 @@ and
                     
 self
 .
-measure_progress
+_measure_progress
 (
 )
 <
