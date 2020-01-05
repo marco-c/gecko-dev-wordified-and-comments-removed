@@ -3566,6 +3566,14 @@ from_untyped
 tile
 .
 page_rect
+.
+translate
+(
+&
+paint_layer
+.
+display_list_origin
+)
 )
 screen_rect
 :
