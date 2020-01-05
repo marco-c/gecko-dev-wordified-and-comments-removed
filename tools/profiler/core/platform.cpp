@@ -7077,11 +7077,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-gPS
-)
-;
 printf
 (
 "
