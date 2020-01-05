@@ -2906,6 +2906,8 @@ None
 android
 -
 x86
+-
+opt
 '
 :
 (
@@ -2916,15 +2918,7 @@ public
 /
 build
 /
-fennec
--
-(
-.
-*
-)
--
-i386
-\
+target
 .
 apk
 '
@@ -6118,6 +6112,8 @@ return
 android
 -
 x86
+-
+opt
 '
             
 return
