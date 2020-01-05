@@ -155,7 +155,7 @@ name
 )
 :
         
-ms
+ts
 =
 self
 .
@@ -166,10 +166,26 @@ _send_message
 "
 getTimeouts
 "
-key
-=
-name
 )
+        
+if
+name
+not
+in
+ts
+:
+            
+raise
+KeyError
+(
+)
+        
+ms
+=
+ts
+[
+name
+]
         
 return
 ms
@@ -342,6 +358,9 @@ seconds
 "
 "
         
+try
+:
+            
 return
 self
 .
@@ -349,6 +368,21 @@ _get
 (
 "
 pageLoad
+"
+)
+        
+except
+KeyError
+:
+            
+return
+self
+.
+_get
+(
+"
+page
+load
 "
 )
     
@@ -395,12 +429,33 @@ complete
 "
 "
         
+try
+:
+            
 self
 .
 _set
 (
 "
 pageLoad
+"
+sec
+)
+        
+except
+errors
+.
+InvalidArgumentException
+:
+            
+return
+self
+.
+_set
+(
+"
+page
+load
 "
 sec
 )
