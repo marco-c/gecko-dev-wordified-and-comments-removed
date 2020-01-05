@@ -10,6 +10,13 @@ script_layout_interface
 :
 PartialPersistentLayoutData
 ;
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 PersistentLayoutData
