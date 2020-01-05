@@ -119,8 +119,6 @@ attribute
 DOMString
 type
 ;
-/
-/
 readonly
 attribute
 HTMLOptionsCollection
@@ -141,8 +139,6 @@ long
 index
 )
 ;
-/
-/
 HTMLOptionElement
 ?
 namedItem
@@ -186,8 +182,6 @@ before
 null
 )
 ;
-/
-/
 void
 remove
 (
@@ -197,8 +191,6 @@ remove
 /
 ChildNode
 overload
-/
-/
 void
 remove
 (
