@@ -162,6 +162,7 @@ it
 *
 /
 [
+builtinclass
 uuid
 (
 0a175ba7
@@ -180,10 +181,12 @@ nsIProfilerStartParams
 :
 nsISupports
 {
+readonly
 attribute
 uint32_t
 entries
 ;
+readonly
 attribute
 double
 interval
@@ -466,6 +469,9 @@ null
 .
 *
 /
+[
+noscript
+]
 readonly
 attribute
 nsIProfilerStartParams
