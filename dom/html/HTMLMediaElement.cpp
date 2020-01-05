@@ -20457,6 +20457,11 @@ SetCapturedOutputStreamsEnabled
 true
 )
 ;
+SetAudibleState
+(
+true
+)
+;
 }
 else
 {
@@ -20543,11 +20548,6 @@ mMediaStreamListener
 nullptr
 ;
 }
-SetAudibleState
-(
-shouldPlay
-)
-;
 }
 void
 HTMLMediaElement
