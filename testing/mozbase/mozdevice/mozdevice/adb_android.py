@@ -1437,9 +1437,6 @@ ready_path
 timeout
 =
 timeout
-root
-=
-True
 )
 :
                         
@@ -1451,9 +1448,6 @@ ready_path
 timeout
 =
 timeout
-root
-=
-True
 )
                     
 self
@@ -1464,9 +1458,6 @@ ready_path
 timeout
 =
 timeout
-root
-=
-True
 )
                     
 self
@@ -1477,9 +1468,6 @@ ready_path
 timeout
 =
 timeout
-root
-=
-True
 )
                     
 for
