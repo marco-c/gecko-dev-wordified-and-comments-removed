@@ -3,7 +3,7 @@
 [
 feature
 (
-nonzero
+clone_from_slice
 )
 ]
 #
@@ -11,7 +11,7 @@ nonzero
 [
 feature
 (
-slice_bytes
+nonzero
 )
 ]
 #

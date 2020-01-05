@@ -14,10 +14,7 @@ euclid
 size
 :
 :
-{
-Size2D
 TypedSize2D
-}
 ;
 use
 hyper
