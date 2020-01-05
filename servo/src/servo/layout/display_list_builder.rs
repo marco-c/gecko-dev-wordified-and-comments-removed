@@ -1347,14 +1347,11 @@ test
 [
 ignore
 (
-cfg
-(
-target_os
+reason
 =
 "
-macos
+busted
 "
-)
 )
 ]
 ;
