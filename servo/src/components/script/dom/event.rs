@@ -611,6 +611,12 @@ initialized
 =
 true
 ;
+self
+.
+default_prevented
+=
+false
+;
 }
 pub
 fn
