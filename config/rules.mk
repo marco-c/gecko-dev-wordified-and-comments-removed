@@ -7591,6 +7591,13 @@ _PREPROCESSED_
 1_FILES
 )
 :
+_DEPEND_CFLAGS
+=
+(
+_PREPROCESSED_
+1_FILES
+)
+:
 %
 .
 i
@@ -7598,13 +7605,6 @@ i
 %
 .
 1
-(
-call
-mkdir_deps
-(
-MDDEPDIR
-)
-)
 (
 REPORT_BUILD_VERBOSE
 )
