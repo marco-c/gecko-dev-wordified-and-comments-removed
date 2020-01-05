@@ -112,8 +112,6 @@ HTMLTableElement
 :
 HTMLElement
 {
-/
-/
 attribute
 HTMLTableCaptionElement
 ?
