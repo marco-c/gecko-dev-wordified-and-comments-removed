@@ -2018,17 +2018,6 @@ fwdTransactionId
 ;
 }
 ;
-struct
-OpNotifyNotUsedToNonRecycle
-{
-uint64_t
-TextureId
-;
-uint64_t
-fwdTransactionId
-;
-}
-;
 union
 CompositableOperationDetail
 {
@@ -2265,8 +2254,6 @@ union
 AsyncParentMessageData
 {
 OpNotifyNotUsed
-;
-OpNotifyNotUsedToNonRecycle
 ;
 }
 ;
