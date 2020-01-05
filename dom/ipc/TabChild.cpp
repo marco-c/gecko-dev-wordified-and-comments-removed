@@ -7927,7 +7927,11 @@ aEvent
 .
 mTimeStamp
 <
+(
 mLastWheelProcessedTimeFromParent
++
+mLastWheelProcessingDuration
+)
 &
 &
 (
@@ -8243,8 +8247,7 @@ aGuid
 aInputBlockId
 )
 ;
-mLastWheelProcessedTimeFromParent
-+
+mLastWheelProcessingDuration
 =
 (
 TimeStamp
@@ -8256,6 +8259,11 @@ Now
 -
 beforeDispatchingTime
 )
+;
+mLastWheelProcessedTimeFromParent
++
+=
+mLastWheelProcessingDuration
 ;
 }
 else
