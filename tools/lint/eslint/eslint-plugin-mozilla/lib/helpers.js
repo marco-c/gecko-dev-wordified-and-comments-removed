@@ -410,8 +410,6 @@ exports
 =
 {
 getAST
-:
-function
 (
 sourceText
 )
@@ -436,8 +434,6 @@ config
 ;
 }
 getASTSource
-:
-function
 (
 node
 )
@@ -926,8 +922,6 @@ left
 }
 }
 convertWorkerExpressionToGlobals
-:
-function
 (
 node
 isGlobal
@@ -1172,8 +1166,6 @@ results
 ;
 }
 convertExpressionToGlobals
-:
-function
 (
 node
 isGlobal
@@ -1360,8 +1352,6 @@ return
 ;
 }
 addVarToScope
-:
-function
 (
 name
 scope
@@ -1480,8 +1470,6 @@ false
 ;
 }
 addGlobals
-:
-function
 (
 globalVars
 scope
@@ -1510,8 +1498,6 @@ writable
 ;
 }
 getPermissiveConfig
-:
-function
 (
 )
 {
@@ -1551,8 +1537,6 @@ true
 ;
 }
 getIsGlobalScope
-:
-function
 (
 ancestors
 )
@@ -1597,8 +1581,6 @@ true
 ;
 }
 getIsHeadFile
-:
-function
 (
 scope
 )
@@ -1645,8 +1627,6 @@ pathAndFilename
 ;
 }
 getTestHeadFiles
-:
-function
 (
 scope
 )
@@ -1746,8 +1726,6 @@ names
 ;
 }
 getManifestsForDirectory
-:
-function
 (
 dir
 )
@@ -1832,9 +1810,9 @@ join
 dir
 name
 )
-'
+"
 utf8
-'
+"
 )
 )
 ;
@@ -1877,8 +1855,6 @@ manifests
 ;
 }
 getTestManifest
-:
-function
 (
 scope
 )
@@ -1951,8 +1927,6 @@ null
 ;
 }
 getIsTest
-:
-function
 (
 scope
 )
@@ -1988,8 +1962,6 @@ scope
 ;
 }
 getTestType
-:
-function
 (
 scope
 )
@@ -2121,8 +2093,6 @@ null
 ;
 }
 getIsWorker
-:
-function
 (
 filePath
 )
@@ -2158,8 +2128,6 @@ worker
 ;
 }
 getRootDir
-:
-function
 (
 fileName
 )
@@ -2233,8 +2201,6 @@ dirName
 ;
 }
 getAbsoluteFilePath
-:
-function
 (
 context
 )
@@ -2300,8 +2266,6 @@ fileName
 )
 ;
 }
-else
-{
 var
 dirName
 =
@@ -2330,10 +2294,7 @@ length
 fileName
 ;
 }
-}
 cleanUpPath
-:
-function
 (
 path
 )

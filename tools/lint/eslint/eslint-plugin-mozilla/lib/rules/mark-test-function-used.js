@@ -28,8 +28,6 @@ context
 return
 {
 Program
-:
-function
 (
 )
 {
@@ -83,8 +81,6 @@ markVariableAsUsed
 run_test
 "
 )
-;
-return
 ;
 }
 }

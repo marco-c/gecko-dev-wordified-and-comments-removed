@@ -34,8 +34,6 @@ return
 [
 {
 message
-:
-message
 type
 :
 "

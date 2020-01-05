@@ -26,9 +26,9 @@ fs
 =
 require
 (
-'
+"
 fs
-'
+"
 )
 ;
 var

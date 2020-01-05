@@ -278,8 +278,6 @@ parser
 :
 null
 onOpenTag
-:
-function
 (
 tag
 )
@@ -410,8 +408,6 @@ node
 ;
 }
 onCloseTag
-:
-function
 (
 tagname
 )
@@ -440,8 +436,6 @@ parentNode
 ;
 }
 addText
-:
-function
 (
 text
 )
@@ -457,8 +451,6 @@ text
 ;
 }
 onText
-:
-function
 (
 text
 )
@@ -480,8 +472,6 @@ null
 ;
 }
 onOpenCDATA
-:
-function
 (
 )
 {
@@ -508,8 +498,6 @@ length
 ;
 }
 onCDATA
-:
-function
 (
 text
 )
@@ -523,8 +511,6 @@ text
 ;
 }
 onComment
-:
-function
 (
 text
 )
@@ -962,8 +948,6 @@ exports
 =
 {
 preprocess
-:
-function
 (
 text
 filename
@@ -1908,8 +1892,6 @@ script
 ;
 }
 postprocess
-:
-function
 (
 messages
 filename

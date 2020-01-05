@@ -488,8 +488,6 @@ false
 return
 {
 CallExpression
-:
-function
 (
 node
 )

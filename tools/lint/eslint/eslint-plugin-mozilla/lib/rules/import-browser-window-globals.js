@@ -68,8 +68,6 @@ context
 return
 {
 Program
-:
-function
 (
 node
 )

@@ -204,8 +204,6 @@ true
 "
 )
 comment
-:
-comment
 }
 ;
 }
@@ -520,8 +518,6 @@ return
 ]
 ;
 }
-else
-{
 globalDiscoveryInProgressForFiles
 .
 add
@@ -529,7 +525,6 @@ add
 path
 )
 ;
-}
 let
 content
 =
@@ -663,8 +658,8 @@ replace
 n
 /
 g
-'
-'
+"
+"
 )
 ;
 let

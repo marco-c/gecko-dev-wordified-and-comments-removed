@@ -125,8 +125,6 @@ getScope
 return
 {
 Program
-:
-function
 (
 node
 )

@@ -32,14 +32,10 @@ message
 return
 {
 code
-:
-code
 errors
 :
 [
 {
-message
-:
 message
 type
 :
