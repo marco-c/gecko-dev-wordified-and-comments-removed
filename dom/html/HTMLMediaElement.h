@@ -3150,6 +3150,11 @@ NotifyDecoderActivityChanges
 )
 const
 ;
+void
+MarkAsTainted
+(
+)
+;
 RefPtr
 <
 MediaDecoder
