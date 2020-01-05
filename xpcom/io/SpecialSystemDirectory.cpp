@@ -482,6 +482,11 @@ aFile
 )
 ;
 }
+#
+if
+WINVER
+<
+0x0601
 __inline
 HRESULT
 SHLoadLibraryFromKnownFolder
@@ -573,6 +578,8 @@ return
 hr
 ;
 }
+#
+endif
 static
 nsresult
 GetLibrarySaveToPath
