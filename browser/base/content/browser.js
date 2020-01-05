@@ -38059,6 +38059,12 @@ return
 }
 if
 (
+!
+this
+.
+_sharingState
+&
+&
 gURLBar
 .
 getAttribute
