@@ -384,6 +384,10 @@ maxTries
 .
 then
 (
+(
+)
+=
+>
 resolve
 (
 condition
@@ -448,8 +452,16 @@ text
 return
 elements
 .
+length
+>
+0
+?
+elements
+.
 pop
 (
 )
+:
+false
 ;
 }
