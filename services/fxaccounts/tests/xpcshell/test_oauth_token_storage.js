@@ -719,7 +719,6 @@ persist
 -
 done
 "
-null
 )
 ;
 }

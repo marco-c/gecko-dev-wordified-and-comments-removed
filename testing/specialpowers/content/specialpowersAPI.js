@@ -5507,7 +5507,6 @@ fullZoom
 :
 zoomReset
 "
-null
 )
 ;
 }

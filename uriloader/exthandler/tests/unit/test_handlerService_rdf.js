@@ -202,7 +202,6 @@ rdf
 -
 replace
 "
-null
 )
 ;
 yield

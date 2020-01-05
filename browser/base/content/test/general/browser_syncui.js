@@ -184,7 +184,6 @@ notifyObservers
 (
 null
 topic
-null
 )
 ;
 }
@@ -600,7 +599,6 @@ login
 :
 finish
 "
-null
 )
 ;
 }

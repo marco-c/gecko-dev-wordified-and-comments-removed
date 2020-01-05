@@ -73,7 +73,6 @@ observer
 -
 created
 "
-null
 )
 ;
 }
@@ -116,7 +115,6 @@ observer
 -
 visited
 "
-null
 )
 ;
 }
@@ -170,7 +168,6 @@ item
 -
 added
 "
-null
 )
 ;
 }

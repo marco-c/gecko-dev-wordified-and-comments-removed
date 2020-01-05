@@ -978,8 +978,6 @@ session
 -
 history
 "
-"
-"
 )
 ;
 }
@@ -1132,8 +1130,6 @@ purge
 session
 -
 tabs
-"
-"
 "
 )
 ;
@@ -1735,7 +1731,6 @@ active
 -
 logins
 "
-null
 )
 ;
 TelemetryStopwatch

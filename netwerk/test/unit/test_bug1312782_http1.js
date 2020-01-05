@@ -943,7 +943,6 @@ content
 -
 windowid
 "
-null
 )
 ;
 }

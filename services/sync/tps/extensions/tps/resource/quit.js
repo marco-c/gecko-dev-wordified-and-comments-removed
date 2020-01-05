@@ -78,7 +78,6 @@ application
 -
 requested
 "
-null
 )
 ;
 if

@@ -632,8 +632,6 @@ startup
 -
 complete
 "
-"
-"
 )
 ;
 content

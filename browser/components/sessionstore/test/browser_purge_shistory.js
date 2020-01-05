@@ -267,8 +267,6 @@ session
 -
 history
 "
-"
-"
 )
 ;
 yield

@@ -474,7 +474,6 @@ policy
 :
 close
 "
-null
 )
 ;
 }

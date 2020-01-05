@@ -1679,7 +1679,6 @@ updating
 -
 sites
 "
-null
 )
 ;
 is
@@ -1762,7 +1761,6 @@ sites
 -
 updated
 "
-null
 )
 ;
 is

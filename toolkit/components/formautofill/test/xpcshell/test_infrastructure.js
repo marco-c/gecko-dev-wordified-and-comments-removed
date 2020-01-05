@@ -171,8 +171,6 @@ my
 -
 topic
 "
-"
-"
 )
 ;
 yield

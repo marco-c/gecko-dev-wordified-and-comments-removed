@@ -42,7 +42,6 @@ context
 -
 exited
 "
-null
 )
 ;
 }

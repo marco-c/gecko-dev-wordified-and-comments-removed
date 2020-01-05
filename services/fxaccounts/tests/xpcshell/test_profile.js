@@ -1718,7 +1718,6 @@ notifyObservers
 (
 null
 ON_PROFILE_CHANGE_NOTIFICATION
-null
 )
 ;
 yield

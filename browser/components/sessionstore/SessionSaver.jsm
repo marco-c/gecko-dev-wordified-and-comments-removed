@@ -329,8 +329,6 @@ notifyObservers
 (
 subject
 topic
-"
-"
 )
 ;
 }

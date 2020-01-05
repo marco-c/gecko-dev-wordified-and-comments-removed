@@ -43,7 +43,6 @@ console
 -
 works
 "
-null
 )
 ;
 }
@@ -64,7 +63,6 @@ test
 -
 devtools
 "
-null
 )
 ;
 }

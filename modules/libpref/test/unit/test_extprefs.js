@@ -341,7 +341,6 @@ extension
 -
 defaults
 "
-null
 )
 ;
 do_check_true

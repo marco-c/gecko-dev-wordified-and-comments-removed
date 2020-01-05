@@ -6536,8 +6536,6 @@ PopupNotifications
 "
 +
 topic
-"
-"
 )
 ;
 }

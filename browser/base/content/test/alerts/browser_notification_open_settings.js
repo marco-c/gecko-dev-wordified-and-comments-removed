@@ -162,7 +162,6 @@ open
 -
 settings
 "
-null
 )
 ;
 let
