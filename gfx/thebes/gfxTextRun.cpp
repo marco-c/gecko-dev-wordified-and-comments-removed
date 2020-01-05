@@ -10050,11 +10050,6 @@ font
 font
 -
 >
-GetFontEntry
-(
-)
--
->
 TryGetMathTable
 (
 )
