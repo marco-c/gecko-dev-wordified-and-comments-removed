@@ -13663,3 +13663,15 @@ simple
 ;
 #
 endif
+pref
+(
+"
+dom
+.
+select_popup_in_parent
+.
+enabled
+"
+true
+)
+;
