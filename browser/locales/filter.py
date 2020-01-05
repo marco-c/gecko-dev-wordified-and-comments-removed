@@ -50,11 +50,6 @@ browser
 "
 extensions
 /
-reporter
-"
-"
-extensions
-/
 spellcheck
 "
                  
@@ -80,14 +75,6 @@ official
 services
 /
 sync
-"
-                 
-"
-browser
-/
-extensions
-/
-pocket
 "
 )
 :
