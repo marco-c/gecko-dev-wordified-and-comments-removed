@@ -1392,6 +1392,12 @@ mLastChunk
 =
 chunk
 ;
+chunk
+.
+mDuration
+=
+0
+;
 TRACK_LOG
 (
 LogLevel
