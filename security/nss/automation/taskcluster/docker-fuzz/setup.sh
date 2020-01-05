@@ -322,6 +322,10 @@ fr
 clang
 -
 tmp
+#
+Generate
+locales
+.
 locale
 -
 gen

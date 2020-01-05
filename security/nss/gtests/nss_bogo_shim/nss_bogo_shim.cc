@@ -599,15 +599,9 @@ if
 !
 key_
 )
-{
-exitCodeUnimplemented
-=
-true
-;
 return
 false
 ;
-}
 }
 if
 (
