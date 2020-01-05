@@ -1777,7 +1777,7 @@ aElement
 nsIAtom
 *
 aPseudoTagOrNull
-ServoComputedValuesBorrowed
+ServoComputedValuesBorrowedOrNull
 aComputedValues
 ServoComputedValuesBorrowedOrNull
 aParentComputedValues
@@ -1793,11 +1793,6 @@ NS_IsMainThread
 MOZ_ASSERT
 (
 aElement
-)
-;
-MOZ_ASSERT
-(
-aComputedValues
 )
 ;
 nsPresContext
