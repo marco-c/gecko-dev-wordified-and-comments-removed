@@ -954,9 +954,6 @@ mFlacSerial
 vorbis_info
 mVorbisInfo
 ;
-int
-mOpusPreSkip
-;
 th_info
 mTheoraInfo
 ;
