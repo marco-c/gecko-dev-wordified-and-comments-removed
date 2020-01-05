@@ -1654,7 +1654,6 @@ a
 B
 b
 :
-mut
 RenderBox
 )
 -
@@ -1684,6 +1683,7 @@ mut
 *
 root
 ;
+do
 root
 .
 box
@@ -1691,6 +1691,7 @@ box
 map_default
 (
 seed
+)
 |
 box
 |
@@ -1702,7 +1703,6 @@ seed
 box
 )
 }
-)
 }
 BlockFlow
 (
@@ -1719,6 +1719,7 @@ mut
 *
 block
 ;
+do
 block
 .
 box
@@ -1726,6 +1727,7 @@ box
 map_default
 (
 seed
+)
 |
 box
 |
@@ -1737,7 +1739,6 @@ seed
 box
 )
 }
-)
 }
 InlineFlow
 (
@@ -1754,6 +1755,7 @@ mut
 *
 inline
 ;
+do
 inline
 .
 boxes
@@ -1761,6 +1763,7 @@ boxes
 foldl
 (
 seed
+)
 |
 acc
 box
@@ -1774,7 +1777,6 @@ acc
 box
 )
 }
-)
 }
 _
 =
@@ -1831,7 +1833,6 @@ fn
 a
 :
 B
-mut
 RenderBox
 )
 -
@@ -1857,11 +1858,9 @@ box
 if
 box
 .
-d
+node
 (
 )
-.
-node
 =
 =
 node
@@ -1889,7 +1888,6 @@ cb
 &
 fn
 (
-mut
 RenderBox
 )
 -
@@ -2059,7 +2057,6 @@ callback
 &
 fn
 (
-mut
 RenderBox
 )
 -
@@ -2078,11 +2075,9 @@ box
 if
 box
 .
-d
+node
 (
 )
-.
-node
 =
 =
 node
@@ -2296,11 +2291,9 @@ d
 s
 box
 .
-d
+id
 (
 )
-.
-id
 )
 }
 )
@@ -2356,11 +2349,9 @@ d
 "
 box
 .
-d
+id
 (
 )
-.
-id
 )
 None
 =
@@ -2401,7 +2392,7 @@ fmt
 !
 (
 "
-RootFlo
+RootFlow
 (
 box
 =
@@ -2412,11 +2403,9 @@ d
 "
 box
 .
-d
+id
 (
 )
-.
-id
 )
 None
 =

@@ -115,7 +115,6 @@ box
 :
 Option
 <
-mut
 RenderBox
 >
 }
@@ -372,11 +371,15 @@ with_block_box
 box
 |
 {
+do
 box
 .
-d
-(
-)
+with_mut_base
+|
+base
+|
+{
+base
 .
 position
 .
@@ -389,11 +392,7 @@ Au
 0
 )
 ;
-box
-.
-d
-(
-)
+base
 .
 position
 .
@@ -428,6 +427,7 @@ get_used_height
 (
 )
 ;
+}
 }
 }
 pub
