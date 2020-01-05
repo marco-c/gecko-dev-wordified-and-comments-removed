@@ -1563,7 +1563,7 @@ for
 scope
 {
 0
-]
+}
 because
 the
 registration
