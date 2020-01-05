@@ -1210,7 +1210,6 @@ option
 :
 expect
 (
-&
 self
 .
 compartment
@@ -1237,7 +1236,6 @@ option
 :
 get
 (
-&
 self
 .
 document
@@ -1247,7 +1245,6 @@ option
 :
 get
 (
-&
 self
 .
 window
@@ -1308,7 +1305,6 @@ option
 :
 expect
 (
-&
 self
 .
 compartment
@@ -1512,7 +1508,6 @@ option
 :
 expect
 (
-&
 self
 .
 compartment

@@ -600,8 +600,8 @@ get
 ;
 let
 built_sel
-<
--
+=
+move
 cur_sel
 ;
 match
@@ -635,8 +635,7 @@ copy
 elmt
 ;
 cur_sel
-<
--
+=
 ~
 css
 :
@@ -687,8 +686,7 @@ copy
 elmt
 ;
 cur_sel
-<
--
+=
 ~
 css
 :
@@ -739,8 +737,7 @@ copy
 elmt
 ;
 cur_sel
-<
--
+=
 ~
 css
 :

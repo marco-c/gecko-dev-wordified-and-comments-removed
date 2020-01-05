@@ -500,7 +500,6 @@ option
 :
 expect
 (
-&
 (
 *
 content

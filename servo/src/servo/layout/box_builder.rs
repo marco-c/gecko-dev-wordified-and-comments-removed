@@ -441,8 +441,8 @@ resolved
 impl
 BoxGenerator
 {
-pub
 static
+pub
 pure
 fn
 new

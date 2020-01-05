@@ -94,7 +94,7 @@ good
 Rust
 commit
 :
-754704ea9442ce92602f8022f6c979824b016842
+3b6f5a1
 [
 rust
 ]

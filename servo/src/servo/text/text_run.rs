@@ -225,8 +225,8 @@ glyphs
 impl
 TextRun
 {
-pub
 static
+pub
 fn
 new
 (
