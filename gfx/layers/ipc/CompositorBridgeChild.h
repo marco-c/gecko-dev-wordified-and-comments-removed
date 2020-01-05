@@ -983,6 +983,8 @@ PipelineId
 aPipelineId
 TextureFactoryIdentifier
 *
+uint32_t
+*
 )
 override
 ;

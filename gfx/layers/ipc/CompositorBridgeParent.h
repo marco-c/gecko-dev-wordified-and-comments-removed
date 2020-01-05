@@ -2004,6 +2004,9 @@ aPipelineId
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
+uint32_t
+*
+aIdNamespace
 )
 override
 ;

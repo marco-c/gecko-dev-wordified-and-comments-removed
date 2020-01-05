@@ -214,6 +214,9 @@ mGlyphHelper
 .
 BuildWebRenderCommands
 (
+WrBridge
+(
+)
 commands
 mGlyphs
 mFont
