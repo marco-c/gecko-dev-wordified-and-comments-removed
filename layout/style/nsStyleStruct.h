@@ -13873,6 +13873,8 @@ return
 nsChangeHint_ReconstructFrame
 |
 NS_STYLE_HINT_REFLOW
+|
+nsChangeHint_NeutralChange
 ;
 }
 static
