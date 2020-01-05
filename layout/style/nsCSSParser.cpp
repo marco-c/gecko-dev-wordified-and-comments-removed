@@ -34022,14 +34022,14 @@ RefPtr
 nsCSSValue
 :
 :
-Array
+ThreadSafeArray
 >
 val
 =
 nsCSSValue
 :
 :
-Array
+ThreadSafeArray
 :
 :
 Create
@@ -34210,7 +34210,7 @@ break
 }
 aValue
 .
-SetArrayValue
+SetThreadSafeArrayValue
 (
 val
 unit

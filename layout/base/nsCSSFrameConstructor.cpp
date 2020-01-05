@@ -7352,7 +7352,7 @@ eStyleContentType_Counters
 nsCSSValue
 :
 :
-Array
+ThreadSafeArray
 *
 counters
 =
