@@ -150,7 +150,6 @@ sigma
 1
 .
 html
-fails
 =
 =
 small
@@ -167,7 +166,6 @@ caps
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -193,7 +191,6 @@ caps
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -219,7 +216,6 @@ caps
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -245,7 +241,6 @@ caps
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -271,7 +266,6 @@ caps
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -426,7 +420,6 @@ casing
 1
 .
 html
-fails
 HTTP
 (
 .
@@ -500,7 +493,6 @@ uppercase
 2
 .
 html
-fails
 HTTP
 (
 .

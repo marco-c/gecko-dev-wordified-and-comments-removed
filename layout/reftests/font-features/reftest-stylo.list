@@ -345,7 +345,6 @@ hlig
 5
 .
 html
-fails
 HTTP
 (
 .
@@ -682,7 +681,6 @@ order
 3
 .
 html
-fails
 HTTP
 (
 .
@@ -873,7 +871,6 @@ variant
 caps
 .
 html
-fails
 HTTP
 (
 .
@@ -899,7 +896,6 @@ east
 asian
 .
 html
-fails
 HTTP
 (
 .
@@ -921,7 +917,6 @@ variant
 ligatures
 .
 html
-fails
 HTTP
 (
 .
@@ -1688,7 +1683,6 @@ like
 the
 default
 rendering
-fails
 HTTP
 (
 .
@@ -1803,7 +1797,6 @@ normal
 or
 fallback
 rendering
-fails
 HTTP
 (
 .
