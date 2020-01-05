@@ -6557,6 +6557,12 @@ if
 (
 !
 maybeAttach
+|
+|
+attachEnum
+=
+=
+LOCAL_GL_NONE
 )
 {
 mContext
