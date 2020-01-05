@@ -13,5 +13,5 @@ ns_t_array
 ;
 pub
 mod
-refptr
+ownership
 ;
