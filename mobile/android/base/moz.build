@@ -1248,6 +1248,8 @@ script
 generate_build_config
 .
 py
+:
+generate_java
 '
 w
 .
@@ -1296,6 +1298,8 @@ script
 generate_build_config
 .
 py
+:
+generate_java
 '
 x
 .
@@ -1339,6 +1343,8 @@ script
 generate_build_config
 .
 py
+:
+generate_java
 '
 y
 .
