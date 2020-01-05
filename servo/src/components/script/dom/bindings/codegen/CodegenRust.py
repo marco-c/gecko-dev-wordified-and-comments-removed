@@ -13907,8 +13907,8 @@ aGlobal
 aReceiver
 parentProto
                                
-%
-s
+&
+PrototypeClass
 %
 s
 %
@@ -13938,22 +13938,6 @@ s
 "
 %
 (
-            
-"
-&
-PrototypeClass
-"
-if
-needInterfacePrototypeObject
-else
-"
-ptr
-:
-:
-null
-(
-)
-"
             
 "
 Some
