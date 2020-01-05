@@ -69,6 +69,8 @@ float
 alpha
 =
 1
+.
+f
 ;
 vec2
 local_pos
@@ -86,6 +88,8 @@ float
 alpha
 =
 1
+.
+f
 ;
 vec2
 local_pos

@@ -65,15 +65,6 @@ enabled
 :
 false
 "
-gfx
-.
-webrender
-.
-enabled
-"
-:
-true
-"
 js
 .
 baseline

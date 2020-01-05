@@ -61,6 +61,6 @@ vec2
 vUv
 ;
 varying
-float
-vOpacity
+vec2
+vBrightnessOpacity
 ;

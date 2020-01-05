@@ -184,13 +184,13 @@ aPosition
 xy
 )
 ;
-vOpacity
+vBrightnessOpacity
 =
 blend
 .
 src_id_target_id_opacity
 .
-z
+zw
 ;
 gl_Position
 =
