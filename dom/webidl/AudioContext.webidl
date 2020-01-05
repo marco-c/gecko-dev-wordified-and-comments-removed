@@ -143,11 +143,6 @@ apply
 /
 [
 Constructor
-Constructor
-(
-AudioChannel
-audioChannelType
-)
 Pref
 =
 "
