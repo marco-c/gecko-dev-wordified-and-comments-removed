@@ -50,6 +50,17 @@ mdump
 extra
 )
 {
+do_check_eq
+(
+extra
+.
+MozCrashReason
+"
+OH
+NO
+"
+)
+;
 }
 true
 )
