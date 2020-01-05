@@ -483,11 +483,8 @@ Headers
 >
 CORSRequest
 {
-match
-referer
-.
-scheme_data
-{
+if
+let
 SchemeData
 :
 :
@@ -498,7 +495,10 @@ mut
 data
 )
 =
->
+referer
+.
+scheme_data
+{
 data
 .
 path
@@ -507,13 +507,8 @@ vec
 !
 [
 ]
-_
-=
->
-{
-}
-}
 ;
+}
 referer
 .
 fragment
@@ -880,8 +875,9 @@ name
 )
 )
 )
-{
-if
+&
+&
+(
 !
 is_simple_method
 (
@@ -901,6 +897,7 @@ RequestMode
 :
 :
 ForcedPreflight
+)
 {
 return
 self
@@ -909,7 +906,6 @@ preflight_fetch
 (
 )
 ;
-}
 }
 response
 }
@@ -2100,9 +2096,6 @@ buf
 *
 self
 ;
-let
-entry
-=
 buf
 .
 iter_mut
@@ -2185,8 +2178,6 @@ header_name
 )
 }
 )
-;
-entry
 }
 fn
 match_header
@@ -2314,9 +2305,6 @@ buf
 *
 self
 ;
-let
-entry
-=
 buf
 .
 iter_mut
@@ -2399,8 +2387,6 @@ method
 )
 }
 )
-;
-entry
 }
 fn
 match_method

@@ -959,15 +959,7 @@ decl
 ;
 result
 .
-map
-(
-DOMString
-:
-:
-from
-)
-.
-unwrap_or
+map_or
 (
 DOMString
 :
@@ -975,6 +967,10 @@ DOMString
 new
 (
 )
+DOMString
+:
+:
+from
 )
 }
 /
@@ -1223,9 +1219,6 @@ Step
 3
 &
 4
-let
-result
-=
 match
 owner
 .
@@ -1262,8 +1255,6 @@ new
 (
 )
 }
-;
-result
 }
 /
 /

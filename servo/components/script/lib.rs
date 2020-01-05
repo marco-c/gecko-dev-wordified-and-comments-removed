@@ -633,7 +633,6 @@ libc
 :
 RLIMIT_NOFILE
 &
-mut
 rlim
 )
 {

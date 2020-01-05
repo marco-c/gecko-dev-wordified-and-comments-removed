@@ -2524,10 +2524,6 @@ vec
 }
 fn
 root
-<
-'
-b
->
 (
 &
 self
@@ -2599,8 +2595,6 @@ is_null
 fn
 unroot
 <
-'
-b
 T
 :
 Reflectable

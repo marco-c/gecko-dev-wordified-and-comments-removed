@@ -308,14 +308,12 @@ self
 >
 PipelineId
 {
-return
 PipelineId
 :
 :
 fake_root_pipeline_id
 (
 )
-;
 }
 }
 lazy_static
@@ -714,9 +712,6 @@ Device
 >
 Stylist
 {
-let
-stylist
-=
 Stylist
 {
 viewport_constraints
@@ -767,8 +762,6 @@ new
 (
 )
 }
-;
-stylist
 }
 pub
 fn

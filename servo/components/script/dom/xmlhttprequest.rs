@@ -2027,7 +2027,6 @@ unwrap
 let
 listener
 =
-box
 NetworkListener
 {
 context
@@ -3908,8 +3907,9 @@ as_ref
 (
 )
 .
-map
+map_or
 (
+0
 |
 e
 |
@@ -3918,11 +3918,6 @@ e
 len
 (
 )
-)
-.
-unwrap_or
-(
-0
 )
 )
 ;
@@ -9066,9 +9061,6 @@ mime
 }
 )
 ;
-let
-document
-=
 Document
 :
 :
@@ -9085,8 +9077,6 @@ DocumentSource
 FromParser
 docloader
 )
-;
-document
 }
 fn
 filter_response_headers

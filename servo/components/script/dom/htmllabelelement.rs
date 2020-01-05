@@ -314,9 +314,7 @@ self
 >
 bool
 {
-return
 true
-;
 }
 /
 /

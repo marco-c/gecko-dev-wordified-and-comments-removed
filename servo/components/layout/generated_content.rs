@@ -2754,7 +2754,7 @@ close
 {
 close_quote
 .
-to_string
+clone
 (
 )
 }
@@ -2762,7 +2762,7 @@ else
 {
 open_quote
 .
-to_string
+clone
 (
 )
 }

@@ -128,9 +128,6 @@ Send
 Sync
 >
 {
-let
-error_reporter
-=
 box
 CSSErrorReporter
 {
@@ -140,10 +137,6 @@ self
 .
 pipelineid
 }
-;
-return
-error_reporter
-;
 }
 fn
 pipeline
@@ -155,10 +148,8 @@ self
 >
 PipelineId
 {
-return
 self
 .
 pipelineid
-;
 }
 }

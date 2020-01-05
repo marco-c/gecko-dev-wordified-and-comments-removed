@@ -254,10 +254,6 @@ read_dir
 path
 )
 .
-ok
-(
-)
-.
 expect
 (
 "

@@ -333,8 +333,9 @@ as_ref
 (
 )
 .
-map
+map_or
 (
+0
 |
 p
 |
@@ -343,11 +344,6 @@ p
 len
 (
 )
-)
-.
-unwrap_or
-(
-0
 )
 ;
 let
@@ -363,8 +359,9 @@ as_ref
 (
 )
 .
-map
+map_or
 (
+0
 |
 p
 |
@@ -373,11 +370,6 @@ p
 len
 (
 )
-)
-.
-unwrap_or
-(
-0
 )
 ;
 match

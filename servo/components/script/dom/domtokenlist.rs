@@ -380,8 +380,9 @@ attribute
 (
 )
 .
-map
+map_or
 (
+0
 |
 attr
 |
@@ -409,11 +410,6 @@ len
 (
 )
 }
-)
-.
-unwrap_or
-(
-0
 )
 as
 u32
@@ -518,8 +514,9 @@ attribute
 (
 )
 .
-map
+map_or
 (
+false
 |
 attr
 |
@@ -562,11 +559,6 @@ atom
 token
 )
 }
-)
-.
-unwrap_or
-(
-false
 )
 }
 )

@@ -1112,7 +1112,6 @@ as
 FT_ULong
 )
 ;
-return
 if
 idx
 !
@@ -1145,7 +1144,6 @@ codepoint
 ;
 None
 }
-;
 }
 }
 fn
@@ -1339,7 +1337,6 @@ advance
 as
 i32
 ;
-return
 Some
 (
 fixed_to_float_ft
@@ -1349,7 +1346,6 @@ advance
 as
 FractionalPixel
 )
-;
 }
 else
 {
@@ -1373,9 +1369,7 @@ glyph
 res
 )
 ;
-return
 None
-;
 }
 }
 }
@@ -1648,8 +1642,9 @@ idx
 )
 )
 .
-map
+map_or
 (
+max_advance
 |
 advance
 |
@@ -1659,11 +1654,6 @@ font_units_to_au
 (
 advance
 )
-)
-.
-unwrap_or
-(
-max_advance
 )
 ;
 let
@@ -1735,9 +1725,7 @@ to_f32_px
 metrics
 )
 ;
-return
 metrics
-;
 }
 fn
 table_for_tag
@@ -2065,7 +2053,6 @@ metrics
 y_ppem
 )
 ;
-return
 Au
 :
 :
@@ -2075,6 +2062,5 @@ value
 *
 x_scale
 )
-;
 }
 }
