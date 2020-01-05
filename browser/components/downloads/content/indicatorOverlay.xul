@@ -337,7 +337,7 @@ button
 "
 >
 <
-vbox
+stack
 id
 =
 "
@@ -365,7 +365,7 @@ icon
 >
 <
 /
-vbox
+stack
 >
 <
 vbox
