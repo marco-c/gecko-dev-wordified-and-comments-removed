@@ -346,7 +346,7 @@ GetGPUChild
 GfxPrefValue
 value
 ;
-GetCachedValue
+GetLiveValue
 (
 &
 value
