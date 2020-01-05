@@ -158,6 +158,14 @@ instanceData
 )
 ;
 bool
+pluginTriggerXError
+(
+InstanceData
+*
+instanceData
+)
+;
+bool
 pluginDestroySharedGfxStuff
 (
 InstanceData
