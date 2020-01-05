@@ -99,6 +99,15 @@ complete
 "
 weave
 :
+service
+:
+sync
+:
+error
+"
+"
+weave
+:
 ui
 :
 login
