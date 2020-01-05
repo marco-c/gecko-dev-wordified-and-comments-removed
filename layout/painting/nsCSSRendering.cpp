@@ -2222,9 +2222,6 @@ MakeBevelColor
 mozilla
 :
 :
-css
-:
-:
 Side
 whichSide
 uint8_t
@@ -2290,9 +2287,6 @@ nscolor
 MakeBevelColor
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -7941,9 +7935,6 @@ nsStyleBorder
 &
 aBorder
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -20950,9 +20941,6 @@ true
 0
 ;
 mozilla
-:
-:
-css
 :
 :
 Side

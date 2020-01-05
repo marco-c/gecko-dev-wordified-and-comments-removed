@@ -1019,9 +1019,6 @@ eLogicalEdgeStart
 mozilla
 :
 :
-css
-:
-:
 Side
 side
 ;

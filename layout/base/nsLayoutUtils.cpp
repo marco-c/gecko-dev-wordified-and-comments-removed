@@ -33290,9 +33290,6 @@ IsCornerAdjacentToSide
 (
 uint8_t
 aCorner
-css
-:
-:
 Side
 aSide
 )
@@ -33496,9 +33493,6 @@ const
 nsStyleCorners
 &
 aCorners
-css
-:
-:
 Side
 aSide
 )

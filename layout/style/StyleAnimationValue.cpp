@@ -25693,9 +25693,6 @@ Get
 mozilla
 :
 :
-css
-:
-:
 Side
 (
 animType

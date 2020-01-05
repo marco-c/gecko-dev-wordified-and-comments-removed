@@ -236,9 +236,6 @@ GetWritingMode
 (
 )
 ;
-css
-:
-:
 Side
 legendSide
 =
@@ -1117,9 +1114,6 @@ GetLegend
 )
 )
 {
-css
-:
-:
 Side
 legendSide
 =

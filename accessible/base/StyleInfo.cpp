@@ -332,9 +332,6 @@ StyleInfo
 :
 Margin
 (
-css
-:
-:
 Side
 aSide
 nsAString

@@ -4714,9 +4714,6 @@ ClearBorderColors
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -4753,9 +4750,6 @@ HasVisibleStyle
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -4775,9 +4769,6 @@ void
 SetBorderWidth
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -4868,9 +4859,6 @@ GetComputedBorderWidth
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -4891,9 +4879,6 @@ uint8_t
 GetBorderStyle
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -4924,9 +4909,6 @@ void
 SetBorderStyle
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -6881,9 +6863,6 @@ bool
 OffsetHasPercent
 (
 mozilla
-:
-:
-css
 :
 :
 Side

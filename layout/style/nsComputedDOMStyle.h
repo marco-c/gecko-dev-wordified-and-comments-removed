@@ -626,9 +626,6 @@ GetOffsetWidthFor
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -640,9 +637,6 @@ CSSValue
 GetAbsoluteOffset
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -658,9 +652,6 @@ GetRelativeOffset
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -672,9 +663,6 @@ CSSValue
 GetStickyOffset
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -690,9 +678,6 @@ GetStaticOffset
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -704,9 +689,6 @@ CSSValue
 GetPaddingWidthFor
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -722,9 +704,6 @@ GetBorderColorsFor
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -736,9 +715,6 @@ CSSValue
 GetBorderStyleFor
 (
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -754,9 +730,6 @@ GetBorderWidthFor
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -770,9 +743,6 @@ GetBorderColorFor
 mozilla
 :
 :
-css
-:
-:
 Side
 aSide
 )
@@ -784,9 +754,6 @@ CSSValue
 GetMarginWidthFor
 (
 mozilla
-:
-:
-css
 :
 :
 Side
