@@ -674,12 +674,6 @@ mUsage
 ;
 nsCOMPtr
 <
-nsITimer
->
-mKeepAliveTimer
-;
-nsCOMPtr
-<
 nsIPrincipal
 >
 mPrincipal
