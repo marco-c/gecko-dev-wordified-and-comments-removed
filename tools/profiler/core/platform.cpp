@@ -1623,7 +1623,7 @@ else
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -1631,7 +1631,7 @@ SPS
 LOGF
 (
 "
-SPS
+Profiler
 :
 Sampling
 interval
@@ -1659,7 +1659,7 @@ sUnwindInterval
 LOGF
 (
 "
-SPS
+Profiler
 :
 Entry
 store
@@ -1687,7 +1687,7 @@ sProfileEntries
 LOGF
 (
 "
-SPS
+Profiler
 :
 UnwindStackScan
 =
@@ -1711,7 +1711,7 @@ sUnwindStackScan
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -1726,7 +1726,7 @@ profiler_usage
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -1734,7 +1734,7 @@ SPS
 LOG
 (
 "
-SPS
+Profiler
 :
 Environment
 variable
@@ -1746,7 +1746,7 @@ usage
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -1754,7 +1754,7 @@ SPS
 LOG
 (
 "
-SPS
+Profiler
 :
 MOZ_PROFILER_HELP
 "
@@ -1763,7 +1763,7 @@ MOZ_PROFILER_HELP
 LOG
 (
 "
-SPS
+Profiler
 :
 If
 set
@@ -1780,7 +1780,7 @@ message
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -1788,7 +1788,7 @@ SPS
 LOG
 (
 "
-SPS
+Profiler
 :
 MOZ_PROFILER_INTERVAL
 =
@@ -1807,7 +1807,7 @@ to
 LOG
 (
 "
-SPS
+Profiler
 :
 If
 unset
@@ -1822,7 +1822,7 @@ used
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -1830,7 +1830,7 @@ SPS
 LOG
 (
 "
-SPS
+Profiler
 :
 MOZ_PROFILER_ENTRIES
 =
@@ -1849,7 +1849,7 @@ of
 LOG
 (
 "
-SPS
+Profiler
 :
 If
 unset
@@ -1864,7 +1864,7 @@ used
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -1872,7 +1872,7 @@ SPS
 LOG
 (
 "
-SPS
+Profiler
 :
 MOZ_PROFILER_VERBOSE
 "
@@ -1881,7 +1881,7 @@ MOZ_PROFILER_VERBOSE
 LOG
 (
 "
-SPS
+Profiler
 :
 If
 set
@@ -1900,7 +1900,7 @@ recommended
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -1908,7 +1908,7 @@ SPS
 LOG
 (
 "
-SPS
+Profiler
 :
 MOZ_PROFILER_STACK_SCAN
 =
@@ -1926,7 +1926,7 @@ zero
 LOG
 (
 "
-SPS
+Profiler
 :
 The
 number
@@ -1945,7 +1945,7 @@ allowed
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -1953,7 +1953,7 @@ SPS
 LOG
 (
 "
-SPS
+Profiler
 :
 MOZ_PROFILER_LUL_TEST
 "
@@ -1962,7 +1962,7 @@ MOZ_PROFILER_LUL_TEST
 LOG
 (
 "
-SPS
+Profiler
 :
 If
 set
@@ -1982,7 +1982,7 @@ of
 LOG
 (
 "
-SPS
+Profiler
 :
 the
 unwinder
@@ -2001,7 +2001,7 @@ results
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -2009,7 +2009,7 @@ SPS
 LOGF
 (
 "
-SPS
+Profiler
 :
 This
 platform
@@ -2037,7 +2037,7 @@ support
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -2057,7 +2057,7 @@ sUnwindStackScan
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
@@ -2065,7 +2065,7 @@ SPS
 LOGF
 (
 "
-SPS
+Profiler
 :
 Sampling
 interval
@@ -2093,7 +2093,7 @@ sUnwindInterval
 LOGF
 (
 "
-SPS
+Profiler
 :
 Entry
 store
@@ -2121,7 +2121,7 @@ sProfileEntries
 LOGF
 (
 "
-SPS
+Profiler
 :
 UnwindStackScan
 =
@@ -2145,7 +2145,7 @@ sUnwindStackScan
 LOG
 (
 "
-SPS
+Profiler
 :
 "
 )
