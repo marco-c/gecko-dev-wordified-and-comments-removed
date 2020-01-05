@@ -160,9 +160,9 @@ ShapeUtils
 :
 ComputeCircleOrEllipseCenter
 (
+const
 StyleBasicShape
 *
-const
 aBasicShape
 const
 nsRect
@@ -262,9 +262,9 @@ ShapeUtils
 :
 ComputeCircleRadius
 (
+const
 StyleBasicShape
 *
-const
 aBasicShape
 const
 nsPoint
@@ -485,9 +485,9 @@ ShapeUtils
 :
 ComputeEllipseRadii
 (
+const
 StyleBasicShape
 *
-const
 aBasicShape
 const
 nsPoint
@@ -718,9 +718,9 @@ ShapeUtils
 :
 ComputeInsetRect
 (
+const
 StyleBasicShape
 *
-const
 aBasicShape
 const
 nsRect
@@ -868,9 +868,9 @@ ShapeUtils
 :
 ComputeInsetRadii
 (
+const
 StyleBasicShape
 *
-const
 aBasicShape
 const
 nsRect

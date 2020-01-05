@@ -4443,9 +4443,9 @@ ShapeInfo
 :
 CreateInset
 (
+const
 StyleBasicShape
 *
-const
 aBasicShape
 const
 LogicalRect
@@ -4571,9 +4571,9 @@ ShapeInfo
 :
 CreateCircleOrEllipse
 (
+const
 StyleBasicShape
 *
-const
 aBasicShape
 const
 LogicalRect
