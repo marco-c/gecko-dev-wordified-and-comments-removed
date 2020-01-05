@@ -3680,6 +3680,7 @@ document
 watcher
 "
 this
+aDocument
 NS_ConvertUTF16toUTF8
 (
 aKeySystem
