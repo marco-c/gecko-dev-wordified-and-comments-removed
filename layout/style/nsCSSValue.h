@@ -520,11 +520,7 @@ IsLocalRef
 (
 )
 const
-{
-return
-mIsLocalRef
 ;
-}
 bool
 HasRef
 (
@@ -606,7 +602,11 @@ mutable
 bool
 mURIResolved
 ;
+mutable
+Maybe
+<
 bool
+>
 mIsLocalRef
 ;
 protected
