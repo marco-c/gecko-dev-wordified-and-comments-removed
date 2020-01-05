@@ -1321,11 +1321,6 @@ RenderTrace
 h
 '
 '
-SourceSurfaceVolatileData
-.
-h
-'
-'
 TextureWrapperImage
 .
 h
@@ -2451,11 +2446,6 @@ cpp
 '
 '
 ShareableCanvasLayer
-.
-cpp
-'
-'
-SourceSurfaceVolatileData
 .
 cpp
 '
