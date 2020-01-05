@@ -140,6 +140,8 @@ DOMString
 )
 >
 blobParts
+/
+/
 optional
 BlobPropertyBag
 options

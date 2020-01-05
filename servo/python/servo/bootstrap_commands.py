@@ -1756,7 +1756,6 @@ except
 urllib2
 .
 URLError
-e
 :
             
 print

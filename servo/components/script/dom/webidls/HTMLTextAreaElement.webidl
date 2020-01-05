@@ -322,6 +322,8 @@ start
 unsigned
 long
 end
+/
+/
 optional
 SelectionMode
 selectionMode

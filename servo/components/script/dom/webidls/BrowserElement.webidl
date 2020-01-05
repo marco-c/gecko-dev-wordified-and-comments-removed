@@ -67,8 +67,8 @@ not
 distributed
 with
 this
-file
 *
+file
 You
 can
 obtain

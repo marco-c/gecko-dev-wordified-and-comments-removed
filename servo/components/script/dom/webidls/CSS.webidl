@@ -32,8 +32,8 @@ not
 distributed
 with
 this
-file
 *
+file
 You
 can
 obtain
@@ -54,6 +54,9 @@ MPL
 0
 /
 .
+*
+/
+/
 *
 *
 The

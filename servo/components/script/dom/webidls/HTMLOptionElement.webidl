@@ -123,11 +123,15 @@ text
 optional
 DOMString
 value
+/
+/
 optional
 boolean
 defaultSelected
 =
 false
+/
+/
 optional
 boolean
 selected

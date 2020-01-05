@@ -761,6 +761,8 @@ x
 unrestricted
 double
 y
+/
+/
 optional
 CanvasWindingRule
 fillRule
@@ -783,6 +785,8 @@ x
 unrestricted
 double
 y
+/
+/
 optional
 CanvasWindingRule
 fillRule
@@ -843,6 +847,8 @@ x
 unrestricted
 double
 y
+/
+/
 optional
 unrestricted
 double
@@ -862,6 +868,8 @@ x
 unrestricted
 double
 y
+/
+/
 optional
 unrestricted
 double
@@ -1235,6 +1243,8 @@ middle
 "
 alphabetic
 "
+/
+/
 "
 ideographic
 "
@@ -1378,8 +1388,6 @@ radius
 ;
 /
 /
-NOT
-IMPLEMENTED
 [
 LenientFloat
 ]
@@ -1394,6 +1402,8 @@ double
 x2
 double
 y2
+/
+/
 double
 radiusX
 double
@@ -1444,8 +1454,6 @@ false
 ;
 /
 /
-NOT
-IMPLEMENTED
 [
 LenientFloat
 ]
@@ -1460,12 +1468,16 @@ double
 radiusX
 double
 radiusY
+/
+/
 double
 rotation
 double
 startAngle
 double
 endAngle
+/
+/
 boolean
 anticlockwise
 )
