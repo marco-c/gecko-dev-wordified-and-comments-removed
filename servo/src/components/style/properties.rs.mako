@@ -744,6 +744,7 @@ deriving
 (
 Eq
 Clone
+FromPrimitive
 )
 ]
 pub
