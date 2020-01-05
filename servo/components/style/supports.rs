@@ -35,6 +35,12 @@ style_traits
 :
 ToCss
 ;
+use
+stylesheets
+:
+:
+CssRuleType
+;
 #
 [
 derive
@@ -1290,6 +1296,10 @@ cx
 mut
 input
 false
+CssRuleType
+:
+:
+Style
 )
 ;
 let

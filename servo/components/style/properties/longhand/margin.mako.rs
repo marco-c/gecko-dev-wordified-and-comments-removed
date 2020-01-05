@@ -184,6 +184,9 @@ side
 spec
 =
 spec
+allowed_in_page_rule
+=
+True
 )
 }
 %

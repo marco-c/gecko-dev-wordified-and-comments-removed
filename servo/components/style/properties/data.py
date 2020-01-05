@@ -848,6 +848,10 @@ False
 abspos_cb
 =
 False
+                 
+allowed_in_page_rule
+=
+False
 )
 :
         
@@ -1091,6 +1095,15 @@ abspos_cb
         
 self
 .
+allowed_in_page_rule
+=
+arg_to_bool
+(
+allowed_in_page_rule
+)
+        
+self
+.
 allowed_in_keyframe_block
 =
 allowed_in_keyframe_block
@@ -1242,6 +1255,10 @@ None
 extra_prefixes
 =
 None
+                 
+allowed_in_page_rule
+=
+False
 )
 :
         
@@ -1366,6 +1383,15 @@ extra_prefixes
 else
 [
 ]
+        
+self
+.
+allowed_in_page_rule
+=
+arg_to_bool
+(
+allowed_in_page_rule
+)
         
 self
 .

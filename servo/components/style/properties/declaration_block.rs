@@ -58,6 +58,7 @@ stylesheets
 :
 :
 {
+CssRuleType
 Origin
 UrlExtraData
 }
@@ -2741,6 +2742,10 @@ new
 (
 input
 )
+CssRuleType
+:
+:
+Style
 )
 }
 pub
@@ -2812,6 +2817,10 @@ id
 context
 parser
 false
+CssRuleType
+:
+:
+Style
 )
 .
 map_err
@@ -2847,6 +2856,9 @@ ParserContext
 '
 b
 >
+rule_type
+:
+CssRuleType
 }
 impl
 <
@@ -2978,6 +2990,9 @@ self
 context
 input
 false
+self
+.
+rule_type
 )
 .
 map_err
@@ -3064,6 +3079,9 @@ input
 &
 mut
 Parser
+rule_type
+:
+CssRuleType
 )
 -
 >
@@ -3088,6 +3106,9 @@ PropertyDeclarationParser
 context
 :
 context
+rule_type
+:
+rule_type
 }
 ;
 let

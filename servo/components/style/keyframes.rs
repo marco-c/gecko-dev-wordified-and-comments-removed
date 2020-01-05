@@ -126,6 +126,7 @@ stylesheets
 :
 :
 {
+CssRuleType
 MemoryHoleReporter
 Stylesheet
 }
@@ -2238,6 +2239,10 @@ self
 context
 input
 true
+CssRuleType
+:
+:
+Keyframe
 )
 {
 Ok

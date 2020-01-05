@@ -90,7 +90,10 @@ style
 stylesheets
 :
 :
+{
+CssRuleType
 Origin
+}
 ;
 use
 style
@@ -240,6 +243,10 @@ context
 &
 mut
 parser
+CssRuleType
+:
+:
+Style
 )
 }
 #
