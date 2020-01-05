@@ -793,6 +793,9 @@ GetRequest
 ;
 RefPtr
 <
+image
+:
+:
 Image
 >
 image
@@ -2310,6 +2313,9 @@ aIsUsed
 {
 RefPtr
 <
+image
+:
+:
 Image
 >
 image

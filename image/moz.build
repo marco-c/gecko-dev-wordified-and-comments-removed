@@ -402,6 +402,11 @@ imgFrame
 cpp
 '
 '
+imgLoader
+.
+cpp
+'
+'
 imgTools
 .
 cpp
@@ -497,11 +502,6 @@ SOURCES
 +
 =
 [
-'
-imgLoader
-.
-cpp
-'
 '
 imgRequest
 .
