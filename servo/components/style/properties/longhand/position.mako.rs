@@ -273,9 +273,11 @@ z
 -
 index
 "
-creates_stacking_context
+flags
 =
-True
+"
+CREATES_STACKING_CONTEXT
+"
 animation_type
 =
 "

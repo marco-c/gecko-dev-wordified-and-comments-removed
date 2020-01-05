@@ -602,10 +602,10 @@ boxed
 "
 True
 "
-creates_stacking_context
+flags
 =
 "
-True
+CREATES_STACKING_CONTEXT
 "
 spec
 =
@@ -1948,10 +1948,10 @@ gecko
 '
 }
 "
-creates_stacking_context
+flags
 =
 "
-True
+CREATES_STACKING_CONTEXT
 "
 spec
 =
