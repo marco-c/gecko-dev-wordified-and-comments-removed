@@ -62,6 +62,13 @@ Arc
 MutexArc
 }
 ;
+#
+[
+deriving
+(
+Clone
+)
+]
 pub
 struct
 ImageHolder
