@@ -122,6 +122,16 @@ browser
 .
 safebrowsing
 .
+debug
+'
+:
+True
+        
+'
+browser
+.
+safebrowsing
+.
 blockedURIs
 .
 enabled
