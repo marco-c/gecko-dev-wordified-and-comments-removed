@@ -764,6 +764,16 @@ s
 mInputSamples
 )
 {
+if
+(
+!
+s
+.
+isEOS
+(
+)
+)
+{
 mSamplePool
 .
 recycleInput
@@ -771,6 +781,7 @@ recycleInput
 s
 )
 ;
+}
 }
 mInputSamples
 .
