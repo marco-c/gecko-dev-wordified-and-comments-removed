@@ -2143,6 +2143,11 @@ last_expired_tracking_timeout
 timeout
 ;
 }
+numTimersToRun
++
+=
+1
+;
 if
 (
 timeout
@@ -2178,11 +2183,6 @@ IsChromeWindow
 break
 ;
 }
-numTimersToRun
-+
-=
-1
-;
 }
 expiredIter
 .
