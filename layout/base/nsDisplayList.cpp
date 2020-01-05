@@ -33980,9 +33980,11 @@ GetContent
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 aItem
@@ -33997,9 +33999,11 @@ GetClip
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 aItem
@@ -34014,9 +34018,11 @@ ScrollClip
 (
 )
 )
+{
 return
 false
 ;
+}
 const
 nsStyleSVGReset
 *
@@ -34040,9 +34046,11 @@ HasLayerWithImage
 (
 )
 )
+{
 return
 false
 ;
+}
 nsDisplayMask
 *
 other
