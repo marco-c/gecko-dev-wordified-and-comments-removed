@@ -455,22 +455,7 @@ data
 min_scm_level
 '
 :
-2
-'
-default
-'
-:
-'
-try
--
-build
--
-has
--
-no
--
-secrets
-'
+1
 }
         
 {
