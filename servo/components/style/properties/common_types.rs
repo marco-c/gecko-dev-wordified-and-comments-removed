@@ -110,6 +110,7 @@ CSSColor
 deriving
 (
 Clone
+Show
 )
 ]
 pub
@@ -577,6 +578,7 @@ i32
 deriving
 (
 Clone
+Show
 )
 ]
 pub
@@ -3258,6 +3260,7 @@ deriving
 (
 PartialEq
 Clone
+Show
 )
 ]
 pub
@@ -3340,6 +3343,7 @@ deriving
 (
 PartialEq
 Clone
+Show
 )
 ]
 pub
@@ -3430,6 +3434,7 @@ deriving
 (
 PartialEq
 Clone
+Show
 )
 ]
 pub
