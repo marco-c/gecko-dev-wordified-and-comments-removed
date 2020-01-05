@@ -125,7 +125,7 @@ enum
 {
 kMinTelephoneEventDuration
 =
-100
+40
 }
 ;
 enum
