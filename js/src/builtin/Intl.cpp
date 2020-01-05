@@ -9901,6 +9901,9 @@ auto
 &
 legacyTimeZone
 :
+js
+:
+:
 timezone
 :
 :
