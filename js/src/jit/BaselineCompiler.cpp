@@ -1405,7 +1405,7 @@ i
 .
 icEntry
 ;
-ICEntry
+BaselineICEntry
 *
 entryAddr
 =
@@ -2397,7 +2397,7 @@ Kind
 kind
 )
 {
-ICEntry
+BaselineICEntry
 *
 entry
 =

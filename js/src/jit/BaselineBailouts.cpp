@@ -4663,7 +4663,7 @@ JOF_TYPESET
 )
 )
 {
-ICEntry
+BaselineICEntry
 &
 icEntry
 =
@@ -4750,7 +4750,7 @@ if
 enterMonitorChain
 )
 {
-ICEntry
+BaselineICEntry
 &
 icEntry
 =
@@ -5603,7 +5603,7 @@ Descriptor
 return
 false
 ;
-ICEntry
+BaselineICEntry
 &
 icEntry
 =
