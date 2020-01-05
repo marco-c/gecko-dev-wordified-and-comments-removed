@@ -2994,13 +2994,7 @@ threadClient
 =
 toolbox
 .
-getCurrentPanel
-(
-)
-.
-panelWin
-.
-gThreadClient
+threadClient
 ;
 switch
 (
