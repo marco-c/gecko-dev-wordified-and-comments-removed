@@ -2444,6 +2444,10 @@ compute_absolute_position
 &
 mut
 self
+layout_context
+:
+&
+LayoutContext
 )
 {
 self
@@ -2452,6 +2456,7 @@ block_flow
 .
 compute_absolute_position
 (
+layout_context
 )
 }
 fn

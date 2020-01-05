@@ -300,6 +300,10 @@ script_chan
 :
 ScriptControlChan
 pub
+layout_chan
+:
+LayoutControlChan
+pub
 paint_chan
 :
 PaintChan
@@ -1271,6 +1275,15 @@ script_chan
 self
 .
 script_chan
+.
+clone
+(
+)
+layout_chan
+:
+self
+.
+layout_chan
 .
 clone
 (

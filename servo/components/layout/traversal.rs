@@ -1874,6 +1874,9 @@ flow
 .
 compute_absolute_position
 (
+self
+.
+layout_context
 )
 ;
 }

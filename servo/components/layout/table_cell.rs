@@ -855,7 +855,7 @@ a
 &
 mut
 self
-ctx
+layout_context
 :
 &
 '
@@ -884,7 +884,7 @@ self
 .
 assign_block_size_table_cell_base
 (
-ctx
+layout_context
 )
 ;
 }
@@ -894,6 +894,10 @@ compute_absolute_position
 &
 mut
 self
+layout_context
+:
+&
+LayoutContext
 )
 {
 self
@@ -902,6 +906,7 @@ block_flow
 .
 compute_absolute_position
 (
+layout_context
 )
 }
 fn
