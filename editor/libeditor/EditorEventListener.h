@@ -169,9 +169,9 @@ endif
 nsresult
 KeyPress
 (
-nsIDOMKeyEvent
+WidgetKeyboardEvent
 *
-aKeyEvent
+aKeyboardEvent
 )
 ;
 nsresult
