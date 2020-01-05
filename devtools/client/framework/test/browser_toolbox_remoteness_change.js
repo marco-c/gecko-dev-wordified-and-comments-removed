@@ -353,12 +353,16 @@ href
 "
 )
 ;
-is
+ok
 (
 url
 .
 textContent
+.
+includes
+(
 URL_2
+)
 "
 The
 console
