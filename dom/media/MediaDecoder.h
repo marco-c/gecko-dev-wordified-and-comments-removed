@@ -314,14 +314,6 @@ aInfinite
 override
 ;
 void
-SetMediaSeekable
-(
-bool
-aMediaSeekable
-)
-override
-;
-void
 NotifyNetworkError
 (
 )

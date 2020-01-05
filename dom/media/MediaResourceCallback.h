@@ -60,15 +60,6 @@ aInfinite
 }
 virtual
 void
-SetMediaSeekable
-(
-bool
-aMediaSeekable
-)
-{
-}
-virtual
-void
 NotifyNetworkError
 (
 )
