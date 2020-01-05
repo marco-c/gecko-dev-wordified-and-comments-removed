@@ -7170,6 +7170,15 @@ nsDisplayItem
 ForceActiveLayers
 (
 )
+&
+&
+!
+gfxPrefs
+:
+:
+LayersAllowImageLayers
+(
+)
 )
 {
 bool
