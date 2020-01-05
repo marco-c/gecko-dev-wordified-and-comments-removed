@@ -64,6 +64,13 @@ HEARTBEAT_DEFAULT_WINDOW_SIZE
     
 (
 "
+LayoutTextShaping
+"
+HEARTBEAT_DEFAULT_WINDOW_SIZE
+)
+    
+(
+"
 LayoutRestyleDamagePropagation
 "
 HEARTBEAT_DEFAULT_WINDOW_SIZE
@@ -114,13 +121,6 @@ HEARTBEAT_DEFAULT_WINDOW_SIZE
 (
 "
 LayoutParallelWarmup
-"
-HEARTBEAT_DEFAULT_WINDOW_SIZE
-)
-    
-(
-"
-LayoutShaping
 "
 HEARTBEAT_DEFAULT_WINDOW_SIZE
 )
@@ -197,6 +197,13 @@ HEARTBEAT_DEFAULT_WINDOW_SIZE
     
 (
 "
+ScriptEvent
+"
+HEARTBEAT_DEFAULT_WINDOW_SIZE
+)
+    
+(
+"
 ScriptFileRead
 "
 HEARTBEAT_DEFAULT_WINDOW_SIZE
@@ -232,7 +239,21 @@ HEARTBEAT_DEFAULT_WINDOW_SIZE
     
 (
 "
-ScriptEvent
+ScriptSetViewport
+"
+HEARTBEAT_DEFAULT_WINDOW_SIZE
+)
+    
+(
+"
+ScriptTimerEvent
+"
+HEARTBEAT_DEFAULT_WINDOW_SIZE
+)
+    
+(
+"
+ScriptStylesheetLoad
 "
 HEARTBEAT_DEFAULT_WINDOW_SIZE
 )
@@ -240,13 +261,6 @@ HEARTBEAT_DEFAULT_WINDOW_SIZE
 (
 "
 ScriptUpdateReplacedElement
-"
-HEARTBEAT_DEFAULT_WINDOW_SIZE
-)
-    
-(
-"
-ScriptSetViewport
 "
 HEARTBEAT_DEFAULT_WINDOW_SIZE
 )
@@ -261,13 +275,6 @@ HEARTBEAT_DEFAULT_WINDOW_SIZE
 (
 "
 ScriptWorkerEvent
-"
-HEARTBEAT_DEFAULT_WINDOW_SIZE
-)
-    
-(
-"
-ScriptXhrEvent
 "
 HEARTBEAT_DEFAULT_WINDOW_SIZE
 )
