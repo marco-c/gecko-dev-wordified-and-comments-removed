@@ -1268,7 +1268,7 @@ mActivated
 1
 ;
 bool
-mContentBlockingDisabled
+mContentBlockingEnabled
 :
 1
 ;
