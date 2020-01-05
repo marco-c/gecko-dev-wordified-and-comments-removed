@@ -618,9 +618,12 @@ mappedSurface
 mStride
 0
 0
+ALIGNED_32
+(
 size
 .
 width
+)
 size
 .
 height
