@@ -13069,6 +13069,14 @@ getResolve
 clasp
 -
 >
+getGetProperty
+(
+)
+|
+|
+clasp
+-
+>
 getOpsLookupProperty
 (
 )
