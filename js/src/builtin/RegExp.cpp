@@ -7705,7 +7705,7 @@ flagsGetter
 if
 (
 !
-GetGetterPure
+GetOwnGetterPure
 (
 cx
 proto
