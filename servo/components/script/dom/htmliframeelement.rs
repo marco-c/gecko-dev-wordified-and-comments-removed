@@ -3095,6 +3095,9 @@ else
 debug
 !
 (
+concat
+!
+(
 "
 this
 frame
@@ -3109,6 +3112,8 @@ or
 not
 a
 top
+"
+"
 level
 window
 or
@@ -3128,6 +3133,7 @@ mozbrowser
 enabled
 )
 "
+)
 )
 ;
 Err
@@ -3888,6 +3894,9 @@ else
 debug
 !
 (
+concat
+!
+(
 "
 this
 frame
@@ -3902,6 +3911,8 @@ or
 not
 a
 top
+"
+"
 level
 window
 or
@@ -3921,6 +3932,7 @@ mozbrowser
 enabled
 )
 "
+)
 )
 ;
 Err
@@ -3995,6 +4007,9 @@ else
 debug
 !
 (
+concat
+!
+(
 "
 this
 frame
@@ -4009,6 +4024,8 @@ or
 not
 a
 top
+"
+"
 level
 window
 or
@@ -4028,6 +4045,7 @@ mozbrowser
 enabled
 )
 "
+)
 )
 ;
 Err
@@ -4100,6 +4118,9 @@ else
 debug
 !
 (
+concat
+!
+(
 "
 this
 frame
@@ -4114,6 +4135,8 @@ or
 not
 a
 top
+"
+"
 level
 window
 or
@@ -4133,6 +4156,7 @@ mozbrowser
 enabled
 )
 "
+)
 )
 ;
 Err
