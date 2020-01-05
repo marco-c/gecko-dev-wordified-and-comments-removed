@@ -491,9 +491,6 @@ in
 '
 android
 '
-'
-gonk
-'
 )
 :
     
@@ -533,10 +530,6 @@ gtk3
     
 '
 uikit
-'
-    
-'
-gonk
 '
   
 }
@@ -1436,9 +1429,6 @@ gtk3
 '
 '
 android
-'
-'
-gonk
 '
 )
 :
@@ -3290,9 +3280,6 @@ in
 (
 '
 android
-'
-'
-gonk
 '
 )
 :
