@@ -26136,11 +26136,6 @@ jsbytecode
 *
 )
 nullptr
-callInfo
-.
-constructing
-(
-)
 this
 -
 >
@@ -55415,10 +55410,9 @@ true
 if
 (
 !
-info
-(
-)
-.
+inlineCallInfo_
+-
+>
 constructing
 (
 )

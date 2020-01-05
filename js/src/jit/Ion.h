@@ -315,8 +315,6 @@ jsbytecode
 *
 osrPc
 bool
-constructing
-bool
 force
 )
 ;

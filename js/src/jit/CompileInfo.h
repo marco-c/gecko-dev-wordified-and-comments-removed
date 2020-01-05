@@ -572,8 +572,6 @@ fun
 jsbytecode
 *
 osrPc
-bool
-constructing
 AnalysisMode
 analysisMode
 bool
@@ -594,10 +592,6 @@ fun
 osrPc_
 (
 osrPc
-)
-constructing_
-(
-constructing
 )
 analysisMode_
 (
@@ -763,10 +757,6 @@ osrPc_
 (
 nullptr
 )
-constructing_
-(
-false
-)
 analysisMode_
 (
 Analysis_None
@@ -858,16 +848,6 @@ script_
 module
 (
 )
-;
-}
-bool
-constructing
-(
-)
-const
-{
-return
-constructing_
 ;
 }
 jsbytecode
@@ -1896,9 +1876,6 @@ fun_
 jsbytecode
 *
 osrPc_
-;
-bool
-constructing_
 ;
 AnalysisMode
 analysisMode_
