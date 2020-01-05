@@ -4669,9 +4669,9 @@ clasp
 )
 ;
 JSProtoKey
-parentKey
+protoKey
 =
-ParentKeyForStandardClass
+InheritanceProtoKeyForStandardClass
 (
 key
 )
@@ -4691,7 +4691,7 @@ cx
 global
 (
 )
-parentKey
+protoKey
 )
 )
 return
@@ -4712,7 +4712,7 @@ global
 >
 getPrototype
 (
-parentKey
+protoKey
 )
 .
 toObject

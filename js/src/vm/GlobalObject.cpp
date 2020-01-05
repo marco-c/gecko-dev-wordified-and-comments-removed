@@ -974,13 +974,6 @@ ctor
 if
 (
 !
-StandardClassIsDependent
-(
-key
-)
-&
-&
-!
 cx
 -
 >
