@@ -474,11 +474,6 @@ renderInteractiveForms
 :
 false
 "
-enablePrintAutoRotate
-"
-:
-false
-"
 disablePageLabels
 "
 :
