@@ -241,6 +241,9 @@ messageName
 data
 .
 sender
+|
+|
+null
 data
 .
 recipient
