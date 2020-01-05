@@ -3205,13 +3205,10 @@ this
 .
 _downloadStatus
 .
-removeChild
-(
-this
-.
-_downloadStatus
-.
 firstChild
+.
+remove
+(
 )
 ;
 this

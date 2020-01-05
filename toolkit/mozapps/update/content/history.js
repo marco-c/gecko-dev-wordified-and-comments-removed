@@ -106,13 +106,10 @@ this
 .
 _view
 .
-removeChild
-(
-this
-.
-_view
-.
 firstChild
+.
+remove
+(
 )
 ;
 var

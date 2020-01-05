@@ -11881,11 +11881,10 @@ firstChild
 {
 n
 .
-removeChild
-(
-n
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

@@ -812,11 +812,10 @@ hasChildNodes
 )
 box
 .
-removeChild
-(
-box
-.
 firstChild
+.
+remove
+(
 )
 ;
 box

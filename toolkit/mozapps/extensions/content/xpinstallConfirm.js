@@ -465,11 +465,10 @@ hasChildNodes
 )
 introNode
 .
-removeChild
-(
-introNode
-.
 firstChild
+.
+remove
+(
 )
 ;
 introNode

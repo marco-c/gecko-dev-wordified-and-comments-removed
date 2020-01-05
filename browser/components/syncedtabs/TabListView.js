@@ -994,11 +994,10 @@ firstChild
 {
 parent
 .
-removeChild
-(
-parent
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

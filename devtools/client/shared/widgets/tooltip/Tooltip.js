@@ -638,13 +638,10 @@ this
 .
 panel
 .
-removeChild
-(
-this
-.
-panel
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

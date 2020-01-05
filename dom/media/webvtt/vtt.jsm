@@ -4969,11 +4969,10 @@ firstChild
 {
 overlay
 .
-removeChild
-(
-overlay
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

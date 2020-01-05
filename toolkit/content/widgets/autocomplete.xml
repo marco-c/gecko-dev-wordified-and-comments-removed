@@ -13929,11 +13929,10 @@ hasChildNodes
 )
 aDescriptionElement
 .
-removeChild
-(
-aDescriptionElement
-.
 firstChild
+.
+remove
+(
 )
 ;
 /

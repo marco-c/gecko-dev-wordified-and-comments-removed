@@ -927,11 +927,10 @@ hasChildNodes
 {
 host
 .
-removeChild
-(
-host
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

@@ -362,11 +362,10 @@ select
 ;
 contentSelect
 .
-removeChild
-(
-contentSelect
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

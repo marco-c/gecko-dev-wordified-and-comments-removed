@@ -11079,11 +11079,10 @@ length
 )
 aPopup
 .
-removeChild
-(
-aPopup
-.
 firstChild
+.
+remove
+(
 )
 ;
 var

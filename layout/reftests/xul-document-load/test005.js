@@ -1,9 +1,8 @@
 document
 .
-removeChild
-(
-document
-.
 firstChild
+.
+remove
+(
 )
 ;

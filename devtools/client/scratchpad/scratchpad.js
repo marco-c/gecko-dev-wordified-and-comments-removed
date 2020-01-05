@@ -6491,11 +6491,10 @@ hasChildNodes
 {
 recentFilesPopup
 .
-removeChild
-(
-recentFilesPopup
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

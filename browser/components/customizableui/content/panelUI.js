@@ -2428,11 +2428,10 @@ firstChild
 {
 items
 .
-removeChild
-(
-items
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

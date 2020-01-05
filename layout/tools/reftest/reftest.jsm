@@ -1766,11 +1766,10 @@ hasChildNodes
 {
 doc
 .
-removeChild
-(
-doc
-.
 firstChild
+.
+remove
+(
 )
 ;
 }

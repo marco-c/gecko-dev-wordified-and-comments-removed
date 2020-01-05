@@ -2236,13 +2236,10 @@ event
 .
 target
 .
-removeChild
-(
-event
-.
-target
-.
 firstChild
+.
+remove
+(
 )
 ;
 }
