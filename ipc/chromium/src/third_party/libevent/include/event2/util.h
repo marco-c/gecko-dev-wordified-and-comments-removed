@@ -2090,6 +2090,14 @@ evutil_secure_rng_init
 void
 )
 ;
+int
+evutil_secure_rng_set_urandom_device_file
+(
+char
+*
+fname
+)
+;
 #
 if
 !

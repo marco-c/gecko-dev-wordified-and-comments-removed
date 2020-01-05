@@ -1423,6 +1423,8 @@ struct
 bufferevent
 *
 partner
+=
+NULL
 ;
 bev_p
 =
@@ -1444,6 +1446,13 @@ incref_and_lock
 bev
 )
 ;
+if
+(
+bev_p
+-
+>
+partner
+)
 partner
 =
 downcast

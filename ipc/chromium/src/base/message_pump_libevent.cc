@@ -195,6 +195,12 @@ long
 ;
 CHECK_EVENT_SIZEOF
 (
+OFF_T
+off_t
+)
+;
+CHECK_EVENT_SIZEOF
+(
 PTHREAD_T
 pthread_t
 )

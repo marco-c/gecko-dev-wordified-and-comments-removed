@@ -1763,6 +1763,11 @@ cb
 NULL
 )
 {
+evutil_closesocket
+(
+new_fd
+)
+;
 UNLOCK
 (
 lev

@@ -1346,6 +1346,16 @@ x
 endif
 #
 endif
+void
+evutil_memclear_
+(
+void
+*
+mem
+size_t
+len
+)
+;
 #
 ifdef
 __cplusplus

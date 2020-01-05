@@ -2119,6 +2119,7 @@ win32op
 0
 sizeof
 (
+*
 win32op
 )
 )

@@ -17,11 +17,11 @@ scriptversion
 =
 2011
 -
-01
+11
 -
-19
+20
 .
-21
+07
 ;
 #
 UTC
@@ -347,6 +347,7 @@ sh
 to
 prevent
 #
+'
 make
 '
 implicit
@@ -976,6 +977,7 @@ Protect
 names
 problematic
 for
+'
 test
 '
 and
@@ -1165,6 +1167,7 @@ Protect
 names
 problematic
 for
+'
 test
 '
 and
@@ -1236,6 +1239,7 @@ s
 OK
 to
 call
+'
 install
 -
 sh
@@ -1445,6 +1449,7 @@ Protect
 names
 problematic
 for
+'
 test
 '
 and
@@ -2293,7 +2298,7 @@ or
 #
 other
 -
-writeable
+writable
 bit
 of
 parent

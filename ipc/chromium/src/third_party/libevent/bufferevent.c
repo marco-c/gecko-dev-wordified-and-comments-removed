@@ -2509,6 +2509,7 @@ bufev
 input
 )
 >
+=
 highmark
 )
 bufferevent_wm_suspend_read

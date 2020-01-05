@@ -375,7 +375,7 @@ libs
 #
 define
 _EVENT_NUMERIC_VERSION
-0x02001500
+0x02001600
 #
 define
 _EVENT_PACKAGE
@@ -434,6 +434,10 @@ endif
 #
 define
 _EVENT_SIZEOF_LONG_LONG
+8
+#
+define
+_EVENT_SIZEOF_OFF_T
 8
 #
 ifdef
@@ -500,7 +504,7 @@ _EVENT_VERSION
 .
 0
 .
-21
+22
 -
 stable
 "
