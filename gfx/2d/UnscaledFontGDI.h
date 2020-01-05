@@ -101,6 +101,17 @@ aBaton
 )
 override
 ;
+bool
+GetFontInstanceData
+(
+FontInstanceDataOutput
+aCb
+void
+*
+aBaton
+)
+override
+;
 static
 already_AddRefed
 <
