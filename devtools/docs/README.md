@@ -156,7 +156,7 @@ version
 :
 hg
 clone
-http
+https
 :
 /
 /
@@ -168,9 +168,9 @@ org
 /
 integration
 /
-fx
+mozilla
 -
-team
+inbound
 .
 /
 mach
