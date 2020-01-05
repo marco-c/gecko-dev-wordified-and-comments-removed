@@ -450,12 +450,10 @@ Cell
 new
 (
 creator
-=
-=
-ElementCreator
-:
-:
-ParserCreated
+.
+is_parser_created
+(
+)
 )
 stylesheet
 :
