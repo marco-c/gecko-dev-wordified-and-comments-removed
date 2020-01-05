@@ -462,5 +462,5 @@ SVGFitToViewBox
 ;
 SVGSVGElement
 implements
-SVGZoomAndPan
+SVGZoomAndPanValues
 ;
