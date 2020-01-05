@@ -1579,8 +1579,6 @@ data
 if
 (
 data
-.
-id
 =
 =
 toolId

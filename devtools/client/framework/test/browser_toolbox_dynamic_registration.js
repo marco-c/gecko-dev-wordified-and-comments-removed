@@ -413,16 +413,9 @@ function
 toolUnregistered
 (
 event
-toolDefinition
+toolId
 )
 {
-let
-toolId
-=
-toolDefinition
-.
-id
-;
 is
 (
 toolId
