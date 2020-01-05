@@ -3026,11 +3026,6 @@ start
 >
 <
 vbox
-hidden
-=
-"
-false
-"
 >
 <
 caption
@@ -3185,11 +3180,6 @@ flex
 >
 <
 vbox
-hidden
-=
-"
-true
-"
 >
 <
 button
@@ -3435,11 +3425,6 @@ vbox
 >
 <
 vbox
-hidden
-=
-"
-false
-"
 >
 <
 description
