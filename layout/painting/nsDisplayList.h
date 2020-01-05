@@ -13867,9 +13867,6 @@ aBuilder
 nsIFrame
 *
 aFrame
-nsRect
-*
-aDirtyRect
 )
 ;
 bool
