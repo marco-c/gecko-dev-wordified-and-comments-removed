@@ -256,6 +256,16 @@ pref
 "
 extensions
 .
+webextOptionalPermissionPrompts
+"
+true
+)
+;
+pref
+(
+"
+extensions
+.
 getAddons
 .
 cache
