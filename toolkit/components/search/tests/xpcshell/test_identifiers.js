@@ -36,10 +36,6 @@ configureToLoadJarEngines
 (
 )
 ;
-updateAppInfo
-(
-)
-;
 run_next_test
 (
 )

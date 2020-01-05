@@ -115,10 +115,6 @@ removeCacheFile
 (
 )
 ;
-updateAppInfo
-(
-)
-;
 let
 cacheTemplateFile
 =

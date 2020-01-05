@@ -41,10 +41,6 @@ run_test
 (
 )
 {
-updateAppInfo
-(
-)
-;
 installTestEngine
 (
 )

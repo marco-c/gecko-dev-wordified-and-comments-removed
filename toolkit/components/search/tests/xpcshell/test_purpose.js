@@ -12,10 +12,6 @@ removeMetadata
 (
 )
 ;
-updateAppInfo
-(
-)
-;
 let
 url
 =

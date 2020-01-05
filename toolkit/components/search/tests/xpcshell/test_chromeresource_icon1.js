@@ -8,10 +8,6 @@ run_test
 (
 )
 {
-updateAppInfo
-(
-)
-;
 let
 url
 =

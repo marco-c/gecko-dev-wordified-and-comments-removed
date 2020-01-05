@@ -7,10 +7,6 @@ removeMetadata
 (
 )
 ;
-updateAppInfo
-(
-)
-;
 let
 search
 =

@@ -16,10 +16,6 @@ do_test_pending
 (
 )
 ;
-updateAppInfo
-(
-)
-;
 do_print
 (
 "
