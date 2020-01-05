@@ -40,6 +40,14 @@ validate_schema
 from
 taskgraph
 .
+util
+.
+scriptworker
+import
+get_signing_cert_scope
+from
+taskgraph
+.
 transforms
 .
 task
@@ -590,6 +598,13 @@ gpg
 }
 ]
         
+signing_cert_scope
+=
+get_signing_cert_scope
+(
+config
+)
+        
 task
 =
 {
@@ -689,19 +704,7 @@ scopes
 :
 [
                 
-"
-project
-:
-releng
-:
-signing
-:
-cert
-:
-nightly
--
-signing
-"
+signing_cert_scope
                 
 "
 project
