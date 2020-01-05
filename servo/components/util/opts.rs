@@ -321,6 +321,10 @@ pub
 parallel_display_list_building
 :
 bool
+pub
+exit_after_load
+:
+bool
 }
 fn
 print_usage
@@ -1134,6 +1138,9 @@ disable_share_style_cache
 :
 false
 parallel_display_list_building
+:
+false
+exit_after_load
 :
 false
 }
@@ -2922,6 +2929,16 @@ display
 list
 -
 building
+"
+)
+exit_after_load
+:
+opt_match
+.
+opt_present
+(
+"
+x
 "
 )
 }
