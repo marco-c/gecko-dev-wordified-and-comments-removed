@@ -240,12 +240,6 @@ KeyId
 >
 &
 aOutKeyIds
-std
-:
-:
-string
-&
-aOutSessionType
 )
 ;
 static
