@@ -242,9 +242,6 @@ use
 style
 :
 :
-selector_matching
-:
-:
 AuthorOrigin
 ;
 use
