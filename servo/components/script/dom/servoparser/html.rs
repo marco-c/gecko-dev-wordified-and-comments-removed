@@ -297,7 +297,7 @@ tokenizer
 {
 Tokenizer
 as
-HtmlTokenizer
+H5ETokenizer
 TokenizerOpts
 }
 ;
@@ -368,6 +368,7 @@ super
 :
 :
 {
+HtmlTokenizer
 LastChunkState
 ServoParser
 Sink
@@ -2231,7 +2232,7 @@ options
 let
 tok
 =
-HtmlTokenizer
+H5ETokenizer
 :
 :
 new
@@ -2257,7 +2258,13 @@ Tokenizer
 :
 HTML
 (
+HtmlTokenizer
+:
+:
+new
+(
 tok
+)
 )
 LastChunkState
 :
@@ -2341,7 +2348,7 @@ default
 let
 tok
 =
-HtmlTokenizer
+H5ETokenizer
 :
 :
 new
@@ -2362,7 +2369,13 @@ Tokenizer
 :
 HTML
 (
+HtmlTokenizer
+:
+:
+new
+(
 tok
+)
 )
 LastChunkState
 :
