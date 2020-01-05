@@ -45,7 +45,7 @@ source
 code
 see
 :
-http
+https
 :
 /
 /
@@ -96,7 +96,7 @@ Instructions
 are
 at
 :
-http
+https
 :
 /
 /
@@ -111,7 +111,7 @@ en
 docs
 /
 Creating_a_patch
-http
+https
 :
 /
 /
@@ -142,7 +142,7 @@ find
 the
 solution
 on
-http
+https
 :
 /
 /
@@ -260,7 +260,7 @@ central
 -
 or
 -
-http
+https
 :
 /
 /
