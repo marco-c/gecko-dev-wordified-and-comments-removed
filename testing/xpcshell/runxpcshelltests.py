@@ -1877,15 +1877,6 @@ info
 message
 )
                 
-self
-.
-log_full_output
-(
-self
-.
-output_lines
-)
-                
 return
             
 self
@@ -1901,9 +1892,6 @@ self
 .
 log_full_output
 (
-self
-.
-output_lines
 )
             
 self
@@ -2034,9 +2022,6 @@ self
 .
 log_full_output
 (
-self
-.
-output_lines
 )
         
 self
@@ -3778,15 +3763,13 @@ def
 log_full_output
 (
 self
-output
 )
 :
         
 "
 "
 "
-Log
-output
+Logs
 any
 buffered
 output
@@ -3794,13 +3777,20 @@ from
 the
 test
 process
+and
+clears
+the
+buffer
+.
 "
 "
 "
         
 if
 not
-output
+self
+.
+output_lines
 :
             
 return
@@ -3825,7 +3815,9 @@ info
 for
 line
 in
-output
+self
+.
+output_lines
 :
             
 self
@@ -3851,6 +3843,13 @@ info
 <
 "
 )
+        
+self
+.
+output_lines
+=
+[
+]
     
 def
 report_message
@@ -3894,13 +3893,6 @@ message
 else
 :
             
-if
-not
-self
-.
-retry
-:
-                
 self
 .
 output_lines
@@ -5181,9 +5173,6 @@ self
 .
 log_full_output
 (
-self
-.
-output_lines
 )
                 
 self
@@ -5287,9 +5276,6 @@ self
 .
 log_full_output
 (
-self
-.
-output_lines
 )
                 
 self
@@ -5318,9 +5304,6 @@ self
 .
 log_full_output
 (
-self
-.
-output_lines
 )
                 
 self
@@ -5379,6 +5362,12 @@ path
 )
                     
 return
+                
+self
+.
+log_full_output
+(
+)
                 
 self
 .
