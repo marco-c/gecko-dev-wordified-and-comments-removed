@@ -77,9 +77,6 @@ use
 js
 ;
 use
-harfbuzz
-;
-use
 stb_image
 ;
 mod
