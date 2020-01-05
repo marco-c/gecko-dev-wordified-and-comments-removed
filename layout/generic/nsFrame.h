@@ -337,7 +337,6 @@ nsIPresShell
 MOZ_MUST_OVERRIDE
 ;
 \
-virtual
 nsQueryFrame
 :
 :

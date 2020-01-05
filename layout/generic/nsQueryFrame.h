@@ -61,7 +61,6 @@ Has_NS_DECL_QUERYFRAME_TARGET
 define
 NS_DECL_QUERYFRAME
 \
-virtual
 void
 *
 QueryFrame
