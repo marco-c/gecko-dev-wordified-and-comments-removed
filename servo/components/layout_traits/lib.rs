@@ -102,7 +102,7 @@ constellation_msg
 :
 {
 ConstellationChan
-Failure
+PanicMsg
 PipelineId
 }
 ;
@@ -216,9 +216,12 @@ ConstellationChan
 <
 ConstellationMsg
 >
-failure_msg
+panic_chan
 :
-Failure
+ConstellationChan
+<
+PanicMsg
+>
 script_chan
 :
 IpcSender
