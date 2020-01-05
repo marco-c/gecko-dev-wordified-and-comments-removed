@@ -679,7 +679,6 @@ PipelineId
 GetFrame
 (
 PipelineId
-SubpageId
 IpcSender
 <
 Option

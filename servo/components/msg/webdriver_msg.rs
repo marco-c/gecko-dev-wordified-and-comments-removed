@@ -2,10 +2,7 @@ use
 constellation_msg
 :
 :
-{
 PipelineId
-SubpageId
-}
 ;
 use
 ipc_channel
@@ -139,10 +136,7 @@ Result
 <
 Option
 <
-(
 PipelineId
-SubpageId
-)
 >
 (
 )
