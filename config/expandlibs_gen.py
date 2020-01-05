@@ -136,26 +136,6 @@ LIB_SUFFIX
 :
             
 if
-'
--
-rs
--
-prelink
-'
-in
-os
-.
-path
-.
-basename
-(
-arg
-)
-:
-                
-continue
-            
-if
 os
 .
 path

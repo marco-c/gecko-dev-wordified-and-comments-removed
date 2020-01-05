@@ -1,5 +1,9 @@
 extern
 crate
+gkrust_shared
+;
+extern
+crate
 mp4parse_gtest
 ;
 extern

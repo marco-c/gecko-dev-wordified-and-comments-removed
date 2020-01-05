@@ -4,9 +4,7 @@ package
 name
 =
 "
-random
--
-crate
+rust2
 "
 version
 =
@@ -50,10 +48,15 @@ dev
 panic
 =
 "
-unwind
+abort
 "
 [
 profile
 .
 release
 ]
+panic
+=
+"
+abort
+"
