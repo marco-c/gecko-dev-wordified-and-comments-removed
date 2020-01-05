@@ -18,6 +18,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsIPrintSession
 ;
@@ -28,7 +35,7 @@ namespace
 gfx
 {
 class
-DrawEventRecorderMemory
+DrawEventRecorderFile
 ;
 }
 namespace
@@ -189,9 +196,12 @@ mozilla
 gfx
 :
 :
-DrawEventRecorderMemory
+DrawEventRecorderFile
 >
 mRecorder
+;
+nsCString
+mRecorderFile
 ;
 }
 ;
