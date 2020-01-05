@@ -90,7 +90,7 @@ aLoadFlags
 NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 }
 ;
-nsresult
+void
 Compare
 (
 ServiceWorkerRegistrationInfo
