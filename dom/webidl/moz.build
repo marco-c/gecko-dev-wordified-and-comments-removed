@@ -1842,11 +1842,6 @@ PopupBoxObject
 webidl
 '
 '
-Pose
-.
-webidl
-'
-'
 Position
 .
 webidl
