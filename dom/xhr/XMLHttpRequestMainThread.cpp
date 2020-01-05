@@ -11585,6 +11585,13 @@ if
 mFlagSynchronous
 )
 {
+mState
+=
+State
+:
+:
+done
+;
 return
 NS_ERROR_DOM_NETWORK_ERR
 ;
@@ -12788,6 +12795,13 @@ if
 mFlagSynchronous
 )
 {
+mState
+=
+State
+:
+:
+done
+;
 return
 NS_ERROR_DOM_NETWORK_ERR
 ;
