@@ -4441,14 +4441,8 @@ ArrayLength
 (
 framePCs
 )
-0
-}
-;
-nativeStack
-.
-count
-=
 framesUsed
+}
 ;
 MergeStacksIntoProfile
 (
