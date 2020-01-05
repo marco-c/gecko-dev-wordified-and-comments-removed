@@ -176,6 +176,14 @@ __CPU_BITTYPE
 :
 c_ulong
 ;
+pub
+type
+idtype_t
+=
+:
+:
+c_int
+;
 s
 !
 {

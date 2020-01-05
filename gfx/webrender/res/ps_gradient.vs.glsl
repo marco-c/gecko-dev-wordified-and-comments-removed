@@ -124,6 +124,7 @@ x
 case
 GRADIENT_HORIZONTAL
 :
+{
 float
 x0
 =
@@ -192,11 +193,13 @@ x1
 -
 x0
 ;
+}
 break
 ;
 case
 GRADIENT_VERTICAL
 :
+{
 float
 y0
 =
@@ -265,6 +268,7 @@ y1
 -
 y0
 ;
+}
 break
 ;
 }

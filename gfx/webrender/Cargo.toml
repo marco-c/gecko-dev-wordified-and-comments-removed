@@ -297,8 +297,6 @@ version
 "
 0
 .
-1
-.
 2
 "
 default
@@ -330,7 +328,7 @@ dwrote
 .
 1
 .
-4
+5
 "
 [
 target
@@ -355,9 +353,9 @@ graphics
 "
 0
 .
-4
+5
 .
-1
+0
 "
 core
 -
