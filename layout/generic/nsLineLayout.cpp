@@ -9110,14 +9110,6 @@ psd
 mRootSpan
 )
 {
-WritingMode
-frameWM
-=
-spanFramePFD
--
->
-mWritingMode
-;
 printf
 (
 "
@@ -9960,7 +9952,7 @@ nsFrame
 ListTag
 (
 stdout
-mFrame
+frame
 )
 ;
 printf
@@ -11866,7 +11858,7 @@ mBounds
 .
 BSize
 (
-frameWM
+lineWM
 )
 spanFramePFD
 -
