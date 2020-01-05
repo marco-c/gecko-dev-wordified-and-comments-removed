@@ -159,16 +159,6 @@ after
 -
 change
 "
-|
-|
-aTopic
-=
-=
-"
-app
--
-startup
-"
 )
 {
 TelemetryController
