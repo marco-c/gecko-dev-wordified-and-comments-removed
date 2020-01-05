@@ -1656,6 +1656,7 @@ http
 client
 libparserutils
 libhubbub
+libcss
 servo
 -
 sandbox

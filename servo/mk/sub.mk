@@ -105,6 +105,13 @@ dist
 /
 include
 "
+DEPS_libcss
++
+=
+\
+libwapcaplet
+\
+libparserutils
 #
 Platform
 -
