@@ -677,9 +677,9 @@ this
 void
 clearNurseryObjects
 (
-ZoneGroup
+JSRuntime
 *
-group
+rt
 )
 ;
 inline
@@ -1197,7 +1197,7 @@ group_
 }
 ;
 class
-ZoneGroupCaches
+RuntimeCaches
 {
 UniquePtr
 <

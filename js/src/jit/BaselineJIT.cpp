@@ -317,11 +317,13 @@ else
 zone
 -
 >
-group
+runtimeFromActiveCooperatingThread
 (
 )
 -
 >
+gc
+.
 freeAllLifoBlocksAfterMinorGC
 (
 &

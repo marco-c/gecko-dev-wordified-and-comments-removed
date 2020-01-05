@@ -2956,11 +2956,6 @@ true
 setNewZoneInNewZoneGroup
 (
 )
-.
-setDisableNursery
-(
-true
-)
 ;
 creationOptions
 .

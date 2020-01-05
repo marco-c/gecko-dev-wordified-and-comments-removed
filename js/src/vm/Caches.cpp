@@ -30,7 +30,7 @@ PodZero
 ;
 MathCache
 *
-ZoneGroupCaches
+RuntimeCaches
 :
 :
 createMathCache
@@ -91,7 +91,7 @@ get
 ;
 }
 bool
-ZoneGroupCaches
+RuntimeCaches
 :
 :
 init
@@ -120,9 +120,9 @@ NewObjectCache
 :
 clearNurseryObjects
 (
-ZoneGroup
+JSRuntime
 *
-group
+rt
 )
 {
 for
@@ -182,9 +182,11 @@ key
 )
 |
 |
-group
+rt
 -
 >
+gc
+.
 nursery
 (
 )
@@ -198,9 +200,11 @@ slots_
 )
 |
 |
-group
+rt
 -
 >
+gc
+.
 nursery
 (
 )
