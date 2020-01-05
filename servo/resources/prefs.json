@@ -594,6 +594,17 @@ sniff
 :
 false
 "
+session
+-
+history
+.
+max
+-
+length
+"
+:
+20
+"
 shell
 .
 builtin
