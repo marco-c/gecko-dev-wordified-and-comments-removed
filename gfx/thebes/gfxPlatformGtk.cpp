@@ -3261,11 +3261,6 @@ config
 int
 visid
 ;
-bool
-forWebRender
-=
-false
-;
 if
 (
 !
@@ -3286,7 +3281,6 @@ cfgs
 config
 &
 visid
-forWebRender
 )
 )
 {
