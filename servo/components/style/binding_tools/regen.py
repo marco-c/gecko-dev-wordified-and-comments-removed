@@ -645,6 +645,10 @@ nsCSSValueTriplet_heap
 "
             
 "
+nsCursorImage
+"
+            
+"
 nsFont
 "
             
