@@ -381,7 +381,11 @@ tests
 -
 crashtest
 -
+gtest
+-
 jsreftest
+-
+marionette
 -
 mochitest
 -
@@ -398,6 +402,12 @@ devtools
 chrome
 -
 reftest
+-
+web
+-
+platform
+-
+tests
 -
 xpcshell
 jsdcov

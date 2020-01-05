@@ -593,6 +593,11 @@ layers
 =
 [
 '
+AnimationHelper
+.
+h
+'
+'
 apz
 /
 public
@@ -1605,6 +1610,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AnimationHelper
+.
+cpp
+'
 '
 apz
 /

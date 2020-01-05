@@ -1314,9 +1314,6 @@ MemoryPressureObserver
 >
 mMemoryPressureObserver
 ;
-uint64_t
-mDeviceCounter
-;
 }
 ;
 class
