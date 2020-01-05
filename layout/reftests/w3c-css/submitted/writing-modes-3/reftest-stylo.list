@@ -315,7 +315,6 @@ compression
 007
 .
 html
-fails
 =
 =
 text
@@ -340,7 +339,6 @@ directionality
 001
 .
 html
-fails
 =
 =
 logical

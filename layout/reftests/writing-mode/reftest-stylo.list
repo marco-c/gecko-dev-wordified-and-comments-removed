@@ -3750,7 +3750,6 @@ sideways
 -
 lr
 mode
-fails
 =
 =
 1193519
@@ -3771,7 +3770,6 @@ lr
 1
 .
 html
-fails
 =
 =
 1193519
@@ -3792,7 +3790,6 @@ lr
 2
 .
 html
-fails
 =
 =
 1193519
@@ -3813,7 +3810,6 @@ lr
 3
 .
 html
-fails
 =
 =
 1193519
@@ -3834,7 +3830,6 @@ lr
 4
 .
 html
-fails
 =
 =
 1193519
@@ -3887,7 +3882,6 @@ inline
 block
 .
 html
-fails
 =
 =
 1205787

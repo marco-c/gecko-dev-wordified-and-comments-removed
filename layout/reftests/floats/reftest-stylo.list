@@ -1959,7 +1959,6 @@ side
 4
 .
 html
-fails
 =
 =
 float
@@ -1984,7 +1983,6 @@ slr
 1a
 .
 html
-fails
 =
 =
 float
@@ -2009,7 +2007,6 @@ slr
 1b
 .
 html
-fails
 =
 =
 float
@@ -2034,7 +2031,6 @@ slr
 1c
 .
 html
-fails
 =
 =
 float
@@ -2059,7 +2055,6 @@ slr
 1d
 .
 html
-fails
 =
 =
 float
@@ -2084,7 +2079,6 @@ slr
 2a
 .
 html
-fails
 =
 =
 float
@@ -2109,7 +2103,6 @@ slr
 2b
 .
 html
-fails
 =
 =
 float
@@ -2159,7 +2152,6 @@ slr
 2d
 .
 html
-fails
 =
 =
 float
@@ -2184,7 +2176,6 @@ slr
 3a
 .
 html
-fails
 =
 =
 float
@@ -2209,7 +2200,6 @@ slr
 3b
 .
 html
-fails
 =
 =
 float
@@ -2259,7 +2249,6 @@ slr
 3d
 .
 html
-fails
 =
 =
 float
@@ -2284,7 +2273,6 @@ slr
 4a
 .
 html
-fails
 =
 =
 float
@@ -2309,7 +2297,6 @@ slr
 4b
 .
 html
-fails
 =
 =
 float
