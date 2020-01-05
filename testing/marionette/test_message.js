@@ -917,7 +917,7 @@ r
 =
 >
 {
-deepEqual
+equal
 (
 error
 .
@@ -925,7 +925,11 @@ toJson
 (
 err
 )
+.
+error
 r
+.
+error
 .
 error
 )
