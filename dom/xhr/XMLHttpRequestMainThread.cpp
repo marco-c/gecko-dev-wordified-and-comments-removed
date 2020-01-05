@@ -12028,10 +12028,6 @@ mSuspendedDoc
 >
 UnsuppressEventHandlingAndFireEvents
 (
-nsIDocument
-:
-:
-eEvents
 true
 )
 ;
@@ -12564,10 +12560,6 @@ mSuspendedDoc
 >
 SuppressEventHandling
 (
-nsIDocument
-:
-:
-eEvents
 )
 ;
 }

@@ -7579,10 +7579,6 @@ doc
 >
 SuppressEventHandling
 (
-nsIDocument
-:
-:
-eEvents
 )
 ;
 }
@@ -7593,10 +7589,6 @@ doc
 >
 UnsuppressEventHandlingAndFireEvents
 (
-nsIDocument
-:
-:
-eEvents
 true
 )
 ;

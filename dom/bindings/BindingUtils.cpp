@@ -13993,10 +13993,6 @@ doc
 >
 SuppressEventHandling
 (
-nsIDocument
-:
-:
-eEvents
 )
 ;
 }
