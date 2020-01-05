@@ -17,17 +17,6 @@ rustc
 hir
 :
 :
-map
-as
-ast_map
-;
-use
-rustc
-:
-:
-hir
-:
-:
 {
 self
 def
