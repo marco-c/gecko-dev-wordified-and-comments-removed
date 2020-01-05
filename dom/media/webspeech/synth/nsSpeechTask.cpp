@@ -3197,6 +3197,16 @@ aSuspend
 {
 if
 (
+!
+mUtterance
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 aSuspend
 =
 =
