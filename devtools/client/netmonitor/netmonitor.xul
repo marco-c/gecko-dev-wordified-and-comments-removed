@@ -346,7 +346,9 @@ bundle
 "
 devtools
 /
-locale
+client
+/
+locales
 /
 netmonitor
 .
