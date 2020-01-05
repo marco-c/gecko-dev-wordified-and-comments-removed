@@ -2486,6 +2486,14 @@ png
 )
 "
 "
+script_traits
+0
+.
+0
+.
+1
+"
+"
 stb_image
 0
 .
@@ -3686,7 +3694,7 @@ rust
 -
 layers
 #
-84f6dd677aa681b03cfcbf89000d2c7b12684bd3
+0f6edd58b3b572f2aac97567b752c15db5fa1982
 "
 dependencies
 =
