@@ -134,7 +134,7 @@ nrinterfaceprioritizer
 cpp
 '
 '
-rlogringbuffer
+rlogconnector
 .
 cpp
 '

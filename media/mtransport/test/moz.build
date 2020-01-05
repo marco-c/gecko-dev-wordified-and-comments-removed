@@ -140,7 +140,7 @@ proxy_tunnel_socket_unittest
 cpp
 '
 '
-rlogringbuffer_unittest
+rlogconnector_unittest
 .
 cpp
 '

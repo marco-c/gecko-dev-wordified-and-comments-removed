@@ -299,7 +299,7 @@ h
 #
 include
 "
-rlogringbuffer
+rlogconnector
 .
 h
 "
@@ -3106,7 +3106,7 @@ ice
 "
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 DestroyInstance
@@ -4918,7 +4918,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance

@@ -43,7 +43,7 @@ h
 #
 include
 "
-rlogringbuffer
+rlogconnector
 .
 h
 "
@@ -51,7 +51,7 @@ using
 mozilla
 :
 :
-RLogRingBuffer
+RLogConnector
 ;
 using
 mozilla
@@ -94,14 +94,14 @@ ClearRingBuffer_s
 (
 )
 {
-RLogRingBuffer
+RLogConnector
 :
 :
 CreateInstance
 (
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -114,7 +114,7 @@ SetLogLimit
 0
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -133,7 +133,7 @@ DestroyRingBuffer_s
 (
 )
 {
-RLogRingBuffer
+RLogConnector
 :
 :
 DestroyInstance
@@ -158,7 +158,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance

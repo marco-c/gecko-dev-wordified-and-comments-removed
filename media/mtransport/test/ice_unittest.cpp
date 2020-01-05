@@ -136,7 +136,7 @@ h
 #
 include
 "
-rlogringbuffer
+rlogconnector
 .
 h
 "
@@ -729,7 +729,7 @@ internal_DeinitializeGlobal
 NS_DISPATCH_SYNC
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 CreateInstance
@@ -894,7 +894,7 @@ ShutdownInstance
 NS_DISPATCH_SYNC
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 DestroyInstance
@@ -21750,7 +21750,7 @@ pairs2
 TEST_F
 (
 WebRtcIceConnectTest
-TestRLogRingBuffer
+TestRLogConnector
 )
 {
 AddStream
@@ -21964,7 +21964,7 @@ p
 >
 codeword
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -22050,7 +22050,7 @@ p
 >
 codeword
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
