@@ -12378,6 +12378,14 @@ IsActive
 (
 lock
 )
+&
+&
+info
+-
+>
+HasProfile
+(
+)
 )
 {
 info
