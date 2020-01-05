@@ -1007,6 +1007,9 @@ abspath
 test_path
 )
 )
+    
+return
+path
 def
 bootstrap
 (
