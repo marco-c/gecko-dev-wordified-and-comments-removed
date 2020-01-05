@@ -5101,6 +5101,13 @@ dest
 NULL
 )
 ;
+if
+(
+len
+>
+0
+)
+{
 PORT_Memcpy
 (
 dest
@@ -5124,6 +5131,7 @@ len
 =
 len
 ;
+}
 }
 static
 SECItem

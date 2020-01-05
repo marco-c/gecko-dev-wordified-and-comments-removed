@@ -2277,6 +2277,18 @@ len
 2
 )
 ;
+if
+(
+source
+-
+>
+len
+(
+)
+>
+0
+)
+{
 offset
 =
 output
@@ -2289,6 +2301,7 @@ offset
 source
 )
 ;
+}
 }
 output
 -

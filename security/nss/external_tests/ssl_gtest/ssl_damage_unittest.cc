@@ -153,7 +153,7 @@ secret
 n
 "
 ;
-SSLInt_DamageHsTrafficSecret
+SSLInt_DamageClientHsTrafficSecret
 (
 server_
 -
@@ -256,7 +256,7 @@ this
 (
 )
 {
-SSLInt_DamageHsTrafficSecret
+SSLInt_DamageServerHsTrafficSecret
 (
 client_
 -

@@ -119,7 +119,15 @@ fd
 )
 ;
 PRBool
-SSLInt_DamageHsTrafficSecret
+SSLInt_DamageClientHsTrafficSecret
+(
+PRFileDesc
+*
+fd
+)
+;
+PRBool
+SSLInt_DamageServerHsTrafficSecret
 (
 PRFileDesc
 *

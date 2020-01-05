@@ -542,6 +542,18 @@ buf
 =
 nnlen
 ;
+if
+(
+dbkey
+-
+>
+salt
+.
+len
+>
+0
+)
+{
 PORT_Memcpy
 (
 &
@@ -563,6 +575,7 @@ salt
 len
 )
 ;
+}
 PORT_Memcpy
 (
 &
