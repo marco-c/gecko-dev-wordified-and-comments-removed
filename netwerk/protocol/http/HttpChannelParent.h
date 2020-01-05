@@ -306,6 +306,13 @@ nsresult
 rv
 )
 ;
+void
+DoSendSetPriority
+(
+int16_t
+aValue
+)
+;
 protected
 :
 bool

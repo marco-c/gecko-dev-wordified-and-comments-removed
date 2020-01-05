@@ -306,13 +306,6 @@ PNecko
 .
 ipdl
 async
-SetPriority
-(
-uint16_t
-priority
-)
-;
-async
 SetClassOfService
 (
 uint32_t
@@ -1171,6 +1164,13 @@ redirect
 async
 FinishInterceptedRedirect
 (
+)
+;
+async
+SetPriority
+(
+uint16_t
+priority
 )
 ;
 }
