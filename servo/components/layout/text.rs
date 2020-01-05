@@ -551,7 +551,7 @@ let
 mut
 last_whitespace
 =
-true
+false
 ;
 let
 mut
@@ -841,7 +841,7 @@ unwrap
 )
 ;
 return
-last_whitespace
+false
 }
 }
 let
@@ -2233,10 +2233,6 @@ position
 to_owned
 (
 )
-.
-into_boxed_slice
-(
-)
 ;
 unscanned_text_fragment_info
 .
@@ -2279,11 +2275,12 @@ SpecificFragmentInfo
 UnscannedText
 (
 UnscannedTextFragmentInfo
-{
-text
 :
+:
+from_text
+(
 string_before
-}
+)
 )
 )
 }

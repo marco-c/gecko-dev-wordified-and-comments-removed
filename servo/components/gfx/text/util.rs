@@ -6,6 +6,7 @@ PartialEq
 Eq
 Copy
 Clone
+Debug
 )
 ]
 pub
