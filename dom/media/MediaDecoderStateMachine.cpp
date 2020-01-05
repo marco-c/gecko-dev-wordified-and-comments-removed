@@ -968,14 +968,11 @@ const
 0
 ;
 virtual
-bool
+void
 HandleCDMProxyReady
 (
 )
 {
-return
-false
-;
 }
 virtual
 bool
@@ -1749,7 +1746,7 @@ return
 DECODER_STATE_WAIT_FOR_CDM
 ;
 }
-bool
+void
 HandleCDMProxyReady
 (
 )
@@ -5607,7 +5604,7 @@ mPendingSeek
 ;
 }
 }
-bool
+void
 MediaDecoderStateMachine
 :
 :
@@ -5628,9 +5625,6 @@ Move
 mPendingSeek
 )
 )
-;
-return
-true
 ;
 }
 void
