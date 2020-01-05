@@ -550,6 +550,12 @@ mozilla
 CondVar
 mCondVar
 ;
+mozilla
+:
+:
+CondVar
+mMemoryReportCondVar
+;
 RefPtr
 <
 EventTarget
@@ -2679,6 +2685,12 @@ bool
 mPendingEventQueueClearing
 ;
 bool
+mMemoryReporterRunning
+;
+bool
+mBlockedForMemoryReporter
+;
+bool
 mCancelAllPendingRunnables
 ;
 bool
@@ -3374,7 +3386,7 @@ aRanOrNot
 )
 ;
 bool
-CollectRuntimeStats
+BlockAndCollectRuntimeStats
 (
 JS
 :
