@@ -624,6 +624,8 @@ const
 void
 spew
 (
+JitSpewChannel
+channel
 )
 const
 ;

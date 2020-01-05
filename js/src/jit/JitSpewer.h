@@ -330,6 +330,11 @@ _
 OptimizationTracking
 )
 \
+_
+(
+OptimizationTrackingExtended
+)
+\
 /
 *
 Debug
