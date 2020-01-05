@@ -103,6 +103,9 @@ random
 if
 (
 winWidget
+|
+|
+gtkWidget
 )
 HTTP
 (
@@ -431,6 +434,9 @@ random
 if
 (
 winWidget
+|
+|
+gtkWidget
 )
 HTTP
 (

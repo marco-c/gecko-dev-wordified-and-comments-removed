@@ -2895,6 +2895,12 @@ if
 (
 cocoaWidget
 )
+random
+-
+if
+(
+gtkWidget
+)
 HTTP
 (
 .
@@ -2914,6 +2920,11 @@ zwnj
 ref
 .
 xhtml
+#
+gtkWidget
+:
+bug
+1309113
 HTTP
 (
 .

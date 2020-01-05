@@ -214,12 +214,16 @@ not
 Ru
 strangely
 )
+and
+GTK
 .
+#
 On
 Windows
 R
+and
+GTK
 the
-#
 single
 -
 line
@@ -231,6 +235,7 @@ item
 has
 a
 different
+#
 background
 size
 in
@@ -251,6 +256,9 @@ random
 if
 (
 winWidget
+|
+|
+gtkWidget
 )
 =
 =
