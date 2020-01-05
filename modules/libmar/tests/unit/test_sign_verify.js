@@ -123,7 +123,7 @@ else
 {
 for
 (
-var
+let
 i
 =
 0
@@ -173,6 +173,9 @@ outMAR
 path
 )
 ;
+let
+exitValue
+;
 process
 .
 init
@@ -193,14 +196,18 @@ args
 length
 )
 ;
+exitValue
+=
+process
+.
+exitValue
+;
 }
 catch
 (
 e
 )
 {
-process
-.
 exitValue
 =
 -
@@ -214,8 +221,6 @@ wantSuccess
 {
 do_check_eq
 (
-process
-.
 exitValue
 0
 )
@@ -225,8 +230,6 @@ else
 {
 do_check_neq
 (
-process
-.
 exitValue
 0
 )
@@ -319,6 +322,9 @@ extractedSig
 path
 ]
 ;
+let
+exitValue
+;
 process
 .
 init
@@ -339,14 +345,18 @@ args
 length
 )
 ;
+exitValue
+=
+process
+.
+exitValue
+;
 }
 catch
 (
 e
 )
 {
-process
-.
 exitValue
 =
 -
@@ -360,8 +370,6 @@ wantSuccess
 {
 do_check_eq
 (
-process
-.
 exitValue
 0
 )
@@ -371,8 +379,6 @@ else
 {
 do_check_neq
 (
-process
-.
 exitValue
 0
 )
@@ -469,6 +475,9 @@ outMAR
 path
 ]
 ;
+let
+exitValue
+;
 process
 .
 init
@@ -489,14 +498,18 @@ args
 length
 )
 ;
+exitValue
+=
+process
+.
+exitValue
+;
 }
 catch
 (
 e
 )
 {
-process
-.
 exitValue
 =
 -
@@ -510,8 +523,6 @@ wantSuccess
 {
 do_check_eq
 (
-process
-.
 exitValue
 0
 )
@@ -521,8 +532,6 @@ else
 {
 do_check_neq
 (
-process
-.
 exitValue
 0
 )
@@ -663,7 +672,7 @@ else
 {
 for
 (
-var
+let
 i
 =
 0
@@ -764,7 +773,7 @@ else
 {
 for
 (
-var
+let
 i
 =
 0
@@ -812,6 +821,9 @@ signedMAR
 path
 )
 ;
+let
+exitValue
+;
 process
 .
 init
@@ -832,14 +844,18 @@ args
 length
 )
 ;
+exitValue
+=
+process
+.
+exitValue
+;
 }
 catch
 (
 e
 )
 {
-process
-.
 exitValue
 =
 -
@@ -853,8 +869,6 @@ wantSuccess
 {
 do_check_eq
 (
-process
-.
 exitValue
 0
 )
@@ -864,8 +878,6 @@ else
 {
 do_check_neq
 (
-process
-.
 exitValue
 0
 )
@@ -951,6 +963,9 @@ outMAR
 path
 ]
 ;
+let
+exitValue
+;
 process
 .
 init
@@ -971,14 +986,18 @@ args
 length
 )
 ;
+exitValue
+=
+process
+.
+exitValue
+;
 }
 catch
 (
 e
 )
 {
-process
-.
 exitValue
 =
 -
@@ -992,8 +1011,6 @@ wantSuccess
 {
 do_check_eq
 (
-process
-.
 exitValue
 0
 )
@@ -1003,8 +1020,6 @@ else
 {
 do_check_neq
 (
-process
-.
 exitValue
 0
 )
@@ -1178,6 +1193,7 @@ tests
 test_sign_single
 :
 function
+_test_sign_single
 (
 )
 {
@@ -1189,12 +1205,7 @@ do_get_file
 "
 data
 /
-"
-+
-refMARPrefix
-+
-"
-binary_data_mar
+binary_data
 .
 mar
 "
@@ -1275,12 +1286,7 @@ do_get_file
 "
 data
 /
-"
-+
-refMARPrefix
-+
-"
-signed_pib_mar
+signed_pib
 .
 mar
 "
@@ -1304,6 +1310,7 @@ refMARData
 test_sign_multiple
 :
 function
+_test_sign_multiple
 (
 )
 {
@@ -1315,12 +1322,7 @@ do_get_file
 "
 data
 /
-"
-+
-refMARPrefix
-+
-"
-binary_data_mar
+binary_data
 .
 mar
 "
@@ -1416,12 +1418,7 @@ do_get_file
 "
 data
 /
-"
-+
-refMARPrefix
-+
-"
-multiple_signed_pib_mar
+multiple_signed_pib
 .
 mar
 "
@@ -1445,6 +1442,7 @@ refMARData
 test_verify_single
 :
 function
+_test_verify_single
 (
 )
 {
@@ -1456,7 +1454,7 @@ do_get_file
 "
 data
 /
-signed_pib_mar
+signed_pib
 .
 mar
 "
@@ -1490,6 +1488,7 @@ false
 test_verify_single_too_many_certs
 :
 function
+_test_verify_single_too_many_certs
 (
 )
 {
@@ -1501,7 +1500,7 @@ do_get_file
 "
 data
 /
-signed_pib_mar
+signed_pib
 .
 mar
 "
@@ -1541,6 +1540,7 @@ false
 test_verify_single_wrong_cert
 :
 function
+_test_verify_single_wrong_cert
 (
 )
 {
@@ -1552,7 +1552,7 @@ do_get_file
 "
 data
 /
-signed_pib_mar
+signed_pib
 .
 mar
 "
@@ -1586,6 +1586,7 @@ false
 test_verify_multiple
 :
 function
+_test_verify_multiple
 (
 )
 {
@@ -1597,7 +1598,7 @@ do_get_file
 "
 data
 /
-multiple_signed_pib_mar
+multiple_signed_pib
 .
 mar
 "
@@ -1624,6 +1625,7 @@ mycert3
 test_verify_unsigned_mar_file_fails
 :
 function
+_test_verify_unsigned_mar_file_fails
 (
 )
 {
@@ -1635,7 +1637,7 @@ do_get_file
 "
 data
 /
-binary_data_mar
+binary_data
 .
 mar
 "
@@ -1662,6 +1664,7 @@ mycert3
 test_verify_multiple_same_cert
 :
 function
+_test_verify_multiple_same_cert
 (
 )
 {
@@ -1673,7 +1676,7 @@ do_get_file
 "
 data
 /
-multiple_signed_pib_mar
+multiple_signed_pib
 .
 mar
 "
@@ -1700,6 +1703,7 @@ mycert
 test_verify_multiple_wrong_order
 :
 function
+_test_verify_multiple_wrong_order
 (
 )
 {
@@ -1711,7 +1715,7 @@ do_get_file
 "
 data
 /
-multiple_signed_pib_mar
+multiple_signed_pib
 .
 mar
 "
@@ -1823,6 +1827,7 @@ mycert
 test_verify_no_pib
 :
 function
+_test_verify_no_pib
 (
 )
 {
@@ -1834,7 +1839,7 @@ do_get_file
 "
 data
 /
-signed_no_pib_mar
+signed_no_pib
 .
 mar
 "
@@ -1868,6 +1873,7 @@ false
 test_verify_no_pib_multiple
 :
 function
+_test_verify_no_pib_multiple
 (
 )
 {
@@ -1879,7 +1885,7 @@ do_get_file
 "
 data
 /
-multiple_signed_no_pib_mar
+multiple_signed_no_pib
 .
 mar
 "
@@ -1906,6 +1912,7 @@ mycert3
 test_crafted_mar
 :
 function
+_test_crafted_mar
 (
 )
 {
@@ -1917,7 +1924,7 @@ do_get_file
 "
 data
 /
-manipulated_signed_mar
+manipulated_signed
 .
 mar
 "
@@ -1951,6 +1958,7 @@ false
 test_bad_path_verify_fails
 :
 function
+_test_bad_path_verify_fails
 (
 )
 {
@@ -1962,7 +1970,7 @@ do_get_file
 "
 data
 /
-does_not_exist_
+does_not_exist
 .
 mar
 "
@@ -1994,6 +2002,7 @@ true
 test_strip_signature
 :
 function
+_test_strip_signature
 (
 )
 {
@@ -2005,12 +2014,7 @@ do_get_file
 "
 data
 /
-"
-+
-refMARPrefix
-+
-"
-binary_data_mar
+binary_data
 .
 mar
 "
@@ -2090,6 +2094,7 @@ originalMARData
 test_strip_multiple_signatures
 :
 function
+_test_strip_multiple_signatures
 (
 )
 {
@@ -2101,12 +2106,7 @@ do_get_file
 "
 data
 /
-"
-+
-refMARPrefix
-+
-"
-binary_data_mar
+binary_data
 .
 mar
 "
@@ -2185,6 +2185,7 @@ originalMARData
 test_extract_sig_single
 :
 function
+_test_extract_sig_single
 (
 )
 {
@@ -2196,7 +2197,7 @@ do_get_file
 "
 data
 /
-signed_pib_mar
+signed_pib
 .
 mar
 "
@@ -2263,7 +2264,6 @@ signature
 "
 )
 ;
-+
 compareBinaryData
 (
 extractedSig
@@ -2274,6 +2274,7 @@ referenceSig
 test_extract_sig_multi
 :
 function
+_test_extract_sig_multi
 (
 )
 {
@@ -2301,7 +2302,7 @@ do_get_file
 "
 data
 /
-multiple_signed_pib_mar
+multiple_signed_pib
 .
 mar
 "
@@ -2369,7 +2370,6 @@ sig
 i
 )
 ;
-+
 compareBinaryData
 (
 extractedSig
@@ -2381,6 +2381,7 @@ referenceSig
 test_extract_sig_out_of_range
 :
 function
+_test_extract_sig_out_of_range
 (
 )
 {
@@ -2392,7 +2393,7 @@ do_get_file
 "
 data
 /
-signed_pib_mar
+signed_pib
 .
 mar
 "
@@ -2452,6 +2453,7 @@ exists
 test_bad_path_sign_fails
 :
 function
+_test_bad_path_sign_fails
 (
 )
 {
@@ -2463,7 +2465,7 @@ do_get_file
 "
 data
 /
-does_not_exist_
+does_not_exist
 .
 mar
 "
@@ -2525,6 +2527,7 @@ exists
 test_verify_multiple_subset
 :
 function
+_test_verify_multiple_subset
 (
 )
 {
@@ -2536,7 +2539,7 @@ do_get_file
 "
 data
 /
-multiple_signed_pib_mar
+multiple_signed_pib
 .
 mar
 "
@@ -2560,6 +2563,7 @@ mycert2
 test_import_sig_single
 :
 function
+_test_import_sig_single
 (
 )
 {
@@ -2571,7 +2575,7 @@ do_get_file
 "
 data
 /
-signed_pib_mar
+signed_pib
 .
 mar
 "
@@ -2652,7 +2656,7 @@ outMAR
 append
 (
 "
-sigchanged_signed_pib_mar
+sigchanged_signed_pib
 .
 mar
 "
@@ -2737,7 +2741,7 @@ do_get_file
 "
 data
 /
-signed_pib_mar_with_mycert2
+signed_pib_with_mycert2
 .
 mar
 "
@@ -2778,6 +2782,7 @@ refMARData
 test_import_wrong_sig
 :
 function
+_test_import_wrong_sig
 (
 )
 {
@@ -2789,7 +2794,7 @@ do_get_file
 "
 data
 /
-signed_pib_mar
+signed_pib
 .
 mar
 "
@@ -2870,7 +2875,7 @@ outMAR
 append
 (
 "
-sigchanged_signed_pib_mar
+sigchanged_signed_pib
 .
 mar
 "
@@ -2951,6 +2956,7 @@ false
 test_import_sig_multiple
 :
 function
+_test_import_sig_multiple
 (
 )
 {
@@ -2962,7 +2968,7 @@ do_get_file
 "
 data
 /
-multiple_signed_pib_mar
+multiple_signed_pib
 .
 mar
 "
@@ -3043,7 +3049,7 @@ outMAR
 append
 (
 "
-sigchanged_signed_pib_mar
+sigchanged_signed_pib
 .
 mar
 "
@@ -3133,7 +3139,7 @@ do_get_file
 "
 data
 /
-multiple_signed_pib_mar_2
+multiple_signed_pib_2
 .
 mar
 "
@@ -3174,6 +3180,7 @@ refMARData
 test_bad_path_strip_fails
 :
 function
+_test_bad_path_strip_fails
 (
 )
 {
@@ -3185,7 +3192,9 @@ do_get_file
 "
 data
 /
-does_not_exist_mar
+does_not_exist
+.
+mar
 "
 true
 )
@@ -3230,6 +3239,7 @@ wantFailure
 test_extract_bad_path
 :
 function
+_test_extract_bad_path
 (
 )
 {
@@ -3306,6 +3316,7 @@ exists
 cleanup_per_test
 :
 function
+_cleanup_per_test
 (
 )
 {
