@@ -2295,6 +2295,8 @@ changes
 LocationChange
 (
 String
+bool
+bool
 )
 /
 /
@@ -2543,6 +2545,8 @@ MozBrowserEvent
 :
 LocationChange
 (
+_
+_
 _
 )
 =
