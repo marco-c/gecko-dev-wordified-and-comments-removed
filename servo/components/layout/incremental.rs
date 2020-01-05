@@ -1520,6 +1520,13 @@ mut_base
 self
 )
 ;
+let
+parent_damage
+=
+self_base
+.
+restyle_damage
+;
 for
 kid
 in
@@ -1561,9 +1568,7 @@ restyle_damage
 .
 insert
 (
-self_base
-.
-restyle_damage
+parent_damage
 .
 damage_for_child
 (
