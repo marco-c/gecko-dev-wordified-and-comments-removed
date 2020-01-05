@@ -6473,9 +6473,16 @@ e
 ;
 gThreadManager
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 event
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

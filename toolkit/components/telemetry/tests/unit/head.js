@@ -654,7 +654,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 (
 )
@@ -666,6 +668,11 @@ deferred
 .
 promise
 )
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 )
 ;
@@ -2037,7 +2044,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 (
 )
@@ -2046,6 +2055,11 @@ dispatchToMainThread
 callback
 (
 )
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

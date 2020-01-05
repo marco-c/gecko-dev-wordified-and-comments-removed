@@ -1710,9 +1710,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 runnable
+Ci
+.
+nsIEventTarget
+.
+DISPATCH_NORMAL
 )
 ;
 }

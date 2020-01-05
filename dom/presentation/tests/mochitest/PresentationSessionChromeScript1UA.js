@@ -236,7 +236,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 (
 )
@@ -251,6 +253,11 @@ offer
 )
 ;
 }
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }
@@ -597,7 +604,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 (
 )
@@ -612,6 +621,11 @@ answer
 )
 ;
 }
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

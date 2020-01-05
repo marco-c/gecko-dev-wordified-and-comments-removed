@@ -575,9 +575,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 runnable
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 log

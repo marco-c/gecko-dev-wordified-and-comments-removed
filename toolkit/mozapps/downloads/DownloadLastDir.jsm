@@ -811,7 +811,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 (
 )
@@ -821,6 +823,13 @@ aCallback
 (
 plainPrefFile
 )
+Components
+.
+interfaces
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 return

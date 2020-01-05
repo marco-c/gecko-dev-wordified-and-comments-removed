@@ -229,7 +229,9 @@ Ci
 nsIThreadManager
 )
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 function
 (
@@ -252,6 +254,7 @@ do_test_finished
 )
 ;
 }
+0
 )
 ;
 }

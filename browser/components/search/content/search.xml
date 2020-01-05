@@ -11401,7 +11401,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 (
 )
@@ -11421,6 +11423,11 @@ _contextEngine
 null
 ;
 }
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 break

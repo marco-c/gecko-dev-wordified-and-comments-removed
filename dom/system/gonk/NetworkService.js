@@ -669,7 +669,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 (
 )
@@ -683,6 +685,11 @@ runQueue
 )
 ;
 }
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

@@ -1916,7 +1916,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 function
 (
@@ -1929,6 +1931,13 @@ resolve
 )
 ;
 }
+Components
+.
+interfaces
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

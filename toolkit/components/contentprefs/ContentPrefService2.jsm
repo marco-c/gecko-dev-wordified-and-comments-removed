@@ -3984,7 +3984,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 fn
 .
@@ -3992,6 +3994,11 @@ bind
 (
 this
 )
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

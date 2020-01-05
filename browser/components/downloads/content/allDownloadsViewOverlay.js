@@ -4280,7 +4280,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 (
 )
@@ -4310,6 +4312,11 @@ _initiallySelectedElement
 firstDownloadElement
 ;
 }
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

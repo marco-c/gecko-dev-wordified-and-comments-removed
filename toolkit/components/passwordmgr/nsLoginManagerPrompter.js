@@ -1104,9 +1104,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 runnable
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 this

@@ -83,9 +83,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 callbackFn
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

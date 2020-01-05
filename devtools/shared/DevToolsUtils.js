@@ -225,7 +225,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 {
 run
@@ -237,6 +239,11 @@ makeInfallible
 executor
 )
 }
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

@@ -2934,9 +2934,16 @@ nsIThreadManager
 ;
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 func
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

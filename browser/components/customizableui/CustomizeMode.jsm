@@ -13436,9 +13436,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 aFunc
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

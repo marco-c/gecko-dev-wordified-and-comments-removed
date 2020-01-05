@@ -953,7 +953,9 @@ nsIThreadManager
 ;
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 {
 run
@@ -1066,6 +1068,13 @@ do_test_finished
 }
 }
 }
+Components
+.
+interfaces
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

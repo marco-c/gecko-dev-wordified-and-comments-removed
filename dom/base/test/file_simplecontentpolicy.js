@@ -71,9 +71,16 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 f
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

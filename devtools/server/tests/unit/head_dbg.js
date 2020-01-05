@@ -3095,7 +3095,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 {
 run
@@ -3107,6 +3109,11 @@ makeInfallible
 func
 )
 }
+Ci
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }

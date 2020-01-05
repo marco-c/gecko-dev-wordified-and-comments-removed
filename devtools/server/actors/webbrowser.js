@@ -2349,7 +2349,9 @@ Services
 .
 tm
 .
-dispatchToMainThread
+currentThread
+.
+dispatch
 (
 DevToolsUtils
 .
@@ -2404,6 +2406,7 @@ delayed
 body
 "
 )
+0
 )
 ;
 }

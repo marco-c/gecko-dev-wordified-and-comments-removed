@@ -79,9 +79,12 @@ Ci
 nsIThreadManager
 )
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 realstartup
+0
 )
 ;
 }

@@ -3839,7 +3839,9 @@ nsIThreadManager
 ;
 tm
 .
-dispatchToMainThread
+mainThread
+.
+dispatch
 (
 {
 run
@@ -3927,6 +3929,13 @@ funcName
 }
 }
 }
+Components
+.
+interfaces
+.
+nsIThread
+.
+DISPATCH_NORMAL
 )
 ;
 }
