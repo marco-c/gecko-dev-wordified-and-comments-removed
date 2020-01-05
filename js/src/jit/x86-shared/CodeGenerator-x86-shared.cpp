@@ -17056,7 +17056,7 @@ output
 ;
 masm
 .
-vmovmskps
+vpmovmskb
 (
 input
 output
@@ -17069,7 +17069,7 @@ cmp32
 output
 Imm32
 (
-0xf
+0xffff
 )
 )
 ;
@@ -17124,7 +17124,7 @@ output
 ;
 masm
 .
-vmovmskps
+vpmovmskb
 (
 input
 output
