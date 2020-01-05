@@ -1188,6 +1188,9 @@ mCharMessageHasGone
 bool
 mIsOverridingKeyboardLayout
 ;
+bool
+mCanIgnoreModifierStateAtKeyPress
+;
 nsTArray
 <
 FakeCharMsg
