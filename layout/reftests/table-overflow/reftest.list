@@ -1,3 +1,9 @@
+fails
+-
+if
+(
+stylo
+)
 =
 =
 bug785684
@@ -10,6 +16,12 @@ bug785684
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 bug785684
