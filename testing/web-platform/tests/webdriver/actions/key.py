@@ -11,8 +11,8 @@ support
 .
 refine
 import
-get_keys
 filter_dict
+get_keys
 get_events
 def
 test_lone_keyup_sends_no_events
