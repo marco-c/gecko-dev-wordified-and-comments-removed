@@ -3397,6 +3397,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetContextProperties
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetCustomProperty
 (
 const

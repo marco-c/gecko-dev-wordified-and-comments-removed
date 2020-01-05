@@ -117,6 +117,16 @@ CSS_KEY
 -
 moz
 -
+context
+-
+properties
+_moz_context_properties
+)
+CSS_KEY
+(
+-
+moz
+-
 block
 -
 height
