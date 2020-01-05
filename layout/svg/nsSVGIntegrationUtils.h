@@ -402,6 +402,15 @@ aUsage
 )
 ;
 static
+bool
+IsMaskResourceReady
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 DrawResult
 PaintFilter
 (
