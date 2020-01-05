@@ -893,7 +893,7 @@ mTxn
 }
 ;
 void
-CompositableForwarder
+TextureForwarder
 :
 :
 IdentifyTextureHost

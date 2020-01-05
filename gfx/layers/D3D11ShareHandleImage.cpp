@@ -269,9 +269,9 @@ D3D11ShareHandleImage
 :
 GetTextureClient
 (
-CompositableClient
+TextureForwarder
 *
-aClient
+aForwarder
 )
 {
 return

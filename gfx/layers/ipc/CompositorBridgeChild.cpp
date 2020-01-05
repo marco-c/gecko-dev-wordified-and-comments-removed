@@ -377,7 +377,7 @@ Atomic
 <
 int32_t
 >
-CompositableForwarder
+TextureForwarder
 :
 :
 sSerialCounter

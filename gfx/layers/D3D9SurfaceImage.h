@@ -204,9 +204,9 @@ TextureClient
 *
 GetTextureClient
 (
-CompositableClient
+TextureForwarder
 *
-aClient
+aForwarder
 )
 override
 ;

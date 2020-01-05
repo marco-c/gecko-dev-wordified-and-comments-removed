@@ -889,7 +889,9 @@ image
 >
 GetTextureClient
 (
-this
+GetForwarder
+(
+)
 )
 ;
 const
@@ -953,7 +955,9 @@ image
 >
 GetTextureClient
 (
-this
+GetForwarder
+(
+)
 )
 =
 =

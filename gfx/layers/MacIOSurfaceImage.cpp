@@ -86,9 +86,9 @@ MacIOSurfaceImage
 :
 GetTextureClient
 (
-CompositableClient
+TextureForwarder
 *
-aClient
+aForwarder
 )
 {
 if
@@ -124,12 +124,7 @@ TextureFlags
 :
 :
 DEFAULT
-aClient
--
->
-GetForwarder
-(
-)
+aForwarder
 )
 ;
 }
