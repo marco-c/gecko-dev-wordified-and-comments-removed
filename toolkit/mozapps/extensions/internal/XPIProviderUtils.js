@@ -663,6 +663,9 @@ dependencies
 "
 hasEmbeddedWebExtension
 "
+"
+mpcOptedOut
+"
 ]
 ;
 const
