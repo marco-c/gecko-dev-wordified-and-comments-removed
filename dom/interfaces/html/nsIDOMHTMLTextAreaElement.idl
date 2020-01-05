@@ -403,14 +403,6 @@ select
 (
 )
 ;
-attribute
-long
-selectionStart
-;
-attribute
-long
-selectionEnd
-;
 void
 setSelectionRange
 (
