@@ -12230,7 +12230,7 @@ adobe
 .
 enabled
 "
-true
+false
 )
 ;
 #
