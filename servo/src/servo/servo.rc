@@ -117,6 +117,17 @@ extern
 mod
 sharegl
 ;
+extern
+mod
+cssparser
+(
+name
+=
+"
+css
+"
+)
+;
 pub
 mod
 engine

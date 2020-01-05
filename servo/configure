@@ -1657,6 +1657,9 @@ client
 libparserutils
 libhubbub
 libcss
+rust
+-
+css
 servo
 -
 sandbox

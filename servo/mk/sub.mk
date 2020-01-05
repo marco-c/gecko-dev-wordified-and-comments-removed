@@ -64,6 +64,13 @@ hubbub
 =
 \
 libhubbub
+DEPS_rust
+-
+css
++
+=
+\
+libcss
 CFLAGS_mozjs
 +
 =
