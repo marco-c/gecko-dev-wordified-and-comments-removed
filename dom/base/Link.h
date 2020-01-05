@@ -81,6 +81,11 @@ Element
 aElement
 )
 ;
+explicit
+Link
+(
+)
+;
 virtual
 void
 SetLinkState

@@ -565,23 +565,6 @@ test
     
 (
 '
-test_IHistory
-'
-'
-toolkit
-/
-components
-/
-places
-/
-tests
-/
-cpp
-'
-)
-    
-(
-'
 testcrasher
 '
 '

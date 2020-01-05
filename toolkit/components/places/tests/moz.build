@@ -90,7 +90,7 @@ TEST_DIRS
 =
 [
 '
-cpp
+gtest
 '
 ]
 TESTING_JS_MODULES
