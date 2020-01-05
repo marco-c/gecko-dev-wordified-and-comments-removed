@@ -4003,6 +4003,20 @@ isfile
 (
 file_or_dir
 )
+and
+self
+.
+ShouldProcess
+(
+os
+.
+path
+.
+abspath
+(
+file_or_dir
+)
+)
 :
             
 yield
