@@ -962,6 +962,16 @@ Flush
 (
 )
 ;
+return
+FlushPromise
+:
+:
+CreateAndResolve
+(
+true
+__func__
+)
+;
 }
 )
 ;
