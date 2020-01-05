@@ -84,7 +84,10 @@ use
 offscreen_gl_context
 :
 :
+{
 GLContext
+NativeGLContext
+}
 ;
 use
 servo
@@ -165,6 +168,11 @@ load_with
 addr
 |
 GLContext
+:
+:
+<
+NativeGLContext
+>
 :
 :
 get_proc_address

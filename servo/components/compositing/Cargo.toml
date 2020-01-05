@@ -339,13 +339,6 @@ rendering
 -
 context
 "
-features
-=
-[
-"
-texture_surface
-"
-]
 [
 dependencies
 .

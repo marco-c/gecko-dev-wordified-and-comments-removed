@@ -111,6 +111,12 @@ libosmesa6
 -
 dev
 -
+libgles2
+-
+mesa
+-
+dev
+-
 python
 -
 virtualenv
