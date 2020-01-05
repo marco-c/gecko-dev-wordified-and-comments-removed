@@ -8030,6 +8030,16 @@ Now
 #
 ifdef
 MOZ_TASK_TRACER
+if
+(
+tasktracer
+:
+:
+IsStartLogging
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -8075,6 +8085,7 @@ get
 )
 )
 ;
+}
 #
 endif
 nsresult

@@ -25359,6 +25359,15 @@ this
 #
 ifdef
 MOZ_TASK_TRACER
+if
+(
+tasktracer
+:
+:
+IsStartLogging
+(
+)
+)
 {
 uint64_t
 sourceEventId

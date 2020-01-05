@@ -10921,6 +10921,15 @@ givenProxyInfo
 #
 ifdef
 MOZ_TASK_TRACER
+if
+(
+tasktracer
+:
+:
+IsStartLogging
+(
+)
+)
 {
 nsAutoCString
 urispec
