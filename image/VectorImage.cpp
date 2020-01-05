@@ -1583,6 +1583,16 @@ aMallocSizeOf
 )
 const
 {
+if
+(
+!
+mSVGDocumentWrapper
+)
+{
+return
+0
+;
+}
 nsIDocument
 *
 doc
