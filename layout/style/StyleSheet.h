@@ -230,14 +230,14 @@ endif
 }
 inline
 CSSStyleSheet
-&
+*
 AsGecko
 (
 )
 ;
 inline
 ServoStyleSheet
-&
+*
 AsServo
 (
 )
@@ -251,7 +251,7 @@ AsHandle
 inline
 const
 CSSStyleSheet
-&
+*
 AsGecko
 (
 )
@@ -260,7 +260,7 @@ const
 inline
 const
 ServoStyleSheet
-&
+*
 AsServo
 (
 )

@@ -35,7 +35,7 @@ namespace
 mozilla
 {
 CSSStyleSheet
-&
+*
 StyleSheet
 :
 :
@@ -51,7 +51,6 @@ IsGecko
 )
 ;
 return
-*
 static_cast
 <
 CSSStyleSheet
@@ -63,7 +62,7 @@ this
 ;
 }
 ServoStyleSheet
-&
+*
 StyleSheet
 :
 :
@@ -79,7 +78,6 @@ IsServo
 )
 ;
 return
-*
 static_cast
 <
 ServoStyleSheet
@@ -106,14 +104,12 @@ IsServo
 )
 {
 return
-&
 AsServo
 (
 )
 ;
 }
 return
-&
 AsGecko
 (
 )
@@ -121,7 +117,7 @@ AsGecko
 }
 const
 CSSStyleSheet
-&
+*
 StyleSheet
 :
 :
@@ -138,7 +134,6 @@ IsGecko
 )
 ;
 return
-*
 static_cast
 <
 const
@@ -152,7 +147,7 @@ this
 }
 const
 ServoStyleSheet
-&
+*
 StyleSheet
 :
 :
@@ -169,7 +164,6 @@ IsServo
 )
 ;
 return
-*
 static_cast
 <
 const
@@ -280,7 +274,8 @@ return
 AsServo
 (
 )
-.
+-
+>
 method_
 servoargs_
 ;
@@ -291,7 +286,8 @@ return
 AsGecko
 (
 )
-.
+-
+>
 method_
 geckoargs_
 ;
@@ -583,7 +579,6 @@ FORWARD_CONCRETE
 (
 AppendStyleSheet
 (
-&
 aSheet
 -
 >
@@ -592,7 +587,6 @@ AsGecko
 )
 )
 (
-&
 aSheet
 -
 >
