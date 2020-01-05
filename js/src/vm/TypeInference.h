@@ -2734,6 +2734,12 @@ maybeSingleton
 (
 )
 ;
+ObjectKey
+*
+maybeSingleObject
+(
+)
+;
 bool
 propertyNeedsBarrier
 (
