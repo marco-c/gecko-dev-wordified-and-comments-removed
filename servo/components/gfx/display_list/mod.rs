@@ -859,7 +859,7 @@ DisplayItem
 SolidColorClass
 (
 ref
-solid_color
+_solid_color
 )
 =
 >
@@ -880,7 +880,7 @@ DisplayItem
 TextClass
 (
 ref
-text
+_text
 )
 =
 >
@@ -901,7 +901,7 @@ DisplayItem
 ImageClass
 (
 ref
-image_item
+_image
 )
 =
 >
@@ -922,7 +922,7 @@ DisplayItem
 BorderClass
 (
 ref
-image_item
+_border
 )
 =
 >
@@ -943,7 +943,7 @@ DisplayItem
 GradientClass
 (
 ref
-image_item
+_gradient
 )
 =
 >
@@ -964,7 +964,7 @@ DisplayItem
 LineClass
 (
 ref
-line_item
+_line
 )
 =
 >
@@ -985,7 +985,7 @@ DisplayItem
 BoxShadowClass
 (
 ref
-box_shadow_item
+_box_shadow
 )
 =
 >
@@ -1111,13 +1111,14 @@ clone
 (
 )
 +
+&
 indentation
-.
-slice
-(
+[
 0
+.
+.
 min_length
-)
+]
 )
 ;
 }
