@@ -392,7 +392,6 @@ children
 ref
 .
 xhtml
-fails
 =
 =
 xbl
@@ -432,12 +431,6 @@ children
 4
 .
 xhtml
-xbl
--
-children
--
-4
--
-ref
-.
-html
+about
+:
+blank

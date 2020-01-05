@@ -204,7 +204,16 @@ nextToken
 }
 }
 return
-false
+nsXMLElement
+:
+:
+ParseAttribute
+(
+aNamespaceID
+aAttribute
+aValue
+aResult
+)
 ;
 }
 }
