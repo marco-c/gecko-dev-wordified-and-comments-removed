@@ -2434,11 +2434,7 @@ private
 test
 value
 "
-{
-usePrivateBrowsing
-:
-true
-}
+privateLoadContext
 )
 ;
 cps
@@ -2457,11 +2453,7 @@ normal
 test
 value
 "
-{
-usePrivateBrowsing
-:
-false
-}
+loadContext
 )
 ;
 cps

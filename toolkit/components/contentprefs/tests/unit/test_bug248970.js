@@ -3,21 +3,6 @@ run_test
 (
 )
 {
-let
-loadContext
-=
-{
-get
-usePrivateBrowsing
-(
-)
-{
-return
-gInPrivateBrowsing
-;
-}
-}
-;
 ContentPrefTest
 .
 deleteDatabase
@@ -144,6 +129,7 @@ zoomA
 ;
 enterPBMode
 (
+cp
 )
 ;
 do_check_eq
@@ -202,6 +188,7 @@ zoomA_new
 ;
 exitPBMode
 (
+cp
 )
 ;
 do_check_eq

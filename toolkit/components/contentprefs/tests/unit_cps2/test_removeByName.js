@@ -409,11 +409,7 @@ bar
 let
 context
 =
-{
-usePrivateBrowsing
-:
-true
-}
+privateLoadContext
 ;
 yield
 set

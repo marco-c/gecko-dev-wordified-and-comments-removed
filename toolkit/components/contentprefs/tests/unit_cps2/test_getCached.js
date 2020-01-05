@@ -452,11 +452,7 @@ foo
 let
 context
 =
-{
-usePrivateBrowsing
-:
-true
-}
+privateLoadContext
 ;
 yield
 set
