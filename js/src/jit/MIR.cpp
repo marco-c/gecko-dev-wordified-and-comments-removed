@@ -35134,6 +35134,17 @@ clasp
 isProxy
 (
 )
+|
+|
+IsTypedObjectClass
+(
+key
+-
+>
+clasp
+(
+)
+)
 )
 {
 return
