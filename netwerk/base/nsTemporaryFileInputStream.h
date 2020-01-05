@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsIIPCSerializableInputStream
+.
+h
+"
+#
+include
+"
 nsISeekableStream
 .
 h
@@ -48,6 +55,8 @@ public
 nsIInputStream
 public
 nsISeekableStream
+public
+nsIIPCSerializableInputStream
 {
 public
 :
@@ -145,9 +154,14 @@ uint64_t
 aEndPos
 )
 ;
+nsTemporaryFileInputStream
+(
+)
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSISEEKABLESTREAM
+NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 private
 :
 virtual
