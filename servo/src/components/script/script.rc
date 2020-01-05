@@ -332,6 +332,10 @@ HTMLImageElementBinding
 ;
 pub
 mod
+HTMLOListElementBinding
+;
+pub
+mod
 HTMLParagraphElementBinding
 ;
 pub
@@ -447,6 +451,10 @@ htmliframeelement
 pub
 mod
 htmlimageelement
+;
+pub
+mod
+htmlolistelement
 ;
 pub
 mod

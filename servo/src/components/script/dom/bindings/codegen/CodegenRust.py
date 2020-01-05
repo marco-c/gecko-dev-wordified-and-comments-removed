@@ -37743,6 +37743,16 @@ HTMLImageElement
 dom
 :
 :
+htmlolistelement
+:
+:
+HTMLOListElement
+'
+                          
+'
+dom
+:
+:
 htmlscriptelement
 :
 :
