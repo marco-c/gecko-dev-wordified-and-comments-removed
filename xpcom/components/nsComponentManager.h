@@ -110,6 +110,13 @@ h
 #
 include
 "
+nsNativeModuleLoader
+.
+h
+"
+#
+include
+"
 nsIFactory
 .
 h
@@ -781,6 +788,9 @@ ComponentLocation
 >
 *
 sModuleLocations
+;
+nsNativeModuleLoader
+mNativeModuleLoader
 ;
 class
 KnownModule

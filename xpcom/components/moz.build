@@ -213,6 +213,11 @@ ManifestParser
 .
 cpp
 '
+'
+nsNativeModuleLoader
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
