@@ -153,8 +153,9 @@ attribute
 DOMString
 crossOrigin
 ;
-/
-/
+[
+Pure
+]
 attribute
 DOMString
 text
