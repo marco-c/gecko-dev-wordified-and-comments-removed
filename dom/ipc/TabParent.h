@@ -435,14 +435,6 @@ nsFrameLoader
 aFrameLoader
 )
 ;
-void
-GetAppType
-(
-nsAString
-&
-aOut
-)
-;
 bool
 IsVisible
 (
