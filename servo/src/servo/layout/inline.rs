@@ -113,7 +113,7 @@ layout
 impl
 inline_layout_methods
 for
-box
+Box
 {
 fn
 reflow_inline

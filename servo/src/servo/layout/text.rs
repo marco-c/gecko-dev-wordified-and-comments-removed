@@ -116,7 +116,7 @@ layout
 impl
 text_layout_methods
 for
-box
+Box
 {
 fn
 reflow_text

@@ -57,9 +57,9 @@ style
 style_methods
 ;
 impl
-apply_style_methods
+ApplyStyleBoxMethods
 for
-box
+Box
 {
 fn
 apply_style_for_subtree

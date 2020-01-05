@@ -81,7 +81,7 @@ methods
 impl
 block_layout_methods
 for
-box
+Box
 {
 #
 [
