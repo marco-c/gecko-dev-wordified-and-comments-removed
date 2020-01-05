@@ -172,6 +172,15 @@ location
 href
 "
 )
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
     
 def
 test_set_location_through_execute_script
