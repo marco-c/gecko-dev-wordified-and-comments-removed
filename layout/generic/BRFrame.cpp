@@ -311,6 +311,10 @@ LayoutFrameType
 :
 Br
 )
+mAscent
+(
+NS_INTRINSIC_WIDTH_UNKNOWN
+)
 {
 }
 virtual
