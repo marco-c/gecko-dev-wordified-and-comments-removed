@@ -196,6 +196,12 @@ other
 .
 profileDir
 )
+debugWriteDir
+(
+other
+.
+debugWriteDir
+)
 shouldLog
 (
 other
@@ -248,6 +254,12 @@ std
 :
 string
 profileDir
+;
+std
+:
+:
+string
+debugWriteDir
 ;
 bool
 shouldLog
