@@ -9235,13 +9235,6 @@ head
 '
                 
 '
-tail
-'
-:
-'
-'
-                
-'
 support
 -
 files
@@ -9378,7 +9371,6 @@ platform
 )
         
 for
-test_type
 path
 tests
 in
@@ -9395,8 +9387,16 @@ tests_root
 path
 )
             
+for
+test
+in
+tests
+:
+                
 if
-test_type
+test
+.
+item_type
 not
 in
 [
@@ -9406,19 +9406,10 @@ testharness
 "
 reftest
 "
-"
-wdspec
-"
 ]
 :
-                
+                    
 continue
-            
-for
-test
-in
-tests
-:
                 
 obj
 .
@@ -9461,13 +9452,6 @@ id
                     
 '
 head
-'
-:
-'
-'
-                    
-'
-tail
 '
 :
 '

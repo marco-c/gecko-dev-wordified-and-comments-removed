@@ -396,13 +396,6 @@ test_async_chain
 .
 js
 "
-            
-"
-tail
-"
-:
-"
-"
         
 }
     
@@ -587,13 +580,6 @@ relpath
 test_async_querySpinningly
 .
 js
-"
-            
-"
-tail
-"
-:
-"
 "
         
 }
@@ -832,13 +818,6 @@ os
 android
 '
 "
-            
-"
-tail
-"
-:
-"
-"
         
 }
         
@@ -1058,13 +1037,6 @@ os
 '
 android
 '
-"
-            
-"
-tail
-"
-:
-"
 "
         
 }
