@@ -287,8 +287,10 @@ UpdateDragEffect
 override
 ;
 static
+already_AddRefed
+<
 nsDragService
-*
+>
 GetInstance
 (
 )
