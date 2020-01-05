@@ -558,7 +558,7 @@ n
 =
 mData
 .
-SizeOfIncludingThisIfUnshared
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )
