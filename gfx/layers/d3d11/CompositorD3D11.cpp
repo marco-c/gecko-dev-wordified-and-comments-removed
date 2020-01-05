@@ -199,13 +199,6 @@ h
 "
 #
 include
-"
-D3D9SurfaceImage
-.
-h
-"
-#
-include
 <
 dxgi1_2
 .

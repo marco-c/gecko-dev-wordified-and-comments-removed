@@ -1381,9 +1381,6 @@ var
 in
 (
 '
-MOZ_ENABLE_D3D9_LAYER
-'
-'
 MOZ_ENABLE_D3D10_LAYER
 '
 )

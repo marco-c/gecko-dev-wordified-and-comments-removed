@@ -73,16 +73,6 @@ Compositing
 \
 _
 (
-D3D9_COMPOSITING
-Feature
-"
-Direct3D9
-Compositing
-"
-)
-\
-_
-(
 OPENGL_COMPOSITING
 Feature
 "

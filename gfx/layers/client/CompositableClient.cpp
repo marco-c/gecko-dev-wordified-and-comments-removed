@@ -109,17 +109,6 @@ TextureD3D11
 h
 "
 #
-include
-"
-mozilla
-/
-layers
-/
-TextureD3D9
-.
-h
-"
-#
 endif
 #
 include
