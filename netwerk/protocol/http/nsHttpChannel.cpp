@@ -21405,6 +21405,12 @@ n
 )
 )
 ;
+mAvailableCachedAltDataType
+.
+Truncate
+(
+)
+;
 nsCOMPtr
 <
 nsICacheEntry
