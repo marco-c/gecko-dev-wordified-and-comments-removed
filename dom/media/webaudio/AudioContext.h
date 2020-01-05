@@ -458,13 +458,6 @@ GetOwner
 )
 ;
 }
-virtual
-void
-DisconnectFromOwner
-(
-)
-override
-;
 void
 Shutdown
 (
@@ -1276,9 +1269,6 @@ mCloseCalled
 ;
 bool
 mSuspendCalled
-;
-bool
-mIsDisconnecting
 ;
 }
 ;
