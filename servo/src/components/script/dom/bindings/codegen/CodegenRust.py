@@ -4531,11 +4531,7 @@ invalidEnumValueFatal
             
 handleInvalidEnumValueCode
 =
-"
-return
-0
-;
-"
+exceptionCode
         
 else
 :
@@ -4639,6 +4635,8 @@ n
 "
             
 "
+unsafe
+{
 cast
 :
 :
@@ -4646,6 +4644,7 @@ transmute
 (
 index
 )
+}
 \
 n
 "
