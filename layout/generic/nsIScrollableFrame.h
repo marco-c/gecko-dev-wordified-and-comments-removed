@@ -787,6 +787,8 @@ virtual
 void
 NotifyApproximateFrameVisibilityUpdate
 (
+bool
+aIgnoreDisplayPort
 )
 =
 0

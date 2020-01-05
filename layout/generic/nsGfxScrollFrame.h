@@ -1484,6 +1484,8 @@ aAllowCreateDisplayPort
 void
 NotifyApproximateFrameVisibilityUpdate
 (
+bool
+aIgnoreDisplayPort
 )
 ;
 bool
@@ -3651,6 +3653,8 @@ virtual
 void
 NotifyApproximateFrameVisibilityUpdate
 (
+bool
+aIgnoreDisplayPort
 )
 override
 {
@@ -3658,6 +3662,7 @@ mHelper
 .
 NotifyApproximateFrameVisibilityUpdate
 (
+aIgnoreDisplayPort
 )
 ;
 }
@@ -6098,6 +6103,8 @@ virtual
 void
 NotifyApproximateFrameVisibilityUpdate
 (
+bool
+aIgnoreDisplayPort
 )
 override
 {
@@ -6105,6 +6112,7 @@ mHelper
 .
 NotifyApproximateFrameVisibilityUpdate
 (
+aIgnoreDisplayPort
 )
 ;
 }
