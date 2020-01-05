@@ -2544,6 +2544,11 @@ browser
 if
 (
 window
+&
+&
+window
+.
+BrowserApp
 )
 {
 let
@@ -2555,6 +2560,11 @@ BrowserApp
 .
 selectedTab
 ;
+if
+(
+tab
+)
+{
 this
 .
 restoreZombieTab
@@ -2562,6 +2572,7 @@ restoreZombieTab
 tab
 )
 ;
+}
 }
 break
 ;
