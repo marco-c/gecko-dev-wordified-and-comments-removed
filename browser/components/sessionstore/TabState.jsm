@@ -622,9 +622,14 @@ tabData
 .
 entries
 =
-value
+[
+.
+.
+.
+tabData
 .
 entries
+]
 ;
 if
 (
