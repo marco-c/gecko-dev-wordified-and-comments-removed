@@ -478,6 +478,7 @@ outChildFrame
 ;
 }
 else
+{
 return
 nsFrame
 :
@@ -490,6 +491,7 @@ outFrameContentOffset
 outChildFrame
 )
 ;
+}
 }
 void
 nsFirstLetterFrame
