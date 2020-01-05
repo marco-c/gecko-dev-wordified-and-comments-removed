@@ -1735,6 +1735,11 @@ mPlaybackRate
 1
 ;
 }
+void
+MaybeStopPrerolling
+(
+)
+;
 bool
 mIsPrerolling
 =
