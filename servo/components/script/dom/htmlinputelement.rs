@@ -3252,7 +3252,6 @@ false
 impl
 HTMLInputElement
 {
-pub
 fn
 force_relayout
 (
@@ -3294,7 +3293,6 @@ NodeDamage
 OtherNodeDamage
 )
 }
-pub
 fn
 radio_group_updated
 (
@@ -3346,7 +3344,6 @@ radio
 button
 -
 group
-pub
 fn
 get_radio_group_name
 (
@@ -3419,7 +3416,6 @@ clone
 )
 )
 }
-pub
 fn
 update_checked_state
 (
@@ -3504,25 +3500,6 @@ event
 }
 pub
 fn
-get_size
-(
-&
-self
-)
--
->
-u32
-{
-self
-.
-size
-.
-get
-(
-)
-}
-pub
-fn
 get_indeterminate_state
 (
 &
@@ -3562,7 +3539,6 @@ concept
 fe
 -
 mutable
-pub
 fn
 mutable
 (
