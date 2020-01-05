@@ -743,14 +743,19 @@ basestring
 taskref_or_string
 }
         
+Required
+(
 '
 command
 '
+)
 :
 [
 taskref_or_string
 ]
         
+Required
+(
 '
 max
 -
@@ -758,6 +763,7 @@ run
 -
 time
 '
+)
 :
 int
         
@@ -790,9 +796,12 @@ generic
 worker
 '
         
+Required
+(
 '
 command
 '
+)
 :
 [
 taskref_or_string
@@ -875,6 +884,8 @@ basestring
 taskref_or_string
 }
         
+Required
+(
 '
 max
 -
@@ -882,6 +893,7 @@ run
 -
 time
 '
+)
 :
 int
         
@@ -918,15 +930,21 @@ buildbot
 bridge
 '
         
+Required
+(
 '
 buildername
 '
+)
 :
 basestring
         
+Required
+(
 '
 sourcestamp
 '
+)
 :
 {
             
@@ -965,9 +983,12 @@ basestring
         
 }
         
+Required
+(
 '
 properties
 '
+)
 :
 {
             
