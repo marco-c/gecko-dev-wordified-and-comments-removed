@@ -1885,10 +1885,9 @@ scale
 if
 (
 !
-gfxPrefs
-:
-:
-WebRenderEnabled
+mOptions
+.
+UseWebRender
 (
 )
 )
