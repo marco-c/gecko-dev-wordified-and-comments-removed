@@ -6998,7 +6998,7 @@ getAnonymousElementByAttribute
 (
 controls
 "
-anonid
+class
 "
 "
 controlBar
