@@ -668,7 +668,13 @@ enum
 NavigationDirection
 {
 Forward
+(
+usize
+)
 Back
+(
+usize
+)
 }
 #
 [
