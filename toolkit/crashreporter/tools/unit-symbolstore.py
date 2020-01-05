@@ -120,7 +120,7 @@ I28x
 )
 )
 def
-write_pdb
+write_dll
 (
 filename
 )
@@ -157,7 +157,7 @@ filename
 +
 "
 .
-dll
+pdb
 "
 "
 w
@@ -192,7 +192,7 @@ writer
 WINNT
 '
 :
-write_pdb
+write_dll
           
 '
 Linux
@@ -226,7 +226,7 @@ WINNT
 :
 "
 .
-pdb
+dll
 "
              
 '
@@ -1787,11 +1787,11 @@ test_dir
 '
 foo
 .
-pdb
+dll
 '
 )
         
-write_pdb
+write_dll
 (
 test_file
 )
@@ -5033,7 +5033,7 @@ app
 '
 firefox
 .
-pdb
+exe
 '
 )
         
