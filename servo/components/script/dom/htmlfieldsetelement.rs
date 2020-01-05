@@ -852,10 +852,6 @@ descendant
 match
 descendant
 .
-r
-(
-)
-.
 type_id
 (
 )

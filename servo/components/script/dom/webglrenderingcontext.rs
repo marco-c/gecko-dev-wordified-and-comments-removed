@@ -7104,10 +7104,6 @@ img_url
 match
 image
 .
-r
-(
-)
-.
 get_url
 (
 )
@@ -7405,10 +7401,6 @@ result
 =
 texture
 .
-r
-(
-)
-.
 tex_parameter
 (
 target
@@ -7502,10 +7494,6 @@ let
 result
 =
 texture
-.
-r
-(
-)
 .
 tex_parameter
 (

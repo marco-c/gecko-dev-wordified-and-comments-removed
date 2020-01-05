@@ -1267,10 +1267,6 @@ value
 =
 owner
 .
-r
-(
-)
-.
 parse_attribute
 (
 &

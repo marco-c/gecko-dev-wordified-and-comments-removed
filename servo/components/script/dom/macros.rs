@@ -635,10 +635,6 @@ self
 ;
 window
 .
-r
-(
-)
-.
 get_url
 (
 )

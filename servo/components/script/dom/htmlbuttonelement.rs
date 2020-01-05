@@ -1387,10 +1387,6 @@ ancestor
 |
 ancestor
 .
-r
-(
-)
-.
 is
 :
 :
@@ -1696,10 +1692,6 @@ o
 {
 o
 .
-r
-(
-)
-.
 submit
 (
 SubmittedFrom
@@ -1874,10 +1866,6 @@ find
 r
 |
 r
-.
-r
-(
-)
 .
 form_owner
 (

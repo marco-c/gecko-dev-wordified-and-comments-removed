@@ -499,10 +499,6 @@ None
 ;
 document
 .
-r
-(
-)
-.
 set_ready_state
 (
 DocumentReadyState

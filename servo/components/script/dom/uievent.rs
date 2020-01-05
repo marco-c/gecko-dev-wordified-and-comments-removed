@@ -328,10 +328,6 @@ window
 ;
 ev
 .
-r
-(
-)
-.
 InitUIEvent
 (
 type_

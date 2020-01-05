@@ -588,10 +588,6 @@ else
 match
 doc
 .
-r
-(
-)
-.
 CreateElementNS
 (
 namespace

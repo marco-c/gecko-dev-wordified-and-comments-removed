@@ -1328,10 +1328,6 @@ sibling_op
 =
 node
 .
-r
-(
-)
-.
 GetPreviousSibling
 (
 )
@@ -1627,10 +1623,6 @@ parent
 match
 node
 .
-r
-(
-)
-.
 GetParentNode
 (
 )
@@ -1898,10 +1890,6 @@ break
 }
 match
 node
-.
-r
-(
-)
 .
 GetFirstChild
 (

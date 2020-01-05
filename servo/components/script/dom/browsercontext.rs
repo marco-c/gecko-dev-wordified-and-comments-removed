@@ -802,10 +802,6 @@ false
 return
 win
 .
-r
-(
-)
-.
 IndexedGetter
 (
 index

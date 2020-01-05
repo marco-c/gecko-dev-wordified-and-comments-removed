@@ -457,10 +457,6 @@ layout_chan
 =
 win
 .
-r
-(
-)
-.
 layout_chan
 (
 )

@@ -1472,10 +1472,6 @@ elem
 {
 elem
 .
-r
-(
-)
-.
 get_string_attribute
 (
 &
@@ -1493,10 +1489,6 @@ key
 |
 |
 elem
-.
-r
-(
-)
 .
 get_string_attribute
 (

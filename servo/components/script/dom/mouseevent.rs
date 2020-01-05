@@ -494,10 +494,6 @@ window
 ;
 ev
 .
-r
-(
-)
-.
 InitMouseEvent
 (
 type_

@@ -661,10 +661,6 @@ document_element
 =
 document
 .
-r
-(
-)
-.
 GetDocumentElement
 (
 )
@@ -773,10 +769,6 @@ traverse_preorder
 if
 candidate
 .
-r
-(
-)
-.
 get_unique_id
 (
 )
@@ -852,10 +844,6 @@ children
 =
 parent
 .
-r
-(
-)
-.
 children
 (
 )
@@ -867,10 +855,6 @@ child
 |
 {
 child
-.
-r
-(
-)
 .
 summarize
 (
@@ -1525,10 +1509,6 @@ unwrap
 )
 ;
 doc
-.
-r
-(
-)
 .
 request_animation_frame
 (

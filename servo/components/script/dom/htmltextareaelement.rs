@@ -2846,10 +2846,6 @@ root
 ;
 target
 .
-r
-(
-)
-.
 dispatch_change_event
 (
 )

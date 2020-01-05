@@ -439,10 +439,6 @@ new_node
 =
 owner_doc
 .
-r
-(
-)
-.
 CreateTextNode
 (
 new_data
@@ -552,10 +548,6 @@ node
 |
 node
 .
-r
-(
-)
-.
 is
 :
 :
@@ -579,10 +571,6 @@ nodes
 =
 first
 .
-r
-(
-)
-.
 inclusively_following_siblings
 (
 )
@@ -593,10 +581,6 @@ take_while
 node
 |
 node
-.
-r
-(
-)
 .
 is
 :

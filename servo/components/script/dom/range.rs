@@ -6280,10 +6280,6 @@ child
 {
 child
 .
-r
-(
-)
-.
 GetParentNode
 (
 )
@@ -6307,10 +6303,6 @@ unwrap
 ;
 if
 child
-.
-r
-(
-)
 .
 index
 (

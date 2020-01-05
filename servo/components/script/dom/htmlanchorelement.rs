@@ -1197,10 +1197,6 @@ if
 !
 doc
 .
-r
-(
-)
-.
 is_fully_active
 (
 )
@@ -1340,10 +1336,6 @@ rect
 window_from_node
 (
 target_node
-)
-.
-r
-(
 )
 .
 content_box_query

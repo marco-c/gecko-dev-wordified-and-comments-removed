@@ -313,10 +313,6 @@ init
 *
 query
 .
-r
-(
-)
-.
 list
 .
 borrow_mut
@@ -348,10 +344,6 @@ init
 *
 query
 .
-r
-(
-)
-.
 list
 .
 borrow_mut
@@ -359,10 +351,6 @@ borrow_mut
 )
 =
 init
-.
-r
-(
-)
 .
 list
 .
