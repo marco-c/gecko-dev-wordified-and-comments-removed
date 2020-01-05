@@ -193,6 +193,14 @@ target_os
 ios
 "
 )
+not
+(
+target_os
+=
+"
+android
+"
+)
 )
 )
 ]
