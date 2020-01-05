@@ -99,6 +99,13 @@ Init
 (
 )
 {
+uint64_t
+taskid
+=
+GenNewUniqueTaskId
+(
+)
+;
 TraceInfoHolder
 info
 =
@@ -113,9 +120,7 @@ info
 ;
 mTaskId
 =
-GenNewUniqueTaskId
-(
-)
+taskid
 ;
 mSourceEventId
 =
