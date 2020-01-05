@@ -372,6 +372,13 @@ error_reporting
 :
 StdoutErrorReporter
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 style
 :
