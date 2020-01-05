@@ -3351,6 +3351,10 @@ Info
 )
 .
 mDuration
+.
+IsPositive
+(
+)
 )
 {
 TimeAtEnd
@@ -3526,10 +3530,6 @@ mDuration
 Duration
 (
 )
-.
-ToMicroseconds
-(
-)
 ;
 return
 info
@@ -3569,6 +3569,10 @@ Info
 )
 .
 mDuration
+.
+IsPositive
+(
+)
 ;
 }
 RefPtr
@@ -5271,11 +5275,6 @@ std
 max
 (
 mParsedFramesDuration
-TimeUnit
-:
-:
-FromMicroseconds
-(
 mParser
 -
 >
@@ -5284,7 +5283,6 @@ Info
 )
 .
 mDuration
-)
 )
 ;
 }

@@ -2583,6 +2583,10 @@ videoInfo
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 )
 ;
 EXPECT_EQ
@@ -2833,6 +2837,10 @@ audioInfo
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 )
 ;
 EXPECT_EQ
@@ -2863,6 +2871,10 @@ audioInfo
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 )
 {
 MOZ_RELEASE_ASSERT

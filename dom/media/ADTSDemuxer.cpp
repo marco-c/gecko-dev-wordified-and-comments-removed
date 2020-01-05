@@ -1480,10 +1480,6 @@ mDuration
 Duration
 (
 )
-.
-ToMicroseconds
-(
-)
 ;
 mInfo
 -
@@ -1588,6 +1584,10 @@ mInfo
 -
 >
 mDuration
+.
+ToMicroseconds
+(
+)
 )
 ;
 return

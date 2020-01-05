@@ -2001,10 +2001,6 @@ FromNanoseconds
 (
 duration
 )
-.
-ToMicroseconds
-(
-)
 ;
 }
 mInfo
@@ -2405,10 +2401,6 @@ TimeUnit
 FromNanoseconds
 (
 duration
-)
-.
-ToMicroseconds
-(
 )
 ;
 }

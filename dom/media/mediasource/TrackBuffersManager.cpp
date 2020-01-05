@@ -4765,6 +4765,10 @@ info
 mVideo
 .
 mDuration
+.
+ToMicroseconds
+(
+)
 :
 0
 ;
@@ -4778,6 +4782,10 @@ info
 mAudio
 .
 mDuration
+.
+ToMicroseconds
+(
+)
 :
 0
 ;
