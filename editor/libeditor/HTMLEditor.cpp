@@ -2059,14 +2059,7 @@ mRules
 >
 Init
 (
-static_cast
-<
-TextEditor
-*
->
-(
 this
-)
 )
 ;
 }
