@@ -163,6 +163,11 @@ PDataChannel
 ipdl
 '
 '
+PFileChannel
+.
+ipdl
+'
+'
 PNecko
 .
 ipdl

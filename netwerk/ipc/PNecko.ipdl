@@ -217,6 +217,10 @@ PStunAddrsRequest
 ;
 include
 protocol
+PFileChannel
+;
+include
+protocol
 PRtspController
 ;
 include
@@ -406,6 +410,9 @@ PDNSRequest
 ;
 manages
 PDataChannel
+;
+manages
+PFileChannel
 ;
 manages
 PRtspController
@@ -629,6 +636,13 @@ URI
 /
 async
 PDataChannel
+(
+uint32_t
+channelId
+)
+;
+async
+PFileChannel
 (
 uint32_t
 channelId
