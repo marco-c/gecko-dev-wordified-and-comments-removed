@@ -4111,10 +4111,10 @@ UpdateApzAwareFlag
 void
 GetSelectionRange
 (
-int32_t
+uint32_t
 *
 aSelectionStart
-int32_t
+uint32_t
 *
 aSelectionEnd
 ErrorResult
