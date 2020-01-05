@@ -522,7 +522,7 @@ event
 >
 {
 let
-cacheDB
+cacheDB2
 =
 event
 .
@@ -530,7 +530,7 @@ target
 .
 result
 ;
-cacheDB
+cacheDB2
 .
 createObjectStore
 (

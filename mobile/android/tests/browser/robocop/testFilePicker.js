@@ -336,7 +336,7 @@ hasMoreElements
 )
 {
 let
-file
+domFile
 =
 e
 .
@@ -351,14 +351,14 @@ DOMFile
 :
 "
 +
-file
+domFile
 .
 mozFullPath
 )
 ;
 is
 (
-file
+domFile
 .
 mozFullPath
 "
