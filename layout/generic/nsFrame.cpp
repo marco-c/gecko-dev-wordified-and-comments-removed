@@ -2547,7 +2547,7 @@ this
 nsLayoutUtils
 :
 :
-HasRelevantAnimationOfProperty
+HasAnimationOfProperty
 (
 this
 eCSSProperty_transform
@@ -5478,7 +5478,7 @@ mContent
 nsLayoutUtils
 :
 :
-HasRelevantAnimationOfProperty
+HasAnimationOfProperty
 (
 this
 eCSSProperty_transform
@@ -5568,7 +5568,7 @@ mContent
 nsLayoutUtils
 :
 :
-HasRelevantAnimationOfProperty
+HasAnimationOfProperty
 (
 this
 eCSSProperty_opacity
@@ -10052,7 +10052,7 @@ NS_STYLE_WILL_CHANGE_OPACITY
 nsLayoutUtils
 :
 :
-HasActiveAnimationOfProperty
+HasAnimationOfProperty
 (
 this
 eCSSProperty_opacity

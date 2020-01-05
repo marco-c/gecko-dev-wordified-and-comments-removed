@@ -3157,7 +3157,7 @@ property
 keyframeEffect
 -
 >
-GetAnimationOfProperty
+GetEffectiveAnimationOfProperty
 (
 aProperty
 )
@@ -3203,15 +3203,15 @@ HasProperty
 aProperty
 )
 "
-GetAnimationOfProperty
+GetEffectiveAnimationOfProperty
 already
 tested
 the
 property
+"
+"
 is
 not
-"
-"
 overridden
 by
 !

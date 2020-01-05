@@ -74,7 +74,6 @@ inline
 ref
 .
 html
-fails
 =
 =
 stacking
@@ -99,7 +98,6 @@ transition
 ref
 .
 html
-fails
 =
 =
 stacking

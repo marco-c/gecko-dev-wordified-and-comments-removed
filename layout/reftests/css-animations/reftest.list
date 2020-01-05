@@ -424,7 +424,6 @@ animation
 ref
 .
 html
-fails
 =
 =
 stacking
@@ -447,7 +446,6 @@ animation
 ref
 .
 html
-fails
 =
 =
 stacking
@@ -904,7 +902,6 @@ animation
 ref
 .
 html
-fails
 =
 =
 stacking
@@ -929,13 +926,6 @@ animation
 ref
 .
 html
-#
-bug
-1278136
-and
-bug
-1279403
-fails
 =
 =
 stacking
@@ -962,7 +952,6 @@ animation
 ref
 .
 html
-fails
 =
 =
 stacking
@@ -987,13 +976,6 @@ animation
 ref
 .
 html
-#
-bug
-1278136
-and
-bug
-1279403
-fails
 =
 =
 stacking

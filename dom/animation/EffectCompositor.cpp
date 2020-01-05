@@ -706,7 +706,7 @@ if
 effect
 -
 >
-HasAnimationOfProperty
+HasEffectiveAnimationOfProperty
 (
 aProperty
 )
