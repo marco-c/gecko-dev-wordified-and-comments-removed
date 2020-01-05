@@ -13317,7 +13317,7 @@ history
 .
 limit
 "
-0
+2000
 )
 ;
 pref
@@ -13333,7 +13333,7 @@ history
 .
 maxAgeInDays
 "
-0
+180
 )
 ;
 pref
