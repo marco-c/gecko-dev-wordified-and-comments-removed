@@ -1784,7 +1784,7 @@ aEvent
 )
 {
 var
-isExppected
+isExpected
 =
 false
 ;
@@ -9560,11 +9560,6 @@ invoke
 )
 ;
 }
-var
-item
-=
-this
-;
 this
 .
 queue

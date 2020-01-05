@@ -994,7 +994,6 @@ aTestName
 ;
 var
 [
-state
 extraState
 ]
 =

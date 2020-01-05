@@ -828,9 +828,6 @@ while
 true
 )
 {
-var
-text
-=
 acc
 .
 getTextAtOffset

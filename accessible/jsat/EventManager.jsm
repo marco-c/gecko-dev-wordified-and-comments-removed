@@ -632,11 +632,6 @@ wheel
 :
 {
 let
-attempts
-=
-0
-;
-let
 delta
 =
 aEvent
@@ -1595,13 +1590,6 @@ acc
 aEvent
 .
 accessible
-;
-let
-doc
-=
-aEvent
-.
-accessibleDocument
 ;
 this
 .
@@ -2817,9 +2805,6 @@ let
 {
 live
 relevant
-busy
-atomic
-memberOf
 }
 =
 getLiveAttributes

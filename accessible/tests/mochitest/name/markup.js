@@ -615,14 +615,6 @@ n
 )
 ;
 var
-serializer
-=
-new
-XMLSerializer
-(
-)
-;
-var
 expr
 =
 "
