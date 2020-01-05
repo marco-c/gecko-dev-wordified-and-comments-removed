@@ -1692,13 +1692,6 @@ in
 elapsed
 )
         
-if
-android
-:
-            
-return
-0
-        
 return
 status
     
