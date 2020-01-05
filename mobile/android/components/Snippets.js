@@ -1273,6 +1273,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

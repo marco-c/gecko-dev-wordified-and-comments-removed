@@ -947,6 +947,7 @@ Task
 spawn
 (
 function
+*
 create_database_task
 (
 )
@@ -979,6 +980,7 @@ Task
 spawn
 (
 function
+*
 upgrade_database_task
 (
 )
@@ -1054,6 +1056,7 @@ Task
 spawn
 (
 function
+*
 get_database_connection_task
 (
 )
@@ -1078,14 +1081,8 @@ if
 gDatabaseEnsured
 )
 {
-throw
-new
-Task
-.
-Result
-(
+return
 db
-)
 ;
 }
 try
@@ -1165,14 +1162,8 @@ gDatabaseEnsured
 =
 true
 ;
-throw
-new
-Task
-.
-Result
-(
+return
 db
-)
 ;
 }
 )
@@ -1428,6 +1419,7 @@ Task
 spawn
 (
 function
+*
 save_task
 (
 )
@@ -1448,6 +1440,7 @@ db
 executeTransaction
 (
 function
+*
 save_transaction
 (
 )
@@ -1608,6 +1601,7 @@ Task
 spawn
 (
 function
+*
 delete_all_task
 (
 )
