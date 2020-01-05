@@ -51,6 +51,7 @@ args
 :
 ~
 [
+~
 str
 ]
 )
@@ -121,6 +122,7 @@ len
 1u
 {
 fail
+~
 "
 servo
 asks
@@ -158,6 +160,7 @@ urls
 :
 ~
 [
+~
 str
 ]
 )
@@ -342,9 +345,11 @@ run_pipeline_png
 -
 url
 :
+~
 str
 outfile
 :
+~
 str
 )
 {

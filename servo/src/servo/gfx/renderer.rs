@@ -298,6 +298,7 @@ time
 :
 time
 (
+~
 "
 rendering
 "
@@ -480,6 +481,7 @@ padding
 )
 {
 fail
+~
 "
 should
 never

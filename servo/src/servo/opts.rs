@@ -31,6 +31,7 @@ urls
 :
 ~
 [
+~
 str
 ]
 render_mode
@@ -44,6 +45,7 @@ RenderMode
 Screen
 Png
 (
+~
 str
 )
 }
@@ -61,6 +63,7 @@ args
 :
 ~
 [
+~
 str
 ]
 )
@@ -93,6 +96,7 @@ getopts
 :
 optopt
 (
+~
 "
 o
 "
@@ -155,6 +159,7 @@ is_empty
 )
 {
 fail
+~
 "
 servo
 asks
@@ -185,6 +190,7 @@ getopts
 opt_maybe_str
 (
 match
+~
 "
 o
 "

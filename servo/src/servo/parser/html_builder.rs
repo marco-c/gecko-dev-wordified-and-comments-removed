@@ -159,10 +159,12 @@ Node
 -
 key
 :
+~
 str
 -
 value
 :
+~
 str
 )
 {
@@ -233,6 +235,7 @@ if
 key
 =
 =
+~
 "
 width
 "
@@ -286,6 +289,7 @@ if
 key
 =
 =
+~
 "
 height
 "
@@ -358,6 +362,7 @@ Text
 )
 {
 fail
+~
 "
 attempt
 to
@@ -380,6 +385,7 @@ build_element_kind
 (
 tag_name
 :
+~
 str
 )
 -
@@ -390,6 +396,7 @@ ElementKind
 alt
 tag_name
 {
+~
 "
 div
 "
@@ -397,6 +404,7 @@ div
 ~
 HTMLDivElement
 }
+~
 "
 img
 "
@@ -428,6 +436,7 @@ px_to_au
 }
 )
 }
+~
 "
 head
 "
@@ -763,6 +772,7 @@ Element
 (
 ElementData
 (
+~
 "
 html
 "
@@ -1081,6 +1091,7 @@ elmt
 tag_name
 =
 =
+~
 "
 link
 "
@@ -1090,6 +1101,7 @@ elmt
 .
 get_attr
 (
+~
 "
 rel
 "
@@ -1103,6 +1115,7 @@ if
 r
 =
 =
+~
 "
 stylesheet
 "
@@ -1112,6 +1125,7 @@ elmt
 .
 get_attr
 (
+~
 "
 href
 "

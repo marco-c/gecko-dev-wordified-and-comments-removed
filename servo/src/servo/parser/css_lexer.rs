@@ -69,6 +69,7 @@ Sibling
 Comma
 Element
 (
+~
 str
 )
 Attr
@@ -80,7 +81,9 @@ Attr
 )
 Description
 (
+~
 str
+~
 str
 )
 Eof
@@ -360,6 +363,7 @@ c
 ret
 Element
 (
+~
 "
 *
 "
@@ -386,6 +390,7 @@ CssAttribute
 ret
 Element
 (
+~
 "
 *
 "
@@ -509,6 +514,7 @@ c
 CoeEof
 {
 fail
+~
 "
 File
 ended
@@ -545,6 +551,7 @@ style
 :
 Includes
 (
+~
 "
 class
 "
@@ -573,6 +580,7 @@ style
 :
 Includes
 (
+~
 "
 id
 "
@@ -626,6 +634,7 @@ c
 CoeEof
 {
 fail
+~
 "
 File
 ended
@@ -954,6 +963,7 @@ c
 CoeEof
 {
 fail
+~
 "
 Reached
 end
@@ -1022,6 +1032,7 @@ len
 0u
 {
 fail
+~
 "
 Expected
 descriptor
@@ -1065,6 +1076,7 @@ c
 CoeEof
 {
 fail
+~
 "
 Reached
 end
@@ -1124,6 +1136,7 @@ c
 CoeEof
 {
 fail
+~
 "
 Reached
 end
@@ -1173,6 +1186,7 @@ len
 0u
 {
 fail
+~
 "
 Expected
 descriptor
@@ -1221,6 +1235,7 @@ len
 0u
 {
 fail
+~
 "
 Expected
 descriptor
@@ -1350,6 +1365,7 @@ filename
 .
 ends_with
 (
+~
 "
 .
 css

@@ -635,6 +635,7 @@ status_str
 )
 ;
 fail
+~
 "
 failed
 to
@@ -839,6 +840,7 @@ dtor
 )
 ;
 fail
+~
 "
 unable
 to
@@ -1101,6 +1103,7 @@ dtor
 )
 ;
 fail
+~
 "
 unable
 to
@@ -1167,6 +1170,7 @@ dtor
 )
 ;
 fail
+~
 "
 unable
 to
@@ -1387,6 +1391,7 @@ is_null
 )
 {
 fail
+~
 "
 could
 not

@@ -92,6 +92,7 @@ font
 Font
 text
 :
+~
 str
 )
 {
@@ -278,6 +279,7 @@ TextRun
 (
 *
 font
+~
 "
 firecracker
 "

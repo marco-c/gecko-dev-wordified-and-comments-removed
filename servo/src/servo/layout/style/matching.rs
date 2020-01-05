@@ -210,6 +210,7 @@ if
 val
 =
 =
+~
 "
 "
 {
@@ -305,6 +306,7 @@ value
 .
 contains
 (
+~
 "
 "
 )
@@ -353,6 +355,7 @@ starts_with
 (
 val
 +
+~
 "
 -
 "
@@ -477,6 +480,7 @@ if
 tag
 =
 =
+~
 "
 *
 "
@@ -1347,10 +1351,12 @@ NodeScope
 -
 name
 :
+~
 str
 -
 val
 :
+~
 str
 )
 -
@@ -1362,6 +1368,7 @@ elmt
 =
 ElementData
 (
+~
 "
 div
 "
@@ -1425,9 +1432,11 @@ node
 new_node_from_attr
 (
 scope
+~
 "
 lang
 "
+~
 "
 en
 -
@@ -1440,6 +1449,7 @@ sel
 =
 Element
 (
+~
 "
 *
 "
@@ -1447,9 +1457,11 @@ Element
 [
 StartsWith
 (
+~
 "
 lang
 "
+~
 "
 en
 "
@@ -1489,9 +1501,11 @@ node
 new_node_from_attr
 (
 scope
+~
 "
 lang
 "
+~
 "
 en
 "
@@ -1502,6 +1516,7 @@ sel
 =
 Element
 (
+~
 "
 *
 "
@@ -1509,9 +1524,11 @@ Element
 [
 StartsWith
 (
+~
 "
 lang
 "
+~
 "
 en
 "
@@ -1551,9 +1568,11 @@ node
 new_node_from_attr
 (
 scope
+~
 "
 lang
 "
+~
 "
 english
 "
@@ -1564,6 +1583,7 @@ sel
 =
 Element
 (
+~
 "
 *
 "
@@ -1571,9 +1591,11 @@ Element
 [
 StartsWith
 (
+~
 "
 lang
 "
+~
 "
 en
 "
@@ -1614,9 +1636,11 @@ node
 new_node_from_attr
 (
 scope
+~
 "
 mad
 "
+~
 "
 hatter
 cobler
@@ -1629,6 +1653,7 @@ sel
 =
 Element
 (
+~
 "
 div
 "
@@ -1636,9 +1661,11 @@ div
 [
 Includes
 (
+~
 "
 mad
 "
+~
 "
 hatter
 "
@@ -1678,9 +1705,11 @@ node
 new_node_from_attr
 (
 scope
+~
 "
 mad
 "
+~
 "
 hatter
 cobler
@@ -1693,6 +1722,7 @@ sel1
 =
 Element
 (
+~
 "
 div
 "
@@ -1700,6 +1730,7 @@ div
 [
 Exists
 (
+~
 "
 mad
 "
@@ -1712,6 +1743,7 @@ sel2
 =
 Element
 (
+~
 "
 div
 "
@@ -1719,6 +1751,7 @@ div
 [
 Exists
 (
+~
 "
 hatter
 "
@@ -1768,9 +1801,11 @@ node1
 new_node_from_attr
 (
 scope
+~
 "
 mad
 "
+~
 "
 hatter
 cobler
@@ -1784,9 +1819,11 @@ node2
 new_node_from_attr
 (
 scope
+~
 "
 mad
 "
+~
 "
 hatter
 "
@@ -1797,6 +1834,7 @@ sel
 =
 Element
 (
+~
 "
 div
 "
@@ -1804,9 +1842,11 @@ div
 [
 Exact
 (
+~
 "
 mad
 "
+~
 "
 hatter
 "
@@ -1857,9 +1897,11 @@ root
 new_node_from_attr
 (
 scope
+~
 "
 class
 "
+~
 "
 blue
 "
@@ -1871,9 +1913,11 @@ child1
 new_node_from_attr
 (
 scope
+~
 "
 id
 "
+~
 "
 green
 "
@@ -1885,9 +1929,11 @@ child2
 new_node_from_attr
 (
 scope
+~
 "
 flag
 "
+~
 "
 black
 "
@@ -1899,9 +1945,11 @@ gchild
 new_node_from_attr
 (
 scope
+~
 "
 flag
 "
+~
 "
 grey
 "
@@ -1913,9 +1961,11 @@ ggchild
 new_node_from_attr
 (
 scope
+~
 "
 flag
 "
+~
 "
 white
 "
@@ -1927,9 +1977,11 @@ gggchild
 new_node_from_attr
 (
 scope
+~
 "
 flag
 "
+~
 "
 purple
 "
@@ -1983,6 +2035,7 @@ Descendant
 ~
 Element
 (
+~
 "
 *
 "
@@ -1990,9 +2043,11 @@ Element
 [
 Exact
 (
+~
 "
 class
 "
+~
 "
 blue
 "
@@ -2002,6 +2057,7 @@ blue
 ~
 Element
 (
+~
 "
 *
 "
@@ -2082,6 +2138,7 @@ Child
 ~
 Element
 (
+~
 "
 *
 "
@@ -2089,9 +2146,11 @@ Element
 [
 Exact
 (
+~
 "
 class
 "
+~
 "
 blue
 "
@@ -2101,6 +2160,7 @@ blue
 ~
 Element
 (
+~
 "
 *
 "
@@ -2112,6 +2172,7 @@ Element
 ~
 Element
 (
+~
 "
 div
 "
@@ -2119,6 +2180,7 @@ div
 [
 Exists
 (
+~
 "
 flag
 "
@@ -2197,6 +2259,7 @@ Sibling
 ~
 Element
 (
+~
 "
 *
 "
@@ -2207,6 +2270,7 @@ Element
 ~
 Element
 (
+~
 "
 *
 "
@@ -2290,6 +2354,7 @@ Child
 ~
 Element
 (
+~
 "
 *
 "
@@ -2297,6 +2362,7 @@ Element
 [
 Exists
 (
+~
 "
 class
 "
@@ -2306,6 +2372,7 @@ class
 ~
 Element
 (
+~
 "
 *
 "
@@ -2317,6 +2384,7 @@ Element
 ~
 Element
 (
+~
 "
 *
 "

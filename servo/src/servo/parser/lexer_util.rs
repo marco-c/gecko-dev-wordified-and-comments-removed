@@ -262,6 +262,7 @@ parse_err
 (
 err
 :
+~
 str
 )
 -
@@ -352,6 +353,7 @@ parse_ident
 )
 -
 >
+~
 str
 {
 let
@@ -412,6 +414,7 @@ self
 .
 parse_err
 (
+~
 "
 expected
 ident
@@ -438,6 +441,7 @@ self
 .
 parse_err
 (
+~
 "
 expected
 ident
@@ -462,6 +466,7 @@ expect_ident
 (
 expected
 :
+~
 str
 )
 {

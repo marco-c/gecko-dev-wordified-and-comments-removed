@@ -102,6 +102,7 @@ ElementData
 )
 Text
 (
+~
 str
 )
 }
@@ -111,6 +112,7 @@ ElementData
 let
 tag_name
 :
+~
 str
 ;
 let
@@ -133,6 +135,7 @@ new
 -
 tag_name
 :
+~
 str
 -
 kind
@@ -167,12 +170,14 @@ get_attr
 (
 attr_name
 :
+~
 str
 )
 -
 >
 option
 <
+~
 str
 >
 {
@@ -236,11 +241,13 @@ Attr
 let
 name
 :
+~
 str
 ;
 let
 value
 :
+~
 str
 ;
 new
@@ -248,10 +255,12 @@ new
 -
 name
 :
+~
 str
 -
 value
 :
+~
 str
 )
 {

@@ -170,6 +170,7 @@ font
 Font
 text
 :
+~
 str
 )
 -
@@ -872,6 +873,7 @@ glyphs
 shape_text
 (
 font
+~
 "
 firecracker
 "
@@ -951,6 +953,7 @@ glyphs
 shape_text
 (
 font
+~
 "
 firecracker
 "

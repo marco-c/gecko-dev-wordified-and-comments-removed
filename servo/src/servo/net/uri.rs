@@ -8,14 +8,17 @@ uri
 {
 spec
 :
+~
 str
 scheme
 :
+~
 str
 host
 :
 option
 <
+~
 str
 >
 port
@@ -26,6 +29,7 @@ uint
 >
 path
 :
+~
 str
 }
 ;
@@ -34,6 +38,7 @@ build_uri
 (
 _spec
 :
+~
 str
 )
 -

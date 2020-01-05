@@ -281,6 +281,7 @@ glut
 :
 create_window
 (
+~
 "
 Servo
 "
@@ -704,6 +705,7 @@ time
 :
 time
 (
+~
 "
 compositing
 "

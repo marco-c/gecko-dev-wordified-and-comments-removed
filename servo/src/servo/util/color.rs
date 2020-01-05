@@ -469,6 +469,7 @@ m1
 _
 {
 fail
+~
 "
 unexpected
 hue
@@ -608,6 +609,7 @@ print
 )
 -
 >
+~
 str
 {
 #
@@ -675,6 +677,7 @@ fail_unrecognized
 (
 col
 :
+~
 str
 )
 -
@@ -717,6 +720,7 @@ parse_by_name
 (
 color
 :
+~
 str
 )
 -
@@ -730,6 +734,7 @@ to_lower
 (
 )
 {
+~
 "
 black
 "
@@ -738,6 +743,7 @@ black
 (
 )
 }
+~
 "
 silver
 "
@@ -746,6 +752,7 @@ silver
 (
 )
 }
+~
 "
 gray
 "
@@ -754,6 +761,7 @@ gray
 (
 )
 }
+~
 "
 grey
 "
@@ -762,6 +770,7 @@ gray
 (
 )
 }
+~
 "
 white
 "
@@ -770,6 +779,7 @@ white
 (
 )
 }
+~
 "
 maroon
 "
@@ -778,6 +788,7 @@ maroon
 (
 )
 }
+~
 "
 red
 "
@@ -786,6 +797,7 @@ red
 (
 )
 }
+~
 "
 purple
 "
@@ -794,6 +806,7 @@ purple
 (
 )
 }
+~
 "
 fuchsia
 "
@@ -802,6 +815,7 @@ fuchsia
 (
 )
 }
+~
 "
 green
 "
@@ -810,6 +824,7 @@ green
 (
 )
 }
+~
 "
 lime
 "
@@ -818,6 +833,7 @@ lime
 (
 )
 }
+~
 "
 olive
 "
@@ -826,6 +842,7 @@ olive
 (
 )
 }
+~
 "
 yellow
 "
@@ -834,6 +851,7 @@ yellow
 (
 )
 }
+~
 "
 navy
 "
@@ -842,6 +860,7 @@ navy
 (
 )
 }
+~
 "
 blue
 "
@@ -850,6 +869,7 @@ blue
 (
 )
 }
+~
 "
 teal
 "
@@ -858,6 +878,7 @@ teal
 (
 )
 }
+~
 "
 aqua
 "
@@ -900,6 +921,7 @@ parse_rgb
 (
 color
 :
+~
 str
 )
 -
@@ -1060,6 +1082,7 @@ parse_rgba
 (
 color
 :
+~
 str
 )
 -
@@ -1234,6 +1257,7 @@ parse_hsl
 (
 color
 :
+~
 str
 )
 -
@@ -1394,6 +1418,7 @@ parse_hsla
 (
 color
 :
+~
 str
 )
 -
@@ -1571,6 +1596,7 @@ parse_color
 (
 color
 :
+~
 str
 )
 -
@@ -1586,6 +1612,7 @@ c
 .
 starts_with
 (
+~
 "
 rgb
 (
@@ -1603,6 +1630,7 @@ c
 .
 starts_with
 (
+~
 "
 rgba
 (
@@ -1620,6 +1648,7 @@ c
 .
 starts_with
 (
+~
 "
 hsl
 (
@@ -1637,6 +1666,7 @@ c
 .
 starts_with
 (
+~
 "
 hsla
 (
@@ -1698,6 +1728,7 @@ eq
 (
 parse_color
 (
+~
 "
 red
 "
@@ -1713,6 +1744,7 @@ eq
 (
 parse_color
 (
+~
 "
 Lime
 "
@@ -1728,6 +1760,7 @@ eq
 (
 parse_color
 (
+~
 "
 BLUE
 "
@@ -1743,6 +1776,7 @@ eq
 (
 parse_color
 (
+~
 "
 GreEN
 "
@@ -1758,6 +1792,7 @@ eq
 (
 parse_color
 (
+~
 "
 white
 "
@@ -1773,6 +1808,7 @@ eq
 (
 parse_color
 (
+~
 "
 Black
 "
@@ -1788,6 +1824,7 @@ eq
 (
 parse_color
 (
+~
 "
 Gray
 "
@@ -1803,6 +1840,7 @@ eq
 (
 parse_color
 (
+~
 "
 SiLvEr
 "
@@ -1818,6 +1856,7 @@ eq
 (
 parse_color
 (
+~
 "
 maroon
 "
@@ -1833,6 +1872,7 @@ eq
 (
 parse_color
 (
+~
 "
 PURPLE
 "
@@ -1848,6 +1888,7 @@ eq
 (
 parse_color
 (
+~
 "
 FUCHSIA
 "
@@ -1863,6 +1904,7 @@ eq
 (
 parse_color
 (
+~
 "
 oLiVe
 "
@@ -1878,6 +1920,7 @@ eq
 (
 parse_color
 (
+~
 "
 yellow
 "
@@ -1893,6 +1936,7 @@ eq
 (
 parse_color
 (
+~
 "
 NAVY
 "
@@ -1908,6 +1952,7 @@ eq
 (
 parse_color
 (
+~
 "
 Teal
 "
@@ -1923,6 +1968,7 @@ eq
 (
 parse_color
 (
+~
 "
 Aqua
 "
@@ -1948,6 +1994,7 @@ eq
 (
 parse_color
 (
+~
 "
 rgb
 (
@@ -1968,6 +2015,7 @@ eq
 (
 parse_color
 (
+~
 "
 rgba
 (
@@ -1991,6 +2039,7 @@ eq
 (
 parse_color
 (
+~
 "
 rgba
 (
@@ -2012,6 +2061,7 @@ eq
 (
 parse_color
 (
+~
 "
 rgba
 (
@@ -2038,6 +2088,7 @@ eq
 (
 parse_color
 (
+~
 "
 rgb
 (
@@ -2064,6 +2115,7 @@ eq
 (
 parse_color
 (
+~
 "
 rgba
 (
@@ -2092,6 +2144,7 @@ eq
 (
 parse_color
 (
+~
 "
 rgba
 (
@@ -2125,6 +2178,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2146,6 +2200,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2171,6 +2226,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2196,6 +2252,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2221,6 +2278,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2246,6 +2304,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2272,6 +2331,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2298,6 +2358,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2324,6 +2385,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2350,6 +2412,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2376,6 +2439,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2402,6 +2466,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2426,6 +2491,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2451,6 +2517,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2476,6 +2543,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2501,6 +2569,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (
@@ -2526,6 +2595,7 @@ eq
 (
 parse_color
 (
+~
 "
 hsl
 (

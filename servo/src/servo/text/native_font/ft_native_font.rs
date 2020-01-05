@@ -134,6 +134,7 @@ succeeded
 )
 {
 fail
+~
 "
 FT_Done_Face
 failed
@@ -502,6 +503,7 @@ succeeded
 )
 {
 fail
+~
 "
 unable
 to

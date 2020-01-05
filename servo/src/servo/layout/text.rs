@@ -59,6 +59,7 @@ text_box
 let
 text
 :
+~
 str
 ;
 let
@@ -75,6 +76,7 @@ new
 -
 text
 :
+~
 str
 )
 {
@@ -142,6 +144,7 @@ ok
 _
 {
 fail
+~
 "
 expected
 text
@@ -291,6 +294,7 @@ new_node
 (
 Text
 (
+~
 "
 firecracker
 "

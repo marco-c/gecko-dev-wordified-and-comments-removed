@@ -642,6 +642,7 @@ let
 mut
 s
 =
+~
 "
 "
 ;
@@ -661,6 +662,7 @@ _i
 s
 +
 =
+~
 "
 "
 ;
@@ -906,6 +908,7 @@ let
 mut
 s
 =
+~
 "
 "
 ;
@@ -925,6 +928,7 @@ _i
 s
 +
 =
+~
 "
 "
 ;
@@ -1281,6 +1285,7 @@ Element
 (
 ElementData
 (
+~
 "
 img
 "
@@ -1313,6 +1318,7 @@ Element
 (
 ElementData
 (
+~
 "
 img
 "
@@ -1345,6 +1351,7 @@ Element
 (
 ElementData
 (
+~
 "
 img
 "
@@ -1377,6 +1384,7 @@ Element
 (
 ElementData
 (
+~
 "
 div
 "

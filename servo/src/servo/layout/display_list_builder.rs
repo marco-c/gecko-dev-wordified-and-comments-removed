@@ -823,6 +823,7 @@ new_node
 (
 Text
 (
+~
 "
 firecracker
 "
@@ -947,6 +948,7 @@ new_node
 (
 Text
 (
+~
 "
 firecracker
 "
@@ -1064,6 +1066,7 @@ new_node
 (
 Text
 (
+~
 "
 firecracker
 "
@@ -1199,6 +1202,7 @@ new_node
 (
 Text
 (
+~
 "
 firecracker
 "

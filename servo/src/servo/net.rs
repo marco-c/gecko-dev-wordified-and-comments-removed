@@ -59,6 +59,7 @@ new_uri
 (
 spec
 :
+~
 str
 )
 -
