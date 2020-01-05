@@ -559,11 +559,11 @@ USAGE
 {
 0
 }
-servo_binary
-jquery_base_dir
 test
 |
 update
+servo_binary
+jquery_base_dir
 "
 .
 format
