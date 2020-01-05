@@ -151,6 +151,13 @@ CanvasGradientStop
 [
 jstraceable
 ]
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 enum
 CanvasGradientStyle
