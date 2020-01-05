@@ -9589,7 +9589,7 @@ Get
 gpu
 -
 >
-EnableGPUProcess
+LaunchGPUProcess
 (
 )
 ;
