@@ -1919,7 +1919,9 @@ if
 strncmp
 (
 feature
-PROFILER_INTERVAL
+"
+MOZ_PROFILER_INTERVAL
+"
 bufferSize
 )
 =
@@ -1939,7 +1941,9 @@ if
 strncmp
 (
 feature
-PROFILER_ENTRIES
+"
+MOZ_PROFILER_ENTRIES
+"
 bufferSize
 )
 =
@@ -1959,7 +1963,9 @@ if
 strncmp
 (
 feature
-PROFILER_FEATURES
+"
+MOZ_PROFILER_FEATURES
+"
 bufferSize
 )
 =
@@ -2088,7 +2094,7 @@ threadCount
 ;
 profiler_start
 (
-PROFILE_DEFAULT_ENTRY
+PROFILE_DEFAULT_ENTRIES
 1
 features
 featureCount

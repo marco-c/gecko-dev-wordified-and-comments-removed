@@ -42,7 +42,7 @@ SetProfile
 new
 ProfileBuffer
 (
-GET_BACKTRACE_DEFAULT_ENTRY
+GET_BACKTRACE_DEFAULT_ENTRIES
 )
 )
 ;

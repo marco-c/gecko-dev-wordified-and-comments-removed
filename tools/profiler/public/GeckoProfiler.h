@@ -455,7 +455,7 @@ PROFILER_FUNC_VOID
 profiler_start
 (
 int
-aProfileEntries
+aEntries
 double
 aInterval
 const
@@ -696,7 +696,7 @@ uint32_t
 aCurrentPosition
 uint32_t
 *
-aTotalSize
+aEntries
 uint32_t
 *
 aGeneration
@@ -712,7 +712,7 @@ uint32_t
 aCurrentPosition
 uint32_t
 *
-aTotalSize
+aEntries
 uint32_t
 *
 aGeneration
@@ -724,7 +724,7 @@ aCurrentPosition
 0
 ;
 *
-aTotalSize
+aEntries
 =
 0
 ;
@@ -736,7 +736,7 @@ aGeneration
 profiler_get_buffer_info_helper
 (
 aCurrentPosition
-aTotalSize
+aEntries
 aGeneration
 )
 ;
@@ -1286,19 +1286,19 @@ ARCH_ARMV6
 )
 #
 define
-PROFILE_DEFAULT_ENTRY
+PROFILE_DEFAULT_ENTRIES
 1000000
 #
 else
 #
 define
-PROFILE_DEFAULT_ENTRY
+PROFILE_DEFAULT_ENTRIES
 100000
 #
 endif
 #
 define
-GET_BACKTRACE_DEFAULT_ENTRY
+GET_BACKTRACE_DEFAULT_ENTRIES
 1000
 #
 if
