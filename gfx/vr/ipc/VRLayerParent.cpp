@@ -54,11 +54,6 @@ mRightEyeRect
 aRightEyeRect
 )
 {
-MOZ_COUNT_CTOR
-(
-VRLayerParent
-)
-;
 }
 VRLayerParent
 :
