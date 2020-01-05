@@ -334,8 +334,8 @@ aValue
 nsresult
 RemoveCSSInlineStyle
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 nsIAtom
 *

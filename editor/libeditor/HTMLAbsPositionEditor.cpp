@@ -2531,7 +2531,8 @@ htmlRules
 >
 MakeSureElemStartsOrEndsOnCR
 (
-aElement
+*
+element
 )
 ;
 NS_ENSURE_SUCCESS

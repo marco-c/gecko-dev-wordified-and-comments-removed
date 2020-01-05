@@ -409,8 +409,8 @@ outFormat
 nsresult
 MakeSureElemStartsOrEndsOnCR
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 )
 ;
@@ -2089,8 +2089,8 @@ arrayOfNodes
 nsresult
 RemoveAlignment
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 const
 nsAString
@@ -2103,8 +2103,8 @@ aChildrenOnly
 nsresult
 MakeSureElemStartsOrEndsOnCR
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 bool
 aStarts
