@@ -153,6 +153,14 @@ DIST_SUBDIR
 =
 '
 '
+DIRS
++
+=
+[
+'
+fronts
+'
+]
 EXTRA_JS_MODULES
 .
 devtools
