@@ -103,6 +103,13 @@ uint32_t
 aPromiseID
 )
 ;
+async
+StopVibrateHaptic
+(
+uint32_t
+aGamepadIndex
+)
+;
 child
 :
 async

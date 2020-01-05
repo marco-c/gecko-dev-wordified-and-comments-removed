@@ -442,6 +442,13 @@ aPromiseID
 )
 ;
 async
+StopVibrateHaptic
+(
+uint32_t
+aControllerIdx
+)
+;
+async
 CreateVRTestSystem
 (
 )

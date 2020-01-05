@@ -249,6 +249,14 @@ aDuration
 nsIGlobalObject
 *
 aGlobal
+ErrorResult
+&
+aRv
+)
+;
+void
+StopHaptics
+(
 )
 ;
 protected

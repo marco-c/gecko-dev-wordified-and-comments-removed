@@ -2946,6 +2946,11 @@ SyncGamepadState
 )
 ;
 void
+StopGamepadHaptics
+(
+)
+;
+void
 EnableGamepadUpdates
 (
 )
