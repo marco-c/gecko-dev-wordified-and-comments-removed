@@ -249,6 +249,7 @@ jobs
 :
         
 if
+(
 '
 signing
 '
@@ -264,6 +265,26 @@ task
 ]
 .
 label
+and
+                
+'
+beetmover
+-
+repackage
+'
+not
+in
+job
+[
+'
+dependent
+-
+task
+'
+]
+.
+label
+)
 :
             
 continue

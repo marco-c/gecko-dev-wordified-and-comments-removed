@@ -608,6 +608,10 @@ nightly_linux
 '
         
 '
+nightly_macosx
+'
+        
+'
 mozilla_beta_tasks
 '
         
