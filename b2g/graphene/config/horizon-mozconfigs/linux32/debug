@@ -125,9 +125,6 @@ cache
 #
 graphene
 options
-ENABLE_MARIONETTE
-=
-1
 export
 CXXFLAGS
 =

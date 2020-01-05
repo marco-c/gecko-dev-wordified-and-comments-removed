@@ -131,9 +131,6 @@ enable
 application
 =
 b2g
-ENABLE_MARIONETTE
-=
-1
 export
 CXXFLAGS
 =
