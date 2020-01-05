@@ -801,11 +801,6 @@ node
 highlight
 "
 nodeFront
-options
-.
-toSource
-(
-)
 )
 ;
 }
