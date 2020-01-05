@@ -60,3 +60,10 @@ mFill
 mStroke
 )
 )
+STYLE_STRUCT
+(
+UserInterface
+(
+mCaretColor
+)
+)
