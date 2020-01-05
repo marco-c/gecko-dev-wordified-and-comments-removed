@@ -1298,6 +1298,12 @@ bytes
 ;
 if
 (
+packet
+-
+>
+bytes
+&
+&
 !
 sample
 -
