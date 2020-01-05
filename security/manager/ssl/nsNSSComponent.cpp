@@ -10631,10 +10631,6 @@ SetPassword
 (
 ctx
 tokenName
-.
-get
-(
-)
 &
 canceled
 )

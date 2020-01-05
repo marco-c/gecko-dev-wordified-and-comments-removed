@@ -197,10 +197,10 @@ void
 revokeCertByIssuerAndSerial
 (
 in
-string
+ACString
 issuer
 in
-string
+ACString
 serialNumber
 )
 ;
@@ -252,10 +252,10 @@ void
 revokeCertBySubjectAndPubKey
 (
 in
-string
+ACString
 subject
 in
-string
+ACString
 pubKeyHash
 )
 ;

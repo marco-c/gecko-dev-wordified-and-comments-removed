@@ -392,15 +392,9 @@ const
 nsACString
 &
 aFilename
-char
-*
-*
+nsCString
+&
 aBuf
-uint32_t
-*
-aBufLen
-=
-nullptr
 )
 ;
 int32_t

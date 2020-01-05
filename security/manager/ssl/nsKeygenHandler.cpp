@@ -1350,9 +1350,8 @@ nsITokenDialogs
 >
 dialogs
 ;
-char16_t
-*
-unicodeTokenChosen
+nsAutoString
+tokenStr
 ;
 PK11SlotListElement
 *
@@ -1637,8 +1636,7 @@ char16_t
 )
 tokenNameList
 numSlots
-&
-unicodeTokenChosen
+tokenStr
 &
 canceled
 )
@@ -1672,12 +1670,6 @@ slotElement
 PK11_GetFirstSafe
 (
 slotList
-)
-;
-nsAutoString
-tokenStr
-(
-unicodeTokenChosen
 )
 ;
 while
