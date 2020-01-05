@@ -27,7 +27,7 @@ pow
 )
 ;
 {
-var
+const
 fail
 =
 function
@@ -145,10 +145,10 @@ exc
 ;
 }
 ;
-var
+let
 ENDIAN
 ;
-var
+const
 f
 =
 new
@@ -160,7 +160,7 @@ Float64Array
 ]
 )
 ;
-var
+const
 u
 =
 new
@@ -171,7 +171,7 @@ f
 buffer
 )
 ;
-var
+const
 diff
 =
 function
