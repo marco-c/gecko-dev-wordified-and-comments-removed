@@ -150,8 +150,6 @@ partial
 interface
 HTMLBodyElement
 {
-/
-/
 [
 TreatNullAs
 =
