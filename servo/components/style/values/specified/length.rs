@@ -180,6 +180,7 @@ SizeKeyword
 VerticalDirection
 }
 ;
+pub
 const
 AU_PER_PX
 :
@@ -188,6 +189,7 @@ CSSFloat
 60
 .
 ;
+pub
 const
 AU_PER_IN
 :
@@ -198,6 +200,7 @@ AU_PER_PX
 96
 .
 ;
+pub
 const
 AU_PER_CM
 :
@@ -209,6 +212,7 @@ AU_PER_IN
 .
 54
 ;
+pub
 const
 AU_PER_MM
 :
@@ -220,6 +224,7 @@ AU_PER_IN
 .
 4
 ;
+pub
 const
 AU_PER_Q
 :
@@ -230,6 +235,7 @@ AU_PER_MM
 4
 .
 ;
+pub
 const
 AU_PER_PT
 :
@@ -240,6 +246,7 @@ AU_PER_IN
 72
 .
 ;
+pub
 const
 AU_PER_PC
 :

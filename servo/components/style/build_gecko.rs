@@ -2841,6 +2841,11 @@ NS_STYLE_
 *
 "
 "
+NS_MATHML_
+.
+*
+"
+"
 NS_RADIUS_
 .
 *
