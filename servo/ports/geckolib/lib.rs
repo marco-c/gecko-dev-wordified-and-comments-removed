@@ -62,10 +62,6 @@ extern
 crate
 url
 ;
-extern
-crate
-util
-;
 mod
 context
 ;
