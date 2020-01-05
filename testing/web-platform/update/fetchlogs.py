@@ -443,6 +443,20 @@ wpt_raw
 .
 log
 "
+or
+item
+[
+"
+value
+"
+]
+=
+=
+"
+log_raw
+.
+log
+"
 :
                     
 return
@@ -611,6 +625,7 @@ job_type_name
 ]
         
 if
+(
 job_type_name
 .
 startswith
@@ -620,6 +635,30 @@ W3C
 Web
 Platform
 "
+)
+or
+            
+job_type_name
+.
+startswith
+(
+"
+test
+-
+"
+)
+and
+"
+-
+web
+-
+platform
+-
+tests
+-
+"
+in
+job_type_name
 )
 :
             
