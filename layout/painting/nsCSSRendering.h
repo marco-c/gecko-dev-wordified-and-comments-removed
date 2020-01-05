@@ -579,7 +579,7 @@ aDefaultSize
 )
 ;
 DrawResult
-DrawBackground
+DrawLayer
 (
 nsPresContext
 *
@@ -1757,7 +1757,7 @@ aCompositionOp
 ;
 static
 DrawResult
-PaintBackground
+PaintStyleImageLayer
 (
 const
 PaintBGParams
@@ -1767,7 +1767,7 @@ aParams
 ;
 static
 DrawResult
-PaintBackgroundWithSC
+PaintStyleImageLayerWithSC
 (
 const
 PaintBGParams

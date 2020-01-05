@@ -2109,7 +2109,7 @@ result
 nsCSSRendering
 :
 :
-PaintBackgroundWithSC
+PaintStyleImageLayerWithSC
 (
 params
 aSC
