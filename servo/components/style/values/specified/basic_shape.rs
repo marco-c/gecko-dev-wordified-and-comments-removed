@@ -1802,11 +1802,6 @@ inset
 =
 >
 {
-Ok
-(
-try
-!
-(
 input
 .
 parse_nested_block
@@ -1821,8 +1816,6 @@ parse_function_arguments
 (
 context
 i
-)
-)
 )
 )
 }
@@ -3045,11 +3038,6 @@ circle
 =
 >
 {
-Ok
-(
-try
-!
-(
 input
 .
 parse_nested_block
@@ -3064,8 +3052,6 @@ parse_function_arguments
 (
 context
 i
-)
-)
 )
 )
 }
@@ -3596,11 +3582,6 @@ ellipse
 =
 >
 {
-Ok
-(
-try
-!
-(
 input
 .
 parse_nested_block
@@ -3615,8 +3596,6 @@ parse_function_arguments
 (
 context
 i
-)
-)
 )
 )
 }
@@ -4152,11 +4131,6 @@ polygon
 =
 >
 {
-Ok
-(
-try
-!
-(
 input
 .
 parse_nested_block
@@ -4171,8 +4145,6 @@ parse_function_arguments
 (
 context
 i
-)
-)
 )
 )
 }
