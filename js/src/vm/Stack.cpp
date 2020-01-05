@@ -424,10 +424,11 @@ cx
 {
 MOZ_ASSERT
 (
-callee
+script
 (
 )
-.
+-
+>
 hasRest
 (
 )

@@ -859,7 +859,7 @@ array
 ArrayShorthand
 "
 1
-JSFUN_HAS_REST
+0
 )
 JS_SELF_HOSTED_FN
 (

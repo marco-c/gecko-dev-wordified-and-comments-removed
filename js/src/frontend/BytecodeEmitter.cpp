@@ -5390,11 +5390,6 @@ MOZ_ASSERT
 funbox
 -
 >
-function
-(
-)
--
->
 hasRest
 (
 )
@@ -36687,7 +36682,7 @@ function
 if
 (
 !
-fun
+funbox
 -
 >
 hasRest
@@ -41093,11 +41088,6 @@ bool
 hasRest
 =
 funbox
--
->
-function
-(
-)
 -
 >
 hasRest
