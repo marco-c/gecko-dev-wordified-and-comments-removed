@@ -4365,8 +4365,12 @@ com
 servo
 /
 glutin
+?
+branch
+=
+servo
 #
-183d96b44e497fcc441f94d32d5228e4c3d28c4d
+8138fe5755aa1b23fee704994d52597109f1abe0
 "
 dependencies
 =
@@ -4894,6 +4898,10 @@ com
 servo
 /
 glutin
+?
+branch
+=
+servo
 )
 "
 "
