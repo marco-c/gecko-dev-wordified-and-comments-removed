@@ -538,6 +538,11 @@ GenericSpecifiedValues
 h
 '
 '
+GenericSpecifiedValuesInlines
+.
+h
+'
+'
 HandleRefPtr
 .
 h
