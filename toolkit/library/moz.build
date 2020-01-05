@@ -566,9 +566,6 @@ Libxul
 xul
 '
 )
-SDK_LIBRARY
-=
-True
 FORCE_STATIC_LIB
 =
 True

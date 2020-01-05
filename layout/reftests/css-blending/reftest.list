@@ -1308,17 +1308,6 @@ gtkWidget
 2
 12800
 )
-fuzzy
--
-if
-(
-OSX
-=
-=
-1006
-1
-1600
-)
 pref
 (
 layout

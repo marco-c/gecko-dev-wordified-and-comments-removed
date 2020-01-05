@@ -243,11 +243,6 @@ ratio
 ref
 .
 html
-#
-bug
-623460
-for
-WinXP
 fails
 -
 if
