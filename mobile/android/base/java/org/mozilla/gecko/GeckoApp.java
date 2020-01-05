@@ -6093,14 +6093,6 @@ HardwareUtils
 isSupportedSystem
 (
 )
-|
-|
-!
-GeckoLoader
-.
-neonCompatible
-(
-)
 )
 {
 mIsAbortingAppLaunch
