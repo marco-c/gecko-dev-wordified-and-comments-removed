@@ -37,15 +37,6 @@ mozilla
 .
 gecko
 .
-GeckoProfile
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 PrivateTab
 ;
 import
