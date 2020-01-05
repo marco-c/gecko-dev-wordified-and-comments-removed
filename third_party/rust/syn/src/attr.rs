@@ -18,6 +18,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -70,6 +71,7 @@ Copy
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -87,6 +89,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -176,6 +179,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub

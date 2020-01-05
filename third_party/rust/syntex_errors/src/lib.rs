@@ -133,6 +133,8 @@ libc
 extern
 crate
 unicode_xid
+as
+std_unicode
 ;
 extern
 crate

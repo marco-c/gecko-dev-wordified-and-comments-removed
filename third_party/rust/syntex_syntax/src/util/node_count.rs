@@ -46,7 +46,15 @@ count
 }
 }
 impl
+<
+'
+ast
+>
 Visitor
+<
+'
+ast
+>
 for
 NodeCounter
 {

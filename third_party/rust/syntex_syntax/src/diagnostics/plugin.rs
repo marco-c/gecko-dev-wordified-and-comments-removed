@@ -75,6 +75,12 @@ ptr
 P
 ;
 use
+symbol
+:
+:
+Symbol
+;
+use
 tokenstream
 :
 :
@@ -890,7 +896,7 @@ Ident
 :
 with_empty_ctxt
 (
-token
+Symbol
 :
 :
 gensym
@@ -1230,6 +1236,7 @@ filter_map
 (
 |
 (
+&
 code
 info
 )
@@ -1259,10 +1266,6 @@ expr_str
 (
 span
 code
-.
-as_str
-(
-)
 )
 ecx
 .
@@ -1270,10 +1273,6 @@ expr_str
 (
 span
 description
-.
-as_str
-(
-)
 )
 ]
 )

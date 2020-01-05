@@ -9,6 +9,13 @@ FT_ULong
 FT_Byte
 }
 ;
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 TT_OS2

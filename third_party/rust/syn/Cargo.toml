@@ -13,7 +13,7 @@ version
 .
 10
 .
-3
+6
 "
 #
 don
@@ -25,6 +25,9 @@ update
 version
 in
 readme
+for
+breaking
+changes
 authors
 =
 [
@@ -57,7 +60,8 @@ Nom
 parser
 for
 Rust
-items
+source
+code
 "
 repository
 =
@@ -213,7 +217,7 @@ version
 "
 0
 .
-47
+50
 .
 0
 "
@@ -249,7 +253,7 @@ syntex_pos
 "
 0
 .
-47
+50
 .
 0
 "
@@ -258,7 +262,7 @@ syntex_syntax
 "
 0
 .
-47
+50
 .
 0
 "

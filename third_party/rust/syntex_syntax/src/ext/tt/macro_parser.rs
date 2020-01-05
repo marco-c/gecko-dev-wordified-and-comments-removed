@@ -69,7 +69,10 @@ use
 parse
 :
 :
+{
+Directory
 ParseSess
+}
 ;
 use
 parse
@@ -1963,6 +1966,12 @@ ms
 [
 TokenTree
 ]
+directory
+:
+Option
+<
+Directory
+>
 )
 -
 >
@@ -1975,7 +1984,7 @@ parser
 Parser
 :
 :
-new_with_doc_flag
+new
 (
 sess
 Box
@@ -1985,6 +1994,7 @@ new
 (
 rdr
 )
+directory
 true
 )
 ;

@@ -12,6 +12,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub

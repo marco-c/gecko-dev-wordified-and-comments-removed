@@ -1,16 +1,4 @@
-/
 target
-/
-Cargo
-.
-lock
-/
-plugin
-/
-target
-/
-plugin
-/
 Cargo
 .
 lock

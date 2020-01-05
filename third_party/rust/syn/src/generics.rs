@@ -13,6 +13,7 @@ Clone
 Eq
 PartialEq
 Default
+Hash
 )
 ]
 pub
@@ -156,6 +157,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -266,6 +268,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -352,6 +355,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -392,6 +396,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -417,6 +422,7 @@ Copy
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -435,6 +441,7 @@ Clone
 Eq
 PartialEq
 Default
+Hash
 )
 ]
 pub
@@ -482,6 +489,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -505,6 +513,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub
@@ -538,6 +547,7 @@ Debug
 Clone
 Eq
 PartialEq
+Hash
 )
 ]
 pub

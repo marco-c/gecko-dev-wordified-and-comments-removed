@@ -219,12 +219,12 @@ dependencies
 ]
 unicode
 -
-derived_property
+xid
 =
 "
 0
 .
 0
 .
-3
+4
 "

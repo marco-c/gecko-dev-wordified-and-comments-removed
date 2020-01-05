@@ -8,8 +8,13 @@ token
 {
 Token
 BinOpToken
-keywords
 }
+;
+use
+symbol
+:
+:
+keywords
 ;
 use
 ast
