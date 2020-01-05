@@ -601,6 +601,12 @@ nsIAsyncInputStream
 >
 mAsyncStream
 ;
+nsCOMPtr
+<
+nsIInputStream
+>
+mBufferedStream
+;
 RefPtr
 <
 DOMError
