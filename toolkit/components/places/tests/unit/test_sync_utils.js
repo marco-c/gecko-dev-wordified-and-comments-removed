@@ -8634,7 +8634,6 @@ correctly
 "
 )
 ;
-{
 yield
 PlacesUtils
 .
@@ -8729,7 +8728,6 @@ API
 "
 )
 ;
-}
 do_print
 (
 "
@@ -8745,7 +8743,6 @@ folder
 "
 )
 ;
-{
 PlacesUtils
 .
 tagging
@@ -8789,7 +8786,6 @@ untagged
 "
 )
 ;
-}
 yield
 PlacesUtils
 .
@@ -8971,7 +8967,6 @@ grandparent
 "
 )
 ;
-{
 yield
 PlacesSyncUtils
 .
@@ -9018,7 +9013,6 @@ anno
 "
 )
 ;
-}
 do_print
 (
 "

@@ -104,7 +104,6 @@ com
 "
 )
 ;
-{
 function
 simple_test_methods
 (
@@ -323,8 +322,6 @@ stringObjectURI
 false
 )
 ;
-}
-{
 function
 complex_test_methods
 (
@@ -501,8 +498,6 @@ complex_test_methods
 stringObjectURI
 )
 ;
-}
-{
 do_check_eq
 (
 cps
@@ -932,7 +927,6 @@ test
 ]
 )
 ;
-}
 }
 function
 do_check_thrown
