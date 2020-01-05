@@ -7,10 +7,7 @@ use
 constellation
 :
 :
-{
-FrameId
 SendableFrameTree
-}
 ;
 use
 compositor

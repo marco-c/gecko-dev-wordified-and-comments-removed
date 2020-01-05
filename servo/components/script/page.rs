@@ -63,10 +63,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-SubpageId
-}
 ;
 use
 util
@@ -112,12 +109,6 @@ Page
 id
 :
 PipelineId
-subpage_id
-:
-Option
-<
-SubpageId
->
 frame
 :
 DOMRefCell
@@ -319,12 +310,6 @@ new
 id
 :
 PipelineId
-subpage_id
-:
-Option
-<
-SubpageId
->
 url
 :
 Url
@@ -338,9 +323,6 @@ Page
 id
 :
 id
-subpage_id
-:
-subpage_id
 frame
 :
 DOMRefCell
