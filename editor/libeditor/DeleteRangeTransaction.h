@@ -147,6 +147,9 @@ aEndOffset
 nsresult
 CreateTxnsToDeleteNodesBetween
 (
+nsRange
+*
+aRangeToDelete
 )
 ;
 nsresult
