@@ -948,7 +948,12 @@ azureQuartz
 azureSkiaGL
 &
 &
+(
 browserIsRemote
+|
+|
+Android
+)
 )
 )
 =
@@ -1027,7 +1032,12 @@ azureQuartz
 azureSkiaGL
 &
 &
+(
 browserIsRemote
+|
+|
+Android
+)
 )
 )
 =
