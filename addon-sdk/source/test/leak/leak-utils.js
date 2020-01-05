@@ -195,6 +195,12 @@ assert
 asyncTestFunc
 )
 {
+if
+(
+SelfSupportBackend
+.
+_log
+)
 SelfSupportBackend
 .
 uninit

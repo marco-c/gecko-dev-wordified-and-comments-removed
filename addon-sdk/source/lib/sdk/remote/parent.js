@@ -282,13 +282,9 @@ loader
 '
 )
 ;
-const
-{
-getTabForBrowser
-}
-=
-require
+lazyRequire
 (
+this
 '
 .
 .
@@ -297,6 +293,9 @@ tabs
 /
 utils
 '
+"
+getTabForBrowser
+"
 )
 ;
 const

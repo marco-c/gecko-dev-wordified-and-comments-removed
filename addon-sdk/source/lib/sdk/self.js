@@ -57,13 +57,9 @@ service
 "
 )
 ;
-const
-{
-readURISync
-}
-=
-require
+lazyRequire
 (
+this
 '
 .
 /
@@ -71,6 +67,9 @@ net
 /
 url
 '
+"
+readURISync
+"
 )
 ;
 const

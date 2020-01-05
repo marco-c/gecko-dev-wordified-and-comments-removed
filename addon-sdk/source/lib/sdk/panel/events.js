@@ -32,13 +32,9 @@ events
 "
 )
 ;
-const
-{
-emit
-}
-=
-require
+lazyRequire
 (
+this
 "
 .
 .
@@ -46,6 +42,9 @@ require
 event
 /
 core
+"
+"
+emit
 "
 )
 ;

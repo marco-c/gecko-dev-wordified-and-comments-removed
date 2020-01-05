@@ -1136,6 +1136,12 @@ prefs
 .
 js
 ;
+if
+(
+addon
+.
+webExtension
+)
 require
 (
 "
