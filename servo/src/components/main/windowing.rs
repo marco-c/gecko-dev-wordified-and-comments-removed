@@ -149,6 +149,9 @@ app
 :
 &
 A
+is_foreground
+:
+bool
 )
 -
 >

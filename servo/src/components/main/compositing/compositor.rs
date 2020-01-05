@@ -503,6 +503,13 @@ WindowMethods
 new
 (
 app
+opts
+.
+output_file
+.
+is_none
+(
+)
 )
 ;
 let
