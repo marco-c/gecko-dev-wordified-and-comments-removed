@@ -310,6 +310,14 @@ eventtarget
 ;
 pub
 mod
+extendableevent
+;
+pub
+mod
+extendablemessageevent
+;
+pub
+mod
 file
 ;
 pub
