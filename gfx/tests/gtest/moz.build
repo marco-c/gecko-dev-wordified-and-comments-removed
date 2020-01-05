@@ -202,6 +202,11 @@ gfxFontSelectionTest
 cpp
 '
 '
+TestTextureCompatibility
+.
+cpp
+'
+'
 TestTextures
 .
 cpp
@@ -327,6 +332,12 @@ gfx
 2d
 /
 unittest
+'
+'
+/
+gfx
+/
+config
 '
 '
 /
