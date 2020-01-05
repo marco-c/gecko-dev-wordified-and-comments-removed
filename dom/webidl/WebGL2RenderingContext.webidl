@@ -4404,6 +4404,7 @@ WebGL1
 :
 [
 Throws
+NeedsCallerType
 ]
 /
 /
@@ -4443,6 +4444,7 @@ WebGL2
 :
 [
 Throws
+NeedsCallerType
 ]
 /
 /
@@ -4477,6 +4479,7 @@ offset
 ;
 [
 Throws
+NeedsCallerType
 ]
 /
 /

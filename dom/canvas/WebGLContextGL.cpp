@@ -5164,9 +5164,10 @@ WebGLContext
 :
 ReadPixels_SharedPrecheck
 (
+CallerType
+aCallerType
 ErrorResult
-*
-const
+&
 out_error
 )
 {
@@ -5192,13 +5193,13 @@ IsWriteOnly
 )
 &
 &
+aCallerType
 !
-nsContentUtils
+=
+CallerType
 :
 :
-IsCallerChrome
-(
-)
+System
 )
 {
 GenerateWarning
@@ -5212,8 +5213,7 @@ allowed
 )
 ;
 out_error
--
->
+.
 Throw
 (
 NS_ERROR_DOM_SECURITY_ERR
@@ -5496,6 +5496,8 @@ ArrayBufferView
 dstView
 GLuint
 dstElemOffset
+CallerType
+aCallerType
 ErrorResult
 &
 out_error
@@ -5516,7 +5518,7 @@ if
 !
 ReadPixels_SharedPrecheck
 (
-&
+aCallerType
 out_error
 )
 )
@@ -5677,6 +5679,8 @@ GLenum
 type
 WebGLsizeiptr
 offset
+CallerType
+aCallerType
 ErrorResult
 &
 out_error
@@ -5697,7 +5701,7 @@ if
 !
 ReadPixels_SharedPrecheck
 (
-&
+aCallerType
 out_error
 )
 )

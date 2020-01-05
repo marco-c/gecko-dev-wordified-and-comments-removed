@@ -4312,6 +4312,7 @@ overloads
 .
 [
 Throws
+NeedsCallerType
 ]
 void
 readPixels
