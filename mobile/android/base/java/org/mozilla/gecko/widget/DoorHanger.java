@@ -44,6 +44,15 @@ android
 .
 support
 .
+annotation
+.
+Nullable
+;
+import
+android
+.
+support
+.
 v4
 .
 content
@@ -232,7 +241,6 @@ type
 ;
 }
 public
-static
 enum
 Type
 {
@@ -244,6 +252,7 @@ DESKTOPNOTIFICATION2
 WEBRTC
 VIBRATION
 FLYWEBPUBLISHSERVER
+ADDON
 }
 public
 interface
@@ -789,6 +798,16 @@ VISIBLE
 }
 }
 public
+Type
+getType
+(
+)
+{
+return
+mType
+;
+}
+public
 int
 getTabId
 (
@@ -1042,6 +1061,7 @@ public
 void
 showTitle
 (
+Nullable
 Bitmap
 favicon
 String
