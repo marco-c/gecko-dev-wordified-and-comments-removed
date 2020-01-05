@@ -845,6 +845,27 @@ MOZ_UPDATER
 1
 '
     
+d
+[
+'
+artifact
+'
+]
+=
+substs
+.
+get
+(
+'
+MOZ_ARTIFACT_BUILDS
+'
+)
+=
+=
+'
+1
+'
+    
 def
 guess_platform
 (
