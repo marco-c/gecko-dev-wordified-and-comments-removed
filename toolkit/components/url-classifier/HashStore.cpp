@@ -1332,14 +1332,11 @@ return
 NS_OK
 ;
 }
-else
-{
 SUCCESS_OR_RESET
 (
 rv
 )
 ;
-}
 int64_t
 fileSize
 ;
