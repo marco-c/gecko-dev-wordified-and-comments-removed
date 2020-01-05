@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 var
 PAGE_1
 =
