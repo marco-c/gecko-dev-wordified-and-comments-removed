@@ -168,6 +168,14 @@ url
 ;
 extern
 crate
+gfx_traits
+;
+extern
+crate
+canvas_traits
+;
+extern
+crate
 harfbuzz
 ;
 #
@@ -270,10 +278,6 @@ PaintContext
 ;
 mod
 paint_context
-;
-pub
-mod
-color
 ;
 #
 [

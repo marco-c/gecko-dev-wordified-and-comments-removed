@@ -8,10 +8,7 @@ webgl_paint_task
 WebGLPaintTask
 ;
 use
-canvas
-:
-:
-canvas_msg
+canvas_traits
 :
 :
 {

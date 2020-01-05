@@ -196,6 +196,10 @@ canvas
 ;
 extern
 crate
+canvas_traits
+;
+extern
+crate
 profile_traits
 ;
 extern

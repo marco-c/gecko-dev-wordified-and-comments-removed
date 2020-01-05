@@ -182,7 +182,7 @@ azure
 ;
 extern
 crate
-canvas
+canvas_traits
 ;
 extern
 crate
@@ -207,6 +207,10 @@ geom
 extern
 crate
 gfx
+;
+extern
+crate
+gfx_traits
 ;
 extern
 crate

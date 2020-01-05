@@ -24,6 +24,10 @@ rustc_private
 ]
 extern
 crate
+canvas_traits
+;
+extern
+crate
 azure
 ;
 extern
@@ -36,7 +40,7 @@ geom
 ;
 extern
 crate
-gfx
+gfx_traits
 ;
 extern
 crate
@@ -49,6 +53,10 @@ gleam
 extern
 crate
 num
+;
+extern
+crate
+layers
 ;
 extern
 crate
@@ -69,8 +77,4 @@ canvas_paint_task
 pub
 mod
 webgl_paint_task
-;
-pub
-mod
-canvas_msg
 ;

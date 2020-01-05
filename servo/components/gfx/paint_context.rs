@@ -1,4 +1,7 @@
 use
+gfx_traits
+:
+:
 color
 ;
 use

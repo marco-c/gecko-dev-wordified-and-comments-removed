@@ -105,7 +105,7 @@ TypedSize2D
 }
 ;
 use
-gfx
+gfx_traits
 :
 :
 color

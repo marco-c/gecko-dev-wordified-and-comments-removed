@@ -5,10 +5,7 @@ cssparser
 RGBA
 ;
 use
-canvas
-:
-:
-canvas_paint_task
+canvas_traits
 :
 :
 {
