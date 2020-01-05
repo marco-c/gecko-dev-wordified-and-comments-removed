@@ -4721,13 +4721,6 @@ html
 bug
 1342710
 fails
-asserts
--
-if
-(
-stylo
-48
-)
 =
 =
 grid
