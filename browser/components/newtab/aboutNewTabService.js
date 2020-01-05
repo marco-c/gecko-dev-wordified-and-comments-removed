@@ -715,9 +715,6 @@ prefs
 getCharPref
 (
 PREF_REMOTE_MODE
-"
-production
-"
 )
 ;
 if
@@ -900,9 +897,6 @@ prefs
 getCharPref
 (
 PREF_REMOTE_VERSION
-"
-1
-"
 )
 ;
 }

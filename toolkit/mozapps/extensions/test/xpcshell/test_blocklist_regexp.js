@@ -397,7 +397,6 @@ blocklist
 .
 update_enabled
 "
-false
 )
 "
 Kinto

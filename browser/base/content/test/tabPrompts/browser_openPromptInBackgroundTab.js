@@ -58,10 +58,6 @@ perms
 .
 removeAll
 (
-makeURI
-(
-pageWithAlert
-)
 )
 ;
 }
