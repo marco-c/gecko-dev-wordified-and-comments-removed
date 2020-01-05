@@ -190,7 +190,7 @@ util
 [
 dependencies
 .
-opengles
+cgl
 ]
 git
 =
@@ -207,5 +207,5 @@ servo
 /
 rust
 -
-opengles
+cgl
 "
