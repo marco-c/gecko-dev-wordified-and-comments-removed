@@ -406,7 +406,7 @@ header
 Accept
 ContentLength
 ContentType
-QualityItem
+qitem
 }
 ;
 use
@@ -4521,15 +4521,9 @@ Accept
 vec
 !
 [
-QualityItem
-:
-:
-new
+qitem
 (
 mime
-1
-.
-0
 )
 ]
 )
