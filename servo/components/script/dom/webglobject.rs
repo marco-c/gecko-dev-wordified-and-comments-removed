@@ -69,6 +69,7 @@ Reflector
 impl
 WebGLObject
 {
+pub
 fn
 new_inherited
 (
