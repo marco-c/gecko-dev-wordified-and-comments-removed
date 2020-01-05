@@ -155,7 +155,7 @@ assertTrue
 (
 tab
 .
-selected
+active
 )
 ;
 browser

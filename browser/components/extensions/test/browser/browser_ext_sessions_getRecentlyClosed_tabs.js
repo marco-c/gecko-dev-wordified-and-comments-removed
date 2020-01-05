@@ -41,6 +41,9 @@ getIcon
 (
 tab
 )
+selected
+:
+undefined
 }
 ;
 }

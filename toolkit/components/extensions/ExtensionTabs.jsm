@@ -915,11 +915,6 @@ windowId
 this
 .
 windowId
-selected
-:
-this
-.
-selected
 highlighted
 :
 this

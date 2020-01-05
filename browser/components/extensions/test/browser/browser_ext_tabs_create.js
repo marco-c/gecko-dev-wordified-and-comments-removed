@@ -235,6 +235,9 @@ about
 :
 newtab
 "
+selected
+:
+undefined
 }
 ;
 let

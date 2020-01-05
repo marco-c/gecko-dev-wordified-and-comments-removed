@@ -135,9 +135,6 @@ prop
 of
 [
 "
-selected
-"
-"
 highlighted
 "
 "

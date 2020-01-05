@@ -2171,9 +2171,6 @@ getId
 (
 window
 )
-selected
-:
-false
 highlighted
 :
 false
