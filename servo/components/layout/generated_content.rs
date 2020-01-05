@@ -2707,7 +2707,7 @@ traversal
 .
 quote
 as
-uint
+usize
 >
 =
 quotes
@@ -2743,7 +2743,7 @@ traversal
 .
 quote
 as
-uint
+usize
 ]
 }
 ;
@@ -4056,7 +4056,7 @@ system
 (
 value
 as
-uint
+usize
 )
 %
 system
@@ -4073,7 +4073,7 @@ value
 (
 value
 as
-uint
+usize
 )
 /
 system
@@ -4181,7 +4181,7 @@ system
 (
 value
 as
-uint
+usize
 )
 %
 system
@@ -4198,7 +4198,7 @@ value
 (
 value
 as
-uint
+usize
 )
 /
 system

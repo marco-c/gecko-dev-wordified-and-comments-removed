@@ -1977,7 +1977,7 @@ self
 )
 -
 >
-uint
+usize
 ;
 fn
 is_block_container
@@ -2018,7 +2018,7 @@ dump_with_level
 self
 level
 :
-uint
+u32
 )
 ;
 }
@@ -2837,7 +2837,7 @@ bits
 static
 TEXT_ALIGN_SHIFT
 :
-uint
+usize
 =
 11
 ;
@@ -3266,7 +3266,7 @@ self
 )
 -
 >
-uint
+usize
 {
 self
 .
@@ -5729,7 +5729,7 @@ self
 )
 -
 >
-uint
+usize
 {
 base
 (
@@ -5867,7 +5867,7 @@ dump_with_level
 self
 level
 :
-uint
+u32
 )
 {
 let

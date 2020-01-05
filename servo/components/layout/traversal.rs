@@ -509,7 +509,7 @@ let
 mut
 ancestors
 =
-0u
+0
 ;
 loop
 {

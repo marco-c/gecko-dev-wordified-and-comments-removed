@@ -383,7 +383,7 @@ elements
 struct
 FragmentIndex
 (
-int
+isize
 )
 }
 bitflags
@@ -3080,7 +3080,7 @@ u16
 :
 MAX
 as
-uint
+usize
 )
 )
 ;
@@ -3102,7 +3102,7 @@ len
 (
 )
 as
-int
+isize
 )
 FragmentIndex
 (
@@ -3560,7 +3560,7 @@ self
 )
 -
 >
-uint
+usize
 {
 self
 .
@@ -3658,7 +3658,7 @@ a
 self
 index
 :
-uint
+usize
 )
 -
 >
@@ -3690,7 +3690,7 @@ mut
 self
 index
 :
-uint
+usize
 )
 -
 >
