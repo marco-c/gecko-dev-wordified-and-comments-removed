@@ -12758,6 +12758,15 @@ nsEventStatus_eConsumeNoDefault
 =
 *
 aStatus
+&
+&
+!
+aEvent
+-
+>
+DefaultPrevented
+(
+)
 )
 {
 nsCOMPtr
