@@ -1001,5 +1001,7 @@ versions
 of
 the
 beetmover
+and
+balrog
 kinds
 .
