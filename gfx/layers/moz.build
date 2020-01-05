@@ -930,6 +930,13 @@ h
 '
 composite
 /
+AnimationMetricsTracker
+.
+h
+'
+'
+composite
+/
 AsyncCompositionManager
 .
 h
@@ -2109,6 +2116,13 @@ cpp
 client
 /
 TiledContentClient
+.
+cpp
+'
+'
+composite
+/
+AnimationMetricsTracker
 .
 cpp
 '

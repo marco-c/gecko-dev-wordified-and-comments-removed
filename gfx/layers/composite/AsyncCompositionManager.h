@@ -89,6 +89,17 @@ mozilla
 /
 layers
 /
+AnimationMetricsTracker
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 FrameUniformityData
 .
 h
@@ -633,6 +644,9 @@ mLayerTransformRecorder
 ;
 TimeStamp
 mPreviousFrameTimeStamp
+;
+AnimationMetricsTracker
+mAnimationMetricsTracker
 ;
 #
 ifdef
