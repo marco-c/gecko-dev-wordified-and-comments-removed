@@ -104,13 +104,13 @@ progressFired
 =
 true
 ;
-}
 xhr
 .
 abort
 (
 )
 ;
+}
 }
 ;
 onmessage
