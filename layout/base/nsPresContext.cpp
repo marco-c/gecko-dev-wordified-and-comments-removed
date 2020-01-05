@@ -8638,6 +8638,11 @@ bug
 "
 )
 ;
+aRestyleHint
+|
+=
+eRestyle_Subtree
+;
 }
 }
 if
