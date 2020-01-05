@@ -712,6 +712,15 @@ ins
 ;
 virtual
 void
+visitBitOpI64
+(
+LBitOpI64
+*
+ins
+)
+;
+virtual
+void
 visitMulI
 (
 LMulI
