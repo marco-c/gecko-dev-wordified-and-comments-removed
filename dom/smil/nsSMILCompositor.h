@@ -258,6 +258,12 @@ CreateSMILAttr
 (
 )
 ;
+nsCSSPropertyID
+GetCSSPropertyToAnimate
+(
+)
+const
+;
 uint32_t
 GetFirstFuncToAffectSandwich
 (
