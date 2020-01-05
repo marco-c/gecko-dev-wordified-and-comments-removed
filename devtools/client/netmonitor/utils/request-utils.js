@@ -10,7 +10,7 @@ getFormDataSections
 headers
 uploadHeaders
 postData
-getString
+getLongString
 )
 {
 let
@@ -98,7 +98,7 @@ let
 contentType
 =
 await
-getString
+getLongString
 (
 contentTypeLongString
 )
@@ -134,7 +134,7 @@ let
 text
 =
 await
-getString
+getLongString
 (
 postDataLongString
 )
@@ -203,7 +203,7 @@ function
 fetchHeaders
 (
 headers
-getString
+getLongString
 )
 {
 for
@@ -225,7 +225,7 @@ headers
 value
 =
 await
-getString
+getLongString
 (
 value
 )

@@ -1094,11 +1094,6 @@ requestHeadersFromUploadStream
 file
 .
 requestPostData
-this
-.
-_options
-.
-getString
 )
 .
 then
