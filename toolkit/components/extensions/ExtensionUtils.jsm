@@ -2590,6 +2590,17 @@ close
 ;
 }
 }
+close
+(
+)
+{
+this
+.
+unload
+(
+)
+;
+}
 }
 let
 IconDetails
