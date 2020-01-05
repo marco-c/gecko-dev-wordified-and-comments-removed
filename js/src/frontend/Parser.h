@@ -34,13 +34,6 @@ h
 #
 include
 "
-jsiter
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h
@@ -3884,8 +3877,6 @@ forHeadStart
 (
 YieldHandling
 yieldHandling
-IteratorKind
-iterKind
 ParseNodeKind
 *
 forHeadKind
