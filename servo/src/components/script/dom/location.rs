@@ -211,13 +211,7 @@ self
 .
 page
 .
-url
-.
-get_ref
-(
-)
-.
-first
+get_url
 (
 )
 .
