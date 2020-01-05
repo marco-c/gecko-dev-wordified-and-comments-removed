@@ -44463,9 +44463,11 @@ a
 base
 class
 of
-{
+%
+(
 name
-}
+)
+s
 to
 an
 instance
@@ -44474,9 +44476,11 @@ of
 /
 /
 /
-{
+%
+(
 name
-}
+)
+s
 if
 it
 internally
@@ -44484,9 +44488,11 @@ is
 an
 instance
 of
-{
+%
+(
 name
-}
+)
+s
     
 pub
 fn
