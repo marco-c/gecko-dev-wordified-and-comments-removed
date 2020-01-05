@@ -1390,6 +1390,8 @@ test
 platform
 :
 android
+.
+*
 :
 script
 :
@@ -3041,6 +3043,8 @@ coverage
 linux64
 -
 jsdcov
+/
+opt
 :
 -
 -
