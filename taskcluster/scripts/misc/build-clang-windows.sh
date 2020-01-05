@@ -118,7 +118,11 @@ manifests
 /
 win32
 /
-releng
+build
+-
+clang
+-
+cl
 .
 manifest
 .
