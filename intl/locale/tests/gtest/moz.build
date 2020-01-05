@@ -118,17 +118,6 @@ TestOSPreferences
 cpp
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-intl
-/
-locale
-'
-]
 FINAL_LIBRARY
 =
 '
