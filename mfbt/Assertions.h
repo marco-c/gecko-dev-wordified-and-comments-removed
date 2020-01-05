@@ -680,6 +680,7 @@ GetCurrentProcess
 define
 MOZ_REALLY_CRASH
 (
+line
 )
 \
 do
@@ -692,7 +693,7 @@ __debugbreak
 \
 MOZ_NoReturn
 (
-__LINE__
+line
 )
 ;
 \
@@ -710,6 +711,7 @@ __cplusplus
 define
 MOZ_REALLY_CRASH
 (
+line
 )
 \
 do
@@ -725,7 +727,7 @@ int
 NULL
 )
 =
-__LINE__
+line
 ;
 \
 :
@@ -746,6 +748,7 @@ else
 define
 MOZ_REALLY_CRASH
 (
+line
 )
 \
 do
@@ -761,7 +764,7 @@ int
 NULL
 )
 =
-__LINE__
+line
 ;
 \
 abort
@@ -808,6 +811,7 @@ __VA_ARGS__
 \
 MOZ_REALLY_CRASH
 (
+__LINE__
 )
 ;
 \
@@ -855,6 +859,7 @@ __VA_ARGS__
 \
 MOZ_REALLY_CRASH
 (
+__LINE__
 )
 ;
 \
@@ -1200,6 +1205,7 @@ expr
 \
 MOZ_REALLY_CRASH
 (
+__LINE__
 )
 ;
 \
@@ -1277,6 +1283,7 @@ explain
 \
 MOZ_REALLY_CRASH
 (
+__LINE__
 )
 ;
 \
