@@ -1176,9 +1176,11 @@ MozBrowserIFrame
 [
 derive
 (
-HeapSizeOf
 Clone
+Copy
+Debug
 Deserialize
+HeapSizeOf
 Serialize
 )
 ]
