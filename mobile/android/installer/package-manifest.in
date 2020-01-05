@@ -1410,6 +1410,13 @@ BINPATH
 /
 components
 /
+webextensions
+.
+xpt
+BINPATH
+/
+components
+/
 widget
 .
 xpt

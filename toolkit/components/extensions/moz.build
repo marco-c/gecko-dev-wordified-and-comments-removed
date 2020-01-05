@@ -245,6 +245,9 @@ DIRS
 '
 schemas
 '
+'
+webrequest
+'
 ]
 JAR_MANIFESTS
 +

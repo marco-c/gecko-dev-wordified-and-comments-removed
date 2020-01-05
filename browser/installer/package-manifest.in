@@ -1902,6 +1902,13 @@ RESPATH
 /
 components
 /
+webextensions
+.
+xpt
+RESPATH
+/
+components
+/
 widget
 .
 xpt
