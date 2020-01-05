@@ -2748,11 +2748,16 @@ gl
 NO_ERROR
 )
 ;
+shouldThrow
+(
+'
 gl
 .
 getAttachedShaders
 (
 null
+)
+'
 )
 ;
 wtu
@@ -2762,7 +2767,7 @@ glErrorShouldBe
 gl
 gl
 .
-INVALID_VALUE
+NO_ERROR
 )
 ;
 shouldThrow
