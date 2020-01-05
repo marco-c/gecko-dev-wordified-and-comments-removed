@@ -54,6 +54,12 @@ ac_add_options
 enable
 -
 debug
+ac_add_options
+-
+-
+disable
+-
+sandbox
 MOZ_CODE_COVERAGE
 =
 1
