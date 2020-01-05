@@ -54,10 +54,7 @@ std
 str
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

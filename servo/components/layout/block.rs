@@ -15109,7 +15109,9 @@ self
 new_style
 :
 &
-Arc
+:
+:
+StyleArc
 <
 ServoComputedValues
 >

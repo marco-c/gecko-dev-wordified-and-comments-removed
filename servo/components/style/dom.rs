@@ -206,10 +206,7 @@ ops
 Deref
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

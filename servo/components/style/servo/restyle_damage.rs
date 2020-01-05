@@ -31,10 +31,7 @@ std
 fmt
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

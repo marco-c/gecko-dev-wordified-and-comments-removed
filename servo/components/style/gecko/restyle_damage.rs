@@ -55,10 +55,7 @@ Not
 }
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

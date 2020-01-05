@@ -52,10 +52,7 @@ std
 fmt
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc
@@ -800,9 +797,10 @@ SharedRwLock
 >
 bool
 {
+Arc
 :
 :
-arc_ptr_eq
+ptr_eq
 (
 &
 self

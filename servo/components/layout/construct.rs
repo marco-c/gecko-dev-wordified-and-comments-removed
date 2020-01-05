@@ -7,6 +7,9 @@ unsafe_code
 )
 ]
 use
+StyleArc
+;
+use
 app_units
 :
 :
@@ -575,7 +578,7 @@ PseudoElementType
 (
 )
 >
-Arc
+StyleArc
 <
 ServoComputedValues
 >
@@ -3766,7 +3769,7 @@ ConcreteThreadSafeLayoutNode
 style
 :
 &
-Arc
+StyleArc
 <
 ServoComputedValues
 >
@@ -12498,7 +12501,7 @@ bidi_control_chars
 style
 :
 &
-Arc
+StyleArc
 <
 ServoComputedValues
 >

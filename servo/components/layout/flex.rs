@@ -128,15 +128,6 @@ ops
 Range
 ;
 use
-std
-:
-:
-sync
-:
-:
-Arc
-;
-use
 style
 :
 :
@@ -5784,7 +5775,9 @@ self
 new_style
 :
 &
-Arc
+:
+:
+StyleArc
 <
 ServoComputedValues
 >

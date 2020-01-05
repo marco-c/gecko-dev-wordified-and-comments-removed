@@ -2420,7 +2420,9 @@ mut
 FontContext
 font_style
 :
-Arc
+:
+:
+StyleArc
 <
 style_structs
 :

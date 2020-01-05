@@ -506,10 +506,7 @@ std
 ptr
 ;
 use
-std
-:
-:
-sync
+stylearc
 :
 :
 Arc

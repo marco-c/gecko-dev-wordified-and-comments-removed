@@ -893,6 +893,17 @@ use
 style
 :
 :
+stylearc
+:
+:
+Arc
+as
+StyleArc
+;
+use
+style
+:
+:
 stylesheets
 :
 :
@@ -1064,7 +1075,7 @@ SharedRwLock
 >
 running_animations
 :
-Arc
+StyleArc
 <
 RwLock
 <
@@ -1080,7 +1091,7 @@ Animation
 >
 expired_animations
 :
-Arc
+StyleArc
 <
 RwLock
 <
@@ -2172,7 +2183,7 @@ ipc_font_cache_receiver
 let
 stylist
 =
-Arc
+StyleArc
 :
 :
 new
@@ -2329,7 +2340,7 @@ document_shared_lock
 None
 running_animations
 :
-Arc
+StyleArc
 :
 :
 new
@@ -2349,7 +2360,7 @@ new
 )
 expired_animations
 :
-Arc
+StyleArc
 :
 :
 new
@@ -4224,7 +4235,7 @@ b
 self
 stylesheet
 :
-Arc
+StyleArc
 <
 Stylesheet
 >
@@ -4463,7 +4474,7 @@ lock
 (
 )
 ;
-Arc
+StyleArc
 :
 :
 get_mut
@@ -6500,7 +6511,7 @@ Screen
 initial_viewport
 )
 ;
-Arc
+StyleArc
 :
 :
 get_mut
@@ -6892,7 +6903,7 @@ PhantomData
 let
 needs_dirtying
 =
-Arc
+StyleArc
 :
 :
 get_mut

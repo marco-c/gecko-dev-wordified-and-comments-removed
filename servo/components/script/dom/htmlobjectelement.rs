@@ -209,10 +209,10 @@ default
 Default
 ;
 use
-std
+style
 :
 :
-sync
+stylearc
 :
 :
 Arc

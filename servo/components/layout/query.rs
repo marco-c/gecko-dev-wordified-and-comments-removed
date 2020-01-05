@@ -383,7 +383,9 @@ DisplayList
 pub
 stylist
 :
-Arc
+:
+:
+StyleArc
 <
 Stylist
 >
