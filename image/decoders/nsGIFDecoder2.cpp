@@ -296,6 +296,12 @@ error
 "
 )
 ;
+mPipe
+.
+ZeroOutRestOfSurface
+(
+)
+;
 if
 (
 !
@@ -706,6 +712,12 @@ EndImageFrame
 (
 )
 {
+mPipe
+.
+ZeroOutRestOfSurface
+(
+)
+;
 Opacity
 opacity
 =

@@ -836,6 +836,12 @@ GetImageData
 const
 ;
 bool
+OnHeap
+(
+)
+const
+;
+bool
 GetIsPaletted
 (
 )
