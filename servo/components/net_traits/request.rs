@@ -67,6 +67,7 @@ derive
 Copy
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -86,6 +87,7 @@ derive
 Copy
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -110,6 +112,7 @@ Clone
 PartialEq
 Serialize
 Deserialize
+HeapSizeOf
 )
 ]
 pub
@@ -139,6 +142,7 @@ derive
 Clone
 PartialEq
 Debug
+HeapSizeOf
 )
 ]
 pub
@@ -157,6 +161,7 @@ derive
 (
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -179,6 +184,7 @@ Clone
 PartialEq
 Serialize
 Deserialize
+HeapSizeOf
 )
 ]
 pub
@@ -199,6 +205,7 @@ Clone
 PartialEq
 Serialize
 Deserialize
+HeapSizeOf
 )
 ]
 pub
@@ -216,6 +223,7 @@ derive
 Copy
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -236,6 +244,7 @@ derive
 Copy
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -253,6 +262,7 @@ derive
 Copy
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -270,6 +280,7 @@ derive
 Copy
 Clone
 PartialEq
+HeapSizeOf
 )
 ]
 pub
@@ -445,12 +456,23 @@ PipelineId
 derive
 (
 Clone
+HeapSizeOf
 )
 ]
 pub
 struct
 Request
 {
+#
+[
+ignore_heap_size_of
+=
+"
+Defined
+in
+hyper
+"
+]
 pub
 method
 :
@@ -466,6 +488,16 @@ pub
 sandboxed_storage_area_urls
 :
 bool
+#
+[
+ignore_heap_size_of
+=
+"
+Defined
+in
+hyper
+"
+]
 pub
 headers
 :
