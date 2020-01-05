@@ -181,8 +181,9 @@ transferControlToProxy
 (
 )
 ;
-/
-/
+[
+Throws
+]
 DOMString
 toDataURL
 (
