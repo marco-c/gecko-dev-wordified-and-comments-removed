@@ -580,7 +580,7 @@ topobjdir
 "
 dist
 "
-                                                            
+                                                       
 "
 test
 -
@@ -589,7 +589,7 @@ stage
 "
 jsreftest
 "
-                                                            
+                                                       
 "
 tests
 "

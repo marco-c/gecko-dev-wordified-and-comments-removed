@@ -404,6 +404,7 @@ shutdown
 "
 %
 {
+                           
 "
 server
 "
@@ -556,6 +557,9 @@ s
 const
 _SERVER_PORT
 =
+"
+                      
+"
 '
 %
 (
@@ -577,8 +581,8 @@ s
 ;
 "
 %
-                       
 {
+                      
 "
 profile
 "
@@ -607,6 +611,7 @@ port
 self
 .
 httpPort
+                      
 "
 server
 "
@@ -940,6 +945,7 @@ else
 :
             
 print
+(
 "
 TEST
 -
@@ -951,6 +957,9 @@ remotereftests
 .
 py
 |
+"
+                   
+"
 Timed
 out
 while
@@ -960,6 +969,7 @@ server
 startup
 .
 "
+)
             
 self
 .
@@ -1026,8 +1036,7 @@ poll
 if
 (
 rtncode
-=
-=
+is
 None
 )
 :
@@ -1469,6 +1478,7 @@ self
 automation
 .
 _product
+                 
 os
 .
 path
@@ -1502,12 +1512,12 @@ if
 options
 .
 xrePath
-=
-=
+is
 None
 :
             
 print
+(
 "
 ERROR
 :
@@ -1519,6 +1529,9 @@ path
 for
 %
 s
+"
+                   
+"
 please
 specify
 with
@@ -1533,6 +1546,7 @@ path
 os
 .
 name
+)
 )
             
 return
@@ -1628,12 +1642,12 @@ if
 options
 .
 utilityPath
-=
-=
+is
 None
 :
             
 print
+(
 "
 ERROR
 :
@@ -1645,6 +1659,9 @@ path
 for
 %
 s
+"
+                   
+"
 please
 specify
 with
@@ -1659,6 +1676,7 @@ path
 os
 .
 name
+)
 )
             
 return
@@ -2450,6 +2468,7 @@ except
 :
                 
 print
+(
 "
 Warning
 :
@@ -2462,6 +2481,9 @@ s
 '
 was
 unsuccessful
+"
+                       
+"
 from
 the
 test
@@ -2471,6 +2493,7 @@ harness
 self
 .
 pidFile
+)
 def
 run_test_harness
 (
@@ -2492,12 +2515,12 @@ and
 options
 .
 deviceIP
-=
-=
+is
 None
 :
         
 print
+(
 "
 Error
 :
@@ -2514,6 +2537,9 @@ a
 device
 IP
 to
+"
+               
+"
 connect
 to
 via
@@ -2523,6 +2549,7 @@ the
 deviceIP
 option
 "
+)
         
 return
 1
@@ -2637,6 +2664,7 @@ print_exc
 )
         
 print
+(
 "
 Automation
 Error
@@ -2646,6 +2674,9 @@ while
 initializing
 devicemanager
 .
+"
+               
+"
 Most
 likely
 the
@@ -2658,6 +2689,7 @@ testable
 state
 .
 "
+)
         
 return
 1
