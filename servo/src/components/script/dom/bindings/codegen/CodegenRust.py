@@ -16530,10 +16530,20 @@ imports
             
 return
 '
+\
+n
+'
+.
+join
+(
+[
+                
+'
 #
 [
 allow
 (
+unreachable_code
 non_uppercase_statics
 unused_imports
 unused_variable
@@ -16543,16 +16553,13 @@ dead_assignment
 )
 ]
 ;
-\
-n
 '
-+
+                
 '
 '
 .
 join
 (
-[
 '
 use
 %
@@ -16567,13 +16574,12 @@ for
 i
 in
 imports
+)
+                
+'
+'
 ]
 )
-+
-'
-\
-n
-'
         
 CGWrapper
 .
