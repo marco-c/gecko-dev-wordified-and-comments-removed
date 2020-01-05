@@ -424,6 +424,10 @@ offscreen_gl_context
 ;
 extern
 crate
+angle
+;
+extern
+crate
 tendril
 ;
 pub
