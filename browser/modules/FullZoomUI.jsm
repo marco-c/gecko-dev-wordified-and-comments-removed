@@ -523,10 +523,6 @@ customizationListener
 .
 onWidgetMoved
 =
-customizationListener
-.
-onWidgetInstanceRemoved
-=
 function
 (
 aWidgetId
