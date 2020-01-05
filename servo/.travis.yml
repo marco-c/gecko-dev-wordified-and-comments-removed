@@ -92,15 +92,6 @@ ci
 manifest_changed
 .
 sh
--
-bash
-etc
-/
-ci
-/
-check_no_unwrap
-.
-sh
 cache
 :
 directories
