@@ -185,13 +185,6 @@ mCompositableClient
 )
 {
 mCompositableClient
--
->
-mCompositableChild
-=
-nullptr
-;
-mCompositableClient
 =
 nullptr
 ;

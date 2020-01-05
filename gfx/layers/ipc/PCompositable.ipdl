@@ -126,11 +126,6 @@ async
 protocol
 PCompositable
 {
-manager
-PImageBridge
-or
-PLayerTransaction
-;
 child
 :
 async
