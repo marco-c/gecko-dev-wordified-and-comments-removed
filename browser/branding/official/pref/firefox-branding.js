@@ -175,7 +175,7 @@ update
 .
 badgeWaitTime
 "
-345600
+0
 )
 ;
 pref
