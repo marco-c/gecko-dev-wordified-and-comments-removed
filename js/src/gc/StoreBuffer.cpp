@@ -390,10 +390,7 @@ STAT_STOREBUFFER_OVERFLOW
 )
 ;
 }
-runtime_
--
->
-gc
+nursery_
 .
 requestMinorGC
 (

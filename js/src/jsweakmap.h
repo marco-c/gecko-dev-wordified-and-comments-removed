@@ -133,6 +133,17 @@ WeakMapBase
 (
 )
 ;
+Zone
+*
+zone
+(
+)
+const
+{
+return
+zone_
+;
+}
 static
 void
 unmarkZone
@@ -323,7 +334,7 @@ JS
 :
 Zone
 *
-zone
+zone_
 ;
 bool
 marked
@@ -524,6 +535,8 @@ return
 false
 ;
 zone
+(
+)
 -
 >
 gcWeakMapList
@@ -1517,6 +1530,8 @@ runtimeFromMainThread
 =
 =
 zone
+(
+)
 -
 >
 runtimeFromMainThread
@@ -1612,6 +1627,8 @@ gc
 IsMarkedUnbarriered
 (
 zone
+(
+)
 -
 >
 runtimeFromMainThread

@@ -341,6 +341,9 @@ class
 StoreBuffer
 ;
 }
+class
+CooperatingContext
+;
 inline
 JSCompartment
 *
@@ -689,6 +692,13 @@ static
 void
 traceAll
 (
+const
+js
+:
+:
+CooperatingContext
+&
+target
 JSTracer
 *
 trc
@@ -698,6 +708,13 @@ static
 void
 traceAllWrappers
 (
+const
+js
+:
+:
+CooperatingContext
+&
+target
 JSTracer
 *
 trc

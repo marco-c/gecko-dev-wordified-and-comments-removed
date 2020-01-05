@@ -1596,6 +1596,13 @@ JSTracer
 trc
 )
 ;
+Zone
+*
+zone
+(
+)
+const
+;
 }
 ;
 static
@@ -2931,6 +2938,13 @@ JSTracer
 *
 trc
 )
+;
+Zone
+*
+zone
+(
+)
+const
 ;
 }
 ;
