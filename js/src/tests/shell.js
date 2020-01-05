@@ -3461,12 +3461,6 @@ return
 result
 ;
 }
-global
-.
-getPromiseResult
-=
-getPromiseResult
-;
 function
 assertEventuallyEq
 (
