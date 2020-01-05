@@ -2750,6 +2750,9 @@ nsStylePosition
 nsStyleSVG
 "
 "
+nsStyleSVGPaint
+"
+"
 nsStyleSVGReset
 "
 "
@@ -2802,6 +2805,9 @@ Runnable
 "
 "
 ServoAttrSnapshot
+"
+"
+ServoBundledURI
 "
 "
 ServoElementSnapshot
@@ -3535,6 +3541,15 @@ structs_types
 =
 [
 "
+mozilla
+:
+:
+css
+:
+:
+URLValue
+"
+"
 RawGeckoDocument
 "
 "
@@ -3584,6 +3599,9 @@ FontFamilyType
 "
 "
 Keyframe
+"
+"
+ServoBundledURI
 "
 "
 ServoElementSnapshot
@@ -3667,6 +3685,9 @@ nsStyleDisplay
 nsStyleEffects
 "
 "
+nsStyleFilter
+"
+"
 nsStyleFont
 "
 "
@@ -3710,6 +3731,9 @@ nsStyleQuoteValues
 "
 "
 nsStyleSVG
+"
+"
+nsStyleSVGPaint
 "
 "
 nsStyleSVGReset
