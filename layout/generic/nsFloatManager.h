@@ -835,6 +835,11 @@ mRect
 nscoord
 LineLeft
 (
+mozilla
+:
+:
+WritingMode
+aWM
 ShapeType
 aShapeType
 const
@@ -849,6 +854,11 @@ const
 nscoord
 LineRight
 (
+mozilla
+:
+:
+WritingMode
+aWM
 ShapeType
 aShapeType
 const
