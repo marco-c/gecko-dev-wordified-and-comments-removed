@@ -306,7 +306,6 @@ constellation_msg
 FrameId
 FrameType
 PipelineId
-ReferrerPolicy
 }
 ;
 use
@@ -316,6 +315,7 @@ net_traits
 {
 Metadata
 NetworkError
+ReferrerPolicy
 ResourceThreads
 }
 ;

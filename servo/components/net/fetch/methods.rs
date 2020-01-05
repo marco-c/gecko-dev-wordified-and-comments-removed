@@ -221,15 +221,6 @@ mime_guess
 guess_mime_type
 ;
 use
-msg
-:
-:
-constellation_msg
-:
-:
-ReferrerPolicy
-;
-use
 net_traits
 :
 :
@@ -237,6 +228,7 @@ net_traits
 FetchTaskTarget
 FetchMetadata
 NetworkError
+ReferrerPolicy
 }
 ;
 use

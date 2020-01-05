@@ -1063,17 +1063,6 @@ constellation_msg
 :
 {
 FrameId
-ReferrerPolicy
-}
-;
-use
-msg
-:
-:
-constellation_msg
-:
-:
-{
 Key
 KeyModifiers
 KeyState
@@ -1086,6 +1075,7 @@ net_traits
 {
 FetchResponseMsg
 IpcSend
+ReferrerPolicy
 }
 ;
 use

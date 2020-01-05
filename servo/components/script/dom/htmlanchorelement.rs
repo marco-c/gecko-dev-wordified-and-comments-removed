@@ -277,10 +277,7 @@ html5ever_atoms
 LocalName
 ;
 use
-msg
-:
-:
-constellation_msg
+net_traits
 :
 :
 ReferrerPolicy

@@ -11,10 +11,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-ReferrerPolicy
-}
 ;
 use
 net
@@ -44,6 +41,7 @@ net_traits
 LoadOrigin
 NetworkError
 ProgressMsg
+ReferrerPolicy
 }
 ;
 use

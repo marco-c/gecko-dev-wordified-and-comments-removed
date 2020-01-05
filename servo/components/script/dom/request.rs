@@ -350,10 +350,7 @@ as
 HttpMethod
 ;
 use
-msg
-:
-:
-constellation_msg
+net_traits
 :
 :
 ReferrerPolicy

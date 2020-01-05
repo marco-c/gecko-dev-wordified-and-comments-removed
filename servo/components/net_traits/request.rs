@@ -1,4 +1,7 @@
 use
+ReferrerPolicy
+;
+use
 hyper
 :
 :
@@ -23,10 +26,7 @@ msg
 constellation_msg
 :
 :
-{
 PipelineId
-ReferrerPolicy
-}
 ;
 use
 std

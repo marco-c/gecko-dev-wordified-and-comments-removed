@@ -633,7 +633,6 @@ FrameId
 FrameType
 PipelineId
 PipelineNamespace
-ReferrerPolicy
 }
 ;
 use
@@ -644,6 +643,7 @@ net_traits
 CoreResourceMsg
 IpcSend
 Metadata
+ReferrerPolicy
 ResourceThreads
 }
 ;

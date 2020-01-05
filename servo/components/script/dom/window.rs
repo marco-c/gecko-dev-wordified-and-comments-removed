@@ -608,14 +608,16 @@ constellation_msg
 {
 FrameType
 PipelineId
-ReferrerPolicy
 }
 ;
 use
 net_traits
 :
 :
+{
 ResourceThreads
+ReferrerPolicy
+}
 ;
 use
 net_traits
