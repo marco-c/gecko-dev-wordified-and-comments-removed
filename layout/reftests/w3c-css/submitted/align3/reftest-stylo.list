@@ -885,6 +885,7 @@ vertWM
 004
 .
 html
+fails
 =
 =
 flex
@@ -917,6 +918,7 @@ content
 001
 .
 html
+fails
 =
 =
 flex
@@ -1007,6 +1009,7 @@ content
 002
 .
 html
+fails
 =
 =
 flex
@@ -1035,6 +1038,7 @@ content
 003
 .
 html
+fails
 =
 =
 flex
@@ -1121,6 +1125,7 @@ content
 006
 .
 html
+fails
 =
 =
 flex
@@ -1149,6 +1154,7 @@ content
 007
 .
 html
+fails
 =
 =
 flex

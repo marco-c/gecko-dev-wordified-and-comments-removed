@@ -741,6 +741,7 @@ existing
 content
 .
 )
+fails
 =
 =
 flexbox
@@ -761,6 +762,7 @@ insertAroundDiv
 1
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -802,6 +804,7 @@ insertAroundDiv
 3
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -822,6 +825,7 @@ insertAroundSpan
 1
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -863,6 +867,7 @@ insertAroundSpan
 3
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -883,6 +888,7 @@ insertAroundText
 1
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -903,6 +909,7 @@ insertAroundText
 2
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -938,6 +945,7 @@ test
 an
 invalidation
 issue
+fails
 =
 =
 flexbox
@@ -1013,6 +1021,7 @@ elements
 inside
 a
 flexbox
+fails
 =
 =
 flexbox
@@ -1029,6 +1038,7 @@ float
 1a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1045,6 +1055,7 @@ float
 1b
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1061,6 +1072,7 @@ float
 1c
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1077,6 +1089,7 @@ float
 1d
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1093,6 +1106,7 @@ float
 2a
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1155,6 +1169,7 @@ positioned
 flex
 items
 .
+fails
 =
 =
 flexbox
@@ -1175,6 +1190,7 @@ absolute
 1
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1235,6 +1251,7 @@ absolute
 4
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1255,6 +1272,7 @@ fixed
 1
 .
 xhtml
+fails
 =
 =
 flexbox
@@ -1470,6 +1488,7 @@ horiz
 4
 .
 xhtml
+fails
 =
 =
 flexbox
