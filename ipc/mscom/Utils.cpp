@@ -1,4 +1,7 @@
 #
+ifdef
+ACCESSIBILITY
+#
 include
 "
 mozilla
@@ -9,6 +12,15 @@ Registration
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
+#
+endif
 #
 include
 "
@@ -26,13 +38,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-nsTArray
 .
 h
 "
@@ -163,6 +168,9 @@ return
 false
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 static
 bool
 IsVtableIndexFromParentInterface
@@ -620,5 +628,7 @@ return
 false
 ;
 }
+#
+endif
 }
 }
