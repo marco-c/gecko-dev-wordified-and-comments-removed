@@ -456,7 +456,6 @@ name
 Phase
 parent
 ;
-const
 uint8_t
 telemetryBucket
 ;
