@@ -296,6 +296,10 @@ HTMLCollectionBinding
 ;
 pub
 mod
+HTMLDivElementBinding
+;
+pub
+mod
 HTMLDocumentBinding
 ;
 pub
@@ -309,6 +313,10 @@ HTMLHeadElementBinding
 pub
 mod
 HTMLHtmlElementBinding
+;
+pub
+mod
+HTMLImageElementBinding
 ;
 pub
 mod
@@ -399,6 +407,10 @@ htmldocument
 pub
 mod
 htmlelement
+;
+pub
+mod
+htmlimageelement
 ;
 pub
 mod
