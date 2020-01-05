@@ -120,6 +120,11 @@ nsIContentPrefService2
 idl
 '
 '
+nsIContentProcess
+.
+idl
+'
+'
 nsIContentURIGrouper
 .
 idl
