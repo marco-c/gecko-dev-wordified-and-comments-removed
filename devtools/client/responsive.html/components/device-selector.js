@@ -99,7 +99,7 @@ PropTypes
 string
 .
 isRequired
-onChangeViewportDevice
+onChangeDevice
 :
 PropTypes
 .
@@ -138,7 +138,7 @@ target
 let
 {
 devices
-onChangeViewportDevice
+onChangeDevice
 onResizeViewport
 onUpdateDeviceModalOpen
 }
@@ -210,7 +210,7 @@ device
 height
 )
 ;
-onChangeViewportDevice
+onChangeDevice
 (
 device
 )

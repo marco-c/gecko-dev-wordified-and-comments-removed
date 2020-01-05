@@ -110,7 +110,7 @@ PropTypes
 string
 .
 isRequired
-onChangeViewportDevice
+onChangeDevice
 :
 PropTypes
 .
@@ -154,7 +154,7 @@ let
 {
 devices
 selectedDevice
-onChangeViewportDevice
+onChangeDevice
 onResizeViewport
 onRotateViewport
 onUpdateDeviceModalOpen
@@ -184,7 +184,7 @@ DeviceSelector
 {
 devices
 selectedDevice
-onChangeViewportDevice
+onChangeDevice
 onResizeViewport
 onUpdateDeviceModalOpen
 }

@@ -7,7 +7,7 @@ const
 {
 ADD_VIEWPORT
 CHANGE_DEVICE
-CHANGE_VIEWPORT_PIXEL_RATIO
+CHANGE_PIXEL_RATIO
 RESIZE_VIEWPORT
 ROTATE_VIEWPORT
 }
@@ -54,7 +54,7 @@ device
 }
 ;
 }
-changeViewportPixelRatio
+changePixelRatio
 (
 id
 pixelRatio
@@ -66,7 +66,7 @@ return
 {
 type
 :
-CHANGE_VIEWPORT_PIXEL_RATIO
+CHANGE_PIXEL_RATIO
 id
 pixelRatio
 }

@@ -6,7 +6,7 @@ strict
 const
 {
 addViewport
-changeViewportPixelRatio
+changePixelRatio
 }
 =
 require
@@ -64,7 +64,7 @@ addViewport
 ;
 dispatch
 (
-changeViewportPixelRatio
+changePixelRatio
 (
 0
 NEW_PIXEL_RATIO

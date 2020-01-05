@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-updateTouchSimulationEnabled
+changeTouchSimulation
 }
 =
 require
@@ -72,7 +72,7 @@ default
 ;
 dispatch
 (
-updateTouchSimulationEnabled
+changeTouchSimulation
 (
 true
 )

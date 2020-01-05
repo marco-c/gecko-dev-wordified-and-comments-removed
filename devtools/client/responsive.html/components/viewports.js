@@ -126,7 +126,7 @@ PropTypes
 func
 .
 isRequired
-onChangeViewportDevice
+onChangeDevice
 :
 PropTypes
 .
@@ -173,7 +173,7 @@ location
 screenshot
 viewports
 onBrowserMounted
-onChangeViewportDevice
+onChangeDevice
 onContentResize
 onResizeViewport
 onRotateViewport
@@ -227,7 +227,7 @@ i
 0
 viewport
 onBrowserMounted
-onChangeViewportDevice
+onChangeDevice
 onContentResize
 onResizeViewport
 onRotateViewport
