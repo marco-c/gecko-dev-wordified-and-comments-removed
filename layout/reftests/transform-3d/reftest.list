@@ -1216,14 +1216,6 @@ layersGPUAccelerated
 16
 6
 )
-fuzzy
--
-if
-(
-Mulet
-16
-9
-)
 =
 =
 animate
@@ -1350,9 +1342,6 @@ fuzzy
 -
 if
 (
-B2G
-|
-|
 Android
 |
 |
