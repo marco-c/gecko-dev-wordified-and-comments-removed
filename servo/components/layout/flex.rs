@@ -5233,6 +5233,15 @@ REFLOW
 {
 return
 }
+self
+.
+block_flow
+.
+initialize_container_size_for_root
+(
+shared_context
+)
+;
 let
 containing_block_inline_size
 =
