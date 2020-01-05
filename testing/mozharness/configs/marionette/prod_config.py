@@ -1020,4 +1020,10 @@ testsdir
 }
     
 }
+    
+"
+structured_output
+"
+:
+True
 }

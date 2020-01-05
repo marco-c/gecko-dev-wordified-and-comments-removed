@@ -85,16 +85,6 @@ mozharness
 .
 mozilla
 .
-buildbot
-import
-TBPL_SUCCESS
-TBPL_WARNING
-TBPL_FAILURE
-from
-mozharness
-.
-mozilla
-.
 gaia
 import
 GaiaMixin
@@ -842,7 +832,7 @@ of
 total
 chunks
 "
-        
+         
 }
      
 ]
@@ -885,7 +875,7 @@ of
 this
 chunk
 "
-        
+         
 }
      
 ]
@@ -939,7 +929,7 @@ builds
 only
 )
 "
-        
+         
 }
     
 ]
@@ -1004,7 +994,7 @@ GL
 compositor
 .
 "
-       
+        
 }
      
 ]
@@ -2777,6 +2767,7 @@ path
 .
 isdir
 (
+                
 os
 .
 path
@@ -2794,7 +2785,7 @@ distro_dir
 '
 out
 '
-                
+                             
 '
 target
 '
@@ -3446,16 +3437,20 @@ structured_output
 )
 :
             
-config_fmt_args
-[
-"
-raw_log_file
-"
-]
-=
+cmd
+.
+append
+(
 "
 -
+-
+log
+-
+raw
+=
+-
 "
+)
         
 options_group
 =
@@ -3796,9 +3791,13 @@ error_list
 self
 .
 error_list
+                                              
+strict
+=
+False
 )
         
-code
+return_code
 =
 self
 .
@@ -3822,77 +3821,27 @@ level
 =
 INFO
         
-if
-code
-=
-=
-0
-and
-marionette_parser
-.
-passed
->
-0
-and
-marionette_parser
-.
-failed
-=
-=
-0
-:
-            
-status
-=
-"
-success
-"
-            
 tbpl_status
+log_level
 =
-TBPL_SUCCESS
+marionette_parser
+.
+evaluate_parser
+(
+            
+return_code
+=
+return_code
+)
         
-elif
-code
-=
-=
-10
-and
 marionette_parser
 .
-failed
->
-0
-:
-            
-status
-=
+append_tinderboxprint_line
+(
 "
-test
-failures
+marionette
 "
-            
-tbpl_status
-=
-TBPL_WARNING
-        
-else
-:
-            
-status
-=
-"
-harness
-failures
-"
-            
-level
-=
-ERROR
-            
-tbpl_status
-=
-TBPL_FAILURE
+)
         
 qemu
 =
@@ -4173,8 +4122,8 @@ s
 "
 %
 (
-code
-status
+return_code
+tbpl_status
 )
                  
 level
