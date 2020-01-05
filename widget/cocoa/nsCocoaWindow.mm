@@ -3199,7 +3199,7 @@ that
 nsChildView
 :
 :
-ComputeShouldAccelerate
+WidgetTypeSupportsAcceleration
 returns
 true
 for
