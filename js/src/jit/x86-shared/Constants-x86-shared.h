@@ -29,6 +29,13 @@ stddef
 .
 h
 >
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 js
 {
@@ -40,6 +47,8 @@ X86Encoding
 {
 enum
 RegisterID
+:
+uint8_t
 {
 rax
 rcx
