@@ -4340,7 +4340,7 @@ style
 CollapsedBorderProvenance
 :
 :
-FromPreviousTableCell
+FromNextTableCell
 )
 )
 ;
