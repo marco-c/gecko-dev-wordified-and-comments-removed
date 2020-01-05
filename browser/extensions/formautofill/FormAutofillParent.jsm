@@ -518,7 +518,14 @@ locationBarGroup
 "
 )
 :
-null
+document
+.
+getElementById
+(
+"
+passwordGrid
+"
+)
 ;
 parentNode
 .
