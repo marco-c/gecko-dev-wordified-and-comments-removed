@@ -242,6 +242,11 @@ PanelFrame
 jsm
 '
 '
+PermissionUI
+.
+jsm
+'
+'
 PluginContent
 .
 jsm
