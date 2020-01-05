@@ -784,6 +784,10 @@ mClassInfo
 (
 aClassInfo
 )
+mFlags
+(
+0
+)
 mName
 (
 const_cast
