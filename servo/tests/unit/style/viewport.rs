@@ -29,6 +29,12 @@ media_queries
 CSSErrorReporterTest
 ;
 use
+msg
+:
+:
+ParseErrorReporter
+;
+use
 style
 :
 :
@@ -121,12 +127,6 @@ viewport
 :
 :
 *
-;
-use
-style_traits
-:
-:
-ParseErrorReporter
 ;
 use
 style_traits

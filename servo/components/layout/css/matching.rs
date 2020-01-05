@@ -31,6 +31,12 @@ RestyleDamage
 }
 ;
 use
+msg
+:
+:
+ParseErrorReporter
+;
+use
 script
 :
 :
@@ -209,12 +215,6 @@ selector_matching
 DeclarationBlock
 Stylist
 }
-;
-use
-style_traits
-:
-:
-ParseErrorReporter
 ;
 use
 util

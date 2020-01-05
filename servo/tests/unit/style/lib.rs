@@ -40,6 +40,10 @@ euclid
 ;
 extern
 crate
+msg
+;
+extern
+crate
 selectors
 ;
 #

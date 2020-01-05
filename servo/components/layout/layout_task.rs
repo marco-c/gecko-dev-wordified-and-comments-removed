@@ -224,6 +224,12 @@ use
 msg
 :
 :
+ParseErrorReporter
+;
+use
+msg
+:
+:
 compositor_msg
 :
 :
@@ -563,12 +569,6 @@ stylesheets
 CSSRuleIteratorExt
 Stylesheet
 }
-;
-use
-style_traits
-:
-:
-ParseErrorReporter
 ;
 use
 url
@@ -2199,6 +2199,11 @@ empty
 error_reporter
 :
 CSSErrorReporter
+{
+pipelineid
+:
+id
+}
 }
 }
 fn

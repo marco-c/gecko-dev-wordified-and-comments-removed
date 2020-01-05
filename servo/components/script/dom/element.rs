@@ -693,6 +693,12 @@ Quirks
 }
 ;
 use
+msg
+:
+:
+ParseErrorReporter
+;
+use
 selectors
 :
 :
@@ -873,12 +879,6 @@ CSSColor
 CSSRGBA
 LengthOrPercentage
 }
-;
-use
-style_traits
-:
-:
-ParseErrorReporter
 ;
 use
 url

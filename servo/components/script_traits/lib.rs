@@ -538,6 +538,14 @@ parent
 :
 PipelineId
 }
+ReportCSSError
+(
+PipelineId
+String
+usize
+usize
+String
+)
 }
 #
 [
