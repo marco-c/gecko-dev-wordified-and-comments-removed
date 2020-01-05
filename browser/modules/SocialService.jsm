@@ -1057,16 +1057,13 @@ Services
 .
 prefs
 .
-getComplexValue
+getStringPref
 (
 "
 social
 .
 activeProviders
 "
-Ci
-.
-nsISupportsString
 )
 ;
 this
