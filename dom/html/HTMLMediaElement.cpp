@@ -24218,6 +24218,15 @@ else
 if
 (
 mDecoder
+&
+&
+!
+mDecoder
+-
+>
+IsEnded
+(
+)
 )
 {
 nextFrameStatus
