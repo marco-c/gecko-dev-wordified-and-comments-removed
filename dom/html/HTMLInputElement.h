@@ -1074,6 +1074,14 @@ aSelectionEnd
 )
 override
 ;
+int32_t
+GetSelectionStartIgnoringType
+(
+ErrorResult
+&
+aRv
+)
+;
 void
 GetDisplayFileName
 (
