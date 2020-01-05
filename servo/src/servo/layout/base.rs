@@ -179,7 +179,7 @@ text_box
 )
 }
 class
-appearance
+Appearance
 {
 let
 mut
@@ -253,7 +253,7 @@ au
 let
 appearance
 :
-appearance
+Appearance
 ;
 new
 (
@@ -303,14 +303,14 @@ self
 .
 appearance
 =
-appearance
+Appearance
 (
 )
 ;
 }
 }
 enum
-layout_data
+LayoutData
 =
 {
 mut
@@ -350,9 +350,9 @@ receivers
 -
 pcw
 enum
-ntree
+NTree
 {
-ntree
+NTree
 }
 impl
 NodeTreeReadMethods
@@ -365,7 +365,7 @@ ReadMethods
 Node
 >
 for
-ntree
+NTree
 {
 fn
 each_child
@@ -442,9 +442,9 @@ tree
 }
 }
 enum
-btree
+BTree
 {
-btree
+BTree
 }
 impl
 BoxTreeReadMethods
@@ -457,7 +457,7 @@ ReadMethods
 Box
 >
 for
-btree
+BTree
 {
 fn
 each_child
@@ -538,7 +538,7 @@ WriteMethods
 Box
 >
 for
-btree
+BTree
 {
 fn
 add_child
@@ -682,7 +682,7 @@ s
 ]
 ;
 for
-btree
+BTree
 .
 each_child
 (
@@ -957,7 +957,7 @@ s
 ]
 ;
 for
-ntree
+NTree
 .
 each_child
 (
@@ -1176,7 +1176,7 @@ tree
 :
 each_child
 (
-btree
+BTree
 root
 )
 {
@@ -1443,7 +1443,7 @@ tree
 :
 add_child
 (
-btree
+BTree
 b3
 b0
 )
@@ -1453,7 +1453,7 @@ tree
 :
 add_child
 (
-btree
+BTree
 b3
 b1
 )
@@ -1463,7 +1463,7 @@ tree
 :
 add_child
 (
-btree
+BTree
 b3
 b2
 )

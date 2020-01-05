@@ -187,7 +187,7 @@ tree
 :
 each_child
 (
-btree
+BTree
 self
 )
 {

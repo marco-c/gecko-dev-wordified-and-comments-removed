@@ -76,7 +76,7 @@ apply_style
 )
 ;
 for
-btree
+BTree
 .
 each_child
 (

@@ -57,7 +57,7 @@ layout
 base
 :
 :
-layout_data
+LayoutData
 ;
 import
 util
@@ -340,7 +340,7 @@ rcu
 Handle
 <
 NodeData
-layout_data
+LayoutData
 >
 ;
 type
@@ -352,7 +352,7 @@ rcu
 Scope
 <
 NodeData
-layout_data
+LayoutData
 >
 ;
 fn

@@ -95,9 +95,9 @@ base
 :
 :
 {
-appearance
-btree
-ntree
+Appearance
+BTree
+NTree
 }
 ;
 import
@@ -287,7 +287,7 @@ construct_boxes_for_block_children
 )
 {
 for
-ntree
+NTree
 .
 each_child
 (
@@ -384,7 +384,7 @@ display
 {
 di_block
 {
-btree
+BTree
 .
 add_child
 (
@@ -485,7 +485,7 @@ b
 }
 }
 ;
-btree
+BTree
 .
 add_child
 (
@@ -541,7 +541,7 @@ construct_boxes_for_inline_children
 )
 {
 for
-ntree
+NTree
 .
 each_child
 (
@@ -650,7 +650,7 @@ box
 "
 )
 ;
-btree
+BTree
 .
 add_child
 (
@@ -663,7 +663,7 @@ kid_box
 }
 di_inline
 {
-btree
+BTree
 .
 add_child
 (
@@ -836,7 +836,7 @@ some
 b
 )
 {
-btree
+BTree
 .
 add_child
 (
