@@ -611,7 +611,7 @@ aPacket
 )
 ;
 virtual
-RefPtr
+already_AddRefed
 <
 MediaRawData
 >

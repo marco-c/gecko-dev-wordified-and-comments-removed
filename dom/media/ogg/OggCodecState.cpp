@@ -1164,7 +1164,7 @@ Pop
 ;
 }
 }
-RefPtr
+already_AddRefed
 <
 MediaRawData
 >
@@ -1329,6 +1329,10 @@ packet
 ;
 return
 sample
+.
+forget
+(
+)
 ;
 }
 nsresult
