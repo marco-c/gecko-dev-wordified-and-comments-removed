@@ -1577,6 +1577,7 @@ Length
 aDrawTarget
 aAppUnitsPerDevPixel
 0
+0
 nullptr
 )
 ;
@@ -1859,6 +1860,7 @@ aChar
 1
 aDrawTarget
 aAppUnitsPerDevPixel
+0
 0
 nullptr
 )
@@ -2267,6 +2269,7 @@ Create
 params
 1
 aFontGroup
+0
 0
 )
 ;
@@ -6463,6 +6466,7 @@ aPresContext
 AppUnitsPerDevPixel
 (
 )
+0
 0
 aPresContext
 -

@@ -246,8 +246,10 @@ aParams
 gfxFontGroup
 *
 aFontGroup
-uint32_t
+uint16_t
 aFlags
+uint16_t
+aFlags2
 nsTArray
 <
 RefPtr
@@ -284,8 +286,10 @@ aParams
 gfxFontGroup
 *
 aFontGroup
-uint32_t
+uint16_t
 aFlags
+uint16_t
+aFlags2
 nsTArray
 <
 RefPtr
@@ -497,8 +501,11 @@ aString
 uint32_t
 aLength
 const
-uint32_t
+uint16_t
 aFlags
+const
+uint16_t
+aFlags2
 nsTArray
 <
 RefPtr
@@ -666,8 +673,11 @@ aString
 uint32_t
 aLength
 const
-uint32_t
+uint16_t
 aFlags
+const
+uint16_t
+aFlags2
 nsTArray
 <
 RefPtr
@@ -688,6 +698,7 @@ aParams
 aLength
 aFontGroup
 aFlags
+aFlags2
 )
 mFactory
 (
@@ -755,7 +766,7 @@ GetParametersForInner
 nsTransformedTextRun
 *
 aTextRun
-uint32_t
+uint16_t
 *
 aFlags
 mozilla

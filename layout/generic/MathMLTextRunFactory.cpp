@@ -1851,7 +1851,7 @@ singleCharMI
 aTextRun
 -
 >
-GetFlags
+GetFlags2
 (
 )
 &
@@ -2594,7 +2594,7 @@ false
 ;
 }
 }
-uint32_t
+uint16_t
 flags
 ;
 gfxTextRunFactory
@@ -2878,6 +2878,7 @@ Length
 innerParams
 newFontGroup
 flags
+0
 Move
 (
 styleArray
@@ -2916,6 +2917,7 @@ Length
 &
 innerParams
 flags
+0
 aMFR
 )
 ;

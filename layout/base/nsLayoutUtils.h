@@ -4273,7 +4273,7 @@ aFrame
 )
 ;
 static
-uint32_t
+uint16_t
 GetTextRunFlagsForStyle
 (
 nsStyleContext
@@ -4292,7 +4292,7 @@ aLetterSpacing
 )
 ;
 static
-uint32_t
+uint16_t
 GetTextRunOrientFlagsForStyle
 (
 nsStyleContext

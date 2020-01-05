@@ -740,6 +740,11 @@ nsSubDocumentFrame
 h
 '
 '
+nsTextFrameUtils
+.
+h
+'
+'
 nsTextRunTransformations
 .
 h

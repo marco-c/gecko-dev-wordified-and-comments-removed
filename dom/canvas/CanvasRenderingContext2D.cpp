@@ -19715,7 +19715,7 @@ UpdateUserFonts
 (
 )
 ;
-uint32_t
+uint16_t
 flags
 =
 mTextRunFlags
@@ -19761,6 +19761,7 @@ aLength
 mDrawTarget
 mAppUnitsPerDevPixel
 flags
+0
 mMissingFonts
 )
 ;
@@ -20822,7 +20823,7 @@ mOp
 gfxRect
 mBoundingBox
 ;
-uint32_t
+uint16_t
 mTextRunFlags
 ;
 bool
