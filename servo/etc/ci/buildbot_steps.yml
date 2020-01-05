@@ -1336,9 +1336,9 @@ windows
 gnu
 windows
 -
-nightly
--
 gnu
+-
+nightly
 :
 -
 .
@@ -1371,9 +1371,9 @@ windows
 gnu
 windows
 -
-nightly
--
 msvc
+-
+nightly
 :
 -
 mach
