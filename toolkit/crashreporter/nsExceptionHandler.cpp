@@ -4982,7 +4982,7 @@ apiData
 "
 TelemetrySessionId
 "
-crashTimeString
+currentSessionId
 )
 ;
 WriteAnnotation
