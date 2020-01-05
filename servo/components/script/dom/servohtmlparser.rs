@@ -331,6 +331,13 @@ Document
 impl
 Sink
 {
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 get_or_create

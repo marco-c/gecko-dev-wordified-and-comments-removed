@@ -651,6 +651,13 @@ status
 ;
 old
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 set_frame

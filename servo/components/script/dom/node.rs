@@ -8110,6 +8110,13 @@ doc
 )
 )
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 pub
 fn
 new_document_node
@@ -8135,6 +8142,13 @@ IS_IN_DOC
 None
 )
 }
+#
+[
+allow
+(
+unrooted_must_root
+)
+]
 fn
 new_
 (
