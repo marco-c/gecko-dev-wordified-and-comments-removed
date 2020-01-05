@@ -279,7 +279,6 @@ time
 {
 profile
 ProfilerChan
-Timer
 }
 ;
 use
@@ -305,6 +304,18 @@ Data
 Sender
 Receiver
 }
+;
+use
+std
+:
+:
+io
+:
+:
+timer
+:
+:
+sleep
 ;
 use
 std
@@ -759,9 +770,6 @@ composite
 )
 ;
 }
-Timer
-:
-:
 sleep
 (
 10
