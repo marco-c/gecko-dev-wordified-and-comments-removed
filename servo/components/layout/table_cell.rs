@@ -231,9 +231,8 @@ block_flow
 BlockFlow
 :
 :
-from_node_and_fragment
+from_fragment
 (
-node
 fragment
 None
 )

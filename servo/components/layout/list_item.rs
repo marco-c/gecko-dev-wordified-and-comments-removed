@@ -70,12 +70,6 @@ use
 text
 ;
 use
-wrapper
-:
-:
-ThreadSafeLayoutNode
-;
-use
 euclid
 :
 :
@@ -172,12 +166,8 @@ ListItemFlow
 {
 pub
 fn
-from_node_fragments_and_flotation
+from_fragments_and_flotation
 (
-node
-:
-&
-ThreadSafeLayoutNode
 main_fragment
 :
 Fragment
@@ -209,9 +199,8 @@ block_flow
 BlockFlow
 :
 :
-from_node_and_fragment
+from_fragment
 (
-node
 main_fragment
 flotation
 )
