@@ -1263,13 +1263,6 @@ TreeMatchContext
 eNeverMatchVisited
 )
 ;
-doc
--
->
-FlushPendingLinkUpdates
-(
-)
-;
 matchingContext
 .
 SetHasSpecifiedScope

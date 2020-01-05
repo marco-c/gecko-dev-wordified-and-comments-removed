@@ -2769,13 +2769,6 @@ return
 document
 -
 >
-FlushPendingLinkUpdates
-(
-)
-;
-document
--
->
 FlushPendingNotifications
 (
 aNeedsLayoutFlush
