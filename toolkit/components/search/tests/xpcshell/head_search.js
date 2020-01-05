@@ -1939,7 +1939,7 @@ geoip
 .
 timeout
 "
-2000
+3000
 )
 ;
 Services
