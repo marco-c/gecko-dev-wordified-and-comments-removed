@@ -518,6 +518,11 @@ CSSVariableValues
 h
 '
 '
+DeclarationBlock
+.
+h
+'
+'
 HandleRefPtr
 .
 h
