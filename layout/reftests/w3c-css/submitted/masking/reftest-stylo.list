@@ -40,6 +40,7 @@ mask
 composite
 test
 cases
+fails
 =
 =
 mask
@@ -56,6 +57,7 @@ composite
 1a
 .
 html
+fails
 =
 =
 mask
@@ -72,6 +74,7 @@ composite
 1b
 .
 html
+fails
 =
 =
 mask
@@ -88,6 +91,7 @@ composite
 1c
 .
 html
+fails
 =
 =
 mask
@@ -104,6 +108,7 @@ composite
 2a
 .
 html
+fails
 =
 =
 mask
@@ -120,6 +125,7 @@ composite
 2b
 .
 html
+fails
 =
 =
 mask
@@ -142,6 +148,7 @@ mask
 mode
 test
 cases
+fails
 =
 =
 mask
@@ -158,6 +165,7 @@ mode
 a
 .
 html
+fails
 =
 =
 mask
@@ -174,6 +182,7 @@ mode
 b
 .
 html
+fails
 =
 =
 mask
@@ -204,6 +213,7 @@ mask
 image
 test
 cases
+fails
 =
 =
 mask
@@ -220,6 +230,7 @@ image
 1a
 .
 html
+fails
 =
 =
 mask
@@ -236,6 +247,7 @@ image
 1b
 .
 html
+fails
 =
 =
 mask
@@ -284,6 +296,7 @@ image
 2
 .
 html
+fails
 =
 =
 mask
@@ -300,6 +313,7 @@ image
 3a
 .
 html
+fails
 =
 =
 mask
@@ -316,6 +330,7 @@ image
 3b
 .
 html
+fails
 =
 =
 mask
@@ -332,6 +347,7 @@ image
 3c
 .
 html
+fails
 =
 =
 mask
@@ -348,6 +364,7 @@ image
 3d
 .
 html
+fails
 =
 =
 mask
@@ -364,6 +381,7 @@ image
 3e
 .
 html
+fails
 =
 =
 mask
@@ -380,6 +398,7 @@ image
 3f
 .
 html
+fails
 =
 =
 mask
@@ -396,6 +415,7 @@ image
 3g
 .
 html
+fails
 pref
 (
 layout
@@ -427,6 +447,7 @@ image
 3h
 .
 html
+fails
 =
 =
 mask
@@ -443,6 +464,7 @@ image
 3i
 .
 html
+fails
 =
 =
 mask
@@ -459,6 +481,7 @@ image
 4a
 .
 html
+fails
 =
 =
 mask
@@ -491,6 +514,7 @@ image
 5
 .
 html
+fails
 =
 =
 mask
@@ -513,6 +537,7 @@ mask
 clip
 test
 cases
+fails
 =
 =
 mask
@@ -535,6 +560,7 @@ mask
 position
 test
 cases
+fails
 =
 =
 mask
@@ -551,6 +577,7 @@ position
 1a
 .
 html
+fails
 =
 =
 mask
@@ -567,6 +594,7 @@ position
 1b
 .
 html
+fails
 =
 =
 mask
@@ -583,6 +611,7 @@ position
 1c
 .
 html
+fails
 =
 =
 mask
@@ -599,6 +628,7 @@ position
 2a
 .
 html
+fails
 =
 =
 mask
@@ -615,6 +645,7 @@ position
 2b
 .
 html
+fails
 =
 =
 mask
@@ -631,6 +662,7 @@ position
 3a
 .
 html
+fails
 =
 =
 mask
@@ -647,6 +679,7 @@ position
 3b
 .
 html
+fails
 =
 =
 mask
@@ -663,6 +696,7 @@ position
 4a
 .
 html
+fails
 =
 =
 mask
@@ -679,6 +713,7 @@ position
 4b
 .
 html
+fails
 =
 =
 mask
@@ -695,6 +730,7 @@ position
 4c
 .
 html
+fails
 =
 =
 mask
@@ -711,6 +747,7 @@ position
 4d
 .
 html
+fails
 =
 =
 mask
@@ -727,6 +764,7 @@ position
 5
 .
 html
+fails
 =
 =
 mask
@@ -743,6 +781,7 @@ position
 6
 .
 html
+fails
 =
 =
 mask
@@ -765,6 +804,7 @@ mask
 repeat
 test
 cases
+fails
 =
 =
 mask
@@ -781,6 +821,7 @@ repeat
 1
 .
 html
+fails
 =
 =
 mask
@@ -797,6 +838,7 @@ repeat
 2
 .
 html
+fails
 =
 =
 mask
@@ -819,6 +861,7 @@ mask
 origin
 test
 cases
+fails
 =
 =
 mask
@@ -835,6 +878,7 @@ origin
 1
 .
 html
+fails
 =
 =
 mask
@@ -857,6 +901,7 @@ mask
 size
 test
 cases
+fails
 =
 =
 mask
@@ -873,6 +918,7 @@ size
 auto
 .
 html
+fails
 =
 =
 mask
@@ -893,6 +939,7 @@ auto
 auto
 .
 html
+fails
 =
 =
 mask
@@ -913,6 +960,7 @@ auto
 length
 .
 html
+fails
 =
 =
 mask
@@ -933,6 +981,7 @@ auto
 percent
 .
 html
+fails
 =
 =
 mask
@@ -957,6 +1006,7 @@ clip
 border
 .
 html
+fails
 =
 =
 mask
@@ -981,6 +1031,7 @@ clip
 padding
 .
 html
+fails
 =
 =
 mask
@@ -1009,6 +1060,7 @@ fifty
 fifty
 .
 html
+fails
 =
 =
 mask
@@ -1025,6 +1077,7 @@ size
 contain
 .
 html
+fails
 =
 =
 mask
@@ -1041,6 +1094,7 @@ size
 cover
 .
 html
+fails
 =
 =
 mask
@@ -1057,17 +1111,9 @@ size
 length
 .
 html
+fails
 =
 =
-mask
--
-size
--
-length
--
-auto
-.
-html
 mask
 -
 size
@@ -1077,6 +1123,16 @@ length
 auto
 .
 html
+mask
+-
+size
+-
+length
+-
+auto
+.
+html
+fails
 =
 =
 mask
@@ -1097,6 +1153,7 @@ length
 length
 .
 html
+fails
 =
 =
 mask
@@ -1117,6 +1174,7 @@ length
 percent
 .
 html
+fails
 =
 =
 mask
@@ -1133,6 +1191,7 @@ size
 percent
 .
 html
+fails
 =
 =
 mask
@@ -1153,6 +1212,7 @@ percent
 auto
 .
 html
+fails
 =
 =
 mask
@@ -1173,6 +1233,7 @@ percent
 length
 .
 html
+fails
 =
 =
 mask
@@ -1193,6 +1254,7 @@ percent
 percent
 .
 html
+fails
 =
 =
 mask
@@ -1625,6 +1687,7 @@ with
 opacity
 test
 cases
+fails
 =
 =
 mask
@@ -1641,6 +1704,7 @@ opacity
 1a
 .
 html
+fails
 =
 =
 mask

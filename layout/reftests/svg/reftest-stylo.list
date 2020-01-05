@@ -1069,6 +1069,7 @@ outflowElement
 01a
 .
 html
+fails
 =
 =
 clipPath
@@ -2337,6 +2338,7 @@ contents
 01
 .
 svg
+fails
 =
 =
 dynamic
@@ -4568,6 +4570,7 @@ clipPath
 and
 mask
 clipping
+fails
 =
 =
 mask
@@ -4748,6 +4751,7 @@ mask
 img
 .
 html
+fails
 =
 =
 mask
@@ -4768,6 +4772,7 @@ outflowElement
 01a
 .
 html
+fails
 =
 =
 mask
