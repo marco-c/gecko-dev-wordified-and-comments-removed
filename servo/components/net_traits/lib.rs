@@ -240,6 +240,14 @@ header
 ;
 pub
 mod
+bluetooth_scanfilter
+;
+pub
+mod
+bluetooth_thread
+;
+pub
+mod
 hosts
 ;
 pub

@@ -54,6 +54,14 @@ deny
 unsafe_code
 )
 ]
+#
+[
+macro_use
+]
+extern
+crate
+bitflags
+;
 extern
 crate
 brotli
@@ -63,6 +71,10 @@ crate
 cookie
 as
 cookie_rs
+;
+extern
+crate
+device
 ;
 extern
 crate
@@ -190,6 +202,10 @@ websocket
 pub
 mod
 about_loader
+;
+pub
+mod
+bluetooth_thread
 ;
 pub
 mod

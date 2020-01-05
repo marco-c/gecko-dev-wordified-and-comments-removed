@@ -91,6 +91,9 @@ bluetooth
 "
 usb
 "
+"
+unknown
+"
 }
 ;
 [
