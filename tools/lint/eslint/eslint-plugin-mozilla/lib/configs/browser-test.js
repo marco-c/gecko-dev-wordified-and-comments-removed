@@ -153,7 +153,17 @@ finish
 :
 false
 "
+getChromeDir
+"
+:
+false
+"
 getJar
+"
+:
+false
+"
+getResolvedURI
 "
 :
 false

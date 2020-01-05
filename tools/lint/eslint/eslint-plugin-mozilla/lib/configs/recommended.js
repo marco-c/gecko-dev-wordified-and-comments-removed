@@ -1120,6 +1120,11 @@ dump
 :
 true
 "
+ImageDocument
+"
+:
+false
+"
 InternalError
 "
 :
