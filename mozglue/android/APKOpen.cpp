@@ -2476,6 +2476,9 @@ jclass
 jc
 )
 {
+#
+ifdef
+__ARM_EABI__
 return
 mozilla
 :
@@ -2484,4 +2487,11 @@ supports_neon
 (
 )
 ;
+#
+else
+return
+true
+;
+#
+endif
 }
