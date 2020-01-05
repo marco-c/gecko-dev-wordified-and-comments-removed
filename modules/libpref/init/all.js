@@ -15450,6 +15450,9 @@ remove_placeholder_character_at_commit
 false
 )
 ;
+#
+ifndef
+ENABLE_INTL_API
 pref
 (
 "
@@ -15520,6 +15523,8 @@ rtl
 "
 )
 ;
+#
+endif
 pref
 (
 "
