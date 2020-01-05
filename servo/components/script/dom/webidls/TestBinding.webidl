@@ -163,6 +163,12 @@ objectValue
 TestDictionaryDefaults
 dict
 ;
+sequence
+<
+TestDictionaryDefaults
+>
+seqDict
+;
 }
 ;
 dictionary
