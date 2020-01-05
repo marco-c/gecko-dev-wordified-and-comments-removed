@@ -2355,6 +2355,12 @@ Au
 container_inline_size
 :
 Au
+container_block_size
+:
+Option
+<
+Au
+>
 fragment_inline_size
 :
 Au
@@ -2495,7 +2501,7 @@ ReplacedImageFragmentInfo
 style_length
 (
 style_block_size
-None
+container_block_size
 )
 ;
 let
@@ -10628,6 +10634,12 @@ self
 container_inline_size
 :
 Au
+container_block_size
+:
+Option
+<
+Au
+>
 )
 {
 match
@@ -11158,6 +11170,7 @@ calculate_replaced_inline_size
 style
 noncontent_inline_size
 container_inline_size
+container_block_size
 fragment_inline_size
 fragment_block_size
 )
@@ -11210,6 +11223,7 @@ calculate_replaced_inline_size
 style
 noncontent_inline_size
 container_inline_size
+container_block_size
 fragment_inline_size
 fragment_block_size
 )
