@@ -2118,6 +2118,7 @@ as
 uint
 )
 <
+=
 glyphs
 .
 len
@@ -2139,6 +2140,8 @@ view
 (
 glyphs
 i
+i
++
 count
 as
 uint
