@@ -1631,6 +1631,13 @@ workspace
     
 ]
     
+docker_worker_support_vcs_checkout
+(
+config
+test
+taskdesc
+)
+    
 if
 test
 [
@@ -1639,13 +1646,6 @@ checkout
 '
 ]
 :
-        
-docker_worker_support_vcs_checkout
-(
-config
-test
-taskdesc
-)
         
 command
 .
