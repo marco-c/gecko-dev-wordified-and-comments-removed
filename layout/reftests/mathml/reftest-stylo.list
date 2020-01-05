@@ -3116,7 +3116,6 @@ embellished
 op
 .
 html
-fails
 =
 =
 maction
@@ -3133,7 +3132,6 @@ dynamic
 1
 .
 html
-fails
 =
 =
 maction
@@ -3187,7 +3185,6 @@ rspace
 2
 .
 html
-fails
 =
 =
 mo
@@ -3274,7 +3271,6 @@ glyph
 size
 .
 html
-fails
 =
 =
 maction
@@ -3762,7 +3758,6 @@ menclose
 box
 .
 html
-fails
 =
 =
 menclose
@@ -3779,7 +3774,6 @@ menclose
 circle
 .
 html
-fails
 =
 =
 menclose
@@ -3796,7 +3790,6 @@ menclose
 downdiagonalstrike
 .
 html
-fails
 =
 =
 menclose
@@ -3813,7 +3806,6 @@ menclose
 horizontalstrike
 .
 html
-fails
 =
 =
 menclose
@@ -3830,7 +3822,6 @@ menclose
 left
 .
 html
-fails
 =
 =
 menclose
@@ -3891,7 +3882,6 @@ menclose
 roundedbox
 .
 html
-fails
 =
 =
 menclose
@@ -3930,7 +3920,6 @@ menclose
 updiagonalarrow
 .
 html
-fails
 =
 =
 menclose
@@ -3947,7 +3936,6 @@ menclose
 updiagonalstrike
 .
 html
-fails
 =
 =
 menclose
@@ -3986,7 +3974,6 @@ menclose
 roundedbox
 .
 html
-fails
 =
 =
 menclose
@@ -4130,7 +4117,6 @@ menclose
 4
 .
 html
-fails
 =
 =
 menclose
@@ -4147,7 +4133,6 @@ menclose
 actuarial
 .
 html
-fails
 =
 =
 menclose
@@ -4164,7 +4149,6 @@ menclose
 bottom
 .
 html
-fails
 =
 =
 menclose
@@ -4181,7 +4165,6 @@ menclose
 box
 .
 html
-fails
 =
 =
 menclose
@@ -4198,7 +4181,6 @@ menclose
 circle
 .
 html
-fails
 =
 =
 menclose
@@ -4215,7 +4197,6 @@ menclose
 downdiagonalstrike
 .
 html
-fails
 =
 =
 menclose
@@ -4232,7 +4213,6 @@ menclose
 horizontalstrike
 .
 html
-fails
 =
 =
 menclose
@@ -4265,7 +4245,6 @@ menclose
 longdiv
 .
 html
-fails
 =
 =
 menclose
@@ -4282,7 +4261,6 @@ menclose
 madruwb
 .
 html
-fails
 =
 =
 menclose
@@ -4299,7 +4277,6 @@ menclose
 radical
 .
 html
-fails
 =
 =
 menclose
@@ -4316,7 +4293,6 @@ menclose
 right
 .
 html
-fails
 =
 =
 menclose
@@ -4333,7 +4309,6 @@ menclose
 roundedbox
 .
 html
-fails
 =
 =
 menclose
@@ -4350,7 +4325,6 @@ menclose
 top
 .
 html
-fails
 =
 =
 menclose
@@ -4367,7 +4341,6 @@ menclose
 updiagonalarrow
 .
 html
-fails
 =
 =
 menclose
@@ -4384,7 +4357,6 @@ menclose
 updiagonalstrike
 .
 html
-fails
 =
 =
 menclose
@@ -4401,7 +4373,6 @@ menclose
 verticalstrike
 .
 html
-fails
 =
 =
 menclose

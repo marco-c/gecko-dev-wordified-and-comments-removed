@@ -78,10 +78,14 @@ reversed
 1a
 .
 html
-fails
 asserts
+-
+if
 (
+stylo
 1
+-
+2
 )
 =
 =
@@ -99,6 +103,9 @@ reversed
 1b
 .
 html
+#
+bug
+478135
 =
 =
 ol
