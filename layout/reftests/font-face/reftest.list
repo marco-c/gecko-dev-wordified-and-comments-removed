@@ -1545,6 +1545,12 @@ family
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 HTTP
 (
 .
@@ -1568,6 +1574,9 @@ sheet
 ref
 .
 html
+#
+bug
+1321769
 skip
 -
 if
@@ -1723,6 +1732,12 @@ for
 those
 cases
 .
+fails
+-
+if
+(
+stylo
+)
 HTTP
 (
 .
@@ -1746,6 +1761,9 @@ sheet
 ref
 .
 html
+#
+bug
+1321769
 skip
 -
 if

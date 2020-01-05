@@ -5316,12 +5316,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-stylo
-)
 !
 =
 301726
@@ -16367,6 +16361,12 @@ xhtml
 ref
 .
 xhtml
+fails
+-
+if
+(
+stylo
+)
 =
 =
 416752
@@ -26692,7 +26692,7 @@ asserts
 if
 (
 stylo
-3
+4
 )
 =
 =
@@ -34274,12 +34274,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 1209994

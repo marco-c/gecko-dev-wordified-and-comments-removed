@@ -1693,6 +1693,12 @@ skiaContent
 16
 3230
 )
+fails
+-
+if
+(
+stylo
+)
 =
 =
 image
@@ -1715,6 +1721,12 @@ zoom
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+)
 !
 =
 image
