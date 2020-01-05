@@ -2992,6 +2992,12 @@ NameEmitter
 emitName
 )
 ;
+MOZ_MUST_USE
+bool
+emitRequireObjectCoercible
+(
+)
+;
 enum
 class
 CopyOption
