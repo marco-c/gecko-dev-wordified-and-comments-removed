@@ -389,13 +389,6 @@ Sentinel
 ;
 enum
 class
-WrExternalImageIdType
-{
-TEXTURE_HANDLE
-}
-;
-enum
-class
 WrMixBlendMode
 :
 uint32_t
@@ -1081,9 +1074,6 @@ id
 struct
 WrExternalImage
 {
-WrExternalImageIdType
-type
-;
 float
 u0
 v0
