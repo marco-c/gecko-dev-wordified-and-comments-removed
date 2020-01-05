@@ -37684,18 +37684,6 @@ pref
 "
 layers
 .
-frame
--
-counter
-"
-false
-)
-;
-pref
-(
-"
-layers
-.
 enable
 -
 tiles
@@ -43994,7 +43982,7 @@ IntersectionObserver
 .
 enabled
 "
-false
+true
 )
 ;
 pref
