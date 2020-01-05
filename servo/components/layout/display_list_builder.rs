@@ -618,9 +618,14 @@ stacking_context
 {
 display_list
 .
-children
+positioned_content
 .
 push_back
+(
+DisplayItem
+:
+:
+StackingContextClass
 (
 (
 *
@@ -629,6 +634,7 @@ stacking_context
 .
 clone
 (
+)
 )
 )
 }
@@ -10894,9 +10900,14 @@ outer_display_list
 {
 outer_display_list
 .
-children
+positioned_content
 .
 push_back
+(
+DisplayItem
+:
+:
+StackingContextClass
 (
 self
 .
@@ -10914,6 +10925,7 @@ StackingContextCreationMode
 :
 :
 InnerScrollWrapper
+)
 )
 )
 ;
