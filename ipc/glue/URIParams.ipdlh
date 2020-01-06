@@ -171,9 +171,6 @@ isMutable
 bool
 supportsFileURL
 ;
-uint32_t
-hostEncoding
-;
 }
 ;
 struct
