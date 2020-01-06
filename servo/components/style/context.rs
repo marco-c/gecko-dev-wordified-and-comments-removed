@@ -1443,9 +1443,7 @@ EagerPseudoCascadeInputs
 (
 styles
 .
-0
-.
-as_ref
+as_array
 (
 )
 .
