@@ -2,8 +2,6 @@ import
 mozlog
 import
 time
-import
-pytest
 def
 pytest_addoption
 (
@@ -404,12 +402,6 @@ session
 items
 ]
 )
-    
-pytest
-.
-mark
-.
-optionalhook
     
 def
 pytest_xdist_node_collection_finished
