@@ -3228,6 +3228,14 @@ TimeStamp
 loadTime
 )
 {
+if
+(
+mDataPrepared
+)
+{
+return
+;
+}
 auto
 script
 =
