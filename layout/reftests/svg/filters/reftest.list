@@ -1031,12 +1031,6 @@ svg
 pass
 .
 svg
-fails
--
-if
-(
-webrender
-)
 =
 =
 filter
@@ -1103,12 +1097,6 @@ html
 pass
 .
 svg
-fails
--
-if
-(
-webrender
-)
 =
 =
 filter
