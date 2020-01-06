@@ -10878,11 +10878,11 @@ aString
 nsresult
 rv
 =
+transaction
+-
+>
 DoTransaction
 (
-&
-aSelection
-transaction
 )
 ;
 {
