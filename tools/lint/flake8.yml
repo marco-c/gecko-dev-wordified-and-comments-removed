@@ -12,6 +12,12 @@ include
 -
 config
 /
+check_macroassembler_style
+.
+py
+-
+config
+/
 mozunit
 .
 py
