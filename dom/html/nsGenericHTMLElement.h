@@ -2299,12 +2299,8 @@ if
 aElement
 -
 >
-IsAnyOfHTMLElements
+IsHTMLElement
 (
-nsGkAtoms
-:
-:
-embed
 nsGkAtoms
 :
 :
