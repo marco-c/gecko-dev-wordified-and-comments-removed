@@ -498,7 +498,7 @@ expressionStack
 (
 )
 .
-length
+getDenseInitializedLength
 (
 )
 =
