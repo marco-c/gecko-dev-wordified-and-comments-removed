@@ -474,6 +474,9 @@ int32_t
 mBlinkCount
 ;
 uint32_t
+mBlinkRate
+;
+uint32_t
 mHideCount
 ;
 bool
