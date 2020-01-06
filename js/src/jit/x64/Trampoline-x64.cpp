@@ -2423,7 +2423,10 @@ moveValue
 UndefinedValue
 (
 )
+ValueOperand
+(
 r10
+)
 )
 ;
 masm
