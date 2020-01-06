@@ -60199,12 +60199,6 @@ NodePrincipal
 &
 &
 !
-IsXULDocument
-(
-)
-&
-&
-!
 ShouldUseGeckoBackend
 (
 mDocumentURI

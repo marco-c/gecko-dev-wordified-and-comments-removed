@@ -118,6 +118,12 @@ collapse
 ref
 .
 html
+fails
+-
+if
+(
+styloVsGecko
+)
 =
 =
 540247
@@ -132,6 +138,9 @@ xul
 ref
 .
 xul
+#
+bug
+1408235
 =
 =
 543681

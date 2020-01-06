@@ -63,6 +63,12 @@ because
 progress
 meter
 animates
+fails
+-
+if
+(
+styloVsGecko
+)
 !
 =
 textbox
@@ -81,6 +87,9 @@ multiline
 empty
 .
 xul
+#
+bug
+1408811
 =
 =
 videocontrols

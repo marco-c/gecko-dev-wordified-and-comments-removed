@@ -513,6 +513,12 @@ if
 (
 winWidget
 )
+fails
+-
+if
+(
+styloVsGecko
+)
 =
 =
 placeholder
@@ -527,6 +533,9 @@ overridden
 ref
 .
 xul
+#
+bug
+1408811
 #
 needs
 -

@@ -90,6 +90,12 @@ centering
 ref
 .
 xul
+fails
+-
+if
+(
+stylo
+)
 =
 =
 dynamic
@@ -108,6 +114,9 @@ height
 ref
 .
 xul
+#
+bug
+1408235
 fuzzy
 -
 if
