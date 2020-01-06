@@ -677,12 +677,7 @@ new
 AsyncEventDispatcher
 (
 target
-NS_LITERAL_STRING
-(
-"
-selectionchange
-"
-)
+eSelectionChange
 false
 )
 ;
@@ -770,12 +765,7 @@ new
 AsyncEventDispatcher
 (
 doc
-NS_LITERAL_STRING
-(
-"
-selectionchange
-"
-)
+eSelectionChange
 false
 )
 ;
