@@ -118,6 +118,9 @@ class
 nsIRunnable
 ;
 class
+nsIGlobalObject
+;
+class
 nsPIDOMWindowInner
 ;
 template
@@ -3159,6 +3162,9 @@ CreateNonRealtimeInstance
 (
 TrackRate
 aSampleRate
+nsPIDOMWindowInner
+*
+aWindowId
 )
 ;
 static
