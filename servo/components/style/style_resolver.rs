@@ -1654,6 +1654,8 @@ context
 shared
 .
 quirks_mode
+(
+)
 )
 ;
 let
@@ -2050,6 +2052,8 @@ context
 shared
 .
 quirks_mode
+(
+)
 )
 ;
 let
@@ -2519,6 +2523,8 @@ context
 shared
 .
 quirks_mode
+(
+)
 )
 ;
 cascade_info

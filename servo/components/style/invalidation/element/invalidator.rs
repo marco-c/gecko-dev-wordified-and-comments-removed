@@ -2255,6 +2255,8 @@ self
 shared_context
 .
 quirks_mode
+(
+)
 )
 ;
 let
@@ -2816,6 +2818,8 @@ self
 shared_context
 .
 quirks_mode
+(
+)
 ;
 let
 removed_id
@@ -3058,6 +3062,8 @@ self
 shared_context
 .
 quirks_mode
+(
+)
 self
 .
 removed_id
@@ -3113,6 +3119,8 @@ self
 shared_context
 .
 quirks_mode
+(
+)
 self
 .
 removed_id
@@ -3241,6 +3249,8 @@ self
 shared_context
 .
 quirks_mode
+(
+)
 )
 ;
 let
@@ -3266,6 +3276,8 @@ self
 shared_context
 .
 quirks_mode
+(
+)
 )
 ;
 let

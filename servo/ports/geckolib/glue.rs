@@ -1936,15 +1936,6 @@ Timer
 new
 (
 )
-quirks_mode
-:
-per_doc_data
-.
-stylist
-.
-quirks_mode
-(
-)
 traversal_flags
 :
 traversal_flags
