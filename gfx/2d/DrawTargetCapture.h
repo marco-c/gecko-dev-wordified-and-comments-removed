@@ -253,8 +253,7 @@ CompositionOp
 aOperator
 )
 override
-{
-}
+;
 virtual
 void
 ClearRect
