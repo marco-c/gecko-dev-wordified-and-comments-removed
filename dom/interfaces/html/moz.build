@@ -174,11 +174,6 @@ nsIDOMHTMLSourceElement
 idl
 '
 '
-nsIDOMHTMLTextAreaElement
-.
-idl
-'
-'
 nsIDOMMozBrowserFrame
 .
 idl
