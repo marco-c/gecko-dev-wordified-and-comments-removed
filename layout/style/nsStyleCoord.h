@@ -805,6 +805,14 @@ mPointer
 ;
 }
 nscoord
+ComputeComputedCalc
+(
+nscoord
+aPercentageBasis
+)
+const
+;
+nscoord
 GetCoordValue
 (
 )
