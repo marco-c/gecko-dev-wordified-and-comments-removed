@@ -208,7 +208,7 @@ http
 new
 Array
 (
-MAX_UPLOAD_BYTES
+URI_LENGTH_MAX
 )
 .
 join
