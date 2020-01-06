@@ -21643,6 +21643,11 @@ TabParent
 aParent
 )
 {
+SetInputPriorityEventEnabled
+(
+false
+)
+;
 nsCOMPtr
 <
 nsIDragService

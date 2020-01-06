@@ -1416,6 +1416,17 @@ mEndDragPoint
 aKeyModifiers
 )
 ;
+mChildProcesses
+[
+i
+]
+-
+>
+SetInputPriorityEventEnabled
+(
+true
+)
+;
 }
 mChildProcesses
 .
