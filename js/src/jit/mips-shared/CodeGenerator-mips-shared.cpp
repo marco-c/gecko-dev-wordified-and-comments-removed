@@ -9744,7 +9744,7 @@ rhsi
 ;
 masm
 .
-as_ins
+ma_ins
 (
 rhsi
 lhsi
@@ -9860,7 +9860,7 @@ rhsi
 ;
 masm
 .
-as_ins
+ma_ins
 (
 rhsi
 lhsi
