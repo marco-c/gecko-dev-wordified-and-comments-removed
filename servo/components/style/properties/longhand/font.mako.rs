@@ -5665,8 +5665,6 @@ nsIAtom
 >
 (
 )
-&
-mut
 |
 atom
 |

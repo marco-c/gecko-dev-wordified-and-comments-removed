@@ -1201,7 +1201,6 @@ pub
 fn
 set_descriptors
 (
-&
 self
 descriptors
 :
@@ -1215,7 +1214,6 @@ if
 let
 Some
 (
-ref
 value
 )
 =

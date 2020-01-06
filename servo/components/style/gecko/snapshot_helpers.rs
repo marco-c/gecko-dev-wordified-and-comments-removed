@@ -281,8 +281,6 @@ Atom
 with
 (
 class
-&
-mut
 callback
 )
 n
