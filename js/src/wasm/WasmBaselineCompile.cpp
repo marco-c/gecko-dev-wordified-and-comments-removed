@@ -11358,6 +11358,8 @@ masm
 store32
 (
 scratch
+LowWord
+(
 Address
 (
 StackPointer
@@ -11366,8 +11368,7 @@ argLoc
 offsetFromArgBase
 (
 )
-+
-INT64LOW_OFFSET
+)
 )
 )
 ;
@@ -11382,6 +11383,8 @@ masm
 store32
 (
 scratch
+HighWord
+(
 Address
 (
 StackPointer
@@ -11390,8 +11393,7 @@ argLoc
 offsetFromArgBase
 (
 )
-+
-INT64HIGH_OFFSET
+)
 )
 )
 ;

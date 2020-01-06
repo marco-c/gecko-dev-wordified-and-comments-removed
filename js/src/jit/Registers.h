@@ -708,10 +708,10 @@ set
 }
 #
 if
-defined
-(
-JS_NUNBOX32
-)
+JS_BITS_PER_WORD
+=
+=
+32
 static
 const
 uint32_t
