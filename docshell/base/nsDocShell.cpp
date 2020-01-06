@@ -84,6 +84,17 @@ mozilla
 /
 dom
 /
+HTMLAnchorElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PendingGlobalHistoryEntry
 .
 h
