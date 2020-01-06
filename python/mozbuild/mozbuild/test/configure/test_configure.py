@@ -10135,7 +10135,7 @@ when
 )
     
 def
-test_depends_or
+test_depends_binary_ops
 (
 self
 )
@@ -10266,7 +10266,7 @@ value
 set_config
 (
 '
-FOOBAR
+FOOorBAR
 '
 foo
 |
@@ -10276,12 +10276,34 @@ bar
 set_config
 (
 '
-FOOBARBAZ
+FOOorBARorBAZ
 '
 foo
 |
 bar
 |
+baz
+)
+            
+set_config
+(
+'
+FOOandBAR
+'
+foo
+&
+bar
+)
+            
+set_config
+(
+'
+FOOandBARandBAZ
+'
+foo
+&
+bar
+&
 baz
 )
         
@@ -10423,7 +10445,7 @@ config
 {
                             
 '
-FOOBAR
+FOOorBAR
 '
 :
 foo_value
@@ -10431,13 +10453,31 @@ or
 bar_value
                             
 '
-FOOBARBAZ
+FOOorBARorBAZ
 '
 :
 foo_value
 or
 bar_value
 or
+baz_value
+                            
+'
+FOOandBAR
+'
+:
+foo_value
+and
+bar_value
+                            
+'
+FOOandBARandBAZ
+'
+:
+foo_value
+and
+bar_value
+and
 baz_value
                         
 }
