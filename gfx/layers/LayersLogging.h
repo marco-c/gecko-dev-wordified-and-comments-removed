@@ -783,7 +783,7 @@ const
 wr
 :
 :
-StickySideConstraint
+StickyOffsetBounds
 &
 s
 const

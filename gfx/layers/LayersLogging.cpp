@@ -670,7 +670,7 @@ const
 wr
 :
 :
-StickySideConstraint
+StickyOffsetBounds
 &
 s
 const
@@ -695,7 +695,7 @@ nsPrintfCString
 (
 "
 (
-margin
+min
 =
 %
 f
@@ -707,10 +707,10 @@ f
 "
 s
 .
-margin
+min
 s
 .
-max_offset
+max
 )
 .
 get
