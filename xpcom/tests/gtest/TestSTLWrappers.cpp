@@ -114,6 +114,15 @@ if
 #
 endif
 #
+include
+"
+gtest
+/
+gtest
+.
+h
+"
+#
 if
 defined
 (
