@@ -595,6 +595,11 @@ if
 this
 .
 id
+|
+|
+this
+.
+shouldShow
 )
 {
 return
@@ -747,6 +752,12 @@ catch
 =
 >
 {
+this
+.
+shouldShow
+=
+false
+;
 return
 Promise
 .
