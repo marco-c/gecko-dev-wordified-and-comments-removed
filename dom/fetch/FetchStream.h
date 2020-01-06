@@ -85,8 +85,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSIOBSERVER
 static
-JSObject
-*
+void
 Create
 (
 JSContext
@@ -101,6 +100,15 @@ aGlobal
 nsIInputStream
 *
 aInputStream
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aStream
 ErrorResult
 &
 aRv

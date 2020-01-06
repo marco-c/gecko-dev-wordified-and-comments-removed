@@ -309,8 +309,7 @@ nsIInputStreamCallback
 nsIObserver
 nsISupportsWeakReference
 )
-JSObject
-*
+void
 FetchStream
 :
 :
@@ -328,6 +327,15 @@ aGlobal
 nsIInputStream
 *
 aInputStream
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aStream
 ErrorResult
 &
 aRv
@@ -402,7 +410,6 @@ NS_ERROR_FAILURE
 )
 ;
 return
-nullptr
 ;
 }
 aRv
@@ -430,7 +437,6 @@ Failed
 )
 {
 return
-nullptr
 ;
 }
 }
@@ -487,7 +493,6 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
-nullptr
 ;
 }
 stream
@@ -588,7 +593,6 @@ aCx
 )
 ;
 return
-nullptr
 ;
 }
 stream
@@ -607,8 +611,12 @@ get
 )
 )
 ;
-return
+aStream
+.
+set
+(
 body
+)
 ;
 }
 void
@@ -1288,10 +1296,8 @@ aFlags
 FETCH_STREAM_FLAG
 )
 ;
-RefPtr
-<
 FetchStream
->
+*
 stream
 =
 static_cast
