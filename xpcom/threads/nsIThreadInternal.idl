@@ -152,6 +152,7 @@ thread
 *
 /
 [
+builtinclass
 scriptable
 uuid
 (

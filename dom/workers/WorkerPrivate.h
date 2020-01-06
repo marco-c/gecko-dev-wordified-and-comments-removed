@@ -3171,12 +3171,9 @@ JSContext
 aCx
 )
 ;
-nsresult
+bool
 IsOnCurrentThread
 (
-bool
-*
-aIsOnCurrentThread
 )
 ;
 bool
