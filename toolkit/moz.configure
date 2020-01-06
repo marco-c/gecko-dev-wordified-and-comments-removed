@@ -6008,7 +6008,7 @@ clang
 -
 path
 '
-library_name_info
+host_library_name_info
 host
 )
 imports
