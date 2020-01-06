@@ -108,7 +108,6 @@ create_task
 (
 task_id
 task_def
-level
 )
 :
     
@@ -180,27 +179,6 @@ test
 "
 "
 "
-    
-task_def
-[
-'
-schedulerId
-'
-]
-=
-'
-gecko
--
-level
--
-{
-}
-'
-.
-format
-(
-level
-)
     
 if
 testing
