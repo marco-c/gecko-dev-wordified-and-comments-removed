@@ -13,6 +13,16 @@ wasm
 -
 baseline
 ;
+test
+-
+also
+-
+no
+-
+wasm
+-
+ion
+;
 include
 :
 wasm
