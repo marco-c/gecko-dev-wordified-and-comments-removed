@@ -569,8 +569,6 @@ transform
 :
 {
 TimingFunction
-Transform
-TransformOperation
 TransformOrigin
 }
 ;
