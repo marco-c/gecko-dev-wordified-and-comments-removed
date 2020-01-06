@@ -729,8 +729,7 @@ browser
 .
 startup
 .
-homepage
-override
+homepage_override
 .
 mstone
 "
