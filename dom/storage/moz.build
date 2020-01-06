@@ -148,6 +148,11 @@ LocalStorage
 cpp
 '
 '
+LocalStorageCache
+.
+cpp
+'
+'
 LocalStorageManager
 .
 cpp
@@ -164,11 +169,6 @@ cpp
 '
 '
 Storage
-.
-cpp
-'
-'
-StorageCache
 .
 cpp
 '

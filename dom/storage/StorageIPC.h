@@ -36,7 +36,7 @@ h
 #
 include
 "
-StorageCache
+LocalStorageCache
 .
 h
 "
@@ -144,7 +144,7 @@ virtual
 void
 AsyncPreload
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 bool
@@ -166,7 +166,7 @@ virtual
 void
 SyncPreload
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 bool
@@ -179,7 +179,7 @@ virtual
 nsresult
 AsyncAddItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -196,7 +196,7 @@ virtual
 nsresult
 AsyncUpdateItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -213,7 +213,7 @@ virtual
 nsresult
 AsyncRemoveItem
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
@@ -226,7 +226,7 @@ virtual
 nsresult
 AsyncClear
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 )
@@ -477,7 +477,7 @@ nsTHashtable
 <
 nsRefPtrHashKey
 <
-StorageCacheBridge
+LocalStorageCacheBridge
 >
 >
 mLoadingCaches
@@ -554,7 +554,7 @@ class
 CacheParentBridge
 :
 public
-StorageCacheBridge
+LocalStorageCacheBridge
 {
 public
 :

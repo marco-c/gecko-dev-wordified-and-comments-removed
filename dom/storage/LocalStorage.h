@@ -25,10 +25,10 @@ namespace
 dom
 {
 class
-LocalStorageManager
+LocalStorageCache
 ;
 class
-StorageCache
+LocalStorageManager
 ;
 class
 StorageEvent
@@ -72,7 +72,7 @@ return
 mManager
 ;
 }
-StorageCache
+LocalStorageCache
 const
 *
 GetCache
@@ -100,7 +100,7 @@ aWindow
 LocalStorageManager
 *
 aManager
-StorageCache
+LocalStorageCache
 *
 aCache
 const
@@ -324,7 +324,7 @@ LocalStorageManager
 ;
 friend
 class
-StorageCache
+LocalStorageCache
 ;
 RefPtr
 <
@@ -334,7 +334,7 @@ mManager
 ;
 RefPtr
 <
-StorageCache
+LocalStorageCache
 >
 mCache
 ;

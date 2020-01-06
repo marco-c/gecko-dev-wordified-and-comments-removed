@@ -15,14 +15,14 @@ h
 #
 include
 "
-StorageCache
+StorageUtils
 .
 h
 "
 #
 include
 "
-StorageUtils
+LocalStorageCache
 .
 h
 "
@@ -203,7 +203,7 @@ namespace
 nsCString
 Scheme0Scope
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 )
@@ -669,7 +669,7 @@ StorageDBThread
 :
 SyncPreload
 (
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 bool
@@ -3093,7 +3093,7 @@ DBOperation
 const
 OperationType
 aType
-StorageCacheBridge
+LocalStorageCacheBridge
 *
 aCache
 const
