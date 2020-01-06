@@ -4950,6 +4950,13 @@ offsetToCoerceArgv
 SetExitFP
 (
 masm
+ExitReason
+:
+:
+Fixed
+:
+:
+ImportJit
 scratch
 )
 ;

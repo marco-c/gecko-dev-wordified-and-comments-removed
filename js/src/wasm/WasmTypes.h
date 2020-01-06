@@ -6784,9 +6784,6 @@ Frame
 *
 callerFP
 ;
-uint32_t
-encodedExitReason
-;
 TlsData
 *
 tls
@@ -6876,6 +6873,17 @@ flagsWord_
 ;
 }
 ;
+#
+if
+JS_BITS_PER_WORD
+=
+=
+32
+uint32_t
+padding_
+;
+#
+endif
 Frame
 frame_
 ;

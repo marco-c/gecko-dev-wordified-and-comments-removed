@@ -7818,6 +7818,10 @@ packedExitFP_
 (
 nullptr
 )
+encodedWasmExitReason_
+(
+0
+)
 prevJitActivation_
 (
 cx
