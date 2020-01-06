@@ -335,7 +335,7 @@ mPool
 Dispatch
 (
 aRunnable
-NS_DISPATCH_NORMAL
+NS_DISPATCH_AT_END
 )
 ;
 }
