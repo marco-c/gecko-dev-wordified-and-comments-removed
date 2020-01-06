@@ -81,7 +81,7 @@ mozilla
 :
 RestyleManager
 )
-uint32_t
+uint64_t
 GetRestyleGeneration
 (
 )
@@ -91,7 +91,7 @@ return
 mRestyleGeneration
 ;
 }
-uint32_t
+uint64_t
 GetUndisplayedRestyleGeneration
 (
 )
@@ -812,10 +812,10 @@ nsPresContext
 *
 mPresContext
 ;
-uint32_t
+uint64_t
 mRestyleGeneration
 ;
-uint32_t
+uint64_t
 mUndisplayedRestyleGeneration
 ;
 uint32_t
