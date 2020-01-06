@@ -334,7 +334,8 @@ const
 override
 ;
 virtual
-bool
+RegExpShared
+*
 regexp_toShared
 (
 JSContext
@@ -342,12 +343,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandle
-<
-RegExpShared
-*
->
-shared
 )
 const
 override

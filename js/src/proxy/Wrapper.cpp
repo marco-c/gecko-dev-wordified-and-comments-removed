@@ -1685,7 +1685,8 @@ indent
 )
 ;
 }
-bool
+RegExpShared
+*
 Wrapper
 :
 :
@@ -1696,8 +1697,6 @@ JSContext
 cx
 HandleObject
 proxy
-MutableHandleRegExpShared
-shared
 )
 const
 {
@@ -1725,7 +1724,6 @@ RegExpToShared
 (
 cx
 target
-shared
 )
 ;
 }
