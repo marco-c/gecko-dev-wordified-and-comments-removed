@@ -41228,14 +41228,6 @@ yieldHandling
 =
 =
 YieldIsKeyword
-|
-|
-versionNumber
-(
-)
->
-=
-JSVERSION_1_7
 )
 {
 errorAt
