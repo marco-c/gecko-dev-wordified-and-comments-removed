@@ -271,16 +271,6 @@ Sync
 Async
 }
 ;
-enum
-class
-LazyConstructionAllowed
-{
-No
-=
-0
-Yes
-}
-;
 mozilla
 :
 :
@@ -390,7 +380,7 @@ aStartChild
 nsIContent
 *
 aEndChild
-LazyConstructionAllowed
+InsertionKind
 bool
 aForReconstruction
 )
@@ -469,7 +459,7 @@ aStartChild
 nsIContent
 *
 aEndChild
-LazyConstructionAllowed
+InsertionKind
 bool
 aForReconstruction
 )
@@ -522,8 +512,8 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-LazyConstructionAllowed
-aLazyConstructionAllowed
+InsertionKind
+aInsertionKind
 TreeMatchContext
 *
 aProvidedTreeMatchContext
@@ -535,7 +525,7 @@ ContentAppended
 (
 aContainer
 aFirstNewContent
-aLazyConstructionAllowed
+aInsertionKind
 false
 aProvidedTreeMatchContext
 )
@@ -553,8 +543,8 @@ aChild
 nsILayoutHistoryState
 *
 aFrameState
-LazyConstructionAllowed
-aLazyConstructionAllowed
+InsertionKind
+aInsertionKind
 )
 ;
 void
@@ -572,8 +562,8 @@ aEndChild
 nsILayoutHistoryState
 *
 aFrameState
-LazyConstructionAllowed
-aLazyConstructionAllowed
+InsertionKind
+aInsertionKind
 TreeMatchContext
 *
 aProvidedTreeMatchContext
@@ -587,7 +577,7 @@ aContainer
 aStartChild
 aEndChild
 aFrameState
-aLazyConstructionAllowed
+aInsertionKind
 false
 aProvidedTreeMatchContext
 )
@@ -604,8 +594,8 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-LazyConstructionAllowed
-aLazyConstructionAllowed
+InsertionKind
+aInsertionKind
 bool
 aForReconstruction
 TreeMatchContext
@@ -628,8 +618,8 @@ aEndChild
 nsILayoutHistoryState
 *
 aFrameState
-LazyConstructionAllowed
-aLazyConstructionAllowed
+InsertionKind
+aInsertionKind
 bool
 aForReconstruction
 TreeMatchContext
