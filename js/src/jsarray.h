@@ -523,15 +523,6 @@ length
 ;
 extern
 bool
-ObjectMayHaveExtraIndexedProperties
-(
-JSObject
-*
-obj
-)
-;
-extern
-bool
 GetElements
 (
 JSContext
