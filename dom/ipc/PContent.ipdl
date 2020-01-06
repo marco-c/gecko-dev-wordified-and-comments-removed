@@ -279,10 +279,6 @@ protocol
 PFlyWebPublishedServer
 ;
 include
-protocol
-PScriptCache
-;
-include
 DOMTypes
 ;
 include
@@ -1488,9 +1484,6 @@ PURLClassifier
 manages
 PURLClassifierLocal
 ;
-manages
-PScriptCache
-;
 both
 :
 /
@@ -2128,15 +2121,6 @@ ccLog
 async
 PTestShell
 (
-)
-;
-async
-PScriptCache
-(
-FileDescOrError
-cacheFile
-bool
-wantCacheData
 )
 ;
 async
