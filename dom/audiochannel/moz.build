@@ -113,11 +113,6 @@ nsIAudioChannelAgent
 .
 idl
 '
-'
-nsIAudioChannelService
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
