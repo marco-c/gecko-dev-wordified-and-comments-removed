@@ -91,6 +91,15 @@ if
 (
 Android
 )
+skip
+-
+if
+(
+webrender
+&
+&
+debug
+)
 pref
 (
 dom

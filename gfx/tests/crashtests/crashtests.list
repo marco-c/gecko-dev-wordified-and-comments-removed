@@ -775,6 +775,15 @@ load
 944579
 .
 svg
+skip
+-
+if
+(
+webrender
+&
+&
+debug
+)
 load
 944579
 .
