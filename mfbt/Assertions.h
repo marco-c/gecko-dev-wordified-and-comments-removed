@@ -249,9 +249,6 @@ h
 #
 endif
 #
-ifndef
-__cplusplus
-#
 if
 defined
 (
@@ -259,7 +256,7 @@ __GNUC__
 )
 #
 define
-MOZ_STATIC_ASSERT_UNUSED_ATTRIBUTE
+MOZ_UNUSED_ATTRIBUTE
 __attribute__
 (
 (
@@ -270,9 +267,12 @@ unused
 else
 #
 define
-MOZ_STATIC_ASSERT_UNUSED_ATTRIBUTE
+MOZ_UNUSED_ATTRIBUTE
 #
 endif
+#
+ifndef
+__cplusplus
 #
 define
 MOZ_STATIC_ASSERT_GLUE1
@@ -358,7 +358,7 @@ cond
 -
 1
 ]
-MOZ_STATIC_ASSERT_UNUSED_ATTRIBUTE
+MOZ_UNUSED_ATTRIBUTE
 #
 else
 #
@@ -390,7 +390,7 @@ cond
 1
 ]
 )
-MOZ_STATIC_ASSERT_UNUSED_ATTRIBUTE
+MOZ_UNUSED_ATTRIBUTE
 #
 endif
 #

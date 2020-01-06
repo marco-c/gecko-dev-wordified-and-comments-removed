@@ -4360,7 +4360,10 @@ aTopic
 )
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 Uninit

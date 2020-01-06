@@ -2756,14 +2756,6 @@ if
 aWait
 )
 {
-nsIThread
-*
-thread
-=
-NS_GetCurrentThread
-(
-)
-;
 int32_t
 count
 =

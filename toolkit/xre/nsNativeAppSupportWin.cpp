@@ -257,6 +257,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Location
@@ -557,6 +566,7 @@ Unlock
 ;
 BOOL
 rc
+MOZ_UNUSED_ATTRIBUTE
 =
 CloseHandle
 (
