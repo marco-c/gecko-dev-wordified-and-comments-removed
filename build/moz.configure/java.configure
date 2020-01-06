@@ -511,7 +511,7 @@ version
 '
 1
 .
-7
+8
 '
 :
 die
@@ -520,7 +520,7 @@ die
 javac
 1
 .
-7
+8
 or
 higher
 is
