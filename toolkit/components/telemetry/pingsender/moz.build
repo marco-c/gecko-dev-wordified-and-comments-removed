@@ -98,11 +98,14 @@ OS_TARGET
 Android
 '
 :
-Program
+GeckoProgram
 (
 '
 pingsender
 '
+linkage
+=
+None
 )
 UNIFIED_SOURCES
 +
