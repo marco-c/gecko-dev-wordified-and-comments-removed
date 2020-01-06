@@ -3185,6 +3185,16 @@ position
 relative
 ;
 }
+.
+visually
+-
+hidden
+{
+visibility
+:
+hidden
+;
+}
 menulist
 [
 indicator
