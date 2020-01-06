@@ -376,8 +376,10 @@ TrustedNodeAddress
 TextIndexQuery
 (
 TrustedNodeAddress
-i32
-i32
+Point2D
+<
+f32
+>
 )
 NodesFromPointQuery
 (

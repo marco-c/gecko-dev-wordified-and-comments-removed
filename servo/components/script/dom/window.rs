@@ -8770,12 +8770,12 @@ self
 node
 :
 TrustedNodeAddress
-mouse_x
+point_in_node
 :
-i32
-mouse_y
-:
-i32
+Point2D
+<
+f32
+>
 )
 -
 >
@@ -8793,8 +8793,7 @@ ReflowGoal
 TextIndexQuery
 (
 node
-mouse_x
-mouse_y
+point_in_node
 )
 ReflowReason
 :

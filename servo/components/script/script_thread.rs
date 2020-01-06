@@ -13991,6 +13991,7 @@ event_type
 button
 point
 node_address
+point_in_node
 )
 =
 >
@@ -14004,6 +14005,7 @@ event_type
 button
 point
 node_address
+point_in_node
 )
 ;
 }
@@ -14634,6 +14636,15 @@ Option
 <
 UntrustedNodeAddress
 >
+point_in_node
+:
+Option
+<
+Point2D
+<
+f32
+>
+>
 )
 {
 let
@@ -14698,6 +14709,7 @@ button
 point
 mouse_event_type
 node_address
+point_in_node
 )
 ;
 }
