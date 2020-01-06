@@ -32,13 +32,6 @@ h
 #
 include
 "
-nsIIPCBackgroundChildCreateCallback
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -89,8 +82,6 @@ final
 public
 DOMEventTargetHelper
 public
-nsIIPCBackgroundChildCreateCallback
-public
 nsIObserver
 {
 friend
@@ -99,7 +90,6 @@ PostMessageRunnable
 ;
 public
 :
-NS_DECL_NSIIPCBACKGROUNDCHILDCREATECALLBACK
 NS_DECL_NSIOBSERVER
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
