@@ -81,7 +81,7 @@ constellation_msg
 :
 :
 {
-FrameId
+BrowsingContextId
 FrameType
 PipelineId
 TraversalDirection
@@ -183,12 +183,12 @@ ChangeRunningAnimationsState
 PipelineId
 AnimationState
 )
-FrameSizes
+IFrameSizes
 (
 Vec
 <
 (
-FrameId
+BrowsingContextId
 TypedSize2D
 <
 f32
@@ -337,14 +337,14 @@ IpcSender
 String
 >
 )
-GetFrameId
+GetBrowsingContextId
 (
 PipelineId
 IpcSender
 <
 Option
 <
-FrameId
+BrowsingContextId
 >
 >
 )
@@ -375,7 +375,7 @@ bool
 )
 PostMessage
 (
-FrameId
+BrowsingContextId
 Option
 <
 ImmutableOrigin
@@ -420,7 +420,7 @@ String
 )
 RemoveIFrame
 (
-FrameId
+BrowsingContextId
 IpcSender
 <
 Vec
@@ -543,7 +543,7 @@ LogEntry
 (
 Option
 <
-FrameId
+BrowsingContextId
 >
 Option
 <

@@ -298,7 +298,7 @@ String
 >
 >
 )
-GetFrameId
+GetPipelineId
 (
 WebDriverFrameId
 IpcSender

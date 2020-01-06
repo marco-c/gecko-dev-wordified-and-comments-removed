@@ -171,7 +171,7 @@ constellation_msg
 :
 :
 {
-FrameId
+BrowsingContextId
 PipelineId
 }
 ;
@@ -5536,14 +5536,14 @@ svg_data
 )
 }
 fn
-iframe_frame_id
+iframe_browsing_context_id
 (
 &
 self
 )
 -
 >
-FrameId
+BrowsingContextId
 {
 let
 this
@@ -5559,7 +5559,7 @@ get_jsmanaged
 ;
 this
 .
-iframe_frame_id
+iframe_browsing_context_id
 (
 )
 }

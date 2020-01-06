@@ -173,13 +173,13 @@ crate
 webvr_traits
 ;
 mod
+browsingcontext
+;
+mod
 constellation
 ;
 mod
 event_loop
-;
-mod
-frame
 ;
 mod
 pipeline

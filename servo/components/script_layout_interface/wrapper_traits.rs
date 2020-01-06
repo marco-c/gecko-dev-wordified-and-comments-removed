@@ -51,7 +51,7 @@ constellation_msg
 :
 :
 {
-FrameId
+BrowsingContextId
 PipelineId
 }
 ;
@@ -1558,14 +1558,14 @@ SVGSVGData
 >
 ;
 fn
-iframe_frame_id
+iframe_browsing_context_id
 (
 &
 self
 )
 -
 >
-FrameId
+BrowsingContextId
 ;
 fn
 iframe_pipeline_id
