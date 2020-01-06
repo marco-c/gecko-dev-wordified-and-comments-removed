@@ -1659,7 +1659,7 @@ IPCResult
 RecvPreferenceUpdate
 (
 const
-PrefSetting
+Pref
 &
 aPref
 )

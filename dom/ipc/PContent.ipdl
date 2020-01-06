@@ -1104,7 +1104,7 @@ null_t
 }
 ;
 struct
-PrefSetting
+Pref
 {
 nsCString
 name
@@ -1356,7 +1356,7 @@ domainPolicy
 OptionalURIParams
 userContentSheetURL
 ;
-PrefSetting
+Pref
 [
 ]
 prefs
@@ -2249,7 +2249,7 @@ uri
 async
 PreferenceUpdate
 (
-PrefSetting
+Pref
 pref
 )
 ;

@@ -11049,7 +11049,7 @@ ContentChild
 RecvPreferenceUpdate
 (
 const
-PrefSetting
+Pref
 &
 aPref
 )
