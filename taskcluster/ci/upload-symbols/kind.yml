@@ -311,6 +311,17 @@ build
 >
 "
 }
+optimization
+:
+only
+-
+if
+-
+dependencies
+-
+run
+:
+null
 scopes
 :
 -
