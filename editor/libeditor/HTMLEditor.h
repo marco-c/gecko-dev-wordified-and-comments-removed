@@ -659,6 +659,11 @@ GetBlockNodeParent
 nsINode
 *
 aNode
+nsINode
+*
+aAncestorLimiter
+=
+nullptr
 )
 ;
 static
@@ -669,6 +674,11 @@ GetBlock
 nsINode
 &
 aNode
+nsINode
+*
+aAncestorLimiter
+=
+nullptr
 )
 ;
 void
