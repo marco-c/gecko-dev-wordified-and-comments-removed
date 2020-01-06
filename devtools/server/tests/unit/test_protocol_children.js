@@ -1519,6 +1519,7 @@ this
 .
 _temporaryHolder
 =
+new
 protocol
 .
 Front
