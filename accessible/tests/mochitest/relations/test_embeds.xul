@@ -733,7 +733,7 @@ loadURI
 "
 about
 :
-about
+robots
 "
 )
 )
@@ -789,6 +789,7 @@ doTests
 "
 about
 :
+license
 "
 )
 ;

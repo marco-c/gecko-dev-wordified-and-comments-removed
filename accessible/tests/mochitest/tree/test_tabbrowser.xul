@@ -391,6 +391,7 @@ docURIs
 "
 about
 :
+license
 "
 "
 about
@@ -579,6 +580,7 @@ tab
 "
 about
 :
+license
 "
 )
 role
@@ -764,6 +766,7 @@ tab
 "
 about
 :
+license
 "
 )
 role
@@ -1041,6 +1044,7 @@ document
 "
 about
 :
+license
 "
 )
 role
