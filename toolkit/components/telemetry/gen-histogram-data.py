@@ -463,7 +463,7 @@ print
 (
 "
 \
-nconstexpr
+nconst
 uint32_t
 gHistogramLabelTable
 [
@@ -530,7 +530,7 @@ print
 (
 "
 \
-nconstexpr
+nconst
 uint32_t
 gHistogramKeyTable
 [
@@ -1016,7 +1016,7 @@ histograms
 print
 (
 "
-constexpr
+const
 int
 gHistogramBucketLowerBounds
 [
@@ -1150,7 +1150,7 @@ int16_t
 print
 (
 "
-constexpr
+const
 int16_t
 gHistogramBucketLowerBoundIndex
 [
