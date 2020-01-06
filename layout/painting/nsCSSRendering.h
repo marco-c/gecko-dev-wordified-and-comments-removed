@@ -616,6 +616,11 @@ aSkipSides
 Sides
 (
 )
+bool
+*
+aOutBorderIsEmpty
+=
+nullptr
 )
 ;
 static
@@ -658,6 +663,11 @@ aSkipSides
 Sides
 (
 )
+bool
+*
+aOutBorderIsEmpty
+=
+nullptr
 )
 ;
 static

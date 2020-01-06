@@ -3302,6 +3302,9 @@ nsStyleContext
 aStyleContext
 Sides
 aSkipSides
+bool
+*
+aOutBorderIsEmpty
 )
 {
 nsStyleContext
@@ -3345,6 +3348,7 @@ aBorderArea
 styleBorder
 aStyleContext
 aSkipSides
+aOutBorderIsEmpty
 )
 ;
 }
@@ -3404,6 +3408,7 @@ aBorderArea
 newStyleBorder
 aStyleContext
 aSkipSides
+aOutBorderIsEmpty
 )
 ;
 }
@@ -4700,6 +4705,9 @@ nsStyleContext
 aStyleContext
 Sides
 aSkipSides
+bool
+*
+aOutBorderIsEmpty
 )
 {
 const
@@ -4822,6 +4830,17 @@ border
 bottom
 )
 {
+if
+(
+aOutBorderIsEmpty
+)
+{
+*
+aOutBorderIsEmpty
+=
+true
+;
+}
 return
 Nothing
 (
