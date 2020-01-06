@@ -1111,6 +1111,13 @@ PostRender
 )
 ;
 }
+mTextureSourceProvider
+-
+>
+FlushPendingNotifyNotUsed
+(
+)
+;
 mLastCompositionEndTime
 =
 TimeStamp
