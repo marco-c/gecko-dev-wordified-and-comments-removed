@@ -959,6 +959,9 @@ DataSource
 &
 mDataSource
 ;
+bool
+mPrefillQuirk
+;
 }
 ;
 }
