@@ -5709,7 +5709,7 @@ nullptr
 }
 UniquePtr
 <
-WeakScopeMap
+ScopeMap
 >
 scopes
 =
@@ -5718,7 +5718,7 @@ js
 :
 MakeUnique
 <
-WeakScopeMap
+ScopeMap
 >
 (
 cx
@@ -6374,7 +6374,7 @@ toPrivate
 WasmInstanceObject
 :
 :
-WeakScopeMap
+ScopeMap
 &
 WasmInstanceObject
 :
@@ -6387,7 +6387,7 @@ const
 return
 *
 (
-WeakScopeMap
+ScopeMap
 *
 )
 getReservedSlot
@@ -7987,7 +7987,7 @@ isUndefined
 WasmMemoryObject
 :
 :
-WeakInstanceSet
+InstanceSet
 &
 WasmMemoryObject
 :
@@ -8008,7 +8008,7 @@ return
 *
 reinterpret_cast
 <
-WeakInstanceSet
+InstanceSet
 *
 >
 (
@@ -8026,7 +8026,7 @@ toPrivate
 WasmMemoryObject
 :
 :
-WeakInstanceSet
+InstanceSet
 *
 WasmMemoryObject
 :
@@ -8051,7 +8051,7 @@ observers
 =
 MakeUnique
 <
-WeakInstanceSet
+InstanceSet
 >
 (
 cx
@@ -8158,7 +8158,7 @@ movingGrowable
 )
 )
 ;
-WeakInstanceSet
+InstanceSet
 *
 observers
 =
