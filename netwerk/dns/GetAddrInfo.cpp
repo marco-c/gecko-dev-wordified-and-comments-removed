@@ -907,7 +907,7 @@ const
 char
 *
 aHost
-uint16_t
+uint32_t
 *
 aResult
 uint16_t
@@ -1512,7 +1512,7 @@ aHost
 name
 )
 ;
-uint16_t
+uint32_t
 ttl
 =
 0
