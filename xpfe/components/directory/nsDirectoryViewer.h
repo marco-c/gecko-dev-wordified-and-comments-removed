@@ -312,7 +312,7 @@ GetDestination
 nsIRDFResource
 *
 r
-nsXPIDLCString
+nsACString
 &
 dest
 )

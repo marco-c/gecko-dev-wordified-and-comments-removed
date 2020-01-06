@@ -2520,7 +2520,7 @@ if
 uri
 )
 {
-nsXPIDLCString
+nsCString
 spec
 ;
 uri
@@ -2908,7 +2908,7 @@ if
 uri
 )
 {
-nsXPIDLCString
+nsCString
 spec
 ;
 uri
@@ -3525,7 +3525,7 @@ nsIURI
 >
 uri
 ;
-nsXPIDLCString
+nsCString
 spec
 ;
 if
@@ -4010,7 +4010,7 @@ nsIURI
 >
 uri
 ;
-nsXPIDLCString
+nsCString
 spec
 ;
 if

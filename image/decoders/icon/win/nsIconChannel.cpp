@@ -1388,7 +1388,7 @@ HICON
 hIcon
 )
 {
-nsXPIDLCString
+nsCString
 contentType
 ;
 nsCString

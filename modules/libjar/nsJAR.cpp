@@ -1547,7 +1547,7 @@ manItem
 entryVerified
 )
 {
-nsXPIDLCString
+nsCString
 entryData
 ;
 rv
@@ -1574,6 +1574,10 @@ VerifyEntry
 (
 manItem
 entryData
+.
+get
+(
+)
 entryData
 .
 Length
@@ -2348,7 +2352,7 @@ return
 NS_ERROR_FILE_CORRUPTED
 ;
 }
-nsXPIDLCString
+nsCString
 manifestBuffer
 ;
 rv
@@ -2374,6 +2378,10 @@ rv
 ParseOneFile
 (
 manifestBuffer
+.
+get
+(
+)
 JAR_MF
 )
 ;
@@ -2545,7 +2553,7 @@ extension
 2
 )
 ;
-nsXPIDLCString
+nsCString
 sigBuffer
 ;
 {
@@ -2747,6 +2755,10 @@ JAR_INVALID_SIG
 ParseOneFile
 (
 manifestBuffer
+.
+get
+(
+)
 JAR_SF
 )
 ;
