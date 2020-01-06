@@ -156,6 +156,10 @@ reason
 ]
 )
 ;
+extension
+=
+null
+;
 }
 function
 uninstall

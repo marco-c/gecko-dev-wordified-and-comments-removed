@@ -452,6 +452,15 @@ removeUpgradeListener
 (
 instanceID
 )
+.
+catch
+(
+e
+=
+>
+{
+}
+)
 ;
 }
 ;
