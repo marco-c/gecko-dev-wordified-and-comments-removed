@@ -1943,7 +1943,7 @@ manifests
 /
 linux64
 /
-asan
+fuzzing
 .
 manifest
 "
