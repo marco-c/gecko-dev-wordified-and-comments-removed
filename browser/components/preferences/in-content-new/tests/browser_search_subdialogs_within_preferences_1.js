@@ -62,7 +62,7 @@ Home
 Page
 "
 "
-startupGroup
+homepageGroup
 "
 )
 ;

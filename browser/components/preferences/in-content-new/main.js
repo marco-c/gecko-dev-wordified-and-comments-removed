@@ -4337,7 +4337,7 @@ page
 )
 ;
 let
-menu
+group
 =
 document
 .
@@ -4386,7 +4386,7 @@ option
 selected
 )
 {
-menu
+group
 .
 selectedItem
 =
