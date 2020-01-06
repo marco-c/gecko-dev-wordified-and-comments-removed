@@ -3076,13 +3076,7 @@ IntSize
 1
 1
 )
-gfx
-:
-:
-SurfaceFormat
-:
-:
-B8G8R8A8
+format
 )
 ;
 RefPtr
