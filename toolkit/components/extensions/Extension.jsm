@@ -3841,6 +3841,7 @@ reason
 ]
 )
 ;
+return
 this
 .
 extension
