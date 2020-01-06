@@ -175,7 +175,7 @@ algorithm
 #
 define
 BHR_BETA_MOD
-INT32_MAX
+1
 ;
 static
 const
