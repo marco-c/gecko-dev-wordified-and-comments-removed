@@ -13,7 +13,9 @@ TARGET_CACHE_INDEX
 (
     
 '
-gecko
+{
+trust_domain
+}
 .
 cache
 .
@@ -43,7 +45,9 @@ EXTRA_CACHE_INDEXES
 [
     
 '
-gecko
+{
+trust_domain
+}
 .
 cache
 .
@@ -65,7 +69,9 @@ latest
 '
     
 '
-gecko
+{
+trust_domain
+}
 .
 cache
 .
@@ -363,6 +369,21 @@ subs
 {
         
 '
+trust_domain
+'
+:
+config
+.
+graph_config
+[
+'
+trust
+-
+domain
+'
+]
+        
+'
 type
 '
 :
@@ -575,6 +596,7 @@ def
 cached_index_path
 (
 level
+trust_domain
 cache_type
 cache_name
 digest
@@ -625,6 +647,22 @@ task
 to
 look
 for
+.
+    
+:
+param
+str
+trust_domain
+:
+The
+trust
+domain
+to
+look
+for
+the
+task
+in
 .
     
 :
@@ -812,6 +850,9 @@ TARGET_CACHE_INDEX
 format
 (
         
+trust_domain
+=
+trust_domain
 level
 =
 level

@@ -25,6 +25,17 @@ Schema
 Required
 (
 '
+trust
+-
+domain
+'
+)
+:
+basestring
+    
+Required
+(
+'
 treeherder
 '
 )

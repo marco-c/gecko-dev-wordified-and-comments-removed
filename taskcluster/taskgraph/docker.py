@@ -114,9 +114,16 @@ index_path
 cached_index_path
 (
         
+trust_domain
+=
+'
+gecko
+'
+        
 level
 =
 3
+        
 cache_type
 =
 '
@@ -126,12 +133,15 @@ images
 .
 v1
 '
+        
 cache_name
 =
 image_name
+        
 digest
 =
 context_hash
+    
 )
     
 task_id
