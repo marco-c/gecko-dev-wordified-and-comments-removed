@@ -153,6 +153,11 @@ stunserver
 cpp
 '
 '
+test_nr_socket_ice_unittest
+.
+cpp
+'
+'
 test_nr_socket_unittest
 .
 cpp
