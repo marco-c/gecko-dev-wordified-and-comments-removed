@@ -740,10 +740,7 @@ false
 if
 (
 !
-TSFTextStore
-:
-:
-IsIMM_IMEActive
+IsIMMActive
 (
 )
 )
@@ -1655,10 +1652,7 @@ sAssociateIMCOnlyWhenIMM_IMEActive
 )
 {
 return
-TSFTextStore
-:
-:
-IsIMM_IMEActive
+IsIMMActive
 (
 )
 ;
