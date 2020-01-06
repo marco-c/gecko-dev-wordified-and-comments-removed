@@ -56200,7 +56200,7 @@ aWindowSizes
 ;
 aWindowSizes
 .
-mStyleSheetsSize
+mLayoutStyleSheetsSize
 +
 =
 SizeOfOwnedSheetArrayExcludingThis
@@ -56215,7 +56215,7 @@ mMallocSizeOf
 ;
 aWindowSizes
 .
-mStyleSheetsSize
+mLayoutStyleSheetsSize
 +
 =
 mOnDemandBuiltInUASheets
@@ -56240,7 +56240,7 @@ mAdditionalSheets
 {
 aWindowSizes
 .
-mStyleSheetsSize
+mLayoutStyleSheetsSize
 +
 =
 SizeOfOwnedSheetArrayExcludingThis
@@ -56256,7 +56256,7 @@ mMallocSizeOf
 }
 aWindowSizes
 .
-mStyleSheetsSize
+mLayoutStyleSheetsSize
 +
 =
 CSSLoader

@@ -693,7 +693,7 @@ mDOMOtherSize
 macro
 (
 Style
-mStyleSheetsSize
+mLayoutStyleSheetsSize
 )
 \
 macro
