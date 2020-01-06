@@ -663,8 +663,10 @@ nsIPrincipal
 aPrincipal
 )
 ;
+RefPtr
+<
 MediaCache
-*
+>
 mMediaCache
 ;
 ChannelMediaResource
