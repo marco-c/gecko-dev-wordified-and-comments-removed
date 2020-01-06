@@ -251,7 +251,10 @@ aValue
 void
 SetBuffer
 (
-AudioChunk
+already_AddRefed
+<
+ThreadSharedFloatArrayBufferList
+>
 &
 &
 aBuffer
