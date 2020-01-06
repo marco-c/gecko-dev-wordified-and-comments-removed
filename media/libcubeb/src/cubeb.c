@@ -890,6 +890,15 @@ init_oneshot
 if
 defined
 (
+USE_PULSE_RUST
+)
+pulse_rust_init
+#
+endif
+#
+if
+defined
+(
 USE_PULSE
 )
 pulse_init
