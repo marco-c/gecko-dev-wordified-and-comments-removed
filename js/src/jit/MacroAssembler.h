@@ -1690,6 +1690,8 @@ DEFINED_ON
 x86_shared
 arm
 arm64
+mips32
+mips64
 )
 ;
 void
