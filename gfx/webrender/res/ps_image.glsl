@@ -152,6 +152,11 @@ valid
 texture
 rect
 .
+flat
+varying
+float
+vLayer
+;
 #
 ifdef
 WR_FEATURE_TRANSFORM

@@ -62,7 +62,7 @@ vec4
 vColor
 ;
 varying
-vec2
+vec3
 vUv
 ;
 flat

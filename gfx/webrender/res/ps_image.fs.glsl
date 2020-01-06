@@ -261,7 +261,11 @@ alpha
 TEX_SAMPLE
 (
 sColor0
+vec3
+(
 st
+vLayer
+)
 )
 ;
 }

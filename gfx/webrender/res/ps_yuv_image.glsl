@@ -217,6 +217,11 @@ and
 v
 texels
 .
+flat
+varying
+vec3
+vLayers
+;
 #
 ifdef
 WR_FEATURE_TRANSFORM

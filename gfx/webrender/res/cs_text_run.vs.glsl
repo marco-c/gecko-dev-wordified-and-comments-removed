@@ -423,6 +423,8 @@ xy
 ;
 vUv
 =
+vec3
+(
 mix
 (
 st0
@@ -430,6 +432,10 @@ st1
 aPosition
 .
 xy
+)
+res
+.
+layer
 )
 ;
 vColor

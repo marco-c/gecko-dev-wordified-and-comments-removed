@@ -73,3 +73,8 @@ varying
 vec4
 vClipMaskUvInnerRect
 ;
+flat
+varying
+float
+vLayer
+;

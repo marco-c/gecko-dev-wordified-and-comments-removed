@@ -85,7 +85,7 @@ oFragColor
 =
 texture
 (
-sCacheRGBA8
+sColor0
 vec3
 (
 uv

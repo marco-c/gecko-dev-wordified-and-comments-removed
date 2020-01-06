@@ -322,6 +322,12 @@ uv1
 /
 texture_size_normalization_factor
 ;
+vLayer
+=
+res
+.
+layer
+;
 vTextureSize
 =
 st1

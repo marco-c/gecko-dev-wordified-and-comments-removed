@@ -60,7 +60,7 @@ MPL
 *
 /
 varying
-vec2
+vec3
 vUv
 ;
 flat

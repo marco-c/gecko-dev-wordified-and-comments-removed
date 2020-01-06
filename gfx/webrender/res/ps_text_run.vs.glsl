@@ -318,11 +318,17 @@ color
 ;
 vUv
 =
+vec3
+(
 mix
 (
 st0
 st1
 f
+)
+res
+.
+layer
 )
 ;
 vUvBorder

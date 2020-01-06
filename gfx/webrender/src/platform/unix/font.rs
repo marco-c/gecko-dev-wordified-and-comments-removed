@@ -3,7 +3,7 @@ api
 :
 :
 {
-FontInstanceKey
+FontInstance
 FontKey
 FontRenderMode
 GlyphDimensions
@@ -622,7 +622,7 @@ self
 font
 :
 &
-FontInstanceKey
+FontInstance
 glyph
 :
 &
@@ -864,7 +864,7 @@ FT_GlyphSlot
 font
 :
 &
-FontInstanceKey
+FontInstance
 glyph
 :
 &
@@ -1122,7 +1122,7 @@ FT_GlyphSlot
 font
 :
 &
-FontInstanceKey
+FontInstance
 glyph
 :
 &
@@ -1338,7 +1338,7 @@ self
 font
 :
 &
-FontInstanceKey
+FontInstance
 key
 :
 &
@@ -1391,7 +1391,7 @@ self
 font
 :
 &
-FontInstanceKey
+FontInstance
 key
 :
 &

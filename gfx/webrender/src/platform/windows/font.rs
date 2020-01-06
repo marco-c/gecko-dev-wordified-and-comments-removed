@@ -13,7 +13,7 @@ api
 :
 :
 {
-FontInstanceKey
+FontInstance
 GlyphKey
 GlyphOptions
 SubpixelDirection
@@ -844,7 +844,7 @@ self
 font
 :
 &
-FontInstanceKey
+FontInstance
 key
 :
 &
@@ -1156,7 +1156,7 @@ self
 font
 :
 &
-FontInstanceKey
+FontInstance
 key
 :
 &
@@ -1724,7 +1724,7 @@ self
 font
 :
 &
-FontInstanceKey
+FontInstance
 key
 :
 &

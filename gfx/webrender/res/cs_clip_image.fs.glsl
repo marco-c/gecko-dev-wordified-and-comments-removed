@@ -151,7 +151,11 @@ clip_alpha
 texture
 (
 sColor0
+vec3
+(
 source_uv
+vLayer
+)
 )
 .
 r

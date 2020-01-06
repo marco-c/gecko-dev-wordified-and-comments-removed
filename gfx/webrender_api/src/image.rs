@@ -162,6 +162,7 @@ enum
 ExternalImageType
 {
 Texture2DHandle
+Texture2DArrayHandle
 TextureRectHandle
 TextureExternalHandle
 ExternalBuffer
@@ -631,6 +632,13 @@ ExternalImageType
 :
 :
 Texture2DHandle
+=
+>
+false
+ExternalImageType
+:
+:
+Texture2DArrayHandle
 =
 >
 false
