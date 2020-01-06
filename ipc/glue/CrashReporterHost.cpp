@@ -1151,14 +1151,11 @@ val
 &
 val
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 1
 "
-)
 )
 )
 {
