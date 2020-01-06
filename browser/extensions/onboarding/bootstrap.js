@@ -83,15 +83,6 @@ notification
 .
 finished
 "
-"
-browser
-.
-onboarding
-.
-notification
-.
-lastPrompted
-"
 ]
 ;
 function
