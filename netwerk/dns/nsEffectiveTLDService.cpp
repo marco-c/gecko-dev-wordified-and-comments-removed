@@ -720,6 +720,11 @@ aAdditionalParts
 =
 =
 1
+&
+&
+NS_IsMainThread
+(
+)
 )
 {
 if
