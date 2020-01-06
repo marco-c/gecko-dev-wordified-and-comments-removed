@@ -4477,7 +4477,7 @@ kPreallocSize
 =
 1024
 ;
-nsString
+nsCString
 sheetText
 ;
 sheetText
@@ -5224,7 +5224,10 @@ AsGecko
 >
 ReparseSheet
 (
+NS_ConvertUTF8toUTF16
+(
 sheetText
+)
 )
 ;
 }

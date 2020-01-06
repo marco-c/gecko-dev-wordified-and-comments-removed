@@ -749,9 +749,7 @@ LoadSheet
 url
 false
 docPrincipal
-EmptyCString
-(
-)
+nullptr
 this
 )
 ;

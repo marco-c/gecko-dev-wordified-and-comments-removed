@@ -259,9 +259,11 @@ css
 Loader
 *
 aLoader
+Span
+<
 const
-nsAString
-&
+uint8_t
+>
 aInput
 nsIURI
 *

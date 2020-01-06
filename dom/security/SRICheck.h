@@ -22,9 +22,6 @@ class
 nsIChannel
 ;
 class
-nsIUnicharStreamLoader
-;
-class
 nsIConsoleReportCollector
 ;
 namespace
@@ -86,13 +83,13 @@ const
 SRIMetadata
 &
 aMetadata
-nsIUnicharStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 const
-nsAString
+nsACString
 &
-aString
+aBytes
 const
 nsACString
 &

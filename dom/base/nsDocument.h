@@ -3477,9 +3477,12 @@ nsIURI
 *
 uri
 const
-nsAString
-&
-charset
+mozilla
+:
+:
+Encoding
+*
+aEncoding
 const
 nsAString
 &

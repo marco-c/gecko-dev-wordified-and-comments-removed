@@ -81,9 +81,11 @@ ServoStyleSheet
 *
 gecko_stylesheet
 const
-nsACString
+uint8_t
 *
 data
+size_t
+data_len
 mozilla
 :
 :
