@@ -3044,6 +3044,17 @@ type
 ;
 }
 get
+connectionNumber
+(
+)
+{
+return
+this
+.
+_connectionGen
+;
+}
+get
 identity
 (
 )
