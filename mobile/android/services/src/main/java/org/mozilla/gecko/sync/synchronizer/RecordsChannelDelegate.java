@@ -57,14 +57,4 @@ String
 recordGuid
 )
 ;
-public
-void
-onFlowFinishFailed
-(
-RecordsChannel
-recordsChannel
-Exception
-ex
-)
-;
 }
