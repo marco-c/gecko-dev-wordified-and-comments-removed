@@ -1253,7 +1253,7 @@ event
 uintptr_t
 wParam
 ;
-uintptr_t
+intptr_t
 lParam
 ;
 }
