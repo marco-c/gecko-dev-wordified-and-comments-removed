@@ -135,6 +135,13 @@ override
 ;
 virtual
 void
+Cancel
+(
+)
+override
+;
+virtual
+void
 virtualDestroyNSSReference
 (
 )

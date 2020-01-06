@@ -4202,5 +4202,14 @@ return
 NS_OK
 ;
 }
+void
+U2FSoftTokenManager
+:
+:
+Cancel
+(
+)
+{
+}
 }
 }
