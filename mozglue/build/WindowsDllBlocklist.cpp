@@ -3506,6 +3506,10 @@ aStartAddress
 {
 aStartAddress
 =
+(
+void
+*
+)
 NopThreadProc
 ;
 }
