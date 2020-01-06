@@ -4472,6 +4472,16 @@ endif
 }
 static
 bool
+IsScopedStylePrefEnabled
+(
+)
+{
+return
+sIsScopedStyleEnabled
+;
+}
+static
+bool
 IsControlledByServiceWorker
 (
 nsIDocument
@@ -6586,6 +6596,10 @@ sBypassCSSOMOriginCheck
 ;
 #
 endif
+static
+bool
+sIsScopedStyleEnabled
+;
 static
 bool
 sIsBytecodeCacheEnabled
