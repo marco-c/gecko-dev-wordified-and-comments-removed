@@ -1283,6 +1283,14 @@ nullptr
 mshlFlags
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+marshalResult
+!
+=
+E_INVALIDARG
+)
+;
 if
 (
 FAILED
