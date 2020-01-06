@@ -266,7 +266,7 @@ document
 .
 elementFromPoint
 (
-150
+149
 100
 )
 ;
@@ -295,8 +295,8 @@ document
 .
 elementFromPoint
 (
-150
-150
+149
+149
 )
 ;
 if
@@ -325,7 +325,7 @@ document
 elementFromPoint
 (
 100
-150
+149
 )
 ;
 if
