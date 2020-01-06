@@ -435,6 +435,7 @@ v
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 postBarrier
 (
@@ -878,6 +879,7 @@ value
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 void
 post
 (
