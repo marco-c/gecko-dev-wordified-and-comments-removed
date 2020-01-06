@@ -621,7 +621,11 @@ function
 (
 obj
 seenEls
+=
+undefined
 window
+=
+undefined
 )
 {
 switch
