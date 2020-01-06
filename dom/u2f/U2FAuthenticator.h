@@ -7,7 +7,9 @@ mozilla_dom_U2FAuthenticator_h
 #
 include
 "
-nsIU2FToken
+mozilla
+/
+MozPromise
 .
 h
 "
@@ -42,11 +44,13 @@ TIMEOUT
 }
 ;
 typedef
-nsCOMPtr
+MozPromise
 <
-nsIU2FToken
+nsString
+ErrorCode
+false
 >
-Authenticator
+U2FPromise
 ;
 }
 }
