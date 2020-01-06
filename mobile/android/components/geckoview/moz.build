@@ -104,9 +104,4 @@ GeckoViewPrompt
 .
 js
 '
-'
-GeckoViewStartup
-.
-js
-'
 ]
