@@ -656,7 +656,7 @@ type
 Item
 =
 (
-TransitionProperty
+AnimatableLonghand
 AnimationValue
 )
 ;
@@ -727,7 +727,7 @@ Normal
 let
 property
 =
-TransitionProperty
+AnimatableLonghand
 :
 :
 from_declaration
@@ -774,7 +774,7 @@ The
 failure
 condition
 of
-TransitionProperty
+AnimatableLonghand
 :
 :
 from_declaration
@@ -2723,7 +2723,7 @@ iter
 {
 longhands
 .
-set_transition_property_bit
+set_animatable_longhand_bit
 (
 property
 )

@@ -73,7 +73,7 @@ properties
 animated_properties
 :
 :
-TransitionProperty
+AnimatableLonghand
 ;
 use
 properties
@@ -1861,7 +1861,7 @@ properties_changed
 :
 Vec
 <
-TransitionProperty
+AnimatableLonghand
 >
 pub
 vendor_prefix
@@ -1895,7 +1895,7 @@ SharedRwLockReadGuard
 >
 Vec
 <
-TransitionProperty
+AnimatableLonghand
 >
 {
 let
@@ -1982,7 +1982,7 @@ Some
 property
 )
 =
-TransitionProperty
+AnimatableLonghand
 :
 :
 from_declaration
@@ -1991,10 +1991,19 @@ declaration
 )
 {
 if
+property
+!
+=
+AnimatableLonghand
+:
+:
+Display
+&
+&
 !
 seen
 .
-has_transition_property_bit
+has_animatable_longhand_bit
 (
 &
 property
@@ -2002,7 +2011,7 @@ property
 {
 seen
 .
-set_transition_property_bit
+set_animatable_longhand_bit
 (
 &
 property
