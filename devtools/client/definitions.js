@@ -1001,7 +1001,7 @@ webconsole
 /
 webconsole
 .
-xhtml
+html
 "
 icon
 :
