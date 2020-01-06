@@ -11647,6 +11647,10 @@ folderListPref
 .
 value
 =
+currentDirPref
+.
+value
+?
 await
 this
 .
@@ -11656,6 +11660,8 @@ currentDirPref
 .
 value
 )
+:
+1
 ;
 }
 }
@@ -12089,6 +12095,10 @@ folderIndex
 {
 folderIndex
 =
+currentDirPref
+.
+value
+?
 await
 this
 .
@@ -12098,6 +12108,8 @@ currentDirPref
 .
 value
 )
+:
+1
 ;
 }
 if
