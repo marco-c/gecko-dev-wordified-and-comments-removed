@@ -1945,6 +1945,8 @@ preferences
 in
 -
 content
+-
+new
 /
 favicon
 .
@@ -1972,6 +1974,8 @@ preferences
 in
 -
 content
+-
+new
 /
 icons
 .
@@ -1999,6 +2003,8 @@ preferences
 in
 -
 content
+-
+new
 /
 search
 .
@@ -2026,6 +2032,8 @@ preferences
 in
 -
 content
+-
+new
 /
 siteDataSettings
 .
@@ -2054,6 +2062,8 @@ preferences
 in
 -
 content
+-
+new
 /
 containers
 .

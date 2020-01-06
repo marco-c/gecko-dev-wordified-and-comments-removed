@@ -94,12 +94,14 @@ in
 -
 content
 -
-old
+new
 '
 '
 in
 -
 content
+-
+old
 '
 ]
 BROWSER_CHROME_MANIFESTS
@@ -111,7 +113,7 @@ in
 -
 content
 -
-old
+new
 /
 tests
 /
@@ -123,6 +125,8 @@ ini
 in
 -
 content
+-
+old
 /
 tests
 /

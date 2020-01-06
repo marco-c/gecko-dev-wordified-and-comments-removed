@@ -64,6 +64,8 @@ preferences
 in
 -
 content
+-
+new
 /
 favicon
 .

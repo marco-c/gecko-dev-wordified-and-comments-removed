@@ -66,6 +66,8 @@ preferences
 in
 -
 content
+-
+new
 /
 preferences
 .
@@ -80,6 +82,8 @@ preferences
 in
 -
 content
+-
+new
 /
 preferences
 .
@@ -93,6 +97,8 @@ preferences
 in
 -
 content
+-
+new
 /
 subdialogs
 .
@@ -106,6 +112,8 @@ preferences
 in
 -
 content
+-
+new
 /
 main
 .
@@ -119,6 +127,8 @@ preferences
 in
 -
 content
+-
+new
 /
 privacy
 .
@@ -132,6 +142,8 @@ preferences
 in
 -
 content
+-
+new
 /
 containers
 .
@@ -145,6 +157,8 @@ preferences
 in
 -
 content
+-
+new
 /
 advanced
 .
@@ -158,6 +172,8 @@ preferences
 in
 -
 content
+-
+new
 /
 applications
 .
@@ -171,6 +187,8 @@ preferences
 in
 -
 content
+-
+new
 /
 sync
 .
@@ -184,6 +202,8 @@ preferences
 in
 -
 content
+-
+new
 /
 findInPage
 .

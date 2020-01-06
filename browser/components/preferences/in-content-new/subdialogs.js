@@ -77,6 +77,8 @@ preferences
 in
 -
 content
+-
+new
 /
 preferences
 .
@@ -96,6 +98,8 @@ preferences
 in
 -
 content
+-
+new
 /
 dialog
 .
