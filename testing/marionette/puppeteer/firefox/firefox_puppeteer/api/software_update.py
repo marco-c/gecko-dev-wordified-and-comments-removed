@@ -2707,10 +2707,6 @@ to
 retrieve
 update
 snippet
-'
-{
-}
-'
 :
 {
 }
@@ -2718,7 +2714,6 @@ snippet
 .
 format
 (
-update_url
 val
 )
 tb
