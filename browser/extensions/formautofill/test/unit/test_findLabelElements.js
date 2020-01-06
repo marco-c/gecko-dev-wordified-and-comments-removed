@@ -14,7 +14,7 @@ resource
 /
 formautofill
 /
-FormAutofillUtils
+FormAutofillHeuristics
 .
 jsm
 "
@@ -740,7 +740,7 @@ inputId
 let
 labels
 =
-FormAutofillUtils
+LabelUtils
 .
 findLabelElements
 (

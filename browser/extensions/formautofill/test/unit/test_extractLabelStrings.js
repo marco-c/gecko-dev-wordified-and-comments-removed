@@ -14,7 +14,7 @@ resource
 /
 formautofill
 /
-FormAutofillUtils
+FormAutofillHeuristics
 .
 jsm
 "
@@ -460,7 +460,7 @@ inputId
 let
 strings
 =
-FormAutofillUtils
+LabelUtils
 .
 extractLabelStrings
 (
