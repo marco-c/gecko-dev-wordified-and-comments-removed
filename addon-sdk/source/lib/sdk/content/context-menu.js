@@ -383,9 +383,6 @@ Ci
 nsIDOMHTMLAnchorElement
 Ci
 .
-nsIDOMHTMLAppletElement
-Ci
-.
 nsIDOMHTMLAreaElement
 Ci
 .

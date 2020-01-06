@@ -4845,10 +4845,6 @@ HTMLObjectElement
 "
 HTMLEmbedElement
 "
-                                                       
-"
-HTMLAppletElement
-"
 ]
 )
     

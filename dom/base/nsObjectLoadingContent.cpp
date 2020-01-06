@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMHTMLAppletElement
-.
-h
-"
-#
-include
-"
 nsIExternalProtocolHandler
 .
 h

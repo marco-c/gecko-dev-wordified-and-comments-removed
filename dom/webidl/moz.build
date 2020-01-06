@@ -3605,11 +3605,6 @@ HTMLAnchorElement
 webidl
 '
 '
-HTMLAppletElement
-.
-webidl
-'
-'
 HTMLAreaElement
 .
 webidl

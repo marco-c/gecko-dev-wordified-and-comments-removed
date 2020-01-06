@@ -114,11 +114,6 @@ nsIDOMHTMLAnchorElement
 idl
 '
 '
-nsIDOMHTMLAppletElement
-.
-idl
-'
-'
 nsIDOMHTMLAreaElement
 .
 idl

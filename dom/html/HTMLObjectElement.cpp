@@ -2103,8 +2103,6 @@ nsObjectLoadingContent
 GetCapabilities
 (
 )
-|
-eSupportClassID
 ;
 }
 void
