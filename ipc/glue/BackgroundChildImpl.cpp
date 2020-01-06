@@ -2188,9 +2188,6 @@ Message
 aMsg
 )
 {
-#
-if
-0
 if
 (
 aMsg
@@ -2220,8 +2217,6 @@ MarkVsyncReceived
 )
 ;
 }
-#
-endif
 }
 #
 endif
