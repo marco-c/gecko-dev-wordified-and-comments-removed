@@ -36317,6 +36317,8 @@ ReleaseAllJITCode
 FreeOp
 *
 fop
+bool
+addMarkers
 )
 {
 js
@@ -36388,6 +36390,8 @@ zone
 discardJitCode
 (
 fop
+true
+addMarkers
 )
 ;
 }
