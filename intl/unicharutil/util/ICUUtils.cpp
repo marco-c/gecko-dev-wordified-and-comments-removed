@@ -2,9 +2,6 @@
 ifdef
 MOZILLA_INTERNAL_API
 #
-ifdef
-ENABLE_INTL_API
-#
 include
 "
 ICUUtils
@@ -1295,8 +1292,6 @@ failed
 )
 ;
 }
-#
-endif
 #
 endif
 #
