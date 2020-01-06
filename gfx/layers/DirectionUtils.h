@@ -22,14 +22,8 @@ namespace
 mozilla
 {
 namespace
-gfx
-{
-using
 layers
-:
-:
-ScrollDirection
-;
+{
 template
 <
 typename
@@ -186,6 +180,9 @@ GetAxisScale
 ScrollDirection
 aDir
 const
+gfx
+:
+:
 ScaleFactors2D
 <
 FromUnits
