@@ -80,9 +80,6 @@ correctly
 "
 )
 ;
-let
-openedFile
-=
 await
 OS
 .

@@ -312,9 +312,6 @@ i
 i
 ;
 }
-let
-bytes
-=
 await
 OS
 .
@@ -454,9 +451,6 @@ header
 "
 )
 ;
-let
-bytes
-=
 await
 OS
 .
@@ -656,9 +650,6 @@ that
 "
 )
 ;
-let
-bytes
-=
 await
 OS
 .

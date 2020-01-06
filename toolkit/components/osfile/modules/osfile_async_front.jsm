@@ -970,8 +970,6 @@ _worker
 :
 null
 restartTimer
-:
-function
 (
 arg
 )
@@ -984,8 +982,6 @@ true
 ;
 }
 kill
-:
-function
 (
 {
 shutdown
@@ -1408,8 +1404,6 @@ resolve
 ;
 }
 push
-:
-function
 (
 code
 )
@@ -1934,8 +1928,6 @@ restartTimer
 ;
 }
 _updateTelemetry
-:
-function
 (
 )
 {
@@ -4147,8 +4139,6 @@ prototype
 =
 {
 iterator
-:
-function
 (
 )
 {
@@ -4157,8 +4147,6 @@ this
 ;
 }
 __iterator__
-:
-function
 (
 )
 {
@@ -4953,8 +4941,6 @@ queue
 "
 {
 get
-:
-function
 (
 )
 {
@@ -5030,8 +5016,6 @@ shutdown
 "
 )
 getDetails
-:
-function
 (
 )
 {

@@ -98,9 +98,6 @@ js
 "
 )
 ;
-var
-LOG
-=
 SharedAll
 .
 LOG
@@ -615,8 +612,6 @@ try
 return
 {
 path
-:
-path
 file
 :
 OS
@@ -812,6 +807,9 @@ path
 )
 ;
 }
+throw
+ex
+;
 }
 }
 ;
