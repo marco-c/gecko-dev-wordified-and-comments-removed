@@ -527,7 +527,7 @@ information
 /
 readonly
 attribute
-AString
+AUTF8String
 suggestedFileName
 ;
 /
