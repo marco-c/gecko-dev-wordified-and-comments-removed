@@ -322,6 +322,12 @@ REG_EBP
 ]
 )
 ;
+aRegs
+.
+mLR
+=
+0
+;
 #
 elif
 defined
@@ -378,6 +384,12 @@ gregs
 REG_RBP
 ]
 )
+;
+aRegs
+.
+mLR
+=
+0
 ;
 #
 elif

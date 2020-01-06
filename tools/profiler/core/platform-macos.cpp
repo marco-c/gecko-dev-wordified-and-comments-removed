@@ -444,6 +444,12 @@ bp
 )
 )
 ;
+regs
+.
+mLR
+=
+0
+;
 aProcessRegs
 (
 regs
@@ -704,6 +710,10 @@ __builtin_return_address
 )
 )
 )
+;
+mLR
+=
+0
 ;
 }
 #
