@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-ServoBindings
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StyleSheet
 .
 h
