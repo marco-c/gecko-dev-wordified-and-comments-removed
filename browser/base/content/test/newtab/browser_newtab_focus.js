@@ -95,7 +95,7 @@ onbardingEnabled
 FOCUS_COUNT
 +
 =
-2
+3
 ;
 await
 promiseTourNotificationOpened
@@ -138,7 +138,7 @@ onbardingEnabled
 expectedCount
 +
 =
-2
+3
 ;
 }
 countFocus
