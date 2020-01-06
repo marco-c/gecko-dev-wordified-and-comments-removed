@@ -961,7 +961,7 @@ JS_GetProperty
 aCx
 scalarObj
 "
-default
+parent
 "
 &
 parentScalars
