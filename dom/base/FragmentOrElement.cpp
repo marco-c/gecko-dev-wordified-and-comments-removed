@@ -1020,7 +1020,9 @@ parentFrame
 )
 {
 return
-nullptr
+OwnerDoc
+(
+)
 ;
 }
 nsIAnonymousContentCreator
@@ -1039,7 +1041,9 @@ creator
 )
 {
 return
-nullptr
+OwnerDoc
+(
+)
 ;
 }
 AutoTArray
@@ -1071,7 +1075,9 @@ this
 )
 {
 return
-nullptr
+OwnerDoc
+(
+)
 ;
 }
 }
