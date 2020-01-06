@@ -8070,6 +8070,7 @@ _
 )
 =
 >
+{
 Ok
 (
 ParsedCaseSensitivity
@@ -8077,6 +8078,7 @@ ParsedCaseSensitivity
 :
 CaseSensitive
 )
+}
 Ok
 (
 Token

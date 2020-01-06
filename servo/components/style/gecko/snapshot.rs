@@ -704,6 +704,9 @@ name
 :
 &
 Atom
+case_sensitivity
+:
+CaseSensitivity
 )
 -
 >
@@ -736,6 +739,7 @@ as_ptr
 (
 )
 name
+case_sensitivity
 bindings
 :
 :

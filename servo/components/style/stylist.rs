@@ -2061,6 +2061,9 @@ self
 .
 rules_source_order
 )
+self
+.
+quirks_mode
 )
 ;
 self
@@ -2070,6 +2073,9 @@ dependencies
 note_selector
 (
 selector_and_hashes
+self
+.
+quirks_mode
 )
 ;
 if
@@ -2095,6 +2101,9 @@ new
 &
 selector_and_hashes
 )
+self
+.
+quirks_mode
 )
 ;
 }
@@ -4098,6 +4107,9 @@ applicable_declarations
 &
 mut
 matching_context
+self
+.
+quirks_mode
 &
 mut
 dummy_flag_setter
@@ -4384,6 +4396,9 @@ element
 rule_hash_target
 applicable_declarations
 context
+self
+.
+quirks_mode
 flags_setter
 CascadeLevel
 :
@@ -4525,6 +4540,9 @@ element
 rule_hash_target
 applicable_declarations
 context
+self
+.
+quirks_mode
 flags_setter
 CascadeLevel
 :
@@ -4615,6 +4633,9 @@ element
 rule_hash_target
 applicable_declarations
 context
+self
+.
+quirks_mode
 flags_setter
 CascadeLevel
 :
@@ -5089,6 +5110,9 @@ lookup
 (
 *
 element
+self
+.
+quirks_mode
 &
 mut
 |

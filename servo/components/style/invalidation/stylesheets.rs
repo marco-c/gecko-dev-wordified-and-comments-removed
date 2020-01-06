@@ -40,6 +40,15 @@ use
 selectors
 :
 :
+attr
+:
+:
+CaseSensitivity
+;
+use
+selectors
+:
+:
 parser
 :
 :
@@ -159,6 +168,10 @@ element
 has_class
 (
 class
+CaseSensitivity
+:
+:
+CaseSensitive
 )
 }
 InvalidationScope
