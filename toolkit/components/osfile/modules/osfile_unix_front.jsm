@@ -343,8 +343,6 @@ this
 _closeResult
 ;
 }
-return
-;
 }
 ;
 File
@@ -375,9 +373,9 @@ posix_fadvise
 =
 =
 =
-'
+"
 function
-'
+"
 &
 &
 (
@@ -996,12 +994,9 @@ return
 false
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 ;
 File
@@ -4182,7 +4177,6 @@ return
 date
 ;
 }
-;
 function
 unixMode
 (

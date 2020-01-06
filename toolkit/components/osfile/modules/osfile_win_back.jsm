@@ -924,8 +924,6 @@ return
 true
 ;
 }
-else
-{
 return
 fd
 .
@@ -933,7 +931,6 @@ dispose
 (
 )
 ;
-}
 }
 ;
 libc
@@ -979,8 +976,6 @@ return
 true
 ;
 }
-else
-{
 return
 handle
 .
@@ -988,7 +983,6 @@ dispose
 (
 )
 ;
-}
 }
 ;
 libc
