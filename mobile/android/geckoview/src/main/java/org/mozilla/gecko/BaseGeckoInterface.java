@@ -386,15 +386,4 @@ return
 false
 ;
 }
-Override
-public
-boolean
-isOfficial
-(
-)
-{
-return
-false
-;
-}
 }

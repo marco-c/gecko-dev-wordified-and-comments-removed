@@ -9076,11 +9076,6 @@ getDefaultChromeURI
 (
 )
 ;
-boolean
-isOfficial
-(
-)
-;
 }
 ;
 private
