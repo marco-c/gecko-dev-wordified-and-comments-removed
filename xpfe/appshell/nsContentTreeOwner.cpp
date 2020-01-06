@@ -1828,9 +1828,6 @@ aHref
 nsIURI
 *
 aReferrer
-nsIPrincipal
-*
-aTriggeringPrincipal
 )
 {
 NS_WARNING
