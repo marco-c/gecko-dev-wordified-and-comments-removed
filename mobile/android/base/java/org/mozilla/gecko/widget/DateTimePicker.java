@@ -1889,7 +1889,7 @@ if
 (
 Versions
 .
-preLollipop
+preLollipopMR1
 )
 {
 height
