@@ -682,16 +682,6 @@ pref
 "
 dom
 .
-enable_performance_navigation_timing
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 performance
 .
 enable_user_timing_logging
@@ -44685,7 +44675,7 @@ background
 -
 color
 "
-2
+false
 )
 ;
 pref

@@ -4573,7 +4573,7 @@ bool
 false
 )
 ;
-DECL_OVERRIDE_PREF
+DECL_GFX_PREF
 (
 Live
 "
@@ -4586,12 +4586,8 @@ background
 color
 "
 LayersAllowBackgroundColorLayers
-gfxPrefs
-:
-:
-OverrideBase_WebRender
-(
-)
+bool
+false
 )
 ;
 DECL_OVERRIDE_PREF
