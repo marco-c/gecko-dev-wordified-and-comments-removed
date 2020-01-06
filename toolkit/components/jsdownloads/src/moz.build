@@ -130,6 +130,11 @@ DownloadList
 jsm
 '
 '
+DownloadPaths
+.
+jsm
+'
+'
 Downloads
 .
 jsm
