@@ -53,7 +53,7 @@ result
 6
 /
 2012
-GMT
+UTC
 "
 }
 {
