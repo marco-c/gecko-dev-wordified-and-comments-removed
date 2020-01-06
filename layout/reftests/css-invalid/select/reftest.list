@@ -209,12 +209,6 @@ multiple
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 fuzzy
 -
 if
@@ -248,12 +242,6 @@ fieldset
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 fuzzy
 -
 if

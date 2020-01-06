@@ -384,12 +384,6 @@ multiple
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 needs
 -
 focus
@@ -411,12 +405,6 @@ fieldset
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 fuzzy
 -
 if

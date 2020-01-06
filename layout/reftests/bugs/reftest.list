@@ -23622,12 +23622,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 fuzzy
 -
 if
