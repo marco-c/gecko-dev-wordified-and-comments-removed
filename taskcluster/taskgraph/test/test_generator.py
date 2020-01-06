@@ -308,6 +308,17 @@ fake
 '
 config
 )
+    
+def
+_load_graph_config
+(
+self
+)
+:
+        
+return
+{
+}
 class
 FakeParameters
 (

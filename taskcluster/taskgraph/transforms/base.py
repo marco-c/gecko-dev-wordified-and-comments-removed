@@ -62,6 +62,9 @@ params
 kind_dependencies_tasks
 =
 None
+graph_config
+=
+None
 )
 :
         
@@ -94,6 +97,15 @@ self
 kind_dependencies_tasks
 =
 kind_dependencies_tasks
+        
+self
+.
+graph_config
+=
+graph_config
+or
+{
+}
 class
 TransformSequence
 (
