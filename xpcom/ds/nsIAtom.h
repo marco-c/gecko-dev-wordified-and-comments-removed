@@ -71,7 +71,10 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IATOM_IID
 )
-NS_IMETHOD
+NS_IMETHOD_
+(
+void
+)
 ToUTF8String
 (
 nsACString
@@ -398,7 +401,10 @@ NS_IATOM_IID
 define
 NS_DECL_NSIATOM
 \
-NS_IMETHOD
+NS_IMETHOD_
+(
+void
+)
 ToUTF8String
 (
 nsACString

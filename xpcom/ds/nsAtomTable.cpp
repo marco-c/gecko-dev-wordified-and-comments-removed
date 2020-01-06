@@ -913,7 +913,10 @@ nsAtom
 nsIAtom
 )
 ;
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+void
+)
 nsAtom
 :
 :
@@ -951,9 +954,6 @@ mLength
 )
 aBuf
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP_
