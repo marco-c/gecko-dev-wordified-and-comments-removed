@@ -191,10 +191,10 @@ mozilla
 Mutex
 mLock
 ;
-nsAdoptingCString
+nsCString
 mIPv4OnlyDomains
 ;
-nsAdoptingCString
+nsCString
 mForceResolve
 ;
 bool
