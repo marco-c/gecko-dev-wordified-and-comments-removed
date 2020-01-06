@@ -2435,7 +2435,7 @@ js
 ;
 ps
 .
-readUserPrefsFromFile
+readUserPrefs
 (
 prefFile
 )
@@ -2613,15 +2613,9 @@ lskar
 "
 )
 ;
-savePrefFile
-.
-exists
-(
-)
-;
 ps
 .
-readUserPrefsFromFile
+readUserPrefs
 (
 savePrefFile
 )

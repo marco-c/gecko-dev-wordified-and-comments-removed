@@ -78,7 +78,7 @@ filenames
 {
 ps
 .
-readUserPrefsFromFile
+readUserPrefs
 (
 do_get_file
 (
@@ -124,15 +124,9 @@ resetPrefs
 (
 )
 ;
-file
-.
-exists
-(
-)
-;
 ps
 .
-readUserPrefsFromFile
+readUserPrefs
 (
 file
 )

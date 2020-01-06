@@ -154,7 +154,7 @@ test1
 ;
 ps
 .
-readUserPrefsFromFile
+readUserPrefs
 (
 file
 )
