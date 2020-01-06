@@ -34,13 +34,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 gc
 /
 RelocationOverlay
