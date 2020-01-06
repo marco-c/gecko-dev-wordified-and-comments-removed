@@ -11,11 +11,9 @@ import
 -
 scripts
 -
-redirect
--
-import
+version
 .
-js
+py
 '
 )
 ;
