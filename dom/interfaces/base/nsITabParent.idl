@@ -474,7 +474,7 @@ autoscroll
 anchor
 *
 in
-LayoutDevice
+CSS
 coordinates
 relative
 to
