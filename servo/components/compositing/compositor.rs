@@ -648,9 +648,6 @@ bool
 zoom_time
 :
 f64
-got_load_complete_message
-:
-bool
 frame_tree_id
 :
 FrameTreeId
@@ -1570,9 +1567,6 @@ false
 zoom_time
 :
 0f64
-got_load_complete_message
-:
-false
 frame_tree_id
 :
 FrameTreeId
@@ -2312,12 +2306,6 @@ NotShuttingDown
 =
 >
 {
-self
-.
-got_load_complete_message
-=
-true
-;
 if
 opts
 :
@@ -4674,12 +4662,6 @@ URL
 "
 url_string
 )
-;
-self
-.
-got_load_complete_message
-=
-false
 ;
 match
 ServoUrl
