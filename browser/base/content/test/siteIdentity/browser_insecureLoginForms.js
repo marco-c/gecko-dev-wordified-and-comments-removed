@@ -380,8 +380,6 @@ active
 loaded
 .
 svg
-#
-icon
 \
 "
 )
