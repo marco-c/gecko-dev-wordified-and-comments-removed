@@ -107,10 +107,6 @@ left
 (
 ele
 )
-+
-tabstrip
-.
-_tabMarginLeft
 left
 (
 scrollbox
@@ -133,10 +129,6 @@ right
 (
 ele
 )
--
-tabstrip
-.
-_tabMarginRight
 right
 (
 scrollbox
