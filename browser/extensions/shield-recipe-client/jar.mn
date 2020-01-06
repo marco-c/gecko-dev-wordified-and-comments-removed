@@ -114,6 +114,9 @@ content
 %
 content
 /
+contentaccessible
+=
+yes
 content
 /
 (
@@ -135,6 +138,9 @@ vendor
 %
 vendor
 /
+contentaccessible
+=
+yes
 vendor
 /
 (

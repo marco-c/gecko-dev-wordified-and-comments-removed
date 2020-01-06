@@ -136,5 +136,13 @@ nsIResProtocolHandler
 :
 nsISubstitutingProtocolHandler
 {
+boolean
+allowContentToAccess
+(
+in
+nsIURI
+url
+)
+;
 }
 ;
