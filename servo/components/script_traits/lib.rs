@@ -2745,10 +2745,6 @@ TopLevelBrowsingContextId
 >
 >
 )
-GetPipelineTitle
-(
-PipelineId
-)
 InitLoadUrl
 (
 ServoUrl
