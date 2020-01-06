@@ -258,6 +258,12 @@ Get
 (
 )
 ;
+static
+bool
+IsOnPaintThread
+(
+)
+;
 void
 PaintContents
 (
@@ -288,12 +294,6 @@ Release
 ;
 void
 AddRef
-(
-)
-;
-static
-bool
-IsOnPaintThread
 (
 )
 ;
