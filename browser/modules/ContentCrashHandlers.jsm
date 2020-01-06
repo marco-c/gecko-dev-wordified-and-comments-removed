@@ -2588,7 +2588,7 @@ reportIDs
 await
 CrashSubmit
 .
-pendingIDsAsync
+pendingIDs
 (
 dateLimit
 )
