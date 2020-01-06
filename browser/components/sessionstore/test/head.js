@@ -1491,6 +1491,11 @@ utf
 -
 8
 "
+compression
+:
+"
+lz4
+"
 }
 )
 ;
@@ -1549,6 +1554,11 @@ encoding
 utf
 -
 8
+"
+compression
+:
+"
+lz4
 "
 }
 )

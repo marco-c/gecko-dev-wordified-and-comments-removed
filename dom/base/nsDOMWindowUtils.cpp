@@ -12196,6 +12196,11 @@ SendFlushApzRepaints
 (
 )
 ;
+*
+aOutResult
+=
+true
+;
 return
 NS_OK
 ;
