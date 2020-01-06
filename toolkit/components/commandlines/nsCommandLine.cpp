@@ -2536,7 +2536,7 @@ GetNext
 entry
 )
 ;
-nsXPIDLCString
+nsCString
 contractID
 ;
 rv
@@ -2566,8 +2566,11 @@ contractID
 ;
 if
 (
-!
 contractID
+.
+IsVoid
+(
+)
 )
 continue
 ;

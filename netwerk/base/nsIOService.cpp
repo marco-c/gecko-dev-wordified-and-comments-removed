@@ -5442,7 +5442,7 @@ bool
 remove
 )
 {
-nsXPIDLCString
+nsCString
 portList
 ;
 prefBranch
@@ -5459,7 +5459,12 @@ portList
 ;
 if
 (
+!
 portList
+.
+IsVoid
+(
+)
 )
 {
 nsTArray

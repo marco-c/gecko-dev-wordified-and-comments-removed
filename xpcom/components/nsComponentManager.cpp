@@ -510,7 +510,7 @@ const
 nsresult
 rv
 ;
-nsXPIDLCString
+nsCString
 value
 ;
 nsCOMPtr
@@ -622,8 +622,11 @@ error
 }
 if
 (
-!
 value
+.
+IsVoid
+(
+)
 )
 {
 rv
@@ -645,6 +648,10 @@ nsComponentManagerImpl
 GetServiceByContractID
 (
 value
+.
+get
+(
+)
 aIID
 aInstancePtr
 )
