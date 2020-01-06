@@ -1553,6 +1553,15 @@ Http2Stream
 >
 m0RTTStreams
 ;
+nsTArray
+<
+WeakPtr
+<
+Http2Stream
+>
+>
+mCannotDo0RTTStreams
+;
 bool
 RealJoinConnection
 (
