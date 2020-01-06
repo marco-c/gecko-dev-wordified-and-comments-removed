@@ -656,10 +656,10 @@ BackendType
 :
 :
 SKIA
-imageSize
-.
-ToUnknownSize
+IntSize
 (
+1
+1
 )
 gfx
 :
