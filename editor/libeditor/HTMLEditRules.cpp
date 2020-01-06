@@ -36180,12 +36180,7 @@ Container
 return
 SplitNodeResult
 (
-nullptr
 aStartOfDeepestRightNode
-.
-GetChildAtOffset
-(
-)
 )
 ;
 }
