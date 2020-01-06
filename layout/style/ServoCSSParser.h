@@ -47,6 +47,11 @@ aValue
 nscolor
 *
 aResultColor
+bool
+*
+aWasCurrentColor
+=
+nullptr
 )
 ;
 static
