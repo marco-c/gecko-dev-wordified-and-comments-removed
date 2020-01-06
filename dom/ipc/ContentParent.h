@@ -2794,16 +2794,6 @@ ForwardKnownInfo
 )
 ;
 bool
-SetPriorityAndCheckIsAlive
-(
-hal
-:
-:
-ProcessPriority
-aPriority
-)
-;
-bool
 ShouldKeepProcessAlive
 (
 )
