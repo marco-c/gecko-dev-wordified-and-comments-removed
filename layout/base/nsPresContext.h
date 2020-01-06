@@ -3601,6 +3601,11 @@ SysColorChangedInternal
 )
 ;
 void
+RefreshSystemMetrics
+(
+)
+;
+void
 UIResolutionChangedInternal
 (
 )
