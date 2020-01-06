@@ -4564,17 +4564,6 @@ nsTimingFunction
 aResult
 )
 ;
-static
-void
-FillAllImageLayers
-(
-nsStyleImageLayers
-&
-aLayers
-uint32_t
-aMaxItemCount
-)
-;
 private
 :
 #

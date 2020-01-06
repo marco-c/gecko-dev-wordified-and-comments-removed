@@ -2743,6 +2743,13 @@ aContext
 ;
 }
 }
+void
+FillAllLayers
+(
+uint32_t
+aMaxItemCount
+)
+;
 nsChangeHint
 CalcDifference
 (
