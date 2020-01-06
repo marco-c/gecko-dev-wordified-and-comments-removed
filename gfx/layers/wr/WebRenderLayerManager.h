@@ -133,6 +133,9 @@ nsIWidget
 namespace
 mozilla
 {
+struct
+ActiveScrolledRoot
+;
 namespace
 layers
 {
@@ -1266,6 +1269,17 @@ vector
 WebRenderLayerScrollData
 >
 mLayerScrollData
+;
+std
+:
+:
+vector
+<
+const
+ActiveScrolledRoot
+*
+>
+mAsrStack
 ;
 void
 AddMutatedLayer
