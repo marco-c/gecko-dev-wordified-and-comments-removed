@@ -1779,6 +1779,12 @@ Mirror
 <
 bool
 >
+mLooping
+;
+Mirror
+<
+bool
+>
 mSameOriginMedia
 ;
 Mirror
