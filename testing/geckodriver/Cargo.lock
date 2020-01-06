@@ -82,7 +82,7 @@ hyper
 .
 10
 .
-7
+8
 (
 registry
 +
@@ -169,7 +169,7 @@ mozprofile
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -198,7 +198,7 @@ mozrunner
 .
 3
 .
-3
+4
 (
 registry
 +
@@ -1129,7 +1129,7 @@ version
 .
 3
 .
-1
+2
 "
 source
 =
@@ -1938,7 +1938,7 @@ version
 .
 2
 .
-17
+19
 "
 source
 =
@@ -2128,7 +2128,7 @@ version
 .
 10
 .
-7
+8
 "
 source
 =
@@ -3208,7 +3208,7 @@ version
 .
 2
 .
-6
+8
 "
 source
 =
@@ -3632,7 +3632,7 @@ version
 .
 2
 .
-0
+1
 "
 source
 =
@@ -3667,35 +3667,6 @@ lazy_static
 1
 .
 16
-(
-registry
-+
-https
-:
-/
-/
-github
-.
-com
-/
-rust
--
-lang
-/
-crates
-.
-io
--
-index
-)
-"
-"
-log
-0
-.
-3
-.
-7
 (
 registry
 +
@@ -3765,7 +3736,7 @@ version
 .
 3
 .
-3
+4
 "
 source
 =
@@ -3828,7 +3799,7 @@ mozprofile
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -5737,7 +5708,7 @@ lazy_static
 .
 2
 .
-6
+8
 (
 registry
 +
@@ -7887,7 +7858,7 @@ hyper
 .
 10
 .
-7
+8
 (
 registry
 +
@@ -8394,7 +8365,7 @@ bzip2
 .
 3
 .
-1
+2
 (
 registry
 +
@@ -8423,7 +8394,7 @@ flate2
 .
 2
 .
-17
+19
 (
 registry
 +
@@ -8720,7 +8691,7 @@ bzip2
 .
 3
 .
-1
+2
 (
 registry
 +
@@ -8745,7 +8716,7 @@ index
 "
 =
 "
-e39c71fcff507b547240346a894c5df38e6fd42fb02590a5d5b3f2dae9173ad2
+c3eafc42c44e0d827de6b1c131175098fe7fb53b8ce8a47e65cb3ea94688be24
 "
 "
 checksum
@@ -8998,7 +8969,7 @@ flate2
 .
 2
 .
-17
+19
 (
 registry
 +
@@ -9023,7 +8994,7 @@ index
 "
 =
 "
-d4e4d0c15ef829cbc1b7cda651746be19cceeb238be7b1049227b14891df9e25
+36df0166e856739905cd3d7e0b210fe818592211a008862599845e012d8d304c
 "
 "
 checksum
@@ -9100,7 +9071,7 @@ hyper
 .
 10
 .
-7
+8
 (
 registry
 +
@@ -9125,7 +9096,7 @@ index
 "
 =
 "
-eb15973f070a7de8bf3f61261726ef09647741110af6062d5ca1e21e6c4bd013
+38368702037feddcb6470b4dc641adcc585373ab037c757bbc2818a21968d051
 "
 "
 checksum
@@ -9380,7 +9351,7 @@ lazy_static
 .
 2
 .
-6
+8
 (
 registry
 +
@@ -9405,7 +9376,7 @@ index
 "
 =
 "
-2f61b8421c7a4648c391611625d56fdd5c7567da05af1be655fd8cacc643abb3
+3b37545ab726dd833ec6420aaba8231c5b320814b9029ad585555d2a03e94fbf
 "
 "
 checksum
@@ -9620,7 +9591,7 @@ mozprofile
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -9645,7 +9616,7 @@ index
 "
 =
 "
-01177c10a9a0a905d6b21dc6d994186f941c9b15fe1034a4b62d440fddc83c81
+4981de229fba7d949465a2f564e2b46906c6e876516040416956a54021a84165
 "
 "
 checksum
@@ -9654,7 +9625,7 @@ mozrunner
 .
 3
 .
-3
+4
 (
 registry
 +
@@ -9679,7 +9650,7 @@ index
 "
 =
 "
-d0058147554cd0b9062b2bd1951590cb7a22023cb6b76bd7317496c51eb50da0
+91c54a746e7430326d2bc48a5b10ba7e9cd2294306773cb9f232835abe791f02
 "
 "
 checksum
