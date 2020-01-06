@@ -1558,6 +1558,9 @@ toString
 )
 ;
 let
+fullText
+;
+let
 collapsed
 =
 selection
@@ -1960,6 +1963,16 @@ if
 selectionStr
 )
 {
+fullText
+=
+selectionStr
+.
+substr
+(
+0
+16384
+)
+;
 if
 (
 selectionStr
@@ -2076,6 +2089,7 @@ selectionStr
 docSelectionIsCollapsed
 :
 collapsed
+fullText
 linkURL
 :
 url

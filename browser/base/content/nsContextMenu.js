@@ -726,7 +726,7 @@ this
 .
 selectionInfo
 .
-text
+fullText
 :
 undefined
 frameId

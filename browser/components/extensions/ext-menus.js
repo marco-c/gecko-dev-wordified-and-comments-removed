@@ -877,6 +877,10 @@ selection
 contextData
 .
 selectionText
+.
+trim
+(
+)
 ;
 let
 maxSelectionLength
