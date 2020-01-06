@@ -14427,11 +14427,13 @@ FixWeakMappingGrayBits
 MOZ_RELEASE_ASSERT
 (
 count
-+
-+
 <
 2
 )
+;
+count
++
++
 ;
 }
 while
