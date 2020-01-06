@@ -901,7 +901,7 @@ handler
 uint64
 address
 int
-register
+reg
 )
 const
 =
