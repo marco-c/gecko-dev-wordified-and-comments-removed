@@ -7327,7 +7327,7 @@ Append
 p
 )
 ;
-nsAutoCString
+nsAdoptingCString
 audioLoopDev
 videoLoopDev
 ;
@@ -7348,6 +7348,8 @@ MediaSourceEnum
 Camera
 )
 {
+videoLoopDev
+=
 Preferences
 :
 :
@@ -7358,7 +7360,6 @@ media
 .
 video_loopback_dev
 "
-videoLoopDev
 )
 ;
 }
@@ -7373,6 +7374,8 @@ MediaSourceEnum
 Microphone
 )
 {
+audioLoopDev
+=
 Preferences
 :
 :
@@ -7383,7 +7386,6 @@ media
 .
 audio_loopback_dev
 "
-audioLoopDev
 )
 ;
 }
@@ -7562,10 +7564,6 @@ MediaEngine
 EnumerateVideoDevices
 videos
 videoLoopDev
-.
-get
-(
-)
 )
 ;
 for
@@ -7616,10 +7614,6 @@ MediaEngine
 EnumerateAudioDevices
 audios
 audioLoopDev
-.
-get
-(
-)
 )
 ;
 for

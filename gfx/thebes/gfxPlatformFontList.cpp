@@ -5586,9 +5586,9 @@ tempLen
 =
 0
 ;
-nsAutoCString
+nsAdoptingCString
 list
-;
+=
 Preferences
 :
 :
@@ -5599,7 +5599,6 @@ intl
 .
 accept_languages
 "
-list
 )
 ;
 if
@@ -6350,9 +6349,9 @@ i
 )
 )
 ;
-nsAutoCString
+nsAdoptingCString
 serifOrSans
-;
+=
 Preferences
 :
 :
@@ -6363,7 +6362,6 @@ prefDefaultFontType
 get
 (
 )
-serifOrSans
 )
 ;
 if

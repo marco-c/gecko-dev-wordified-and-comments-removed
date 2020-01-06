@@ -35,9 +35,9 @@ nsCString
 aLocaleList
 )
 {
-nsAutoCString
+nsAdoptingCString
 locale
-;
+=
 Preferences
 :
 :
@@ -50,7 +50,6 @@ locale
 .
 os
 "
-locale
 )
 ;
 if

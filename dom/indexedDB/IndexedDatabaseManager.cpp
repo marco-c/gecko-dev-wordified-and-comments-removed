@@ -1801,9 +1801,11 @@ kPrefMaxSerilizedMsgSize
 #
 ifdef
 ENABLE_INTL_API
-nsAutoCString
+const
+nsAdoptingCString
+&
 acceptLang
-;
+=
 Preferences
 :
 :
@@ -1814,7 +1816,6 @@ intl
 .
 accept_languages
 "
-acceptLang
 )
 ;
 nsCCharSeparatedTokenizer

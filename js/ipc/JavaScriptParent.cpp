@@ -321,7 +321,7 @@ return
 false
 ;
 }
-nsAutoCString
+nsCString
 allow
 ;
 allow
@@ -332,9 +332,10 @@ Assign
 '
 )
 ;
-nsAutoCString
-pref
-;
+allow
+.
+Append
+(
 Preferences
 :
 :
@@ -357,14 +358,7 @@ compat
 -
 addons
 "
-pref
 )
-;
-allow
-.
-Append
-(
-pref
 )
 ;
 allow
