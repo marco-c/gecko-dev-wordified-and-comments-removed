@@ -1262,6 +1262,17 @@ promise
 if
 (
 waitForResponse
+&
+&
+document
+.
+visibilityState
+=
+=
+=
+"
+visible
+"
 )
 {
 promise

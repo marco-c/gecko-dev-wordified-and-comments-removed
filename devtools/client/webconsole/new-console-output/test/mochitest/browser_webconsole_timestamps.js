@@ -199,6 +199,16 @@ destroy
 )
 ;
 await
+toolbox
+.
+selectTool
+(
+"
+webconsole
+"
+)
+;
+await
 testChangedPref
 (
 hud

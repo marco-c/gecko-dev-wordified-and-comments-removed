@@ -154,6 +154,11 @@ Tree
 .
 js
 '
+'
+VisibilityHandler
+.
+js
+'
 )
 MOCHITEST_CHROME_MANIFESTS
 +
