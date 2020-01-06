@@ -1906,9 +1906,6 @@ difftime_ms
 void
 ReportRcwnStats
 (
-nsIRequest
-*
-firstResponseRequest
 bool
 isFromNet
 )
