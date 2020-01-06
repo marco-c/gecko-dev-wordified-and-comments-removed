@@ -925,6 +925,14 @@ default
 [
 Throws
 UnsafeInPrerendering
+Func
+=
+"
+nsGlobalWindow
+:
+:
+IsWindowPrintEnabled
+"
 ]
 void
 print
