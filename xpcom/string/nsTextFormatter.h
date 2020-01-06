@@ -100,6 +100,8 @@ aFmt
 .
 )
 ;
+private
+:
 static
 uint32_t
 vsnprintf
