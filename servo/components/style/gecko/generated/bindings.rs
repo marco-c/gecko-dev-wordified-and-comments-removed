@@ -11800,7 +11800,10 @@ pub
 fn
 Servo_Element_SizeOfExcludingThisAndCVs
 (
-arg1
+malloc_size_of
+:
+MallocSizeOf
+malloc_enclosing_size_of
 :
 MallocSizeOf
 seen_ptrs
@@ -12052,6 +12055,9 @@ fn
 Servo_StyleSheet_SizeOfIncludingThis
 (
 malloc_size_of
+:
+MallocSizeOf
+malloc_enclosing_size_of
 :
 MallocSizeOf
 sheet

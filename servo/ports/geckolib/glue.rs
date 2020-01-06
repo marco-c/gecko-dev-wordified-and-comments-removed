@@ -5393,6 +5393,9 @@ Servo_Element_SizeOfExcludingThisAndCVs
 malloc_size_of
 :
 GeckoMallocSizeOf
+malloc_enclosing_size_of
+:
+GeckoMallocSizeOf
 seen_ptrs
 :
 *
@@ -5464,7 +5467,11 @@ malloc_size_of
 unwrap
 (
 )
-None
+malloc_enclosing_size_of
+.
+unwrap
+(
+)
 Some
 (
 Box
@@ -7217,6 +7224,9 @@ Servo_StyleSheet_SizeOfIncludingThis
 malloc_size_of
 :
 GeckoMallocSizeOf
+malloc_enclosing_size_of
+:
+GeckoMallocSizeOf
 sheet
 :
 RawServoStyleSheetContentsBorrowed
@@ -7257,7 +7267,11 @@ malloc_size_of
 unwrap
 (
 )
-None
+malloc_enclosing_size_of
+.
+unwrap
+(
+)
 None
 )
 ;
@@ -23826,6 +23840,10 @@ unwrap
 (
 )
 malloc_enclosing_size_of
+.
+unwrap
+(
+)
 None
 )
 ;
