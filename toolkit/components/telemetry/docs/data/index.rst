@@ -70,6 +70,11 @@ ping
 anonymous
 -
 ping
+first
+-
+shutdown
+-
+ping
 *
 -
 ping
