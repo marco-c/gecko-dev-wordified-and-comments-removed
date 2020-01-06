@@ -102,6 +102,9 @@ addStartupChange
 removeStartupChange
 "
 "
+getNewSideloads
+"
+"
 recordTimestamp
 "
 "
