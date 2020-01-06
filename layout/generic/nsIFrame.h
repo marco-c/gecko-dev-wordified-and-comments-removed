@@ -1727,6 +1727,10 @@ mIsWrapperBoxNeedingRestyle
 (
 false
 )
+mReflowRequestedForCharDataChange
+(
+false
+)
 {
 mozilla
 :
@@ -9762,6 +9766,11 @@ mParentIsWrapperAnonBox
 ;
 bool
 mIsWrapperBoxNeedingRestyle
+:
+1
+;
+bool
+mReflowRequestedForCharDataChange
 :
 1
 ;
