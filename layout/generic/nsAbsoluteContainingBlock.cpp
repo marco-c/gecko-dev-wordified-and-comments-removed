@@ -702,7 +702,14 @@ containerWM
 kidFrame
 -
 >
-GetScrollableOverflowRectRelativeToParent
+GetScrollableOverflowRectRelativeToSelf
+(
+)
++
+kidFrame
+-
+>
+GetPosition
 (
 )
 aContainingBlock
