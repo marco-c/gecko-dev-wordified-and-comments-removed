@@ -6045,13 +6045,6 @@ h
 '
 android
 /
-native_window
-.
-h
-'
-'
-android
-/
 native_window_jni
 .
 h
