@@ -219,6 +219,12 @@ destroy
 }
 }
 ;
+let
+mockWindow
+=
+{
+}
+;
 ViewMock
 .
 returns
@@ -284,6 +290,8 @@ TabListComponent
 (
 {
 window
+:
+mockWindow
 store
 View
 :

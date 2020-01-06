@@ -214,6 +214,12 @@ listComponent
 }
 ;
 let
+mockWindow
+=
+{
+}
+;
+let
 ViewMock
 =
 sinon
@@ -300,6 +306,8 @@ SyncedTabsDeckComponent
 (
 {
 window
+:
+mockWindow
 deckStore
 listComponent
 SyncedTabs
@@ -373,7 +381,7 @@ args
 [
 0
 ]
-window
+mockWindow
 )
 ;
 Assert
@@ -722,6 +730,12 @@ listComponent
 }
 ;
 let
+mockWindow
+=
+{
+}
+;
+let
 ViewMock
 =
 sinon
@@ -817,7 +831,7 @@ new
 SyncedTabsDeckComponent
 (
 {
-window
+mockWindow
 deckStore
 listStore
 listComponent
