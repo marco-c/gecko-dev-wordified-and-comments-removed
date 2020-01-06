@@ -378,8 +378,9 @@ ErrorResult
 aRv
 )
 ;
-ThreadSharedFloatArrayBufferList
-*
+const
+AudioChunk
+&
 GetThreadSharedChannelsForRate
 (
 JSContext
