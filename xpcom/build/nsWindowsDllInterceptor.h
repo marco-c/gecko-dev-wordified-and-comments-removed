@@ -255,7 +255,7 @@ mPatchedFns
 maxPatchedFns
 ]
 ;
-int
+size_t
 mPatchedFnsLen
 ;
 public
@@ -287,7 +287,7 @@ WindowsDllNopSpacePatcher
 {
 for
 (
-int
+size_t
 i
 =
 0
