@@ -689,14 +689,6 @@ GetRuleProcessor
 (
 )
 ;
-void
-ComputeServoStyleSet
-(
-nsPresContext
-*
-aPresContext
-)
-;
 mozilla
 :
 :
