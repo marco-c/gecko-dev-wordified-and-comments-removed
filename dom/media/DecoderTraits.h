@@ -145,6 +145,16 @@ MediaContainerType
 aType
 )
 ;
+static
+bool
+IsSupportedType
+(
+const
+MediaContainerType
+&
+aType
+)
+;
 }
 ;
 }
