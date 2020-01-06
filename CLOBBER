@@ -195,11 +195,14 @@ any
 more
 .
 Bug
-1419814
+1419362
 -
 a11y
 IDL
 changes
-causing
+not
+correctly
+handled
+by
 build
-failures
+system
