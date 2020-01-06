@@ -1136,6 +1136,11 @@ GetRootCompositorBridgeParent
 )
 const
 ;
+bool
+PushAPZStateToWR
+(
+)
+;
 private
 :
 struct

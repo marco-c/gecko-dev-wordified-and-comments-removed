@@ -2042,6 +2042,16 @@ return
 mOptions
 ;
 }
+TimeDuration
+GetVsyncInterval
+(
+)
+const
+{
+return
+mVsyncRate
+;
+}
 PWebRenderBridgeParent
 *
 AllocPWebRenderBridgeParent
