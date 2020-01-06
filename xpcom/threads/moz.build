@@ -257,6 +257,11 @@ HangMonitor
 h
 '
 '
+InputEventStatistics
+.
+h
+'
+'
 LazyIdleThread
 .
 h
@@ -368,6 +373,11 @@ cpp
 '
 '
 HangMonitor
+.
+cpp
+'
+'
+InputEventStatistics
 .
 cpp
 '
