@@ -4099,6 +4099,10 @@ get
 (
 )
 mAuthorStyleDisabled
+OriginFlags
+:
+:
+All
 )
 ;
 }

@@ -777,6 +777,9 @@ nsChangeHint
 "
 nsRestyleHint
 "
+"
+OriginFlags
+"
 ]
 constified
 -
@@ -1043,6 +1046,12 @@ mozilla
 :
 :
 MallocSizeOf
+"
+"
+mozilla
+:
+:
+OriginFlags
 "
 "
 mozilla
@@ -2560,6 +2569,12 @@ mozilla
 :
 :
 MallocSizeOf
+"
+"
+mozilla
+:
+:
+OriginFlags
 "
 "
 mozilla
