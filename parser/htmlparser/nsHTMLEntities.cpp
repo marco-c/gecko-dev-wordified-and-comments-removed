@@ -129,12 +129,9 @@ key
 )
 {
 return
-PLDHashNumber
-(
-NS_PTR_TO_INT32
+HashGeneric
 (
 key
-)
 )
 ;
 }
