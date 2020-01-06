@@ -597,7 +597,7 @@ is
 best
 in
 Firefox
-53
+55
 and
 greater
 although
@@ -3027,7 +3027,7 @@ have
 version
 3
 .
-4
+5
 and
 greater
 .
