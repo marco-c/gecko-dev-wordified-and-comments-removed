@@ -820,7 +820,7 @@ padding
 -
 top
 :
-0
+31px
 ;
 }
 .
@@ -876,12 +876,6 @@ disabled
 ]
 )
 {
-min
--
-height
-:
-40px
-;
 transition
 -
 property
