@@ -2957,7 +2957,10 @@ aSheet
 >
 AddStyleSet
 (
+StyleSetHandle
+(
 this
+)
 )
 ;
 }
@@ -3050,7 +3053,10 @@ aSheet
 >
 AddStyleSet
 (
+StyleSetHandle
+(
 this
+)
 )
 ;
 }
@@ -3128,7 +3134,10 @@ aSheet
 >
 DropStyleSet
 (
+StyleSetHandle
+(
 this
+)
 )
 ;
 }
@@ -3190,7 +3199,10 @@ sheet
 >
 DropStyleSet
 (
+StyleSetHandle
+(
 this
+)
 )
 ;
 }
@@ -3236,7 +3248,10 @@ sheet
 >
 AddStyleSet
 (
+StyleSetHandle
+(
 this
+)
 )
 ;
 }
@@ -3358,7 +3373,10 @@ aNewSheet
 >
 AddStyleSet
 (
+StyleSetHandle
+(
 this
+)
 )
 ;
 }
@@ -3619,7 +3637,10 @@ aSheet
 >
 AddStyleSet
 (
+StyleSetHandle
+(
 this
+)
 )
 ;
 }
