@@ -3243,7 +3243,7 @@ aHwnd
 >
 void
 {
-IAccessibleHolder
+IDispatchHolder
 hWndAccHolder
 ;
 :
@@ -3298,7 +3298,7 @@ hWndAccHolder
 .
 Set
 (
-IAccessibleHolder
+IDispatchHolder
 :
 :
 COMPtrType
@@ -3463,7 +3463,7 @@ MOZ_ASSERT
 rawNative
 )
 ;
-IAccessibleHolder
+IDispatchHolder
 :
 :
 COMPtrType
@@ -3472,7 +3472,7 @@ ptr
 rawNative
 )
 ;
-IAccessibleHolder
+IDispatchHolder
 holder
 (
 Move
