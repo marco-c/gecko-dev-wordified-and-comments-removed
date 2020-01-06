@@ -97,14 +97,6 @@ getAssertion
 "
 )
 ;
-NS_NAMED_LITERAL_STRING
-(
-kRequiredU2FVersion
-"
-U2F_V2
-"
-)
-;
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 U2F

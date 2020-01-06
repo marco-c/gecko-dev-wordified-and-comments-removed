@@ -52,6 +52,14 @@ false
 >
 U2FPromise
 ;
+NS_NAMED_LITERAL_STRING
+(
+kRequiredU2FVersion
+"
+U2F_V2
+"
+)
+;
 }
 }
 #

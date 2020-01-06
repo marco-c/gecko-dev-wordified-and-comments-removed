@@ -1550,6 +1550,15 @@ response
 ;
 response
 .
+mVersion
+.
+Construct
+(
+kRequiredU2FVersion
+)
+;
+response
+.
 mClientData
 .
 Construct
