@@ -150,6 +150,9 @@ aOuterWindow
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsISupports
+*
+aContextForTopLevelLoad
 nsSecurityFlags
 aSecurityFlags
 )
@@ -395,6 +398,9 @@ mResultPrincipalURI
 ;
 nsWeakPtr
 mLoadingContext
+;
+nsWeakPtr
+mContextForTopLevelLoad
 ;
 nsSecurityFlags
 mSecurityFlags
