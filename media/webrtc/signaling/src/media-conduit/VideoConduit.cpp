@@ -11753,13 +11753,6 @@ timestamp
 ;
 }
 }
-const
-ImageHandle
-img_handle
-(
-nullptr
-)
-;
 mRenderer
 -
 >
@@ -11781,7 +11774,6 @@ video_frame
 render_time_ms
 (
 )
-img_handle
 )
 ;
 }
