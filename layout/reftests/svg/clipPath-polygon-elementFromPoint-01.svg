@@ -190,6 +190,7 @@ testElementFromPoint
 let
 inCount
 =
+0
 outCount
 =
 0
