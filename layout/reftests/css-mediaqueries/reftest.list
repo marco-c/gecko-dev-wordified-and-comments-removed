@@ -206,15 +206,6 @@ update
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 system
