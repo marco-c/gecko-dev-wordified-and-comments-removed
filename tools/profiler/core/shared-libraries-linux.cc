@@ -1114,12 +1114,3 @@ return
 info
 ;
 }
-void
-SharedLibraryInfo
-:
-:
-Initialize
-(
-)
-{
-}

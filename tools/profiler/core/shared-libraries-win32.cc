@@ -1111,12 +1111,3 @@ return
 sharedLibraryInfo
 ;
 }
-void
-SharedLibraryInfo
-:
-:
-Initialize
-(
-)
-{
-}
