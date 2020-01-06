@@ -63,7 +63,7 @@ use
 inline
 :
 :
-InlineFragmentNodeFlags
+LAST_FRAGMENT_OF_ELEMENT
 ;
 use
 ipc_channel
@@ -2963,9 +2963,6 @@ flags
 .
 contains
 (
-InlineFragmentNodeFlags
-:
-:
 LAST_FRAGMENT_OF_ELEMENT
 )
 {

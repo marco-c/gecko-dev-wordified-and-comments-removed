@@ -19,8 +19,9 @@ flow
 :
 {
 self
+CLEARS_LEFT
+CLEARS_RIGHT
 Flow
-FlowFlags
 ImmutableFlowUtils
 }
 ;
@@ -2388,9 +2389,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 CLEARS_LEFT
 )
 {
@@ -2410,9 +2408,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 CLEARS_RIGHT
 )
 {

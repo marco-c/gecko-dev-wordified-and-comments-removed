@@ -165,6 +165,12 @@ msg
 :
 :
 constellation_msg
+;
+use
+msg
+:
+:
+constellation_msg
 :
 :
 {
@@ -984,7 +990,7 @@ result
 =
 result
 |
-KeyModifiers
+constellation_msg
 :
 :
 SHIFT
@@ -1003,7 +1009,7 @@ result
 =
 result
 |
-KeyModifiers
+constellation_msg
 :
 :
 CONTROL
@@ -1022,7 +1028,7 @@ result
 =
 result
 |
-KeyModifiers
+constellation_msg
 :
 :
 ALT
@@ -1041,7 +1047,7 @@ result
 =
 result
 |
-KeyModifiers
+constellation_msg
 :
 :
 SUPER
@@ -1110,7 +1116,7 @@ mods
 .
 contains
 (
-KeyModifiers
+constellation_msg
 :
 :
 SHIFT

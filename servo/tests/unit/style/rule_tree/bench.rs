@@ -104,12 +104,6 @@ style
 :
 :
 thread_state
-:
-:
-{
-self
-ThreadState
-}
 ;
 use
 test
@@ -648,7 +642,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 SCRIPT
@@ -770,7 +764,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 SCRIPT
@@ -880,7 +874,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 SCRIPT
@@ -1012,7 +1006,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 SCRIPT
@@ -1198,7 +1192,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 SCRIPT

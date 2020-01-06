@@ -1140,7 +1140,7 @@ use
 style_traits
 :
 :
-ParsingMode
+PARSING_MODE_DEFAULT
 ;
 use
 task
@@ -5999,10 +5999,7 @@ CssRuleType
 :
 Media
 )
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 ;

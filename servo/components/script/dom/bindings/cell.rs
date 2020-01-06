@@ -18,12 +18,6 @@ style
 :
 :
 thread_state
-:
-:
-{
-self
-ThreadState
-}
 ;
 #
 [
@@ -167,7 +161,7 @@ get
 .
 contains
 (
-ThreadState
+thread_state
 :
 :
 SCRIPT

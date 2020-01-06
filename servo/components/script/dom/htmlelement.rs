@@ -287,7 +287,7 @@ node
 :
 {
 Node
-NodeFlags
+SEQUENTIALLY_FOCUSABLE
 }
 ;
 use
@@ -667,9 +667,6 @@ node
 .
 set_flag
 (
-NodeFlags
-:
-:
 SEQUENTIALLY_FOCUSABLE
 true
 )
@@ -757,9 +754,6 @@ node
 .
 set_flag
 (
-NodeFlags
-:
-:
 SEQUENTIALLY_FOCUSABLE
 true
 )
@@ -818,9 +812,6 @@ node
 .
 set_flag
 (
-NodeFlags
-:
-:
 SEQUENTIALLY_FOCUSABLE
 true
 )
@@ -899,9 +890,6 @@ node
 .
 set_flag
 (
-NodeFlags
-:
-:
 SEQUENTIALLY_FOCUSABLE
 is_true
 )
@@ -913,9 +901,6 @@ node
 .
 set_flag
 (
-NodeFlags
-:
-:
 SEQUENTIALLY_FOCUSABLE
 false
 )

@@ -22,8 +22,10 @@ devtools_traits
 :
 :
 {
+CONSOLE_API
 CachedConsoleMessageTypes
 DevtoolScriptControlMsg
+PAGE_ERROR
 }
 ;
 use
@@ -529,9 +531,6 @@ message_types
 .
 insert
 (
-CachedConsoleMessageTypes
-:
-:
 PAGE_ERROR
 )
 "
@@ -543,9 +542,6 @@ message_types
 .
 insert
 (
-CachedConsoleMessageTypes
-:
-:
 CONSOLE_API
 )
 s

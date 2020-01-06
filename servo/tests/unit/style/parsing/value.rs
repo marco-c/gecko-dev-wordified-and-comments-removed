@@ -53,7 +53,7 @@ use
 style_traits
 :
 :
-ParsingMode
+PARSING_MODE_ALLOW_ALL_NUMERIC_VALUES
 ;
 #
 [
@@ -111,10 +111,7 @@ CssRuleType
 :
 Style
 )
-ParsingMode
-:
-:
-ALLOW_ALL_NUMERIC_VALUES
+PARSING_MODE_ALLOW_ALL_NUMERIC_VALUES
 QuirksMode
 :
 :

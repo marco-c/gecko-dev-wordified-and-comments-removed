@@ -589,9 +589,6 @@ ComputedValue
 flags
 =
 "
-PropertyFlags
-:
-:
 CREATES_STACKING_CONTEXT
 "
 spec
@@ -1471,9 +1468,6 @@ discrete
 flags
 =
 "
-PropertyFlags
-:
-:
 CREATES_STACKING_CONTEXT
 "
 )

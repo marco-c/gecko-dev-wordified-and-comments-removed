@@ -263,7 +263,10 @@ use
 traversal_flags
 :
 :
+{
 TraversalFlags
+self
+}
 ;
 #
 [
@@ -2137,7 +2140,7 @@ traversal_flags
 .
 contains
 (
-TraversalFlags
+traversal_flags
 :
 :
 UnstyledOnly

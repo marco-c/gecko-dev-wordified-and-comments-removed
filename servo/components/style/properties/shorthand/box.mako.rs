@@ -2654,9 +2654,6 @@ transform
 flags
 =
 "
-PropertyFlags
-:
-:
 SHORTHAND_ALIAS_PROPERTY
 "
 derive_serialize

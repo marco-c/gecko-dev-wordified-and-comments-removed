@@ -140,7 +140,7 @@ use
 style_traits
 :
 :
-ParsingMode
+PARSING_MODE_DEFAULT
 ;
 use
 stylesheets
@@ -1850,10 +1850,7 @@ new
 origin
 url_data
 None
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 ;

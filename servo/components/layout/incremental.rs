@@ -4,8 +4,10 @@ flow
 :
 {
 self
-FlowFlags
+AFFECTS_COUNTERS
 Flow
+HAS_COUNTER_AFFECTING_CHILDREN
+IS_ABSOLUTELY_POSITIONED
 }
 ;
 use
@@ -36,7 +38,10 @@ servo
 restyle_damage
 :
 :
-ServoRestyleDamage
+{
+REFLOW
+RECONSTRUCT_FLOW
+}
 ;
 #
 [
@@ -58,7 +63,7 @@ bitflags
 !
 {
 pub
-struct
+flags
 SpecialRestyleDamage
 :
 u8
@@ -109,7 +114,6 @@ const
 REFLOW_ENTIRE_DOCUMENT
 =
 0x01
-;
 }
 }
 pub
@@ -180,9 +184,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 IS_ABSOLUTELY_POSITIONED
 )
 ;
@@ -237,9 +238,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 IS_ABSOLUTELY_POSITIONED
 )
 ;
@@ -325,14 +323,8 @@ flags
 .
 intersects
 (
-FlowFlags
-:
-:
 AFFECTS_COUNTERS
 |
-FlowFlags
-:
-:
 HAS_COUNTER_AFFECTING_CHILDREN
 )
 ;
@@ -374,9 +366,6 @@ restyle_damage
 .
 intersects
 (
-ServoRestyleDamage
-:
-:
 REFLOW
 )
 {
@@ -384,9 +373,6 @@ special_damage
 .
 insert
 (
-SpecialRestyleDamage
-:
-:
 REFLOW_ENTIRE_DOCUMENT
 )
 ;
@@ -400,9 +386,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 HAS_COUNTER_AFFECTING_CHILDREN
 )
 }
@@ -414,9 +397,6 @@ flags
 .
 remove
 (
-FlowFlags
-:
-:
 HAS_COUNTER_AFFECTING_CHILDREN
 )
 }
@@ -459,9 +439,6 @@ restyle_damage
 .
 remove
 (
-ServoRestyleDamage
-:
-:
 RECONSTRUCT_FLOW
 )
 ;

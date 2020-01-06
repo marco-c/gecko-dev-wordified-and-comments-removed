@@ -12488,10 +12488,7 @@ specified
 align
 :
 :
-AlignFlags
-:
-:
-AUTO
+ALIGN_AUTO
 )
 ;
 self
@@ -28539,7 +28536,11 @@ use
 properties
 :
 :
-PropertyFlags
+{
+ABSPOS_CB
+CREATES_STACKING_CONTEXT
+FIXPOS_CB
+}
 ;
 use
 gecko_bindings
@@ -28588,9 +28589,6 @@ servo_flags
 .
 contains
 (
-PropertyFlags
-:
-:
 CREATES_STACKING_CONTEXT
 )
 {
@@ -28605,9 +28603,6 @@ servo_flags
 .
 contains
 (
-PropertyFlags
-:
-:
 FIXPOS_CB
 )
 {
@@ -28622,9 +28617,6 @@ servo_flags
 .
 contains
 (
-PropertyFlags
-:
-:
 ABSPOS_CB
 )
 {
@@ -29200,9 +29192,6 @@ longhands
 :
 :
 contain
-:
-:
-SpecifiedValue
 ;
 if
 v
@@ -29229,7 +29218,7 @@ v
 .
 contains
 (
-SpecifiedValue
+contain
 :
 :
 STRICT
@@ -29263,7 +29252,7 @@ v
 .
 contains
 (
-SpecifiedValue
+contain
 :
 :
 LAYOUT
@@ -29280,7 +29269,7 @@ v
 .
 contains
 (
-SpecifiedValue
+contain
 :
 :
 STYLE
@@ -29297,7 +29286,7 @@ v
 .
 contains
 (
-SpecifiedValue
+contain
 :
 :
 PAINT
@@ -29393,12 +29382,6 @@ longhands
 :
 :
 contain
-:
-:
-{
-self
-SpecifiedValue
-}
 ;
 let
 mut
@@ -29454,12 +29437,12 @@ servo_flags
 .
 insert
 (
-SpecifiedValue
+contain
 :
 :
 STRICT
 |
-SpecifiedValue
+contain
 :
 :
 STRICT_BITS
@@ -29485,7 +29468,7 @@ servo_flags
 .
 insert
 (
-SpecifiedValue
+contain
 :
 :
 LAYOUT
@@ -29508,7 +29491,7 @@ servo_flags
 .
 insert
 (
-SpecifiedValue
+contain
 :
 :
 STYLE
@@ -29531,7 +29514,7 @@ servo_flags
 .
 insert
 (
-SpecifiedValue
+contain
 :
 :
 PAINT

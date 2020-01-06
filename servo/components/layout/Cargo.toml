@@ -72,9 +72,9 @@ atomic_refcell
 bitflags
 =
 "
-1
-.
 0
+.
+8
 "
 canvas_traits
 =

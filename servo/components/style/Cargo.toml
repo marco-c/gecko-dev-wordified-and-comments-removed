@@ -241,9 +241,9 @@ atomic_refcell
 bitflags
 =
 "
-1
-.
 0
+.
+7
 "
 byteorder
 =

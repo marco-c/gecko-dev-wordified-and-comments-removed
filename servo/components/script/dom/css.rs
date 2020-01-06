@@ -126,7 +126,7 @@ use
 style_traits
 :
 :
-ParsingMode
+PARSING_MODE_DEFAULT
 ;
 #
 [
@@ -295,10 +295,7 @@ CssRuleType
 :
 Style
 )
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 QuirksMode
 :
 :
@@ -405,10 +402,7 @@ CssRuleType
 :
 Style
 )
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 QuirksMode
 :
 :

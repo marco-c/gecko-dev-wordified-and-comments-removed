@@ -58,9 +58,9 @@ dependencies
 bitflags
 =
 "
-1
-.
 0
+.
+7
 "
 hyper
 =

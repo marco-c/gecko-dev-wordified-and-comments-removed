@@ -270,7 +270,12 @@ servo
 restyle_damage
 :
 :
-ServoRestyleDamage
+{
+RECONSTRUCT_FLOW
+REFLOW
+REFLOW_OUT_OF_FLOW
+REPAINT
+}
 ;
 use
 style
@@ -1202,14 +1207,8 @@ restyle_damage
 .
 remove
 (
-ServoRestyleDamage
-:
-:
 REFLOW_OUT_OF_FLOW
 |
-ServoRestyleDamage
-:
-:
 REFLOW
 )
 ;
@@ -1989,9 +1988,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 IS_ABSOLUTELY_POSITIONED
 )
 }
@@ -2711,7 +2707,7 @@ flows
 "
 ]
 pub
-struct
+flags
 FlowFlags
 :
 u32
@@ -2760,7 +2756,6 @@ const
 IS_ABSOLUTELY_POSITIONED
 =
 0b0000_0000_0000_0000_0100_0000
-;
 #
 [
 doc
@@ -2801,7 +2796,6 @@ const
 CLEARS_LEFT
 =
 0b0000_0000_0000_0000_1000_0000
-;
 #
 [
 doc
@@ -2842,7 +2836,6 @@ const
 CLEARS_RIGHT
 =
 0b0000_0000_0000_0001_0000_0000
-;
 #
 [
 doc
@@ -2883,7 +2876,6 @@ const
 FLOATS_LEFT
 =
 0b0000_0000_0000_0010_0000_0000
-;
 #
 [
 doc
@@ -2924,7 +2916,6 @@ const
 FLOATS_RIGHT
 =
 0b0000_0000_0000_0100_0000_0000
-;
 #
 [
 doc
@@ -2950,7 +2941,6 @@ const
 TEXT_ALIGN
 =
 0b0000_0000_0111_1000_0000_0000
-;
 #
 [
 doc
@@ -2979,7 +2969,6 @@ const
 AFFECTS_COUNTERS
 =
 0b0000_0000_1000_0000_0000_0000
-;
 #
 [
 doc
@@ -3011,7 +3000,6 @@ const
 HAS_COUNTER_AFFECTING_CHILDREN
 =
 0b0000_0001_0000_0000_0000_0000
-;
 #
 [
 doc
@@ -3075,7 +3063,6 @@ const
 INLINE_POSITION_IS_STATIC
 =
 0b0000_0010_0000_0000_0000_0000
-;
 #
 [
 doc
@@ -3139,7 +3126,6 @@ const
 BLOCK_POSITION_IS_STATIC
 =
 0b0000_0100_0000_0000_0000_0000
-;
 /
 /
 /
@@ -3154,7 +3140,6 @@ const
 CAN_BE_FRAGMENTED
 =
 0b0000_1000_0000_0000_0000_0000
-;
 /
 /
 /
@@ -3174,7 +3159,6 @@ const
 CONTAINS_TEXT_OR_REPLACED_FRAGMENTS
 =
 0b0001_0000_0000_0000_0000_0000
-;
 /
 /
 /
@@ -3192,7 +3176,6 @@ const
 MARGINS_CANNOT_COLLAPSE
 =
 0b0010_0000_0000_0000_0000_0000
-;
 }
 }
 static
@@ -3233,9 +3216,6 @@ from_u32
 (
 self
 &
-FlowFlags
-:
-:
 TEXT_ALIGN
 )
 .
@@ -3278,9 +3258,6 @@ self
 self
 &
 !
-FlowFlags
-:
-:
 TEXT_ALIGN
 )
 |
@@ -3327,9 +3304,6 @@ self
 .
 contains
 (
-FlowFlags
-:
-:
 FLOATS_LEFT
 )
 {
@@ -3347,9 +3321,6 @@ self
 .
 contains
 (
-FlowFlags
-:
-:
 FLOATS_RIGHT
 )
 {
@@ -3391,9 +3362,6 @@ self
 .
 contains
 (
-FlowFlags
-:
-:
 FLOATS_LEFT
 )
 |
@@ -3402,9 +3370,6 @@ self
 .
 contains
 (
-FlowFlags
-:
-:
 FLOATS_RIGHT
 )
 }
@@ -3427,9 +3392,6 @@ self
 .
 contains
 (
-FlowFlags
-:
-:
 CLEARS_LEFT
 )
 |
@@ -3438,9 +3400,6 @@ self
 .
 contains
 (
-FlowFlags
-:
-:
 CLEARS_RIGHT
 )
 }
@@ -4253,9 +4212,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 FLOATS_LEFT
 )
 {
@@ -4275,9 +4231,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 FLOATS_RIGHT
 )
 {
@@ -4528,9 +4481,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 IS_ABSOLUTELY_POSITIONED
 )
 ;
@@ -4569,9 +4519,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 INLINE_POSITION_IS_STATIC
 )
 ;
@@ -4602,9 +4549,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 BLOCK_POSITION_IS_STATIC
 )
 ;
@@ -4617,14 +4561,8 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 BLOCK_POSITION_IS_STATIC
 |
-FlowFlags
-:
-:
 INLINE_POSITION_IS_STATIC
 )
 }
@@ -4670,9 +4608,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 FLOATS_LEFT
 )
 float
@@ -4688,9 +4623,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 FLOATS_RIGHT
 )
 }
@@ -4728,9 +4660,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 CLEARS_LEFT
 )
 clear
@@ -4746,9 +4675,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 CLEARS_RIGHT
 )
 clear
@@ -4765,9 +4691,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 CLEARS_LEFT
 )
 ;
@@ -4775,9 +4698,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 CLEARS_RIGHT
 )
 ;
@@ -4819,9 +4739,6 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 AFFECTS_COUNTERS
 )
 }
@@ -4833,14 +4750,8 @@ flags
 .
 insert
 (
-FlowFlags
-:
-:
 BLOCK_POSITION_IS_STATIC
 |
-FlowFlags
-:
-:
 INLINE_POSITION_IS_STATIC
 )
 }
@@ -4859,9 +4770,6 @@ damage
 .
 remove
 (
-ServoRestyleDamage
-:
-:
 RECONSTRUCT_FLOW
 )
 ;
@@ -5044,9 +4952,6 @@ restyle_damage
 .
 contains
 (
-ServoRestyleDamage
-:
-:
 REFLOW_OUT_OF_FLOW
 )
 {
@@ -5057,9 +4962,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 IS_ABSOLUTELY_POSITIONED
 )
 {
@@ -5078,9 +4980,6 @@ flags
 .
 set
 (
-FlowFlags
-:
-:
 INLINE_POSITION_IS_STATIC
 logical_position
 .
@@ -5110,9 +5009,6 @@ flags
 .
 set
 (
-FlowFlags
-:
-:
 BLOCK_POSITION_IS_STATIC
 logical_position
 .
@@ -5164,19 +5060,10 @@ self
 .
 restyle_damage
 |
-ServoRestyleDamage
-:
-:
 REPAINT
 |
-ServoRestyleDamage
-:
-:
 REFLOW_OUT_OF_FLOW
 |
-ServoRestyleDamage
-:
-:
 REFLOW
 parallel
 :
@@ -6108,9 +5995,6 @@ flags
 .
 contains
 (
-FlowFlags
-:
-:
 IS_ABSOLUTELY_POSITIONED
 )
 {

@@ -94,7 +94,7 @@ style_traits
 :
 :
 {
-ParsingMode
+PARSING_MODE_ALLOW_UNITLESS_LENGTH
 ToCss
 }
 ;
@@ -486,10 +486,7 @@ CssRuleType
 :
 Style
 )
-ParsingMode
-:
-:
-ALLOW_UNITLESS_LENGTH
+PARSING_MODE_ALLOW_UNITLESS_LENGTH
 QuirksMode
 :
 :

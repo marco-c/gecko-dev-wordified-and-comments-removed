@@ -192,7 +192,7 @@ style_traits
 :
 :
 {
-ParsingMode
+PARSING_MODE_DEFAULT
 ToCss
 }
 ;
@@ -559,10 +559,7 @@ CssRuleType
 :
 Media
 )
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 ;
@@ -833,10 +830,7 @@ CssRuleType
 :
 Media
 )
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 ;
@@ -1052,10 +1046,7 @@ CssRuleType
 :
 Media
 )
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 ;

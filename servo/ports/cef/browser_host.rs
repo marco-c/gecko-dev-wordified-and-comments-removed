@@ -4171,9 +4171,6 @@ key_modifiers
 constellation_msg
 :
 :
-KeyModifiers
-:
-:
 SHIFT
 ;
 }
@@ -4199,9 +4196,6 @@ key_modifiers
 constellation_msg
 :
 :
-KeyModifiers
-:
-:
 CONTROL
 ;
 }
@@ -4225,9 +4219,6 @@ key_modifiers
 key_modifiers
 |
 constellation_msg
-:
-:
-KeyModifiers
 :
 :
 ALT

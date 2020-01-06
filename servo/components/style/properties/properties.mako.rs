@@ -303,7 +303,7 @@ style_traits
 :
 :
 {
-ParsingMode
+PARSING_MODE_DEFAULT
 ToCss
 ParseError
 StyleParseErrorKind
@@ -3484,7 +3484,7 @@ for
 properties
 .
 pub
-struct
+flags
 PropertyFlags
 :
 u8
@@ -3506,7 +3506,6 @@ CREATES_STACKING_CONTEXT
 <
 <
 0
-;
 /
 /
 /
@@ -3538,7 +3537,6 @@ FIXPOS_CB
 <
 <
 1
-;
 /
 /
 /
@@ -3567,7 +3565,6 @@ ABSPOS_CB
 <
 <
 2
-;
 /
 /
 /
@@ -3588,7 +3585,6 @@ SHORTHAND_ALIAS_PROPERTY
 <
 <
 3
-;
 /
 /
 /
@@ -3610,7 +3606,6 @@ APPLIES_TO_FIRST_LETTER
 <
 <
 4
-;
 /
 /
 /
@@ -3632,7 +3627,6 @@ APPLIES_TO_FIRST_LINE
 <
 <
 5
-;
 /
 /
 /
@@ -3652,7 +3646,6 @@ APPLIES_TO_PLACEHOLDER
 <
 <
 6
-;
 }
 }
 /
@@ -6951,10 +6944,7 @@ self
 .
 url_data
 None
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 quirks_mode
 )
 ;
@@ -10471,9 +10461,6 @@ flags
 .
 contains
 (
-PropertyFlags
-:
-:
 SHORTHAND_ALIAS_PROPERTY
 )
 =
@@ -10916,9 +10903,6 @@ flags
 .
 contains
 (
-PropertyFlags
-:
-:
 SHORTHAND_ALIAS_PROPERTY
 )
 {
@@ -14349,9 +14333,6 @@ longhands
 text_decoration_line
 :
 :
-SpecifiedValue
-:
-:
 UNDERLINE
 )
 }
@@ -14391,9 +14372,6 @@ longhands
 :
 :
 text_decoration_line
-:
-:
-SpecifiedValue
 :
 :
 OVERLINE
@@ -14436,9 +14414,6 @@ longhands
 :
 :
 text_decoration_line
-:
-:
-SpecifiedValue
 :
 :
 LINE_THROUGH
@@ -15465,9 +15440,6 @@ flags
 .
 contains
 (
-ComputedValueFlags
-:
-:
 IS_STYLE_IF_VISITED
 )
 }
@@ -15639,7 +15611,7 @@ properties
 computed_value_flags
 :
 :
-ComputedValueFlags
+IS_IN_DISPLAY_NONE_SUBTREE
 ;
 self
 .
@@ -15647,9 +15619,6 @@ flags
 .
 contains
 (
-ComputedValueFlags
-:
-:
 IS_IN_DISPLAY_NONE_SUBTREE
 )
 }
@@ -18109,10 +18078,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-RTL
+FLAG_RTL
 )
 ;
 }
@@ -18158,10 +18124,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-VERTICAL
+FLAG_VERTICAL
 )
 ;
 }
@@ -18185,10 +18148,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-VERTICAL
+FLAG_VERTICAL
 )
 ;
 flags
@@ -18198,10 +18158,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-VERTICAL_LR
+FLAG_VERTICAL_LR
 )
 ;
 }
@@ -18234,10 +18191,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-VERTICAL
+FLAG_VERTICAL
 )
 ;
 flags
@@ -18247,10 +18201,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-SIDEWAYS
+FLAG_SIDEWAYS
 )
 ;
 }
@@ -18274,10 +18225,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-VERTICAL
+FLAG_VERTICAL
 )
 ;
 flags
@@ -18287,10 +18235,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-VERTICAL_LR
+FLAG_VERTICAL_LR
 )
 ;
 flags
@@ -18300,10 +18245,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-LINE_INVERTED
+FLAG_LINE_INVERTED
 )
 ;
 flags
@@ -18313,10 +18255,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-SIDEWAYS
+FLAG_SIDEWAYS
 )
 ;
 }
@@ -18379,10 +18318,7 @@ intersects
 logical_geometry
 :
 :
-WritingMode
-:
-:
-SIDEWAYS
+FLAG_SIDEWAYS
 )
 {
 match
@@ -18426,10 +18362,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-UPRIGHT
+FLAG_UPRIGHT
 )
 ;
 }
@@ -18453,10 +18386,7 @@ insert
 logical_geometry
 :
 :
-WritingMode
-:
-:
-SIDEWAYS
+FLAG_SIDEWAYS
 )
 ;
 }
@@ -20033,9 +19963,6 @@ cascade_flags
 .
 contains
 (
-CascadeFlags
-:
-:
 INHERIT_ALL
 )
 {
@@ -20051,9 +19978,6 @@ cascade_flags
 .
 contains
 (
-CascadeFlags
-:
-:
 VISITED_DEPENDENT_ONLY
 )
 {
@@ -20061,9 +19985,6 @@ flags
 .
 insert
 (
-ComputedValueFlags
-:
-:
 IS_STYLE_IF_VISITED
 )
 ;
@@ -20181,9 +20102,6 @@ flags
 .
 contains
 (
-ComputedValueFlags
-:
-:
 IS_STYLE_IF_VISITED
 )
 }
@@ -20615,9 +20533,6 @@ properties
 computed_value_flags
 :
 :
-ComputedValueFlags
-:
-:
 INHERITS_RESET_STYLE
 )
 ;
@@ -20654,9 +20569,6 @@ properties
 computed_value_flags
 :
 :
-ComputedValueFlags
-:
-:
 INHERITS_CONTENT
 )
 ;
@@ -20685,9 +20597,6 @@ properties
 :
 :
 computed_value_flags
-:
-:
-ComputedValueFlags
 :
 :
 INHERITS_DISPLAY
@@ -22857,7 +22766,7 @@ cascade
 function
 .
 pub
-struct
+flags
 CascadeFlags
 :
 u8
@@ -22898,7 +22807,6 @@ const
 INHERIT_ALL
 =
 1
-;
 /
 /
 /
@@ -22930,7 +22838,6 @@ SKIP_ROOT_AND_ITEM_BASED_DISPLAY_FIXUP
 <
 <
 1
-;
 /
 /
 /
@@ -22951,7 +22858,6 @@ VISITED_DEPENDENT_ONLY
 <
 <
 2
-;
 /
 /
 /
@@ -23044,7 +22950,6 @@ IS_ROOT_ELEMENT
 <
 <
 3
-;
 /
 /
 /
@@ -23086,7 +22991,6 @@ PROHIBIT_DISPLAY_CONTENTS
 <
 <
 4
-;
 /
 /
 /
@@ -23114,7 +23018,6 @@ IS_FIELDSET_CONTENT
 <
 <
 5
-;
 /
 /
 /
@@ -23143,7 +23046,6 @@ IS_LINK
 <
 <
 6
-;
 /
 /
 /
@@ -23174,7 +23076,6 @@ IS_VISITED_LINK
 <
 <
 7
-;
 }
 }
 /
@@ -24053,9 +23954,6 @@ flags
 .
 contains
 (
-CascadeFlags
-:
-:
 IS_ROOT_ELEMENT
 )
 /
@@ -24523,9 +24421,6 @@ flags
 .
 contains
 (
-CascadeFlags
-:
-:
 VISITED_DEPENDENT_ONLY
 )
 &

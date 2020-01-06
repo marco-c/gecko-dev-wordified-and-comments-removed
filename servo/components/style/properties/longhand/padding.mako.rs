@@ -213,13 +213,7 @@ spec
 flags
 =
 "
-PropertyFlags
-:
-:
 APPLIES_TO_FIRST_LETTER
-PropertyFlags
-:
-:
 APPLIES_TO_PLACEHOLDER
 "
 allow_quirks

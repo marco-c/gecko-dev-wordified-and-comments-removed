@@ -355,7 +355,7 @@ use
 style_traits
 :
 :
-ParsingMode
+PARSING_MODE_DEFAULT
 ;
 use
 stylesheet_loader
@@ -2049,10 +2049,7 @@ CssRuleType
 :
 Media
 )
-ParsingMode
-:
-:
-DEFAULT
+PARSING_MODE_DEFAULT
 document
 .
 quirks_mode

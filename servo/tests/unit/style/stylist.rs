@@ -150,12 +150,6 @@ style
 :
 :
 thread_state
-:
-:
-{
-self
-ThreadState
-}
 ;
 fn
 get_mock_rules
@@ -1435,7 +1429,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 LAYOUT
@@ -1511,7 +1505,7 @@ thread_state
 :
 initialize
 (
-ThreadState
+thread_state
 :
 :
 LAYOUT

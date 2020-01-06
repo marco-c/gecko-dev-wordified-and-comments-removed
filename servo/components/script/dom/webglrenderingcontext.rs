@@ -1028,7 +1028,7 @@ JSTraceable
 MallocSizeOf
 )
 ]
-struct
+flags
 TextureUnpacking
 :
 u8
@@ -1037,17 +1037,14 @@ const
 FLIP_Y_AXIS
 =
 0x01
-;
 const
 PREMULTIPLY_ALPHA
 =
 0x02
-;
 const
 CONVERT_COLORSPACE
 =
 0x04
-;
 }
 }
 #
@@ -1659,9 +1656,6 @@ Cell
 :
 new
 (
-TextureUnpacking
-:
-:
 CONVERT_COLORSPACE
 )
 texture_unpacking_alignment
@@ -5967,9 +5961,6 @@ get
 .
 contains
 (
-TextureUnpacking
-:
-:
 FLIP_Y_AXIS
 )
 {
@@ -6144,9 +6135,6 @@ get
 .
 contains
 (
-TextureUnpacking
-:
-:
 PREMULTIPLY_ALPHA
 )
 {
@@ -6822,9 +6810,6 @@ get
 .
 contains
 (
-TextureUnpacking
-:
-:
 PREMULTIPLY_ALPHA
 )
 ;
@@ -15063,9 +15048,6 @@ texture_settings
 .
 insert
 (
-TextureUnpacking
-:
-:
 FLIP_Y_AXIS
 )
 }
@@ -15075,9 +15057,6 @@ texture_settings
 .
 remove
 (
-TextureUnpacking
-:
-:
 FLIP_Y_AXIS
 )
 }
@@ -15110,9 +15089,6 @@ texture_settings
 .
 insert
 (
-TextureUnpacking
-:
-:
 PREMULTIPLY_ALPHA
 )
 }
@@ -15122,9 +15098,6 @@ texture_settings
 .
 remove
 (
-TextureUnpacking
-:
-:
 PREMULTIPLY_ALPHA
 )
 }
@@ -15162,9 +15135,6 @@ texture_settings
 .
 insert
 (
-TextureUnpacking
-:
-:
 CONVERT_COLORSPACE
 )
 constants
@@ -15177,9 +15147,6 @@ texture_settings
 .
 remove
 (
-TextureUnpacking
-:
-:
 CONVERT_COLORSPACE
 )
 _
