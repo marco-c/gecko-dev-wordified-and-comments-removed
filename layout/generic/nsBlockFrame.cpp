@@ -22254,6 +22254,11 @@ MarkDirty
 (
 )
 ;
+*
+aKeepReflowGoing
+=
+false
+;
 return
 true
 ;
@@ -22315,6 +22320,11 @@ mReflowStatus
 SetInlineLineBreakBeforeAndReset
 (
 )
+;
+*
+aKeepReflowGoing
+=
+false
 ;
 }
 else
