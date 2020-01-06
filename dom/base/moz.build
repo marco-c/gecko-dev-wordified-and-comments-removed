@@ -1729,6 +1729,11 @@ Selection
 cpp
 '
 '
+SelectionChangeListener
+.
+cpp
+'
+'
 ShadowRoot
 .
 cpp
