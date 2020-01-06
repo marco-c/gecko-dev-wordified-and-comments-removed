@@ -792,6 +792,22 @@ rs
         
 self
 .
+_installed_idls
+=
+'
+(
+MOZ_OBJ_ROOT
+)
+/
+<
+installed
+-
+idls
+>
+'
+        
+self
+.
 _installed_files
 =
 '
@@ -2672,7 +2688,7 @@ output_group
 =
 self
 .
-_installed_files
+_installed_idls
 )
         
 backend_file
@@ -2926,7 +2942,7 @@ py
                     
 self
 .
-_installed_files
+_installed_idls
                 
 ]
                 
@@ -2947,6 +2963,14 @@ cmd
 outputs
 =
 outputs
+                
+extra_outputs
+=
+[
+self
+.
+_installed_files
+]
             
 )
         
@@ -3627,6 +3651,14 @@ outputs
 =
 outputs
             
+extra_outputs
+=
+[
+self
+.
+_installed_files
+]
+            
 check_unchanged
 =
 True
@@ -3787,6 +3819,14 @@ all_non_static_basenames
 outputs
 =
 outputs
+            
+extra_outputs
+=
+[
+self
+.
+_installed_files
+]
             
 check_unchanged
 =
