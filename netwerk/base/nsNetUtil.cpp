@@ -6407,14 +6407,9 @@ GetLoadInfo
 ;
 if
 (
-!
 loadInfo
 )
 {
-return
-false
-;
-}
 loadInfo
 -
 >
@@ -6424,6 +6419,7 @@ GetOriginAttributes
 aAttributes
 )
 ;
+}
 bool
 isPrivate
 =
