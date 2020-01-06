@@ -281,6 +281,15 @@ browser
 /
 ext
 -
+pkcs11
+.
+js
+content
+/
+browser
+/
+ext
+-
 sessions
 .
 js

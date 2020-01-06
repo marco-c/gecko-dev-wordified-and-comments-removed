@@ -207,6 +207,15 @@ browser
 /
 schemas
 /
+pkcs11
+.
+json
+content
+/
+browser
+/
+schemas
+/
 sessions
 .
 json
