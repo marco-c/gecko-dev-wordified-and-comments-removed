@@ -277,9 +277,6 @@ PostHandleKeyboardEvent
 WidgetKeyboardEvent
 *
 aKeyboardEvent
-nsIFrame
-*
-aTargetFrame
 nsEventStatus
 &
 aStatus
