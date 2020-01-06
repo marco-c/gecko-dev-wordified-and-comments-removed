@@ -14962,9 +14962,10 @@ nsACString
 input
 )
 {
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
+SetDirectory
 "
 )
 ;

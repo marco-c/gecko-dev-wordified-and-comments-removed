@@ -5879,7 +5879,7 @@ nsIContentViewer
 aDocViewerResult
 )
 {
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 didn

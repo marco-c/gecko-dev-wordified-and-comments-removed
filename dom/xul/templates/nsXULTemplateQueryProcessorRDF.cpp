@@ -3271,7 +3271,7 @@ mUpdateBatchNest
 return
 NS_OK
 ;
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 write

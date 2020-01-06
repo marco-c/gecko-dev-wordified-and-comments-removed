@@ -3713,7 +3713,7 @@ nsISimpleEnumerator
 aResult
 )
 {
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 CompositeDataSourceImpl

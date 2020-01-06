@@ -9926,7 +9926,7 @@ bool
 aNotify
 )
 {
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Element

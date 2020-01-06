@@ -29419,7 +29419,7 @@ VALUE_MODE_VALUE
 ;
 default
 :
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected
@@ -29571,7 +29571,7 @@ true
 ;
 default
 :
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected
@@ -29689,7 +29689,7 @@ true
 ;
 default
 :
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected
@@ -29835,7 +29835,7 @@ false
 ;
 default
 :
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected
@@ -29953,7 +29953,7 @@ false
 ;
 default
 :
-NS_NOTYETIMPLEMENTED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected
