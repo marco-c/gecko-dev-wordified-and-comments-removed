@@ -115,10 +115,6 @@ MPL
 *
 /
 include
-protocol
-PBlob
-;
-include
 IPCBlob
 ;
 include
@@ -465,6 +461,11 @@ optionalBlobData
 struct
 SlicedBlobConstructorParams
 {
+/
+/
+broken
+structure
+:
 PBlob
 source
 ;
