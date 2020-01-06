@@ -1268,7 +1268,9 @@ ccache_is_sccache
 )
 :
 return
-True
+ccache
+and
+ccache_is_sccache
 set_config
 (
 '
