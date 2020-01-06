@@ -770,11 +770,6 @@ ServoTraversalFlags
 aFlags
 )
 ;
-bool
-StyleDocumentForThrottledAnimationFlush
-(
-)
-;
 void
 StyleNewSubtree
 (
