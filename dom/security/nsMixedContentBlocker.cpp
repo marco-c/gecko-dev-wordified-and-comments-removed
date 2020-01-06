@@ -1962,6 +1962,17 @@ return
 NS_OK
 ;
 case
+TYPE_SAVEAS_DOWNLOAD
+:
+*
+aDecision
+=
+ACCEPT
+;
+return
+NS_OK
+;
+case
 TYPE_IMAGE
 :
 case
