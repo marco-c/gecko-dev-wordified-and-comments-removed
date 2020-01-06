@@ -187,6 +187,9 @@ test_onecrl
 test_pinning_dynamic
 '
 '
+test_signed_apps
+'
+'
 test_startcom_wosign
 '
 '

@@ -703,7 +703,7 @@ AppXPCShellRoot
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 check_open_result
@@ -738,7 +738,7 @@ AppXPCShellRoot
 original_app_path
 (
 "
-unsigned_app_1
+unsigned_app
 "
 )
 check_open_result
@@ -773,7 +773,7 @@ AppXPCShellRoot
 original_app_path
 (
 "
-unknown_issuer_app_1
+unknown_issuer_app
 "
 )
 check_open_result
@@ -812,7 +812,7 @@ tamper
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 tampered
@@ -834,7 +834,7 @@ AppXPCShellRoot
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 check_open_result
@@ -872,7 +872,7 @@ tamper
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 tampered
@@ -938,7 +938,7 @@ tamper
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 tampered
@@ -1004,7 +1004,7 @@ tamper
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 tampered
@@ -1070,7 +1070,7 @@ tamper
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 tampered
@@ -1078,7 +1078,7 @@ tampered
 "
 manifest
 .
-webapp
+json
 "
 :
 removeEntry
@@ -1132,7 +1132,7 @@ tamper
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 tampered
@@ -1140,7 +1140,7 @@ tampered
 "
 manifest
 .
-webapp
+json
 "
 :
 truncateEntry
@@ -1194,7 +1194,7 @@ tamper
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 tampered
@@ -1269,7 +1269,7 @@ tamper
 original_app_path
 (
 "
-valid_app_1
+signed_app
 "
 )
 tampered

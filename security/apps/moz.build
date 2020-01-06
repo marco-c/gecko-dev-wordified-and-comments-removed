@@ -270,7 +270,7 @@ test_ssl_path
 /
 test_signed_apps
 /
-trusted_ca1
+xpcshellTestRoot
 .
 der
 '
