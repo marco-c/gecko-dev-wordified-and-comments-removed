@@ -83,6 +83,9 @@ floor
 "
 ceil
 "
+"
+atof
+"
 /
 memchr
 /
