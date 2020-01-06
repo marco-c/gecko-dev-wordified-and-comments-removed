@@ -1350,7 +1350,6 @@ rules
 AppendElement
 (
 owningRule
-false
 )
 ;
 }
@@ -1623,7 +1622,6 @@ Rule
 (
 rule
 )
-false
 )
 ;
 }
@@ -5139,7 +5137,6 @@ PrototypeBinding
 BindingURI
 (
 )
-false
 )
 ;
 binding

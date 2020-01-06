@@ -2404,7 +2404,6 @@ idx
 ]
 )
 )
-false
 )
 ;
 xpcRanges
@@ -2531,7 +2530,6 @@ idx
 ]
 )
 )
-false
 )
 ;
 xpcRanges

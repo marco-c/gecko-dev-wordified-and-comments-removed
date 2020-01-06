@@ -2326,7 +2326,6 @@ fileArray
 AppendElement
 (
 curFile
-false
 )
 ;
 }

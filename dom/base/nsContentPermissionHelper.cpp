@@ -1109,7 +1109,6 @@ options
 AppendElement
 (
 isupportsString
-false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1213,7 +1212,6 @@ aDesArray
 AppendElement
 (
 cpt
-false
 )
 ;
 }
@@ -1549,7 +1547,6 @@ types
 AppendElement
 (
 permType
-false
 )
 ;
 types

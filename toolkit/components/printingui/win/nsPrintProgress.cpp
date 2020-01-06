@@ -384,7 +384,6 @@ array
 AppendElement
 (
 ifptr
-false
 )
 ;
 array
@@ -393,7 +392,6 @@ array
 AppendElement
 (
 parameters
-false
 )
 ;
 nsCOMPtr

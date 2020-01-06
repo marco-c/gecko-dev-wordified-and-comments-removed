@@ -1300,7 +1300,6 @@ singletonArray
 AppendElement
 (
 aArguments
-false
 )
 ;
 NS_ENSURE_SUCCESS

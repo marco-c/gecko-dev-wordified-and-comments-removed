@@ -752,7 +752,6 @@ items
 AppendElement
 (
 additionalItem
-false
 )
 ;
 if
@@ -1452,7 +1451,6 @@ items
 AppendElement
 (
 item
-false
 )
 ;
 if
@@ -1568,7 +1566,6 @@ options
 AppendElement
 (
 option
-false
 )
 ;
 if
@@ -1684,7 +1681,6 @@ detailsModifiers
 AppendElement
 (
 detailsModifier
-false
 )
 ;
 if

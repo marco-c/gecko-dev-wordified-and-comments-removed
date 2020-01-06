@@ -1684,7 +1684,6 @@ components
 AppendElement
 (
 stats
-false
 )
 ;
 MOZ_ASSERT

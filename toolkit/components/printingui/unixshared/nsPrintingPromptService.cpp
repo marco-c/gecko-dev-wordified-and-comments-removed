@@ -832,7 +832,6 @@ array
 AppendElement
 (
 psSupports
-false
 )
 ;
 if
@@ -870,7 +869,6 @@ array
 AppendElement
 (
 wbpSupports
-false
 )
 ;
 }
@@ -904,7 +902,6 @@ array
 AppendElement
 (
 blkSupps
-false
 )
 ;
 nsCOMPtr

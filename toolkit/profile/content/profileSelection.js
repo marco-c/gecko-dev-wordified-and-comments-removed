@@ -577,7 +577,6 @@ profileLock
 .
 nsIProfileLock
 0
-false
 )
 ;
 gProfileService

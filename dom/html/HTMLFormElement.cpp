@@ -7505,7 +7505,6 @@ sortedControls
 i
 ]
 )
-false
 )
 ;
 }

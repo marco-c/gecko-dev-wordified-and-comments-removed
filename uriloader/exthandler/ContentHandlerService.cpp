@@ -571,7 +571,6 @@ possibleHandlers
 AppendElement
 (
 preferredApp
-false
 )
 ;
 }

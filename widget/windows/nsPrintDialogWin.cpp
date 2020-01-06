@@ -538,7 +538,6 @@ array
 AppendElement
 (
 psSupports
-false
 )
 ;
 nsCOMPtr
@@ -571,7 +570,6 @@ array
 AppendElement
 (
 blkSupps
-false
 )
 ;
 nsCOMPtr

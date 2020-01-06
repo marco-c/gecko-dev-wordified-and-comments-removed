@@ -12228,7 +12228,6 @@ devicesCopy
 AppendElement
 (
 device
-false
 )
 ;
 if
@@ -16904,7 +16903,6 @@ array
 AppendElement
 (
 window
-false
 )
 ;
 }

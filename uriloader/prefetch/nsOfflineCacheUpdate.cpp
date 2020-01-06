@@ -3026,7 +3026,6 @@ mNamespaces
 AppendElement
 (
 ns
-false
 )
 ;
 NS_ENSURE_SUCCESS

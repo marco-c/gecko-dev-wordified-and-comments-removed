@@ -1060,7 +1060,6 @@ resultArray
 AppendElement
 (
 supports
-false
 )
 ;
 rv
@@ -1190,7 +1189,6 @@ resultArray
 AppendElement
 (
 propElement
-false
 )
 ;
 }
