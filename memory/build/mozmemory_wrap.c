@@ -497,6 +497,7 @@ wchar
 .
 h
 >
+MOZ_MEMORY_API
 wchar_t
 *
 wcsdup_impl
@@ -554,6 +555,7 @@ return
 dst
 ;
 }
+MOZ_MEMORY_API
 void
 *
 _aligned_malloc
