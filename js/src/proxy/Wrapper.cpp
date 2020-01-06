@@ -199,7 +199,7 @@ wrappedKind
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 getOwnPropertyDescriptor
@@ -261,7 +261,7 @@ desc
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 defineProperty
@@ -323,7 +323,7 @@ result
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 ownPropertyKeys
@@ -382,7 +382,7 @@ props
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 delete_
@@ -439,7 +439,7 @@ result
 }
 JSObject
 *
-Wrapper
+ForwardingProxyHandler
 :
 :
 enumerate
@@ -497,7 +497,7 @@ target
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 getPrototype
@@ -541,7 +541,7 @@ protop
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 setPrototype
@@ -589,7 +589,7 @@ result
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 getPrototypeIfOrdinary
@@ -637,7 +637,7 @@ protop
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 setImmutablePrototype
@@ -682,7 +682,7 @@ succeeded
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 preventExtensions
@@ -727,7 +727,7 @@ result
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 isExtensible
@@ -772,7 +772,7 @@ extensible
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 has
@@ -836,7 +836,7 @@ bp
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 get
@@ -894,7 +894,7 @@ vp
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 set
@@ -956,7 +956,7 @@ result
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 call
@@ -1042,7 +1042,7 @@ rval
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 construct
@@ -1170,7 +1170,7 @@ true
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 getPropertyDescriptor
@@ -1240,7 +1240,7 @@ desc
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 hasOwn
@@ -1296,7 +1296,7 @@ bp
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 getOwnEnumerablePropertyKeys
@@ -1351,7 +1351,7 @@ props
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 nativeCall
@@ -1433,7 +1433,7 @@ args
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 hasInstance
@@ -1489,7 +1489,7 @@ bp
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 getBuiltinClass
@@ -1534,7 +1534,7 @@ cls
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 isArray
@@ -1584,7 +1584,7 @@ answer
 const
 char
 *
-Wrapper
+ForwardingProxyHandler
 :
 :
 className
@@ -1634,7 +1634,7 @@ target
 }
 JSString
 *
-Wrapper
+ForwardingProxyHandler
 :
 :
 fun_toString
@@ -1687,7 +1687,7 @@ isToSource
 }
 RegExpShared
 *
-Wrapper
+ForwardingProxyHandler
 :
 :
 regexp_toShared
@@ -1728,7 +1728,7 @@ target
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 boxedValue_unbox
@@ -1772,7 +1772,7 @@ vp
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 isCallable
@@ -1811,7 +1811,7 @@ isCallable
 ;
 }
 bool
-Wrapper
+ForwardingProxyHandler
 :
 :
 isConstructor
