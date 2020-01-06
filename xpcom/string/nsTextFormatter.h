@@ -159,15 +159,6 @@ va_list
 aAp
 )
 ;
-static
-void
-smprintf_free
-(
-char16_t
-*
-aMem
-)
-;
 }
 ;
 #
