@@ -7,9 +7,9 @@ os
 import
 sys
 from
-check_utils
+mozversioncontrol
 import
-get_all_toplevel_filenames
+get_repository_from_env
 scriptname
 =
 os
@@ -196,10 +196,24 @@ result
 =
 True
     
+repo
+=
+get_repository_from_env
+(
+)
+    
+root
+=
+repo
+.
+path
+    
 for
 filename
 in
-get_all_toplevel_filenames
+repo
+.
+get_files_in_working_directory
 (
 )
 :
@@ -227,7 +241,15 @@ if
 not
 check_single_file
 (
+os
+.
+path
+.
+join
+(
+root
 filename
+)
 )
 :
                     
