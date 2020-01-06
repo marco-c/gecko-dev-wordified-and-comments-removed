@@ -10471,10 +10471,9 @@ const
 nsACString
 &
 aTable
-nsIUrlClassifierCacheInfo
+nsIUrlClassifierGetCacheCallback
 *
-*
-aCache
+aCallback
 )
 {
 NS_ENSURE_TRUE
@@ -10490,8 +10489,11 @@ mWorkerProxy
 GetCacheInfo
 (
 aTable
-aCache
+aCallback
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
