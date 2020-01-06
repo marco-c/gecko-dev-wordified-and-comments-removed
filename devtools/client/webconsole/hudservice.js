@@ -777,9 +777,6 @@ registerActors
 root
 :
 true
-browser
-:
-false
 tab
 :
 true

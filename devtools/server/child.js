@@ -97,12 +97,6 @@ DebuggerServer
 registerActors
 (
 {
-root
-:
-false
-browser
-:
-false
 tab
 :
 true
