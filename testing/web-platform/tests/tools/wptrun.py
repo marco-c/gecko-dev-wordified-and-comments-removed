@@ -58,6 +58,14 @@ __file__
 )
 )
 class
+WptrunError
+(
+Exception
+)
+:
+    
+pass
+class
 WptrunnerHelpAction
 (
 argparse
@@ -430,7 +438,8 @@ Windows
 "
 :
                 
-exit
+raise
+WptrunError
 (
 "
 "
@@ -497,7 +506,8 @@ none
 else
 :
                 
-exit
+raise
+WptrunError
 (
 "
 "
@@ -558,8 +568,6 @@ firefox
         
 expected_hosts
 =
-set
-(
 [
 "
 web
@@ -568,7 +576,7 @@ platform
 .
 test
 "
-                              
+                          
 "
 www
 .
@@ -578,7 +586,7 @@ platform
 .
 test
 "
-                              
+                          
 "
 www1
 .
@@ -588,7 +596,7 @@ platform
 .
 test
 "
-                              
+                          
 "
 www2
 .
@@ -598,7 +606,7 @@ platform
 .
 test
 "
-                              
+                          
 "
 xn
 -
@@ -611,7 +619,7 @@ platform
 .
 test
 "
-                              
+                          
 "
 xn
 -
@@ -626,7 +634,7 @@ platform
 .
 test
 "
-                              
+                          
 "
 nonexistent
 -
@@ -639,6 +647,12 @@ platform
 test
 "
 ]
+        
+missing_hosts
+=
+set
+(
+expected_hosts
 )
         
 if
@@ -748,7 +762,7 @@ parts
 1
 ]
                     
-expected_hosts
+missing_hosts
 .
 discard
 (
@@ -756,10 +770,11 @@ host
 )
             
 if
-expected_hosts
+missing_hosts
 :
                 
-exit
+raise
+WptrunError
 (
 "
 "
@@ -768,10 +783,13 @@ Missing
 hosts
 file
 configuration
-for
+.
+Expected
+entries
+like
+:
 %
 s
-.
 See
 README
 .
@@ -785,10 +803,55 @@ details
 "
 %
 "
+\
+n
 "
 .
 join
 (
+"
+%
+s
+\
+t
+%
+s
+"
+%
+                                               
+(
+"
+127
+.
+0
+.
+0
+.
+1
+"
+if
+"
+nonexistent
+"
+not
+in
+host
+else
+"
+0
+.
+0
+.
+0
+.
+0
+"
+host
+)
+                                               
+for
+host
+in
 expected_hosts
 )
 )
@@ -904,7 +967,8 @@ is
 None
 :
             
-exit
+raise
+WptrunError
 (
 "
 "
@@ -979,7 +1043,8 @@ is
 None
 :
             
-exit
+raise
+WptrunError
 (
 "
 "
@@ -1493,7 +1558,8 @@ webdriver_binary
 else
 :
             
-exit
+raise
+WptrunError
 (
 "
 Unable
@@ -1591,7 +1657,8 @@ is
 None
 :
             
-exit
+raise
+WptrunError
 (
 "
 "
@@ -1771,7 +1838,8 @@ is
 None
 :
             
-exit
+raise
+WptrunError
 (
 "
 Unable
@@ -1978,7 +2046,8 @@ in
 product_setup
 :
         
-exit
+raise
+WptrunError
 (
 "
 Unsupported
@@ -2051,12 +2120,15 @@ main
 )
 :
     
+try
+:
+        
 parser
 =
 create_parser
 (
 )
-    
+        
 args
 =
 parser
@@ -2064,7 +2136,7 @@ parser
 parse_args
 (
 )
-    
+        
 venv
 =
 virtualenv
@@ -2094,13 +2166,13 @@ uname
 0
 ]
 )
-    
+        
 venv
 .
 start
 (
 )
-    
+        
 venv
 .
 install_requirements
@@ -2125,7 +2197,7 @@ txt
 "
 )
 )
-    
+        
 venv
 .
 install
@@ -2134,7 +2206,7 @@ install
 requests
 "
 )
-    
+        
 kwargs
 =
 setup_wptrunner
@@ -2155,12 +2227,12 @@ args
 .
 prompt
 )
-    
+        
 from
 wptrunner
 import
 wptrunner
-    
+        
 wptrunner
 .
 start
@@ -2168,6 +2240,19 @@ start
 *
 *
 kwargs
+)
+    
+except
+WptrunError
+as
+e
+:
+        
+exit
+(
+e
+.
+message
 )
 if
 __name__
