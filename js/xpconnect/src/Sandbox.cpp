@@ -2803,8 +2803,8 @@ nullptr
 nullptr
 nullptr
 nullptr
-JS_EnumerateStandardClasses
 nullptr
+JS_NewEnumerateStandardClasses
 JS_ResolveStandardClass
 JS_MayResolveStandardClass
 sandbox_finalize
@@ -2866,8 +2866,8 @@ sandbox_addProperty
 nullptr
 nullptr
 nullptr
-JS_EnumerateStandardClasses
 nullptr
+JS_NewEnumerateStandardClasses
 JS_ResolveStandardClass
 JS_MayResolveStandardClass
 sandbox_finalize
