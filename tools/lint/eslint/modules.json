@@ -2561,17 +2561,6 @@ JSDOMParser
 "
 ]
 "
-Jsbeautify
-.
-jsm
-"
-:
-[
-"
-jsBeautify
-"
-]
-"
 jsdebugger
 .
 jsm
