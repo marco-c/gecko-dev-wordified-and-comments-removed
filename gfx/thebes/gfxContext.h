@@ -872,6 +872,7 @@ gfxRect
 GetClipExtents
 (
 )
+const
 ;
 bool
 ClipContainsRect
@@ -1424,6 +1425,7 @@ Rect
 GetAzureDeviceSpaceClipBounds
 (
 )
+const
 ;
 Matrix
 GetDeviceTransform
