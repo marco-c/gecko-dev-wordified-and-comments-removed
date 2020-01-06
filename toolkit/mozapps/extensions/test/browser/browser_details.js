@@ -1,8 +1,3 @@
-const
-{
-REQUIRE_SIGNING
-}
-=
 Components
 .
 utils
@@ -18,14 +13,10 @@ gre
 /
 modules
 /
-addons
-/
-AddonConstants
+AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -9474,7 +9465,9 @@ run_next_test
 if
 (
 !
-REQUIRE_SIGNING
+AppConstants
+.
+MOZ_REQUIRE_SIGNING
 )
 {
 add_test
@@ -10240,6 +10233,8 @@ run_next_test
 if
 (
 !
+AppConstants
+.
 REQUIRE_SIGNING
 )
 {

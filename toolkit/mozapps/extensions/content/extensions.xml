@@ -10682,7 +10682,9 @@ mAddon
 )
 &
 &
-SIGNING_REQUIRED
+AddonSettings
+.
+REQUIRE_SIGNING
 )
 {
 this

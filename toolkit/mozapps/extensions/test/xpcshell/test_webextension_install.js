@@ -1,9 +1,6 @@
-const
-{
-ADDON_SIGNING
-}
-=
-AM_Cu
+Components
+.
+utils
 .
 import
 (
@@ -18,14 +15,11 @@ modules
 /
 addons
 /
-AddonConstants
+AddonSettings
 .
 jsm
 "
-{
-}
 )
-;
 function
 run_test
 (
@@ -156,6 +150,8 @@ test_implicit_id
 {
 ok
 (
+AddonSettings
+.
 ADDON_SIGNING
 "
 Add
@@ -256,6 +252,8 @@ test_implicit_id_temp
 {
 ok
 (
+AddonSettings
+.
 ADDON_SIGNING
 "
 Add
