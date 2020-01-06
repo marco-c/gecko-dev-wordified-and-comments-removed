@@ -190,11 +190,6 @@ chunked
 -
 arraybuffer
 "
-"
-moz
--
-blob
-"
 }
 ;
 /

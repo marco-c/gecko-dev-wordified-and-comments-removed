@@ -1798,14 +1798,6 @@ JSContext
 aCx
 )
 ;
-void
-CreatePartialBlob
-(
-ErrorResult
-&
-aRv
-)
-;
 nsresult
 ChangeState
 (
@@ -2275,12 +2267,6 @@ RefPtr
 MutableBlobStorage
 >
 mBlobStorage
-;
-nsAutoPtr
-<
-BlobSet
->
-mBlobSet
 ;
 nsString
 mOverrideMimeType

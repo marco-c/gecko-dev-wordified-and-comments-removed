@@ -1277,15 +1277,6 @@ html
 #
 Bug
 1383845
-HTTP
-(
-.
-.
-)
-load
-xhr_abortinprogress
-.
-html
 load
 xhr_empty_datauri
 .
