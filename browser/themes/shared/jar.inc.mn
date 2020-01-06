@@ -2980,6 +2980,9 @@ chevron
 .
 svg
 )
+#
+ifdef
+MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -3005,6 +3008,8 @@ animation
 .
 svg
 )
+#
+endif
 skin
 /
 classic
@@ -3114,6 +3119,9 @@ mobile
 .
 svg
 )
+#
+ifdef
+MOZ_PHOTON_THEME
 skin
 /
 classic
@@ -3139,6 +3147,8 @@ desktop
 .
 svg
 )
+#
+endif
 #
 ifndef
 MOZ_PHOTON_THEME
@@ -3240,6 +3250,9 @@ paste
 .
 svg
 )
+#
+ifdef
+MOZ_PHOTON_THEME
 skin
 /
 classic
@@ -3265,6 +3278,8 @@ link
 .
 svg
 )
+#
+endif
 skin
 /
 classic
@@ -3504,6 +3519,9 @@ library
 .
 svg
 )
+#
+ifdef
+MOZ_PHOTON_THEME
 skin
 /
 classic
@@ -3525,6 +3543,8 @@ link
 .
 svg
 )
+#
+endif
 skin
 /
 classic
@@ -3638,6 +3658,9 @@ open
 .
 svg
 )
+#
+ifdef
+MOZ_PHOTON_THEME
 skin
 /
 classic
@@ -3663,6 +3686,8 @@ action
 .
 svg
 )
+#
+endif
 skin
 /
 classic
@@ -4430,6 +4455,9 @@ crashed
 .
 svg
 )
+#
+ifdef
+MOZ_PHOTON_THEME
 skin
 /
 classic
@@ -4461,6 +4489,8 @@ attention
 .
 svg
 )
+#
+endif
 skin
 /
 classic
