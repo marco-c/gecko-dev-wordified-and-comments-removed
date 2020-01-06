@@ -215,16 +215,13 @@ false
 {
 mExplicitDuration
 .
-Set
-(
-Some
+emplace
 (
 UnspecifiedNaN
 <
 double
 >
 (
-)
 )
 )
 ;
