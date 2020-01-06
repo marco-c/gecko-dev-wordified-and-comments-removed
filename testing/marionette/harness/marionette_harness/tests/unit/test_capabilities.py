@@ -733,28 +733,6 @@ MarionetteTestCase
 )
 :
     
-allowed
-=
-[
-None
-"
-*
-"
-]
-    
-disallowed
-=
-[
-"
-"
-42
-True
-{
-}
-[
-]
-]
-    
 def
 setUp
 (
@@ -768,36 +746,6 @@ setUp
 (
 self
 )
-        
-self
-.
-browser_name
-=
-self
-.
-marionette
-.
-session_capabilities
-[
-"
-browserName
-"
-]
-        
-self
-.
-platform_name
-=
-self
-.
-marionette
-.
-session_capabilities
-[
-"
-platformName
-"
-]
         
 self
 .
@@ -1107,7 +1055,7 @@ value
 )
     
 def
-test_proxy_default
+test_proxy_none_by_default
 (
 self
 )
@@ -1136,7 +1084,7 @@ session_capabilities
 )
     
 def
-test_proxy_desired
+test_proxy_type_direct
 (
 self
 )
@@ -1159,7 +1107,7 @@ proxyType
 "
 :
 "
-manual
+direct
 "
 }
 }
@@ -1199,7 +1147,7 @@ proxyType
 "
 ]
 "
-manual
+direct
 "
 )
         
@@ -1221,11 +1169,11 @@ proxy
 type
 "
 )
-1
+0
 )
     
 def
-test_proxy_required
+test_proxy_type_manual
 (
 self
 )

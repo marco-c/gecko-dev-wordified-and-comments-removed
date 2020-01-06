@@ -868,7 +868,7 @@ p
 proxyType
 =
 "
-noproxy
+direct
 "
 ;
 ok
