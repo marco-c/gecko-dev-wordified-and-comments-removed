@@ -4615,7 +4615,7 @@ size
 animation_value_type
 =
 "
-ComputedValue
+NonNegativeLength
 "
 flags
 =
