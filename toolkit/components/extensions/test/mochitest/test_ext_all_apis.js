@@ -241,6 +241,11 @@ expectedCommonApis
 .
 expectedBackgroundApisTargetSpecific
 "
+contentScripts
+.
+register
+"
+"
 extension
 .
 ViewType

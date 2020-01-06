@@ -6995,6 +6995,12 @@ contentScripts
 this
 .
 contentScripts
+registeredContentScripts
+:
+new
+Map
+(
+)
 webAccessibleResources
 :
 this
@@ -7409,6 +7415,14 @@ this
 serialize
 (
 )
+;
+this
+.
+registeredContentScripts
+=
+serial
+.
+registeredContentScripts
 ;
 data
 [

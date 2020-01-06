@@ -2417,6 +2417,16 @@ this
 uri
 .
 spec
+wantGlobalProperties
+:
+[
+"
+Blob
+"
+"
+URL
+"
+]
 }
 )
 ;

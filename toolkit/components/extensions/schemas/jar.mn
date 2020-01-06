@@ -98,6 +98,15 @@ extensions
 /
 schemas
 /
+content_scripts
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 contextual_identities
 .
 json
