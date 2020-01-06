@@ -87,12 +87,6 @@ uint8_t
 >
 &
 aRegistration
-nsTArray
-<
-uint8_t
->
-&
-aSignature
 )
 override
 ;

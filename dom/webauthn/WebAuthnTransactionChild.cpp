@@ -57,13 +57,6 @@ uint8_t
 &
 &
 aRegBuffer
-nsTArray
-<
-uint8_t
->
-&
-&
-aSigBuffer
 )
 {
 RefPtr
@@ -90,7 +83,6 @@ mgr
 FinishMakeCredential
 (
 aRegBuffer
-aSigBuffer
 )
 ;
 return

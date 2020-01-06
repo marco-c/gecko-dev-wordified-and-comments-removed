@@ -888,12 +888,6 @@ uint8_t
 >
 reg
 ;
-nsTArray
-<
-uint8_t
->
-sig
-;
 mResultPromise
 =
 mTokenManagerImpl
@@ -917,7 +911,6 @@ ClientDataHash
 (
 )
 reg
-sig
 )
 ;
 mResultPromise
@@ -932,7 +925,6 @@ __func__
 [
 tid
 reg
-sig
 ]
 (
 nsresult
@@ -965,7 +957,6 @@ MaybeConfirmRegister
 (
 tid
 reg
-sig
 )
 ;
 }
@@ -1024,13 +1015,6 @@ uint8_t
 >
 &
 aRegister
-const
-nsTArray
-<
-uint8_t
->
-&
-aSignature
 )
 {
 if
@@ -1053,7 +1037,6 @@ mTransactionParent
 SendConfirmRegister
 (
 aRegister
-aSignature
 )
 ;
 ClearTransaction

@@ -283,10 +283,6 @@ uint8_t
 [
 ]
 RegBuffer
-uint8_t
-[
-]
-SigBuffer
 )
 ;
 async
