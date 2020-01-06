@@ -1206,6 +1206,9 @@ ignored_when_colors_disabled
 =
 False
                  
+gecko_pref_ident
+=
+None
 vector
 =
 False
@@ -1455,6 +1458,16 @@ ignored_when_colors_disabled
         
 self
 .
+gecko_pref_ident
+=
+gecko_pref_ident
+or
+self
+.
+ident
+        
+self
+.
 is_vector
 =
 vector
@@ -1628,6 +1641,9 @@ False
 flags
 =
 None
+gecko_pref_ident
+=
+None
 )
 :
         
@@ -1776,6 +1792,16 @@ flags
 else
 [
 ]
+        
+self
+.
+gecko_pref_ident
+=
+gecko_pref_ident
+or
+self
+.
+ident
         
 self
 .
