@@ -461,11 +461,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIAudioDeviceInfo
-.
-idl
-'
-'
 nsIDOMNavigatorUserMedia
 .
 idl
@@ -913,11 +908,6 @@ dom
 =
 [
 '
-AudioDeviceInfo
-.
-h
-'
-'
 AudioStreamTrack
 .
 h
@@ -1039,11 +1029,6 @@ cpp
 '
 '
 AudioConverter
-.
-cpp
-'
-'
-AudioDeviceInfo
 .
 cpp
 '
