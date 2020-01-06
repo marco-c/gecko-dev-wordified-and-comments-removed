@@ -1925,9 +1925,14 @@ platforms
 cmd
 =
 [
-sys
+self
 .
-executable
+query_exe
+(
+"
+python
+"
+)
 script
 ]
             
@@ -2313,9 +2318,14 @@ cmd
 =
 [
             
-sys
+self
 .
-executable
+query_exe
+(
+"
+python
+"
+)
             
 os
 .
