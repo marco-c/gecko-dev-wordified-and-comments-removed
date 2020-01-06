@@ -1355,6 +1355,8 @@ nsAString
 buffer
 ServoStyleContextBorrowedOrNull
 computed_values
+RawServoDeclarationBlockBorrowedOrNull
+custom_properties
 )
 SERVO_BINDING_FUNC
 (
