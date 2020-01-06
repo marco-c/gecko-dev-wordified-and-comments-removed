@@ -138,6 +138,9 @@ aShouldIntercept
 void
 ClearInterceptedChannel
 (
+nsIStreamListener
+*
+aListener
 )
 ;
 private
@@ -171,6 +174,9 @@ mShouldIntercept
 ;
 bool
 mShouldSuspendIntercept
+;
+bool
+mInterceptCanceled
 ;
 nsAutoPtr
 <
