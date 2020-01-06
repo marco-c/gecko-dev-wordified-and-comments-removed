@@ -163,10 +163,6 @@ base_vs_ref
 =
 False
         
-tpnoisy
-=
-True
-        
 tppagecycles
 =
 1
@@ -176,10 +172,6 @@ tploadnocache
 False
         
 tpscrolltest
-=
-False
-        
-tprender
 =
 False
         
@@ -215,6 +207,11 @@ None
 cleanup
 =
 None
+        
+preferences
+=
+{
+}
     
 )
     
@@ -2183,10 +2180,6 @@ tpcycles
 '
     
 '
-tpdelay
-'
-    
-'
 tppagecycles
 '
     
@@ -2782,30 +2775,6 @@ pop
 (
 key
 )
-    
-noChrome
-=
-config
-.
-pop
-(
-'
-noChrome
-'
-)
-    
-if
-noChrome
-:
-        
-global_overrides
-[
-'
-tpchrome
-'
-]
-=
-False
     
 if
 config
