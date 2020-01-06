@@ -2628,10 +2628,6 @@ linux64
 -
 clang
 -
-3
-.
-9
--
 linux64
 -
 gcc
@@ -3183,10 +3179,6 @@ toolchains
 linux64
 -
 clang
--
-3
-.
-9
 -
 linux64
 -

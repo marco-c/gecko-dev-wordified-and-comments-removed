@@ -203,6 +203,13 @@ sh
 '
 toolchain
 -
+alias
+:
+linux64
+-
+clang
+toolchain
+-
 artifact
 :
 public
@@ -523,13 +530,6 @@ download
 .
 sh
 '
-toolchain
--
-alias
-:
-linux64
--
-clang
 toolchain
 -
 artifact
