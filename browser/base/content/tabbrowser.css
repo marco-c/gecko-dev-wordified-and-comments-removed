@@ -437,7 +437,7 @@ container
 textoverflow
 ]
 [
-dir
+labeldirection
 =
 ltr
 ]
@@ -461,7 +461,7 @@ textoverflow
 not
 (
 [
-dir
+labeldirection
 ]
 )
 :
@@ -512,7 +512,7 @@ container
 textoverflow
 ]
 [
-dir
+labeldirection
 =
 rtl
 ]
@@ -536,7 +536,7 @@ textoverflow
 not
 (
 [
-dir
+labeldirection
 ]
 )
 :

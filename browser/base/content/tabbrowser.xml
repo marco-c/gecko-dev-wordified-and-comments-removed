@@ -10358,7 +10358,7 @@ aTab
 setAttribute
 (
 "
-dir
+labeldirection
 "
 isRTL
 ?
@@ -50393,7 +50393,7 @@ pinned
 selected
 =
 visuallyselected
-dir
+labeldirection
 "
 onoverflow
 =
