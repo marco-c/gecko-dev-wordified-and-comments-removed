@@ -217,6 +217,17 @@ include
 "
 vm
 /
+ReceiverGuard
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 -
 inl
