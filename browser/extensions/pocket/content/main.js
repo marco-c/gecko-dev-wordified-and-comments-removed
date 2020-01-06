@@ -2311,6 +2311,17 @@ current
 "
 true
 "
+&
+&
+!
+view
+.
+getAttribute
+(
+"
+mainview
+"
+)
 )
 return
 view
