@@ -7804,8 +7804,10 @@ GetFrom
 mPrimaryTabParent
 )
 ;
+nsCOMPtr
+<
 Element
-*
+>
 element
 =
 tabParent
