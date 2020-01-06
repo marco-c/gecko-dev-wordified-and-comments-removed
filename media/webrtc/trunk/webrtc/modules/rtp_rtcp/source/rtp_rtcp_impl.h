@@ -371,6 +371,16 @@ rid
 )
 override
 ;
+int32_t
+SetMID
+(
+const
+char
+*
+mid
+)
+override
+;
 RTCPSender
 :
 :

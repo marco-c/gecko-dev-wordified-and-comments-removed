@@ -588,6 +588,12 @@ string
 >
 rids
 ;
+std
+:
+:
+string
+mid
+;
 }
 rtp
 ;
