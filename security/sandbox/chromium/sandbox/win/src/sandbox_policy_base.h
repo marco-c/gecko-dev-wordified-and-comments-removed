@@ -751,8 +751,16 @@ HWINSTA
 alternate_winstation_handle_
 ;
 static
+HDESK
+alternate_desktop_local_winstation_handle_
+;
+static
 IntegrityLevel
 alternate_desktop_integrity_level_label_
+;
+static
+IntegrityLevel
+alternate_desktop_local_winstation_integrity_level_label_
 ;
 base
 :
