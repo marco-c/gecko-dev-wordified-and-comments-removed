@@ -315,8 +315,6 @@ child
 async
 InitComplete
 (
-nsCString
-decoderDescription
 bool
 hardware
 nsCString
