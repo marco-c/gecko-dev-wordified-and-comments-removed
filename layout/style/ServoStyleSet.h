@@ -780,11 +780,6 @@ AssertTreeIsClean
 #
 endif
 void
-RebuildData
-(
-)
-;
-void
 ClearDataAndMarkDeviceDirty
 (
 )
@@ -1052,6 +1047,11 @@ CSSPseudoElementType
 aPseudoType
 LazyComputeBehavior
 aMayCompute
+)
+;
+void
+RebuildData
+(
 )
 ;
 const
