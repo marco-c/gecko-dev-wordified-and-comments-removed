@@ -88,11 +88,6 @@ MPL
 DevToolsModules
 (
 '
-content
-.
-js
-'
-'
 swap
 .
 js
