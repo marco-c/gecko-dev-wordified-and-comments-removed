@@ -3374,7 +3374,7 @@ contentLocation
 aImgRequest
 -
 >
-GetFinalURI
+GetCurrentURI
 (
 getter_AddRefs
 (
@@ -13048,16 +13048,16 @@ nsCOMPtr
 <
 nsIURI
 >
-finalURI
+currentURI
 ;
 mRequest
 -
 >
-GetFinalURI
+GetCurrentURI
 (
 getter_AddRefs
 (
-finalURI
+currentURI
 )
 )
 ;
@@ -13071,7 +13071,7 @@ if
 channelURI
 &
 &
-finalURI
+currentURI
 )
 {
 channelURI
@@ -13079,7 +13079,7 @@ channelURI
 >
 Equals
 (
-finalURI
+currentURI
 &
 sameURI
 )

@@ -3038,7 +3038,7 @@ aEvent
 .
 target
 .
-currentRequestFinalURI
+currentURI
 )
 {
 disableSetDesktopBg
@@ -3095,7 +3095,7 @@ aEvent
 .
 target
 .
-currentRequestFinalURI
+currentURI
 doc
 )
 ;
@@ -4264,7 +4264,7 @@ context
 .
 target
 .
-currentRequestFinalURI
+currentURI
 )
 {
 context
@@ -4397,7 +4397,7 @@ context
 .
 target
 .
-currentRequestFinalURI
+currentURI
 .
 spec
 ;
