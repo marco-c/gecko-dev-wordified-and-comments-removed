@@ -563,6 +563,10 @@ gecko_bindings
 ;
 pub
 mod
+invalidation
+;
+pub
+mod
 keyframes
 ;
 #
