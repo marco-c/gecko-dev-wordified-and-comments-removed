@@ -963,6 +963,7 @@ mCache
 >
 PutAll
 (
+aCx
 mRequestList
 responseList
 result
@@ -1205,6 +1206,9 @@ Cache
 :
 Match
 (
+JSContext
+*
+aCx
 const
 RequestOrUSVString
 &
@@ -1255,6 +1259,7 @@ ir
 =
 ToInternalRequest
 (
+aCx
 aRequest
 IgnoreBody
 aRv
@@ -1342,6 +1347,9 @@ Cache
 :
 MatchAll
 (
+JSContext
+*
+aCx
 const
 Optional
 <
@@ -1427,6 +1435,7 @@ ir
 =
 ToInternalRequest
 (
+aCx
 aRequest
 .
 Value
@@ -1965,6 +1974,9 @@ Cache
 :
 Put
 (
+JSContext
+*
+aCx
 const
 RequestOrUSVString
 &
@@ -2049,6 +2061,7 @@ ir
 =
 ToInternalRequest
 (
+aCx
 aRequest
 ReadBody
 aRv
@@ -2084,6 +2097,7 @@ args
 .
 Add
 (
+aCx
 ir
 ReadBody
 TypeErrorOnInvalidScheme
@@ -2124,6 +2138,9 @@ Cache
 :
 Delete
 (
+JSContext
+*
+aCx
 const
 RequestOrUSVString
 &
@@ -2174,6 +2191,7 @@ ir
 =
 ToInternalRequest
 (
+aCx
 aRequest
 IgnoreBody
 aRv
@@ -2261,6 +2279,9 @@ Cache
 :
 Keys
 (
+JSContext
+*
+aCx
 const
 Optional
 <
@@ -2346,6 +2367,7 @@ ir
 =
 ToInternalRequest
 (
+aCx
 aRequest
 .
 Value
@@ -3052,6 +3074,9 @@ Cache
 :
 PutAll
 (
+JSContext
+*
+aCx
 const
 nsTArray
 <
@@ -3176,6 +3201,7 @@ args
 .
 Add
 (
+aCx
 ir
 ReadBody
 TypeErrorOnInvalidScheme

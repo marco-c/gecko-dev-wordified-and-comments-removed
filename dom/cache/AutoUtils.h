@@ -159,6 +159,9 @@ aRv
 void
 Add
 (
+JSContext
+*
+aCx
 InternalRequest
 *
 aRequest

@@ -1449,6 +1449,9 @@ AutoChildOpArgs
 :
 Add
 (
+JSContext
+*
+aCx
 InternalRequest
 *
 aRequest
@@ -1617,6 +1620,7 @@ mTypeUtils
 >
 ToCacheResponse
 (
+aCx
 pair
 .
 response

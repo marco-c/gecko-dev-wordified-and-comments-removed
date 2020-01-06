@@ -189,6 +189,9 @@ InternalRequest
 >
 ToInternalRequest
 (
+JSContext
+*
+aCx
 const
 RequestOrUSVString
 &
@@ -206,6 +209,9 @@ InternalRequest
 >
 ToInternalRequest
 (
+JSContext
+*
+aCx
 const
 OwningRequestOrUSVString
 &
@@ -267,6 +273,9 @@ aRv
 void
 ToCacheResponse
 (
+JSContext
+*
+aCx
 CacheResponse
 &
 aOut
@@ -390,6 +399,9 @@ private
 void
 CheckAndSetBodyUsed
 (
+JSContext
+*
+aCx
 Request
 *
 aRequest
