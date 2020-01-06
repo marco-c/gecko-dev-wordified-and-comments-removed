@@ -266,6 +266,9 @@ oldValue
 mArgs
 .
 newValue
+mArgs
+.
+namespaceURI
 rv
 )
 ;

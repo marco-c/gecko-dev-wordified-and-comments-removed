@@ -186,6 +186,9 @@ oldValue
 DOMString
 ?
 newValue
+DOMString
+?
+namespaceURI
 )
 ;
 dictionary
