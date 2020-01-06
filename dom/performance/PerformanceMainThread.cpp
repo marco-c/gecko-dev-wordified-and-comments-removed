@@ -1375,6 +1375,14 @@ if
 (
 !
 mDocEntry
+&
+&
+nsContentUtils
+:
+:
+IsPerformanceNavigationTimingEnabled
+(
+)
 )
 {
 nsCOMPtr

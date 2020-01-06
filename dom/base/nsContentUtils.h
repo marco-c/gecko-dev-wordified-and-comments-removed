@@ -4518,6 +4518,16 @@ sIsResourceTimingEnabled
 }
 static
 bool
+IsPerformanceNavigationTimingEnabled
+(
+)
+{
+return
+sIsPerformanceNavigationTimingEnabled
+;
+}
+static
+bool
 SendPerformanceTimingNotifications
 (
 )
@@ -6910,6 +6920,10 @@ sIsPerformanceTimingEnabled
 static
 bool
 sIsResourceTimingEnabled
+;
+static
+bool
+sIsPerformanceNavigationTimingEnabled
 ;
 static
 bool
