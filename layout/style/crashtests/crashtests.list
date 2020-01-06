@@ -646,12 +646,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-stylo
-)
 pref
 (
 dom
