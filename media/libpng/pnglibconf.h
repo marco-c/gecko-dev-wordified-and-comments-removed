@@ -279,12 +279,6 @@ PNG_READ_TRANSFORMS_SUPPORTED
 if
 defined
 (
-ANDROID
-)
-|
-|
-defined
-(
 FT_CONFIG_OPTION_USE_PNG
 )
 #
