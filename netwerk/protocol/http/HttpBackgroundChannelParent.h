@@ -27,6 +27,15 @@ h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsID
 .
 h
@@ -210,6 +219,9 @@ Atomic
 bool
 >
 mIPCOpened
+;
+Mutex
+mBgThreadMutex
 ;
 nsCOMPtr
 <
