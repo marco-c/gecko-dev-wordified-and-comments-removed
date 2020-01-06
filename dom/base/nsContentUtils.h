@@ -4316,13 +4316,7 @@ CallerType
 System
 &
 &
-mozilla
-:
-:
-nsRFPService
-:
-:
-IsResistFingerprintingEnabled
+ShouldResistFingerprinting
 (
 )
 ;
