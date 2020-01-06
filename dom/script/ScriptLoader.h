@@ -745,6 +745,16 @@ LoadEventFired
 (
 )
 ;
+void
+Destroy
+(
+)
+{
+GiveUpBytecodeEncoding
+(
+)
+;
+}
 private
 :
 virtual
@@ -1389,6 +1399,9 @@ mBlockingDOMContentLoaded
 ;
 bool
 mLoadEventFired
+;
+bool
+mGiveUpEncoding
 ;
 nsRefPtrHashtable
 <
