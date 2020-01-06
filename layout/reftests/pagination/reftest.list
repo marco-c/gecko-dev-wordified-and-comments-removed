@@ -2183,12 +2183,6 @@ cocoaWidget
 1
 5000
 )
-skip
--
-if
-(
-webrender
-)
 =
 =
 745025
