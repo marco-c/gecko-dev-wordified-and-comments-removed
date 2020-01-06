@@ -284,6 +284,12 @@ IsScrollbarNode
 )
 const
 ;
+ScrollDirection
+GetScrollbarDirection
+(
+)
+const
+;
 bool
 IsScrollThumbNode
 (
