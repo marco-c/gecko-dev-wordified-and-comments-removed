@@ -170,6 +170,15 @@ RefPtr
 layers
 :
 :
+KnowsCompositor
+>
+mImageAllocator
+;
+RefPtr
+<
+layers
+:
+:
 ImageContainer
 >
 mImageContainer
