@@ -13406,16 +13406,12 @@ mBindingManager
 bool
 thisChanged
 =
-false
-;
 mBindingManager
 -
 >
 MediumFeaturesChanged
 (
 presContext
-&
-thisChanged
 )
 ;
 stylesChanged

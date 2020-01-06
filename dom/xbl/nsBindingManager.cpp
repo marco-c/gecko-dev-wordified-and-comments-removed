@@ -3055,7 +3055,7 @@ aData
 )
 ;
 }
-nsresult
+bool
 nsBindingManager
 :
 :
@@ -3064,13 +3064,10 @@ MediumFeaturesChanged
 nsPresContext
 *
 aPresContext
-bool
-*
-aRulesChanged
 )
 {
-*
-aRulesChanged
+bool
+rulesChanged
 =
 false
 ;
@@ -3086,6 +3083,8 @@ EnumerateBoundContentBindings
 (
 [
 =
+&
+rulesChanged
 ]
 (
 nsXBLBinding
@@ -3125,11 +3124,9 @@ MediumFeaturesChanged
 presContext
 )
 ;
-*
-aRulesChanged
+rulesChanged
 =
-*
-aRulesChanged
+rulesChanged
 |
 |
 thisChanged
@@ -3139,7 +3136,7 @@ thisChanged
 )
 ;
 return
-NS_OK
+rulesChanged
 ;
 }
 void
