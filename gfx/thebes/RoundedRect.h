@@ -47,9 +47,11 @@ RectCornerRadii
 ;
 RoundedRect
 (
+const
 gfxRect
 &
 aRect
+const
 RectCornerRadii
 &
 aCorners
