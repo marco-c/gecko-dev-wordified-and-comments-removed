@@ -37,6 +37,9 @@ define
 fgTabTextureLWT
 fgTabTexture
 %
+ifndef
+MOZ_PHOTON_THEME
+%
 define
 customToolbarColor
 hsl
@@ -47,3 +50,5 @@ hsl
 92
 %
 )
+%
+endif
