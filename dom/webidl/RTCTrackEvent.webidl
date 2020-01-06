@@ -143,6 +143,10 @@ streams
 [
 ]
 ;
+required
+RTCRtpTransceiver
+transceiver
+;
 }
 ;
 [
@@ -217,5 +221,10 @@ streams
 /
 /
 workaround
+readonly
+attribute
+RTCRtpTransceiver
+transceiver
+;
 }
 ;
