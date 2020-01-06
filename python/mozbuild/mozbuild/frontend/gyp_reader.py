@@ -885,11 +885,13 @@ if
 config
 .
 substs
-[
+.
+get
+(
 '
 MOZ_DEBUG
 '
-]
+)
 else
 '
 Release

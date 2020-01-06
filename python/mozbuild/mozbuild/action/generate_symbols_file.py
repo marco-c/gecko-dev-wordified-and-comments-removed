@@ -180,11 +180,13 @@ if
 buildconfig
 .
 substs
-[
+.
+get
+(
 '
 MOZ_DEBUG
 '
-]
+)
 :
         
 pp
