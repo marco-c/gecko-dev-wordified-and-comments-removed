@@ -492,10 +492,6 @@ example
 .
 com
 "
-"
-symbol
-:
-"
 ]
 ]
 [
