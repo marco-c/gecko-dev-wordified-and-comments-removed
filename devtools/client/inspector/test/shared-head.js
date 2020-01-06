@@ -512,8 +512,6 @@ data
 .
 inspector
 .
-layoutview
-.
 gridInspector
 testActor
 :
