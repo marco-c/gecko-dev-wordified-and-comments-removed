@@ -85,6 +85,14 @@ self
 )
 :
         
+cls_name
+=
+self
+.
+__class__
+.
+__name__
+        
 if
 self
 .
