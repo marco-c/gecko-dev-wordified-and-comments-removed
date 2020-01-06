@@ -1896,10 +1896,6 @@ uint32_t
 slot
 unsigned
 attrs
-unsigned
-flags
-bool
-allowDictionary
 )
 {
 MOZ_ASSERT
@@ -2011,9 +2007,7 @@ obj
 id
 slot
 attrs
-flags
 entry
-allowDictionary
 keep
 )
 ;
