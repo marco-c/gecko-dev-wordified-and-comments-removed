@@ -361,8 +361,9 @@ removeSHistoryListener
 this
 )
 ;
-resolve
+executeSoon
 (
+resolve
 )
 ;
 }
