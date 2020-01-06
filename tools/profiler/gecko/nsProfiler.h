@@ -164,11 +164,6 @@ aSinceTime
 )
 ;
 void
-CancelGathering
-(
-)
-;
-void
 FinishGathering
 (
 )
