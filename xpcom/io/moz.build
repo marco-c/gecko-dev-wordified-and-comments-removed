@@ -457,6 +457,11 @@ Base64
 h
 '
 '
+NonBlockingAsyncInputStream
+.
+h
+'
+'
 SnappyCompressOutputStream
 .
 h
@@ -488,6 +493,11 @@ c
 '
 '
 FileDescriptorFile
+.
+cpp
+'
+'
+NonBlockingAsyncInputStream
 .
 cpp
 '
@@ -700,12 +710,6 @@ LOCAL_INCLUDES
 !
 .
 .
-'
-'
-.
-.
-/
-build
 '
 ]
 if
