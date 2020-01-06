@@ -120,10 +120,6 @@ PBackground
 ;
 include
 protocol
-PBlob
-;
-include
-protocol
 PBrowser
 ;
 include
@@ -1398,9 +1394,6 @@ protocol
 PContent
 {
 manages
-PBlob
-;
-manages
 PBrowser
 ;
 manages
@@ -1733,13 +1726,6 @@ ContentParentId
 cpId
 bool
 isForBrowser
-)
-;
-async
-PBlob
-(
-BlobConstructorParams
-params
 )
 ;
 async

@@ -74,10 +74,6 @@ PBackgroundTest
 ;
 include
 protocol
-PBlob
-;
-include
-protocol
 PBroadcastChannel
 ;
 include
@@ -276,9 +272,6 @@ PBackgroundIndexedDBUtils
 ;
 manages
 PBackgroundTest
-;
-manages
-PBlob
 ;
 manages
 PBroadcastChannel
@@ -533,13 +526,6 @@ blob
 ;
 both
 :
-async
-PBlob
-(
-BlobConstructorParams
-params
-)
-;
 async
 PFileDescriptorSet
 (

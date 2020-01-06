@@ -116,10 +116,6 @@ MPL
 /
 include
 protocol
-PBlob
-;
-include
-protocol
 PColorPicker
 ;
 include
