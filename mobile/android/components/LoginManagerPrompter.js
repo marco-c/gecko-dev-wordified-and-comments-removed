@@ -292,7 +292,7 @@ chrome
 :
 /
 /
-passwordmgr
+browser
 /
 locale
 /

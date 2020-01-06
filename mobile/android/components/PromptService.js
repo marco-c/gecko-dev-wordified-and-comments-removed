@@ -4885,7 +4885,7 @@ chrome
 :
 /
 /
-passwordmgr
+browser
 /
 locale
 /
