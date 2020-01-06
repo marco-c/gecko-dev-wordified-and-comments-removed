@@ -308,16 +308,10 @@ getAdapter
 ;
 adapter
 .
-setTilesSize
-(
-tilesSize
-)
-;
-adapter
-.
 swapCursor
 (
 cursor
+tilesSize
 )
 ;
 final
