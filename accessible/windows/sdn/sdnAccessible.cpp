@@ -176,15 +176,8 @@ AccessibleWrap
 *
 accessible
 =
-static_cast
-<
-AccessibleWrap
-*
->
-(
 GetAccessible
 (
-)
 )
 ;
 if
@@ -467,7 +460,7 @@ GetNameSpaceID
 :
 0
 ;
-Accessible
+AccessibleWrap
 *
 accessible
 =
