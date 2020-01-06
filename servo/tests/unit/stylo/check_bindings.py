@@ -225,18 +225,6 @@ line
         
 if
 match
-and
-match
-.
-group
-(
-1
-)
-!
-=
-"
-GetStyleVariables
-"
 :
             
 tests
