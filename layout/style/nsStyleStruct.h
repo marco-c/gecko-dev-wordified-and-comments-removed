@@ -1232,6 +1232,16 @@ eStyleImageType_URL
 struct
 CachedBorderImageData
 {
+~
+CachedBorderImageData
+(
+)
+{
+PurgeCachedImages
+(
+)
+;
+}
 void
 SetCachedSVGViewportSize
 (
