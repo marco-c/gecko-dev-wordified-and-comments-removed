@@ -16706,7 +16706,8 @@ src
 ;
 }
 else
-if
+{
+MOZ_ASSERT_IF
 (
 src
 -
@@ -16719,10 +16720,6 @@ getClass
 hasFinalize
 (
 )
-)
-{
-MOZ_RELEASE_ASSERT
-(
 CanNurseryAllocateFinalizedClass
 (
 src
@@ -16732,15 +16729,6 @@ getClass
 (
 )
 )
-)
-;
-MOZ_CRASH
-(
-"
-Unhandled
-JSCLASS_SKIP_NURSERY_FINALIZE
-Class
-"
 )
 ;
 }
