@@ -430,6 +430,14 @@ root
 "
 )
 .
+rustified_enum
+(
+"
+.
+*
+"
+)
+.
 enable_cxx_namespaces
 (
 )
@@ -583,7 +591,7 @@ builder
 =
 builder
 .
-whitelisted_type
+whitelist_type
 (
 ty
 )
@@ -598,7 +606,7 @@ builder
 =
 builder
 .
-whitelisted_var
+whitelist_var
 (
 var
 )
@@ -613,7 +621,7 @@ builder
 =
 builder
 .
-whitelisted_function
+whitelist_function
 (
 func
 )
@@ -643,7 +651,7 @@ builder
 =
 builder
 .
-hide_type
+blacklist_type
 (
 ty
 )
