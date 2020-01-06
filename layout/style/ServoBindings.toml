@@ -2088,7 +2088,7 @@ Option
 <
 :
 :
-stylearc
+servo_arc
 :
 :
 Arc
@@ -2148,7 +2148,7 @@ Option
 <
 :
 :
-stylearc
+servo_arc
 :
 :
 RawOffsetArc
@@ -2206,7 +2206,7 @@ servo
 "
 :
 :
-stylearc
+servo_arc
 :
 :
 RawOffsetArc
