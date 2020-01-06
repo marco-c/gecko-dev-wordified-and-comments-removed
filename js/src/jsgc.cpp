@@ -24405,6 +24405,9 @@ void
 js
 :
 :
+gc
+:
+:
 DelayCrossCompartmentGrayMarking
 (
 JSObject
