@@ -31,11 +31,12 @@ querySelector
 "
 menuitem
 :
-first
--
-of
--
-type
+not
+(
+[
+hidden
+]
+)
 "
 )
 ;
