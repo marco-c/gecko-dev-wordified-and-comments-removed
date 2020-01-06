@@ -762,13 +762,6 @@ aFlags
 )
 override
 ;
-virtual
-gfxMatrix
-GetCanvasTM
-(
-)
-override
-;
 uint32_t
 GetNumberOfChars
 (
@@ -1224,12 +1217,6 @@ RefPtr
 MutationObserver
 >
 mMutationObserver
-;
-nsAutoPtr
-<
-gfxMatrix
->
-mCanvasTM
 ;
 uint32_t
 mTrailingUndisplayedCharacters

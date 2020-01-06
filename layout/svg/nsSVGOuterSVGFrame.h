@@ -643,12 +643,6 @@ nsSVGForeignObjectFrame
 >
 mForeignObjectHash
 ;
-nsAutoPtr
-<
-gfxMatrix
->
-mCanvasTM
-;
 nsRegion
 mInvalidRegion
 ;
