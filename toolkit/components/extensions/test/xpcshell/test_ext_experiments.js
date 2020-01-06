@@ -154,7 +154,7 @@ em
 id
 =
 "
-meh
+fooBar
 experiments
 .
 addons
@@ -168,7 +168,7 @@ em
 name
 =
 "
-Meh
+FooBar
 Experiment
 "
 em
@@ -192,7 +192,7 @@ em
 description
 =
 "
-Meh
+FooBar
 experiment
 "
 em
@@ -312,7 +312,7 @@ context
 {
 return
 {
-meh
+fooBar
 :
 {
 hello
@@ -325,7 +325,7 @@ console
 log
 (
 '
-meh
+fooBar
 .
 hello
 API
@@ -369,7 +369,7 @@ namespace
 "
 :
 "
-meh
+fooBar
 "
 "
 description
@@ -379,7 +379,7 @@ description
 All
 full
 of
-meh
+fooBar
 .
 "
 "
@@ -390,7 +390,7 @@ permissions
 "
 experiments
 .
-meh
+fooBar
 "
 ]
 "
@@ -475,7 +475,7 @@ gecko
 id
 :
 "
-meh
+fooBar
 web
 .
 extension
@@ -488,7 +488,7 @@ permissions
 "
 experiments
 .
-meh
+fooBar
 "
 ]
 }
@@ -500,7 +500,7 @@ try
 {
 browser
 .
-meh
+fooBar
 .
 hello
 (
@@ -528,7 +528,7 @@ err
 {
 browser
 .
-meh
+fooBar
 .
 hello
 (
@@ -580,12 +580,12 @@ if
 (
 browser
 .
-meh
+fooBar
 )
 {
 browser
 .
-meh
+fooBar
 .
 hello
 (
@@ -839,13 +839,13 @@ apis
 has
 (
 "
-meh
+fooBar
 "
 )
 "
 Should
 have
-meh
+fooBar
 API
 .
 "
