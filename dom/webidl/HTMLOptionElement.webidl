@@ -195,6 +195,7 @@ HTMLOptionElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -208,6 +209,7 @@ HTMLFormElement
 form
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -215,6 +217,7 @@ DOMString
 label
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -229,6 +232,7 @@ boolean
 selected
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -236,6 +240,7 @@ DOMString
 value
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

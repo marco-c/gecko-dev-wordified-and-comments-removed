@@ -230,6 +230,7 @@ HTMLOListElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -237,6 +238,7 @@ boolean
 reversed
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -244,6 +246,7 @@ long
 start
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -289,6 +292,7 @@ interface
 HTMLOListElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

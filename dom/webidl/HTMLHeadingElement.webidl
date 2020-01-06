@@ -291,6 +291,7 @@ interface
 HTMLHeadingElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

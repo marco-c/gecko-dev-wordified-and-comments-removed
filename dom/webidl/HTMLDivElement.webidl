@@ -171,6 +171,7 @@ interface
 HTMLDivElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

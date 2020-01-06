@@ -171,6 +171,7 @@ HTMLProgressElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -178,6 +179,7 @@ double
 value
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

@@ -165,6 +165,7 @@ HTMLTableColElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -179,6 +180,7 @@ interface
 HTMLTableColElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -186,6 +188,7 @@ DOMString
 align
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -193,6 +196,7 @@ DOMString
 ch
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -200,6 +204,7 @@ DOMString
 chOff
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -207,6 +212,7 @@ DOMString
 vAlign
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

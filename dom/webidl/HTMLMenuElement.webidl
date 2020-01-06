@@ -233,6 +233,7 @@ HTMLMenuElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -240,6 +241,7 @@ DOMString
 type
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -285,6 +287,7 @@ interface
 HTMLMenuElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

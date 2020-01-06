@@ -171,6 +171,7 @@ interface
 HTMLBodyElement
 {
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -181,6 +182,7 @@ DOMString
 text
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -191,6 +193,7 @@ DOMString
 link
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -201,6 +204,7 @@ DOMString
 vLink
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -211,6 +215,7 @@ DOMString
 aLink
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -221,6 +226,7 @@ DOMString
 bgColor
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

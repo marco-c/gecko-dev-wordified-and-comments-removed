@@ -169,6 +169,7 @@ HTMLFormElement
 HTMLElement
 {
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -177,6 +178,7 @@ DOMString
 acceptCharset
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -185,6 +187,7 @@ DOMString
 action
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -193,6 +196,7 @@ DOMString
 autocomplete
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -201,6 +205,7 @@ DOMString
 enctype
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -209,6 +214,7 @@ DOMString
 encoding
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -217,6 +223,7 @@ DOMString
 method
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -225,6 +232,7 @@ DOMString
 name
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -233,6 +241,7 @@ boolean
 noValidate
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -299,6 +308,9 @@ submit
 (
 )
 ;
+[
+CEReactions
+]
 void
 reset
 (

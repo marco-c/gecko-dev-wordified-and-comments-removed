@@ -176,6 +176,7 @@ HTMLDialogElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -186,12 +187,16 @@ attribute
 DOMString
 returnValue
 ;
+[
+CEReactions
+]
 void
 show
 (
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -199,6 +204,9 @@ showModal
 (
 )
 ;
+[
+CEReactions
+]
 void
 close
 (

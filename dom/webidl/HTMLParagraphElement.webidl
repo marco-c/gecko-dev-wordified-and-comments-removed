@@ -267,6 +267,7 @@ interface
 HTMLParagraphElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

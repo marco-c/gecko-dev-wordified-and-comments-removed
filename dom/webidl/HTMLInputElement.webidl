@@ -222,6 +222,7 @@ HTMLInputElement
 HTMLElement
 {
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -230,6 +231,7 @@ DOMString
 accept
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -238,6 +240,7 @@ DOMString
 alt
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -246,6 +249,7 @@ DOMString
 autocomplete
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -254,6 +258,7 @@ boolean
 autofocus
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -278,6 +283,7 @@ DOMString
 dirName
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -301,6 +307,7 @@ FileList
 files
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -309,6 +316,7 @@ DOMString
 formAction
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -317,6 +325,7 @@ DOMString
 formEnctype
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -325,6 +334,7 @@ DOMString
 formMethod
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -333,6 +343,7 @@ boolean
 formNoValidate
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -341,6 +352,7 @@ DOMString
 formTarget
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -357,6 +369,7 @@ boolean
 indeterminate
 ;
 [
+CEReactions
 Pure
 SetterThrows
 Pref
@@ -383,6 +396,7 @@ HTMLElement
 list
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -391,6 +405,7 @@ DOMString
 max
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -399,6 +414,7 @@ long
 maxLength
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -407,6 +423,7 @@ DOMString
 min
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -415,6 +432,7 @@ long
 minLength
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -423,6 +441,7 @@ boolean
 multiple
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -431,6 +450,7 @@ DOMString
 name
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -439,6 +459,7 @@ DOMString
 pattern
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -447,6 +468,7 @@ DOMString
 placeholder
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -455,6 +477,7 @@ boolean
 readOnly
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -463,6 +486,7 @@ boolean
 required
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -472,6 +496,7 @@ long
 size
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -480,6 +505,7 @@ DOMString
 src
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -488,6 +514,7 @@ DOMString
 step
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -496,6 +523,7 @@ DOMString
 type
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -504,6 +532,7 @@ DOMString
 defaultValue
 ;
 [
+CEReactions
 Pure
 TreatNullAs
 =
@@ -540,6 +569,9 @@ unrestricted
 double
 valueAsNumber
 ;
+[
+CEReactions
+]
 attribute
 unsigned
 long
@@ -712,6 +744,7 @@ interface
 HTMLInputElement
 {
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -720,6 +753,7 @@ DOMString
 align
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]

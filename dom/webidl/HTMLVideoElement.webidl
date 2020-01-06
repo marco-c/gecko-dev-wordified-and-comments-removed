@@ -171,6 +171,7 @@ HTMLVideoElement
 HTMLMediaElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -179,6 +180,7 @@ long
 width
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -199,6 +201,7 @@ long
 videoHeight
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

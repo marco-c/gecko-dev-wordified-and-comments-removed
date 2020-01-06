@@ -199,6 +199,7 @@ HTMLBaseElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -207,6 +208,7 @@ DOMString
 href
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]

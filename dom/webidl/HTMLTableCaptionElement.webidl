@@ -171,6 +171,7 @@ interface
 HTMLTableCaptionElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

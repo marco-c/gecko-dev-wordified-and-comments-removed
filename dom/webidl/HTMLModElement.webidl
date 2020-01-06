@@ -214,6 +214,7 @@ HTMLModElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -222,6 +223,7 @@ DOMString
 cite
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]

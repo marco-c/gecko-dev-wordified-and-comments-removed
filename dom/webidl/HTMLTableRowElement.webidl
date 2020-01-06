@@ -194,6 +194,7 @@ index
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -210,6 +211,7 @@ interface
 HTMLTableRowElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -217,6 +219,7 @@ DOMString
 align
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -224,6 +227,7 @@ DOMString
 ch
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -231,6 +235,7 @@ DOMString
 chOff
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -238,6 +243,7 @@ DOMString
 vAlign
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString

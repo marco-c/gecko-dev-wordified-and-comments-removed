@@ -145,6 +145,7 @@ HTMLDataElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

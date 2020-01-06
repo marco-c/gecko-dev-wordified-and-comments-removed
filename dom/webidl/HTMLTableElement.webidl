@@ -165,6 +165,7 @@ HTMLTableElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -177,12 +178,16 @@ createCaption
 (
 )
 ;
+[
+CEReactions
+]
 void
 deleteCaption
 (
 )
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -195,12 +200,16 @@ createTHead
 (
 )
 ;
+[
+CEReactions
+]
 void
 deleteTHead
 (
 )
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -213,6 +222,9 @@ createTFoot
 (
 )
 ;
+[
+CEReactions
+]
 void
 deleteTFoot
 (
@@ -248,6 +260,7 @@ index
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -277,6 +290,7 @@ interface
 HTMLTableElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -284,6 +298,7 @@ DOMString
 align
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -291,6 +306,7 @@ DOMString
 border
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -298,6 +314,7 @@ DOMString
 frame
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -305,6 +322,7 @@ DOMString
 rules
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -312,6 +330,7 @@ DOMString
 summary
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -319,6 +338,7 @@ DOMString
 width
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -329,6 +349,7 @@ DOMString
 bgColor
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -339,6 +360,7 @@ DOMString
 cellPadding
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString

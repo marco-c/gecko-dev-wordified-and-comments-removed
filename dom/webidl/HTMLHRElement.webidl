@@ -267,6 +267,7 @@ interface
 HTMLHRElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -274,6 +275,7 @@ DOMString
 align
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -281,6 +283,7 @@ DOMString
 color
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -288,6 +291,7 @@ boolean
 noShade
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -295,6 +299,7 @@ DOMString
 size
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

@@ -190,6 +190,7 @@ HTMLFrameElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -197,6 +198,7 @@ DOMString
 name
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -204,6 +206,7 @@ DOMString
 scrolling
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -211,6 +214,7 @@ DOMString
 src
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -218,6 +222,7 @@ DOMString
 frameBorder
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -225,6 +230,7 @@ DOMString
 longDesc
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -247,6 +253,7 @@ WindowProxy
 contentWindow
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -257,6 +264,7 @@ DOMString
 marginHeight
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString

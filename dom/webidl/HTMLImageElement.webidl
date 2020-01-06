@@ -222,6 +222,7 @@ HTMLImageElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -229,6 +230,7 @@ DOMString
 alt
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -236,6 +238,7 @@ DOMString
 src
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -243,6 +246,7 @@ DOMString
 srcset
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -251,6 +255,7 @@ DOMString
 crossOrigin
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -258,6 +263,7 @@ DOMString
 useMap
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -265,6 +271,7 @@ DOMString
 referrerPolicy
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -272,6 +279,7 @@ boolean
 isMap
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -280,6 +288,7 @@ long
 width
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -343,6 +352,7 @@ interface
 HTMLImageElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -350,6 +360,7 @@ DOMString
 name
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -357,6 +368,7 @@ DOMString
 align
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -365,6 +377,7 @@ long
 hspace
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -373,6 +386,7 @@ long
 vspace
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -380,6 +394,7 @@ DOMString
 longDesc
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -426,6 +441,7 @@ interface
 HTMLImageElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -448,6 +464,9 @@ partial
 interface
 HTMLImageElement
 {
+[
+CEReactions
+]
 attribute
 DOMString
 lowsrc

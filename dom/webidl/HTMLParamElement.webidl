@@ -230,6 +230,7 @@ HTMLParamElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -238,6 +239,7 @@ DOMString
 name
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -284,6 +286,7 @@ interface
 HTMLParamElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -292,6 +295,7 @@ DOMString
 type
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]

@@ -268,6 +268,7 @@ interface
 HTMLUListElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -275,6 +276,7 @@ boolean
 compact
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

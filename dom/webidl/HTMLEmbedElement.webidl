@@ -225,6 +225,7 @@ HTMLEmbedElement
 HTMLElement
 {
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -233,6 +234,7 @@ DOMString
 src
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -241,6 +243,7 @@ DOMString
 type
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -249,6 +252,7 @@ DOMString
 width
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -289,6 +293,7 @@ interface
 HTMLEmbedElement
 {
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -297,6 +302,7 @@ DOMString
 align
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]

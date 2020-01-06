@@ -145,6 +145,7 @@ HTMLTimeElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

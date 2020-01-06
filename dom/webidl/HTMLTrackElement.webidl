@@ -136,6 +136,7 @@ HTMLTrackElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -144,6 +145,7 @@ DOMString
 kind
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -152,6 +154,7 @@ DOMString
 src
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -160,6 +163,7 @@ DOMString
 srclang
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -168,6 +172,7 @@ DOMString
 label
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]

@@ -229,6 +229,7 @@ HTMLMetaElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -237,6 +238,7 @@ DOMString
 name
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -245,6 +247,7 @@ DOMString
 httpEquiv
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -291,6 +294,7 @@ interface
 HTMLMetaElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]

@@ -165,6 +165,7 @@ HTMLTableCellElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -173,6 +174,7 @@ long
 colSpan
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -193,6 +195,7 @@ DOMTokenList
 headers
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -211,6 +214,7 @@ Mozilla
 specific
 extensions
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -218,6 +222,7 @@ DOMString
 abbr
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -231,6 +236,7 @@ interface
 HTMLTableCellElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -238,6 +244,7 @@ DOMString
 align
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -245,6 +252,7 @@ DOMString
 axis
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -252,6 +260,7 @@ DOMString
 height
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -259,6 +268,7 @@ DOMString
 width
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -266,6 +276,7 @@ DOMString
 ch
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -273,6 +284,7 @@ DOMString
 chOff
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -280,6 +292,7 @@ boolean
 noWrap
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -287,6 +300,7 @@ DOMString
 vAlign
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString

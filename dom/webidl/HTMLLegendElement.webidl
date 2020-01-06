@@ -274,6 +274,7 @@ interface
 HTMLLegendElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

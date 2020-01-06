@@ -236,6 +236,7 @@ boolean
 disabled
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -244,6 +245,7 @@ DOMString
 href
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -253,6 +255,7 @@ DOMString
 crossOrigin
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -271,6 +274,7 @@ DOMTokenList
 relList
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -279,6 +283,7 @@ DOMString
 media
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -287,6 +292,7 @@ DOMString
 hreflang
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -295,6 +301,7 @@ DOMString
 type
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -355,6 +362,7 @@ interface
 HTMLLinkElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -363,6 +371,7 @@ DOMString
 charset
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -371,6 +380,7 @@ DOMString
 rev
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -407,6 +417,7 @@ interface
 HTMLLinkElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

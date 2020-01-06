@@ -267,6 +267,7 @@ interface
 HTMLPreElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

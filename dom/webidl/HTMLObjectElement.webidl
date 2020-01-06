@@ -226,6 +226,7 @@ HTMLObjectElement
 HTMLElement
 {
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -234,6 +235,7 @@ DOMString
 data
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -242,6 +244,7 @@ DOMString
 type
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -250,6 +253,7 @@ boolean
 typeMustMatch
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -258,6 +262,7 @@ DOMString
 name
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -275,6 +280,7 @@ HTMLFormElement
 form
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -283,6 +289,7 @@ DOMString
 width
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -395,6 +402,7 @@ interface
 HTMLObjectElement
 {
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -403,6 +411,7 @@ DOMString
 align
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -411,6 +420,7 @@ DOMString
 archive
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -419,6 +429,7 @@ DOMString
 code
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -427,6 +438,7 @@ boolean
 declare
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -436,6 +448,7 @@ long
 hspace
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -444,6 +457,7 @@ DOMString
 standby
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -453,6 +467,7 @@ long
 vspace
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -461,6 +476,7 @@ DOMString
 codeBase
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -469,6 +485,7 @@ DOMString
 codeType
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString

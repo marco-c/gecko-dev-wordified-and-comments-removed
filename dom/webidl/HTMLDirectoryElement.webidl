@@ -207,6 +207,7 @@ HTMLDirectoryElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]

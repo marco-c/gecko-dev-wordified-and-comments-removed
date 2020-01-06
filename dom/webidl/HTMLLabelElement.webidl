@@ -170,6 +170,9 @@ HTMLFormElement
 ?
 form
 ;
+[
+CEReactions
+]
 attribute
 DOMString
 htmlFor

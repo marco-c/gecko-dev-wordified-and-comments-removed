@@ -171,6 +171,7 @@ HTMLFieldSetElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -184,6 +185,7 @@ HTMLFormElement
 form
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

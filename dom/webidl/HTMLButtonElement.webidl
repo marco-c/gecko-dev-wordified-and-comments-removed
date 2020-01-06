@@ -198,6 +198,7 @@ HTMLButtonElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -206,6 +207,7 @@ boolean
 autofocus
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -223,6 +225,7 @@ HTMLFormElement
 form
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -231,6 +234,7 @@ DOMString
 formAction
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -239,6 +243,7 @@ DOMString
 formEnctype
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -247,6 +252,7 @@ DOMString
 formMethod
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -255,6 +261,7 @@ boolean
 formNoValidate
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -263,6 +270,7 @@ DOMString
 formTarget
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -271,6 +279,7 @@ DOMString
 name
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -279,6 +288,7 @@ DOMString
 type
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]

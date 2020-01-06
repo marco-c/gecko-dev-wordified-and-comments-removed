@@ -165,6 +165,7 @@ HTMLFrameSetElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -172,6 +173,7 @@ DOMString
 cols
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

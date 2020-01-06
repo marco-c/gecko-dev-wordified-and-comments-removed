@@ -268,6 +268,7 @@ interface
 HTMLBRElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

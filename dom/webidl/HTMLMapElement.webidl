@@ -198,6 +198,7 @@ HTMLMapElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]

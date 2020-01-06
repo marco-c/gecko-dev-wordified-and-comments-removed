@@ -180,6 +180,7 @@ error
 network
 state
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -192,6 +193,7 @@ DOMString
 currentSrc
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -234,6 +236,7 @@ short
 networkState
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -398,6 +401,7 @@ boolean
 ended
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -405,6 +409,7 @@ boolean
 autoplay
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -461,6 +466,7 @@ controller
 /
 controls
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -479,6 +485,7 @@ boolean
 muted
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

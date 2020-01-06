@@ -268,6 +268,7 @@ interface
 HTMLHtmlElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]

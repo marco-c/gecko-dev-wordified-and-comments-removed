@@ -136,6 +136,7 @@ HTMLTitleElement
 HTMLElement
 {
 [
+CEReactions
 Throws
 ]
 attribute

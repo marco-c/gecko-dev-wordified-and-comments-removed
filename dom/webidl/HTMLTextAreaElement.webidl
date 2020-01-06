@@ -213,6 +213,7 @@ DOMString
 autocomplete
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -221,6 +222,7 @@ boolean
 autofocus
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -236,6 +238,7 @@ DOMString
 dirName
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -259,6 +262,7 @@ DOMString
 inputMode
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -267,6 +271,7 @@ long
 maxLength
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -275,6 +280,7 @@ long
 minLength
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -283,6 +289,7 @@ DOMString
 name
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -291,6 +298,7 @@ DOMString
 placeholder
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -299,6 +307,7 @@ boolean
 readOnly
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -307,6 +316,7 @@ boolean
 required
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -316,6 +326,7 @@ long
 rows
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -332,6 +343,7 @@ DOMString
 type
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -340,6 +352,7 @@ DOMString
 defaultValue
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString

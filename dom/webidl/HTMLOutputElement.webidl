@@ -216,6 +216,7 @@ HTMLFormElement
 form
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -232,6 +233,7 @@ DOMString
 type
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -240,6 +242,7 @@ DOMString
 defaultValue
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]

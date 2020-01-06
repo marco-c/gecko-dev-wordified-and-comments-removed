@@ -230,6 +230,7 @@ HTMLAreaElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -237,6 +238,7 @@ DOMString
 alt
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -244,6 +246,7 @@ DOMString
 coords
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -251,6 +254,7 @@ DOMString
 shape
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -258,6 +262,7 @@ DOMString
 target
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -265,6 +270,7 @@ DOMString
 download
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -272,6 +278,7 @@ DOMString
 ping
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -279,6 +286,7 @@ DOMString
 rel
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -338,6 +346,7 @@ interface
 HTMLAreaElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

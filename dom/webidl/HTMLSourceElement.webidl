@@ -171,6 +171,7 @@ HTMLSourceElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -178,6 +179,7 @@ DOMString
 src
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -191,6 +193,7 @@ interface
 HTMLSourceElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -198,6 +201,7 @@ DOMString
 srcset
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -205,6 +209,7 @@ DOMString
 sizes
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

@@ -184,6 +184,7 @@ index
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -200,6 +201,7 @@ interface
 HTMLTableSectionElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -207,6 +209,7 @@ DOMString
 align
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -214,6 +217,7 @@ DOMString
 ch
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -221,6 +225,7 @@ DOMString
 chOff
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

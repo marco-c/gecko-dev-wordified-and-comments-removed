@@ -199,6 +199,7 @@ HTMLMenuItemElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -206,6 +207,7 @@ DOMString
 type
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -213,6 +215,7 @@ DOMString
 label
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -220,6 +223,7 @@ DOMString
 icon
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -227,6 +231,7 @@ boolean
 disabled
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -234,6 +239,7 @@ boolean
 checked
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -264,6 +270,7 @@ defaultChecked
 '
 .
 [
+CEReactions
 SetterThrows
 ]
 attribute

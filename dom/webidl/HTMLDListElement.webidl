@@ -268,6 +268,7 @@ interface
 HTMLDListElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

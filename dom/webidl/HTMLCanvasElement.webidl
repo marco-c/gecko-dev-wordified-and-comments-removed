@@ -176,6 +176,7 @@ HTMLCanvasElement
 HTMLElement
 {
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -185,6 +186,7 @@ long
 width
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]

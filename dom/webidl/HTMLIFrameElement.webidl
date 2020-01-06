@@ -201,6 +201,7 @@ HTMLIFrameElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -209,6 +210,7 @@ DOMString
 src
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -217,6 +219,7 @@ DOMString
 srcdoc
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -241,6 +244,7 @@ boolean
 seamless
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -249,6 +253,7 @@ boolean
 allowFullscreen
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -257,6 +262,7 @@ DOMString
 width
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -265,6 +271,7 @@ DOMString
 height
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -326,6 +333,7 @@ interface
 HTMLIFrameElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -334,6 +342,7 @@ DOMString
 align
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -342,6 +351,7 @@ DOMString
 scrolling
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -350,6 +360,7 @@ DOMString
 frameBorder
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -358,6 +369,7 @@ DOMString
 longDesc
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -369,6 +381,7 @@ DOMString
 marginHeight
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString

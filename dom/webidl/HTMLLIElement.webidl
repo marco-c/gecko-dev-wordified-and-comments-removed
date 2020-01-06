@@ -230,6 +230,7 @@ HTMLLIElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -276,6 +277,7 @@ interface
 HTMLLIElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]

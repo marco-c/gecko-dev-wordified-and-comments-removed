@@ -229,6 +229,7 @@ HTMLAnchorElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -236,6 +237,7 @@ DOMString
 target
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -243,6 +245,7 @@ DOMString
 download
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -250,6 +253,7 @@ DOMString
 ping
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -257,6 +261,7 @@ DOMString
 rel
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -274,6 +279,7 @@ DOMTokenList
 relList
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -281,6 +287,7 @@ DOMString
 hreflang
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -288,6 +295,7 @@ DOMString
 type
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -337,6 +345,7 @@ interface
 HTMLAnchorElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -344,6 +353,7 @@ DOMString
 coords
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -351,6 +361,7 @@ DOMString
 charset
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -358,6 +369,7 @@ DOMString
 name
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -365,6 +377,7 @@ DOMString
 rev
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

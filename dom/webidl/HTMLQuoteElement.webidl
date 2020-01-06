@@ -199,6 +199,7 @@ HTMLQuoteElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]

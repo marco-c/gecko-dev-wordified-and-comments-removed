@@ -199,6 +199,7 @@ HTMLMeterElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -206,6 +207,7 @@ double
 value
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -213,6 +215,7 @@ double
 min
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -220,6 +223,7 @@ double
 max
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -227,6 +231,7 @@ double
 low
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -234,6 +239,7 @@ double
 high
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

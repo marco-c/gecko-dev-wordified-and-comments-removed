@@ -186,10 +186,16 @@ Element
 /
 metadata
 attributes
+[
+CEReactions
+]
 attribute
 DOMString
 title
 ;
+[
+CEReactions
+]
 attribute
 DOMString
 lang
@@ -201,6 +207,7 @@ boolean
 translate
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -217,6 +224,7 @@ DOMStringMap
 dataset
 ;
 [
+CEReactions
 GetterThrows
 Pure
 TreatNullAs
@@ -232,6 +240,7 @@ innerText
 user
 interaction
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -248,6 +257,7 @@ click
 )
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -272,6 +282,7 @@ blur
 )
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -288,6 +299,7 @@ DOMString
 accessKeyLabel
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -345,6 +357,7 @@ HTMLMenuElement
 contextMenu
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]

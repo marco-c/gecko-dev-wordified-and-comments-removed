@@ -150,12 +150,16 @@ HTMLOptionsCollection
 :
 HTMLCollection
 {
+[
+CEReactions
+]
 attribute
 unsigned
 long
 length
 ;
 [
+CEReactions
 Throws
 ]
 setter
@@ -171,6 +175,7 @@ option
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -195,6 +200,7 @@ null
 )
 ;
 [
+CEReactions
 Throws
 ]
 void

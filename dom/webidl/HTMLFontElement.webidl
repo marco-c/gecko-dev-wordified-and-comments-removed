@@ -165,6 +165,7 @@ HTMLFontElement
 HTMLElement
 {
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -175,6 +176,7 @@ DOMString
 color
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -182,6 +184,7 @@ DOMString
 face
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

@@ -128,6 +128,7 @@ HTMLSelectElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -136,6 +137,7 @@ boolean
 autofocus
 ;
 [
+CEReactions
 Pref
 =
 "
@@ -155,6 +157,7 @@ DOMString
 autocomplete
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -172,6 +175,7 @@ HTMLFormElement
 form
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -180,6 +184,7 @@ boolean
 multiple
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -188,6 +193,7 @@ DOMString
 name
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -196,6 +202,7 @@ boolean
 required
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -221,6 +228,7 @@ HTMLOptionsCollection
 options
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -248,6 +256,7 @@ name
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -271,6 +280,9 @@ before
 null
 )
 ;
+[
+CEReactions
+]
 void
 remove
 (
@@ -279,6 +291,7 @@ index
 )
 ;
 [
+CEReactions
 Throws
 ]
 setter
@@ -373,6 +386,9 @@ cgi
 id
 =
 20720
+[
+CEReactions
+]
 void
 remove
 (

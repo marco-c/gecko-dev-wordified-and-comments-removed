@@ -761,6 +761,7 @@ name
 )
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -769,6 +770,7 @@ DOMString
 title
 ;
 [
+CEReactions
 Pure
 ]
 attribute

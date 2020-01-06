@@ -130,6 +130,7 @@ name
 )
 ;
 [
+CEReactions
 Pure
 SetterThrows
 ]
@@ -208,6 +209,7 @@ dynamic
 markup
 insertion
 [
+CEReactions
 Throws
 ]
 Document
@@ -231,6 +233,7 @@ replace
 )
 ;
 [
+CEReactions
 Throws
 ]
 WindowProxy
@@ -251,6 +254,7 @@ false
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -259,6 +263,7 @@ close
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -272,6 +277,7 @@ text
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -285,6 +291,7 @@ text
 )
 ;
 [
+CEReactions
 SetterThrows
 NeedsSubjectPrincipal
 ]
@@ -293,6 +300,7 @@ DOMString
 designMode
 ;
 [
+CEReactions
 Throws
 NeedsSubjectPrincipal
 ]
@@ -366,6 +374,7 @@ commandId
 )
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -375,6 +384,7 @@ DOMString
 fgColor
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -384,6 +394,7 @@ DOMString
 linkColor
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -393,6 +404,7 @@ DOMString
 vlinkColor
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -402,6 +414,7 @@ DOMString
 alinkColor
 ;
 [
+CEReactions
 TreatNullAs
 =
 EmptyString

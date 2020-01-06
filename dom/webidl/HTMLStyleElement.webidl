@@ -174,6 +174,7 @@ boolean
 disabled
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -182,6 +183,7 @@ DOMString
 media
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]

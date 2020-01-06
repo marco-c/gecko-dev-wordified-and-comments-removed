@@ -171,6 +171,7 @@ HTMLOptGroupElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -178,6 +179,7 @@ boolean
 disabled
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

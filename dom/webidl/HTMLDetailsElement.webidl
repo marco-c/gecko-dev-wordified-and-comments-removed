@@ -168,6 +168,7 @@ HTMLDetailsElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute

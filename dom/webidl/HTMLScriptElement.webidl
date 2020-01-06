@@ -167,6 +167,7 @@ HTMLScriptElement
 HTMLElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -174,6 +175,7 @@ DOMString
 src
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -181,6 +183,7 @@ DOMString
 type
 ;
 [
+CEReactions
 SetterThrows
 Pref
 =
@@ -197,6 +200,7 @@ boolean
 noModule
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -204,6 +208,7 @@ DOMString
 charset
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -211,6 +216,7 @@ boolean
 async
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -218,6 +224,7 @@ boolean
 defer
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -226,6 +233,7 @@ DOMString
 crossOrigin
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -271,6 +279,7 @@ interface
 HTMLScriptElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -278,6 +287,7 @@ DOMString
 event
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -313,6 +323,7 @@ interface
 HTMLScriptElement
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
