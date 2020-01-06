@@ -9876,22 +9876,6 @@ test_name
         
 self
 .
-_send_message
-(
-"
-setTestName
-"
-{
-"
-value
-"
-:
-test_name
-}
-)
-        
-self
-.
 _test_name
 =
 test_name
