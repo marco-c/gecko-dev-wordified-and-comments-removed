@@ -606,6 +606,7 @@ mDevices
 {
 cubeb_device_collection_destroy
 (
+cubebContext
 mDevices
 )
 ;
