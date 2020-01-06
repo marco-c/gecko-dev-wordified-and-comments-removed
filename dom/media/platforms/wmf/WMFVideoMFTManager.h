@@ -337,6 +337,9 @@ mImageSize
 uint32_t
 mVideoStride
 ;
+YUVColorSpace
+mYUVColorSpace
+;
 RefPtr
 <
 layers
