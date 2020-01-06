@@ -8059,11 +8059,8 @@ Value
 vp
 )
 {
-if
+MOZ_ASSERT
 (
-MOZ_UNLIKELY
-(
-!
 obj
 -
 >
@@ -8071,9 +8068,6 @@ isNative
 (
 )
 )
-)
-return
-false
 ;
 return
 GetNativeDataProperty
@@ -8339,11 +8333,8 @@ JS
 AutoCheckCannotGC
 nogc
 ;
-if
+MOZ_ASSERT
 (
-MOZ_UNLIKELY
-(
-!
 obj
 -
 >
@@ -8351,9 +8342,6 @@ isNative
 (
 )
 )
-)
-return
-false
 ;
 Value
 idVal
