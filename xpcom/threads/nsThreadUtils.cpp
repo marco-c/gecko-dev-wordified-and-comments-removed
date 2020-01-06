@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h
