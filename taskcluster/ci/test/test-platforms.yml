@@ -580,8 +580,6 @@ build
 platform
 :
 linux64
--
-qr
 /
 opt
 test
@@ -603,8 +601,6 @@ build
 platform
 :
 linux64
--
-qr
 /
 debug
 test
