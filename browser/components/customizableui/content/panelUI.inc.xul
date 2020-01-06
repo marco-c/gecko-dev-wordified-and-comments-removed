@@ -5163,6 +5163,11 @@ appMenu
 -
 mainView
 "
+descriptionheightworkaround
+=
+"
+true
+"
 >
 <
 panelview
