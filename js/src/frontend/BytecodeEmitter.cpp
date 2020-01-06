@@ -16497,6 +16497,10 @@ result
 =
 parser
 .
+tokenStream
+(
+)
+.
 reportExtraWarningErrorNumberVA
 (
 nullptr
@@ -16565,6 +16569,10 @@ bool
 result
 =
 parser
+.
+tokenStream
+(
+)
 .
 reportStrictModeErrorNumberVA
 (
