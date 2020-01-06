@@ -1,8 +1,3 @@
-addIntlExtras
-(
-Intl
-)
-;
 function
 IsConstructor
 (

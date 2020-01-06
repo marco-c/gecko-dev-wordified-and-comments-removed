@@ -3905,17 +3905,6 @@ global
 ;
 static
 bool
-addPluralRulesConstructor
-(
-JSContext
-*
-cx
-HandleObject
-intl
-)
-;
-static
-bool
 initModuleProto
 (
 JSContext
