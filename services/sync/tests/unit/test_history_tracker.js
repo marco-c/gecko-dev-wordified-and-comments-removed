@@ -947,6 +947,7 @@ track_delete
 let
 guid
 =
+await
 engine
 .
 _store
@@ -954,6 +955,8 @@ _store
 GUIDForUri
 (
 uri
+.
+spec
 )
 ;
 await
@@ -1071,6 +1074,7 @@ to_remove
 let
 guidToRemove
 =
+await
 engine
 .
 _store
@@ -1078,6 +1082,8 @@ _store
 GUIDForUri
 (
 uriToRemove
+.
+spec
 )
 ;
 await
@@ -1394,6 +1400,7 @@ hidden
 let
 hiddenGUID
 =
+await
 engine
 .
 _store
@@ -1401,6 +1408,8 @@ _store
 GUIDForUri
 (
 hiddenURI
+.
+spec
 )
 ;
 _
@@ -1437,6 +1446,8 @@ addVisit
 redirect
 "
 hiddenURI
+.
+spec
 PlacesUtils
 .
 history
@@ -1447,6 +1458,7 @@ TRANSITION_REDIRECT_PERMANENT
 let
 trackedGUID
 =
+await
 engine
 .
 _store
@@ -1454,6 +1466,8 @@ _store
 GUIDForUri
 (
 trackedURI
+.
+spec
 )
 ;
 _
@@ -1502,6 +1516,7 @@ TRANSITION_FRAMED_LINK
 let
 embedGUID
 =
+await
 engine
 .
 _store
@@ -1509,6 +1524,8 @@ _store
 GUIDForUri
 (
 embedURI
+.
+spec
 )
 ;
 _
