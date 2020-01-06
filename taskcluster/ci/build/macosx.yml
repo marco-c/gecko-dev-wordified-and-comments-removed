@@ -154,6 +154,10 @@ port
 -
 linux64
 -
+clang
+-
+linux64
+-
 hfsplus
 -
 linux64
@@ -305,6 +309,10 @@ linux64
 cctools
 -
 port
+-
+linux64
+-
+clang
 -
 linux64
 -
@@ -488,6 +496,10 @@ port
 -
 linux64
 -
+clang
+-
+linux64
+-
 hfsplus
 -
 linux64
@@ -657,6 +669,10 @@ linux64
 cctools
 -
 port
+-
+linux64
+-
+clang
 -
 linux64
 -
@@ -869,6 +885,10 @@ linux64
 cctools
 -
 port
+-
+linux64
+-
+clang
 -
 linux64
 -
@@ -1086,6 +1106,10 @@ port
 -
 linux64
 -
+clang
+-
+linux64
+-
 hfsplus
 -
 linux64
@@ -1256,6 +1280,10 @@ linux64
 cctools
 -
 port
+-
+linux64
+-
+clang
 -
 linux64
 -

@@ -396,6 +396,10 @@ toolchains
 -
 linux64
 -
+clang
+-
+linux64
+-
 gcc
 -
 linux64
@@ -775,6 +779,10 @@ toolchains
 -
 linux64
 -
+clang
+-
+linux64
+-
 sccache
 linux64
 -
@@ -929,6 +937,10 @@ tar
 xz
 toolchains
 :
+-
+linux64
+-
+clang
 -
 linux64
 -
@@ -1171,3 +1183,9 @@ sccache2
 tar
 .
 xz
+toolchains
+:
+-
+linux64
+-
+clang

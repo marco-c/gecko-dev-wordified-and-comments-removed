@@ -217,6 +217,10 @@ port
 -
 linux64
 -
+clang
+-
+linux64
+-
 gcc
 -
 linux64
@@ -422,6 +426,10 @@ port
 -
 linux64
 -
+clang
+-
+linux64
+-
 gcc
 -
 linux64
@@ -583,6 +591,10 @@ linux64
 cctools
 -
 port
+-
+linux64
+-
+clang
 -
 linux64
 -
