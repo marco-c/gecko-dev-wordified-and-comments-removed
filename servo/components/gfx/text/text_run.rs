@@ -183,7 +183,7 @@ font_key
 webrender_api
 :
 :
-FontKey
+FontInstanceKey
 pub
 glyphs
 :

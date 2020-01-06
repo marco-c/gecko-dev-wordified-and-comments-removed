@@ -769,7 +769,7 @@ font_key
 webrender_api
 :
 :
-FontKey
+FontInstanceKey
 }
 impl
 Font
@@ -801,7 +801,7 @@ font_key
 webrender_api
 :
 :
-FontKey
+FontInstanceKey
 )
 -
 >
