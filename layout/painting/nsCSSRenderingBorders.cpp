@@ -16110,6 +16110,16 @@ i
 )
 ;
 }
+WrClipRegionToken
+clipRegion
+=
+aBuilder
+.
+PushClipRegion
+(
+transformedRect
+)
+;
 WrBorderRadius
 borderRadius
 =
@@ -16185,7 +16195,7 @@ aBuilder
 PushBorder
 (
 transformedRect
-transformedRect
+clipRegion
 wr
 :
 :

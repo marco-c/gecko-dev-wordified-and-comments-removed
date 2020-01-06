@@ -6265,7 +6265,12 @@ aBuilder
 PushLinearGradient
 (
 wrGradientBounds
+aBuilder
+.
+PushClipRegion
+(
 wrClipBounds
+)
 mozilla
 :
 :
@@ -6336,7 +6341,12 @@ aBuilder
 PushRadialGradient
 (
 wrGradientBounds
+aBuilder
+.
+PushClipRegion
+(
 wrClipBounds
+)
 mozilla
 :
 :
