@@ -1438,7 +1438,7 @@ profiler_is_paused
 ;
 }
 class
-GTestPayload
+GTestMarkerPayload
 :
 public
 ProfilerMarkerPayload
@@ -1446,7 +1446,7 @@ ProfilerMarkerPayload
 public
 :
 explicit
-GTestPayload
+GTestMarkerPayload
 (
 int
 aN
@@ -1464,7 +1464,7 @@ sNumCreated
 }
 virtual
 ~
-GTestPayload
+GTestMarkerPayload
 (
 )
 {
@@ -1493,7 +1493,7 @@ aUniqueStacks
 )
 override
 {
-streamCommonProps
+StreamCommonProps
 (
 "
 gtest
@@ -1556,7 +1556,7 @@ sNumDestroyed
 }
 ;
 int
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumCreated
@@ -1564,7 +1564,7 @@ sNumCreated
 0
 ;
 int
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumStreamed
@@ -1572,7 +1572,7 @@ sNumStreamed
 0
 ;
 int
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumDestroyed
@@ -1707,7 +1707,7 @@ M2
 "
 MakeUnique
 <
-ProfilerMarkerTracing
+TracingMarkerPayload
 >
 (
 "
@@ -1731,7 +1731,7 @@ M4
 "
 MakeUnique
 <
-ProfilerMarkerTracing
+TracingMarkerPayload
 >
 (
 "
@@ -1767,7 +1767,7 @@ M5
 "
 MakeUnique
 <
-GTestPayload
+GTestMarkerPayload
 >
 (
 i
@@ -1815,7 +1815,7 @@ CopyData
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumCreated
@@ -1826,7 +1826,7 @@ sNumCreated
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumStreamed
@@ -1837,7 +1837,7 @@ sNumStreamed
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumDestroyed
@@ -1904,7 +1904,7 @@ profiler_stop
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumDestroyed
@@ -1936,7 +1936,7 @@ M5
 "
 MakeUnique
 <
-GTestPayload
+GTestMarkerPayload
 >
 (
 i
@@ -1970,7 +1970,7 @@ profiler_stop
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumCreated
@@ -1981,7 +1981,7 @@ sNumCreated
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumStreamed
@@ -1992,7 +1992,7 @@ sNumStreamed
 ;
 ASSERT_TRUE
 (
-GTestPayload
+GTestMarkerPayload
 :
 :
 sNumDestroyed
