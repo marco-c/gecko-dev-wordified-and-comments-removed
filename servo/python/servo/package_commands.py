@@ -1918,6 +1918,7 @@ hdiutil
 '
 create
 '
+                                       
 '
 -
 volname
@@ -1925,7 +1926,17 @@ volname
 '
 Servo
 '
+                                       
+'
+-
+megabytes
+'
+'
+900
+'
+                                       
 dmg_path
+                                       
 '
 -
 srcfolder
