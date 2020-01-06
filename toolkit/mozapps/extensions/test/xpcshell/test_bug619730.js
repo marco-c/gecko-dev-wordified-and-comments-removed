@@ -89,6 +89,7 @@ obs
 addObserver
 (
 function
+observer
 (
 )
 {
@@ -98,9 +99,7 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+observer
 "
 blocklist
 -

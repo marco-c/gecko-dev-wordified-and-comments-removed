@@ -1973,9 +1973,7 @@ removeEventListener
 "
 DOMAttrModified
 "
-arguments
-.
-callee
+onDOMAttrModified
 )
 ;
 executeSoon

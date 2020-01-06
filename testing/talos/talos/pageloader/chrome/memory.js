@@ -63,6 +63,7 @@ os
 addObserver
 (
 function
+observer
 (
 )
 {
@@ -109,9 +110,7 @@ os
 .
 removeObserver
 (
-arguments
-.
-callee
+observer
 "
 child
 -

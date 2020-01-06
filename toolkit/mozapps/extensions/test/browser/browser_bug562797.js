@@ -2339,6 +2339,7 @@ addEventListener
 pageshow
 "
 function
+listener
 (
 event
 )
@@ -2372,9 +2373,7 @@ removeEventListener
 "
 pageshow
 "
-arguments
-.
-callee
+listener
 )
 ;
 info
@@ -2435,6 +2434,7 @@ addEventListener
 pageshow
 "
 function
+listener
 (
 event
 )
@@ -2463,9 +2463,7 @@ removeEventListener
 "
 pageshow
 "
-arguments
-.
-callee
+listener
 )
 ;
 wait_for_view_load
@@ -2523,6 +2521,7 @@ addEventListener
 pageshow
 "
 function
+listener
 (
 event
 )
@@ -2556,9 +2555,7 @@ removeEventListener
 "
 pageshow
 "
-arguments
-.
-callee
+listener
 )
 ;
 info
@@ -2619,6 +2616,7 @@ addEventListener
 pageshow
 "
 function
+listener
 (
 event
 )
@@ -2647,9 +2645,7 @@ removeEventListener
 "
 pageshow
 "
-arguments
-.
-callee
+listener
 )
 ;
 wait_for_view_load
@@ -3377,6 +3373,7 @@ addEventListener
 pageshow
 "
 function
+listener
 (
 event
 )
@@ -3410,9 +3407,7 @@ removeEventListener
 "
 pageshow
 "
-arguments
-.
-callee
+listener
 )
 ;
 info
@@ -3473,6 +3468,7 @@ addEventListener
 pageshow
 "
 function
+listener
 (
 event
 )
@@ -3501,9 +3497,7 @@ removeEventListener
 "
 pageshow
 "
-arguments
-.
-callee
+listener
 )
 ;
 wait_for_view_load
@@ -3740,6 +3734,7 @@ addEventListener
 pageshow
 "
 function
+listener
 (
 event
 )
@@ -3768,9 +3763,7 @@ removeEventListener
 "
 pageshow
 "
-arguments
-.
-callee
+listener
 )
 ;
 wait_for_view_load
@@ -3966,6 +3959,7 @@ addEventListener
 pageshow
 "
 function
+listener
 (
 event
 )
@@ -3994,9 +3988,7 @@ removeEventListener
 "
 pageshow
 "
-arguments
-.
-callee
+listener
 )
 ;
 wait_for_view_load
@@ -4940,6 +4932,7 @@ addEventListener
 pageshow
 "
 function
+listener
 (
 event
 )
@@ -4970,9 +4963,7 @@ removeEventListener
 "
 pageshow
 "
-arguments
-.
-callee
+listener
 true
 )
 ;

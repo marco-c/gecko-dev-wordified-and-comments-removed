@@ -737,15 +737,6 @@ off
 "
 no
 -
-caller
-"
-:
-"
-error
-"
-"
-no
--
 catch
 -
 shadow

@@ -838,6 +838,7 @@ ww
 registerNotification
 (
 function
+notification
 (
 aSubject
 aTopic
@@ -916,9 +917,7 @@ ww
 .
 unregisterNotification
 (
-arguments
-.
-callee
+notification
 )
 ;
 }

@@ -280,6 +280,7 @@ doCommand
 executeSoon
 (
 function
+waitForPrintPreview
 (
 )
 {
@@ -298,9 +299,7 @@ return
 }
 executeSoon
 (
-arguments
-.
-callee
+waitForPrintPreview
 )
 ;
 }
@@ -321,6 +320,7 @@ count
 executeSoon
 (
 function
+waitForPrintPreviewClosed
 (
 )
 {
@@ -368,9 +368,7 @@ exitPrintPreview
 }
 executeSoon
 (
-arguments
-.
-callee
+waitForPrintPreviewClosed
 )
 ;
 }

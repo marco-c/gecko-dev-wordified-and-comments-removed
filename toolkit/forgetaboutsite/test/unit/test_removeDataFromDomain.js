@@ -2567,9 +2567,7 @@ length
 ]
 =
 =
-arguments
-.
-callee
+test_cache_cleared
 )
 ;
 let

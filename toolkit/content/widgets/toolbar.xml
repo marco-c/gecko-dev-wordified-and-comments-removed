@@ -1101,6 +1101,7 @@ addEventListener
 readystatechange
 "
 function
+listener
 (
 event
 )
@@ -1125,9 +1126,7 @@ removeEventListener
 "
 readystatechange
 "
-arguments
-.
-callee
+listener
 )
 ;
 self

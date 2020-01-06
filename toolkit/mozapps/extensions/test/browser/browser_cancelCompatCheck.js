@@ -357,7 +357,7 @@ obs
 addObserver
 (
 function
-observe
+observer
 (
 aSubject
 aObsTopic
@@ -370,9 +370,7 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+observer
 aObsTopic
 )
 ;
@@ -892,6 +890,7 @@ addEventListener
 load
 "
 function
+listener
 (
 )
 {
@@ -934,9 +933,7 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+listener
 )
 ;
 info

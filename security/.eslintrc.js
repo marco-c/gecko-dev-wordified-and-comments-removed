@@ -120,15 +120,6 @@ error
 "
 no
 -
-caller
-"
-:
-"
-error
-"
-"
-no
--
 case
 -
 declarations

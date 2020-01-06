@@ -813,6 +813,7 @@ ww
 registerNotification
 (
 function
+notification
 (
 aSubject
 aTopic
@@ -834,9 +835,7 @@ ww
 .
 unregisterNotification
 (
-arguments
-.
-callee
+notification
 )
 ;
 else
@@ -896,6 +895,7 @@ obs
 addObserver
 (
 function
+observer
 (
 aSubject
 aTopic
@@ -924,9 +924,7 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+observer
 aTopic
 )
 ;
@@ -1255,6 +1253,7 @@ ww
 registerNotification
 (
 function
+notification
 (
 aSubject
 aTopic
@@ -1267,9 +1266,7 @@ ww
 .
 unregisterNotification
 (
-arguments
-.
-callee
+notification
 )
 ;
 pwmgr

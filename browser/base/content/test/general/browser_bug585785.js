@@ -178,6 +178,7 @@ addEventListener
 transitionend
 "
 function
+listener
 (
 event
 )
@@ -203,9 +204,7 @@ removeEventListener
 "
 transitionend
 "
-arguments
-.
-callee
+listener
 )
 ;
 executeSoon
