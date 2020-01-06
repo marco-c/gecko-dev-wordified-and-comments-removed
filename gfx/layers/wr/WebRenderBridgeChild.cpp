@@ -1025,6 +1025,8 @@ const
 LayerRect
 &
 aClip
+bool
+aBackfaceVisible
 )
 {
 MOZ_ASSERT
@@ -1163,6 +1165,7 @@ ToRelativeLayoutRect
 (
 aClip
 )
+aBackfaceVisible
 aColor
 key
 Range

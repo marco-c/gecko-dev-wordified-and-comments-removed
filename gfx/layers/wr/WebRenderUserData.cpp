@@ -593,6 +593,8 @@ wr
 MixBlendMode
 &
 aMixBlendMode
+bool
+aIsBackfaceVisible
 )
 {
 MOZ_ASSERT
@@ -681,6 +683,7 @@ aBuilder
 PushIFrame
 (
 r
+aIsBackfaceVisible
 mPipelineId
 .
 ref

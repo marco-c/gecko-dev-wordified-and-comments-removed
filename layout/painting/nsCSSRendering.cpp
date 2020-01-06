@@ -3947,6 +3947,13 @@ bgRadii
 borderColors
 compositeColors
 bgColor
+!
+aForFrame
+-
+>
+BackfaceIsHidden
+(
+)
 )
 ;
 }
@@ -5088,6 +5095,13 @@ outlineRadii
 outlineColors
 nullptr
 bgColor
+!
+aForFrame
+-
+>
+BackfaceIsHidden
+(
+)
 )
 ;
 return
@@ -5323,6 +5337,7 @@ NS_RGB
 0
 0
 )
+true
 )
 ;
 br

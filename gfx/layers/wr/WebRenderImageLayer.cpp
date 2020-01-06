@@ -839,6 +839,7 @@ aBuilder
 PushIFrame
 (
 r
+true
 mPipelineId
 .
 ref
@@ -1255,6 +1256,7 @@ PushImage
 (
 r
 r
+true
 filter
 mKey
 .

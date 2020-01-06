@@ -189,6 +189,7 @@ GetMixBlendMode
 )
 )
 aFilters
+true
 )
 ;
 mOrigin
@@ -316,6 +317,7 @@ GetMixBlendMode
 )
 )
 aFilters
+true
 )
 ;
 mOrigin
@@ -400,6 +402,8 @@ gfx
 CompositionOp
 &
 aMixBlendMode
+bool
+aBackfaceVisible
 )
 :
 mBuilder
@@ -479,6 +483,7 @@ ToMixBlendMode
 aMixBlendMode
 )
 aFilters
+aBackfaceVisible
 )
 ;
 }
