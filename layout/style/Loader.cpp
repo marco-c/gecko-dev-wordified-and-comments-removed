@@ -1621,7 +1621,7 @@ nsIThread
 >
 thread
 =
-do_GetMainThread
+do_GetCurrentThread
 (
 )
 ;
