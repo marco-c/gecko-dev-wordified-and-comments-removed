@@ -119,6 +119,15 @@ _nextHandleElement
 =
 null
 ;
+sendAsyncMessage
+(
+"
+FormAutofill
+:
+FieldsIdentified
+"
+)
+;
 }
 )
 ;
