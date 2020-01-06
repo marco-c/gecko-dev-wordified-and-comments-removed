@@ -2274,6 +2274,16 @@ healthreport
 '
         
 '
+datareporting
+.
+policy
+.
+dataSubmissionPolicyBypassNotification
+'
+:
+True
+        
+'
 extensions
 .
 enabledScopes

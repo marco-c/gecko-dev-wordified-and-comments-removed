@@ -586,11 +586,6 @@ Preferences
 .
 set
 (
-"
-marionette
-.
-"
-+
 prefName
 prefs
 [
