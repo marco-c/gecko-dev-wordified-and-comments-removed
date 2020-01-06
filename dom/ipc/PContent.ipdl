@@ -5375,6 +5375,8 @@ nsCString
 aBaseURI
 float
 aFullZoom
+Principal
+aTriggeringPrincipal
 )
 returns
 (
@@ -5405,6 +5407,8 @@ float
 aFullZoom
 nsString
 aName
+Principal
+aTriggeringPrincipal
 )
 ;
 sync

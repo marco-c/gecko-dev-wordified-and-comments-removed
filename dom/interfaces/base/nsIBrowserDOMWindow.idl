@@ -110,6 +110,9 @@ nsIURI
 interface
 nsIFrameLoaderOwner
 ;
+interface
+nsIPrincipal
+;
 [
 scriptable
 uuid
@@ -138,6 +141,10 @@ readonly
 attribute
 boolean
 isPrivate
+;
+attribute
+nsIPrincipal
+triggeringPrincipal
 ;
 [
 implicit_jscontext

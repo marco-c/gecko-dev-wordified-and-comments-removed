@@ -2029,6 +2029,13 @@ const
 float
 &
 aFullZoom
+const
+IPC
+:
+:
+Principal
+&
+aTriggeringPrincipal
 CreateWindowResolver
 &
 &
@@ -2085,6 +2092,13 @@ const
 nsString
 &
 aName
+const
+IPC
+:
+:
+Principal
+&
+aTriggeringPrincipal
 )
 override
 ;
@@ -2743,6 +2757,9 @@ aNewTabParent
 bool
 *
 aWindowIsNew
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 ;
 FORWARD_SHMEM_ALLOCATOR_TO
