@@ -205,20 +205,17 @@ use
 style
 :
 :
-properties
+values
 :
 :
-longhands
+computed
 :
 :
-font_family
-:
-:
-computed_value
+font
 :
 :
 {
-FontFamily
+SingleFontFamily
 FamilyName
 }
 ;
@@ -530,7 +527,7 @@ Command
 {
 GetFontTemplate
 (
-FontFamily
+SingleFontFamily
 FontTemplateDescriptor
 IpcSender
 <
@@ -633,7 +630,7 @@ generic_fonts
 :
 HashMap
 <
-FontFamily
+SingleFontFamily
 LowercaseString
 >
 local_families
@@ -697,7 +694,7 @@ populate_generic_fonts
 >
 HashMap
 <
-FontFamily
+SingleFontFamily
 LowercaseString
 >
 {
@@ -718,7 +715,7 @@ append_map
 &
 mut
 generic_fonts
-FontFamily
+SingleFontFamily
 :
 :
 Generic
@@ -743,7 +740,7 @@ append_map
 &
 mut
 generic_fonts
-FontFamily
+SingleFontFamily
 :
 :
 Generic
@@ -766,7 +763,7 @@ append_map
 &
 mut
 generic_fonts
-FontFamily
+SingleFontFamily
 :
 :
 Generic
@@ -790,7 +787,7 @@ append_map
 &
 mut
 generic_fonts
-FontFamily
+SingleFontFamily
 :
 :
 Generic
@@ -813,7 +810,7 @@ append_map
 &
 mut
 generic_fonts
-FontFamily
+SingleFontFamily
 :
 :
 Generic
@@ -840,12 +837,12 @@ generic_fonts
 mut
 HashMap
 <
-FontFamily
+SingleFontFamily
 LowercaseString
 >
 font_family
 :
-FontFamily
+SingleFontFamily
 mapped_name
 :
 &
@@ -2084,7 +2081,7 @@ self
 family
 :
 &
-FontFamily
+SingleFontFamily
 )
 -
 >
@@ -2287,7 +2284,7 @@ self
 family
 :
 &
-FontFamily
+SingleFontFamily
 desc
 :
 &
@@ -2541,7 +2538,7 @@ self
 family
 :
 &
-FontFamily
+SingleFontFamily
 desc
 :
 &
@@ -2898,7 +2895,7 @@ find_font_template
 self
 family
 :
-FontFamily
+SingleFontFamily
 desc
 :
 FontTemplateDescriptor
