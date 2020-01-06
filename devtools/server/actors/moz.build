@@ -102,6 +102,11 @@ webconsole
 DevToolsModules
 (
 '
+accessibility
+.
+js
+'
+'
 actor
 -
 registry
