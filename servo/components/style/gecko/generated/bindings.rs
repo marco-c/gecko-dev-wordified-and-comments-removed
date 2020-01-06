@@ -15539,9 +15539,6 @@ Servo_TakeChangeHint
 element
 :
 RawGeckoElementBorrowed
-flags
-:
-ServoTraversalFlags
 was_restyled
 :
 *
@@ -15568,9 +15565,6 @@ RawGeckoElementBorrowed
 set
 :
 RawServoStyleSetBorrowed
-flags
-:
-ServoTraversalFlags
 )
 -
 >
