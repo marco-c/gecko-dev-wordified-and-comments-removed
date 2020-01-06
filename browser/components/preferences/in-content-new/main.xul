@@ -6041,6 +6041,13 @@ category
 "
 paneGeneral
 "
+data
+-
+subcategory
+=
+"
+drm
+"
 hidden
 =
 "

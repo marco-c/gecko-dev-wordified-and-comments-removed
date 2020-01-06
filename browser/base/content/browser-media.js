@@ -1125,7 +1125,9 @@ else
 openPreferences
 (
 "
-panePrivacy
+general
+-
+drm
 "
 {
 origin
