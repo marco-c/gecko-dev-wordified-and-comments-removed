@@ -6940,14 +6940,6 @@ isRTL
 {
 hgram
 .
-buckets
-.
-reverse
-(
-)
-;
-hgram
-.
 values
 .
 reverse
