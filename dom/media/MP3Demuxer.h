@@ -1067,6 +1067,9 @@ mSource
 FrameParser
 mParser
 ;
+bool
+mFrameLock
+;
 int64_t
 mOffset
 ;
