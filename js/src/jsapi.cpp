@@ -18259,6 +18259,15 @@ IsAsmJSModule
 (
 fun
 )
+|
+|
+wasm
+:
+:
+IsExportedFunction
+(
+fun
+)
 )
 {
 JS_ReportErrorNumberASCII
