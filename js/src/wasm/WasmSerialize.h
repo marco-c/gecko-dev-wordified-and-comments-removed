@@ -36,6 +36,10 @@ size_t
 nbytes
 )
 {
+if
+(
+nbytes
+)
 memcpy
 (
 dst
@@ -67,6 +71,10 @@ size_t
 nbytes
 )
 {
+if
+(
+nbytes
+)
 memcpy
 (
 dst

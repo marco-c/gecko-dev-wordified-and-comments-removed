@@ -5862,7 +5862,10 @@ ENC3_MASK_VAL
 |
 (
 (
+uint32_t
+(
 pcDelta
+)
 <
 <
 ENC3_PC_DELTA_SHIFT
@@ -5945,7 +5948,10 @@ ENC4_MASK_VAL
 |
 (
 (
+uint32_t
+(
 pcDelta
+)
 <
 <
 ENC4_PC_DELTA_SHIFT

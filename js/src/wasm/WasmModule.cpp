@@ -1932,6 +1932,10 @@ bytecodeSize
 return
 nullptr
 ;
+if
+(
+bytecodeSize
+)
 memcpy
 (
 bytecode
