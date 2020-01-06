@@ -2485,6 +2485,9 @@ back
 .
 svg
 )
+#
+ifndef
+MOZ_PHOTON_THEME
 skin
 /
 classic
@@ -2510,6 +2513,8 @@ large
 .
 svg
 )
+#
+endif
 skin
 /
 classic
