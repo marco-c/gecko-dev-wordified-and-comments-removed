@@ -489,6 +489,11 @@ void
 *
 *
 aOutput
+TimeDuration
+*
+aOutDuration
+=
+nullptr
 )
 ;
 HRESULT
