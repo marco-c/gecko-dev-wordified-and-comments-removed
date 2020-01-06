@@ -1211,7 +1211,7 @@ results
 onVisited
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -1283,7 +1283,7 @@ api
 onVisitRemoved
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -1355,7 +1355,7 @@ api
 onTitleChanged
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

@@ -1250,7 +1250,7 @@ pageAction
 onClicked
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

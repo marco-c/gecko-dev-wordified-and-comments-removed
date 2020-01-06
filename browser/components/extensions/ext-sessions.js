@@ -711,7 +711,7 @@ closedId
 onChanged
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

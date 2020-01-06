@@ -722,7 +722,7 @@ removeAll
 onClicked
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

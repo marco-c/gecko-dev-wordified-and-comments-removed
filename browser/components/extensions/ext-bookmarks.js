@@ -1704,7 +1704,7 @@ info
 onCreated
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -1783,7 +1783,7 @@ api
 onRemoved
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -1864,7 +1864,7 @@ api
 onChanged
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -1945,7 +1945,7 @@ api
 onMoved
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

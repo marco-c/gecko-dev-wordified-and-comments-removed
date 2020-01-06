@@ -24,11 +24,11 @@ jsm
 ;
 global
 .
-EventManager
+SingletonEventManager
 =
 ExtensionCommon
 .
-EventManager
+SingletonEventManager
 ;
 global
 .

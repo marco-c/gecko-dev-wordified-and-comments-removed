@@ -3587,7 +3587,7 @@ remove
 onClicked
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

@@ -457,7 +457,7 @@ tabs
 onActivated
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -529,7 +529,7 @@ api
 onCreated
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -611,7 +611,7 @@ api
 onHighlighted
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -696,7 +696,7 @@ api
 onAttached
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -782,7 +782,7 @@ api
 onDetached
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -868,7 +868,7 @@ api
 onRemoved
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -954,7 +954,7 @@ api
 onReplaced
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -983,7 +983,7 @@ api
 onMoved
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -1173,7 +1173,7 @@ api
 onUpdated
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
@@ -3721,7 +3721,7 @@ resolve
 onZoomChange
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "

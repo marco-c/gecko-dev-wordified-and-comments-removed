@@ -27,7 +27,7 @@ network
 onNavigated
 :
 new
-EventManager
+SingletonEventManager
 (
 context
 "
