@@ -152,10 +152,6 @@ mp4_demuxer
 {
 using
 namespace
-stagefright
-;
-using
-namespace
 mozilla
 ;
 const
