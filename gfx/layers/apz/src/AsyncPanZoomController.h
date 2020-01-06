@@ -334,6 +334,12 @@ GetTouchStartTolerance
 (
 )
 ;
+static
+ScreenCoord
+GetSecondTapTolerance
+(
+)
+;
 AsyncPanZoomController
 (
 uint64_t
