@@ -7,13 +7,6 @@ include_dom_ipc_VideoDecoderChild_h
 #
 include
 "
-MediaResult
-.
-h
-"
-#
-include
-"
 PlatformDecoderModule
 .
 h
@@ -271,7 +264,7 @@ NeedsConversion
 const
 ;
 MOZ_IS_CLASS_INIT
-MediaResult
+bool
 InitIPDL
 (
 const

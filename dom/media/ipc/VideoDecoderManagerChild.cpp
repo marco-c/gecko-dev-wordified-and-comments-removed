@@ -506,8 +506,6 @@ nsCString
 *
 nsCString
 *
-nsCString
-*
 )
 {
 return

@@ -898,9 +898,6 @@ aBlacklistedD3D11Driver
 nsCString
 *
 aBlacklistedD3D9Driver
-nsCString
-*
-aErrorDescription
 )
 {
 RefPtr
@@ -946,7 +943,6 @@ aIdentifier
 sManagerTaskQueue
 decodeTaskQueue
 aSuccess
-aErrorDescription
 )
 ;
 #
