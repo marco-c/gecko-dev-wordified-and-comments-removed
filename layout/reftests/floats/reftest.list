@@ -2175,11 +2175,6 @@ winWidget
 135
 700
 )
-HTTP
-(
-.
-.
-)
 =
 =
 orthogonal
@@ -2216,11 +2211,6 @@ if
 winWidget
 135
 700
-)
-HTTP
-(
-.
-.
 )
 =
 =

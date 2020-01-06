@@ -316,11 +316,6 @@ bidiSVG
 ref
 .
 svg
-HTTP
-(
-.
-.
-)
 =
 =
 bidiMirroring
@@ -2661,6 +2656,15 @@ margin
 ref
 .
 html
+fails
+-
+if
+(
+stylo
+|
+|
+styloVsGecko
+)
 !
 =
 1155359
@@ -2675,6 +2679,9 @@ xul
 ref
 .
 xul
+#
+bug
+1408235
 =
 =
 1157726

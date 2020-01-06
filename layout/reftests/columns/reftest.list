@@ -388,11 +388,6 @@ rtl
 ref
 .
 html
-HTTP
-(
-.
-.
-)
 =
 =
 columnfill
@@ -415,11 +410,6 @@ OSX
 32
 1000
 )
-HTTP
-(
-.
-.
-)
 =
 =
 columnfill
@@ -434,11 +424,6 @@ auto
 ref
 .
 html
-HTTP
-(
-.
-.
-)
 =
 =
 columnfill
@@ -457,11 +442,6 @@ auto
 ref
 .
 html
-HTTP
-(
-.
-.
-)
 =
 =
 columnfill
