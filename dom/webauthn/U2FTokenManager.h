@@ -33,16 +33,6 @@ final
 {
 public
 :
-enum
-TransactionType
-{
-RegisterTransaction
-=
-0
-SignTransaction
-NumTransactionTypes
-}
-;
 NS_INLINE_DECL_REFCOUNTING
 (
 U2FTokenManager
