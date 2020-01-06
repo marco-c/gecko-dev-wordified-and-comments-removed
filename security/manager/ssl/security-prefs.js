@@ -436,7 +436,7 @@ security
 .
 use_sqldb
 "
-false
+true
 )
 ;
 pref
