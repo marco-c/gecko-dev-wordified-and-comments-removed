@@ -279,6 +279,17 @@ uint32_t
 aPromiseID
 )
 ;
+void
+DispatchSubmitFrameResult
+(
+uint32_t
+aDisplayID
+const
+VRSubmitFrameResultInfo
+&
+aResult
+)
+;
 protected
 :
 VRManager
