@@ -414,7 +414,7 @@ now
 )
 ;
 const
-cs
+enumerator
 =
 Cc
 [
@@ -433,8 +433,10 @@ getService
 (
 Ci
 .
-nsICookieService
+nsICookieManager
 )
+.
+sessionEnumerator
 ;
 do_check_true
 (
