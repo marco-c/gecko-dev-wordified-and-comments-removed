@@ -36,6 +36,13 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_EXTERNAL
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 is

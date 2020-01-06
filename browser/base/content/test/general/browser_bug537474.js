@@ -37,6 +37,13 @@ nsIBrowserDOMWindow
 .
 OPEN_CURRENTWINDOW
 null
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 await
 browserLoadedPromise

@@ -698,6 +698,17 @@ aWhere
 OPEN_DEFAULTWINDOW
 .
 *
+param
+aTriggeringPrincipal
+the
+principal
+that
+triggered
+the
+load
+of
+aURI
+*
 return
 the
 window
@@ -725,6 +736,9 @@ aWhere
 in
 long
 aFlags
+in
+nsIPrincipal
+aTriggeringPrincipal
 )
 ;
 /

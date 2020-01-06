@@ -22573,6 +22573,7 @@ nsIBrowserDOMWindow
 :
 :
 OPEN_NEW
+aTriggeringPrincipal
 getter_AddRefs
 (
 win
