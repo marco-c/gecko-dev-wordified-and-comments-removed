@@ -2717,6 +2717,12 @@ int32_t
 aDelta
 )
 ;
+nsTArray
+<
+UndisplayedItem
+>
+mUndisplayedItems
+;
 mozilla
 :
 :
@@ -2755,12 +2761,6 @@ mParentHasNoXBLChildren
 ;
 bool
 mTriedConstructingFrames
-;
-nsTArray
-<
-UndisplayedItem
->
-mUndisplayedItems
 ;
 }
 ;
