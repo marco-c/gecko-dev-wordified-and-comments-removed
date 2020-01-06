@@ -1942,6 +1942,11 @@ attribute
 AString
 addonId
 ;
+readonly
+attribute
+nsISupports
+addonPolicy
+;
 /
 *
 *
