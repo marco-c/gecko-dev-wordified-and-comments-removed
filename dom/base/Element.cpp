@@ -19245,9 +19245,7 @@ aSizes
 &
 aSizes
 .
-mStyleSizes
-.
-mComputedValuesDom
+mLayoutComputedValuesDom
 )
 ;
 }
@@ -19317,9 +19315,7 @@ aSizes
 &
 aSizes
 .
-mStyleSizes
-.
-mComputedValuesDom
+mLayoutComputedValuesDom
 )
 ;
 }

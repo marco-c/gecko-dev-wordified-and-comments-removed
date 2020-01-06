@@ -1270,9 +1270,7 @@ aSizes
 &
 aSizes
 .
-mStyleSizes
-.
-mComputedValuesVisited
+mLayoutComputedValuesVisited
 )
 ;
 }
