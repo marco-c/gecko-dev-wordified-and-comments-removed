@@ -546,10 +546,7 @@ LazyComputeBehavior
 aMayCompute
 )
 ;
-already_AddRefed
-<
-ServoStyleContext
->
+void
 ReresolveStyleForBindings
 (
 Element
