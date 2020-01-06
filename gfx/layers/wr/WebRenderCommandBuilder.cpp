@@ -1071,6 +1071,7 @@ asr
 ;
 }
 }
+{
 ScrollingLayersHelper
 clip
 (
@@ -1106,6 +1107,7 @@ aSc
 aDisplayListBuilder
 )
 ;
+}
 }
 if
 (
