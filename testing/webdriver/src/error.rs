@@ -710,7 +710,7 @@ struct
 WebDriverError
 {
 pub
-status
+error
 :
 ErrorStatus
 pub
@@ -767,7 +767,7 @@ pub
 fn
 new
 (
-status
+error
 :
 ErrorStatus
 message
@@ -781,9 +781,9 @@ WebDriverError
 {
 WebDriverError
 {
-status
+error
 :
-status
+error
 message
 :
 message
@@ -812,7 +812,7 @@ str
 {
 self
 .
-status
+error
 .
 status_code
 (
@@ -831,7 +831,7 @@ StatusCode
 {
 self
 .
-status
+error
 .
 http_status
 (
@@ -920,7 +920,7 @@ data
 insert
 (
 "
-status
+error
 "
 .
 to_string
