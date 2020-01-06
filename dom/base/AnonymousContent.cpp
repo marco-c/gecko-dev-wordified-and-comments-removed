@@ -998,6 +998,10 @@ NS_LITERAL_STRING
 "
 )
 shell
+nsComputedDOMStyle
+:
+:
+eAll
 )
 ;
 aRv

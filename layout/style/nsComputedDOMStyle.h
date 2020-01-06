@@ -270,6 +270,13 @@ aPropName
 override
 ;
 enum
+StyleType
+{
+eDefaultOnly
+eAll
+}
+;
+enum
 AnimationFlag
 {
 eWithAnimation
@@ -294,6 +301,8 @@ aPseudoElt
 nsIPresShell
 *
 aPresShell
+StyleType
+aStyleType
 AnimationFlag
 aFlag
 =
@@ -334,6 +343,10 @@ aPseudo
 nsIPresShell
 *
 aPresShell
+StyleType
+aStyleType
+=
+eAll
 )
 ;
 static
@@ -358,6 +371,10 @@ aPseudo
 nsIPresShell
 *
 aPresShell
+StyleType
+aStyleType
+=
+eAll
 )
 {
 return
@@ -366,6 +383,7 @@ DoGetStyleContextNoFlush
 aElement
 aPseudo
 aPresShell
+aStyleType
 eWithAnimation
 )
 ;
@@ -392,6 +410,10 @@ aPseudo
 nsIPresShell
 *
 aPresShell
+StyleType
+aStyleType
+=
+eAll
 )
 {
 return
@@ -400,6 +422,7 @@ DoGetStyleContextNoFlush
 aElement
 aPseudo
 aPresShell
+aStyleType
 eWithoutAnimation
 )
 ;
@@ -635,6 +658,8 @@ aPseudo
 nsIPresShell
 *
 aPresShell
+StyleType
+aStyleType
 AnimationFlag
 aAnimationFlag
 )
@@ -3794,6 +3819,9 @@ nsIPresShell
 *
 mPresShell
 ;
+StyleType
+mStyleType
+;
 uint64_t
 mStyleContextGeneration
 ;
@@ -3838,6 +3866,16 @@ aPseudoElt
 nsIPresShell
 *
 aPresShell
+nsComputedDOMStyle
+:
+:
+StyleType
+aStyleType
+=
+nsComputedDOMStyle
+:
+:
+eAll
 nsComputedDOMStyle
 :
 :
