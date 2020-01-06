@@ -365,6 +365,8 @@ aDisplayID
 uint32_t
 aNumButtons
 uint32_t
+aNumTriggers
+uint32_t
 aNumAxes
 :
 :
@@ -406,6 +408,8 @@ aValue
 void
 SetTrigger
 (
+uint32_t
+aButton
 float
 aValue
 )
@@ -413,6 +417,8 @@ aValue
 float
 GetTrigger
 (
+uint32_t
+aButton
 )
 ;
 void
@@ -494,7 +500,10 @@ aPromiseID
 uint32_t
 mTrackedIndex
 ;
+nsTArray
+<
 float
+>
 mTrigger
 ;
 nsTArray
@@ -665,6 +674,8 @@ uint32_t
 aControllerIdx
 uint32_t
 aButton
+uint32_t
+aTrigger
 float
 aValue
 )

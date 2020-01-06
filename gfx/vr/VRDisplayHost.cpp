@@ -938,6 +938,14 @@ uint32_t
 aDisplayID
 )
 :
+mButtonPressed
+(
+0
+)
+mButtonTouched
+(
+0
+)
 mVibrateIndex
 (
 0
