@@ -909,6 +909,9 @@ define
 RUN_MAX_OVRHD_RELAX
 0x00001800U
 #
+ifndef
+MOZ_DEBUG
+#
 if
 !
 defined
@@ -940,6 +943,8 @@ __aarch64__
 define
 MALLOC_STATIC_PAGESIZE
 1
+#
+endif
 #
 endif
 #
