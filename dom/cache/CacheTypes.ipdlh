@@ -351,6 +351,9 @@ channelInfo
 OptionalPrincipalInfo
 principalInfo
 ;
+int64_t
+paddingSize
+;
 }
 ;
 union
