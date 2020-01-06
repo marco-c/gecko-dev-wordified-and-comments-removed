@@ -2999,7 +2999,8 @@ suite
 talos
 '
     
-assert
+is_macosx
+=
 worker
 [
 '
@@ -3364,21 +3365,7 @@ macosx
 sh
 '
 if
-test
-[
-'
-test
--
-platform
-'
-]
-.
-startswith
-(
-'
-macosx
-'
-)
+is_macosx
 else
 '
 test
