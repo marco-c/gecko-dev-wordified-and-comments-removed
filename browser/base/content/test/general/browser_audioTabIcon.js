@@ -2285,11 +2285,9 @@ addObserver
 (
 observer
 "
-audiochannel
+audio
 -
-activity
--
-normal
+playback
 "
 )
 ;
@@ -2308,11 +2306,9 @@ removeObserver
 (
 observer
 "
-audiochannel
+audio
 -
-activity
--
-normal
+playback
 "
 )
 ;

@@ -3670,13 +3670,6 @@ mLastWheelProcessingDuration
 CoalescedWheelData
 mCoalescedWheelData
 ;
-AutoTArray
-<
-bool
-NUMBER_OF_AUDIO_CHANNELS
->
-mAudioChannelsActive
-;
 RefPtr
 <
 layers

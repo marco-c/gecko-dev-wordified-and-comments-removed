@@ -21,15 +21,6 @@ media
 useAudioChannelAPI
 true
 )
-pref
-(
-dom
-.
-audiochannel
-.
-mutedByDefault
-false
-)
 #
 Check
 that

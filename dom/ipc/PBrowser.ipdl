@@ -3764,15 +3764,6 @@ LayoutDeviceIntRect
 dragRect
 )
 ;
-async
-AudioChannelActivityNotification
-(
-uint32_t
-aAudioChannel
-bool
-aActive
-)
-;
 /
 /
 After
