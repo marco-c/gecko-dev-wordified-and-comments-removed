@@ -108,11 +108,6 @@ common
 css
 '
 '
-responsivedesign
-.
-css
-'
-'
 splitters
 .
 css
