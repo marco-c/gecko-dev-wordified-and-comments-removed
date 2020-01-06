@@ -167,6 +167,10 @@ pumpkin
 value
 "
     
+_formAutofillAvailable
+=
+False
+    
 _formAutofillAddressGuid
 =
 None
@@ -694,6 +698,15 @@ createFormAutofill
 self
 )
 :
+        
+if
+not
+self
+.
+_formAutofillAvailable
+:
+            
+return
         
 self
 .
@@ -1968,6 +1981,15 @@ self
 )
 :
         
+if
+not
+self
+.
+_formAutofillAvailable
+:
+            
+return
+        
 formAutofillResults
 =
 self
@@ -2960,7 +2982,27 @@ jsm
 .
 FormHistory
 ;
+        
+"
+"
+"
+)
+        
+self
+.
+_formAutofillAvailable
+=
+self
+.
+runCode
+(
+"
+"
+"
           
+try
+{
+            
 global
 .
 profileStorage
@@ -2985,6 +3027,23 @@ jsm
 )
 .
 profileStorage
+;
+          
+}
+catch
+(
+e
+)
+{
+            
+return
+false
+;
+          
+}
+          
+return
+true
 ;
         
 "
