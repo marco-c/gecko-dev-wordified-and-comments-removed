@@ -4905,6 +4905,10 @@ try
 ]
             
 if
+'
+talos
+'
+in
 test
 [
 '
@@ -4913,13 +4917,6 @@ test
 name
 '
 ]
-.
-startswith
-(
-'
-talos
-'
-)
 :
                 
 test
@@ -4935,6 +4932,21 @@ time
 =
 7200
                 
+if
+'
+linux
+'
+in
+test
+[
+'
+build
+-
+platform
+'
+]
+:
+                    
 test
 [
 '
@@ -4957,28 +4969,6 @@ desktop1604
 test
 "
 }
-                
-test
-[
-'
-mozharness
-'
-]
-[
-'
-config
-'
-]
-=
-[
-'
-talos
-/
-linux64_config_taskcluster
-.
-py
-'
-]
                 
 test
 [
@@ -6824,6 +6814,20 @@ suite
 '
 talos
 '
+and
+'
+ccov
+'
+not
+in
+test
+[
+'
+build
+-
+platform
+'
+]
 :
                 
 if
