@@ -1804,6 +1804,7 @@ if
 (
 aIndex
 >
+=
 mRuleList
 -
 >
