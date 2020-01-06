@@ -60,6 +60,15 @@ SpliceableJSONWriter
 ChunkedJSONWriteFunc
 (
 )
+:
+mChunkPtr
+{
+nullptr
+}
+mChunkEnd
+{
+nullptr
+}
 {
 AllocChunk
 (

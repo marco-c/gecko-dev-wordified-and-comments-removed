@@ -124,6 +124,12 @@ mIsBeingProfiled
 (
 false
 )
+mFirstSavedStreamedSampleTime
+{
+0
+.
+0
+}
 mContext
 (
 nullptr
