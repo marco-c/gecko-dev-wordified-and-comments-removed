@@ -5401,7 +5401,7 @@ register_test
 (
 )
 class
-bloom_basic_singleton
+perf_reftest_singletons
 (
 PageloaderTest
 )
@@ -5411,16 +5411,14 @@ PageloaderTest
 "
 "
     
-Stylo
-bloom_basic
-:
-runs
-bloom_basic
-and
-bloom_basic_ref
-and
-reports
-difference
+Style
+perf
+-
+reftests
+run
+as
+individual
+tests
     
 "
 "
@@ -5441,7 +5439,7 @@ reftest
 -
 singletons
 /
-bloom_basic_singleton
+perf_reftest_singletons
 .
 manifest
 '
@@ -5452,7 +5450,11 @@ tpcycles
     
 tppagecycles
 =
-25
+15
+    
+tptimeout
+=
+30000
     
 gecko_profile_interval
 =

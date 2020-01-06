@@ -685,7 +685,7 @@ tests
 :
 [
 "
-bloom_basic_singleton
+perf_reftest_singletons
 "
 ]
 }
@@ -710,7 +710,7 @@ tests
 :
 [
 "
-bloom_basic_singleton
+perf_reftest_singletons
 "
 ]
 "
