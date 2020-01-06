@@ -909,7 +909,7 @@ MOZ_PHOTON_THEME
 {
 ICON_INFO
 .
-push
+unshift
 (
 [
 "
@@ -926,7 +926,7 @@ button
 ;
 ICON_INFO
 .
-push
+unshift
 (
 [
 "
@@ -955,7 +955,7 @@ else
 {
 ICON_INFO
 .
-push
+unshift
 (
 [
 "
@@ -981,7 +981,7 @@ button
 ;
 ICON_INFO
 .
-push
+unshift
 (
 [
 "
