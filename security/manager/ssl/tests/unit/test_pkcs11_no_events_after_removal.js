@@ -33,7 +33,7 @@ run_test
 )
 {
 let
-pkcs11
+pkcs11ModuleDB
 =
 Cc
 [
@@ -44,7 +44,7 @@ org
 /
 security
 /
-pkcs11
+pkcs11moduledb
 ;
 1
 "
@@ -54,7 +54,7 @@ getService
 (
 Ci
 .
-nsIPKCS11
+nsIPKCS11ModuleDB
 )
 ;
 loadPKCS11TestModule
@@ -62,7 +62,7 @@ loadPKCS11TestModule
 true
 )
 ;
-pkcs11
+pkcs11ModuleDB
 .
 deleteModule
 (

@@ -208,11 +208,6 @@ nsIPK11TokenDB
 idl
 '
 '
-nsIPKCS11
-.
-idl
-'
-'
 nsIPKCS11Module
 .
 idl
@@ -686,7 +681,7 @@ nsTLSSocketProvider
 cpp
 '
 '
-PKCS11
+PKCS11ModuleDB
 .
 cpp
 '

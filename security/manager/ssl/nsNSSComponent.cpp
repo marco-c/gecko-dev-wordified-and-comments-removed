@@ -22,7 +22,7 @@ h
 #
 include
 "
-PKCS11
+PKCS11ModuleDB
 .
 h
 "
