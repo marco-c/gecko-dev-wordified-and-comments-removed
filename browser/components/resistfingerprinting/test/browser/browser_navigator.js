@@ -70,7 +70,7 @@ const
 SPOOFED_PLATFORM
 =
 "
-Win32
+Win64
 "
 ;
 const
