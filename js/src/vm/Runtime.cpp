@@ -1023,7 +1023,7 @@ Zone
 >
 atomsZone
 (
-new_
+js_new
 <
 Zone
 >
@@ -1063,7 +1063,7 @@ JSCompartment
 >
 atomsCompartment
 (
-new_
+js_new
 <
 JSCompartment
 >
