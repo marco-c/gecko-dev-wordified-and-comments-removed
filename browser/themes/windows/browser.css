@@ -6412,6 +6412,12 @@ identity
 -
 box
 :
+not
+(
+:
+active
+)
+:
 -
 moz
 -
