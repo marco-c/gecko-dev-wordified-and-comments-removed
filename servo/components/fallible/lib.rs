@@ -125,6 +125,9 @@ T
 #
 [
 inline
+(
+always
+)
 ]
 fn
 try_push
@@ -487,6 +490,9 @@ T
 #
 [
 inline
+(
+always
+)
 ]
 fn
 try_push

@@ -2445,6 +2445,13 @@ unwrap
 (
 )
 }
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 try_entry
