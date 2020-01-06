@@ -2790,11 +2790,6 @@ if
 mLoaderGlobal
 )
 {
-MOZ_ASSERT
-(
-mShareLoaderGlobal
-)
-;
 JS
 :
 :
