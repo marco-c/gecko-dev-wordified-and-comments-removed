@@ -3,6 +3,8 @@ copy
 import
 os
 import
+re
+import
 sys
 sys
 .
@@ -42,6 +44,8 @@ base
 log
 import
 INFO
+ERROR
+WARNING
 from
 mozharness
 .
@@ -148,7 +152,6 @@ TestingMixin
 MercurialScript
 BlobUploadMixin
 TransferMixin
-                     
 CodeCoverageMixin
 )
 :
@@ -310,9 +313,6 @@ running
 inside
 Gecko
 .
-"
-                 
-"
 Unused
 for
 emulator
@@ -642,7 +642,7 @@ headless
 mode
 .
 "
-         
+        
 }
     
 ]
@@ -1078,9 +1078,6 @@ non
 emulator
 tests
 !
-"
-                           
-"
 (
 Try
 -

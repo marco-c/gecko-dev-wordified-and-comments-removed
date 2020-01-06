@@ -142,7 +142,7 @@ config_options
 e10s
 "
 ]
-         
+        
 {
 "
 action
@@ -151,7 +151,7 @@ action
 "
 store_true
 "
-          
+         
 "
 dest
 "
@@ -159,13 +159,13 @@ dest
 "
 e10s
 "
-          
+         
 "
 default
 "
 :
 False
-          
+         
 "
 help
 "
@@ -183,7 +183,7 @@ builds
 only
 )
 "
-          
+         
 }
 ]
         
@@ -197,7 +197,7 @@ enable
 stylo
 "
 ]
-         
+        
 {
 "
 action
@@ -206,7 +206,7 @@ action
 "
 store_true
 "
-          
+         
 "
 dest
 "
@@ -214,13 +214,13 @@ dest
 "
 enable_stylo
 "
-          
+         
 "
 default
 "
 :
 False
-          
+         
 "
 help
 "
@@ -233,7 +233,7 @@ Stylo
 enabled
 .
 "
-          
+         
 }
 ]
         
@@ -247,7 +247,7 @@ disable
 stylo
 "
 ]
-         
+        
 {
 "
 action
@@ -256,7 +256,7 @@ action
 "
 store_true
 "
-          
+         
 "
 dest
 "
@@ -264,13 +264,13 @@ dest
 "
 disable_stylo
 "
-          
+         
 "
 default
 "
 :
 False
-          
+         
 "
 help
 "
@@ -283,7 +283,7 @@ Stylo
 disabled
 .
 "
-          
+         
 }
 ]
         
@@ -299,7 +299,7 @@ stylo
 traversal
 "
 ]
-         
+        
 {
 "
 action
@@ -308,7 +308,7 @@ action
 "
 store_true
 "
-          
+         
 "
 dest
 "
@@ -316,13 +316,13 @@ dest
 "
 single_stylo_traversal
 "
-          
+         
 "
 default
 "
 :
 False
-          
+         
 "
 help
 "
@@ -334,7 +334,7 @@ STYLO_THREADS
 1
 .
 "
-          
+         
 }
 ]
     

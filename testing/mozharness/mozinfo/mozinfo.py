@@ -534,7 +534,7 @@ int
 (
 bits
 )
-             
+            
 }
 )
 choices
@@ -1313,7 +1313,6 @@ True
 if
 flag
 :
-        
 return
     
 for

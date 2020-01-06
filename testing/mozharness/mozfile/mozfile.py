@@ -197,6 +197,7 @@ src
         
 except
 Exception
+e
 :
             
 print
@@ -1312,6 +1313,10 @@ files_end
 =
 item_marker
         
+dirpath_marker
+=
+item_marker
+        
 if
 level
 >
@@ -1437,8 +1442,9 @@ indent
 1
 ]
 )
-                      
+                                 
 dirpath_mark
+                                 
 basename
 if
 retval
@@ -1482,7 +1488,7 @@ join
 (
 indent
 )
-                          
+                                        
 files_end
 if
 filename
@@ -1491,10 +1497,11 @@ filename
 last_file
 else
 item_marker
+                                        
 filename
 )
 )
-                          
+                                        
 for
 index
 filename
