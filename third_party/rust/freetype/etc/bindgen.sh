@@ -76,14 +76,6 @@ rs
 \
 -
 -
-no
--
-unstable
--
-rust
-\
--
--
 blacklist
 -
 type

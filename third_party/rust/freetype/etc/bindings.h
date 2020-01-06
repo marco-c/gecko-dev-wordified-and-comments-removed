@@ -51,3 +51,14 @@ ftmodapi
 .
 h
 >
+#
+include
+<
+freetype2
+/
+freetype
+/
+ftoutln
+.
+h
+>
