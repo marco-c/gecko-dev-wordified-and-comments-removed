@@ -546,8 +546,6 @@ fieldName
 cc
 -
 exp
--
-year
 "
 }
 ]

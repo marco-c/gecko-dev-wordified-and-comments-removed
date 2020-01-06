@@ -1220,6 +1220,9 @@ tel
 "
 number
 "
+"
+month
+"
 ]
 isFieldEligibleForAutofill
 (
