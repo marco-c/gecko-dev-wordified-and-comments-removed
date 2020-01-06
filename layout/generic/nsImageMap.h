@@ -268,7 +268,7 @@ Area
 mAreas
 ;
 bool
-mContainsBlockContents
+mConsiderWholeSubtree
 ;
 }
 ;

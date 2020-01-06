@@ -3431,7 +3431,7 @@ mImageFrame
 (
 nullptr
 )
-mContainsBlockContents
+mConsiderWholeSubtree
 (
 false
 )
@@ -3842,7 +3842,7 @@ IsElement
 )
 )
 {
-mContainsBlockContents
+mConsiderWholeSubtree
 =
 true
 ;
@@ -3878,7 +3878,7 @@ foundAnchor
 =
 false
 ;
-mContainsBlockContents
+mConsiderWholeSubtree
 =
 false
 ;
@@ -4331,7 +4331,7 @@ aContent
 mMap
 |
 |
-mContainsBlockContents
+mConsiderWholeSubtree
 )
 {
 UpdateAreas
