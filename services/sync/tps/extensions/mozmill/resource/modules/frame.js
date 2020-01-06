@@ -1543,7 +1543,7 @@ obj
 for
 (
 var
-time
+timer
 of
 timers
 )

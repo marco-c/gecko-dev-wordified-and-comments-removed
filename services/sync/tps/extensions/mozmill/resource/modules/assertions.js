@@ -336,6 +336,8 @@ b
 )
 ;
 return
+this
+.
 _deepEqual
 (
 a
@@ -1194,6 +1196,10 @@ aMessage
 let
 pattern
 =
+"
+"
+;
+let
 flags
 =
 "

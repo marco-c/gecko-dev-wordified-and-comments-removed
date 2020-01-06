@@ -57,6 +57,7 @@ references
 ;
 for
 (
+let
 i
 =
 0
