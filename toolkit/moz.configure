@@ -4689,6 +4689,8 @@ animations
 '
 default
 =
+milestone
+.
 is_nightly
 )
 depends
@@ -4741,6 +4743,8 @@ theme
 '
 default
 =
+milestone
+.
 is_nightly
 )
 depends

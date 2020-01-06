@@ -5747,20 +5747,6 @@ is_release_or_beta
 =
 is_release_or_beta
 )
-depends
-(
-milestone
-)
-def
-is_nightly
-(
-milestone
-)
-:
-return
-milestone
-.
-is_nightly
 set_config
 (
 '
@@ -5775,6 +5761,8 @@ set_config
 '
 NIGHTLY_BUILD
 '
+milestone
+.
 is_nightly
 )
 set_define
@@ -5782,6 +5770,8 @@ set_define
 '
 NIGHTLY_BUILD
 '
+milestone
+.
 is_nightly
 )
 add_old_configure_assignment
@@ -5789,6 +5779,8 @@ add_old_configure_assignment
 '
 NIGHTLY_BUILD
 '
+milestone
+.
 is_nightly
 )
 set_config
