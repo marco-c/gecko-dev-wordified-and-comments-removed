@@ -2312,6 +2312,7 @@ SelectionType
 aSelectionType
 )
 ;
+inline
 SelectionType
 ToSelectionType
 (
@@ -2319,6 +2320,7 @@ RawSelectionType
 aRawSelectionType
 )
 ;
+inline
 RawSelectionType
 ToRawSelectionType
 (
@@ -2326,6 +2328,7 @@ SelectionType
 aSelectionType
 )
 ;
+inline
 bool
 operator
 &
