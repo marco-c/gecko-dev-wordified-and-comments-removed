@@ -2162,9 +2162,8 @@ visible
 aBuilder
 -
 >
-MarkFrameModifiedDuringBuilding
+MarkCurrentFrameModifiedDuringBuilding
 (
-this
 )
 ;
 }
@@ -2195,9 +2194,8 @@ visible
 aBuilder
 -
 >
-MarkFrameModifiedDuringBuilding
+MarkCurrentFrameModifiedDuringBuilding
 (
-this
 )
 ;
 }
