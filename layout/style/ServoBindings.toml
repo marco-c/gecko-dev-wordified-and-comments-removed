@@ -1821,17 +1821,6 @@ nsStringRepr
 ;
 "
 "
-use
-gecko_bindings
-:
-:
-structs
-:
-:
-nsTArray
-;
-"
-"
 type
 nsACString_internal
 =
@@ -1899,6 +1888,9 @@ mozilla
 :
 :
 Side
+"
+"
+already_AddRefed
 "
 "
 RawGeckoAnimationPropertySegment
@@ -2187,6 +2179,9 @@ nsStyleVisibility
 "
 "
 nsStyleXUL
+"
+"
+nsTArray
 "
 "
 nsTimingFunction

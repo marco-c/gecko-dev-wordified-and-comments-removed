@@ -2403,8 +2403,10 @@ Gecko_CSSValue_SetAtomIdent
 (
 nsCSSValueBorrowedMut
 css_value
+already_AddRefed
+<
 nsIAtom
-*
+>
 atom
 )
 ;
