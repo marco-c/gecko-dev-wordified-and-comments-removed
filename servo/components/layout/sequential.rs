@@ -675,7 +675,6 @@ return
 ;
 }
 for
-mut
 kid
 in
 flow

@@ -1160,7 +1160,6 @@ style
 for
 (
 i
-mut
 inputs
 )
 in

@@ -1753,7 +1753,6 @@ FragmentIndex
 )
 ;
 let
-mut
 fragment
 =
 &
@@ -4880,7 +4879,6 @@ to_usize
 )
 ;
 let
-mut
 scanned_text_fragment_info
 =
 match

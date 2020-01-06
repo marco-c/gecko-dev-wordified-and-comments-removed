@@ -1973,7 +1973,6 @@ StyleContext
 <
 Self
 >
-mut
 data
 :
 &

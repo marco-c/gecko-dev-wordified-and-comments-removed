@@ -20346,7 +20346,6 @@ pixels
 let
 (
 array_type
-mut
 data
 )
 =

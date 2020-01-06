@@ -3809,7 +3809,6 @@ borrow_mut
 )
 ;
 let
-mut
 elements
 =
 id_map
@@ -3909,7 +3908,6 @@ to_element
 )
 ;
 let
-mut
 set
 =
 map
@@ -9307,7 +9305,6 @@ if
 let
 Some
 (
-mut
 pair
 )
 =
@@ -13959,7 +13956,6 @@ html_element_in_html_document
 ;
 }
 let
-mut
 snapshot
 =
 entry
@@ -14214,7 +14210,6 @@ RESTYLE_SELF
 ;
 }
 let
-mut
 snapshot
 =
 entry
@@ -26983,7 +26978,6 @@ borrow_mut
 )
 ;
 let
-mut
 entry
 =
 scripts

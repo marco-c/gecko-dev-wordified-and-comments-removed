@@ -1104,7 +1104,6 @@ UnspecifiedError
 ?
 ;
 let
-mut
 namespaces
 =
 self

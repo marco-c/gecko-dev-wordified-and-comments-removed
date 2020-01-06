@@ -2345,7 +2345,6 @@ if
 let
 Some
 (
-mut
 pair
 )
 =

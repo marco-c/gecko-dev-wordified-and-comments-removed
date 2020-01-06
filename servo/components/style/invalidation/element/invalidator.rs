@@ -660,7 +660,6 @@ restyle
 )
 ;
 let
-mut
 data
 =
 self

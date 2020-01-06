@@ -3792,7 +3792,6 @@ new_parse_node
 ;
 {
 let
-mut
 data
 =
 self
@@ -4068,7 +4067,6 @@ clone
 ;
 {
 let
-mut
 node_data
 =
 self

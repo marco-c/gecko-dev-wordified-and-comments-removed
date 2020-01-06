@@ -619,7 +619,6 @@ write
 )
 ;
 let
-mut
 rules
 =
 self

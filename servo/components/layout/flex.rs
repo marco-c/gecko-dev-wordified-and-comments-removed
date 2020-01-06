@@ -2364,7 +2364,6 @@ random_access_mut
 )
 ;
 for
-mut
 item
 in
 items
@@ -3542,7 +3541,6 @@ iter_mut
 )
 {
 let
-mut
 block
 =
 children
@@ -3902,7 +3900,6 @@ self
 items
 {
 let
-mut
 base
 =
 flow

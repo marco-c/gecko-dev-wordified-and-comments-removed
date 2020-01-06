@@ -6321,7 +6321,6 @@ parent
 unsafe
 {
 let
-mut
 ranges
 =
 &
@@ -6498,7 +6497,6 @@ return
 unsafe
 {
 let
-mut
 ranges
 =
 &

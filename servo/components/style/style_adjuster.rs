@@ -1524,7 +1524,6 @@ overflow_y
 original_overflow_y
 {
 let
-mut
 box_style
 =
 self

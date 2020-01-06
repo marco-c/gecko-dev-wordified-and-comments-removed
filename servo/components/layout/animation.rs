@@ -253,7 +253,6 @@ node
 )
 {
 for
-mut
 anim
 in
 animations
