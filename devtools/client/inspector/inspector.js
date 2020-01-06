@@ -2431,11 +2431,7 @@ inspector
 /
 components
 /
-inspector
--
-tab
--
-panel
+InspectorTabPanel
 "
 )
 )
