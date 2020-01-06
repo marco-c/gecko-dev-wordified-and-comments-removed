@@ -361,7 +361,11 @@ web
 -
 platform
 /
-harness
+tests
+/
+tools
+/
+wptrunner
 mozilla
 .
 pth
