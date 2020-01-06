@@ -431,6 +431,10 @@ isPrefLine
 /
 ^
 *
+(
+sticky_
+)
+?
 pref
 \
 (
