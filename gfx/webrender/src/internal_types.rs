@@ -1,4 +1,10 @@
 use
+api
+:
+:
+DebugCommand
+;
+use
 device
 :
 :
@@ -649,6 +655,10 @@ pub
 enum
 ResultMsg
 {
+DebugCommand
+(
+DebugCommand
+)
 RefreshShader
 (
 PathBuf

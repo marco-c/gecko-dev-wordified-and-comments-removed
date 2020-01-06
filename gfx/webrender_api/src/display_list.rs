@@ -144,6 +144,14 @@ marker
 :
 PhantomData
 ;
+pub
+const
+MAX_TEXT_RUN_LENGTH
+:
+usize
+=
+2040
+;
 #
 [
 repr
@@ -3595,6 +3603,16 @@ glyph_options
 }
 )
 ;
+for
+split_glyphs
+in
+glyphs
+.
+chunks
+(
+MAX_TEXT_RUN_LENGTH
+)
+{
 self
 .
 push_item
@@ -3608,7 +3626,7 @@ self
 .
 push_iter
 (
-glyphs
+split_glyphs
 )
 ;
 self
@@ -3617,7 +3635,7 @@ cache_glyphs
 (
 font_key
 color
-glyphs
+split_glyphs
 .
 iter
 (
@@ -3634,6 +3652,7 @@ index
 )
 )
 ;
+}
 }
 }
 fn
