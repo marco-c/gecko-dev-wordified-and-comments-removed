@@ -596,13 +596,6 @@ endpoint
 ;
 parent
 :
-async
-NP_InitializeResult
-(
-NPError
-aError
-)
-;
 /
 *
 *
