@@ -149,6 +149,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsIURI
+.
+h
+"
 class
 nsPresContext
 ;

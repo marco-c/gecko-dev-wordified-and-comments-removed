@@ -60,6 +60,13 @@ Services
 h
 "
 #
+include
+"
+nsXULAppAPI
+.
+h
+"
+#
 define
 THREAD_EVENT_STARVATION_LIMIT
 PR_MillisecondsToInterval

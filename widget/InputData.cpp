@@ -19,6 +19,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEvents
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

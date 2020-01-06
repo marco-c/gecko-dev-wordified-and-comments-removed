@@ -22,9 +22,13 @@ StaticPtr
 .
 h
 "
-class
+#
+include
+"
 nsIContent
-;
+.
+h
+"
 namespace
 mozilla
 {
