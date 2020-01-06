@@ -201,11 +201,6 @@ testDifferentNewTargetInvokeConstructor
 cpp
 '
 '
-testEnclosingFunction
-.
-cpp
-'
-'
 testErrorCopying
 .
 cpp
