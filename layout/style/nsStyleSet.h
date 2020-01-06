@@ -1329,7 +1329,7 @@ nsTArray
 mozilla
 :
 :
-CSSStyleSheet
+StyleSheet
 *
 >
 &
