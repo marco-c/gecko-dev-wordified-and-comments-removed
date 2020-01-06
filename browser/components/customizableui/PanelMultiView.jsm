@@ -5083,13 +5083,6 @@ case
 popupshown
 "
 :
-if
-(
-!
-this
-.
-panelViews
-)
 this
 .
 descriptionHeightWorkaround
