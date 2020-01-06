@@ -30008,7 +30008,7 @@ mArray
 0
 ]
 .
-set_from_drop_shadow
+set_from_simple_shadow
 (
 shadow
 )
@@ -30399,7 +30399,7 @@ mArray
 0
 ]
 .
-to_drop_shadow
+to_simple_shadow
 (
 )
 )
