@@ -226,7 +226,7 @@ print
 "
 constexpr
 HistogramInfo
-gHistograms
+gHistogramInfos
 [
 ]
 =
