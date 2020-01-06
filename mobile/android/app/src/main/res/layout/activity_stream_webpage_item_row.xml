@@ -254,7 +254,7 @@ id
 +
 id
 /
-icon
+page_icon
 "
 android
 :
@@ -425,7 +425,7 @@ id
 +
 id
 /
-page
+page_domain
 "
 android
 :
@@ -539,7 +539,7 @@ id
 +
 id
 /
-card_history_label
+page_title
 "
 android
 :
@@ -562,7 +562,7 @@ layout_below
 "
 id
 /
-page
+page_domain
 "
 android
 :
@@ -707,7 +707,7 @@ layout_below
 "
 id
 /
-card_history_label
+page_title
 "
 android
 :
@@ -811,7 +811,7 @@ id
 +
 id
 /
-source_icon
+page_source_icon
 "
 android
 :
@@ -848,7 +848,7 @@ id
 +
 id
 /
-card_history_source
+page_source
 "
 android
 :
