@@ -116,11 +116,6 @@ IPCBlobInputStreamStorage
 h
 '
 '
-nsIRemoteBlob
-.
-h
-'
-'
 PendingIPCBlobChild
 .
 h
