@@ -191,16 +191,9 @@ PRIORITY_NORMAL
 const
 unsigned
 short
-PRIORITY_INPUT
-=
-1
-;
-const
-unsigned
-short
 PRIORITY_HIGH
 =
-2
+1
 ;
 readonly
 attribute
