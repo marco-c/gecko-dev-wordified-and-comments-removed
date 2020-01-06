@@ -1276,6 +1276,16 @@ forget
 )
 ;
 }
+bool
+ShouldNotifyInvalidation
+(
+)
+const
+{
+return
+mShouldNotifyInvalidation
+;
+}
 private
 :
 void
@@ -1490,6 +1500,9 @@ CanvasDataSet
 ;
 CanvasDataSet
 mLastCanvasDatas
+;
+bool
+mShouldNotifyInvalidation
 ;
 }
 ;
