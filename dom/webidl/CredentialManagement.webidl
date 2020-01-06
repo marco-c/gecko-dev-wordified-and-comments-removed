@@ -191,6 +191,16 @@ CredentialCreationOptions
 options
 )
 ;
+Promise
+<
+Credential
+>
+store
+(
+Credential
+credential
+)
+;
 }
 ;
 dictionary
