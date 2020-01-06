@@ -803,6 +803,12 @@ y
 coords
 .
 y
+-
+mView
+.
+getCurrentToolbarHeight
+(
+)
 ;
 return
 handleMouseEvent
