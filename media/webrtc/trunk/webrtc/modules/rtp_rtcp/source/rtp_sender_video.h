@@ -316,6 +316,10 @@ const
 StreamId
 *
 rtpStreamId
+const
+StreamId
+*
+mId
 )
 ;
 void

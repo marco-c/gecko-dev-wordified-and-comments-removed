@@ -179,6 +179,12 @@ RepairedRtpStreamId
 >
 (
 )
+CreateExtensionInfo
+<
+MId
+>
+(
+)
 }
 ;
 static_assert
