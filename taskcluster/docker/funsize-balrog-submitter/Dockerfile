@@ -82,6 +82,14 @@ setuptools
 python
 -
 cryptography
+\
+python
+-
+dev
+gcc
+liblzma
+-
+dev
 &
 &
 \
