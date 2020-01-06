@@ -4073,6 +4073,9 @@ DrawImage
 gfxContext
 &
 aContext
+nsStyleContext
+*
+aStyleContext
 nsPresContext
 *
 aPresContext
