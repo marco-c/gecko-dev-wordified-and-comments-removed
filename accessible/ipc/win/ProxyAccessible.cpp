@@ -178,6 +178,9 @@ if
 (
 !
 mCOMProxy
+&
+&
+mSafeToRecurse
 )
 {
 AccessibleWrap
