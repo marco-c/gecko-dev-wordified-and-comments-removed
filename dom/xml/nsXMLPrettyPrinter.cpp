@@ -227,8 +227,10 @@ aDidPrettyPrint
 =
 false
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 aDocument
@@ -712,6 +714,15 @@ sysPrincipal
 ;
 if
 (
+!
+shell
+-
+>
+IsDestroying
+(
+)
+&
+&
 rootCont
 -
 >
