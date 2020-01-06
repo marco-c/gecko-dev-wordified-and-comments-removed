@@ -9698,6 +9698,17 @@ parse
 cx
 )
 ;
+cx
+-
+>
+frontendCollectionPool
+(
+)
+.
+purge
+(
+)
+;
 }
 task
 -
