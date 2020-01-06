@@ -567,7 +567,8 @@ assertEqual
 tos
 .
 jobs
-None
+[
+]
 )
     
 def

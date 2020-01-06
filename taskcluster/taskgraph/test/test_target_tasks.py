@@ -717,7 +717,7 @@ TryOptionSyntax
 orig_TryOptionSyntax
     
 def
-test_just_try_it
+test_empty_try
 (
 self
 )
@@ -728,12 +728,7 @@ try_mode
 =
 None
 runs
-try
-optoin
-syntax
-with
-no
-options
+nothing
 "
         
 tg
@@ -755,33 +750,33 @@ try_tasks
 '
 )
         
-with
-self
-.
-fake_TryOptionSyntax
-(
-)
-:
-            
 params
 =
 {
-                
+            
 '
 try_mode
 '
 :
 None
-                
+            
+'
+project
+'
+:
+'
+try
+'
+            
 '
 message
 '
 :
 '
 '
-            
+        
 }
-            
+        
 self
 .
 assertEqual
@@ -792,9 +787,6 @@ tg
 params
 )
 [
-'
-b
-'
 ]
 )
     

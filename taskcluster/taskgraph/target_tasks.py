@@ -736,11 +736,8 @@ else
 :
         
 return
-_try_option_syntax
-(
-full_task_graph
-parameters
-)
+[
+]
 _target_task
 (
 '
