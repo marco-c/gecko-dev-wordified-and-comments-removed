@@ -1,3 +1,10 @@
+#
+include
+<
+stdint
+.
+h
+>
 static
 const
 char
@@ -14,12 +21,6 @@ enabled
 "
 ;
 static
-int32_t
-gRefCnt
-=
-0
-;
-static
 bool
 gMouseDown
 =
@@ -30,12 +31,6 @@ bool
 gDragServiceDisabled
 =
 false
-;
-static
-uint32_t
-gSerialCounter
-=
-0
 ;
 #
 include
