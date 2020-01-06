@@ -1579,11 +1579,10 @@ result
 0
 )
 {
-result
-=
-mValue
-.
-load
+std
+:
+:
+atomic_thread_fence
 (
 std
 :
