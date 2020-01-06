@@ -323,6 +323,15 @@ aSpeedY
 =
 0
 ;
+static
+bool
+WillHandleWheelEvent
+(
+WidgetWheelEvent
+*
+aEvent
+)
+;
 protected
 :
 virtual

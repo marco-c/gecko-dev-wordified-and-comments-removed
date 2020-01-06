@@ -110,8 +110,10 @@ mMessage
 eDragEnd
 ;
 }
-static
 bool
+IAPZCTreeManager
+:
+:
 WillHandleWheelEvent
 (
 WidgetWheelEvent
