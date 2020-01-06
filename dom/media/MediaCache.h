@@ -701,6 +701,8 @@ false
 ;
 int64_t
 mResourceID
+=
+0
 ;
 bool
 mIsTransportSeekable
