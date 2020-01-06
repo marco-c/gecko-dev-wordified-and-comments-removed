@@ -374,6 +374,17 @@ Wunreachable
 code
 '
 )
+check_and_add_gcc_warning
+(
+'
+-
+Wunreachable
+-
+code
+-
+return
+'
+)
 #
 catches
 treating
