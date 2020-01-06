@@ -54080,17 +54080,6 @@ if
 outer
 )
 {
-NS_WARNING
-(
-"
-No
-outer
-window
-available
-!
-"
-)
-;
 return
 nullptr
 ;
