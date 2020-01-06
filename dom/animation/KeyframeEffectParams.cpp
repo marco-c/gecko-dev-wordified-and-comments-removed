@@ -727,6 +727,10 @@ KeyframeUtils
 IsAnimatableProperty
 (
 aPacedProperty
+StyleBackendType
+:
+:
+Gecko
 )
 )
 {

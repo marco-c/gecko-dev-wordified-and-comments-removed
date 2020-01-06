@@ -280,6 +280,8 @@ IsAnimatableProperty
 (
 nsCSSPropertyID
 aProperty
+StyleBackendType
+aBackend
 )
 ;
 static
