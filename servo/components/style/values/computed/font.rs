@@ -1183,6 +1183,15 @@ into_boxed_slice
 )
 }
 }
+pub
+type
+FontVariantEastAsian
+=
+specified
+:
+:
+VariantEastAsian
+;
 #
 [
 derive
