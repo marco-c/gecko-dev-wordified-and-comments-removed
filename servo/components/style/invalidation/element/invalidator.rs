@@ -2090,7 +2090,7 @@ extend
 (
 new_sibling_invalidations
 .
-into_iter
+drain
 (
 )
 )
