@@ -71,9 +71,6 @@ Display
 #
 endif
 class
-gfxFontconfigUtils
-;
-class
 gfxPlatformGtk
 :
 public
@@ -496,11 +493,6 @@ mCompositorDisplay
 endif
 protected
 :
-static
-gfxFontconfigUtils
-*
-sFontconfigUtils
-;
 int8_t
 mMaxGenericSubstitutions
 ;

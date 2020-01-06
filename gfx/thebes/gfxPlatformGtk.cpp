@@ -49,13 +49,6 @@ h
 #
 include
 "
-gfxFontconfigUtils
-.
-h
-"
-#
-include
-"
 gfxFontconfigFonts
 .
 h
