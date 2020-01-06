@@ -9846,13 +9846,6 @@ index
 ;
 }
 return
-#
-if
-!
-defined
-(
-__linux__
-)
 (
 patLen
 >
@@ -9886,8 +9879,6 @@ pat
 patLen
 )
 :
-#
-endif
 Matcher
 <
 ManualCmp
