@@ -304,6 +304,17 @@ setup_development
 py
 '
 ]
+SPHINX_TREES
+[
+'
+/
+mozbase
+'
+]
+=
+'
+docs
+'
 with
 Files
 (
