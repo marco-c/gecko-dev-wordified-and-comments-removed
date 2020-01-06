@@ -9095,6 +9095,16 @@ pref
 "
 devtools
 .
+enabled
+"
+true
+)
+;
+pref
+(
+"
+devtools
+.
 errorconsole
 .
 deprecation_warnings
