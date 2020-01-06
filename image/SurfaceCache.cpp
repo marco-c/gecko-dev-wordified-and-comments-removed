@@ -645,7 +645,9 @@ GetImageKey
 )
 ;
 }
+const
 SurfaceKey
+&
 GetSurfaceKey
 (
 )
