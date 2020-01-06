@@ -414,7 +414,7 @@ str
 "
 :
 "
-warn
+error
 "
 "
 no
@@ -428,7 +428,7 @@ lines
 :
 [
 "
-warn
+error
 "
 {
 "
@@ -477,7 +477,7 @@ blocks
 :
 [
 "
-warn
+error
 "
 "
 never
