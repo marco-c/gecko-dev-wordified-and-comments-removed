@@ -1297,6 +1297,12 @@ eParseHTMLInteger_ErrorOverflow
 <
 <
 5
+eParseHTMLInteger_Negative
+=
+1
+<
+<
+6
 }
 ;
 static
