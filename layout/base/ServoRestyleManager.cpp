@@ -4473,6 +4473,10 @@ IncrementUndisplayedRestyleGeneration
 (
 )
 ;
+mHaveNonAnimationRestyles
+=
+true
+;
 ServoElementSnapshot
 &
 snapshot
@@ -4731,6 +4735,10 @@ restyleHint
 IncrementUndisplayedRestyleGeneration
 (
 )
+;
+mHaveNonAnimationRestyles
+=
+true
 ;
 }
 }
