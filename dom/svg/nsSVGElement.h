@@ -116,6 +116,13 @@ SVGContentUtils
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 class
 nsSVGAngle
 ;
@@ -214,9 +221,6 @@ class
 DOMSVGStringList
 ;
 }
-class
-gfxMatrix
-;
 struct
 nsSVGEnumMapping
 ;

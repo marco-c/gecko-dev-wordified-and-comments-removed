@@ -27,6 +27,17 @@ gfxMatrix
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+Rect
+.
+h
+"
 namespace
 mozilla
 {

@@ -11044,17 +11044,17 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 p
 )
 .
-Rotate
+PreRotate
 (
 rotation
 )
 .
-Translate
+PreTranslate
 (
 -
 p
@@ -11089,7 +11089,7 @@ emDescent
 ;
 mat
 .
-Translate
+PreTranslate
 (
 baseAdj
 )
@@ -11738,7 +11738,7 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 aPoint
 .
@@ -11748,7 +11748,7 @@ aPoint
 y
 )
 .
-Scale
+PreScale
 (
 devUnitsPerSVGUnit
 devUnitsPerSVGUnit

@@ -1268,7 +1268,7 @@ PreMultiply
 matrix
 )
 .
-Scale
+PreScale
 (
 double
 (

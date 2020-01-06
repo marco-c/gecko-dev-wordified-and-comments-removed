@@ -1084,11 +1084,6 @@ gfxMathTable
 cpp
 '
 '
-gfxMatrix
-.
-cpp
-'
-'
 gfxPattern
 .
 cpp

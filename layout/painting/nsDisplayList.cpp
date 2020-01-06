@@ -4086,7 +4086,7 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 bounds
 .
@@ -41880,7 +41880,7 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 devPixelOffsetToUserSpace
 )

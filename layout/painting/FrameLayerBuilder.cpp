@@ -27888,7 +27888,7 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 aLayer
 -
@@ -27908,7 +27908,7 @@ y
 )
 )
 .
-Scale
+PreScale
 (
 userData
 -
@@ -27994,7 +27994,7 @@ CurrentMatrix
 (
 )
 .
-Translate
+PreTranslate
 (
 aLayer
 -
@@ -28014,7 +28014,7 @@ y
 )
 )
 .
-Scale
+PreScale
 (
 userData
 -

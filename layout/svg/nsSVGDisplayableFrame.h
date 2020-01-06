@@ -7,6 +7,13 @@ __NS_ISVGCHILDFRAME_H__
 #
 include
 "
+gfxMatrix
+.
+h
+"
+#
+include
+"
 gfxRect
 .
 h
@@ -31,9 +38,6 @@ h
 "
 class
 gfxContext
-;
-class
-gfxMatrix
 ;
 class
 nsIFrame

@@ -5432,13 +5432,13 @@ CurrentMatrix
 (
 )
 .
-Scale
+PreScale
 (
 mResolution
 mResolution
 )
 .
-Translate
+PreTranslate
 (
 ThebesPoint
 (

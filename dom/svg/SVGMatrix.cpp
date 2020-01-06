@@ -554,7 +554,7 @@ GetMatrix
 )
 )
 .
-Translate
+PreTranslate
 (
 gfxPoint
 (
@@ -624,7 +624,7 @@ GetMatrix
 )
 )
 .
-Scale
+PreScale
 (
 scaleFactorX
 scaleFactorY
@@ -668,7 +668,7 @@ GetMatrix
 )
 )
 .
-Rotate
+PreRotate
 (
 angle
 *
@@ -747,7 +747,7 @@ GetMatrix
 )
 )
 .
-Rotate
+PreRotate
 (
 atan2
 (
