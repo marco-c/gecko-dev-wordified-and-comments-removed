@@ -945,7 +945,7 @@ this
 imageLoader
 -
 >
-RemoveObserver
+RemoveNativeObserver
 (
 mListener
 )
@@ -1168,7 +1168,7 @@ all
 imageLoader
 -
 >
-AddObserver
+AddNativeObserver
 (
 mListener
 )
