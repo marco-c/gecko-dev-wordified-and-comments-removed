@@ -396,6 +396,7 @@ constructor
 {
 id
 resourceURI
+version
 }
 )
 {
@@ -410,6 +411,12 @@ this
 resourceURI
 =
 resourceURI
+;
+this
+.
+version
+=
+version
 ;
 this
 .
@@ -499,6 +506,11 @@ addonId
 resourceURI
 :
 embeddedExtensionURI
+version
+:
+this
+.
+version
 }
 )
 ;
@@ -784,6 +796,7 @@ getEmbeddedExtensionFor
 {
 id
 resourceURI
+version
 }
 )
 {
@@ -813,6 +826,7 @@ EmbeddedExtension
 {
 id
 resourceURI
+version
 }
 )
 ;

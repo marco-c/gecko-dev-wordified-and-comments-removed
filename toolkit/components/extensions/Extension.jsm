@@ -3902,6 +3902,14 @@ id
 ;
 this
 .
+version
+=
+addonData
+.
+version
+;
+this
+.
 baseURI
 =
 NetUtil
@@ -4538,6 +4546,9 @@ get
 this
 .
 id
+this
+.
+version
 locale
 ]
 (
@@ -4589,6 +4600,9 @@ get
 this
 .
 id
+this
+.
+version
 Locale
 .
 getLocale
