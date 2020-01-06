@@ -860,6 +860,7 @@ mNewMediaSegmentStarted
 bool
 mActiveTrack
 ;
+const
 MediaContainerType
 mType
 ;
