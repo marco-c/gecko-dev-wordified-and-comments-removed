@@ -2095,17 +2095,6 @@ RawGeckoElementBorrowed
 element
 )
 ;
-nsStyleContext
-*
-Gecko_GetStyleContext
-(
-RawGeckoElementBorrowed
-element
-nsIAtom
-*
-aPseudoTagOrNull
-)
-;
 mozilla
 :
 :
