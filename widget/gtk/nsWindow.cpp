@@ -29334,7 +29334,7 @@ XFCE
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FULL
+CSD_SUPPORT_FLAT
 ;
 }
 else
