@@ -70,15 +70,6 @@ TaskQueue
 aTaskQueueIdentity
 )
 ;
-MediaResource
-*
-GetResource
-(
-)
-const
-final
-override
-;
 void
 NotifyDecodedFrames
 (

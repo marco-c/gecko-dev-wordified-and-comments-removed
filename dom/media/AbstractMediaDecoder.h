@@ -115,16 +115,6 @@ nsIObserver
 public
 :
 virtual
-MediaResource
-*
-GetResource
-(
-)
-const
-=
-0
-;
-virtual
 void
 NotifyDecodedFrames
 (
