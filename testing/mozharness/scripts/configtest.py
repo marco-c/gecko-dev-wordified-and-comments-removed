@@ -147,7 +147,7 @@ files
 to
 test
 "
-     
+      
 }
     
 ]
@@ -236,7 +236,7 @@ configs
 '
 summary
 '
-                                            
+                                             
 ]
                             
 require_config_file
@@ -942,6 +942,9 @@ s
 is
 valid
 python
+"
+                                         
+"
 but
 doesn
 '
