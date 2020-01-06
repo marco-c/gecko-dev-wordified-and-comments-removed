@@ -5283,6 +5283,13 @@ ready
 )
 ;
 }
+await
+Weave
+.
+Service
+.
+promiseInitialized
+;
 this
 .
 shouldValidateBookmarks
