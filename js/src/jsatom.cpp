@@ -225,7 +225,6 @@ define
 DEFINE_PROTO_STRING
 (
 name
-code
 init
 clasp
 )
@@ -527,7 +526,6 @@ define
 COMMON_NAME_INFO
 (
 name
-code
 init
 clasp
 )

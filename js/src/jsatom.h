@@ -614,7 +614,6 @@ define
 DECLARE_PROTO_STR
 (
 name
-code
 init
 clasp
 )

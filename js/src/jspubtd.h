@@ -204,7 +204,6 @@ define
 PROTOKEY_AND_INITIALIZER
 (
 name
-code
 init
 clasp
 )
@@ -212,8 +211,6 @@ JSProto_
 #
 #
 name
-=
-code
 JS_FOR_EACH_PROTOTYPE
 (
 PROTOKEY_AND_INITIALIZER
