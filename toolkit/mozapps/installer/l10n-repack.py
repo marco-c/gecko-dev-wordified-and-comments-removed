@@ -117,15 +117,6 @@ searchplugins
 .
 xml
 '
-    
-'
-*
-*
-/
-multilocale
-.
-json
-'
 ]
 )
 def
