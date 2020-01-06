@@ -1869,9 +1869,6 @@ box
 "
 >
 <
-children
->
-<
 xul
 :
 image
@@ -1946,10 +1943,6 @@ crop
 highlightable
 "
 /
->
-<
-/
-children
 >
 <
 /
@@ -2058,9 +2051,6 @@ flex
 "
 1
 "
->
-<
-children
 >
 <
 xul
@@ -2174,10 +2164,6 @@ disabled
 label
 "
 /
->
-<
-/
-children
 >
 <
 /
