@@ -2731,6 +2731,12 @@ None
         
 self
 .
+extensionLines
+=
+None
+        
+self
+.
 savedEmbeddedSCTListData
 =
 None
@@ -2931,25 +2937,22 @@ subject
 if
 self
 .
-extensions
+extensionLines
 :
             
 for
-extension
+extensionLine
 in
 self
 .
-extensions
+extensionLines
 :
                 
 hasher
 .
 update
 (
-str
-(
-extension
-)
+extensionLine
 )
         
 if
@@ -3732,6 +3735,38 @@ raise
 UnknownExtensionTypeError
 (
 extensionType
+)
+        
+if
+extensionType
+!
+=
+'
+embeddedSCTList
+'
+:
+            
+if
+not
+self
+.
+extensionLines
+:
+                
+self
+.
+extensionLines
+=
+[
+]
+            
+self
+.
+extensionLines
+.
+append
+(
+extension
 )
     
 def
