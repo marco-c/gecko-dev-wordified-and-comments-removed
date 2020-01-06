@@ -728,6 +728,15 @@ jar
 NULL
 )
 ifdef
+MOZ_ANDROID_HLS_SUPPORT
+GECKOVIEW_JARS
++
+=
+exoplayer2
+.
+jar
+endif
+ifdef
 MOZ_INSTALL_TRACKING
 GECKOVIEW_JARS
 +
