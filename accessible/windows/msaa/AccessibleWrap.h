@@ -732,6 +732,12 @@ IHandlerControl
 aCtrl
 )
 ;
+static
+void
+InvalidateHandlers
+(
+)
+;
 bool
 DispatchTextChangeToHandler
 (
