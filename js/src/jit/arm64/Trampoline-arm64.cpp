@@ -148,8 +148,6 @@ generateEnterJIT
 JSContext
 *
 cx
-EnterJitType
-type
 )
 {
 MacroAssembler
@@ -661,13 +659,6 @@ r19
 Label
 osrReturnPoint
 ;
-if
-(
-type
-=
-=
-EnterJitBaseline
-)
 {
 Label
 notOsr
@@ -1014,13 +1005,6 @@ callJitNoProfiler
 reg_code
 )
 ;
-if
-(
-type
-=
-=
-EnterJitBaseline
-)
 masm
 .
 bind

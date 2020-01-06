@@ -258,8 +258,6 @@ generateEnterJIT
 JSContext
 *
 cx
-EnterJitType
-type
 )
 {
 MacroAssembler
@@ -657,13 +655,6 @@ returnLabel
 CodeLabel
 oomReturnLabel
 ;
-if
-(
-type
-=
-=
-EnterJitBaseline
-)
 {
 AllocatableGeneralRegisterSet
 regs
@@ -1382,13 +1373,6 @@ ARG_JITCODE
 )
 )
 ;
-if
-(
-type
-=
-=
-EnterJitBaseline
-)
 {
 masm
 .

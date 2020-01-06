@@ -140,8 +140,6 @@ generateEnterJIT
 JSContext
 *
 cx
-EnterJitType
-type
 )
 {
 MacroAssembler
@@ -820,13 +818,6 @@ returnLabel
 CodeLabel
 oomReturnLabel
 ;
-if
-(
-type
-=
-=
-EnterJitBaseline
-)
 {
 AllocatableGeneralRegisterSet
 regs
@@ -1528,13 +1519,6 @@ callJitNoProfiler
 reg_code
 )
 ;
-if
-(
-type
-=
-=
-EnterJitBaseline
-)
 {
 masm
 .
