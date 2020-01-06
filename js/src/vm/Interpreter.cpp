@@ -13384,6 +13384,7 @@ define
 SIGNED_SHIFT_OP
 (
 OP
+TYPE
 )
 \
 JS_BEGIN_MACRO
@@ -13439,7 +13440,10 @@ error
 \
 i
 =
+TYPE
+(
 i
+)
 OP
 (
 j
@@ -13478,6 +13482,7 @@ SIGNED_SHIFT_OP
 (
 <
 <
+uint32_t
 )
 ;
 END_CASE
@@ -13492,6 +13497,7 @@ SIGNED_SHIFT_OP
 (
 >
 >
+int32_t
 )
 ;
 END_CASE
