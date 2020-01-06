@@ -446,6 +446,27 @@ basestring
 Required
 (
 '
+secrets
+'
+default
+=
+False
+)
+:
+_by_platform
+(
+Any
+(
+bool
+[
+basestring
+]
+)
+)
+    
+Required
+(
+'
 treeherder
 '
 )
@@ -1453,6 +1474,10 @@ time
 docker
 -
 image
+"
+        
+"
+secrets
 "
         
 "
@@ -2570,6 +2595,17 @@ mozharness
 [
 '
 options
+'
+]
+                
+'
+secrets
+'
+:
+job
+[
+'
+secrets
 '
 ]
             
