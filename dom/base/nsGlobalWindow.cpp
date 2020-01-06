@@ -4342,6 +4342,11 @@ deadline
 false
 )
 ;
+if
+(
+mIdleRequestExecutor
+)
+{
 mIdleRequestExecutor
 -
 >
@@ -4349,6 +4354,7 @@ MaybeDispatch
 (
 )
 ;
+}
 return
 result
 ;
