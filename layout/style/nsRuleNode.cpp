@@ -18825,16 +18825,6 @@ featureValueLookup
 aPresContext
 -
 >
-StyleSet
-(
-)
--
->
-AsGecko
-(
-)
--
->
 GetFontFeatureValuesLookup
 (
 )
