@@ -610,16 +610,6 @@ ConcreteChildrenIterator
 >
 ;
 fn
-children_and_traversal_children_might_differ
-(
-&
-self
-)
--
->
-bool
-;
-fn
 opaque
 (
 &
