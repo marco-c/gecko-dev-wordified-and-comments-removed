@@ -248,6 +248,12 @@ events
 :
 none
 ;
+transition
+:
+opacity
+420ms
+linear
+;
 }
 .
 toolbar
@@ -382,6 +388,11 @@ border
 }
 .
 button
+[
+hidden
+]
+.
+toolbar
 [
 hidden
 ]
