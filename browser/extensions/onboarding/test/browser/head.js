@@ -446,7 +446,7 @@ onboarding
 overlay
 "
 100
-30
+50
 )
 ;
 }
