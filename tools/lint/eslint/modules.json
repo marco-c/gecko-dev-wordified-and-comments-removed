@@ -4355,6 +4355,17 @@ AUSTLMY
 "
 ]
 "
+UpdateTopLevelContentWindowIDHelper
+.
+jsm
+"
+:
+[
+"
+trackBrowserWindow
+"
+]
+"
 util
 .
 js
