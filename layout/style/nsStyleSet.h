@@ -1281,11 +1281,9 @@ RestyleHintData
 aRestyleHintDataResult
 )
 ;
-nsRestyleHint
+bool
 MediumFeaturesChanged
 (
-bool
-aViewportChanged
 )
 ;
 nsresult

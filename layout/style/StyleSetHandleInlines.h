@@ -1223,7 +1223,7 @@ StyleSheetsHaveChanged
 )
 ;
 }
-nsRestyleHint
+bool
 StyleSetHandle
 :
 :
@@ -1232,15 +1232,12 @@ Ptr
 :
 MediumFeaturesChanged
 (
-bool
-aViewportChanged
 )
 {
 FORWARD
 (
 MediumFeaturesChanged
 (
-aViewportChanged
 )
 )
 ;
