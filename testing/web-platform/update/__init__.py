@@ -45,7 +45,13 @@ os
 .
 pardir
 "
-harness
+tests
+"
+"
+tools
+"
+"
+wptrunner
 "
 )
 )
