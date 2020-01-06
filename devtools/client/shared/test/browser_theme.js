@@ -968,7 +968,7 @@ a
 valid
 color
 in
-light
+dark
 theme
 )
 ;
@@ -989,7 +989,7 @@ a
 valid
 color
 in
-light
+firebug
 theme
 )
 ;
