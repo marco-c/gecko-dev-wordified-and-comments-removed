@@ -612,7 +612,7 @@ gina
 "
 }
 "
-tourBodyIntro
+tourBodyOne
 "
 :
 {
@@ -636,7 +636,7 @@ Firefox
 "
 }
 "
-tourHeaderClickAndDrag
+tourHeaderTwo
 "
 :
 {
@@ -653,7 +653,7 @@ vulgueu
 "
 }
 "
-tourBodyClickAndDrag
+tourBodyTwo
 "
 :
 {
@@ -693,7 +693,7 @@ selecci
 "
 }
 "
-tourHeaderFullPage
+tourHeaderThree
 "
 :
 {
@@ -713,7 +713,7 @@ sencera
 "
 }
 "
-tourBodyFullPage
+tourBodyThree
 "
 :
 {
@@ -750,7 +750,7 @@ sencera
 "
 }
 "
-tourHeaderDownloadUpload
+tourHeaderFour
 "
 :
 {
@@ -764,7 +764,7 @@ vulgueu
 "
 }
 "
-tourBodyDownloadUpload
+tourBodyFour
 "
 :
 {

@@ -226,7 +226,7 @@ haywire
 "
 }
 "
-tourBodyIntro
+tourBodyOne
 "
 :
 {
@@ -240,7 +240,7 @@ Firefox
 "
 }
 "
-tourHeaderClickAndDrag
+tourHeaderTwo
 "
 :
 {
@@ -252,7 +252,7 @@ message
 "
 }
 "
-tourHeaderDownloadUpload
+tourHeaderFour
 "
 :
 {

@@ -520,7 +520,7 @@ sivusta
 "
 }
 "
-tourBodyIntro
+tourBodyOne
 "
 :
 {
@@ -540,7 +540,7 @@ Firefoxista
 "
 }
 "
-tourHeaderClickAndDrag
+tourHeaderTwo
 "
 :
 {
@@ -555,7 +555,7 @@ haluat
 "
 }
 "
-tourBodyClickAndDrag
+tourBodyTwo
 "
 :
 {
@@ -590,7 +590,7 @@ ll
 "
 }
 "
-tourHeaderFullPage
+tourHeaderThree
 "
 :
 {
@@ -609,7 +609,7 @@ sivu
 "
 }
 "
-tourBodyFullPage
+tourBodyThree
 "
 :
 {
@@ -637,7 +637,7 @@ kaappaus
 "
 }
 "
-tourHeaderDownloadUpload
+tourHeaderFour
 "
 :
 {
@@ -651,7 +651,7 @@ tavalla
 "
 }
 "
-tourBodyDownloadUpload
+tourBodyFour
 "
 :
 {

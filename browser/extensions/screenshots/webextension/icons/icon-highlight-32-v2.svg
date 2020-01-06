@@ -286,6 +286,13 @@ M8
 442z
 "
 fill
+-
+rule
+=
+"
+nonzero
+"
+fill
 =
 "
 #

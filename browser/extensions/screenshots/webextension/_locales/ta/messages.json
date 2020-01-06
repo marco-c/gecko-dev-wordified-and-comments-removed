@@ -360,7 +360,7 @@ message
 "
 }
 "
-tourBodyIntro
+tourBodyOne
 "
 :
 {
@@ -373,7 +373,7 @@ message
 "
 }
 "
-tourHeaderClickAndDrag
+tourHeaderTwo
 "
 :
 {
@@ -385,7 +385,7 @@ message
 "
 }
 "
-tourBodyClickAndDrag
+tourBodyTwo
 "
 :
 {
@@ -399,7 +399,7 @@ message
 "
 }
 "
-tourHeaderFullPage
+tourHeaderThree
 "
 :
 {
@@ -413,7 +413,7 @@ message
 "
 }
 "
-tourBodyFullPage
+tourBodyThree
 "
 :
 {
@@ -428,7 +428,7 @@ message
 "
 }
 "
-tourHeaderDownloadUpload
+tourHeaderFour
 "
 :
 {
@@ -440,7 +440,7 @@ message
 "
 }
 "
-tourBodyDownloadUpload
+tourBodyFour
 "
 :
 {

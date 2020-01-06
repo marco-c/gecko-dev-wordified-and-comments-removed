@@ -540,7 +540,7 @@ berbeda
 "
 }
 "
-tourBodyIntro
+tourBodyOne
 "
 :
 {
@@ -562,7 +562,7 @@ Firefox
 "
 }
 "
-tourHeaderClickAndDrag
+tourHeaderTwo
 "
 :
 {
@@ -579,7 +579,7 @@ Inginkan
 "
 }
 "
-tourBodyClickAndDrag
+tourBodyTwo
 "
 :
 {
@@ -610,7 +610,7 @@ Anda
 "
 }
 "
-tourHeaderFullPage
+tourHeaderThree
 "
 :
 {
@@ -627,7 +627,7 @@ Laman
 "
 }
 "
-tourBodyFullPage
+tourBodyThree
 "
 :
 {
@@ -656,7 +656,7 @@ laman
 "
 }
 "
-tourHeaderDownloadUpload
+tourHeaderFour
 "
 :
 {
@@ -670,7 +670,7 @@ Anda
 "
 }
 "
-tourBodyDownloadUpload
+tourBodyFour
 "
 :
 {

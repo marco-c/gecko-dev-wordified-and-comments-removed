@@ -563,7 +563,7 @@ gia
 "
 }
 "
-tourBodyIntro
+tourBodyOne
 "
 :
 {
@@ -588,7 +588,7 @@ Firefox
 "
 }
 "
-tourHeaderClickAndDrag
+tourHeaderTwo
 "
 :
 {
@@ -607,7 +607,7 @@ eu
 "
 }
 "
-tourBodyClickAndDrag
+tourBodyTwo
 "
 :
 {
@@ -652,7 +652,7 @@ iala
 "
 }
 "
-tourHeaderFullPage
+tourHeaderThree
 "
 :
 {
@@ -672,7 +672,7 @@ intrega
 "
 }
 "
-tourBodyFullPage
+tourBodyThree
 "
 :
 {
@@ -708,7 +708,7 @@ intrega
 "
 }
 "
-tourHeaderDownloadUpload
+tourHeaderFour
 "
 :
 {
@@ -723,7 +723,7 @@ piaxe
 "
 }
 "
-tourBodyDownloadUpload
+tourBodyFour
 "
 :
 {

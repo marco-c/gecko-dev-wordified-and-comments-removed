@@ -627,13 +627,6 @@ stack
 |
 undefined
 ;
-if
-(
-exception
-.
-stack
-)
-{
 exception
 .
 stack
@@ -720,7 +713,6 @@ addon
 "
 )
 ;
-}
 let
 rest
 =

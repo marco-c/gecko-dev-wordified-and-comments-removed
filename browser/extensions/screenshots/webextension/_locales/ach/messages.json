@@ -528,7 +528,7 @@ mukene
 "
 }
 "
-tourBodyIntro
+tourBodyOne
 "
 :
 {
@@ -552,7 +552,7 @@ Firefox
 "
 }
 "
-tourHeaderClickAndDrag
+tourHeaderTwo
 "
 :
 {
@@ -569,7 +569,7 @@ keken
 "
 }
 "
-tourBodyClickAndDrag
+tourBodyTwo
 "
 :
 {
@@ -602,7 +602,7 @@ mamegi
 "
 }
 "
-tourHeaderFullPage
+tourHeaderThree
 "
 :
 {
@@ -619,7 +619,7 @@ weng
 "
 }
 "
-tourBodyFullPage
+tourBodyThree
 "
 :
 {
@@ -651,7 +651,7 @@ weng
 "
 }
 "
-tourHeaderDownloadUpload
+tourHeaderFour
 "
 :
 {
@@ -666,7 +666,7 @@ imito
 "
 }
 "
-tourBodyDownloadUpload
+tourBodyFour
 "
 :
 {

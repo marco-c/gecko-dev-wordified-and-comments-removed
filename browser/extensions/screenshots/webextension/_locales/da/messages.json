@@ -588,7 +588,7 @@ side
 "
 }
 "
-tourBodyIntro
+tourBodyOne
 "
 :
 {
@@ -611,7 +611,7 @@ Firefox
 "
 }
 "
-tourHeaderClickAndDrag
+tourHeaderTwo
 "
 :
 {
@@ -629,7 +629,7 @@ vil
 "
 }
 "
-tourBodyClickAndDrag
+tourBodyTwo
 "
 :
 {
@@ -671,7 +671,7 @@ markering
 "
 }
 "
-tourHeaderFullPage
+tourHeaderThree
 "
 :
 {
@@ -692,7 +692,7 @@ sider
 "
 }
 "
-tourBodyFullPage
+tourBodyThree
 "
 :
 {
@@ -734,7 +734,7 @@ siden
 "
 }
 "
-tourHeaderDownloadUpload
+tourHeaderFour
 "
 :
 {
@@ -752,7 +752,7 @@ det
 "
 }
 "
-tourBodyDownloadUpload
+tourBodyFour
 "
 :
 {

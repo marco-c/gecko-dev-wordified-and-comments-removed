@@ -615,7 +615,7 @@ ghlacadh
 "
 }
 "
-tourBodyIntro
+tourBodyOne
 "
 :
 {
@@ -645,7 +645,7 @@ il
 "
 }
 "
-tourHeaderClickAndDrag
+tourHeaderTwo
 "
 :
 {
@@ -664,7 +664,7 @@ il
 "
 }
 "
-tourBodyClickAndDrag
+tourBodyTwo
 "
 :
 {
@@ -707,7 +707,7 @@ il
 "
 }
 "
-tourHeaderFullPage
+tourHeaderThree
 "
 :
 {
@@ -727,7 +727,7 @@ il
 "
 }
 "
-tourBodyFullPage
+tourBodyThree
 "
 :
 {
@@ -766,7 +766,7 @@ n
 "
 }
 "
-tourHeaderDownloadUpload
+tourHeaderFour
 "
 :
 {
@@ -785,7 +785,7 @@ leat
 "
 }
 "
-tourBodyDownloadUpload
+tourBodyFour
 "
 :
 {
