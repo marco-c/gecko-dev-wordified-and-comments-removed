@@ -4575,6 +4575,16 @@ id
 "
 customizationPaletteItemContextMenu
 "
+onpopupshowing
+=
+"
+gCustomizeMode
+.
+onPaletteContextMenuShowing
+(
+event
+)
+"
 >
 <
 menuitem
