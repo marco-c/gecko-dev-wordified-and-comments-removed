@@ -2657,6 +2657,9 @@ activityStreamLinks
 getHighlights
 (
 {
+numItems
+:
+6
 withFavicons
 :
 true
