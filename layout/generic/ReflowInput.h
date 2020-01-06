@@ -3220,7 +3220,7 @@ aPlaceholderFrame
 const
 ReflowInput
 *
-aReflowInput
+cbrs
 nsHypotheticalPosition
 &
 aHypotheticalPos
@@ -3241,7 +3241,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowInput
+cbrs
 const
 mozilla
 :
