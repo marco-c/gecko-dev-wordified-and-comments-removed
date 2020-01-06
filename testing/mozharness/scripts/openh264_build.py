@@ -196,6 +196,10 @@ dump
 -
 symbols
 '
+        
+'
+upload
+'
     
 ]
     
@@ -364,8 +368,9 @@ use
 (
 x64
 x86
-or
 arm
+or
+aarch64
 )
 "
         
@@ -602,12 +607,6 @@ False
 upload_ssh_key
 '
 :
-os
-.
-path
-.
-expanduser
-(
 "
 ~
 /
@@ -616,7 +615,6 @@ ssh
 /
 ffxbld_rsa
 "
-)
             
 '
 upload_ssh_user
@@ -631,11 +629,17 @@ upload_ssh_host
 '
 :
 '
-stage
+upload
 .
-mozilla
+ffxbld
 .
-org
+productdelivery
+.
+prod
+.
+mozaws
+.
+net
 '
             
 '
@@ -644,9 +648,7 @@ upload_path_base
 :
 '
 /
-home
-/
-ffxbld
+tmp
 /
 openh264
 '
@@ -969,24 +971,6 @@ android
 '
 :
                 
-if
-self
-.
-config
-.
-get
-(
-'
-arch
-'
-)
-=
-=
-'
-x86
-'
-:
-                    
 return
 '
 openh264
@@ -1006,13 +990,10 @@ zip
 .
 format
 (
-                        
+                    
 version
 =
 version
-bits
-=
-bits
 arch
 =
 self
@@ -1023,44 +1004,6 @@ config
 arch
 '
 ]
-                    
-)
-                
-else
-:
-                    
-return
-'
-openh264
--
-android
--
-{
-arch
-}
--
-{
-version
-}
-.
-zip
-'
-.
-format
-(
-                        
-version
-=
-version
-bits
-=
-bits
-arch
-=
-'
-arm
-'
-                    
 )
             
 else
@@ -1252,11 +1195,15 @@ config
 arch
 '
 ]
-=
-=
+in
+(
 '
 x64
 '
+'
+aarch64
+'
+)
 :
             
 retval
@@ -1358,6 +1305,47 @@ x86
 "
 )
                 
+elif
+self
+.
+config
+[
+'
+arch
+'
+]
+=
+=
+'
+aarch64
+'
+:
+                    
+retval
+.
+append
+(
+"
+ARCH
+=
+arm64
+"
+)
+                
+else
+:
+                    
+retval
+.
+append
+(
+"
+ARCH
+=
+arm
+"
+)
+                
 retval
 .
 append
@@ -1376,8 +1364,18 @@ append
 '
 NDKLEVEL
 =
-9
+%
+s
 '
+%
+self
+.
+config
+[
+'
+min_sdk
+'
+]
 )
                 
 retval
@@ -1393,6 +1391,8 @@ s
 android
 -
 ndk
+-
+r11c
 '
 %
 dirs
@@ -1569,6 +1569,9 @@ src
         
 env
 =
+None
+        
+if
 self
 .
 config
@@ -1576,21 +1579,25 @@ config
 get
 (
 '
-env
+partial_env
 '
 )
-        
-partial_env
+:
+            
+env
 =
 self
 .
-config
-.
-get
+query_env
 (
+self
+.
+config
+[
 '
 partial_env
 '
+]
 )
         
 kwargs
@@ -1603,9 +1610,6 @@ repo_dir
 env
 =
 env
-partial_env
-=
-partial_env
 )
         
 if
@@ -2384,6 +2388,9 @@ src
         
 env
 =
+None
+        
+if
 self
 .
 config
@@ -2391,21 +2398,25 @@ config
 get
 (
 '
-env
+partial_env
 '
 )
-        
-partial_env
+:
+            
+env
 =
 self
 .
-config
-.
-get
+query_env
 (
+self
+.
+config
+[
 '
 partial_env
 '
+]
 )
         
 kwargs
@@ -2418,9 +2429,6 @@ repo_dir
 env
 =
 env
-partial_env
-=
-partial_env
 )
         
 dump_syms
@@ -2583,7 +2591,7 @@ query_abs_dirs
         
 self
 .
-rsync_upload_directory
+scp_upload_directory
 (
             
 dirs

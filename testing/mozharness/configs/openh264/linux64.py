@@ -259,6 +259,25 @@ relengapi
 tok
 '
 )
+        
+(
+'
+/
+tools
+/
+tooltool
+.
+py
+'
+'
+/
+builds
+/
+tooltool
+.
+py
+'
+)
     
 ]
     
