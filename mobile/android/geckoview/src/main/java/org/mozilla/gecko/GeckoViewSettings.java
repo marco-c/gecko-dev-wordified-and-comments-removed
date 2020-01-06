@@ -188,14 +188,14 @@ static
 final
 Key
 <
-Boolean
+Integer
 >
 DISPLAY_MODE
 =
 new
 Key
 <
-Boolean
+Integer
 >
 (
 "
@@ -398,7 +398,7 @@ setInt
 final
 Key
 <
-Boolean
+Integer
 >
 key
 int
@@ -465,7 +465,7 @@ getInt
 final
 Key
 <
-Boolean
+Integer
 >
 key
 )
