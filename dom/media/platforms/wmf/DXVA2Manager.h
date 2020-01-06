@@ -41,7 +41,11 @@ h
 #
 include
 "
-nsRect
+mozilla
+/
+gfx
+/
+Rect
 .
 h
 "
@@ -127,7 +131,10 @@ IMFSample
 *
 aVideoSample
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRegion
 layers

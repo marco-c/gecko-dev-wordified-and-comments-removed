@@ -970,7 +970,10 @@ TrackType
 aType
 )
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mPicture
 ;
 bool

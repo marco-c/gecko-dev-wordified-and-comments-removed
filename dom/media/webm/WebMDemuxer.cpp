@@ -1724,7 +1724,10 @@ params
 .
 crop_top
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 pictureRect
 (
 params
@@ -1806,7 +1809,10 @@ params
 height
 ;
 }
-nsIntSize
+gfx
+:
+:
+IntSize
 displaySize
 (
 params
@@ -1817,7 +1823,10 @@ params
 display_height
 )
 ;
-nsIntSize
+gfx
+:
+:
+IntSize
 frameSize
 (
 params
@@ -3620,7 +3629,10 @@ isKeyframe
 auto
 dimensions
 =
-nsIntSize
+gfx
+:
+:
+IntSize
 (
 0
 0

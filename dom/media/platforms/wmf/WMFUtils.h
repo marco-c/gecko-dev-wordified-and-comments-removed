@@ -28,7 +28,11 @@ h
 #
 include
 "
-nsRect
+mozilla
+/
+gfx
+/
+Rect
 .
 h
 "
@@ -110,7 +114,10 @@ GetPictureRegion
 IMFMediaType
 *
 aMediaType
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aOutPictureRegion
 )

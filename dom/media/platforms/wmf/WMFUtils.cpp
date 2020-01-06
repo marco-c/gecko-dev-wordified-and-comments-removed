@@ -450,7 +450,10 @@ GetPictureRegion
 IMFMediaType
 *
 aMediaType
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aOutPictureRegion
 )
@@ -585,7 +588,10 @@ hr
 {
 aOutPictureRegion
 =
-nsIntRect
+gfx
+:
+:
+IntRect
 (
 MFOffsetToInt32
 (
@@ -664,7 +670,10 @@ E_FAIL
 ;
 aOutPictureRegion
 =
-nsIntRect
+gfx
+:
+:
+IntRect
 (
 0
 0

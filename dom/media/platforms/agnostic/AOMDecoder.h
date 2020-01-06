@@ -161,7 +161,10 @@ aBuffer
 )
 ;
 static
-nsIntSize
+gfx
+:
+:
+IntSize
 GetFrameSize
 (
 Span

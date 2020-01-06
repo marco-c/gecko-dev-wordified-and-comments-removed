@@ -2079,7 +2079,10 @@ return
 false
 ;
 }
-nsIntSize
+gfx
+:
+:
+IntSize
 VPXDecoder
 :
 :
@@ -2177,7 +2180,10 @@ si
 ;
 }
 return
-nsIntSize
+gfx
+:
+:
+IntSize
 (
 si
 .

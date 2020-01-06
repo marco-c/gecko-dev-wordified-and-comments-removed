@@ -920,7 +920,10 @@ mIsMediaSource
 ;
 Maybe
 <
-nsIntSize
+gfx
+:
+:
+IntSize
 >
 mLastSeenFrameSize
 ;
