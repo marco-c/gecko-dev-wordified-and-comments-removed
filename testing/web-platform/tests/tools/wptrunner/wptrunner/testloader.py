@@ -2471,6 +2471,14 @@ IncludeManifest
 create
 (
 )
+            
+self
+.
+manifest
+.
+set_defaults
+(
+)
         
 if
 include
