@@ -362,6 +362,13 @@ uint32_t
 aBytes
 )
 ;
+void
+ThrottleReadahead
+(
+bool
+bThrottle
+)
+;
 size_t
 SizeOfExcludingThis
 (
@@ -748,6 +755,11 @@ BLOCK_SIZE
 const
 bool
 mIsPrivateBrowsing
+;
+bool
+mThrottleReadahead
+=
+false
 ;
 }
 ;
