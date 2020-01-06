@@ -7,7 +7,10 @@ improper_ctypes
 )
 ]
 use
-webrender_api
+webrender
+:
+:
+api
 :
 :
 *

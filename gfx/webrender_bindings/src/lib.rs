@@ -12,10 +12,6 @@ webrender
 ;
 extern
 crate
-webrender_api
-;
-extern
-crate
 euclid
 ;
 extern
