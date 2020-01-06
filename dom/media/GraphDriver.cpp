@@ -2720,7 +2720,7 @@ GraphDriver
 (
 aGraphImpl
 )
-mOuputChannels
+mOutputChannels
 (
 mGraphImpl
 -
@@ -2740,7 +2740,7 @@ uint32_t
 >
 (
 1
-mOuputChannels
+mOutputChannels
 )
 )
 mBuffer
@@ -2754,7 +2754,7 @@ uint32_t
 >
 (
 1
-mOuputChannels
+mOutputChannels
 )
 )
 mSampleRate
@@ -3167,7 +3167,7 @@ output
 .
 channels
 =
-mOuputChannels
+mOutputChannels
 ;
 output
 .
@@ -4606,7 +4606,7 @@ PodZero
 aOutputBuffer
 aFrames
 *
-mOuputChannels
+mOutputChannels
 )
 ;
 return
@@ -4932,7 +4932,7 @@ size_t
 aFrames
 )
 mSampleRate
-mOuputChannels
+mOutputChannels
 )
 ;
 bool
