@@ -235,7 +235,11 @@ touched
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 GamepadButtonList
 :
 :
@@ -245,6 +249,7 @@ list
 .
 r
 (
+)
 )
 )
 global

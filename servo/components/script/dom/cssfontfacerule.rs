@@ -219,7 +219,11 @@ CSSFontFaceRule
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSFontFaceRule
 :
 :
@@ -227,6 +231,7 @@ new_inherited
 (
 parent_stylesheet
 fontfacerule
+)
 )
 window
 CSSFontFaceRuleBinding

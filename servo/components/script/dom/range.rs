@@ -528,7 +528,11 @@ range
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 Range
 :
 :
@@ -538,6 +542,7 @@ start_container
 start_offset
 end_container
 end_offset
+)
 )
 document
 .

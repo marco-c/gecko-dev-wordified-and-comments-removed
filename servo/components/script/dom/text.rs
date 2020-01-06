@@ -255,7 +255,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 Text
 :
 :
@@ -263,6 +267,7 @@ new_inherited
 (
 text
 document
+)
 )
 document
 TextBinding

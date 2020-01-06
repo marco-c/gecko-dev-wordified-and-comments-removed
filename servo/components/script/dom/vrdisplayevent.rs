@@ -306,7 +306,11 @@ ev
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 VRDisplayEvent
 :
 :
@@ -315,6 +319,7 @@ new_inherited
 &
 display
 reason
+)
 )
 global
 VRDisplayEventBinding

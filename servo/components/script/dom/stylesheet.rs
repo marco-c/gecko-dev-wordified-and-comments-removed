@@ -228,7 +228,11 @@ StyleSheet
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 StyleSheet
 :
 :
@@ -237,6 +241,7 @@ new_inherited
 type_
 href
 title
+)
 )
 window
 StyleSheetBinding

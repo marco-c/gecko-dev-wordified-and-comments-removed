@@ -220,7 +220,11 @@ DOMPointReadOnly
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 DOMPointReadOnly
 :
 :
@@ -230,6 +234,7 @@ x
 y
 z
 w
+)
 )
 global
 Wrap

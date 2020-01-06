@@ -342,7 +342,11 @@ NodeIterator
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 NodeIterator
 :
 :
@@ -351,6 +355,7 @@ new_inherited
 root_node
 what_to_show
 filter
+)
 )
 document
 .

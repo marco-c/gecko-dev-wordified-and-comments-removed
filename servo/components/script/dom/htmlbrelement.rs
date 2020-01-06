@@ -155,7 +155,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLBRElement
 :
 :
@@ -164,6 +168,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLBRElementBinding

@@ -186,7 +186,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLHeadingElement
 :
 :
@@ -196,6 +200,7 @@ local_name
 prefix
 document
 level
+)
 )
 document
 HTMLHeadingElementBinding

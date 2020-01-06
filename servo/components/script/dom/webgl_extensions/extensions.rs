@@ -647,7 +647,11 @@ borrow_mut
 insert
 (
 name
-box
+Box
+:
+:
+new
+(
 TypedWebGLExtensionWrapper
 :
 :
@@ -658,6 +662,7 @@ T
 :
 new
 (
+)
 )
 )
 ;
@@ -1608,10 +1613,6 @@ OESVertexArrayObject
 ;
 }
 }
-/
-/
-Helper
-structs
 #
 [
 derive

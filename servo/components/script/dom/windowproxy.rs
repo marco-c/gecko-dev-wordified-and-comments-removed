@@ -698,7 +698,11 @@ let
 mut
 window_proxy
 =
-box
+Box
+:
+:
+new
+(
 WindowProxy
 :
 :
@@ -709,6 +713,7 @@ top_level_browsing_context_id
 current
 frame_element
 parent
+)
 )
 ;
 SetProxyExtra
@@ -872,7 +877,11 @@ let
 mut
 window_proxy
 =
-box
+Box
+:
+:
+new
+(
 WindowProxy
 :
 :
@@ -883,6 +892,7 @@ top_level_browsing_context_id
 None
 None
 parent
+)
 )
 ;
 let

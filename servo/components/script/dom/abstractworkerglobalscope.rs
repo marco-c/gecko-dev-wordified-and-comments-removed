@@ -185,7 +185,11 @@ ScriptChan
 Send
 >
 {
-box
+Box
+:
+:
+new
+(
 SendableWorkerScriptChan
 {
 sender
@@ -207,6 +211,7 @@ clone
 (
 )
 }
+)
 }
 }
 #
@@ -332,7 +337,11 @@ ScriptChan
 Send
 >
 {
-box
+Box
+:
+:
+new
+(
 WorkerThreadWorkerChan
 {
 sender
@@ -354,6 +363,7 @@ clone
 (
 )
 }
+)
 }
 }
 impl

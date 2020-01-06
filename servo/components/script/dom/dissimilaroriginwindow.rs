@@ -277,7 +277,11 @@ unwrap
 let
 win
 =
-box
+Box
+:
+:
+new
+(
 Self
 {
 globalscope
@@ -385,6 +389,7 @@ default
 (
 )
 }
+)
 ;
 unsafe
 {

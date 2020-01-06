@@ -106,7 +106,11 @@ ScriptChan
 Send
 >
 {
-box
+Box
+:
+:
+new
+(
 HistoryTraversalTaskSource
 (
 (
@@ -118,6 +122,7 @@ self
 .
 clone
 (
+)
 )
 )
 }

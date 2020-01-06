@@ -364,7 +364,11 @@ CSSMediaRule
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSMediaRule
 :
 :
@@ -372,6 +376,7 @@ new_inherited
 (
 parent_stylesheet
 mediarule
+)
 )
 window
 CSSMediaRuleBinding

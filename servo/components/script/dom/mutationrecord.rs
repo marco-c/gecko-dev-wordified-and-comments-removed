@@ -231,7 +231,11 @@ MutationRecord
 let
 record
 =
-box
+Box
+:
+:
+new
+(
 MutationRecord
 :
 :
@@ -277,6 +281,7 @@ None
 None
 None
 None
+)
 )
 ;
 reflect_dom_object
@@ -396,7 +401,11 @@ list
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 MutationRecord
 :
 :
@@ -443,6 +452,7 @@ list
 )
 next_sibling
 prev_sibling
+)
 )
 &
 *

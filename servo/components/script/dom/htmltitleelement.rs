@@ -227,7 +227,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 HTMLTitleElement
 :
 :
@@ -236,6 +240,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 HTMLTitleElementBinding

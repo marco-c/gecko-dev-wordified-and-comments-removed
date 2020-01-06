@@ -242,7 +242,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 DocumentType
 :
 :
@@ -252,6 +256,7 @@ name
 public_id
 system_id
 document
+)
 )
 document
 DocumentTypeBinding

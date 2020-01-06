@@ -188,7 +188,11 @@ ev
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 InputEvent
 {
 uievent
@@ -206,6 +210,7 @@ is_composing
 :
 is_composing
 }
+)
 window
 InputEventBinding
 :

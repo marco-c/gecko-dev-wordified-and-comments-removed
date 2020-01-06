@@ -338,7 +338,11 @@ CSSStyleRule
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSStyleRule
 :
 :
@@ -346,6 +350,7 @@ new_inherited
 (
 parent_stylesheet
 stylerule
+)
 )
 window
 CSSStyleRuleBinding

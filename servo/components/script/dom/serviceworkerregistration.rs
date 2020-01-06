@@ -314,7 +314,11 @@ Installed
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 ServiceWorkerRegistration
 :
 :
@@ -324,6 +328,7 @@ new_inherited
 *
 active_worker
 scope
+)
 )
 global
 Wrap

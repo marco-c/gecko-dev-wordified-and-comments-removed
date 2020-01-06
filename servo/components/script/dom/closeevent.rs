@@ -224,7 +224,11 @@ CloseEvent
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CloseEvent
 :
 :
@@ -237,6 +241,7 @@ DOMString
 :
 new
 (
+)
 )
 )
 global
@@ -283,7 +288,11 @@ CloseEvent
 let
 event
 =
-box
+Box
+:
+:
+new
+(
 CloseEvent
 :
 :
@@ -292,6 +301,7 @@ new_inherited
 wasClean
 code
 reason
+)
 )
 ;
 let

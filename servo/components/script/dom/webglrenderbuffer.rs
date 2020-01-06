@@ -348,7 +348,11 @@ WebGLRenderbuffer
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 WebGLRenderbuffer
 :
 :
@@ -356,6 +360,7 @@ new_inherited
 (
 renderer
 id
+)
 )
 window
 WebGLRenderbufferBinding

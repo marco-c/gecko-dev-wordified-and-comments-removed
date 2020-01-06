@@ -182,7 +182,11 @@ DOMPoint
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 DOMPoint
 :
 :
@@ -192,6 +196,7 @@ x
 y
 z
 w
+)
 )
 global
 Wrap

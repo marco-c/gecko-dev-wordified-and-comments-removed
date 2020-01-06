@@ -1135,7 +1135,11 @@ get_url
 let
 boxed
 =
-box
+Box
+:
+:
+new
+(
 CanvasRenderingContext2D
 :
 :
@@ -1149,6 +1153,7 @@ canvas
 image_cache
 base_url
 size
+)
 )
 ;
 reflect_dom_object

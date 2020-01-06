@@ -224,8 +224,13 @@ Document
 ;
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 timing
+)
 window
 PerformanceTimingBinding
 :

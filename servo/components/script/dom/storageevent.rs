@@ -289,7 +289,11 @@ StorageEvent
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 StorageEvent
 :
 :
@@ -300,6 +304,7 @@ None
 None
 url
 None
+)
 )
 window
 StorageEventBinding
@@ -366,7 +371,11 @@ ev
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 StorageEvent
 :
 :
@@ -377,6 +386,7 @@ oldValue
 newValue
 url
 storageArea
+)
 )
 global
 StorageEventBinding

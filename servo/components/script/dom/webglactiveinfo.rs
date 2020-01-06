@@ -174,7 +174,11 @@ WebGLActiveInfo
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 WebGLActiveInfo
 :
 :
@@ -183,6 +187,7 @@ new_inherited
 size
 ty
 name
+)
 )
 window
 WebGLActiveInfoBinding

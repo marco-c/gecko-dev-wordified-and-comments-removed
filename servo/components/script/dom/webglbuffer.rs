@@ -373,7 +373,11 @@ WebGLBuffer
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 WebGLBuffer
 :
 :
@@ -381,6 +385,7 @@ new_inherited
 (
 renderer
 id
+)
 )
 window
 WebGLBufferBinding

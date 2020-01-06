@@ -242,7 +242,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 SVGSVGElement
 :
 :
@@ -251,6 +255,7 @@ new_inherited
 local_name
 prefix
 document
+)
 )
 document
 SVGSVGElementBinding

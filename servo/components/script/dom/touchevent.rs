@@ -336,7 +336,11 @@ TouchEvent
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 TouchEvent
 :
 :
@@ -345,6 +349,7 @@ new_inherited
 touches
 changed_touches
 target_touches
+)
 )
 window
 TouchEventBinding

@@ -325,7 +325,11 @@ MediaList
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 MediaList
 :
 :
@@ -333,6 +337,7 @@ new_inherited
 (
 parent_stylesheet
 media_queries
+)
 )
 window
 MediaListBinding

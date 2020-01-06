@@ -366,7 +366,11 @@ CSSStyleSheet
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSStyleSheet
 :
 :
@@ -377,6 +381,7 @@ type_
 href
 title
 stylesheet
+)
 )
 window
 CSSStyleSheetBinding

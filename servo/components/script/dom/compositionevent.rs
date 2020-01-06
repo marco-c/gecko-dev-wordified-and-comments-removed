@@ -176,7 +176,11 @@ ev
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CompositionEvent
 {
 uievent
@@ -191,6 +195,7 @@ data
 :
 data
 }
+)
 window
 CompositionEventBinding
 :

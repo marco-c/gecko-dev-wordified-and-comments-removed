@@ -190,7 +190,11 @@ DOMRect
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 DOMRect
 :
 :
@@ -200,6 +204,7 @@ x
 y
 width
 height
+)
 )
 global
 DOMRectBinding

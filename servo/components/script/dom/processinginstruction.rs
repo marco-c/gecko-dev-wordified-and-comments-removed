@@ -168,7 +168,11 @@ Node
 :
 reflect_node
 (
-box
+Box
+:
+:
+new
+(
 ProcessingInstruction
 :
 :
@@ -177,6 +181,7 @@ new_inherited
 target
 data
 document
+)
 )
 document
 ProcessingInstructionBinding

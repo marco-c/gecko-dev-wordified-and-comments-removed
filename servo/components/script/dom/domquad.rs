@@ -280,7 +280,11 @@ DOMQuad
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 DOMQuad
 :
 :
@@ -290,6 +294,7 @@ p1
 p2
 p3
 p4
+)
 )
 global
 Wrap

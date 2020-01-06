@@ -191,7 +191,11 @@ FileList
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 FileList
 :
 :
@@ -222,6 +226,7 @@ r
 .
 collect
 (
+)
 )
 )
 window

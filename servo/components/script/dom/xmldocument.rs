@@ -318,7 +318,11 @@ doc
 =
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 XMLDocument
 :
 :
@@ -334,6 +338,7 @@ last_modified
 activity
 source
 doc_loader
+)
 )
 window
 XMLDocumentBinding

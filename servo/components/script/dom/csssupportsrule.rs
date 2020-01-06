@@ -322,7 +322,11 @@ CSSSupportsRule
 {
 reflect_dom_object
 (
-box
+Box
+:
+:
+new
+(
 CSSSupportsRule
 :
 :
@@ -330,6 +334,7 @@ new_inherited
 (
 parent_stylesheet
 supportsrule
+)
 )
 window
 CSSSupportsRuleBinding
