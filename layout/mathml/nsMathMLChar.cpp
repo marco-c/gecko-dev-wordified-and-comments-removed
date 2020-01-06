@@ -8119,9 +8119,6 @@ return
 mIndex
 <
 <
-nsDisplayItem
-:
-:
 TYPE_BITS
 )
 |

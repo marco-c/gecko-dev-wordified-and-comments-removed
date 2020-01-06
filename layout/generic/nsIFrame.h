@@ -215,6 +215,13 @@ MatrixFwd
 h
 "
 #
+include
+"
+nsDisplayItemTypes
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -7303,7 +7310,7 @@ Layer
 *
 InvalidateLayer
 (
-uint32_t
+DisplayItemType
 aDisplayItemKey
 const
 nsIntRect

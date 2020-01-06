@@ -2413,7 +2413,7 @@ mPluginFrame
 >
 InvalidateLayer
 (
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_PLUGIN
@@ -2457,7 +2457,7 @@ mPluginFrame
 >
 InvalidateLayer
 (
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_PLUGIN

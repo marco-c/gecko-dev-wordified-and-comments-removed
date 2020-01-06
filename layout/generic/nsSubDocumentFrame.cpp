@@ -1452,7 +1452,7 @@ GetType
 )
 =
 =
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_BACKGROUND_COLOR
@@ -2576,6 +2576,7 @@ childItems
 .
 DeleteAll
 (
+aBuilder
 )
 ;
 }
