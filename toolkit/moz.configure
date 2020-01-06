@@ -6126,10 +6126,14 @@ s
 (
 library_name_info
 .
-dll_prefix
+dll
+.
+prefix
 library_name_info
 .
-dll_suffix
+dll
+.
+suffix
 )
 )
 if
