@@ -478,7 +478,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -582,7 +582,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -700,7 +700,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -810,7 +810,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -989,7 +989,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -1271,7 +1271,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -1355,7 +1355,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -1441,7 +1441,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -1621,7 +1621,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -1793,7 +1793,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -1882,7 +1882,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
@@ -1966,7 +1966,7 @@ manifests
 /
 linux64
 /
-releng
+jsshell
 .
 manifest
 "
