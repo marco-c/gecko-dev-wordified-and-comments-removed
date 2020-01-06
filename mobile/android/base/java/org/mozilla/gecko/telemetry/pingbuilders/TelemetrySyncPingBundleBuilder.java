@@ -162,7 +162,7 @@ final
 int
 PING_BUNDLE_VERSION
 =
-5
+4
 ;
 private
 static
