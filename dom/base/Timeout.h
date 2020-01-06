@@ -193,7 +193,7 @@ nsIPrincipal
 mPrincipal
 ;
 uint32_t
-mFiringDepth
+mFiringId
 ;
 uint32_t
 mNestingLevel
