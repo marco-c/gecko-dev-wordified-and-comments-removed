@@ -692,6 +692,14 @@ nsIEditor
 :
 EDirection
 aSelect
+nsCOMPtr
+<
+nsIContent
+>
+*
+aInOutChildAtOffset
+=
+nullptr
 )
 ;
 nsresult
