@@ -34834,6 +34834,11 @@ body
 [
 CDATA
 [
+if
+(
+gMultiProcessBrowser
+)
+{
 this
 .
 _getSwitcher
@@ -34845,6 +34850,7 @@ warmupTab
 aTab
 )
 ;
+}
 ]
 ]
 >
