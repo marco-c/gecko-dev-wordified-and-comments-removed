@@ -853,13 +853,6 @@ BINPATH
 /
 components
 /
-exthelper
-.
-xpt
-BINPATH
-/
-components
-/
 fastfind
 .
 xpt
