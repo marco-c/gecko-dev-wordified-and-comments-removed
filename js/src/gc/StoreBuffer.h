@@ -77,6 +77,9 @@ namespace
 gc
 {
 class
+Arena
+;
+class
 ArenaCellSet
 ;
 class
