@@ -269,15 +269,6 @@ error
 "
 no
 -
-eval
-"
-:
-"
-error
-"
-"
-no
--
 extend
 -
 native

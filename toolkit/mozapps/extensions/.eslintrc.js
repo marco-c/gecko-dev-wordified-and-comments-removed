@@ -32,15 +32,6 @@ max
 "
 no
 -
-undef
-"
-:
-"
-error
-"
-"
-no
--
 unused
 -
 vars
