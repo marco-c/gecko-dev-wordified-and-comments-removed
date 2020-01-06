@@ -14,6 +14,8 @@ from
 io
 import
 BytesIO
+import
+requests
 logger
 =
 logging
@@ -749,9 +751,6 @@ response
 "
 "
 "
-    
-import
-requests
     
 logger
 .
