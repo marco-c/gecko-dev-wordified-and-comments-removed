@@ -2130,20 +2130,44 @@ morphs
 add_index_tasks
         
 add_s3_uploader_task
+    
+]
+    
+if
+parameters
+[
+'
+try_mode
+'
+]
+=
+=
+'
+try_task_config
+'
+:
         
+morphs
+.
+append
+(
 apply_jsone_templates
 (
 parameters
+[
+'
+try_task_config
+'
+]
 .
 get
 (
 '
-morph_templates
+templates
 '
 )
 )
-    
-]
+)
     
 for
 m
