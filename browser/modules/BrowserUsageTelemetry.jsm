@@ -781,12 +781,6 @@ TOTAL_URI_COUNT_SCALAR_NAME
 1
 )
 ;
-BrowserUsageTelemetry
-.
-_recordTabCount
-(
-)
-;
 if
 (
 this
