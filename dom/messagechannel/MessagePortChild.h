@@ -56,13 +56,7 @@ MessagePortChild
 MessagePortChild
 (
 )
-:
-mPort
-(
-nullptr
-)
-{
-}
+;
 void
 SetPort
 (
