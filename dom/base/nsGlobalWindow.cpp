@@ -19256,6 +19256,9 @@ AsInner
 UpdateWebSocketCount
 (
 -
+(
+int32_t
+)
 mNumOfOpenWebSockets
 )
 ;
@@ -19267,6 +19270,9 @@ AsInner
 UpdateUserMediaCount
 (
 -
+(
+int32_t
+)
 mNumOfActiveUserMedia
 )
 ;
