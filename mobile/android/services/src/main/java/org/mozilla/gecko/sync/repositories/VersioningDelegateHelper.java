@@ -592,6 +592,8 @@ onRecordStoreReconciled
 (
 String
 guid
+String
+oldGuid
 Integer
 newVersion
 )
@@ -624,6 +626,13 @@ record
 }
 localVersionsOfGuids
 .
+remove
+(
+oldGuid
+)
+;
+localVersionsOfGuids
+.
 put
 (
 guid
@@ -635,7 +644,8 @@ inner
 onRecordStoreReconciled
 (
 guid
-null
+oldGuid
+newVersion
 )
 ;
 }

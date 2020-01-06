@@ -679,6 +679,9 @@ onRecordStoreReconciled
 preparedToStore
 .
 guid
+existingRecord
+.
+guid
 null
 )
 ;

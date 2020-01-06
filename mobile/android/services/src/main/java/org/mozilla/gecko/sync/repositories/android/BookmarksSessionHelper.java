@@ -2185,6 +2185,9 @@ onRecordStoreReconciled
 replaced
 .
 guid
+existingRecord
+.
+guid
 replaced
 .
 localVersion

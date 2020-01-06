@@ -4320,6 +4320,8 @@ onRecordStoreReconciled
 (
 String
 guid
+String
+oldGuid
 Integer
 newVersion
 )
