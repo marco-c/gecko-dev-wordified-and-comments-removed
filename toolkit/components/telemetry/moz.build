@@ -311,6 +311,11 @@ Telemetry
 .
 h
 '
+'
+ThreadHangStats
+.
+h
+'
 ]
 SOURCES
 +
@@ -372,6 +377,11 @@ cpp
 '
 '
 TelemetryScalar
+.
+cpp
+'
+'
+ThreadHangStats
 .
 cpp
 '
