@@ -1812,16 +1812,6 @@ NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 nsGlobalWindowOuter
 nsIDOMEventTarget
 )
-#
-ifdef
-DEBUG
-void
-RiskyUnlink
-(
-)
-;
-#
-endif
 virtual
 JSObject
 *
