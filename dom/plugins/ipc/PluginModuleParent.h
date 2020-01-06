@@ -314,16 +314,6 @@ PluginModuleParent
 )
 ;
 bool
-IsInitialized
-(
-)
-const
-{
-return
-mNPInitialized
-;
-}
-bool
 IsChrome
 (
 )
@@ -1646,9 +1636,6 @@ bool
 GetPluginDetails
 (
 )
-;
-bool
-mNPInitialized
 ;
 bool
 mIsNPShutdownPending

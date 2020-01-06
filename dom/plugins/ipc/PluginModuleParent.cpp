@@ -2700,10 +2700,6 @@ mIsFlashPlugin
 (
 false
 )
-mNPInitialized
-(
-false
-)
 mIsNPShutdownPending
 (
 false
@@ -9658,10 +9654,6 @@ SetPluginFuncs
 mNPPIface
 )
 ;
-mNPInitialized
-=
-true
-;
 return
 NS_OK
 ;
@@ -9940,10 +9932,6 @@ return
 NS_OK
 ;
 }
-mNPInitialized
-=
-true
-;
 return
 NS_OK
 ;
