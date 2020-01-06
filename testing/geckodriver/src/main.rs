@@ -239,6 +239,9 @@ Ok
 Usage
 =
 64
+Unavailable
+=
+69
 }
 fn
 app
@@ -1241,7 +1244,7 @@ err
 ExitCode
 :
 :
-Usage
+Unavailable
 err
 .
 to_string
