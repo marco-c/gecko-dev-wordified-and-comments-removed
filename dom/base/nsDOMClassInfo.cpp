@@ -3546,11 +3546,6 @@ ResolvePrototype
 (
 sXPConnect
 win
--
->
-AssertInner
-(
-)
 cx
 global
 mData
