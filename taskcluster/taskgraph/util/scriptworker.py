@@ -734,6 +734,10 @@ nightly_macosx
 '
         
 '
+nightly_win
+'
+        
+'
 mozilla_beta_tasks
 '
         
