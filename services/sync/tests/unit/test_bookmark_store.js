@@ -874,8 +874,7 @@ getItemTitle
 (
 id
 )
-"
-"
+null
 )
 ;
 let
@@ -1179,8 +1178,7 @@ getItemTitle
 (
 bmk1_id
 )
-"
-"
+null
 )
 ;
 do_check_eq

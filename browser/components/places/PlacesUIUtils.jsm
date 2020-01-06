@@ -4774,8 +4774,7 @@ BookmarksToolbar
 {
 title
 :
-"
-"
+null
 concreteTitle
 :
 PlacesUtils
@@ -4799,8 +4798,7 @@ BookmarksMenu
 {
 title
 :
-"
-"
+null
 concreteTitle
 :
 PlacesUtils
@@ -4824,8 +4822,7 @@ UnfiledBookmarks
 {
 title
 :
-"
-"
+null
 concreteTitle
 :
 PlacesUtils
