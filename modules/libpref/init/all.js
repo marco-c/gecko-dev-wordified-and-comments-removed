@@ -10830,7 +10830,7 @@ mem
 .
 gc_incremental_slice_ms
 "
-5
+10
 )
 ;
 pref
