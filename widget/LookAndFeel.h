@@ -199,6 +199,7 @@ eIntID_TreeScrollDelay
 eIntID_TreeScrollLinesMax
 eIntID_TabFocusModel
 eIntID_ChosenMenuItemsShouldBlink
+eIntID_WindowsAccentColorApplies
 eIntID_WindowsDefaultTheme
 eIntID_DWMCompositor
 eIntID_WindowsClassic
