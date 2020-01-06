@@ -502,6 +502,16 @@ use
 self
 :
 :
+table
+:
+:
+XSpan
+;
+pub
+use
+self
+:
+:
 text
 :
 :
@@ -657,6 +667,10 @@ rect
 pub
 mod
 svg
+;
+pub
+mod
+table
 ;
 pub
 mod
