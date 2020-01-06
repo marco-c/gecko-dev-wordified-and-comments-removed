@@ -4425,16 +4425,6 @@ aFrame
 static
 nsIFrame
 *
-GetViewportFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
-nsIFrame
-*
 GetReferenceFrame
 (
 nsIFrame
