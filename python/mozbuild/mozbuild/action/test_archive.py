@@ -2164,7 +2164,9 @@ base
 '
 third_party
 /
-speedometer
+webkit
+/
+PerformanceTests
 '
             
 '
@@ -2187,7 +2189,9 @@ talos
 /
 tests
 /
-speedometer
+webkit
+/
+PerformanceTests
 /
 '
         
