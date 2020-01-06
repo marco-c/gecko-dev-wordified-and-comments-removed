@@ -35,15 +35,11 @@ annotation
 WorkerThread
 ;
 import
-org
+android
 .
-mozilla
+text
 .
-gecko
-.
-util
-.
-StringUtils
+TextUtils
 ;
 import
 java
@@ -207,7 +203,7 @@ i
 String
 ancestorName
 =
-StringUtils
+TextUtils
 .
 join
 (
