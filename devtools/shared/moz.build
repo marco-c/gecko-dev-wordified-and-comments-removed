@@ -412,6 +412,11 @@ ThreadSafeDevToolsUtils
 js
 '
 '
+throttle
+.
+js
+'
+'
 wasm
 -
 source
