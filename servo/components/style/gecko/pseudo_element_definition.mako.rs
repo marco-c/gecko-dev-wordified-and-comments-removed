@@ -48,6 +48,12 @@ Before
 "
 After
 "
+"
+FirstLine
+"
+"
+FirstLetter
+"
 ]
 %
 >
