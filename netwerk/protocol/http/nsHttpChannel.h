@@ -2591,10 +2591,15 @@ MaybeRaceCacheWithNetwork
 )
 ;
 nsresult
+TriggerNetworkWithDelay
+(
+uint32_t
+aDelay
+)
+;
+nsresult
 TriggerNetwork
 (
-int32_t
-aTimeout
 )
 ;
 void
