@@ -944,7 +944,7 @@ mResource
 ;
 mResource
 =
-MediaResource
+BaseMediaResource
 :
 :
 Create
@@ -1034,7 +1034,7 @@ ChannelMediaDecoder
 :
 Load
 (
-MediaResource
+BaseMediaResource
 *
 aOriginal
 )

@@ -2855,7 +2855,7 @@ IsAvailableForSharing
 }
 already_AddRefed
 <
-MediaResource
+BaseMediaResource
 >
 ChannelMediaResource
 :
@@ -5863,9 +5863,9 @@ offset
 }
 already_AddRefed
 <
-MediaResource
+BaseMediaResource
 >
-MediaResource
+BaseMediaResource
 :
 :
 Create
@@ -5957,7 +5957,7 @@ nullptr
 }
 RefPtr
 <
-MediaResource
+BaseMediaResource
 >
 resource
 ;
