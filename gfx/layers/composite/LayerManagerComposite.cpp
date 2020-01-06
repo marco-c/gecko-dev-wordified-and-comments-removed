@@ -4543,6 +4543,9 @@ Diagnostics
 :
 Record
 record
+(
+mRenderStartTime
+)
 ;
 RootLayer
 (
