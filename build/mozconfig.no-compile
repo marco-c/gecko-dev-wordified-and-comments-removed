@@ -17,6 +17,8 @@ already
 included
 unset
 CCACHE
+unset
+SCCACHE_VERBOSE_STATS
 #
 In
 case
