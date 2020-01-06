@@ -97,11 +97,14 @@ IS_HTTP
 =
 /
 ^
-https
+(
 ?
 :
+http
 |
-wss
+ws
+)
+s
 ?
 :
 /
