@@ -414,6 +414,8 @@ parent
 async
 DocumentChannelCleanup
 (
+bool
+clearCacheEntry
 )
 ;
 /

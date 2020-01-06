@@ -5788,6 +5788,10 @@ HttpChannelParent
 :
 RecvDocumentChannelCleanup
 (
+const
+bool
+&
+clearCacheEntry
 )
 {
 CleanupBackgroundChannel
@@ -5798,10 +5802,16 @@ mChannel
 =
 nullptr
 ;
+if
+(
+clearCacheEntry
+)
+{
 mCacheEntry
 =
 nullptr
 ;
+}
 return
 IPC_OK
 (
