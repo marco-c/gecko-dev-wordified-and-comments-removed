@@ -2163,6 +2163,16 @@ pref
 "
 extensions
 .
+webextOptionalPermissionPrompts
+"
+true
+)
+;
+pref
+(
+"
+extensions
+.
 webextensions
 .
 base
