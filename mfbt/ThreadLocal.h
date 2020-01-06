@@ -111,8 +111,17 @@ Type
 }
 ;
 #
-ifdef
+if
+defined
+(
 XP_WIN
+)
+#
+if
+defined
+(
+TLS_OUT_OF_INDEXES
+)
 template
 <
 typename
@@ -250,6 +259,8 @@ mKey
 ;
 }
 ;
+#
+endif
 #
 else
 template
