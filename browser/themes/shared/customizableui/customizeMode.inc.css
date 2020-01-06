@@ -1700,7 +1700,6 @@ outline
 :
 1px
 solid
-GrayText
 ;
 outline
 -
@@ -1708,6 +1707,11 @@ offset
 :
 -
 8px
+;
+opacity
+:
+.
+6
 ;
 height
 :
@@ -1727,7 +1731,6 @@ outline
 :
 1px
 solid
-GrayText
 ;
 outline
 -
@@ -1735,6 +1738,11 @@ offset
 :
 -
 2px
+;
+opacity
+:
+.
+6
 ;
 margin
 -
