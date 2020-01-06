@@ -1322,6 +1322,11 @@ WebRequestUpload
 jsm
 '
 '
+AppMenuNotifications
+.
+jsm
+'
+'
 AsyncPrefs
 .
 jsm
