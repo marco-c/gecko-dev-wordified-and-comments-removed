@@ -3326,7 +3326,7 @@ bounds
 ;
 builder
 .
-push_text_shadow
+push_shadow
 (
 &
 prim_info
@@ -3344,7 +3344,7 @@ local_clip
 webrender_api
 :
 :
-TextShadow
+Shadow
 {
 blur_radius
 :
@@ -3385,7 +3385,7 @@ _
 {
 builder
 .
-pop_text_shadow
+pop_shadow
 (
 )
 ;
