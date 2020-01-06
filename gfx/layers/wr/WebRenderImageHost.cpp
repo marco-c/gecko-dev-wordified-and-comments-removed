@@ -940,6 +940,10 @@ mWrBridge
 &
 &
 !
+mAsyncRef
+&
+&
+!
 !
 mCurrentTextureHost
 &
