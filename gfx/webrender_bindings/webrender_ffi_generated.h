@@ -1247,7 +1247,7 @@ bottom_right
 }
 ;
 struct
-WrComplexClipRegion
+ComplexClipRegion
 {
 LayoutRect
 rect
@@ -1261,7 +1261,7 @@ operator
 =
 (
 const
-WrComplexClipRegion
+ComplexClipRegion
 &
 aOther
 )
@@ -2906,7 +2906,7 @@ aState
 LayoutRect
 aClipRect
 const
-WrComplexClipRegion
+ComplexClipRegion
 *
 aComplex
 size_t

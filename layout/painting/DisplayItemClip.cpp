@@ -2658,7 +2658,7 @@ void
 DisplayItemClip
 :
 :
-ToWrComplexClipRegions
+ToComplexClipRegions
 (
 int32_t
 aAppUnitsPerDevPixel
@@ -2674,7 +2674,7 @@ nsTArray
 wr
 :
 :
-WrComplexClipRegion
+ComplexClipRegion
 >
 &
 aOutArray
@@ -2704,7 +2704,7 @@ i
 wr
 :
 :
-WrComplexClipRegion
+ComplexClipRegion
 *
 region
 =

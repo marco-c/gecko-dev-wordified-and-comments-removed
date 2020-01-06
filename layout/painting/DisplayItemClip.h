@@ -67,7 +67,7 @@ namespace
 wr
 {
 struct
-WrComplexClipRegion
+ComplexClipRegion
 ;
 }
 }
@@ -651,7 +651,7 @@ aCount
 const
 ;
 void
-ToWrComplexClipRegions
+ToComplexClipRegions
 (
 int32_t
 aAppUnitsPerDevPixel
@@ -667,7 +667,7 @@ nsTArray
 wr
 :
 :
-WrComplexClipRegion
+ComplexClipRegion
 >
 &
 aOutArray
