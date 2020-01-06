@@ -292,6 +292,7 @@ sCurrentGLContextTLS
 endif
 MOZ_THREAD_LOCAL
 (
+const
 GLContext
 *
 )
@@ -16966,11 +16967,15 @@ MakeCurrent
 bool
 aForce
 )
+const
 {
 if
 (
+MOZ_UNLIKELY
+(
 IsDestroyed
 (
+)
 )
 )
 return
@@ -16982,6 +16987,10 @@ MOZ_GL_DEBUG
 PR_SetThreadPrivate
 (
 sCurrentGLContextTLS
+(
+void
+*
+)
 this
 )
 ;

@@ -1580,6 +1580,7 @@ MakeCurrentImpl
 bool
 aForce
 )
+const
 {
 BOOL
 succeeded
@@ -1641,6 +1642,7 @@ GLContextWGL
 IsCurrent
 (
 )
+const
 {
 return
 sWGLLib
