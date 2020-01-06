@@ -880,21 +880,12 @@ html
 28
 ]
 *
-test_compute_data_with_start_struct
-.
-html
-grid
--
-[
-4
-]
-*
 test_inherit_computation
 .
 html
 grid
 [
-8
+4
 ]
 *
 test_inherit_storage
@@ -903,7 +894,7 @@ html
 '
 grid
 [
-15
+13
 ]
 *
 .
@@ -912,7 +903,7 @@ grid
 "
 grid
 [
-4
+2
 ]
 *
 test_initial_computation
@@ -920,7 +911,7 @@ test_initial_computation
 html
 grid
 [
-16
+8
 ]
 *
 test_initial_storage
@@ -928,7 +919,7 @@ test_initial_storage
 html
 grid
 [
-38
+30
 ]
 *
 test_property_syntax_errors
@@ -943,7 +934,7 @@ issues
 with
 this
 [
-548
+28
 ]
 *
 test_value_storage
@@ -952,7 +943,7 @@ html
 '
 grid
 [
-637
+577
 ]
 *
 test_exposed_prop_accessors
@@ -960,7 +951,7 @@ test_exposed_prop_accessors
 html
 grid
 [
-4
+2
 ]
 *
 Unimplemented
