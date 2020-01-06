@@ -1768,6 +1768,8 @@ requestedModules
 [
 i
 ]
+.
+moduleSpecifier
 ;
 let
 requiredModule
@@ -2898,6 +2900,8 @@ requestedModules
 [
 i
 ]
+.
+moduleSpecifier
 ;
 let
 requiredModule

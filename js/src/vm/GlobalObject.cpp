@@ -4278,5 +4278,14 @@ global
 EXPORT_ENTRY_PROTO
 initExportEntryProto
 )
+&
+&
+getOrCreateObject
+(
+cx
+global
+REQUESTED_MODULE_PROTO
+initRequestedModuleProto
+)
 ;
 }

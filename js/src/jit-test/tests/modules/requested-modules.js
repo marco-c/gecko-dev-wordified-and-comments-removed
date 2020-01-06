@@ -54,6 +54,8 @@ actual
 [
 i
 ]
+.
+moduleSpecifier
 expected
 [
 i
