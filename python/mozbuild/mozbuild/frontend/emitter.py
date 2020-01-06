@@ -3007,12 +3007,6 @@ rpath
 False
                         
 '
-lto
-'
-:
-True
-                        
-'
 debug
 -
 assertions

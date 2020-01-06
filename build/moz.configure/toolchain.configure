@@ -9491,6 +9491,13 @@ DEVELOPER_OPTIONS
 '
 developer_options
 )
+set_config
+(
+'
+DEVELOPER_OPTIONS
+'
+developer_options
+)
 #
 Linker
 detection

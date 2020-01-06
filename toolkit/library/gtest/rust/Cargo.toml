@@ -327,9 +327,6 @@ level
 rpath
 =
 false
-lto
-=
-true
 debug
 -
 assertions
