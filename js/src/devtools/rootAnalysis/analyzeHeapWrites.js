@@ -81,6 +81,9 @@ memchr
 strlen
 "
 /
+Servo_DeclarationBlock_GetCssText
+/
+/
 ^
 __atomic_fetch_
 /
