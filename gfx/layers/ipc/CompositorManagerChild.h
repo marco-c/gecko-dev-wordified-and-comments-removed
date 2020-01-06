@@ -121,6 +121,12 @@ Shutdown
 )
 ;
 static
+void
+OnGPUProcessLost
+(
+)
+;
+static
 bool
 CreateContentCompositorBridge
 (
