@@ -251,6 +251,9 @@ length
 }
 collectFormFields
 (
+allowDuplicates
+=
+false
 )
 {
 this
@@ -283,6 +286,7 @@ getFormInfo
 this
 .
 form
+allowDuplicates
 )
 ;
 this
