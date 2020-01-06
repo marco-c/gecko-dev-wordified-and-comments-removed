@@ -655,6 +655,14 @@ true
 ;
 }
 virtual
+void
+SetPushComplete
+(
+)
+{
+}
+;
+virtual
 ~
 Http2Stream
 (
