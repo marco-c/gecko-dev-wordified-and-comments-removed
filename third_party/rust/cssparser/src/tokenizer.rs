@@ -4999,12 +4999,14 @@ PercentageValue
 {
 unit_value
 :
+(
 value
-as
-f32
 /
 100
 .
+)
+as
+f32
 int_value
 :
 int_value
