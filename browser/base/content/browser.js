@@ -4480,9 +4480,13 @@ browser
 /
 skin
 /
-Info
+notification
+-
+icons
+/
+popup
 .
-png
+svg
 "
 priority
 buttons

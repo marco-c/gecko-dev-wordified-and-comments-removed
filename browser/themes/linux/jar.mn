@@ -185,15 +185,6 @@ classic
 /
 browser
 /
-Info
-.
-png
-skin
-/
-classic
-/
-browser
-/
 menuPanel
 -
 customize
@@ -572,7 +563,6 @@ newTab
 .
 css
 )
-*
 skin
 /
 classic
@@ -625,7 +615,6 @@ detailed
 .
 svg
 )
-*
 skin
 /
 classic

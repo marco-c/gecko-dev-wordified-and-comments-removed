@@ -773,10 +773,6 @@ drm
 icon
 .
 svg
-#
-chains
--
-black
 "
 ;
 let
