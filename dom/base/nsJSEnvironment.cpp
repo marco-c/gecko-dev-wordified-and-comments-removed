@@ -879,7 +879,7 @@ static
 int32_t
 sActiveIntersliceGCBudget
 =
-0
+5
 ;
 static
 nsScriptNameSpaceManager
