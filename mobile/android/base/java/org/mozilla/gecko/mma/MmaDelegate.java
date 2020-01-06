@@ -219,6 +219,16 @@ LAUNCH_BUT_NOT_DEFAULT_BROWSER
 E_Launch_But_Not_Default_Browser
 "
 ;
+public
+static
+final
+String
+NEW_TAB
+=
+"
+E_Opened_New_Tab
+"
+;
 private
 static
 final
