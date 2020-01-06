@@ -791,6 +791,9 @@ kSyncBackoffNotMet
 kFirstSyncChoiceNotMade
 "
 "
+kFirefoxShuttingDown
+"
+"
 FIREFOX_ID
 "
 "

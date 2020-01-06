@@ -768,6 +768,12 @@ reject
 =
 >
 {
+Async
+.
+checkAppReady
+(
+)
+;
 this
 .
 _deferred

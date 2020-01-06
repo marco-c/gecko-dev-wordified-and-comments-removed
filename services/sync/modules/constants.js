@@ -512,6 +512,16 @@ is
 not
 configured
 "
+kFirefoxShuttingDown
+:
+"
+Firefox
+is
+about
+to
+shut
+down
+"
 DEVICE_TYPE_DESKTOP
 :
 "
