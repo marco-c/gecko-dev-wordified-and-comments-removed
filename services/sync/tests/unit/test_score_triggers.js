@@ -488,8 +488,6 @@ score
 updated
 "
 onScoreUpdated
-(
-)
 )
 ;
 try
