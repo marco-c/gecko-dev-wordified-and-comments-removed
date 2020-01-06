@@ -35,6 +35,14 @@ optimize
 -
 O1
 "
+.
+topsrcdir
+/
+build
+/
+mozconfig
+.
+stylo
 #
 ASan
 specific
