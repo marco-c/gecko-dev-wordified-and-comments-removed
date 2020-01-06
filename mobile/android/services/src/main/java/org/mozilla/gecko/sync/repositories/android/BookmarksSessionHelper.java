@@ -1394,7 +1394,7 @@ now
 ;
 toProcess
 .
-insertFromSyncAsModified
+modifiedBySync
 =
 true
 ;
@@ -1443,7 +1443,7 @@ now
 ;
 toProcess
 .
-insertFromSyncAsModified
+modifiedBySync
 =
 true
 ;
@@ -2118,6 +2118,12 @@ ParentNotFoundException
 boolean
 shouldIncrementLocalVersion
 =
+toStore
+.
+modifiedBySync
+|
+|
+(
 existingRecord
 .
 localVersion
@@ -2125,6 +2131,7 @@ localVersion
 existingRecord
 .
 syncVersion
+)
 ;
 Record
 replaced
@@ -2413,6 +2420,12 @@ dateAdded
 releaseOfNCSAMosaicMillis
 )
 {
+reconciled
+.
+modifiedBySync
+=
+true
+;
 lowest
 =
 local
@@ -2444,6 +2457,12 @@ dateAdded
 releaseOfNCSAMosaicMillis
 )
 {
+reconciled
+.
+modifiedBySync
+=
+true
+;
 lowest
 =
 remote

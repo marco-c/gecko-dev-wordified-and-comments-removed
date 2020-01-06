@@ -95,7 +95,7 @@ syncVersion
 ;
 public
 boolean
-insertFromSyncAsModified
+modifiedBySync
 =
 false
 ;
