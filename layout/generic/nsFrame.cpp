@@ -51130,7 +51130,12 @@ mState
 aSizes
 .
 mStyleSizes
-false
+&
+aSizes
+.
+mStyleSizes
+.
+mComputedValuesNonDom
 )
 ;
 }

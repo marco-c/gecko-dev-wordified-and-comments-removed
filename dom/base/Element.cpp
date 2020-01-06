@@ -19268,7 +19268,10 @@ AddSizeOfIncludingThis
 (
 aState
 aSizes
-true
+&
+aSizes
+.
+mComputedValuesDom
 )
 ;
 }
@@ -19334,7 +19337,10 @@ AddSizeOfIncludingThis
 (
 aState
 aSizes
-true
+&
+aSizes
+.
+mComputedValuesDom
 )
 ;
 }
