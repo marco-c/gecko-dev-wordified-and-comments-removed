@@ -118,7 +118,11 @@ error
 property
 "
 ]
+"
 indent
+-
+legacy
+"
 :
 [
 "

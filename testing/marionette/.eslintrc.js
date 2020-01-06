@@ -38,6 +38,8 @@ multiline
 ]
 "
 indent
+-
+legacy
 "
 :
 [

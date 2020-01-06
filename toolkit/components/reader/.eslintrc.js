@@ -15,6 +15,8 @@ rules
 {
 "
 indent
+-
+legacy
 "
 :
 [
