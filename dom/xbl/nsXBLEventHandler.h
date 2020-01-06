@@ -46,13 +46,9 @@ nsXBLPrototypeHandler
 namespace
 mozilla
 {
-namespace
-dom
-{
 struct
 IgnoreModifierState
 ;
-}
 }
 class
 nsXBLEventHandler
@@ -148,9 +144,6 @@ nsIDOMEventListener
 {
 typedef
 mozilla
-:
-:
-dom
 :
 :
 IgnoreModifierState
