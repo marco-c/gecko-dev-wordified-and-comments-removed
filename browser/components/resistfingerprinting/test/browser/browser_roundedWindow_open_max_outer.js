@@ -46,5 +46,6 @@ targetHeight
 1000
 }
 ]
+true
 )
 ;
