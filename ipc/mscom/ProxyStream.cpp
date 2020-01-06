@@ -1526,6 +1526,12 @@ return
 if
 defined
 (
+ACCESSIBILITY
+)
+&
+&
+defined
+(
 MOZ_CRASHREPORTER
 )
 ActivationContext

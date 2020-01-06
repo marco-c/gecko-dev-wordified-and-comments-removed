@@ -287,15 +287,6 @@ ac_add_options
 -
 disable
 -
-crashreporter
-#
-Bug
-1391685
-ac_add_options
--
--
-disable
--
 maintenance
 -
 service
