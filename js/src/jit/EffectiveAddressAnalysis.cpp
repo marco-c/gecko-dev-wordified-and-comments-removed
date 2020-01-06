@@ -10,6 +10,13 @@ h
 #
 include
 "
+jsnum
+.
+h
+"
+#
+include
+"
 jit
 /
 IonAnalysis

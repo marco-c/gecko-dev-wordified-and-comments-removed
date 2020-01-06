@@ -124,6 +124,12 @@ namespace
 gc
 {
 class
+GCSchedulingState
+;
+class
+GCSchedulingTunables
+;
+class
 ZoneHeapThreshold
 {
 GCLockData

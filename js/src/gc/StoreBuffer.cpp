@@ -21,13 +21,6 @@ h
 #
 include
 "
-jscompartment
-.
-h
-"
-#
-include
-"
 gc
 /
 Statistics

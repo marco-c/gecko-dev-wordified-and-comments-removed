@@ -23,15 +23,6 @@ h
 #
 include
 "
-gc
-/
-Heap
-.
-h
-"
-#
-include
-"
 threading
 /
 ProtectedData
@@ -53,6 +44,9 @@ js
 namespace
 gc
 {
+class
+Arena
+;
 class
 AtomMarkingRuntime
 {
