@@ -1350,6 +1350,9 @@ Context
 zoom_fn
 :
 F
+base_size
+:
+FontBaseSize
 )
 -
 >
@@ -1540,10 +1543,7 @@ val
 to_computed_value
 (
 context
-FontBaseSize
-:
-:
-CurrentStyle
+base_size
 )
 ;
 }
@@ -1575,6 +1575,9 @@ context
 :
 &
 Context
+base_size
+:
+FontBaseSize
 )
 -
 >
@@ -1600,6 +1603,7 @@ into
 )
 .
 0
+base_size
 )
 }
 }
@@ -1639,6 +1643,10 @@ context
 abs
 |
 abs
+FontBaseSize
+:
+:
+CurrentStyle
 )
 }
 #

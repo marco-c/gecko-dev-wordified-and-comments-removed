@@ -6544,6 +6544,7 @@ calc
 to_computed_value_zoomed
 (
 context
+base_size
 )
 ;
 calc

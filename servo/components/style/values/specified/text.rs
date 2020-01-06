@@ -891,6 +891,10 @@ calc
 to_computed_value_zoomed
 (
 context
+FontBaseSize
+:
+:
+CurrentStyle
 )
 ;
 let
