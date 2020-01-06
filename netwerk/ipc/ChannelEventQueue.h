@@ -918,6 +918,13 @@ mEventQueue
 (
 queue
 )
+mOwner
+(
+queue
+-
+>
+mOwner
+)
 {
 mEventQueue
 -
@@ -947,6 +954,12 @@ RefPtr
 ChannelEventQueue
 >
 mEventQueue
+;
+nsCOMPtr
+<
+nsISupports
+>
+mOwner
 ;
 }
 ;
