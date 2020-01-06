@@ -282,13 +282,6 @@ WebRenderBridgeChild
 :
 BeginTransaction
 (
-const
-gfx
-:
-:
-IntSize
-&
-aSize
 )
 {
 MOZ_ASSERT
