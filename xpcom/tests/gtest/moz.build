@@ -285,6 +285,11 @@ TestTextFormatter
 cpp
 '
 '
+TestThreadManager
+.
+cpp
+'
+'
 TestThreadPool
 .
 cpp
