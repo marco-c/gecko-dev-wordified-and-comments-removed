@@ -7024,6 +7024,9 @@ LSignExtendInt64
 lir
 )
 {
+#
+ifdef
+DEBUG
 Register64
 input
 =
@@ -7086,6 +7089,8 @@ high
 edx
 )
 ;
+#
+endif
 switch
 (
 lir
