@@ -901,13 +901,19 @@ ResourceStreamIterator
 {
 public
 :
-explicit
 ResourceStreamIterator
 (
+MediaCache
+*
+aMediaCache
 int64_t
 aResourceID
 )
 :
+mMediaCache
+(
+aMediaCache
+)
 mResourceID
 (
 aResourceID
@@ -928,7 +934,7 @@ while
 (
 mNext
 <
-gMediaCache
+mMediaCache
 -
 >
 mStreams
@@ -942,7 +948,7 @@ MediaCacheStream
 *
 stream
 =
-gMediaCache
+mMediaCache
 -
 >
 mStreams
@@ -985,6 +991,10 @@ nullptr
 }
 private
 :
+MediaCache
+*
+mMediaCache
+;
 int64_t
 mResourceID
 ;
@@ -6568,6 +6578,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
+this
 mSuspendedStatusToNotify
 [
 i
@@ -7152,6 +7163,7 @@ BLOCK_SIZE
 ResourceStreamIterator
 iter
 (
+this
 aStream
 -
 >
@@ -7337,6 +7349,7 @@ BLOCK_SIZE
 ResourceStreamIterator
 iter
 (
+this
 aStream
 -
 >
@@ -8605,6 +8618,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
+gMediaCache
 mResourceID
 )
 ;
@@ -8853,6 +8867,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
+gMediaCache
 mResourceID
 )
 ;
@@ -9218,6 +9233,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
+gMediaCache
 mResourceID
 )
 ;
@@ -9572,6 +9588,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
+gMediaCache
 mResourceID
 )
 ;
@@ -10837,6 +10854,7 @@ MediaCache
 ResourceStreamIterator
 iter
 (
+gMediaCache
 mResourceID
 )
 ;
