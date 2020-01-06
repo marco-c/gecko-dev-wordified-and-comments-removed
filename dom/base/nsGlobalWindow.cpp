@@ -1971,13 +1971,6 @@ gDragServiceDisabled
 false
 ;
 static
-FILE
-*
-gDumpFile
-=
-nullptr
-;
-static
 uint32_t
 gSerialCounter
 =
