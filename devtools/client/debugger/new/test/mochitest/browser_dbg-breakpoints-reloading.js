@@ -125,7 +125,7 @@ function
 {
 requestLongerTimeout
 (
-2
+3
 )
 ;
 const
