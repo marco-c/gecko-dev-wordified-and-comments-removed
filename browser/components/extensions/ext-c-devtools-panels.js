@@ -403,7 +403,7 @@ return
 onShown
 :
 new
-SingletonEventManager
+EventManager
 (
 this
 .
@@ -473,7 +473,7 @@ api
 onHidden
 :
 new
-SingletonEventManager
+EventManager
 (
 this
 .
@@ -723,7 +723,7 @@ themeName
 onThemeChanged
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

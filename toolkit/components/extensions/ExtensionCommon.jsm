@@ -5314,7 +5314,7 @@ locale
 )
 ;
 function
-SingletonEventManager
+EventManager
 (
 context
 name
@@ -5349,7 +5349,7 @@ Map
 )
 ;
 }
-SingletonEventManager
+EventManager
 .
 prototype
 =
@@ -6108,12 +6108,12 @@ ExtensionCommon
 {
 BaseContext
 CanOfAPIs
+EventManager
 LocalAPIImplementation
 LocaleData
 NoCloneSpreadArgs
 SchemaAPIInterface
 SchemaAPIManager
-SingletonEventManager
 SpreadArgs
 ignoreEvent
 stylesheetMap

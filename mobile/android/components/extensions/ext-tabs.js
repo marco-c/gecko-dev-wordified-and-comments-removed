@@ -588,7 +588,7 @@ api
 onCreated
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -728,7 +728,7 @@ api
 onAttached
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -757,7 +757,7 @@ api
 onDetached
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -786,7 +786,7 @@ api
 onRemoved
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -872,7 +872,7 @@ api
 onReplaced
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -901,7 +901,7 @@ api
 onMoved
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -930,7 +930,7 @@ api
 onUpdated
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

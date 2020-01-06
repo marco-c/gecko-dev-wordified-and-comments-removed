@@ -190,7 +190,7 @@ url
 onProxyError
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

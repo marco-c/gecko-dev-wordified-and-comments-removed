@@ -1373,7 +1373,7 @@ enabled
 onDisabled
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -1449,7 +1449,7 @@ api
 onEnabled
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -1525,7 +1525,7 @@ api
 onInstalled
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -1601,7 +1601,7 @@ api
 onUninstalled
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "

@@ -673,7 +673,7 @@ GlobalEventManager
 =
 class
 extends
-SingletonEventManager
+EventManager
 {
 constructor
 (
@@ -751,7 +751,7 @@ WindowEventManager
 =
 class
 extends
-SingletonEventManager
+EventManager
 {
 constructor
 (

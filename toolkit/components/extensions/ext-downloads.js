@@ -4511,7 +4511,7 @@ message
 onChanged
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -4713,7 +4713,7 @@ api
 onCreated
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
@@ -4816,7 +4816,7 @@ api
 onErased
 :
 new
-SingletonEventManager
+EventManager
 (
 context
 "
