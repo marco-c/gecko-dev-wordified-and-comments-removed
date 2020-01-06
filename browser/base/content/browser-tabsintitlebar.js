@@ -745,11 +745,7 @@ fullTabsHeight
 =
 rect
 (
-(
-"
-TabsToolbar
-"
-)
+tabsToolbar
 )
 .
 height
