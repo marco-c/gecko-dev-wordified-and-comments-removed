@@ -1548,7 +1548,7 @@ NotifyDataArrivedInternal
 )
 ;
 void
-NotifyDownloadProgressed
+DownloadProgressed
 (
 )
 ;
