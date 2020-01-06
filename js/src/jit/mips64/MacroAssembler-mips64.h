@@ -133,14 +133,12 @@ mask
 }
 ;
 static
-const
+constexpr
 ValueOperand
 JSReturnOperand
-=
-ValueOperand
-(
+{
 JSReturnReg
-)
+}
 ;
 static
 const

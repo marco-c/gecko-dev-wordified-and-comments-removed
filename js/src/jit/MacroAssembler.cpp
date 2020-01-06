@@ -15562,7 +15562,7 @@ code
 ABINonArgReg0
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 ABINonArgReg0
 !
