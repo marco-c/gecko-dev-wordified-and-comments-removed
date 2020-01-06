@@ -523,9 +523,6 @@ const
 char
 *
 aKey
-AbstractThread
-*
-aMainThread
 )
 {
 if
@@ -556,7 +553,6 @@ LogToDeveloperConsole
 [
 aWindowID
 aKey
-aMainThread
 ]
 (
 )
@@ -565,16 +561,12 @@ LogToDeveloperConsole
 (
 aWindowID
 aKey
-aMainThread
 )
 ;
 }
 )
 ;
-aMainThread
--
->
-Dispatch
+NS_DispatchToMainThread
 (
 task
 .

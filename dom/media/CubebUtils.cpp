@@ -2133,15 +2133,7 @@ PREF_CUBEB_LOG_LEVEL
 #
 ifndef
 MOZ_WIDGET_ANDROID
-AbstractThread
-:
-:
-MainThread
-(
-)
--
->
-Dispatch
+NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
