@@ -14,15 +14,11 @@ mozilla
 com
 >
 RUN
-mkdir
-/
-builds
-RUN
 useradd
 -
 d
 /
-builds
+home
 /
 worker
 -
@@ -36,9 +32,13 @@ m
 worker
 WORKDIR
 /
-builds
+home
 /
 worker
+RUN
+mkdir
+/
+build
 #
 %
 include
@@ -288,7 +288,7 @@ run
 -
 task
 /
-builds
+home
 /
 worker
 /
@@ -305,7 +305,7 @@ worker
 :
 worker
 /
-builds
+home
 /
 worker
 /
@@ -315,7 +315,7 @@ bin
 chmod
 755
 /
-builds
+home
 /
 worker
 /
@@ -345,7 +345,7 @@ manual
 ENV
 HOME
 /
-builds
+home
 /
 worker
 ENV

@@ -21,7 +21,7 @@ id
 )
 .
 /
-builds
+home
 /
 worker
 /
@@ -81,7 +81,7 @@ TOOLTOOL_CACHE
 :
 =
 /
-builds
+home
 /
 worker
 /
@@ -96,7 +96,7 @@ WORKSPACE
 :
 =
 /
-builds
+home
 /
 worker
 /
@@ -448,7 +448,7 @@ done
 fi
 cd
 /
-builds
+home
 /
 worker
 python2

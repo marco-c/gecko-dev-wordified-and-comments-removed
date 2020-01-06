@@ -159,7 +159,7 @@ UPLOAD_PATH
 :
 '
 /
-builds
+home
 /
 worker
 /

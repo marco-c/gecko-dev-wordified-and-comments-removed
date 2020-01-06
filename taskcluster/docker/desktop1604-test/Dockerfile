@@ -16,15 +16,11 @@ gmail
 com
 >
 RUN
-mkdir
-/
-builds
-RUN
 useradd
 -
 d
 /
-builds
+home
 /
 worker
 -
@@ -38,7 +34,7 @@ m
 worker
 WORKDIR
 /
-builds
+home
 /
 worker
 #
@@ -352,7 +348,7 @@ xvfb
 .
 sh
 /
-builds
+home
 /
 worker
 /
@@ -386,7 +382,7 @@ run
 -
 task
 /
-builds
+home
 /
 worker
 /
@@ -424,7 +420,7 @@ linux
 .
 sh
 /
-builds
+home
 /
 worker
 /
@@ -470,14 +466,14 @@ bug
 .
 VOLUME
 /
-builds
+home
 /
 worker
 /
 checkouts
 VOLUME
 /
-builds
+home
 /
 worker
 /
@@ -505,7 +501,7 @@ manual
 ENV
 HOME
 /
-builds
+home
 /
 worker
 ENV
@@ -551,7 +547,7 @@ files
 /
 config
 /
-builds
+home
 /
 worker
 /
@@ -564,7 +560,7 @@ files
 /
 pulse
 /
-builds
+home
 /
 worker
 /
@@ -591,7 +587,7 @@ buildprops
 .
 json
 /
-builds
+home
 /
 worker
 /
@@ -639,7 +635,7 @@ master
 /
 buildbot_step
 /
-builds
+home
 /
 worker
 /
@@ -652,7 +648,7 @@ u
 +
 x
 /
-builds
+home
 /
 worker
 /
@@ -747,7 +743,7 @@ PATH
 PATH
 :
 /
-builds
+home
 /
 worker
 /
@@ -998,7 +994,7 @@ fonts
 .
 conf
 /
-builds
+home
 /
 worker
 /
@@ -1058,7 +1054,7 @@ worker
 :
 worker
 /
-builds
+home
 /
 worker
 #

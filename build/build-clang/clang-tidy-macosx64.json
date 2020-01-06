@@ -204,7 +204,7 @@ gcc_dir
 :
 "
 /
-builds
+home
 /
 worker
 /
@@ -222,7 +222,7 @@ cc
 :
 "
 /
-builds
+home
 /
 worker
 /
@@ -244,7 +244,7 @@ cxx
 :
 "
 /
-builds
+home
 /
 worker
 /
@@ -268,7 +268,7 @@ as
 :
 "
 /
-builds
+home
 /
 worker
 /
@@ -290,7 +290,7 @@ ar
 :
 "
 /
-builds
+home
 /
 worker
 /
@@ -318,7 +318,7 @@ ranlib
 :
 "
 /
-builds
+home
 /
 worker
 /
@@ -346,7 +346,7 @@ ld
 :
 "
 /
-builds
+home
 /
 worker
 /
