@@ -4453,7 +4453,7 @@ aBaseDir
 DirPaddingFile
 :
 :
-TMP_FILE
+FILE
 )
 ;
 if
@@ -4479,7 +4479,7 @@ aBaseDir
 DirPaddingFile
 :
 :
-FILE
+TMP_FILE
 )
 ;
 if
