@@ -579,6 +579,12 @@ nsIFrame
 aFrame
 )
 ;
+inline
+void
+UpdateOnlyAnimationStyles
+(
+)
+;
 uint64_t
 GetAnimationGeneration
 (

@@ -116,6 +116,7 @@ TraversalRestyleBehavior
 {
 Normal
 ForReconstruct
+ForAnimationOnly
 }
 ;
 enum

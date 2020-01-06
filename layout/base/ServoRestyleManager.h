@@ -155,6 +155,11 @@ ProcessPendingRestyles
 )
 ;
 void
+UpdateOnlyAnimationStyles
+(
+)
+;
+void
 ContentInserted
 (
 nsINode
@@ -458,6 +463,13 @@ dom
 Element
 *
 aElement
+)
+;
+void
+DoProcessPendingRestyles
+(
+TraversalRestyleBehavior
+aRestyleBehavior
 )
 ;
 struct
