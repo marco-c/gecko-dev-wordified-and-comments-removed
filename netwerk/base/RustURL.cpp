@@ -191,6 +191,7 @@ rusturl_new
 (
 &
 aSpec
+nullptr
 )
 ;
 if

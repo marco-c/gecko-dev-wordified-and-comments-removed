@@ -34,6 +34,10 @@ const
 nsACString
 *
 spec
+const
+rusturl
+*
+base
 )
 ;
 rusturl
