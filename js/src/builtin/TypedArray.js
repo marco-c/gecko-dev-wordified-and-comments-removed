@@ -4018,6 +4018,7 @@ CountingSort
 obj
 len
 false
+TypedArrayCompareInt
 )
 ;
 }
@@ -4036,6 +4037,7 @@ CountingSort
 obj
 len
 true
+TypedArrayCompareInt
 )
 ;
 }
