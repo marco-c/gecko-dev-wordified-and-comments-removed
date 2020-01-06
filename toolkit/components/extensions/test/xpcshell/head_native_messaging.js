@@ -381,7 +381,7 @@ property
 =
 =
 "
-XREUserNativeMessaging
+XREUserNativeManifests
 "
 )
 {
@@ -400,7 +400,7 @@ property
 =
 =
 "
-XRESysNativeMessaging
+XRESysNativeManifests
 "
 )
 {
