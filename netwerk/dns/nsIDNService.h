@@ -292,12 +292,6 @@ mNormalizer
 ;
 #
 endif
-mozilla
-:
-:
-Mutex
-mLock
-;
 nsXPIDLString
 mIDNBlacklist
 ;
