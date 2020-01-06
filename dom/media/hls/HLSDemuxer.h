@@ -217,6 +217,13 @@ bool
 aHasVideo
 )
 ;
+void
+OnError
+(
+int
+aErrorCode
+)
+;
 private
 :
 media
