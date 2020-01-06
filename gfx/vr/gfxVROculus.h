@@ -107,7 +107,7 @@ NumVRControllerAxisType
 class
 VROculusSession
 {
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 VROculusSession
 )
