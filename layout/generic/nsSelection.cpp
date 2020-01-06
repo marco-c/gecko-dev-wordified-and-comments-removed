@@ -13472,7 +13472,7 @@ nsresult
 Selection
 :
 :
-addTableCellRange
+AddTableCellRange
 (
 nsRange
 *
@@ -21115,7 +21115,7 @@ rangeIndex
 nsresult
 result
 =
-addTableCellRange
+AddTableCellRange
 (
 &
 aRange
