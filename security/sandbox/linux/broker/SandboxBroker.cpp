@@ -1220,6 +1220,16 @@ Length
 1
 )
 ;
+if
+(
+!
+path
+.
+IsEmpty
+(
+)
+)
+{
 Policy
 :
 :
@@ -1234,6 +1244,7 @@ get
 AddAlways
 )
 ;
+}
 }
 void
 SandboxBroker
