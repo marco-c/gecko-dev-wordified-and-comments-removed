@@ -7733,7 +7733,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -8683,7 +8683,7 @@ GetTextContainer
 DOMRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 )
@@ -8727,7 +8727,7 @@ DOMPointToOffset
 DOMRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 DOMRange
@@ -10510,7 +10510,7 @@ startNode
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

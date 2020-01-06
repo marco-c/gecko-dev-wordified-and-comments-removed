@@ -2941,7 +2941,7 @@ startNode
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

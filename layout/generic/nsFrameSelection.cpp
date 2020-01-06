@@ -2532,7 +2532,7 @@ startNode
 aDomRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -3490,7 +3490,7 @@ node
 anchorFocusRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -4897,7 +4897,7 @@ rangeStartNode
 mMaintainRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -5327,7 +5327,7 @@ rangenode
 mMaintainRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -8704,7 +8704,7 @@ NS_PRECONDITION
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 "
@@ -8721,7 +8721,7 @@ NS_PRECONDITION
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -
@@ -8739,7 +8739,7 @@ return
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 -
@@ -9828,7 +9828,7 @@ parent
 range
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;
@@ -11290,7 +11290,7 @@ startParent
 aRange
 -
 >
-GetStartParent
+GetStartContainer
 (
 )
 ;

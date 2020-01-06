@@ -255,7 +255,7 @@ mRoot
 }
 nsINode
 *
-GetStartParent
+GetStartContainer
 (
 )
 const
