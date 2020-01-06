@@ -613,6 +613,13 @@ char
 param
 =
 "
+org
+.
+freedesktop
+.
+NetworkManager
+.
+AccessPoint
 "
 ;
 if
