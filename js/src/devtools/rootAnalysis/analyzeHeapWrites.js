@@ -2667,15 +2667,6 @@ N
 nsTAutoStringN
 /
 /
-nsTFixedString
-<
-T
->
-:
-:
-nsTFixedString
-/
-/
 nsCOMArray_base
 :
 :
