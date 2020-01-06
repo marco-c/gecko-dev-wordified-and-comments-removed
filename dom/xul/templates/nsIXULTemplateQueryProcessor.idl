@@ -103,6 +103,15 @@ idl
 interface
 nsIAtom
 ;
+/
+/
+used
+in
+[
+noscript
+]
+methods
+only
 interface
 nsIArray
 ;
@@ -1466,6 +1475,9 @@ query
 object
 *
 /
+[
+noscript
+]
 nsISupports
 compileQuery
 (
@@ -1932,6 +1944,9 @@ to
 assign
 *
 /
+[
+noscript
+]
 void
 addBinding
 (
@@ -2254,6 +2269,9 @@ if
 greater
 *
 /
+[
+noscript
+]
 int32_t
 compareResults
 (

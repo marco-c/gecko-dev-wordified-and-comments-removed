@@ -103,6 +103,15 @@ idl
 interface
 nsIAtom
 ;
+/
+/
+used
+in
+[
+noscript
+]
+methods
+only
 interface
 nsIDOMNode
 ;
@@ -643,6 +652,9 @@ no
 value
 *
 /
+[
+noscript
+]
 AString
 getBindingFor
 (
@@ -733,6 +745,9 @@ no
 value
 *
 /
+[
+noscript
+]
 nsISupports
 getBindingObjectFor
 (

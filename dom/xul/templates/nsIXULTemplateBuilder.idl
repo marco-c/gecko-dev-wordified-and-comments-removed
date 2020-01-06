@@ -103,6 +103,15 @@ idl
 interface
 nsIAtom
 ;
+/
+/
+used
+in
+[
+noscript
+]
+methods
+only
 interface
 nsIContent
 ;
@@ -2272,6 +2281,9 @@ must
 match
 *
 /
+[
+noscript
+]
 boolean
 hasGeneratedContent
 (
