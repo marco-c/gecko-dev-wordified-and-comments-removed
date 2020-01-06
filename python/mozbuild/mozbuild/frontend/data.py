@@ -1831,6 +1831,13 @@ if
 obj
 .
 cxx_link
+and
+not
+isinstance
+(
+obj
+SharedLibrary
+)
 :
             
 self
