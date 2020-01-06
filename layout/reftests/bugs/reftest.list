@@ -22119,6 +22119,14 @@ if
 cocoaWidget
 |
 |
+(
+gtkWidget
+&
+&
+webrender
+)
+|
+|
 winWidget
 )
 =
@@ -24882,6 +24890,12 @@ html
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 579323
