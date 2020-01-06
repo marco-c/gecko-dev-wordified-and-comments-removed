@@ -5638,6 +5638,11 @@ test
 -
 platform
 :
+windows7
+.
+*
+:
+true
 macosx
 .
 *
