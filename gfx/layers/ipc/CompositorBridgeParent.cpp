@@ -6760,6 +6760,7 @@ LayerTransactionParent
 (
 nullptr
 this
+nullptr
 0
 )
 ;
@@ -6792,6 +6793,10 @@ LayerTransactionParent
 (
 mLayerManager
 this
+GetAnimationStorage
+(
+0
+)
 0
 )
 ;
@@ -7397,6 +7402,10 @@ mLayerTree
 SetLayerManager
 (
 mLayerManager
+GetAnimationStorage
+(
+0
+)
 )
 ;
 ScheduleComposition

@@ -103,6 +103,9 @@ class
 CompositableParent
 ;
 class
+CompositorAnimationStorage
+;
+class
 CompositorBridgeParentBase
 ;
 class
@@ -164,6 +167,9 @@ aManager
 CompositorBridgeParentBase
 *
 aBridge
+CompositorAnimationStorage
+*
+aAnimStorage
 uint64_t
 aId
 )
@@ -199,6 +205,9 @@ SetLayerManager
 HostLayerManager
 *
 aLayerManager
+CompositorAnimationStorage
+*
+aAnimStorage
 )
 ;
 uint64_t
@@ -984,6 +993,12 @@ mLayerManager
 CompositorBridgeParentBase
 *
 mCompositorBridge
+;
+RefPtr
+<
+CompositorAnimationStorage
+>
+mAnimStorage
 ;
 RefPtr
 <
