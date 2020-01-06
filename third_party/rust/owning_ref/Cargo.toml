@@ -11,9 +11,9 @@ version
 "
 0
 .
-3
+2
 .
-3
+4
 "
 authors
 =
@@ -120,15 +120,3 @@ field
 owning
 "
 ]
-[
-dependencies
-]
-stable_deref_trait
-=
-"
-1
-.
-0
-.
-0
-"
