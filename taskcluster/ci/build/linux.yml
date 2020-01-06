@@ -2498,9 +2498,6 @@ projects
 :
 [
 '
-stylo
-'
-'
 autoland
 '
 '
@@ -2682,9 +2679,6 @@ on
 projects
 :
 [
-'
-stylo
-'
 '
 autoland
 '
@@ -2874,9 +2868,6 @@ on
 projects
 :
 [
-'
-stylo
-'
 '
 autoland
 '
