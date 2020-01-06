@@ -573,6 +573,15 @@ generatorVal
 ;
 MOZ_MUST_USE
 bool
+IsPromiseForAsync
+(
+JSObject
+*
+promise
+)
+;
+MOZ_MUST_USE
+bool
 AsyncFunctionReturned
 (
 JSContext
