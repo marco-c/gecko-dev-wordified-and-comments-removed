@@ -44,7 +44,6 @@ let
 document
 store
 windowRequire
-connector
 }
 =
 panel
@@ -264,7 +263,6 @@ Actions
 .
 openStatistics
 (
-connector
 true
 )
 )

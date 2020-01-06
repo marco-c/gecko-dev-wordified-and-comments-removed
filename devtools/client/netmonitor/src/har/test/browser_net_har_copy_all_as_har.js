@@ -51,7 +51,6 @@ test
 ;
 let
 {
-connector
 store
 windowRequire
 }
@@ -104,14 +103,6 @@ menu
 "
 )
 ;
-let
-{
-getLongString
-getTabTarget
-}
-=
-connector
-;
 store
 .
 dispatch
@@ -151,8 +142,6 @@ new
 RequestListContextMenu
 (
 {
-getTabTarget
-getLongString
 }
 )
 ;
