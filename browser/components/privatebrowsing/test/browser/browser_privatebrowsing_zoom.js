@@ -38,7 +38,6 @@ gBrowser
 "
 about
 :
-mozilla
 "
 )
 )
@@ -58,7 +57,6 @@ gBrowser
 "
 about
 :
-mozilla
 "
 )
 )

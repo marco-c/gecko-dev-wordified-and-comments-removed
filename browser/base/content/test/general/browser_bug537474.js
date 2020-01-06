@@ -28,7 +28,6 @@ makeURI
 "
 about
 :
-mozilla
 "
 )
 null
@@ -60,7 +59,6 @@ spec
 "
 about
 :
-mozilla
 "
 "
 page

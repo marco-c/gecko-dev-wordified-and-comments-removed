@@ -103,6 +103,16 @@ chrome
 /
 global
 /
+about
+.
+dtd
+"
+        
+"
+chrome
+/
+global
+/
 aboutAbout
 .
 dtd

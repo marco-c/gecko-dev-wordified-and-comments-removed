@@ -2860,7 +2860,6 @@ loadURI
 "
 about
 :
-mozilla
 "
 )
 ;

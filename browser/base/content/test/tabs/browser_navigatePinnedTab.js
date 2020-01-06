@@ -16,7 +16,6 @@ TEST_LINK_INITIAL
 "
 about
 :
-mozilla
 "
 ;
 let
