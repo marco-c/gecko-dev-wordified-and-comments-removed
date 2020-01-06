@@ -969,14 +969,6 @@ aName
 ;
 already_AddRefed
 <
-gfxFontFeatureValueSet
->
-BuildFontFeatureValueSet
-(
-)
-;
-already_AddRefed
-<
 ServoStyleContext
 >
 GetBaseContextForElement

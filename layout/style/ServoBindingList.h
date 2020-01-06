@@ -332,16 +332,6 @@ name
 )
 SERVO_BINDING_FUNC
 (
-Servo_StyleSet_BuildFontFeatureValueSet
-bool
-RawServoStyleSetBorrowed
-set
-gfxFontFeatureValueSet
-*
-list
-)
-SERVO_BINDING_FUNC
-(
 Servo_StyleSet_ResolveForDeclarations
 ServoStyleContextStrong
 RawServoStyleSetBorrowed

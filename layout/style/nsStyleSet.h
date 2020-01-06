@@ -1096,7 +1096,7 @@ already_AddRefed
 <
 gfxFontFeatureValueSet
 >
-BuildFontFeatureValueSet
+GetFontFeatureValuesLookup
 (
 )
 ;
@@ -2199,6 +2199,11 @@ mInReconstruct
 1
 ;
 unsigned
+mInitFontFeatureValuesLookup
+:
+1
+;
+unsigned
 mNeedsRestyleAfterEnsureUniqueInner
 :
 1
@@ -2265,6 +2270,12 @@ RefPtr
 nsDisableTextZoomStyleRule
 >
 mDisableTextZoomStyleRule
+;
+RefPtr
+<
+gfxFontFeatureValueSet
+>
+mFontFeatureValuesLookup
 ;
 mozilla
 :
