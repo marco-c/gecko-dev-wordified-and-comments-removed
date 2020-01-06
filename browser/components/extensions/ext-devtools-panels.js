@@ -333,9 +333,6 @@ add
 -
 on
 .
-invertIconForLightTheme
-:
-false
 visibilityswitch
 :
 devtools
