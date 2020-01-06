@@ -281,16 +281,6 @@ WindowID
 {
 MOZ_ASSERT
 (
-aParent
--
->
-IsInnerWindow
-(
-)
-)
-;
-MOZ_ASSERT
-(
 NS_IsMainThread
 (
 )

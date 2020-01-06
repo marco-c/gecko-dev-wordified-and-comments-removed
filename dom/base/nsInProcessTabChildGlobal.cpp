@@ -960,16 +960,6 @@ GetWindow
 )
 )
 {
-MOZ_ASSERT
-(
-win
--
->
-IsOuterWindow
-(
-)
-)
-;
 win
 -
 >

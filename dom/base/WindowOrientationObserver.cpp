@@ -46,14 +46,6 @@ aGlobalWindow
 MOZ_ASSERT
 (
 aGlobalWindow
-&
-&
-aGlobalWindow
--
->
-IsInnerWindow
-(
-)
 )
 ;
 hal

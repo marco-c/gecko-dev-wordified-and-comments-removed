@@ -15982,16 +15982,6 @@ Cast
 window
 )
 ;
-MOZ_ASSERT
-(
-win
--
->
-IsOuterWindow
-(
-)
-)
-;
 if
 (
 !

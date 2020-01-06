@@ -351,16 +351,6 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
-(
-ownerWindow
--
->
-IsInnerWindow
-(
-)
-)
-;
 RefPtr
 <
 PerformanceObserver

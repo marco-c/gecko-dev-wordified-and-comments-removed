@@ -4778,17 +4778,6 @@ nullptr
 ;
 }
 }
-MOZ_ASSERT_IF
-(
-ownerWindow
-ownerWindow
--
->
-IsInnerWindow
-(
-)
-)
-;
 nsTArray
 <
 nsString

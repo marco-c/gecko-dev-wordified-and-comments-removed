@@ -200,16 +200,6 @@ mWindow
 =
 aWindow
 ;
-MOZ_ASSERT
-(
-mWindow
--
->
-IsOuterWindow
-(
-)
-)
-;
 #
 if
 defined

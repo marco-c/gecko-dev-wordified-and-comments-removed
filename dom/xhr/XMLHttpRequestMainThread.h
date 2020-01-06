@@ -797,16 +797,6 @@ if
 win
 )
 {
-MOZ_ASSERT
-(
-win
--
->
-IsInnerWindow
-(
-)
-)
-;
 if
 (
 win

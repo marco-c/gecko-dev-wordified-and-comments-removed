@@ -251,16 +251,6 @@ mInnerWindow
 aWindow
 )
 {
-MOZ_ASSERT
-(
-mInnerWindow
--
->
-IsInnerWindow
-(
-)
-)
-;
 mDocShell
 =
 do_GetWeakReference

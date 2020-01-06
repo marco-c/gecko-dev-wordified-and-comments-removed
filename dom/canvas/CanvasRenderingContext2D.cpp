@@ -26157,15 +26157,6 @@ ErrorResult
 aError
 )
 {
-MOZ_ASSERT
-(
-aWindow
-.
-IsInnerWindow
-(
-)
-)
-;
 if
 (
 int32_t
