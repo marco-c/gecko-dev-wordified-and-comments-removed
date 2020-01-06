@@ -887,7 +887,8 @@ Err
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 background_color
 :
@@ -1641,7 +1642,8 @@ Err
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 background_position_x
 :

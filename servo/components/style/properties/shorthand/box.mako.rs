@@ -163,7 +163,8 @@ horizontal
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 overflow_x
 :
@@ -193,7 +194,8 @@ vertical
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 overflow_x
 :
@@ -223,7 +225,8 @@ none
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 overflow_x
 :
@@ -278,7 +281,8 @@ input
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 overflow_x
 :
@@ -1043,7 +1047,8 @@ endfor
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 %
 for
@@ -1822,7 +1827,8 @@ endfor
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 %
 for
@@ -2201,7 +2207,8 @@ input
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 scroll_snap_type_x
 :
@@ -2425,7 +2432,8 @@ Longhands
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 transform
 :

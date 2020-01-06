@@ -288,7 +288,8 @@ any
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 outline_color
 :
@@ -617,7 +618,8 @@ map
 longhands
 |
 {
-Longhands
+expanded
+!
 {
 %
 for

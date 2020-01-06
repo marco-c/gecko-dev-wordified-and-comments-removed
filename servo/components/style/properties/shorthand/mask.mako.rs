@@ -889,7 +889,8 @@ Err
 ;
 Ok
 (
-Longhands
+expanded
+!
 {
 %
 for
@@ -1581,7 +1582,8 @@ Err
 }
 Ok
 (
-Longhands
+expanded
+!
 {
 mask_position_x
 :

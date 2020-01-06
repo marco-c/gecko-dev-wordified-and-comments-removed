@@ -227,7 +227,8 @@ is_some
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 text_emphasis_color
 :
@@ -566,7 +567,8 @@ is_some
 {
 Ok
 (
-Longhands
+expanded
+!
 {
 _webkit_text_stroke_color
 :

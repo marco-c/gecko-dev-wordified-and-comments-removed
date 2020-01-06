@@ -15,6 +15,17 @@ PropertyDeclaration
 32
 )
 ;
+size_of_test
+!
+(
+test_size_of_parsed_declaration
+properties
+:
+:
+SourcePropertyDeclaration
+576
+)
+;
 #
 [
 test
