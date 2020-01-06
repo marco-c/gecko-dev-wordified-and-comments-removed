@@ -54,8 +54,8 @@ idct_put
 uint8_t
 *
 dest
-int
-line_size
+ptrdiff_t
+stride
 int16_t
 *
 block
@@ -70,8 +70,8 @@ idct_add
 uint8_t
 *
 dest
-int
-line_size
+ptrdiff_t
+stride
 int16_t
 *
 block
@@ -86,8 +86,8 @@ idct_dc_add
 uint8_t
 *
 dest
-int
-line_size
+ptrdiff_t
+stride
 int16_t
 *
 block
@@ -102,7 +102,7 @@ v_loop_filter
 uint8_t
 *
 src
-int
+ptrdiff_t
 stride
 int
 *
@@ -118,7 +118,7 @@ h_loop_filter
 uint8_t
 *
 src
-int
+ptrdiff_t
 stride
 int
 *

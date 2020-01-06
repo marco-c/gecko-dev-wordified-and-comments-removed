@@ -625,7 +625,6 @@ INT64_MIN
 return
 t1
 ;
-}
 #
 else
 AVInteger
@@ -669,9 +668,9 @@ c
 )
 )
 ;
-}
 #
 endif
+}
 }
 int64_t
 av_rescale

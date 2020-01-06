@@ -30,7 +30,7 @@ cpu
 h
 "
 void
-avpriv_emms_yasm
+avpriv_emms_asm
 (
 void
 )
@@ -105,7 +105,7 @@ HAVE_MMX_EXTERNAL
 #
 define
 emms_c
-avpriv_emms_yasm
+avpriv_emms_asm
 #
 endif
 #

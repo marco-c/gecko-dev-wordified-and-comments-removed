@@ -146,10 +146,10 @@ int
 mb_width
 mb_height
 ;
-int
+ptrdiff_t
 mb_stride
 ;
-int
+ptrdiff_t
 b8_stride
 ;
 volatile

@@ -527,7 +527,7 @@ opt
 uint8_t
 *
 dst
-int
+ptrdiff_t
 stride
 int
 flim
@@ -3530,7 +3530,7 @@ uint8_t
 *
 v
 ]
-int
+ptrdiff_t
 stride
 ;
 int
@@ -6208,7 +6208,7 @@ uint8_t
 *
 v
 ]
-int
+ptrdiff_t
 stride
 ;
 int

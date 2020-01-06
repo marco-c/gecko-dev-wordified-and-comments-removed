@@ -58,7 +58,7 @@ h
 "
 #
 if
-HAVE_YASM
+HAVE_X86ASM
 extern
 const
 int16_t
@@ -911,7 +911,7 @@ bitexact
 {
 #
 if
-HAVE_YASM
+HAVE_X86ASM
 int
 cpu_flags
 =

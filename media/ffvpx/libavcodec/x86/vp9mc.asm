@@ -80,7 +80,8 @@
 ;
 *
 VP9
-MC
+motion
+compensation
 SIMD
 optimizations
 ;
@@ -2602,9 +2603,9 @@ previous
 rows
 or
 just
-;
 more
 generally
+;
 unroll
 this
 to
@@ -2612,7 +2613,6 @@ prevent
 multiple
 loads
 of
-;
 the
 same
 data

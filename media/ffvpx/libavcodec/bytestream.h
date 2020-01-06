@@ -505,7 +505,7 @@ AV_WB8
 )
 #
 if
-HAVE_BIGENDIAN
+AV_HAVE_BIGENDIAN
 #
 define
 bytestream2_get_ne16

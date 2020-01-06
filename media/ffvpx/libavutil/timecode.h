@@ -21,7 +21,7 @@ h
 #
 define
 AV_TIMECODE_STR_SIZE
-16
+23
 enum
 AVTimecodeFlag
 {

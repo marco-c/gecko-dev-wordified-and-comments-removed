@@ -1462,6 +1462,9 @@ int
 pred
 ;
 int
+huffman
+;
+int
 mv_table_index
 ;
 int
@@ -3891,7 +3894,7 @@ avctx
 )
 ;
 void
-ff_mpv_decode_mb
+ff_mpv_reconstruct_mb
 (
 MpegEncContext
 *

@@ -7,6 +7,13 @@ AVCODEC_VP56_H
 #
 include
 "
+avcodec
+.
+h
+"
+#
+include
+"
 get_bits
 .
 h
@@ -185,7 +192,7 @@ int
 offset1
 int
 offset2
-int
+ptrdiff_t
 stride
 VP56mv
 mv
@@ -198,7 +205,7 @@ luma
 )
 ;
 typedef
-void
+int
 (
 *
 VP56ParseCoeff
@@ -661,7 +668,7 @@ frbi
 int
 srbi
 ;
-int
+ptrdiff_t
 stride
 [
 4
@@ -744,6 +751,12 @@ nb_null
 2
 ]
 ;
+int
+have_undamaged_frame
+;
+int
+discard_frame
+;
 }
 ;
 int
@@ -824,7 +837,7 @@ ff_vp56_norm_shift
 256
 ]
 ;
-void
+int
 ff_vp56_init_range_decoder
 (
 VP56RangeCoder

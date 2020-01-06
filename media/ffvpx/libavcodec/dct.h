@@ -23,6 +23,13 @@ AVCODEC_DCT_H
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 stdint
 .
 h
@@ -202,7 +209,7 @@ ff_jref_idct_put
 uint8_t
 *
 dest
-int
+ptrdiff_t
 line_size
 int16_t
 *
@@ -215,7 +222,7 @@ ff_jref_idct_add
 uint8_t
 *
 dest
-int
+ptrdiff_t
 line_size
 int16_t
 *

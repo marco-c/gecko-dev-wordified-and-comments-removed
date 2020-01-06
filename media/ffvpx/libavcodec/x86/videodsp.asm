@@ -989,9 +989,11 @@ mmsize
 cmp
 wq
 -
+(
 mmsize
 /
 2
+)
 ;
 }
 while

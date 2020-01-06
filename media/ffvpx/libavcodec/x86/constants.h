@@ -115,6 +115,11 @@ ff_pw_255
 extern
 const
 ymm_reg
+ff_pw_256
+;
+extern
+const
+ymm_reg
 ff_pw_512
 ;
 extern

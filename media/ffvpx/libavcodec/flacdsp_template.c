@@ -215,6 +215,13 @@ i
 j
 )
 =
+(
+int
+)
+(
+(
+unsigned
+)
 in
 [
 i
@@ -225,6 +232,7 @@ j
 <
 <
 shift
+)
 ;
 }
 static

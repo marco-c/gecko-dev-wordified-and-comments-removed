@@ -422,7 +422,7 @@ text
 -
 ;
 void
-avpriv_emms_yasm
+avpriv_emms_asm
 (
 void
 )
@@ -505,7 +505,7 @@ void
 -
 -
 cvisible
-emms_yasm
+emms_asm
 0
 0
 emms

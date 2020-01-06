@@ -210,7 +210,7 @@ is_var_size
 }
 FLACFrameInfo
 ;
-void
+int
 ff_flac_parse_streaminfo
 (
 AVCodecContext

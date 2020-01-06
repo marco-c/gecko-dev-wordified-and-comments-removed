@@ -83,7 +83,7 @@ h
 "
 #
 if
-HAVE_YASM
+HAVE_X86ASM
 typedef
 void
 emu_edge_vfix_func
@@ -1269,7 +1269,7 @@ bpc
 {
 #
 if
-HAVE_YASM
+HAVE_X86ASM
 int
 cpu_flags
 =

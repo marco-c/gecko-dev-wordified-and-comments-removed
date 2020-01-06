@@ -198,7 +198,7 @@ pix_abs
 me_cmp_func
 median_sad
 [
-2
+6
 ]
 ;
 }

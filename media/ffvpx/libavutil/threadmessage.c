@@ -295,7 +295,7 @@ rmq
 return
 AVERROR
 (
-ret
+ENOMEM
 )
 ;
 }

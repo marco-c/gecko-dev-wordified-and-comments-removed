@@ -7,6 +7,13 @@ AVCODEC_H264CHROMA_H
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 stdint
 .
 h
@@ -24,7 +31,7 @@ dst
 uint8_t
 *
 src
-int
+ptrdiff_t
 srcStride
 int
 h

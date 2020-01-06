@@ -302,6 +302,11 @@ samplefmt
 c
 '
 '
+slicethread
+.
+c
+'
+'
 threadmessage
 .
 c
