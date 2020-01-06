@@ -174,6 +174,10 @@ liteFirewallW
 .
 dll
 \
+nsJSON
+.
+dll
+\
 ServicesHelper
 .
 dll
