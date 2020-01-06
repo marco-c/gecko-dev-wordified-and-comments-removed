@@ -574,6 +574,9 @@ min
 float
 >
 (
+(
+float
+)
 nscoord_MAX
 product
 )
@@ -590,6 +593,9 @@ max
 float
 >
 (
+(
+float
+)
 nscoord_MIN
 product
 )
