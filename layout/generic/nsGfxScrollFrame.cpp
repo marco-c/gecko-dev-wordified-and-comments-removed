@@ -22848,10 +22848,12 @@ aState
 scrollbarRight
 )
 )
+{
 needsLayout
 =
 true
 ;
+}
 }
 }
 if
@@ -22935,10 +22937,12 @@ aState
 scrollbarBottom
 )
 )
+{
 needsLayout
 =
 true
 ;
+}
 }
 }
 else
