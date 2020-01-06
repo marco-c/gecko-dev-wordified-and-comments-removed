@@ -133,7 +133,7 @@ nsISupports
 {
 readonly
 attribute
-nsIArray
+AString
 supportedMethods
 ;
 readonly
@@ -237,7 +237,7 @@ nsISupports
 {
 readonly
 attribute
-nsIArray
+AString
 supportedMethods
 ;
 readonly

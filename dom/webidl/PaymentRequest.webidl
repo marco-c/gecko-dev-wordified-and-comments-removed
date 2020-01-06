@@ -125,10 +125,7 @@ dictionary
 PaymentMethodData
 {
 required
-sequence
-<
 DOMString
->
 supportedMethods
 ;
 object
@@ -208,10 +205,7 @@ dictionary
 PaymentDetailsModifier
 {
 required
-sequence
-<
 DOMString
->
 supportedMethods
 ;
 PaymentItem

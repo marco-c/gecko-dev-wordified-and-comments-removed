@@ -74,8 +74,9 @@ private
 :
 PaymentMethodData
 (
-nsIArray
-*
+const
+nsAString
+&
 aSupportedMethods
 const
 nsAString
@@ -90,10 +91,7 @@ PaymentMethodData
 =
 default
 ;
-nsCOMPtr
-<
-nsIArray
->
+nsString
 mSupportedMethods
 ;
 nsString
@@ -246,8 +244,9 @@ private
 :
 PaymentDetailsModifier
 (
-nsIArray
-*
+const
+nsAString
+&
 aSupportedMethods
 nsIPaymentItem
 *
@@ -268,10 +267,7 @@ PaymentDetailsModifier
 =
 default
 ;
-nsCOMPtr
-<
-nsIArray
->
+nsString
 mSupportedMethods
 ;
 nsCOMPtr

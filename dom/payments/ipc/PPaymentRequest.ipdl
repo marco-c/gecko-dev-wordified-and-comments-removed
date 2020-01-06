@@ -128,8 +128,6 @@ struct
 IPCPaymentMethodData
 {
 nsString
-[
-]
 supportedMethods
 ;
 nsString
@@ -166,8 +164,6 @@ struct
 IPCPaymentDetailsModifier
 {
 nsString
-[
-]
 supportedMethods
 ;
 IPCPaymentItem
