@@ -1063,6 +1063,12 @@ sidebarcommand
 "
 )
 ;
+this
+.
+lastOpenedId
+=
+commandID
+;
 }
 }
 _fireShowEvent
