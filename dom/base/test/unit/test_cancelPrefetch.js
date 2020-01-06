@@ -384,7 +384,7 @@ queue
 ;
 prefetch
 .
-cancelPrefetchURI
+cancelPrefetchPreloadURI
 (
 uri
 node1
@@ -482,7 +482,7 @@ queue
 ;
 prefetch
 .
-cancelPrefetchURI
+cancelPrefetchPreloadURI
 (
 uri
 node1
@@ -513,7 +513,7 @@ queue
 ;
 prefetch
 .
-cancelPrefetchURI
+cancelPrefetchPreloadURI
 (
 uri
 node2
@@ -606,10 +606,11 @@ try
 {
 prefetch
 .
-cancelPrefetchURI
+cancelPrefetchPreloadURI
 (
 uri
 node2
+true
 )
 ;
 }
@@ -661,7 +662,7 @@ queue
 ;
 prefetch
 .
-cancelPrefetchURI
+cancelPrefetchPreloadURI
 (
 uri
 node1
@@ -772,7 +773,7 @@ try
 {
 prefetch
 .
-cancelPrefetchURI
+cancelPrefetchPreloadURI
 (
 uri2
 node1
@@ -827,7 +828,7 @@ queue
 ;
 prefetch
 .
-cancelPrefetchURI
+cancelPrefetchPreloadURI
 (
 uri1
 node1
