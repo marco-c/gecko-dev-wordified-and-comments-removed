@@ -808,6 +808,12 @@ nsChangeHint_NeutralChange
 nsChangeHint_UpdateOpacityLayer
 |
 \
+nsChangeHint_AddOrRemoveTransform
+|
+\
+nsChangeHint_UpdatePostTransformOverflow
+|
+\
 nsChangeHint_UpdateTransformLayer
 |
 \
