@@ -8433,6 +8433,10 @@ getter_AddRefs
 bufferedOut
 )
 out
+.
+forget
+(
+)
 16
 *
 1024
@@ -8446,9 +8450,8 @@ rv
 ;
 bufferedOut
 .
-swap
+forget
 (
-*
 result
 )
 ;
