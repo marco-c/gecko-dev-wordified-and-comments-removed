@@ -2653,7 +2653,6 @@ mMaster
 >
 RequestVideoData
 (
-false
 media
 :
 :
@@ -2717,7 +2716,6 @@ mMaster
 >
 RequestVideoData
 (
-false
 media
 :
 :
@@ -3133,9 +3131,6 @@ mMaster
 >
 RequestVideoData
 (
-NeedToSkipToNextKeyframe
-(
-)
 mMaster
 -
 >
@@ -3236,9 +3231,6 @@ mMaster
 >
 RequestVideoData
 (
-NeedToSkipToNextKeyframe
-(
-)
 mMaster
 -
 >
@@ -5640,7 +5632,6 @@ mMaster
 >
 RequestVideoData
 (
-false
 media
 :
 :
@@ -7230,7 +7221,6 @@ mMaster
 >
 RequestVideoData
 (
-false
 media
 :
 :
@@ -7881,7 +7871,6 @@ mMaster
 >
 RequestVideoData
 (
-false
 media
 :
 :
@@ -7962,7 +7951,6 @@ mMaster
 >
 RequestVideoData
 (
-false
 media
 :
 :
@@ -9766,7 +9754,6 @@ mMaster
 >
 RequestVideoData
 (
-false
 media
 :
 :
@@ -10384,9 +10371,6 @@ mMaster
 >
 RequestVideoData
 (
-NeedToSkipToNextKeyframe
-(
-)
 mMaster
 -
 >
@@ -11068,7 +11052,6 @@ mMaster
 >
 RequestVideoData
 (
-false
 media
 :
 :
@@ -14997,8 +14980,6 @@ MediaDecoderStateMachine
 :
 RequestVideoData
 (
-bool
-aSkipToNextKeyframe
 const
 media
 :
@@ -15059,11 +15040,7 @@ queued
 "
 PRIoSIZE
 "
-skip
-=
-%
-i
-time
+stime
 =
 %
 "
@@ -15081,7 +15058,6 @@ mReader
 SizeOfVideoQueueInFrames
 (
 )
-aSkipToNextKeyframe
 aCurrentTime
 .
 ToMicroseconds
@@ -15112,7 +15088,6 @@ mReader
 >
 RequestVideoData
 (
-aSkipToNextKeyframe
 aCurrentTime
 )
 -

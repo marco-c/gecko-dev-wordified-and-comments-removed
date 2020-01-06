@@ -1271,7 +1271,6 @@ mReader
 >
 RequestVideoData
 (
-true
 mTimeThreshold
 )
 ;
@@ -1382,8 +1381,6 @@ MediaDecoderReader
 :
 RequestVideoData
 (
-bool
-aSkipToNextKeyframe
 const
 media
 :
@@ -1409,7 +1406,7 @@ __func__
 bool
 skip
 =
-aSkipToNextKeyframe
+false
 ;
 while
 (

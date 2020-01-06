@@ -311,8 +311,6 @@ MediaDecoderReaderWrapper
 :
 RequestVideoData
 (
-bool
-aSkipToNextKeyframe
 media
 :
 :
@@ -390,7 +388,6 @@ MediaDecoderReader
 :
 :
 RequestVideoData
-aSkipToNextKeyframe
 aTimeThreshold
 )
 -

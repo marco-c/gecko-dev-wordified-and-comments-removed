@@ -445,8 +445,6 @@ VideoDataPromise
 >
 RequestVideoData
 (
-bool
-aSkipToNextKeyframe
 const
 media
 :
