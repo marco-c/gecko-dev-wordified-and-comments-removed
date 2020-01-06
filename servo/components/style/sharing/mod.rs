@@ -118,7 +118,7 @@ STYLE_SHARING_CANDIDATE_CACHE_SIZE
 :
 usize
 =
-8
+31
 ;
 #
 [
