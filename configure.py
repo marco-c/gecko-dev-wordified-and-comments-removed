@@ -10,8 +10,6 @@ itertools
 import
 os
 import
-subprocess
-import
 sys
 import
 textwrap

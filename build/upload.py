@@ -1,5 +1,6 @@
 import
 sys
+import
 os
 import
 re
@@ -588,6 +589,7 @@ e
 :
             
 print
+(
 "
 failed
 ssh
@@ -595,25 +597,32 @@ command
 output
 :
 "
+)
             
 print
+(
 '
 =
 '
 *
 20
+)
             
 print
+(
 e
 .
 output
+)
             
 print
+(
 '
 =
 '
 *
 20
+)
             
 raise
         
@@ -688,6 +697,7 @@ log
 :
         
 print
+(
 '
 Uploading
 %
@@ -695,6 +705,7 @@ s
 '
 %
 file
+)
     
 cmdline
 =
@@ -1129,7 +1140,7 @@ zip
 '
 )
 or
-                       
+         
 m
 .
 endswith
@@ -1361,6 +1372,7 @@ re
 .
 compile
 (
+        
 r
 '
 '
@@ -1509,6 +1521,7 @@ UNKNOWN
 for
 prop
 condition
+                      
 in
 property_conditions
 }
@@ -1534,6 +1547,7 @@ None
 base_path
 =
 None
+                
 upload_to_temp_dir
 =
 False
@@ -1710,6 +1724,7 @@ upload_to_temp_dir
 :
         
 print
+(
 "
 One
 (
@@ -1722,14 +1737,10 @@ or
 UPLOAD_TO_TEMP
 must
 be
-"
-+
-\
-                
-"
 defined
 .
 "
+)
         
 sys
 .
@@ -1753,6 +1764,7 @@ d
 "
 user
 host
+                            
 port
 =
 port
@@ -1902,6 +1914,7 @@ p
 p
 user
 host
+                         
 port
 =
 port
@@ -2027,6 +2040,7 @@ verbose
 :
                 
 print
+(
 "
 Running
 post
@@ -2037,6 +2051,7 @@ command
 "
 +
 post_upload_command
+)
             
 file_list
 =
@@ -2074,6 +2089,7 @@ s
 '
 %
 (
+                
 post_upload_command
 path
 file_list
@@ -2089,7 +2105,9 @@ ssh_key
 )
             
 print
+(
 output
+)
             
 properties
 =
@@ -2133,10 +2151,12 @@ verbose
 :
         
 print
+(
 "
 Upload
 complete
 "
+)
     
 return
 properties
@@ -2301,6 +2321,7 @@ verbose
 :
             
 print
+(
 "
 Copying
 "
@@ -2312,6 +2333,7 @@ to
 "
 +
 target_path
+)
         
 shutil
 .
@@ -2597,6 +2619,9 @@ path
 when
 uploading
 .
+"
+                      
+"
 If
 unset
 all
@@ -2695,6 +2720,7 @@ args
 :
         
 print
+(
 "
 You
 must
@@ -2706,6 +2732,7 @@ file
 to
 upload
 "
+)
         
 sys
 .
@@ -2722,6 +2749,7 @@ properties_file
 :
         
 print
+(
 "
 You
 must
@@ -2733,6 +2761,7 @@ properties
 -
 file
 "
+)
         
 sys
 .
@@ -2755,6 +2784,7 @@ upload_to_temp_dir
 :
             
 print
+(
 "
 Cannot
 use
@@ -2764,6 +2794,7 @@ UPLOAD_HOST
 =
 localhost
 "
+)
             
 sys
 .
@@ -2777,6 +2808,7 @@ post_upload_command
 :
             
 print
+(
 "
 Ignoring
 POST_UPLOAD_COMMAND
@@ -2785,6 +2817,7 @@ UPLOAD_HOST
 =
 localhost
 "
+)
     
 try
 :
@@ -2867,6 +2900,7 @@ args
 options
 .
 properties_file
+                            
 url_properties
 options
 .
@@ -2875,13 +2909,14 @@ package
     
 except
 IOError
-(
+as
 strerror
-)
 :
         
 print
+(
 strerror
+)
         
 sys
 .

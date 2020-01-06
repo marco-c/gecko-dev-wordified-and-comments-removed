@@ -7,12 +7,6 @@ unicode_literals
 import
 argparse
 from
-concurrent
-.
-futures
-import
-ThreadPoolExecutor
-from
 contextlib
 import
 contextmanager
@@ -395,6 +389,7 @@ bytes
 .
 format
 (
+                
 pathname
 len
 (
@@ -421,6 +416,7 @@ upload_fileobj
 (
 compressed
 bucket
+                                  
 pathname
 ExtraArgs
 =
@@ -450,6 +446,7 @@ s
 .
 format
 (
+                    
 pathname
 elapsed
 (
@@ -576,6 +573,7 @@ upload
 .
 format
 (
+            
 level
 )
         
@@ -583,6 +581,7 @@ log
 .
 info
 (
+            
 '
 Using
 AWS
@@ -747,6 +746,7 @@ s
 .
 format
 (
+            
 res
 .
 status_code
@@ -994,7 +994,7 @@ argparse
 .
 ArgumentParser
 (
-    
+        
 description
 =
 '

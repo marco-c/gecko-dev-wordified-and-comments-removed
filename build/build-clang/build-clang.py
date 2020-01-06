@@ -2764,6 +2764,9 @@ Release
 Debug
 RelWithDebInfo
 or
+"
+                             
+"
 MinSizeRel
 builds
 "
@@ -3691,6 +3694,7 @@ LD_LIBRARY_PATH
 '
 ]
 =
+(
 '
 %
 s
@@ -3702,6 +3706,7 @@ lib64
 s
 '
 %
+                                             
 (
 gcc_dir
 os
@@ -3712,6 +3717,7 @@ environ
 LD_LIBRARY_PATH
 '
 ]
+)
 )
         
 else

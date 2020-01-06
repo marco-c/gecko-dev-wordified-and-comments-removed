@@ -89,6 +89,7 @@ NS_XRE_ENABLE_PROFILE_MIGRATOR
     
 except
 :
+        
 pass
     
 try
@@ -123,6 +124,7 @@ NS_XRE_ENABLE_CRASH_REPORTER
     
 except
 :
+        
 pass
     
 appdata
@@ -150,6 +152,7 @@ s
 o
 )
 )
+                   
 for
 s
 in
@@ -200,6 +203,7 @@ profile
 '
 ]
 =
+(
 '
 "
 %
@@ -215,6 +219,7 @@ App
 profile
 '
 ]
+                              
 if
 '
 App
@@ -227,6 +232,7 @@ else
 '
 NULL
 '
+)
     
 expected
 =
@@ -331,13 +337,13 @@ exit
 )
     
 if
-not
 '
 Crash
 Reporter
 :
 serverurl
 '
+not
 in
 appdata
 :
