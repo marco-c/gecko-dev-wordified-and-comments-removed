@@ -290,11 +290,6 @@ aBuilder
 override
 ;
 void
-ComputeDrawRegion
-(
-)
-;
-void
 CleanupResources
 (
 )
@@ -330,9 +325,6 @@ gfx
 :
 IntRegion
 mTextureRegion
-;
-bool
-mComputedDrawRegion
 ;
 }
 ;
