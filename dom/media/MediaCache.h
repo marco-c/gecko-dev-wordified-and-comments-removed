@@ -673,10 +673,12 @@ nsIPrincipal
 mPrincipal
 ;
 bool
-mClosed
+mDidNotifyDataEnded
 ;
 bool
-mDidNotifyDataEnded
+mClosed
+=
+false
 ;
 int64_t
 mResourceID

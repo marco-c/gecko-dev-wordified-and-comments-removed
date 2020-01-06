@@ -1495,10 +1495,6 @@ mClient
 (
 aClient
 )
-mClosed
-(
-false
-)
 mDidNotifyDataEnded
 (
 false
@@ -9873,10 +9869,6 @@ mClosed
 return
 ;
 }
-mClosed
-=
-true
-;
 mMediaCache
 -
 >
@@ -9895,6 +9887,10 @@ GetReentrantMonitor
 (
 )
 )
+;
+mClosed
+=
+true
 ;
 mMediaCache
 -
