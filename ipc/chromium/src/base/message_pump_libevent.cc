@@ -196,7 +196,7 @@ long
 CHECK_EVENT_SIZEOF
 (
 OFF_T
-off_t
+ev_off_t
 )
 ;
 CHECK_EVENT_SIZEOF
