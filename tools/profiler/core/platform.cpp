@@ -573,6 +573,31 @@ name_
 \
 #
 define
+PS_GET_LOCKLESS
+(
+type_
+name_
+)
+\
+static
+type_
+name_
+(
+)
+{
+return
+sInstance
+-
+>
+m
+#
+#
+name_
+;
+}
+\
+#
+define
 PS_GET_AND_SET
 (
 type_
@@ -912,7 +937,7 @@ aMallocSizeOf
 #
 endif
 }
-PS_GET
+PS_GET_LOCKLESS
 (
 TimeStamp
 ProcessStartTime
@@ -1860,6 +1885,9 @@ sNextGeneration
 #
 undef
 PS_GET
+#
+undef
+PS_GET_LOCKLESS
 #
 undef
 PS_GET_AND_SET
@@ -5436,7 +5464,6 @@ CorePS
 :
 ProcessStartTime
 (
-aLock
 )
 ;
 aBuffer
@@ -6125,7 +6152,6 @@ CorePS
 :
 ProcessStartTime
 (
-aLock
 )
 )
 ;
@@ -6412,7 +6438,6 @@ CorePS
 :
 ProcessStartTime
 (
-aLock
 )
 ;
 aWriter
@@ -7293,7 +7318,6 @@ CorePS
 :
 ProcessStartTime
 (
-aLock
 )
 aSinceTime
 )
@@ -7374,7 +7398,6 @@ CorePS
 :
 ProcessStartTime
 (
-aLock
 )
 aSinceTime
 )
@@ -8247,7 +8270,6 @@ CorePS
 :
 ProcessStartTime
 (
-lock
 )
 info
 -
@@ -11986,12 +12008,6 @@ Exists
 )
 )
 ;
-PSAutoLock
-lock
-(
-gPSMutex
-)
-;
 mozilla
 :
 :
@@ -12013,7 +12029,6 @@ CorePS
 :
 ProcessStartTime
 (
-lock
 )
 ;
 return
@@ -12679,7 +12694,6 @@ CorePS
 :
 ProcessStartTime
 (
-aLock
 )
 ;
 racyInfo
@@ -13101,7 +13115,6 @@ CorePS
 :
 ProcessStartTime
 (
-lock
 )
 )
 ;
