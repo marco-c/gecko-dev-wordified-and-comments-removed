@@ -171,6 +171,13 @@ set
 )
 SERVO_BINDING_FUNC
 (
+Servo_StyleSet_CompatModeChanged
+void
+RawServoStyleSetBorrowed
+raw_data
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleSet_AppendStyleSheet
 void
 RawServoStyleSetBorrowed

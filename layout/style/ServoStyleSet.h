@@ -868,6 +868,11 @@ ClearDataAndMarkDeviceDirty
 (
 )
 ;
+void
+CompatibilityModeChanged
+(
+)
+;
 already_AddRefed
 <
 ServoComputedValues
