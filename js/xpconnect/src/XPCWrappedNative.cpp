@@ -3289,6 +3289,9 @@ get
 )
 !
 =
+(
+int
+)
 0xdddddddd
 "
 bad
@@ -3311,6 +3314,9 @@ get
 )
 !
 =
+(
+int
+)
 0
 "
 bad
