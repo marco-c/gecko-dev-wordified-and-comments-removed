@@ -2050,9 +2050,13 @@ element
 nsChangeHint
 Gecko_CalcStyleDifference
 (
-nsStyleContext
+const
+mozilla
+:
+:
+ServoStyleContext
 *
-old_style_from_frame
+old_style
 const
 mozilla
 :
@@ -2060,6 +2064,8 @@ mozilla
 ServoStyleContext
 *
 new_style
+uint64_t
+old_style_bits
 bool
 *
 any_style_changed
