@@ -143,7 +143,7 @@ places
 /
 defaultFavicon
 .
-png
+svg
 "
 "
 client

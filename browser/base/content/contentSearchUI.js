@@ -313,10 +313,6 @@ else
 {
 icon
 =
-this
-.
-_getImageURIForCurrentResolution
-(
 "
 chrome
 :
@@ -330,9 +326,8 @@ places
 /
 defaultFavicon
 .
-png
+svg
 "
-)
 ;
 }
 this
