@@ -124,7 +124,7 @@ causes
 .
 .
 .
-notes
+note
 :
 :
 Examples
