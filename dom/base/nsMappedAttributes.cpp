@@ -1136,7 +1136,7 @@ return
 true
 ;
 }
-uint32_t
+PLDHashNumber
 nsMappedAttributes
 :
 :
@@ -1145,7 +1145,7 @@ HashValue
 )
 const
 {
-uint32_t
+PLDHashNumber
 hash
 =
 HashGeneric

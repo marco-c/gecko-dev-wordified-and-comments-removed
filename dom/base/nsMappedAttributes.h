@@ -156,7 +156,7 @@ aAttributes
 )
 const
 ;
-uint32_t
+PLDHashNumber
 HashValue
 (
 )
