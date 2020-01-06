@@ -814,7 +814,7 @@ self
 .
 _t
 .
-clear_eos
+clear_eol
 (
 )
 )
