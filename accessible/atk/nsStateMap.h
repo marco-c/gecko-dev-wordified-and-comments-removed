@@ -277,6 +277,10 @@ kNone
 kMapDirectly
 }
 {
+ATK_STATE_ACTIVE
+kMapDirectly
+}
+{
 kNone
 kNoSuchState
 }

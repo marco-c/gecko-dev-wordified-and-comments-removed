@@ -2118,6 +2118,7 @@ sWAIUnivStateMap
 =
 {
 eARIABusy
+eARIACurrent
 eARIADisabled
 eARIAExpanded
 eARIAHasPopup

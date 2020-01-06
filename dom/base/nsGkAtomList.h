@@ -655,6 +655,15 @@ controls
 )
 GK_ATOM
 (
+aria_current
+"
+aria
+-
+current
+"
+)
+GK_ATOM
+(
 aria_describedby
 "
 aria

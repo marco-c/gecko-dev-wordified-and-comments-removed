@@ -36,6 +36,7 @@ eARIABusy
 eARIACheckableBool
 eARIACheckableMixed
 eARIACheckedMixed
+eARIACurrent
 eARIADisabled
 eARIAExpanded
 eARIAHasPopup
