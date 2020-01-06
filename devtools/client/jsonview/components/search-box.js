@@ -176,6 +176,8 @@ filterinput
 "
 placeholder
 :
+JSONView
+.
 Locale
 .
 STR

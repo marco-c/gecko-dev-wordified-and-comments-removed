@@ -34,7 +34,7 @@ CustomEvent
 :
 true
 "
-Locale
+JSONView
 "
 :
 true

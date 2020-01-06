@@ -124,6 +124,8 @@ className
 netInfoHeadersGroup
 "
 }
+JSONView
+.
 Locale
 .
 STR
@@ -175,6 +177,8 @@ className
 netInfoHeadersGroup
 "
 }
+JSONView
+.
 Locale
 .
 STR

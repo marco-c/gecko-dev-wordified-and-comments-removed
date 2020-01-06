@@ -280,6 +280,8 @@ json
 "
 title
 :
+JSONView
+.
 Locale
 .
 STR
@@ -339,6 +341,8 @@ rawdata
 "
 title
 :
+JSONView
+.
 Locale
 .
 STR
@@ -382,6 +386,8 @@ headers
 "
 title
 :
+JSONView
+.
 Locale
 .
 STR

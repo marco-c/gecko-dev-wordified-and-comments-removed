@@ -128,11 +128,6 @@ main
 js
 '
 '
-utils
-.
-js
-'
-'
 viewer
 -
 config

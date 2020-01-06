@@ -290,6 +290,8 @@ this
 .
 onSave
 }
+JSONView
+.
 Locale
 .
 STR
@@ -316,6 +318,8 @@ this
 .
 onCopy
 }
+JSONView
+.
 Locale
 .
 STR
@@ -342,6 +346,8 @@ this
 .
 onPrettify
 }
+JSONView
+.
 Locale
 .
 STR

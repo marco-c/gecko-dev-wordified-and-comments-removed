@@ -62,7 +62,10 @@ vendor
 react
 "
 :
-[
+JSONView
+.
+debug
+?
 "
 resource
 :
@@ -80,6 +83,7 @@ react
 -
 dev
 "
+:
 "
 resource
 :
@@ -95,7 +99,6 @@ vendor
 /
 react
 "
-]
 }
 }
 )
