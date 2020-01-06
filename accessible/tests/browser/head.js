@@ -476,7 +476,7 @@ gc
 ;
 SpecialPowers
 .
-forceGC
+forceShrinkingGC
 (
 )
 ;
@@ -494,7 +494,7 @@ gc
 ;
 SpecialPowers
 .
-forceGC
+forceShrinkingGC
 (
 )
 ;

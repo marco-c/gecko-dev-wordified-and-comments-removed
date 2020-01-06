@@ -7051,6 +7051,17 @@ forceGC
 )
 ;
 }
+forceShrinkingGC
+(
+)
+{
+Cu
+.
+forceShrinkingGC
+(
+)
+;
+}
 forceCC
 (
 )
