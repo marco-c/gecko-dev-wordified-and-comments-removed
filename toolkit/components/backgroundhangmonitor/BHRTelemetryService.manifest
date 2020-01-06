@@ -13,6 +13,9 @@ b8a654c67127
 BHRTelemetryService
 .
 js
+process
+=
+main
 contract
 mozilla
 .
@@ -36,6 +39,9 @@ a439
 -
 b8a654c67127
 }
+process
+=
+main
 category
 profile
 -
@@ -54,3 +60,6 @@ telemetry
 service
 ;
 1
+process
+=
+main
