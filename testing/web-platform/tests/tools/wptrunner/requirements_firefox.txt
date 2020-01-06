@@ -28,9 +28,3 @@ mozrunner
 6
 .
 7
-mozleak
->
-=
-0
-.
-1
