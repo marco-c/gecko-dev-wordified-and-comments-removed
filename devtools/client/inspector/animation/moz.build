@@ -66,6 +66,9 @@ components
 '
 reducers
 '
+'
+utils
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +

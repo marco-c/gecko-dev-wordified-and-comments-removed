@@ -56,14 +56,7 @@ MPL
 DevToolsModules
 (
 '
-animations
-.
-js
-'
-'
-element
--
-picker
+utils
 .
 js
 '
