@@ -152,6 +152,11 @@ WebExtensionBootstrap
 js
 '
 '
+XPIInstall
+.
+jsm
+'
+'
 XPIProvider
 .
 jsm
