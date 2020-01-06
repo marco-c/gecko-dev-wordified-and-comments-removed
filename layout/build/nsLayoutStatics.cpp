@@ -1022,6 +1022,13 @@ Init
 (
 )
 ;
+nsGlobalWindowOuter
+:
+:
+Init
+(
+)
+;
 Navigator
 :
 :
@@ -2022,6 +2029,13 @@ ShutdownJSEnvironment
 )
 ;
 nsGlobalWindowInner
+:
+:
+ShutDown
+(
+)
+;
+nsGlobalWindowOuter
 :
 :
 ShutDown
