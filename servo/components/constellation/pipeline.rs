@@ -112,6 +112,7 @@ constellation_msg
 :
 {
 BrowsingContextId
+TopLevelBrowsingContextId
 FrameType
 PipelineId
 PipelineNamespaceId
@@ -418,7 +419,7 @@ BrowsingContextId
 pub
 top_level_browsing_context_id
 :
-BrowsingContextId
+TopLevelBrowsingContextId
 pub
 parent_info
 :
@@ -742,6 +743,11 @@ browsing_context_id
 state
 .
 browsing_context_id
+top_level_browsing_context_id
+:
+state
+.
+top_level_browsing_context_id
 load_data
 :
 state
@@ -2101,7 +2107,7 @@ child_id
 :
 Option
 <
-BrowsingContextId
+TopLevelBrowsingContextId
 >
 event
 :
@@ -2377,10 +2383,10 @@ UnprivilegedPipelineContent
 id
 :
 PipelineId
-browsing_context_id
-:
-BrowsingContextId
 top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
+browsing_context_id
 :
 BrowsingContextId
 parent_info
@@ -2732,12 +2738,9 @@ create
 self
 .
 id
-Some
-(
 self
 .
 top_level_browsing_context_id
-)
 self
 .
 load_data

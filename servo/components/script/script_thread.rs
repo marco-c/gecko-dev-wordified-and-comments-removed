@@ -638,6 +638,7 @@ BrowsingContextId
 FrameType
 PipelineId
 PipelineNamespace
+TopLevelBrowsingContextId
 }
 ;
 use
@@ -1237,6 +1238,9 @@ PipelineId
 browsing_context_id
 :
 BrowsingContextId
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
 parent_info
 :
 Option
@@ -1286,6 +1290,9 @@ PipelineId
 browsing_context_id
 :
 BrowsingContextId
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
 parent_info
 :
 Option
@@ -1329,6 +1336,9 @@ id
 browsing_context_id
 :
 browsing_context_id
+top_level_browsing_context_id
+:
+top_level_browsing_context_id
 parent_info
 :
 parent_info
@@ -3306,7 +3316,7 @@ state
 pipeline_namespace_id
 )
 ;
-BrowsingContextId
+TopLevelBrowsingContextId
 :
 :
 install
@@ -3351,6 +3361,13 @@ browsing_context_id
 state
 .
 browsing_context_id
+;
+let
+top_level_browsing_context_id
+=
+state
+.
+top_level_browsing_context_id
 ;
 let
 parent_info
@@ -3460,6 +3477,7 @@ new
 (
 id
 browsing_context_id
+top_level_browsing_context_id
 parent_info
 layout_chan
 window_size
@@ -6914,7 +6932,7 @@ ConstellationControlMsg
 MozBrowserEvent
 (
 parent_pipeline_id
-browsing_context_id
+top_level_browsing_context_id
 event
 )
 =
@@ -6924,7 +6942,7 @@ self
 handle_mozbrowser_event_msg
 (
 parent_pipeline_id
-browsing_context_id
+top_level_browsing_context_id
 event
 )
 ConstellationControlMsg
@@ -8734,6 +8752,7 @@ NewLayoutInfo
 parent_info
 new_pipeline_id
 browsing_context_id
+top_level_browsing_context_id
 load_data
 window_size
 pipeline_port
@@ -8951,6 +8970,7 @@ new
 (
 new_pipeline_id
 browsing_context_id
+top_level_browsing_context_id
 parent_info
 layout_chan
 window_size
@@ -9720,11 +9740,11 @@ self
 parent_pipeline_id
 :
 PipelineId
-browsing_context_id
+top_level_browsing_context_id
 :
 Option
 <
-BrowsingContextId
+TopLevelBrowsingContextId
 >
 event
 :
@@ -9779,7 +9799,7 @@ doc
 }
 ;
 match
-browsing_context_id
+top_level_browsing_context_id
 {
 None
 =
@@ -9796,16 +9816,16 @@ event
 )
 Some
 (
-browsing_context_id
+top_level_browsing_context_id
 )
 =
 >
 match
 doc
 .
-find_iframe
+find_mozbrowser_iframe
 (
-browsing_context_id
+top_level_browsing_context_id
 )
 {
 None
@@ -9828,7 +9848,7 @@ closed
 .
 "
 parent_pipeline_id
-browsing_context_id
+top_level_browsing_context_id
 )
 Some
 (
@@ -11668,6 +11688,9 @@ global_to_clone
 :
 &
 GlobalScope
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
 pipeline_id
 :
 PipelineId
@@ -11769,6 +11792,7 @@ self
 remote_window_proxy
 (
 global_to_clone
+top_level_browsing_context_id
 parent_id
 )
 _
@@ -11787,6 +11811,7 @@ new_dissimilar_origin
 (
 global_to_clone
 browsing_context_id
+top_level_browsing_context_id
 parent
 .
 r
@@ -11833,6 +11858,9 @@ Window
 browsing_context_id
 :
 BrowsingContextId
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
 parent_info
 :
 Option
@@ -11987,6 +12015,7 @@ window
 upcast
 (
 )
+top_level_browsing_context_id
 parent_id
 )
 _
@@ -12006,6 +12035,7 @@ new
 &
 window
 browsing_context_id
+top_level_browsing_context_id
 iframe
 .
 r
@@ -12405,6 +12435,9 @@ window
 incomplete
 .
 browsing_context_id
+incomplete
+.
+top_level_browsing_context_id
 incomplete
 .
 parent_info

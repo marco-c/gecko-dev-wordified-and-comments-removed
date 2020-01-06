@@ -16,6 +16,7 @@ constellation_msg
 :
 {
 BrowsingContextId
+TopLevelBrowsingContextId
 PipelineId
 }
 ;
@@ -82,6 +83,10 @@ id
 :
 BrowsingContextId
 pub
+top_level_id
+:
+TopLevelBrowsingContextId
+pub
 size
 :
 Option
@@ -129,6 +134,9 @@ new
 id
 :
 BrowsingContextId
+top_level_id
+:
+TopLevelBrowsingContextId
 pipeline_id
 :
 PipelineId
@@ -145,6 +153,9 @@ BrowsingContext
 id
 :
 id
+top_level_id
+:
+top_level_id
 size
 :
 None
@@ -381,6 +392,10 @@ pub
 browsing_context_id
 :
 BrowsingContextId
+pub
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
 pub
 new_pipeline_id
 :

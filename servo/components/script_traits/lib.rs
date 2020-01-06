@@ -251,6 +251,7 @@ constellation_msg
 :
 {
 BrowsingContextId
+TopLevelBrowsingContextId
 FrameType
 Key
 KeyModifiers
@@ -880,6 +881,10 @@ browsing_context_id
 :
 BrowsingContextId
 pub
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
+pub
 load_data
 :
 LoadData
@@ -1082,7 +1087,7 @@ MozBrowserEvent
 PipelineId
 Option
 <
-BrowsingContextId
+TopLevelBrowsingContextId
 >
 MozBrowserEvent
 )
@@ -1915,7 +1920,7 @@ BrowsingContextId
 pub
 top_level_browsing_context_id
 :
-BrowsingContextId
+TopLevelBrowsingContextId
 pub
 control_chan
 :
@@ -2103,6 +2108,10 @@ pub
 browsing_context_id
 :
 BrowsingContextId
+pub
+top_level_browsing_context_id
+:
+TopLevelBrowsingContextId
 pub
 new_pipeline_id
 :
@@ -2774,7 +2783,7 @@ LogEntry
 (
 Option
 <
-BrowsingContextId
+TopLevelBrowsingContextId
 >
 Option
 <

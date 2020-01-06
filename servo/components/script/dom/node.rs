@@ -7358,6 +7358,10 @@ iframe_element
 browsing_context_id
 (
 )
+.
+unwrap
+(
+)
 }
 fn
 iframe_pipeline_id

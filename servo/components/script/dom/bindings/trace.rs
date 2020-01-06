@@ -315,6 +315,7 @@ constellation_msg
 BrowsingContextId
 FrameType
 PipelineId
+TopLevelBrowsingContextId
 }
 ;
 use
@@ -2195,11 +2196,17 @@ unsafe_no_jsmanaged_fields
 !
 (
 DocumentActivity
-BrowsingContextId
-FrameType
 WindowSizeData
 WindowSizeType
+)
+;
+unsafe_no_jsmanaged_fields
+!
+(
+BrowsingContextId
+FrameType
 PipelineId
+TopLevelBrowsingContextId
 )
 ;
 unsafe_no_jsmanaged_fields
