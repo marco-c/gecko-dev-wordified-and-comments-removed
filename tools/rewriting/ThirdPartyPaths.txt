@@ -285,6 +285,10 @@ libmar
 /
 modules
 /
+pdfium
+/
+modules
+/
 woff2
 /
 modules
