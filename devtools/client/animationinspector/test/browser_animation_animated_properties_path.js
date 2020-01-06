@@ -1746,9 +1746,10 @@ i
 const
 timeBlock
 =
-timelineComponent
-.
-timeBlocks
+getAnimationTimeBlocks
+(
+panel
+)
 [
 0
 ]

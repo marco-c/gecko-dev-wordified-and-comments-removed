@@ -62,11 +62,10 @@ inspector
 let
 targetNodeComponent
 =
+getAnimationTargetNodes
+(
 panel
-.
-animationsTimelineComponent
-.
-targetNodes
+)
 [
 0
 ]

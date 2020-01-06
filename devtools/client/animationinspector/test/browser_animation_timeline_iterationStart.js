@@ -42,9 +42,10 @@ animationsTimelineComponent
 let
 timeBlockComponents
 =
-timelineComponent
-.
-timeBlocks
+getAnimationTimeBlocks
+(
+panel
+)
 ;
 let
 detailsComponent

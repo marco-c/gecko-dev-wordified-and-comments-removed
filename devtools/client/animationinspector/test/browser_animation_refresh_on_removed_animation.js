@@ -250,12 +250,6 @@ yield
 onPanelUpdated
 ;
 yield
-waitForAllAnimationTargets
-(
-panel
-)
-;
-yield
 waitForAnimationSelecting
 (
 panel

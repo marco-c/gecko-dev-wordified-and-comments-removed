@@ -40,11 +40,10 @@ openAnimationInspector
 let
 targets
 =
+getAnimationTargetNodes
+(
 panel
-.
-animationsTimelineComponent
-.
-targetNodes
+)
 ;
 info
 (

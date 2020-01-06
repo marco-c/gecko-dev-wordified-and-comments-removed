@@ -187,6 +187,14 @@ controller
 PLAYERS_UPDATED_EVENT
 )
 ;
+let
+onRendered
+=
+waitForAnimationTimelineRendering
+(
+panel
+)
+;
 yield
 executeInContent
 (
@@ -223,10 +231,7 @@ yield
 onPlayerAdded
 ;
 yield
-waitForAnimationTimelineRendering
-(
-panel
-)
+onRendered
 ;
 yield
 waitForAllAnimationTargets
