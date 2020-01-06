@@ -120,6 +120,12 @@ target_tasks_method
 '
 try_tasks
 '
+        
+'
+include_nightly
+'
+:
+True
     
 }
     
@@ -1280,13 +1286,23 @@ try_options
 =
 None
     
-return
+result
+=
 Parameters
 (
 *
 *
 parameters
 )
+    
+result
+.
+check
+(
+)
+    
+return
+result
 def
 write_artifact
 (
