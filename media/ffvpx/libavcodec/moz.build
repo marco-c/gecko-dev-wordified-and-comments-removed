@@ -202,11 +202,6 @@ parser
 c
 '
 '
-profiles
-.
-c
-'
-'
 pthread
 .
 c
@@ -292,6 +287,11 @@ c
 '
 '
 mathtables
+.
+c
+'
+'
+profiles
 .
 c
 '
