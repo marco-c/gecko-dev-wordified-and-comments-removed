@@ -11972,7 +11972,7 @@ popFirst
 )
 ;
 }
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 why
 )

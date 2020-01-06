@@ -602,7 +602,7 @@ backtrace
 endif
 #
 endif
-NS_RUNTIMEABORT
+MOZ_CRASH_UNSAFE_OOL
 (
 notes
 .
@@ -610,9 +610,6 @@ get
 (
 )
 )
-;
-return
-0
 ;
 }
 }
