@@ -1062,6 +1062,10 @@ name
 forget
 (
 )
+.
+take
+(
+)
 )
 ;
 }

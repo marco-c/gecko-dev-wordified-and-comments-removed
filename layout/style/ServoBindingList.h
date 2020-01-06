@@ -572,10 +572,8 @@ Servo_KeyframesRule_SetName
 void
 RawServoKeyframesRuleBorrowed
 rule
-already_AddRefed
-<
 nsIAtom
->
+*
 name
 )
 SERVO_BINDING_FUNC
