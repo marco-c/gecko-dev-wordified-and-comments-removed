@@ -4479,6 +4479,15 @@ IBSplitSibling
 )
 )
 ;
+if
+(
+!
+nextInline
+)
+{
+break
+;
+}
 MOZ_ASSERT
 (
 nextInline
