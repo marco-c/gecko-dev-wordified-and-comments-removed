@@ -66,15 +66,7 @@ final
 boolean
 DEBUG
 =
-AppConstants
-.
-NIGHTLY_BUILD
-|
-|
-AppConstants
-.
-DEBUG_BUILD
-;
+false
 ;
 public
 enum
