@@ -144,7 +144,7 @@ homepage2
 label
 "
 Home
-Page
+page
 "
 >
 <
@@ -364,7 +364,7 @@ y
 <
 !
 ENTITY
-setAsMyDefaultBrowser2
+setAsMyDefaultBrowser3
 .
 label
 "
@@ -375,7 +375,7 @@ Default
 <
 !
 ENTITY
-setAsMyDefaultBrowser2
+setAsMyDefaultBrowser3
 .
 accesskey
 "
