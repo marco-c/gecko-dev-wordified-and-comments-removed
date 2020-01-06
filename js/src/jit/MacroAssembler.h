@@ -589,7 +589,10 @@ namespace
 jit
 {
 enum
-ExitFrameTokenValues
+class
+ExitFrameToken
+:
+uint8_t
 ;
 class
 AutoSaveLiveRegisters
@@ -2300,8 +2303,7 @@ Register
 cxreg
 Register
 scratch
-enum
-ExitFrameTokenValues
+ExitFrameToken
 token
 )
 ;
