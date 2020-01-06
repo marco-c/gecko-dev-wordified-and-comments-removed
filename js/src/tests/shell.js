@@ -1384,7 +1384,7 @@ result
 else
 if
 (
-c
+ch
 =
 =
 =
@@ -1526,12 +1526,6 @@ return
 result
 ;
 }
-global
-.
-toPrinted
-=
-toPrinted
-;
 function
 *
 XorShiftGenerator
