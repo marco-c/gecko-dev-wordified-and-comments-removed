@@ -24601,6 +24601,7 @@ GetPriorNode
 (
 blockParent
 offset
+emptyBlock
 true
 )
 ;
