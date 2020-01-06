@@ -85,6 +85,8 @@ WeakMap
 ;
 class
 PageAction
+extends
+EventEmitter
 {
 constructor
 (
@@ -92,6 +94,10 @@ manifest
 extension
 )
 {
+super
+(
+)
+;
 this
 .
 id
@@ -358,13 +364,6 @@ tabId
 )
 ;
 }
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 }
