@@ -1133,15 +1133,6 @@ ResolveMappedAttrDeclarationBlocks
 (
 )
 ;
-bool
-PrepareAndTraverseSubtree
-(
-RawGeckoElementBorrowed
-aRoot
-ServoTraversalFlags
-aFlags
-)
-;
 void
 ClearNonInheritingStyleContexts
 (
