@@ -699,6 +699,17 @@ OriginAttributesDictionary
 originAttributes
 )
 ;
+[
+ChromeOnly
+Throws
+]
+void
+sendInputStream
+(
+InputStream
+body
+)
+;
 /
 /
 Only
