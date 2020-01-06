@@ -1001,9 +1001,6 @@ mime
 :
 Mime
 =
-try
-!
-(
 mime_str
 .
 parse
@@ -1034,7 +1031,7 @@ to_string
 )
 )
 )
-)
+?
 ;
 match
 mime

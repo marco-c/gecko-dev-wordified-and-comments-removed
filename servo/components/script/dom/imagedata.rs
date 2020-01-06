@@ -475,9 +475,6 @@ let
 mut
 array
 =
-try
-!
-(
 array_res
 .
 map_err
@@ -506,7 +503,7 @@ to_owned
 )
 )
 )
-)
+?
 ;
 let
 byte_len

@@ -751,9 +751,6 @@ Syntax
 let
 data
 =
-try
-!
-(
 StructuredCloneData
 :
 :
@@ -762,7 +759,7 @@ write
 cx
 message
 )
-)
+?
 ;
 self
 .

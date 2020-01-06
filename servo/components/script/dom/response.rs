@@ -858,9 +858,6 @@ Step
 6
 .
 2
-try
-!
-(
 r
 .
 Headers
@@ -878,7 +875,7 @@ clone
 )
 )
 )
-)
+?
 ;
 }
 /
@@ -1026,9 +1023,6 @@ unwrap
 (
 )
 {
-try
-!
-(
 r
 .
 Headers
@@ -1069,7 +1063,7 @@ to_vec
 )
 )
 )
-)
+?
 ;
 }
 }
@@ -1497,9 +1491,6 @@ to_vec
 )
 )
 ;
-try
-!
-(
 r
 .
 Headers
@@ -1524,7 +1515,7 @@ to_vec
 )
 url_bytestring
 )
-)
+?
 ;
 /
 /
@@ -2595,9 +2586,6 @@ get_guard
 )
 )
 ;
-try
-!
-(
 new_response
 .
 Headers
@@ -2621,7 +2609,7 @@ Headers
 )
 )
 )
-)
+?
 ;
 *
 new_response

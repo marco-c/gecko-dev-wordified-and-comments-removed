@@ -621,9 +621,6 @@ false
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -631,7 +628,7 @@ accept_node
 &
 node
 )
-)
+?
 ;
 if
 result
@@ -688,9 +685,6 @@ root_node
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -698,7 +692,7 @@ accept_node
 &
 following_node
 )
-)
+?
 ;
 if
 result
@@ -797,9 +791,6 @@ true
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -807,7 +798,7 @@ accept_node
 &
 node
 )
-)
+?
 ;
 if
 result
@@ -864,9 +855,6 @@ root_node
 let
 result
 =
-try
-!
-(
 self
 .
 accept_node
@@ -874,7 +862,7 @@ accept_node
 &
 preceding_node
 )
-)
+?
 ;
 if
 result

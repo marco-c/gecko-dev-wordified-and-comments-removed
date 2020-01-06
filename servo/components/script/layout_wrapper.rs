@@ -2222,9 +2222,6 @@ fmt
 :
 Result
 {
-try
-!
-(
 write
 !
 (
@@ -2242,7 +2239,7 @@ local_name
 (
 )
 )
-)
+?
 ;
 if
 let
@@ -2266,9 +2263,6 @@ id_attribute
 )
 }
 {
-try
-!
-(
 write
 !
 (
@@ -2281,7 +2275,7 @@ id
 "
 id
 )
-)
+?
 ;
 }
 write

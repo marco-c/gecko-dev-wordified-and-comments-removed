@@ -832,9 +832,6 @@ size
 =
 Some
 (
-try
-!
-(
 font_size
 :
 :
@@ -843,7 +840,7 @@ parse
 context
 input
 )
-)
+?
 )
 ;
 break
@@ -962,9 +959,6 @@ is_ok
 {
 Some
 (
-try
-!
-(
 LineHeight
 :
 :
@@ -973,7 +967,7 @@ parse
 context
 input
 )
-)
+?
 )
 }
 else

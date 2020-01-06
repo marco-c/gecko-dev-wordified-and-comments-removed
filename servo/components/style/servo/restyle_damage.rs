@@ -788,9 +788,6 @@ if
 !
 first_elem
 {
-try
-!
-(
 write
 !
 (
@@ -799,12 +796,9 @@ f
 |
 "
 )
-)
+?
 ;
 }
-try
-!
-(
 write
 !
 (
@@ -815,7 +809,7 @@ f
 "
 damage_str
 )
-)
+?
 ;
 first_elem
 =
@@ -826,9 +820,6 @@ false
 if
 first_elem
 {
-try
-!
-(
 write
 !
 (
@@ -837,7 +828,7 @@ f
 NoDamage
 "
 )
-)
+?
 ;
 }
 Ok

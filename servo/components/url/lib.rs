@@ -1020,9 +1020,6 @@ Self
 :
 from_url
 (
-try
-!
-(
 Url
 :
 :
@@ -1030,7 +1027,7 @@ from_file_path
 (
 path
 )
-)
+?
 )
 )
 }

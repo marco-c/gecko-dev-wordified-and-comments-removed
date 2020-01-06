@@ -5378,9 +5378,6 @@ default
 (
 )
 ;
-try
-!
-(
 parse_bounds
 (
 &
@@ -5393,11 +5390,8 @@ data
 .
 left_bounds
 )
-)
+?
 ;
-try
-!
-(
 parse_bounds
 (
 &
@@ -5410,7 +5404,7 @@ data
 .
 right_bounds
 )
-)
+?
 ;
 Ok
 (

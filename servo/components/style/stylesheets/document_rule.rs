@@ -143,9 +143,6 @@ fmt
 :
 Write
 {
-try
-!
-(
 dest
 .
 write_str
@@ -157,11 +154,8 @@ moz
 document
 "
 )
-)
+?
 ;
-try
-!
-(
 self
 .
 condition
@@ -170,11 +164,8 @@ to_css
 (
 dest
 )
-)
+?
 ;
-try
-!
-(
 dest
 .
 write_str
@@ -183,7 +174,7 @@ write_str
 {
 "
 )
-)
+?
 ;
 for
 rule
@@ -203,9 +194,6 @@ iter
 (
 )
 {
-try
-!
-(
 dest
 .
 write_str
@@ -213,11 +201,8 @@ write_str
 "
 "
 )
-)
+?
 ;
-try
-!
-(
 rule
 .
 to_css
@@ -225,7 +210,7 @@ to_css
 guard
 dest
 )
-)
+?
 ;
 }
 dest

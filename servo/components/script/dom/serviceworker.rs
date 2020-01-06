@@ -590,9 +590,6 @@ InvalidState
 let
 data
 =
-try
-!
-(
 StructuredCloneData
 :
 :
@@ -601,7 +598,7 @@ write
 cx
 message
 )
-)
+?
 ;
 let
 msg_vec

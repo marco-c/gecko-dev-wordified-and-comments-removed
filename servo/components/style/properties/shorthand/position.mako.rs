@@ -392,9 +392,6 @@ i
 let
 grow
 =
-try
-!
-(
 Number
 :
 :
@@ -403,7 +400,7 @@ parse_non_negative
 context
 input
 )
-)
+?
 ;
 let
 shrink

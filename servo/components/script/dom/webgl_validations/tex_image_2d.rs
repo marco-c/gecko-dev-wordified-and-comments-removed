@@ -1147,9 +1147,6 @@ height
 border
 }
 =
-try
-!
-(
 self
 .
 common_validator
@@ -1157,7 +1154,7 @@ common_validator
 validate
 (
 )
-)
+?
 ;
 if
 target

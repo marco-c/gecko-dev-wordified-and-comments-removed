@@ -2321,9 +2321,6 @@ bool
 let
 dom_class
 =
-try
-!
-(
 get_dom_class
 (
 obj
@@ -2355,12 +2352,6 @@ obj
 UnwrapObject
 (
 obj
-/
-*
-stopAtWindowProxy
-=
-*
-/
 0
 )
 ;
@@ -2436,7 +2427,7 @@ Err
 }
 }
 )
-)
+?
 ;
 if
 proto_check

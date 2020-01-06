@@ -135,14 +135,11 @@ namespace_from_domstring
 namespace
 )
 ;
-try
-!
-(
 validate_qualified_name
 (
 qualified_name
 )
-)
+?
 ;
 let
 colon

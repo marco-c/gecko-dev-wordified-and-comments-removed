@@ -2531,9 +2531,6 @@ fmt
 :
 Result
 {
-try
-!
-(
 write
 !
 (
@@ -2549,7 +2546,7 @@ get_local_name
 (
 )
 )
-)
+?
 ;
 if
 let
@@ -2564,9 +2561,6 @@ get_id
 (
 )
 {
-try
-!
-(
 write
 !
 (
@@ -2579,7 +2573,7 @@ id
 "
 id
 )
-)
+?
 ;
 }
 let

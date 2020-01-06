@@ -2190,9 +2190,6 @@ first_token_type
 css
 )
 =
-try
-!
-(
 :
 :
 custom_properties
@@ -2202,7 +2199,7 @@ parse_non_custom_with_var
 (
 input
 )
-)
+?
 ;
 declarations
 .
@@ -8532,9 +8529,6 @@ fmt
 :
 Result
 {
-try
-!
-(
 self
 .
 id
@@ -8545,11 +8539,8 @@ to_css
 (
 f
 )
-)
+?
 ;
-try
-!
-(
 f
 .
 write_str
@@ -8558,7 +8549,7 @@ write_str
 :
 "
 )
-)
+?
 ;
 self
 .

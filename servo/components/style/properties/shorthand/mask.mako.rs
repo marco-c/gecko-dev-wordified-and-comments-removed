@@ -418,9 +418,6 @@ new
 ;
 %
 endfor
-try
-!
-(
 input
 .
 parse_comma_separated
@@ -560,9 +557,6 @@ try
 input
 |
 {
-try
-!
-(
 input
 .
 expect_delim
@@ -571,7 +565,7 @@ expect_delim
 /
 '
 )
-)
+?
 ;
 mask_size
 :
@@ -906,7 +900,7 @@ into
 }
 }
 )
-)
+?
 ;
 Ok
 (

@@ -9359,9 +9359,6 @@ throw
 an
 InvalidStateError
 exception
-try
-!
-(
 self
 .
 fetch_image_data
@@ -9376,7 +9373,7 @@ Error
 :
 InvalidState
 )
-)
+?
 }
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
@@ -9398,9 +9395,6 @@ get_or_init_2d_context
 (
 )
 ;
-try
-!
-(
 canvas
 .
 fetch_all_data
@@ -9414,7 +9408,7 @@ Error
 :
 InvalidState
 )
-)
+?
 }
 HTMLImageElementOrHTMLCanvasElementOrCanvasRenderingContext2D
 :
@@ -9445,9 +9439,6 @@ get_or_init_2d_context
 (
 )
 ;
-try
-!
-(
 canvas
 .
 fetch_all_data
@@ -9461,7 +9452,7 @@ Error
 :
 InvalidState
 )
-)
+?
 }
 }
 ;

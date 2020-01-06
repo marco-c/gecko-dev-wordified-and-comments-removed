@@ -2275,9 +2275,6 @@ Decoder
 :
 Gzip
 (
-try
-!
-(
 GzDecoder
 :
 :
@@ -2285,7 +2282,7 @@ new
 (
 response
 )
-)
+?
 )
 }
 Some
@@ -7404,9 +7401,6 @@ cloned
 let
 origin
 =
-try
-!
-(
 origin
 .
 ok_or
@@ -7414,7 +7408,7 @@ ok_or
 (
 )
 )
-)
+?
 ;
 if
 request

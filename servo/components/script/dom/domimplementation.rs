@@ -423,15 +423,12 @@ DocumentType
 >
 >
 {
-try
-!
-(
 validate_qualified_name
 (
 &
 qualified_name
 )
-)
+?
 ;
 Ok
 (

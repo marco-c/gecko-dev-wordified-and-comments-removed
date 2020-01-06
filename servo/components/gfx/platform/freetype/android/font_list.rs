@@ -814,9 +814,6 @@ let
 mut
 file
 =
-try
-!
-(
 File
 :
 :
@@ -824,7 +821,7 @@ open
 (
 path
 )
-)
+?
 ;
 let
 mut
@@ -837,9 +834,6 @@ new
 (
 )
 ;
-try
-!
-(
 file
 .
 read_to_string
@@ -848,7 +842,7 @@ read_to_string
 mut
 content
 )
-)
+?
 ;
 Ok
 (

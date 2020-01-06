@@ -5841,9 +5841,6 @@ argument
 let
 data
 =
-try
-!
-(
 StructuredCloneData
 :
 :
@@ -5852,7 +5849,7 @@ write
 cx
 message
 )
-)
+?
 ;
 /
 /
@@ -7771,9 +7768,6 @@ ErrorResult
 let
 url
 =
-try
-!
-(
 ServoUrl
 :
 :
@@ -7812,7 +7806,7 @@ e
 )
 }
 )
-)
+?
 ;
 match
 open

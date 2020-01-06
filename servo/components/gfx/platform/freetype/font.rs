@@ -638,9 +638,6 @@ s
 =
 pt_size
 {
-try
-!
-(
 FontHandle
 :
 :
@@ -658,7 +655,7 @@ Err
 )
 )
 )
-)
+?
 }
 Ok
 (

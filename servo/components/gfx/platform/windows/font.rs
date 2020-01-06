@@ -309,9 +309,6 @@ expr
 =
 >
 (
-try
-!
-(
 result
 .
 map_err
@@ -324,7 +321,7 @@ _
 )
 )
 )
-)
+?
 )
 )
 ;
@@ -1790,9 +1787,6 @@ DWRITE_FONT_SIMULATIONS_NONE
 let
 info
 =
-try
-!
-(
 FontInfo
 :
 :
@@ -1801,7 +1795,7 @@ new_from_face
 &
 face
 )
-)
+?
 ;
 (
 info
@@ -1833,9 +1827,6 @@ create_font_face
 let
 info
 =
-try
-!
-(
 FontInfo
 :
 :
@@ -1844,7 +1835,7 @@ new_from_font
 &
 font
 )
-)
+?
 ;
 (
 info

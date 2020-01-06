@@ -10961,15 +10961,12 @@ PseudoClass
 :
 Lang
 (
-try
-!
-(
 parser
 .
 expect_ident_or_string
 (
 )
-)
+?
 .
 into_owned
 (

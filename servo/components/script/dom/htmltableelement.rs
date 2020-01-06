@@ -873,9 +873,6 @@ upcast
 )
 )
 ;
-try
-!
-(
 node
 .
 InsertBefore
@@ -887,7 +884,7 @@ upcast
 )
 reference_node
 )
-)
+?
 ;
 }
 Ok

@@ -361,9 +361,6 @@ fmt
 :
 Result
 {
-try
-!
-(
 write
 !
 (
@@ -391,7 +388,7 @@ len
 (
 )
 )
-)
+?
 ;
 for
 float
@@ -404,9 +401,6 @@ iter
 (
 )
 {
-try
-!
-(
 write
 !
 (
@@ -419,7 +413,7 @@ f
 "
 float
 )
-)
+?
 ;
 }
 Ok

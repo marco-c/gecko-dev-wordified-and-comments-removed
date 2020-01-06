@@ -3409,9 +3409,6 @@ fmt
 :
 Result
 {
-try
-!
-(
 write
 !
 (
@@ -3423,7 +3420,7 @@ GlyphStore
 n
 "
 )
-)
+?
 ;
 let
 mut
@@ -3457,9 +3454,6 @@ is_simple
 (
 )
 {
-try
-!
-(
 write
 !
 (
@@ -3492,7 +3486,7 @@ advance
 (
 )
 )
-)
+?
 ;
 continue
 }
@@ -3505,9 +3499,6 @@ is_initial
 {
 continue
 }
-try
-!
-(
 write
 !
 (
@@ -3519,7 +3510,7 @@ complex
 .
 "
 )
-)
+?
 ;
 if
 detailed_buffer
@@ -3534,9 +3525,6 @@ is_none
 {
 continue
 }
-try
-!
-(
 write
 !
 (
@@ -3569,7 +3557,7 @@ advance
 (
 )
 )
-)
+?
 ;
 }
 Ok

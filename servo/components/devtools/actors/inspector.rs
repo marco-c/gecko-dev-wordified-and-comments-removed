@@ -1261,9 +1261,6 @@ unwrap
 let
 doc_elem_info
 =
-try
-!
-(
 rx
 .
 recv
@@ -1279,7 +1276,7 @@ ok_or
 (
 )
 )
-)
+?
 ;
 let
 node
@@ -1444,9 +1441,6 @@ unwrap
 let
 children
 =
-try
-!
-(
 rx
 .
 recv
@@ -1462,7 +1456,7 @@ ok_or
 (
 )
 )
-)
+?
 ;
 let
 msg
@@ -2357,9 +2351,6 @@ width
 height
 }
 =
-try
-!
-(
 rx
 .
 recv
@@ -2375,7 +2366,7 @@ ok_or
 (
 )
 )
-)
+?
 ;
 let
 auto_margins
@@ -2909,9 +2900,6 @@ unwrap
 let
 root_info
 =
-try
-!
-(
 rx
 .
 recv
@@ -2927,7 +2915,7 @@ ok_or
 (
 )
 )
-)
+?
 ;
 let
 node

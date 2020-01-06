@@ -2299,9 +2299,6 @@ init_sequence
 =
 >
 {
-try
-!
-(
 headers_copy
 .
 fill
@@ -2321,7 +2318,7 @@ clone
 )
 )
 )
-)
+?
 ;
 }
 &
@@ -2336,9 +2333,6 @@ init_map
 =
 >
 {
-try
-!
-(
 headers_copy
 .
 fill
@@ -2358,7 +2352,7 @@ clone
 )
 )
 )
-)
+?
 ;
 }
 }
@@ -2690,9 +2684,6 @@ input_request
 =
 input
 {
-try
-!
-(
 r
 .
 Headers
@@ -2716,7 +2707,7 @@ Headers
 )
 )
 )
-)
+?
 ;
 }
 }
@@ -2732,9 +2723,6 @@ _
 )
 =
 >
-try
-!
-(
 r
 .
 Headers
@@ -2754,7 +2742,7 @@ headers_copy
 )
 )
 )
-)
+?
 _
 =
 >
@@ -3037,9 +3025,6 @@ unwrap
 (
 )
 {
-try
-!
-(
 r
 .
 Headers
@@ -3080,7 +3065,7 @@ to_vec
 )
 )
 )
-)
+?
 ;
 }
 }
@@ -3435,9 +3420,6 @@ borrow_mut
 =
 mime_type
 ;
-try
-!
-(
 r_clone
 .
 Headers
@@ -3461,7 +3443,7 @@ Headers
 )
 )
 )
-)
+?
 ;
 r_clone
 .

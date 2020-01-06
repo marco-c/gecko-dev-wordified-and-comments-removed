@@ -3091,9 +3091,6 @@ shared_lock
 .
 wrap
 (
-try
-!
-(
 ViewportRule
 :
 :
@@ -3103,7 +3100,7 @@ parse
 context
 input
 )
-)
+?
 )
 )
 )

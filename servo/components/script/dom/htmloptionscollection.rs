@@ -435,16 +435,13 @@ Node
 (
 )
 ;
-try
-!
-(
 root
 .
 AppendChild
 (
 node
 )
-)
+?
 ;
 }
 ;
@@ -787,9 +784,6 @@ n
 >
 0
 {
-try
-!
-(
 self
 .
 add_new_elements
@@ -798,7 +792,7 @@ n
 as
 u32
 )
-)
+?
 ;
 }
 /
