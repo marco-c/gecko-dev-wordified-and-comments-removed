@@ -1309,10 +1309,6 @@ screenshot
 -
 capture
 -
-desktop
--
-instrumentation
--
 windows
 -
 talos
@@ -1406,6 +1402,10 @@ desktop
 screenshot
 -
 capture
+-
+desktop
+-
+instrumentation
 -
 windows
 -
