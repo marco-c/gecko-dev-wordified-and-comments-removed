@@ -2429,6 +2429,7 @@ LDFLAGS
 =
 "
 LDFLAGS
+DSO_PIC_CFLAGS
 -
 pie
 "
