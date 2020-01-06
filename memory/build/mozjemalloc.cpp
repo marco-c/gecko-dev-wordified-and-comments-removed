@@ -15887,9 +15887,11 @@ Init
 (
 )
 )
+{
 return
-true
+false
 ;
+}
 memset
 (
 &
@@ -16221,7 +16223,7 @@ ARENA_MAGIC
 #
 endif
 return
-false
+true
 ;
 }
 static
@@ -16302,6 +16304,7 @@ if
 ret
 |
 |
+!
 ret
 -
 >
