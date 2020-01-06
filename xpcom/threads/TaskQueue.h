@@ -139,7 +139,7 @@ return
 this
 ;
 }
-void
+nsresult
 Dispatch
 (
 already_AddRefed
@@ -240,9 +240,7 @@ rv
 }
 #
 endif
-Unused
-<
-<
+return
 rv
 ;
 }

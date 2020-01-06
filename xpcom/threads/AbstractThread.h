@@ -205,7 +205,7 @@ TailDispatch
 }
 ;
 virtual
-void
+nsresult
 Dispatch
 (
 already_AddRefed

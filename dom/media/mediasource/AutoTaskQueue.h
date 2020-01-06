@@ -135,7 +135,7 @@ TailDispatcher
 )
 ;
 }
-void
+nsresult
 Dispatch
 (
 already_AddRefed
@@ -154,6 +154,7 @@ NormalDispatch
 )
 override
 {
+return
 mTaskQueue
 -
 >

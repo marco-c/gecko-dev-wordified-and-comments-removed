@@ -180,7 +180,7 @@ IsOnCurrentThread
 ;
 }
 virtual
-void
+nsresult
 Dispatch
 (
 already_AddRefed
@@ -244,6 +244,7 @@ aFailureHandling
 )
 ;
 return
+NS_OK
 ;
 }
 RefPtr
@@ -294,9 +295,7 @@ rv
 )
 )
 ;
-Unused
-<
-<
+return
 rv
 ;
 }
