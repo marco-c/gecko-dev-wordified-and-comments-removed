@@ -8159,7 +8159,7 @@ for
 T
 {
 fn
-interpolate
+add_weighted
 (
 &
 self
@@ -8167,7 +8167,10 @@ other
 :
 &
 Self
-time
+self_portion
+:
+f64
+other_portion
 :
 f64
 )
@@ -8220,10 +8223,11 @@ try
 (
 number
 .
-interpolate
+add_weighted
 (
 other
-time
+self_portion
+other_portion
 )
 )
 )
