@@ -6189,7 +6189,12 @@ mSequence
 ;
 mIgnoreSelectionChange
 =
-true
+!
+resetSelStart
+|
+|
+!
+resetSelEnd
 ;
 }
 }
