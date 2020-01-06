@@ -1247,17 +1247,6 @@ guid
 }
 else
 {
-profileStorage
-.
-addresses
-.
-add
-(
-address
-.
-record
-)
-;
 }
 }
 }
