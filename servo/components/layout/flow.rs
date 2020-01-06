@@ -61,6 +61,7 @@ flow_list
 :
 {
 FlowList
+FlowListIterator
 MutFlowListIterator
 }
 ;
@@ -166,7 +167,6 @@ std
 {
 fmt
 mem
-raw
 }
 ;
 use
@@ -2222,7 +2222,6 @@ transmute
 &
 T
 &
-raw
 :
 :
 TraitObject
@@ -2270,16 +2269,7 @@ Flow
 )
 -
 >
-impl
-Iterator
-<
-Item
-=
-&
-'
-a
-Flow
->
+FlowListIterator
 {
 base
 (
@@ -2347,7 +2337,6 @@ transmute
 mut
 T
 &
-raw
 :
 :
 TraitObject
@@ -6686,7 +6675,6 @@ transmute
 <
 &
 Flow
-raw
 :
 :
 TraitObject

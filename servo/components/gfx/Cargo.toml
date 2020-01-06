@@ -53,6 +53,16 @@ lib
 rs
 "
 [
+features
+]
+unstable
+=
+[
+"
+simd
+"
+]
+[
 dependencies
 ]
 app_units
@@ -547,6 +557,9 @@ dependencies
 ]
 simd
 =
+{
+version
+=
 "
 0
 .
@@ -554,6 +567,10 @@ simd
 .
 0
 "
+optional
+=
+true
+}
 [
 target
 .

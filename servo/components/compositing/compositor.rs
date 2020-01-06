@@ -24,15 +24,6 @@ RenderListener
 }
 ;
 use
-core
-:
-:
-nonzero
-:
-:
-NonZero
-;
-use
 euclid
 :
 :
@@ -104,6 +95,12 @@ base
 Image
 PixelFormat
 }
+;
+use
+nonzero
+:
+:
+NonZeroU32
 ;
 use
 profile_traits
@@ -416,7 +413,7 @@ index
 :
 PipelineIndex
 (
-NonZero
+NonZeroU32
 :
 :
 new

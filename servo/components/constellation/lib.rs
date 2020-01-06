@@ -9,9 +9,17 @@ unsafe_code
 #
 !
 [
+cfg_attr
+(
+feature
+=
+"
+unstable
+"
 feature
 (
 conservative_impl_trait
+)
 )
 ]
 #
