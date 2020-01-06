@@ -5424,8 +5424,8 @@ outerWidth
 !
 =
 width
-&
-&
+|
+|
 win
 .
 outerHeight
@@ -5443,12 +5443,7 @@ resolve
 >
 {
 const
-fps15
-=
-66
-;
-const
-synchronousResize
+optimisedResize
 =
 (
 )
@@ -5456,10 +5451,9 @@ synchronousResize
 >
 win
 .
-setTimeout
+requestAnimationFrame
 (
 resolve
-fps15
 )
 ;
 win
@@ -5469,7 +5463,7 @@ addEventListener
 "
 resize
 "
-synchronousResize
+optimisedResize
 {
 once
 :
