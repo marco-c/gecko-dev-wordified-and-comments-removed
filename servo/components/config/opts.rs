@@ -2452,13 +2452,13 @@ show_debug_parallel_layout
 false
 enable_text_antialiasing
 :
-false
+true
 enable_subpixel_text_antialiasing
 :
-false
+true
 enable_canvas_antialiasing
 :
-false
+true
 trace_layout
 :
 false
