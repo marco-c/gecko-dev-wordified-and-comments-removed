@@ -178,7 +178,7 @@ gMultiProcessBrowser
 !
 aBrowser
 .
-isConnected
+contentWindow
 )
 {
 return
