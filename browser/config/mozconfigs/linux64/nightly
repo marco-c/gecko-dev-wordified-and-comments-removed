@@ -28,6 +28,12 @@ enable
 verify
 -
 mar
+ac_add_options
+-
+-
+enable
+-
+dmd
 #
 This
 will
