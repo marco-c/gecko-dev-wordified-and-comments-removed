@@ -3030,7 +3030,6 @@ task_source
 .
 queue_with_canceller
 (
-box
 task
 &
 canceller
@@ -3060,7 +3059,6 @@ task_source
 .
 queue_with_canceller
 (
-box
 task
 &
 canceller
@@ -3088,7 +3086,6 @@ task_source
 .
 queue_with_canceller
 (
-box
 task
 &
 canceller

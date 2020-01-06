@@ -3739,7 +3739,6 @@ self
 let
 task
 =
-box
 task
 !
 (

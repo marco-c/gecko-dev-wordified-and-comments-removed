@@ -49,8 +49,8 @@ task
 :
 :
 {
-Task
 TaskCanceller
+TaskOnce
 }
 ;
 use
@@ -166,12 +166,9 @@ T
 (
 &
 self
-msg
+task
 :
-Box
-<
 T
->
 canceller
 :
 &
@@ -189,9 +186,7 @@ Result
 where
 T
 :
-Send
-+
-Task
+TaskOnce
 +
 '
 static
@@ -208,11 +203,12 @@ ScriptThreadEventCategory
 :
 :
 PerformanceTimelineTask
+box
 canceller
 .
 wrap_task
 (
-msg
+task
 )
 )
 ;
@@ -274,7 +270,6 @@ self
 .
 queue
 (
-box
 task
 !
 (

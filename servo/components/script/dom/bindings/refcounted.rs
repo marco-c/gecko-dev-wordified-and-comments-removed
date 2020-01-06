@@ -188,7 +188,7 @@ use
 task
 :
 :
-Task
+TaskOnce
 ;
 #
 [
@@ -637,9 +637,7 @@ Error
 -
 >
 impl
-Send
-+
-Task
+TaskOnce
 {
 let
 this
@@ -744,9 +742,7 @@ T
 -
 >
 impl
-Send
-+
-Task
+TaskOnce
 where
 T
 :

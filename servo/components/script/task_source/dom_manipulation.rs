@@ -107,8 +107,8 @@ task
 :
 :
 {
-Task
 TaskCanceller
+TaskOnce
 }
 ;
 use
@@ -193,12 +193,9 @@ T
 (
 &
 self
-msg
+task
 :
-Box
-<
 T
->
 canceller
 :
 &
@@ -216,9 +213,7 @@ Result
 where
 T
 :
-Task
-+
-Send
+TaskOnce
 +
 '
 static
@@ -240,11 +235,12 @@ ScriptThreadEventCategory
 :
 :
 ScriptEvent
+box
 canceller
 .
 wrap_task
 (
-msg
+task
 )
 )
 )
@@ -310,7 +306,6 @@ target
 let
 task
 =
-box
 EventTask
 {
 target
@@ -380,7 +375,6 @@ self
 .
 queue
 (
-box
 SimpleEventTask
 {
 target
