@@ -94,6 +94,11 @@ dom
 =
 [
 '
+ClientChannelHelper
+.
+h
+'
+'
 ClientHandle
 .
 h
@@ -148,6 +153,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+ClientChannelHelper
+.
+cpp
+'
 '
 ClientHandle
 .
