@@ -56,11 +56,7 @@ require
 "
 .
 /
-census
--
-tree
--
-item
+CensusTreeItem
 "
 )
 )

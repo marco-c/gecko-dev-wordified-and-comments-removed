@@ -55,7 +55,7 @@ require
 "
 .
 /
-census
+Census
 "
 )
 )
@@ -70,9 +70,7 @@ require
 "
 .
 /
-census
--
-header
+CensusHeader
 "
 )
 )
@@ -87,9 +85,7 @@ require
 "
 .
 /
-dominator
--
-tree
+DominatorTree
 "
 )
 )
@@ -104,11 +100,7 @@ require
 "
 .
 /
-dominator
--
-tree
--
-header
+DominatorTreeHeader
 "
 )
 )
@@ -123,9 +115,7 @@ require
 "
 .
 /
-tree
--
-map
+TreeMap
 "
 )
 )
@@ -161,7 +151,7 @@ require
 "
 .
 /
-individuals
+Individuals
 "
 )
 )
@@ -176,9 +166,7 @@ require
 "
 .
 /
-individuals
--
-header
+IndividualsHeader
 "
 )
 )
@@ -193,9 +181,7 @@ require
 "
 .
 /
-shortest
--
-paths
+ShortestPaths
 "
 )
 )

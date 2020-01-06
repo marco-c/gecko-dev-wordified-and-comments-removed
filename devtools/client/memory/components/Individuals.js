@@ -56,11 +56,7 @@ require
 "
 .
 /
-dominator
--
-tree
--
-item
+DominatorTreeItem
 "
 )
 )
