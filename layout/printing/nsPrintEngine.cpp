@@ -539,13 +539,6 @@ h
 #
 include
 "
-nsIDOMHTMLLinkElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLImageElement
 .
 h
