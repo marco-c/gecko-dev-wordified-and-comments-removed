@@ -248,6 +248,12 @@ aMsg
 )
 ;
 }
+bool
+IsCurrentThread
+(
+)
+const
+;
 private
 :
 void
