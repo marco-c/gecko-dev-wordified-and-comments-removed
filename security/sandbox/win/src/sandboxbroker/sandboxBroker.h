@@ -61,12 +61,6 @@ BrokerServices
 aBrokerServices
 )
 ;
-static
-void
-CacheRulesDirectories
-(
-)
-;
 bool
 LaunchApp
 (
