@@ -67,6 +67,9 @@ mod
 geometry
 ;
 mod
+glyph_cache
+;
+mod
 glyph_rasterizer
 ;
 mod
@@ -448,7 +451,7 @@ euclid
 ;
 extern
 crate
-fnv
+fxhash
 ;
 extern
 crate

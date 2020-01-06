@@ -967,11 +967,20 @@ api
 :
 &
 RenderApi
+_document_id
+:
+&
+DocumentId
 builder
 :
 &
 mut
 DisplayListBuilder
+resources
+:
+&
+mut
+ResourceUpdates
 _pipeline_id
 :
 &
@@ -1063,7 +1072,7 @@ generate_image_key
 (
 )
 ;
-api
+resources
 .
 add_image
 (
@@ -1099,7 +1108,7 @@ vec
 None
 )
 ;
-api
+resources
 .
 add_image
 (
@@ -1137,7 +1146,7 @@ vec
 None
 )
 ;
-api
+resources
 .
 add_image
 (
@@ -1173,7 +1182,7 @@ vec
 None
 )
 ;
-api
+resources
 .
 add_image
 (
@@ -1377,6 +1386,9 @@ glutin
 :
 :
 Event
+document_id
+:
+DocumentId
 api
 :
 &
@@ -1430,6 +1442,7 @@ api
 .
 set_pan
 (
+document_id
 pan
 )
 ;
@@ -1437,6 +1450,7 @@ api
 .
 generate_frame
 (
+document_id
 None
 )
 ;
@@ -1455,6 +1469,7 @@ api
 .
 set_pinch_zoom
 (
+document_id
 ZoomFactor
 :
 :
@@ -1468,6 +1483,7 @@ api
 .
 generate_frame
 (
+document_id
 None
 )
 ;

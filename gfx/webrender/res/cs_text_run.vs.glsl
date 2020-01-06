@@ -243,6 +243,9 @@ prim
 .
 specific_prim_address
 glyph_index
+text
+.
+subpx_dir
 )
 ;
 GlyphResource

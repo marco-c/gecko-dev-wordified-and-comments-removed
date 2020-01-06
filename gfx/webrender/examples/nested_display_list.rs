@@ -64,11 +64,20 @@ _api
 :
 &
 RenderApi
+_document_id
+:
+&
+DocumentId
 builder
 :
 &
 mut
 DisplayListBuilder
+_resources
+:
+&
+mut
+ResourceUpdates
 pipeline_id
 :
 &
@@ -567,6 +576,9 @@ glutin
 :
 :
 Event
+document_id
+:
+DocumentId
 api
 :
 &
@@ -687,6 +699,7 @@ api
 .
 scroll
 (
+document_id
 ScrollLocation
 :
 :
@@ -873,6 +886,7 @@ api
 .
 scroll
 (
+document_id
 ScrollLocation
 :
 :

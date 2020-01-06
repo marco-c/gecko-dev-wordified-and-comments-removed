@@ -3081,3 +3081,9 @@ define_empty_heap_size_of
 ScrollSensitivity
 )
 ;
+define_empty_heap_size_of
+!
+(
+ClipAndScrollInfo
+)
+;

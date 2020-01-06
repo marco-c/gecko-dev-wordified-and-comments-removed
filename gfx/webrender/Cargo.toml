@@ -153,12 +153,14 @@ euclid
 .
 1
 "
-fnv
+fxhash
 =
 "
-1
-.
 0
+.
+2
+.
+1
 "
 gleam
 =
@@ -371,7 +373,7 @@ version
 "
 0
 .
-2
+3
 "
 default
 -
