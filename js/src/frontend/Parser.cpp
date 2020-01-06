@@ -36099,9 +36099,13 @@ null
 (
 )
 ;
-MUST_MATCH_TOKEN
+MUST_MATCH_TOKEN_MOD
 (
 TOK_COLON
+TokenStream
+:
+:
+Operand
 JSMSG_COLON_IN_COND
 )
 ;
