@@ -175,7 +175,7 @@ Call_ConstStringSplit
 \
 _
 (
-Call_IsSuspendedStarGenerator
+Call_IsSuspendedGenerator
 )
 \
 \

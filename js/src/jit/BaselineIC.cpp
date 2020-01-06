@@ -12948,7 +12948,7 @@ native
 )
 =
 =
-intrinsic_IsSuspendedStarGenerator
+intrinsic_IsSuspendedGenerator
 )
 {
 MOZ_ASSERT
@@ -12972,12 +12972,12 @@ JitSpew
 JitSpew_BaselineIC
 "
 Generating
-Call_IsSuspendedStarGenerator
+Call_IsSuspendedGenerator
 stub
 "
 )
 ;
-ICCall_IsSuspendedStarGenerator
+ICCall_IsSuspendedGenerator
 :
 :
 Compiler
@@ -18968,7 +18968,7 @@ true
 ;
 }
 bool
-ICCall_IsSuspendedStarGenerator
+ICCall_IsSuspendedGenerator
 :
 :
 Compiler
