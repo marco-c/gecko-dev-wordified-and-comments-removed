@@ -966,6 +966,12 @@ NotifyUpdatedDictionaries
 (
 )
 ;
+static
+void
+NotifyUpdatedFonts
+(
+)
+;
 #
 if
 defined
