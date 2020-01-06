@@ -211,12 +211,6 @@ bash
 ci
 .
 sh
-branches
-:
-only
-:
--
-master
 deploy
 :
 provider
