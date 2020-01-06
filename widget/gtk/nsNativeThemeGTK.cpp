@@ -689,7 +689,7 @@ aWidgetType
 ThemeWidgetType_COUNT
 )
 ;
-uint8_t
+uint16_t
 key
 =
 GetWidgetStateKey
@@ -745,7 +745,7 @@ aWidgetType
 ThemeWidgetType_COUNT
 )
 ;
-uint8_t
+uint16_t
 key
 =
 GetWidgetStateKey
