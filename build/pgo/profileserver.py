@@ -2,10 +2,6 @@ import
 json
 import
 os
-import
-shutil
-import
-tempfile
 from
 buildconfig
 import
@@ -16,6 +12,10 @@ mozbuild
 base
 import
 MozbuildObject
+from
+mozfile
+import
+TemporaryDirectory
 from
 mozhttpd
 import
@@ -143,15 +143,12 @@ privileged
 '
 )
     
-profilePath
-=
-tempfile
-.
-mkdtemp
+with
+TemporaryDirectory
 (
 )
-    
-try
+as
+profilePath
 :
         
 prefpath
@@ -623,14 +620,4 @@ httpd
 .
 stop
 (
-)
-    
-finally
-:
-        
-shutil
-.
-rmtree
-(
-profilePath
 )
