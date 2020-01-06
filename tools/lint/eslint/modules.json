@@ -4261,10 +4261,16 @@ jsm
 setTimeout
 "
 "
+setTimeoutWithTarget
+"
+"
 clearTimeout
 "
 "
 setInterval
+"
+"
+setIntervalWithTarget
 "
 "
 clearInterval

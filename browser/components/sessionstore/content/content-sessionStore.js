@@ -1788,7 +1788,7 @@ observe
 (
 )
 {
-setTimeout
+setTimeoutWithTarget
 (
 (
 )
@@ -1800,6 +1800,7 @@ collect
 (
 )
 0
+tabEventTarget
 )
 ;
 }
@@ -2357,7 +2358,7 @@ this
 .
 _timeout
 =
-setTimeout
+setTimeoutWithTarget
 (
 (
 )
@@ -2371,6 +2372,7 @@ send
 this
 .
 BATCH_DELAY_MS
+tabEventTarget
 )
 ;
 }
