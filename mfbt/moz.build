@@ -250,6 +250,11 @@ Decimal
 h
 '
 '
+DefineEnum
+.
+h
+'
+'
 double
 -
 conversion

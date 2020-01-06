@@ -139,6 +139,9 @@ TestCountPopulation
 TestCountZeroes
 '
 '
+TestDefineEnum
+'
+'
 TestDoublyLinkedList
 '
 '
