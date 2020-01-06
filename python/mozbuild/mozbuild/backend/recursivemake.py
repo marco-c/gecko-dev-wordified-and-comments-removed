@@ -4758,29 +4758,18 @@ set
         
 compile_roots
 =
-[
-t
-for
-t
-deps
-in
+set
+(
 self
 .
 _compile_graph
 .
-iteritems
+keys
 (
 )
-                         
-if
-not
-deps
-or
-t
-not
-in
+)
+-
 all_compile_deps
-]
         
 rule
 =
