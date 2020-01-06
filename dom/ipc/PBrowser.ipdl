@@ -1669,7 +1669,7 @@ nested
 (
 inside_cpow
 )
-sync
+async
 NotifyIMEFocus
 (
 ContentCache
@@ -1909,7 +1909,7 @@ mouse
 button
 event
 is
-consumd
+consumed
 by
 IME
 .
