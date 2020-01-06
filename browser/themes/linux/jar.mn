@@ -588,6 +588,9 @@ menuPanel
 .
 png
 )
+#
+ifndef
+MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -640,6 +643,8 @@ start
 .
 png
 )
+#
+endif
 *
 skin
 /
