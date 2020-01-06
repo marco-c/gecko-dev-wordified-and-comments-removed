@@ -1383,6 +1383,9 @@ Init
 nsPresContext
 *
 aPresContext
+nsBindingManager
+*
+aBindingManager
 )
 {
 mFirstLineRule
@@ -1414,6 +1417,10 @@ CreateRootNode
 (
 aPresContext
 )
+;
+mBindingManager
+=
+aBindingManager
 ;
 GatherRuleProcessors
 (

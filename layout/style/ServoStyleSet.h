@@ -349,6 +349,9 @@ Init
 nsPresContext
 *
 aPresContext
+nsBindingManager
+*
+aBindingManager
 )
 ;
 void
@@ -1509,6 +1512,12 @@ RefPtr
 ServoStyleRuleMap
 >
 mStyleRuleMap
+;
+RefPtr
+<
+nsBindingManager
+>
+mBindingManager
 ;
 static
 ServoStyleSet

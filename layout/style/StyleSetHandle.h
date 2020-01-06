@@ -100,6 +100,9 @@ ShadowRoot
 }
 }
 class
+nsBindingManager
+;
+class
 nsCSSCounterStyleRule
 ;
 struct
@@ -415,6 +418,9 @@ Init
 nsPresContext
 *
 aPresContext
+nsBindingManager
+*
+aBindingManager
 )
 ;
 inline

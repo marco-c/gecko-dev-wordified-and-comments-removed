@@ -318,6 +318,9 @@ Init
 nsPresContext
 *
 aPresContext
+nsBindingManager
+*
+aBindingManager
 )
 {
 mPresContext
@@ -333,6 +336,10 @@ Servo_StyleSet_Init
 aPresContext
 )
 )
+;
+mBindingManager
+=
+aBindingManager
 ;
 mPresContext
 -
