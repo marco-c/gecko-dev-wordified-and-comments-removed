@@ -16,13 +16,13 @@ name
 name
 #
 #
-_neon
+_ssse3
 #
 include
 "
 .
 /
-od_dering_simd
+cdef_block_simd
 .
 h
 "

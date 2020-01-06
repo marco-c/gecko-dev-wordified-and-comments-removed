@@ -75,7 +75,6 @@ input
 \
 int32_t
 tmp
-out
 ;
 \
 int

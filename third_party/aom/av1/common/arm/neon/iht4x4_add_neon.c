@@ -917,7 +917,8 @@ q8s16
 q9s16
 )
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -931,7 +932,7 @@ tx_type
 )
 {
 case
-0
+DCT_DCT
 :
 av1_iht4x4_16_add_c
 (
@@ -946,7 +947,7 @@ return
 break
 ;
 case
-1
+ADST_DCT
 :
 GENERATE_COSINE_CONSTANTS
 (
@@ -1011,7 +1012,7 @@ q9s16
 break
 ;
 case
-2
+DCT_ADST
 :
 GENERATE_COSINE_CONSTANTS
 (
@@ -1076,7 +1077,7 @@ q9s16
 break
 ;
 case
-3
+ADST_ADST
 :
 GENERATE_SINE_CONSTANTS
 (

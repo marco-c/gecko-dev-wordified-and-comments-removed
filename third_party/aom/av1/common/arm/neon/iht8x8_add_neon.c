@@ -3315,7 +3315,8 @@ q14s16
 q15s16
 )
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -3329,7 +3330,7 @@ tx_type
 )
 {
 case
-0
+DCT_DCT
 :
 av1_iht8x8_64_add_c
 (
@@ -3344,7 +3345,7 @@ return
 break
 ;
 case
-1
+ADST_DCT
 :
 IDCT8x8_1D
 (
@@ -3409,7 +3410,7 @@ q15s16
 break
 ;
 case
-2
+DCT_ADST
 :
 IADST8X8_1D
 (
@@ -3474,7 +3475,7 @@ q15s16
 break
 ;
 case
-3
+ADST_ADST
 :
 IADST8X8_1D
 (

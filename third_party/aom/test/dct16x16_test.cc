@@ -1998,7 +1998,7 @@ tuple
 <
 FdctFunc
 IdctFunc
-int
+TX_TYPE
 aom_bit_depth_t
 >
 Dct16x16Param
@@ -2014,7 +2014,7 @@ tuple
 <
 FhtFunc
 IhtFunc
-int
+TX_TYPE
 aom_bit_depth_t
 >
 Ht16x16Param
@@ -2030,7 +2030,7 @@ tuple
 <
 IdctFunc
 IdctFunc
-int
+TX_TYPE
 aom_bit_depth_t
 >
 Idct16x16Param
@@ -5467,7 +5467,7 @@ make_tuple
 aom_fdct16x16_c
 &
 aom_idct16x16_256_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
@@ -5492,7 +5492,7 @@ make_tuple
 aom_fdct16x16_c
 &
 aom_idct16x16_256_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
@@ -5520,7 +5520,7 @@ make_tuple
 fht16x16_10
 &
 iht16x16_10
-0
+DCT_DCT
 AOM_BITS_10
 )
 make_tuple
@@ -5529,7 +5529,7 @@ make_tuple
 fht16x16_10
 &
 iht16x16_10
-1
+ADST_DCT
 AOM_BITS_10
 )
 make_tuple
@@ -5538,7 +5538,7 @@ make_tuple
 fht16x16_10
 &
 iht16x16_10
-2
+DCT_ADST
 AOM_BITS_10
 )
 make_tuple
@@ -5547,7 +5547,7 @@ make_tuple
 fht16x16_10
 &
 iht16x16_10
-3
+ADST_ADST
 AOM_BITS_10
 )
 make_tuple
@@ -5556,7 +5556,7 @@ make_tuple
 fht16x16_12
 &
 iht16x16_12
-0
+DCT_DCT
 AOM_BITS_12
 )
 make_tuple
@@ -5565,7 +5565,7 @@ make_tuple
 fht16x16_12
 &
 iht16x16_12
-1
+ADST_DCT
 AOM_BITS_12
 )
 make_tuple
@@ -5574,7 +5574,7 @@ make_tuple
 fht16x16_12
 &
 iht16x16_12
-2
+DCT_ADST
 AOM_BITS_12
 )
 make_tuple
@@ -5583,7 +5583,7 @@ make_tuple
 fht16x16_12
 &
 iht16x16_12
-3
+ADST_ADST
 AOM_BITS_12
 )
 make_tuple
@@ -5592,7 +5592,7 @@ make_tuple
 av1_fht16x16_c
 &
 av1_iht16x16_256_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5601,7 +5601,7 @@ make_tuple
 av1_fht16x16_c
 &
 av1_iht16x16_256_add_c
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5610,7 +5610,7 @@ make_tuple
 av1_fht16x16_c
 &
 av1_iht16x16_256_add_c
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -5619,7 +5619,7 @@ make_tuple
 av1_fht16x16_c
 &
 av1_iht16x16_256_add_c
-3
+ADST_ADST
 AOM_BITS_8
 )
 )
@@ -5644,7 +5644,7 @@ make_tuple
 av1_fht16x16_c
 &
 av1_iht16x16_256_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5653,7 +5653,7 @@ make_tuple
 av1_fht16x16_c
 &
 av1_iht16x16_256_add_c
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5662,7 +5662,7 @@ make_tuple
 av1_fht16x16_c
 &
 av1_iht16x16_256_add_c
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -5671,7 +5671,7 @@ make_tuple
 av1_fht16x16_c
 &
 av1_iht16x16_256_add_c
-3
+ADST_ADST
 AOM_BITS_8
 )
 )
@@ -5703,7 +5703,7 @@ make_tuple
 aom_fdct16x16_c
 &
 aom_idct16x16_256_add_neon
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
@@ -5735,12 +5735,16 @@ make_tuple
 aom_fdct16x16_sse2
 &
 aom_idct16x16_256_add_sse2
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
 )
 ;
+#
+if
+!
+CONFIG_DAALA_DCT16
 INSTANTIATE_TEST_CASE_P
 (
 SSE2
@@ -5758,7 +5762,7 @@ make_tuple
 av1_fht16x16_sse2
 &
 av1_iht16x16_256_add_sse2
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5767,7 +5771,7 @@ make_tuple
 av1_fht16x16_sse2
 &
 av1_iht16x16_256_add_sse2
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5776,7 +5780,7 @@ make_tuple
 av1_fht16x16_sse2
 &
 av1_iht16x16_256_add_sse2
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -5785,12 +5789,14 @@ make_tuple
 av1_fht16x16_sse2
 &
 av1_iht16x16_256_add_sse2
-3
+ADST_ADST
 AOM_BITS_8
 )
 )
 )
 ;
+#
+endif
 #
 endif
 #
@@ -5816,12 +5822,16 @@ make_tuple
 aom_fdct16x16_sse2
 &
 aom_idct16x16_256_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
 )
 ;
+#
+if
+!
+CONFIG_DAALA_DCT16
 INSTANTIATE_TEST_CASE_P
 (
 SSE2
@@ -5839,7 +5849,7 @@ make_tuple
 av1_fht16x16_sse2
 &
 av1_iht16x16_256_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5848,7 +5858,7 @@ make_tuple
 av1_fht16x16_sse2
 &
 av1_iht16x16_256_add_c
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5857,7 +5867,7 @@ make_tuple
 av1_fht16x16_sse2
 &
 av1_iht16x16_256_add_c
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -5866,12 +5876,14 @@ make_tuple
 av1_fht16x16_sse2
 &
 av1_iht16x16_256_add_c
-3
+ADST_ADST
 AOM_BITS_8
 )
 )
 )
 ;
+#
+endif
 #
 endif
 #
@@ -5898,7 +5910,7 @@ make_tuple
 aom_fdct16x16_msa
 &
 aom_idct16x16_256_add_msa
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
@@ -5908,6 +5920,10 @@ AOM_BITS_8
 if
 !
 CONFIG_EXT_TX
+&
+&
+!
+CONFIG_DAALA_DCT16
 INSTANTIATE_TEST_CASE_P
 (
 DISABLED_MSA
@@ -5925,7 +5941,7 @@ make_tuple
 av1_fht16x16_msa
 &
 av1_iht16x16_256_add_msa
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5934,7 +5950,7 @@ make_tuple
 av1_fht16x16_msa
 &
 av1_iht16x16_256_add_msa
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -5943,7 +5959,7 @@ make_tuple
 av1_fht16x16_msa
 &
 av1_iht16x16_256_add_msa
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -5952,7 +5968,7 @@ make_tuple
 av1_fht16x16_msa
 &
 av1_iht16x16_256_add_msa
-3
+ADST_ADST
 AOM_BITS_8
 )
 )

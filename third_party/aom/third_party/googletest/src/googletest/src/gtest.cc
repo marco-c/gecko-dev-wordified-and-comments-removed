@@ -1347,6 +1347,7 @@ endif
 namespace
 internal
 {
+GTEST_ATTRIBUTE_NO_SANITIZE_UNSIGNED_OVERFLOW_
 UInt32
 Random
 :

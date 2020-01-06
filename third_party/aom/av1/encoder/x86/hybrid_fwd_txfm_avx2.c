@@ -7367,7 +7367,8 @@ in
 16
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -11608,7 +11609,8 @@ in1
 32
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param

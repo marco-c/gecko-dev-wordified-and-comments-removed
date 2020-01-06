@@ -14,9 +14,9 @@ with
 clang
 -
 format
-3
+4
 .
-9
+0
 .
 1
 AccessModifierOffset
@@ -234,6 +234,12 @@ IndentWidth
 IndentWrappedFunctionNames
 :
 false
+JavaScriptQuotes
+:
+Leave
+JavaScriptWrapImports
+:
+true
 KeepEmptyLinesAtTheStartOfBlocks
 :
 false
@@ -290,6 +296,9 @@ false
 SpaceAfterCStyleCast
 :
 false
+SpaceAfterTemplateKeyword
+:
+true
 SpaceBeforeAssignmentOperators
 :
 true

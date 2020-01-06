@@ -2600,7 +2600,7 @@ make_tuple
 aom_fdct32x32_c
 &
 aom_idct32x32_1024_add_neon
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -2609,7 +2609,7 @@ make_tuple
 aom_fdct32x32_rd_c
 &
 aom_idct32x32_1024_add_neon
-1
+ADST_DCT
 AOM_BITS_8
 )
 )
@@ -2641,7 +2641,7 @@ make_tuple
 aom_fdct32x32_sse2
 &
 aom_idct32x32_1024_add_sse2
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -2650,7 +2650,7 @@ make_tuple
 aom_fdct32x32_rd_sse2
 &
 aom_idct32x32_1024_add_sse2
-1
+ADST_DCT
 AOM_BITS_8
 )
 )
@@ -2681,7 +2681,7 @@ make_tuple
 aom_fdct32x32_sse2
 &
 aom_idct32x32_1024_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -2690,7 +2690,7 @@ make_tuple
 aom_fdct32x32_rd_sse2
 &
 aom_idct32x32_1024_add_c
-1
+ADST_DCT
 AOM_BITS_8
 )
 )
@@ -2722,7 +2722,7 @@ make_tuple
 aom_fdct32x32_avx2
 &
 aom_idct32x32_1024_add_sse2
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -2731,7 +2731,7 @@ make_tuple
 aom_fdct32x32_rd_avx2
 &
 aom_idct32x32_1024_add_sse2
-1
+ADST_DCT
 AOM_BITS_8
 )
 )
@@ -2762,7 +2762,7 @@ make_tuple
 aom_fdct32x32_avx2
 &
 aom_idct32x32_1024_add_sse2
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -2771,7 +2771,7 @@ make_tuple
 aom_fdct32x32_rd_avx2
 &
 aom_idct32x32_1024_add_sse2
-1
+ADST_DCT
 AOM_BITS_8
 )
 )
@@ -2803,7 +2803,7 @@ make_tuple
 aom_fdct32x32_msa
 &
 aom_idct32x32_1024_add_msa
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -2812,7 +2812,7 @@ make_tuple
 aom_fdct32x32_rd_msa
 &
 aom_idct32x32_1024_add_msa
-1
+ADST_DCT
 AOM_BITS_8
 )
 )

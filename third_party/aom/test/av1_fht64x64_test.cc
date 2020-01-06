@@ -133,7 +133,7 @@ tuple
 <
 FhtFunc
 IhtFunc
-int
+TX_TYPE
 aom_bit_depth_t
 int
 >
@@ -445,7 +445,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-0
+DCT_DCT
 AOM_BITS_8
 4096
 )
@@ -455,7 +455,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-1
+ADST_DCT
 AOM_BITS_8
 4096
 )
@@ -465,7 +465,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-2
+DCT_ADST
 AOM_BITS_8
 4096
 )
@@ -475,7 +475,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-3
+ADST_ADST
 AOM_BITS_8
 4096
 )
@@ -488,7 +488,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-4
+FLIPADST_DCT
 AOM_BITS_8
 4096
 )
@@ -498,7 +498,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-5
+DCT_FLIPADST
 AOM_BITS_8
 4096
 )
@@ -508,7 +508,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-6
+FLIPADST_FLIPADST
 AOM_BITS_8
 4096
 )
@@ -518,7 +518,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-7
+ADST_FLIPADST
 AOM_BITS_8
 4096
 )
@@ -528,7 +528,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-8
+FLIPADST_ADST
 AOM_BITS_8
 4096
 )
@@ -538,7 +538,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-9
+IDTX
 AOM_BITS_8
 4096
 )
@@ -548,7 +548,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-10
+V_DCT
 AOM_BITS_8
 4096
 )
@@ -558,7 +558,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-11
+H_DCT
 AOM_BITS_8
 4096
 )
@@ -568,7 +568,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-12
+V_ADST
 AOM_BITS_8
 4096
 )
@@ -578,7 +578,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-13
+H_ADST
 AOM_BITS_8
 4096
 )
@@ -588,7 +588,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-14
+V_FLIPADST
 AOM_BITS_8
 4096
 )
@@ -598,7 +598,7 @@ make_tuple
 av1_fht64x64_c
 &
 av1_iht64x64_4096_add_c
-15
+H_FLIPADST
 AOM_BITS_8
 4096
 )

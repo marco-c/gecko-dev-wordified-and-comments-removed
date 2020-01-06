@@ -265,7 +265,7 @@ tuple
 <
 FdctFunc
 IdctFunc
-int
+TX_TYPE
 aom_bit_depth_t
 >
 Dct8x8Param
@@ -281,7 +281,7 @@ tuple
 <
 FhtFunc
 IhtFunc
-int
+TX_TYPE
 aom_bit_depth_t
 >
 Ht8x8Param
@@ -4340,7 +4340,7 @@ make_tuple
 aom_fdct8x8_c
 &
 aom_idct8x8_64_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
@@ -4365,7 +4365,7 @@ make_tuple
 aom_fdct8x8_c
 &
 aom_idct8x8_64_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
@@ -4393,7 +4393,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4402,7 +4402,7 @@ make_tuple
 fht8x8_10
 &
 iht8x8_10
-0
+DCT_DCT
 AOM_BITS_10
 )
 make_tuple
@@ -4411,7 +4411,7 @@ make_tuple
 fht8x8_10
 &
 iht8x8_10
-1
+ADST_DCT
 AOM_BITS_10
 )
 make_tuple
@@ -4420,7 +4420,7 @@ make_tuple
 fht8x8_10
 &
 iht8x8_10
-2
+DCT_ADST
 AOM_BITS_10
 )
 make_tuple
@@ -4429,7 +4429,7 @@ make_tuple
 fht8x8_10
 &
 iht8x8_10
-3
+ADST_ADST
 AOM_BITS_10
 )
 make_tuple
@@ -4438,7 +4438,7 @@ make_tuple
 fht8x8_12
 &
 iht8x8_12
-0
+DCT_DCT
 AOM_BITS_12
 )
 make_tuple
@@ -4447,7 +4447,7 @@ make_tuple
 fht8x8_12
 &
 iht8x8_12
-1
+ADST_DCT
 AOM_BITS_12
 )
 make_tuple
@@ -4456,7 +4456,7 @@ make_tuple
 fht8x8_12
 &
 iht8x8_12
-2
+DCT_ADST
 AOM_BITS_12
 )
 make_tuple
@@ -4465,7 +4465,7 @@ make_tuple
 fht8x8_12
 &
 iht8x8_12
-3
+ADST_ADST
 AOM_BITS_12
 )
 make_tuple
@@ -4474,7 +4474,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_c
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4483,7 +4483,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_c
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -4492,7 +4492,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_c
-3
+ADST_ADST
 AOM_BITS_8
 )
 )
@@ -4517,7 +4517,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4526,7 +4526,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_c
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4535,7 +4535,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_c
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -4544,7 +4544,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_c
-3
+ADST_ADST
 AOM_BITS_8
 )
 )
@@ -4576,7 +4576,7 @@ make_tuple
 aom_fdct8x8_neon
 &
 aom_idct8x8_64_add_neon
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
@@ -4608,7 +4608,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_neon
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4617,7 +4617,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_neon
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4626,7 +4626,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_neon
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -4635,7 +4635,7 @@ make_tuple
 av1_fht8x8_c
 &
 av1_iht8x8_64_add_neon
-3
+ADST_ADST
 AOM_BITS_8
 )
 )
@@ -4667,12 +4667,16 @@ make_tuple
 aom_fdct8x8_sse2
 &
 aom_idct8x8_64_add_sse2
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
 )
 ;
+#
+if
+!
+CONFIG_DAALA_DCT8
 INSTANTIATE_TEST_CASE_P
 (
 SSE2
@@ -4690,7 +4694,7 @@ make_tuple
 av1_fht8x8_sse2
 &
 av1_iht8x8_64_add_sse2
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4699,7 +4703,7 @@ make_tuple
 av1_fht8x8_sse2
 &
 av1_iht8x8_64_add_sse2
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4708,7 +4712,7 @@ make_tuple
 av1_fht8x8_sse2
 &
 av1_iht8x8_64_add_sse2
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -4717,12 +4721,14 @@ make_tuple
 av1_fht8x8_sse2
 &
 av1_iht8x8_64_add_sse2
-3
+ADST_ADST
 AOM_BITS_8
 )
 )
 )
 ;
+#
+endif
 #
 endif
 #
@@ -4748,12 +4754,16 @@ make_tuple
 aom_fdct8x8_sse2
 &
 aom_idct8x8_64_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
 )
 ;
+#
+if
+!
+CONFIG_DAALA_DCT8
 INSTANTIATE_TEST_CASE_P
 (
 SSE2
@@ -4771,7 +4781,7 @@ make_tuple
 av1_fht8x8_sse2
 &
 av1_iht8x8_64_add_c
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4780,7 +4790,7 @@ make_tuple
 av1_fht8x8_sse2
 &
 av1_iht8x8_64_add_c
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4789,7 +4799,7 @@ make_tuple
 av1_fht8x8_sse2
 &
 av1_iht8x8_64_add_c
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -4798,12 +4808,14 @@ make_tuple
 av1_fht8x8_sse2
 &
 av1_iht8x8_64_add_c
-3
+ADST_ADST
 AOM_BITS_8
 )
 )
 )
 ;
+#
+endif
 #
 endif
 #
@@ -4829,7 +4841,7 @@ make_tuple
 aom_fdct8x8_ssse3
 &
 aom_idct8x8_64_add_ssse3
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
@@ -4861,7 +4873,7 @@ make_tuple
 aom_fdct8x8_msa
 &
 aom_idct8x8_64_add_msa
-0
+DCT_DCT
 AOM_BITS_8
 )
 )
@@ -4871,6 +4883,10 @@ AOM_BITS_8
 if
 !
 CONFIG_EXT_TX
+&
+&
+!
+CONFIG_DAALA_DCT8
 INSTANTIATE_TEST_CASE_P
 (
 MSA
@@ -4888,7 +4904,7 @@ make_tuple
 av1_fht8x8_msa
 &
 av1_iht8x8_64_add_msa
-0
+DCT_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4897,7 +4913,7 @@ make_tuple
 av1_fht8x8_msa
 &
 av1_iht8x8_64_add_msa
-1
+ADST_DCT
 AOM_BITS_8
 )
 make_tuple
@@ -4906,7 +4922,7 @@ make_tuple
 av1_fht8x8_msa
 &
 av1_iht8x8_64_add_msa
-2
+DCT_ADST
 AOM_BITS_8
 )
 make_tuple
@@ -4915,7 +4931,7 @@ make_tuple
 av1_fht8x8_msa
 &
 av1_iht8x8_64_add_msa
-3
+ADST_ADST
 AOM_BITS_8
 )
 )

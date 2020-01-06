@@ -133,7 +133,6 @@ tuple
 <
 int
 int
-int
 convolve_2d_func
 >
 Convolve2DParam
@@ -264,7 +263,6 @@ tr1
 :
 tuple
 <
-int
 int
 int
 int

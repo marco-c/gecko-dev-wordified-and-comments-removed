@@ -1431,7 +1431,7 @@ int32_t
 coeff
 int
 input_stride
-int
+TX_TYPE
 tx_type
 int
 bd
@@ -9161,7 +9161,7 @@ int32_t
 coeff
 int
 stride
-int
+TX_TYPE
 tx_type
 int
 bd
@@ -18344,7 +18344,7 @@ int32_t
 coeff
 int
 stride
-int
+TX_TYPE
 tx_type
 int
 bd

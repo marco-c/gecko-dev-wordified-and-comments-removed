@@ -1868,6 +1868,7 @@ name
 \
 #
 name
+\
 reinterpret_cast
 <
 fptr
@@ -1878,7 +1879,6 @@ c_
 #
 name
 )
-\
 reinterpret_cast
 <
 fptr

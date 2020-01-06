@@ -880,7 +880,7 @@ const
 int
 bw
 =
-8
+MI_SIZE
 *
 mi_size_wide
 [
@@ -893,7 +893,7 @@ const
 int
 bh
 =
-8
+MI_SIZE
 *
 mi_size_high
 [

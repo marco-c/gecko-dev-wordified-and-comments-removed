@@ -3141,7 +3141,8 @@ in
 16
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param

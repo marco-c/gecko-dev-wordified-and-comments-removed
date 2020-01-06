@@ -50,7 +50,8 @@ in1
 in2
 in3
 ;
-int32_t
+const
+TX_TYPE
 tx_type
 =
 txfm_param

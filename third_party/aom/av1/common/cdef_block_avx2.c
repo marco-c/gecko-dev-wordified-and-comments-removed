@@ -16,13 +16,13 @@ name
 name
 #
 #
-_sse2
+_avx2
 #
 include
 "
 .
 /
-od_dering_simd
+cdef_block_simd
 .
 h
 "

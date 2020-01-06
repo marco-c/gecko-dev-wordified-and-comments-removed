@@ -61,7 +61,7 @@ av1
 /
 common
 /
-od_dering
+cdef_block
 .
 h
 "
@@ -825,7 +825,7 @@ size
 j
 ]
 =
-OD_DERING_VERY_LARGE
+CDEF_VERY_LARGE
 ;
 }
 if
@@ -876,7 +876,7 @@ size
 j
 ]
 =
-OD_DERING_VERY_LARGE
+CDEF_VERY_LARGE
 ;
 }
 if
@@ -925,7 +925,7 @@ size
 j
 ]
 =
-OD_DERING_VERY_LARGE
+CDEF_VERY_LARGE
 ;
 }
 if
@@ -976,7 +976,7 @@ size
 j
 ]
 =
-OD_DERING_VERY_LARGE
+CDEF_VERY_LARGE
 ;
 }
 }

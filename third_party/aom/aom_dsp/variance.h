@@ -256,9 +256,6 @@ second_pred
 #
 if
 CONFIG_AV1
-&
-&
-CONFIG_EXT_INTER
 typedef
 unsigned
 int
@@ -460,17 +457,12 @@ sdx8f
 aom_sad_multi_d_fn_t
 sdx4df
 ;
-#
-if
-CONFIG_EXT_INTER
 aom_masked_sad_fn_t
 msdf
 ;
 aom_masked_subpixvariance_fn_t
 msvf
 ;
-#
-endif
 #
 if
 CONFIG_MOTION_VAR

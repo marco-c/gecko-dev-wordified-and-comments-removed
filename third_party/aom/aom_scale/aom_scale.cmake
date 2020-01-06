@@ -298,7 +298,7 @@ aom_scale
 AOM_SCALE_INTRIN_DSPR2
 "
 "
-aom_scale
+aom
 "
 )
 endif

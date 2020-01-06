@@ -130,6 +130,13 @@ MAX_MB_PLANE
 ]
 int
 frame_filter_level
+#
+if
+CONFIG_LOOPFILTER_LEVEL
+int
+frame_filter_level_r
+#
+endif
 int
 y_only
 int

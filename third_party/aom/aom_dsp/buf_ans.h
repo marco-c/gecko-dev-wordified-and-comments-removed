@@ -122,6 +122,9 @@ window_size
 ;
 #
 endif
+int
+pos
+;
 }
 ;
 void
@@ -135,8 +138,6 @@ struct
 aom_internal_error_info
 *
 error
-int
-hint
 )
 ;
 void

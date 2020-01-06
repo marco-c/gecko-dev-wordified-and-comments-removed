@@ -138,6 +138,15 @@ int
 height
 )
 ;
+int
+av1_get_MBs
+(
+int
+width
+int
+height
+)
+;
 void
 av1_swap_current_and_last_seg_map
 (

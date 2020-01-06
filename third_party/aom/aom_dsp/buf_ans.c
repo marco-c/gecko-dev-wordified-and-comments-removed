@@ -45,8 +45,6 @@ struct
 aom_internal_error_info
 *
 error
-int
-size
 )
 {
 c
@@ -55,13 +53,6 @@ c
 error
 =
 error
-;
-c
--
->
-size
-=
-size
 ;
 assert
 (

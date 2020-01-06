@@ -126,6 +126,10 @@ int
 eob
 )
 ;
+#
+if
+!
+LV_MAP_PROB
 void
 av1_read_txb_probs
 (
@@ -137,7 +141,12 @@ tx_mode
 aom_reader
 *
 r
+FRAME_COUNTS
+*
+counts
 )
 ;
+#
+endif
 #
 endif

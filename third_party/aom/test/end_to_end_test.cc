@@ -921,9 +921,6 @@ AOME_SET_CPUUSED
 cpu_used_
 )
 ;
-#
-if
-CONFIG_PALETTE
 if
 (
 cpu_used_
@@ -961,8 +958,6 @@ AV1E_SET_TUNE_CONTENT
 AOM_CONTENT_DEFAULT
 )
 ;
-#
-endif
 if
 (
 encoding_mode_

@@ -69,7 +69,8 @@ out
 0
 ]
 ;
-int32_t
+const
+TX_TYPE
 tx_type
 =
 txfm_param

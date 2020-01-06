@@ -26,6 +26,9 @@ CONFIG_BGSPRITE
 YV12_BUFFER_CONFIG
 *
 bg
+YV12_BUFFER_CONFIG
+*
+target
 #
 endif
 int

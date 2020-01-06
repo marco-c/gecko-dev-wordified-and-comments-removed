@@ -87,8 +87,7 @@ struct
 segmentation
 *
 seg
-signed
-char
+int8_t
 *
 feature_data
 unsigned

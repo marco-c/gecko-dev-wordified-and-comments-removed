@@ -421,7 +421,8 @@ _mm_set1_epi16
 8
 )
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -975,7 +976,8 @@ _mm_set1_epi16
 4
 )
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -1689,7 +1691,8 @@ in
 16
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -2497,7 +2500,8 @@ in
 16
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -3529,7 +3533,8 @@ in
 16
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -4462,7 +4467,8 @@ in
 8
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -5758,7 +5764,8 @@ in
 8
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -7144,7 +7151,8 @@ inbr
 16
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
@@ -8023,7 +8031,8 @@ in3
 16
 ]
 ;
-int
+const
+TX_TYPE
 tx_type
 =
 txfm_param
