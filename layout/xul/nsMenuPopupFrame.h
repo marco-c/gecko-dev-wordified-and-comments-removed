@@ -1637,6 +1637,9 @@ bool
 mMouseTransparent
 ;
 bool
+mIsOffset
+;
+bool
 mHFlip
 ;
 bool
