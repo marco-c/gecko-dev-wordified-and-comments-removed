@@ -1683,6 +1683,7 @@ filter
 id
 =
 >
+!
 defaultPlacements
 .
 includes
@@ -1702,7 +1703,7 @@ gSavedState
 .
 placements
 [
-this
+CustomizableUI
 .
 AREA_FIXED_OVERFLOW_PANEL
 ]
