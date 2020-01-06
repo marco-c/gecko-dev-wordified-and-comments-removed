@@ -285,7 +285,7 @@ nsAString
 aName
 )
 ;
-bool
+void
 Delete
 (
 const
