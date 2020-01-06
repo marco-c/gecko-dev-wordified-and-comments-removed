@@ -155,6 +155,16 @@ js
 )
 content
 /
+simpletest
+.
+js
+(
+simpletest
+.
+js
+)
+content
+/
 frame
 .
 js
