@@ -1768,6 +1768,32 @@ basestring
     
 }
 )
+    
+Optional
+(
+'
+worker
+-
+type
+'
+)
+:
+optionally_keyed_by
+(
+        
+'
+test
+-
+platform
+'
+        
+Any
+(
+basestring
+None
+)
+    
+)
 }
 required
 =
@@ -3499,6 +3525,12 @@ requires
 signed
 -
 builds
+'
+        
+'
+worker
+-
+type
 '
     
 ]
@@ -5525,6 +5557,21 @@ platform
 ]
         
 if
+test
+.
+get
+(
+'
+worker
+-
+type
+'
+)
+:
+            
+pass
+        
+elif
 test_platform
 .
 startswith
