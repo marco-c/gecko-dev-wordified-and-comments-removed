@@ -2060,6 +2060,7 @@ HeapSizeOf
 derive
 (
 Clone
+ComputeSquaredDistance
 Copy
 Debug
 PartialEq
