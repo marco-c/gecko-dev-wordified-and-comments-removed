@@ -2159,6 +2159,14 @@ MOZ_ASSERT
 mWidget
 )
 ;
+RefPtr
+<
+ClientLayerManager
+>
+selfRef
+=
+this
+;
 if
 (
 aTransactionId
