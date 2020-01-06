@@ -4382,10 +4382,6 @@ NS_SetMainThread
 (
 )
 ;
-StackWalkInitCriticalAddress
-(
-)
-;
 if
 (
 +

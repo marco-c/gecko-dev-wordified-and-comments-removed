@@ -246,12 +246,5 @@ aStackEnd
 )
 ;
 }
-MFBT_API
-void
-StackWalkInitCriticalAddress
-(
-void
-)
-;
 #
 endif
