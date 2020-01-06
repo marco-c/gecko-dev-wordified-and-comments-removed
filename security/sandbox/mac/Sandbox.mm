@@ -928,6 +928,8 @@ bool
 StartMacSandbox
 (
 MacSandboxInfo
+const
+&
 aInfo
 std
 :
