@@ -1439,6 +1439,11 @@ DebugCheckSelfHosted
 \
 _
 (
+FinishBoundFunctionInit
+)
+\
+_
+(
 AsmJSLoadHeap
 )
 \

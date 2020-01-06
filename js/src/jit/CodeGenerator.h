@@ -3024,6 +3024,14 @@ ool
 )
 ;
 void
+visitFinishBoundFunctionInit
+(
+LFinishBoundFunctionInit
+*
+lir
+)
+;
+void
 visitCheckOverRecursed
 (
 LCheckOverRecursed

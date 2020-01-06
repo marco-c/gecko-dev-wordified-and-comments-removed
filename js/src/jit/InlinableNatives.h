@@ -528,6 +528,11 @@ _
 IntrinsicObjectHasPrototype
 )
 \
+_
+(
+IntrinsicFinishBoundFunctionInit
+)
+\
 \
 _
 (

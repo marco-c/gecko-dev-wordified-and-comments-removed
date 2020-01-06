@@ -5127,6 +5127,14 @@ callInfo
 )
 ;
 InliningResult
+inlineFinishBoundFunctionInit
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineBailout
 (
 CallInfo
