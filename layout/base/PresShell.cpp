@@ -31840,6 +31840,10 @@ touch
 >
 RadiusX
 (
+CallerType
+:
+:
+System
 )
 ;
 event
@@ -31851,6 +31855,10 @@ touch
 >
 RadiusY
 (
+CallerType
+:
+:
+System
 )
 ;
 event
