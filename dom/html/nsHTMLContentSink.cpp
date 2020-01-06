@@ -4205,7 +4205,7 @@ aType
 FlushType
 :
 :
-EnsurePresShellInitAndFrames
+InterruptibleLayout
 )
 {
 StartLayout
