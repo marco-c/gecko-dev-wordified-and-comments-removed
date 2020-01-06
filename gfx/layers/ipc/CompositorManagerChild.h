@@ -84,6 +84,11 @@ static
 bool
 IsInitialized
 (
+base
+:
+:
+ProcessId
+aPid
 )
 ;
 static
