@@ -51,7 +51,7 @@ unix
 /
 mozconfig
 .
-asan
+fuzzing
 ac_add_options
 -
 -
