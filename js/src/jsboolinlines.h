@@ -61,7 +61,7 @@ WrapperObject
 ?
 obj
 :
-UncheckedUnwrap
+UncheckedUnwrapWithoutExpose
 (
 obj
 )
