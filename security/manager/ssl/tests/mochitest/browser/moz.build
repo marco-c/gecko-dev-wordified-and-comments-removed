@@ -271,6 +271,12 @@ pem
 '
 #
 '
+longOID
+.
+pem
+'
+#
+'
 md5
 -
 ee
