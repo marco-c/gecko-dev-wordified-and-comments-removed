@@ -113,6 +113,12 @@ return
 domain
 ;
 }
+this
+.
+getDomain
+=
+getDomain
+;
 function
 getPath
 (
@@ -345,6 +351,9 @@ EXPORTED_SYMBOLS
 [
 "
 TippyTopProvider
+"
+"
+getDomain
 "
 ]
 ;

@@ -286,9 +286,6 @@ section_disclaimer_topstories_buttontext
 "
 :
 "
-Okay
-got
-it
 "
 "
 welcome_title

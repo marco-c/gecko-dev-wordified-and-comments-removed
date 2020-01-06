@@ -3062,6 +3062,11 @@ iconUri
 {
 favicon
 faviconLength
+faviconRef
+:
+iconUri
+.
+ref
 faviconSize
 mimeType
 }
