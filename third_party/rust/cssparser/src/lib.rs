@@ -49,6 +49,10 @@ recursion_limit
 200
 "
 ]
+extern
+crate
+dtoa_short
+;
 #
 [
 macro_use
