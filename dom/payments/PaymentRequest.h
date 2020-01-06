@@ -163,7 +163,7 @@ aErrorMsg
 ;
 static
 bool
-IsPositiveNumber
+IsNonNegativeNumber
 (
 const
 nsAString
