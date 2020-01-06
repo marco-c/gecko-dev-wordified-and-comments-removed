@@ -543,7 +543,7 @@ if
 (
 mTiming
 .
-Function
+TimingFunction
 (
 )
 =
@@ -556,7 +556,7 @@ return
 }
 mTiming
 .
-SetFunction
+SetTimingFunction
 (
 Move
 (

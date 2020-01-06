@@ -1200,7 +1200,7 @@ if
 (
 aTiming
 .
-Function
+TimingFunction
 (
 )
 )
@@ -1209,7 +1209,7 @@ progress
 =
 aTiming
 .
-Function
+TimingFunction
 (
 )
 -

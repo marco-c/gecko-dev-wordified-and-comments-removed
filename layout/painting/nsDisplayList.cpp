@@ -3382,7 +3382,7 @@ ToTimingFunction
 (
 timing
 .
-Function
+TimingFunction
 (
 )
 )
