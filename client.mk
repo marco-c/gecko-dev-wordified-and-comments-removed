@@ -2380,16 +2380,6 @@ stop
 -
 server
 endif
-echo
--
-variable
--
-%
-:
-echo
-(
-*
-)
 #
 This
 makefile
