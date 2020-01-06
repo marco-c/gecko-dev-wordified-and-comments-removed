@@ -175,6 +175,7 @@ const
 {
 getUrlQuery
 parseQueryString
+getUrlBaseName
 }
 =
 require
@@ -1985,13 +1986,14 @@ content
 let
 fileName
 =
+getUrlBaseName
+(
 this
 .
 selectedRequest
 .
-urlDetails
-.
-baseNameWithQuery
+url
+)
 ;
 let
 data
