@@ -190,6 +190,11 @@ attribute
 boolean
 WebRenderEnabled
 ;
+readonly
+attribute
+boolean
+isHeadless
+;
 /
 /
 XXX
