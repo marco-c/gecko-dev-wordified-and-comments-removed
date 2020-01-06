@@ -11,9 +11,9 @@ version
 "
 0
 .
-2
+3
 .
-1
+0
 "
 authors
 =
@@ -79,11 +79,4 @@ tempdir
 3
 .
 4
-"
-lazy_static
-=
-"
-0
-.
-1
 "

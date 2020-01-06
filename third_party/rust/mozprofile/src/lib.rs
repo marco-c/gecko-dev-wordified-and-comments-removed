@@ -1,11 +1,3 @@
-#
-[
-macro_use
-]
-extern
-crate
-lazy_static
-;
 extern
 crate
 tempdir
@@ -21,10 +13,6 @@ preferences
 pub
 mod
 prefreader
-;
-pub
-mod
-prefdata
 ;
 #
 [
