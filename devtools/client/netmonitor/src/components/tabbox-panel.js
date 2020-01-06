@@ -384,6 +384,7 @@ activeTabId
 cloneSelectedRequest
 request
 selectTab
+sourceMapService
 }
 )
 {
@@ -550,6 +551,7 @@ StackTracePanel
 (
 {
 request
+sourceMapService
 }
 )
 )
@@ -629,6 +631,11 @@ PropTypes
 func
 .
 isRequired
+sourceMapService
+:
+PropTypes
+.
+object
 }
 ;
 module

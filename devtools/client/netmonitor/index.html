@@ -478,6 +478,13 @@ app
 )
 )
 ;
+const
+sourceMapService
+=
+toolbox
+.
+sourceMapURLService
+;
 render
 (
 Provider
@@ -487,6 +494,9 @@ store
 }
 App
 (
+{
+sourceMapService
+}
 )
 )
 this

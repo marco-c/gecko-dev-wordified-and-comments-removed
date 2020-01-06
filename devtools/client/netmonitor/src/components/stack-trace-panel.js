@@ -77,6 +77,7 @@ StackTracePanel
 (
 {
 request
+sourceMapService
 }
 )
 {
@@ -121,6 +122,7 @@ viewSourceInDebugger
 url
 line
 )
+sourceMapService
 }
 )
 )
@@ -147,6 +149,11 @@ PropTypes
 object
 .
 isRequired
+sourceMapService
+:
+PropTypes
+.
+object
 }
 ;
 module

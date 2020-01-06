@@ -93,6 +93,7 @@ App
 (
 {
 statisticsOpen
+sourceMapService
 }
 )
 {
@@ -114,6 +115,9 @@ statisticsOpen
 ?
 MonitorPanel
 (
+{
+sourceMapService
+}
 )
 :
 StatisticsPanel
@@ -143,6 +147,11 @@ PropTypes
 bool
 .
 isRequired
+sourceMapService
+:
+PropTypes
+.
+object
 }
 ;
 module

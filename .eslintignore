@@ -1582,6 +1582,17 @@ events_bundle
 js
 devtools
 /
+client
+/
+netmonitor
+/
+test
+/
+xhr_bundle
+.
+js
+devtools
+/
 server
 /
 tests
