@@ -178,9 +178,6 @@ class
 nsIDocument
 ;
 class
-nsStyleContext
-;
-class
 nsPresContext
 ;
 struct
@@ -404,7 +401,7 @@ EndUpdate
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ResolveStyleFor
 (
@@ -423,7 +420,7 @@ aMayCompute
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ResolveStyleForText
 (
@@ -437,7 +434,7 @@ aParentContext
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ResolveStyleForFirstLetterContinuation
 (
@@ -448,7 +445,7 @@ aParentContext
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ResolveStyleForPlaceholder
 (
@@ -456,7 +453,7 @@ ResolveStyleForPlaceholder
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ResolvePseudoElementStyle
 (
@@ -481,7 +478,7 @@ aPseudoElement
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ResolveTransientStyle
 (
@@ -547,7 +544,7 @@ aParentContext
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ResolveNonInheritingAnonymousBoxStyle
 (
@@ -707,7 +704,7 @@ aDocument
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ProbePseudoElementStyle
 (
@@ -1446,7 +1443,7 @@ NonInheriting
 _Count
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 >
 mNonInheritingStyleContexts
