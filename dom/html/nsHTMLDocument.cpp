@@ -13847,12 +13847,10 @@ PrincipalHasPermission
 (
 &
 aSubjectPrincipal
-NS_LITERAL_STRING
-(
-"
+nsGkAtoms
+:
+:
 clipboardRead
-"
-)
 )
 )
 {

@@ -10958,8 +10958,8 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsAString
-&
+nsIAtom
+*
 aPerm
 )
 {
@@ -11001,8 +11001,8 @@ JSContext
 *
 aCx
 const
-nsAString
-&
+nsIAtom
+*
 aPerm
 )
 {
@@ -32910,12 +32910,10 @@ return
 PrincipalHasPermission
 (
 aSubjectPrincipal
-NS_LITERAL_STRING
-(
-"
+nsGkAtoms
+:
+:
 clipboardWrite
-"
-)
 )
 ;
 }

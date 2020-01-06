@@ -30,6 +30,9 @@ OriginAttributes
 h
 "
 class
+nsIAtom
+;
+class
 nsIContentSecurityPolicy
 ;
 class
@@ -421,8 +424,8 @@ bool
 AddonHasPermission
 (
 const
-nsAString
-&
+nsIAtom
+*
 aPerm
 )
 ;

@@ -288,6 +288,9 @@ class
 nsHtml5StringParser
 ;
 class
+nsIAtom
+;
+class
 nsIChannel
 ;
 class
@@ -1507,8 +1510,8 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsAString
-&
+nsIAtom
+*
 aPerm
 )
 ;
@@ -1520,8 +1523,8 @@ JSContext
 *
 aCx
 const
-nsAString
-&
+nsIAtom
+*
 aPerm
 )
 ;

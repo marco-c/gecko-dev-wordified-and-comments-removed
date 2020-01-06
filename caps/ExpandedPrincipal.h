@@ -202,8 +202,8 @@ bool
 AddonHasPermission
 (
 const
-nsAString
-&
+nsIAtom
+*
 aPerm
 )
 override

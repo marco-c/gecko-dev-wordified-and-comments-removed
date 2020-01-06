@@ -760,8 +760,8 @@ ExpandedPrincipal
 AddonHasPermission
 (
 const
-nsAString
-&
+nsIAtom
+*
 aPerm
 )
 {
