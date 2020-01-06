@@ -5020,16 +5020,6 @@ aName
 )
 ;
 static
-JSVersion
-ParseJavascriptVersion
-(
-const
-nsAString
-&
-aVersionStr
-)
-;
-static
 bool
 IsJavascriptMIMEType
 (
