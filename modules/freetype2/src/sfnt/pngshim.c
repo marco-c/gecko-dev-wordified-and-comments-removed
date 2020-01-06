@@ -235,6 +235,16 @@ vector_size
 )
 )
 ;
+if
+(
+row_info
+-
+>
+rowbytes
+>
+15
+)
+{
 limit
 =
 row_info
@@ -473,6 +483,7 @@ s
 16
 )
 ;
+}
 }
 #
 endif
