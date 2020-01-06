@@ -11438,6 +11438,12 @@ debugger
 =
 debugger
             
+dmdPath
+=
+options
+.
+dmdPath
+            
 lsanPath
 =
 lsanPath
@@ -11505,33 +11511,6 @@ MOZ_HEADLESS
 '
 1
 '
-        
-if
-options
-.
-dmd
-:
-            
-browserEnv
-[
-"
-DMD
-"
-]
-=
-os
-.
-environ
-.
-get
-(
-'
-DMD
-'
-'
-1
-'
-)
         
 browserEnv
 [
@@ -14038,6 +14017,9 @@ child
 pids
 from
 psutil
+.
+.
+.
 "
 )
             
@@ -14064,6 +14046,18 @@ children
 (
 )
 ]
+                
+self
+.
+log
+.
+info
+(
+str
+(
+rv
+)
+)
             
 except
 psutil
@@ -14090,9 +14084,13 @@ d
 %
 parent_pid
 )
-            
-return
+        
 rv
+=
+set
+(
+rv
+)
         
 pid_re
 =
@@ -14163,7 +14161,7 @@ m
                     
 rv
 .
-append
+add
 (
 int
 (
@@ -15324,6 +15322,26 @@ sys
 .
 exc_info
 (
+)
+            
+self
+.
+log
+.
+info
+(
+"
+runtests
+.
+py
+|
+Waiting
+for
+browser
+.
+.
+.
+"
 )
             
 status
