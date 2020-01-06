@@ -2232,9 +2232,6 @@ rgba
 ;
 }
 %
-ifdef
-MOZ_PHOTON_THEME
-%
 include
 .
 .
@@ -2248,6 +2245,9 @@ searchbar
 inc
 .
 css
+%
+ifdef
+MOZ_PHOTON_THEME
 #
 urlbar
 [
