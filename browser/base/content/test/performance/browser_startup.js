@@ -169,6 +169,11 @@ nsSearchService
 .
 js
 "
+"
+UnifiedComplete
+.
+js
+"
 ]
 )
 }
