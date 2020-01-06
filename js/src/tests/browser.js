@@ -1160,7 +1160,7 @@ options
 =
 jstestsOptions
 ;
-optionsPush
+optionsClear
 (
 )
 ;
@@ -1595,13 +1595,6 @@ initvalues
 =
 {
 }
-;
-options
-.
-stackvalues
-=
-[
-]
 ;
 for
 (
