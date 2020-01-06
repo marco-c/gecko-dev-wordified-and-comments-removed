@@ -703,6 +703,17 @@ LoadFailed
 (
 )
 {
+if
+(
+!
+Inner
+(
+)
+-
+>
+mSheet
+)
+{
 Inner
 (
 )
@@ -719,6 +730,7 @@ Consume
 (
 )
 ;
+}
 Inner
 (
 )
