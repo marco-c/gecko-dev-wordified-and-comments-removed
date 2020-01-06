@@ -58,6 +58,13 @@ h
 #
 include
 <
+inttypes
+.
+h
+>
+#
+include
+<
 limits
 >
 #
