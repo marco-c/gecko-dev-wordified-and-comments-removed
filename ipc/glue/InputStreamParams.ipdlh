@@ -57,10 +57,6 @@ MPL
 *
 /
 include
-protocol
-PBlob
-;
-include
 ProtocolTypes
 ;
 using

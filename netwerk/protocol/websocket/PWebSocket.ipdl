@@ -137,17 +137,6 @@ NeckoChannelParams
 ;
 include
 protocol
-PBlob
-;
-/
-/
-FIXME
-:
-bug
-#
-792908
-include
-protocol
 PFileDescriptorSet
 ;
 /
