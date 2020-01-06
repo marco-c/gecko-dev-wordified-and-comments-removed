@@ -88,7 +88,7 @@ void
 pref_SetInitPhase
 (
 pref_initPhase
-phase
+aPhase
 )
 ;
 pref_initPhase
@@ -100,7 +100,7 @@ void
 pref_SetWatchingPref
 (
 bool
-watching
+aWatching
 )
 ;
 #
@@ -112,7 +112,7 @@ pref_HashTableLookup
 const
 char
 *
-key
+aKey
 )
 ;
 bool

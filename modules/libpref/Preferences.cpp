@@ -2616,7 +2616,7 @@ pref
 prefBranch
 -
 >
-getPrefName
+GetPrefName
 (
 callback
 -
