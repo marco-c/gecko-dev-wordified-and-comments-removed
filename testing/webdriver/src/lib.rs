@@ -34,6 +34,7 @@ pub
 mod
 macros
 ;
+pub
 mod
 httpapi
 ;
