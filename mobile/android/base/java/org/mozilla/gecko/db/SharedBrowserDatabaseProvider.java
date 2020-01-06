@@ -435,6 +435,7 @@ close
 )
 ;
 }
+final
 int
 deletedExpired
 =
@@ -481,6 +482,7 @@ tableName
 return
 ;
 }
+final
 int
 deletedNew
 =

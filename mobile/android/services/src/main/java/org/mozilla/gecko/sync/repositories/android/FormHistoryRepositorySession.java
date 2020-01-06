@@ -3150,6 +3150,7 @@ onRecordStoreReconciled
 record
 .
 guid
+null
 )
 ;
 storeDelegate
@@ -3470,6 +3471,7 @@ onRecordStoreReconciled
 record
 .
 guid
+null
 )
 ;
 storeDelegate

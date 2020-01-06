@@ -447,6 +447,12 @@ DATE_MODIFIED
 SyncColumns
 .
 IS_DELETED
+VersionColumns
+.
+LOCAL_VERSION
+VersionColumns
+.
+SYNC_VERSION
 Bookmarks
 .
 TITLE

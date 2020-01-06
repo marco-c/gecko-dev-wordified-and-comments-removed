@@ -265,6 +265,12 @@ clear
 (
 )
 ;
+inner
+.
+performCleanup
+(
+)
+;
 }
 Override
 public
