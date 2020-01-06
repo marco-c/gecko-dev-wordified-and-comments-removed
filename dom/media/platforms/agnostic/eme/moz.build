@@ -105,11 +105,6 @@ EMEDecoderModule
 h
 '
 '
-EMEVideoDecoder
-.
-h
-'
-'
 SamplesWaitingForKey
 .
 h
@@ -126,11 +121,6 @@ cpp
 '
 '
 EMEDecoderModule
-.
-cpp
-'
-'
-EMEVideoDecoder
 .
 cpp
 '

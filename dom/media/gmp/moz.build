@@ -298,11 +298,6 @@ GMPCDMCallbackProxy
 h
 '
 '
-GMPCDMProxy
-.
-h
-'
-'
 GMPChild
 .
 h
@@ -536,11 +531,6 @@ cpp
 '
 '
 GMPCDMCallbackProxy
-.
-cpp
-'
-'
-GMPCDMProxy
 .
 cpp
 '
