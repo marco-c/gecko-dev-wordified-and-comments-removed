@@ -112,6 +112,12 @@ doc
 .
 yml
 -
+file
+-
+metadata
+.
+yml
+-
 mocha
 .
 yml

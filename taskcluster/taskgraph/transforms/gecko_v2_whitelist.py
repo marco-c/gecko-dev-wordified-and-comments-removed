@@ -796,6 +796,14 @@ opt
 '
     
 '
+source
+-
+bugzilla
+-
+info
+'
+    
+'
 win32
 -
 add
