@@ -30577,7 +30577,11 @@ heapState
 )
 pseudoFrame
 (
-rt
+TlsContext
+.
+get
+(
+)
 HeapStateToLabel
 (
 heapState

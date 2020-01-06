@@ -6058,11 +6058,6 @@ AutoGeckoProfilerEntry
 psuedoFrame
 (
 cx
--
->
-runtime
-(
-)
 "
 js
 :

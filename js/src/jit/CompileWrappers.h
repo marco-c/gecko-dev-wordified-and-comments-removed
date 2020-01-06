@@ -60,7 +60,7 @@ jitRuntime
 (
 )
 ;
-GeckoProfiler
+GeckoProfilerRuntime
 &
 geckoProfiler
 (

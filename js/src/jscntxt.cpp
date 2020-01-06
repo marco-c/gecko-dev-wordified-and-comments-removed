@@ -7603,6 +7603,15 @@ trace
 trc
 )
 ;
+geckoProfiler
+(
+)
+.
+trace
+(
+trc
+)
+;
 if
 (
 trc

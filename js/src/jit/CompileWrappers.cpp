@@ -117,7 +117,7 @@ jitRuntime
 )
 ;
 }
-GeckoProfiler
+GeckoProfilerRuntime
 &
 CompileRuntime
 :

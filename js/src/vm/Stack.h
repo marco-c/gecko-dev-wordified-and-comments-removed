@@ -212,7 +212,7 @@ class
 ScriptFrameIter
 ;
 class
-GeckoProfiler
+GeckoProfilerRuntime
 ;
 class
 InterpreterFrame
