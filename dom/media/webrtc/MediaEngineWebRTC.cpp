@@ -631,6 +631,18 @@ aPrefs
 .
 mFullDuplex
 )
+mDelayAgnostic
+(
+aPrefs
+.
+mDelayAgnostic
+)
+mExtendedFilter
+(
+aPrefs
+.
+mExtendedFilter
+)
 mHasTabVideoSource
 (
 false
@@ -1938,6 +1950,8 @@ audioinput
 i
 deviceName
 uniqueId
+mDelayAgnostic
+mExtendedFilter
 )
 ;
 mAudioSources
