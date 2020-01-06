@@ -205,3 +205,17 @@ build_number
 }
 .
 version_bump
+notifications
+:
+completed
+:
+-
+releasetasks
+failed
+:
+-
+releasetasks
+exception
+:
+-
+releasetasks

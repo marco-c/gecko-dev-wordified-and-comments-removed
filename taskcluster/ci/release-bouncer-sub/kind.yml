@@ -181,3 +181,17 @@ build_number
 }
 .
 bouncer_submitter
+notifications
+:
+completed
+:
+-
+releasetasks
+failed
+:
+-
+releasetasks
+exception
+:
+-
+releasetasks

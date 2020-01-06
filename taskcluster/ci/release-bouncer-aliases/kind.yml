@@ -243,3 +243,17 @@ http
 localhost
 /
 api
+notifications
+:
+completed
+:
+-
+releasetasks
+failed
+:
+-
+releasetasks
+exception
+:
+-
+releasetasks

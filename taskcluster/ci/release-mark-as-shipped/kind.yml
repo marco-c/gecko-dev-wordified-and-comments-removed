@@ -204,3 +204,17 @@ build_number
 }
 .
 mark_as_shipped
+notifications
+:
+completed
+:
+-
+releasetasks
+failed
+:
+-
+releasetasks
+exception
+:
+-
+releasetasks
