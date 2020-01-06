@@ -50,6 +50,16 @@ RuleNodeCacheConditions
 namespace
 nsStyleTransformMatrix
 {
+enum
+class
+MatrixTransformOperator
+:
+uint8_t
+{
+Interpolate
+Accumulate
+}
+;
 inline
 void
 ApplyPerspectiveToMatrix
