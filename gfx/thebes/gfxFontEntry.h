@@ -2157,6 +2157,10 @@ AppendElement
 aFontEntry
 )
 ;
+mIsSimpleFamily
+=
+false
+;
 }
 bool
 HasStyles
