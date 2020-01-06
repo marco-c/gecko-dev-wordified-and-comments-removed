@@ -1649,6 +1649,11 @@ shadowRootInitDict
 )
 ;
 [
+BinaryName
+=
+"
+shadowRootByMode
+"
 Pref
 =
 "
@@ -1666,6 +1671,11 @@ ShadowRoot
 shadowRoot
 ;
 [
+BinaryName
+=
+"
+assignedSlotByMode
+"
 Pref
 =
 "

@@ -187,6 +187,11 @@ interface
 Text
 {
 [
+BinaryName
+=
+"
+assignedSlotByMode
+"
 Pref
 =
 "
