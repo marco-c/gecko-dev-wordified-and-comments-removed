@@ -3875,6 +3875,11 @@ layersId
 CompositorOptions
 compositorOptions
 ;
+uint32_t
+maxTouchPoints
+=
+0
+;
 if
 (
 aIframeMoz
@@ -3935,6 +3940,8 @@ textureFactoryIdentifier
 layersId
 &
 compositorOptions
+&
+maxTouchPoints
 )
 ;
 }
@@ -4004,6 +4011,8 @@ textureFactoryIdentifier
 layersId
 &
 compositorOptions
+&
+maxTouchPoints
 )
 )
 {
@@ -4170,6 +4179,14 @@ mDefaultScale
 )
 ;
 }
+newChild
+-
+>
+SetMaxTouchPoints
+(
+maxTouchPoints
+)
+;
 nsCOMPtr
 <
 mozIDOMWindowProxy

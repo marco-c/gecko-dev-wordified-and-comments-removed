@@ -4946,6 +4946,13 @@ ContentParentId
 cpId
 )
 ;
+async
+TabChildNotReady
+(
+TabId
+tabId
+)
+;
 /
 *
 *
@@ -5435,6 +5442,8 @@ uint64_t
 layersId
 CompositorOptions
 compositorOptions
+uint32_t
+maxTouchPoints
 )
 ;
 async
