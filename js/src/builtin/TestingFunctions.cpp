@@ -463,7 +463,6 @@ mozilla
 :
 Move
 ;
-static
 mozilla
 :
 :

@@ -807,12 +807,6 @@ false
 ;
 SET_DEFAULT
 (
-wasmTestMode
-false
-)
-;
-SET_DEFAULT
-(
 wasmFoldOffsets
 true
 )
