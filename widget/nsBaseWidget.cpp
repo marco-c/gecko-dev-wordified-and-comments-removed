@@ -9317,9 +9317,12 @@ Next
 )
 )
 {
+DebugOnly
+<
 const
 void
 *
+>
 windowId
 =
 iter
