@@ -336,11 +336,6 @@ aBytesPerSecond
 )
 ;
 bool
-IsTransportSeekable
-(
-)
-;
-bool
 AreAllStreamsForResourceSuspended
 (
 )

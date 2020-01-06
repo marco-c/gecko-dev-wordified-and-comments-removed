@@ -742,6 +742,11 @@ mClosed
 =
 false
 ;
+bool
+mIsTransportSeekable
+=
+false
+;
 RefPtr
 <
 Listener
