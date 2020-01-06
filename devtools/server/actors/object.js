@@ -231,7 +231,9 @@ CPOW
 :
 "
 +
-g
+this
+.
+obj
 .
 class
 ;
