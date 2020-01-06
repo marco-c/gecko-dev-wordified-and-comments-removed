@@ -386,11 +386,6 @@ nsICSSLoaderObserver
 h
 '
 '
-nsICSSPseudoComparator
-.
-h
-'
-'
 nsICSSStyleRuleDOMWrapper
 .
 h

@@ -39,13 +39,6 @@ h
 #
 include
 "
-nsICSSPseudoComparator
-.
-h
-"
-#
-include
-"
 nsRefPtrHashtable
 .
 h
@@ -104,9 +97,6 @@ nsStyleContext
 *
 GetStyleContext
 (
-nsICSSPseudoComparator
-*
-aComparator
 nsPresContext
 *
 aPresContext
