@@ -162,7 +162,6 @@ script_traits
 :
 {
 ConstellationControlMsg
-DevicePixel
 DiscardBrowsingContext
 }
 ;
@@ -312,6 +311,12 @@ style_traits
 :
 :
 CSSPixel
+;
+use
+style_traits
+:
+:
+DevicePixel
 ;
 use
 webrender_api

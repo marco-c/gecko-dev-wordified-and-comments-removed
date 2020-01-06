@@ -141,7 +141,6 @@ script_traits
 :
 {
 ConstellationMsg
-DevicePixel
 LayoutControlMsg
 LoadData
 MouseButton
@@ -267,6 +266,7 @@ style_traits
 :
 {
 CSSPixel
+DevicePixel
 PinchZoomFactor
 }
 ;

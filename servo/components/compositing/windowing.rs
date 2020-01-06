@@ -67,7 +67,6 @@ script_traits
 :
 :
 {
-DevicePixel
 LoadData
 MouseButton
 TouchEventType
@@ -108,6 +107,12 @@ rc
 :
 :
 Rc
+;
+use
+style_traits
+:
+:
+DevicePixel
 ;
 use
 style_traits

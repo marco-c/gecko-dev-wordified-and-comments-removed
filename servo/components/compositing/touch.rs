@@ -18,7 +18,6 @@ script_traits
 :
 :
 {
-DevicePixel
 EventResult
 TouchId
 }
@@ -31,6 +30,12 @@ TouchState
 :
 :
 *
+;
+use
+style_traits
+:
+:
+DevicePixel
 ;
 const
 TOUCH_PAN_MIN_SCREEN_PX
