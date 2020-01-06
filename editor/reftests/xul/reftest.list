@@ -13,6 +13,15 @@ browserIsRemote
 &
 winWidget
 )
+fails
+-
+if
+(
+stylo
+&
+&
+winWidget
+)
 =
 =
 empty
@@ -30,6 +39,10 @@ Windows
 :
 bug
 1239170
+stylo
+:
+bug
+1411460
 !
 =
 empty
