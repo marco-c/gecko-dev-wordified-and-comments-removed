@@ -80,14 +80,6 @@ const
 override
 ;
 void
-SetInfinite
-(
-bool
-aInfinite
-)
-override
-;
-void
 NotifyNetworkError
 (
 )

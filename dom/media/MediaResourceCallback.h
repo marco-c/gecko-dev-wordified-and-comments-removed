@@ -51,15 +51,6 @@ nullptr
 }
 virtual
 void
-SetInfinite
-(
-bool
-aInfinite
-)
-{
-}
-virtual
-void
 NotifyNetworkError
 (
 )

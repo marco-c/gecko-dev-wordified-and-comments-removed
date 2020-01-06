@@ -1449,13 +1449,6 @@ DownloadProgressed
 )
 ;
 void
-SetInfinite
-(
-bool
-aInfinite
-)
-;
-void
 NotifySuspendedStatusChanged
 (
 )
@@ -1489,9 +1482,6 @@ mSeekRequest
 ;
 bool
 mIgnoreProgressData
-;
-bool
-mInfiniteStream
 ;
 void
 PinForSeek
