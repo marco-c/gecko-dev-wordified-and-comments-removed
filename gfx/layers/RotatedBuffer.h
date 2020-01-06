@@ -681,10 +681,6 @@ mDidSelfCopy
 (
 false
 )
-mFinalizeOnPaintThread
-(
-true
-)
 {
 }
 nsIntRegion
@@ -704,9 +700,6 @@ mContentType
 ;
 bool
 mDidSelfCopy
-;
-bool
-mFinalizeOnPaintThread
 ;
 }
 ;
@@ -731,10 +724,6 @@ PaintedLayer
 aLayer
 uint32_t
 aFlags
-bool
-aCopyToBackbuffer
-=
-true
 )
 ;
 struct
