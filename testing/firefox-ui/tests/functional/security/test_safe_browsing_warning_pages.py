@@ -384,7 +384,7 @@ sleep
                 
 self
 .
-check_report_button
+check_report_link
 (
 unsafe_page
 )
@@ -432,7 +432,7 @@ By
 .
 ID
 "
-getMeOutButton
+goBackButton
 "
 )
         
@@ -478,7 +478,7 @@ get_url
 )
     
 def
-check_report_button
+check_report_link
 (
 self
 unsafe_page
@@ -572,12 +572,34 @@ find_element
 By
 .
 ID
-"
-reportButton
-"
+'
+seeDetailsButton
+'
 )
         
 button
+.
+click
+(
+)
+        
+link
+=
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+ID
+"
+firefox_support
+"
+)
+        
+link
 .
 click
 (
@@ -725,11 +747,33 @@ By
 .
 ID
 '
-ignoreWarningButton
+seeDetailsButton
 '
 )
         
 button
+.
+click
+(
+)
+        
+link
+=
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+ID
+'
+ignore_warning_link
+'
+)
+        
+link
 .
 click
 (
