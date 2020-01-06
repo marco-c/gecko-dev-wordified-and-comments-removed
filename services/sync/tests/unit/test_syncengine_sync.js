@@ -427,11 +427,15 @@ USER
 ]
 ;
 }
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
+await
 generateNewKeys
 (
 Service
@@ -459,11 +463,9 @@ Trace
 "
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 add_task
 (
 async
@@ -1416,6 +1418,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -8046,6 +8049,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -8442,6 +8446,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -10656,6 +10661,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -11201,6 +11207,7 @@ server
 "
 )
 ;
+await
 generateNewKeys
 (
 Service

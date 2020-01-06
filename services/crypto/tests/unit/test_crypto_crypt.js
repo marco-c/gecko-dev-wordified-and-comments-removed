@@ -101,6 +101,7 @@ generateRandomIV
 let
 key
 =
+await
 cryptoSvc
 .
 generateRandomKey
@@ -156,6 +157,7 @@ c
 let
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -177,6 +179,7 @@ c
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -196,6 +199,7 @@ c
 1
 )
 ;
+await
 cryptoSvc
 .
 decrypt
@@ -205,6 +209,7 @@ key
 iv
 )
 ;
+await
 cryptoSvc
 .
 decrypt
@@ -214,6 +219,7 @@ key
 iv
 )
 ;
+await
 cryptoSvc
 .
 decrypt
@@ -349,6 +355,7 @@ length
 var
 key
 =
+await
 cryptoSvc
 .
 generateRandomKey
@@ -376,6 +383,7 @@ vegetable
 var
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -396,6 +404,7 @@ length
 var
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -472,6 +481,7 @@ err
 ;
 try
 {
+await
 cryptoSvc
 .
 encrypt
@@ -521,6 +531,7 @@ gsgLRDaxWvIfKt75RjuvFWERt83FFsY2A0TW
 ;
 try
 {
+await
 cryptoSvc
 .
 encrypt
@@ -555,6 +566,7 @@ mySecret
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -566,6 +578,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -599,6 +612,7 @@ x
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -610,6 +624,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -645,6 +660,7 @@ xx
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -656,6 +672,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -689,6 +706,7 @@ xxx
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -700,6 +718,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -737,6 +756,7 @@ xxxx
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -748,6 +768,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -792,6 +813,7 @@ fromCharCode
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -803,6 +825,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -835,6 +858,7 @@ mySecret
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -846,6 +870,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -883,6 +908,7 @@ mySecret
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -894,6 +920,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -926,6 +953,7 @@ mySecret
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -937,6 +965,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -995,6 +1024,7 @@ pie
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -1006,6 +1036,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -1060,6 +1091,7 @@ pie
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -1071,6 +1103,7 @@ iv
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -1128,6 +1161,7 @@ testcases
 ;
 cipherText
 =
+await
 cryptoSvc
 .
 encrypt
@@ -1186,6 +1220,7 @@ false
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -1219,6 +1254,7 @@ false
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -1252,6 +1288,7 @@ false
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt
@@ -1285,6 +1322,7 @@ false
 ;
 clearText
 =
+await
 cryptoSvc
 .
 decrypt

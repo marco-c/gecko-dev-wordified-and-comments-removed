@@ -461,6 +461,7 @@ com
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -485,6 +486,7 @@ keys
 "
 )
 ;
+await
 serverKeys
 .
 encrypt
@@ -5326,6 +5328,7 @@ clients
 "
 )
 ;
+await
 rec
 .
 encrypt
@@ -5342,6 +5345,7 @@ clients
 )
 )
 ;
+await
 rec
 .
 upload
@@ -5690,6 +5694,7 @@ clients
 "
 )
 ;
+await
 rec
 .
 encrypt
@@ -5706,6 +5711,7 @@ clients
 )
 )
 ;
+await
 rec
 .
 upload

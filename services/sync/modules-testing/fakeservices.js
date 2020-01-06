@@ -542,9 +542,7 @@ FakeCryptoService
 prototype
 =
 {
-encrypt
-:
-function
+async
 encrypt
 (
 clearText
@@ -556,9 +554,7 @@ return
 clearText
 ;
 }
-decrypt
-:
-function
+async
 decrypt
 (
 cipherText
@@ -570,9 +566,7 @@ return
 cipherText
 ;
 }
-generateRandomKey
-:
-function
+async
 generateRandomKey
 (
 )

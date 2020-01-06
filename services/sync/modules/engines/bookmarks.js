@@ -593,10 +593,8 @@ PlacesItem
 prototype
 =
 {
+async
 decrypt
-:
-function
-PlacesItem_decrypt
 (
 keyBundle
 )
@@ -604,6 +602,7 @@ keyBundle
 let
 clear
 =
+await
 CryptoWrapper
 .
 prototype

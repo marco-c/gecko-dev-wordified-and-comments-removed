@@ -353,6 +353,7 @@ johndoe
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -377,6 +378,7 @@ keys
 "
 )
 ;
+await
 serverKeys
 .
 encrypt

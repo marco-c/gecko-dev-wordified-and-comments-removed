@@ -393,6 +393,7 @@ record
 "
 )
 ;
+await
 cryptoWrap
 .
 encrypt
@@ -445,6 +446,7 @@ record
 let
 payload
 =
+await
 cryptoWrap
 .
 decrypt
@@ -496,6 +498,7 @@ try
 {
 payload
 =
+await
 cryptoWrap
 .
 decrypt
@@ -557,6 +560,7 @@ another
 payload
 "
 ;
+await
 cryptoWrap
 .
 encrypt
@@ -573,6 +577,7 @@ IV
 ;
 payload
 =
+await
 cryptoWrap
 .
 decrypt
@@ -616,6 +621,7 @@ log
 .
 info
 (
+await
 "
 Make
 sure
@@ -626,6 +632,7 @@ failures
 "
 )
 ;
+await
 cryptoWrap
 .
 encrypt
@@ -650,6 +657,7 @@ error
 ;
 try
 {
+await
 cryptoWrap
 .
 decrypt
@@ -699,6 +707,7 @@ failures
 "
 )
 ;
+await
 cryptoWrap
 .
 encrypt
@@ -721,6 +730,7 @@ error
 ;
 try
 {
+await
 cryptoWrap
 .
 decrypt
@@ -762,6 +772,7 @@ foo
 "
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -782,6 +793,7 @@ foo
 "
 )
 ;
+await
 bookmarkItem
 .
 encrypt
@@ -841,6 +853,8 @@ key
 ;
 do_check_eq
 (
+(
+await
 bookmarkItem
 .
 decrypt
@@ -851,6 +865,7 @@ collectionKeys
 .
 _default
 )
+)
 .
 stuff
 "
@@ -860,6 +875,7 @@ here
 "
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -894,6 +910,7 @@ bookmarks
 "
 )
 ;
+await
 bookmarkItem
 .
 encrypt
@@ -925,6 +942,7 @@ err
 ;
 try
 {
+await
 bookmarkItem
 .
 decrypt
@@ -968,6 +986,8 @@ substr
 ;
 do_check_eq
 (
+(
+await
 bookmarkItem
 .
 decrypt
@@ -981,6 +1001,7 @@ keyForCollection
 "
 bookmarks
 "
+)
 )
 )
 .
@@ -1070,6 +1091,7 @@ _default
 let
 newKeys
 =
+await
 Service
 .
 collectionKeys
@@ -1135,6 +1157,7 @@ oldFormsKey
 let
 regetKeys
 =
+await
 newKeys
 .
 ensureKeysFor

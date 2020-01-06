@@ -400,6 +400,7 @@ addons
 "
 )
 ;
+async
 function
 corrupt_local_keys
 (
@@ -414,6 +415,7 @@ _default
 keyPair
 =
 [
+await
 Weave
 .
 Crypto
@@ -421,6 +423,7 @@ Crypto
 generateRandomKey
 (
 )
+await
 Weave
 .
 Crypto
@@ -520,6 +523,7 @@ global
 )
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -544,6 +548,7 @@ keys
 "
 )
 ;
+await
 serverKeys
 .
 encrypt
@@ -792,6 +797,7 @@ deleted
 false
 }
 ;
+await
 w
 .
 encrypt
@@ -925,6 +931,7 @@ do_check_true
 (
 !
 !
+await
 rec
 .
 decrypt
@@ -939,6 +946,7 @@ hmacErrorCount
 0
 )
 ;
+await
 corrupt_local_keys
 (
 )
@@ -1301,6 +1309,7 @@ deleted
 false
 }
 ;
+await
 w
 .
 encrypt

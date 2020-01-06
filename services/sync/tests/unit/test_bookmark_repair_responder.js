@@ -260,6 +260,7 @@ makeServer
 let
 server
 =
+await
 serverForFoo
 (
 bookmarksEngine

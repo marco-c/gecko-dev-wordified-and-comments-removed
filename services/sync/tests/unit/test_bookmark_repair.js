@@ -347,6 +347,7 @@ bookmarks
 "
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -684,6 +685,7 @@ request
 let
 server
 =
+await
 serverForFoo
 (
 bookmarksEngine
@@ -2050,6 +2052,7 @@ server
 let
 server
 =
+await
 serverForFoo
 (
 bookmarksEngine
@@ -2430,6 +2433,7 @@ client
 let
 server
 =
+await
 serverForFoo
 (
 bookmarksEngine
@@ -2802,6 +2806,7 @@ client
 let
 server
 =
+await
 serverForFoo
 (
 bookmarksEngine

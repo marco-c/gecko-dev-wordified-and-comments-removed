@@ -879,6 +879,7 @@ _store
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -1202,6 +1203,7 @@ _store
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -1940,6 +1942,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service
@@ -2531,6 +2534,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -2709,6 +2713,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -2953,6 +2958,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -3267,6 +3273,7 @@ tabs
 let
 server
 =
+await
 serverForEnginesWithKeys
 (
 {
@@ -3563,6 +3570,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -4105,6 +4113,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -4242,6 +4251,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -4437,6 +4447,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -4549,6 +4560,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -4965,6 +4977,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -5351,6 +5364,7 @@ true
 let
 server
 =
+await
 serverForFoo
 (
 engine

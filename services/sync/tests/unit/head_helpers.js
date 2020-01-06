@@ -1059,6 +1059,7 @@ cb
 )
 ;
 }
+async
 function
 generateNewKeys
 (
@@ -1071,6 +1072,7 @@ null
 let
 wbo
 =
+await
 collectionKeys
 .
 generateNewKeysWBO
@@ -2899,6 +2901,7 @@ true
 )
 ;
 }
+async
 function
 serverForEnginesWithKeys
 (
@@ -2910,6 +2913,7 @@ callback
 let
 wbo
 =
+await
 Service
 .
 collectionKeys
@@ -3064,6 +3068,7 @@ callback
 )
 ;
 }
+async
 function
 serverForFoo
 (

@@ -129,6 +129,7 @@ rotary
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -140,6 +141,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service

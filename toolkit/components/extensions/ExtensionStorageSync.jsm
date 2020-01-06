@@ -969,6 +969,7 @@ generateRandomIV
 let
 ciphertext
 =
+await
 WeaveCrypto
 .
 encrypt
@@ -1144,6 +1145,7 @@ computedHMAC
 let
 cleartext
 =
+await
 WeaveCrypto
 .
 decrypt
@@ -2470,6 +2472,7 @@ last_modified
 }
 else
 {
+await
 collectionKeys
 .
 generateDefaultKey

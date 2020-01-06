@@ -230,6 +230,7 @@ SyncTestingInfrastructure
 server
 )
 ;
+await
 generateNewKeys
 (
 Service

@@ -26,8 +26,11 @@ WeaveCrypto
 (
 )
 ;
+add_task
+(
+async
 function
-run_test
+test_crypto_random
 (
 )
 {
@@ -230,6 +233,7 @@ iv
 ;
 keydata
 =
+await
 cryptoSvc
 .
 generateRandomKey
@@ -246,6 +250,7 @@ length
 ;
 keydata2
 =
+await
 cryptoSvc
 .
 generateRandomKey
@@ -286,3 +291,4 @@ gczeal
 )
 ;
 }
+)

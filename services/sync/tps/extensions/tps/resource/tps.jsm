@@ -4019,6 +4019,7 @@ deserialize
 json
 )
 ;
+await
 record
 .
 decrypt

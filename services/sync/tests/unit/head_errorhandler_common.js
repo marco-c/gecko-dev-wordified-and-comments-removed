@@ -697,6 +697,7 @@ CatapultEngine
 (
 )
 )
+async
 generateCredentialsChangedFailure
 (
 )
@@ -712,6 +713,7 @@ crypto
 "
 )
 ;
+await
 newSyncKeyBundle
 .
 generateRandom
@@ -729,6 +731,7 @@ asWBO
 (
 )
 ;
+await
 keys
 .
 encrypt
@@ -783,6 +786,7 @@ generateAndUploadKeys
 (
 )
 {
+await
 generateNewKeys
 (
 Service
@@ -807,6 +811,7 @@ keys
 "
 )
 ;
+await
 serverKeys
 .
 encrypt

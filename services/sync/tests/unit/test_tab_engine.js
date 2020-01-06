@@ -684,6 +684,7 @@ syncID
 }
 }
 ;
+await
 generateNewKeys
 (
 Service

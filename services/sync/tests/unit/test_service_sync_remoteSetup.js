@@ -1560,6 +1560,7 @@ hmacerror
 "
 )
 ;
+await
 b
 .
 generateRandom
@@ -1586,6 +1587,7 @@ now
 1000
 )
 ;
+await
 keys
 .
 encrypt
@@ -1593,6 +1595,7 @@ encrypt
 b
 )
 ;
+await
 keys
 .
 upload

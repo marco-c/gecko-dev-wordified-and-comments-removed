@@ -250,6 +250,7 @@ passwords
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -512,6 +513,7 @@ passwords
 let
 server
 =
+await
 serverForFoo
 (
 engine
@@ -705,6 +707,7 @@ passwords
 let
 server
 =
+await
 serverForFoo
 (
 engine

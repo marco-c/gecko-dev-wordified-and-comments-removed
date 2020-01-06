@@ -1811,6 +1811,7 @@ d789
 )
 ;
 }
+async
 installKeyRing
 (
 fxaService
@@ -1863,6 +1864,7 @@ KeyRingEncryptionRemoteTransformer
 fxaService
 )
 ;
+return
 this
 .
 encryptAndAddRecord
@@ -3703,6 +3705,7 @@ default
 "
 )
 ;
+await
 DEFAULT_KEY
 .
 generateRandom
@@ -3718,6 +3721,7 @@ BulkKeyBundle
 extensionId
 )
 ;
+await
 RANDOM_KEY
 .
 generateRandom
@@ -3809,6 +3813,7 @@ extensionId
 RANDOM_SALT
 }
 ;
+await
 server
 .
 installKeyRing
@@ -3888,6 +3893,7 @@ BulkKeyBundle
 extensionId2
 )
 ;
+await
 newKey
 .
 generateRandom
@@ -3916,6 +3922,7 @@ getNewSalt
 (
 )
 ;
+await
 server
 .
 installKeyRing
@@ -4009,6 +4016,7 @@ BulkKeyBundle
 extensionOnlyKey
 )
 ;
+await
 onlyKey
 .
 generateRandom
@@ -4026,6 +4034,7 @@ onlyKey
 .
 keyPairB64
 ;
+await
 server
 .
 installKeyRing
@@ -4197,6 +4206,7 @@ extensionOnlySalt
 =
 newSalt
 ;
+await
 server
 .
 installKeyRing
@@ -4372,6 +4382,7 @@ default
 "
 )
 ;
+await
 DEFAULT_KEY
 .
 generateRandom
@@ -4387,6 +4398,7 @@ BulkKeyBundle
 extensionId
 )
 ;
+await
 RANDOM_KEY
 .
 generateRandom
@@ -4469,6 +4481,7 @@ extensionId
 RANDOM_SALT
 }
 ;
+await
 server
 .
 installKeyRing

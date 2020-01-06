@@ -421,6 +421,7 @@ test_startOver_clears_keys
 (
 )
 {
+await
 generateNewKeys
 (
 Service
