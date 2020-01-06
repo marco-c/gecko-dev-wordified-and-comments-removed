@@ -794,11 +794,11 @@ true
 ;
 }
 void
-SetNeedTextureSyncOnPaintThread
+SetQueuedAsyncPaints
 (
 )
 {
-mTextureSyncOnPaintThread
+mQueuedAsyncPaints
 =
 true
 ;
@@ -1452,7 +1452,7 @@ bool
 mNeedsComposite
 ;
 bool
-mTextureSyncOnPaintThread
+mQueuedAsyncPaints
 ;
 uint32_t
 mPaintSequenceNumber
