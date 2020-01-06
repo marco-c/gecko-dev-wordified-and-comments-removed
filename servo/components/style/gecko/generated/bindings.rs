@@ -14657,6 +14657,9 @@ nsAString
 computed_values
 :
 ServoStyleContextBorrowedOrNull
+custom_properties
+:
+RawServoDeclarationBlockBorrowedOrNull
 )
 ;
 }

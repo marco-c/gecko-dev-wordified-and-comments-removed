@@ -291,6 +291,13 @@ components
 servo_arc
 "
 }
+smallvec
+=
+"
+0
+.
+4
+"
 style
 =
 {

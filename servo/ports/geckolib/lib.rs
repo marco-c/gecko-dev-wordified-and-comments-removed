@@ -38,6 +38,10 @@ extern
 crate
 servo_arc
 ;
+extern
+crate
+smallvec
+;
 #
 [
 macro_use

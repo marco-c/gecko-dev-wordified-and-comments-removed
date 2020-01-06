@@ -30,6 +30,10 @@ extern
 crate
 selectors
 ;
+extern
+crate
+smallvec
+;
 #
 [
 macro_use
