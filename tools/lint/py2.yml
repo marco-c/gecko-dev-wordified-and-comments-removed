@@ -141,14 +141,6 @@ py
 -
 servo
 -
-taskcluster
-/
-docker
--
-taskcluster
-/
-taskgraph
--
 testing
 /
 awsy
