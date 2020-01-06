@@ -96,6 +96,12 @@ eWebkitDevicePixelRatioPrefEnabled
 <
 <
 1
+eUserAgentAndChromeOnly
+=
+1
+<
+<
+2
 }
 ;
 uint8_t
