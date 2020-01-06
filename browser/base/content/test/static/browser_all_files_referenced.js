@@ -865,7 +865,7 @@ global
 -
 platform
 /
-gtk
+unix
 /
 accessible
 .
@@ -908,7 +908,7 @@ global
 -
 platform
 /
-gtk
+unix
 /
 intl
 .
@@ -951,7 +951,7 @@ global
 -
 platform
 /
-gtk
+unix
 /
 platformKeys
 .

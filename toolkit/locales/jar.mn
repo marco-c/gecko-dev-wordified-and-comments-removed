@@ -1486,7 +1486,7 @@ global
 -
 platform
 /
-gtk
+unix
 /
 os
 =
@@ -1569,7 +1569,7 @@ global
 -
 platform
 /
-gtk
+unix
 /
 platformKeys
 .
@@ -1650,7 +1650,7 @@ global
 -
 platform
 /
-gtk
+unix
 /
 intl
 .
