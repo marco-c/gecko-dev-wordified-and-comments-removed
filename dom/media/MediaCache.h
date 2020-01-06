@@ -135,13 +135,6 @@ OwnerThread
 const
 ;
 void
-SetTransportSeekable
-(
-bool
-aIsTransportSeekable
-)
-;
-void
 Close
 (
 )
@@ -207,6 +200,8 @@ uint32_t
 aLoadID
 int64_t
 aOffset
+bool
+aSeekable
 )
 ;
 void

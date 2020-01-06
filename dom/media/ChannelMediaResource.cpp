@@ -1051,12 +1051,6 @@ NotifyDataStarted
 (
 mLoadID
 startOffset
-)
-;
-mCacheStream
-.
-SetTransportSeekable
-(
 seekable
 )
 ;
