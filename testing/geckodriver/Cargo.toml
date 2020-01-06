@@ -31,11 +31,6 @@ uk
 >
 "
 ]
-build
-=
-"
-make
-"
 [
 dependencies
 ]
@@ -121,7 +116,7 @@ webdriver
 [
 dependencies
 .
-rust_mozprofile
+mozprofile
 ]
 path
 =
@@ -134,7 +129,7 @@ rust_mozprofile
 [
 dependencies
 .
-rust_mozrunner
+mozrunner
 ]
 path
 =
