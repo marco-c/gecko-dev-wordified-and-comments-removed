@@ -4305,6 +4305,7 @@ PostQueue
 prototype
 =
 {
+async
 enqueue
 (
 record
@@ -4539,6 +4540,7 @@ this
 numQueued
 )
 {
+await
 this
 .
 flush
@@ -4588,6 +4590,7 @@ true
 }
 ;
 }
+async
 flush
 (
 finalBatchPost
@@ -4802,10 +4805,7 @@ numQueued
 let
 response
 =
-Async
-.
-promiseSpinningly
-(
+await
 this
 .
 poster
@@ -4826,7 +4826,6 @@ batchID
 =
 =
 null
-)
 )
 )
 ;
@@ -4855,6 +4854,7 @@ batch
 response
 )
 ;
+await
 this
 .
 postCallback
@@ -4910,6 +4910,7 @@ modified
 "
 ]
 ;
+await
 this
 .
 postCallback
@@ -4983,6 +4984,7 @@ modified
 "
 ]
 ;
+await
 this
 .
 postCallback
@@ -5168,6 +5170,7 @@ responseBatchID
 )
 ;
 }
+await
 this
 .
 postCallback

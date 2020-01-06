@@ -281,12 +281,6 @@ Tabs
 service
 )
 ;
-this
-.
-_resetClient
-(
-)
-;
 }
 TabEngine
 .
@@ -313,6 +307,32 @@ false
 syncPriority
 :
 3
+async
+initialize
+(
+)
+{
+await
+SyncEngine
+.
+prototype
+.
+initialize
+.
+call
+(
+this
+)
+;
+await
+this
+.
+_resetClient
+(
+)
+;
+}
+async
 getChangedIDs
 (
 )
@@ -376,10 +396,12 @@ id
 ]
 ;
 }
+async
 _resetClient
 (
 )
 {
+await
 SyncEngine
 .
 prototype
@@ -391,6 +413,7 @@ call
 this
 )
 ;
+await
 this
 .
 _store
@@ -496,6 +519,7 @@ return
 urls
 ;
 }
+async
 _reconcile
 (
 item
@@ -503,6 +527,8 @@ item
 {
 if
 (
+(
+await
 this
 .
 _store
@@ -512,6 +538,7 @@ itemExists
 item
 .
 id
+)
 )
 )
 {
@@ -556,6 +583,7 @@ item
 )
 ;
 }
+async
 _syncFinish
 (
 )
@@ -608,6 +636,7 @@ __proto__
 Store
 .
 prototype
+async
 itemExists
 (
 id
@@ -1032,6 +1061,7 @@ return
 allTabs
 ;
 }
+async
 createRecord
 (
 id
@@ -1259,6 +1289,7 @@ return
 record
 ;
 }
+async
 getAllIDs
 (
 )
@@ -1362,6 +1393,7 @@ return
 ids
 ;
 }
+async
 wipe
 (
 )
@@ -1374,6 +1406,7 @@ _remoteClients
 }
 ;
 }
+async
 create
 (
 record
@@ -1425,6 +1458,7 @@ modified
 )
 ;
 }
+async
 update
 (
 record

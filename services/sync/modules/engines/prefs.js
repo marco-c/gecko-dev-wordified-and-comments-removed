@@ -342,6 +342,7 @@ syncPriority
 allowSkippedRecord
 :
 false
+async
 getChangedIDs
 (
 )
@@ -371,10 +372,12 @@ return
 changedIDs
 ;
 }
+async
 _wipeClient
 (
 )
 {
+await
 SyncEngine
 .
 prototype
@@ -393,6 +396,7 @@ justWiped
 true
 ;
 }
+async
 _reconcile
 (
 item
@@ -890,6 +894,7 @@ selectedThemeIDAfter
 ;
 }
 }
+async
 getAllIDs
 (
 )
@@ -911,6 +916,7 @@ return
 allprefs
 ;
 }
+async
 changeItemID
 (
 oldID
@@ -933,6 +939,7 @@ constant
 )
 ;
 }
+async
 itemExists
 (
 id
@@ -948,6 +955,7 @@ PREFS_GUID
 )
 ;
 }
+async
 createRecord
 (
 id
@@ -996,6 +1004,7 @@ return
 record
 ;
 }
+async
 create
 (
 record
@@ -1015,6 +1024,7 @@ request
 )
 ;
 }
+async
 remove
 (
 record
@@ -1034,6 +1044,7 @@ request
 )
 ;
 }
+async
 update
 (
 record
@@ -1077,6 +1088,7 @@ value
 )
 ;
 }
+async
 wipe
 (
 )

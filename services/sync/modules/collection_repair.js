@@ -334,6 +334,7 @@ return
 false
 ;
 }
+async
 startRepairs
 (
 validationInfo
@@ -351,6 +352,7 @@ implemented
 )
 ;
 }
+async
 continueRepairs
 (
 responseInfo

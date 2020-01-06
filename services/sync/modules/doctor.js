@@ -509,6 +509,7 @@ try
 let
 advanced
 =
+await
 requestor
 .
 continueRepairs
@@ -951,6 +952,7 @@ length
 let
 countInfo
 =
+await
 this
 .
 _fetchCollectionCounts
@@ -1307,6 +1309,7 @@ name
 }
 }
 }
+async
 _maybeCure
 (
 engine
@@ -1383,6 +1386,7 @@ return
 }
 didStart
 =
+await
 requestor
 .
 startRepairs
@@ -1453,6 +1457,7 @@ false
 )
 ;
 }
+async
 _fetchCollectionCounts
 (
 )
@@ -1475,6 +1480,7 @@ try
 let
 infoResp
 =
+await
 Service
 .
 _fetchInfo
