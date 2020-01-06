@@ -17475,7 +17475,7 @@ true
 ;
 mMainThreadCheck
 =
-PR_GetCurrentThread
+GetCurrentVirtualThread
 (
 )
 ;
@@ -18471,7 +18471,7 @@ MOZ_RELEASE_ASSERT
 mMainThreadCheck
 =
 =
-PR_GetCurrentThread
+GetCurrentVirtualThread
 (
 )
 )
@@ -18543,7 +18543,7 @@ MOZ_RELEASE_ASSERT
 mMainThreadCheck
 =
 =
-PR_GetCurrentThread
+GetCurrentVirtualThread
 (
 )
 )
