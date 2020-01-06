@@ -3971,12 +3971,6 @@ next
 {
 if
 (
-WrapperMap
-:
-:
-Ptr
-wp
-=
 c
 -
 >
