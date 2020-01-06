@@ -188,6 +188,7 @@ Layer
 GetLayer
 (
 )
+const
 {
 return
 mLayer
@@ -1251,15 +1252,13 @@ aItem
 )
 ;
 static
-Layer
+DisplayItemData
 *
-GetDebugOldLayerFor
+GetOldDataFor
 (
-nsIFrame
+nsDisplayItem
 *
-aFrame
-uint32_t
-aDisplayItemKey
+aItem
 )
 ;
 template
