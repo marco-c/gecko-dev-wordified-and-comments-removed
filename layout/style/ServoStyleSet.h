@@ -842,6 +842,17 @@ MaybeGCRuleTree
 (
 )
 ;
+bool
+MayTraverseFrom
+(
+dom
+:
+:
+Element
+*
+aElement
+)
+;
 #
 ifdef
 DEBUG

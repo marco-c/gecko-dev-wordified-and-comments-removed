@@ -1930,6 +1930,17 @@ GetAsServo
 )
 )
 {
+if
+(
+servoSet
+-
+>
+MayTraverseFrom
+(
+mElement
+)
+)
+{
 servoSet
 -
 >
@@ -1938,6 +1949,7 @@ StyleNewlyBoundElement
 mElement
 )
 ;
+}
 }
 }
 private
