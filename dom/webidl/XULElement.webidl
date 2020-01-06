@@ -101,6 +101,7 @@ interface
 MozRDFResource
 ;
 [
+HTMLConstructor
 Func
 =
 "

@@ -14743,9 +14743,9 @@ aObj
 ;
 already_AddRefed
 <
-nsGenericHTMLElement
+Element
 >
-CreateHTMLElement
+CreateXULOrHTMLElement
 (
 const
 GlobalObject

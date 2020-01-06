@@ -1354,6 +1354,13 @@ do_QueryInterface
 aInstancePtrResult
 )
 ;
+idoc
+-
+>
+ForceEnableXULXBL
+(
+)
+;
 nsDocument
 *
 doc

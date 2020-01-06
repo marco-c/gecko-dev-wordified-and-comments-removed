@@ -163,6 +163,11 @@ nsIXULDocument
 .
 h
 '
+'
+nsXULElement
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +

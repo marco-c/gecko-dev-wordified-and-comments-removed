@@ -12740,7 +12740,7 @@ signatures
 ]
                                                
 "
-CreateHTMLElement
+CreateXULOrHTMLElement
 "
 True
                                                
