@@ -5588,6 +5588,10 @@ const
 nsStyleList
 &
 aNewData
+const
+nsStyleDisplay
+*
+aOldDisplay
 )
 const
 ;
