@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+EventStates
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -98,6 +107,11 @@ bdi
 )
 )
 {
+AddStatesSilently
+(
+NS_EVENT_STATE_DIR_ATTR_LIKE_AUTO
+)
+;
 SetHasDirAuto
 (
 )
