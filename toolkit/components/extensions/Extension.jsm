@@ -4648,17 +4648,6 @@ errors
 )
 ;
 }
-if
-(
-AppConstants
-.
-RELEASE_OR_BETA
-)
-{
-return
-manifest
-;
-}
 return
 Promise
 .
