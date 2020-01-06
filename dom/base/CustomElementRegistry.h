@@ -301,6 +301,10 @@ CustomElementData
 }
 }
 ;
+#
+define
+ALEADY_CONSTRUCTED_MARKER
+nullptr
 struct
 CustomElementDefinition
 {
@@ -374,6 +378,15 @@ dom
 LifecycleCallbacks
 >
 mCallbacks
+;
+nsTArray
+<
+RefPtr
+<
+nsGenericHTMLElement
+>
+>
+mConstructionStack
 ;
 uint32_t
 mDocOrder
