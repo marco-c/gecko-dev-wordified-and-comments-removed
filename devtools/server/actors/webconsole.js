@@ -6602,11 +6602,6 @@ result
 .
 consoleID
 ;
-delete
-result
-.
-originAttributes
-;
 result
 .
 arguments
