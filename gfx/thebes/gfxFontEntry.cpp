@@ -2566,9 +2566,6 @@ aFontInfoData
 uint32_t
 &
 aUVSOffset
-bool
-&
-aSymbolFont
 )
 {
 if
@@ -2596,7 +2593,6 @@ GetCMAP
 (
 mName
 aUVSOffset
-aSymbolFont
 )
 ;
 }

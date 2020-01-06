@@ -96,10 +96,6 @@ mUVSOffset
 (
 0
 )
-mSymbolFont
-(
-false
-)
 {
 }
 FontFaceData
@@ -134,12 +130,6 @@ aFontFaceData
 .
 mUVSOffset
 ;
-mSymbolFont
-=
-aFontFaceData
-.
-mSymbolFont
-;
 }
 nsString
 mFullName
@@ -155,9 +145,6 @@ mCharacterMap
 ;
 uint32_t
 mUVSOffset
-;
-bool
-mSymbolFont
 ;
 }
 ;
@@ -251,9 +238,6 @@ aFontName
 uint32_t
 &
 aUVSOffset
-bool
-&
-aSymbolFont
 )
 {
 FontFaceData
@@ -287,12 +271,6 @@ aUVSOffset
 faceData
 .
 mUVSOffset
-;
-aSymbolFont
-=
-faceData
-.
-mSymbolFont
 ;
 RefPtr
 <

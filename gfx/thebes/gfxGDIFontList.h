@@ -312,6 +312,7 @@ aFontInfoData
 =
 nullptr
 )
+override
 ;
 void
 FillLogFont
@@ -633,6 +634,7 @@ aFontStyle
 bool
 aNeedsBold
 )
+override
 ;
 virtual
 nsresult

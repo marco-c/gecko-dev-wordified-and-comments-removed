@@ -2141,12 +2141,6 @@ rv
 )
 )
 {
-bool
-unicodeFont
-;
-bool
-symbolFont
-;
 rv
 =
 gfxFontUtils
@@ -2167,8 +2161,6 @@ Length
 *
 charmap
 mUVSOffset
-unicodeFont
-symbolFont
 )
 ;
 }

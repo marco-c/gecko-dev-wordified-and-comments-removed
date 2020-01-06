@@ -1474,11 +1474,6 @@ charmap
 nsresult
 rv
 ;
-bool
-symbolFont
-=
-false
-;
 if
 (
 aFontInfoData
@@ -1491,7 +1486,6 @@ GetCMAPFromFontInfo
 (
 aFontInfoData
 mUVSOffset
-symbolFont
 )
 )
 )
@@ -1541,11 +1535,6 @@ if
 cmapTable
 )
 {
-bool
-unicodeFont
-=
-false
-;
 uint32_t
 cmapLen
 ;
@@ -1581,8 +1570,6 @@ cmapLen
 *
 charmap
 mUVSOffset
-unicodeFont
-symbolFont
 )
 ;
 }
