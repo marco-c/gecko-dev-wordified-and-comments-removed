@@ -1040,10 +1040,6 @@ binary_args
 binary_args
         
 if
-self
-.
-symbols_path
-and
 stackfix_dir
 :
             
