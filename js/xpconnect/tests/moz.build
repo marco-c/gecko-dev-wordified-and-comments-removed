@@ -90,6 +90,9 @@ TEST_DIRS
 =
 [
 '
+marionette
+'
+'
 mochitest
 '
 '
