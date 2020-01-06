@@ -14075,7 +14075,7 @@ wouldInterruptCollection
 size_t
 igcThresholdBytes
 ;
-double
+float
 zoneAllocThresholdFactor
 ;
 wouldInterruptCollection
