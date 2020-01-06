@@ -11100,7 +11100,7 @@ aboutHome
 .
 enabled
 "
-false
+true
 )
 ;
 pref
