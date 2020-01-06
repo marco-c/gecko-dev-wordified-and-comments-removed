@@ -11316,9 +11316,10 @@ Bar
 ENTITY
 sendToDevice
 .
-label2
+label3
 "
 Send
+Page
 to
 Device
 "

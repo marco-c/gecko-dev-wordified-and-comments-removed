@@ -639,9 +639,7 @@ gPocketBundle
 GetStringFromName
 (
 "
-pocket
--
-button
+saveToPocketCmd
 .
 label
 "
