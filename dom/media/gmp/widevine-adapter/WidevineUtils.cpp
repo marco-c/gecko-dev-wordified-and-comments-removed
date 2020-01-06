@@ -127,7 +127,7 @@ case
 cdm
 :
 :
-kInitializationError
+kSessionError
 :
 return
 GMPGenericErr
