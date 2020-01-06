@@ -171,6 +171,10 @@ protocol
 PIPCBlobInputStream
 ;
 include
+protocol
+PPaymentRequest
+;
+include
 DOMTypes
 ;
 include
@@ -1078,6 +1082,9 @@ PRenderFrame
 manages
 PPluginWidget
 ;
+manages
+PPaymentRequest
+;
 both
 :
 async
@@ -1275,6 +1282,11 @@ creation
 /
 sync
 PPluginWidget
+(
+)
+;
+async
+PPaymentRequest
 (
 )
 ;

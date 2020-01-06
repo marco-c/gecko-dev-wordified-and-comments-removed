@@ -4440,6 +4440,11 @@ ParentNode
 webidl
 '
 '
+PaymentRequest
+.
+webidl
+'
+'
 Performance
 .
 webidl
