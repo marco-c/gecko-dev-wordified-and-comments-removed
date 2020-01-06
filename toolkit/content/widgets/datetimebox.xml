@@ -10490,6 +10490,8 @@ this
 .
 advanceToNextField
 (
+!
+(
 aEvent
 .
 key
@@ -10498,10 +10500,7 @@ key
 "
 ArrowRight
 "
-?
-false
-:
-true
+)
 )
 ;
 aEvent
