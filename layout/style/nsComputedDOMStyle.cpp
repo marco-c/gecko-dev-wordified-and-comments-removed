@@ -2090,6 +2090,16 @@ GetParent
 aContext
 -
 >
+AsGecko
+(
+)
+-
+>
+GetParent
+(
+)
+-
+>
 HasPseudoElementData
 (
 )
