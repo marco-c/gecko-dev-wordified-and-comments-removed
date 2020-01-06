@@ -201,3 +201,14 @@ self
 .
 browser_packages
 )
+    
+def
+ensure_stylo_packages
+(
+self
+state_dir
+checkout_root
+)
+:
+        
+pass
