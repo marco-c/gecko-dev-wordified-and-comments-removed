@@ -1444,11 +1444,15 @@ height
 0
 )
 ;
-mGMPThread
--
->
-Dispatch
+mozilla
+:
+:
+SyncRunnable
+:
+:
+DispatchToThread
 (
+mGMPThread
 WrapRunnable
 (
 this
@@ -1462,7 +1466,6 @@ aInputImage
 aCodecSpecificInfo
 aFrameTypes
 )
-NS_DISPATCH_SYNC
 )
 ;
 return
