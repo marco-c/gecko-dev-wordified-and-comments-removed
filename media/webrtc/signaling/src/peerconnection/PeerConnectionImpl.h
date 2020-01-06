@@ -3364,6 +3364,9 @@ mNegotiationNeeded
 bool
 mPrivateWindow
 ;
+bool
+mActiveOnWindow
+;
 uint16_t
 mMaxReceiving
 [
