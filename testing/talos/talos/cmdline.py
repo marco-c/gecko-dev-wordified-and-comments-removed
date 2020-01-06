@@ -744,7 +744,7 @@ gecko_profile_interval
 '
 type
 =
-int
+float
             
 help
 =
@@ -864,7 +864,7 @@ gecko_profile_interval
 '
 type
 =
-int
+float
             
 help
 =
