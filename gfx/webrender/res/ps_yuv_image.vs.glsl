@@ -173,6 +173,14 @@ user_data
 x
 )
 ;
+#
+ifndef
+WR_FEATURE_INTERLEAVED_Y_CB_CR
+/
+/
+only
+1
+channel
 ResourceRect
 u_rect
 =
@@ -190,6 +198,10 @@ x
 #
 ifndef
 WR_FEATURE_NV12
+/
+/
+2
+channel
 ResourceRect
 v_rect
 =
@@ -204,6 +216,8 @@ x
 2
 )
 ;
+#
+endif
 #
 endif
 /
@@ -287,6 +301,9 @@ vTextureOffsetY
 =
 y_st0
 ;
+#
+ifndef
+WR_FEATURE_INTERLEAVED_Y_CB_CR
 /
 /
 This
@@ -386,6 +403,8 @@ v_st0
 ;
 #
 endif
+#
+endif
 YuvImage
 image
 =
@@ -413,6 +432,9 @@ vec2
 /
 y_texture_size_normalization_factor
 ;
+#
+ifndef
+WR_FEATURE_INTERLEAVED_Y_CB_CR
 vHalfTexelUv
 =
 vec2
@@ -424,4 +446,6 @@ vec2
 /
 uv_texture_size_normalization_factor
 ;
+#
+endif
 }

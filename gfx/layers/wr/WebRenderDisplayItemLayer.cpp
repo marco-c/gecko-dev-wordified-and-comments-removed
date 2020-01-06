@@ -299,6 +299,9 @@ if
 mItem
 )
 {
+WrSize
+contentSize
+;
 wr
 :
 :
@@ -313,6 +316,7 @@ WrBridge
 GetPipeline
 (
 )
+contentSize
 )
 ;
 mParentCommands
@@ -332,12 +336,12 @@ mParentCommands
 this
 )
 ;
-mBuiltDisplayList
-=
 builder
 .
 Finalize
 (
+contentSize
+mBuiltDisplayList
 )
 ;
 }

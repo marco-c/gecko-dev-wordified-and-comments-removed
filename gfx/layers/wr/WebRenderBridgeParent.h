@@ -577,6 +577,10 @@ uint64_t
 &
 aTransactionId
 const
+WrSize
+&
+aContentSize
+const
 ByteBuffer
 &
 dl
@@ -629,6 +633,10 @@ const
 uint64_t
 &
 aTransactionId
+const
+WrSize
+&
+aContentSize
 const
 ByteBuffer
 &
@@ -1032,6 +1040,10 @@ Epoch
 &
 aEpoch
 const
+WrSize
+&
+aContentSize
+const
 ByteBuffer
 &
 dl
@@ -1098,6 +1110,10 @@ const
 uint64_t
 &
 aTransactionId
+const
+WrSize
+&
+aContentSize
 const
 ByteBuffer
 &

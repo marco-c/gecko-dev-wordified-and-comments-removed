@@ -241,6 +241,12 @@ Zero
 One
 +
 Float
+U
+:
+fmt
+:
+:
+Debug
 {
 let
 pa
@@ -400,8 +406,7 @@ debug
 !
 (
 "
-\
-nSorting
+Sorting
 "
 )
 ;
@@ -1124,14 +1129,8 @@ t
 :
 ?
 }
-"
-a
-)
-;
-debug
-!
-(
-"
+\
+n
 \
 t
 \
@@ -1141,6 +1140,7 @@ t
 ?
 }
 "
+a
 b
 )
 ;

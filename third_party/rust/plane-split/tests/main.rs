@@ -588,11 +588,8 @@ assert
 (
 poly
 .
-is_valid_eps
+is_valid
 (
-1e
--
-5
 )
 )
 ;

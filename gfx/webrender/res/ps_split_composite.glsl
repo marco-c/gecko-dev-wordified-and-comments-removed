@@ -66,5 +66,10 @@ vUv
 flat
 varying
 vec4
-vUvBounds
+vUvTaskBounds
+;
+flat
+varying
+vec4
+vUvSampleBounds
 ;

@@ -106,6 +106,13 @@ u64
 ;
 #
 [
+repr
+(
+u32
+)
+]
+#
+[
 derive
 (
 Debug

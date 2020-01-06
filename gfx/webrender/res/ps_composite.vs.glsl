@@ -82,10 +82,10 @@ pi
 render_task_index
 )
 ;
-AlphaBatchTask
+ReadbackTask
 backdrop_task
 =
-fetch_alpha_batch_task
+fetch_readback_task
 (
 pi
 .

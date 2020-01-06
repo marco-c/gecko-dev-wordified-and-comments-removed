@@ -83,8 +83,13 @@ vAlphaSelect
 ;
 flat
 varying
-vec3
-vDashParams
+vec4
+vClipParams
+;
+flat
+varying
+float
+vClipSelect
 ;
 #
 ifdef

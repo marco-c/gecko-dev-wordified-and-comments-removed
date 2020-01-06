@@ -398,11 +398,16 @@ wr
 :
 BuiltDisplayList
 dl
-=
+;
+WrSize
+contentSize
+;
 aBuilder
 .
 Finalize
 (
+contentSize
+dl
 )
 ;
 ByteBuffer
@@ -433,6 +438,7 @@ GetFwdTransactionId
 (
 )
 aTransactionId
+contentSize
 dlData
 dl
 .
@@ -455,6 +461,7 @@ GetFwdTransactionId
 (
 )
 aTransactionId
+contentSize
 dlData
 dl
 .

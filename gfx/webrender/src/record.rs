@@ -533,6 +533,15 @@ WebGLCommand
 .
 .
 )
+|
+ApiMsg
+:
+:
+SetWindowParameters
+(
+.
+.
+)
 =
 >
 true

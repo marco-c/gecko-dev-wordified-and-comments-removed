@@ -78,3 +78,13 @@ varying
 vec4
 vPoint_Tangent1
 ;
+flat
+varying
+vec3
+vDotParams
+;
+flat
+varying
+vec2
+vAlphaMask
+;
