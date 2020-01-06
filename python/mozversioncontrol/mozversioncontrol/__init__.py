@@ -1333,7 +1333,7 @@ git
 =
 buildconfig
 .
-subst
+substs
 [
 '
 GIT
