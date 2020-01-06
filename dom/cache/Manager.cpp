@@ -6181,7 +6181,7 @@ Manager
 aManager
 ListenerId
 aListenerId
-OpenStreamResolver
+InputStreamResolver
 &
 &
 aResolver
@@ -6301,7 +6301,7 @@ nullptr
 }
 private
 :
-OpenStreamResolver
+InputStreamResolver
 mResolver
 ;
 const
@@ -8125,7 +8125,7 @@ ExecuteOpenStream
 Listener
 *
 aListener
-OpenStreamResolver
+InputStreamResolver
 &
 &
 aResolver
