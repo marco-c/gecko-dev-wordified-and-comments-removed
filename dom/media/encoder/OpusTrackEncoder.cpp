@@ -30,6 +30,13 @@ h
 "
 #
 include
+"
+VideoUtils
+.
+h
+"
+#
+include
 <
 opus
 /
