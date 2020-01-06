@@ -155,12 +155,6 @@ mPDFiumEngine
 FPDF_DOCUMENT
 mPDFDoc
 ;
-Vector
-<
-char
->
-mPDFFileContents
-;
 PRLibrary
 *
 mPDFiumLibrary
