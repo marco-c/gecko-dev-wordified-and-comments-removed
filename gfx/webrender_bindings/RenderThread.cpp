@@ -1018,6 +1018,9 @@ Now
 (
 )
 ;
+bool
+ret
+=
 renderer
 -
 >
@@ -1025,6 +1028,15 @@ Render
 (
 )
 ;
+if
+(
+!
+ret
+)
+{
+return
+;
+}
 TimeStamp
 end
 =
