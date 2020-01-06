@@ -106,7 +106,10 @@ AsyncImagePipelineManager
 explicit
 AsyncImagePipelineManager
 (
-uint32_t
+wr
+:
+:
+IdNamespace
 aIdNamespace
 )
 ;
@@ -449,7 +452,10 @@ return
 mResourceId
 ;
 }
-uint32_t
+wr
+:
+:
+IdNamespace
 GetNamespace
 (
 )
@@ -475,8 +481,6 @@ key
 key
 .
 mNamespace
-.
-mHandle
 =
 GetNamespace
 (
@@ -676,7 +680,10 @@ ImageKey
 aKeysToDelete
 )
 ;
-uint32_t
+wr
+:
+:
+IdNamespace
 mIdNamespace
 ;
 uint32_t

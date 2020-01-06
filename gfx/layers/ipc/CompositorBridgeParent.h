@@ -2148,7 +2148,10 @@ aSize
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
-uint32_t
+wr
+:
+:
+IdNamespace
 *
 aIdNamespace
 )

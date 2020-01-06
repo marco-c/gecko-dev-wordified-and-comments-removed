@@ -1078,7 +1078,10 @@ aSize
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
-uint32_t
+wr
+:
+:
+IdNamespace
 *
 aIdNamespace
 )
@@ -1233,7 +1236,7 @@ aIdNamespace
 parent
 -
 >
-GetIdNameSpace
+GetIdNamespace
 (
 )
 ;
@@ -1383,7 +1386,7 @@ aIdNamespace
 parent
 -
 >
-GetIdNameSpace
+GetIdNamespace
 (
 )
 ;

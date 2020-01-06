@@ -921,7 +921,10 @@ LayoutDeviceIntSize
 &
 TextureFactoryIdentifier
 *
-uint32_t
+wr
+:
+:
+IdNamespace
 *
 )
 override

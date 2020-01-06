@@ -261,7 +261,10 @@ GetClientSize
 TextureFactoryIdentifier
 textureFactoryIdentifier
 ;
-uint32_t
+wr
+:
+:
+IdNamespace
 id_namespace
 ;
 PWebRenderBridgeChild
