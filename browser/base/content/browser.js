@@ -29638,6 +29638,14 @@ updateAppearance
 true
 )
 ;
+gBrowser
+.
+tabContainer
+.
+uiDensityChanged
+(
+)
+;
 }
 }
 ;
