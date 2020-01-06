@@ -104,6 +104,17 @@ override
 ;
 private
 :
+bool
+CanPlayThroughImpl
+(
+)
+override
+final
+{
+return
+true
+;
+}
 RefPtr
 <
 HLSResource

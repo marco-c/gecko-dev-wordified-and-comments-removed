@@ -1376,6 +1376,8 @@ bool
 CanPlayThroughImpl
 (
 )
+=
+0
 ;
 RefPtr
 <

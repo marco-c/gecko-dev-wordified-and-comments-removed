@@ -290,6 +290,13 @@ SeekingChanged
 (
 )
 ;
+bool
+CanPlayThroughImpl
+(
+)
+override
+final
+;
 WatchManager
 <
 ChannelMediaDecoder
