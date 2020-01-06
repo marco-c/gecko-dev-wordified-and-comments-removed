@@ -172,8 +172,6 @@ Error
 .
 lineNumber
 ;
-\
-n
 "
 )
 ;
@@ -232,8 +230,6 @@ Error
 .
 lineNumber
 ;
-\
-n
 "
 )
 ;

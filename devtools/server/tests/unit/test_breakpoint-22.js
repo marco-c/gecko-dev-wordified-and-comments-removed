@@ -203,7 +203,7 @@ gDebuggee
 .
 line0
 +
-5
+7
 }
 ;
 yield
@@ -329,11 +329,13 @@ no
 breakpoint
 is
 allowed
-here
+after
+the
+EOF
 (
 line0
 +
-5
+6
 )
 gDebuggee
 )
