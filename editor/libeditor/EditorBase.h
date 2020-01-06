@@ -2649,6 +2649,14 @@ selection
 ;
 }
 nsresult
+CollapseSelectionToEnd
+(
+Selection
+*
+aSelection
+)
+;
+nsresult
 CreateRange
 (
 nsIDOMNode
