@@ -7012,6 +7012,10 @@ onDrop
 ip
 aDataTransfer
 this
+.
+_tree
+.
+element
 )
 .
 catch
