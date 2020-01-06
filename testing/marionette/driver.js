@@ -13301,6 +13301,15 @@ prototype
 .
 quit
 "
+quitApplication
+"
+:
+GeckoDriver
+.
+prototype
+.
+quit
+"
 Addon
 :
 Install
