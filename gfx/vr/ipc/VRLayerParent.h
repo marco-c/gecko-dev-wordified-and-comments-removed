@@ -68,6 +68,9 @@ const
 Rect
 &
 aRightEyeRect
+const
+uint32_t
+aGroup
 )
 ;
 virtual
@@ -107,6 +110,16 @@ const
 {
 return
 mVRDisplayID
+;
+}
+uint32_t
+GetGroup
+(
+)
+const
+{
+return
+mGroup
 ;
 }
 protected
@@ -154,6 +167,9 @@ gfx
 :
 Rect
 mRightEyeRect
+;
+uint32_t
+mGroup
 ;
 }
 ;

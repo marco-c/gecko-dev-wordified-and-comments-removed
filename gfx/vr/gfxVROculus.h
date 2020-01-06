@@ -112,13 +112,6 @@ NotifyVSync
 )
 override
 ;
-virtual
-VRHMDSensorState
-GetSensorState
-(
-)
-override
-;
 void
 ZeroSensor
 (
@@ -127,6 +120,13 @@ override
 ;
 protected
 :
+virtual
+VRHMDSensorState
+GetSensorState
+(
+)
+override
+;
 virtual
 void
 StartPresentation
@@ -142,7 +142,7 @@ StopPresentation
 override
 ;
 virtual
-void
+bool
 SubmitFrame
 (
 mozilla
@@ -158,10 +158,6 @@ const
 IntSize
 &
 aSize
-const
-VRHMDSensorState
-&
-aSensorState
 const
 gfx
 :

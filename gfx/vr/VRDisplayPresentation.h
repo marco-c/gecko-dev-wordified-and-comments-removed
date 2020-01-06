@@ -61,6 +61,8 @@ VRLayer
 >
 &
 aLayers
+uint32_t
+aGroup
 )
 ;
 void
@@ -81,6 +83,12 @@ VRLayer
 &
 result
 )
+;
+uint32_t
+GetGroup
+(
+)
+const
 ;
 private
 :
@@ -122,6 +130,9 @@ VRLayerChild
 >
 >
 mLayers
+;
+uint32_t
+mGroup
 ;
 }
 ;

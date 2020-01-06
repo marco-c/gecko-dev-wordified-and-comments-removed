@@ -93,12 +93,6 @@ VRDisplayHost
 {
 public
 :
-VRHMDSensorState
-GetSensorState
-(
-)
-override
-;
 void
 ZeroSensor
 (
@@ -107,6 +101,12 @@ override
 ;
 protected
 :
+VRHMDSensorState
+GetSensorState
+(
+)
+override
+;
 virtual
 void
 StartPresentation
@@ -128,7 +128,7 @@ defined
 XP_WIN
 )
 virtual
-void
+bool
 SubmitFrame
 (
 TextureSourceD3D11
@@ -138,10 +138,6 @@ const
 IntSize
 &
 aSize
-const
-VRHMDSensorState
-&
-aSensorState
 const
 gfx
 :
