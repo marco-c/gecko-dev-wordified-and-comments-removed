@@ -161,10 +161,14 @@ define
 nscoord_MAX
 nscoord
 (
+(
 1
 <
 <
 30
+)
+-
+1
 )
 #
 endif
@@ -570,6 +574,9 @@ min
 float
 >
 (
+(
+float
+)
 nscoord_MAX
 product
 )
@@ -586,6 +593,9 @@ max
 float
 >
 (
+(
+float
+)
 nscoord_MIN
 product
 )

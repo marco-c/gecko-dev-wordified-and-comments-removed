@@ -648,7 +648,11 @@ load
 .
 svg
 asserts
+-
+if
 (
+!
+stylo
 2
 )
 load
@@ -658,6 +662,8 @@ xhtml
 #
 bug
 606914
+bug
+718883
 load
 610594
 -
