@@ -994,6 +994,15 @@ aData
 nullptr
 )
 {
+if
+(
+sShuttingDown
+)
+{
+return
+nullptr
+;
+}
 RefPtr
 <
 CollectorRunner
@@ -8218,6 +8227,8 @@ int64_t
 budget
 =
 sActiveIntersliceGCBudget
+*
+2
 ;
 if
 (
