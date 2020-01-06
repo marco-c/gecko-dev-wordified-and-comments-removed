@@ -220,6 +220,10 @@ tests
 -
 client
 -
+test
+-
+verify
+-
 xpcshell
 web
 -
