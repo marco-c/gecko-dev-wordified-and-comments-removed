@@ -16549,6 +16549,12 @@ if
 op
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 tenuredSize
 +
 =
