@@ -1452,7 +1452,7 @@ mFlags
 }
 ;
 void
-setAnchorFocusRange
+SetAnchorFocusRange
 (
 int32_t
 aIndex
