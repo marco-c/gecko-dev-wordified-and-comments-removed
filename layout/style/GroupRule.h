@@ -606,7 +606,6 @@ uint32_t
 aColumnNumber
 )
 ;
-explicit
 GroupRule
 (
 already_AddRefed
@@ -614,6 +613,10 @@ already_AddRefed
 ServoCssRules
 >
 aRules
+uint32_t
+aLineNumber
+uint32_t
+aColumnNumber
 )
 ;
 GroupRule

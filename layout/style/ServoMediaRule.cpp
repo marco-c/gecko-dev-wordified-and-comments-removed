@@ -61,6 +61,8 @@ aRawRule
 Consume
 (
 )
+aLine
+aColumn
 )
 mRawRule
 (
