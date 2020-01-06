@@ -129,11 +129,6 @@ nsIContentPermissionPrompt
 idl
 '
 '
-nsIContentPrefService
-.
-idl
-'
-'
 nsIContentPrefService2
 .
 idl
