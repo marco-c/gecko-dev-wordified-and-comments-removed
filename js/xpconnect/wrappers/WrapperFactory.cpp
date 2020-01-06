@@ -2466,6 +2466,13 @@ if
 (
 !
 targetSubsumesOrigin
+&
+&
+!
+originCompartmentPrivate
+-
+>
+forcePermissiveCOWs
 )
 {
 if
