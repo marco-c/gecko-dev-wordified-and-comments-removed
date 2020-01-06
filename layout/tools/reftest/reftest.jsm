@@ -8112,6 +8112,16 @@ refURI
 =
 testURI
 ;
+minAsserts
+*
+=
+2
+;
+maxAsserts
+*
+=
+2
+;
 if
 (
 expected_status
