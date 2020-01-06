@@ -4810,6 +4810,16 @@ aBytes
 )
 override
 ;
+bool
+ShouldCacheReads
+(
+)
+override
+{
+return
+true
+;
+}
 already_AddRefed
 <
 MediaByteBuffer

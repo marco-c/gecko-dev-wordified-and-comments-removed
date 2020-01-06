@@ -176,6 +176,16 @@ aBytes
 )
 override
 ;
+bool
+ShouldCacheReads
+(
+)
+override
+{
+return
+true
+;
+}
 int64_t
 Tell
 (

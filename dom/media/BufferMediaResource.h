@@ -265,6 +265,16 @@ return
 NS_OK
 ;
 }
+bool
+ShouldCacheReads
+(
+)
+override
+{
+return
+false
+;
+}
 int64_t
 Tell
 (
