@@ -162,7 +162,12 @@ false
 var
 gGlobalObject
 =
+Cu
+.
+getGlobalForObject
+(
 this
+)
 ;
 function
 NS_ASSERT
