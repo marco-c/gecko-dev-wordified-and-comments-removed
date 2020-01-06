@@ -295,12 +295,12 @@ position
 private
 final
 FaviconView
-vIconView
+pageIconView
 ;
 private
 final
 TextView
-vLabel
+pageTitleView
 ;
 private
 final
@@ -310,17 +310,17 @@ vTimeSince
 private
 final
 TextView
-vSourceView
+pageSourceView
 ;
 private
 final
 TextView
-vPageView
+pageDomainView
 ;
 private
 final
 ImageView
-vSourceIconView
+pageSourceIconView
 ;
 private
 Future
@@ -373,7 +373,7 @@ dimen
 activity_stream_base_margin
 )
 ;
-vLabel
+pageTitleView
 =
 (
 TextView
@@ -405,7 +405,7 @@ id
 card_history_time_since
 )
 ;
-vIconView
+pageIconView
 =
 (
 FaviconView
@@ -421,7 +421,7 @@ id
 icon
 )
 ;
-vSourceView
+pageSourceView
 =
 (
 TextView
@@ -437,7 +437,7 @@ id
 card_history_source
 )
 ;
-vPageView
+pageDomainView
 =
 (
 TextView
@@ -453,7 +453,7 @@ id
 page
 )
 ;
-vSourceIconView
+pageSourceIconView
 =
 (
 ImageView
@@ -606,12 +606,12 @@ HIGHLIGHT
 highlight
 onUrlOpenListener
 onUrlOpenInBackgroundListener
-vIconView
+pageIconView
 .
 getWidth
 (
 )
-vIconView
+pageIconView
 .
 getHeight
 (
@@ -677,7 +677,7 @@ position
 =
 position
 ;
-vLabel
+pageTitleView
 .
 setText
 (
@@ -704,7 +704,7 @@ ViewGroup
 LayoutParams
 layoutParams
 =
-vIconView
+pageIconView
 .
 getLayoutParams
 (
@@ -724,7 +724,7 @@ height
 =
 tilesHeight
 ;
-vIconView
+pageIconView
 .
 setLayoutParams
 (
@@ -814,7 +814,7 @@ source
 case
 BOOKMARKED
 :
-vSourceView
+pageSourceView
 .
 setText
 (
@@ -825,7 +825,7 @@ string
 activity_stream_highlight_label_bookmarked
 )
 ;
-vSourceView
+pageSourceView
 .
 setVisibility
 (
@@ -834,7 +834,7 @@ View
 VISIBLE
 )
 ;
-vSourceIconView
+pageSourceIconView
 .
 setImageResource
 (
@@ -850,7 +850,7 @@ break
 case
 VISITED
 :
-vSourceView
+pageSourceView
 .
 setText
 (
@@ -861,7 +861,7 @@ string
 activity_stream_highlight_label_visited
 )
 ;
-vSourceView
+pageSourceView
 .
 setVisibility
 (
@@ -870,7 +870,7 @@ View
 VISIBLE
 )
 ;
-vSourceIconView
+pageSourceIconView
 .
 setImageResource
 (
@@ -885,7 +885,7 @@ break
 ;
 default
 :
-vSourceView
+pageSourceView
 .
 setVisibility
 (
@@ -894,7 +894,7 @@ View
 INVISIBLE
 )
 ;
-vSourceIconView
+pageSourceIconView
 .
 setImageResource
 (
@@ -924,7 +924,7 @@ hasProvider
 )
 )
 {
-vPageView
+pageDomainView
 .
 setText
 (
@@ -971,7 +971,7 @@ String
 label
 )
 {
-vPageView
+pageDomainView
 .
 setText
 (
@@ -1005,7 +1005,7 @@ IconResponse
 response
 )
 {
-vIconView
+pageIconView
 .
 updateImage
 (
