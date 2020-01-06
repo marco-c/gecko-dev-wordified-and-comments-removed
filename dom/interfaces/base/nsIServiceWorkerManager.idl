@@ -418,6 +418,12 @@ scriptSpec
 ;
 readonly
 attribute
+unsigned
+short
+updateViaCache
+;
+readonly
+attribute
 PRTime
 lastUpdateTime
 ;

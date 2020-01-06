@@ -207,6 +207,11 @@ attribute
 USVString
 scope
 ;
+readonly
+attribute
+ServiceWorkerUpdateViaCache
+updateViaCache
+;
 [
 Throws
 NewObject
