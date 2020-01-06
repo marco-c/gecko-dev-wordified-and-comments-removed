@@ -276,6 +276,7 @@ windows
 .
 map
 ;
+var
 waitForEvents
 =
 function
