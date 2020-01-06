@@ -23,14 +23,9 @@ iframe
 ;
 iframe
 .
-src
+srcdoc
 =
 "
-data
-:
-text
-/
-html
 <
 script
 >
