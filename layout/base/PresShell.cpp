@@ -7469,7 +7469,10 @@ mDocument
 GetWindow
 (
 )
-false
+nsFocusManager
+:
+:
+eOnlyCurrentWindow
 getter_AddRefs
 (
 focusedWindow
@@ -30492,7 +30495,10 @@ nsFocusManager
 GetFocusedDescendant
 (
 rootWindow
-true
+nsFocusManager
+:
+:
+eIncludeAllDescendants
 getter_AddRefs
 (
 focusedWindow
@@ -35268,7 +35274,10 @@ nsFocusManager
 GetFocusedDescendant
 (
 window
-false
+nsFocusManager
+:
+:
+eOnlyCurrentWindow
 getter_AddRefs
 (
 focusedWindow

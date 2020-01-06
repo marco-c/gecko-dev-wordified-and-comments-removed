@@ -1012,6 +1012,7 @@ root
 GetControllerForCommand
 (
 aCommand
+false
 aResult
 )
 ;

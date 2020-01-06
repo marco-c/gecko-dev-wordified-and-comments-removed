@@ -450,7 +450,10 @@ nsFocusManager
 GetFocusedDescendant
 (
 rootWindow
-true
+nsFocusManager
+:
+:
+eIncludeAllDescendants
 aWindow
 )
 ;
@@ -1975,6 +1978,7 @@ root
 >
 GetControllers
 (
+false
 aResult
 )
 ;
@@ -2018,6 +2022,7 @@ root
 GetControllerForCommand
 (
 aCommand
+false
 _retval
 )
 ;

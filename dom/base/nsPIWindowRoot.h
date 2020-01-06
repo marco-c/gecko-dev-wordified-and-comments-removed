@@ -124,6 +124,8 @@ const
 char
 *
 aCommand
+bool
+aForVisibleWindow
 nsIController
 *
 *
@@ -136,6 +138,8 @@ virtual
 nsresult
 GetControllers
 (
+bool
+aForVisibleWindow
 nsIControllers
 *
 *

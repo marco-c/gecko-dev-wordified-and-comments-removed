@@ -2365,6 +2365,7 @@ if
 (
 windowRoot
 )
+{
 windowRoot
 -
 >
@@ -2375,13 +2376,16 @@ command
 get
 (
 )
+true
 getter_AddRefs
 (
 controller
 )
 )
 ;
+}
 else
+{
 controller
 =
 GetController
@@ -2389,6 +2393,7 @@ GetController
 aTarget
 )
 ;
+}
 aEvent
 -
 >
@@ -2476,7 +2481,10 @@ nsFocusManager
 GetFocusedDescendant
 (
 windowToCheck
-true
+nsFocusManager
+:
+:
+eIncludeAllDescendants
 getter_AddRefs
 (
 focusedWindow

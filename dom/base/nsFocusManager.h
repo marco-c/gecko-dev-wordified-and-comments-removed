@@ -333,6 +333,14 @@ UpdateCaretForCaretBrowsingMode
 (
 )
 ;
+enum
+SearchRange
+{
+eOnlyCurrentWindow
+eIncludeAllDescendants
+eIncludeVisibleDescendants
+}
+;
 static
 nsIContent
 *
@@ -341,8 +349,8 @@ GetFocusedDescendant
 nsPIDOMWindowOuter
 *
 aWindow
-bool
-aDeep
+SearchRange
+aSearchRange
 nsPIDOMWindowOuter
 *
 *

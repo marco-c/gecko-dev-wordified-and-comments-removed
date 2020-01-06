@@ -498,6 +498,7 @@ root
 GetControllerForCommand
 (
 commandStr
+false
 getter_AddRefs
 (
 controller
