@@ -530,12 +530,6 @@ Value
 >
 mThrownJSVal
 ;
-private
-:
-static
-bool
-sEverMadeOneFromFactory
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
