@@ -115,7 +115,7 @@ class
 TextureClientRecycleAllocator
 ;
 class
-ContentClientRemoteBuffer
+ContentClientRemote
 ;
 class
 CompositableClient
@@ -368,6 +368,17 @@ TextureClient
 aTexture
 )
 ;
+virtual
+ContentClientRemote
+*
+AsContentClientRemote
+(
+)
+{
+return
+nullptr
+;
+}
 void
 InitIPDL
 (
