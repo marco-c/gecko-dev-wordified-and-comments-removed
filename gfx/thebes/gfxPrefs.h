@@ -3394,7 +3394,7 @@ alloc
 -
 size
 "
-MaxAllocSize
+MaxAllocSizeDoNotUseDirectly
 int32_t
 (
 int32_t
@@ -3414,7 +3414,7 @@ texture
 -
 size
 "
-MaxTextureSize
+MaxTextureSizeDoNotUseDirectly
 int32_t
 (
 int32_t
