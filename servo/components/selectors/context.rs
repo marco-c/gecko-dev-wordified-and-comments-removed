@@ -153,6 +153,7 @@ enum
 VisitedHandlingMode
 {
 AllLinksUnvisited
+AllLinksVisitedAndUnvisited
 RelevantLinkVisited
 }
 #

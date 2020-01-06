@@ -1403,7 +1403,11 @@ shared_context
 .
 stylist
 .
-num_dependencies
+invalidation_map
+(
+)
+.
+len
 (
 )
 as
