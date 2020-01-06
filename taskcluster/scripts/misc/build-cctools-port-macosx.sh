@@ -145,7 +145,7 @@ src
 /
 MacOSX10
 .
-10
+11
 .
 sdk
 TARGET_TRIPLE
