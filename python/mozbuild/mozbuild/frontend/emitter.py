@@ -4941,6 +4941,28 @@ host_linkables
             
 return
         
+if
+not
+all
+(
+isinstance
+(
+l
+(
+RustLibrary
+HostRustLibrary
+)
+)
+                   
+for
+l
+in
+linkables
++
+host_linkables
+)
+:
+            
 self
 .
 _compile_dirs

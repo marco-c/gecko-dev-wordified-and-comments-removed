@@ -8963,21 +8963,15 @@ len
 (
 objs
 )
-2
+1
 )
         
-flags
 lib
 =
 objs
-        
-self
-.
-assertIsInstance
-(
-flags
-ComputedFlags
-)
+[
+0
+]
         
 self
 .
@@ -9175,21 +9169,15 @@ len
 (
 objs
 )
-2
+1
 )
         
-flags
 lib
 =
 objs
-        
-self
-.
-assertIsInstance
-(
-flags
-ComputedFlags
-)
+[
+0
+]
         
 self
 .
@@ -9854,7 +9842,7 @@ len
 (
 objs
 )
-2
+1
 )
         
 self
@@ -9863,7 +9851,7 @@ assertIsInstance
 (
 objs
 [
-1
+0
 ]
 HostRustLibrary
 )
@@ -9874,7 +9862,7 @@ assertRegexpMatches
 (
 objs
 [
-1
+0
 ]
 .
 lib_name
@@ -9889,7 +9877,7 @@ assertRegexpMatches
 (
 objs
 [
-1
+0
 ]
 .
 import_name
@@ -9972,7 +9960,7 @@ len
 (
 objs
 )
-2
+1
 )
         
 self
@@ -9981,7 +9969,7 @@ assertIsInstance
 (
 objs
 [
-1
+0
 ]
 RustLibrary
 )
