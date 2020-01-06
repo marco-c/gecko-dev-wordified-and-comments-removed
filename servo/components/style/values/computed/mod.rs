@@ -537,6 +537,7 @@ text
 InitialLetter
 LetterSpacing
 LineHeight
+TextOverflow
 WordSpacing
 }
 ;
