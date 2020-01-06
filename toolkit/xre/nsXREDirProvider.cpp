@@ -5651,7 +5651,7 @@ static
 nsresult
 GetShellFolderPath
 (
-int
+KNOWNFOLDERID
 folder
 nsAString
 &
@@ -5703,10 +5703,13 @@ if
 (
 SUCCEEDED
 (
-SHGetSpecialFolderLocation
+SHGetKnownFolderIDList
 (
-nullptr
 folder
+KF_FLAG_SIMPLE_IDLIST
+|
+KF_FLAG_DONT_VERIFY
+NULL
 &
 pItemIDList
 )
@@ -6923,7 +6926,7 @@ rv
 =
 GetShellFolderPath
 (
-CSIDL_PROGRAM_FILES
+FOLDERID_ProgramFiles
 programFiles
 )
 ;
@@ -7418,7 +7421,7 @@ rv
 =
 GetShellFolderPath
 (
-CSIDL_LOCAL_APPDATA
+FOLDERID_LocalAppData
 path
 )
 ;
@@ -7454,7 +7457,7 @@ rv
 =
 GetShellFolderPath
 (
-CSIDL_APPDATA
+FOLDERID_RoamingAppData
 path
 )
 ;
