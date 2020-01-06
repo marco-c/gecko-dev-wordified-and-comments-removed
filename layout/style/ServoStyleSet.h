@@ -1160,6 +1160,12 @@ friend
 class
 AutoPrepareTraversal
 ;
+bool
+ShouldTraverseInParallel
+(
+)
+const
+;
 const
 SnapshotTable
 &
