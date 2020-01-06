@@ -298,16 +298,4 @@ progname
 )
 ;
 #
-ifdef
-MOZ_WIDGET_GTK
-const
-char
-*
-DetectDisplay
-(
-)
-;
-#
-endif
-#
 endif

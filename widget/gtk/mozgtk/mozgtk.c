@@ -2084,6 +2084,10 @@ gdk_display_get_device_manager
 )
 STUB
 (
+gdk_display_manager_open_display
+)
+STUB
+(
 gdk_error_trap_pop_ignored
 )
 STUB
