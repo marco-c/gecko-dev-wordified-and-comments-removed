@@ -58,8 +58,14 @@ maxBytes
 gcparam
 (
 "
-gcBytes
+maxBytes
 "
 )
+-
+8
+)
+;
+gc
+(
 )
 ;
