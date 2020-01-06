@@ -1395,10 +1395,10 @@ ServoAttrSnapshot
 ServoBundledURI
 "
 "
-ServoComputedValues
+ServoComputedData
 "
 "
-ServoComputedValuesBorrowed
+ServoComputedDataBorrowed
 "
 "
 ServoElementSnapshot
@@ -2401,7 +2401,7 @@ ComputedValues
 "
 pub
 type
-ServoComputedValuesBorrowed
+ServoComputedDataBorrowed
 <
 '
 a
@@ -2410,7 +2410,7 @@ a
 &
 '
 a
-ServoComputedValues
+ServoComputedData
 ;
 "
 ]
@@ -2844,7 +2844,7 @@ LoaderReusableStyleSheets
 ServoStyleSheet
 "
 "
-ServoComputedValues
+ServoComputedData
 "
 "
 ServoStyleContext

@@ -43,7 +43,7 @@ nsIAtom
 aPseudoTag
 CSSPseudoElementType
 aPseudoType
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 aComputedValues
 )
 ;
@@ -59,9 +59,9 @@ mPresContext
 ;
 }
 const
-ServoComputedValues
+ServoComputedData
 *
-ComputedValues
+ComputedData
 (
 )
 const
@@ -101,7 +101,7 @@ GetStyleIfVisited
 const
 {
 return
-ComputedValues
+ComputedData
 (
 )
 -
@@ -138,7 +138,7 @@ nsPresContext
 *
 mPresContext
 ;
-ServoComputedValues
+ServoComputedData
 mSource
 ;
 }

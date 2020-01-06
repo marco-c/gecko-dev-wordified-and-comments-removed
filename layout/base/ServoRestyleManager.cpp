@@ -2564,7 +2564,7 @@ MOZ_ASSERT
 oldStyleContext
 -
 >
-ComputedValues
+ComputedData
 (
 )
 !
@@ -2572,7 +2572,7 @@ ComputedValues
 currentContext
 -
 >
-ComputedValues
+ComputedData
 (
 )
 )

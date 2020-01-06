@@ -74,7 +74,7 @@ nsIAtom
 aPseudoTag
 CSSPseudoElementType
 aPseudoType
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 aComputedValues
 )
 :

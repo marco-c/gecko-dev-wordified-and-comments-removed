@@ -1625,9 +1625,9 @@ SERVO_BINDING_FUNC
 (
 Servo_ComputedValues_EqualCustomProperties
 bool
-ServoComputedValuesBorrowed
+ServoComputedDataBorrowed
 first
-ServoComputedValuesBorrowed
+ServoComputedDataBorrowed
 second
 )
 SERVO_BINDING_FUNC
