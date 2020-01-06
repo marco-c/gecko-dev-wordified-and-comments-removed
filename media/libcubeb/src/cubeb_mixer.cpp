@@ -3142,7 +3142,7 @@ void
 output_buffer
 unsigned
 long
-outputput_buffer_length
+output_buffer_length
 cubeb_stream_params
 const
 *
@@ -3167,7 +3167,7 @@ frames
 input_buffer
 input_buffer_length
 output_buffer
-outputput_buffer_length
+output_buffer_length
 stream_params
 mixer_params
 )

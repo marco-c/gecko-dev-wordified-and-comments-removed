@@ -302,7 +302,7 @@ void
 output_buffer
 unsigned
 long
-outputput_buffer_length
+output_buffer_length
 cubeb_stream_params
 const
 *
