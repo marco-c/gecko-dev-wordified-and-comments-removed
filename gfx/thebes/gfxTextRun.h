@@ -2342,6 +2342,7 @@ mShapingState
 ;
 class
 gfxFontGroup
+final
 :
 public
 gfxTextRunFactory
@@ -2393,7 +2394,6 @@ gfxFontGroup
 (
 )
 ;
-virtual
 gfxFont
 *
 GetFirstValidFont
@@ -2423,7 +2423,6 @@ return
 mStyle
 ;
 }
-virtual
 gfxFontGroup
 *
 Copy
@@ -2450,7 +2449,6 @@ char16_t
 ch
 )
 ;
-virtual
 already_AddRefed
 <
 gfxTextRun
@@ -2485,7 +2483,6 @@ gfxMissingFontRecorder
 aMFR
 )
 ;
-virtual
 already_AddRefed
 <
 gfxTextRun
@@ -2629,13 +2626,11 @@ UNDERLINE_OFFSET_NOT_SET
 INT16_MAX
 }
 ;
-virtual
 gfxFloat
 GetUnderlineOffset
 (
 )
 ;
-virtual
 already_AddRefed
 <
 gfxFont
@@ -2715,7 +2710,6 @@ mCachedEllipsisTextRun
 nullptr
 ;
 }
-virtual
 void
 UpdateUserFonts
 (
@@ -3663,7 +3657,6 @@ BuildFontList
 (
 )
 ;
-virtual
 gfxFont
 *
 GetFontAt

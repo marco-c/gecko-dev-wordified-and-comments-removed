@@ -5575,7 +5575,6 @@ int32_t
 aAppUnitsPerDevUnit
 )
 ;
-virtual
 void
 SetupGlyphExtents
 (
@@ -6216,7 +6215,6 @@ get
 )
 ;
 }
-virtual
 already_AddRefed
 <
 gfxFont
@@ -6323,7 +6321,6 @@ float
 aBaselineOffset
 )
 ;
-virtual
 already_AddRefed
 <
 gfxFont
