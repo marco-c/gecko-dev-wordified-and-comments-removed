@@ -2566,6 +2566,15 @@ GetCORSMode
 =
 =
 CORS_NONE
+&
+&
+!
+nsContentUtils
+:
+:
+BypassCSSOMOriginCheck
+(
+)
 )
 {
 aRv
