@@ -8077,6 +8077,27 @@ None
 )
 :
         
+append_env
+=
+dict
+(
+append_env
+or
+{
+}
+)
+        
+append_env
+[
+'
+TOPSRCDIR
+'
+]
+=
+self
+.
+topsrcdir
+        
 return
 self
 .
