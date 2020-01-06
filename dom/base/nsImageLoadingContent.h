@@ -914,6 +914,9 @@ mCurrentRequestRegistered
 bool
 mPendingRequestRegistered
 ;
+bool
+mIsStartingImageLoad
+;
 }
 ;
 #
