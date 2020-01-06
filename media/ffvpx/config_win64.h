@@ -1002,7 +1002,7 @@ HAVE_SYMVER
 0
 #
 define
-HAVE_YASM
+HAVE_X86ASM
 1
 #
 define
