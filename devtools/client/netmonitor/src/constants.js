@@ -168,13 +168,6 @@ NetMonitor
 :
 NetworkEvent
 "
-NETWORK_EVENT_UPDATED
-:
-"
-NetMonitor
-:
-NetworkEventUpdated
-"
 TIMELINE_EVENT
 :
 "

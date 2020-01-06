@@ -877,15 +877,6 @@ devtools
 -
 button
 "
-"
-requests
--
-list
--
-pause
--
-button
-"
 recording
 ?
 "
