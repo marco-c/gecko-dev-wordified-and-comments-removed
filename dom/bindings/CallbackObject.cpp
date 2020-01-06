@@ -632,17 +632,6 @@ globalObject
 =
 nullptr
 ;
-JSContext
-*
-cx
-;
-{
-JS
-:
-:
-AutoSuppressGCAnalysis
-nogc
-;
 nsGlobalWindow
 *
 win
@@ -881,6 +870,8 @@ incumbent
 )
 ;
 }
+JSContext
+*
 cx
 =
 mAutoEntryScript
@@ -903,7 +894,6 @@ CallbackOrNull
 )
 )
 ;
-}
 if
 (
 mIsMainThread
