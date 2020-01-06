@@ -184,7 +184,7 @@ config
 .
 mk
 ifdef
-LOCALE_MERGEDIR
+IS_LANGUAGE_REPACK
 PPL_LOCALE_ARGS
 =
 \
@@ -195,7 +195,7 @@ l10n
 dir
 =
 (
-LOCALE_MERGEDIR
+REAL_LOCALE_MERGEDIR
 )
 /
 browser

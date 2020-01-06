@@ -2887,10 +2887,6 @@ defined
 by
 configure
 )
-else
-IS_LANGUAGE_REPACK
-=
-1
 endif
 EXPAND_LOCALE_SRCDIR
 =
@@ -2980,7 +2976,7 @@ AB_CD
 )
 )
 ifdef
-LOCALE_MERGEDIR
+IS_LANGUAGE_REPACK
 MAKE_JARS_FLAGS
 +
 =
@@ -2991,7 +2987,7 @@ locale
 mergedir
 =
 (
-LOCALE_MERGEDIR
+REAL_LOCALE_MERGEDIR
 )
 endif
 ifdef
@@ -3041,7 +3037,7 @@ endif
 !
 relativesrcdir
 ifdef
-LOCALE_MERGEDIR
+IS_LANGUAGE_REPACK
 MERGE_FILE
 =
 (
@@ -3050,7 +3046,7 @@ firstword
 (
 wildcard
 (
-LOCALE_MERGEDIR
+REAL_LOCALE_MERGEDIR
 )
 /
 (
