@@ -426,6 +426,9 @@ return
 unlikely
 (
 hb_in_ranges
+<
+hb_codepoint_t
+>
 (
 unicode
 0xFE00u
@@ -518,6 +521,9 @@ case
 :
 return
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 ch
 0x17B4u
@@ -529,6 +535,9 @@ case
 :
 return
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 ch
 0x180Bu
@@ -540,6 +549,9 @@ case
 :
 return
 hb_in_ranges
+<
+hb_codepoint_t
+>
 (
 ch
 0x200Bu
@@ -555,6 +567,9 @@ case
 :
 return
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 ch
 0xFE00u
@@ -572,6 +587,9 @@ case
 :
 return
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 ch
 0xFFF0u
@@ -597,6 +615,9 @@ case
 :
 return
 hb_in_ranges
+<
+hb_codepoint_t
+>
 (
 ch
 0x1BCA0u
@@ -610,6 +631,9 @@ case
 :
 return
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 ch
 0xE0000u
@@ -1175,7 +1199,7 @@ aa
 #
 define
 HB_MODIFIED_COMBINING_CLASS_CCC130
-130
+132
 /
 *
 sign
@@ -1185,7 +1209,7 @@ i
 #
 define
 HB_MODIFIED_COMBINING_CLASS_CCC132
-128
+131
 /
 *
 sign

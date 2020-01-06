@@ -60,6 +60,9 @@ c
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 c
 0xC2u
@@ -125,6 +128,9 @@ else
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 c
 0xE0u
@@ -211,6 +217,9 @@ c
 |
 |
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 c
 0xD800u
@@ -236,6 +245,9 @@ else
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 c
 0xF0u
@@ -341,6 +353,9 @@ unlikely
 (
 !
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 c
 0x10000u
@@ -546,6 +561,9 @@ likely
 (
 !
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 c
 0xD800u
@@ -590,6 +608,9 @@ if
 likely
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 l
 0xDC00u
@@ -677,6 +698,9 @@ likely
 (
 !
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 c
 0xD800u
@@ -724,6 +748,9 @@ if
 likely
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 h
 0xD800u

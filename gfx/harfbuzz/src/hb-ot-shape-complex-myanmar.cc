@@ -672,6 +672,9 @@ if
 unlikely
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0xFE00u

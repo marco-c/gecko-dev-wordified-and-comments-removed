@@ -9616,6 +9616,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x0028u
@@ -9635,6 +9638,9 @@ indic_offset_0x0028u
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x00B0u
@@ -9654,6 +9660,9 @@ indic_offset_0x00b0u
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x0900u
@@ -9695,6 +9704,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x1000u
@@ -9714,6 +9726,9 @@ indic_offset_0x1000u
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x1780u
@@ -9733,6 +9748,9 @@ indic_offset_0x1780u
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x1CD0u
@@ -9757,6 +9775,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x2008u
@@ -9776,6 +9797,9 @@ indic_offset_0x2008u
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x2070u
@@ -9817,6 +9841,9 @@ case
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0xA8E0u
@@ -9836,6 +9863,9 @@ indic_offset_0xa8e0u
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0xA9E0u
@@ -9855,6 +9885,9 @@ indic_offset_0xa9e0u
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0xAA60u

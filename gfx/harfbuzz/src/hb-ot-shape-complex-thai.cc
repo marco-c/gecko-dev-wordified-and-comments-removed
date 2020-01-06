@@ -91,6 +91,9 @@ DC
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x0E01u
@@ -133,6 +136,9 @@ u
 |
 |
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x0E34u
@@ -147,6 +153,9 @@ u
 |
 |
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x0E4Du
@@ -159,6 +168,9 @@ AV
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x0E38u
@@ -171,6 +183,9 @@ BV
 if
 (
 hb_in_range
+<
+hb_codepoint_t
+>
 (
 u
 0x0E48u
@@ -1039,6 +1054,9 @@ x
 )
 (
 hb_in_ranges
+<
+hb_codepoint_t
+>
 (
 (
 x
