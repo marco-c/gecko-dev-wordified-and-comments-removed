@@ -11100,15 +11100,6 @@ LayersBackend
 :
 :
 LAYERS_WR
-&
-&
-!
-presContext
--
->
-IsChrome
-(
-)
 )
 {
 if
