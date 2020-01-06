@@ -429,7 +429,6 @@ GamepadServiceType
 :
 :
 Standard
-0
 aNumButtons
 aNumAxes
 aNumHaptics
