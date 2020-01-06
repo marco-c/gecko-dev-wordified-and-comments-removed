@@ -2233,6 +2233,12 @@ InterceptedHttpChannel
 :
 StartSynthesizedResponse
 (
+nsIInputStream
+*
+aBody
+nsIInterceptedBodyCallback
+*
+aBodyCallback
 const
 nsACString
 &

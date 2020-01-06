@@ -1273,6 +1273,8 @@ mChannel
 >
 StartSynthesizedResponse
 (
+nullptr
+nullptr
 mResponseURLSpec
 )
 ;
