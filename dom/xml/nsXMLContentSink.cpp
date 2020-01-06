@@ -3020,6 +3020,10 @@ const
 nsAString
 &
 aMedia
+const
+nsAString
+&
+aReferrerPolicy
 )
 {
 nsresult
@@ -3258,6 +3262,7 @@ aAlternate
 aTitle
 aType
 aMedia
+aReferrerPolicy
 )
 ;
 return
@@ -5523,6 +5528,9 @@ isAlternate
 title
 type
 media
+EmptyString
+(
+)
 )
 ;
 return

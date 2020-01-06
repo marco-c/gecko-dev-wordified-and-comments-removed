@@ -8943,6 +8943,8 @@ const
 nsAString
 &
 aMedia
+ReferrerPolicy
+aReferrerPolicy
 Element
 *
 aScopeElement
@@ -9070,12 +9072,7 @@ aElement
 nullptr
 eAuthorSheetFeatures
 CORS_NONE
-mDocument
--
->
-GetReferrerPolicy
-(
-)
+aReferrerPolicy
 EmptyString
 (
 )

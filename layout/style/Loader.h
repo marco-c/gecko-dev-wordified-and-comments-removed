@@ -757,6 +757,8 @@ const
 nsAString
 &
 aMedia
+ReferrerPolicy
+aReferrerPolicy
 mozilla
 :
 :
