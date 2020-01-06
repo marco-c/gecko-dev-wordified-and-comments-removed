@@ -19,6 +19,9 @@ nsCOMPtr
 h
 "
 class
+nsIEventTarget
+;
+class
 nsITimer
 ;
 namespace
@@ -69,6 +72,9 @@ bool
 aIncludePath
 uint32_t
 aExtraHeapSize
+nsIEventTarget
+*
+aEventTarget
 )
 ;
 void
@@ -210,6 +216,12 @@ nsCOMPtr
 nsITimer
 >
 mTimer
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mMainThreadEventTarget
 ;
 }
 ;

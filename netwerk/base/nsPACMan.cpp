@@ -770,6 +770,19 @@ mSetupPAC
 =
 false
 ;
+nsCOMPtr
+<
+nsIEventTarget
+>
+target
+=
+mPACMan
+-
+>
+GetNeckoTarget
+(
+)
+;
 mPACMan
 -
 >
@@ -784,6 +797,7 @@ mPACMan
 >
 mIncludePath
 mExtraHeapSize
+target
 )
 ;
 RefPtr
