@@ -2868,6 +2868,16 @@ ForwardKnownInfo
 )
 ;
 bool
+TryToRecycle
+(
+)
+;
+void
+RemoveFromList
+(
+)
+;
+bool
 ShouldKeepProcessAlive
 (
 )
@@ -5140,6 +5150,9 @@ mSubprocess
 const
 TimeStamp
 mLaunchTS
+;
+TimeStamp
+mActivateTS
 ;
 ContentParent
 *
