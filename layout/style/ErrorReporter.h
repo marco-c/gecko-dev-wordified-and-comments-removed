@@ -62,7 +62,7 @@ aURI
 ErrorReporter
 (
 const
-StyleSheet
+ServoStyleSheet
 *
 aSheet
 const
@@ -223,6 +223,12 @@ nsString
 &
 aErrorText
 )
+;
+bool
+IsServo
+(
+)
+const
 ;
 #
 ifdef
