@@ -1922,6 +1922,8 @@ challenge
 void
 *
 inToken
+=
+nullptr
 *
 outToken
 ;
@@ -2005,6 +2007,11 @@ rv
 )
 )
 {
+free
+(
+inToken
+)
+;
 return
 rv
 ;
@@ -2012,10 +2019,6 @@ rv
 }
 else
 {
-inToken
-=
-nullptr
-;
 inTokenLen
 =
 0
