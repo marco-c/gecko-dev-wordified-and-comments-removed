@@ -68,7 +68,6 @@ BaseFlow
 Flow
 FlowClass
 ForceNonfloatedFlag
-IS_ABSOLUTELY_POSITIONED
 }
 ;
 use
