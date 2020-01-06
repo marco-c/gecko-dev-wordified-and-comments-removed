@@ -1141,6 +1141,11 @@ nsCSSAnonBoxes
 cpp
 '
 '
+nsCSSCounterStyleRule
+.
+cpp
+'
+'
 nsCSSDataBlock
 .
 cpp
