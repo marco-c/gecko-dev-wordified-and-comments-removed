@@ -165,6 +165,7 @@ root
 Dom
 DomRoot
 RootCollection
+ThreadLocalStackRoots
 }
 ;
 use
@@ -396,12 +397,6 @@ script_runtime
 :
 :
 ScriptThreadEventCategory
-;
-use
-script_runtime
-:
-:
-StackRootTLS
 ;
 use
 script_runtime
@@ -3051,9 +3046,9 @@ new
 )
 ;
 let
-_stack_roots_tls
+_stack_roots
 =
-StackRootTLS
+ThreadLocalStackRoots
 :
 :
 new
