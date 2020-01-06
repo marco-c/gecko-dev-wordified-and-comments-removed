@@ -673,7 +673,10 @@ CustomElementReactionsStack
 ;
 AutoTArray
 <
+UniquePtr
+<
 ElementQueue
+>
 8
 >
 mReactionsStack
@@ -693,7 +696,7 @@ void
 InvokeReactions
 (
 ElementQueue
-&
+*
 aElementQueue
 )
 ;
