@@ -516,6 +516,7 @@ mscom
 ProxyStream
 proxyStream
 (
+_IID
 buf
 .
 get
