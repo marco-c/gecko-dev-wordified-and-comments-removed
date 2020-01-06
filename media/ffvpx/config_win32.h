@@ -1140,6 +1140,10 @@ HAVE_SOUNDCARD_H
 0
 #
 define
+HAVE_STDATOMIC_H
+0
+#
+define
 HAVE_SYS_MMAN_H
 0
 #
