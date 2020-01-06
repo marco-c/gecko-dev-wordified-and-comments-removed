@@ -868,13 +868,6 @@ properties
 bug
 1336891
 *
-test_variable_serialization_computed
-.
-html
-[
-35
-]
-*
 test_variables
 .
 html
