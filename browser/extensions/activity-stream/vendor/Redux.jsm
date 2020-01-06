@@ -8,6 +8,17 @@ redux
 "
 ]
 ;
+const
+self
+=
+this
+;
+this
+.
+Object
+=
+Object
+;
 this
 .
 redux
