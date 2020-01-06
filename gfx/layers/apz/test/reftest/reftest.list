@@ -24,8 +24,8 @@ fuzzy
 if
 (
 Android
-1
-2
+43
+8
 )
 skip
 -
@@ -63,6 +63,9 @@ v
 ref
 .
 html
+#
+bug
+1392259
 fuzzy
 -
 if
@@ -156,8 +159,8 @@ fuzzy
 if
 (
 Android
-1
-2
+43
+8
 )
 skip
 -
@@ -199,6 +202,9 @@ rtl
 ref
 .
 html
+#
+bug
+1392259
 fuzzy
 -
 if
@@ -341,7 +347,7 @@ if
 (
 Android
 54
-18
+20
 )
 skip
 -
