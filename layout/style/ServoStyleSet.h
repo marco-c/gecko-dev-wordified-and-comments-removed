@@ -1347,6 +1347,9 @@ mAuthorStyleDisabled
 StylistState
 mStylistState
 ;
+uint64_t
+mUserFontSetUpdateGeneration
+;
 bool
 mNeedsRestyleAfterEnsureUniqueInner
 ;

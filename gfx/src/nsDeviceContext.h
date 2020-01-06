@@ -191,6 +191,14 @@ InitFontCache
 (
 )
 ;
+void
+UpdateFontCacheUserFonts
+(
+gfxUserFontSet
+*
+aUserFontSet
+)
+;
 nsresult
 InitForPrinting
 (
