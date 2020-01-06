@@ -519,6 +519,17 @@ kwargs
 stylo_threads
 "
 ]
+            
+"
+chaos_mode_flags
+"
+:
+kwargs
+[
+"
+chaos_mode_flags
+"
+]
 }
 def
 executor_kwargs
@@ -944,6 +955,10 @@ False
 stylo_threads
 =
 1
+                 
+chaos_mode_flags
+=
+None
 )
 :
         
@@ -1096,6 +1111,12 @@ self
 stylo_threads
 =
 stylo_threads
+        
+self
+.
+chaos_mode_flags
+=
+chaos_mode_flags
     
 def
 settings
@@ -1219,6 +1240,29 @@ str
 self
 .
 stylo_threads
+)
+        
+if
+self
+.
+chaos_mode_flags
+is
+not
+None
+:
+            
+env
+[
+"
+MOZ_CHAOSMODE
+"
+]
+=
+str
+(
+self
+.
+chaos_mode_flags
 )
         
 locations
