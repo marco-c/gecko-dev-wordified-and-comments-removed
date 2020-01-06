@@ -1299,6 +1299,14 @@ RequestRunToCompletion
 (
 )
 ;
+void
+UpdateCookieStatus
+(
+nsIChannel
+*
+aChannel
+)
+;
 bool
 IsAvailable
 (

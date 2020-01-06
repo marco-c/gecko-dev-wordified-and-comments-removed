@@ -619,6 +619,12 @@ netwerk
 /
 base
 '
+'
+/
+netwerk
+/
+cookie
+'
 ]
 EXTRA_COMPONENTS
 +

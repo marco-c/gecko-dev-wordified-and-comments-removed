@@ -126,6 +126,13 @@ h
 #
 include
 "
+CookieServiceChild
+.
+h
+"
+#
+include
+"
 HttpBackgroundChannelChild
 .
 h
@@ -994,6 +1001,13 @@ true
 }
 #
 endif
+CookieServiceChild
+:
+:
+GetSingleton
+(
+)
+;
 }
 HttpChannelChild
 :

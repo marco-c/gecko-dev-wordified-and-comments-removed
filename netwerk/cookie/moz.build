@@ -185,6 +185,11 @@ CookieServiceParent
 .
 h
 '
+'
+nsCookieKey
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
