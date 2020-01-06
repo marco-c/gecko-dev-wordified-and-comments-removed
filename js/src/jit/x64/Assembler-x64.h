@@ -1325,6 +1325,13 @@ r13
 static
 constexpr
 Register
+NativeABIPrologueClobberable
+=
+rax
+;
+static
+constexpr
+Register
 WasmTlsReg
 =
 r14

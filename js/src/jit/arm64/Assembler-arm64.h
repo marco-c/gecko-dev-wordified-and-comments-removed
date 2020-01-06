@@ -2398,6 +2398,13 @@ r9
 static
 constexpr
 Register
+NativeABIPrologueClobberable
+=
+lr
+;
+static
+constexpr
+Register
 WasmTlsReg
 {
 Registers

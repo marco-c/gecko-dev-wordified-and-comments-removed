@@ -610,6 +610,13 @@ r5
 static
 constexpr
 Register
+NativeABIPrologueClobberable
+=
+ScratchRegister
+;
+static
+constexpr
+Register
 WasmTlsReg
 =
 r9

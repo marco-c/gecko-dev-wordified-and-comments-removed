@@ -633,6 +633,13 @@ ebx
 static
 constexpr
 Register
+NativeABIPrologueClobberable
+=
+eax
+;
+static
+constexpr
+Register
 WasmTlsReg
 =
 esi

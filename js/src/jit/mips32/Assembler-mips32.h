@@ -195,6 +195,13 @@ t1
 static
 constexpr
 Register
+NativeABIPrologueClobberable
+=
+t0
+;
+static
+constexpr
+Register
 WasmTlsReg
 =
 s5

@@ -7895,13 +7895,6 @@ wasmEmitTrapOutOfLineCode
 )
 ;
 void
-wasmAssertNonExitInvariants
-(
-Register
-activation
-)
-;
-void
 wasmEmitStackCheck
 (
 Register
