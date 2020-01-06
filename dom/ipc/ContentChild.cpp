@@ -3607,6 +3607,9 @@ aTabOpener
 &
 !
 loadInDifferentProcess
+&
+&
+aURI
 )
 {
 nsCOMPtr
