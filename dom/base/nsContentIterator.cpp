@@ -1176,7 +1176,7 @@ nsINode
 *
 aStartContainer
 uint32_t
-startIndx
+aStartOffset
 nsINode
 *
 aEndContainer
@@ -1236,7 +1236,7 @@ if
 startIsData
 &
 &
-startIndx
+aStartOffset
 =
 =
 endIndx
@@ -1311,10 +1311,7 @@ if
 startIsData
 &
 &
-uint32_t
-(
-startIndx
-)
+aStartOffset
 <
 aStartContainer
 -
@@ -1331,7 +1328,7 @@ aStartContainer
 >
 GetChildAt
 (
-startIndx
+aStartOffset
 )
 ;
 NS_WARNING_ASSERTION
@@ -1428,7 +1425,7 @@ startIsData
 startIsContainer
 |
 |
-startIndx
+aStartOffset
 )
 )
 {
@@ -1462,7 +1459,7 @@ NodeIsInTraversalRange
 mFirst
 mPre
 aStartContainer
-startIndx
+aStartOffset
 aEndContainer
 endIndx
 )
@@ -1565,7 +1562,7 @@ NodeIsInTraversalRange
 mFirst
 mPre
 aStartContainer
-startIndx
+aStartOffset
 aEndContainer
 endIndx
 )
@@ -1810,7 +1807,7 @@ NodeIsInTraversalRange
 mLast
 mPre
 aStartContainer
-startIndx
+aStartOffset
 aEndContainer
 endIndx
 )
@@ -1910,7 +1907,7 @@ NodeIsInTraversalRange
 mLast
 mPre
 aStartContainer
-startIndx
+aStartOffset
 aEndContainer
 endIndx
 )
