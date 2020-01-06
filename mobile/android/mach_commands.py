@@ -2845,6 +2845,21 @@ JAVA_HOME
 '
 :
 java_home
+                
+'
+JAVA_TOOL_OPTIONS
+'
+:
+'
+-
+Dfile
+.
+encoding
+=
+utf
+-
+8
+'
             
 }
             
