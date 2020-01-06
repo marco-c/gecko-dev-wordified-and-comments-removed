@@ -14854,10 +14854,6 @@ setUserVisibleHint
 true
 )
 ;
-getActivity
-(
-)
-.
 getWindow
 (
 )

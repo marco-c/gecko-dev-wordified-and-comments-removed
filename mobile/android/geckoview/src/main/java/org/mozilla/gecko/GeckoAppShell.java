@@ -8898,12 +8898,6 @@ getAppEventDispatcher
 )
 ;
 public
-Activity
-getActivity
-(
-)
-;
-public
 String
 getDefaultUAString
 (

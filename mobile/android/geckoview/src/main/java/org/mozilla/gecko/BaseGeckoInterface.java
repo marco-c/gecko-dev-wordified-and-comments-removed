@@ -103,17 +103,6 @@ eventDispatcher
 }
 Override
 public
-Activity
-getActivity
-(
-)
-{
-return
-null
-;
-}
-Override
-public
 String
 getDefaultUAString
 (
