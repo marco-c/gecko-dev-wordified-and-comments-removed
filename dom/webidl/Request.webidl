@@ -299,13 +299,13 @@ integrity
 Func
 =
 "
-AbortController
+FetchController
 :
 :
 IsEnabled
 "
 ]
-AbortSignal
+FetchSignal
 signal
 ;
 [

@@ -168,10 +168,10 @@ testObserveAbort
 )
 {
 var
-ac
+fc
 =
 new
-AbortController
+FetchController
 (
 )
 ;
@@ -205,7 +205,7 @@ sjs
 {
 signal
 :
-ac
+fc
 .
 signal
 observe
@@ -260,7 +260,7 @@ next
 ;
 }
 }
-ac
+fc
 .
 abort
 (
@@ -277,10 +277,10 @@ testObserveComplete
 )
 {
 var
-ac
+fc
 =
 new
-AbortController
+FetchController
 (
 )
 ;
@@ -314,7 +314,7 @@ sjs
 {
 signal
 :
-ac
+fc
 .
 signal
 observe
@@ -380,10 +380,10 @@ testObserveErrored
 )
 {
 var
-ac
+fc
 =
 new
-AbortController
+FetchController
 (
 )
 ;
@@ -397,7 +397,7 @@ bar
 {
 signal
 :
-ac
+fc
 .
 signal
 observe
@@ -463,10 +463,10 @@ testObserveResponding
 )
 {
 var
-ac
+fc
 =
 new
-AbortController
+FetchController
 (
 )
 ;
@@ -500,7 +500,7 @@ sjs
 {
 signal
 :
-ac
+fc
 .
 signal
 observe

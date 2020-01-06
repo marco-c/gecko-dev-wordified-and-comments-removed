@@ -43,6 +43,17 @@ mozilla
 /
 dom
 /
+FetchSignal
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 InternalRequest
 .
 h
