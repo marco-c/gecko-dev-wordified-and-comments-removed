@@ -227,6 +227,9 @@ IUnknown
 >
 mUnmarshaledProxy
 ;
+HRESULT
+mUnmarshalResult
+;
 }
 ;
 }
