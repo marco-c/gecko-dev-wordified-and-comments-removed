@@ -5628,6 +5628,7 @@ getElementCenter
 a
 .
 origin
+window
 )
 ;
 let
@@ -6250,6 +6251,7 @@ function
 getElementCenter
 (
 el
+window
 )
 {
 if
@@ -6265,9 +6267,17 @@ el
 return
 element
 .
-coordinates
+getInViewCentrePoint
 (
 el
+.
+getClientRects
+(
+)
+[
+0
+]
+window
 )
 ;
 }
