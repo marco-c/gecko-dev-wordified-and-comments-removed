@@ -90,7 +90,7 @@ GetTitle
 GetPageSource
 GetWindowHandle
 GetWindowHandles
-Close
+CloseWindow
 GetWindowSize
 SetWindowSize
 (
@@ -706,13 +706,13 @@ GetWindowHandles
 Route
 :
 :
-Close
+CloseWindow
 =
 >
 WebDriverCommand
 :
 :
-Close
+CloseWindow
 Route
 :
 :
@@ -2428,7 +2428,7 @@ GetWindowHandles
 WebDriverCommand
 :
 :
-Close
+CloseWindow
 |
 WebDriverCommand
 :

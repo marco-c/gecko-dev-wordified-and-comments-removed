@@ -288,7 +288,7 @@ window
 Route
 :
 :
-Close
+CloseWindow
 )
 (
 Get
@@ -1249,7 +1249,7 @@ window_handle
 Route
 :
 :
-Close
+CloseWindow
 )
 (
 Post
@@ -1326,7 +1326,7 @@ GetTitle
 GetPageSource
 GetWindowHandle
 GetWindowHandles
-Close
+CloseWindow
 GetWindowSize
 SetWindowSize
 GetWindowPosition
