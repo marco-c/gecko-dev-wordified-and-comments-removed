@@ -1465,17 +1465,6 @@ as
 above
 .
 *
-*
-(
-This
-comment
-is
-duplicated
-from
-xpcIJSModuleLoader
-.
-)
-*
 /
 [
 implicit_jscontext
