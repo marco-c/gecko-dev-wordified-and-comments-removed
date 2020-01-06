@@ -10725,6 +10725,13 @@ fractalNoise
 )
 GK_ATOM
 (
+fr
+"
+fr
+"
+)
+GK_ATOM
+(
 fx
 "
 fx

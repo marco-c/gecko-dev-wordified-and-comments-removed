@@ -2797,6 +2797,7 @@ cy
 r
 fx
 fy
+fr
 ;
 cx
 =
@@ -2863,6 +2864,19 @@ SVGRadialGradientElement
 :
 ATTR_FY
 cy
+)
+;
+fr
+=
+GetLengthValue
+(
+dom
+:
+:
+SVGRadialGradientElement
+:
+:
+ATTR_FR
 )
 ;
 if
@@ -2992,7 +3006,7 @@ gfxPattern
 (
 fx
 fy
-0
+fr
 cx
 cy
 r
