@@ -1499,6 +1499,8 @@ act
 sa_flags
 =
 SA_SIGINFO
+|
+SA_ONSTACK
 ;
 #
 else

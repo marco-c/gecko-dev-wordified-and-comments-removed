@@ -10250,6 +10250,8 @@ sa_flags
 SA_SIGINFO
 |
 SA_NODEFER
+|
+SA_ONSTACK
 ;
 faultHandler
 .
@@ -10310,6 +10312,8 @@ sa_flags
 SA_SIGINFO
 |
 SA_NODEFER
+|
+SA_ONSTACK
 ;
 busHandler
 .
