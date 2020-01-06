@@ -981,7 +981,8 @@ this
 )
 ;
 mSettings
-.
+-
+>
 mEchoCancellation
 .
 Construct
@@ -990,7 +991,8 @@ Construct
 )
 ;
 mSettings
-.
+-
+>
 mAutoGainControl
 .
 Construct
@@ -999,7 +1001,8 @@ Construct
 )
 ;
 mSettings
-.
+-
+>
 mNoiseSuppression
 .
 Construct
@@ -1008,7 +1011,8 @@ Construct
 )
 ;
 mSettings
-.
+-
+>
 mChannelCount
 .
 Construct
@@ -2158,7 +2162,8 @@ that
 -
 >
 mSettings
-.
+-
+>
 mEchoCancellation
 .
 Value
@@ -2173,7 +2178,8 @@ that
 -
 >
 mSettings
-.
+-
+>
 mAutoGainControl
 .
 Value
@@ -2188,7 +2194,8 @@ that
 -
 >
 mSettings
-.
+-
+>
 mNoiseSuppression
 .
 Value
@@ -2203,7 +2210,8 @@ that
 -
 >
 mSettings
-.
+-
+>
 mChannelCount
 .
 Value
