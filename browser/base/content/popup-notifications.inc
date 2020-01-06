@@ -799,6 +799,17 @@ true
 >
 <
 popupnotificationcontent
+class
+=
+"
+addon
+-
+installed
+-
+notification
+-
+content
+"
 orient
 =
 "
