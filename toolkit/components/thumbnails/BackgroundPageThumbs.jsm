@@ -1819,6 +1819,9 @@ doneCallbacks
 this
 .
 doneReason
+=
+-
+1
 ;
 if
 (
