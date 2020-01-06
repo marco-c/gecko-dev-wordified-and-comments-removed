@@ -17268,6 +17268,9 @@ kCUIOrientVertical
 kCUIOrientationKey
 "
 (
+isOverlay
+&
+&
 isOnTopOfDarkBackground
 ?
 "
