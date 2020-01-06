@@ -1386,9 +1386,10 @@ unregisterCallback
 {
 unregisterSucceeded
 :
-function
 (
 )
+=
+>
 {
 resolve
 (
@@ -1398,9 +1399,10 @@ true
 }
 unregisterFailed
 :
-function
 (
 )
+=
+>
 {
 resolve
 (
