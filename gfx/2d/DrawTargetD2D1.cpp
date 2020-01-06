@@ -75,6 +75,13 @@ Tools
 .
 h
 "
+#
+include
+"
+nsAppRunner
+.
+h
+"
 using
 namespace
 std
@@ -469,6 +476,7 @@ aOpacity
 {
 if
 (
+(
 aLuminanceType
 !
 =
@@ -476,6 +484,12 @@ LuminanceType
 :
 :
 LUMINANCE
+)
+|
+|
+XRE_IsParentProcess
+(
+)
 )
 {
 return
