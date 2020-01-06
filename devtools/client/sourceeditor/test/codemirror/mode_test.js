@@ -528,7 +528,6 @@ g
 "
 )
 ;
-;
 }
 function
 compare

@@ -125,7 +125,7 @@ p
 ]
 )
 ;
-eqPos
+eqCharPos
 (
 sels
 [
@@ -143,7 +143,7 @@ selection
 i
 )
 ;
-eqPos
+eqCharPos
 (
 sels
 [
@@ -243,7 +243,7 @@ p
 2
 )
 {
-eqPos
+eqCursorPos
 (
 sels
 [
@@ -283,7 +283,7 @@ p
 ]
 )
 ;
-eqPos
+eqCharPos
 (
 sels
 [
@@ -625,7 +625,7 @@ Pos
 1
 )
 ;
-eqPos
+eqCharPos
 (
 cm
 .
@@ -642,7 +642,7 @@ Pos
 )
 )
 ;
-eqPos
+eqCharPos
 (
 cm
 .
@@ -659,7 +659,7 @@ Pos
 )
 )
 ;
-eqPos
+eqCharPos
 (
 cm
 .
@@ -676,7 +676,7 @@ Pos
 )
 )
 ;
-eqPos
+eqCharPos
 (
 cm
 .
@@ -2988,7 +2988,7 @@ getSelection
 "
 )
 ;
-eqPos
+eqCharPos
 (
 cm
 .

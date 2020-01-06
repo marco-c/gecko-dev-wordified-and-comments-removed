@@ -333,6 +333,7 @@ at
 (
 line
 ch
+sticky
 )
 {
 return
@@ -341,7 +342,7 @@ function
 cm
 )
 {
-eqPos
+eqCursorPos
 (
 cm
 .
@@ -352,6 +353,7 @@ Pos
 (
 line
 ch
+sticky
 )
 )
 ;
@@ -410,6 +412,9 @@ at
 (
 0
 1
+"
+after
+"
 )
 )
 ;
@@ -435,6 +440,9 @@ at
 (
 0
 4
+"
+before
+"
 )
 "
 Ctrl
@@ -455,6 +463,9 @@ at
 (
 0
 2
+"
+after
+"
 )
 "
 Ctrl
@@ -470,6 +481,9 @@ at
 (
 0
 0
+"
+after
+"
 )
 )
 ;
@@ -493,6 +507,9 @@ at
 (
 0
 3
+"
+before
+"
 )
 "
 Alt
@@ -503,6 +520,9 @@ at
 (
 0
 8
+"
+before
+"
 )
 "
 Ctrl
@@ -518,6 +538,9 @@ at
 (
 0
 5
+"
+after
+"
 )
 "
 Alt
@@ -528,6 +551,9 @@ at
 (
 0
 0
+"
+after
+"
 )
 )
 ;
@@ -556,6 +582,9 @@ at
 (
 0
 12
+"
+before
+"
 )
 "
 Ctrl
@@ -571,6 +600,9 @@ at
 (
 0
 5
+"
+after
+"
 )
 "
 Ctrl
@@ -586,6 +618,9 @@ at
 (
 0
 8
+"
+before
+"
 )
 )
 ;
@@ -622,6 +657,9 @@ at
 (
 1
 0
+"
+after
+"
 )
 )
 ;
@@ -657,6 +695,9 @@ at
 (
 2
 0
+"
+after
+"
 )
 "
 Ctrl
@@ -677,6 +718,9 @@ at
 (
 1
 1
+"
+before
+"
 )
 "
 Ctrl
@@ -697,6 +741,9 @@ at
 (
 4
 1
+"
+before
+"
 )
 )
 ;
@@ -1665,7 +1712,7 @@ na
 at
 (
 1
-0
+1
 )
 )
 ;

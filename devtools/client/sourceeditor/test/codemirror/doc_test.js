@@ -1677,7 +1677,7 @@ Pos
 )
 )
 ;
-eqPos
+eqCharPos
 (
 m
 .
@@ -1727,7 +1727,7 @@ undo
 (
 )
 ;
-eqPos
+eqCharPos
 (
 m
 .
@@ -1749,7 +1749,7 @@ undo
 (
 )
 ;
-eqPos
+eqCharPos
 (
 m
 .
@@ -2818,7 +2818,7 @@ Pos
 )
 )
 ;
-eqPos
+eqCharPos
 (
 b
 .
@@ -2861,7 +2861,7 @@ firstLine
 3
 )
 ;
-eqPos
+eqCharPos
 (
 b
 .
@@ -2881,7 +2881,7 @@ undo
 (
 )
 ;
-eqPos
+eqCharPos
 (
 b
 .
@@ -3267,7 +3267,7 @@ length
 1
 )
 ;
-eqPos
+eqCharPos
 (
 mark
 .
@@ -3283,7 +3283,7 @@ Pos
 )
 )
 ;
-eqPos
+eqCharPos
 (
 mark
 .
@@ -3317,7 +3317,7 @@ Pos
 )
 )
 ;
-eqPos
+eqCharPos
 (
 mark
 .
@@ -3333,7 +3333,7 @@ Pos
 )
 )
 ;
-eqPos
+eqCharPos
 (
 mark
 .
@@ -3811,7 +3811,7 @@ length
 1
 )
 ;
-eqPos
+eqCharPos
 (
 mark
 .
@@ -3843,7 +3843,7 @@ Pos
 )
 )
 ;
-eqPos
+eqCharPos
 (
 mark
 .
