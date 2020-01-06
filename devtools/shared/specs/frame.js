@@ -6,6 +6,7 @@ strict
 const
 {
 generateActorSpec
+RetVal
 }
 =
 require
@@ -33,6 +34,18 @@ frame
 methods
 :
 {
+getEnvironment
+:
+{
+response
+:
+RetVal
+(
+"
+json
+"
+)
+}
 }
 }
 )
