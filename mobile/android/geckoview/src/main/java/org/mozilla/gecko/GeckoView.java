@@ -2408,13 +2408,7 @@ GeckoThread
 .
 initMainProcess
 (
-GeckoProfile
-.
-initFromArgs
-(
-appContext
-geckoArgs
-)
+null
 geckoArgs
 false
 )
