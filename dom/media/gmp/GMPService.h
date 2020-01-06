@@ -229,7 +229,7 @@ GMPContentParent
 :
 CloseBlocker
 >
-nsresult
+MediaResult
 true
 >
 GetGMPContentParentPromise
