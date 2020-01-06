@@ -4756,7 +4756,7 @@ aContainerNode
 {
 PlacesUtils
 .
-bhistory
+history
 .
 removePagesFromHost
 (
@@ -4827,7 +4827,7 @@ exist
 ;
 PlacesUtils
 .
-bhistory
+history
 .
 removePagesByTimeframe
 (
