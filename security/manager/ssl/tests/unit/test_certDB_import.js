@@ -523,10 +523,6 @@ run_test
 (
 )
 {
-loginToDBWithDefaultPassword
-(
-)
-;
 let
 certificateDialogsCID
 =

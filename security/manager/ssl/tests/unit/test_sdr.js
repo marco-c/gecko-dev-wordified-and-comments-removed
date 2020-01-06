@@ -72,10 +72,6 @@ run_test
 (
 )
 {
-loginToDBWithDefaultPassword
-(
-)
-;
 let
 sdr
 =
