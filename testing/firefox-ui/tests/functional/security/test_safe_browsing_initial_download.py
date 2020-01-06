@@ -589,7 +589,7 @@ self
 marionette
 timeout
 =
-60
+90
 )
 .
 until
