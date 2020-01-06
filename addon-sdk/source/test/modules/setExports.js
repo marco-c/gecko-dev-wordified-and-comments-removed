@@ -1,7 +1,0 @@
-module
-.
-setExports
-(
-5
-)
-;

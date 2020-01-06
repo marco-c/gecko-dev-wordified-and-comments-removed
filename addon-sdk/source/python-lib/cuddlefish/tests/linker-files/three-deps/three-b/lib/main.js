@@ -1,6 +1,0 @@
-exports
-.
-main
-=
-42
-;
