@@ -313,9 +313,9 @@ RTPVideoHeader
 *
 video_header
 const
-char
+StreamId
 *
-rid
+rtpStreamId
 )
 ;
 void

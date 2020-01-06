@@ -199,7 +199,7 @@ void
 GetRID
 (
 char
-rid
+rtp_stream_id
 [
 256
 ]
@@ -324,9 +324,8 @@ last_received_frame_time_ms_
 uint16_t
 last_received_sequence_number_
 ;
-char
-*
-rid_
+StreamId
+rtp_stream_id_
 ;
 }
 ;

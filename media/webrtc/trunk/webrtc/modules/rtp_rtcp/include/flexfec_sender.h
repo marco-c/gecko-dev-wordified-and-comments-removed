@@ -171,6 +171,15 @@ RtpExtension
 >
 &
 rtp_header_extensions
+rtc
+:
+:
+ArrayView
+<
+const
+RtpExtensionSize
+>
+extension_sizes
 Clock
 *
 clock
@@ -276,6 +285,10 @@ ulpfec_generator_
 const
 RtpHeaderExtensionMap
 rtp_header_extension_map_
+;
+const
+size_t
+header_extensions_size_
 ;
 }
 ;

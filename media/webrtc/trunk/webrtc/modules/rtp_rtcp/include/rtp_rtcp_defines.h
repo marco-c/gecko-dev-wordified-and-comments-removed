@@ -197,6 +197,7 @@ kRtpExtensionVideoRotation
 kRtpExtensionTransportSequenceNumber
 kRtpExtensionPlayoutDelay
 kRtpExtensionRtpStreamId
+kRtpExtensionRepairedRtpStreamId
 kRtpExtensionNumberOfExtensions
 }
 ;
