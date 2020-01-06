@@ -915,6 +915,7 @@ hit_test
 self
 p
 :
+&
 Point2D
 <
 f32
