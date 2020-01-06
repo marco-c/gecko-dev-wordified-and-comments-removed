@@ -25,7 +25,7 @@ svg
 ?
 branch
 =
-master
+release
 )
 ]
 (
