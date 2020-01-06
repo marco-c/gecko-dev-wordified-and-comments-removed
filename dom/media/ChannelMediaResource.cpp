@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

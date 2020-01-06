@@ -27,6 +27,15 @@ h
 #
 include
 "
+mozilla
+/
+MozPromise
+.
+h
+"
+#
+include
+"
 nsIDocumentActivity
 .
 h
