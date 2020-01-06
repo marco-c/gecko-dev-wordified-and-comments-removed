@@ -636,6 +636,9 @@ assign
 (
 {
 guid
+version
+:
+1
 }
 TEST_ADDRESS_1
 )
@@ -942,6 +945,9 @@ assign
 TEST_ADDRESS_1
 {
 guid
+version
+:
+1
 }
 )
 ;
@@ -963,7 +969,11 @@ resurrected
 )
 /
 "
+(
 guid
+|
+version
+)
 "
 is
 not
@@ -1275,6 +1285,9 @@ assign
 (
 {
 guid
+version
+:
+1
 }
 TEST_ADDRESS_1
 )
@@ -1486,7 +1499,11 @@ assign
 guid
 :
 addedDirectGUID
+version
+:
+1
 }
+TEST_ADDRESS_1
 TEST_ADDRESS_3
 )
 ;
@@ -2482,6 +2499,9 @@ addresses
 _generateGUID
 (
 )
+version
+:
+1
 timeCreated
 timeLastModified
 }
