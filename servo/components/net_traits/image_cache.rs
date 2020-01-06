@@ -383,4 +383,16 @@ action
 FetchResponseMsg
 )
 ;
+fn
+set_webrender_image_key
+(
+&
+self
+image
+:
+&
+mut
+Image
+)
+;
 }

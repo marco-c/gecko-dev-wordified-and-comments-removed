@@ -103,6 +103,12 @@ WindowSizeData
 }
 ;
 use
+script_traits
+:
+:
+PaintWorkletExecutor
+;
+use
 servo_url
 :
 :
@@ -265,6 +271,13 @@ ScrollState
 UpdateScrollStateFromScript
 (
 ScrollState
+)
+SetPaintWorkletExecutor
+(
+Arc
+<
+PaintWorkletExecutor
+>
 )
 }
 #
