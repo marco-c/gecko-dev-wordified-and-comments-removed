@@ -1520,7 +1520,6 @@ const
 MediaContainerType
 &
 aType
-const
 MediaDecoderReaderInit
 &
 aInit

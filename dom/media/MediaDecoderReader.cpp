@@ -327,7 +327,6 @@ MediaDecoderReader
 :
 MediaDecoderReader
 (
-const
 MediaDecoderReaderInit
 &
 aInit

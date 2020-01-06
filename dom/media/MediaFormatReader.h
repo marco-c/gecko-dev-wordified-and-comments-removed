@@ -119,7 +119,6 @@ public
 :
 MediaFormatReader
 (
-const
 MediaDecoderReaderInit
 &
 aInit
