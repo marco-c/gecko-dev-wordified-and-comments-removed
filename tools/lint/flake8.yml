@@ -10,16 +10,6 @@ linter
 include
 :
 -
-build
-/
-moz
-.
-configure
-/
-*
-.
-configure
--
 config
 /
 check_macroassembler_style
