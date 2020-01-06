@@ -95,10 +95,6 @@ library
 dependency
 #
 #
-#
-Fixed
-#
-#
 0
 .
 8
@@ -421,10 +417,6 @@ Update
 dependencies
 #
 #
-#
-Fixed
-#
-#
 0
 .
 4
@@ -440,10 +432,6 @@ Fixed
 #
 #
 #
-Added
-#
-#
-#
 Changed
 -
 Skip
@@ -452,10 +440,6 @@ optional
 items
 in
 hyper
-#
-#
-#
-Fixed
 #
 #
 0
