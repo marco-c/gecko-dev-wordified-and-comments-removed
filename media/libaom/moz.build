@@ -1078,7 +1078,7 @@ _MSC_VER
 ]
 and
 not
-config
+CONFIG
 [
 '
 CLANG_CL
