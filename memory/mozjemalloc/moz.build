@@ -90,7 +90,7 @@ EXPORTS
 =
 [
 '
-mozjemalloc_types
+jemalloc_types
 .
 h
 '
