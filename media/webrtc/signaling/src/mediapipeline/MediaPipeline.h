@@ -810,14 +810,6 @@ TransportInfo
 info
 )
 ;
-void
-DisconnectTransport_s
-(
-TransportInfo
-&
-info
-)
-;
 nsresult
 ConnectTransport_s
 (
