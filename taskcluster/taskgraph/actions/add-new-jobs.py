@@ -31,7 +31,10 @@ from
 .
 util
 import
+(
 create_task
+find_decision_task
+)
 from
 taskgraph
 .
@@ -182,11 +185,18 @@ task
 )
 :
     
+decision_task_id
+=
+find_decision_task
+(
+parameters
+)
+    
 full_task_graph
 =
 get_artifact
 (
-task_id
+decision_task_id
 "
 public
 /
@@ -214,7 +224,7 @@ label_to_taskid
 =
 get_artifact
 (
-task_id
+decision_task_id
 "
 public
 /
