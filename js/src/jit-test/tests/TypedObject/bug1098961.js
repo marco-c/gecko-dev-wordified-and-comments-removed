@@ -24,6 +24,7 @@ iterator
 ]
 =
 function
+*
 (
 )
 {

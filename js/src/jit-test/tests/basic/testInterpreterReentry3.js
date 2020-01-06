@@ -41,6 +41,7 @@ __defineGetter__
 e
 '
 function
+*
 (
 x2
 )

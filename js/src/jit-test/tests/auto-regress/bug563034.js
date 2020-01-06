@@ -5,6 +5,7 @@ a
 )
 {
 function
+*
 g
 (
 )
@@ -29,6 +30,8 @@ g
 var
 x
 ;
+assertEq
+(
 f
 (
 7
@@ -37,6 +40,10 @@ f
 next
 (
 )
+.
+value
 (
+)
+7
 )
 ;

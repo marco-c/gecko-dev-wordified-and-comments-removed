@@ -1,4 +1,5 @@
 function
+*
 hexData
 (
 n

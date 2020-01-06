@@ -810,6 +810,7 @@ N
 )
 ;
 function
+*
 range
 (
 start

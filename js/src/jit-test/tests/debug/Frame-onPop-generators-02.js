@@ -55,6 +55,7 @@ eval
 (
 "
 function
+*
 g
 (
 )
@@ -133,6 +134,8 @@ it
 next
 (
 )
+.
+value
 1
 )
 ;

@@ -70,6 +70,7 @@ eval
 (
 "
 function
+*
 g
 (
 )
@@ -148,11 +149,17 @@ enabled
 =
 false
 ;
+assertEq
+(
 g
 .
 it
 .
 next
 (
+)
+.
+value
+undefined
 )
 ;

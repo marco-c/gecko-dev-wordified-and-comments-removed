@@ -5,6 +5,7 @@ obj
 }
 ;
 function
+*
 g
 (
 )
@@ -66,6 +67,7 @@ n
 )
 ;
 function
+*
 h
 (
 )

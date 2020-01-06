@@ -14,6 +14,7 @@ e
 ;
 }
 function
+*
 blah
 (
 )
@@ -46,7 +47,7 @@ try
 for
 (
 a
-in
+of
 rv
 )
 ;

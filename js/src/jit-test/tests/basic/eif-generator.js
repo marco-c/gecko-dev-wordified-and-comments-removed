@@ -10,6 +10,7 @@ js
 )
 ;
 function
+*
 f
 (
 )
@@ -84,6 +85,8 @@ gen
 next
 (
 )
+.
+value
 1
 )
 ;
@@ -94,6 +97,8 @@ gen
 next
 (
 )
+.
+value
 2
 )
 ;
@@ -108,6 +113,8 @@ gen
 next
 (
 )
+.
+value
 3
 )
 ;
@@ -122,6 +129,8 @@ gen
 next
 (
 )
+.
+value
 2
 )
 ;
@@ -132,6 +141,8 @@ gen
 next
 (
 )
+.
+value
 2
 )
 ;
@@ -146,6 +157,8 @@ gen
 next
 (
 )
+.
+value
 3
 )
 ;
@@ -160,6 +173,8 @@ gen
 next
 (
 )
+.
+value
 3
 )
 ;
@@ -170,6 +185,8 @@ gen
 next
 (
 )
+.
+value
 2
 )
 ;
@@ -184,6 +201,8 @@ gen
 next
 (
 )
+.
+value
 3
 )
 ;
@@ -196,6 +215,7 @@ gc
 )
 ;
 function
+*
 g
 (
 )
@@ -273,6 +293,8 @@ gen
 next
 (
 )
+.
+value
 ;
 var
 g2
@@ -282,6 +304,8 @@ gen
 next
 (
 )
+.
+value
 ;
 gc
 (

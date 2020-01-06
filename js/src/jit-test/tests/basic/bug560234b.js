@@ -5,6 +5,7 @@ a
 )
 {
 function
+*
 g
 (
 )
@@ -67,6 +68,8 @@ x
 next
 (
 )
+.
+value
 (
 )
 ;

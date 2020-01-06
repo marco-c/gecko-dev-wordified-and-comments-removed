@@ -3,6 +3,7 @@ gen
 =
 (
 function
+*
 (
 )
 {

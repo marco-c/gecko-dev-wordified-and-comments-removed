@@ -4,6 +4,7 @@ foo
 )
 {
 function
+*
 gen
 (
 )
@@ -24,7 +25,7 @@ throw
 for
 (
 i
-in
+of
 gen
 (
 )

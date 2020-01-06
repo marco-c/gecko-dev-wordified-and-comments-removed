@@ -731,6 +731,7 @@ assertGlobalExpr
 "
 (
 function
+*
 (
 )
 {
@@ -742,7 +743,7 @@ yield
 genFunExpr
 (
 "
-legacy
+es6
 "
 null
 [

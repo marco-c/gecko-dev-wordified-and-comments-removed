@@ -2,6 +2,7 @@ var
 foo
 ;
 function
+*
 gen
 (
 )
@@ -52,7 +53,7 @@ j
 for
 (
 i
-in
+of
 gen
 (
 )

@@ -4,6 +4,7 @@ testGeneratorDeepBail
 )
 {
 function
+*
 g
 (
 )
@@ -53,11 +54,10 @@ i
 +
 )
 for
-each
 (
 let
 j
-in
+of
 iterables
 [
 i

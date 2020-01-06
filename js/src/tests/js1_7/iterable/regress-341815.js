@@ -60,6 +60,7 @@ make_iterator
 )
 {
 function
+*
 generator
 (
 )

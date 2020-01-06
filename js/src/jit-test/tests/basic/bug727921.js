@@ -1,5 +1,6 @@
 (
 function
+*
 (
 )
 {
@@ -37,6 +38,7 @@ replace
 a
 /
 function
+*
 (
 )
 {

@@ -2,6 +2,7 @@ f
 =
 (
 function
+*
 (
 )
 {
@@ -28,10 +29,11 @@ function
 )
 }
 )
+;
 for
 (
 i
-in
+of
 f
 (
 )

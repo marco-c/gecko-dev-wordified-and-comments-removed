@@ -365,6 +365,7 @@ test
 (
 "
 function
+*
 gen
 (
 )
@@ -386,7 +387,7 @@ for
 (
 var
 x
-in
+of
 gen
 (
 )

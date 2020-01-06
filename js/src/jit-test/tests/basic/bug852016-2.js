@@ -1,4 +1,5 @@
 function
+*
 foo
 (
 str
@@ -50,6 +51,8 @@ foo
 next
 (
 )
+.
+value
 4
 )
 ;
@@ -80,6 +83,8 @@ arguments
 next
 (
 )
+.
+value
 "
 arguments
 "

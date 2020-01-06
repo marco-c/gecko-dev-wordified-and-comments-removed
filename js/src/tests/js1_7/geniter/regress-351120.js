@@ -76,6 +76,7 @@ try
 {
 (
 function
+*
 (
 )
 {

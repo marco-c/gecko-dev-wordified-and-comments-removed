@@ -19,6 +19,7 @@ summary
 )
 ;
 function
+*
 fib
 (
 )
@@ -151,6 +152,8 @@ it
 next
 (
 )
+.
+value
 !
 =
 0
@@ -168,6 +171,8 @@ it
 next
 (
 )
+.
+value
 !
 =
 1
@@ -185,6 +190,8 @@ it
 next
 (
 )
+.
+value
 !
 =
 1
@@ -202,6 +209,8 @@ it
 next
 (
 )
+.
+value
 !
 =
 2
@@ -219,6 +228,8 @@ it
 next
 (
 )
+.
+value
 !
 =
 3
@@ -236,6 +247,8 @@ it
 next
 (
 )
+.
+value
 !
 =
 5
@@ -253,6 +266,8 @@ it
 next
 (
 )
+.
+value
 !
 =
 8

@@ -107,6 +107,7 @@ eval
 "
 (
 function
+*
 (
 )
 {

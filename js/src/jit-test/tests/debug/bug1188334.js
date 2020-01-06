@@ -69,6 +69,7 @@ this
 )
 ;
 function
+*
 f
 (
 )

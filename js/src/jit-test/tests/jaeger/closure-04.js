@@ -31,6 +31,7 @@ finally2
 finally3
 ;
 function
+*
 gen
 (
 )
@@ -94,7 +95,7 @@ next
 ;
 iter
 .
-close
+return
 (
 )
 ;

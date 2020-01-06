@@ -5,6 +5,7 @@ log
 "
 ;
 function
+*
 f
 (
 )
@@ -105,12 +106,14 @@ it
 next
 (
 )
+.
+value
 2
 )
 ;
 it
 .
-close
+return
 (
 )
 ;

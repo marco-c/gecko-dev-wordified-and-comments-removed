@@ -56,6 +56,7 @@ var
 y
 =
 function
+*
 (
 )
 {

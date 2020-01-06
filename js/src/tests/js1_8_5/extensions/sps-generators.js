@@ -29,6 +29,7 @@ summary
 )
 ;
 function
+*
 gen
 (
 )
@@ -113,6 +114,8 @@ g
 next
 (
 )
+.
+value
 '
 hi
 '
@@ -122,7 +125,7 @@ assertEq
 (
 g
 .
-send
+next
 (
 '
 gurgitating
@@ -131,6 +134,8 @@ gurgitating
 .
 '
 )
+.
+value
 '
 gurgitating
 .
@@ -143,7 +148,7 @@ for
 (
 var
 x
-in
+of
 g
 )
 assertEq

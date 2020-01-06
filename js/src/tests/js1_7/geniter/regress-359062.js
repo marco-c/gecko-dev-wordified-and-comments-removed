@@ -62,6 +62,7 @@ Global
 "
 ;
 function
+*
 gen
 (
 )

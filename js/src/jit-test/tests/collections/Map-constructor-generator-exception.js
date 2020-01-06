@@ -10,6 +10,7 @@ js
 )
 ;
 function
+*
 data2
 (
 )

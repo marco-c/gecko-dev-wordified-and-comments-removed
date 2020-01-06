@@ -21,6 +21,7 @@ summary
 )
 ;
 function
+*
 pi
 (
 )
@@ -153,6 +154,8 @@ it
 next
 (
 )
+.
+value
 !
 =
 vals

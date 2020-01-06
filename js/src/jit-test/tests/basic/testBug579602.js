@@ -1,6 +1,7 @@
 f
 =
 function
+*
 (
 )
 {
@@ -16,7 +17,7 @@ f
 for
 (
 a
-in
+of
 rv
 )
 (

@@ -49,6 +49,7 @@ summary
 )
 ;
 function
+*
 generator
 (
 )

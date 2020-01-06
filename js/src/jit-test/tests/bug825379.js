@@ -36,6 +36,7 @@ eval
 (
 "
 function
+*
 f
 (
 )

@@ -26,6 +26,7 @@ n
 \
 return
 function
+*
 (
 )
 {

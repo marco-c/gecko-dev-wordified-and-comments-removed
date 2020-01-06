@@ -208,17 +208,17 @@ summary
 )
 ;
 function
+*
 gen
 (
 list
 )
 {
 for
-each
 (
 var
 test
-in
+of
 list
 )
 {
@@ -261,7 +261,7 @@ var
 foo
 bar
 ]
-in
+of
 iter1
 )
 {
@@ -335,7 +335,7 @@ foo
 bar
 baz
 ]
-in
+of
 iter2
 )
 {

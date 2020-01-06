@@ -52,6 +52,7 @@ var
 f
 ;
 function
+*
 g
 (
 )

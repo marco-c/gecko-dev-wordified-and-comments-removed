@@ -1,4 +1,5 @@
 function
+*
 f
 (
 )
@@ -68,7 +69,7 @@ next
 ;
 it
 .
-close
+return
 (
 )
 ;

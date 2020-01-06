@@ -1,4 +1,5 @@
 function
+*
 range
 (
 n
@@ -40,7 +41,7 @@ for
 (
 var
 x
-in
+of
 r
 )
 assertEq
@@ -61,7 +62,7 @@ for
 (
 var
 y
-in
+of
 r
 )
 throw

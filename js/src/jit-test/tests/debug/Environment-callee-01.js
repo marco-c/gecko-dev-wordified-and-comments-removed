@@ -332,6 +332,7 @@ eval
 (
 '
 function
+*
 m
 (
 )

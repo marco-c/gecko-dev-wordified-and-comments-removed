@@ -1,4 +1,5 @@
 function
+*
 gen
 (
 )
@@ -23,7 +24,7 @@ for
 (
 var
 i
-in
+of
 gen
 (
 )

@@ -2,6 +2,7 @@ w
 =
 (
 function
+*
 (
 )
 {
@@ -36,7 +37,7 @@ i
 for
 (
 v
-in
+of
 w
 )
 {

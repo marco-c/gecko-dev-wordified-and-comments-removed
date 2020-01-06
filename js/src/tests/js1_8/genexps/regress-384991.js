@@ -74,6 +74,7 @@ Error
 ;
 (
 function
+*
 (
 )
 {
@@ -124,6 +125,7 @@ Error
 ;
 (
 function
+*
 (
 )
 {
@@ -176,6 +178,7 @@ Error
 ;
 (
 function
+*
 (
 )
 {

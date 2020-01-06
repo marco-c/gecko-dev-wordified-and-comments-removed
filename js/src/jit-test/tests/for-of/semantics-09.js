@@ -49,6 +49,7 @@ s
 )
 ;
 function
+*
 g
 (
 )

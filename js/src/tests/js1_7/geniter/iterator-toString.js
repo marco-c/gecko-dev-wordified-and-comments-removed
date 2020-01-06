@@ -30,6 +30,7 @@ failed
 false
 ;
 function
+*
 gen
 (
 )

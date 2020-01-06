@@ -15,6 +15,7 @@ a
 {
 (
 function
+*
 n
 (
 )

@@ -1,7 +1,7 @@
 for
 (
 a
-in
+of
 (
 eval
 (
@@ -15,6 +15,7 @@ function
 \
 return
 function
+*
 (
 )
 {

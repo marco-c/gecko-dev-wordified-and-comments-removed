@@ -8,6 +8,7 @@ function
 {
 \
 function
+*
 range
 (
 n
@@ -55,7 +56,7 @@ for
 (
 var
 x
-in
+of
 r
 )
 \

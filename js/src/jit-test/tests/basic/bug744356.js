@@ -4,6 +4,7 @@ gczeal
 )
 ;
 function
+*
 gen
 (
 )
@@ -42,7 +43,7 @@ gen
 for
 (
 i
-in
+of
 iter
 )
 {
