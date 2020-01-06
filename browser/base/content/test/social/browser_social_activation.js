@@ -1,14 +1,3 @@
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-TypeError
-:
-Assert
-is
-null
-"
-)
-;
 var
 SocialService
 =

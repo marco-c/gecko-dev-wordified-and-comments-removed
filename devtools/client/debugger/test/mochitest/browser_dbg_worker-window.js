@@ -3,16 +3,6 @@ use
 strict
 "
 ;
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-[
-object
-Object
-]
-"
-)
-;
 Cu
 .
 import

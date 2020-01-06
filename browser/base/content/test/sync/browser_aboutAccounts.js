@@ -1,16 +1,3 @@
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-TypeError
-:
-window
-.
-location
-is
-null
-"
-)
-;
 XPCOMUtils
 .
 defineLazyModuleGetter

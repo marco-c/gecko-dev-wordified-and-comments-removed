@@ -1,9 +1,3 @@
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-"
-)
-;
 var
 gManagerWindow
 ;

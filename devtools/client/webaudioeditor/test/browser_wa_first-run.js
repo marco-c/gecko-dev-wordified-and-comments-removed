@@ -1,13 +1,3 @@
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-Error
-:
-Connection
-closed
-"
-)
-;
 add_task
 (
 function
