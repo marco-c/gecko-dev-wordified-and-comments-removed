@@ -206,7 +206,21 @@ Exception
 )
 :
     
-pass
+def
+__init__
+(
+self
+cond
+=
+None
+)
+:
+        
+self
+.
+cond
+=
+cond
 Result
 =
 namedtuple
@@ -755,6 +769,12 @@ new_expected
         
 self
 .
+new_disabled
+=
+False
+        
+self
+.
 subtests
 =
 {
@@ -1218,6 +1238,9 @@ def
 coalesce_expected
 (
 self
+stability
+=
+None
 )
 :
         
@@ -1305,14 +1328,32 @@ are
 not
 changed
 .
-"
-"
-"
         
-final_conditionals
-=
-[
-]
+When
+stability
+is
+not
+None
+disable
+any
+test
+that
+shows
+multiple
+        
+unexpected
+results
+for
+the
+same
+set
+of
+parameters
+.
+        
+"
+"
+"
         
 try
 :
@@ -1352,12 +1393,7 @@ not
 results
 :
                 
-final_conditionals
-.
-append
-(
-conditional_value
-)
+pass
             
 elif
 all
@@ -1434,13 +1470,6 @@ value
 result
 .
 status
-                    
-final_conditionals
-.
-append
-(
-conditional_value
-)
             
 elif
 conditional_value
@@ -1568,24 +1597,6 @@ condition
 =
 None
 )
-                    
-final_conditionals
-.
-append
-(
-self
-.
-_data
-[
-"
-expected
-"
-]
-[
--
-1
-]
-)
             
 else
 :
@@ -1621,8 +1632,48 @@ boolean_properties
                 
 except
 ConditionError
+as
+e
 :
                     
+if
+stability
+is
+not
+None
+:
+                       
+self
+.
+set
+(
+"
+disabled
+"
+stability
+or
+"
+unstable
+"
+e
+.
+cond
+.
+children
+[
+0
+]
+)
+                       
+self
+.
+new_disabled
+=
+True
+                    
+else
+:
+                        
 print
 "
 Conflicting
@@ -1672,24 +1723,6 @@ conditional_node
 children
 [
 0
-]
-)
-                        
-final_conditionals
-.
-append
-(
-self
-.
-_data
-[
-"
-expected
-"
-]
-[
--
-1
 ]
 )
         
@@ -2517,6 +2550,30 @@ prop_set
 in
 conditions
 :
+            
+if
+conditions
+[
+prop_set
+]
+[
+1
+]
+!
+=
+status
+:
+                
+raise
+ConditionError
+(
+make_expr
+(
+prop_set
+status
+boolean_properties
+)
+)
             
 continue
         

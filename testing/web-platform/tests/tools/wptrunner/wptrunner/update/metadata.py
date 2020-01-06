@@ -171,6 +171,12 @@ boolean_properties
 state
 .
 boolean_properties
+                                                     
+stability
+=
+state
+.
+stability
 )
 class
 CreateMetadataPatch

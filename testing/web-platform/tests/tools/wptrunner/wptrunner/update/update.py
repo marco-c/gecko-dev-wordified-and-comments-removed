@@ -666,6 +666,17 @@ ignore_existing
             
 state
 .
+stability
+=
+kwargs
+[
+"
+stability
+"
+]
+            
+state
+.
 patch
 =
 kwargs
