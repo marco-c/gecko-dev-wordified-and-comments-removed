@@ -220,10 +220,9 @@ tab
 .
 linkedBrowser
 ;
-await
 EventUtils
 .
-synthesizeAndWaitKey
+synthesizeKey
 (
 "
 d
@@ -309,10 +308,9 @@ events
 }
 )
 ;
-await
 EventUtils
 .
-synthesizeAndWaitKey
+synthesizeKey
 (
 "
 p
