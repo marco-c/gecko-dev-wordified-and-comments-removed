@@ -3401,14 +3401,6 @@ Allow
 (
 )
 ;
-case
-__NR_get_mempolicy
-:
-return
-Allow
-(
-)
-;
 #
 endif
 #
