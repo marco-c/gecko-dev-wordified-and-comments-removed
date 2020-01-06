@@ -2680,6 +2680,15 @@ mExtraData
 if
 (
 mIsH264
+&
+&
+!
+sample
+-
+>
+mCrypto
+.
+mValid
 )
 {
 mp4_demuxer
