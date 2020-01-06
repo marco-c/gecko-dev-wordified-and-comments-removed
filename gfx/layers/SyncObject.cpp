@@ -114,6 +114,12 @@ aDevice
 else
 MOZ_ASSERT_UNREACHABLE
 (
+"
+CreateSyncObjectClient
+only
+supports
+Windows
+"
 )
 ;
 return

@@ -14810,6 +14810,12 @@ PluginWidgetParent
 else
 MOZ_ASSERT_UNREACHABLE
 (
+"
+AllocPPluginWidgetParent
+only
+supports
+Windows
+"
 )
 ;
 return
