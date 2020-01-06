@@ -9022,6 +9022,14 @@ toolId
 "
 webconsole
 "
+&
+&
+toolId
+!
+=
+"
+netmonitor
+"
 )
 {
 return

@@ -72,6 +72,9 @@ toolbox
 this
 .
 toolbox
+panel
+:
+this
 }
 )
 ;
