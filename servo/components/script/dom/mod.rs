@@ -180,6 +180,10 @@ comment
 ;
 pub
 mod
+compositionevent
+;
+pub
+mod
 console
 ;
 mod

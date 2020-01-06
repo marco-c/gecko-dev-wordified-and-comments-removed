@@ -22,6 +22,15 @@ false
 "
 dom
 .
+compositionevent
+.
+enabled
+"
+:
+false
+"
+dom
+.
 customelements
 .
 enabled
