@@ -503,16 +503,6 @@ password_reset
 ;
 exports
 .
-ON_ACCOUNT_DESTROYED_NOTIFICATION
-=
-"
-fxaccounts
-:
-account_destroyed
-"
-;
-exports
-.
 ON_COLLECTION_CHANGED_NOTIFICATION
 =
 "
