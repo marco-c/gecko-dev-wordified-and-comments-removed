@@ -4652,11 +4652,9 @@ inherit_struct
 =
 context
 .
-inherited_style
-(
-)
+builder
 .
-get_
+get_parent_
 {
 prop
 .

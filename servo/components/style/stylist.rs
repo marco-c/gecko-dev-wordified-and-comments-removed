@@ -2738,6 +2738,7 @@ rule_node
 guards
 parent
 parent
+parent
 None
 None
 font_metrics
@@ -3167,6 +3168,10 @@ Some
 (
 inherited_style
 )
+Some
+(
+inherited_style
+)
 None
 None
 font_metrics
@@ -3230,6 +3235,10 @@ pseudo
 )
 rules
 guards
+Some
+(
+parent_style
+)
 Some
 (
 parent_style
@@ -5530,6 +5539,10 @@ None
 &
 rule_node
 guards
+Some
+(
+parent_style
+)
 Some
 (
 parent_style

@@ -159,11 +159,9 @@ to_rgba
 (
 context
 .
-inherited_style
-(
-)
+builder
 .
-get_color
+get_parent_color
 (
 )
 .

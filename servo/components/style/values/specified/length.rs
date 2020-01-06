@@ -527,11 +527,11 @@ InheritedStyle
 >
 context
 .
-inherited_style
+style
 (
 )
 .
-get_font
+get_parent_font
 (
 )
 .

@@ -2200,6 +2200,10 @@ Some
 (
 previous_style
 )
+Some
+(
+previous_style
+)
 None
 None
 font_metrics_provider
