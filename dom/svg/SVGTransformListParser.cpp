@@ -224,7 +224,7 @@ get
 )
 )
 ;
-nsAtom
+nsStaticAtom
 *
 keyAtom
 =

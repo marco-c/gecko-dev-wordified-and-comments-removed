@@ -189,7 +189,7 @@ roleAtom
 )
 ;
 }
-nsAtom
+nsStaticAtom
 *
 *
 roleAtom

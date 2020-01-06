@@ -2148,7 +2148,7 @@ eARIANone
 struct
 AttrCharacteristics
 {
-nsAtom
+nsStaticAtom
 *
 *
 attributeName

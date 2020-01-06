@@ -197,7 +197,7 @@ return
 cachedAtom
 ;
 }
-nsAtom
+nsStaticAtom
 *
 atom
 =

@@ -1193,7 +1193,7 @@ ATTR_VALUE_NO_MATCH
 }
 ;
 typedef
-nsAtom
+nsStaticAtom
 *
 const
 *

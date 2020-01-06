@@ -1575,7 +1575,7 @@ struct
 FrameConstructionDataByTag
 {
 const
-nsAtom
+nsStaticAtom
 *
 const
 *

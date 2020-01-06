@@ -12,7 +12,7 @@ stdint
 h
 >
 class
-nsAtom
+nsStaticAtom
 ;
 #
 define
@@ -22,7 +22,7 @@ name_
 )
 \
 static
-nsAtom
+nsStaticAtom
 *
 name_
 ;
@@ -47,7 +47,7 @@ class_
 name_
 )
 \
-nsAtom
+nsStaticAtom
 *
 class_
 :
@@ -156,7 +156,7 @@ name_
 _buffer
 reinterpret_cast
 <
-nsAtom
+nsStaticAtom
 *
 *
 >
@@ -177,7 +177,7 @@ char16_t
 const
 mString
 ;
-nsAtom
+nsStaticAtom
 *
 *
 const

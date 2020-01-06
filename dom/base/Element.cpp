@@ -15451,7 +15451,7 @@ list
 ;
 }
 static
-nsAtom
+nsStaticAtom
 *
 *
 sPropertiesToTraverseAndUnlink
@@ -15477,7 +15477,7 @@ dirAutoSetBy
 nullptr
 }
 ;
-nsAtom
+nsStaticAtom
 *
 *
 *
@@ -15510,7 +15510,7 @@ aSupportedTokens
 #
 ifdef
 DEBUG
-nsAtom
+nsStaticAtom
 *
 *
 *

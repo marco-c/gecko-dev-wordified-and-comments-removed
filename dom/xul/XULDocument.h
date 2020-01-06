@@ -1189,14 +1189,6 @@ int32_t
 gRefCnt
 ;
 static
-nsAtom
-*
-*
-kIdentityAttrs
-[
-]
-;
-static
 nsIRDFService
 *
 gRDFService

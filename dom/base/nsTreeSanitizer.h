@@ -142,7 +142,7 @@ aElement
 bool
 IsURL
 (
-nsAtom
+nsStaticAtom
 *
 *
 const
@@ -174,7 +174,7 @@ nsAtom
 >
 *
 aAllowed
-nsAtom
+nsStaticAtom
 *
 *
 const

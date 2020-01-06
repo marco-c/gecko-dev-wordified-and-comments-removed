@@ -370,7 +370,7 @@ mozilla
 a11y
 ;
 static
-nsAtom
+nsStaticAtom
 *
 *
 kRelationAttrs

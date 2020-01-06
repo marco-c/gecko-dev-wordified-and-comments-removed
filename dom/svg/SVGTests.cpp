@@ -63,7 +63,7 @@ mozilla
 namespace
 dom
 {
-nsAtom
+nsStaticAtom
 *
 *
 SVGTests

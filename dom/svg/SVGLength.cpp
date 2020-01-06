@@ -916,7 +916,7 @@ quiet_NaN
 ;
 }
 static
-nsAtom
+nsStaticAtom
 *
 *
 const

@@ -227,7 +227,7 @@ key
 define
 NS_HTMLTAG_NAME_MAX_LENGTH
 10
-nsAtom
+nsStaticAtom
 *
 nsHTMLTags
 :

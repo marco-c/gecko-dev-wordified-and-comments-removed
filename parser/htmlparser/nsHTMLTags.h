@@ -258,7 +258,7 @@ endif
 private
 :
 static
-nsAtom
+nsStaticAtom
 *
 sTagAtomTable
 [

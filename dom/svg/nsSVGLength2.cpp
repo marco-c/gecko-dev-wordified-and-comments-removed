@@ -111,7 +111,7 @@ mozilla
 dom
 ;
 static
-nsAtom
+nsStaticAtom
 *
 *
 const

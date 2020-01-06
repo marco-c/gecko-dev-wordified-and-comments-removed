@@ -54,12 +54,12 @@ aria
 struct
 EnumTypeData
 {
-nsAtom
+nsStaticAtom
 *
 const
 mAttrName
 ;
-nsAtom
+nsStaticAtom
 *
 const
 *

@@ -1562,7 +1562,7 @@ aAttr
 struct
 LengthInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -1630,7 +1630,7 @@ aAttrEnum
 struct
 NumberInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -1695,7 +1695,7 @@ aAttrEnum
 struct
 NumberPairInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -1760,7 +1760,7 @@ aAttrEnum
 struct
 IntegerInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -1822,7 +1822,7 @@ aAttrEnum
 struct
 IntegerPairInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -1887,7 +1887,7 @@ aAttrEnum
 struct
 AngleInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -1952,7 +1952,7 @@ aAttrEnum
 struct
 BooleanInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -2018,7 +2018,7 @@ nsSVGEnum
 struct
 EnumInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -2084,7 +2084,7 @@ aAttrEnum
 struct
 NumberListInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -2143,7 +2143,7 @@ aAttrEnum
 struct
 LengthListInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -2208,7 +2208,7 @@ aAttrEnum
 struct
 StringInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
@@ -2280,7 +2280,7 @@ DOMSVGStringList
 struct
 StringListInfo
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName

@@ -45,7 +45,7 @@ aResult
 struct
 nsMediaFeature
 {
-nsAtom
+nsStaticAtom
 *
 *
 mName
