@@ -376,6 +376,12 @@ CanSeek
 )
 const
 ;
+nsresult
+Parse
+(
+)
+const
+;
 using
 ResultAndCryptoFile
 =
