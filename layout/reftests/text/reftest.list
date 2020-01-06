@@ -376,12 +376,6 @@ diacritic
 ref
 .
 html
-skip
--
-if
-(
-styloVsGecko
-)
 HTTP
 (
 .

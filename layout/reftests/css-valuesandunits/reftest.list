@@ -56,15 +56,6 @@ rem
 ref
 .
 html
-skip
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 unit

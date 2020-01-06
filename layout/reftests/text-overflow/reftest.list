@@ -317,12 +317,6 @@ gtkWidget
 10
 8
 )
-skip
--
-if
-(
-stylo
-)
 HTTP
 (
 .

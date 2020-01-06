@@ -659,12 +659,6 @@ width
 ref
 .
 html
-skip
--
-if
-(
-styloVsGecko
-)
 =
 =
 border
