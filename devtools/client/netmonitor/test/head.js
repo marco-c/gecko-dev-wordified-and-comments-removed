@@ -991,6 +991,14 @@ disabled
 "
 )
 ;
+Services
+.
+cookies
+.
+removeAll
+(
+)
+;
 }
 )
 ;
