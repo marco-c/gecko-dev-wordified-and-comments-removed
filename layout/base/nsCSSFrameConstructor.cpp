@@ -30909,6 +30909,12 @@ aContainer
 IsXULElement
 (
 )
+|
+|
+GetDisplayContentsStyleFor
+(
+aContainer
+)
 )
 {
 return
