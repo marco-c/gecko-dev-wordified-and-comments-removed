@@ -5042,12 +5042,6 @@ rv
 0
 )
 {
-ContextualIdentityService
-.
-closeContainerTabs
-(
-)
-;
 Services
 .
 prefs

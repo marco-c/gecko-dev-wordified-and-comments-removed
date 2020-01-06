@@ -254,6 +254,15 @@ addon_parent
 "
 ]
 "
+events
+"
+:
+[
+"
+startup
+"
+]
+"
 paths
 "
 :
