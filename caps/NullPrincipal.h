@@ -116,6 +116,16 @@ eNullPrincipal
 )
 {
 }
+static
+PrincipalKind
+Kind
+(
+)
+{
+return
+eNullPrincipal
+;
+}
 NS_DECL_NSISERIALIZABLE
 NS_IMETHOD
 QueryInterface
