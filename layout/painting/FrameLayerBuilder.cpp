@@ -3076,9 +3076,12 @@ RootReferenceFrame
 )
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 isAtRoot
+|
+|
 mContainerReferenceFrame
 =
 =

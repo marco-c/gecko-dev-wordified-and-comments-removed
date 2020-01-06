@@ -4497,9 +4497,12 @@ aSVGViewportSize
 )
 ;
 }
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 aSVGViewportSize
+|
+|
 subImage
 -
 >

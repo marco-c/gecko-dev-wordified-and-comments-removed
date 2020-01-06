@@ -839,8 +839,9 @@ here
 "
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 aNonSVGFrame
 -
 >
@@ -851,6 +852,8 @@ nsIFrame
 :
 eSVG
 )
+|
+|
 aNonSVGFrame
 -
 >

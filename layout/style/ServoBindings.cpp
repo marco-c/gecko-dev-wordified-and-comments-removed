@@ -1286,9 +1286,12 @@ GetAtomValue
 )
 ;
 }
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 attr
+|
+|
 attr
 -
 >

@@ -2791,9 +2791,12 @@ ok
 )
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 maskFrame
+|
+|
 ok
 )
 ;

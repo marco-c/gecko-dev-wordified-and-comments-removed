@@ -2593,9 +2593,12 @@ GetClipPathFrame
 (
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 clipPathFrame
+|
+|
 svgReset
 -
 >
@@ -5374,9 +5377,12 @@ svg
 !
 hasSVGLayout
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 isOuterSVG
+|
+|
 aFrame
 -
 >

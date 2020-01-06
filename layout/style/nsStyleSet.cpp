@@ -12072,9 +12072,12 @@ InvalidateStyleForCSSRuleChanges
 (
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 mStylesHaveChanged
+|
+|
 mChangedScopeStyleRoots
 .
 IsEmpty

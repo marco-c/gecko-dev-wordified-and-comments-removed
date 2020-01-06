@@ -555,9 +555,12 @@ LoaderReusableStyleSheets
 aReusableSheets
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 mMedia
+|
+|
 mMedia
 -
 >
