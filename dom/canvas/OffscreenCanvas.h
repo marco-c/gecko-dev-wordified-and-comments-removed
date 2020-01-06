@@ -354,6 +354,9 @@ ImageBitmap
 >
 TransferToImageBitmap
 (
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
