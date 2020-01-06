@@ -2820,6 +2820,16 @@ ignored_dir
 .
 append
 (
+"
+^
+[
+\
+.
+/
+]
+*
+"
++
 line
 .
 rstrip
