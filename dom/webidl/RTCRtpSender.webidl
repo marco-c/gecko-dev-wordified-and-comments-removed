@@ -351,6 +351,14 @@ MediaStreamTrack
 track
 )
 ;
+Promise
+<
+RTCStatsReport
+>
+getStats
+(
+)
+;
 [
 Pref
 =

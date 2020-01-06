@@ -156,5 +156,13 @@ attribute
 MediaStreamTrack
 track
 ;
+Promise
+<
+RTCStatsReport
+>
+getStats
+(
+)
+;
 }
 ;
