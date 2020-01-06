@@ -243,6 +243,7 @@ INVALID_ID
 1
 ;
 private
+static
 final
 String
 BOOKMARK_URL
@@ -260,6 +261,7 @@ org
 "
 ;
 private
+static
 final
 String
 BOOKMARK_TITLE
@@ -269,15 +271,7 @@ mozilla
 "
 ;
 private
-final
-String
-BOOKMARK_GUID
-=
-"
-guid1
-"
-;
-private
+static
 final
 String
 UPDATE_URL
@@ -295,6 +289,7 @@ org
 "
 ;
 private
+static
 final
 String
 UPDATE_TITLE
@@ -304,6 +299,7 @@ bugzilla
 "
 ;
 private
+static
 final
 String
 FOLDER_NAME
