@@ -4455,17 +4455,7 @@ ParentNode
 webidl
 '
 '
-PaymentAddress
-.
-webidl
-'
-'
 PaymentRequest
-.
-webidl
-'
-'
-PaymentResponse
 .
 webidl
 '
