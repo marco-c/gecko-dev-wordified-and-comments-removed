@@ -352,9 +352,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-return
-NS_ERROR_FAILURE
-;
 }
 static
 nsresult
