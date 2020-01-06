@@ -66457,10 +66457,6 @@ initial_values
 0turn
 "
 "
--
-90deg
-"
-"
 15deg
 "
 "
@@ -66470,6 +66466,10 @@ initial_values
 other_values
 :
 [
+"
+-
+90deg
+"
 "
 0deg
 flip
