@@ -7080,11 +7080,6 @@ WindowState
 (
 )
 ;
-bool
-IsFullyOccluded
-(
-)
-;
 nsIBrowserDOMWindow
 *
 GetBrowserDOMWindowOuter
