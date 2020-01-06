@@ -148,6 +148,13 @@ set
 )
 SERVO_BINDING_FUNC
 (
+Servo_StyleSet_MediumFeaturesChanged
+bool
+RawServoStyleSetBorrowed
+set
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleSet_Drop
 void
 RawServoStyleSetOwned

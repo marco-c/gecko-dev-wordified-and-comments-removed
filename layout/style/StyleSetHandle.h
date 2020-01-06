@@ -740,6 +740,12 @@ InvalidateStyleForCSSRuleChanges
 )
 ;
 inline
+bool
+MediumFeaturesChanged
+(
+)
+;
+inline
 already_AddRefed
 <
 nsStyleContext
