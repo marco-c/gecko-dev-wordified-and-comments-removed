@@ -962,8 +962,6 @@ NullHandler
 )
 )
         
-self
-.
 mach_logger
 =
 logging
@@ -975,8 +973,6 @@ mach
 '
 )
         
-self
-.
 mach_logger
 .
 setLevel
@@ -999,8 +995,6 @@ self
 structured_loggers
 =
 [
-self
-.
 mach_logger
 ]
         
