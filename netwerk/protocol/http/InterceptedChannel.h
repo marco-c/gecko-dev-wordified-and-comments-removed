@@ -509,6 +509,16 @@ ResetInterception
 override
 ;
 NS_IMETHOD
+StartSynthesizedResponse
+(
+const
+nsACString
+&
+aFinalURLSpec
+)
+override
+;
+NS_IMETHOD
 FinishSynthesizedResponse
 (
 const

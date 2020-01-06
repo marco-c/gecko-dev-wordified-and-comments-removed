@@ -338,6 +338,14 @@ ACString
 value
 )
 ;
+void
+startSynthesizedResponse
+(
+in
+ACString
+finalURLSpec
+)
+;
 /
 *
 *
