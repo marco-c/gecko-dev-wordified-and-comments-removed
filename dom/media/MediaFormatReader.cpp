@@ -12450,6 +12450,15 @@ Flush
 )
 ;
 }
+else
+{
+NotifyError
+(
+aTrack
+NS_ERROR_DOM_MEDIA_FATAL_ERR
+)
+;
+}
 return
 ;
 }
