@@ -2089,7 +2089,7 @@ win
 =
 nullptr
 ;
-UNWRAP_OBJECT
+UNWRAP_NON_WRAPPER_OBJECT
 (
 Window
 aObj

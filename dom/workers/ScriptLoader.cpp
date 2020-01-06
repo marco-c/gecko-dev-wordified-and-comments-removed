@@ -6323,6 +6323,7 @@ rv
 UNWRAP_OBJECT
 (
 Cache
+&
 obj
 cache
 )
@@ -6964,6 +6965,7 @@ rv
 UNWRAP_OBJECT
 (
 Response
+&
 obj
 response
 )

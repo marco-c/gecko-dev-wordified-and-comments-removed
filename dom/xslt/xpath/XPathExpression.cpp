@@ -289,11 +289,11 @@ ErrorResult
 aRv
 )
 {
+RefPtr
+<
 XPathResult
-*
+>
 inResult
-=
-nullptr
 ;
 if
 (

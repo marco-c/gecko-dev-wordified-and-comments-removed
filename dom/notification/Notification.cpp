@@ -3828,11 +3828,11 @@ ErrorResult
 aRv
 )
 {
+RefPtr
+<
 ServiceWorkerGlobalScope
-*
+>
 scope
-=
-nullptr
 ;
 UNWRAP_OBJECT
 (
