@@ -100,6 +100,8 @@ OFFSET_PARENT_SELECTOR
 =
 "
 .
+computed
+-
 property
 -
 value

@@ -175,9 +175,9 @@ styleDocument
 querySelector
 (
 "
-#
-propertyContainer
 .
+computed
+-
 expandable
 "
 )
@@ -238,6 +238,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 content
@@ -309,9 +311,9 @@ styleDocument
 querySelector
 (
 "
-#
-propertyContainer
 .
+computed
+-
 expandable
 "
 )
@@ -372,6 +374,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 content
@@ -449,6 +453,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 view
@@ -525,6 +531,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 content
@@ -599,6 +607,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 view
@@ -669,6 +679,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 content

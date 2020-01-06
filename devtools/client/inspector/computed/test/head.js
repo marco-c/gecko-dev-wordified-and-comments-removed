@@ -120,6 +120,8 @@ querySelectorAll
 (
 "
 .
+computed
+-
 property
 -
 view
@@ -136,6 +138,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 name
@@ -151,6 +155,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 value
@@ -267,6 +273,8 @@ querySelectorAll
 (
 "
 .
+computed
+-
 property
 -
 view
@@ -283,6 +291,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 name
@@ -310,6 +320,8 @@ querySelector
 (
 "
 .
+computed
+-
 expandable
 "
 )
@@ -428,9 +440,9 @@ styleDocument
 querySelectorAll
 (
 "
-#
-propertyContainer
 .
+computed
+-
 expandable
 "
 )
@@ -513,6 +525,8 @@ rule
 -
 link
 .
+computed
+-
 link
 "
 )
@@ -578,6 +592,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 view
@@ -670,6 +686,8 @@ querySelectorAll
 (
 "
 .
+computed
+-
 property
 -
 view

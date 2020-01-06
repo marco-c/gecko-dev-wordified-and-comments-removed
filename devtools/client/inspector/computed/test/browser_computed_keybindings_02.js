@@ -347,6 +347,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 view
@@ -454,6 +456,8 @@ querySelectorAll
 (
 "
 .
+computed
+-
 property
 -
 content
@@ -567,6 +571,8 @@ querySelectorAll
 (
 "
 .
+computed
+-
 property
 -
 content

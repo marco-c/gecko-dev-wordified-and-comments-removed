@@ -604,6 +604,8 @@ querySelectorAll
 (
 "
 .
+computed
+-
 property
 -
 view
@@ -620,6 +622,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 name
@@ -635,6 +639,8 @@ querySelector
 (
 "
 .
+computed
+-
 property
 -
 value
