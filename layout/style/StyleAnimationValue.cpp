@@ -253,6 +253,13 @@ gfx2DGlue
 .
 h
 "
+#
+include
+"
+nsStyleContextInlines
+.
+h
+"
 using
 namespace
 mozilla

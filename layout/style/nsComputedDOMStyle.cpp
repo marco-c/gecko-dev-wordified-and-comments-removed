@@ -296,6 +296,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+nsStyleContextInlines
+.
+h
+"
 using
 namespace
 mozilla
