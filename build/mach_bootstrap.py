@@ -140,16 +140,6 @@ MACH_MODULES
 [
     
 '
-addon
--
-sdk
-/
-mach_commands
-.
-py
-'
-    
-'
 build
 /
 valgrind
