@@ -12,6 +12,11 @@ algorithm
 >
 #
 include
+<
+cstring
+>
+#
+include
 "
 mozilla
 /
