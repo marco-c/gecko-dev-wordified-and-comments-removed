@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-Result
+ResultExtensions
 .
 h
 "

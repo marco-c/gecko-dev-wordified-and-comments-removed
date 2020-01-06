@@ -27,6 +27,15 @@ h
 #
 include
 "
+mozilla
+/
+Result
+.
+h
+"
+#
+include
+"
 SubstitutingProtocolHandler
 .
 h

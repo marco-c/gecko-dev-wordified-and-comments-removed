@@ -479,6 +479,11 @@ Result
 h
 '
 '
+ResultExtensions
+.
+h
+'
+'
 ReverseIterator
 .
 h

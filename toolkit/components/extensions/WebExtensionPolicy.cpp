@@ -41,6 +41,15 @@ h
 #
 include
 "
+mozilla
+/
+ResultExtensions
+.
+h
+"
+#
+include
+"
 nsEscape
 .
 h
