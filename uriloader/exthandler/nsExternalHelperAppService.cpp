@@ -4079,12 +4079,14 @@ handlerInfo
 )
 )
 ;
-NS_ENSURE_SUCCESS
+if
+(
+NS_SUCCEEDED
 (
 rv
-rv
 )
-;
+)
+{
 nsCOMPtr
 <
 nsIMutableArray
@@ -4127,6 +4129,7 @@ true
 return
 NS_OK
 ;
+}
 }
 return
 OSProtocolHandlerExists
