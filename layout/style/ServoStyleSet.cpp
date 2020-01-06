@@ -5006,6 +5006,16 @@ RemoveElementAt
 idx
 )
 ;
+if
+(
+sheet
+-
+>
+IsComplete
+(
+)
+)
+{
 sheet
 -
 >
@@ -5013,6 +5023,7 @@ EnsureUniqueInner
 (
 )
 ;
+}
 sheet
 -
 >
