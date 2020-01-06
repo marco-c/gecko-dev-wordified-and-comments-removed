@@ -180,6 +180,11 @@ nsIIdleRunnable
 h
 '
 '
+nsILabelableRunnable
+.
+h
+'
+'
 nsMemoryPressure
 .
 h
