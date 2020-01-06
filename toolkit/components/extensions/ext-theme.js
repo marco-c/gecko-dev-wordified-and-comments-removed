@@ -634,6 +634,11 @@ toolbar_field_text
 :
 case
 "
+toolbar_field_border
+"
+:
+case
+"
 toolbar_top_separator
 "
 :
