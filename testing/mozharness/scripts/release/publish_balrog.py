@@ -70,6 +70,14 @@ mozilla
 buildbot
 import
 BuildbotMixin
+from
+mozharness
+.
+base
+.
+log
+import
+FATAL
 class
 PublishBalrog
 (
@@ -749,10 +757,7 @@ extend
 -
 rules
 "
-str
-(
 r
-)
 ]
 )
         
@@ -892,6 +897,10 @@ halt_on_failure
 =
 True
 )
+                   
+error_level
+=
+FATAL
 )
 if
 __name__
