@@ -30,13 +30,10 @@ devtools
 /
 client
 /
-responsive
-.
-html
+responsivedesign
 /
-manager
+responsivedesign
 "
-true
 )
 ;
 const
