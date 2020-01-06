@@ -2369,7 +2369,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 const
-nsCString
+nsString
 &
 aName
 )
@@ -2641,7 +2641,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 const
-nsCString
+nsString
 &
 aName
 )

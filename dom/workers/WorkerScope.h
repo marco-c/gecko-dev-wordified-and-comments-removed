@@ -789,7 +789,7 @@ public
 WorkerGlobalScope
 {
 const
-nsCString
+nsString
 mName
 ;
 ~
@@ -806,7 +806,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 const
-nsCString
+nsString
 &
 aName
 )
@@ -845,10 +845,7 @@ AsAString
 (
 )
 =
-NS_ConvertUTF8toUTF16
-(
 mName
-)
 ;
 }
 void
@@ -903,7 +900,7 @@ public
 WorkerGlobalScope
 {
 const
-nsCString
+nsString
 mName
 ;
 ~
@@ -920,7 +917,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 const
-nsCString
+nsString
 &
 aName
 )
@@ -959,10 +956,7 @@ AsAString
 (
 )
 =
-NS_ConvertUTF8toUTF16
-(
 mName
-)
 ;
 }
 void
