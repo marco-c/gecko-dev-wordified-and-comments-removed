@@ -6002,6 +6002,16 @@ aManager
 PrefFunc
 aFunc
 )
+const
+;
+bool
+CanUseAdvancedLayer
+(
+LayerManager
+*
+aManager
+)
+const
 ;
 nsIFrame
 *

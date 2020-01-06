@@ -25726,7 +25726,15 @@ AppUnitsPerDevPixel
 ;
 if
 (
-ShouldUseAdvancedLayer
+gfxPrefs
+:
+:
+LayersAllowTextLayers
+(
+)
+&
+&
+CanUseAdvancedLayer
 (
 aBuilder
 -
@@ -25734,10 +25742,6 @@ aBuilder
 GetWidgetLayerManager
 (
 )
-gfxPrefs
-:
-:
-LayersAllowTextLayers
 )
 )
 {
