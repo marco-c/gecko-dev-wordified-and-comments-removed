@@ -2357,10 +2357,7 @@ nsCString
 aSessionId
 aSessionIdLength
 )
-static_cast
-<
-uint32_t
->
+ConvertCDMErrorToCDMException
 (
 aError
 )
