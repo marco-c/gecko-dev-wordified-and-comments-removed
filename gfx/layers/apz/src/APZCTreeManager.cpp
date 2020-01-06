@@ -5694,14 +5694,6 @@ if
 (
 !
 targetApzc
-|
-|
-targetApzc
--
->
-HasScrollSnapping
-(
-)
 )
 {
 return
