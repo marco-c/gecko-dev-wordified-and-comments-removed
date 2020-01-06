@@ -3179,6 +3179,7 @@ respondsToSelector
 selector
 (
 setTitlebarAppearsTransparent
+:
 )
 ]
 )
@@ -18166,6 +18167,7 @@ respondsToSelector
 selector
 (
 setTitlebarAppearsTransparent
+:
 )
 ]
 )
