@@ -101,6 +101,9 @@ idl
 interface
 nsIX509Cert
 ;
+interface
+nsIX509CertList
+;
 [
 scriptable
 uuid
@@ -125,6 +128,16 @@ readonly
 attribute
 nsIX509Cert
 serverCert
+;
+readonly
+attribute
+nsIX509CertList
+failedCertChain
+;
+readonly
+attribute
+nsIX509CertList
+succeededCertChain
 ;
 [
 must_use

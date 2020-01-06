@@ -4076,6 +4076,14 @@ NotEV
 mSSLStatus
 -
 >
+SetFailedCertChain
+(
+mFailedCertChain
+)
+;
+mSSLStatus
+-
+>
 mHaveCertErrorBits
 =
 true
