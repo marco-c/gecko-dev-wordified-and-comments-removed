@@ -3333,7 +3333,7 @@ endif
 Background
 Hang
 Monitor
-BINPATH
+RESPATH
 /
 components
 /
@@ -3382,14 +3382,14 @@ defined
 (
 MOZ_TSAN
 )
-BINPATH
+RESPATH
 /
 components
 /
 BHRTelemetryService
 .
 js
-BINPATH
+RESPATH
 /
 components
 /
