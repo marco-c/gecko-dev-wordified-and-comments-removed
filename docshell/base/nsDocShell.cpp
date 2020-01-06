@@ -33095,6 +33095,8 @@ principal
 aPrincipal
 ;
 }
+blankDoc
+=
 nsContentDLF
 :
 :
@@ -33102,10 +33104,6 @@ CreateBlankDocument
 (
 mLoadGroup
 principal
-getter_AddRefs
-(
-blankDoc
-)
 )
 ;
 if
