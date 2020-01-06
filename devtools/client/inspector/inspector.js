@@ -4769,6 +4769,13 @@ this
 .
 highlighters
 .
+restoreFlexboxState
+(
+)
+this
+.
+highlighters
+.
 restoreGridState
 (
 )
