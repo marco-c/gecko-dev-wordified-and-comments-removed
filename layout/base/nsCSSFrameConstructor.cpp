@@ -3786,9 +3786,6 @@ aFrameItems
 nsIContent
 *
 aContent
-nsStyleContext
-*
-aStyleContext
 nsContainerFrame
 *
 aParentFrame
@@ -5329,9 +5326,6 @@ aFrameItems
 nsIContent
 *
 aContent
-nsStyleContext
-*
-aStyleContext
 nsContainerFrame
 *
 aParentFrame
@@ -9324,7 +9318,6 @@ AddChild
 newFrame
 aFrameItems
 content
-styleContext
 aParentFrame
 )
 ;
@@ -13246,7 +13239,6 @@ AddChild
 comboboxFrame
 aFrameItems
 content
-styleContext
 aParentFrame
 )
 ;
@@ -13698,7 +13690,6 @@ AddChild
 scrollFrame
 aFrameItems
 aContent
-aStyleContext
 aParentFrame
 )
 ;
@@ -14190,7 +14181,6 @@ AddChild
 fieldsetFrame
 aFrameItems
 content
-styleContext
 aParentFrame
 )
 ;
@@ -17234,7 +17224,6 @@ AddChild
 frameToAddToList
 aFrameItems
 content
-styleContext
 aParentFrame
 allowOutOfFlow
 allowOutOfFlow
@@ -21277,7 +21266,6 @@ AddChild
 newFrame
 aFrameItems
 content
-styleContext
 aParentFrame
 )
 ;
@@ -22874,7 +22862,6 @@ AddChild
 newFrame
 aFrameItems
 content
-styleContext
 aParentFrame
 aCandidateRootFrame
 aCandidateRootFrame
@@ -48712,7 +48699,6 @@ AddChild
 letterFrame
 aResult
 letterContent
-aStyleContext
 aParentFrame
 false
 true
@@ -51103,7 +51089,6 @@ AddChild
 aNewFrame
 aFrameItems
 aContent
-aStyleContext
 aContentParentFrame
 ?
 aContentParentFrame
@@ -51372,7 +51357,6 @@ AddChild
 newFrame
 aFrameItems
 content
-styleContext
 aParentFrame
 )
 ;
