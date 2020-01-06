@@ -5043,6 +5043,16 @@ false
 )
 ;
 }
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_TOOLKIT_TELEMETRY_ENABLED
+false
+)
+;
 }
 function
 setTestFilesAndDirsForFailure
