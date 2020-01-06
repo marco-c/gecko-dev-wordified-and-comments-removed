@@ -2108,6 +2108,10 @@ gdk_x11_display_get_type
 )
 STUB
 (
+gdk_wayland_display_get_type
+)
+STUB
+(
 gtk_box_new
 )
 STUB
