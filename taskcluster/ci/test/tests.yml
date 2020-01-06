@@ -6705,7 +6705,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -6901,7 +6901,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -7097,7 +7097,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -7293,7 +7293,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -7480,7 +7480,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -7676,7 +7676,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -7872,7 +7872,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -8072,7 +8072,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -8259,7 +8259,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -8446,7 +8446,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
@@ -8642,7 +8642,7 @@ windows
 -
 talos
 /
-windows_taskcluster_config
+windows_config
 .
 py
 default
