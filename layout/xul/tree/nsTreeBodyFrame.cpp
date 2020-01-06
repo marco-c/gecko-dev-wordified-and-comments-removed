@@ -1153,7 +1153,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreerow
+mozTreeRow
 )
 ;
 nsMargin
@@ -5021,7 +5021,7 @@ child
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 )
 aChildElt
 .
@@ -5041,7 +5041,7 @@ child
 nsCSSAnonBoxes
 :
 :
-moztreetwisty
+mozTreeTwisty
 )
 aChildElt
 .
@@ -5061,7 +5061,7 @@ child
 nsCSSAnonBoxes
 :
 :
-moztreeimage
+mozTreeImage
 )
 aChildElt
 .
@@ -5081,7 +5081,7 @@ child
 nsCSSAnonBoxes
 :
 :
-moztreecelltext
+mozTreeCellText
 )
 aChildElt
 .
@@ -5311,7 +5311,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreerow
+mozTreeRow
 )
 ;
 AdjustForBorderPadding
@@ -5329,7 +5329,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 )
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -5486,7 +5486,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreetwisty
+mozTreeTwisty
 )
 ;
 GetTwistyRect
@@ -5566,7 +5566,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreeimage
+mozTreeImage
 )
 ;
 nsRect
@@ -5691,7 +5691,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecelltext
+mozTreeCellText
 )
 ;
 RefPtr
@@ -6815,7 +6815,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 )
 ;
 nsRect
@@ -6878,7 +6878,7 @@ return
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 ;
 }
 nscoord
@@ -7005,7 +7005,7 @@ return
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 ;
 }
 nsRect
@@ -7080,7 +7080,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreetwisty
+mozTreeTwisty
 )
 ;
 nsRect
@@ -7164,14 +7164,14 @@ return
 nsCSSAnonBoxes
 :
 :
-moztreetwisty
+mozTreeTwisty
 ;
 else
 return
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 ;
 }
 if
@@ -7216,7 +7216,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreeimage
+mozTreeImage
 )
 ;
 nsRect
@@ -7302,7 +7302,7 @@ return
 nsCSSAnonBoxes
 :
 :
-moztreeimage
+mozTreeImage
 ;
 }
 if
@@ -7364,7 +7364,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecelltext
+mozTreeCellText
 )
 ;
 nsMargin
@@ -7446,14 +7446,14 @@ return
 nsCSSAnonBoxes
 :
 :
-moztreecelltext
+mozTreeCellText
 ;
 else
 return
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 ;
 }
 void
@@ -7634,7 +7634,7 @@ aChildElt
 nsCSSAnonBoxes
 :
 :
-moztreeimage
+mozTreeImage
 ;
 else
 *
@@ -7774,7 +7774,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 )
 ;
 nsMargin
@@ -7847,7 +7847,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreetwisty
+mozTreeTwisty
 )
 ;
 nsRect
@@ -7911,7 +7911,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreeimage
+mozTreeImage
 )
 ;
 nsRect
@@ -7982,7 +7982,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecelltext
+mozTreeCellText
 )
 ;
 GetBorderPadding
@@ -11138,7 +11138,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreerow
+mozTreeRow
 )
 ;
 if
@@ -11338,7 +11338,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreeindentation
+mozTreeIndentation
 )
 ;
 if
@@ -13204,7 +13204,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreerow
+mozTreeRow
 )
 ;
 auto
@@ -13942,7 +13942,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecolumn
+mozTreeColumn
 )
 ;
 nsRect
@@ -14066,7 +14066,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreerow
+mozTreeRow
 )
 ;
 nsRect
@@ -14821,7 +14821,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreeseparator
+mozTreeSeparator
 )
 ;
 bool
@@ -15143,7 +15143,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 )
 ;
 bool
@@ -15271,7 +15271,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreeline
+mozTreeLine
 )
 ;
 if
@@ -15304,7 +15304,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreetwisty
+mozTreeTwisty
 )
 ;
 nsRect
@@ -16205,7 +16205,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreetwisty
+mozTreeTwisty
 )
 ;
 nsRect
@@ -16591,7 +16591,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreeimage
+mozTreeImage
 )
 ;
 float
@@ -17319,7 +17319,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecelltext
+mozTreeCellText
 )
 ;
 float
@@ -17718,7 +17718,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecell
+mozTreeCell
 )
 ;
 if
@@ -17886,7 +17886,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreecheckbox
+mozTreeCheckbox
 )
 ;
 nscoord
@@ -18214,7 +18214,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreeprogressmeter
+mozTreeProgressmeter
 )
 ;
 nsRect
@@ -18850,7 +18850,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreedropfeedback
+mozTreeDropFeedback
 )
 ;
 DrawResult
@@ -19011,7 +19011,7 @@ GetPseudoStyleContext
 nsCSSAnonBoxes
 :
 :
-moztreetwisty
+mozTreeTwisty
 )
 ;
 nsRect

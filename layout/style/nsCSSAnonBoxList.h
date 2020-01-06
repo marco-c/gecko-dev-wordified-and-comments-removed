@@ -635,7 +635,7 @@ ifdef
 MOZ_XUL
 CSS_ANON_BOX
 (
-moztreecolumn
+mozTreeColumn
 "
 :
 -
@@ -649,7 +649,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreerow
+mozTreeRow
 "
 :
 -
@@ -663,7 +663,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreeseparator
+mozTreeSeparator
 "
 :
 -
@@ -677,7 +677,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreecell
+mozTreeCell
 "
 :
 -
@@ -691,7 +691,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreeindentation
+mozTreeIndentation
 "
 :
 -
@@ -705,7 +705,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreeline
+mozTreeLine
 "
 :
 -
@@ -719,7 +719,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreetwisty
+mozTreeTwisty
 "
 :
 -
@@ -733,7 +733,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreeimage
+mozTreeImage
 "
 :
 -
@@ -747,7 +747,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreecelltext
+mozTreeCellText
 "
 :
 -
@@ -763,7 +763,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreecheckbox
+mozTreeCheckbox
 "
 :
 -
@@ -777,7 +777,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreeprogressmeter
+mozTreeProgressmeter
 "
 :
 -
@@ -791,7 +791,7 @@ false
 )
 CSS_ANON_BOX
 (
-moztreedropfeedback
+mozTreeDropFeedback
 "
 :
 -
