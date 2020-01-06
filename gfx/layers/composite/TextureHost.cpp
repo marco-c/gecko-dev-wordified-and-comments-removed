@@ -2791,11 +2791,9 @@ ySize
 )
 desc
 .
-ySize
+yStride
 (
 )
-.
-width
 gfx
 :
 :
@@ -2818,11 +2816,9 @@ cbCrSize
 )
 desc
 .
-cbCrSize
+cbCrStride
 (
 )
-.
-width
 gfx
 :
 :
