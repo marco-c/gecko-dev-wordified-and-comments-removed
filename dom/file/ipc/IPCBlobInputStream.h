@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsISeekableStream
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -68,8 +61,6 @@ nsICloneableInputStream
 public
 nsIIPCSerializableInputStream
 public
-nsISeekableStream
-public
 nsIFileMetadata
 {
 public
@@ -80,7 +71,6 @@ NS_DECL_NSIASYNCINPUTSTREAM
 NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSICLONEABLEINPUTSTREAM
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
-NS_DECL_NSISEEKABLESTREAM
 NS_DECL_NSIFILEMETADATA
 explicit
 IPCBlobInputStream
@@ -115,12 +105,6 @@ nsIEventTarget
 *
 aEventTarget
 )
-;
-bool
-IsSeekableStream
-(
-)
-const
 ;
 bool
 IsFileMetadata
