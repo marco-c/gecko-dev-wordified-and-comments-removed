@@ -9837,9 +9837,13 @@ reject
 {
 try
 {
-AsyncShutdown
+PlacesUtils
 .
-placesClosingInternalConnection
+history
+.
+connectionShutdownClient
+.
+jsclient
 .
 addBlocker
 (

@@ -75,15 +75,6 @@ shutdown
 "
 places
 -
-will
--
-close
--
-connection
-"
-"
-places
--
 expiration
 -
 finished
