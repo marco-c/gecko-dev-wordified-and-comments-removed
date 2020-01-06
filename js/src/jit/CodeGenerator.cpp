@@ -14660,7 +14660,8 @@ GetFirstDollarIndexRawFn
 (
 JSContext
 *
-HandleString
+JSString
+*
 int32_t
 *
 )
