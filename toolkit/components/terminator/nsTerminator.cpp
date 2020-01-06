@@ -489,10 +489,6 @@ arg
 ;
 nsCString
 destinationPath
-;
-destinationPath
-.
-Adopt
 (
 static_cast
 <
@@ -922,7 +918,7 @@ if
 !
 defined
 (
-NS_FREE_PERMANENT_DATA
+DEBUG
 )
 StartWriter
 (
