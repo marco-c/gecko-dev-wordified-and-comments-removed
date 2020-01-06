@@ -161,11 +161,6 @@ LineGraphWidget
 js
 '
 '
-MdnDocsWidget
-.
-js
-'
-'
 MountainGraphWidget
 .
 js

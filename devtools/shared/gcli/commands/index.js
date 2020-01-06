@@ -382,17 +382,6 @@ gcli
 /
 commands
 /
-mdn
-"
-"
-devtools
-/
-shared
-/
-gcli
-/
-commands
-/
 measure
 "
 "
