@@ -97,6 +97,9 @@ GenerateOCSPResponse
 '
 OCSPStaplingServer
 '
+'
+SymantecSanctionsServer
+'
 ]
 linkage
 =

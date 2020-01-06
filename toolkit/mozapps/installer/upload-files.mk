@@ -1819,6 +1819,9 @@ BadCertServer
 OCSPStaplingServer
 *
 \
+SymantecSanctionsServer
+*
+\
 GenerateOCSPResponse
 *
 \
