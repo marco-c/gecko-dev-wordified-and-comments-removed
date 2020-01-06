@@ -1082,14 +1082,6 @@ nsContentUtils
 IsCustomElementsEnabled
 (
 )
-|
-|
-nsContentUtils
-:
-:
-IsWebComponentsEnabled
-(
-)
 ;
 }
 explicit

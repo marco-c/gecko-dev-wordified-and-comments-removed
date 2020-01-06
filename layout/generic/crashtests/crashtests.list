@@ -3718,6 +3718,17 @@ webcomponents
 enabled
 true
 )
+pref
+(
+dom
+.
+webcomponents
+.
+customelements
+.
+enabled
+true
+)
 load
 1059138
 -

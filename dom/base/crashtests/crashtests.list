@@ -1210,6 +1210,8 @@ dom
 .
 webcomponents
 .
+customelements
+.
 enabled
 true
 )
