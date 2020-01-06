@@ -1117,6 +1117,8 @@ platform
 win32
 -
 devedition
+-
+nightly
 /
 opt
 test
@@ -1276,6 +1278,8 @@ platform
 win64
 -
 devedition
+-
+nightly
 /
 opt
 test
@@ -1433,6 +1437,8 @@ platform
 win64
 -
 devedition
+-
+nightly
 /
 opt
 test
