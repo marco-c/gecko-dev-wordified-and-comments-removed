@@ -5830,6 +5830,13 @@ LookAndFeel
 eColorID__moz_win_accentcolor
 }
 {
+eCSSKeyword__moz_win_accentcolortext
+LookAndFeel
+:
+:
+eColorID__moz_win_accentcolortext
+}
+{
 eCSSKeyword__moz_win_mediatext
 LookAndFeel
 :
