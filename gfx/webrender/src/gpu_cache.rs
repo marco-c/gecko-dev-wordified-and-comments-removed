@@ -3,8 +3,8 @@ api
 :
 :
 {
-ColorF
 LayerRect
+PremultipliedColorF
 }
 ;
 use
@@ -190,7 +190,7 @@ Into
 GpuBlockData
 >
 for
-ColorF
+PremultipliedColorF
 {
 fn
 into

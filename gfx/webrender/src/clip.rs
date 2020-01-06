@@ -1305,7 +1305,7 @@ gpu_cache
 }
 pub
 fn
-is_masking
+has_clips
 (
 &
 self

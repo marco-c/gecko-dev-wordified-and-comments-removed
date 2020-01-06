@@ -2048,6 +2048,15 @@ Cs
 .
 a
 ;
+result
+.
+rgb
+*
+=
+result
+.
+a
+;
 oFragColor
 =
 result

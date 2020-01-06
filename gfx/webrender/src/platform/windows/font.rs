@@ -3,7 +3,6 @@ api
 :
 :
 {
-FontInstance
 FontInstancePlatformOptions
 FontKey
 FontRenderMode
@@ -37,6 +36,7 @@ glyph_rasterizer
 :
 :
 {
+FontInstance
 GlyphFormat
 RasterizedGlyph
 }

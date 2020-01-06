@@ -1486,6 +1486,8 @@ oFragColor
 vec4
 (
 rgb
+*
+alpha
 alpha
 )
 ;

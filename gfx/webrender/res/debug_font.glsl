@@ -164,17 +164,9 @@ r
 ;
 oFragColor
 =
-vec4
-(
 vColor
-.
-xyz
-vColor
-.
-w
 *
 alpha
-)
 ;
 }
 #
