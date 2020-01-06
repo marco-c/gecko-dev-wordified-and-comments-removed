@@ -1157,7 +1157,6 @@ HashKey
 (
 static_cast
 <
-const
 KeyTypePointer
 >
 (
@@ -1205,7 +1204,6 @@ KeyEquals
 (
 static_cast
 <
-const
 KeyTypePointer
 >
 (
