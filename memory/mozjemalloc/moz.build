@@ -205,6 +205,16 @@ True
 DEFINES
 [
 '
+abort
+'
+]
+=
+'
+moz_abort
+'
+DEFINES
+[
+'
 MOZ_JEMALLOC_IMPL
 '
 ]
