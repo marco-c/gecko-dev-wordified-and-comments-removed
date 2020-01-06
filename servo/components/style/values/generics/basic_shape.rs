@@ -27,15 +27,6 @@ use
 values
 :
 :
-computed
-:
-:
-ComputedValueAsSpecified
-;
-use
-values
-:
-:
 distance
 :
 :
@@ -125,6 +116,7 @@ Clone
 Copy
 Debug
 PartialEq
+ToComputedValue
 ToCss
 )
 ]
@@ -139,12 +131,6 @@ ShapeBox
 (
 ShapeBox
 )
-}
-impl
-ComputedValueAsSpecified
-for
-GeometryBox
-{
 }
 pub
 type

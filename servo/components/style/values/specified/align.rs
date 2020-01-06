@@ -83,6 +83,13 @@ NS_STYLE_ALIGN_
 *
 constants
 .
+#
+[
+derive
+(
+ToComputedValue
+)
+]
 pub
 flags
 AlignFlags
@@ -734,6 +741,7 @@ Copy
 Debug
 Eq
 PartialEq
+ToComputedValue
 )
 ]
 #
@@ -1290,6 +1298,7 @@ Copy
 Debug
 Eq
 PartialEq
+ToComputedValue
 ToCss
 )
 ]
@@ -1456,6 +1465,7 @@ Copy
 Debug
 Eq
 PartialEq
+ToComputedValue
 ToCss
 )
 ]

@@ -13581,10 +13581,6 @@ cmp
 min
 (
 integer
-.
-value
-(
-)
 nsStyleGridLine_kMaxLine
 )
 )
@@ -13766,15 +13762,6 @@ string_cache
 :
 Atom
 ;
-use
-values
-:
-:
-specified
-:
-:
-Integer
-;
 longhands
 :
 :
@@ -13916,11 +13903,6 @@ nsStyleGridLine_kMaxLine
 ;
 Some
 (
-Integer
-:
-:
-new
-(
 self
 .
 gecko
@@ -13932,7 +13914,6 @@ gecko
 }
 .
 mInteger
-)
 )
 }
 }
