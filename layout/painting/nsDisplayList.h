@@ -7347,6 +7347,10 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+bool
+aUseClipBounds
+=
+true
 )
 ;
 const
