@@ -426,9 +426,14 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
-DestroyAnonymousContent
+aPostDestroyData
+.
+AddAnonymousContent
 (
 mContentClone
 .
@@ -443,6 +448,7 @@ nsSVGGFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }

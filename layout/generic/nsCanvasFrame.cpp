@@ -583,6 +583,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 nsIScrollableFrame
@@ -728,7 +731,9 @@ AsElement
 ;
 }
 }
-DestroyAnonymousContent
+aPostDestroyData
+.
+AddAnonymousContent
 (
 mCustomContentContainer
 .
@@ -743,6 +748,7 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }

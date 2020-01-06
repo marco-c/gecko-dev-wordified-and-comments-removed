@@ -64,6 +64,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 override
 ;

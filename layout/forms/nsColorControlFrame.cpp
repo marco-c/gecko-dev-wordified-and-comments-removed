@@ -186,6 +186,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 nsCheckboxRadioFrame
@@ -204,7 +207,9 @@ this
 false
 )
 ;
-DestroyAnonymousContent
+aPostDestroyData
+.
+AddAnonymousContent
 (
 mColorContent
 .
@@ -219,6 +224,7 @@ nsHTMLButtonControlFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }

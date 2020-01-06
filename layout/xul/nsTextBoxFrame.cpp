@@ -555,6 +555,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 RegUnregAccessKey
@@ -568,6 +571,7 @@ nsLeafBoxFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }

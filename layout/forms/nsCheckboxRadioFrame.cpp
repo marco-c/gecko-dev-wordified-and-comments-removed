@@ -127,6 +127,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 nsCheckboxRadioFrame
@@ -151,6 +154,7 @@ nsAtomicContainerFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }

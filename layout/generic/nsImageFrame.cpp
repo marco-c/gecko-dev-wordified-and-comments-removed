@@ -887,6 +887,9 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
+PostDestroyData
+&
+aPostDestroyData
 )
 {
 if
@@ -998,6 +1001,7 @@ nsAtomicContainerFrame
 DestroyFrom
 (
 aDestructRoot
+aPostDestroyData
 )
 ;
 }
@@ -6412,17 +6416,6 @@ imgIRequest
 :
 :
 STATUS_LOAD_COMPLETE
-&
-&
-!
-(
-imageStatus
-&
-imgIRequest
-:
-:
-STATUS_ERROR
-)
 )
 {
 nsCOMPtr
