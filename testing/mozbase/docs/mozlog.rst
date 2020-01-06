@@ -628,6 +628,16 @@ passed
 dict
 )
 .
+name
+An
+optional
+string
+to
+identify
+the
+suite
+by
+.
 run_info
 An
 optional
