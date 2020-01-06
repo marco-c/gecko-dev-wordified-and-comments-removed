@@ -1867,7 +1867,7 @@ GetAsServo
 servoSet
 -
 >
-ReresolveStyleForBindings
+StyleNewSubtree
 (
 mElement
 )
