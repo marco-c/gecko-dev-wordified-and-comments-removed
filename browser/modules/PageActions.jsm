@@ -1746,7 +1746,7 @@ false
 onIframeHidden
 :
 false
-onIframeShown
+onIframeShowing
 :
 false
 onLocationChange
@@ -2580,7 +2580,7 @@ parentPanelNode
 ;
 }
 }
-onIframeShown
+onIframeShowing
 (
 iframeNode
 parentPanelNode
@@ -2590,12 +2590,12 @@ if
 (
 this
 .
-_onIframeShown
+_onIframeShowing
 )
 {
 this
 .
-_onIframeShown
+_onIframeShowing
 (
 iframeNode
 parentPanelNode
