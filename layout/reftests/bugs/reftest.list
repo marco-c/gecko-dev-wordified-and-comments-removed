@@ -23573,6 +23573,7 @@ oscpu
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 541406
@@ -23701,6 +23702,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 546071
@@ -25351,6 +25353,7 @@ if
 (
 Android
 )
+HTTP
 =
 =
 579808
@@ -26012,6 +26015,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 599476
@@ -26928,6 +26932,7 @@ Android
 102
 11000
 )
+HTTP
 =
 =
 632423

@@ -9,6 +9,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 !
 =
 plugin
@@ -26,6 +27,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 plugin
@@ -56,6 +58,7 @@ haveTestPlugin
 1
 160000
 )
+HTTP
 =
 =
 plugin
@@ -90,6 +93,7 @@ haveTestPlugin
 1
 164000
 )
+HTTP
 =
 =
 plugin
@@ -136,6 +140,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 windowless
@@ -202,6 +207,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 border
@@ -258,6 +264,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 border
@@ -332,6 +339,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 border
@@ -388,6 +396,7 @@ haveTestPlugin
 |
 Android
 )
+HTTP
 =
 =
 border
@@ -478,6 +487,7 @@ haveTestPlugin
 !
 Android
 )
+HTTP
 =
 =
 pluginproblemui
@@ -517,6 +527,7 @@ haveTestPlugin
 !
 Android
 )
+HTTP
 =
 =
 pluginproblemui
@@ -553,6 +564,7 @@ haveTestPlugin
 1
 160000
 )
+HTTP
 =
 =
 plugin
@@ -589,6 +601,7 @@ haveTestPlugin
 1
 160000
 )
+HTTP
 =
 =
 plugin
@@ -648,6 +661,7 @@ haveTestPlugin
 1
 160000
 )
+HTTP
 =
 =
 plugin
@@ -707,6 +721,7 @@ haveTestPlugin
 1
 32400
 )
+HTTP
 =
 =
 plugin
@@ -762,6 +777,7 @@ haveTestPlugin
 1
 32400
 )
+HTTP
 =
 =
 plugin
@@ -821,6 +837,7 @@ haveTestPlugin
 1
 32400
 )
+HTTP
 =
 =
 plugin
@@ -880,6 +897,7 @@ haveTestPlugin
 1
 32400
 )
+HTTP
 =
 =
 plugin
@@ -939,6 +957,7 @@ haveTestPlugin
 1
 32400
 )
+HTTP
 =
 =
 plugin
@@ -964,6 +983,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 plugin
@@ -989,6 +1009,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 plugin
@@ -1014,6 +1035,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 shrink
@@ -1035,6 +1057,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 update
@@ -1056,6 +1079,7 @@ if
 !
 haveTestPlugin
 )
+HTTP
 =
 =
 windowless
