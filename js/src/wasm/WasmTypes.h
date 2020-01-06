@@ -6873,6 +6873,8 @@ flagsWord_
 ;
 }
 ;
+protected
+:
 #
 if
 JS_BITS_PER_WORD
@@ -6884,6 +6886,8 @@ padding_
 ;
 #
 endif
+private
+:
 Frame
 frame_
 ;
