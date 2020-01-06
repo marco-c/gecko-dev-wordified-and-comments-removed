@@ -2295,9 +2295,6 @@ sts
 CreateInputTransport
 (
 mRemoteStream
-0
--
-1
 true
 getter_AddRefs
 (

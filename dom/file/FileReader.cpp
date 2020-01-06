@@ -1652,9 +1652,6 @@ sts
 CreateInputTransport
 (
 stream
-0
--
-1
 true
 getter_AddRefs
 (

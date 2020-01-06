@@ -21687,16 +21687,6 @@ sts
 CreateInputTransport
 (
 stream
-int64_t
-(
--
-1
-)
-int64_t
-(
--
-1
-)
 true
 getter_AddRefs
 (

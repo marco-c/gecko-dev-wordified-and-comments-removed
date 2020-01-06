@@ -903,9 +903,6 @@ stream
 -
 >
 mOriginalInputStream
-0
--
-1
 true
 getter_AddRefs
 (
