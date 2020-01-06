@@ -2932,6 +2932,13 @@ device_info
 )
 )
 ;
+info
+-
+>
+id
+=
+id
+;
 if
 (
 side
