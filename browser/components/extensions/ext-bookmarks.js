@@ -3,14 +3,10 @@ use
 strict
 "
 ;
-XPCOMUtils
+Cu
 .
-defineLazyModuleGetter
+import
 (
-this
-"
-PlacesUtils
-"
 "
 resource
 :
