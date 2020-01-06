@@ -333,9 +333,12 @@ RotatedBuffer
 &
 aSource
 const
-nsIntRegion
+gfx
+:
+:
+IntRect
 &
-aUpdateRegion
+aUpdateRect
 )
 ;
 struct
