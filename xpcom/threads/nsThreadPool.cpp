@@ -651,8 +651,15 @@ aThread
 )
 )
 ;
-NS_DispatchToMainThread
+SystemGroup
+:
+:
+Dispatch
 (
+TaskCategory
+:
+:
+Other
 NewRunnableMethod
 (
 "
