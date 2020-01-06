@@ -30147,6 +30147,13 @@ Zone
 NoGC
 )
 ;
+zone
+-
+>
+notifyObservingDebuggers
+(
+)
+;
 }
 MOZ_ASSERT
 (
