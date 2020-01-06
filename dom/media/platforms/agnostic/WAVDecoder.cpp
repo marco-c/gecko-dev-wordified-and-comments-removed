@@ -692,16 +692,9 @@ v
 auto
 duration
 =
-media
-:
-:
-TimeUnit
-:
-:
-FromMicroseconds
+FramesToTimeUnit
 (
 frames
-/
 mInfo
 .
 mRate
