@@ -435,6 +435,17 @@ nullptr
 )
 ;
 nsresult
+NS_GetSanitizedURIStringFromURI
+(
+nsIURI
+*
+aUri
+nsAString
+&
+aSanitizedSpec
+)
+;
+nsresult
 NS_NewChannelInternal
 (
 nsIChannel

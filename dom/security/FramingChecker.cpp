@@ -1408,7 +1408,7 @@ rv
 errorObject
 -
 >
-InitWithWindowID
+InitWithSanitizedSource
 (
 msg
 EmptyString
