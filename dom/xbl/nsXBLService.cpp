@@ -2018,8 +2018,6 @@ AsElement
 )
 ;
 }
-if
-(
 nsXBLBinding
 *
 binding
@@ -2030,6 +2028,10 @@ aContent
 GetXBLBinding
 (
 )
+;
+if
+(
+binding
 )
 {
 if
