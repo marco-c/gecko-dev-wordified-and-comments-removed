@@ -487,6 +487,10 @@ dom
 ;
 pub
 mod
+driver
+;
+pub
+mod
 element_state
 ;
 #
@@ -643,10 +647,6 @@ unsafe_code
 pub
 mod
 servo
-;
-pub
-mod
-sequential
 ;
 pub
 mod

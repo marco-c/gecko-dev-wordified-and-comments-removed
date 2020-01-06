@@ -104,16 +104,6 @@ PostorderFlowTraversal
 PreorderFlowTraversal
 }
 ;
-pub
-use
-style
-:
-:
-parallel
-:
-:
-traverse_dom
-;
 const
 CHUNK_SIZE
 :
