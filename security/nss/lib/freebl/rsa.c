@@ -795,7 +795,6 @@ return
 rv
 ;
 }
-static
 SECStatus
 generate_prime
 (
@@ -815,12 +814,6 @@ SECStatus
 rv
 =
 SECSuccess
-;
-unsigned
-long
-counter
-=
-0
 ;
 int
 piter
@@ -915,8 +908,6 @@ primeLen
 *
 8
 PR_FALSE
-&
-counter
 )
 ;
 if

@@ -3648,6 +3648,14 @@ CERT_GetCertIsPerm
 ;
 CERT_GetCertIsTemp
 ;
+PK11_FindCertFromURI
+;
+PK11_FindCertsFromURI
+;
+PK11_GetModuleURI
+;
+PK11_GetTokenURI
+;
 ;
 +
 local

@@ -29,7 +29,7 @@ GatherV2ClientHelloTest
 :
 TlsConnectTestBase
 (
-STREAM
+ssl_variant_stream
 0
 )
 {

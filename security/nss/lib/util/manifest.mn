@@ -208,6 +208,10 @@ utilparst
 .
 h
 \
+pkcs11uri
+.
+h
+\
 (
 NULL
 )
@@ -333,6 +337,10 @@ utilmod
 c
 \
 utilpars
+.
+c
+\
+pkcs11uri
 .
 c
 \

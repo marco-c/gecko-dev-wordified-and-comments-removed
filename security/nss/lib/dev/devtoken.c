@@ -1513,11 +1513,11 @@ nssCryptokiObject
 NULL
 ;
 }
-static
+NSS_IMPLEMENT
 nssCryptokiObject
 *
 *
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 NSSToken
 *
@@ -2377,7 +2377,7 @@ else
 {
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -2499,7 +2499,7 @@ stsize
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -2621,7 +2621,7 @@ ntsize
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -2648,7 +2648,7 @@ ulValueLen
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -2919,7 +2919,7 @@ idtsize
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -3284,7 +3284,7 @@ else
 {
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -3379,7 +3379,7 @@ else
 {
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -3523,7 +3523,7 @@ ctsize
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -3652,7 +3652,7 @@ ktsize
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -3744,7 +3744,7 @@ ktsize
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -3854,7 +3854,7 @@ ktsize
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 sessionOpt
@@ -4550,7 +4550,7 @@ tobj_size
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 session
@@ -4915,7 +4915,7 @@ crlobj_size
 ;
 objects
 =
-find_objects_by_template
+nssToken_FindObjectsByTemplate
 (
 token
 session

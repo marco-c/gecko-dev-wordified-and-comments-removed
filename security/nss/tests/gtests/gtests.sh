@@ -986,9 +986,12 @@ GTESTS
 =
 "
 prng_gtest
+certhigh_gtest
+certdb_gtest
 der_gtest
 pk11_gtest
 util_gtest
+freebl_gtest
 "
 SOURCE_DIR
 =

@@ -114,6 +114,11 @@ mpi_unittest
 cc
 '
 '
+dh_unittest
+.
+cc
+'
+'
 <
 (
 DEPTH

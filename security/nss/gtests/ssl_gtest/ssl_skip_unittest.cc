@@ -315,10 +315,7 @@ std
 :
 tuple
 <
-std
-:
-:
-string
+SSLProtocolVariant
 uint16_t
 >
 >
@@ -405,10 +402,7 @@ testing
 :
 WithParamInterface
 <
-std
-:
-:
-string
+SSLProtocolVariant
 >
 {
 protected
@@ -470,10 +464,10 @@ kTlsAlertUnexpectedMessage
 ;
 if
 (
-mode_
+variant_
 =
 =
-STREAM
+ssl_variant_stream
 )
 {
 server_
@@ -510,10 +504,10 @@ error
 ;
 if
 (
-mode_
+variant_
 =
 =
-STREAM
+ssl_variant_stream
 )
 {
 server_
@@ -1131,7 +1125,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesStream
+kTlsVariantsStream
 TlsConnectTestBase
 :
 :
@@ -1153,7 +1147,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -1168,7 +1162,7 @@ Tls13SkipTest
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 )
 ;
 }

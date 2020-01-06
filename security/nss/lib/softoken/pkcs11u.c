@@ -6942,6 +6942,11 @@ crv
 =
 CKR_OK
 ;
+PZ_Lock
+(
+lock
+)
+;
 for
 (
 i
@@ -6957,11 +6962,6 @@ i
 +
 )
 {
-PZ_Lock
-(
-lock
-)
-;
 for
 (
 object
@@ -7021,12 +7021,12 @@ handle
 ;
 }
 }
+}
 PZ_Unlock
 (
 lock
 )
 ;
-}
 return
 crv
 ;

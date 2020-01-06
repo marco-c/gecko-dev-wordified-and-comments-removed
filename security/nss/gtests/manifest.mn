@@ -69,6 +69,10 @@ google_test
 \
 common
 \
+certdb_gtest
+\
+certhigh_gtest
+\
 der_gtest
 \
 util_gtest

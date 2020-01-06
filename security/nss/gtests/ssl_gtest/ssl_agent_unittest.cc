@@ -1168,7 +1168,7 @@ kTlsRolesAll
 TlsConnectTestBase
 :
 :
-kTlsModesStream
+kTlsVariantsStream
 TlsConnectTestBase
 :
 :
@@ -1190,7 +1190,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :
@@ -1212,7 +1212,7 @@ Combine
 TlsConnectTestBase
 :
 :
-kTlsModesAll
+kTlsVariantsAll
 TlsConnectTestBase
 :
 :

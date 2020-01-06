@@ -1487,6 +1487,11 @@ mapfile
 ]
 [
 '
+cc_use_gnu_ld
+!
+=
+1
+and
 OS
 =
 =

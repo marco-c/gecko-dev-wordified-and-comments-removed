@@ -154,6 +154,11 @@ pkcs1sig
 c
 '
 '
+pkcs11uri
+.
+c
+'
+'
 portreg
 .
 c

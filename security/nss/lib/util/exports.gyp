@@ -195,6 +195,11 @@ pkcs11u
 h
 '
 '
+pkcs11uri
+.
+h
+'
+'
 pkcs1sig
 .
 h

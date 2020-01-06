@@ -2275,10 +2275,10 @@ override_version
 ;
 if
 (
-mode_
+variant_
 =
 =
-STREAM
+ssl_variant_stream
 )
 {
 switch
