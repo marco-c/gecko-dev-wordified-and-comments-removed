@@ -236,7 +236,7 @@ domain
 '
 does
 not
-affect
+effect
 same
 -
 origin
@@ -332,9 +332,8 @@ property
 assert_greater_than
 (
 entry
-[
-property
-]
+.
+connectEnd
 0
 "
 Property
