@@ -155,6 +155,16 @@ GetBaseFile
 (
 )
 ;
+nsZipArchive
+*
+GetBaseZip
+(
+)
+{
+return
+mBaseZip
+;
+}
 bool
 IsZip
 (
