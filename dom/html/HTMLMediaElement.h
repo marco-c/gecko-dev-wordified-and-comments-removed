@@ -2928,11 +2928,6 @@ HiddenVideoStop
 )
 ;
 void
-ReportEMETelemetry
-(
-)
-;
-void
 ReportTelemetry
 (
 )
