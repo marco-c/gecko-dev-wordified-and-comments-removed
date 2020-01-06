@@ -16140,9 +16140,7 @@ EditorUtils
 :
 IsDescendantOf
 (
-&
 aSplitPointParent
-&
 aNode
 )
 )

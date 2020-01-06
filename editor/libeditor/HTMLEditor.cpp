@@ -3180,7 +3180,9 @@ EditorUtils
 :
 IsDescendantOf
 (
+*
 aNode
+*
 aAncestorLimiter
 )
 "
@@ -3299,8 +3301,8 @@ EditorUtils
 :
 IsDescendantOf
 (
-&
 aNode
+*
 aAncestorLimiter
 )
 "
