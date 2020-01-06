@@ -62,6 +62,9 @@ class
 WheelScrollAnimation
 ;
 class
+KeyboardScrollAnimation
+;
+class
 SmoothScrollAnimation
 ;
 class
@@ -146,6 +149,17 @@ Move
 (
 mDeferredTasks
 )
+;
+}
+virtual
+KeyboardScrollAnimation
+*
+AsKeyboardScrollAnimation
+(
+)
+{
+return
+nullptr
 ;
 }
 virtual
