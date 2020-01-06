@@ -62,6 +62,11 @@ mach
 '
 lint
 '
+'
+-
+-
+quiet
+'
 ]
     
 if
