@@ -144,9 +144,6 @@ h
 "
 #
 endif
-struct
-WrTransformProperty
-;
 namespace
 mozilla
 {
@@ -158,6 +155,9 @@ wr
 {
 class
 WebRenderAPI
+;
+struct
+WrTransformProperty
 ;
 }
 namespace
@@ -307,6 +307,9 @@ TimeStamp
 aSampleTime
 nsTArray
 <
+wr
+:
+:
 WrTransformProperty
 >
 &

@@ -105,6 +105,12 @@ nscore
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+wr
+{
 struct
 WrColor
 ;
@@ -114,9 +120,7 @@ WrRect
 struct
 WrSize
 ;
-namespace
-mozilla
-{
+}
 namespace
 gfx
 {
@@ -601,6 +605,9 @@ stringstream
 &
 aStream
 const
+wr
+:
+:
 WrColor
 &
 c
@@ -630,6 +637,9 @@ stringstream
 &
 aStream
 const
+wr
+:
+:
 WrRect
 &
 r
@@ -659,6 +669,9 @@ stringstream
 &
 aStream
 const
+wr
+:
+:
 WrSize
 &
 s

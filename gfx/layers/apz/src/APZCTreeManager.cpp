@@ -2032,6 +2032,9 @@ TimeStamp
 aSampleTime
 nsTArray
 <
+wr
+:
+:
 WrTransformProperty
 >
 &
@@ -2079,6 +2082,9 @@ lastLayersId
 -
 1
 ;
+wr
+:
+:
 WrPipelineId
 lastPipelineId
 ;
@@ -2622,7 +2628,7 @@ GetScrollableRect
 <
 <
 (
-metrics
+aLayer
 .
 IsScrollInfoLayer
 (
@@ -2762,10 +2768,6 @@ aLayer
 if
 (
 aLayer
-.
-Metrics
-(
-)
 .
 IsScrollInfoLayer
 (

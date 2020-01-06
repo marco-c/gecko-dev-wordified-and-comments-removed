@@ -13,6 +13,12 @@ extern
 C
 "
 {
+namespace
+mozilla
+{
+namespace
+wr
+{
 enum
 class
 WrBorderStyle
@@ -2953,4 +2959,6 @@ aOutRenderer
 )
 WR_FUNC
 ;
+}
+}
 }

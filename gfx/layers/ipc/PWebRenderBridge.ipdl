@@ -311,6 +311,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+wr
+:
+:
 WrBuiltDisplayListDescriptor
 from
 "

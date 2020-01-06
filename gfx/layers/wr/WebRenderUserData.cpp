@@ -297,6 +297,9 @@ value
 )
 ;
 }
+wr
+:
+:
 WrImageKey
 key
 =
@@ -407,10 +410,16 @@ MaybeIntSize
 &
 aScaleToSize
 const
+wr
+:
+:
 WrImageRendering
 &
 aFilter
 const
+wr
+:
+:
 WrMixBlendMode
 &
 aMixBlendMode
@@ -484,6 +493,9 @@ MOZ_ASSERT
 mExternalImageId
 )
 ;
+wr
+:
+:
 WrRect
 r
 =

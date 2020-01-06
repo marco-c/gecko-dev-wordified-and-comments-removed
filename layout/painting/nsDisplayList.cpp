@@ -21722,6 +21722,9 @@ AppUnitsPerDevPixel
 )
 )
 ;
+wr
+:
+:
 WrRect
 transformedRect
 =
@@ -24123,6 +24126,9 @@ ToReferenceFrame
 appUnitsPerDevPixel
 )
 ;
+wr
+:
+:
 WrRect
 caret
 =
@@ -24133,6 +24139,9 @@ ToRelativeWrRectRounded
 devCaretRect
 )
 ;
+wr
+:
+:
 WrRect
 hook
 =
@@ -25553,6 +25562,9 @@ mArea
 appUnitsPerDevPixel
 )
 ;
+wr
+:
+:
 WrRect
 dest
 =
@@ -25563,6 +25575,9 @@ ToRelativeWrRectRounded
 destRect
 )
 ;
+wr
+:
+:
 WrRect
 clip
 =
@@ -25897,11 +25912,17 @@ mBorderImageRenderer
 mImageSize
 )
 ;
+wr
+:
+:
 WrGradientExtendMode
 extendMode
 ;
 nsTArray
 <
+wr
+:
+:
 WrGradientStop
 >
 stops
@@ -27733,6 +27754,9 @@ shadowRect
 appUnitsPerDevPixel
 )
 ;
+wr
+:
+:
 WrRect
 deviceBoxRect
 =
@@ -27743,6 +27767,9 @@ ToRelativeWrRectRounded
 deviceBox
 )
 ;
+wr
+:
+:
 WrRect
 deviceClipRect
 =
@@ -27810,6 +27837,9 @@ shadowColor
 blurRadius
 spreadRadius
 borderRadius
+wr
+:
+:
 WrBoxShadowClipMode
 :
 :
@@ -28526,6 +28556,9 @@ ToUnknownRect
 (
 )
 ;
+wr
+:
+:
 WrRect
 deviceClipRect
 =
@@ -28659,6 +28692,9 @@ shadowColor
 blurRadius
 spreadRadius
 borderRadius
+wr
+:
+:
 WrBoxShadowClipMode
 :
 :
@@ -38159,6 +38195,9 @@ animationsId
 ;
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 filters

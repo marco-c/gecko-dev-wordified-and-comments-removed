@@ -141,6 +141,9 @@ WebRenderThreadPool
 (
 )
 ;
+wr
+:
+:
 WrThreadPool
 *
 Raw
@@ -152,6 +155,9 @@ mThreadPool
 ;
 }
 protected
+:
+wr
+:
 :
 WrThreadPool
 *

@@ -93,6 +93,9 @@ false
 )
 mFilter
 (
+wr
+:
+:
 WrImageRendering
 :
 :
@@ -100,6 +103,9 @@ Auto
 )
 mMixBlendMode
 (
+wr
+:
+:
 WrMixBlendMode
 :
 :
@@ -643,10 +649,16 @@ MaybeIntSize
 &
 aScaleToSize
 const
+wr
+:
+:
 WrImageRendering
 &
 aFilter
 const
+wr
+:
+:
 WrMixBlendMode
 &
 aMixBlendMode
@@ -1415,6 +1427,9 @@ updateDisplayList
 continue
 ;
 }
+wr
+:
+:
 WrSize
 contentSize
 {
@@ -1504,6 +1519,9 @@ holder
 -
 >
 mScTransform
+wr
+:
+:
 WrTransformStyle
 :
 :
@@ -1514,6 +1532,9 @@ holder
 mMixBlendMode
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 (
@@ -1732,6 +1753,9 @@ wr
 BuiltDisplayList
 dl
 ;
+wr
+:
+:
 WrSize
 builderContentSize
 ;

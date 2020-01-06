@@ -11381,6 +11381,9 @@ buffer
 )
 ;
 }
+wr
+:
+:
 WrRect
 rect
 =
@@ -11396,6 +11399,9 @@ aBuilder
 .
 PushImage
 (
+wr
+:
+:
 WrRect
 {
 0

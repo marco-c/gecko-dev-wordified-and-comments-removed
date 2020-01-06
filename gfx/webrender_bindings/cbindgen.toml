@@ -177,6 +177,16 @@ C
 +
 +
 "
+namespaces
+=
+[
+"
+mozilla
+"
+"
+wr
+"
+]
 [
 parse
 ]

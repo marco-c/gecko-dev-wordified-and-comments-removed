@@ -286,10 +286,16 @@ MaybeIntSize
 &
 aScaleToSize
 const
+wr
+:
+:
 WrImageRendering
 &
 aFilter
 const
+wr
+:
+:
 WrMixBlendMode
 &
 aMixBlendMode

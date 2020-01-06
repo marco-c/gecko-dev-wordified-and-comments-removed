@@ -97,6 +97,9 @@ aSc
 virtual
 Maybe
 <
+wr
+:
+:
 WrImageMask
 >
 RenderMaskLayer
@@ -212,6 +215,9 @@ WrBridge
 (
 )
 ;
+wr
+:
+:
 WrImageKey
 GetImageKey
 (
@@ -229,6 +235,9 @@ BoundsForStackingContext
 ;
 Maybe
 <
+wr
+:
+:
 WrImageMask
 >
 BuildWrMaskLayer

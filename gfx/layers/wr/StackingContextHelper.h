@@ -100,6 +100,9 @@ Nothing
 const
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 &
@@ -107,6 +110,9 @@ aFilters
 =
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 (
@@ -142,6 +148,9 @@ aTransformPtr
 const
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 &
@@ -149,6 +158,9 @@ aFilters
 =
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 (
@@ -185,6 +197,9 @@ aTransformPtr
 const
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 &
@@ -192,6 +207,9 @@ aFilters
 =
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 (
@@ -207,6 +225,9 @@ StackingContextHelper
 (
 )
 ;
+wr
+:
+:
 WrRect
 ToRelativeWrRect
 (
@@ -217,6 +238,9 @@ aRect
 )
 const
 ;
+wr
+:
+:
 WrRect
 ToRelativeWrRect
 (
@@ -227,6 +251,9 @@ aRect
 )
 const
 ;
+wr
+:
+:
 WrPoint
 ToRelativeWrPoint
 (
@@ -237,6 +264,9 @@ aPoint
 )
 const
 ;
+wr
+:
+:
 WrRect
 ToRelativeWrRectRounded
 (

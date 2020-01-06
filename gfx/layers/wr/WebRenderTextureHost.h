@@ -294,10 +294,16 @@ DisplayListBuilder
 &
 aBuilder
 const
+wr
+:
+:
 WrRect
 &
 aBounds
 const
+wr
+:
+:
 WrRect
 &
 aClip

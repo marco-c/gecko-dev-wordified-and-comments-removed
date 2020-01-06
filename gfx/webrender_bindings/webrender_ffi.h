@@ -129,6 +129,12 @@ WR_FUNC
 #
 undef
 WR_DESTRUCTOR_SAFE_FUNC
+namespace
+mozilla
+{
+namespace
+wr
+{
 struct
 WrGlyphArray
 {
@@ -143,6 +149,9 @@ color
 ;
 nsTArray
 <
+wr
+:
+:
 WrGlyphInstance
 >
 glyphs
@@ -153,6 +162,9 @@ operator
 =
 (
 const
+wr
+:
+:
 WrGlyphArray
 &
 other
@@ -244,5 +256,7 @@ true
 }
 }
 ;
+}
+}
 #
 endif

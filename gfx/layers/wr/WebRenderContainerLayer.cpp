@@ -456,6 +456,9 @@ nullptr
 }
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 filters
@@ -627,6 +630,9 @@ RefLayer
 rect
 )
 ;
+wr
+:
+:
 WrRect
 r
 =

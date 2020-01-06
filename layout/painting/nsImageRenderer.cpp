@@ -3228,6 +3228,9 @@ y
 appUnitsPerDevPixel
 )
 ;
+wr
+:
+:
 WrRect
 fill
 =
@@ -3238,6 +3241,9 @@ ToRelativeWrRect
 fillRect
 )
 ;
+wr
+:
+:
 WrRect
 clip
 =

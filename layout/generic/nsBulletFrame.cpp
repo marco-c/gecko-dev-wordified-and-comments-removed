@@ -2138,6 +2138,9 @@ mDest
 appUnitsPerDevPixel
 )
 ;
+wr
+:
+:
 WrRect
 dest
 =
@@ -2154,6 +2157,9 @@ PushImage
 (
 dest
 dest
+wr
+:
+:
 WrImageRendering
 :
 :

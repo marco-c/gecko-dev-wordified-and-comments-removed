@@ -2895,6 +2895,9 @@ aImageKeys
 ]
 yDescriptor
 aExtID
+wr
+:
+:
 WrExternalImageBufferType
 :
 :
@@ -2913,6 +2916,9 @@ aImageKeys
 ]
 cbcrDescriptor
 aExtID
+wr
+:
+:
 WrExternalImageBufferType
 :
 :
@@ -2931,6 +2937,9 @@ aImageKeys
 ]
 cbcrDescriptor
 aExtID
+wr
+:
+:
 WrExternalImageBufferType
 :
 :
@@ -2953,10 +2962,16 @@ DisplayListBuilder
 &
 aBuilder
 const
+wr
+:
+:
 WrRect
 &
 aBounds
 const
+wr
+:
+:
 WrRect
 &
 aClip
@@ -3051,6 +3066,9 @@ aImageKeys
 [
 2
 ]
+wr
+:
+:
 WrYuvColorSpace
 :
 :

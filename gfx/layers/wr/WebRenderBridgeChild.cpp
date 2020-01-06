@@ -421,6 +421,9 @@ wr
 BuiltDisplayList
 dl
 ;
+wr
+:
+:
 WrSize
 contentSize
 ;
@@ -854,6 +857,9 @@ IsEmpty
 )
 )
 ;
+wr
+:
+:
 WrFontKey
 key
 =
@@ -920,6 +926,9 @@ glyphs
 ;
 nsTArray
 <
+wr
+:
+:
 WrGlyphInstance
 >
 wr_glyph_instances
@@ -1024,6 +1033,9 @@ key
 Range
 <
 const
+wr
+:
+:
 WrGlyphInstance
 >
 (

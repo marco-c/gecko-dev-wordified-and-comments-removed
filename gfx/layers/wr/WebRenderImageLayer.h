@@ -126,6 +126,9 @@ override
 ;
 Maybe
 <
+wr
+:
+:
 WrImageMask
 >
 RenderMaskLayer

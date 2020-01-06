@@ -79,6 +79,9 @@ aTransformPtr
 const
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 &
@@ -91,6 +94,9 @@ mBuilder
 aBuilder
 )
 {
+wr
+:
+:
 WrRect
 scBounds
 =
@@ -121,6 +127,9 @@ scBounds
 aAnimationsId
 aOpacityPtr
 aTransformPtr
+wr
+:
+:
 WrTransformStyle
 :
 :
@@ -177,6 +186,9 @@ aTransform
 const
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 &
@@ -189,6 +201,9 @@ mBuilder
 aBuilder
 )
 {
+wr
+:
+:
 WrRect
 scBounds
 =
@@ -255,6 +270,9 @@ nullptr
 :
 &
 mTransform
+wr
+:
+:
 WrTransformStyle
 :
 :
@@ -320,6 +338,9 @@ aTransformPtr
 const
 nsTArray
 <
+wr
+:
+:
 WrFilterOp
 >
 &
@@ -332,6 +353,9 @@ mBuilder
 aBuilder
 )
 {
+wr
+:
+:
 WrRect
 scBounds
 =
@@ -367,6 +391,9 @@ scBounds
 aAnimationsId
 aOpacityPtr
 aTransformPtr
+wr
+:
+:
 WrTransformStyle
 :
 :
@@ -427,6 +454,9 @@ PopStackingContext
 ;
 }
 }
+wr
+:
+:
 WrRect
 StackingContextHelper
 :
@@ -452,6 +482,9 @@ mOrigin
 )
 ;
 }
+wr
+:
+:
 WrRect
 StackingContextHelper
 :
@@ -487,6 +520,9 @@ mOrigin
 )
 ;
 }
+wr
+:
+:
 WrPoint
 StackingContextHelper
 :
@@ -512,6 +548,9 @@ mOrigin
 )
 ;
 }
+wr
+:
+:
 WrRect
 StackingContextHelper
 :
