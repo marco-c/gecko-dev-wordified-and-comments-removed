@@ -371,6 +371,16 @@ experimental
 "
 true
 ]
+[
+"
+javascript
+.
+options
+.
+wasm_baselinejit
+"
+true
+]
 ]
 }
 nextTestHarnessStep
