@@ -234,18 +234,19 @@ error_code
 "
 "
 "
+    
 Verify
 that
 the
 provided
-wdclient
+webdriver
 .
 Response
 instance
 described
+    
 a
 valid
-    
 error
 response
 as
@@ -259,10 +260,10 @@ an
 -
 error
 and
+    
 the
 provided
 error
-    
 code
 .
     
@@ -270,24 +271,23 @@ code
 param
 response
 :
-wdclient
+webdriver
 .
 Response
 instance
+.
     
 :
 param
 error_code
 :
-string
+String
 value
 of
 the
 expected
-"
 error
 code
-"
     
 "
 "
@@ -381,18 +381,19 @@ None
 "
 "
 "
+    
 Verify
 that
 the
 provided
-wdclient
+webdriver
 .
 Response
 instance
 described
+    
 a
 valid
-    
 error
 response
 as
@@ -406,10 +407,10 @@ an
 -
 error
 and
+    
 the
 provided
 error
-    
 code
 .
     
@@ -417,7 +418,7 @@ code
 param
 response
 :
-wdclient
+webdriver
 .
 Response
 instance
