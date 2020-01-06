@@ -19639,12 +19639,6 @@ AudioContextOperation
 aOperation
 )
 {
-MonitorAutoLock
-lock
-(
-mMonitor
-)
-;
 AudioContextState
 state
 ;
