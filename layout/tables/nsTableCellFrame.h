@@ -807,6 +807,14 @@ ShouldPaintBordersAndBackgrounds
 )
 const
 ;
+bool
+ShouldPaintBackground
+(
+nsDisplayListBuilder
+*
+aBuilder
+)
+;
 protected
 :
 nsTableCellFrame
