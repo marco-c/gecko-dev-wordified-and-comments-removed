@@ -227,10 +227,6 @@ nsIURI
 aRequestedURI
 =
 nullptr
-bool
-aAllowIfInheritsPrincipal
-=
-true
 )
 ;
 protected

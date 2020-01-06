@@ -2385,19 +2385,6 @@ uri
 )
 ;
 }
-bool
-dataInherits
-=
-mSecurityFlags
-&
-(
-SEC_REQUIRE_SAME_ORIGIN_DATA_INHERITS
-|
-SEC_ALLOW_CROSS_ORIGIN_DATA_INHERITS
-|
-SEC_REQUIRE_CORS_DATA_INHERITS
-)
-;
 auto
 prin
 =
@@ -2416,7 +2403,6 @@ prin
 PrincipalToInherit
 (
 uri
-dataInherits
 )
 ;
 }

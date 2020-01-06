@@ -644,10 +644,6 @@ nsIURI
 aRequestedURI
 =
 nullptr
-bool
-aAllowIfInheritsPrincipal
-=
-true
 )
 ;
 bool
