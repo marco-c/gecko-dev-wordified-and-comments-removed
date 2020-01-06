@@ -478,6 +478,11 @@ api
 =
 >
 {
+if
+(
+api
+)
+{
 api
 .
 onStartup
@@ -487,6 +492,7 @@ extension
 startupReason
 )
 ;
+}
 }
 )
 )
