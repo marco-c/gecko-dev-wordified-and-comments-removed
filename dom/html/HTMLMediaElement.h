@@ -2271,10 +2271,6 @@ mValue
 (
 val
 )
-mCanPlay
-(
-true
-)
 mOuter
 (
 nullptr
@@ -2299,13 +2295,6 @@ mOuter
 outer
 ;
 }
-void
-SetCanPlay
-(
-bool
-aCanPlay
-)
-;
 MOZ_IMPLICIT
 operator
 bool
@@ -2359,9 +2348,6 @@ UpdateWakeLock
 ;
 bool
 mValue
-;
-bool
-mCanPlay
 ;
 HTMLMediaElement
 *
