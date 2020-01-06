@@ -4310,11 +4310,10 @@ IMAGE_SIZECONSTRAINED
 }
 else
 {
-mState
-&
-=
-~
+RemoveStateBits
+(
 IMAGE_SIZECONSTRAINED
+)
 ;
 }
 if

@@ -4013,11 +4013,10 @@ else
 mOuter
 -
 >
-mState
-&
-=
-~
+RemoveStateBits
+(
 NS_STATE_IS_HORIZONTAL
+)
 ;
 }
 void

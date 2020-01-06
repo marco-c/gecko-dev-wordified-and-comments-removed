@@ -24477,11 +24477,10 @@ do
 textFrame
 -
 >
-mState
-&
-=
-~
+RemoveStateBits
+(
 TEXT_WHITESPACE_FLAGS
+)
 ;
 textFrame
 -
