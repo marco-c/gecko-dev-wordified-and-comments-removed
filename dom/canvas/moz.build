@@ -588,6 +588,11 @@ UNIFIED_SOURCES
 =
 [
 '
+CacheMap
+.
+cpp
+'
+'
 TexUnpackBlob
 .
 cpp
