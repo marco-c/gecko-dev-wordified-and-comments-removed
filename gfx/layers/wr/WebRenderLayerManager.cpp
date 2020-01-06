@@ -3440,6 +3440,14 @@ MOZ_ASSERT
 mWidget
 )
 ;
+RefPtr
+<
+WebRenderLayerManager
+>
+selfRef
+=
+this
+;
 if
 (
 aTransactionId
