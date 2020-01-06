@@ -151,6 +151,9 @@ sourceRect
 .
 SizeTo
 (
+gfx
+:
+:
 SizeDouble
 (
 mContainer

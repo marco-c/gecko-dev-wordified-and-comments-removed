@@ -571,6 +571,11 @@ AnimationHelper
 h
 '
 '
+AnimationInfo
+.
+h
+'
+'
 apz
 /
 public
@@ -1839,6 +1844,11 @@ UNIFIED_SOURCES
 [
 '
 AnimationHelper
+.
+cpp
+'
+'
+AnimationInfo
 .
 cpp
 '

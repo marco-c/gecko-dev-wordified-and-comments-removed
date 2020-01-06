@@ -539,6 +539,9 @@ aFlags
 if
 (
 !
+gfx
+:
+:
 gfxVars
 :
 :

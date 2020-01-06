@@ -174,12 +174,6 @@ aSc
 )
 override
 ;
-void
-ClearAnimations
-(
-)
-override
-;
 virtual
 void
 ComputeEffectiveTransforms
