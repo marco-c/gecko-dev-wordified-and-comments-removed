@@ -2965,6 +2965,8 @@ LayoutRect
 aRect
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 BorderWidths
 aWidths
 BorderSide
@@ -2991,6 +2993,8 @@ LayoutRect
 aRect
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 BorderWidths
 aWidths
 LayoutPoint
@@ -3021,6 +3025,8 @@ LayoutRect
 aRect
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 BorderWidths
 aWidths
 WrImageKey
@@ -3047,6 +3053,8 @@ LayoutRect
 aRect
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 BorderWidths
 aWidths
 LayoutPoint
@@ -3077,6 +3085,8 @@ LayoutRect
 aRect
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 LayoutRect
 aBoxBounds
 LayoutVector2D
@@ -3146,6 +3156,8 @@ WrState
 aState
 LayoutRect
 aRect
+bool
+aIsBackfaceVisible
 WrPipelineId
 aPipelineId
 )
@@ -3162,6 +3174,8 @@ LayoutRect
 aBounds
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 LayoutSize
 aStretchSize
 LayoutSize
@@ -3182,6 +3196,8 @@ WrState
 aState
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 float
 aBaseline
 float
@@ -3210,6 +3226,8 @@ LayoutRect
 aRect
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 LayoutPoint
 aStartPoint
 LayoutPoint
@@ -3240,6 +3258,8 @@ LayoutRect
 aRect
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 LayoutPoint
 aCenter
 LayoutSize
@@ -3270,6 +3290,8 @@ LayoutRect
 aRect
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 ColorF
 aColor
 )
@@ -3320,6 +3342,8 @@ WrFilterOp
 aFilters
 size_t
 aFilterCount
+bool
+aIsBackfaceVisible
 )
 WR_FUNC
 ;
@@ -3334,6 +3358,8 @@ LayoutRect
 aBounds
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 ColorF
 aColor
 WrFontInstanceKey
@@ -3362,6 +3388,8 @@ LayoutRect
 aBounds
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 TextShadow
 aShadow
 )
@@ -3378,6 +3406,8 @@ LayoutRect
 aBounds
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 WrImageKey
 aImageKey0
 WrImageKey
@@ -3400,6 +3430,8 @@ LayoutRect
 aBounds
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 WrImageKey
 aImageKey0
 WrYuvColorSpace
@@ -3420,6 +3452,8 @@ LayoutRect
 aBounds
 LayoutRect
 aClip
+bool
+aIsBackfaceVisible
 WrImageKey
 aImageKey0
 WrImageKey
