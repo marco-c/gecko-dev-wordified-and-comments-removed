@@ -2108,12 +2108,6 @@ inherit
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 animate
