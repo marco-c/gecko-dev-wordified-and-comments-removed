@@ -1713,13 +1713,20 @@ and
 self
 .
 filename
-!
-=
+not
+in
+(
 "
 __init__
 .
 py
 "
+"
+conftest
+.
+py
+"
+)
 and
                 
 fnmatch
