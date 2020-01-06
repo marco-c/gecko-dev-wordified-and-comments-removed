@@ -414,6 +414,15 @@ current
 (
 )
 ;
+static
+void
+set_current
+(
+MessageLoop
+*
+loop
+)
+;
 void
 SetNestableTasksAllowed
 (
