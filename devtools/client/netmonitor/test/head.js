@@ -1797,6 +1797,7 @@ return
 {
 tab
 monitor
+toolbox
 }
 ;
 }
