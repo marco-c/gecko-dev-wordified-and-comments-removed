@@ -50,6 +50,11 @@ CSSValueList
 :
 false
 "
+CheckerboardReportService
+"
+:
+false
+"
 ChromeUtils
 "
 :
@@ -141,6 +146,11 @@ StopIteration
 false
 "
 WebAssembly
+"
+:
+false
+"
+WebrtcGlobalInformation
 "
 :
 false
