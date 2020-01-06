@@ -255,7 +255,7 @@ R
 .
 id
 .
-welcome_browse
+firstrun_subtext
 )
 )
 .
