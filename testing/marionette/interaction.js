@@ -1832,6 +1832,8 @@ el
 return
 el
 .
-ownerGlobal
+ownerDocument
+.
+defaultView
 ;
 }
