@@ -14183,11 +14183,6 @@ JSAtomState
 &
 names
 =
-GetJitContext
-(
-)
--
->
 runtime
 -
 >
@@ -20422,6 +20417,7 @@ new_
 CompileInfo
 >
 (
+runtime
 calleeScript
 target
 (
@@ -24886,6 +24882,9 @@ propTable
 >
 buildTypeSetForFunction
 (
+alloc
+(
+)
 target
 )
 ;
@@ -33236,6 +33235,9 @@ types
 =
 MakeSingletonTypeSet
 (
+alloc
+(
+)
 constraints
 (
 )
@@ -35061,7 +35063,7 @@ else
 {
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -40250,6 +40252,9 @@ barrier
 PropertyReadNeedsTypeBarrier
 (
 analysisContext
+alloc
+(
+)
 constraints
 (
 )
@@ -40516,10 +40521,10 @@ types
 ;
 }
 bool
-jit
+IonBuilder
 :
 :
-NeedsPostBarrier
+needsPostBarrier
 (
 MDefinition
 *
@@ -40529,11 +40534,6 @@ value
 if
 (
 !
-GetJitContext
-(
-)
--
->
 compartment
 -
 >
@@ -40826,7 +40826,7 @@ staticObject
 ;
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -41835,6 +41835,9 @@ barrier
 PropertyReadNeedsTypeBarrier
 (
 analysisContext
+alloc
+(
+)
 constraints
 (
 )
@@ -43512,6 +43515,9 @@ barrier
 PropertyReadNeedsTypeBarrier
 (
 analysisContext
+alloc
+(
+)
 constraints
 (
 )
@@ -46051,6 +46057,9 @@ barrier
 PropertyReadNeedsTypeBarrier
 (
 analysisContext
+alloc
+(
+)
 constraints
 (
 )
@@ -46652,6 +46661,9 @@ JSOP_CALLELEM
 {
 AddObjectsForPropertyRead
 (
+alloc
+(
+)
 obj
 nullptr
 types
@@ -46664,6 +46676,9 @@ barrier
 PropertyReadNeedsTypeBarrier
 (
 analysisContext
+alloc
+(
+)
 constraints
 (
 )
@@ -50251,7 +50266,7 @@ object
 index
 value
 strict
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -50459,7 +50474,7 @@ idInt32
 ;
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -52356,7 +52371,7 @@ store
 ;
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 arg
 )
@@ -55852,6 +55867,9 @@ barrier
 PropertyReadNeedsTypeBarrier
 (
 analysisContext
+alloc
+(
+)
 constraints
 (
 )
@@ -61837,6 +61855,9 @@ barrier
 PropertyReadNeedsTypeBarrier
 (
 analysisContext
+alloc
+(
+)
 constraints
 (
 )
@@ -63607,7 +63628,7 @@ constraints
 }
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -64467,7 +64488,7 @@ shape
 ;
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -64645,7 +64666,7 @@ shape
 ;
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -64769,7 +64790,7 @@ Bailout_ShapeGuard
 ;
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -64913,7 +64934,7 @@ Alloc
 ;
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -64985,7 +65006,7 @@ Ok
 }
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -65249,7 +65270,7 @@ obj
 id
 value
 strict
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
@@ -66227,7 +66248,7 @@ argsObjAliasesFormals
 {
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 val
 )
@@ -69099,7 +69120,7 @@ pc
 ;
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 rval
 )
@@ -73003,7 +73024,7 @@ TYPE_ANY
 :
 if
 (
-NeedsPostBarrier
+needsPostBarrier
 (
 value
 )
