@@ -114,6 +114,12 @@ get_mozharness_status
 suite
 lines
 status
+formatter
+=
+None
+buf
+=
+None
 )
 :
     
@@ -168,7 +174,20 @@ suite
     
 )
     
-with
+if
+formatter
+:
+        
+parser
+.
+formatter
+=
+formatter
+    
+buf
+=
+buf
+or
 open
 (
 os
@@ -178,28 +197,25 @@ devnull
 w
 '
 )
-as
-fh
-:
-        
+    
 orig
 =
 sys
 .
 stdout
-        
+    
 sys
 .
 stdout
 =
-fh
-        
+buf
+    
 for
 line
 in
 lines
 :
-            
+        
 parser
 .
 parse_single_line
@@ -211,7 +227,7 @@ dumps
 line
 )
 )
-        
+    
 sys
 .
 stdout
