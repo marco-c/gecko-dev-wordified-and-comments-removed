@@ -9614,6 +9614,25 @@ noprofile
 prefs
 =
 {
+                   
+'
+browser
+.
+shell
+.
+checkDefaultBrowser
+'
+:
+False
+                   
+'
+general
+.
+warnOnAboutConfig
+'
+:
+False
+                
 }
                 
 prefs
