@@ -37,14 +37,14 @@ h
 #
 include
 "
-Stream
+ByteStream
 .
 h
 "
 #
 include
 "
-Interval
+MP4Interval
 .
 h
 "
@@ -56,7 +56,7 @@ MediaResource
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 typedef
 int64_t
@@ -538,7 +538,7 @@ mCencRange
 Microseconds
 mDecodeTime
 ;
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -916,7 +916,7 @@ mozilla
 MediaByteRange
 mMdatRange
 ;
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -1053,7 +1053,7 @@ public
 :
 MoofParser
 (
-Stream
+ByteStream
 *
 aSource
 uint32_t
@@ -1119,7 +1119,7 @@ BoxContext
 aContext
 )
 ;
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -1253,7 +1253,7 @@ mInitRange
 ;
 RefPtr
 <
-Stream
+ByteStream
 >
 mSource
 ;

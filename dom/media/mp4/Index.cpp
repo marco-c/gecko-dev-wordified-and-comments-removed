@@ -15,7 +15,7 @@ h
 #
 include
 "
-Interval
+MP4Interval
 .
 h
 "
@@ -62,16 +62,12 @@ limits
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 media
 ;
 namespace
-mp4_demuxer
+mozilla
 {
 class
 MOZ_STACK_CLASS
@@ -1618,7 +1614,7 @@ const
 IndiceWrapper
 &
 aIndices
-Stream
+ByteStream
 *
 aSource
 uint32_t
@@ -1788,7 +1784,7 @@ sample
 .
 mCompositionRange
 =
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -2099,7 +2095,7 @@ last
 .
 mTime
 =
-Interval
+MP4Interval
 <
 int64_t
 >
@@ -2842,7 +2838,7 @@ aByteRanges
 ;
 nsTArray
 <
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -2927,7 +2923,7 @@ mMdatRange
 )
 )
 {
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -3076,7 +3072,7 @@ hasSync
 continue
 ;
 }
-Interval
+MP4Interval
 <
 Microseconds
 >
@@ -3094,14 +3090,14 @@ mCompositionRange
 }
 nsTArray
 <
-Interval
+MP4Interval
 <
 Microseconds
 >
 >
 timeRangesNormalized
 ;
-Interval
+MP4Interval
 <
 Microseconds
 >

@@ -85,10 +85,6 @@ namespace
 mozilla
 ;
 using
-namespace
-mp4_demuxer
-;
-using
 media
 :
 :

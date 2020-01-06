@@ -20,12 +20,8 @@ EndianUtils
 .
 h
 "
-using
 namespace
 mozilla
-;
-namespace
-mp4_demuxer
 {
 class
 AtomType

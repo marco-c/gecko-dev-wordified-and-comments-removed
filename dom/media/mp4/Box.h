@@ -48,15 +48,11 @@ BufferReader
 .
 h
 "
-using
 namespace
 mozilla
-;
-namespace
-mp4_demuxer
 {
 class
-Stream
+ByteStream
 ;
 class
 BoxContext
@@ -65,7 +61,7 @@ public
 :
 BoxContext
 (
-Stream
+ByteStream
 *
 aSource
 const
@@ -86,7 +82,7 @@ aByteRanges
 }
 RefPtr
 <
-Stream
+ByteStream
 >
 mSource
 ;

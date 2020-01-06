@@ -7,7 +7,7 @@ BUFFER_STREAM_H_
 #
 include
 "
-Stream
+ByteStream
 .
 h
 "
@@ -31,15 +31,11 @@ mozilla
 class
 MediaByteBuffer
 ;
-}
-namespace
-mp4_demuxer
-{
 class
 BufferStream
 :
 public
-Stream
+ByteStream
 {
 public
 :

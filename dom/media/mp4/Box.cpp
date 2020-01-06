@@ -8,7 +8,7 @@ h
 #
 include
 "
-Stream
+ByteStream
 .
 h
 "
@@ -35,12 +35,8 @@ include
 <
 algorithm
 >
-using
 namespace
 mozilla
-;
-namespace
-mp4_demuxer
 {
 const
 uint64_t
@@ -895,7 +891,7 @@ NS_WARNING
 Read
 failed
 in
-mp4_demuxer
+mozilla
 :
 :
 Box
