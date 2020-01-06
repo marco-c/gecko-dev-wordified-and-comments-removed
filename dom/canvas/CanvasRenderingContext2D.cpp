@@ -12621,6 +12621,12 @@ aDocument
 GetCompatibilityMode
 (
 )
+aDocument
+-
+>
+CSSLoader
+(
+)
 )
 .
 Consume
@@ -12672,6 +12678,12 @@ aDocument
 -
 >
 GetCompatibilityMode
+(
+)
+aDocument
+-
+>
+CSSLoader
 (
 )
 )

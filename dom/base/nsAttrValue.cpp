@@ -7652,6 +7652,12 @@ ownerDoc
 GetCompatibilityMode
 (
 )
+ownerDoc
+-
+>
+CSSLoader
+(
+)
 )
 ;
 }
