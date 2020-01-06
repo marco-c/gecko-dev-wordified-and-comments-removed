@@ -430,10 +430,6 @@ mCacheStream
 this
 aIsPrivateBrowsing
 )
-mIgnoreResume
-(
-false
-)
 mSuspendAgent
 (
 mChannel
@@ -486,10 +482,6 @@ false
 mChannelStatistics
 (
 aStatistics
-)
-mIgnoreResume
-(
-false
 )
 mSuspendAgent
 (

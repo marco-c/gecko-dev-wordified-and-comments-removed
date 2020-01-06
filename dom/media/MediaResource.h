@@ -1602,9 +1602,6 @@ mCacheStream
 MediaChannelStatistics
 mChannelStatistics
 ;
-bool
-mIgnoreResume
-;
 ChannelSuspendAgent
 mSuspendAgent
 ;
