@@ -500,9 +500,13 @@ values
 computed
 :
 :
+effects
+:
+:
 {
+BoxShadow
 Filter
-Shadow
+SimpleShadow
 }
 ;
 use
@@ -27461,7 +27465,7 @@ IntoIterator
 <
 Item
 =
-Shadow
+BoxShadow
 >
 I
 :
@@ -27519,7 +27523,7 @@ iter_mut
 {
 gecko_shadow
 .
-set_from_shadow
+set_from_box_shadow
 (
 servo
 )
@@ -27596,7 +27600,7 @@ v
 |
 v
 .
-to_shadow
+to_box_shadow
 (
 )
 )
@@ -29889,7 +29893,7 @@ IntoIterator
 <
 Item
 =
-Shadow
+SimpleShadow
 >
 I
 :
@@ -29947,7 +29951,7 @@ iter_mut
 {
 gecko_shadow
 .
-set_from_shadow
+set_from_simple_shadow
 (
 servo
 )
@@ -30024,7 +30028,7 @@ v
 |
 v
 .
-to_shadow
+to_simple_shadow
 (
 )
 )
