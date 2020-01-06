@@ -424,7 +424,7 @@ R
 .
 color
 .
-placeholder_active_grey
+nav_button_bg_color_private_pressed
 )
 )
 ;
@@ -439,7 +439,7 @@ R
 .
 color
 .
-toolbar_grey_pressed
+nav_button_bg_color_pressed
 )
 )
 ;
@@ -454,7 +454,7 @@ R
 .
 color
 .
-text_and_tabs_tray_grey
+nav_button_bg_color_private_focused
 )
 )
 ;
@@ -469,7 +469,7 @@ R
 .
 color
 .
-tablet_highlight_focused
+nav_button_bg_color_focused
 )
 )
 ;
@@ -484,7 +484,7 @@ R
 .
 color
 .
-tabs_tray_grey_pressed
+nav_button_bg_color_private
 )
 )
 ;
