@@ -1141,14 +1141,6 @@ var
 gPageCompleted
 ;
 var
-GLOBAL
-=
-this
-+
-'
-'
-;
-var
 jstestsOptions
 ;
 window

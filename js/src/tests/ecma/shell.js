@@ -1,4 +1,12 @@
 var
+GLOBAL
+=
+this
++
+'
+'
+;
+var
 msPerYear
 =
 31536000000

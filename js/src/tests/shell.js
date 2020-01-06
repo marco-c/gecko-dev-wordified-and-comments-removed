@@ -2903,14 +2903,6 @@ gFailureExpected
 false
 ;
 var
-GLOBAL
-=
-this
-+
-'
-'
-;
-var
 DESCRIPTION
 ;
 var
