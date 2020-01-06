@@ -1,9 +1,9 @@
 const
+{
 LinkError
+}
 =
 WebAssembly
-.
-LinkError
 ;
 var
 o
