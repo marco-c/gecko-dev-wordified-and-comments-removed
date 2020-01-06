@@ -204,8 +204,8 @@ MOZ_GECKO_PROFILER
 mozilla
 :
 :
-SamplerStackFrameRAII
-mSamplerRAII
+ProfilerStackFrameRAII
+mProfilerRAII
 ;
 #
 endif
