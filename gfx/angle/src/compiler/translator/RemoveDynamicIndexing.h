@@ -19,8 +19,13 @@ RemoveDynamicIndexing
 TIntermNode
 *
 root
-TSymbolTable
+unsigned
+int
 *
+temporaryIndex
+const
+TSymbolTable
+&
 symbolTable
 int
 shaderVersion

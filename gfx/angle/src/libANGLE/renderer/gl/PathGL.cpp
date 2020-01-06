@@ -101,8 +101,9 @@ return
 gl
 :
 :
-NoError
+Error
 (
+GL_NO_ERROR
 )
 ;
 }

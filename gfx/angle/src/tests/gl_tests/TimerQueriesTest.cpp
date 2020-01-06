@@ -1012,6 +1012,12 @@ EXPECT_LT
 result2
 )
 ;
+EXPECT_LT
+(
+result1
+result2
+)
+;
 }
 TEST_P
 (
@@ -1610,6 +1616,11 @@ IsAMD
 IsOpenGL
 (
 )
+&
+&
+IsWindows
+(
+)
 )
 {
 std
@@ -1622,8 +1633,10 @@ cout
 Test
 skipped
 on
+Windows
 AMD
 OpenGL
+Debug
 .
 "
 <

@@ -28,13 +28,6 @@ public
 :
 ImageVk
 (
-const
-egl
-:
-:
-ImageState
-&
-state
 )
 ;
 ~
@@ -58,13 +51,6 @@ gl
 Error
 orphan
 (
-const
-gl
-:
-:
-Context
-*
-context
 egl
 :
 :

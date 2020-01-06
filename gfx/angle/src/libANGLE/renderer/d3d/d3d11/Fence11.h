@@ -22,7 +22,7 @@ libANGLE
 /
 renderer
 /
-SyncImpl
+FenceSyncImpl
 .
 h
 "
@@ -138,15 +138,15 @@ mQuery
 }
 ;
 class
-Sync11
+FenceSync11
 :
 public
-SyncImpl
+FenceSyncImpl
 {
 public
 :
 explicit
-Sync11
+FenceSync11
 (
 Renderer11
 *
@@ -154,7 +154,7 @@ renderer
 )
 ;
 ~
-Sync11
+FenceSync11
 (
 )
 override

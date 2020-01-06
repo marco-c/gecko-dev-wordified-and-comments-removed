@@ -6,13 +6,6 @@ define
 LIBGLESV2_EXPORT_H_
 #
 if
-!
-defined
-(
-ANGLE_EXPORT
-)
-#
-if
 defined
 (
 _WIN32
@@ -105,8 +98,6 @@ else
 #
 define
 ANGLE_EXPORT
-#
-endif
 #
 endif
 #

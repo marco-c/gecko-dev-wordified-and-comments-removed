@@ -355,8 +355,7 @@ std
 string
 vertexShaderSource
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 highp
@@ -377,7 +376,6 @@ position
 ;
 }
 )
-"
 ;
 const
 std
@@ -386,8 +384,7 @@ std
 string
 fragmentShaderSource
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 highp
@@ -418,7 +415,6 @@ vec4
 ;
 }
 )
-"
 ;
 mProgram
 =
@@ -1716,8 +1712,15 @@ IsD3D11
 )
 &
 &
+(
+IsNVIDIA
+(
+)
+|
+|
 IsIntel
 (
+)
 )
 )
 {
@@ -1731,6 +1734,8 @@ cout
 Test
 skipped
 on
+Nvidia
+and
 Intel
 D3D11
 .

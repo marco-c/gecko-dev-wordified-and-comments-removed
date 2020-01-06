@@ -66,13 +66,6 @@ gl
 VertexAttribute
 &
 attrib
-const
-gl
-:
-:
-VertexBinding
-&
-binding
 GLenum
 currentValueType
 GLint

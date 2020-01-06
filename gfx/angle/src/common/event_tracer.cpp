@@ -31,7 +31,10 @@ char
 name
 )
 {
-auto
+angle
+:
+:
+Platform
 *
 platform
 =
@@ -55,7 +58,6 @@ platform
 >
 getTraceCategoryEnabledFlag
 (
-platform
 name
 )
 ;
@@ -83,7 +85,7 @@ return
 disabled
 ;
 }
-angle
+Platform
 :
 :
 TraceEventHandle
@@ -127,7 +129,10 @@ char
 flags
 )
 {
-auto
+angle
+:
+:
+Platform
 *
 platform
 =
@@ -148,7 +153,6 @@ platform
 >
 monotonicallyIncreasingTime
 (
-platform
 )
 ;
 if
@@ -162,6 +166,9 @@ timestamp
 angle
 :
 :
+Platform
+:
+:
 TraceEventHandle
 handle
 =
@@ -170,7 +177,6 @@ platform
 >
 addTraceEvent
 (
-platform
 phase
 categoryGroupEnabled
 name
@@ -198,7 +204,7 @@ handle
 return
 static_cast
 <
-angle
+Platform
 :
 :
 TraceEventHandle

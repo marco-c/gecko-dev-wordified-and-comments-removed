@@ -37,7 +37,7 @@ char
 name
 )
 ;
-angle
+Platform
 :
 :
 TraceEventHandle

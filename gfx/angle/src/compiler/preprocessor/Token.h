@@ -34,10 +34,6 @@ Token
 enum
 Type
 {
-GOT_ERROR
-=
--
-1
 LAST
 =
 0

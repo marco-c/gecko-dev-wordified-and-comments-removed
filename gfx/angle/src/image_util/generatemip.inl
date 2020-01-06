@@ -1932,7 +1932,7 @@ case
 0
 :
 return
-nullptr
+NULL
 ;
 case
 1
@@ -2052,7 +2052,7 @@ UNREACHABLE
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 }
@@ -2170,7 +2170,7 @@ ASSERT
 generationFunction
 !
 =
-nullptr
+NULL
 )
 ;
 generationFunction

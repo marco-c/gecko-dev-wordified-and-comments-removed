@@ -792,7 +792,7 @@ DXGI_FORMAT_UNKNOWN
 )
 copyFunction
 (
-nullptr
+NULL
 )
 {
 }

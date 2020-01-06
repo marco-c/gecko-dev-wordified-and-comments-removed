@@ -520,7 +520,7 @@ GL_UNSIGNED_BYTE
 0
 )
 ;
-void
+GLvoid
 *
 mappedPtr
 =
@@ -760,7 +760,7 @@ GL_ARRAY_BUFFER
 mPBO
 )
 ;
-void
+GLvoid
 *
 mappedPtr
 =
@@ -933,7 +933,7 @@ GL_RGBA
 GL_UNSIGNED_BYTE
 reinterpret_cast
 <
-void
+GLvoid
 *
 >
 (
@@ -941,7 +941,7 @@ void
 )
 )
 ;
-void
+GLvoid
 *
 mappedPtr
 =
@@ -1086,7 +1086,7 @@ GL_ARRAY_BUFFER
 data
 )
 ;
-void
+GLvoid
 *
 mappedPtr
 =
@@ -1265,7 +1265,7 @@ GL_ARRAY_BUFFER
 data
 )
 ;
-void
+GLvoid
 *
 mappedPtr
 =
@@ -1512,7 +1512,7 @@ glBufferData
 (
 GL_ARRAY_BUFFER
 128
-nullptr
+NULL
 GL_DYNAMIC_DRAW
 )
 ;
@@ -2098,7 +2098,7 @@ glReadPixels
 1
 GL_RGBA8
 GL_UNSIGNED_BYTE
-nullptr
+NULL
 )
 ;
 EXPECT_GL_ERROR

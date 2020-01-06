@@ -141,13 +141,6 @@ SamplerGL
 SamplerGL
 (
 const
-gl
-:
-:
-SamplerState
-&
-state
-const
 FunctionsGL
 *
 functions
@@ -158,7 +151,6 @@ stateManager
 :
 SamplerImpl
 (
-state
 )
 mFunctions
 (
@@ -218,16 +210,17 @@ const
 gl
 :
 :
-Context
-*
-context
+SamplerState
+&
+samplerState
 )
+const
 {
 SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_MIN_FILTER
 &
@@ -244,7 +237,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_MAG_FILTER
 &
@@ -261,7 +254,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_WRAP_S
 &
@@ -278,7 +271,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_WRAP_T
 &
@@ -295,7 +288,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_WRAP_R
 &
@@ -312,7 +305,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_MAX_ANISOTROPY_EXT
 &
@@ -329,7 +322,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_MIN_LOD
 &
@@ -346,7 +339,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_MAX_LOD
 &
@@ -363,7 +356,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_COMPARE_MODE
 &
@@ -380,7 +373,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_COMPARE_FUNC
 &
@@ -397,7 +390,7 @@ SyncSamplerStateMember
 (
 mFunctions
 mSamplerID
-mState
+samplerState
 mAppliedSamplerState
 GL_TEXTURE_SRGB_DECODE_EXT
 &

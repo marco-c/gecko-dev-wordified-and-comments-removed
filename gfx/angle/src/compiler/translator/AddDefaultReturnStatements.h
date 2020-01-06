@@ -5,7 +5,7 @@ COMPILER_TRANSLATOR_ADDDEFAULTRETURNSTATEMENTS_H_
 define
 COMPILER_TRANSLATOR_ADDDEFAULTRETURNSTATEMENTS_H_
 class
-TIntermBlock
+TIntermNode
 ;
 namespace
 sh
@@ -13,9 +13,9 @@ sh
 void
 AddDefaultReturnStatements
 (
-TIntermBlock
+TIntermNode
 *
-root
+node
 )
 ;
 }

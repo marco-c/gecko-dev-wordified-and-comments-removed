@@ -50,7 +50,7 @@ init
 1
 &
 input
-nullptr
+NULL
 )
 )
 ;

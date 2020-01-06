@@ -98,8 +98,6 @@ UINT
 width
 UINT
 height
-UINT
-samples
 IDXGISwapChain
 *
 *

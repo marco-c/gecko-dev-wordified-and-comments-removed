@@ -625,8 +625,7 @@ std
 string
 testVertexShaderSource
 =
-R
-"
+SHADER_SOURCE
 (
 attribute
 highp
@@ -645,7 +644,6 @@ aPosition
 ;
 }
 )
-"
 ;
 const
 std
@@ -654,8 +652,7 @@ std
 string
 testFragmentShaderSource
 =
-R
-"
+SHADER_SOURCE
 (
 uniform
 highp
@@ -674,7 +671,6 @@ color
 ;
 }
 )
-"
 ;
 mProgram
 =

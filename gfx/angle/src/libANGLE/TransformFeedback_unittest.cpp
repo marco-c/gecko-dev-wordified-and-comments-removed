@@ -244,7 +244,6 @@ mFeedback
 >
 release
 (
-nullptr
 )
 ;
 }
@@ -325,7 +324,6 @@ mFeedback
 >
 begin
 (
-nullptr
 GL_TRIANGLES
 nullptr
 )
@@ -371,7 +369,6 @@ mFeedback
 >
 end
 (
-nullptr
 )
 ;
 EXPECT_FALSE
@@ -422,7 +419,6 @@ mFeedback
 >
 begin
 (
-nullptr
 GL_TRIANGLES
 nullptr
 )
@@ -503,7 +499,6 @@ mFeedback
 >
 end
 (
-nullptr
 )
 ;
 }
@@ -629,7 +624,6 @@ mFeedback
 >
 bindGenericBuffer
 (
-nullptr
 buffer
 )
 ;
@@ -664,7 +658,6 @@ mFeedback
 >
 bindIndexedBuffer
 (
-nullptr
 bindIndex
 buffer
 0
@@ -769,7 +762,6 @@ mFeedback
 >
 release
 (
-nullptr
 )
 ;
 }

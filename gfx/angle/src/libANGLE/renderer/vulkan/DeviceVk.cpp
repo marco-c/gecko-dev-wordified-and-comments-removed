@@ -67,8 +67,9 @@ return
 egl
 :
 :
-EglBadAccess
+Error
 (
+EGL_BAD_ACCESS
 )
 ;
 }

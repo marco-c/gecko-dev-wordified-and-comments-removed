@@ -188,7 +188,7 @@ out
 float
 depth
 :
-SV_Depth
+SV_Target0
 )
 {
 /

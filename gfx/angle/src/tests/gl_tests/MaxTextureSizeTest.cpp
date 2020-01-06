@@ -74,8 +74,7 @@ std
 string
 vsSource
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 highp
@@ -116,7 +115,6 @@ xy
 ;
 }
 )
-"
 ;
 const
 std
@@ -125,8 +123,7 @@ std
 string
 textureFSSource
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 highp
@@ -155,7 +152,6 @@ texcoord
 ;
 }
 )
-"
 ;
 const
 std
@@ -164,8 +160,7 @@ std
 string
 blueFSSource
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 highp
@@ -196,7 +191,6 @@ vec4
 ;
 }
 )
-"
 ;
 mTextureProgram
 =
@@ -1348,7 +1342,7 @@ textureHeight
 0
 GL_BGRA_EXT
 GL_UNSIGNED_BYTE
-nullptr
+NULL
 )
 ;
 EXPECT_GL_NO_ERROR

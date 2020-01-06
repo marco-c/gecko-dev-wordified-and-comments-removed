@@ -102,9 +102,6 @@ bindGenericBuffer
 void
 (
 const
-gl
-:
-:
 BindingPointer
 <
 gl
@@ -123,9 +120,6 @@ void
 (
 size_t
 const
-gl
-:
-:
 OffsetBindingPointer
 <
 gl

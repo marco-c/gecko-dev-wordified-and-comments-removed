@@ -122,7 +122,7 @@ mDisplay
 =
 XOpenDisplay
 (
-nullptr
+NULL
 )
 ;
 }
@@ -315,6 +315,10 @@ EGLX11VisualHintTest
 InvalidVisualID
 )
 {
+IgnoreANGLEPlatformMessages
+(
+)
+;
 static
 const
 int

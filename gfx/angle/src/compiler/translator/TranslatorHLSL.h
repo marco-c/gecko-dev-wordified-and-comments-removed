@@ -51,7 +51,7 @@ this
 ;
 }
 bool
-hasUniformBlock
+hasInterfaceBlock
 (
 const
 std
@@ -65,7 +65,7 @@ const
 ;
 unsigned
 int
-getUniformBlockRegister
+getInterfaceBlockRegister
 (
 const
 std
@@ -101,7 +101,7 @@ protected
 void
 translate
 (
-TIntermBlock
+TIntermNode
 *
 root
 ShCompileOptions
@@ -127,17 +127,6 @@ return
 true
 ;
 }
-bool
-needToInitializeGlobalsInAST
-(
-)
-const
-override
-{
-return
-false
-;
-}
 std
 :
 :
@@ -150,7 +139,7 @@ string
 unsigned
 int
 >
-mUniformBlockRegisterMap
+mInterfaceBlockRegisterMap
 ;
 std
 :

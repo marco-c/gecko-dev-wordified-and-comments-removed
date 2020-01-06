@@ -39,7 +39,7 @@ NameMap
 &
 nameMap
 TSymbolTable
-*
+&
 symbolTable
 sh
 :

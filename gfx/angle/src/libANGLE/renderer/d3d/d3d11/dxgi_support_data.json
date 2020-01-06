@@ -4488,7 +4488,7 @@ shaderSample
 "
 :
 "
-always
+10_0
 "
 "
 renderTarget
@@ -4674,7 +4674,7 @@ shaderSample
 "
 :
 "
-always
+10_0
 "
 "
 renderTarget
@@ -4860,7 +4860,7 @@ shaderSample
 "
 :
 "
-always
+10_0
 "
 "
 renderTarget

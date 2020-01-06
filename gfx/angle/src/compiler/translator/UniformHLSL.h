@@ -70,7 +70,7 @@ registerCount
 )
 ;
 void
-reserveUniformBlockRegisters
+reserveInterfaceBlockRegisters
 (
 unsigned
 int
@@ -104,7 +104,7 @@ reg
 )
 ;
 TString
-uniformBlocksHeader
+interfaceBlocksHeader
 (
 const
 ReferencedSymbols
@@ -114,7 +114,7 @@ referencedInterfaceBlocks
 ;
 static
 TString
-uniformBlockInstanceString
+interfaceBlockInstanceString
 (
 const
 TInterfaceBlock
@@ -139,13 +139,13 @@ unsigned
 int
 >
 &
-getUniformBlockRegisterMap
+getInterfaceBlockRegisterMap
 (
 )
 const
 {
 return
-mUniformBlockRegisterMap
+mInterfaceBlockRegisterMap
 ;
 }
 const
@@ -174,7 +174,7 @@ mUniformRegisterMap
 private
 :
 TString
-uniformBlockString
+interfaceBlockString
 (
 const
 TInterfaceBlock
@@ -189,7 +189,7 @@ arrayIndex
 )
 ;
 TString
-uniformBlockMembersString
+interfaceBlockMembersString
 (
 const
 TInterfaceBlock
@@ -200,7 +200,7 @@ blockStorage
 )
 ;
 TString
-uniformBlockStructString
+interfaceBlockStructString
 (
 const
 TInterfaceBlock
@@ -336,7 +336,7 @@ mUniformRegister
 ;
 unsigned
 int
-mUniformBlockRegister
+mInterfaceBlockRegister
 ;
 unsigned
 int
@@ -372,7 +372,7 @@ string
 unsigned
 int
 >
-mUniformBlockRegisterMap
+mInterfaceBlockRegisterMap
 ;
 std
 :

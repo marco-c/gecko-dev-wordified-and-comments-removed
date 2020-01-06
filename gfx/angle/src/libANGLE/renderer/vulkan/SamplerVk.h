@@ -28,13 +28,6 @@ public
 :
 SamplerVk
 (
-const
-gl
-:
-:
-SamplerState
-&
-state
 )
 ;
 ~

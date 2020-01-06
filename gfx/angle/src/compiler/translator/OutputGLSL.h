@@ -39,7 +39,7 @@ NameMap
 &
 nameMap
 TSymbolTable
-*
+&
 symbolTable
 sh
 :
@@ -75,7 +75,6 @@ override
 TString
 translateTextureFunction
 (
-const
 TString
 &
 name

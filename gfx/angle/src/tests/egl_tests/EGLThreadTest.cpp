@@ -26,6 +26,7 @@ eglext
 h
 >
 typedef
+EGLAPI
 EGLDisplay
 EGLAPIENTRY
 EGLGetDisplay
@@ -35,6 +36,7 @@ display_id
 )
 ;
 typedef
+EGLAPI
 EGLBoolean
 EGLAPIENTRY
 EGLInitialize
@@ -50,6 +52,7 @@ minor
 )
 ;
 typedef
+EGLAPI
 EGLContext
 EGLAPIENTRY
 EGLGetCurrentContext
@@ -58,6 +61,7 @@ void
 )
 ;
 typedef
+EGLAPI
 EGLSurface
 EGLAPIENTRY
 EGLGetCurrentSurface
@@ -67,6 +71,7 @@ readdraw
 )
 ;
 typedef
+EGLAPI
 EGLBoolean
 EGLAPIENTRY
 EGLTerminate
@@ -216,7 +221,7 @@ EXPECT_TRUE
 mEGL
 !
 =
-nullptr
+NULL
 )
 ;
 EXPECT_TRUE
@@ -224,7 +229,7 @@ EXPECT_TRUE
 mGLESv2
 !
 =
-nullptr
+NULL
 )
 ;
 mGetDisplay
@@ -288,7 +293,7 @@ EXPECT_TRUE
 mGetDisplay
 !
 =
-nullptr
+NULL
 )
 ;
 EXPECT_TRUE
@@ -296,7 +301,7 @@ EXPECT_TRUE
 mInitialize
 !
 =
-nullptr
+NULL
 )
 ;
 EXPECT_TRUE
@@ -304,7 +309,7 @@ EXPECT_TRUE
 mGetCurrentContext
 !
 =
-nullptr
+NULL
 )
 ;
 EXPECT_TRUE
@@ -312,7 +317,7 @@ EXPECT_TRUE
 mGetCurrentSurface
 !
 =
-nullptr
+NULL
 )
 ;
 mDisplay
@@ -333,8 +338,8 @@ EGL_NO_DISPLAY
 mInitialize
 (
 mDisplay
-nullptr
-nullptr
+NULL
+NULL
 )
 ;
 mGetCurrentContext
@@ -356,7 +361,7 @@ threadHandle
 =
 CreateThread
 (
-nullptr
+NULL
 0
 EGLThreadTest
 :
@@ -373,7 +378,7 @@ EXPECT_TRUE
 threadHandle
 !
 =
-nullptr
+NULL
 )
 ;
 DWORD

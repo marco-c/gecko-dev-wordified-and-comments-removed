@@ -2506,6 +2506,9 @@ inline
 angle
 :
 :
+Platform
+:
+:
 TraceEventHandle
 addTraceEvent
 (
@@ -2552,6 +2555,9 @@ ARG1_TYPE
 static
 inline
 angle
+:
+:
+Platform
 :
 :
 TraceEventHandle
@@ -2647,6 +2653,9 @@ ARG2_TYPE
 static
 inline
 angle
+:
+:
+Platform
 :
 :
 TraceEventHandle

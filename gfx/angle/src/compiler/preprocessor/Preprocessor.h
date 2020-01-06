@@ -36,7 +36,6 @@ Token
 struct
 PreprocessorSettings
 :
-private
 angle
 :
 :

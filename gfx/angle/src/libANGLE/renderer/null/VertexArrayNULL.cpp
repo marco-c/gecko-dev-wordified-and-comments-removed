@@ -43,4 +43,13 @@ data
 )
 {
 }
+VertexArrayNULL
+:
+:
+~
+VertexArrayNULL
+(
+)
+{
+}
 }

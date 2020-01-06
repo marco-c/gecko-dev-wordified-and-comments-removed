@@ -102,7 +102,7 @@ getWindowWidth
 getWindowHeight
 (
 )
-nullptr
+NULL
 GL_STATIC_DRAW
 )
 ;
@@ -117,8 +117,7 @@ char
 *
 vertexShaderSrc
 =
-R
-"
+SHADER_SOURCE
 (
 attribute
 vec4
@@ -162,15 +161,13 @@ gl_PointSize
 ;
 }
 )
-"
 ;
 const
 char
 *
 fragmentShaderSrc
 =
-R
-"
+SHADER_SOURCE
 (
 precision
 mediump
@@ -191,7 +188,6 @@ vTest
 ;
 }
 )
-"
 ;
 mProgram
 =
@@ -218,7 +214,7 @@ glBufferData
 (
 GL_ARRAY_BUFFER
 128
-nullptr
+NULL
 GL_DYNAMIC_DRAW
 )
 ;
@@ -341,7 +337,7 @@ GL_ARRAY_BUFFER
 mPBO
 )
 ;
-void
+GLvoid
 *
 mappedPtr
 =
@@ -512,7 +508,7 @@ GL_RGBA
 GL_UNSIGNED_BYTE
 reinterpret_cast
 <
-void
+GLvoid
 *
 >
 (
@@ -520,7 +516,7 @@ void
 )
 )
 ;
-void
+GLvoid
 *
 mappedPtr
 =

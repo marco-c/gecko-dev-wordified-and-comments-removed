@@ -344,7 +344,7 @@ hr
 =
 D3D11CreateDevice
 (
-nullptr
+NULL
 D3D_DRIVER_TYPE_NULL
 nullptr
 0

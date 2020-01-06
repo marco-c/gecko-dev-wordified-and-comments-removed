@@ -16,7 +16,7 @@ compiler
 /
 translator
 /
-IntermTraverse
+IntermNode
 .
 h
 "
@@ -287,6 +287,7 @@ else
 {
 queueReplacement
 (
+node
 nullptr
 OriginalNode
 :

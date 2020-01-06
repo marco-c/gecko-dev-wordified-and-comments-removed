@@ -74,8 +74,7 @@ std
 string
 vsSource
 =
-R
-"
+SHADER_SOURCE
 (
 attribute
 highp
@@ -94,7 +93,6 @@ position
 ;
 }
 )
-"
 ;
 const
 std
@@ -103,8 +101,7 @@ std
 string
 fsSource
 =
-R
-"
+SHADER_SOURCE
 (
 uniform
 highp
@@ -123,7 +120,6 @@ color
 ;
 }
 )
-"
 ;
 mProgram
 =
@@ -233,7 +229,7 @@ indexType
 GLuint
 indexBuffer
 const
-void
+GLvoid
 *
 indexPtr
 )
