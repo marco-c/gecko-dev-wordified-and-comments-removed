@@ -542,7 +542,7 @@ reinterpret_cast
 cdm
 :
 :
-ContentDecryptionModule
+ContentDecryptionModule_8
 *
 >
 (
@@ -551,7 +551,7 @@ create
 cdm
 :
 :
-ContentDecryptionModule
+ContentDecryptionModule_8
 :
 :
 kVersion
