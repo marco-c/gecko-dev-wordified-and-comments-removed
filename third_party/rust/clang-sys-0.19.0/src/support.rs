@@ -725,7 +725,7 @@ unix
 fn
 is_executable
 (
-_
+path
 :
 &
 Path

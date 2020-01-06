@@ -90,7 +90,12 @@ null_mut
 (
 )
 0
-0
+CXTranslationUnit_Flags
+:
+:
+empty
+(
+)
 )
 ;
 assert

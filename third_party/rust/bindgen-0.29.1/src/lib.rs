@@ -11,14 +11,6 @@ missing_docs
 [
 deny
 (
-warnings
-)
-]
-#
-!
-[
-deny
-(
 unused_extern_crates
 )
 ]
