@@ -377,6 +377,21 @@ cpu_type
 arm
 "
     
+elif
+cpu_type
+=
+=
+"
+aarch64
+"
+:
+        
+cpu_type
+=
+"
+aarch64
+"
+    
 else
 :
         
