@@ -737,7 +737,7 @@ bool
 GLContextCGL
 :
 :
-IsCurrent
+IsCurrentImpl
 (
 )
 const

@@ -1639,7 +1639,7 @@ bool
 GLContextWGL
 :
 :
-IsCurrent
+IsCurrentImpl
 (
 )
 const
