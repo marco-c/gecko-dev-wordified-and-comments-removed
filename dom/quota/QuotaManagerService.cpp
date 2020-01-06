@@ -1849,8 +1849,9 @@ MOZ_ASSERT
 idleService
 )
 ;
-MOZ_ALWAYS_SUCCEEDS
-(
+Unused
+<
+<
 idleService
 -
 >
@@ -1858,7 +1859,6 @@ RemoveIdleObserver
 (
 this
 kIdleObserverTimeSec
-)
 )
 ;
 mIdleObserverRegistered
