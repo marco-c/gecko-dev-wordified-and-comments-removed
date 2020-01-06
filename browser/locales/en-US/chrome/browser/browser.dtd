@@ -11163,3 +11163,16 @@ Devices
 Available
 "
 >
+<
+!
+ENTITY
+sendToDevice
+.
+syncNotReady
+.
+label
+"
+Syncing
+Devices
+"
+>
