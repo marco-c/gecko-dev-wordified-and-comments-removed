@@ -399,6 +399,10 @@ pub
 fn
 compute_style_difference
 (
+_source
+:
+&
+ComputedValues
 old
 :
 &
