@@ -1472,11 +1472,9 @@ button
 id
 =
 "
-ready
+whimsy
 -
-player
--
-one
+button
 "
 type
 =
