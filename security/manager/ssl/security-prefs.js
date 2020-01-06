@@ -804,7 +804,7 @@ max_max_age_seconds
 ;
 #
 ifdef
-RELEASE_OR_BETA
+RELEASE
 pref
 (
 "

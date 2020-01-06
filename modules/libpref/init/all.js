@@ -43907,7 +43907,7 @@ false
 endif
 #
 ifdef
-RELEASE_OR_BETA
+RELEASE
 pref
 (
 "
