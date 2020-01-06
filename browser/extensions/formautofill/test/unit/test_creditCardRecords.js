@@ -796,7 +796,7 @@ creditCards
 getAll
 (
 {
-noComputedFields
+rawData
 :
 true
 }
