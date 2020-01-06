@@ -866,12 +866,6 @@ aMallocSizeOf
 }
 private
 :
-friend
-class
-:
-:
-nsIFrame
-;
 FrameProperties
 (
 const
