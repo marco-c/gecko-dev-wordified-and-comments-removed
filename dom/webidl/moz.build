@@ -4359,11 +4359,6 @@ MozTimeManager
 webidl
 '
 '
-MozWakeLock
-.
-webidl
-'
-'
 MutationEvent
 .
 webidl
