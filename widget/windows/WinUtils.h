@@ -1286,7 +1286,7 @@ GetMaxTouchPoints
 ;
 static
 bool
-ResolveMovedUsersFolder
+ResolveJunctionPointsAndSymLinks
 (
 std
 :
