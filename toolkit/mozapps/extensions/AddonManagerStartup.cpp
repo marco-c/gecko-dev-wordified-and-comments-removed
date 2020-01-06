@@ -2626,6 +2626,13 @@ e2
 ;
 if
 (
+addon
+.
+Enabled
+(
+)
+&
+&
 !
 addon
 .
