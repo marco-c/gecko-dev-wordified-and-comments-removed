@@ -148,6 +148,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsIUrlClassifierUtils
 .
 h
@@ -322,7 +331,7 @@ mUpdatesArrayRef
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 TableUpdate
 >
