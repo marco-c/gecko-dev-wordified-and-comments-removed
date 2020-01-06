@@ -832,7 +832,7 @@ read_global
 (
 session
 "
-dismiss1
+accept1
 "
 )
 =

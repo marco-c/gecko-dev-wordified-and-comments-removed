@@ -173,20 +173,6 @@ _
 )
 '
 )
-space_chars
-=
-u
-"
-"
-.
-join
-(
-html5lib
-.
-constants
-.
-spaceCharacters
-)
 def
 replace_end
 (
@@ -3089,11 +3075,6 @@ attrib
 href
 "
 ]
-.
-strip
-(
-space_chars
-)
 )
                 
 ref_type
@@ -3554,11 +3535,6 @@ attrib
 href
 "
 ]
-.
-strip
-(
-space_chars
-)
 )
         
 return

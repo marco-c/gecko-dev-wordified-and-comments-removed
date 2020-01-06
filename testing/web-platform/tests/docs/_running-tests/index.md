@@ -225,7 +225,6 @@ GitHub
 are
 mirrored
 at
-[
 http
 :
 /
@@ -236,8 +235,6 @@ test
 .
 org
 /
-]
-.
 For
 running
 multiple
