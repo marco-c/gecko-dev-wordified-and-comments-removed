@@ -1630,6 +1630,7 @@ addUpdateStubForValue
 cx
 script
 obj
+group
 id
 value
 )
