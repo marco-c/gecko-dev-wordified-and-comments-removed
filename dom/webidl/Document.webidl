@@ -868,12 +868,9 @@ attribute
 HTMLCollection
 scripts
 ;
-/
-/
-(
-HTML
-only
-)
+[
+Pure
+]
 NodeList
 getElementsByName
 (

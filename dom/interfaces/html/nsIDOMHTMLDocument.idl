@@ -215,14 +215,6 @@ attribute
 nsIDOMHTMLCollection
 scripts
 ;
-nsIDOMNodeList
-getElementsByName
-(
-in
-DOMString
-elementName
-)
-;
 /
 /
 If

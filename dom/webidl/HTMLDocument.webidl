@@ -196,13 +196,6 @@ attribute
 HTMLCollection
 scripts
 ;
-NodeList
-getElementsByName
-(
-DOMString
-elementName
-)
-;
 /
 /
 dynamic
