@@ -515,6 +515,12 @@ these
 to
 pass
 fails
+-
+if
+(
+!
+styloVsGecko
+)
 =
 =
 svg
@@ -526,6 +532,12 @@ ref
 .
 html
 fails
+-
+if
+(
+!
+styloVsGecko
+)
 =
 =
 svg

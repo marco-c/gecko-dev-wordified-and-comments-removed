@@ -371,6 +371,10 @@ azureSkia
 &
 &
 OSX
+&
+&
+!
+styloVsGecko
 )
 =
 =
@@ -825,6 +829,10 @@ azureSkia
 &
 !
 azureSkiaGL
+&
+&
+!
+styloVsGecko
 )
 |
 |
@@ -883,6 +891,10 @@ azureSkia
 &
 !
 azureSkiaGL
+&
+&
+!
+styloVsGecko
 )
 |
 |

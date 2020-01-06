@@ -91,6 +91,10 @@ if
 (
 !
 cocoaWidget
+&
+&
+!
+styloVsGecko
 )
 skip
 -

@@ -671,6 +671,12 @@ for
 border
 clipping
 fails
+-
+if
+(
+!
+styloVsGecko
+)
 =
 =
 clipping

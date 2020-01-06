@@ -41,6 +41,12 @@ fail
 .
 svg
 fails
+-
+if
+(
+!
+styloVsGecko
+)
 =
 =
 lreas_selflink_dtd_id
@@ -49,11 +55,6 @@ svg
 pass
 .
 svg
-#
-fails
-after
-bug
-631575
 =
 =
 lreas_selflink_empty_href

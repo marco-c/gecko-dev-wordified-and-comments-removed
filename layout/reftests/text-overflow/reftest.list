@@ -651,6 +651,10 @@ fails
 if
 (
 gtkWidget
+&
+&
+!
+styloVsGecko
 )
 HTTP
 (

@@ -69,6 +69,12 @@ pass
 .
 html
 fails
+-
+if
+(
+!
+styloVsGecko
+)
 =
 =
 test
@@ -126,6 +132,12 @@ pass
 .
 html
 fails
+-
+if
+(
+!
+styloVsGecko
+)
 =
 =
 test

@@ -752,6 +752,10 @@ fails
 if
 (
 !
+styloVsGecko
+&
+&
+!
 webrender
 )
 =
@@ -791,6 +795,10 @@ fails
 -
 if
 (
+!
+styloVsGecko
+&
+&
 !
 webrender
 )

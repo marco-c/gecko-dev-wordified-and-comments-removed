@@ -512,6 +512,10 @@ fails
 if
 (
 usesRepeatResampling
+&
+&
+!
+styloVsGecko
 )
 =
 =
