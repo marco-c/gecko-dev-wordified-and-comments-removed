@@ -162,10 +162,7 @@ LoggingIdString
 final
 :
 public
-nsAutoCStringN
-<
-NSID_LENGTH
->
+nsAutoCString
 {
 public
 :
@@ -275,9 +272,9 @@ static_assert
 NSID_LENGTH
 <
 =
-kStorageSize
+kDefaultStorageSize
 "
-nsID
+nID
 string
 won
 '
@@ -295,10 +292,7 @@ MOZ_ASSERT
 Capacity
 (
 )
-+
-1
-=
-=
+>
 NSID_LENGTH
 )
 ;

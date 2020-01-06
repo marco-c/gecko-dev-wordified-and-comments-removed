@@ -24,10 +24,6 @@ nsTFixedString_CharT
 nsFixedString
 #
 define
-nsTAutoStringN_CharT
-nsAutoStringN
-#
-define
 nsTAutoString_CharT
 nsAutoString
 #
