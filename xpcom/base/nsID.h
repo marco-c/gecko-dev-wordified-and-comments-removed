@@ -232,6 +232,13 @@ const
 ;
 #
 endif
+nsID
+*
+Clone
+(
+)
+const
+;
 }
 ;
 #
