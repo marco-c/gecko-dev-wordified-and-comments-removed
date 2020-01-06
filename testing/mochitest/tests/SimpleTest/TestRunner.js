@@ -2441,12 +2441,6 @@ red
 "
 ;
 }
-SpecialPowers
-.
-unregisterProcessCrashObservers
-(
-)
-;
 let
 e10sMode
 =
@@ -2573,6 +2567,12 @@ repeat
 0
 )
 {
+SpecialPowers
+.
+unregisterProcessCrashObservers
+(
+)
+;
 TestRunner
 .
 structuredLogger
