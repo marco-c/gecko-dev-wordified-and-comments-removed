@@ -8,6 +8,11 @@ summaries
 "
 "
 "
+from
+__future__
+import
+absolute_import
+print_function
 import
 difflib
 import
@@ -461,6 +466,7 @@ pop
 )
         
 print
+(
 '
 [
 %
@@ -472,20 +478,25 @@ n
 '
 %
 key
+)
         
 print
+(
 value
+)
         
 if
 diffs
 :
             
 print
+(
 '
 -
 '
 *
 4
+)
 if
 __name__
 =

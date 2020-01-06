@@ -1,4 +1,8 @@
 from
+__future__
+import
+absolute_import
+from
 setuptools
 import
 setup
@@ -12,7 +16,7 @@ PACKAGE_VERSION
 '
 1
 .
-1
+2
 '
 setup
 (
@@ -154,6 +158,16 @@ manifestparser
 install_requires
 =
 [
+'
+six
+>
+=
+1
+.
+10
+.
+0
+'
 ]
       
 entry_points

@@ -1,3 +1,8 @@
+from
+__future__
+import
+absolute_import
+print_function
 import
 os
 import
@@ -64,6 +69,7 @@ code
 "
     
 print
+(
 "
 TEST
 -
@@ -81,6 +87,7 @@ name
 strstatus
 (
 returncode
+)
 )
 )
 def
@@ -347,6 +354,7 @@ returncode
     
 except
 OSError
+as
 err
 :
         

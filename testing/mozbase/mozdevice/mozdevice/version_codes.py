@@ -34,6 +34,10 @@ html
 "
 "
 "
+from
+__future__
+import
+absolute_import
 CUR_DEVELOPMENT
 =
 10000

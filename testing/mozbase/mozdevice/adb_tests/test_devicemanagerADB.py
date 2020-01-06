@@ -169,6 +169,11 @@ uninstallAppAndReboot
 "
 "
 "
+from
+__future__
+import
+absolute_import
+print_function
 import
 os
 import
@@ -1767,6 +1772,7 @@ devices
 :
         
 print
+(
 "
 There
 are
@@ -1775,6 +1781,7 @@ connected
 adb
 devices
 "
+)
         
 sys
 .
@@ -1800,6 +1807,7 @@ rw
 :
         
 print
+(
 "
 We
 '
@@ -1822,8 +1830,7 @@ because
 the
 command
 "
-\
-            
+              
 "
 '
 adb
@@ -1841,16 +1848,16 @@ case
 Please
 reboot
 the
+"
+              
+"
 device
-"
-\
-            
-"
 and
 try
 again
 .
 "
+)
         
 sys
 .
