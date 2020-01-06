@@ -25,13 +25,6 @@ h
 #
 include
 "
-StoreSequencer
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -244,10 +237,6 @@ FRAME_LABEL_COPY
 )
 ;
 }
-STORE_SEQUENCER
-(
-)
-;
 mStackPointer
 +
 +

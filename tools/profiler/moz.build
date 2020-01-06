@@ -144,13 +144,6 @@ libraries
 .
 h
 '
-'
-public
-/
-StoreSequencer
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
