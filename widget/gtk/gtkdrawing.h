@@ -23,6 +23,11 @@ gtk
 h
 >
 #
+include
+<
+algorithm
+>
+#
 if
 (
 MOZ_WIDGET_GTK

@@ -55,6 +55,13 @@ h
 "
 #
 include
+"
+nsDebug
+.
+h
+"
+#
+include
 <
 math
 .
