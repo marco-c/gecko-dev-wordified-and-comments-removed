@@ -72,11 +72,6 @@ Load
 nsIChannel
 *
 aChannel
-bool
-aIsPrivateBrowsing
-nsIStreamListener
-*
-*
 )
 ;
 nsresult
