@@ -450,6 +450,7 @@ false
 }
 startup
 (
+reason
 )
 {
 if
@@ -644,6 +645,7 @@ extension
 .
 startup
 (
+reason
 )
 .
 catch
@@ -697,6 +699,7 @@ startupPromise
 }
 shutdown
 (
+reason
 )
 {
 EmbeddedExtensionManager
@@ -734,6 +737,7 @@ extension
 .
 shutdown
 (
+reason
 )
 ;
 }
@@ -797,6 +801,7 @@ extension
 .
 shutdown
 (
+reason
 )
 ;
 }
