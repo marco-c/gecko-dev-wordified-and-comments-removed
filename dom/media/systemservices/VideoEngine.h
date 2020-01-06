@@ -108,6 +108,13 @@ VideoEngine
 {
 }
 ;
+static
+const
+int64_t
+kCacheExpiryPeriodMs
+=
+1000
+;
 public
 :
 VideoEngine
@@ -401,6 +408,11 @@ int32_t
 CaptureEntry
 >
 mCaps
+;
+int64_t
+mExpiryTimeInMs
+=
+0
 ;
 int32_t
 GenerateId
