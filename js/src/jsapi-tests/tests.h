@@ -2461,6 +2461,13 @@ AutoLeaveZeal
 (
 )
 {
+JS_SetGCZeal
+(
+cx_
+0
+0
+)
+;
 for
 (
 size_t
