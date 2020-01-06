@@ -761,8 +761,8 @@ element
 \
 n
 "
-mFocusHasKeyEventListeners
 aFocusSequenceNumber
+mFocusHasKeyEventListeners
 )
 ;
 mType
