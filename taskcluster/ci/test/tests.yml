@@ -9181,9 +9181,6 @@ desktop1604
 test
 "
 }
-checkout
-:
-true
 run
 -
 on
@@ -9400,9 +9397,6 @@ desktop1604
 test
 "
 }
-checkout
-:
-true
 run
 -
 on
@@ -9602,9 +9596,6 @@ desktop1604
 test
 "
 }
-checkout
-:
-true
 mozharness
 :
 script
