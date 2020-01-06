@@ -1025,6 +1025,13 @@ State
 :
 unsent
 )
+mStyleBackend
+(
+StyleBackendType
+:
+:
+None
+)
 mFlagSynchronous
 (
 false
@@ -9236,6 +9243,7 @@ mIsHtml
 DocumentFlavorHTML
 :
 DocumentFlavorLegacyGuess
+mStyleBackend
 )
 ;
 NS_ENSURE_SUCCESS

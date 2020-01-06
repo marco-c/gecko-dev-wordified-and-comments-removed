@@ -427,6 +427,13 @@ principal
 true
 nullptr
 DocumentFlavorHTML
+mozilla
+:
+:
+StyleBackendType
+:
+:
+None
 )
 ;
 NS_ENSURE_SUCCESS
