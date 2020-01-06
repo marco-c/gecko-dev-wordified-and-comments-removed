@@ -403,6 +403,10 @@ gdk_window_get_width
 )
 STUB
 (
+gdk_window_get_window_type
+)
+STUB
+(
 gdk_window_hide
 )
 STUB
@@ -2093,10 +2097,6 @@ gdk_screen_get_monitor_workarea
 STUB
 (
 gdk_window_get_type
-)
-STUB
-(
-gdk_window_get_window_type
 )
 STUB
 (
