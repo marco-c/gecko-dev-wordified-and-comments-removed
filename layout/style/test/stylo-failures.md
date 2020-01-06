@@ -748,7 +748,7 @@ test_bug798843_pref
 .
 html
 [
-7
+5
 ]
 *
 Incorrect
