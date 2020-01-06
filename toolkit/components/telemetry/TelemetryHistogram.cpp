@@ -1204,7 +1204,7 @@ const
 int
 bucketsOffset
 =
-gExponentialBucketLowerBoundIndex
+gHistogramBucketLowerBoundIndex
 [
 histogramId
 ]
@@ -1925,6 +1925,17 @@ info
 =
 passedInfo
 ;
+const
+int
+*
+buckets
+=
+&
+gHistogramBucketLowerBounds
+[
+bucketsOffset
+]
+;
 if
 (
 isExpired
@@ -1939,6 +1950,10 @@ return
 gExpiredHistogram
 ;
 }
+buckets
+=
+gHistogramBucketLowerBounds
+;
 info
 .
 min
@@ -2014,11 +2029,7 @@ info
 .
 bucketCount
 flags
-&
-gExponentialBucketLowerBounds
-[
-bucketsOffset
-]
+buckets
 )
 ;
 break
@@ -2052,6 +2063,7 @@ info
 .
 bucketCount
 flags
+buckets
 )
 ;
 break
@@ -2070,6 +2082,7 @@ BooleanHistogram
 FactoryGet
 (
 flags
+buckets
 )
 ;
 break
@@ -2088,6 +2101,7 @@ FlagHistogram
 FactoryGet
 (
 flags
+buckets
 )
 ;
 break
@@ -2106,6 +2120,7 @@ CountHistogram
 FactoryGet
 (
 flags
+buckets
 )
 ;
 break
@@ -2914,7 +2929,7 @@ NS_OK
 int
 bucketsOffset
 =
-gExponentialBucketLowerBoundIndex
+gHistogramBucketLowerBoundIndex
 [
 mId
 ]
