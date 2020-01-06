@@ -1972,7 +1972,9 @@ marionette_args
 None
 )
         
-return
+ret
+_
+=
 self
 .
 _automation
@@ -1985,6 +1987,10 @@ args
 *
 kwargs
 )
+        
+return
+ret
+None
 def
 run_test_harness
 (

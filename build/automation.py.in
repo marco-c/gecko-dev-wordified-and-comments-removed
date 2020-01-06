@@ -4436,6 +4436,9 @@ processLog
 )
 return
 status
+self
+.
+lastTestSeen
 def
 elf_arm
 (
