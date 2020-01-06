@@ -4084,7 +4084,7 @@ nsACString
 aString
 )
 ;
-void
+bool
 EnsureClientSource
 (
 )
