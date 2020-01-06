@@ -1337,6 +1337,13 @@ src
 /
 jsep
 '
+'
+signaling
+/
+src
+/
+sdp
+'
 ]
 GYP_DIRS
 +

@@ -19,6 +19,13 @@ sdp_private
 .
 h
 "
+#
+include
+"
+CSFLog
+.
+h
+"
 void
 sdp_dump_buffer
 (
