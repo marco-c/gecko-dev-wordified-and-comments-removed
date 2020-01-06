@@ -1812,7 +1812,7 @@ resolve
 (
 event
 .
-originalTarget
+target
 )
 ;
 }
@@ -1857,7 +1857,7 @@ resolve
 (
 event
 .
-originalTarget
+target
 )
 ;
 }
