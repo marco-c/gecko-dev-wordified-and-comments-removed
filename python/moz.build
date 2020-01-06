@@ -317,6 +317,15 @@ python
 .
 ini
 '
+'
+mozversioncontrol
+/
+test
+/
+python
+.
+ini
+'
 ]
 if
 CONFIG
