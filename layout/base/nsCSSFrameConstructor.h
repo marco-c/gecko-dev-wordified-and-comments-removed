@@ -4902,17 +4902,6 @@ nsFrameItems
 aFrameItems
 )
 ;
-void
-CheckForFirstLineInsertion
-(
-nsIFrame
-*
-aParentFrame
-nsFrameItems
-&
-aFrameItems
-)
-;
 nsIFrame
 *
 FindFrameForContentSibling
