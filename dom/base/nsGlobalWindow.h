@@ -1730,16 +1730,6 @@ JSObject
 *
 )
 ;
-static
-bool
-IsWindowPrintEnabled
-(
-JSContext
-*
-JSObject
-*
-)
-;
 bool
 DoResolve
 (
