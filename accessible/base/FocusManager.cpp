@@ -913,12 +913,6 @@ GetFocusedContent
 ;
 if
 (
-focusedElm
-)
-{
-bool
-remote
-=
 EventStateManager
 :
 :
@@ -926,10 +920,6 @@ IsRemoteTarget
 (
 focusedElm
 )
-;
-if
-(
-remote
 )
 {
 dom
@@ -984,7 +974,6 @@ SendRestoreFocus
 (
 )
 ;
-}
 }
 }
 }
