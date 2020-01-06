@@ -211,14 +211,6 @@ clear
 \
 _
 (
-Resize
-"
-resize
-"
-)
-\
-_
-(
 Pretenure
 "
 pretnr
