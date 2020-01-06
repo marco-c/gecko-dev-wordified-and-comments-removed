@@ -12,6 +12,11 @@ root
 [
 tabsintitlebar
 ]
+[
+sizemode
+=
+normal
+]
 #
 toolbar
 -
@@ -40,6 +45,11 @@ else
 root
 [
 tabsintitlebar
+]
+[
+sizemode
+=
+normal
 ]
 #
 TabsToolbar
