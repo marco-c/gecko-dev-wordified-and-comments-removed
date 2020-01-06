@@ -1021,6 +1021,16 @@ false
 ;
 }
 virtual
+bool
+SupportsBackdropCopyForComponentAlpha
+(
+)
+{
+return
+true
+;
+}
+virtual
 void
 SetRoot
 (

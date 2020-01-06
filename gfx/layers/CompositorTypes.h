@@ -423,6 +423,9 @@ mSupportsPartialUploads
 bool
 mSupportsComponentAlpha
 ;
+bool
+mSupportsBackdropCopyForComponentAlpha
+;
 SyncHandle
 mSyncHandle
 ;
@@ -493,6 +496,10 @@ aSupportsPartialUploads
 mSupportsComponentAlpha
 (
 aSupportsComponentAlpha
+)
+mSupportsBackdropCopyForComponentAlpha
+(
+true
 )
 mSyncHandle
 (
