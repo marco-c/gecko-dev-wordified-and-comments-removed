@@ -2987,6 +2987,16 @@ cascade_inputs
 )
 }
 ;
+if
+!
+new_styles
+.
+primary
+.
+0
+.
+reused_via_rule_node
+{
 context
 .
 thread_local
@@ -3007,6 +3017,7 @@ traversal_data
 current_dom_depth
 )
 ;
+}
 new_styles
 }
 }
