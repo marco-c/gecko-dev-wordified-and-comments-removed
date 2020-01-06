@@ -426,6 +426,9 @@ events
 none
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 main
 -
@@ -931,6 +934,8 @@ offset
 5px
 ;
 }
+%
+endif
 #
 main
 -
@@ -949,6 +954,18 @@ not
 PanelUI
 -
 contents
+)
+:
+not
+(
+#
+widget
+-
+overflow
+-
+fixed
+-
+list
 )
 {
 min
