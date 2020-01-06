@@ -123,7 +123,7 @@ aCallback
 static
 PBackgroundChild
 *
-SynchronouslyCreateForCurrentThread
+GetOrCreateForCurrentThread
 (
 )
 ;

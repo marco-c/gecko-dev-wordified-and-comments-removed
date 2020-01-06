@@ -12520,7 +12520,7 @@ NS_WARN_IF
 BackgroundChild
 :
 :
-SynchronouslyCreateForCurrentThread
+GetOrCreateForCurrentThread
 (
 )
 )

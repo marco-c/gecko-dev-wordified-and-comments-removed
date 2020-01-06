@@ -1252,7 +1252,7 @@ aCallback
 static
 PBackgroundChild
 *
-SynchronouslyCreateForCurrentThread
+GetOrCreateForCurrentThread
 (
 )
 ;
@@ -2629,7 +2629,7 @@ PBackgroundChild
 BackgroundChild
 :
 :
-SynchronouslyCreateForCurrentThread
+GetOrCreateForCurrentThread
 (
 )
 {
@@ -2637,7 +2637,7 @@ return
 ChildImpl
 :
 :
-SynchronouslyCreateForCurrentThread
+GetOrCreateForCurrentThread
 (
 )
 ;
@@ -5592,18 +5592,10 @@ PBackgroundChild
 ChildImpl
 :
 :
-SynchronouslyCreateForCurrentThread
+GetOrCreateForCurrentThread
 (
 )
 {
-MOZ_ASSERT
-(
-!
-GetForCurrentThread
-(
-)
-)
-;
 bool
 done
 =

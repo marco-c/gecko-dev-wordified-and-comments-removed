@@ -416,7 +416,7 @@ ipc
 BackgroundChild
 :
 :
-SynchronouslyCreateForCurrentThread
+GetOrCreateForCurrentThread
 (
 )
 ;
