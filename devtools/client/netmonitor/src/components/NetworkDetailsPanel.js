@@ -89,11 +89,7 @@ require
 "
 .
 /
-custom
--
-request
--
-panel
+CustomRequestPanel
 "
 )
 )
@@ -108,9 +104,7 @@ require
 "
 .
 /
-tabbox
--
-panel
+TabboxPanel
 "
 )
 )

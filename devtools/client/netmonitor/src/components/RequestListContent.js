@@ -132,11 +132,7 @@ require
 "
 .
 /
-request
--
-list
--
-item
+RequestListItem
 "
 )
 )

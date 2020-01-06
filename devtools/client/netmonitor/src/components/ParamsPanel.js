@@ -92,9 +92,7 @@ require
 "
 .
 /
-properties
--
-view
+PropertiesView
 "
 )
 )

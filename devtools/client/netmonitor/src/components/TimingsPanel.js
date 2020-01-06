@@ -68,9 +68,7 @@ require
 "
 .
 /
-mdn
--
-link
+MdnLink
 "
 )
 ;

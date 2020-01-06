@@ -91,9 +91,7 @@ require
 "
 .
 /
-properties
--
-view
+PropertiesView
 "
 )
 )

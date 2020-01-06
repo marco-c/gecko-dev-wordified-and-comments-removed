@@ -221,9 +221,7 @@ require
 "
 .
 /
-mdn
--
-link
+MdnLink
 "
 )
 )

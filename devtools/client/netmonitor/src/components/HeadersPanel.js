@@ -154,9 +154,7 @@ require
 "
 .
 /
-mdn
--
-link
+MdnLink
 "
 )
 )
@@ -171,9 +169,7 @@ require
 "
 .
 /
-properties
--
-view
+PropertiesView
 "
 )
 )

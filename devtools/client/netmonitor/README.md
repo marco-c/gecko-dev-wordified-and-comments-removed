@@ -1424,9 +1424,7 @@ MonitorPanel
 *
 *
 in
-monitor
--
-panel
+MonitorPanel
 .
 js
 is

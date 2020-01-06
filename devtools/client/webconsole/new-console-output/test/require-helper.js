@@ -421,9 +421,7 @@ src
 /
 components
 /
-tabbox
--
-panel
+TabboxPanel
 "
 :
 return
