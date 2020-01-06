@@ -251,8 +251,6 @@ FileBlobImpl
 =
 default
 ;
-private
-:
 FileBlobImpl
 (
 const

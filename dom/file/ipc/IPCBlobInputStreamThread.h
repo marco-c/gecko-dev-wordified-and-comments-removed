@@ -18,6 +18,13 @@ nsIEventTarget
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 class
 nsIThread
 ;
