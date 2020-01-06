@@ -247,17 +247,6 @@ error
 "
 no
 -
-control
--
-regex
-"
-:
-"
-error
-"
-"
-no
--
 extend
 -
 native

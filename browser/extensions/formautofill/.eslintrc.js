@@ -482,17 +482,6 @@ error
 "
 no
 -
-control
--
-regex
-"
-:
-"
-error
-"
-"
-no
--
 fallthrough
 "
 :

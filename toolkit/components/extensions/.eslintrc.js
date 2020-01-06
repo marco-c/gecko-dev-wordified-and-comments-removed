@@ -919,17 +919,6 @@ off
 "
 no
 -
-control
--
-regex
-"
-:
-"
-error
-"
-"
-no
--
 div
 -
 regex

@@ -209,17 +209,6 @@ false
 "
 no
 -
-control
--
-regex
-"
-:
-"
-error
-"
-"
-no
--
 dupe
 -
 class
