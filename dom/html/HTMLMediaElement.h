@@ -879,6 +879,14 @@ NotifyAddedSource
 void
 NotifyLoadError
 (
+const
+nsACString
+&
+aErrorDetails
+=
+nsCString
+(
+)
 )
 ;
 void
