@@ -141,7 +141,7 @@ GeckoPreferences
 NON_PREF_PREFIX
 +
 "
-startpane_enabled
+startpane_enabled_after_57
 "
 ;
 public
