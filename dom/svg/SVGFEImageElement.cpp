@@ -212,7 +212,6 @@ nsIDOMElement
 nsIDOMSVGElement
 imgINotificationObserver
 nsIImageLoadingContent
-imgIOnloadBlocker
 )
 SVGFEImageElement
 :

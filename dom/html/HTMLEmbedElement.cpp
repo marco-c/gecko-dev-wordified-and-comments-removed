@@ -239,7 +239,6 @@ nsIFrameLoaderOwner
 nsIObjectLoadingContent
 imgINotificationObserver
 nsIImageLoadingContent
-imgIOnloadBlocker
 nsIChannelEventSink
 )
 NS_IMPL_ELEMENT_CLONE

@@ -1529,8 +1529,6 @@ progressTracker
 SyncNotifyProgress
 (
 FLAG_HAS_ERROR
-|
-FLAG_ONLOAD_UNBLOCKED
 )
 ;
 RemoveFromCache

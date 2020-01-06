@@ -30,13 +30,6 @@ h
 #
 include
 "
-imgRequestProxy
-.
-h
-"
-#
-include
-"
 Units
 .
 h

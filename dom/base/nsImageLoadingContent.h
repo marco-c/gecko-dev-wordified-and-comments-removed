@@ -14,13 +14,6 @@ h
 #
 include
 "
-imgIOnloadBlocker
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CORSMode
@@ -139,8 +132,6 @@ nsImageLoadingContent
 :
 public
 nsIImageLoadingContent
-public
-imgIOnloadBlocker
 {
 template
 <
@@ -196,7 +187,6 @@ nsImageLoadingContent
 ;
 NS_DECL_IMGINOTIFICATIONOBSERVER
 NS_DECL_NSIIMAGELOADINGCONTENT
-NS_DECL_IMGIONLOADBLOCKER
 bool
 LoadingEnabled
 (
@@ -933,9 +923,6 @@ enum
 REQUEST_NEEDS_ANIMATION_RESET
 =
 0x00000001U
-REQUEST_BLOCKS_ONLOAD
-=
-0x00000002U
 REQUEST_IS_TRACKED
 =
 0x00000004U

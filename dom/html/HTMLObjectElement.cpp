@@ -377,7 +377,6 @@ nsIStreamListener
 nsIFrameLoaderOwner
 nsIObjectLoadingContent
 nsIImageLoadingContent
-imgIOnloadBlocker
 nsIChannelEventSink
 nsIConstraintValidation
 )

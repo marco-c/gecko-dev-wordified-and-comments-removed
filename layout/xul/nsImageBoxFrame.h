@@ -41,20 +41,6 @@ imgIContainer
 .
 h
 "
-#
-include
-"
-imgINotificationObserver
-.
-h
-"
-#
-include
-"
-imgIOnloadBlocker
-.
-h
-"
 class
 imgRequestProxy
 ;
@@ -70,8 +56,6 @@ final
 :
 public
 imgINotificationObserver
-public
-imgIOnloadBlocker
 {
 public
 :
@@ -81,7 +65,6 @@ nsImageBoxListener
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_IMGINOTIFICATIONOBSERVER
-NS_DECL_IMGIONLOADBLOCKER
 void
 SetFrame
 (

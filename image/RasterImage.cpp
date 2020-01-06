@@ -3943,11 +3943,6 @@ decode
 "
 )
 ;
-NotifyProgress
-(
-FLAG_ONLOAD_BLOCKED
-)
-;
 mLoadProgress
 =
 Some
@@ -7134,11 +7129,6 @@ mLoadProgress
 =
 Nothing
 (
-)
-;
-NotifyProgress
-(
-FLAG_ONLOAD_UNBLOCKED
 )
 ;
 }

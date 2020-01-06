@@ -245,11 +245,6 @@ imgINotificationObserver
 idl
 '
 '
-imgIOnloadBlocker
-.
-idl
-'
-'
 imgIRequest
 .
 idl

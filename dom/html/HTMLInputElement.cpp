@@ -5688,7 +5688,6 @@ nsIDOMHTMLInputElement
 nsITextControlElement
 imgINotificationObserver
 nsIImageLoadingContent
-imgIOnloadBlocker
 nsIDOMNSEditableElement
 nsIConstraintValidation
 )
