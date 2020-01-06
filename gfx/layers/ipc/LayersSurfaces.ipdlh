@@ -324,6 +324,9 @@ handle
 IntSize
 size
 ;
+bool
+continuous
+;
 }
 ;
 struct
