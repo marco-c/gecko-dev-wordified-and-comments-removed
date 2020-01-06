@@ -1891,11 +1891,13 @@ r
 clang
 -
 (
-tidy
-|
 apply
 -
 replacements
+|
+format
+|
+tidy
 )
 (
 \
