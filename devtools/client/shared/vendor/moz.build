@@ -201,13 +201,6 @@ js
 '
 react
 -
-proxy
-.
-js
-'
-'
-react
--
 redux
 .
 js
