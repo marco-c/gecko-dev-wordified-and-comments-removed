@@ -857,6 +857,15 @@ aDocShell
 )
 ;
 static
+bool
+ShouldResistFingerprinting
+(
+nsIDocument
+*
+aDoc
+)
+;
+static
 void
 CalcRoundedWindowSizeForResistingFingerprinting
 (

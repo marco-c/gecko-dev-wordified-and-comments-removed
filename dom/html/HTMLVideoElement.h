@@ -609,6 +609,12 @@ IsVideoStatsEnabled
 (
 )
 ;
+double
+TotalPlayTime
+(
+)
+const
+;
 }
 ;
 }
