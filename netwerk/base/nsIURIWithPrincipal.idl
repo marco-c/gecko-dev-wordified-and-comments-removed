@@ -91,6 +91,7 @@ principal
 /
 [
 scriptable
+builtinclass
 uuid
 (
 626a5c0c

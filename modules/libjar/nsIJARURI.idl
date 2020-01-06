@@ -170,6 +170,7 @@ spec
 /
 [
 scriptable
+builtinclass
 uuid
 (
 646a508c
