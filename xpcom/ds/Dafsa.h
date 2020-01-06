@@ -45,7 +45,6 @@ uint8_t
 >
 ;
 explicit
-constexpr
 Dafsa
 (
 const
