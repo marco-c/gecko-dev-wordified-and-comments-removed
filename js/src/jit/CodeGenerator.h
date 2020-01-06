@@ -847,6 +847,14 @@ lir
 )
 ;
 void
+visitClassConstructor
+(
+LClassConstructor
+*
+lir
+)
+;
+void
 visitLambda
 (
 LLambda
