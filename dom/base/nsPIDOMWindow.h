@@ -1669,9 +1669,10 @@ Element
 >
 mFrameElement
 ;
+nsCOMPtr
+<
 nsIDocShell
-*
-MOZ_NON_OWNING_REF
+>
 mDocShell
 ;
 RefPtr
