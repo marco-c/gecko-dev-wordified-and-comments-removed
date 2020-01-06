@@ -31018,7 +31018,7 @@ responseText
 }
 else
 {
-resolve
+reject
 (
 req
 .

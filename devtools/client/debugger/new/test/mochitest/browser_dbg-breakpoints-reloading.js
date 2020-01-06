@@ -202,6 +202,16 @@ waitForSelectedSource
 dbg
 )
 ;
+yield
+waitForDispatch
+(
+dbg
+"
+SYNC_BREAKPOINT
+"
+2
+)
+;
 assertEditorBreakpoint
 (
 dbg
