@@ -218,6 +218,7 @@ L10nRegistry
 .
 load
 =
+async
 function
 (
 url
@@ -266,6 +267,7 @@ registerSource
 source
 )
 ;
+async
 function
 *
 generateMessages
@@ -275,6 +277,7 @@ resIds
 {
 yield
 *
+await
 L10nRegistry
 .
 generateContexts
