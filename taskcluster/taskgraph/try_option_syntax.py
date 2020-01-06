@@ -1017,18 +1017,6 @@ linux64
 -
 asan
 '
-'
-linux64
--
-stylo
-'
-'
-linux64
--
-stylo
--
-sequential
-'
 ]
     
 '
@@ -1043,18 +1031,6 @@ linux64
 linux64
 -
 asan
-'
-'
-linux64
--
-stylo
-'
-'
-linux64
--
-stylo
--
-sequential
 '
 ]
     
@@ -4492,7 +4468,9 @@ return
 False
             
 return
-True
+check_run_on_projects
+(
+)
         
 elif
 attr
