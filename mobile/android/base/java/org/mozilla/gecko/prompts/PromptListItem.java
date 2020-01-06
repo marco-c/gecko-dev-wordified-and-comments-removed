@@ -171,12 +171,13 @@ GeckoBundle
 aObject
 )
 {
+final
 Context
 context
 =
 GeckoAppShell
 .
-getContext
+getApplicationContext
 (
 )
 ;

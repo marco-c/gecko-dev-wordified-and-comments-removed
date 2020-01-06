@@ -316,10 +316,6 @@ assetManager
 =
 browserApp
 .
-getContext
-(
-)
-.
 getAssets
 (
 )

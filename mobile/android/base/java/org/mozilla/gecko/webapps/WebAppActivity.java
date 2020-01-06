@@ -1546,9 +1546,7 @@ FaviconDecoder
 .
 decodeDataURI
 (
-getContext
-(
-)
+this
 iconStr
 )
 ;
