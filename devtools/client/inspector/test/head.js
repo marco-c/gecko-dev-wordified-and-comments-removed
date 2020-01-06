@@ -2916,7 +2916,7 @@ defaultView
 MouseEvent
 (
 "
-mouseout
+mousemove
 "
 {
 bubbles
@@ -2929,6 +2929,8 @@ target
 )
 ;
 target
+.
+parentNode
 .
 dispatchEvent
 (

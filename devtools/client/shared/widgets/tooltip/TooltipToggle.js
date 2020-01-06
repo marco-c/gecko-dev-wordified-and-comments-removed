@@ -443,6 +443,12 @@ target
 =
 =
 null
+|
+|
+!
+this
+.
+_baseNode
 )
 {
 return
@@ -557,7 +563,6 @@ this
 _baseNode
 &
 &
-!
 this
 .
 _baseNode
