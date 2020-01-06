@@ -133,6 +133,10 @@ mHasBeenDecoded
 (
 false
 )
+mHasRequestedDecode
+(
+false
+)
 mIsCurrentlyDecoded
 (
 false
@@ -213,6 +217,15 @@ GetHasBeenDecoded
 {
 return
 mHasBeenDecoded
+;
+}
+bool
+GetHasRequestedDecode
+(
+)
+{
+return
+mHasRequestedDecode
 ;
 }
 bool
@@ -457,6 +470,9 @@ mAnimationMode
 ;
 bool
 mHasBeenDecoded
+;
+bool
+mHasRequestedDecode
 ;
 bool
 mIsCurrentlyDecoded
