@@ -3474,7 +3474,9 @@ GetClientAreaRect
 (
 )
 .
-width
+Width
+(
+)
 )
 ;
 }
@@ -3493,7 +3495,9 @@ GetClientAreaRect
 (
 )
 .
-height
+Height
+(
+)
 )
 ;
 }

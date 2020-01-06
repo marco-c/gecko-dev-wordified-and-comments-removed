@@ -4675,7 +4675,9 @@ GetScrollRange
 (
 )
 .
-height
+Height
+(
+)
 +
 sf
 -
@@ -4684,7 +4686,9 @@ GetScrollPortRect
 (
 )
 .
-height
+Height
+(
+)
 ;
 }
 else
@@ -4753,7 +4757,9 @@ GetScrollRange
 (
 )
 .
-width
+Width
+(
+)
 +
 sf
 -
@@ -4762,7 +4768,9 @@ GetScrollPortRect
 (
 )
 .
-width
+Width
+(
+)
 ;
 }
 else
