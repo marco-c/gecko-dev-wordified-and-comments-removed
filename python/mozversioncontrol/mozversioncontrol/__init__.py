@@ -126,8 +126,6 @@ except
 which
 .
 WhichError
-as
-e
 :
             
 pass

@@ -108,7 +108,7 @@ s
 %
 (
 host
-            
+                     
 fingerprint
 )
 ]
