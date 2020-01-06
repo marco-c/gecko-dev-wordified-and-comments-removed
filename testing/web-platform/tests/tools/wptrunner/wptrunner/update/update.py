@@ -219,15 +219,15 @@ metadata_path
 ]
         
 assert
+os
+.
+path
+.
+isabs
+(
 state
 .
 tests_path
-.
-startswith
-(
-"
-/
-"
 )
 class
 LoadTrees
