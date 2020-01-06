@@ -4938,7 +4938,7 @@ syncStackPtr
 ;
 masm
 .
-add32
+addPtr
 (
 Imm32
 (
