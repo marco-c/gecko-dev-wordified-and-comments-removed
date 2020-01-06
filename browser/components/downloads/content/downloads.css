@@ -1326,6 +1326,12 @@ download
 :
 hover
 :
+-
+moz
+-
+any
+(
+:
 not
 (
 [
@@ -1338,6 +1344,7 @@ not
 [
 exists
 ]
+)
 )
 :
 not
