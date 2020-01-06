@@ -621,7 +621,7 @@ global
 (
 )
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 .

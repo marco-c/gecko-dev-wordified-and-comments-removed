@@ -463,6 +463,7 @@ script_traits
 :
 {
 DocumentActivity
+ScriptToConstellationChan
 TimerEventId
 TimerSource
 TouchpadPressurePhase
@@ -2581,6 +2582,12 @@ unsafe_no_jsmanaged_fields
 !
 (
 WebVRGamepadHand
+)
+;
+unsafe_no_jsmanaged_fields
+!
+(
+ScriptToConstellationChan
 )
 ;
 unsafe

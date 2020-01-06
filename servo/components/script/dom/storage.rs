@@ -1305,19 +1305,6 @@ String
 )
 {
 let
-pipeline_id
-=
-self
-.
-global
-(
-)
-.
-pipeline_id
-(
-)
-;
-let
 storage
 =
 self
@@ -1341,7 +1328,6 @@ ScriptMsg
 :
 BroadcastStorageEvent
 (
-pipeline_id
 storage
 url
 key
@@ -1355,7 +1341,7 @@ global
 (
 )
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 .

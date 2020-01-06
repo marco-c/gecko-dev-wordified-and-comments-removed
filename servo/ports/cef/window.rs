@@ -136,6 +136,12 @@ use
 servo
 :
 :
+BrowserId
+;
+use
+servo
+:
+:
 ipc_channel
 :
 :
@@ -1720,6 +1726,9 @@ client_window
 (
 &
 self
+_
+:
+BrowserId
 )
 -
 >
@@ -1787,6 +1796,9 @@ set_inner_size
 (
 &
 self
+_
+:
+BrowserId
 _size
 :
 Size2D
@@ -1801,6 +1813,9 @@ set_position
 (
 &
 self
+_
+:
+BrowserId
 _point
 :
 Point2D
@@ -1815,6 +1830,9 @@ set_fullscreen_state
 (
 &
 self
+_
+:
+BrowserId
 _state
 :
 bool
@@ -2371,6 +2389,9 @@ set_favicon
 (
 &
 self
+_
+:
+BrowserId
 url
 :
 ServoUrl
@@ -2435,6 +2456,9 @@ status
 (
 &
 self
+_
+:
+BrowserId
 info
 :
 Option
@@ -2587,6 +2611,9 @@ load_start
 (
 &
 self
+_
+:
+BrowserId
 )
 {
 let
@@ -2756,6 +2783,9 @@ load_end
 (
 &
 self
+_
+:
+BrowserId
 )
 {
 let
@@ -2978,6 +3008,9 @@ load_error
 (
 &
 self
+_
+:
+BrowserId
 code
 :
 NetError
@@ -3119,6 +3152,9 @@ head_parsed
 (
 &
 self
+_
+:
+BrowserId
 )
 {
 let
@@ -3234,6 +3270,9 @@ set_page_title
 (
 &
 self
+_
+:
+BrowserId
 string
 :
 Option
@@ -3407,6 +3446,9 @@ history_changed
 (
 &
 self
+_
+:
+BrowserId
 history
 :
 Vec
@@ -3636,6 +3678,12 @@ _
 :
 Option
 <
+BrowserId
+>
+_
+:
+Option
+<
 char
 >
 _
@@ -3816,6 +3864,9 @@ allow_navigation
 (
 &
 self
+_
+:
+BrowserId
 _
 :
 ServoUrl

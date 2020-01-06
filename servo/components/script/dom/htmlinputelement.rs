@@ -436,10 +436,7 @@ ipc_channel
 ipc
 :
 :
-{
-self
-IpcSender
-}
+channel
 ;
 use
 mime_guess
@@ -487,9 +484,7 @@ use
 script_traits
 :
 :
-ScriptMsg
-as
-ConstellationMsg
+ScriptToConstellationChan
 ;
 use
 servo_atoms
@@ -736,10 +731,7 @@ DOMRefCell
 <
 TextInput
 <
-IpcSender
-<
-ConstellationMsg
->
+ScriptToConstellationChan
 >
 >
 activation_state
@@ -915,7 +907,7 @@ GlobalScope
 (
 )
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 .
@@ -6972,9 +6964,6 @@ chan
 recv
 )
 =
-ipc
-:
-:
 channel
 (
 )
@@ -7142,9 +7131,6 @@ chan
 recv
 )
 =
-ipc
-:
-:
 channel
 (
 )

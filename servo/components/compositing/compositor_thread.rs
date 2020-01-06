@@ -37,6 +37,7 @@ Key
 KeyModifiers
 KeyState
 PipelineId
+TopLevelBrowsingContextId
 }
 ;
 use
@@ -408,7 +409,7 @@ bool
 )
 ChangePageTitle
 (
-PipelineId
+TopLevelBrowsingContextId
 Option
 <
 String
@@ -424,9 +425,16 @@ SetFrameTree
 SendableFrameTree
 )
 LoadStart
+(
+TopLevelBrowsingContextId
+)
 LoadComplete
+(
+TopLevelBrowsingContextId
+)
 HistoryChanged
 (
+TopLevelBrowsingContextId
 Vec
 <
 LoadData
@@ -435,6 +443,7 @@ usize
 )
 AllowNavigation
 (
+TopLevelBrowsingContextId
 ServoUrl
 IpcSender
 <
@@ -447,6 +456,10 @@ CompositingReason
 )
 KeyEvent
 (
+Option
+<
+TopLevelBrowsingContextId
+>
 Option
 <
 char
@@ -484,11 +497,16 @@ bool
 )
 NewFavicon
 (
+TopLevelBrowsingContextId
 ServoUrl
 )
 HeadParsed
+(
+TopLevelBrowsingContextId
+)
 Status
 (
+TopLevelBrowsingContextId
 Option
 <
 String
@@ -496,6 +514,7 @@ String
 )
 GetClientWindow
 (
+TopLevelBrowsingContextId
 IpcSender
 <
 (
@@ -512,6 +531,7 @@ i32
 )
 MoveTo
 (
+TopLevelBrowsingContextId
 Point2D
 <
 i32
@@ -519,6 +539,7 @@ i32
 )
 ResizeTo
 (
+TopLevelBrowsingContextId
 Size2D
 <
 u32
@@ -555,6 +576,7 @@ Send
 )
 SetFullscreenState
 (
+TopLevelBrowsingContextId
 bool
 )
 }
@@ -691,6 +713,10 @@ Msg
 :
 :
 LoadComplete
+(
+.
+.
+)
 =
 >
 write
@@ -723,6 +749,10 @@ Msg
 :
 :
 LoadStart
+(
+.
+.
+)
 =
 >
 write
@@ -899,6 +929,10 @@ Msg
 :
 :
 HeadParsed
+(
+.
+.
+)
 =
 >
 write

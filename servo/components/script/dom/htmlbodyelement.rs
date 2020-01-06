@@ -203,8 +203,6 @@ script_traits
 :
 :
 ScriptMsg
-as
-ConstellationMsg
 ;
 use
 servo_url
@@ -1038,7 +1036,7 @@ INITIAL_REFLOW_DELAY
 let
 event
 =
-ConstellationMsg
+ScriptMsg
 :
 :
 HeadParsed
@@ -1054,7 +1052,7 @@ GlobalScope
 (
 )
 .
-constellation_chan
+script_to_constellation_chan
 (
 )
 .
