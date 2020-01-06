@@ -12,18 +12,6 @@ color
 transparent
 ;
 }
-#
-sidebar
--
-search
--
-container
-{
-padding
-:
-8px
-;
-}
 .
 sidebar
 -
@@ -383,7 +371,7 @@ container
 {
 padding
 :
-4px
+8px
 ;
 }
 #
