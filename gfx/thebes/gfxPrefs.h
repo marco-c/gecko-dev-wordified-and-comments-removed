@@ -4011,7 +4011,7 @@ bool
 false
 )
 ;
-DECL_GFX_PREF
+DECL_OVERRIDE_PREF
 (
 Live
 "
@@ -4024,7 +4024,6 @@ background
 color
 "
 LayersAllowBackgroundColorLayers
-bool
 false
 )
 ;
