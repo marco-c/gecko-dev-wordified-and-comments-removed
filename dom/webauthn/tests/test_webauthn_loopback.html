@@ -759,7 +759,7 @@ is
 (
 clientData
 .
-hashAlg
+hashAlgorithm
 "
 SHA
 -
@@ -1237,7 +1237,7 @@ is
 (
 clientData
 .
-hashAlg
+hashAlgorithm
 "
 SHA
 -
@@ -1513,7 +1513,7 @@ user
 challenge
 :
 gCredentialChallenge
-parameters
+pubKeyCredParams
 :
 [
 param
@@ -1643,12 +1643,12 @@ user
 challenge
 :
 gCredentialChallenge
-parameters
+pubKeyCredParams
 :
 [
 param
 ]
-excludeList
+excludeCredentials
 :
 [
 {
@@ -1828,7 +1828,7 @@ rpId
 document
 .
 domain
-allowList
+allowCredentials
 :
 [
 newCredential
