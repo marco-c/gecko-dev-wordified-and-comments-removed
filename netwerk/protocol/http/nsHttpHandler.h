@@ -611,6 +611,15 @@ mConnectTimeout
 ;
 }
 uint32_t
+TLSHandshakeTimeout
+(
+)
+{
+return
+mTLSHandshakeTimeout
+;
+}
+uint32_t
 ParallelSpeculativeConnectLimit
 (
 )
@@ -1850,6 +1859,9 @@ mSpdyPingTimeout
 ;
 uint32_t
 mConnectTimeout
+;
+uint32_t
+mTLSHandshakeTimeout
 ;
 uint32_t
 mParallelSpeculativeConnectLimit
