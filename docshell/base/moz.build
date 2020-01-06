@@ -650,6 +650,12 @@ xul
 /
 netwerk
 /
+base
+'
+'
+/
+netwerk
+/
 protocol
 /
 viewsource
