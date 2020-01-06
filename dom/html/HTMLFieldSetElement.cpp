@@ -314,8 +314,15 @@ nsGkAtoms
 :
 :
 disabled
-&
-&
+)
+{
+UpdateDisabledState
+(
+aNotify
+)
+;
+if
+(
 nsINode
 :
 :
@@ -391,6 +398,7 @@ FieldSetDisabledChanged
 aNotify
 )
 ;
+}
 }
 }
 return

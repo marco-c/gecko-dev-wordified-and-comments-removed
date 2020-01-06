@@ -3447,6 +3447,13 @@ aNotify
 )
 ;
 void
+UpdateDisabledState
+(
+bool
+aNotify
+)
+;
+void
 FieldSetFirstLegendChanged
 (
 bool
