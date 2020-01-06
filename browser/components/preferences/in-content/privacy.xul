@@ -6889,7 +6889,7 @@ groupbox
 id
 =
 "
-addonsPhishingGroup
+browsingProtectionGroup
 "
 data
 -
@@ -6911,7 +6911,7 @@ caption
 label
 >
 &
-phishingProtection
+browsingProtection
 .
 label
 ;
