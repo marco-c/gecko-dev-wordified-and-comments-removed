@@ -117,6 +117,10 @@ __atomic_load_
 /
 /
 ^
+__atomic_store_
+/
+/
+^
 __atomic_thread_fence
 /
 ]
@@ -2408,9 +2412,6 @@ Gecko_CSSValue_InitSharedList
 "
 "
 Gecko_NewNoneTransform
-"
-"
-Gecko_UnsetDirtyStyleAttr
 "
 "
 Gecko_AppendMozBorderColors
