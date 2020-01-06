@@ -106,11 +106,6 @@ COMPONENT
 CONSOLESERVICE
 nsConsoleServiceConstructor
 )
-COMPONENT
-(
-ATOMSERVICE
-nsAtomServiceConstructor
-)
 COMPONENT_M
 (
 OBSERVERSERVICE
