@@ -854,6 +854,14 @@ CodeOffset
 target
 )
 ;
+void
+processCodeLabels
+(
+uint8_t
+*
+rawCode
+)
+;
 static
 void
 TraceJumpRelocations
