@@ -3186,10 +3186,10 @@ cx
 define
 PRE_HELPER_STUB
 \
-JSObject
-*
+RootedObject
 unwrapped
-=
+(
+cx
 js
 :
 :
@@ -3197,6 +3197,7 @@ CheckedUnwrap
 (
 obj
 false
+)
 )
 ;
 \
