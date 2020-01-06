@@ -120,13 +120,6 @@ register
 (
 )
 ;
-EventEmitter
-.
-decorate
-(
-this
-)
-;
 }
 onShutdown
 (
