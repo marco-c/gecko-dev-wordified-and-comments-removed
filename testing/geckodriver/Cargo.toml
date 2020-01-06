@@ -73,6 +73,13 @@ mozilla
 /
 geckodriver
 "
+readme
+=
+"
+README
+.
+md
+"
 license
 =
 "
