@@ -2836,8 +2836,6 @@ UnaryNode
 (
 ParseNodeKind
 kind
-JSOp
-op
 const
 TokenPos
 &
@@ -2850,7 +2848,7 @@ kid
 ParseNode
 (
 kind
-op
+JSOP_NOP
 PN_UNARY
 pos
 )
@@ -4273,7 +4271,6 @@ thisName
 UnaryNode
 (
 PNK_THIS
-JSOP_NOP
 pos
 thisName
 )

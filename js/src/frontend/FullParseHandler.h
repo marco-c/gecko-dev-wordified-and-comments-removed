@@ -443,7 +443,6 @@ UnaryNode
 >
 (
 PNK_COMPUTED_NAME
-JSOP_NOP
 pos
 expr
 )
@@ -1001,7 +1000,6 @@ UnaryNode
 >
 (
 kind
-JSOP_NOP
 pos
 kid
 )
@@ -1039,7 +1037,6 @@ UnaryNode
 >
 (
 kind
-JSOP_NOP
 pos
 kid
 )
@@ -1075,7 +1072,6 @@ UnaryNode
 >
 (
 PNK_SPREAD
-JSOP_NOP
 pos
 kid
 )
@@ -1111,7 +1107,6 @@ UnaryNode
 >
 (
 PNK_ARRAYPUSH
-JSOP_ARRAYPUSH
 pos
 kid
 )
@@ -1696,7 +1691,6 @@ UnaryNode
 >
 (
 PNK_SUPERBASE
-JSOP_NOP
 pos
 thisName
 )
@@ -2285,7 +2279,6 @@ UnaryNode
 >
 (
 PNK_INITIALYIELD
-JSOP_INITIALYIELD
 pos
 gen
 )
@@ -2327,7 +2320,6 @@ UnaryNode
 >
 (
 PNK_YIELD
-JSOP_YIELD
 pos
 value
 )
@@ -2363,7 +2355,6 @@ UnaryNode
 >
 (
 PNK_YIELD_STAR
-JSOP_NOP
 pos
 value
 )
@@ -2405,7 +2396,6 @@ UnaryNode
 >
 (
 PNK_AWAIT
-JSOP_AWAIT
 pos
 value
 )
@@ -2830,12 +2820,7 @@ UnaryNode
 >
 (
 PNK_SEMI
-JSOP_NOP
 pos
-(
-ParseNode
-*
-)
 nullptr
 )
 ;
@@ -2906,7 +2891,6 @@ UnaryNode
 >
 (
 PNK_EXPORT
-JSOP_NOP
 pos
 kid
 )
@@ -3047,7 +3031,6 @@ UnaryNode
 >
 (
 PNK_SEMI
-JSOP_NOP
 TokenPos
 (
 expr
@@ -3618,7 +3601,6 @@ UnaryNode
 >
 (
 PNK_RETURN
-JSOP_RETURN
 pos
 expr
 )
@@ -3640,7 +3622,6 @@ UnaryNode
 >
 (
 PNK_RETURN
-JSOP_RETURN
 expr
 -
 >
@@ -3745,7 +3726,6 @@ UnaryNode
 >
 (
 PNK_THROW
-JSOP_THROW
 pos
 expr
 )
