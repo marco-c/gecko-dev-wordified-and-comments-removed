@@ -8975,11 +8975,6 @@ String
 action
 )
 ;
-String
-getDefaultChromeURI
-(
-)
-;
 }
 ;
 private
