@@ -9,7 +9,7 @@ defineLazyModuleGetter
 (
 this
 "
-NetUtil
+PlacesUtils
 "
 "
 resource
@@ -20,7 +20,7 @@ gre
 /
 modules
 /
-NetUtil
+PlacesUtils
 .
 jsm
 "
@@ -32,7 +32,7 @@ defineLazyModuleGetter
 (
 this
 "
-PlacesUtils
+Services
 "
 "
 resource
@@ -43,7 +43,7 @@ gre
 /
 modules
 /
-PlacesUtils
+Services
 .
 jsm
 "
@@ -1168,7 +1168,9 @@ historyQuery
 .
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

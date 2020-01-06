@@ -1416,7 +1416,9 @@ id
 let
 baseURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -1924,7 +1926,9 @@ nsIFileURL
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -4067,7 +4071,9 @@ this
 .
 baseURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
