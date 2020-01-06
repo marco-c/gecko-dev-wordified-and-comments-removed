@@ -10171,9 +10171,6 @@ mNetworkDownloadObserverEnabled
 ;
 #
 endif
-bool
-mCleanedUp
-;
 nsCOMPtr
 <
 nsIDOMOfflineResourceList
