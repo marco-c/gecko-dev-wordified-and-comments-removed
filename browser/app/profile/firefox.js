@@ -11107,7 +11107,7 @@ newtabpage
 .
 compact
 "
-false
+true
 )
 ;
 pref
@@ -11131,7 +11131,7 @@ newtabpage
 .
 rows
 "
-3
+2
 )
 ;
 pref
@@ -11143,7 +11143,7 @@ newtabpage
 .
 columns
 "
-5
+6
 )
 ;
 pref
