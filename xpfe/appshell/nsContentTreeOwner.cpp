@@ -3871,9 +3871,9 @@ return
 browserDOMWin
 -
 >
-OpenURI
+CreateContentWindow
 (
-nullptr
+aURI
 aParent
 openLocation
 flags
