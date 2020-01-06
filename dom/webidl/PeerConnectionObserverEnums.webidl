@@ -120,12 +120,6 @@ IceConnectionState
 IceGatheringState
 "
 "
-SdpState
-"
-"
-SipccState
-"
-"
 SignalingState
 "
 }
