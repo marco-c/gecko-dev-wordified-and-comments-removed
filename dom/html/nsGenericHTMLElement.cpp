@@ -14052,6 +14052,15 @@ if
 presShell
 |
 |
+!
+presShell
+-
+>
+DidInitialize
+(
+)
+|
+|
 IsOrHasAncestorWithDisplayNone
 (
 this
