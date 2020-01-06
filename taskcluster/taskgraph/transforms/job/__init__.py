@@ -88,8 +88,6 @@ import
 validate_schema
     
 Schema
-    
-optionally_keyed_by
 )
 from
 taskgraph
@@ -435,13 +433,6 @@ type
 '
 )
 :
-optionally_keyed_by
-(
-        
-'
-platform
-'
-        
 task_description_schema
 [
 '
@@ -450,7 +441,6 @@ worker
 type
 '
 ]
-)
     
 Required
 (
@@ -459,14 +449,8 @@ worker
 '
 )
 :
-optionally_keyed_by
-(
-        
-'
-platform
-'
 {
-            
+        
 Required
 (
 '
@@ -475,13 +459,12 @@ implementation
 )
 :
 basestring
-            
+        
 Extra
 :
 object
-        
+    
 }
-)
 }
 )
 transforms
