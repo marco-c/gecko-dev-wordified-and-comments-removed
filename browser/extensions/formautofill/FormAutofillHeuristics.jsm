@@ -1359,6 +1359,10 @@ return
 null
 ;
 }
+PHONE_FIELD_GRAMMARS
+:
+[
+]
 }
 ;
 XPCOMUtils
