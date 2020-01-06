@@ -61,14 +61,6 @@ mAcceptRoles
 (
 nullptr
 )
-mAcceptRolesLength
-{
-0
-}
-mPreFilter
-{
-0
-}
 {
 }
 ~

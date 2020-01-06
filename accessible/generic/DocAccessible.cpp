@@ -481,10 +481,6 @@ mLoadEventType
 (
 0
 )
-mARIAAttrOldValue
-{
-nullptr
-}
 mVirtualCursor
 (
 nullptr

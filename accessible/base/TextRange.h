@@ -169,15 +169,6 @@ aEndOffset
 TextRange
 (
 )
-:
-mStartOffset
-{
-0
-}
-mEndOffset
-{
-0
-}
 {
 }
 TextRange
