@@ -809,7 +809,9 @@ pushlog_id
 .
 actions
 .
+{
 ownTaskId
+}
 "
 else
 :
