@@ -296,6 +296,13 @@ aCategory
 const
 override
 ;
+void
+WindowChangedBackgroundStatus
+(
+bool
+aIsNowBackground
+)
+;
 bool
 IsBackground
 (
@@ -361,6 +368,9 @@ nsPIDOMWindowOuter
 *
 >
 mWindows
+;
+uint32_t
+mForegroundCount
 ;
 }
 ;

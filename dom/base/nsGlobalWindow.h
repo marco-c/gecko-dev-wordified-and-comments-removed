@@ -9460,6 +9460,13 @@ IsBackgroundInternal
 )
 const
 ;
+void
+SetIsBackgroundInternal
+(
+bool
+aIsBackground
+)
+;
 public
 :
 virtual
