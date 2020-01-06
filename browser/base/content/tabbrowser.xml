@@ -9834,7 +9834,7 @@ label
 {
 aTab
 .
-_suppressTransientPlaceholderLabel
+_labelIsInitialTitle
 =
 true
 ;
@@ -9927,7 +9927,7 @@ if
 (
 aTab
 .
-_suppressTransientPlaceholderLabel
+_labelIsInitialTitle
 )
 {
 if
@@ -9943,7 +9943,7 @@ false
 delete
 aTab
 .
-_suppressTransientPlaceholderLabel
+_labelIsInitialTitle
 ;
 }
 let
