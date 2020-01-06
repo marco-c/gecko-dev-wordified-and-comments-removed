@@ -745,12 +745,6 @@ visibility
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 perspective
@@ -1727,12 +1721,6 @@ layer
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 mask
