@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
+include
+"
 npapi
 .
 h
