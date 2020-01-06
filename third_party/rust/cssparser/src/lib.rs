@@ -265,6 +265,9 @@ Parser
 Delimiter
 Delimiters
 SourcePosition
+ParseError
+BasicParseError
+ParserInput
 }
 ;
 pub
