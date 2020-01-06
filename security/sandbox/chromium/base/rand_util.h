@@ -110,6 +110,13 @@ defined
 (
 OS_POSIX
 )
+&
+&
+!
+defined
+(
+OS_FUCHSIA
+)
 BASE_EXPORT
 int
 GetUrandomFD

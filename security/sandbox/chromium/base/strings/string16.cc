@@ -15,6 +15,13 @@ defined
 (
 WCHAR_T_IS_UTF16
 )
+&
+&
+!
+defined
+(
+_AIX
+)
 #
 error
 This
@@ -311,6 +318,9 @@ return
 s_orig
 ;
 }
+namespace
+string16_internals
+{
 std
 :
 :
@@ -365,6 +375,7 @@ str
 ;
 }
 }
+}
 template
 class
 std
@@ -377,6 +388,9 @@ base
 :
 char16
 base
+:
+:
+string16_internals
 :
 :
 string16_char_traits

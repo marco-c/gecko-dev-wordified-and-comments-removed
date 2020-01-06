@@ -24,6 +24,7 @@ base
 class
 BASE_EXPORT
 CPU
+final
 {
 public
 :

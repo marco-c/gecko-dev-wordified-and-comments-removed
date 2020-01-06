@@ -19,6 +19,13 @@ defined
 (
 OS_POSIX
 )
+&
+&
+!
+defined
+(
+OS_FUCHSIA
+)
 #
 include
 <

@@ -311,7 +311,7 @@ const
 0
 ;
 virtual
-void
+ResultCode
 SetDisconnectCsrss
 (
 )

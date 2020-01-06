@@ -244,6 +244,15 @@ base
 string16
 *
 path
+const
+base
+:
+:
+string16
+*
+drive_letter
+=
+nullptr
 )
 ;
 DWORD

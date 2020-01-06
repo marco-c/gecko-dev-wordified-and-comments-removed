@@ -41,7 +41,7 @@ BelongsToCurrentThread
 const
 {
 return
-RunsTasksOnCurrentThread
+RunsTasksInCurrentSequence
 (
 )
 ;

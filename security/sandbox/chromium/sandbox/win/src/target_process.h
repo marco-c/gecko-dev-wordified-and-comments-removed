@@ -115,9 +115,6 @@ namespace
 sandbox
 {
 class
-AttributeList
-;
-class
 SharedMemIPCServer
 ;
 class

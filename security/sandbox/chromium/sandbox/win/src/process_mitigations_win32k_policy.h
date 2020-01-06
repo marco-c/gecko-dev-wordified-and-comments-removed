@@ -57,9 +57,6 @@ h
 namespace
 sandbox
 {
-enum
-EvalResult
-;
 typedef
 void
 *

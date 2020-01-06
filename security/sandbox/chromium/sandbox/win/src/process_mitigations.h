@@ -41,6 +41,13 @@ MitigationFlags
 flags
 )
 ;
+bool
+ApplyMitigationsToCurrentThread
+(
+MitigationFlags
+flags
+)
+;
 MitigationFlags
 FilterPostStartupProcessMitigations
 (
@@ -79,6 +86,13 @@ flags
 ;
 bool
 CanSetProcessMitigationsPreStartup
+(
+MitigationFlags
+flags
+)
+;
+bool
+CanSetMitigationsPerThread
 (
 MitigationFlags
 flags

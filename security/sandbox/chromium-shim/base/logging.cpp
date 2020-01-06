@@ -97,6 +97,13 @@ log_message_handler
 nullptr
 ;
 }
+std
+:
+:
+ostream
+*
+g_swallow_stream
+;
 void
 SetMinLogLevel
 (

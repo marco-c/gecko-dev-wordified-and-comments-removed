@@ -104,6 +104,12 @@ ProcessCallbacksNow
 (
 )
 ;
+static
+void
+DisableAllAtExitManagers
+(
+)
+;
 protected
 :
 explicit

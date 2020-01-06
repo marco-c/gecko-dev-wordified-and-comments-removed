@@ -992,6 +992,9 @@ BOOLEAN
 >
 (
 initial_state
+!
+=
+0
 )
 )
 ;

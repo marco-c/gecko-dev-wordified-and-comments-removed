@@ -25,7 +25,7 @@ include
 "
 base
 /
-callback_forward
+callback
 .
 h
 "
@@ -89,9 +89,7 @@ tracked_objects
 Location
 &
 from_here
-const
-Closure
-&
+OnceClosure
 task
 )
 ;
@@ -106,9 +104,7 @@ tracked_objects
 Location
 &
 from_here
-const
-Closure
-&
+OnceClosure
 task
 base
 :
@@ -121,7 +117,7 @@ delay
 ;
 virtual
 bool
-RunsTasksOnCurrentThread
+RunsTasksInCurrentSequence
 (
 )
 const
@@ -138,13 +134,9 @@ tracked_objects
 Location
 &
 from_here
-const
-Closure
-&
+OnceClosure
 task
-const
-Closure
-&
+OnceClosure
 reply
 )
 ;

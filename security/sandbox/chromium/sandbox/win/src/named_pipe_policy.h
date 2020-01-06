@@ -62,9 +62,6 @@ h
 namespace
 sandbox
 {
-enum
-EvalResult
-;
 class
 NamedPipePolicy
 {
