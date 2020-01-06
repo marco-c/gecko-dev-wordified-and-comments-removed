@@ -3305,11 +3305,7 @@ currentStyle
 aStyleContext
 -
 >
-StyleSource
-(
-)
-.
-AsServoComputedValues
+ComputedValues
 (
 )
 ;

@@ -1444,11 +1444,7 @@ oldStyleContext
 oldStyleContext
 -
 >
-StyleSource
-(
-)
-.
-AsServoComputedValues
+ComputedValues
 (
 )
 !

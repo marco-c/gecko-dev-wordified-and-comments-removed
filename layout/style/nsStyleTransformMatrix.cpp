@@ -2413,11 +2413,7 @@ aContext
 aContext
 -
 >
-StyleSource
-(
-)
-.
-IsServoComputedValues
+IsServo
 (
 )
 )

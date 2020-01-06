@@ -53255,11 +53255,7 @@ if
 aStyleContext
 -
 >
-StyleSource
-(
-)
-.
-IsServoComputedValues
+IsServo
 (
 )
 )

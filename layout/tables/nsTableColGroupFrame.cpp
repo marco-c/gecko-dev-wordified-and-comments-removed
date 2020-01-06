@@ -1540,11 +1540,7 @@ if
 psc
 -
 >
-StyleSource
-(
-)
-.
-IsGeckoRuleNodeOrNull
+IsGecko
 (
 )
 )

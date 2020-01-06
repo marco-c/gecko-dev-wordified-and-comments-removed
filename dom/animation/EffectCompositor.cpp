@@ -736,11 +736,7 @@ StyleContext
 )
 -
 >
-StyleSource
-(
-)
-.
-IsServoComputedValues
+IsServo
 (
 )
 ?
