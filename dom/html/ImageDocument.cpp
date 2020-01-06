@@ -574,7 +574,6 @@ nsContentUtils
 GetContentPolicy
 (
 )
-secMan
 )
 ;
 if

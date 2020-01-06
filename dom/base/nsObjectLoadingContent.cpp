@@ -6958,12 +6958,6 @@ nsContentUtils
 GetContentPolicy
 (
 )
-nsContentUtils
-:
-:
-GetSecurityManager
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7197,12 +7191,6 @@ nsContentUtils
 :
 :
 GetContentPolicy
-(
-)
-nsContentUtils
-:
-:
-GetSecurityManager
 (
 )
 )
