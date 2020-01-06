@@ -4503,7 +4503,7 @@ enum
 Kind
 {
 Function
-Entry
+InterpEntry
 ImportJitExit
 ImportInterpExit
 BuiltinThunk
@@ -4876,7 +4876,7 @@ kind
 )
 =
 =
-Entry
+InterpEntry
 ;
 }
 uint32_t

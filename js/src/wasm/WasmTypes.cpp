@@ -3446,7 +3446,7 @@ MOZ_ASSERT
 kind
 =
 =
-Entry
+InterpEntry
 )
 ;
 MOZ_ASSERT

@@ -2833,7 +2833,7 @@ kind
 CodeRange
 :
 :
-Entry
+InterpEntry
 )
 {
 MOZ_ASSERT
@@ -2943,7 +2943,7 @@ case
 CodeRange
 :
 :
-Entry
+InterpEntry
 :
 callerPC_
 =
@@ -3912,7 +3912,7 @@ case
 CodeRange
 :
 :
-Entry
+InterpEntry
 :
 break
 ;
@@ -4244,7 +4244,7 @@ kind
 CodeRange
 :
 :
-Entry
+InterpEntry
 )
 ;
 callerPC_
@@ -4403,7 +4403,7 @@ case
 CodeRange
 :
 :
-Entry
+InterpEntry
 :
 MOZ_CRASH
 (
@@ -5652,10 +5652,11 @@ case
 CodeRange
 :
 :
-Entry
+InterpEntry
 :
 return
 "
+slow
 entry
 trampoline
 (
