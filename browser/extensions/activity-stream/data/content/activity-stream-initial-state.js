@@ -769,14 +769,6 @@ id
 topstories
 "
 "
-topics
-"
-:
-[
-{
-}
-]
-"
 initialized
 "
 :

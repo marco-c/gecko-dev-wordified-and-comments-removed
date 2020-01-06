@@ -167,6 +167,13 @@ fetch
 )
 {
 }
+Image
+:
+function
+(
+)
+{
+}
 Preferences
 :
 FakePrefs
