@@ -344,7 +344,7 @@ FetchDriver
 :
 Fetch
 (
-FetchSignal
+AbortSignal
 *
 aSignal
 FetchDriverObserver

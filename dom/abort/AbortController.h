@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_FetchController_h
+mozilla_dom_AbortController_h
 #
 define
-mozilla_dom_FetchController_h
+mozilla_dom_AbortController_h
 #
 include
 "
@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-FetchSignal
+AbortSignal
 .
 h
 "
@@ -47,7 +47,7 @@ namespace
 dom
 {
 class
-FetchController
+AbortController
 final
 :
 public
@@ -55,7 +55,7 @@ nsISupports
 public
 nsWrapperCache
 public
-FetchSignal
+AbortSignal
 :
 :
 Follower
@@ -65,7 +65,7 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-FetchController
+AbortController
 )
 static
 bool
@@ -82,7 +82,7 @@ aGlobal
 static
 already_AddRefed
 <
-FetchController
+AbortController
 >
 Constructor
 (
@@ -96,7 +96,7 @@ aRv
 )
 ;
 explicit
-FetchController
+AbortController
 (
 nsIGlobalObject
 *
@@ -129,7 +129,7 @@ GetParentObject
 )
 const
 ;
-FetchSignal
+AbortSignal
 *
 Signal
 (
@@ -143,7 +143,7 @@ Abort
 void
 Follow
 (
-FetchSignal
+AbortSignal
 &
 aSignal
 )
@@ -151,12 +151,12 @@ aSignal
 void
 Unfollow
 (
-FetchSignal
+AbortSignal
 &
 aSignal
 )
 ;
-FetchSignal
+AbortSignal
 *
 Following
 (
@@ -172,7 +172,7 @@ override
 private
 :
 ~
-FetchController
+AbortController
 (
 )
 =
@@ -186,7 +186,7 @@ mGlobal
 ;
 RefPtr
 <
-FetchSignal
+AbortSignal
 >
 mSignal
 ;

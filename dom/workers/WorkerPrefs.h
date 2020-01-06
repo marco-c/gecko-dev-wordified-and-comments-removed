@@ -264,12 +264,12 @@ WORKER_SIMPLE_PREF
 "
 dom
 .
-fetchController
+abortController
 .
 enabled
 "
-FetchControllerEnabled
-FETCHCONTROLLER_ENABLED
+AbortControllerEnabled
+ABORTCONTROLLER_ENABLED
 )
 WORKER_SIMPLE_PREF
 (
