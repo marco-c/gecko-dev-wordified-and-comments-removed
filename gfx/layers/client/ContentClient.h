@@ -275,6 +275,10 @@ mBufferSizePolicy
 (
 aBufferSizePolicy
 )
+mInAsyncPaint
+(
+false
+)
 {
 }
 virtual
@@ -402,8 +406,7 @@ aReadbackUpdates
 =
 nullptr
 )
-{
-}
+;
 virtual
 gfx
 :
@@ -532,6 +535,12 @@ IntSize
 aSize
 )
 ;
+OpenMode
+LockMode
+(
+)
+const
+;
 virtual
 void
 FinalizeFrame
@@ -573,6 +582,9 @@ mBuffer
 ;
 BufferSizePolicy
 mBufferSizePolicy
+;
+bool
+mInAsyncPaint
 ;
 }
 ;
