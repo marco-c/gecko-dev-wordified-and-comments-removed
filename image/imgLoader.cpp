@@ -2982,7 +2982,7 @@ nsISupports
 aLoadingContext
 nsIPrincipal
 *
-aLoadingPrincipal
+aTriggeringPrincipal
 nsContentPolicyType
 aPolicyType
 )
@@ -3031,7 +3031,7 @@ NS_CheckContentLoadPolicy
 (
 aPolicyType
 contentLocation
-aLoadingPrincipal
+aTriggeringPrincipal
 aLoadingContext
 EmptyCString
 (
@@ -3125,7 +3125,7 @@ nsContentUtils
 :
 IsSystemPrincipal
 (
-aLoadingPrincipal
+aTriggeringPrincipal
 )
 )
 {
@@ -3137,12 +3137,12 @@ requestingLocation
 ;
 if
 (
-aLoadingPrincipal
+aTriggeringPrincipal
 )
 {
 rv
 =
-aLoadingPrincipal
+aTriggeringPrincipal
 -
 >
 GetURI
@@ -3183,7 +3183,7 @@ EmptyCString
 (
 )
 nullptr
-aLoadingPrincipal
+aTriggeringPrincipal
 &
 decision
 )
@@ -3275,7 +3275,7 @@ int32_t
 corsmode
 nsIPrincipal
 *
-loadingPrincipal
+triggeringPrincipal
 nsISupports
 *
 aCX
@@ -3347,7 +3347,7 @@ otherprincipal
 request
 -
 >
-GetLoadingPrincipal
+GetTriggeringPrincipal
 (
 )
 ;
@@ -3357,7 +3357,7 @@ otherprincipal
 &
 &
 !
-loadingPrincipal
+triggeringPrincipal
 )
 {
 return
@@ -3369,7 +3369,7 @@ if
 otherprincipal
 &
 &
-loadingPrincipal
+triggeringPrincipal
 )
 {
 bool
@@ -3382,7 +3382,7 @@ otherprincipal
 >
 Equals
 (
-loadingPrincipal
+triggeringPrincipal
 &
 equals
 )
@@ -3404,7 +3404,7 @@ ShouldLoadCachedImage
 (
 request
 aCX
-loadingPrincipal
+triggeringPrincipal
 aPolicyType
 )
 ;
@@ -3446,7 +3446,7 @@ nsContentPolicyType
 aPolicyType
 nsIPrincipal
 *
-aLoadingPrincipal
+aTriggeringPrincipal
 nsISupports
 *
 aRequestingContext
@@ -3585,7 +3585,7 @@ if
 requestingNode
 &
 &
-aLoadingPrincipal
+aTriggeringPrincipal
 )
 {
 rv
@@ -3595,7 +3595,7 @@ NS_NewChannelWithTriggeringPrincipal
 aResult
 aURI
 requestingNode
-aLoadingPrincipal
+aTriggeringPrincipal
 securityFlags
 aPolicyType
 nullptr
@@ -3654,7 +3654,7 @@ loadInfo
 >
 SetOriginAttributes
 (
-aLoadingPrincipal
+aTriggeringPrincipal
 -
 >
 OriginAttributesRef
@@ -3703,12 +3703,12 @@ attrs
 ;
 if
 (
-aLoadingPrincipal
+aTriggeringPrincipal
 )
 {
 attrs
 =
-aLoadingPrincipal
+aTriggeringPrincipal
 -
 >
 OriginAttributesRef
@@ -3774,7 +3774,7 @@ rv
 *
 aForcePrincipalCheckForCacheEntry
 =
-aLoadingPrincipal
+aTriggeringPrincipal
 &
 &
 nsContentUtils
@@ -3782,7 +3782,7 @@ nsContentUtils
 :
 ChannelShouldInheritPrincipal
 (
-aLoadingPrincipal
+aTriggeringPrincipal
 aURI
 false
 false
@@ -7608,7 +7608,7 @@ imgRequestProxy
 aProxyRequest
 nsIPrincipal
 *
-aLoadingPrincipal
+aTriggeringPrincipal
 int32_t
 aCORSMode
 )
@@ -7727,7 +7727,7 @@ aLoadGroup
 mAcceptHeader
 aLoadFlags
 aLoadPolicyType
-aLoadingPrincipal
+aTriggeringPrincipal
 aCX
 mRespectPrivacy
 )
@@ -7977,7 +7977,7 @@ imgRequestProxy
 aProxyRequest
 nsIPrincipal
 *
-aLoadingPrincipal
+aTriggeringPrincipal
 int32_t
 aCORSMode
 )
@@ -8167,7 +8167,7 @@ ForcePrincipalCheck
 (
 )
 aCORSMode
-aLoadingPrincipal
+aTriggeringPrincipal
 aCX
 aLoadPolicyType
 aReferrerPolicy
@@ -8551,7 +8551,7 @@ aLoadingDocument
 aLoadFlags
 aLoadPolicyType
 aProxyRequest
-aLoadingPrincipal
+aTriggeringPrincipal
 aCORSMode
 )
 ;
@@ -9284,7 +9284,7 @@ nsAString
 aReferrerPolicy
 nsIPrincipal
 *
-aLoadingPrincipal
+aTriggeringPrincipal
 nsILoadGroup
 *
 aLoadGroup
@@ -9364,7 +9364,7 @@ aURI
 aInitialDocumentURI
 aReferrerURI
 refpol
-aLoadingPrincipal
+aTriggeringPrincipal
 0
 aLoadGroup
 aObserver
@@ -9409,7 +9409,7 @@ ReferrerPolicy
 aReferrerPolicy
 nsIPrincipal
 *
-aLoadingPrincipal
+aTriggeringPrincipal
 uint64_t
 aRequestContextID
 nsILoadGroup
@@ -9706,12 +9706,12 @@ attrs
 ;
 if
 (
-aLoadingPrincipal
+aTriggeringPrincipal
 )
 {
 attrs
 =
-aLoadingPrincipal
+aTriggeringPrincipal
 -
 >
 OriginAttributesRef
@@ -9777,7 +9777,7 @@ requestFlags
 aContentPolicyType
 true
 _retval
-aLoadingPrincipal
+aTriggeringPrincipal
 corsmode
 )
 )
@@ -9948,7 +9948,7 @@ aLoadGroup
 mAcceptHeader
 requestFlags
 aContentPolicyType
-aLoadingPrincipal
+aTriggeringPrincipal
 aContext
 mRespectPrivacy
 )
@@ -10166,7 +10166,7 @@ channelLoadGroup
 newChannel
 entry
 aLoadingDocument
-aLoadingPrincipal
+aTriggeringPrincipal
 corsmode
 aReferrerPolicy
 )
@@ -12758,12 +12758,12 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-loadingPrincipal
+triggeringPrincipal
 =
 mRequest
 -
 >
-GetLoadingPrincipal
+GetTriggeringPrincipal
 (
 )
 ;
@@ -12818,7 +12818,7 @@ aRequest
 channel
 mNewEntry
 context
-loadingPrincipal
+triggeringPrincipal
 corsmode
 refpol
 )

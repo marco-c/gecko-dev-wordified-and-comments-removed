@@ -259,7 +259,7 @@ nsISupports
 aCX
 nsIPrincipal
 *
-aLoadingPrincipal
+aTriggeringPrincipal
 int32_t
 aCORSMode
 ReferrerPolicy
@@ -380,7 +380,7 @@ already_AddRefed
 <
 nsIPrincipal
 >
-GetLoadingPrincipal
+GetTriggeringPrincipal
 (
 )
 const
@@ -391,7 +391,7 @@ nsIPrincipal
 >
 principal
 =
-mLoadingPrincipal
+mTriggeringPrincipal
 ;
 return
 principal
@@ -755,7 +755,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mLoadingPrincipal
+mTriggeringPrincipal
 ;
 nsCOMPtr
 <

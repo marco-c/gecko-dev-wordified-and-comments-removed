@@ -4252,7 +4252,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-loadingPrincipal
+triggeringPrincipal
 ;
 bool
 result
@@ -4265,7 +4265,7 @@ GetLoadingPrincipalForXULNode
 content
 getter_AddRefs
 (
-loadingPrincipal
+triggeringPrincipal
 )
 )
 ;
@@ -4313,7 +4313,7 @@ LoadImage
 aNewURI
 thisNode
 aDocument
-loadingPrincipal
+triggeringPrincipal
 0
 aDocument
 -
