@@ -10055,6 +10055,12 @@ signal
 }
 #
 endif
+sAlreadyInSignalHandler
+.
+infallibleInit
+(
+)
+;
 #
 if
 defined
