@@ -1083,19 +1083,19 @@ printToPdf
 callback
 )
 {
-var
+let
 currentDoc
 =
 content
 .
 document
 ;
-var
+let
 isPrintSelection
 =
 false
 ;
-var
+let
 printRange
 =
 '
@@ -1106,7 +1106,7 @@ if
 currentDoc
 )
 {
-var
+let
 contentRootElement
 =
 currentDoc
@@ -1203,7 +1203,7 @@ return
 ;
 }
 }
-var
+let
 fileName
 =
 "
@@ -1214,7 +1214,7 @@ print
 pdf
 "
 ;
-var
+let
 file
 =
 Services
@@ -1248,7 +1248,7 @@ NORMAL_FILE_TYPE
 0o644
 )
 ;
-var
+let
 PSSVC
 =
 CC
@@ -1263,7 +1263,7 @@ CI
 nsIPrintSettingsService
 )
 ;
-var
+let
 ps
 =
 PSSVC
@@ -1360,7 +1360,7 @@ nsIPrintSettings
 .
 kRangeSpecifiedPageRange
 ;
-var
+let
 range
 =
 printRange
@@ -1399,7 +1399,7 @@ range
 1
 ;
 }
-var
+let
 webBrowserPrint
 =
 content
