@@ -2015,7 +2015,7 @@ window
 =
 do_QueryInterface
 (
-mScriptHandlingObject
+scriptHandlingObject
 )
 ;
 if
