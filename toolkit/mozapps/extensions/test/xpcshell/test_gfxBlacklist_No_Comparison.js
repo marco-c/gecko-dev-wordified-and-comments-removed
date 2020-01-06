@@ -212,7 +212,9 @@ Ci
 nsIGfxInfo
 )
 ;
-do_check_true
+if
+(
+!
 (
 gfxInfo
 instanceof
@@ -220,7 +222,15 @@ Ci
 .
 nsIGfxInfoDebug
 )
+)
+{
+do_test_finished
+(
+)
 ;
+return
+;
+}
 gfxInfo
 .
 QueryInterface
