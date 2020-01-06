@@ -4094,6 +4094,10 @@ toolbarbutton
 if
 (
 areaIsPanel
+&
+&
+!
+gPhotonStructure
 )
 {
 node
@@ -5120,6 +5124,12 @@ aPanelContents
 true
 )
 ;
+if
+(
+!
+gPhotonStructure
+)
+{
 child
 .
 setAttribute
@@ -5132,6 +5142,7 @@ true
 "
 )
 ;
+}
 }
 this
 .
