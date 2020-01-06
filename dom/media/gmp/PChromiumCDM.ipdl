@@ -450,6 +450,11 @@ Shutdown
 (
 )
 ;
+async
+IncreaseShmemPoolSize
+(
+)
+;
 }
 ;
 }
