@@ -1161,14 +1161,6 @@ else
 :
 #
 unixish
-env
-[
-'
-MOZILLA_FIVE_HOME
-'
-]
-=
-xrePath
 dmdLibrary
 =
 "
