@@ -1558,6 +1558,8 @@ mMaintainRange
 ;
 nsSelectionAmount
 mMaintainedAmount
+=
+eSelectNoAmount
 ;
 int32_t
 mBatching
@@ -1579,6 +1581,8 @@ mAncestorLimiter
 nsIPresShell
 *
 mShell
+=
+nullptr
 ;
 int16_t
 mSelectionChangeReason
@@ -1649,6 +1653,8 @@ false
 ;
 bool
 mDragState
+=
+false
 ;
 bool
 mMouseDoubleDownState
@@ -1667,6 +1673,8 @@ false
 ;
 int8_t
 mCaretMovementStyle
+=
+0
 ;
 static
 bool
