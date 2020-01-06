@@ -253,6 +253,12 @@ nsIURI
 >
 mSelectedCandidateURL
 ;
+UniquePtr
+<
+RawServoSourceSizeList
+>
+mServoSourceSizeList
+;
 nsTArray
 <
 nsAutoPtr
