@@ -359,6 +359,7 @@ double
 aPlaybackRate
 )
 {
+static
 const
 StickyTimeDuration
 zeroDuration
