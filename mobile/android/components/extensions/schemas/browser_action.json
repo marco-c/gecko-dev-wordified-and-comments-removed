@@ -486,11 +486,6 @@ name
 setTitle
 "
 "
-unsupported
-"
-:
-true
-"
 type
 "
 :
@@ -662,11 +657,6 @@ name
 "
 getTitle
 "
-"
-unsupported
-"
-:
-true
 "
 type
 "
