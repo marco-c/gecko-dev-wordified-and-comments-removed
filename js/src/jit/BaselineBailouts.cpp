@@ -4934,7 +4934,6 @@ js
 :
 StackUses
 (
-script
 pc
 )
 ;
