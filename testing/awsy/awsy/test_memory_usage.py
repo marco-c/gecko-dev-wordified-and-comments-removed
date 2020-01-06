@@ -1478,10 +1478,25 @@ _resultsDir
 checkpoint_file
 )
         
+if
+sys
+.
+platform
+.
+startswith
+(
+'
+win
+'
+)
+:
+            
 checkpoint_path
 =
+(
 checkpoint_path
 .
+                               
 replace
 (
 '
@@ -1494,6 +1509,21 @@ replace
 \
 \
 '
+)
+.
+                               
+replace
+(
+'
+/
+'
+'
+\
+\
+\
+\
+'
+)
 )
         
 checkpoint_script
