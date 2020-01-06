@@ -198,7 +198,7 @@ mozrunner
 .
 4
 .
-1
+2
 (
 registry
 +
@@ -3822,7 +3822,7 @@ version
 .
 4
 .
-1
+2
 "
 source
 =
@@ -9669,7 +9669,7 @@ mozrunner
 .
 4
 .
-1
+2
 (
 registry
 +
@@ -9694,7 +9694,7 @@ index
 "
 =
 "
-68e6a21ef32a737399a34d9a89640b350d8b47ef03457225c0c223842cf2311f
+eb9d113eaa876c004ad5119224e318b36fd358658e47cdd49b45d209b2d7ac82
 "
 "
 checksum
