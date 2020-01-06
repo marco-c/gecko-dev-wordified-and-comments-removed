@@ -158,16 +158,6 @@ browser
 .
 onboarding
 .
-hidden
-"
-PREF_BOOL
-]
-[
-"
-browser
-.
-onboarding
-.
 notification
 .
 finished

@@ -48,13 +48,6 @@ browser
 .
 onboarding
 .
-hidden
-=
-false
-browser
-.
-onboarding
-.
 tour
 -
 set
