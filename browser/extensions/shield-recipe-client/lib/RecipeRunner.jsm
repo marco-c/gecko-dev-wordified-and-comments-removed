@@ -500,6 +500,7 @@ observer
 {
 observe
 :
+async
 (
 subject
 topic
@@ -518,6 +519,7 @@ observer
 UI_AVAILABLE_NOTIFICATION
 )
 ;
+await
 this
 .
 run
