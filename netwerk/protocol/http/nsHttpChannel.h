@@ -2625,9 +2625,6 @@ mWaitingForProxy
 =
 false
 ;
-bool
-mOnCacheAvailableCalled
-;
 Atomic
 <
 bool
@@ -2636,9 +2633,6 @@ mRaceCacheWithNetwork
 ;
 uint32_t
 mRaceDelay
-;
-bool
-mCacheAsyncOpenCalled
 ;
 bool
 mIgnoreCacheEntry
