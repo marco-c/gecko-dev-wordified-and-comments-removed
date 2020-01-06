@@ -177,7 +177,7 @@ aArgs
 "
 :
 "
-error
+warn
 "
 "
 mozilla
@@ -267,7 +267,7 @@ level
 "
 :
 "
-error
+warn
 "
 "
 react
@@ -365,7 +365,7 @@ class
 :
 [
 "
-error
+warn
 "
 "
 never
