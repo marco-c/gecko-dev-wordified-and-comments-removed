@@ -563,11 +563,6 @@ GenericSpecifiedValuesInlines
 h
 '
 '
-HandleRefPtr
-.
-h
-'
-'
 IncrementalClearCOMRuleArray
 .
 h
