@@ -69,6 +69,14 @@ taskgraph
 .
 transforms
 .
+name_sanity
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 nightly_l10n_signing
 :
 transforms

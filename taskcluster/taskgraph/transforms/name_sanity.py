@@ -144,6 +144,35 @@ build_type
 }
 "
         
+elif
+attr
+(
+'
+l10n_chunk
+'
+)
+:
+            
+template
+=
+"
+{
+kind
+}
+-
+{
+build_platform
+}
+-
+{
+l10n_chunk
+}
+/
+{
+build_type
+}
+"
+        
 else
 :
             
@@ -216,6 +245,17 @@ locale
 '
 '
 )
+)
+            
+l10n_chunk
+=
+attr
+(
+'
+l10n_chunk
+'
+'
+'
 )
         
 )
