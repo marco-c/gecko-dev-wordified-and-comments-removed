@@ -29,7 +29,7 @@ finish
 setTimeout
 (
 done
-500
+10000
 )
 ;
 }
