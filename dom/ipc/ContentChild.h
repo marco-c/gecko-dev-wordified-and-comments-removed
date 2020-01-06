@@ -1929,6 +1929,10 @@ RecvActivateA11y
 const
 uint32_t
 &
+aMainChromeTid
+const
+uint32_t
+&
 aMsaaID
 )
 override
@@ -2642,6 +2646,16 @@ defined
 (
 ACCESSIBILITY
 )
+uint32_t
+GetChromeMainThreadId
+(
+)
+const
+{
+return
+mMainChromeTid
+;
+}
 uint32_t
 GetMsaaID
 (
@@ -3468,6 +3482,9 @@ defined
 (
 ACCESSIBILITY
 )
+uint32_t
+mMainChromeTid
+;
 uint32_t
 mMsaaID
 ;
