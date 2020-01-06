@@ -224,7 +224,7 @@ job
 =
 worker_thread
 .
-pop
+take_local_job
 (
 )
 {

@@ -1853,7 +1853,7 @@ pub
 trait
 IndexedParallelIterator
 :
-ExactParallelIterator
+ParallelIterator
 {
 type
 Producer

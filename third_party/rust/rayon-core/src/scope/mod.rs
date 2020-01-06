@@ -2,11 +2,7 @@
 [
 cfg
 (
-feature
-=
-"
-unstable
-"
+rayon_unstable
 )
 ]
 use
@@ -426,11 +422,7 @@ job_ref
 [
 cfg
 (
-feature
-=
-"
-unstable
-"
+rayon_unstable
 )
 ]
 pub

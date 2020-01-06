@@ -260,9 +260,7 @@ self
 -
 >
 bool
-{
-false
-}
+;
 }
 pub
 trait
@@ -361,9 +359,7 @@ self
 -
 >
 bool
-{
-false
-}
+;
 }
 pub
 trait
