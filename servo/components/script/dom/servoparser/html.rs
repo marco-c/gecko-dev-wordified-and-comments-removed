@@ -195,7 +195,7 @@ serialize
 TraversalScope
 :
 :
-ChildrenOnly
+IncludeNode
 ;
 use
 html5ever
@@ -1402,9 +1402,9 @@ new
 (
 node
 traversal_scope
+!
 =
-=
-ChildrenOnly
+IncludeNode
 )
 ;
 for
