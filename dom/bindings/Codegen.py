@@ -60534,6 +60534,7 @@ GetOwnPropertyNames
 (
 cx
 properties
+enumerableOnly
 rv
 )
 ;
@@ -77084,6 +77085,19 @@ FastErrorResult
 rv
 ;
             
+/
+/
+This
+wants
+all
+own
+props
+not
+just
+enumerable
+ones
+.
+            
 self
 -
 >
@@ -77091,6 +77105,7 @@ GetOwnPropertyNames
 (
 cx
 props
+false
 rv
 )
 ;

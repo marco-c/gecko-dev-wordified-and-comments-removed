@@ -16689,6 +16689,7 @@ JS
 :
 AutoIdVector
 &
+bool
 ErrorResult
 &
 aRv

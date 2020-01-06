@@ -434,6 +434,7 @@ JS
 :
 AutoIdVector
 &
+bool
 mozilla
 :
 :
