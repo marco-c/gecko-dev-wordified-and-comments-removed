@@ -389,6 +389,17 @@ mImageSizeChanged
 =
 false
 ;
+gfx
+:
+:
+IntSize
+mIntrinsicSize
+;
+bool
+mIntrinsicSizeChanged
+=
+false
+;
 }
 mMainThreadState
 ;
@@ -415,9 +426,6 @@ mFrameID
 ;
 VideoFrame
 mLastPlayedVideoFrame
-;
-bool
-mIntrinsicSizeChanged
 ;
 PrincipalHandle
 mLastPrincipalHandle
