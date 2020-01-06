@@ -477,6 +477,11 @@ nsIContentSerializer
 h
 '
 '
+nsIdentifierMapEntry
+.
+h
+'
+'
 nsIDocument
 .
 h
