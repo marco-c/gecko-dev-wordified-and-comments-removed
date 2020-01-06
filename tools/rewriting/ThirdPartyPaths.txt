@@ -68,7 +68,7 @@ gfx
 webrender
 gfx
 /
-webrender_traits
+webrender_api
 gfx
 /
 ycbcr

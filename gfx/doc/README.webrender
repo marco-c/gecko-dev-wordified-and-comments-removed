@@ -308,7 +308,7 @@ over
 the
 webrender
 and
-webrender_traits
+webrender_api
 folders
 into
 gfx
@@ -331,7 +331,7 @@ webrender
 and
 gfx
 /
-webrender_traits
+webrender_api
 folders
 and
 use

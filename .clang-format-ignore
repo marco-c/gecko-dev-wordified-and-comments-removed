@@ -244,7 +244,7 @@ webrender
 ^
 gfx
 /
-webrender_traits
+webrender_api
 .
 *
 ^
