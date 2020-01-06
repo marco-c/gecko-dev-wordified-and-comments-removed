@@ -140,7 +140,8 @@ style_traits
 :
 {
 ToCss
-OneOrMoreCommaSeparated
+OneOrMoreSeparated
+CommaSeparator
 ParseError
 StyleParseError
 }
@@ -205,10 +206,15 @@ FamilyName
 )
 }
 impl
-OneOrMoreCommaSeparated
+OneOrMoreSeparated
 for
 Source
 {
+type
+S
+=
+CommaSeparator
+;
 }
 #
 [
