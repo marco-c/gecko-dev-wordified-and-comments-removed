@@ -80,6 +80,15 @@ GamepadChangeEvent
 aEvent
 )
 :
+Runnable
+(
+"
+dom
+:
+:
+SendGamepadUpdateRunnable
+"
+)
 mEvent
 (
 aEvent

@@ -2493,6 +2493,15 @@ PRTime
 aLastVisitDate
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+FrecencyNotification
+"
+)
 mSpec
 (
 aSpec
@@ -3063,7 +3072,7 @@ mExpireNowTimer
 mExpireNowTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 expireNowTimerCallback
 this
@@ -3072,6 +3081,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+nsNavHistory
+:
+:
+GetNow
+"
 )
 ;
 }

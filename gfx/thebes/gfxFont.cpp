@@ -997,7 +997,7 @@ aEventTarget
 mWordCacheExpirationTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 WordCacheExpirationTimerCallback
 this
@@ -1008,6 +1008,12 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+gfxFontCache
+:
+:
+gfxFontCache
+"
 )
 ;
 }

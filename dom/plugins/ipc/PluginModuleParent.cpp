@@ -5709,6 +5709,12 @@ NS_DispatchToMainThread
 (
 NewNonOwningRunnableMethod
 (
+"
+nsNPAPIPlugin
+:
+:
+AddRef
+"
 mPlugin
 &
 nsNPAPIPlugin
@@ -5761,6 +5767,12 @@ NS_DispatchToMainThread
 (
 NewNonOwningRunnableMethod
 (
+"
+nsNPAPIPlugin
+:
+:
+Release
+"
 mPlugin
 &
 nsNPAPIPlugin

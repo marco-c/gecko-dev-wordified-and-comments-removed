@@ -155,6 +155,12 @@ nsINestedEventLoopCondition
 aCondition
 )
 :
+Runnable
+(
+"
+SpinRunnable
+"
+)
 mCondition
 (
 aCondition
@@ -257,6 +263,12 @@ uint32_t
 aCounter
 )
 :
+Runnable
+(
+"
+CountRunnable
+"
+)
 mCounter
 (
 aCounter

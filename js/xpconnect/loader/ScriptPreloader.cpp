@@ -2511,6 +2511,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+ScriptPreloader
+:
+:
+PrepareCacheWrite
+"
 this
 &
 ScriptPreloader
@@ -3593,6 +3599,12 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
+"
+ScriptPreloader
+:
+:
+DoFinishOffThreadDecode
+"
 cache
 &
 ScriptPreloader

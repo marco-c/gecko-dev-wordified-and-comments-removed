@@ -159,6 +159,15 @@ nsresult
 status
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+nsNotifyDoomListener
+"
+)
 mListener
 (
 listener

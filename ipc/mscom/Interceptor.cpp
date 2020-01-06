@@ -2263,6 +2263,12 @@ Invoke
 (
 NS_NewRunnableFunction
 (
+"
+Interceptor
+:
+:
+QueryInterface
+"
 runOnMainThread
 )
 )

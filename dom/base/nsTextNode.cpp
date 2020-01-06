@@ -1278,6 +1278,12 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
+"
+nsAttributeTextNode
+:
+:
+AttributeChanged
+"
 this
 update
 )

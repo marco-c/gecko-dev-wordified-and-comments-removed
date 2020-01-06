@@ -794,6 +794,15 @@ nsGenericHTMLFormElement
 aElement
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+nsAutoFocusEvent
+"
+)
 mElement
 (
 aElement

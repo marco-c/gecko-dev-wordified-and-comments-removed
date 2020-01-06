@@ -5667,6 +5667,15 @@ runnable
 =
 NewRunnableMethod
 (
+"
+dom
+:
+:
+Animation
+:
+:
+DoFinishNotificationImmediately
+"
 this
 &
 Animation

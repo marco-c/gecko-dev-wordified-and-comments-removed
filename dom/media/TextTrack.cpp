@@ -1430,6 +1430,15 @@ TaskCategory
 Other
 NS_NewRunnableFunction
 (
+"
+dom
+:
+:
+TextTrack
+:
+:
+DispatchAsyncTrustedEvent
+"
 [
 self
 aEventName

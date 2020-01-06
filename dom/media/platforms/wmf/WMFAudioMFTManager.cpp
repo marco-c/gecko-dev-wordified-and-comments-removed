@@ -1130,6 +1130,12 @@ task
 =
 NS_NewRunnableFunction
 (
+"
+WMFAudioMFTManager
+:
+:
+Output
+"
 [
 ]
 (

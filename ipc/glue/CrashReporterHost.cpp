@@ -977,6 +977,15 @@ runnable
 =
 NS_NewRunnableFunction
 (
+"
+ipc
+:
+:
+CrashReporterHost
+:
+:
+NotifyCrashService
+"
 [
 =
 ]

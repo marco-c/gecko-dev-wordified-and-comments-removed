@@ -2162,6 +2162,15 @@ TextureClient
 aClient
 )
 :
+Runnable
+(
+"
+layers
+:
+:
+TextureClientReleaseTask
+"
+)
 mTextureClient
 (
 aClient

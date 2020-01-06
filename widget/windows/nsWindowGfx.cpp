@@ -1753,6 +1753,12 @@ event
 =
 NewRunnableMethod
 (
+"
+nsWindow
+:
+:
+ForcePresent
+"
 this
 &
 nsWindow

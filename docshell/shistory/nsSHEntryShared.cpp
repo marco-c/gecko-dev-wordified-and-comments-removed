@@ -745,6 +745,15 @@ nsIDocument
 aDocument
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+DestroyViewerEvent
+"
+)
 mViewer
 (
 aViewer

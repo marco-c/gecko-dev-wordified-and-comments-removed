@@ -800,6 +800,12 @@ NS_DelayedDispatchToCurrentThread
 (
 NewRunnableMethod
 (
+"
+PreallocatedProcessManagerImpl
+:
+:
+AllocateNow
+"
 this
 &
 PreallocatedProcessManagerImpl
@@ -853,6 +859,12 @@ NS_IdleDispatchToCurrentThread
 (
 NewRunnableMethod
 (
+"
+PreallocatedProcessManagerImpl
+:
+:
+AllocateNow
+"
 this
 &
 PreallocatedProcessManagerImpl

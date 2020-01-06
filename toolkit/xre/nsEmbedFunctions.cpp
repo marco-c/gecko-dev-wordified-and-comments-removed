@@ -3344,6 +3344,15 @@ void
 aData
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+MainFunctionRunnable
+"
+)
 mFunction
 (
 aFunction

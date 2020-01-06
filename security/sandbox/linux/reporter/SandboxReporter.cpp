@@ -428,6 +428,12 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+SandboxReporter
+:
+:
+Singleton
+"
 [
 ]
 {

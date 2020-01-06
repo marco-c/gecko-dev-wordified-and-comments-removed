@@ -210,6 +210,12 @@ Derived
 aConsumer
 )
 :
+Runnable
+(
+"
+BeginConsumeBodyRunnable
+"
+)
 mFetchBodyConsumer
 (
 aConsumer

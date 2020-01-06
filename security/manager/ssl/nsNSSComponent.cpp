@@ -544,6 +544,9 @@ SyncRunnable
 (
 NS_NewRunnableFunction
 (
+"
+EnsureNSSInitializedChromeOrContent
+"
 [
 ]
 (

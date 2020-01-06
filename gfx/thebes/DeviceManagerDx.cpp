@@ -2779,6 +2779,9 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+DisableAdvancedLayers
+"
 [
 aStatus
 aMessage
@@ -4597,6 +4600,12 @@ task
 =
 NS_NewRunnableFunction
 (
+"
+DeviceManagerDx
+:
+:
+PreloadAttachmentsOnCompositorThread
+"
 [
 enableAL
 ]

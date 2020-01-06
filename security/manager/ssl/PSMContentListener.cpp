@@ -593,6 +593,15 @@ r
 =
 NewRunnableMethod
 (
+"
+psm
+:
+:
+PSMContentStreamListener
+:
+:
+ImportCertificate
+"
 this
 &
 PSMContentStreamListener

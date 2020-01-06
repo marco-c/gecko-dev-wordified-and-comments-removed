@@ -9253,6 +9253,15 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+layers
+:
+:
+MLGDeviceD3D11
+:
+:
+InitSyncObject
+"
 [
 ]
 (
