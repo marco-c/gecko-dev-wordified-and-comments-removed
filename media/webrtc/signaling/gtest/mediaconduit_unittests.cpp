@@ -55,6 +55,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 nss
 .
 h
@@ -1336,6 +1345,9 @@ inbuf
 SAMPLES
 )
 ;
+Unused
+<
+<
 fwrite
 (
 inbuf
