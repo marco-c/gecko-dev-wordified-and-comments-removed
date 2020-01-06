@@ -69,9 +69,6 @@ nsITreeColumns
 interface
 nsIDOMElement
 ;
-interface
-nsIAtom
-;
 [
 scriptable
 uuid
@@ -130,14 +127,6 @@ out
 wstring
 idConst
 )
-;
-[
-noscript
-]
-readonly
-attribute
-nsIAtom
-atom
 ;
 readonly
 attribute
