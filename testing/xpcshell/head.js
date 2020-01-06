@@ -30,6 +30,9 @@ _profileInitialized
 =
 false
 ;
+var
+_XPCSHELL_PROCESS
+;
 _register_modules_protocol_handler
 (
 )
@@ -6530,7 +6533,6 @@ _JSDEBUGGER_PORT
 "
 +
 "
-const
 _XPCSHELL_PROCESS
 =
 '
