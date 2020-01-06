@@ -157,6 +157,12 @@ mozilla
 RoundUpPow2
 ;
 using
+mozilla
+:
+:
+Unused
+;
+using
 JS
 :
 :
@@ -8830,6 +8836,11 @@ check
 s
 )
 )
+;
+Unused
+<
+<
+check
 ;
 RootedValue
 val
