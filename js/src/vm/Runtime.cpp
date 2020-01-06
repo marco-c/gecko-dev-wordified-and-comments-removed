@@ -4347,11 +4347,10 @@ RegisterWeakCache
 JSRuntime
 *
 rt
-WeakCache
-<
-void
-*
->
+detail
+:
+:
+WeakCacheBase
 *
 cachep
 )

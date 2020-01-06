@@ -409,9 +409,6 @@ nullptr
 innerViews
 (
 zone
-InnerViewTable
-(
-)
 )
 lazyArrayBuffers
 (
