@@ -24,8 +24,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 my_resolve
 }
 ;
@@ -756,8 +754,6 @@ JSClassOps
 myGlobalClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr

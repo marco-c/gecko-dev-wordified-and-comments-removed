@@ -55,8 +55,6 @@ clsOps
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 JS_NewEnumerateStandardClasses
 GlobalResolve
 nullptr

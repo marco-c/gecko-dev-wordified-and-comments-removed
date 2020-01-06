@@ -5443,8 +5443,6 @@ ArgumentsObject
 :
 :
 obj_delProperty
-nullptr
-nullptr
 MappedArgumentsObject
 :
 :
@@ -5542,8 +5540,6 @@ ArgumentsObject
 :
 :
 obj_delProperty
-nullptr
-nullptr
 UnmappedArgumentsObject
 :
 :

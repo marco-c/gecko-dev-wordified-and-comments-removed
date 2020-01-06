@@ -10455,8 +10455,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 ThrowingConstructor
 nullptr
 ThrowingConstructor

@@ -3275,8 +3275,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 CollatorObject
 :
 :
@@ -6339,8 +6337,6 @@ NumberFormatObject
 classOps_
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr
@@ -10535,8 +10531,6 @@ DateTimeFormatObject
 classOps_
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr
@@ -16414,8 +16408,6 @@ PluralRulesObject
 classOps_
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr

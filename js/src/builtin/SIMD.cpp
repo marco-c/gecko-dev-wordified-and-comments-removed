@@ -1269,8 +1269,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 TypeDescr
 :
 :
@@ -2622,8 +2620,6 @@ ClassOps
 SimdObjectClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr

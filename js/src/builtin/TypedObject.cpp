@@ -791,8 +791,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 TypeDescr
 :
 :
@@ -1264,8 +1262,6 @@ ClassOps
 ReferenceTypeDescrClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr
@@ -1967,8 +1963,6 @@ ClassOps
 ArrayTypeDescrClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr
@@ -3250,8 +3244,6 @@ ClassOps
 StructTypeDescrClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr
@@ -10972,20 +10964,6 @@ nullptr
 /
 *
 delProperty
-*
-/
-\
-nullptr
-/
-*
-getProperty
-*
-/
-\
-nullptr
-/
-*
-setProperty
 *
 /
 \

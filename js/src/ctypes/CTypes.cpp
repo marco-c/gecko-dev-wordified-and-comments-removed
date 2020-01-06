@@ -2629,8 +2629,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 ConstructAbstract
 nullptr
 ConstructAbstract
@@ -2671,8 +2669,6 @@ JSClassOps
 sCTypeClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr
@@ -2732,8 +2728,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 CData
 :
 :
@@ -2774,8 +2768,6 @@ JSClassOps
 sCClosureClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr
@@ -2832,8 +2824,6 @@ JSClassOps
 sCDataFinalizerClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr
@@ -3880,8 +3870,6 @@ JSClassOps
 sInt64ClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr

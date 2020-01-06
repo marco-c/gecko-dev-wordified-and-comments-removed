@@ -6212,8 +6212,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 finalize
 nullptr
 nullptr
@@ -7893,8 +7891,6 @@ ClassOps
 StopIterationObjectClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr

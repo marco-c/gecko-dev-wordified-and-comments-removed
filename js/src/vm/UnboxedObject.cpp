@@ -5565,8 +5565,6 @@ UnboxedPlainObjectClassOps
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 UnboxedPlainObject
 :
 :
@@ -9452,8 +9450,6 @@ ClassOps
 UnboxedArrayObjectClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr

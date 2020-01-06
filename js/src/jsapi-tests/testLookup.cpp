@@ -392,8 +392,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 document_resolve
 nullptr
 }

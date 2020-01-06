@@ -2989,8 +2989,6 @@ StringObjectClassOps
 {
 nullptr
 nullptr
-nullptr
-nullptr
 str_enumerate
 nullptr
 str_resolve

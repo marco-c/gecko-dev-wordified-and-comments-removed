@@ -4491,8 +4491,6 @@ JSFunctionClassOps
 {
 nullptr
 nullptr
-nullptr
-nullptr
 fun_enumerate
 nullptr
 fun_resolve

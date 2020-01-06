@@ -4305,8 +4305,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
-nullptr
 internal_JSHistogram_finalize
 }
 ;
@@ -5398,8 +5396,6 @@ JSClassOps
 sJSKeyedHistogramClassOps
 =
 {
-nullptr
-nullptr
 nullptr
 nullptr
 nullptr
