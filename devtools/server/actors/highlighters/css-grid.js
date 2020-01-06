@@ -32,6 +32,7 @@ refresh
 const
 {
 CANVAS_SIZE
+DEFAULT_COLOR
 drawBubbleRect
 drawLine
 drawRect
@@ -189,14 +190,6 @@ devtools
 gridinspector
 .
 showNegativeLineNumbers
-"
-;
-const
-DEFAULT_GRID_COLOR
-=
-"
-#
-4B0082
 "
 ;
 const
@@ -1583,7 +1576,7 @@ options
 color
 |
 |
-DEFAULT_GRID_COLOR
+DEFAULT_COLOR
 ;
 }
 getGridGapPattern

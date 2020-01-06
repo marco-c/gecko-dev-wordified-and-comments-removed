@@ -54,6 +54,14 @@ CANVAS_SIZE
 =
 4096
 ;
+const
+DEFAULT_COLOR
+=
+"
+#
+9400FF
+"
+;
 function
 drawBubbleRect
 (
@@ -1840,6 +1848,12 @@ exports
 CANVAS_SIZE
 =
 CANVAS_SIZE
+;
+exports
+.
+DEFAULT_COLOR
+=
+DEFAULT_COLOR
 ;
 exports
 .
