@@ -69,6 +69,14 @@ taskgraph
 .
 transforms
 .
+name_sanity
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 repackage
 :
 transforms
