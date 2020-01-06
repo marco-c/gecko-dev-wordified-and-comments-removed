@@ -154,13 +154,10 @@ nsPresContext
 *
 mPresContext
 ;
-RefPtr
-<
 mozilla
 :
 :
-CounterStyle
->
+CounterStylePtr
 mCounterStyle
 ;
 bool
@@ -195,10 +192,6 @@ aCounterFunction
 mPresContext
 (
 aPresContext
-)
-mCounterStyle
-(
-nullptr
 )
 mAllCounters
 (

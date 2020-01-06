@@ -17804,9 +17804,7 @@ StyleList
 )
 -
 >
-GetCounterStyle
-(
-)
+mCounterStyle
 ;
 AnonymousCounterStyle
 *
@@ -17831,12 +17829,10 @@ anonymous
 nsString
 type
 ;
-StyleList
-(
-)
+style
 -
 >
-GetListStyleType
+GetStyleName
 (
 type
 )
