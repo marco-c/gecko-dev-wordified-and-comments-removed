@@ -1094,6 +1094,11 @@ PermissionUI
 jsm
 '
 '
+PingCentre
+.
+jsm
+'
+'
 PluginContent
 .
 jsm
