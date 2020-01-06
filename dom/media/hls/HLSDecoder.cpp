@@ -138,9 +138,6 @@ resourceWrapper
 ;
 MediaFormatReaderInit
 init
-(
-this
-)
 ;
 init
 .

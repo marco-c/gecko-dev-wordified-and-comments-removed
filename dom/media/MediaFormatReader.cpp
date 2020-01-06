@@ -5328,12 +5328,6 @@ ShutdownPromisePool
 (
 )
 )
-mDecoder
-(
-aInit
-.
-mDecoder
-)
 mBuffered
 (
 mTaskQueue
@@ -5788,10 +5782,6 @@ mBuffered
 DisconnectAll
 (
 )
-;
-mDecoder
-=
-nullptr
 ;
 return
 mTaskQueue

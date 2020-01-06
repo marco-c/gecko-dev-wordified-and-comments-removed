@@ -143,9 +143,6 @@ CreateStateMachine
 {
 MediaFormatReaderInit
 init
-(
-this
-)
 ;
 init
 .

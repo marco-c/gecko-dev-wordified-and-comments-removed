@@ -833,9 +833,6 @@ mMainThread
 ;
 MediaFormatReaderInit
 init
-(
-mBufferDecoder
-)
 ;
 init
 .
