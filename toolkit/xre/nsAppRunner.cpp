@@ -19755,6 +19755,13 @@ SetName
 gResetOldProfileName
 )
 ;
+mProfileName
+.
+Assign
+(
+gResetOldProfileName
+)
+;
 if
 (
 profileWasSelected
