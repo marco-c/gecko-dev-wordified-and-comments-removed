@@ -346,7 +346,7 @@ browser
 .
 contentURI
 .
-spec
+displaySpec
 ;
 else
 label
@@ -355,7 +355,7 @@ tab
 .
 originalURI
 .
-spec
+displaySpec
 ;
 return
 {

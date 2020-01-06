@@ -4506,7 +4506,7 @@ scheme
 +
 uri
 .
-hostPort
+displayHostPort
 ;
 }
 fireDialogEvent

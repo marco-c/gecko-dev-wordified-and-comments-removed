@@ -9342,7 +9342,9 @@ spec
 .
 startsWith
 (
-aURL
+uri
+.
+spec
 )
 )
 {
@@ -13572,14 +13574,14 @@ entry
 .
 URI
 .
-spec
+displaySpec
 url
 :
 entry
 .
 URI
 .
-spec
+displaySpec
 selected
 :
 (
@@ -20214,7 +20216,7 @@ newURI
 aURL
 )
 .
-spec
+displaySpec
 ;
 }
 catch
@@ -24801,7 +24803,7 @@ this
 .
 originalURI
 .
-spec
+displaySpec
 ;
 }
 catch
@@ -25204,7 +25206,7 @@ scheme
 &
 principalURI
 .
-host
+displayHost
 )
 {
 try
@@ -25219,7 +25221,7 @@ getBaseDomainFromHost
 (
 principalURI
 .
-host
+displayHost
 )
 ;
 if
@@ -25227,7 +25229,7 @@ if
 !
 principalURI
 .
-host
+displayHost
 .
 endsWith
 (
@@ -25424,7 +25426,7 @@ truncate
 (
 fixedURI
 .
-spec
+displaySpec
 MAX_URI_LENGTH
 )
 userRequested
@@ -33394,7 +33396,7 @@ title
 |
 docURI
 .
-host
+displayHost
 )
 }
 ;

@@ -452,7 +452,7 @@ uri
 :
 aUri
 .
-spec
+displaySpec
 where
 :
 aWhere
@@ -1024,7 +1024,7 @@ uri
 :
 fixedURI
 .
-spec
+displaySpec
 canGoBack
 :
 this

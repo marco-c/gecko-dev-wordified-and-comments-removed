@@ -659,7 +659,7 @@ uri
 :
 uri
 .
-spec
+displaySpec
 video
 :
 constraints
@@ -1186,7 +1186,7 @@ principal
 .
 URI
 .
-spec
+displaySpec
 perm
 :
 perm

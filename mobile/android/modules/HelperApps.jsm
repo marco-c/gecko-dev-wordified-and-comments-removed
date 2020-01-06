@@ -1205,7 +1205,7 @@ uri
 ?
 uri
 .
-spec
+displaySpec
 :
 "
 "
