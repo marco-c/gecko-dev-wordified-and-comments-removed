@@ -383,6 +383,14 @@ Linux
 DEFINES
 [
 '
+USE_X11
+'
+]
+=
+True
+DEFINES
+[
+'
 WEBRTC_BUILD_LIBEVENT
 '
 ]
