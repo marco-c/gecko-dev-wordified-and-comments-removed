@@ -1920,6 +1920,9 @@ MAIN_THREAD
 0
 )
 ;
+#
+ifndef
+RELEASE_OR_BETA
 prioritized
 -
 >
@@ -1933,6 +1936,8 @@ NextIdleDeadlineRef
 )
 )
 ;
+#
+endif
 mainThread
 .
 forget
