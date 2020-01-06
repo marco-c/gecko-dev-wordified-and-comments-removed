@@ -804,17 +804,11 @@ protected
 explicit
 MediaCache
 (
-int64_t
-aContentLength
 MediaBlockCacheBase
 *
 aCache
 )
 :
-mContentLength
-(
-aContentLength
-)
 mNextResourceID
 (
 1
@@ -1292,10 +1286,6 @@ static
 MediaCache
 *
 gMediaCache
-;
-const
-int64_t
-mContentLength
 ;
 int64_t
 mNextResourceID
@@ -2839,7 +2829,6 @@ mc
 new
 MediaCache
 (
-aContentLength
 bc
 )
 ;
@@ -2937,8 +2926,6 @@ gMediaCache
 new
 MediaCache
 (
--
-1
 bc
 )
 ;
