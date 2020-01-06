@@ -37679,7 +37679,7 @@ tcp
 .
 tcp_fastopen_enable
 "
-false
+true
 )
 ;
 pref
@@ -39873,7 +39873,7 @@ memory
 .
 free_dirty_pages
 "
-true
+false
 )
 ;
 #
@@ -40011,16 +40011,6 @@ activity
 blipIntervalMilliseconds
 "
 0
-)
-;
-pref
-(
-"
-jsloader
-.
-shareGlobal
-"
-false
 )
 ;
 pref
@@ -44362,8 +44352,6 @@ layers
 .
 mlgpu
 .
-dev
--
 enabled
 "
 true
@@ -44394,8 +44382,6 @@ layers
 .
 mlgpu
 .
-dev
--
 enabled
 "
 false

@@ -5470,8 +5470,6 @@ layers
 .
 mlgpu
 .
-dev
--
 enabled
 "
 AdvancedLayersEnabledDoNotUseDirectly
