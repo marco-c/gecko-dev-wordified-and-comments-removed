@@ -3629,13 +3629,6 @@ set_root_pipeline
 pipeline_id
 )
 ;
-api
-.
-generate_frame
-(
-None
-)
-;
 }
 #
 [
