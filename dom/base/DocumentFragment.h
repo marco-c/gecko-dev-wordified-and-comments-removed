@@ -145,6 +145,11 @@ nsINode
 GetElementById
 ;
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+DocumentFragment
+FragmentOrElement
+)
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_DECL_NSIDOMDOCUMENTFRAGMENT
 explicit
@@ -449,7 +454,7 @@ return
 nullptr
 ;
 }
-nsIContent
+Element
 *
 GetHost
 (
@@ -463,7 +468,7 @@ mHost
 void
 SetHost
 (
-nsIContent
+Element
 *
 aHost
 )
@@ -553,8 +558,10 @@ aPreallocateChildren
 const
 override
 ;
-nsIContent
-*
+nsCOMPtr
+<
+Element
+>
 mHost
 ;
 }

@@ -124,9 +124,9 @@ NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 ShadowRoot
 (
-nsIContent
+Element
 *
-aContent
+aElement
 already_AddRefed
 <
 mozilla

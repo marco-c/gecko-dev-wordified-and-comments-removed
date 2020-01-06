@@ -584,6 +584,12 @@ CreateDocumentFragment
 )
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_INHERITED
+(
+DocumentFragment
+FragmentOrElement
+mHost
+)
 NS_INTERFACE_MAP_BEGIN
 (
 DocumentFragment

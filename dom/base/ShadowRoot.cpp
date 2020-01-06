@@ -303,9 +303,9 @@ ShadowRoot
 :
 ShadowRoot
 (
-nsIContent
+Element
 *
-aContent
+aElement
 already_AddRefed
 <
 mozilla
@@ -330,7 +330,7 @@ aNodeInfo
 )
 mPoolHost
 (
-aContent
+aElement
 )
 mProtoBinding
 (
@@ -351,7 +351,7 @@ false
 {
 SetHost
 (
-aContent
+aElement
 )
 ;
 ClearSubtreeRootPointer
@@ -370,7 +370,7 @@ ExtendedDOMSlots
 >
 mBindingParent
 =
-aContent
+aElement
 ;
 ExtendedDOMSlots
 (
