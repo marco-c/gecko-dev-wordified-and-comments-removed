@@ -101,6 +101,7 @@ exists
 (
 )
 )
+{
 destFile
 .
 remove
@@ -108,6 +109,7 @@ remove
 false
 )
 ;
+}
 var
 bakFile
 =
@@ -138,6 +140,7 @@ exists
 (
 )
 )
+{
 bakFile
 .
 remove
@@ -145,6 +148,7 @@ remove
 false
 )
 ;
+}
 testfile
 .
 copyTo

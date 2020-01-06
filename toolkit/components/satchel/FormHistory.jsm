@@ -1393,9 +1393,11 @@ if
 !
 queryTerms
 )
+{
 return
 undefined
 ;
+}
 query
 +
 =
@@ -1634,9 +1636,11 @@ Cr
 .
 NS_ERROR_FILE_CORRUPTED
 )
+{
 throw
 e
 ;
+}
 dbCleanup
 (
 dbFile
