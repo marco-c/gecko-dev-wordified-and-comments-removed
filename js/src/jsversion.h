@@ -78,6 +78,9 @@ iterable
 *
 /
 #
+ifndef
+NIGHTLY_BUILD
+#
 define
 JS_HAS_EXPR_CLOSURES
 1
@@ -91,6 +94,8 @@ formals
 listexpr
 *
 /
+#
+endif
 #
 define
 JS_OLD_GETTER_SETTER_METHODS
