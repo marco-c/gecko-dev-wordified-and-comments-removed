@@ -59,14 +59,6 @@ on_unimplemented
 [
 feature
 (
-optin_builtin_traits
-)
-]
-#
-!
-[
-feature
-(
 option_entry
 )
 ]
