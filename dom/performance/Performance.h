@@ -151,6 +151,7 @@ aGivenProto
 )
 override
 ;
+virtual
 void
 GetEntries
 (
@@ -165,6 +166,7 @@ PerformanceEntry
 aRetval
 )
 ;
+virtual
 void
 GetEntriesByType
 (
@@ -183,6 +185,7 @@ PerformanceEntry
 aRetval
 )
 ;
+virtual
 void
 GetEntriesByName
 (
@@ -613,7 +616,7 @@ PerformanceObserver
 >
 mObservers
 ;
-private
+protected
 :
 static
 const

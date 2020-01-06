@@ -138,6 +138,11 @@ PerformanceNavigation
 h
 '
 '
+PerformanceNavigationTiming
+.
+h
+'
+'
 PerformanceObserver
 .
 h
@@ -194,6 +199,11 @@ cpp
 '
 '
 PerformanceNavigation
+.
+cpp
+'
+'
+PerformanceNavigationTiming
 .
 cpp
 '
