@@ -186,17 +186,6 @@ fi
 fi
 fi
 fi
-if
-test
-"
-NIGHTLY_BUILD
-"
-;
-then
-MOZ_RUST_URLPARSE
-=
-1
-fi
 #
 Enable
 building
