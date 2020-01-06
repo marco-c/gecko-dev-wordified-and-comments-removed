@@ -16,12 +16,6 @@ nsDOMClassInfoID
 {
 eDOMClassInfo_DOMPrototype_id
 eDOMClassInfo_DOMConstructor_id
-#
-ifdef
-MOZ_XUL
-eDOMClassInfo_TreeContentView_id
-#
-endif
 eDOMClassInfo_ContentFrameMessageManager_id
 eDOMClassInfo_ContentProcessMessageManager_id
 eDOMClassInfo_ChromeMessageBroadcaster_id

@@ -5465,6 +5465,11 @@ TreeColumns
 webidl
 '
 '
+TreeContentView
+.
+webidl
+'
+'
 TreeView
 .
 webidl
