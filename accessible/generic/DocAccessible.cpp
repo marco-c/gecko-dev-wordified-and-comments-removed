@@ -9330,7 +9330,7 @@ insertIdx
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 child
 =
@@ -9361,7 +9361,7 @@ arrayIdx
 continue
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 children
 -
@@ -9920,6 +9920,14 @@ IsRelocated
 )
 )
 {
+aChild
+-
+>
+SetRelocated
+(
+false
+)
+;
 nsTArray
 <
 RefPtr
@@ -10615,6 +10623,10 @@ Remove
 (
 aRoot
 )
+;
+owned
+=
+nullptr
 ;
 }
 }
