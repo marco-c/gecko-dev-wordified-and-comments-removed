@@ -3416,9 +3416,14 @@ None
 )
 :
         
-try
+if
+not
+sig
 :
             
+try
+:
+                
 self
 .
 shellCheckOutput
@@ -3440,10 +3445,10 @@ self
 .
 short_timeout
 )
-        
+            
 except
 :
-            
+                
 self
 .
 _logger
