@@ -1523,6 +1523,16 @@ disallowInheritPrincipal
 =
 true
 ;
+options
+.
+parentId
+=
+BrowserApp
+.
+selectedTab
+.
+id
+;
 tabListener
 .
 initTabReady
