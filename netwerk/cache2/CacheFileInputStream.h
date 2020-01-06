@@ -163,11 +163,17 @@ const
 return
 mChunk
 ?
+static_cast
+<
+int64_t
+>
+(
 mChunk
 -
 >
 Index
 (
+)
 )
 :
 -
