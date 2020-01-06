@@ -356,5 +356,15 @@ UrgentStart
 <
 6
 ;
+const
+unsigned
+long
+DontThrottle
+=
+1
+<
+<
+7
+;
 }
 ;
