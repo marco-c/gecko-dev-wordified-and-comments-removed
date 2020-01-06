@@ -206,6 +206,12 @@ dll
 "
 L
 "
+prntm64
+.
+dll
+"
+L
+"
 hmpalert
 .
 dll
@@ -225,6 +231,12 @@ dll
 L
 "
 wrusr
+.
+dll
+"
+L
+"
+guard32
 .
 dll
 "
