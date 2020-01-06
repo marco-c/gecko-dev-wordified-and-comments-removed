@@ -7377,7 +7377,7 @@ WarnOnceAbout
 nsIDocument
 :
 :
-eWindow_Controllers
+eWindow_Cc_ontrollers
 )
 ;
 }

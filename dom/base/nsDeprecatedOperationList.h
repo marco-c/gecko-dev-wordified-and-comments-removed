@@ -108,7 +108,7 @@ SyncXMLHttpRequest
 )
 DEPRECATED_OPERATION
 (
-Window_Controllers
+Window_Cc_ontrollers
 )
 DEPRECATED_OPERATION
 (
