@@ -1744,6 +1744,13 @@ traversal_driver
 is_parallel
 (
 )
+&
+&
+element
+.
+is_root
+(
+)
 {
 parallel
 :
