@@ -118,6 +118,10 @@ fileid
 '
     
 '
+geckodriver
+'
+    
+'
 minidumpwriter
 '
     
