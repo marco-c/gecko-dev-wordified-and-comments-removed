@@ -2577,6 +2577,8 @@ Logger
 .
 AssertTrue
 (
+(
+await
 HistoryEntry
 .
 Find
@@ -2585,6 +2587,7 @@ entry
 this
 .
 _usSinceEpoch
+)
 )
 "
 Uri
@@ -2607,6 +2610,8 @@ Logger
 AssertTrue
 (
 !
+(
+await
 HistoryEntry
 .
 Find
@@ -2615,6 +2620,7 @@ entry
 this
 .
 _usSinceEpoch
+)
 )
 "
 Uri
@@ -2679,6 +2685,7 @@ catch
 e
 )
 {
+await
 DumpHistory
 (
 )
