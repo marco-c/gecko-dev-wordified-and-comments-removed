@@ -1272,7 +1272,7 @@ int32_t
 aOffset
 )
 ;
-nsresult
+EditActionResult
 ReturnInParagraph
 (
 Selection
@@ -1289,12 +1289,6 @@ aOffset
 nsIContent
 *
 aChildAtOffset
-bool
-*
-aCancel
-bool
-*
-aHandled
 )
 ;
 nsresult
