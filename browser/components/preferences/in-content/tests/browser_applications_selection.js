@@ -25,9 +25,8 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-applications
+general
 "
-null
 {
 leaveOpen
 :
@@ -43,7 +42,7 @@ page
 opened
 on
 the
-applications
+general
 pane
 .
 "
@@ -140,6 +139,7 @@ handlersView
 ;
 }
 )
+;
 add_task
 (
 async
