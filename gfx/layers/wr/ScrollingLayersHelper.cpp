@@ -1037,7 +1037,7 @@ break
 }
 }
 }
-MOZ_ASSERT
+if
 (
 it
 !
@@ -1048,7 +1048,7 @@ end
 (
 )
 )
-;
+{
 ids
 .
 second
@@ -1061,6 +1061,7 @@ it
 second
 )
 ;
+}
 }
 }
 return
