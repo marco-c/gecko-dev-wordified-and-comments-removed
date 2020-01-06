@@ -117,12 +117,10 @@ aOutList
 bool
 ComputeRebuildRegion
 (
-std
-:
-:
-vector
+nsTArray
 <
-WeakFrame
+nsIFrame
+*
 >
 &
 aModifiedFrames
