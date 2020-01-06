@@ -1579,7 +1579,10 @@ self
 )
 -
 >
+Option
+<
 BrowsingContextId
+>
 ;
 fn
 iframe_pipeline_id
@@ -1589,7 +1592,10 @@ self
 )
 -
 >
+Option
+<
 PipelineId
+>
 ;
 fn
 get_colspan

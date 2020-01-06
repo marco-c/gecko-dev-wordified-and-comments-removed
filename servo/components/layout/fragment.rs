@@ -2345,11 +2345,17 @@ IframeFragmentInfo
 pub
 browsing_context_id
 :
+Option
+<
 BrowsingContextId
+>
 pub
 pipeline_id
 :
+Option
+<
 PipelineId
+>
 }
 impl
 IframeFragmentInfo

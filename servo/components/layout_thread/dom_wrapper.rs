@@ -5872,7 +5872,10 @@ self
 )
 -
 >
+Option
+<
 BrowsingContextId
+>
 {
 let
 this
@@ -5900,7 +5903,10 @@ self
 )
 -
 >
+Option
+<
 PipelineId
+>
 {
 let
 this
