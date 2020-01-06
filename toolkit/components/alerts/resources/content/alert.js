@@ -384,7 +384,7 @@ ALERT_BUNDLE
 formatStringFromName
 (
 "
-doNotDisturb
+pauseNotifications
 .
 label
 "
