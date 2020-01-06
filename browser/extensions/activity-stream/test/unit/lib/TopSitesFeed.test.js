@@ -140,7 +140,7 @@ links
 let
 clock
 ;
-before
+beforeEach
 (
 (
 )
@@ -160,16 +160,6 @@ globals
 .
 sandbox
 ;
-}
-)
-;
-beforeEach
-(
-(
-)
-=
->
-{
 globals
 .
 set

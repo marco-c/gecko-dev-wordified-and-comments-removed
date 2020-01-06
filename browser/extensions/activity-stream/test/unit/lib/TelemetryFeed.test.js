@@ -58,7 +58,6 @@ UndesiredPing
 UserEventPing
 PerfPing
 SessionPing
-assertMatchesSchema
 }
 =
 require
@@ -964,7 +963,9 @@ createPing
 (
 )
 ;
-assertMatchesSchema
+assert
+.
+validate
 (
 ping
 BasePing
@@ -1044,7 +1045,9 @@ createPing
 portID
 )
 ;
-assertMatchesSchema
+assert
+.
+validate
 (
 ping
 BasePing
@@ -1164,7 +1167,9 @@ createUserEvent
 action
 )
 ;
-assertMatchesSchema
+assert
+.
+validate
 (
 ping
 UserEventPing
@@ -1251,7 +1256,9 @@ createUndesiredEvent
 action
 )
 ;
-assertMatchesSchema
+assert
+.
+validate
 (
 ping
 UndesiredPing
@@ -1348,7 +1355,9 @@ createUndesiredEvent
 action
 )
 ;
-assertMatchesSchema
+assert
+.
+validate
 (
 ping
 UndesiredPing
@@ -1441,7 +1450,9 @@ createPerformanceEvent
 action
 )
 ;
-assertMatchesSchema
+assert
+.
+validate
 (
 ping
 PerfPing
@@ -1533,7 +1544,9 @@ createPerformanceEvent
 action
 )
 ;
-assertMatchesSchema
+assert
+.
+validate
 (
 ping
 PerfPing
@@ -1618,7 +1631,9 @@ session_duration
 }
 )
 ;
-assertMatchesSchema
+assert
+.
+validate
 (
 ping
 SessionPing

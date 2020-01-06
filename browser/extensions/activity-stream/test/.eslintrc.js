@@ -39,6 +39,11 @@ sinon
 "
 :
 true
+"
+chai
+"
+:
+true
 }
 }
 ;
