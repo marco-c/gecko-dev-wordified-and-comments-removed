@@ -308,28 +308,34 @@ final_piece
                         
 self
 .
-logger
+marionette
 .
-warn
+log
 (
 '
 time_left
 greater
 than
 '
-                                         
+                                            
 '
 final_piece
 -
 {
 }
 '
-                                         
+                                            
 .
 format
 (
 time_left
 )
+                                            
+level
+=
+'
+WARNING
+'
 )
                         
 self
@@ -343,9 +349,9 @@ else
                     
 self
 .
-logger
+marionette
 .
-warn
+log
 (
 '
 Duration
@@ -356,12 +362,18 @@ to
 {
 }
 '
-                                     
+                                        
 .
 format
 (
 youtube
 )
+                                        
+level
+=
+'
+WARNING
+'
 )
                     
 self

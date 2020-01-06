@@ -395,6 +395,13 @@ fixtures
         
 self
 .
+loglines
+=
+[
+]
+        
+self
+.
 duration
 =
 0
@@ -1447,12 +1454,12 @@ self
         
 self
 .
-_delete_session
+_deleteSession
 (
 )
     
 def
-_delete_session
+_deleteSession
 (
 self
 )
@@ -1462,9 +1469,9 @@ if
 hasattr
 (
 self
-"
+'
 start_time
-"
+'
 )
 :
             
@@ -1483,6 +1490,18 @@ self
 start_time
         
 if
+hasattr
+(
+self
+.
+marionette
+'
+session
+'
+)
+:
+            
+if
 self
 .
 marionette
@@ -1492,10 +1511,55 @@ is
 not
 None
 :
-            
+                
 try
 :
+                    
+self
+.
+loglines
+.
+extend
+(
+self
+.
+marionette
+.
+get_logs
+(
+)
+)
                 
+except
+Exception
+inst
+:
+                    
+self
+.
+loglines
+=
+[
+[
+'
+Error
+getting
+log
+:
+{
+}
+'
+.
+format
+(
+inst
+)
+]
+]
+                
+try
+:
+                    
 self
 .
 marionette
@@ -1503,11 +1567,11 @@ marionette
 delete_session
 (
 )
-            
+                
 except
 IOError
 :
-                
+                    
 pass
         
 self
@@ -1768,18 +1832,25 @@ test_name
         
 self
 .
-logger
+marionette
 .
-info
+execute_script
 (
 "
+log
+(
+'
 TEST
 -
 START
 :
 {
+0
 }
+'
+)
 "
+                                       
 .
 format
 (
@@ -1787,6 +1858,12 @@ self
 .
 test_name
 )
+                                       
+sandbox
+=
+"
+simpletest
+"
 )
     
 def
@@ -1827,18 +1904,25 @@ try
                 
 self
 .
-logger
+marionette
 .
-info
+execute_script
 (
 "
+log
+(
+'
 TEST
 -
 END
 :
 {
+0
 }
+'
+)
 "
+                                               
 .
 format
 (
@@ -1846,6 +1930,12 @@ self
 .
 test_name
 )
+                                               
+sandbox
+=
+"
+simpletest
+"
 )
                 
 self
