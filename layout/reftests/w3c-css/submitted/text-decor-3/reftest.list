@@ -3459,15 +3459,6 @@ oscpu
 43
 1
 )
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 text
