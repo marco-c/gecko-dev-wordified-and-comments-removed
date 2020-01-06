@@ -613,13 +613,10 @@ mHangStack
 NativeHangStack
 mNativeHangStack
 ;
-UniquePtr
-<
 HangMonitor
 :
 :
 HangAnnotations
->
 mAnnotations
 ;
 HangMonitor

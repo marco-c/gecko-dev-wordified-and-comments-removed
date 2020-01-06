@@ -101,6 +101,8 @@ HangDetails
 &
 aOther
 )
+=
+default
 ;
 HangDetails
 (
@@ -130,13 +132,10 @@ HangStack
 &
 &
 aPseudoStack
-UniquePtr
-<
 HangMonitor
 :
 :
 HangAnnotations
->
 &
 &
 aAnnotations
@@ -189,13 +188,10 @@ mRunnableName
 HangStack
 mPseudoStack
 ;
-UniquePtr
-<
 HangMonitor
 :
 :
 HangAnnotations
->
 mAnnotations
 ;
 Telemetry
