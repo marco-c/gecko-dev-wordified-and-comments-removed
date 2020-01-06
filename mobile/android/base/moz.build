@@ -4587,6 +4587,17 @@ java
 '
 activitystream
 /
+homepanel
+/
+topstories
+/
+PocketStoriesLoader
+.
+java
+'
+'
+activitystream
+/
 ranking
 /
 HighlightCandidate
