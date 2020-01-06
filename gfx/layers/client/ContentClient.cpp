@@ -1341,7 +1341,7 @@ return
 capturedState
 -
 >
-mTarget
+mTargetDual
 ;
 }
 RefPtr
@@ -1464,6 +1464,12 @@ CapturedPaintState
 (
 regionToDraw
 result
+mBuffer
+-
+>
+GetDTBuffer
+(
+)
 mBuffer
 -
 >
