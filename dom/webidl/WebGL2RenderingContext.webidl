@@ -3548,8 +3548,6 @@ GLsizei
 height
 GLint
 border
-GLsizei
-imageSize
 GLintptr
 offset
 )
@@ -3600,8 +3598,6 @@ GLsizei
 depth
 GLint
 border
-GLsizei
-imageSize
 GLintptr
 offset
 )
@@ -3654,8 +3650,6 @@ GLsizei
 height
 GLenum
 format
-GLsizei
-imageSize
 GLintptr
 offset
 )
@@ -3712,8 +3706,6 @@ GLsizei
 depth
 GLenum
 format
-GLsizei
-imageSize
 GLintptr
 offset
 )
