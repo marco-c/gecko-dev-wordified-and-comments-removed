@@ -337,7 +337,7 @@ tags
 {
 basestring
 :
-object
+basestring
 }
     
 Optional
