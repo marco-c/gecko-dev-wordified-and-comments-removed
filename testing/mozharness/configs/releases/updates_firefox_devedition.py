@@ -292,6 +292,14 @@ cfg
 "
             
 "
+patcher_config_product_override
+"
+:
+"
+firefox
+"
+            
+"
 update_verify_channel
 "
 :
@@ -364,4 +372,20 @@ balrog_use_dummy_suffix
 "
 :
 False
+    
+"
+stage_product
+"
+:
+"
+devedition
+"
+    
+"
+bouncer_product
+"
+:
+"
+devedition
+"
 }
