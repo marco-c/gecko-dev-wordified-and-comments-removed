@@ -18582,6 +18582,8 @@ functionExpr
 (
 uint32_t
 toStringStart
+ExpressionClosure
+expressionClosureHandling
 InvokedPrediction
 invoked
 FunctionAsyncKind
@@ -32971,6 +32973,10 @@ memberExpr
 (
 yieldHandling
 TripledotProhibited
+ExpressionClosure
+:
+:
+Forbidden
 tt
 )
 ;
@@ -35673,6 +35679,8 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
+ExpressionClosure
+expressionClosureHandling
 PossibleError
 *
 possibleError
@@ -35712,6 +35720,7 @@ unaryExpr
 (
 yieldHandling
 tripledotHandling
+expressionClosureHandling
 possibleError
 invoked
 )
@@ -35725,6 +35734,13 @@ return
 null
 (
 )
+;
+expressionClosureHandling
+=
+ExpressionClosure
+:
+:
+Forbidden
 ;
 TokenKind
 tok
@@ -35988,6 +36004,8 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
+ExpressionClosure
+expressionClosureHandling
 PossibleError
 *
 possibleError
@@ -36003,6 +36021,7 @@ orExpr
 inHandling
 yieldHandling
 tripledotHandling
+expressionClosureHandling
 possibleError
 invoked
 )
@@ -36553,6 +36572,10 @@ condExpr
 inHandling
 yieldHandling
 tripledotHandling
+ExpressionClosure
+:
+:
+Allowed
 &
 possibleErrorInner
 invoked
@@ -37511,6 +37534,10 @@ unaryExpr
 (
 yieldHandling
 TripledotProhibited
+ExpressionClosure
+:
+:
+Forbidden
 )
 ;
 if
@@ -37559,6 +37586,8 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
+ExpressionClosure
+expressionClosureHandling
 PossibleError
 *
 possibleError
@@ -37682,6 +37711,10 @@ unaryExpr
 (
 yieldHandling
 TripledotProhibited
+ExpressionClosure
+:
+:
+Forbidden
 )
 ;
 if
@@ -37750,6 +37783,10 @@ memberExpr
 (
 yieldHandling
 TripledotProhibited
+ExpressionClosure
+:
+:
+Forbidden
 tt2
 )
 ;
@@ -37825,6 +37862,10 @@ unaryExpr
 (
 yieldHandling
 TripledotProhibited
+ExpressionClosure
+:
+:
+Forbidden
 )
 ;
 if
@@ -37905,6 +37946,10 @@ unaryExpr
 (
 yieldHandling
 tripledotHandling
+ExpressionClosure
+:
+:
+Forbidden
 possibleError
 invoked
 )
@@ -37949,6 +37994,7 @@ memberExpr
 (
 yieldHandling
 tripledotHandling
+expressionClosureHandling
 tt
 true
 possibleError
@@ -38494,6 +38540,8 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
+ExpressionClosure
+expressionClosureHandling
 TokenKind
 tt
 bool
@@ -38593,6 +38641,10 @@ memberExpr
 (
 yieldHandling
 TripledotProhibited
+ExpressionClosure
+:
+:
+Forbidden
 tt
 false
 nullptr
@@ -38747,6 +38799,7 @@ primaryExpr
 (
 yieldHandling
 tripledotHandling
+expressionClosureHandling
 tt
 possibleError
 invoked
@@ -44404,6 +44457,8 @@ YieldHandling
 yieldHandling
 TripledotHandling
 tripledotHandling
+ExpressionClosure
+expressionClosureHandling
 TokenKind
 tt
 PossibleError
@@ -44452,7 +44507,12 @@ pos
 )
 .
 begin
+expressionClosureHandling
 invoked
+FunctionAsyncKind
+:
+:
+SyncFunction
 )
 ;
 case
@@ -44737,6 +44797,7 @@ return
 functionExpr
 (
 toStringStart
+expressionClosureHandling
 PredictUninvoked
 FunctionAsyncKind
 :
