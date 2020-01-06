@@ -3453,7 +3453,7 @@ nsXBLBinding
 nsGenericDOMDataNode
 :
 :
-GetXBLBinding
+DoGetXBLBinding
 (
 )
 const

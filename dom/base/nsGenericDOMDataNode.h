@@ -733,7 +733,7 @@ override
 virtual
 nsXBLBinding
 *
-GetXBLBinding
+DoGetXBLBinding
 (
 )
 const
