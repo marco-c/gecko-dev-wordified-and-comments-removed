@@ -178,6 +178,9 @@ resolve
 (
 "
 .
+.
+/
+shared
 /
 webpack
 "
