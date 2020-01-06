@@ -13933,8 +13933,8 @@ browser
 .
 onboarding
 .
-disabled
+enabled
 "
-false
+true
 )
 ;
