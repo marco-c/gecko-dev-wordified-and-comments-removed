@@ -103,6 +103,13 @@ DisconnectFromOwner
 (
 )
 ;
+void
+UpdateSpentTimeIn2DTelemetry
+(
+bool
+aUpdate
+)
+;
 private
 :
 ~
@@ -121,6 +128,9 @@ mSpendTimeIn2DView
 ;
 bool
 mIs2DView
+;
+bool
+mHasReset
 ;
 }
 ;

@@ -3002,6 +3002,13 @@ DisableVRUpdates
 (
 )
 ;
+void
+ResetVRTelemetry
+(
+bool
+aUpdate
+)
+;
 bool
 UpdateVRDisplays
 (
