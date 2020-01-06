@@ -2092,17 +2092,9 @@ MOZ_WIDGET_TOOLKIT
 OPTIMIZEJARS
 =
 1
-ifneq
-(
-gonk
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
 DISABLE_JAR_COMPRESSION
 =
 1
-endif
 endif
 #
 A

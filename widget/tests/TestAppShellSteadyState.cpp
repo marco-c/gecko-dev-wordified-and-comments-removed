@@ -1334,9 +1334,6 @@ android
 mac
 "
 "
-gonk
-"
-"
 gtk
 "
 "

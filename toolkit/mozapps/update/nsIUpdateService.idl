@@ -2517,14 +2517,6 @@ updated
 application
 request
 .
-Must
-be
-non
--
-null
-on
-GONK
-.
 *
 /
 void

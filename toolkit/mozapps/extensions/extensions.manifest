@@ -129,9 +129,6 @@ blocklist
 .
 interval
 86400
-#
-ifndef
-MOZ_WIDGET_GONK
 component
 {
 4399533d
@@ -344,8 +341,6 @@ addons
 GMPProvider
 .
 jsm
-#
-endif
 component
 {
 8866d8e3

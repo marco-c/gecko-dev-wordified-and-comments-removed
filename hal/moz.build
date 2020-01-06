@@ -586,10 +586,9 @@ cpp
 Fallbacks
 for
 backends
+no
+longer
 implemented
-on
-Gonk
-only
 .
 UNIFIED_SOURCES
 +
