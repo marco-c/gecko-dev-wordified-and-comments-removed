@@ -1880,15 +1880,6 @@ updater
 -
 enable
 -
-url
--
-classifier
-'
-'
--
--
-enable
--
 valgrind
 '
 '
