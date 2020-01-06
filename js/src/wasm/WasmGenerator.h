@@ -787,7 +787,8 @@ assumptions_
 LinkData
 linkData_
 ;
-MutableMetadataTier
+MetadataTier
+*
 metadataTier_
 ;
 MutableMetadata
