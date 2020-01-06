@@ -2054,15 +2054,6 @@ int32_t
 >
 suppressGC
 ;
-js
-:
-:
-ThreadLocalData
-<
-bool
->
-allowGCBarriers
-;
 #
 ifdef
 DEBUG
