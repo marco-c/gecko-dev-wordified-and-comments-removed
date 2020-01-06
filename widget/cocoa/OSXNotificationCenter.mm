@@ -1509,7 +1509,7 @@ get
 )
 }
 ;
-nsXPIDLString
+nsAutoString
 notificationSource
 ;
 bundle
@@ -1527,10 +1527,7 @@ ArrayLength
 (
 formatStrings
 )
-getter_Copies
-(
 notificationSource
-)
 )
 ;
 notification
@@ -1631,7 +1628,7 @@ isActionable
 isActionable
 )
 {
-nsXPIDLString
+nsAutoString
 closeButtonTitle
 actionButtonTitle
 disableButtonTitle
@@ -1647,10 +1644,7 @@ closeButton
 .
 title
 "
-getter_Copies
-(
 closeButtonTitle
-)
 )
 ;
 bundle
@@ -1663,10 +1657,7 @@ actionButton
 .
 label
 "
-getter_Copies
-(
 actionButtonTitle
-)
 )
 ;
 if
@@ -1711,10 +1702,7 @@ ArrayLength
 (
 formatStrings
 )
-getter_Copies
-(
 disableButtonTitle
-)
 )
 ;
 }
@@ -1730,10 +1718,7 @@ settings
 .
 label
 "
-getter_Copies
-(
 settingsButtonTitle
-)
 )
 ;
 notification

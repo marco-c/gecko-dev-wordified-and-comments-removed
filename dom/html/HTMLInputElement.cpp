@@ -3999,7 +3999,7 @@ return
 NS_OK
 ;
 }
-nsXPIDLString
+nsAutoString
 title
 ;
 nsContentUtils
@@ -4202,10 +4202,10 @@ return
 NS_OK
 ;
 }
-nsXPIDLString
+nsAutoString
 title
 ;
-nsXPIDLString
+nsAutoString
 okButtonLabel
 ;
 if
@@ -12176,7 +12176,7 @@ aValue
 return
 ;
 }
-nsXPIDLString
+nsAutoString
 value
 ;
 if
@@ -27641,7 +27641,7 @@ value
 )
 )
 {
-nsXPIDLString
+nsAutoString
 defaultValue
 ;
 nsContentUtils
@@ -31710,10 +31710,7 @@ GetStringFromName
 "
 imageFilter
 "
-getter_Copies
-(
 extensionListStr
-)
 )
 ;
 }
@@ -31747,10 +31744,7 @@ GetStringFromName
 "
 audioFilter
 "
-getter_Copies
-(
 extensionListStr
-)
 )
 ;
 }
@@ -31784,10 +31778,7 @@ GetStringFromName
 "
 videoFilter
 "
-getter_Copies
-(
 extensionListStr
-)
 )
 ;
 }
@@ -32258,7 +32249,7 @@ Length
 1
 )
 {
-nsXPIDLString
+nsAutoString
 title
 ;
 nsContentUtils

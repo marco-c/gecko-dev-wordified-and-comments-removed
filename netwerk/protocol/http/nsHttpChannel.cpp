@@ -12561,7 +12561,7 @@ rv
 return
 rv
 ;
-nsXPIDLString
+nsAutoString
 messageString
 ;
 rv
@@ -12574,10 +12574,7 @@ GetStringFromName
 "
 RepostFormData
 "
-getter_Copies
-(
 messageString
-)
 )
 ;
 if
@@ -12586,9 +12583,6 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-messageString
 )
 {
 bool
@@ -12622,6 +12616,10 @@ Confirm
 (
 nullptr
 messageString
+.
+get
+(
+)
 &
 repost
 )

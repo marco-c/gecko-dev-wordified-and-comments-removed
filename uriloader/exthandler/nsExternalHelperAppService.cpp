@@ -7860,7 +7860,7 @@ bundle
 )
 )
 {
-nsXPIDLString
+nsAutoString
 msgText
 ;
 const
@@ -7890,10 +7890,7 @@ FormatStringFromName
 msgId
 strings
 1
-getter_Copies
-(
 msgText
-)
 )
 )
 )
@@ -7921,6 +7918,10 @@ aRequest
 nullptr
 rv
 msgText
+.
+get
+(
+)
 )
 ;
 }
@@ -7948,6 +7949,10 @@ aRequest
 nullptr
 rv
 msgText
+.
+get
+(
+)
 )
 ;
 }
@@ -7978,7 +7983,7 @@ qiRv
 )
 )
 ;
-nsXPIDLString
+nsAutoString
 title
 ;
 bundle
@@ -7991,10 +7996,7 @@ title
 "
 strings
 1
-getter_Copies
-(
 title
-)
 )
 ;
 MOZ_LOG
@@ -8243,7 +8245,15 @@ prompter
 Alert
 (
 title
+.
+get
+(
+)
 msgText
+.
+get
+(
+)
 )
 ;
 }

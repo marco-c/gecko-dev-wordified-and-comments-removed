@@ -6767,7 +6767,7 @@ if
 content
 )
 {
-nsXPIDLString
+nsAutoString
 altText
 ;
 nsCSSFrameConstructor

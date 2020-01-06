@@ -3676,10 +3676,7 @@ formPostSecureToInsecureWarning
 .
 title
 "
-getter_Copies
-(
 title
-)
 )
 ;
 stringBundle
@@ -3692,10 +3689,7 @@ formPostSecureToInsecureWarning
 .
 message
 "
-getter_Copies
-(
 message
-)
 )
 ;
 stringBundle
@@ -3708,10 +3702,7 @@ formPostSecureToInsecureWarning
 .
 continue
 "
-getter_Copies
-(
 cont
-)
 )
 ;
 int32_t

@@ -780,6 +780,13 @@ mFoundSelf
 false
 )
 {
+mError
+.
+SetIsVoid
+(
+true
+)
+;
 if
 (
 aDirectiveRequired
@@ -1557,10 +1564,7 @@ FormatStringFromName
 aName
 aParams
 aLength
-getter_Copies
-(
 mError
-)
 )
 ;
 }
@@ -1596,7 +1600,7 @@ mURL
 NS_ConvertASCIItoUTF16
 mDirective
 ;
-nsXPIDLString
+nsString
 mError
 ;
 bool

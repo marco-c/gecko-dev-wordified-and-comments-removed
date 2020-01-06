@@ -319,7 +319,7 @@ rv
 rv
 )
 ;
-nsXPIDLString
+nsAutoString
 folderName
 ;
 mBundle
@@ -330,10 +330,7 @@ GetStringFromName
 "
 downloadsFolder
 "
-getter_Copies
-(
 folderName
-)
 )
 ;
 #

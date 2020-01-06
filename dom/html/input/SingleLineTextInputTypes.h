@@ -321,7 +321,7 @@ override
 nsresult
 GetTypeMismatchMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -406,7 +406,7 @@ override
 nsresult
 GetTypeMismatchMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -415,7 +415,7 @@ override
 nsresult
 GetBadInputMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

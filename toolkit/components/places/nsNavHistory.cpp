@@ -19755,7 +19755,7 @@ get
 )
 }
 ;
-nsXPIDLString
+nsAutoString
 value
 ;
 nsresult
@@ -19769,10 +19769,7 @@ FormatStringFromName
 aName
 strings
 1
-getter_Copies
-(
 value
-)
 )
 ;
 if
@@ -19829,7 +19826,7 @@ if
 bundle
 )
 {
-nsXPIDLString
+nsAutoString
 value
 ;
 nsresult
@@ -19841,10 +19838,7 @@ bundle
 GetStringFromName
 (
 aName
-getter_Copies
-(
 value
-)
 )
 ;
 if

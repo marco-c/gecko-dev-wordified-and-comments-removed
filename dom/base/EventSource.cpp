@@ -4820,7 +4820,7 @@ rv
 rv
 )
 ;
-nsXPIDLString
+nsAutoString
 message
 ;
 if
@@ -4838,10 +4838,7 @@ FormatStringFromName
 aError
 aFormatStrings
 aFormatStringsLen
-getter_Copies
-(
 message
-)
 )
 ;
 }
@@ -4855,10 +4852,7 @@ strBundle
 GetStringFromName
 (
 aError
-getter_Copies
-(
 message
-)
 )
 ;
 }

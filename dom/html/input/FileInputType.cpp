@@ -71,7 +71,7 @@ FileInputType
 :
 GetValueMissingMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

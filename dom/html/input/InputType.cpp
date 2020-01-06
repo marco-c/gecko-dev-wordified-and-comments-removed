@@ -865,7 +865,7 @@ nsIConstraintValidation
 VALIDITY_STATE_TOO_LONG
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 int32_t
@@ -970,7 +970,7 @@ nsIConstraintValidation
 VALIDITY_STATE_TOO_SHORT
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 int32_t
@@ -1075,7 +1075,7 @@ nsIConstraintValidation
 VALIDITY_STATE_VALUE_MISSING
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 rv
@@ -1111,7 +1111,7 @@ nsIConstraintValidation
 VALIDITY_STATE_TYPE_MISMATCH
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 rv
@@ -1147,7 +1147,7 @@ nsIConstraintValidation
 VALIDITY_STATE_PATTERN_MISMATCH
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 nsAutoString
@@ -1268,7 +1268,7 @@ nsIConstraintValidation
 VALIDITY_STATE_RANGE_OVERFLOW
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 rv
@@ -1304,7 +1304,7 @@ nsIConstraintValidation
 VALIDITY_STATE_RANGE_UNDERFLOW
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 rv
@@ -1340,7 +1340,7 @@ nsIConstraintValidation
 VALIDITY_STATE_STEP_MISMATCH
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 mozilla
@@ -1634,7 +1634,7 @@ nsIConstraintValidation
 VALIDITY_STATE_BAD_INPUT
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 rv
@@ -1679,7 +1679,7 @@ InputType
 :
 GetValueMissingMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -1707,7 +1707,7 @@ InputType
 :
 GetTypeMismatchMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -1722,7 +1722,7 @@ InputType
 :
 GetRangeOverflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -1737,7 +1737,7 @@ InputType
 :
 GetRangeUnderflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -1752,7 +1752,7 @@ InputType
 :
 GetBadInputMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

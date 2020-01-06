@@ -10026,7 +10026,7 @@ GetInnerWindowID
 (
 )
 ;
-nsXPIDLString
+nsAutoString
 errorText
 ;
 rv

@@ -1064,10 +1064,10 @@ stringBundle
 return
 ;
 }
-nsXPIDLString
+nsAutoString
 labelUTF16
 ;
-nsXPIDLString
+nsAutoString
 keyUTF16
 ;
 const
@@ -1098,10 +1098,7 @@ stringBundle
 GetStringFromName
 (
 labelProp
-getter_Copies
-(
 labelUTF16
-)
 )
 ;
 stringBundle
@@ -1110,10 +1107,7 @@ stringBundle
 GetStringFromName
 (
 keyProp
-getter_Copies
-(
 keyUTF16
-)
 )
 ;
 NSString

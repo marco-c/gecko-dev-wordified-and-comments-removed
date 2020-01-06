@@ -123,9 +123,8 @@ char16_t
 aParams
 uint32_t
 aLength
-char16_t
-*
-*
+nsAString
+&
 outResult
 )
 ;

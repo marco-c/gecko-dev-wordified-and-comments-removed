@@ -1292,10 +1292,7 @@ sStringBundle
 GetStringFromName
 (
 aMessage
-getter_Copies
-(
 str
-)
 )
 ;
 AddToError
@@ -1371,10 +1368,7 @@ ArrayLength
 (
 params
 )
-getter_Copies
-(
 str
-)
 )
 ;
 AddToError
@@ -1438,10 +1432,7 @@ ArrayLength
 (
 params
 )
-getter_Copies
-(
 str
-)
 )
 ;
 AddToError
@@ -1572,10 +1563,7 @@ ArrayLength
 (
 params
 )
-getter_Copies
-(
 str
-)
 )
 ;
 AddToError
@@ -1660,10 +1648,7 @@ ArrayLength
 (
 params
 )
-getter_Copies
-(
 str
-)
 )
 ;
 AddToError
@@ -1702,10 +1687,7 @@ sStringBundle
 GetStringFromName
 (
 aMessage
-getter_Copies
-(
 innerStr
-)
 )
 ;
 const
@@ -1740,10 +1722,7 @@ ArrayLength
 (
 params
 )
-getter_Copies
-(
 str
-)
 )
 ;
 AddToError
@@ -1827,10 +1806,7 @@ ArrayLength
 (
 params
 )
-getter_Copies
-(
 str
-)
 )
 ;
 AddToError

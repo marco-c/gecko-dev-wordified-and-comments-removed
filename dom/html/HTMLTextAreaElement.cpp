@@ -4724,7 +4724,7 @@ case
 VALIDITY_STATE_TOO_LONG
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 int32_t
@@ -4820,7 +4820,7 @@ case
 VALIDITY_STATE_TOO_SHORT
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 int32_t
@@ -4916,7 +4916,7 @@ case
 VALIDITY_STATE_VALUE_MISSING
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 rv

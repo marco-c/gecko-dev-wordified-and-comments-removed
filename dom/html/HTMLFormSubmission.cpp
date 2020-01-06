@@ -900,7 +900,7 @@ Append
 )
 ;
 }
-nsXPIDLString
+nsAutoString
 brandName
 ;
 nsresult
@@ -945,7 +945,7 @@ get
 )
 }
 ;
-nsXPIDLString
+nsAutoString
 subjectStr
 ;
 rv

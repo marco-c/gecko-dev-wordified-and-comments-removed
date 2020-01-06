@@ -2972,7 +2972,7 @@ rv
 rv
 )
 ;
-nsString
+nsAutoString
 fileLeafName
 ;
 rv
@@ -2985,10 +2985,7 @@ GetStringFromName
 "
 desktopBackgroundLeafNameWin
 "
-getter_Copies
-(
 fileLeafName
-)
 )
 ;
 NS_ENSURE_SUCCESS

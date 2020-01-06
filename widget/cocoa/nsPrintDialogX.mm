@@ -1755,7 +1755,7 @@ return
 "
 "
 ;
-nsXPIDLString
+nsAutoString
 intlString
 ;
 mPrintBundle
@@ -1764,10 +1764,7 @@ mPrintBundle
 GetStringFromName
 (
 aKey
-getter_Copies
-(
 intlString
-)
 )
 ;
 NSMutableString

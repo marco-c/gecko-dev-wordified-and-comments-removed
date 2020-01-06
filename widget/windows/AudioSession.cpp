@@ -767,10 +767,7 @@ GetStringFromName
 "
 brandFullName
 "
-getter_Copies
-(
 mDisplayName
-)
 )
 ;
 wchar_t

@@ -447,7 +447,7 @@ get
 )
 }
 ;
-nsXPIDLString
+nsAutoString
 resetBackupDirectoryName
 ;
 static
@@ -470,10 +470,7 @@ FormatStringFromName
 kResetBackupDirectory
 params
 2
-getter_Copies
-(
 resetBackupDirectoryName
-)
 )
 ;
 nsCOMPtr

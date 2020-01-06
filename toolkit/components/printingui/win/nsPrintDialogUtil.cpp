@@ -341,7 +341,7 @@ NS_ENSURE_ARG_POINTER
 aKey
 )
 ;
-nsXPIDLString
+nsAutoString
 valUni
 ;
 nsresult
@@ -353,10 +353,7 @@ aStrBundle
 GetStringFromName
 (
 aKey
-getter_Copies
-(
 valUni
-)
 )
 ;
 if
@@ -365,9 +362,6 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-valUni
 )
 {
 oVal

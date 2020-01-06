@@ -1476,7 +1476,7 @@ if
 bNeedDefault
 )
 {
-nsXPIDLString
+nsAutoString
 utf16String
 ;
 rv
@@ -1488,10 +1488,7 @@ pref
 get
 (
 )
-getter_Copies
-(
 utf16String
-)
 )
 ;
 if
@@ -4267,10 +4264,9 @@ const
 char
 *
 aPrefName
-char16_t
-*
-*
-return_buf
+nsAString
+&
+aReturn
 )
 {
 nsresult
@@ -4362,7 +4358,7 @@ bundle
 GetStringFromName
 (
 aPrefName
-return_buf
+aReturn
 )
 ;
 }

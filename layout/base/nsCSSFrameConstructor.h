@@ -231,7 +231,7 @@ aContent
 nsIAtom
 *
 aTag
-nsXPIDLString
+nsAString
 &
 aAltText
 )

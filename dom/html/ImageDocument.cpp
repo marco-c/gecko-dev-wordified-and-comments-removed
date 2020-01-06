@@ -2711,7 +2711,7 @@ get
 )
 }
 ;
-nsXPIDLString
+nsAutoString
 errorMsg
 ;
 mStringBundle
@@ -2724,10 +2724,7 @@ InvalidImage
 "
 formatString
 1
-getter_Copies
-(
 errorMsg
-)
 )
 ;
 mImageContent
@@ -3706,7 +3703,7 @@ mimeType
 ;
 }
 }
-nsXPIDLString
+nsAutoString
 status
 ;
 if
@@ -3757,10 +3754,7 @@ ScaledImage
 "
 formatString
 1
-getter_Copies
-(
 status
-)
 )
 ;
 }

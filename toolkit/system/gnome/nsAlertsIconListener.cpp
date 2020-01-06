@@ -1237,10 +1237,7 @@ GetStringFromName
 "
 brandShortName
 "
-getter_Copies
-(
 appName
-)
 )
 ;
 appShortName

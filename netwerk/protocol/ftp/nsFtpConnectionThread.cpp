@@ -3974,7 +3974,7 @@ formatStrings
 ucs2Response
 }
 ;
-nsXPIDLString
+nsAutoString
 formattedString
 ;
 rv
@@ -3989,10 +3989,7 @@ UnsupportedFTPServer
 "
 formatStrings
 1
-getter_Copies
-(
 formattedString
-)
 )
 ;
 free

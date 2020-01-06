@@ -666,7 +666,7 @@ value
 )
 )
 ;
-nsXPIDLString
+nsAutoString
 localizedStr
 ;
 const

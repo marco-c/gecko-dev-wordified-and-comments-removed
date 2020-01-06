@@ -1346,7 +1346,7 @@ rv
 rv
 )
 ;
-nsString
+nsAutoString
 brandShortName
 ;
 brandBundle
@@ -1357,10 +1357,7 @@ GetStringFromName
 "
 brandShortName
 "
-getter_Copies
-(
 brandShortName
-)
 )
 ;
 NS_ConvertUTF16toUTF8
@@ -1898,7 +1895,7 @@ HOME
 )
 )
 ;
-nsString
+nsAutoString
 brandName
 ;
 nsCID
@@ -1964,10 +1961,7 @@ GetStringFromName
 "
 brandShortName
 "
-getter_Copies
-(
 brandName
-)
 )
 ;
 NS_ENSURE_SUCCESS

@@ -1781,7 +1781,7 @@ bool
 aPageNumOnly
 )
 {
-nsXPIDLString
+nsAutoString
 pageNumberFormat
 ;
 nsresult

@@ -2354,7 +2354,7 @@ const
 char
 *
 aKey
-nsXPIDLString
+nsAString
 &
 aResult
 )
@@ -2427,7 +2427,7 @@ char16_t
 aParams
 uint32_t
 aParamsLength
-nsXPIDLString
+nsAString
 &
 aResult
 )
@@ -2459,7 +2459,7 @@ aParams
 [
 N
 ]
-nsXPIDLString
+nsAString
 &
 aResult
 )
@@ -2492,7 +2492,7 @@ nsString
 >
 &
 aParamArray
-nsXPIDLString
+nsAString
 &
 aResult
 )

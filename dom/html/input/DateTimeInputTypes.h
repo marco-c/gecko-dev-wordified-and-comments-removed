@@ -68,7 +68,7 @@ override
 nsresult
 GetRangeOverflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -77,7 +77,7 @@ override
 nsresult
 GetRangeUnderflowMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -212,7 +212,7 @@ aInputElement
 nsresult
 GetBadInputMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

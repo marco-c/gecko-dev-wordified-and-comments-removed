@@ -30,7 +30,7 @@ const
 char
 *
 aKey
-nsXPIDLString
+nsAString
 &
 aLocalizedString
 )
@@ -127,7 +127,7 @@ AnimationPerformanceWarning
 :
 ToLocalizedString
 (
-nsXPIDLString
+nsAString
 &
 aLocalizedString
 )

@@ -197,7 +197,7 @@ reports
 i
 ]
 ;
-nsXPIDLString
+nsAutoString
 errorText
 ;
 nsresult

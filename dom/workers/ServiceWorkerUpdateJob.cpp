@@ -1332,7 +1332,7 @@ maxPrefix
 )
 )
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 NS_ConvertUTF8toUTF16

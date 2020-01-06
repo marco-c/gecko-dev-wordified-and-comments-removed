@@ -281,7 +281,7 @@ bundle
 )
 return
 ;
-nsXPIDLString
+nsAutoString
 title
 ;
 rv
@@ -294,10 +294,7 @@ GetStringFromName
 "
 readConfigTitle
 "
-getter_Copies
-(
 title
-)
 )
 ;
 if
@@ -309,7 +306,7 @@ rv
 )
 return
 ;
-nsXPIDLString
+nsAutoString
 err
 ;
 rv
@@ -322,10 +319,7 @@ GetStringFromName
 "
 readConfigMsg
 "
-getter_Copies
-(
 err
-)
 )
 ;
 if

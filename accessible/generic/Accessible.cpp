@@ -1674,7 +1674,7 @@ stringBundle
 )
 return
 ;
-nsXPIDLString
+nsAutoString
 xsValue
 ;
 nsresult
@@ -1693,10 +1693,7 @@ aKey
 get
 (
 )
-getter_Copies
-(
 xsValue
-)
 )
 ;
 if
@@ -14093,10 +14090,7 @@ GetStringFromName
 "
 MODIFIER_SEPARATOR
 "
-getter_Copies
-(
 separator
-)
 )
 ;
 nsAutoString
@@ -14117,10 +14111,7 @@ GetStringFromName
 "
 VK_CONTROL
 "
-getter_Copies
-(
 modifierName
-)
 )
 ;
 aValue
@@ -14153,10 +14144,7 @@ GetStringFromName
 "
 VK_ALT
 "
-getter_Copies
-(
 modifierName
-)
 )
 ;
 aValue
@@ -14189,10 +14177,7 @@ GetStringFromName
 "
 VK_SHIFT
 "
-getter_Copies
-(
 modifierName
-)
 )
 ;
 aValue
@@ -14225,10 +14210,7 @@ GetStringFromName
 "
 VK_META
 "
-getter_Copies
-(
 modifierName
-)
 )
 ;
 aValue

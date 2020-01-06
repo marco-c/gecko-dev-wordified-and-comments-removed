@@ -68,7 +68,7 @@ CheckboxInputType
 :
 GetValueMissingMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
@@ -96,7 +96,7 @@ RadioInputType
 :
 GetValueMissingMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )

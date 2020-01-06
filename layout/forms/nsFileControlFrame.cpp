@@ -436,7 +436,7 @@ button
 false
 )
 ;
-nsXPIDLString
+nsAutoString
 buttonTxt
 ;
 nsContentUtils

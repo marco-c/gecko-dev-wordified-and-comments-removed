@@ -1478,7 +1478,7 @@ typeStr
 aTypeStr
 )
 ;
-nsXPIDLString
+nsAutoString
 title
 ;
 if
@@ -1572,10 +1572,7 @@ eWithDimAndFile
 ]
 formatStrings
 4
-getter_Copies
-(
 title
-)
 )
 ;
 }
@@ -1618,10 +1615,7 @@ eWithDim
 ]
 formatStrings
 3
-getter_Copies
-(
 title
-)
 )
 ;
 }
@@ -1670,10 +1664,7 @@ eWithFile
 ]
 formatStrings
 2
-getter_Copies
-(
 title
-)
 )
 ;
 }
@@ -1706,10 +1697,7 @@ eWithNoInfo
 ]
 formatStrings
 1
-getter_Copies
-(
 title
-)
 )
 ;
 }
@@ -1732,7 +1720,7 @@ title
 }
 else
 {
-nsXPIDLString
+nsAutoString
 titleWithStatus
 ;
 const
@@ -1776,10 +1764,7 @@ TitleWithStatus
 "
 formatStrings
 2
-getter_Copies
-(
 titleWithStatus
-)
 )
 ;
 SetTitle

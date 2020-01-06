@@ -138,9 +138,8 @@ char16_t
 *
 *
 argArray
-char16_t
-*
-*
+nsAString
+&
 result
 )
 ;

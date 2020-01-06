@@ -7031,7 +7031,7 @@ case
 VALIDITY_STATE_VALUE_MISSING
 :
 {
-nsXPIDLString
+nsAutoString
 message
 ;
 nsresult

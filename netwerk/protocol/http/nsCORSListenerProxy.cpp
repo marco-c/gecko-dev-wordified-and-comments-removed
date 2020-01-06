@@ -389,7 +389,7 @@ GetSpecOrDefault
 )
 ;
 }
-nsXPIDLString
+nsAutoString
 blockedMessage
 ;
 NS_ConvertUTF8toUTF16

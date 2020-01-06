@@ -950,10 +950,9 @@ const
 char
 *
 aPrefName
-char16_t
-*
-*
-return_buf
+nsAString
+&
+aReturn
 )
 ;
 nsresult

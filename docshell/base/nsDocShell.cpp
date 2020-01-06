@@ -22031,7 +22031,7 @@ get
 )
 ;
 }
-nsXPIDLString
+nsAutoString
 str
 ;
 rv
@@ -22044,10 +22044,7 @@ FormatStringFromName
 error
 strs
 formatStrCount
-getter_Copies
-(
 str
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -52714,7 +52711,7 @@ prompter
 "
 )
 ;
-nsXPIDLString
+nsAutoString
 brandName
 ;
 rv
@@ -52727,13 +52724,10 @@ GetStringFromName
 "
 brandShortName
 "
-getter_Copies
-(
 brandName
 )
-)
 ;
-nsXPIDLString
+nsAutoString
 msgString
 button0Title
 ;
@@ -52755,10 +52749,7 @@ GetStringFromName
 "
 confirmRepostPrompt
 "
-getter_Copies
-(
 msgString
-)
 )
 ;
 }
@@ -52794,10 +52785,7 @@ ArrayLength
 (
 formatStrings
 )
-getter_Copies
-(
 msgString
-)
 )
 ;
 }
@@ -52825,10 +52813,7 @@ resendButton
 .
 label
 "
-getter_Copies
-(
 button0Title
-)
 )
 ;
 if

@@ -61,7 +61,7 @@ override
 nsresult
 GetValueMissingMessage
 (
-nsXPIDLString
+nsAString
 &
 aMessage
 )
