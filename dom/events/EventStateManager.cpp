@@ -21771,7 +21771,10 @@ mDocument
 GetWindow
 (
 )
-false
+nsFocusManager
+:
+:
+eOnlyCurrentWindow
 getter_AddRefs
 (
 focusedWindow
@@ -22020,6 +22023,7 @@ root
 GetControllerForCommand
 (
 cmd
+true
 getter_AddRefs
 (
 controller
