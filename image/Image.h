@@ -1294,6 +1294,8 @@ layers
 ImageContainer
 *
 aContainer
+uint32_t
+aFlags
 )
 :
 mSize
@@ -1310,6 +1312,10 @@ DrawResult
 :
 :
 NOT_READY
+)
+mFlags
+(
+aFlags
 )
 {
 }
@@ -1330,6 +1336,9 @@ mContainer
 ;
 DrawResult
 mLastDrawResult
+;
+uint32_t
+mFlags
 ;
 }
 ;
