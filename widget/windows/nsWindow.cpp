@@ -337,6 +337,13 @@ h
 #
 include
 "
+nsXPIDLString
+.
+h
+"
+#
+include
+"
 nsWidgetsCID
 .
 h
@@ -3842,9 +3849,7 @@ lpfnWndProc
 WinUtils
 :
 :
-GetDefWindowProc
-(
-)
+NonClientDpiScalingDefWindowProcW
 ;
 wc
 .
