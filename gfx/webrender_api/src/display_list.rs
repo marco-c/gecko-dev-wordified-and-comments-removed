@@ -175,7 +175,7 @@ MAX_TEXT_RUN_LENGTH
 :
 usize
 =
-2040
+2038
 ;
 #
 [
@@ -3758,7 +3758,7 @@ simple
 ClipId
 :
 :
-root_reference_frame
+root_scroll_node
 (
 pipeline_id
 )
