@@ -2266,6 +2266,16 @@ WrUpdated
 (
 )
 {
+mWebRenderCommandBuilder
+.
+ClearCachedResources
+(
+)
+;
+DiscardLocalImages
+(
+)
+;
 }
 void
 WebRenderLayerManager

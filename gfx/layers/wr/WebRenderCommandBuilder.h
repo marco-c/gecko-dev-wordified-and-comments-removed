@@ -276,7 +276,7 @@ StackingContextHelper
 &
 aSc
 const
-LayoutDeviceRect
+LayerRect
 &
 aRect
 )
@@ -313,7 +313,7 @@ nsDisplayListBuilder
 *
 aDisplayListBuilder
 const
-LayoutDeviceRect
+LayerRect
 &
 aBounds
 )
@@ -400,13 +400,18 @@ aSc
 nsDisplayListBuilder
 *
 aDisplayListBuilder
-LayoutDeviceRect
+LayerRect
 &
 aImageRect
 )
 ;
 void
 RemoveUnusedAndResetWebRenderUserData
+(
+)
+;
+void
+ClearCachedResources
 (
 )
 ;
