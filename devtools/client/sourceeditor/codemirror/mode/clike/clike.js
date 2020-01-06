@@ -2356,6 +2356,11 @@ blockCommentEnd
 *
 /
 "
+blockCommentContinue
+:
+"
+*
+"
 lineComment
 :
 "
@@ -5216,7 +5221,6 @@ class
 val
 var
 object
-package
 interface
 fun
 "

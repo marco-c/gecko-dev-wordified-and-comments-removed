@@ -3880,6 +3880,11 @@ blockCommentEnd
 *
 /
 "
+blockCommentContinue
+:
+"
+*
+"
 lineComment
 :
 lineComment
