@@ -4273,6 +4273,13 @@ DestroyChildren
 )
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_INHERITED
+(
+nsDocShell
+nsDocLoader
+mSessionStorageManager
+mScriptGlobal
+)
 NS_IMPL_ADDREF_INHERITED
 (
 nsDocShell
@@ -4283,7 +4290,7 @@ NS_IMPL_RELEASE_INHERITED
 nsDocShell
 nsDocLoader
 )
-NS_INTERFACE_MAP_BEGIN
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsDocShell
 )
