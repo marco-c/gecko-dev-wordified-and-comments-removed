@@ -87,6 +87,19 @@ generic_worker_add_public_artifacts
     
 support_vcs_checkout
 )
+COALESCE_KEY
+=
+'
+builds
+.
+{
+project
+}
+.
+{
+name
+}
+'
 mozharness_run_schema
 =
 Schema

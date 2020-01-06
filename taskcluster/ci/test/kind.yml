@@ -40,14 +40,6 @@ taskgraph
 .
 transforms
 .
-coalesce
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 task
 :
 transforms
