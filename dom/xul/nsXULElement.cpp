@@ -10638,7 +10638,6 @@ new
 nsXULPrototypeScript
 (
 0
-0
 )
 ;
 rv
@@ -11290,8 +11289,6 @@ nsXULPrototypeScript
 (
 uint32_t
 aLineNo
-uint32_t
-aVersion
 )
 :
 nsXULPrototypeNode
@@ -11313,10 +11310,6 @@ true
 mSrcLoadWaiters
 (
 nullptr
-)
-mLangVersion
-(
-aVersion
 )
 mScriptObject
 (
@@ -11460,7 +11453,7 @@ aStream
 >
 Write32
 (
-mLangVersion
+0
 )
 ;
 if
@@ -11819,6 +11812,9 @@ rv
 return
 rv
 ;
+uint32_t
+dummy
+;
 rv
 =
 aStream
@@ -11827,7 +11823,7 @@ aStream
 Read32
 (
 &
-mLangVersion
+dummy
 )
 ;
 if
@@ -12574,18 +12570,6 @@ return
 rv
 ;
 }
-NS_ENSURE_TRUE
-(
-JSVersion
-(
-mLangVersion
-)
-!
-=
-JSVERSION_UNKNOWN
-NS_OK
-)
-;
 JS
 :
 :

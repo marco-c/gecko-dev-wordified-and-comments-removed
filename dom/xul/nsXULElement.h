@@ -745,12 +745,11 @@ nsXULPrototypeNode
 {
 public
 :
+explicit
 nsXULPrototypeScript
 (
 uint32_t
 aLineNo
-uint32_t
-version
 )
 ;
 virtual
@@ -1003,9 +1002,6 @@ dom
 XULDocument
 *
 mSrcLoadWaiters
-;
-uint32_t
-mLangVersion
 ;
 private
 :
