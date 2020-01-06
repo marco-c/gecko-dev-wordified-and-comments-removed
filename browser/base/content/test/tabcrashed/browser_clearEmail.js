@@ -197,6 +197,8 @@ BrowserTestUtils
 crashBrowser
 (
 browser
+true
+false
 )
 ;
 let

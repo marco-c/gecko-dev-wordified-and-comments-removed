@@ -3495,6 +3495,9 @@ browser
 shouldShowTabCrashPage
 =
 true
+shouldClearMinidumps
+=
+true
 )
 {
 let
@@ -4043,6 +4046,11 @@ n
 ;
 }
 }
+if
+(
+shouldClearMinidumps
+)
+{
 removeFile
 (
 minidumpDirectory
@@ -4065,6 +4073,7 @@ extra
 '
 )
 ;
+}
 }
 )
 ;
