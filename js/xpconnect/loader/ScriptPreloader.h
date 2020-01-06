@@ -995,7 +995,7 @@ size
 (
 mURL
 .
-SizeOfExcludingThisEvenIfShared
+SizeOfExcludingThisIfUnshared
 (
 mallocSizeOf
 )
