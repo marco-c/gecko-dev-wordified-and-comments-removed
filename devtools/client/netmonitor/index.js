@@ -458,7 +458,7 @@ src
 /
 components
 /
-app
+App
 "
 )
 ;
