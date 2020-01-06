@@ -95,8 +95,6 @@ child
 process
 "
 toString
-:
-function
 (
 )
 {

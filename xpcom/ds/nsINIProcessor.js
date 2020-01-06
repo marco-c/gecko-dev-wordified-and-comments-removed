@@ -91,8 +91,6 @@ nsIINIParserFactory
 ]
 )
 createINIParser
-:
-function
 (
 aINIFile
 )
@@ -287,8 +285,6 @@ __utf16leConverter
 ;
 }
 _utfConverterReset
-:
-function
 (
 )
 {
@@ -312,8 +308,6 @@ _iniData
 :
 null
 _readFile
-:
-function
 (
 )
 {
@@ -443,8 +437,6 @@ key
 }
 }
 getSections
-:
-function
 (
 )
 {
@@ -479,8 +471,6 @@ sections
 ;
 }
 getKeys
-:
-function
 (
 aSection
 )
@@ -527,8 +517,6 @@ keys
 ;
 }
 getString
-:
-function
 (
 aSection
 aKey
@@ -582,8 +570,6 @@ aKey
 ;
 }
 setString
-:
-function
 (
 aSection
 aKey
@@ -719,8 +705,6 @@ aValue
 ;
 }
 writeFile
-:
-function
 (
 aFile
 aFlags
@@ -886,9 +870,9 @@ WRITE_UTF16
 aFlags
 &
 &
-'
+"
 nsIWindowsRegKey
-'
+"
 in
 Ci
 )
@@ -1025,8 +1009,6 @@ _enumIndex
 :
 0
 hasMore
-:
-function
 (
 )
 {
@@ -1045,8 +1027,6 @@ length
 ;
 }
 getNext
-:
-function
 (
 )
 {

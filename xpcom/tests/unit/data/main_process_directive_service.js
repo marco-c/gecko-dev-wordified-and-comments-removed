@@ -95,8 +95,6 @@ main
 process
 "
 toString
-:
-function
 (
 )
 {

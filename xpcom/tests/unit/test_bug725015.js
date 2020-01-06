@@ -38,11 +38,11 @@ manifest
 =
 do_get_file
 (
-'
+"
 bug725015
 .
 manifest
-'
+"
 )
 ;
 const

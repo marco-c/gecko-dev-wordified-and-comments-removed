@@ -617,8 +617,6 @@ runAsync
 0
 {
 observe
-:
-function
 (
 subject
 topic
@@ -726,8 +724,6 @@ TEST_ARGS
 length
 {
 observe
-:
-function
 (
 subject
 topic
@@ -834,8 +830,6 @@ runAsync
 0
 {
 observe
-:
-function
 (
 subject
 topic

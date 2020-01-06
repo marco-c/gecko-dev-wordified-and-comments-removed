@@ -149,8 +149,6 @@ ScriptableWithNotXPCOMBase
 ]
 )
 method1
-:
-function
 (
 )
 {
@@ -160,8 +158,6 @@ true
 ;
 }
 method2
-:
-function
 (
 )
 {
@@ -181,8 +177,6 @@ called
 ;
 }
 method3
-:
-function
 (
 )
 {
@@ -223,8 +217,6 @@ nsIFactory
 ]
 )
 createInstance
-:
-function
 (
 outer
 iid

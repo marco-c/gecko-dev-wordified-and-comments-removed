@@ -98,8 +98,6 @@ observer
 =
 {
 QueryInterface
-:
-function
 (
 iid
 )
@@ -137,8 +135,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 observe
-:
-function
 (
 subject
 topic
