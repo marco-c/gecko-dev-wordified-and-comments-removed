@@ -4530,6 +4530,17 @@ homepanel
 /
 stream
 /
+StreamPageIconLayout
+.
+java
+'
+'
+activitystream
+/
+homepanel
+/
+stream
+/
 TopPanel
 .
 java
