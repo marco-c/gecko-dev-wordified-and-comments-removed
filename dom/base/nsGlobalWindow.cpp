@@ -32833,8 +32833,12 @@ Failed
 return
 ;
 }
-nsAdoptingString
+nsString
 outValue
+;
+outValue
+.
+Adopt
 (
 inoutValue
 )
@@ -32844,7 +32848,7 @@ if
 ok
 &
 &
-outValue
+inoutValue
 )
 {
 aReturn

@@ -677,7 +677,7 @@ IsEmpty
 )
 )
 {
-nsAdoptingString
+nsAutoString
 blacklist
 ;
 nsresult
