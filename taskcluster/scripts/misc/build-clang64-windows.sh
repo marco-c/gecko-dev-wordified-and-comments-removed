@@ -26,10 +26,6 @@ helper64
 sh
 clang
 -
-static
--
-analysis
--
 win64
 .
 json

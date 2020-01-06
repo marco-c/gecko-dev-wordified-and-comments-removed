@@ -26,10 +26,6 @@ helper32
 sh
 clang
 -
-static
--
-analysis
--
 win32
 .
 json

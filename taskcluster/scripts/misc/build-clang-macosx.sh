@@ -197,10 +197,6 @@ py
 c
 clang
 -
-static
--
-analysis
--
 macosx64
 .
 json

@@ -99,10 +99,6 @@ py
 c
 clang
 -
-static
--
-analysis
--
 linux64
 .
 json
