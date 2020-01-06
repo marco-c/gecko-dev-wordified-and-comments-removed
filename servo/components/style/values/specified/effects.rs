@@ -158,7 +158,7 @@ specified
 color
 :
 :
-Color
+RGBAColor
 ;
 use
 values
@@ -206,7 +206,7 @@ GenericBoxShadow
 <
 Option
 <
-Color
+RGBAColor
 >
 Length
 Option
@@ -492,7 +492,7 @@ GenericSimpleShadow
 <
 Option
 <
-Color
+RGBAColor
 >
 Length
 Option
@@ -787,7 +787,7 @@ try
 |
 i
 |
-Color
+RGBAColor
 :
 :
 parse
@@ -1415,7 +1415,7 @@ try
 |
 i
 |
-Color
+RGBAColor
 :
 :
 parse
@@ -1495,7 +1495,7 @@ try
 |
 i
 |
-Color
+RGBAColor
 :
 :
 parse
@@ -1579,19 +1579,6 @@ self
 .
 color
 .
-as_ref
-(
-)
-.
-unwrap_or
-(
-&
-Color
-:
-:
-CurrentColor
-)
-.
 to_computed_value
 (
 context
@@ -1666,8 +1653,6 @@ SimpleShadow
 {
 color
 :
-Some
-(
 ToComputedValue
 :
 :
@@ -1677,7 +1662,6 @@ from_computed_value
 computed
 .
 color
-)
 )
 horizontal
 :

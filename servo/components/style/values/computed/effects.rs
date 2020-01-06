@@ -40,7 +40,7 @@ computed
 color
 :
 :
-Color
+RGBAColor
 ;
 use
 values
@@ -105,7 +105,10 @@ BoxShadow
 =
 GenericBoxShadow
 <
-Color
+Option
+<
+RGBAColor
+>
 Length
 NonNegativeLength
 Length
@@ -166,7 +169,10 @@ SimpleShadow
 =
 GenericSimpleShadow
 <
-Color
+Option
+<
+RGBAColor
+>
 Length
 NonNegativeLength
 >
