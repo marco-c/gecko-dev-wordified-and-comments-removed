@@ -1628,6 +1628,9 @@ mProfileShutdown
 =
 false
 ;
+bool
+mSavePending
+;
 static
 Preferences
 *
