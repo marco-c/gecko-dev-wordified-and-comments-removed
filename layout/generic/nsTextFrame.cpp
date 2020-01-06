@@ -24895,12 +24895,6 @@ const
 StackingContextHelper
 &
 aSc
-nsTArray
-<
-WebRenderParentCommand
->
-&
-aParentCommands
 WebRenderLayerManager
 *
 aManager
@@ -25859,12 +25853,6 @@ const
 StackingContextHelper
 &
 aSc
-nsTArray
-<
-WebRenderParentCommand
->
-&
-aParentCommands
 WebRenderLayerManager
 *
 aManager

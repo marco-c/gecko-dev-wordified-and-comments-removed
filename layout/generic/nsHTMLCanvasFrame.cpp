@@ -532,12 +532,6 @@ const
 StackingContextHelper
 &
 aSc
-nsTArray
-<
-WebRenderParentCommand
->
-&
-aParentCommands
 mozilla
 :
 :
