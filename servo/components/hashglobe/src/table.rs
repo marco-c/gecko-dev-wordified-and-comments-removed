@@ -3678,6 +3678,10 @@ RawTable
 }
 let
 buffer
+:
+*
+mut
+u8
 =
 alloc
 (
@@ -3711,6 +3715,16 @@ RawTable
 )
 ;
 }
+ptr
+:
+:
+write_bytes
+(
+buffer
+0xe7
+size
+)
+;
 let
 hashes
 =
