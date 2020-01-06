@@ -69,12 +69,6 @@ TIME_2000
 )
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

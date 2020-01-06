@@ -149,12 +149,6 @@ super
 =
 true
 "
-EXPECTED
-=
-"
-error
-"
-;
 if
 (
 actual

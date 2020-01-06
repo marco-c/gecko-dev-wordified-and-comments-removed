@@ -66,12 +66,6 @@ throw
 null
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

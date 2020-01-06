@@ -52,12 +52,6 @@ debugger
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

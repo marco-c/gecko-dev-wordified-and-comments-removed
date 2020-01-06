@@ -150,12 +150,6 @@ enum
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 if
 (
 actual

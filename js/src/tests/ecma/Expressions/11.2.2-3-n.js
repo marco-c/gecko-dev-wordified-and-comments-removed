@@ -63,13 +63,6 @@ NULL
 "
 ;
 var
-EXPECTED
-=
-"
-error
-"
-;
-var
 NULL
 =
 null

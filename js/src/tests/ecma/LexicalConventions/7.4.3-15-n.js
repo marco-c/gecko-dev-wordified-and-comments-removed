@@ -118,12 +118,6 @@ import
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 if
 (
 actual

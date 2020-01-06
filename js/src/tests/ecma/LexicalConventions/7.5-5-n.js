@@ -46,12 +46,6 @@ var
 3abc
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

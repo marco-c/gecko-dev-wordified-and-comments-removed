@@ -92,12 +92,6 @@ t
 crash
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

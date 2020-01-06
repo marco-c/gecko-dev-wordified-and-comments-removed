@@ -400,12 +400,6 @@ a
 function
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 InstanceOf
 (
 new

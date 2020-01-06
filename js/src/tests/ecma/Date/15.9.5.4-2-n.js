@@ -66,12 +66,6 @@ getTime
 )
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

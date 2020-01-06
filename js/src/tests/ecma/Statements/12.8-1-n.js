@@ -48,12 +48,6 @@ DESCRIPTION
 break
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

@@ -39,12 +39,6 @@ DESCRIPTION
 return
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

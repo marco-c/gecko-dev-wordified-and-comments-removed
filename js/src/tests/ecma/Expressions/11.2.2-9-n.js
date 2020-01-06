@@ -73,12 +73,6 @@ BOOLEAN
 )
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

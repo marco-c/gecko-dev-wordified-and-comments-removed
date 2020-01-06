@@ -58,12 +58,6 @@ EXPR3
 MYVAR
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

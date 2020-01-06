@@ -75,12 +75,6 @@ valueOf
 )
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

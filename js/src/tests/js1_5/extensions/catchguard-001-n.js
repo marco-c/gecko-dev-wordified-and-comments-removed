@@ -13,12 +13,6 @@ appear
 last
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 test
 (
 )

@@ -70,12 +70,6 @@ OBJECT
 )
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

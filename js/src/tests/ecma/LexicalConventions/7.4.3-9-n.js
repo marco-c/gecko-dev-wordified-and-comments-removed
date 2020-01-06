@@ -63,12 +63,6 @@ class
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 print
 (
 "

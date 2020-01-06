@@ -150,12 +150,6 @@ extends
 true
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 if
 (
 actual

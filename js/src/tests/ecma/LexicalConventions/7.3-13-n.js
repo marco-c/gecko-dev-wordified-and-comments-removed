@@ -46,12 +46,6 @@ nested
 comment
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 var
 testcase
 =

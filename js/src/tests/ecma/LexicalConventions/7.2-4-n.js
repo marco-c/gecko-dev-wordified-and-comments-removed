@@ -45,12 +45,6 @@ DESCRIPTION
 nb
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 new
 TestCase
 (

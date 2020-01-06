@@ -12,12 +12,6 @@ exception
 .
 "
 ;
-EXPECTED
-=
-"
-error
-"
-;
 var
 expect
 ;
