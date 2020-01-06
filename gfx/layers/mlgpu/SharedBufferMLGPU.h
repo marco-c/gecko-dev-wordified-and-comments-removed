@@ -14,6 +14,13 @@ h
 #
 include
 "
+MLGDevice
+.
+h
+"
+#
+include
+"
 MLGDeviceTypes
 .
 h

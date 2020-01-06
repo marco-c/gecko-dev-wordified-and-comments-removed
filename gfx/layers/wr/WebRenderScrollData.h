@@ -101,6 +101,9 @@ nsTArrayForwardDeclare
 .
 h
 "
+class
+nsDisplayItem
+;
 namespace
 mozilla
 {
