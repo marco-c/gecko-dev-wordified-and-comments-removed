@@ -1606,9 +1606,14 @@ if
 change
 &
 &
+(
 PEEK
 (
 name_
+)
+!
+=
+nullptr
 )
 )
 {
