@@ -838,15 +838,6 @@ size
 ja
 16
 )
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 min
