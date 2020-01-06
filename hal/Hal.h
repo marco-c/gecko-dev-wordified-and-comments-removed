@@ -749,10 +749,6 @@ hal
 :
 ProcessPriority
 aPriority
-uint32_t
-aLRU
-=
-0
 )
 ;
 void

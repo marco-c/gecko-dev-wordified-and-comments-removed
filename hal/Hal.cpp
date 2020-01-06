@@ -2963,8 +2963,6 @@ int
 aPid
 ProcessPriority
 aPriority
-uint32_t
-aLRU
 )
 {
 PROXY_IF_SANDBOXED
@@ -2973,7 +2971,6 @@ SetProcessPriority
 (
 aPid
 aPriority
-aLRU
 )
 )
 ;
