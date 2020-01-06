@@ -429,6 +429,11 @@ nsID
 >
 deletedBodyIdList
 ;
+int64_t
+deletedPaddingSize
+=
+0
+;
 rv
 =
 db
@@ -442,6 +447,8 @@ orphanedCacheIdList
 i
 ]
 deletedBodyIdList
+&
+deletedPaddingSize
 )
 ;
 if
@@ -1770,6 +1777,10 @@ mCacheId
 (
 aCacheId
 )
+mDeletedPaddingSize
+(
+0
+)
 {
 }
 virtual
@@ -1811,6 +1822,8 @@ DeleteCacheId
 aConn
 mCacheId
 mDeletedBodyIdList
+&
+mDeletedPaddingSize
 )
 ;
 if
@@ -1894,6 +1907,9 @@ nsTArray
 nsID
 >
 mDeletedBodyIdList
+;
+int64_t
+mDeletedPaddingSize
 ;
 }
 ;
@@ -2643,6 +2659,10 @@ Manager
 CachePutAllAction
 "
 )
+mDeletedPaddingSize
+(
+0
+)
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
@@ -3234,6 +3254,8 @@ mResponseBodyId
 :
 nullptr
 mDeletedBodyIdList
+&
+mDeletedPaddingSize
 )
 ;
 if
@@ -3977,6 +3999,9 @@ QuotaInfo
 >
 mQuotaInfo
 ;
+int64_t
+mDeletedPaddingSize
+;
 }
 ;
 class
@@ -4025,6 +4050,10 @@ aArgs
 mSuccess
 (
 false
+)
+mDeletedPaddingSize
+(
+0
 )
 {
 }
@@ -4077,6 +4106,8 @@ params
 (
 )
 mDeletedBodyIdList
+&
+mDeletedPaddingSize
 &
 mSuccess
 )
@@ -4200,6 +4231,9 @@ nsTArray
 nsID
 >
 mDeletedBodyIdList
+;
+int64_t
+mDeletedPaddingSize
 ;
 }
 ;
