@@ -403,6 +403,11 @@ isClosed
 (
 )
 ;
+bool
+isAsyncExecutionThreadAvailable
+(
+)
+;
 nsresult
 initializeClone
 (
