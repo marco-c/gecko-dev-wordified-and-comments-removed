@@ -100,13 +100,7 @@ class
 nsIDocument
 ;
 class
-nsIEditor
-;
-class
 nsIFrame
-;
-class
-nsIHTMLEditor
 ;
 class
 nsFrameSelection
@@ -131,6 +125,9 @@ mozilla
 {
 class
 ErrorResult
+;
+class
+HTMLEditor
 ;
 struct
 AutoPrepareFocusRange
@@ -1660,9 +1657,9 @@ GetWindow
 )
 const
 ;
-nsIEditor
+HTMLEditor
 *
-GetEditor
+GetHTMLEditor
 (
 )
 const

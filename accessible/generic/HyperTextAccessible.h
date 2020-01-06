@@ -60,6 +60,9 @@ class
 nsRange
 ;
 class
+nsIEditor
+;
+class
 nsIWidget
 ;
 namespace

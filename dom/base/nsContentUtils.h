@@ -330,9 +330,6 @@ class
 nsIDragSession
 ;
 class
-nsIEditor
-;
-class
 nsIEventTarget
 ;
 class
@@ -511,6 +508,9 @@ ErrorResult
 ;
 class
 EventListenerManager
+;
+class
+HTMLEditor
 ;
 namespace
 dom
@@ -5041,7 +5041,10 @@ aOffset
 )
 ;
 static
-nsIEditor
+mozilla
+:
+:
+HTMLEditor
 *
 GetHTMLEditor
 (

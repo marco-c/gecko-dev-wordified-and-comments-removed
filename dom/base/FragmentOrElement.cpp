@@ -104,6 +104,15 @@ include
 "
 mozilla
 /
+HTMLEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoRestyleManager
 .
 h
@@ -1362,9 +1371,9 @@ DISABLED
 )
 ;
 }
-nsIEditor
+HTMLEditor
 *
-editor
+htmlEditor
 =
 nsContentUtils
 :
@@ -1377,7 +1386,7 @@ pc
 if
 (
 !
-editor
+htmlEditor
 )
 {
 return
@@ -1393,7 +1402,7 @@ DISABLED
 IMEState
 state
 ;
-editor
+htmlEditor
 -
 >
 GetPreferredIMEState
