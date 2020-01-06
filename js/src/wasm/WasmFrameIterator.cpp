@@ -5339,7 +5339,7 @@ WasmActivation
 wasm
 :
 :
-MaybeActiveActivation
+ActivationIfInnermost
 (
 JSContext
 *

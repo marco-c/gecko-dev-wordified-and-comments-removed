@@ -704,7 +704,7 @@ fp
 ;
 WasmActivation
 *
-MaybeActiveActivation
+ActivationIfInnermost
 (
 JSContext
 *
