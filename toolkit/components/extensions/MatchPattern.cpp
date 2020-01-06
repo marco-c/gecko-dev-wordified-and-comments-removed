@@ -1321,6 +1321,15 @@ Contains
 (
 scheme
 )
+|
+|
+scheme
+=
+=
+nsGkAtoms
+:
+:
+moz_extension
 )
 {
 mSchemes
