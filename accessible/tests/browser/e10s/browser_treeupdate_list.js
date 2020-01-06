@@ -52,7 +52,6 @@ value
 )
 ;
 return
-await
 onReorder
 ;
 }

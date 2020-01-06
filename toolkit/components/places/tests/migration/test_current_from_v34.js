@@ -339,7 +339,6 @@ url
 ;
 }
 return
-await
 insertItem
 (
 db

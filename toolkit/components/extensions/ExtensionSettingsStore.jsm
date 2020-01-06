@@ -934,7 +934,6 @@ return
 null
 ;
 }
-async
 removeSetting
 (
 extension
@@ -943,7 +942,6 @@ key
 )
 {
 return
-await
 alterSetting
 (
 extension
@@ -955,7 +953,6 @@ remove
 )
 ;
 }
-async
 enable
 (
 extension
@@ -964,7 +961,6 @@ key
 )
 {
 return
-await
 alterSetting
 (
 extension
@@ -976,7 +972,6 @@ enable
 )
 ;
 }
-async
 disable
 (
 extension
@@ -985,7 +980,6 @@ key
 )
 {
 return
-await
 alterSetting
 (
 extension
@@ -1074,7 +1068,6 @@ return
 items
 ;
 }
-async
 getSetting
 (
 type
@@ -1082,7 +1075,6 @@ key
 )
 {
 return
-await
 getTopItem
 (
 type

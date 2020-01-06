@@ -2734,7 +2734,6 @@ getCollection
 )
 ;
 return
-await
 extensionStorageSync
 .
 _syncCollection
@@ -3619,7 +3618,6 @@ changes
 ;
 }
 }
-async
 _syncCollection
 (
 collection
@@ -3627,7 +3625,6 @@ options
 )
 {
 return
-await
 this
 .
 _requestWithToken
@@ -3638,7 +3635,6 @@ collection
 .
 name
 }
-async
 function
 (
 token
@@ -3673,7 +3669,6 @@ options
 )
 ;
 return
-await
 collection
 .
 sync
@@ -3811,7 +3806,6 @@ FXA_OAUTH_OPTIONS
 )
 ;
 return
-await
 f
 (
 newToken
@@ -3823,7 +3817,6 @@ e
 ;
 }
 }
-async
 _deleteBucket
 (
 )
@@ -3844,7 +3837,6 @@ it
 )
 ;
 return
-await
 this
 .
 _requestWithToken
@@ -3853,7 +3845,6 @@ _requestWithToken
 Clearing
 server
 "
-async
 function
 (
 token
@@ -3890,7 +3881,6 @@ KINTO_REQUEST_TIMEOUT
 )
 ;
 return
-await
 kintoHttp
 .
 deleteBucket
@@ -4181,7 +4171,6 @@ length
 )
 {
 return
-await
 this
 .
 ensureCanSync
@@ -4662,7 +4651,6 @@ resetSyncStatus
 )
 ;
 return
-await
 this
 .
 cryptoCollection

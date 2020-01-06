@@ -901,7 +901,6 @@ fired
 )
 ;
 }
-async
 function
 getCounts
 (
@@ -923,7 +922,6 @@ counts
 )
 ;
 return
-await
 extension
 .
 awaitMessage

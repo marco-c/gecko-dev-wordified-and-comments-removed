@@ -959,7 +959,6 @@ appDirXCurProcD
 )
 {
 return
-await
 generateURIsFromDirTree
 (
 appDirGreD
@@ -980,7 +979,6 @@ appDirGreD
 )
 {
 return
-await
 generateURIsFromDirTree
 (
 appDirXCurProcD

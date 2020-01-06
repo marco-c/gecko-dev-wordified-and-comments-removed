@@ -2270,7 +2270,6 @@ return
 httpServer
 ;
 }
-async
 function
 addTestEngine
 (
@@ -2337,7 +2336,6 @@ basename
 )
 ;
 return
-await
 new
 Promise
 (

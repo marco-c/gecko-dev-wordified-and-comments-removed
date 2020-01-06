@@ -832,13 +832,11 @@ testSeparators
 let
 insertSyncedBookmark
 =
-async
 uri
 =
 >
 {
 return
-await
 this
 .
 insertBookmark
@@ -1648,7 +1646,6 @@ index
 )
 ;
 return
-await
 PlacesUtils
 .
 promiseItemGuid
@@ -1693,7 +1690,6 @@ title
 )
 ;
 return
-await
 PlacesUtils
 .
 promiseItemGuid
@@ -1734,7 +1730,6 @@ index
 )
 ;
 return
-await
 PlacesUtils
 .
 promiseItemGuid

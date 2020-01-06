@@ -6549,14 +6549,11 @@ return
 null
 ;
 return
-(
-await
 this
 .
 promiseNodeLikeFromFetchInfo
 (
 info
-)
 )
 ;
 }

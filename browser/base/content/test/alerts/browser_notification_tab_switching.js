@@ -145,7 +145,6 @@ contentEvt
 )
 {
 return
-await
 new
 Promise
 (

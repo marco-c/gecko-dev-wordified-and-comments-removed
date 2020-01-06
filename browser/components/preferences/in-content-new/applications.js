@@ -8883,7 +8883,6 @@ return
 2
 ;
 }
-async
 _indexToFolder
 (
 aIndex
@@ -8898,7 +8897,6 @@ case
 0
 :
 return
-await
 this
 .
 _getDownloadsFolder
@@ -8912,7 +8910,6 @@ case
 1
 :
 return
-await
 this
 .
 _getDownloadsFolder

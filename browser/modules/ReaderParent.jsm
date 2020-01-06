@@ -839,7 +839,6 @@ browser
 )
 {
 return
-await
 ReaderMode
 .
 downloadAndParseDocument

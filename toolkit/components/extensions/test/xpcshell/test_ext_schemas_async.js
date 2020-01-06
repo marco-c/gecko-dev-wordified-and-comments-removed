@@ -783,7 +783,6 @@ schemaJson
 )
 )
 ;
-async
 function
 runWithCallback
 (
@@ -807,7 +806,6 @@ result
 )
 ;
 return
-await
 new
 Promise
 (
@@ -863,7 +861,6 @@ value
 )
 ;
 }
-async
 function
 runFailCallback
 (
@@ -887,7 +884,6 @@ error
 )
 ;
 return
-await
 new
 Promise
 (

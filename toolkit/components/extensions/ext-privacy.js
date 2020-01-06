@@ -141,7 +141,6 @@ callback
 }
 ;
 }
-async
 set
 (
 details
@@ -155,7 +154,6 @@ scope
 )
 ;
 return
-await
 ExtensionPreferencesManager
 .
 setSetting
@@ -168,7 +166,6 @@ value
 )
 ;
 }
-async
 clear
 (
 details
@@ -182,7 +179,6 @@ scope
 )
 ;
 return
-await
 ExtensionPreferencesManager
 .
 removeSetting

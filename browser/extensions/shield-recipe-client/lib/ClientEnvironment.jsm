@@ -271,7 +271,6 @@ this
 ClientEnvironment
 =
 {
-async
 getClientClassification
 (
 )
@@ -292,7 +291,6 @@ classifyClient
 ;
 }
 return
-await
 _classifyRequest
 ;
 }

@@ -45,7 +45,6 @@ toString
 (
 )
 ;
-async
 function
 doTest
 (
@@ -53,7 +52,6 @@ aBrowser
 )
 {
 return
-await
 ContentTask
 .
 spawn

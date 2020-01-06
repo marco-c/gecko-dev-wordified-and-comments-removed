@@ -892,12 +892,10 @@ adapter
 connection
 closing
 "
-async
 (
 )
 =
 >
-await
 conn
 .
 close
