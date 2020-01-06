@@ -5474,6 +5474,11 @@ defined
 (
 DEBUG
 )
+if
+(
+mDocumentRequest
+)
+{
 nsCOMPtr
 <
 nsIRequest
@@ -5499,6 +5504,7 @@ Channel
 "
 )
 ;
+}
 #
 endif
 }
