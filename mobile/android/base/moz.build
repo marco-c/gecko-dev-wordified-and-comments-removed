@@ -7731,6 +7731,13 @@ java
 '
 widget
 /
+FadedHorizontalScrollView
+.
+java
+'
+'
+widget
+/
 FadedMultiColorTextView
 .
 java
