@@ -65,13 +65,6 @@ h
 #
 include
 "
-SBTelemetryUtils
-.
-h
-"
-#
-include
-"
 VariableLengthPrefixSet
 .
 h
@@ -143,13 +136,6 @@ false
 mProtocolV2
 (
 true
-)
-mMatchResult
-(
-MatchResult
-:
-:
-eTelemetryDisabled
 )
 {
 }
@@ -306,9 +292,6 @@ mConfirmed
 ;
 bool
 mProtocolV2
-;
-MatchResult
-mMatchResult
 ;
 }
 ;

@@ -162,13 +162,6 @@ Classifier
 .
 h
 "
-#
-include
-"
-SBTelemetryUtils
-.
-h
-"
 using
 namespace
 mozilla
