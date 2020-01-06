@@ -143,8 +143,6 @@ aMapping
 GamepadHand
 aHand
 uint32_t
-aDisplayID
-uint32_t
 aNumButtons
 uint32_t
 aNumAxes
@@ -167,10 +165,6 @@ aIndex
 mHashKey
 (
 aHashKey
-)
-mDisplayId
-(
-aDisplayID
 )
 mMapping
 (
@@ -824,7 +818,6 @@ mIndex
 mHashKey
 mMapping
 mHand
-mDisplayId
 mButtons
 .
 Length
