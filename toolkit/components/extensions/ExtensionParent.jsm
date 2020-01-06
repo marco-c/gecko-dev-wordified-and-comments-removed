@@ -5903,7 +5903,7 @@ ExtensionStartupCache
 "
 SCHEMA_VERSION
 :
-2
+3
 STORE_NAMES
 :
 Object
