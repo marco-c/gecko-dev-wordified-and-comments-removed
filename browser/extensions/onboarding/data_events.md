@@ -890,8 +890,11 @@ for
 this
 device
 .
-Auto
-append
+This
+data
+is
+automatically
+appended
 by
 ping
 -
@@ -1009,6 +1012,7 @@ user
 '
 s
 geo
+-
 information
 so
 that
@@ -1087,7 +1091,9 @@ chrome
 s
 language
 (
-eg
+e
+.
+g
 .
 en
 -
@@ -1191,6 +1197,7 @@ is
 inited
 /
 when
+the
 overlay
 is
 opened
@@ -1549,7 +1556,7 @@ the
 onboarding
 script
 is
-destoryed
+destroyed
 .
 onboarding
 -
@@ -1575,7 +1582,7 @@ the
 onboarding
 script
 is
-destoryed
+destroyed
 |
 #
 #
@@ -1658,7 +1665,7 @@ is
 triggered
 when
 user
-close
+closes
 the
 overlay
 .
@@ -1698,7 +1705,7 @@ event
 is
 sent
 when
-click
+clicking
 or
 auto
 select
@@ -1736,7 +1743,7 @@ event
 is
 sent
 when
-click
+clicking
 the
 overlay
 skip
@@ -1824,7 +1831,7 @@ is
 triggered
 when
 user
-close
+closes
 the
 notification
 .
@@ -1849,7 +1856,7 @@ is
 sent
 when
 user
-close
+closes
 the
 notification
 |
@@ -1866,7 +1873,7 @@ event
 is
 sent
 when
-click
+clicking
 the
 notification
 close
@@ -1883,7 +1890,7 @@ event
 is
 sent
 when
-click
+clicking
 the
 notification
 CTA
