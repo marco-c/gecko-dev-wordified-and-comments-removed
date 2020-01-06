@@ -128,15 +128,6 @@ baselines
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 display
