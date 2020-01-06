@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_fallback_FallbackScreenConfiguration_h
+#
+define
+mozilla_fallback_FallbackScreenConfiguration_h
+#
 include
 "
 Hal
@@ -207,3 +213,5 @@ pixelDepth
 }
 }
 }
+#
+endif
