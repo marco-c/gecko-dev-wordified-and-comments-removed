@@ -17843,6 +17843,12 @@ if
 (
 !
 discardCount
+&
+&
+mDownstreamState
+=
+=
+DISCARDING_DATA_FRAME
 )
 {
 ResetDownstreamState
