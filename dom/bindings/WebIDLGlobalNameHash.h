@@ -194,6 +194,13 @@ jsid
 aId
 )
 ;
+enum
+NameType
+{
+AllNames
+UnresolvedNamesOnly
+}
+;
 static
 void
 GetNames
@@ -210,6 +217,8 @@ JSObject
 *
 >
 aObj
+NameType
+aNameType
 nsTArray
 <
 nsString
