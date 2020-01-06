@@ -126,10 +126,6 @@ case
 "
 "
     
-__test__
-=
-False
-    
 cycles
 =
 None
