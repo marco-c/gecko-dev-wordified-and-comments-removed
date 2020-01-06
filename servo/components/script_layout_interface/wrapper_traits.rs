@@ -2386,6 +2386,7 @@ primary
 false
 &
 ServoMetricsProvider
+None
 )
 .
 unwrap
