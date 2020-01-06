@@ -170,6 +170,8 @@ nsIRunnable
 event
 uint32_t
 flags
+=
+NS_DISPATCH_NORMAL
 )
 override
 {
