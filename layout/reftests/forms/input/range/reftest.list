@@ -127,12 +127,6 @@ unthemed
 ref
 .
 html
-skip
--
-if
-(
-styloVsGecko
-)
 =
 =
 from
