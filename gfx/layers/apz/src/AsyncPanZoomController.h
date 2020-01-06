@@ -522,6 +522,8 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
+CSSCoord
+aInitialThumbPos
 )
 ;
 nsEventStatus

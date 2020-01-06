@@ -1136,6 +1136,7 @@ HandleDragEvent
 (
 mouseInput
 mDragMetrics
+mInitialThumbPos
 )
 ;
 }
