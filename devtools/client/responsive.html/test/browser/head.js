@@ -272,6 +272,7 @@ const
 {
 addDevice
 removeDevice
+removeLocalDevices
 }
 =
 require
@@ -351,6 +352,7 @@ json
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -394,6 +396,7 @@ displayedDeviceList
 "
 )
 ;
+await
 asyncStorage
 .
 removeItem
@@ -407,17 +410,9 @@ url_cache
 "
 )
 ;
-asyncStorage
-.
-removeItem
+await
+removeLocalDevices
 (
-"
-devtools
-.
-devices
-.
-local
-"
 )
 ;
 }
