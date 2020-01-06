@@ -148,6 +148,11 @@ error
 "
 fxaccounts
 :
+onverified
+"
+"
+fxaccounts
+:
 onlogin
 "
 "
