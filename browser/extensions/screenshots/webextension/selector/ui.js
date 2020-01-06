@@ -1037,15 +1037,9 @@ addEventListener
 "
 resize
 "
-watchFunction
-(
-assertIsTrusted
-(
 this
 .
 onResize
-)
-)
 true
 )
 ;
@@ -1129,15 +1123,9 @@ removeEventListener
 "
 resize
 "
-watchFunction
-(
-assertIsTrusted
-(
 this
 .
 onResize
-)
-)
 true
 )
 ;
@@ -1241,6 +1229,7 @@ bind
 iframeSelection
 )
 )
+true
 )
 ;
 let
@@ -2289,6 +2278,7 @@ bind
 (
 iframePreSelection
 )
+true
 )
 ;
 let

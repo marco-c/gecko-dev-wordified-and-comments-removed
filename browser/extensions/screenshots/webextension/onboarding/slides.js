@@ -759,8 +759,6 @@ org
 privacy
 /
 firefox
--
-cloud
 /
 "
 }
