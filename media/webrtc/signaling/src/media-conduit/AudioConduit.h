@@ -360,6 +360,17 @@ override
 ;
 virtual
 MediaConduitErrorCode
+EnableMIDExtension
+(
+bool
+enabled
+uint8_t
+id
+)
+override
+;
+virtual
+MediaConduitErrorCode
 SetTransmitterTransport
 (
 RefPtr
