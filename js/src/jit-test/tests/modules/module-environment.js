@@ -225,9 +225,7 @@ default
 '
 [
 '
-*
 default
-*
 '
 ]
 )
@@ -246,9 +244,7 @@ function
 '
 [
 '
-*
 default
-*
 '
 ]
 )
@@ -314,9 +310,7 @@ constructor
 '
 [
 '
-*
 default
-*
 '
 ]
 )

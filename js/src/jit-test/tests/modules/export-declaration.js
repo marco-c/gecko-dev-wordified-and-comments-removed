@@ -1243,9 +1243,7 @@ functionDeclaration
 ident
 (
 "
-*
 default
-*
 "
 )
 [
@@ -1334,9 +1332,7 @@ classDeclaration
 ident
 (
 "
-*
 default
-*
 "
 )
 )

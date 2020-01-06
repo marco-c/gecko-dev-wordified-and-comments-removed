@@ -143,9 +143,7 @@ id
 .
 name
 "
-*
 default
-*
 "
 )
 ;

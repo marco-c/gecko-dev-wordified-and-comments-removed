@@ -18342,7 +18342,7 @@ names
 (
 )
 .
-starDefaultStar
+default_
 ;
 tokenStream
 .
@@ -26626,10 +26626,9 @@ null
 (
 )
 ;
-RootedPropertyName
+HandlePropertyName
 name
-(
-context
+=
 context
 -
 >
@@ -26637,8 +26636,7 @@ names
 (
 )
 .
-starDefaultStar
-)
+default_
 ;
 Node
 nameNode
@@ -26696,6 +26694,13 @@ kid
 return
 null
 (
+)
+;
+handler
+.
+checkAndSetIsDirectRHSAnonFunction
+(
+kid
 )
 ;
 if
@@ -32778,7 +32783,7 @@ names
 (
 )
 .
-starDefaultStar
+default_
 ;
 tokenStream
 .

@@ -3574,6 +3574,15 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
+bool
+emitExportDefault
+(
+ParseNode
+*
+pn
+)
+;
 }
 ;
 }
