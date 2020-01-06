@@ -2344,16 +2344,6 @@ bundle
 GetStringFromName
 (
 aLocaleKey
-.
-replace
-(
-"
-%
-ID
-%
-"
-aID
-)
 )
 ;
 }
