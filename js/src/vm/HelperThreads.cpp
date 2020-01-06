@@ -435,7 +435,7 @@ lock
 mode
 )
 .
-append
+pushBack
 (
 task
 )
@@ -8813,7 +8813,7 @@ locked
 mode
 )
 .
-popCopy
+popCopyFront
 (
 )
 )
