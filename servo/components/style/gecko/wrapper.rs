@@ -2354,6 +2354,13 @@ element
 :
 &
 E
+pseudo_element
+:
+Option
+<
+&
+PseudoElement
+>
 applicable_declarations
 :
 &
@@ -2394,6 +2401,7 @@ base_binding
 get_declarations_for
 (
 element
+pseudo_element
 applicable_declarations
 )
 ;
@@ -2447,6 +2455,7 @@ stylist
 push_applicable_declarations_as_xbl_only_stylist
 (
 element
+pseudo_element
 applicable_declarations
 )
 ;
@@ -5589,6 +5598,13 @@ V
 (
 &
 self
+pseudo_element
+:
+Option
+<
+&
+PseudoElement
+>
 applicable_declarations
 :
 &
@@ -5648,6 +5664,7 @@ binding
 get_declarations_for
 (
 self
+pseudo_element
 applicable_declarations
 )
 ;

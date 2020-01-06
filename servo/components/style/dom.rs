@@ -2513,7 +2513,14 @@ V
 (
 &
 self
-_
+_pseudo_element
+:
+Option
+<
+&
+PseudoElement
+>
+_applicable_declarations
 :
 &
 mut
