@@ -431,7 +431,7 @@ tier
 Tier
 :
 :
-Ion
+Serialized
 )
 ;
 cursor
@@ -601,12 +601,6 @@ case
 Tier
 :
 :
-Debug
-:
-case
-Tier
-:
-:
 Baseline
 :
 MOZ_RELEASE_ASSERT
@@ -685,12 +679,6 @@ switch
 tier
 )
 {
-case
-Tier
-:
-:
-Debug
-:
 case
 Tier
 :
@@ -1294,7 +1282,7 @@ initTier
 Tier
 :
 :
-Ion
+Serialized
 )
 )
 return
