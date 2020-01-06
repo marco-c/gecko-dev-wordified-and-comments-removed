@@ -32,14 +32,14 @@ View
 public
 abstract
 class
-StreamItem
+StreamViewHolder
 extends
 RecyclerView
 .
 ViewHolder
 {
 public
-StreamItem
+StreamViewHolder
 (
 View
 itemView

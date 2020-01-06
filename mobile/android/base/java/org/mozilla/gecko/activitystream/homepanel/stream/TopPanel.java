@@ -109,7 +109,7 @@ public
 class
 TopPanel
 extends
-StreamItem
+StreamViewHolder
 {
 public
 static

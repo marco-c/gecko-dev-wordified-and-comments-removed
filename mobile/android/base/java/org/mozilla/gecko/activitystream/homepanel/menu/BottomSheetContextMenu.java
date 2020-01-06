@@ -161,9 +161,9 @@ activitystream
 .
 homepanel
 .
-model
+stream
 .
-Item
+StreamOverridablePageIconLayout
 ;
 import
 org
@@ -176,9 +176,9 @@ activitystream
 .
 homepanel
 .
-stream
+model
 .
-StreamOverridablePageIconLayout
+WebpageModel
 ;
 import
 org
@@ -303,7 +303,7 @@ final
 MenuMode
 mode
 final
-Item
+WebpageModel
 item
 final
 boolean

@@ -31,7 +31,7 @@ Nullable
 ;
 public
 interface
-Item
+WebpageModel
 {
 String
 getTitle

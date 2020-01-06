@@ -31,7 +31,7 @@ public
 class
 HighlightsTitle
 extends
-StreamItem
+StreamViewHolder
 {
 public
 static

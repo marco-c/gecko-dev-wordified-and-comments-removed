@@ -133,7 +133,7 @@ homepanel
 .
 model
 .
-Item
+WebpageModel
 ;
 class
 PopupContextMenu
@@ -174,7 +174,7 @@ final
 MenuMode
 mode
 final
-Item
+WebpageModel
 item
 HomePager
 .
