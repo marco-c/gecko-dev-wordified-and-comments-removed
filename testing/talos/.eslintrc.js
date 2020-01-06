@@ -102,6 +102,11 @@ TalosContentProfiler
 :
 true
 "
+TalosParentProfiler
+"
+:
+true
+"
 tpRecordTime
 "
 :
