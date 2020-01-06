@@ -13950,7 +13950,10 @@ Mark
 gcstats
 :
 :
-PHASE_MARK_DELAYED
+PhaseKind
+:
+:
+MARK_DELAYED
 )
 ;
 MOZ_ASSERT
@@ -18796,7 +18799,10 @@ stats
 gcstats
 :
 :
-PHASE_BARRIER
+PhaseKind
+:
+:
+BARRIER
 )
 ;
 gcstats
@@ -18816,7 +18822,10 @@ stats
 gcstats
 :
 :
-PHASE_UNMARK_GRAY
+PhaseKind
+:
+:
+UNMARK_GRAY
 )
 ;
 unmarker
