@@ -1997,13 +1997,6 @@ tab
 .
 linkedBrowser
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 ;
 if

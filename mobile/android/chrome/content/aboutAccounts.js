@@ -464,17 +464,6 @@ iframe
 =
 iframe
 ;
-this
-.
-iframe
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-;
 let
 docShell
 =

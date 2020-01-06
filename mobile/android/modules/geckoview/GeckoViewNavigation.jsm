@@ -659,13 +659,6 @@ return
 this
 .
 browser
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
 ;
 }
 throw

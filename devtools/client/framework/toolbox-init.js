@@ -353,15 +353,6 @@ XPCNativeWrapper
 iframe
 )
 ;
-iframe
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-;
 let
 tab
 =

@@ -507,13 +507,6 @@ mm
 =
 oopFrame
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 messageManager
