@@ -885,7 +885,7 @@ Gecko_CSSValue_SetAtomIdent
 self
 s
 .
-into
+into_addrefed
 (
 )
 )
