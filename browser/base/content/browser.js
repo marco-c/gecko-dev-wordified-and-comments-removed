@@ -12056,6 +12056,14 @@ getSystemPrincipal
 )
 )
 ;
+gBrowser
+.
+selectedBrowser
+.
+focus
+(
+)
+;
 break
 ;
 case
