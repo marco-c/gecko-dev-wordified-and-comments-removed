@@ -49,6 +49,17 @@ style_traits
 mod
 sanity_checks
 ;
+#
+[
+cfg
+(
+target_pointer_width
+=
+"
+64
+"
+)
+]
 mod
 size_of
 ;
