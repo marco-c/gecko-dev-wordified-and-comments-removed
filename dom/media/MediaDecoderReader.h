@@ -717,15 +717,6 @@ mTaskQueue
 }
 virtual
 bool
-IsAsync
-(
-)
-const
-=
-0
-;
-virtual
-bool
 VideoIsHardwareAccelerated
 (
 )

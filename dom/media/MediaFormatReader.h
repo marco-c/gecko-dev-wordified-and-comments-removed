@@ -241,17 +241,6 @@ Shutdown
 override
 ;
 bool
-IsAsync
-(
-)
-const
-override
-{
-return
-true
-;
-}
-bool
 VideoIsHardwareAccelerated
 (
 )
