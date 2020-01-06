@@ -27,7 +27,7 @@ computed
 :
 {
 Angle
-Number
+NonNegativeNumber
 }
 ;
 use
@@ -52,7 +52,10 @@ computed
 length
 :
 :
+{
 Length
+NonNegativeLength
+}
 ;
 use
 values
@@ -104,6 +107,7 @@ GenericBoxShadow
 <
 Color
 Length
+NonNegativeLength
 Length
 >
 ;
@@ -125,8 +129,8 @@ Filter
 GenericFilter
 <
 Angle
-Number
-Length
+NonNegativeNumber
+NonNegativeLength
 SimpleShadow
 >
 ;
@@ -151,8 +155,8 @@ Filter
 GenericFilter
 <
 Angle
-Number
-Length
+NonNegativeNumber
+NonNegativeLength
 Impossible
 >
 ;
@@ -164,6 +168,6 @@ GenericSimpleShadow
 <
 Color
 Length
-Length
+NonNegativeLength
 >
 ;

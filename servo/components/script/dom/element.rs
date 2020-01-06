@@ -4289,6 +4289,10 @@ SpecifiedValue
 horizontal
 :
 width_value
+.
+into
+(
+)
 vertical
 :
 None

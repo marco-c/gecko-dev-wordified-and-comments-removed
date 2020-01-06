@@ -504,6 +504,8 @@ len
 =
 >
 len
+.
+0
 Either
 :
 :
@@ -526,6 +528,8 @@ get_font
 )
 .
 font_size
+.
+0
 }
 ;
 let
@@ -561,6 +565,8 @@ column_gap
 /
 (
 column_width
+.
+0
 +
 column_gap
 )
@@ -588,6 +594,8 @@ min
 (
 column_count
 specified_column_count
+.
+0
 as
 i32
 )
@@ -613,6 +621,8 @@ n
 =
 >
 n
+.
+0
 _
 =
 >

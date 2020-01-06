@@ -2523,6 +2523,8 @@ get_font
 )
 .
 font_size
+.
+0
 ;
 match
 style
@@ -2556,6 +2558,8 @@ font_size
 scale_by
 (
 l
+.
+0
 )
 LineHeight
 :
@@ -2567,6 +2571,8 @@ l
 =
 >
 l
+.
+0
 }
 }
 fn

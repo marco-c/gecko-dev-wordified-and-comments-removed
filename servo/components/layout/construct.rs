@@ -13102,6 +13102,8 @@ is_definitely_zero
 border
 .
 border_top_width
+.
+0
 !
 =
 Au
@@ -13113,6 +13115,8 @@ Au
 border
 .
 border_right_width
+.
+0
 !
 =
 Au
@@ -13124,6 +13128,8 @@ Au
 border
 .
 border_bottom_width
+.
+0
 !
 =
 Au
@@ -13135,6 +13141,8 @@ Au
 border
 .
 border_left_width
+.
+0
 !
 =
 Au

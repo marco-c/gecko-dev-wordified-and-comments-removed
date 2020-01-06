@@ -349,7 +349,9 @@ get_initial_value
 (
 )
 .
-0
+value
+(
+)
 as
 isize
 )

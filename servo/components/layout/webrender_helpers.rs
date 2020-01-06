@@ -1398,6 +1398,8 @@ Blur
 (
 radius
 .
+0
+.
 to_f32_px
 (
 )
@@ -1425,6 +1427,8 @@ FilterOp
 Brightness
 (
 amount
+.
+0
 )
 )
 GenericFilter
@@ -1449,6 +1453,8 @@ FilterOp
 Contrast
 (
 amount
+.
+0
 )
 )
 GenericFilter
@@ -1473,6 +1479,8 @@ FilterOp
 Grayscale
 (
 amount
+.
+0
 )
 )
 GenericFilter
@@ -1525,6 +1533,8 @@ FilterOp
 Invert
 (
 amount
+.
+0
 )
 )
 GenericFilter
@@ -1549,6 +1559,8 @@ FilterOp
 Opacity
 (
 amount
+.
+0
 .
 into
 (
@@ -1577,6 +1589,8 @@ FilterOp
 Saturate
 (
 amount
+.
+0
 )
 )
 GenericFilter
@@ -1601,6 +1615,8 @@ FilterOp
 Sepia
 (
 amount
+.
+0
 )
 )
 GenericFilter

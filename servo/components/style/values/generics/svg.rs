@@ -554,6 +554,7 @@ Copy
 Debug
 PartialEq
 HasViewportPercentage
+ToAnimatedValue
 ToComputedValue
 ToCss
 )
@@ -594,6 +595,7 @@ Clone
 Debug
 PartialEq
 HasViewportPercentage
+ToAnimatedValue
 ToComputedValue
 )
 ]

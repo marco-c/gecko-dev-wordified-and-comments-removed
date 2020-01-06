@@ -36,10 +36,10 @@ s
 specified
 :
 :
-LengthOrPercentage
+NonNegativeLengthOrPercentage
 :
 :
-parse_non_negative
+parse
 "
 spec
 =

@@ -760,9 +760,17 @@ index
 flex_grow
 :
 flex_grow
+.
+into
+(
+)
 flex_shrink
 :
 flex_shrink
+.
+into
+(
+)
 order
 :
 order
