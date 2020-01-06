@@ -218,6 +218,15 @@ DrawTargetD2D1
 *
 mDrawTarget
 ;
+std
+:
+:
+shared_ptr
+<
+Mutex
+>
+mSnapshotLock
+;
 }
 ;
 class
