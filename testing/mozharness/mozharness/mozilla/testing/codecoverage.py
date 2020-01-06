@@ -1322,9 +1322,9 @@ grcov_lcov_output
 info
 '
             
-os
+shutil
 .
-rename
+move
 (
 grcov_output
 os
