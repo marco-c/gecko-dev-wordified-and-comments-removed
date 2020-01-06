@@ -2485,14 +2485,6 @@ bits
 =
 None
     
-config_file_search_path
-=
-[
-        
-DEFAULT_CONFIG_PATH
-    
-]
-    
 build_variants
 =
 {
@@ -3773,12 +3765,29 @@ value
 else
 :
             
+extra_config_paths
+=
+parser
+.
+values
+.
+config_paths
+or
+[
+]
+            
+config_paths
+=
+extra_config_paths
++
+[
+DEFAULT_CONFIG_PATH
+]
+            
 for
 path
 in
-cls
-.
-config_file_search_path
+config_paths
 :
                 
 if
