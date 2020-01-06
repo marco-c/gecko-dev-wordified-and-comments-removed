@@ -618,6 +618,11 @@ ServoBindingTypes
 h
 '
 '
+ServoCSSParser
+.
+h
+'
+'
 ServoCSSRuleList
 .
 h
@@ -1322,6 +1327,11 @@ cpp
 '
 '
 ServoBindings
+.
+cpp
+'
+'
+ServoCSSParser
 .
 cpp
 '
