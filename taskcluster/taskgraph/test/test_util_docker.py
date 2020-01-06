@@ -17,7 +17,7 @@ tempfile
 import
 unittest
 from
-.
+taskgraph
 .
 util
 import
@@ -25,6 +25,7 @@ docker
 from
 mozunit
 import
+main
 MockedOpen
 MODE_STANDARD
 =
@@ -1980,4 +1981,16 @@ shutil
 rmtree
 (
 tmp
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
 )

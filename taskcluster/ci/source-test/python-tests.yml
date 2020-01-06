@@ -74,10 +74,13 @@ using
 mach
 mach
 :
-taskgraph
 python
 -
-tests
+test
+-
+-
+subsuite
+taskgraph
 when
 :
 files
