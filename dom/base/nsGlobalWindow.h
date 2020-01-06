@@ -7400,6 +7400,11 @@ GetPerformance
 (
 )
 ;
+void
+UpdateTopInnerWindow
+(
+)
+;
 protected
 :
 void

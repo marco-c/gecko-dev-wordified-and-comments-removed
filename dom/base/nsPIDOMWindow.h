@@ -1953,6 +1953,13 @@ HasActiveDocument
 (
 )
 ;
+inline
+bool
+IsTopInnerWindow
+(
+)
+const
+;
 bool
 AddAudioContext
 (
