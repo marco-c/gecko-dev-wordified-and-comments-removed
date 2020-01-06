@@ -8502,7 +8502,12 @@ style
 .
 minWidth
 =
+Math
+.
+round
+(
 minWidth
+)
 +
 "
 px
