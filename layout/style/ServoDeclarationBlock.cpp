@@ -44,12 +44,6 @@ URLExtraData
 aExtraData
 nsCompatibility
 aMode
-css
-:
-:
-Loader
-*
-aLoader
 )
 {
 NS_ConvertUTF16toUTF8
@@ -70,7 +64,6 @@ Servo_ParseStyleAttribute
 value
 aExtraData
 aMode
-aLoader
 )
 .
 Consume

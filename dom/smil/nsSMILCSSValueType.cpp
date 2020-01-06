@@ -3281,12 +3281,6 @@ doc
 GetCompatibilityMode
 (
 )
-doc
--
->
-CSSLoader
-(
-)
 )
 .
 Consume

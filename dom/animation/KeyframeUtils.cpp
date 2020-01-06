@@ -2296,12 +2296,6 @@ aDocument
 GetCompatibilityMode
 (
 )
-aDocument
--
->
-CSSLoader
-(
-)
 )
 .
 Consume

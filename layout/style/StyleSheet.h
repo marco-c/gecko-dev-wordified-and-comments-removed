@@ -914,12 +914,6 @@ uint32_t
 aIndex
 )
 ;
-uint64_t
-FindOwningWindowInnerID
-(
-)
-const
-;
 template
 <
 typename
