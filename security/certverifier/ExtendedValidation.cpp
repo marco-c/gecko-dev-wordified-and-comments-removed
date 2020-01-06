@@ -6877,6 +6877,9 @@ false
 nsresult
 LoadExtendedValidationInfo
 (
+const
+nsNSSShutDownPreventionLock
+&
 )
 {
 static
