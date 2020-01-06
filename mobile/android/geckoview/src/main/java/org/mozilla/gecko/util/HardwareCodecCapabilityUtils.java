@@ -253,6 +253,11 @@ SGH
 -
 I337
 "
+"
+LG
+-
+D605
+"
 }
 ;
 WrapForJNI
