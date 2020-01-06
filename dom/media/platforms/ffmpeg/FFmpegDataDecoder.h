@@ -180,7 +180,7 @@ PrepareFrame
 (
 )
 ;
-nsresult
+MediaResult
 InitDecoder
 (
 )
