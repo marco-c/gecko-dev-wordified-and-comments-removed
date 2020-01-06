@@ -8033,6 +8033,11 @@ suggest
 searches
 "
 :
+case
+"
+userMadeSearchSuggestionsChoice
+"
+:
 /
 /
 Mirror
