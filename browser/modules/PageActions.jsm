@@ -140,17 +140,6 @@ init
 (
 )
 {
-if
-(
-!
-AppConstants
-.
-MOZ_PHOTON_THEME
-)
-{
-return
-;
-}
 let
 callbacks
 =

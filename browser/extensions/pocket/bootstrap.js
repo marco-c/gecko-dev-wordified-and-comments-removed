@@ -1080,11 +1080,6 @@ disablePageAction
 "
 false
 )
-&
-&
-AppConstants
-.
-MOZ_PHOTON_THEME
 ;
 }
 get

@@ -1,8 +1,5 @@
 %
 ifdef
-MOZ_PHOTON_THEME
-%
-ifdef
 CAN_DRAW_IN_TITLEBAR
 %
 ifdef
@@ -336,5 +333,3 @@ rect
 ;
 }
 }
-%
-endif
