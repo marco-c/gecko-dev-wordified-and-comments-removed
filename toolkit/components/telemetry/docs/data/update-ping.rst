@@ -404,7 +404,7 @@ Follows
 the
 same
 format
-a
+as
 application
 .
 version
@@ -460,7 +460,7 @@ Follows
 the
 same
 format
-a
+as
 application
 .
 buildId
@@ -570,7 +570,7 @@ Follows
 the
 same
 format
-a
+as
 application
 .
 version
@@ -626,7 +626,7 @@ Follows
 the
 same
 format
-a
+as
 application
 .
 buildId
@@ -736,6 +736,7 @@ saved
 to
 disk
 and
+sent
 after
 the
 policy
@@ -755,7 +756,7 @@ retries
 or
 other
 fallback
-occur
+occurs
 *
 *
 :

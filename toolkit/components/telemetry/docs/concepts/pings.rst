@@ -58,7 +58,9 @@ that
 we
 send
 to
-Mozillas
+Mozilla
+'
+s
 Telemetry
 servers
 .

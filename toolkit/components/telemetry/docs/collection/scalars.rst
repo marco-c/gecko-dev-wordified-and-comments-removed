@@ -122,13 +122,9 @@ feedback
 ?
 flag
 for
-:
-bsmedberg
-or
 one
 of
 the
-other
 data
 peers
 .
@@ -1572,7 +1568,7 @@ because
 scalar
 changes
 are
-send
+sent
 from
 each
 child

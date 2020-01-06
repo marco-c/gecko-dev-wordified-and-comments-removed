@@ -286,7 +286,7 @@ that
 would
 open
 a
-seperate
+separate
 console
 window
 just

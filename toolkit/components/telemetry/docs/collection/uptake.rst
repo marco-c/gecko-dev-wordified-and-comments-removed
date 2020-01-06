@@ -135,9 +135,13 @@ sources
 *
 remote
 settings
-addons
+add
+-
+ons
 update
-addons
+add
+-
+ons
 gfx
 and
 plugins
@@ -147,7 +151,9 @@ revocation
 certificate
 pinning
 system
-addons
+add
+-
+ons
 delivery
 *
 Examples

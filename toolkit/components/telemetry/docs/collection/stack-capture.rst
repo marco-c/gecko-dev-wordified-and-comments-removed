@@ -109,7 +109,7 @@ on
 Windows
 Linux
 and
-OSX
+macOS
 .
 Capturing
 stacks

@@ -28,7 +28,7 @@ Firefox
 starts
 until
 it
-shut
+shuts
 down
 .
 A
@@ -157,7 +157,9 @@ Firefox
 settings
 and
 when
-addons
+add
+-
+ons
 activate
 or
 deactivate
@@ -432,11 +434,13 @@ environment
 )
 we
 can
+better
 correlate
 a
-subsessions
+subsession
+'
+s
 data
-better
 to
 those
 settings

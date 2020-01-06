@@ -4879,8 +4879,7 @@ comes
 from
 an
 official
-OS
-X
+macOS
 Nightly
 build
 :
@@ -8106,7 +8105,7 @@ if
 UAC
 elevation
 was
-cancelled
+canceled
 or
 not
 allowed

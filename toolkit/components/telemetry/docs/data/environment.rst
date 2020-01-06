@@ -173,7 +173,9 @@ sections
 -
 profile
 -
-addons
+add
+-
+ons
 Structure
 :
 .
@@ -2160,7 +2162,9 @@ activeAddons
 the
 currently
 enabled
-addons
+add
+-
+ons
 <
 addon
 id
@@ -4071,7 +4075,9 @@ the
 record
 for
 each
-addon
+add
+-
+on
 are
 not
 available

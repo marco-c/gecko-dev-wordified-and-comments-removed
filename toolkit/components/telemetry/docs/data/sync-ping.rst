@@ -333,7 +333,7 @@ date
 >
 /
 /
-hourly
+Hourly
 precision
 ISO
 date
@@ -412,7 +412,7 @@ Optional
 why
 the
 sync
-occured
+occurred
 excluded
 if
 we

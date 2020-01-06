@@ -198,7 +198,7 @@ richer
 data
 on
 individual
-occurences
+occurrences
 of
 specific
 actions

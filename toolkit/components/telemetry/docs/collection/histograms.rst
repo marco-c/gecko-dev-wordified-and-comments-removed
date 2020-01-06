@@ -146,13 +146,9 @@ feedback
 ?
 flag
 for
-:
-bsmedberg
-or
 one
 of
 the
-other
 data
 peers
 .
@@ -2826,13 +2822,9 @@ feedback
 ?
 flag
 for
-:
-bsmedberg
-or
 one
 of
 the
-other
 data
 peers
 .

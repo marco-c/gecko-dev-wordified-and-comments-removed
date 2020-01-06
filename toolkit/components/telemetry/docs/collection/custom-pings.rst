@@ -294,13 +294,9 @@ feedback
 ?
 flag
 for
-:
-bsmedberg
-or
 one
 of
 the
-other
 data
 peers
 .
@@ -375,8 +371,6 @@ mozilla
 .
 org
 /
-de
-/
 docs
 /
 Observer_Notifications
@@ -421,6 +415,7 @@ invalid
 ping
 type
 strings
+.
 -
 invalid
 payload
@@ -447,7 +442,7 @@ pings
 >
 1MB
 but
-targetting
+targeting
 sizes
 of
 <
@@ -620,7 +615,7 @@ to
 guide
 a
 new
-pings
+ping
 design
 are
 :
@@ -856,7 +851,9 @@ the
 data
 limited
 to
-whats
+what
+'
+s
 needed
 to
 answer

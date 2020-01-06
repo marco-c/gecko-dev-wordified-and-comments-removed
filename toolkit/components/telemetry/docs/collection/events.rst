@@ -131,13 +131,9 @@ feedback
 ?
 flag
 for
-:
-bsmedberg
-or
 one
 of
 the
-other
 data
 peers
 .
@@ -374,7 +370,7 @@ type
 of
 event
 that
-occured
+occurred
 e
 .
 g
@@ -396,7 +392,7 @@ the
 object
 the
 event
-occured
+occurred
 on
 e
 .
@@ -1080,7 +1076,7 @@ numbers
 A
 list
 of
-bugzilla
+Bugzilla
 bug
 numbers
 that
@@ -1365,7 +1361,7 @@ null
 A
 string
 value
-limitted
+limited
 to
 80
 bytes
@@ -1386,7 +1382,7 @@ values
 Key
 strings
 are
-limitted
+limited
 to
 what
 was
@@ -1395,7 +1391,7 @@ registered
 Value
 strings
 are
-limitted
+limited
 to
 80
 bytes
@@ -1708,7 +1704,9 @@ by
 default
 .
 Privileged
-addons
+add
+-
+ons
 and
 Firefox
 code

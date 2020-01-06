@@ -201,7 +201,7 @@ is
 optional
 .
 If
-specificied
+specified
 the
 timer
 is
@@ -268,7 +268,7 @@ histogram
 |
 key
 |
-specificies
+specifies
 the
 key
 to
@@ -474,7 +474,7 @@ being
 possibly
 /
 /
-cancelled
+canceled
 or
 finished
 is
