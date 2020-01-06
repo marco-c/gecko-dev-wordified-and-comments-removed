@@ -242,6 +242,11 @@ CooperativeThreadPool
 h
 '
 '
+CPUUsageWatcher
+.
+h
+'
+'
 DeadlockDetector
 .
 h
@@ -403,6 +408,11 @@ cpp
 '
 '
 CooperativeThreadPool
+.
+cpp
+'
+'
+CPUUsageWatcher
 .
 cpp
 '
