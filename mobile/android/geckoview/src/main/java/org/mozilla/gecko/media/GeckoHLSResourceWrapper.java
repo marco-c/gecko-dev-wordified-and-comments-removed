@@ -210,16 +210,10 @@ try
 {
 mPlayer
 .
-addResourceWrapperCallbackListener
-(
-callback
-)
-;
-mPlayer
-.
 init
 (
 url
+callback
 )
 ;
 }
