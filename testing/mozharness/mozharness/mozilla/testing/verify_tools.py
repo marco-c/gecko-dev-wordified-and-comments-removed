@@ -1248,6 +1248,30 @@ get
 suite
 )
             
+references
+=
+re
+.
+compile
+(
+r
+"
+(
+-
+ref
+|
+-
+noref
+|
+-
+noref
+.
+)
+\
+.
+"
+)
+            
 for
 file
 in
@@ -1292,18 +1316,14 @@ reftest
                     
 nonref
 =
-file
+references
 .
-replace
+sub
 (
 '
--
-ref
 .
 '
-'
-.
-'
+file
 )
                     
 if
