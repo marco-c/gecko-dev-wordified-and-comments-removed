@@ -230,6 +230,9 @@ gecko_enum_prefix
 "
 StyleUserSelect
 "
+gecko_inexhaustive
+=
+True
 gecko_strip_moz_prefix
 =
 False
@@ -246,7 +249,7 @@ none
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
