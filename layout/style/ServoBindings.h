@@ -1393,8 +1393,9 @@ Gecko_SetListStyleType
 nsStyleList
 *
 style_struct
-uint32_t
-type
+nsIAtom
+*
+name
 )
 ;
 void
