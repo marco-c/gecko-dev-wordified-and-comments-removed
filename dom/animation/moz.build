@@ -346,11 +346,6 @@ KeyframeEffect
 cpp
 '
 '
-KeyframeEffectParams
-.
-cpp
-'
-'
 KeyframeEffectReadOnly
 .
 cpp
