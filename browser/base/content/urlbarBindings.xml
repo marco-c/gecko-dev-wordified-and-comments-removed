@@ -14969,6 +14969,10 @@ input
 let
 yOffset
 =
+Math
+.
+round
+(
 this
 .
 DOMWindowUtils
@@ -14999,6 +15003,7 @@ aInput
 )
 .
 bottom
+)
 ;
 this
 .
