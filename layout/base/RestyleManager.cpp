@@ -76,6 +76,10 @@ mRestyleGeneration
 (
 1
 )
+mUndisplayedRestyleGeneration
+(
+1
+)
 mHoverGeneration
 (
 0

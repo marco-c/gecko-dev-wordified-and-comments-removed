@@ -2999,6 +2999,8 @@ nsStyleContext
 &
 &
 aContext
+uint64_t
+aGeneration
 )
 {
 if
@@ -3024,6 +3026,10 @@ mStyleContext
 =
 aContext
 ;
+mStyleContextGeneration
+=
+aGeneration
+;
 }
 void
 nsComputedDOMStyle
@@ -3034,6 +3040,8 @@ SetFrameStyleContext
 nsStyleContext
 *
 aContext
+uint64_t
+aGeneration
 )
 {
 ClearStyleContext
@@ -3043,6 +3051,10 @@ ClearStyleContext
 mStyleContext
 =
 aContext
+;
+mStyleContextGeneration
+=
+aGeneration
 ;
 }
 void
@@ -3148,7 +3160,7 @@ GetPresContext
 )
 -
 >
-GetRestyleGeneration
+GetUndisplayedRestyleGeneration
 (
 )
 ;
@@ -3163,6 +3175,14 @@ mStyleContextGeneration
 =
 =
 currentGeneration
+&
+&
+mContent
+-
+>
+IsInComposedDoc
+(
+)
 )
 {
 return
@@ -3381,6 +3401,7 @@ mInnerFrame
 StyleContext
 (
 )
+currentGeneration
 )
 ;
 NS_ASSERTION
@@ -3608,7 +3629,7 @@ GetPresContext
 )
 -
 >
-GetRestyleGeneration
+GetUndisplayedRestyleGeneration
 (
 )
 "
@@ -3629,6 +3650,7 @@ Move
 (
 resolvedStyleContext
 )
+currentGeneration
 )
 ;
 NS_ASSERTION
@@ -3727,6 +3749,7 @@ Move
 (
 unanimatedStyleContext
 )
+currentGeneration
 )
 ;
 }

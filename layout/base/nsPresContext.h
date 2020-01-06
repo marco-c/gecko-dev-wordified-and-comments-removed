@@ -3237,6 +3237,12 @@ GetRestyleGeneration
 )
 const
 ;
+uint64_t
+GetUndisplayedRestyleGeneration
+(
+)
+const
+;
 bool
 HasPendingRestyleOrReflow
 (
