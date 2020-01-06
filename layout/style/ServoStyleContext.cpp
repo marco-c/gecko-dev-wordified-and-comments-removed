@@ -78,15 +78,10 @@ aPseudoTag
 aPseudoType
 )
 {
-#
-ifdef
-MOZ_STYLO
 mPresContext
 =
 aPresContext
 ;
-#
-endif
 FinishConstruction
 (
 )
