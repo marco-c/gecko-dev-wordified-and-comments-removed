@@ -1253,7 +1253,7 @@ EXTRA_JS_MODULES
 '
 addons
 /
-MatchPattern
+MatchURLFilters
 .
 jsm
 '

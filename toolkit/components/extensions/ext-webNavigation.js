@@ -20,7 +20,7 @@ gre
 /
 modules
 /
-MatchPattern
+MatchURLFilters
 .
 jsm
 "
