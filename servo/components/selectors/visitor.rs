@@ -20,7 +20,6 @@ parser
 Combinator
 Component
 SelectorImpl
-SelectorIter
 }
 ;
 pub
