@@ -18203,6 +18203,13 @@ SetInlineLineBreakBeforeAndReset
 (
 )
 ;
+aLine
+-
+>
+MarkDirty
+(
+)
+;
 }
 else
 {
@@ -22237,6 +22244,13 @@ aState
 mReflowStatus
 .
 SetInlineLineBreakBeforeAndReset
+(
+)
+;
+aLine
+-
+>
+MarkDirty
 (
 )
 ;
