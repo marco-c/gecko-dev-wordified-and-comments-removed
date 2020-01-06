@@ -217,7 +217,7 @@ GradientItem
 ImageLayer
 LineDirection
 Image
-ImageRect
+MozImageRect
 }
 ;
 #
