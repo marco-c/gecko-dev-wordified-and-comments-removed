@@ -2920,6 +2920,17 @@ function
 aMessage
 )
 {
+Services
+.
+tm
+.
+idleDispatchToMainThread
+(
+(
+)
+=
+>
+{
 let
 result
 =
@@ -2944,6 +2955,9 @@ Response
 "
 {
 result
+}
+)
+;
 }
 )
 ;
