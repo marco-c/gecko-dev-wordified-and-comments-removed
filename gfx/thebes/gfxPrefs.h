@@ -3210,11 +3210,11 @@ direct3d11
 .
 allow
 -
-intel
+keyed
 -
 mutex
 "
-Direct3D11AllowIntelMutex
+Direct3D11AllowKeyedMutex
 bool
 true
 )
