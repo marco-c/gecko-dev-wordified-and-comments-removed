@@ -11,6 +11,11 @@ quit
 (
 )
 ;
+gczeal
+(
+0
+)
+;
 startgc
 (
 8301

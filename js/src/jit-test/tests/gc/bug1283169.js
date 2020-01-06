@@ -13,6 +13,11 @@ quit
 0
 )
 ;
+gczeal
+(
+0
+)
+;
 startgc
 (
 45

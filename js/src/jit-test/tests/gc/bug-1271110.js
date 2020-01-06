@@ -13,6 +13,11 @@ quit
 (
 )
 ;
+gczeal
+(
+0
+)
+;
 var
 x1
 =
