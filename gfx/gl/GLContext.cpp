@@ -3983,12 +3983,9 @@ mVersion
 <
 200
 )
-{
-mVersion
-=
-200
+return
+false
 ;
-}
 const
 auto
 glslVersionStr
