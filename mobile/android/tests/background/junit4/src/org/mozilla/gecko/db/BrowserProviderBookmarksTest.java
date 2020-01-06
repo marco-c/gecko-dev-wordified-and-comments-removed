@@ -2565,7 +2565,7 @@ guid1
 ;
 assertEquals
 (
-0
+1
 getRowCount
 (
 Bookmarks
@@ -2588,7 +2588,7 @@ guid1
 ;
 assertEquals
 (
-9
+10
 getTotalNumberOfBookmarks
 (
 )
@@ -2650,7 +2650,7 @@ true
 ;
 assertEquals
 (
-10
+11
 getTotalNumberOfBookmarks
 (
 )
@@ -2693,7 +2693,7 @@ MOBILE_FOLDER_GUID
 ;
 assertEquals
 (
-10
+11
 getTotalNumberOfBookmarks
 (
 )
@@ -2737,7 +2737,7 @@ guid2
 ;
 assertEquals
 (
-9
+10
 getTotalNumberOfBookmarks
 (
 )
