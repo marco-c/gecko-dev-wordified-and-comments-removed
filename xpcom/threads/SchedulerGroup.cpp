@@ -219,6 +219,9 @@ IsBackground
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 #
+if
+0
+#
 ifdef
 EARLY_BETA_OR_EARLIER
 aRunnable
@@ -240,12 +243,17 @@ Now
 ;
 #
 endif
+#
+endif
 }
 ~
 AutoCollectVsyncTelemetry
 (
 )
 {
+#
+if
+0
 #
 ifdef
 EARLY_BETA_OR_EARLIER
@@ -264,6 +272,8 @@ CollectTelemetry
 )
 ;
 }
+#
+endif
 #
 endif
 }
