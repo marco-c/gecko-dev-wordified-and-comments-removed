@@ -269,7 +269,7 @@ private
 -
 browsing
 .
-message
+message2
 "
 )
 button
@@ -365,7 +365,7 @@ private
 -
 browsing
 .
-description2
+description3
 "
 >
 <
