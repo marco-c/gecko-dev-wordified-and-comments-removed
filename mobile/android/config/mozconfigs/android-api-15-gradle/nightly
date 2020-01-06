@@ -51,7 +51,7 @@ bin
 gradle
 "
 export
-GRADLE_MAVEN_REPOSITORY
+GRADLE_MAVEN_REPOSITORIES
 =
 "
 file

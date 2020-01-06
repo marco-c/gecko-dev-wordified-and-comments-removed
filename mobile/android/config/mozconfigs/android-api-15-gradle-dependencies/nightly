@@ -82,10 +82,10 @@ populate
 the
 local
 Nexus
-repository
+repositories
 .
 export
-GRADLE_MAVEN_REPOSITORY
+GRADLE_MAVEN_REPOSITORIES
 =
 "
 http
