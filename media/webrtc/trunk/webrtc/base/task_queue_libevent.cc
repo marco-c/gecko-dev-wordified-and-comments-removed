@@ -1284,7 +1284,13 @@ timeval
 tv
 =
 {
+static_cast
+<
+time_t
+>
+(
 milliseconds
+)
 /
 1000
 static_cast
