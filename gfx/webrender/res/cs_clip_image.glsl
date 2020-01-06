@@ -1,6 +1,3 @@
-#
-line
-1
 /
 *
 This
@@ -59,6 +56,11 @@ MPL
 .
 *
 /
+#
+include
+shared
+prim_shared
+clip_shared
 varying
 vec3
 vPos

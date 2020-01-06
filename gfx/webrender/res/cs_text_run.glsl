@@ -1,6 +1,3 @@
-#
-line
-1
 /
 *
 This
@@ -59,6 +56,10 @@ MPL
 .
 *
 /
+#
+include
+shared
+prim_shared
 varying
 vec3
 vUv

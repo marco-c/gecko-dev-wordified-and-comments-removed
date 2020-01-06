@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+#
+include
+shared
+prim_shared
+shared_border
 flat
 varying
 vec4
