@@ -4079,17 +4079,6 @@ chrome
 chrome
 "
 )
-                          
-(
-"
-jetpack
-.
-*
-"
-"
-jetpack
-"
-)
 ]
             
 "

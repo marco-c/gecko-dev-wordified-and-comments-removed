@@ -752,17 +752,6 @@ system
 gnome
 '
 ]
-DIRS
-+
-=
-[
-'
-/
-addon
--
-sdk
-'
-]
 if
 CONFIG
 [

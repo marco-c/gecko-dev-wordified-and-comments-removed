@@ -1773,11 +1773,9 @@ gre
 /
 modules
 /
-sdk
-/
-bootstrap
+HiddenFrame
 .
-js
+jsm
 "
 }
 ]

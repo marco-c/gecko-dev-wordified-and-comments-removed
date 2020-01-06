@@ -157,9 +157,4 @@ RemoteAddonsParent
 .
 jsm
 '
-'
-ShimWaiver
-.
-jsm
-'
 ]

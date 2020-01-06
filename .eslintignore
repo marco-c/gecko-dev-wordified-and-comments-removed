@@ -53,12 +53,6 @@ exclusions
 #
 below
 .
-addon
--
-sdk
-/
-*
-*
 chrome
 /
 *

@@ -196,10 +196,6 @@ gpu
 -
 mochitest
 -
-jetpack
--
-mochitest
--
 media
 -
 mochitest
@@ -778,10 +774,6 @@ gpu
 -
 mochitest
 -
-jetpack
--
-mochitest
--
 media
 -
 mochitest
@@ -1068,10 +1060,6 @@ gpu
 -
 mochitest
 -
-jetpack
--
-mochitest
--
 media
 -
 mochitest
@@ -1327,10 +1315,6 @@ clipboard
 mochitest
 -
 gpu
--
-mochitest
--
-jetpack
 -
 mochitest
 -
