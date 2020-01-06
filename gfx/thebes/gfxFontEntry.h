@@ -2168,6 +2168,10 @@ aFontStyle
 bool
 &
 aNeedsSyntheticBold
+bool
+aIgnoreSizeTolerance
+=
+false
 )
 ;
 virtual
@@ -2188,6 +2192,10 @@ aFontEntryList
 bool
 &
 aNeedsSyntheticBold
+bool
+aIgnoreSizeTolerance
+=
+false
 )
 ;
 void
