@@ -11582,7 +11582,6 @@ bytes
 0usize
 ;
 let
-mut
 stream
 =
 self
@@ -11600,7 +11599,6 @@ unwrap
 loop
 {
 let
-mut
 buf
 =
 &
@@ -11721,9 +11719,7 @@ usize
 '
 =
 >
-{
 break
-}
 _
 =
 >
@@ -11732,7 +11728,6 @@ _
 }
 }
 let
-mut
 buf
 =
 &
