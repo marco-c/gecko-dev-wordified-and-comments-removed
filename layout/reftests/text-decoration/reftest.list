@@ -1,3 +1,9 @@
+fails
+-
+if
+(
+webrender
+)
 =
 =
 complex
@@ -20,6 +26,12 @@ quirks
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 complex
