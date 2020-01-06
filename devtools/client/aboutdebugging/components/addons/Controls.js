@@ -84,9 +84,7 @@ require
 "
 .
 /
-install
--
-error
+InstallError
 "
 )
 )

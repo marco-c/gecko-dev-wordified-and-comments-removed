@@ -49,9 +49,7 @@ require
 .
 .
 /
-panel
--
-header
+PanelHeader
 "
 )
 )
@@ -67,9 +65,7 @@ require
 .
 .
 /
-target
--
-list
+TargetList
 "
 )
 )
@@ -84,7 +80,7 @@ require
 "
 .
 /
-target
+Target
 "
 )
 )

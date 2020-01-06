@@ -104,9 +104,7 @@ require
 .
 .
 /
-panel
--
-header
+PanelHeader
 "
 )
 )
@@ -122,9 +120,7 @@ require
 .
 .
 /
-target
--
-list
+TargetList
 "
 )
 )
@@ -139,7 +135,7 @@ require
 "
 .
 /
-target
+Target
 "
 )
 )
@@ -154,11 +150,7 @@ require
 "
 .
 /
-multi
--
-e10s
--
-warning
+MultiE10sWarning
 "
 )
 )
@@ -173,11 +165,7 @@ require
 "
 .
 /
-service
--
-worker
--
-target
+ServiceWorkerTarget
 "
 )
 )

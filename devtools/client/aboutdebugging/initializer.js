@@ -231,7 +231,7 @@ require
 /
 components
 /
-aboutdebugging
+Aboutdebugging
 "
 )
 )

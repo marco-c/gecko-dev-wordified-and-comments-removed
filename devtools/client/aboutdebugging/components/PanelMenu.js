@@ -38,11 +38,7 @@ require
 "
 .
 /
-panel
--
-menu
--
-entry
+PanelMenuEntry
 "
 )
 )

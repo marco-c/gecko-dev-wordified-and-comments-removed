@@ -56,12 +56,12 @@ MPL
 DevToolsModules
 (
 '
-panel
+Panel
 .
 js
 '
 '
-target
+Target
 .
 js
 '
