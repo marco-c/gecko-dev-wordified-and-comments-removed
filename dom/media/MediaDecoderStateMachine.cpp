@@ -17091,10 +17091,7 @@ kAudioTrack
 ;
 }
 return
-TimeUnit
-:
-:
-Zero
+GetMediaTime
 (
 )
 ;
@@ -17139,10 +17136,7 @@ kVideoTrack
 ;
 }
 return
-TimeUnit
-:
-:
-Zero
+GetMediaTime
 (
 )
 ;
