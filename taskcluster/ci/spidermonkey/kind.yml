@@ -873,6 +873,9 @@ tc
 (
 tsan
 )
+tier
+:
+3
 run
 -
 on
