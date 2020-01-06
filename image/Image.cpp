@@ -220,6 +220,9 @@ aContainer
 DrawResult
 drawResult
 ;
+IntSize
+size
+;
 RefPtr
 <
 SourceSurface
@@ -229,6 +232,7 @@ surface
 Tie
 (
 drawResult
+size
 surface
 )
 =
