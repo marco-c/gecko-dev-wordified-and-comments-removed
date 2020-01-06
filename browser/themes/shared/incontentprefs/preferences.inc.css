@@ -205,6 +205,11 @@ bottom
 important
 ;
 }
+menulist
+>
+hbox
+>
+label
 menuitem
 >
 label
