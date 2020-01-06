@@ -2786,7 +2786,7 @@ outRightNode
 nullptr
 nsCOMPtr
 <
-nsIDOMNode
+nsIContent
 >
 *
 ioChildAtSplitPointOffset

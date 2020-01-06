@@ -16097,7 +16097,7 @@ nsIContent
 aOutRightNode
 nsCOMPtr
 <
-nsIDOMNode
+nsIContent
 >
 *
 ioChildAtSplitPointOffset
@@ -16360,10 +16360,7 @@ ioChildAtSplitPointOffset
 *
 ioChildAtSplitPointOffset
 =
-do_QueryInterface
-(
 nodeToSplit
-)
 ;
 }
 return
@@ -17117,6 +17114,17 @@ AnchorOffset
 (
 )
 ;
+nsIContent
+*
+child
+=
+selection
+-
+>
+GetChildAtAnchorOffset
+(
+)
+;
 nsCOMPtr
 <
 Element
@@ -17129,6 +17137,7 @@ CreateNode
 aTag
 node
 offset
+child
 )
 ;
 rv
