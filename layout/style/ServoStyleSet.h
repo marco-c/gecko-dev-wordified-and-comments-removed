@@ -841,9 +841,11 @@ MaybeGCRuleTree
 (
 )
 ;
+static
 bool
 MayTraverseFrom
 (
+const
 dom
 :
 :
