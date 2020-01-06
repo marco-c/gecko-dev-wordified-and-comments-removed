@@ -567,12 +567,33 @@ None
 push
 =
 True
+                    
+closed_tree
+=
+False
 )
 :
         
+closed_tree_string
+=
+"
+ON
+A
+CLOSED
+TREE
+"
+if
+closed_tree
+else
+"
+"
+        
 commit_message
 =
+(
 '
+%
+s
 %
 s
 \
@@ -586,9 +607,12 @@ try
 s
 '
 %
+                          
 (
 msg
+closed_tree_string
 method
+)
 )
         
 self
