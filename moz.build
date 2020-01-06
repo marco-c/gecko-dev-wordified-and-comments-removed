@@ -444,11 +444,6 @@ testing
 /
 mozbase
 '
-'
-third_party
-/
-python
-'
 ]
 if
 not

@@ -96,16 +96,14 @@ type
 summaries
 defined
 here
-and
 #
+and
 in
 the
 accompanying
 Python
 scripts
 see
-third_party
-/
 python
 /
 lldbutils
@@ -280,8 +278,6 @@ join
 (
 topsrcdir
 "
-third_party
-/
 python
 /
 lldbutils

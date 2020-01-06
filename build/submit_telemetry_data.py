@@ -43,9 +43,6 @@ HERE
 .
 '
 '
-third_party
-'
-'
 python
 '
 '
