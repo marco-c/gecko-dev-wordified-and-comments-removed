@@ -171,6 +171,11 @@ U2FTokenTransport
 h
 '
 '
+WebAuthnCBORUtil
+.
+h
+'
+'
 WebAuthnManager
 .
 h
@@ -259,6 +264,11 @@ cpp
 '
 '
 U2FTokenManager
+.
+cpp
+'
+'
+WebAuthnCBORUtil
 .
 cpp
 '
