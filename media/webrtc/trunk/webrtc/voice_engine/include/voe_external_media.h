@@ -164,8 +164,6 @@ samplingFreqHz
 int
 num_channels
 int
-current_delay_ms
-int
 &
 lengthSamples
 )

@@ -291,10 +291,6 @@ mNoise
 (
 0
 )
-mPlayoutDelay
-(
-0
-)
 mFullDuplex
 (
 false
@@ -346,9 +342,6 @@ mAgc
 ;
 int32_t
 mNoise
-;
-int32_t
-mPlayoutDelay
 ;
 bool
 mFullDuplex

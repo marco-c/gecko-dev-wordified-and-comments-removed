@@ -2708,9 +2708,6 @@ mTotalFrames
 uint64_t
 mLastLogFrames
 ;
-int32_t
-mPlayoutDelay
-;
 NullTransport
 *
 mNullTransport
