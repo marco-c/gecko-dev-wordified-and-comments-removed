@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsDocument
+.
+h
+"
+#
+include
+"
 nsDOMMutationObserver
 .
 h
@@ -536,10 +543,10 @@ aCallerType
 if
 (
 !
-AnimationUtils
+nsDocument
 :
 :
-IsCoreAPIEnabledForCaller
+IsWebAnimationsEnabled
 (
 aCallerType
 )

@@ -220,6 +220,13 @@ h
 #
 include
 "
+nsDocument
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -3533,10 +3540,10 @@ IsUnrestrictedDouble
 |
 |
 !
-AnimationUtils
+nsDocument
 :
 :
-IsCoreAPIEnabledForCaller
+IsWebAnimationsEnabled
 (
 aCallerType
 )
