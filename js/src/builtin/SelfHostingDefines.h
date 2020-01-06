@@ -443,6 +443,10 @@ keys
 /
 #
 define
+REGEXP_SOURCE_SLOT
+1
+#
+define
 REGEXP_FLAGS_SLOT
 2
 #
