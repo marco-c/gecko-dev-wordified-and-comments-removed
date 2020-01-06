@@ -87,9 +87,7 @@ shared
 /
 components
 /
-search
--
-box
+SearchBox
 "
 )
 )
@@ -110,9 +108,7 @@ components
 /
 tree
 /
-tree
--
-view
+TreeView
 "
 )
 ;
@@ -142,9 +138,7 @@ components
 /
 tree
 /
-tree
--
-row
+TreeRow
 "
 )
 )

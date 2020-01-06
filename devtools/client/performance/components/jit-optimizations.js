@@ -104,7 +104,7 @@ shared
 /
 components
 /
-tree
+Tree
 "
 )
 )
@@ -146,7 +146,7 @@ shared
 /
 components
 /
-frame
+Frame
 "
 )
 )

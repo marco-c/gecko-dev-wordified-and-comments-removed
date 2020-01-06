@@ -62,9 +62,7 @@ shared
 /
 components
 /
-autocomplete
--
-popup
+AutoCompletePopup
 "
 )
 )

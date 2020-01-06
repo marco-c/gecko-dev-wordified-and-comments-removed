@@ -61,7 +61,7 @@ components
 /
 splitter
 /
-draggable
+Draggable
 "
 )
 )

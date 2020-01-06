@@ -44,7 +44,7 @@ components
 /
 tabs
 /
-tabs
+Tabs
 "
 )
 .

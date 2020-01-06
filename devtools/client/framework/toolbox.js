@@ -5026,9 +5026,7 @@ shared
 /
 components
 /
-notification
--
-box
+NotificationBox
 "
 )
 ;

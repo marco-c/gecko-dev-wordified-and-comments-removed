@@ -78,7 +78,7 @@ shared
 /
 components
 /
-tree
+Tree
 "
 )
 )

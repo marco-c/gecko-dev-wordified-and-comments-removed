@@ -59,7 +59,7 @@ require
 "
 .
 /
-frame
+Frame
 "
 )
 )

@@ -224,7 +224,7 @@ shared
 /
 components
 /
-frame
+Frame
 "
 )
 )
@@ -245,9 +245,7 @@ shared
 /
 components
 /
-stack
--
-trace
+StackTrace
 "
 )
 )

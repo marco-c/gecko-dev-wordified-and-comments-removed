@@ -78,7 +78,7 @@ shared
 /
 components
 /
-frame
+Frame
 "
 )
 )

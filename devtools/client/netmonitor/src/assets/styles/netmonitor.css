@@ -48,9 +48,7 @@ components
 /
 splitter
 /
-split
--
-box
+SplitBox
 .
 css
 "
@@ -71,9 +69,7 @@ components
 /
 tree
 /
-tree
--
-view
+TreeView
 .
 css
 "
@@ -94,7 +90,7 @@ components
 /
 tabs
 /
-tabs
+Tabs
 .
 css
 "
@@ -115,7 +111,7 @@ components
 /
 tabs
 /
-tabbar
+TabBar
 .
 css
 "

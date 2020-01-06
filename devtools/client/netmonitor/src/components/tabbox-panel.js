@@ -96,7 +96,7 @@ components
 /
 tabs
 /
-tabbar
+TabBar
 "
 )
 )
@@ -119,7 +119,7 @@ components
 /
 tabs
 /
-tabs
+Tabs
 "
 )
 .

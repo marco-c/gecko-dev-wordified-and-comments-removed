@@ -62,7 +62,7 @@ components
 /
 tabs
 /
-tabs
+Tabs
 "
 )
 )

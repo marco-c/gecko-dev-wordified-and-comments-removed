@@ -65,9 +65,7 @@ shared
 /
 components
 /
-stack
--
-trace
+StackTrace
 "
 )
 )

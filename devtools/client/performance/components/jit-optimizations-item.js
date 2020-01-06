@@ -104,7 +104,7 @@ shared
 /
 components
 /
-frame
+Frame
 "
 )
 )

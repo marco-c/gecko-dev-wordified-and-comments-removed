@@ -216,7 +216,7 @@ components
 /
 tabs
 /
-tabs
+Tabs
 .
 css
 "
@@ -237,7 +237,7 @@ components
 /
 tabs
 /
-tabbar
+TabBar
 .
 css
 "

@@ -277,7 +277,7 @@ components
 /
 tabs
 /
-tabbar
+TabBar
 "
 )
 )

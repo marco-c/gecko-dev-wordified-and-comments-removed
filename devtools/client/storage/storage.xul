@@ -215,9 +215,7 @@ shared
 /
 components
 /
-sidebar
--
-toggle
+SidebarToggle
 .
 css
 "

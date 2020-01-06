@@ -65,9 +65,7 @@ components
 /
 tree
 /
-tree
--
-view
+TreeView
 .
 css
 "
@@ -88,7 +86,7 @@ components
 /
 tabs
 /
-tabs
+Tabs
 .
 css
 "

@@ -62,9 +62,7 @@ require
 "
 .
 /
-tree
--
-cell
+TreeCell
 "
 )
 )
@@ -81,9 +79,7 @@ require
 "
 .
 /
-label
--
-cell
+LabelCell
 "
 )
 )

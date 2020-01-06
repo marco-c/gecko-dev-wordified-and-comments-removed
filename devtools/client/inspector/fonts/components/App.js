@@ -67,9 +67,7 @@ shared
 /
 components
 /
-search
--
-box
+SearchBox
 "
 )
 )
