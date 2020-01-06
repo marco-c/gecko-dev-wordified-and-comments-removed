@@ -45099,7 +45099,6 @@ StopGamepadHaptics
 return
 ;
 }
-else
 if
 (
 inner
