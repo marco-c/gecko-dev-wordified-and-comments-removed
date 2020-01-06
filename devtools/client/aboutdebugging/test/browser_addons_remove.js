@@ -159,8 +159,13 @@ getTemporaryAddonList
 (
 document
 )
+.
+parentNode
 {
 childList
+:
+true
+subtree
 :
 true
 }
@@ -313,8 +318,13 @@ getTemporaryAddonList
 (
 document
 )
+.
+parentNode
 {
 childList
+:
+true
+subtree
 :
 true
 }
