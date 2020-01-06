@@ -22,11 +22,9 @@ http
 :
 /
 /
-doc
+docs
 .
-servo
-.
-org
+rs
 /
 smallvec
 /

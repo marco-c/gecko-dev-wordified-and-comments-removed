@@ -158,6 +158,10 @@ extern
 crate
 heapsize
 ;
+extern
+crate
+smallvec
+;
 pub
 use
 cssparser_macros
