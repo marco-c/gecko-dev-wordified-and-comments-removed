@@ -603,7 +603,7 @@ void
 PaintThread
 :
 :
-PaintContentsAsync
+AsyncPaintContents
 (
 CompositorBridgeChild
 *
@@ -699,7 +699,7 @@ void
 PaintThread
 :
 :
-FinishedLayerBatch
+EndLayer
 (
 )
 {
@@ -730,7 +730,7 @@ NS_NewRunnableFunction
 PaintThread
 :
 :
-EndAsyncPaintingLayer
+AsyncEndLayer
 "
 [
 self
@@ -744,7 +744,7 @@ void
 self
 -
 >
-EndAsyncPaintingLayer
+AsyncEndLayer
 (
 )
 ;
@@ -792,7 +792,7 @@ void
 PaintThread
 :
 :
-EndAsyncPaintingLayer
+AsyncEndLayer
 (
 )
 {
@@ -845,7 +845,7 @@ void
 PaintThread
 :
 :
-FinishedLayerTransaction
+EndLayerTransaction
 (
 SyncObjectClient
 *
@@ -888,7 +888,7 @@ Get
 cbc
 -
 >
-NotifyBeginAsyncPaintEndTransaction
+NotifyBeginAsyncEndLayerTransaction
 (
 )
 ;
@@ -922,7 +922,7 @@ NS_NewRunnableFunction
 PaintThread
 :
 :
-EndAsyncLayerTransaction
+AsyncEndLayerTransaction
 "
 [
 self
@@ -938,7 +938,7 @@ void
 self
 -
 >
-EndAsyncLayerTransaction
+AsyncEndLayerTransaction
 (
 cbc
 syncObject
@@ -982,7 +982,7 @@ void
 PaintThread
 :
 :
-EndAsyncLayerTransaction
+AsyncEndLayerTransaction
 (
 CompositorBridgeChild
 *
@@ -1020,7 +1020,7 @@ aBridge
 aBridge
 -
 >
-NotifyFinishedAsyncPaintEndTransaction
+NotifyFinishedAsyncEndLayerTransaction
 (
 )
 ;
@@ -1145,7 +1145,7 @@ void
 self
 -
 >
-PaintContentsAsync
+AsyncPaintContents
 (
 cbc
 state

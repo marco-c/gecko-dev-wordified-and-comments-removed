@@ -995,12 +995,12 @@ aState
 )
 ;
 void
-NotifyBeginAsyncPaintEndTransaction
+NotifyBeginAsyncEndLayerTransaction
 (
 )
 ;
 void
-NotifyFinishedAsyncPaintEndTransaction
+NotifyFinishedAsyncEndLayerTransaction
 (
 )
 ;

@@ -3223,7 +3223,7 @@ Get
 )
 -
 >
-FinishedLayerTransaction
+EndLayerTransaction
 (
 syncObject
 )

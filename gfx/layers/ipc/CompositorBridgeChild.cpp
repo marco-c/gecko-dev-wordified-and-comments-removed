@@ -5341,7 +5341,7 @@ void
 CompositorBridgeChild
 :
 :
-NotifyBeginAsyncPaintEndTransaction
+NotifyBeginAsyncEndLayerTransaction
 (
 )
 {
@@ -5373,7 +5373,7 @@ void
 CompositorBridgeChild
 :
 :
-NotifyFinishedAsyncPaintEndTransaction
+NotifyFinishedAsyncEndLayerTransaction
 (
 )
 {
