@@ -428,9 +428,6 @@ fi
 MOZ_PROFILE_MIGRATOR
 =
 1
-MOZ_JSDOWNLOADS
-=
-1
 #
 Enable
 checking
