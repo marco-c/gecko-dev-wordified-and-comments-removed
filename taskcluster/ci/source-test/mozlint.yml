@@ -2,6 +2,11 @@ job
 -
 defaults
 :
+always
+-
+target
+:
+true
 treeherder
 :
 kind

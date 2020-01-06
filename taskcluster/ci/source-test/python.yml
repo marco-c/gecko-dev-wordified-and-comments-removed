@@ -7,6 +7,11 @@ platform
 linux64
 /
 opt
+always
+-
+target
+:
+true
 worker
 -
 type
@@ -296,6 +301,11 @@ require
 build
 :
 true
+always
+-
+target
+:
+false
 treeherder
 :
 symbol
@@ -841,6 +851,11 @@ require
 build
 :
 true
+always
+-
+target
+:
+false
 treeherder
 :
 symbol
