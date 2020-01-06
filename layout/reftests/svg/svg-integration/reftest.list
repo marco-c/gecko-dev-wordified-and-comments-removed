@@ -530,7 +530,7 @@ if
 (
 Android
 )
-random
+skip
 -
 if
 (
@@ -561,6 +561,18 @@ Android
 :
 bug
 1198380
+.
+skip
+styloVsGecko
+for
+imperceptible
+pixel
+rounding
+differences
+between
+Stylo
+and
+Gecko
 =
 =
 filter
