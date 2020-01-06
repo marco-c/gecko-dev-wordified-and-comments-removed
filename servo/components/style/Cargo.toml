@@ -207,10 +207,6 @@ use_union
 servo_url
 "
 ]
-testing
-=
-[
-]
 gecko_debug
 =
 [

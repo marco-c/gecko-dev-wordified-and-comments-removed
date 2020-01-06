@@ -5467,9 +5467,6 @@ products
 "
 gecko
 "
-disable_when_testing
-=
-True
 spec
 =
 "
@@ -15821,11 +15818,6 @@ moz
 binding
 )
 "
-disable_when_testing
-=
-"
-True
-"
 )
 }
 {
@@ -16417,11 +16409,6 @@ animation_value_type
 =
 "
 discrete
-"
-disable_when_testing
-=
-"
-True
 "
 spec
 =

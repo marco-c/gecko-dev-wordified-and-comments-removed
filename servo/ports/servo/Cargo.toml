@@ -344,15 +344,6 @@ energy
 profiling
 "
 ]
-testing
-=
-[
-"
-libservo
-/
-testing
-"
-]
 debugmozjs
 =
 [

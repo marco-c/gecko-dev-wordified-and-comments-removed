@@ -21,10 +21,6 @@ app_units
 ;
 extern
 crate
-byteorder
-;
-extern
-crate
 cssparser
 ;
 extern

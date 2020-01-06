@@ -73,15 +73,6 @@ style
 use_bindgen
 "
 ]
-testing
-=
-[
-"
-style
-/
-testing
-"
-]
 gecko_debug
 =
 [

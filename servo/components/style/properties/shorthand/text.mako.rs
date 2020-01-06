@@ -58,10 +58,6 @@ product
 '
 gecko
 '
-or
-data
-.
-testing
 else
 '
 '
@@ -102,10 +98,6 @@ product
 "
 gecko
 "
-or
-data
-.
-testing
 :
 use
 values
@@ -186,10 +178,6 @@ product
 "
 gecko
 "
-or
-data
-.
-testing
 :
 let
 (
@@ -308,10 +296,6 @@ product
 "
 gecko
 "
-or
-data
-.
-testing
 :
 parse_component
 !
@@ -371,10 +355,6 @@ product
 "
 gecko
 "
-or
-data
-.
-testing
 :
 text_decoration_style
 :
@@ -456,10 +436,6 @@ product
 "
 gecko
 "
-or
-data
-.
-testing
 :
 if
 self
