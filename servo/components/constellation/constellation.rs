@@ -662,10 +662,7 @@ FromCompositorMsg
 >
 compositor_proxy
 :
-Box
-<
 CompositorProxy
->
 public_resource_threads
 :
 ResourceThreads
@@ -864,12 +861,7 @@ InitialConstellationState
 pub
 compositor_proxy
 :
-Box
-<
 CompositorProxy
-+
-Send
->
 pub
 debugger_chan
 :

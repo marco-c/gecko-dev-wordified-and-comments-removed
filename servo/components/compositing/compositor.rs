@@ -549,10 +549,7 @@ Window
 >
 port
 :
-Box
-<
 CompositorReceiver
->
 root_pipeline
 :
 Option
@@ -621,12 +618,7 @@ DevicePixel
 >
 channel_to_self
 :
-Box
-<
 CompositorProxy
-+
-Send
->
 delayed_composition_timer
 :
 DelayedCompositionTimerProxy
@@ -1196,10 +1188,7 @@ RenderNotifier
 {
 compositor_proxy
 :
-Box
-<
 CompositorProxy
->
 }
 impl
 RenderNotifier
@@ -1209,10 +1198,7 @@ new
 (
 compositor_proxy
 :
-Box
-<
 CompositorProxy
->
 _
 :
 Sender
@@ -1294,10 +1280,7 @@ CompositorThreadDispatcher
 {
 compositor_proxy
 :
-Box
-<
 CompositorProxy
->
 }
 impl
 webrender_traits
