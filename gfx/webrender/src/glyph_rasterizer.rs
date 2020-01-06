@@ -109,7 +109,7 @@ TextureCache
 }
 ;
 use
-webrender_traits
+internal_types
 :
 :
 FontTemplate
@@ -1175,8 +1175,15 @@ image_id
 =
 texture_cache
 .
+new_item_id
+(
+)
+;
+texture_cache
+.
 insert
 (
+image_id
 ImageDescriptor
 {
 width

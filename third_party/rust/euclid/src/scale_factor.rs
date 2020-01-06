@@ -63,6 +63,14 @@ repr
 C
 )
 ]
+#
+[
+derive
+(
+RustcDecodable
+RustcEncodable
+)
+]
 pub
 struct
 ScaleFactor

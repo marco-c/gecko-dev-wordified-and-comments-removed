@@ -31,7 +31,7 @@ use
 euclid
 :
 :
-vec3
+TypedPoint3D
 ;
 use
 plane_split
@@ -89,7 +89,10 @@ new
 let
 view
 =
-vec3
+TypedPoint3D
+:
+:
+new
 (
 0
 .
@@ -176,7 +179,10 @@ new
 let
 view
 =
-vec3
+TypedPoint3D
+:
+:
+new
 (
 0
 .

@@ -58,8 +58,13 @@ MPL
 /
 flat
 varying
-int
-vGradientAddress
+float
+vGradientIndex
+;
+flat
+varying
+vec2
+vGradientTextureSize
 ;
 flat
 varying

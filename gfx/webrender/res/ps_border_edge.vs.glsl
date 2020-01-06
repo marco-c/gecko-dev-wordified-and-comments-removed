@@ -567,7 +567,7 @@ fetch_border
 (
 prim
 .
-specific_prim_address
+prim_index
 )
 ;
 int

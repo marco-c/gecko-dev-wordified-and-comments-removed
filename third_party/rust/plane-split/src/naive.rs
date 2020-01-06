@@ -28,7 +28,7 @@ use
 euclid
 :
 :
-TypedVector3D
+TypedPoint3D
 ;
 use
 euclid
@@ -162,7 +162,7 @@ U
 >
 dir
 :
-TypedVector3D
+TypedPoint3D
 <
 T
 U
@@ -170,7 +170,7 @@ U
 )
 -
 >
-TypedVector3D
+TypedPoint3D
 <
 T
 U
@@ -958,7 +958,7 @@ mut
 self
 view
 :
-TypedVector3D
+TypedPoint3D
 <
 T
 U
@@ -982,7 +982,7 @@ axis_pre
 let
 axis_pre0
 =
-TypedVector3D
+TypedPoint3D
 :
 :
 new
@@ -1010,7 +1010,7 @@ zero
 let
 axis_pre1
 =
-TypedVector3D
+TypedPoint3D
 :
 :
 new
@@ -1171,15 +1171,9 @@ Line
 {
 origin
 :
-(
 comp_x
 +
 comp_y
-)
-.
-to_point
-(
-)
 dir
 :
 view

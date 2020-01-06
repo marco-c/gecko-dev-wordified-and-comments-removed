@@ -59,6 +59,10 @@ MPL
 .
 *
 /
+uniform
+sampler2D
+sSplitGeometry
+;
 struct
 SplitGeometry
 {
@@ -74,15 +78,16 @@ SplitGeometry
 fetch_split_geometry
 (
 int
-address
+index
 )
 {
 ivec2
 uv
 =
-get_resource_cache_uv
+get_fetch_uv
 (
-address
+index
+VECS_PER_SPLIT_GEOM
 )
 ;
 vec4
@@ -90,7 +95,7 @@ data0
 =
 texelFetchOffset
 (
-sResourceCache
+sSplitGeometry
 uv
 0
 ivec2
@@ -105,7 +110,7 @@ data1
 =
 texelFetchOffset
 (
-sResourceCache
+sSplitGeometry
 uv
 0
 ivec2
@@ -120,7 +125,7 @@ data2
 =
 texelFetchOffset
 (
-sResourceCache
+sSplitGeometry
 uv
 0
 ivec2

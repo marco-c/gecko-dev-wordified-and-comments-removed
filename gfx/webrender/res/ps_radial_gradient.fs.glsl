@@ -374,9 +374,10 @@ oFragColor
 =
 sample_gradient
 (
-vGradientAddress
 offset
 vGradientRepeat
+vGradientIndex
+vGradientTextureSize
 )
 ;
 }
