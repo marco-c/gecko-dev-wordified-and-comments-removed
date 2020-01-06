@@ -1811,6 +1811,10 @@ selectedTab
 ;
 }
 )
+.
+skip
+(
+)
 ;
 add_task
 (
