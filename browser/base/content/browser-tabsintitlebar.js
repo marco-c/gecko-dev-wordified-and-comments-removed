@@ -1056,11 +1056,11 @@ bottom
 ;
 }
 let
-minTitlebarOrTabsHeight
+maxTitlebarOrTabsHeight
 =
 Math
 .
-min
+max
 (
 titlebarContentHeight
 tabAndMenuHeight
@@ -1076,7 +1076,7 @@ marginBottom
 -
 "
 +
-minTitlebarOrTabsHeight
+maxTitlebarOrTabsHeight
 +
 "
 px
