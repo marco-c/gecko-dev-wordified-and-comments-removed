@@ -1011,13 +1011,6 @@ AreComponentAlphaLayersEnabled
 )
 override
 ;
-virtual
-bool
-SupportsBackdropCopyForComponentAlpha
-(
-)
-override
-;
 void
 LogTestDataForCurrentPaint
 (

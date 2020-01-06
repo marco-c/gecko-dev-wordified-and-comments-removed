@@ -225,12 +225,6 @@ BlendingRequiresIntermediateSurface
 )
 override
 ;
-bool
-SupportsBackdropCopyForComponentAlpha
-(
-)
-override
-;
 void
 ForcePresent
 (

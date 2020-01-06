@@ -6476,16 +6476,6 @@ CompositionOp
 :
 :
 OP_OVER
-&
-&
-Manager
-(
-)
--
->
-SupportsBackdropCopyForComponentAlpha
-(
-)
 )
 {
 mSupportsComponentAlphaChildren
@@ -12535,8 +12525,6 @@ s
 (
 null
 )
-\
-n
 "
 pfx
 .
