@@ -967,6 +967,12 @@ element
 IsInComposedDoc
 (
 )
+&
+&
+!
+HasPendingLinkUpdate
+(
+)
 )
 {
 self
