@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Encoding
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
