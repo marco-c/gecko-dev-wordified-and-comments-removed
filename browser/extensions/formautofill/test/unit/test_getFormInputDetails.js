@@ -1036,13 +1036,6 @@ testcase
 document
 )
 ;
-FormAutofillContent
-.
-identifyAutofillFields
-(
-doc
-)
-;
 for
 (
 let
@@ -1066,6 +1059,13 @@ targetInput
 [
 i
 ]
+)
+;
+FormAutofillContent
+.
+identifyAutofillFields
+(
+input
 )
 ;
 testcase
