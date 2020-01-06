@@ -588,6 +588,7 @@ action
 await
 promiseAnimationFrame
 (
+currentWindow
 )
 ;
 checkDetails
