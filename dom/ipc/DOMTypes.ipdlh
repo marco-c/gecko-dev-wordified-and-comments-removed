@@ -499,7 +499,7 @@ LayoutDeviceIntPoint
 clientOffset
 ;
 LayoutDeviceIntPoint
-chromeDisp
+chromeOffset
 ;
 }
 ;
