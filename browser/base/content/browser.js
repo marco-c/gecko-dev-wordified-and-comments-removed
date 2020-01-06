@@ -24178,6 +24178,12 @@ onLocationChange
 (
 )
 ;
+BrowserPageActions
+.
+onLocationChange
+(
+)
+;
 gTabletModePageCounter
 .
 inc
