@@ -1080,11 +1080,11 @@ aRequest
 const
 ;
 bool
-ModuleMapContainsURL
+ModuleMapContainsModule
 (
-nsIURI
+ModuleLoadRequest
 *
-aURL
+aRequest
 )
 const
 ;
@@ -1097,9 +1097,9 @@ GenericPromise
 >
 WaitForModuleFetch
 (
-nsIURI
+ModuleLoadRequest
 *
-aURL
+aRequest
 )
 ;
 ModuleScript
