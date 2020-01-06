@@ -331,12 +331,6 @@ Intent
 intent
 )
 {
-AndroidFxAccount
-.
-invalidateCaches
-(
-)
-;
 if
 (
 intent
