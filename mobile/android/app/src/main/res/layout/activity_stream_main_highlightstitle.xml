@@ -391,6 +391,13 @@ visibility
 "
 gone
 "
+android
+:
+importantForAccessibility
+=
+"
+no
+"
 /
 >
 <
