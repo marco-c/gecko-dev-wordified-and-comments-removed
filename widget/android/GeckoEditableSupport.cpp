@@ -5742,6 +5742,11 @@ aAction
 IsHandlingUserInput
 (
 )
+|
+|
+aContext
+.
+mHasHandledUserInput
 ;
 nsAppShell
 :
