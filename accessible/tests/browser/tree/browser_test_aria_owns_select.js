@@ -168,6 +168,9 @@ owns
 }
 )
 ;
+await
+onReorders
+;
 testChildrenIds
 (
 div
