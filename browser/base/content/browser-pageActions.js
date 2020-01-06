@@ -3297,6 +3297,7 @@ panelNode
 .
 hidePopup
 (
+true
 )
 ;
 }
