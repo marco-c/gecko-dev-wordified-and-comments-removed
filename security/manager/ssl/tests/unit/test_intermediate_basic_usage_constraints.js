@@ -161,7 +161,6 @@ certificateUsageSSLClient
 certificateUsageSSLServer
 certificateUsageEmailSigner
 certificateUsageEmailRecipient
-certificateUsageObjectSigner
 ]
 ;
 let
