@@ -3806,6 +3806,12 @@ serverForFoo
 engine
 )
 ;
+await
+SyncTestingInfrastructure
+(
+server
+)
+;
 store
 .
 _log
@@ -4054,6 +4060,13 @@ do_check_eq
 (
 parentIDBefore
 parentIDAfter
+)
+;
+await
+store
+.
+wipe
+(
 )
 ;
 await
