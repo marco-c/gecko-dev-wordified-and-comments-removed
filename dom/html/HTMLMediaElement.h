@@ -649,17 +649,10 @@ DownloadSuspended
 final
 override
 ;
-virtual
 void
 DownloadResumed
 (
-bool
-aForceNetworkLoading
-=
-false
 )
-final
-override
 ;
 virtual
 void
@@ -3440,9 +3433,6 @@ mMediaKeys
 ;
 double
 mCurrentPlayRangeStart
-;
-bool
-mBegun
 ;
 bool
 mLoadedDataFired
