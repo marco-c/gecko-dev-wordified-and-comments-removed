@@ -83,6 +83,8 @@ RecordedEvent
 :
 RecordedEvent
 ;
+public
+:
 void
 RecordToStream
 (

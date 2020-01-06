@@ -291,6 +291,7 @@ names
 mNamespace
 mHandle
 ]
+pub
 type
 WrFontKey
 =
