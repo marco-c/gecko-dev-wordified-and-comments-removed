@@ -521,8 +521,6 @@ public
 void
 onFetchCompleted
 (
-long
-fetchEnd
 )
 {
 }

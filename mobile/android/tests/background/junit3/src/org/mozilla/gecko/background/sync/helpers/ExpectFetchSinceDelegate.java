@@ -118,9 +118,6 @@ public
 void
 onFetchCompleted
 (
-final
-long
-fetchEnd
 )
 {
 AssertionFailedError

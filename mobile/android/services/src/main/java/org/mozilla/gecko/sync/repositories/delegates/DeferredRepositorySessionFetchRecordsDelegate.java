@@ -156,9 +156,6 @@ public
 void
 onFetchCompleted
 (
-final
-long
-fetchEnd
 )
 {
 executor
@@ -181,7 +178,6 @@ inner
 .
 onFetchCompleted
 (
-fetchEnd
 )
 ;
 }

@@ -56,9 +56,6 @@ record
 void
 onFetchCompleted
 (
-final
-long
-fetchEnd
 )
 ;
 void

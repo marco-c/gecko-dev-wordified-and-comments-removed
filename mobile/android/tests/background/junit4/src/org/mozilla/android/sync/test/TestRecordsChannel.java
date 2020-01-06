@@ -467,17 +467,12 @@ ex
 ;
 }
 Override
-Override
 public
 void
 onFlowCompleted
 (
 RecordsChannel
 recordsChannel
-long
-fetchEnd
-long
-storeEnd
 )
 {
 numFlowCompleted

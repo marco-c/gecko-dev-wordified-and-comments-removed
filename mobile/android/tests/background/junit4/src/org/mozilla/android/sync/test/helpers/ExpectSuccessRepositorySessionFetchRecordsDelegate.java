@@ -193,8 +193,6 @@ public
 void
 onFetchCompleted
 (
-long
-end
 )
 {
 log

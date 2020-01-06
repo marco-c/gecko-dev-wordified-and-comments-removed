@@ -32,8 +32,6 @@ public
 void
 onStoreCompleted
 (
-long
-storeEnd
 )
 {
 performNotify

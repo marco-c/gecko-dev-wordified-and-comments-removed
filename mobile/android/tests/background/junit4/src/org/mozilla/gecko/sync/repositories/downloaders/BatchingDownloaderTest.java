@@ -806,8 +806,6 @@ public
 void
 onFetchCompleted
 (
-long
-fetchEnd
 )
 {
 this

@@ -472,8 +472,6 @@ public
 void
 onStoreCompleted
 (
-long
-storeEnd
 )
 {
 Logger
@@ -486,12 +484,6 @@ getName
 "
 Store
 completed
-at
-"
-+
-storeEnd
-+
-"
 .
 "
 )
@@ -556,9 +548,6 @@ public
 void
 onFetchCompleted
 (
-final
-long
-fetchEnd
 )
 {
 Logger
@@ -571,12 +560,6 @@ getName
 "
 Fetch
 completed
-at
-"
-+
-fetchEnd
-+
-"
 .
 "
 )
@@ -655,9 +638,6 @@ public
 void
 onFetchCompleted
 (
-final
-long
-fetchEnd
 )
 {
 if
@@ -927,8 +907,6 @@ public
 void
 onFetchCompleted
 (
-long
-end
 )
 {
 try

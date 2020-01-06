@@ -982,8 +982,6 @@ public
 void
 onFetchCompleted
 (
-long
-fetchEnd
 )
 {
 validateForTelemetry
@@ -994,7 +992,6 @@ delegate
 .
 onFetchCompleted
 (
-fetchEnd
 )
 ;
 }

@@ -548,6 +548,11 @@ fetchCompleted
 =
 fetchCompleted
 ;
+setLastFetchTimestamp
+(
+fetchCompleted
+)
+;
 delegate
 .
 deferredFetchDelegate
@@ -557,7 +562,6 @@ delegateExecutor
 .
 onFetchCompleted
 (
-fetchCompleted
 )
 ;
 }
@@ -639,6 +643,11 @@ fetchCompleted
 =
 fetchCompleted
 ;
+setLastFetchTimestamp
+(
+fetchCompleted
+)
+;
 delegate
 .
 deferredFetchDelegate
@@ -648,7 +657,6 @@ delegateExecutor
 .
 onFetchCompleted
 (
-fetchCompleted
 )
 ;
 }
@@ -726,6 +734,11 @@ fetchCompleted
 =
 fetchCompleted
 ;
+setLastFetchTimestamp
+(
+fetchCompleted
+)
+;
 delegate
 .
 deferredFetchDelegate
@@ -735,7 +748,6 @@ delegateExecutor
 .
 onFetchCompleted
 (
-fetchCompleted
 )
 ;
 }
@@ -1185,6 +1197,11 @@ storeCompleted
 =
 end
 ;
+setLastStoreTimestamp
+(
+end
+)
+;
 storeDelegate
 .
 deferredStoreDelegate
@@ -1194,7 +1211,6 @@ delegateExecutor
 .
 onStoreCompleted
 (
-end
 )
 ;
 }

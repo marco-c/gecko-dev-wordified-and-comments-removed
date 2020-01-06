@@ -100,10 +100,6 @@ onFirstFlowCompleted
 (
 RecordsChannel
 recordsChannel
-long
-fetchEnd
-long
-storeEnd
 )
 {
 final
@@ -319,8 +315,6 @@ super
 onFirstFlowCompleted
 (
 recordsChannel
-fetchEnd
-storeEnd
 )
 ;
 }
@@ -331,10 +325,6 @@ onSecondFlowCompleted
 (
 RecordsChannel
 recordsChannel
-long
-fetchEnd
-long
-storeEnd
 )
 {
 final
@@ -555,8 +545,6 @@ super
 onSecondFlowCompleted
 (
 recordsChannel
-fetchEnd
-storeEnd
 )
 ;
 }

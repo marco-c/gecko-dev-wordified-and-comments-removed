@@ -19,10 +19,6 @@ onFlowCompleted
 (
 RecordsChannel
 recordsChannel
-long
-fetchEnd
-long
-storeEnd
 )
 ;
 public

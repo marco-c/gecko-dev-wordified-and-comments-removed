@@ -389,16 +389,12 @@ public
 void
 onFetchCompleted
 (
-final
-long
-fetchEnd
 )
 {
 next
 .
 onFetchCompleted
 (
-fetchEnd
 )
 ;
 }

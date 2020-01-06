@@ -568,8 +568,6 @@ public
 void
 onStoreCompleted
 (
-long
-storeEnd
 )
 {
 }
