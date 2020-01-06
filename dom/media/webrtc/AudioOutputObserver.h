@@ -27,6 +27,13 @@ AudioMixer
 .
 h
 "
+#
+include
+"
+MediaData
+.
+h
+"
 namespace
 webrtc
 {
@@ -153,6 +160,9 @@ mSaved
 ;
 uint32_t
 mSamplesSaved
+;
+AlignedAudioBuffer
+mDownmixBuffer
 ;
 }
 ;
