@@ -1315,6 +1315,14 @@ break
 ;
 }
 }
+asyncInit
+:
+function
+HS_asyncInit
+(
+)
+{
+}
 enumerate
 :
 function
