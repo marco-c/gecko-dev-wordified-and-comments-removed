@@ -21,11 +21,13 @@ gBrowser
 url
 :
 "
-resource
+chrome
 :
 /
 /
 payments
+/
+content
 /
 paymentRequest
 .
