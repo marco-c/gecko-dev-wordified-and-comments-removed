@@ -1424,7 +1424,9 @@ cat
 manifest
 .
 tt
-python
+python2
+.
+7
 BUILD
 /
 tooltool
