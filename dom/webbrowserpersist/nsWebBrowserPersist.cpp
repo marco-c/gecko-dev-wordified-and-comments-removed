@@ -354,17 +354,6 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLSharedObjectElement
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Printf
 .
 h

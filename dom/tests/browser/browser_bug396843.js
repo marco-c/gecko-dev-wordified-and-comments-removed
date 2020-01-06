@@ -78,7 +78,7 @@ HTML_TAG
 applet
 "
 "
-SharedObject
+Unknown
 "
 )
 HTML_TAG
@@ -321,7 +321,7 @@ HTML_TAG
 embed
 "
 "
-SharedObject
+Embed
 "
 )
 HTML_TAG

@@ -340,6 +340,11 @@ HTMLDivElement
 h
 '
 '
+HTMLEmbedElement
+.
+h
+'
+'
 HTMLFieldSetElement
 .
 h
@@ -521,11 +526,6 @@ h
 '
 '
 HTMLSharedListElement
-.
-h
-'
-'
-HTMLSharedObjectElement
 .
 h
 '
@@ -730,6 +730,11 @@ HTMLElement
 cpp
 '
 '
+HTMLEmbedElement
+.
+cpp
+'
+'
 HTMLFieldSetElement
 .
 cpp
@@ -911,11 +916,6 @@ cpp
 '
 '
 HTMLSharedListElement
-.
-cpp
-'
-'
-HTMLSharedObjectElement
 .
 cpp
 '
