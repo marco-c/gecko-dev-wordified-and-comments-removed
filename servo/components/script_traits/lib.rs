@@ -689,6 +689,11 @@ IpcSender
 bool
 >
 )
+PaintMetric
+(
+Epoch
+f64
+)
 }
 #
 [

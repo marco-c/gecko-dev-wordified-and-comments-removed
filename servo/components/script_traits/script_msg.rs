@@ -57,6 +57,12 @@ TypedSize2D
 }
 ;
 use
+gfx_traits
+:
+:
+Epoch
+;
+use
 ipc_channel
 :
 :
@@ -188,6 +194,11 @@ CSSPixel
 >
 )
 >
+)
+PendingPaintMetric
+(
+PipelineId
+Epoch
 )
 SetCursor
 (

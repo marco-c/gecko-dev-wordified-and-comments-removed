@@ -91,6 +91,7 @@ PartialOrd
 Ord
 Deserialize
 Serialize
+Hash
 )
 ]
 pub
