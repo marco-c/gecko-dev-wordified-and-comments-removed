@@ -1862,6 +1862,14 @@ locale
 (
 AB_CD
 )
+-
+x
+*
+*
+/
+*
+.
+js
 (
 LANGPACK_FILE
 )
