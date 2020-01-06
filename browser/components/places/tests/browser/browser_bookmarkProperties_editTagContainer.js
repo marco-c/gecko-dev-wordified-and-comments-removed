@@ -243,7 +243,9 @@ enabled
 let
 promiseTitleResetNotification
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemChanged
@@ -378,7 +380,9 @@ correct
 let
 promiseTitleChangeNotification
 =
-promiseBookmarksNotification
+PlacesTestUtils
+.
+waitForNotification
 (
 "
 onItemChanged
