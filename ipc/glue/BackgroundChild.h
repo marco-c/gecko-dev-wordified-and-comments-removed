@@ -36,9 +36,6 @@ h
 class
 nsIDOMBlob
 ;
-class
-nsIIPCBackgroundChildCreateCallback
-;
 namespace
 mozilla
 {
@@ -109,15 +106,6 @@ PBackgroundChild
 *
 GetForCurrentThread
 (
-)
-;
-static
-bool
-GetOrCreateForCurrentThread
-(
-nsIIPCBackgroundChildCreateCallback
-*
-aCallback
 )
 ;
 static

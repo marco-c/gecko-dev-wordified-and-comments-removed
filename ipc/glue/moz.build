@@ -103,11 +103,6 @@ EXPORTS
 =
 [
 '
-nsIIPCBackgroundChildCreateCallback
-.
-h
-'
-'
 nsIIPCSerializableInputStream
 .
 h
