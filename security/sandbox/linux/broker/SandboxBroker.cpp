@@ -464,8 +464,9 @@ Policy
 Policy
 (
 )
-{
-}
+=
+default
+;
 SandboxBroker
 :
 :
@@ -476,8 +477,9 @@ Policy
 Policy
 (
 )
-{
-}
+=
+default
+;
 SandboxBroker
 :
 :

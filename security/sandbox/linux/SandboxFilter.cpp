@@ -390,7 +390,6 @@ ETXTBSY
 }
 public
 :
-virtual
 ResultExpr
 InvalidSyscall
 (
@@ -540,7 +539,6 @@ InvalidSyscall
 )
 ;
 }
-virtual
 Maybe
 <
 ResultExpr
@@ -581,7 +579,6 @@ Nothing
 ;
 }
 }
-virtual
 ResultExpr
 EvaluateSyscall
 (
@@ -2583,14 +2580,14 @@ aSyscallWhitelist
 )
 {
 }
-virtual
 ~
 ContentSandboxPolicy
 (
 )
-{
-}
-virtual
+override
+=
+default
+;
 ResultExpr
 PrctlPolicy
 (
@@ -2604,7 +2601,6 @@ Allow
 )
 ;
 }
-virtual
 Maybe
 <
 ResultExpr
@@ -2798,7 +2794,6 @@ aCall
 #
 ifdef
 DESKTOP
-virtual
 Maybe
 <
 ResultExpr
@@ -2863,7 +2858,6 @@ aCall
 }
 #
 endif
-virtual
 ResultExpr
 EvaluateSyscall
 (
@@ -4205,14 +4199,14 @@ absolute
 )
 ;
 }
-virtual
 ~
 GMPSandboxPolicy
 (
 )
-{
-}
-virtual
+override
+=
+default
+;
 ResultExpr
 EvaluateSyscall
 (
