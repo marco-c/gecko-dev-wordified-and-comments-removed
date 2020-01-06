@@ -2738,6 +2738,11 @@ image
 .
 slice
 }
+fill
+:
+image
+.
+fill
 outset
 :
 image
