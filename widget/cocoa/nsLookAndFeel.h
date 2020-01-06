@@ -47,6 +47,8 @@ NativeInit
 (
 )
 final
+{
+}
 ;
 virtual
 nsresult
