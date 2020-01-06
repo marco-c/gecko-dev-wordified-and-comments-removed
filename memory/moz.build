@@ -177,13 +177,6 @@ if
 CONFIG
 [
 '
-MOZ_JEMALLOC4
-'
-]
-or
-CONFIG
-[
-'
 MOZ_REPLACE_MALLOC
 '
 ]

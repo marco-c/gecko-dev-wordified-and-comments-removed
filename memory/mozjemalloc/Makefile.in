@@ -54,8 +54,6 @@ MPL
 0
 /
 .
-ifndef
-MOZ_JEMALLOC4
 #
 Force
 optimize
@@ -103,4 +101,3 @@ test
 MOZ_OPTIMIZE
 =
 1
-endif

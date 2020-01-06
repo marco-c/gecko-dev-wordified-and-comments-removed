@@ -98,7 +98,7 @@ replace
 ]
 #
 Build
-jemalloc3
+jemalloc4
 as
 a
 replace
@@ -109,15 +109,6 @@ when
 building
 with
 mozjemalloc
-if
-not
-CONFIG
-[
-'
-MOZ_JEMALLOC4
-'
-]
-:
 DIRS
 +
 =
