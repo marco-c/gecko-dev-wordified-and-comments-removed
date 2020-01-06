@@ -62,10 +62,6 @@ extern
 crate
 zip
 ;
-#
-[
-macro_use
-]
 extern
 crate
 webdriver
