@@ -66,6 +66,12 @@ gecko_bindings
 :
 :
 structs
+;
+use
+gecko_bindings
+:
+:
+structs
 :
 :
 {
@@ -2565,10 +2571,12 @@ let
 mut
 features
 =
-bindings
+structs
 :
 :
-Gecko_GetMediaFeatures
+nsMediaFeatures_features
+.
+as_ptr
 (
 )
 ;
