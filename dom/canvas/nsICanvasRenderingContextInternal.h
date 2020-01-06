@@ -536,10 +536,6 @@ oldLayer
 LayerManager
 *
 manager
-bool
-aMirror
-=
-false
 )
 =
 0
@@ -554,10 +550,6 @@ aBuilder
 CanvasRenderer
 *
 aRenderer
-bool
-aMirror
-=
-false
 )
 {
 return

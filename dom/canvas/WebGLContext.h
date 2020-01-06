@@ -1790,10 +1790,6 @@ oldLayer
 LayerManager
 *
 manager
-bool
-aMirror
-=
-false
 )
 override
 ;
@@ -1806,10 +1802,6 @@ aBuilder
 CanvasRenderer
 *
 aRenderer
-bool
-aMirror
-=
-false
 )
 override
 ;

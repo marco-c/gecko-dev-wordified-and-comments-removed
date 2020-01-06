@@ -29220,19 +29220,8 @@ aOldLayer
 LayerManager
 *
 aManager
-bool
-aMirror
 )
 {
-if
-(
-aMirror
-)
-{
-return
-nullptr
-;
-}
 if
 (
 mOpaque
@@ -29488,7 +29477,6 @@ InitializeCanvasRenderer
 (
 aBuilder
 canvasRenderer
-aMirror
 )
 ;
 uint32_t
@@ -29535,8 +29523,6 @@ aBuilder
 CanvasRenderer
 *
 aRenderer
-bool
-aMirror
 )
 {
 CanvasInitializeData
