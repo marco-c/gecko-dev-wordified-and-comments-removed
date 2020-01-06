@@ -2022,6 +2022,12 @@ override
 ;
 #
 endif
+static
+bool
+ShowContextMenuAfterMouseUp
+(
+)
+;
 protected
 :
 virtual
