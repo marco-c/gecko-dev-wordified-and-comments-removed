@@ -2830,7 +2830,7 @@ eIdent
 nsMediaFeature
 :
 :
-eNoRequirements
+eUserAgentAndChromeOnly
 {
 nullptr
 }
@@ -2853,7 +2853,7 @@ eIdent
 nsMediaFeature
 :
 :
-eNoRequirements
+eUserAgentAndChromeOnly
 {
 nullptr
 }
