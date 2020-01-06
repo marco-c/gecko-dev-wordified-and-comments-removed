@@ -1791,7 +1791,7 @@ aContent
 return
 ;
 }
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
@@ -43280,7 +43280,7 @@ false
 ;
 tmpResultSpec
 .
-Replace
+ReplaceLiteral
 (
 0
 4

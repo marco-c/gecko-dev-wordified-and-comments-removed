@@ -1205,7 +1205,7 @@ ttp
 {
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 3
@@ -1246,7 +1246,7 @@ ttps
 {
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 4
@@ -1287,7 +1287,7 @@ tps
 {
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 3
@@ -1328,7 +1328,7 @@ ps
 {
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 2
@@ -1369,7 +1369,7 @@ ile
 {
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 3
@@ -1410,7 +1410,7 @@ le
 {
 uriString
 .
-Replace
+ReplaceLiteral
 (
 0
 2

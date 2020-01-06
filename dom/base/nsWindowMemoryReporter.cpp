@@ -1360,7 +1360,7 @@ windowPath
 ;
 censusWindowPath
 .
-Replace
+ReplaceLiteral
 (
 0
 strlen

@@ -372,7 +372,7 @@ explodedTime
 ;
 cookieString
 .
-Replace
+ReplaceLiteral
 (
 0
 strlen
