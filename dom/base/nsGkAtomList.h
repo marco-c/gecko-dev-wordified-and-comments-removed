@@ -14844,13 +14844,6 @@ ondevicechange
 )
 GK_ATOM
 (
-mozinputrangeignorepreventdefault
-"
-mozinputrangeignorepreventdefault
-"
-)
-GK_ATOM
-(
 moz_extension
 "
 moz
