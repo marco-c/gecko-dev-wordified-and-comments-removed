@@ -28137,12 +28137,6 @@ html
 needs
 -
 focus
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 731726
