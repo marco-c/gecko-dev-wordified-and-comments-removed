@@ -359,6 +359,7 @@ font
 {
 MozScriptLevel
 MozScriptMinSize
+MozScriptSizeMultiplier
 XTextZoom
 XLang
 }
