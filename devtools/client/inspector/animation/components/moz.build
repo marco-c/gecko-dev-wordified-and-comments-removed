@@ -56,6 +56,16 @@ MPL
 DevToolsModules
 (
 '
+AnimationItem
+.
+js
+'
+'
+AnimationList
+.
+js
+'
+'
 App
 .
 js
