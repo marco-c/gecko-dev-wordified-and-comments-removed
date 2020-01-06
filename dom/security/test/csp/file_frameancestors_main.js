@@ -111,6 +111,9 @@ mochi
 test
 :
 8888
+/
+foo
+/
 '
 b
 :
@@ -124,6 +127,9 @@ example
 com
 :
 80
+/
+bar
+/
 '
 }
 ;
