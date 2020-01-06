@@ -514,6 +514,11 @@ FromCodePoint
 \
 _
 (
+StringConvertCase
+)
+\
+_
+(
 SinCos
 )
 \

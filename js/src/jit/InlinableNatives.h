@@ -368,6 +368,16 @@ _
 StringCharAt
 )
 \
+_
+(
+StringToLowerCase
+)
+\
+_
+(
+StringToUpperCase
+)
+\
 \
 _
 (
