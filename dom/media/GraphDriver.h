@@ -198,13 +198,6 @@ WakeUp
 ;
 virtual
 void
-Destroy
-(
-)
-{
-}
-virtual
-void
 Start
 (
 )
@@ -767,12 +760,6 @@ virtual
 AudioCallbackDriver
 (
 )
-;
-void
-Destroy
-(
-)
-override
 ;
 void
 Start
