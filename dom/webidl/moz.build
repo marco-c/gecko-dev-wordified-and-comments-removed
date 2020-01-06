@@ -2810,6 +2810,11 @@ AudioBufferSourceNode
 webidl
 '
 '
+AudioChannel
+.
+webidl
+'
+'
 AudioContext
 .
 webidl
@@ -6180,6 +6185,11 @@ webidl
 '
 '
 MediaQueryListEvent
+.
+webidl
+'
+'
+MediaRecorderErrorEvent
 .
 webidl
 '
