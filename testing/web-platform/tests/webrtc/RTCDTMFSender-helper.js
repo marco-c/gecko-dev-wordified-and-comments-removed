@@ -261,7 +261,7 @@ assert_approx_equals
 (
 duration
 expectedDuration
-150
+250
 Expect
 tonechange
 event
@@ -279,7 +279,7 @@ after
 {
 expectedDuration
 }
-seconds
+milliseconds
 )
 ;
 lastEventTime
