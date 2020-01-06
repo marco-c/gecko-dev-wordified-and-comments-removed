@@ -1409,7 +1409,7 @@ browser
 /
 locale
 /
-handling
+browser
 .
 properties
 "
