@@ -468,7 +468,7 @@ if
 !
 linkData_
 .
-initTier
+initTier1
 (
 Tier
 :
@@ -651,7 +651,7 @@ if
 !
 linkData_
 .
-initTier
+initTier1
 (
 tier_
 )
