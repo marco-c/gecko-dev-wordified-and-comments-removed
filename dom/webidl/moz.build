@@ -5966,11 +5966,6 @@ ProgressEvent
 webidl
 '
 '
-RecordErrorEvent
-.
-webidl
-'
-'
 StyleRuleChangeEvent
 .
 webidl
@@ -6245,11 +6240,6 @@ webidl
 '
 '
 PromiseRejectionEvent
-.
-webidl
-'
-'
-RecordErrorEvent
 .
 webidl
 '
