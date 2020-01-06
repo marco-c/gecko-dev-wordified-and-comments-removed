@@ -3642,6 +3642,11 @@ __NR_umask
 case
 __NR_kill
 :
+return
+Allow
+(
+)
+;
 case
 __NR_wait4
 :
@@ -3653,6 +3658,12 @@ __NR_waitpid
 :
 #
 endif
+return
+Error
+(
+ECHILD
+)
+;
 #
 ifdef
 __NR_arch_prctl
