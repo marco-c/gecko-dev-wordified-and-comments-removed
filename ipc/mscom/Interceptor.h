@@ -91,6 +91,13 @@ mozilla
 namespace
 mscom
 {
+namespace
+detail
+{
+class
+LiveSetAutoLock
+;
+}
 DEFINE_GUID
 (
 IID_IInterceptorSink
@@ -446,6 +453,12 @@ Interceptor
 HRESULT
 GetInitialInterceptorForIID
 (
+detail
+:
+:
+LiveSetAutoLock
+&
+aLock
 REFIID
 aTargetIid
 STAUniquePtr
