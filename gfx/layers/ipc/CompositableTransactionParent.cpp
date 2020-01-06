@@ -227,7 +227,7 @@ id
 aCompositable
 -
 >
-GetCompositorID
+GetCompositorBridgeID
 (
 )
 ;

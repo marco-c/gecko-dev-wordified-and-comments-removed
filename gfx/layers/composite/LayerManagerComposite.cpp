@@ -704,6 +704,10 @@ mWarningLevel
 .
 0f
 )
+mCompositorBridgeID
+(
+0
+)
 mWindowOverlayChanged
 (
 false

@@ -136,10 +136,6 @@ CompositorBridgeParent
 aParent
 )
 :
-mCompositorID
-(
-0
-)
 mDiagnosticTypes
 (
 DiagnosticTypes
