@@ -3640,6 +3640,16 @@ GetDPI
 )
 )
 ;
+if
+(
+gfxPrefs
+:
+:
+APZKeyboardEnabled
+(
+)
+)
+{
 mAPZC
 -
 >
@@ -3653,6 +3663,7 @@ CollectKeyboardShortcuts
 )
 )
 ;
+}
 RefPtr
 <
 IAPZCTreeManager

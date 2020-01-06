@@ -28275,6 +28275,16 @@ mIsActive
 return
 ;
 }
+if
+(
+gfxPrefs
+:
+:
+APZKeyboardEnabled
+(
+)
+)
+{
 mAPZFocusTarget
 =
 FocusTarget
@@ -28283,6 +28293,7 @@ this
 mAPZFocusSequenceNumber
 )
 ;
+}
 nsPresContext
 *
 presContext
