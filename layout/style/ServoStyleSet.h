@@ -1452,10 +1452,6 @@ StyleRuleInclusion
 :
 :
 All
-bool
-aIgnoreExistingStyles
-=
-false
 )
 ;
 void
