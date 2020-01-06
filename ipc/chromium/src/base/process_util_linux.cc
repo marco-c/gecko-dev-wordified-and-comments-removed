@@ -125,13 +125,6 @@ CHILD_UNPRIVILEGED_GID
 65534
 namespace
 {
-enum
-ParsingState
-{
-KEY_NAME
-KEY_VALUE
-}
-;
 static
 mozilla
 :
