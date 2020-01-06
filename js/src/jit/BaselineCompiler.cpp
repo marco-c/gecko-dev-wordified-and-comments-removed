@@ -21601,9 +21601,9 @@ GeneratorThrowFn
 jit
 :
 :
-GeneratorThrowOrClose
+GeneratorThrowOrReturn
 "
-GeneratorThrowOrClose
+GeneratorThrowOrReturn
 "
 TailCall
 )
@@ -22787,7 +22787,7 @@ resumeKind
 GeneratorObject
 :
 :
-CLOSE
+RETURN
 )
 ;
 masm
@@ -23030,7 +23030,7 @@ resumeKind
 GeneratorObject
 :
 :
-CLOSE
+RETURN
 )
 ;
 pushArg
@@ -23044,7 +23044,7 @@ names
 (
 )
 .
-close
+return_
 )
 )
 ;

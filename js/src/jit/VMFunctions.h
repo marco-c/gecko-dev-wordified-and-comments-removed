@@ -4395,7 +4395,7 @@ frame
 ;
 MOZ_MUST_USE
 bool
-GeneratorThrowOrClose
+GeneratorThrowOrReturn
 (
 JSContext
 *

@@ -90,7 +90,7 @@ ResumeKind
 {
 NEXT
 THROW
-CLOSE
+RETURN
 }
 ;
 static
@@ -155,7 +155,7 @@ MOZ_ASSERT
 arg
 <
 =
-CLOSE
+RETURN
 )
 ;
 return
@@ -227,11 +227,11 @@ names
 (
 )
 .
-close
+return_
 )
 ;
 return
-CLOSE
+RETURN
 ;
 }
 static
@@ -1014,7 +1014,7 @@ NEWTARGET_SLOT
 }
 ;
 bool
-GeneratorThrowOrClose
+GeneratorThrowOrReturn
 (
 JSContext
 *
