@@ -74,8 +74,10 @@ NS_DECL_NSISEEKABLESTREAM
 NS_DECL_NSIINPUTSTREAMCALLBACK
 SlicedInputStream
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aInputStream
 uint64_t
 aStart
@@ -97,8 +99,10 @@ SlicedInputStream
 void
 SetSourceStream
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aInputStream
 )
 ;
