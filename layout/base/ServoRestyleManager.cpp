@@ -1128,6 +1128,10 @@ Unused
 Servo_TakeChangeHint
 (
 aElement
+TraversalRestyleBehavior
+:
+:
+Normal
 )
 ;
 aElement
@@ -1968,6 +1972,7 @@ changeHint
 Servo_TakeChangeHint
 (
 aElement
+aRestyleBehavior
 )
 ;
 if
