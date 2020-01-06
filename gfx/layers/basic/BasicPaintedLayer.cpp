@@ -840,7 +840,7 @@ state
 mContentClient
 -
 >
-BeginPaintBuffer
+BeginPaint
 (
 this
 flags
