@@ -1878,9 +1878,6 @@ dom
 LargeAllocStatus
 mLargeAllocStatus
 ;
-bool
-mShouldResumeOnFirstActiveMediaComponent
-;
 }
 ;
 #
@@ -2514,11 +2511,6 @@ SetAudioVolume
 (
 float
 aVolume
-)
-;
-void
-NotifyCreatedNewMediaComponent
-(
 )
 ;
 void
