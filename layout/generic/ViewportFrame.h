@@ -27,6 +27,9 @@ namespace
 mozilla
 {
 class
+ServoRestyleState
+;
+class
 ViewportFrame
 :
 public
@@ -212,12 +215,9 @@ const
 void
 UpdateStyle
 (
-ServoStyleSet
+ServoRestyleState
 &
 aStyleSet
-nsStyleChangeList
-&
-aChangeList
 )
 ;
 void

@@ -1716,14 +1716,9 @@ aWrapperFrame
 mozilla
 :
 :
-ServoStyleSet
+ServoRestyleState
 &
-aStyleSet
-nsStyleChangeList
-&
-aChangeList
-nsChangeHint
-aHintForThisFrame
+aRestyleState
 )
 ;
 explicit
