@@ -180,6 +180,8 @@ platform
 .
 tests
 .
+tar
+.
 zip
 "
     
@@ -440,7 +442,9 @@ platform
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "
@@ -616,7 +620,9 @@ platform
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "

@@ -190,7 +190,9 @@ platform
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "
