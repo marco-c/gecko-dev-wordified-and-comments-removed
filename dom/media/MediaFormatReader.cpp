@@ -5328,6 +5328,12 @@ aInit
 .
 mFrameStats
 )
+mMediaDecoderOwnerID
+(
+aInit
+.
+mMediaDecoderOwnerID
+)
 {
 MOZ_ASSERT
 (

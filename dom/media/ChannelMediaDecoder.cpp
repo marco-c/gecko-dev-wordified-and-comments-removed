@@ -936,6 +936,12 @@ mResource
 =
 mResource
 ;
+init
+.
+mMediaDecoderOwnerID
+=
+mOwner
+;
 mReader
 =
 DecoderTraits

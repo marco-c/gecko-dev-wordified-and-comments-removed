@@ -262,6 +262,11 @@ mTags
 ;
 }
 ;
+typedef
+void
+*
+MediaDecoderOwnerID
+;
 struct
 MOZ_STACK_CLASS
 MediaFormatReaderInit
@@ -298,6 +303,11 @@ already_AddRefed
 GMPCrashHelper
 >
 mCrashHelper
+;
+MediaDecoderOwnerID
+mMediaDecoderOwnerID
+=
+nullptr
 ;
 }
 ;
@@ -2694,6 +2704,10 @@ RefPtr
 FrameStatistics
 >
 mFrameStats
+;
+const
+MediaDecoderOwnerID
+mMediaDecoderOwnerID
 ;
 }
 ;
