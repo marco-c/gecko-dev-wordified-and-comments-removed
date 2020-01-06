@@ -220,10 +220,6 @@ openmax_dl
 /
 media
 /
-pocketsphinx
-/
-media
-/
 sphinxbase
 /
 media
