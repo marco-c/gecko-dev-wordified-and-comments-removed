@@ -182,6 +182,11 @@ intMakeVisible
 bool
 IsVisible
 (
+nsISelection
+*
+aSelection
+=
+nullptr
 )
 ;
 void
