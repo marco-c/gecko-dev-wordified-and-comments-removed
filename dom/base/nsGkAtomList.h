@@ -15369,6 +15369,13 @@ PseudoProperty
 )
 GK_ATOM
 (
+manualNACProperty
+"
+ManualNACProperty
+"
+)
+GK_ATOM
+(
 Japanese
 "
 ja
