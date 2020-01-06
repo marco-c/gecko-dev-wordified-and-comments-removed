@@ -247,6 +247,12 @@ rv
 ;
 }
 }
+using
+AbstractThread
+:
+:
+Dispatch
+;
 RefPtr
 <
 ShutdownPromise

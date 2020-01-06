@@ -159,6 +159,12 @@ aReason
 )
 ;
 }
+using
+AbstractThread
+:
+:
+Dispatch
+;
 void
 AwaitIdle
 (
