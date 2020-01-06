@@ -311,8 +311,6 @@ gfx
 IntSize
 &
 aSize
-bool
-aIsSync
 uint64_t
 aTransactionId
 const

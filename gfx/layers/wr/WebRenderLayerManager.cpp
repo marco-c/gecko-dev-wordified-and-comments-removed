@@ -1195,14 +1195,6 @@ mPaintSequenceNumber
 )
 ;
 }
-bool
-sync
-=
-mTarget
-!
-=
-nullptr
-;
 mLatestTransactionId
 =
 mTransactionIdAllocator
@@ -1343,12 +1335,6 @@ AUTO_PROFILER_TRACING
 "
 Paint
 "
-sync
-?
-"
-ForwardDPTransactionSync
-"
-:
 "
 ForwardDPTransaction
 "
@@ -1369,7 +1355,6 @@ size
 ToUnknownSize
 (
 )
-sync
 mLatestTransactionId
 mScrollData
 transactionStart
