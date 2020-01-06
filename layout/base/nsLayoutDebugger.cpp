@@ -1317,7 +1317,7 @@ GetType
 )
 =
 =
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_MASK
@@ -1363,7 +1363,7 @@ GetType
 )
 =
 =
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_FILTER

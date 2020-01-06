@@ -1755,7 +1755,7 @@ frame
 >
 InvalidateLayer
 (
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_VIDEO

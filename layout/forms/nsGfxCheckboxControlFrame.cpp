@@ -653,7 +653,7 @@ PaintCheckMark
 "
 CheckedCheckbox
 "
-nsDisplayItem
+DisplayItemType
 :
 :
 TYPE_CHECKED_CHECKBOX
