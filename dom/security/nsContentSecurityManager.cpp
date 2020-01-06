@@ -141,6 +141,9 @@ aContentPolicyType
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIDocument
+*
+aDoc
 bool
 aLoadFromExternal
 bool
@@ -385,7 +388,7 @@ NS_LITERAL_CSTRING
 DATA_URI_BLOCKED
 "
 )
-nullptr
+aDoc
 nsContentUtils
 :
 :
@@ -2618,6 +2621,7 @@ GetExternalContentPolicyType
 (
 )
 nullTriggeringPrincipal
+nullptr
 false
 false
 )
