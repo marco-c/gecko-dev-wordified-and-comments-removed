@@ -100,6 +100,15 @@ name
 and
 attribute
 query
+-
+Added
+firefoxOptions
+capability
+to
+set
+preferences
+from
+capabilities
 #
 #
 #
