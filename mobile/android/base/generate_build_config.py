@@ -246,10 +246,6 @@ MOZ_LEANPLUM_SDK_CLIENTID
 '
                 
 '
-MOZ_ANDROID_POCKET
-'
-                
-'
 MOZ_ANDROID_SEARCH_ACTIVITY
 '
                 

@@ -368,7 +368,7 @@ Stream
 '
 default
 =
-True
+False
 )
 set_config
 (
