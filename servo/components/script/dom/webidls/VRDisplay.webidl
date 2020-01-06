@@ -796,8 +796,6 @@ presented
 .
 *
 /
-/
-/
 sequence
 <
 VRLayer
