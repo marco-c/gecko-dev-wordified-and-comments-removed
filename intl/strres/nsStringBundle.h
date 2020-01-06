@@ -87,7 +87,7 @@ nsStringBundle
 )
 ;
 nsresult
-GetStringFromID
+GetStringFromIDHelper
 (
 int32_t
 aID
@@ -97,7 +97,7 @@ aResult
 )
 ;
 nsresult
-GetStringFromName
+GetStringFromNameHelper
 (
 const
 char

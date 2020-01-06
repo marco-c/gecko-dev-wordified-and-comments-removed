@@ -527,7 +527,7 @@ nsresult
 nsStringBundle
 :
 :
-GetStringFromID
+GetStringFromIDHelper
 (
 int32_t
 aID
@@ -603,7 +603,7 @@ nsresult
 nsStringBundle
 :
 :
-GetStringFromName
+GetStringFromNameHelper
 (
 const
 char
@@ -831,7 +831,7 @@ formatStr
 ;
 rv
 =
-GetStringFromName
+GetStringFromNameHelper
 (
 aName
 formatStr
@@ -909,7 +909,7 @@ tmpstr
 ;
 rv
 =
-GetStringFromID
+GetStringFromIDHelper
 (
 aID
 tmpstr
@@ -1032,7 +1032,7 @@ tmpstr
 ;
 rv
 =
-GetStringFromName
+GetStringFromNameHelper
 (
 aName
 tmpstr
