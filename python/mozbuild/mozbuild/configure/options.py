@@ -373,6 +373,11 @@ isinstance
 other
 tuple
 )
+and
+len
+(
+self
+)
 :
             
 raise
@@ -382,6 +387,7 @@ TypeError
 cannot
 compare
 a
+populated
 %
 s
 against
@@ -389,10 +395,10 @@ an
 %
 s
 ;
-OptionValue
 '
                             
 '
+OptionValue
 instances
 are
 tuples
@@ -401,10 +407,10 @@ did
 you
 mean
 to
-compare
 '
                             
 '
+compare
 against
 member
 elements
