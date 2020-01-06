@@ -538,12 +538,6 @@ nsIContent
 >
 mOriginal
 ;
-nsCOMPtr
-<
-nsIContent
->
-mClone
-;
 ElementTracker
 mReferencedElementTracker
 ;
