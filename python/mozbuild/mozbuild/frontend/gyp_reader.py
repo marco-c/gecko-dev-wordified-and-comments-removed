@@ -2235,6 +2235,21 @@ STL
 [
 ]
         
+context
+[
+'
+COMPILE_FLAGS
+'
+]
+[
+'
+OS_INCLUDES
+'
+]
+=
+[
+]
+        
 for
 key
 value
