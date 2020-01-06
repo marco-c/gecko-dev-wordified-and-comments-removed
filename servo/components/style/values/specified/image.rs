@@ -294,6 +294,7 @@ derive
 (
 Clone
 Debug
+HasViewportPercentage
 PartialEq
 )
 ]

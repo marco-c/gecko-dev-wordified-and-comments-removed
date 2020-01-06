@@ -111,7 +111,6 @@ specified
 AllowQuirks
 Color
 CSSColor
-CSSRGBA
 }
 ;
 impl
@@ -898,6 +897,17 @@ Self
 )
 >
 {
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 std
 :

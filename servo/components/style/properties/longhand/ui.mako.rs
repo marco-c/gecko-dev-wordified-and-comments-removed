@@ -364,12 +364,6 @@ property
 "
 >
 use
-cssparser
-:
-:
-Token
-;
-use
 std
 :
 :
@@ -380,12 +374,6 @@ style_traits
 :
 :
 ToCss
-;
-use
-values
-:
-:
-HasViewportPercentage
 ;
 use
 values

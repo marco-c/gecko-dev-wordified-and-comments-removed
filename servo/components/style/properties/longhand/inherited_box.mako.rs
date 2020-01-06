@@ -669,12 +669,6 @@ specified
 :
 Angle
 ;
-use
-values
-:
-:
-HasViewportPercentage
-;
 no_viewport_percentage
 !
 (
@@ -1705,12 +1699,6 @@ computed
 :
 :
 ComputedValueAsSpecified
-;
-use
-values
-:
-:
-HasViewportPercentage
 ;
 no_viewport_percentage
 !
