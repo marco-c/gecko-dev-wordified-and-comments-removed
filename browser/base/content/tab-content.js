@@ -922,7 +922,7 @@ sendAsyncMessage
 "
 AboutHome
 :
-MaybeShowMigrateMessage
+MaybeShowAutoMigrationUndoNotification
 "
 )
 ;
