@@ -2680,6 +2680,12 @@ CacheKind
 :
 GetPropSuper
 :
+case
+CacheKind
+:
+:
+GetElemSuper
+:
 MOZ_CRASH
 (
 "

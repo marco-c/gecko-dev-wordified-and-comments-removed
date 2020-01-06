@@ -632,6 +632,11 @@ JSOP_STRICTDELELEM
 \
 _
 (
+JSOP_GETELEM_SUPER
+)
+\
+_
+(
 JSOP_IN
 )
 \

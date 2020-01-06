@@ -9976,6 +9976,12 @@ case
 CacheKind
 :
 :
+GetElemSuper
+:
+case
+CacheKind
+:
+:
 SetElem
 :
 MOZ_ASSERT
@@ -10306,6 +10312,12 @@ CacheKind
 :
 :
 GetPropSuper
+:
+case
+CacheKind
+:
+:
+GetElemSuper
 :
 case
 CacheKind
