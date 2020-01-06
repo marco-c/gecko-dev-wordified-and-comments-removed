@@ -93,15 +93,6 @@ mozilla
 namespace
 ipc
 {
-union
-ContentPrincipalInfoOriginNoSuffix
-{
-nsCString
-;
-void_t
-;
-}
-;
 struct
 ContentPrincipalInfo
 {
@@ -206,7 +197,7 @@ a
 full
 nsIPrincipal
 .
-ContentPrincipalInfoOriginNoSuffix
+nsCString
 originNoSuffix
 ;
 nsCString

@@ -162,10 +162,6 @@ content
 originNoSuffix
 (
 )
-.
-get_nsCString
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -347,10 +343,6 @@ principalURL
 content
 .
 originNoSuffix
-(
-)
-.
-get_nsCString
 (
 )
 )
