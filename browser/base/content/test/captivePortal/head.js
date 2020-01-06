@@ -378,9 +378,11 @@ aLongRecheck
 win
 )
 {
-Preferences
+Services
 .
-set
+prefs
+.
+setIntPref
 (
 "
 captivedetect

@@ -1360,9 +1360,11 @@ run
 (
 )
 {
-Preferences
+Services
 .
-set
+prefs
+.
+setBoolPref
 (
 "
 privacy
@@ -1468,9 +1470,11 @@ clicked
 "
 )
 ;
-Preferences
+Services
 .
-reset
+prefs
+.
+clearUserPref
 (
 "
 privacy

@@ -30,6 +30,7 @@ Preferences
 .
 jsm
 "
+this
 )
 ;
 Cu

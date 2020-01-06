@@ -18743,9 +18743,11 @@ destroy
 ;
 if
 (
-Preferences
+Services
 .
-get
+prefs
+.
+getBoolPref
 (
 "
 xpinstall
