@@ -839,7 +839,7 @@ GetInstance
 )
 -
 >
-GetSystemLocales
+GetRegionalPrefsLocales
 (
 aRetVal
 )
