@@ -45936,11 +45936,10 @@ isCallbackInterface
         
 wrapCode
 =
-setObject
+setObjectOrNull
 (
             
 "
-*
 GetCallbackFromCallbackObject
 (
 %
