@@ -44,6 +44,11 @@ TextEncoder
 :
 false
 "
+MatchGlob
+"
+:
+false
+"
 AppConstants
 "
 :
