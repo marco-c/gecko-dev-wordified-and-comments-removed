@@ -2128,7 +2128,12 @@ stylearc
 :
 Arc
 <
-ServoComputedValues2
+:
+:
+properties
+:
+:
+ComputedValues
 >
 >
 "
