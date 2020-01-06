@@ -26,7 +26,7 @@ New_HyperText
 roles
 :
 :
-DOCUMENT
+ARTICLE
 Attr
 (
 xmlroles

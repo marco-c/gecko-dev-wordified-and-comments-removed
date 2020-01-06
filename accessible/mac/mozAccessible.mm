@@ -5149,6 +5149,17 @@ return
 AXOutlineRow
 "
 ;
+case
+roles
+:
+:
+ARTICLE
+:
+return
+"
+AXDocumentArticle
+"
+;
 /
 /
 macOS
