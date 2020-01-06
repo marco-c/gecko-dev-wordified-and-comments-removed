@@ -654,6 +654,17 @@ else
 false
 #
 endif
+MOZ_ANDROID_MOZILLA_ONLINE
+:
+#
+ifdef
+MOZ_ANDROID_MOZILLA_ONLINE
+true
+#
+else
+false
+#
+endif
 DLL_PREFIX
 :
 "
