@@ -433,7 +433,7 @@ ErrorStatus
 InvalidArgument
 "
 acceptInsecureCerts
-was
+is
 not
 a
 boolean
@@ -598,7 +598,7 @@ format
 "
 {
 }
-was
+is
 not
 a
 the
@@ -750,7 +750,7 @@ ErrorStatus
 InvalidArgument
 "
 pageLoadStrategy
-was
+is
 not
 a
 string
@@ -797,7 +797,7 @@ ErrorStatus
 InvalidArgument
 "
 proxy
-was
+is
 not
 an
 object
@@ -896,7 +896,7 @@ format
 "
 {
 }
-was
+is
 not
 a
 valid
@@ -925,7 +925,7 @@ InvalidArgument
 "
 proxyType
 value
-was
+is
 not
 a
 string
@@ -978,7 +978,7 @@ ErrorStatus
 InvalidArgument
 "
 proxyAutoconfigUrl
-was
+is
 not
 a
 valid
@@ -1007,7 +1007,7 @@ ErrorStatus
 InvalidArgument
 "
 proxyAutoconfigUrl
-was
+is
 not
 a
 string
@@ -1122,7 +1122,7 @@ ErrorStatus
 InvalidArgument
 "
 socksVersion
-was
+is
 not
 a
 number
@@ -1151,7 +1151,7 @@ format
 "
 {
 }
-was
+is
 not
 a
 valid
@@ -1242,7 +1242,7 @@ format
 "
 {
 }
-was
+is
 not
 a
 string
@@ -1275,7 +1275,7 @@ format
 "
 {
 }
-was
+is
 not
 an
 array
@@ -1505,7 +1505,7 @@ format
 "
 {
 }
-was
+is
 not
 of
 the
@@ -1544,7 +1544,7 @@ format
 "
 {
 }
-was
+is
 not
 a
 string
@@ -1594,7 +1594,7 @@ InvalidArgument
 "
 timeouts
 capability
-was
+is
 not
 an
 object
@@ -1659,7 +1659,7 @@ format
 }
 timeouts
 value
-was
+is
 not
 an
 integer
@@ -1693,7 +1693,7 @@ format
 }
 timeouts
 value
-was
+is
 negative
 "
 x
@@ -1723,7 +1723,7 @@ format
 "
 {
 }
-was
+is
 not
 a
 valid
@@ -1776,7 +1776,7 @@ InvalidArgument
 "
 unhandledPromptBehavior
 capability
-was
+is
 not
 a
 string
@@ -1818,7 +1818,7 @@ format
 "
 {
 }
-was
+is
 not
 a
 valid
@@ -1875,7 +1875,7 @@ UnknownError
 "
 Message
 body
-was
+is
 not
 an
 object
@@ -3024,7 +3024,7 @@ UnknownError
 "
 Message
 body
-was
+is
 not
 an
 object
