@@ -781,6 +781,9 @@ requestFilterTypes
 )
 |
 |
+!
+!
+(
 this
 .
 refs
@@ -795,6 +798,7 @@ refs
 searchbox
 .
 focused
+)
 ;
 }
 componentWillUnmount
