@@ -711,6 +711,7 @@ aGuid
 GuidComparator
 aComparator
 )
+const
 ;
 HitTestingTreeNode
 *
@@ -929,6 +930,16 @@ const
 ScrollableLayerGuid
 &
 aGuid
+)
+const
+;
+LayerToParentLayerMatrix4x4
+ComputeTransformForNode
+(
+const
+HitTestingTreeNode
+*
+aNode
 )
 const
 ;
