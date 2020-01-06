@@ -126,7 +126,7 @@ inner
 -
 window
 -
-destroyed
+nuked
 "
 (
 subject
