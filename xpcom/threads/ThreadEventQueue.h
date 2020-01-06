@@ -69,6 +69,9 @@ class
 PrioritizedEventQueue
 ;
 class
+LabeledEventQueue
+;
+class
 ThreadEventTarget
 ;
 template
@@ -341,6 +344,17 @@ ThreadEventQueue
 PrioritizedEventQueue
 <
 EventQueue
+>
+>
+;
+extern
+template
+class
+ThreadEventQueue
+<
+PrioritizedEventQueue
+<
+LabeledEventQueue
 >
 >
 ;
