@@ -542,12 +542,8 @@ processType
 )
 ;
 void
-SetChildLogName
+GetChildLogName
 (
-const
-char
-*
-varName
 const
 char
 *
