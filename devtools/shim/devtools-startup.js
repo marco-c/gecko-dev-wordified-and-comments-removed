@@ -2909,8 +2909,6 @@ if
 message
 .
 data
-.
-url
 =
 =
 =
@@ -2922,12 +2920,6 @@ chrome
 saveBrowser
 (
 browser
-false
-message
-.
-data
-.
-windowID
 )
 ;
 }
@@ -2944,11 +2936,7 @@ persistable
 .
 startPersistence
 (
-message
-.
-data
-.
-windowID
+0
 {
 onDocumentReady
 (
@@ -2990,8 +2978,6 @@ internalSave
 message
 .
 data
-.
-url
 doc
 filename
 null
