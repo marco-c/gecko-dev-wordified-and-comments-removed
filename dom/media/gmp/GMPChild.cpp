@@ -686,12 +686,6 @@ defined
 (
 XP_MACOSX
 )
-&
-&
-defined
-(
-MOZ_GMP_SANDBOX
-)
 static
 nsCString
 GetNativeTarget
@@ -745,6 +739,12 @@ return
 path
 ;
 }
+#
+if
+defined
+(
+MOZ_GMP_SANDBOX
+)
 static
 bool
 GetPluginPaths
@@ -1199,6 +1199,8 @@ return
 true
 ;
 }
+#
+endif
 #
 endif
 bool
