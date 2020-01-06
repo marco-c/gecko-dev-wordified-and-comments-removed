@@ -1245,8 +1245,6 @@ const
 AnimationProperty
 &
 aProperty
-CSSPseudoElementType
-aPseudoType
 nsPresContext
 *
 aPresContext

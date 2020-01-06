@@ -2206,10 +2206,6 @@ aProperties
 EnsureBaseStyle
 (
 property
-mTarget
--
->
-mPseudoType
 presContext
 aComputedValues
 baseStyleContext
@@ -2227,8 +2223,6 @@ const
 AnimationProperty
 &
 aProperty
-CSSPseudoElementType
-aPseudoType
 nsPresContext
 *
 aPresContext
@@ -2316,7 +2310,10 @@ mTarget
 >
 mElement
 aPresContext
-aPseudoType
+mTarget
+-
+>
+mPseudoType
 aComputedStyle
 )
 ;
