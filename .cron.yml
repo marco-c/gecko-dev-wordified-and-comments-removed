@@ -55,11 +55,6 @@ treeherder
 symbol
 :
 Nd
-triggered
--
-by
-:
-nightly
 target
 -
 tasks
@@ -155,11 +150,6 @@ symbol
 Nd
 -
 OSX
-triggered
--
-by
-:
-nightly
 target
 -
 tasks
@@ -207,11 +197,6 @@ symbol
 Nd
 -
 Win64
-triggered
--
-by
-:
-nightly
 target
 -
 tasks
@@ -255,11 +240,6 @@ treeherder
 symbol
 :
 Na
-triggered
--
-by
-:
-nightly
 target
 -
 tasks
