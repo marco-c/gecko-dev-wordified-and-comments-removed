@@ -627,6 +627,12 @@ self
 if
 self
 .
+size
+is
+None
+or
+self
+.
 validate_size
 (
 )
