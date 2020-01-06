@@ -65,7 +65,7 @@ state_dir
 /
 clang
 /
-lib
+bin
 ac_add_options
 -
 -
