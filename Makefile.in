@@ -297,8 +297,8 @@ status
 (
 BUILD_BACKEND_FILES
 )
-ifndef
-JS_STANDALONE
+ifdef
+MOZ_WIDGET_TOOLKIT
 ifdef
 COMPILE_ENVIRONMENT
 (
@@ -844,8 +844,8 @@ BUILD_BACKEND_FILES
 (
 NULL
 )
-ifndef
-JS_STANDALONE
+ifdef
+MOZ_WIDGET_TOOLKIT
 ifdef
 COMPILE_ENVIRONMENT
 install_manifest_depends
@@ -1561,8 +1561,8 @@ no
 times
 artifact
 install
-ifndef
-JS_STANDALONE
+ifdef
+MOZ_WIDGET_TOOLKIT
 ifdef
 ENABLE_TESTS
 #

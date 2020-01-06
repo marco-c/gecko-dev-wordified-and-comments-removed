@@ -153,11 +153,10 @@ misc
 '
 ]
 if
-not
 CONFIG
 [
 '
-JS_STANDALONE
+MOZ_WIDGET_TOOLKIT
 '
 ]
 :
