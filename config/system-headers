@@ -3803,6 +3803,11 @@ atomic_op
 h
 sys
 /
+auxv
+.
+h
+sys
+/
 bitypes
 .
 h
