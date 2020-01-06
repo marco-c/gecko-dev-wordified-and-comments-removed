@@ -3394,7 +3394,11 @@ data
 path
 args
 :
+new
+StructuredCloneHolder
+(
 listenerArgs
+)
 }
 {
 recipient
