@@ -1888,13 +1888,6 @@ productVersion
 =
 location
 ;
-location
-+
-=
-len
-+
-1
-;
 if
 (
 len
