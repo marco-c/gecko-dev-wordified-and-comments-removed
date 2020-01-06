@@ -318,6 +318,12 @@ capture
 -
 talos
 -
+linux
+-
+talos
+-
+stylo
+-
 awsy
 linux64
 -
@@ -455,6 +461,12 @@ platform
 tests
 -
 talos
+-
+linux
+-
+talos
+-
+stylo
 linux64
 -
 asan
@@ -600,8 +612,6 @@ tests
 devtools
 -
 tests
--
-talos
 macosx64
 -
 stylo
