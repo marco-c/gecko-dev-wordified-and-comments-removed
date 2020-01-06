@@ -482,7 +482,7 @@ InternalServerError
 StaleElementReference
 =
 >
-BadRequest
+NotFound
 Timeout
 =
 >

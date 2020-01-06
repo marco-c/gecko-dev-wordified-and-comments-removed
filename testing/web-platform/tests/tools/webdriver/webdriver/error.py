@@ -439,7 +439,7 @@ WebDriverException
     
 http_status
 =
-400
+404
     
 status_code
 =
