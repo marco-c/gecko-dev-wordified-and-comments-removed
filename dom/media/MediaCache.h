@@ -665,6 +665,7 @@ mMediaCache
 ;
 ChannelMediaResource
 *
+const
 mClient
 ;
 nsCOMPtr
@@ -747,6 +748,7 @@ mThrottleReadahead
 =
 false
 ;
+const
 UniquePtr
 <
 uint8_t
