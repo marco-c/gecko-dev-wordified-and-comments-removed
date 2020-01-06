@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsHtml5StreamParserPtr
+nsHtml5RefPtr
 .
 h
 "
@@ -78,7 +78,10 @@ nsHtml5StreamListener
 (
 )
 ;
-nsHtml5StreamParserPtr
+nsHtml5RefPtr
+<
+nsHtml5StreamParser
+>
 mDelegate
 ;
 }

@@ -225,6 +225,11 @@ nsHtml5Portability
 h
 '
 '
+nsHtml5RefPtr
+.
+h
+'
+'
 nsHtml5Speculation
 .
 h
@@ -241,11 +246,6 @@ h
 '
 '
 nsHtml5StreamParser
-.
-h
-'
-'
-nsHtml5StreamParserPtr
 .
 h
 '
