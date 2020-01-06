@@ -2758,6 +2758,13 @@ bpp
 )
 {
 }
+#
+if
+!
+defined
+(
+__arm__
+)
 void
 ff_flacdsp_init_arm
 (
@@ -2774,6 +2781,8 @@ bps
 )
 {
 }
+#
+endif
 #
 if
 !
