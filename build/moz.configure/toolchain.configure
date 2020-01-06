@@ -10661,13 +10661,6 @@ debug_info
 None
 if
 opt_level_option
-.
-origin
-!
-=
-'
-default
-'
 :
 opt_level
 =
