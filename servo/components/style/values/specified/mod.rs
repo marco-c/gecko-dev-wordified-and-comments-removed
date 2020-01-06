@@ -391,6 +391,16 @@ Position
 PositionComponent
 }
 ;
+pub
+use
+self
+:
+:
+transform
+:
+:
+TransformOrigin
+;
 #
 [
 cfg
@@ -445,6 +455,10 @@ position
 pub
 mod
 rect
+;
+pub
+mod
+transform
 ;
 pub
 mod
@@ -3381,6 +3395,7 @@ derive
 Clone
 Copy
 Debug
+HasViewportPercentage
 PartialEq
 PartialOrd
 )

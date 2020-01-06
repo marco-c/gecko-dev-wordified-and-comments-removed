@@ -341,6 +341,16 @@ position
 Position
 ;
 pub
+use
+self
+:
+:
+transform
+:
+:
+TransformOrigin
+;
+pub
 mod
 background
 ;
@@ -367,6 +377,10 @@ position
 pub
 mod
 rect
+;
+pub
+mod
+transform
 ;
 pub
 struct

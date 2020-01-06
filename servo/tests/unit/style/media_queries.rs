@@ -83,10 +83,7 @@ style
 shared_lock
 :
 :
-{
 SharedRwLock
-SharedRwLockReadGuard
-}
 ;
 use
 style
