@@ -4917,7 +4917,7 @@ pref
 static
 const
 char
-kPrefSticky
+kStickyPref
 [
 ]
 =
@@ -5478,7 +5478,7 @@ aPS
 >
 mStrMatch
 =
-kPrefSticky
+kStickyPref
 ;
 }
 else
@@ -5746,7 +5746,7 @@ aPS
 mStrMatch
 =
 =
-kPrefSticky
+kStickyPref
 )
 ;
 aPS
@@ -5761,7 +5761,7 @@ aPS
 mStrMatch
 =
 =
-kPrefSticky
+kStickyPref
 )
 ;
 aPS
