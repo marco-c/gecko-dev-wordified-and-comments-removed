@@ -33,6 +33,16 @@ CONTEXT_CHROME
 )
 :
             
+tab1
+=
+self
+.
+browser
+.
+tabbar
+.
+selected_tab
+            
 tab2
 =
 self
@@ -105,11 +115,22 @@ tab2
 force
 =
 True
+)
+            
+self
+.
+browser
+.
+tabbar
+.
+switch_to
+(
+tab1
 )
         
 self
 .
-install_addon
+restart_browser
 (
 )
         

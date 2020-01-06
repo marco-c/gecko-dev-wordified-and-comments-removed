@@ -476,8 +476,6 @@ session
         
 self
 .
-marionette
-.
 restart
 (
 clean
