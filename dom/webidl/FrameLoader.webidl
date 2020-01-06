@@ -899,8 +899,12 @@ long
 aOuterWindowID
 nsIPrintSettings
 aPrintSettings
+optional
 nsIWebProgressListener
+?
 aProgressListener
+=
+null
 )
 ;
 /
