@@ -569,6 +569,8 @@ GetCachedWidgetBorder
 nsIFrame
 *
 aFrame
+HANDLE
+aTheme
 nsUXThemeClass
 aThemeClass
 uint8_t
