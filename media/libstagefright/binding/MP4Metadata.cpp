@@ -5120,17 +5120,6 @@ codec
 mp4parse_codec
 :
 :
-mp4parse_codec_JPEG
-|
-|
-track_info
-.
-codec
-=
-=
-mp4parse_codec
-:
-:
 mp4parse_codec_UNKNOWN
 )
 {
