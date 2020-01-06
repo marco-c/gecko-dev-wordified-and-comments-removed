@@ -1897,7 +1897,7 @@ this
 "
 DB_SCHEMA
 "
-21
+20
 )
 ;
 XPCOMUtils
@@ -20713,6 +20713,16 @@ extraParams
 =
 {
 }
+;
+extraParams
+.
+temporarilyInstalled
+=
+aInstallLocation
+=
+=
+=
+TemporaryInstallLocation
 ;
 if
 (
