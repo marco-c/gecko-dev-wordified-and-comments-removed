@@ -828,6 +828,7 @@ boxDouble
 (
 FloatReg1
 R0
+ScratchDoubleReg
 )
 ;
 }

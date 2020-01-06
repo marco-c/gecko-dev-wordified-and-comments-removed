@@ -6449,7 +6449,7 @@ payloadReg
 ;
 }
 void
-MacroAssemblerMIPSCompat
+MacroAssemblerMIPS64Compat
 :
 :
 boxDouble
@@ -6460,6 +6460,7 @@ const
 ValueOperand
 &
 dest
+FloatRegister
 )
 {
 moveFromDoubleLo
