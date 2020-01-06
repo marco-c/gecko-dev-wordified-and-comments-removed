@@ -29221,6 +29221,16 @@ MIRType
 Int32
 )
 ;
+MOZ_ASSERT
+(
+ins
+-
+>
+offset
+(
+)
+)
+;
 define
 (
 new
