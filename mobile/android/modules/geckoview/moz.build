@@ -100,6 +100,11 @@ GeckoViewContent
 jsm
 '
 '
+GeckoViewContentModule
+.
+jsm
+'
+'
 GeckoViewModule
 .
 jsm
