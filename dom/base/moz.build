@@ -1839,6 +1839,11 @@ WebKitCSSMatrix
 cpp
 '
 '
+WindowDestroyedEvent
+.
+cpp
+'
+'
 WindowNamedPropertiesHandler
 .
 cpp
