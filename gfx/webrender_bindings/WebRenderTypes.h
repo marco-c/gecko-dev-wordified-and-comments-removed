@@ -230,7 +230,7 @@ Some
 WrImageFormat
 :
 :
-RGBA8
+BGRA8
 )
 ;
 case
@@ -257,7 +257,7 @@ Some
 WrImageFormat
 :
 :
-RGBA8
+BGRA8
 )
 ;
 case
@@ -361,7 +361,7 @@ case
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 :
 return
 gfx
