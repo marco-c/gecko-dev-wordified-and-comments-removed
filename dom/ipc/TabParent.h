@@ -435,12 +435,6 @@ nsFrameLoader
 aFrameLoader
 )
 ;
-bool
-IsVisible
-(
-)
-const
-;
 nsIBrowserDOMWindow
 *
 GetBrowserDOMWindow
