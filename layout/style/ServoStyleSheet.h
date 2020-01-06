@@ -86,6 +86,9 @@ css
 class
 Loader
 ;
+class
+LoaderReusableStyleSheets
+;
 }
 struct
 ServoStyleSheetInner
@@ -250,6 +253,14 @@ uint32_t
 aLineNumber
 nsCompatibility
 aCompatMode
+css
+:
+:
+LoaderReusableStyleSheets
+*
+aReusableSheets
+=
+nullptr
 )
 ;
 void

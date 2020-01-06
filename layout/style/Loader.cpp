@@ -10141,17 +10141,6 @@ sheet
 ;
 MOZ_ASSERT_IF
 (
-aReusableSheets
-aParentSheet
--
->
-IsGecko
-(
-)
-)
-;
-MOZ_ASSERT_IF
-(
 aParentSheet
 -
 >

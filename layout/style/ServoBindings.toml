@@ -463,6 +463,15 @@ h
 "
 mozilla
 /
+css
+/
+Loader
+.
+h
+"
+"
+mozilla
+/
 dom
 /
 AnimationEffectReadOnlyBinding
@@ -2348,6 +2357,9 @@ nsresult
 "
 "
 Loader
+"
+"
+LoaderReusableStyleSheets
 "
 "
 ServoStyleSheet
