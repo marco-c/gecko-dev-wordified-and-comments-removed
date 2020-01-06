@@ -1,6 +1,7 @@
 from
 __future__
 import
+absolute_import
 print_function
 import
 platform
@@ -1582,9 +1583,9 @@ CLONE_MERCURIAL_NOT_EMPTY
 format
 (
 dest
+                                              
 newdest
 )
-                                              
 low
 =
 1
@@ -1739,6 +1740,7 @@ s
 )
 '
 %
+                            
 '
 /
 '
@@ -2220,6 +2222,7 @@ _parse_version
 rustc
 '
 )
+                
 >
 =
 MODERN_RUST_VERSION
@@ -2958,6 +2961,9 @@ org
 mozilla
 -
 unified
+'
+              
+'
 manually
 '
 )

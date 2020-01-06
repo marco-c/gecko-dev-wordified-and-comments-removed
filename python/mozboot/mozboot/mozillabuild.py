@@ -1,13 +1,14 @@
+from
+__future__
 import
-errno
+absolute_import
+print_function
 import
 os
 import
 sys
 import
 subprocess
-import
-tempfile
 from
 mozboot
 .

@@ -1,6 +1,7 @@
 from
 __future__
 import
+absolute_import
 print_function
 import
 errno
@@ -1230,6 +1231,7 @@ sdk_path
 sdk_url
 ndk_path
 ndk_url
+                               
 artifact_mode
 )
 :
@@ -1268,6 +1270,7 @@ the
 given
 URLs
 into
+    
 |
 mozbuild_path
 /
@@ -1388,6 +1391,7 @@ path
 join
 (
 mozbuild_path
+                                          
 '
 android
 -
@@ -1466,6 +1470,7 @@ dirname
 (
 __file__
 )
+                                        
 '
 android
 -
@@ -1961,11 +1966,11 @@ SDK
 (
 or
 Android
-NDK
-)
 "
                                   
 "
+NDK
+)
 on
 {
 0
@@ -1992,6 +1997,7 @@ artifact_mode
 options
 .
 artifact_mode
+                   
 no_interactive
 =
 options

@@ -60,6 +60,10 @@ py
 -
 python
 /
+mozboot
+-
+python
+/
 mozlint
 -
 python

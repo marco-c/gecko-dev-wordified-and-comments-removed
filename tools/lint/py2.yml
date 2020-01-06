@@ -109,10 +109,6 @@ mach
 -
 python
 /
-mozboot
--
-python
-/
 mozbuild
 -
 python
