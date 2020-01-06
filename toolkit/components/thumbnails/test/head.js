@@ -919,9 +919,10 @@ aCallback
 )
 ;
 }
-executeSoon
+setTimeout
 (
 callback
+0
 )
 ;
 }
