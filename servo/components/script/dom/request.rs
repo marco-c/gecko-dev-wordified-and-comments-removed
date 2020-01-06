@@ -585,9 +585,6 @@ GlobalScope
 url
 :
 ServoUrl
-is_service_worker_global_scope
-:
-bool
 )
 -
 >
@@ -614,7 +611,6 @@ net_request_from_global
 (
 global
 url
-is_service_worker_global_scope
 )
 )
 body_used
@@ -674,9 +670,6 @@ GlobalScope
 url
 :
 ServoUrl
-is_service_worker_global_scope
-:
-bool
 )
 -
 >
@@ -695,7 +688,6 @@ new_inherited
 (
 global
 url
-is_service_worker_global_scope
 )
 global
 RequestBinding
@@ -929,7 +921,6 @@ net_request_from_global
 (
 global
 url
-false
 )
 ;
 /
@@ -1186,7 +1177,6 @@ temporary_request
 current_url
 (
 )
-false
 )
 ;
 request
@@ -2200,7 +2190,6 @@ Request
 from_net_request
 (
 global
-false
 request
 )
 ;
@@ -3199,9 +3188,6 @@ global
 :
 &
 GlobalScope
-is_service_worker_global_scope
-:
-bool
 net_request
 :
 NetTraitsRequest
@@ -3227,7 +3213,6 @@ net_request
 current_url
 (
 )
-is_service_worker_global_scope
 )
 ;
 *
@@ -3280,13 +3265,6 @@ req
 url
 (
 )
-;
-let
-is_service_worker_global_scope
-=
-req
-.
-is_service_worker_global_scope
 ;
 let
 body_used
@@ -3342,7 +3320,6 @@ global
 (
 )
 url
-is_service_worker_global_scope
 )
 ;
 r_clone
@@ -3495,9 +3472,6 @@ GlobalScope
 url
 :
 ServoUrl
-is_service_worker_global_scope
-:
-bool
 )
 -
 >
@@ -3541,7 +3515,6 @@ Some
 (
 origin
 )
-is_service_worker_global_scope
 Some
 (
 pipeline_id
