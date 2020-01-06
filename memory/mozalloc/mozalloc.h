@@ -256,6 +256,16 @@ void
 ptr
 )
 ;
+MFBT_API
+size_t
+moz_malloc_enclosing_size_of
+(
+const
+void
+*
+ptr
+)
+;
 #
 if
 defined

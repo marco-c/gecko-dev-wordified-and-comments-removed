@@ -43,6 +43,10 @@ __VA_ARGS__
 )
 ;
 #
+define
+MALLOC_FUNCS
+MALLOC_FUNCS_MALLOC
+#
 include
 "
 malloc_decls
