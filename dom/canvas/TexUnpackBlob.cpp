@@ -4481,8 +4481,9 @@ webgl
 >
 gl
 ;
-MOZ_ALWAYS_TRUE
+if
 (
+!
 gl
 -
 >
@@ -4490,7 +4491,16 @@ MakeCurrent
 (
 )
 )
+{
+*
+out_error
+=
+LOCAL_GL_CONTEXT_LOST
 ;
+return
+true
+;
+}
 gl
 -
 >
