@@ -16,7 +16,7 @@ h
 "
 #
 ifdef
-MOZ_MEMORY_ANDROID
+ANDROID
 #
 define
 NO_TLS
@@ -24,7 +24,7 @@ NO_TLS
 endif
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 define
 MALLOC_DOUBLE_PURGE
@@ -88,7 +88,7 @@ algorithm
 >
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 define
 _CRT_SPINCOUNT
@@ -253,10 +253,10 @@ MALLOC_DECOMMIT
 endif
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 ifndef
-MOZ_MEMORY_SOLARIS
+XP_SOLARIS
 #
 include
 <
@@ -327,14 +327,14 @@ if
 !
 defined
 (
-MOZ_MEMORY_SOLARIS
+XP_SOLARIS
 )
 &
 &
 !
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 #
 include
@@ -437,7 +437,7 @@ h
 >
 #
 ifndef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 include
 <
@@ -456,7 +456,7 @@ h
 >
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 include
 <
@@ -525,7 +525,7 @@ if
 (
 defined
 (
-MOZ_MEMORY_LINUX
+XP_LINUX
 )
 &
 &
@@ -541,7 +541,7 @@ __alpha__
 (
 defined
 (
-MOZ_MEMORY_BSD
+__FreeBSD_kernel__
 )
 &
 &
@@ -646,7 +646,7 @@ else
 if
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 &
 &
@@ -733,7 +733,7 @@ endif
 endif
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 static
 pthread_key_t
 tlsIndex
@@ -742,7 +742,7 @@ tlsIndex
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 define
 RB_NO_C99_VARARRAYS
@@ -878,7 +878,7 @@ CACHELINE_2POW
 )
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 define
 TINY_MIN_2POW
@@ -969,7 +969,7 @@ endif
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 #
 define
@@ -983,7 +983,7 @@ CRITICAL_SECTION
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 typedef
 struct
@@ -1025,13 +1025,13 @@ false
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 #
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 static
 malloc_mutex_t
@@ -1045,14 +1045,14 @@ OS_SPINLOCK_INIT
 elif
 defined
 (
-MOZ_MEMORY_LINUX
+XP_LINUX
 )
 &
 &
 !
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 static
 malloc_mutex_t
@@ -2053,14 +2053,14 @@ if
 !
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 &
 &
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 static
 __thread
@@ -2260,7 +2260,7 @@ ptr
 ;
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 extern
 "
 C
@@ -2278,7 +2278,7 @@ void
 ;
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 define
 FORK_HOOK
@@ -2334,7 +2334,7 @@ p
 ;
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 volatile
 long
 dummy
@@ -2375,7 +2375,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 #
 define
@@ -2470,7 +2470,7 @@ h
 "
 #
 ifdef
-MOZ_MEMORY_ANDROID
+ANDROID
 extern
 "
 C
@@ -2517,7 +2517,7 @@ mutex
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 if
 (
@@ -2537,7 +2537,7 @@ true
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 mutex
 -
@@ -2550,14 +2550,14 @@ OS_SPINLOCK_INIT
 elif
 defined
 (
-MOZ_MEMORY_LINUX
+XP_LINUX
 )
 &
 &
 !
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 pthread_mutexattr_t
 attr
@@ -2656,7 +2656,7 @@ mutex
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 EnterCriticalSection
 (
@@ -2667,7 +2667,7 @@ mutex
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 OSSpinLockLock
 (
@@ -2702,7 +2702,7 @@ mutex
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 LeaveCriticalSection
 (
@@ -2713,7 +2713,7 @@ mutex
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 OSSpinLockUnlock
 (
@@ -2763,7 +2763,7 @@ lock
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 if
 (
@@ -2783,7 +2783,7 @@ true
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 lock
 -
@@ -2796,14 +2796,14 @@ OS_SPINLOCK_INIT
 elif
 defined
 (
-MOZ_MEMORY_LINUX
+XP_LINUX
 )
 &
 &
 !
 defined
 (
-MOZ_MEMORY_ANDROID
+ANDROID
 )
 pthread_mutexattr_t
 attr
@@ -2902,7 +2902,7 @@ lock
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 EnterCriticalSection
 (
@@ -2913,7 +2913,7 @@ lock
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 OSSpinLockLock
 (
@@ -2948,7 +2948,7 @@ lock
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 LeaveCriticalSection
 (
@@ -2959,7 +2959,7 @@ lock
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 OSSpinLockUnlock
 (
@@ -2985,7 +2985,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 #
 define
@@ -3246,7 +3246,7 @@ size
 {
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 size_t
 pages_size
 =
@@ -3374,7 +3374,7 @@ size
 {
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 size_t
 pages_size
 =
@@ -4094,7 +4094,7 @@ extent_ad_comp
 )
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 static
 void
 *
@@ -4752,7 +4752,7 @@ n
 endif
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 define
 VM_COPY_MIN
@@ -5760,7 +5760,7 @@ size
 ;
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 {
 void
 *
@@ -6070,7 +6070,7 @@ true
 else
 #
 ifndef
-MOZ_MEMORY_LINUX
+XP_LINUX
 if
 (
 force_zero
@@ -6086,7 +6086,7 @@ length
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 size_t
 pages_size
 =
@@ -6161,7 +6161,7 @@ force_zero
 else
 #
 ifdef
-MOZ_MEMORY_LINUX
+XP_LINUX
 #
 define
 JEMALLOC_MADV_PURGE
@@ -6604,7 +6604,7 @@ ret
 }
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 define
 CAN_RECYCLE
@@ -7439,7 +7439,7 @@ arenas_lock
 }
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 TlsSetValue
 (
 tlsIndex
@@ -7450,7 +7450,7 @@ arena
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 pthread_setspecific
 (
@@ -7512,7 +7512,7 @@ ifndef
 NO_TLS
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 ret
 =
 (
@@ -7528,7 +7528,7 @@ tlsIndex
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 ret
 =
@@ -17001,13 +17001,13 @@ if
 (
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 |
 |
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 )
 #
@@ -17052,7 +17052,7 @@ endif
 if
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 extern
 "
@@ -17071,7 +17071,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 static
 #
@@ -17095,7 +17095,7 @@ result
 ;
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 malloc_mutex_lock
 (
 &
@@ -17111,7 +17111,7 @@ malloc_initialized
 {
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 malloc_mutex_unlock
 (
 &
@@ -17128,7 +17128,7 @@ false
 }
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 tlsIndex
 =
 TlsAlloc
@@ -17139,7 +17139,7 @@ TlsAlloc
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 pthread_key_create
 (
@@ -17152,7 +17152,7 @@ nullptr
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 {
 SYSTEM_INFO
 info
@@ -18044,7 +18044,7 @@ arenas
 {
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 malloc_mutex_unlock
 (
 &
@@ -18064,7 +18064,7 @@ ifndef
 NO_TLS
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 TlsSetValue
 (
 tlsIndex
@@ -18078,7 +18078,7 @@ arenas
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 pthread_setspecific
 (
@@ -18135,14 +18135,14 @@ if
 !
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 &
 &
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 pthread_atfork
 (
@@ -18157,7 +18157,7 @@ endif
 if
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 register_zone
 (
@@ -18167,7 +18167,7 @@ register_zone
 endif
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 malloc_mutex_unlock
 (
 &
@@ -18263,7 +18263,7 @@ __GNUC__
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 #
 define
@@ -19858,7 +19858,7 @@ jemalloc_purge_freed_pages_impl
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 void
 *
 _recalloc
@@ -20059,7 +20059,7 @@ arenas_lock
 }
 #
 ifndef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 static
 #
 endif
@@ -20128,7 +20128,7 @@ huge_mtx
 }
 #
 ifndef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 static
 #
 endif
@@ -20197,7 +20197,7 @@ arenas_lock
 }
 #
 ifndef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 static
 #
 endif
@@ -20280,7 +20280,7 @@ endif
 if
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 __attribute__
 (
@@ -20336,7 +20336,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 &
 &
@@ -20457,7 +20457,7 @@ endif
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 BOOL
 APIENTRY
 DllMain
