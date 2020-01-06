@@ -792,7 +792,6 @@ domEl
 ;
 ok
 (
-!
 element
 .
 isDOMElement
