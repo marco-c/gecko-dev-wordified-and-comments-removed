@@ -57,12 +57,8 @@ Date
 )
 ]
 )
-assertThrowsInstanceOf
+assertEq
 (
-(
-)
-=
->
 Date
 .
 prototype
@@ -73,7 +69,10 @@ call
 (
 thisValue
 )
-TypeError
+"
+Invalid
+Date
+"
 )
 ;
 for
