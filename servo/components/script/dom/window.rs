@@ -1361,6 +1361,7 @@ StylesheetLoaded
 ImageLoaded
 RequestAnimationFrame
 WebFontLoaded
+WorkletLoaded
 FramedContentChanged
 IFrameLoadEvent
 MissingExplicitReflow
@@ -15449,6 +15450,16 @@ WebFontLoaded
 "
 \
 tWebFontLoaded
+"
+ReflowReason
+:
+:
+WorkletLoaded
+=
+>
+"
+\
+tWorkletLoaded
 "
 ReflowReason
 :

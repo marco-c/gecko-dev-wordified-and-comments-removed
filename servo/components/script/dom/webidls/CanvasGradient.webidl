@@ -74,6 +74,14 @@ multipage
 /
 #
 canvasgradient
+[
+Exposed
+=
+(
+Window
+PaintWorklet
+)
+]
 interface
 CanvasGradient
 {
