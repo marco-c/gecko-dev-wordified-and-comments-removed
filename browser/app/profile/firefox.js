@@ -1003,6 +1003,12 @@ geckoprofiler
 mozilla
 .
 com
+quantum
+-
+foxfooding
+mozilla
+.
+com
 "
 )
 ;
