@@ -531,6 +531,12 @@ cleanup
 self
 options
 )
+        
+self
+.
+localProfile
+=
+None
     
 def
 findPath
@@ -2193,6 +2199,12 @@ dm
 options
 )
     
+options
+.
+dm
+=
+None
+    
 log
 =
 mochitest
@@ -2596,6 +2608,24 @@ recordLogcat
 (
 )
         
+if
+options
+.
+verify
+:
+            
+retVal
+=
+mochitest
+.
+verifyTests
+(
+options
+)
+        
+else
+:
+            
 retVal
 =
 mochitest

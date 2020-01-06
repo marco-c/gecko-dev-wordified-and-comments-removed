@@ -3359,6 +3359,27 @@ recordLogcat
 (
 )
         
+if
+options
+.
+verify
+:
+            
+retVal
+=
+reftest
+.
+verifyTests
+(
+options
+.
+tests
+options
+)
+        
+else
+:
+            
 retVal
 =
 reftest
