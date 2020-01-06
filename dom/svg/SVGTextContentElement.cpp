@@ -700,7 +700,7 @@ SVGTextFrame
 *
 textFrame
 =
-GetSVGTextFrame
+GetSVGTextFrameForNonLayoutDependentQuery
 (
 )
 ;
