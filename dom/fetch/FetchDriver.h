@@ -210,6 +210,14 @@ FlushConsoleReport
 0
 ;
 virtual
+bool
+NeedOnDataAvailable
+(
+)
+=
+0
+;
+virtual
 void
 OnDataAvailable
 (
@@ -408,6 +416,9 @@ mSRIMetadata
 ;
 nsCString
 mWorkerScript
+;
+bool
+mNeedToObserveOnDataAvailable
 ;
 bool
 mIsTrackingFetch
