@@ -27592,6 +27592,14 @@ MOZ_FFVPX
 1
 ;
 ;
+arm
+*
+)
+MOZ_FFVPX
+=
+1
+;
+;
 esac
 dnl
 Use
