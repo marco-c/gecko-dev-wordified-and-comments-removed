@@ -254,10 +254,6 @@ mUseScreenWakeLock
 (
 true
 )
-mIsOrientationLocked
-(
-false
-)
 {
 }
 HTMLVideoElement
