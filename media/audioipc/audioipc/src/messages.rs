@@ -1156,13 +1156,11 @@ ffi
 :
 cubeb_state
 )
-ContextError
+Error
 (
 ffi
 :
 :
 cubeb_error_code
 )
-StreamError
-ClientError
 }
