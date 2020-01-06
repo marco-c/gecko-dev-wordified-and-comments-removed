@@ -20675,8 +20675,9 @@ id
 source
 -
 >
-Stop
+StopTrack
 (
+kAudioTrack
 )
 ;
 }
@@ -20720,8 +20721,9 @@ id
 source
 -
 >
-Stop
+StopTrack
 (
+kVideoTrack
 )
 ;
 }
