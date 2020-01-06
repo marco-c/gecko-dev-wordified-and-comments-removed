@@ -1052,14 +1052,7 @@ Zero
 ;
 }
 return
-std
-:
-:
-min
-(
-mLastEndTime
 played
-)
 ;
 }
 UniquePtr
