@@ -6331,6 +6331,13 @@ AsInner
 InnerObjectsFreed
 (
 )
+|
+|
+mWindow
+.
+IsSuspended
+(
+)
 )
 {
 return
