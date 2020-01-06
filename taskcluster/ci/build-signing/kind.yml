@@ -103,6 +103,12 @@ build
 platforms
 :
 -
+win32
+-
+nightly
+/
+opt
+-
 win64
 -
 nightly
