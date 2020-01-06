@@ -91,10 +91,6 @@ skip
 if
 (
 OSX
-&
-&
-!
-isDebugBuild
 )
 fuzzy
 -
