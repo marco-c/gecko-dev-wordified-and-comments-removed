@@ -46678,14 +46678,7 @@ IsSVGDocument
 )
 &
 &
-static_cast
-<
-nsDocument
-*
->
-(
 aDocument
-)
 -
 >
 IsContentDocument
