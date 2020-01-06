@@ -2653,6 +2653,16 @@ if
 LoadingEnabled
 (
 )
+&
+&
+OwnerDoc
+(
+)
+-
+>
+ShouldLoadImages
+(
+)
 )
 {
 nsContentUtils
