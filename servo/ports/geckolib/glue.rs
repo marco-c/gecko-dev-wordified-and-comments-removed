@@ -1219,6 +1219,7 @@ traversal
 :
 {
 ANIMATION_ONLY
+FOR_CSS_RULE_CHANGES
 FOR_RECONSTRUCT
 UNSTYLED_CHILDREN_ONLY
 }
@@ -2033,6 +2034,19 @@ ForAnimationOnly
 =
 >
 UNSTYLED_CHILDREN_ONLY
+(
+Root
+:
+:
+Normal
+Restyle
+:
+:
+ForCSSRuleChanges
+)
+=
+>
+FOR_CSS_RULE_CHANGES
 (
 Root
 :
