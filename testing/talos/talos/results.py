@@ -153,11 +153,6 @@ URLs
 "
 "
         
-tbpl_output
-=
-{
-}
-        
 try
 :
             
@@ -199,7 +194,6 @@ output
 (
 results
 url
-tbpl_output
 )
         
 except
@@ -300,29 +294,6 @@ nRETURN
             
 raise
 e
-        
-if
-tbpl_output
-:
-            
-print
-(
-"
-TinderboxPrint
-:
-TalosResult
-:
-%
-s
-"
-%
-json
-.
-dumps
-(
-tbpl_output
-)
-)
 class
 TestResults
 (
