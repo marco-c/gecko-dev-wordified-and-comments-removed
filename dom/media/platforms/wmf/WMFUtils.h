@@ -158,6 +158,11 @@ pattern
 pattern
 ;
 }
+nsString
+GetProgramW6432Path
+(
+)
+;
 }
 #
 endif

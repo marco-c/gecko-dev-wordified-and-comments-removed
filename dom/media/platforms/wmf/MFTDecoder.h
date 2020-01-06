@@ -71,6 +71,17 @@ GUID
 aMFTClsID
 )
 ;
+HRESULT
+Create
+(
+HMODULE
+aDecoderDLL
+const
+GUID
+&
+aMFTClsID
+)
+;
 typedef
 HRESULT
 (
