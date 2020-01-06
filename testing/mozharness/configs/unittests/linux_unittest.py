@@ -1022,6 +1022,20 @@ timeout
 =
 180
 "
+                
+"
+-
+-
+work
+-
+path
+=
+%
+(
+abs_work_dir
+)
+s
+"
             
 ]
             
@@ -1280,6 +1294,20 @@ s
 cleanup
 -
 crashes
+"
+                
+"
+-
+-
+work
+-
+path
+=
+%
+(
+abs_work_dir
+)
+s
 "
             
 ]
@@ -2162,20 +2190,6 @@ style
 /
 test
 "
-"
-dom
-/
-smil
-/
-test
-"
-"
-dom
-/
-animation
-/
-test
-"
 ]
         
 "
@@ -2218,13 +2232,6 @@ style
 test
 /
 chrome
-"
-"
-dom
-/
-animation
-/
-test
 "
 ]
     

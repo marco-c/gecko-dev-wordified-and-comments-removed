@@ -9173,13 +9173,22 @@ self
 .
 log
 .
-warning
+error
 (
 "
+TEST
+-
+UNEXPECTED
+-
+ERROR
+|
 runtests
 .
 py
 |
+"
+                           
+"
 Cannot
 find
 failure
@@ -9187,7 +9196,6 @@ pattern
 file
 "
 +
-                             
 pat_file
 )
             
