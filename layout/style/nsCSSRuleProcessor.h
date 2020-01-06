@@ -244,6 +244,12 @@ ClearRuleCascades
 )
 ;
 static
+bool
+VisitedLinksEnabled
+(
+)
+;
+static
 void
 Startup
 (
@@ -304,6 +310,7 @@ mozilla
 EventStates
 GetContentState
 (
+const
 mozilla
 :
 :
@@ -324,6 +331,7 @@ mozilla
 EventStates
 GetContentState
 (
+const
 mozilla
 :
 :
@@ -346,6 +354,7 @@ mozilla
 EventStates
 GetContentState
 (
+const
 mozilla
 :
 :
@@ -364,6 +373,7 @@ mozilla
 EventStates
 GetContentStateForVisitedHandling
 (
+const
 mozilla
 :
 :

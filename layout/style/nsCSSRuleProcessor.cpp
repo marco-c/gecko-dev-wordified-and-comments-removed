@@ -5039,6 +5039,18 @@ true
 )
 ;
 }
+bool
+nsCSSRuleProcessor
+:
+:
+VisitedLinksEnabled
+(
+)
+{
+return
+gSupportVisitedPseudo
+;
+}
 void
 nsCSSRuleProcessor
 :
@@ -5979,6 +5991,7 @@ nsCSSRuleProcessor
 :
 GetContentState
 (
+const
 Element
 *
 aElement
@@ -6050,6 +6063,7 @@ nsCSSRuleProcessor
 :
 GetContentState
 (
+const
 Element
 *
 aElement
@@ -6078,6 +6092,7 @@ nsCSSRuleProcessor
 :
 GetContentState
 (
+const
 Element
 *
 aElement
@@ -6162,6 +6177,7 @@ nsCSSRuleProcessor
 :
 GetContentStateForVisitedHandling
 (
+const
 Element
 *
 aElement
