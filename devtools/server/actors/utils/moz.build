@@ -140,8 +140,6 @@ js
 '
 shapes
 -
-geometry
--
 utils
 .
 js
