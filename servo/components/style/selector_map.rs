@@ -658,6 +658,12 @@ context
 &
 mut
 MatchingContext
+<
+E
+:
+:
+Impl
+>
 quirks_mode
 :
 QuirksMode
@@ -896,6 +902,12 @@ context
 &
 mut
 MatchingContext
+<
+E
+:
+:
+Impl
+>
 flags_setter
 :
 &
