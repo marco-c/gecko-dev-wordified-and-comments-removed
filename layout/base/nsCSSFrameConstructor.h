@@ -4787,6 +4787,8 @@ RecoverLetterFrames
 nsContainerFrame
 *
 aBlockFrame
+bool
+aMayHaveFirstLine
 )
 ;
 void
