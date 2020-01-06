@@ -6578,10 +6578,6 @@ aPtr
 )
 )
 ;
-nsIAtom
-*
-name
-=
 (
 *
 aPtr
@@ -6590,14 +6586,8 @@ aPtr
 >
 GetStyleName
 (
-)
-;
 *
 aResult
-=
-nsDependentAtomString
-(
-name
 )
 ;
 }
