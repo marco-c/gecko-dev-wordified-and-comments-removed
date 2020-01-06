@@ -34,6 +34,11 @@ Cu
 :
 true
 "
+StructuredCloneHolder
+"
+:
+false
+"
 TextDecoder
 "
 :

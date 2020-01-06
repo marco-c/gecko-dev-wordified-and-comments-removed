@@ -2153,7 +2153,11 @@ app
 .
 send
 (
+new
+StructuredCloneHolder
+(
 buffer
+)
 )
 ;
 await
