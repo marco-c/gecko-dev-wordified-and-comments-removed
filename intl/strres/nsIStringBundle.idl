@@ -289,7 +289,7 @@ is
 kind
 of
 like
-smprintf
+ssprintf
 -
 except
 that
@@ -347,7 +347,7 @@ uses
 nsTextFormatter
 :
 :
-smprintf
+ssprintf
 to
 do
 the
