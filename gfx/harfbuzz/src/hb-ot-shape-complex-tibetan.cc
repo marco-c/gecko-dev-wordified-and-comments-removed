@@ -129,9 +129,6 @@ hb_ot_complex_shaper_t
 _hb_ot_complex_shaper_tibetan
 =
 {
-"
-default
-"
 collect_features_tibetan
 nullptr
 nullptr

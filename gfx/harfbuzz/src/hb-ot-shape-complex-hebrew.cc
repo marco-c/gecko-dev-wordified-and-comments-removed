@@ -488,9 +488,6 @@ hb_ot_complex_shaper_t
 _hb_ot_complex_shaper_hebrew
 =
 {
-"
-hebrew
-"
 nullptr
 nullptr
 nullptr

@@ -151,12 +151,6 @@ here
 struct
 hb_ot_complex_shaper_t
 {
-char
-name
-[
-8
-]
-;
 void
 (
 *

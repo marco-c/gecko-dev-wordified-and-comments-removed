@@ -2972,9 +2972,6 @@ hb_ot_complex_shaper_t
 _hb_ot_complex_shaper_use
 =
 {
-"
-use
-"
 collect_features_use
 nullptr
 data_create_use

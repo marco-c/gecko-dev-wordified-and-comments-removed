@@ -2109,6 +2109,10 @@ i
 cluster
 =
 MIN
+<
+unsigned
+int
+>
 (
 cluster
 info
@@ -2319,6 +2323,10 @@ i
 cluster
 =
 MIN
+<
+unsigned
+int
+>
 (
 cluster
 out_info
