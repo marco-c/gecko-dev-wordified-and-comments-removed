@@ -15,12 +15,6 @@ using
 namespace
 HangMonitor
 ;
-const
-size_t
-kMaxHangStacksKept
-=
-50
-;
 nsresult
 ComputeAnnotationsKey
 (
@@ -102,6 +96,12 @@ defined
 (
 MOZ_GECKO_PROFILER
 )
+const
+size_t
+kMaxHangStacksKept
+=
+50
+;
 void
 HangReports
 :

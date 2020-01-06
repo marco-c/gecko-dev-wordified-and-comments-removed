@@ -5,9 +5,6 @@ KeyedStackCapturer_h__
 define
 KeyedStackCapturer_h__
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 Telemetry
@@ -158,7 +155,5 @@ mStackCapturerMutex
 ;
 }
 }
-#
-endif
 #
 endif
