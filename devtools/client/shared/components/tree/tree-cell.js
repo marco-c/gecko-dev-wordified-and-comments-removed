@@ -273,6 +273,10 @@ evt
 target
 .
 nodeName
+.
+toLowerCase
+(
+)
 !
 =
 =
