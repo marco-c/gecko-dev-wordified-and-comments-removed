@@ -9,6 +9,8 @@ import
 os
 import
 sys
+import
+time
 from
 mozlog
 .
@@ -34,6 +36,9 @@ Exception
 :
     
 pass
+FAR_IN_FUTURE
+=
+7258114800
 DEFAULTS
 =
 dict
@@ -519,6 +524,31 @@ type
 '
 :
 1
+        
+'
+idle
+.
+lastDailyNotification
+'
+:
+int
+(
+time
+.
+time
+(
+)
+)
+        
+'
+places
+.
+database
+.
+lastMaintenance
+'
+:
+FAR_IN_FUTURE
         
 '
 security
