@@ -93,6 +93,14 @@ util_pkcs11uri_unittest
 .
 cc
 \
+util_aligned_malloc_unittest
+.
+cc
+\
+util_memcmpzero_unittest
+.
+cc
+\
 (
 NULL
 )

@@ -974,9 +974,6 @@ SSLCompressionMethod
 compression
 )
 {
-SSL3ProtocolVersion
-version
-;
 if
 (
 compression
@@ -989,6 +986,12 @@ return
 PR_TRUE
 ;
 }
+#
+if
+0
+SSL3ProtocolVersion
+version
+;
 if
 (
 ss
@@ -1073,6 +1076,8 @@ opt
 enableDeflate
 ;
 }
+#
+endif
 #
 endif
 return
