@@ -3077,6 +3077,9 @@ GetFormat
 isOpaque
 )
 ;
+if
+(
+!
 aResources
 .
 AddBlobImage
@@ -3085,7 +3088,12 @@ key
 descriptor
 bytes
 )
+)
+{
+return
+nullptr
 ;
+}
 fallbackData
 -
 >

@@ -157,7 +157,7 @@ Clear
 ;
 protected
 :
-void
+bool
 AllocChunk
 (
 )
@@ -319,7 +319,7 @@ aChunkSize
 57344
 )
 ;
-void
+bool
 AddImage
 (
 wr
@@ -338,7 +338,7 @@ uint8_t
 aBytes
 )
 ;
-void
+bool
 AddBlobImage
 (
 wr
@@ -372,7 +372,7 @@ ImageKey
 aKey
 )
 ;
-void
+bool
 UpdateImageBuffer
 (
 wr
@@ -391,7 +391,7 @@ uint8_t
 aBytes
 )
 ;
-void
+bool
 UpdateBlobImage
 (
 wr
@@ -442,7 +442,7 @@ ImageKey
 aKey
 )
 ;
-void
+bool
 AddRawFont
 (
 wr
