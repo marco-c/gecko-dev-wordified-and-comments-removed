@@ -140,6 +140,13 @@ PrincipalChangeObserver
 h
 "
 #
+include
+"
+nsStubMutationObserver
+.
+h
+"
+#
 ifdef
 CurrentTime
 #
@@ -296,6 +303,8 @@ SupportsWeakPtr
 <
 HTMLMediaElement
 >
+public
+nsStubMutationObserver
 {
 public
 :
@@ -355,6 +364,8 @@ MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 HTMLMediaElement
 )
+NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
+NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 CORSMode
 GetCORSMode
 (
@@ -3207,10 +3218,7 @@ mChannelLoader
 uint32_t
 mCurrentLoadID
 ;
-RefPtr
-<
-nsRange
->
+uint32_t
 mSourcePointer
 ;
 nsCOMPtr
