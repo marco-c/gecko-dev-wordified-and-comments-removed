@@ -92,6 +92,11 @@ description
 bool
 alwaysAskBeforeHandling
 ;
+nsCString
+[
+]
+extensions
+;
 HandlerApp
 preferredApplicationHandler
 ;
