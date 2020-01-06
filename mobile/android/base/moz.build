@@ -3697,13 +3697,6 @@ java
 '
 gfx
 /
-ImmutableViewportMetrics
-.
-java
-'
-'
-gfx
-/
 IntSize
 .
 java
