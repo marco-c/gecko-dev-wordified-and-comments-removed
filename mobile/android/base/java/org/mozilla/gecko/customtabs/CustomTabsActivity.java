@@ -2474,6 +2474,13 @@ int
 progress
 )
 {
+mProgressView
+.
+setProgress
+(
+progress
+)
+;
 if
 (
 mCanStop
@@ -2486,13 +2493,6 @@ setVisibility
 View
 .
 VISIBLE
-)
-;
-mProgressView
-.
-setProgress
-(
-progress
 )
 ;
 }
