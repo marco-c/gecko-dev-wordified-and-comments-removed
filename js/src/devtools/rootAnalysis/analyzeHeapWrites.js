@@ -1195,9 +1195,16 @@ Gecko_AddPropertyToSet
 "
 aPropertySet
 "
+null
+]
+[
+"
+Gecko_CalcStyleDifference
+"
+"
+aAnyStyleChanged
 "
 null
-"
 ]
 ]
 ;
