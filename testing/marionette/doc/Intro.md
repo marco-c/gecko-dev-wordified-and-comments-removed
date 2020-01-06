@@ -470,16 +470,6 @@ client
 .
 *
 [
-Using
-Marionette
-via
-WebDriver
-]
-[
-1
-]
-*
-[
 Download
 and
 setup
