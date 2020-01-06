@@ -151,7 +151,7 @@ drawable
 "
 drawable
 /
-lock_secure
+ic_lock
 "
 android
 :
@@ -171,7 +171,7 @@ drawable
 "
 drawable
 /
-warning_minor
+ic_warning_minor
 "
 android
 :
@@ -191,7 +191,7 @@ drawable
 "
 drawable
 /
-lock_disabled
+ic_lock_disabled
 "
 android
 :
@@ -211,7 +211,7 @@ drawable
 "
 drawable
 /
-shield_enabled
+ic_shield_enabled
 "
 android
 :
@@ -231,7 +231,7 @@ drawable
 "
 drawable
 /
-shield_disabled
+ic_shield_disabled
 "
 android
 :
@@ -251,7 +251,7 @@ drawable
 "
 drawable
 /
-search_icon_inactive
+ic_search_icon
 "
 android
 :

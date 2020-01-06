@@ -317,7 +317,7 @@ R
 .
 drawable
 .
-search_icon_inactive
+ic_search_icon
 )
 ;
 }

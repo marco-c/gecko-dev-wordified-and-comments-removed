@@ -145,7 +145,7 @@ drawableLeft
 "
 drawable
 /
-search_icon_inactive
+ic_search_icon
 "
 android
 :
@@ -154,7 +154,7 @@ drawableStart
 "
 drawable
 /
-search_icon_inactive
+ic_search_icon
 "
 android
 :

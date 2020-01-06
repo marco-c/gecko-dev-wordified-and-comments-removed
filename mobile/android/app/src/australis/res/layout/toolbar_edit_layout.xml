@@ -279,7 +279,7 @@ src
 "
 drawable
 /
-search_icon_inactive
+ic_search_icon
 "
 android
 :
@@ -444,7 +444,7 @@ src
 "
 drawable
 /
-ab_qrcode
+ic_qrcode
 "
 android
 :
@@ -504,7 +504,7 @@ src
 "
 drawable
 /
-ab_mic
+ic_mic
 "
 android
 :
