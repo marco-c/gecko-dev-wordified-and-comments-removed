@@ -171,6 +171,11 @@ nsSVGIntegrationUtils
 h
 '
 '
+nsSVGUseFrame
+.
+h
+'
+'
 nsSVGUtils
 .
 h
