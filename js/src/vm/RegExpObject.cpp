@@ -1017,6 +1017,7 @@ dummyOptions
 emplace
 (
 cx
+JSVERSION_DEFAULT
 )
 ;
 options
@@ -5240,6 +5241,7 @@ CompileOptions
 options
 (
 cx
+JSVERSION_DEFAULT
 )
 ;
 frontend

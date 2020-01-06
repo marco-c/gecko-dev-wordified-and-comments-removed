@@ -810,6 +810,7 @@ CompileOptions
 options
 (
 cx
+JSVERSION_DEFAULT
 )
 ;
 frontend
