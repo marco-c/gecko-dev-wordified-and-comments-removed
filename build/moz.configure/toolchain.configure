@@ -4577,7 +4577,7 @@ x64
 ]
 }
 )
-option
+js_option
 (
 '
 -
@@ -8090,9 +8090,6 @@ BINDGEN_CFLAGS
 nargs
 =
 1
-default
-=
-bindgen_cflags_defaults
 help
 =
 '
