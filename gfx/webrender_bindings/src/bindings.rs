@@ -4389,6 +4389,9 @@ new
 )
 )
 )
+cache_expiry_frames
+:
+60
 .
 .
 Default
