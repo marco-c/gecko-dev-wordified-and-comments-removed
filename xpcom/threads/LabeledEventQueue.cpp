@@ -657,7 +657,8 @@ IsLabeled
 )
 {
 QueueEntry
-entry
+&
+first
 =
 mUnlabeled
 .
@@ -670,7 +671,7 @@ if
 !
 IsReadyToRun
 (
-entry
+first
 .
 mRunnable
 nullptr
@@ -685,6 +686,9 @@ PopEpoch
 (
 )
 ;
+QueueEntry
+entry
+=
 mUnlabeled
 .
 Pop
@@ -913,7 +917,8 @@ IsEmpty
 )
 ;
 QueueEntry
-entry
+&
+first
 =
 queue
 -
@@ -924,7 +929,7 @@ FirstElement
 ;
 if
 (
-entry
+first
 .
 mEpochNumber
 =
@@ -936,7 +941,7 @@ mEpochNumber
 &
 IsReadyToRun
 (
-entry
+first
 .
 mRunnable
 group
@@ -1019,6 +1024,9 @@ sSchedulerGroups
 )
 ;
 }
+QueueEntry
+entry
+=
 queue
 -
 >
