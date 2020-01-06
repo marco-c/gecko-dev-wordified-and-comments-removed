@@ -793,6 +793,12 @@ aString
 )
 const
 ;
+bool
+OverscrollBehaviorAllowsSwipe
+(
+)
+const
+;
 protected
 :
 virtual

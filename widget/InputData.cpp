@@ -2166,6 +2166,10 @@ mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
 (
 false
 )
+mOverscrollBehaviorAllowsSwipe
+(
+false
+)
 {
 }
 PanGestureInput
@@ -2239,6 +2243,10 @@ mFollowedByMomentum
 false
 )
 mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
+(
+false
+)
+mOverscrollBehaviorAllowsSwipe
 (
 false
 )
