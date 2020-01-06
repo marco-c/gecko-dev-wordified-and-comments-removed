@@ -1470,16 +1470,6 @@ mochitest
 chrome
 -
 xpcshell
-windows8
--
-tests
-:
--
-reftest
--
-no
--
-accel
 devtools
 -
 tests
