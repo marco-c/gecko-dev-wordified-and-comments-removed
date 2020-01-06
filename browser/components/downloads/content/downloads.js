@@ -680,6 +680,12 @@ _focusPanel
 return
 ;
 }
+DownloadsButton
+.
+unhide
+(
+)
+;
 this
 .
 initialize

@@ -90,7 +90,7 @@ loadSavedState
 ;
 CustomizableUIInternal
 .
-_introduceNewBuiltinWidgets
+_updateForNewVersion
 (
 )
 ;
@@ -268,7 +268,7 @@ AREA_NAVBAR
 ;
 CustomizableUIInternal
 .
-_introduceNewBuiltinWidgets
+_updateForNewVersion
 (
 )
 ;

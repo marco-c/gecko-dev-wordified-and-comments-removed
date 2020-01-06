@@ -7700,6 +7700,12 @@ init
 (
 )
 ;
+DownloadsButton
+.
+init
+(
+)
+;
 Services
 .
 obs
@@ -10229,6 +10235,12 @@ uninit
 )
 ;
 SidebarUI
+.
+uninit
+(
+)
+;
+DownloadsButton
 .
 uninit
 (
