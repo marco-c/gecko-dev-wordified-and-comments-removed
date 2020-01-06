@@ -180,11 +180,12 @@ h
 >
 #
 endif
-extern
 const
 GMPPlatformAPI
 *
 sPlatform
+=
+nullptr
 ;
 namespace
 mozilla

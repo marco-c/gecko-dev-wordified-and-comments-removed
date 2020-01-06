@@ -247,17 +247,6 @@ h
 #
 include
 "
-widevine
--
-adapter
-/
-WidevineAdapter
-.
-h
-"
-#
-include
-"
 ChromiumCDMAdapter
 .
 h
