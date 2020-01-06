@@ -263,6 +263,13 @@ h
 "
 #
 include
+"
+nsStyleContextInlines
+.
+h
+"
+#
+include
 <
 inttypes
 .
@@ -4455,6 +4462,11 @@ aParentContext
 result
 =
 aParentContext
+-
+>
+AsGecko
+(
+)
 -
 >
 FindChildWithRules

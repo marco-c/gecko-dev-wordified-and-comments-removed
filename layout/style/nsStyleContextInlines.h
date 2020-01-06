@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_nsStyleContextInlines_h
+nsStyleContextInlines_h
 #
 define
-mozilla_nsStyleContextInlines_h
+nsStyleContextInlines_h
 #
 include
 "

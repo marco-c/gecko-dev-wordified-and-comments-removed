@@ -456,6 +456,11 @@ nsStyleContext
 h
 '
 '
+nsStyleContextInlines
+.
+h
+'
+'
 nsStyleCoord
 .
 h
