@@ -291,6 +291,17 @@ browser
 .
 safebrowsing
 .
+passwords
+.
+enabled
+"
+:
+false
+"
+browser
+.
+safebrowsing
+.
 provider
 .
 google
