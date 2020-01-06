@@ -793,6 +793,11 @@ zoneFromAnyThread
 isSelfHostingZone
 (
 )
+|
+|
+CurrentThreadIsPerformingGC
+(
+)
 )
 ;
 return
