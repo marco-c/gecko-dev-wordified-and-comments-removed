@@ -3870,7 +3870,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 Created
 {
@@ -4003,7 +4003,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 Updated
 {
