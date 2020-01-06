@@ -13220,7 +13220,7 @@ MOZ_ALWAYS_SUCCEEDS
 mShutdownTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 &
 ShutdownTimerCallback
@@ -13230,6 +13230,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+QuotaManager
+:
+:
+ShutdownTimerCallback
+"
 )
 )
 ;

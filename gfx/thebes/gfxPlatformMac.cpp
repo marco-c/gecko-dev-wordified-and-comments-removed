@@ -1981,7 +1981,7 @@ delay
 mTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 RetryEnableVsync
 this
@@ -1990,6 +1990,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+RetryEnableVsync
+"
 )
 ;
 return

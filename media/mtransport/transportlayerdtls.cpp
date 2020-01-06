@@ -3494,7 +3494,7 @@ target_
 timer_
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 TimerCallback
 this
@@ -3503,6 +3503,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+TransportLayerDtls
+:
+:
+TimerCallback
+"
 )
 ;
 break
@@ -3792,7 +3798,7 @@ target_
 timer_
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 TimerCallback
 this
@@ -3801,6 +3807,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+TransportLayerDtls
+:
+:
+TimerCallback
+"
 )
 ;
 }

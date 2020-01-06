@@ -811,7 +811,7 @@ sUpdateTimer
 sUpdateTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 UpdateHandler
 nullptr
@@ -820,6 +820,12 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+hal_impl
+:
+:
+UpdateHandler
+"
 )
 ;
 }

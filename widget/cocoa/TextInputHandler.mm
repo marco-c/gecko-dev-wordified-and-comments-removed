@@ -19564,7 +19564,7 @@ mTimer
 mTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 FlushPendingMethods
 this
@@ -19573,6 +19573,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+IMEInputHandler
+:
+:
+FlushPendingMethods
+"
 )
 ;
 }

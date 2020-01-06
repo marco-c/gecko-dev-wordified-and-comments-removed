@@ -352,7 +352,7 @@ true
 mTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 TimerCallback
 this
@@ -361,6 +361,15 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+ChannelMediaDecoder
+:
+:
+ResourceCallback
+:
+:
+TimerCallback
+"
 )
 ;
 }

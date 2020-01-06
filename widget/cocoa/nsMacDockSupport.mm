@@ -516,7 +516,7 @@ bug
 mProgressTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 RedrawIconCallback
 this
@@ -527,6 +527,12 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+nsMacDockSupport
+:
+:
+RedrawIconCallback
+"
 )
 ;
 return

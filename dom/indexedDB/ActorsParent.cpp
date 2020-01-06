@@ -47176,7 +47176,7 @@ MOZ_ALWAYS_SUCCEEDS
 mIdleTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 IdleTimerCallback
 this
@@ -47185,6 +47185,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+ConnectionPool
+:
+:
+IdleTimerCallback
+"
 )
 )
 ;

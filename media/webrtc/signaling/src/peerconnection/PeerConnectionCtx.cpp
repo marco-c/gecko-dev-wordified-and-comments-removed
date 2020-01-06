@@ -1979,7 +1979,7 @@ rv
 mTelemetryTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 EverySecondTelemetryCallback_m
 this
@@ -1988,6 +1988,9 @@ nsITimer
 :
 :
 TYPE_REPEATING_PRECISE_CAN_SKIP
+"
+EverySecondTelemetryCallback_m
+"
 )
 ;
 if
