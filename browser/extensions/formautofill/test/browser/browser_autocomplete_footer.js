@@ -609,7 +609,7 @@ expectWarningText
 browser
 "
 Also
-fill
+autofills
 company
 phone
 email
@@ -635,7 +635,7 @@ expectWarningText
 browser
 "
 Also
-fill
+autofills
 company
 phone
 email
@@ -660,7 +660,7 @@ expectWarningText
 (
 browser
 "
-Fill
+Autofills
 address
 "
 )
@@ -697,7 +697,7 @@ expectWarningText
 browser
 "
 Also
-fill
+autofills
 company
 phone
 email
