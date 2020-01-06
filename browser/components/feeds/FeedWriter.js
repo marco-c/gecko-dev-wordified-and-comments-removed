@@ -5308,9 +5308,6 @@ Ci
 nsIObserver
 Ci
 .
-nsINavHistoryObserver
-Ci
-.
 nsIDOMGlobalPropertyInitializer
 ]
 )
