@@ -1014,17 +1014,6 @@ nullptr
 )
 PROFILER_FUNC_VOID
 (
-profiler_get_backtrace_noalloc
-(
-char
-*
-aOutput
-size_t
-aOutputSize
-)
-)
-PROFILER_FUNC_VOID
-(
 profiler_get_buffer_info_helper
 (
 uint32_t
