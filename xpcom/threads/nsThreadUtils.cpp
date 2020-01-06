@@ -40,13 +40,6 @@ LeakRefPtr
 h
 "
 #
-include
-"
-nsComponentManagerUtils
-.
-h
-"
-#
 ifdef
 MOZILLA_INTERNAL_API
 #
