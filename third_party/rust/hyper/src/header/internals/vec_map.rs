@@ -565,7 +565,6 @@ mut
 V
 {
 let
-mut
 vec
 =
 self

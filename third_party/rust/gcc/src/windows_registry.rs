@@ -323,6 +323,17 @@ target
 )
 ;
 }
+#
+[
+derive
+(
+Debug
+PartialEq
+Eq
+Copy
+Clone
+)
+]
 pub
 enum
 VsVers

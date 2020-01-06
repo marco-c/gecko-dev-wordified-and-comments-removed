@@ -13,7 +13,7 @@ version
 .
 1
 .
-4
+6
 "
 authors
 =
@@ -73,6 +73,20 @@ a
 pattern
 .
 "
+documentation
+=
+"
+https
+:
+/
+/
+docs
+.
+rs
+/
+matches
+/
+"
 [
 lib
 ]
@@ -88,6 +102,3 @@ lib
 .
 rs
 "
-doctest
-=
-false

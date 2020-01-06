@@ -25,6 +25,18 @@ BidiClass
 :
 *
 ;
+#
+[
+cfg_attr
+(
+feature
+=
+"
+flame_it
+"
+flame
+)
+]
 pub
 fn
 compute
@@ -58,7 +70,7 @@ BidiClass
 ]
 )
 {
-assert
+assert_eq
 !
 (
 text
@@ -66,8 +78,6 @@ text
 len
 (
 )
-=
-=
 original_classes
 .
 len
@@ -408,6 +418,8 @@ pop
 (
 )
 {
+None
+|
 Some
 (
 Status
@@ -422,10 +434,6 @@ Isolate
 .
 }
 )
-=
->
-break
-None
 =
 >
 break
@@ -766,10 +774,6 @@ push
 Status
 {
 level
-:
-level
-status
-:
 status
 }
 )

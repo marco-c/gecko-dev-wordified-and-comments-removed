@@ -532,7 +532,6 @@ V
 >
 {
 let
-mut
 map
 =
 unsafe
@@ -642,7 +641,6 @@ V
 )
 {
 let
-mut
 map
 =
 &

@@ -830,7 +830,7 @@ test
 &
 &
 cargo
-run
+test
 -
 Use
 the

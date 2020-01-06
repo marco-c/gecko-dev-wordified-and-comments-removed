@@ -400,7 +400,7 @@ self
 gcc
 :
 :
-Config
+Build
 {
 let
 mut
@@ -409,7 +409,7 @@ cfg
 gcc
 :
 :
-Config
+Build
 :
 :
 new

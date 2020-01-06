@@ -122,6 +122,10 @@ Option
 Duration
 >
 >
+pub
+id
+:
+u64
 }
 impl
 PartialEq
@@ -314,6 +318,9 @@ new
 (
 None
 )
+id
+:
+0
 }
 }
 }

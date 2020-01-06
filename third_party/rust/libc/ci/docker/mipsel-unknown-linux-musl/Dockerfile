@@ -1,7 +1,7 @@
 FROM
 ubuntu
 :
-16
+17
 .
 10
 RUN
@@ -9,7 +9,8 @@ apt
 -
 get
 update
-RUN
+&
+&
 apt
 -
 get
@@ -199,3 +200,15 @@ openwrt
 linux
 -
 gcc
+\
+CARGO_TARGET_MIPSEL_UNKNOWN_LINUX_MUSL_RUNNER
+=
+"
+qemu
+-
+mipsel
+-
+L
+/
+toolchain
+"

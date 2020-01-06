@@ -1,4 +1,7 @@
 use
+super
+:
+:
 error
 :
 :

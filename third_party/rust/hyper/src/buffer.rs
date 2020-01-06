@@ -47,6 +47,7 @@ usize
 =
 4096
 ;
+pub
 const
 MAX_BUFFER_SIZE
 :

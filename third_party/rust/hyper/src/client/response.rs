@@ -526,7 +526,7 @@ close_connection
 (
 )
 {
-error
+info
 !
 (
 "

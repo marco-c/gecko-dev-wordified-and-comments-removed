@@ -39,7 +39,7 @@ cfg_attr
 feature
 =
 "
-with_serde
+serde
 "
 derive
 (
@@ -581,11 +581,13 @@ Level
 :
 new_explicit
 (
+(
 self
 .
 0
 +
 2
+)
 &
 !
 1
@@ -2102,7 +2104,7 @@ all
 feature
 =
 "
-with_serde
+serde
 "
 test
 )

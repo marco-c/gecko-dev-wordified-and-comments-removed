@@ -110,6 +110,10 @@ rm
 \
 -
 -
+init
+\
+-
+-
 volume
 HOME
 /
@@ -180,10 +184,6 @@ target
 workdir
 /
 checkout
-\
--
--
-privileged
 \
 libc
 \
