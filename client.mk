@@ -1058,16 +1058,6 @@ line
 )
 endif
 #
-helper
-target
-for
-mobile
-build_and_deploy
-:
-build
-package
-install
-#
 In
 automation
 manage
