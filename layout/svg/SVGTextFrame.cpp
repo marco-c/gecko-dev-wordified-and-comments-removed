@@ -11422,8 +11422,8 @@ cssPxPerDevPx
 cssPxPerDevPx
 )
 ;
-gfxContextAutoSaveRestore
-save
+gfxContextMatrixAutoSaveRestore
+matSR
 (
 &
 aContext
@@ -11484,6 +11484,9 @@ GetPaintGeometry
 &
 caretRect
 )
+;
+gfxContextAutoSaveRestore
+ctxSR
 ;
 TextRenderedRunIterator
 it
@@ -11585,6 +11588,14 @@ DrawMode
 GLYPH_STROKE
 )
 {
+ctxSR
+.
+EnsureSaved
+(
+&
+aContext
+)
+;
 nsSVGUtils
 :
 :
