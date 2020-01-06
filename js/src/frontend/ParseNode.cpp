@@ -2293,7 +2293,7 @@ left
 ParseNode
 *
 right
-FullParseHandlerBase
+FullParseHandler
 *
 handler
 ParseContext

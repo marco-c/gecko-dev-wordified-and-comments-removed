@@ -25,11 +25,6 @@ ParseNode
 ;
 template
 <
-template
-<
-typename
-CharT
->
 class
 ParseHandler
 typename
@@ -38,11 +33,6 @@ CharT
 class
 Parser
 ;
-template
-<
-typename
-CharT
->
 class
 FullParseHandler
 ;
