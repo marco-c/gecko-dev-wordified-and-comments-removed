@@ -4532,7 +4532,7 @@ function
 (
 chain
 seenEls
-container
+window
 )
 {
 let
@@ -4566,7 +4566,7 @@ computeTickDuration
 tickActions
 )
 seenEls
-container
+window
 )
 ;
 }
@@ -4589,7 +4589,7 @@ function
 tickActions
 tickDuration
 seenEls
-container
+window
 )
 {
 let
@@ -4603,7 +4603,7 @@ toEvents
 (
 tickDuration
 seenEls
-container
+window
 )
 )
 ;
@@ -4625,9 +4625,7 @@ interaction
 .
 flushEventLoop
 (
-container
-.
-frame
+window
 )
 )
 ;
@@ -4843,7 +4841,7 @@ toEvents
 (
 tickDuration
 seenEls
-container
+window
 )
 {
 return
@@ -4882,9 +4880,7 @@ dispatchKeyUp
 (
 a
 inputState
-container
-.
-frame
+window
 )
 ;
 case
@@ -4897,9 +4893,7 @@ dispatchKeyDown
 (
 a
 inputState
-container
-.
-frame
+window
 )
 ;
 case
@@ -4912,9 +4906,7 @@ dispatchPointerDown
 (
 a
 inputState
-container
-.
-frame
+window
 )
 ;
 case
@@ -4927,9 +4919,7 @@ dispatchPointerUp
 (
 a
 inputState
-container
-.
-frame
+window
 )
 ;
 case
@@ -4944,7 +4934,7 @@ a
 inputState
 tickDuration
 seenEls
-container
+window
 )
 ;
 case
@@ -5591,7 +5581,7 @@ a
 inputState
 tickDuration
 seenEls
-container
+window
 )
 {
 const
@@ -5669,7 +5659,7 @@ a
 .
 origin
 seenEls
-container
+window
 )
 )
 ;
@@ -5695,9 +5685,7 @@ inViewPort
 (
 targetX
 targetY
-container
-.
-frame
+window
 )
 )
 {
@@ -5723,9 +5711,7 @@ viewport
 width
 (
 {
-container
-.
-frame
+window
 .
 innerWidth
 }
@@ -5735,9 +5721,7 @@ and
 height
 (
 {
-container
-.
-frame
+window
 .
 innerHeight
 }
@@ -5778,9 +5762,7 @@ performOnePointerMove
 inputState
 targetX
 targetY
-container
-.
-frame
+window
 )
 ;
 resolve
@@ -5911,9 +5893,7 @@ performOnePointerMove
 inputState
 x
 y
-container
-.
-frame
+window
 )
 ;
 await
@@ -5970,9 +5950,7 @@ performOnePointerMove
 inputState
 targetX
 targetY
-container
-.
-frame
+window
 )
 ;
 resolve
@@ -6294,7 +6272,7 @@ getElementCenter
 (
 elementReference
 seenEls
-container
+window
 )
 {
 if
@@ -6333,7 +6311,11 @@ seenEls
 get
 (
 uuid
-container
+{
+frame
+:
+window
+}
 )
 ;
 return

@@ -4395,6 +4395,8 @@ dispatch
 chain
 seenEls
 curContainer
+.
+frame
 )
 ;
 }
@@ -4419,6 +4421,8 @@ reverse
 0
 seenEls
 curContainer
+.
+frame
 )
 ;
 action
