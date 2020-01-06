@@ -3437,7 +3437,7 @@ getInstance
 (
 )
 .
-closeAll
+closeAllTabs
 (
 )
 ;

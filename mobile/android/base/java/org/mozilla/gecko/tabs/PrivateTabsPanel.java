@@ -417,13 +417,13 @@ shouldExpand
 Override
 public
 void
-closeAll
+onCloseAll
 (
 )
 {
 tabsLayout
 .
-closeAll
+onCloseAll
 (
 )
 ;

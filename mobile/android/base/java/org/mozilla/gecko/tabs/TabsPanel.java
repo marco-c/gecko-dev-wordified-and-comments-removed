@@ -452,7 +452,7 @@ extends
 PanelView
 {
 void
-closeAll
+onCloseAll
 (
 )
 ;
@@ -1413,7 +1413,7 @@ CloseAllPanelView
 mPanelNormal
 )
 .
-closeAll
+onCloseAll
 (
 )
 ;
@@ -1495,7 +1495,7 @@ CloseAllPanelView
 mPanelPrivate
 )
 .
-closeAll
+onCloseAll
 (
 )
 ;
