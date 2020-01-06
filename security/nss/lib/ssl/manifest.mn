@@ -115,6 +115,10 @@ dtlscon
 .
 c
 \
+dtls13con
+.
+c
+\
 prelib
 .
 c
@@ -131,6 +135,10 @@ sslauth
 .
 c
 \
+sslbloom
+.
+c
+\
 sslcon
 .
 c
@@ -139,7 +147,7 @@ ssldef
 .
 c
 \
-ssl3encode
+sslencode
 .
 c
 \
@@ -191,6 +199,10 @@ sslsock
 .
 c
 \
+sslspec
+.
+c
+\
 ssltrace
 .
 c
@@ -227,7 +239,15 @@ tls13exthandle
 .
 c
 \
+tls13hashstate
+.
+c
+\
 tls13hkdf
+.
+c
+\
+tls13replay
 .
 c
 \

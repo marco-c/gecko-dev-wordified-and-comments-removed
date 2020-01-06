@@ -109,6 +109,11 @@ sources
 :
 [
 '
+bloomfilter_unittest
+.
+cc
+'
+'
 libssl_internals
 .
 c
@@ -129,11 +134,6 @@ ssl_agent_unittest
 cc
 '
 '
-ssl_alths_unittest
-.
-cc
-'
-'
 ssl_auth_unittest
 .
 cc
@@ -145,6 +145,11 @@ cc
 '
 '
 ssl_ciphersuite_unittest
+.
+cc
+'
+'
+ssl_custext_unittest
 .
 cc
 '
@@ -245,6 +250,11 @@ cc
 '
 '
 ssl_staticrsa_unittest
+.
+cc
+'
+'
+ssl_tls13compat_unittest
 .
 cc
 '

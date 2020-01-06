@@ -72,7 +72,15 @@ const
 int
 NSS_PBE_DEFAULT_ITERATION_COUNT
 =
-100000
+#
+ifdef
+DEBUG
+10000
+#
+else
+1000000
+#
+endif
 ;
 static
 SECStatus

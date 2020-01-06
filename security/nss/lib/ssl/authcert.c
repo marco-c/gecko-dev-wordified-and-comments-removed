@@ -82,6 +82,13 @@ pk11func
 .
 h
 "
+#
+include
+"
+sslimpl
+.
+h
+"
 SECStatus
 NSS_GetClientAuthData
 (
@@ -275,7 +282,7 @@ if
 CERT_CheckCertValidTimes
 (
 cert
-PR_Now
+ssl_TimeUsec
 (
 )
 PR_TRUE

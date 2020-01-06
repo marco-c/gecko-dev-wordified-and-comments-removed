@@ -785,12 +785,6 @@ moz_folded_library_name
 '
 '
 '
-ssl_enable_zlib
-%
-'
-:
-1
-'
 sanitizer_flags
 %
 '

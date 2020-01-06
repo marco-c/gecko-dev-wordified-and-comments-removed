@@ -11,6 +11,15 @@ secmodt
 .
 h
 "
+unsigned
+int
+ssl_SelfEncryptGetProtectedSize
+(
+unsigned
+int
+inLen
+)
+;
 SECStatus
 ssl_SelfEncryptProtect
 (

@@ -32,7 +32,7 @@ ssl3_AppendNumberToItem
 SECItem
 *
 item
-PRUint32
+PRUint64
 num
 PRInt32
 lenSize

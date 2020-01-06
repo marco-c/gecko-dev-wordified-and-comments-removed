@@ -268,16 +268,6 @@ opt
 useSecurity
 )
 {
-if
-(
-sslsocket
--
->
-ssl3
-.
-initialized
-)
-{
 ssl_GetSSL3HandshakeLock
 (
 sslsocket
@@ -297,7 +287,6 @@ ssl_ReleaseSSL3HandshakeLock
 sslsocket
 )
 ;
-}
 }
 return
 SECSuccess

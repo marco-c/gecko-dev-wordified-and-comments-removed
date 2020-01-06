@@ -932,7 +932,7 @@ NULL
 ;
 now
 =
-ssl_Time
+ssl_TimeSec
 (
 )
 ;
@@ -1232,9 +1232,6 @@ sslSessionID
 sid
 )
 {
-PRUint32
-expirationPeriod
-;
 PORT_Assert
 (
 sid
@@ -1448,10 +1445,6 @@ sessionIDLength
 SSL3_SESSIONID_BYTES
 ;
 }
-expirationPeriod
-=
-ssl3_sid_timeout
-;
 PRINT_BUF
 (
 8
@@ -1549,7 +1542,7 @@ sid
 >
 creationTime
 =
-ssl_Time
+ssl_TimeUsec
 (
 )
 ;
@@ -1571,7 +1564,9 @@ sid
 >
 creationTime
 +
-expirationPeriod
+ssl3_sid_timeout
+*
+PR_USEC_PER_SEC
 ;
 LOCK_CACHE
 ;
@@ -1889,7 +1884,7 @@ UNLOCK_CACHE
 ;
 }
 PRUint32
-ssl_Time
+ssl_TimeSec
 (
 void
 )
@@ -2024,7 +2019,7 @@ PR_USEC_PER_SEC
 return
 endTime
 >
-PR_Now
+ssl_TimeUsec
 (
 )
 ;

@@ -96,7 +96,7 @@ ssl3_AppendNumberToItem
 SECItem
 *
 item
-PRUint32
+PRUint64
 num
 PRInt32
 lenSize
@@ -108,7 +108,10 @@ rv
 PRUint8
 b
 [
-4
+sizeof
+(
+num
+)
 ]
 ;
 ssl_EncodeUintX
@@ -210,6 +213,7 @@ PRUint32
 bytes
 )
 {
+unsigned
 int
 i
 ;

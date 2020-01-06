@@ -106,7 +106,7 @@ cipher_suite
 SSLNamedGroup
 group
 SSLSignatureScheme
-signature_scheme
+sig_scheme
 )
 :
 TlsConnectTestBase
@@ -122,9 +122,9 @@ group_
 (
 group
 )
-signature_scheme_
+sig_scheme_
 (
-signature_scheme
+sig_scheme
 )
 csinfo_
 (
@@ -275,7 +275,7 @@ client_
 SetSignatureSchemes
 (
 &
-signature_scheme_
+sig_scheme_
 1
 )
 ;
@@ -285,7 +285,7 @@ server_
 SetSignatureSchemes
 (
 &
-signature_scheme_
+sig_scheme_
 1
 )
 ;
@@ -307,7 +307,7 @@ SSL_LIBRARY_VERSION_TLS_1_3
 {
 switch
 (
-signature_scheme_
+sig_scheme_
 )
 {
 case
@@ -406,9 +406,8 @@ break
 ;
 default
 :
-ASSERT_TRUE
+ADD_FAILURE
 (
-false
 )
 <
 <
@@ -420,7 +419,7 @@ scheme
 "
 <
 <
-signature_scheme_
+sig_scheme_
 ;
 break
 ;
@@ -828,7 +827,7 @@ SSLNamedGroup
 group_
 ;
 SSLSignatureScheme
-signature_scheme_
+sig_scheme_
 ;
 SSLCipherSuiteInfo
 csinfo_
