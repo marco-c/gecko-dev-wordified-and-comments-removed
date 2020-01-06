@@ -8470,7 +8470,7 @@ const
 intptr_t
 kNumNodesBetweenTimeChecks
 =
-1000
+500
 ;
 const
 intptr_t
