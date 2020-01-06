@@ -1573,7 +1573,7 @@ h
 '
 wr
 /
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 .
 h
 '
@@ -3112,7 +3112,7 @@ cpp
 '
 wr
 /
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 .
 cpp
 '

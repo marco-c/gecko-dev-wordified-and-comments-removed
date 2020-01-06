@@ -88,7 +88,7 @@ mozilla
 /
 layers
 /
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 .
 h
 "
@@ -824,14 +824,14 @@ aUpdateInfo
 )
 override
 ;
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 &
 CommandBuilder
 (
 )
 {
 return
-mWebRenderCommandsBuilder
+mWebRenderCommandBuilder
 ;
 }
 WebRenderUserDataRefTable
@@ -841,7 +841,7 @@ GetWebRenderUserDataTable
 )
 {
 return
-mWebRenderCommandsBuilder
+mWebRenderCommandBuilder
 .
 GetWebRenderUserDataTable
 (
@@ -964,8 +964,8 @@ mPaintSequenceNumber
 APZTestData
 mApzTestData
 ;
-WebRenderCommandsBuilder
-mWebRenderCommandsBuilder
+WebRenderCommandBuilder
+mWebRenderCommandBuilder
 ;
 }
 ;

@@ -1,9 +1,9 @@
 #
 ifndef
-GFX_WEBRENDERCOMMANDSBUILDER_H
+GFX_WEBRENDERCOMMANDBUILDER_H
 #
 define
-GFX_WEBRENDERCOMMANDSBUILDER_H
+GFX_WEBRENDERCOMMANDBUILDER_H
 #
 include
 "
@@ -99,7 +99,7 @@ class
 WebRenderUserData
 ;
 class
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 {
 typedef
 nsTHashtable
@@ -124,7 +124,7 @@ CanvasDataSet
 public
 :
 explicit
-WebRenderCommandsBuilder
+WebRenderCommandBuilder
 (
 WebRenderLayerManager
 *
