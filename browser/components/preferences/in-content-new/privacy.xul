@@ -7019,6 +7019,11 @@ position
 >
 <
 hbox
+pack
+=
+"
+end
+"
 >
 <
 button
@@ -7199,6 +7204,11 @@ position
 >
 <
 hbox
+pack
+=
+"
+end
+"
 >
 <
 button
