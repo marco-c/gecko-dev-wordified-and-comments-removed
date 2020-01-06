@@ -454,6 +454,12 @@ false
 )
 #
 endif
+mTime
+(
+0
+.
+0
+)
 {
 }
 AudioTimelineEvent
