@@ -161,7 +161,7 @@ uint32_t
 GetDataSetIndex
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 )
@@ -569,7 +569,7 @@ StorageCache
 Persist
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 )
@@ -629,7 +629,7 @@ StorageCache
 DataSet
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 )
@@ -753,7 +753,7 @@ StorageCache
 ProcessUsageDelta
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 int64_t
@@ -1095,7 +1095,7 @@ StorageCache
 GetLength
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 uint32_t
@@ -1157,7 +1157,7 @@ StorageCache
 GetKey
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 uint32_t
@@ -1268,7 +1268,7 @@ StorageCache
 GetKeys
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 nsTArray
@@ -1357,7 +1357,7 @@ StorageCache
 GetItem
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 const
@@ -1440,7 +1440,7 @@ StorageCache
 SetItem
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 const
@@ -1702,7 +1702,7 @@ StorageCache
 RemoveItem
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 const
@@ -1896,7 +1896,7 @@ StorageCache
 Clear
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 const
@@ -2216,7 +2216,7 @@ StorageCache
 GetOriginQuotaUsage
 (
 const
-Storage
+LocalStorage
 *
 aStorage
 )
