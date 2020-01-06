@@ -808,9 +808,6 @@ join
 )
 ;
 }
-const
-Sandbox
-=
 function
 Sandbox
 (
@@ -966,9 +963,6 @@ return
 sandbox
 ;
 }
-const
-load
-=
 function
 load
 (
@@ -1629,9 +1623,6 @@ js
 '
 ;
 }
-const
-resolve
-=
 function
 resolve
 (
@@ -1981,9 +1972,6 @@ m1
 }
 ;
 }
-const
-resolveURI
-=
 function
 resolveURI
 (
@@ -2143,9 +2131,6 @@ moduleId
 )
 ;
 }
-const
-Require
-=
 function
 Require
 (
@@ -2686,9 +2671,6 @@ return
 require
 ;
 }
-const
-Module
-=
 function
 Module
 (
@@ -2745,9 +2727,6 @@ uri
 )
 ;
 }
-const
-unload
-=
 function
 unload
 (
