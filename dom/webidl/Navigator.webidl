@@ -1428,16 +1428,6 @@ attribute
 DOMString
 buildID
 ;
-[
-Throws
-ChromeOnly
-UnsafeInPrerendering
-]
-readonly
-attribute
-MozPowerManager
-mozPower
-;
 /
 /
 WebKit

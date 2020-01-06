@@ -756,13 +756,6 @@ SwitchState
 aState
 )
 ;
-async
-FactoryReset
-(
-nsString
-aReason
-)
-;
 child
 :
 async

@@ -4325,11 +4325,6 @@ MouseScrollEvent
 webidl
 '
 '
-MozPowerManager
-.
-webidl
-'
-'
 MozSelfSupport
 .
 webidl
