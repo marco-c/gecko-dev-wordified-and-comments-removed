@@ -215,7 +215,7 @@ mozilla
 /
 layers
 /
-Keyboard
+KeyboardMap
 .
 h
 "

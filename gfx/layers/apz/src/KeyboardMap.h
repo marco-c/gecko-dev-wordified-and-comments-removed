@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_layers_Keyboard_h
+mozilla_layers_KeyboardMap_h
 #
 define
-mozilla_layers_Keyboard_h
+mozilla_layers_KeyboardMap_h
 #
 include
 <
