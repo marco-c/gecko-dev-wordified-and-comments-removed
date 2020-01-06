@@ -1811,6 +1811,14 @@ Tier1
 Tier2
 }
 ;
+enum
+class
+DebugEnabled
+{
+False
+True
+}
+;
 class
 Tiers
 {

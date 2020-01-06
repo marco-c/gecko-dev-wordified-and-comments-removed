@@ -1281,6 +1281,15 @@ SystemAllocPolicy
 >
 LabelVector
 ;
+typedef
+Vector
+<
+MIRType
+8
+SystemAllocPolicy
+>
+MIRTypeVector
+;
 struct
 RegI32
 :

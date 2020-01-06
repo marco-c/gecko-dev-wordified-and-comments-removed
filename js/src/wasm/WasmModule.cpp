@@ -1318,7 +1318,8 @@ UniqueMetadataTier
 metadata2
 UniqueConstCodeSegment
 code2
-UniqueModuleEnvironment
+ModuleEnvironment
+*
 env2
 )
 {
