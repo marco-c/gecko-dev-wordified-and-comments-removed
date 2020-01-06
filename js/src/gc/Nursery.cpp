@@ -3743,7 +3743,7 @@ cancelIonCompilations
 js
 :
 :
-CancelOffThreadIonCompile
+CancelOffThreadIonCompilesUsingNurseryPointers
 (
 rt
 )
