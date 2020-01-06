@@ -2510,6 +2510,15 @@ ImageKey
 >
 mTitlebarImageKey
 ;
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+mTitlebarImageSize
+;
 nsIntRegion
 mDirtyTitlebarRegion
 ;
