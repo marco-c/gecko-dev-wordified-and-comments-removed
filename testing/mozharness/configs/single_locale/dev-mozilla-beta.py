@@ -7,7 +7,7 @@ branch
 "
 :
 "
-date
+jamun
 "
     
 "
@@ -55,7 +55,7 @@ mozilla_dir
 "
 :
 "
-date
+jamun
 "
     
 "
@@ -137,7 +137,7 @@ org
 /
 projects
 /
-date
+jamun
 "
         
 "
@@ -157,7 +157,7 @@ dest
 "
 :
 "
-date
+jamun
 "
         
 "
@@ -175,9 +175,9 @@ mozilla
 .
 org
 /
-mozilla
--
-unified
+projects
+/
+jamun
 "
     
 }
