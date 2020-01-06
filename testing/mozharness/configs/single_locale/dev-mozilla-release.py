@@ -22,8 +22,6 @@ update_channel
 :
 "
 release
--
-dev
 "
     
 "

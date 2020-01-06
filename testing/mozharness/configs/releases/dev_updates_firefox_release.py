@@ -274,8 +274,6 @@ update_channels
         
 "
 beta
--
-dev
 "
 :
 {
@@ -333,8 +331,6 @@ update_verify_channel
 "
 beta
 -
-dev
--
 localtest
 "
             
@@ -350,8 +346,6 @@ firefox
 mozilla
 -
 beta
--
-dev
 "
 "
 firefox
@@ -359,8 +353,6 @@ firefox
 mozilla
 -
 release
--
-dev
 "
             
 ]
@@ -372,20 +364,14 @@ channel_names
 [
 "
 beta
--
-dev
 "
 "
 beta
--
-dev
 -
 localtest
 "
 "
 beta
--
-dev
 -
 cdntest
 "
@@ -401,16 +387,12 @@ firefox
 -
 beta
 -
-dev
--
 cdntest
 "
 "
 firefox
 -
 beta
--
-dev
 -
 localtest
 "
@@ -510,8 +492,6 @@ bz2
         
 "
 release
--
-dev
 "
 :
 {
@@ -568,8 +548,6 @@ update_verify_channel
 "
 release
 -
-dev
--
 localtest
 "
             
@@ -587,20 +565,14 @@ channel_names
 [
 "
 release
--
-dev
 "
 "
 release
--
-dev
 -
 localtest
 "
 "
 release
--
-dev
 -
 cdntest
 "
@@ -616,16 +588,12 @@ firefox
 -
 release
 -
-dev
--
 cdntest
 "
 "
 firefox
 -
 release
--
-dev
 -
 localtest
 "
