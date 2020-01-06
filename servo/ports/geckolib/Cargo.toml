@@ -168,7 +168,7 @@ components
 malloc_size_of
 "
 }
-nsstring
+nsstring_vendor
 =
 {
 path
@@ -180,11 +180,13 @@ path
 .
 .
 /
-support
+components
 /
-gecko
+style
 /
-nsstring
+gecko_bindings
+/
+nsstring_vendor
 "
 }
 parking_lot

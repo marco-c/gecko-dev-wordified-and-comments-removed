@@ -220,6 +220,8 @@ gecko
 pub
 extern
 crate
+nsstring_vendor
+as
 nsstring
 ;
 #

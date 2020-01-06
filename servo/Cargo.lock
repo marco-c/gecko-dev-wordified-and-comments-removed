@@ -13341,7 +13341,7 @@ malloc_size_of
 1
 "
 "
-nsstring
+nsstring_vendor
 0
 .
 1
@@ -27031,7 +27031,7 @@ package
 name
 =
 "
-nsstring
+nsstring_vendor
 "
 version
 =
@@ -41858,7 +41858,7 @@ index
 )
 "
 "
-nsstring
+nsstring_vendor
 0
 .
 1
