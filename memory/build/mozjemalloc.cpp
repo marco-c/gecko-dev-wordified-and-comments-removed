@@ -7623,16 +7623,27 @@ arena_t
 *
 choose_arena
 (
-void
+size_t
+size
 )
 {
 arena_t
 *
 ret
+=
+nullptr
 ;
 #
 ifndef
 NO_TLS
+if
+(
+size
+<
+=
+small_max
+)
+{
 ret
 =
 thread_arena
@@ -7641,6 +7652,7 @@ get
 (
 )
 ;
+}
 if
 (
 !
@@ -13082,6 +13094,7 @@ arena_malloc
 (
 choose_arena
 (
+size
 )
 size
 false
@@ -13122,6 +13135,7 @@ arena_malloc
 (
 choose_arena
 (
+size
 )
 size
 true
@@ -13501,6 +13515,7 @@ arena_malloc
 (
 choose_arena
 (
+size
 )
 ceil_size
 false
@@ -13586,6 +13601,7 @@ arena_palloc
 (
 choose_arena
 (
+size
 )
 alignment
 ceil_size
@@ -16173,6 +16189,7 @@ arena_malloc
 (
 choose_arena
 (
+size
 )
 size
 false
