@@ -339,7 +339,17 @@ aOffset
 override
 {
 return
+std
+:
+:
+max
+(
+aOffset
+int64_t
+(
 mLength
+)
+)
 ;
 }
 bool
