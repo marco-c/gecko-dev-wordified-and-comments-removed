@@ -2191,7 +2191,7 @@ defaultBackend
 BackendType
 :
 :
-CAIRO
+SKIA
 ;
 if
 (
@@ -2530,7 +2530,7 @@ return
 BackendType
 :
 :
-CAIRO
+SKIA
 ;
 }
 return
