@@ -11083,6 +11083,9 @@ depStr
 2
 ]
 ;
+Label
+failureRestore
+;
 {
 Label
 isLatin1
@@ -11117,9 +11120,6 @@ InvalidReg
 lastIndex
 :
 maybeTemp4
-;
-Label
-failureRestore
 ;
 if
 (
