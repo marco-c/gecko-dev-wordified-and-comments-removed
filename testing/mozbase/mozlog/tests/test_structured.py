@@ -749,6 +749,9 @@ suite_start
 test
 "
 ]
+"
+logtest
+"
 )
         
 self
@@ -762,6 +765,14 @@ action
 :
 "
 suite_start
+"
+                                
+"
+name
+"
+:
+"
+logtest
 "
                                 
 "
@@ -3909,6 +3920,8 @@ suite_start
 (
 [
 ]
+run_info
+=
 {
 }
 )
