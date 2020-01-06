@@ -2367,7 +2367,7 @@ aUUID
 ;
 static
 bool
-PrefetchEnabled
+PrefetchPreloadEnabled
 (
 nsIDocShell
 *

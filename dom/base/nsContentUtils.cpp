@@ -34627,7 +34627,7 @@ bool
 nsContentUtils
 :
 :
-PrefetchEnabled
+PrefetchPreloadEnabled
 (
 nsIDocShell
 *

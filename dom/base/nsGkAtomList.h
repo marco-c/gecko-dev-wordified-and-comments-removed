@@ -903,6 +903,13 @@ article
 )
 GK_ATOM
 (
+as
+"
+as
+"
+)
+GK_ATOM
+(
 ascending
 "
 ascending
