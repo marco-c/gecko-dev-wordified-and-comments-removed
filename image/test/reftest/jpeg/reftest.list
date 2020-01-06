@@ -627,15 +627,6 @@ parts
 .
 "
 )
-random
--
-if
-(
-stylo
-|
-|
-styloVsGecko
-)
 HTTP
 =
 =
@@ -647,8 +638,3 @@ mjpg
 blue
 .
 jpg
-#
-bug
-1368589
-for
-stylo
