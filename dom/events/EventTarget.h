@@ -331,7 +331,13 @@ aEvent
 {
 }
 bool
-HasUntrustedOrNonSystemGroupKeyEventListeners
+HasNonSystemGroupListenersForUntrustedKeyEvents
+(
+)
+const
+;
+bool
+HasNonPassiveNonSystemGroupListenersForUntrustedKeyEvents
 (
 )
 const

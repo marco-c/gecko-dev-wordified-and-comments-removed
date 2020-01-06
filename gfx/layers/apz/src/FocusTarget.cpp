@@ -309,7 +309,7 @@ i
 ]
 -
 >
-HasUntrustedOrNonSystemGroupKeyEventListeners
+HasNonSystemGroupListenersForUntrustedKeyEvents
 (
 )
 )
