@@ -6020,7 +6020,7 @@ aContent
 static
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetEventTargetByLoadInfo
 (

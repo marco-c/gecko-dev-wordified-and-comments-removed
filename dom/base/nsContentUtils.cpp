@@ -47912,7 +47912,7 @@ TYPE_NULL
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 nsContentUtils
 :
@@ -47969,7 +47969,7 @@ domDoc
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;
