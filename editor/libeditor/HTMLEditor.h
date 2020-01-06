@@ -1207,16 +1207,6 @@ SelectAll
 override
 ;
 NS_IMETHOD
-GetRootElement
-(
-nsIDOMElement
-*
-*
-aRootElement
-)
-override
-;
-NS_IMETHOD
 StyleSheetLoaded
 (
 StyleSheet
@@ -1617,7 +1607,7 @@ ShouldReplaceRootElement
 )
 ;
 void
-ResetRootElementAndEventTarget
+NotifyRootChanged
 (
 )
 ;
@@ -3352,6 +3342,11 @@ aContainer
 nsIContent
 *
 aChild
+)
+;
+void
+UpdateRootElement
+(
 )
 ;
 bool
