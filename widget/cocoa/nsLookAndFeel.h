@@ -13,6 +13,7 @@ h
 "
 class
 nsLookAndFeel
+final
 :
 public
 nsXPLookAndFeel
