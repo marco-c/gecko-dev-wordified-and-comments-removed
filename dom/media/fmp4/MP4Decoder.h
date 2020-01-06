@@ -74,16 +74,6 @@ aDiagnostics
 ;
 static
 bool
-IsSupportedTypeWithoutDiagnostics
-(
-const
-MediaContainerType
-&
-aContainerType
-)
-;
-static
-bool
 IsH264
 (
 const
