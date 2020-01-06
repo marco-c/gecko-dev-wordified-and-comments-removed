@@ -3246,7 +3246,7 @@ inline
 wr
 :
 :
-WrByteSlice
+ByteSlice
 RangeToByteSlice
 (
 mozilla
@@ -3263,7 +3263,7 @@ return
 wr
 :
 :
-WrByteSlice
+ByteSlice
 {
 aRange
 .
@@ -3296,7 +3296,7 @@ ByteSliceToRange
 wr
 :
 :
-WrByteSlice
+ByteSlice
 aWrSlice
 )
 {
