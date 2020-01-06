@@ -119,7 +119,7 @@ aRequestId
 )
 ;
 nsresult
-CallTestingUIAction
+LaunchUIAction
 (
 const
 nsAString
