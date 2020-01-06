@@ -92,6 +92,9 @@ FocusTarget
 >
 mFocusTree
 ;
+bool
+mFocusHasKeyEventListeners
+;
 uint64_t
 mFocusLayersId
 ;

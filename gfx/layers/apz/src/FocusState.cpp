@@ -22,6 +22,10 @@ FocusState
 (
 )
 :
+mFocusHasKeyEventListeners
+(
+false
+)
 mFocusLayersId
 (
 0
@@ -64,6 +68,10 @@ aOriginatingLayersId
 ]
 =
 aState
+;
+mFocusHasKeyEventListeners
+=
+false
 ;
 mFocusLayersId
 =
@@ -122,6 +130,13 @@ currentNode
 -
 >
 second
+;
+mFocusHasKeyEventListeners
+|
+=
+target
+.
+mFocusHasKeyEventListeners
 ;
 switch
 (

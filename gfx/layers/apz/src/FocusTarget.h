@@ -83,6 +83,9 @@ aRootPresShell
 ;
 public
 :
+bool
+mFocusHasKeyEventListeners
+;
 FocusTargetType
 mType
 ;

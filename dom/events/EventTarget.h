@@ -330,6 +330,12 @@ aEvent
 )
 {
 }
+bool
+HasUntrustedOrNonSystemGroupKeyEventListeners
+(
+)
+const
+;
 virtual
 bool
 IsApzAware
