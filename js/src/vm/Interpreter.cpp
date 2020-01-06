@@ -1399,9 +1399,11 @@ JSOP_STRICTSETPROP
 )
 ;
 }
-static
 JSFunction
 *
+js
+:
+:
 MakeDefaultConstructor
 (
 JSContext
