@@ -160,6 +160,9 @@ AllocPolicy
 class
 Vector
 ;
+class
+TimeStamp
+;
 }
 #
 ifdef
@@ -1335,6 +1338,14 @@ double
 aSinceTime
 =
 0
+mozilla
+:
+:
+TimeStamp
+*
+aOutFirstSampleTime
+=
+nullptr
 )
 false
 )

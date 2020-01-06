@@ -211,6 +211,9 @@ int
 aThreadId
 double
 aSinceTime
+double
+*
+aOutFirstSampleTime
 JSContext
 *
 cx

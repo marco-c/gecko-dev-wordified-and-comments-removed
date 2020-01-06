@@ -94,6 +94,9 @@ UniqueStacks
 aUniqueStacks
 )
 {
+double
+firstSampleTimeIgnored
+;
 StreamSamplesAndMarkers
 (
 mName
@@ -111,8 +114,13 @@ get
 aWriter
 aProcessStartTime
 0
+&
+firstSampleTimeIgnored
 nullptr
 nullptr
+0
+.
+0
 nullptr
 aUniqueStacks
 )
