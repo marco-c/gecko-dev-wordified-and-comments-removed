@@ -4193,7 +4193,7 @@ true
 void
 skipChars
 (
-uint8_t
+uint32_t
 n
 )
 {
