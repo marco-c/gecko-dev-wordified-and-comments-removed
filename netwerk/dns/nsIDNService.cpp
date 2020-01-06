@@ -3452,6 +3452,12 @@ idType
 =
 =
 IDTYPE_RESTRICTED
+|
+|
+idType
+=
+=
+IDTYPE_ASPIRATIONAL
 )
 {
 return
@@ -3464,12 +3470,6 @@ idType
 =
 =
 IDTYPE_ALLOWED
-|
-|
-idType
-=
-=
-IDTYPE_ASPIRATIONAL
 )
 ;
 Script
