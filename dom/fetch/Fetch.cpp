@@ -5155,8 +5155,6 @@ this
 nsresult
 rv
 =
-NS_OK
-;
 mMainThreadEventTarget
 -
 >
