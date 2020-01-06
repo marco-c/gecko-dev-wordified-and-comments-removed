@@ -892,6 +892,10 @@ VIDEO_TRACK_RATE
 VP8TrackEncoder
 (
 aTrackRate
+FrameDroppingMode
+:
+:
+DISALLOW
 )
 {
 }
