@@ -115,6 +115,12 @@ nsGlobalWindow
 MOZ_NON_OWNING_REF
 mWindow
 ;
+TimeStamp
+mSpendTimeIn2DView
+;
+bool
+mIs2DView
+;
 }
 ;
 }

@@ -225,6 +225,9 @@ mLastShouldQuit
 TimeStamp
 mLastPresentationEnd
 ;
+TimeStamp
+mPresentationStart
+;
 ~
 VROculusSession
 (
