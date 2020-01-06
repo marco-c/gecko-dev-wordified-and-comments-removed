@@ -1320,13 +1320,6 @@ nsSameProcessAsyncMessageBase
 &
 )
 ;
-JS
-:
-:
-RootingContext
-*
-mRootingCx
-;
 nsString
 mMessage
 ;
