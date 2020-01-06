@@ -1141,6 +1141,8 @@ ClearNonInheritingStyleContexts
 void
 PreTraverse
 (
+ServoTraversalFlags
+aFlags
 dom
 :
 :
@@ -1149,18 +1151,6 @@ Element
 aRoot
 =
 nullptr
-EffectCompositor
-:
-:
-AnimationRestyleType
-=
-EffectCompositor
-:
-:
-AnimationRestyleType
-:
-:
-Throttled
 )
 ;
 void

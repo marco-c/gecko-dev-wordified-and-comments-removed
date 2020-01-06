@@ -182,6 +182,12 @@ ParallelTraversal
 <
 <
 7
+FlushThrottledAnimations
+=
+1
+<
+<
+8
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
