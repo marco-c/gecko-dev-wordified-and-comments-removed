@@ -12117,6 +12117,17 @@ if
 nobj
 -
 >
+denseElementsAreFrozen
+(
+)
+)
+break
+;
+if
+(
+nobj
+-
+>
 is
 <
 ArrayObject
