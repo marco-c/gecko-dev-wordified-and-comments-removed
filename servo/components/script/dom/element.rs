@@ -985,7 +985,7 @@ matching
 ElementSelectorFlags
 LocalMatchingContext
 MatchingContext
-MatchingMode
+RelevantLinkStatus
 }
 ;
 use
@@ -999,18 +999,6 @@ matching
 HAS_EDGE_CHILD_SELECTOR
 HAS_SLOW_SELECTOR
 HAS_SLOW_SELECTOR_LATER_SIBLINGS
-}
-;
-use
-selectors
-:
-:
-matching
-:
-:
-{
-RelevantLinkStatus
-matches_selector_list
 }
 ;
 use
