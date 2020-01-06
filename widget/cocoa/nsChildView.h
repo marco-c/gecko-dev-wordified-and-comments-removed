@@ -405,9 +405,6 @@ float
 mCumulativeRotation
 ;
 BOOL
-mDidForceRefreshOpenGL
-;
-BOOL
 mWaitingForPaint
 ;
 #
