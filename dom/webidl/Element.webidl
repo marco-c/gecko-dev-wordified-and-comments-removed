@@ -245,6 +245,7 @@ DOMString
 tagName
 ;
 [
+CEReactions
 Pure
 ]
 attribute
@@ -252,6 +253,7 @@ DOMString
 id
 ;
 [
+CEReactions
 Pure
 ]
 attribute
@@ -314,6 +316,7 @@ localName
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -326,6 +329,7 @@ value
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -341,6 +345,7 @@ value
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -351,6 +356,7 @@ name
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -468,6 +474,7 @@ classNames
 )
 ;
 [
+CEReactions
 Throws
 Pure
 ]
@@ -933,6 +940,7 @@ name
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -944,6 +952,7 @@ newAttr
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -966,6 +975,7 @@ localName
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr

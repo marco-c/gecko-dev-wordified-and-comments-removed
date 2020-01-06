@@ -434,6 +434,7 @@ sourceRange
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -442,6 +443,7 @@ deleteContents
 )
 ;
 [
+CEReactions
 Throws
 ]
 DocumentFragment
@@ -450,6 +452,7 @@ extractContents
 )
 ;
 [
+CEReactions
 Throws
 ]
 DocumentFragment
@@ -458,6 +461,7 @@ cloneContents
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -468,6 +472,7 @@ node
 )
 ;
 [
+CEReactions
 Throws
 ]
 void

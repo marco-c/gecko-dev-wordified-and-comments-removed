@@ -156,6 +156,7 @@ DOMString
 localName
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute

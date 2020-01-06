@@ -390,6 +390,7 @@ Node
 nextSibling
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
@@ -399,6 +400,7 @@ DOMString
 nodeValue
 ;
 [
+CEReactions
 SetterThrows
 GetterCanOOM
 Pure
@@ -409,6 +411,7 @@ DOMString
 textContent
 ;
 [
+CEReactions
 Throws
 ]
 Node
@@ -422,6 +425,7 @@ child
 )
 ;
 [
+CEReactions
 Throws
 ]
 Node
@@ -432,6 +436,7 @@ node
 )
 ;
 [
+CEReactions
 Throws
 ]
 Node
@@ -444,6 +449,7 @@ child
 )
 ;
 [
+CEReactions
 Throws
 ]
 Node
@@ -453,12 +459,16 @@ Node
 child
 )
 ;
+[
+CEReactions
+]
 void
 normalize
 (
 )
 ;
 [
+CEReactions
 Throws
 ]
 Node

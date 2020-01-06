@@ -124,6 +124,7 @@ interface
 ChildNode
 {
 [
+CEReactions
 Throws
 Unscopable
 ]
@@ -142,6 +143,7 @@ nodes
 )
 ;
 [
+CEReactions
 Throws
 Unscopable
 ]
@@ -160,6 +162,7 @@ nodes
 )
 ;
 [
+CEReactions
 Throws
 Unscopable
 ]
@@ -178,6 +181,7 @@ nodes
 )
 ;
 [
+CEReactions
 Unscopable
 ]
 void

@@ -107,6 +107,7 @@ name
 )
 ;
 [
+CEReactions
 Throws
 BinaryName
 =
@@ -123,6 +124,7 @@ arg
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -160,6 +162,7 @@ localName
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -171,6 +174,7 @@ arg
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr

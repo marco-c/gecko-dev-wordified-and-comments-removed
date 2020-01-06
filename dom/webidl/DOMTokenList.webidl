@@ -172,6 +172,7 @@ token
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -185,6 +186,7 @@ tokens
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -198,6 +200,7 @@ tokens
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -210,6 +213,7 @@ newToken
 )
 ;
 [
+CEReactions
 Throws
 ]
 boolean
@@ -233,6 +237,7 @@ token
 )
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
