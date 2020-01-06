@@ -375,11 +375,6 @@ AccessibleTextTearoff
 default
 ;
 HRESULT
-ResolveAccText
-(
-)
-;
-HRESULT
 ResolveAccHypertext
 (
 )
@@ -389,12 +384,6 @@ RefPtr
 AccessibleHandler
 >
 mHandler
-;
-RefPtr
-<
-IAccessibleText
->
-mAccTextProxy
 ;
 RefPtr
 <
