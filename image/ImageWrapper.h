@@ -52,6 +52,13 @@ aNativeSizes
 const
 override
 ;
+size_t
+GetNativeSizesLength
+(
+)
+const
+override
+;
 virtual
 already_AddRefed
 <
