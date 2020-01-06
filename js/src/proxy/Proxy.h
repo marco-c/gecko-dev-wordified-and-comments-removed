@@ -575,6 +575,17 @@ Value
 vp
 )
 ;
+size_t
+proxy_ObjectMoved
+(
+JSObject
+*
+obj
+JSObject
+*
+old
+)
+;
 bool
 ProxyHasOwn
 (

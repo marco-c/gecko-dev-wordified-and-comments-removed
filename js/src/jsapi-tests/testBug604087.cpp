@@ -32,19 +32,6 @@ ProxyObject
 .
 h
 "
-static
-const
-js
-:
-:
-ClassExtension
-OuterWrapperClassExtension
-=
-PROXY_MAKE_EXT
-(
-nullptr
-)
-;
 const
 js
 :
@@ -52,7 +39,7 @@ js
 Class
 OuterWrapperClass
 =
-PROXY_CLASS_WITH_EXT
+PROXY_CLASS_DEF
 (
 "
 Proxy
@@ -61,8 +48,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 1
 )
-&
-OuterWrapperClassExtension
 )
 ;
 static
