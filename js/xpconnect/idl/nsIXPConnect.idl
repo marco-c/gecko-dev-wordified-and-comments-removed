@@ -149,9 +149,6 @@ JSFreeOp
 class
 nsWrapperCache
 ;
-class
-nsAXPCNativeCallContext
-;
 %
 }
 /
@@ -316,15 +313,6 @@ voidPtrPtr
 (
 void
 *
-)
-;
-[
-ptr
-]
-native
-nsAXPCNativeCallContextPtr
-(
-nsAXPCNativeCallContext
 )
 ;
 [
@@ -3279,11 +3267,6 @@ readonly
 attribute
 nsIStackFrame
 CurrentJSStack
-;
-readonly
-attribute
-nsAXPCNativeCallContextPtr
-CurrentNativeCallContext
 ;
 void
 debugDump
