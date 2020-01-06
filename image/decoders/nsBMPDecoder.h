@@ -299,6 +299,17 @@ nsBMPDecoder
 (
 )
 ;
+bool
+IsValidICOResource
+(
+)
+const
+override
+{
+return
+true
+;
+}
 uint32_t
 *
 GetImageData

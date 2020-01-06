@@ -4594,7 +4594,7 @@ bool
 nsPNGDecoder
 :
 :
-IsValidICO
+IsValidICOResource
 (
 )
 const
