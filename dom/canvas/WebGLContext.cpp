@@ -10589,6 +10589,13 @@ UpdateMaxDrawBuffers
 (
 )
 {
+gl
+-
+>
+MakeCurrent
+(
+)
+;
 mGLMaxColorAttachments
 =
 gl
