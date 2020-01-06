@@ -1821,6 +1821,15 @@ face
 shape_plans
 )
 ;
+if
+(
+!
+hb_coords_present
+(
+coords
+num_coords
+)
+)
 for
 (
 hb_face_t
