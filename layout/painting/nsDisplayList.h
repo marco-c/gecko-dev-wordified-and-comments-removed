@@ -5349,6 +5349,14 @@ nsIFrame
 >
 mFramesMarkedForDisplay
 ;
+AutoTArray
+<
+nsIFrame
+*
+40
+>
+mFramesMarkedForDisplayIfVisible
+;
 nsClassHashtable
 <
 nsPtrHashKey
