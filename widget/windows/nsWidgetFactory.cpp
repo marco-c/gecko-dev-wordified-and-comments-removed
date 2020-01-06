@@ -1246,6 +1246,10 @@ info
 "
 &
 kNS_GFXINFO_CID
+Module
+:
+:
+ALLOW_IN_GPU_PROCESS
 }
 {
 "
