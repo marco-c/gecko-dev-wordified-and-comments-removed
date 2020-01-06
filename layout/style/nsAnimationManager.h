@@ -489,7 +489,6 @@ aRv
 )
 override
 ;
-virtual
 AnimationPlayState
 PlayStateFromJS
 (
@@ -497,7 +496,13 @@ PlayStateFromJS
 const
 override
 ;
-virtual
+bool
+PendingFromJS
+(
+)
+const
+override
+;
 void
 PlayFromJS
 (
