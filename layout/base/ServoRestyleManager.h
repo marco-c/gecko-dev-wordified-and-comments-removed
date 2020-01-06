@@ -485,7 +485,6 @@ Element
 aElement
 )
 ;
-static
 void
 PostRestyleEventForAnimations
 (
