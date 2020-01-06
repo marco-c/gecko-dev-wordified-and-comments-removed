@@ -2418,7 +2418,16 @@ unsafe
 {
 Gecko_GetNextStyleChild
 (
+&
+mut
+*
+(
 it
+as
+*
+mut
+_
+)
 )
 .
 map
