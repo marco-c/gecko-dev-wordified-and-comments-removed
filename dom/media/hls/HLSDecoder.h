@@ -40,6 +40,12 @@ aInit
 )
 {
 }
+void
+Shutdown
+(
+)
+override
+;
 ChannelMediaDecoder
 *
 Clone
