@@ -1971,7 +1971,7 @@ aList
 nsresult
 CacheInlineStyles
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
@@ -2240,7 +2240,7 @@ SIZE_STYLE_TABLE
 nsresult
 GetInlineStyles
 (
-nsIDOMNode
+nsINode
 *
 aNode
 StyleCache
