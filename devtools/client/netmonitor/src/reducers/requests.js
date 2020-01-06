@@ -80,6 +80,9 @@ false
 startedMillis
 :
 undefined
+endedMillis
+:
+undefined
 method
 :
 undefined
