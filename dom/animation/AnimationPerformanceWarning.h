@@ -41,6 +41,7 @@ Type
 uint8_t
 {
 ContentTooLarge
+ContentTooLargeArea
 TransformBackfaceVisibilityHidden
 TransformPreserve3D
 TransformSVG
