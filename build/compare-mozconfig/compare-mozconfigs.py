@@ -120,22 +120,12 @@ nightly_mozconfig_lines
 =
 nightly_mozconfig_pair
     
-missing_args
-=
-mozconfig_lines
-=
-=
-[
-]
-or
-nightly_mozconfig_lines
-=
-=
-[
-]
-    
 if
-missing_args
+not
+mozconfig_lines
+or
+not
+nightly_mozconfig_lines
 :
         
 log
