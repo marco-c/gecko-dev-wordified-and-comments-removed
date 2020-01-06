@@ -1276,6 +1276,7 @@ bool
 Required
 (
 )
+const
 {
 return
 GetBoolAttr

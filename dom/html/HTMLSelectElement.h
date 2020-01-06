@@ -1138,6 +1138,7 @@ HTMLOptionElement
 *
 aOption
 )
+const
 ;
 bool
 SetOptionsSelectedByIndex
@@ -1570,6 +1571,7 @@ bool
 IsValueMissing
 (
 )
+const
 ;
 int32_t
 GetOptionIndexAt
