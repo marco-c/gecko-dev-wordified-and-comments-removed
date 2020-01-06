@@ -4387,6 +4387,9 @@ buttonlabel
 accesskey
 =
 buttonaccesskey
+highlight
+=
+buttonhighlight
 disabled
 =
 mainactiondisabled
