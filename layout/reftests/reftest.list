@@ -1394,6 +1394,17 @@ reftest
 .
 list
 #
+stylesheet
+cloning
+include
+stylesheet
+-
+cloning
+/
+reftest
+.
+list
+#
 svg
 /
 include
