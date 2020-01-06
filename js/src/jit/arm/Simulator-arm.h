@@ -74,6 +74,9 @@ h
 namespace
 js
 {
+class
+WasmActivation
+;
 namespace
 jit
 {
@@ -1093,6 +1096,14 @@ code
 void
 handleWasmInterrupt
 (
+)
+;
+void
+startInterrupt
+(
+WasmActivation
+*
+act
 )
 ;
 bool
