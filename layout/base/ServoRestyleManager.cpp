@@ -2348,9 +2348,6 @@ newContext
 >
 ResolveSameStructsAs
 (
-PresContext
-(
-)
 oldStyleContext
 )
 ;
