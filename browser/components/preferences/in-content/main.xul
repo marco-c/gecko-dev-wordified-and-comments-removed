@@ -8203,6 +8203,9 @@ class
 =
 "
 indent
+tip
+-
+caption
 "
 >
 &
@@ -8444,6 +8447,13 @@ id
 "
 contentProcessCountEnabledDescription
 "
+class
+=
+"
+tip
+-
+caption
+"
 >
 &
 limitContentProcessOption
@@ -8460,6 +8470,13 @@ id
 =
 "
 contentProcessCountDisabledDescription
+"
+class
+=
+"
+tip
+-
+caption
 "
 >
 &

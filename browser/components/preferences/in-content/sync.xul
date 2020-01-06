@@ -427,6 +427,9 @@ flex
 "
 >
 <
+caption
+>
+<
 label
 id
 =
@@ -442,6 +445,10 @@ caption
 <
 /
 label
+>
+<
+/
+caption
 >
 <
 description
@@ -558,6 +565,9 @@ flex
 "
 >
 <
+caption
+>
+<
 label
 id
 =
@@ -575,6 +585,10 @@ title
 <
 /
 label
+>
+<
+/
+caption
 >
 <
 /
@@ -1046,8 +1060,11 @@ flex
 align
 =
 "
-center
+baseline
 "
+>
+<
+caption
 >
 <
 label
@@ -1062,6 +1079,10 @@ hidden
 true
 "
 /
+>
+<
+/
+caption
 >
 <
 label

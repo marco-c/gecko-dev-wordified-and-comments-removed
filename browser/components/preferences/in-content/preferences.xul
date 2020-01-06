@@ -1877,6 +1877,17 @@ id
 "
 searchInput
 "
+style
+=
+"
+width
+:
+&
+searchField
+.
+width
+;
+"
 hidden
 =
 "
