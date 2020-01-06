@@ -2755,7 +2755,10 @@ return
 mLayersId
 ;
 }
+Maybe
+<
 bool
+>
 IsLayersConnected
 (
 )
@@ -4048,7 +4051,10 @@ mUnscaledOuterRect
 nscolor
 mLastBackgroundColor
 ;
+Maybe
+<
 bool
+>
 mLayersConnected
 ;
 bool
