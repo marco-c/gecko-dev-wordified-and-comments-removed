@@ -160,13 +160,10 @@ Init
 (
 )
 ;
-char
-mPathBytes
-[
+nsAutoCStringN
+<
 NSID_LENGTH
-]
-;
-nsFixedCString
+>
 mPath
 ;
 }
