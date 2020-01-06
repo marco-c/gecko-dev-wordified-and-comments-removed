@@ -255,6 +255,11 @@ LayoutLogging
 h
 '
 '
+MobileViewportManager
+.
+h
+'
+'
 nsArenaMemoryStats
 .
 h
@@ -385,6 +390,11 @@ StackArena
 h
 '
 '
+TouchManager
+.
+h
+'
+'
 Units
 .
 h
@@ -396,6 +406,11 @@ h
 '
 '
 WordMovementType
+.
+h
+'
+'
+ZoomConstraintsClient
 .
 h
 '

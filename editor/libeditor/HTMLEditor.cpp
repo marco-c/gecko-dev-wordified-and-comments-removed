@@ -18524,10 +18524,8 @@ if
 aSafeToAskFrames
 )
 {
-nsCOMPtr
-<
 nsISelectionController
->
+*
 selectionController
 =
 GetSelectionController
