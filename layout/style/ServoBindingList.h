@@ -350,10 +350,9 @@ Servo_StyleSet_GetKeyframesForName
 bool
 RawServoStyleSetBorrowed
 set
-const
-nsACString
+nsAtom
 *
-property
+name
 nsTimingFunctionBorrowed
 timing_function
 RawGeckoKeyframeListBorrowedMut

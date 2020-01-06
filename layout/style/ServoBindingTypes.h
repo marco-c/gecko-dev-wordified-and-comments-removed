@@ -677,6 +677,10 @@ DECL_BORROWED_MUT_REF_TYPE_FOR
 (
 RawGeckoComputedKeyframeValuesList
 )
+DECL_BORROWED_MUT_REF_TYPE_FOR
+(
+RawGeckoStyleAnimationList
+)
 DECL_BORROWED_REF_TYPE_FOR
 (
 RawGeckoStyleAnimationList

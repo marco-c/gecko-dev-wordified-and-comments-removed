@@ -11287,9 +11287,8 @@ nsStyleSet
 :
 KeyframesRuleForName
 (
-const
-nsString
-&
+nsAtom
+*
 aName
 )
 {

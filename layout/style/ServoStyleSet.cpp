@@ -4581,9 +4581,8 @@ ServoStyleSet
 :
 GetKeyframesForName
 (
-const
-nsString
-&
+nsAtom
+*
 aName
 const
 nsTimingFunction
@@ -4601,12 +4600,6 @@ UpdateStylistIfNeeded
 (
 )
 ;
-NS_ConvertUTF16toUTF8
-name
-(
-aName
-)
-;
 return
 Servo_StyleSet_GetKeyframesForName
 (
@@ -4615,8 +4608,7 @@ mRawSet
 get
 (
 )
-&
-name
+aName
 &
 aTimingFunction
 &
