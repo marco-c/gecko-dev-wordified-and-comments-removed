@@ -1103,15 +1103,13 @@ position
 |
 o
 |
-&
-(
 *
 o
 .
 observer
-)
 =
 =
+*
 observer
 )
 {
