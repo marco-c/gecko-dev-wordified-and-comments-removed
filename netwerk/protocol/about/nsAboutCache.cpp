@@ -635,16 +635,6 @@ n
 "
 )
 ;
-if
-(
-CacheObserver
-:
-:
-UseNewCache
-(
-)
-)
-{
 mBuffer
 .
 AppendLiteral
@@ -710,7 +700,6 @@ n
 "
 )
 ;
-}
 mBuffer
 .
 AppendLiteral

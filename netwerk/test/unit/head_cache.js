@@ -588,12 +588,6 @@ force
 {
 if
 (
-!
-newCacheBackEndUsed
-(
-)
-|
-|
 force
 )
 {

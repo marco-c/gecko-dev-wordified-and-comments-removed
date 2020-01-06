@@ -68,13 +68,7 @@ disk
 var
 expectedConsumption
 =
-newCacheBackEndUsed
-(
-)
-?
 2048
-:
-24
 ;
 storage
 .
@@ -126,10 +120,6 @@ true
 )
 ;
 }
-!
-newCacheBackEndUsed
-(
-)
 )
 ;
 asyncOpenCacheEntry

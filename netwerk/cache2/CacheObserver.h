@@ -85,12 +85,6 @@ sSelf
 }
 static
 bool
-UseNewCache
-(
-)
-;
-static
-bool
 UseDiskCache
 (
 )
@@ -400,10 +394,6 @@ void
 AttachToPreferences
 (
 )
-;
-static
-uint32_t
-sUseNewCache
 ;
 static
 bool
