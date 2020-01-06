@@ -235,8 +235,9 @@ aReason
 int32_t
 DOMMinTimeoutValue
 (
-bool
-aIsTracking
+Timeout
+*
+aTimeout
 )
 const
 ;
