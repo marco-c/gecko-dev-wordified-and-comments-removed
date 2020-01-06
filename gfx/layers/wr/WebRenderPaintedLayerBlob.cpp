@@ -518,6 +518,11 @@ Finish
 (
 )
 ;
+AddToValidRegion
+(
+regionToPaint
+)
+;
 wr
 :
 :
