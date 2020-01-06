@@ -17071,6 +17071,7 @@ nullptr
 nullptr
 nullptr
 sandbox_enumerate
+nullptr
 sandbox_resolve
 nullptr
 nullptr
@@ -41663,6 +41664,7 @@ nullptr
 nullptr
 nullptr
 global_enumerate
+nullptr
 global_resolve
 global_mayResolve
 nullptr

@@ -227,6 +227,7 @@ nullptr
 nullptr
 nullptr
 JS_EnumerateStandardClasses
+nullptr
 JS_ResolveStandardClass
 JS_MayResolveStandardClass
 SimpleGlobal_finalize

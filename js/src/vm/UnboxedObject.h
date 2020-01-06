@@ -951,7 +951,7 @@ result
 ;
 static
 bool
-obj_enumerate
+newEnumerate
 (
 JSContext
 *
@@ -1570,7 +1570,7 @@ result
 ;
 static
 bool
-obj_enumerate
+newEnumerate
 (
 JSContext
 *

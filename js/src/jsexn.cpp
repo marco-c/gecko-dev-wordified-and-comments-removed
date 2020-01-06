@@ -744,6 +744,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 exn_finalize
 nullptr
 nullptr

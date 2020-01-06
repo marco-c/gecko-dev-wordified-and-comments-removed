@@ -10216,6 +10216,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 ThrowingConstructor
 nullptr
 ThrowingConstructor
@@ -10230,7 +10231,6 @@ ObjectOps
 sInterfaceObjectClassObjectOps
 =
 {
-nullptr
 nullptr
 nullptr
 nullptr

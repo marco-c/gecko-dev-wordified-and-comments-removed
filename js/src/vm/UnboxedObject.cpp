@@ -5456,7 +5456,7 @@ bool
 UnboxedPlainObject
 :
 :
-obj_enumerate
+newEnumerate
 (
 JSContext
 *
@@ -5567,6 +5567,10 @@ nullptr
 nullptr
 nullptr
 nullptr
+UnboxedPlainObject
+:
+:
+newEnumerate
 nullptr
 nullptr
 nullptr
@@ -5619,10 +5623,6 @@ UnboxedPlainObject
 obj_watch
 nullptr
 nullptr
-UnboxedPlainObject
-:
-:
-obj_enumerate
 nullptr
 }
 ;
@@ -9356,7 +9356,7 @@ bool
 UnboxedArrayObject
 :
 :
-obj_enumerate
+newEnumerate
 (
 JSContext
 *
@@ -9457,6 +9457,10 @@ nullptr
 nullptr
 nullptr
 nullptr
+UnboxedArrayObject
+:
+:
+newEnumerate
 nullptr
 nullptr
 UnboxedArrayObject
@@ -9525,10 +9529,6 @@ UnboxedArrayObject
 obj_watch
 nullptr
 nullptr
-UnboxedArrayObject
-:
-:
-obj_enumerate
 nullptr
 }
 ;

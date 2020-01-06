@@ -3322,6 +3322,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 GlobalDebuggees_finalize
 }
 ;

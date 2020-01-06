@@ -792,6 +792,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 TypeDescr
 :
 :
@@ -1263,6 +1264,7 @@ ClassOps
 ReferenceTypeDescrClassOps
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr
@@ -1965,6 +1967,7 @@ ClassOps
 ArrayTypeDescrClassOps
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr
@@ -3247,6 +3250,7 @@ ClassOps
 StructTypeDescrClassOps
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr
@@ -9928,7 +9932,7 @@ bool
 TypedObject
 :
 :
-obj_enumerate
+obj_newEnumerate
 (
 JSContext
 *
@@ -10935,10 +10939,6 @@ obj_deleteProperty
 nullptr
 nullptr
 nullptr
-TypedObject
-:
-:
-obj_enumerate
 nullptr
 }
 ;
@@ -10995,6 +10995,11 @@ nullptr
 enumerate
 *
 /
+\
+TypedObject
+:
+:
+obj_newEnumerate
 \
 nullptr
 /

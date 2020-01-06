@@ -609,6 +609,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 MapIteratorObject
 :
 :
@@ -1519,6 +1520,7 @@ MapObject
 classOps_
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr
@@ -4752,6 +4754,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 SetIteratorObject
 :
 :
@@ -5559,6 +5562,7 @@ SetObject
 classOps_
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr

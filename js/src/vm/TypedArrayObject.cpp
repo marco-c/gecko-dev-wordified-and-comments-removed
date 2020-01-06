@@ -10001,6 +10001,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 TypedArrayObject
 :
 :

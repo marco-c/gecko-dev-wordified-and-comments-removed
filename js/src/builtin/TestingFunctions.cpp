@@ -10341,6 +10341,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 finalize_counter_finalize
 }
 ;
@@ -14376,6 +14377,7 @@ ClassOps
 CloneBufferObjectClassOps
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr

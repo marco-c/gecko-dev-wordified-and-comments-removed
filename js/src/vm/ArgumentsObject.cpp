@@ -5421,6 +5421,7 @@ MappedArgumentsObject
 :
 :
 obj_enumerate
+nullptr
 MappedArgumentsObject
 :
 :
@@ -5519,6 +5520,7 @@ UnmappedArgumentsObject
 :
 :
 obj_enumerate
+nullptr
 UnmappedArgumentsObject
 :
 :

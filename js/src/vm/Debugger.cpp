@@ -511,6 +511,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 DebuggerFrame_finalize
 nullptr
 nullptr
@@ -586,6 +587,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 DebuggerEnv_trace
 }
 ;
@@ -627,6 +629,7 @@ DebuggerObject
 classOps_
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr
@@ -685,6 +688,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 DebuggerScript_trace
 }
 ;
@@ -720,6 +724,7 @@ ClassOps
 DebuggerSource_classOps
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr
@@ -16114,6 +16119,7 @@ Debugger
 classOps_
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr

@@ -2565,6 +2565,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 WasmModuleObject
 :
 :
@@ -5235,6 +5236,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 WasmInstanceObject
 :
 :
@@ -7200,6 +7202,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 WasmMemoryObject
 :
 :
@@ -8530,6 +8533,7 @@ WasmTableObject
 classOps_
 =
 {
+nullptr
 nullptr
 nullptr
 nullptr
