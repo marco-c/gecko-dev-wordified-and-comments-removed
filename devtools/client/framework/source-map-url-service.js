@@ -98,6 +98,14 @@ function
 {
 this
 .
+_sourceMapService
+.
+clearSourceMaps
+(
+)
+;
+this
+.
 _urls
 .
 clear
