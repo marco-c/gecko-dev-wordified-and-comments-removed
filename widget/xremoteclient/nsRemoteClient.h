@@ -17,6 +17,14 @@ nsRemoteClient
 public
 :
 virtual
+~
+nsRemoteClient
+(
+)
+{
+}
+;
+virtual
 nsresult
 Init
 (
