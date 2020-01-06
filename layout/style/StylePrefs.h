@@ -12,6 +12,10 @@ StylePrefs
 {
 static
 bool
+sFontDisplayEnabled
+;
+static
+bool
 sOpentypeSVGEnabled
 ;
 static
