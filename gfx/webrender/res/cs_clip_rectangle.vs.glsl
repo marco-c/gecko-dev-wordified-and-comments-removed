@@ -83,7 +83,7 @@ data
 2
 ]
 =
-fetch_data_2
+fetch_from_resource_cache_2
 (
 index
 )
@@ -137,7 +137,7 @@ data
 2
 ]
 =
-fetch_data_2
+fetch_from_resource_cache_2
 (
 index
 )
@@ -216,7 +216,7 @@ fetch_clip_corner
 (
 index
 +
-1
+2
 )
 ;
 clip
@@ -227,7 +227,7 @@ fetch_clip_corner
 (
 index
 +
-2
+4
 )
 ;
 clip
@@ -238,7 +238,7 @@ fetch_clip_corner
 (
 index
 +
-3
+6
 )
 ;
 clip
@@ -249,7 +249,7 @@ fetch_clip_corner
 (
 index
 +
-4
+8
 )
 ;
 return

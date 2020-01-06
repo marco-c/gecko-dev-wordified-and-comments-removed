@@ -1,11 +1,11 @@
 use
-webrender_traits
+api
 :
 :
 DeviceIntSize
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -14,7 +14,7 @@ GLLimits
 }
 ;
 use
-webrender_traits
+api
 :
 :
 WebGLCommand

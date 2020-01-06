@@ -18,10 +18,6 @@ extern
 crate
 webrender
 ;
-extern
-crate
-webrender_traits
-;
 use
 rand
 :
@@ -41,7 +37,10 @@ webrender
 TexturePage
 ;
 use
-webrender_traits
+webrender
+:
+:
+api
 :
 :
 {

@@ -919,7 +919,7 @@ pub
 enum
 WebGLCommand
 {
-Flush
+FenceAndWaitSync
 }
 #
 [
@@ -1135,10 +1135,6 @@ RenderApiSender
 RenderApiSender
 {
 api_sender
-:
-api_sender
-payload_sender
-:
 payload_sender
 }
 }
@@ -1831,13 +1827,7 @@ send_payload
 Payload
 {
 epoch
-:
-epoch
 pipeline_id
-:
-pipeline_id
-display_list_data
-:
 display_list_data
 }
 )
@@ -2844,13 +2834,6 @@ u32
 }
 #
 [
-repr
-(
-C
-)
-]
-#
-[
 derive
 (
 Clone
@@ -2913,8 +2896,6 @@ key
 :
 *
 self
-value
-:
 value
 }
 }

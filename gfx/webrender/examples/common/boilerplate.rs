@@ -26,7 +26,10 @@ use
 webrender
 ;
 use
-webrender_traits
+webrender
+:
+:
+api
 :
 :
 *
@@ -60,8 +63,6 @@ Notifier
 {
 Notifier
 {
-window_proxy
-:
 window_proxy
 }
 }

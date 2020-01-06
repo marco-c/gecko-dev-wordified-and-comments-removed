@@ -1,5 +1,5 @@
 use
-webrender_traits
+api
 :
 :
 {
@@ -79,10 +79,6 @@ height
 Ellipse
 {
 radius
-:
-radius
-total_arc_length
-:
 total_arc_length
 }
 }

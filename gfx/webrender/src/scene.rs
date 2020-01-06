@@ -23,7 +23,7 @@ hash
 BuildHasherDefault
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -36,7 +36,7 @@ LayoutSize
 }
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -575,19 +575,9 @@ new_pipeline
 ScenePipeline
 {
 pipeline_id
-:
-pipeline_id
-epoch
-:
 epoch
 viewport_size
-:
-viewport_size
 content_size
-:
-content_size
-background_color
-:
 background_color
 }
 ;

@@ -1081,10 +1081,6 @@ GlyphKey
 GlyphKey
 {
 font_key
-:
-font_key
-size
-:
 size
 color
 :
@@ -1095,8 +1091,6 @@ from
 (
 color
 )
-index
-:
 index
 subpixel_point
 :

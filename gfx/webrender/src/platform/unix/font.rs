@@ -5,7 +5,7 @@ app_units
 Au
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -15,7 +15,7 @@ GlyphDimensions
 }
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -24,7 +24,7 @@ GlyphOptions
 }
 ;
 use
-webrender_traits
+api
 :
 :
 {
@@ -355,8 +355,6 @@ enabled
 FontContext
 {
 lib
-:
-lib
 faces
 :
 HashMap
@@ -494,8 +492,6 @@ insert
 font_key
 Face
 {
-face
-:
 face
 }
 )

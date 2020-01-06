@@ -4,14 +4,14 @@ package
 name
 =
 "
-webrender_traits
+webrender_api
 "
 version
 =
 "
 0
 .
-43
+47
 .
 0
 "

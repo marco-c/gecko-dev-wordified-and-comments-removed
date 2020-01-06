@@ -11,7 +11,7 @@ version
 "
 0
 .
-43
+47
 .
 0
 "
@@ -106,7 +106,7 @@ webgl
 offscreen_gl_context
 "
 "
-webrender_traits
+webrender_api
 /
 webgl
 "
@@ -150,6 +150,8 @@ euclid
 0
 .
 15
+.
+1
 "
 fnv
 =
@@ -165,7 +167,7 @@ gleam
 .
 4
 .
-3
+7
 "
 lazy_static
 =
@@ -230,7 +232,7 @@ rayon
 .
 8
 "
-webrender_traits
+webrender_api
 =
 {
 path
@@ -239,7 +241,7 @@ path
 .
 .
 /
-webrender_traits
+webrender_api
 "
 }
 bitflags
@@ -247,7 +249,7 @@ bitflags
 "
 0
 .
-7
+9
 "
 gamma
 -
@@ -435,17 +437,13 @@ text
 version
 =
 "
-5
-.
-0
+6
 .
 1
 "
+default
+-
 features
 =
-[
-"
-lion
-"
-]
+false
 }

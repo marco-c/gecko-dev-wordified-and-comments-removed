@@ -59,7 +59,7 @@ path
 PathBuf
 ;
 use
-webrender_traits
+api
 :
 :
 ApiMsg
@@ -262,8 +262,6 @@ ok
 ;
 BinaryRecorder
 {
-file
-:
 file
 }
 }
