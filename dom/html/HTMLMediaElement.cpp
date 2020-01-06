@@ -16399,10 +16399,6 @@ mShutdownObserver
 new
 ShutdownObserver
 )
-mCurrentLoadID
-(
-0
-)
 mSourcePointer
 (
 nullptr
@@ -16426,6 +16422,10 @@ HTMLMediaElement
 :
 mReadyState
 "
+)
+mCurrentLoadID
+(
+0
 )
 mLoadWaitStatus
 (

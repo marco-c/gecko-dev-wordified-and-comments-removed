@@ -3251,9 +3251,6 @@ ChannelLoader
 >
 mChannelLoader
 ;
-uint32_t
-mCurrentLoadID
-;
 nsCOMPtr
 <
 nsIContent
@@ -3287,6 +3284,9 @@ LoadAlgorithmState
 NOT_WAITING
 WAITING_FOR_SOURCE
 }
+;
+uint32_t
+mCurrentLoadID
 ;
 LoadAlgorithmState
 mLoadWaitStatus
