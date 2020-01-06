@@ -75,9 +75,6 @@ use
 webrender
 :
 :
-renderer
-:
-:
 {
 ReadPixelsFormat
 Renderer
@@ -88,9 +85,6 @@ use
 webrender
 :
 :
-renderer
-:
-:
 {
 ExternalImage
 ExternalImageHandler
@@ -99,9 +93,6 @@ ExternalImageSource
 ;
 use
 webrender
-:
-:
-renderer
 :
 :
 DebugFlags
