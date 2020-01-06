@@ -2039,6 +2039,14 @@ y
 )
 )
 ;
+aLayerData
+-
+>
+SetEventRegionsOverride
+(
+mEventRegionsOverride
+)
+;
 }
 return
 true
