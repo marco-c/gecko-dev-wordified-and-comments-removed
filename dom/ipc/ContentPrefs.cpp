@@ -801,6 +801,13 @@ backend
 "
 media
 .
+cubeb
+.
+sandbox
+"
+"
+media
+.
 cubeb_latency_msg_frames
 "
 "
