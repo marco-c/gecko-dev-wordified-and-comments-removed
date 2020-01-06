@@ -1857,7 +1857,11 @@ what
 :
             
 from
-autotry
+tryselect
+.
+selectors
+.
+syntax
 import
 AutoTry
             
@@ -1875,11 +1879,17 @@ _mach_context
 )
             
 changed_files
+changed_tags
 =
 at
 .
-find_changed_files
+find_paths_and_tags
 (
+                
+False
+detect_paths
+=
+True
 )
             
 if
