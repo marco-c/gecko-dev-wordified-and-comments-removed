@@ -761,11 +761,16 @@ GenericLineHeight
 :
 Length
 (
+context
+.
+maybe_zoom_text
+(
 length
 .
 to_computed_value
 (
 context
+)
 )
 )
 }
@@ -845,7 +850,7 @@ computed_calc
 =
 calc
 .
-to_computed_value
+to_computed_value_zoomed
 (
 context
 )
