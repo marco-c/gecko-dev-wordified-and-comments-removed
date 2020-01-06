@@ -4501,7 +4501,7 @@ else
 aFrame
 -
 >
-SetProperty
+AddProperty
 (
 nsIFrame
 :
@@ -4642,7 +4642,7 @@ else
 aFrame
 -
 >
-SetProperty
+AddProperty
 (
 nsIFrame
 :
@@ -11488,7 +11488,7 @@ else
 aFrame
 -
 >
-SetProperty
+AddProperty
 (
 aProperty
 new
