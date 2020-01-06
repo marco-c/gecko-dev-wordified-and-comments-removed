@@ -609,6 +609,7 @@ nsITimer
 *
 aTimer
 )
+override
 {
 RefPtr
 <
