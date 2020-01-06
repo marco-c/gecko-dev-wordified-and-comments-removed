@@ -279,10 +279,8 @@ repository
 public
 abstract
 void
-fetchSince
+fetchModified
 (
-long
-timestamp
 RepositorySessionFetchRecordsDelegate
 delegate
 )

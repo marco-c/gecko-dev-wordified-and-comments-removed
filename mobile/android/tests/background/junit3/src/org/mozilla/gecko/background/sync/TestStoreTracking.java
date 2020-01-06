@@ -579,9 +579,8 @@ fetchEnd
 ;
 session
 .
-fetchSince
+fetchModified
 (
-0
 new
 SimpleSuccessFetchDelegate
 (
@@ -894,9 +893,8 @@ session
 {
 session
 .
-fetchSince
+fetchModified
 (
-0
 new
 SimpleSuccessFetchDelegate
 (

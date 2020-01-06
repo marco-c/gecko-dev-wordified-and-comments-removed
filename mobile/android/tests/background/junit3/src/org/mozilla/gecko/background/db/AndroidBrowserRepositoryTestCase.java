@@ -1140,9 +1140,8 @@ run
 {
 session
 .
-fetchSince
+fetchModified
 (
-timestamp
 preparedExpectFetchSinceDelegate
 (
 timestamp

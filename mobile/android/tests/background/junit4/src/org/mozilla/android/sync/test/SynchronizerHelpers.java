@@ -358,10 +358,8 @@ this
 Override
 public
 void
-fetchSince
+fetchModified
 (
-long
-timestamp
 final
 RepositorySessionFetchRecordsDelegate
 delegate
@@ -369,9 +367,8 @@ delegate
 {
 super
 .
-fetchSince
+fetchModified
 (
-timestamp
 new
 RepositorySessionFetchRecordsDelegate
 (
