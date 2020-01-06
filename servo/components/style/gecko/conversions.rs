@@ -2165,7 +2165,6 @@ enumerate
 )
 {
 let
-mut
 gecko_stop
 =
 unsafe

@@ -6048,7 +6048,6 @@ borrow_mut
 )
 ;
 let
-mut
 data
 =
 &
@@ -6262,7 +6261,6 @@ borrow_mut
 )
 ;
 let
-mut
 data
 =
 &
@@ -6362,7 +6360,6 @@ borrow_mut
 )
 ;
 let
-mut
 data
 =
 &
@@ -6467,7 +6464,6 @@ borrow_mut
 )
 ;
 let
-mut
 data
 =
 &
@@ -8884,7 +8880,6 @@ StyleRule
 |
 {
 let
-mut
 specificity
 =
 unsafe
@@ -18815,7 +18810,6 @@ bool
 u32
 {
 let
-mut
 was_restyled
 =
 unsafe

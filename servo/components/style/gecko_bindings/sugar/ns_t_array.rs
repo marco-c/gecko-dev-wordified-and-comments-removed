@@ -503,7 +503,6 @@ usize
 )
 ;
 let
-mut
 header
 =
 self
@@ -546,7 +545,6 @@ usize
 )
 ;
 let
-mut
 header
 =
 unsafe

@@ -36626,7 +36626,6 @@ filter
 __bindgen_anon_1
 ;
 let
-mut
 shadow_array
 :
 &
@@ -36659,7 +36658,6 @@ shadow_array
 }
 }
 let
-mut
 gecko_shadow
 =
 init_shadow
@@ -41086,7 +41084,6 @@ ident
 __bindgen_anon_1
 ;
 let
-mut
 shape
 :
 &
@@ -41132,7 +41129,6 @@ inset
 >
 {
 let
-mut
 shape
 =
 init_shape
@@ -41368,7 +41364,6 @@ circ
 >
 {
 let
-mut
 shape
 =
 init_shape
@@ -41445,7 +41440,6 @@ el
 >
 {
 let
-mut
 shape
 =
 init_shape
@@ -41549,7 +41543,6 @@ poly
 >
 {
 let
-mut
 shape
 =
 init_shape
@@ -42448,7 +42441,6 @@ u32
 }
 for
 (
-mut
 gecko
 servo
 )
@@ -42990,7 +42982,6 @@ mContextPropsBits
 ;
 for
 (
-mut
 gecko
 servo
 )
