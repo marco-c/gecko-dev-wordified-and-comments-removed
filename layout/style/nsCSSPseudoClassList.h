@@ -396,7 +396,7 @@ system
 -
 metric
 "
-0
+CSS_PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 "
 "
 )
