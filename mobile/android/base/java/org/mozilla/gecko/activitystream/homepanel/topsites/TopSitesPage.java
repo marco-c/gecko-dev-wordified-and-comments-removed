@@ -79,6 +79,16 @@ NUM_ROWS
 2
 ;
 public
+static
+final
+int
+NUM_TILES
+=
+NUM_COLUMNS
+*
+NUM_ROWS
+;
+public
 TopSitesPage
 (
 Context

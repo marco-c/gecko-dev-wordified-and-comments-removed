@@ -290,8 +290,6 @@ bind
 Cursor
 cursor
 int
-tiles
-int
 tilesSize
 )
 {
@@ -312,7 +310,6 @@ adapter
 .
 setTilesSize
 (
-tiles
 tilesSize
 )
 ;

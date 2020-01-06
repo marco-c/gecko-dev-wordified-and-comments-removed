@@ -825,13 +825,6 @@ adapter
 .
 setTileSize
 (
-TopSitesPage
-.
-NUM_COLUMNS
-*
-TopSitesPage
-.
-NUM_ROWS
 tilesSize
 )
 ;
