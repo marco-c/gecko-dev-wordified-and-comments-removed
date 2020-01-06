@@ -46347,9 +46347,6 @@ failed
 "
 MOZ_ASSERT
 (
-true
-|
-|
 JS_IsExceptionPending
 (
 cx
@@ -106924,23 +106921,8 @@ aGivenProto
 )
 {
                   
-/
-/
-XXX
-Assertion
-disabled
-for
-now
-see
-bug
-991271
-.
-                  
 MOZ_ASSERT
 (
-true
-|
-|
 JS_IsExceptionPending
 (
 cx
