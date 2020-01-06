@@ -1495,7 +1495,7 @@ aSelect
 )
 ;
 nsresult
-getTableCellLocationFromRange
+GetTableCellLocationFromRange
 (
 nsRange
 *

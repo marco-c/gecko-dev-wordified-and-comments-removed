@@ -13281,7 +13281,7 @@ nsresult
 Selection
 :
 :
-getTableCellLocationFromRange
+GetTableCellLocationFromRange
 (
 nsRange
 *
@@ -13534,7 +13534,7 @@ tableMode
 ;
 result
 =
-getTableCellLocationFromRange
+GetTableCellLocationFromRange
 (
 aRange
 &
