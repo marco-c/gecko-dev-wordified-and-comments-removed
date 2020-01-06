@@ -167,16 +167,6 @@ tar
 .
 gz
 docs
-run
--
-on
--
-projects
-:
--
-integration
--
-release
 when
 :
 files
