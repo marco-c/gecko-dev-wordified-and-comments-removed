@@ -558,6 +558,9 @@ MAX_INDEX_DIFF
 )
 )
 {
+#
+ifndef
+NIGHTLY_BUILD
 mIndexDeltas
 .
 LastElement
@@ -568,6 +571,8 @@ Compact
 (
 )
 ;
+#
+endif
 if
 (
 !
@@ -656,6 +661,9 @@ i
 ]
 ;
 }
+#
+ifndef
+NIGHTLY_BUILD
 mIndexDeltas
 .
 LastElement
@@ -678,6 +686,8 @@ Compact
 (
 )
 ;
+#
+endif
 LOG
 (
 (
