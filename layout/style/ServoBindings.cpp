@@ -3740,9 +3740,6 @@ const
 char16_t
 *
 aIdent
-bool
-*
-aSetSlowSelectorFlag
 )
 {
 EventStates
@@ -3763,9 +3760,7 @@ aElement
 OwnerDoc
 (
 )
-true
 dummyMask
-aSetSlowSelectorFlag
 nullptr
 )
 ;

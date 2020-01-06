@@ -456,16 +456,11 @@ const
 nsIDocument
 *
 aDocument
-bool
-aForStyling
 mozilla
 :
 :
 EventStates
 aStateMask
-bool
-*
-aSetSlowSelectorFlag
 bool
 *
 const
