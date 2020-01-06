@@ -3711,7 +3711,7 @@ GetImgTools
 )
 -
 >
-DecodeImageData
+DecodeImage
 (
 stream
 payload
