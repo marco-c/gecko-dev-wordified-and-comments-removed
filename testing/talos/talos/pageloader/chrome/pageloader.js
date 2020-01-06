@@ -385,6 +385,9 @@ SingleTimeout
 (
 )
 ;
+var
+renderReport
+;
 function
 plInit
 (
@@ -1709,6 +1712,9 @@ message
 )
 ;
 }
+return
+undefined
+;
 }
 }
 ;
@@ -2854,9 +2860,6 @@ pageCycle
 +
 "
 )
-"
-+
-"
 :
 loaded
 "

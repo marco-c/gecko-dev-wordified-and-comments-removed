@@ -795,13 +795,6 @@ Finish
 "
 :
 {
-let
-profileFile
-=
-data
-.
-profileFile
-;
 this
 .
 profilerFinish
