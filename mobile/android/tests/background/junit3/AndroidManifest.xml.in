@@ -87,7 +87,7 @@ android
 minSdkVersion
 =
 "
-8
+MOZ_ANDROID_MIN_SDK_VERSION
 "
 android
 :

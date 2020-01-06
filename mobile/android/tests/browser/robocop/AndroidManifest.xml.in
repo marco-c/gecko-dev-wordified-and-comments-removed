@@ -111,7 +111,7 @@ android
 targetSdkVersion
 =
 "
-23
+ANDROID_TARGET_SDK
 "
 /
 >
