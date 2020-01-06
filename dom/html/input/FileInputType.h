@@ -58,6 +58,15 @@ IsValueMissing
 const
 override
 ;
+nsresult
+GetValueMissingMessage
+(
+nsXPIDLString
+&
+aMessage
+)
+override
+;
 private
 :
 explicit
