@@ -1493,7 +1493,7 @@ R
 .
 string
 .
-contextmenu_add_to_launcher
+contextmenu_add_page_shortcut
 )
 ;
 CONTEXT_MENU_PIN_SITE

@@ -4945,11 +4945,11 @@ string
 name
 =
 "
-contextmenu_add_to_launcher
+contextmenu_add_page_shortcut
 "
 >
 &
-contextmenu_add_to_launcher
+contextmenu_add_page_shortcut
 ;
 <
 /
@@ -7905,11 +7905,11 @@ string
 name
 =
 "
-promotion_add_to_homescreen
+promotion_add_page_shortcut
 "
 >
 &
-promotion_add_to_homescreen
+promotion_add_page_shortcut
 ;
 <
 /

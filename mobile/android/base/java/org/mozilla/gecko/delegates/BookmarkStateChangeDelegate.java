@@ -907,7 +907,7 @@ R
 .
 string
 .
-contextmenu_add_to_launcher
+contextmenu_add_page_shortcut
 )
 ;
 Telemetry
@@ -1043,7 +1043,7 @@ R
 .
 string
 .
-contextmenu_add_to_launcher
+contextmenu_add_page_shortcut
 )
 )
 ;
