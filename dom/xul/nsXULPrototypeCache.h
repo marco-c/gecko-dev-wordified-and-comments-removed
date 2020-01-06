@@ -396,7 +396,7 @@ StyleSheetTable
 ;
 StyleSheetTable
 &
-TableForBackendType
+StyleSheetTableFor
 (
 mozilla
 :

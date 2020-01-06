@@ -833,7 +833,7 @@ StyleSheetTable
 &
 table
 =
-TableForBackendType
+StyleSheetTableFor
 (
 aType
 )
@@ -875,7 +875,7 @@ StyleSheetTable
 &
 table
 =
-TableForBackendType
+StyleSheetTableFor
 (
 aType
 )
@@ -1184,7 +1184,7 @@ StyleSheetTable
 &
 table
 =
-TableForBackendType
+StyleSheetTableFor
 (
 tableType
 )
