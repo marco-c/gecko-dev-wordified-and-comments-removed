@@ -204,7 +204,7 @@ ConnectionType
 aType
 bool
 aIsWifi
-bool
+uint32_t
 aDHCPGateway
 bool
 aNotify
