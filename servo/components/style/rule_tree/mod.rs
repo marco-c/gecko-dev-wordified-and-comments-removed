@@ -2364,7 +2364,6 @@ UANormal
 0
 PresHints
 UserNormal
-XBL
 AuthorNormal
 StyleAttributeNormal
 SMILOverride
@@ -6080,11 +6079,6 @@ CascadeLevel
 :
 :
 PresHints
-|
-CascadeLevel
-:
-:
-XBL
 |
 CascadeLevel
 :
