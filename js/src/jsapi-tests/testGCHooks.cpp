@@ -19,15 +19,6 @@ h
 #
 include
 "
-js
-/
-GCAPI
-.
-h
-"
-#
-include
-"
 jsapi
 -
 tests
