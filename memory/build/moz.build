@@ -149,11 +149,6 @@ SOURCES
 =
 [
 '
-jemalloc_config
-.
-cpp
-'
-'
 mozmemory_wrap
 .
 c
