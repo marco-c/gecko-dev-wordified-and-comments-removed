@@ -276,11 +276,11 @@ ExplicitChildIterator
 >
 mShadowIterator
 ;
-uint32_t
-mIndexInInserted
-;
 bool
 mIsFirst
+;
+uint32_t
+mIndexInInserted
 ;
 }
 ;
