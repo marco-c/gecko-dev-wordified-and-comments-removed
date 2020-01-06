@@ -9740,14 +9740,6 @@ if
 this
 .
 _pendingUpdate
-&
-&
-aEvent
-.
-button
-=
-=
-0
 )
 {
 let
