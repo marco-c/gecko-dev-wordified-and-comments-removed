@@ -1,4 +1,10 @@
 #
+ifndef
+ROUNDED_RECT_H
+#
+define
+ROUNDED_RECT_H
+#
 include
 "
 gfxRect
@@ -401,3 +407,5 @@ corners
 }
 ;
 }
+#
+endif
