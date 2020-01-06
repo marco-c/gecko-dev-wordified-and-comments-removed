@@ -8089,6 +8089,15 @@ Enter
 #
 ifndef
 MOZ_WIDGET_ANDROID
+if
+(
+!
+mMaster
+-
+>
+mLooping
+)
+{
 Reader
 (
 )
@@ -8098,6 +8107,7 @@ ReleaseResources
 (
 )
 ;
+}
 #
 endif
 bool
