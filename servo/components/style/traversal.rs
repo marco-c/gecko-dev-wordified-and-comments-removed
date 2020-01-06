@@ -2389,7 +2389,7 @@ Forgetful
 {
 data
 .
-clear_restyle_state
+clear_restyle_flags_and_damage
 (
 )
 ;
