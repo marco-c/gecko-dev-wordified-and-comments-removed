@@ -189,17 +189,6 @@ void
 nsIWidgetListener
 :
 :
-OcclusionStateChanged
-(
-bool
-aIsFullyOccluded
-)
-{
-}
-void
-nsIWidgetListener
-:
-:
 WindowActivated
 (
 )

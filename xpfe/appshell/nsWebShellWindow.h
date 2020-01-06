@@ -215,15 +215,6 @@ override
 ;
 virtual
 void
-OcclusionStateChanged
-(
-bool
-aIsFullyOccluded
-)
-override
-;
-virtual
-void
 OSToolbarButtonPressed
 (
 )

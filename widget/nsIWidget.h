@@ -1725,15 +1725,6 @@ SizeMode
 0
 ;
 virtual
-bool
-IsFullyOccluded
-(
-)
-const
-=
-0
-;
-virtual
 void
 Enable
 (
