@@ -312,6 +312,8 @@ only
 applies
 to
 cookies
+and
+localStorage
 )
 .
 "
