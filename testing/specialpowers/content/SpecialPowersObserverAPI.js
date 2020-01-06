@@ -103,16 +103,6 @@ call
 this
 )
 ;
-let
-{
-stack
-}
-=
-new
-Error
-(
-)
-;
 this
 .
 message
@@ -595,8 +585,6 @@ prototype
 =
 {
 _observe
-:
-function
 (
 aSubject
 aTopic
@@ -627,7 +615,6 @@ catch
 ex
 )
 {
-var
 id
 =
 null
@@ -646,8 +633,6 @@ push
 (
 {
 id
-:
-id
 extension
 :
 "
@@ -663,8 +648,6 @@ dumpIDs
 push
 (
 {
-id
-:
 id
 extension
 :
@@ -860,8 +843,6 @@ break
 }
 }
 _getCrashDumpDir
-:
-function
 (
 )
 {
@@ -910,8 +891,6 @@ _crashDumpDir
 ;
 }
 _getPendingCrashDumpDir
-:
-function
 (
 )
 {
@@ -972,8 +951,6 @@ _pendingCrashDumpDir
 ;
 }
 _getExtraData
-:
-function
 (
 dumpId
 )
@@ -1025,8 +1002,6 @@ extraFile
 ;
 }
 _deleteCrashDumpFiles
-:
-function
 (
 aFilenames
 )
@@ -1121,8 +1096,6 @@ success
 ;
 }
 _findCrashDumpFiles
-:
-function
 (
 aToIgnore
 )
@@ -1245,8 +1218,6 @@ concat
 ;
 }
 _deletePendingCrashDumpFiles
-:
-function
 (
 )
 {
@@ -1333,8 +1304,6 @@ removed
 ;
 }
 _getURI
-:
-function
 (
 url
 )
@@ -1351,8 +1320,6 @@ url
 ;
 }
 _readUrlAsString
-:
-function
 (
 aUrl
 )
@@ -1553,8 +1520,6 @@ output
 ;
 }
 _sendReply
-:
-function
 (
 aMessage
 aReplyName
@@ -1589,8 +1554,6 @@ aReplyMsg
 ;
 }
 _notifyCategoryAndObservers
-:
-function
 (
 subject
 topic
@@ -1875,8 +1838,6 @@ e
 ;
 }
 _receiveMessageAPI
-:
-function
 (
 aMessage
 )
@@ -2126,7 +2087,6 @@ prefName
 )
 )
 ;
-else
 return
 (
 prefs
@@ -2166,7 +2126,6 @@ prefName
 )
 )
 ;
-else
 return
 (
 prefs
@@ -2206,7 +2165,6 @@ prefName
 )
 )
 ;
-else
 return
 (
 prefs
@@ -2250,7 +2208,6 @@ prefValue
 )
 )
 ;
-else
 return
 (
 prefs
@@ -2894,13 +2851,7 @@ SPChromeScriptMessage
 "
 {
 id
-:
-id
 name
-:
-name
-message
-:
 message
 }
 )
@@ -2926,13 +2877,7 @@ push
 (
 {
 id
-:
-id
 name
-:
-name
-listener
-:
 listener
 }
 )
@@ -2987,8 +2932,6 @@ assert
 "
 {
 get
-:
-function
 (
 )
 {
@@ -3704,6 +3647,9 @@ errors
 )
 ;
 }
+return
+undefined
+;
 }
 )
 ;

@@ -402,8 +402,6 @@ request
 "
 {
 uri
-:
-uri
 }
 )
 ;
@@ -1477,8 +1475,6 @@ _topics
 [
 ]
 _add
-:
-function
 (
 topic
 )
@@ -1519,8 +1515,6 @@ topic
 }
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -1531,8 +1525,6 @@ var
 msg
 =
 {
-aData
-:
 aData
 }
 ;
@@ -1751,8 +1743,8 @@ CreateFiles
 let
 filePaths
 =
-new
-Array
+[
+]
 ;
 if
 (
@@ -1766,8 +1758,8 @@ this
 .
 _createdFiles
 =
-new
-Array
+[
+]
 ;
 }
 let
@@ -2143,6 +2135,9 @@ aMessage
 )
 ;
 }
+return
+undefined
+;
 }
 ;
 this
@@ -2168,8 +2163,6 @@ freeze
 (
 {
 createInstance
-:
-function
 (
 outer
 id
@@ -2195,8 +2188,6 @@ SpecialPowersObserver
 ;
 }
 loadFactory
-:
-function
 (
 lock
 )

@@ -168,8 +168,6 @@ window
 return
 {
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -200,8 +198,6 @@ aIID
 ;
 }
 lockFactory
-:
-function
 (
 aLock
 )
@@ -333,8 +329,6 @@ pendingPromises
 [
 ]
 init
-:
-function
 (
 window
 )
@@ -419,8 +413,6 @@ factory
 }
 }
 reset
-:
-function
 (
 )
 {
@@ -500,8 +492,6 @@ false
 ;
 }
 cleanup
-:
-function
 (
 )
 {
@@ -600,8 +590,6 @@ null
 ;
 }
 useAnyFile
-:
-function
 (
 )
 {
@@ -688,8 +676,6 @@ nsIFile
 :
 file
 domFile
-:
-domFile
 }
 )
 ]
@@ -719,8 +705,6 @@ promise
 ;
 }
 useBlobFile
-:
-function
 (
 )
 {
@@ -793,8 +777,6 @@ pendingPromises
 ;
 }
 useDirectory
-:
-function
 (
 aPath
 )
@@ -938,8 +920,6 @@ nsIFile
 :
 file
 domFile
-:
-domFile
 }
 )
 )
@@ -1023,8 +1003,6 @@ nsIFilePicker
 ]
 )
 init
-:
-function
 (
 aParent
 aTitle
@@ -1053,8 +1031,6 @@ aParent
 ;
 }
 appendFilter
-:
-function
 (
 aTitle
 aFilter
@@ -1083,8 +1059,6 @@ aFilter
 ;
 }
 appendFilters
-:
-function
 (
 aFilterMask
 )
@@ -1305,8 +1279,6 @@ nsISimpleEnumerator
 ]
 )
 hasMoreElements
-:
-function
 (
 )
 {
@@ -1323,8 +1295,6 @@ length
 ;
 }
 getNext
-:
-function
 (
 )
 {
@@ -1370,9 +1340,6 @@ domFileOrDirectoryEnumerator
 (
 )
 {
-let
-utils
-=
 this
 .
 parent
@@ -1409,8 +1376,6 @@ nsISimpleEnumerator
 ]
 )
 hasMoreElements
-:
-function
 (
 )
 {
@@ -1427,8 +1392,6 @@ length
 ;
 }
 getNext
-:
-function
 (
 )
 {
@@ -1498,8 +1461,6 @@ null
 ;
 }
 show
-:
-function
 (
 )
 {
@@ -1513,8 +1474,6 @@ implemented
 ;
 }
 open
-:
-function
 (
 aFilePickerShownCallback
 )

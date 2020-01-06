@@ -39,16 +39,12 @@ prototype
 =
 {
 init
-:
-function
 (
 path
 )
 {
 }
 getLogCallback
-:
-function
 (
 )
 {
@@ -75,8 +71,6 @@ data
 ;
 }
 log
-:
-function
 (
 msg
 )
@@ -88,8 +82,6 @@ msg
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -133,8 +125,6 @@ prototype
 =
 {
 init
-:
-function
 (
 path
 )
@@ -148,8 +138,6 @@ path
 ;
 }
 getLogCallback
-:
-function
 (
 )
 {
@@ -201,8 +189,6 @@ closeLogFile
 ;
 }
 log
-:
-function
 (
 msg
 )
@@ -216,8 +202,6 @@ msg
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -267,8 +251,6 @@ prototype
 =
 {
 init
-:
-function
 (
 path
 )
@@ -433,8 +415,6 @@ UTF
 ;
 }
 getLogCallback
-:
-function
 (
 )
 {
@@ -496,8 +476,6 @@ close
 ;
 }
 log
-:
-function
 (
 msg
 )
@@ -521,8 +499,6 @@ msg
 }
 }
 close
-:
-function
 (
 )
 {

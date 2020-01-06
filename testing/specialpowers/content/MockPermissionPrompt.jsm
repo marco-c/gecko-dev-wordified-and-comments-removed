@@ -160,8 +160,6 @@ newFactory
 =
 {
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -191,8 +189,6 @@ aIID
 ;
 }
 lockFactory
-:
-function
 (
 aLock
 )
@@ -225,8 +221,6 @@ MockPermissionPrompt
 =
 {
 init
-:
-function
 (
 )
 {
@@ -342,15 +336,11 @@ newFactory
 }
 }
 reset
-:
-function
 (
 )
 {
 }
 cleanup
-:
-function
 (
 )
 {
@@ -419,8 +409,6 @@ nsIPermissionManager
 .
 UNKNOWN_ACTION
 prompt
-:
-function
 (
 request
 )

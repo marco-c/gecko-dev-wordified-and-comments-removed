@@ -154,8 +154,6 @@ window
 return
 {
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -186,8 +184,6 @@ aIID
 ;
 }
 lockFactory
-:
-function
 (
 aLock
 )
@@ -221,8 +217,6 @@ MockColorPicker
 =
 {
 init
-:
-function
 (
 window
 )
@@ -359,8 +353,6 @@ factory
 }
 }
 reset
-:
-function
 (
 )
 {
@@ -391,8 +383,6 @@ false
 ;
 }
 cleanup
-:
-function
 (
 )
 {
@@ -484,8 +474,6 @@ nsIColorPicker
 ]
 )
 init
-:
-function
 (
 aParent
 aTitle
@@ -513,8 +501,6 @@ parent
 :
 null
 open
-:
-function
 (
 aColorPickerShownCallback
 )
