@@ -1850,7 +1850,6 @@ MakeUnique
 CustomElementCallbackReaction
 >
 (
-aDefinition
 Move
 (
 callback
@@ -2075,7 +2074,6 @@ reactionsStack
 EnqueueCallbackReaction
 (
 aCustomElement
-definition
 Move
 (
 callback
@@ -4424,9 +4422,6 @@ EnqueueCallbackReaction
 Element
 *
 aElement
-CustomElementDefinition
-*
-aDefinition
 UniquePtr
 <
 CustomElementCallback
@@ -4440,7 +4435,6 @@ aElement
 new
 CustomElementCallbackReaction
 (
-aDefinition
 Move
 (
 aCustomElementCallback
