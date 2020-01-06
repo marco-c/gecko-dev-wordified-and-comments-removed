@@ -4002,6 +4002,13 @@ type
 search
 "
 ]
+:
+not
+(
+[
+searchbutton
+]
+)
 >
 .
 textbox
@@ -4039,6 +4046,13 @@ type
 search
 "
 ]
+:
+not
+(
+[
+searchbutton
+]
+)
 >
 .
 textbox
