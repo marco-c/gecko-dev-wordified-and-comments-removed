@@ -6521,9 +6521,9 @@ layers
 LayerManager
 *
 aManager
-nsView
+nsPresContext
 *
-aView
+aPresContext
 )
 ;
 }

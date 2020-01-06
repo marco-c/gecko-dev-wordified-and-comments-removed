@@ -28453,7 +28453,7 @@ GetRoot
 MaybeSetupTransactionIdAllocator
 (
 layerManager
-aViewToPaint
+presContext
 )
 ;
 if
@@ -28868,7 +28868,7 @@ root
 MaybeSetupTransactionIdAllocator
 (
 layerManager
-aViewToPaint
+presContext
 )
 ;
 layerManager
