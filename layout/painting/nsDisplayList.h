@@ -4901,6 +4901,10 @@ mReferenceFrame
 (
 nullptr
 )
+mAnimatedGeometryRoot
+(
+nullptr
+)
 mForceNotVisible
 (
 false
