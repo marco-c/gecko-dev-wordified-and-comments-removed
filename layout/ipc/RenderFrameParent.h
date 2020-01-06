@@ -619,6 +619,12 @@ mRemoteFrame
 mozilla
 :
 :
+LayoutDeviceIntPoint
+mOffset
+;
+mozilla
+:
+:
 layers
 :
 :
