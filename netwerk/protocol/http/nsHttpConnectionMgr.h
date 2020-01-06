@@ -2079,6 +2079,14 @@ nsAHttpTransaction
 trans
 )
 ;
+void
+CheckConnEntryMustBeInmCT
+(
+nsHttpConnectionInfo
+*
+ci
+)
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
