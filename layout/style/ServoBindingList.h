@@ -288,16 +288,6 @@ declarations
 )
 SERVO_BINDING_FUNC
 (
-Servo_StyleSet_MightHaveAttributeDependency
-bool
-RawServoStyleSetBorrowed
-set
-nsIAtom
-*
-local_name
-)
-SERVO_BINDING_FUNC
-(
 Servo_CssRules_ListTypes
 void
 ServoCssRulesBorrowed

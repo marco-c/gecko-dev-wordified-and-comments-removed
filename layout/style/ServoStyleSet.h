@@ -1082,14 +1082,6 @@ mNeedsRestyleAfterEnsureUniqueInner
 true
 ;
 }
-bool
-MightHaveAttributeDependency
-(
-nsIAtom
-*
-aAttribute
-)
-;
 private
 :
 class
