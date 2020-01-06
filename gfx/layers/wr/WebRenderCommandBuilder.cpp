@@ -2256,7 +2256,7 @@ clippedBounds
 aItem
 -
 >
-ComputeVisibility
+RecomputeVisibility
 (
 aDisplayListBuilder
 &
