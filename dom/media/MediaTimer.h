@@ -13,6 +13,15 @@ include
 "
 mozilla
 /
+AbstractThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntegerPrintfMacros
 .
 h

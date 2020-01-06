@@ -33,6 +33,15 @@ h
 #
 include
 "
+mozilla
+/
+Telemetry
+.
+h
+"
+#
+include
+"
 prsystem
 .
 h
