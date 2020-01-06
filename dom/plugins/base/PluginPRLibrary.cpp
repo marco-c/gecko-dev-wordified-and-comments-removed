@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PluginPRLibrary
 .
 h
@@ -43,6 +52,7 @@ CALLING_CONVENTION_HACK
 void
 *
 foo
+MOZ_UNUSED_ATTRIBUTE
 =
 _alloca
 (
