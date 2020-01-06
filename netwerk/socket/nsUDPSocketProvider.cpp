@@ -55,6 +55,8 @@ OriginAttributes
 originAttributes
 uint32_t
 aFlags
+uint32_t
+aTlsFlags
 PRFileDesc
 *
 *
@@ -119,6 +121,8 @@ OriginAttributes
 originAttributes
 uint32_t
 aFlags
+uint32_t
+aTlsFlags
 struct
 PRFileDesc
 *

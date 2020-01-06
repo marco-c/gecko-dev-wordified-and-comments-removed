@@ -470,6 +470,10 @@ bool
 &
 beConservative
 const
+uint32_t
+&
+tlsFlags
+const
 OptionalLoadInfoArgs
 &
 aLoadInfoArgs

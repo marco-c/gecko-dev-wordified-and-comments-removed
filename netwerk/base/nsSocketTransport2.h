@@ -1046,6 +1046,9 @@ mHttpsProxy
 uint32_t
 mConnectionFlags
 ;
+uint32_t
+mTlsFlags
+;
 bool
 mReuseAddrPort
 ;

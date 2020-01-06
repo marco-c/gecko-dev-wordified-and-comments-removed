@@ -310,6 +310,8 @@ char
 destinationHost
 uint32_t
 flags
+uint32_t
+tlsFlags
 )
 ;
 void
@@ -978,6 +980,9 @@ mDestinationFamily
 uint32_t
 mFlags
 ;
+uint32_t
+mTlsFlags
+;
 NetAddr
 mInternalProxyAddr
 ;
@@ -1032,6 +1037,10 @@ mDestinationFamily
 AF_INET
 )
 mFlags
+(
+0
+)
+mTlsFlags
 (
 0
 )
@@ -1659,6 +1668,8 @@ char
 host
 uint32_t
 flags
+uint32_t
+tlsFlags
 )
 {
 mVersion
@@ -1680,6 +1691,10 @@ host
 mFlags
 =
 flags
+;
+mTlsFlags
+=
+tlsFlags
 ;
 mProxy
 -
@@ -7080,6 +7095,8 @@ int32_t
 socksVersion
 uint32_t
 flags
+uint32_t
+tlsFlags
 PRFileDesc
 *
 fd
@@ -7340,6 +7357,7 @@ family
 proxy
 host
 flags
+tlsFlags
 )
 ;
 layer

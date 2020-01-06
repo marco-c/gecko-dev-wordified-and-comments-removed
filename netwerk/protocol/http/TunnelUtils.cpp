@@ -389,6 +389,7 @@ OriginAttributes
 (
 )
 0
+0
 mFD
 getter_AddRefs
 (
@@ -7150,6 +7151,18 @@ uint32_t
 FWD_TS
 (
 SetConnectionFlags
+uint32_t
+)
+;
+FWD_TS_PTR
+(
+GetTlsFlags
+uint32_t
+)
+;
+FWD_TS
+(
+SetTlsFlags
 uint32_t
 )
 ;

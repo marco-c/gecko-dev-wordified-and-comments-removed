@@ -844,6 +844,9 @@ allowAltSvc
 bool
 beConservative
 ;
+uint32_t
+tlsFlags
+;
 OptionalLoadInfoArgs
 loadInfo
 ;

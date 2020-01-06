@@ -188,6 +188,8 @@ OriginAttributes
 originAttributes
 uint32_t
 flags
+uint32_t
+tlsFlags
 PRFileDesc
 *
 *
@@ -267,6 +269,7 @@ port
 proxy
 mVersion
 flags
+tlsFlags
 sock
 socksInfo
 )
@@ -315,6 +318,8 @@ OriginAttributes
 originAttributes
 uint32_t
 flags
+uint32_t
+tlsFlags
 PRFileDesc
 *
 sock
@@ -335,6 +340,7 @@ port
 proxy
 mVersion
 flags
+tlsFlags
 sock
 socksInfo
 )
