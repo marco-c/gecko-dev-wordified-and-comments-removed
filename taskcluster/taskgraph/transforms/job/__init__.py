@@ -359,8 +359,6 @@ Optional
 (
 '
 coalesce
--
-name
 '
 )
 :
@@ -368,8 +366,6 @@ task_description_schema
 [
 '
 coalesce
--
-name
 '
 ]
     
