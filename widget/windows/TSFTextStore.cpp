@@ -26066,9 +26066,9 @@ RecordCompositionStartAction
 ITfCompositionView
 *
 aComposition
-LONG
+ULONG
 aStart
-LONG
+ULONG
 aLength
 bool
 aPreserveSelection
