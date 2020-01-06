@@ -122,6 +122,10 @@ PPendingIPCBlob
 ;
 include
 protocol
+PTemporaryIPCBlob
+;
+include
+protocol
 PMessagePort
 ;
 include
@@ -316,6 +320,9 @@ PIPCBlobInputStream
 ;
 manages
 PPendingIPCBlob
+;
+manages
+PTemporaryIPCBlob
 ;
 manages
 PMessagePort
@@ -533,6 +540,11 @@ channelId
 ;
 async
 PWebAuthnTransaction
+(
+)
+;
+async
+PTemporaryIPCBlob
 (
 )
 ;
