@@ -135,7 +135,7 @@ decoder
 pair
 that
 uses
-an
+a
 binary
 zero
 -
@@ -400,7 +400,7 @@ bincode
 {
 serialize
 deserialize
-SizeLimit
+Infinite
 }
 ;
 #
@@ -494,9 +494,6 @@ serialize
 (
 &
 world
-SizeLimit
-:
-:
 Infinite
 )
 .

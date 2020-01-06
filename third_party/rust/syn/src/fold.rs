@@ -4063,12 +4063,14 @@ lift
 |
 foreign_item
 |
+{
 folder
 .
 fold_foreign_item
 (
 foreign_item
 )
+}
 )
 }
 )

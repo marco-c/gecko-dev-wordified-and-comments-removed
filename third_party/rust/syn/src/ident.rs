@@ -27,6 +27,8 @@ Debug
 Clone
 Eq
 Hash
+Ord
+PartialOrd
 )
 ]
 pub

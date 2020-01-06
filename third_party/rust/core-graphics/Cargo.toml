@@ -62,9 +62,9 @@ version
 "
 0
 .
-7
+8
 .
-0
+1
 "
 authors
 =
@@ -117,10 +117,10 @@ foundation
 .
 3
 "
-serde
+bitflags
 =
 "
 0
 .
-9
+8
 "

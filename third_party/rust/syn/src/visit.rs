@@ -2859,14 +2859,12 @@ mac
 )
 =
 >
-{
 visitor
 .
 visit_mac
 (
 mac
 )
-}
 }
 }
 #
