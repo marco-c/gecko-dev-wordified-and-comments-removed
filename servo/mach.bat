@@ -79,6 +79,7 @@ in
 Enterprise
 Professional
 Community
+BuildTools
 )
 do
 (
