@@ -576,8 +576,6 @@ const
 TextureFactoryIdentifier
 &
 aNewIdentifier
-uint64_t
-aDeviceResetSeqNo
 )
 override
 ;
@@ -1456,9 +1454,6 @@ mQueuedAsyncPaints
 ;
 uint32_t
 mPaintSequenceNumber
-;
-uint64_t
-mDeviceResetSequenceNumber
 ;
 APZTestData
 mApzTestData

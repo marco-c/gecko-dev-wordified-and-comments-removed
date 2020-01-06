@@ -944,16 +944,6 @@ aActor
 )
 override
 ;
-uint64_t
-DeviceResetSequenceNumber
-(
-)
-const
-{
-return
-mDeviceResetSequenceNumber
-;
-}
 wr
 :
 :
@@ -1336,9 +1326,6 @@ mActorDestroyed
 ;
 uint64_t
 mFwdTransactionId
-;
-uint64_t
-mDeviceResetSequenceNumber
 ;
 nsRefPtrHashtable
 <

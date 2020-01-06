@@ -5756,7 +5756,6 @@ lm
 UpdateTextureFactoryIdentifier
 (
 textureFactoryIdentifier
-0
 )
 ;
 if
