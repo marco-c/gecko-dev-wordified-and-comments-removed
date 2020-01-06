@@ -3120,6 +3120,8 @@ suite
 )
         
 if
+intersection
+and
 not
 suites
 :
