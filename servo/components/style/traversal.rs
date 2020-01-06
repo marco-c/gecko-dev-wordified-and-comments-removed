@@ -1307,6 +1307,9 @@ E
 rule_inclusion
 :
 RuleInclusion
+ignore_existing_style
+:
+bool
 )
 -
 >
@@ -1332,6 +1335,9 @@ RuleInclusion
 :
 :
 DefaultOnly
+|
+|
+ignore_existing_style
 |
 |
 element
@@ -1425,6 +1431,10 @@ RuleInclusion
 :
 :
 All
+&
+&
+!
+ignore_existing_style
 {
 if
 let
