@@ -1104,6 +1104,14 @@ AbstractMainThread
 )
 )
 ;
+mResource
+-
+>
+SetEnded
+(
+aEnded
+)
+;
 if
 (
 aEnded
