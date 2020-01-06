@@ -54,9 +54,4 @@ bits
 "
 :
 32
-"
-use_minidump
-"
-:
-false
 }

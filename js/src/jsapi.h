@@ -24677,15 +24677,6 @@ void
 *
 )
 ;
-extern
-JS_PUBLIC_API
-(
-void
-)
-NoteIntentionalCrash
-(
-)
-;
 }
 namespace
 js

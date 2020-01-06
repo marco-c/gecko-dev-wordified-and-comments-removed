@@ -3316,9 +3316,6 @@ results
 =
 ResultsSink
 (
-'
-jstests
-'
 options
 test_count
 )

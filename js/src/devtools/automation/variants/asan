@@ -75,9 +75,4 @@ llvm
 symbolizer
 "
 }
-"
-use_minidump
-"
-:
-false
 }
