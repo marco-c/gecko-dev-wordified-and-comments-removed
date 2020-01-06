@@ -103,6 +103,9 @@ class
 CDMProxy
 ;
 class
+FrameStatistics
+;
+class
 GMPCrashHelper
 ;
 class
@@ -267,6 +270,12 @@ nullptr
 VideoFrameContainer
 *
 mVideoFrameContainer
+=
+nullptr
+;
+FrameStatistics
+*
+mFrameStats
 =
 nullptr
 ;
@@ -2692,6 +2701,12 @@ MediaEventProducer
 MediaResult
 >
 mOnDecodeWarning
+;
+RefPtr
+<
+FrameStatistics
+>
+mFrameStats
 ;
 }
 ;
