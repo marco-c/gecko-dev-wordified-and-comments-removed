@@ -329,6 +329,12 @@ column
 !
 important
 ;
+visibility
+:
+hidden
+!
+important
+;
 }
 *
 |
@@ -351,6 +357,12 @@ table
 column
 -
 group
+!
+important
+;
+visibility
+:
+hidden
 !
 important
 ;
