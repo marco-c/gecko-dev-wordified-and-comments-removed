@@ -271,12 +271,12 @@ jsm
 ;
 var
 {
-Cc
-:
 classes
-Ci
 :
+Cc
 interfaces
+:
+Ci
 }
 =
 Components
