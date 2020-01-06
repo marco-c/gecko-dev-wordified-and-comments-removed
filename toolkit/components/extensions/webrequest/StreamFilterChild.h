@@ -359,6 +359,11 @@ FlushBufferedData
 (
 )
 ;
+void
+WriteBufferedData
+(
+)
+;
 virtual
 void
 ActorDestroy
