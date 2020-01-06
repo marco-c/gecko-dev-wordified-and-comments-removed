@@ -696,7 +696,7 @@ label
 &
 treehead
 .
-sitename
+sitename2
 .
 label
 ;
@@ -825,7 +825,7 @@ accesskey
 =
 "
 &
-removepermission
+removepermission2
 .
 accesskey
 ;
@@ -839,7 +839,7 @@ label
 =
 "
 &
-removepermission
+removepermission2
 .
 label
 ;
@@ -872,7 +872,7 @@ label
 =
 "
 &
-removeallpermissions
+removeallpermissions2
 .
 label
 ;
@@ -881,7 +881,7 @@ accesskey
 =
 "
 &
-removeallpermissions
+removeallpermissions2
 .
 accesskey
 ;

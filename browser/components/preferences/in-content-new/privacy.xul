@@ -1624,7 +1624,7 @@ label
 =
 "
 &
-rememberLogins1
+rememberLogins2
 .
 label
 ;
@@ -1633,7 +1633,7 @@ accesskey
 =
 "
 &
-rememberLogins1
+rememberLogins2
 .
 accesskey
 ;
@@ -2294,7 +2294,7 @@ rememberSearchForm
 label
 ;
 &
-acceptCookies
+acceptCookies2
 .
 label
 ;
@@ -2808,7 +2808,7 @@ label
 =
 "
 &
-acceptCookies
+acceptCookies2
 .
 label
 ;
@@ -2826,7 +2826,7 @@ accesskey
 =
 "
 &
-acceptCookies
+acceptCookies2
 .
 accesskey
 ;
@@ -4569,12 +4569,12 @@ searchkeywords
 =
 "
 &
-removepermission
+removepermission2
 .
 label
 ;
 &
-removeallpermissions
+removeallpermissions2
 .
 label
 ;
@@ -4986,7 +4986,7 @@ notificationsPolicy
 "
 >
 &
-notificationsPolicyDesc3
+notificationsPolicyDesc4
 .
 label
 ;
@@ -5067,12 +5067,12 @@ searchkeywords
 =
 "
 &
-removepermission
+removepermission2
 .
 label
 ;
 &
-removeallpermissions
+removeallpermissions2
 .
 label
 ;
@@ -5363,7 +5363,7 @@ label
 =
 "
 &
-warnOnAddonInstall
+warnOnAddonInstall2
 .
 label
 ;
@@ -5372,7 +5372,7 @@ accesskey
 =
 "
 &
-warnOnAddonInstall
+warnOnAddonInstall2
 .
 accesskey
 ;
@@ -5488,12 +5488,12 @@ allow
 label
 ;
 &
-removepermission
+removepermission2
 .
 label
 ;
 &
-removeallpermissions
+removeallpermissions2
 .
 label
 ;

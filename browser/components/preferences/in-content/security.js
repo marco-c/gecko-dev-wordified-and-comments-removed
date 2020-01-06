@@ -262,7 +262,7 @@ bundlePrefs
 getString
 (
 "
-addons_permissions_title
+addons_permissions_title2
 "
 )
 ;
@@ -459,7 +459,7 @@ bundlePrefs
 getString
 (
 "
-savedLoginsExceptions_desc
+savedLoginsExceptions_desc2
 "
 )
 }

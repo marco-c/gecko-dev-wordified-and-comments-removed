@@ -1949,7 +1949,7 @@ label
 =
 "
 &
-acceptCookies
+acceptCookies2
 .
 label
 ;
@@ -1967,7 +1967,7 @@ accesskey
 =
 "
 &
-acceptCookies
+acceptCookies2
 .
 accesskey
 ;

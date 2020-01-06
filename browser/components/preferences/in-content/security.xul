@@ -605,7 +605,7 @@ label
 =
 "
 &
-warnOnAddonInstall
+warnOnAddonInstall2
 .
 label
 ;
@@ -614,7 +614,7 @@ accesskey
 =
 "
 &
-warnOnAddonInstall
+warnOnAddonInstall2
 .
 accesskey
 ;
@@ -906,7 +906,7 @@ label
 =
 "
 &
-rememberLogins
+rememberLogins2
 .
 label
 ;
@@ -915,7 +915,7 @@ accesskey
 =
 "
 &
-rememberLogins
+rememberLogins2
 .
 accesskey
 ;
