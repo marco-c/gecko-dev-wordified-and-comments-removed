@@ -335,6 +335,9 @@ no
 resizable
 =
 yes
+scrollbars
+=
+yes
 "
 args
 )
