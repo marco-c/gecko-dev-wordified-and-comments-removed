@@ -2528,11 +2528,10 @@ Data
 ;
 if
 (
-!
 window
 -
 >
-IsCleanedUp
+GetDocShell
 (
 )
 &
