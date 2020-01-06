@@ -5601,10 +5601,7 @@ auto
 *
 queue
 =
-cx
--
->
-new_
+js_new
 <
 PersistentRooted
 <

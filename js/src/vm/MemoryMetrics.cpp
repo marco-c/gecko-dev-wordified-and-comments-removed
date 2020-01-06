@@ -1690,7 +1690,6 @@ zStats
 .
 initStrings
 (
-rt
 )
 )
 MOZ_CRASH
@@ -1829,12 +1828,6 @@ cStats
 .
 initClasses
 (
-cx
--
->
-runtime
-(
-)
 )
 )
 MOZ_CRASH
@@ -3456,9 +3449,6 @@ ZoneStats
 :
 initStrings
 (
-JSRuntime
-*
-rt
 )
 {
 isTotals
@@ -3467,10 +3457,7 @@ false
 ;
 allStrings
 =
-rt
--
->
-new_
+js_new
 <
 StringsHashMap
 >
@@ -3515,9 +3502,6 @@ CompartmentStats
 :
 initClasses
 (
-JSRuntime
-*
-rt
 )
 {
 isTotals
@@ -3526,10 +3510,7 @@ false
 ;
 allClasses
 =
-rt
--
->
-new_
+js_new
 <
 ClassesHashMap
 >
