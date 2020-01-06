@@ -2436,7 +2436,7 @@ au_from_pt
 )
 line_gap
 :
-au_from_du
+au_from_du_s
 (
 (
 dm
