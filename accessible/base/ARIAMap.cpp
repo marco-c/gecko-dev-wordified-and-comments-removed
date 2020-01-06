@@ -270,12 +270,12 @@ combobox
 roles
 :
 :
-EDITCOMBOBOX
+COMBOBOX
 kUseMapRole
 eNoValue
 eOpenCloseAction
 eNoLiveAttr
-eCombobox
+kGenericAccType
 states
 :
 :
