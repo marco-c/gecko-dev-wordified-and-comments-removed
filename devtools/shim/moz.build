@@ -171,6 +171,14 @@ startup
 manifest
 '
 ]
+DIRS
++
+=
+[
+'
+locales
+'
+]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
