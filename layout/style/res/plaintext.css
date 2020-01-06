@@ -32,15 +32,9 @@ html
 :
 not
 (
-:
--
-moz
--
-has
--
+[
 dir
--
-attr
+]
 )
 pre
 {
