@@ -922,8 +922,6 @@ MozPluginParameter
 >
 &
 aParameters
-bool
-aIgnoreCodebase
 )
 ;
 MOZ_MUST_USE
@@ -956,10 +954,6 @@ aLoadingChannel
 ParameterUpdateFlags
 UpdateObjectParameters
 (
-bool
-aJavaURI
-=
-false
 )
 ;
 void
@@ -1012,11 +1006,6 @@ PreferFallback
 (
 bool
 aIsPluginClickToPlay
-)
-;
-bool
-CheckJavaCodebase
-(
 )
 ;
 bool
