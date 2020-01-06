@@ -325,7 +325,7 @@ styleWindow
 ;
 view
 .
-debounce
+throttle
 .
 flush
 (

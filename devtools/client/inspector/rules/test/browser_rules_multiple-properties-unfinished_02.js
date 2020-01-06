@@ -61,7 +61,7 @@ openRuleView
 ;
 view
 .
-debounce
+throttle
 =
 (
 )
