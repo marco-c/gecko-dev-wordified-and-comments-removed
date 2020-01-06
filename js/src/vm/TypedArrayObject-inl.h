@@ -1312,9 +1312,6 @@ static
 bool
 setFromTypedArray
 (
-JSContext
-*
-cx
 Handle
 <
 TypedArrayObject
@@ -1439,7 +1436,6 @@ source
 return
 setFromOverlappingTypedArray
 (
-cx
 target
 source
 offset
@@ -2838,9 +2834,6 @@ static
 bool
 setFromOverlappingTypedArray
 (
-JSContext
-*
-cx
 Handle
 <
 TypedArrayObject

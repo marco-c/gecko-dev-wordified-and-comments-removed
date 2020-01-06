@@ -3048,7 +3048,6 @@ TypedArrayObject
 ;
 initTypedArraySlots
 (
-cx
 tarray
 len
 )
@@ -3095,9 +3094,6 @@ static
 void
 initTypedArraySlots
 (
-JSContext
-*
-cx
 TypedArrayObject
 *
 tarray
@@ -3606,7 +3602,6 @@ nullptr
 ;
 initTypedArraySlots
 (
-cx
 obj
 len
 )
@@ -6109,7 +6104,6 @@ SharedOps
 :
 setFromTypedArray
 (
-cx
 obj
 srcArray
 0
@@ -6133,7 +6127,6 @@ UnsharedOps
 :
 setFromTypedArray
 (
-cx
 obj
 srcArray
 0
@@ -7142,9 +7135,6 @@ inline
 bool
 SetFromTypedArray
 (
-JSContext
-*
-cx
 Handle
 <
 TypedArrayObject
@@ -7188,7 +7178,6 @@ SharedOps
 :
 setFromTypedArray
 (
-cx
 target
 source
 offset
@@ -7204,7 +7193,6 @@ UnsharedOps
 :
 setFromTypedArray
 (
-cx
 target
 source
 offset
@@ -7640,7 +7628,6 @@ SetFromTypedArray
 T
 >
 (
-cx
 target
 srcTypedArray
 offset
