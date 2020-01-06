@@ -2317,7 +2317,7 @@ load_webfonts_synchronously
 false
 headless
 :
-true
+false
 hard_fail
 :
 true
