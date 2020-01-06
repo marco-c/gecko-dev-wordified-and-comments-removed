@@ -5318,7 +5318,7 @@ register_test
 (
 )
 class
-bloom_basic
+perf_reftest
 (
 PageloaderTest
 )
@@ -5328,16 +5328,25 @@ PageloaderTest
 "
 "
     
-Stylo
-bloom_basic
-:
-runs
-bloom_basic
-and
-bloom_basic_ref
-and
-reports
+Style
+perf
+-
+reftest
+a
+set
+of
+tests
+where
+the
+result
+is
+the
 difference
+of
+base
+vs
+ref
+pages
     
 "
 "
@@ -5360,7 +5369,7 @@ perf
 -
 reftest
 /
-bloom_basic
+perf_reftest
 .
 manifest
 '
@@ -5371,7 +5380,7 @@ tpcycles
     
 tppagecycles
 =
-25
+10
     
 gecko_profile_interval
 =
