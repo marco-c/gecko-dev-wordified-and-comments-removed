@@ -1,13 +1,5 @@
-template
-<
-typename
-T
->
 void
-nsTPromiseFlatString
-<
-T
->
+nsTPromiseFlatString_CharT
 :
 :
 Init
@@ -82,9 +74,6 @@ DataFlags
 LITERAL
 )
 ;
-this
--
->
 SetData
 (
 newData
@@ -95,9 +84,6 @@ newDataFlags
 }
 else
 {
-this
--
->
 Assign
 (
 str

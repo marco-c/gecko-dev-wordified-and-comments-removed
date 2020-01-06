@@ -3762,6 +3762,10 @@ nsAutoString
 nsprPath
 (
 mWorkingPath
+.
+get
+(
+)
 )
 ;
 if
@@ -3784,7 +3788,7 @@ CharAt
 )
 =
 =
-u
+L
 '
 :
 '
