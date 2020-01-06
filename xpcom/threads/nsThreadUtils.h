@@ -570,12 +570,6 @@ NS_IsInCompositorThread
 (
 )
 ;
-extern
-bool
-NS_IsInVRThread
-(
-)
-;
 inline
 already_AddRefed
 <

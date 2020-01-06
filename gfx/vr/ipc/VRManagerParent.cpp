@@ -1291,13 +1291,6 @@ Get
 vm
 -
 >
-RefreshVRDisplays
-(
-)
-;
-vm
--
->
 GetVRDisplayInfo
 (
 displayInfoArray
