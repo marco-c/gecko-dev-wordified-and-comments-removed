@@ -516,6 +516,7 @@ CF_HDROP
 else
 if
 (
+(
 strcmp
 (
 aMimeStr
@@ -524,8 +525,10 @@ kNativeHTMLMime
 =
 =
 0
+)
 |
 |
+(
 aMapHTMLMime
 &
 &
@@ -537,6 +540,7 @@ kHTMLMime
 =
 =
 0
+)
 )
 {
 format
