@@ -2758,9 +2758,6 @@ case
 SYS_CONNECT
 :
 case
-SYS_ACCEPT4
-:
-case
 SYS_GETSOCKOPT
 :
 case
