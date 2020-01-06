@@ -4922,6 +4922,14 @@ return
 mEffectiveTransform
 ;
 }
+gfx
+:
+:
+Matrix4x4
+ComputeTransformToPreserve3DRoot
+(
+)
+;
 virtual
 void
 ComputeEffectiveTransforms
