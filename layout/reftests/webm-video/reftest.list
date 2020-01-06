@@ -1703,6 +1703,12 @@ if
 (
 styloVsGecko
 )
+skip
+-
+if
+(
+webrender
+)
 =
 =
 object
@@ -1744,6 +1750,11 @@ Bug
 1084564
 for
 Android
+failures
+Bug
+1358055
+for
+webrender
 failures
 fails
 -
@@ -1764,6 +1775,12 @@ if
 (
 styloVsGecko
 )
+skip
+-
+if
+(
+webrender
+)
 =
 =
 object
@@ -1805,4 +1822,9 @@ Bug
 1084564
 for
 Android
+failures
+Bug
+1358055
+for
+webrender
 failures
