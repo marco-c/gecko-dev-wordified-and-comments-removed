@@ -5015,10 +5015,6 @@ init
 BrowserApp
 .
 this
-.
-getApplication
-(
-)
 )
 ;
 }
