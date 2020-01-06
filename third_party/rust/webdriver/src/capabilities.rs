@@ -853,7 +853,7 @@ pac
 Some
 (
 "
-noproxy
+direct
 "
 )
 |
