@@ -56,6 +56,7 @@ Runtime
 :
 new
 (
+false
 )
 .
 unwrap
@@ -175,6 +176,7 @@ Runtime
 :
 new
 (
+false
 )
 .
 is_err
