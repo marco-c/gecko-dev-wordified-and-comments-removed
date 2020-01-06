@@ -7714,9 +7714,6 @@ AllocateResourceID
 (
 )
 ;
-gMediaCache
--
->
 QueueUpdate
 (
 )
@@ -7771,9 +7768,6 @@ RemoveElement
 aStream
 )
 ;
-gMediaCache
--
->
 QueueUpdate
 (
 )
