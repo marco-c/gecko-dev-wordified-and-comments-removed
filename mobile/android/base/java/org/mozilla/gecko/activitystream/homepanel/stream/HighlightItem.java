@@ -563,6 +563,7 @@ MenuMode
 .
 HIGHLIGHT
 highlight
+true
 onUrlOpenListener
 onUrlOpenInBackgroundListener
 pageIconLayout
