@@ -2828,11 +2828,6 @@ resetJitStackLimit
 ;
 public
 :
-JSVersion
-findVersion
-(
-)
-;
 JS
 :
 :
