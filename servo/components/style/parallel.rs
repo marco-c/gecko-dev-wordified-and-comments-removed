@@ -67,7 +67,7 @@ STYLE_THREAD_STACK_SIZE_KB
 :
 usize
 =
-128
+256
 ;
 pub
 const
@@ -75,7 +75,7 @@ STACK_SAFETY_MARGIN_KB
 :
 usize
 =
-45
+168
 ;
 pub
 const
