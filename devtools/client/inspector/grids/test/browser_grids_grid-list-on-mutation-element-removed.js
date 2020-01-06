@@ -141,10 +141,9 @@ gridList
 =
 doc
 .
-querySelector
+getElementById
 (
 "
-#
 grid
 -
 list
