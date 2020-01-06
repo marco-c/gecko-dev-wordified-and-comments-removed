@@ -900,6 +900,18 @@ bool
 fullUri
 )
 ;
+enum
+PrefetchIgnoreReason
+{
+PREFETCH_OK
+NOT_FULL_URI
+NO_REFERRER
+MISSED_A_LOAD
+PREFETCH_DISABLED
+PREFETCH_DISABLED_VIA_COUNT
+CONFIDENCE_TOO_LOW
+}
+;
 void
 SetupPrediction
 (
@@ -911,6 +923,8 @@ const
 nsCString
 &
 uri
+PrefetchIgnoreReason
+reason
 )
 ;
 nsresult
