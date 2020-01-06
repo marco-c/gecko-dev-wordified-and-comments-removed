@@ -42,6 +42,11 @@ Compression
 ;
 namespace
 {
+extern
+"
+C
+"
+{
 #
 include
 "
@@ -49,6 +54,7 @@ lz4
 .
 c
 "
+}
 }
 size_t
 LZ4
