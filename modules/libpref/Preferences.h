@@ -1630,6 +1630,8 @@ false
 ;
 bool
 mSavePending
+=
+false
 ;
 static
 Preferences
