@@ -129,9 +129,6 @@ format
 AlwaysBreakAfterReturnType
 :
 TopLevel
-AlignConsecutiveDeclarations
-:
-true
 BinPackArguments
 :
 false
