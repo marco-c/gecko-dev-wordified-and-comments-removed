@@ -1015,7 +1015,7 @@ mozconfig
 .
 substs
 .
-DEBUG_BUILD
+MOZ_DEBUG
 ?
 '
 true
