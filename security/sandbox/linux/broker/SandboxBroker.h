@@ -159,6 +159,11 @@ Policy
 (
 )
 ;
+void
+FixRecursivePermissions
+(
+)
+;
 enum
 AddCondition
 {
