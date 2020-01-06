@@ -269,6 +269,11 @@ transform
 ref
 .
 html
+#
+bug
+1363060
+for
+webrender
 random
 -
 if
@@ -410,6 +415,11 @@ repeated
 ref
 .
 html
+#
+bug
+1363060
+for
+webrender
 fuzzy
 -
 if
