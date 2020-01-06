@@ -173,7 +173,7 @@ MOZ_ASSERT
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 HasSPS
@@ -984,7 +984,7 @@ if
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 HasSPS
@@ -1144,7 +1144,7 @@ extra_data
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 ExtractExtraData
@@ -1158,7 +1158,7 @@ inbandExtradata
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 HasSPS
@@ -1176,7 +1176,7 @@ inbandExtradata
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 HasSPS
@@ -1648,7 +1648,7 @@ extra_data
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 ExtractExtraData
@@ -1662,7 +1662,7 @@ if
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 HasSPS
@@ -1697,7 +1697,7 @@ if
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 HasSPS
@@ -1712,7 +1712,7 @@ mExtraData
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 CompareExtraData
@@ -1744,7 +1744,7 @@ if
 mp4_demuxer
 :
 :
-AnnexB
+H264
 :
 :
 CompareExtraData
