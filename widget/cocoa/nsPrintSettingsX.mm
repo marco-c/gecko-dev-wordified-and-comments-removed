@@ -683,7 +683,7 @@ CFDataRef
 )
 &
 data
-kPMDataFormatXMLDefault
+kPMDataFormatXMLCompressed
 )
 ;
 if
