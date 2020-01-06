@@ -467,6 +467,17 @@ HandleObject
 obj
 )
 ;
+JSObject
+*
+detachExpandoChain
+(
+JS
+:
+:
+HandleObject
+obj
+)
+;
 bool
 setExpandoChain
 (
