@@ -55,6 +55,11 @@ ShouldShowAlert
 (
 )
 ;
+bool
+ShouldUseSystemBackend
+(
+)
+;
 already_AddRefed
 <
 nsIAlertsDoNotDisturb

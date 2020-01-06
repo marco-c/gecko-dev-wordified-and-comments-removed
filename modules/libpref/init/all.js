@@ -38332,6 +38332,16 @@ false
 pref
 (
 "
+alerts
+.
+useSystemBackend
+"
+true
+)
+;
+pref
+(
+"
 full
 -
 screen
