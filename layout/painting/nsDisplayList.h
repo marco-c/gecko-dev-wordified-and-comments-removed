@@ -4639,16 +4639,6 @@ LayerState
 LayerState
 ;
 typedef
-mozilla
-:
-:
-image
-:
-:
-imgDrawingParams
-imgDrawingParams
-;
-typedef
 class
 mozilla
 :

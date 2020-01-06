@@ -29,11 +29,11 @@ mozilla
 image
 :
 :
-imgDrawingParams
-imgDrawingParams
+DrawResult
+DrawResult
 ;
 virtual
-void
+DrawResult
 Paint
 (
 gfxContext
@@ -50,9 +50,6 @@ const
 nsIntRect
 *
 aDirtyRect
-imgDrawingParams
-&
-aImgParams
 )
 =
 0

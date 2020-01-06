@@ -789,6 +789,9 @@ GetNextSibling
 )
 )
 {
+result
+&
+=
 PaintFrameIntoMask
 (
 kid
@@ -868,7 +871,7 @@ return
 result
 ;
 }
-void
+DrawResult
 nsSVGClipPathFrame
 :
 :
@@ -905,6 +908,10 @@ frame
 )
 {
 return
+DrawResult
+:
+:
+SUCCESS
 ;
 }
 frame
@@ -942,6 +949,10 @@ HasInvalidClipPath
 )
 {
 return
+DrawResult
+:
+:
+SUCCESS
 ;
 }
 nsSVGClipPathFrame
@@ -1102,12 +1113,9 @@ eUserSpaceToParent
 )
 ;
 }
-image
-:
-:
-imgDrawingParams
-imgParams
-;
+result
+&
+=
 frame
 -
 >
@@ -1115,7 +1123,6 @@ PaintSVG
 (
 aTarget
 toChildsUserSpace
-imgParams
 )
 ;
 if
@@ -1147,6 +1154,9 @@ PopClip
 )
 ;
 }
+return
+result
+;
 }
 mozilla
 :
