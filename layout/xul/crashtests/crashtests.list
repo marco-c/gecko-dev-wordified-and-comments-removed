@@ -10,6 +10,13 @@ load
 1
 .
 xul
+asserts
+-
+if
+(
+stylo
+3
+)
 load
 140218
 -
