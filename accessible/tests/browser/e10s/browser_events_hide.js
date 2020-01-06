@@ -55,8 +55,8 @@ div
 /
 div
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -84,7 +84,7 @@ EVENT_HIDE
 acc
 )
 ;
-yield
+await
 invokeSetStyle
 (
 browser
@@ -104,7 +104,7 @@ hidden
 let
 event
 =
-yield
+await
 onHide
 ;
 let

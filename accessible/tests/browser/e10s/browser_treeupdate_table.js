@@ -56,8 +56,8 @@ tr
 /
 table
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -131,7 +131,7 @@ table
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -189,7 +189,7 @@ caption
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree

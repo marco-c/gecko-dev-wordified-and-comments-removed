@@ -35,8 +35,8 @@ select
 select
 >
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -64,7 +64,7 @@ select
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -225,7 +225,7 @@ option1Node
 let
 event
 =
-yield
+await
 onEvent
 ;
 let
@@ -333,7 +333,7 @@ select
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -371,7 +371,7 @@ remove
 }
 )
 ;
-yield
+await
 onEvent
 ;
 tree
@@ -437,7 +437,7 @@ select
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -482,7 +482,7 @@ remove
 }
 )
 ;
-yield
+await
 onEvent
 ;
 tree

@@ -26,8 +26,8 @@ doc_treeupdate_ariadialog
 .
 html
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -58,7 +58,7 @@ dialog
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -93,7 +93,7 @@ block
 }
 )
 ;
-yield
+await
 onShow
 ;
 testAccessibleTree

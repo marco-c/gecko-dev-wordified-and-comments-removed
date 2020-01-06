@@ -97,8 +97,8 @@ iframeSrc
 /
 iframe
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -150,7 +150,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -247,7 +247,7 @@ documentElement
 }
 )
 ;
-yield
+await
 reorderEventPromise
 ;
 tree
@@ -287,7 +287,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -378,7 +378,7 @@ script
 }
 )
 ;
-yield
+await
 reorderEventPromise
 ;
 tree
@@ -417,7 +417,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -509,7 +509,7 @@ body
 }
 )
 ;
-yield
+await
 reorderEventPromise
 ;
 tree
@@ -549,7 +549,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -661,7 +661,7 @@ script
 }
 )
 ;
-yield
+await
 reorderEventPromise
 ;
 tree
@@ -690,7 +690,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -738,7 +738,7 @@ close
 }
 )
 ;
-yield
+await
 reorderEventPromise
 ;
 tree
@@ -778,7 +778,7 @@ EVENT_REORDER
 iframe
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -821,7 +821,7 @@ remove
 let
 event
 =
-yield
+await
 reorderEventPromise
 ;
 ok
@@ -867,7 +867,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -960,7 +960,7 @@ html
 }
 )
 ;
-yield
+await
 reorderEventPromise
 ;
 tree
@@ -999,7 +999,7 @@ EVENT_REORDER
 iframe
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1044,7 +1044,7 @@ body
 ;
 event
 =
-yield
+await
 reorderEventPromise
 ;
 ok
@@ -1090,7 +1090,7 @@ EVENT_REORDER
 iframe
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1151,7 +1151,7 @@ inputNode
 ;
 event
 =
-yield
+await
 reorderEventPromise
 ;
 ok
@@ -1200,7 +1200,7 @@ EVENT_REORDER
 iframe
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1242,7 +1242,7 @@ remove
 }
 )
 ;
-yield
+await
 reorderEventPromise
 ;
 tree
@@ -1271,7 +1271,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1353,7 +1353,7 @@ body
 }
 )
 ;
-yield
+await
 reorderEventPromise
 ;
 tree
@@ -1400,7 +1400,7 @@ iframe
 '
 )
 ;
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -1443,7 +1443,7 @@ html
 ;
 event
 =
-yield
+await
 reorderEventPromise
 ;
 tree
@@ -1493,7 +1493,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -1585,7 +1585,7 @@ body
 }
 )
 ;
-yield
+await
 reorderEventPromise
 ;
 tree

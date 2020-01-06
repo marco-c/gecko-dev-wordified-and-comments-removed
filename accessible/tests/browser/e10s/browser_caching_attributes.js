@@ -171,13 +171,13 @@ focused
 '
 action
 :
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 invokeFocus
 (
 browser
@@ -423,8 +423,8 @@ value
 hello
 "
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -485,7 +485,7 @@ if
 action
 )
 {
-yield
+await
 action
 (
 browser
@@ -509,7 +509,7 @@ of
 attrs
 )
 {
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -522,7 +522,7 @@ value
 ;
 }
 }
-yield
+await
 onUpdate
 ;
 testAttrs

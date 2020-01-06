@@ -69,13 +69,13 @@ select
 '
 action
 :
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 invokeFocus
 (
 browser
@@ -84,7 +84,7 @@ select
 '
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeKey
@@ -523,13 +523,13 @@ range
 '
 action
 :
+async
 function
-*
 (
 browser
 )
 {
-yield
+await
 invokeFocus
 (
 browser
@@ -538,7 +538,7 @@ range
 '
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeKey
@@ -710,8 +710,8 @@ value
 6
 "
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -768,7 +768,7 @@ if
 action
 )
 {
-yield
+await
 action
 (
 browser
@@ -792,7 +792,7 @@ of
 attrs
 )
 {
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -803,7 +803,7 @@ value
 ;
 }
 }
-yield
+await
 onUpdate
 ;
 if

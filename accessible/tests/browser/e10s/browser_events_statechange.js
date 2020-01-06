@@ -193,8 +193,8 @@ checkbox
 "
 /
 >
+async
 function
-*
 (
 browser
 )
@@ -210,7 +210,7 @@ checkbox
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -244,7 +244,7 @@ true
 let
 event
 =
-yield
+await
 onStateChange
 ;
 checkStateChangeEvent
@@ -274,7 +274,7 @@ iframe
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -311,7 +311,7 @@ on
 ;
 event
 =
-yield
+await
 onStateChange
 ;
 checkStateChangeEvent

@@ -19,8 +19,8 @@ MOCHITESTS_DIR
 }
 )
 ;
+async
 function
-*
 testImageMap
 (
 browser
@@ -82,7 +82,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -207,7 +207,7 @@ firstChild
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -261,7 +261,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -383,7 +383,7 @@ areaElm
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -451,7 +451,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -490,7 +490,7 @@ firstElementChild
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -537,8 +537,8 @@ tree
 )
 ;
 }
+async
 function
-*
 testContainer
 (
 browser
@@ -560,7 +560,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -575,7 +575,7 @@ name
 let
 event
 =
-yield
+await
 onReorder
 ;
 const
@@ -615,7 +615,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -630,7 +630,7 @@ atoz_map
 '
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -651,7 +651,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -695,7 +695,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -731,7 +731,7 @@ remove
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -763,7 +763,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -921,7 +921,7 @@ map
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -959,7 +959,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 invokeSetStyle
 (
 browser
@@ -974,7 +974,7 @@ none
 '
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -993,8 +993,8 @@ tree
 )
 ;
 }
+async
 function
-*
 waitForImageMap
 (
 browser
@@ -1036,7 +1036,7 @@ EVENT_REORDER
 id
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouse
@@ -1057,7 +1057,7 @@ mousemove
 browser
 )
 ;
-yield
+await
 onReorder
 ;
 }
@@ -1068,28 +1068,28 @@ doc_treeupdate_imagemap
 .
 html
 '
+async
 function
-*
 (
 browser
 accDoc
 )
 {
-yield
+await
 waitForImageMap
 (
 browser
 accDoc
 )
 ;
-yield
+await
 testImageMap
 (
 browser
 accDoc
 )
 ;
-yield
+await
 testContainer
 (
 browser

@@ -26,8 +26,8 @@ doc_treeupdate_whitespace
 .
 html
 '
+async
 function
-*
 (
 browser
 accDoc
@@ -114,7 +114,7 @@ container1
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -158,7 +158,7 @@ img1
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -239,7 +239,7 @@ parent
 '
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -318,7 +318,7 @@ img
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree

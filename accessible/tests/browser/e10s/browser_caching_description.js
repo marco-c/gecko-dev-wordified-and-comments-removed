@@ -852,8 +852,8 @@ image
 "
 /
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -920,7 +920,7 @@ of
 attrs
 )
 {
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -933,7 +933,7 @@ value
 ;
 }
 }
-yield
+await
 onUpdate
 ;
 if

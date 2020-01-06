@@ -21,8 +21,8 @@ hello
 /
 >
 '
+async
 function
-*
 (
 browser
 )
@@ -38,7 +38,7 @@ textbox
 '
 )
 ;
-yield
+await
 invokeFocus
 (
 browser
@@ -50,7 +50,7 @@ textbox
 let
 event
 =
-yield
+await
 onCaretMoved
 ;
 let

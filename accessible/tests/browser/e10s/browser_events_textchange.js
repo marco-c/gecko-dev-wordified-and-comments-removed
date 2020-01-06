@@ -117,8 +117,8 @@ id
 )
 ;
 }
+async
 function
-*
 changeText
 (
 browser
@@ -163,7 +163,7 @@ eventType
 )
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -203,7 +203,7 @@ contentValue
 let
 resolvedEvents
 =
-yield
+await
 onEvents
 ;
 events
@@ -240,8 +240,8 @@ false
 )
 ;
 }
+async
 function
-*
 removeTextFromInput
 (
 browser
@@ -260,7 +260,7 @@ EVENT_TEXT_REMOVED
 id
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -310,7 +310,7 @@ contentEnd
 }
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 sendChar
@@ -324,7 +324,7 @@ browser
 let
 event
 =
-yield
+await
 onTextRemoved
 ;
 checkTextChangeEvent
@@ -368,8 +368,8 @@ input
 "
 /
 >
+async
 function
-*
 (
 browser
 )
@@ -406,7 +406,7 @@ offset
 }
 ]
 ;
-yield
+await
 changeText
 (
 browser
@@ -437,7 +437,7 @@ offset
 }
 ]
 ;
-yield
+await
 changeText
 (
 browser
@@ -450,7 +450,7 @@ deDEFf
 events
 )
 ;
-yield
+await
 removeTextFromInput
 (
 browser

@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -49,7 +49,7 @@ Ci
 nsIAccessibilityService
 )
 ;
-yield
+await
 a11yInit
 ;
 ok
@@ -168,7 +168,7 @@ forceGC
 (
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -204,7 +204,7 @@ forceGC
 (
 )
 ;
-yield
+await
 a11yShutdown
 ;
 }

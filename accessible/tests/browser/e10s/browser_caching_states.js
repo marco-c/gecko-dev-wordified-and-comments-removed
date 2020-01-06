@@ -381,8 +381,8 @@ EXT_STATE_ENABLED
 }
 ]
 ;
+async
 function
-*
 runStateTests
 (
 browser
@@ -437,7 +437,7 @@ of
 attrs
 )
 {
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -447,7 +447,7 @@ value
 )
 ;
 }
-yield
+await
 onUpdate
 ;
 testStates
@@ -497,14 +497,14 @@ id
 text
 "
 >
+async
 function
-*
 (
 browser
 accDoc
 )
 {
-yield
+await
 runStateTests
 (
 browser
@@ -515,7 +515,7 @@ checkbox
 attributeTests
 )
 ;
-yield
+await
 runStateTests
 (
 browser
@@ -526,7 +526,7 @@ file
 ariaTests
 )
 ;
-yield
+await
 runStateTests
 (
 browser

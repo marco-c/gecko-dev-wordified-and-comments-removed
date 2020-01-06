@@ -5,8 +5,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -68,7 +68,7 @@ forceGC
 (
 )
 ;
-yield
+await
 a11yInitThenShutdown
 ;
 }

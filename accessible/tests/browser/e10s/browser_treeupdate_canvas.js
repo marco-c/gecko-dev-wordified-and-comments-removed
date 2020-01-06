@@ -58,8 +58,8 @@ div
 /
 canvas
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -109,7 +109,7 @@ dialog
 '
 )
 ;
-yield
+await
 invokeSetStyle
 (
 browser
@@ -124,7 +124,7 @@ block
 '
 )
 ;
-yield
+await
 onShow
 ;
 testAccessibleTree

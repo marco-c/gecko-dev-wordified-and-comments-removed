@@ -87,8 +87,8 @@ div
 /
 div
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -178,7 +178,7 @@ EVENT_REORDER
 id1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -240,7 +240,7 @@ node
 }
 )
 ;
-yield
+await
 onReorder
 ;
 tree
@@ -290,7 +290,7 @@ EVENT_REORDER
 id2
 )
 ;
-yield
+await
 invokeSetAttribute
 (
 browser
@@ -305,7 +305,7 @@ gentext
 '
 )
 ;
-yield
+await
 onReorder
 ;
 tree

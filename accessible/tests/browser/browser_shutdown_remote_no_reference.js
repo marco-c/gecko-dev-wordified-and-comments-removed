@@ -5,17 +5,17 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 setE10sPrefs
 (
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 withNewTab
@@ -71,8 +71,8 @@ body
 html
 >
 }
+async
 function
-*
 (
 browser
 )
@@ -149,7 +149,7 @@ parent
 '
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -220,7 +220,7 @@ forceGC
 (
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -234,7 +234,7 @@ contentA11yShutdown
 }
 )
 ;
-yield
+await
 unsetE10sPrefs
 (
 )

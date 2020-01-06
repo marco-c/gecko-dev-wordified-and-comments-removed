@@ -19,8 +19,8 @@ MOCHITESTS_DIR
 }
 )
 ;
+async
 function
-*
 setDisplayAndWaitForReorder
 (
 browser
@@ -38,7 +38,7 @@ ul
 '
 )
 ;
-yield
+await
 invokeSetStyle
 (
 browser
@@ -52,7 +52,7 @@ value
 )
 ;
 return
-yield
+await
 onReorder
 ;
 }
@@ -83,8 +83,8 @@ li
 /
 ul
 >
+async
 function
-*
 (
 browser
 accDoc
@@ -145,7 +145,7 @@ li
 accTree
 )
 ;
-yield
+await
 setDisplayAndWaitForReorder
 (
 browser
@@ -189,7 +189,7 @@ defunct
 let
 event
 =
-yield
+await
 setDisplayAndWaitForReorder
 (
 browser
