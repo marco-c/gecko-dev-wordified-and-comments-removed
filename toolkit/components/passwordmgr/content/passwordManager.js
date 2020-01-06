@@ -2863,6 +2863,12 @@ DeleteSignon
 (
 )
 ;
+e
+.
+preventDefault
+(
+)
+;
 }
 }
 function
