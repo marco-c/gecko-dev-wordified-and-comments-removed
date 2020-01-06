@@ -1,0 +1,14 @@
+pub
+fn
+deny_public_fields_failing
+(
+)
+{
+}
+pub
+fn
+deny_public_fields_ok
+(
+)
+{
+}

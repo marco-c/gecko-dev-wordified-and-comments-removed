@@ -49,9 +49,6 @@ lib
 .
 rs
 "
-doctest
-=
-false
 [
 dependencies
 ]

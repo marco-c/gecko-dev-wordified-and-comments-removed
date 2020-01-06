@@ -1504,14 +1504,6 @@ env
 mach
 test
 -
-compiletest
--
-env
-.
-/
-mach
-test
--
 unit
 -
 env
