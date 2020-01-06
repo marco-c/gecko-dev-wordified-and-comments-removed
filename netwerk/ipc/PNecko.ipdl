@@ -768,8 +768,6 @@ GetExtensionStream
 (
 URIParams
 uri
-LoadInfoArgs
-loadInfo
 )
 returns
 (
@@ -782,8 +780,6 @@ GetExtensionFD
 (
 URIParams
 uri
-OptionalLoadInfoArgs
-loadInfo
 )
 returns
 (

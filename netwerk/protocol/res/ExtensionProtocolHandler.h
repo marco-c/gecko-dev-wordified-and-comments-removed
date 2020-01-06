@@ -88,9 +88,6 @@ NewStream
 nsIURI
 *
 aChildURI
-nsILoadInfo
-*
-aChildLoadInfo
 bool
 *
 aTerminateSender
@@ -106,9 +103,6 @@ NewFD
 nsIURI
 *
 aChildURI
-nsILoadInfo
-*
-aChildLoadInfo
 bool
 *
 aTerminateSender
