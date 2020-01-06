@@ -1274,6 +1274,16 @@ window
 "
 )
 {
+if
+(
+aIsPrivate
+)
+{
+aNoReferrer
+=
+true
+;
+}
 var
 sa
 =
