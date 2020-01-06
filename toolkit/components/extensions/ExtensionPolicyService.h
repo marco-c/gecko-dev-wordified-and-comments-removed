@@ -293,6 +293,12 @@ aDefaultCSP
 const
 ;
 bool
+UseRemoteExtensions
+(
+)
+const
+;
+bool
 IsExtensionProcess
 (
 )
