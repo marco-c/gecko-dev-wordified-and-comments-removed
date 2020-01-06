@@ -21278,13 +21278,14 @@ if
 (
 !
 requestedLocales
+[
+0
+]
 .
-includes
+startsWith
 (
 "
 en
--
-US
 "
 )
 )
