@@ -79,6 +79,12 @@ Shutdown
 (
 )
 ;
+static
+bool
+Initialized
+(
+)
+;
 }
 ;
 }
