@@ -104,6 +104,15 @@ length
 1
 )
 {
+if
+(
+!
+shown
+)
+{
+continue
+;
+}
 yield
 testLastMenuItem
 (

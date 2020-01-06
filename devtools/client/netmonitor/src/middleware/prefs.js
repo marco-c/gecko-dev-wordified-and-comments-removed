@@ -151,7 +151,7 @@ case
 RESET_COLUMNS
 :
 let
-hiddenColumns
+visibleColumns
 =
 [
 .
@@ -178,7 +178,6 @@ shown
 )
 =
 >
-!
 shown
 )
 .
@@ -206,13 +205,13 @@ devtools
 .
 netmonitor
 .
-hiddenColumns
+visibleColumns
 "
 JSON
 .
 stringify
 (
-hiddenColumns
+visibleColumns
 )
 )
 ;
