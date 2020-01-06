@@ -8,6 +8,8 @@ color
 :
 #
 F1F1F1
+!
+important
 ;
 border
 -
@@ -17,6 +19,8 @@ bottom
 solid
 #
 C1C1C1
+!
+important
 ;
 height
 :
@@ -148,6 +152,8 @@ color
 :
 #
 333
+!
+important
 ;
 margin
 -
@@ -182,6 +188,8 @@ heartbeat
 height
 :
 24px
+!
+important
 ;
 margin
 -
@@ -190,6 +198,8 @@ inline
 end
 :
 8px
+!
+important
 ;
 margin
 -
@@ -198,10 +208,14 @@ inline
 start
 :
 8px
+!
+important
 ;
 width
 :
 24px
+!
+important
 ;
 }
 .
@@ -314,6 +328,8 @@ color
 :
 #
 0095DD
+!
+important
 ;
 margin
 -
@@ -322,6 +338,8 @@ inline
 start
 :
 0
+!
+important
 ;
 }
 .
@@ -338,12 +356,16 @@ color
 :
 #
 008ACB
+!
+important
 ;
 text
 -
 decoration
 :
 none
+!
+important
 ;
 }
 .
@@ -362,6 +384,8 @@ color
 :
 #
 006B9D
+!
+important
 ;
 }
 .
