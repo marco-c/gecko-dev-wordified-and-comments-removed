@@ -1741,6 +1741,11 @@ langpack
 -
 %
 :
+multilocale
+.
+json
+-
+%
 libs
 -
 %
