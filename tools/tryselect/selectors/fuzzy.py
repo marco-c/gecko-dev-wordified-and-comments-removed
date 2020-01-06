@@ -1810,13 +1810,7 @@ else
 msg
 =
 "
-Pushed
-via
-'
-mach
-try
-fuzzy
-'
+Fuzzy
 {
 }
 "
@@ -1831,6 +1825,9 @@ vcs
 .
 push_to_try
 (
+'
+fuzzy
+'
 msg
 selected
 templates
