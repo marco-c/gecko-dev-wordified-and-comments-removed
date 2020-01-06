@@ -26603,6 +26603,8 @@ const
 nsAString
 &
 aMediaQueryList
+CallerType
+aCallerType
 )
 {
 MOZ_RELEASE_ASSERT
@@ -26629,6 +26631,7 @@ mDoc
 MatchMedia
 (
 aMediaQueryList
+aCallerType
 )
 ;
 }
@@ -26645,6 +26648,8 @@ const
 nsAString
 &
 aMediaQueryList
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -26655,6 +26660,7 @@ FORWARD_TO_OUTER_OR_THROW
 MatchMediaOuter
 (
 aMediaQueryList
+aCallerType
 )
 aError
 nullptr

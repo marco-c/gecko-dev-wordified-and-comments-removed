@@ -1322,6 +1322,7 @@ Window
 [
 Throws
 NewObject
+NeedsCallerType
 ]
 MediaQueryList
 matchMedia
@@ -1333,6 +1334,7 @@ query
 [
 Throws
 NewObject
+NeedsCallerType
 ]
 MediaQueryList
 ?

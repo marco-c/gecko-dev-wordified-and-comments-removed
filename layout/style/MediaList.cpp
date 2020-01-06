@@ -289,6 +289,8 @@ const
 nsAString
 &
 aMedia
+CallerType
+aCallerType
 )
 {
 if
@@ -312,6 +314,7 @@ new
 ServoMediaList
 (
 aMedia
+aCallerType
 )
 ;
 return
@@ -344,6 +347,7 @@ aMedia
 nullptr
 0
 mediaList
+aCallerType
 )
 ;
 return
