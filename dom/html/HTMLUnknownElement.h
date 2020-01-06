@@ -112,10 +112,6 @@ AddStatesSilently
 NS_EVENT_STATE_DIR_ATTR_LIKE_AUTO
 )
 ;
-SetHasDirAuto
-(
-)
-;
 }
 }
 virtual
