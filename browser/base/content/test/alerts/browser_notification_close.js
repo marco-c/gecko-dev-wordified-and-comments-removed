@@ -403,7 +403,9 @@ querySelector
 (
 "
 .
-alertCloseButton
+close
+-
+icon
 "
 )
 ;

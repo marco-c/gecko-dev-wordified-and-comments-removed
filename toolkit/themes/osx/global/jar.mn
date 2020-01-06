@@ -433,6 +433,7 @@ global
 wizard
 .
 css
+*
 skin
 /
 classic
