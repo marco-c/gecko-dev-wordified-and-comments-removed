@@ -1915,6 +1915,16 @@ track_sizes
 )
 ;
 void
+Gecko_SetGridTemplateLineNamesLength
+(
+nsStyleGridTemplate
+*
+grid_template
+uint32_t
+track_sizes
+)
+;
+void
 Gecko_CopyStyleGridTemplateValues
 (
 nsStyleGridTemplate
