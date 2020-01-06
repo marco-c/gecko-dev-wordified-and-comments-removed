@@ -756,13 +756,6 @@ xmm15
 static
 constexpr
 Register
-ArgumentsRectifierReg
-=
-r8
-;
-static
-constexpr
-Register
 CallTempReg0
 =
 rax

@@ -589,13 +589,6 @@ a3
 static
 constexpr
 Register
-ArgumentsRectifierReg
-=
-s3
-;
-static
-constexpr
-Register
 CallTempReg0
 =
 t0
