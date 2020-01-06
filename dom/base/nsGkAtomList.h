@@ -12029,13 +12029,6 @@ seed
 )
 GK_ATOM
 (
-shadow
-"
-shadow
-"
-)
-GK_ATOM
-(
 shape_rendering
 "
 shape

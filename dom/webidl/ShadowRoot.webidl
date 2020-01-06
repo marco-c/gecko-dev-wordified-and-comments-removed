@@ -215,12 +215,6 @@ attribute
 Element
 host
 ;
-readonly
-attribute
-ShadowRoot
-?
-olderShadowRoot
-;
 attribute
 boolean
 applyAuthorStyles

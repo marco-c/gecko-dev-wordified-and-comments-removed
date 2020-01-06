@@ -3069,14 +3069,6 @@ GROUP_SELECT_CONTENT
 )
 ELEM
 (
-shadow
-true
-false
-GROUP_NONE
-GROUP_INLINE_ELEMENT
-)
-ELEM
-(
 small
 true
 true

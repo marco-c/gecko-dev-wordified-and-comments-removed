@@ -515,11 +515,6 @@ HTMLSelectElement
 h
 '
 '
-HTMLShadowElement
-.
-h
-'
-'
 HTMLSharedElement
 .
 h
@@ -901,11 +896,6 @@ cpp
 '
 '
 HTMLSelectElement
-.
-cpp
-'
-'
-HTMLShadowElement
 .
 cpp
 '

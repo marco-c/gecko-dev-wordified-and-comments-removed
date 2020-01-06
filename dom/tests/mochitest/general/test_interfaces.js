@@ -1007,16 +1007,6 @@ HTMLScriptElement
 "
 HTMLSelectElement
 "
-{
-name
-:
-"
-HTMLShadowElement
-"
-stylo
-:
-false
-}
 "
 HTMLSourceElement
 "
@@ -1399,9 +1389,6 @@ PerformanceMeasure
 "
 "
 PerformanceNavigation
-"
-"
-PerformanceNavigationTiming
 "
 "
 PerformanceObserver

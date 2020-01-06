@@ -576,12 +576,6 @@ select
 Select
 Select
 )
-HTML_TAG
-(
-shadow
-Shadow
-Shadow
-)
 HTML_HTMLELEMENT_TAG
 (
 small

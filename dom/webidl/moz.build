@@ -3922,11 +3922,6 @@ HTMLSelectElement
 webidl
 '
 '
-HTMLShadowElement
-.
-webidl
-'
-'
 HTMLSourceElement
 .
 webidl
@@ -4533,11 +4528,6 @@ webidl
 '
 '
 PerformanceNavigation
-.
-webidl
-'
-'
-PerformanceNavigationTiming
 .
 webidl
 '
