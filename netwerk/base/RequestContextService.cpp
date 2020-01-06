@@ -1624,7 +1624,7 @@ mUntailTimer
 nullptr
 ;
 }
-mUntailAt
+mTimerScheduledAt
 =
 TimeStamp
 (
