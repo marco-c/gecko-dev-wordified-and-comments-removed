@@ -830,7 +830,7 @@ name
 Route
 :
 :
-GetCookie
+GetNamedCookie
 )
 (
 Post
@@ -1426,7 +1426,7 @@ IsEnabled
 ExecuteScript
 ExecuteAsyncScript
 GetCookies
-GetCookie
+GetNamedCookie
 AddCookie
 DeleteCookies
 DeleteCookie
