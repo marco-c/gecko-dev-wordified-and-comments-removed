@@ -19703,7 +19703,7 @@ IsEmpty
 restyleManager
 -
 >
-PostRestyleEvent
+PostRestyleEventForCSSRuleChanges
 (
 root
 eRestyle_Subtree
@@ -19728,7 +19728,7 @@ scopeRoots
 restyleManager
 -
 >
-PostRestyleEvent
+PostRestyleEventForCSSRuleChanges
 (
 scopeRoot
 eRestyle_Subtree
