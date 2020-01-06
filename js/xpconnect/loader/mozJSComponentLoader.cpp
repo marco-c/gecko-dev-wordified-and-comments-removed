@@ -3052,6 +3052,11 @@ setVersion
 JSVERSION_DEFAULT
 )
 .
+maybeMakeStrictMode
+(
+true
+)
+.
 setFileAndLine
 (
 nativePath
