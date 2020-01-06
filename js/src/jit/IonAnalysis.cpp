@@ -22440,12 +22440,7 @@ addDataProperty
 cx
 baseobj
 id
-baseobj
--
->
-slotSpan
-(
-)
+SHAPE_INVALID_SLOT
 JSPROP_ENUMERATE
 )
 )
