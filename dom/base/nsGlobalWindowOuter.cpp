@@ -3356,10 +3356,6 @@ gRefCnt
 +
 +
 ;
-EnsurePrefCaches
-(
-)
-;
 if
 (
 gDumpFile
