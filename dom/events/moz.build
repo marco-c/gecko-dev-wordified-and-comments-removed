@@ -241,6 +241,11 @@ VirtualKeyCodeList
 .
 h
 '
+'
+WheelHandlingHelper
+.
+h
+'
 ]
 EXPORTS
 .
