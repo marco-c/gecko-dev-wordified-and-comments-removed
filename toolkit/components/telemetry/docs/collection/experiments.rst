@@ -331,7 +331,7 @@ is
 limited
 to
 a
-lenght
+length
 of
 20
 characters
