@@ -1553,12 +1553,6 @@ intermittently
 fuzzy
 on
 Mac
-fails
--
-if
-(
-webrender
-)
 =
 =
 animate
