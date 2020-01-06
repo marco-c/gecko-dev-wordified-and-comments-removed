@@ -281,6 +281,11 @@ CompositionEvent
 h
 '
 '
+ConstructibleEventTarget
+.
+h
+'
+'
 CustomEvent
 .
 h
@@ -484,6 +489,11 @@ cpp
 '
 '
 CompositionEvent
+.
+cpp
+'
+'
+ConstructibleEventTarget
 .
 cpp
 '
