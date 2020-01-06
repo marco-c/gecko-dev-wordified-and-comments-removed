@@ -857,9 +857,6 @@ tc
 (
 p
 )
-tier
-:
-3
 worker
 -
 type
@@ -1039,9 +1036,6 @@ tc
 (
 p
 )
-tier
-:
-3
 worker
 -
 type
@@ -1494,9 +1488,6 @@ tc
 (
 cgc
 )
-tier
-:
-3
 worker
 -
 type
