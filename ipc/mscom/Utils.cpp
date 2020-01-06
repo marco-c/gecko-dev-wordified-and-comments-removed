@@ -341,7 +341,7 @@ thisModule
 )
 {
 return
-nullptr
+0
 ;
 }
 #
