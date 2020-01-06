@@ -23,7 +23,7 @@ enum
 class
 CompositorHitTestInfo
 :
-uint8_t
+uint16_t
 {
 eInvisibleToHitTest
 =

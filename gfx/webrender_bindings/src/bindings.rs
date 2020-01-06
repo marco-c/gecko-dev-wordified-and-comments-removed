@@ -10249,7 +10249,7 @@ scroll_id
 u64
 hit_info
 :
-u8
+u16
 )
 {
 state
@@ -10325,7 +10325,7 @@ out_hit_info
 :
 &
 mut
-u8
+u16
 )
 -
 >
