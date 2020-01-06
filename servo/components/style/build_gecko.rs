@@ -3114,6 +3114,16 @@ SERVO_PREF_
 *
 "
 "
+CSS_PSEUDO_ELEMENT_
+.
+*
+"
+"
+SERVO_CSS_PSEUDO_ELEMENT_FLAGS_
+.
+*
+"
+"
 kNameSpaceID_
 .
 *
@@ -4747,6 +4757,9 @@ RefPtr
 CSSPseudoClassType
 "
 "
+CSSPseudoElementType
+"
+"
 TraversalRestyleBehavior
 "
 "
@@ -5626,7 +5639,7 @@ unwrap
 join
 (
 "
-binding_tools
+gecko
 "
 )
 .

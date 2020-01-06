@@ -324,8 +324,6 @@ new
 (
 s
 .
-inner
-.
 clone
 (
 )
@@ -335,9 +333,6 @@ clone
 (
 )
 i
-s
-.
-specificity
 )
 }
 )
@@ -1262,6 +1257,8 @@ rules_list
 ]
 .
 selector
+.
+inner
 )
 None
 )
@@ -1284,6 +1281,8 @@ rules_list
 ]
 .
 selector
+.
+inner
 )
 Some
 (
@@ -1350,6 +1349,8 @@ rules_list
 ]
 .
 selector
+.
+inner
 )
 Some
 (
@@ -1383,6 +1384,8 @@ rules_list
 ]
 .
 selector
+.
+inner
 )
 None
 )
@@ -1463,6 +1466,8 @@ i
 ]
 .
 selector
+.
+inner
 )
 =
 =
