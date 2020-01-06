@@ -260,10 +260,6 @@ validateD3D11NV12Texture
 void
 *
 texture
-const
-AttributeMap
-&
-attributes
 )
 const
 ;

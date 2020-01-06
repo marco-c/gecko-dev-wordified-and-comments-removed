@@ -5051,12 +5051,6 @@ html
 #
 Bug
 1377303
-skip
--
-if
-(
-Android
-)
 =
 =
 visible
