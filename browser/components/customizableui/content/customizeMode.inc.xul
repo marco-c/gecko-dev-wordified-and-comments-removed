@@ -657,6 +657,9 @@ panel
 /
 button
 >
+#
+ifdef
+MOZ_PHOTON_THEME
 <
 button
 id
@@ -1233,6 +1236,8 @@ panel
 /
 button
 >
+#
+endif
 <
 spacer
 id
