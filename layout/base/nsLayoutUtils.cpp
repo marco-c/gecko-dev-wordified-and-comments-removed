@@ -16427,13 +16427,6 @@ EnterPresShell
 aFrame
 )
 ;
-builder
-.
-SetDirtyRect
-(
-aRect
-)
-;
 aFrame
 -
 >
@@ -16441,6 +16434,7 @@ BuildDisplayListForStackingContext
 (
 &
 builder
+aRect
 &
 list
 )
@@ -18265,13 +18259,6 @@ builder
 id
 )
 ;
-builder
-.
-SetDirtyRect
-(
-dirtyRect
-)
-;
 aFrame
 -
 >
@@ -18279,6 +18266,7 @@ BuildDisplayListForStackingContext
 (
 &
 builder
+dirtyRect
 &
 list
 )

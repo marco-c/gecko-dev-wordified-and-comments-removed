@@ -505,6 +505,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -516,6 +520,7 @@ nsMathMLContainerFrame
 BuildDisplayList
 (
 aBuilder
+aDirtyRect
 aLists
 )
 ;

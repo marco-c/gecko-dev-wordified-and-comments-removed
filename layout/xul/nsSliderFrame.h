@@ -252,6 +252,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -265,6 +269,10 @@ BuildDisplayList
 nsDisplayListBuilder
 *
 aBuilder
+const
+nsRect
+&
+aDirtyRect
 const
 nsDisplayListSet
 &

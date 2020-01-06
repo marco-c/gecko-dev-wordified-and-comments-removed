@@ -7608,6 +7608,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -7699,6 +7703,7 @@ BuildDisplayListForChild
 (
 aBuilder
 childFrame
+aDirtyRect
 childLists
 GetDisplayFlagsForFlexItem
 (

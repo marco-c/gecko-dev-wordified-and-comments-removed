@@ -3413,6 +3413,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -3526,6 +3530,7 @@ contentList
 BuildDisplayListForNonBlockChildren
 (
 aBuilder
+aDirtyRect
 set
 )
 ;

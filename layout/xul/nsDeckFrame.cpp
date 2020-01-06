@@ -514,6 +514,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -537,6 +541,7 @@ nsBoxFrame
 BuildDisplayList
 (
 aBuilder
+aDirtyRect
 aLists
 )
 ;
@@ -657,6 +662,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -692,6 +701,7 @@ BuildDisplayListForChild
 (
 aBuilder
 box
+aDirtyRect
 set
 )
 ;

@@ -138,6 +138,10 @@ nsDisplayListBuilder
 *
 aBuilder
 const
+nsRect
+&
+aDirtyRect
+const
 nsDisplayListSet
 &
 aLists
@@ -183,6 +187,7 @@ BuildDisplayListForChild
 (
 aBuilder
 kid
+aDirtyRect
 kidLists
 DISPLAY_CHILD_FORCE_STACKING_CONTEXT
 )
