@@ -1166,6 +1166,9 @@ mPlayerEventDispatcher
 .
 onDataArrived
 (
+getTrackType
+(
+)
 )
 ;
 mWaitingForData
