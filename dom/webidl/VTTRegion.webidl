@@ -148,6 +148,10 @@ enabled
 interface
 VTTRegion
 {
+attribute
+DOMString
+id
+;
 [
 SetterThrows
 ]

@@ -207,6 +207,14 @@ TextTrackRegion
 aRegion
 )
 {
+mId
+=
+aRegion
+.
+Id
+(
+)
+;
 mWidth
 =
 aRegion
