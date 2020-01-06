@@ -455,6 +455,12 @@ mFunction
 easing
 ;
 }
+result
+.
+Update
+(
+)
+;
 return
 result
 ;
