@@ -2315,6 +2315,15 @@ if
 window
 &
 &
+window
+.
+gBrowser
+instanceof
+Ci
+.
+nsIDOMXULElement
+&
+&
 target
 .
 contains
