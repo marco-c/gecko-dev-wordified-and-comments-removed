@@ -4844,6 +4844,10 @@ mForceNotVisible
 (
 false
 )
+mDisableSubpixelAA
+(
+false
+)
 #
 ifdef
 MOZ_DUMP_PAINTING
@@ -5996,12 +6000,15 @@ nsRect
 )
 ;
 }
-virtual
 void
 DisableComponentAlpha
 (
 )
 {
+mDisableSubpixelAA
+=
+true
+;
 }
 virtual
 bool
@@ -6215,6 +6222,9 @@ mVisibleRect
 ;
 bool
 mForceNotVisible
+;
+bool
+mDisableSubpixelAA
 ;
 #
 ifdef
