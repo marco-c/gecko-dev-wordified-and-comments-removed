@@ -6971,8 +6971,15 @@ mIPCOpen
 &
 !
 mShutdownPending
-&
-&
+)
+{
+SetInputPriorityEventEnabled
+(
+false
+)
+;
+if
+(
 SendShutdown
 (
 )
@@ -6986,6 +6993,7 @@ StartForceKillTimer
 (
 )
 ;
+}
 }
 return
 ;
