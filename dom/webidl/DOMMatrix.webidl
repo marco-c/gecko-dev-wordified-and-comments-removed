@@ -505,7 +505,7 @@ is2D
 readonly
 attribute
 boolean
-identity
+isIdentity
 ;
 DOMPoint
 transformPoint
