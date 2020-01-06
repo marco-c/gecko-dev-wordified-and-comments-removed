@@ -1453,11 +1453,6 @@ GetGlobal
 {
 return
 mGlobal
--
->
-GetJSObject
-(
-)
 ;
 }
 void
@@ -1570,9 +1565,13 @@ Unlink
 (
 )
 ;
-nsCOMPtr
+JS
+:
+:
+TenuredHeap
 <
-nsIXPConnectJSObjectHolder
+JSObject
+*
 >
 mGlobal
 ;
