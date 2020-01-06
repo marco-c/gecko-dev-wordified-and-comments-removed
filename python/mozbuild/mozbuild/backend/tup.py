@@ -516,6 +516,9 @@ symlink_rule
 (
 self
 source
+output
+=
+None
 output_group
 =
 None
@@ -524,6 +527,12 @@ None
         
 outputs
 =
+[
+output
+]
+if
+output
+else
 [
 mozpath
 .
@@ -2011,6 +2020,11 @@ symlink_rule
 f
 .
 full_path
+output
+=
+f
+.
+target_basename
 output_group
 =
 self
