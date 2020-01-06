@@ -1642,12 +1642,6 @@ ref
 html
 #
 Bugs
-fails
--
-if
-(
-stylo
-)
 =
 =
 601894
@@ -1660,12 +1654,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 601894

@@ -300,12 +300,6 @@ if
 (
 cocoaWidget
 )
-fails
--
-if
-(
-stylo
-)
 HTTP
 =
 =
