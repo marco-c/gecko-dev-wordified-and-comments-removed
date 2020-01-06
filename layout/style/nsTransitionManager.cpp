@@ -3782,7 +3782,7 @@ keyframes
 }
 static
 bool
-IsAnimatable
+IsTransitionable
 (
 nsCSSPropertyID
 aProperty
@@ -3796,7 +3796,7 @@ aIsServo
 )
 {
 return
-Servo_Property_IsAnimatable
+Servo_Property_IsTransitionable
 (
 aProperty
 )
@@ -3929,7 +3929,7 @@ return
 if
 (
 !
-IsAnimatable
+IsTransitionable
 (
 aProperty
 aElement
