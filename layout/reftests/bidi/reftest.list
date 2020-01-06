@@ -1621,12 +1621,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 413928
@@ -1641,12 +1635,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 413928

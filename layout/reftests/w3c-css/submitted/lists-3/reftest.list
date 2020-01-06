@@ -6,12 +6,6 @@ list
 style
 -
 type
-fails
--
-if
-(
-webrender
-)
 =
 =
 list
@@ -38,12 +32,6 @@ string
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 list
