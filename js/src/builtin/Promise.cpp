@@ -1011,9 +1011,10 @@ if
 debugInfo
 )
 {
-Value
+RootedValue
 idVal
 (
+cx
 promise
 -
 >
