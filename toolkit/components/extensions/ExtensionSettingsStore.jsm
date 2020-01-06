@@ -323,6 +323,12 @@ async
 function
 reloadFile
 (
+finalize
+)
+{
+if
+(
+finalize
 )
 {
 await
@@ -332,6 +338,7 @@ finalize
 (
 )
 ;
+}
 _initializePromise
 =
 null
@@ -1442,11 +1449,15 @@ null
 }
 _reloadFile
 (
+finalize
+=
+true
 )
 {
 return
 reloadFile
 (
+finalize
 )
 ;
 }
