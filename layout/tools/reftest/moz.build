@@ -104,15 +104,6 @@ Testing
 Reftest
 '
 )
-SCHEDULES
-.
-exclusive
-=
-[
-'
-reftest
-'
-]
 XPI_NAME
 =
 '

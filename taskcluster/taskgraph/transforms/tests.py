@@ -7308,7 +7308,6 @@ else
 schedules
 =
 [
-suite
 platform_family
 (
 test

@@ -135,17 +135,3 @@ XPCShell
 Harness
 "
 )
-SCHEDULES
-.
-exclusive
-=
-[
-'
-xpcshell
-'
-'
-xpcshell
--
-coverage
-'
-]
