@@ -8025,7 +8025,7 @@ FullscreenWindow
 Some
 (
 "
-fullscreenWindow
+fullscreen
 "
 )
 None
