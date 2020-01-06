@@ -6204,6 +6204,12 @@ aFile
 )
 ;
 static
+void
+AsyncPrecreateStringBundles
+(
+)
+;
+static
 bool
 CanCallerAccess
 (
