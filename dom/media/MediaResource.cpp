@@ -2949,11 +2949,6 @@ mURI
 mChannelStatistics
 )
 ;
-if
-(
-resource
-)
-{
 resource
 -
 >
@@ -2983,7 +2978,6 @@ Stop
 (
 )
 ;
-}
 return
 resource
 .
