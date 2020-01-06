@@ -32591,7 +32591,7 @@ true
 if
 (
 !
-emitTree
+emitTreeInBranch
 (
 forHeadExpr
 )
@@ -33486,7 +33486,7 @@ pn_kid3
 if
 (
 !
-emitTree
+emitTreeInBranch
 (
 expr
 )
