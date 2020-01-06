@@ -437,7 +437,7 @@ TAG
 MmaDelegate
 "
 ;
-private
+public
 static
 final
 String
@@ -513,6 +513,7 @@ getApplicationContext
 )
 )
 ;
+final
 Map
 <
 String
