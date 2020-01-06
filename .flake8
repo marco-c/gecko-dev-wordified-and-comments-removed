@@ -42,11 +42,3 @@ line
 length
 =
 99
-filename
-=
-*
-.
-py
-+
-.
-lint
