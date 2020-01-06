@@ -6155,6 +6155,16 @@ aString
 ;
 static
 bool
+IsLocalRefURL
+(
+const
+nsACString
+&
+aString
+)
+;
+static
+bool
 IsCustomElementsEnabled
 (
 )

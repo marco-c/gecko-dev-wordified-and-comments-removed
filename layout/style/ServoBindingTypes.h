@@ -69,6 +69,9 @@ RawServoStyleSet
 struct
 RawServoAnimationValueMap
 ;
+struct
+RustString
+;
 #
 define
 SERVO_ARC_TYPE

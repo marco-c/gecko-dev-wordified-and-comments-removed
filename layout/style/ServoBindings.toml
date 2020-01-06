@@ -2805,6 +2805,9 @@ mozilla
 UniquePtr
 "
 "
+ServoRawOffsetArc
+"
+"
 nsIContent
 "
 "
@@ -2884,6 +2887,9 @@ RawGeckoXBLBinding
 "
 "
 RefPtr
+"
+"
+RustString
 "
 "
 CSSPseudoClassType
