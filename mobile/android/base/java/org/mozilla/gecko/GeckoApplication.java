@@ -1190,6 +1190,17 @@ initialize
 this
 )
 ;
+MemoryMonitor
+.
+getInstance
+(
+)
+.
+init
+(
+this
+)
+;
 final
 Context
 context
