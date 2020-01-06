@@ -59,13 +59,6 @@ h
 #
 include
 "
-jsweakmap
-.
-h
-"
-#
-include
-"
 builtin
 /
 AtomicsObject
@@ -332,6 +325,7 @@ define
 DECLARE_PROTOTYPE_CLASS_INIT
 (
 name
+code
 init
 clasp
 )
@@ -407,6 +401,7 @@ define
 INIT_FUNC
 (
 name
+code
 init
 clasp
 )
@@ -419,6 +414,7 @@ define
 INIT_FUNC_DUMMY
 (
 name
+code
 init
 clasp
 )
