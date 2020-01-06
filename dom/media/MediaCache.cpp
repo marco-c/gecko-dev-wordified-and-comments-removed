@@ -5364,6 +5364,12 @@ thread
 "
 )
 ;
+ReentrantMonitorAutoEnter
+mon
+(
+mReentrantMonitor
+)
+;
 struct
 StreamAction
 {
@@ -5397,13 +5403,6 @@ StreamAction
 10
 >
 actions
-;
-{
-ReentrantMonitorAutoEnter
-mon
-(
-mReentrantMonitor
-)
 ;
 mUpdateQueued
 =
@@ -6723,7 +6722,6 @@ false
 ;
 #
 endif
-}
 for
 (
 uint32_t
