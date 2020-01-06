@@ -632,6 +632,7 @@ testmodule
 ;
 isInstalled
 =
+await
 browser
 .
 pkcs11
