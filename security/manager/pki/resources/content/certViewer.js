@@ -461,6 +461,11 @@ certificateUsageEmailRecipient
 0x0020
 ;
 const
+certificateUsageObjectSigner
+=
+0x0040
+;
+const
 certificateUsages
 =
 {
@@ -469,6 +474,7 @@ certificateUsageSSLServer
 certificateUsageSSLCA
 certificateUsageEmailSigner
 certificateUsageEmailRecipient
+certificateUsageObjectSigner
 }
 ;
 const
@@ -499,6 +505,11 @@ certificateUsageEmailRecipient
 :
 "
 VerifyEmailRecip
+"
+certificateUsageObjectSigner
+:
+"
+VerifyObjSign
 "
 }
 ;
