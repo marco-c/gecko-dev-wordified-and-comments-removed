@@ -2864,7 +2864,7 @@ getInViewCentrePoint
 function
 (
 rect
-win
+window
 )
 {
 const
@@ -2902,7 +2902,7 @@ right
 :
 min
 (
-win
+window
 .
 innerWidth
 max
@@ -2948,7 +2948,7 @@ bottom
 :
 min
 (
-win
+window
 .
 innerHeight
 max

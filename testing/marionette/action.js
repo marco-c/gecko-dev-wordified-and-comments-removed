@@ -4972,7 +4972,7 @@ dispatchKeyDown
 (
 a
 inputState
-win
+window
 )
 {
 return
@@ -5076,7 +5076,7 @@ a
 .
 value
 keyEvent
-win
+window
 )
 ;
 resolve
@@ -5092,7 +5092,7 @@ dispatchKeyUp
 (
 a
 inputState
-win
+window
 )
 {
 return
@@ -5180,7 +5180,7 @@ a
 .
 value
 keyEvent
-win
+window
 )
 ;
 resolve
@@ -5196,7 +5196,7 @@ dispatchPointerDown
 (
 a
 inputState
-win
+window
 )
 {
 return
@@ -5311,7 +5311,7 @@ inputState
 .
 y
 mouseEvent
-win
+window
 )
 ;
 if
@@ -5358,7 +5358,7 @@ inputState
 .
 y
 contextMenuEvent
-win
+window
 )
 ;
 }
@@ -5425,7 +5425,7 @@ dispatchPointerUp
 (
 a
 inputState
-win
+window
 )
 {
 return
@@ -5513,7 +5513,7 @@ inputState
 .
 y
 mouseEvent
-win
+window
 )
 ;
 break
