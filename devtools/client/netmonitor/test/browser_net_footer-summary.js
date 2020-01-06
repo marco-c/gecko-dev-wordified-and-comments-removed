@@ -281,9 +281,6 @@ images
 "
 media
 "
-"
-flash
-"
 ]
 ;
 for

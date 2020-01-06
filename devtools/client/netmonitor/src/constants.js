@@ -949,9 +949,6 @@ images
 media
 "
 "
-flash
-"
-"
 ws
 "
 "
