@@ -37,7 +37,7 @@ viewDoc
 =
 view
 .
-chromeDoc
+document
 ;
 let
 previews

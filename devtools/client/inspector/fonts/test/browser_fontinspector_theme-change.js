@@ -93,7 +93,7 @@ TEST_URI
 ;
 let
 {
-chromeDoc
+document
 :
 doc
 }

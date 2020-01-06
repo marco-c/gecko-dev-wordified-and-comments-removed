@@ -38,7 +38,7 @@ viewDoc
 =
 view
 .
-chromeDoc
+document
 ;
 info
 (
