@@ -861,18 +861,6 @@ sessionrestore
 profile
 '
     
-url
-=
-'
-startup_test
-/
-sessionrestore
-/
-index
-.
-html
-'
-    
 shutdown
 =
 False
@@ -891,6 +879,14 @@ sessionCheckpoints
 json
 '
 ]
+    
+url
+=
+'
+about
+:
+home
+'
     
 preferences
 =
