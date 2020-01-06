@@ -92,6 +92,12 @@ mProcess
 (
 GeckoProcessType_Invalid
 )
+mRemoteType
+(
+NullString
+(
+)
+)
 {
 }
 HangDetails
@@ -149,6 +155,12 @@ mProcess
 (
 aProcess
 )
+mRemoteType
+(
+NullString
+(
+)
+)
 mThreadName
 (
 aThreadName
@@ -178,6 +190,9 @@ mDuration
 ;
 GeckoProcessType
 mProcess
+;
+nsString
+mRemoteType
 ;
 nsCString
 mThreadName
