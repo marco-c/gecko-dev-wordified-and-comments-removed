@@ -9224,6 +9224,10 @@ penaltyLog
 (
 )
 .
+penaltyDeathOnNetwork
+(
+)
+.
 build
 (
 )
