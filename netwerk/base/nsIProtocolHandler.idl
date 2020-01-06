@@ -2634,7 +2634,6 @@ protocol
 can
 be
 loaded
-only
 by
 extensions
 .
