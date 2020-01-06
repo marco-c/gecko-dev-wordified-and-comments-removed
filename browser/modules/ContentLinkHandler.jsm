@@ -1247,6 +1247,16 @@ icon
 :
 if
 (
+link
+.
+hasAttribute
+(
+"
+mask
+"
+)
+|
+|
 iconAdded
 |
 |
@@ -1266,8 +1276,10 @@ site_icons
 "
 )
 )
+{
 break
 ;
+}
 iconAdded
 =
 handleFaviconLink
