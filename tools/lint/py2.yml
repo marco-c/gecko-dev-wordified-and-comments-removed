@@ -149,14 +149,6 @@ gtest
 -
 testing
 /
-instrumentation
-/
-runinstrumentation
-.
-py
--
-testing
-/
 marionette
 -
 testing
