@@ -2721,15 +2721,6 @@ inline
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 1135361
@@ -2752,9 +2743,6 @@ justify
 ref
 .
 html
-#
-bug
-1136067
 fuzzy
 -
 if
