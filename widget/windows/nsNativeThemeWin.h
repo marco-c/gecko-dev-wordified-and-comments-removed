@@ -96,7 +96,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 DrawWidgetBackground
 (
-nsRenderingContext
+gfxContext
 *
 aContext
 nsIFrame
@@ -354,7 +354,7 @@ aFocused
 nsresult
 ClassicDrawWidgetBackground
 (
-nsRenderingContext
+gfxContext
 *
 aContext
 nsIFrame

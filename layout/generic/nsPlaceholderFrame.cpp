@@ -8,6 +8,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -48,13 +55,6 @@ h
 include
 "
 nsPresContext
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -220,7 +220,7 @@ nsPlaceholderFrame
 :
 AddInlineMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -282,7 +282,7 @@ nsPlaceholderFrame
 :
 AddInlinePrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame

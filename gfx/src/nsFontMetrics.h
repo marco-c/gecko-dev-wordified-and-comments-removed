@@ -88,6 +88,9 @@ nscore
 h
 "
 class
+gfxContext
+;
+class
 gfxUserFontSet
 ;
 class
@@ -98,9 +101,6 @@ nsDeviceContext
 ;
 class
 nsIAtom
-;
-class
-nsRenderingContext
 ;
 struct
 nsBoundingMetrics
@@ -370,7 +370,7 @@ nscoord
 aX
 nscoord
 aY
-nsRenderingContext
+gfxContext
 *
 aContext
 )
@@ -388,7 +388,7 @@ nscoord
 aX
 nscoord
 aY
-nsRenderingContext
+gfxContext
 *
 aContext
 DrawTarget

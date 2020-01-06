@@ -1378,7 +1378,7 @@ nsTableWrapperFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -1475,7 +1475,7 @@ nsTableWrapperFrame
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -1665,7 +1665,7 @@ nsTableWrapperFrame
 :
 ChildShrinkWrapISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -1968,7 +1968,7 @@ nsTableWrapperFrame
 :
 ComputeAutoSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 WritingMode

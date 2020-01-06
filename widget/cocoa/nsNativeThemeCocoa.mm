@@ -167,13 +167,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h
@@ -14137,7 +14130,7 @@ nsNativeThemeCocoa
 :
 DrawWidgetBackground
 (
-nsRenderingContext
+gfxContext
 *
 aContext
 nsIFrame

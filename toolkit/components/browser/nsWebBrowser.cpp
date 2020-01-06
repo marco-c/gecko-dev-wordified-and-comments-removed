@@ -40,6 +40,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 nsReadableUtils
 .
 h
@@ -188,13 +195,6 @@ h
 include
 "
 Layers
-.
-h
-"
-#
-include
-"
-gfxContext
 .
 h
 "

@@ -28,6 +28,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 gfxPattern
 .
 h
@@ -112,13 +119,6 @@ h
 include
 "
 nsColor
-.
-h
-"
-#
-include
-"
-gfxContext
 .
 h
 "

@@ -7,6 +7,13 @@ NSDISPLAYLIST_H_
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArenaAllocator
@@ -106,13 +113,6 @@ h
 include
 "
 nsDisplayListInvalidation
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -229,10 +229,10 @@ include
 algorithm
 >
 class
-nsIContent
+gfxContext
 ;
 class
-nsRenderingContext
+nsIContent
 ;
 class
 nsDisplayList
@@ -5411,7 +5411,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -6663,7 +6663,7 @@ PaintRoot
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 uint32_t
@@ -7305,7 +7305,7 @@ OldPaintCallback
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aCtx
 const
@@ -7432,7 +7432,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -7590,7 +7590,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -7911,7 +7911,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -8135,7 +8135,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -8664,7 +8664,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -8917,7 +8917,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -9252,7 +9252,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -9439,7 +9439,7 @@ PaintInternal
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 const
@@ -9791,7 +9791,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -9877,7 +9877,7 @@ PaintInternal
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 const
@@ -9993,7 +9993,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -10599,7 +10599,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -10882,7 +10882,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -11263,7 +11263,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -11873,7 +11873,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -14537,7 +14537,7 @@ PaintAsLayer
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 LayerManager
@@ -14771,7 +14771,7 @@ PaintAsLayer
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 LayerManager

@@ -26,6 +26,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 nsContentCreatorFunctions
 .
 h
@@ -122,13 +129,6 @@ h
 include
 "
 nsNodeInfoManager
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -816,7 +816,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -1028,7 +1028,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -3828,7 +3828,7 @@ nsRangeFrame
 :
 ComputeAutoSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 WritingMode
@@ -3976,7 +3976,7 @@ nsRangeFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -3994,7 +3994,7 @@ nsRangeFrame
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )

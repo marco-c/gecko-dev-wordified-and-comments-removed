@@ -49,7 +49,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -59,7 +59,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 bool
@@ -98,7 +98,7 @@ BTLS_FINAL_ISIZE
 void
 ComputeColumnIntrinsicISizes
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -132,7 +132,7 @@ aSpanHasSpecifiedISize
 void
 ComputeIntrinsicISizes
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )

@@ -68,7 +68,7 @@ h
 #
 include
 "
-nsRenderingContext
+gfxContext
 .
 h
 "
@@ -1209,7 +1209,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -1260,7 +1260,7 @@ true
 void
 PaintTextToContext
 (
-nsRenderingContext
+gfxContext
 *
 aCtx
 nsPoint
@@ -1280,7 +1280,7 @@ static
 void
 PaintTextShadowCallback
 (
-nsRenderingContext
+gfxContext
 *
 aCtx
 nsPoint
@@ -1322,7 +1322,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -1402,7 +1402,7 @@ nsDisplayXULTextBox
 :
 PaintTextToContext
 (
-nsRenderingContext
+gfxContext
 *
 aCtx
 nsPoint
@@ -1566,7 +1566,7 @@ nsTextBoxFrame
 :
 PaintTitle
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -1608,7 +1608,7 @@ nsTextBoxFrame
 :
 DrawText
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -2309,9 +2309,12 @@ params
 ;
 }
 }
-nsRenderingContext
+RefPtr
+<
+gfxContext
+>
 refContext
-(
+=
 PresContext
 (
 )
@@ -2325,14 +2328,14 @@ PresShell
 CreateReferenceRenderingContext
 (
 )
-)
 ;
 DrawTarget
 *
 refDrawTarget
 =
 refContext
-.
+-
+>
 GetDrawTarget
 (
 )
@@ -2370,11 +2373,6 @@ c
 ;
 aRenderingContext
 .
-ThebesContext
-(
-)
--
->
 SetColor
 (
 Color
@@ -2883,7 +2881,7 @@ nsTextBoxFrame
 :
 CalculateTitleForWidth
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nscoord
@@ -4667,7 +4665,7 @@ nsTextBoxFrame
 :
 GetTextSize
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -4755,7 +4753,7 @@ mNeedsRecalc
 nsSize
 size
 ;
-nsRenderingContext
+gfxContext
 *
 rendContext
 =
@@ -4818,7 +4816,7 @@ nsTextBoxFrame
 :
 CalcDrawRect
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 )

@@ -205,7 +205,7 @@ virtual
 void
 AddInlineMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 InlineMinISizeData
@@ -218,7 +218,7 @@ virtual
 void
 AddInlinePrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 InlinePrefISizeData

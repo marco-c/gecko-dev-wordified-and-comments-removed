@@ -317,7 +317,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -327,7 +327,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -644,7 +644,7 @@ aStyleContext
 DrawResult
 DisplayAltFeedback
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -712,7 +712,7 @@ virtual
 void
 AddInlineMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 InlineMinISizeData
@@ -797,7 +797,7 @@ mozilla
 LogicalSize
 ComputeSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla
@@ -887,7 +887,7 @@ aMaxWidth
 uint32_t
 &
 aMaxFit
-nsRenderingContext
+gfxContext
 &
 aContext
 nsFontMetrics
@@ -901,7 +901,7 @@ DisplayAltText
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -917,7 +917,7 @@ aRect
 DrawResult
 PaintImage
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nsPoint
@@ -1458,7 +1458,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )

@@ -10,6 +10,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -39,13 +46,6 @@ h
 include
 "
 nsPresContext
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -10094,7 +10094,7 @@ DrawTarget
 ;
 nsIRenderingContextBidiProcessor
 (
-nsRenderingContext
+gfxContext
 *
 aCtx
 DrawTarget
@@ -10261,7 +10261,7 @@ mTextRunConstructionDrawTarget
 }
 private
 :
-nsRenderingContext
+gfxContext
 *
 mCtx
 ;
@@ -10303,7 +10303,7 @@ aBaseLevel
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 DrawTarget

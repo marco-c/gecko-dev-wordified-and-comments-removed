@@ -260,7 +260,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -270,7 +270,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -796,7 +796,7 @@ PaintPrintPlugin
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 const
@@ -810,7 +810,7 @@ aPt
 void
 PrintPlugin
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -825,7 +825,7 @@ PaintPlugin
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -1126,7 +1126,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )

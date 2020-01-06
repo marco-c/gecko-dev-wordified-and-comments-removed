@@ -1,6 +1,13 @@
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 nsMathMLmtableFrame
 .
 h
@@ -30,13 +37,6 @@ h
 include
 "
 nsNameSpaceManager
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -1526,7 +1526,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )

@@ -13,7 +13,7 @@ nsBoxLayoutState
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 const
