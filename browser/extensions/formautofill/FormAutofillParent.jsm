@@ -1909,7 +1909,6 @@ guid
 address
 .
 record
-true
 )
 )
 {
@@ -1960,7 +1959,6 @@ mergeToStorage
 address
 .
 record
-true
 )
 ;
 switch
