@@ -70,6 +70,15 @@ third_party
 /
 python
 /
+cram
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 dlmanager
 mozilla
 .
