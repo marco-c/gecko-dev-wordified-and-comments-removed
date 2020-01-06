@@ -1209,6 +1209,14 @@ nsPoint
 aPoint
 )
 ;
+bool
+HasSameRoot
+(
+nsINode
+&
+aNode
+)
+;
 friend
 class
 :
