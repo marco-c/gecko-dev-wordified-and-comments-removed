@@ -259,12 +259,15 @@ only
 xul
 "
 ;
-function
+const
 isAncestorOrSelf
+=
 (
 target
 node
 )
+=
+>
 {
 for
 (
@@ -296,6 +299,7 @@ return
 false
 ;
 }
+;
 const
 browserActionMap
 =

@@ -48,12 +48,15 @@ objects
 changed
 "
 ;
-function
+const
 getRecentlyClosed
+=
 (
 maxResults
 extension
 )
+=
+>
 {
 let
 recentlyClosed
@@ -187,6 +190,10 @@ maxResults
 )
 ;
 }
+;
+const
+createSession
+=
 async
 function
 createSession
@@ -301,6 +308,7 @@ return
 sessionObj
 ;
 }
+;
 this
 .
 sessions

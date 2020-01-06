@@ -26,10 +26,13 @@ jsm
 "
 )
 ;
-function
+const
 searchInitialized
+=
 (
 )
+=
+>
 {
 return
 new
@@ -115,6 +118,7 @@ SEARCH_SERVICE_TOPIC
 )
 ;
 }
+;
 this
 .
 chrome_settings_overrides

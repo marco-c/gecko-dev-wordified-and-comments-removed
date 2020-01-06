@@ -82,13 +82,16 @@ promiseObserved
 =
 ExtensionUtils
 ;
-function
+const
 onXULFrameLoaderCreated
+=
 (
 {
 target
 }
 )
+=
+>
 {
 target
 .
@@ -104,6 +107,7 @@ AllowScriptsToClose
 )
 ;
 }
+;
 this
 .
 windows
