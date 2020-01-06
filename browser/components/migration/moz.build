@@ -192,6 +192,11 @@ AutoMigrate
 jsm
 '
 '
+ChromeMigrationUtils
+.
+jsm
+'
+'
 MigrationUtils
 .
 jsm

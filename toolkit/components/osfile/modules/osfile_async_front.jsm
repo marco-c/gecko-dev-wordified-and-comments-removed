@@ -513,6 +513,14 @@ AppData
 ]
 [
 "
+winLocalAppDataDir
+"
+"
+LocalAppData
+"
+]
+[
+"
 winStartMenuProgsDir
 "
 "
