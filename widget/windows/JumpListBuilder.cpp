@@ -226,6 +226,7 @@ detail
 {
 class
 DoneCommitListBuildCallback
+final
 :
 public
 nsIRunnable

@@ -1758,6 +1758,7 @@ namespace
 {
 class
 RemoveTempFileHelper
+final
 :
 public
 nsIObserver

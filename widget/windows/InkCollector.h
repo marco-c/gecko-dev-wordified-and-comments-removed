@@ -28,6 +28,7 @@ WM_USER
 0x83
 class
 InkCollectorEvent
+final
 :
 public
 _IInkCollectorEvents
@@ -199,6 +200,13 @@ uint32_t
 mRefCount
 =
 0
+;
+~
+InkCollectorEvent
+(
+)
+=
+default
 ;
 }
 ;

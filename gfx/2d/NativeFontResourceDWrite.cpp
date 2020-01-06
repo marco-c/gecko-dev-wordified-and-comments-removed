@@ -252,6 +252,7 @@ mInstance
 ;
 class
 DWriteFontFileStream
+final
 :
 public
 IDWriteFontFileStream
@@ -267,11 +268,6 @@ uint32_t
 aSize
 uint64_t
 aFontFileKey
-)
-;
-~
-DWriteFontFileStream
-(
 )
 ;
 IFACEMETHOD
@@ -469,6 +465,11 @@ mRefCnt
 ;
 uint64_t
 mFontFileKey
+;
+~
+DWriteFontFileStream
+(
+)
 ;
 }
 ;
