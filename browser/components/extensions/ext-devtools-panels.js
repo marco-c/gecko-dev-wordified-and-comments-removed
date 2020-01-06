@@ -331,7 +331,7 @@ on
 .
 invertIconForLightTheme
 :
-true
+false
 visibilityswitch
 :
 devtools
