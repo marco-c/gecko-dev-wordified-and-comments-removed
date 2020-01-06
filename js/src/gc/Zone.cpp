@@ -384,13 +384,11 @@ rt
 >
 gc
 .
-maxMallocBytesAllocated
+tunables
+.
+maxMallocBytes
 (
 )
-*
-0
-.
-9
 lock
 )
 ;
