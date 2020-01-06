@@ -590,17 +590,6 @@ mozilla
 /
 layers
 /
-WebRenderDisplayItemLayer
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 WebRenderLayerManager
 .
 h
@@ -19184,7 +19173,6 @@ params
 aBuilder
 aResources
 aSc
-nullptr
 aManager
 this
 )

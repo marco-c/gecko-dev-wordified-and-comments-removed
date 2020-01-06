@@ -193,17 +193,6 @@ include
 "
 mozilla
 /
-layers
-/
-WebRenderDisplayItemLayer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Range
 .
 h

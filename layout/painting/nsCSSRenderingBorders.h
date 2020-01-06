@@ -140,9 +140,6 @@ layers
 class
 StackingContextHelper
 ;
-class
-WebRenderDisplayItemLayer
-;
 }
 }
 #
