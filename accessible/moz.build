@@ -229,6 +229,17 @@ browser
 .
 ini
 '
+'
+tests
+/
+browser
+/
+states
+/
+browser
+.
+ini
+'
 ]
 with
 Files
