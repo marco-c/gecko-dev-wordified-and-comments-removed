@@ -821,6 +821,22 @@ click
 )
 )
         
+if
+not
+self
+.
+marionette
+.
+session_capabilities
+[
+"
+moz
+:
+webdriverClick
+"
+]
+:
+            
 self
 .
 run_element_test
@@ -828,7 +844,7 @@ run_element_test
 self
 .
 pointer_events_none_elementIDs
-                              
+                                  
 lambda
 element
 :
@@ -837,7 +853,7 @@ self
 assertRaises
 (
 ElementNotAccessibleException
-                                                                
+                                                                    
 element
 .
 click
@@ -906,6 +922,22 @@ click
 )
 )
         
+if
+not
+self
+.
+marionette
+.
+session_capabilities
+[
+"
+moz
+:
+webdriverClick
+"
+]
+:
+            
 self
 .
 run_element_test
@@ -913,7 +945,7 @@ run_element_test
 self
 .
 pointer_events_none_elementIDs
-                              
+                                  
 lambda
 element
 :
