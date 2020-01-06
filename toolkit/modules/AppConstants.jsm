@@ -777,6 +777,17 @@ else
 false
 #
 endif
+MOZ_STYLO
+:
+#
+ifdef
+MOZ_STYLO
+true
+#
+else
+false
+#
+endif
 }
 )
 ;
