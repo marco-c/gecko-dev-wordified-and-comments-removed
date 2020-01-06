@@ -2576,15 +2576,6 @@ js
 :
 ThreadLocalData
 <
-uint32_t
->
-propertyRemovals
-;
-js
-:
-:
-ThreadLocalData
-<
 js
 :
 :

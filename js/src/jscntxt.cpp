@@ -6381,10 +6381,6 @@ debuggerMutations
 (
 0
 )
-propertyRemovals
-(
-0
-)
 ionPcScriptCache
 (
 nullptr
