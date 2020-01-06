@@ -15233,9 +15233,9 @@ style
 NS_STYLE_BORDER_STYLE_DOTTED
 )
 {
-mAllBordersSameStyle
+forceSeparateCorners
 =
-false
+true
 ;
 dashedSides
 |
