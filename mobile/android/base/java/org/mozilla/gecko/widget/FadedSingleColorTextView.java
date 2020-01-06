@@ -249,10 +249,11 @@ getInstance
 .
 isRtl
 (
-(
-String
-)
 text
+.
+toString
+(
+)
 )
 ;
 }
