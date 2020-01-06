@@ -61,16 +61,6 @@ builds
 worker
 /
 checkouts
-VOLUME
-/
-builds
-/
-worker
-/
-.
-tc
--
-vcs
 #
 Add
 build
