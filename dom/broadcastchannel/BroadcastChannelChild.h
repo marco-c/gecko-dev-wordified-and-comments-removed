@@ -119,11 +119,6 @@ aWhy
 )
 override
 ;
-void
-DispatchError
-(
-)
-;
 BroadcastChannel
 *
 mBC
