@@ -167,13 +167,6 @@ pres_context
 )
 SERVO_BINDING_FUNC
 (
-Servo_StyleSet_Clear
-void
-RawServoStyleSetBorrowed
-set
-)
-SERVO_BINDING_FUNC
-(
 Servo_StyleSet_RebuildCachedData
 void
 RawServoStyleSetBorrowed
