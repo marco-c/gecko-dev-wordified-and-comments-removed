@@ -481,6 +481,8 @@ public
 void
 lastPayloadFailed
 (
+Exception
+e
 )
 {
 didLastPayloadFail
