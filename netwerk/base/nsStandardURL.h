@@ -1277,6 +1277,10 @@ static
 bool
 gInitialized
 ;
+static
+bool
+gPunycodeHost
+;
 public
 :
 #
