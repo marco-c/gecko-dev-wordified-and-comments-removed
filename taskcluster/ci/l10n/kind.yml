@@ -320,14 +320,6 @@ L10n
 )
 tier
 :
-by
--
-build
--
-platform
-:
-default
-:
 2
 platform
 :

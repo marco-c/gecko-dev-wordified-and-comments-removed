@@ -210,14 +210,6 @@ per
 -
 chunk
 :
-by
--
-build
--
-platform
-:
-default
-:
 5
 run
 -
