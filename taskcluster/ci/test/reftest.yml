@@ -278,6 +278,15 @@ windows
 *
 :
 2
+windows10
+-
+64
+-
+ccov
+/
+debug
+:
+5
 linux64
 -
 ccov

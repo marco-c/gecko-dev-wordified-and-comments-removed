@@ -281,6 +281,15 @@ windows
 *
 :
 1
+windows10
+-
+64
+-
+ccov
+/
+debug
+:
+8
 default
 :
 8
