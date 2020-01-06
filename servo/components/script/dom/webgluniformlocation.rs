@@ -1,4 +1,13 @@
 use
+canvas_traits
+:
+:
+webgl
+:
+:
+WebGLProgramId
+;
+use
 dom
 :
 :
@@ -54,12 +63,6 @@ dom_struct
 :
 :
 dom_struct
-;
-use
-webrender_api
-:
-:
-WebGLProgramId
 ;
 #
 [
