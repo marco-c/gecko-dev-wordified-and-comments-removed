@@ -7503,6 +7503,16 @@ GetColIndex
 )
 ;
 }
+if
+(
+!
+colIdx
+.
+IsEmpty
+(
+)
+)
+{
 nsTableFrame
 *
 table
@@ -7589,6 +7599,7 @@ colIdx
 offset
 )
 ;
+}
 }
 }
 else
