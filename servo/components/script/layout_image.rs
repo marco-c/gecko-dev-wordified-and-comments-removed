@@ -401,7 +401,11 @@ origin
 :
 document
 .
-url
+origin
+(
+)
+.
+immutable
 (
 )
 .

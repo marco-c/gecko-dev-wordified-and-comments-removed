@@ -1271,13 +1271,6 @@ Destination
 :
 :
 Font
-origin
-:
-url
-.
-clone
-(
-)
 .
 .
 RequestInit

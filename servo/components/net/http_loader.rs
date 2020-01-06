@@ -7563,6 +7563,10 @@ ascii_serialization
 =
 =
 origin
+.
+trim
+(
+)
 =
 >
 {

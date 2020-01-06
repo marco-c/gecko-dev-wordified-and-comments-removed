@@ -4724,7 +4724,15 @@ global
 (
 )
 .
-get_url
+origin
+(
+)
+.
+immutable
+(
+)
+.
+clone
 (
 )
 referrer_url

@@ -1332,9 +1332,15 @@ use_url_credentials
 true
 origin
 :
-self
+global_scope
 .
-worker_url
+origin
+(
+)
+.
+immutable
+(
+)
 .
 clone
 (

@@ -2567,7 +2567,15 @@ origin
 :
 global
 .
-get_url
+origin
+(
+)
+.
+immutable
+(
+)
+.
+clone
 (
 )
 pipeline_id

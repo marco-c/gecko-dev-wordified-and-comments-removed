@@ -2770,7 +2770,15 @@ origin
 :
 document
 .
-url
+origin
+(
+)
+.
+immutable
+(
+)
+.
+clone
 (
 )
 pipeline_id
