@@ -1245,6 +1245,14 @@ caret_on_textarea_lastline
 ref
 .
 html
+fuzzy
+-
+if
+(
+Android
+1
+1
+)
 needs
 -
 focus
