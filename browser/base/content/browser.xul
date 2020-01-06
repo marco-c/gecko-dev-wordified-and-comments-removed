@@ -9031,6 +9031,9 @@ chromeclass
 toolbar
 -
 additional
+subviewbutton
+-
+nav
 "
 removable
 =
@@ -10067,6 +10070,9 @@ chromeclass
 toolbar
 -
 additional
+subviewbutton
+-
+nav
 "
 type
 =
