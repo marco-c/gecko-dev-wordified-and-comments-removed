@@ -160,9 +160,8 @@ eCSSProperty__x_lang
 mPresContext
 -
 >
-GetDefaultFont
+ForceCacheLang
 (
-kPresContext_DefaultVariableFont_ID
 atom
 )
 ;
