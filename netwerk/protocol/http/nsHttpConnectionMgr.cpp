@@ -24713,17 +24713,6 @@ if
 mTransaction
 )
 {
-RefPtr
-<
-PendingTransactionInfo
->
-info
-=
-FindTransactionHelper
-(
-false
-)
-;
 if
 (
 (
@@ -24751,7 +24740,7 @@ NS_NET_STATUS_CONNECTED_TO
 )
 &
 &
-info
+mSocketTransport
 )
 )
 {

@@ -7597,6 +7597,11 @@ totalTime
 this
 .
 _totalTime
+offsets
+:
+this
+.
+_offsets
 }
 ;
 }
@@ -8280,6 +8285,7 @@ function
 (
 total
 timings
+offsets
 )
 {
 this
@@ -8293,6 +8299,12 @@ this
 _timings
 =
 timings
+;
+this
+.
+_offsets
+=
+offsets
 ;
 let
 packet

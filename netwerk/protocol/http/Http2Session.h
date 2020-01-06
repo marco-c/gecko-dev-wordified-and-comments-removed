@@ -1652,6 +1652,15 @@ mRequestHead
 ;
 }
 ;
+RefPtr
+<
+nsHttpTransaction
+>
+mFirstHttpTransaction
+;
+bool
+mTlsHandshakeFinished
+;
 private
 :
 void

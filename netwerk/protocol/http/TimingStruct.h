@@ -32,6 +32,9 @@ TimeStamp
 connectStart
 ;
 TimeStamp
+tcpConnectEnd
+;
+TimeStamp
 secureConnectionStart
 ;
 TimeStamp

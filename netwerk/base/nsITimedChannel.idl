@@ -303,6 +303,14 @@ noscript
 readonly
 attribute
 TimeStamp
+tcpConnectEnd
+;
+[
+noscript
+]
+readonly
+attribute
+TimeStamp
 secureConnectionStart
 ;
 [
@@ -605,6 +613,11 @@ readonly
 attribute
 PRTime
 connectStartTime
+;
+readonly
+attribute
+PRTime
+tcpConnectEndTime
 ;
 readonly
 attribute

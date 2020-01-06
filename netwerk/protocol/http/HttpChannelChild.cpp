@@ -4451,6 +4451,14 @@ connectStart
 ;
 mTransactionTimings
 .
+tcpConnectEnd
+=
+timing
+.
+tcpConnectEnd
+;
+mTransactionTimings
+.
 secureConnectionStart
 =
 timing
