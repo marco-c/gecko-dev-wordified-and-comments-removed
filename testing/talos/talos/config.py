@@ -118,10 +118,6 @@ resolution
 =
 1
         
-rss
-=
-False
-        
 mainthread
 =
 False
@@ -2151,10 +2147,6 @@ gecko_profile_entries
 '
     
 '
-rss
-'
-    
-'
 shutdown
 '
     
@@ -2707,24 +2699,6 @@ counters
 =
 set
 (
-)
-    
-if
-config
-[
-'
-rss
-'
-]
-:
-        
-counters
-.
-add
-(
-'
-Main_RSS
-'
 )
     
 return

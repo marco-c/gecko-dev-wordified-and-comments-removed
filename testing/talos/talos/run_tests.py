@@ -356,9 +356,6 @@ tpdisable_e10s
 tpnoisy
 '
 '
-rss
-'
-'
 tprender
 '
 '
