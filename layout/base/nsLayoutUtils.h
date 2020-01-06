@@ -2213,6 +2213,18 @@ nsRect
 aTestRect
 )
 ;
+static
+bool
+MaybeCreateDisplayPortInFirstScrollFrameEncountered
+(
+nsIFrame
+*
+aFrame
+nsDisplayListBuilder
+&
+aBuilder
+)
+;
 enum
 class
 PaintFrameFlags
@@ -5796,7 +5808,7 @@ aRepaintMode
 )
 ;
 static
-void
+bool
 MaybeCreateDisplayPort
 (
 nsDisplayListBuilder
@@ -5805,6 +5817,8 @@ aBuilder
 nsIFrame
 *
 aScrollFrame
+RepaintMode
+aRepaintMode
 )
 ;
 static

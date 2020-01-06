@@ -16070,16 +16070,6 @@ if
 aAllowCreateDisplayPort
 )
 {
-nsLayoutUtils
-:
-:
-MaybeCreateDisplayPort
-(
-*
-aBuilder
-mOuter
-)
-;
 nsRect
 displayportBase
 =
