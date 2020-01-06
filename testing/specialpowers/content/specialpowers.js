@@ -211,6 +211,12 @@ SPSetTestPluginEnabledState
 "
 SPCleanUpSTSData
 "
+"
+SPRequestDumpCoverageCounters
+"
+"
+SPRequestResetCoverageCounters
+"
 ]
 ;
 this
