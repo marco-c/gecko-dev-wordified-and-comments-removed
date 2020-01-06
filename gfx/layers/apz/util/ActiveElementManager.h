@@ -90,12 +90,6 @@ HandleTouchEnd
 (
 )
 ;
-bool
-ActiveElementUsesStyle
-(
-)
-const
-;
 private
 :
 nsCOMPtr
@@ -118,9 +112,6 @@ RefPtr
 CancelableRunnable
 >
 mSetActiveTask
-;
-bool
-mActiveElementUsesStyle
 ;
 void
 TriggerElementActivation
