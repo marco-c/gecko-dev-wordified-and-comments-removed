@@ -170,8 +170,6 @@ WebRenderAPI
 >
 Create
 (
-bool
-aEnableProfiler
 layers
 :
 :
@@ -505,13 +503,6 @@ wr
 :
 FontKey
 aKey
-)
-;
-void
-SetProfilerEnabled
-(
-bool
-aEnabled
 )
 ;
 void
