@@ -858,6 +858,13 @@ GetFirstLetter
 )
 const
 ;
+nsIFrame
+*
+GetFirstLineFrame
+(
+)
+const
+;
 void
 MarkIntrinsicISizesDirty
 (
