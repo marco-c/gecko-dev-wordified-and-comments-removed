@@ -740,6 +740,17 @@ command
 WebDriverCommand
 :
 :
+Status
+=
+>
+Ok
+(
+(
+)
+)
+WebDriverCommand
+:
+:
 NewSession
 (
 _
