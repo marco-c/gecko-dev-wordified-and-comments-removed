@@ -5102,16 +5102,6 @@ UseAPZ
 (
 )
 ;
-if
-(
-enableWR
-)
-{
-enableAPZ
-=
-false
-;
-}
 CompositorOptions
 options
 (
