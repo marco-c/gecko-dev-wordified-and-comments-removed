@@ -1889,6 +1889,11 @@ EndAllTrackAndFinish
 )
 ;
 void
+RemoveAllDirectListeners
+(
+)
+;
+void
 RegisterForAudioMixing
 (
 )
