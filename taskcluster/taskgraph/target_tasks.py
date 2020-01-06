@@ -2467,6 +2467,18 @@ build_platform
 )
         
 if
+not
+filter_for_project
+(
+task
+parameters
+)
+:
+            
+return
+False
+        
+if
 platform
 in
 (
