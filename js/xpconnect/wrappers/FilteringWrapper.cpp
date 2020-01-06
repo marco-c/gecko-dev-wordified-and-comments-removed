@@ -1267,16 +1267,6 @@ attributesRef
 &
 =
 ~
-JSPROP_ENUMERATE
-;
-desc
-.
-attributesRef
-(
-)
-&
-=
-~
 JSPROP_PERMANENT
 ;
 if
