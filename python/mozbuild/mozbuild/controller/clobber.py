@@ -1245,6 +1245,24 @@ directory
 '
 )
         
+objdir
+=
+self
+.
+topobjdir
+.
+encode
+(
+'
+utf
+-
+8
+'
+'
+replace
+'
+)
+        
 print
 (
 '
@@ -1254,9 +1272,7 @@ clobbering
 s
 '
 %
-self
-.
-topobjdir
+objdir
 file
 =
 fh
