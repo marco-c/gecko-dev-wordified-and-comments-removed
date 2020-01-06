@@ -47,13 +47,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h

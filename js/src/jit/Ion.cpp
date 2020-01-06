@@ -44,13 +44,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h

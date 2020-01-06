@@ -19,13 +19,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsscript
 .
 h

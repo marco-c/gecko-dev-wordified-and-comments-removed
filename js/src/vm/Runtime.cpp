@@ -122,13 +122,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsmath
 .
 h

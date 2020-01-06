@@ -83,13 +83,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h

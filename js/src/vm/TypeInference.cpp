@@ -71,13 +71,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jshashutil
 .
 h
