@@ -111,16 +111,6 @@ result
 nsIInputStream
 *
 stream
-int64_t
-streamPos
-=
--
-1
-int64_t
-streamLen
-=
--
-1
 uint32_t
 segsize
 =

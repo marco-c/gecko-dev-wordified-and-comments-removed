@@ -1298,16 +1298,6 @@ mPump
 Init
 (
 inStream
-int64_t
-(
--
-1
-)
-int64_t
-(
--
-1
-)
 0
 0
 false

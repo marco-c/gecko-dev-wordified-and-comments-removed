@@ -2773,10 +2773,6 @@ result
 nsIInputStream
 *
 stream
-int64_t
-streamPos
-int64_t
-streamLen
 uint32_t
 segsize
 uint32_t
@@ -2820,8 +2816,6 @@ pump
 Init
 (
 stream
-streamPos
-streamLen
 segsize
 segcount
 closeWhenDone

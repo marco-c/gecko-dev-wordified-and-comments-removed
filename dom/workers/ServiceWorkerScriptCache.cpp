@@ -4672,10 +4672,6 @@ getter_AddRefs
 mPump
 )
 inputStream
--
-1
--
-1
 0
 0
 false

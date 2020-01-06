@@ -4468,10 +4468,6 @@ aItem
 -
 >
 mStream
--
-1
--
-1
 0
 0
 true
@@ -4598,10 +4594,6 @@ getter_AddRefs
 pump
 )
 inputStream
--
-1
--
-1
 0
 0
 true

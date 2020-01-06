@@ -14279,16 +14279,6 @@ getter_AddRefs
 mSynthesizedResponsePump
 )
 aSynthesizedInput
-int64_t
-(
--
-1
-)
-int64_t
-(
--
-1
-)
 0
 0
 true
