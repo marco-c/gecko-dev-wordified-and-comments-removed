@@ -53,7 +53,7 @@ include
 "
 mozilla
 /
-Sprintf
+Printf
 .
 h
 "
