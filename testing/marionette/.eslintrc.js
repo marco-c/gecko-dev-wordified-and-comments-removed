@@ -14,6 +14,13 @@ rules
 :
 {
 "
+camelcase
+"
+:
+"
+error
+"
+"
 comma
 -
 dangle
