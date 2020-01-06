@@ -49,6 +49,14 @@ nsGenericHTMLFormElement
 class
 nsIFormControl
 ;
+template
+<
+class
+T
+>
+class
+RefPtr
+;
 namespace
 mozilla
 {
@@ -251,8 +259,10 @@ GetSortedControls
 (
 nsTArray
 <
+RefPtr
+<
 nsGenericHTMLFormElement
-*
+>
 >
 &
 aControls

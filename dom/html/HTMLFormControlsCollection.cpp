@@ -844,8 +844,10 @@ GetSortedControls
 (
 nsTArray
 <
+RefPtr
+<
 nsGenericHTMLFormElement
-*
+>
 >
 &
 aControls
