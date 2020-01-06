@@ -53,15 +53,6 @@ MediaContainerType
 aContainerType
 )
 ;
-void
-GetMozDebugReaderData
-(
-nsACString
-&
-aString
-)
-override
-;
 private
 :
 ChannelMediaDecoder
