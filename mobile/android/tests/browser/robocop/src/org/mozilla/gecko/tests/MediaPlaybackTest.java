@@ -188,6 +188,14 @@ UI_CHANGED_WAIT_MS
 =
 6000
 ;
+private
+static
+final
+int
+MEDIA_PLAYBACK_CHANGED_WAIT_MS
+=
+15000
+;
 protected
 final
 void
@@ -572,7 +580,7 @@ isTabPlaying
 ;
 }
 }
-MAX_WAIT_MS
+MEDIA_PLAYBACK_CHANGED_WAIT_MS
 )
 ;
 }
@@ -630,7 +638,7 @@ isTabPlaying
 ;
 }
 }
-MAX_WAIT_MS
+MEDIA_PLAYBACK_CHANGED_WAIT_MS
 )
 ;
 }
