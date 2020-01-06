@@ -8160,13 +8160,6 @@ SuggestionItem
 java
 '
 '
-skin
-/
-SkinConfig
-.
-java
-'
-'
 toolbar
 /
 BrowserToolbarTablet
