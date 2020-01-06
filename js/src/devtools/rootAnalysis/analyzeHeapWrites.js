@@ -1054,6 +1054,15 @@ null
 ]
 [
 "
+Gecko_AppendPropertyValuePair
+"
+"
+aProperties
+"
+null
+]
+[
+"
 Gecko_SetStyleCoordCalcValue
 "
 null
