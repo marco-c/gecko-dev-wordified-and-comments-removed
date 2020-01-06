@@ -281,7 +281,6 @@ sizeof
 (
 sWebMSample
 )
-nullptr
 )
 )
 ;

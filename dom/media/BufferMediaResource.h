@@ -24,13 +24,6 @@ h
 "
 #
 include
-"
-nsIPrincipal
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -53,9 +46,6 @@ uint8_t
 aBuffer
 uint32_t
 aLength
-nsIPrincipal
-*
-aPrincipal
 )
 :
 mBuffer
@@ -69,10 +59,6 @@ aLength
 mOffset
 (
 0
-)
-mPrincipal
-(
-aPrincipal
 )
 {
 }
@@ -389,12 +375,6 @@ mLength
 ;
 uint32_t
 mOffset
-;
-nsCOMPtr
-<
-nsIPrincipal
->
-mPrincipal
 ;
 }
 ;
