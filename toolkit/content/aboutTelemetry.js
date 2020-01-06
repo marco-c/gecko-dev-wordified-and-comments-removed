@@ -1225,7 +1225,6 @@ preferences
 .
 useOldOrganization
 "
-false
 )
 )
 {

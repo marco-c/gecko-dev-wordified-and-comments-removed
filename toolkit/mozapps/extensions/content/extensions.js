@@ -8018,7 +8018,6 @@ preferences
 .
 useOldOrganization
 "
-false
 )
 )
 {

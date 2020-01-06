@@ -377,7 +377,6 @@ preferences
 .
 useOldOrganization
 "
-false
 )
 )
 {
