@@ -509,6 +509,9 @@ NullableTimeUnit
 mDuration
 ;
 bool
+mSeamlessLoopingBlocked
+;
+bool
 mSeamlessLoopingEnabled
 ;
 }
