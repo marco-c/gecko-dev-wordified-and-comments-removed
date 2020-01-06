@@ -792,6 +792,11 @@ ShutdownVsyncIOThread
 )
 ;
 void
+EnsureProtocolsReady
+(
+)
+;
+void
 EnsureCompositorManagerChild
 (
 )
