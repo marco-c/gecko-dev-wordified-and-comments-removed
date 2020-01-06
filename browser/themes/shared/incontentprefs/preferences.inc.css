@@ -71,11 +71,15 @@ display
 :
 block
 ;
-max
+width
+:
+664px
+;
+min
 -
 width
 :
-800px
+530px
 ;
 }
 #
