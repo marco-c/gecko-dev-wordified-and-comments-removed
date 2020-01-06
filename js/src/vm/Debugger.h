@@ -203,7 +203,7 @@ MovableCellHasher
 <
 ReadBarrieredGlobalObject
 >
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 WeakGlobalObjectSet
 ;
@@ -274,7 +274,7 @@ JS
 Zone
 *
 >
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 CountMap
 ;
@@ -316,7 +316,7 @@ zoneCounts
 cx
 -
 >
-runtime
+zone
 (
 )
 )
@@ -1869,7 +1869,7 @@ DefaultHasher
 <
 uint64_t
 >
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 ;
 GCNumberSet
@@ -2012,7 +2012,7 @@ DefaultHasher
 <
 AbstractFramePtr
 >
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 FrameMap
 ;

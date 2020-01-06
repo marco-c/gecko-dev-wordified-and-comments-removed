@@ -2259,7 +2259,7 @@ ICStubCodeMap
 cx
 -
 >
-runtime
+zone
 (
 )
 )

@@ -409,7 +409,7 @@ HashMap
 Key
 Value
 HashPolicy
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 public
 WeakMapBase
@@ -422,7 +422,7 @@ HashMap
 Key
 Value
 HashPolicy
-RuntimeAllocPolicy
+ZoneAllocPolicy
 >
 Base
 ;
@@ -492,7 +492,7 @@ Base
 cx
 -
 >
-runtime
+zone
 (
 )
 )
@@ -500,11 +500,6 @@ WeakMapBase
 (
 memOf
 cx
--
->
-compartment
-(
-)
 -
 >
 zone

@@ -6998,11 +6998,6 @@ set_
 (
 zone
 zone
--
->
-runtimeFromActiveCooperatingThread
-(
-)
 )
 {
 }
