@@ -85,4 +85,5 @@ toctree
 maxdepth
 :
 1
+AddonManager
 SystemAddons

@@ -204,6 +204,13 @@ sphinx_js
 js_source_path
 =
 [
+'
+toolkit
+/
+mozapps
+/
+extensions
+'
 ]
 root_for_relative_js_paths
 =
