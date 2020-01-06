@@ -2923,7 +2923,7 @@ TopLeft
 CSSCoord
 maxScrollPosition
 =
-GetAxisLength
+GetAxisStart
 (
 aDragMetrics
 .
@@ -2931,6 +2931,10 @@ mDirection
 mFrameMetrics
 .
 GetScrollableRect
+(
+)
+.
+BottomRight
 (
 )
 )
@@ -2950,9 +2954,17 @@ CalculateCompositedRectInCssPixels
 CSSCoord
 scrollPosition
 =
+minScrollPosition
++
+(
 scrollPercent
 *
+(
 maxScrollPosition
+-
+minScrollPosition
+)
+)
 ;
 scrollPosition
 =
