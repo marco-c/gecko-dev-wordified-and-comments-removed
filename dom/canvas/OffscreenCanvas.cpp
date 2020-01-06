@@ -1324,6 +1324,16 @@ global
 promise
 )
 ;
+bool
+usePlaceholder
+=
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+)
+;
 CanvasRenderingContextHelper
 :
 :
@@ -1334,6 +1344,7 @@ global
 callback
 aType
 aParams
+usePlaceholder
 aRv
 )
 ;

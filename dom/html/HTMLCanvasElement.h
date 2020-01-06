@@ -814,6 +814,8 @@ RegisterFrameCaptureListener
 FrameCaptureListener
 *
 aListener
+bool
+aReturnPlaceholderData
 )
 ;
 bool
@@ -1090,6 +1092,9 @@ override
 nsresult
 ExtractData
 (
+JSContext
+*
+aCx
 nsAString
 &
 aType
