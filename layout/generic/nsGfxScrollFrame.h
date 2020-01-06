@@ -2029,7 +2029,7 @@ mClipAllDescendants
 1
 ;
 bool
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 :
 1
 ;
@@ -4249,7 +4249,7 @@ aSuppress
 {
 mHelper
 .
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 =
 aSuppress
 ;
@@ -4281,7 +4281,7 @@ const
 return
 mHelper
 .
-mSupppressScrollbarUpdate
+mSuppressScrollbarUpdate
 ;
 }
 bool
