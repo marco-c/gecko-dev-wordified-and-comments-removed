@@ -52,6 +52,15 @@ Text
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EditorDOMPoint
+.
+h
+"
 class
 nsIDOMNode
 ;
@@ -63,9 +72,6 @@ HTMLEditor
 ;
 class
 HTMLEditRules
-;
-struct
-EditorDOMPoint
 ;
 class
 WSType
@@ -951,7 +957,9 @@ nsIContent
 *
 GetPreviousWSNode
 (
+const
 EditorDOMPoint
+&
 aPoint
 nsINode
 *
@@ -974,7 +982,9 @@ nsIContent
 *
 GetNextWSNode
 (
+const
 EditorDOMPoint
+&
 aPoint
 nsINode
 *

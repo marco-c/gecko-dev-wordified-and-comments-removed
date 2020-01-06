@@ -167,6 +167,11 @@ EditorController
 h
 '
 '
+EditorDOMPoint
+.
+h
+'
+'
 EditorUtils
 .
 h

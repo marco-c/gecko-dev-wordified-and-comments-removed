@@ -16,6 +16,15 @@ include
 "
 mozilla
 /
+EditorDOMPoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SelectionState
 .
 h
@@ -116,9 +125,6 @@ RulesInfo
 ;
 class
 TextEditor
-;
-struct
-EditorDOMPoint
 ;
 namespace
 dom
@@ -834,9 +840,6 @@ bool
 aInsertMozBR
 )
 ;
-mozilla
-:
-:
 EditorDOMPoint
 GetGoodSelPointForNode
 (
@@ -1656,7 +1659,9 @@ outArrayOfNodes
 nsresult
 GetNodesFromPoint
 (
+const
 EditorDOMPoint
+&
 aPoint
 EditAction
 aOperation
