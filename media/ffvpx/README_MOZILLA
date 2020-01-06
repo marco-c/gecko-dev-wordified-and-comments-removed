@@ -604,6 +604,10 @@ android
 arch
 -
 arm
+config_unix32
+.
+h
+/
 config_unix64
 .
 h
