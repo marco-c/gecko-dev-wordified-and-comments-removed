@@ -180,6 +180,9 @@ nsINode
 class
 nsPresContext
 ;
+class
+nsSimpleContentList
+;
 struct
 nsTimingFunction
 ;

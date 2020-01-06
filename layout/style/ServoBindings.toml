@@ -1552,6 +1552,9 @@ nsRestyleHint
 nsresult
 "
 "
+nsSimpleContentList
+"
+"
 nsSize
 "
 "
@@ -2882,6 +2885,9 @@ nsIDocument
 "
 "
 nsIDocument_DocumentTheme
+"
+"
+nsSimpleContentList
 "
 "
 RawGeckoAnimationPropertySegment
