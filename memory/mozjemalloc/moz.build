@@ -113,7 +113,7 @@ memory
 DEFINES
 [
 '
-MOZ_JEMALLOC_IMPL
+MOZ_MEMORY_IMPL
 '
 ]
 =
