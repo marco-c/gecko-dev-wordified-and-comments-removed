@@ -220,6 +220,17 @@ mozilla
 .
 pth
 :
+third_party
+/
+python
+/
+json
+-
+e
+mozilla
+.
+pth
+:
 build
 objdir
 :
