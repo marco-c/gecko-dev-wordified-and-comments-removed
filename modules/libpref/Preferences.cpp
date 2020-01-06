@@ -1642,7 +1642,7 @@ kPrefStickyDefault
 ;
 static
 nsresult
-pref_HashPref
+pref_SetPref
 (
 const
 char
@@ -1887,7 +1887,7 @@ get
 )
 ;
 return
-pref_HashPref
+pref_SetPref
 (
 aPrefName
 pref
@@ -1927,7 +1927,7 @@ mIntVal
 aValue
 ;
 return
-pref_HashPref
+pref_SetPref
 (
 aPrefName
 pref
@@ -1967,7 +1967,7 @@ mBoolVal
 aValue
 ;
 return
-pref_HashPref
+pref_SetPref
 (
 aPrefName
 pref
@@ -4136,7 +4136,7 @@ aKey
 }
 static
 nsresult
-pref_HashPref
+pref_SetPref
 (
 const
 char
@@ -5438,7 +5438,7 @@ flags
 kPrefForceSet
 ;
 }
-pref_HashPref
+pref_SetPref
 (
 aPref
 aValue
