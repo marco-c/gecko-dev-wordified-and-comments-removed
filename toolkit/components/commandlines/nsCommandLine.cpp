@@ -1977,9 +1977,6 @@ continue
 }
 #
 endif
-#
-ifdef
-XP_UNIX
 if
 (
 *
@@ -2080,8 +2077,6 @@ dup
 continue
 ;
 }
-#
-endif
 appendArg
 (
 curarg
