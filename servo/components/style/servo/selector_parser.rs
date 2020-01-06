@@ -2736,7 +2736,7 @@ inline
 ]
 pub
 fn
-each_pseudo_element
+each_simple_pseudo_element
 <
 F
 >

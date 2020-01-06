@@ -40831,12 +40831,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes13moztreecolumnE
+_ZN14nsCSSAnonBoxes13mozTreeColumnE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecolumn
+nsCSSAnonBoxes_mozTreeColumn
 :
 *
 mut
@@ -40847,12 +40847,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes10moztreerowE
+_ZN14nsCSSAnonBoxes10mozTreeRowE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreerow
+nsCSSAnonBoxes_mozTreeRow
 :
 *
 mut
@@ -40863,12 +40863,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes16moztreeseparatorE
+_ZN14nsCSSAnonBoxes16mozTreeSeparatorE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeseparator
+nsCSSAnonBoxes_mozTreeSeparator
 :
 *
 mut
@@ -40879,12 +40879,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes11moztreecellE
+_ZN14nsCSSAnonBoxes11mozTreeCellE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecell
+nsCSSAnonBoxes_mozTreeCell
 :
 *
 mut
@@ -40895,12 +40895,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes18moztreeindentationE
+_ZN14nsCSSAnonBoxes18mozTreeIndentationE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeindentation
+nsCSSAnonBoxes_mozTreeIndentation
 :
 *
 mut
@@ -40911,12 +40911,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes11moztreelineE
+_ZN14nsCSSAnonBoxes11mozTreeLineE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeline
+nsCSSAnonBoxes_mozTreeLine
 :
 *
 mut
@@ -40927,12 +40927,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes13moztreetwistyE
+_ZN14nsCSSAnonBoxes13mozTreeTwistyE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreetwisty
+nsCSSAnonBoxes_mozTreeTwisty
 :
 *
 mut
@@ -40943,12 +40943,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes12moztreeimageE
+_ZN14nsCSSAnonBoxes12mozTreeImageE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeimage
+nsCSSAnonBoxes_mozTreeImage
 :
 *
 mut
@@ -40959,12 +40959,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes15moztreecelltextE
+_ZN14nsCSSAnonBoxes15mozTreeCellTextE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecelltext
+nsCSSAnonBoxes_mozTreeCellText
 :
 *
 mut
@@ -40975,12 +40975,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes15moztreecheckboxE
+_ZN14nsCSSAnonBoxes15mozTreeCheckboxE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecheckbox
+nsCSSAnonBoxes_mozTreeCheckbox
 :
 *
 mut
@@ -40991,12 +40991,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes20moztreeprogressmeterE
+_ZN14nsCSSAnonBoxes20mozTreeProgressmeterE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeprogressmeter
+nsCSSAnonBoxes_mozTreeProgressmeter
 :
 *
 mut
@@ -41007,12 +41007,12 @@ nsICSSAnonBoxPseudo
 link_name
 =
 "
-_ZN14nsCSSAnonBoxes19moztreedropfeedbackE
+_ZN14nsCSSAnonBoxes19mozTreeDropFeedbackE
 "
 ]
 pub
 static
-nsCSSAnonBoxes_moztreedropfeedback
+nsCSSAnonBoxes_mozTreeDropFeedback
 :
 *
 mut
@@ -92046,7 +92046,7 @@ link_name
 =
 "
 ?
-moztreecolumn
+mozTreeColumn
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92054,7 +92054,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecolumn
+nsCSSAnonBoxes_mozTreeColumn
 :
 *
 mut
@@ -92066,7 +92066,7 @@ link_name
 =
 "
 ?
-moztreerow
+mozTreeRow
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92074,7 +92074,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreerow
+nsCSSAnonBoxes_mozTreeRow
 :
 *
 mut
@@ -92086,7 +92086,7 @@ link_name
 =
 "
 ?
-moztreeseparator
+mozTreeSeparator
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92094,7 +92094,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeseparator
+nsCSSAnonBoxes_mozTreeSeparator
 :
 *
 mut
@@ -92106,7 +92106,7 @@ link_name
 =
 "
 ?
-moztreecell
+mozTreeCell
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92114,7 +92114,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecell
+nsCSSAnonBoxes_mozTreeCell
 :
 *
 mut
@@ -92126,7 +92126,7 @@ link_name
 =
 "
 ?
-moztreeindentation
+mozTreeIndentation
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92134,7 +92134,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeindentation
+nsCSSAnonBoxes_mozTreeIndentation
 :
 *
 mut
@@ -92146,7 +92146,7 @@ link_name
 =
 "
 ?
-moztreeline
+mozTreeLine
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92154,7 +92154,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeline
+nsCSSAnonBoxes_mozTreeLine
 :
 *
 mut
@@ -92166,7 +92166,7 @@ link_name
 =
 "
 ?
-moztreetwisty
+mozTreeTwisty
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92174,7 +92174,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreetwisty
+nsCSSAnonBoxes_mozTreeTwisty
 :
 *
 mut
@@ -92186,7 +92186,7 @@ link_name
 =
 "
 ?
-moztreeimage
+mozTreeImage
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92194,7 +92194,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeimage
+nsCSSAnonBoxes_mozTreeImage
 :
 *
 mut
@@ -92206,7 +92206,7 @@ link_name
 =
 "
 ?
-moztreecelltext
+mozTreeCellText
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92214,7 +92214,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecelltext
+nsCSSAnonBoxes_mozTreeCellText
 :
 *
 mut
@@ -92226,7 +92226,7 @@ link_name
 =
 "
 ?
-moztreecheckbox
+mozTreeCheckbox
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92234,7 +92234,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecheckbox
+nsCSSAnonBoxes_mozTreeCheckbox
 :
 *
 mut
@@ -92246,7 +92246,7 @@ link_name
 =
 "
 ?
-moztreeprogressmeter
+mozTreeProgressmeter
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92254,7 +92254,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeprogressmeter
+nsCSSAnonBoxes_mozTreeProgressmeter
 :
 *
 mut
@@ -92266,7 +92266,7 @@ link_name
 =
 "
 ?
-moztreedropfeedback
+mozTreeDropFeedback
 nsCSSAnonBoxes
 2PEAVnsICSSAnonBoxPseudo
 EA
@@ -92274,7 +92274,7 @@ EA
 ]
 pub
 static
-nsCSSAnonBoxes_moztreedropfeedback
+nsCSSAnonBoxes_mozTreeDropFeedback
 :
 *
 mut
@@ -148408,7 +148408,7 @@ link_name
 \
 x01
 ?
-moztreecolumn
+mozTreeColumn
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148416,7 +148416,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecolumn
+nsCSSAnonBoxes_mozTreeColumn
 :
 *
 mut
@@ -148430,7 +148430,7 @@ link_name
 \
 x01
 ?
-moztreerow
+mozTreeRow
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148438,7 +148438,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreerow
+nsCSSAnonBoxes_mozTreeRow
 :
 *
 mut
@@ -148452,7 +148452,7 @@ link_name
 \
 x01
 ?
-moztreeseparator
+mozTreeSeparator
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148460,7 +148460,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeseparator
+nsCSSAnonBoxes_mozTreeSeparator
 :
 *
 mut
@@ -148474,7 +148474,7 @@ link_name
 \
 x01
 ?
-moztreecell
+mozTreeCell
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148482,7 +148482,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecell
+nsCSSAnonBoxes_mozTreeCell
 :
 *
 mut
@@ -148496,7 +148496,7 @@ link_name
 \
 x01
 ?
-moztreeindentation
+mozTreeIndentation
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148504,7 +148504,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeindentation
+nsCSSAnonBoxes_mozTreeIndentation
 :
 *
 mut
@@ -148518,7 +148518,7 @@ link_name
 \
 x01
 ?
-moztreeline
+mozTreeLine
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148526,7 +148526,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeline
+nsCSSAnonBoxes_mozTreeLine
 :
 *
 mut
@@ -148540,7 +148540,7 @@ link_name
 \
 x01
 ?
-moztreetwisty
+mozTreeTwisty
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148548,7 +148548,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreetwisty
+nsCSSAnonBoxes_mozTreeTwisty
 :
 *
 mut
@@ -148562,7 +148562,7 @@ link_name
 \
 x01
 ?
-moztreeimage
+mozTreeImage
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148570,7 +148570,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeimage
+nsCSSAnonBoxes_mozTreeImage
 :
 *
 mut
@@ -148584,7 +148584,7 @@ link_name
 \
 x01
 ?
-moztreecelltext
+mozTreeCellText
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148592,7 +148592,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecelltext
+nsCSSAnonBoxes_mozTreeCellText
 :
 *
 mut
@@ -148606,7 +148606,7 @@ link_name
 \
 x01
 ?
-moztreecheckbox
+mozTreeCheckbox
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148614,7 +148614,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreecheckbox
+nsCSSAnonBoxes_mozTreeCheckbox
 :
 *
 mut
@@ -148628,7 +148628,7 @@ link_name
 \
 x01
 ?
-moztreeprogressmeter
+mozTreeProgressmeter
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148636,7 +148636,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreeprogressmeter
+nsCSSAnonBoxes_mozTreeProgressmeter
 :
 *
 mut
@@ -148650,7 +148650,7 @@ link_name
 \
 x01
 ?
-moztreedropfeedback
+mozTreeDropFeedback
 nsCSSAnonBoxes
 2PAVnsICSSAnonBoxPseudo
 A
@@ -148658,7 +148658,7 @@ A
 ]
 pub
 static
-nsCSSAnonBoxes_moztreedropfeedback
+nsCSSAnonBoxes_mozTreeDropFeedback
 :
 *
 mut
@@ -249773,7 +249773,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreecolumn
+nsCSSAnonBoxes_mozTreeColumn
 as
 *
 mut
@@ -249818,7 +249818,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreerow
+nsCSSAnonBoxes_mozTreeRow
 as
 *
 mut
@@ -249863,7 +249863,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreeseparator
+nsCSSAnonBoxes_mozTreeSeparator
 as
 *
 mut
@@ -249908,7 +249908,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreecell
+nsCSSAnonBoxes_mozTreeCell
 as
 *
 mut
@@ -249953,7 +249953,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreeindentation
+nsCSSAnonBoxes_mozTreeIndentation
 as
 *
 mut
@@ -249998,7 +249998,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreeline
+nsCSSAnonBoxes_mozTreeLine
 as
 *
 mut
@@ -250043,7 +250043,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreetwisty
+nsCSSAnonBoxes_mozTreeTwisty
 as
 *
 mut
@@ -250088,7 +250088,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreeimage
+nsCSSAnonBoxes_mozTreeImage
 as
 *
 mut
@@ -250135,7 +250135,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreecelltext
+nsCSSAnonBoxes_mozTreeCellText
 as
 *
 mut
@@ -250180,7 +250180,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreecheckbox
+nsCSSAnonBoxes_mozTreeCheckbox
 as
 *
 mut
@@ -250225,7 +250225,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreeprogressmeter
+nsCSSAnonBoxes_mozTreeProgressmeter
 as
 *
 mut
@@ -250272,7 +250272,7 @@ string_cache
 atom_macro
 :
 :
-nsCSSAnonBoxes_moztreedropfeedback
+nsCSSAnonBoxes_mozTreeDropFeedback
 as
 *
 mut

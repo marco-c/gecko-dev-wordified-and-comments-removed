@@ -59,7 +59,7 @@ gecko_like_types
 :
 :
 PseudoElement
-1
+24
 )
 ;
 size_of_test
