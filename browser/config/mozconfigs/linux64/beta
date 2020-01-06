@@ -51,7 +51,7 @@ enable
 verify
 -
 mar
-mk_add_options
+ac_add_options
 MOZ_PGO
 =
 1
