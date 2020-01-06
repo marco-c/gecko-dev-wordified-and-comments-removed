@@ -106,15 +106,6 @@ WebRenderCanvasLayer
 (
 )
 ;
-Maybe
-<
-wr
-:
-:
-ImageKey
->
-mKey
-;
 public
 :
 Layer

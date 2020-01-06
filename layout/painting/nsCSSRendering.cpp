@@ -8964,15 +8964,6 @@ wr
 DisplayListBuilder
 &
 aBuilder
-mozilla
-:
-:
-wr
-:
-:
-IpcResourceUpdateQueue
-&
-aResources
 const
 mozilla
 :
@@ -9120,7 +9111,6 @@ BuildWebRenderDisplayItemsForStyleImageLayerWithSC
 (
 aParams
 aBuilder
-aResources
 aSc
 aParentCommands
 aLayer
@@ -12453,15 +12443,6 @@ wr
 DisplayListBuilder
 &
 aBuilder
-mozilla
-:
-:
-wr
-:
-:
-IpcResourceUpdateQueue
-&
-aResources
 const
 mozilla
 :
@@ -12720,7 +12701,6 @@ aParams
 .
 presCtx
 aBuilder
-aResources
 aSc
 aParentCommands
 aLayer
