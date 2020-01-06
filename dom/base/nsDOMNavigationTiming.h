@@ -219,19 +219,6 @@ return
 mLoadEventEnd
 ;
 }
-DOMTimeMilliSec
-GetTimeToNonBlankPaint
-(
-)
-const
-{
-return
-TimeStampToDOMHighRes
-(
-mNonBlankPaintTimeStamp
-)
-;
-}
 enum
 class
 DocShellState
@@ -378,7 +365,6 @@ mozilla
 TimeStamp
 aStamp
 )
-const
 {
 mozilla
 :
