@@ -13063,6 +13063,13 @@ shell
 nsComputedDOMStyle
 :
 :
+StyleType
+:
+:
+eAll
+nsComputedDOMStyle
+:
+:
 AnimationFlag
 :
 :
