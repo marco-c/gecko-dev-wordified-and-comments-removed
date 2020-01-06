@@ -100,7 +100,7 @@ file1
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -130,7 +130,7 @@ n
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -222,7 +222,7 @@ file1
 \
 "
 214059
-Sun
+Sat
 %
 2C
 %
@@ -251,7 +251,7 @@ file2
 \
 "
 214059
-Sun
+Sat
 %
 2C
 %
@@ -343,7 +343,7 @@ file1
 \
 "
 192
-Sun
+Sat
 %
 2C
 %
@@ -373,7 +373,7 @@ n
 \
 "
 192
-Sun
+Sat
 %
 2C
 %
@@ -547,7 +547,7 @@ dir1
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -575,7 +575,7 @@ n
 junction1
 \
 "
-Sun
+Sat
 %
 2C
 %
@@ -606,7 +606,7 @@ file1
 \
 "
 95077
-Sun
+Sat
 %
 2C
 %
@@ -636,7 +636,7 @@ n
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -665,7 +665,7 @@ n
 20junction2
 \
 "
-Sun
+Sat
 %
 2C
 %
@@ -697,7 +697,7 @@ n
 \
 "
 95077
-Sun
+Sat
 %
 2C
 %
@@ -912,7 +912,7 @@ dir1
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -941,7 +941,7 @@ dir2
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -970,7 +970,7 @@ dir3
 \
 "
 0
-Sun
+Sat
 %
 2C
 %
@@ -998,7 +998,7 @@ n
 junction1
 \
 "
-Sun
+Sat
 %
 2C
 %
@@ -1028,7 +1028,7 @@ n
 junction2
 \
 "
-Sun
+Sat
 %
 2C
 %
@@ -1058,7 +1058,7 @@ n
 junction3
 \
 "
-Sun
+Sat
 %
 2C
 %
@@ -1089,7 +1089,7 @@ file1
 \
 "
 95077
-Sun
+Sat
 %
 2C
 %
@@ -1118,7 +1118,7 @@ file2
 \
 "
 95077
-Sun
+Sat
 %
 2C
 %
