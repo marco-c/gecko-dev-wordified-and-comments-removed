@@ -1767,6 +1767,7 @@ ToLayoutRect
 (
 const
 gfxRect
+&
 rect
 )
 {
