@@ -15,13 +15,12 @@ class
 xpcAccessibilityService
 :
 public
-nsIAccessibleRetrieval
+nsIAccessibilityService
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIACCESSIBILITYSERVICE
-NS_DECL_NSIACCESSIBLERETRIEVAL
 static
 bool
 IsInUse
