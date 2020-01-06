@@ -964,6 +964,17 @@ browser
 .
 ini
 '
+'
+test
+/
+browser
+/
+formValidation
+/
+browser
+.
+ini
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
