@@ -2,9 +2,6 @@ use
 canvas_traits
 :
 :
-canvas
-:
-:
 {
 FillOrStrokeStyle
 RepetitionStyle

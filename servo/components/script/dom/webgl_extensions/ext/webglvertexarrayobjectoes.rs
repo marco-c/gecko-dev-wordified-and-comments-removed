@@ -1,13 +1,4 @@
 use
-canvas_traits
-:
-:
-webgl
-:
-:
-WebGLVertexArrayId
-;
-use
 core
 :
 :
@@ -141,6 +132,12 @@ collections
 :
 :
 HashMap
+;
+use
+webrender_api
+:
+:
+WebGLVertexArrayId
 ;
 #
 [

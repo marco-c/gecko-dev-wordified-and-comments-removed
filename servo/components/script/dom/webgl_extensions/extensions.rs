@@ -1,13 +1,4 @@
 use
-canvas_traits
-:
-:
-webgl
-:
-:
-WebGLError
-;
-use
 core
 :
 :
@@ -191,6 +182,12 @@ wrapper
 WebGLExtensionWrapper
 TypedWebGLExtensionWrapper
 }
+;
+use
+webrender_api
+:
+:
+WebGLError
 ;
 const
 DEFAULT_DISABLED_TEX_TYPES

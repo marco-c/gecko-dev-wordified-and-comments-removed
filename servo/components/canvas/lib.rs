@@ -16,10 +16,6 @@ canvas_traits
 ;
 extern
 crate
-compositing
-;
-extern
-crate
 cssparser
 ;
 extern
@@ -52,7 +48,7 @@ offscreen_gl_context
 ;
 extern
 crate
-webrender
+servo_config
 ;
 extern
 crate
@@ -64,12 +60,5 @@ canvas_paint_thread
 ;
 pub
 mod
-gl_context
-;
-mod
-webgl_mode
-;
-pub
-mod
-webgl_thread
+webgl_paint_thread
 ;

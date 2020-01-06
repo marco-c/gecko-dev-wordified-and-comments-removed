@@ -8,14 +8,6 @@ unsafe_code
 ]
 extern
 crate
-canvas_traits
-;
-extern
-crate
-euclid
-;
-extern
-crate
 ipc_channel
 ;
 #
@@ -37,6 +29,10 @@ script_traits
 extern
 crate
 servo_config
+;
+extern
+crate
+webrender_api
 ;
 extern
 crate
