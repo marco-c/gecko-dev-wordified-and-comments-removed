@@ -9850,8 +9850,10 @@ return
 mForms
 ;
 }
-static
 bool
+nsHTMLDocument
+:
+:
 MatchFormControls
 (
 Element
