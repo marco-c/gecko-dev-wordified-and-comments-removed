@@ -5190,7 +5190,7 @@ nsTextFrameUtils
 Flags
 :
 :
-TEXT_UNUSED_FLAG
+TEXT_UNUSED_FLAGS
 )
 "
 Flag
