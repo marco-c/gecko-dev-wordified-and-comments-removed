@@ -470,6 +470,16 @@ py
 '
     
 '
+tools
+/
+tryselect
+/
+mach_commands
+.
+py
+'
+    
+'
 mobile
 /
 android
