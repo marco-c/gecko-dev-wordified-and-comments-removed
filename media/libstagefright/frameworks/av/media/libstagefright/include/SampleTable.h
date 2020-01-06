@@ -49,6 +49,13 @@ threads
 .
 h
 >
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 stagefright
 {
