@@ -2,10 +2,10 @@ var
 arr
 =
 [
-StopIteration
-StopIteration
-StopIteration
-StopIteration
+Math
+Math
+Math
+Math
 {
 }
 ]

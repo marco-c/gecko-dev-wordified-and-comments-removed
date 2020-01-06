@@ -386,14 +386,6 @@ return
 result
 ;
 }
-StopIteration
-(
-)
-{
-return
-StopIteration
-;
-}
 }
 ;
 this

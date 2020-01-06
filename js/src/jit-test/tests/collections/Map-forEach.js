@@ -375,7 +375,7 @@ FAIL
 ;
 }
 ;
-assertThrowsInstanceOf
+assertThrowsValue
 (
 function
 (
@@ -390,13 +390,13 @@ function
 )
 {
 throw
-StopIteration
+Math
 ;
 }
 )
 ;
 }
-StopIteration
+Math
 "
 Map
 .

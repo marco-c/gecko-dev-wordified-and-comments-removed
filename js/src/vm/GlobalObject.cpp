@@ -253,15 +253,6 @@ h
 #
 include
 "
-vm
-/
-StopIterationObject
-.
-h
-"
-#
-include
-"
 wasm
 /
 WasmJS

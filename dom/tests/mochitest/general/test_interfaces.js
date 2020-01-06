@@ -183,9 +183,6 @@ nightly
 true
 }
 "
-StopIteration
-"
-"
 String
 "
 "

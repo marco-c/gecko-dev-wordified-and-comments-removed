@@ -317,11 +317,6 @@ ReturnSuccess
 }
 ;
 struct
-ReturnStopIteration
-{
-}
-;
-struct
 ReturnDeadCPOW
 {
 }
@@ -346,8 +341,6 @@ union
 ReturnStatus
 {
 ReturnSuccess
-;
-ReturnStopIteration
 ;
 ReturnDeadCPOW
 ;
