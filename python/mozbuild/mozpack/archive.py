@@ -7,9 +7,19 @@ bz2
 import
 gzip
 import
+io
+import
 stat
 import
 tarfile
+from
+.
+files
+import
+(
+    
+BaseFile
+)
 DEFAULT_MTIME
 =
 1451606400
@@ -46,6 +56,13 @@ local
 filesystem
     
 paths
+or
+mozpack
+.
+files
+.
+BaseFile
+instances
 .
     
 The
@@ -73,15 +90,6 @@ can
 be
 written
 .
-    
-FUTURE
-accept
-mozpack
-.
-files
-classes
-for
-writing
     
 FUTURE
 accept
@@ -128,7 +136,7 @@ tf
         
 for
 archive_path
-fs_path
+f
 in
 sorted
 (
@@ -140,13 +148,51 @@ items
 )
 :
             
+if
+isinstance
+(
+f
+BaseFile
+)
+:
+                
+ti
+=
+tarfile
+.
+TarInfo
+(
+archive_path
+)
+                
+ti
+.
+mode
+=
+f
+.
+mode
+or
+0644
+                
+ti
+.
+type
+=
+tarfile
+.
+REGTYPE
+            
+else
+:
+                
 ti
 =
 tf
 .
 gettarinfo
 (
-fs_path
+f
 archive_path
 )
             
@@ -172,7 +218,7 @@ file
 s
 '
 %
-fs_path
+f
 )
             
 if
@@ -211,7 +257,7 @@ set
 s
 '
 %
-fs_path
+f
 )
             
 ti
@@ -246,10 +292,43 @@ mtime
 =
 DEFAULT_MTIME
             
+if
+isinstance
+(
+f
+BaseFile
+)
+:
+                
+ti
+.
+size
+=
+f
+.
+size
+(
+)
+                
+tf
+.
+addfile
+(
+ti
+f
+.
+open
+(
+)
+)
+            
+else
+:
+                
 with
 open
 (
-fs_path
+f
 '
 rb
 '
@@ -257,7 +336,7 @@ rb
 as
 fh
 :
-                
+                    
 tf
 .
 addfile
