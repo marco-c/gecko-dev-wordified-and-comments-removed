@@ -35,8 +35,7 @@ was
 not
 distributed
 with
-this
-file
+thisfile
 You
 can
 obtain
