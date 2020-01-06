@@ -720,10 +720,6 @@ VALARRAY
 =
 -
 2
-PARSER
-=
--
-3
 VALVECTOR
 =
 -
