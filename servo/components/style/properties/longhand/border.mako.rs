@@ -258,6 +258,9 @@ side
 [
 1
 ]
+ignored_when_colors_disabled
+=
+True
 )
 }
 {
@@ -695,6 +698,11 @@ products
 =
 "
 gecko
+"
+ignored_when_colors_disabled
+=
+"
+True
 "
 >
 use

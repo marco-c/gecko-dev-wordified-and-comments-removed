@@ -173,6 +173,12 @@ as
 TransitionTimingFunction
 ;
 use
+rule_tree
+:
+:
+CascadeLevel
+;
+use
 std
 :
 :
@@ -2140,7 +2146,13 @@ decl
 _importance
 )
 |
+(
 decl
+CascadeLevel
+:
+:
+Animations
+)
 )
 }
 ;

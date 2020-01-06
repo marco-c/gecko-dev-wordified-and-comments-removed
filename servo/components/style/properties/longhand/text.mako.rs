@@ -2085,6 +2085,9 @@ animation_value_type
 "
 IntermediateColor
 "
+ignored_when_colors_disabled
+=
+True
 spec
 =
 "

@@ -115,6 +115,11 @@ extra_prefixes
 "
 webkit
 "
+ignored_when_colors_disabled
+=
+"
+True
+"
 spec
 =
 "

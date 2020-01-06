@@ -1205,6 +1205,10 @@ False
 allow_quirks
 =
 False
+ignored_when_colors_disabled
+=
+False
+                 
 vector
 =
 False
@@ -1451,6 +1455,12 @@ self
 allow_quirks
 =
 allow_quirks
+        
+self
+.
+ignored_when_colors_disabled
+=
+ignored_when_colors_disabled
         
 self
 .

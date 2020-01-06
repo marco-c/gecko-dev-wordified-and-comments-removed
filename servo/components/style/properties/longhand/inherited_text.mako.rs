@@ -5172,6 +5172,11 @@ animation_value_type
 "
 IntermediateTextShadowList
 "
+ignored_when_colors_disabled
+=
+"
+True
+"
 spec
 =
 "
@@ -8478,6 +8483,9 @@ True
 need_clone
 =
 True
+ignored_when_colors_disabled
+=
+True
 spec
 =
 "
@@ -8638,6 +8646,9 @@ True
 need_clone
 =
 True
+ignored_when_colors_disabled
+=
+True
 spec
 =
 "
@@ -8717,6 +8728,9 @@ complex_color
 =
 True
 need_clone
+=
+True
+ignored_when_colors_disabled
 =
 True
 spec
