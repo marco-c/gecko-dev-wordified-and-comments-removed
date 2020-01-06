@@ -1592,6 +1592,15 @@ mAudioSessionControl
 return
 NS_OK
 ;
+RefPtr
+<
+AudioSession
+>
+kungFuDeathGrip
+(
+this
+)
+;
 mAudioSessionControl
 -
 >
