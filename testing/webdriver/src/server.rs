@@ -234,7 +234,6 @@ Session
 >
 msg
 :
-&
 WebDriverMessage
 <
 U
@@ -407,7 +406,6 @@ handle_command
 self
 .
 session
-&
 msg
 )
 Err
