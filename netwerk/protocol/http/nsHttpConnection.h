@@ -228,12 +228,7 @@ SetFastOpen
 bool
 aFastOpen
 )
-{
-mFastOpen
-=
-aFastOpen
 ;
-}
 nsAHttpTransaction
 *
 CloseConnectionFastOpenTakesTooLongOrError
