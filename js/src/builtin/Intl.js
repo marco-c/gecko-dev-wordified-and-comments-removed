@@ -1062,6 +1062,7 @@ var
 duplicateVariant
 =
 "
+^
 (
 ?
 :
