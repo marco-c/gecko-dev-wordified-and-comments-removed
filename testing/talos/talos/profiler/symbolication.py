@@ -788,6 +788,24 @@ symbol_zip_url
 :
         
 if
+platform
+.
+system
+(
+)
+not
+in
+self
+.
+options
+[
+'
+platformsRequiringSymbols
+'
+]
+\
+                
+or
 self
 .
 have_integrated
