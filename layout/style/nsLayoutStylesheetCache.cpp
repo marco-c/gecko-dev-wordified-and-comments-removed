@@ -5255,6 +5255,7 @@ uri
 uri
 nullptr
 0
+eCompatibility_FullStandards
 )
 ;
 MOZ_RELEASE_ASSERT

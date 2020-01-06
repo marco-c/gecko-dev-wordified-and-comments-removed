@@ -7872,6 +7872,9 @@ aLoadData
 -
 >
 mLineNumber
+GetCompatibilityMode
+(
+)
 )
 ;
 }

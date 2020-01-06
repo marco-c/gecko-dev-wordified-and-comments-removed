@@ -362,6 +362,8 @@ nsIPrincipal
 aSheetPrincipal
 uint32_t
 aLineNumber
+nsCompatibility
+aCompatMode
 )
 {
 MOZ_ASSERT_IF
@@ -456,6 +458,7 @@ mParsingMode
 media
 extraData
 aLineNumber
+aCompatMode
 )
 .
 Consume

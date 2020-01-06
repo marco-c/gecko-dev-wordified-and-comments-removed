@@ -2385,6 +2385,12 @@ ParsingMode
 :
 :
 AllowAllNumericValues
+doc
+-
+>
+GetCompatibilityMode
+(
+)
 )
 .
 Consume
