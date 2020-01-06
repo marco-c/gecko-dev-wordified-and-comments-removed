@@ -6757,11 +6757,6 @@ const
 ActiveScrolledRoot
 *
 aASR
-nsRect
-*
-aVisibleRect
-=
-nullptr
 )
 const
 ;
@@ -11995,9 +11990,6 @@ aBuilder
 )
 override
 {
-nsRect
-visibleRect
-;
 mBounds
 =
 mList
@@ -12006,8 +11998,6 @@ GetClippedBoundsWithRespectToASR
 (
 aBuilder
 mActiveScrolledRoot
-&
-visibleRect
 )
 ;
 mVisibleRect
@@ -12015,7 +12005,11 @@ mVisibleRect
 UnionRect
 (
 mBaseVisibleRect
-visibleRect
+mList
+.
+GetVisibleRect
+(
+)
 )
 ;
 }
