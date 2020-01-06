@@ -1,3 +1,13 @@
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+[
+object
+Object
+]
+"
+)
+;
 if
 (
 !
