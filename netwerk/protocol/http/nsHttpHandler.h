@@ -1340,6 +1340,16 @@ return
 mFocusedWindowTransactionRatio
 ;
 }
+bool
+ActiveTabPriority
+(
+)
+const
+{
+return
+mActiveTabPriority
+;
+}
 private
 :
 virtual
@@ -1820,6 +1830,9 @@ mFastOpenConsecutiveFailureLimit
 ;
 uint32_t
 mFastOpenConsecutiveFailureCounter
+;
+bool
+mActiveTabPriority
 ;
 private
 :
