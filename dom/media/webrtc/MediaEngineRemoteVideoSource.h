@@ -398,6 +398,15 @@ const
 nsString
 &
 aDeviceId
+webrtc
+:
+:
+CaptureCapability
+&
+aCapability
+const
+DistanceCalculation
+aCalculate
 )
 override
 ;
@@ -485,6 +494,10 @@ const
 NormalizedConstraints
 &
 aNetConstraints
+const
+NormalizedConstraints
+&
+aNewConstraint
 const
 MediaEnginePrefs
 &

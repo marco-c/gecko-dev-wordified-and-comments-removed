@@ -2476,6 +2476,10 @@ NormalizedConstraints
 &
 aNetConstraints
 const
+NormalizedConstraints
+&
+aNewConstraint
+const
 MediaEnginePrefs
 &
 aPrefs
