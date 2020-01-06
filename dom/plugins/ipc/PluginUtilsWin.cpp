@@ -348,6 +348,8 @@ changeDetails
 .
 defaultDevice
 =
+device_id
+?
 std
 :
 :
@@ -355,6 +357,10 @@ wstring
 (
 device_id
 )
+:
+L
+"
+"
 ;
 RefPtr
 <
