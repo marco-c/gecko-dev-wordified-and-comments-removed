@@ -6106,6 +6106,9 @@ StickyOffsetBounds
 horizontal_offset_bounds
 :
 StickyOffsetBounds
+previously_applied_offset
+:
+LayoutVector2D
 )
 -
 >
@@ -6135,6 +6138,7 @@ id
 margins
 vertical_offset_bounds
 horizontal_offset_bounds
+previously_applied_offset
 }
 )
 ;
