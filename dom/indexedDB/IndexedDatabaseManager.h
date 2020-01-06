@@ -75,6 +75,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
@@ -122,6 +129,8 @@ public
 nsIObserver
 public
 nsITimerCallback
+public
+nsINamed
 {
 typedef
 mozilla
@@ -192,6 +201,7 @@ Logging_DetailedProfilerMarks
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 static
 IndexedDatabaseManager
 *

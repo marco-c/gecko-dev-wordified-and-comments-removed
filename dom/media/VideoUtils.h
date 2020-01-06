@@ -112,6 +112,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIThread
 .
 h
@@ -942,10 +949,13 @@ SimpleTimer
 :
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
 NS_DECL_ISUPPORTS
+NS_DECL_NSINAMED
 static
 already_AddRefed
 <

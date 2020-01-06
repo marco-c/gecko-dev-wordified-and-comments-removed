@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -80,6 +87,8 @@ public
 nsIObserver
 public
 nsSupportsWeakReference
+public
+nsINamed
 {
 public
 :
@@ -89,6 +98,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 nsAutoConfig
 (
 )

@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsISelectionListener
 .
 h
@@ -83,6 +90,8 @@ public
 nsITransactionListener
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -94,6 +103,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISELECTIONLISTENER
 NS_DECL_NSIDOCUMENTSTATELISTENER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 NS_IMETHOD
 WillDo
 (

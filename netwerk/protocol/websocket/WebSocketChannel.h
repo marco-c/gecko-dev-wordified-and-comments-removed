@@ -56,6 +56,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -242,6 +249,8 @@ public
 nsIInterfaceRequestor
 public
 nsIChannelEventSink
+public
+nsINamed
 {
 friend
 class
@@ -261,6 +270,7 @@ NS_DECL_NSIPROTOCOLPROXYCALLBACK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIOBSERVER
+NS_DECL_NSINAMED
 NS_IMETHOD
 AsyncOpen
 (

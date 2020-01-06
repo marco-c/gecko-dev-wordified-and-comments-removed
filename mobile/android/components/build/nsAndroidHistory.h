@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIRunnable
 .
 h
@@ -86,6 +93,8 @@ public
 nsIRunnable
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -93,6 +102,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_IHISTORY
 NS_DECL_NSIRUNNABLE
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 static
 nsAndroidHistory
 *

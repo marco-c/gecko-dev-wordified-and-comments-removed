@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
@@ -233,6 +240,8 @@ public
 nsITimerCallback
 public
 nsICacheTesting
+public
+nsINamed
 {
 public
 :
@@ -241,6 +250,7 @@ NS_DECL_NSICACHESTORAGESERVICE
 NS_DECL_NSIMEMORYREPORTER
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSICACHETESTING
+NS_DECL_NSINAMED
 CacheStorageService
 (
 )

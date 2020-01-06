@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -116,6 +123,8 @@ nsIInputStreamCallback
 public
 nsITimerCallback
 public
+nsINamed
+public
 workers
 :
 :
@@ -144,6 +153,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSINAMED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 FileReader

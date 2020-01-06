@@ -100,6 +100,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsTObserverArray
 .
 h
@@ -284,6 +291,8 @@ public
 nsITimerCallback
 public
 nsSupportsWeakReference
+public
+nsINamed
 {
 friend
 class
@@ -318,6 +327,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIPLUGINHOST
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 nsresult
 LoadPlugins
 (

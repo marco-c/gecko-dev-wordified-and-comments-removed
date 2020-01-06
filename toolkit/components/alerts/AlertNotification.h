@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h
@@ -73,6 +80,8 @@ public
 nsICancelable
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -85,6 +94,7 @@ imgINotificationObserver
 NS_DECL_IMGINOTIFICATIONOBSERVER
 NS_DECL_NSICANCELABLE
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 AlertImageRequest
 (
 nsIURI

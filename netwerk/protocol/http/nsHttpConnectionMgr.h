@@ -111,6 +111,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -840,6 +847,8 @@ nsIInterfaceRequestor
 public
 nsITimerCallback
 public
+nsINamed
+public
 nsSupportsWeakReference
 public
 TCPFastOpen
@@ -860,6 +869,7 @@ NS_DECL_NSIOUTPUTSTREAMCALLBACK
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 nsHalfOpenSocket
 (
 nsConnectionEntry

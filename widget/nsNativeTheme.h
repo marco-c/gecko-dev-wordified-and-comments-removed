@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
@@ -82,6 +89,8 @@ nsNativeTheme
 :
 public
 nsITimerCallback
+public
+nsINamed
 {
 protected
 :
@@ -94,6 +103,7 @@ nsNativeTheme
 }
 NS_DECL_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 enum
 ScrollbarButtonType
 {

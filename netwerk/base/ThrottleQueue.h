@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIThrottledInputChannel
 .
 h
@@ -44,6 +51,8 @@ public
 nsIInputChannelThrottleQueue
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -54,6 +63,7 @@ ThrottleQueue
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTCHANNELTHROTTLEQUEUE
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 void
 QueueStream
 (

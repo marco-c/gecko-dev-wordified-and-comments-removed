@@ -52,6 +52,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
@@ -469,6 +476,8 @@ Deliverer
 :
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -498,6 +507,7 @@ nullptr
 }
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 private
 :
 virtual

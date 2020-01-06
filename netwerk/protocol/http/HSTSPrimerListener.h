@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
@@ -150,6 +157,8 @@ public
 nsIInterfaceRequestor
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -166,6 +175,7 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 private
 :
 ~
