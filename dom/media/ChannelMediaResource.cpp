@@ -804,8 +804,16 @@ HTTP_REQUESTED_RANGE_NOT_SATISFIABLE_CODE
 {
 mCacheStream
 .
+NotifyLoadID
+(
+mLoadID
+)
+;
+mCacheStream
+.
 NotifyDataEnded
 (
+mLoadID
 status
 )
 ;
@@ -1605,6 +1613,7 @@ mCacheStream
 .
 NotifyDataEnded
 (
+mLoadID
 aStatus
 aReopenOnError
 )
