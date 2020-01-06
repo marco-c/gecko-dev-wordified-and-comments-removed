@@ -2341,6 +2341,17 @@ RunFrameRequestCallbacks
 (
 )
 {
+AutoProfilerTracing
+tracing
+(
+"
+VR
+"
+"
+RunFrameRequestCallbacks
+"
+)
+;
 TimeStamp
 nowTime
 =

@@ -3003,6 +3003,17 @@ SubmitFrame
 (
 )
 {
+AutoProfilerTracing
+tracing
+(
+"
+VR
+"
+"
+SubmitFrameAtVRDisplay
+"
+)
+;
 if
 (
 mPresentation
