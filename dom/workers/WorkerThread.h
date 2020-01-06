@@ -121,6 +121,9 @@ nsThread
 class
 Observer
 ;
+Mutex
+mLock
+;
 CondVar
 mWorkerPrivateCondVar
 ;

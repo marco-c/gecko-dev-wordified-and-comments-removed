@@ -193,6 +193,15 @@ nsThread
 NOT_MAIN_THREAD
 kWorkerStackSize
 )
+mLock
+(
+"
+WorkerThread
+:
+:
+mLock
+"
+)
 mWorkerPrivateCondVar
 (
 mLock
