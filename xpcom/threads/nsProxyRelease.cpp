@@ -24,6 +24,10 @@ true
 :
 ProxyReleaseISupports
 (
+const
+char
+*
+aName
 nsIEventTarget
 *
 aTarget
@@ -44,6 +48,7 @@ ProxyRelease
 nsISupports
 >
 (
+aName
 aTarget
 dont_AddRef
 (
