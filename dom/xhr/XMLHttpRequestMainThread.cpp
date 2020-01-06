@@ -12343,7 +12343,7 @@ toObjectOrNull
 )
 )
 ;
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 ArrayBuffer
 >

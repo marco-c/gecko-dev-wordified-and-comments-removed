@@ -6081,7 +6081,7 @@ mDataIsJwk
 =
 false
 ;
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 ArrayBuffer
 >
@@ -6119,7 +6119,7 @@ NS_ERROR_DOM_OPERATION_ERR
 return
 ;
 }
-RootedTypedArray
+RootedSpiderMonkeyInterface
 <
 ArrayBufferView
 >

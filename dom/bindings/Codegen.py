@@ -7492,6 +7492,32 @@ headerSet
 =
 declareIncludes
                     
+if
+unrolled
+.
+isReadableStream
+(
+)
+:
+                        
+headerSet
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+ReadableStream
+.
+h
+"
+)
+                    
+else
+:
+                        
 headerSet
 .
 add
@@ -8902,6 +8928,32 @@ h
 "
 )
                         
+if
+f
+.
+isReadableStream
+(
+)
+:
+                            
+headers
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+ReadableStream
+.
+h
+"
+)
+                        
+else
+:
+                            
 headers
 .
 add
@@ -9475,6 +9527,32 @@ h
 "
 )
                         
+if
+f
+.
+isReadableStream
+(
+)
+:
+                            
+headers
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+ReadableStream
+.
+h
+"
+)
+                        
+else
+:
+                            
 headers
 .
 add
@@ -39122,7 +39200,7 @@ unroll
 .
 name
         
-arrayType
+interfaceType
 =
 CGGeneric
 (
@@ -39131,7 +39209,7 @@ name
         
 declType
 =
-arrayType
+interfaceType
         
 if
 type
@@ -39270,9 +39348,9 @@ holderType
 CGTemplatedType
 (
 "
-TypedArrayRooter
+SpiderMonkeyInterfaceRooter
 "
-arrayType
+interfaceType
 )
                 
 holderArgs
@@ -39306,7 +39384,7 @@ declType
 CGTemplatedType
 (
 "
-RootedTypedArray
+RootedSpiderMonkeyInterface
 "
 declType
 )

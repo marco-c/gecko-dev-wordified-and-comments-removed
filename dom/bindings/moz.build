@@ -260,6 +260,11 @@ PrimitiveConversions
 h
 '
 '
+ReadableStream
+.
+h
+'
+'
 Record
 .
 h
@@ -271,6 +276,11 @@ h
 '
 '
 SimpleGlobalObject
+.
+h
+'
+'
+SpiderMonkeyInterface
 .
 h
 '
