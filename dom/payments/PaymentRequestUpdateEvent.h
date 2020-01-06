@@ -206,6 +206,14 @@ ErrorResult
 aRv
 )
 ;
+void
+SetRequest
+(
+PaymentRequest
+*
+aRequest
+)
+;
 protected
 :
 ~
