@@ -137,6 +137,7 @@ AST_MATCHER_P2
 (
 Expr
 escapesParentFunctionCall
+\
 internal
 :
 :
@@ -145,6 +146,7 @@ Matcher
 Stmt
 >
 EscapeStmtMatcher
+\
 internal
 :
 :
