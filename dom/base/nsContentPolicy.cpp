@@ -145,6 +145,15 @@ TabGroup
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TaskCategory
+.
+h
+"
 using
 mozilla
 :
@@ -609,6 +618,9 @@ window
 >
 EventTargetFor
 (
+mozilla
+:
+:
 TaskCategory
 :
 :
