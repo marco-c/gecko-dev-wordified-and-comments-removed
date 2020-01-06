@@ -133,7 +133,17 @@ URL
 cpp
 '
 '
+URLMainThread
+.
+cpp
+'
+'
 URLSearchParams
+.
+cpp
+'
+'
+URLWorker
 .
 cpp
 '
