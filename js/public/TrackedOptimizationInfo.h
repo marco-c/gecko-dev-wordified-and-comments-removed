@@ -932,6 +932,11 @@ CantInlineNativeNoSpecialization
 \
 _
 (
+CantInlineNoObservedTypes
+)
+\
+_
+(
 HasCommonInliningPath
 )
 \
