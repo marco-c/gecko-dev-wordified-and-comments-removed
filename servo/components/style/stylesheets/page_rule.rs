@@ -22,6 +22,7 @@ malloc_size_of
 {
 MallocSizeOf
 MallocSizeOfOps
+MallocUnconditionalShallowSizeOf
 }
 ;
 use
@@ -121,6 +122,15 @@ MallocSizeOfOps
 >
 usize
 {
+self
+.
+block
+.
+unconditional_shallow_size_of
+(
+ops
+)
++
 self
 .
 block

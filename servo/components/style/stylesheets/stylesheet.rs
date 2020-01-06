@@ -68,7 +68,10 @@ use
 malloc_size_of
 :
 :
+{
 MallocSizeOfOps
+MallocUnconditionalShallowSizeOf
+}
 ;
 use
 media_queries
@@ -550,6 +553,15 @@ MallocSizeOfOps
 >
 usize
 {
+self
+.
+rules
+.
+unconditional_shallow_size_of
+(
+ops
+)
++
 self
 .
 rules

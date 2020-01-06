@@ -23,6 +23,7 @@ malloc_size_of
 MallocShallowSizeOf
 MallocSizeOf
 MallocSizeOfOps
+MallocUnconditionalShallowSizeOf
 }
 ;
 use
@@ -267,6 +268,15 @@ thin_arc_heap_ptr
 n
 +
 =
+self
+.
+block
+.
+unconditional_shallow_size_of
+(
+ops
+)
++
 self
 .
 block
