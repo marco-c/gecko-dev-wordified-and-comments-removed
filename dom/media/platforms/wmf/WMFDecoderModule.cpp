@@ -187,6 +187,11 @@ nsIXULRuntime
 .
 h
 "
+extern
+const
+GUID
+CLSID_WebmMfVpxDec
+;
 namespace
 mozilla
 {

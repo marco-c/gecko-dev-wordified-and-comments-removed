@@ -125,6 +125,13 @@ DecryptThroughputLimit
 .
 h
 "
+#
+include
+"
+ChromiumCDMVideoDecoder
+.
+h
+"
 namespace
 mozilla
 {
