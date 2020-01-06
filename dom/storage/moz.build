@@ -163,6 +163,11 @@ SessionStorage
 cpp
 '
 '
+SessionStorageCache
+.
+cpp
+'
+'
 SessionStorageManager
 .
 cpp
