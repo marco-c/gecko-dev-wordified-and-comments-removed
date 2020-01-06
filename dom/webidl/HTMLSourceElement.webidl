@@ -195,6 +195,7 @@ HTMLSourceElement
 {
 [
 CEReactions
+NeedsSubjectPrincipal
 SetterThrows
 ]
 attribute

@@ -223,6 +223,17 @@ return
 mSrcTriggeringPrincipal
 ;
 }
+nsIPrincipal
+*
+GetSrcsetTriggeringPrincipal
+(
+)
+const
+{
+return
+mSrcsetTriggeringPrincipal
+;
+}
 void
 GetType
 (
@@ -270,6 +281,8 @@ GetSrcset
 DOMString
 &
 aSrcset
+nsIPrincipal
+&
 )
 {
 GetHTMLAttr
@@ -289,6 +302,9 @@ const
 nsAString
 &
 aSrcset
+nsIPrincipal
+&
+aTriggeringPrincipal
 mozilla
 :
 :
@@ -304,6 +320,7 @@ nsGkAtoms
 :
 srcset
 aSrcset
+aTriggeringPrincipal
 rv
 )
 ;
@@ -470,6 +487,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mSrcTriggeringPrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mSrcsetTriggeringPrincipal
 ;
 void
 UpdateMediaList
