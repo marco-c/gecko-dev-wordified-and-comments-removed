@@ -9976,6 +9976,12 @@ defaultView
 }
 this
 .
+rootWin
+=
+window
+;
+this
+.
 rootDoc
 =
 window
@@ -11873,6 +11879,14 @@ SKIP_TO_PARENT
 {
 if
 (
+Cu
+.
+isDeadWrapper
+(
+rootWin
+)
+|
+|
 !
 rootWin
 .
