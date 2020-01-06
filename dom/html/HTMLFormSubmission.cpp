@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsISaveAsCharset
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h

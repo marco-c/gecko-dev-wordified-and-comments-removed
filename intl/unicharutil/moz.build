@@ -114,11 +114,6 @@ nsIEntityConverter
 idl
 '
 '
-nsISaveAsCharset
-.
-idl
-'
-'
 nsIUnicodeNormalizer
 .
 idl
@@ -150,11 +145,6 @@ UNIFIED_SOURCES
 [
 '
 nsEntityConverter
-.
-cpp
-'
-'
-nsSaveAsCharset
 .
 cpp
 '
