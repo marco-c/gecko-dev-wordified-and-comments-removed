@@ -34,7 +34,6 @@ VertexBinding
 (
 )
 ;
-explicit
 VertexBinding
 (
 VertexBinding
@@ -195,7 +194,6 @@ GLuint
 bindingIndex
 )
 ;
-explicit
 VertexAttribute
 (
 VertexAttribute
