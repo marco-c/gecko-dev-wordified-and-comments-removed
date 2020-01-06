@@ -13765,6 +13765,7 @@ mWordCache
 PutEntry
 (
 key
+fallible
 )
 ;
 if
