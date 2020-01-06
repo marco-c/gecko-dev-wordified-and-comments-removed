@@ -59,7 +59,7 @@ PACKAGE_VERSION
 '
 1
 .
-12
+13
 '
 deps
 =
@@ -80,6 +80,10 @@ mozfile
 1
 .
 0
+'
+        
+'
+requests
 '
         
 ]
