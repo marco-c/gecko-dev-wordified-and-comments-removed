@@ -3372,12 +3372,6 @@ mozilla
 TimeStamp
 mStartTime
 ;
-int
-mNumAudioStreams
-;
-int
-mNumVideoStreams
-;
 bool
 mHaveConfiguredCodecs
 ;
