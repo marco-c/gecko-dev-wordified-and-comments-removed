@@ -4388,11 +4388,11 @@ nsHtml5ElementName
 nsGkAtoms
 :
 :
-_switch
+svgSwitch
 nsGkAtoms
 :
 :
-_switch
+svgSwitch
 nsHtml5TreeBuilder
 :
 :
