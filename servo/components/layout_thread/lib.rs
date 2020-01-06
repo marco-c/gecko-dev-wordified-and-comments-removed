@@ -4133,7 +4133,6 @@ parse
 &
 *
 name
-None
 )
 .
 ok

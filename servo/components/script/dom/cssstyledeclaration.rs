@@ -1709,7 +1709,6 @@ parse
 (
 &
 property
-None
 )
 {
 id
@@ -1762,7 +1761,6 @@ parse
 (
 &
 property
-None
 )
 {
 id
@@ -1859,7 +1857,6 @@ parse
 (
 &
 property
-None
 )
 {
 id
@@ -1925,7 +1922,6 @@ parse
 (
 &
 property
-None
 )
 {
 Ok
@@ -2103,7 +2099,6 @@ parse
 (
 &
 property
-None
 )
 {
 id
