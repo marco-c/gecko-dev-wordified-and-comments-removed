@@ -981,6 +981,21 @@ eCSSUnit_None
 return
 ;
 }
+GeckoStyleContext
+*
+contextIfGecko
+=
+aContext
+?
+aContext
+-
+>
+GetAsGecko
+(
+)
+:
+nullptr
+;
 for
 (
 const
@@ -1507,7 +1522,7 @@ Item
 (
 1
 )
-aContext
+contextIfGecko
 aPresContext
 conditions
 &
@@ -1553,7 +1568,7 @@ Item
 (
 1
 )
-aContext
+contextIfGecko
 aPresContext
 conditions
 &
@@ -1599,7 +1614,7 @@ Item
 (
 1
 )
-aContext
+contextIfGecko
 aPresContext
 conditions
 nullptr
@@ -1639,7 +1654,7 @@ Item
 (
 1
 )
-aContext
+contextIfGecko
 aPresContext
 conditions
 &
@@ -1683,7 +1698,7 @@ Item
 (
 2
 )
-aContext
+contextIfGecko
 aPresContext
 conditions
 &
@@ -1730,7 +1745,7 @@ Item
 (
 1
 )
-aContext
+contextIfGecko
 aPresContext
 conditions
 &
@@ -1757,7 +1772,7 @@ Item
 (
 2
 )
-aContext
+contextIfGecko
 aPresContext
 conditions
 &
@@ -1784,7 +1799,7 @@ Item
 (
 3
 )
-aContext
+contextIfGecko
 aPresContext
 conditions
 nullptr
@@ -2410,7 +2425,7 @@ ProcessInterpolateMatrix
 (
 matrix
 array
-aContext
+contextIfGecko
 aPresContext
 conditions
 aRefBox
@@ -2448,7 +2463,7 @@ ProcessAccumulateMatrix
 (
 matrix
 array
-aContext
+contextIfGecko
 aPresContext
 conditions
 aRefBox

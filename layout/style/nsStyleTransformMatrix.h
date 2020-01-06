@@ -69,6 +69,9 @@ namespace
 mozilla
 {
 class
+GeckoStyleContext
+;
+class
 RuleNodeCacheConditions
 ;
 }
@@ -379,7 +382,10 @@ const
 nsCSSValue
 &
 aValue
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aContext
 nsPresContext
@@ -422,7 +428,10 @@ nsCSSValue
 Array
 *
 aData
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aContext
 nsPresContext
@@ -461,7 +470,10 @@ nsCSSValue
 Array
 *
 aData
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aContext
 nsPresContext
