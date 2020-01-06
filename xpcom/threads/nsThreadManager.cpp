@@ -1147,11 +1147,8 @@ aResult
 {
 if
 (
-NS_WARN_IF
-(
 !
 mMainThread
-)
 )
 {
 return
