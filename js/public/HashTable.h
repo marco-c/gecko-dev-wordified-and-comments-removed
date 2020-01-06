@@ -4025,6 +4025,7 @@ const
 {
 return
 !
+!
 entry_
 ;
 }
@@ -4036,6 +4037,7 @@ const
 {
 if
 (
+!
 isValid
 (
 )
@@ -7844,7 +7846,6 @@ table
 ;
 MOZ_ASSERT_IF
 (
-!
 p
 .
 isValid
@@ -7882,6 +7883,7 @@ sCollisionBit
 ;
 if
 (
+!
 p
 .
 isValid
@@ -8233,6 +8235,7 @@ args
 {
 if
 (
+!
 p
 .
 isValid
