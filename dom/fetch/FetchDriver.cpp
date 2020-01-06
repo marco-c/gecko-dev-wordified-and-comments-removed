@@ -2752,7 +2752,7 @@ IsEmpty
 {
 nsIConsoleReportCollector
 *
-aReporter
+reporter
 =
 nullptr
 ;
@@ -2761,7 +2761,7 @@ if
 mObserver
 )
 {
-aReporter
+reporter
 =
 mObserver
 -
@@ -2832,7 +2832,7 @@ GetIntegrity
 (
 )
 sourceUri
-aReporter
+reporter
 &
 mSRIMetadata
 )
@@ -2844,7 +2844,7 @@ SRICheckDataVerifier
 (
 mSRIMetadata
 sourceUri
-aReporter
+reporter
 )
 ;
 return
@@ -3458,7 +3458,7 @@ aRequest
 ;
 nsIConsoleReportCollector
 *
-aReporter
+reporter
 =
 nullptr
 ;
@@ -3467,7 +3467,7 @@ if
 mObserver
 )
 {
-aReporter
+reporter
 =
 mObserver
 -
@@ -3537,7 +3537,7 @@ Verify
 mSRIMetadata
 channel
 sourceUri
-aReporter
+reporter
 )
 ;
 if
