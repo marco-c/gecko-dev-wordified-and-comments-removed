@@ -126,6 +126,10 @@ PMessagePort
 ;
 include
 protocol
+PStreamFilter
+;
+include
+protocol
 PCameras
 ;
 include
@@ -321,6 +325,9 @@ manages
 PMessagePort
 ;
 manages
+PStreamFilter
+;
+manages
 PCameras
 ;
 manages
@@ -473,6 +480,15 @@ nsID
 destinationUuid
 uint32_t
 sequenceId
+)
+;
+async
+PStreamFilter
+(
+uint64_t
+channelId
+nsString
+addonId
 )
 ;
 async
