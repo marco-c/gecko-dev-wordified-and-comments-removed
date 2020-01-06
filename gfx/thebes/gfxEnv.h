@@ -58,7 +58,7 @@ DumpDebug
 DECL_GFX_ENV
 (
 "
-ENABLE_WR_RENDERING
+ENABLE_WR_RECORDING
 "
 EnableWebRenderRecording
 )
