@@ -9031,7 +9031,7 @@ execute
 task
 -
 >
-dispatchResolve
+dispatchResolveAndDestroy
 (
 )
 ;
@@ -10210,7 +10210,7 @@ void
 PromiseHelperTask
 :
 :
-executeAndResolve
+executeAndResolveAndDestroy
 (
 JSContext
 *
@@ -10265,7 +10265,7 @@ release
 )
 -
 >
-executeAndResolve
+executeAndResolveAndDestroy
 (
 cx
 )

@@ -800,7 +800,7 @@ cx
 )
 ;
 void
-dispatchResolve
+dispatchResolveAndDestroy
 (
 )
 ;

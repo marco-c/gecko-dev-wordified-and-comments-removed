@@ -2778,7 +2778,7 @@ execute
 0
 ;
 void
-executeAndResolve
+executeAndResolveAndDestroy
 (
 JSContext
 *
