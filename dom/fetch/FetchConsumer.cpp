@@ -1295,6 +1295,7 @@ consumer
 >
 RegisterWorkerHolder
 (
+workerPrivate
 )
 )
 )
@@ -1831,14 +1832,17 @@ Derived
 :
 RegisterWorkerHolder
 (
+WorkerPrivate
+*
+aWorkerPrivate
 )
 {
 MOZ_ASSERT
 (
-mWorkerPrivate
+aWorkerPrivate
 )
 ;
-mWorkerPrivate
+aWorkerPrivate
 -
 >
 AssertIsOnWorkerThread
@@ -1873,7 +1877,7 @@ mWorkerHolder
 >
 HoldWorker
 (
-mWorkerPrivate
+aWorkerPrivate
 Closing
 )
 )
