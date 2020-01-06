@@ -236,5 +236,11 @@ attribute
 boolean
 aecDebug
 ;
+static
+readonly
+attribute
+DOMString
+aecDebugLogDir
+;
 }
 ;
