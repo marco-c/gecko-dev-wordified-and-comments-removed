@@ -441,7 +441,7 @@ flex
 "
 1
 "
-onkeyup
+oninput
 =
 "
 gContainersManager
