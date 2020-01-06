@@ -644,7 +644,7 @@ nsDocLoader
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIRequestObserver
+nsIDocumentLoader
 )
 NS_INTERFACE_MAP_ENTRY
 (
