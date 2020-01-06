@@ -162,6 +162,13 @@ return
 mFontFaceSet
 ;
 }
+nsIPrincipal
+*
+GetStandardFontLoadPrincipal
+(
+)
+override
+;
 virtual
 nsresult
 CheckFontLoad
@@ -834,6 +841,12 @@ const
 gfxFontFaceSrc
 *
 aFontFaceSrc
+)
+;
+nsIPrincipal
+*
+GetStandardFontLoadPrincipal
+(
 )
 ;
 nsresult
