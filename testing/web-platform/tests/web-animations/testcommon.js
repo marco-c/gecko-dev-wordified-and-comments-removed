@@ -3,12 +3,12 @@ use
 strict
 '
 ;
-var
+const
 MS_PER_SEC
 =
 1000
 ;
-var
+const
 TIME_PRECISION
 =
 0
@@ -83,7 +83,7 @@ doc
 document
 ;
 }
-var
+const
 element
 =
 doc
@@ -148,7 +148,7 @@ doc
 document
 ;
 }
-var
+const
 extraStyle
 =
 doc
@@ -174,7 +174,7 @@ if
 rules
 )
 {
-var
+const
 sheet
 =
 extraStyle
@@ -183,7 +183,7 @@ sheet
 ;
 for
 (
-var
+const
 selector
 in
 rules
@@ -284,7 +284,7 @@ content
 }
 )
 ;
-var
+const
 div
 =
 createDiv
@@ -303,7 +303,7 @@ pseudo
 '
 )
 ;
-var
+const
 anims
 =
 document
@@ -322,7 +322,7 @@ length
 1
 )
 ;
-var
+const
 anim
 =
 anims
@@ -393,7 +393,7 @@ t
 =
 >
 {
-var
+const
 omt
 =
 1
@@ -436,7 +436,7 @@ t
 =
 >
 {
-var
+const
 omt
 =
 1
@@ -479,7 +479,7 @@ x
 =
 >
 {
-var
+let
 mint
 =
 0
@@ -489,7 +489,7 @@ maxt
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -503,7 +503,7 @@ i
 i
 )
 {
-var
+const
 guesst
 =
 (
@@ -514,7 +514,7 @@ maxt
 /
 2
 ;
-var
+const
 guessx
 =
 xForT
@@ -627,7 +627,7 @@ x
 =
 >
 {
-var
+const
 result
 =
 Math
@@ -674,7 +674,7 @@ x
 =
 >
 {
-var
+const
 result
 =
 Math
@@ -780,7 +780,7 @@ waitForAnimationFramesWithDelay
 minDelay
 )
 {
-var
+const
 startTime
 =
 document
@@ -911,7 +911,7 @@ z
 radian
 )
 {
-var
+const
 sc
 =
 Math
@@ -932,7 +932,7 @@ radian
 2
 )
 ;
-var
+const
 sq
 =
 Math
@@ -953,7 +953,7 @@ radian
 2
 )
 ;
-var
+const
 length
 =
 Math
@@ -1131,7 +1131,7 @@ expected
 description
 )
 {
-var
+const
 matrixRegExp
 =
 /
@@ -1180,7 +1180,7 @@ matrix
 '
 )
 ;
-var
+const
 actualMatrixArray
 =
 actual
@@ -1204,7 +1204,7 @@ map
 Number
 )
 ;
-var
+const
 expectedMatrixArray
 =
 expected
@@ -1249,7 +1249,7 @@ description
 ;
 for
 (
-var
+let
 i
 =
 0

@@ -136,7 +136,7 @@ t
 =
 >
 {
-var
+const
 div
 =
 createDiv
@@ -144,7 +144,7 @@ createDiv
 t
 )
 ;
-var
+const
 animation
 =
 div
@@ -157,14 +157,14 @@ null
 MS_PER_SEC
 )
 ;
-var
+const
 originalReadyPromise
 =
 animation
 .
 ready
 ;
-var
+let
 pauseReadyPromise
 ;
 return
@@ -320,7 +320,7 @@ t
 =
 >
 {
-var
+const
 div
 =
 createDiv
@@ -328,7 +328,7 @@ createDiv
 t
 )
 ;
-var
+const
 animation
 =
 div
@@ -353,7 +353,7 @@ then
 =
 >
 {
-var
+const
 promiseBeforeCallingPlay
 =
 animation
@@ -419,7 +419,7 @@ t
 =
 >
 {
-var
+const
 div
 =
 createDiv
@@ -427,7 +427,7 @@ createDiv
 t
 )
 ;
-var
+const
 animation
 =
 div
