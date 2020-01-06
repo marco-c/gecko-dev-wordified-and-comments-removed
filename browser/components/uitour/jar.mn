@@ -66,3 +66,12 @@ content
 UITour
 .
 js
+content
+/
+browser
+/
+UITour
+-
+lib
+.
+js
