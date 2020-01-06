@@ -1106,6 +1106,10 @@ mLastFireTime
 =
 mLastFireTime
 ;
+StopTimer
+(
+)
+;
 }
 virtual
 TimeDuration
@@ -1627,6 +1631,7 @@ NS_TIMER_CONTRACTID
 )
 ;
 }
+virtual
 ~
 SimpleTimerBasedRefreshDriverTimer
 (
