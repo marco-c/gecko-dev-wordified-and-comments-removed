@@ -323,6 +323,8 @@ T
 template
 <
 typename
+Q
+typename
 EnableIfChar16
 >
 nsTDependentSubstring

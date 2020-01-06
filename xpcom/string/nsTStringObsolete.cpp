@@ -1957,6 +1957,8 @@ T
 template
 <
 typename
+Q
+typename
 EnableIfChar16
 >
 void
@@ -2007,6 +2009,8 @@ T
 >
 template
 <
+typename
+Q
 typename
 EnableIfChar16
 >
