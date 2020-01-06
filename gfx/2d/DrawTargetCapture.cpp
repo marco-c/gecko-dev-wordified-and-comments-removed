@@ -825,6 +825,11 @@ current
 =
 start
 ;
+bool
+result
+=
+false
+;
 while
 (
 current
@@ -1119,9 +1124,13 @@ end
 )
 )
 ;
+result
+=
+true
+;
 }
 return
-true
+result
 ;
 }
 }
