@@ -1065,7 +1065,7 @@ mozilla
 Preferences
 :
 :
-GetDefaultInt
+GetInt
 (
 "
 browser
@@ -1075,6 +1075,10 @@ cache
 frecency_experiment
 "
 kDefaultHalfLifeExperiment
+PrefValueKind
+:
+:
+Default
 )
 ;
 if

@@ -234,10 +234,14 @@ baseValue
 Preferences
 :
 :
-GetDefaultBool
+GetBool
 (
 aPrefName
 aDefaultValue
+PrefValueKind
+:
+:
+Default
 )
 ;
 SetDefault

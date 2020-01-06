@@ -11582,7 +11582,7 @@ true
 Preferences
 :
 :
-GetDefaultBool
+GetBool
 (
 "
 layers
@@ -11592,6 +11592,10 @@ omtp
 enabled
 "
 false
+PrefValueKind
+:
+:
+Default
 )
 )
 ;

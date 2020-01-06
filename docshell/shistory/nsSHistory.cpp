@@ -1249,10 +1249,14 @@ defaultHistoryMaxSize
 Preferences
 :
 :
-GetDefaultInt
+GetInt
 (
 PREF_SHISTORY_SIZE
 50
+PrefValueKind
+:
+:
+Default
 )
 ;
 if
