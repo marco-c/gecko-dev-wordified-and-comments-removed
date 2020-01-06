@@ -581,10 +581,15 @@ this
 .
 lastRepairAdvance
 =
+Math
+.
+floor
+(
 this
 .
 _now
 (
+)
 )
 ;
 }
