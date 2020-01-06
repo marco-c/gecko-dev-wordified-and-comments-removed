@@ -1968,8 +1968,12 @@ instance
 .
 stylo
 =
-True
+wants_stylo
             
+if
+wants_stylo
+:
+                
 self
 .
 instance
@@ -1977,7 +1981,7 @@ instance
 state_dir
 =
 state_dir
-            
+                
 self
 .
 instance
