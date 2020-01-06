@@ -1061,11 +1061,6 @@ NotifyHostAsyncInitFailed
 )
 ;
 void
-NotifyHostCreateWidget
-(
-)
-;
-void
 NotifyDestroyPending
 (
 )
