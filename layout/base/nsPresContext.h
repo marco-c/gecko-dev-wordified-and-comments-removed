@@ -2621,10 +2621,6 @@ SetBidi
 (
 uint32_t
 aBidiOptions
-bool
-aForceRestyle
-=
-false
 )
 ;
 uint32_t
