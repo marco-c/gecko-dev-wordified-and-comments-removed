@@ -12,5 +12,16 @@ NSMODULE_DEFN
 start_kPStaticModules
 )
 =
-nullptr
+(
+mozilla
+:
+:
+Module
+*
+)
+&
+NSMODULE_NAME
+(
+start_kPStaticModules
+)
 ;

@@ -46,5 +46,16 @@ NSMODULE_DEFN
 end_kPStaticModules
 )
 =
-nullptr
+(
+mozilla
+:
+:
+Module
+*
+)
+&
+NSMODULE_NAME
+(
+end_kPStaticModules
+)
 ;
