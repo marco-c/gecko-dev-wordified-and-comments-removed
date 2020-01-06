@@ -1137,6 +1137,14 @@ test
 ]
 )
 {
+if
+(
+opener
+[
+funcName
+]
+)
+{
 window
 [
 funcName
@@ -1152,6 +1160,7 @@ bind
 opener
 )
 ;
+}
 }
 window
 .
