@@ -677,9 +677,6 @@ ImageResource
 :
 UpdateImageContainer
 (
-const
-IntSize
-&
 )
 {
 MOZ_ASSERT

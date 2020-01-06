@@ -5998,7 +5998,6 @@ wasDefaultFlags
 {
 UpdateImageContainer
 (
-mSize
 )
 ;
 }
