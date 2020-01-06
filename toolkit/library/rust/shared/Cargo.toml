@@ -96,9 +96,9 @@ path
 /
 media
 /
-libstagefright
-/
-binding
+mp4parse
+-
+rust
 /
 mp4parse_capi
 "

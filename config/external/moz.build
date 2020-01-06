@@ -403,6 +403,13 @@ libsoundtouch
 '
 media
 /
+mp4parse
+-
+rust
+'
+'
+media
+/
 psshparser
 '
 ]
