@@ -1,5 +1,7 @@
 echo
 off
+pushd
+.
 IF
 EXIST
 "
@@ -227,6 +229,7 @@ EXIT
 /
 B
 )
+popd
 python
 mach
 %
