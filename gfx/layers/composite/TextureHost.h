@@ -236,6 +236,9 @@ Rect
 .
 h
 "
+class
+MacIOSurface
+;
 namespace
 mozilla
 {
@@ -1886,6 +1889,17 @@ type
 .
 "
 )
+;
+}
+virtual
+MacIOSurface
+*
+GetMacIOSurface
+(
+)
+{
+return
+nullptr
 ;
 }
 protected
