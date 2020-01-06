@@ -31,7 +31,7 @@ mozilla
 /
 dom
 /
-FetchSignal
+AbortSignal
 .
 h
 "
@@ -48,7 +48,7 @@ final
 public
 DOMEventTargetHelper
 public
-FetchSignal
+AbortSignal
 :
 :
 Follower
@@ -78,7 +78,7 @@ FetchObserver
 nsIGlobalObject
 *
 aGlobal
-FetchSignal
+AbortSignal
 *
 aSignal
 )
