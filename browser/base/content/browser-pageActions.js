@@ -2235,6 +2235,9 @@ buttonNode
 if
 (
 event
+&
+&
+event
 .
 type
 =
