@@ -1551,6 +1551,11 @@ DispatchSizeModeEvent
 (
 )
 ;
+void
+DispatchOcclusionEvent
+(
+)
+;
 virtual
 bool
 DragEvent
