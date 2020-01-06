@@ -1040,15 +1040,6 @@ override
 ;
 virtual
 void
-SuppressAnimation
-(
-bool
-aSuppress
-)
-override
-;
-virtual
-void
 HideWindowChrome
 (
 bool
@@ -1894,9 +1885,6 @@ mNumModalDescendents
 ;
 InputContext
 mInputContext
-;
-NSWindowAnimationBehavior
-mWindowAnimationBehavior
 ;
 }
 ;
