@@ -3662,17 +3662,11 @@ doc
 )
 {
 return
-Encoding
-:
-:
-ForName
-(
 doc
 -
 >
 GetDocumentCharacterSet
 (
-)
 )
 ;
 }

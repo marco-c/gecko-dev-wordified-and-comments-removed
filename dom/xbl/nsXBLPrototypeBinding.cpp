@@ -7500,10 +7500,6 @@ doc
 GetDocumentCharacterSet
 (
 )
-.
-get
-(
-)
 doc
 -
 >
