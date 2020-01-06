@@ -743,7 +743,6 @@ glFormat
 .
 computeRowPitch
 (
-type
 origArea
 .
 width
