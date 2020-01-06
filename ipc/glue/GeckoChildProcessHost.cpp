@@ -2313,6 +2313,9 @@ ProcessArchitecture
 arch
 )
 {
+AutoSetProfilerEnvVarsForChildProcess
+profilerEnvironment
+;
 const
 char
 *
