@@ -647,7 +647,7 @@ self
 sandbox
 self
 .
-first_true
+or_impl
                                        
 (
 self
@@ -658,7 +658,7 @@ other
 staticmethod
     
 def
-first_true
+or_impl
 (
 iterable
 )
