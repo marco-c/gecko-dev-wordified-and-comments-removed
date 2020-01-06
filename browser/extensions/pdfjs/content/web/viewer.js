@@ -8854,6 +8854,16 @@ progress
 level
 )
 {
+if
+(
+this
+.
+downloadComplete
+)
+{
+return
+;
+}
 let
 percent
 =
