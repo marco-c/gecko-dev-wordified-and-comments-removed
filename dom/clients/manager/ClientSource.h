@@ -212,6 +212,14 @@ nsIDocShell
 aDocShell
 )
 ;
+const
+ClientInfo
+&
+Info
+(
+)
+const
+;
 }
 ;
 }
