@@ -1803,15 +1803,7 @@ name
 =
 =
 "
-Gecko_nsStyleFont_FixupNoneGeneric
-"
-|
-|
-name
-=
-=
-"
-Gecko_nsStyleFont_FixupMinFontSize
+ThreadSafeGetDefaultFontHelper
 "
 )
 {
