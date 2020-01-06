@@ -153,6 +153,16 @@ HeadlessLookAndFeel
 cpp
 '
 '
+HeadlessScreenHelper
+.
+cpp
+'
+'
+HeadlessSound
+.
+cpp
+'
+'
 HeadlessWidget
 .
 cpp

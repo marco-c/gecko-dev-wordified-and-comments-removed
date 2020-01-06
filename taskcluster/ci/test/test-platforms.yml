@@ -239,6 +239,8 @@ web
 platform
 -
 tests
+-
+headless
 linux64
 /
 opt
@@ -280,6 +282,8 @@ capture
 talos
 -
 awsy
+-
+headless
 linux64
 -
 nightly
@@ -325,6 +329,8 @@ capture
 talos
 -
 awsy
+-
+headless
 #
 TODO
 :
@@ -375,6 +381,8 @@ platform
 tests
 -
 talos
+-
+headless
 linux64
 -
 asan
@@ -398,6 +406,8 @@ sets
 common
 -
 tests
+-
+headless
 #
 Stylo
 builds
