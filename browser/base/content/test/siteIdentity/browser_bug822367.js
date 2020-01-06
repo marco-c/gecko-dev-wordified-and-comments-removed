@@ -170,6 +170,8 @@ BrowserTestUtils
 browserLoaded
 (
 gTestBrowser
+false
+url
 )
 ;
 }
@@ -325,6 +327,8 @@ BrowserTestUtils
 browserLoaded
 (
 gTestBrowser
+false
+url
 )
 ;
 assertMixedContentBlockingState
@@ -379,6 +383,8 @@ BrowserTestUtils
 browserLoaded
 (
 gTestBrowser
+false
+url
 )
 ;
 }
@@ -606,6 +612,8 @@ BrowserTestUtils
 browserLoaded
 (
 gTestBrowser
+false
+url
 )
 ;
 }
@@ -845,6 +853,8 @@ BrowserTestUtils
 browserLoaded
 (
 gTestBrowser
+false
+url
 )
 ;
 }
@@ -1000,6 +1010,8 @@ BrowserTestUtils
 browserLoaded
 (
 gTestBrowser
+false
+url
 )
 ;
 }
