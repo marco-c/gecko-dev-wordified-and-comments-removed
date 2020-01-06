@@ -9344,7 +9344,7 @@ aEvent
 ;
 localEvent
 .
-StopCrossProcessForwarding
+MarkAsHandledInRemoteProcess
 (
 )
 ;
@@ -9507,6 +9507,12 @@ WidgetKeyboardEvent
 localEvent
 (
 aEvent
+)
+;
+localEvent
+.
+MarkAsHandledInRemoteProcess
+(
 )
 ;
 localEvent

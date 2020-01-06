@@ -1078,9 +1078,9 @@ const
 {
 if
 (
-mFlags
-.
-mNoCrossProcessBoundaryForwarding
+IsCrossProcessForwardingStopped
+(
+)
 )
 {
 return
