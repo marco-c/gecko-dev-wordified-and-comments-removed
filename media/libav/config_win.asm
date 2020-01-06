@@ -596,9 +596,14 @@ define
 HAVE_SYS_VIDEOIO_H
 0
 %
+ifndef
+HAVE_UNISTD_H
+%
 define
 HAVE_UNISTD_H
 0
+%
+endif
 %
 define
 HAVE_WINDOWS_H
