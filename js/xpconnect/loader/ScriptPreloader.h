@@ -624,7 +624,6 @@ CachedScript
 *
 >
 {
-explicit
 StatusMatcher
 (
 ScriptStatus
