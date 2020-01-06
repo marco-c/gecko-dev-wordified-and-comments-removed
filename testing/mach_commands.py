@@ -7700,6 +7700,9 @@ self
 :
         
 import
+posixpath
+        
+import
 re
         
 self
@@ -7858,6 +7861,20 @@ self
 .
 full_test_name
 :
+            
+self
+.
+full_test_name
+.
+replace
+(
+os
+.
+sep
+posixpath
+.
+sep
+)
             
 print
 (
