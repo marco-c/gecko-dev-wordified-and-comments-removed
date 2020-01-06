@@ -208,7 +208,7 @@ information
 /
 readonly
 attribute
-ACString
+AUTF8String
 name
 ;
 }
