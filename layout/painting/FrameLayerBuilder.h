@@ -1455,15 +1455,6 @@ PaintedLayer
 aLayer
 )
 ;
-static
-gfxSize
-GetPaintedLayerScaleForFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
 void
 StoreOptimizedLayerForFrame
 (
