@@ -2111,7 +2111,7 @@ mPolicy
 >
 SetAlternateDesktop
 (
-true
+false
 )
 ;
 MOZ_RELEASE_ASSERT
