@@ -2256,10 +2256,6 @@ True
         
 sandbox_whitelist_paths
 =
-[
-SCRIPT_DIRECTORY
-]
-+
 options
 .
 sandboxReadWhitelist
