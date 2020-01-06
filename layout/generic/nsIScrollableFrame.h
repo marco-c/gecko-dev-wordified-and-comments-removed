@@ -540,6 +540,15 @@ aBuilder
 ;
 virtual
 bool
+IsMaybeScrollingActive
+(
+)
+const
+=
+0
+;
+virtual
+bool
 IsProcessingAsyncScroll
 (
 )

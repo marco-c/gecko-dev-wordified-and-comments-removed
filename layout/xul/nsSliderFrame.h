@@ -565,6 +565,12 @@ aMessage
 const
 override
 ;
+nsIScrollableFrame
+*
+GetScrollFrame
+(
+)
+;
 private
 :
 bool
