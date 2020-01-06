@@ -1223,7 +1223,7 @@ parent
 WebRenderBridgeParent
 :
 :
-CeateDestroyed
+CreateDestroyed
 (
 )
 ;

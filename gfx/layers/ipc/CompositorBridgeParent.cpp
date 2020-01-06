@@ -7677,7 +7677,7 @@ mWrBridge
 WebRenderBridgeParent
 :
 :
-CeateDestroyed
+CreateDestroyed
 (
 )
 ;

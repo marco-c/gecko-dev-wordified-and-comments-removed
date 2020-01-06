@@ -202,7 +202,7 @@ aAnimStorage
 static
 WebRenderBridgeParent
 *
-CeateDestroyed
+CreateDestroyed
 (
 )
 ;
