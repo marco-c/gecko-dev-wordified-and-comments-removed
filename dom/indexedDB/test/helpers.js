@@ -925,6 +925,8 @@ disabled
 :
 "
 +
+window
+.
 disableWorkerTest
 )
 ;
