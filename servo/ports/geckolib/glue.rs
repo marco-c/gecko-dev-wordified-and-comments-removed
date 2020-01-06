@@ -10989,16 +10989,6 @@ contains
 IS_RELEVANT_LINK_VISITED
 )
 {
-result
-|
-=
-structs
-:
-:
-NS_STYLE_RELEVANT_LINK_VISITED
-as
-u64
-;
 }
 if
 flags
