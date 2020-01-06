@@ -1173,7 +1173,7 @@ version
 .
 20
 .
-0
+1
 "
 source
 =
@@ -1194,7 +1194,7 @@ rust
 -
 azure
 #
-71de5aa53e7c6faf10ceadce6538856649099263
+ca851788b3bc1f1034d4d899da66faf78e420c5e
 "
 dependencies
 =
@@ -1354,7 +1354,7 @@ index
 freetype
 0
 .
-2
+3
 .
 0
 (
@@ -3911,7 +3911,7 @@ azure
 .
 20
 .
-0
+1
 (
 git
 +
@@ -12108,7 +12108,7 @@ version
 "
 0
 .
-2
+3
 .
 0
 "
@@ -13381,7 +13381,7 @@ fontsan
 freetype
 0
 .
-2
+3
 .
 0
 (
@@ -13422,7 +13422,7 @@ sys
 .
 1
 .
-10
+12
 (
 registry
 +
@@ -15318,7 +15318,7 @@ version
 .
 1
 .
-10
+12
 "
 source
 =
@@ -15379,7 +15379,7 @@ index
 freetype
 0
 .
-2
+3
 .
 0
 (
@@ -44944,7 +44944,7 @@ sys
 .
 1
 .
-10
+12
 (
 registry
 +
@@ -46770,7 +46770,7 @@ servo
 /
 webrender
 #
-6dd3ddb0453697d3271f52133d88c182aa2f3b08
+b13a3b8f776b2ef4d5672173c9a3aa77c7b87936
 "
 dependencies
 =
@@ -47046,7 +47046,7 @@ index
 freetype
 0
 .
-2
+3
 .
 0
 (
@@ -47456,7 +47456,7 @@ servo
 /
 webrender
 #
-6dd3ddb0453697d3271f52133d88c182aa2f3b08
+b13a3b8f776b2ef4d5672173c9a3aa77c7b87936
 "
 dependencies
 =
@@ -47644,6 +47644,35 @@ euclid
 0
 .
 15
+.
+1
+(
+registry
++
+https
+:
+/
+/
+github
+.
+com
+/
+rust
+-
+lang
+/
+crates
+.
+io
+-
+index
+)
+"
+"
+fxhash
+0
+.
+2
 .
 1
 (
@@ -49729,7 +49758,7 @@ azure
 .
 20
 .
-0
+1
 (
 git
 +
@@ -52375,7 +52404,7 @@ checksum
 freetype
 0
 .
-2
+3
 .
 0
 (
@@ -52402,7 +52431,7 @@ index
 "
 =
 "
-fde23272c687e4570aefec06cb71174ec0f5284b725deac4e77ba2665d635faf
+398b8a11884898184d55aca9806f002b3cf68f0e860e0cbb4586f834ee39b0e7
 "
 "
 checksum
@@ -52889,7 +52918,7 @@ sys
 .
 1
 .
-10
+12
 (
 registry
 +
@@ -52914,7 +52943,7 @@ index
 "
 =
 "
-3072efe30deebdda55fcbe7c74c6d42f546fd8533488e43a692ea940ecface11
+61e6e99c20fe855e4d3836d037e252a1b7755ef99d00126071c68604b87bd29a
 "
 "
 checksum
