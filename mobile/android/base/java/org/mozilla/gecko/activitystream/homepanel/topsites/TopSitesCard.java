@@ -749,6 +749,17 @@ getUrl
 )
 )
 ;
+title
+.
+setMaxLines
+(
+isSiteSuggestedFromDistribution
+?
+2
+:
+1
+)
+;
 if
 (
 wasException
