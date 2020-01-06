@@ -310,13 +310,6 @@ dimen
 /
 activity_stream_base_margin
 "
-android
-:
-layout_gravity
-=
-"
-center
-"
 tools
 :
 background
