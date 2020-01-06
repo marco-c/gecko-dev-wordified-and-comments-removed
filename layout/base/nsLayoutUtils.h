@@ -5026,6 +5026,12 @@ IsTextAlignUnsafeValueEnabled
 ;
 static
 bool
+IsInterCharacterRubyEnabled
+(
+)
+;
+static
+bool
 InterruptibleReflowEnabled
 (
 )
