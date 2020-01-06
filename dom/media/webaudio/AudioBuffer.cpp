@@ -913,14 +913,6 @@ forget
 ;
 mSharedChannels
 .
-mVolume
-=
-1
-.
-0f
-;
-mSharedChannels
-.
 mBufferFormat
 =
 AUDIO_FORMAT_FLOAT32

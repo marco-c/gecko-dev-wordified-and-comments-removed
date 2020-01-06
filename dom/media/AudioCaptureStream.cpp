@@ -845,14 +845,6 @@ aFormat
 ;
 chunk
 .
-mVolume
-=
-1
-.
-0f
-;
-chunk
-.
 mChannelData
 .
 SetLength
