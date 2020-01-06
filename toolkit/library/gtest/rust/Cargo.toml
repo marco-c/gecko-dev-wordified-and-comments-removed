@@ -293,9 +293,6 @@ opt
 level
 =
 1
-debug
-=
-true
 rpath
 =
 false
@@ -327,9 +324,6 @@ opt
 level
 =
 2
-debug
-=
-true
 rpath
 =
 false
