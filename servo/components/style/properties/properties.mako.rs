@@ -17397,7 +17397,7 @@ map
 |
 map
 .
-get_computed_value
+get
 (
 name
 )
