@@ -4107,15 +4107,7 @@ StructuredCloneScope
 SameProcessDifferentThread
 )
 ;
-RefPtr
-<
-JS
-:
-:
-WasmModule
->
-wasmModule
-=
+return
 aHolder
 -
 >
@@ -4125,9 +4117,6 @@ WasmModules
 [
 aIndex
 ]
-;
-return
-wasmModule
 -
 >
 createObject
