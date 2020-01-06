@@ -1151,6 +1151,12 @@ spidermonkey
 mozjs
 -
 crate
+or
+spidermonkey
+-
+rust
+-
+bindings
 *
 toolchain
 -

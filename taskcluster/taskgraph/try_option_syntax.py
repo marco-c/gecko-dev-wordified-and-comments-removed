@@ -1327,6 +1327,14 @@ sm
 -
 fuzzing
 '
+        
+'
+sm
+-
+rust
+-
+bindings
+'
     
 ]
 }
