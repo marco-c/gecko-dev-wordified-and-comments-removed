@@ -1869,6 +1869,15 @@ js
 :
 ActiveThreadData
 <
+JSRealmNameCallback
+>
+realmNameCallback
+;
+js
+:
+:
+ActiveThreadData
+<
 JSExternalStringSizeofCallback
 >
 externalStringSizeofCallback

@@ -594,6 +594,10 @@ compartmentNameCallback
 (
 nullptr
 )
+realmNameCallback
+(
+nullptr
+)
 externalStringSizeofCallback
 (
 nullptr
