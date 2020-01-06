@@ -451,8 +451,12 @@ CallbackObject
 (
 )
 {
+mozilla
+:
+:
 DropJSObjects
 (
+this
 )
 ;
 }
@@ -588,7 +592,7 @@ JSObjectsDropper
 mHolder
 -
 >
-DropJSObjects
+ClearJSObjects
 (
 )
 ;
@@ -731,7 +735,7 @@ delete
 protected
 :
 void
-DropJSObjects
+ClearJSObjects
 (
 )
 {
@@ -748,14 +752,6 @@ mCallback
 {
 ClearJSReferences
 (
-)
-;
-mozilla
-:
-:
-DropJSObjects
-(
-this
 )
 ;
 }
