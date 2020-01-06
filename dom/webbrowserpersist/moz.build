@@ -165,7 +165,7 @@ PWebBrowserPersistSerialize
 ipdl
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
