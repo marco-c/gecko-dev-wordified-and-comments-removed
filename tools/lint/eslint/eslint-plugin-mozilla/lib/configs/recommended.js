@@ -303,6 +303,15 @@ false
 }
 ]
 "
+comma
+-
+style
+"
+:
+"
+error
+"
+"
 complexity
 "
 :

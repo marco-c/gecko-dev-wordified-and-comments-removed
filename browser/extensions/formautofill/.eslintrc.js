@@ -191,15 +191,6 @@ never
 "
 ]
 "
-comma
--
-style
-"
-:
-"
-error
-"
-"
 curly
 "
 :

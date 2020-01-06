@@ -262,15 +262,6 @@ never
 "
 ]
 "
-comma
--
-style
-"
-:
-"
-error
-"
-"
 consistent
 -
 return

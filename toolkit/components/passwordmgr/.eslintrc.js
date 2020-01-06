@@ -14,15 +14,6 @@ rules
 :
 {
 "
-comma
--
-style
-"
-:
-"
-error
-"
-"
 complexity
 "
 :
