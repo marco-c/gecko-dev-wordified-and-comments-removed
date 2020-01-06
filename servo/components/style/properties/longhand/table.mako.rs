@@ -132,8 +132,9 @@ animation_value_type
 "
 none
 "
-internal
+enabled_in
 =
-True
+"
+"
 )
 }

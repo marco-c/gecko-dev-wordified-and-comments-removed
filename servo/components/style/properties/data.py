@@ -1153,13 +1153,16 @@ None
 gecko_pref
 =
 None
-internal
-=
-False
                  
+enabled_in
+=
+"
+content
+"
 need_index
 =
 False
+                 
 custom_cascade_function
 =
 None
@@ -1310,11 +1313,28 @@ custom_cascade
 else
 None
         
+assert
+enabled_in
+in
+[
+"
+"
+"
+ua
+"
+"
+chrome
+"
+"
+content
+"
+]
+        
 self
 .
-internal
+enabled_in
 =
-internal
+enabled_in
         
 self
 .
@@ -1611,7 +1631,16 @@ self
 return
 self
 .
-internal
+enabled_in
+in
+[
+"
+ua
+"
+"
+chrome
+"
+]
     
 def
 explicitly_enabled_in_chrome
@@ -1621,7 +1650,31 @@ self
 :
         
 return
-False
+self
+.
+enabled_in
+=
+=
+"
+chrome
+"
+    
+def
+enabled_in_content
+(
+self
+)
+:
+        
+return
+self
+.
+enabled_in
+=
+=
+"
+content
+"
 class
 Shorthand
 (
@@ -1645,9 +1698,11 @@ gecko_pref
 =
 None
                  
-internal
+enabled_in
 =
-False
+"
+content
+"
                  
 allowed_in_keyframe_block
 =
@@ -1745,11 +1800,28 @@ sub_properties
 =
 sub_properties
         
+assert
+enabled_in
+in
+[
+"
+"
+"
+ua
+"
+"
+chrome
+"
+"
+content
+"
+]
+        
 self
 .
-internal
+enabled_in
 =
-internal
+enabled_in
         
 self
 .
@@ -1945,7 +2017,16 @@ self
 return
 self
 .
-internal
+enabled_in
+in
+[
+"
+ua
+"
+"
+chrome
+"
+]
     
 def
 explicitly_enabled_in_chrome
@@ -1955,7 +2036,31 @@ self
 :
         
 return
-False
+self
+.
+enabled_in
+=
+=
+"
+chrome
+"
+    
+def
+enabled_in_content
+(
+self
+)
+:
+        
+return
+self
+.
+enabled_in
+=
+=
+"
+content
+"
 class
 Alias
 (
@@ -2000,11 +2105,11 @@ ident
         
 self
 .
-internal
+enabled_in
 =
 original
 .
-internal
+enabled_in
         
 self
 .
@@ -2081,7 +2186,16 @@ self
 return
 self
 .
-internal
+enabled_in
+in
+[
+"
+ua
+"
+"
+chrome
+"
+]
     
 def
 explicitly_enabled_in_chrome
@@ -2091,7 +2205,31 @@ self
 :
         
 return
-False
+self
+.
+enabled_in
+=
+=
+"
+chrome
+"
+    
+def
+enabled_in_content
+(
+self
+)
+:
+        
+return
+self
+.
+enabled_in
+=
+=
+"
+content
+"
 class
 Method
 (
