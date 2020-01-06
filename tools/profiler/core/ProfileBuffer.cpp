@@ -84,7 +84,7 @@ void
 ProfileBuffer
 :
 :
-addEntry
+AddEntry
 (
 const
 ProfileBufferEntry
@@ -159,7 +159,7 @@ void
 ProfileBuffer
 :
 :
-addThreadIdEntry
+AddThreadIdEntry
 (
 int
 aThreadId
@@ -188,7 +188,7 @@ mPos
 mWritePos
 ;
 }
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -204,7 +204,7 @@ void
 ProfileBuffer
 :
 :
-addDynamicStringEntry
+AddDynamicStringEntry
 (
 const
 char
@@ -288,7 +288,7 @@ ProfileBufferEntry
 :
 kNumChars
 ;
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -305,7 +305,7 @@ void
 ProfileBuffer
 :
 :
-addStoredMarker
+AddStoredMarker
 (
 ProfilerMarker
 *
@@ -332,7 +332,7 @@ void
 ProfileBuffer
 :
 :
-deleteExpiredStoredMarkers
+DeleteExpiredStoredMarkers
 (
 )
 {
@@ -376,7 +376,7 @@ void
 ProfileBuffer
 :
 :
-reset
+Reset
 (
 )
 {

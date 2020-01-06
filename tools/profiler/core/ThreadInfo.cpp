@@ -984,7 +984,7 @@ CopyData
 aBuffer
 -
 >
-reset
+Reset
 (
 )
 ;

@@ -95,7 +95,7 @@ mPos
 }
 ;
 void
-addEntry
+AddEntry
 (
 const
 ProfileBufferEntry
@@ -104,7 +104,7 @@ aEntry
 )
 ;
 void
-addThreadIdEntry
+AddThreadIdEntry
 (
 int
 aThreadId
@@ -116,7 +116,7 @@ nullptr
 )
 ;
 void
-addDynamicStringEntry
+AddDynamicStringEntry
 (
 const
 char
@@ -189,7 +189,7 @@ aLS
 )
 ;
 void
-addStoredMarker
+AddStoredMarker
 (
 ProfilerMarker
 *
@@ -197,12 +197,12 @@ aStoredMarker
 )
 ;
 void
-deleteExpiredStoredMarkers
+DeleteExpiredStoredMarkers
 (
 )
 ;
 void
-reset
+Reset
 (
 )
 ;

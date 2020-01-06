@@ -4041,7 +4041,7 @@ mInt
 aThreadId
 )
 ;
-addThreadIdEntry
+AddThreadIdEntry
 (
 aThreadId
 &
@@ -4110,7 +4110,7 @@ Kind
 :
 Time
 :
-addEntry
+AddEntry
 (
 ProfileBufferEntry
 :
@@ -4149,7 +4149,7 @@ break
 ;
 default
 :
-addEntry
+AddEntry
 (
 mEntries
 [
