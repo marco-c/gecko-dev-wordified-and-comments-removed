@@ -818,14 +818,12 @@ bool
 aNotify
 )
 ;
-virtual
 DeclarationBlock
 *
 GetSMILOverrideStyleDeclaration
 (
 )
 ;
-virtual
 nsresult
 SetSMILOverrideStyleDeclaration
 (
