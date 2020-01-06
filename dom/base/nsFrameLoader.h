@@ -656,6 +656,17 @@ aRv
 )
 ;
 void
+RequestUpdatePosition
+(
+mozilla
+:
+:
+ErrorResult
+&
+aRv
+)
+;
+void
 Print
 (
 uint64_t
