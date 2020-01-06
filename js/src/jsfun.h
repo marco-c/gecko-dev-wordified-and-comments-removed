@@ -1124,16 +1124,6 @@ return
 isArrow
 (
 )
-|
-|
-nonLazyScript
-(
-)
--
->
-isGeneratorExp
-(
-)
 ;
 }
 bool

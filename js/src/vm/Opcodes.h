@@ -3807,14 +3807,14 @@ JOF_INVOKE
 \
 macro
 (
-JSOP_ARRAYPUSH
+JSOP_UNUSED206
 206
 "
-arraypush
+unused206
 "
 NULL
 1
-2
+0
 0
 JOF_BYTE
 )

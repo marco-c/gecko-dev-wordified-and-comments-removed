@@ -564,17 +564,6 @@ true
 ;
 }
 case
-PNK_ARRAYPUSH
-:
-*
-result
-=
-false
-;
-return
-true
-;
-case
 PNK_TRY
 :
 {
@@ -818,9 +807,6 @@ result
 ;
 case
 PNK_FOR
-:
-case
-PNK_COMPREHENSIONFOR
 :
 {
 MOZ_ASSERT
@@ -1361,12 +1347,6 @@ case
 PNK_GENERATOR
 :
 case
-PNK_GENEXP
-:
-case
-PNK_ARRAYCOMP
-:
-case
 PNK_PARAMSBODY
 :
 case
@@ -1747,15 +1727,6 @@ isKind
 (
 PNK_FUNCTION
 )
-|
-|
-node
--
->
-isKind
-(
-PNK_GENEXP
-)
 ;
 }
 enum
@@ -1844,9 +1815,6 @@ PNK_TRUE
 case
 PNK_FUNCTION
 :
-case
-PNK_GENEXP
-:
 return
 Truthy
 ;
@@ -1923,8 +1891,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 ;
 static
@@ -1945,8 +1911,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 if
@@ -1957,7 +1921,6 @@ Fold
 cx
 nodePtr
 parser
-inGenexpLambda
 )
 )
 return
@@ -2067,8 +2030,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -2112,7 +2073,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -2316,8 +2276,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -2361,7 +2319,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -2428,8 +2385,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -2487,7 +2442,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -2552,8 +2506,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -2626,7 +2578,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -2673,8 +2624,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -2718,7 +2667,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -2903,8 +2851,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -2976,7 +2922,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -3144,8 +3089,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -3234,7 +3177,6 @@ cx
 &
 target
 parser
-inGenexpLambda
 )
 )
 return
@@ -3280,8 +3222,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 ParseNode
@@ -3354,7 +3294,6 @@ Fold
 cx
 elem
 parser
-inGenexpLambda
 )
 )
 return
@@ -3643,8 +3582,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 ParseNode
@@ -3712,7 +3649,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -3737,7 +3673,6 @@ cx
 &
 ifTruthy
 parser
-inGenexpLambda
 )
 )
 return
@@ -3781,7 +3716,6 @@ cx
 &
 ifFalsy
 parser
-inGenexpLambda
 )
 )
 return
@@ -3900,8 +3834,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 ParseNode
@@ -3969,7 +3901,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -3994,7 +3925,6 @@ cx
 &
 consequent
 parser
-inGenexpLambda
 )
 )
 return
@@ -4043,7 +3973,6 @@ cx
 &
 alternative
 parser
-inGenexpLambda
 )
 )
 return
@@ -4065,9 +3994,6 @@ t
 =
 =
 Unknown
-|
-|
-inGenexpLambda
 )
 continue
 ;
@@ -4280,8 +4206,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -4343,13 +4267,6 @@ cx
 &
 functionBody
 parser
-node
--
->
-pn_funbox
--
->
-isGenexpLambda
 )
 )
 return
@@ -4664,7 +4581,6 @@ cx
 &
 moduleBody
 parser
-false
 )
 ;
 }
@@ -4685,8 +4601,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -4813,7 +4727,6 @@ Fold
 cx
 listp
 parser
-inGenexpLambda
 )
 )
 return
@@ -5086,8 +4999,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -5160,7 +5071,6 @@ Fold
 cx
 listp
 parser
-inGenexpLambda
 )
 )
 return
@@ -5319,8 +5229,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -5371,7 +5279,6 @@ Fold
 cx
 elem
 parser
-inGenexpLambda
 )
 )
 return
@@ -5413,8 +5320,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -5461,7 +5366,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -5489,8 +5393,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -5534,7 +5436,6 @@ cx
 &
 statements
 parser
-inGenexpLambda
 )
 )
 return
@@ -5562,7 +5463,6 @@ cx
 &
 catchList
 parser
-inGenexpLambda
 )
 )
 return
@@ -5591,7 +5491,6 @@ cx
 &
 finally
 parser
-inGenexpLambda
 )
 )
 return
@@ -5619,8 +5518,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -5664,7 +5561,6 @@ cx
 &
 declPattern
 parser
-inGenexpLambda
 )
 )
 return
@@ -5692,7 +5588,6 @@ cx
 &
 cond
 parser
-inGenexpLambda
 )
 )
 return
@@ -5721,7 +5616,6 @@ cx
 &
 statements
 parser
-inGenexpLambda
 )
 )
 return
@@ -5749,8 +5643,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -5797,7 +5689,6 @@ cx
 &
 classNames
 parser
-inGenexpLambda
 )
 )
 return
@@ -5826,7 +5717,6 @@ cx
 &
 heritage
 parser
-inGenexpLambda
 )
 )
 return
@@ -5850,7 +5740,6 @@ cx
 &
 body
 parser
-inGenexpLambda
 )
 ;
 }
@@ -5872,8 +5761,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 ParseNode
@@ -5924,7 +5811,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 )
 return
@@ -5949,7 +5835,6 @@ cx
 &
 key
 parser
-inGenexpLambda
 )
 )
 return
@@ -6206,8 +6091,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 ParseNode
@@ -6258,7 +6141,6 @@ FoldList
 cx
 node
 parser
-inGenexpLambda
 )
 )
 return
@@ -6835,8 +6717,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -6939,7 +6819,6 @@ Fold
 cx
 listp
 parser
-inGenexpLambda
 )
 )
 return
@@ -6981,8 +6860,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -7035,7 +6912,6 @@ node
 >
 pn_kid1
 parser
-inGenexpLambda
 )
 &
 &
@@ -7048,7 +6924,6 @@ node
 >
 pn_kid3
 parser
-inGenexpLambda
 )
 ;
 }
@@ -7069,8 +6944,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -7117,7 +6990,6 @@ cx
 &
 init
 parser
-inGenexpLambda
 )
 )
 return
@@ -7146,7 +7018,6 @@ cx
 &
 test
 parser
-inGenexpLambda
 )
 )
 return
@@ -7198,7 +7069,6 @@ cx
 &
 update
 parser
-inGenexpLambda
 )
 )
 return
@@ -7226,8 +7096,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -7309,7 +7177,6 @@ Fold
 cx
 nested
 parser
-inGenexpLambda
 )
 ;
 }
@@ -7330,8 +7197,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 MOZ_ASSERT
@@ -7377,7 +7242,6 @@ node
 >
 pn_expr
 parser
-inGenexpLambda
 )
 ;
 }
@@ -7398,8 +7262,6 @@ char16_t
 >
 &
 parser
-bool
-inGenexpLambda
 )
 {
 if
@@ -7552,7 +7414,6 @@ FoldTypeOfExpr
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7597,7 +7458,6 @@ FoldDeleteExpr
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7609,7 +7469,6 @@ FoldDeleteElement
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7621,7 +7480,6 @@ FoldDeleteProperty
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7633,7 +7491,6 @@ FoldConditional
 cx
 pnp
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7645,7 +7502,6 @@ FoldIf
 cx
 pnp
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7657,7 +7513,6 @@ FoldNot
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7675,7 +7530,6 @@ FoldUnaryArithmetic
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7696,14 +7550,10 @@ FoldIncrementDecrement
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
 PNK_THROW
-:
-case
-PNK_ARRAYPUSH
 :
 case
 PNK_MUTATEPROTO
@@ -7741,7 +7591,6 @@ pn
 >
 pn_kid
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7768,7 +7617,6 @@ pn
 >
 pn_left
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7807,7 +7655,6 @@ cx
 &
 expr
 parser
-inGenexpLambda
 )
 ;
 return
@@ -7831,7 +7678,6 @@ FoldAndOr
 cx
 pnp
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7843,7 +7689,6 @@ FoldFunction
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7884,7 +7729,6 @@ FoldBinaryArithmetic
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7896,7 +7740,6 @@ FoldExponentiation
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -7951,9 +7794,6 @@ case
 PNK_OBJECT
 :
 case
-PNK_ARRAYCOMP
-:
-case
 PNK_STATEMENTLIST
 :
 case
@@ -7986,16 +7826,12 @@ PNK_EXPORT_SPEC_LIST
 case
 PNK_IMPORT_SPEC_LIST
 :
-case
-PNK_GENEXP
-:
 return
 FoldList
 (
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8083,7 +7919,6 @@ pn
 >
 pn_kid
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8124,7 +7959,6 @@ pn
 >
 pn_kid
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8136,7 +7970,6 @@ FoldReturn
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8148,7 +7981,6 @@ FoldTry
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8160,7 +7992,6 @@ FoldCatch
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8172,7 +8003,6 @@ FoldClass
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8184,7 +8014,6 @@ FoldElement
 cx
 pnp
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8196,7 +8025,6 @@ FoldAdd
 cx
 pnp
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8214,7 +8042,6 @@ FoldCall
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8275,9 +8102,6 @@ case
 PNK_FOR
 :
 case
-PNK_COMPREHENSIONFOR
-:
-case
 PNK_CLASSMETHOD
 :
 case
@@ -8310,7 +8134,6 @@ pn
 >
 pn_left
 parser
-inGenexpLambda
 )
 &
 &
@@ -8323,7 +8146,6 @@ pn
 >
 pn_right
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8407,7 +8229,6 @@ cx
 &
 outerBinding
 parser
-inGenexpLambda
 )
 )
 return
@@ -8424,7 +8245,6 @@ pn
 >
 pn_right
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8451,7 +8271,6 @@ pn
 >
 pn_left
 parser
-inGenexpLambda
 )
 &
 &
@@ -8464,7 +8283,6 @@ pn
 >
 pn_right
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8491,7 +8309,6 @@ pn
 >
 pn_left
 parser
-inGenexpLambda
 )
 &
 &
@@ -8504,7 +8321,6 @@ pn
 >
 pn_right
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8542,7 +8358,6 @@ pn
 >
 pn_left
 parser
-inGenexpLambda
 )
 )
 return
@@ -8559,7 +8374,6 @@ pn
 >
 pn_right
 parser
-inGenexpLambda
 )
 ;
 }
@@ -8587,7 +8401,6 @@ pn
 >
 pn_left
 parser
-inGenexpLambda
 )
 &
 &
@@ -8600,7 +8413,6 @@ pn
 >
 pn_right
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8615,7 +8427,6 @@ FoldForInOrOf
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8627,7 +8438,6 @@ FoldForHead
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8654,7 +8464,6 @@ pn
 >
 pn_expr
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8666,7 +8475,6 @@ FoldDottedProperty
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8710,7 +8518,6 @@ scope
 .
 body
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8722,7 +8529,6 @@ FoldName
 cx
 pn
 parser
-inGenexpLambda
 )
 ;
 case
@@ -8812,7 +8618,6 @@ cx
 pnp
 *
 parser
-false
 )
 ;
 }

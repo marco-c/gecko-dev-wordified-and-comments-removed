@@ -1294,11 +1294,6 @@ uint8_t
 asyncKindBits_
 ;
 bool
-isGenexpLambda
-:
-1
-;
-bool
 hasDestructuringArgs
 :
 1
