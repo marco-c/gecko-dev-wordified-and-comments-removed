@@ -210,13 +210,6 @@ false
 \
 _
 (
-WebRenderDebugFlags
-int32_t
-0
-)
-\
-_
-(
 ScreenDepth
 int32_t
 0
