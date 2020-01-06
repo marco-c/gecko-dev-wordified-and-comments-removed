@@ -904,7 +904,7 @@ nsIChannel
 >
 mChannel
 ;
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
