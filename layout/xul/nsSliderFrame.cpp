@@ -6778,10 +6778,10 @@ if
 (
 isHorizontal
 )
-mState
-|
-=
+AddStateBits
+(
 NS_STATE_IS_HORIZONTAL
+)
 ;
 else
 RemoveStateBits

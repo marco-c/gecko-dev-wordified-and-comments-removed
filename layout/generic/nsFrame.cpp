@@ -3036,9 +3036,8 @@ GetStateBits
 (
 )
 ;
-mState
-|
-=
+AddStateBits
+(
 state
 &
 (
@@ -3051,6 +3050,7 @@ NS_FRAME_MAY_BE_TRANSFORMED
 NS_FRAME_MAY_HAVE_GENERATED_CONTENT
 |
 NS_FRAME_CAN_HAVE_ABSPOS_CHILDREN
+)
 )
 ;
 }
@@ -3085,9 +3085,8 @@ GetStateBits
 (
 )
 ;
-mState
-|
-=
+AddStateBits
+(
 state
 &
 (
@@ -3100,6 +3099,7 @@ NS_FRAME_IS_SVG_TEXT
 NS_FRAME_IN_POPUP
 |
 NS_FRAME_IS_NONDISPLAY
+)
 )
 ;
 if
@@ -3159,10 +3159,10 @@ eCSSProperty_transform
 )
 )
 {
-mState
-|
-=
+AddStateBits
+(
 NS_FRAME_MAY_BE_TRANSFORMED
+)
 ;
 }
 if
@@ -33111,10 +33111,10 @@ returning
 "
 )
 ;
-mState
-|
-=
+AddStateBits
+(
 NS_FRAME_TOO_DEEP_IN_FRAME_TREE
+)
 ;
 ClearOverflowRects
 (

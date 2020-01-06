@@ -185,13 +185,13 @@ GetStateBits
 (
 )
 ;
-mState
-|
-=
+AddStateBits
+(
 state
 &
 (
 NS_FRAME_IN_POPUP
+)
 )
 ;
 }

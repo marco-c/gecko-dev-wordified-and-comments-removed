@@ -140,10 +140,10 @@ aParent
 aPrevInFlow
 )
 ;
-mState
-|
-=
+AddStateBits
+(
 NS_FRAME_REFLOW_ROOT
+)
 ;
 }
 void

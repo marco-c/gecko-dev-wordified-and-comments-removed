@@ -4004,10 +4004,10 @@ isHorizontal
 mOuter
 -
 >
-mState
-|
-=
+AddStateBits
+(
 NS_STATE_IS_HORIZONTAL
+)
 ;
 else
 mOuter
