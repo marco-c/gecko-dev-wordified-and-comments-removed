@@ -99,6 +99,16 @@ mMutex
 aMutex
 ;
 }
+void
+destroy
+(
+)
+{
+mMutex
+=
+NULL
+;
+}
 #
 if
 !
@@ -117,6 +127,8 @@ lock
 (
 )
 {
+:
+:
 sqlite3_mutex_enter
 (
 mMutex
@@ -128,6 +140,8 @@ unlock
 (
 )
 {
+:
+:
 sqlite3_mutex_leave
 (
 mMutex
@@ -153,7 +167,7 @@ lock
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mMutex
 "
@@ -171,6 +185,8 @@ CheckAcquire
 (
 )
 ;
+:
+:
 sqlite3_mutex_enter
 (
 mMutex
@@ -186,7 +202,7 @@ unlock
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mMutex
 "
@@ -204,6 +220,8 @@ Release
 (
 )
 ;
+:
+:
 sqlite3_mutex_leave
 (
 mMutex
@@ -215,7 +233,7 @@ assertCurrentThreadOwns
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mMutex
 "
@@ -229,7 +247,7 @@ wrapper
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 sqlite3_mutex_held
 (
@@ -256,7 +274,7 @@ assertNotCurrentThreadOwns
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mMutex
 "
@@ -270,7 +288,7 @@ wrapper
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 sqlite3_mutex_notheld
 (

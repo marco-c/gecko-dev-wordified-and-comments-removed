@@ -119,6 +119,12 @@ FormHistory
 .
 schemaVersion
 ;
+FormHistory
+.
+shutdown
+(
+)
+;
 let
 dbFile
 =
@@ -186,6 +192,7 @@ asyncClose
 cb
 )
 ;
+return
 cb
 .
 wait

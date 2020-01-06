@@ -411,11 +411,10 @@ given
 ;
 MOZ_ASSERT
 (
-!
 aDBConnection
 -
 >
-isClosed
+isConnectionReadyOnThisThread
 (
 )
 "
@@ -1393,6 +1392,16 @@ srv
 =
 SQLITE_OK
 ;
+{
+MutexAutoLock
+lockedScope
+(
+mDBConnection
+-
+>
+sharedAsyncExecutionMutex
+)
+;
 if
 (
 !
@@ -1401,6 +1410,7 @@ mDBConnection
 >
 isClosed
 (
+lockedScope
 )
 )
 {
@@ -1495,9 +1505,6 @@ mozStorage
 mDBStatement
 )
 ;
-#
-if
-0
 NS_WARNING
 (
 msg
@@ -1507,8 +1514,6 @@ get
 )
 )
 ;
-#
-endif
 MOZ_LOG
 (
 gStorageLog
@@ -1532,6 +1537,7 @@ get
 }
 #
 endif
+}
 mDBStatement
 =
 nullptr

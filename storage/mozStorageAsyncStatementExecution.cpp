@@ -1980,11 +1980,10 @@ Run
 {
 MOZ_ASSERT
 (
-!
 mConnection
 -
 >
-isClosed
+isConnectionReadyOnThisThread
 (
 )
 )
