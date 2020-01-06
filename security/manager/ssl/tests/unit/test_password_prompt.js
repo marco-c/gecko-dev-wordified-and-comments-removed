@@ -47,14 +47,9 @@ text
 "
 Please
 enter
-the
+your
 master
 password
-for
-the
-Software
-Security
-Device
 .
 "
 "
