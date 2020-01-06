@@ -2,6 +2,7 @@ extern
 crate
 heapsize
 ;
+pub
 mod
 alloc
 ;
