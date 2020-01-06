@@ -937,6 +937,12 @@ AnimationPropertySegment
 mozilla
 :
 :
+AnonymousCounterStyle
+"
+"
+mozilla
+:
+:
 ComputedTiming
 "
 "
@@ -2577,6 +2583,12 @@ css
 :
 :
 URLValueData
+"
+"
+mozilla
+:
+:
+AnonymousCounterStyle
 "
 "
 mozilla
