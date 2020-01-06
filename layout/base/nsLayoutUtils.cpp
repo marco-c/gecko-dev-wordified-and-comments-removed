@@ -18326,6 +18326,11 @@ gfxPrefs
 LayoutRetainDisplayList
 (
 )
+&
+&
+XRE_IsContentProcess
+(
+)
 ;
 if
 (
