@@ -4642,6 +4642,17 @@ getEditable
 (
 )
 ;
+if
+(
+editable
+=
+=
+null
+)
+{
+break
+;
+}
 final
 Object
 [
