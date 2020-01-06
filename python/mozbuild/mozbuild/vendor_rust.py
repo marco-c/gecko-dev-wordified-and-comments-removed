@@ -2072,12 +2072,12 @@ rust
             
 (
 '
-mozjs_sys
+js
 '
 '
 js
 /
-src
+rust
 '
 )
             
