@@ -1,16 +1,4 @@
 use
-std
-:
-:
-collections
-:
-:
-{
-TreeMap
-HashMap
-}
-;
-use
 regex
 :
 :
@@ -18,12 +6,6 @@ regex
 Regex
 Captures
 }
-;
-use
-serialize
-:
-:
-json
 ;
 use
 hyper
@@ -45,7 +27,6 @@ command
 :
 {
 WebDriverMessage
-WebDriverCommand
 }
 ;
 use

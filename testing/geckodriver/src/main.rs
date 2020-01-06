@@ -47,12 +47,6 @@ use
 std
 :
 :
-fmt
-;
-use
-std
-:
-:
 io
 :
 :
