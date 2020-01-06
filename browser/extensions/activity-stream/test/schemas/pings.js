@@ -39,7 +39,7 @@ string
 (
 )
 .
-required
+optional
 (
 )
 addon_version
