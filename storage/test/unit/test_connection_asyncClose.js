@@ -71,6 +71,14 @@ REASON_FINISHED
 }
 )
 ;
+if
+(
+!
+AppConstants
+.
+DEBUG
+)
+{
 add_task
 (
 function
@@ -140,6 +148,7 @@ realClosePromise
 }
 )
 ;
+}
 add_task
 (
 function

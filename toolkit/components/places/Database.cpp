@@ -3326,7 +3326,7 @@ rv
 mMainConn
 -
 >
-Close
+SpinningSynchronousClose
 (
 )
 ;

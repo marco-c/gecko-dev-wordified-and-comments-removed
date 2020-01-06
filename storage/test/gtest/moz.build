@@ -125,6 +125,11 @@ test_service_init_background_thread
 cpp
 '
 '
+test_spinningSynchronousClose
+.
+cpp
+'
+'
 test_statement_scoper
 .
 cpp
