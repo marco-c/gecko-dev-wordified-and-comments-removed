@@ -1656,7 +1656,7 @@ ALIGNED16
 aInput
 )
 ;
-float
+uint32_t
 vLength
 =
 (
