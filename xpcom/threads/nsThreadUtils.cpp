@@ -260,12 +260,12 @@ NS_OK
 }
 NS_IMPL_ISUPPORTS_INHERITED
 (
-IncrementalRunnable
+IdleRunnable
 CancelableRunnable
-nsIIncrementalRunnable
+nsIIdleRunnable
 )
 void
-IncrementalRunnable
+IdleRunnable
 :
 :
 SetDeadline

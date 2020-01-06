@@ -175,7 +175,7 @@ nsICancelableRunnable
 h
 '
 '
-nsIIncrementalRunnable
+nsIIdleRunnable
 .
 h
 '

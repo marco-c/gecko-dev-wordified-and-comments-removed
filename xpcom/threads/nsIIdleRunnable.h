@@ -1,9 +1,9 @@
 #
 ifndef
-nsIIncrementalRunnable_h__
+nsIIdleRunnable_h__
 #
 define
-nsIIncrementalRunnable_h__
+nsIIdleRunnable_h__
 #
 include
 "
@@ -22,7 +22,7 @@ h
 "
 #
 define
-NS_IINCREMENTALRUNNABLE_IID
+NS_IIDLERUNNABLE_IID
 \
 {
 0x688be92e
@@ -41,7 +41,7 @@ NS_IINCREMENTALRUNNABLE_IID
 }
 }
 class
-nsIIncrementalRunnable
+nsIIdleRunnable
 :
 public
 nsISupports
@@ -50,7 +50,7 @@ public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
-NS_IINCREMENTALRUNNABLE_IID
+NS_IIDLERUNNABLE_IID
 )
 virtual
 void
@@ -67,14 +67,14 @@ aDeadline
 ;
 protected
 :
-nsIIncrementalRunnable
+nsIIdleRunnable
 (
 )
 {
 }
 virtual
 ~
-nsIIncrementalRunnable
+nsIIdleRunnable
 (
 )
 {
@@ -83,8 +83,8 @@ nsIIncrementalRunnable
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-nsIIncrementalRunnable
-NS_IINCREMENTALRUNNABLE_IID
+nsIIdleRunnable
+NS_IIDLERUNNABLE_IID
 )
 #
 endif
