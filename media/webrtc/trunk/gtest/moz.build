@@ -245,9 +245,6 @@ gtest
 media_libopus
 '
 '
-mozglue
-'
-'
 speex
 '
 '
@@ -6660,11 +6657,14 @@ CXXFLAGS
 wd4312
 '
 ]
-Program
+GeckoProgram
 (
 '
 webrtc
 -
 gtest
 '
+linkage
+=
+None
 )
