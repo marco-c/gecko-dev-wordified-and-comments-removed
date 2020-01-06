@@ -444,6 +444,9 @@ scopes
 "
 addon_parent
 "
+"
+content_child
+"
 ]
 "
 paths
@@ -1142,6 +1145,9 @@ scopes
 "
 :
 [
+"
+content_child
+"
 ]
 }
 "
