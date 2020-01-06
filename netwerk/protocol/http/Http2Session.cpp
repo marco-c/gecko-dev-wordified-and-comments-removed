@@ -2038,6 +2038,14 @@ SetConnection
 this
 )
 ;
+aHttpTransaction
+-
+>
+OnActivated
+(
+true
+)
+;
 if
 (
 aUseTunnel
