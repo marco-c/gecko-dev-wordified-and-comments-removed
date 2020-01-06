@@ -799,6 +799,10 @@ mConnectivityManager
 (
 ConnectivityManager
 )
+getApplicationContext
+(
+)
+.
 getSystemService
 (
 Context
@@ -812,6 +816,10 @@ mWifiLock
 (
 WifiManager
 )
+getApplicationContext
+(
+)
+.
 getSystemService
 (
 Context

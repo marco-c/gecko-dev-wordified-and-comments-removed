@@ -522,6 +522,12 @@ networkError
 false
 ;
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 Override
 public
 boolean
