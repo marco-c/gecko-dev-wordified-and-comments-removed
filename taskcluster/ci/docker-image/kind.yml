@@ -155,16 +155,6 @@ task
 graph
 jobs
 :
-desktop
--
-test
-:
-symbol
-:
-I
-(
-dt
-)
 desktop1604
 -
 test
