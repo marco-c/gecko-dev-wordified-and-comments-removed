@@ -371,7 +371,7 @@ gFakeBuffers
 #
 endif
 class
-Atom
+nsAtom
 final
 :
 public
@@ -382,7 +382,7 @@ public
 static
 already_AddRefed
 <
-Atom
+nsAtom
 >
 CreateDynamic
 (
@@ -398,7 +398,7 @@ return
 dont_AddRef
 (
 new
-Atom
+nsAtom
 (
 aString
 aHash
@@ -407,7 +407,7 @@ aHash
 ;
 }
 static
-Atom
+nsAtom
 *
 CreateStatic
 (
@@ -422,7 +422,7 @@ aHash
 {
 return
 new
-Atom
+nsAtom
 (
 aStringBuffer
 aLength
@@ -458,7 +458,7 @@ aKind
 ;
 private
 :
-Atom
+nsAtom
 (
 const
 nsAString
@@ -690,7 +690,7 @@ forget
 )
 ;
 }
-Atom
+nsAtom
 (
 nsStringBuffer
 *
@@ -845,7 +845,7 @@ storage
 public
 :
 ~
-Atom
+nsAtom
 (
 )
 {
@@ -921,12 +921,12 @@ NS_DECL_OWNINGTHREAD
 ;
 NS_IMPL_QUERY_INTERFACE
 (
-Atom
+nsAtom
 nsIAtom
 )
 ;
 NS_IMETHODIMP
-Atom
+nsAtom
 :
 :
 ToUTF8String
@@ -954,7 +954,7 @@ NS_IMETHODIMP_
 (
 size_t
 )
-Atom
+nsAtom
 :
 :
 SizeOfIncludingThis
@@ -1058,7 +1058,7 @@ return
 return
 static_cast
 <
-Atom
+nsAtom
 *
 >
 (
@@ -1119,7 +1119,7 @@ return
 return
 static_cast
 <
-Atom
+nsAtom
 *
 >
 (
@@ -1367,7 +1367,7 @@ AtomTableEntry
 public
 PLDHashEntryHdr
 {
-Atom
+nsAtom
 *
 MOZ_NON_OWNING_REF
 mAtom
@@ -1534,7 +1534,7 @@ AtomTableEntry
 aEntry
 )
 ;
-Atom
+nsAtom
 *
 atom
 =
@@ -1607,7 +1607,7 @@ define
 RECENTLY_USED_MAIN_THREAD_ATOM_CACHE_SIZE
 31
 static
-Atom
+nsAtom
 *
 sRecentlyUsedMainThreadAtoms
 [
@@ -1618,7 +1618,7 @@ RECENTLY_USED_MAIN_THREAD_ATOM_CACHE_SIZE
 }
 ;
 void
-Atom
+nsAtom
 :
 :
 GCAtomTable
@@ -1651,7 +1651,7 @@ RegularOperation
 }
 }
 void
-Atom
+nsAtom
 :
 :
 GCAtomTableLocked
@@ -1766,7 +1766,7 @@ IsStaticAtom
 continue
 ;
 }
-Atom
+nsAtom
 *
 atom
 =
@@ -1966,7 +1966,7 @@ removedCount
 ;
 }
 MozExternalRefCountType
-Atom
+nsAtom
 :
 :
 DynamicAddRef
@@ -2026,7 +2026,7 @@ kAtomGCThreshold
 #
 endif
 MozExternalRefCountType
-Atom
+nsAtom
 :
 :
 DynamicRelease
@@ -2187,7 +2187,7 @@ ALLOW_MEMMOVE
 true
 }
 ;
-Atom
+nsAtom
 *
 MOZ_OWNING_REF
 mAtom
@@ -2326,13 +2326,13 @@ lock
 gAtomTableLock
 )
 ;
-Atom
+nsAtom
 :
 :
 GCAtomTableLocked
 (
 lock
-Atom
+nsAtom
 :
 :
 GCKind
@@ -2717,7 +2717,7 @@ stringLen
 hash
 )
 ;
-Atom
+nsAtom
 *
 atom
 =
@@ -2780,7 +2780,7 @@ else
 {
 atom
 =
-Atom
+nsAtom
 :
 :
 CreateStatic
@@ -2946,11 +2946,11 @@ str
 ;
 RefPtr
 <
-Atom
+nsAtom
 >
 atom
 =
-Atom
+nsAtom
 :
 :
 CreateDynamic
@@ -3067,11 +3067,11 @@ forget
 }
 RefPtr
 <
-Atom
+nsAtom
 >
 atom
 =
-Atom
+nsAtom
 :
 :
 CreateDynamic
@@ -3147,7 +3147,7 @@ hash
 %
 RECENTLY_USED_MAIN_THREAD_ATOM_CACHE_SIZE
 ;
-Atom
+nsAtom
 *
 atom
 =
@@ -3266,11 +3266,11 @@ else
 {
 RefPtr
 <
-Atom
+nsAtom
 >
 newAtom
 =
-Atom
+nsAtom
 :
 :
 CreateDynamic
@@ -3319,7 +3319,7 @@ NS_GetNumberOfAtoms
 void
 )
 {
-Atom
+nsAtom
 :
 :
 GCAtomTable
