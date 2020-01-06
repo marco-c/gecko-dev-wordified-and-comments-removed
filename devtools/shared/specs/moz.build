@@ -188,6 +188,11 @@ highlighters
 js
 '
 '
+index
+.
+js
+'
+'
 inspector
 .
 js
