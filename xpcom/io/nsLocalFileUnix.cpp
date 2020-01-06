@@ -227,13 +227,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 prproces
 .
 h

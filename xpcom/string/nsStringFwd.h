@@ -112,8 +112,5 @@ nsCStringComparator
 class
 nsDefaultCStringComparator
 ;
-class
-nsXPIDLCString
-;
 #
 endif

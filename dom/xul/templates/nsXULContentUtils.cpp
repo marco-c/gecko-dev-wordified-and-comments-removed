@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

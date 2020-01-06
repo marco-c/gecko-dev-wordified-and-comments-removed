@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsPrimitiveHelpers
 .
 h

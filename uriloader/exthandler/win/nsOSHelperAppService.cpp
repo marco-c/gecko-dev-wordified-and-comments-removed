@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsIURL
 .
 h

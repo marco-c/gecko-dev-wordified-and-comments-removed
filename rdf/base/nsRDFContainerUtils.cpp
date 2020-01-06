@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 plstr
 .
 h

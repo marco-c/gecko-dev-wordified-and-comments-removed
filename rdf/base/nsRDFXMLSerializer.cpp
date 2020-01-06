@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

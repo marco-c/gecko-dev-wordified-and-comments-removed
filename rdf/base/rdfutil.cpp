@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

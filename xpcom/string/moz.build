@@ -229,11 +229,6 @@ nsUTF8Utils
 h
 '
 '
-nsXPIDLString
-.
-h
-'
-'
 string
 -
 template

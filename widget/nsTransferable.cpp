@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsXPIDLString
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceDefs
 .
 h

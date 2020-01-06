@@ -546,7 +546,7 @@ h
 #
 include
 "
-nsXPIDLString
+nsString
 .
 h
 "
