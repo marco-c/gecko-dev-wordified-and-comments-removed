@@ -2258,9 +2258,6 @@ aDestructRoot
 nsFrameList
 *
 aFrames
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 nsIPresShell
@@ -2381,7 +2378,6 @@ child
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

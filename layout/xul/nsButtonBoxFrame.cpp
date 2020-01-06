@@ -333,9 +333,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 mContent
@@ -370,7 +367,6 @@ nsBoxFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

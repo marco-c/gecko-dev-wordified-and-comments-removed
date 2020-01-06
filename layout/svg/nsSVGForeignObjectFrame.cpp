@@ -300,9 +300,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 if
@@ -336,7 +333,6 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

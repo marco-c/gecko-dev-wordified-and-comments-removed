@@ -333,9 +333,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 DeregisterAndCancelImageRequest
@@ -362,7 +359,6 @@ nsFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

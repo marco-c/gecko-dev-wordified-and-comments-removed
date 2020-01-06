@@ -520,9 +520,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 ENSURE_TRUE
@@ -663,7 +660,6 @@ nsHTMLScrollFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

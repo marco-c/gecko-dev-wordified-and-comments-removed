@@ -1022,9 +1022,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 mColGroups
@@ -1032,7 +1029,6 @@ mColGroups
 DestroyFramesFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 nsContainerFrame
@@ -1041,7 +1037,6 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

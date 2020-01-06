@@ -100,9 +100,6 @@ DestroyFrom
 nsIFrame
 *
 aRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 override
 ;

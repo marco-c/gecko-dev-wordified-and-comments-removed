@@ -4007,9 +4007,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 RegUnregAccessKey
@@ -4028,7 +4025,6 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

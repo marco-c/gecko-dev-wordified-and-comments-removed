@@ -285,15 +285,11 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 DestroyAbsoluteFrames
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 mCaptionFrames
@@ -301,7 +297,6 @@ mCaptionFrames
 DestroyFramesFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 nsContainerFrame
@@ -310,7 +305,6 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

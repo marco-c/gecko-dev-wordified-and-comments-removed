@@ -1474,9 +1474,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 if
@@ -1592,7 +1589,6 @@ popupList
 DestroyFramesFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 DestroyPopupList
@@ -1606,7 +1602,6 @@ nsBoxFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

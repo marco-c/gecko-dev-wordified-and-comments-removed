@@ -236,9 +236,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 NS_ASSERTION
@@ -288,9 +285,7 @@ this
 false
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mBarDiv
 .
@@ -305,7 +300,6 @@ nsContainerFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

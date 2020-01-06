@@ -5940,9 +5940,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 if
@@ -6043,12 +6040,9 @@ mPopupFrames
 DestroyFramesFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mDisplayContent
 .
@@ -6057,9 +6051,7 @@ forget
 )
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mButtonContent
 .
@@ -6074,7 +6066,6 @@ nsBlockFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

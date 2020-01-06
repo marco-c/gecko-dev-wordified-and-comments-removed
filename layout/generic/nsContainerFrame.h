@@ -177,9 +177,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 override
 ;
@@ -1002,9 +999,6 @@ DestroyAbsoluteFrames
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 ;
 bool
@@ -1227,9 +1221,6 @@ SafelyDestroyFrameListProp
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 nsIPresShell
 *
 aPresShell

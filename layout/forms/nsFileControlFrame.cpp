@@ -286,9 +286,6 @@ DestroyFrom
 nsIFrame
 *
 aDestructRoot
-PostDestroyData
-&
-aPostDestroyData
 )
 {
 ENSURE_TRUE
@@ -332,9 +329,7 @@ false
 )
 ;
 }
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mTextContent
 .
@@ -343,9 +338,7 @@ forget
 )
 )
 ;
-aPostDestroyData
-.
-AddAnonymousContent
+DestroyAnonymousContent
 (
 mBrowseFilesOrDirs
 .
@@ -367,7 +360,6 @@ nsBlockFrame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }

@@ -216,12 +216,6 @@ DestroyFramesFrom
 nsIFrame
 *
 aDestructRoot
-layout
-:
-:
-PostFrameDestroyData
-&
-aPostDestroyData
 )
 {
 NS_PRECONDITION
@@ -251,7 +245,6 @@ frame
 DestroyFrom
 (
 aDestructRoot
-aPostDestroyData
 )
 ;
 }
