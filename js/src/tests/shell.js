@@ -1627,12 +1627,6 @@ PASSED
 !
 "
 ;
-global
-.
-PASSED
-=
-PASSED
-;
 var
 FAILED
 =
@@ -1640,12 +1634,6 @@ FAILED
 FAILED
 !
 "
-;
-global
-.
-FAILED
-=
-FAILED
 ;
 function
 startTest
@@ -1838,8 +1826,6 @@ lastFunc
 funcName
 )
 {
-global
-.
 reportCompare
 (
 funcName
