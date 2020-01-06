@@ -259,6 +259,8 @@ else
 if
 (
 useExclusiveLocking
+(
+)
 )
 {
 MOZ_ASSERT
