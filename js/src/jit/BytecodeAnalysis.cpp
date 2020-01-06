@@ -73,10 +73,6 @@ usesEnvironmentChain_
 (
 false
 )
-hasTryFinally_
-(
-false
-)
 {
 }
 struct
@@ -960,15 +956,6 @@ hasNonSyntacticScope
 )
 )
 usesEnvironmentChain_
-=
-true
-;
-break
-;
-case
-JSOP_FINALLY
-:
-hasTryFinally_
 =
 true
 ;
