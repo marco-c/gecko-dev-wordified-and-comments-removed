@@ -406,13 +406,9 @@ DidSplitNode
 nsIDOMNode
 *
 aExistingRightNode
-int32_t
-aOffset
 nsIDOMNode
 *
 aNewLeftNode
-nsresult
-aResult
 )
 override
 ;
