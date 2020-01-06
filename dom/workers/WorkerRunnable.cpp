@@ -2579,7 +2579,7 @@ HoldWorker
 )
 )
 {
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 ;
@@ -2608,7 +2608,7 @@ ReleaseWorker
 (
 )
 ;
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 ;
@@ -2749,7 +2749,7 @@ mRunnable
 mRunnable
 -
 >
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 ;

@@ -1051,7 +1051,7 @@ aCx
 )
 )
 {
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 ;
@@ -1359,7 +1359,7 @@ nullptr
 ;
 }
 void
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 override

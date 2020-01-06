@@ -853,7 +853,7 @@ RunOnMainThread
 ;
 virtual
 void
-RunBackOnWorkerThread
+RunBackOnWorkerThreadForCleanup
 (
 )
 =
