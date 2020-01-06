@@ -267,6 +267,11 @@ object
 js
 '
 '
+perf
+.
+js
+'
+'
 performance
 -
 recording
