@@ -1238,9 +1238,6 @@ ServoStyleSheet
 :
 GetCssRulesInternal
 (
-ErrorResult
-&
-aRv
 )
 {
 if
@@ -1315,7 +1312,6 @@ aRv
 {
 GetCssRulesInternal
 (
-aRv
 )
 ;
 mozAutoDocUpdate
@@ -1424,7 +1420,6 @@ aRv
 {
 GetCssRulesInternal
 (
-aRv
 )
 ;
 if

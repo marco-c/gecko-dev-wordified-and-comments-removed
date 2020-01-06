@@ -705,9 +705,6 @@ CSSRuleList
 *
 GetCssRulesInternal
 (
-ErrorResult
-&
-aRv
 )
 ;
 uint32_t
