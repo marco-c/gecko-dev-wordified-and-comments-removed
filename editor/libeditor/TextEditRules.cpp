@@ -3662,12 +3662,6 @@ return
 NS_OK
 ;
 }
-AutoTransactionsConserveSelection
-dontChangeMySelection
-(
-textEditor
-)
-;
 nsresult
 rv
 =

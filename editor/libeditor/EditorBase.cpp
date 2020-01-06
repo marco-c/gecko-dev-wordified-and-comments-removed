@@ -10845,12 +10845,6 @@ return
 rv
 ;
 }
-if
-(
-GetShouldTxnSetSelection
-(
-)
-)
 {
 RefPtr
 <
