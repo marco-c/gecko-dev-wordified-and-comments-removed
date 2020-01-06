@@ -137,11 +137,6 @@ nsISAXLocator
 idl
 '
 '
-nsISAXMutableAttributes
-.
-idl
-'
-'
 nsISAXXMLReader
 .
 idl
