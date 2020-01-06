@@ -11676,7 +11676,9 @@ if
 (
 this
 .
-isAudioOnly
+video
+instanceof
+HTMLAudioElement
 )
 {
 if
