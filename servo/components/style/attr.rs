@@ -248,7 +248,7 @@ Dimension
 String
 LengthOrPercentageOrAuto
 )
-Url
+ResolvedUrl
 (
 String
 Option
@@ -1311,10 +1311,11 @@ value
 }
 pub
 fn
-from_url
+from_resolved_url
 (
 base
 :
+&
 ServoUrl
 url
 :
@@ -1342,7 +1343,7 @@ ok
 AttrValue
 :
 :
-Url
+ResolvedUrl
 (
 url
 joined
@@ -1669,7 +1670,7 @@ found
 }
 pub
 fn
-as_url
+as_resolved_url
 (
 &
 self
@@ -1689,7 +1690,7 @@ self
 AttrValue
 :
 :
-Url
+ResolvedUrl
 (
 _
 ref
@@ -1944,7 +1945,7 @@ _
 AttrValue
 :
 :
-Url
+ResolvedUrl
 (
 ref
 value
