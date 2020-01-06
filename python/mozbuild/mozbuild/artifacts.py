@@ -5995,6 +5995,9 @@ f
                 
 continue
             
+try
+:
+                
 fs
 .
 remove
@@ -6003,6 +6006,19 @@ f
 .
 path
 )
+            
+except
+WindowsError
+:
+                
+kept
+.
+append
+(
+f
+)
+                
+continue
             
 self
 .
