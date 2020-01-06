@@ -21385,16 +21385,6 @@ index
 )
 )
 ;
-LDefinition
-tempDef
-=
-LDefinition
-:
-:
-BogusTemp
-(
-)
-;
 LInstruction
 *
 lir
@@ -21442,7 +21432,6 @@ value
 (
 )
 )
-tempDef
 )
 ;
 break
@@ -21478,7 +21467,6 @@ object
 elements
 index
 value
-tempDef
 )
 ;
 break
@@ -21593,16 +21581,6 @@ index
 )
 )
 ;
-LDefinition
-tempDef
-=
-LDefinition
-:
-:
-BogusTemp
-(
-)
-;
 LInstruction
 *
 lir
@@ -21650,7 +21628,6 @@ value
 (
 )
 )
-tempDef
 )
 ;
 break
@@ -21685,7 +21662,6 @@ object
 elements
 index
 value
-tempDef
 )
 ;
 break
