@@ -1239,16 +1239,11 @@ seekTo
 .
 QuadPart
 =
+aEndPos
 -
-static_cast
-<
-int64_t
->
-(
 sizeof
 (
 CLSID
-)
 )
 ;
 return
@@ -1260,7 +1255,7 @@ aStream
 Seek
 (
 seekTo
-STREAM_SEEK_CUR
+STREAM_SEEK_SET
 nullptr
 )
 )
