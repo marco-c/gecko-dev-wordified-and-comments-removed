@@ -43,7 +43,6 @@ generateEnterJIT
 (
 JSContext
 *
-EnterJitType
 )
 {
 MOZ_CRASH
