@@ -15323,7 +15323,10 @@ aBuilder
 CurrentActiveScrolledRoot
 (
 )
-0
+nsDisplayOwnLayerFlags
+:
+:
+eNone
 mozilla
 :
 :
