@@ -475,3 +475,8 @@ google
 -
 breakpad
 /
+tools
+/
+fuzzing
+/
+libfuzzer
