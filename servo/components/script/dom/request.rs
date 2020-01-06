@@ -2328,7 +2328,7 @@ clone
 HeadersInit
 :
 :
-ByteStringMozMap
+StringByteStringRecord
 (
 ref
 init_map
@@ -2348,7 +2348,7 @@ Some
 HeadersInit
 :
 :
-ByteStringMozMap
+StringByteStringRecord
 (
 init_map
 .
@@ -6694,7 +6694,7 @@ clone
 HeadersInit
 :
 :
-ByteStringMozMap
+StringByteStringRecord
 (
 ref
 m
@@ -6704,7 +6704,7 @@ m
 HeadersInit
 :
 :
-ByteStringMozMap
+StringByteStringRecord
 (
 m
 .

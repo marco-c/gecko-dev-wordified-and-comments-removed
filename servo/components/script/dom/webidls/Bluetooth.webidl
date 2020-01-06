@@ -124,8 +124,9 @@ shorts
 to
 BluetoothDataFilters
 .
-MozMap
+record
 <
+DOMString
 BluetoothDataFilterInit
 >
 manufacturerData
@@ -137,8 +138,9 @@ BluetoothServiceUUIDs
 to
 BluetoothDataFilters
 .
-MozMap
+record
 <
+DOMString
 BluetoothDataFilterInit
 >
 serviceData

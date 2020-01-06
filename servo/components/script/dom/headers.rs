@@ -1624,7 +1624,7 @@ Some
 HeadersInit
 :
 :
-ByteStringMozMap
+StringByteStringRecord
 (
 m
 )

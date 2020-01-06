@@ -86,8 +86,9 @@ ByteString
 >
 >
 or
-MozMap
+record
 <
+DOMString
 ByteString
 >
 )
