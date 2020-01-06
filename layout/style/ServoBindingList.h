@@ -1634,6 +1634,8 @@ CSSPseudoElementType
 pseudo_type
 bool
 is_probe
+ServoComputedValuesBorrowedOrNull
+inherited_style
 RawServoStyleSetBorrowed
 set
 )
