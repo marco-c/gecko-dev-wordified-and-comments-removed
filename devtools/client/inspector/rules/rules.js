@@ -327,7 +327,7 @@ const
 {
 createChild
 promiseWarn
-throttle
+debounce
 }
 =
 require
@@ -594,9 +594,9 @@ pageStyle
 ;
 this
 .
-throttle
+debounce
 =
-throttle
+debounce
 ;
 this
 .

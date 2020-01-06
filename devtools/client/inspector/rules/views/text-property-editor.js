@@ -426,7 +426,7 @@ this
 .
 ruleView
 .
-throttle
+debounce
 (
 this
 .

@@ -246,7 +246,7 @@ info
 Waiting
 for
 the
-throttled
+debounced
 previewValue
 to
 apply
@@ -262,7 +262,7 @@ document
 ;
 view
 .
-throttle
+debounce
 .
 flush
 (

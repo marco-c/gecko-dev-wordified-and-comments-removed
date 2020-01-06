@@ -507,7 +507,7 @@ styleWindow
 ;
 ruleView
 .
-throttle
+debounce
 .
 flush
 (

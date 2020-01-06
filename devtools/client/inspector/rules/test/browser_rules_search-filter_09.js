@@ -442,7 +442,7 @@ value
 ;
 view
 .
-throttle
+debounce
 .
 flush
 (
