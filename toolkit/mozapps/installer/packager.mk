@@ -1788,7 +1788,7 @@ call
 py_action
 file_generate
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
@@ -1898,7 +1898,7 @@ call
 py_action
 file_generate
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
