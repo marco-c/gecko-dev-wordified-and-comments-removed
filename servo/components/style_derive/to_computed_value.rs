@@ -199,6 +199,12 @@ binding
 }
 else
 {
+if
+!
+attrs
+.
+ignore_bound
+{
 where_clause
 .
 add_trait_bound
@@ -211,6 +217,7 @@ field
 ty
 )
 ;
+}
 quote
 !
 {
@@ -451,6 +458,9 @@ struct
 ComputedValueAttrs
 {
 clone
+:
+bool
+ignore_bound
 :
 bool
 }

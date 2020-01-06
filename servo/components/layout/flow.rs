@@ -1548,7 +1548,7 @@ transform
 .
 0
 .
-is_none
+is_empty
 (
 )
 {
