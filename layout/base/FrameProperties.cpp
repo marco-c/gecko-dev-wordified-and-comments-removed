@@ -481,13 +481,9 @@ const
 return
 mProperties
 .
-Length
+ShallowSizeOfExcludingThis
 (
-)
-*
-sizeof
-(
-PropertyValue
+aMallocSizeOf
 )
 ;
 }
