@@ -1223,6 +1223,10 @@ config
 taskcluster_nightly
 .
 py
+-
+revision
+=
+GECKO_HEAD_REV
 win64
 -
 nightly
@@ -1273,6 +1277,10 @@ config
 taskcluster_nightly
 .
 py
+-
+revision
+=
+GECKO_HEAD_REV
 default
 :
 [
