@@ -10,7 +10,7 @@ await
 setupPlacesDatabase
 (
 "
-places_v6
+places_outdated
 .
 sqlite
 "
