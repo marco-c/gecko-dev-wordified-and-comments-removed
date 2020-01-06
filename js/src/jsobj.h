@@ -5398,6 +5398,12 @@ jsid
 id
 unsigned
 errorNumber
+const
+char
+*
+details
+=
+nullptr
 )
 ;
 extern
