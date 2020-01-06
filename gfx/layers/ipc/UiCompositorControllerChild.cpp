@@ -753,7 +753,7 @@ Destroy
 nsIThread
 :
 :
-DISPATCH_NORMAL
+DISPATCH_SYNC
 )
 ;
 return
