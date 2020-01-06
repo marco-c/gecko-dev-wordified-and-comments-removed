@@ -4285,6 +4285,13 @@ mInitialized
 =
 true
 ;
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 #
 if
 (
