@@ -123,6 +123,11 @@ ZeroSensor
 )
 override
 ;
+bool
+GetIsHmdPresent
+(
+)
+;
 protected
 :
 virtual
@@ -298,6 +303,9 @@ mTelemetry
 ;
 bool
 mIsPresenting
+;
+bool
+mIsHmdPresent
 ;
 void
 UpdateStageParameters
