@@ -1239,16 +1239,6 @@ LICENSE_FILE_PACKAGE_WHITELIST
 {
             
 '
-gamma
--
-lut
-'
-:
-'
-1f04103e3a61b91343b3f9d2ed2cc8543062917e2cc7d52a739ffe6429ccaf61
-'
-            
-'
 deque
 '
 :
