@@ -16949,6 +16949,8 @@ get_effects
 .
 filter
 .
+0
+.
 is_empty
 (
 )

@@ -281,6 +281,16 @@ use
 self
 :
 :
+effects
+:
+:
+FilterList
+;
+pub
+use
+self
+:
+:
 flex
 :
 :
@@ -507,6 +517,10 @@ calc
 pub
 mod
 color
+;
+pub
+mod
+effects
 ;
 pub
 mod

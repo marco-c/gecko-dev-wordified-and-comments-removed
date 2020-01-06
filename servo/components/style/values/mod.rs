@@ -89,6 +89,10 @@ StyleParseError
 ;
 pub
 mod
+animated
+;
+pub
+mod
 computed
 ;
 pub
