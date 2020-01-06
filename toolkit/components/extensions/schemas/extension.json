@@ -725,13 +725,6 @@ items
 :
 {
 "
-name
-"
-:
-"
-viewGlobals
-"
-"
 type
 "
 :
@@ -832,13 +825,6 @@ optional
 "
 :
 true
-"
-name
-"
-:
-"
-backgroundPageGlobal
-"
 "
 isInstanceOf
 "
