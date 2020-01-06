@@ -36085,6 +36085,9 @@ _DYLD_INFO
 "
 &
 &
+{
+TOOLCHAIN_PREFIX
+}
 dyldinfo
 -
 bind
