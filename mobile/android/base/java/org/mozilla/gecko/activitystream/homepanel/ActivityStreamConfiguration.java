@@ -99,9 +99,6 @@ String
 {
 "
 de
-"
-"
-de
 -
 AT
 "
