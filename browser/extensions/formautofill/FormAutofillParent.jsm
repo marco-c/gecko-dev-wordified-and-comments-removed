@@ -272,15 +272,6 @@ init
 (
 )
 {
-log
-.
-debug
-(
-"
-init
-"
-)
-;
 Services
 .
 obs
