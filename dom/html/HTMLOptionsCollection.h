@@ -200,6 +200,13 @@ aScriptObjectHolder
 public
 :
 virtual
+uint32_t
+Length
+(
+)
+override
+;
+virtual
 Element
 *
 GetElementAt

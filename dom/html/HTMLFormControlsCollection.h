@@ -106,6 +106,13 @@ DropFormReference
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMHTMLCOLLECTION
 virtual
+uint32_t
+Length
+(
+)
+override
+;
+virtual
 Element
 *
 GetElementAt

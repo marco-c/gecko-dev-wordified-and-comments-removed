@@ -212,11 +212,5 @@ nsIDOMHTMLCollection
 :
 nsISupports
 {
-readonly
-attribute
-unsigned
-long
-length
-;
 }
 ;
