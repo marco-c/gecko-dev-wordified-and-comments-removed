@@ -38859,9 +38859,6 @@ nullptr
 }
 private
 :
-nsXPIDLString
-mWindowTarget
-;
 nsXPIDLCString
 mTypeHint
 ;

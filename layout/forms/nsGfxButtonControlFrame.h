@@ -159,7 +159,7 @@ protected
 nsresult
 GetDefaultLabel
 (
-nsXPIDLString
+nsAString
 &
 aLabel
 )
@@ -168,7 +168,7 @@ const
 nsresult
 GetLabel
 (
-nsXPIDLString
+nsString
 &
 aLabel
 )

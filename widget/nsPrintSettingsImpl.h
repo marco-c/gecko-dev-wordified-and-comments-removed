@@ -244,7 +244,7 @@ mDuplex
 int32_t
 mNumCopies
 ;
-nsXPIDLString
+nsString
 mPrinter
 ;
 bool

@@ -32,9 +32,6 @@ nsString
 class
 nsCString
 ;
-class
-nsXPIDLString
-;
 template
 <
 class

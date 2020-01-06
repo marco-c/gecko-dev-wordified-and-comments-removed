@@ -298,7 +298,7 @@ mozilla
 Mutex
 mLock
 ;
-nsXPIDLString
+nsString
 mIDNBlacklist
 ;
 bool

@@ -3984,7 +3984,7 @@ rv
 return
 rv
 ;
-nsXPIDLString
+nsString
 htmlEscSpec
 ;
 htmlEscSpec
