@@ -892,6 +892,7 @@ self
 ip
 port
 remote_test_root
+adb_path
 )
 :
         
@@ -920,6 +921,9 @@ None
 deviceRoot
 =
 remote_test_root
+adbPath
+=
+adb_path
 )
         
 else
@@ -937,6 +941,9 @@ None
 deviceRoot
 =
 remote_test_root
+adbPath
+=
+adb_path
 )
         
 return
@@ -1024,6 +1031,12 @@ kwargs
 [
 "
 remoteTestRoot
+"
+]
+kwargs
+[
+"
+adbPath
 "
 ]
 )
@@ -1737,8 +1750,31 @@ devices
 android_device
 import
 verify_android_device
+get_adb_path
             
 verify_android_device
+(
+self
+)
+            
+if
+not
+params
+[
+'
+adbPath
+'
+]
+:
+                
+params
+[
+'
+adbPath
+'
+]
+=
+get_adb_path
 (
 self
 )

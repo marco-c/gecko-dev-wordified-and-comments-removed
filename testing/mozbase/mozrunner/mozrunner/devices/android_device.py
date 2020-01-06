@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 fileinput
 import
@@ -2078,6 +2073,24 @@ PATH
     
 return
 device_verified
+def
+get_adb_path
+(
+build_obj
+)
+:
+    
+return
+_find_sdk_exe
+(
+build_obj
+.
+substs
+'
+adb
+'
+False
+)
 def
 run_firefox_for_android
 (
@@ -5478,7 +5491,6 @@ verbose_logging
 :
         
 print
-(
 "
 DEBUG
 :
@@ -5487,7 +5499,6 @@ s
 "
 %
 text
-)
 def
 _log_warning
 (
@@ -5496,7 +5507,6 @@ text
 :
     
 print
-(
 "
 WARNING
 :
@@ -5505,7 +5515,6 @@ s
 "
 %
 text
-)
 def
 _log_info
 (
@@ -5514,14 +5523,12 @@ text
 :
     
 print
-(
 "
 %
 s
 "
 %
 text
-)
 def
 _download_file
 (
@@ -5588,7 +5595,6 @@ path
         
 except
 Exception
-as
 e
 :
             
@@ -5695,7 +5701,6 @@ dst_path
         
 except
 Exception
-as
 e
 :
             

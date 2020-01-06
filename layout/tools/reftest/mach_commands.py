@@ -1047,8 +1047,25 @@ devices
 android_device
 import
 grant_runtime_permissions
+get_adb_path
         
 grant_runtime_permissions
+(
+self
+)
+        
+if
+not
+args
+.
+adb_path
+:
+            
+args
+.
+adb_path
+=
+get_adb_path
 (
 self
 )
