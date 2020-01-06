@@ -5841,6 +5841,17 @@ m
 <
 !
 ENTITY
+copyURLCmd
+.
+label
+"
+Copy
+URL
+"
+>
+<
+!
+ENTITY
 emailPageCmd
 .
 label
