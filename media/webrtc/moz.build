@@ -1516,6 +1516,16 @@ validate
 charset
 -
 '
+'
+-
+wd5038
+'
+#
+C5038
+initializer
+list
+order
+warnings
 ]
 if
 CONFIG
