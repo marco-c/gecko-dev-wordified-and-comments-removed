@@ -318,14 +318,6 @@ DOMString
 error
 )
 ;
-/
-/
-Not
-yet
-implemented
-:
-/
-/
 readonly
 attribute
 NodeList

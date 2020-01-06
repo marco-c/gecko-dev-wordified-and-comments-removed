@@ -78,6 +78,9 @@ class
 nsContentList
 ;
 class
+nsLabelsNodeList
+;
+class
 nsDOMAttributeMap
 ;
 class
@@ -992,6 +995,12 @@ RefPtr
 nsDOMTokenList
 >
 mClassList
+;
+RefPtr
+<
+nsLabelsNodeList
+>
+mLabelsList
 ;
 RefPtr
 <

@@ -345,10 +345,6 @@ DOMString
 error
 )
 ;
-/
-/
-NYI
-:
 readonly
 attribute
 NodeList

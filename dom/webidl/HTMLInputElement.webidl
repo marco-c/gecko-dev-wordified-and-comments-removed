@@ -612,13 +612,10 @@ DOMString
 error
 )
 ;
-/
-/
-Bug
-850365
 readonly
 attribute
 NodeList
+?
 labels
 ;
 void
