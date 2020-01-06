@@ -3246,15 +3246,6 @@ svg
 lime
 .
 svg
-skip
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 anim
@@ -3271,9 +3262,6 @@ svg
 lime
 .
 svg
-#
-Bug
-1385089
 #
 Test
 animation
