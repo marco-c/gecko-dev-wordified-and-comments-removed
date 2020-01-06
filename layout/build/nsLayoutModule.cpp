@@ -562,6 +562,17 @@ mozilla
 /
 dom
 /
+SessionStorageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 workers
 /
 ServiceWorkerManager
@@ -1473,7 +1484,7 @@ Exception
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-DOMSessionStorageManager
+SessionStorageManager
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -4541,7 +4552,7 @@ ExceptionConstructor
 kNS_DOMSESSIONSTORAGEMANAGER_CID
 false
 nullptr
-DOMSessionStorageManagerConstructor
+SessionStorageManagerConstructor
 }
 {
 &
