@@ -1598,7 +1598,7 @@ in
 StyleBuilder
 :
 :
-for_inheritance
+for_derived_style
 .
 pub
 fn
