@@ -2101,11 +2101,12 @@ ServoStyleContextBorrowed
 old_style
 ServoStyleContextBorrowed
 new_style
-uint64_t
-old_style_bits
 bool
 *
 any_style_changed
+bool
+*
+reset_only_changed
 )
 ;
 const
