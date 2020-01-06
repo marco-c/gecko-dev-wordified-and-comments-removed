@@ -1745,41 +1745,6 @@ BaseLibrary
 )
         
 if
-isinstance
-(
-obj
-SharedLibrary
-)
-and
-obj
-.
-variant
-=
-=
-obj
-.
-COMPONENT
-:
-            
-raise
-LinkageWrongKindError
-(
-                
-'
-Linkable
-.
-link_library
-(
-)
-does
-not
-take
-components
-.
-'
-)
-        
-if
 obj
 .
 KIND
@@ -3146,13 +3111,9 @@ FRAMEWORK
 =
 1
     
-COMPONENT
-=
-2
-    
 MAX_VARIANT
 =
-3
+2
     
 def
 __init__
