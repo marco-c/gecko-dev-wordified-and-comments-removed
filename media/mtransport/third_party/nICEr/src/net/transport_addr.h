@@ -278,6 +278,17 @@ addr
 )
 ;
 int
+nr_transport_addr_check_compatibility
+(
+nr_transport_addr
+*
+addr1
+nr_transport_addr
+*
+addr2
+)
+;
+int
 nr_transport_addr_copy
 (
 nr_transport_addr
