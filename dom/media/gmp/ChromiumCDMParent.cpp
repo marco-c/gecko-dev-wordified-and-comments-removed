@@ -4640,6 +4640,10 @@ const
 size_t
 bufferSize
 =
+1
+.
+7
+*
 I420FrameBufferSizePadded
 (
 aInfo
