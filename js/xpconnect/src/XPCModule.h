@@ -88,10 +88,15 @@ nsXPConnect
 :
 GetSingleton
 )
-NS_GENERIC_FACTORY_CONSTRUCTOR
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
 mozJSComponentLoader
+mozJSComponentLoader
+:
+:
+GetOrCreate
 )
+;
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 mozJSSubScriptLoader
