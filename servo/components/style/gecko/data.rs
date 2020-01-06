@@ -806,6 +806,9 @@ Option
 E
 >
 )
+-
+>
+bool
 where
 E
 :

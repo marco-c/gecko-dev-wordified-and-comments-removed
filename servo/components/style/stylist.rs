@@ -2213,6 +2213,9 @@ Option
 E
 >
 )
+-
+>
+bool
 where
 E
 :
@@ -2229,6 +2232,7 @@ has_changed
 )
 {
 return
+false
 ;
 }
 let
@@ -2246,6 +2250,7 @@ let
 (
 doc_stylesheets
 origins_to_rebuild
+have_invalidations
 )
 =
 self
@@ -2265,6 +2270,7 @@ is_empty
 )
 {
 return
+have_invalidations
 ;
 }
 self
@@ -2386,6 +2392,7 @@ extra_data
 origins_to_rebuild
 )
 ;
+have_invalidations
 }
 pub
 fn

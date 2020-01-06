@@ -870,6 +870,7 @@ StylesheetIterator
 S
 >
 OriginSet
+bool
 )
 where
 E
@@ -898,6 +899,12 @@ empty
 (
 )
 ;
+let
+mut
+have_invalidations
+=
+false
+;
 for
 (
 data
@@ -917,6 +924,9 @@ data
 .
 dirty
 {
+have_invalidations
+|
+=
 data
 .
 invalidations
@@ -946,6 +956,7 @@ iter
 (
 )
 origins
+have_invalidations
 )
 }
 #
