@@ -3430,7 +3430,7 @@ refBox
 aFrame
 )
 ;
-StyleAnimationValue
+AnimationValue
 baseStyle
 =
 aAnimation
@@ -3468,10 +3468,7 @@ SetAnimatable
 aProperty
 .
 mProperty
-AnimationValue
-(
 baseStyle
-)
 aFrame
 refBox
 animation

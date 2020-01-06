@@ -3179,7 +3179,7 @@ eCSSProperty_transform
 continue
 ;
 }
-StyleAnimationValue
+AnimationValue
 baseStyle
 =
 effect
@@ -3205,10 +3205,7 @@ IsNull
 UpdateMinMaxScale
 (
 aFrame
-AnimationValue
-(
 baseStyle
-)
 aMinScale
 aMaxScale
 )
