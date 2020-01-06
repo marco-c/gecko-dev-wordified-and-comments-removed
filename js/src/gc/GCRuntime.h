@@ -3724,6 +3724,11 @@ AllocKind
 kind
 )
 ;
+void
+startSweepingAtomsTable
+(
+)
+;
 IncrementalProgress
 sweepAtomsTable
 (
