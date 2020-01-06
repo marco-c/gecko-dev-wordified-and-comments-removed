@@ -477,11 +477,6 @@ nsIContentSerializer
 h
 '
 '
-nsIdentifierMapEntry
-.
-h
-'
-'
 nsIDocument
 .
 h
@@ -1785,6 +1780,11 @@ cpp
 '
 '
 Timeout
+.
+cpp
+'
+'
+TimeoutBudgetManager
 .
 cpp
 '
