@@ -1069,6 +1069,8 @@ mNext
 ;
 }
 }
+if
+(
 ShadowRoot
 *
 containingShadow
@@ -1076,10 +1078,6 @@ containingShadow
 GetContainingShadow
 (
 )
-;
-if
-(
-containingShadow
 )
 {
 containingShadow
@@ -1101,6 +1099,8 @@ mSelectorList
 =
 nullptr
 ;
+if
+(
 ShadowRoot
 *
 containingShadow
@@ -1108,10 +1108,6 @@ containingShadow
 GetContainingShadow
 (
 )
-;
-if
-(
-containingShadow
 )
 {
 containingShadow
