@@ -120,9 +120,6 @@ metadata
 PrincipalInfo
 principalInfo
 ;
-bool
-privateBrowsingMode
-;
 }
 ;
 struct
