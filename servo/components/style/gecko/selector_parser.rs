@@ -1143,6 +1143,11 @@ NonTSPseudoClass
 :
 :
 MozIsHTML
+|
+NonTSPseudoClass
+:
+:
+MozPlaceholder
 )
 }
 pub
