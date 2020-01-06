@@ -208,11 +208,6 @@ length
 0
 )
 {
-if
-(
-defaultFont
-)
-{
 var
 bundlePreferences
 =
@@ -226,8 +221,10 @@ bundlePreferences
 )
 ;
 var
-label
+defaultLabel
 =
+defaultFont
+?
 bundlePreferences
 .
 getFormattedString
@@ -238,6 +235,15 @@ labelDefaultFont
 [
 defaultFont
 ]
+)
+:
+bundlePreferences
+.
+getString
+(
+"
+labelDefaultFontUnnamed
+"
 )
 ;
 var
@@ -259,7 +265,7 @@ setAttribute
 "
 label
 "
-label
+defaultLabel
 )
 ;
 menuitem
@@ -298,7 +304,6 @@ appendChild
 separator
 )
 ;
-}
 for
 (
 var
