@@ -303,6 +303,13 @@ prefix
 gcc
 "
 EOF
+cat
+~
+/
+.
+cargo
+/
+config
 }
 #
 Build
