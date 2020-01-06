@@ -2471,7 +2471,6 @@ return
 nullptr
 ;
 }
-const
 ServoStyleSet
 *
 nsXBLPrototypeBinding

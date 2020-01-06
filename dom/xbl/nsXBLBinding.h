@@ -451,7 +451,6 @@ void
 aData
 )
 ;
-const
 mozilla
 :
 :

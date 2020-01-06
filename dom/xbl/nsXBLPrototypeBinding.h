@@ -689,7 +689,6 @@ GetRuleProcessor
 (
 )
 ;
-const
 mozilla
 :
 :
