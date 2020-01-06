@@ -12,6 +12,11 @@ cron
 .
 yml
 -
+python
+/
+mozlint
+/
+-
 taskcluster
 extensions
 :
