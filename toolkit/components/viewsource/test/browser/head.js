@@ -34,6 +34,7 @@ Preferences
 .
 jsm
 "
+this
 )
 ;
 const
