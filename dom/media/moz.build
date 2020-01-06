@@ -1148,11 +1148,6 @@ MediaDecoder
 cpp
 '
 '
-MediaDecoderReaderWrapper
-.
-cpp
-'
-'
 MediaDecoderStateMachine
 .
 cpp
@@ -1254,6 +1249,11 @@ cpp
 '
 '
 QueueObject
+.
+cpp
+'
+'
+ReaderProxy
 .
 cpp
 '

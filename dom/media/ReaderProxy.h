@@ -1,9 +1,9 @@
 #
 ifndef
-MediaDecoderReaderWrapper_h_
+ReaderProxy_h_
 #
 define
-MediaDecoderReaderWrapper_h_
+ReaderProxy_h_
 #
 include
 "
@@ -56,7 +56,7 @@ namespace
 mozilla
 {
 class
-MediaDecoderReaderWrapper
+ReaderProxy
 {
 using
 MetadataPromise
@@ -108,12 +108,12 @@ TrackSet
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-MediaDecoderReaderWrapper
+ReaderProxy
 )
 ;
 public
 :
-MediaDecoderReaderWrapper
+ReaderProxy
 (
 AbstractThread
 *
@@ -394,7 +394,7 @@ aCanonical
 private
 :
 ~
-MediaDecoderReaderWrapper
+ReaderProxy
 (
 )
 ;
@@ -457,7 +457,7 @@ mStartTime
 ;
 WatchManager
 <
-MediaDecoderReaderWrapper
+ReaderProxy
 >
 mWatchManager
 ;

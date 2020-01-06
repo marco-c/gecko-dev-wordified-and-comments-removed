@@ -139,10 +139,10 @@ class
 DecodedStream
 ;
 class
-MediaDecoderReaderWrapper
+OutputStreamManager
 ;
 class
-OutputStreamManager
+ReaderProxy
 ;
 class
 TaskQueue
@@ -1453,7 +1453,7 @@ mMediaSink
 const
 RefPtr
 <
-MediaDecoderReaderWrapper
+ReaderProxy
 >
 mReader
 ;

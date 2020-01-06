@@ -258,13 +258,6 @@ h
 #
 include
 "
-MediaDecoderReaderWrapper
-.
-h
-"
-#
-include
-"
 MediaDecoderStateMachine
 .
 h
@@ -287,6 +280,13 @@ h
 include
 "
 MediaTimer
+.
+h
+"
+#
+include
+"
+ReaderProxy
 .
 h
 "
@@ -1305,7 +1305,7 @@ mMaster
 mResource
 ;
 }
-MediaDecoderReaderWrapper
+ReaderProxy
 *
 Reader
 (
@@ -11938,7 +11938,7 @@ TimeUnit
 mReader
 (
 new
-MediaDecoderReaderWrapper
+ReaderProxy
 (
 mTaskQueue
 aReader
