@@ -1339,6 +1339,8 @@ DEFINED_ON
 (
 arm
 arm64
+mips32
+mips64
 x86_shared
 )
 ;
