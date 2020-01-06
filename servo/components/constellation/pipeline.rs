@@ -365,13 +365,6 @@ url
 :
 ServoUrl
 pub
-title
-:
-Option
-<
-String
->
-pub
 running_animations
 :
 bool
@@ -1371,9 +1364,6 @@ compositor_proxy
 url
 :
 url
-title
-:
-None
 children
 :
 vec
