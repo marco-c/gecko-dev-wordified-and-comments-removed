@@ -1281,9 +1281,12 @@ JSObject
 old
 :
 *
-const
+mut
 JSObject
 )
+-
+>
+usize
 >
 pub
 isCallable
