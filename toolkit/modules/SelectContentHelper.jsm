@@ -198,7 +198,7 @@ aGlobal
 ;
 this
 .
-closedWithEnter
+closedWithClickOn
 =
 false
 ;
@@ -1629,8 +1629,9 @@ value
 ;
 this
 .
-closedWithEnter
+closedWithClickOn
 =
+!
 message
 .
 data
@@ -1674,10 +1675,9 @@ selectedIndex
 ;
 if
 (
-!
 this
 .
-closedWithEnter
+closedWithClickOn
 )
 {
 this
@@ -1782,10 +1782,9 @@ changeEvent
 }
 if
 (
-!
 this
 .
-closedWithEnter
+closedWithClickOn
 )
 {
 this
