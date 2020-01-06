@@ -1837,6 +1837,9 @@ uint32_t
 mParallelSpeculativeConnectLimit
 ;
 bool
+mSpeculativeConnectEnabled
+;
+bool
 mRequestTokenBucketEnabled
 ;
 uint16_t
