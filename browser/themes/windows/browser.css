@@ -3486,6 +3486,9 @@ menupanel
 inc
 .
 css
+%
+ifndef
+MOZ_PHOTON_THEME
 media
 (
 -
@@ -3789,6 +3792,8 @@ rgba
 ;
 }
 }
+%
+endif
 .
 unified
 -
