@@ -2029,6 +2029,9 @@ currentPrincipal
 ;
 RefPtr
 <
+mozilla
+:
+:
 image
 :
 :
