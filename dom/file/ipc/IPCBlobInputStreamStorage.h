@@ -23,7 +23,7 @@ h
 #
 include
 "
-nsISupportsImpl
+nsIObserver
 .
 h
 "
@@ -45,14 +45,14 @@ IPCBlobInputStreamParentCallback
 class
 IPCBlobInputStreamStorage
 final
+:
+public
+nsIObserver
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-IPCBlobInputStreamStorage
-)
-;
+NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_NSIOBSERVER
 static
 void
 Initialize
@@ -76,6 +76,8 @@ const
 nsID
 &
 aID
+uint64_t
+aChildID
 )
 ;
 void
@@ -149,6 +151,9 @@ RefPtr
 IPCBlobInputStreamParentCallback
 >
 mCallback
+;
+uint64_t
+mChildID
 ;
 }
 ;

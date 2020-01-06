@@ -84,6 +84,8 @@ nsIInputStream
 aInputStream
 uint64_t
 aSize
+uint64_t
+aChildID
 nsresult
 *
 aRv

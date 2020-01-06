@@ -150,6 +150,15 @@ PBackgroundParent
 aBackgroundActor
 )
 ;
+static
+uint64_t
+GetChildID
+(
+PBackgroundParent
+*
+aBackgroundActor
+)
+;
 private
 :
 static
