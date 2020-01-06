@@ -2800,14 +2800,7 @@ d
 base
 :
 :
-Process
-:
-:
-Current
-(
-)
-.
-pid
+GetCurrentProcId
 (
 )
 )
