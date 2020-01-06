@@ -767,6 +767,11 @@ return
 }
 if
 (
+oldVersion
+<
+3
+&
+&
 newVersion
 >
 =
@@ -891,6 +896,11 @@ TEXT
 }
 if
 (
+oldVersion
+<
+4
+&
+&
 newVersion
 >
 =
