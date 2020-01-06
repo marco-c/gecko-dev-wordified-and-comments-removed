@@ -451,9 +451,13 @@ radius
 ;
 filter
 :
-invert
+var
 (
-0
+-
+-
+theme
+-
+messageCloseButtonFilter
 )
 ;
 }
