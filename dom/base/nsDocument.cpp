@@ -8388,6 +8388,10 @@ DestroyElementMaps
 nsAutoScriptBlocker
 scriptBlocker
 ;
+InvalidateChildNodes
+(
+)
+;
 for
 (
 uint32_t
@@ -10938,6 +10942,10 @@ MOZ_AUTO_DOC_UPDATE
 this
 UPDATE_CONTENT_MODEL
 true
+)
+;
+InvalidateChildNodes
+(
 )
 ;
 for

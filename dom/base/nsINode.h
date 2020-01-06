@@ -6097,6 +6097,11 @@ mMutationObservers
 nullptr
 ;
 }
+void
+InvalidateChildNodes
+(
+)
+;
 bool
 IsEditableInternal
 (

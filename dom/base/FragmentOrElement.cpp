@@ -6763,6 +6763,13 @@ if
 childCount
 )
 {
+container
+-
+>
+InvalidateChildNodes
+(
+)
+;
 while
 (
 childCount
