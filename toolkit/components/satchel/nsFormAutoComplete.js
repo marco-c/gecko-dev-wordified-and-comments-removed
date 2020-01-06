@@ -379,6 +379,7 @@ clearListeners
 remove
 (
 value
+guid
 )
 {
 this
@@ -399,6 +400,7 @@ this
 .
 inputName
 value
+guid
 }
 )
 ;
@@ -2634,6 +2636,9 @@ remove
 removedEntry
 .
 text
+removedEntry
+.
+guid
 )
 ;
 }
