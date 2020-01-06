@@ -4,6 +4,13 @@ ADTS_DECODER_H_
 #
 define
 ADTS_DECODER_H_
+#
+include
+"
+ChannelMediaDecoder
+.
+h
+"
 namespace
 mozilla
 {
