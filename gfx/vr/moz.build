@@ -137,6 +137,11 @@ VRManager
 .
 h
 '
+'
+VRThread
+.
+h
+'
 ]
 LOCAL_INCLUDES
 +
@@ -217,6 +222,11 @@ cpp
 '
 '
 VRManager
+.
+cpp
+'
+'
+VRThread
 .
 cpp
 '
