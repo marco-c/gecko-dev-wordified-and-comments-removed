@@ -107,11 +107,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIContentFilter
-.
-idl
-'
-'
 nsIDocumentStateListener
 .
 idl
