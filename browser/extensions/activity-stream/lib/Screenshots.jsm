@@ -402,16 +402,6 @@ if
 cache
 .
 fetchingScreenshot
-|
-|
-link
-[
-property
-]
-!
-=
-=
-undefined
 )
 {
 return
@@ -441,6 +431,11 @@ cache
 .
 fetchingScreenshot
 ;
+if
+(
+screenshot
+)
+{
 cache
 .
 updateLink
@@ -454,6 +449,7 @@ onScreenshot
 screenshot
 )
 ;
+}
 }
 }
 ;
