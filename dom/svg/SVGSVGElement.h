@@ -841,11 +841,6 @@ InvalidateTransformNotifyFrame
 (
 )
 ;
-bool
-HasPreserveAspectRatio
-(
-)
-;
 void
 SetImageOverridePreserveAspectRatio
 (
