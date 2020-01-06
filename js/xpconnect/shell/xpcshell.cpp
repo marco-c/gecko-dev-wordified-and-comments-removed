@@ -144,7 +144,7 @@ endif
 setbuf
 (
 stdout
-0
+nullptr
 )
 ;
 #
