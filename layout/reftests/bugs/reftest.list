@@ -16270,7 +16270,7 @@ test
 needs
 reftest
 -
-print
+paged
 )
 .
 existing

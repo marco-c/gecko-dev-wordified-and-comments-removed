@@ -5736,7 +5736,7 @@ true
 on
 them
 .
-Printing
+Pagination
 Tests
 :
 class
@@ -5744,7 +5744,7 @@ class
 "
 reftest
 -
-print
+paged
 "
 =
 =
@@ -5874,7 +5874,7 @@ reftests
 printing
 directory
 for
-printing
+pagination
 reftests
 ;
 however
@@ -5889,7 +5889,7 @@ directory
 You
 can
 put
-printing
+pagination
 reftests
 anywhere
 that
@@ -5902,7 +5902,7 @@ first
 lines
 for
 any
-printing
+pagination
 test
 is
 <
@@ -5917,7 +5917,7 @@ class
 "
 reftest
 -
-print
+paged
 "
 >
 <
@@ -5938,7 +5938,7 @@ style
 The
 reftest
 -
-print
+paged
 class
 on
 the

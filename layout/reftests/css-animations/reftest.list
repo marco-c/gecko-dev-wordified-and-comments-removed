@@ -80,7 +80,7 @@ dynamic
 for
 reftest
 -
-print
+paged
 tests
 .
 Bug
@@ -141,7 +141,7 @@ dynamic
 for
 reftest
 -
-print
+paged
 tests
 .
 Bug
