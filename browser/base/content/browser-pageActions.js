@@ -2662,7 +2662,7 @@ type
 =
 =
 "
-mousedown
+click
 "
 &
 &
