@@ -2043,6 +2043,14 @@ ADDON_MENU_OFFSET
 =
 1000
 ;
+private
+static
+final
+int
+BROWSER_ACTION_MENU_OFFSET
+=
+10000
+;
 public
 static
 final
@@ -9488,7 +9496,7 @@ id
 "
 )
 +
-ADDON_MENU_OFFSET
+BROWSER_ACTION_MENU_OFFSET
 ;
 browserAction
 .
