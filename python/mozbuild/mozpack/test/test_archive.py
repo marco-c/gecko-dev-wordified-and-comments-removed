@@ -32,15 +32,6 @@ create_tar_gz_from_files
 create_tar_bz2_from_files
 )
 from
-mozpack
-.
-files
-import
-(
-    
-GeneratedFile
-)
-from
 mozunit
 import
 main
@@ -165,7 +156,7 @@ b
 '
 file
 %
-02d
+d
 '
 %
 i
@@ -191,7 +182,7 @@ b
 '
 file
 %
-02d
+d
 '
 %
 i
@@ -211,53 +202,13 @@ b
 '
 file
 %
-02d
+d
 '
 %
 i
 ]
 =
 p
-        
-for
-i
-in
-range
-(
-10
-)
-:
-            
-files
-[
-b
-'
-file
-%
-02d
-'
-%
-(
-i
-+
-10
-)
-]
-=
-GeneratedFile
-(
-'
-file
-%
-02d
-'
-%
-(
-i
-+
-10
-)
-)
         
 return
 files
@@ -282,7 +233,7 @@ getmembers
 (
 )
 )
-20
+10
 )
         
 names
@@ -291,7 +242,7 @@ names
 '
 file
 %
-02d
+d
 '
 %
 i
@@ -300,7 +251,7 @@ i
 in
 range
 (
-20
+10
 )
 ]
         
@@ -728,7 +679,7 @@ file_hash
 tp
 )
 '
-01cd314e277f060e98c7de6c8ea57f96b3a2065c
+cd16cee6f13391abd94dfa435d2633b61ed727f1
 '
 )
             
@@ -1009,7 +960,7 @@ file_hash
 gp
 )
 '
-7c4da5adc5088cdf00911d5daf9a67b15de714b7
+acb602239c1aeb625da5e69336775609516d60f5
 '
 )
             
@@ -1126,7 +1077,7 @@ file_hash
 gp
 )
 '
-1cc8b96f0262350977c2e9d61f40a1fa76f35c52
+fd099f96480cc1100f37baa8e89a6b820dbbcbd3
 '
 )
             
@@ -1235,7 +1186,7 @@ file_hash
 bp
 )
 '
-eb5096d2fbb71df7b3d690001a6f2e82a5aad6a7
+1827ad00dfe7acf857b7a1c95ce100361e3f6eea
 '
 )
             
