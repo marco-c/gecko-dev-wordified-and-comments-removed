@@ -4036,11 +4036,11 @@ gradle_dir
 /
 app
 /
-intermediates
+outputs
 /
-res
+apk
 /
-resources
+app
 -
 official
 -
@@ -4048,7 +4048,7 @@ photon
 -
 debug
 .
-ap_
+apk
 gecko
 -
 nodeps
