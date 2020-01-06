@@ -55,4 +55,9 @@ double
 value
 )
 ;
+void
+stop
+(
+)
+;
 }
