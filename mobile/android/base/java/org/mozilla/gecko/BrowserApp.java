@@ -6234,14 +6234,6 @@ restoreLastSelectedTab
 {
 if
 (
-mIgnoreLastSelectedTab
-)
-{
-return
-;
-}
-if
-(
 mLastSelectedTabId
 <
 0
