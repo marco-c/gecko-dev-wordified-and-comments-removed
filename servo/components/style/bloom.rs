@@ -201,8 +201,6 @@ el
 )
 }
 num_hashes
-:
-num_hashes
 }
 }
 }
