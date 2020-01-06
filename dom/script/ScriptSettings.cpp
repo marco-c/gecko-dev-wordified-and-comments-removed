@@ -3019,13 +3019,6 @@ AutoEntryScript
 (
 )
 {
-JS_MaybeGC
-(
-cx
-(
-)
-)
-;
 }
 AutoEntryScript
 :
