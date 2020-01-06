@@ -11887,11 +11887,7 @@ rv
 ;
 mCursor
 =
-nsCursor
-(
--
-1
-)
+eCursorInvalid
 ;
 :
 :
@@ -28595,8 +28591,7 @@ if
 mCursor
 =
 =
--
-1
+eCursorInvalid
 )
 SetCursor
 (

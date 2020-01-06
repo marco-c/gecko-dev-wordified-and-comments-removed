@@ -4320,11 +4320,7 @@ NS_ERROR_FAILURE
 }
 mCursor
 =
-nsCursor
-(
--
-1
-)
+eCursorInvalid
 ;
 mCustomCursor
 =

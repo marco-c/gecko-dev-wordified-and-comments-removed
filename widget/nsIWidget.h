@@ -553,6 +553,11 @@ eCursor_ns_resize
 eCursor_ew_resize
 eCursor_none
 eCursorCount
+eCursorInvalid
+=
+eCursorCount
++
+1
 }
 ;
 enum
