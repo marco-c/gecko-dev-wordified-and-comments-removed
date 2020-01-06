@@ -1031,6 +1031,7 @@ nsAtom
 &
 aChildTag
 )
+const
 override
 ;
 virtual

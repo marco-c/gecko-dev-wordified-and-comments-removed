@@ -15150,6 +15150,7 @@ nsAtom
 &
 aChildTag
 )
+const
 {
 int32_t
 childTagEnum

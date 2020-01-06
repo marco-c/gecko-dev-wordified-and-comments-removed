@@ -815,6 +815,15 @@ Selection
 aSelection
 )
 ;
+bool
+CanContainParagraph
+(
+Element
+&
+aElement
+)
+const
+;
 nsresult
 InsertBRIfNeededInternal
 (
