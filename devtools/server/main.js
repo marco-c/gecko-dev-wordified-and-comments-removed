@@ -1581,9 +1581,6 @@ addBrowserActors
 windowType
 =
 null
-restrictPrivileges
-=
-false
 )
 {
 if
@@ -1613,12 +1610,6 @@ webbrowser
 "
 )
 ;
-if
-(
-!
-restrictPrivileges
-)
-{
 this
 .
 addTabActors
@@ -1695,7 +1686,6 @@ true
 }
 )
 ;
-}
 this
 .
 registerModule
