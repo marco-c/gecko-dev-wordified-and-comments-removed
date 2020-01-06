@@ -4817,6 +4817,10 @@ from
 this
 )
 .
+onBackgroundThread
+(
+)
+.
 withPermissions
 (
 Manifest
@@ -4888,6 +4892,12 @@ String
 aSrc
 )
 {
+ThreadUtils
+.
+assertOnBackgroundThread
+(
+)
+;
 boolean
 isDataURI
 =
