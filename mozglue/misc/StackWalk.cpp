@@ -572,6 +572,14 @@ malloc_logger
 =
 old_malloc_logger
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+gCriticalAddress
+.
+mAddr
+)
+;
 MOZ_ASSERT
 (
 r
