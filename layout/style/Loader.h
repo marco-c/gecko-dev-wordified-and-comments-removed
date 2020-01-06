@@ -747,6 +747,9 @@ const
 nsAString
 &
 aBuffer
+nsIPrincipal
+*
+aTriggeringPrincipal
 uint32_t
 aLineNumber
 const

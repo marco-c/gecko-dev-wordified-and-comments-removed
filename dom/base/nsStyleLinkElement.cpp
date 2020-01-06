@@ -2500,7 +2500,7 @@ thisContent
 NodePrincipal
 (
 )
-nullptr
+triggeringPrincipal
 doc
 -
 >
@@ -2530,6 +2530,7 @@ LoadInlineStyle
 (
 thisContent
 text
+triggeringPrincipal
 mLineNumber
 title
 media
