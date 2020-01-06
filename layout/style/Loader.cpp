@@ -6348,6 +6348,10 @@ nsSyncLoadService
 PushSyncStreamToListener
 (
 stream
+.
+forget
+(
+)
 streamLoader
 channel
 )

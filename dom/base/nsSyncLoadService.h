@@ -85,8 +85,10 @@ static
 nsresult
 PushSyncStreamToListener
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aIn
 nsIStreamListener
 *

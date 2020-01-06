@@ -546,6 +546,10 @@ getter_AddRefs
 bufStream
 )
 inputStream
+.
+forget
+(
+)
 1024
 )
 ;
