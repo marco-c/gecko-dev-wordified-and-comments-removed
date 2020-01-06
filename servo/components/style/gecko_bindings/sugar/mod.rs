@@ -27,6 +27,9 @@ ns_t_array
 mod
 ns_timing_function
 ;
+mod
+origin_flags
+;
 pub
 mod
 ownership

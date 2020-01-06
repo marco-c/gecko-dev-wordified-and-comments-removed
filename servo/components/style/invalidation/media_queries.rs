@@ -165,6 +165,13 @@ MediaRule
 }
 #
 [
+derive
+(
+Debug
+)
+]
+#
+[
 cfg_attr
 (
 feature
