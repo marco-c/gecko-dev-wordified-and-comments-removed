@@ -1475,6 +1475,9 @@ test
 "
 test_group
 "
+"
+group_metadata
+"
 ]
 )
     
@@ -3106,6 +3109,12 @@ self
 state
 .
 test_group
+                                          
+self
+.
+state
+.
+group_metadata
 )
     
 def
@@ -3882,6 +3891,7 @@ running
 (
 test
 test_group
+group_metadata
 )
     
 def
