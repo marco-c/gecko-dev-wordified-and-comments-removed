@@ -4140,6 +4140,14 @@ mPresShell
 IsDestroying
 (
 )
+&
+&
+mFrameElement
+-
+>
+IsInComposedDoc
+(
+)
 )
 {
 mPresShell
