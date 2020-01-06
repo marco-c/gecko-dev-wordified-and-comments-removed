@@ -25,9 +25,6 @@ class
 EditorBase
 ;
 class
-HTMLEditor
-;
-class
 HTMLEditorEventListener
 final
 :

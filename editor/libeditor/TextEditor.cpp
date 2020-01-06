@@ -4771,7 +4771,7 @@ beginViewBatching
 this
 )
 ;
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -4904,7 +4904,7 @@ beginViewBatching
 this
 )
 ;
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -5092,7 +5092,7 @@ aEventMessage
 ePaste
 )
 {
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;

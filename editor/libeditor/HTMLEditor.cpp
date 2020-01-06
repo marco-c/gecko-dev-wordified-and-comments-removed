@@ -5183,7 +5183,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -5480,7 +5480,7 @@ nsAString
 aSourceString
 )
 {
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -6555,7 +6555,7 @@ do_QueryInterface
 aElement
 )
 ;
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -15717,7 +15717,7 @@ SelectAll
 (
 )
 {
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -19435,7 +19435,7 @@ mRules
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;

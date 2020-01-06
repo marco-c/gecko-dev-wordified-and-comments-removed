@@ -795,7 +795,7 @@ nsIDOMEvent
 aDropEvent
 )
 {
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;

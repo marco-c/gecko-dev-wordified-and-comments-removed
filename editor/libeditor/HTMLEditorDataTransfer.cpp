@@ -617,7 +617,7 @@ mRules
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -1038,7 +1038,7 @@ rules
 mRules
 )
 ;
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
@@ -7122,7 +7122,7 @@ return
 NS_OK
 ;
 }
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;

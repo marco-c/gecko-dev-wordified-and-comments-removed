@@ -10057,7 +10057,7 @@ rv
 textEditor
 -
 >
-ForceCompositionEnd
+CommitComposition
 (
 )
 ;
