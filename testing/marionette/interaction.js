@@ -999,7 +999,7 @@ el
 {
 throw
 new
-Error
+TypeError
 (
 "
 XUL
