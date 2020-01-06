@@ -128,7 +128,6 @@ const
 {
 JavaScriptError
 ScriptTimeoutError
-WebDriverError
 }
 =
 Cu
