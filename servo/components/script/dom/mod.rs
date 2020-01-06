@@ -1112,6 +1112,10 @@ ext
 ;
 pub
 mod
+webgl2renderingcontext
+;
+pub
+mod
 webgl_validations
 ;
 pub

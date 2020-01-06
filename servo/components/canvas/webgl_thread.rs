@@ -422,6 +422,7 @@ WebGLMsg
 :
 CreateContext
 (
+version
 size
 attributes
 result_sender
@@ -436,6 +437,7 @@ self
 .
 create_webgl_context
 (
+version
 size
 attributes
 )
@@ -1035,6 +1037,9 @@ create_webgl_context
 &
 mut
 self
+version
+:
+WebGLVersion
 size
 :
 Size2D
@@ -1066,6 +1071,7 @@ gl_factory
 .
 new_shared_context
 (
+version
 size
 attributes
 )
@@ -1099,6 +1105,7 @@ gl_factory
 .
 new_context
 (
+version
 size
 attributes
 )

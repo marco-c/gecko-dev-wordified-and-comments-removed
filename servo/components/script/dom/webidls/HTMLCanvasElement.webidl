@@ -79,6 +79,8 @@ typedef
 CanvasRenderingContext2D
 or
 WebGLRenderingContext
+or
+WebGL2RenderingContext
 )
 RenderingContext
 ;
