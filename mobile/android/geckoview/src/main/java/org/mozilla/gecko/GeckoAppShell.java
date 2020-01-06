@@ -619,6 +619,15 @@ android
 .
 support
 .
+annotation
+.
+Nullable
+;
+import
+android
+.
+support
+.
 v4
 .
 util
@@ -3287,6 +3296,7 @@ static
 void
 setScreenOrientationDelegate
 (
+Nullable
 ScreenOrientationDelegate
 screenOrientationDelegate
 )

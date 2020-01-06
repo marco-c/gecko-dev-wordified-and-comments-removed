@@ -10289,6 +10289,13 @@ apply
 }
 )
 ;
+GeckoAppShell
+.
+setScreenOrientationDelegate
+(
+null
+)
+;
 super
 .
 onPause
