@@ -23,10 +23,6 @@ switch
 statement
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -23,10 +23,6 @@ TITLE
 Comments
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

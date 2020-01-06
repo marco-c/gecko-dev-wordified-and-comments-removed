@@ -34,10 +34,6 @@ SECTION
 TITLE
 )
 ;
-startTest
-(
-)
-;
 OBJECT
 =
 new

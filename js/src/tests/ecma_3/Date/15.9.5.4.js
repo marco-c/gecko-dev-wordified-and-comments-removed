@@ -100,10 +100,6 @@ extractTimeString
 )
 '
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

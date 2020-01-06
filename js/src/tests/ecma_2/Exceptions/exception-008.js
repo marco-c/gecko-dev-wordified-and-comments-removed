@@ -27,10 +27,6 @@ Exceptions
 SyntaxError
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

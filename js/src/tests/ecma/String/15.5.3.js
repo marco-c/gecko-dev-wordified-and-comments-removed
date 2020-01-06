@@ -16,10 +16,6 @@ VERSION
 ECMA_2
 "
 ;
-startTest
-(
-)
-;
 var
 passed
 =

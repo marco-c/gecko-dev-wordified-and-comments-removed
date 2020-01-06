@@ -27,10 +27,6 @@ contain
 HexicdecimalEscapeSequences
 "
 ;
-startTest
-(
-)
-;
 AddRegExpCases
 (
 new

@@ -22,10 +22,6 @@ Line
 Terminators
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

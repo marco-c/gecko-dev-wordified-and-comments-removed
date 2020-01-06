@@ -21,10 +21,6 @@ TITLE
 Identifiers
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

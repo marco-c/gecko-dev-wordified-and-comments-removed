@@ -27,10 +27,6 @@ flags
 )
 "
 ;
-startTest
-(
-)
-;
 RegExp
 .
 prototype

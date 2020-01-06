@@ -5,10 +5,6 @@ VERSION
 ECMA_2
 "
 ;
-startTest
-(
-)
-;
 var
 SECTION
 =

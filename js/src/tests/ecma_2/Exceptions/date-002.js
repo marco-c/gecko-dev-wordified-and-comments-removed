@@ -27,10 +27,6 @@ setTime
 )
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

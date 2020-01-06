@@ -37,10 +37,6 @@ limit
 )
 "
 ;
-startTest
-(
-)
-;
 CompareSplit
 (
 "

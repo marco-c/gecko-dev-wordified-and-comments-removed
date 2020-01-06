@@ -23,10 +23,6 @@ the
 prototype
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

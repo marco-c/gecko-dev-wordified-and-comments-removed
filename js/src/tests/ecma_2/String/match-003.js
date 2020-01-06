@@ -32,10 +32,6 @@ regexp
 )
 "
 ;
-startTest
-(
-)
-;
 re
 =
 /

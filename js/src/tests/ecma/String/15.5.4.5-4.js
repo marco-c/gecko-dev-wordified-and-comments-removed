@@ -5,10 +5,6 @@ VERSION
 0697
 "
 ;
-startTest
-(
-)
-;
 var
 SECTION
 =

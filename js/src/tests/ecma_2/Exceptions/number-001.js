@@ -27,10 +27,6 @@ toString
 )
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -49,10 +49,6 @@ expect
 '
 '
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

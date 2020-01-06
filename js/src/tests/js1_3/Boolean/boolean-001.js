@@ -33,10 +33,6 @@ to
 false
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -27,10 +27,6 @@ Exceptions
 ConstructError
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

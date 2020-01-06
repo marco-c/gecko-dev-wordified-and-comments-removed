@@ -25,10 +25,6 @@ prototype
 valueOf
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

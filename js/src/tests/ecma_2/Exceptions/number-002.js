@@ -27,10 +27,6 @@ valueOf
 )
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

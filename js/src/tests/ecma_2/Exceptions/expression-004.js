@@ -32,10 +32,6 @@ SECTION
 TITLE
 )
 ;
-startTest
-(
-)
-;
 var
 OBJECT
 =

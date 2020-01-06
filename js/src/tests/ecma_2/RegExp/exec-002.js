@@ -30,10 +30,6 @@ string
 )
 "
 ;
-startTest
-(
-)
-;
 AddRegExpCases
 (
 /

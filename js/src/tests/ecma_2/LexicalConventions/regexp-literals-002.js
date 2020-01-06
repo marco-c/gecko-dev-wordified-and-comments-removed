@@ -29,10 +29,6 @@ Expression
 Literals
 "
 ;
-startTest
-(
-)
-;
 AddTestCase
 (
 "

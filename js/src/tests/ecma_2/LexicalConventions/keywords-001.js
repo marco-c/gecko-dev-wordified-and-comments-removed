@@ -18,10 +18,6 @@ TITLE
 Keywords
 "
 ;
-startTest
-(
-)
-;
 var
 result
 =

@@ -21,10 +21,6 @@ TITLE
 Identifiers
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION
@@ -33,10 +29,6 @@ SECTION
 "
 +
 TITLE
-)
-;
-startTest
-(
 )
 ;
 writeHeaderToLog

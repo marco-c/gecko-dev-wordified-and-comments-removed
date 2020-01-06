@@ -26,10 +26,6 @@ RegExp
 )
 "
 ;
-startTest
-(
-)
-;
 RegExp
 .
 prototype

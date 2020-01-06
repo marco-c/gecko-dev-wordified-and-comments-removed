@@ -25,10 +25,6 @@ Semicolon
 Insertion
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

@@ -16,10 +16,6 @@ JS_1
 2
 "
 ;
-startTest
-(
-)
-;
 var
 TITLE
 =

@@ -22,10 +22,6 @@ Inherited
 Values
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

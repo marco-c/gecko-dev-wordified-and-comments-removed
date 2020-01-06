@@ -25,10 +25,6 @@ for
 statement
 "
 ;
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION

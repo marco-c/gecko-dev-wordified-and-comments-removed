@@ -22,10 +22,6 @@ TITLE
 "
 instanceof
 "
-startTest
-(
-)
-;
 writeHeaderToLog
 (
 SECTION
