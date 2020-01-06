@@ -1255,8 +1255,6 @@ aCache
 info
 )
 ;
-return
-;
 }
 bool
 LookupCache

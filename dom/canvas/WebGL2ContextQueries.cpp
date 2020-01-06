@@ -760,8 +760,6 @@ pname
 funcName
 )
 ;
-return
-;
 }
 void
 WebGLContext

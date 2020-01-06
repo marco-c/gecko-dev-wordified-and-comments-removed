@@ -17593,8 +17593,6 @@ forget
 ;
 }
 }
-return
-;
 }
 bool
 nsCSSRuleProcessor

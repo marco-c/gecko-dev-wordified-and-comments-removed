@@ -132,8 +132,6 @@ nsAHttpTransaction
 *
 )
 {
-return
-;
 }
 virtual
 void
@@ -143,8 +141,6 @@ nsAHttpTransaction
 *
 )
 {
-return
-;
 }
 virtual
 void

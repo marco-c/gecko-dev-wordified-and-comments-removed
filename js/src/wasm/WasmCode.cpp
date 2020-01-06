@@ -921,8 +921,6 @@ size
 #
 endif
 }
-return
-;
 }
 UniqueConstCodeSegment
 CodeSegment

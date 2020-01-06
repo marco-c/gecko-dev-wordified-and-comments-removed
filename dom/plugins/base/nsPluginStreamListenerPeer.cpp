@@ -2684,8 +2684,6 @@ numRequests
 =
 requestCnt
 ;
-return
-;
 }
 class
 PluginContextProxy

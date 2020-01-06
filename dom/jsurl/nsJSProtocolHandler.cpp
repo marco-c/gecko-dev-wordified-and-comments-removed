@@ -2966,8 +2966,6 @@ NotifyListener
 )
 ;
 }
-return
-;
 }
 void
 nsJSChannel

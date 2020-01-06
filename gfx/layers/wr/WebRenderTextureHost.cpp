@@ -303,8 +303,6 @@ called
 "
 )
 ;
-return
-;
 }
 bool
 WebRenderTextureHost

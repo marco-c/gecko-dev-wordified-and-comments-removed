@@ -4278,8 +4278,6 @@ mForcePlainText
 =
 true
 ;
-return
-;
 }
 void
 SpdyConnectTransaction

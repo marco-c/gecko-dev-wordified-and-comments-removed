@@ -1040,8 +1040,6 @@ Assign
 mDeviceName
 )
 ;
-return
-;
 }
 void
 MediaEngineWebRTCMicrophoneSource
@@ -1061,8 +1059,6 @@ Assign
 (
 mDeviceUUID
 )
-;
-return
 ;
 }
 uint32_t
@@ -4641,8 +4637,6 @@ audio10ms
 length
 channels
 )
-;
-return
 ;
 }
 void

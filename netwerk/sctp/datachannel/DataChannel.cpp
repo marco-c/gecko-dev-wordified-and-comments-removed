@@ -2961,8 +2961,6 @@ this
 )
 )
 ;
-return
-;
 }
 void
 DataChannelConnection

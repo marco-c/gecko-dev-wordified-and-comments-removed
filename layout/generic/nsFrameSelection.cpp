@@ -2467,8 +2467,6 @@ SchedulePaint
 )
 ;
 }
-return
-;
 }
 nsBidiLevel
 nsFrameSelection

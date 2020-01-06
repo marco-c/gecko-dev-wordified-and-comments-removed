@@ -855,8 +855,6 @@ this
 )
 ;
 }
-return
-;
 }
 void
 SpeechSynthesis

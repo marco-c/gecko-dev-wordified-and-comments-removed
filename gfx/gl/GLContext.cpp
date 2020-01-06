@@ -14891,8 +14891,6 @@ end
 +
 1
 ;
-continue
-;
 }
 nsDependentCSubstring
 substr

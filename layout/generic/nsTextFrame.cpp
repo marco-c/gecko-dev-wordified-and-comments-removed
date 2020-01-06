@@ -23412,8 +23412,6 @@ InlineMinISizeData
 aData
 )
 {
-return
-;
 }
 void
 nsContinuingTextFrame
@@ -23429,8 +23427,6 @@ InlinePrefISizeData
 aData
 )
 {
-return
-;
 }
 #
 if

@@ -1133,8 +1133,6 @@ IsScopedStyleEnabled
 (
 )
 ;
-return
-;
 }
 CORSMode
 SVGStyleElement

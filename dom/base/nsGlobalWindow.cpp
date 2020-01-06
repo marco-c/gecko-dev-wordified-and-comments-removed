@@ -21045,8 +21045,6 @@ set
 nullptr
 )
 ;
-return
-;
 }
 void
 nsGlobalWindow

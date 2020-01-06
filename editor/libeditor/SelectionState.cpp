@@ -1988,8 +1988,6 @@ len
 ;
 }
 }
-return
-;
 }
 nsresult
 RangeUpdater

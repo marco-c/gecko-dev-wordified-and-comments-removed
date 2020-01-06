@@ -598,8 +598,6 @@ stateFull
 stateFree
 )
 ;
-return
-;
 }
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (

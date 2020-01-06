@@ -643,8 +643,6 @@ gInitialized
 =
 true
 ;
-return
-;
 }
 void
 TimeStamp

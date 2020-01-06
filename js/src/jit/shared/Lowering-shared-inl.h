@@ -2117,8 +2117,6 @@ add
 lir
 )
 ;
-return
-;
 }
 static
 inline

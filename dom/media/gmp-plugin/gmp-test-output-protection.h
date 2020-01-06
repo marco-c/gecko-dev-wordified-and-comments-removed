@@ -626,8 +626,6 @@ completed
 "
 )
 ;
-return
-;
 }
 }
 }

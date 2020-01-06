@@ -1371,8 +1371,6 @@ aElementValidity
 )
 ;
 }
-return
-;
 }
 EventStates
 HTMLFieldSetElement

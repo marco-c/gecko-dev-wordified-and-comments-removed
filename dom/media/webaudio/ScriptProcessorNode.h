@@ -430,8 +430,6 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 }
-return
-;
 }
 void
 SetChannelCountModeValue
@@ -463,8 +461,6 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 }
-return
-;
 }
 uint32_t
 BufferSize

@@ -468,8 +468,6 @@ CONTENT_JS_KNOWN_TICK_DELAY_MS
 duration
 )
 ;
-return
-;
 }
 }
 NS_IMPL_ISUPPORTS

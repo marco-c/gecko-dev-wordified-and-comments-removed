@@ -736,8 +736,6 @@ mSuccess
 =
 true
 ;
-return
-;
 }
 template
 <

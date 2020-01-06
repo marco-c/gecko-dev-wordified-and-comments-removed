@@ -12809,8 +12809,6 @@ this
 ;
 }
 }
-return
-;
 }
 nsresult
 nsHttpChannel

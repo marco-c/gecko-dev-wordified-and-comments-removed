@@ -2494,8 +2494,6 @@ return
 ;
 }
 }
-return
-;
 }
 nsresult
 nsXULTooltipListener

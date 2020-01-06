@@ -857,6 +857,4 @@ threadHandle
 =
 nullptr
 ;
-return
-;
 }

@@ -526,8 +526,6 @@ module
 "
 )
 ;
-return
-;
 }
 nsresult
 NS_GetNameAndMessageForDOMNSResult

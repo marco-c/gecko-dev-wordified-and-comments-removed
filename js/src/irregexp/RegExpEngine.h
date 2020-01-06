@@ -3686,8 +3686,6 @@ bool
 not_at_start
 )
 {
-return
-;
 }
 virtual
 bool

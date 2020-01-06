@@ -2496,8 +2496,6 @@ aClipPartsCache
 ;
 }
 }
-return
-;
 }
 static
 void

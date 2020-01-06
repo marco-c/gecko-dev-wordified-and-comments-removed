@@ -2684,8 +2684,6 @@ supported
 "
 )
 ;
-return
-;
 }
 static
 void

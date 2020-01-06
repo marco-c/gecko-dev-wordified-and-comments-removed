@@ -3450,8 +3450,6 @@ canonical
 ;
 }
 }
-return
-;
 }
 void
 nsUrlClassifierUtils

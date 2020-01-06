@@ -1559,8 +1559,6 @@ popFirst
 )
 )
 {
-continue
-;
 }
 }
 Iterator

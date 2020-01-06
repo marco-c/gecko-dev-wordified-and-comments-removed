@@ -6143,8 +6143,6 @@ aValue
 true
 )
 ;
-return
-;
 }
 void
 Element
@@ -12102,8 +12100,6 @@ RemoveFromIdTable
 (
 )
 ;
-return
-;
 }
 void
 Element
@@ -12178,8 +12174,6 @@ ClearHasID
 )
 ;
 }
-return
-;
 }
 EventListenerManager
 *

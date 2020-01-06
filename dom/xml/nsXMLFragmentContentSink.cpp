@@ -945,8 +945,6 @@ bool
 aIgnorePendingSheets
 )
 {
-return
-;
 }
 NS_IMETHODIMP
 nsXMLFragmentContentSink

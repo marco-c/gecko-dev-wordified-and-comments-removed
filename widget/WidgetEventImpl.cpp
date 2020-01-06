@@ -3158,8 +3158,6 @@ AppendElement
 )
 ;
 }
-return
-;
 }
 void
 WidgetKeyboardEvent

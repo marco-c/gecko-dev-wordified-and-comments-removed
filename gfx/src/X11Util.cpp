@@ -167,8 +167,6 @@ aDepth
 =
 0
 ;
-return
-;
 }
 void
 FinishX

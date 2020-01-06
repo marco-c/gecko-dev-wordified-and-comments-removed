@@ -4861,8 +4861,6 @@ return
 ;
 }
 }
-return
-;
 }
 nsresult
 nsPerformanceStatsService

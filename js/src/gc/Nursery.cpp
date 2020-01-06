@@ -1016,8 +1016,6 @@ enable
 )
 )
 ;
-return
-;
 }
 void
 js

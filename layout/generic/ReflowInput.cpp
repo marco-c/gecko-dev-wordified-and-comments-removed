@@ -5543,8 +5543,6 @@ aOutsideBoxSizing
 =
 outside
 ;
-return
-;
 }
 static
 bool

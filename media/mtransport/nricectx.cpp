@@ -5779,6 +5779,4 @@ codeword
 =
 0
 ;
-return
-;
 }

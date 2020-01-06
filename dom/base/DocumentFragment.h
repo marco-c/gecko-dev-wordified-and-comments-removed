@@ -432,8 +432,6 @@ tree
 "
 )
 ;
-return
-;
 }
 virtual
 Element

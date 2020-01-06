@@ -910,6 +910,4 @@ default
 :
 ;
 }
-return
-;
 }

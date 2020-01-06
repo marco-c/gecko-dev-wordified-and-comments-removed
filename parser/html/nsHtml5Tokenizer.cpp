@@ -8698,8 +8698,6 @@ appendCharRefBuf
 c
 )
 ;
-continue
-;
 }
 outer_end
 :
@@ -19919,8 +19917,6 @@ outer
 )
 ;
 }
-continue
-;
 }
 outer_end
 :
@@ -20347,8 +20343,6 @@ tokenHandler
 eof
 (
 )
-;
-return
 ;
 }
 void

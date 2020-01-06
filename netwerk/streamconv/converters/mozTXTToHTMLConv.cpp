@@ -222,8 +222,6 @@ aStringToAppendTo
 ch
 ;
 }
-return
-;
 }
 void
 mozTXTToHTMLConv
@@ -2290,8 +2288,6 @@ temp2
 Length
 (
 )
-;
-return
 ;
 }
 bool

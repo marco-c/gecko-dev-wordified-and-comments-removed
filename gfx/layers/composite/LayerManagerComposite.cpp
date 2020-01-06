@@ -7304,8 +7304,6 @@ EffectBlendMode
 blendMode
 )
 ;
-return
-;
 }
 bool
 LayerManagerComposite

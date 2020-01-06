@@ -919,8 +919,6 @@ setPendingException
 completionException
 )
 ;
-return
-;
 }
 bool
 ForOfIterator

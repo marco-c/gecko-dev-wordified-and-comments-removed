@@ -2390,8 +2390,6 @@ bind
 done
 )
 ;
-return
-;
 }
 void
 CodeGeneratorX86Shared

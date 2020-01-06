@@ -7216,8 +7216,6 @@ order
 ;
 }
 }
-return
-;
 }
 void
 JapaneseContextAnalysis

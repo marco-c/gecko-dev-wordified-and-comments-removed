@@ -667,8 +667,6 @@ css
 "
 )
 ;
-return
-;
 }
 nsGenericDOMDataNode
 *

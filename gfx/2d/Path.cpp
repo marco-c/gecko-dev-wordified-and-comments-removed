@@ -1849,8 +1849,6 @@ aCount
 ;
 }
 }
-return
-;
 }
 void
 FlattenBezier

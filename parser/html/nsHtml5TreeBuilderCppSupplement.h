@@ -5001,8 +5001,6 @@ InitEndPicture
 )
 ;
 }
-return
-;
 }
 void
 nsHtml5TreeBuilder

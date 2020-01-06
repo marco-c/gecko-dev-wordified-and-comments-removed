@@ -274,8 +274,6 @@ n
 stderr
 )
 ;
-return
-;
 }
 #
 ifdef

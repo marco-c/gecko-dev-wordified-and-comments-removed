@@ -3967,8 +3967,6 @@ yet
 "
 )
 ;
-return
-;
 }
 void
 TrackBuffersManager
