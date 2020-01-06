@@ -423,12 +423,14 @@ _ensureInitialized
 {
 if
 (
-!
 this
 .
 _initialized
 )
 {
+return
+;
+}
 this
 .
 _reloadCookies
@@ -482,7 +484,6 @@ _reloadCookies
 }
 )
 ;
-}
 }
 _addCookie
 (
@@ -675,7 +676,7 @@ Services
 .
 cookies
 .
-enumerator
+sessionEnumerator
 ;
 while
 (
