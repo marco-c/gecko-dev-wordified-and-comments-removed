@@ -1364,6 +1364,22 @@ mode
 '
 )
             
+search
+=
+mozpath
+.
+join
+(
+self
+.
+topsrcdir
+p
+)
+[
+1
+:
+]
+            
 for
 path
 f
@@ -1374,9 +1390,22 @@ finder
 .
 find
 (
-p
+search
 )
 :
+                
+path
+=
+path
+[
+len
+(
+self
+.
+topsrcdir
+)
+:
+]
                 
 if
 path
