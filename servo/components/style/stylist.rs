@@ -216,6 +216,12 @@ use
 selectors
 :
 :
+NthIndexCache
+;
+use
+selectors
+:
+:
 attr
 :
 :
@@ -245,7 +251,6 @@ ElementSelectorFlags
 matches_selector
 MatchingContext
 MatchingMode
-NthIndexCache
 }
 ;
 use
