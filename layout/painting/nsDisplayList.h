@@ -14521,6 +14521,12 @@ aOther
 .
 mForceActive
 )
+mWrAnimationId
+(
+aOther
+.
+mWrAnimationId
+)
 {
 MOZ_COUNT_CTOR
 (
