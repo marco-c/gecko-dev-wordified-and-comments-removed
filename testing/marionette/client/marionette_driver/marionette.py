@@ -4993,7 +4993,7 @@ close
 )
     
 def
-wait_for_port
+raise_for_port
 (
 self
 timeout
@@ -5005,16 +5005,16 @@ None
 "
 "
 "
-Wait
-until
-Marionette
-server
-has
-been
-created
-the
-communication
+Raise
 socket
+.
+timeout
+if
+no
+connection
+can
+be
+established
 .
         
 :
@@ -5098,6 +5098,10 @@ seconds
 timeout
 )
         
+connected
+=
+False
+        
 while
 datetime
 .
@@ -5124,8 +5128,7 @@ is_running
 )
 :
                 
-return
-False
+break
             
 sock
 =
@@ -5188,8 +5191,11 @@ in
 data
 :
                     
-return
+connected
+=
 True
+                    
+break
             
 except
 socket
@@ -5239,61 +5245,9 @@ sleep
 poll_interval
 )
         
-return
-False
-    
-def
-raise_for_port
-(
-self
-timeout
-=
-None
-)
-:
-        
-"
-"
-"
-Raise
-socket
-.
-timeout
-if
-no
-connection
-can
-be
-established
-.
-        
-:
-param
-timeout
-:
-Timeout
-in
-seconds
-for
-the
-server
-to
-be
-ready
-.
-        
-"
-"
-"
-        
 if
 not
-self
-.
-wait_for_port
-(
-timeout
-)
+connected
 :
             
 raise

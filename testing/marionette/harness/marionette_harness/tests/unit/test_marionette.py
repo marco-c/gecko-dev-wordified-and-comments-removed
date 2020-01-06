@@ -1,4 +1,6 @@
 import
+socket
+import
 time
 from
 marionette_driver
@@ -126,7 +128,7 @@ folder
 )
     
 def
-test_wait_for_port_non_existing_process
+test_raise_for_port_non_existing_process
 (
 self
 )
@@ -137,7 +139,7 @@ self
 "
 Test
 that
-wait_for_port
+raise_for_port
 doesn
 '
 t
@@ -188,18 +190,19 @@ time
         
 self
 .
-assertFalse
+assertRaises
 (
+socket
+.
+timeout
 self
 .
 marionette
 .
-wait_for_port
-(
+raise_for_port
 timeout
 =
 5
-)
 )
         
 self
@@ -302,27 +305,19 @@ port
             
 self
 .
-assertFalse
+assertRaises
 (
+socket
+.
+timeout
 marionette
 .
-wait_for_port
-(
+raise_for_port
 timeout
 =
 1
 .
 0
-)
-                             
-"
-Unexpected
-connection
-with
-acceptConnections
-=
-false
-"
 )
             
 self
@@ -345,7 +340,7 @@ True
             
 marionette
 .
-wait_for_port
+raise_for_port
 (
 timeout
 =
