@@ -2724,9 +2724,13 @@ mTabChild
 ;
 if
 (
-gfxVars
-:
-:
+mTabChild
+-
+>
+GetCompositorOptions
+(
+)
+.
 UseWebRender
 (
 )
