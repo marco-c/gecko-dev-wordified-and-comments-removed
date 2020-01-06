@@ -30946,6 +30946,12 @@ mFirstResponseSource
 =
 RESPONSE_FROM_NETWORK
 ;
+mAvailableCachedAltDataType
+.
+Truncate
+(
+)
+;
 }
 else
 if
