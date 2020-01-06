@@ -1875,12 +1875,6 @@ length
 ]
 ;
 }
-global
-.
-currentFunc
-=
-currentFunc
-;
 function
 AddTestCase
 (
