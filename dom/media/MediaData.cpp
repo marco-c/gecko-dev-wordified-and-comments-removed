@@ -81,6 +81,15 @@ include
 "
 mozilla
 /
+WindowsVersion
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 D3D11YCbCrImage
@@ -1562,6 +1571,11 @@ if
 XP_WIN
 if
 (
+IsWin8OrLater
+(
+)
+&
+&
 !
 XRE_IsParentProcess
 (
