@@ -4618,10 +4618,10 @@ if
 aOuter
 )
 {
-JSObject
-*
+RootedObject
 inner
-=
+(
+cx
 js
 :
 :
@@ -4629,6 +4629,7 @@ CheckedUnwrap
 (
 src
 false
+)
 )
 ;
 if
