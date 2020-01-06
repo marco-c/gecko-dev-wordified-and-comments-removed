@@ -12,6 +12,14 @@ executables
 /
 target
 /
+*
+*
+/
+*
+.
+rs
+.
+bk
 #
 Remove
 Cargo
