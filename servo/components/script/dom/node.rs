@@ -15769,6 +15769,7 @@ a
 Node
 ]
 }
+ChangeText
 }
 impl
 <
@@ -16185,6 +16186,13 @@ ReplaceAll
 =
 >
 None
+ChildrenMutation
+:
+:
+ChangeText
+=
+>
+None
 }
 }
 pub
@@ -16494,6 +16502,13 @@ ReplaceAll
 .
 .
 }
+=
+>
+None
+ChildrenMutation
+:
+:
+ChangeText
 =
 >
 None
