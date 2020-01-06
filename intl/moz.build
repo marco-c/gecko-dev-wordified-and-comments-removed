@@ -122,6 +122,9 @@ strres
 '
 unicharutil
 '
+'
+l10n
+'
 ]
 DIRS
 +
