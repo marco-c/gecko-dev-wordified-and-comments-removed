@@ -651,6 +651,11 @@ AfterProcessMicrotask
 (
 )
 ;
+void
+IsIdleGCTaskNeeded
+(
+)
+;
 uint32_t
 RecursionDepth
 (
