@@ -220,6 +220,9 @@ smil
 '
 push
 '
+'
+payments
+'
 ]
 DIRS
 +
@@ -437,6 +440,9 @@ worklet
 '
 '
 script
+'
+'
+payments
 '
 ]
 if
