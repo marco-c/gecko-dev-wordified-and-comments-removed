@@ -1782,10 +1782,6 @@ to_object
 )
 )
 .
-ok
-(
-)
-.
 expect
 (
 "
