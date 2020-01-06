@@ -6951,6 +6951,18 @@ present
 '
 )
             
+monitor
+.
+finish
+(
+record_usage
+=
+status
+=
+=
+0
+)
+            
 if
 not
 status
@@ -7290,18 +7302,6 @@ dir
 }
 )
 '
-)
-            
-monitor
-.
-finish
-(
-record_usage
-=
-status
-=
-=
-0
 )
         
 high_finder
