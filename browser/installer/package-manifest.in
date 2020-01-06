@@ -1152,13 +1152,6 @@ RESPATH
 /
 components
 /
-dom_payments
-.
-xpt
-RESPATH
-/
-components
-/
 dom_power
 .
 xpt
