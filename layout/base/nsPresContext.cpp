@@ -6343,6 +6343,14 @@ float
 aDPPX
 )
 {
+if
+(
+aDPPX
+!
+=
+mOverrideDPPX
+)
+{
 mOverrideDPPX
 =
 aDPPX
@@ -6366,6 +6374,7 @@ nsChangeHint
 )
 )
 ;
+}
 }
 }
 gfxSize
