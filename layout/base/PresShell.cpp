@@ -12936,9 +12936,6 @@ FrameConstructor
 (
 )
 ;
-bool
-didReconstruct
-;
 fc
 -
 >
@@ -12946,14 +12943,15 @@ BeginUpdate
 (
 )
 ;
+bool
+didReconstruct
+=
 fc
 -
 >
 DestroyFramesFor
 (
 aElement
-&
-didReconstruct
 )
 ;
 fc
@@ -19509,9 +19507,6 @@ Key
 ;
 }
 }
-bool
-didReconstruct
-;
 mFrameConstructor
 -
 >
@@ -19524,8 +19519,6 @@ nsCSSFrameConstructor
 :
 :
 REMOVE_CONTENT
-&
-didReconstruct
 )
 ;
 if
