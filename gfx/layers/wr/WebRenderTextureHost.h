@@ -213,15 +213,6 @@ GetRGBStride
 (
 )
 ;
-bool
-IsWrappingNativeHandle
-(
-)
-{
-return
-mIsWrappingNativeHandle
-;
-}
 virtual
 void
 GetWRImageKeys
@@ -350,9 +341,6 @@ wr
 :
 ExternalImageId
 mExternalImageId
-;
-bool
-mIsWrappingNativeHandle
 ;
 }
 ;
