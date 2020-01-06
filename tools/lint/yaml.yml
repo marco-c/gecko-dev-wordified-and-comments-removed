@@ -17,15 +17,6 @@ python
 mozlint
 /
 -
-security
-/
-nss
-/
-.
-taskcluster
-.
-yml
--
 taskcluster
 extensions
 :
