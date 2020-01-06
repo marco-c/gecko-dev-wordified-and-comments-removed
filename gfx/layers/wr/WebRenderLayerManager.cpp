@@ -183,6 +183,10 @@ mWebRenderCommandBuilder
 (
 this
 )
+mLastDisplayListSize
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -922,6 +926,7 @@ GetPipeline
 (
 )
 contentSize
+mLastDisplayListSize
 )
 ;
 wr

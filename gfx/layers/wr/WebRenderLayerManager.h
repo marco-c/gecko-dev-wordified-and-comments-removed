@@ -967,6 +967,9 @@ mApzTestData
 WebRenderCommandBuilder
 mWebRenderCommandBuilder
 ;
+size_t
+mLastDisplayListSize
+;
 }
 ;
 }

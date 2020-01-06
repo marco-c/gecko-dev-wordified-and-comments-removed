@@ -2506,6 +2506,8 @@ wr
 LayoutSize
 &
 aContentSize
+size_t
+aCapacity
 )
 :
 mMaskClipCount
@@ -2524,6 +2526,7 @@ wr_state_new
 (
 aId
 aContentSize
+aCapacity
 )
 ;
 }
@@ -4891,7 +4894,7 @@ void
 DisplayListBuilder
 :
 :
-PushShadow
+PushTextShadow
 (
 const
 wr
@@ -4913,12 +4916,12 @@ const
 wr
 :
 :
-Shadow
+TextShadow
 &
 aShadow
 )
 {
-wr_dp_push_shadow
+wr_dp_push_text_shadow
 (
 mWrState
 aRect
@@ -4932,11 +4935,11 @@ void
 DisplayListBuilder
 :
 :
-PopShadow
+PopTextShadow
 (
 )
 {
-wr_dp_pop_shadow
+wr_dp_pop_text_shadow
 (
 mWrState
 )
