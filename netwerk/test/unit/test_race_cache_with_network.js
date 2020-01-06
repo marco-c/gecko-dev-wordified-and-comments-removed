@@ -1034,6 +1034,13 @@ test_triggerNetwork
 0
 )
 ;
+do_execute_soon
+(
+(
+)
+=
+>
+{
 channel
 .
 QueryInterface
@@ -1047,6 +1054,9 @@ nsIRaceCacheWithNetwork
 .
 test_triggerDelayedOpenCacheEntry
 (
+)
+;
+}
 )
 ;
 }
