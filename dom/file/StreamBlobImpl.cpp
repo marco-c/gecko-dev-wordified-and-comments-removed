@@ -159,6 +159,11 @@ mIsDirectory
 (
 false
 )
+mFileId
+(
+-
+1
+)
 {
 mImmutable
 =
@@ -211,6 +216,11 @@ mIsDirectory
 (
 false
 )
+mFileId
+(
+-
+1
+)
 {
 mImmutable
 =
@@ -253,6 +263,11 @@ aInputStream
 mIsDirectory
 (
 false
+)
+mFileId
+(
+-
+1
 )
 {
 mImmutable

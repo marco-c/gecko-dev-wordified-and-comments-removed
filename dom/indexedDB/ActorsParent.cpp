@@ -34013,7 +34013,7 @@ Truncate
 ;
 mIsFile
 =
-false
+true
 ;
 }
 bool
