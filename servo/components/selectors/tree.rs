@@ -14,7 +14,6 @@ matching
 :
 {
 ElementSelectorFlags
-LocalMatchingContext
 MatchingContext
 RelevantLinkStatus
 }
@@ -352,13 +351,7 @@ context
 :
 &
 mut
-LocalMatchingContext
-<
-Self
-:
-:
-Impl
->
+MatchingContext
 relevant_link
 :
 &

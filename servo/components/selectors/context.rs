@@ -174,6 +174,10 @@ Option
 <
 OpaqueElement
 >
+pub
+nesting_level
+:
+usize
 quirks_mode
 :
 QuirksMode
@@ -298,6 +302,9 @@ classes_and_ids_case_sensitivity
 scope_element
 :
 None
+nesting_level
+:
+0
 }
 }
 #
