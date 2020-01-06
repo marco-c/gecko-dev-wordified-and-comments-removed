@@ -65,3 +65,17 @@ experiment
 false
 )
 ;
+pref
+(
+"
+devtools
+.
+onboarding
+.
+telemetry
+.
+logged
+"
+false
+)
+;
