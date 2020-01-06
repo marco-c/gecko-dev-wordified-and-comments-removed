@@ -1093,6 +1093,14 @@ IsBackfaceVisible
 )
 )
 {
+item
+-
+>
+Destroy
+(
+aDisplayListBuilder
+)
+;
 continue
 ;
 }
