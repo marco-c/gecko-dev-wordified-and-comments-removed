@@ -2414,7 +2414,7 @@ l10n
 "
 netmonitor
 .
-commandkey
+commandkey2
 "
 )
 ordinal
