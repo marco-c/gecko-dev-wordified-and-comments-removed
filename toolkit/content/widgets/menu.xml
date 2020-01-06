@@ -1771,7 +1771,7 @@ inherits
 src
 =
 image
-loadingprincipal
+triggeringprincipal
 =
 iconloadingprincipal
 validate

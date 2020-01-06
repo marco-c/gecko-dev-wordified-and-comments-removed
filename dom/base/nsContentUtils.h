@@ -6137,7 +6137,7 @@ aFlags
 ;
 static
 bool
-GetLoadingPrincipalForXULNode
+QueryTriggeringPrincipal
 (
 nsIContent
 *
@@ -6153,7 +6153,7 @@ aTriggeringPrincipal
 ;
 static
 bool
-GetLoadingPrincipalForXULNode
+QueryTriggeringPrincipal
 (
 nsIContent
 *
@@ -6165,7 +6165,7 @@ aTriggeringPrincipal
 )
 {
 return
-GetLoadingPrincipalForXULNode
+QueryTriggeringPrincipal
 (
 aLoadingNode
 nullptr
@@ -6183,7 +6183,7 @@ aLoadingNode
 nsIPrincipal
 *
 *
-aLoadingPrincipal
+aTriggeringPrincipal
 nsContentPolicyType
 &
 aContentPolicyType

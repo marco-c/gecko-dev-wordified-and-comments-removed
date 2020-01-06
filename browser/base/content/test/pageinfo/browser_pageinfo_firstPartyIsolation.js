@@ -333,7 +333,7 @@ preview
 getAttribute
 (
 "
-loadingprincipal
+triggeringprincipal
 "
 )
 ;

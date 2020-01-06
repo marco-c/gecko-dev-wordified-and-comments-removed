@@ -424,7 +424,7 @@ mContent
 (
 aContent
 )
-mLoadingPrincipal
+mTriggeringPrincipal
 (
 aContent
 -
@@ -1340,7 +1340,7 @@ GetContentPolicyTypeForUIImageLoading
 mContent
 getter_AddRefs
 (
-mLoadingPrincipal
+mTriggeringPrincipal
 )
 mContentType
 &
@@ -2024,7 +2024,7 @@ net
 :
 :
 RP_Unset
-mLoadingPrincipal
+mTriggeringPrincipal
 0
 loadGroup
 this

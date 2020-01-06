@@ -135,7 +135,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mLoadingPrincipal
+mTriggeringPrincipal
 ;
 nsContentPolicyType
 mContentType

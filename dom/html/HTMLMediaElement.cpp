@@ -4695,7 +4695,7 @@ setAttrs
 nsContentUtils
 :
 :
-GetLoadingPrincipalForXULNode
+QueryTriggeringPrincipal
 (
 aElement
 aElement

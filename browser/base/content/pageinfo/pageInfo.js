@@ -5305,7 +5305,7 @@ nsISerializationHelper
 )
 ;
 let
-loadingPrincipalStr
+triggeringPrinStr
 =
 serial
 .
@@ -5639,9 +5639,9 @@ newImage
 setAttribute
 (
 "
-loadingprincipal
+triggeringprincipal
 "
-loadingPrincipalStr
+triggeringPrinStr
 )
 ;
 newImage
@@ -5706,9 +5706,9 @@ newImage
 setAttribute
 (
 "
-loadingprincipal
+triggeringprincipal
 "
-loadingPrincipalStr
+triggeringPrinStr
 )
 ;
 newImage
@@ -5795,9 +5795,9 @@ newImage
 setAttribute
 (
 "
-loadingprincipal
+triggeringprincipal
 "
-loadingPrincipalStr
+triggeringPrinStr
 )
 ;
 newImage

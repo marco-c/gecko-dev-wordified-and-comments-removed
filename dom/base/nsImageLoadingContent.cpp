@@ -4271,7 +4271,7 @@ result
 nsContentUtils
 :
 :
-GetLoadingPrincipalForXULNode
+QueryTriggeringPrincipal
 (
 content
 aTriggeringPrincipal
