@@ -6305,6 +6305,14 @@ APZDragEnabled
 )
 &
 &
+gfxPrefs
+:
+:
+APZTouchDragEnabled
+(
+)
+&
+&
 hitScrollbarNode
 &
 &
