@@ -1006,11 +1006,6 @@ animation_value_type
 "
 discrete
 "
-need_clone
-=
-"
-True
-"
 spec
 =
 "
@@ -1065,9 +1060,6 @@ servo
 '
 }
 "
-need_clone
-=
-True
 animation_value_type
 =
 "

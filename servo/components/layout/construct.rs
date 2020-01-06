@@ -9669,13 +9669,9 @@ style_context
 )
 )
 .
-get_inheritedbox
+is_in_display_none_subtree
 (
 )
-.
-_servo_under_display_none
-.
-0
 {
 self
 .

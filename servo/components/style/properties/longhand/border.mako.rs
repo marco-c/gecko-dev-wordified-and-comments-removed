@@ -1675,9 +1675,6 @@ animation_value_type
 "
 discrete
 "
-has_uncacheable_values
-=
-False
 flags
 =
 "

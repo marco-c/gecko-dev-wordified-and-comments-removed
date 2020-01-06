@@ -104,9 +104,6 @@ animation_value_type
 "
 AnimatedColor
 "
-need_clone
-=
-True
 ignored_when_colors_disabled
 =
 True
