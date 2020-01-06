@@ -704,13 +704,6 @@ sh
 '
 toolchain
 -
-alias
-:
-linux64
--
-gcc
-toolchain
--
 artifact
 :
 public
@@ -832,6 +825,13 @@ gcc
 .
 sh
 '
+toolchain
+-
+alias
+:
+linux64
+-
+gcc
 toolchain
 -
 artifact
