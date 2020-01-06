@@ -479,6 +479,16 @@ extensions
 '
 :
 True
+        
+'
+extensions
+.
+legacy
+.
+enabled
+'
+:
+True
     
 }
     
