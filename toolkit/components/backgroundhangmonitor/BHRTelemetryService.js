@@ -202,7 +202,6 @@ process
 stack
 modules
 annotations
-pseudoStack
 }
 )
 {
@@ -392,7 +391,6 @@ thread
 runnableName
 process
 annotations
-pseudoStack
 stack
 }
 )
