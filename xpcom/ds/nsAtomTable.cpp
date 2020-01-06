@@ -290,7 +290,7 @@ compatible
 static
 Atomic
 <
-uint32_t
+int32_t
 ReleaseAcquire
 >
 gUnusedAtomCount
@@ -1695,7 +1695,7 @@ i
 nullptr
 ;
 }
-uint32_t
+int32_t
 removedCount
 =
 0
@@ -2009,7 +2009,7 @@ ifdef
 DEBUG
 static
 const
-uint32_t
+int32_t
 kAtomGCThreshold
 =
 20
@@ -2018,7 +2018,7 @@ kAtomGCThreshold
 else
 static
 const
-uint32_t
+int32_t
 kAtomGCThreshold
 =
 10000
@@ -3342,7 +3342,7 @@ EntryCount
 )
 ;
 }
-uint32_t
+int32_t
 NS_GetUnusedAtomCount
 (
 void
