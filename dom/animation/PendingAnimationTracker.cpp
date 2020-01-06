@@ -662,7 +662,7 @@ return
 rootFrame
 -
 >
-SchedulePaint
+SchedulePaintWithoutInvalidatingObservers
 (
 )
 ;

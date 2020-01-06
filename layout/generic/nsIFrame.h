@@ -7375,6 +7375,15 @@ aType
 PAINT_DEFAULT
 )
 ;
+void
+SchedulePaintWithoutInvalidatingObservers
+(
+PaintType
+aType
+=
+PAINT_DEFAULT
+)
+;
 enum
 {
 UPDATE_IS_ASYNC
