@@ -3904,6 +3904,10 @@ tpmozafterpaint
 =
 False
     
+tpchrome
+=
+False
+    
 preferences
 =
 {
