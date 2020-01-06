@@ -94,7 +94,7 @@ Atomic
 <
 size_t
 >
-mCombinedSizes
+gCombinedSizes
 ;
 enum
 MemoryBlockCacheTelemetryErrors
@@ -216,7 +216,7 @@ static_cast
 size_t
 >
 (
-mCombinedSizes
+gCombinedSizes
 -
 =
 mBuffer
@@ -398,7 +398,7 @@ static_cast
 size_t
 >
 (
-mCombinedSizes
+gCombinedSizes
 )
 ;
 if
@@ -562,7 +562,7 @@ static_cast
 size_t
 >
 (
-mCombinedSizes
+gCombinedSizes
 +
 =
 (
