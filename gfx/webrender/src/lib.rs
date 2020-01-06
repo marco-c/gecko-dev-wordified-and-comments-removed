@@ -70,6 +70,9 @@ mod
 glyph_rasterizer
 ;
 mod
+gpu_cache
+;
+mod
 gpu_store
 ;
 mod

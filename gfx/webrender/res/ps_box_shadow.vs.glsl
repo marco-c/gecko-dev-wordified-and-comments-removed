@@ -59,6 +59,10 @@ MPL
 .
 *
 /
+#
+define
+BS_HEADER_VECS
+4
 void
 main
 (
@@ -89,6 +93,12 @@ fetch_instance_geometry
 (
 prim
 .
+prim_index
++
+BS_HEADER_VECS
++
+prim
+.
 user_data0
 )
 ;
@@ -113,6 +123,8 @@ task
 prim
 .
 local_rect
+.
+p0
 )
 ;
 RenderTaskData

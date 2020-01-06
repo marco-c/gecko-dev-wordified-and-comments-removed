@@ -282,8 +282,7 @@ CacheA8
 CacheRGBA8
 Data16
 Data32
-Data64
-Data128
+ResourceCache
 Layers
 RenderTasks
 Geometry

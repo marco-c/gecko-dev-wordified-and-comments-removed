@@ -98,6 +98,8 @@ task
 prim
 .
 local_rect
+.
+p0
 )
 ;
 vLocalPos
@@ -131,6 +133,8 @@ task
 prim
 .
 local_rect
+.
+p0
 )
 ;
 vLocalPos

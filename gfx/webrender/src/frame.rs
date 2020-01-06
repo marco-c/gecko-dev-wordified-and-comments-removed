@@ -66,7 +66,10 @@ use
 profiler
 :
 :
+{
+GpuCacheProfileCounters
 TextureCacheProfileCounters
+}
 ;
 use
 resource_cache
@@ -4610,6 +4613,11 @@ texture_cache_profile
 &
 mut
 TextureCacheProfileCounters
+gpu_cache_profile
+:
+&
+mut
+GpuCacheProfileCounters
 )
 -
 >
@@ -4635,6 +4643,7 @@ resource_cache
 display_lists
 device_pixel_ratio
 texture_cache_profile
+gpu_cache_profile
 )
 ;
 let
@@ -4699,6 +4708,11 @@ texture_cache_profile
 &
 mut
 TextureCacheProfileCounters
+gpu_cache_profile
+:
+&
+mut
+GpuCacheProfileCounters
 )
 -
 >
@@ -4746,6 +4760,7 @@ clip_scroll_tree
 display_lists
 device_pixel_ratio
 texture_cache_profile
+gpu_cache_profile
 )
 )
 ;

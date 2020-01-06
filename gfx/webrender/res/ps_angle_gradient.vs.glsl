@@ -105,6 +105,8 @@ task
 prim
 .
 local_rect
+.
+p0
 )
 ;
 vPos

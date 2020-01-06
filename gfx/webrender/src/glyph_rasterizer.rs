@@ -706,17 +706,6 @@ len
 )
 )
 ;
-{
-profile_scope
-!
-(
-"
-glyph
--
-requests
-"
-)
-;
 for
 glyph
 in
@@ -794,7 +783,6 @@ push
 glyph_request
 )
 ;
-}
 }
 }
 if
