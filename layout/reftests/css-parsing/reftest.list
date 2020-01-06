@@ -16,15 +16,6 @@ rule
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 invalid
@@ -43,9 +34,6 @@ handling
 ref
 .
 xhtml
-#
-bug
-1383075
 =
 =
 pseudo
