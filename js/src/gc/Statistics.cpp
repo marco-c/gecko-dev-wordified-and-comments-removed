@@ -5952,6 +5952,7 @@ desc
 (
 !
 wasFullGC
+false
 gckind
 reason
 )
@@ -6327,6 +6328,7 @@ desc
 (
 !
 wasFullGC
+last
 gckind
 slices_
 .

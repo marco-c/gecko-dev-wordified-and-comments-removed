@@ -9199,6 +9199,12 @@ if
 (
 !
 sShuttingDown
+&
+&
+!
+aDesc
+.
+isComplete_
 )
 {
 CallCreateInstance
