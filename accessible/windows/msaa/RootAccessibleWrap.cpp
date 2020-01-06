@@ -431,6 +431,17 @@ return
 E_INVALIDARG
 ;
 }
+if
+(
+IsDefunct
+(
+)
+)
+{
+return
+CO_E_OBJNOTCONNECTED
+;
+}
 Accessible
 *
 target
