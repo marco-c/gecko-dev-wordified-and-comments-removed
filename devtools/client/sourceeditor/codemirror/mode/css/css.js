@@ -3611,6 +3611,15 @@ override
 =
 style
 ;
+if
+(
+type
+!
+=
+"
+comment
+"
+)
 state
 .
 state

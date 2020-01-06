@@ -15,6 +15,10 @@ color
 :
 black
 ;
+direction
+:
+ltr
+;
 }
 .
 CodeMirror
@@ -1905,11 +1909,15 @@ cm
 searching
 {
 background
+-
+color
 :
 #
 ffa
 ;
 background
+-
+color
 :
 rgba
 (
