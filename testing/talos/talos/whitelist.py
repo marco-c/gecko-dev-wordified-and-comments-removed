@@ -41,6 +41,9 @@ paths
 path_substitutions
                  
 name_substitutions
+event_sources
+=
+None
 init_with
 =
 None
@@ -102,6 +105,15 @@ self
 name_substitutions
 =
 name_substitutions
+        
+self
+.
+expected_event_sources
+=
+event_sources
+or
+[
+]
     
 def
 load
@@ -529,6 +541,9 @@ check
 self
 test
 file_name_index
+event_source_index
+=
+None
 )
 :
         
@@ -602,6 +617,26 @@ in
 self
 .
 dependent_libs
+:
+                
+continue
+            
+elif
+event_source_index
+is
+not
+None
+and
+\
+                    
+test
+[
+event_source_index
+]
+in
+self
+.
+expected_event_sources
 :
                 
 continue
