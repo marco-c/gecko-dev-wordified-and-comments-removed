@@ -35,6 +35,11 @@ iconLoadingPrincipal
 "
 skipbackgroundnotify
 "
+"
+activemedia
+-
+blocked
+"
 ]
 )
 ;
