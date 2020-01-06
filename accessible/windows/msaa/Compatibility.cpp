@@ -551,8 +551,8 @@ sConsumers
 IsModuleVersionLessThan
 (
 jawsHandle
-8
-2173
+18
+4315
 )
 )
 ?
