@@ -4,10 +4,6 @@ description
 :
 YAML
 linter
-include
-:
--
-taskcluster
 extensions
 :
 [
