@@ -175,16 +175,6 @@ patches
 :
 [
 "
-build
-/
-src
-/
-build
-/
-build
--
-clang
-/
 loosen
 -
 msvc

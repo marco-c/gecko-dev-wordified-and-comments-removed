@@ -3323,12 +3323,7 @@ symlinks
 =
 [
 (
-source_dir
-+
-"
-/
-clang
-"
+clang_source_dir
                  
 llvm_source_dir
 +
@@ -3341,12 +3336,7 @@ clang
 )
                 
 (
-source_dir
-+
-"
-/
-extra
-"
+extra_source_dir
                  
 llvm_source_dir
 +
@@ -3363,14 +3353,7 @@ extra
 )
                 
 (
-source_dir
-+
-"
-/
-compiler
--
-rt
-"
+compiler_rt_source_dir
                  
 llvm_source_dir
 +
@@ -3385,12 +3368,7 @@ rt
 )
                 
 (
-source_dir
-+
-"
-/
-libcxx
-"
+libcxx_source_dir
                  
 llvm_source_dir
 +
@@ -3403,12 +3381,7 @@ libcxx
 )
                 
 (
-source_dir
-+
-"
-/
-libcxxabi
-"
+libcxxabi_source_dir
                  
 llvm_source_dir
 +
