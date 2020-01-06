@@ -231,3 +231,15 @@ gecko
 "
 ]
 }
+[
+build
+-
+dependencies
+]
+regex
+=
+"
+0
+.
+2
+"
