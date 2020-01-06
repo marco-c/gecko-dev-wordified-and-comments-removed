@@ -306,13 +306,6 @@ h
 #
 include
 "
-nsIDOMHTMLObjectElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLScriptElement
 .
 h

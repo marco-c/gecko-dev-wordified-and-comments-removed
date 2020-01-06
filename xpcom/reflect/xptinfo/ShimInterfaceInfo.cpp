@@ -384,13 +384,6 @@ h
 #
 include
 "
-nsIDOMHTMLObjectElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLOptionElement
 .
 h
@@ -2295,10 +2288,6 @@ HTMLMediaElement
 DEFINE_SHIM
 (
 HTMLMenuItemElement
-)
-DEFINE_SHIM
-(
-HTMLObjectElement
 )
 DEFINE_SHIM
 (

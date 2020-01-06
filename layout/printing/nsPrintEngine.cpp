@@ -226,13 +226,6 @@ h
 #
 include
 "
-nsIDOMHTMLObjectElement
-.
-h
-"
-#
-include
-"
 imgIContainer
 .
 h
