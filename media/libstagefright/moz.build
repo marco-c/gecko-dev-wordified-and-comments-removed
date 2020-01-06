@@ -592,6 +592,17 @@ include
 /
 mp4_demuxer
 /
+BufferReader
+.
+h
+'
+'
+binding
+/
+include
+/
+mp4_demuxer
+/
 BufferStream
 .
 h

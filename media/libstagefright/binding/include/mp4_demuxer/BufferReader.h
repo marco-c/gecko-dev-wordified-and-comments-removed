@@ -1,9 +1,9 @@
 #
 ifndef
-BYTE_READER_H_
+BUFFER_READER_H_
 #
 define
-BYTE_READER_H_
+BUFFER_READER_H_
 #
 include
 "
@@ -32,11 +32,11 @@ mp4_demuxer
 {
 class
 MOZ_RAII
-ByteReader
+BufferReader
 {
 public
 :
-ByteReader
+BufferReader
 (
 )
 :
@@ -50,7 +50,7 @@ mRemaining
 )
 {
 }
-ByteReader
+BufferReader
 (
 const
 uint8_t
@@ -80,7 +80,7 @@ size_t
 S
 >
 explicit
-ByteReader
+BufferReader
 (
 const
 AutoTArray
@@ -119,7 +119,7 @@ Length
 {
 }
 explicit
-ByteReader
+BufferReader
 (
 const
 nsTArray
@@ -157,7 +157,7 @@ Length
 {
 }
 explicit
-ByteReader
+BufferReader
 (
 const
 mozilla
@@ -241,7 +241,7 @@ mRemaining
 ;
 }
 ~
-ByteReader
+BufferReader
 (
 )
 {
