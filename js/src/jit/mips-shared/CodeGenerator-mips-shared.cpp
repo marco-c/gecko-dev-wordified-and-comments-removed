@@ -1017,6 +1017,7 @@ MCompare
 :
 Compare_Symbol
 )
+{
 if
 (
 comp
