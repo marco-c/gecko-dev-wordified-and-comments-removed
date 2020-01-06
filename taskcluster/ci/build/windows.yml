@@ -37,7 +37,7 @@ B
 )
 tier
 :
-2
+1
 worker
 -
 type
@@ -372,7 +372,7 @@ B
 )
 tier
 :
-2
+1
 worker
 -
 type
