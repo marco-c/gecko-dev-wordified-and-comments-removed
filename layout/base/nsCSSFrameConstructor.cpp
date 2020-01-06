@@ -10707,10 +10707,6 @@ set
 >
 StyleDocument
 (
-TraversalRestyleBehavior
-:
-:
-Normal
 )
 ;
 }
@@ -15643,9 +15639,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 =
 =
 NS_THEME_NONE

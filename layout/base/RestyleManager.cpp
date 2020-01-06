@@ -1442,9 +1442,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 ;
 if
 (

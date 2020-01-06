@@ -268,10 +268,6 @@ appearance
 :
 none
 ;
-appearance
-:
-none
-;
 padding
 :
 0
@@ -298,10 +294,6 @@ style
 -
 moz
 -
-appearance
-:
-none
-;
 appearance
 :
 none
@@ -362,10 +354,6 @@ style
 -
 moz
 -
-appearance
-:
-none
-;
 appearance
 :
 none

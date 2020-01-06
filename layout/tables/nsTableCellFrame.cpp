@@ -2254,9 +2254,7 @@ StyleDisplay
 )
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 {
 nsDisplayBackgroundImage

@@ -11529,9 +11529,7 @@ mFrame
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 &
 widget
 )
@@ -11890,9 +11888,7 @@ mFrame
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 &
 widget
 )
