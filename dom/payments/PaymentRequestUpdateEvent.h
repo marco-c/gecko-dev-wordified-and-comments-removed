@@ -206,12 +206,6 @@ ErrorResult
 aRv
 )
 ;
-bool
-IsTrusted
-(
-)
-const
-;
 protected
 :
 ~
