@@ -6045,17 +6045,6 @@ locale
 getAppLocaleAsBCP47
 (
 )
-.
-replace
-(
-/
--
-/
-g
-"
-_
-"
-)
 ;
 }
 }

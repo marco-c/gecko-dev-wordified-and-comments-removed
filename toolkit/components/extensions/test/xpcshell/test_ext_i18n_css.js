@@ -854,7 +854,9 @@ css
 content
 :
 "
-en_US
+en
+-
+US
 ltr
 rtl
 left
