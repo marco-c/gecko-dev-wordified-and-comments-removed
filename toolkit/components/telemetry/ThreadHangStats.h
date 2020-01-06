@@ -89,6 +89,13 @@ Telemetry
 {
 static
 const
+uint32_t
+kMaximumNativeHangStacks
+=
+300
+;
+static
+const
 size_t
 kTimeHistogramBuckets
 =

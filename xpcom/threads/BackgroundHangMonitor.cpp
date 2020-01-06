@@ -165,13 +165,6 @@ BHR_BETA_MOD
 ;
 static
 const
-uint32_t
-kMaximumNativeHangStacks
-=
-300
-;
-static
-const
 size_t
 kMaxThreadHangStackDepth
 =
@@ -1136,6 +1129,9 @@ mStats
 .
 mNativeStackCnt
 <
+Telemetry
+:
+:
 kMaximumNativeHangStacks
 )
 {
@@ -1902,6 +1898,9 @@ mStats
 mNativeStackCnt
 <
 =
+Telemetry
+:
+:
 kMaximumNativeHangStacks
 )
 {
