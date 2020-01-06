@@ -13820,6 +13820,13 @@ GCPtrAtom
 =
 =
 0
+"
+atoms
+must
+have
+GCPtrAtom
+alignment
+"
 )
 ;
 GCPtrAtom
