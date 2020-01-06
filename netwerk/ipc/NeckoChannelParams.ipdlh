@@ -437,6 +437,9 @@ bool
 enforceSRI
 ;
 bool
+forceAllowDataURI
+;
+bool
 forceInheritPrincipalDropped
 ;
 uint64_t

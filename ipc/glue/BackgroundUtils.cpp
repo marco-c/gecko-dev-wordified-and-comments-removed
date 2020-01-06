@@ -1926,6 +1926,12 @@ GetEnforceSRI
 aLoadInfo
 -
 >
+GetForceAllowDataURI
+(
+)
+aLoadInfo
+-
+>
 GetForceInheritPrincipalDropped
 (
 )
@@ -2518,6 +2524,11 @@ verifySignedContent
 loadInfoArgs
 .
 enforceSRI
+(
+)
+loadInfoArgs
+.
+forceAllowDataURI
 (
 )
 loadInfoArgs
