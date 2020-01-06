@@ -2782,6 +2782,16 @@ mediaType
 setIfDefined
 (
 "
+linkText
+"
+contextData
+.
+linkText
+)
+;
+setIfDefined
+(
+"
 linkUrl
 "
 contextData
