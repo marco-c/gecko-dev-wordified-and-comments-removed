@@ -115,6 +115,11 @@ GeckoViewProgress
 jsm
 '
 '
+GeckoViewScroll
+.
+jsm
+'
+'
 GeckoViewSettings
 .
 jsm
