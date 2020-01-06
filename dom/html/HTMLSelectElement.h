@@ -416,6 +416,12 @@ NOTIFY
 <
 <
 3
+NO_RESELECT
+=
+1
+<
+<
+4
 }
 ;
 using
@@ -1222,10 +1228,6 @@ const
 nsAttrValue
 *
 aValue
-const
-nsAttrValue
-*
-aOldValue
 bool
 aNotify
 )
