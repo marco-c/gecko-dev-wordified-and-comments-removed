@@ -897,6 +897,7 @@ EndTime
 (
 )
 <
+=
 playbackTime
 )
 {
@@ -961,7 +962,6 @@ EndTime
 (
 )
 >
-=
 playbackTime
 )
 {
