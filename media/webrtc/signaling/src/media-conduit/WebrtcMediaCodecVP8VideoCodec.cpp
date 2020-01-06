@@ -598,6 +598,8 @@ mEncodedImage
 _timeStamp
 =
 presentationTimeUs
+/
+PR_USEC_PER_MSEC
 ;
 mEncodedImage
 .
@@ -5796,9 +5798,11 @@ Set
 size
 inputImage
 .
-timestamp
+render_time_ms
 (
 )
+*
+PR_USEC_PER_MSEC
 MediaCodec
 :
 :
@@ -5817,9 +5821,11 @@ Set
 size
 inputImage
 .
-timestamp
+render_time_ms
 (
 )
+*
+PR_USEC_PER_MSEC
 0
 )
 ;
