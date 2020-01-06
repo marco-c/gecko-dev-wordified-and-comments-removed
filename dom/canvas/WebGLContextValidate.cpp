@@ -1859,6 +1859,10 @@ mScissorTestEnabled
 =
 false
 ;
+mDepthTestEnabled
+=
+0
+;
 mGenerateMipmapHint
 =
 LOCAL_GL_DONT_CARE

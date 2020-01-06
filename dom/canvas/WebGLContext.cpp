@@ -843,10 +843,6 @@ mScissorTestEnabled
 =
 0
 ;
-mDepthTestEnabled
-=
-0
-;
 mStencilTestEnabled
 =
 0
