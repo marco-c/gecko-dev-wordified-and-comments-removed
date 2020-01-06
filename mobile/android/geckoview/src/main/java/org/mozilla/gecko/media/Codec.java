@@ -2509,6 +2509,13 @@ FATAL
 }
 catch
 (
+NullPointerException
+ne
+)
+{
+}
+catch
+(
 RemoteException
 re
 )
