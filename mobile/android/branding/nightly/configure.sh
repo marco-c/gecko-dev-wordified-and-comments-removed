@@ -55,7 +55,10 @@ MPL
 .
 MOZ_APP_DISPLAYNAME
 =
+"
+Firefox
 Nightly
+"
 MOZ_UPDATER
 =
 1
