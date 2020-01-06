@@ -1320,7 +1320,7 @@ SavePrefFileAsynchronous
 (
 )
 ;
-protected
+private
 :
 virtual
 ~
@@ -1400,7 +1400,7 @@ PrefixMatch
 ExactMatch
 }
 ;
-protected
+private
 :
 static
 nsresult
