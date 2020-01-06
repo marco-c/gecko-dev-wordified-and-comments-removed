@@ -225,7 +225,9 @@ message
 received
 :
 {
-kSaveTelemetryMsg
+message
+.
+name
 }
 )
 ;
