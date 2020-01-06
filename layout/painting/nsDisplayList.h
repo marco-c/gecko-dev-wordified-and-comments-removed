@@ -6594,9 +6594,10 @@ Comparator
 aComparator
 )
 {
-nsTArray
+AutoTArray
 <
 Item
+20
 >
 items
 ;
