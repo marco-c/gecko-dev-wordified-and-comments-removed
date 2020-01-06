@@ -1094,12 +1094,19 @@ html
         
 from
 moztreedocs
+import
+distribution_files
+        
+from
+moztreedocs
 .
 upload
 import
 s3_upload
         
-s3_upload
+files
+=
+distribution_files
 (
 os
 .
@@ -1111,10 +1118,16 @@ outdir
 '
 html
 '
+                                                
 '
 Mozilla_Source_Tree_Docs
 '
 )
+)
+        
+s3_upload
+(
+files
 )
 def
 die
