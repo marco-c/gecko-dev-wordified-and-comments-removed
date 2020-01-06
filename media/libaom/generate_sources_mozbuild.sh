@@ -1017,7 +1017,6 @@ arch
 sym
 =
 aom_rtcd
-DISABLE_AVX
 3
 \
 -
@@ -1075,7 +1074,6 @@ arch
 sym
 =
 aom_scale_rtcd
-DISABLE_AVX
 3
 \
 -
@@ -1131,7 +1129,6 @@ arch
 sym
 =
 aom_dsp_rtcd
-DISABLE_AVX
 3
 \
 -
