@@ -2445,7 +2445,12 @@ if
 targetCompartmentPrivate
 -
 >
-hasInterposition
+scope
+-
+>
+HasInterposition
+(
+)
 )
 wrapper
 =

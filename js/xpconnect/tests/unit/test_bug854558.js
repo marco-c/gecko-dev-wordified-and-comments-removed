@@ -126,9 +126,11 @@ a
 '
 contentSB
 )
-2
+undefined
 "
-works
+Still
+not
+allowed
 with
 __exposedProps__
 "

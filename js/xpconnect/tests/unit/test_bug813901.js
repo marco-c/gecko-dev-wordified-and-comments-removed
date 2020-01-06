@@ -192,7 +192,7 @@ foo
 '
 sb
 /
-__exposedProps__
+denied
 /
 )
 ;

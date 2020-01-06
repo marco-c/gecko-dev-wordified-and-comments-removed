@@ -646,7 +646,11 @@ Wrapper
 Action
 act
 )
+{
+return
+false
 ;
+}
 static
 bool
 deny

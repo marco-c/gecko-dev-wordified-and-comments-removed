@@ -39,6 +39,8 @@ do_check_true
 denied
 |
 insecure
+|
+prohibited
 /
 .
 test
