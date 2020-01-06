@@ -164,6 +164,7 @@ DOMError
 {
 [
 Constant
+UseCounter
 ]
 readonly
 attribute
@@ -172,6 +173,7 @@ name
 ;
 [
 Constant
+UseCounter
 ]
 readonly
 attribute
