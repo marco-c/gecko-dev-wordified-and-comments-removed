@@ -1019,6 +1019,10 @@ eSelectionChange
 )
 NS_EVENT_MESSAGE
 (
+eVisibilityChange
+)
+NS_EVENT_MESSAGE
+(
 eToggle
 )
 NS_EVENT_MESSAGE

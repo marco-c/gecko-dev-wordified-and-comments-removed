@@ -7394,6 +7394,13 @@ onversionchange
 )
 GK_ATOM
 (
+onvisibilitychange
+"
+onvisibilitychange
+"
+)
+GK_ATOM
+(
 onvoicechange
 "
 onvoicechange
