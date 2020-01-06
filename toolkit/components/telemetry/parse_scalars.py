@@ -109,8 +109,15 @@ self
 group_name
 probe_name
 definition
+strict_type_checks
 )
 :
+        
+self
+.
+_strict_type_checks
+=
+strict_type_checks
         
 self
 .
@@ -664,6 +671,15 @@ present
 "
 "
 "
+        
+if
+not
+self
+.
+_strict_type_checks
+:
+            
+return
         
 REQUIRED_FIELDS
 =
@@ -1240,6 +1256,15 @@ value
 "
 "
 "
+        
+if
+not
+self
+.
+_strict_type_checks
+:
+            
+return
         
 scalar_kind
 =
@@ -1872,11 +1897,18 @@ return
 self
 .
 _definition
-[
+.
+get
+(
 '
 record_in_processes
 '
+[
+"
+main
+"
 ]
+)
     
 property
     
@@ -2054,6 +2086,9 @@ def
 load_scalars
 (
 filename
+strict_type_checks
+=
+True
 )
 :
     
@@ -2282,6 +2317,7 @@ ScalarType
 group_name
 probe_name
 scalar_info
+strict_type_checks
 )
 )
     
