@@ -33,15 +33,6 @@ nsDownloadManager
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Services
-.
-h
-"
 using
 namespace
 mozilla

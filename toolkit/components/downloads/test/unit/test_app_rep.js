@@ -46,7 +46,7 @@ mozilla
 .
 org
 /
-reputationservice
+downloads
 /
 application
 -
