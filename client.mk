@@ -1188,21 +1188,6 @@ build
 build
 :
 :
-(
-MAKE
-)
--
-f
-(
-TOPSRCDIR
-)
-/
-client
-.
-mk
-realbuild
-CREATE_MOZCONFIG_JSON
-=
 #
 Include
 baseconfig
@@ -1406,7 +1391,7 @@ from
 mozconfig
 .
 all
-realbuild
+build
 clean
 distclean
 export
@@ -1549,7 +1534,7 @@ any
 project
 ifdef
 MOZ_PREFLIGHT_ALL
-realbuild
+build
 preflight_all
 :
 :
@@ -2432,7 +2417,7 @@ endif
 #
 Build
 it
-realbuild
+build
 :
 :
 (
@@ -2571,7 +2556,7 @@ all
 projects
 ifdef
 MOZ_AUTOMATION
-realbuild
+build
 :
 :
 (
@@ -2592,7 +2577,7 @@ build
 endif
 ifdef
 MOZ_POSTFLIGHT_ALL
-realbuild
+build
 postflight_all
 :
 :
@@ -2685,8 +2670,6 @@ NOTPARALLEL
 .
 PHONY
 :
-\
-realbuild
 \
 build
 \
