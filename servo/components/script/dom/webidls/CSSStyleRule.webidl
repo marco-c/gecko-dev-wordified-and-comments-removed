@@ -86,8 +86,6 @@ CSSStyleRule
 :
 CSSRule
 {
-/
-/
 attribute
 DOMString
 selectorText
