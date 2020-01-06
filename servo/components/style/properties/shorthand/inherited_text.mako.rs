@@ -345,6 +345,17 @@ stroke
 -
 color
 "
+gecko_pref
+=
+"
+layout
+.
+css
+.
+prefixes
+.
+webkit
+"
 products
 =
 "

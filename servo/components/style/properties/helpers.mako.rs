@@ -4878,9 +4878,6 @@ shorthand
 (
 name
 sub_properties
-experimental
-=
-False
 derive_serialize
 =
 False
@@ -4904,9 +4901,6 @@ sub_properties
 split
 (
 )
-experimental
-=
-experimental
 *
 *
 kwargs
