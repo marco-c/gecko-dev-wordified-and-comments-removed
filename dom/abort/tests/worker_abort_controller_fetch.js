@@ -19,11 +19,11 @@ abort
 ;
 fetch
 (
-'
+"
 slow
 .
 sjs
-'
+"
 {
 signal
 :
@@ -84,11 +84,11 @@ p
 =
 fetch
 (
-'
+"
 slow
 .
 sjs
-'
+"
 {
 signal
 :
@@ -139,6 +139,8 @@ AbortError
 )
 ;
 }
+self
+.
 onmessage
 =
 function
