@@ -20833,7 +20833,7 @@ isCollecting
 zone
 -
 >
-updateGCMallocBytesOnGC
+updateAllMallocBytesOnGC
 (
 lock
 )
