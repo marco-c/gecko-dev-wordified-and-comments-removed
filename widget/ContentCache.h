@@ -1319,6 +1319,9 @@ mPendingEventsNeedingAck
 uint32_t
 mCompositionStartInChild
 ;
+uint32_t
+mPendingCommitLength
+;
 uint8_t
 mPendingCompositionCount
 ;
