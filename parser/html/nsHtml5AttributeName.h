@@ -2833,6 +2833,11 @@ ATTR_CLASS
 static
 nsHtml5AttributeName
 *
+ATTR_IS
+;
+static
+nsHtml5AttributeName
+*
 ATTR_KEYSYSTEM
 ;
 static
