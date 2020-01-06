@@ -1058,6 +1058,8 @@ aUnits
 nsIFrame
 *
 aFrame
+uint32_t
+aFlags
 )
 ;
 enum
@@ -1111,6 +1113,12 @@ eForGetClientRects
 <
 <
 7
+eIncludeOnlyCurrentFrameForNonSVGElement
+=
+1
+<
+<
+8
 }
 ;
 static

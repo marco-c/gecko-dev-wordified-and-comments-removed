@@ -5311,6 +5311,13 @@ MOZ_ASSERT
 hasSVGLayout
 )
 ;
+bool
+onlyCurrentFrame
+=
+aFlags
+&
+eIncludeOnlyCurrentFrameForNonSVGElement
+;
 return
 nsSVGIntegrationUtils
 :
@@ -5318,6 +5325,8 @@ nsSVGIntegrationUtils
 GetSVGBBoxForNonSVGFrame
 (
 aFrame
+!
+onlyCurrentFrame
 )
 ;
 }
@@ -6417,6 +6426,8 @@ aUnits
 nsIFrame
 *
 aFrame
+uint32_t
+aFlags
 )
 {
 if
@@ -6441,6 +6452,7 @@ bbox
 GetBBox
 (
 aFrame
+aFlags
 )
 ;
 gfxMatrix

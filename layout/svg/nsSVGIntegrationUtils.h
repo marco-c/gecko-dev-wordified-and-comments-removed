@@ -172,6 +172,8 @@ GetSVGBBoxForNonSVGFrame
 nsIFrame
 *
 aNonSVGFrame
+bool
+aUnionContinuations
 )
 ;
 static
