@@ -4163,7 +4163,7 @@ mCSDAvailable
 gtk_check_version
 (
 3
-20
+10
 0
 )
 =
@@ -4202,7 +4202,7 @@ false
 }
 mCSDCloseButton
 =
-false
+true
 ;
 mCSDMaximizeButton
 =
@@ -4241,6 +4241,11 @@ gtk_header_bar_get_decoration_layout
 "
 )
 ;
+if
+(
+sGtkHeaderBarGetDecorationLayoutPtr
+)
+{
 GtkWidget
 *
 headerBar
@@ -4332,6 +4337,7 @@ minimize
 nullptr
 )
 ;
+}
 }
 }
 }
