@@ -15003,11 +15003,11 @@ aSize
 aOldSize
 ;
 return
-false
+true
 ;
 }
 return
-true
+false
 ;
 }
 static
@@ -15070,7 +15070,7 @@ aSize
 ;
 }
 return
-false
+true
 ;
 }
 else
@@ -15147,7 +15147,7 @@ aOldSize
 )
 ;
 return
-false
+true
 ;
 }
 else
@@ -15169,9 +15169,6 @@ aOldSize
 if
 (
 ret
-=
-=
-false
 &
 &
 opt_zero
@@ -15407,9 +15404,6 @@ aPtr
 aSize
 aOldSize
 )
-=
-=
-false
 )
 {
 return
