@@ -46,7 +46,7 @@ class
 ImageContainer
 ;
 class
-ShadowLayerForwarder
+KnowsCompositor
 ;
 }
 class
@@ -69,8 +69,8 @@ mozilla
 layers
 :
 :
-ShadowLayerForwarder
-ShadowLayerForwarder
+KnowsCompositor
+KnowsCompositor
 ;
 public
 :
@@ -562,7 +562,7 @@ hash
 AddToHash
 (
 hash
-mForwarder
+mKnowsCompositor
 .
 get
 (
@@ -586,12 +586,12 @@ aOther
 const
 {
 return
-mForwarder
+mKnowsCompositor
 =
 =
 aOther
 .
-mForwarder
+mKnowsCompositor
 &
 &
 mRoundedClipRects
@@ -610,9 +610,9 @@ mRoundedClipRects
 ;
 RefPtr
 <
-ShadowLayerForwarder
+KnowsCompositor
 >
-mForwarder
+mKnowsCompositor
 ;
 private
 :
