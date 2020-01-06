@@ -7498,17 +7498,6 @@ into
 )
 ;
 }
-let
-mut
-extra_data
-=
-Default
-:
-:
-default
-(
-)
-;
 self
 .
 stylist
@@ -7521,9 +7510,6 @@ Some
 (
 ua_stylesheets
 )
-&
-mut
-extra_data
 Some
 (
 element
