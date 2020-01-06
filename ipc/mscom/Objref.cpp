@@ -556,7 +556,7 @@ OBJREF_TYPE_HANDLER
 )
 {
 return
-false
+true
 ;
 }
 IID
