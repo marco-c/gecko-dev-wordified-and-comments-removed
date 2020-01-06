@@ -1098,6 +1098,16 @@ true
 label
 :
 "
+Sign
+in
+to
+Sync
+"
+}
+{
+label
+:
+"
 Learn
 About
 Sending
