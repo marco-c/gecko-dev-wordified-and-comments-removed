@@ -2321,6 +2321,9 @@ self
 check_clean
 =
 False
+rebuild
+=
+False
 *
 *
 kwargs
@@ -2388,6 +2391,7 @@ update
 logger
 wpt_dir
 check_clean
+rebuild
 )
 def
 create_parser_wpt

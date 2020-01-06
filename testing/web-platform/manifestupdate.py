@@ -110,6 +110,32 @@ changes
 "
 )
     
+p
+.
+add_argument
+(
+"
+-
+-
+rebuild
+"
+action
+=
+"
+store_true
+"
+                   
+help
+=
+"
+Rebuild
+the
+manifest
+from
+scratch
+"
+)
+    
 commandline
 .
 add_logging_group
@@ -127,6 +153,9 @@ wpt_dir
 check_clean
 =
 True
+rebuild
+=
+False
 )
 :
     
@@ -237,12 +266,14 @@ _update
 (
 logger
 test_paths
+rebuild
 )
 def
 _update
 (
 logger
 test_paths
+rebuild
 )
 :
     
@@ -278,6 +309,24 @@ json
 "
 )
         
+if
+rebuild
+:
+            
+m
+=
+manifest
+.
+manifest
+.
+Manifest
+(
+url_base
+)
+        
+else
+:
+            
 m
 =
 manifest
