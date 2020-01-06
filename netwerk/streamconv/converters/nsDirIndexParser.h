@@ -98,8 +98,10 @@ bool
 mHasDescription
 ;
 int
-*
 mFormat
+[
+8
+]
 ;
 nsresult
 ProcessData
