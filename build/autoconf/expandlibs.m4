@@ -602,13 +602,7 @@ LDFLAGS
 }
 -
 o
-{
-DLL_PREFIX
-}
 conftest
-{
-DLL_SUFFIX
-}
 -
 Wl
 -
