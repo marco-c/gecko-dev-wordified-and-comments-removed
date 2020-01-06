@@ -4469,7 +4469,7 @@ tabMinWidth
 ;
 #
 ifdef
-CAN_DRAW_IN_TITLEBAR
+UNIX_BUT_NOT_MAC
 pref
 (
 "
@@ -4479,7 +4479,7 @@ tabs
 .
 drawInTitlebar
 "
-true
+false
 )
 ;
 #
@@ -4493,7 +4493,7 @@ tabs
 .
 drawInTitlebar
 "
-false
+true
 )
 ;
 #

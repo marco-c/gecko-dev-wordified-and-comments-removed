@@ -1767,9 +1767,6 @@ windows
 '
 cocoa
 '
-'
-gtk3
-'
 )
 :
 DEFINES
