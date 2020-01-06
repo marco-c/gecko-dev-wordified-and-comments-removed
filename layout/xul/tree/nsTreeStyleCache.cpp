@@ -424,7 +424,7 @@ aContext
 AsGecko
 (
 )
-aComparator
+aInputWord
 )
 ;
 }

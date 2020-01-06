@@ -10987,9 +10987,13 @@ aPseudoTag
 GeckoStyleContext
 *
 aParentContext
-nsICSSPseudoComparator
-*
-aComparator
+const
+mozilla
+:
+:
+AtomArray
+&
+aInputWord
 )
 {
 NS_ENSURE_FALSE
@@ -11063,7 +11067,7 @@ aParentElement
 &
 ruleWalker
 aPseudoTag
-aComparator
+aInputWord
 treeContext
 )
 ;
