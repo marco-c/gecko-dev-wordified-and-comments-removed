@@ -502,13 +502,15 @@ instance
 "
 "
     
-marionette_class
+marionette
 =
 MagicMock
 (
 spec
 =
 Marionette
+(
+)
 )
     
 if
@@ -521,7 +523,7 @@ request
 funcargnames
 :
         
-marionette_class
+marionette
 .
 check_for_crash
 .
@@ -539,4 +541,4 @@ has_crashed
 )
     
 return
-marionette_class
+marionette
