@@ -25603,10 +25603,8 @@ exportSpec
 =
 handler
 .
-newNullary
+newExportBatchSpec
 (
-PNK_EXPORT_BATCH_SPEC
-JSOP_NOP
 pos
 (
 )
