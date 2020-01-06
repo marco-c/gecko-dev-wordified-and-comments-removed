@@ -205,14 +205,6 @@ g
 +
 "
 fi
-ac_add_options
--
--
-enable
--
-elf
--
-hack
 .
 "
 topsrcdir
