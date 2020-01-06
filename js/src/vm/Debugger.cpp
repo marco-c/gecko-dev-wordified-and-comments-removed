@@ -1478,8 +1478,8 @@ SprintfLiteral
 linenoStr
 "
 %
+zu
 "
-PRIuSIZE
 script
 -
 >
