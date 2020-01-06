@@ -744,9 +744,9 @@ as_ptr
 )
 )
 .
-_bitfield_1
-&
-0x7FFFFFFF
+mLength
+(
+)
 }
 }
 #
