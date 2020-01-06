@@ -9576,6 +9576,14 @@ MOZ_DEVELOPER_OBJ_DIR
 self
 .
 topobjdir
+            
+'
+RUST_BACKTRACE
+'
+:
+'
+1
+'
         
 }
         
