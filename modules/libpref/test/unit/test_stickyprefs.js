@@ -47,15 +47,6 @@ Services
 .
 prefs
 ;
-do_get_profile
-(
-)
-;
-do_register_cleanup
-(
-saveAndReload
-)
-;
 function
 resetAndLoad
 (
