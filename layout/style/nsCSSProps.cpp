@@ -3547,7 +3547,7 @@ NOT_FOUND
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 nsCSSProps
 :
@@ -3604,7 +3604,7 @@ sNullStr
 }
 }
 const
-nsAFlatCString
+nsCString
 &
 nsCSSProps
 :
@@ -3661,7 +3661,7 @@ sNullStr
 }
 }
 const
-nsAFlatCString
+nsCString
 &
 nsCSSProps
 :
@@ -11719,7 +11719,7 @@ eCSSKeyword_UNKNOWN
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 nsCSSProps
 :
@@ -11827,7 +11827,7 @@ CSS_PROP
 }
 ;
 const
-nsAFlatCString
+nsCString
 &
 nsCSSProps
 :

@@ -313,7 +313,7 @@ eCSSKeyword_UNKNOWN
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 nsCSSKeywords
 :

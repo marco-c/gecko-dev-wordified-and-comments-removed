@@ -1011,7 +1011,7 @@ first
 false
 ;
 const
-nsAFlatString
+nsString
 &
 empty
 =

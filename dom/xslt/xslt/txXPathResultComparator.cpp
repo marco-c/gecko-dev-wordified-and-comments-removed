@@ -77,7 +77,7 @@ aAscending
 bool
 aUpperFirst
 const
-nsAFlatString
+nsString
 &
 aLanguage
 )
@@ -137,7 +137,7 @@ txResultStringComparator
 init
 (
 const
-nsAFlatString
+nsString
 &
 aLanguage
 )

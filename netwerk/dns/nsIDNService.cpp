@@ -194,11 +194,11 @@ bool
 isOnlySafeChars
 (
 const
-nsAFlatString
+nsString
 &
 in
 const
-nsAFlatString
+nsString
 &
 blacklist
 )

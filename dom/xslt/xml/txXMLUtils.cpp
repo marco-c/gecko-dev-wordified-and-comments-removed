@@ -306,7 +306,7 @@ aLocalName
 )
 {
 const
-nsAFlatString
+nsString
 &
 qName
 =
@@ -430,12 +430,12 @@ XMLUtils
 isWhitespace
 (
 const
-nsAFlatString
+nsString
 &
 aText
 )
 {
-nsAFlatString
+nsString
 :
 :
 const_char_iterator
@@ -614,7 +614,7 @@ XMLUtils
 isValidQName
 (
 const
-nsAFlatString
+nsString
 &
 aQName
 const

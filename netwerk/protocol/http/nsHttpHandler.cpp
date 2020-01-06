@@ -4324,7 +4324,7 @@ hostLine
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 nsHttpHandler
 :

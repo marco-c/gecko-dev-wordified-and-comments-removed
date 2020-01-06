@@ -61,7 +61,7 @@ txPatternParser
 createPattern
 (
 const
-nsAFlatString
+nsString
 &
 aPattern
 txIParseContext

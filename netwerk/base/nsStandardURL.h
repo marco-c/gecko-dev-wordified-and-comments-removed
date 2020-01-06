@@ -451,7 +451,7 @@ URLSegment
 segment
 int16_t
 mask
-nsAFlatCString
+nsCString
 &
 buf
 bool
@@ -474,7 +474,7 @@ nsACString
 str
 int16_t
 mask
-nsAFlatCString
+nsCString
 &
 buf
 )

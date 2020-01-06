@@ -2715,7 +2715,7 @@ NS_STYLE_LIST_STYLE_CUSTOM
 )
 ;
 const
-nsAFlatCString
+nsCString
 &
 str
 =

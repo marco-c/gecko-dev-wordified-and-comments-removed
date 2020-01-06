@@ -50,7 +50,7 @@ aNameArray
 [
 ]
 const
-nsAFlatCString
+nsCString
 *
 aKeyStr
 )
@@ -79,7 +79,7 @@ aNameArray
 [
 ]
 const
-nsAFlatString
+nsString
 *
 aKeyStr
 )
@@ -108,12 +108,12 @@ mNameArray
 union
 {
 const
-nsAFlatCString
+nsCString
 *
 m1b
 ;
 const
-nsAFlatString
+nsString
 *
 m2b
 ;
@@ -758,7 +758,7 @@ inited
 )
 ;
 const
-nsAFlatCString
+nsCString
 &
 str
 =
@@ -829,7 +829,7 @@ inited
 )
 ;
 const
-nsAFlatString
+nsString
 &
 str
 =
@@ -879,7 +879,7 @@ NOT_FOUND
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 nsStaticCaseInsensitiveNameTable
 :

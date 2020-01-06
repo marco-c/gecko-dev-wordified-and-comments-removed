@@ -963,7 +963,7 @@ nsOSHelperAppService
 GetMIMEInfoFromRegistry
 (
 const
-nsAFlatString
+nsString
 &
 fileType
 nsIMIMEInfo
@@ -1691,7 +1691,7 @@ nsOSHelperAppService
 GetByExtension
 (
 const
-nsAFlatString
+nsString
 &
 aFileExt
 const

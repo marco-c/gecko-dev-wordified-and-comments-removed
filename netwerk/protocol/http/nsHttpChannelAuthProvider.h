@@ -331,7 +331,7 @@ char
 challenges
 bool
 proxyAuth
-nsAFlatCString
+nsCString
 &
 creds
 )
@@ -353,7 +353,7 @@ proxyAuth
 nsIHttpAuthenticator
 *
 auth
-nsAFlatCString
+nsCString
 &
 creds
 )

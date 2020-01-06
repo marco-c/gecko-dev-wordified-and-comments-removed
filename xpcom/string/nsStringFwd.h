@@ -112,13 +112,5 @@ typedef
 nsACString
 nsCSubstring
 ;
-typedef
-nsString
-nsAFlatString
-;
-typedef
-nsCString
-nsAFlatCString
-;
 #
 endif

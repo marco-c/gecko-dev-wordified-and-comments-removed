@@ -1720,7 +1720,7 @@ static
 void
 ConvertToNativeNewlines
 (
-nsAFlatString
+nsString
 &
 aString
 )
@@ -2808,7 +2808,7 @@ GenerateFlatTextContent
 nsIContent
 *
 aContent
-nsAFlatString
+nsString
 &
 aString
 LineBreakType
@@ -2887,7 +2887,7 @@ GenerateFlatTextContent
 nsRange
 *
 aRange
-nsAFlatString
+nsString
 &
 aString
 LineBreakType

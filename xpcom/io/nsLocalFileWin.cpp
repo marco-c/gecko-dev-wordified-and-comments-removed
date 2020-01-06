@@ -1875,7 +1875,7 @@ nsresult
 OpenFile
 (
 const
-nsAFlatString
+nsString
 &
 aName
 int
@@ -2293,7 +2293,7 @@ nsresult
 GetFileInfo
 (
 const
-nsAFlatString
+nsString
 &
 aName
 PRFileInfo64
@@ -2499,7 +2499,7 @@ nsresult
 OpenDir
 (
 const
-nsAFlatString
+nsString
 &
 aName
 nsDir
@@ -5294,7 +5294,7 @@ nsLocalFile
 AppendInternal
 (
 const
-nsAFlatString
+nsString
 &
 aNode
 bool

@@ -172,7 +172,7 @@ BuildHashKey
 public
 :
 const
-nsAFlatCString
+nsCString
 &
 HashKey
 (

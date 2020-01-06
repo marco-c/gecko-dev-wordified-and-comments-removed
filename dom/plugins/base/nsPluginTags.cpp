@@ -1998,7 +1998,7 @@ static
 void
 ConvertToUTF8
 (
-nsAFlatCString
+nsCString
 &
 aString
 )

@@ -165,7 +165,7 @@ txFormattedCounter
 getCounterFor
 (
 const
-nsAFlatString
+nsString
 &
 aToken
 int32_t

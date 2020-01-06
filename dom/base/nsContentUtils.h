@@ -581,14 +581,14 @@ kLoadAsData
 ]
 ;
 const
-nsAFlatString
+nsString
 &
 EmptyString
 (
 )
 ;
 const
-nsAFlatCString
+nsCString
 &
 EmptyCString
 (
@@ -1604,7 +1604,7 @@ nsIContent
 *
 aNamespaceResolver
 const
-nsAFlatString
+nsString
 &
 aQName
 int32_t
@@ -2143,7 +2143,7 @@ aURI
 =
 nullptr
 const
-nsAFlatString
+nsString
 &
 aSourceLine
 =
@@ -2186,7 +2186,7 @@ aURI
 =
 nullptr
 const
-nsAFlatString
+nsString
 &
 aSourceLine
 =
@@ -2264,7 +2264,7 @@ aURI
 =
 nullptr
 const
-nsAFlatString
+nsString
 &
 aSourceLine
 =

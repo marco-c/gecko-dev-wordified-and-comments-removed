@@ -2910,7 +2910,7 @@ TISInputSourceWrapper
 InitByInputSourceID
 (
 const
-nsAFlatString
+nsString
 &
 aID
 )

@@ -108,7 +108,7 @@ aAscending
 bool
 aUpperFirst
 const
-nsAFlatString
+nsString
 &
 aLanguage
 )
@@ -153,7 +153,7 @@ nsresult
 init
 (
 const
-nsAFlatString
+nsString
 &
 aLanguage
 )

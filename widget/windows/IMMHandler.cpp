@@ -10006,7 +10006,7 @@ IMMHandler
 ConvertToANSIString
 (
 const
-nsAFlatString
+nsString
 &
 aStr
 UINT

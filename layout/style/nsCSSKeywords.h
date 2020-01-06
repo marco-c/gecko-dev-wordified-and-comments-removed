@@ -85,7 +85,7 @@ aKeyword
 ;
 static
 const
-nsAFlatCString
+nsCString
 &
 GetStringValue
 (

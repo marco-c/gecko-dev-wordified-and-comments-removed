@@ -332,7 +332,7 @@ nsresult
 AppendInternal
 (
 const
-nsAFlatString
+nsString
 &
 aNode
 bool

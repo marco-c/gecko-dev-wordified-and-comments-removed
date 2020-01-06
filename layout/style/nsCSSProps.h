@@ -1550,7 +1550,7 @@ aStyle
 ;
 static
 const
-nsAFlatCString
+nsCString
 &
 GetStringValue
 (
@@ -1560,7 +1560,7 @@ aProperty
 ;
 static
 const
-nsAFlatCString
+nsCString
 &
 GetStringValue
 (
@@ -1570,7 +1570,7 @@ aFontDesc
 ;
 static
 const
-nsAFlatCString
+nsCString
 &
 GetStringValue
 (
@@ -1580,7 +1580,7 @@ aCounterDesc
 ;
 static
 const
-nsAFlatCString
+nsCString
 &
 LookupPropertyValue
 (
@@ -1728,7 +1728,7 @@ aTable
 }
 static
 const
-nsAFlatCString
+nsCString
 &
 ValueToKeyword
 (
@@ -1770,7 +1770,7 @@ type
 >
 static
 const
-nsAFlatCString
+nsCString
 &
 ValueToKeyword
 (

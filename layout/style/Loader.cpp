@@ -3789,7 +3789,7 @@ errorFlag
 ;
 }
 const
-nsAFlatString
+nsString
 &
 specUTF16
 =
@@ -3804,7 +3804,7 @@ GetSpecOrDefault
 )
 ;
 const
-nsAFlatString
+nsString
 &
 ctypeUTF16
 =

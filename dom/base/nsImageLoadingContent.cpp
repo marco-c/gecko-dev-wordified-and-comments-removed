@@ -4491,7 +4491,7 @@ GetBaseURI
 )
 ;
 const
-nsAFlatCString
+nsCString
 &
 charset
 =

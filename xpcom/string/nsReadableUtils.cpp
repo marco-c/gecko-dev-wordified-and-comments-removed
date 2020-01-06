@@ -5492,7 +5492,7 @@ empty_buffer
 }
 ;
 const
-nsAFlatString
+nsString
 &
 EmptyString
 (
@@ -5511,7 +5511,7 @@ sEmpty
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 EmptyCString
 (
@@ -5535,7 +5535,7 @@ sEmpty
 ;
 }
 const
-nsAFlatString
+nsString
 &
 NullString
 (
@@ -5551,7 +5551,7 @@ sNull
 ;
 }
 const
-nsAFlatCString
+nsCString
 &
 NullCString
 (

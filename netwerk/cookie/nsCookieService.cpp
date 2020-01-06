@@ -1919,7 +1919,7 @@ nsIURI
 *
 aHostURI
 const
-nsAFlatCString
+nsCString
 &
 aCookieString
 const
@@ -1952,7 +1952,7 @@ nsIURI
 *
 aHostURI
 const
-nsAFlatCString
+nsCString
 &
 aCookieString
 nsCookie
@@ -21824,15 +21824,15 @@ nsCookieKey
 &
 aKey
 const
-nsAFlatCString
+nsCString
 &
 aHost
 const
-nsAFlatCString
+nsCString
 &
 aName
 const
-nsAFlatCString
+nsCString
 &
 aPath
 nsListIter

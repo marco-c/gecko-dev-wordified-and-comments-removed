@@ -2795,14 +2795,14 @@ events
 sPopupAllowedEvents
 )
 ;
-nsAFlatCString
+nsCString
 :
 :
 const_iterator
 start
 end
 ;
-nsAFlatCString
+nsCString
 :
 :
 const_iterator
@@ -2831,7 +2831,7 @@ startiter
 end
 )
 {
-nsAFlatCString
+nsCString
 :
 :
 const_iterator

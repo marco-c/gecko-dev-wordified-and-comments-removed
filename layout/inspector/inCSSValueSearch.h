@@ -189,7 +189,7 @@ nsresult
 SearchStyleValue
 (
 const
-nsAFlatString
+nsString
 &
 aValue
 nsIURI

@@ -5762,6 +5762,10 @@ RetargetLoadNotifications
 request
 )
 ;
+MaybeCloseWindow
+(
+)
+;
 }
 NS_IMETHODIMP
 nsExternalAppHandler
@@ -7651,7 +7655,7 @@ nsIRequest
 *
 aRequest
 const
-nsAFlatString
+nsString
 &
 path
 )
@@ -9693,11 +9697,11 @@ nsExternalAppHandler
 RequestSaveDestination
 (
 const
-nsAFlatString
+nsString
 &
 aDefaultFile
 const
-nsAFlatString
+nsString
 &
 aFileExtension
 )

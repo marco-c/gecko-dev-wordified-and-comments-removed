@@ -1669,7 +1669,7 @@ DOCUMENT_FRAGMENT_NODE
 :
 {
 const
-nsAFlatString
+nsString
 &
 empty
 =

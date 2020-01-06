@@ -433,7 +433,7 @@ int32_t
 Find
 (
 const
-nsAFlatString
+nsString
 &
 aString
 int32_t
@@ -563,7 +563,7 @@ int32_t
 RFind
 (
 const
-nsAFlatString
+nsString
 &
 aString
 int32_t
