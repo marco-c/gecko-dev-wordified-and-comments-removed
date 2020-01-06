@@ -388,14 +388,7 @@ gl
 GLFeature
 :
 :
-sRGB_framebuffer
-gl
-:
-:
-GLFeature
-:
-:
-sRGB_texture
+sRGB
 gl
 :
 :

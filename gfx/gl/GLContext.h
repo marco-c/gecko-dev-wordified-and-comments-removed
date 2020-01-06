@@ -324,8 +324,7 @@ renderbuffer_color_float
 renderbuffer_color_half_float
 robust_buffer_access_behavior
 robustness
-sRGB_framebuffer
-sRGB_texture
+sRGB
 sampler_objects
 seamless_cube_map_opt_in
 shader_texture_lod
