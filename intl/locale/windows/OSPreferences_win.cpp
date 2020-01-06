@@ -732,6 +732,11 @@ EEEE
 ;
 }
 else
+{
+pos
+=
+start
+;
 if
 (
 FindInReadable
@@ -762,6 +767,7 @@ EEE
 "
 )
 ;
+}
 }
 int32_t
 index
