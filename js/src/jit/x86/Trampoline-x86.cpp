@@ -3904,6 +3904,11 @@ failureLabel
 ;
 break
 ;
+case
+Type_Void
+:
+break
+;
 default
 :
 MOZ_CRASH
