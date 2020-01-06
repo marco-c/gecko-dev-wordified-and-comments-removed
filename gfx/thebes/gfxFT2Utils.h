@@ -108,6 +108,7 @@ FT_FaceRec_
 FT_Face
 ;
 class
+MOZ_STACK_CLASS
 gfxFT2LockedFace
 {
 public
@@ -208,10 +209,9 @@ FindCharVariantFunction
 (
 )
 ;
-RefPtr
-<
 gfxFT2FontBase
->
+*
+MOZ_NON_OWNING_REF
 mGfxFont
 ;
 FT_Face
