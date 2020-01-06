@@ -13951,10 +13951,10 @@ const
 char
 *
 aMarkerName
-UniqueProfilerBacktrace
-aCause
 TracingKind
 aKind
+UniqueProfilerBacktrace
+aCause
 )
 {
 MOZ_RELEASE_ASSERT
