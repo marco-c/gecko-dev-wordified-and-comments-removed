@@ -803,7 +803,14 @@ opentype_svg
 enabled
 true
 )
-skip
+fuzzy
+-
+if
+(
+skiaContent
+15
+152
+)
 =
 =
 svg
@@ -822,9 +829,6 @@ mask
 ref
 .
 svg
-#
-bug
-872483
 pref
 (
 gfx
