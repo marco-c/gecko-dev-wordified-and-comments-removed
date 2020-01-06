@@ -377,6 +377,15 @@ ThreadSafeDevToolsUtils
 .
 js
 '
+'
+wasm
+-
+source
+-
+map
+.
+js
+'
 )
 with
 Files
