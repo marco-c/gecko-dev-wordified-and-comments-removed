@@ -1,7 +1,6 @@
 #
-Servers
-and
-actors
+Architecture
+overview
 Broadly
 speaking
 the
