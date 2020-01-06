@@ -13944,8 +13944,11 @@ mozilla
 StyleBoxPack
 mBoxPack
 ;
-bool
-mStretchStack
+mozilla
+:
+:
+StyleStackSizing
+mStackSizing
 ;
 }
 ;

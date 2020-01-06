@@ -21125,6 +21125,16 @@ other_values
 "
 ignore
 "
+"
+ignore
+-
+horizontal
+"
+"
+ignore
+-
+vertical
+"
 ]
 invalid_values
 :
