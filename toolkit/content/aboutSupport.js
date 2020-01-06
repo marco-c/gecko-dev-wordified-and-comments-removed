@@ -1727,6 +1727,9 @@ Touch
 "
 Drag
 "
+"
+Keyboard
+"
 ]
 )
 {
