@@ -149,7 +149,8 @@ void
 *
 m
 =
-moz_xmalloc
+operator
+new
 (
 size
 .
