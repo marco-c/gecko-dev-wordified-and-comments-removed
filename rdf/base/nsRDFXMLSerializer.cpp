@@ -711,10 +711,7 @@ mDataSource
 >
 GetURI
 (
-getter_Copies
-(
 mBaseURLSpec
-)
 )
 ;
 RefPtr

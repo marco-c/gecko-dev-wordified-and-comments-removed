@@ -183,7 +183,7 @@ datasources
 /
 readonly
 attribute
-string
+ACString
 URI
 ;
 /
