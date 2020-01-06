@@ -552,10 +552,7 @@ rc
 '
 DEFFILE
 =
-SRCDIR
-+
 '
-/
 libEGL
 .
 def

@@ -160,10 +160,7 @@ IID_ISimpleDOMNode
 '
 DEFFILE
 =
-SRCDIR
-+
 '
-/
 AccessibleMarshal
 .
 def
