@@ -1186,6 +1186,10 @@ gfxContentType
 :
 SENTINEL
 )
+mDidSelfCopy
+(
+false
+)
 {
 }
 nsIntRegion
@@ -1202,6 +1206,9 @@ mClip
 ;
 ContentType
 mContentType
+;
+bool
+mDidSelfCopy
 ;
 }
 ;
