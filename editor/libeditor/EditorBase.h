@@ -2939,7 +2939,7 @@ const
 return
 !
 !
-mSelectionControllerWeak
+mSelectionController
 ;
 }
 bool
@@ -3149,11 +3149,11 @@ aHide
 ;
 private
 :
-CachedWeakPtr
+nsCOMPtr
 <
 nsISelectionController
 >
-mSelectionControllerWeak
+mSelectionController
 ;
 CachedWeakPtr
 <
