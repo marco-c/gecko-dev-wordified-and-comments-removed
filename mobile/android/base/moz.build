@@ -4547,17 +4547,6 @@ homepanel
 /
 topsites
 /
-CirclePageIndicator
-.
-java
-'
-'
-activitystream
-/
-homepanel
-/
-topsites
-/
 TopSitesCard
 .
 java
