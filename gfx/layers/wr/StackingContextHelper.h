@@ -383,6 +383,16 @@ IsBackfaceVisible
 )
 ;
 }
+bool
+HasPerspectiveTransform
+(
+)
+const
+{
+return
+mHasPerspectiveTransform
+;
+}
 private
 :
 wr
@@ -400,6 +410,9 @@ gfx
 :
 Matrix4x4
 mTransform
+;
+bool
+mHasPerspectiveTransform
 ;
 float
 mXScale
