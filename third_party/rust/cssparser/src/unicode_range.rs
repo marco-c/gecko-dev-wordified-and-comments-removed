@@ -373,7 +373,7 @@ after_number
 =
 input
 .
-position
+state
 (
 )
 ;
@@ -442,6 +442,7 @@ input
 .
 reset
 (
+&
 after_number
 )
 }
@@ -480,11 +481,11 @@ Parser
 loop
 {
 let
-position
+start
 =
 input
 .
-position
+state
 (
 )
 ;
@@ -520,7 +521,8 @@ input
 .
 reset
 (
-position
+&
+start
 )
 ;
 return
