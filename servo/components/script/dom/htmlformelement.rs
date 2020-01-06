@@ -879,7 +879,7 @@ dom
 fs
 -
 action
-make_string_or_document_url_getter
+make_form_action_getter
 !
 (
 Action
