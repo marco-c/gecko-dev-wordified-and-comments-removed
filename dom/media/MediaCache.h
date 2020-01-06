@@ -345,13 +345,6 @@ AreAllStreamsForResourceSuspended
 (
 )
 ;
-nsresult
-Seek
-(
-int64_t
-aOffset
-)
-;
 int64_t
 Tell
 (
@@ -683,6 +676,13 @@ Span
 char
 >
 aBuffer
+)
+;
+nsresult
+Seek
+(
+int64_t
+aOffset
 )
 ;
 int64_t
