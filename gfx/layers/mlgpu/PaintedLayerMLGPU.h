@@ -290,6 +290,11 @@ aBuilder
 override
 ;
 void
+ComputeDrawRegion
+(
+)
+;
+void
 CleanupResources
 (
 )
