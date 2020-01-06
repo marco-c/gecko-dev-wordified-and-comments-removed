@@ -783,7 +783,6 @@ UNKNOWN_BODY_SIZE
 return
 ;
 }
-return
 GetUnfilteredBody
 (
 aStream

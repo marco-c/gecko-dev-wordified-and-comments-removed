@@ -3084,7 +3084,9 @@ nsAutoCString
 contentTypeWithCharset
 ;
 uint64_t
-contentLengthUnused
+contentLength
+=
+0
 ;
 aRv
 =
@@ -3096,7 +3098,7 @@ getter_AddRefs
 stream
 )
 contentTypeWithCharset
-contentLengthUnused
+contentLength
 )
 ;
 if
@@ -3203,6 +3205,7 @@ request
 SetBody
 (
 nullptr
+0
 )
 ;
 }
@@ -3212,6 +3215,7 @@ request
 SetBody
 (
 temporaryBody
+contentLength
 )
 ;
 }
@@ -3287,6 +3291,7 @@ inputReq
 SetBody
 (
 nullptr
+0
 )
 ;
 inputReq
