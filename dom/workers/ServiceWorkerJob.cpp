@@ -848,7 +848,7 @@ SuppressException
 (
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 ServiceWorkerJob

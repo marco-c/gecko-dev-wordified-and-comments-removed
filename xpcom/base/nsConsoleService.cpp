@@ -1336,7 +1336,7 @@ if
 retiredMessage
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsConsoleService

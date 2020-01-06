@@ -12605,7 +12605,7 @@ len
 )
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 DataChannelBlobSendRunnable

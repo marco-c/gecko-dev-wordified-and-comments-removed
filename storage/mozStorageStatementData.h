@@ -179,7 +179,7 @@ StatementData
 (
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 StatementData

@@ -894,7 +894,7 @@ self
 =
 this
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 MainThreadHandoff

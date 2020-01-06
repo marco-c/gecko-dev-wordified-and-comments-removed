@@ -3448,7 +3448,7 @@ pressure
 ;
 }
 }
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 Console
@@ -3463,7 +3463,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 Console

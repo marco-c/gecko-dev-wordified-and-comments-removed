@@ -2847,7 +2847,7 @@ AudioProxyThread
 (
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 AudioProxyThread

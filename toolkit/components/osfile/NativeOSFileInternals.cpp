@@ -1552,7 +1552,7 @@ rv
 )
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 AbstractDoEvent
@@ -1615,7 +1615,7 @@ rv
 )
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 AbstractDoEvent
@@ -2310,7 +2310,7 @@ mResult
 return
 ;
 }
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 DoReadToTypedArrayEvent
@@ -2465,7 +2465,7 @@ mResult
 return
 ;
 }
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 DoReadToStringEvent

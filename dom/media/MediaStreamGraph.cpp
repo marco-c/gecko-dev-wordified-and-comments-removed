@@ -8971,7 +8971,7 @@ Start
 (
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 MediaStreamGraphImpl

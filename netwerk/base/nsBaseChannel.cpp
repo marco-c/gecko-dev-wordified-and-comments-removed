@@ -298,7 +298,7 @@ nsBaseChannel
 (
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsBaseChannel

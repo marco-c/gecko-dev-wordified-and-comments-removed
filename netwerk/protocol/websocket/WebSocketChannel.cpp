@@ -5370,7 +5370,7 @@ PopFront
 delete
 mCurrentOut
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WebSocketChannel
@@ -5385,7 +5385,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WebSocketChannel
@@ -5404,7 +5404,7 @@ mListenerMT
 =
 nullptr
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WebSocketChannel
@@ -5419,7 +5419,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WebSocketChannel
@@ -5434,7 +5434,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WebSocketChannel
@@ -11093,7 +11093,7 @@ if
 mOpenedHttpChannel
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WebSocketChannel
@@ -11108,7 +11108,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WebSocketChannel
@@ -11123,7 +11123,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WebSocketChannel
@@ -11138,7 +11138,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WebSocketChannel

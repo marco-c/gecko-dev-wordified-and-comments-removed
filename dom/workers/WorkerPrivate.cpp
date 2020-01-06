@@ -16918,7 +16918,7 @@ Length
 index
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WorkerDebugger

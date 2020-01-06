@@ -558,6 +558,11 @@ ErrorResult
 aRv
 )
 ;
+void
+ReleaseSelf
+(
+)
+;
 RefPtr
 <
 nsDOMDataChannel

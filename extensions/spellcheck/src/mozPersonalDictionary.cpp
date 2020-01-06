@@ -247,7 +247,7 @@ SyncLoad
 (
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 mozPersonalDictionaryLoader
@@ -566,7 +566,7 @@ Notify
 )
 ;
 }
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 mozPersonalDictionarySave

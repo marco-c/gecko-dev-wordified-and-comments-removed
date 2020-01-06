@@ -1518,7 +1518,7 @@ MOZ_ASSERT
 mListener
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 BaseWebSocketChannel
@@ -1536,7 +1536,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 BaseWebSocketChannel

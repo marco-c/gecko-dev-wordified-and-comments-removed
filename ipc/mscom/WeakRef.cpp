@@ -631,7 +631,7 @@ self
 =
 this
 ;
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 WeakReferenceSupport

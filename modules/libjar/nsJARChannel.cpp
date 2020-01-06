@@ -730,7 +730,7 @@ nsJARChannel
 (
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsJARChannel
