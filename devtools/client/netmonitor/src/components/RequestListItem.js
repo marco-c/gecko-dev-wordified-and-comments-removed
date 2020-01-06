@@ -540,13 +540,6 @@ PropTypes
 func
 .
 isRequired
-onThumbnailMouseDown
-:
-PropTypes
-.
-func
-.
-isRequired
 onWaterfallMouseDown
 :
 PropTypes
@@ -701,7 +694,6 @@ onContextMenu
 onMouseDown
 onCauseBadgeMouseDown
 onSecurityIconMouseDown
-onThumbnailMouseDown
 onWaterfallMouseDown
 }
 =
@@ -837,7 +829,6 @@ RequestListColumnFile
 (
 {
 item
-onThumbnailMouseDown
 }
 )
 columns
