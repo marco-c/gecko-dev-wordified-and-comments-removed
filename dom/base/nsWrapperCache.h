@@ -109,13 +109,7 @@ _M_X64
 |
 defined
 (
-__x86_64__
-)
-|
-|
-defined
-(
-__aarch64__
+__LP64__
 )
 static_assert
 (
