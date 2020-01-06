@@ -2530,6 +2530,13 @@ if
 newTabParent
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 if
 (
 aAction
@@ -2725,7 +2732,7 @@ mOrigin
 InputContext
 :
 :
-ORIGIN_CONTENT
+ORIGIN_MAIN
 )
 {
 setIMEState
