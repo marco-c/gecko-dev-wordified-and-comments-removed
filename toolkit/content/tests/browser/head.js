@@ -1063,6 +1063,14 @@ this
 .
 panel
 .
+hidePopup
+(
+)
+;
+this
+.
+panel
+.
 closePicker
 (
 )

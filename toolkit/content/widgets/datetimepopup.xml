@@ -778,12 +778,6 @@ src
 ;
 this
 .
-hidePopup
-(
-)
-;
-this
-.
 hidden
 =
 true
@@ -2267,6 +2261,12 @@ ClosePopup
 "
 :
 {
+this
+.
+hidePopup
+(
+)
+;
 this
 .
 closePicker

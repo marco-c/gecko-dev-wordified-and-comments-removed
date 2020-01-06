@@ -390,6 +390,14 @@ PickerClosed
 }
 this
 .
+picker
+.
+closePicker
+(
+)
+;
+this
+.
 close
 (
 )
