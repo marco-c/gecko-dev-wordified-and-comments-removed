@@ -72,17 +72,6 @@ Security
 <
 !
 ENTITY
-phishingProtection
-.
-label
-"
-Phishing
-Protection
-"
->
-<
-!
-ENTITY
 warnOnAddonInstall
 .
 label
