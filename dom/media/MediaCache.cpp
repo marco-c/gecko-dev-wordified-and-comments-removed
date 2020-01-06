@@ -2255,7 +2255,7 @@ mEntries
 .
 RemoveEntry
 (
-aBlockIndex1
+e1
 )
 ;
 e2
@@ -2291,7 +2291,7 @@ mEntries
 .
 RemoveEntry
 (
-aBlockIndex2
+e2
 )
 ;
 }
