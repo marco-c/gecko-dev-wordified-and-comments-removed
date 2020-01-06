@@ -4792,6 +4792,14 @@ Wno
 -
 varargs
 '
+'
+-
+Wno
+-
+unknown
+-
+pragmas
+'
 ]
 if
 CONFIG
