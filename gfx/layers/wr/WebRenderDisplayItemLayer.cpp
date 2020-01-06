@@ -917,12 +917,12 @@ imageRect
 offset
 )
 ;
-WrClipRegion
+WrClipRegionToken
 clipRegion
 =
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 dest
 )

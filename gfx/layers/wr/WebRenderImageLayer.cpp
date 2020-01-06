@@ -496,7 +496,7 @@ Then
 AbstractThread
 :
 :
-MainThread
+GetCurrent
 (
 )
 __func__
@@ -933,12 +933,12 @@ BuildWrMaskLayer
 sc
 )
 ;
-WrClipRegion
+WrClipRegionToken
 clip
 =
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 sc
 .

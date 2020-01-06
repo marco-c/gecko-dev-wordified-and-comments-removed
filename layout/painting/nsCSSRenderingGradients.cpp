@@ -6285,7 +6285,7 @@ PushLinearGradient
 wrGradientBounds
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 wrClipBounds
 )
@@ -6361,7 +6361,7 @@ PushRadialGradient
 wrGradientBounds
 aBuilder
 .
-BuildClipRegion
+PushClipRegion
 (
 wrClipBounds
 )

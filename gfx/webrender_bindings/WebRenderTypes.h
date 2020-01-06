@@ -2614,12 +2614,6 @@ dl
 WrBuiltDisplayListDescriptor
 dl_desc
 ;
-VecU8
-aux
-;
-WrAuxiliaryListsDescriptor
-aux_desc
-;
 }
 ;
 }
