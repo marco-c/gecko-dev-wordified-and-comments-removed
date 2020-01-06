@@ -4830,10 +4830,14 @@ COPY_CODES
 else
 if
 (
+(
 origBytes
 [
 nOrigBytes
 ]
+&
+0xf8
+)
 =
 =
 0xb8
