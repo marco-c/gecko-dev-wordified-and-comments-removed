@@ -175,9 +175,6 @@ protocol
 PPaymentRequest
 ;
 include
-PBackgroundSharedTypes
-;
-include
 DOMTypes
 ;
 include
@@ -1597,8 +1594,6 @@ nsString
 [
 ]
 aLinks
-PrincipalInfo
-aTriggeringPrincipalInfo
 )
 ;
 async
