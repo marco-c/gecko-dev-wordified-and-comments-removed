@@ -10541,10 +10541,8 @@ av1_setup_dst_planes
 (
 struct
 macroblockd_plane
+*
 planes
-[
-MAX_MB_PLANE
-]
 BLOCK_SIZE
 bsize
 const

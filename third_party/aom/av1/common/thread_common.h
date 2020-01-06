@@ -124,10 +124,8 @@ AV1Common
 cm
 struct
 macroblockd_plane
+*
 planes
-[
-MAX_MB_PLANE
-]
 int
 frame_filter_level
 #
