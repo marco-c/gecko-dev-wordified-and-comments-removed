@@ -666,7 +666,6 @@ WebRender
 compositor
 .
 "
-}
       
 }
 ]
