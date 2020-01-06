@@ -235,9 +235,6 @@ presentation
 ;
 [
 SecureContext
-Exposed
-=
-Window
 ]
 interface
 Presentation
@@ -256,6 +253,7 @@ defaultRequest
 }
 ;
 [
+SecureContext
 Constructor
 (
 USVString
@@ -269,10 +267,6 @@ USVString
 >
 urls
 )
-SecureContext
-Exposed
-=
-Window
 ]
 interface
 PresentationRequest
@@ -313,9 +307,6 @@ onconnectionavailable
 ;
 [
 SecureContext
-Exposed
-=
-Window
 ]
 interface
 PresentationAvailability
@@ -334,6 +325,7 @@ onchange
 }
 ;
 [
+SecureContext
 Constructor
 (
 DOMString
@@ -341,10 +333,6 @@ type
 PresentationConnectionAvailableEventInit
 eventInitDict
 )
-SecureContext
-Exposed
-=
-Window
 ]
 interface
 PresentationConnectionAvailableEvent
@@ -402,9 +390,6 @@ arraybuffer
 ;
 [
 SecureContext
-Exposed
-=
-Window
 ]
 interface
 PresentationConnection
@@ -504,6 +489,7 @@ wentaway
 }
 ;
 [
+SecureContext
 Constructor
 (
 DOMString
@@ -511,10 +497,6 @@ type
 PresentationConnectionCloseEventInit
 eventInitDict
 )
-SecureContext
-Exposed
-=
-Window
 ]
 interface
 PresentationConnectionCloseEvent

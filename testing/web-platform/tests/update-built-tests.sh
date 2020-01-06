@@ -17,8 +17,6 @@ tools
 build
 .
 sh
-infrastructure
-/
 assumptions
 /
 tools

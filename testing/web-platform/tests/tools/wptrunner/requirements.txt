@@ -22,7 +22,3 @@ mozdebug
 0
 .
 1
-urllib3
-[
-secure
-]

@@ -201,7 +201,7 @@ store
 )
 ;
 const
-array
+buffer
 =
 new
 Uint8Array
@@ -213,17 +213,12 @@ Uint8Array
 4
 ]
 )
-;
-const
-buffer
-=
-array
 .
 buffer
 ;
 assert_equals
 (
-array
+buffer
 .
 byteLength
 4
@@ -273,7 +268,7 @@ buffer
 ;
 assert_equals
 (
-array
+buffer
 .
 byteLength
 0
