@@ -1714,9 +1714,6 @@ StaticRefPtr
 StyleAnimation
 "
 "
-StyleBasicShape
-"
-"
 StyleBasicShapeType
 "
 "
@@ -3005,9 +3002,6 @@ ServoStyleSetSizes
 "
 "
 SheetParsingMode
-"
-"
-StyleBasicShape
 "
 "
 StyleBasicShapeType

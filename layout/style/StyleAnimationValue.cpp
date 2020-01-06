@@ -23282,8 +23282,11 @@ box
 )
 ;
 const
+UniquePtr
+<
 StyleBasicShape
-*
+>
+&
 shape
 =
 aShapeSource
