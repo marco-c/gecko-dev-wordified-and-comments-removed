@@ -178,6 +178,12 @@ GamepadBinding
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+layers
+{
 struct
 ShaderBytes
 {
@@ -199,6 +205,8 @@ extern
 ShaderBytes
 sLayerQuadVS
 ;
+}
+}
 #
 ifndef
 M_PI
