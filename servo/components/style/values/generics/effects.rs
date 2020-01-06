@@ -279,6 +279,7 @@ HeapSizeOf
 derive
 (
 Clone
+ComputeSquaredDistance
 Debug
 HasViewportPercentage
 PartialEq

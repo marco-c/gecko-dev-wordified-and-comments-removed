@@ -547,9 +547,16 @@ HeapSizeOf
 derive
 (
 Clone
+ComputeSquaredDistance
 Copy
 Debug
 PartialEq
+)
+]
+#
+[
+derive
+(
 HasViewportPercentage
 ToAnimatedValue
 ToComputedValue
@@ -589,6 +596,7 @@ HeapSizeOf
 derive
 (
 Clone
+ComputeSquaredDistance
 Debug
 PartialEq
 HasViewportPercentage
@@ -784,6 +792,7 @@ HeapSizeOf
 derive
 (
 Clone
+ComputeSquaredDistance
 Copy
 Debug
 PartialEq

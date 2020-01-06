@@ -88,6 +88,10 @@ computed
 ;
 pub
 mod
+distance
+;
+pub
+mod
 generics
 ;
 pub
@@ -251,9 +255,16 @@ HeapSizeOf
 derive
 (
 Clone
+ComputeSquaredDistance
 Copy
 HasViewportPercentage
 PartialEq
+)
+]
+#
+[
+derive
+(
 ToAnimatedValue
 ToComputedValue
 ToCss

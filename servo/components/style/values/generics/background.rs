@@ -3,6 +3,7 @@
 derive
 (
 Clone
+ComputeSquaredDistance
 Copy
 Debug
 HasViewportPercentage

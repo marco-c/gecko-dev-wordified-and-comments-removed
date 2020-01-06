@@ -522,6 +522,7 @@ HeapSizeOf
 derive
 (
 Clone
+ComputeSquaredDistance
 Copy
 PartialEq
 ToCss
