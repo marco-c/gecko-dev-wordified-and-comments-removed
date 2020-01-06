@@ -3452,12 +3452,6 @@ stylothreads
 :
 0
                 
-'
-subtests
-'
-:
-None
-                
 }
     
 browser_config
