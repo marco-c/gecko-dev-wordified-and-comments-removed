@@ -106,6 +106,11 @@ nsIEventTarget
 aEventTarget
 )
 ;
+nsresult
+EnsureAsyncRemoteStream
+(
+)
+;
 bool
 IsFileMetadata
 (
@@ -132,6 +137,12 @@ nsCOMPtr
 nsIInputStream
 >
 mRemoteStream
+;
+nsCOMPtr
+<
+nsIAsyncInputStream
+>
+mAsyncRemoteStream
 ;
 nsCOMPtr
 <
