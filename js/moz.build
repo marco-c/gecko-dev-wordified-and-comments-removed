@@ -166,6 +166,9 @@ inclusive
 '
 jittest
 '
+'
+jsreftest
+'
 ]
 with
 Files
@@ -186,5 +189,8 @@ inclusive
 [
 '
 jittest
+'
+'
+jsreftest
 '
 ]

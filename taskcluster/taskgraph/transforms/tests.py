@@ -2329,6 +2329,17 @@ changed
 [
 basestring
 ]
+        
+Optional
+(
+'
+schedules
+'
+)
+:
+[
+basestring
+]
     
 }
 )
@@ -7277,7 +7288,8 @@ platform
         
 }
         
-if
+when
+=
 test
 .
 get
@@ -7286,6 +7298,17 @@ get
 when
 '
 )
+        
+if
+when
+and
+'
+files
+-
+changed
+'
+in
+when
 :
             
 jobdesc
@@ -7295,12 +7318,7 @@ when
 '
 ]
 =
-test
-[
-'
 when
-'
-]
         
 else
 :
@@ -7321,6 +7339,28 @@ platform
 ]
 )
 ]
+            
+if
+when
+and
+'
+schedules
+'
+in
+when
+:
+                
+schedules
+.
+extend
+(
+when
+[
+'
+schedules
+'
+]
+)
             
 if
 config

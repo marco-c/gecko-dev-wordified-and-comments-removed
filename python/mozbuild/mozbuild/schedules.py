@@ -58,6 +58,10 @@ lint
 '
 jittest
 '
+    
+'
+jsreftest
+'
 ]
 INCLUSIVE_COMPONENTS
 =
