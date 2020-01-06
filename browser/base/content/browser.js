@@ -7144,12 +7144,6 @@ init
 (
 )
 ;
-CaptivePortalWatcher
-.
-init
-(
-)
-;
 FullZoomUI
 .
 init
@@ -9574,6 +9568,12 @@ hidePopup
 }
 }
 }
+)
+;
+CaptivePortalWatcher
+.
+init
+(
 )
 ;
 this
