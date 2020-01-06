@@ -5455,11 +5455,11 @@ nsIDocShellLoadInfo
 :
 loadReloadCharsetChangeBypassProxyAndCache
 :
-break
-;
 loadType
 =
 LOAD_RELOAD_CHARSET_CHANGE_BYPASS_PROXY_AND_CACHE
+;
+break
 ;
 case
 nsIDocShellLoadInfo
