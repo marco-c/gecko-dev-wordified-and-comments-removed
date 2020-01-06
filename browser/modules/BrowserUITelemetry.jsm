@@ -483,9 +483,10 @@ button
 }
 if
 (
+!
 AppConstants
 .
-NIGHTLY_BUILD
+RELEASE_OR_BETA
 )
 {
 if

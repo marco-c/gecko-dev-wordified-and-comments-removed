@@ -151,6 +151,11 @@ recipe
 -
 client
 '
+'
+webcompat
+-
+reporter
+'
 ]
 #
 Only
@@ -205,10 +210,5 @@ DIRS
 activity
 -
 stream
-'
-'
-webcompat
--
-reporter
 '
 ]
