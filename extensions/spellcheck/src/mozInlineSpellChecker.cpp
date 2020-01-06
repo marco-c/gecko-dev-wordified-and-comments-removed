@@ -4488,7 +4488,7 @@ IsContent
 )
 )
 return
-true
+false
 ;
 nsIContent
 *
