@@ -947,6 +947,11 @@ SetInactiveOnFinish
 (
 )
 ;
+TrackRate
+GraphRate
+(
+)
+;
 nsIPrincipal
 *
 GetPrincipal
