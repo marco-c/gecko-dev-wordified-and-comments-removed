@@ -1,13 +1,4 @@
 var
-BUGNUMBER
-=
-"
-(
-none
-)
-"
-;
-var
 summary
 =
 "
@@ -23,11 +14,6 @@ pi
 var
 actual
 expect
-;
-printBugNumber
-(
-BUGNUMBER
-)
 ;
 printStatus
 (

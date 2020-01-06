@@ -30,13 +30,6 @@ x
 )
 "
 ;
-var
-BUGNUMBER
-=
-"
-none
-"
-;
 writeHeaderToLog
 (
 SECTION

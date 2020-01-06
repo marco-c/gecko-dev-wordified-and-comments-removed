@@ -1,13 +1,4 @@
 var
-BUGNUMBER
-=
-"
-(
-none
-)
-"
-;
-var
 summary
 =
 "
@@ -21,11 +12,6 @@ multiplication
 var
 actual
 expect
-;
-printBugNumber
-(
-BUGNUMBER
-)
 ;
 printStatus
 (

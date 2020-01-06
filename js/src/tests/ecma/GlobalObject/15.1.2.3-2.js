@@ -20,13 +20,6 @@ VERSION
 ECMA_1
 "
 ;
-var
-BUGNUMBER
-=
-"
-none
-"
-;
 new
 TestCase
 (
