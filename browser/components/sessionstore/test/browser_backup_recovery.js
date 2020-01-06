@@ -139,6 +139,12 @@ test_creation
 (
 )
 {
+SessionSaver
+.
+cancel
+(
+)
+;
 let
 OLD_BACKUP
 =
