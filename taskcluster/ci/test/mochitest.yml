@@ -221,6 +221,7 @@ opt
 10
 linux64
 -
+.
 *
 cov
 /
@@ -282,13 +283,6 @@ api
 debug
 :
 7200
-linux64
--
-jsdcov
-/
-opt
-:
-10800
 default
 :
 5400
@@ -547,13 +541,6 @@ asan
 opt
 :
 16
-linux64
--
-jsdcov
-/
-opt
-:
-35
 default
 :
 7
