@@ -5087,17 +5087,6 @@ case
 roles
 :
 :
-SEPARATOR
-:
-return
-"
-AXContentSeparator
-"
-;
-case
-roles
-:
-:
 PROPERTYPAGE
 :
 return
