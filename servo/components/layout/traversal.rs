@@ -445,8 +445,6 @@ is_none
 |
 parent_data
 .
-restyle
-.
 damage
 !
 =

@@ -2015,8 +2015,6 @@ has_styles
 !
 data
 .
-restyle
-.
 hint
 .
 has_animation_hint_or_recascade
@@ -2072,8 +2070,6 @@ has_styles
 !
 data
 .
-restyle
-.
 hint
 .
 has_non_animation_invalidations
@@ -2122,8 +2118,6 @@ has_styles
 &
 !
 data
-.
-restyle
 .
 hint
 .
@@ -2536,8 +2530,6 @@ false
 ;
 return
 data
-.
-restyle
 .
 hint
 .

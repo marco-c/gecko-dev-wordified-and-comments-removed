@@ -136,16 +136,12 @@ unwrap
 if
 first_data
 .
-restyle
-.
 traversed_without_styling
 (
 )
 |
 |
 second_data
-.
-restyle
 .
 traversed_without_styling
 (

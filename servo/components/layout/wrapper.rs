@@ -689,8 +689,6 @@ borrow
 (
 )
 .
-restyle
-.
 damage
 }
 }
