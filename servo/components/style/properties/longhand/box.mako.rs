@@ -15228,7 +15228,7 @@ True
 animation_value_type
 =
 "
-discrete
+ComputedValue
 "
 flags
 =
