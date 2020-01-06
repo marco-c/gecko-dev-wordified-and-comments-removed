@@ -350,10 +350,12 @@ static
 T
 extractUnbarriered
 (
+const
 WriteBarrieredBase
 <
 T
 >
+&
 v
 )
 {
