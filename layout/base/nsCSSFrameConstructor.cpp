@@ -29245,6 +29245,15 @@ aTargetContentDisplay
 aParentFrame
 )
 ;
+if
+(
+sibling
+)
+{
+return
+sibling
+;
+}
 }
 if
 (
