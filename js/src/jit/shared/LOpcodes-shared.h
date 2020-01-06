@@ -1923,7 +1923,12 @@ CallDOMNative
 \
 _
 (
-IsCallable
+IsCallableO
+)
+\
+_
+(
+IsCallableV
 )
 \
 _
