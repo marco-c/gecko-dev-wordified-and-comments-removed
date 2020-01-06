@@ -300,6 +300,9 @@ user_id
 run_interval_seconds
 :
 86400
+first_run
+:
+true
 }
 ;
 const
