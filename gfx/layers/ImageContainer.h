@@ -1675,6 +1675,11 @@ AllocateProducerID
 (
 )
 ;
+void
+DropImageClient
+(
+)
+;
 private
 :
 typedef
