@@ -111,7 +111,7 @@ aOther
 )
 const
 ;
-uint32_t
+PLDHashNumber
 Hash
 (
 )
@@ -153,7 +153,7 @@ mControlledDocument
 private
 :
 static
-uint32_t
+PLDHashNumber
 ComputeHash
 (
 ImageURL
@@ -204,7 +204,7 @@ void
 *
 mControlledDocument
 ;
-uint32_t
+PLDHashNumber
 mHash
 ;
 bool

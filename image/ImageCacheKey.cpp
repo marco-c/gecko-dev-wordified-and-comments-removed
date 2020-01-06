@@ -572,7 +572,7 @@ Spec
 )
 ;
 }
-uint32_t
+PLDHashNumber
 ImageCacheKey
 :
 :

@@ -396,7 +396,7 @@ friend
 class
 ImageCacheKey
 ;
-uint32_t
+PLDHashNumber
 ComputeHash
 (
 const
