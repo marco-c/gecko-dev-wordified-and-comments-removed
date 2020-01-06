@@ -196,7 +196,7 @@ stack
 "
 )
 ;
-JS_smprintf_free
+js_free
 (
 jsstack
 )

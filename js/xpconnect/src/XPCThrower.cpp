@@ -344,7 +344,7 @@ sz
 =
 format
 )
-JS_smprintf_free
+js_free
 (
 sz
 )
@@ -515,7 +515,7 @@ if
 (
 sz
 )
-JS_smprintf_free
+js_free
 (
 sz
 )
@@ -620,7 +620,7 @@ if
 (
 sz
 )
-JS_smprintf_free
+js_free
 (
 sz
 )
@@ -762,7 +762,7 @@ if
 (
 own
 )
-JS_smprintf_free
+js_free
 (
 *
 psz
