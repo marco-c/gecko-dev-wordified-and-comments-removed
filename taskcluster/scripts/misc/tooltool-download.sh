@@ -183,5 +183,13 @@ TOOLTOOL_CACHE
 -
 retry
 5
+{
+MOZ_TOOLCHAINS
+:
++
+{
+MOZ_TOOLCHAINS
+}
+}
 cd
 OLDPWD

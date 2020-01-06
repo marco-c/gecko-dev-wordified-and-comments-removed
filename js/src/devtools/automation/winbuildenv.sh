@@ -327,6 +327,14 @@ dir
 TOOLTOOL_CACHE
 }
 }
+{
+MOZ_TOOLCHAINS
+:
++
+{
+MOZ_TOOLCHAINS
+}
+}
 )
 fi
 fi
