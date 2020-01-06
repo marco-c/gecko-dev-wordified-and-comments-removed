@@ -175,13 +175,6 @@ js
 "
 )
 ;
-initTestLogging
-(
-"
-Trace
-"
-)
-;
 const
 bms
 =
@@ -189,6 +182,28 @@ PlacesUtils
 .
 bookmarks
 ;
+let
+engine
+;
+let
+store
+;
+add_task
+(
+async
+function
+setup
+(
+)
+{
+initTestLogging
+(
+"
+Trace
+"
+)
+;
+await
 Service
 .
 engineManager
@@ -198,16 +213,19 @@ register
 BookmarksEngine
 )
 ;
-const
 engine
 =
-new
-BookmarksEngine
-(
 Service
+.
+engineManager
+.
+get
+(
+"
+bookmarks
+"
 )
 ;
-const
 store
 =
 engine
@@ -238,9 +256,12 @@ Level
 .
 Trace
 ;
+}
+)
+;
 async
 function
-setup
+sharedSetup
 (
 )
 {
@@ -343,6 +364,7 @@ finish
 "
 )
 ;
+await
 Service
 .
 startOver
@@ -376,7 +398,6 @@ syncId
 let
 guid
 =
-await
 PlacesSyncUtils
 .
 bookmarks
@@ -1025,7 +1046,7 @@ collection
 await
 this
 .
-setup
+sharedSetup
 (
 )
 ;
@@ -1084,6 +1105,7 @@ Firefox
 "
 )
 ;
+await
 engine
 .
 sync
@@ -1311,6 +1333,7 @@ lastSync
 -
 5
 ;
+await
 engine
 .
 sync
@@ -1463,7 +1486,7 @@ collection
 await
 this
 .
-setup
+sharedSetup
 (
 )
 ;
@@ -1560,6 +1583,7 @@ bmk1_guid
 }
 )
 ;
+await
 engine
 .
 sync
@@ -1698,6 +1722,7 @@ lastSync
 -
 5
 ;
+await
 engine
 .
 sync
@@ -1888,7 +1913,7 @@ collection
 await
 this
 .
-setup
+sharedSetup
 (
 )
 ;
@@ -1985,6 +2010,7 @@ bmk1_guid
 }
 )
 ;
+await
 engine
 .
 sync
@@ -2158,6 +2184,7 @@ lastSync
 -
 5
 ;
+await
 engine
 .
 sync
@@ -2355,7 +2382,7 @@ collection
 await
 this
 .
-setup
+sharedSetup
 (
 )
 ;
@@ -2450,6 +2477,7 @@ folder2_guid
 }
 )
 ;
+await
 engine
 .
 sync
@@ -2692,6 +2720,7 @@ lastSync
 -
 5
 ;
+await
 engine
 .
 sync
@@ -2715,6 +2744,7 @@ length
 let
 newParentID
 =
+await
 store
 .
 idForGUID
@@ -2725,6 +2755,7 @@ newParentGUID
 let
 newID
 =
+await
 store
 .
 idForGUID
@@ -2819,7 +2850,7 @@ collection
 await
 this
 .
-setup
+sharedSetup
 (
 )
 ;
@@ -2914,6 +2945,7 @@ folder2_guid
 }
 )
 ;
+await
 engine
 .
 sync
@@ -3160,6 +3192,7 @@ lastSync
 -
 5
 ;
+await
 engine
 .
 sync
@@ -3183,6 +3216,7 @@ length
 let
 newParentID
 =
+await
 store
 .
 idForGUID
@@ -3193,6 +3227,7 @@ newParentGUID
 let
 newID
 =
+await
 store
 .
 idForGUID
@@ -3286,7 +3321,7 @@ collection
 await
 this
 .
-setup
+sharedSetup
 (
 )
 ;
@@ -3381,6 +3416,7 @@ folder2_guid
 }
 )
 ;
+await
 engine
 .
 sync
@@ -3522,6 +3558,7 @@ lastSync
 -
 5
 ;
+await
 engine
 .
 sync
@@ -3611,11 +3648,14 @@ annotations
 .
 getItemAnnotation
 (
+(
+await
 store
 .
 idForGUID
 (
 newGUID
+)
 )
 "
 sync
@@ -3798,6 +3838,7 @@ lastSync
 -
 5
 ;
+await
 engine
 .
 sync
@@ -3821,6 +3862,7 @@ length
 let
 newParentID
 =
+await
 store
 .
 idForGUID
@@ -3831,6 +3873,7 @@ newParentGUID
 let
 newID
 =
+await
 store
 .
 idForGUID
@@ -3921,7 +3964,7 @@ collection
 await
 this
 .
-setup
+sharedSetup
 (
 )
 ;
@@ -3946,6 +3989,7 @@ Folder
 "
 )
 ;
+await
 engine
 .
 sync
@@ -4044,6 +4088,7 @@ lastSync
 -
 5
 ;
+await
 engine
 .
 sync

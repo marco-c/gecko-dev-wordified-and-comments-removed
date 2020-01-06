@@ -309,6 +309,7 @@ _store
 .
 applyIncoming
 =
+async
 function
 (
 record
@@ -372,12 +373,14 @@ err
 ;
 try
 {
+await
 engine
 .
 _syncStartup
 (
 )
 ;
+await
 engine
 .
 _processIncoming
@@ -428,6 +431,7 @@ error
 ;
 try
 {
+await
 engine
 .
 sync

@@ -68,7 +68,7 @@ js
 "
 )
 ;
-var
+let
 engine
 =
 new
@@ -77,7 +77,7 @@ BookmarksEngine
 Service
 )
 ;
-var
+let
 store
 =
 engine
@@ -156,6 +156,9 @@ return
 tagRecord
 ;
 }
+add_task
+(
+async
 function
 run_test
 (
@@ -269,6 +272,7 @@ tagRecord
 folderName
 )
 ;
+await
 store
 .
 applyIncoming
@@ -367,6 +371,7 @@ tagID
 let
 insertedRecord
 =
+await
 store
 .
 createRecord
@@ -442,6 +447,7 @@ fedcbafedcba
 wrongTypeURI
 )
 ;
+await
 store
 .
 applyIncoming
@@ -451,6 +457,7 @@ wrongTypeRecord
 ;
 insertedRecord
 =
+await
 store
 .
 createRecord
@@ -472,3 +479,5 @@ wrongTypeURI
 )
 ;
 }
+)
+;

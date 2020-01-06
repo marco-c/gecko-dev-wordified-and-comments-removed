@@ -53,6 +53,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -67,10 +70,18 @@ BookmarksEngine
 Service
 )
 ;
+await
+engine
+.
+initialize
+(
+)
+;
 engine
 .
 _syncStartup
 =
+async
 function
 (
 )
@@ -100,6 +111,7 @@ away
 "
 )
 ;
+await
 engine
 .
 _sync
@@ -152,3 +164,5 @@ FAIL
 ;
 }
 }
+)
+;

@@ -37,16 +37,6 @@ js
 )
 ;
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 PetrolEngine
 (
 )
@@ -156,8 +146,9 @@ actual
 "
 }
 ;
-add_test
+add_task
 (
+async
 function
 test_basics
 (
@@ -188,6 +179,7 @@ Service
 let
 engines
 =
+await
 manager
 .
 getAll
@@ -204,6 +196,8 @@ length
 ;
 do_check_eq
 (
+(
+await
 manager
 .
 get
@@ -211,6 +205,7 @@ get
 "
 dummy
 "
+)
 )
 undefined
 )
@@ -224,6 +219,7 @@ engine
 "
 )
 ;
+await
 manager
 .
 register
@@ -234,6 +230,7 @@ DummyEngine
 let
 dummy
 =
+await
 manager
 .
 get
@@ -252,6 +249,7 @@ DummyEngine
 ;
 engines
 =
+await
 manager
 .
 getAll
@@ -288,6 +286,7 @@ ignored
 "
 )
 ;
+await
 manager
 .
 register
@@ -297,6 +296,8 @@ DummyEngine
 ;
 do_check_eq
 (
+(
+await
 manager
 .
 get
@@ -304,6 +305,7 @@ get
 "
 dummy
 "
+)
 )
 dummy
 )
@@ -320,6 +322,7 @@ go
 "
 )
 ;
+await
 manager
 .
 register
@@ -333,6 +336,7 @@ DieselEngine
 let
 petrol
 =
+await
 manager
 .
 get
@@ -345,6 +349,7 @@ petrol
 let
 diesel
 =
+await
 manager
 .
 get
@@ -370,6 +375,7 @@ DieselEngine
 ;
 engines
 =
+await
 manager
 .
 getAll
@@ -422,6 +428,7 @@ go
 ;
 engines
 =
+await
 manager
 .
 get
@@ -483,6 +490,7 @@ engines
 ;
 engines
 =
+await
 manager
 .
 getEnabled
@@ -505,6 +513,7 @@ true
 ;
 engines
 =
+await
 manager
 .
 getEnabled
@@ -542,6 +551,7 @@ true
 ;
 engines
 =
+await
 manager
 .
 getEnabled
@@ -591,6 +601,7 @@ syncPriority
 ;
 engines
 =
+await
 manager
 .
 getEnabled
@@ -632,6 +643,7 @@ syncPriority
 ;
 engines
 =
+await
 manager
 .
 getEnabled
@@ -670,6 +682,8 @@ dummy
 ;
 do_check_eq
 (
+(
+await
 manager
 .
 get
@@ -678,11 +692,13 @@ get
 dummy
 "
 )
+)
 undefined
 )
 ;
 engines
 =
+await
 manager
 .
 getAll
@@ -720,6 +736,7 @@ value
 "
 )
 ;
+await
 manager
 .
 register
@@ -730,6 +747,7 @@ ActualEngine
 let
 actual
 =
+await
 manager
 .
 get
@@ -762,6 +780,8 @@ actual
 ;
 do_check_eq
 (
+(
+await
 manager
 .
 get
@@ -770,11 +790,8 @@ get
 actual
 "
 )
-undefined
 )
-;
-run_next_test
-(
+undefined
 )
 ;
 }

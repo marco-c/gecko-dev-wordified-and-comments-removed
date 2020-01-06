@@ -36,6 +36,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -226,6 +229,7 @@ _locked
 =
 true
 ;
+await
 Service
 .
 sync
@@ -299,3 +303,5 @@ syncing
 )
 ;
 }
+)
+;

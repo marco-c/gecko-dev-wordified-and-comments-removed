@@ -381,6 +381,7 @@ let
 requestor
 =
 {
+async
 startRepairs
 (
 validationInfo
@@ -541,6 +542,7 @@ let
 requestor
 =
 {
+async
 continueRepairs
 (
 )
@@ -726,6 +728,7 @@ let
 requestor
 =
 {
+async
 startRepairs
 (
 validationInfo

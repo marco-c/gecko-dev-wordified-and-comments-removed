@@ -497,6 +497,7 @@ successful
 let
 timestamp
 =
+await
 Service
 .
 wipeServer
@@ -780,6 +781,7 @@ error
 ;
 try
 {
+await
 Service
 .
 wipeServer
@@ -1040,6 +1042,7 @@ irrelevant
 let
 returnedTimestamp
 =
+await
 Service
 .
 wipeServer
@@ -1233,6 +1236,7 @@ irrelevant
 let
 returnedTimestamp
 =
+await
 Service
 .
 wipeServer
@@ -1401,6 +1405,7 @@ irrelevant
 "
 )
 ;
+await
 Service
 .
 wipeServer
@@ -1523,6 +1528,7 @@ deletion
 ;
 try
 {
+await
 Service
 .
 wipeServer

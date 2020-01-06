@@ -281,13 +281,6 @@ js
 "
 )
 ;
-initTestLogging
-(
-"
-Trace
-"
-)
-;
 function
 SteamStore
 (
@@ -392,6 +385,7 @@ SteamTracker
 _errToThrow
 :
 null
+async
 _sync
 (
 )
@@ -504,6 +498,21 @@ server
 )
 ;
 }
+add_task
+(
+async
+function
+setup
+(
+)
+{
+initTestLogging
+(
+"
+Trace
+"
+)
+;
 Service
 .
 engineManager
@@ -513,6 +522,9 @@ unregister
 "
 addons
 "
+)
+;
+}
 )
 ;
 add_task
@@ -831,6 +843,13 @@ BookmarksEngine
 Service
 )
 ;
+await
+engine
+.
+initialize
+(
+)
+;
 let
 store
 =
@@ -1108,6 +1127,7 @@ record_download_fail
 }
 finally
 {
+await
 store
 .
 wipe
@@ -1140,6 +1160,13 @@ new
 BookmarksEngine
 (
 Service
+)
+;
+await
+engine
+.
+initialize
+(
 )
 ;
 let
@@ -1313,12 +1340,14 @@ Title
 "
 )
 ;
+await
 store
 .
 wipe
 (
 )
 ;
+await
 engine
 .
 resetClient
@@ -1391,6 +1420,7 @@ incoming
 }
 finally
 {
+await
 store
 .
 wipe
@@ -2448,6 +2478,7 @@ enableValidationPrefs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -2625,6 +2656,7 @@ enableValidationPrefs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -3164,6 +3196,7 @@ enableValidationPrefs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -3477,6 +3510,7 @@ enableValidationPrefs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -3920,6 +3954,7 @@ i
 i
 )
 {
+await
 Service
 .
 sync
@@ -4017,6 +4052,7 @@ enableValidationPrefs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -4153,6 +4189,7 @@ enableValidationPrefs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -4347,6 +4384,7 @@ enableValidationPrefs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -4458,6 +4496,7 @@ enableValidationPrefs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -4873,6 +4912,7 @@ enableValidationPrefs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -5258,6 +5298,7 @@ telem
 .
 submit
 ;
+await
 Service
 .
 engineManager
@@ -5342,6 +5383,7 @@ result
 }
 )
 ;
+await
 Service
 .
 sync

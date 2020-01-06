@@ -57,6 +57,7 @@ js
 "
 )
 ;
+async
 function
 checkRecord
 (
@@ -172,10 +173,13 @@ do_check_true
 (
 !
 !
+(
+await
 store
 .
 getAllIDs
 (
+)
 )
 [
 record
@@ -265,10 +269,13 @@ else
 do_check_true
 (
 !
+(
+await
 store
 .
 getAllIDs
 (
+)
 )
 [
 record
@@ -282,6 +289,7 @@ return
 undefined
 ;
 }
+async
 function
 changePassword
 (
@@ -395,6 +403,8 @@ insert
 {
 do_check_eq
 (
+(
+await
 store
 .
 applyIncomingBatch
@@ -402,6 +412,7 @@ applyIncomingBatch
 [
 record
 ]
+)
 )
 .
 length
@@ -423,6 +434,7 @@ recordIsUpdated
 )
 ;
 }
+async
 function
 test_apply_records_with_times
 (
@@ -431,6 +443,7 @@ timeCreated
 timePasswordChanged
 )
 {
+await
 changePassword
 (
 "
@@ -448,11 +461,13 @@ true
 )
 ;
 }
+async
 function
 test_apply_multiple_records_with_times
 (
 )
 {
+await
 changePassword
 (
 "
@@ -480,6 +495,7 @@ undefined
 true
 )
 ;
+await
 changePassword
 (
 "
@@ -507,6 +523,7 @@ undefined
 true
 )
 ;
+await
 changePassword
 (
 "
@@ -534,6 +551,7 @@ undefined
 true
 )
 ;
+await
 changePassword
 (
 "
@@ -561,6 +579,7 @@ password
 true
 )
 ;
+await
 changePassword
 (
 "
@@ -588,6 +607,7 @@ undefined
 false
 )
 ;
+await
 changePassword
 (
 "
@@ -615,6 +635,7 @@ undefined
 false
 )
 ;
+await
 changePassword
 (
 "
@@ -642,6 +663,7 @@ undefined
 false
 )
 ;
+await
 changePassword
 (
 "
@@ -670,6 +692,7 @@ false
 )
 ;
 }
+async
 function
 test_apply_same_record_with_different_times
 (
@@ -682,6 +705,7 @@ timePasswordChanged
 ;
 timePasswordChanged
 =
+await
 changePassword
 (
 "
@@ -709,6 +733,7 @@ true
 ;
 timePasswordChanged
 =
+await
 changePassword
 (
 "
@@ -737,6 +762,7 @@ true
 ;
 timePasswordChanged
 =
+await
 changePassword
 (
 "
@@ -765,6 +791,7 @@ true
 ;
 timePasswordChanged
 =
+await
 changePassword
 (
 "
@@ -793,6 +820,7 @@ true
 ;
 timePasswordChanged
 =
+await
 changePassword
 (
 "
@@ -820,6 +848,9 @@ true
 )
 ;
 }
+add_task
+(
+async
 function
 run_test
 (
@@ -1036,6 +1067,8 @@ try
 {
 do_check_eq
 (
+(
+await
 store
 .
 applyIncomingBatch
@@ -1044,6 +1077,7 @@ applyIncomingBatch
 recordA
 recordB
 ]
+)
 )
 .
 length
@@ -1171,10 +1205,13 @@ do_check_true
 (
 !
 !
+(
+await
 store
 .
 getAllIDs
 (
+)
 )
 [
 BOGUS_GUID_B
@@ -1184,16 +1221,20 @@ BOGUS_GUID_B
 do_check_true
 (
 !
+(
+await
 store
 .
 getAllIDs
 (
+)
 )
 [
 BOGUS_GUID_A
 ]
 )
 ;
+await
 test_apply_records_with_times
 (
 "
@@ -1211,6 +1252,7 @@ undefined
 undefined
 )
 ;
+await
 test_apply_records_with_times
 (
 "
@@ -1228,6 +1270,7 @@ com
 undefined
 )
 ;
+await
 test_apply_records_with_times
 (
 "
@@ -1245,6 +1288,7 @@ undefined
 2000
 )
 ;
+await
 test_apply_records_with_times
 (
 "
@@ -1262,10 +1306,12 @@ com
 2000
 )
 ;
+await
 test_apply_multiple_records_with_times
 (
 )
 ;
+await
 test_apply_same_record_with_different_times
 (
 )
@@ -1273,6 +1319,7 @@ test_apply_same_record_with_different_times
 }
 finally
 {
+await
 store
 .
 wipe
@@ -1281,3 +1328,5 @@ wipe
 ;
 }
 }
+)
+;

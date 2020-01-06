@@ -31,6 +31,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -80,6 +83,7 @@ bar
 "
 baz
 "
+async
 function
 (
 )
@@ -119,6 +123,7 @@ bad
 "
 one
 "
+async
 function
 (
 )
@@ -280,6 +285,7 @@ error
 ;
 ret
 =
+await
 obj
 .
 func
@@ -487,6 +493,7 @@ try
 {
 ret
 =
+await
 obj
 .
 throwy
@@ -646,3 +653,5 @@ one
 )
 ;
 }
+)
+;

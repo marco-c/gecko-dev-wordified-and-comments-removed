@@ -1288,12 +1288,17 @@ Weave
 "
 )
 ;
+Async
+.
+promiseSpinningly
+(
 Weave
 .
 Service
 .
 login
 (
+)
 )
 ;
 Logger

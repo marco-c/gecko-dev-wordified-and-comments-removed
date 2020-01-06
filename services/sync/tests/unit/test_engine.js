@@ -127,6 +127,7 @@ __proto__
 Store
 .
 prototype
+async
 wipe
 (
 )
@@ -222,6 +223,7 @@ SteamStore
 _trackerObj
 :
 SteamTracker
+async
 _resetClient
 (
 )
@@ -233,6 +235,7 @@ wasReset
 true
 ;
 }
+async
 _sync
 (
 )
@@ -644,6 +647,7 @@ engine
 wasReset
 )
 ;
+await
 engine
 .
 resetClient
@@ -959,6 +963,7 @@ _tracker
 changedIDs
 )
 ;
+await
 engine
 .
 wipeClient
@@ -1245,6 +1250,7 @@ engine
 wasSynced
 )
 ;
+await
 engine
 .
 sync
@@ -1280,6 +1286,7 @@ enabled
 =
 true
 ;
+await
 engine
 .
 sync

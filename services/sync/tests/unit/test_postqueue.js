@@ -168,8 +168,9 @@ stats
 }
 ;
 }
-add_test
+add_task
 (
+async
 function
 test_simple
 (
@@ -255,6 +256,7 @@ responseGenerator
 )
 )
 ;
+await
 pq
 .
 enqueue
@@ -265,6 +267,7 @@ makeRecord
 )
 )
 ;
+await
 pq
 .
 flush
@@ -310,15 +313,12 @@ true
 ]
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_max_post_bytes_no_batch
 (
@@ -440,6 +440,7 @@ responseGenerator
 )
 )
 ;
+await
 pq
 .
 enqueue
@@ -450,6 +451,7 @@ makeRecord
 )
 )
 ;
+await
 pq
 .
 enqueue
@@ -460,6 +462,7 @@ makeRecord
 )
 )
 ;
+await
 pq
 .
 enqueue
@@ -470,6 +473,7 @@ makeRecord
 )
 )
 ;
+await
 pq
 .
 flush
@@ -554,15 +558,12 @@ time
 200
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_max_post_records_no_batch
 (
@@ -684,6 +685,7 @@ responseGenerator
 )
 )
 ;
+await
 pq
 .
 enqueue
@@ -694,6 +696,7 @@ makeRecord
 )
 )
 ;
+await
 pq
 .
 enqueue
@@ -704,6 +707,7 @@ makeRecord
 )
 )
 ;
+await
 pq
 .
 enqueue
@@ -714,6 +718,7 @@ makeRecord
 )
 )
 ;
+await
 pq
 .
 flush
@@ -798,15 +803,12 @@ time
 200
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_single_batch
 (
@@ -899,6 +901,8 @@ responseGenerator
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -908,10 +912,12 @@ makeRecord
 10
 )
 )
+)
 .
 enqueued
 )
 ;
+await
 pq
 .
 flush
@@ -957,15 +963,12 @@ time
 ]
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_max_post_bytes_batch
 (
@@ -1101,6 +1104,8 @@ responseGenerator
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1108,6 +1113,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -1116,6 +1122,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1123,6 +1131,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -1131,6 +1140,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1140,10 +1151,12 @@ makeRecord
 20
 )
 )
+)
 .
 enqueued
 )
 ;
+await
 pq
 .
 flush
@@ -1226,15 +1239,12 @@ time
 200
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_max_post_bytes_batch
 (
@@ -1455,6 +1465,8 @@ responseGenerator
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1462,6 +1474,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -1470,6 +1483,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1477,6 +1492,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -1485,6 +1501,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1492,6 +1510,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -1500,6 +1519,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1507,6 +1528,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -1515,6 +1537,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1522,6 +1546,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -1530,6 +1555,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1539,10 +1566,12 @@ makeRecord
 20
 )
 )
+)
 .
 enqueued
 )
 ;
+await
 pq
 .
 flush
@@ -1681,15 +1710,12 @@ time1
 200
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_max_post_bytes_batch
 (
@@ -1825,6 +1851,8 @@ responseGenerator
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1832,6 +1860,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -1840,6 +1869,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1847,6 +1878,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -1855,6 +1887,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -1864,10 +1898,12 @@ makeRecord
 20
 )
 )
+)
 .
 enqueued
 )
 ;
+await
 pq
 .
 flush
@@ -1950,15 +1986,12 @@ time
 200
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_huge_record
 (
@@ -2094,6 +2127,8 @@ responseGenerator
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2101,6 +2136,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2113,6 +2149,7 @@ enqueued
 error
 }
 =
+await
 pq
 .
 enqueue
@@ -2137,6 +2174,8 @@ undefined
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2144,6 +2183,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2152,6 +2192,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2161,10 +2203,12 @@ makeRecord
 20
 )
 )
+)
 .
 enqueued
 )
 ;
+await
 pq
 .
 flush
@@ -2247,15 +2291,12 @@ time
 200
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_max_records_batch
 (
@@ -2476,6 +2517,8 @@ responseGenerator
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2483,6 +2526,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2491,6 +2535,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2498,6 +2544,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2506,6 +2553,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2513,6 +2562,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2521,6 +2571,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2528,6 +2580,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2536,6 +2589,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2543,6 +2598,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2551,6 +2607,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2558,6 +2616,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2566,6 +2625,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2573,6 +2634,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2581,6 +2643,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2588,6 +2652,7 @@ enqueue
 makeRecord
 (
 20
+)
 )
 )
 .
@@ -2596,6 +2661,8 @@ enqueued
 ;
 ok
 (
+(
+await
 pq
 .
 enqueue
@@ -2605,10 +2672,12 @@ makeRecord
 20
 )
 )
+)
 .
 enqueued
 )
 ;
+await
 pq
 .
 flush
@@ -2745,10 +2814,6 @@ lastModified
 time1
 +
 200
-)
-;
-run_next_test
-(
 )
 ;
 }

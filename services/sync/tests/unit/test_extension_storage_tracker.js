@@ -121,6 +121,18 @@ jsm
 "
 )
 ;
+let
+engine
+;
+add_task
+(
+async
+function
+setup
+(
+)
+{
+await
 Service
 .
 engineManager
@@ -130,7 +142,6 @@ register
 ExtensionStorageEngine
 )
 ;
-const
 engine
 =
 Service
@@ -152,6 +163,9 @@ do_get_profile
 ;
 loadWebExtensionTestFunctions
 (
+)
+;
+}
 )
 ;
 add_task

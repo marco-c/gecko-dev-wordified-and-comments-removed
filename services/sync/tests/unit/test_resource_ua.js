@@ -347,8 +347,10 @@ appBuildID
 ;
 }
 )
-add_test
+;
+add_task
 (
+async
 function
 test_fetchInfo
 (
@@ -363,12 +365,14 @@ _fetchInfo
 "
 )
 ;
+await
 Service
 .
 login
 (
 )
 ;
+await
 Service
 .
 _fetchInfo
@@ -402,10 +406,6 @@ ua
 =
 "
 "
-;
-run_next_test
-(
-)
 ;
 }
 )

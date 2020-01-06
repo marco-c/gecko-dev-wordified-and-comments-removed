@@ -429,6 +429,7 @@ in
 "
 )
 ;
+await
 Service
 .
 login
@@ -508,6 +509,7 @@ sync
 "
 )
 ;
+await
 Service
 .
 sync
@@ -616,6 +618,7 @@ appropriately
 ;
 try
 {
+await
 Service
 .
 sync

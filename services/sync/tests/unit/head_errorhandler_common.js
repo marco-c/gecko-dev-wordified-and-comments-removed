@@ -114,6 +114,7 @@ length
 )
 ;
 }
+async
 sync_httpd_setup
 (
 )
@@ -668,9 +669,7 @@ prototype
 exception
 :
 null
-_sync
-:
-function
+async
 _sync
 (
 )

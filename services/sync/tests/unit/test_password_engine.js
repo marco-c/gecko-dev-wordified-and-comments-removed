@@ -179,6 +179,7 @@ tracking
 "
 )
 ;
+await
 engine
 .
 wipeClient

@@ -114,6 +114,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -250,6 +253,7 @@ have
 let
 changedIDs
 =
+await
 engine
 .
 getChangedIDs
@@ -331,10 +335,13 @@ IDs
 ;
 do_check_empty
 (
+(
+await
 engine
 .
 getChangedIDs
 (
+)
 )
 )
 ;
@@ -747,3 +754,5 @@ resetBranch
 ;
 }
 }
+)
+;

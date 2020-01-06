@@ -201,8 +201,9 @@ bar3
 }
 ;
 }
-add_test
+add_task
 (
+async
 function
 test_valid
 (
@@ -234,6 +235,7 @@ records
 deletedRecords
 }
 =
+await
 validator
 .
 compareClientWithServer
@@ -275,15 +277,12 @@ emptyProblemData
 )
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_formValidatorIgnoresMissingClients
 (
@@ -321,6 +320,7 @@ records
 deletedRecords
 }
 =
+await
 validator
 .
 compareClientWithServer
@@ -366,10 +366,6 @@ deepEqual
 (
 problemData
 expected
-)
-;
-run_next_test
-(
 )
 ;
 }

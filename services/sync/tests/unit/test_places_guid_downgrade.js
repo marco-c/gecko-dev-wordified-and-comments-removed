@@ -543,8 +543,9 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_history_guids
 (
@@ -557,6 +558,13 @@ new
 HistoryEngine
 (
 Service
+)
+;
+await
+engine
+.
+initialize
+(
 )
 ;
 let
@@ -974,8 +982,9 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
+async
 function
 test_bookmark_guids
 (
@@ -1054,6 +1063,7 @@ Thunderbird
 let
 fxguid
 =
+await
 store
 .
 GUIDForId
@@ -1064,6 +1074,7 @@ fxid
 let
 tbguid
 =
+await
 store
 .
 GUIDForId
@@ -1317,10 +1328,6 @@ length
 stmt
 .
 finalize
-(
-)
-;
-run_next_test
 (
 )
 ;

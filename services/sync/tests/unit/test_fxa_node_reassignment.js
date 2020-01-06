@@ -214,16 +214,11 @@ jsm
 "
 )
 ;
-Service
-.
-engineManager
-.
-clear
+add_task
 (
-)
-;
+async
 function
-run_test
+setup
 (
 )
 {
@@ -357,6 +352,14 @@ initTestLogging
 (
 )
 ;
+Service
+.
+engineManager
+.
+clear
+(
+)
+;
 Status
 .
 __authManager
@@ -440,11 +443,9 @@ error
 onUIError
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 function
 handleReassign
 (
@@ -868,6 +869,7 @@ defer
 (
 )
 ;
+async
 function
 onwards
 (
@@ -997,7 +999,14 @@ Service
 startOver
 (
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 server
 .
 stop
@@ -1005,6 +1014,9 @@ stop
 deferred
 .
 resolve
+)
+;
+}
 )
 ;
 }
@@ -1021,6 +1033,7 @@ firstNotification
 onFirstSync
 )
 ;
+await
 Service
 .
 sync
@@ -1204,6 +1217,7 @@ in
 "
 )
 ;
+await
 Service
 .
 sync
@@ -1261,6 +1275,7 @@ clusterURL
 expectedClusterURL
 )
 ;
+await
 Service
 .
 startOver
@@ -1344,6 +1359,7 @@ engine
 tracker
 }
 =
+await
 registerRotaryEngine
 (
 )
@@ -1405,6 +1421,7 @@ contents
 "
 )
 ;
+await
 Service
 .
 sync
@@ -1678,6 +1695,7 @@ contents
 "
 )
 ;
+await
 Service
 .
 sync
@@ -1881,6 +1899,7 @@ in
 "
 )
 ;
+await
 Service
 .
 sync
@@ -1914,6 +1933,7 @@ test
 .
 "
 )
+await
 Service
 .
 startOver
@@ -1987,6 +2007,7 @@ contents
 "
 )
 ;
+await
 Service
 .
 sync

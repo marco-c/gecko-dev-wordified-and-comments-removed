@@ -76,6 +76,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -106,6 +109,13 @@ new
 FormEngine
 (
 Service
+)
+;
+await
+engine
+.
+initialize
+(
 )
 ;
 let
@@ -144,6 +154,7 @@ DumpAppender
 )
 )
 ;
+async
 function
 addEntry
 (
@@ -151,6 +162,7 @@ name
 value
 )
 {
+await
 engine
 .
 _store
@@ -164,6 +176,7 @@ value
 )
 ;
 }
+async
 function
 removeEntry
 (
@@ -174,6 +187,7 @@ value
 let
 guid
 =
+await
 engine
 .
 _findDupe
@@ -184,6 +198,7 @@ value
 }
 )
 ;
+await
 engine
 .
 _store
@@ -222,6 +237,7 @@ yet
 "
 )
 ;
+await
 addEntry
 (
 "
@@ -271,6 +287,7 @@ tracking
 "
 )
 ;
+await
 removeEntry
 (
 "
@@ -282,6 +299,7 @@ Doe
 "
 )
 ;
+await
 addEntry
 (
 "
@@ -335,6 +353,7 @@ tracking
 "
 )
 ;
+await
 addEntry
 (
 "
@@ -383,6 +402,7 @@ ignoreAll
 =
 true
 ;
+await
 addEntry
 (
 "
@@ -393,6 +413,7 @@ johndoe123
 "
 )
 ;
+await
 addEntry
 (
 "
@@ -403,6 +424,7 @@ green
 "
 )
 ;
+await
 removeEntry
 (
 "
@@ -471,6 +493,7 @@ tracking
 "
 )
 ;
+await
 removeEntry
 (
 "
@@ -521,6 +544,7 @@ tracking
 "
 )
 ;
+await
 removeEntry
 (
 "
@@ -553,6 +577,7 @@ up
 "
 )
 ;
+await
 engine
 .
 _store
@@ -563,3 +588,5 @@ wipe
 ;
 }
 }
+)
+;

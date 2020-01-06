@@ -175,15 +175,6 @@ js
 "
 )
 ;
-Service
-.
-engineManager
-.
-register
-(
-TabEngine
-)
-;
 add_task
 (
 async
@@ -514,6 +505,7 @@ johndoe
 server
 )
 ;
+await
 Service
 .
 login
@@ -527,6 +519,7 @@ Service
 isLoggedIn
 )
 ;
+await
 Service
 .
 verifyAndFetchSymmetricKeys
@@ -535,13 +528,17 @@ verifyAndFetchSymmetricKeys
 ;
 do_check_true
 (
+(
+await
 Service
 .
 _remoteSetup
 (
 )
 )
+)
 ;
+async
 function
 test_out_of_date
 (
@@ -635,6 +632,7 @@ meta_global
 ;
 try
 {
+await
 Service
 .
 sync
@@ -672,6 +670,7 @@ upgraded
 "
 )
 ;
+await
 test_out_of_date
 (
 )
@@ -691,12 +690,14 @@ wiped
 "
 )
 ;
+await
 Service
 .
 wipeServer
 (
 )
 ;
+await
 test_out_of_date
 (
 )
@@ -774,6 +775,7 @@ metaURL
 meta_global
 )
 ;
+await
 Service
 .
 login
@@ -787,6 +789,7 @@ Service
 isLoggedIn
 )
 ;
+await
 Service
 .
 sync
@@ -1192,12 +1195,14 @@ collections
 .
 tabs
 ;
+await
 Service
 .
 login
 (
 )
 ;
+await
 Service
 .
 sync
@@ -1294,6 +1299,7 @@ retrieve_and_compare_default
 true
 )
 ;
+await
 Service
 .
 startOver
@@ -1813,6 +1819,7 @@ in
 ;
 try
 {
+await
 Service
 .
 login
@@ -1865,6 +1872,7 @@ status
 sync
 )
 ;
+await
 Service
 .
 startOver
