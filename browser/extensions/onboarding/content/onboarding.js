@@ -3692,6 +3692,11 @@ session_key
 this
 .
 _session_key
+tour_type
+:
+this
+.
+_tourType
 }
 )
 ;
