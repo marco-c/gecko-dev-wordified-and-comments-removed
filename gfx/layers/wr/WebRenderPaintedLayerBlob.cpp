@@ -210,9 +210,7 @@ mVisibleRegion
 ToUnknownRegion
 (
 )
-GetValidRegion
-(
-)
+mValidRegion
 )
 ;
 if
@@ -321,7 +319,11 @@ BackendType
 :
 :
 SKIA
-imageSize
+IntSize
+(
+1
+1
+)
 gfx
 :
 :
