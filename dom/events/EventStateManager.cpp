@@ -22356,7 +22356,7 @@ sf
 ps
 -
 >
-GetFrameToScrollAsScrollable
+GetScrollableFrameToScroll
 (
 nsIPresShell
 :

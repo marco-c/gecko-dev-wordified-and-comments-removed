@@ -768,6 +768,15 @@ aId
 )
 ;
 static
+ViewID
+FindIDForScrollableFrame
+(
+nsIScrollableFrame
+*
+aScrollable
+)
+;
+static
 bool
 GetDisplayPort
 (
@@ -2679,7 +2688,6 @@ nsIFrame
 *
 FirstContinuationOrIBSplitSibling
 (
-const
 nsIFrame
 *
 aFrame
@@ -2690,7 +2698,6 @@ nsIFrame
 *
 LastContinuationOrIBSplitSibling
 (
-const
 nsIFrame
 *
 aFrame
