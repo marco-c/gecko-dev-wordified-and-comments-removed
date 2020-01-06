@@ -50,6 +50,11 @@ Initialize
 (
 )
 ;
+void
+Shutdown
+(
+)
+;
 bool
 IsProfilingActive
 (
