@@ -47,9 +47,7 @@ android
 -
 armv7
 -
-api
--
-16
+api16
 /
 debug
 symbol
@@ -587,9 +585,7 @@ android
 -
 armv7
 -
-api
--
-16
+api16
 /
 opt
 symbol
@@ -785,9 +781,7 @@ android
 -
 armv7
 -
-api
--
-16
+api16
 /
 opt
 symbol
@@ -1396,9 +1390,7 @@ android
 -
 armv7
 -
-api
--
-16
+api16
 -
 old
 -
@@ -1624,9 +1616,7 @@ android
 -
 armv7
 -
-api
--
-16
+api16
 -
 old
 -
