@@ -1181,7 +1181,7 @@ nsINode
 *
 aEndContainer
 uint32_t
-endIndx
+aEndOffset
 )
 {
 mCommonParent
@@ -1239,7 +1239,7 @@ startIsData
 aStartOffset
 =
 =
-endIndx
+aEndOffset
 )
 {
 MakeEmpty
@@ -1461,7 +1461,7 @@ mPre
 aStartContainer
 aStartOffset
 aEndContainer
-endIndx
+aEndOffset
 )
 )
 )
@@ -1564,7 +1564,7 @@ mPre
 aStartContainer
 aStartOffset
 aEndContainer
-endIndx
+aEndOffset
 )
 )
 {
@@ -1603,10 +1603,8 @@ HasChildren
 )
 |
 |
-endIndx
-=
-=
-0
+!
+aEndOffset
 )
 {
 if
@@ -1708,7 +1706,7 @@ endIsContainer
 &
 &
 !
-endIndx
+aEndOffset
 )
 {
 mLast
@@ -1749,7 +1747,7 @@ mPre
 mFirst
 0
 aEndContainer
-endIndx
+aEndOffset
 )
 )
 )
@@ -1809,7 +1807,7 @@ mPre
 aStartContainer
 aStartOffset
 aEndContainer
-endIndx
+aEndOffset
 )
 )
 {
@@ -1838,7 +1836,7 @@ else
 int32_t
 indx
 =
-endIndx
+aEndOffset
 ;
 cChild
 =
@@ -1909,7 +1907,7 @@ mPre
 aStartContainer
 aStartOffset
 aEndContainer
-endIndx
+aEndOffset
 )
 )
 )
