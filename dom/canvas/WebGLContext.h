@@ -3067,11 +3067,6 @@ GetVRFrame
 (
 )
 ;
-bool
-StartVRPresentation
-(
-)
-;
 webgl
 :
 :

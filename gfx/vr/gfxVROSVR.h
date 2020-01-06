@@ -142,13 +142,7 @@ virtual
 bool
 SubmitFrame
 (
-mozilla
-:
-:
-layers
-:
-:
-TextureSourceD3D11
+ID3D11Texture2D
 *
 aSource
 const

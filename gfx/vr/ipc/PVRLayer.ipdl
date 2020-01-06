@@ -105,12 +105,11 @@ MPL
 *
 /
 include
-protocol
-PVRManager
+LayersSurfaces
 ;
 include
 protocol
-PTexture
+PVRManager
 ;
 using
 mozilla
@@ -149,7 +148,7 @@ parent
 async
 SubmitFrame
 (
-PTexture
+SurfaceDescriptor
 aTexture
 uint64_t
 aFrameId

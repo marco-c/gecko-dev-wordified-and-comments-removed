@@ -1039,16 +1039,6 @@ AsyncCanvasRenderer
 aRenderer
 )
 ;
-void
-StartVRPresentation
-(
-)
-;
-void
-StopVRPresentation
-(
-)
-;
 already_AddRefed
 <
 layers
@@ -1266,9 +1256,6 @@ RefPtr
 HTMLCanvasElementObserver
 >
 mContextObserver
-;
-bool
-mVRPresentationActive
 ;
 public
 :

@@ -2394,7 +2394,7 @@ VRDisplayOpenVR
 :
 SubmitFrame
 (
-TextureSourceD3D11
+ID3D11Texture2D
 *
 aSource
 const
@@ -2425,11 +2425,6 @@ void
 *
 )
 aSource
--
->
-GetD3D11Texture
-(
-)
 :
 :
 vr
