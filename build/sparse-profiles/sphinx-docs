@@ -36,6 +36,14 @@ glob
 *
 .
 rst
+glob
+:
+*
+*
+/
+*
+.
+md
 #
 Python
 API
