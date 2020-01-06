@@ -90,6 +90,11 @@ gfx
 :
 IntSize
 aImageSize
+gfx
+:
+:
+SurfaceFormat
+aFormat
 )
 :
 mImageContainer
@@ -121,13 +126,7 @@ GetTextureClientRecycler
 >
 CreateOrRecycle
 (
-gfx
-:
-:
-SurfaceFormat
-:
-:
-B8G8R8A8
+aFormat
 mImageSize
 BackendSelector
 :
