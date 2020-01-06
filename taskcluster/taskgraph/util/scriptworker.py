@@ -1231,34 +1231,6 @@ channel
 :
 nightly
 '
-        
-'
-project
-:
-releng
-:
-balrog
-:
-channel
-:
-nightly
--
-old
--
-id
-'
-        
-'
-project
-:
-releng
-:
-balrog
-:
-channel
-:
-aurora
-'
     
 ]
     
@@ -1442,22 +1414,6 @@ balrog
 channel
 :
 nightly
-'
-        
-'
-project
-:
-releng
-:
-balrog
-:
-channel
-:
-nightly
--
-old
--
-id
 '
         
 '
@@ -1600,7 +1556,7 @@ PUSH_APK_SCOPE_ALIAS_TO_PROJECT
 [
     
 '
-central
+aurora
 '
 set
 (
@@ -1609,7 +1565,7 @@ set
 '
 mozilla
 -
-central
+aurora
 '
     
 ]
@@ -1657,7 +1613,7 @@ PUSH_APK_SCOPES
 {
     
 '
-central
+aurora
 '
 :
 '
@@ -1717,11 +1673,11 @@ PUSH_APK_GOOGLE_PLAY_TRACT
 {
     
 '
-central
+aurora
 '
 :
 '
-alpha
+beta
 '
     
 '
@@ -1753,7 +1709,7 @@ PUSH_APK_BREAKPOINT_WORKER_TYPE
 {
     
 '
-central
+aurora
 '
 :
 '
@@ -1811,10 +1767,10 @@ PUSH_APK_DRY_RUN_OPTION
 {
     
 '
-central
+aurora
 '
 :
-True
+False
     
 '
 beta

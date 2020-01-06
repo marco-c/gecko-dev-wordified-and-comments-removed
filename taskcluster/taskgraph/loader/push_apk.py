@@ -169,28 +169,6 @@ startswith
 android
 '
 )
-and
-\
-          
-'
-old
--
-id
-'
-not
-in
-task
-.
-attributes
-.
-get
-(
-'
-build_platform
-'
-'
-'
-)
     
 ]
     
