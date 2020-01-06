@@ -420,6 +420,10 @@ TreeColumns
 implements
 LegacyQueryInterface
 ;
+TreeContentView
+implements
+LegacyQueryInterface
+;
 TreeWalker
 implements
 LegacyQueryInterface
