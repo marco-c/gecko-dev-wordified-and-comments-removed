@@ -2037,6 +2037,7 @@ name_
 (
 )
 const
+MOZ_NONNULL_RETURN
 {
 \
 NS_ASSERTION
@@ -2090,6 +2091,8 @@ name_
 aStyleStruct
 )
 const
+\
+MOZ_NONNULL_RETURN
 {
 \
 if
