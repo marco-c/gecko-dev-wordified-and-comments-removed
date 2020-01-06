@@ -186,6 +186,7 @@ browsers
 .
 *
 /
+readonly
 attribute
 nsIBrowserDOMWindow
 browserDOMWindow
