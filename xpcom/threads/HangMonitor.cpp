@@ -788,7 +788,7 @@ void
 *
 )
 {
-AutoProfilerRegister
+AutoProfilerRegisterThread
 registerThread
 (
 "

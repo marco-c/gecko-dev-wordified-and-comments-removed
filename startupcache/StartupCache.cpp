@@ -2254,7 +2254,7 @@ void
 aClosure
 )
 {
-AutoProfilerRegister
+AutoProfilerRegisterThread
 registerThread
 (
 "

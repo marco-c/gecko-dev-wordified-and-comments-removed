@@ -1584,7 +1584,7 @@ arg
 mozilla
 :
 :
-AutoProfilerRegister
+AutoProfilerRegisterThread
 registerThread
 (
 "

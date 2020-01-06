@@ -1294,7 +1294,7 @@ void
 aArg
 )
 {
-AutoProfilerRegister
+AutoProfilerRegisterThread
 registerThread
 (
 "

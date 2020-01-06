@@ -259,7 +259,7 @@ void
 aData
 )
 {
-AutoProfilerRegister
+AutoProfilerRegisterThread
 registerThread
 (
 "

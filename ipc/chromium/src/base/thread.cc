@@ -538,7 +538,7 @@ ThreadMain
 mozilla
 :
 :
-AutoProfilerRegister
+AutoProfilerRegisterThread
 registerThread
 (
 name_
