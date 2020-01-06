@@ -48,6 +48,7 @@ metrics
 {
 PaintTimeMetrics
 ProfilerMetadataFactory
+ProgressiveWebMetric
 }
 ;
 use
@@ -205,7 +206,10 @@ script_sender
 assert_eq
 !
 (
+(
+&
 paint_time_metrics
+)
 .
 get_navigation_start
 (
@@ -428,7 +432,10 @@ navigation_start
 assert_eq
 !
 (
+(
+&
 paint_time_metrics
+)
 .
 get_navigation_start
 (
@@ -489,7 +496,6 @@ Epoch
 )
 ;
 let
-mut
 paint_time_metrics
 =
 test_common
@@ -673,7 +679,6 @@ Epoch
 )
 ;
 let
-mut
 paint_time_metrics
 =
 test_common

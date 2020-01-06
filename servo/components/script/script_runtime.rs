@@ -212,6 +212,15 @@ Microtask
 }
 ;
 use
+msg
+:
+:
+constellation_msg
+:
+:
+PipelineId
+;
+use
 profile_traits
 :
 :
@@ -350,6 +359,10 @@ Box
 <
 TaskBox
 >
+Option
+<
+PipelineId
+>
 )
 }
 impl
@@ -416,6 +429,7 @@ ref
 category
 ref
 task
+_
 )
 =
 >

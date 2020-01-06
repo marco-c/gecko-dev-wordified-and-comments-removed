@@ -55,6 +55,15 @@ window
 Window
 ;
 use
+msg
+:
+:
+constellation_msg
+:
+:
+PipelineId
+;
+use
 script_runtime
 :
 :
@@ -134,6 +143,8 @@ Sender
 <
 MainThreadScriptMsg
 >
+pub
+PipelineId
 )
 ;
 impl
@@ -246,6 +257,12 @@ wrap_task
 (
 task
 )
+)
+Some
+(
+self
+.
+1
 )
 )
 )

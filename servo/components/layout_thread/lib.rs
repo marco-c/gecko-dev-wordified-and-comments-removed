@@ -501,6 +501,7 @@ metrics
 {
 PaintTimeMetrics
 ProfilerMetadataFactory
+ProgressiveWebMetric
 }
 ;
 use

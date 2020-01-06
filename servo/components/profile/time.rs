@@ -1257,6 +1257,17 @@ Paint
 ProfilerCategory
 :
 :
+TimeToInteractive
+=
+>
+"
+Time
+to
+Interactive
+"
+ProfilerCategory
+:
+:
 ApplicationHeartbeat
 =
 >
