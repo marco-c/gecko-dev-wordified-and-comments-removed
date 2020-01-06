@@ -351,7 +351,7 @@ browser
 /
 locales
 /
-central
+l10n
 -
 changesets
 .
