@@ -89,6 +89,12 @@ BHRTelemetryService
 (
 )
 {
+this
+.
+wrappedJSObject
+=
+this
+;
 Services
 .
 obs
