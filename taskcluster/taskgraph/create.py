@@ -268,12 +268,21 @@ schedulerId
 =
 scheduler_id
     
+concurrency
+=
+CONCURRENCY
+if
+not
+testing
+else
+1
+    
 with
 futures
 .
 ThreadPoolExecutor
 (
-CONCURRENCY
+concurrency
 )
 as
 e
@@ -611,6 +620,12 @@ separators
 :
 '
 )
+)
+        
+print
+(
+"
+"
 )
         
 return
