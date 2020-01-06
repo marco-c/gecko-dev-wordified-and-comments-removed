@@ -25,6 +25,13 @@ h
 #
 include
 "
+nsIPrintSettings
+.
+h
+"
+#
+include
+"
 nsIWebProgressListener
 .
 h
@@ -60,6 +67,9 @@ PrintProgressDialogChild
 nsIObserver
 *
 aOpenObserver
+nsIPrintSettings
+*
+aPrintSettings
 )
 ;
 virtual
@@ -107,6 +117,12 @@ mDocTitle
 ;
 nsString
 mDocURL
+;
+nsCOMPtr
+<
+nsIPrintSettings
+>
+mPrintSettings
 ;
 }
 ;
