@@ -7,6 +7,8 @@ simplejson
 as
 json
 import
+time
+import
 zlib
 from
 multiprocessing
@@ -306,6 +308,13 @@ enforce_gecko_prefs
 (
 telemetry_prefs
 )
+        
+time
+.
+sleep
+(
+5
+)
     
 def
 wait_for_ping
@@ -314,15 +323,6 @@ self
 ping_filter_func
 )
 :
-        
-current_ping_list_size
-=
-len
-(
-self
-.
-ping_list
-)
         
 if
 len
@@ -350,9 +350,8 @@ marionette
 until
 (
 lambda
-_
+t
 :
-                                                
 len
 (
 self
@@ -360,7 +359,7 @@ self
 ping_list
 )
 >
-current_ping_list_size
+0
 )
             
 except
@@ -408,17 +407,6 @@ ping_filter_func
 p
 )
 ]
-        
-assert
-len
-(
-self
-.
-ping_list
-)
-=
-=
-1
         
 return
 self
