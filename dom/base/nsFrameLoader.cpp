@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsIDOMHTMLFrameElement
-.
-h
-"
-#
-include
-"
 nsIDOMMozBrowserFrame
 .
 h

@@ -206,6 +206,11 @@ nsGenericHTMLElement
 h
 '
 '
+nsGenericHTMLFrameElement
+.
+h
+'
+'
 nsHTMLDNSPrefetch
 .
 h

@@ -139,11 +139,6 @@ nsIDOMHTMLFormElement
 idl
 '
 '
-nsIDOMHTMLFrameElement
-.
-idl
-'
-'
 nsIDOMHTMLHtmlElement
 .
 idl
