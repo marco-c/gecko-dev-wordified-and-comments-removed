@@ -5923,8 +5923,6 @@ JSON
 stringify
 (
 aPing
-.
-payload
 null
 2
 )
