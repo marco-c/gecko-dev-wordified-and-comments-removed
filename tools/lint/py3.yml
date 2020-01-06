@@ -169,10 +169,6 @@ tps
 -
 testing
 /
-xpcshell
--
-testing
-/
 web
 -
 platform
