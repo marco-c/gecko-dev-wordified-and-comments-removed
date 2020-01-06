@@ -672,6 +672,10 @@ rect
 ;
 pub
 mod
+source_size_list
+;
+pub
+mod
 svg
 ;
 pub
