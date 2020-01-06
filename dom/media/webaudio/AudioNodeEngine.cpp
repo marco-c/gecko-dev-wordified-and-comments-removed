@@ -1718,7 +1718,7 @@ aInput
 =
 alignedInput
 +
-1
+vLength
 ;
 aLength
 -
