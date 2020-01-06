@@ -102,7 +102,7 @@ NOTATION_RADICAL
 )
 ;
 mNotationsToDraw
-|
++
 =
 NOTATION_RADICAL
 ;
