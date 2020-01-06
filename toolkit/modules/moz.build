@@ -1664,6 +1664,13 @@ ScrollPosition
 jsm
 '
 '
+sessionstore
+/
+XPathGenerator
+.
+jsm
+'
+'
 ShortcutUtils
 .
 jsm

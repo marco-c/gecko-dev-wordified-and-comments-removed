@@ -5045,14 +5045,6 @@ nsDOMMutationObserver
 aResult
 )
 ;
-void
-GenerateXPath
-(
-nsAString
-&
-aResult
-)
-;
 already_AddRefed
 <
 mozilla

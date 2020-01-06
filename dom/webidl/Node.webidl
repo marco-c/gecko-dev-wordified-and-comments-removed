@@ -671,14 +671,6 @@ getBoundMutationObservers
 (
 )
 ;
-[
-ChromeOnly
-]
-DOMString
-generateXPath
-(
-)
-;
 #
 ifdef
 ACCESSIBILITY
