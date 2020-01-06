@@ -589,7 +589,7 @@ path
 basic_shape
 :
 :
-ShapeWithGeometryBox
+ClippingShape
 "
 "
 generics

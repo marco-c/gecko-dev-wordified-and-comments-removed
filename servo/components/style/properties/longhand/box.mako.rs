@@ -20446,7 +20446,7 @@ outside
 basic_shape
 :
 :
-ShapeWithShapeBox
+FloatAreaShape
 "
 "
 generics
