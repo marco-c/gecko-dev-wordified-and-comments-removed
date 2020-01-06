@@ -3374,6 +3374,7 @@ protoBinding
 >
 LoadResources
 (
+aBoundElement
 )
 ;
 if

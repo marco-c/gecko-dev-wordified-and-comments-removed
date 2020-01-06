@@ -245,6 +245,9 @@ aBoundElement
 bool
 LoadResources
 (
+nsIContent
+*
+aBoundElement
 )
 ;
 nsresult

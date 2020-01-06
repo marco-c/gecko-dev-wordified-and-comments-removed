@@ -231,6 +231,9 @@ nsXBLPrototypeResources
 :
 LoadResources
 (
+nsIContent
+*
+aBoundElement
 )
 {
 if
@@ -244,6 +247,7 @@ mLoader
 >
 LoadResources
 (
+aBoundElement
 )
 ;
 }

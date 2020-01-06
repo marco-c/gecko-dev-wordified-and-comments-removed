@@ -983,6 +983,9 @@ nsXBLPrototypeBinding
 :
 LoadResources
 (
+nsIContent
+*
+aBoundElement
 )
 {
 if
@@ -996,6 +999,7 @@ mResources
 >
 LoadResources
 (
+aBoundElement
 )
 ;
 }
