@@ -200,7 +200,9 @@ EventUtils
 .
 synthesizeMouseAtPoint
 (
-1
+window
+.
+innerWidth
 1
 {
 type
