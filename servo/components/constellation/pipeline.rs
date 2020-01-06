@@ -2646,6 +2646,13 @@ layout_to_constellation_chan
 clone
 (
 )
+self
+.
+script_chan
+.
+clone
+(
+)
 )
 ;
 let
