@@ -2375,8 +2375,10 @@ if
 (
 !
 isProxy
-&
-&
+)
+{
+if
+(
 IsSystemLoad
 (
 )
@@ -2410,10 +2412,6 @@ baseURL
 if
 (
 !
-isProxy
-&
-&
-!
 StringBeginsWith
 (
 origin
@@ -2440,6 +2438,7 @@ origin
 return
 false
 ;
+}
 }
 }
 }
