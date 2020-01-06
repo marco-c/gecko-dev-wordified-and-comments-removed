@@ -179,6 +179,9 @@ path
 /
 mp4parse_fallible
 "
+optional
+=
+true
 }
 [
 dev
