@@ -9187,8 +9187,6 @@ shell
 RestyleForAnimation
 (
 this
-eRestyle_StyleAttribute
-|
 eRestyle_StyleAttribute_Animations
 )
 ;
