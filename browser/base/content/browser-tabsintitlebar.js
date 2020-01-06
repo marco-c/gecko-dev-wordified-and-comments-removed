@@ -852,10 +852,8 @@ win
 0
 "
 )
-)
-{
-if
-(
+&
+&
 !
 menuHeight
 )
@@ -863,8 +861,6 @@ menuHeight
 titlebarContentHeight
 =
 fullTabsHeight
-+
-1
 ;
 (
 "
@@ -884,7 +880,6 @@ titlebarContentHeight
 px
 "
 ;
-}
 }
 if
 (
