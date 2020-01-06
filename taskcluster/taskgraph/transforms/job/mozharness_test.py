@@ -1479,20 +1479,6 @@ run
 -
 task
 '
-        
-'
--
--
-chown
-'
-'
-/
-home
-/
-worker
-/
-workspace
-'
     
 ]
     
