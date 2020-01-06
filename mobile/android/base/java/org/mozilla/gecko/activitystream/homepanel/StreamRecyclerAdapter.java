@@ -390,6 +390,14 @@ TopStory
 >
 topStoriesQueue
 ;
+public
+static
+final
+boolean
+POCKET_ENABLED
+=
+false
+;
 private
 final
 RowItemType
@@ -782,6 +790,7 @@ R
 string
 .
 activity_stream_topstories
+POCKET_ENABLED
 )
 ;
 }
@@ -918,6 +927,7 @@ R
 string
 .
 activity_stream_highlights
+true
 )
 ;
 }
