@@ -524,7 +524,7 @@ void
 LayerMLGPU
 :
 :
-SetRegionToRender
+SetRenderRegion
 (
 LayerIntRegion
 &
@@ -532,12 +532,11 @@ LayerIntRegion
 aRegion
 )
 {
-SetShadowVisibleRegion
-(
+mRenderRegion
+=
 Move
 (
 aRegion
-)
 )
 ;
 }

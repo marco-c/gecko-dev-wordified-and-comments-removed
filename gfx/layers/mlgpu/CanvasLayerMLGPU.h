@@ -171,7 +171,7 @@ ClearCachedResources
 override
 ;
 void
-SetRegionToRender
+SetRenderRegion
 (
 LayerIntRegion
 &
