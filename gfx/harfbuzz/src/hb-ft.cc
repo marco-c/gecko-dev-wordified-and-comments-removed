@@ -1965,10 +1965,8 @@ length
 ;
 if
 (
+!
 buffer
-=
-=
-NULL
 )
 return
 NULL
@@ -2024,6 +2022,7 @@ face
 ;
 if
 (
+!
 ft_face
 -
 >
@@ -2031,9 +2030,6 @@ stream
 -
 >
 read
-=
-=
-NULL
 )
 {
 hb_blob_t
@@ -2545,6 +2541,7 @@ num_axis
 )
 ;
 }
+}
 free
 (
 coords
@@ -2555,7 +2552,6 @@ free
 ft_coords
 )
 ;
-}
 free
 (
 mm_var

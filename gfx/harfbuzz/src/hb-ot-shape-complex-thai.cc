@@ -935,6 +935,15 @@ below_edge
 .
 action
 ;
+buffer
+-
+>
+unsafe_to_break
+(
+base
+i
+)
+;
 if
 (
 action

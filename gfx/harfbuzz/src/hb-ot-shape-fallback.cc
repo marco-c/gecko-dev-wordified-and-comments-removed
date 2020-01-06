@@ -1025,6 +1025,15 @@ horiz_dir
 =
 HB_DIRECTION_INVALID
 ;
+buffer
+-
+>
+unsafe_to_break
+(
+base
+end
+)
+;
 hb_glyph_extents_t
 base_extents
 ;

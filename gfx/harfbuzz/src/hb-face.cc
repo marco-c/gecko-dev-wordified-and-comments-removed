@@ -73,7 +73,7 @@ NULL
 hb_face_t
 :
 :
-NOTHING
+DIRTY_NOTHING
 {
 #
 define
@@ -838,7 +838,7 @@ dirty
 face
 -
 >
-INDEX
+DIRTY_INDEX
 ;
 face
 -
@@ -905,7 +905,7 @@ dirty
 face
 -
 >
-UPEM
+DIRTY_UPEM
 ;
 face
 -
@@ -1048,7 +1048,7 @@ dirty
 face
 -
 >
-NUM_GLYPHS
+DIRTY_NUM_GLYPHS
 ;
 face
 -

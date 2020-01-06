@@ -597,10 +597,8 @@ shape_plan
 >
 default_shaper_list
 =
+!
 shaper_list
-=
-=
-NULL
 ;
 shape_plan
 -
@@ -1476,13 +1474,11 @@ shape_plan
 default_shaper_list
 &
 &
+!
 proposal
 -
 >
 shaper_list
-=
-=
-NULL
 )
 |
 |
