@@ -200,6 +200,7 @@ classNames
 )
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
