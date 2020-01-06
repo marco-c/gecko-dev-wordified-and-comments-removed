@@ -2548,7 +2548,7 @@ nullptr
 }
 }
 RootedObject
-obj
+thisObj
 (
 aCx
 holder
@@ -2561,7 +2561,7 @@ GetJSObject
 ;
 NS_ENSURE_TRUE
 (
-obj
+thisObj
 nullptr
 )
 ;
@@ -2569,7 +2569,7 @@ JSAutoCompartment
 ac
 (
 aCx
-obj
+thisObj
 )
 ;
 *
@@ -2652,7 +2652,7 @@ XPConnect
 WrapNative
 (
 aCx
-obj
+thisObj
 aComponentFile
 NS_GET_IID
 (
@@ -2683,7 +2683,7 @@ if
 JS_DefineProperty
 (
 aCx
-obj
+thisObj
 "
 __LOCATION__
 "
@@ -2747,7 +2747,7 @@ if
 JS_DefineProperty
 (
 aCx
-obj
+thisObj
 "
 __URI__
 "
@@ -2811,7 +2811,7 @@ global
 ;
 }
 return
-obj
+thisObj
 ;
 }
 nsresult
