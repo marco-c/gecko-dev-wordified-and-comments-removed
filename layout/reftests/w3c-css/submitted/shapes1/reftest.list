@@ -2341,6 +2341,15 @@ inset
 ref
 .
 html
+skip
+-
+if
+(
+stylo
+&
+&
+winWidget
+)
 =
 =
 shape

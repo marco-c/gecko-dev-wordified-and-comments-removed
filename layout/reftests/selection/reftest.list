@@ -622,6 +622,10 @@ fails
 if
 (
 cocoaWidget
+&
+&
+!
+styloVsGecko
 )
 needs
 -
@@ -655,6 +659,10 @@ fails
 if
 (
 cocoaWidget
+&
+&
+!
+styloVsGecko
 )
 needs
 -

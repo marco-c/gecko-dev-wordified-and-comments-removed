@@ -869,6 +869,9 @@ fails
 -
 if
 (
+gtkWidget
+&
+&
 styloVsGecko
 )
 =
@@ -957,6 +960,9 @@ fails
 -
 if
 (
+gtkWidget
+&
+&
 styloVsGecko
 )
 =

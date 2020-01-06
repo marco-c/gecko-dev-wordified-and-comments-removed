@@ -85,6 +85,10 @@ fails
 if
 (
 winWidget
+&
+&
+!
+styloVsGecko
 )
 =
 =
@@ -159,6 +163,10 @@ fails
 if
 (
 cocoaWidget
+&
+&
+!
+styloVsGecko
 )
 fuzzy
 -

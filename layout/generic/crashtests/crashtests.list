@@ -185,6 +185,15 @@ asserts
 if
 (
 stylo
+&
+&
+!
+(
+cocoaWidget
+&
+&
+isDebugBuild
+)
 1
 )
 load

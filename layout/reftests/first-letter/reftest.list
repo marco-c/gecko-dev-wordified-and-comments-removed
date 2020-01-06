@@ -873,10 +873,16 @@ fails
 -
 if
 (
+(
 winWidget
 |
 |
 cocoaWidget
+)
+&
+&
+!
+styloVsGecko
 )
 =
 =

@@ -807,6 +807,17 @@ layersGPUAccelerated
 140
 514
 )
+fuzzy
+-
+if
+(
+winWidget
+&
+&
+stylo
+144
+448
+)
 =
 =
 border
