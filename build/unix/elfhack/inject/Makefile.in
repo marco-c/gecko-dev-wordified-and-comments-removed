@@ -105,7 +105,17 @@ m
 -
 I
 %
+-
+idirafter
+%
+(
+subst
+-
+idirafter
+-
+idirafter
 (
 CFLAGS
+)
 )
 )
