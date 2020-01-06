@@ -130,6 +130,11 @@ GeckoViewSettings
 jsm
 '
 '
+GeckoViewUtils
+.
+jsm
+'
+'
 GeckoViewTab
 .
 jsm

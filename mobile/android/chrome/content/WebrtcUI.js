@@ -1928,6 +1928,8 @@ manifest
 '
 "
 +
+chromeWin
+.
 BrowserApp
 .
 manifest
