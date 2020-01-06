@@ -1634,6 +1634,9 @@ self
 .
 _stopped
         
+try
+:
+            
 self
 .
 _pipe
@@ -1646,6 +1649,12 @@ terminate
 '
 )
 )
+        
+except
+Exception
+:
+            
+pass
         
 self
 .
@@ -1666,23 +1675,43 @@ measurements
 [
 ]
         
-done
-=
-False
-        
-while
+def
+poll
+(
+)
+:
+            
+try
+:
+                
+return
 self
 .
 _pipe
 .
 poll
 (
-1
-.
 0
+.
+1
+)
+            
+except
+Exception
+:
+                
+return
+True
+        
+while
+poll
+(
 )
 :
             
+try
+:
+                
 start_time
 end_time
 io_diff
@@ -1690,7 +1719,7 @@ cpu_diff
 cpu_percent
 virt_mem
 \
-                
+                    
 swap_mem
 =
 self
@@ -1701,6 +1730,12 @@ recv
 (
 )
             
+except
+Exception
+:
+                
+break
+            
 if
 start_time
 =
@@ -1709,10 +1744,6 @@ start_time
 done
 '
 :
-                
-done
-=
-True
                 
 break
             
@@ -1816,12 +1847,6 @@ join
 (
 10
 )
-        
-else
-:
-            
-assert
-done
         
 if
 len
