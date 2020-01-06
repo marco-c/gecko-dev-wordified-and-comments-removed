@@ -1402,9 +1402,11 @@ ComponentAlpha
 }
 private
 :
-PaintedLayerMLGPU
-*
-mAssignedLayer
+float
+mOpacity
+;
+SamplerMode
+mSamplerMode
 ;
 RefPtr
 <
