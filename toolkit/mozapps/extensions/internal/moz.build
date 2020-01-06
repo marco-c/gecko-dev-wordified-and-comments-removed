@@ -97,11 +97,6 @@ AddonRepository
 jsm
 '
 '
-AddonRepository_SQLiteMigrator
-.
-jsm
-'
-'
 AddonSettings
 .
 jsm
