@@ -1204,7 +1204,7 @@ name_
 \
 aSizes
 .
-mStyleSizes
+mServoStyleSizes
 .
 NS_STYLE_SIZES_FIELD
 (
