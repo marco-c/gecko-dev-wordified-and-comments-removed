@@ -183,6 +183,13 @@ BROWSER_CHROME_MANIFESTS
 =
 [
 '
+cors
+/
+browser
+.
+ini
+'
+'
 csp
 /
 browser

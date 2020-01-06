@@ -884,6 +884,16 @@ aMessageCategory
 )
 override
 ;
+nsresult
+LogBlockedCORSRequest
+(
+const
+nsAString
+&
+aMessage
+)
+override
+;
 MOZ_MUST_USE
 bool
 DoSendDeleteSelf
