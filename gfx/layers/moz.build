@@ -1347,6 +1347,13 @@ h
 '
 wr
 /
+ScrollingLayersHelper
+.
+h
+'
+'
+wr
+/
 StackingContextHelper
 .
 h
@@ -2626,6 +2633,13 @@ cpp
 '
 '
 TextureWrapperImage
+.
+cpp
+'
+'
+wr
+/
+ScrollingLayersHelper
 .
 cpp
 '
