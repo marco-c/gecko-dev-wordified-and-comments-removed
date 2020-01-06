@@ -16,6 +16,12 @@ et
 :
 *
 /
+syntax
+=
+"
+proto2
+"
+;
 option
 optimize_for
 =
