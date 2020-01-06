@@ -115,6 +115,11 @@ TestAutoRef
 cpp
 '
 '
+TestAutoRefCnt
+.
+cpp
+'
+'
 TestBase64
 .
 cpp
