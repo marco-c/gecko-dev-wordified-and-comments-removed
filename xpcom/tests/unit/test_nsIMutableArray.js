@@ -319,7 +319,7 @@ i
 )
 {
 let
-obj
+obj2
 =
 arr
 .
@@ -342,7 +342,7 @@ i
 -
 1
 )
-obj
+obj2
 .
 data
 )

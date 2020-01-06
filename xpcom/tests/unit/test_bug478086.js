@@ -67,15 +67,6 @@ else
 {
 return
 ;
-root
-.
-initWithPath
-(
-"
-/
-"
-)
-;
 }
 var
 drives

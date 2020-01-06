@@ -79,7 +79,7 @@ null
 )
 ;
 var
-out
+unusedVariable
 =
 ss
 .
@@ -255,9 +255,6 @@ write
 ;
 try
 {
-var
-inp2
-=
 ss
 .
 newInputStream
@@ -421,9 +418,6 @@ BIS
 inp
 )
 ;
-var
-dummy
-=
 bis
 .
 readByteArray

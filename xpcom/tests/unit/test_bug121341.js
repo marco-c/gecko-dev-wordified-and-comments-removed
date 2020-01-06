@@ -413,7 +413,7 @@ properties
 )
 ;
 var
-channel
+channel2
 =
 NetUtil
 .
@@ -438,7 +438,7 @@ true
 ;
 inp
 =
-channel
+channel2
 .
 open2
 (
