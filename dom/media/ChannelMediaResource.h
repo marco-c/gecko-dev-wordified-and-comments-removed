@@ -218,12 +218,12 @@ bool
 aResume
 )
 ;
-nsresult
+void
 CacheClientSuspend
 (
 )
 ;
-nsresult
+void
 CacheClientResume
 (
 )
