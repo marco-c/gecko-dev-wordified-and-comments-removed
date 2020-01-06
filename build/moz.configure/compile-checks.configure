@@ -962,6 +962,10 @@ None
 when
 =
 always
+results
+=
+[
+]
 if
 test_flags
 :
@@ -1096,6 +1100,17 @@ list_of_flags
 append
 (
 flag
+)
+results
+.
+append
+(
+result
+)
+return
+tuple
+(
+results
 )
 dependable
 def
@@ -1402,6 +1417,7 @@ Werror
 '
 warning
 ]
+return
 check_and_add_flags
 (
 warning
@@ -1709,6 +1725,7 @@ Werror
 '
 flag
 ]
+return
 check_and_add_flags
 (
 flag
