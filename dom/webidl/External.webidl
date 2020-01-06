@@ -92,6 +92,7 @@ MPL
 *
 /
 [
+NoInterfaceObject
 JSImplementation
 =
 "

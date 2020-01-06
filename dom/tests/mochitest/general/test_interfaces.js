@@ -729,9 +729,6 @@ EventSource
 EventTarget
 "
 "
-External
-"
-"
 File
 "
 "
