@@ -249,10 +249,10 @@ iframe
 src
 =
 "
-data
-:
-text
+.
 /
+file_empty
+.
 html
 "
 >
