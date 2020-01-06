@@ -2523,11 +2523,6 @@ Au
 let
 font_size
 =
-Au
-:
-:
-from
-(
 style
 .
 get_font
@@ -2535,6 +2530,9 @@ get_font
 )
 .
 font_size
+.
+size
+(
 )
 ;
 match

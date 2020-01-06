@@ -289,7 +289,7 @@ size_of_test
 (
 test_size_of_cv
 ComputedValues
-272
+256
 )
 ;
 size_of_test

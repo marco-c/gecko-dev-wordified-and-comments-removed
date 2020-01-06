@@ -110,14 +110,6 @@ CSSInteger
 =
 i32
 ;
-pub
-const
-FONT_MEDIUM_PX
-:
-i32
-=
-16
-;
 define_keyword_type
 !
 (

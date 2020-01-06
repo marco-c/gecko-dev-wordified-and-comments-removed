@@ -380,11 +380,11 @@ get_initial_value
 (
 )
 .
-0
-.
-to_i32_au
+size
 (
 )
+.
+0
 as
 isize
 )
