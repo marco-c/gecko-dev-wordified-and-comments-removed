@@ -2967,6 +2967,9 @@ IPMPData
 =
 new
 (
+mozilla
+:
+:
 fallible
 )
 char
@@ -5516,6 +5519,9 @@ data
 =
 new
 (
+mozilla
+:
+:
 fallible
 )
 uint8_t
@@ -8716,6 +8722,9 @@ buffer
 =
 new
 (
+mozilla
+:
+:
 fallible
 )
 ABuffer
@@ -9792,6 +9801,9 @@ buffer
 =
 new
 (
+mozilla
+:
+:
 fallible
 )
 uint8_t
@@ -9962,6 +9974,9 @@ buffer
 =
 new
 (
+mozilla
+:
+:
 fallible
 )
 ABuffer
