@@ -1223,6 +1223,15 @@ mBlendOpacity
 .
 0f
 )
+#
+ifdef
+DEBUG
+mContentChanged
+(
+false
+)
+#
+endif
 {
 }
 mozilla
@@ -1358,6 +1367,9 @@ ifdef
 DEBUG
 bool
 mWasPushedForBlendBack
+;
+bool
+mContentChanged
 ;
 #
 endif
