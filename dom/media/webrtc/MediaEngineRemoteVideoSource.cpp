@@ -1012,6 +1012,10 @@ mImage
 =
 nullptr
 ;
+mImageContainer
+=
+nullptr
+;
 size_t
 i
 =
