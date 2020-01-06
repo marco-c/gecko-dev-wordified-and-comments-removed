@@ -893,7 +893,7 @@ __ia64
 static
 const
 size_t
-pagesize
+gPageSize
 =
 8_KiB
 ;
@@ -906,7 +906,7 @@ __powerpc64__
 static
 const
 size_t
-pagesize
+gPageSize
 =
 64_KiB
 ;
@@ -915,7 +915,7 @@ else
 static
 const
 size_t
-pagesize
+gPageSize
 =
 4_KiB
 ;
@@ -925,7 +925,7 @@ endif
 else
 static
 size_t
-pagesize
+gPageSize
 ;
 #
 endif
@@ -1061,12 +1061,12 @@ nsbins
 DECLARE_GLOBAL
 (
 uint8_t
-pagesize_2pow
+gPageSize2Pow
 )
 DECLARE_GLOBAL
 (
 size_t
-pagesize_mask
+gPageSizeMask
 )
 DECLARE_GLOBAL
 (
@@ -1090,7 +1090,7 @@ size_t
 )
 gMaxSubPageClass
 =
-pagesize
+gPageSize
 /
 2
 ;
@@ -1118,20 +1118,20 @@ DEFINE_GLOBAL
 (
 uint8_t
 )
-pagesize_2pow
+gPageSize2Pow
 =
 GLOBAL_LOG2
 (
-pagesize
+gPageSize
 )
 ;
 DEFINE_GLOBAL
 (
 size_t
 )
-pagesize_mask
+gPageSizeMask
 =
-pagesize
+gPageSize
 -
 1
 ;
@@ -1144,7 +1144,7 @@ chunk_npages
 kChunkSize
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 DEFINE_GLOBAL
 (
@@ -1170,15 +1170,15 @@ chunk_npages
 1
 )
 +
-pagesize_mask
+gPageSizeMask
 )
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 DEFINE_GLOBAL
 (
@@ -1192,7 +1192,7 @@ kChunkSize
 arena_chunk_header_npages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 GLOBAL_ASSERT
@@ -1200,10 +1200,10 @@ GLOBAL_ASSERT
 1ULL
 <
 <
-pagesize_2pow
+gPageSize2Pow
 =
 =
-pagesize
+gPageSize
 "
 Page
 size
@@ -1233,7 +1233,7 @@ GLOBAL_ASSERT
 kQuantum
 <
 =
-pagesize
+gPageSize
 )
 ;
 GLOBAL_ASSERT
@@ -1241,7 +1241,7 @@ GLOBAL_ASSERT
 kChunkSize
 >
 =
-pagesize
+gPageSize
 )
 ;
 GLOBAL_ASSERT
@@ -1376,11 +1376,11 @@ s
 s
 )
 +
-pagesize_mask
+gPageSizeMask
 )
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 #
 if
@@ -2303,7 +2303,7 @@ aNode
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 ;
 size_t
 size2
@@ -2314,7 +2314,7 @@ aOther
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 ;
 int
 ret
@@ -5433,10 +5433,9 @@ XP_DARWIN
 define
 VM_COPY_MIN
 (
-pagesize
-<
-<
-5
+gPageSize
+*
+32
 )
 static
 inline
@@ -5467,7 +5466,7 @@ uintptr_t
 dest
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 =
 =
@@ -5495,7 +5494,7 @@ uintptr_t
 src
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 =
 =
@@ -6188,7 +6187,7 @@ size
 +
 alignment
 -
-pagesize
+gPageSize
 ;
 if
 (
@@ -8776,7 +8775,7 @@ chunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 total_pages
@@ -8793,11 +8792,11 @@ run_ind
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 need_pages
 =
@@ -8805,7 +8804,7 @@ need_pages
 aSize
 >
 >
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 MOZ_ASSERT
@@ -8984,13 +8983,13 @@ i
 )
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 j
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 for
@@ -9089,7 +9088,7 @@ bits
 rem_pages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 |
 (
@@ -9105,7 +9104,7 @@ need_pages
 .
 bits
 &
-pagesize_mask
+gPageSizeMask
 )
 ;
 chunk
@@ -9126,7 +9125,7 @@ bits
 rem_pages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 |
 (
@@ -9144,7 +9143,7 @@ total_pages
 .
 bits
 &
-pagesize_mask
+gPageSizeMask
 )
 ;
 mRunsAvail
@@ -9226,11 +9225,11 @@ i
 )
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 0
-pagesize
+gPageSize
 )
 ;
 }
@@ -9425,7 +9424,7 @@ aChunk
 arena_chunk_header_npages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 ;
@@ -9740,7 +9739,7 @@ MOZ_ASSERT
 (
 aSize
 &
-pagesize_mask
+gPageSizeMask
 )
 =
 =
@@ -9818,7 +9817,7 @@ chunk
 pageind
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 ;
@@ -9855,7 +9854,7 @@ chunk
 arena_chunk_header_npages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 ;
@@ -9928,7 +9927,7 @@ chunk
 arena_chunk_header_npages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 ;
@@ -10261,14 +10260,14 @@ chunk
 i
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 (
 npages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 ;
@@ -10300,14 +10299,14 @@ chunk
 i
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 (
 npages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 MADV_FREE
 )
@@ -10446,7 +10445,7 @@ chunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -10497,7 +10496,7 @@ run_ind
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 ;
 }
 else
@@ -10519,7 +10518,7 @@ run_pages
 size
 >
 >
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 if
@@ -10680,7 +10679,7 @@ run_ind
 .
 bits
 &
-pagesize_mask
+gPageSizeMask
 )
 ;
 chunk
@@ -10714,7 +10713,7 @@ run_pages
 .
 bits
 &
-pagesize_mask
+gPageSizeMask
 )
 ;
 if
@@ -10762,7 +10761,7 @@ run_pages
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 ;
 mRunsAvail
 .
@@ -10790,7 +10789,7 @@ run_pages
 size
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
@@ -10810,7 +10809,7 @@ run_pages
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 =
 =
@@ -10840,7 +10839,7 @@ run_ind
 .
 bits
 &
-pagesize_mask
+gPageSizeMask
 )
 ;
 chunk
@@ -10874,7 +10873,7 @@ run_pages
 .
 bits
 &
-pagesize_mask
+gPageSizeMask
 )
 ;
 }
@@ -10921,7 +10920,7 @@ run_ind
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 ;
 run_ind
 -
@@ -10929,7 +10928,7 @@ run_ind
 prun_size
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 mRunsAvail
 .
@@ -10955,7 +10954,7 @@ run_pages
 size
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
@@ -10971,7 +10970,7 @@ run_ind
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 =
 =
@@ -11001,7 +11000,7 @@ run_ind
 .
 bits
 &
-pagesize_mask
+gPageSizeMask
 )
 ;
 chunk
@@ -11035,7 +11034,7 @@ run_pages
 .
 bits
 &
-pagesize_mask
+gPageSizeMask
 )
 ;
 }
@@ -11068,7 +11067,7 @@ bits
 &
 (
 ~
-pagesize_mask
+gPageSizeMask
 |
 CHUNK_MAP_ALLOCATED
 )
@@ -11132,7 +11131,7 @@ aChunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 size_t
 head_npages
@@ -11144,7 +11143,7 @@ aNewSize
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 MOZ_ASSERT
 (
@@ -11234,7 +11233,7 @@ aChunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 size_t
 npages
@@ -11242,7 +11241,7 @@ npages
 aNewSize
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 MOZ_ASSERT
 (
@@ -11370,7 +11369,7 @@ mapelm
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 ;
 return
@@ -11747,7 +11746,7 @@ MOZ_ASSERT
 min_run_size
 >
 =
-pagesize
+gPageSize
 )
 ;
 MOZ_ASSERT
@@ -11896,7 +11895,7 @@ try_reg0_offset
 try_run_size
 +
 =
-pagesize
+gPageSize
 ;
 try_nregs
 =
@@ -12638,7 +12637,7 @@ MOZ_ASSERT
 (
 aSize
 &
-pagesize_mask
+gPageSizeMask
 )
 =
 =
@@ -12650,7 +12649,7 @@ MOZ_ASSERT
 (
 aAlignment
 &
-pagesize_mask
+gPageSizeMask
 )
 =
 =
@@ -12709,7 +12708,7 @@ MOZ_ASSERT
 (
 offset
 &
-pagesize_mask
+gPageSizeMask
 )
 =
 =
@@ -12919,14 +12918,14 @@ if
 ceil_size
 <
 =
-pagesize
+gPageSize
 |
 |
 (
 aAlignment
 <
 =
-pagesize
+gPageSize
 &
 &
 ceil_size
@@ -13010,7 +13009,7 @@ ceil_size
 +
 aAlignment
 -
-pagesize
+gPageSize
 ;
 }
 else
@@ -13024,7 +13023,7 @@ aAlignment
 1
 )
 -
-pagesize
+gPageSize
 ;
 }
 if
@@ -13173,7 +13172,7 @@ chunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 mapbits
@@ -13224,7 +13223,7 @@ arena_run_t
 mapbits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -13256,7 +13255,7 @@ ret
 mapbits
 &
 ~
-pagesize_mask
+gPageSizeMask
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
@@ -13680,7 +13679,7 @@ chunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 if
@@ -13803,7 +13802,7 @@ aPtr
 )
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 ;
 *
@@ -13812,7 +13811,7 @@ aInfo
 {
 tag
 pageaddr
-pagesize
+gPageSize
 }
 ;
 return
@@ -13838,7 +13837,7 @@ size
 mapbits
 &
 ~
-pagesize_mask
+gPageSizeMask
 ;
 if
 (
@@ -13940,7 +13939,7 @@ chunk
 pageind
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 *
@@ -13966,7 +13965,7 @@ arena_run_t
 mapbits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -14211,7 +14210,7 @@ aMapElm
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -14368,7 +14367,7 @@ aChunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 arena_chunk_map_t
 *
@@ -14538,7 +14537,7 @@ runcur_chunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 arena_chunk_map_t
 *
@@ -14604,7 +14603,7 @@ aChunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 arena_chunk_map_t
 *
@@ -14677,7 +14676,7 @@ uintptr_t
 aPtr
 )
 &
-pagesize_mask
+gPageSizeMask
 )
 =
 =
@@ -14700,7 +14699,7 @@ aChunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 size_t
 size
@@ -14716,7 +14715,7 @@ pageind
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 ;
 memset
 (
@@ -14834,7 +14833,7 @@ pageind
 aOffset
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 arena_chunk_map_t
 *
@@ -15040,7 +15039,7 @@ aChunk
 )
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 size_t
 npages
@@ -15048,7 +15047,7 @@ npages
 aOldSize
 >
 >
-pagesize_2pow
+gPageSize2Pow
 ;
 MutexAutoLock
 lock
@@ -15073,7 +15072,7 @@ pageind
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 )
 ;
@@ -15127,7 +15126,7 @@ npages
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 >
 =
@@ -15159,7 +15158,7 @@ npages
 )
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 )
 aSize
@@ -15798,7 +15797,7 @@ Init
 ;
 prev_run_size
 =
-pagesize
+gPageSize
 ;
 SizeClass
 sizeClass
@@ -16919,7 +16918,7 @@ ifdef
 MALLOC_STATIC_PAGESIZE
 if
 (
-pagesize
+gPageSize
 %
 (
 size_t
@@ -16957,7 +16956,7 @@ MOZ_CRASH
 }
 #
 else
-pagesize
+gPageSize
 =
 (
 size_t
@@ -18440,7 +18439,7 @@ aStats
 >
 page_size
 =
-pagesize
+gPageSize
 ;
 aStats
 -
@@ -18630,7 +18629,7 @@ mStats
 committed
 <
 <
-pagesize_2pow
+gPageSize2Pow
 ;
 arena_allocated
 =
@@ -18656,7 +18655,7 @@ arena
 mNumDirty
 <
 <
-pagesize_2pow
+gPageSize2Pow
 ;
 for
 (
@@ -18723,7 +18722,7 @@ mapelm
 bits
 &
 ~
-pagesize_mask
+gPageSizeMask
 )
 ;
 bin_unused
@@ -18894,7 +18893,7 @@ arena_chunk_header_npages
 )
 <
 <
-pagesize_2pow
+gPageSize2Pow
 ;
 aStats
 -
@@ -19070,12 +19069,12 @@ aChunk
 i
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 npages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 Unused
@@ -19095,12 +19094,12 @@ aChunk
 i
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 npages
 <
 <
-pagesize_2pow
+gPageSize2Pow
 )
 ;
 }
