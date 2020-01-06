@@ -11872,14 +11872,6 @@ sqlite
 TRACKEDDB_ENTRY
 (
 "
-downloads
-.
-sqlite
-"
-)
-TRACKEDDB_ENTRY
-(
-"
 extensions
 .
 sqlite
