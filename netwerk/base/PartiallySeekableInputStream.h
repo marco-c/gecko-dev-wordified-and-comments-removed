@@ -81,8 +81,10 @@ NS_DECL_NSIINPUTSTREAMCALLBACK
 explicit
 PartiallySeekableInputStream
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aInputStream
 uint64_t
 aBufferSize

@@ -287,6 +287,10 @@ new
 PartiallySeekableInputStream
 (
 stream
+.
+forget
+(
+)
 aStreamSize
 )
 ;
