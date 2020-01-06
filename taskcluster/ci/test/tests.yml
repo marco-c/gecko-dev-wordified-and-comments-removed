@@ -11388,8 +11388,6 @@ built
 projects
 mozharness
 :
-mozharness
-:
 script
 :
 web_platform_tests
