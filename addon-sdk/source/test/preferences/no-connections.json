@@ -280,6 +280,17 @@ browser
 .
 safebrowsing
 .
+blockedURIs
+.
+enabled
+"
+:
+false
+"
+browser
+.
+safebrowsing
+.
 provider
 .
 google
