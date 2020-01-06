@@ -2097,6 +2097,7 @@ e
 .
 columnNumber
 )
+;
 }
 }
 CreateModuleEnvironment

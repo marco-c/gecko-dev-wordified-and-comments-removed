@@ -169,6 +169,7 @@ throw
 Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
+;
 }
 newChannel
 (
@@ -178,6 +179,7 @@ throw
 Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
+;
 }
 QueryInterface
 :
@@ -771,6 +773,7 @@ later
 .
 "
 )
+;
 old_factory
 .
 CID
@@ -838,6 +841,7 @@ Registering
 .
 "
 )
+;
 }
 registrar
 .

@@ -3860,6 +3860,7 @@ currentEngine
 =
 engine
 }
+;
 Services
 .
 search
@@ -5174,6 +5175,7 @@ this
 openSearch
 (
 )
+;
 }
 true
 )
@@ -18659,6 +18661,7 @@ text
 ;
 }
 }
+;
 Services
 .
 search

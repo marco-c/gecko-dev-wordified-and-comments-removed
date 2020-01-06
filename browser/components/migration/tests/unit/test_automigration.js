@@ -115,6 +115,7 @@ function
 {
 return
 gShimmedMigrator
+;
 }
 ;
 }

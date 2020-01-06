@@ -562,6 +562,7 @@ toString
 )
 .
 length
+;
 this
 .
 mYearField

@@ -2105,6 +2105,7 @@ c
 )
 return
 false
+;
 }
 return
 true
@@ -5890,6 +5891,7 @@ internals
 .
 lazyData
 )
+;
 else
 if
 (
@@ -5909,6 +5911,7 @@ internals
 .
 lazyData
 )
+;
 else
 if
 (
@@ -5938,6 +5941,7 @@ internals
 .
 lazyData
 )
+;
 setInternalProperties
 (
 internals
@@ -13476,6 +13480,7 @@ RelativeTimeFormat
 "
 lazyRelativeTimeFormatData
 )
+;
 }
 function
 Intl_RelativeTimeFormat_supportedLocalesOf

@@ -1127,6 +1127,7 @@ example
 com
 "
 )
+;
 Assert
 .
 deepEqual

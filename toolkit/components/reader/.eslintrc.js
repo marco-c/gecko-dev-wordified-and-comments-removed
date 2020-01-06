@@ -90,17 +90,5 @@ none
 "
 }
 ]
-"
-semi
-"
-:
-[
-"
-error
-"
-"
-always
-"
-]
 }
 }

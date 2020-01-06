@@ -302,6 +302,7 @@ _browser
 browser
 ;
 }
+;
 TestHangReport
 .
 prototype

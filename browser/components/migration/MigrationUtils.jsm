@@ -714,6 +714,7 @@ b
 ;
 return
 a
+;
 }
 0
 )
@@ -2636,6 +2637,7 @@ reportError
 (
 ex
 )
+;
 }
 this
 .
@@ -2677,6 +2679,7 @@ ex
 ;
 return
 null
+;
 }
 }
 getMigratorKeyForDefaultBrowser

@@ -1686,6 +1686,7 @@ args
 )
 ;
 }
+;
 }
 function
 wrapCallbackObject
@@ -4541,6 +4542,7 @@ _applyPermissions
 )
 ;
 }
+;
 for
 (
 var
@@ -7203,6 +7205,7 @@ cb
 ;
 }
 }
+;
 }
 Cu
 .
@@ -7686,6 +7689,7 @@ apply
 serv
 arguments
 )
+;
 }
 ;
 }

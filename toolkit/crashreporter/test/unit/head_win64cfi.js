@@ -203,6 +203,7 @@ offset
 :
 closestDistance
 }
+;
 }
 function
 initTestCrasherSymbols

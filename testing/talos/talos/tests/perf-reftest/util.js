@@ -9,6 +9,7 @@ end
 :
 null
 }
+;
 function
 build_dom
 (

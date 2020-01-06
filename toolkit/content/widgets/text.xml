@@ -1617,6 +1617,7 @@ element
 .
 textContent
 )
+;
 }
 else
 {
@@ -2447,6 +2448,7 @@ aEvent
 preventDefault
 (
 )
+;
 return
 ;
 }

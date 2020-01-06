@@ -233,6 +233,7 @@ preventDefault
 ;
 }
 )
+;
 }
 )
 ;
@@ -292,6 +293,7 @@ preventDefault
 ;
 }
 )
+;
 }
 )
 ;
@@ -373,6 +375,7 @@ colIndex
 ;
 }
 )
+;
 }
 )
 ;
@@ -885,6 +888,7 @@ createElement
 tr
 "
 )
+;
 new_row
 .
 className
@@ -1029,6 +1033,7 @@ td_elem
 ;
 }
 )
+;
 }
 else
 {

@@ -159,6 +159,7 @@ use
 strict
 ;
 "
+;
 function
 uint6ToB64
 (

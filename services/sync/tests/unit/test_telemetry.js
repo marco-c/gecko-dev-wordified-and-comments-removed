@@ -4072,6 +4072,7 @@ stringify
 ping
 )
 )
+;
 equal
 (
 ping

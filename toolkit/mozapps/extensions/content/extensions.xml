@@ -12323,6 +12323,7 @@ event
 )
 ;
 }
+;
 let
 showRelNotes
 =
@@ -12464,6 +12465,7 @@ sendToggleEvent
 )
 ;
 }
+;
 let
 handleError
 =
@@ -12520,6 +12522,7 @@ sendToggleEvent
 )
 ;
 }
+;
 function
 handleResponse
 (

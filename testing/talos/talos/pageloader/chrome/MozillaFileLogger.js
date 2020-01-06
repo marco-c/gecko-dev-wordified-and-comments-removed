@@ -190,6 +190,7 @@ PR_APPEND
 )
 ;
 }
+;
 MozillaFileLogger
 .
 getLogCallback
@@ -278,7 +279,9 @@ close
 ;
 }
 }
+;
 }
+;
 MozillaFileLogger
 .
 log
@@ -316,6 +319,7 @@ ex
 {
 }
 }
+;
 MozillaFileLogger
 .
 close
@@ -351,6 +355,7 @@ _file
 null
 ;
 }
+;
 try
 {
 var

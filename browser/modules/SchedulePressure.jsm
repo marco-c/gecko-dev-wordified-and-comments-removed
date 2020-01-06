@@ -257,6 +257,7 @@ telemetryCallbackId
 ;
 }
 }
+;
 }
 startMonitoring
 (

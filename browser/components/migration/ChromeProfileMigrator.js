@@ -1501,6 +1501,7 @@ function
 gotErrors
 =
 true
+;
 }
 ;
 let
@@ -2137,6 +2138,7 @@ aCallback
 (
 true
 )
+;
 }
 ex
 =

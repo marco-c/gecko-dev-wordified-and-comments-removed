@@ -187,6 +187,7 @@ charCodeAt
 (
 0
 )
+;
 }
 )
 ;
@@ -511,6 +512,7 @@ HelloStr
 .
 length
 )
+;
 do_check_eq
 (
 typeof
@@ -914,6 +916,7 @@ HelloStr
 .
 length
 )
+;
 do_check_eq
 (
 typeof

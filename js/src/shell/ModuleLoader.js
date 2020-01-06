@@ -984,6 +984,7 @@ loadAndParse
 (
 path
 )
+;
 }
 )
 ;

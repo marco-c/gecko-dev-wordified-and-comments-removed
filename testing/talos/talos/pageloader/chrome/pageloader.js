@@ -649,6 +649,7 @@ args
 .
 profilinginfo
 )
+;
 if
 (
 profilingInfo
@@ -3024,6 +3025,7 @@ var
 i
 =
 pageIndex
+;
 if
 (
 i
@@ -3309,6 +3311,7 @@ plWaitForPaintingCapturing
 )
 ;
 }
+;
 content
 .
 contentWindow
@@ -3346,6 +3349,7 @@ garbageCollect
 )
 ;
 }
+;
 content
 .
 removeEventListener

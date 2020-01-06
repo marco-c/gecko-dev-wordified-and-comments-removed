@@ -533,6 +533,7 @@ private
 windows
 "
 )
+;
 gPrivateWindow
 .
 close

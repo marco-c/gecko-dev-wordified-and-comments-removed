@@ -4761,6 +4761,7 @@ result
 suppressNotifications
 =
 true
+;
 try
 {
 findNodes

@@ -1948,6 +1948,7 @@ isAppTab
 true
 }
 )
+;
 if
 (
 aTab
@@ -2112,6 +2113,7 @@ isAppTab
 false
 }
 )
+;
 if
 (
 aTab
@@ -4505,6 +4507,7 @@ QueryInterface
 (
 nsIChannel
 )
+;
 location
 =
 aRequest
@@ -7429,6 +7432,7 @@ previewImageURL
 :
 aPreviewImage
 }
+;
 PlacesUtils
 .
 history
@@ -8534,6 +8538,7 @@ onMozAfterPaint
 )
 ;
 }
+;
 window
 .
 addEventListener
@@ -12010,6 +12015,7 @@ aTriggeringPrincipal
 params
 .
 triggeringPrincipal
+;
 aReferrerURI
 =
 params
@@ -14005,6 +14011,7 @@ tab
 pinned
 }
 )
+;
 /
 /
 Register
@@ -16393,6 +16400,7 @@ access
 :
 \
 n
+;
 console
 .
 log
@@ -16458,6 +16466,7 @@ access
 :
 \
 n
+;
 console
 .
 log
@@ -20420,6 +20429,7 @@ push
 (
 tab
 )
+;
 else
 this
 .
@@ -38118,6 +38128,7 @@ tab
 pinned
 }
 )
+;
 break
 ;
 }
@@ -42031,6 +42042,7 @@ getTabFromAudioEvent
 (
 event
 )
+;
 if
 (
 !
@@ -42206,6 +42218,7 @@ getTabFromAudioEvent
 (
 event
 )
+;
 if
 (
 !
@@ -42378,6 +42391,7 @@ getTabFromAudioEvent
 (
 event
 )
+;
 if
 (
 !
@@ -42464,6 +42478,7 @@ getTabFromAudioEvent
 (
 event
 )
+;
 if
 (
 !
@@ -44278,6 +44293,7 @@ newtab
 button
 "
 )
+;
 for
 (
 let
@@ -50957,6 +50973,7 @@ dragImageOffset
 )
 ;
 }
+;
 }
 else
 {
@@ -52429,6 +52446,7 @@ draggedTab
 )
 ;
 }
+;
 draggedTab
 .
 addEventListener

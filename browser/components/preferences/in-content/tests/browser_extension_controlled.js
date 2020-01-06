@@ -3134,6 +3134,7 @@ remove
 (
 storePath
 )
+;
 await
 ExtensionSettingsStore
 .

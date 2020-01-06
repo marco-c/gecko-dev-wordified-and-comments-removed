@@ -12829,6 +12829,7 @@ Page
 i
 }
 )
+;
 }
 await
 syncClientsEngine
@@ -12897,6 +12898,7 @@ commands
 .
 "
 )
+;
 let
 remoteCommands
 =
@@ -12950,6 +12952,7 @@ high
 priority
 "
 )
+;
 equal
 (
 firstCommand

@@ -807,6 +807,7 @@ i
 ^
 =
 signMask
+;
 }
 }
 }
@@ -839,6 +840,7 @@ i
 ^
 =
 signMask
+;
 }
 }
 let
@@ -1212,6 +1214,7 @@ i
 ^
 =
 signMask
+;
 }
 }
 return

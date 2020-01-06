@@ -423,6 +423,7 @@ test1
 override
 "
 )
+;
 test_no_overlays
 (
 "

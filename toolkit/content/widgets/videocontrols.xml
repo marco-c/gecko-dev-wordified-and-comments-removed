@@ -15360,6 +15360,7 @@ init
 (
 this
 )
+;
 this
 .
 dispatchEvent

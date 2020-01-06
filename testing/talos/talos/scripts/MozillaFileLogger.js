@@ -317,6 +317,7 @@ PR_APPEND
 )
 ;
 }
+;
 MozFileLogger
 .
 getLogCallback
@@ -418,7 +419,9 @@ close
 ;
 }
 }
+;
 }
+;
 MozFileLogger
 .
 log
@@ -469,6 +472,7 @@ ex
 {
 }
 }
+;
 MozFileLogger
 .
 close
@@ -532,6 +536,7 @@ _file
 null
 ;
 }
+;
 try
 {
 var

@@ -2346,6 +2346,7 @@ url
 s
 "
 )
+;
 user_pref
 (
 "
@@ -2379,6 +2380,7 @@ url
 s
 "
 )
+;
 user_pref
 (
 "
@@ -2412,6 +2414,7 @@ url
 s
 "
 )
+;
 user_pref
 (
 "
@@ -2445,6 +2448,7 @@ url
 s
 "
 )
+;
 user_pref
 (
 "
@@ -2478,6 +2482,7 @@ url
 s
 "
 )
+;
 user_pref
 (
 "
@@ -2511,6 +2516,7 @@ url
 s
 "
 )
+;
 user_pref
 (
 "

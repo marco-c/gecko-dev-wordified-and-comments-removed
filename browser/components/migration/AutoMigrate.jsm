@@ -2898,6 +2898,7 @@ resolve
 resolveSavingPromise
 =
 resolve
+;
 }
 )
 ;

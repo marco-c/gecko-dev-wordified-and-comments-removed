@@ -2262,6 +2262,7 @@ aEvent
 )
 ;
 }
+;
 ]
 ]
 >
@@ -4025,6 +4026,7 @@ anonid
 colorpopup
 "
 )
+;
 popup
 .
 _colorPicker
@@ -4047,6 +4049,7 @@ anonid
 colorpicker
 "
 )
+;
 ]
 ]
 >
@@ -4474,6 +4477,7 @@ aPopup
 hidePopup
 (
 )
+;
 }
 1
 this

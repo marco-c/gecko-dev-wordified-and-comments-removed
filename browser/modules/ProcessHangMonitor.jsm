@@ -1088,6 +1088,7 @@ return
 false
 ;
 }
+;
 for
 (
 let
