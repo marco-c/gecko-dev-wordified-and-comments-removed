@@ -1003,9 +1003,12 @@ LayoutRect
 &
 aBounds
 const
-uint64_t
-&
-aAnimationId
+wr
+:
+:
+WrAnimationProperty
+*
+aAnimation
 const
 float
 *

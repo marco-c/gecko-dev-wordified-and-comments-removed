@@ -83,8 +83,13 @@ gfx
 Matrix4x4
 *
 aBoundTransform
-uint64_t
-aAnimationsId
+const
+wr
+:
+:
+WrAnimationProperty
+*
+aAnimation
 float
 *
 aOpacityPtr
@@ -185,7 +190,7 @@ wr
 LayoutRect
 (
 )
-aAnimationsId
+aAnimation
 aOpacityPtr
 aTransformPtr
 aIsPreserve3D
