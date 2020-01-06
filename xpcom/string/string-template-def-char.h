@@ -68,10 +68,6 @@ nsTGetterCopies_CharT
 nsCGetterCopies
 #
 define
-nsTAdoptingString_CharT
-nsAdoptingCString
-#
-define
 nsTPromiseFlatString_CharT
 nsPromiseFlatCString
 #

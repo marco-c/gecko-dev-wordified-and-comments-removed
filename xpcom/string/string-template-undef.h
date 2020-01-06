@@ -54,9 +54,6 @@ undef
 nsTGetterCopies_CharT
 #
 undef
-nsTAdoptingString_CharT
-#
-undef
 nsTPromiseFlatString_CharT
 #
 undef
