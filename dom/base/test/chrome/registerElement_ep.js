@@ -18,7 +18,7 @@ magicNumber
 ;
 proto
 .
-createdCallback
+connectedCallback
 =
 function
 (
@@ -55,6 +55,12 @@ proto
 ;
 document
 .
+firstChild
+.
+appendChild
+(
+document
+.
 createElement
 (
 "
@@ -62,5 +68,6 @@ x
 -
 foo
 "
+)
 )
 ;

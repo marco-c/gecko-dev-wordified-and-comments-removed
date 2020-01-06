@@ -153,13 +153,6 @@ apply
 *
 /
 callback
-LifecycleCreatedCallback
-=
-void
-(
-)
-;
-callback
 LifecycleConnectedCallback
 =
 void
@@ -207,10 +200,6 @@ namespaceURI
 dictionary
 LifecycleCallbacks
 {
-LifecycleCreatedCallback
-?
-createdCallback
-;
 LifecycleConnectedCallback
 ?
 connectedCallback
