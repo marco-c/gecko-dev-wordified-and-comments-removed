@@ -3026,7 +3026,10 @@ WebGLBypassShaderValidator
 if
 (
 !
-ShInitialize
+sh
+:
+:
+Initialize
 (
 )
 )
