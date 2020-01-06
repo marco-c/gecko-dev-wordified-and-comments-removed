@@ -1867,6 +1867,13 @@ url
 this
 .
 url
+isImage
+:
+this
+.
+options
+.
+isImage
 }
 )
 ;
