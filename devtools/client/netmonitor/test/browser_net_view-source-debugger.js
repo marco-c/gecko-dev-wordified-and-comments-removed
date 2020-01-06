@@ -161,7 +161,12 @@ stack
 trace
 -
 panel
+.
+frame
+-
+link
 "
+4
 )
 ;
 EventUtils
