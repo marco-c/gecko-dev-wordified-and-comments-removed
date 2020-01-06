@@ -1103,7 +1103,7 @@ intercepted
 {
 intercepted
 .
-cancel
+cancelInterception
 (
 Cr
 .
@@ -1174,7 +1174,7 @@ try
 {
 chan
 .
-cancel
+cancelInterception
 (
 )
 ;

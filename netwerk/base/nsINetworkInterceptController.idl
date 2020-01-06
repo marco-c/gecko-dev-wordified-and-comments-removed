@@ -452,7 +452,7 @@ continue
 *
 /
 void
-cancel
+cancelInterception
 (
 in
 nsresult

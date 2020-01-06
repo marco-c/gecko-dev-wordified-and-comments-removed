@@ -1587,7 +1587,7 @@ NS_IMETHODIMP
 InterceptedChannelChrome
 :
 :
-Cancel
+CancelInterception
 (
 nsresult
 aStatus
@@ -2186,7 +2186,7 @@ NS_IMETHODIMP
 InterceptedChannelContent
 :
 :
-Cancel
+CancelInterception
 (
 nsresult
 aStatus
