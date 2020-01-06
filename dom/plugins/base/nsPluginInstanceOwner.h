@@ -1055,11 +1055,6 @@ view
 ;
 #
 endif
-void
-NotifyHostAsyncInitFailed
-(
-)
-;
 bool
 GetCompositionString
 (
