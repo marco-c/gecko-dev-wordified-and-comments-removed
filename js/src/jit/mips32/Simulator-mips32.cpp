@@ -9059,8 +9059,6 @@ code
 lookupMemoryAccess
 (
 pc
-&
-segment
 )
 ;
 if
