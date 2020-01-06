@@ -249,6 +249,7 @@ classNames
 )
 ;
 [
+CEReactions
 NewObject
 Throws
 ]
@@ -263,6 +264,7 @@ options
 )
 ;
 [
+CEReactions
 NewObject
 Throws
 ]
