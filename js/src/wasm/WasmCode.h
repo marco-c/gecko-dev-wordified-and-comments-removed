@@ -518,16 +518,6 @@ length_
 )
 ;
 }
-UniqueConstBytes
-unlinkedBytesForDebugging
-(
-const
-LinkData
-&
-linkData
-)
-const
-;
 size_t
 serializedSize
 (
