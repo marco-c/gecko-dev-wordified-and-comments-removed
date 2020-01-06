@@ -3631,17 +3631,6 @@ Preference
 "
 ]
 "
-PresentationDeviceInfoManager
-.
-jsm
-"
-:
-[
-"
-PresentationDeviceInfoService
-"
-]
-"
 ProfileStorage
 .
 jsm

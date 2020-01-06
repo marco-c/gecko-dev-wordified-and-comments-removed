@@ -1407,16 +1407,6 @@ true
 name
 :
 "
-PresentationDeviceInfoManager
-"
-disabled
-:
-true
-}
-{
-name
-:
-"
 Presentation
 "
 desktop
