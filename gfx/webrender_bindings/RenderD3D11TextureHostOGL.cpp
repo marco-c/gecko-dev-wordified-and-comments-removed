@@ -357,6 +357,16 @@ return
 false
 ;
 }
+if
+(
+!
+mHandle
+)
+{
+return
+false
+;
+}
 EGLint
 pbufferAttributes
 [
