@@ -2479,9 +2479,7 @@ keycodes_to_keys
 key_codes
 :
 &
-[
-char
-]
+str
 )
 -
 >
@@ -2512,7 +2510,7 @@ char_code
 in
 key_codes
 .
-iter
+chars
 (
 )
 {
@@ -2524,6 +2522,7 @@ with_shift
 =
 key_from_char
 (
+&
 char_code
 )
 .
