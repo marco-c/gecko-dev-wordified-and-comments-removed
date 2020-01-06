@@ -214,9 +214,6 @@ mozilla
 DeclarationBlock
 *
 aDeclaration
-nsAutoString
-&
-aRuleText
 )
 ;
 bool
