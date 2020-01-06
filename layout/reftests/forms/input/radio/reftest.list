@@ -26,12 +26,6 @@ native
 notref
 .
 html
-fails
--
-if
-(
-Android
-)
 =
 =
 checked
@@ -44,12 +38,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-Android
-)
 =
 =
 unchecked
