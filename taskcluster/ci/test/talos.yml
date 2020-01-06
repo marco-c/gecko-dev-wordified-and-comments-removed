@@ -1568,6 +1568,17 @@ central
 try
 '
 ]
+windows7
+-
+32
+.
+*
+:
+[
+'
+try
+'
+]
 default
 :
 [
