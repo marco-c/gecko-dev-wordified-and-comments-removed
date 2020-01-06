@@ -4644,7 +4644,7 @@ region
 )
 return
 "
-AXDocumentRegion
+AXLandmarkRegion
 "
 ;
 if
@@ -5453,17 +5453,6 @@ NS_LITERAL_STRING
 (
 "
 note
-"
-)
-}
-{
-"
-AXDocumentRegion
-"
-NS_LITERAL_STRING
-(
-"
-region
 "
 )
 }

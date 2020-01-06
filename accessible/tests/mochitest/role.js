@@ -692,6 +692,13 @@ nsIAccessibleRole
 ROLE_RADIO_MENU_ITEM
 ;
 const
+ROLE_REGION
+=
+nsIAccessibleRole
+.
+ROLE_REGION
+;
+const
 ROLE_RICH_OPTION
 =
 nsIAccessibleRole
