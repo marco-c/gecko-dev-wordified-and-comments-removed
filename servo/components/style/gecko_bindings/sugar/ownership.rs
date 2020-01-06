@@ -49,6 +49,9 @@ trait
 HasFFI
 :
 Sized
++
+'
+static
 {
 type
 FFIType
