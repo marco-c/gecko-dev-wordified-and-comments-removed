@@ -141,6 +141,11 @@ U2F
 cpp
 '
 '
+U2FManager
+.
+cpp
+'
+'
 U2FTransactionChild
 .
 cpp
