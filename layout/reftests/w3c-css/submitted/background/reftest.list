@@ -783,6 +783,14 @@ background
 attachment
 test
 cases
+fuzzy
+-
+if
+(
+webrender
+1
+10
+)
 =
 =
 background

@@ -150,6 +150,12 @@ load
 6
 .
 html
+skip
+-
+if
+(
+webrender
+)
 pref
 (
 dom
@@ -169,6 +175,10 @@ load
 1
 .
 html
+#
+see
+bug
+1367994
 pref
 (
 dom

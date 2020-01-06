@@ -276,6 +276,14 @@ skiaContent
 17
 58
 )
+fuzzy
+-
+if
+(
+webrender
+16
+59
+)
 =
 =
 border
@@ -1211,12 +1219,6 @@ if
 skiaContent
 28
 96
-)
-fails
--
-if
-(
-webrender
 )
 =
 =
