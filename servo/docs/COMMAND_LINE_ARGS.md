@@ -144,11 +144,11 @@ prefs
 json
 ]
 (
-http
+https
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .
