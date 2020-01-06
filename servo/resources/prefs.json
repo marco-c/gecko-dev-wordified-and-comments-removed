@@ -107,6 +107,17 @@ timeout_seconds
 "
 dom
 .
+servoparser
+.
+async_html_tokenizer
+.
+enabled
+"
+:
+false
+"
+dom
+.
 testable_crash
 .
 enabled
