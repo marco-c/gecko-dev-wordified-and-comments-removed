@@ -156,3 +156,6 @@ Wno
 shadow
 '
 ]
+NO_PGO
+=
+True

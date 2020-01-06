@@ -423,3 +423,6 @@ gdb
 py
 '
 ]
+NO_PGO
+=
+True

@@ -203,3 +203,6 @@ code
 DISABLE_STL_WRAPPING
 =
 True
+NO_PGO
+=
+True

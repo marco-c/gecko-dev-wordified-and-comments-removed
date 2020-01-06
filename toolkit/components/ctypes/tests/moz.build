@@ -189,6 +189,9 @@ mozalloc
 DISABLE_STL_WRAPPING
 =
 True
+NO_PGO
+=
+True
 if
 CONFIG
 [
