@@ -26,7 +26,7 @@ security
 .
 use_sqldb
 "
-true
+false
 )
 ;
 let
@@ -43,7 +43,7 @@ certificateDBFile
 append
 (
 "
-cert9
+cert8
 .
 db
 "
@@ -58,7 +58,7 @@ exists
 (
 )
 "
-cert9
+cert8
 .
 db
 should
@@ -82,7 +82,7 @@ keyDBFile
 append
 (
 "
-key4
+key3
 .
 db
 "
@@ -97,7 +97,7 @@ exists
 (
 )
 "
-key4
+key3
 .
 db
 should
@@ -135,7 +135,7 @@ exists
 (
 )
 "
-cert9
+cert8
 .
 db
 should
@@ -154,7 +154,7 @@ exists
 (
 )
 "
-key4
+key3
 .
 db
 should

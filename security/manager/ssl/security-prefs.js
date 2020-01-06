@@ -434,6 +434,16 @@ pref
 "
 security
 .
+use_sqldb
+"
+true
+)
+;
+pref
+(
+"
+security
+.
 family_safety
 .
 mode
