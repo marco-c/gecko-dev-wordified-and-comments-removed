@@ -116,11 +116,6 @@ Extension
 jsm
 '
 '
-ExtensionAPI
-.
-jsm
-'
-'
 ExtensionChild
 .
 jsm

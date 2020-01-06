@@ -18,7 +18,7 @@ gre
 /
 modules
 /
-ExtensionAPI
+ExtensionCommon
 .
 jsm
 "
@@ -44,6 +44,13 @@ Services
 jsm
 "
 )
+;
+const
+{
+ExtensionAPIs
+}
+=
+ExtensionCommon
 ;
 var
 namespace
