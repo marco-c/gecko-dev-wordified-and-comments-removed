@@ -518,6 +518,11 @@ initProfileStorage
 (
 fileName
 records
+collectionName
+=
+"
+addresses
+"
 )
 {
 let
@@ -628,8 +633,9 @@ records
 do_check_true
 (
 profileStorage
-.
-addresses
+[
+collectionName
+]
 .
 add
 (
