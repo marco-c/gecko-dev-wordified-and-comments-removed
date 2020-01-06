@@ -9010,6 +9010,14 @@ toolId
 "
 inspector
 "
+&
+&
+toolId
+!
+=
+"
+webconsole
+"
 )
 {
 return
