@@ -2544,6 +2544,11 @@ LayerSorter
 cpp
 '
 '
+LayersTypes
+.
+cpp
+'
+'
 opengl
 /
 CompositingRenderTargetOGL

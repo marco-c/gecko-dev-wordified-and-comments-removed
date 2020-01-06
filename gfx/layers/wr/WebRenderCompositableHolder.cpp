@@ -1495,6 +1495,12 @@ holder
 -
 >
 mMixBlendMode
+nsTArray
+<
+WrFilterOp
+>
+(
+)
 )
 ;
 LayerRect
