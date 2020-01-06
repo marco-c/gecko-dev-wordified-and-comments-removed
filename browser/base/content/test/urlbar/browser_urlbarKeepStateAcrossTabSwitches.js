@@ -39,7 +39,7 @@ gBrowser
 "
 about
 :
-newtab
+blank
 "
 false
 )
@@ -221,7 +221,7 @@ gBrowser
 "
 about
 :
-newtab
+blank
 "
 false
 )
