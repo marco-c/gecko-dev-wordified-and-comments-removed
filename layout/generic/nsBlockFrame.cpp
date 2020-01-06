@@ -31421,6 +31421,21 @@ GetDirtyRect
 )
 )
 ;
+bool
+visible
+=
+aLineArea
+.
+Intersects
+(
+aBuilder
+-
+>
+GetVisibleRect
+(
+)
+)
+;
 #
 ifdef
 DEBUG
@@ -31481,6 +31496,7 @@ aBuilder
 ShouldDescendIntoFrame
 (
 aFrame
+visible
 )
 &
 &
@@ -31873,6 +31889,7 @@ aBuilder
 ShouldDescendIntoFrame
 (
 this
+true
 )
 |
 |

@@ -765,7 +765,7 @@ displayPortBase
 aBuilder
 -
 >
-GetDirtyRect
+GetVisibleRect
 (
 )
 .

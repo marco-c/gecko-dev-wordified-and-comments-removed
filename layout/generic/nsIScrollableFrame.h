@@ -794,6 +794,9 @@ nsDisplayListBuilder
 aBuilder
 nsRect
 *
+aVisibleRect
+nsRect
+*
 aDirtyRect
 bool
 aSetBase
