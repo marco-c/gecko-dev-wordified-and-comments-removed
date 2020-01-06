@@ -16178,7 +16178,7 @@ nullptr
 }
 const
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 name
@@ -16194,12 +16194,12 @@ gecko
 /
 media
 /
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 "
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Create_t
@@ -16211,7 +16211,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Create_t
@@ -16222,7 +16222,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Create
@@ -16252,7 +16252,7 @@ a1
 )
 -
 >
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 LocalRef
@@ -16272,7 +16272,7 @@ Create_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Context
@@ -16286,7 +16286,7 @@ a1
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Destroy_t
@@ -16298,7 +16298,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Destroy_t
@@ -16309,7 +16309,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Destroy
@@ -16335,7 +16335,7 @@ Destroy_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 mCtx
@@ -16345,7 +16345,7 @@ nullptr
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetAudioInfo_t
@@ -16357,7 +16357,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetAudioInfo_t
@@ -16368,7 +16368,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetAudioInfo
@@ -16405,7 +16405,7 @@ GetAudioInfo_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 mCtx
@@ -16416,7 +16416,7 @@ a0
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetBuffered_t
@@ -16428,7 +16428,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetBuffered_t
@@ -16439,7 +16439,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetBuffered
@@ -16465,7 +16465,7 @@ GetBuffered_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 mCtx
@@ -16475,7 +16475,7 @@ nullptr
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetNextKeyFrameTime_t
@@ -16487,7 +16487,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetNextKeyFrameTime_t
@@ -16498,7 +16498,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetNextKeyFrameTime
@@ -16524,7 +16524,7 @@ GetNextKeyFrameTime_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 mCtx
@@ -16534,7 +16534,7 @@ nullptr
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetNumberOfTracks_t
@@ -16546,7 +16546,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetNumberOfTracks_t
@@ -16557,7 +16557,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetNumberOfTracks
@@ -16585,7 +16585,7 @@ GetNumberOfTracks_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 mCtx
@@ -16596,7 +16596,7 @@ a0
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetSamples_t
@@ -16608,7 +16608,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetSamples_t
@@ -16619,7 +16619,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetSamples
@@ -16658,7 +16658,7 @@ GetSamples_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 mCtx
@@ -16670,7 +16670,7 @@ a1
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetVideoInfo_t
@@ -16682,7 +16682,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetVideoInfo_t
@@ -16693,7 +16693,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 GetVideoInfo
@@ -16730,7 +16730,7 @@ GetVideoInfo_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 mCtx
@@ -16741,7 +16741,7 @@ a0
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 IsLiveStream_t
@@ -16753,7 +16753,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 IsLiveStream_t
@@ -16764,7 +16764,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 IsLiveStream
@@ -16790,7 +16790,7 @@ IsLiveStream_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 mCtx
@@ -16800,7 +16800,7 @@ nullptr
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Seek_t
@@ -16812,7 +16812,7 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Seek_t
@@ -16823,7 +16823,7 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 Seek
@@ -16851,7 +16851,7 @@ Seek_t
 :
 Call
 (
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
 mCtx
@@ -16862,10 +16862,10 @@ a0
 }
 const
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 name
@@ -16881,16 +16881,16 @@ gecko
 /
 media
 /
-GeckoHlsDemuxerWrapper
-HlsDemuxerCallbacks
+GeckoHLSDemuxerWrapper
+Callbacks
 "
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 New_t
@@ -16902,10 +16902,10 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 New_t
@@ -16916,10 +16916,10 @@ signature
 ]
 ;
 auto
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 New
@@ -16927,7 +16927,7 @@ New
 )
 -
 >
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 LocalRef
@@ -16947,7 +16947,7 @@ New_t
 :
 Call
 (
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 Context
@@ -16959,10 +16959,10 @@ nullptr
 }
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 OnError_t
@@ -16974,10 +16974,10 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 OnError_t
@@ -16989,10 +16989,10 @@ signature
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 OnInitialized_t
@@ -17004,10 +17004,10 @@ name
 ;
 constexpr
 char
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 :
 :
-HlsDemuxerCallbacks
+Callbacks
 :
 :
 OnInitialized_t
@@ -17019,7 +17019,7 @@ signature
 ;
 const
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 name
@@ -17035,12 +17035,12 @@ gecko
 /
 media
 /
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 "
 ;
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 GetPlayer_t
@@ -17052,7 +17052,7 @@ name
 ;
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 GetPlayer_t
@@ -17063,7 +17063,7 @@ signature
 ]
 ;
 auto
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 GetPlayer
@@ -17098,7 +17098,7 @@ GetPlayer_t
 :
 Call
 (
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 mCtx
@@ -17108,7 +17108,7 @@ nullptr
 }
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 Create_t
@@ -17120,7 +17120,7 @@ name
 ;
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 Create_t
@@ -17131,7 +17131,7 @@ signature
 ]
 ;
 auto
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 Create
@@ -17161,7 +17161,7 @@ a1
 )
 -
 >
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 LocalRef
@@ -17181,7 +17181,7 @@ Create_t
 :
 Call
 (
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 Context
@@ -17195,7 +17195,7 @@ a1
 }
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 Destroy_t
@@ -17207,7 +17207,7 @@ name
 ;
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 Destroy_t
@@ -17218,7 +17218,7 @@ signature
 ]
 ;
 auto
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 Destroy
@@ -17244,7 +17244,7 @@ Destroy_t
 :
 Call
 (
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
 mCtx
@@ -17254,10 +17254,10 @@ nullptr
 }
 const
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
-HlsResourceCallbacks
+Callbacks
 :
 :
 name
@@ -17273,16 +17273,16 @@ gecko
 /
 media
 /
-GeckoHlsResourceWrapper
-HlsResourceCallbacks
+GeckoHLSResourceWrapper
+Callbacks
 "
 ;
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
-HlsResourceCallbacks
+Callbacks
 :
 :
 New_t
@@ -17294,10 +17294,10 @@ name
 ;
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
-HlsResourceCallbacks
+Callbacks
 :
 :
 New_t
@@ -17308,10 +17308,10 @@ signature
 ]
 ;
 auto
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
-HlsResourceCallbacks
+Callbacks
 :
 :
 New
@@ -17319,7 +17319,7 @@ New
 )
 -
 >
-HlsResourceCallbacks
+Callbacks
 :
 :
 LocalRef
@@ -17339,7 +17339,7 @@ New_t
 :
 Call
 (
-HlsResourceCallbacks
+Callbacks
 :
 :
 Context
@@ -17351,10 +17351,10 @@ nullptr
 }
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
-HlsResourceCallbacks
+Callbacks
 :
 :
 OnDataArrived_t
@@ -17366,10 +17366,10 @@ name
 ;
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
-HlsResourceCallbacks
+Callbacks
 :
 :
 OnDataArrived_t
@@ -17381,10 +17381,10 @@ signature
 ;
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
-HlsResourceCallbacks
+Callbacks
 :
 :
 OnError_t
@@ -17396,10 +17396,10 @@ name
 ;
 constexpr
 char
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 :
 :
-HlsResourceCallbacks
+Callbacks
 :
 :
 OnError_t
@@ -17411,7 +17411,7 @@ signature
 ;
 const
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 name
@@ -17427,12 +17427,12 @@ gecko
 /
 media
 /
-GeckoHlsSample
+GeckoHLSSample
 "
 ;
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 IsEOS_t
@@ -17444,7 +17444,7 @@ name
 ;
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 IsEOS_t
@@ -17455,7 +17455,7 @@ signature
 ]
 ;
 auto
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 IsEOS
@@ -17481,7 +17481,7 @@ IsEOS_t
 :
 Call
 (
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 mCtx
@@ -17491,7 +17491,7 @@ nullptr
 }
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 IsKeyFrame_t
@@ -17503,7 +17503,7 @@ name
 ;
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 IsKeyFrame_t
@@ -17514,7 +17514,7 @@ signature
 ]
 ;
 auto
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 IsKeyFrame
@@ -17540,7 +17540,7 @@ IsKeyFrame_t
 :
 Call
 (
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 mCtx
@@ -17550,7 +17550,7 @@ nullptr
 }
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 WriteToByteBuffer_t
@@ -17562,7 +17562,7 @@ name
 ;
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 WriteToByteBuffer_t
@@ -17573,7 +17573,7 @@ signature
 ]
 ;
 auto
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 WriteToByteBuffer
@@ -17610,7 +17610,7 @@ WriteToByteBuffer_t
 :
 Call
 (
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 mCtx
@@ -17621,7 +17621,7 @@ a0
 }
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 CryptoInfo_t
@@ -17633,7 +17633,7 @@ name
 ;
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 CryptoInfo_t
@@ -17644,7 +17644,7 @@ signature
 ]
 ;
 auto
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 CryptoInfo
@@ -17679,7 +17679,7 @@ CryptoInfo_t
 :
 Get
 (
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 mCtx
@@ -17689,7 +17689,7 @@ nullptr
 }
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 Duration_t
@@ -17701,7 +17701,7 @@ name
 ;
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 Duration_t
@@ -17712,7 +17712,7 @@ signature
 ]
 ;
 auto
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 Duration
@@ -17738,7 +17738,7 @@ Duration_t
 :
 Get
 (
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 mCtx
@@ -17747,7 +17747,7 @@ nullptr
 ;
 }
 auto
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 Duration
@@ -17775,7 +17775,7 @@ Duration_t
 :
 Set
 (
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 mCtx
@@ -17786,7 +17786,7 @@ a0
 }
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 FormatIndex_t
@@ -17798,7 +17798,7 @@ name
 ;
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 FormatIndex_t
@@ -17809,7 +17809,7 @@ signature
 ]
 ;
 auto
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 FormatIndex
@@ -17835,7 +17835,7 @@ FormatIndex_t
 :
 Get
 (
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 mCtx
@@ -17845,7 +17845,7 @@ nullptr
 }
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 Info_t
@@ -17857,7 +17857,7 @@ name
 ;
 constexpr
 char
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 Info_t
@@ -17868,7 +17868,7 @@ signature
 ]
 ;
 auto
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 Info
@@ -17903,7 +17903,7 @@ Info_t
 :
 Get
 (
-GeckoHlsSample
+GeckoHLSSample
 :
 :
 mCtx
