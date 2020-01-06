@@ -748,6 +748,13 @@ AddFontFeaturesToStyle
 (
 &
 style
+mOrientation
+=
+=
+gfxFont
+:
+:
+eVertical
 )
 ;
 aFont
