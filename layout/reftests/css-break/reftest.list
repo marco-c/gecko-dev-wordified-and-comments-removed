@@ -122,6 +122,14 @@ skiaContent
 57
 374
 )
+fuzzy
+-
+if
+(
+styloVsGecko
+1
+420
+)
 =
 =
 box
@@ -160,6 +168,9 @@ shadow
 ref
 .
 html
+#
+Bug
+1386543
 random
 -
 if
