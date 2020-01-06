@@ -12,7 +12,6 @@ run_test
 {
 do_check_true
 (
-!
 Cu
 .
 isModuleLoaded
