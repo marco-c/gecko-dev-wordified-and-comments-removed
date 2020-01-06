@@ -2360,7 +2360,7 @@ IsPseudoElement
 weight
 +
 =
-0x000001
+1
 ;
 }
 if
@@ -2374,7 +2374,7 @@ mCasedTag
 weight
 +
 =
-0x000001
+1
 ;
 }
 nsAtomList
@@ -2394,7 +2394,10 @@ list
 weight
 +
 =
-0x010000
+1
+<
+<
+20
 ;
 list
 =
@@ -2442,7 +2445,10 @@ list
 weight
 +
 =
-0x000100
+1
+<
+<
+10
 ;
 list
 =
@@ -2469,7 +2475,10 @@ plist
 weight
 +
 =
-0x000100
+1
+<
+<
+10
 ;
 plist
 =
@@ -2496,7 +2505,10 @@ attr
 weight
 +
 =
-0x000100
+1
+<
+<
+10
 ;
 attr
 =

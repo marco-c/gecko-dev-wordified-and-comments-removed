@@ -3497,7 +3497,7 @@ elementStyle
 )
 {
 return
-0x01000000
+0x40000000
 ;
 }
 if
