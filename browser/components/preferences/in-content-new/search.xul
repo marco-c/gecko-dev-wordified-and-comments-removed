@@ -273,6 +273,9 @@ label
 label
 >
 <
+hbox
+>
+<
 menulist
 id
 =
@@ -287,6 +290,10 @@ menupopup
 <
 /
 menulist
+>
+<
+/
+hbox
 >
 <
 checkbox
