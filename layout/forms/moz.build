@@ -206,16 +206,6 @@ nsGfxButtonControlFrame
 cpp
 '
 '
-nsGfxCheckboxControlFrame
-.
-cpp
-'
-'
-nsGfxRadioControlFrame
-.
-cpp
-'
-'
 nsHTMLButtonControlFrame
 .
 cpp

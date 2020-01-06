@@ -7343,7 +7343,7 @@ case
 eStyleContentType_Attr
 :
 {
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
@@ -15696,12 +15696,12 @@ sInputData
 SIMPLE_INT_CREATE
 (
 NS_FORM_INPUT_CHECKBOX
-NS_NewGfxCheckboxControlFrame
+NS_NewFormControlFrame
 )
 SIMPLE_INT_CREATE
 (
 NS_FORM_INPUT_RADIO
-NS_NewGfxRadioControlFrame
+NS_NewFormControlFrame
 )
 SIMPLE_INT_CREATE
 (
