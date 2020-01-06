@@ -4578,6 +4578,11 @@ mKeptAlive
 =
 true
 ;
+SendDocumentChannelCleanup
+(
+false
+)
+;
 return
 ;
 }
@@ -4599,6 +4604,7 @@ true
 ;
 SendDocumentChannelCleanup
 (
+true
 )
 ;
 }
