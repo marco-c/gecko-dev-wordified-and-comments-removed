@@ -1852,15 +1852,7 @@ gecko_size
 gradient
 .
 repeating
-gradient
-.
-compat_mode
-!
-=
-CompatMode
-:
-:
-Modern
+false
 gradient
 .
 compat_mode
