@@ -4377,6 +4377,15 @@ activitystream
 /
 homepanel
 /
+HighlightsDividerItemDecoration
+.
+java
+'
+'
+activitystream
+/
+homepanel
+/
 HighlightsLoader
 .
 java
