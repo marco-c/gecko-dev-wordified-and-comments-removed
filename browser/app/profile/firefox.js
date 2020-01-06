@@ -3128,7 +3128,7 @@ slowStartup
 .
 timeThreshold
 "
-30000
+20000
 )
 ;
 pref
