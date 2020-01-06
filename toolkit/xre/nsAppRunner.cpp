@@ -11123,7 +11123,7 @@ count
 {
 gDoMigration
 =
-true
+false
 ;
 gDoProfileReset
 =
