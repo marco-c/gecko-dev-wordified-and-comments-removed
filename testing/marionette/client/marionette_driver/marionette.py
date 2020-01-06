@@ -8918,7 +8918,7 @@ else
             
 self
 .
-wait_for_port
+raise_for_port
 (
 timeout
 =
