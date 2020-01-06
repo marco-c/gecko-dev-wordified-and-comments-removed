@@ -3,7 +3,7 @@ os
 import
 shutil
 import
-sha
+hashlib
 from
 os
 .
@@ -26,11 +26,11 @@ time
 import
 datetime
 import
-bz2
-import
 string
 import
 tempfile
+import
+io
 class
 PatchInfo
 :
@@ -302,6 +302,7 @@ group
 )
             
 print
+(
 '
 add
 -
@@ -321,6 +322,7 @@ filename
 '
 "
 '
+)
             
 self
 .
@@ -380,6 +382,7 @@ else
 :
             
 print
+(
 '
 add
 "
@@ -390,6 +393,7 @@ filename
 '
 "
 '
+)
             
 self
 .
@@ -482,6 +486,7 @@ make_add_if_not_instruction
 "
         
 print
+(
 '
 add
 -
@@ -503,6 +508,7 @@ filename
 '
 "
 '
+)
         
 self
 .
@@ -670,6 +676,7 @@ group
 )
             
 print
+(
 '
 patch
 -
@@ -696,6 +703,7 @@ filename
 '
 "
 '
+)
             
 self
 .
@@ -769,6 +777,7 @@ else
 :
             
 print
+(
 '
 patch
 "
@@ -786,6 +795,7 @@ filename
 '
 "
 '
+)
             
 self
 .
@@ -892,6 +902,7 @@ endswith
 :
             
 print
+(
 '
 rmdir
 "
@@ -902,6 +913,7 @@ filename
 '
 "
 '
+)
             
 self
 .
@@ -961,6 +973,7 @@ filename
 ]
             
 print
+(
 '
 rmrfdir
 "
@@ -971,6 +984,7 @@ filename
 '
 "
 '
+)
             
 self
 .
@@ -1012,6 +1026,7 @@ else
 :
             
 print
+(
 '
 remove
 "
@@ -1022,6 +1037,7 @@ filename
 '
 "
 '
+)
             
 self
 .
@@ -1116,6 +1132,11 @@ manifest_file
 .
 writelines
 (
+io
+.
+BytesIO
+(
+b
 "
 type
 \
@@ -1127,22 +1148,34 @@ partial
 n
 "
 )
+)
         
 manifest_file
 .
 writelines
 (
-string
+io
+.
+BytesIO
+(
+'
+\
+n
+'
 .
 join
 (
 self
 .
 manifestv2
+)
+.
+encode
+(
 '
-\
-n
+ascii
 '
+)
 )
 )
         
@@ -1150,10 +1183,16 @@ manifest_file
 .
 writelines
 (
+io
+.
+BytesIO
+(
+b
 "
 \
 n
 "
+)
 )
         
 manifest_file
@@ -1162,7 +1201,7 @@ close
 (
 )
         
-bzip_file
+xz_file
 (
 manifest_file_path
 )
@@ -1232,6 +1271,11 @@ manifest_file
 .
 writelines
 (
+io
+.
+BytesIO
+(
+b
 "
 type
 \
@@ -1243,22 +1287,34 @@ partial
 n
 "
 )
+)
         
 manifest_file
 .
 writelines
 (
-string
+io
+.
+BytesIO
+(
+'
+\
+n
+'
 .
 join
 (
 self
 .
 manifestv3
+)
+.
+encode
+(
 '
-\
-n
+ascii
 '
+)
 )
 )
         
@@ -1266,10 +1322,16 @@ manifest_file
 .
 writelines
 (
+io
+.
+BytesIO
+(
+b
 "
 \
 n
 "
+)
 )
         
 manifest_file
@@ -1278,7 +1340,7 @@ close
 (
 )
         
-bzip_file
+xz_file
 (
 manifest_file_path
 )
@@ -1728,7 +1790,7 @@ open
 (
 filename
 '
-r
+rb
 '
 )
 .
@@ -1737,9 +1799,9 @@ read
 )
         
 return
-sha
+hashlib
 .
-new
+sha1
 (
 file_content
 )
@@ -1833,12 +1895,14 @@ cmd
         
 raise
 Exception
+(
 "
 cmd
 failed
 "
 +
 cmd
+)
 def
 copy_file
 (
@@ -1904,7 +1968,7 @@ src_file_abs_path
 dst_file_abs_path
 )
 def
-bzip_file
+xz_file
 (
 filename
 )
@@ -1913,9 +1977,8 @@ filename
 "
 "
 "
-Bzip
-'
-s
+XZ
+compresses
 the
 file
 in
@@ -1927,10 +1990,9 @@ file
 is
 replaced
 with
-a
-bzip
-'
-d
+the
+xz
+compressed
 version
 of
 itself
@@ -1947,9 +2009,26 @@ absolute
 exec_shell_cmd
 (
 '
-bzip2
+xz
 -
-z9
+-
+compress
+-
+-
+x86
+-
+-
+lzma2
+-
+-
+format
+=
+xz
+-
+-
+check
+=
+crc64
 "
 '
 +
@@ -1968,12 +2047,12 @@ filename
 +
 "
 .
-bz2
+xz
 "
 filename
 )
 def
-bunzip_file
+xzunzip_file
 (
 filename
 )
@@ -1982,9 +2061,8 @@ filename
 "
 "
 "
-Bzip
-'
-s
+xz
+decompresses
 the
 file
 in
@@ -1997,9 +2075,8 @@ is
 replaced
 with
 a
-bunzip
-'
-d
+xz
+decompressed
 version
 of
 itself
@@ -2015,7 +2092,7 @@ filename
 ends
 in
 .
-bz2
+xz
 or
 not
 "
@@ -2030,7 +2107,7 @@ endswith
 (
 "
 .
-bz2
+xz
 "
 )
 :
@@ -2044,7 +2121,7 @@ filename
 +
 "
 .
-bz2
+xz
 "
 )
         
@@ -2054,13 +2131,13 @@ filename
 +
 "
 .
-bz2
+xz
 "
     
 exec_shell_cmd
 (
 '
-bzip2
+xz
 -
 d
 "
@@ -2103,6 +2180,7 @@ osError
 "
     
 print
+(
 "
 Extracting
 "
@@ -2114,6 +2192,7 @@ to
 "
 +
 work_dir
+)
     
 saved_path
 =
@@ -2205,6 +2284,7 @@ shas
 :
         
 print
+(
 '
 diffing
 "
@@ -2218,15 +2298,16 @@ name
 \
 "
 '
+)
         
-bunzip_file
+xzunzip_file
 (
 from_marfile_entry
 .
 abs_path
 )
         
-bunzip_file
+xzunzip_file
 (
 to_marfile_entry
 .
@@ -2307,7 +2388,7 @@ abs_path
 patch_file_abs_path
 )
         
-bzip_file
+xz_file
 (
 patch_file_abs_path
 )
@@ -2338,7 +2419,7 @@ abs_path
 full_file_abs_path
 )
         
-bzip_file
+xz_file
 (
 full_file_abs_path
 )
@@ -2847,16 +2928,66 @@ list_file_path
 )
 :
         
+fd
+tmppath
+=
+tempfile
+.
+mkstemp
+(
+'
+'
+'
+tmp
+'
+os
+.
+getcwd
+(
+)
+)
+        
+os
+.
+close
+(
+fd
+)
+        
+exec_shell_cmd
+(
+'
+xz
+-
+k
+-
+d
+-
+-
+stdout
+"
+'
++
+list_file_path
++
+'
+"
+>
+"
+'
++
+tmppath
++
+'
+"
+'
+)
+        
 list_file
 =
-bz2
-.
-BZ2File
+open
 (
-list_file_path
-"
-r
-"
+tmppath
 )
         
 lines
@@ -2885,6 +3016,13 @@ list_file
 .
 close
 (
+)
+        
+os
+.
+remove
+(
+tmppath
 )
         
 lines
@@ -3102,6 +3240,7 @@ else
         
 raise
 Exception
+(
 "
 missing
 precomplete
@@ -3111,6 +3250,7 @@ in
 "
 +
 to_dir_path
+)
     
 if
 "
@@ -3198,6 +3338,7 @@ else
         
 raise
 Exception
+(
 "
 missing
 removed
@@ -3209,6 +3350,7 @@ in
 "
 +
 to_dir_path
+)
     
 if
 "
@@ -3296,6 +3438,7 @@ else
         
 raise
 Exception
+(
 "
 missing
 chrome
@@ -3307,6 +3450,7 @@ in
 "
 +
 to_dir_path
+)
     
 patch_filenames
 =
@@ -3378,6 +3522,7 @@ forced_list
 :
             
 print
+(
 '
 Forcing
 "
@@ -3388,6 +3533,7 @@ filename
 '
 "
 '
+)
             
 create_add_patch_for_file
 (
@@ -3586,15 +3732,14 @@ output
 mar
 '
 +
-string
+'
+'
 .
 join
 (
 patch_info
 .
 archive_files
-'
-'
 )
     
 exec_shell_cmd
@@ -3666,20 +3811,24 @@ usage
 :
     
 print
+(
 "
 -
 h
 for
 help
 "
+)
     
 print
+(
 "
 -
 f
 for
 patchlist_file
 "
+)
 def
 get_buildid
 (
@@ -3754,6 +3903,7 @@ ini
 :
             
 print
+(
 '
 WARNING
 :
@@ -3767,18 +3917,72 @@ find
 build
 ID
 '
+)
             
 return
 '
 '
     
+fd
+tmppath
+=
+tempfile
+.
+mkstemp
+(
+'
+'
+'
+tmp
+'
+os
+.
+getcwd
+(
+)
+)
+    
+os
+.
+close
+(
+fd
+)
+    
+exec_shell_cmd
+(
+'
+xz
+-
+k
+-
+d
+-
+-
+stdout
+"
+'
++
+ini
++
+'
+"
+>
+"
+'
++
+tmppath
++
+'
+"
+'
+)
+    
 file
 =
-bz2
-.
-BZ2File
+open
 (
-ini
+tmppath
 )
     
 for
@@ -3801,6 +4005,19 @@ BuildID
 0
 :
             
+file
+.
+close
+(
+)
+            
+os
+.
+remove
+(
+tmppath
+)
+            
 return
 line
 .
@@ -3819,6 +4036,7 @@ split
 ]
     
 print
+(
 '
 WARNING
 :
@@ -3831,6 +4049,20 @@ application
 .
 ini
 '
+)
+    
+file
+.
+close
+(
+)
+    
+os
+.
+remove
+(
+tmppath
+)
     
 return
 '
@@ -4028,7 +4260,9 @@ groupdict
     
 except
 Exception
+(
 exc
+)
 :
       
 try
@@ -4202,6 +4436,7 @@ getcwd
 )
         
 print
+(
 "
 Building
 patches
@@ -4215,6 +4450,7 @@ s
 %
 (
 work_dir_root
+)
 )
         
 patch_num
@@ -4343,13 +4579,16 @@ work_dir_from
             
 from_shasum
 =
-sha
+hashlib
 .
-sha
+sha1
 (
 open
 (
 from_filename
+"
+rb
+"
 )
 .
 read
@@ -4418,13 +4657,16 @@ work_dir_to
             
 to_shasum
 =
-sha
+hashlib
 .
-sha
+sha1
 (
 open
 (
 to_filename
+'
+rb
+'
 )
 .
 read
@@ -4514,13 +4756,16 @@ to_buildid
             
 partial_shasum
 =
-sha
+hashlib
 .
-sha
+sha1
 (
 open
 (
 partial_filename
+"
+rb
+"
 )
 .
 read
@@ -4687,6 +4932,7 @@ platform
 )
             
 print
+(
 "
 done
 with
@@ -4748,6 +4994,7 @@ time
 )
 -
 startTime
+)
 )
             
 patch_num

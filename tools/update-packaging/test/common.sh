@@ -191,13 +191,13 @@ MAR
 -
 mar
 }
-BZIP2
+XZ
 =
 {
-BZIP2
+XZ
 :
 -
-bzip2
+xz
 }
 MBSDIFF
 =
