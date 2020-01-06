@@ -88,8 +88,8 @@ io
 [
 derive
 (
-PartialEq
 Debug
+PartialEq
 )
 ]
 pub

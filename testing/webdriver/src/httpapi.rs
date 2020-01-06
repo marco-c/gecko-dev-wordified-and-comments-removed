@@ -1258,6 +1258,7 @@ derive
 (
 Clone
 Copy
+Debug
 )
 ]
 pub
@@ -1381,6 +1382,7 @@ Command
 derive
 (
 Clone
+Debug
 PartialEq
 )
 ]
@@ -1439,6 +1441,7 @@ implemented
 derive
 (
 Clone
+Debug
 )
 ]
 struct
@@ -1764,6 +1767,13 @@ unwrap
 )
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 WebDriverHttpApi

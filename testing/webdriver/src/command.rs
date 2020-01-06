@@ -88,6 +88,7 @@ Default
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -289,6 +290,7 @@ Json
 derive
 (
 Clone
+Debug
 PartialEq
 )
 ]
@@ -330,6 +332,7 @@ implemented
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -3576,6 +3579,7 @@ browser_capabilities
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -3754,6 +3758,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -4649,6 +4654,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -4828,6 +4834,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -5071,6 +5078,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -5235,6 +5243,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -5415,6 +5424,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -5703,6 +5713,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -5910,6 +5921,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -6678,6 +6690,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -6867,6 +6880,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -7113,6 +7127,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -7624,6 +7639,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -8027,6 +8043,7 @@ type
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -8249,6 +8266,7 @@ Mouse
 [
 derive
 (
+Debug
 Default
 PartialEq
 )
@@ -8420,6 +8438,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -8620,6 +8639,7 @@ to_json
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -8841,6 +8861,7 @@ to_json
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -9063,6 +9084,7 @@ to_json
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -9212,6 +9234,7 @@ to_json
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -9381,6 +9404,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -9697,6 +9721,7 @@ value
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -9882,6 +9907,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -10067,6 +10093,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -10314,6 +10341,7 @@ Viewport
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -10630,6 +10658,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -10800,6 +10829,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]
@@ -10970,6 +11000,7 @@ data
 [
 derive
 (
+Debug
 PartialEq
 )
 ]

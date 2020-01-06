@@ -350,8 +350,8 @@ data
 [
 derive
 (
-RustcEncodable
 Debug
+RustcEncodable
 )
 ]
 pub
@@ -456,8 +456,8 @@ Json
 [
 derive
 (
-RustcEncodable
 Debug
+RustcEncodable
 )
 ]
 pub
@@ -512,8 +512,8 @@ session_id
 [
 derive
 (
-RustcEncodable
 Debug
+RustcEncodable
 )
 ]
 pub
@@ -572,8 +572,8 @@ implicit
 [
 derive
 (
-RustcEncodable
 Debug
+RustcEncodable
 )
 ]
 pub
@@ -618,8 +618,8 @@ value
 [
 derive
 (
-RustcEncodable
 Debug
+RustcEncodable
 )
 ]
 pub
@@ -814,10 +814,10 @@ body
 [
 derive
 (
-RustcEncodable
-PartialEq
-Debug
 Clone
+Debug
+PartialEq
+RustcEncodable
 )
 ]
 pub
@@ -1056,8 +1056,8 @@ finish
 [
 derive
 (
-RustcEncodable
 Debug
+RustcEncodable
 )
 ]
 pub
@@ -1073,8 +1073,8 @@ Cookie
 [
 derive
 (
-RustcEncodable
 Debug
+RustcEncodable
 )
 ]
 pub
