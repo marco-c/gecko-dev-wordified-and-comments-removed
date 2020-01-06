@@ -307,6 +307,10 @@ Create
 (
 EncoderType
 codec_type
+bool
+enable_simulcast
+=
+false
 )
 ;
 static

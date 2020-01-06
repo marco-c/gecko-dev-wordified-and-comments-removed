@@ -960,15 +960,6 @@ __linux__
 ]
 =
 True
-if
-not
-CONFIG
-[
-'
-MOZ_WEBRTC
-'
-]
-:
 SOURCES
 +
 =

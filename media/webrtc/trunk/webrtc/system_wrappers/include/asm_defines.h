@@ -6,9 +6,17 @@ define
 WEBRTC_SYSTEM_WRAPPERS_INCLUDE_ASM_DEFINES_H_
 #
 if
+(
 defined
 (
 __linux__
+)
+|
+|
+defined
+(
+__FreeBSD__
+)
 )
 &
 &

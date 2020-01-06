@@ -25,6 +25,10 @@ VideoCaptureMF
 VideoCaptureMF
 (
 )
+:
+VideoCaptureImpl
+(
+)
 {
 }
 VideoCaptureMF

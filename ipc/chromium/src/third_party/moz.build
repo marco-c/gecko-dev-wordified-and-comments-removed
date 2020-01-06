@@ -367,6 +367,12 @@ upstream
 ALLOW_COMPILER_WARNINGS
 =
 True
+Library
+(
+'
+libevent
+'
+)
 FINAL_LIBRARY
 =
 '

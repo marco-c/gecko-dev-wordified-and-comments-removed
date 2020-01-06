@@ -717,10 +717,9 @@ test
 reports
 /
 "
-function
-(
 exists
-)
+=
+>
 {
 if
 (
@@ -749,7 +748,7 @@ test
 reports
 /
 "
-0777
+0o777
 writeFile
 .
 bind
@@ -760,11 +759,6 @@ this
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 function

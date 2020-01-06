@@ -174,6 +174,12 @@ PlayoutDelayLimits
 >
 (
 )
+CreateExtensionInfo
+<
+StreamId
+>
+(
+)
 }
 ;
 static_assert

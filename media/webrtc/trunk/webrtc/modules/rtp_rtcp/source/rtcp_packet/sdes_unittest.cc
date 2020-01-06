@@ -623,7 +623,7 @@ ParseSkipsNonCNameField
 )
 {
 const
-char
+uint8_t
 kName
 [
 ]
@@ -674,10 +674,16 @@ kName
 ]
 kCnameTag
 2
+(
+uint8_t
+)
 kCname
 [
 0
 ]
+(
+uint8_t
+)
 kCname
 [
 1
@@ -782,7 +788,7 @@ ParseSkipsChunksWithoutCName
 )
 {
 const
-char
+uint8_t
 kName
 [
 ]
@@ -792,7 +798,7 @@ ab
 "
 ;
 const
-char
+uint8_t
 kEmail
 [
 ]
@@ -860,14 +866,23 @@ kPadding
 0x89
 kCnameTag
 3
+(
+uint8_t
+)
 kCname
 [
 0
 ]
+(
+uint8_t
+)
 kCname
 [
 1
 ]
+(
+uint8_t
+)
 kCname
 [
 2
@@ -972,7 +987,7 @@ ParseFailsWithoutChunkItemTerminator
 )
 {
 const
-char
+uint8_t
 kName
 [
 ]
@@ -982,7 +997,7 @@ abc
 "
 ;
 const
-char
+uint8_t
 kCname
 [
 ]
@@ -1079,7 +1094,7 @@ ParseFailsWithDamagedChunkItem
 )
 {
 const
-char
+uint8_t
 kName
 [
 ]
@@ -1089,7 +1104,7 @@ ab
 "
 ;
 const
-char
+uint8_t
 kCname
 [
 ]
@@ -1183,7 +1198,7 @@ ParseFailsWithTooLongChunkItem
 )
 {
 const
-char
+uint8_t
 kName
 [
 ]
@@ -1193,7 +1208,7 @@ abc
 "
 ;
 const
-char
+uint8_t
 kCname
 [
 ]
@@ -1290,7 +1305,7 @@ ParseFailsWithTwoCNames
 )
 {
 const
-char
+uint8_t
 kCname1
 [
 ]
@@ -1300,7 +1315,7 @@ a
 "
 ;
 const
-char
+uint8_t
 kCname2
 [
 ]
@@ -1394,7 +1409,7 @@ ParseFailsWithTooLittleSpaceForNextChunk
 )
 {
 const
-char
+uint8_t
 kCname
 [
 ]
@@ -1404,7 +1419,7 @@ a
 "
 ;
 const
-char
+uint8_t
 kEmail
 [
 ]

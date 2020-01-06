@@ -2124,6 +2124,9 @@ GIPS_VER
 '
 SECLIB_OPENSSL
 '
+'
+WEBRTC_BUILD_LIBEVENT
+'
 ]
 '
 cflags_mozilla
@@ -2309,6 +2312,9 @@ defines
 [
 '
 WEBRTC_POSIX
+'
+'
+WEBRTC_MAC
 '
 '
 OS_MACOSX

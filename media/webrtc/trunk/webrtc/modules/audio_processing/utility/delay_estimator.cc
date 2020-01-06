@@ -1864,7 +1864,7 @@ history_size
 {
 BinaryDelayEstimatorFarend
 *
-far
+farend
 =
 self
 -
@@ -1876,7 +1876,7 @@ if
 history_size
 !
 =
-far
+farend
 -
 >
 history_size
@@ -1886,7 +1886,7 @@ history_size
 =
 WebRtc_AllocateFarendBufferMemory
 (
-far
+farend
 history_size
 )
 ;

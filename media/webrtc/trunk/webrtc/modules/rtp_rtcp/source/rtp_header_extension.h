@@ -118,6 +118,12 @@ kPlayoutDelayLength
 4
 ;
 const
+size_t
+kRtpStreamIdLength
+=
+4
+;
+const
 int
 kPlayoutDelayGranularityMs
 =

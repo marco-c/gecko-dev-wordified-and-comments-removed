@@ -244,6 +244,8 @@ EncodedImageCallback
 public
 VCMSendStatisticsCallback
 public
+CPULoadStateObserver
+public
 ScalingObserverInterface
 {
 public
@@ -433,6 +435,14 @@ fraction_lost
 int64_t
 round_trip_time_ms
 )
+;
+void
+onLoadStateChanged
+(
+CPULoadState
+state
+)
+override
 ;
 protected
 :

@@ -196,6 +196,7 @@ kRtpExtensionAbsoluteSendTime
 kRtpExtensionVideoRotation
 kRtpExtensionTransportSequenceNumber
 kRtpExtensionPlayoutDelay
+kRtpExtensionRtpStreamId
 kRtpExtensionNumberOfExtensions
 }
 ;

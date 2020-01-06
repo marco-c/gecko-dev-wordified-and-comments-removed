@@ -519,6 +519,15 @@ transport_frame_id_out
 )
 ;
 int32_t
+SetRID
+(
+const
+char
+*
+rid
+)
+;
+int32_t
 RegisterRtpHeaderExtension
 (
 RTPExtensionType
@@ -1125,6 +1134,10 @@ GUARDED_BY
 (
 send_critsect_
 )
+;
+char
+*
+rid_
 ;
 PlayoutDelayOracle
 playout_delay_oracle_

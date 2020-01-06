@@ -278,6 +278,13 @@ rtt_ms
 )
 ;
 void
+ReceiveStateChange
+(
+VideoReceiveState
+state
+)
+;
+void
 OnPreDecode
 (
 const
@@ -649,6 +656,13 @@ crit_
 ;
 QpCounters
 qp_counters_
+;
+VideoReceiveState
+receive_state_
+GUARDED_BY
+(
+crit_
+)
 ;
 std
 :

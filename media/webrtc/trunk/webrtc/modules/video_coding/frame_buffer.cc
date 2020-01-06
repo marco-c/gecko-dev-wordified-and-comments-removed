@@ -501,6 +501,8 @@ kH264StartCodeLengthBytes
 0
 )
 +
+kBufferSafetyMargin
++
 EncodedImage
 :
 :
@@ -723,12 +725,6 @@ packet
 markerBit
 )
 {
-RTC_DCHECK
-(
-!
-_rotation_set
-)
-;
 rotation_
 =
 packet

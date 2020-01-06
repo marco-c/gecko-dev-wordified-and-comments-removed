@@ -282,6 +282,8 @@ virtual
 GMPVideoEncoderParent
 (
 )
+{
+}
 ;
 void
 ActorDestroy
@@ -410,12 +412,6 @@ mCallback
 ;
 GMPVideoHostImpl
 mVideoHost
-;
-nsCOMPtr
-<
-nsIThread
->
-mEncodedThread
 ;
 const
 uint32_t

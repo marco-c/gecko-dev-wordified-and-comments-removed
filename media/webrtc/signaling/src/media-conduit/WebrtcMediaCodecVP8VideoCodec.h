@@ -560,13 +560,6 @@ Release
 )
 override
 ;
-virtual
-int32_t
-Reset
-(
-)
-override
-;
 private
 :
 void

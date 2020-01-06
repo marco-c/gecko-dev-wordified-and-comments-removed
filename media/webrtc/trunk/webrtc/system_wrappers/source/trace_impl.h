@@ -113,13 +113,6 @@ TraceImpl
 static
 TraceImpl
 *
-CreateInstance
-(
-)
-;
-static
-TraceImpl
-*
 GetTrace
 (
 const

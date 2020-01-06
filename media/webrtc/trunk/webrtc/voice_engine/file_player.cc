@@ -428,7 +428,7 @@ _codec
 plfreq
 =
 =
-44000
+44100
 )
 {
 return

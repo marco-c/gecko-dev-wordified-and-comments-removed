@@ -399,6 +399,7 @@ voice_engine
 int
 audio_channel_id
 )
+override
 ;
 void
 SendNack
@@ -433,6 +434,16 @@ file
 size_t
 byte_limit
 )
+override
+;
+bool
+GetRemoteRTCPSenderInfo
+(
+RTCPSenderInfo
+*
+sender_info
+)
+const
 override
 ;
 private

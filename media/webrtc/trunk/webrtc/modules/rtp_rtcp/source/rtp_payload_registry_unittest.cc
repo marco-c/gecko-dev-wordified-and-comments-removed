@@ -151,7 +151,7 @@ const
 uint32_t
 kTypicalFrequency
 =
-44000
+44100
 ;
 static
 const

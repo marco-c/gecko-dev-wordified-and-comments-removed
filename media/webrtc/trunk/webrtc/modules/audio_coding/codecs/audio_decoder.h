@@ -105,9 +105,8 @@ virtual
 AudioDecoder
 (
 )
-=
-default
-;
+{
+}
 class
 EncodedAudioFrame
 {

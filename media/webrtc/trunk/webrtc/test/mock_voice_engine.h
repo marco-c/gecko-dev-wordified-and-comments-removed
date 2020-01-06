@@ -275,6 +275,15 @@ MockVoiceEngine
 _ref_count
 ;
 }
+int
+Release
+(
+)
+{
+return
+0
+;
+}
 MOCK_METHOD1
 (
 ChannelProxyFactory
