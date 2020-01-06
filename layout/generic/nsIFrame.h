@@ -9474,8 +9474,10 @@ false
 nsRect
 mRect
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 mContent
 ;
 nsStyleContext
