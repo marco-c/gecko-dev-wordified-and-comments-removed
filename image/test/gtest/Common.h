@@ -1225,6 +1225,16 @@ TruncatedSmallGIFTestCase
 )
 ;
 ImageTestCase
+LargeICOWithBMPTestCase
+(
+)
+;
+ImageTestCase
+LargeICOWithPNGTestCase
+(
+)
+;
+ImageTestCase
 GreenMultipleSizesICOTestCase
 (
 )
