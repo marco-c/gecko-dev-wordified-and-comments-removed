@@ -17250,6 +17250,17 @@ IsApzForceDisabled
 )
 )
 ;
+mScrollMetadata
+.
+SetOverscrollBehavior
+(
+aScrollMetadata
+.
+GetOverscrollBehavior
+(
+)
+)
+;
 if
 (
 scrollOffsetUpdated
