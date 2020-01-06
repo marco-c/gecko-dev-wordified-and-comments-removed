@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsUTF8Utils
 .
 h
