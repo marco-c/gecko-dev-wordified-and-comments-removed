@@ -909,6 +909,8 @@ _createPreloadBrowser
 (
 )
 ;
+return
+;
 await
 BrowserTestUtils
 .
