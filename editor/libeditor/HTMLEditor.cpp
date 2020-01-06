@@ -826,6 +826,10 @@ RemoveEventListeners
 (
 )
 ;
+HideAnonymousEditingUIs
+(
+)
+;
 }
 void
 HTMLEditor
@@ -2748,17 +2752,6 @@ handled
 ;
 if
 (
-Destroyed
-(
-)
-)
-{
-return
-NS_OK
-;
-}
-if
-(
 handled
 )
 {
@@ -4416,7 +4409,7 @@ aAction
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 HTMLEditor
 :
 :
