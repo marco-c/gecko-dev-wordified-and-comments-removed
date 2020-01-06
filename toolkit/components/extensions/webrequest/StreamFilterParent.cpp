@@ -162,10 +162,6 @@ return
 do_AddRef
 (
 mTarget
-.
-get
-(
-)
 )
 ;
 }

@@ -11474,10 +11474,6 @@ WhiteList
 LastElement
 (
 )
-.
-get
-(
-)
 )
 ;
 }

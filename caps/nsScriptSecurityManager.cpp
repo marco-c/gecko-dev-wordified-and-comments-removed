@@ -6050,10 +6050,6 @@ gScriptSecMan
 -
 >
 mSystemPrincipal
-.
-get
-(
-)
 )
 .
 downcast
