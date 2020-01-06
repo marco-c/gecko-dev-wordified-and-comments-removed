@@ -1591,6 +1591,10 @@ FCDATA_IS_CONTENTS
 define
 FCDATA_ALLOW_GRID_FLEX_COLUMNSET
 0x200000
+#
+define
+FCDATA_IS_WRAPPER_ANON_BOX
+0x400000
 struct
 FrameConstructionData
 {
@@ -3779,6 +3783,8 @@ aItems
 nsContainerFrame
 *
 aParentFrame
+bool
+aParentIsWrapperAnonBox
 nsFrameItems
 &
 aFrameItems
