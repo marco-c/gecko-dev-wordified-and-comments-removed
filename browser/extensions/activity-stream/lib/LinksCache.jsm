@@ -341,6 +341,10 @@ property
 if
 (
 oldValue
+!
+=
+=
+undefined
 )
 {
 newLink

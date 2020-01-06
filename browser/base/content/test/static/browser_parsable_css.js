@@ -688,9 +688,7 @@ activity
 -
 stream
 /
-data
-/
-content
+css
 /
 activity
 -
@@ -745,9 +743,7 @@ activity
 -
 stream
 /
-data
-/
-content
+css
 /
 activity
 -
