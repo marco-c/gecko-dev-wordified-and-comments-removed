@@ -331,15 +331,12 @@ aSelection
 )
 override
 ;
-NS_IMETHODIMP_
-(
 dom
 :
 :
 Selection
 *
-)
-GetSelection
+GetDOMSelection
 (
 RawSelectionType
 aRawSelectionType
