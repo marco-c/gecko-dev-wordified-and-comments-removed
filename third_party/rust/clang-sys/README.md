@@ -667,6 +667,14 @@ so
 3
 .
 9
+or
+libclang
+-
+3
+.
+9
+.
+so
 )
 .
 In
