@@ -4426,7 +4426,7 @@ void
 nsInlineFrame
 :
 :
-UpdateStyleOfOwnedAnonBoxesForIBSplit
+DoUpdateStyleOfOwnedAnonBoxes
 (
 ServoStyleSet
 &
