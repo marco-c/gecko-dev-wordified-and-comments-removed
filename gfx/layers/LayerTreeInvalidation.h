@@ -55,7 +55,7 @@ ContainerLayer
 aLayer
 const
 nsIntRegion
-&
+*
 aRegion
 )
 ;
