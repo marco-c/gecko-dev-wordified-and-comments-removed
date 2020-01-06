@@ -573,12 +573,6 @@ syntax
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
