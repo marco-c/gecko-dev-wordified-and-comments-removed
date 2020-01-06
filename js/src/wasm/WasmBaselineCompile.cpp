@@ -37799,8 +37799,6 @@ MOZ_ASSERT
 env
 .
 tier
-(
-)
 =
 =
 Tier
@@ -37967,8 +37965,6 @@ masm
 env
 .
 mode
-(
-)
 )
 ;
 if
