@@ -441,7 +441,7 @@ RefPtr
 <
 HitTestingTreeNode
 >
-FindScrollNode
+FindScrollThumbNode
 (
 const
 AsyncDragMetrics

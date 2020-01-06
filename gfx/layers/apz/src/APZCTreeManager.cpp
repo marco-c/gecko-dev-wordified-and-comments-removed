@@ -8511,7 +8511,7 @@ HitTestingTreeNode
 APZCTreeManager
 :
 :
-FindScrollNode
+FindScrollThumbNode
 (
 const
 AsyncDragMetrics
