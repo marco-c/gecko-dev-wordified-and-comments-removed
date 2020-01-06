@@ -646,8 +646,8 @@ mask
 )
 ;
 static
-MOZ_MUST_USE
-bool
+RegExpShared
+*
 getShared
 (
 JSContext
@@ -659,8 +659,6 @@ RegExpObject
 *
 >
 regexp
-MutableHandleRegExpShared
-shared
 )
 ;
 bool
@@ -809,8 +807,8 @@ endif
 private
 :
 static
-MOZ_MUST_USE
-bool
+RegExpShared
+*
 createShared
 (
 JSContext
@@ -822,8 +820,6 @@ RegExpObject
 *
 >
 regexp
-MutableHandleRegExpShared
-shared
 )
 ;
 void
@@ -853,7 +849,8 @@ flagsOut
 )
 ;
 inline
-bool
+RegExpShared
+*
 RegExpToShared
 (
 JSContext
@@ -861,8 +858,6 @@ JSContext
 cx
 HandleObject
 obj
-MutableHandleRegExpShared
-shared
 )
 {
 if
@@ -892,7 +887,6 @@ RegExpObject
 >
 (
 )
-shared
 )
 ;
 return
@@ -903,7 +897,6 @@ regexp_toShared
 (
 cx
 obj
-shared
 )
 ;
 }
