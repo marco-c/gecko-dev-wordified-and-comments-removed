@@ -347,6 +347,9 @@ default
 pub
 trait
 DomObject
+:
+'
+static
 {
 fn
 reflector
