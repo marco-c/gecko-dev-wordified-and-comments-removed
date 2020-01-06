@@ -72,11 +72,8 @@ CreateStateMachine
 (
 )
 {
-return
-new
-MediaDecoderStateMachine
-(
-this
+mReader
+=
 new
 MediaFormatReader
 (
@@ -87,6 +84,13 @@ WAVDemuxer
 mResource
 )
 )
+;
+return
+new
+MediaDecoderStateMachine
+(
+this
+mReader
 )
 ;
 }

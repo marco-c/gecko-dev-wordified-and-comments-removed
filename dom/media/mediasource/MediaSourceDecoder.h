@@ -296,12 +296,6 @@ MediaSourceDemuxer
 >
 mDemuxer
 ;
-RefPtr
-<
-MediaFormatReader
->
-mReader
-;
 MediaEventProducer
 <
 void

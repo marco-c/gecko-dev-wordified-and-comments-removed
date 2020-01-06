@@ -207,6 +207,9 @@ class
 VideoFrameContainer
 ;
 class
+MediaDecoderReader
+;
+class
 MediaDecoderStateMachine
 ;
 enum
@@ -1344,6 +1347,12 @@ RefPtr
 MediaResource
 >
 mResource
+;
+RefPtr
+<
+MediaDecoderReader
+>
+mReader
 ;
 static
 constexpr
