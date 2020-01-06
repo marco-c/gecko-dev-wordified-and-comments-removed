@@ -1930,6 +1930,10 @@ key
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 CreateImageKey
 (
 aItem

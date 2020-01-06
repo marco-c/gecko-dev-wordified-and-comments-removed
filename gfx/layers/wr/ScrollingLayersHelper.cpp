@@ -80,7 +80,7 @@ const
 StackingContextHelper
 &
 aStackingContext
-WebRenderLayerManager
+WebRenderCommandsBuilder
 :
 :
 ClipIdMap
@@ -323,7 +323,7 @@ const
 StackingContextHelper
 &
 aStackingContext
-WebRenderLayerManager
+WebRenderCommandsBuilder
 :
 :
 ClipIdMap
@@ -547,7 +547,7 @@ StackingContextHelper
 aStackingContext
 int32_t
 aAppUnitsPerDevPixel
-WebRenderLayerManager
+WebRenderCommandsBuilder
 :
 :
 ClipIdMap
@@ -689,7 +689,7 @@ nsTArray
 wr
 :
 :
-ComplexClipRegion
+WrComplexClipRegion
 >
 wrRoundedRects
 ;
@@ -698,7 +698,7 @@ aChain
 >
 mClip
 .
-ToComplexClipRegions
+ToWrComplexClipRegions
 (
 aAppUnitsPerDevPixel
 aStackingContext

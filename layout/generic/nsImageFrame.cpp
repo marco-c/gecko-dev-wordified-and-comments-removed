@@ -7972,6 +7972,10 @@ return
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 PushImage
 (
 this

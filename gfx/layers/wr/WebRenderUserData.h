@@ -114,9 +114,6 @@ aWRManager
 nsDisplayItem
 *
 aItem
-WebRenderUserDataRefTable
-*
-aTable
 )
 ;
 virtual
@@ -277,9 +274,6 @@ aWRManager
 nsDisplayItem
 *
 aItem
-WebRenderUserDataRefTable
-*
-aTable
 )
 ;
 virtual
@@ -520,9 +514,6 @@ aWRManager
 nsDisplayItem
 *
 aItem
-WebRenderUserDataRefTable
-*
-aTable
 )
 ;
 virtual
@@ -671,9 +662,6 @@ aWRManager
 nsDisplayItem
 *
 aItem
-WebRenderUserDataRefTable
-*
-aTable
 )
 ;
 virtual
@@ -743,9 +731,6 @@ aWRManager
 nsDisplayItem
 *
 aItem
-WebRenderUserDataRefTable
-*
-aTable
 )
 ;
 virtual

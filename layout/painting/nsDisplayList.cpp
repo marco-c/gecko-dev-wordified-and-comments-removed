@@ -26173,6 +26173,10 @@ key
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 CreateImageKey
 (
 this
@@ -30391,6 +30395,10 @@ aDisplayListBuilder
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 CreateWebRenderCommandsFromDisplayList
 (
 GetChildren
@@ -31815,6 +31823,10 @@ animationData
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 CreateOrRecycleWebRenderUserData
 <
 WebRenderAnimationData
@@ -31981,6 +31993,10 @@ filters
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 CreateWebRenderCommandsFromDisplayList
 (
 &
@@ -33128,6 +33144,10 @@ animationData
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 CreateOrRecycleWebRenderUserData
 <
 WebRenderAnimationData
@@ -39921,6 +39941,10 @@ animationData
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 CreateOrRecycleWebRenderUserData
 <
 WebRenderAnimationData
@@ -45128,6 +45152,10 @@ mask
 aManager
 -
 >
+CommandBuilder
+(
+)
+.
 BuildWrMaskImage
 (
 this
