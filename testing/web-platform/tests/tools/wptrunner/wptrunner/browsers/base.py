@@ -485,12 +485,27 @@ run
         
 pass
     
+def
+settings
+(
+self
+test
+)
+:
+        
+return
+{
+}
+    
 abstractmethod
     
 def
 start
 (
 self
+*
+*
+kwargs
 )
 :
         
@@ -793,6 +808,9 @@ def
 start
 (
 self
+*
+*
+kwargs
 )
 :
         
