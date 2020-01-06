@@ -3829,7 +3829,7 @@ EventStates
 dummyMask
 ;
 return
-nsCSSRuleProcessor
+nsCSSPseudoClasses
 :
 :
 StringPseudoMatches
@@ -3894,7 +3894,7 @@ aHasOverrideLang
 )
 {
 return
-nsCSSRuleProcessor
+nsCSSPseudoClasses
 :
 :
 LangPseudoMatches
@@ -3913,7 +3913,7 @@ OwnerDoc
 ;
 }
 return
-nsCSSRuleProcessor
+nsCSSPseudoClasses
 :
 :
 LangPseudoMatches
