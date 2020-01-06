@@ -415,6 +415,7 @@ cgd
 =
 GetGlyphDataForChar
 (
+face
 ch
 )
 ;
@@ -499,6 +500,7 @@ cgdNext
 =
 GetGlyphDataForChar
 (
+face
 chNext
 )
 ;
@@ -858,6 +860,8 @@ gfxFT2Font
 :
 FillGlyphDataForChar
 (
+FT_Face
+face
 uint32_t
 ch
 CachedGlyphData
@@ -865,21 +869,6 @@ CachedGlyphData
 gd
 )
 {
-gfxFT2LockedFace
-faceLock
-(
-this
-)
-;
-FT_Face
-face
-=
-faceLock
-.
-get
-(
-)
-;
 if
 (
 !
