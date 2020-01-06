@@ -3750,14 +3750,6 @@ id
 ;
 if
 (
-obj
-=
-=
-holder
-)
-{
-if
-(
 IsPreliminaryObject
 (
 obj
@@ -3778,7 +3770,6 @@ PreliminaryObjectAction
 :
 Unlink
 ;
-}
 }
 EmitReadSlotResult
 (
