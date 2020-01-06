@@ -84,7 +84,7 @@ endif
 #
 endif
 /
-/
+*
 Expands
 to
 all
@@ -93,6 +93,8 @@ defines
 from
 configure
 .
+*
+/
 #
 undef
 ALLDEFINES
