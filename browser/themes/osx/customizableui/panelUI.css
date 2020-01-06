@@ -83,13 +83,9 @@ combined
 -
 buttons
 >
-label
+spacer
 {
-padding
--
-inline
--
-start
+width
 :
 42px
 ;
