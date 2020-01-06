@@ -3917,6 +3917,9 @@ eCSSProperty__moz_outline_radius_bottomleft
 case
 eCSSProperty__moz_outline_radius_bottomright
 :
+case
+eCSSProperty__moz_window_transform_origin
+:
 supported
 =
 VARIANT_LP
