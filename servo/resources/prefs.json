@@ -69,6 +69,17 @@ false
 "
 dom
 .
+microdata
+.
+testing
+.
+enabled
+"
+:
+true
+"
+dom
+.
 mouseevent
 .
 which
