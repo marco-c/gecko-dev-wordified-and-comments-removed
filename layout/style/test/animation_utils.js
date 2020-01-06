@@ -1475,10 +1475,6 @@ animationName
 10s
 "
 ;
-div
-.
-clientTop
-;
 return
 waitForPaintsFlushed
 (
