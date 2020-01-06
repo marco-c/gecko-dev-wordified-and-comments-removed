@@ -84,6 +84,7 @@ Exposed
 (
 Window
 Worker
+Worklet
 )
 ]
 interface

@@ -124,6 +124,7 @@ Exposed
 (
 Window
 Worker
+Worklet
 )
 ProtoObjectHack
 ]

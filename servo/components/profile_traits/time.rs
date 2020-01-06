@@ -351,6 +351,9 @@ ScriptExitFullscreen
 ScriptWebVREvent
 =
 0x79
+ScriptWorkletEvent
+=
+0x7a
 ApplicationHeartbeat
 =
 0x90

@@ -55,13 +55,6 @@ rs
 [
 dependencies
 ]
-app_units
-=
-"
-0
-.
-4
-"
 bluetooth_traits
 =
 {
