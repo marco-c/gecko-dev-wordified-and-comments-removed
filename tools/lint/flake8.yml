@@ -24,6 +24,10 @@ reftest
 -
 python
 /
+mach
+-
+python
+/
 mach_commands
 .
 py

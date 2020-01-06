@@ -100,7 +100,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -148,7 +148,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -180,7 +180,7 @@ nargs
 '
 ?
 '
-        
+                     
 help
 =
 '

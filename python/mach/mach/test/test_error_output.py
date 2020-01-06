@@ -78,7 +78,7 @@ throw
 -
 message
 '
-            
+                                                
 '
 Command
 Error
@@ -126,7 +126,7 @@ throw_deep
 -
 message
 '
-            
+                                                
 '
 Deep
 stack
