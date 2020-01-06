@@ -641,15 +641,6 @@ property
 "
 ]
 "
-dot
--
-notation
-"
-:
-"
-error
-"
-"
 eqeqeq
 "
 :

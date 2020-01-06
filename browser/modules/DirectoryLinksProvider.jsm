@@ -323,11 +323,8 @@ getCharPref
 this
 .
 _observedPrefs
-[
-"
+.
 linksURL
-"
-]
 )
 ;
 this
@@ -343,11 +340,8 @@ prefHasUserValue
 this
 .
 _observedPrefs
-[
-"
+.
 linksURL
-"
-]
 )
 ;
 }

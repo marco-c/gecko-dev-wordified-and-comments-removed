@@ -157,11 +157,8 @@ registry
 getService
 (
 Ci
-[
-"
+.
 nsIChromeRegistry
-"
-]
 )
 ;
 return

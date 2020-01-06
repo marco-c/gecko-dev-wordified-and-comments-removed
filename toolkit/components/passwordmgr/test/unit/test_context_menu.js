@@ -747,11 +747,8 @@ entry
 =
 >
 entry
-[
-"
+.
 hostname
-"
-]
 =
 =
 =

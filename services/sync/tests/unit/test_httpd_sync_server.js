@@ -1803,11 +1803,8 @@ do_check_empty
 server
 .
 users
-[
-"
+.
 john
-"
-]
 .
 collections
 )
@@ -1878,11 +1875,8 @@ this
 response
 .
 headers
-[
-"
+.
 allow
-"
-]
 "
 DELETE
 "

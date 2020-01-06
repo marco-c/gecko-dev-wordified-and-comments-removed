@@ -708,11 +708,8 @@ request
 response
 .
 headers
-[
-"
+.
 etag
-"
-]
 }
 )
 ;
