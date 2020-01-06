@@ -13527,8 +13527,9 @@ visibleRect
 aBuilder
 -
 >
-MarkCurrentFrameModifiedDuringBuilding
+MarkFrameModifiedDuringBuilding
 (
+this
 )
 ;
 }
