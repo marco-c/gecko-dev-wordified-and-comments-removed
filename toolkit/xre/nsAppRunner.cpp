@@ -9374,6 +9374,15 @@ MOZ_RESET_PROFILE_RESTART
 "
 )
 ;
+SaveToEnv
+(
+"
+MOZ_RESET_PROFILE_MIGRATE_SESSION
+=
+1
+"
+)
+;
 }
 ar
 =
