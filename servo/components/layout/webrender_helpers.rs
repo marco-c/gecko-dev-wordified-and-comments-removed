@@ -1750,7 +1750,7 @@ builder
 DisplayListBuilder
 :
 :
-new
+with_capacity
 (
 webrender_pipeline_id
 self
@@ -1764,6 +1764,9 @@ size
 to_sizef
 (
 )
+1024
+*
+1024
 )
 ;
 let
