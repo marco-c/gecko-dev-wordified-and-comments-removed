@@ -2755,7 +2755,11 @@ mAltDataLength
 bool
 mForceMainDocumentChannel
 ;
+Atomic
+<
 bool
+ReleaseAcquire
+>
 mIsTrackingResource
 ;
 uint64_t
