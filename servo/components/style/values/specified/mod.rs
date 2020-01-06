@@ -593,6 +593,16 @@ TransformOrigin
 ;
 pub
 use
+self
+:
+:
+ui
+:
+:
+MozForceBrokenImageIcon
+;
+pub
+use
 super
 :
 :
@@ -733,6 +743,10 @@ time
 pub
 mod
 transform
+;
+pub
+mod
+ui
 ;
 pub
 mod

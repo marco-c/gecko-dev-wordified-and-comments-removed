@@ -608,6 +608,16 @@ TransformOperation
 TransformOrigin
 }
 ;
+pub
+use
+self
+:
+:
+ui
+:
+:
+MozForceBrokenImageIcon
+;
 #
 [
 cfg
@@ -723,6 +733,10 @@ time
 pub
 mod
 transform
+;
+pub
+mod
+ui
 ;
 pub
 struct
