@@ -1497,6 +1497,11 @@ SourceSurfaceVolatileData
 h
 '
 '
+SyncObject
+.
+h
+'
+'
 TextureSourceProvider
 .
 h
@@ -3037,6 +3042,11 @@ cpp
 '
 '
 SourceSurfaceVolatileData
+.
+cpp
+'
+'
+SyncObject
 .
 cpp
 '
