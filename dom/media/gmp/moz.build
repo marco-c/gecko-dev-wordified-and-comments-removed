@@ -110,6 +110,11 @@ EXPORTS
 =
 [
 '
+ChromiumCDMCallback
+.
+h
+'
+'
 ChromiumCDMParent
 .
 h
@@ -506,6 +511,11 @@ UNIFIED_SOURCES
 [
 '
 ChromiumCDMAdapter
+.
+cpp
+'
+'
+ChromiumCDMCallbackProxy
 .
 cpp
 '

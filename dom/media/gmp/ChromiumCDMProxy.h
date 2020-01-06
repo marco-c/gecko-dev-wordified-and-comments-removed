@@ -39,6 +39,9 @@ class
 DecryptJob
 ;
 class
+ChromiumCDMCallbackProxy
+;
+class
 ChromiumCDMProxy
 :
 public
@@ -476,6 +479,12 @@ RefPtr
 AbstractThread
 >
 mGMPThread
+;
+UniquePtr
+<
+ChromiumCDMCallbackProxy
+>
+mCallback
 ;
 }
 ;
