@@ -114,6 +114,12 @@ skiaContent
 1
 587
 )
+fails
+-
+if
+(
+webrender
+)
 =
 =
 1143303
@@ -152,6 +158,12 @@ by
 border
 -
 radius
+fails
+-
+if
+(
+webrender
+)
 =
 =
 1131264

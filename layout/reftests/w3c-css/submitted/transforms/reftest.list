@@ -106,12 +106,6 @@ reference
 green
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 perspective

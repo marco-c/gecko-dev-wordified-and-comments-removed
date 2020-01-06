@@ -91,6 +91,12 @@ cocoaWidget
 -
 2
 )
+fails
+-
+if
+(
+webrender
+)
 =
 =
 size
@@ -989,6 +995,12 @@ random
 if
 (
 Android
+)
+fails
+-
+if
+(
+webrender
 )
 =
 =

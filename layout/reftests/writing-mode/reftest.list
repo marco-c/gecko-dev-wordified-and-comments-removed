@@ -670,6 +670,12 @@ snap
 ref
 .
 html
+random
+-
+if
+(
+webrender
+)
 =
 =
 1117227
@@ -3969,6 +3975,12 @@ if
 cocoaWidget
 65
 69
+)
+fails
+-
+if
+(
+webrender
 )
 =
 =

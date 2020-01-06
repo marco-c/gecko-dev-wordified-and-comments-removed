@@ -1552,6 +1552,12 @@ svg
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 object
@@ -1574,6 +1580,12 @@ png
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 object

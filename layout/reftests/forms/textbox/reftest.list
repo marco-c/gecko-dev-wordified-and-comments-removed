@@ -59,6 +59,12 @@ cocoaWidget
 |
 Android
 )
+fails
+-
+if
+(
+webrender
+)
 =
 =
 accesskey
@@ -146,6 +152,12 @@ cocoaWidget
 |
 |
 Android
+)
+fails
+-
+if
+(
+webrender
 )
 =
 =
