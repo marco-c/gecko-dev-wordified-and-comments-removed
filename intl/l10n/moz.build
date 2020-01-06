@@ -90,11 +90,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-L10nRegistry
-.
-jsm
-'
-'
 MessageContext
 .
 jsm
