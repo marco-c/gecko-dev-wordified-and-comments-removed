@@ -432,7 +432,13 @@ class
 TargetReference
 :
 public
-nsReferencedElement
+mozilla
+:
+:
+dom
+:
+:
+IDTracker
 {
 public
 :
@@ -465,7 +471,7 @@ aTo
 )
 override
 {
-nsReferencedElement
+IDTracker
 :
 :
 ElementChanged
