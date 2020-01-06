@@ -144,9 +144,6 @@ remove
 "
 reconcile
 "
-"
-merge
-"
 ]
 .
 forEach

@@ -337,9 +337,6 @@ remove
 "
 reconcile
 "
-"
-merge
-"
 ]
 .
 forEach
