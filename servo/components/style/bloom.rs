@@ -245,7 +245,7 @@ assert
 (
 element
 .
-parent_element
+traversal_parent
 (
 )
 .
@@ -469,7 +469,7 @@ parent
 =
 element
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -528,7 +528,7 @@ parent
 =
 element
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -651,12 +651,12 @@ return
 ;
 }
 let
-parent_element
+traversal_parent
 =
 match
 element
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -692,7 +692,7 @@ current_parent
 =
 Some
 (
-parent_element
+traversal_parent
 )
 {
 return
@@ -804,7 +804,7 @@ let
 mut
 common_parent
 =
-parent_element
+traversal_parent
 ;
 let
 mut
@@ -850,7 +850,7 @@ common_parent
 =
 common_parent
 .
-parent_element
+traversal_parent
 (
 )
 .
@@ -860,6 +860,7 @@ expect
 We
 were
 lied
+to
 "
 )
 ;
@@ -916,7 +917,7 @@ common_parent
 match
 common_parent
 .
-parent_element
+traversal_parent
 (
 )
 {

@@ -507,7 +507,7 @@ current_parent
 )
 element
 .
-parent_element
+traversal_parent
 (
 )
 )
@@ -533,7 +533,7 @@ current_parent
 =
 element
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -1160,7 +1160,7 @@ self
 .
 element
 .
-parent_element
+traversal_parent
 (
 )
 )
@@ -1633,7 +1633,7 @@ parent
 match
 element
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -2028,7 +2028,7 @@ CannotShare
 if
 target
 .
-parent_element
+traversal_parent
 (
 )
 .
@@ -2339,7 +2339,7 @@ parent
 =
 target
 .
-parent_element
+traversal_parent
 (
 )
 ;
@@ -2350,7 +2350,7 @@ candidate
 .
 element
 .
-parent_element
+traversal_parent
 (
 )
 ;

@@ -717,7 +717,7 @@ as_node
 (
 )
 .
-children
+traversal_children
 (
 )
 {

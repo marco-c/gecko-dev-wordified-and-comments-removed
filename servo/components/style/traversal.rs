@@ -669,7 +669,7 @@ parent
 =
 node
 .
-parent_element
+traversal_parent
 (
 )
 .
@@ -1049,7 +1049,7 @@ parent
 =
 el
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -1691,7 +1691,7 @@ as_node
 (
 )
 .
-children
+traversal_children
 (
 )
 {
@@ -1929,7 +1929,7 @@ parent
 =
 element
 .
-parent_element
+traversal_parent
 (
 )
 ;
@@ -2262,7 +2262,7 @@ curr
 match
 curr
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -2401,7 +2401,7 @@ None
 match
 e
 .
-parent_element
+traversal_parent
 (
 )
 {
@@ -3454,7 +3454,7 @@ as_node
 (
 )
 .
-children
+traversal_children
 (
 )
 {
@@ -3712,7 +3712,7 @@ as_node
 (
 )
 .
-children
+traversal_children
 (
 )
 {
