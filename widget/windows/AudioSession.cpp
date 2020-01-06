@@ -1554,15 +1554,6 @@ runnable
 =
 NewRunnableMethod
 (
-"
-widget
-:
-:
-AudioSession
-:
-:
-OnSessionDisconnectedInternal
-"
 this
 &
 AudioSession

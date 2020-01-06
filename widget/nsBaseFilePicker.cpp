@@ -305,15 +305,6 @@ nsIFilePickerShownCallback
 aCallback
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-AsyncShowFilePicker
-"
-)
 mFilePicker
 (
 aFilePicker

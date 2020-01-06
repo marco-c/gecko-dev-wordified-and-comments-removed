@@ -2258,12 +2258,6 @@ PostTask
 (
 NewNonOwningRunnableMethod
 (
-"
-CompositorBridgeChild
-:
-:
-SendAllPluginsCaptured
-"
 aThis
 &
 CompositorBridgeChild

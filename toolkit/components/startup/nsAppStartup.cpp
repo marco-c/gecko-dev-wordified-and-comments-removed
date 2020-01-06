@@ -497,15 +497,6 @@ nsAppStartup
 service
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-nsAppExitEvent
-"
-)
 mService
 (
 service

@@ -1958,15 +1958,6 @@ nsACString
 aHostname
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-NotifyDNSResolution
-"
-)
 mHostname
 (
 aHostname

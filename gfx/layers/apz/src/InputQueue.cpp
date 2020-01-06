@@ -2317,15 +2317,6 @@ NewRunnableMethod
 uint64_t
 >
 (
-"
-layers
-:
-:
-InputQueue
-:
-:
-MainThreadTimeout
-"
 this
 &
 InputQueue

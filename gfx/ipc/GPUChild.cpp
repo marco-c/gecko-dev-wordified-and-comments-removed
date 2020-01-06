@@ -1359,15 +1359,6 @@ GPUChild
 aChild
 )
 :
-Runnable
-(
-"
-gfx
-:
-:
-DeferredDeleteGPUChild
-"
-)
 mChild
 (
 Move

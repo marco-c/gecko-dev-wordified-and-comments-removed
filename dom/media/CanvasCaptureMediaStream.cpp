@@ -587,7 +587,7 @@ return
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 &
 TimerTick
@@ -602,15 +602,6 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
-"
-dom
-:
-:
-TimerDriver
-:
-:
-TimerDriver
-"
 )
 ;
 }

@@ -3815,7 +3815,7 @@ eEditorCreationInProgress
 mLoadBlankDocTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 nsEditingSession
 :
@@ -3838,12 +3838,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsEditingSession
-:
-:
-EndDocumentLoad
-"
 )
 ;
 }

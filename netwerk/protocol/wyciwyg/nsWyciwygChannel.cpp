@@ -2253,12 +2253,6 @@ mozilla
 :
 NewRunnableMethod
 (
-"
-nsWyciwygChannel
-:
-:
-NotifyListener
-"
 this
 &
 nsWyciwygChannel

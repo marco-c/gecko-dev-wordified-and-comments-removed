@@ -662,7 +662,7 @@ loader
 mLoadTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 LoadTimerCallback
 static_cast
@@ -681,12 +681,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsFontFaceLoader
-:
-:
-LoadTimerCallback
-"
 )
 ;
 updateUserFontSet

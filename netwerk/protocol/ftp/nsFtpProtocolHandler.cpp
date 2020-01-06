@@ -1412,7 +1412,7 @@ rv
 timer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 nsFtpProtocolHandler
 :
@@ -1426,12 +1426,6 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
-"
-nsFtpProtocolHandler
-:
-:
-InsertConnection
-"
 )
 ;
 if

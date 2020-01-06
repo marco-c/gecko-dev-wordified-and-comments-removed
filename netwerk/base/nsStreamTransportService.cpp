@@ -1910,15 +1910,6 @@ nsIInputAvailableCallback
 callback
 )
 :
-Runnable
-(
-"
-net
-:
-:
-AvailableEvent
-"
-)
 mStream
 (
 stream

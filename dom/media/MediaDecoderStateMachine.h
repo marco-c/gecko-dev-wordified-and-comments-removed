@@ -305,12 +305,6 @@ NewRunnableMethod
 double
 >
 (
-"
-MediaDecoderStateMachine
-:
-:
-SetPlaybackRate
-"
 this
 &
 MediaDecoderStateMachine
@@ -358,12 +352,6 @@ r
 =
 NS_NewRunnableFunction
 (
-"
-MediaDecoderStateMachine
-:
-:
-DispatchSetFragmentEndTime
-"
 [
 self
 aEndTime

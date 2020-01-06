@@ -804,12 +804,6 @@ runnable
 =
 NS_NewRunnableFunction
 (
-"
-PDMFactory
-:
-:
-EnsureInit
-"
 [
 ]
 (

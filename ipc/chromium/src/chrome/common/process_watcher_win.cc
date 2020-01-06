@@ -81,15 +81,6 @@ bool
 force
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-ChildReaper
-"
-)
 process_
 (
 process

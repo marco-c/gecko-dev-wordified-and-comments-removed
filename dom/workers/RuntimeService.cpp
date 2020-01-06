@@ -5347,15 +5347,6 @@ JSRuntime
 aParentRuntime
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-WorkerThreadPrimaryRunnable
-"
-)
 mWorkerPrivate
 (
 aWorkerPrivate

@@ -2868,15 +2868,6 @@ event
 =
 NewNonOwningRunnableMethod
 (
-"
-dom
-:
-:
-StorageDBThread
-:
-:
-NotifyFlushCompletion
-"
 this
 &
 StorageDBThread

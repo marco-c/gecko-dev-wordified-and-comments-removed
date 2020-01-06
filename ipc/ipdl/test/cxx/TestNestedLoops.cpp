@@ -157,15 +157,6 @@ PostTask
 (
 NewNonOwningRunnableMethod
 (
-"
-_ipdltest
-:
-:
-TestNestedLoopsParent
-:
-:
-BreakNestedLoop
-"
 this
 &
 TestNestedLoopsParent

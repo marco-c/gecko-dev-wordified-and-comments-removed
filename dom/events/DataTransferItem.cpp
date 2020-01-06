@@ -2086,15 +2086,6 @@ nsAString
 aStringData
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-GASRunnable
-"
-)
 mCallback
 (
 aCallback

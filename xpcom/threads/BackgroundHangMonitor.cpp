@@ -1572,12 +1572,6 @@ NativeHangStack
 aNativeStack
 )
 :
-CancelableRunnable
-(
-"
-ProcessHangRunnable
-"
-)
 mManager
 (
 aManager

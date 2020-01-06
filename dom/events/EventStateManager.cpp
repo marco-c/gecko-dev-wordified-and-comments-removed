@@ -6409,7 +6409,7 @@ Other
 mClickHoldTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 sClickHoldCallback
 this
@@ -6418,12 +6418,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-EventStateManager
-:
-:
-CreateClickHoldTimer
-"
 )
 ;
 }

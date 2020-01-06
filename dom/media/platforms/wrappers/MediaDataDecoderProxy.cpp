@@ -481,12 +481,6 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
-"
-MediaDataDecoderProxy
-:
-:
-SetSeekThreshold
-"
 [
 self
 time

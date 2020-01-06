@@ -1612,7 +1612,7 @@ rv
 timer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 PostPAQEventCallback
 this
@@ -1621,12 +1621,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsBindingManager
-:
-:
-DoProcessAttachedQueue
-"
 )
 ;
 }

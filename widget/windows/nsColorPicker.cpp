@@ -412,15 +412,6 @@ nsIColorPickerShownCallback
 aCallback
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-AsyncColorChooser
-"
-)
 mInitialColor
 (
 aInitialColor

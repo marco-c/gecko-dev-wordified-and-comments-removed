@@ -149,15 +149,6 @@ Dispatch
 (
 NS_NewRunnableFunction
 (
-"
-TestStateWatching
-:
-:
-WatchManager_Shutdown_Test
-:
-:
-TestBody
-"
 [
 &
 ]

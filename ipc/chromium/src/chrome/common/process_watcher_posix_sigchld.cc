@@ -249,15 +249,6 @@ ChildReaper
 (
 process
 )
-mozilla
-:
-:
-Runnable
-(
-"
-ChildGrimReaper
-"
-)
 {
 }
 virtual

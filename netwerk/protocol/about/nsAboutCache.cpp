@@ -1243,15 +1243,6 @@ mozilla
 :
 NewRunnableMethod
 (
-"
-nsAboutCache
-:
-:
-Channel
-:
-:
-FireVisitStorage
-"
 this
 &
 nsAboutCache

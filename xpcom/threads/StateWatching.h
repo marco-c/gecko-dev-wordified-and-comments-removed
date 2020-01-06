@@ -837,15 +837,6 @@ AddDirectTask
 (
 NewRunnableMethod
 (
-"
-WatchManager
-:
-:
-PerCallbackWatcher
-:
-:
-DoNotify
-"
 this
 &
 PerCallbackWatcher

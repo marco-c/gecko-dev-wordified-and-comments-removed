@@ -42,15 +42,6 @@ GamepadChangeEvent
 aGamepadEvent
 )
 :
-Runnable
-(
-"
-dom
-:
-:
-GamepadUpdateRunnable
-"
-)
 mEvent
 (
 aGamepadEvent

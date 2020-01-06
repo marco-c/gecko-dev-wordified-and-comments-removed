@@ -45,12 +45,6 @@ TestRunnable
 (
 )
 :
-Runnable
-(
-"
-TestRunnable
-"
-)
 ran_
 (
 false

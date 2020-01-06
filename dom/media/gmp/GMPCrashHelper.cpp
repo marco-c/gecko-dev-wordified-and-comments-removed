@@ -71,12 +71,6 @@ TaskCategory
 Other
 NewNonOwningRunnableMethod
 (
-"
-GMPCrashHelper
-:
-:
-Destroy
-"
 this
 &
 GMPCrashHelper

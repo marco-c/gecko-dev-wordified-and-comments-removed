@@ -184,12 +184,6 @@ Dispatch
 (
 NewNonOwningRunnableMethod
 (
-"
-MediaTimer
-:
-:
-Destroy
-"
 this
 &
 MediaTimer
@@ -418,12 +412,6 @@ Dispatch
 (
 NewRunnableMethod
 (
-"
-MediaTimer
-:
-:
-Update
-"
 this
 &
 MediaTimer

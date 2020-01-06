@@ -482,12 +482,6 @@ nsISupports
 aOwner
 )
 :
-CancelableRunnable
-(
-"
-CompleteResumeRunnable
-"
-)
 mQueue
 (
 aQueue

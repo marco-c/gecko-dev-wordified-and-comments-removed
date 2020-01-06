@@ -18374,15 +18374,6 @@ nsIWidget
 aWidgetArray
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-WidgetsReleaserRunnable
-"
-)
 mWidgetArray
 (
 aWidgetArray

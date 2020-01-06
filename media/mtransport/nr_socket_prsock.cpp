@@ -7294,15 +7294,6 @@ NrTcpSocketIpc
 sck
 )
 :
-Runnable
-(
-"
-NrTcpSocketIpc
-:
-:
-TcpSocketReadyRunner
-"
-)
 socket_
 (
 sck

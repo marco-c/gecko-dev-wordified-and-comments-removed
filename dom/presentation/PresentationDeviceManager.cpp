@@ -595,15 +595,6 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
-"
-dom
-:
-:
-PresentationDeviceManager
-:
-:
-ForceDiscovery
-"
 this
 &
 PresentationDeviceManager
