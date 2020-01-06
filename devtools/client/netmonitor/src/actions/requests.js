@@ -27,6 +27,7 @@ CLEAR_REQUESTS
 CLONE_SELECTED_REQUEST
 REMOVE_SELECTED_CUSTOM_REQUEST
 SEND_CUSTOM_REQUEST
+TOGGLE_RECORDING
 UPDATE_REQUEST
 }
 =
@@ -265,6 +266,19 @@ CLEAR_REQUESTS
 }
 ;
 }
+function
+toggleRecording
+(
+)
+{
+return
+{
+type
+:
+TOGGLE_RECORDING
+}
+;
+}
 module
 .
 exports
@@ -275,6 +289,7 @@ clearRequests
 cloneSelectedRequest
 removeSelectedCustomRequest
 sendCustomRequest
+toggleRecording
 updateRequest
 }
 ;
