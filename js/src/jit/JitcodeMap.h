@@ -4475,7 +4475,6 @@ skiplistSize_
 0
 ;
 }
-const
 JitcodeGlobalEntry
 *
 lookup
