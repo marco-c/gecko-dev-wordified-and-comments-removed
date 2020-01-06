@@ -49,13 +49,6 @@ aInit
 )
 override
 ;
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-override
-;
 static
 bool
 IsEnabled

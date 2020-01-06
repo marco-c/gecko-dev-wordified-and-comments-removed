@@ -18,13 +18,6 @@ h
 #
 include
 "
-MediaFormatReader
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -96,13 +89,6 @@ aInit
 )
 ;
 }
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-override
-;
 static
 bool
 IsSupportedType

@@ -185,6 +185,13 @@ MediaDecoderInit
 aInit
 )
 ;
+MediaDecoderStateMachine
+*
+CreateStateMachine
+(
+)
+override
+;
 void
 Shutdown
 (

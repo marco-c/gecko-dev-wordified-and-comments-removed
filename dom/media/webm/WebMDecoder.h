@@ -15,13 +15,6 @@ ChannelMediaDecoder
 .
 h
 "
-#
-include
-"
-MediaFormatReader
-.
-h
-"
 namespace
 mozilla
 {
@@ -80,13 +73,6 @@ aInit
 )
 ;
 }
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-override
-;
 static
 bool
 IsSupportedType
