@@ -227,13 +227,10 @@ GetCurrentProcess
 (
 )
 view
-wwc
-(
 mappedFilename
 .
-BeginWriting
+get
 (
-)
 )
 mappedFilename
 .

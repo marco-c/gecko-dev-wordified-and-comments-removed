@@ -1427,13 +1427,10 @@ IMENameLength
 ImmGetDescriptionW
 (
 aKeyboardLayout
-wwc
-(
 sIMEName
 .
-BeginWriting
+get
 (
-)
 )
 IMENameLength
 )
