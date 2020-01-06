@@ -1237,6 +1237,9 @@ fp
 )
 ;
 }
+#
+ifdef
+_M_IX86
 typedef
 MOZ_NORETURN_PTR
 void
@@ -1262,6 +1265,8 @@ stub_BaseThreadInitThunk
 =
 nullptr
 ;
+#
+endif
 typedef
 NTSTATUS
 (
@@ -3442,6 +3447,9 @@ handle
 )
 ;
 }
+#
+ifdef
+_M_IX86
 static
 bool
 ShouldBlockThread
@@ -3566,6 +3574,8 @@ aThreadParam
 )
 ;
 }
+#
+endif
 static
 WindowsDllInterceptor
 NtDllIntercept
@@ -3760,6 +3770,9 @@ stub_RtlInstallFunctionTableCallback
 }
 #
 endif
+#
+ifdef
+_M_IX86
 if
 (
 !
@@ -3819,6 +3832,8 @@ n
 endif
 }
 }
+#
+endif
 }
 MFBT_API
 void
