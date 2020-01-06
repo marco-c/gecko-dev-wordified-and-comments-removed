@@ -2449,7 +2449,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 opts
 :
 :
@@ -7261,7 +7263,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 initial_viewport
 device_pixel_ratio
 )

@@ -70,3 +70,5 @@ onchange
 reftest
 -
 wait
+screen
+print

@@ -1827,7 +1827,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 TypedSize2D
 :
 :
@@ -1901,7 +1903,9 @@ media_type
 MediaType
 :
 :
-Screen
+screen
+(
+)
 )
 ;
 let
@@ -1927,7 +1931,9 @@ media_type
 MediaType
 :
 :
-Screen
+screen
+(
+)
 )
 ;
 }

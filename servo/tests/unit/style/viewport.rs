@@ -711,7 +711,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 TypedSize2D
 :
 :
@@ -932,7 +934,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 TypedSize2D
 :
 :
@@ -1838,7 +1842,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 TypedSize2D
 :
 :
@@ -2489,7 +2495,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 TypedSize2D
 :
 :
@@ -3069,7 +3077,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 initial_viewport
 ScaleFactor
 :
@@ -3392,7 +3402,9 @@ new
 MediaType
 :
 :
-Screen
+screen
+(
+)
 initial_viewport
 ScaleFactor
 :
