@@ -8231,8 +8231,26 @@ query_abs_dirs
 (
 )
         
+manifest_src
+=
+os
+.
+environ
+.
+get
+(
+'
+TOOLTOOL_MANIFEST
+'
+)
+        
 if
 not
+manifest_src
+:
+            
+manifest_src
+=
 c
 .
 get
@@ -8241,6 +8259,10 @@ get
 tooltool_manifest_src
 '
 )
+        
+if
+not
+manifest_src
 :
             
 return
@@ -8271,12 +8293,7 @@ abs_src_dir
 '
 ]
                                               
-c
-[
-'
-tooltool_manifest_src
-'
-]
+manifest_src
 )
         
 cmd
