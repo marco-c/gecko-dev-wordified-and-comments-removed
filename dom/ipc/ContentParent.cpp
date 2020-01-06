@@ -11161,6 +11161,12 @@ MOZ_CRASH
 }
 }
 }
+nsTArray
+<
+FontFamilyListEntry
+>
+fontFamilies
+;
 gfxPlatform
 :
 :
@@ -11172,11 +11178,7 @@ GetPlatform
 GetSystemFontFamilyList
 (
 &
-xpcomInit
-.
 fontFamilies
-(
-)
 )
 ;
 nsTArray
@@ -11423,6 +11425,7 @@ SendSetXPCOMProcessAttributes
 xpcomInit
 initialData
 lnfCache
+fontFamilies
 )
 ;
 if
