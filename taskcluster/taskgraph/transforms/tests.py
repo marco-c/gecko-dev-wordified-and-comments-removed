@@ -3194,15 +3194,6 @@ xlarge
 test
 [
 '
-e10s
-'
-]
-=
-False
-            
-test
-[
-'
 run
 -
 on
