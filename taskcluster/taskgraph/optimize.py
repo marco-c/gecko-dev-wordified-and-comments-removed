@@ -135,9 +135,9 @@ slugid
 from
 mozbuild
 .
-frontend
+base
 import
-reader
+MozbuildObject
 logger
 =
 logging
@@ -2118,22 +2118,25 @@ repository
 revision
 )
         
-config
+mbo
 =
-reader
+MozbuildObject
 .
-EmptyConfig
+from_environment
 (
-TOPSRCDIR
 )
         
 rdr
 =
-reader
+mbo
 .
-BuildReader
+mozbuild_reader
 (
-config
+config_mode
+=
+'
+empty
+'
 )
         
 components
