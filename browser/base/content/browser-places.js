@@ -1463,6 +1463,7 @@ panel
 .
 hidePopup
 (
+true
 )
 ;
 }
