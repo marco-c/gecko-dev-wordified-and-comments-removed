@@ -398,6 +398,11 @@ test
 unwanted
 -
 simple
+test
+-
+harmful
+.
+simple
 "
 )
 ;
