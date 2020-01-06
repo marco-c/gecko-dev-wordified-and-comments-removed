@@ -179,7 +179,7 @@ additionalName
 familyName
 "
 "
-organization
+organization2
 "
 "
 streetAddress

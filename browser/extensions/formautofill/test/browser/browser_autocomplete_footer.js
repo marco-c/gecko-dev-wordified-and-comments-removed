@@ -590,7 +590,7 @@ browser
 "
 Also
 autofills
-company
+organization
 email
 "
 )
@@ -651,7 +651,7 @@ browser
 "
 Also
 autofills
-company
+organization
 email
 "
 )
@@ -676,7 +676,7 @@ browser
 "
 Also
 autofills
-company
+organization
 email
 "
 )
