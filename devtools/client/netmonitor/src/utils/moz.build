@@ -73,6 +73,15 @@ js
 '
 filter
 -
+autocomplete
+-
+provider
+.
+js
+'
+'
+filter
+-
 predicates
 .
 js
