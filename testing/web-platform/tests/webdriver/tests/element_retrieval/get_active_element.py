@@ -117,8 +117,7 @@ None
         
 assert
 from_js
-=
-=
+is
 None
     
 else
@@ -330,11 +329,9 @@ execute_script
 "
 return
 dismiss1
-;
 "
 )
-=
-=
+is
 None
     
 create_dialog
@@ -411,8 +408,7 @@ session
 dismiss2
 "
 )
-=
-=
+is
 None
     
 create_dialog
@@ -489,8 +485,7 @@ session
 dismiss3
 "
 )
-=
-=
+is
 None
 def
 test_handle_prompt_accept
@@ -622,8 +617,7 @@ session
 accept1
 "
 )
-=
-=
+is
 None
     
 create_dialog
@@ -890,11 +884,9 @@ execute_script
 "
 return
 accept1
-;
 "
 )
-=
-=
+is
 None
     
 create_dialog
@@ -1054,11 +1046,9 @@ execute_script
 "
 return
 dismiss3
-;
 "
 )
-=
-=
+is
 None
 def
 test_success_document
