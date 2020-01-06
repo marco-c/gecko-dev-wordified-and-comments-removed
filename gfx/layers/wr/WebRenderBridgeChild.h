@@ -428,9 +428,15 @@ wr
 :
 WrImageKey
 {
+wr
+:
+:
+WrIdNamespace
+{
 GetNamespace
 (
 )
+}
 GetNextResourceId
 (
 )

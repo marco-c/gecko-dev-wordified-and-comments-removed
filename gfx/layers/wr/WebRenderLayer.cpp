@@ -143,6 +143,8 @@ key
 key
 .
 mNamespace
+.
+mHandle
 =
 WrBridge
 (

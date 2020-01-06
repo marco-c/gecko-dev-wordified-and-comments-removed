@@ -620,6 +620,8 @@ uint64_t
 aId
 .
 mNamespace
+.
+mHandle
 )
 <
 <
@@ -653,6 +655,8 @@ imageKey
 imageKey
 .
 mNamespace
+.
+mHandle
 =
 aId
 >
@@ -689,6 +693,8 @@ uint64_t
 aId
 .
 mNamespace
+.
+mHandle
 )
 <
 <
@@ -722,6 +728,8 @@ fontKey
 fontKey
 .
 mNamespace
+.
+mHandle
 =
 aId
 >

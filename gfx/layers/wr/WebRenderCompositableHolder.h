@@ -428,6 +428,8 @@ key
 key
 .
 mNamespace
+.
+mHandle
 =
 GetNamespace
 (
