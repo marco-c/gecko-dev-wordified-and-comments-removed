@@ -723,6 +723,10 @@ types
 i
 ]
 )
+.
+get
+(
+)
 )
 ;
 JitSpewFin
@@ -4969,6 +4973,10 @@ TypeString
 (
 ty
 )
+.
+get
+(
+)
 )
 ;
 return
@@ -5066,6 +5074,10 @@ TypeString
 (
 ty
 )
+.
+get
+(
+)
 buf
 filename
 lineno
@@ -5135,6 +5147,10 @@ TypeSet
 TypeString
 (
 ty
+)
+.
+get
+(
 )
 script
 -
