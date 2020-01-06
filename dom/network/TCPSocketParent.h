@@ -320,11 +320,6 @@ RecvRequestDelete
 )
 override
 ;
-bool
-GetInIsolatedMozBrowser
-(
-)
-;
 void
 FireErrorEvent
 (
@@ -401,12 +396,6 @@ aPort
 ;
 private
 :
-virtual
-uint32_t
-GetAppId
-(
-)
-;
 virtual
 void
 ActorDestroy

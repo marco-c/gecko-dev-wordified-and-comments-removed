@@ -120,16 +120,6 @@ RecvRequestDelete
 )
 override
 ;
-uint32_t
-GetAppId
-(
-)
-;
-bool
-GetInIsolatedMozBrowser
-(
-)
-;
 void
 AddIPDLReference
 (
