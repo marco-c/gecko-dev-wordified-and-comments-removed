@@ -4707,10 +4707,13 @@ use
 values
 :
 :
-generics
+computed
 :
 :
-BorderRadiusSize
+border
+:
+:
+BorderCornerRadius
 ;
 let
 width
@@ -4786,7 +4789,7 @@ ident
 "
 )
 ;
-BorderRadiusSize
+BorderCornerRadius
 :
 :
 new
@@ -7984,7 +7987,7 @@ v
 {
 side
 .
-ident
+index
 }
 .
 to_gecko_style_coord
@@ -8282,7 +8285,7 @@ v
 {
 side
 .
-ident
+index
 }
 {
 BorderImageWidthSide
@@ -8489,7 +8492,7 @@ offsets
 {
 side
 .
-ident
+index
 }
 .
 to_gecko_style_coord
@@ -33372,7 +33375,7 @@ inset
 .
 rect
 .
-top
+0
 .
 to_gecko_style_coord
 (
@@ -33401,7 +33404,7 @@ inset
 .
 rect
 .
-right
+1
 .
 to_gecko_style_coord
 (
@@ -33430,7 +33433,7 @@ inset
 .
 rect
 .
-bottom
+2
 .
 to_gecko_style_coord
 (
@@ -33459,7 +33462,7 @@ inset
 .
 rect
 .
-left
+3
 .
 to_gecko_style_coord
 (

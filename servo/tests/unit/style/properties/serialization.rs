@@ -2886,7 +2886,7 @@ values
 specified
 :
 :
-BorderRadiusSize
+BorderCornerRadius
 ;
 use
 style
@@ -2937,7 +2937,7 @@ Box
 :
 new
 (
-BorderRadiusSize
+BorderCornerRadius
 :
 :
 new
@@ -2981,7 +2981,7 @@ Box
 :
 new
 (
-BorderRadiusSize
+BorderCornerRadius
 :
 :
 new
@@ -3025,7 +3025,7 @@ Box
 :
 new
 (
-BorderRadiusSize
+BorderCornerRadius
 :
 :
 new
@@ -3069,7 +3069,7 @@ Box
 :
 new
 (
-BorderRadiusSize
+BorderCornerRadius
 :
 :
 new

@@ -33,9 +33,6 @@ basic_shape
 BasicShape
 as
 GenericBasicShape
-BorderRadius
-as
-GenericBorderRadius
 }
 ;
 use
@@ -129,15 +126,6 @@ type
 InsetRect
 =
 GenericInsetRect
-<
-LengthOrPercentage
->
-;
-pub
-type
-BorderRadius
-=
-GenericBorderRadius
 <
 LengthOrPercentage
 >
