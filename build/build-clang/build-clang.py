@@ -15,8 +15,6 @@ json
 import
 argparse
 import
-tempfile
-import
 glob
 import
 errno
@@ -1410,7 +1408,6 @@ DLIBCXX_LIBCPPABI_VERSION
                   
 src_dir
 ]
-;
     
 if
 is_windows
@@ -3451,7 +3448,6 @@ l
 1
 ]
 )
-;
         
 if
 os
@@ -3675,16 +3671,13 @@ extra_ldflags
 ]
         
 if
-os
-.
-environ
-.
-has_key
-(
 '
 LD_LIBRARY_PATH
 '
-)
+in
+os
+.
+environ
 :
             
 os
@@ -3718,7 +3711,6 @@ LD_LIBRARY_PATH
 '
 ]
 )
-;
         
 else
 :
