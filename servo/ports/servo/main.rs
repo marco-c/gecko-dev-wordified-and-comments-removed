@@ -1103,6 +1103,14 @@ unregister_glutin_resize_handler
 window
 )
 ;
+servo_wrapper
+.
+servo
+.
+deinit
+(
+)
+;
 platform
 :
 :
