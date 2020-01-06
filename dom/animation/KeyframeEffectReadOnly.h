@@ -1307,6 +1307,11 @@ RawServoAnimationValue
 mBaseStyleValuesForServo
 ;
 bool
+mInEffectSet
+=
+false
+;
+bool
 mRecordedContentTooLarge
 =
 false
