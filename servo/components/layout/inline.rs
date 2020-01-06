@@ -13,7 +13,10 @@ use
 app_units
 :
 :
+{
 Au
+MIN_AU
+}
 ;
 use
 block
@@ -5234,13 +5237,7 @@ Au
 (
 0
 )
-Au
-(
-i32
-:
-:
-MIN
-)
+MIN_AU
 )
 ;
 let
