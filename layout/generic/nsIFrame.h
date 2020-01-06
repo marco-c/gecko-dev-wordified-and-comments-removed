@@ -9234,8 +9234,7 @@ void
 UpdateWidgetProperties
 (
 )
-{
-}
+;
 bool
 HasImageRequest
 (
