@@ -149,6 +149,15 @@ Follower
 aFollower
 )
 ;
+bool
+CanAcceptFollower
+(
+Follower
+*
+aFollower
+)
+const
+;
 private
 :
 ~
