@@ -213,20 +213,6 @@ plugin
 /
 tests
 '
-                
-'
-toolkit
-/
-crashreporter
-/
-google
--
-breakpad
-/
-src
-/
-common
-'
 )
 :
             
