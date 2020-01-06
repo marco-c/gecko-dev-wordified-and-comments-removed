@@ -386,6 +386,15 @@ policy
 .
 minimumPolicyVersion
 "
+FirstRunURL
+:
+"
+datareporting
+.
+policy
+.
+firstRunURL
+"
 }
 )
 get
