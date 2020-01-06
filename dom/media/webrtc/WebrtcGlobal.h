@@ -1303,7 +1303,7 @@ WriteParam
 aMsg
 aParam
 .
-mComponentId
+mTransportId
 )
 ;
 WriteParam
@@ -1413,7 +1413,7 @@ aIter
 aResult
 -
 >
-mComponentId
+mTransportId
 )
 )
 |

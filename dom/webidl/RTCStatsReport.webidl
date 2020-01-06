@@ -656,7 +656,7 @@ RTCIceCandidatePairStats
 RTCStats
 {
 DOMString
-componentId
+transportId
 ;
 DOMString
 localCandidateId

@@ -4340,7 +4340,7 @@ WasPassed
 !
 pair
 .
-mComponentId
+mTransportId
 .
 WasPassed
 (
@@ -4364,7 +4364,7 @@ NS_ConvertUTF16toUTF8
 (
 pair
 .
-mComponentId
+mTransportId
 .
 Value
 (

@@ -17960,7 +17960,7 @@ report
 )
 {
 NS_ConvertASCIItoUTF16
-componentId
+transportId
 (
 mediaStream
 .
@@ -18082,11 +18082,11 @@ codeword
 ;
 s
 .
-mComponentId
+mTransportId
 .
 Construct
 (
-componentId
+transportId
 )
 ;
 s
@@ -18243,7 +18243,7 @@ RTCStatsType
 :
 :
 Local_candidate
-componentId
+transportId
 now
 report
 )
@@ -18276,7 +18276,7 @@ RTCStatsType
 :
 :
 Remote_candidate
-componentId
+transportId
 now
 report
 )
