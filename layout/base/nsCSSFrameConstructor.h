@@ -263,6 +263,14 @@ delete
 ;
 public
 :
+enum
+class
+InsertionKind
+{
+Sync
+Async
+}
+;
 mozilla
 :
 :
@@ -296,6 +304,7 @@ ConstructRootFrame
 void
 ReconstructDocElementHierarchy
 (
+InsertionKind
 )
 ;
 void
@@ -621,14 +630,6 @@ aProvidedTreeMatchContext
 ;
 public
 :
-enum
-class
-InsertionKind
-{
-Sync
-Async
-}
-;
 enum
 RemoveFlags
 {
