@@ -634,13 +634,6 @@ IsLeafDynamic
 const
 override
 ;
-virtual
-void
-UpdateWidgetProperties
-(
-)
-override
-;
 void
 LayoutPopup
 (

@@ -9228,17 +9228,6 @@ IsScrolledOutOfView
 (
 )
 ;
-Matrix
-ComputeWidgetTransform
-(
-)
-;
-virtual
-void
-UpdateWidgetProperties
-(
-)
-;
 bool
 HasImageRequest
 (
