@@ -553,6 +553,14 @@ nsIChannel
 >
 channel
 ;
+nsCOMPtr
+<
+nsIInputStream
+>
+tmpStream
+=
+stream
+;
 rv
 =
 NS_NewInputStreamChannel
@@ -562,7 +570,11 @@ getter_AddRefs
 channel
 )
 aBaseURI
-stream
+tmpStream
+.
+forget
+(
+)
 nullPrincipal
 nsILoadInfo
 :

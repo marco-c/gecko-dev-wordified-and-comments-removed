@@ -866,8 +866,10 @@ outChannel
 nsIURI
 *
 aUri
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aStream
 nsIPrincipal
 *

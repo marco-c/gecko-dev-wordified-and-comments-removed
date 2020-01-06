@@ -7473,6 +7473,14 @@ nsIChannel
 >
 channel
 ;
+nsCOMPtr
+<
+nsIInputStream
+>
+stream
+=
+aStream
+;
 nsresult
 rv
 =
@@ -7483,7 +7491,11 @@ getter_AddRefs
 channel
 )
 uri
-aStream
+stream
+.
+forget
+(
+)
 triggeringPrincipal
 nsILoadInfo
 :

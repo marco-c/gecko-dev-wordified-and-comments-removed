@@ -635,6 +635,10 @@ NS_NewInputStreamChannel
 aChannel
 aURI
 stream
+.
+forget
+(
+)
 nullPrincipal
 nsILoadInfo
 :
