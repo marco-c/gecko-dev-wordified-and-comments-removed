@@ -360,7 +360,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_SIGNED
+SIGNEDSTATE_PRIVILEGED
 :
 AddonManager
 .

@@ -344,7 +344,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_SIGNED
+SIGNEDSTATE_PRIVILEGED
 :
 AddonManager
 .
@@ -521,7 +521,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_SIGNED
+SIGNEDSTATE_PRIVILEGED
 :
 AddonManager
 .
@@ -807,7 +807,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_SIGNED
+SIGNEDSTATE_PRIVILEGED
 :
 AddonManager
 .
@@ -2467,7 +2467,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_SIGNED
+SIGNEDSTATE_PRIVILEGED
 :
 AddonManager
 .

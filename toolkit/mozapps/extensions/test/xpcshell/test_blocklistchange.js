@@ -96,6 +96,7 @@ checkUpdateSecurity
 "
 false
 )
+;
 var
 testserver
 =
