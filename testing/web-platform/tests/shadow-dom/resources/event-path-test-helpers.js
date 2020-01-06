@@ -1,5 +1,5 @@
 function
-dispatchEventWithLog
+dispatchEventWithEventLog
 (
 shadow
 target
@@ -8,6 +8,12 @@ event
 {
 var
 eventPath
+=
+[
+]
+;
+var
+targets
 =
 [
 ]
@@ -157,6 +163,15 @@ label
 )
 )
 ;
+targets
+.
+push
+(
+event
+.
+target
+)
+;
 }
 )
 .
@@ -177,6 +192,12 @@ event
 ;
 return
 {
+event
+:
+event
+targets
+:
+targets
 eventPath
 :
 eventPath
@@ -190,7 +211,7 @@ pathAtTargets
 ;
 }
 function
-createTestTree
+createFixedTestTree
 (
 mode
 )
