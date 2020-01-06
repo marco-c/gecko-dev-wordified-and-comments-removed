@@ -2435,7 +2435,7 @@ if
 (
 aSandboxLevel
 >
-3
+4
 )
 {
 result
@@ -2469,6 +2469,14 @@ sandbox
 "
 )
 ;
+}
+if
+(
+aSandboxLevel
+>
+3
+)
+{
 mitigations
 |
 =
