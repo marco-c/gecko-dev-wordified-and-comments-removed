@@ -153,6 +153,32 @@ self
 )
 :
         
+counter
+=
+[
+0
+]
+        
+def
+_feedback
+(
+dir
+content
+)
+:
+            
+counter
+[
+0
+]
++
+=
+1
+            
+return
+[
+]
+        
 clone
 =
 Profile
@@ -167,6 +193,10 @@ profile
 restore
 =
 True
+                              
+ignore
+=
+_feedback
 )
         
 self
@@ -201,6 +231,18 @@ clone
 .
 profile
 )
+)
+        
+self
+.
+assertTrue
+(
+counter
+[
+0
+]
+>
+0
 )
     
 def

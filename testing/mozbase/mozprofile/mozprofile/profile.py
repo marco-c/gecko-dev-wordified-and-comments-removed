@@ -1088,6 +1088,9 @@ path_from
 path_to
 =
 None
+ignore
+=
+None
 *
 *
 kwargs
@@ -1113,6 +1116,16 @@ the
 basis
 to
 clone
+        
+-
+ignore
+:
+callable
+passed
+to
+shutil
+.
+copytree
         
 -
 kwargs
@@ -1155,6 +1168,9 @@ copytree
 (
 path_from
 path_to
+ignore
+=
+ignore
 )
         
 c
