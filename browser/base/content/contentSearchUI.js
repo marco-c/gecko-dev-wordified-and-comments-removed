@@ -2446,6 +2446,13 @@ numSuggestions
 {
 this
 .
+selectedIndex
+=
+-
+1
+;
+this
+.
 selectedButtonIndex
 =
 idx
