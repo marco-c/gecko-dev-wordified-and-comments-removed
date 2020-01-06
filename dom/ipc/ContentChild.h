@@ -470,10 +470,6 @@ const
 nsAString
 &
 aName
-bool
-aDontOverride
-=
-false
 )
 ;
 void
@@ -3549,9 +3545,6 @@ mRemoteType
 NullString
 (
 )
-;
-bool
-mCanOverrideProcessName
 ;
 bool
 mIsAlive
