@@ -126,7 +126,7 @@ public
 mozilla
 :
 :
-Runnable
+CancelableRunnable
 {
 public
 :
@@ -143,7 +143,7 @@ T
 aDoomed
 )
 :
-Runnable
+CancelableRunnable
 (
 aName
 )
@@ -170,6 +170,18 @@ mDoomed
 ;
 return
 NS_OK
+;
+}
+nsresult
+Cancel
+(
+)
+override
+{
+return
+Run
+(
+)
 ;
 }
 NS_IMETHOD
