@@ -714,6 +714,12 @@ inline
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 skip
 -
 if
@@ -735,6 +741,11 @@ inline
 ref
 .
 html
+#
+bug
+1366295
+for
+webrender
 fails
 -
 if
