@@ -634,9 +634,10 @@ virtual
 bool
 SetTestSampleTime
 (
-LayerTransactionParent
-*
-aLayerTree
+const
+uint64_t
+&
+aId
 const
 TimeStamp
 &
@@ -648,9 +649,10 @@ virtual
 void
 LeaveTestMode
 (
-LayerTransactionParent
-*
-aLayerTree
+const
+uint64_t
+&
+aId
 )
 override
 ;

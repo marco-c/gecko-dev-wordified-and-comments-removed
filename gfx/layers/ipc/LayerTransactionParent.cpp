@@ -4240,7 +4240,9 @@ mCompositorBridge
 >
 SetTestSampleTime
 (
-this
+GetId
+(
+)
 aTime
 )
 )
@@ -4277,7 +4279,9 @@ mCompositorBridge
 >
 LeaveTestMode
 (
-this
+GetId
+(
+)
 )
 ;
 return
