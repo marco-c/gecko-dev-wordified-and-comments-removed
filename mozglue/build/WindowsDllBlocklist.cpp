@@ -1074,6 +1074,14 @@ MAKE_VERSION
 )
 }
 {
+"
+pghook
+.
+dll
+"
+ALL_VERSIONS
+}
+{
 nullptr
 0
 }
