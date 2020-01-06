@@ -610,10 +610,8 @@ message
 }
 }
 }
-init
-(
-)
-{
+}
+;
 Services
 .
 cpmm
@@ -625,7 +623,7 @@ AsyncPrefs
 :
 PrefSetFinished
 "
-this
+AsyncPrefs
 )
 ;
 Services
@@ -639,11 +637,8 @@ AsyncPrefs
 :
 PrefResetFinished
 "
-this
+AsyncPrefs
 )
-;
-}
-}
 ;
 }
 else
@@ -1060,9 +1055,3 @@ this
 }
 ;
 }
-AsyncPrefs
-.
-init
-(
-)
-;
