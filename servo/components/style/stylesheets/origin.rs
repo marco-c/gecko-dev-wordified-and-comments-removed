@@ -7,15 +7,6 @@ marker
 :
 PhantomData
 ;
-use
-std
-:
-:
-mem
-:
-:
-transmute
-;
 #
 [
 derive
@@ -581,8 +572,6 @@ cur
 (
 unsafe
 {
-transmute
-(
 &
 mut
 (
@@ -593,7 +582,6 @@ data
 )
 .
 author
-)
 }
 Origin
 :
@@ -606,8 +594,6 @@ Author
 (
 unsafe
 {
-transmute
-(
 &
 mut
 (
@@ -618,7 +604,6 @@ data
 )
 .
 user
-)
 }
 Origin
 :
@@ -631,8 +616,6 @@ User
 (
 unsafe
 {
-transmute
-(
 &
 mut
 (
@@ -643,7 +626,6 @@ data
 )
 .
 user_agent
-)
 }
 Origin
 :
