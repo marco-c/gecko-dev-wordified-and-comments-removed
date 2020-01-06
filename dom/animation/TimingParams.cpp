@@ -181,9 +181,11 @@ template
 class
 OptionsType
 >
-static
 TimingParams
-TimingParamsFromOptionsUnion
+TimingParams
+:
+:
+FromOptionsType
 (
 const
 OptionsType
@@ -250,6 +252,9 @@ Throw
 (
 NS_ERROR_DOM_TYPE_ERR
 )
+;
+return
+result
 ;
 }
 }
@@ -476,7 +481,7 @@ aRv
 )
 {
 return
-TimingParamsFromOptionsUnion
+FromOptionsType
 (
 aOptions
 aDocument
@@ -506,7 +511,7 @@ aRv
 )
 {
 return
-TimingParamsFromOptionsUnion
+FromOptionsType
 (
 aOptions
 aDocument
