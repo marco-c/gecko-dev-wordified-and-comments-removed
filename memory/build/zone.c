@@ -742,6 +742,15 @@ void
 ptr
 )
 {
+if
+(
+!
+ptr
+)
+{
+return
+;
+}
 malloc_zone_t
 *
 zone
