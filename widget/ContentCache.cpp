@@ -3136,6 +3136,10 @@ mCompositionStartInChild
 (
 UINT32_MAX
 )
+mPendingCommitLength
+(
+0
+)
 mPendingCompositionCount
 (
 0
