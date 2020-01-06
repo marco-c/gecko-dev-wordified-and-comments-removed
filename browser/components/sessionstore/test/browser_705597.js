@@ -287,8 +287,13 @@ finish
 ;
 browser
 .
-reload
+reloadWithFlags
 (
+Ci
+.
+nsIWebNavigation
+.
+LOAD_FLAGS_BYPASS_CACHE
 )
 ;
 }
