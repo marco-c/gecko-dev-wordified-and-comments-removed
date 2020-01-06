@@ -172,8 +172,6 @@ virtual
 bool
 MakeCurrentImpl
 (
-bool
-aForce
 )
 const
 override
