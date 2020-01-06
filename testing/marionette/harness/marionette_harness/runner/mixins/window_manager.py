@@ -287,25 +287,12 @@ self
 start_window
 )
         
-with
-self
-.
-marionette
-.
-using_context
-(
-"
-chrome
-"
-)
-:
-            
 for
 handle
 in
 current_chrome_window_handles
 :
-                
+            
 self
 .
 marionette
@@ -314,7 +301,7 @@ switch_to_window
 (
 handle
 )
-                
+            
 self
 .
 marionette
@@ -322,7 +309,7 @@ marionette
 close_chrome_window
 (
 )
-            
+        
 self
 .
 marionette
