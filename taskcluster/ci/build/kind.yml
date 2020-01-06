@@ -62,6 +62,12 @@ loader
 transform
 :
 loader
+kind
+-
+dependencies
+:
+-
+toolchain
 transforms
 :
 -
@@ -86,6 +92,14 @@ taskgraph
 transforms
 .
 build_lints
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
+toolchain
 :
 transforms
 -
