@@ -856,12 +856,9 @@ mQueue
 >
 mTasks
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 mQueue
@@ -954,12 +951,9 @@ mQueue
 >
 mTasks
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 mQueue
