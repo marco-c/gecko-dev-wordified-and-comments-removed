@@ -8,6 +8,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ToJSValue
+.
+h
+"
+#
+include
+"
 mozIMozIntl
 .
 h

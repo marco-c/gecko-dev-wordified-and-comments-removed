@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsIThreadRetargetableStreamListener
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

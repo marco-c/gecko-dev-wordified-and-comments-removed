@@ -8,6 +8,13 @@ h
 #
 include
 "
+FlushType
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -61,6 +68,10 @@ nsIWebNavigation
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMWindowList
 :
 :

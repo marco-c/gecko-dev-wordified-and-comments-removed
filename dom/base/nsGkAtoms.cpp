@@ -12,10 +12,6 @@ nsStaticAtom
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 define
 GK_ATOM
