@@ -118,6 +118,9 @@ connector
 )
 StatusBar
 (
+{
+connector
+}
 )
 )
 )
