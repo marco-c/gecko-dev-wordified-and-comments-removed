@@ -201,9 +201,6 @@ WindowEvent
 Idle
 Refresh
 Resize
-(
-DeviceUintSize
-)
 TouchpadPressure
 (
 TypedPoint2D
@@ -362,10 +359,6 @@ WindowEvent
 :
 :
 Resize
-(
-.
-.
-)
 =
 >
 write

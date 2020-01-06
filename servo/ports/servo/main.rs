@@ -1262,10 +1262,6 @@ WindowEvent
 :
 :
 Resize
-(
-.
-.
-)
 =
 >
 true

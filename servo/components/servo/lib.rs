@@ -1408,9 +1408,6 @@ WindowEvent
 :
 :
 Resize
-(
-size
-)
 =
 >
 {
@@ -1420,7 +1417,6 @@ compositor
 .
 on_resize_window_event
 (
-size
 )
 ;
 }
