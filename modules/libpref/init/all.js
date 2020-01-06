@@ -5224,6 +5224,9 @@ enabled
 true
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -5242,6 +5245,8 @@ needed
 false
 )
 ;
+#
+endif
 pref
 (
 "
