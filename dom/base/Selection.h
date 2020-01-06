@@ -630,6 +630,12 @@ GetChildAtAnchorOffset
 (
 )
 ;
+nsIContent
+*
+GetChildAtFocusOffset
+(
+)
+;
 bool
 IsCollapsed
 (
