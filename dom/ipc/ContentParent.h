@@ -2005,6 +2005,10 @@ bool
 &
 aSizeSpecified
 const
+OptionalURIParams
+&
+aURIToLoad
+const
 nsCString
 &
 aFeatures
@@ -2684,6 +2688,8 @@ aWindowIsNew
 nsIPrincipal
 *
 aTriggeringPrincipal
+bool
+aLoadUri
 )
 ;
 FORWARD_SHMEM_ALLOCATOR_TO

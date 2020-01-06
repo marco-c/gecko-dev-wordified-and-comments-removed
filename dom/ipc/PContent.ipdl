@@ -5436,6 +5436,8 @@ bool
 aPositionSpecified
 bool
 aSizeSpecified
+OptionalURIParams
+aURIToLoad
 nsCString
 aFeatures
 nsCString
