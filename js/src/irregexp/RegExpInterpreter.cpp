@@ -490,7 +490,7 @@ pc
 Vector
 <
 int32_t
-0
+8
 SystemAllocPolicy
 >
 registers
