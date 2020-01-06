@@ -202,6 +202,10 @@ MOZ_ANDROID_BEAM
 '
                 
 '
+MOZ_ANDROID_CUSTOM_TABS
+'
+                
+'
 MOZ_ANDROID_DOWNLOADS_INTEGRATION
 '
                 
