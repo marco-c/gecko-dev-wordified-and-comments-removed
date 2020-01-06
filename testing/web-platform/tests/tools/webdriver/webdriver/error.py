@@ -248,8 +248,8 @@ status_code
 =
 "
 invalid
-cookie
-domain
+element
+state
 "
 class
 InvalidSelectorException
