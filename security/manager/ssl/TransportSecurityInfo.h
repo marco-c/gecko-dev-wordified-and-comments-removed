@@ -177,7 +177,7 @@ NS_DECL_NSISSLSTATUSPROVIDER
 NS_DECL_NSIASSOCIATEDCONTENTSECURITY
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
-nsresult
+void
 SetSecurityState
 (
 uint32_t
@@ -215,7 +215,7 @@ return
 mPort
 ;
 }
-nsresult
+void
 SetPort
 (
 int32_t
@@ -234,7 +234,7 @@ return
 mOriginAttributes
 ;
 }
-nsresult
+void
 SetOriginAttributes
 (
 const
@@ -286,7 +286,7 @@ SSLErrorMessageType
 errorMessageType
 )
 ;
-nsresult
+void
 SetSSLStatus
 (
 nsSSLStatus
@@ -493,7 +493,7 @@ status
 )
 ;
 static
-nsresult
+void
 Init
 (
 )
@@ -504,9 +504,6 @@ new
 RememberCertErrorsTable
 (
 )
-;
-return
-NS_OK
 ;
 }
 static
