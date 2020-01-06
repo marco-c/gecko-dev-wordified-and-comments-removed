@@ -1062,6 +1062,15 @@ ignoreFragment
 "
 whenComparingAndReplace
 "
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;

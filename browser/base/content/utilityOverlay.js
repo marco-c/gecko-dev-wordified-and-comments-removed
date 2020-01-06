@@ -3916,6 +3916,15 @@ shouldReplaceFragment
 replaceQueryString
 :
 true
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;
