@@ -2003,17 +2003,11 @@ html
 \
 "
 >
-&
-quot
-;
 "
 +
 pings
 +
 "
-&
-quot
-;
 <
 /
 a
@@ -2221,7 +2215,7 @@ bundle
 formatStringFromName
 (
 "
-pingExplanation
+pingDetails
 "
 [
 pingLink
