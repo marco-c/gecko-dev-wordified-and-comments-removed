@@ -302,26 +302,6 @@ find_packages
 (
 )
       
-package_data
-=
-{
-'
-mozrunner
-'
-:
-[
-          
-'
-resources
-/
-metrotestharness
-.
-exe
-'
-      
-]
-}
-      
 zip_safe
 =
 False
