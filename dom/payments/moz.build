@@ -147,6 +147,11 @@ UNIFIED_SOURCES
 =
 [
 '
+BasicCardPayment
+.
+cpp
+'
+'
 PaymentActionRequest
 .
 cpp

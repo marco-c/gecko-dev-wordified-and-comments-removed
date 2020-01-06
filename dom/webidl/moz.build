@@ -2890,6 +2890,11 @@ BaseKeyframeTypes
 webidl
 '
 '
+BasicCardPayment
+.
+webidl
+'
+'
 BatteryManager
 .
 webidl

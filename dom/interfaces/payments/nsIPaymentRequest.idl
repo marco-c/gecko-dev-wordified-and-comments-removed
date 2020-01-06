@@ -136,9 +136,12 @@ attribute
 AString
 supportedMethods
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
-AString
+jsval
 data
 ;
 }
@@ -250,9 +253,12 @@ attribute
 nsIArray
 additionalDisplayItems
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
-AString
+jsval
 data
 ;
 }

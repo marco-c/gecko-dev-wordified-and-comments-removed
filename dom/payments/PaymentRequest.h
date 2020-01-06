@@ -139,6 +139,9 @@ static
 bool
 IsValidMethodData
 (
+JSContext
+*
+aCx
 const
 Sequence
 <
