@@ -3285,6 +3285,8 @@ aMessage
 nsIWidget
 *
 aWidget
+=
+nullptr
 )
 :
 InternalUIEvent
