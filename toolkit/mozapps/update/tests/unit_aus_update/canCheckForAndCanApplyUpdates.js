@@ -80,10 +80,6 @@ exists
 MSG_SHOULD_NOT_EXIST
 )
 ;
-standardInit
-(
-)
-;
 if
 (
 IS_WIN
