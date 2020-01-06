@@ -7447,7 +7447,7 @@ XRE_IsParentProcess
 mCompositorSession
 )
 ;
-int
+uint64_t
 layersId
 =
 mCompositorSession
@@ -7456,7 +7456,6 @@ mCompositorSession
 RootLayerTreeId
 (
 )
-;
 ;
 ScrollableLayerGuid
 guid
