@@ -63,14 +63,6 @@ quirks_mode
 )
 SERVO_BINDING_FUNC
 (
-Servo_ImportRule_GetSheet
-RawServoStyleSheetStrong
-const
-RawServoImportRuleBorrowed
-import_rule
-)
-SERVO_BINDING_FUNC
-(
 Servo_StyleSheet_ClearAndUpdate
 void
 RawServoStyleSheetBorrowed
