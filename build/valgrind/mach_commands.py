@@ -770,6 +770,28 @@ sched
 =
 yes
 '
+                
+'
+-
+-
+keep
+-
+debuginfo
+=
+yes
+'
+                
+'
+-
+-
+expensive
+-
+definedness
+-
+checks
+=
+yes
+'
             
 ]
             
