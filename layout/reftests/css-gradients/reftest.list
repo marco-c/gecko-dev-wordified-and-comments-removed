@@ -531,12 +531,6 @@ diagonal
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 linear
