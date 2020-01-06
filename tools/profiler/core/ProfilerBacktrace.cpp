@@ -30,8 +30,10 @@ char
 aName
 int
 aThreadId
+UniquePtr
+<
 ProfileBuffer
-*
+>
 aBuffer
 )
 :
@@ -48,7 +50,10 @@ aThreadId
 )
 mBuffer
 (
+Move
+(
 aBuffer
+)
 )
 {
 MOZ_COUNT_CTOR
@@ -69,9 +74,6 @@ MOZ_COUNT_DTOR
 (
 ProfilerBacktrace
 )
-;
-delete
-mBuffer
 ;
 }
 void
@@ -101,6 +103,10 @@ get
 )
 mThreadId
 mBuffer
+.
+get
+(
+)
 aWriter
 aProcessStartTime
 0
