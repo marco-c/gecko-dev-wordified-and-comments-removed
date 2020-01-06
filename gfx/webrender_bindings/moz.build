@@ -125,11 +125,6 @@ RendererOGL
 h
 '
 '
-RenderSharedSurfaceTextureHost
-.
-h
-'
-'
 RenderTextureHost
 .
 h
@@ -181,11 +176,6 @@ cpp
 '
 '
 RendererOGL
-.
-cpp
-'
-'
-RenderSharedSurfaceTextureHost
 .
 cpp
 '
