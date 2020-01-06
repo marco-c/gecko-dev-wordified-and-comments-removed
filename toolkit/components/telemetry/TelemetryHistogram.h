@@ -42,6 +42,16 @@ namespace
 TelemetryHistogram
 {
 void
+CreateStatisticsRecorder
+(
+)
+;
+void
+DestroyStatisticsRecorder
+(
+)
+;
+void
 InitializeGlobalState
 (
 bool
@@ -380,10 +390,6 @@ JS
 Value
 >
 ret
-bool
-subsession
-bool
-clearSubsession
 )
 ;
 size_t

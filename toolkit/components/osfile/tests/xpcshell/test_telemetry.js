@@ -160,8 +160,6 @@ Services
 telemetry
 .
 histogramSnapshots
-.
-parent
 ;
 await
 File
@@ -178,8 +176,6 @@ Services
 telemetry
 .
 histogramSnapshots
-.
-parent
 ;
 do_print
 (
@@ -291,8 +287,6 @@ Services
 telemetry
 .
 histogramSnapshots
-.
-parent
 ;
 let
 path
@@ -340,8 +334,6 @@ Services
 telemetry
 .
 histogramSnapshots
-.
-parent
 ;
 do_check_eq
 (
