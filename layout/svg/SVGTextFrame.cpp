@@ -11599,7 +11599,7 @@ aContext
 nsSVGUtils
 :
 :
-SetupCairoStrokeGeometry
+SetupStrokeGeometry
 (
 frame
 &
