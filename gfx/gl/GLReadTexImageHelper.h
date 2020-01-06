@@ -130,6 +130,8 @@ gfx
 DataSourceSurface
 *
 aSurf
+uint32_t
+aStride
 )
 ;
 void

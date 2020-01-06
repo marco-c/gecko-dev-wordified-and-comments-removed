@@ -7978,10 +7978,9 @@ GetData
 +
 y
 *
-dataSurf
--
->
-Stride
+map
+.
+GetStride
 (
 )
 BytesPerPixel
@@ -8144,10 +8143,9 @@ GetData
 +
 y
 *
-dataSurf
--
->
-Stride
+map
+.
+GetStride
 (
 )
 BytesPerPixel

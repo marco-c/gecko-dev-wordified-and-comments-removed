@@ -2193,10 +2193,9 @@ GetData
 uint32_t
 stride
 =
-target
--
->
-Stride
+map
+.
+GetStride
 (
 )
 ;

@@ -479,10 +479,9 @@ GetData
 +
 y
 *
-dataSurf1
--
->
-Stride
+map1
+.
+GetStride
 (
 )
 map2
@@ -493,10 +492,9 @@ GetData
 +
 y
 *
-dataSurf2
--
->
-Stride
+map2
+.
+GetStride
 (
 )
 dataSurf1

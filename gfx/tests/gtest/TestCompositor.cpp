@@ -809,10 +809,9 @@ bitmap
 [
 y
 *
-dss
--
->
-Stride
+dssMap
+.
+GetStride
 (
 )
 +
@@ -830,10 +829,9 @@ bitmapRef
 [
 y
 *
-dss
--
->
-Stride
+dssRefMap
+.
+GetStride
 (
 )
 +
