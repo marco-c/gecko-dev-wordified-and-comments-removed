@@ -12,7 +12,9 @@ Module
 configdir
 =
 '
-foo
+secrets
+/
+mar
 '
 certPrefix
 =
@@ -51,7 +53,6 @@ updateTokenDescription
 =
 '
 '
-?
 =
 NSS
 Internal
