@@ -2633,7 +2633,7 @@ if
 (
 this
 .
-initalized
+initialized
 )
 {
 return
