@@ -901,6 +901,12 @@ sTextCompositions
 =
 nullptr
 ;
+sActiveChildInputContext
+.
+ShutDown
+(
+)
+;
 }
 void
 IMEStateManager
