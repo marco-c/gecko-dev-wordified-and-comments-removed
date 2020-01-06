@@ -45,7 +45,7 @@ class
 nsIInputStream
 ;
 class
-nsIThread
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -149,12 +149,12 @@ aIsAlphaPremultiplied
 ;
 }
 void
-SetActiveThread
+SetActiveEventTarget
 (
 )
 ;
 void
-ResetActiveThread
+ResetActiveEventTarget
 (
 )
 ;
@@ -237,9 +237,9 @@ mCanvasClient
 }
 already_AddRefed
 <
-nsIThread
+nsISerialEventTarget
 >
-GetActiveThread
+GetActiveEventTarget
 (
 )
 ;
@@ -312,9 +312,9 @@ mMutex
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mActiveThread
+mActiveEventTarget
 ;
 }
 ;

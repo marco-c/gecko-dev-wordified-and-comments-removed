@@ -213,16 +213,6 @@ mIsLocked
 bool
 mIsProducerAcquired
 ;
-#
-ifdef
-DEBUG
-nsIThread
-*
-const
-mOwningThread
-;
-#
-endif
 SharedSurface
 (
 SharedSurfaceType

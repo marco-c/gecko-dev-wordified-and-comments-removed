@@ -1146,17 +1146,6 @@ mIsProducerAcquired
 (
 false
 )
-#
-ifdef
-DEBUG
-mOwningThread
-(
-NS_GetCurrentThread
-(
-)
-)
-#
-endif
 {
 }
 layers
