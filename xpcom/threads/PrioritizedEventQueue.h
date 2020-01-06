@@ -173,6 +173,9 @@ mMutex
 aMutex
 ;
 }
+#
+ifndef
+RELEASE_OR_BETA
 void
 SetNextIdleDeadlineRef
 (
@@ -187,6 +190,8 @@ mNextIdleDeadline
 aDeadline
 ;
 }
+#
+endif
 void
 EnableInputEventPrioritization
 (
@@ -240,12 +245,17 @@ mMutex
 =
 nullptr
 ;
+#
+ifndef
+RELEASE_OR_BETA
 TimeStamp
 *
 mNextIdleDeadline
 =
 nullptr
 ;
+#
+endif
 bool
 mProcessHighPriorityQueue
 =
