@@ -12123,6 +12123,11 @@ presContext
 RestyleManager
 (
 )
+-
+>
+AsGecko
+(
+)
 ;
 Element
 *
@@ -12161,7 +12166,7 @@ IsEmpty
 restyleManager
 -
 >
-PostRestyleEventForCSSRuleChanges
+PostRestyleEvent
 (
 root
 eRestyle_Subtree
@@ -12186,7 +12191,7 @@ scopeRoots
 restyleManager
 -
 >
-PostRestyleEventForCSSRuleChanges
+PostRestyleEvent
 (
 scopeRoot
 eRestyle_Subtree
