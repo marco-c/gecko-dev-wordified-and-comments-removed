@@ -1739,10 +1739,6 @@ path
 "
 "
     
-path
-=
-None
-    
 if
 platform
 .
@@ -1776,8 +1772,7 @@ exe
 try
 :
                 
-path
-=
+return
 which
 .
 which
@@ -1806,8 +1801,7 @@ else
 try
 :
             
-path
-=
+return
 which
 .
 which
@@ -1839,7 +1833,7 @@ nodejs
 )
     
 return
-path
+None
 def
 get_node_or_npm_path
 (
