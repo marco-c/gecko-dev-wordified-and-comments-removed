@@ -337,6 +337,13 @@ CONNECTED
 "
 connected
 "
+PAYLOAD_READY
+:
+"
+NetMonitor
+:
+PayloadReady
+"
 }
 ;
 const

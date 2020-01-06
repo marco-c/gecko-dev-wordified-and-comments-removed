@@ -261,6 +261,14 @@ found
 "
 )
 ;
+let
+updates
+=
+waitForNetworkUpdates
+(
+toolbox
+)
+;
 urlNode
 .
 click
@@ -268,10 +276,7 @@ click
 )
 ;
 await
-waitForNetworkUpdates
-(
-toolbox
-)
+updates
 ;
 await
 testNetworkMessage
