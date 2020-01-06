@@ -3432,10 +3432,10 @@ let
 mut
 seen_custom
 =
-HashSet
+PrecomputedHashSet
 :
 :
-new
+default
 (
 )
 ;
