@@ -17,6 +17,8 @@ absolute_import
 print_function
 unicode_literals
 import
+logging
+import
 re
 import
 os
@@ -35,6 +37,14 @@ util
 bbb_validation
 import
 valid_bbb_builders
+logger
+=
+logging
+.
+getLogger
+(
+__name__
+)
 base_path
 =
 os
@@ -1152,8 +1162,9 @@ in
 valid_builders
 :
             
-raise
-Exception
+logger
+.
+warning
 (
                 
 '
