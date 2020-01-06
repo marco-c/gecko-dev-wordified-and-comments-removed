@@ -31,6 +31,13 @@ h
 "
 #
 include
+"
+nsISupportsImpl
+.
+h
+"
+#
+include
 <
 stdlib
 .
