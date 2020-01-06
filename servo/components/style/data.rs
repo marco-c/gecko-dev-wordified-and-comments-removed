@@ -2,7 +2,10 @@ use
 context
 :
 :
+{
 SharedStyleContext
+StackLimitChecker
+}
 ;
 use
 dom
@@ -1466,6 +1469,13 @@ shared_context
 :
 &
 SharedStyleContext
+stack_limit_checker
+:
+Option
+<
+&
+StackLimitChecker
+>
 )
 {
 if
@@ -1574,6 +1584,7 @@ Some
 self
 )
 shared_context
+stack_limit_checker
 )
 ;
 invalidator

@@ -71,6 +71,14 @@ usize
 ;
 pub
 const
+STACK_SAFETY_MARGIN_KB
+:
+usize
+=
+45
+;
+pub
+const
 WORK_UNIT_MAX
 :
 usize
