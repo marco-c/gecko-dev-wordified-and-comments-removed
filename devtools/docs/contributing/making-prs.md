@@ -151,7 +151,7 @@ Creating_a_patch_to_check_in
 #
 #
 Commit
-messags
+messages
 Commit
 messages
 should
