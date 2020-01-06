@@ -1207,10 +1207,6 @@ id
 ;
 #
 endif
-disableProtection
-(
-)
-;
 }
 void
 constructRoot
