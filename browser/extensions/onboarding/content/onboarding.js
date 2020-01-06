@@ -2731,7 +2731,7 @@ onboarding
 /
 img
 /
-figure_search
+figure_library
 .
 svg
 "
@@ -3010,7 +3010,7 @@ onboarding
 /
 img
 /
-figure_search
+figure_singlesearch
 .
 svg
 "
@@ -3293,7 +3293,7 @@ onboarding
 /
 img
 /
-figure_sync
+figure_performance
 .
 svg
 "
