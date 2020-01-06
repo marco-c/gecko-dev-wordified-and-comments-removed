@@ -576,6 +576,11 @@ this
 onMessage
 )
 ;
+}
+simulateMessagesForExistingTabs
+(
+)
+{
 for
 (
 const

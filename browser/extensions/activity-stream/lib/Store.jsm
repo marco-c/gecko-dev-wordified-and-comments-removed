@@ -598,6 +598,14 @@ initAction
 )
 ;
 }
+this
+.
+_messageChannel
+.
+simulateMessagesForExistingTabs
+(
+)
+;
 }
 uninit
 (
