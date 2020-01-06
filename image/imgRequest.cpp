@@ -335,6 +335,13 @@ mHadInsecureRedirect
 (
 false
 )
+mStyleBackendType
+(
+StyleBackendType
+:
+:
+None
+)
 {
 }
 imgRequest
@@ -447,6 +454,8 @@ int32_t
 aCORSMode
 ReferrerPolicy
 aReferrerPolicy
+StyleBackendType
+aStyleBackendType
 )
 {
 MOZ_ASSERT
@@ -588,6 +597,10 @@ aCORSMode
 mReferrerPolicy
 =
 aReferrerPolicy
+;
+mStyleBackendType
+=
+aStyleBackendType
 ;
 if
 (
@@ -3747,6 +3760,8 @@ ProgressTracker
 aProgressTracker
 uint32_t
 aInnerWindowId
+StyleBackendType
+aStyleBackendType
 )
 {
 NewPartResult
@@ -3968,6 +3983,7 @@ mContentType
 aURI
 true
 aInnerWindowId
+aStyleBackendType
 )
 ;
 if
@@ -4099,6 +4115,7 @@ mContentType
 aURI
 false
 aInnerWindowId
+aStyleBackendType
 )
 ;
 }
@@ -4436,6 +4453,7 @@ isMultipart
 image
 progressTracker
 mInnerWindowId
+mStyleBackendType
 )
 ;
 bool
