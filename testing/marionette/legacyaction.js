@@ -408,6 +408,11 @@ catch
 this
 .
 resetValues
+.
+bind
+(
+this
+)
 )
 ;
 }
