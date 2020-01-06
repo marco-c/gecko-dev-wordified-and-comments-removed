@@ -92,8 +92,7 @@ alone
 .
 .
 .
-OS_LDFLAGS
-+
+MK_LDFLAGS
 =
 \
 (
