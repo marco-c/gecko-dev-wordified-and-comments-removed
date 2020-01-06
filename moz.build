@@ -653,9 +653,6 @@ build
 '
 tools
 '
-'
-probes
-'
 ]
 if
 CONFIG
