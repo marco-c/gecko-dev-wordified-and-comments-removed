@@ -2587,6 +2587,15 @@ len
 )
 ;
 void
+Gecko_CSSValue_InitSharedList
+(
+nsCSSValueBorrowedMut
+css_value
+uint32_t
+len
+)
+;
+void
 Gecko_CSSValue_Drop
 (
 nsCSSValueBorrowedMut
