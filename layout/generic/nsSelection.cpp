@@ -18732,9 +18732,6 @@ nsIContent
 innercontent
 =
 node
-&
-&
-node
 -
 >
 IsContent
@@ -18803,6 +18800,14 @@ NS_OK
 MOZ_ASSERT
 (
 aRange
+&
+&
+aRange
+-
+>
+IsPositioned
+(
+)
 )
 ;
 if
@@ -18893,9 +18898,6 @@ nsIContent
 *
 startContent
 =
-startNode
-&
-&
 startNode
 -
 >
@@ -19192,9 +19194,6 @@ nsIContent
 content
 =
 node
-&
-&
-node
 -
 >
 IsContent
@@ -19230,9 +19229,6 @@ nsIContent
 *
 endContent
 =
-endNode
-&
-&
 endNode
 -
 >
