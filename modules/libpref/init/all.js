@@ -44153,9 +44153,9 @@ dom
 .
 timeout
 .
-max_consecutive_callback_ms
+max_consecutive_callbacks
 "
-4
+5
 )
 ;
 #
