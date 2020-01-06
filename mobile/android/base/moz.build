@@ -4334,13 +4334,6 @@ java
 '
 activitystream
 /
-ActivityStreamPreference
-.
-java
-'
-'
-activitystream
-/
 ActivityStreamTelemetry
 .
 java
