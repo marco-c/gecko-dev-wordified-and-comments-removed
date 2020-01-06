@@ -5089,17 +5089,6 @@ Winrt
 /
 Win32
 .
-Gonk
-supports
-CONTACT
-REMOVE
-*
-and
-CANCEL
-but
-no
-HOVER
-.
 Other
 widgets
 will

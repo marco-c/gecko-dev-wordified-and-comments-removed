@@ -144,7 +144,7 @@ PICO_SAMPLE_RATE
 16000
 #
 define
-GONK_PICO_LANG_PATH
+PICO_LANG_PATH
 "
 /
 system
@@ -2180,7 +2180,7 @@ langPath
 .
 AssignLiteral
 (
-GONK_PICO_LANG_PATH
+PICO_LANG_PATH
 )
 ;
 }
