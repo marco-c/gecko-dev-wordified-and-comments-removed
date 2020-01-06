@@ -828,6 +828,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 if
@@ -923,6 +926,7 @@ SetPropertyValue
 (
 aPropID
 aValue
+aSubjectPrincipal
 )
 ;
 }

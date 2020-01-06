@@ -245,6 +245,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 switch
@@ -345,6 +348,7 @@ ParsePropertyValue
 aPropID
 aValue
 false
+aSubjectPrincipal
 )
 ;
 }
@@ -402,6 +406,9 @@ const
 nsAString
 &
 aCssText
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 DeclarationBlock
@@ -835,6 +842,9 @@ const
 nsAString
 &
 aPriority
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 if
@@ -935,6 +945,7 @@ ParseCustomPropertyValue
 aPropertyName
 aValue
 important
+aSubjectPrincipal
 )
 ;
 }
@@ -944,6 +955,7 @@ ParsePropertyValue
 propID
 aValue
 important
+aSubjectPrincipal
 )
 ;
 }
@@ -1372,6 +1384,9 @@ nsAString
 aPropValue
 bool
 aIsImportant
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 return
@@ -1490,6 +1505,9 @@ nsAString
 aPropValue
 bool
 aIsImportant
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 MOZ_ASSERT

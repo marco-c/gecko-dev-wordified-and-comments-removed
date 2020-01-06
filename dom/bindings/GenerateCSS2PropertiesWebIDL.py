@@ -148,6 +148,10 @@ TreatNullAs
 =
 EmptyString
 "
+                         
+"
+NeedsSubjectPrincipal
+"
 ]
         
 if

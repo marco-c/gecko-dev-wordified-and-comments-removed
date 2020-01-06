@@ -144,6 +144,9 @@ const
 nsAString
 &
 aCssText
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 override
 ;
@@ -233,6 +236,9 @@ const
 nsAString
 &
 priority
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 override
 ;
@@ -292,6 +298,10 @@ method_
 nsAString
 &
 aValue
+nsIPrincipal
+&
+aSubjectPrincipal
+\
 mozilla
 :
 :
@@ -328,6 +338,10 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+&
+aSubjectPrincipal
+\
 mozilla
 :
 :
@@ -347,6 +361,8 @@ eCSSProperty_
 #
 id_
 aValue
+&
+aSubjectPrincipal
 )
 ;
 \
@@ -765,6 +781,9 @@ nsAString
 aPropValue
 bool
 aIsImportant
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 ;
 nsresult
@@ -780,6 +799,9 @@ nsAString
 aPropValue
 bool
 aIsImportant
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 ;
 nsresult

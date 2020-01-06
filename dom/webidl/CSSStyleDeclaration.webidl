@@ -120,6 +120,7 @@ CSSStyleDeclaration
 {
 [
 CEReactions
+NeedsSubjectPrincipal
 SetterThrows
 ]
 attribute
@@ -177,6 +178,7 @@ property
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
 Throws
 ]
 void
