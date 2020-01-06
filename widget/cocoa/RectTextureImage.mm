@@ -988,6 +988,7 @@ mIOSurface
 >
 CGLTexImageIOSurface2D
 (
+aGL
 gl
 :
 :
@@ -1003,6 +1004,7 @@ aGL
 GetCGLContext
 (
 )
+0
 )
 ;
 mGLContext

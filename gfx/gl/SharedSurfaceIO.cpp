@@ -584,7 +584,9 @@ ioSurf
 >
 CGLTexImageIOSurface2D
 (
+gl
 cgl
+0
 )
 ;
 }
