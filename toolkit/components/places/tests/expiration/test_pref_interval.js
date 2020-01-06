@@ -30,6 +30,8 @@ interval
 expectedTimerDelay
 :
 1
+*
+EXPIRE_AGGRESSIVITY_MULTIPLIER
 }
 {
 desc
@@ -50,6 +52,8 @@ interval
 expectedTimerDelay
 :
 DEFAULT_TIMER_DELAY_SECONDS
+*
+EXPIRE_AGGRESSIVITY_MULTIPLIER
 }
 {
 desc
@@ -67,6 +71,8 @@ interval
 expectedTimerDelay
 :
 DEFAULT_TIMER_DELAY_SECONDS
+*
+EXPIRE_AGGRESSIVITY_MULTIPLIER
 }
 {
 desc
@@ -86,6 +92,8 @@ interval
 expectedTimerDelay
 :
 100
+*
+EXPIRE_AGGRESSIVITY_MULTIPLIER
 }
 ]
 ;
@@ -122,6 +130,14 @@ of
 tests
 )
 {
+currentTest
+=
+tests
+.
+shift
+(
+)
+;
 print
 (
 currentTest
@@ -166,8 +182,6 @@ data
 currentTest
 .
 expectedTimerDelay
-*
-EXPIRE_AGGRESSIVITY_MULTIPLIER
 )
 ;
 }
