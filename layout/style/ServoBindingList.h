@@ -1855,6 +1855,12 @@ dummy_url_data
 )
 SERVO_BINDING_FUNC
 (
+Servo_InitializeCooperativeThread
+void
+)
+;
+SERVO_BINDING_FUNC
+(
 Servo_Shutdown
 void
 )

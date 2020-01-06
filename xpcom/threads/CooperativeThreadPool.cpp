@@ -26,6 +26,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoBindings
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
