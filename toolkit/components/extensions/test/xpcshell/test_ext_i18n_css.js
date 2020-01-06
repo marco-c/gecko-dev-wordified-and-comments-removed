@@ -759,6 +759,13 @@ file_sample
 html
 )
 ;
+await
+new
+Promise
+(
+do_execute_soon
+)
+;
 let
 maxWidth
 =
