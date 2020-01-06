@@ -191,10 +191,14 @@ is
 currently
 developed
 on
-64bit
+64
+-
+bit
 OS
 X
-64bit
+64
+-
+bit
 Linux
 and
 Android
