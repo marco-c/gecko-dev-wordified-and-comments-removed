@@ -2368,7 +2368,6 @@ StackingContextType
 Real
 PseudoPositioned
 PseudoFloat
-PseudoScrollingArea
 }
 #
 [
