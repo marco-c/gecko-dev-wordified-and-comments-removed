@@ -55,7 +55,7 @@ nsCOMPtr
 <
 nsINode
 >
-mStartParent
+mStartContainer
 ;
 nsCOMPtr
 <

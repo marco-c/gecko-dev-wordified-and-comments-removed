@@ -974,7 +974,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 aParent
@@ -983,7 +983,7 @@ aParent
 item
 -
 >
-startOffset
+mStartOffset
 >
 aPosition
 )
@@ -991,7 +991,7 @@ aPosition
 item
 -
 >
-startOffset
+mStartOffset
 +
 +
 ;
@@ -1155,7 +1155,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 parent
@@ -1164,7 +1164,7 @@ parent
 item
 -
 >
-startOffset
+mStartOffset
 >
 offset
 )
@@ -1172,7 +1172,7 @@ offset
 item
 -
 >
-startOffset
+mStartOffset
 -
 -
 ;
@@ -1209,7 +1209,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 aNode
@@ -1218,14 +1218,14 @@ aNode
 item
 -
 >
-startNode
+mStartContainer
 =
 parent
 ;
 item
 -
 >
-startOffset
+mStartOffset
 =
 offset
 ;
@@ -1272,7 +1272,7 @@ IsDescendantOf
 item
 -
 >
-startNode
+mStartContainer
 aNode
 )
 )
@@ -1282,19 +1282,19 @@ oldStart
 item
 -
 >
-startNode
+mStartContainer
 ;
 item
 -
 >
-startNode
+mStartContainer
 =
 parent
 ;
 item
 -
 >
-startOffset
+mStartOffset
 =
 offset
 ;
@@ -1472,7 +1472,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 &
@@ -1484,7 +1484,7 @@ if
 item
 -
 >
-startOffset
+mStartOffset
 >
 aOffset
 )
@@ -1492,7 +1492,7 @@ aOffset
 item
 -
 >
-startOffset
+mStartOffset
 -
 =
 aOffset
@@ -1503,7 +1503,7 @@ else
 item
 -
 >
-startNode
+mStartContainer
 =
 aNewLeftNode
 ;
@@ -1641,7 +1641,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 &
@@ -1653,7 +1653,7 @@ if
 item
 -
 >
-startOffset
+mStartOffset
 >
 aOffset
 )
@@ -1661,7 +1661,7 @@ aOffset
 item
 -
 >
-startOffset
+mStartOffset
 -
 -
 ;
@@ -1672,7 +1672,7 @@ if
 item
 -
 >
-startOffset
+mStartOffset
 =
 =
 aOffset
@@ -1681,7 +1681,7 @@ aOffset
 item
 -
 >
-startNode
+mStartContainer
 =
 &
 aRightNode
@@ -1689,7 +1689,7 @@ aRightNode
 item
 -
 >
-startOffset
+mStartOffset
 =
 aOldLeftNodeLength
 ;
@@ -1701,7 +1701,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 &
@@ -1711,7 +1711,7 @@ aRightNode
 item
 -
 >
-startOffset
+mStartOffset
 +
 =
 aOldLeftNodeLength
@@ -1723,7 +1723,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 &
@@ -1733,7 +1733,7 @@ aLeftNode
 item
 -
 >
-startNode
+mStartContainer
 =
 &
 aRightNode
@@ -1934,7 +1934,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 &
@@ -1944,7 +1944,7 @@ aTextNode
 item
 -
 >
-startOffset
+mStartOffset
 >
 aOffset
 )
@@ -1952,7 +1952,7 @@ aOffset
 item
 -
 >
-startOffset
+mStartOffset
 +
 =
 len
@@ -2076,7 +2076,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 aTextNode
@@ -2085,7 +2085,7 @@ aTextNode
 item
 -
 >
-startOffset
+mStartOffset
 >
 aOffset
 )
@@ -2093,7 +2093,7 @@ aOffset
 item
 -
 >
-startOffset
+mStartOffset
 -
 =
 aLength
@@ -2103,7 +2103,7 @@ if
 item
 -
 >
-startOffset
+mStartOffset
 <
 0
 )
@@ -2111,7 +2111,7 @@ startOffset
 item
 -
 >
-startOffset
+mStartOffset
 =
 0
 ;
@@ -2316,7 +2316,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 aOriginalNode
@@ -2325,7 +2325,7 @@ aOriginalNode
 item
 -
 >
-startNode
+mStartContainer
 =
 aNewNode
 ;
@@ -2471,7 +2471,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 aNode
@@ -2480,14 +2480,14 @@ aNode
 item
 -
 >
-startNode
+mStartContainer
 =
 aParent
 ;
 item
 -
 >
-startOffset
+mStartOffset
 +
 =
 aOffset
@@ -2499,7 +2499,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 aParent
@@ -2508,7 +2508,7 @@ aParent
 item
 -
 >
-startOffset
+mStartOffset
 >
 aOffset
 )
@@ -2516,7 +2516,7 @@ aOffset
 item
 -
 >
-startOffset
+mStartOffset
 +
 =
 (
@@ -2782,7 +2782,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 aOldParent
@@ -2791,7 +2791,7 @@ aOldParent
 item
 -
 >
-startOffset
+mStartOffset
 >
 aOldOffset
 )
@@ -2799,7 +2799,7 @@ aOldOffset
 item
 -
 >
-startOffset
+mStartOffset
 -
 -
 ;
@@ -2836,7 +2836,7 @@ if
 item
 -
 >
-startNode
+mStartContainer
 =
 =
 aNewParent
@@ -2845,7 +2845,7 @@ aNewParent
 item
 -
 >
-startOffset
+mStartOffset
 >
 aNewOffset
 )
@@ -2853,7 +2853,7 @@ aNewOffset
 item
 -
 >
-startOffset
+mStartOffset
 +
 +
 ;
@@ -2907,7 +2907,7 @@ RangeItem
 NS_IMPL_CYCLE_COLLECTION
 (
 RangeItem
-startNode
+mStartContainer
 endNode
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
@@ -2936,7 +2936,7 @@ MOZ_ASSERT
 aRange
 )
 ;
-startNode
+mStartContainer
 =
 aRange
 -
@@ -2945,7 +2945,7 @@ GetStartContainer
 (
 )
 ;
-startOffset
+mStartOffset
 =
 aRange
 -
@@ -2993,7 +2993,7 @@ range
 new
 nsRange
 (
-startNode
+mStartContainer
 )
 ;
 if
@@ -3005,8 +3005,8 @@ range
 >
 SetStartAndEnd
 (
-startNode
-startOffset
+mStartContainer
+mStartOffset
 endNode
 endOffset
 )

@@ -109,10 +109,10 @@ nsCOMPtr
 <
 nsINode
 >
-startNode
+mStartContainer
 ;
 int32_t
-startOffset
+mStartOffset
 ;
 nsCOMPtr
 <
@@ -674,7 +674,7 @@ RangeItem
 mRangeItem
 -
 >
-startNode
+mStartContainer
 =
 *
 mNode
@@ -690,7 +690,7 @@ mNode
 mRangeItem
 -
 >
-startOffset
+mStartOffset
 =
 *
 mOffset
@@ -754,7 +754,7 @@ RangeItem
 mRangeItem
 -
 >
-startNode
+mStartContainer
 =
 do_QueryInterface
 (
@@ -776,7 +776,7 @@ mDOMNode
 mRangeItem
 -
 >
-startOffset
+mStartOffset
 =
 *
 mOffset
@@ -820,7 +820,7 @@ mNode
 mRangeItem
 -
 >
-startNode
+mStartContainer
 ;
 }
 else
@@ -833,7 +833,7 @@ GetAsDOMNode
 mRangeItem
 -
 >
-startNode
+mStartContainer
 )
 ;
 }
@@ -843,7 +843,7 @@ mOffset
 mRangeItem
 -
 >
-startOffset
+mStartOffset
 ;
 }
 }
