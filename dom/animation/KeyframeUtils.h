@@ -68,9 +68,6 @@ Keyframe
 struct
 PropertyStyleAnimationValuePair
 ;
-struct
-ServoComputedValuesWithParent
-;
 namespace
 dom
 {
@@ -168,9 +165,9 @@ Element
 *
 aElement
 const
-ServoComputedValuesWithParent
-&
-aServoValues
+ServoComputedValues
+*
+aComputedValues
 )
 ;
 static
@@ -219,8 +216,8 @@ ComputedKeyframeValues
 &
 aComputedValues
 const
-ServoComputedValuesWithParent
-&
+ServoComputedValues
+*
 aServoValues
 )
 {

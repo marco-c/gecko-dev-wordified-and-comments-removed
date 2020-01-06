@@ -91,9 +91,6 @@ ServoComputedValues
 namespace
 mozilla
 {
-struct
-ServoComputedValuesWithParent
-;
 namespace
 css
 {
@@ -932,12 +929,9 @@ mozilla
 CSSPseudoElementType
 aPseudoType
 const
-mozilla
-:
-:
-ServoComputedValuesWithParent
-&
-aServoValues
+ServoComputedValues
+*
+aComputedValues
 )
 ;
 void

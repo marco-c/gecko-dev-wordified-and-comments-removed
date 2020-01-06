@@ -313,8 +313,7 @@ void
 UpdateEffectProperties
 (
 StyleType
-&
-&
+*
 aStyleType
 dom
 :

@@ -4658,6 +4658,10 @@ EffectCompositor
 UpdateEffectProperties
 (
 result
+.
+get
+(
+)
 aElementForAnimation
 result
 -
