@@ -7532,14 +7532,6 @@ SubtreeRoot
 )
 ;
 }
-nsIDocument
-*
-composedDoc
-=
-GetComposedDoc
-(
-)
-;
 if
 (
 CustomElementRegistry
@@ -7550,7 +7542,9 @@ IsCustomElementEnabled
 )
 &
 &
-composedDoc
+IsInComposedDoc
+(
+)
 )
 {
 if
@@ -7565,7 +7559,6 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-composedDoc
 nsIDocument
 :
 :
@@ -8944,7 +8937,6 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-document
 nsIDocument
 :
 :
@@ -11675,9 +11667,6 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-OwnerDoc
-(
-)
 nsIDocument
 :
 :
@@ -12970,9 +12959,6 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-OwnerDoc
-(
-)
 nsIDocument
 :
 :

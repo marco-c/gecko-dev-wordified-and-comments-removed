@@ -5977,9 +5977,6 @@ void
 EnqueueLifecycleCallback
 (
 nsIDocument
-*
-aDoc
-nsIDocument
 :
 :
 ElementCallbackType
