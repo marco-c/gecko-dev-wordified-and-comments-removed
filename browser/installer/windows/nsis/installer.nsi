@@ -2156,6 +2156,9 @@ EndIf
 {
 RemoveDeprecatedKeys
 }
+{
+Set32to64DidMigrateReg
+}
 ;
 The
 previous
