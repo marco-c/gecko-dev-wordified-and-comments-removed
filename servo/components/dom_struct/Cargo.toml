@@ -52,15 +52,3 @@ proc
 macro
 =
 true
-[
-dependencies
-]
-quote
-=
-"
-0
-.
-3
-.
-15
-"
