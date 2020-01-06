@@ -50,6 +50,9 @@ mp4parse_status_EOF
 mp4parse_status_IO
 =
 5
+mp4parse_status_TABLE_TOO_LARGE
+=
+6
 }
 mp4parse_status
 ;
