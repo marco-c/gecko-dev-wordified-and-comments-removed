@@ -3633,12 +3633,6 @@ newNode
 *
 rootElement
 0
-rootElement
--
->
-GetFirstChild
-(
-)
 )
 ;
 if
@@ -5720,12 +5714,6 @@ mBogusNode
 *
 body
 0
-body
--
->
-GetFirstChild
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
