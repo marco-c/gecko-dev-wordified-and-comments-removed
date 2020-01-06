@@ -4410,14 +4410,6 @@ contentRootElement
 return
 ;
 }
-if
-(
-gIsWebRenderEnabled
-)
-{
-return
-;
-}
 var
 opaqueLayerElements
 =
