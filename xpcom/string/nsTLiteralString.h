@@ -24,6 +24,7 @@ size_type
 N
 >
 explicit
+constexpr
 nsTLiteralString_CharT
 (
 const
