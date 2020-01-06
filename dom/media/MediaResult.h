@@ -255,15 +255,6 @@ nsCString
 )
 ;
 }
-nsCString
-name
-;
-GetErrorName
-(
-mCode
-name
-)
-;
 return
 nsPrintfCString
 (
@@ -283,7 +274,9 @@ s
 %
 s
 "
-name
+ErrorName
+(
+)
 .
 get
 (
