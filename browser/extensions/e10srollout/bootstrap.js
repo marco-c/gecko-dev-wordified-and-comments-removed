@@ -157,10 +157,6 @@ release
 buckets
 :
 {
-1
-:
-.
-5
 4
 :
 1
