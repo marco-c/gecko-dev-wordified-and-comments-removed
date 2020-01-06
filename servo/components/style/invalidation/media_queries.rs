@@ -183,6 +183,7 @@ MediaRule
 derive
 (
 Debug
+PartialEq
 )
 ]
 #
