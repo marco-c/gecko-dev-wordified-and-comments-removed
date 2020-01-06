@@ -1471,7 +1471,6 @@ FireDelayedDOMEvents
 )
 override
 ;
-virtual
 bool
 WouldReuseInnerWindow
 (
@@ -1479,9 +1478,7 @@ nsIDocument
 *
 aNewDocument
 )
-override
 ;
-virtual
 void
 SetDocShell
 (
@@ -1489,14 +1486,11 @@ nsIDocShell
 *
 aDocShell
 )
-override
 ;
-virtual
 void
 DetachFromDocShell
 (
 )
-override
 ;
 virtual
 nsresult
