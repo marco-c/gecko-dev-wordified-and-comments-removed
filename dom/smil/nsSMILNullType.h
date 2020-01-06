@@ -34,16 +34,7 @@ nsSMILNullType
 Singleton
 (
 )
-{
-static
-nsSMILNullType
-sSingleton
 ;
-return
-&
-sSingleton
-;
-}
 protected
 :
 virtual
