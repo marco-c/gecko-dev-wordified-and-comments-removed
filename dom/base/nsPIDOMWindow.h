@@ -1887,9 +1887,6 @@ dom
 LargeAllocStatus
 mLargeAllocStatus
 ;
-bool
-mShouldResumeOnFirstActiveMediaComponent
-;
 nsCOMPtr
 <
 nsPIDOMWindowInner
@@ -2540,11 +2537,6 @@ SetAudioVolume
 (
 float
 aVolume
-)
-;
-void
-NotifyCreatedNewMediaComponent
-(
 )
 ;
 void
