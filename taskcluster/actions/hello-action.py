@@ -1,3 +1,21 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+from
+__future__
+import
+absolute_import
+print_function
+unicode_literals
 from
 .
 registry
@@ -169,6 +187,7 @@ task
 :
     
 print
+(
 "
 This
 message
@@ -189,12 +208,16 @@ format
 (
 task_id
 )
+)
     
 print
+(
 "
 "
+)
     
 print
+(
 "
 Hello
 {
@@ -205,8 +228,10 @@ format
 (
 input
 )
+)
     
 print
+(
 "
 -
 -
@@ -216,3 +241,4 @@ is
 now
 executed
 "
+)
