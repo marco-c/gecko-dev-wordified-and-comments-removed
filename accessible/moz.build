@@ -234,17 +234,6 @@ tests
 /
 browser
 /
-scroll
-/
-browser
-.
-ini
-'
-'
-tests
-/
-browser
-/
 states
 /
 browser
