@@ -1653,12 +1653,6 @@ callback
 =
 NS_NewInputStreamReadyEvent
 (
-"
-nsICOEncoder
-:
-:
-NotifyListener
-"
 mCallback
 mCallbackTarget
 )

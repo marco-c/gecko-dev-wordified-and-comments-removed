@@ -5217,12 +5217,6 @@ proxy
 =
 NS_NewInputStreamReadyEvent
 (
-"
-nsPipeInputStream
-:
-:
-AsyncWait
-"
 aCallback
 aTarget
 )
