@@ -3762,8 +3762,6 @@ test
 get
 (
 '
-talos
--
 try
 -
 name
@@ -3829,28 +3827,11 @@ test
 .
 get
 (
-                    
 '
-talos
--
 try
 -
 name
 '
-                    
-test
-.
-get
-(
-                        
-'
-unittest
--
-try
--
-name
-'
-                        
 test
 [
 '
@@ -3859,9 +3840,6 @@ test
 name
 '
 ]
-                    
-)
-                
 )
     
 if

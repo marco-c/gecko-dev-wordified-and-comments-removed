@@ -730,8 +730,6 @@ external
 media
 -
 tests
-unittest
--
 try
 -
 name
@@ -889,8 +887,6 @@ b
 -
 t
 )
-unittest
--
 try
 -
 name
@@ -1053,8 +1049,6 @@ media
 tests
 /
 youtube
-unittest
--
 try
 -
 name
@@ -6814,8 +6808,6 @@ chrome
 suite
 :
 talos
-talos
--
 try
 -
 name
@@ -6984,8 +6976,6 @@ dromaeojs
 suite
 :
 talos
-talos
--
 try
 -
 name
@@ -7154,8 +7144,6 @@ g1
 suite
 :
 talos
-talos
--
 try
 -
 name
@@ -7324,8 +7312,6 @@ g2
 suite
 :
 talos
-talos
--
 try
 -
 name
@@ -7494,8 +7480,6 @@ g3
 suite
 :
 talos
-talos
--
 try
 -
 name
@@ -7664,8 +7648,6 @@ g4
 suite
 :
 talos
-talos
--
 try
 -
 name
@@ -7834,8 +7816,6 @@ other
 suite
 :
 talos
-talos
--
 try
 -
 name
@@ -8008,8 +7988,6 @@ reftest
 suite
 :
 talos
-talos
--
 try
 -
 name
@@ -8147,8 +8125,6 @@ svgr
 suite
 :
 talos
-talos
--
 try
 -
 name
@@ -8317,8 +8293,6 @@ tp5o
 suite
 :
 talos
-talos
--
 try
 -
 name
