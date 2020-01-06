@@ -13138,8 +13138,10 @@ descriptors
 callbacks
 dictionaries
 enums
+typedefs
 imports
 config
+                 
 ignored_warnings
 =
 None
@@ -13717,6 +13719,33 @@ types
 componentTypes
 (
 d
+)
+        
+for
+t
+in
+typedefs
+:
+            
+if
+not
+t
+.
+innerType
+.
+isCallback
+(
+)
+:
+                
+types
++
+=
+componentTypes
+(
+t
+.
+innerType
 )
         
 types
@@ -16599,6 +16628,11 @@ dictionaries
 ]
                      
 enums
+=
+[
+]
+                     
+typedefs
 =
 [
 ]
@@ -41967,6 +42001,9 @@ None
 enums
 =
 None
+typedefs
+=
+None
 )
 :
     
@@ -42000,6 +42037,16 @@ enums
 [
 ]
     
+if
+not
+typedefs
+:
+        
+typedefs
+=
+[
+]
+    
 return
 CGImports
 (
@@ -42008,6 +42055,7 @@ descriptors
 callbacks
 dictionaries
 enums
+typedefs
 [
         
 '
@@ -48801,6 +48849,7 @@ mainCallbacks
                                 
 dictionaries
 enums
+typedefs
 )
         
 curr
@@ -54920,6 +54969,10 @@ dictionaries
 [
 ]
 enums
+=
+[
+]
+typedefs
 =
 [
 ]
