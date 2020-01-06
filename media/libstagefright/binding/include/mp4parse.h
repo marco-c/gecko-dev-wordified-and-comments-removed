@@ -78,6 +78,9 @@ mp4parse_codec_AVC
 mp4parse_codec_VP9
 mp4parse_codec_MP3
 mp4parse_codec_MP4V
+mp4parse_codec_JPEG
+mp4parse_codec_AC3
+mp4parse_codec_EC3
 }
 mp4parse_codec
 ;
