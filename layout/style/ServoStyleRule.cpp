@@ -95,6 +95,14 @@ ServoStyleRuleDeclaration
 (
 )
 {
+mDecls
+-
+>
+SetOwningRule
+(
+nullptr
+)
+;
 }
 NS_INTERFACE_MAP_BEGIN
 (
