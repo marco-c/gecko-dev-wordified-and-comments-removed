@@ -191,6 +191,9 @@ mod
 logging
 ;
 mod
+prefs
+;
+mod
 marionette
 ;
 mod
