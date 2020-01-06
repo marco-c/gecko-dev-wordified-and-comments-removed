@@ -157,6 +157,9 @@ nsIInputStream
 *
 *
 aPostDataStream
+int64_t
+*
+aPostDataStreamLength
 )
 =
 0
@@ -389,6 +392,9 @@ nsIInputStream
 *
 *
 aPostDataStream
+int64_t
+*
+aPostDataStreamLength
 )
 override
 ;
