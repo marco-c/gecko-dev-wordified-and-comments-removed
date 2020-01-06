@@ -562,6 +562,17 @@ data
 .
 manifest
 .
+name
+|
+|
+this
+.
+_store
+.
+data
+.
+manifest
+.
 short_url
 ;
 }
