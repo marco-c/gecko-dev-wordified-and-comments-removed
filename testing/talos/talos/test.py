@@ -1775,7 +1775,7 @@ tppagecycles
     
 gecko_profile_entries
 =
-1000000
+5000000
     
 tploadnocache
 =
