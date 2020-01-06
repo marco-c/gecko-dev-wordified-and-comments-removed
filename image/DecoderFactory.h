@@ -84,6 +84,9 @@ RasterImage
 class
 SourceBuffer
 ;
+class
+SourceBufferIterator
+;
 enum
 class
 DecoderType
@@ -219,12 +222,10 @@ CreateDecoderForICOResource
 (
 DecoderType
 aType
-NotNull
-<
-SourceBuffer
-*
->
-aSourceBuffer
+SourceBufferIterator
+&
+&
+aIterator
 NotNull
 <
 nsICODecoder
