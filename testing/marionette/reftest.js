@@ -244,7 +244,8 @@ TIMEOUT
 "
 }
 ;
-let
+this
+.
 reftest
 =
 {

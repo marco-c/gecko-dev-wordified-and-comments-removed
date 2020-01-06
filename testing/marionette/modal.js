@@ -81,11 +81,6 @@ this
 modal
 =
 {
-}
-;
-modal
-=
-{
 COMMON_DIALOG_LOADED
 :
 "

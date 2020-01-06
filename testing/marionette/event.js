@@ -173,6 +173,13 @@ nsIDOMWindowUtils
 )
 ;
 }
+this
+.
+event
+=
+{
+}
+;
 event
 .
 MouseEvents

@@ -3820,7 +3820,7 @@ cmd
 parameters
 .
 newSandbox
-filename
+file
 :
 cmd
 .
@@ -3943,7 +3943,7 @@ cmd
 parameters
 .
 newSandbox
-filename
+file
 :
 cmd
 .
