@@ -4011,6 +4011,8 @@ aRecorder
 DrawTarget
 *
 aDT
+IntSize
+aSize
 )
 ;
 static

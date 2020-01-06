@@ -783,6 +783,11 @@ CreateRecordingDrawTarget
 (
 recorder
 dummyDt
+imageSize
+.
+ToUnknownSize
+(
+)
 )
 ;
 LayerPoint
