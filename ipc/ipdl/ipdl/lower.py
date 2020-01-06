@@ -12144,22 +12144,6 @@ replyId
 (
 )
         
-prettyName
-=
-md
-.
-prettyReplyName
-(
-protocol
-.
-name
-+
-'
-:
-:
-'
-)
-        
 replyEnum
 =
 '
@@ -12183,22 +12167,6 @@ md
 .
 msgId
 (
-)
-        
-prettyName
-=
-md
-.
-prettyMsgName
-(
-protocol
-.
-name
-+
-'
-:
-:
-'
 )
         
 replyEnum
@@ -12641,13 +12609,6 @@ flags
                                       
 ExprLiteral
 .
-String
-(
-prettyName
-)
-                                      
-ExprLiteral
-.
 TRUE
 ]
 )
@@ -12690,13 +12651,6 @@ msgid
 )
                                       
 flags
-                                      
-ExprLiteral
-.
-String
-(
-prettyName
-)
 ]
 )
 )

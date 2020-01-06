@@ -1703,10 +1703,7 @@ ipc_msgtype_name
 anonymous
 namespace
 namespace
-mozilla
-{
-namespace
-ipc
+IPC
 {
 const
 char
@@ -1881,12 +1878,7 @@ name
 /
 /
 namespace
-ipc
-}
-/
-/
-namespace
-mozilla
+IPC
 "
 "
 "
