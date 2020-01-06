@@ -1558,6 +1558,12 @@ PledgeVoid
 >
 mOutstandingVoidPledges
 ;
+nsTArray
+<
+nsString
+>
+mDeviceIDs
+;
 public
 :
 media
