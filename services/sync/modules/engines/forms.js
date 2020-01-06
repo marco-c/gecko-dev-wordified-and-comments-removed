@@ -965,6 +965,11 @@ op
 "
 add
 "
+guid
+:
+record
+.
+id
 fieldname
 :
 record
