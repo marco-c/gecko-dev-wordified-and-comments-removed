@@ -5544,7 +5544,7 @@ title
 |
 url
 ;
-WindowEventDispatcher
+GlobalEventDispatcher
 .
 sendRequest
 (
@@ -6564,7 +6564,7 @@ aTarget
 .
 src
 ;
-WindowEventDispatcher
+GlobalEventDispatcher
 .
 sendRequest
 (
