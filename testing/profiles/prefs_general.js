@@ -3188,10 +3188,9 @@ https
 :
 /
 /
-%
-(
-server
-)
+example
+.
+com
 /
 selfsupport
 -
