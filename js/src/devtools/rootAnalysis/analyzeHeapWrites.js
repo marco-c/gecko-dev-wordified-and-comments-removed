@@ -2107,6 +2107,12 @@ Gecko_CopyMozBorderColors
 Gecko_SetNullImageValue
 "
 /
+nsStyleContext
+:
+:
+PeekStyle
+/
+/
 UndisplayedMap
 :
 :
