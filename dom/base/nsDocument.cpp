@@ -23791,6 +23791,7 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 StyleRuleChanged
 (
 aSheet
+aStyleRule
 )
 )
 ;
@@ -23835,6 +23836,7 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 StyleRuleAdded
 (
 aSheet
+aStyleRule
 )
 )
 ;
@@ -23879,6 +23881,7 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 StyleRuleRemoved
 (
 aSheet
+aStyleRule
 )
 )
 ;
