@@ -285,7 +285,7 @@ ViewID
 ViewID
 ;
 static
-nsIntPoint
+LayoutDeviceIntPoint
 GetContentRectLayerOffset
 (
 nsIFrame
@@ -334,10 +334,12 @@ TopLeft
 )
 ;
 return
-frameOffset
-.
-ToNearestPixels
+LayoutDeviceIntPoint
+:
+:
+FromAppUnitsToNearest
 (
+frameOffset
 auPerDevPixel
 )
 ;
@@ -960,7 +962,7 @@ SetReferentId
 mLayersId
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 offset
 =
 GetContentRectLayerOffset
