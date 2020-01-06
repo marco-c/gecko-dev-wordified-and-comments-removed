@@ -785,6 +785,12 @@ aOther
 .
 mRotation
 )
+mBitDepth
+(
+aOther
+.
+mBitDepth
+)
 mImageRect
 (
 aOther
@@ -1195,6 +1201,11 @@ mExtraData
 ;
 Rotation
 mRotation
+;
+uint8_t
+mBitDepth
+=
+8
 ;
 private
 :
