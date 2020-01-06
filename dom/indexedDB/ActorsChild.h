@@ -791,6 +791,10 @@ IDBFactory
 >
 mFactory
 ;
+BackgroundDatabaseChild
+*
+mDatabaseActor
+;
 const
 uint64_t
 mRequestedVersion
@@ -827,6 +831,14 @@ aRequestedVersion
 ~
 BackgroundFactoryRequestChild
 (
+)
+;
+void
+SetDatabaseActor
+(
+BackgroundDatabaseChild
+*
+aActor
 )
 ;
 bool
