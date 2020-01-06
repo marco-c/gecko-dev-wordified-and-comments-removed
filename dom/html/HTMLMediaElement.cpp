@@ -13468,6 +13468,17 @@ Destroy
 )
 ;
 }
+bool
+KeepsSourceAlive
+(
+)
+const
+override
+{
+return
+false
+;
+}
 void
 PrincipalChanged
 (
