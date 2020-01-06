@@ -1900,6 +1900,9 @@ Drag
 "
 Keyboard
 "
+"
+Autoscroll
+"
 ]
 )
 {
