@@ -636,9 +636,6 @@ test_status
 '
 log
 '
-'
-assertion_count
-'
                          
 '
 buffering_on
