@@ -1824,6 +1824,14 @@ of
 tabs
 )
 {
+gBrowser
+.
+moveTabTo
+(
+tab
+1
+)
+;
 yield
 forceGC
 (
