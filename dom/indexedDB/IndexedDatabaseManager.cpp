@@ -3438,9 +3438,7 @@ aQuotaManager
 {
 MOZ_ASSERT
 (
-IsMainProcess
-(
-)
+sIsMainProcess
 )
 ;
 MOZ_ASSERT
