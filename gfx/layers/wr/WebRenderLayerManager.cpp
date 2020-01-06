@@ -1373,6 +1373,9 @@ item
 aBuilder
 aSc
 mClipIdCache
+AsyncPanZoomEnabled
+(
+)
 )
 ;
 if
