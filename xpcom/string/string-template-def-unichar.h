@@ -60,10 +60,6 @@ nsTLiteralString_CharT
 nsLiteralString
 #
 define
-nsTXPIDLString_CharT
-nsXPIDLString
-#
-define
 nsTGetterCopies_CharT
 nsGetterCopies
 #

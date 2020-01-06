@@ -339,11 +339,6 @@ TestUTF
 .
 cpp
 '
-'
-TestXPIDLString
-.
-cpp
-'
 ]
 if
 CONFIG

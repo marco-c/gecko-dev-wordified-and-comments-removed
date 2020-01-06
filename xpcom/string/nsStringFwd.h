@@ -72,9 +72,6 @@ class
 nsDefaultStringComparator
 ;
 class
-nsXPIDLString
-;
-class
 nsACString
 ;
 class
