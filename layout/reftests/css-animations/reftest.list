@@ -1077,6 +1077,12 @@ assigned
 to
 PaintedLayers
 .
+fails
+-
+if
+(
+webrender
+)
 =
 =
 background
