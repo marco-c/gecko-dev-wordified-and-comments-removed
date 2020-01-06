@@ -44,6 +44,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticMutex
 .
 h
