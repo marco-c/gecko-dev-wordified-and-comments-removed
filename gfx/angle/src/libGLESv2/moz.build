@@ -594,7 +594,10 @@ rc
 '
 DEFFILE
 =
+SRCDIR
++
 '
+/
 libGLESv2
 .
 def

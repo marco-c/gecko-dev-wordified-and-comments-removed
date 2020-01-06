@@ -104,7 +104,10 @@ REGISTER_PROXY_DLL
 True
 DEFFILE
 =
+SRCDIR
++
 '
+/
 IA2Marshal
 .
 def

@@ -205,7 +205,6 @@ WINNT
 DEFFILE
 =
 '
-!
 mozglue
 .
 def

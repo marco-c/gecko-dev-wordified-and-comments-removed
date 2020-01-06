@@ -207,7 +207,10 @@ c
 ]
 DEFFILE
 =
+SRCDIR
++
 '
+/
 AccessibleHandler
 .
 def
