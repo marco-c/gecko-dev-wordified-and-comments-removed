@@ -175,6 +175,24 @@ x64
 '
     
 '
+linux64
+-
+devedition
+-
+nightly
+'
+:
+'
+Ubuntu
+VM
+12
+.
+04
+x64
+DevEdition
+'
+    
+'
 macosx64
 '
 :
