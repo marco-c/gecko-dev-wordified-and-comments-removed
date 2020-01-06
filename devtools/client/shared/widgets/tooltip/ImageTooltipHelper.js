@@ -376,7 +376,10 @@ src
 =
 "
 {
+encodeURI
+(
 imageUrl
+)
 }
 "
 /
