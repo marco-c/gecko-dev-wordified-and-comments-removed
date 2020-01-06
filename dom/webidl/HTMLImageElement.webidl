@@ -466,6 +466,7 @@ HTMLImageElement
 {
 [
 CEReactions
+SetterThrows
 ]
 attribute
 DOMString
