@@ -339,6 +339,13 @@ StyleBloom
 E
 >
 {
+#
+[
+inline
+(
+never
+)
+]
 pub
 fn
 new

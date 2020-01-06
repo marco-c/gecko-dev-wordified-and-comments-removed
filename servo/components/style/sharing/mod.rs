@@ -1740,6 +1740,13 @@ base
 )
 }
 }
+#
+[
+inline
+(
+never
+)
+]
 pub
 fn
 new
