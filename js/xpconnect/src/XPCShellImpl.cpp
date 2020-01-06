@@ -6564,6 +6564,9 @@ n
 )
 ;
 }
+XPCShellDirProvider
+dirprovider
+;
 {
 nsCOMPtr
 <
@@ -6658,9 +6661,6 @@ return
 1
 ;
 }
-XPCShellDirProvider
-dirprovider
-;
 dirprovider
 .
 SetAppFile
