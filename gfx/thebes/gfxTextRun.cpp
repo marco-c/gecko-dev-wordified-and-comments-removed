@@ -3465,6 +3465,17 @@ HasSyntheticBoldOrColor
 this
 aRange
 )
+&
+&
+!
+aParams
+.
+context
+-
+>
+GetTextDrawer
+(
+)
 )
 {
 needToRestore
