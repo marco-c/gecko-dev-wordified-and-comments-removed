@@ -159,11 +159,6 @@ clang
 linux
 .
 sh
-tooltool
--
-downloads
-:
-public
 resources
 :
 -
@@ -320,11 +315,6 @@ tidy
 linux
 .
 sh
-tooltool
--
-downloads
-:
-public
 resources
 :
 -
@@ -677,11 +667,6 @@ cctools
 port
 .
 sh
-tooltool
--
-downloads
-:
-public
 resources
 :
 -
@@ -805,11 +790,6 @@ hfsplus
 linux
 .
 sh
-tooltool
--
-downloads
-:
-public
 resources
 :
 -
