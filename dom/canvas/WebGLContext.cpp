@@ -8493,13 +8493,6 @@ surf
 surf
 )
 ;
-alphaType
-=
-gfxAlphaType
-:
-:
-Premult
-;
 }
 }
 RefPtr
