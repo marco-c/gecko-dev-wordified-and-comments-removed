@@ -3701,7 +3701,7 @@ local_addrs
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 (
@@ -3713,6 +3713,10 @@ local
 addresses
 already
 set
+no
+work
+to
+do
 "
 ctx
 -
