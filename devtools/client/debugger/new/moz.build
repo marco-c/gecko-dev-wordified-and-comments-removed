@@ -94,4 +94,11 @@ worker
 .
 js
 '
+'
+search
+-
+worker
+.
+js
+'
 )
