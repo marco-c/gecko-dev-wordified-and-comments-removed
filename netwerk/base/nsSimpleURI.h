@@ -266,6 +266,17 @@ nsIURI
 clone
 )
 ;
+nsresult
+SetPathQueryRefEscaped
+(
+const
+nsACString
+&
+aPath
+bool
+aNeedsEscape
+)
+;
 nsCString
 mScheme
 ;
