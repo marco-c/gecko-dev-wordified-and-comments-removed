@@ -2205,7 +2205,6 @@ usize
 )
 ;
 for
-mut
 pixel
 in
 rasterized_pixels

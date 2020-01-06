@@ -209,7 +209,7 @@ mask
 =
 texture
 (
-sColor1
+sSharedCacheA8
 vec3
 (
 uv
