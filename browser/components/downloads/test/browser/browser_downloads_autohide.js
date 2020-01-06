@@ -151,6 +151,7 @@ toolbar
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel
@@ -315,6 +316,7 @@ off
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel
@@ -398,6 +400,7 @@ toolbar
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel
@@ -690,6 +693,7 @@ promiseCustomizeStart
 (
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel
@@ -843,6 +847,7 @@ pref
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel
@@ -1013,6 +1018,7 @@ reset
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel
@@ -1499,6 +1505,7 @@ again
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel

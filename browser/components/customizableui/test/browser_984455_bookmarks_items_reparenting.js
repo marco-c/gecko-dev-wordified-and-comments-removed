@@ -1061,6 +1061,7 @@ getElementById
 kBookmarksItems
 )
 ;
+await
 gCustomizeMode
 .
 addToToolbar
@@ -1083,6 +1084,7 @@ checkOverflowing
 (
 kBookmarksItems
 )
+await
 gCustomizeMode
 .
 addToPanel
@@ -1095,6 +1097,7 @@ stopOverflowing
 (
 )
 ;
+await
 gCustomizeMode
 .
 addToToolbar
@@ -1129,6 +1132,7 @@ getElementById
 kBookmarksItems
 )
 ;
+await
 gCustomizeMode
 .
 addToToolbar

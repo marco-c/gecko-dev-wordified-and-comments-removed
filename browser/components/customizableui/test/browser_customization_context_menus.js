@@ -924,6 +924,7 @@ searchbar
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel
@@ -1036,6 +1037,7 @@ navbar
 "
 )
 ;
+await
 gCustomizeMode
 .
 removeFromArea

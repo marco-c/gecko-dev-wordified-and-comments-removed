@@ -120,6 +120,7 @@ toolbar
 "
 )
 ;
+await
 gCustomizeMode
 .
 addToPanel
