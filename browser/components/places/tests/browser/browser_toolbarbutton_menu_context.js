@@ -188,7 +188,19 @@ checkPopupContextMenu
 )
 {
 let
-dropmarker
+clickTarget
+=
+bookmarksMenuButton
+;
+if
+(
+!
+AppConstants
+.
+MOZ_PHOTON_THEME
+)
+{
+clickTarget
 =
 document
 .
@@ -203,6 +215,7 @@ dropmarker
 "
 )
 ;
+}
 BMB_menuPopup
 .
 setAttribute
@@ -233,7 +246,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-dropmarker
+clickTarget
 {
 }
 )
