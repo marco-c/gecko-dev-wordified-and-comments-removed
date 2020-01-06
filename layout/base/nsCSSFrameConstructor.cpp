@@ -10650,10 +10650,10 @@ set
 >
 StyleDocument
 (
-TraversalRestyleBehavior
+ServoTraversalFlags
 :
 :
-Normal
+Empty
 )
 ;
 }

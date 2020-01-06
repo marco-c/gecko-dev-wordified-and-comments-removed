@@ -1698,8 +1698,8 @@ element
 mozilla
 :
 :
-TraversalRestyleBehavior
-restyle_behavior
+ServoTraversalFlags
+flags
 bool
 *
 was_restyled
@@ -1715,8 +1715,8 @@ set
 mozilla
 :
 :
-TraversalRestyleBehavior
-restyle_behavior
+ServoTraversalFlags
+flags
 )
 SERVO_BINDING_FUNC
 (
@@ -1800,13 +1800,8 @@ snapshots
 mozilla
 :
 :
-TraversalRootBehavior
-root_behavior
-mozilla
-:
-:
-TraversalRestyleBehavior
-restyle_behavior
+ServoTraversalFlags
+flags
 )
 SERVO_BINDING_FUNC
 (

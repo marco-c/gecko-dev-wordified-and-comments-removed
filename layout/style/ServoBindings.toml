@@ -778,6 +778,9 @@ ParsingMode
 "
 ThemeWidgetType
 "
+"
+ServoTraversalFlags
+"
 ]
 constified
 -
@@ -1016,13 +1019,7 @@ PropertyStyleAnimationValuePair
 mozilla
 :
 :
-TraversalRestyleBehavior
-"
-"
-mozilla
-:
-:
-TraversalRootBehavior
+ServoTraversalFlags
 "
 "
 mozilla
@@ -2580,10 +2577,7 @@ CSSPseudoClassType
 CSSPseudoElementType
 "
 "
-TraversalRestyleBehavior
-"
-"
-TraversalRootBehavior
+ServoTraversalFlags
 "
 "
 ComputedTimingFunction_BeforeFlag

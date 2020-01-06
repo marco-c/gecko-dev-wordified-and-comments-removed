@@ -766,8 +766,8 @@ aStateMask
 bool
 StyleDocument
 (
-TraversalRestyleBehavior
-aRestyleBehavior
+ServoTraversalFlags
+aFlags
 )
 ;
 bool
@@ -887,8 +887,8 @@ dom
 Element
 *
 aElement
-TraversalRestyleBehavior
-aRestyleBehavior
+ServoTraversalFlags
+aFlags
 )
 ;
 bool
@@ -1213,10 +1213,8 @@ PrepareAndTraverseSubtree
 (
 RawGeckoElementBorrowed
 aRoot
-TraversalRootBehavior
-aRootBehavior
-TraversalRestyleBehavior
-aRestyleBehavior
+ServoTraversalFlags
+aFlags
 )
 ;
 void
