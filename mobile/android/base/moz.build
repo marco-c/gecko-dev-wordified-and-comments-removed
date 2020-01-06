@@ -6853,6 +6853,13 @@ SyncPreference
 java
 '
 '
+preferences
+/
+TopSitesPanelsPreference
+.
+java
+'
+'
 PresentationView
 .
 java
@@ -8012,6 +8019,13 @@ java
 widget
 /
 SwipeDismissListViewTouchListener
+.
+java
+'
+'
+widget
+/
+SwitchPreferenceView
 .
 java
 '
