@@ -724,16 +724,6 @@ ObjectBoundingBoxProperty
 gfxRect
 )
 static
-nsIFrame
-*
-GetNearestSVGViewport
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 nsRect
 GetPostFilterVisualOverflowRect
 (
