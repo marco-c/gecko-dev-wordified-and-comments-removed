@@ -909,12 +909,12 @@ result
 .
 mCurrentIteration
 =
-IsInfinite
-(
 result
 .
 mIterations
-)
+>
+=
+UINT64_MAX
 &
 &
 result
