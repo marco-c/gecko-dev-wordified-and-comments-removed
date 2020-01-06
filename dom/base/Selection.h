@@ -211,8 +211,13 @@ nsISelectionPrivate
 )
 NS_DECL_NSISELECTION
 NS_DECL_NSISELECTIONPRIVATE
-nsresult
-EndBatchChangesInternal
+void
+StartBatchChanges
+(
+)
+;
+void
+EndBatchChanges
 (
 int16_t
 aReason
@@ -1887,7 +1892,7 @@ mSelection
 mSelection
 -
 >
-EndBatchChangesInternal
+EndBatchChanges
 (
 )
 ;

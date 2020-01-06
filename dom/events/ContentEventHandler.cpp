@@ -15440,7 +15440,7 @@ endNodeOffset
 mSelection
 -
 >
-EndBatchChangesInternal
+EndBatchChanges
 (
 aEvent
 -
