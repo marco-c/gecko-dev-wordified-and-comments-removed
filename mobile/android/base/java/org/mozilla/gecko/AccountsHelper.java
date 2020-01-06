@@ -734,6 +734,7 @@ AndroidFxAccount
 addAndroidAccount
 (
 mContext
+uid
 email
 mProfile
 .

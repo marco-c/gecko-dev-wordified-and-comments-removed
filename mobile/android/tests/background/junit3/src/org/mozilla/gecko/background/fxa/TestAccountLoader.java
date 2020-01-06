@@ -612,6 +612,9 @@ AndroidFxAccount
 addAndroidAccount
 (
 context
+"
+uid
+"
 TEST_USERNAME
 TEST_PROFILE
 TEST_AUTH_SERVER_URI

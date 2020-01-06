@@ -1397,7 +1397,7 @@ String
 product
 final
 String
-username
+accountKey
 final
 String
 serverURL
@@ -1426,7 +1426,7 @@ serverURL
 +
 usernameFromAccount
 (
-username
+accountKey
 )
 )
 ;
