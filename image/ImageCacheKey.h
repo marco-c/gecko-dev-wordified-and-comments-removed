@@ -31,15 +31,6 @@ RefPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StyleBackendType
-.
-h
-"
 class
 nsIDocument
 ;
@@ -182,11 +173,6 @@ aAttrs
 void
 *
 aControlledDocument
-mozilla
-:
-:
-StyleBackendType
-aStyleBackendType
 )
 ;
 static
