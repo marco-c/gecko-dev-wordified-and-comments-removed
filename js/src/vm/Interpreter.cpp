@@ -6180,6 +6180,12 @@ case
 ScopeKind
 :
 :
+WasmInstance
+:
+case
+ScopeKind
+:
+:
 WasmFunction
 :
 MOZ_CRASH
