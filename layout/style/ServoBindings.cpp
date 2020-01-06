@@ -1758,7 +1758,7 @@ aNewStyle
 equalStructs
 &
 samePointerStructs
-NS_STYLE_INHERIT_MASK
+true
 )
 ;
 *

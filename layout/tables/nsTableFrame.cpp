@@ -38428,6 +38428,7 @@ newContext
 equalStructs
 &
 samePointerStructs
+true
 )
 ;
 MOZ_ASSERT

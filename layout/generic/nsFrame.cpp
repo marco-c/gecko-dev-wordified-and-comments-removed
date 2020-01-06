@@ -48599,6 +48599,7 @@ aNewStyleContext
 equalStructs
 &
 samePointerStructs
+true
 )
 ;
 MOZ_ASSERT
