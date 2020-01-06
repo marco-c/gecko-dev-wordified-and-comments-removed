@@ -2139,11 +2139,6 @@ Internal
 only
 )
 "
-internal
-=
-"
-True
-"
 allow_empty
 =
 "
