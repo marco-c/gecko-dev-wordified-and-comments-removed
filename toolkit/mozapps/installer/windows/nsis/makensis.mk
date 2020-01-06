@@ -362,7 +362,9 @@ CONFIG_DIR
 (
 CYGWIN_WRAPPER
 )
-7z
+(
+7Z
+)
 a
 -
 t7z
@@ -584,7 +586,9 @@ stage
 (
 CYGWIN_WRAPPER
 )
-7z
+(
+7Z
+)
 a
 -
 r
