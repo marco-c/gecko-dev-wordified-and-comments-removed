@@ -5406,6 +5406,17 @@ mPanDisplacement
 *
 untransformedDisplacement
 ;
+panInput
+.
+mOverscrollBehaviorAllowsSwipe
+=
+apzc
+-
+>
+OverscrollBehaviorAllowsSwipe
+(
+)
+;
 }
 break
 ;

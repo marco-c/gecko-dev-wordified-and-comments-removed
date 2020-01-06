@@ -793,6 +793,9 @@ mFollowedByMomentum
 bool
 mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
 ;
+bool
+mOverscrollBehaviorAllowsSwipe
+;
 }
 ;
 class

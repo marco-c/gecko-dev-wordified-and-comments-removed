@@ -16442,6 +16442,11 @@ this
 if
 (
 aCanTriggerSwipe
+&
+&
+panInput
+.
+mOverscrollBehaviorAllowsSwipe
 )
 {
 SwipeInfo
