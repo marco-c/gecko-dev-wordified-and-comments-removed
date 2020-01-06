@@ -238,6 +238,13 @@ EventRef
 )
 _eventRef
 ;
+property
+(
+readonly
+)
+NSInteger
+stage
+;
 end
 interface
 NSView
@@ -417,6 +424,9 @@ mUsingOMTCompositor
 ;
 CGImageRef
 mTopLeftCornerMask
+;
+NSInteger
+mLastPressureStage
 ;
 }
 +
