@@ -63,12 +63,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -78,12 +78,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -156,7 +156,7 @@ reflector_
 Reflector
 element
 :
-JS
+Dom
 <
 Element
 >
@@ -195,7 +195,7 @@ new
 )
 element
 :
-JS
+Dom
 :
 :
 from_ref
@@ -222,7 +222,7 @@ LocalName
 )
 -
 >
-Root
+DomRoot
 <
 DOMTokenList
 >
@@ -269,7 +269,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >

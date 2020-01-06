@@ -38,10 +38,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+Reflector
+reflect_dom_object
+}
 ;
 use
 dom
@@ -50,13 +53,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-Reflector
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -141,7 +141,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 PluginArray
 >
@@ -204,7 +204,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Plugin
 >
@@ -225,7 +225,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Plugin
 >
@@ -246,7 +246,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Plugin
 >
@@ -267,7 +267,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Plugin
 >

@@ -8,7 +8,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -80,12 +80,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+DomObject
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -95,13 +96,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -232,7 +232,7 @@ PathBuf
 >
 cache
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -274,7 +274,7 @@ u8
 )
 Sliced
 (
-JS
+Dom
 <
 Blob
 >
@@ -350,7 +350,7 @@ name
 )
 cache
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -387,7 +387,7 @@ owner
 ]
 blob_impl
 :
-DOMRefCell
+DomRefCell
 <
 BlobImpl
 >
@@ -422,7 +422,7 @@ String
 )
 -
 >
-Root
+DomRoot
 <
 Blob
 >
@@ -484,7 +484,7 @@ new
 )
 blob_impl
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -523,7 +523,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 Blob
 >
@@ -556,7 +556,7 @@ BlobImpl
 :
 Sliced
 (
-JS
+Dom
 :
 :
 from_ref
@@ -581,7 +581,7 @@ BlobImpl
 :
 Sliced
 (
-JS
+Dom
 :
 :
 from_ref
@@ -673,7 +673,7 @@ BlobPropertyBag
 >
 Fallible
 <
-Root
+DomRoot
 <
 Blob
 >
@@ -1438,7 +1438,7 @@ name
 None
 cache
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1621,7 +1621,7 @@ name
 None
 cache
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -2287,7 +2287,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 Blob
 >

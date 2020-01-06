@@ -33,7 +33,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -247,10 +247,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+DomObject
+Reflector
+}
 ;
 use
 dom
@@ -259,13 +262,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-DomObject
-Reflector
-}
+DomRoot
 ;
 use
 dom
@@ -1193,7 +1193,7 @@ EventOrString
 :
 Event
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1712,7 +1712,7 @@ reflector_
 Reflector
 handlers
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
@@ -1749,7 +1749,7 @@ new
 )
 handlers
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -3211,7 +3211,7 @@ Atom
 )
 -
 >
-Root
+DomRoot
 <
 Event
 >
@@ -3243,7 +3243,7 @@ Atom
 )
 -
 >
-Root
+DomRoot
 <
 Event
 >
@@ -3275,7 +3275,7 @@ Atom
 )
 -
 >
-Root
+DomRoot
 <
 Event
 >
@@ -3307,7 +3307,7 @@ Atom
 )
 -
 >
-Root
+DomRoot
 <
 Event
 >
@@ -3345,7 +3345,7 @@ EventCancelable
 )
 -
 >
-Root
+DomRoot
 <
 Event
 >

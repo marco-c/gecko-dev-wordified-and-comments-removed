@@ -57,10 +57,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -69,10 +69,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -175,7 +175,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMPoint
 >
@@ -222,7 +222,7 @@ f64
 >
 Fallible
 <
-Root
+DomRoot
 <
 DOMPoint
 >
@@ -258,7 +258,7 @@ DOMPointInit
 )
 -
 >
-Root
+DomRoot
 <
 DOMPoint
 >

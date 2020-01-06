@@ -8,7 +8,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -50,10 +50,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -158,7 +158,7 @@ worklet_global
 WorkletGlobalScope
 lookup_table
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
@@ -201,7 +201,7 @@ WorkletGlobalScopeInit
 )
 -
 >
-Root
+DomRoot
 <
 TestWorkletGlobalScope
 >

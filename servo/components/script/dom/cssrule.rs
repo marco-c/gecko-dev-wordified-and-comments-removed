@@ -35,13 +35,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-JS
-Root
-}
+Reflector
 ;
 use
 dom
@@ -50,10 +47,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-Reflector
+{
+Dom
+DomRoot
+}
 ;
 use
 dom
@@ -214,7 +214,7 @@ reflector_
 Reflector
 parent_stylesheet
 :
-JS
+Dom
 <
 CSSStyleSheet
 >
@@ -260,7 +260,7 @@ new
 )
 parent_stylesheet
 :
-JS
+Dom
 :
 :
 from_ref
@@ -531,7 +531,7 @@ StyleCssRule
 )
 -
 >
-Root
+DomRoot
 <
 CSSRule
 >
@@ -548,7 +548,7 @@ s
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -572,7 +572,7 @@ s
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -596,7 +596,7 @@ s
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -646,7 +646,7 @@ s
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -670,7 +670,7 @@ s
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -694,7 +694,7 @@ s
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -718,7 +718,7 @@ s
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -742,7 +742,7 @@ s
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -904,7 +904,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 CSSStyleSheet
 >
@@ -925,7 +925,7 @@ else
 {
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref

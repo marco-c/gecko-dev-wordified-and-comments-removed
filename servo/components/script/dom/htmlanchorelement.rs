@@ -17,7 +17,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -143,12 +143,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -347,13 +347,13 @@ htmlelement
 HTMLElement
 rel_list
 :
-MutNullableJS
+MutNullableDom
 <
 DOMTokenList
 >
 url
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -408,7 +408,7 @@ default
 )
 url
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -444,7 +444,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLAnchorElement
 >
@@ -1046,7 +1046,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMTokenList
 >

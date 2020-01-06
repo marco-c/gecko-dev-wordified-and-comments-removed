@@ -86,12 +86,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -171,7 +171,7 @@ htmlelement
 HTMLElement
 contents
 :
-MutNullableJS
+MutNullableDom
 <
 DocumentFragment
 >
@@ -215,7 +215,7 @@ document
 )
 contents
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -251,7 +251,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTemplateElement
 >
@@ -292,7 +292,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DocumentFragment
 >
@@ -491,7 +491,7 @@ unwrap
 let
 copy_contents
 =
-Root
+DomRoot
 :
 :
 upcast

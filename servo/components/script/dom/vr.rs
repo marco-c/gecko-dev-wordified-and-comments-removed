@@ -8,7 +8,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -92,12 +92,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+DomObject
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -107,13 +108,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -252,11 +252,11 @@ reflector_
 Reflector
 displays
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
-JS
+Dom
 <
 VRDisplay
 >
@@ -264,11 +264,11 @@ VRDisplay
 >
 gamepads
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
-JS
+Dom
 <
 Gamepad
 >
@@ -298,7 +298,7 @@ new
 )
 displays
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -312,7 +312,7 @@ new
 )
 gamepads
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -337,7 +337,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 VR
 >
@@ -554,7 +554,7 @@ displays
 :
 Vec
 <
-Root
+DomRoot
 <
 VRDisplay
 >
@@ -577,7 +577,7 @@ map
 |
 d
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -650,7 +650,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 VRDisplay
 >
@@ -688,7 +688,7 @@ map
 |
 d
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -816,7 +816,7 @@ WebVRDisplayData
 )
 -
 >
-Root
+DomRoot
 <
 VRDisplay
 >
@@ -880,7 +880,7 @@ borrow_mut
 .
 push
 (
-JS
+Dom
 :
 :
 from_ref
@@ -1388,7 +1388,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Gamepad
 >
@@ -1426,7 +1426,7 @@ map
 |
 g
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -1539,7 +1539,7 @@ borrow_mut
 .
 push
 (
-JS
+Dom
 :
 :
 from_ref
@@ -1579,7 +1579,7 @@ self
 >
 Vec
 <
-Root
+DomRoot
 <
 Gamepad
 >
@@ -1729,7 +1729,7 @@ map
 |
 g
 |
-Root
+DomRoot
 :
 :
 from_ref

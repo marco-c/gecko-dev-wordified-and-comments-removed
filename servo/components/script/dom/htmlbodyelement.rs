@@ -71,12 +71,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-LayoutJS
-Root
+LayoutDom
+DomRoot
 }
 ;
 use
@@ -286,7 +286,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLBodyElement
 >
@@ -691,7 +691,7 @@ ServoUrl
 impl
 HTMLBodyElementLayoutHelpers
 for
-LayoutJS
+LayoutDom
 <
 HTMLBodyElement
 >

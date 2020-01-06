@@ -77,7 +77,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -322,35 +322,6 @@ dom
 bindings
 :
 :
-js
-:
-:
-{
-JS
-LayoutJS
-MutNullableJS
-Root
-}
-;
-use
-dom
-:
-:
-bindings
-:
-:
-js
-:
-:
-RootedReference
-;
-use
-dom
-:
-:
-bindings
-:
-:
 num
 :
 :
@@ -384,6 +355,24 @@ reflector
 {
 DomObject
 reflect_dom_object
+}
+;
+use
+dom
+:
+:
+bindings
+:
+:
+root
+:
+:
+{
+Dom
+DomRoot
+LayoutDom
+MutNullableDom
+RootedReference
 }
 ;
 use
@@ -1692,7 +1681,7 @@ Stylesheet
 >
 owner
 :
-JS
+Dom
 <
 Element
 >
@@ -1838,13 +1827,13 @@ node
 Node
 window
 :
-JS
+Dom
 <
 Window
 >
 implementation
 :
-MutNullableJS
+MutNullableDom
 <
 DOMImplementation
 >
@@ -1877,7 +1866,7 @@ DocumentActivity
 >
 url
 :
-DOMRefCell
+DomRefCell
 <
 ServoUrl
 >
@@ -1899,14 +1888,14 @@ QuirksMode
 >
 id_map
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
 Atom
 Vec
 <
-JS
+Dom
 <
 Element
 >
@@ -1915,12 +1904,12 @@ Element
 >
 tag_map
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
 LocalName
-JS
+Dom
 <
 HTMLCollection
 >
@@ -1928,12 +1917,12 @@ HTMLCollection
 >
 tagns_map
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
 QualName
-JS
+Dom
 <
 HTMLCollection
 >
@@ -1941,7 +1930,7 @@ HTMLCollection
 >
 classes_map
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
@@ -1949,7 +1938,7 @@ Vec
 <
 Atom
 >
-JS
+Dom
 <
 HTMLCollection
 >
@@ -1957,43 +1946,43 @@ HTMLCollection
 >
 images
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLCollection
 >
 embeds
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLCollection
 >
 links
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLCollection
 >
 forms
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLCollection
 >
 scripts
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLCollection
 >
 anchors
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLCollection
 >
 applets
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLCollection
 >
@@ -2002,7 +1991,7 @@ style_shared_lock
 StyleSharedRwLock
 stylesheets
 :
-DOMRefCell
+DomRefCell
 <
 StylesheetSet
 <
@@ -2011,7 +2000,7 @@ StyleSheetInDocument
 >
 stylesheet_list
 :
-MutNullableJS
+MutNullableDom
 <
 StyleSheetList
 >
@@ -2029,25 +2018,25 @@ bool
 >
 possibly_focused
 :
-MutNullableJS
+MutNullableDom
 <
 Element
 >
 focused
 :
-MutNullableJS
+MutNullableDom
 <
 Element
 >
 current_script
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLScriptElement
 >
 pending_parsing_blocking_script
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -2068,11 +2057,11 @@ asap_in_order_scripts_list
 PendingInOrderScriptVec
 asap_scripts_set
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
-JS
+Dom
 <
 HTMLScriptElement
 >
@@ -2089,7 +2078,7 @@ u32
 >
 animation_frame_list
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -2110,13 +2099,13 @@ bool
 >
 loader
 :
-DOMRefCell
+DomRefCell
 <
 DocumentLoader
 >
 current_parser
 :
-MutNullableJS
+MutNullableDom
 <
 ServoParser
 >
@@ -2131,23 +2120,23 @@ u64
 >
 base_element
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLBaseElement
 >
 appropriate_template_contents_owner_document
 :
-MutNullableJS
+MutNullableDom
 <
 Document
 >
 pending_restyles
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
-JS
+Dom
 <
 Element
 >
@@ -2162,11 +2151,11 @@ bool
 >
 active_touch_points
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
-JS
+Dom
 <
 Touch
 >
@@ -2246,7 +2235,7 @@ String
 >
 target_element
 :
-MutNullableJS
+MutNullableDom
 <
 Element
 >
@@ -2262,7 +2251,7 @@ std
 ]
 last_click_info
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -2295,20 +2284,20 @@ u32
 >
 fullscreen_element
 :
-MutNullableJS
+MutNullableDom
 <
 Element
 >
 form_id_listener_map
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
 Atom
 HashSet
 <
-JS
+Dom
 <
 Element
 >
@@ -2771,7 +2760,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 WindowProxy
 >
@@ -3253,7 +3242,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLBaseElement
 >
@@ -3295,7 +3284,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -4067,7 +4056,7 @@ set
 .
 insert
 (
-JS
+Dom
 :
 :
 from_ref
@@ -4142,7 +4131,7 @@ get_mut
 remove
 (
 &
-JS
+Dom
 :
 :
 from_ref
@@ -4190,7 +4179,7 @@ str
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -4470,7 +4459,7 @@ str
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -4561,7 +4550,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -4581,7 +4570,7 @@ node
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -4726,7 +4715,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -5264,7 +5253,7 @@ el
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -5289,7 +5278,7 @@ parent
 .
 and_then
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -6092,7 +6081,7 @@ el
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -6117,7 +6106,7 @@ parent
 .
 and_then
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -6665,7 +6654,7 @@ f32
 prev_mouse_over_target
 :
 &
-MutNullableJS
+MutNullableDom
 <
 Element
 >
@@ -6742,7 +6731,7 @@ inclusive_ancestors
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -7015,7 +7004,7 @@ inclusive_ancestors
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -7092,7 +7081,7 @@ inclusive_ancestors
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -7326,7 +7315,7 @@ el
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -7351,7 +7340,7 @@ parent
 .
 and_then
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -7507,7 +7496,7 @@ Forwarded
 let
 target
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -7645,7 +7634,7 @@ borrow_mut
 .
 push
 (
-JS
+Dom
 :
 :
 from_ref
@@ -7707,7 +7696,7 @@ t
 *
 t
 =
-JS
+Dom
 :
 :
 from_ref
@@ -8683,7 +8672,7 @@ NodeOrString
 >
 Fallible
 <
-Root
+DomRoot
 <
 Node
 >
@@ -8731,7 +8720,7 @@ string
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -8751,7 +8740,7 @@ else
 let
 fragment
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -8809,7 +8798,7 @@ string
 let
 node
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -8872,7 +8861,7 @@ GetBody
 .
 and_then
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -8949,7 +8938,7 @@ GetBody
 .
 and_then
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -10567,7 +10556,7 @@ borrow_mut
 .
 push
 (
-JS
+Dom
 :
 :
 from_ref
@@ -11175,7 +11164,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 ServoParser
 >
@@ -11203,7 +11192,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 HTMLIFrameElement
 >
@@ -11226,7 +11215,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -11251,7 +11240,7 @@ BrowsingContextId
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLIFrameElement
 >
@@ -11295,7 +11284,7 @@ TopLevelBrowsingContextId
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLIFrameElement
 >
@@ -11908,7 +11897,7 @@ self
 Vec
 <
 (
-LayoutJS
+LayoutDom
 <
 Element
 >
@@ -11966,7 +11955,7 @@ unsafe_code
 impl
 LayoutDocumentHelpers
 for
-LayoutJS
+LayoutDom
 <
 Document
 >
@@ -12020,7 +12009,7 @@ self
 Vec
 <
 (
-LayoutJS
+LayoutDom
 <
 Element
 >
@@ -12609,7 +12598,7 @@ new_document_node
 )
 window
 :
-JS
+Dom
 :
 :
 from_ref
@@ -12686,7 +12675,7 @@ last_modified
 last_modified
 url
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -12734,7 +12723,7 @@ activity
 )
 id_map
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -12748,7 +12737,7 @@ new
 )
 tag_map
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -12762,7 +12751,7 @@ new
 )
 tagns_map
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -12776,7 +12765,7 @@ new
 )
 classes_map
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -12950,7 +12939,7 @@ clone
 }
 stylesheets
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -12964,7 +12953,7 @@ new
 )
 stylesheet_list
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -13074,7 +13063,7 @@ new
 )
 animation_frame_list
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -13095,7 +13084,7 @@ false
 )
 loader
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -13137,7 +13126,7 @@ default
 )
 pending_restyles
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -13160,7 +13149,7 @@ false
 )
 active_touch_points
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -13311,7 +13300,7 @@ referrer_policy
 )
 target_element
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -13320,7 +13309,7 @@ None
 )
 last_click_info
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -13355,7 +13344,7 @@ new
 )
 fullscreen_element
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -13385,7 +13374,7 @@ Window
 >
 Fallible
 <
-Root
+DomRoot
 <
 Document
 >
@@ -13518,7 +13507,7 @@ ReferrerPolicy
 )
 -
 >
-Root
+DomRoot
 <
 Document
 >
@@ -13603,7 +13592,7 @@ F
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -13694,7 +13683,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLHtmlElement
 >
@@ -13708,7 +13697,7 @@ GetDocumentElement
 .
 and_then
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -14140,7 +14129,7 @@ clone
 )
 owner
 :
-JS
+Dom
 :
 :
 from_ref
@@ -14399,7 +14388,7 @@ StyleSheetInDocument
 sheet
 owner
 :
-JS
+Dom
 :
 :
 from_ref
@@ -14512,7 +14501,7 @@ usize
 >
 Option
 <
-Root
+DomRoot
 <
 CSSStyleSheet
 >
@@ -14601,7 +14590,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Document
 >
@@ -14742,7 +14731,7 @@ Atom
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -14768,7 +14757,7 @@ map
 ref
 elements
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -14827,7 +14816,7 @@ m
 .
 entry
 (
-JS
+Dom
 :
 :
 from_ref
@@ -16488,7 +16477,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 StyleSheetList
 >
@@ -16510,7 +16499,7 @@ new
 self
 .
 window
-JS
+Dom
 :
 :
 from_ref
@@ -16549,7 +16538,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMImplementation
 >
@@ -16652,7 +16641,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -16713,7 +16702,7 @@ body
 >
 Some
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -17830,7 +17819,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 DocumentType
 >
@@ -17853,7 +17842,7 @@ children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -17893,7 +17882,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -17949,7 +17938,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -17991,7 +17980,7 @@ entry
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -18033,7 +18022,7 @@ entry
 .
 insert
 (
-JS
+Dom
 :
 :
 from_ref
@@ -18085,7 +18074,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -18146,7 +18135,7 @@ entry
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -18188,7 +18177,7 @@ entry
 .
 insert
 (
-JS
+Dom
 :
 :
 from_ref
@@ -18234,7 +18223,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -18289,7 +18278,7 @@ entry
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -18331,7 +18320,7 @@ entry
 .
 insert
 (
-JS
+Dom
 :
 :
 from_ref
@@ -18379,7 +18368,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -18437,7 +18426,7 @@ ElementCreationOptions
 >
 Fallible
 <
-Root
+DomRoot
 <
 Element
 >
@@ -18634,7 +18623,7 @@ ElementCreationOptions
 >
 Fallible
 <
-Root
+DomRoot
 <
 Element
 >
@@ -18751,7 +18740,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -18894,7 +18883,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -18990,7 +18979,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DocumentFragment
 >
@@ -19034,7 +19023,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 Text
 >
@@ -19079,7 +19068,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 Comment
 >
@@ -19129,7 +19118,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 ProcessingInstruction
 >
@@ -19241,7 +19230,7 @@ bool
 >
 Fallible
 <
-Root
+DomRoot
 <
 Node
 >
@@ -19348,7 +19337,7 @@ Node
 >
 Fallible
 <
-Root
+DomRoot
 <
 Node
 >
@@ -19402,7 +19391,7 @@ Step
 .
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -19445,7 +19434,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 Event
 >
@@ -19469,7 +19458,7 @@ beforeunloadevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19493,7 +19482,7 @@ closeevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19520,7 +19509,7 @@ customevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19547,7 +19536,7 @@ errorevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19608,7 +19597,7 @@ focusevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19632,7 +19621,7 @@ hashchangeevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19656,7 +19645,7 @@ keyboardevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19680,7 +19669,7 @@ messageevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19711,7 +19700,7 @@ mouseevents
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19735,7 +19724,7 @@ pagetransitionevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19759,7 +19748,7 @@ popstateevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19783,7 +19772,7 @@ progressevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19811,7 +19800,7 @@ storageevent
 {
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19842,7 +19831,7 @@ touchevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19912,7 +19901,7 @@ uievents
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -19936,7 +19925,7 @@ webglcontextevent
 >
 Ok
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -20095,7 +20084,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Range
 >
@@ -20156,7 +20145,7 @@ NodeFilter
 )
 -
 >
-Root
+DomRoot
 <
 NodeIterator
 >
@@ -20237,7 +20226,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 Touch
 >
@@ -20343,7 +20332,7 @@ Touch
 )
 -
 >
-Root
+DomRoot
 <
 TouchList
 >
@@ -20405,7 +20394,7 @@ NodeFilter
 )
 -
 >
-Root
+DomRoot
 <
 TreeWalker
 >
@@ -20559,7 +20548,7 @@ title
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -20821,7 +20810,7 @@ elem
 )
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -21135,7 +21124,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLHeadElement
 >
@@ -21169,7 +21158,7 @@ children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -21212,7 +21201,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLScriptElement
 >
@@ -21258,7 +21247,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLElement
 >
@@ -21358,7 +21347,7 @@ map
 |
 node
 |
-Root
+DomRoot
 :
 :
 downcast
@@ -21721,7 +21710,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -21854,7 +21843,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -21923,7 +21912,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -21992,7 +21981,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -22033,7 +22022,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -22102,7 +22091,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -22171,7 +22160,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -22240,7 +22229,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -22309,7 +22298,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -22393,7 +22382,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Location
 >
@@ -22450,7 +22439,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -22501,7 +22490,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -22556,7 +22545,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -22579,7 +22568,7 @@ rev_children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -22779,7 +22768,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -22840,7 +22829,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 NodeList
 >
@@ -22939,7 +22928,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Window
 >
@@ -22952,7 +22941,7 @@ has_browsing_context
 {
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -24464,7 +24453,7 @@ f64
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -24669,7 +24658,7 @@ unwrap
 ;
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -24739,7 +24728,7 @@ f64
 >
 Vec
 <
-Root
+DomRoot
 <
 Element
 >
@@ -24882,7 +24871,7 @@ elements
 :
 Vec
 <
-Root
+DomRoot
 <
 Element
 >
@@ -24921,7 +24910,7 @@ untrusted_node_address
 )
 }
 ;
-Root
+DomRoot
 :
 :
 downcast
@@ -25024,7 +25013,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 Document
 >
@@ -25090,7 +25079,7 @@ Step
 return
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -25226,7 +25215,7 @@ Step
 return
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -25943,7 +25932,7 @@ Step
 .
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -26078,7 +26067,7 @@ can_write
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -26404,7 +26393,7 @@ is_script_created
 )
 =
 >
-Root
+DomRoot
 :
 :
 from_ref
@@ -26639,7 +26628,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -27378,7 +27367,7 @@ PendingInOrderScriptVec
 {
 scripts
 :
-DOMRefCell
+DomRefCell
 <
 VecDeque
 <
@@ -27515,7 +27504,7 @@ self
 Option
 <
 (
-Root
+DomRoot
 <
 HTMLScriptElement
 >
@@ -27613,7 +27602,7 @@ PendingScript
 {
 element
 :
-JS
+Dom
 <
 HTMLScriptElement
 >
@@ -27643,7 +27632,7 @@ Self
 {
 element
 :
-JS
+Dom
 :
 :
 from_ref
@@ -27677,7 +27666,7 @@ Self
 {
 element
 :
-JS
+Dom
 :
 :
 from_ref
@@ -27732,7 +27721,7 @@ self
 Option
 <
 (
-Root
+DomRoot
 <
 HTMLScriptElement
 >
@@ -27754,7 +27743,7 @@ map
 result
 |
 (
-Root
+DomRoot
 :
 :
 from_ref

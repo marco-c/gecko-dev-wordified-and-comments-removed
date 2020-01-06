@@ -65,12 +65,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-LayoutJS
-Root
+DomRoot
+LayoutDom
 }
 ;
 use
@@ -253,7 +253,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLFontElement
 >
@@ -753,7 +753,7 @@ u32
 impl
 HTMLFontElementLayoutHelpers
 for
-LayoutJS
+LayoutDom
 <
 HTMLFontElement
 >

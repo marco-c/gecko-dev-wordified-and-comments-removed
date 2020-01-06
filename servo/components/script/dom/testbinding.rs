@@ -301,18 +301,6 @@ dom
 bindings
 :
 :
-js
-:
-:
-Root
-;
-use
-dom
-:
-:
-bindings
-:
-:
 mozmap
 :
 :
@@ -357,6 +345,18 @@ DomObject
 Reflector
 reflect_dom_object
 }
+;
+use
+dom
+:
+:
+bindings
+:
+:
+root
+:
+:
+DomRoot
 ;
 use
 dom
@@ -600,7 +600,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 TestBinding
 >
@@ -634,7 +634,7 @@ GlobalScope
 >
 Fallible
 <
-Root
+DomRoot
 <
 TestBinding
 >
@@ -677,7 +677,7 @@ f64
 >
 Fallible
 <
-Root
+DomRoot
 <
 TestBinding
 >
@@ -717,7 +717,7 @@ f64
 >
 Fallible
 <
-Root
+DomRoot
 <
 TestBinding
 >
@@ -1192,7 +1192,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Blob
 >
@@ -2314,12 +2314,12 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 TestBinding
 >
 {
-Root
+DomRoot
 :
 :
 from_ref
@@ -2431,7 +2431,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Blob
 >
@@ -2494,7 +2494,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 URL
 >
@@ -3108,7 +3108,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Blob
 >
@@ -3472,7 +3472,7 @@ self
 >
 Vec
 <
-Root
+DomRoot
 <
 Blob
 >
@@ -3874,7 +3874,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Blob
 >
@@ -4967,7 +4967,7 @@ _
 :
 Vec
 <
-Root
+DomRoot
 <
 Blob
 >
@@ -7797,7 +7797,7 @@ _
 :
 MozMap
 <
-Root
+DomRoot
 <
 TestBinding
 >
@@ -7816,7 +7816,7 @@ MozMap
 <
 Option
 <
-Root
+DomRoot
 <
 TestBinding
 >
@@ -7836,7 +7836,7 @@ Option
 <
 MozMap
 <
-Root
+DomRoot
 <
 TestBinding
 >
@@ -7858,7 +7858,7 @@ MozMap
 <
 Option
 <
-Root
+DomRoot
 <
 TestBinding
 >
@@ -7933,7 +7933,7 @@ Option
 <
 MozMap
 <
-Root
+DomRoot
 <
 TestBinding
 >
@@ -8923,7 +8923,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 GlobalScope
 >
@@ -8943,7 +8943,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 GlobalScope
 >

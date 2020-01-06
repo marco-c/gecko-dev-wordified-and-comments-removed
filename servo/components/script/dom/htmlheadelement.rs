@@ -50,11 +50,11 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-Root
+DomRoot
 RootedReference
 }
 ;
@@ -220,7 +220,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLHeadElement
 >
@@ -329,7 +329,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast

@@ -56,14 +56,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-MutNullableJS
-Root
-RootedReference
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -73,12 +71,14 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
+MutNullableDom
+RootedReference
 }
 ;
 use
@@ -137,7 +137,7 @@ Simple
 (
 Vec
 <
-JS
+Dom
 <
 Node
 >
@@ -221,7 +221,7 @@ NodeListType
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -260,7 +260,7 @@ T
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -271,7 +271,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -295,7 +295,7 @@ map
 |
 r
 |
-JS
+Dom
 :
 :
 from_ref
@@ -330,7 +330,7 @@ Node
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -357,7 +357,7 @@ map
 |
 r
 |
-JS
+Dom
 :
 :
 from_ref
@@ -388,7 +388,7 @@ Node
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -425,7 +425,7 @@ Window
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -556,7 +556,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -592,7 +592,7 @@ map
 |
 node
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -655,7 +655,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -732,7 +732,7 @@ self
 &
 Vec
 <
-JS
+Dom
 <
 Node
 >
@@ -794,7 +794,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -852,7 +852,7 @@ ChildrenList
 {
 node
 :
-JS
+Dom
 <
 Node
 >
@@ -870,7 +870,7 @@ mozjs
 ]
 last_visited
 :
-MutNullableJS
+MutNullableDom
 <
 Node
 >
@@ -910,7 +910,7 @@ ChildrenList
 {
 node
 :
-JS
+Dom
 :
 :
 from_ref
@@ -919,7 +919,7 @@ node
 )
 last_visited
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -974,7 +974,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >

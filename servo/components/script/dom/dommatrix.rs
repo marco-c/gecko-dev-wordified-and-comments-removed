@@ -69,10 +69,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -81,10 +81,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -162,7 +162,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -232,7 +232,7 @@ GlobalScope
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -287,7 +287,7 @@ f64
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -341,7 +341,7 @@ DOMMatrixInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -389,7 +389,7 @@ DOMMatrixReadOnly
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -1580,7 +1580,7 @@ DOMMatrixInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -1606,7 +1606,7 @@ and
 (
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1631,7 +1631,7 @@ DOMMatrixInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -1657,7 +1657,7 @@ and
 (
 Ok
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1685,7 +1685,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -1708,7 +1708,7 @@ ty
 tz
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -1746,7 +1746,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -1772,7 +1772,7 @@ originY
 originZ
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -1801,7 +1801,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -1825,7 +1825,7 @@ originY
 originZ
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -1857,7 +1857,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -1880,7 +1880,7 @@ rotY
 rotZ
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -1903,7 +1903,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -1925,7 +1925,7 @@ x
 y
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -1954,7 +1954,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -1978,7 +1978,7 @@ z
 angle
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -1998,7 +1998,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -2019,7 +2019,7 @@ skew_x_self
 sx
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -2039,7 +2039,7 @@ f64
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -2060,7 +2060,7 @@ skew_y_self
 sy
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref
@@ -2077,7 +2077,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMMatrix
 >
@@ -2097,7 +2097,7 @@ invert_self
 (
 )
 ;
-Root
+DomRoot
 :
 :
 from_ref

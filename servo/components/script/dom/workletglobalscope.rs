@@ -23,10 +23,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -448,7 +448,7 @@ debug
 (
 "
 Evaluating
-JS
+Dom
 .
 "
 )
@@ -826,7 +826,7 @@ WorkletGlobalScopeInit
 )
 -
 >
-Root
+DomRoot
 <
 WorkletGlobalScope
 >
@@ -841,7 +841,7 @@ WorkletGlobalScopeType
 Test
 =
 >
-Root
+DomRoot
 :
 :
 upcast
@@ -864,7 +864,7 @@ WorkletGlobalScopeType
 Paint
 =
 >
-Root
+DomRoot
 :
 :
 upcast

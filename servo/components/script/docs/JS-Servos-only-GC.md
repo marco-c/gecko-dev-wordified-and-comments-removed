@@ -1366,7 +1366,7 @@ node
 Node
 window
 :
-JS
+Dom
 <
 Window
 >
@@ -1572,19 +1572,19 @@ for
 traced
 pointers
 :
-JS
+Dom
 <
 T
 >
 ]
 [
-js
+dom
 ]
 (
 for
 example
 the
-JS
+Dom
 <
 Window
 >
@@ -1596,7 +1596,7 @@ implementation
 of
 trace
 for
-JS
+Dom
 <
 T
 >
@@ -1618,7 +1618,7 @@ trace
 hooks
 :
 [
-js
+dom
 ]
 :
 http
@@ -1637,11 +1637,11 @@ dom
 /
 bindings
 /
-js
+root
 /
 struct
 .
-JS
+Dom
 .
 html
 rust
@@ -1759,7 +1759,7 @@ DomObject
 >
 JSTraceable
 for
-JS
+Dom
 <
 T
 >
@@ -2181,7 +2181,7 @@ we
 have
 a
 [
-Root
+DomRoot
 <
 T
 >
@@ -2193,7 +2193,7 @@ struct
 .
 When
 the
-Root
+DomRoot
 <
 T
 >
@@ -2245,7 +2245,7 @@ C
 +
 +
 .
-Root
+DomRoot
 <
 T
 >
@@ -2293,7 +2293,7 @@ to
 ;
 the
 [
-Root
+DomRoot
 :
 :
 from_ref
@@ -2309,7 +2309,7 @@ allows
 creating
 a
 new
-Root
+DomRoot
 <
 T
 >
@@ -2338,11 +2338,11 @@ dom
 /
 bindings
 /
-js
+root
 /
 struct
 .
-Root
+DomRoot
 .
 html
 [
@@ -2407,11 +2407,11 @@ dom
 /
 bindings
 /
-js
+root
 /
 struct
 .
-Root
+DomRoot
 .
 html
 #
@@ -2426,7 +2426,7 @@ a
 reference
 from
 the
-Root
+DomRoot
 <
 T
 >
@@ -2519,7 +2519,7 @@ a
 reference
 to
 a
-Root
+DomRoot
 which
 is
 valid
@@ -2569,7 +2569,7 @@ type
 T
 through
 a
-Root
+DomRoot
 <
 T
 >
@@ -2609,7 +2609,7 @@ reference
 is
 from
 the
-JS
+Dom
 <
 T
 >
@@ -2625,7 +2625,7 @@ a
 reference
 to
 a
-JS
+Dom
 <
 T
 >
@@ -2651,7 +2651,7 @@ is
 aware
 of
 the
-JS
+Dom
 <
 T
 >
@@ -2675,7 +2675,7 @@ the
 Deref
 trait
 on
-JS
+Dom
 <
 T
 >
@@ -2898,14 +2898,14 @@ check
 out
 the
 [
-js
+root
 module
 '
 s
 documentation
 ]
 [
-js
+root
 -
 docs
 ]
@@ -2923,7 +2923,7 @@ this
 document
 .
 [
-js
+root
 -
 docs
 ]
@@ -2944,7 +2944,7 @@ dom
 /
 bindings
 /
-js
+root
 /
 index
 .
@@ -3015,7 +3015,7 @@ objects
 The
 implementation
 of
-Root
+DomRoot
 <
 T
 >
@@ -3056,7 +3056,7 @@ an
 unrooted
 pointer
 a
-JS
+Dom
 <
 T
 >
@@ -3095,7 +3095,7 @@ t
 know
 about
 that
-JS
+Dom
 <
 T
 >
@@ -3120,7 +3120,7 @@ to
 make
 sure
 that
-JS
+Dom
 <
 T
 >
@@ -3279,7 +3279,7 @@ lint
 which
 effectively
 forbids
-JS
+Dom
 <
 T
 >
@@ -3324,7 +3324,7 @@ s
 okay
 to
 use
-JS
+Dom
 <
 T
 >
@@ -3336,7 +3336,7 @@ and
 the
 implementation
 of
-JS
+Dom
 <
 T
 >

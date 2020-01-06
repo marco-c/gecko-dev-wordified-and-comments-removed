@@ -32,10 +32,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -44,10 +44,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -120,7 +120,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 FileReaderSync
 >
@@ -154,7 +154,7 @@ GlobalScope
 >
 Fallible
 <
-Root
+DomRoot
 <
 FileReaderSync
 >

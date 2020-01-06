@@ -24,7 +24,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -68,10 +68,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -80,10 +80,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -216,7 +216,7 @@ cumbersome
 ]
 image_info_array
 :
-DOMRefCell
+DomRefCell
 <
 [
 ImageInfo
@@ -349,7 +349,7 @@ None
 )
 image_info_array
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -388,7 +388,7 @@ WebGLMsgSender
 >
 Option
 <
-Root
+DomRoot
 <
 WebGLTexture
 >
@@ -473,7 +473,7 @@ WebGLTextureId
 )
 -
 >
-Root
+DomRoot
 <
 WebGLTexture
 >

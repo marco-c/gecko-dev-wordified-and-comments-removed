@@ -183,10 +183,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -416,7 +416,7 @@ String
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >

@@ -8,7 +8,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -50,10 +50,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+Reflector
+reflect_dom_object
+}
 ;
 use
 dom
@@ -62,13 +65,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-Reflector
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -128,7 +128,7 @@ reflector_
 Reflector
 entries
 :
-DOMRefCell
+DomRefCell
 <
 PerformanceEntryList
 >
@@ -159,7 +159,7 @@ new
 )
 entries
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -189,7 +189,7 @@ PerformanceEntryList
 )
 -
 >
-Root
+DomRoot
 <
 PerformanceObserverEntryList
 >
@@ -232,7 +232,7 @@ self
 >
 Vec
 <
-Root
+DomRoot
 <
 PerformanceEntry
 >
@@ -265,7 +265,7 @@ DOMString
 >
 Vec
 <
-Root
+DomRoot
 <
 PerformanceEntry
 >
@@ -307,7 +307,7 @@ DOMString
 >
 Vec
 <
-Root
+DomRoot
 <
 PerformanceEntry
 >

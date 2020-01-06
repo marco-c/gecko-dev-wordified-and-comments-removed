@@ -77,12 +77,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-LayoutJS
-Root
+DomRoot
+LayoutDom
 RootedReference
 }
 ;
@@ -272,7 +272,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLTableSectionElement
 >
@@ -406,7 +406,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -465,7 +465,7 @@ i32
 >
 Fallible
 <
-Root
+DomRoot
 <
 HTMLElement
 >
@@ -626,7 +626,7 @@ unsafe_code
 impl
 HTMLTableSectionElementLayoutHelpers
 for
-LayoutJS
+LayoutDom
 <
 HTMLTableSectionElement
 >

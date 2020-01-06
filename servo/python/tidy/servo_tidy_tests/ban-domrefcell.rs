@@ -25,7 +25,7 @@ script
 test
 :
 :
-DOMRefCell
+Dom
 ;
 use
 script
@@ -34,7 +34,7 @@ script
 test
 :
 :
-JS
+DomRefCell
 ;
 use
 script
@@ -50,9 +50,9 @@ Foo
 {
 bar
 :
-DOMRefCell
+DomRefCell
 <
-JS
+Dom
 <
 Node
 >

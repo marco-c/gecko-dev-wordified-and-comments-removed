@@ -20,10 +20,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+DomObject
 ;
 use
 dom
@@ -32,10 +32,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-DomObject
+DomRoot
 ;
 use
 dom
@@ -764,7 +764,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 Element
 >
@@ -812,7 +812,7 @@ prefix
 document
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -856,7 +856,7 @@ arg
 +
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -984,7 +984,7 @@ CustomElementCreationMode
 )
 -
 >
-Root
+DomRoot
 <
 Element
 >
@@ -1055,7 +1055,7 @@ Asynchronous
 let
 result
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -1244,7 +1244,7 @@ true
 let
 element
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -1424,7 +1424,7 @@ ElementCreator
 )
 -
 >
-Root
+DomRoot
 <
 Element
 >
@@ -1472,7 +1472,7 @@ prefix
 document
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -1516,7 +1516,7 @@ arg
 +
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -3446,7 +3446,7 @@ CustomElementCreationMode
 )
 -
 >
-Root
+DomRoot
 <
 Element
 >

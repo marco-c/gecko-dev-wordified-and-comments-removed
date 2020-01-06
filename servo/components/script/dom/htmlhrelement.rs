@@ -44,12 +44,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-LayoutJS
-Root
+DomRoot
+LayoutDom
 }
 ;
 use
@@ -217,7 +217,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLHRElement
 >
@@ -468,7 +468,7 @@ LengthOrPercentageOrAuto
 impl
 HTMLHRLayoutHelpers
 for
-LayoutJS
+LayoutDom
 <
 HTMLHRElement
 >

@@ -35,7 +35,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 pub
 use
@@ -45,10 +45,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-JS
+Dom
 ;
 pub
 use

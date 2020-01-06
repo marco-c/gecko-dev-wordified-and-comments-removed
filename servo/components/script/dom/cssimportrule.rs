@@ -20,10 +20,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -32,10 +32,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -212,7 +212,7 @@ ImportRule
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >

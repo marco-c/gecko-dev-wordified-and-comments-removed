@@ -213,7 +213,7 @@ must_root
 ]
 pub
 struct
-JS
+Dom
 <
 T
 >
@@ -233,7 +233,7 @@ T
 >
 HeapSizeOf
 for
-JS
+Dom
 <
 T
 >
@@ -255,7 +255,7 @@ impl
 <
 T
 >
-JS
+Dom
 <
 T
 >
@@ -270,7 +270,7 @@ self
 )
 -
 >
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -290,7 +290,7 @@ is_layout
 )
 )
 ;
-LayoutJS
+LayoutDom
 {
 ptr
 :
@@ -310,7 +310,7 @@ T
 :
 DomObject
 >
-JS
+Dom
 <
 T
 >
@@ -333,7 +333,7 @@ T
 )
 -
 >
-JS
+Dom
 <
 T
 >
@@ -353,7 +353,7 @@ is_script
 )
 )
 ;
-JS
+Dom
 {
 ptr
 :
@@ -389,7 +389,7 @@ RootedReference
 root
 >
 for
-JS
+Dom
 <
 T
 >
@@ -429,7 +429,7 @@ DomObject
 >
 Deref
 for
-JS
+Dom
 <
 T
 >
@@ -488,7 +488,7 @@ DomObject
 >
 JSTraceable
 for
-JS
+Dom
 <
 T
 >
@@ -602,7 +602,7 @@ allow_unrooted_interior
 ]
 pub
 struct
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -622,7 +622,7 @@ T
 :
 Castable
 >
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -639,7 +639,7 @@ self
 )
 -
 >
-LayoutJS
+LayoutDom
 <
 U
 >
@@ -684,7 +684,7 @@ get
 (
 )
 ;
-LayoutJS
+LayoutDom
 {
 ptr
 :
@@ -718,7 +718,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 U
 >
@@ -784,7 +784,7 @@ get
 ;
 Some
 (
-LayoutJS
+LayoutDom
 {
 ptr
 :
@@ -815,7 +815,7 @@ T
 :
 DomObject
 >
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -879,7 +879,7 @@ T
 >
 Copy
 for
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -891,7 +891,7 @@ T
 >
 PartialEq
 for
-JS
+Dom
 <
 T
 >
@@ -904,7 +904,7 @@ self
 other
 :
 &
-JS
+Dom
 <
 T
 >
@@ -929,7 +929,7 @@ T
 >
 Eq
 for
-JS
+Dom
 <
 T
 >
@@ -941,7 +941,7 @@ T
 >
 PartialEq
 for
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -954,7 +954,7 @@ self
 other
 :
 &
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -979,7 +979,7 @@ T
 >
 Eq
 for
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -991,7 +991,7 @@ T
 >
 Hash
 for
-JS
+Dom
 <
 T
 >
@@ -1029,7 +1029,7 @@ T
 >
 Hash
 for
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -1067,7 +1067,7 @@ T
 >
 Clone
 for
-JS
+Dom
 <
 T
 >
@@ -1091,7 +1091,7 @@ self
 )
 -
 >
-JS
+Dom
 <
 T
 >
@@ -1111,7 +1111,7 @@ is_script
 )
 )
 ;
-JS
+Dom
 {
 ptr
 :
@@ -1131,7 +1131,7 @@ T
 >
 Clone
 for
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -1148,7 +1148,7 @@ self
 )
 -
 >
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -1168,7 +1168,7 @@ is_layout
 )
 )
 ;
-LayoutJS
+LayoutDom
 {
 ptr
 :
@@ -1183,7 +1183,7 @@ clone
 }
 }
 impl
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -1199,7 +1199,7 @@ TrustedNodeAddress
 )
 -
 >
-LayoutJS
+LayoutDom
 <
 Node
 >
@@ -1227,7 +1227,7 @@ addr
 =
 inner
 ;
-LayoutJS
+LayoutDom
 {
 ptr
 :
@@ -1258,7 +1258,7 @@ JSTraceable
 ]
 pub
 struct
-MutJS
+MutDom
 <
 T
 :
@@ -1269,7 +1269,7 @@ val
 :
 UnsafeCell
 <
-JS
+Dom
 <
 T
 >
@@ -1281,7 +1281,7 @@ T
 :
 DomObject
 >
-MutJS
+MutDom
 <
 T
 >
@@ -1297,7 +1297,7 @@ T
 )
 -
 >
-MutJS
+MutDom
 <
 T
 >
@@ -1317,7 +1317,7 @@ is_script
 )
 )
 ;
-MutJS
+MutDom
 {
 val
 :
@@ -1326,7 +1326,7 @@ UnsafeCell
 :
 new
 (
-JS
+Dom
 :
 :
 from_ref
@@ -1374,7 +1374,7 @@ get
 (
 )
 =
-JS
+Dom
 :
 :
 from_ref
@@ -1393,7 +1393,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 T
 >
@@ -1415,7 +1415,7 @@ is_script
 ;
 unsafe
 {
-Root
+DomRoot
 :
 :
 from_ref
@@ -1447,7 +1447,7 @@ DomObject
 >
 HeapSizeOf
 for
-MutJS
+MutDom
 <
 T
 >
@@ -1473,7 +1473,7 @@ DomObject
 >
 PartialEq
 for
-MutJS
+MutDom
 <
 T
 >
@@ -1528,7 +1528,7 @@ PartialEq
 T
 >
 for
-MutJS
+MutDom
 <
 T
 >
@@ -1578,7 +1578,7 @@ JSTraceable
 ]
 pub
 struct
-MutNullableJS
+MutNullableDom
 <
 T
 :
@@ -1591,7 +1591,7 @@ UnsafeCell
 <
 Option
 <
-JS
+Dom
 <
 T
 >
@@ -1604,7 +1604,7 @@ T
 :
 DomObject
 >
-MutNullableJS
+MutNullableDom
 <
 T
 >
@@ -1623,7 +1623,7 @@ T
 )
 -
 >
-MutNullableJS
+MutNullableDom
 <
 T
 >
@@ -1643,7 +1643,7 @@ is_script
 )
 )
 ;
-MutNullableJS
+MutNullableDom
 {
 ptr
 :
@@ -1656,7 +1656,7 @@ initial
 .
 map
 (
-JS
+Dom
 :
 :
 from_ref
@@ -1679,7 +1679,7 @@ F
 )
 -
 >
-Root
+DomRoot
 <
 T
 >
@@ -1691,7 +1691,7 @@ FnOnce
 )
 -
 >
-Root
+DomRoot
 <
 T
 >
@@ -1770,7 +1770,7 @@ self
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -1835,7 +1835,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 T
 >
@@ -1877,7 +1877,7 @@ map
 |
 o
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -1937,7 +1937,7 @@ map
 |
 p
 |
-JS
+Dom
 :
 :
 from_ref
@@ -1959,7 +1959,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 T
 >
@@ -1992,7 +1992,7 @@ DomObject
 >
 PartialEq
 for
-MutNullableJS
+MutNullableDom
 <
 T
 >
@@ -2053,7 +2053,7 @@ T
 >
 >
 for
-MutNullableJS
+MutNullableDom
 <
 T
 >
@@ -2092,7 +2092,7 @@ other
 .
 map
 (
-JS
+Dom
 :
 :
 from_ref
@@ -2108,7 +2108,7 @@ DomObject
 >
 Default
 for
-MutNullableJS
+MutNullableDom
 <
 T
 >
@@ -2126,7 +2126,7 @@ default
 )
 -
 >
-MutNullableJS
+MutNullableDom
 <
 T
 >
@@ -2146,7 +2146,7 @@ is_script
 )
 )
 ;
-MutNullableJS
+MutNullableDom
 {
 ptr
 :
@@ -2168,7 +2168,7 @@ DomObject
 >
 HeapSizeOf
 for
-MutNullableJS
+MutNullableDom
 <
 T
 >
@@ -2192,7 +2192,7 @@ must_root
 ]
 pub
 struct
-OnceCellJS
+DomOnceCell
 <
 T
 :
@@ -2203,7 +2203,7 @@ ptr
 :
 OnceCell
 <
-JS
+Dom
 <
 T
 >
@@ -2215,7 +2215,7 @@ T
 :
 DomObject
 >
-OnceCellJS
+DomOnceCell
 <
 T
 >
@@ -2252,7 +2252,7 @@ FnOnce
 )
 -
 >
-Root
+DomRoot
 <
 T
 >
@@ -2281,7 +2281,7 @@ init_once
 (
 |
 |
-JS
+Dom
 :
 :
 from_ref
@@ -2302,7 +2302,7 @@ DomObject
 >
 Default
 for
-OnceCellJS
+DomOnceCell
 <
 T
 >
@@ -2320,7 +2320,7 @@ default
 )
 -
 >
-OnceCellJS
+DomOnceCell
 <
 T
 >
@@ -2340,7 +2340,7 @@ is_script
 )
 )
 ;
-OnceCellJS
+DomOnceCell
 {
 ptr
 :
@@ -2361,7 +2361,7 @@ DomObject
 >
 HeapSizeOf
 for
-OnceCellJS
+DomOnceCell
 <
 T
 >
@@ -2395,7 +2395,7 @@ DomObject
 >
 JSTraceable
 for
-OnceCellJS
+DomOnceCell
 <
 T
 >
@@ -2444,7 +2444,7 @@ T
 :
 DomObject
 >
-LayoutJS
+LayoutDom
 <
 T
 >
@@ -2577,7 +2577,7 @@ root
 >
 for
 [
-JS
+Dom
 <
 T
 >
@@ -3127,7 +3127,7 @@ allow_unrooted_interior
 ]
 pub
 struct
-Root
+DomRoot
 <
 T
 :
@@ -3154,7 +3154,7 @@ T
 :
 Castable
 >
-Root
+DomRoot
 <
 T
 >
@@ -3168,14 +3168,14 @@ U
 (
 root
 :
-Root
+DomRoot
 <
 T
 >
 )
 -
 >
-Root
+DomRoot
 <
 U
 >
@@ -3210,7 +3210,7 @@ U
 (
 root
 :
-Root
+DomRoot
 <
 T
 >
@@ -3219,7 +3219,7 @@ T
 >
 Option
 <
-Root
+DomRoot
 <
 U
 >
@@ -3270,7 +3270,7 @@ T
 :
 DomObject
 >
-Root
+DomRoot
 <
 T
 >
@@ -3290,7 +3290,7 @@ T
 )
 -
 >
-Root
+DomRoot
 <
 T
 >
@@ -3360,7 +3360,7 @@ reflector
 )
 )
 }
-Root
+DomRoot
 {
 ptr
 :
@@ -3383,12 +3383,12 @@ T
 )
 -
 >
-Root
+DomRoot
 <
 T
 >
 {
-Root
+DomRoot
 :
 :
 new
@@ -3423,7 +3423,7 @@ RootedReference
 root
 >
 for
-Root
+DomRoot
 <
 T
 >
@@ -3462,7 +3462,7 @@ DomObject
 >
 Deref
 for
-Root
+DomRoot
 <
 T
 >
@@ -3522,7 +3522,7 @@ HeapSizeOf
 >
 HeapSizeOf
 for
-Root
+DomRoot
 <
 T
 >
@@ -3556,7 +3556,7 @@ DomObject
 >
 PartialEq
 for
-Root
+DomRoot
 <
 T
 >
@@ -3593,7 +3593,7 @@ DomObject
 >
 Clone
 for
-Root
+DomRoot
 <
 T
 >
@@ -3606,12 +3606,12 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 T
 >
 {
-Root
+DomRoot
 :
 :
 from_ref
@@ -3630,7 +3630,7 @@ DomObject
 >
 Drop
 for
-Root
+DomRoot
 <
 T
 >
@@ -3673,7 +3673,7 @@ DomObject
 >
 JSTraceable
 for
-Root
+DomRoot
 <
 T
 >

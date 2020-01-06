@@ -17,7 +17,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -143,12 +143,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+DomObject
+reflect_dom_object
 }
 ;
 use
@@ -158,12 +158,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-DomObject
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -264,11 +264,11 @@ status
 PermissionStatus
 devices
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
-JS
+Dom
 <
 BluetoothDevice
 >
@@ -317,7 +317,7 @@ get_query
 )
 devices
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -361,7 +361,7 @@ PermissionStatus
 )
 -
 >
-Root
+DomRoot
 <
 BluetoothPermissionResult
 >
@@ -392,7 +392,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Bluetooth
 >
@@ -518,7 +518,7 @@ devices
 :
 Vec
 <
-JS
+Dom
 <
 BluetoothDevice
 >
@@ -575,7 +575,7 @@ self
 >
 Vec
 <
-Root
+DomRoot
 <
 BluetoothDevice
 >
@@ -586,7 +586,7 @@ device_vec
 :
 Vec
 <
-Root
+DomRoot
 <
 BluetoothDevice
 >
@@ -609,7 +609,7 @@ map
 |
 d
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -781,7 +781,7 @@ set_devices
 vec
 !
 (
-JS
+Dom
 :
 :
 from_ref
@@ -880,7 +880,7 @@ id
 clone
 (
 )
-JS
+Dom
 :
 :
 from_ref
@@ -961,7 +961,7 @@ set_devices
 vec
 !
 (
-JS
+Dom
 :
 :
 from_ref

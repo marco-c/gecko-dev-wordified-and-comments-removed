@@ -32,10 +32,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -166,7 +166,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLMapElement
 >
@@ -204,7 +204,7 @@ self
 >
 Vec
 <
-Root
+DomRoot
 <
 HTMLAreaElement
 >
@@ -227,7 +227,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast

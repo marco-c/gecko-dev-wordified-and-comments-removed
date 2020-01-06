@@ -8,7 +8,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -104,18 +104,6 @@ dom
 bindings
 :
 :
-js
-:
-:
-Root
-;
-use
-dom
-:
-:
-bindings
-:
-:
 reflector
 :
 :
@@ -124,6 +112,18 @@ DomObject
 Reflector
 reflect_dom_object
 }
+;
+use
+dom
+:
+:
+bindings
+:
+:
+root
+:
+:
+DomRoot
 ;
 use
 dom
@@ -241,7 +241,7 @@ reflector_
 Reflector
 data
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
@@ -380,7 +380,7 @@ new
 )
 data
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -407,7 +407,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 FormData
 >
@@ -446,7 +446,7 @@ HTMLFormElement
 >
 Fallible
 <
-Root
+DomRoot
 <
 FormData
 >
@@ -717,7 +717,7 @@ FormDatumValue
 :
 File
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -963,7 +963,7 @@ FileOrUSVString
 :
 File
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1098,7 +1098,7 @@ FileOrUSVString
 :
 File
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1380,7 +1380,7 @@ FormDatumValue
 :
 File
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -1450,7 +1450,7 @@ USVString
 )
 -
 >
-Root
+DomRoot
 <
 File
 >
@@ -1778,7 +1778,7 @@ FileOrUSVString
 :
 File
 (
-Root
+DomRoot
 :
 :
 from_ref

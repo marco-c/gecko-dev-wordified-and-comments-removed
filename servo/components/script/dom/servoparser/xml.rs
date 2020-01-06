@@ -13,12 +13,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-JS
-Root
+Dom
+DomRoot
 }
 ;
 use
@@ -148,7 +148,7 @@ XmlTokenizer
 <
 XmlTreeBuilder
 <
-JS
+Dom
 <
 Node
 >
@@ -185,7 +185,7 @@ base_url
 url
 document
 :
-JS
+Dom
 :
 :
 from_ref
@@ -265,7 +265,7 @@ Result
 <
 (
 )
-Root
+DomRoot
 <
 HTMLScriptElement
 >
@@ -432,7 +432,7 @@ XmlTokenizer
 <
 XmlTreeBuilder
 <
-JS
+Dom
 <
 Node
 >
@@ -477,7 +477,7 @@ Tracer
 type
 Handle
 =
-JS
+Dom
 <
 Node
 >
@@ -497,7 +497,7 @@ self
 node
 :
 &
-JS
+Dom
 <
 Node
 >

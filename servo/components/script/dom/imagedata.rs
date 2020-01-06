@@ -62,10 +62,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+Reflector
+reflect_dom_object
+}
 ;
 use
 dom
@@ -74,13 +77,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-Reflector
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -226,7 +226,7 @@ u8
 >
 Fallible
 <
-Root
+DomRoot
 <
 ImageData
 >
@@ -399,7 +399,7 @@ JSObject
 >
 Fallible
 <
-Root
+DomRoot
 <
 ImageData
 >
@@ -808,7 +808,7 @@ u32
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >
@@ -878,7 +878,7 @@ u32
 >
 Fallible
 <
-Root
+DomRoot
 <
 Self
 >

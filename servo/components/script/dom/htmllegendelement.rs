@@ -68,12 +68,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -173,7 +173,7 @@ htmlelement
 HTMLElement
 form_owner
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLFormElement
 >
@@ -252,7 +252,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLLegendElement
 >
@@ -475,7 +475,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -552,7 +552,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >

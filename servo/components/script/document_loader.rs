@@ -5,10 +5,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-JS
+Dom
 ;
 use
 dom
@@ -196,7 +196,7 @@ LoadBlocker
 {
 doc
 :
-JS
+Dom
 <
 Document
 >
@@ -245,7 +245,7 @@ LoadBlocker
 {
 doc
 :
-JS
+Dom
 :
 :
 from_ref

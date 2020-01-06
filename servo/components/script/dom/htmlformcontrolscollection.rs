@@ -71,10 +71,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+DomObject
+reflect_dom_object
+}
 ;
 use
 dom
@@ -83,13 +86,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-DomObject
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -237,7 +237,7 @@ static
 )
 -
 >
-Root
+DomRoot
 <
 HTMLFormControlsCollection
 >
@@ -484,7 +484,7 @@ iter
 :
 once
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -509,7 +509,7 @@ peekable
 .
 map
 (
-Root
+DomRoot
 :
 :
 upcast
@@ -615,7 +615,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >

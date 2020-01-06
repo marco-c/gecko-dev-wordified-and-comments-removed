@@ -21,13 +21,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-JS
-Root
-}
+DomObject
 ;
 use
 dom
@@ -36,10 +33,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-DomObject
+{
+Dom
+DomRoot
+}
 ;
 use
 dom
@@ -258,7 +258,7 @@ incumbent
 :
 Option
 <
-JS
+Dom
 <
 GlobalScope
 >
@@ -342,7 +342,7 @@ map
 |
 i
 |
-JS
+Dom
 :
 :
 from_ref
@@ -624,7 +624,7 @@ as_ref
 .
 map
 (
-JS
+Dom
 :
 :
 deref
@@ -1079,7 +1079,7 @@ CallSetup
 {
 exception_global
 :
-Root
+DomRoot
 <
 GlobalScope
 >

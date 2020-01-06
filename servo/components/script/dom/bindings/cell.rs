@@ -32,7 +32,7 @@ PartialEq
 ]
 pub
 struct
-DOMRefCell
+DomRefCell
 <
 T
 >
@@ -48,7 +48,7 @@ impl
 <
 T
 >
-DOMRefCell
+DomRefCell
 <
 T
 >
@@ -221,7 +221,7 @@ impl
 <
 T
 >
-DOMRefCell
+DomRefCell
 <
 T
 >
@@ -236,12 +236,12 @@ T
 )
 -
 >
-DOMRefCell
+DomRefCell
 <
 T
 >
 {
-DOMRefCell
+DomRefCell
 {
 value
 :
@@ -277,7 +277,7 @@ try_borrow
 expect
 (
 "
-DOMRefCell
+DomRefCell
 <
 T
 >
@@ -310,7 +310,7 @@ try_borrow_mut
 expect
 (
 "
-DOMRefCell
+DomRefCell
 <
 T
 >

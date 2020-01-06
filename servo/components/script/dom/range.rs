@@ -195,14 +195,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-MutJS
-Root
-RootedReference
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -212,12 +210,14 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
+MutDom
+RootedReference
 }
 ;
 use
@@ -467,7 +467,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 Range
 >
@@ -518,7 +518,7 @@ u32
 )
 -
 >
-Root
+DomRoot
 <
 Range
 >
@@ -608,7 +608,7 @@ Window
 >
 Fallible
 <
-Root
+DomRoot
 <
 Range
 >
@@ -788,21 +788,21 @@ Fallible
 (
 Option
 <
-Root
+DomRoot
 <
 Node
 >
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >
 >
 Vec
 <
-Root
+DomRoot
 <
 Node
 >
@@ -918,7 +918,7 @@ contained_children
 :
 Vec
 <
-Root
+DomRoot
 <
 Node
 >
@@ -1444,7 +1444,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
@@ -1487,7 +1487,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
@@ -1549,7 +1549,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Node
 >
@@ -2378,7 +2378,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Range
 >
@@ -2758,7 +2758,7 @@ self
 >
 Fallible
 <
-Root
+DomRoot
 <
 DocumentFragment
 >
@@ -3313,7 +3313,7 @@ self
 >
 Fallible
 <
-Root
+DomRoot
 <
 DocumentFragment
 >
@@ -3529,7 +3529,7 @@ end_node
 )
 {
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -3573,7 +3573,7 @@ last
 .
 unwrap_or
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -4210,7 +4210,7 @@ HierarchyRequest
 (
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -4241,7 +4241,7 @@ start_offset
 ;
 (
 child
-Root
+DomRoot
 :
 :
 from_ref
@@ -4307,7 +4307,7 @@ start_offset
 let
 new_reference
 =
-Root
+DomRoot
 :
 :
 upcast
@@ -4644,7 +4644,7 @@ contained_children
 .
 push
 (
-JS
+Dom
 :
 :
 from_ref
@@ -4692,7 +4692,7 @@ end_node
 )
 {
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -4721,7 +4721,7 @@ Node
 -
 >
 (
-Root
+DomRoot
 <
 Node
 >
@@ -4732,7 +4732,7 @@ let
 mut
 reference_node
 =
-Root
+DomRoot
 :
 :
 from_ref
@@ -5280,7 +5280,7 @@ ancestor
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -5411,7 +5411,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 DocumentFragment
 >
@@ -5471,7 +5471,7 @@ _
 >
 Some
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -5644,7 +5644,7 @@ BoundaryPoint
 {
 node
 :
-MutJS
+MutDom
 <
 Node
 >
@@ -5701,7 +5701,7 @@ BoundaryPoint
 {
 node
 :
-MutJS
+MutDom
 :
 :
 new

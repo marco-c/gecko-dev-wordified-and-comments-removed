@@ -38,12 +38,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -53,12 +53,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -109,7 +109,7 @@ list
 :
 Vec
 <
-JS
+Dom
 <
 File
 >
@@ -132,7 +132,7 @@ files
 :
 Vec
 <
-JS
+Dom
 <
 File
 >
@@ -176,7 +176,7 @@ files
 :
 Vec
 <
-Root
+DomRoot
 <
 File
 >
@@ -184,7 +184,7 @@ File
 )
 -
 >
-Root
+DomRoot
 <
 FileList
 >
@@ -208,7 +208,7 @@ map
 |
 r
 |
-JS
+Dom
 :
 :
 from_ref
@@ -242,7 +242,7 @@ self
 >
 Iter
 <
-JS
+Dom
 <
 File
 >
@@ -295,7 +295,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 File
 >
@@ -318,7 +318,7 @@ len
 {
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -356,7 +356,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 File
 >

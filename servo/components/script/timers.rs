@@ -23,7 +23,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -322,7 +322,7 @@ OneshotTimerHandle
 >
 timers
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -699,7 +699,7 @@ OneshotTimerHandle
 )
 timers
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1785,7 +1785,7 @@ JsTimerHandle
 >
 active_timers
 :
-DOMRefCell
+DomRefCell
 <
 HashMap
 <
@@ -1990,7 +1990,7 @@ JsTimerHandle
 )
 active_timers
 :
-DOMRefCell
+DomRefCell
 :
 :
 new

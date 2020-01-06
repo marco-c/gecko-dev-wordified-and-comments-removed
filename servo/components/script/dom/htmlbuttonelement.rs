@@ -72,12 +72,12 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-MutNullableJS
-Root
+DomRoot
+MutNullableDom
 }
 ;
 use
@@ -323,7 +323,7 @@ ButtonType
 >
 form_owner
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLFormElement
 >
@@ -415,7 +415,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLButtonElement
 >
@@ -478,7 +478,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 ValidityState
 >
@@ -599,7 +599,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -1185,7 +1185,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -1877,7 +1877,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -2472,7 +2472,7 @@ unwrap
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast

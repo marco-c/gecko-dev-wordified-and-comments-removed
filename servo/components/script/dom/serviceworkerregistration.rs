@@ -44,13 +44,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-JS
-Root
-}
+reflect_dom_object
 ;
 use
 dom
@@ -59,10 +56,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+{
+Dom
+DomRoot
+}
 ;
 use
 dom
@@ -157,7 +157,7 @@ active
 :
 Option
 <
-JS
+Dom
 <
 ServiceWorker
 >
@@ -166,7 +166,7 @@ installing
 :
 Option
 <
-JS
+Dom
 <
 ServiceWorker
 >
@@ -175,7 +175,7 @@ waiting
 :
 Option
 <
-JS
+Dom
 <
 ServiceWorker
 >
@@ -222,7 +222,7 @@ active
 :
 Some
 (
-JS
+Dom
 :
 :
 from_ref
@@ -275,7 +275,7 @@ ServoUrl
 )
 -
 >
-Root
+DomRoot
 <
 ServiceWorkerRegistration
 >
@@ -493,7 +493,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 ServiceWorker
 >
@@ -525,7 +525,7 @@ map
 |
 sw
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -564,7 +564,7 @@ map
 |
 sw
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -591,7 +591,7 @@ map
 |
 sw
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -735,7 +735,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 ServiceWorker
 >
@@ -754,7 +754,7 @@ map
 |
 sw
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -776,7 +776,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 ServiceWorker
 >
@@ -795,7 +795,7 @@ map
 |
 sw
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -817,7 +817,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 ServiceWorker
 >
@@ -836,7 +836,7 @@ map
 |
 sw
 |
-Root
+DomRoot
 :
 :
 from_ref

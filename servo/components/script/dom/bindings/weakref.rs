@@ -14,10 +14,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+DomObject
 ;
 use
 dom
@@ -26,10 +26,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-DomObject
+DomRoot
 ;
 use
 dom
@@ -440,7 +440,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 T
 >
@@ -467,7 +467,7 @@ get
 .
 map
 (
-Root
+DomRoot
 :
 :
 new
@@ -1028,7 +1028,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 T
 >

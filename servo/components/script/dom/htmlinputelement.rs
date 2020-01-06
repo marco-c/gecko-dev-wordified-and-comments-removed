@@ -36,7 +36,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -195,14 +195,14 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
 {
-JS
-LayoutJS
-MutNullableJS
-Root
+Dom
+DomRoot
+LayoutDom
+MutNullableDom
 RootedReference
 }
 ;
@@ -688,7 +688,7 @@ bool
 >
 placeholder
 :
-DOMRefCell
+DomRefCell
 <
 DOMString
 >
@@ -727,7 +727,7 @@ ignore_heap_size_of
 ]
 textinput
 :
-DOMRefCell
+DomRefCell
 <
 TextInput
 <
@@ -736,7 +736,7 @@ ScriptToConstellationChan
 >
 activation_state
 :
-DOMRefCell
+DomRefCell
 <
 InputActivationState
 >
@@ -748,13 +748,13 @@ bool
 >
 filelist
 :
-MutNullableJS
+MutNullableDom
 <
 FileList
 >
 form_owner
 :
-MutNullableJS
+MutNullableDom
 <
 HTMLFormElement
 >
@@ -793,7 +793,7 @@ checked_radio
 :
 Option
 <
-JS
+Dom
 <
 HTMLInputElement
 >
@@ -945,7 +945,7 @@ InputText
 )
 placeholder
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1004,7 +1004,7 @@ DEFAULT_INPUT_SIZE
 )
 textinput
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1032,7 +1032,7 @@ None
 )
 activation_state
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1055,7 +1055,7 @@ false
 )
 filelist
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -1099,7 +1099,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLInputElement
 >
@@ -1413,7 +1413,7 @@ get_raw_textinput_value
 (
 input
 :
-LayoutJS
+LayoutDom
 <
 HTMLInputElement
 >
@@ -1444,7 +1444,7 @@ get_content
 impl
 LayoutHTMLInputElementHelpers
 for
-LayoutJS
+LayoutDom
 <
 HTMLInputElement
 >
@@ -1479,7 +1479,7 @@ get_raw_attr_value
 (
 input
 :
-LayoutJS
+LayoutDom
 <
 HTMLInputElement
 >
@@ -2382,7 +2382,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -2426,7 +2426,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 FileList
 >
@@ -4605,7 +4605,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 NodeList
 >
@@ -5415,7 +5415,7 @@ unwrap
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -6009,7 +6009,7 @@ FormDatumValue
 :
 File
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -6874,7 +6874,7 @@ files
 :
 Vec
 <
-Root
+DomRoot
 <
 File
 >
@@ -9921,7 +9921,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 HTMLFormElement
 >
@@ -10711,7 +10711,7 @@ unwrap
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -10766,7 +10766,7 @@ r
 .
 map
 (
-JS
+Dom
 :
 :
 from_ref
@@ -11859,7 +11859,7 @@ unwrap
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -11949,7 +11949,7 @@ unwrap
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast

@@ -1457,7 +1457,7 @@ self
 returnType
 =
 "
-Root
+DomRoot
 <
 %
 s

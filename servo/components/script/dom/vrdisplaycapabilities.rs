@@ -8,7 +8,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -50,10 +50,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+Reflector
+reflect_dom_object
+}
 ;
 use
 dom
@@ -62,13 +65,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-Reflector
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -116,7 +116,7 @@ webvr
 ]
 capabilities
 :
-DOMRefCell
+DomRefCell
 <
 WebVRDisplayCapabilities
 >
@@ -153,7 +153,7 @@ new
 )
 capabilities
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -176,7 +176,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 VRDisplayCapabilities
 >

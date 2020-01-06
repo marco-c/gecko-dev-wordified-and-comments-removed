@@ -35,7 +35,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -284,37 +284,6 @@ dom
 bindings
 :
 :
-js
-:
-:
-{
-JS
-LayoutJS
-MutNullableJS
-}
-;
-use
-dom
-:
-:
-bindings
-:
-:
-js
-:
-:
-{
-Root
-RootedReference
-}
-;
-use
-dom
-:
-:
-bindings
-:
-:
 refcounted
 :
 :
@@ -334,6 +303,24 @@ reflector
 :
 :
 DomObject
+;
+use
+dom
+:
+:
+bindings
+:
+:
+root
+:
+:
+{
+Dom
+DomRoot
+LayoutDom
+MutNullableDom
+RootedReference
+}
 ;
 use
 dom
@@ -1313,7 +1300,7 @@ namespace
 Namespace
 prefix
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -1322,11 +1309,11 @@ Prefix
 >
 attrs
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
-JS
+Dom
 <
 Attr
 >
@@ -1334,7 +1321,7 @@ Attr
 >
 id_attribute
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -1343,7 +1330,7 @@ Atom
 >
 is
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -1360,7 +1347,7 @@ Arc
 ]
 style_attribute
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -1375,13 +1362,13 @@ PropertyDeclarationBlock
 >
 attr_list
 :
-MutNullableJS
+MutNullableDom
 <
 NamedNodeMap
 >
 class_list
 :
-MutNullableJS
+MutNullableDom
 <
 DOMTokenList
 >
@@ -1412,7 +1399,7 @@ ElementSelectorFlags
 >
 custom_element_reaction_queue
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -1429,7 +1416,7 @@ Rc
 ]
 custom_element_definition
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -1538,7 +1525,7 @@ fmt
 :
 Debug
 for
-Root
+DomRoot
 <
 Element
 >
@@ -1840,7 +1827,7 @@ CustomElementCreationMode
 )
 -
 >
-Root
+DomRoot
 <
 Element
 >
@@ -1951,7 +1938,7 @@ namespace
 namespace
 prefix
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1960,7 +1947,7 @@ prefix
 )
 attrs
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1972,7 +1959,7 @@ vec
 )
 id_attribute
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1981,7 +1968,7 @@ None
 )
 is
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -1990,7 +1977,7 @@ None
 )
 style_attribute
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -2089,7 +2076,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 Element
 >
@@ -2966,7 +2953,7 @@ LocalName
 >
 Option
 <
-LayoutJS
+LayoutDom
 <
 Attr
 >
@@ -3537,7 +3524,7 @@ bool
 impl
 LayoutElementHelpers
 for
-LayoutJS
+LayoutDom
 <
 Element
 >
@@ -6818,7 +6805,7 @@ self
 Ref
 <
 [
-JS
+Dom
 <
 Attr
 >
@@ -6927,7 +6914,7 @@ inclusive_ancestors
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -7186,7 +7173,7 @@ self
 -
 >
 &
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -7593,7 +7580,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 Element
 >
@@ -7649,7 +7636,7 @@ inclusive_ancestors
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -8441,7 +8428,7 @@ borrow_mut
 .
 push
 (
-JS
+Dom
 :
 :
 from_ref
@@ -8506,7 +8493,7 @@ LocalName
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -8554,7 +8541,7 @@ map
 |
 js
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -8606,7 +8593,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -8655,7 +8642,7 @@ map
 |
 js
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -9148,7 +9135,7 @@ map
 |
 js
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -9275,7 +9262,7 @@ LocalName
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -9325,7 +9312,7 @@ LocalName
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -9364,7 +9351,7 @@ F
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -9419,7 +9406,7 @@ idx
 let
 attr
 =
-Root
+DomRoot
 :
 :
 from_ref
@@ -10745,7 +10732,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Node
 >
@@ -11236,7 +11223,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 DocumentFragment
 >
@@ -11357,7 +11344,7 @@ Self
 )
 -
 >
-Root
+DomRoot
 <
 Self
 >
@@ -11396,7 +11383,7 @@ html_element_in_html_document
 =
 >
 {
-Root
+DomRoot
 :
 :
 from_ref
@@ -11408,7 +11395,7 @@ _
 =
 >
 {
-Root
+DomRoot
 :
 :
 upcast
@@ -12090,7 +12077,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMTokenList
 >
@@ -12148,7 +12135,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 NamedNodeMap
 >
@@ -12429,7 +12416,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -12481,7 +12468,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -12817,7 +12804,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -12994,7 +12981,7 @@ position
 let
 old_attr
 =
-Root
+DomRoot
 :
 :
 from_ref
@@ -13031,7 +13018,7 @@ Ok
 (
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -13179,7 +13166,7 @@ borrow_mut
 position
 ]
 =
-JS
+Dom
 :
 :
 from_ref
@@ -13316,7 +13303,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -13479,7 +13466,7 @@ Attr
 >
 Fallible
 <
-Root
+DomRoot
 <
 Attr
 >
@@ -13632,7 +13619,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -13705,7 +13692,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -13765,7 +13752,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -13825,7 +13812,7 @@ self
 >
 Vec
 <
-Root
+DomRoot
 <
 DOMRect
 >
@@ -13953,7 +13940,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 DOMRect
 >
@@ -15934,7 +15921,7 @@ HTMLTemplateElement
 (
 )
 {
-Root
+DomRoot
 :
 :
 upcast
@@ -15948,7 +15935,7 @@ Content
 }
 else
 {
-Root
+DomRoot
 :
 :
 from_ref
@@ -16217,7 +16204,7 @@ CustomElementCreationMode
 Synchronous
 )
 ;
-Root
+DomRoot
 :
 :
 upcast
@@ -16309,7 +16296,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -16332,7 +16319,7 @@ preceding_siblings
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -16372,7 +16359,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -16395,7 +16382,7 @@ following_siblings
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -16433,7 +16420,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -16490,7 +16477,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -16545,7 +16532,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -16568,7 +16555,7 @@ rev_children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -16773,7 +16760,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -16834,7 +16821,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 NodeList
 >
@@ -17178,7 +17165,7 @@ matches_selector_list
 &
 selectors
 &
-Root
+DomRoot
 :
 :
 from_ref
@@ -17271,7 +17258,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -17338,7 +17325,7 @@ Some
 element
 )
 =
-Root
+DomRoot
 :
 :
 downcast
@@ -17466,7 +17453,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -17512,7 +17499,7 @@ map
 |
 node
 |
-Root
+DomRoot
 :
 :
 downcast
@@ -17774,7 +17761,7 @@ BeforeEnd
 =
 >
 {
-Root
+DomRoot
 :
 :
 from_ref
@@ -19374,7 +19361,7 @@ selectors
 :
 Element
 for
-Root
+DomRoot
 <
 Element
 >
@@ -19434,7 +19421,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -19486,7 +19473,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -19514,7 +19501,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -19530,7 +19517,7 @@ rev_children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -19550,7 +19537,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -19566,7 +19553,7 @@ preceding_siblings
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -19586,7 +19573,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -19602,7 +19589,7 @@ following_siblings
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -21183,7 +21170,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -21204,7 +21191,7 @@ el
 >
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -21275,7 +21262,7 @@ is_some
 return
 Some
 (
-Root
+DomRoot
 :
 :
 from_ref
@@ -23035,7 +23022,7 @@ TagName
 {
 ptr
 :
-DOMRefCell
+DomRefCell
 <
 Option
 <
@@ -23058,7 +23045,7 @@ TagName
 {
 ptr
 :
-DOMRefCell
+DomRefCell
 :
 :
 new

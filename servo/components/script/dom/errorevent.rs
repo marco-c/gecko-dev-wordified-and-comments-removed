@@ -8,7 +8,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -92,10 +92,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -104,10 +104,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -211,13 +211,13 @@ event
 Event
 message
 :
-DOMRefCell
+DomRefCell
 <
 DOMString
 >
 filename
 :
-DOMRefCell
+DomRefCell
 <
 DOMString
 >
@@ -275,7 +275,7 @@ new_inherited
 )
 message
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -289,7 +289,7 @@ new
 )
 filename
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -340,7 +340,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 ErrorEvent
 >
@@ -396,7 +396,7 @@ HandleValue
 )
 -
 >
-Root
+DomRoot
 <
 ErrorEvent
 >
@@ -529,7 +529,7 @@ ErrorEventInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 ErrorEvent
 >

@@ -86,13 +86,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-JS
-Root
-}
+reflect_dom_object
 ;
 use
 dom
@@ -101,10 +98,13 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+{
+Dom
+DomRoot
+}
 ;
 use
 dom
@@ -230,7 +230,7 @@ NodeListType
 )
 -
 >
-Root
+DomRoot
 <
 RadioNodeList
 >
@@ -269,7 +269,7 @@ T
 )
 -
 >
-Root
+DomRoot
 <
 RadioNodeList
 >
@@ -280,7 +280,7 @@ Iterator
 <
 Item
 =
-Root
+DomRoot
 <
 Node
 >
@@ -304,7 +304,7 @@ map
 |
 r
 |
-JS
+Dom
 :
 :
 from_ref
@@ -755,7 +755,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Node
 >

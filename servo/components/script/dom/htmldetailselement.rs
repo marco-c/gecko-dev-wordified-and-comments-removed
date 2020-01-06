@@ -59,10 +59,10 @@ dom
 bindings
 :
 :
-js
+refcounted
 :
 :
-Root
+Trusted
 ;
 use
 dom
@@ -71,10 +71,10 @@ dom
 bindings
 :
 :
-refcounted
+root
 :
 :
-Trusted
+DomRoot
 ;
 use
 dom
@@ -256,7 +256,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 HTMLDetailsElement
 >

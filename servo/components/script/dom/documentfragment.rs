@@ -98,10 +98,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -235,7 +235,7 @@ Document
 )
 -
 >
-Root
+DomRoot
 <
 DocumentFragment
 >
@@ -273,7 +273,7 @@ Window
 >
 Fallible
 <
-Root
+DomRoot
 <
 DocumentFragment
 >
@@ -334,7 +334,7 @@ self
 )
 -
 >
-Root
+DomRoot
 <
 HTMLCollection
 >
@@ -394,7 +394,7 @@ DOMString
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -433,7 +433,7 @@ traverse_preorder
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -507,7 +507,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -542,7 +542,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -565,7 +565,7 @@ rev_children
 .
 filter_map
 (
-Root
+DomRoot
 :
 :
 downcast
@@ -690,7 +690,7 @@ Fallible
 <
 Option
 <
-Root
+DomRoot
 <
 Element
 >
@@ -726,7 +726,7 @@ DOMString
 >
 Fallible
 <
-Root
+DomRoot
 <
 NodeList
 >

@@ -80,10 +80,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+reflect_dom_object
 ;
 use
 dom
@@ -92,10 +92,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+DomRoot
 ;
 use
 dom
@@ -308,7 +308,7 @@ str
 )
 -
 >
-Root
+DomRoot
 <
 File
 >
@@ -358,7 +358,7 @@ SelectedFile
 )
 -
 >
-Root
+DomRoot
 <
 File
 >
@@ -477,7 +477,7 @@ FilePropertyBag
 >
 Fallible
 <
-Root
+DomRoot
 <
 File
 >

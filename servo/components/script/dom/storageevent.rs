@@ -80,14 +80,10 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-{
-MutNullableJS
-Root
-RootedReference
-}
+reflect_dom_object
 ;
 use
 dom
@@ -96,10 +92,14 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-reflect_dom_object
+{
+DomRoot
+MutNullableDom
+RootedReference
+}
 ;
 use
 dom
@@ -190,7 +190,7 @@ url
 DOMString
 storage_area
 :
-MutNullableJS
+MutNullableDom
 <
 Storage
 >
@@ -259,7 +259,7 @@ url
 url
 storage_area
 :
-MutNullableJS
+MutNullableDom
 :
 :
 new
@@ -282,7 +282,7 @@ DOMString
 )
 -
 >
-Root
+DomRoot
 <
 StorageEvent
 >
@@ -356,7 +356,7 @@ Storage
 )
 -
 >
-Root
+DomRoot
 <
 StorageEvent
 >
@@ -447,7 +447,7 @@ StorageEventInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 StorageEvent
 >
@@ -665,7 +665,7 @@ self
 >
 Option
 <
-Root
+DomRoot
 <
 Storage
 >

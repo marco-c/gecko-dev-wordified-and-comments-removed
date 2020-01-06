@@ -8,7 +8,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -67,10 +67,13 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
-Root
+{
+Reflector
+reflect_dom_object
+}
 ;
 use
 dom
@@ -79,13 +82,10 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
-{
-Reflector
-reflect_dom_object
-}
+DomRoot
 ;
 use
 dom
@@ -191,7 +191,7 @@ hyper
 ]
 header_list
 :
-DOMRefCell
+DomRefCell
 <
 HyperHeaders
 >
@@ -253,7 +253,7 @@ None
 )
 header_list
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -278,7 +278,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 Headers
 >
@@ -333,7 +333,7 @@ HeadersInit
 >
 Fallible
 <
-Root
+DomRoot
 <
 Headers
 >
@@ -1689,7 +1689,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 Headers
 >
@@ -1730,7 +1730,7 @@ GlobalScope
 )
 -
 >
-Root
+DomRoot
 <
 Headers
 >

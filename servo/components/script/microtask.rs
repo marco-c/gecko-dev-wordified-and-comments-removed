@@ -20,7 +20,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -47,10 +47,10 @@ dom
 bindings
 :
 :
-js
+root
 :
 :
-Root
+DomRoot
 ;
 use
 dom
@@ -142,7 +142,7 @@ MicrotaskQueue
 {
 microtask_queue
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
@@ -283,7 +283,7 @@ PipelineId
 >
 Option
 <
-Root
+DomRoot
 <
 GlobalScope
 >

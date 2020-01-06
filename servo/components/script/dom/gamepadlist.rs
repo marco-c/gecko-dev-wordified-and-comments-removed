@@ -8,7 +8,7 @@ bindings
 cell
 :
 :
-DOMRefCell
+DomRefCell
 ;
 use
 dom
@@ -50,12 +50,12 @@ dom
 bindings
 :
 :
-js
+reflector
 :
 :
 {
-JS
-Root
+Reflector
+reflect_dom_object
 }
 ;
 use
@@ -65,12 +65,12 @@ dom
 bindings
 :
 :
-reflector
+root
 :
 :
 {
-Reflector
-reflect_dom_object
+Dom
+DomRoot
 }
 ;
 use
@@ -110,11 +110,11 @@ reflector_
 Reflector
 list
 :
-DOMRefCell
+DomRefCell
 <
 Vec
 <
-JS
+Dom
 <
 Gamepad
 >
@@ -151,7 +151,7 @@ new
 )
 list
 :
-DOMRefCell
+DomRefCell
 :
 :
 new
@@ -167,7 +167,7 @@ map
 |
 g
 |
-JS
+Dom
 :
 :
 from_ref
@@ -203,7 +203,7 @@ Gamepad
 )
 -
 >
-Root
+DomRoot
 <
 GamepadList
 >
@@ -235,7 +235,7 @@ gamepads
 :
 &
 [
-Root
+DomRoot
 <
 Gamepad
 >
@@ -290,7 +290,7 @@ borrow_mut
 .
 push
 (
-JS
+Dom
 :
 :
 from_ref
@@ -368,7 +368,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Gamepad
 >
@@ -394,7 +394,7 @@ map
 |
 gamepad
 |
-Root
+DomRoot
 :
 :
 from_ref
@@ -419,7 +419,7 @@ u32
 >
 Option
 <
-Root
+DomRoot
 <
 Gamepad
 >
