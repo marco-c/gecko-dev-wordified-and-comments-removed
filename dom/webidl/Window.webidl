@@ -2832,6 +2832,7 @@ NIGHTLY_BUILD
 ChromeOnly
 #
 endif
+NonEnumerable
 Replaceable
 Throws
 NeedsCallerType
