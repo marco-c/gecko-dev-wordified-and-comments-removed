@@ -783,7 +783,10 @@ class
 FilterNode
 :
 public
-RefCounted
+external
+:
+:
+AtomicRefCounted
 <
 FilterNode
 >
