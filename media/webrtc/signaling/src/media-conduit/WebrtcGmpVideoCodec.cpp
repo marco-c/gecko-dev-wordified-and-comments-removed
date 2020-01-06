@@ -4369,6 +4369,11 @@ Released
 )
 )
 ;
+RegisterDecodeCompleteCallback
+(
+nullptr
+)
+;
 if
 (
 mGMPThread
