@@ -2528,13 +2528,6 @@ unstructured_flavors
 :
 {
 "
-mochitest
-"
-:
-[
-]
-                            
-"
 xpcshell
 "
 :
