@@ -185,7 +185,7 @@ i
 <
 data
 .
-slices
+slices_list
 .
 length
 ;
@@ -199,7 +199,7 @@ slice
 =
 data
 .
-slices
+slices_list
 [
 i
 ]
@@ -441,7 +441,7 @@ null
 const
 MAX_GC_KEYS
 =
-25
+30
 ;
 const
 MAX_SLICES
@@ -513,13 +513,13 @@ num_slices
 =
 data
 .
-slices
+slices_list
 .
 length
 ;
 data
 .
-slices
+slices_list
 .
 sort
 (
@@ -542,7 +542,7 @@ if
 (
 data
 .
-slices
+slices_list
 .
 length
 >
@@ -554,7 +554,7 @@ firstSliceIndex
 =
 data
 .
-slices
+slices_list
 .
 findIndex
 (
@@ -579,7 +579,7 @@ MAX_SLICES
 {
 data
 .
-slices
+slices_list
 [
 MAX_SLICES
 -
@@ -588,7 +588,7 @@ MAX_SLICES
 =
 data
 .
-slices
+slices_list
 [
 firstSliceIndex
 ]
@@ -596,7 +596,7 @@ firstSliceIndex
 }
 data
 .
-slices
+slices_list
 .
 length
 =
@@ -605,7 +605,7 @@ MAX_SLICES
 }
 data
 .
-slices
+slices_list
 .
 sort
 (
@@ -637,7 +637,7 @@ slice
 of
 data
 .
-slices
+slices_list
 )
 {
 limitProperties
