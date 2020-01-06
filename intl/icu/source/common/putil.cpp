@@ -241,7 +241,7 @@ h
 include
 "
 unicode
-\
+/
 uloc
 .
 h
@@ -289,9 +289,9 @@ h
 include
 <
 wrl
-\
+/
 wrappers
-\
+/
 corewrappers
 .
 h
@@ -300,7 +300,7 @@ h
 include
 <
 wrl
-\
+/
 client
 .
 h

@@ -893,6 +893,10 @@ scope
 .
 diff
 \
+bug
+-
+1380083
+\
 ;
 do
 echo
