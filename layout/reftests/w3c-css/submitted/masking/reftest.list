@@ -366,6 +366,12 @@ image
 ref
 .
 html
+random
+-
+if
+(
+gtkWidget
+)
 =
 =
 mask
@@ -384,6 +390,9 @@ image
 ref
 .
 html
+#
+bug
+1365177
 =
 =
 mask
