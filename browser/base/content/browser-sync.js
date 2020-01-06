@@ -1972,7 +1972,7 @@ fxaStrings
 GetStringFromName
 (
 "
-sendToAllDevices
+sendTabToAllDevices
 .
 menuitem
 "
