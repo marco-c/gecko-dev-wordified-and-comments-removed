@@ -122,6 +122,15 @@ override
 ;
 virtual
 void
+SetPermitSubpixelAA
+(
+bool
+aPermitSubpixelAA
+)
+override
+;
+virtual
+void
 DetachAllSnapshots
 (
 )
