@@ -936,16 +936,6 @@ NS_IMETHOD_
 (
 bool
 )
-IsPlainTextControl
-(
-)
-const
-override
-;
-NS_IMETHOD_
-(
-bool
-)
 IsPasswordTextControl
 (
 )
