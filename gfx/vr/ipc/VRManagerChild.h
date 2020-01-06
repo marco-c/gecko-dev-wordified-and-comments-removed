@@ -95,6 +95,9 @@ namespace
 layers
 {
 class
+SyncObjectClient
+;
+class
 TextureClient
 ;
 }
@@ -392,7 +395,7 @@ const
 layers
 :
 :
-SyncObject
+SyncObjectClient
 *
 GetSyncObject
 (
@@ -1001,7 +1004,7 @@ RefPtr
 layers
 :
 :
-SyncObject
+SyncObjectClient
 >
 mSyncObject
 ;

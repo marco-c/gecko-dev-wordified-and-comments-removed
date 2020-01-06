@@ -172,6 +172,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+SyncObject
+.
+h
+"
+#
+include
+"
 ClientReadbackLayer
 .
 h
@@ -3162,7 +3173,7 @@ GetSyncObject
 )
 -
 >
-FinalizeFrame
+Synchronize
 (
 )
 ;
