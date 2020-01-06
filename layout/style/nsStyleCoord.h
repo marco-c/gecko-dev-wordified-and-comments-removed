@@ -813,6 +813,14 @@ aPercentageBasis
 const
 ;
 nscoord
+ComputeCoordPercentCalc
+(
+nscoord
+aPercentageBasis
+)
+const
+;
+nscoord
 GetCoordValue
 (
 )

@@ -8791,12 +8791,10 @@ aTextRun
 0
 ;
 return
-nsRuleNode
-:
-:
+coord
+.
 ComputeCoordPercentCalc
 (
-coord
 pctBasis
 )
 ;

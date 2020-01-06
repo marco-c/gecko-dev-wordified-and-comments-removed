@@ -3402,12 +3402,10 @@ ConvertsToLength
 )
 {
 return
-nsRuleNode
-:
-:
+aCoord
+.
 ComputeCoordPercentCalc
 (
-aCoord
 0
 )
 ;
