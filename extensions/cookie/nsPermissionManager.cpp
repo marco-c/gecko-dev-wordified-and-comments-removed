@@ -577,6 +577,9 @@ desktop
 -
 notification
 "
+"
+shortcuts
+"
 }
 ;
 bool
