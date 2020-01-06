@@ -789,6 +789,14 @@ findbar
 found
 -
 matches
+.
+browserContainer
+>
+findbar
+.
+findbar
+-
+button
 {
 color
 :
