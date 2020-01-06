@@ -549,17 +549,6 @@ target
 /
 >
 <
-splitter
-class
-=
-"
-tree
--
-splitter
-"
-/
->
-<
 treecol
 id
 =
