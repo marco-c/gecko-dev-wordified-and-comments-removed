@@ -1758,7 +1758,6 @@ GetName
 (
 )
 timingFunction
-mComputedValues
 aKeyframes
 )
 ;

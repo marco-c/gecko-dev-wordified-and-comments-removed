@@ -233,8 +233,6 @@ nsACString
 property
 nsTimingFunctionBorrowed
 timing_function
-ServoComputedValuesBorrowed
-computed_values
 RawGeckoKeyframeListBorrowedMut
 keyframe_list
 )
