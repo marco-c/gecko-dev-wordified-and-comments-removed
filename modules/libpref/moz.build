@@ -203,11 +203,6 @@ Preferences
 .
 cpp
 '
-'
-prefread
-.
-cpp
-'
 ]
 include
 (

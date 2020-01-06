@@ -164,13 +164,6 @@ h
 #
 include
 "
-prefread
-.
-h
-"
-#
-include
-"
 prlink
 .
 h
