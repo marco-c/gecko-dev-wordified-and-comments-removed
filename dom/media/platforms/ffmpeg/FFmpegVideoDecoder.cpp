@@ -1043,9 +1043,13 @@ inputSize
 uint8_t
 *
 data
+=
+inputData
 ;
 int
 size
+=
+inputSize
 ;
 int
 len
