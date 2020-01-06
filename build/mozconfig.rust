@@ -46,3 +46,11 @@ bin
 /
 cargo
 "
+ac_add_options
+-
+-
+enable
+-
+rust
+-
+simd
