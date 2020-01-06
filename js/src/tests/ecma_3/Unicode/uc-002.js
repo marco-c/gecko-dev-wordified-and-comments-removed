@@ -7,13 +7,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "
@@ -96,13 +89,6 @@ character
 regexp
 test
 .
-"
-)
-;
-exitFunc
-(
-"
-test
 "
 )
 ;

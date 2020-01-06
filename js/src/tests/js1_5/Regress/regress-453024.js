@@ -92,13 +92,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -196,13 +189,6 @@ summary
 ;
 jsTestDriverEnd
 (
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

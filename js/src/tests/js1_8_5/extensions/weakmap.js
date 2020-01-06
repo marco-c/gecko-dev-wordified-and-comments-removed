@@ -33,13 +33,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -797,13 +790,6 @@ weak
 map
 tests
 "
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

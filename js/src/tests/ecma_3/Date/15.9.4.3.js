@@ -46,13 +46,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -1715,13 +1708,6 @@ summary
 :
 milliseconds
 NaN
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;

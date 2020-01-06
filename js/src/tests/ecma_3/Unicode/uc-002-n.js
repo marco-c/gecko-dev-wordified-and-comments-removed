@@ -12,13 +12,6 @@ test
 .
 "
 ;
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "
@@ -66,13 +59,6 @@ thrown
 an
 error
 .
-"
-)
-;
-exitFunc
-(
-"
-test
 "
 )
 ;

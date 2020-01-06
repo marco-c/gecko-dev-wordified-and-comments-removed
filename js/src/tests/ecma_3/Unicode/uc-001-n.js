@@ -7,13 +7,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "
@@ -150,13 +143,6 @@ test
 1F
 .
 )
-"
-)
-;
-exitFunc
-(
-"
-test
 "
 )
 ;

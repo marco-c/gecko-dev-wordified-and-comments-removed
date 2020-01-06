@@ -19,13 +19,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "
@@ -76,13 +69,6 @@ have
 thrown
 a
 ReferenceError
-"
-)
-;
-exitFunc
-(
-"
-test
 "
 )
 ;

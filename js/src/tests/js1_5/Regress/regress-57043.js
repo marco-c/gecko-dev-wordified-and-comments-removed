@@ -123,13 +123,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -157,13 +150,6 @@ j
 )
 ;
 }
-exitFunc
-(
-'
-test
-'
-)
-;
 }
 function
 testProperty

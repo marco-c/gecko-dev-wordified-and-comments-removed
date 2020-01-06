@@ -37,13 +37,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -144,13 +137,6 @@ destructuring
 parameter
 case
 "
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

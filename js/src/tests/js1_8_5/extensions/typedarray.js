@@ -52,13 +52,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -5596,13 +5589,6 @@ typed
 array
 tests
 "
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

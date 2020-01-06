@@ -208,13 +208,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -410,13 +403,6 @@ var
 let
 ;
 }
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;

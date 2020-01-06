@@ -109,13 +109,6 @@ test
 t
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "

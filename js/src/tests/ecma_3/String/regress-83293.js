@@ -108,13 +108,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -457,13 +450,6 @@ reportCompare
 expect
 actual
 status
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

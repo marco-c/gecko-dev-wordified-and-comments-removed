@@ -43,13 +43,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -131,13 +124,6 @@ reportMatch
 expect
 actual
 summary
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

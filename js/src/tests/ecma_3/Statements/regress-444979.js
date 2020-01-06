@@ -38,13 +38,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -235,13 +228,6 @@ summary
 '
 :
 longSwitch
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;

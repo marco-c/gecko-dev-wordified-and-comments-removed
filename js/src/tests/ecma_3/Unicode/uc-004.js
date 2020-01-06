@@ -7,13 +7,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "
@@ -166,11 +159,4 @@ not
 )
 ;
 }
-exitFunc
-(
-"
-test
-"
-)
-;
 }

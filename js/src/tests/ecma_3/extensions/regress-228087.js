@@ -1339,13 +1339,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -1363,13 +1356,6 @@ patterns
 strings
 actualmatches
 expectedmatches
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

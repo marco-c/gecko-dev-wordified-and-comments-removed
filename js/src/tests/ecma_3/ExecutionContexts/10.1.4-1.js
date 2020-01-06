@@ -45,13 +45,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -211,13 +204,6 @@ An
 Execution
 Context
 '
-)
-;
-exitFunc
-(
-"
-test
-"
 )
 ;
 }

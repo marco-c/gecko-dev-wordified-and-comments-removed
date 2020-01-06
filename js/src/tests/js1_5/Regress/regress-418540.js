@@ -42,13 +42,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -103,13 +96,6 @@ onload
 boom
 ;
 }
-exitFunc
-(
-'
-test
-'
-)
-;
 }
 function
 boom

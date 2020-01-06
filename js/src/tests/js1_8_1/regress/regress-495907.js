@@ -115,13 +115,6 @@ start_test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -143,13 +136,6 @@ reportCompare
 expect
 actual
 summary
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;
 }

@@ -51,13 +51,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -104,13 +97,6 @@ exec
 "
 "
 )
-'
-)
-;
-exitFunc
-(
-'
-test
 '
 )
 ;

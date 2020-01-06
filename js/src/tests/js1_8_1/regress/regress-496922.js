@@ -33,13 +33,6 @@ expect
 3
 '
 ;
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -142,12 +135,5 @@ reportCompare
 expect
 actual
 summary
-)
-;
-exitFunc
-(
-'
-test
-'
 )
 ;

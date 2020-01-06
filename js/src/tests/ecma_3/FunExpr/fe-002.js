@@ -14,13 +14,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 printStatus
 (
 "
@@ -66,13 +59,6 @@ have
 been
 called
 .
-"
-)
-;
-exitFunc
-(
-"
-test
 "
 )
 ;

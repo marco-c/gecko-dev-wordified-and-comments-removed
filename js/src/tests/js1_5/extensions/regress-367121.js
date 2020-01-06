@@ -38,13 +38,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -135,13 +128,6 @@ gDelayTestDriverEnd
 true
 ;
 }
-exitFunc
-(
-'
-test
-'
-)
-;
 }
 function
 handleLoad

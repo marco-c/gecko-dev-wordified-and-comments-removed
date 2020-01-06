@@ -32,14 +32,6 @@ printStatus
 summary
 )
 ;
-enterFunc
-(
-String
-(
-BUGNUMBER
-)
-)
-;
 var
 actual
 =

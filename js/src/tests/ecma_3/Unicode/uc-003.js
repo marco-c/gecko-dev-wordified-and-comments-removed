@@ -7,13 +7,6 @@ test
 (
 )
 {
-enterFunc
-(
-"
-test
-"
-)
-;
 var
 \
 u0041
@@ -127,13 +120,6 @@ non
 -
 ASCII
 Identifier
-test
-"
-)
-;
-exitFunc
-(
-"
 test
 "
 )

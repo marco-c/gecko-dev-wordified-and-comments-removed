@@ -34,13 +34,6 @@ test
 (
 )
 {
-enterFunc
-(
-'
-test
-'
-)
-;
 printBugNumber
 (
 BUGNUMBER
@@ -472,11 +465,4 @@ space
 )
 ;
 }
-exitFunc
-(
-'
-test
-'
-)
-;
 }
