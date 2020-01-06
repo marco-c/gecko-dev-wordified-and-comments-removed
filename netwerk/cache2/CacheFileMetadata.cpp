@@ -1340,6 +1340,11 @@ sizeof
 uint32_t
 )
 ;
+if
+(
+mHashCount
+)
+{
 memcpy
 (
 p
@@ -1368,6 +1373,7 @@ CacheHash
 Hash16_t
 )
 ;
+}
 mMetaHdr
 .
 WriteToBuf
