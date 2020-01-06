@@ -49,6 +49,7 @@ MixerCallbackReceiver
 {
 public
 :
+explicit
 AudioCaptureStream
 (
 TrackID
