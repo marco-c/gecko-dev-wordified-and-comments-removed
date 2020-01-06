@@ -1289,6 +1289,7 @@ bool
 EligibleForThrottling
 (
 )
+const
 ;
 private
 :
