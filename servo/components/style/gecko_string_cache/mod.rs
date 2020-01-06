@@ -452,7 +452,7 @@ a
 atom
 :
 *
-mut
+const
 nsIAtom
 )
 -
