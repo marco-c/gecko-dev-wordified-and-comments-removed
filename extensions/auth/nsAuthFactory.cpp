@@ -919,7 +919,12 @@ ntlm
 kNS_SYSNTLMAUTH_CID
 }
 #
-else
+elif
+!
+defined
+(
+XP_MACOSX
+)
 {
 NS_AUTH_MODULE_CONTRACTID_PREFIX
 "
