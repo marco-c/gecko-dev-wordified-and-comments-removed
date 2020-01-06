@@ -22,7 +22,8 @@ self
 .
 groups
 =
-None
+{
+}
         
 self
 .
