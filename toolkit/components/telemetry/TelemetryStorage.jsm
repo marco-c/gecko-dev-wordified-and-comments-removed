@@ -8422,7 +8422,6 @@ aType
 let
 month
 =
-new
 String
 (
 aDate
