@@ -2222,7 +2222,7 @@ nullptr
 aSelection
 -
 >
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -17167,7 +17167,7 @@ SetSelection
 nullptr
 )
 ;
-selectFrames
+SelectFrames
 (
 aPresContext
 mRanges
@@ -18765,7 +18765,7 @@ nsresult
 Selection
 :
 :
-selectFrames
+SelectFrames
 (
 nsPresContext
 *
@@ -19814,7 +19814,7 @@ i
 nsresult
 rv
 =
-selectFrames
+SelectFrames
 (
 aPresContext
 mRanges
@@ -21220,7 +21220,7 @@ GetPresContext
 (
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 &
@@ -21466,7 +21466,7 @@ GetPresContext
 (
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 &
@@ -21532,7 +21532,7 @@ i
 +
 )
 {
-selectFrames
+SelectFrames
 (
 presContext
 affectedRanges
@@ -22264,7 +22264,7 @@ setAnchorFocusRange
 0
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -23043,7 +23043,7 @@ if
 presContext
 )
 {
-selectFrames
+SelectFrames
 (
 presContext
 mAnchorFocusRange
@@ -23055,7 +23055,7 @@ SetAnchorFocusToRange
 aRange
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 mAnchorFocusRange
@@ -23605,7 +23605,7 @@ if
 shouldClearRange
 )
 {
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -23745,7 +23745,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -23819,7 +23819,7 @@ Failed
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -23965,7 +23965,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -23991,7 +23991,7 @@ EndOffset
 )
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -24174,7 +24174,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -24210,7 +24210,7 @@ return
 ;
 }
 }
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -24336,7 +24336,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -24362,7 +24362,7 @@ StartOffset
 )
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -24520,7 +24520,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -24556,7 +24556,7 @@ return
 ;
 }
 }
-selectFrames
+SelectFrames
 (
 presContext
 range
@@ -24670,7 +24670,7 @@ res
 return
 ;
 }
-selectFrames
+SelectFrames
 (
 presContext
 difRange
@@ -24755,7 +24755,7 @@ IsInSelection
 )
 )
 ;
-selectFrames
+SelectFrames
 (
 presContext
 range
