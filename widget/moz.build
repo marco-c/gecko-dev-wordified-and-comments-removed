@@ -1458,15 +1458,6 @@ nsIApplicationChooser
 idl
 '
 ]
-if
-not
-CONFIG
-[
-'
-MOZ_B2G
-'
-]
-:
 DEFINES
 [
 '

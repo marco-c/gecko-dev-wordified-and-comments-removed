@@ -222,7 +222,7 @@ options
 .
 useSecure
 :
-haveLoginManager
+true
 ;
 if
 (
@@ -2916,11 +2916,3 @@ null
 ;
 }
 }
-var
-haveLoginManager
-=
-!
-AppConstants
-.
-MOZ_B2G
-;

@@ -10,13 +10,6 @@ defined
 (
 ANDROID
 )
-&
-&
-!
-defined
-(
-MOZ_B2G
-)
 #
 define
 MOZ_USE_WIFI_TICKLER

@@ -104,15 +104,6 @@ Core
 XPCOM
 "
 )
-if
-not
-CONFIG
-[
-'
-MOZ_B2G
-'
-]
-:
 TEST_DIRS
 +
 =

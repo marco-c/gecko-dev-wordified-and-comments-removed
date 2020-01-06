@@ -937,9 +937,6 @@ aOther
 )
 const
 {
-#
-ifndef
-MOZ_B2G
 MOZ_ASSERT
 (
 aOther
@@ -955,8 +952,6 @@ zero
 "
 )
 ;
-#
-endif
 return
 ValueCalculator
 :
