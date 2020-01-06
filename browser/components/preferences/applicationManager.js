@@ -84,6 +84,7 @@ applications
 .
 js
 "
+window
 )
 ;
 pane
@@ -120,6 +121,7 @@ main
 .
 js
 "
+window
 )
 ;
 pane
