@@ -2137,6 +2137,15 @@ GetWebRenderBridgeParent
 )
 const
 ;
+Maybe
+<
+TimeStamp
+>
+GetTestingTimeStamp
+(
+)
+const
+;
 static
 void
 SetWebRenderProfilerEnabled
