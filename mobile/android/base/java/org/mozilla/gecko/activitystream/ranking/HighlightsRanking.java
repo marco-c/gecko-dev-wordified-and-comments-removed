@@ -241,7 +241,7 @@ ranking
 .
 RankingUtils
 .
-mapCursor
+looselyMapCursor
 ;
 import
 static
@@ -510,7 +510,7 @@ cursor
 )
 {
 return
-mapCursor
+looselyMapCursor
 (
 cursor
 new
