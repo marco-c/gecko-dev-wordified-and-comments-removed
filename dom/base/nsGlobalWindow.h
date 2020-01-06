@@ -2874,11 +2874,16 @@ ContinueSlowScript
 ContinueSlowScriptAndKeepNotifying
 AlwaysContinueSlowScript
 KillSlowScript
+KillScriptGlobal
 }
 ;
 SlowScriptResponse
 ShowSlowScriptDialog
 (
+const
+nsString
+&
+aAddonId
 )
 ;
 void
