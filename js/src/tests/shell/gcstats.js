@@ -96,7 +96,7 @@ majorGC
 "
 depth
 :
-10
+8
 phases
 :
 "
