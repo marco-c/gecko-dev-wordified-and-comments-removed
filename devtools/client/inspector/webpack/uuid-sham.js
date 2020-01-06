@@ -41,7 +41,7 @@ substring
 }
 ;
 let
-uuid
+generateUUID
 =
 function
 (
@@ -85,6 +85,6 @@ module
 exports
 =
 {
-uuid
+generateUUID
 }
 ;

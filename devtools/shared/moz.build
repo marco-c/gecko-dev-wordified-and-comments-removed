@@ -327,6 +327,13 @@ flags
 js
 '
 '
+generate
+-
+uuid
+.
+js
+'
+'
 indentation
 .
 js
