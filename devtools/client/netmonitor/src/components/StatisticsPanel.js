@@ -379,7 +379,7 @@ requests
 :
 PropTypes
 .
-array
+object
 }
 ;
 }
@@ -527,9 +527,12 @@ ready
 requests
 &
 &
+!
 requests
 .
-length
+isEmpty
+(
+)
 &
 &
 requests
