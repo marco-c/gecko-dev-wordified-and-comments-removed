@@ -216,7 +216,6 @@ MediaDecoderInit
 aInit
 )
 ;
-virtual
 nsresult
 Load
 (
@@ -254,7 +253,6 @@ nsIStreamListener
 aStreamListener
 )
 ;
-virtual
 nsresult
 Load
 (
