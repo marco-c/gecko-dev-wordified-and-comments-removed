@@ -31,6 +31,8 @@ destination
 :
 "
 doc
+/
+api
 "
 readme
 :
