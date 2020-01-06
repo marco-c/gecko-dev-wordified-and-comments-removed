@@ -18414,6 +18414,7 @@ kUseTypoMetricsMask
 ;
 if
 (
+(
 uint16_t
 (
 os2
@@ -18423,6 +18424,14 @@ fsSelection
 )
 &
 kUseTypoMetricsMask
+)
+|
+|
+aMetrics
+.
+maxDescent
+<
+0
 )
 {
 SET_SIGNED
