@@ -15,6 +15,13 @@ namespace
 mozilla
 {
 namespace
+gl
+{
+class
+GLContext
+;
+}
+namespace
 wr
 {
 class
