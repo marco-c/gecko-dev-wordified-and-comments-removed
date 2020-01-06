@@ -3060,13 +3060,12 @@ gRestartButton
 ;
 if
 (
+!
 restartArgs
 .
-size
+empty
 (
 )
->
-0
 )
 {
 gRestartButton
