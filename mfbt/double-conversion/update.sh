@@ -130,6 +130,8 @@ LOCAL_CLONE
 "
 TMPDIR
 /
+new
+-
 double
 -
 conversion
@@ -200,7 +202,9 @@ DEST
 =
 .
 /
-source
+double
+-
+conversion
 mv
 "
 DEST
@@ -209,6 +213,11 @@ DEST
 TMPDIR
 "
 /
+old
+-
+double
+-
+conversion
 mkdir
 "
 DEST

@@ -15,11 +15,15 @@ h
 "
 #
 include
-"
+<
+double
+-
+conversion
+/
 utils
 .
 h
-"
+>
 namespace
 double_conversion
 {
@@ -444,6 +448,9 @@ ALLOW_TRAILING_SPACES
 ALLOW_SPACES_AFTER_SIGN
 =
 32
+ALLOW_CASE_INSENSIBILITY
+=
+64
 }
 ;
 StringToDoubleConverter

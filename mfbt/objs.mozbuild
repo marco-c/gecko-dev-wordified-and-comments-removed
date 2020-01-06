@@ -103,7 +103,9 @@ double
 -
 conversion
 /
-source
+double
+-
+conversion
 /
 bignum
 -
@@ -116,7 +118,9 @@ double
 -
 conversion
 /
-source
+double
+-
+conversion
 /
 bignum
 .
@@ -127,7 +131,9 @@ double
 -
 conversion
 /
-source
+double
+-
+conversion
 /
 cached
 -
@@ -140,7 +146,9 @@ double
 -
 conversion
 /
-source
+double
+-
+conversion
 /
 diy
 -
@@ -153,7 +161,9 @@ double
 -
 conversion
 /
-source
+double
+-
+conversion
 /
 double
 -
@@ -166,7 +176,9 @@ double
 -
 conversion
 /
-source
+double
+-
+conversion
 /
 fast
 -
@@ -179,7 +191,9 @@ double
 -
 conversion
 /
-source
+double
+-
+conversion
 /
 fixed
 -
@@ -192,7 +206,9 @@ double
 -
 conversion
 /
-source
+double
+-
+conversion
 /
 strtod
 .
