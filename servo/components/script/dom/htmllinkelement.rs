@@ -2087,15 +2087,6 @@ input
 )
 ;
 let
-win
-=
-document
-.
-window
-(
-)
-;
-let
 doc_url
 =
 document
@@ -2114,11 +2105,6 @@ new_for_cssom
 (
 &
 doc_url
-win
-.
-css_error_reporter
-(
-)
 Some
 (
 CssRuleType

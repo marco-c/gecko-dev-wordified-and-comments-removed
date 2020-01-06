@@ -12450,6 +12450,9 @@ into
 }
 fn
 parse_property_into
+<
+R
+>
 (
 declarations
 :
@@ -12481,7 +12484,7 @@ QuirksMode
 reporter
 :
 &
-ParseErrorReporter
+R
 )
 -
 >
@@ -12492,6 +12495,10 @@ Result
 (
 )
 >
+where
+R
+:
+ParseErrorReporter
 {
 use
 style_traits
@@ -12795,11 +12802,6 @@ data
 }
 ;
 let
-reporter
-=
-NullReporter
-;
-let
 context
 =
 ParserContext
@@ -12812,8 +12814,6 @@ Origin
 :
 Author
 url_data
-&
-reporter
 Some
 (
 CssRuleType
@@ -15189,11 +15189,6 @@ dummy_url_data
 }
 ;
 let
-reporter
-=
-NullReporter
-;
-let
 context
 =
 ParserContext
@@ -15202,8 +15197,6 @@ ParserContext
 new_for_cssom
 (
 url_data
-&
-reporter
 Some
 (
 CssRuleType
@@ -15424,11 +15417,6 @@ dummy_url_data
 }
 ;
 let
-reporter
-=
-NullReporter
-;
-let
 context
 =
 ParserContext
@@ -15437,8 +15425,6 @@ ParserContext
 new_for_cssom
 (
 url_data
-&
-reporter
 Some
 (
 CssRuleType
@@ -15532,11 +15518,6 @@ dummy_url_data
 }
 ;
 let
-reporter
-=
-NullReporter
-;
-let
 context
 =
 ParserContext
@@ -15545,8 +15526,6 @@ ParserContext
 new_for_cssom
 (
 url_data
-&
-reporter
 Some
 (
 CssRuleType
@@ -18472,11 +18451,6 @@ to_string
 }
 ;
 let
-error_reporter
-=
-NullReporter
-;
-let
 context
 =
 ParserContext
@@ -18489,8 +18463,6 @@ Origin
 :
 Author
 url_data
-&
-error_reporter
 Some
 (
 CssRuleType
@@ -18863,11 +18835,6 @@ dummy_url_data
 }
 ;
 let
-reporter
-=
-NullReporter
-;
-let
 context
 =
 ParserContext
@@ -18876,8 +18843,6 @@ ParserContext
 new_for_cssom
 (
 url_data
-&
-reporter
 Some
 (
 CssRuleType

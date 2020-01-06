@@ -269,6 +269,9 @@ Stylesheet
 pub
 fn
 from_bytes
+<
+R
+>
 (
 bytes
 :
@@ -311,7 +314,7 @@ StylesheetLoader
 error_reporter
 :
 &
-ParseErrorReporter
+R
 quirks_mode
 :
 QuirksMode
@@ -319,6 +322,10 @@ QuirksMode
 -
 >
 Stylesheet
+where
+R
+:
+ParseErrorReporter
 {
 let
 (
@@ -364,6 +371,9 @@ quirks_mode
 pub
 fn
 update_from_bytes
+<
+R
+>
 (
 existing
 :
@@ -401,8 +411,12 @@ StylesheetLoader
 error_reporter
 :
 &
-ParseErrorReporter
+R
 )
+where
+R
+:
+ParseErrorReporter
 {
 let
 (

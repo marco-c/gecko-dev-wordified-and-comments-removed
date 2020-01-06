@@ -503,11 +503,6 @@ new_for_cssom
 (
 &
 url
-win
-.
-css_error_reporter
-(
-)
 Some
 (
 CssRuleType

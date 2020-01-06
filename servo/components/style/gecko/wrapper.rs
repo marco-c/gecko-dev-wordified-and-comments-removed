@@ -2830,6 +2830,9 @@ le
 pub
 fn
 parse_style_attribute
+<
+R
+>
 (
 value
 :
@@ -2845,11 +2848,15 @@ QuirksMode
 reporter
 :
 &
-ParseErrorReporter
+R
 )
 -
 >
 PropertyDeclarationBlock
+where
+R
+:
+ParseErrorReporter
 {
 parse_style_attribute
 (

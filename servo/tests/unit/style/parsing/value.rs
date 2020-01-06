@@ -14,12 +14,6 @@ ParserInput
 }
 ;
 use
-media_queries
-:
-:
-CSSErrorReporterTest
-;
-use
 style
 :
 :
@@ -184,11 +178,6 @@ unwrap
 )
 ;
 let
-reporter
-=
-CSSErrorReporterTest
-;
-let
 context
 =
 ParserContext
@@ -202,8 +191,6 @@ Origin
 Author
 &
 url
-&
-reporter
 Some
 (
 CssRuleType
