@@ -5838,7 +5838,7 @@ layerManager
 layerManager
 -
 >
-AsShadowForwarder
+AsKnowsCompositor
 (
 )
 :
