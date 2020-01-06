@@ -37,6 +37,7 @@ HighlightSource
 {
 VISITED
 BOOKMARKED
+POCKET
 }
 public
 static

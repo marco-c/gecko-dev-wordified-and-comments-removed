@@ -167,15 +167,6 @@ activity_stream_base_margin
 "
 android
 :
-text
-=
-"
-string
-/
-activity_stream_highlights
-"
-android
-:
 layout_width
 =
 "

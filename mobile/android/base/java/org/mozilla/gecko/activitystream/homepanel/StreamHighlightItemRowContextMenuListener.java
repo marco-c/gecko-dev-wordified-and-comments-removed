@@ -31,7 +31,7 @@ homepanel
 .
 stream
 .
-HighlightItemRow
+WebpageItemRow
 ;
 public
 interface
@@ -40,7 +40,7 @@ StreamHighlightItemRowContextMenuListener
 void
 openContextMenu
 (
-HighlightItemRow
+WebpageItemRow
 highlightItem
 int
 position
