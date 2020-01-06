@@ -1098,7 +1098,7 @@ aProvider
 const
 nsCString
 &
-aPrefix
+aFullHash
 )
 ;
 void

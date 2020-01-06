@@ -1697,7 +1697,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 LOG
@@ -1787,7 +1787,7 @@ HttpBackgroundChannelParent
 OnSetClassifierMatchedInfo
 aList
 aProvider
-aPrefix
+aFullHash
 )
 NS_DISPATCH_NORMAL
 )
@@ -1820,11 +1820,11 @@ aList
 ;
 info
 .
-prefix
+fullhash
 (
 )
 =
-aPrefix
+aFullHash
 ;
 info
 .

@@ -225,12 +225,12 @@ that
 matched
 *
 param
-aPrefix
+aFullHash
 *
 String
 represents
+full
 hash
-prefix
 that
 matched
 *
@@ -249,7 +249,7 @@ ACString
 aProvider
 in
 ACString
-aPrefix
+aFullHash
 )
 ;
 /

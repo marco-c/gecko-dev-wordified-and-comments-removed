@@ -223,10 +223,10 @@ google
 )
 *
 param
-aPrefix
+aFullHash
 *
-Hash
-prefix
+Full
+hash
 of
 URL
 that
@@ -248,7 +248,7 @@ ACString
 aProvider
 in
 ACString
-aPrefix
+aFullHash
 )
 ;
 /
@@ -288,8 +288,8 @@ matchedProvider
 *
 *
 *
-Hash
-prefix
+Full
+hash
 of
 URL
 that
@@ -299,7 +299,7 @@ matched
 readonly
 attribute
 ACString
-matchedPrefix
+matchedFullHash
 ;
 }
 ;

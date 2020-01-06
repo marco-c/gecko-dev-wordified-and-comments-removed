@@ -193,7 +193,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 ;
 protected

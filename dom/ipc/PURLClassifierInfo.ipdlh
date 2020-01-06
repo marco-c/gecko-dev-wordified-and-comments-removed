@@ -87,7 +87,7 @@ nsCString
 provider
 ;
 nsCString
-prefix
+fullhash
 ;
 }
 ;

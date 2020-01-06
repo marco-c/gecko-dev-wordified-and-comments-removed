@@ -1518,7 +1518,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 return

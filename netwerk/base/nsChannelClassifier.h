@@ -122,7 +122,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 ;
 nsresult
@@ -281,7 +281,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 ;
 static

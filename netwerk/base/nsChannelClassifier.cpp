@@ -3704,7 +3704,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 NS_ENSURE_ARG
@@ -3720,7 +3720,7 @@ IsEmpty
 NS_ENSURE_ARG
 (
 !
-aPrefix
+aFullHash
 .
 IsEmpty
 (
@@ -3751,7 +3751,7 @@ SetClassifierMatchedInfo
 (
 aList
 aProvider
-aPrefix
+aFullHash
 )
 ;
 return
@@ -3792,7 +3792,7 @@ SetMatchedInfo
 (
 aList
 aProvider
-aPrefix
+aFullHash
 )
 ;
 }
@@ -4195,7 +4195,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 nsIURI
 *
 aWhitelistURI
@@ -4217,9 +4217,9 @@ mProvider
 (
 aProvider
 )
-mPrefix
+mFullHash
 (
-aPrefix
+aFullHash
 )
 {
 }
@@ -4356,7 +4356,7 @@ OnClassifyCompleteInternal
 rv
 mList
 mProvider
-mPrefix
+mFullHash
 )
 ;
 mClosure
@@ -4395,7 +4395,7 @@ nsCString
 mProvider
 ;
 nsCString
-mPrefix
+mFullHash
 ;
 }
 ;
@@ -4447,7 +4447,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 ;
 private
@@ -4497,7 +4497,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 nsresult
@@ -4584,7 +4584,7 @@ OnClassifyComplete
 status
 aLists
 aProvider
-aPrefix
+aFullHash
 )
 ;
 }
@@ -4708,7 +4708,7 @@ IsTrackerBlacklistedCallback
 this
 aLists
 aProvider
-aPrefix
+aFullHash
 whitelistURI
 )
 ;
@@ -4812,7 +4812,7 @@ OnClassifyComplete
 status
 aLists
 aProvider
-aPrefix
+aFullHash
 )
 ;
 }
@@ -4839,7 +4839,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 LOG
@@ -4893,7 +4893,7 @@ OnClassifyComplete
 aErrorCode
 aLists
 aProvider
-aPrefix
+aFullHash
 )
 ;
 }
@@ -5038,7 +5038,7 @@ OnClassifyComplete
 NS_OK
 aLists
 aProvider
-aPrefix
+aFullHash
 )
 ;
 }
@@ -5434,7 +5434,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 MOZ_ASSERT
@@ -5477,7 +5477,7 @@ nsChannelClassifier
 this
 aList
 aProvider
-aPrefix
+aFullHash
 whitelistURI
 )
 ;
@@ -5507,7 +5507,7 @@ OnClassifyCompleteInternal
 aErrorCode
 aList
 aProvider
-aPrefix
+aFullHash
 )
 ;
 }
@@ -5530,7 +5530,7 @@ aProvider
 const
 nsACString
 &
-aPrefix
+aFullHash
 )
 {
 if
@@ -5675,7 +5675,7 @@ mChannel
 aErrorCode
 aList
 aProvider
-aPrefix
+aFullHash
 )
 ;
 mChannel

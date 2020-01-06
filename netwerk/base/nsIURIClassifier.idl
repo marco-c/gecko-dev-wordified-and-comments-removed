@@ -221,10 +221,10 @@ that
 matched
 *
 param
-aPrefix
+aFullHash
 *
-Hash
-prefix
+Full
+hash
 of
 URL
 that
@@ -245,7 +245,7 @@ ACString
 aProvider
 in
 ACString
-aPrefix
+aFullHash
 )
 ;
 }

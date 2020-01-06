@@ -374,7 +374,7 @@ mozilla
 ]
 ;
 function
-hashPrefix
+hash
 (
 str
 )
@@ -486,12 +486,6 @@ finish
 (
 false
 )
-.
-slice
-(
-0
-4
-)
 ;
 }
 var
@@ -538,7 +532,7 @@ provider
 :
 "
 "
-prefix
+fullhash
 :
 (
 function
@@ -546,7 +540,7 @@ function
 )
 {
 return
-hashPrefix
+hash
 (
 "
 malware
@@ -610,7 +604,7 @@ provider
 "
 mozilla
 "
-prefix
+fullhash
 :
 (
 function
@@ -618,7 +612,7 @@ function
 )
 {
 return
-hashPrefix
+hash
 (
 "
 malware1
@@ -679,7 +673,7 @@ provider
 "
 mozilla
 "
-prefix
+fullhash
 :
 (
 function
@@ -687,7 +681,7 @@ function
 )
 {
 return
-hashPrefix
+hash
 (
 "
 malware2
@@ -748,7 +742,7 @@ provider
 "
 google
 "
-prefix
+fullhash
 :
 (
 function
@@ -756,7 +750,7 @@ function
 )
 {
 return
-hashPrefix
+hash
 (
 "
 malware3
@@ -1101,7 +1095,7 @@ function
 errorCode
 table
 provider
-prefix
+fullhash
 )
 {
 is
@@ -1163,14 +1157,14 @@ provider
 ;
 is
 (
-prefix
+fullhash
 btoa
 (
 test
 .
 expect
 .
-prefix
+fullhash
 )
 Test
 url
@@ -1180,7 +1174,8 @@ test
 url
 }
 correct
-prefix
+full
+hash
 )
 ;
 runNextTest
