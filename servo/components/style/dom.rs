@@ -243,7 +243,7 @@ use
 hash
 :
 :
-HashMap
+FnvHashMap
 ;
 use
 std
@@ -2623,7 +2623,7 @@ self
 )
 -
 >
-HashMap
+FnvHashMap
 <
 TransitionProperty
 Arc
@@ -2727,7 +2727,7 @@ ComputedValues
 existing_transitions
 :
 &
-HashMap
+FnvHashMap
 <
 TransitionProperty
 Arc

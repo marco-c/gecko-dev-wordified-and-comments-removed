@@ -3463,7 +3463,7 @@ use
 hash
 :
 :
-HashMap
+FnvHashMap
 ;
 use
 std
@@ -3890,7 +3890,7 @@ let
 mut
 area_indices
 =
-HashMap
+FnvHashMap
 :
 :
 <
@@ -3902,7 +3902,7 @@ usize
 >
 :
 :
-new
+default
 (
 )
 ;

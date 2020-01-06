@@ -4963,7 +4963,7 @@ use
 hash
 :
 :
-HashSet
+FnvHashSet
 ;
 let
 me
@@ -5000,10 +5000,10 @@ let
 mut
 seen
 =
-HashSet
+FnvHashSet
 :
 :
-new
+default
 (
 )
 ;
