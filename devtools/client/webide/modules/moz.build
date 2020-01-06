@@ -114,11 +114,6 @@ validator
 js
 '
 '
-build
-.
-js
-'
-'
 config
 -
 view
