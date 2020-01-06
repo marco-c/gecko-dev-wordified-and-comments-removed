@@ -3731,6 +3731,7 @@ source_location
 )
 }
 }
+pub
 fn
 get_location_with_offset
 (
