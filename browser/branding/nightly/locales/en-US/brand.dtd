@@ -72,6 +72,7 @@ Nightly
 ENTITY
 brandShortName
 "
+Firefox
 Nightly
 "
 >
@@ -80,6 +81,7 @@ Nightly
 ENTITY
 brandFullName
 "
+Firefox
 Nightly
 "
 >
