@@ -2591,6 +2591,16 @@ mCleanedUp
 ;
 }
 bool
+IsCleanedUp
+(
+)
+const
+{
+return
+mCleanedUp
+;
+}
+bool
 HadOriginalOpener
 (
 )
