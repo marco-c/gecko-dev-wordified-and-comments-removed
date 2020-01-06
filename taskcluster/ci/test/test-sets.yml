@@ -1561,3 +1561,13 @@ mochitest
 devtools
 -
 chrome
+mochitest
+-
+headless
+:
+-
+mochitest
+-
+plain
+-
+headless

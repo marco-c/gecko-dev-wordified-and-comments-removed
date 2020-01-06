@@ -274,6 +274,10 @@ tests
 reftest
 -
 stylo
+-
+mochitest
+-
+headless
 linux64
 /
 opt
@@ -327,6 +331,10 @@ stylo
 disabled
 -
 awsy
+-
+mochitest
+-
+headless
 linux64
 -
 nightly
