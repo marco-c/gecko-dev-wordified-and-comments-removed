@@ -831,6 +831,21 @@ kwargs
 kwargs
 )
         
+test_source_kwargs
+=
+{
+"
+processes
+"
+:
+kwargs
+[
+"
+processes
+"
+]
+}
+        
 if
 kwargs
 [
@@ -847,11 +862,6 @@ test_source_cls
 testloader
 .
 SingleTestSource
-            
-test_source_kwargs
-=
-{
-}
         
 else
 :
@@ -863,19 +873,18 @@ testloader
 PathGroupedSource
             
 test_source_kwargs
-=
-{
+[
 "
 depth
 "
-:
+]
+=
 kwargs
 [
 "
 run_by_dir
 "
 ]
-}
         
 logger
 .
