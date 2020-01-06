@@ -2240,6 +2240,17 @@ float
 aOpacity
 )
 ;
+static
+AnimationValue
+Transform
+(
+StyleBackendType
+aBackendType
+nsCSSValueSharedList
+&
+aList
+)
+;
 StyleAnimationValue
 mGecko
 ;
