@@ -30746,6 +30746,10 @@ MIRType
 String
 )
 ;
+setGuard
+(
+)
+;
 }
 public
 :
