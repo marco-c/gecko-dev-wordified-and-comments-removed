@@ -1027,7 +1027,7 @@ False
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -1100,7 +1100,7 @@ False
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =
@@ -1173,7 +1173,7 @@ False
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =

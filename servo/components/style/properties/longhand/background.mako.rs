@@ -169,7 +169,7 @@ True
 animation_value_type
 =
 "
-none
+discrete
 "
 has_uncacheable_values
 =
@@ -333,7 +333,7 @@ repeat
 animation_value_type
 =
 "
-none
+discrete
 "
 spec
 =

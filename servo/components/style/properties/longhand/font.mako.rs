@@ -99,7 +99,7 @@ gecko
 ]
 macro_rules
 !
-impl_gecko_keyword_from_trait
+impl_gecko_keyword_conversions
 {
 (
 name
@@ -486,7 +486,7 @@ family
 animation_value_type
 =
 "
-none
+discrete
 "
 need_index
 =
@@ -12229,7 +12229,7 @@ gecko
 "
 )
 ]
-impl_gecko_keyword_from_trait
+impl_gecko_keyword_conversions
 !
 (
 VariantEastAsian
@@ -13427,7 +13427,7 @@ gecko
 "
 )
 ]
-impl_gecko_keyword_from_trait
+impl_gecko_keyword_conversions
 !
 (
 VariantLigatures
@@ -14485,7 +14485,7 @@ gecko
 "
 )
 ]
-impl_gecko_keyword_from_trait
+impl_gecko_keyword_conversions
 !
 (
 VariantNumeric
@@ -14588,7 +14588,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 extra_prefixes
 =

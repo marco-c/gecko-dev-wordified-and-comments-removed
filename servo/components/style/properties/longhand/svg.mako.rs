@@ -695,7 +695,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 extra_prefixes
 =
@@ -1468,7 +1468,7 @@ webkit
 animation_value_type
 =
 "
-none
+discrete
 "
 flags
 =
