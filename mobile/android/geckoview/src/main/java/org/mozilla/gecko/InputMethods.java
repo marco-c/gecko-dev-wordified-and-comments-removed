@@ -604,4 +604,12 @@ inputMethod
 )
 ;
 }
+public
+static
+final
+int
+IME_FLAG_NO_PERSONALIZED_LEARNING
+=
+0x1000000
+;
 }
