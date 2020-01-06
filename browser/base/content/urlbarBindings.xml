@@ -8746,13 +8746,9 @@ TabSelect
 :
 this
 .
-detachController
-(
-)
-;
-this
+controller
 .
-attachController
+resetInternalState
 (
 )
 ;
