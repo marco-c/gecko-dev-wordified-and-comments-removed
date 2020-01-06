@@ -6167,6 +6167,7 @@ guard
 )
 ;
 if
+!
 C
 :
 :
@@ -6184,6 +6185,9 @@ quirks_mode
 import_rule
 )
 {
+continue
+;
+}
 Some
 (
 import_rule
@@ -6205,11 +6209,6 @@ iter
 (
 )
 )
-}
-else
-{
-None
-}
 }
 CssRule
 :
@@ -6235,6 +6234,7 @@ guard
 )
 ;
 if
+!
 C
 :
 :
@@ -6252,6 +6252,9 @@ quirks_mode
 doc_rule
 )
 {
+continue
+;
+}
 Some
 (
 doc_rule
@@ -6271,11 +6274,6 @@ iter
 (
 )
 )
-}
-else
-{
-None
-}
 }
 CssRule
 :
@@ -6301,6 +6299,7 @@ guard
 )
 ;
 if
+!
 C
 :
 :
@@ -6318,6 +6317,9 @@ quirks_mode
 media_rule
 )
 {
+continue
+;
+}
 Some
 (
 media_rule
@@ -6337,11 +6339,6 @@ iter
 (
 )
 )
-}
-else
-{
-None
-}
 }
 CssRule
 :
@@ -6367,6 +6364,7 @@ guard
 )
 ;
 if
+!
 C
 :
 :
@@ -6384,6 +6382,9 @@ quirks_mode
 supports_rule
 )
 {
+continue
+;
+}
 Some
 (
 supports_rule
@@ -6403,11 +6404,6 @@ iter
 (
 )
 )
-}
-else
-{
-None
-}
 }
 CssRule
 :
