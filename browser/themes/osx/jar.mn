@@ -2816,6 +2816,9 @@ horizontalbar
 2x
 .
 png
+#
+ifndef
+MOZ_PHOTON_THEME
 skin
 /
 classic
@@ -2838,6 +2841,8 @@ noise
 .
 png
 )
+#
+endif
 skin
 /
 classic
