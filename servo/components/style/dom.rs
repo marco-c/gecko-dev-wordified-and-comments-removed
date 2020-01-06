@@ -1742,6 +1742,14 @@ PropertyDeclarationBlock
 >
 ;
 fn
+unset_dirty_style_attribute
+(
+&
+self
+)
+{
+}
+fn
 get_smil_override
 (
 &
