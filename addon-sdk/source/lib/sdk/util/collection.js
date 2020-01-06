@@ -122,10 +122,14 @@ array
 ]
 ;
 this
+[
+Symbol
 .
-__iterator__
+iterator
+]
 =
 function
+*
 Collection___iterator__
 (
 )

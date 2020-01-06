@@ -189,6 +189,7 @@ isPrivateBrowsingSupported
 ;
 }
 function
+*
 windowIterator
 (
 )
@@ -242,6 +243,7 @@ windowIterator
 windowIterator
 ;
 function
+*
 browserWindowIterator
 (
 )
