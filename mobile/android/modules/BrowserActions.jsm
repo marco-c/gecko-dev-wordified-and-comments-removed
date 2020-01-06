@@ -310,6 +310,8 @@ name
 :
 browserAction
 .
+defaults
+.
 name
 }
 )
