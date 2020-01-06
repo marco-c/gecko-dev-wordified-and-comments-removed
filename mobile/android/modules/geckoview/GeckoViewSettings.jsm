@@ -280,10 +280,10 @@ messageManager
 .
 loadFrameScript
 (
-'
+"
 data
 :
-'
+"
 +
 docShell
 .
@@ -471,10 +471,10 @@ messageManager
 .
 loadFrameScript
 (
-'
+"
 data
 :
-'
+"
 +
 docShell
 .
