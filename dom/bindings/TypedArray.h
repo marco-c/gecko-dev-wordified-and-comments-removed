@@ -174,7 +174,7 @@ UnsafeTraceRoot
 (
 trc
 &
-mTypedObj
+mWrappedObj
 "
 TypedArray
 .
