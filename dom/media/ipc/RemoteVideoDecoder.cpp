@@ -318,7 +318,6 @@ __func__
 }
 [
 self
-this
 ]
 (
 const
