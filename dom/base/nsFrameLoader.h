@@ -428,6 +428,11 @@ frame
 )
 ;
 void
+MaybeShowFrame
+(
+)
+;
+void
 MarginsChanged
 (
 uint32_t
