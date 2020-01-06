@@ -719,13 +719,16 @@ wr
 WebRenderAPI
 *
 aAPI
+Range
+<
 const
 wr
 :
 :
 ImageKey
+>
 &
-aImageKey
+aImageKeys
 const
 wr
 :
@@ -754,7 +757,7 @@ mWrappedTextureHost
 AddWRImage
 (
 aAPI
-aImageKey
+aImageKeys
 aExtID
 )
 ;
