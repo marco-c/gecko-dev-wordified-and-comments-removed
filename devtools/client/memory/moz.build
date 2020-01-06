@@ -141,11 +141,6 @@ store
 js
 '
 '
-telemetry
-.
-js
-'
-'
 utils
 .
 js
