@@ -6464,17 +6464,6 @@ mips64
 x86_shared
 )
 ;
-inline
-void
-branchToComputedAddress
-(
-const
-BaseIndex
-&
-address
-)
-PER_ARCH
-;
 private
 :
 template
