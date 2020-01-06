@@ -92,6 +92,17 @@ GlobalSession
 globalSession
 Exception
 ex
+String
+reason
+)
+;
+void
+handleError
+(
+GlobalSession
+globalSession
+Exception
+ex
 )
 ;
 void
