@@ -125,6 +125,10 @@ VROculusSession
 void
 Refresh
 (
+bool
+aForceRefresh
+=
+false
 )
 ;
 bool
@@ -231,6 +235,9 @@ mTelemetry
 ;
 bool
 mPresenting
+;
+bool
+mDrawBlack
 ;
 ~
 VROculusSession

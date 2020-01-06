@@ -1527,10 +1527,10 @@ uint32_t
 gfx
 :
 :
-VRLayerParent
+VRManager
 :
 :
-SubmitFrame
+NotifyVRVsync
 "
 vm
 &
