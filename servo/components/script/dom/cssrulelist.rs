@@ -665,7 +665,10 @@ parent_stylesheet
 .
 shared_lock
 rule
+&
 parent_stylesheet
+.
+contents
 index
 nested
 None

@@ -442,6 +442,8 @@ rules
 =
 s
 .
+contents
+.
 rules
 .
 read_with

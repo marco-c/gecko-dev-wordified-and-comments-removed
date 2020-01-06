@@ -7,6 +7,7 @@ document_rule
 mod
 font_face_rule
 ;
+pub
 mod
 import_rule
 ;
@@ -79,6 +80,7 @@ shared_lock
 :
 :
 {
+DeepCloneParams
 DeepCloneWithLock
 Locked
 SharedRwLock
@@ -260,6 +262,8 @@ stylesheet
 {
 Namespaces
 Stylesheet
+StylesheetContents
+StylesheetInDocument
 UserAgentStylesheets
 }
 ;
@@ -1091,10 +1095,14 @@ css
 :
 &
 str
-parent_stylesheet
+parent_stylesheet_contents
 :
 &
-Stylesheet
+StylesheetContents
+shared_lock
+:
+&
+SharedRwLock
 state
 :
 Option
@@ -1123,7 +1131,7 @@ SingleRuleParseError
 let
 url_data
 =
-parent_stylesheet
+parent_stylesheet_contents
 .
 url_data
 .
@@ -1144,7 +1152,7 @@ ParserContext
 :
 new
 (
-parent_stylesheet
+parent_stylesheet_contents
 .
 origin
 &
@@ -1153,7 +1161,7 @@ url_data
 error_reporter
 None
 PARSING_MODE_DEFAULT
-parent_stylesheet
+parent_stylesheet_contents
 .
 quirks_mode
 )
@@ -1188,7 +1196,7 @@ let
 mut
 guard
 =
-parent_stylesheet
+parent_stylesheet_contents
 .
 namespaces
 .
@@ -1217,7 +1225,7 @@ TopLevelRuleParser
 {
 stylesheet_origin
 :
-parent_stylesheet
+parent_stylesheet_contents
 .
 origin
 context
@@ -1226,8 +1234,6 @@ context
 shared_lock
 :
 &
-parent_stylesheet
-.
 shared_lock
 loader
 :
@@ -1327,6 +1333,10 @@ guard
 :
 &
 SharedRwLockReadGuard
+params
+:
+&
+DeepCloneParams
 )
 -
 >
@@ -1400,6 +1410,13 @@ read_with
 (
 guard
 )
+.
+deep_clone_with_lock
+(
+lock
+guard
+params
+)
 ;
 CssRule
 :
@@ -1416,10 +1433,6 @@ lock
 wrap
 (
 rule
-.
-clone
-(
-)
 )
 )
 )
@@ -1465,6 +1478,7 @@ deep_clone_with_lock
 (
 lock
 guard
+params
 )
 )
 )
@@ -1511,6 +1525,7 @@ deep_clone_with_lock
 (
 lock
 guard
+params
 )
 )
 )
@@ -1689,6 +1704,7 @@ deep_clone_with_lock
 (
 lock
 guard
+params
 )
 )
 )
@@ -1735,6 +1751,7 @@ deep_clone_with_lock
 (
 lock
 guard
+params
 )
 )
 )
@@ -1781,6 +1798,7 @@ deep_clone_with_lock
 (
 lock
 guard
+params
 )
 )
 )
@@ -1827,6 +1845,7 @@ deep_clone_with_lock
 (
 lock
 guard
+params
 )
 )
 )
