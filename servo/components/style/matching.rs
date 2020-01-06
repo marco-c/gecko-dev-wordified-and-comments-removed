@@ -3430,6 +3430,13 @@ p
 is_first_letter
 (
 )
+|
+|
+p
+.
+is_first_line
+(
+)
 )
 {
 return
