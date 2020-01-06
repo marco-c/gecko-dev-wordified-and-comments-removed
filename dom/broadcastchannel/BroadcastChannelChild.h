@@ -119,6 +119,14 @@ aWhy
 )
 override
 ;
+void
+DispatchError
+(
+JSContext
+*
+aCx
+)
+;
 BroadcastChannel
 *
 mBC
