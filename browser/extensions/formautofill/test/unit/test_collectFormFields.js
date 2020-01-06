@@ -6540,6 +6540,11 @@ verifyDetails
 (
 handler
 .
+sections
+[
+0
+]
+.
 address
 .
 fieldDetails
@@ -6551,6 +6556,11 @@ addressFieldDetails
 verifyDetails
 (
 handler
+.
+sections
+[
+0
+]
 .
 creditCard
 .
