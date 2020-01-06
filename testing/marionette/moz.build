@@ -175,3 +175,13 @@ firefox
 ui
 "
 ]
+SPHINX_TREES
+[
+"
+marionette
+"
+]
+=
+"
+doc
+"

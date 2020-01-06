@@ -80,3 +80,13 @@ Testing
 Marionette
 "
 )
+SPHINX_TREES
+[
+"
+geckodriver
+"
+]
+=
+"
+doc
+"
