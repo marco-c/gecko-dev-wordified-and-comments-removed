@@ -19213,9 +19213,6 @@ this
 if
 (
 aDoc
-&
-&
-aDoc
 -
 >
 GetServoRestyleRoot
