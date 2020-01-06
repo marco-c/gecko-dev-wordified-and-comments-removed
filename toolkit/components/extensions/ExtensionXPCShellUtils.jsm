@@ -1141,6 +1141,14 @@ id
 ;
 this
 .
+uuid
+=
+extension
+.
+uuid
+;
+this
+.
 attachExtension
 (
 extension
