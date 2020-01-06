@@ -190,15 +190,7 @@ bindings
 Gecko_CalcStyleDifference
 (
 old_style
-.
-as_style_context
-(
-)
 new_style
-.
-as_style_context
-(
-)
 source
 .
 mBits

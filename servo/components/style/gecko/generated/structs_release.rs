@@ -144,7 +144,7 @@ Option
 <
 :
 :
-stylearc
+servo_arc
 :
 :
 Arc
@@ -180,7 +180,7 @@ Option
 <
 :
 :
-stylearc
+servo_arc
 :
 :
 RawOffsetArc
@@ -217,7 +217,7 @@ T
 =
 :
 :
-stylearc
+servo_arc
 :
 :
 RawOffsetArc
@@ -242,7 +242,12 @@ ownership
 :
 Strong
 <
-ServoStyleContext
+:
+:
+properties
+:
+:
+ComputedValues
 >
 ;
 #
@@ -58134,7 +58139,7 @@ mSource
 root
 :
 :
-ServoComputedValues
+ServoComputedData
 }
 #
 [
@@ -152188,7 +152193,7 @@ Debug
 ]
 pub
 struct
-ServoComputedValues
+ServoComputedData
 {
 pub
 Font
@@ -152751,7 +152756,7 @@ ServoFontComputationData
 test
 ]
 fn
-bindgen_test_layout_ServoComputedValues
+bindgen_test_layout_ServoComputedData
 (
 )
 {
@@ -152770,7 +152775,7 @@ size_of
 :
 :
 <
-ServoComputedValues
+ServoComputedData
 >
 (
 )
@@ -152786,7 +152791,7 @@ of
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 )
 )
@@ -152806,7 +152811,7 @@ align_of
 :
 :
 <
-ServoComputedValues
+ServoComputedData
 >
 (
 )
@@ -152821,7 +152826,7 @@ of
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 )
 )
@@ -152839,7 +152844,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -152864,7 +152869,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -152891,7 +152896,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -152916,7 +152921,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -152943,7 +152948,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -152968,7 +152973,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -152995,7 +153000,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153020,7 +153025,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153047,7 +153052,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153072,7 +153077,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153099,7 +153104,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153124,7 +153129,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153151,7 +153156,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153176,7 +153181,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153203,7 +153208,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153228,7 +153233,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153255,7 +153260,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153280,7 +153285,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153307,7 +153312,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153332,7 +153337,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153359,7 +153364,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153384,7 +153389,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153411,7 +153416,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153436,7 +153441,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153463,7 +153468,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153488,7 +153493,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153515,7 +153520,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153540,7 +153545,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153567,7 +153572,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153592,7 +153597,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153619,7 +153624,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153644,7 +153649,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153671,7 +153676,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153696,7 +153701,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153723,7 +153728,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153748,7 +153753,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153775,7 +153780,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153800,7 +153805,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153827,7 +153832,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153852,7 +153857,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153879,7 +153884,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153904,7 +153909,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153931,7 +153936,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -153956,7 +153961,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -153983,7 +153988,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -154008,7 +154013,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -154035,7 +154040,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -154060,7 +154065,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -154087,7 +154092,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -154112,7 +154117,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -154139,7 +154144,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -154164,7 +154169,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -154191,7 +154196,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -154216,7 +154221,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -154243,7 +154248,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -154268,7 +154273,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -154295,7 +154300,7 @@ unsafe
 as
 *
 const
-ServoComputedValues
+ServoComputedData
 )
 )
 .
@@ -154320,7 +154325,7 @@ field
 stringify
 !
 (
-ServoComputedValues
+ServoComputedData
 )
 "
 :
@@ -154352,7 +154357,7 @@ Copy
 ]
 pub
 struct
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 {
 pub
 mPtr
@@ -154362,14 +154367,14 @@ const
 root
 :
 :
-ServoComputedValues
+ServoComputedData
 }
 #
 [
 test
 ]
 fn
-bindgen_test_layout_ServoComputedValuesForgotten
+bindgen_test_layout_ServoComputedDataForgotten
 (
 )
 {
@@ -154388,7 +154393,7 @@ size_of
 :
 :
 <
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 >
 (
 )
@@ -154404,7 +154409,7 @@ of
 stringify
 !
 (
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 )
 )
 )
@@ -154424,7 +154429,7 @@ align_of
 :
 :
 <
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 >
 (
 )
@@ -154439,7 +154444,7 @@ of
 stringify
 !
 (
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 )
 )
 )
@@ -154457,7 +154462,7 @@ unsafe
 as
 *
 const
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 )
 )
 .
@@ -154482,7 +154487,7 @@ field
 stringify
 !
 (
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 )
 "
 :
@@ -154500,7 +154505,7 @@ mPtr
 impl
 Clone
 for
-ServoComputedValuesForgotten
+ServoComputedDataForgotten
 {
 fn
 clone
@@ -265550,25 +265555,14 @@ ServoStyleContext
 ;
 pub
 type
-ServoComputedValuesBorrowed
+ServoComputedDataBorrowed
 =
 *
 const
 root
 :
 :
-ServoComputedValues
-;
-pub
-type
-ServoComputedValuesBorrowedOrNull
-=
-*
-const
-root
-:
-:
-ServoComputedValues
+ServoComputedData
 ;
 pub
 type
