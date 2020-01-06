@@ -6,6 +6,13 @@ define
 __nsLookAndFeel
 #
 include
+<
+windows
+.
+h
+>
+#
+include
 "
 nsXPLookAndFeel
 .
