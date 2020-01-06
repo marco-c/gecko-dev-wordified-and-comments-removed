@@ -141,7 +141,6 @@ enable
 jemalloc
 '
 target
-build_project
 c_compiler
 )
 def
@@ -149,7 +148,6 @@ jemalloc
 (
 value
 target
-build_project
 c_compiler
 )
 :
@@ -170,16 +168,6 @@ value
 )
 or
 None
-if
-build_project
-=
-=
-'
-js
-'
-:
-return
-True
 if
 target
 .
