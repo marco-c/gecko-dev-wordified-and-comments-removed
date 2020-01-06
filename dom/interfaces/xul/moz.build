@@ -154,11 +154,6 @@ nsIDOMXULElement
 idl
 '
 '
-nsIDOMXULImageElement
-.
-idl
-'
-'
 nsIDOMXULLabeledControlEl
 .
 idl
