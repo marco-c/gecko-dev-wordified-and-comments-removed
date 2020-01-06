@@ -1213,17 +1213,6 @@ DownloadSummary
 "
 ]
 "
-E10SAddonsRollout
-.
-jsm
-"
-:
-[
-"
-isAddonPartOfE10SRollout
-"
-]
-"
 elementslib
 .
 js

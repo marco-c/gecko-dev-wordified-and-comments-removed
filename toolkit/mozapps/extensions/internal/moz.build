@@ -122,11 +122,6 @@ Content
 js
 '
 '
-E10SAddonsRollout
-.
-jsm
-'
-'
 GMPProvider
 .
 jsm
