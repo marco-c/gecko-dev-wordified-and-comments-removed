@@ -1098,14 +1098,6 @@ GetRootScrollFrameAsScrollable
 )
 const
 ;
-virtual
-nsIScrollableFrame
-*
-GetRootScrollFrameAsScrollableExternal
-(
-)
-const
-;
 already_AddRefed
 <
 nsIContent
