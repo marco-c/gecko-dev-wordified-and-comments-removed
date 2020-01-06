@@ -95,7 +95,11 @@ topsrcdir
 pwd
 )
 /
-vs2015u3
+vs2017_15
+.
+4
+.
+1
 "
 #
 When

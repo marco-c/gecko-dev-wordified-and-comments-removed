@@ -7,6 +7,4 @@ win32
 /
 mozconfig
 .
-vs2015
--
-win64
+vs2017
