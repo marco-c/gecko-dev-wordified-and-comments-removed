@@ -1531,10 +1531,8 @@ x
 )
 :
         
-return
-LogActionFilter
-(
-            
+x
+=
 LogLevelFilter
 (
 x
@@ -1542,7 +1540,22 @@ x
 WARNING
 "
 )
+        
+if
+not
+kwargs
+[
+"
+verify_log_full
+"
+]
+:
             
+x
+=
+LogActionFilter
+(
+x
 [
 "
 log
@@ -1552,6 +1565,9 @@ process_output
 "
 ]
 )
+        
+return
+x
     
 initial_handlers
 =
@@ -1616,6 +1632,24 @@ _state
 handlers
 =
 initial_handlers
+    
+logger
+.
+_state
+.
+running_tests
+=
+set
+(
+)
+    
+logger
+.
+_state
+.
+suite_started
+=
+False
     
 log
 .
