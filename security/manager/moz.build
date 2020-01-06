@@ -111,10 +111,13 @@ DIRS
 =
 [
 '
+locales
+'
+'
 ssl
 '
 '
-locales
+tools
 '
 ]
 if
