@@ -12694,8 +12694,13 @@ timers
 token
 ]
 =
-setTimeout
+SimpleTest
+.
+_originalSetTimeout
+.
+call
 (
+window
 onTimeout
 180000
 )
