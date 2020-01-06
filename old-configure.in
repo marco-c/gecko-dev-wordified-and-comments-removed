@@ -39822,6 +39822,13 @@ s
 wifi
 scanner
 dnl
+if
+test
+"
+MOZ_WIDGET_TOOLKIT
+"
+;
+then
 case
 "
 OS_TARGET
@@ -39866,6 +39873,7 @@ NECKO_WIFI_DBUS
 ;
 ;
 esac
+fi
 MOZ_ARG_DISABLE_BOOL
 (
 necko
