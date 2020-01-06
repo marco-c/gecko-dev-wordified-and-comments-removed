@@ -153,6 +153,9 @@ uint8_t
 >
 mBuffer
 ;
+bool
+mHasGrown
+;
 }
 ;
 }
