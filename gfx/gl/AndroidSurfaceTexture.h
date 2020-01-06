@@ -53,8 +53,8 @@ sdk
 SurfaceTexture
 :
 :
-Param
-surfaceTexture
+LocalRef
+aSurfaceTexture
 mozilla
 :
 :
@@ -62,8 +62,8 @@ gfx
 :
 :
 Matrix4x4
-*
-outMatrix
+&
+aMatrix
 )
 ;
 }
