@@ -321,6 +321,9 @@ sizeY
 IntSize
 sizeCbCr
 ;
+YUVColorSpace
+yUVColorSpace
+;
 }
 ;
 struct

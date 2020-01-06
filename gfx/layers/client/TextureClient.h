@@ -711,6 +711,9 @@ XP_WIN
 class
 D3D11TextureData
 ;
+class
+DXGIYCbCrTextureData
+;
 #
 endif
 class
@@ -1020,6 +1023,17 @@ virtual
 D3D11TextureData
 *
 AsD3D11TextureData
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+DXGIYCbCrTextureData
+*
+AsDXGIYCbCrTextureData
 (
 )
 {
