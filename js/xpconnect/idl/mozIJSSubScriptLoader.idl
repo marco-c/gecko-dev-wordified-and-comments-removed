@@ -181,6 +181,8 @@ file
 *
 resource
 :
+blob
+:
 or
 chrome
 :
@@ -319,6 +321,8 @@ file
 :
 *
 resource
+:
+blob
 :
 or
 chrome
