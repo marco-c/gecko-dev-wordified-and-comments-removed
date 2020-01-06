@@ -253,11 +253,7 @@ symbol
 :
 tc
 -
-SY
--
-stylo
--
-disabled
+SYsd
 (
 sy
 )
@@ -417,11 +413,7 @@ symbol
 :
 tc
 -
-SY
--
-stylo
--
-seq
+SYss
 (
 sy
 )
@@ -8128,7 +8120,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 c
 )
@@ -8451,7 +8443,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 d
 )
@@ -8774,7 +8766,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 g1
 )
@@ -9097,7 +9089,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 g2
 )
@@ -9420,7 +9412,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 g3
 )
@@ -9743,7 +9735,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 g4
 )
@@ -10070,7 +10062,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 g5
 )
@@ -10397,7 +10389,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 o
 )
@@ -10894,7 +10886,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 ps
 )
@@ -11034,7 +11026,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 p
 )
@@ -11338,7 +11330,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 s
 )
@@ -11661,7 +11653,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 tp
 )
@@ -11975,9 +11967,9 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
-tp6s
+tp6
 )
 virtualization
 :
@@ -12130,7 +12122,7 @@ description
 "
 Talos
 Stylo
-Threads
+sequential
 Tp6
 "
 suite
@@ -12151,9 +12143,9 @@ symbol
 :
 tc
 -
-Ts
+Tss
 (
-tp6st
+tp6
 )
 virtualization
 :
@@ -12500,7 +12492,7 @@ symbol
 :
 tc
 -
-Ts
+Tsd
 (
 x
 )
