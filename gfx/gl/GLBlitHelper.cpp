@@ -3502,6 +3502,15 @@ destSize
 destOrigin
 )
 ;
+case
+ImageFormat
+:
+:
+D3D9_RGB32_TEXTURE
+:
+return
+false
+;
 #
 endif
 default
