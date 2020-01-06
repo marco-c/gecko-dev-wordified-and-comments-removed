@@ -224,6 +224,11 @@ nsIContent
 aContent
 )
 ;
+void
+DistributionChanged
+(
+)
+;
 static
 bool
 IsPooledNode
