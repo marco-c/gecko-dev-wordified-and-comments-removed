@@ -63,13 +63,6 @@ UniquePtr
 .
 h
 "
-#
-include
-"
-PseudoStack
-.
-h
-"
 class
 SpliceableJSONWriter
 ;
@@ -1266,6 +1259,13 @@ include
 mozilla
 /
 ThreadLocal
+.
+h
+"
+#
+include
+"
+PseudoStack
 .
 h
 "
