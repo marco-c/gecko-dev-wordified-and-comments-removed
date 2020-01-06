@@ -136,6 +136,13 @@ xpcshell
 ini
 '
 '
+legacy
+/
+xpcshell
+.
+ini
+'
+'
 migration
 /
 xpcshell

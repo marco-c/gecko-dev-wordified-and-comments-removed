@@ -718,15 +718,13 @@ addVisits
 TEST_URI
 )
 ;
+await
 PlacesUtils
 .
 bookmarks
 .
-removeFolderChildren
+eraseEverything
 (
-PlacesUtils
-.
-unfiledBookmarksFolderId
 )
 ;
 await
