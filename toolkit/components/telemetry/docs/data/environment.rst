@@ -3301,14 +3301,6 @@ values
 are
 OS
 dependent
-but
-0
-means
-not
-sandboxed
-for
-all
-OS
 .
 Details
 of
