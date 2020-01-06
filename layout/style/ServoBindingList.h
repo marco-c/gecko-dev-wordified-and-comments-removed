@@ -1233,6 +1233,8 @@ property
 nsAString
 *
 buffer
+ServoStyleContextBorrowedOrNull
+computed_values
 )
 SERVO_BINDING_FUNC
 (
