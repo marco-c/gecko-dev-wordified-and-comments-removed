@@ -376,10 +376,11 @@ burner
 let
 otherTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await

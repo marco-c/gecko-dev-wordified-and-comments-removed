@@ -150,10 +150,11 @@ fileURL
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 fileURL
 )
 ;

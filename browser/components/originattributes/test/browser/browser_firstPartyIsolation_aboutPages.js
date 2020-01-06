@@ -1224,10 +1224,11 @@ aboutURLs
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

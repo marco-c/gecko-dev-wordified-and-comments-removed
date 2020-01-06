@@ -156,10 +156,11 @@ initProcess
 {
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

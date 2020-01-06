@@ -38,10 +38,11 @@ aReferrer
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 aURL
 {
 referrerURI

@@ -30,10 +30,11 @@ support
 let
 appTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 TEST_LINK_INITIAL
 )
 ;

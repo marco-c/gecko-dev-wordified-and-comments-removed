@@ -144,10 +144,11 @@ TEST_URL_PATH
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testUrlPath
 +
 "
@@ -648,10 +649,11 @@ TEST_URL_PATH
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 https
 "

@@ -319,10 +319,11 @@ length
 <
 tabCountForOverflow
 )
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

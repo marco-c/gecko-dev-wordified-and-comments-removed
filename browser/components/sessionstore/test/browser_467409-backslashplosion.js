@@ -128,10 +128,11 @@ test_nested_about_sessionrestore
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

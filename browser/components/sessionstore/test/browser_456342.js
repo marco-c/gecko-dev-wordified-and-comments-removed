@@ -25,10 +25,11 @@ test_restore_nonstandard_input_values
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;

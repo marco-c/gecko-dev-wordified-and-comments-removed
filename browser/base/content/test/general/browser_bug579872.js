@@ -6,10 +6,11 @@ test
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 waitForExplicitFinish

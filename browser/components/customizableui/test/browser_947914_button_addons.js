@@ -191,10 +191,11 @@ asyncCleanup
 (
 )
 {
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 initialLocation
 )
 ;

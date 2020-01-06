@@ -86,10 +86,11 @@ browser
 let
 unrestoredTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

@@ -375,10 +375,11 @@ NEWNESS_THRESHOLD
 let
 bgTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :
@@ -517,10 +518,11 @@ browser
 let
 bgTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

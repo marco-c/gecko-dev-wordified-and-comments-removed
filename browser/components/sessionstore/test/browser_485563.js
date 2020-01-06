@@ -30,10 +30,11 @@ u2027
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 promiseBrowserLoaded

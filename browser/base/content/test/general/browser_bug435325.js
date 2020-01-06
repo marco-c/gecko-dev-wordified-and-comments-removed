@@ -91,10 +91,11 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 http
 :

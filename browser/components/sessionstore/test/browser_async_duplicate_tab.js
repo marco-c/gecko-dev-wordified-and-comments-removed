@@ -43,10 +43,11 @@ test_duplicate
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;
@@ -222,10 +223,11 @@ test_duplicate_remove
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;

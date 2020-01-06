@@ -80,10 +80,11 @@ tearDown
 var
 keepaliveTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :
@@ -94,10 +95,11 @@ blank
 var
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

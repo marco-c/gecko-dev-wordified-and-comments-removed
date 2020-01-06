@@ -808,10 +808,11 @@ submissionURL
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser
@@ -2003,10 +2004,11 @@ resolve
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

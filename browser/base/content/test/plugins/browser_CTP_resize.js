@@ -184,10 +184,11 @@ true
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

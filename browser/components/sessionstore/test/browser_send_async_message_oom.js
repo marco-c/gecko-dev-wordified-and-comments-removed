@@ -190,10 +190,11 @@ snapshot
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

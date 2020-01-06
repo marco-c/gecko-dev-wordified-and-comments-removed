@@ -21,10 +21,11 @@ foo
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 TEST_URL
 )
 ;
@@ -250,10 +251,11 @@ foo
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 TEST_URL
 )
 ;

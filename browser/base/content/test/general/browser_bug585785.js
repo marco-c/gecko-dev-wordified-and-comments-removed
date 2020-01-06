@@ -12,10 +12,11 @@ waitForExplicitFinish
 ;
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 isnot

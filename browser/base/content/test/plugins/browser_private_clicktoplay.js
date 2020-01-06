@@ -273,10 +273,11 @@ STATE_ENABLED
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

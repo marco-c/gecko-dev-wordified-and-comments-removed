@@ -992,10 +992,11 @@ function
 {
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 browser1
@@ -1009,10 +1010,11 @@ tab1
 ;
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 browser2

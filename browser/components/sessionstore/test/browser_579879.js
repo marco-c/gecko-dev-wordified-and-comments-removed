@@ -13,10 +13,11 @@ function
 let
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 data
 :
@@ -51,10 +52,11 @@ linkedBrowser
 let
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

@@ -75,10 +75,11 @@ function
 {
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await

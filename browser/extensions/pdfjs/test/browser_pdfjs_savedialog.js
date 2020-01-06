@@ -51,10 +51,11 @@ true
 var
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 TESTROOT
 +
 "

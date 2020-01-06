@@ -53,10 +53,11 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 info
@@ -223,10 +224,11 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 info

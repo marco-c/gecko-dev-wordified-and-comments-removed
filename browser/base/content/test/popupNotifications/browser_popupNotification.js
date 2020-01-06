@@ -685,10 +685,11 @@ run
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 http
 :

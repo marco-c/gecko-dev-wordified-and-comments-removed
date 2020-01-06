@@ -66,10 +66,11 @@ aIndex
 var
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 aURI
 )
 ;
@@ -291,10 +292,11 @@ unexpectedly
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

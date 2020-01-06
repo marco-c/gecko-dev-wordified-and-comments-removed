@@ -176,10 +176,11 @@ aCallback
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;
@@ -227,10 +228,11 @@ window
 ;
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

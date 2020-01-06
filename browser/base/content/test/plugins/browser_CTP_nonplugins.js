@@ -205,10 +205,11 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 setTestPluginEnabledState

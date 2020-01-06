@@ -73,10 +73,11 @@ URL
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;
@@ -352,10 +353,11 @@ URL
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

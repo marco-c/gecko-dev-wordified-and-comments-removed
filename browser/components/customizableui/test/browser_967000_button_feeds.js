@@ -369,10 +369,11 @@ again
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 initialLocation
 )
 ;

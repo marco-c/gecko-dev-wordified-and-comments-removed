@@ -25,10 +25,11 @@ test_xpath_exp_for_strange_documents
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;

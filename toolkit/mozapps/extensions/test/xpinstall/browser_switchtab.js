@@ -115,10 +115,11 @@ URL
 ;
 expectedTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 expectedTab

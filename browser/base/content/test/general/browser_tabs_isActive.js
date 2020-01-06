@@ -209,10 +209,11 @@ selectedTab
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 url
 {
 skipAnimation
@@ -606,10 +607,11 @@ selectedTab
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 url
 {
 skipAnimation

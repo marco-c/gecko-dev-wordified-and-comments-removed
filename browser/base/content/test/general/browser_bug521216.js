@@ -83,10 +83,11 @@ TabOpen
 TabOpen
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 data
 :

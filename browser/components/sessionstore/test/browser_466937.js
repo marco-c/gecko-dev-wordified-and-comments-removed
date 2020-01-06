@@ -25,10 +25,11 @@ test_prevent_file_stealing
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;

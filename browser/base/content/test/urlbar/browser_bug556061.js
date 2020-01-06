@@ -479,10 +479,11 @@ waitForExplicitFinish
 ;
 testTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

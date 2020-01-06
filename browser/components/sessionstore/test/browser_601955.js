@@ -28,10 +28,11 @@ waitForSaveState
 testBug601955_1
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

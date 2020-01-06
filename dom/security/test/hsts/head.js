@@ -1756,10 +1756,11 @@ uri
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 uri
 )
 ;

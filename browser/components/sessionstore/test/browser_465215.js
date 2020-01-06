@@ -55,10 +55,11 @@ function
 let
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

@@ -61,10 +61,11 @@ tab
 let
 testTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 is
@@ -442,10 +443,11 @@ disabled
 let
 pinned
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

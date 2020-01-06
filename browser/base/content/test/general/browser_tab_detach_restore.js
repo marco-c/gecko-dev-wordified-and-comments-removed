@@ -86,10 +86,11 @@ forgetClosedWindow
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 tab

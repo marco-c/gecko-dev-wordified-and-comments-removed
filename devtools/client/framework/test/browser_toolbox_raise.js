@@ -57,10 +57,11 @@ tab
 {
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 let

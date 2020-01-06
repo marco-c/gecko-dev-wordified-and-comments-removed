@@ -14,10 +14,11 @@ test_background_notifications_dont_reshow_in_foreground
 let
 tabB
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 http
 :
@@ -43,10 +44,11 @@ linkedBrowser
 let
 tabC
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 http
 :

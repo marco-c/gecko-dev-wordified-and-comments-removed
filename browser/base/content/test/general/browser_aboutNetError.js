@@ -164,10 +164,11 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 LOW_TLS_VERSION
 )
 ;

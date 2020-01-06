@@ -123,10 +123,11 @@ args
 )
 {
 return
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 ROOT
 +
 "

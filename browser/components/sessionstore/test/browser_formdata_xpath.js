@@ -355,10 +355,11 @@ test_form_data_restoration
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;

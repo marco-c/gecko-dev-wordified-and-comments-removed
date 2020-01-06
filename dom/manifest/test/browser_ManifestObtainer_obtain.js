@@ -1424,10 +1424,11 @@ url
 of
 tabURLs
 )
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 url
 )
 .

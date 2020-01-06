@@ -294,10 +294,11 @@ TEST_URL
 let
 appTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 aURL
 {
 skipAnimation

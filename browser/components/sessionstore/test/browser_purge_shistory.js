@@ -136,10 +136,11 @@ function
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :
@@ -170,10 +171,11 @@ TAB_STATE
 let
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

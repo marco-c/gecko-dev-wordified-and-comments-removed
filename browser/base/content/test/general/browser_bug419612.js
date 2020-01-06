@@ -45,10 +45,11 @@ html
 let
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await
@@ -71,10 +72,11 @@ testPage
 let
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await

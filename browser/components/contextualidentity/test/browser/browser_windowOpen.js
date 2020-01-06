@@ -110,10 +110,11 @@ UCI
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 BASE_URI
 {
 userContextId

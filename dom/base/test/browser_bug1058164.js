@@ -207,10 +207,11 @@ test_swap_frameloader_pagevisibility_events
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 PAGE
 )
 ;
@@ -282,10 +283,11 @@ pageshow
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

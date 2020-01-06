@@ -492,10 +492,11 @@ test_cancel_pdf_download
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 getRootDirectory
 (
 gTestPath

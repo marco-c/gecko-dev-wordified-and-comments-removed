@@ -42,10 +42,11 @@ page_style
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL
 )
 ;
@@ -276,10 +277,11 @@ nested_page_style
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URL_NESTED
 )
 ;

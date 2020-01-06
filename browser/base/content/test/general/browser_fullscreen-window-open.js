@@ -157,10 +157,11 @@ true
 let
 newTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 gHttpTestRoot
 +
 TEST_FILE

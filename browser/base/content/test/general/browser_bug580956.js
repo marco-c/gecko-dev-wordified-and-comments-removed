@@ -108,10 +108,11 @@ disabled
 var
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 http
 :

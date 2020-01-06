@@ -56,10 +56,11 @@ waitForExplicitFinish
 ;
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :
@@ -74,10 +75,11 @@ true
 ;
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

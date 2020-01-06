@@ -118,10 +118,11 @@ xpi
 ;
 gNewTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 gBrowser

@@ -25,10 +25,11 @@ test_check_urls_before_restoring
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

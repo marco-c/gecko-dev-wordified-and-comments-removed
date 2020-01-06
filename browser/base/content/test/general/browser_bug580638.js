@@ -204,10 +204,11 @@ false
 let
 pinnedTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

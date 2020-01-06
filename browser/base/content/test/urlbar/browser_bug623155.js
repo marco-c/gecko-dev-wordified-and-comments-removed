@@ -102,10 +102,11 @@ waitForExplicitFinish
 ;
 gNewTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 REDIRECT_FROM
 +
 "

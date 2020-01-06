@@ -244,10 +244,11 @@ now
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 tab
@@ -436,10 +437,11 @@ about
 ;
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testURL
 )
 ;

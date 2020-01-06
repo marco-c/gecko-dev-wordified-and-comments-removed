@@ -762,10 +762,11 @@ options
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 url
 {
 userContextId

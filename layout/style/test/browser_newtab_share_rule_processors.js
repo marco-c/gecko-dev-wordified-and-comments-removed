@@ -53,10 +53,11 @@ html
 ;
 theTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testURL
 )
 ;

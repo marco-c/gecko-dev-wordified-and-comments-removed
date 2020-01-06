@@ -227,10 +227,11 @@ false
 ;
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 notificationURL
 )
 ;

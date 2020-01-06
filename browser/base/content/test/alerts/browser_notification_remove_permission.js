@@ -118,10 +118,11 @@ ALLOW_ACTION
 ;
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 notificationURL
 )
 ;

@@ -56,10 +56,11 @@ function
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 '
 http
 :
@@ -148,10 +149,11 @@ u
 of
 tabURLs
 )
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 u
 )
 .

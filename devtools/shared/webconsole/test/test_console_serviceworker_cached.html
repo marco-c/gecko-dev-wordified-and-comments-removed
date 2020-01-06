@@ -729,6 +729,17 @@ gBrowser
 addTab
 (
 url
+{
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+}
 )
 ;
 gBrowser

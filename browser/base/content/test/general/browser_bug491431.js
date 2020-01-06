@@ -29,10 +29,11 @@ tabB
 ;
 tabA
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testPage
 )
 ;
@@ -70,10 +71,11 @@ close
 ;
 tabB
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testPage
 )
 ;

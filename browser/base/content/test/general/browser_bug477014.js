@@ -75,10 +75,11 @@ function
 let
 tabToDetach
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testPage
 )
 ;

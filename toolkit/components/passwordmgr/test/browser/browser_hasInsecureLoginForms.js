@@ -99,10 +99,11 @@ https
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 scheme
 +
 testUrlPath
@@ -213,10 +214,11 @@ false
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 https
 "

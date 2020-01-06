@@ -200,10 +200,11 @@ getSessionstorejsModificationTime
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 TEST_URL
 )
 ;

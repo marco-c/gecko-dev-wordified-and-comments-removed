@@ -10,10 +10,11 @@ waitForExplicitFinish
 let
 testTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

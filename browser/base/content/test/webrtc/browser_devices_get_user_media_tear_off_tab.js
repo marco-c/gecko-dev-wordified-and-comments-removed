@@ -404,10 +404,11 @@ processCount
 }
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await

@@ -32,10 +32,11 @@ AREA_NAVBAR
 let
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :
@@ -56,10 +57,11 @@ linkedBrowser
 let
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :

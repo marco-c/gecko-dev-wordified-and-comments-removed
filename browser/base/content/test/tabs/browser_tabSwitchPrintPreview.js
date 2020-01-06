@@ -57,10 +57,11 @@ browser
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 kURL2
 )
 ;

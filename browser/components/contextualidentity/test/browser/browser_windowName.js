@@ -116,10 +116,11 @@ tab
 let
 tab1
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 BASE_URI
 +
 "
@@ -193,10 +194,11 @@ tab
 let
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 BASE_URI
 +
 "

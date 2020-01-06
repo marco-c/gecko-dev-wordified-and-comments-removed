@@ -356,10 +356,11 @@ html
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testURL
 )
 ;

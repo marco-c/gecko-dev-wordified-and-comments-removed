@@ -97,10 +97,11 @@ linkedBrowser
 let
 tab2
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 testPage
 )
 ;

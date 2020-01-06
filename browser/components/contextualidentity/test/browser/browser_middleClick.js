@@ -64,10 +64,11 @@ tab
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 URI
 {
 userContextId

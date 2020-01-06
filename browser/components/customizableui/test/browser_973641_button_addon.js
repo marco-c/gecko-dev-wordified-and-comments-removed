@@ -81,10 +81,11 @@ gBrowser
 .
 selectedTab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :
@@ -341,10 +342,11 @@ selectedTab
 )
 ;
 }
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 initialLocation
 )
 ;

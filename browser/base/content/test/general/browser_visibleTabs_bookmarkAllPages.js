@@ -10,10 +10,11 @@ waitForExplicitFinish
 let
 tabOne
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 about
 :
@@ -24,10 +25,11 @@ blank
 let
 tabTwo
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 "
 http
 :

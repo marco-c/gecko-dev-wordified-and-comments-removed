@@ -267,10 +267,11 @@ function
 {
 tabElm
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 await
