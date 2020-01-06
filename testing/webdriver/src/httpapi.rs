@@ -752,7 +752,7 @@ element
 elementId
 }
 /
-sendKeys
+value
 "
 Route
 :
