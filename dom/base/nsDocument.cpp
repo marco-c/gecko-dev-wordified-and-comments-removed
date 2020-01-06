@@ -57983,9 +57983,15 @@ system
 else
 if
 (
-!
-IsXULDocument
 (
+IsHTMLOrXHTML
+(
+)
+|
+|
+IsSVGDocument
+(
+)
 )
 &
 &
