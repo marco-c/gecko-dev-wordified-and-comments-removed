@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-'
-range
-.
-js
-'
-)
-;
 var
 s
 =

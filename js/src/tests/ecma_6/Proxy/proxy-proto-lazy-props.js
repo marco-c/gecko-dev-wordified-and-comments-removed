@@ -43,16 +43,6 @@ pk
 r
 )
 {
-if
-(
-pk
-!
-=
-=
-"
-__iterator__
-"
-)
 throw
 new
 Error

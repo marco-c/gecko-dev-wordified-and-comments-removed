@@ -26472,7 +26472,7 @@ rval
 .
 setBoolean
 (
-IsLegacyIterator
+IsPropertyIterator
 (
 args
 [

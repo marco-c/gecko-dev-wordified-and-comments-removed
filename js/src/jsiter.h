@@ -749,7 +749,7 @@ done
 )
 ;
 bool
-IsLegacyIterator
+IsPropertyIterator
 (
 HandleValue
 v
