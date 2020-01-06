@@ -169,10 +169,7 @@ style
 properties
 :
 :
-{
 INITIAL_SERVO_VALUES
-get_writing_mode
-}
 ;
 #
 [
@@ -186,7 +183,10 @@ initial_writing_mode_is_empty
 assert_eq
 !
 (
-get_writing_mode
+WritingMode
+:
+:
+new
 (
 INITIAL_SERVO_VALUES
 .
