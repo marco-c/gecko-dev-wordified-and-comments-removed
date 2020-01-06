@@ -444,7 +444,7 @@ aOffset
 static
 nsINode
 *
-GetParentAndOffsetAfter
+GetContainerAndOffsetAfter
 (
 nsINode
 *
