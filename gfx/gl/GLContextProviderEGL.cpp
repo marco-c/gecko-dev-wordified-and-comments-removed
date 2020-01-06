@@ -2495,9 +2495,10 @@ do
 {
 if
 (
+!
 rbab_attribs
 .
-size
+empty
 (
 )
 )
@@ -2530,9 +2531,10 @@ rbab_attribs
 }
 if
 (
+!
 robustness_attribs
 .
-size
+empty
 (
 )
 )
