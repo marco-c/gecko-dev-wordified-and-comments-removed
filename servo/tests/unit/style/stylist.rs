@@ -1431,7 +1431,7 @@ Atom
 from
 (
 "
-foo
+intro
 "
 )
 )
@@ -1772,7 +1772,7 @@ Atom
 from
 (
 "
-foo
+intro
 "
 )
 QuirksMode
@@ -1807,7 +1807,7 @@ Atom
 from
 (
 "
-intro
+foo
 "
 )
 QuirksMode

@@ -1477,7 +1477,7 @@ always
 )
 ]
 fn
-find_from_right
+find_from_left
 <
 F
 R
@@ -1615,7 +1615,7 @@ Option
 Atom
 >
 {
-find_from_right
+find_from_left
 (
 iter
 |
@@ -1676,7 +1676,7 @@ Option
 Atom
 >
 {
-find_from_right
+find_from_left
 (
 iter
 |
@@ -1740,7 +1740,7 @@ SelectorImpl
 >
 >
 {
-find_from_right
+find_from_left
 (
 iter
 |

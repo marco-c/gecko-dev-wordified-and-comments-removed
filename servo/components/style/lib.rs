@@ -638,10 +638,6 @@ sequential
 ;
 pub
 mod
-sink
-;
-pub
-mod
 str
 ;
 pub
