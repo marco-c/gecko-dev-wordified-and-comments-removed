@@ -655,6 +655,12 @@ webcomponents
 enabled
 true
 )
+skip
+-
+if
+(
+stylo
+)
 load
 1017798
 -
@@ -663,7 +669,7 @@ load
 html
 #
 bug
-1323689
+1409086
 load
 1028514
 -

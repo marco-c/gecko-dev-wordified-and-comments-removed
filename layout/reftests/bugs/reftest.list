@@ -30846,15 +30846,6 @@ webcomponents
 enabled
 true
 )
-fails
--
-if
-(
-stylo
-|
-|
-styloVsGecko
-)
 =
 =
 1066554
