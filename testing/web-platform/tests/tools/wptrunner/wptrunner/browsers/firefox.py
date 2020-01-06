@@ -819,9 +819,13 @@ update_properties
 :
     
 return
+(
 [
 "
 debug
+"
+"
+stylo
 "
 "
 e10s
@@ -839,6 +843,7 @@ processor
 bits
 "
 ]
+            
 {
 "
 debug
@@ -846,7 +851,11 @@ debug
 "
 e10s
 "
+"
+stylo
+"
 }
+)
 class
 FirefoxBrowser
 (
