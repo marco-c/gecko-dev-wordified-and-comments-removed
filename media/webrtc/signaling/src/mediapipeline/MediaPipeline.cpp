@@ -1016,6 +1016,9 @@ GetImage
 forceBlack
 )
 ;
+nsresult
+rv
+=
 mTaskQueue
 -
 >
@@ -1025,6 +1028,14 @@ runnable
 .
 forget
 (
+)
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
 )
 )
 ;
