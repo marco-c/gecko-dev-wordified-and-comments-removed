@@ -2051,9 +2051,6 @@ return
 SECSuccess
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 typedef
 struct
 curveNameTagPairStr
@@ -2742,8 +2739,6 @@ return
 ecparams
 ;
 }
-#
-endif
 SECKEYPrivateKey
 *
 CERTUTIL_GeneratePrivateKey
@@ -2962,9 +2957,6 @@ default_pqg_params
 }
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 ecKey
 :
@@ -2995,8 +2987,6 @@ NULL
 ;
 break
 ;
-#
-endif
 default
 :
 return
@@ -3072,9 +3062,6 @@ dsaparams
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 ecKey
 :
@@ -3090,8 +3077,6 @@ PR_TRUE
 ;
 break
 ;
-#
-endif
 default
 :
 break

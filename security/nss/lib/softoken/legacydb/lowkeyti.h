@@ -150,9 +150,6 @@ lg_nsslowkey_DHPrivateKeyExportTemplate
 ]
 ;
 #
-ifndef
-NSS_DISABLE_ECC
-#
 define
 NSSLOWKEY_EC_PRIVATE_KEY_VERSION
 1
@@ -174,8 +171,6 @@ lg_nsslowkey_ECPrivateKeyTemplate
 [
 ]
 ;
-#
-endif
 extern
 const
 SEC_ASN1Template

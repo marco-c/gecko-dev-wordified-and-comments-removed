@@ -83,9 +83,6 @@ NSSLOWKEYPrivateKey
 key
 )
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 extern
 void
 lg_prepare_low_ec_priv_key_for_asn1
@@ -104,8 +101,6 @@ ECParams
 params
 )
 ;
-#
-endif
 typedef
 char
 *
@@ -322,9 +317,6 @@ SDB
 sdb
 )
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 SECStatus
 LGEC_FillParams
 (
@@ -355,8 +347,6 @@ ECParams
 srcParams
 )
 ;
-#
-endif
 SEC_END_PROTOS
 #
 endif

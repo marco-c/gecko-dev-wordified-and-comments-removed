@@ -598,9 +598,6 @@ prime
 }
 }
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 const
 SEC_ASN1Template
 lg_nsslowkey_ECPrivateKeyTemplate
@@ -1021,8 +1018,6 @@ return
 SECFailure
 ;
 }
-#
-endif
 void
 lg_prepare_low_rsa_priv_key_for_asn1
 (
@@ -1313,9 +1308,6 @@ type
 siUnsignedInteger
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 void
 lg_prepare_low_ecparams_for_asn1
 (
@@ -1421,8 +1413,6 @@ type
 siUnsignedInteger
 ;
 }
-#
-endif
 void
 lg_nsslowkey_DestroyPrivateKey
 (
@@ -2024,9 +2014,6 @@ pubk
 }
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -2162,8 +2149,6 @@ pubk
 }
 break
 ;
-#
-endif
 default
 :
 break

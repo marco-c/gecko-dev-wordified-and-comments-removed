@@ -1873,9 +1873,6 @@ publicValue
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -1893,8 +1890,6 @@ publicValue
 ;
 break
 ;
-#
-endif
 default
 :
 break
@@ -2552,9 +2547,6 @@ attribute
 )
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 static
 CK_RV
 lg_FindECPublicKeyAttribute
@@ -2818,8 +2810,6 @@ attribute
 )
 ;
 }
-#
-endif
 static
 CK_RV
 lg_FindPublicKeyAttribute
@@ -3047,9 +3037,6 @@ type
 attribute
 )
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -3061,8 +3048,6 @@ type
 attribute
 )
 ;
-#
-endif
 default
 :
 break
@@ -4466,9 +4451,6 @@ attribute
 )
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 static
 CK_RV
 lg_FindECPrivateKeyAttribute
@@ -4689,8 +4671,6 @@ attribute
 )
 ;
 }
-#
-endif
 static
 CK_RV
 lg_FindPrivateKeyAttribute
@@ -4916,9 +4896,6 @@ obj
 sdb
 )
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -4934,8 +4911,6 @@ obj
 sdb
 )
 ;
-#
-endif
 default
 :
 break

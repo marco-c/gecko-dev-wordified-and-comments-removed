@@ -5440,9 +5440,6 @@ dhPubKeyAttrs
 ]
 )
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 static
 const
 CK_ATTRIBUTE_TYPE
@@ -5473,8 +5470,6 @@ ecPubKeyAttrs
 ]
 )
 ;
-#
-endif
 static
 const
 CK_ATTRIBUTE_TYPE
@@ -5610,9 +5605,6 @@ dhPrivKeyAttrs
 ]
 )
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 static
 const
 CK_ATTRIBUTE_TYPE
@@ -5643,8 +5635,6 @@ ecPrivKeyAttrs
 ]
 )
 ;
-#
-endif
 static
 const
 CK_ATTRIBUTE_TYPE
@@ -6072,9 +6062,6 @@ dhPrivKeyAttrsCount
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -6090,8 +6077,6 @@ ecPrivKeyAttrsCount
 ;
 break
 ;
-#
-endif
 default
 :
 crv
@@ -6270,9 +6255,6 @@ dhPubKeyAttrsCount
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -6288,8 +6270,6 @@ ecPubKeyAttrsCount
 ;
 break
 ;
-#
-endif
 default
 :
 crv

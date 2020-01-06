@@ -224,6 +224,11 @@ ssl_resumption_unittest
 cc
 '
 '
+ssl_renegotiation_unittest
+.
+cc
+'
+'
 ssl_skip_unittest
 .
 cc

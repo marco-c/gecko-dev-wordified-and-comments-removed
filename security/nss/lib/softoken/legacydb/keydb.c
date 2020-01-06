@@ -4600,9 +4600,6 @@ len
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -4638,8 +4635,6 @@ len
 ;
 break
 ;
-#
-endif
 default
 :
 return
@@ -6245,9 +6240,6 @@ dummy
 NULL
 ;
 #
-ifndef
-NSS_DISABLE_ECC
-#
 ifdef
 EC_DEBUG
 SECItem
@@ -6261,8 +6253,6 @@ endif
 int
 savelen
 ;
-#
-endif
 temparena
 =
 PORT_NewArena
@@ -6620,9 +6610,6 @@ loser
 }
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -6814,8 +6801,6 @@ fordebug
 endif
 break
 ;
-#
-endif
 default
 :
 PORT_Assert
@@ -7819,9 +7804,6 @@ newPrivateKey
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 SEC_OID_ANSIX962_EC_PUBLIC_KEY
 :
@@ -8027,8 +8009,6 @@ len
 }
 break
 ;
-#
-endif
 default
 :
 rv

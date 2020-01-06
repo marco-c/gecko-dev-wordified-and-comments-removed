@@ -555,9 +555,6 @@ prime
 }
 }
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 SEC_ASN1_MKSUB
 (
 SEC_BitStringTemplate
@@ -663,8 +660,6 @@ SEC_BitStringTemplate
 }
 }
 ;
-#
-endif
 const
 SEC_ASN1Template
 SECKEY_EncryptedPrivateKeyInfoTemplate
@@ -2359,9 +2354,6 @@ attrs
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 ecKey
 :
@@ -2645,8 +2637,6 @@ attrs
 ;
 break
 ;
-#
-endif
 default
 :
 PORT_SetError
@@ -3023,9 +3013,6 @@ dhKey
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 SEC_OID_ANSIX962_EC_PUBLIC_KEY
 :
@@ -3055,8 +3042,6 @@ ecKey
 ;
 break
 ;
-#
-endif
 default
 :
 keyTemplate
@@ -3110,9 +3095,6 @@ goto
 loser
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 if
 (
 lpk
@@ -3175,8 +3157,6 @@ loser
 ;
 }
 }
-#
-endif
 if
 (
 paramDest

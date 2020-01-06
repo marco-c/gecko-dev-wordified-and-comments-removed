@@ -48,17 +48,12 @@ secerr
 h
 "
 #
-ifndef
-NSS_DISABLE_ECC
-#
 include
 "
 softoken
 .
 h
 "
-#
-endif
 SEC_ASN1_MKSUB
 (
 SEC_AnyTemplate
@@ -507,9 +502,6 @@ prime
 }
 }
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 const
 SEC_ASN1Template
 nsslowkey_ECPrivateKeyTemplate
@@ -609,8 +601,6 @@ SEC_BitStringTemplate
 }
 }
 ;
-#
-endif
 void
 prepare_low_rsa_priv_key_for_asn1
 (
@@ -923,9 +913,6 @@ type
 siUnsignedInteger
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 void
 prepare_low_ecparams_for_asn1
 (
@@ -1031,8 +1018,6 @@ type
 siUnsignedInteger
 ;
 }
-#
-endif
 void
 nsslowkey_DestroyPrivateKey
 (
@@ -1784,9 +1769,6 @@ pubk
 }
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -1922,8 +1904,6 @@ pubk
 }
 break
 ;
-#
-endif
 default
 :
 break
@@ -2781,9 +2761,6 @@ break
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -2954,8 +2931,6 @@ break
 ;
 break
 ;
-#
-endif
 default
 :
 rv

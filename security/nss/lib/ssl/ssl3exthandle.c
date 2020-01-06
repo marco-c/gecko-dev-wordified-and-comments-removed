@@ -7003,10 +7003,6 @@ needed
 ;
 if
 (
-!
-ss
-|
-|
 ss
 -
 >
@@ -7016,9 +7012,11 @@ hs
 .
 sendingSCSV
 )
+{
 return
 0
 ;
+}
 if
 (
 ss

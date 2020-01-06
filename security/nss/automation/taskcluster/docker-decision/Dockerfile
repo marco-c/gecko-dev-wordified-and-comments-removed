@@ -85,6 +85,12 @@ setup
 .
 sh
 #
+Change
+user
+.
+USER
+worker
+#
 Env
 variables
 .

@@ -186,6 +186,11 @@ blapi
 h
 '
 '
+blake2b
+.
+h
+'
+'
 chacha20poly1305
 .
 h

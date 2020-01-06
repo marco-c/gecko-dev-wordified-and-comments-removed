@@ -360,8 +360,10 @@ server_
 server_
 -
 >
-DisableRollbackDetection
+SetOption
 (
+SSL_ROLLBACK_DETECTION
+PR_FALSE
 )
 ;
 Connect
@@ -492,8 +494,10 @@ server_
 server_
 -
 >
-DisableRollbackDetection
+SetOption
 (
+SSL_ROLLBACK_DETECTION
+PR_FALSE
 )
 ;
 Connect

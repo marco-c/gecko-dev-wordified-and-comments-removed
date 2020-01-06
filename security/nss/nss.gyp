@@ -1396,6 +1396,17 @@ prng_gtest
 '
 gtests
 /
+freebl_gtest
+/
+freebl_gtest
+.
+gyp
+:
+blake2b_gtest
+'
+'
+gtests
+/
 pk11_gtest
 /
 pk11_gtest

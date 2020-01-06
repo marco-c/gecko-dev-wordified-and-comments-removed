@@ -916,6 +916,7 @@ boundaries
 .
 NSS_SecureMemcmpZero
 PORT_ZAllocAlignedOffset_Util
+CERT_FindCertByNicknameOrEmailAddrCX
 #
 These
 symbols

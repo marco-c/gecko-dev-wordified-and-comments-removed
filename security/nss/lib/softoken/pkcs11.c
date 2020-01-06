@@ -1109,9 +1109,6 @@ CKF_DERIVE
 }
 PR_TRUE
 }
-#
-ifndef
-NSS_DISABLE_ECC
 {
 CKM_EC_KEY_PAIR_GEN
 {
@@ -1156,8 +1153,6 @@ CKF_EC_BPNU
 }
 PR_TRUE
 }
-#
-endif
 {
 CKM_RC2_KEY_GEN
 {
@@ -4143,9 +4138,6 @@ CK_FALSE
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -4199,8 +4191,6 @@ CK_FALSE
 ;
 break
 ;
-#
-endif
 default
 :
 return
@@ -4972,9 +4962,6 @@ CK_FALSE
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -5024,8 +5011,6 @@ CK_FALSE
 ;
 break
 ;
-#
-endif
 case
 CKK_NSS_JPAKE_ROUND1
 :
@@ -7892,9 +7877,6 @@ CKA_VALUE
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -8214,8 +8196,6 @@ CKR_ATTRIBUTE_VALUE_INVALID
 }
 break
 ;
-#
-endif
 default
 :
 crv
@@ -8758,9 +8738,6 @@ itemTemplateCount
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -8965,8 +8942,6 @@ endif
 }
 break
 ;
-#
-endif
 default
 :
 crv

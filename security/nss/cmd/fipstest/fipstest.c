@@ -185,9 +185,6 @@ h
 "
 #
 endif
-#
-ifndef
-NSS_DISABLE_ECC
 extern
 SECStatus
 EC_DecodeParams
@@ -218,8 +215,6 @@ ECParams
 srcParams
 )
 ;
-#
-endif
 #
 define
 ENCRYPT
@@ -10521,9 +10516,6 @@ EOF
 ignore
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 typedef
 struct
 curveNameTagPairStr
@@ -15273,8 +15265,6 @@ ecdsareq
 )
 ;
 }
-#
-endif
 PRBool
 isblankline
 (
@@ -33206,9 +33196,6 @@ argv
 )
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 }
 else
 if
@@ -33335,8 +33322,6 @@ argv
 )
 ;
 }
-#
-endif
 }
 else
 if

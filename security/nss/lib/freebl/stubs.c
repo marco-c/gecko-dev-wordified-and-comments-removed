@@ -210,6 +210,15 @@ pprio
 h
 >
 #
+ifndef
+RTLD_NOLOAD
+#
+define
+RTLD_NOLOAD
+0
+#
+endif
+#
 define
 FREEBL_NO_WEAK
 1

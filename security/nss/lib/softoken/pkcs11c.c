@@ -209,9 +209,6 @@ return
 ;
 }
 #
-ifndef
-NSS_DISABLE_ECC
-#
 ifdef
 EC_DEBUG
 #
@@ -321,8 +318,6 @@ b
 c
 d
 )
-#
-endif
 #
 endif
 static
@@ -11288,9 +11283,6 @@ return
 rv
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 static
 SECStatus
 nsc_ECDSAVerifyStub
@@ -11506,8 +11498,6 @@ return
 rv
 ;
 }
-#
-endif
 CK_RV
 NSC_SignInit
 (
@@ -12190,9 +12180,6 @@ DSA_MAX_SIGNATURE_LEN
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKM_ECDSA_SHA1
 :
@@ -12315,8 +12302,6 @@ MAX_ECKEY_LEN
 ;
 break
 ;
-#
-endif
 #
 define
 INIT_HMAC_MECH
@@ -15275,9 +15260,6 @@ sftk_Null
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKM_ECDSA_SHA1
 :
@@ -15373,8 +15355,6 @@ sftk_Null
 ;
 break
 ;
-#
-endif
 INIT_HMAC_MECH
 (
 MD2
@@ -20715,9 +20695,6 @@ CKM_DSA
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -20735,8 +20712,6 @@ CKM_ECDSA
 ;
 break
 ;
-#
-endif
 default
 :
 return
@@ -21024,9 +20999,6 @@ DHPrivateKey
 *
 dhPriv
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 SECItem
 ecEncodedParams
 ;
@@ -21038,8 +21010,6 @@ ECParams
 *
 ecParams
 ;
-#
-endif
 CHECK_FORK
 (
 )
@@ -22868,9 +22838,6 @@ PR_TRUE
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKM_EC_KEY_PAIR_GEN
 :
@@ -23214,8 +23181,6 @@ PR_TRUE
 ;
 break
 ;
-#
-endif
 default
 :
 crv
@@ -23821,9 +23786,6 @@ encodedKey
 NULL
 ;
 #
-ifndef
-NSS_DISABLE_ECC
-#
 ifdef
 EC_DEBUG
 SECItem
@@ -23835,8 +23797,6 @@ endif
 int
 savelen
 ;
-#
-endif
 if
 (
 !
@@ -24077,9 +24037,6 @@ SEC_OID_ANSIX9_DSA_SIGNATURE
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -24230,8 +24187,6 @@ SEC_OID_ANSIX962_EC_PUBLIC_KEY
 ;
 break
 ;
-#
-endif
 case
 NSSLOWKEYDHKey
 :
@@ -25333,9 +25288,6 @@ params
 ;
 break
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 case
 SEC_OID_ANSIX962_EC_PUBLIC_KEY
 :
@@ -25390,8 +25342,6 @@ ecParams
 ;
 break
 ;
-#
-endif
 default
 :
 keyTemplate
@@ -25433,9 +25383,6 @@ pki
 privateKey
 )
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 if
 (
 lpk
@@ -25504,8 +25451,6 @@ loser
 ;
 }
 }
-#
-endif
 if
 (
 rv
@@ -26185,9 +26130,6 @@ break
 ;
 #
 endif
-#
-ifndef
-NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -26372,8 +26314,6 @@ break
 ;
 break
 ;
-#
-endif
 default
 :
 crv
@@ -27732,9 +27672,6 @@ return
 0
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 static
 CK_RV
 sftk_compute_ANSI_X9_63_kdf
@@ -28231,8 +28168,6 @@ return
 CKR_MECHANISM_INVALID
 ;
 }
-#
-endif
 #
 define
 NUM_MIXERS
@@ -32962,9 +32897,6 @@ CKR_HOST_MEMORY
 break
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 case
 CKM_ECDH1_DERIVE
 :
@@ -33563,8 +33495,6 @@ PR_FALSE
 break
 ;
 }
-#
-endif
 case
 CKM_NSS_HKDF_SHA1
 :
