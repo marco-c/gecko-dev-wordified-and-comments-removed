@@ -4722,6 +4722,8 @@ GetInt
 "
 dom
 .
+serviceWorkers
+.
 disable_open_click_delay
 "
 )
