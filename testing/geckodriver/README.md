@@ -109,6 +109,8 @@ into
 the
 [
 Marionette
+automation
+protocol
 ]
 (
 https
@@ -133,8 +135,6 @@ QA
 /
 Marionette
 )
-automation
-protocol
 by
 acting
 as
