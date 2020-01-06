@@ -201,6 +201,8 @@ const
 VideoInfo
 &
 aVideoInfo
+float
+aFramerate
 const
 layers
 :
@@ -325,6 +327,18 @@ layers
 :
 ImageContainer
 (
+)
+;
+params
+.
+mRate
+=
+CreateDecoderParams
+:
+:
+VideoFrameRate
+(
+aFramerate
 )
 ;
 MediaResult

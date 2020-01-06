@@ -819,6 +819,8 @@ const
 VideoInfo
 &
 aVideoInfo
+float
+aFramerate
 const
 layers
 :
@@ -900,6 +902,7 @@ SendPVideoDecoderConstructor
 (
 this
 aVideoInfo
+aFramerate
 aIdentifier
 &
 success

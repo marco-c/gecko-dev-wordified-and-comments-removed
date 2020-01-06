@@ -254,6 +254,8 @@ PVideoDecoder
 (
 VideoInfo
 info
+float
+framerate
 TextureFactoryIdentifier
 identifier
 )
