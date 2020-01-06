@@ -1680,6 +1680,9 @@ case
 eColorID__moz_mac_vibrancy_light
 :
 case
+eColorID__moz_mac_vibrant_titlebar_light
+:
+case
 eColorID__moz_mac_source_list
 :
 case
@@ -1698,6 +1701,9 @@ break
 ;
 case
 eColorID__moz_mac_vibrancy_dark
+:
+case
+eColorID__moz_mac_vibrant_titlebar_dark
 :
 aColor
 =
