@@ -262,6 +262,7 @@ font
 :
 {
 FontWeight
+MozScriptLevel
 MozScriptMinSize
 XTextZoom
 }

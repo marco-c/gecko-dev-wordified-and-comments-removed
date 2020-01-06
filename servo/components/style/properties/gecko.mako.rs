@@ -19741,6 +19741,17 @@ copy__x_lang_from
 other
 )
 }
+{
+impl_simple
+(
+"
+_moz_script_level
+"
+"
+mScriptLevel
+"
+)
+}
 <
 %
 impl_simple_type_with_conversion
