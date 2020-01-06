@@ -4279,6 +4279,17 @@ idx
 IsInDocument
 (
 )
+&
+&
+mRelocations
+[
+idx
+]
+-
+>
+HasOwnContent
+(
+)
 )
 {
 mDocument
