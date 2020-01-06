@@ -181,13 +181,6 @@ moz
 -
 chunked
 -
-text
-"
-"
-moz
--
-chunked
--
 arraybuffer
 "
 }
