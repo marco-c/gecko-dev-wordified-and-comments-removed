@@ -3783,8 +3783,15 @@ ClearAll
 clipboardData
 -
 >
-SetReadOnly
+SetMode
 (
+DataTransfer
+:
+:
+Mode
+:
+:
+Protected
 )
 ;
 }

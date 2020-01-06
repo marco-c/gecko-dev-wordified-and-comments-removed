@@ -7780,8 +7780,15 @@ nullptr
 dataTransfer
 -
 >
-SetReadOnly
+SetMode
 (
+DataTransfer
+:
+:
+Mode
+:
+:
+ReadOnly
 )
 ;
 if
@@ -21693,10 +21700,7 @@ mDocument
 GetWindow
 (
 )
-nsFocusManager
-:
-:
-eOnlyCurrentWindow
+false
 getter_AddRefs
 (
 focusedWindow
@@ -21945,7 +21949,6 @@ root
 GetControllerForCommand
 (
 cmd
-true
 getter_AddRefs
 (
 controller
