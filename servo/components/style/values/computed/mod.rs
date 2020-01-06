@@ -576,6 +576,10 @@ pub
 quirks_mode
 :
 QuirksMode
+pub
+for_smil_animation
+:
+bool
 }
 impl
 <

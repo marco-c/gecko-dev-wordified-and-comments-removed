@@ -671,6 +671,9 @@ QuirksMode
 :
 :
 NoQuirks
+for_smil_animation
+:
+false
 }
 ;
 let

@@ -3589,6 +3589,9 @@ Context
 >
 CSSFloat
 {
+let
+value
+=
 self
 .
 0
@@ -3597,6 +3600,17 @@ to_computed_value
 (
 context
 )
+;
+if
+context
+.
+for_smil_animation
+{
+value
+}
+else
+{
+value
 .
 min
 (
@@ -3611,6 +3625,7 @@ max
 .
 0
 )
+}
 }
 #
 [

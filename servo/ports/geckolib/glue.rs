@@ -19228,6 +19228,9 @@ Option
 a
 PseudoElement
 >
+for_smil_animation
+:
+bool
 )
 -
 >
@@ -19278,6 +19281,7 @@ stylist
 quirks_mode
 (
 )
+for_smil_animation
 }
 }
 struct
@@ -19699,6 +19703,7 @@ pseudo
 as_ref
 (
 )
+false
 )
 ;
 let
@@ -20213,6 +20218,7 @@ pseudo
 as_ref
 (
 )
+true
 )
 ;
 let
@@ -20476,6 +20482,7 @@ pseudo
 as_ref
 (
 )
+false
 )
 ;
 let
