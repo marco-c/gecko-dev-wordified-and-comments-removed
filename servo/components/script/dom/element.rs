@@ -984,7 +984,6 @@ matching
 {
 ElementSelectorFlags
 MatchingContext
-MatchingMode
 RelevantLinkStatus
 }
 ;
