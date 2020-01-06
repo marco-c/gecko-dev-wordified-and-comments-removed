@@ -131,6 +131,7 @@ MOZ_ASSERT
 (
 aNumThreads
 <
+=
 kMaxThreads
 )
 ;
