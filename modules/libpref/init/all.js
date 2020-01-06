@@ -6608,18 +6608,6 @@ pref
 "
 apz
 .
-autoscroll
-.
-enabled
-"
-false
-)
-;
-pref
-(
-"
-apz
-.
 axis_lock
 .
 mode
@@ -38250,7 +38238,7 @@ tcp
 .
 tcp_fastopen_enable
 "
-true
+false
 )
 ;
 pref
