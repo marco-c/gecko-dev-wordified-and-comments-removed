@@ -843,7 +843,7 @@ use
 nsstring
 :
 :
-nsCString
+nsCStr
 ;
 let
 func
@@ -909,7 +909,7 @@ eRegExp
 let
 pattern
 =
-nsCString
+nsCStr
 :
 :
 from

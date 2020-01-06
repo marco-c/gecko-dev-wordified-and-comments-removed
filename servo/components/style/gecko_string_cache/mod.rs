@@ -60,7 +60,7 @@ nsstring
 :
 {
 nsAString
-nsString
+nsStr
 }
 ;
 use
@@ -1907,7 +1907,7 @@ from
 (
 &
 *
-nsString
+nsStr
 :
 :
 from

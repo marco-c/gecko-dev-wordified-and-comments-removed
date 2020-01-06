@@ -56,6 +56,13 @@ Servo
 [
 dependencies
 ]
+bitflags
+=
+"
+0
+.
+8
+"
 [
 features
 ]

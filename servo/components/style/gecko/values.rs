@@ -82,7 +82,7 @@ nsstring
 :
 {
 nsACString
-nsCString
+nsCStr
 }
 ;
 use
@@ -3611,7 +3611,7 @@ s
 )
 =
 >
-nsCString
+nsCStr
 :
 :
 from
