@@ -234,11 +234,6 @@ l10n
 central
 "
 "
-merge_locales
-"
-:
-true
-"
 mozilla_dir
 "
 :

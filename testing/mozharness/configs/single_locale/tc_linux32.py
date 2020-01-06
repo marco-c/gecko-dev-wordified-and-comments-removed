@@ -110,19 +110,6 @@ EN_US_BINARY_URL
 )
         
 "
-LOCALE_MERGEDIR
-"
-:
-"
-%
-(
-abs_merge_dir
-)
-s
-/
-"
-        
-"
 MOZ_UPDATE_CHANNEL
 "
 :
@@ -144,19 +131,6 @@ DIST
 abs_objdir
 )
 s
-"
-        
-"
-LOCALE_MERGEDIR
-"
-:
-"
-%
-(
-abs_merge_dir
-)
-s
-/
 "
         
 "

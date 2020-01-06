@@ -87,18 +87,6 @@ s
 "
         
 "
-LOCALE_MERGEDIR
-"
-:
-"
-%
-(
-abs_merge_dir
-)
-s
-"
-        
-"
 MOZ_UPDATE_CHANNEL
 "
 :
@@ -448,12 +436,6 @@ hg_l10n_tag
 "
 default
 "
-    
-"
-merge_locales
-"
-:
-True
     
 "
 previous_mar_dir

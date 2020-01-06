@@ -308,11 +308,6 @@ mozilla
 release
 "
 "
-merge_locales
-"
-:
-true
-"
 mozilla_dir
 "
 :

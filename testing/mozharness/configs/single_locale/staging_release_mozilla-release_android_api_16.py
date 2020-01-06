@@ -584,19 +584,6 @@ MOZ_OBJDIR
 OBJDIR
         
 "
-LOCALE_MERGEDIR
-"
-:
-"
-%
-(
-abs_merge_dir
-)
-s
-/
-"
-        
-"
 MOZ_UPDATE_CHANNEL
 "
 :
@@ -701,12 +688,6 @@ post_upload_extra
 )
 s
 "
-    
-"
-merge_locales
-"
-:
-True
     
 "
 mozilla_dir

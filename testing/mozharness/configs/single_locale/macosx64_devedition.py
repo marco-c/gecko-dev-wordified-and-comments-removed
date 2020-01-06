@@ -128,19 +128,6 @@ s
 "
         
 "
-LOCALE_MERGEDIR
-"
-:
-"
-%
-(
-abs_merge_dir
-)
-s
-/
-"
-        
-"
 L10NBASEDIR
 "
 :
@@ -160,19 +147,6 @@ MOZ_MAKE_COMPLETE_MAR
 :
 "
 1
-"
-        
-"
-LOCALE_MERGEDIR
-"
-:
-"
-%
-(
-abs_merge_dir
-)
-s
-/
 "
         
 '
@@ -325,12 +299,6 @@ hg_l10n_tag
 "
 default
 "
-    
-"
-merge_locales
-"
-:
-True
     
 "
 previous_mar_dir

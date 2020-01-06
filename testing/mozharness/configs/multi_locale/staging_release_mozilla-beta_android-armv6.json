@@ -308,11 +308,6 @@ mozilla
 beta
 "
 "
-merge_locales
-"
-:
-true
-"
 mozilla_dir
 "
 :
