@@ -407,6 +407,8 @@ Error
 (
 "
 Unhandled
+session
+-
 cookie
 -
 changed
@@ -451,6 +453,8 @@ addObserver
 (
 this
 "
+session
+-
 cookie
 -
 changed

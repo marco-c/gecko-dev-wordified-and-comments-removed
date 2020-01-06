@@ -95,6 +95,8 @@ resolve
 ;
 }
 "
+session
+-
 cookie
 -
 changed
