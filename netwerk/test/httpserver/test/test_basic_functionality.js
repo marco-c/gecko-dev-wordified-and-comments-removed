@@ -176,7 +176,7 @@ dirServ
 get
 (
 "
-CurProcD
+CurWorkD
 "
 Ci
 .
