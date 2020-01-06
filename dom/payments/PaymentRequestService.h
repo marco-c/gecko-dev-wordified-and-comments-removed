@@ -151,6 +151,12 @@ nsIPaymentUIService
 >
 mTestingUIService
 ;
+nsCOMPtr
+<
+nsIPaymentRequest
+>
+mShowingRequest
+;
 }
 ;
 }

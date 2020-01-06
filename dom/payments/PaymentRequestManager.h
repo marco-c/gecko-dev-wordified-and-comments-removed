@@ -301,6 +301,12 @@ PaymentRequestChild
 >
 mPaymentChildHash
 ;
+RefPtr
+<
+PaymentRequest
+>
+mShowingRequest
+;
 }
 ;
 }
