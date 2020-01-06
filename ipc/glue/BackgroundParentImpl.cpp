@@ -1196,6 +1196,10 @@ BackgroundParentImpl
 :
 AllocPBackgroundStorageParent
 (
+const
+nsString
+&
+aProfilePath
 )
 -
 >
@@ -1219,6 +1223,7 @@ dom
 :
 AllocPBackgroundStorageParent
 (
+aProfilePath
 )
 ;
 }
@@ -1237,6 +1242,10 @@ RecvPBackgroundStorageConstructor
 PBackgroundStorageParent
 *
 aActor
+const
+nsString
+&
+aProfilePath
 )
 {
 AssertIsInMainProcess
@@ -1262,6 +1271,7 @@ dom
 RecvPBackgroundStorageConstructor
 (
 aActor
+aProfilePath
 )
 ;
 }

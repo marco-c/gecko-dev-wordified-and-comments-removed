@@ -534,8 +534,13 @@ StorageDBParent
 ;
 public
 :
+explicit
 StorageDBParent
 (
+const
+nsString
+&
+aProfilePath
 )
 ;
 void
@@ -1155,6 +1160,9 @@ ObserverSink
 >
 mObserverSink
 ;
+nsString
+mProfilePath
+;
 ThreadSafeAutoRefCnt
 mRefCnt
 ;
@@ -1168,6 +1176,10 @@ PBackgroundStorageParent
 *
 AllocPBackgroundStorageParent
 (
+const
+nsString
+&
+aProfilePath
 )
 ;
 mozilla
@@ -1182,6 +1194,10 @@ RecvPBackgroundStorageConstructor
 PBackgroundStorageParent
 *
 aActor
+const
+nsString
+&
+aProfilePath
 )
 ;
 bool
