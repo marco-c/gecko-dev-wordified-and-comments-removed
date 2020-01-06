@@ -628,7 +628,7 @@ tests
 :
 [
 "
-bloom_basic
+perf_reftest
 "
 ]
 }
