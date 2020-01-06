@@ -463,10 +463,6 @@ true
 if
 (
 mPrintEngine
-&
-&
-!
-mWaitingForRemotePrint
 )
 {
 donePrePrint
