@@ -49,8 +49,9 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-general
+paneContent
 "
+null
 {
 leaveOpen
 :

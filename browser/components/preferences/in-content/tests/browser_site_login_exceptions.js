@@ -102,8 +102,9 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-privacy
+security
 "
+null
 {
 leaveOpen
 :

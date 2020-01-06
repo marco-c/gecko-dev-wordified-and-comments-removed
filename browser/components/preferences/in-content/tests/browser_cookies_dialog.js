@@ -80,8 +80,9 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-privacy
+panePrivacy
 "
+null
 {
 leaveOpen
 :

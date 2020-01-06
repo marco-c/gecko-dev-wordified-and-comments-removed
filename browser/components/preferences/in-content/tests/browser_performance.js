@@ -115,6 +115,7 @@ openPreferencesViaOpenPreferencesAPI
 "
 paneGeneral
 "
+null
 {
 leaveOpen
 :
@@ -142,6 +143,8 @@ let
 doc
 =
 gBrowser
+.
+selectedBrowser
 .
 contentDocument
 ;
@@ -801,6 +804,7 @@ openPreferencesViaOpenPreferencesAPI
 "
 paneGeneral
 "
+null
 {
 leaveOpen
 :
@@ -1026,6 +1030,7 @@ openPreferencesViaOpenPreferencesAPI
 "
 paneGeneral
 "
+null
 {
 leaveOpen
 :
@@ -1183,6 +1188,7 @@ openPreferencesViaOpenPreferencesAPI
 "
 paneGeneral
 "
+null
 {
 leaveOpen
 :
@@ -1361,6 +1367,7 @@ openPreferencesViaOpenPreferencesAPI
 "
 paneGeneral
 "
+null
 {
 leaveOpen
 :
