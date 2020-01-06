@@ -2353,10 +2353,6 @@ message
 )
 IMPL_EVENT_HANDLER
 (
-messageerror
-)
-IMPL_EVENT_HANDLER
-(
 error
 )
 bool
