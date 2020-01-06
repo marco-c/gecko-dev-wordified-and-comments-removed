@@ -797,6 +797,11 @@ CSS
 h
 '
 '
+CSSFontFeatureValuesRule
+.
+h
+'
+'
 CSSImportRule
 .
 h
@@ -962,6 +967,11 @@ cpp
 '
 '
 CSS
+.
+cpp
+'
+'
+CSSFontFeatureValuesRule
 .
 cpp
 '
