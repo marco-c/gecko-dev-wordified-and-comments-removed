@@ -1761,7 +1761,6 @@ Parser
 *
 parser
 ;
-explicit
 Rooter
 (
 Parser
