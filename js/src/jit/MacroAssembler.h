@@ -590,7 +590,7 @@ jit
 {
 enum
 class
-ExitFrameToken
+ExitFrameType
 :
 uint8_t
 ;
@@ -2349,8 +2349,6 @@ const
 VMFunction
 *
 f
-=
-nullptr
 )
 ;
 inline
@@ -2361,8 +2359,8 @@ Register
 cxreg
 Register
 scratch
-ExitFrameToken
-token
+ExitFrameType
+type
 )
 ;
 inline

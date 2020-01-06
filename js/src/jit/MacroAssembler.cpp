@@ -8637,10 +8637,14 @@ loadJSContext
 scratch
 )
 ;
-enterExitFrame
+enterFakeExitFrame
 (
 scratch
 scratch
+ExitFrameType
+:
+:
+Bare
 )
 ;
 Label
@@ -8988,7 +8992,7 @@ enterFakeExitFrame
 (
 scratch
 scratch
-ExitFrameToken
+ExitFrameType
 :
 :
 Bare
