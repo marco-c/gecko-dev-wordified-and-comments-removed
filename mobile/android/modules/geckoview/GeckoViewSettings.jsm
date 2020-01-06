@@ -92,9 +92,18 @@ jsm
 "
 )
 ;
-var
+XPCOMUtils
+.
+defineLazyGetter
+(
+this
+"
 dump
+"
+(
+)
 =
+>
 Cu
 .
 import
@@ -126,6 +135,7 @@ null
 "
 ViewSettings
 "
+)
 )
 ;
 function
