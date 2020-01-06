@@ -2031,11 +2031,6 @@ get
 )
 mLineNumber
 )
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
 ;
 JS
 :

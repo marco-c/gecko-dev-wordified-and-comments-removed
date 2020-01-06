@@ -908,11 +908,6 @@ GetLineNumber
 (
 )
 )
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
 ;
 JS
 :

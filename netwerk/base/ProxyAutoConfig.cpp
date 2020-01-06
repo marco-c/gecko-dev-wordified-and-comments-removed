@@ -4374,17 +4374,6 @@ setSystemZone
 (
 )
 ;
-options
-.
-behaviors
-(
-)
-.
-setVersion
-(
-JSVERSION_LATEST
-)
-;
 mGlobal
 =
 JS_NewGlobalObject

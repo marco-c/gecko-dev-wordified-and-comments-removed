@@ -218,9 +218,6 @@ str
 RootedScript
 callerScript
 ;
-JSVersion
-version
-;
 jsbytecode
 *
 pc

@@ -1145,11 +1145,6 @@ get
 )
 1
 )
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
 ;
 {
 nsJSUtils

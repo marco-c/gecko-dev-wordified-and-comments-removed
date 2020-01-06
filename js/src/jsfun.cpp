@@ -4180,11 +4180,6 @@ setNoScriptRval
 (
 true
 )
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
 ;
 if
 (

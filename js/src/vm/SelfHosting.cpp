@@ -15853,13 +15853,6 @@ false
 ;
 options
 .
-setVersion
-(
-JSVERSION_DEFAULT
-)
-;
-options
-.
 werrorOption
 =
 true

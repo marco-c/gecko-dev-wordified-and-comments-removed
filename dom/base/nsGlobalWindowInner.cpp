@@ -25801,11 +25801,6 @@ setFileAndLine
 filename
 lineNo
 )
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
 ;
 options
 .

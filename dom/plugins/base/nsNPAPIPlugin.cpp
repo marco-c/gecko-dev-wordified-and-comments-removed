@@ -4719,11 +4719,6 @@ setFileAndLine
 spec
 0
 )
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
 ;
 JS
 :

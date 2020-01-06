@@ -456,17 +456,6 @@ true
 ;
 #
 endif
-options
-.
-behaviors
-(
-)
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
-;
 newGlobal
 =
 JS_NewGlobalObject

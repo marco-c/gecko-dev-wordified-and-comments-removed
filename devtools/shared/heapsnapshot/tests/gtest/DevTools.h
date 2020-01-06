@@ -414,17 +414,6 @@ JS
 CompartmentOptions
 options
 ;
-options
-.
-behaviors
-(
-)
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
-;
 newGlobal
 =
 JS_NewGlobalObject

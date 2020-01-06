@@ -1055,11 +1055,6 @@ GetLineNumber
 (
 )
 )
-.
-setVersion
-(
-JSVERSION_DEFAULT
-)
 ;
 nsCString
 name
@@ -1287,11 +1282,6 @@ setterText
 GetLineNumber
 (
 )
-)
-.
-setVersion
-(
-JSVERSION_DEFAULT
 )
 ;
 nsCString

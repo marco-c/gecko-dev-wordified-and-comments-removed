@@ -779,11 +779,6 @@ uriStr
 1
 )
 .
-setVersion
-(
-JSVERSION_DEFAULT
-)
-.
 setNoScriptRval
 (
 !

@@ -3002,12 +3002,6 @@ CompileOptions
 options
 (
 cx
-lazy
--
->
-version
-(
-)
 )
 ;
 options

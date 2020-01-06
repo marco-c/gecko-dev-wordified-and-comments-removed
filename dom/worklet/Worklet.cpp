@@ -1053,13 +1053,6 @@ get
 ;
 compileOptions
 .
-setVersion
-(
-JSVERSION_DEFAULT
-)
-;
-compileOptions
-.
 setIsRunOnce
 (
 true

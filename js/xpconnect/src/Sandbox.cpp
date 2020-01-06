@@ -9218,11 +9218,6 @@ get
 )
 lineNo
 )
-.
-setVersion
-(
-jsVersion
-)
 ;
 MOZ_ASSERT
 (
