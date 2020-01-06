@@ -331,8 +331,6 @@ LOGFONTW
 aLogFont
 gfxFloat
 aSize
-bool
-aUseGDIFakeItalic
 )
 ;
 HFONT
