@@ -3,10 +3,6 @@ run_test
 (
 )
 {
-installTestEngine
-(
-)
-;
 Services
 .
 prefs

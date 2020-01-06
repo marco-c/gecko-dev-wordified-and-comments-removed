@@ -41,10 +41,6 @@ run_test
 (
 )
 {
-installTestEngine
-(
-)
-;
 let
 srv
 =
@@ -451,6 +447,16 @@ asyncInit
 )
 ;
 checkNoRequest
+(
+)
+;
+await
+promiseAfterCache
+(
+)
+;
+await
+installTestEngine
 (
 )
 ;

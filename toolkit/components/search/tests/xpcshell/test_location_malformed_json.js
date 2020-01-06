@@ -94,10 +94,6 @@ run_test
 (
 )
 {
-installTestEngine
-(
-)
-;
 let
 promiseTzMessage
 =

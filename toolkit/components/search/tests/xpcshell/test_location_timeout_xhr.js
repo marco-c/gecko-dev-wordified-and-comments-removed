@@ -142,10 +142,6 @@ run_test
 (
 )
 {
-installTestEngine
-(
-)
-;
 let
 resolveContinuePromise
 ;
