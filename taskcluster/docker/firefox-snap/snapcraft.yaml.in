@@ -42,6 +42,17 @@ desktop
 -
 launch
 firefox
+desktop
+:
+opt
+/
+firefox
+/
+distribution
+/
+firefox
+.
+desktop
 plugs
 :
 -
