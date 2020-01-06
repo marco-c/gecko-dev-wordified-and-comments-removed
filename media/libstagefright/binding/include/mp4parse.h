@@ -53,9 +53,6 @@ mp4parse_status_IO
 mp4parse_status_TABLE_TOO_LARGE
 =
 6
-mp4parse_status_OOM
-=
-7
 }
 mp4parse_status
 ;
@@ -301,13 +298,6 @@ parser
 ;
 void
 mp4parse_log
-(
-bool
-enable
-)
-;
-void
-mp4parse_fallible_allocation
 (
 bool
 enable
