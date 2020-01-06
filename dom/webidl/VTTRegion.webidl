@@ -159,6 +159,9 @@ attribute
 double
 width
 ;
+[
+SetterThrows
+]
 attribute
 long
 lines
