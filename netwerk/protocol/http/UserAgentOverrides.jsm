@@ -283,6 +283,8 @@ x
 )
 {
 }
+try
+{
 UserAgentUpdates
 .
 init
@@ -354,6 +356,13 @@ buildOverrides
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 gInitialized
 =
 true

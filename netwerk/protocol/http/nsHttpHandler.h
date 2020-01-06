@@ -1414,6 +1414,11 @@ SetFastOpenOSSupport
 (
 )
 ;
+void
+EnsureUAOverridesInit
+(
+)
+;
 private
 :
 nsMainThreadPtrHandle
