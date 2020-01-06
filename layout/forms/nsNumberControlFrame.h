@@ -469,7 +469,7 @@ WidgetEvent
 aEvent
 )
 ;
-nsresult
+void
 HandleSelectCall
 (
 )

@@ -571,6 +571,7 @@ valueAsNumber
 ;
 [
 CEReactions
+SetterThrows
 ]
 attribute
 unsigned
