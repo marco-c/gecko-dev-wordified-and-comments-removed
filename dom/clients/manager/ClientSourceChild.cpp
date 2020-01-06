@@ -15,6 +15,13 @@ h
 #
 include
 "
+ClientThing
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

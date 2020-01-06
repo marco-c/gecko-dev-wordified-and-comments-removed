@@ -104,6 +104,11 @@ ClientIPCUtils
 h
 '
 '
+ClientManager
+.
+h
+'
+'
 ClientManagerActors
 .
 h
@@ -155,6 +160,11 @@ cpp
 '
 '
 ClientInfo
+.
+cpp
+'
+'
+ClientManager
 .
 cpp
 '
@@ -303,6 +313,12 @@ LOCAL_INCLUDES
 +
 =
 [
+'
+/
+dom
+/
+workers
+'
 ]
 FINAL_LIBRARY
 =
