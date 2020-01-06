@@ -43,6 +43,15 @@ include
 "
 gc
 /
+ArenaList
+.
+h
+"
+#
+include
+"
+gc
+/
 AtomMarking
 .
 h
@@ -181,6 +190,10 @@ MarkingValidator
 ;
 struct
 MovingTracer
+;
+enum
+class
+ShouldCheckThresholds
 ;
 class
 SweepGroupsIter

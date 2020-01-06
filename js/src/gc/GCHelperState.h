@@ -31,6 +31,13 @@ js
 class
 AutoLockHelperThreadState
 ;
+namespace
+gc
+{
+class
+ArenaLists
+;
+}
 class
 GCHelperState
 {
