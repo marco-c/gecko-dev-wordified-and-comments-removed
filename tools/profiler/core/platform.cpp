@@ -9073,10 +9073,7 @@ ret
 =
 nullptr
 ;
-Thread
-:
-:
-tid_t
+int
 id
 =
 Thread
@@ -11959,10 +11956,7 @@ aFilters
 aFilterCount
 )
 ;
-Thread
-:
-:
-tid_t
+int
 tid
 =
 Thread
@@ -12556,10 +12550,7 @@ StopLogging
 }
 #
 endif
-Thread
-:
-:
-tid_t
+int
 tid
 =
 Thread
@@ -13609,10 +13600,7 @@ return
 nullptr
 ;
 }
-Thread
-:
-:
-tid_t
+int
 tid
 =
 Thread

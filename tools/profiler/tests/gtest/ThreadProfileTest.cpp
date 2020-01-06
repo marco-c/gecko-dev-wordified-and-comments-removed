@@ -27,10 +27,7 @@ ThreadProfile
 Initialization
 )
 {
-Thread
-:
-:
-tid_t
+int
 tid
 =
 1000
@@ -59,10 +56,7 @@ ThreadProfile
 InsertOneEntry
 )
 {
-Thread
-:
-:
-tid_t
+int
 tid
 =
 1000
@@ -164,10 +158,7 @@ ThreadProfile
 InsertEntriesNoWrap
 )
 {
-Thread
-:
-:
-tid_t
+int
 tid
 =
 1000
@@ -314,10 +305,7 @@ ThreadProfile
 InsertEntriesWrap
 )
 {
-Thread
-:
-:
-tid_t
+int
 tid
 =
 1000

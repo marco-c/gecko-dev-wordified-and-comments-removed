@@ -178,10 +178,7 @@ math
 .
 h
 >
-Thread
-:
-:
-tid_t
+int
 Thread
 :
 :
