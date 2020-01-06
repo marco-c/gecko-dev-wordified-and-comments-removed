@@ -3381,7 +3381,7 @@ Tier
 Code
 :
 :
-anyTier
+stableTier
 (
 )
 const
@@ -4420,7 +4420,7 @@ codeRange
 :
 metadata
 (
-anyTier
+stableTier
 (
 )
 )
