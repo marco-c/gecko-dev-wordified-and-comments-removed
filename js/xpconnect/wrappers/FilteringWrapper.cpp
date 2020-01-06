@@ -1259,6 +1259,15 @@ set
 wrapper
 )
 ;
+if
+(
+!
+JSID_IS_INT
+(
+id
+)
+)
+{
 desc
 .
 attributesRef
@@ -1269,6 +1278,7 @@ attributesRef
 ~
 JSPROP_ENUMERATE
 ;
+}
 desc
 .
 attributesRef
