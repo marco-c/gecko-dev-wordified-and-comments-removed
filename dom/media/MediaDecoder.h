@@ -1547,6 +1547,11 @@ FromMicroseconds
 ;
 private
 :
+void
+NotifyDataArrivedInternal
+(
+)
+;
 nsCString
 GetDebugInfo
 (
