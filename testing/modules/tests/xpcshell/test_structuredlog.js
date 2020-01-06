@@ -191,8 +191,6 @@ info
 Test
 message
 "
-extra
-=
 {
 foo
 :

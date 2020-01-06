@@ -82,11 +82,13 @@ result
 ;
 while
 (
+(
 o
 =
 o
 .
 __proto__
+)
 )
 {
 result
@@ -1101,9 +1103,6 @@ test
 )
 ;
 }
-let
-aethrow
-=
 makeBlock
 (
 thrower
@@ -1114,8 +1113,6 @@ Assert
 AssertionError
 )
 ;
-aethrow
-=
 makeBlock
 (
 thrower
@@ -1408,6 +1405,9 @@ return
 true
 ;
 }
+return
+false
+;
 }
 )
 ;
@@ -1447,6 +1447,9 @@ return
 true
 ;
 }
+return
+false
+;
 }
 )
 ;
