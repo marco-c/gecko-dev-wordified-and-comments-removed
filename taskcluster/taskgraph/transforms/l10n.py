@@ -1813,10 +1813,13 @@ options
                 
 locales_with_changesets_as_list
 =
+sorted
+(
 locales_with_changesets
 .
 items
 (
+)
 )
                 
 chunked_locales
@@ -2030,10 +2033,13 @@ for
 locale
 changeset
 in
+sorted
+(
 locales_with_changesets
 .
 items
 (
+)
 )
             
 ]
