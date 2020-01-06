@@ -2305,7 +2305,6 @@ compute_self
 match
 compute_style
 (
-traversal
 traversal_data
 context
 element
@@ -2628,7 +2627,6 @@ preprocess_children
 :
 <
 E
-D
 >
 (
 context
@@ -2711,13 +2709,8 @@ fn
 compute_style
 <
 E
-D
 >
 (
-_traversal
-:
-&
-D
 traversal_data
 :
 &
@@ -2746,12 +2739,6 @@ where
 E
 :
 TElement
-D
-:
-DomTraversal
-<
-E
->
 {
 use
 data
@@ -3128,7 +3115,6 @@ fn
 preprocess_children
 <
 E
-D
 >
 (
 context
@@ -3153,12 +3139,6 @@ where
 E
 :
 TElement
-D
-:
-DomTraversal
-<
-E
->
 {
 trace
 !
