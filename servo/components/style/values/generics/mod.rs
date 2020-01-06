@@ -65,6 +65,10 @@ basic_shape
 ;
 pub
 mod
+grid
+;
+pub
+mod
 image
 ;
 pub
