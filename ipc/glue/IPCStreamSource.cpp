@@ -347,6 +347,12 @@ nsIAsyncInputStream
 aInputStream
 )
 :
+WorkerHolder
+(
+"
+IPCStreamSource
+"
+)
 mStream
 (
 aInputStream

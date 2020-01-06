@@ -543,6 +543,16 @@ WorkerHolder
 InternalWorkerHolder
 (
 )
+:
+WorkerHolder
+(
+"
+WebCryptoTask
+:
+:
+InternalWorkerHolder
+"
+)
 {
 }
 ~

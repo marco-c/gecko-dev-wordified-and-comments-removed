@@ -4112,6 +4112,12 @@ ServiceWorkerRegistration
 nullptr
 aScope
 )
+WorkerHolder
+(
+"
+ServiceWorkerRegistrationWorkerThread
+"
+)
 mWorkerPrivate
 (
 aWorkerPrivate

@@ -834,6 +834,15 @@ BroadcastChannel
 aChannel
 )
 :
+workers
+:
+:
+WorkerHolder
+(
+"
+BroadcastChannelWorkerHolder
+"
+)
 mChannel
 (
 aChannel

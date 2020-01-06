@@ -6044,6 +6044,12 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
+WorkerHolder
+(
+"
+XMLHttpRequestWorker
+"
+)
 mWorkerPrivate
 (
 aWorkerPrivate

@@ -1155,6 +1155,9 @@ aStream
 :
 WorkerHolder
 (
+"
+WorkerStreamOwner
+"
 WorkerHolder
 :
 :

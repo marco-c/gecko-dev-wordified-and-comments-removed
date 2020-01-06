@@ -233,6 +233,9 @@ aBehavior
 :
 WorkerHolder
 (
+"
+WorkerHolderToken
+"
 aBehavior
 )
 mShutdownStatus

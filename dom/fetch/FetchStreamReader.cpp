@@ -93,6 +93,9 @@ aReader
 :
 WorkerHolder
 (
+"
+FetchStreamReaderWorkerHolder
+"
 WorkerHolder
 :
 :
