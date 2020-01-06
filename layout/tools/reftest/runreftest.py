@@ -5026,6 +5026,23 @@ outputHandler
 }
         
 if
+mozinfo
+.
+isWin
+:
+            
+kp_kwargs
+[
+'
+processStderrLine
+'
+]
+=
+[
+outputHandler
+]
+        
+if
 interactive
 :
             
