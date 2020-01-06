@@ -425,7 +425,8 @@ RowItemType
 HIGHLIGHTS_TITLE
 }
 ;
-private
+public
+static
 final
 int
 MAX_TOP_STORIES
