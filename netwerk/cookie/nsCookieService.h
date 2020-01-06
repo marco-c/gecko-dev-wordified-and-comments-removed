@@ -1395,6 +1395,10 @@ const
 char16_t
 *
 aData
+bool
+aOldCookieIsSession
+=
+false
 )
 ;
 void
