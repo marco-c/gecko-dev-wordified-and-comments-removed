@@ -517,14 +517,6 @@ IUnknown
 aOutput
 )
 ;
-REFIID
-MarshalAs
-(
-REFIID
-aIid
-)
-const
-;
 private
 :
 InterceptorTargetPtr

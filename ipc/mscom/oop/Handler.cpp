@@ -414,10 +414,7 @@ mUnmarshal
 >
 GetUnmarshalClass
 (
-MarshalAs
-(
 riid
-)
 pv
 dwDestContext
 pvDestContext
@@ -697,8 +694,13 @@ return
 hr
 ;
 }
+REFIID
+marshalAs
+=
+riid
+;
 #
-endif
+else
 REFIID
 marshalAs
 =
@@ -707,6 +709,8 @@ MarshalAs
 riid
 )
 ;
+#
+endif
 hr
 =
 mInnerUnk
