@@ -1108,10 +1108,7 @@ ServoComputedData
 :
 AddSizeOfExcludingThis
 (
-SizeOfState
-&
-aState
-nsStyleSizes
+nsWindowSizes
 &
 aSizes
 )
@@ -1191,7 +1188,9 @@ size_t
 if
 (
 !
-aState
+aSizes
+.
+mState
 .
 HaveSeenPtr
 (
@@ -1204,6 +1203,8 @@ name_
 {
 \
 aSizes
+.
+mStyleSizes
 .
 NS_STYLE_SIZES_FIELD
 (
@@ -1246,7 +1247,9 @@ mPtr
 &
 &
 !
-aState
+aSizes
+.
+mState
 .
 HaveSeenPtr
 (
@@ -1263,10 +1266,11 @@ mPtr
 >
 AddSizeOfIncludingThis
 (
-aState
 aSizes
 &
 aSizes
+.
+mStyleSizes
 .
 mComputedValuesVisited
 )

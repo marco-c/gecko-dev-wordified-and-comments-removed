@@ -36,8 +36,8 @@ h
 #
 undef
 STYLE_STRUCT
-struct
-nsStyleSizes
+class
+nsWindowSizes
 ;
 struct
 ServoNodeData
@@ -525,13 +525,7 @@ const
 void
 AddSizeOfExcludingThis
 (
-mozilla
-:
-:
-SizeOfState
-&
-aState
-nsStyleSizes
+nsWindowSizes
 &
 aSizes
 )

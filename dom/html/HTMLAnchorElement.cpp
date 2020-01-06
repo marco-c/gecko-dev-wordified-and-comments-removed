@@ -1498,10 +1498,7 @@ HTMLAnchorElement
 :
 AddSizeOfExcludingThis
 (
-SizeOfState
-&
-aState
-nsStyleSizes
+nsWindowSizes
 &
 aSizes
 size_t
@@ -1515,7 +1512,6 @@ nsGenericHTMLElement
 :
 AddSizeOfExcludingThis
 (
-aState
 aSizes
 aNodeSize
 )
@@ -1529,7 +1525,9 @@ Link
 :
 SizeOfExcludingThis
 (
-aState
+aSizes
+.
+mState
 )
 ;
 }
