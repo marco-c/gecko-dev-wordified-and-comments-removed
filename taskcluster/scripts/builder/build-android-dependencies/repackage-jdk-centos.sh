@@ -4,6 +4,8 @@
 bin
 /
 bash
+-
+vex
 set
 -
 e
@@ -15,6 +17,10 @@ WORKSPACE
 WORKSPACE
 :
 =
+/
+home
+/
+worker
 /
 workspace
 }
