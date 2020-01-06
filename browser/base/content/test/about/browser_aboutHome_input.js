@@ -237,6 +237,10 @@ tab
 ;
 }
 )
+.
+skip
+(
+)
 ;
 add_task
 (
@@ -392,6 +396,10 @@ entrypoint
 )
 ;
 }
+)
+.
+skip
+(
 )
 ;
 add_task
