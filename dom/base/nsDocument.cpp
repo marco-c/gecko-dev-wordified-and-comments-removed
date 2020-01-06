@@ -13911,11 +13911,6 @@ rv
 rv
 )
 ;
-mSandboxFlags
-|
-=
-cspSandboxFlags
-;
 bool
 needNewNullPrincipal
 =
@@ -13932,6 +13927,11 @@ mSandboxFlags
 &
 SANDBOXED_ORIGIN
 )
+;
+mSandboxFlags
+|
+=
+cspSandboxFlags
 ;
 if
 (
