@@ -12,6 +12,11 @@ GetEffectiveContentSandboxLevel
 (
 )
 ;
+bool
+IsContentSandboxEnabled
+(
+)
+;
 }
 #
 endif

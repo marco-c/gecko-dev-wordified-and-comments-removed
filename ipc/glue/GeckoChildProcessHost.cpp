@@ -4594,15 +4594,6 @@ if
 mSandboxLevel
 >
 0
-&
-&
-!
-PR_GetEnv
-(
-"
-MOZ_DISABLE_CONTENT_SANDBOX
-"
-)
 )
 {
 mSandboxBroker
