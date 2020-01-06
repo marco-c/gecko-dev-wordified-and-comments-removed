@@ -2662,7 +2662,7 @@ api
 /
 debug
 :
-10800
+7200
 linux64
 -
 jsdcov
@@ -6416,7 +6416,7 @@ android
 .
 *
 :
-10800
+7200
 default
 :
 3600
@@ -11284,7 +11284,9 @@ mozilla
 beta
 '
 '
-autoland
+mozilla
+-
+central
 '
 '
 try
@@ -11465,7 +11467,9 @@ mozilla
 beta
 '
 '
-autoland
+mozilla
+-
+central
 '
 '
 try
@@ -11639,7 +11643,9 @@ mozilla
 beta
 '
 '
-autoland
+mozilla
+-
+central
 '
 '
 try
