@@ -4390,6 +4390,14 @@ eCSSKeyword__moz_mac_vibrancy_dark
 NS_THEME_MAC_VIBRANCY_DARK
 }
 {
+eCSSKeyword__moz_mac_vibrant_titlebar_light
+NS_THEME_MAC_VIBRANT_TITLEBAR_LIGHT
+}
+{
+eCSSKeyword__moz_mac_vibrant_titlebar_dark
+NS_THEME_MAC_VIBRANT_TITLEBAR_DARK
+}
+{
 eCSSKeyword__moz_mac_disclosure_button_open
 NS_THEME_MAC_DISCLOSURE_BUTTON_OPEN
 }
