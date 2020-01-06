@@ -86,6 +86,9 @@ xml
 times
 :
 18
+minTimes
+:
+12
 }
 {
 stack
