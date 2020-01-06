@@ -30,16 +30,6 @@ import
 sys
 import
 which
-DEBUG
-=
-os
-.
-getenv
-(
-"
-DEBUG
-"
-)
 def
 symlink
 (
@@ -98,13 +88,6 @@ args
 )
 :
     
-global
-DEBUG
-    
-if
-DEBUG
-:
-        
 print
 >
 >
@@ -149,13 +132,6 @@ getcwd
 (
 )
     
-global
-DEBUG
-    
-if
-DEBUG
-:
-        
 print
 >
 >
@@ -184,10 +160,6 @@ check_run
 args
 )
     
-if
-DEBUG
-:
-        
 print
 >
 >
