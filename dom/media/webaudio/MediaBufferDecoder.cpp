@@ -91,7 +91,7 @@ h
 #
 include
 "
-MediaDecoderReader
+MediaFormatReader
 .
 h
 "
@@ -401,7 +401,7 @@ CreateReader
 (
 )
 ;
-MediaDecoderReader
+MediaFormatReader
 *
 Reader
 (
@@ -619,7 +619,7 @@ mBufferDecoder
 ;
 RefPtr
 <
-MediaDecoderReader
+MediaFormatReader
 >
 mDecoderReader
 ;

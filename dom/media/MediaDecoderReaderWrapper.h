@@ -112,7 +112,7 @@ MediaDecoderReaderWrapper
 AbstractThread
 *
 aOwnerThread
-MediaDecoderReader
+MediaFormatReader
 *
 aReader
 )
@@ -431,7 +431,7 @@ mOwnerThread
 const
 RefPtr
 <
-MediaDecoderReader
+MediaFormatReader
 >
 mReader
 ;

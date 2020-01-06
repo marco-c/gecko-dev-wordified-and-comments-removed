@@ -200,7 +200,7 @@ class
 VideoFrameContainer
 ;
 class
-MediaDecoderReader
+MediaFormatReader
 ;
 class
 MediaDecoderStateMachine
@@ -1334,7 +1334,7 @@ mResource
 ;
 RefPtr
 <
-MediaDecoderReader
+MediaFormatReader
 >
 mReader
 ;

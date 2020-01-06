@@ -42,7 +42,7 @@ class
 MediaDecoderOwner
 ;
 class
-MediaDecoderReader
+MediaFormatReader
 ;
 class
 MediaResource
@@ -102,7 +102,7 @@ aDiagnostics
 )
 ;
 static
-MediaDecoderReader
+MediaFormatReader
 *
 CreateReader
 (
