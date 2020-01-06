@@ -11525,6 +11525,10 @@ false
 ;
 }
 }
+adjustHeaderState
+(
+)
+;
 let
 current_button
 =
@@ -11619,10 +11623,6 @@ getSelection
 )
 .
 empty
-(
-)
-;
-adjustHeaderState
 (
 )
 ;
