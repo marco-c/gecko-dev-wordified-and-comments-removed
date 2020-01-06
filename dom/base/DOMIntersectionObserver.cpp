@@ -2059,7 +2059,7 @@ isSome
 0
 ;
 }
-size_t
+int32_t
 threshold
 =
 -
@@ -2092,6 +2092,9 @@ intersectionRatio
 ;
 threshold
 =
+(
+int32_t
+)
 mThresholds
 .
 Length
@@ -2134,6 +2137,9 @@ intersectionRatio
 {
 threshold
 =
+(
+int32_t
+)
 k
 +
 1
