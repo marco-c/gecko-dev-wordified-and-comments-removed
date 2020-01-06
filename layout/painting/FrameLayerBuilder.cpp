@@ -16909,6 +16909,13 @@ if
 (
 !
 prerenderedTransform
+&
+&
+!
+IsScrollThumbLayer
+(
+item
+)
 )
 {
 itemDrawRect
