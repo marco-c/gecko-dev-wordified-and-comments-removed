@@ -104,8 +104,10 @@ NS_DECL_NSIRUNNABLE
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSINAMED
 static
+already_AddRefed
+<
 nsAndroidHistory
-*
+>
 GetSingleton
 (
 )
