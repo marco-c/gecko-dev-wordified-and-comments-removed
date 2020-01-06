@@ -234,6 +234,10 @@ MOZ_ANDROID_MOZILLA_ONLINE
 '
                 
 '
+MOZ_ANDROID_POCKET
+'
+                
+'
 MOZ_ANDROID_PWA
 '
                 
