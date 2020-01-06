@@ -3222,7 +3222,6 @@ endif
 bool
 malloc_init_hard
 (
-void
 )
 ;
 #
@@ -16916,7 +16915,7 @@ define
 malloc_init
 (
 )
-false
+true
 #
 else
 static
@@ -16924,7 +16923,6 @@ inline
 bool
 malloc_init
 (
-void
 )
 {
 if
@@ -16942,7 +16940,7 @@ malloc_init_hard
 ;
 }
 return
-false
+true
 ;
 }
 #
@@ -17026,7 +17024,6 @@ endif
 bool
 malloc_init_hard
 (
-void
 )
 {
 unsigned
@@ -17057,7 +17054,7 @@ malloc_initialized
 )
 {
 return
-false
+true
 ;
 }
 if
@@ -17071,7 +17068,7 @@ init
 )
 {
 return
-false
+true
 ;
 }
 result
@@ -17694,7 +17691,7 @@ gMainArena
 )
 {
 return
-true
+false
 ;
 }
 gMainArena
@@ -17722,7 +17719,7 @@ Init
 )
 {
 return
-true
+false
 ;
 }
 malloc_initialized
@@ -17761,7 +17758,7 @@ _malloc_postfork_child
 #
 endif
 return
-false
+true
 ;
 }
 struct
@@ -17903,6 +17900,7 @@ ret
 ;
 if
 (
+!
 malloc_init
 (
 )
@@ -17991,6 +17989,7 @@ aAlignment
 ;
 if
 (
+!
 malloc_init
 (
 )
@@ -18067,6 +18066,7 @@ num_size
 ;
 if
 (
+!
 malloc_init
 (
 )
@@ -18237,6 +18237,7 @@ else
 {
 if
 (
+!
 malloc_init
 (
 )
