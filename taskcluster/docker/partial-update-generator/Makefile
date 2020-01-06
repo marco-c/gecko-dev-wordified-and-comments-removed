@@ -9,7 +9,7 @@ set
 )
 IMAGE_NAME
 =
-funsize
+partial
 -
 update
 -
