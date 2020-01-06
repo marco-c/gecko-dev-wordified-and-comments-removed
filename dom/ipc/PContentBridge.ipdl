@@ -137,10 +137,6 @@ PChildToParentStream
 ;
 include
 protocol
-PMemoryStream
-;
-include
-protocol
 PParentToChildStream
 ;
 include
@@ -376,9 +372,6 @@ manages
 PChildToParentStream
 ;
 manages
-PMemoryStream
-;
-manages
 PParentToChildStream
 ;
 manages
@@ -473,13 +466,6 @@ PJavaScript
 async
 PChildToParentStream
 (
-)
-;
-async
-PMemoryStream
-(
-uint64_t
-aSize
 )
 ;
 both

@@ -85,10 +85,6 @@ protocol
 PParentToChildStream
 ;
 include
-protocol
-PMemoryStream
-;
-include
 BlobTypes
 ;
 include
