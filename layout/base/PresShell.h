@@ -3457,6 +3457,10 @@ mozilla
 TimeStamp
 sLastInputProcessed
 ;
+static
+bool
+sProcessInteractable
+;
 }
 ;
 }
