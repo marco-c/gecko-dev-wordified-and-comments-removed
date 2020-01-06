@@ -954,7 +954,7 @@ deviceBoxRect
 =
 aSc
 .
-ToRelativeLayoutRectRounded
+ToRelativeLayoutRect
 (
 deviceBox
 )
