@@ -419,7 +419,7 @@ void
 GPUVideoTextureHost
 :
 :
-AddWRImage
+PushResourceUpdates
 (
 wr
 :
@@ -427,9 +427,11 @@ wr
 ResourceUpdateQueue
 &
 aResources
+ResourceUpdateOp
+aOp
+const
 Range
 <
-const
 wr
 :
 :
@@ -454,9 +456,10 @@ mWrappedTextureHost
 mWrappedTextureHost
 -
 >
-AddWRImage
+PushResourceUpdates
 (
 aResources
+aOp
 aImageKeys
 aExtID
 )
