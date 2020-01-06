@@ -25,13 +25,6 @@ h
 #
 include
 "
-MediaPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
