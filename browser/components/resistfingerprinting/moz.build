@@ -118,3 +118,17 @@ browser
 ini
 '
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+test
+/
+mochitest
+/
+mochitest
+.
+ini
+'
+]
