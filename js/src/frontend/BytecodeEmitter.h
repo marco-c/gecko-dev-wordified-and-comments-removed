@@ -550,7 +550,7 @@ typedef
 Vector
 <
 jsbytecode
-0
+64
 >
 BytecodeVector
 ;
@@ -558,7 +558,7 @@ typedef
 Vector
 <
 jssrcnote
-0
+64
 >
 SrcNotesVector
 ;
