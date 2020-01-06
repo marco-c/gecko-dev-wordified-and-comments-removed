@@ -47,17 +47,6 @@ h
 #
 endif
 #
-if
-defined
-(
-__GNUC__
-)
-#
-define
-XRE_DONT_SUPPORT_XPSP2
-#
-endif
-#
 ifdef
 __MINGW32__
 #

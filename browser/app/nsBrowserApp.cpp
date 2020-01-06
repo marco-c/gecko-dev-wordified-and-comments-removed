@@ -115,14 +115,6 @@ h
 ifdef
 XP_WIN
 #
-ifdef
-MOZ_ASAN
-#
-define
-XRE_DONT_SUPPORT_XPSP2
-#
-endif
-#
 define
 XRE_WANT_ENVIRON
 #
