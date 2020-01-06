@@ -75,6 +75,11 @@ CodeSegment
 cs
 )
 ;
+void
+ShutDownProcessStaticData
+(
+)
+;
 }
 }
 #
