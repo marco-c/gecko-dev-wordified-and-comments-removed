@@ -2507,7 +2507,7 @@ aCommands
 mTabChild
 -
 >
-RequestNativeKeyBindings
+RequestEditCommands
 (
 aType
 aEvent

@@ -3255,6 +3255,8 @@ aEvent
 ;
 enum
 NativeKeyBindingsType
+:
+uint8_t
 {
 NativeKeyBindingsForSingleLineEditor
 NativeKeyBindingsForMultiLineEditor
