@@ -519,8 +519,8 @@ pending
 breakpoints
 "
 "
-[
-]
+{
+}
 "
 )
 ;
@@ -554,7 +554,7 @@ case
 -
 sensitive
 "
-true
+false
 )
 ;
 pref
