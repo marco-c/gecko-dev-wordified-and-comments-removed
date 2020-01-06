@@ -78,7 +78,7 @@ for
 cache
 in
 /
-home
+builds
 /
 worker
 /
@@ -87,13 +87,13 @@ tc
 -
 vcs
 /
-home
+builds
 /
 worker
 /
 workspace
 /
-home
+builds
 /
 worker
 /
@@ -153,7 +153,7 @@ exec
 su
 worker
 /
-home
+builds
 /
 worker
 /
