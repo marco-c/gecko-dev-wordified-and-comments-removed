@@ -871,6 +871,8 @@ if
 aParams
 .
 mUseNullDecoder
+.
+mUse
 )
 {
 MOZ_ASSERT
@@ -1302,6 +1304,8 @@ mMimeType
 aParams
 .
 mUseNullDecoder
+.
+mUse
 )
 {
 RefPtr
