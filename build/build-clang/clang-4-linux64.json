@@ -292,5 +292,10 @@ symbols
 .
 patch
 "
+"
+pr_set_ptracer
+.
+patch
+"
 ]
 }

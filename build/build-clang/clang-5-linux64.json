@@ -290,5 +290,10 @@ r313872
 .
 patch
 "
+"
+pr_set_ptracer
+.
+patch
+"
 ]
 }
