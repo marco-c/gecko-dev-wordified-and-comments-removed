@@ -764,8 +764,6 @@ harness
 def
 findParentIncludes
 (
-relPath
-includesMap
 )
 :
         
@@ -823,30 +821,22 @@ parentIncludes
 def
 findIncludes
 (
-includesMap
-relPath
 )
 :
-        
-includeSet
-=
-includesMap
-[
-relPath
-]
         
 parentIncludes
 =
 findParentIncludes
 (
-relPath
-includesMap
 )
         
 for
 include
 in
-includeSet
+includesMap
+[
+relPath
+]
 :
             
 if
@@ -950,10 +940,11 @@ path
 join
 harnessDir
 )
+sorted
+(
 findIncludes
 (
-includesMap
-relPath
+)
 )
 )
         
@@ -972,7 +963,10 @@ getcwd
 (
 )
 )
+sorted
+(
 localIncludes
+)
 )
     
 )
@@ -1784,6 +1778,39 @@ intl402
 [
 "
 testBuiltInObject
+.
+js
+"
+]
+    
+explicitIncludes
+[
+os
+.
+path
+.
+join
+(
+"
+built
+-
+ins
+"
+"
+Atomics
+"
+)
+]
+=
+[
+"
+testAtomics
+.
+js
+"
+        
+"
+testTypedArray
 .
 js
 "
