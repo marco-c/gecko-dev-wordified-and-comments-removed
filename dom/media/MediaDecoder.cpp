@@ -4043,10 +4043,6 @@ mNextState
 )
 ;
 }
-NotifySuspendedStatusChanged
-(
-)
-;
 if
 (
 aEventVisibility
