@@ -261,6 +261,15 @@ aBuffer
 )
 ;
 void
+SetBuffer
+(
+AudioChunk
+&
+&
+aBuffer
+)
+;
+void
 SendTimelineEvent
 (
 uint32_t
