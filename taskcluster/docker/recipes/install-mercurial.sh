@@ -690,6 +690,8 @@ CERT_PATH
 [
 extensions
 ]
+sparse
+=
 robustcheckout
 =
 /
