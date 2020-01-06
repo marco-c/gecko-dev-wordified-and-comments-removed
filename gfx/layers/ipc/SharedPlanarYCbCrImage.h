@@ -170,6 +170,16 @@ aData
 )
 ;
 virtual
+uint8_t
+*
+AllocateAndGetNewBuffer
+(
+uint32_t
+aSize
+)
+override
+;
+virtual
 bool
 IsValid
 (
