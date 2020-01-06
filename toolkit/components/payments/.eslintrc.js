@@ -14,17 +14,6 @@ rules
 "
 mozilla
 /
-balanced
--
-listeners
-"
-:
-"
-error
-"
-"
-mozilla
-/
 var
 -
 only
