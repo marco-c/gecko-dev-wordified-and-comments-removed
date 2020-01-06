@@ -1115,13 +1115,6 @@ do_QueryInterface
 aRequest
 )
 )
-&
-&
-mCacheStream
-.
-OwnerThread
-(
-)
 )
 {
 retarget
