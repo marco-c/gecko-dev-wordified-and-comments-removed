@@ -8,9 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-AbstractThread
+nsThreadUtils
 .
 h
 "
@@ -75,10 +73,7 @@ aPromise
 >
 Then
 (
-AbstractThread
-:
-:
-MainThread
+GetMainThreadSerialEventTarget
 (
 )
 __func__
