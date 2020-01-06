@@ -1478,7 +1478,7 @@ nsRect
 *
 aDirtyRect
 bool
-aAllowCreateDisplayPort
+aSetBase
 )
 ;
 void
@@ -3639,7 +3639,7 @@ nsRect
 *
 aDirtyRect
 bool
-aAllowCreateDisplayPort
+aSetBase
 )
 override
 {
@@ -3650,7 +3650,7 @@ DecideScrollableLayer
 (
 aBuilder
 aDirtyRect
-aAllowCreateDisplayPort
+aSetBase
 )
 ;
 }
@@ -6088,7 +6088,7 @@ nsRect
 *
 aDirtyRect
 bool
-aAllowCreateDisplayPort
+aSetBase
 )
 override
 {
@@ -6099,7 +6099,7 @@ DecideScrollableLayer
 (
 aBuilder
 aDirtyRect
-aAllowCreateDisplayPort
+aSetBase
 )
 ;
 }
