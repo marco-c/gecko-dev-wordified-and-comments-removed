@@ -4576,6 +4576,14 @@ options
 marionette_socket_timeout
                 
 '
+startup_timeout
+'
+:
+options
+.
+marionette_startup_timeout
+                
+'
 symbols_path
 '
 :

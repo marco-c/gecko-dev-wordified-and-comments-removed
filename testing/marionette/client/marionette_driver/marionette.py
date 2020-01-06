@@ -4549,13 +4549,18 @@ crashed
 =
 0
         
+self
+.
 startup_timeout
 =
+int
+(
 startup_timeout
 or
 self
 .
 DEFAULT_STARTUP_TIMEOUT
+)
         
 if
 self
@@ -4659,6 +4664,8 @@ raise_for_port
 (
 timeout
 =
+self
+.
 startup_timeout
 )
         
@@ -9698,6 +9705,14 @@ self
 .
 socket_timeout
 )
+        
+timeout
+=
+timeout
+or
+self
+.
+startup_timeout
         
 self
 .
