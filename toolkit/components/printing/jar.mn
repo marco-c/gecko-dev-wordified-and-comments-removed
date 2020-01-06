@@ -60,6 +60,9 @@ jar
 #
 ifndef
 XP_MACOSX
+#
+ifdef
+XP_WIN
 content
 /
 global
@@ -88,6 +91,8 @@ printPageSetup
 .
 xul
 )
+#
+endif
 content
 /
 global

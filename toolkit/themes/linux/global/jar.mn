@@ -262,15 +262,6 @@ classic
 /
 global
 /
-printPageSetup
-.
-css
-skin
-/
-classic
-/
-global
-/
 printPreview
 .
 css

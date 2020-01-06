@@ -1074,6 +1074,9 @@ dtd
 #
 ifndef
 MOZ_FENNEC
+#
+ifndef
+MOZ_GTK
 locale
 /
 AB_CD
@@ -1093,6 +1096,8 @@ printPageSetup
 .
 dtd
 )
+#
+endif
 locale
 /
 AB_CD
