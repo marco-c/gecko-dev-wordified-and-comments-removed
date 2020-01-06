@@ -30,13 +30,6 @@ h
 #
 include
 "
-AndroidJNIWrapper
-.
-h
-"
-#
-include
-"
 webrtc
 /
 base

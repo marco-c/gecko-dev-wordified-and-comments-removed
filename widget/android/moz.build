@@ -170,11 +170,6 @@ AndroidJavaWrappers
 h
 '
 '
-AndroidJNIWrapper
-.
-h
-'
-'
 GeneratedJNINatives
 .
 h
@@ -235,11 +230,6 @@ cpp
 '
 '
 AndroidJNI
-.
-cpp
-'
-'
-AndroidJNIWrapper
 .
 cpp
 '
