@@ -17018,6 +17018,7 @@ GetNextNode
 (
 aParent
 aOffset
+aChildAtOffset
 true
 aNoBlockCrossing
 )
