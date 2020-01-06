@@ -1237,6 +1237,9 @@ this
 _list
 .
 selectedIndex
+>
+=
+0
 ;
 let
 hasRows
@@ -1247,7 +1250,7 @@ _list
 .
 itemCount
 >
-1
+0
 ;
 this
 .
