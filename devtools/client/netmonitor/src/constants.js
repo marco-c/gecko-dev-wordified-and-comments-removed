@@ -344,6 +344,15 @@ NetworkEventUpdated
 :
 ResponseContent
 "
+RECEIVED_EVENT_STACKTRACE
+:
+"
+NetMonitor
+:
+NetworkEventUpdated
+:
+StackTrace
+"
 CONNECTED
 :
 "
@@ -436,6 +445,9 @@ responseContentAvailable
 "
 "
 formDataSections
+"
+"
+stacktrace
 "
 ]
 ;
