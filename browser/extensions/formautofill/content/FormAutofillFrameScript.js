@@ -381,9 +381,8 @@ PopupClosed
 {
 FormAutofillContent
 .
-previewProfile
+onPopupClosed
 (
-doc
 )
 ;
 chromeEventHandler
