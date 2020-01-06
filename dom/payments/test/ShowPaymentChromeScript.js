@@ -1604,6 +1604,7 @@ nsIPaymentUIService
 ;
 }
 )
+;
 addMessageListener
 (
 "
