@@ -464,6 +464,10 @@ pub
 return_internal
 :
 bool
+pub
+aborted
+:
+bool
 }
 impl
 Response
@@ -587,6 +591,9 @@ None
 return_internal
 :
 true
+aborted
+:
+false
 }
 }
 pub
@@ -741,6 +748,9 @@ None
 return_internal
 :
 true
+aborted
+:
+false
 }
 }
 pub

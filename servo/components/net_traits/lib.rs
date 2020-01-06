@@ -1504,6 +1504,14 @@ IpcSender
 <
 FetchResponseMsg
 >
+Option
+<
+IpcReceiver
+<
+(
+)
+>
+>
 )
 WebSocket
 {
@@ -1545,6 +1553,14 @@ ResponseInit
 IpcSender
 <
 FetchResponseMsg
+>
+Option
+<
+IpcReceiver
+<
+(
+)
+>
 >
 )
 SetCookieForUrl
@@ -1736,6 +1752,7 @@ FetchChannels
 ResponseMsg
 (
 action_sender
+None
 )
 )
 )
@@ -2161,6 +2178,7 @@ FetchChannels
 ResponseMsg
 (
 action_sender
+None
 )
 )
 )

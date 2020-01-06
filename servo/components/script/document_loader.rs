@@ -638,6 +638,7 @@ FetchChannels
 ResponseMsg
 (
 fetch_target
+None
 )
 )
 )
