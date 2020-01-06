@@ -2,10 +2,6 @@ extern
 crate
 libc
 ;
-#
-[
-macro_use
-]
 extern
 crate
 core_foundation

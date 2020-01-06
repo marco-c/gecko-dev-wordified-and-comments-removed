@@ -123,12 +123,10 @@ libc
 int32_t
 ;
 pub
-type
+enum
 CGAffineTransform
-=
-(
-)
-;
+{
+}
 pub
 const
 kCGImageAlphaNone
