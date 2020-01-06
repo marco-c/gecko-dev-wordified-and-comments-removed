@@ -2499,10 +2499,8 @@ applet
 )
 )
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 shell
 =
 aDocument
