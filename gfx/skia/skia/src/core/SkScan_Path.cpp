@@ -2448,6 +2448,12 @@ nullptr
 =
 proc
 )
+&
+&
+count
+>
+=
+2
 )
 {
 SkASSERT

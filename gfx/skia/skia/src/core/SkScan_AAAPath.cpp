@@ -10362,6 +10362,12 @@ path
 isConvex
 (
 )
+&
+&
+count
+>
+=
+2
 )
 {
 SkASSERT
