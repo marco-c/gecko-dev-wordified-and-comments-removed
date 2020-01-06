@@ -24,6 +24,9 @@ NoteXPCOMRoot
 nsISupports
 *
 aRoot
+nsCycleCollectionParticipant
+*
+aParticipant
 )
 =
 0
