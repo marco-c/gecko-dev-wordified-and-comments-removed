@@ -1119,7 +1119,9 @@ type
 )
 ;
 static
-UniqueChars
+const
+char
+*
 TypeString
 (
 Type
@@ -1127,7 +1129,9 @@ type
 )
 ;
 static
-UniqueChars
+const
+char
+*
 ObjectGroupString
 (
 ObjectGroup
