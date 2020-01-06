@@ -8020,6 +8020,10 @@ getter_AddRefs
 bufferedStream
 )
 stream
+.
+forget
+(
+)
 512
 )
 ;
