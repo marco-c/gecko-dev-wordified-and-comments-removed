@@ -3268,6 +3268,13 @@ OCSP
 signer
 "
 ;
+static
+const
+long
+zero
+=
+0
+;
 const
 ByteString
 subCAExtensions
@@ -3278,7 +3285,8 @@ subCAExtensions
 CreateEncodedBasicConstraints
 (
 true
-0
+&
+zero
 Critical
 :
 :
@@ -3506,6 +3514,13 @@ OCSP
 signer
 "
 ;
+static
+const
+long
+zero
+=
+0
+;
 const
 ByteString
 subCAExtensions
@@ -3516,7 +3531,8 @@ subCAExtensions
 CreateEncodedBasicConstraints
 (
 true
-0
+&
+zero
 Critical
 :
 :
