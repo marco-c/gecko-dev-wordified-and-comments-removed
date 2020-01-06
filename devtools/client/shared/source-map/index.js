@@ -4290,6 +4290,10 @@ id
 error
 :
 err
+.
+toString
+(
+)
 }
 )
 )
@@ -4321,6 +4325,12 @@ postMessage
 {
 id
 error
+:
+error
+.
+toString
+(
+)
 }
 )
 ;
