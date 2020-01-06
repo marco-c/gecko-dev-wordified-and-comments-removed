@@ -8450,6 +8450,9 @@ isAsync
 asyncKind
 =
 =
+FunctionAsyncKind
+:
+:
 AsyncFunction
 ;
 RootedScript
@@ -9419,6 +9422,9 @@ GeneratorKind
 :
 :
 NotGenerator
+FunctionAsyncKind
+:
+:
 SyncFunction
 )
 ;
@@ -9457,6 +9463,9 @@ GeneratorKind
 :
 :
 Generator
+FunctionAsyncKind
+:
+:
 SyncFunction
 )
 ;
@@ -9495,6 +9504,9 @@ GeneratorKind
 :
 :
 NotGenerator
+FunctionAsyncKind
+:
+:
 AsyncFunction
 )
 ;
@@ -9533,6 +9545,9 @@ GeneratorKind
 :
 :
 Generator
+FunctionAsyncKind
+:
+:
 AsyncFunction
 )
 ;

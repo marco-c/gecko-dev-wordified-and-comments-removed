@@ -2135,7 +2135,13 @@ isAsync
 (
 )
 ?
+FunctionAsyncKind
+:
+:
 AsyncFunction
+:
+FunctionAsyncKind
+:
 :
 SyncFunction
 ;
