@@ -1760,7 +1760,7 @@ change_hint
 SERVO_BINDING_FUNC
 (
 Servo_TakeChangeHint
-nsChangeHint
+uint32_t
 RawGeckoElementBorrowed
 element
 bool

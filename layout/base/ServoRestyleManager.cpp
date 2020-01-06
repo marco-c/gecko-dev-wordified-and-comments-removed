@@ -3017,11 +3017,17 @@ wasRestyled
 nsChangeHint
 changeHint
 =
+static_cast
+<
+nsChangeHint
+>
+(
 Servo_TakeChangeHint
 (
 aElement
 &
 wasRestyled
+)
 )
 ;
 if
