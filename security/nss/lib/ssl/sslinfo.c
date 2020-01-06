@@ -2992,7 +2992,6 @@ PORT_Memcpy
 val
 +
 i
-&
 ss
 -
 >
@@ -3001,8 +3000,6 @@ ssl3
 hs
 .
 client_random
-.
-rand
 SSL3_RANDOM_LENGTH
 )
 ;
@@ -3016,7 +3013,6 @@ PORT_Memcpy
 val
 +
 i
-&
 ss
 -
 >
@@ -3025,8 +3021,6 @@ ssl3
 hs
 .
 server_random
-.
-rand
 SSL3_RANDOM_LENGTH
 )
 ;

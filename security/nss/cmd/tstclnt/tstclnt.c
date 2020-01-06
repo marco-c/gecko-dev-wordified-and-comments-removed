@@ -2225,15 +2225,12 @@ stderr
 -
 20s
 Enable
-alternate
-content
-type
-for
+alternative
 TLS
 1
 .
 3
-ServerHello
+handshake
 \
 n
 "
@@ -6545,7 +6542,7 @@ enableAltServerHello
 {
 rv
 =
-SSL_UseAltServerHelloType
+SSL_UseAltHandshakeType
 (
 s
 PR_TRUE

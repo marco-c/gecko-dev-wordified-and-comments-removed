@@ -128,7 +128,6 @@ rnd_len
 ;
 PORT_Memset
 (
-&
 ss
 -
 >
@@ -150,7 +149,6 @@ rnd_len
 ;
 PORT_Memcpy
 (
-&
 ss
 -
 >
@@ -159,11 +157,8 @@ ssl3
 hs
 .
 client_random
-.
-rand
-[
++
 offset
-]
 rnd
 rnd_len
 )

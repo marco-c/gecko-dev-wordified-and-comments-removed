@@ -55,7 +55,7 @@ SECFailure
 )
 #
 define
-SSL_UseAltServerHelloType
+SSL_UseAltHandshakeType
 (
 fd
 enable
@@ -64,7 +64,7 @@ enable
 SSL_EXPERIMENTAL_API
 (
 "
-SSL_UseAltServerHelloType
+SSL_UseAltHandshakeType
 "
 \
 (
