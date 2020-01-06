@@ -176,6 +176,11 @@ ExtensionUtils
 jsm
 '
 '
+FindContent
+.
+jsm
+'
+'
 LegacyExtensionsUtils
 .
 jsm
