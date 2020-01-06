@@ -11696,6 +11696,13 @@ Layer
 aManager
 aImplData
 )
+mSamplingFilter
+(
+SamplingFilter
+:
+:
+GOOD
+)
 {
 }
 CanvasLayer
