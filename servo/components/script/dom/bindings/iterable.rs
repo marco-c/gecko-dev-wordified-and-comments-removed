@@ -713,7 +713,7 @@ unsafe
 NonZero
 :
 :
-new
+new_unchecked
 (
 rval
 .

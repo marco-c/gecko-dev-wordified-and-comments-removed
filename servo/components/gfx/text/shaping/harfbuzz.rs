@@ -2283,7 +2283,7 @@ ptr
 Unique
 :
 :
-new
+new_unchecked
 (
 hb_funcs
 )

@@ -955,7 +955,7 @@ JSObject
 NonZero
 :
 :
-new
+new_unchecked
 (
 self
 .
@@ -997,7 +997,7 @@ JSObject
 NonZero
 :
 :
-new
+new_unchecked
 (
 self
 .
@@ -1039,7 +1039,7 @@ JSObject
 NonZero
 :
 :
-new
+new_unchecked
 (
 self
 .
@@ -1081,7 +1081,7 @@ JSObject
 NonZero
 :
 :
-new
+new_unchecked
 (
 self
 .

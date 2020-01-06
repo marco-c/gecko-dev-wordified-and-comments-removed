@@ -1138,7 +1138,7 @@ new
 NonZero
 :
 :
-new
+new_unchecked
 (
 self
 .

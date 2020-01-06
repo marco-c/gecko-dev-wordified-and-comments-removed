@@ -1117,7 +1117,7 @@ is_null
 NonZero
 :
 :
-new
+new_unchecked
 (
 self
 .

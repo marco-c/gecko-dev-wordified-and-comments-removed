@@ -294,7 +294,7 @@ Some
 NonZero
 :
 :
-new
+new_unchecked
 (
 self
 )
@@ -391,7 +391,7 @@ ptr
 NonZero
 :
 :
-new
+new_unchecked
 (
 ptr
 )

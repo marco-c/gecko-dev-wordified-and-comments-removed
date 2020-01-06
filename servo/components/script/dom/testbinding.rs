@@ -1581,7 +1581,7 @@ is_null
 NonZero
 :
 :
-new
+new_unchecked
 (
 array
 .
@@ -1699,7 +1699,7 @@ is_null
 NonZero
 :
 :
-new
+new_unchecked
 (
 obj
 .
