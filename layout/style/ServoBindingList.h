@@ -160,7 +160,8 @@ sheet
 SERVO_BINDING_FUNC
 (
 Servo_StyleSet_Init
-RawServoStyleSetOwned
+RawServoStyleSet
+*
 RawGeckoPresContextOwned
 pres_context
 )
