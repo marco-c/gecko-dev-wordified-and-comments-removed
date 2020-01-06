@@ -130,6 +130,11 @@ AutoGlobalTimelineMarker
 h
 '
 '
+AutoRestyleTimelineMarker
+.
+h
+'
+'
 AutoTimelineMarker
 .
 h
@@ -221,6 +226,11 @@ cpp
 '
 '
 AutoGlobalTimelineMarker
+.
+cpp
+'
+'
+AutoRestyleTimelineMarker
 .
 cpp
 '

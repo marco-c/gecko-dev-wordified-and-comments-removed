@@ -364,8 +364,8 @@ markers
 .
 *
 /
-DOMString
-restyleHint
+boolean
+isAnimationOnly
 ;
 /
 *
