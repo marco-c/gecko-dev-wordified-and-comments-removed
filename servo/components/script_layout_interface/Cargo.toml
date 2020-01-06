@@ -97,7 +97,7 @@ euclid
 "
 0
 .
-11
+13
 "
 gfx_traits
 =
@@ -116,9 +116,7 @@ heapsize
 "
 0
 .
-3
-.
-0
+4
 "
 heapsize_derive
 =

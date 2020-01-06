@@ -76,7 +76,7 @@ euclid
 "
 0
 .
-11
+13
 "
 fnv
 =
@@ -130,9 +130,7 @@ heapsize
 "
 0
 .
-3
-.
-0
+4
 "
 heapsize_derive
 =
@@ -273,7 +271,7 @@ smallvec
 "
 0
 .
-3
+4
 "
 style
 =
