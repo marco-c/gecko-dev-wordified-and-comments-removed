@@ -44,6 +44,11 @@ simpleTestFiles
 =
 [
 "
+ExtensionTestUtils
+.
+js
+"
+"
 EventUtils
 .
 js

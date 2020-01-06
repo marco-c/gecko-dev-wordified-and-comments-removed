@@ -35,6 +35,11 @@ BroadcastChannel
 :
 false
 "
+BrowserFeedWriter
+"
+:
+false
+"
 CSSPrimitiveValue
 "
 :
