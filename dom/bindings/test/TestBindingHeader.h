@@ -9463,6 +9463,16 @@ Value
 >
 )
 ;
+int32_t
+CachedAttr
+(
+)
+;
+int32_t
+StoreInSlotAttr
+(
+)
+;
 }
 ;
 class
