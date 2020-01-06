@@ -96,6 +96,8 @@ DeleteSession
 =
 >
 "
+{
+}
 "
 .
 to_string
@@ -176,6 +178,8 @@ Void
 =
 >
 "
+{
+}
 "
 .
 to_string
