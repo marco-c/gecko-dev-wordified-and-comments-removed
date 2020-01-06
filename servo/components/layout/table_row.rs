@@ -46,6 +46,12 @@ EstablishContainingBlock
 }
 ;
 use
+display_list_builder
+:
+:
+StackingContextCollectionState
+;
+use
 euclid
 :
 :
@@ -2253,7 +2259,7 @@ state
 :
 &
 mut
-DisplayListBuildState
+StackingContextCollectionState
 )
 {
 self

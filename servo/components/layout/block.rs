@@ -40,6 +40,12 @@ EstablishContainingBlock
 }
 ;
 use
+display_list_builder
+:
+:
+StackingContextCollectionState
+;
+use
 euclid
 :
 :
@@ -11737,7 +11743,7 @@ NonstackingContext
 }
 pub
 fn
-overflow_style_may_require_scroll_root
+overflow_style_may_require_clip_scroll_node
 (
 &
 self
@@ -15366,7 +15372,7 @@ state
 :
 &
 mut
-DisplayListBuildState
+StackingContextCollectionState
 )
 {
 self

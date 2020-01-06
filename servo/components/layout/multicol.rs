@@ -31,7 +31,10 @@ use
 display_list_builder
 :
 :
+{
 DisplayListBuildState
+StackingContextCollectionState
+}
 ;
 use
 euclid
@@ -1151,7 +1154,7 @@ state
 :
 &
 mut
-DisplayListBuildState
+StackingContextCollectionState
 )
 {
 self
@@ -1647,7 +1650,7 @@ state
 :
 &
 mut
-DisplayListBuildState
+StackingContextCollectionState
 )
 {
 self

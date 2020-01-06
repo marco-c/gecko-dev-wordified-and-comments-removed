@@ -40,7 +40,10 @@ use
 display_list_builder
 :
 :
+{
 EstablishContainingBlock
+StackingContextCollectionState
+}
 ;
 use
 euclid
@@ -945,7 +948,7 @@ state
 :
 &
 mut
-DisplayListBuildState
+StackingContextCollectionState
 )
 {
 self
