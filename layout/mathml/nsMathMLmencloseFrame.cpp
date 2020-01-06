@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsWhitespaceTokenizer
 .
 h
@@ -3534,7 +3541,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -3569,7 +3576,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )

@@ -3621,12 +3621,9 @@ return
 true
 ;
 }
-RefPtr
-<
-gfxContext
->
+nsRenderingContext
 rc
-=
+(
 aFrame
 -
 >
@@ -3642,6 +3639,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 nsIFrame
@@ -3705,6 +3703,7 @@ PresContext
 (
 )
 parentFrame
+&
 rc
 parentSize
 )
@@ -3793,6 +3792,7 @@ PresContext
 (
 )
 cbFrame
+&
 rc
 cbSize
 )

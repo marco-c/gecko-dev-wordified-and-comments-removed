@@ -256,7 +256,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -266,7 +266,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -276,7 +276,7 @@ virtual
 void
 GetIntrinsicISizeMetrics
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 ReflowOutput
@@ -717,7 +717,7 @@ nullptr
 void
 UpdateIntrinsicWidth
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

@@ -492,6 +492,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsAbsoluteContainingBlock
 .
 h
@@ -9327,7 +9334,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -9356,7 +9363,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -21654,7 +21661,7 @@ nsFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -21680,7 +21687,7 @@ nsFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -21706,7 +21713,7 @@ nsFrame
 :
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -21749,7 +21756,7 @@ nsFrame
 :
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -23300,7 +23307,7 @@ nsFrame
 :
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode
@@ -24922,7 +24929,7 @@ nsFrame
 :
 ComputeSizeWithIntrinsicDimensions
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode
@@ -27349,7 +27356,7 @@ nsIFrame
 :
 GetPrefWidthTightBounds
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nscoord
@@ -27370,7 +27377,7 @@ nsFrame
 :
 ComputeAutoSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode
@@ -27488,7 +27495,7 @@ nsFrame
 :
 ShrinkWidthToFit
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -27584,7 +27591,7 @@ nsIFrame
 :
 ComputeISizeValue
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -45998,7 +46005,7 @@ nsBoxLayoutState
 aState
 )
 {
-gfxContext
+nsRenderingContext
 *
 rendContext
 =
@@ -46930,7 +46937,7 @@ ourRect
 mRect
 )
 ;
-gfxContext
+nsRenderingContext
 *
 rendContext
 =
@@ -47359,7 +47366,7 @@ aPresContext
 ReflowOutput
 &
 aDesiredSize
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord

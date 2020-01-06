@@ -351,7 +351,7 @@ nsNumberControlFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -413,7 +413,7 @@ nsNumberControlFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

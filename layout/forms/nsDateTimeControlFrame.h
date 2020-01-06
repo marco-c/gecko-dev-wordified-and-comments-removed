@@ -175,7 +175,7 @@ eReplacedContainsBlock
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -184,7 +184,7 @@ override
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

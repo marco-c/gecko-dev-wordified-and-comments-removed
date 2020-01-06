@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsMathMLmmultiscriptsFrame
 .
 h
@@ -31,13 +38,6 @@ include
 <
 algorithm
 >
-#
-include
-"
-gfxContext
-.
-h
-"
 #
 include
 "

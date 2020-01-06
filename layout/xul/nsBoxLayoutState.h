@@ -26,7 +26,7 @@ nsIPresShell
 h
 "
 class
-gfxContext
+nsRenderingContext
 ;
 namespace
 mozilla
@@ -55,7 +55,7 @@ nsBoxLayoutState
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 =
@@ -151,7 +151,7 @@ return
 mPaintingDisabled
 ;
 }
-gfxContext
+nsRenderingContext
 *
 GetRenderingContext
 (
@@ -231,7 +231,7 @@ nsPresContext
 >
 mPresContext
 ;
-gfxContext
+nsRenderingContext
 *
 mRenderingContext
 ;

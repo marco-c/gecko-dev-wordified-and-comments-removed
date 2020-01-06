@@ -2907,7 +2907,7 @@ nsSubDocumentFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2964,7 +2964,7 @@ nsSubDocumentFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3099,7 +3099,7 @@ nsSubDocumentFrame
 :
 ComputeAutoSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode
@@ -3187,7 +3187,7 @@ nsSubDocumentFrame
 :
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode

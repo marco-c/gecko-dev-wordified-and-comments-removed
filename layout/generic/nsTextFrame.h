@@ -1134,7 +1134,7 @@ override
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1143,7 +1143,7 @@ override
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1152,7 +1152,7 @@ override
 void
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinISizeData
@@ -1164,7 +1164,7 @@ override
 void
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefISizeData
@@ -1179,7 +1179,7 @@ mozilla
 LogicalSize
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 mozilla
@@ -1235,7 +1235,7 @@ override
 nsresult
 GetPrefWidthTightBounds
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nscoord
@@ -1338,7 +1338,7 @@ eNotInflated
 void
 AddInlineMinISizeForFlow
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1354,7 +1354,7 @@ aTextRunType
 void
 AddInlinePrefISizeForFlow
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefISizeData

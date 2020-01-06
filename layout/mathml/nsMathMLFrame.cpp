@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h
@@ -94,6 +87,13 @@ h
 include
 "
 nsDisplayList
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -1269,7 +1269,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -1298,7 +1298,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -1544,7 +1544,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -1573,7 +1573,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )

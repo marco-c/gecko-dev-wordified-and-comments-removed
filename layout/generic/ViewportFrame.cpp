@@ -963,7 +963,7 @@ ViewportFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1014,7 +1014,7 @@ ViewportFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

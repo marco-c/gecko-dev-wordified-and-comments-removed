@@ -1,13 +1,6 @@
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 nsMathMLmoFrame
 .
 h
@@ -16,6 +9,13 @@ h
 include
 "
 nsPresContext
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -4160,7 +4160,7 @@ nsMathMLmoFrame
 :
 GetIntrinsicISizeMetrics
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 ReflowOutput

@@ -75,9 +75,6 @@ define
 NS_DEFAULT_HORIZONTAL_SCROLL_DISTANCE
 5
 class
-gfxContext
-;
-class
 nsBoxLayoutState
 ;
 class
@@ -91,6 +88,9 @@ nsPresContext
 ;
 class
 nsIContent
+;
+class
+nsRenderingContext
 ;
 class
 nsIAtom
@@ -232,7 +232,7 @@ GetDesiredScrollbarSizes
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRC
 )
@@ -246,7 +246,7 @@ GetNondisappearingScrollbarWidth
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRC
 mozilla

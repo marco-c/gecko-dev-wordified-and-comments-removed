@@ -33,7 +33,7 @@ class
 nsIFrame
 ;
 class
-gfxContext
+nsRenderingContext
 ;
 namespace
 mozilla

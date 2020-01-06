@@ -2751,7 +2751,7 @@ aFrame
 nsView
 *
 aView
-gfxContext
+nsRenderingContext
 *
 aRC
 uint32_t
@@ -3424,7 +3424,7 @@ nsContainerFrame
 :
 DoInlineIntrinsicISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlineIntrinsicISizeData
@@ -3885,7 +3885,7 @@ nsContainerFrame
 :
 ComputeAutoSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode

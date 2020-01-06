@@ -176,7 +176,7 @@ nsRubyFrame
 :
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -258,7 +258,7 @@ nsRubyFrame
 :
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame

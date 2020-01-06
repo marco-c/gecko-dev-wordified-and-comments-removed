@@ -31,7 +31,7 @@ nsLeafFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -61,7 +61,7 @@ nsLeafFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -91,7 +91,7 @@ nsLeafFrame
 :
 ComputeAutoSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode

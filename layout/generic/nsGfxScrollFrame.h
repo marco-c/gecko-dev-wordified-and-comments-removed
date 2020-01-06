@@ -2433,7 +2433,7 @@ aScrollPosition
 nscoord
 GetIntrinsicVScrollbarWidth
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2477,7 +2477,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2487,7 +2487,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2862,7 +2862,7 @@ GetDesiredScrollbarSizes
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRC
 )
@@ -2891,7 +2891,7 @@ GetNondisappearingScrollbarWidth
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRC
 mozilla
@@ -4387,7 +4387,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -4933,7 +4933,7 @@ GetDesiredScrollbarSizes
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRC
 )
@@ -4962,7 +4962,7 @@ GetNondisappearingScrollbarWidth
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRC
 mozilla

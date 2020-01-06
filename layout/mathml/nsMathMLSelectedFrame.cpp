@@ -252,7 +252,7 @@ nsMathMLSelectedFrame
 :
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode

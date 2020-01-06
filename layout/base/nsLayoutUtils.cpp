@@ -354,7 +354,7 @@ h
 #
 include
 "
-gfxContext
+nsRenderingContext
 .
 h
 "
@@ -17264,7 +17264,7 @@ nsLayoutUtils
 :
 PaintFrame
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -17811,9 +17811,19 @@ AppUnitsPerDevPixel
 aRenderingContext
 -
 >
+ThebesContext
+(
+)
+-
+>
 SetMatrix
 (
 aRenderingContext
+-
+>
+ThebesContext
+(
+)
 -
 >
 CurrentMatrix
@@ -24227,7 +24237,7 @@ const
 nsStyleCoord
 &
 aStyle
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -24558,7 +24568,7 @@ static
 nscoord
 AddIntrinsicSizeOffset
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -25239,7 +25249,7 @@ IntrinsicForAxis
 (
 PhysicalAxis
 aAxis
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -26563,7 +26573,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -26630,7 +26640,7 @@ MinSizeContributionForAxis
 (
 PhysicalAxis
 aAxis
-gfxContext
+nsRenderingContext
 *
 aRC
 nsIFrame
@@ -28117,7 +28127,7 @@ MinISizeFromInline
 nsIFrame
 *
 aFrame
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -28188,7 +28198,7 @@ PrefISizeFromInline
 nsIFrame
 *
 aFrame
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -28731,7 +28741,7 @@ aFrame
 nsFontMetrics
 &
 aFontMetrics
-gfxContext
+nsRenderingContext
 &
 aContext
 )
@@ -29072,7 +29082,7 @@ aFrame
 nsFontMetrics
 &
 aFontMetrics
-gfxContext
+nsRenderingContext
 *
 aContext
 const
@@ -29266,7 +29276,7 @@ aPoint
 nsFontMetrics
 &
 aFontMetrics
-gfxContext
+nsRenderingContext
 &
 aContext
 )
@@ -29449,7 +29459,7 @@ const
 nsIFrame
 *
 aFrame
-gfxContext
+nsRenderingContext
 *
 aContext
 const
@@ -29500,6 +29510,11 @@ gfxContext
 aDestCtx
 =
 aContext
+-
+>
+ThebesContext
+(
+)
 ;
 for
 (
@@ -29648,6 +29663,12 @@ shadowColor
 =
 aForegroundColor
 ;
+nsRenderingContext
+renderingContext
+(
+shadowContext
+)
+;
 aDestCtx
 -
 >
@@ -29678,7 +29699,8 @@ shadowColor
 ;
 aCallback
 (
-shadowContext
+&
+renderingContext
 shadowOffset
 shadowColor
 aCallbackData

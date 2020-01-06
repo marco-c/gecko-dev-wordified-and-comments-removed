@@ -211,6 +211,9 @@ class
 nsIPresShell
 ;
 class
+nsRenderingContext
+;
+class
 nsView
 ;
 class
@@ -5817,7 +5820,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -5828,7 +5831,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -6105,7 +6108,7 @@ virtual
 void
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinISizeData
@@ -6119,7 +6122,7 @@ virtual
 void
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefISizeData
@@ -6250,7 +6253,7 @@ mozilla
 LogicalSize
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 mozilla
@@ -6308,7 +6311,7 @@ virtual
 nsresult
 GetPrefWidthTightBounds
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nscoord
@@ -9114,7 +9117,7 @@ false
 nscoord
 ComputeISizeValue
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord

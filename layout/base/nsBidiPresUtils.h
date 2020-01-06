@@ -7,13 +7,6 @@ nsBidiPresUtils_h___
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 nsBidi
 .
 h
@@ -40,6 +33,13 @@ nsCoord
 h
 "
 #
+include
+"
+nsRenderingContext
+.
+h
+"
+#
 ifdef
 DrawText
 #
@@ -54,9 +54,6 @@ struct
 BidiLineData
 ;
 class
-gfxContext
-;
-class
 nsFontMetrics
 ;
 class
@@ -67,6 +64,9 @@ nsBlockFrame
 ;
 class
 nsPresContext
+;
+class
+nsRenderingContext
 ;
 class
 nsBlockInFlowLineIterator
@@ -322,7 +322,7 @@ aBaseLevel
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 DrawTarget
@@ -380,7 +380,7 @@ aBaseLevel
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 nsFontMetrics
@@ -644,7 +644,7 @@ aBaseLevel
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 DrawTarget

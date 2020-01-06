@@ -15,13 +15,6 @@ h
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
@@ -86,6 +79,13 @@ h
 include
 "
 nsLayoutUtils
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "

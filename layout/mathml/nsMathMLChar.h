@@ -54,9 +54,6 @@ gfxTextRun
 h
 "
 class
-gfxContext
-;
-class
 nsGlyphTable
 ;
 class
@@ -70,6 +67,9 @@ nsDisplayListSet
 ;
 class
 nsPresContext
+;
+class
+nsRenderingContext
 ;
 struct
 nsBoundingMetrics
@@ -392,7 +392,7 @@ PaintForeground
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint

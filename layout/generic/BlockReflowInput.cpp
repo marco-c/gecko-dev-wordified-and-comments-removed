@@ -994,7 +994,7 @@ GetBEndMarginClone
 nsIFrame
 *
 aFrame
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 const

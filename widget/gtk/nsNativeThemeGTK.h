@@ -80,7 +80,7 @@ NS_DECL_NSIOBSERVER
 NS_IMETHOD
 DrawWidgetBackground
 (
-gfxContext
+nsRenderingContext
 *
 aContext
 nsIFrame

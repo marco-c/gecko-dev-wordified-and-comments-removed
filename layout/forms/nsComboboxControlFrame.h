@@ -245,7 +245,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -255,7 +255,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -844,7 +844,7 @@ AbsolutelyPositionDropDown
 nscoord
 GetIntrinsicISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsLayoutUtils

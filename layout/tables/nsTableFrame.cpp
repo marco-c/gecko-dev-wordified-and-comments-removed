@@ -37,13 +37,6 @@ h
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -52,6 +45,13 @@ h
 include
 "
 nsTableFrame
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -6052,7 +6052,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -6145,7 +6145,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-gfxContext
+nsRenderingContext
 *
 aCtx
 )
@@ -8554,7 +8554,7 @@ nsTableFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -8592,7 +8592,7 @@ nsTableFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -8714,7 +8714,7 @@ nsTableFrame
 :
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode
@@ -8827,7 +8827,7 @@ nsTableFrame
 :
 TableShrinkISizeToFit
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -8909,7 +8909,7 @@ nsTableFrame
 :
 ComputeAutoSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode
@@ -16635,7 +16635,7 @@ nsTableFrame
 :
 ReflowColGroups
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

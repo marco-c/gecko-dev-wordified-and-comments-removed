@@ -1,13 +1,6 @@
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -58,6 +51,13 @@ h
 include
 "
 nsGkAtoms
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -190,7 +190,7 @@ virtual
 void
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinISizeData
@@ -203,7 +203,7 @@ virtual
 void
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefISizeData
@@ -216,7 +216,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -226,7 +226,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -679,7 +679,7 @@ BRFrame
 :
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -723,7 +723,7 @@ BRFrame
 :
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -775,7 +775,7 @@ BRFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -801,7 +801,7 @@ BRFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

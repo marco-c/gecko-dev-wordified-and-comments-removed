@@ -92,13 +92,13 @@ nsCSSRenderingBorders
 h
 "
 class
-gfxContext
-;
-class
 nsStyleContext
 ;
 class
 nsPresContext
+;
+class
+nsRenderingContext
 ;
 namespace
 mozilla
@@ -383,7 +383,7 @@ PaintBoxShadowInner
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -468,7 +468,7 @@ PaintBoxShadowOuter
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -512,7 +512,7 @@ PaintBorder
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -549,7 +549,7 @@ PaintBorderWithStyleBorder
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -676,7 +676,7 @@ CreateBorderRendererForOutline
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -702,7 +702,7 @@ PaintOutline
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFrame
@@ -1291,7 +1291,7 @@ const
 PaintBGParams
 &
 aParams
-gfxContext
+nsRenderingContext
 &
 aRenderingCtx
 )
@@ -1304,7 +1304,7 @@ const
 PaintBGParams
 &
 aParams
-gfxContext
+nsRenderingContext
 &
 aRenderingCtx
 nsStyleContext

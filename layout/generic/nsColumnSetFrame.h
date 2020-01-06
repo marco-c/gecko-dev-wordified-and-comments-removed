@@ -128,7 +128,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -138,7 +138,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -306,7 +306,7 @@ nsCSSBorderRenderer
 >
 &
 aBorderRenderers
-gfxContext
+nsRenderingContext
 *
 aCtx
 const

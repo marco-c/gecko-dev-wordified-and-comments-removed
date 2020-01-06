@@ -516,7 +516,7 @@ nsDateTimeControlFrame
 :
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -578,7 +578,7 @@ nsDateTimeControlFrame
 :
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )

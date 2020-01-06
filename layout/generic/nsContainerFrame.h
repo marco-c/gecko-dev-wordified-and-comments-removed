@@ -410,7 +410,7 @@ aFrame
 nsView
 *
 aView
-gfxContext
+nsRenderingContext
 *
 aRC
 uint32_t
@@ -440,7 +440,7 @@ aMaxSize
 void
 DoInlineIntrinsicISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 InlineIntrinsicISizeData
@@ -460,7 +460,7 @@ mozilla
 LogicalSize
 ComputeAutoSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 mozilla

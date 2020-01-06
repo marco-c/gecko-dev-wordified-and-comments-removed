@@ -500,7 +500,7 @@ DrawLayer
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -600,7 +600,7 @@ DrawBorderImageComponent
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -774,7 +774,7 @@ Draw
 nsPresContext
 *
 aPresContext
-gfxContext
+nsRenderingContext
 &
 aRenderingContext
 const

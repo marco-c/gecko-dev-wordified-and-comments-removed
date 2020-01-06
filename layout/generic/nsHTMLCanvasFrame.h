@@ -188,7 +188,7 @@ virtual
 nscoord
 GetMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -198,7 +198,7 @@ virtual
 nscoord
 GetPrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -228,7 +228,7 @@ mozilla
 LogicalSize
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 mozilla

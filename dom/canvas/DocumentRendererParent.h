@@ -7,13 +7,6 @@ mozilla_dom_DocumentRendererParent
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ipc
@@ -33,6 +26,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+gfxContext
 .
 h
 "

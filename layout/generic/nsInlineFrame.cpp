@@ -1,13 +1,6 @@
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 nsInlineFrame
 .
 h
@@ -51,6 +44,13 @@ h
 include
 "
 nsPresContext
+.
+h
+"
+#
+include
+"
+nsRenderingContext
 .
 h
 "
@@ -1116,7 +1116,7 @@ nsInlineFrame
 :
 AddInlineMinISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1144,7 +1144,7 @@ nsInlineFrame
 :
 AddInlinePrefISize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -1179,7 +1179,7 @@ nsInlineFrame
 :
 ComputeSize
 (
-gfxContext
+nsRenderingContext
 *
 aRenderingContext
 WritingMode
