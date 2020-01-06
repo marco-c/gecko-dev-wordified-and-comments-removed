@@ -213,6 +213,10 @@ EventRegions
 &
 aRegions
 const
+LayerIntRegion
+&
+aVisibleRegion
+const
 CSSTransformMatrix
 &
 aTransform
@@ -366,6 +370,14 @@ GetTransform
 )
 const
 ;
+const
+LayerIntRegion
+&
+GetVisibleRegion
+(
+)
+const
+;
 void
 Dump
 (
@@ -442,6 +454,9 @@ mFixedPosTarget
 ;
 EventRegions
 mEventRegions
+;
+LayerIntRegion
+mVisibleRegion
 ;
 CSSTransformMatrix
 mTransform
