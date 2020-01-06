@@ -153,6 +153,17 @@ sRunningDispatcher
 mAccessValid
 ;
 }
+static
+bool
+IsSafeToRunUnlabeled
+(
+)
+{
+return
+!
+sRunningDispatcher
+;
+}
 void
 ValidateAccess
 (
