@@ -16162,15 +16162,6 @@ gcreason
 :
 :
 SET_DOC_SHELL
-(
-mTopLevelOuterContentWindow
-|
-|
-mIsChrome
-)
-?
-nullptr
-:
 GetWrapperPreserveColor
 (
 )
