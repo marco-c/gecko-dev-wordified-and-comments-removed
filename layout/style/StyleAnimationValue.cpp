@@ -30306,18 +30306,6 @@ return
 result
 ;
 }
-const
-ServoComputedValues
-*
-computedValues
-=
-servoContext
--
->
-ComputedValues
-(
-)
-;
 result
 .
 mServo
@@ -30339,7 +30327,7 @@ ComputeAnimationValue
 (
 aElement
 declarations
-computedValues
+servoContext
 )
 ;
 return

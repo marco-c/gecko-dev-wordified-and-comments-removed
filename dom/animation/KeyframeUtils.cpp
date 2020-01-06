@@ -4303,11 +4303,6 @@ GetComputedKeyframeValuesFor
 aKeyframes
 aElement
 aStyleContext
--
->
-ComputedValues
-(
-)
 )
 ;
 }
