@@ -2702,6 +2702,20 @@ product
 '
 fennec
 '
+or
+\
+           
+task
+.
+label
+.
+endswith
+(
+'
+-
+fennec
+'
+)
 :
             
 if
@@ -2717,6 +2731,15 @@ bouncer
 -
 sub
 '
+                             
+'
+release
+-
+notify
+-
+promote
+'
+                             
 )
 :
                 
@@ -2849,6 +2872,20 @@ product
 '
 fennec
 '
+or
+\
+           
+task
+.
+label
+.
+endswith
+(
+'
+-
+fennec
+'
+)
 :
             
 if
@@ -2889,6 +2926,14 @@ release
 version
 -
 bump
+'
+                             
+'
+release
+-
+notify
+-
+publish
 '
                              
 )
