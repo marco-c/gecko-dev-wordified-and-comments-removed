@@ -122,11 +122,6 @@ nsCWebBrowser
 idl
 '
 '
-nsICommandHandler
-.
-idl
-'
-'
 nsIEmbeddingSiteWindow
 .
 idl
@@ -199,11 +194,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-nsCommandHandler
-.
-cpp
-'
 '
 nsWebBrowser
 .

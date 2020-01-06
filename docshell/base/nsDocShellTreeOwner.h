@@ -130,13 +130,6 @@ nsIDroppedLinkHandler
 .
 h
 "
-#
-include
-"
-nsCommandHandler
-.
-h
-"
 namespace
 mozilla
 {
@@ -217,10 +210,6 @@ nsSupportsWeakReference
 friend
 class
 nsWebBrowser
-;
-friend
-class
-nsCommandHandler
 ;
 public
 :

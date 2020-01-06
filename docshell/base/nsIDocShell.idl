@@ -142,6 +142,13 @@ NotNull
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 class
 nsPresContext
 ;
