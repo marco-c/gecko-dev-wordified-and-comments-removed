@@ -48,9 +48,6 @@ nsIDocument
 class
 nsStyleContext
 ;
-class
-ServoComputedValues
-;
 struct
 RawServoDeclarationBlock
 ;

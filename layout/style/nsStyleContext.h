@@ -925,16 +925,6 @@ SetStyleBits
 (
 )
 ;
-inline
-const
-void
-*
-StyleStructFromServoComputedValues
-(
-nsStyleStructID
-aSID
-)
-;
 #
 define
 STYLE_STRUCT_INHERITED
