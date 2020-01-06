@@ -690,6 +690,11 @@ nsIURIClassifier
 idl
 '
 '
+nsIURIMutator
+.
+idl
+'
+'
 nsIURIWithBlobImpl
 .
 idl
