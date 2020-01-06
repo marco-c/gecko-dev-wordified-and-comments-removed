@@ -530,6 +530,13 @@ found
 %
 s
 )
+.
+Check
+the
+JAVA_HOME
+environment
+variable
+.
 '
 %
 version

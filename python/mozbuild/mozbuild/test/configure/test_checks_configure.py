@@ -6010,6 +6010,13 @@ found
 .
 9
 )
+.
+Check
+the
+JAVA_HOME
+environment
+variable
+.
         
 '
 '
