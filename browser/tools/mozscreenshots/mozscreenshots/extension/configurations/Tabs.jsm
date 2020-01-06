@@ -884,6 +884,9 @@ tabs
 newtab
 -
 button
+toolbarbutton
+-
+1
 "
 )
 ;
