@@ -1234,7 +1234,7 @@ formautofill
 /
 content
 /
-editCreditCard
+manageCreditCards
 .
 xhtml
 "
