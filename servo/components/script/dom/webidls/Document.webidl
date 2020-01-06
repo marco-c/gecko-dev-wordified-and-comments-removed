@@ -257,6 +257,9 @@ createElement
 (
 DOMString
 localName
+optional
+ElementCreationOptions
+options
 )
 ;
 [
@@ -271,6 +274,9 @@ DOMString
 namespace
 DOMString
 qualifiedName
+optional
+ElementCreationOptions
+options
 )
 ;
 [
@@ -457,6 +463,14 @@ interactive
 "
 complete
 "
+}
+;
+dictionary
+ElementCreationOptions
+{
+DOMString
+is
+;
 }
 ;
 /
