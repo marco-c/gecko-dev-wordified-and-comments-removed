@@ -488,6 +488,12 @@ defined
 (
 MOZ_TELEMETRY_REPORTING
 )
+|
+|
+defined
+(
+MOZ_CRASHREPORTER
+)
 class
 AccumulateRunnable
 final
@@ -697,6 +703,12 @@ if
 defined
 (
 MOZ_TELEMETRY_REPORTING
+)
+|
+|
+defined
+(
+MOZ_CRASHREPORTER
 )
 nsCOMPtr
 <
