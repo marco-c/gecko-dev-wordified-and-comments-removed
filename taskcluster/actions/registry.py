@@ -1905,7 +1905,7 @@ ACTION_TASK_ID
 :
 {
 '
-dumps
+json
 '
 :
 {
@@ -1925,7 +1925,7 @@ ACTION_TASK
 :
 {
 '
-dumps
+json
 '
 :
 {
@@ -1945,7 +1945,7 @@ ACTION_INPUT
 :
 {
 '
-dumps
+json
 '
 :
 {
@@ -1973,7 +1973,7 @@ ACTION_PARAMETERS
 :
 {
 '
-dumps
+json
 '
 :
 {
