@@ -359,6 +359,16 @@ no
 mozlog
 "
                      
+"
+-
+p
+"
+"
+no
+:
+cacheprovider
+"
+                     
 path
 ]
                     
