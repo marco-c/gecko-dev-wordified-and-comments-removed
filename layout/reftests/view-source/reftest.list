@@ -1,16 +1,4 @@
 fails
--
-if
-(
-!
-styloVsGecko
-)
-random
--
-if
-(
-styloVsGecko
-)
 =
 =
 view

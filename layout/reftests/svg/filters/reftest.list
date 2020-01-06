@@ -854,12 +854,6 @@ pass
 .
 svg
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 filter

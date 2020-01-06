@@ -1195,12 +1195,6 @@ ref
 .
 html
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 mask

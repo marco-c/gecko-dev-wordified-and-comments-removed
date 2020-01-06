@@ -1223,10 +1223,6 @@ if
 (
 !
 layersGPUAccelerated
-&
-&
-!
-styloVsGecko
 )
 fails
 -

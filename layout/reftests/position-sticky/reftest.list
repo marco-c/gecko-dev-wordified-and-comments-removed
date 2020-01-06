@@ -747,12 +747,6 @@ bug
 for
 webrender
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 column

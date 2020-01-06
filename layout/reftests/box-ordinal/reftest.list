@@ -101,12 +101,6 @@ ref
 .
 xul
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 dynamic

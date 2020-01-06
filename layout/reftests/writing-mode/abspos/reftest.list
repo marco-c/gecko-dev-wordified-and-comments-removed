@@ -329,12 +329,6 @@ ref
 .
 html
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 1183431
@@ -471,12 +465,6 @@ ref
 .
 html
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 1183431

@@ -85,10 +85,6 @@ fails
 if
 (
 winWidget
-&
-&
-!
-styloVsGecko
 )
 =
 =
@@ -163,10 +159,6 @@ fails
 if
 (
 cocoaWidget
-&
-&
-!
-styloVsGecko
 )
 fuzzy
 -
@@ -1053,12 +1045,6 @@ ref
 .
 html
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 object
@@ -1089,12 +1075,6 @@ html
 bug
 1092436
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 object

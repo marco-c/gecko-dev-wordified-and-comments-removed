@@ -458,12 +458,6 @@ xhtml
 bug
 650597
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 scrollable

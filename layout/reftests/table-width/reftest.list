@@ -791,12 +791,6 @@ ref
 .
 html
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 default
@@ -827,12 +821,6 @@ html
 bug
 371180
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 default

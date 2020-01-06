@@ -776,10 +776,6 @@ fails
 if
 (
 gtkWidget
-&
-&
-!
-styloVsGecko
 )
 =
 =

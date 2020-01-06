@@ -440,12 +440,6 @@ ref
 .
 html
 fails
--
-if
-(
-!
-styloVsGecko
-)
 =
 =
 1102175
