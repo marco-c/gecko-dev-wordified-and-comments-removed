@@ -225,7 +225,7 @@ DebuggerServer
 .
 registerModule
 in
-addBrowserActors
+_addBrowserActors
 or
 addTabActors
 in
