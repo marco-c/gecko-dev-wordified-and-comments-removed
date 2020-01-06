@@ -12,6 +12,13 @@ android
 .
 app
 .
+Activity
+;
+import
+android
+.
+app
+.
 Application
 ;
 import
@@ -32,8 +39,8 @@ public
 void
 init
 (
-Application
-application
+Activity
+activity
 )
 {
 }
