@@ -256,17 +256,6 @@ mozilla
 .
 pth
 :
-dom
-/
-media
-/
-test
-/
-external
-mozilla
-.
-pth
-:
 layout
 /
 tools

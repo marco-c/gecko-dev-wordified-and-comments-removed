@@ -1689,12 +1689,6 @@ e10s
 "
         
 "
-media
--
-tests
-"
-        
-"
 mochitests
 "
         
