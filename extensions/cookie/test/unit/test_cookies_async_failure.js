@@ -2381,7 +2381,10 @@ do_count_cookies
 ;
 do_close_profile
 (
+sub_generator
 )
+;
+yield
 ;
 do_get_cookie_file
 (
