@@ -465,6 +465,13 @@ mozilla
 :
 TimeStamp
 &
+aTimeStamp
+const
+mozilla
+:
+:
+TimeStamp
+&
 aStartTime
 const
 mozilla
@@ -480,6 +487,10 @@ ProfilerMarkerPayload
 aStartTime
 aEndTime
 )
+mTimeStamp
+(
+aTimeStamp
+)
 mEventType
 (
 aEventType
@@ -493,6 +504,12 @@ aPhase
 DECL_STREAM_PAYLOAD
 private
 :
+mozilla
+:
+:
+TimeStamp
+mTimeStamp
+;
 nsString
 mEventType
 ;
