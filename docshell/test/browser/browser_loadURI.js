@@ -148,12 +148,6 @@ urlencoded
 ;
 postStream
 .
-addContentLength
-=
-true
-;
-postStream
-.
 setData
 (
 dataStream
