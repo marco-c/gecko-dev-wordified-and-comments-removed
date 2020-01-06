@@ -1612,9 +1612,6 @@ android
 linuxandroid
 *
 )
-ZLIB_DIR
-=
-yes
 AC_DEFINE
 (
 ANDROID
