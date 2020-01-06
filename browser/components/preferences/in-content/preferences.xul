@@ -1782,6 +1782,14 @@ link
 "
 >
 <
+hbox
+align
+=
+"
+center
+"
+>
+<
 image
 class
 =
@@ -1815,6 +1823,10 @@ label
 <
 /
 label
+>
+<
+/
+hbox
 >
 <
 /
