@@ -13410,6 +13410,12 @@ aType
 ;
 mimeStream
 .
+addContentLength
+=
+true
+;
+mimeStream
+.
 setData
 (
 dataStream
@@ -27048,7 +27054,10 @@ Ci
 nsIScriptSecurityManager
 .
 DEFAULT_USER_CONTEXT_ID
-aOpener
+aOpenerWindow
+=
+null
+aOpenerBrowser
 =
 null
 aTriggeringPrincipal
@@ -27212,7 +27221,10 @@ forceNotRemote
 aForceNotRemote
 opener
 :
-aOpener
+aOpenerWindow
+openerBrowser
+:
+aOpenerBrowser
 nextTabParentId
 :
 aNextTabParentId
@@ -27770,6 +27782,7 @@ isExternal
 forceNotRemote
 userContextId
 openerWindow
+null
 aTriggeringPrincipal
 )
 ;
@@ -27985,6 +27998,9 @@ isExternal
 false
 userContextId
 null
+aParams
+.
+openerBrowser
 aParams
 .
 triggeringPrincipal
