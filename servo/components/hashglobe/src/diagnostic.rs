@@ -1382,6 +1382,14 @@ mut
 self
 )
 {
+self
+.
+map
+.
+verify
+(
+)
+;
 debug_assert
 !
 (
@@ -1393,6 +1401,12 @@ Dropped
 while
 mutating
 "
+)
+;
+self
+.
+verify
+(
 )
 ;
 }
