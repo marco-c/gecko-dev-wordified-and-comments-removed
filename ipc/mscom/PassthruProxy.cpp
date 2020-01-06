@@ -87,6 +87,12 @@ PassthruProxy
 :
 PassthruProxy
 (
+ProxyStream
+:
+:
+Environment
+*
+aEnv
 REFIID
 aIidToWrap
 uint32_t
@@ -125,6 +131,7 @@ proxyStream
 (
 aIidToWrap
 aObjToWrap
+aEnv
 ProxyStreamFlags
 :
 :
