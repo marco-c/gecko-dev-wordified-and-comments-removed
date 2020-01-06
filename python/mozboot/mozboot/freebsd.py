@@ -177,10 +177,6 @@ gtk3
 '
             
 '
-libGL
-'
-            
-'
 pulseaudio
 '
             
