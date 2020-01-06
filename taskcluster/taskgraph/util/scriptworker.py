@@ -1814,7 +1814,7 @@ PUSH_APK_DRY_RUN_OPTION
 central
 '
 :
-True
+False
     
 '
 beta
