@@ -294,17 +294,6 @@ DidDirty
 )
 {
 }
-bool
-IsModified
-(
-)
-const
-final
-{
-return
-false
-;
-}
 virtual
 already_AddRefed
 <

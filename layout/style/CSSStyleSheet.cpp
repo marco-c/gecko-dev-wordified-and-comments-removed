@@ -1369,10 +1369,6 @@ mOwnerRule
 (
 nullptr
 )
-mDirty
-(
-false
-)
 mInRuleProcessorCache
 (
 false
@@ -1438,10 +1434,6 @@ aParsingMode
 mOwnerRule
 (
 nullptr
-)
-mDirty
-(
-false
 )
 mInRuleProcessorCache
 (
@@ -1510,12 +1502,6 @@ aOwningNodeToUse
 mOwnerRule
 (
 aOwnerRuleToUse
-)
-mDirty
-(
-aCopy
-.
-mDirty
 )
 mInRuleProcessorCache
 (

@@ -482,17 +482,6 @@ aCloneOwningNode
 const
 final
 ;
-bool
-IsModified
-(
-)
-const
-final
-{
-return
-mDirty
-;
-}
 void
 SetModifiedByChildRule
 (
@@ -866,9 +855,6 @@ RefPtr
 CSSRuleListImpl
 >
 mRuleCollection
-;
-bool
-mDirty
 ;
 bool
 mInRuleProcessorCache
