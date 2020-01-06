@@ -526,14 +526,6 @@ opt
 '
     
 '
-linux64
--
-dmd
--
-opt
-'
-    
-'
 macosx64
 -
 add
@@ -627,14 +619,6 @@ macosx64
 st
 -
 an
--
-opt
-'
-    
-'
-macosx64
--
-dmd
 -
 opt
 '
@@ -916,14 +900,6 @@ opt
 '
     
 '
-win32
--
-dmd
--
-opt
-'
-    
-'
 win64
 -
 add
@@ -1055,14 +1031,6 @@ debug
 win64
 -
 asan
--
-opt
-'
-    
-'
-win64
--
-dmd
 -
 opt
 '
