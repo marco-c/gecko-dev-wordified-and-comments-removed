@@ -43811,6 +43811,11 @@ test
 "
 COMPILE_ENVIRONMENT
 "
+-
+a
+"
+MOZ_WIDGET_TOOLKIT
+"
 ;
 then
 export
