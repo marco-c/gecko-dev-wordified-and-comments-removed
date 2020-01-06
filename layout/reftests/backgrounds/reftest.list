@@ -2479,6 +2479,12 @@ boundaries
 )
 .
 fails
+-
+if
+(
+!
+webrender
+)
 =
 =
 background
@@ -3404,12 +3410,6 @@ if
 skiaContent
 31
 474
-)
-fails
--
-if
-(
-webrender
 )
 =
 =
