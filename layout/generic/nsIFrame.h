@@ -9229,6 +9229,11 @@ IsScrolledOutOfView
 (
 )
 ;
+Matrix
+ComputeWidgetTransform
+(
+)
+;
 virtual
 void
 UpdateWidgetProperties

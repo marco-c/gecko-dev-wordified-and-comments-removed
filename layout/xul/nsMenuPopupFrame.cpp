@@ -2109,6 +2109,16 @@ StyleUIReset
 mWindowOpacity
 )
 ;
+widget
+-
+>
+SetWindowTransform
+(
+ComputeWidgetTransform
+(
+)
+)
+;
 }
 }
 void
