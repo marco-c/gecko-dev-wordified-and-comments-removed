@@ -1,9 +1,12 @@
 #
 include
 <
-stdint
-.
-h
+cstdint
+>
+#
+include
+<
+cstdlib
 >
 extern
 "
