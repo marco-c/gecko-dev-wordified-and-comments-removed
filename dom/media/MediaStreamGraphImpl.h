@@ -37,6 +37,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Monitor
 .
 h
@@ -1514,7 +1523,10 @@ LIFECYCLE_WAITING_FOR_STREAM_DESTRUCTION
 LifecycleState
 mLifecycleState
 ;
+Atomic
+<
 GraphTime
+>
 mEndTime
 ;
 bool
@@ -1541,7 +1553,10 @@ ControlMessage
 >
 mCurrentTaskMessageQueue
 ;
+Atomic
+<
 bool
+>
 mDetectedNotRunning
 ;
 bool
