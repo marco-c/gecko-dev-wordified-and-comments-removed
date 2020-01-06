@@ -245,7 +245,7 @@ updateRestart
 .
 panelUI
 .
-label
+label2
 ;
 "
 oncommand
@@ -5209,7 +5209,7 @@ updateRestart
 .
 panelUI
 .
-label
+label2
 ;
 "
 oncommand
