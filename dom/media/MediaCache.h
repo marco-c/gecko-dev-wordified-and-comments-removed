@@ -240,11 +240,6 @@ false
 )
 ;
 void
-NotifyChannelRecreated
-(
-)
-;
-void
 NotifyClientSuspended
 (
 bool

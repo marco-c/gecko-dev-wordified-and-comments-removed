@@ -3352,12 +3352,6 @@ DontThrottle
 )
 ;
 }
-mCacheStream
-.
-NotifyChannelRecreated
-(
-)
-;
 return
 rv
 ;
