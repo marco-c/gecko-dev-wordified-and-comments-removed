@@ -87,8 +87,6 @@ nsISupports
 ]
 )
 runTest
-:
-function
 (
 )
 {

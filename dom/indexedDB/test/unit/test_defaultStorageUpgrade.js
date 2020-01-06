@@ -689,7 +689,6 @@ dbOptions
 }
 }
 else
-{
 if
 (
 "
@@ -730,7 +729,6 @@ params
 dbOptions
 )
 ;
-}
 }
 return
 request

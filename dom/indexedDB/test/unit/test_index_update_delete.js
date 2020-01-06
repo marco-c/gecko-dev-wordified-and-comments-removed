@@ -105,8 +105,6 @@ keyPath
 id
 "
 autoIncrement
-:
-autoIncrement
 }
 )
 ;
@@ -161,8 +159,6 @@ unique
 index
 "
 {
-unique
-:
 unique
 }
 )

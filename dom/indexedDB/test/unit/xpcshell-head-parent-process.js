@@ -1,18 +1,18 @@
 var
 {
-'
+"
 classes
-'
+"
 :
 Cc
-'
+"
 interfaces
-'
+"
 :
 Ci
-'
+"
 utils
-'
+"
 :
 Cu
 }
@@ -165,7 +165,6 @@ runTest
 )
 ;
 }
-;
 if
 (
 !
@@ -479,8 +478,6 @@ prototype
 =
 {
 handleEvent
-:
-function
 (
 event
 )
@@ -892,8 +889,6 @@ event
 =
 {
 notify
-:
-function
 (
 timer
 )
@@ -1467,7 +1462,7 @@ bostream
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -1481,7 +1476,7 @@ output
 stream
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -1822,8 +1817,6 @@ str
 ]
 name
 {
-type
-:
 type
 }
 )
@@ -2785,8 +2778,6 @@ SpecialPowers
 =
 {
 isMainProcess
-:
-function
 (
 )
 {
@@ -2830,8 +2821,6 @@ PROCESS_TYPE_DEFAULT
 ;
 }
 notifyObservers
-:
-function
 (
 subject
 topic
@@ -2843,7 +2832,7 @@ obsvc
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -2853,7 +2842,7 @@ observer
 service
 ;
 1
-'
+"
 ]
 .
 getService
@@ -2874,8 +2863,6 @@ data
 ;
 }
 notifyObserversInParentProcess
-:
-function
 (
 subject
 topic
@@ -2917,8 +2904,6 @@ data
 ;
 }
 getBoolPref
-:
-function
 (
 prefName
 )
@@ -2937,8 +2922,6 @@ prefName
 ;
 }
 setBoolPref
-:
-function
 (
 prefName
 value
@@ -2958,8 +2941,6 @@ value
 ;
 }
 setIntPref
-:
-function
 (
 prefName
 value
@@ -2979,8 +2960,6 @@ value
 ;
 }
 clearUserPref
-:
-function
 (
 prefName
 )
@@ -2998,8 +2977,6 @@ prefName
 ;
 }
 exactGC
-:
-function
 (
 callback
 )
@@ -3065,8 +3042,6 @@ doPreciseGCandCC
 ;
 }
 _getPrefs
-:
-function
 (
 )
 {
@@ -3132,8 +3107,6 @@ Cu
 ;
 }
 createFiles
-:
-function
 (
 requests
 callback
@@ -3408,8 +3381,6 @@ filePaths
 ;
 }
 removeFiles
-:
-function
 (
 )
 {

@@ -1728,9 +1728,9 @@ else
 {
 newValue
 =
-'
+"
 newKeyValue
-'
+"
 ;
 }
 let

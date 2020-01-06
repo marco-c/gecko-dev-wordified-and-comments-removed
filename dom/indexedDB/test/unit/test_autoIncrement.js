@@ -2044,8 +2044,6 @@ second
 test
 {
 trans
-:
-trans
 }
 )
 ;
@@ -2168,8 +2166,6 @@ fourth
 +
 test
 {
-trans
-:
 trans
 }
 )

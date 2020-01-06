@@ -251,13 +251,7 @@ stringify
 (
 {
 autoincrement
-:
-autoincrement
 keypath
-:
-keypath
-method
-:
 method
 explicit
 :
@@ -272,8 +266,6 @@ undefined
 "
 :
 explicit
-existing
-:
 existing
 }
 )

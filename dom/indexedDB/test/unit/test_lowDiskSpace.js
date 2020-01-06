@@ -4029,8 +4029,6 @@ prototype
 =
 {
 incr
-:
-function
 (
 )
 {
@@ -4042,8 +4040,6 @@ _counter
 ;
 }
 decr
-:
-function
 (
 )
 {
@@ -4064,8 +4060,6 @@ continueToNextStepSync
 }
 }
 handler
-:
-function
 (
 type
 preventDefault
@@ -4109,8 +4103,6 @@ decr
 ;
 }
 errorHandler
-:
-function
 (
 eventType
 errorName

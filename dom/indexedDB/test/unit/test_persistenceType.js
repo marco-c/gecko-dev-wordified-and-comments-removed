@@ -54,8 +54,6 @@ open
 name
 {
 version
-:
-version
 storage
 :
 "
@@ -119,8 +117,6 @@ open
 (
 name
 {
-version
-:
 version
 storage
 :
@@ -363,8 +359,6 @@ open
 (
 name
 {
-version
-:
 version
 storage
 :

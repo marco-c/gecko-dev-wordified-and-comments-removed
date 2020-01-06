@@ -436,7 +436,6 @@ onversionchange
 unexpectedSuccessHandler
 ;
 }
-;
 db
 .
 onversionchange

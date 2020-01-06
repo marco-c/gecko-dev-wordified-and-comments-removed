@@ -95,7 +95,7 @@ return
 }
 getWasmBinary
 (
-'
+"
 (
 module
 (
@@ -105,7 +105,7 @@ nop
 )
 )
 )
-'
+"
 )
 ;
 let

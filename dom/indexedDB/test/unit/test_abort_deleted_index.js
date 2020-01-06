@@ -349,9 +349,9 @@ index
 .
 get
 (
-'
+"
 foo
-'
+"
 )
 ;
 ok
@@ -430,9 +430,9 @@ index
 .
 get
 (
-'
+"
 foo
-'
+"
 )
 ;
 ok
