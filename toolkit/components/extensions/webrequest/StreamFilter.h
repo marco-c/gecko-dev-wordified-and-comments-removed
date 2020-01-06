@@ -299,6 +299,11 @@ nsAString
 aError
 )
 ;
+bool
+CheckAlive
+(
+)
+;
 private
 :
 void
