@@ -794,12 +794,14 @@ in
 nodes
 {
 if
-!
 discovered_child_nodes
 .
-is_empty
+len
 (
 )
+>
+=
+WORK_UNIT_MAX
 {
 let
 mut
