@@ -280,13 +280,6 @@ h
 #
 include
 "
-nsIDOMHTMLScriptElement
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

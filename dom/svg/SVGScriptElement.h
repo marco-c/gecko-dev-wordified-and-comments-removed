@@ -365,6 +365,17 @@ GetStringInfo
 )
 override
 ;
+virtual
+bool
+GetAsyncState
+(
+)
+override
+{
+return
+false
+;
+}
 enum
 {
 HREF

@@ -235,7 +235,7 @@ crossOrigin
 ;
 [
 CEReactions
-SetterThrows
+Throws
 ]
 attribute
 DOMString
