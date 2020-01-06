@@ -650,7 +650,7 @@ accesskey
 >
 #
 ifdef
-MOZ_TELEMETRY_REPORTING
+MOZ_SERVICES_HEALTHREPORT
 <
 menuitem
 id
