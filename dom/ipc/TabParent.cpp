@@ -1073,9 +1073,9 @@ Preferences
 GetBool
 (
 "
-prioritized_input_events
+input_event_queue
 .
-enabled
+supported
 "
 false
 )
