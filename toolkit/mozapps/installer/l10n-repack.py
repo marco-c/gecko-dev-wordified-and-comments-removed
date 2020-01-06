@@ -55,10 +55,6 @@ dictionaries
 '
     
 '
-hyphenation
-'
-    
-'
 defaults
 /
 profile
