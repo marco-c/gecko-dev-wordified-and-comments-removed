@@ -221,7 +221,6 @@ xbl
 inherits
 =
 "
-handleCtrlPageUpDown
 tabcontainer
 "
 onselect
