@@ -1979,6 +1979,8 @@ DateTimeInfo
 localTZA
 (
 )
+-
+msPerHour
 )
 ;
 }
@@ -12584,6 +12586,8 @@ ToPRMJTime
 (
 double
 localTime
+double
+utcTime
 )
 {
 double
@@ -12709,7 +12713,7 @@ tm_isdst
 (
 DaylightSavingTA
 (
-localTime
+utcTime
 )
 !
 =
@@ -12867,6 +12871,7 @@ prtm
 =
 ToPRMJTime
 (
+localTime
 utcTime
 )
 ;
@@ -13370,6 +13375,7 @@ prtm
 ToPRMJTime
 (
 localTime
+utcTime
 )
 ;
 size_t
