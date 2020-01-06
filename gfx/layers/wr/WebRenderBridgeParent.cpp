@@ -4098,6 +4098,13 @@ SetWrBridge
 this
 )
 ;
+wrHost
+-
+>
+EnableUseAsyncImagePipeline
+(
+)
+;
 mAsyncCompositables
 .
 Put

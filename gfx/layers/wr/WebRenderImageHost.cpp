@@ -134,6 +134,10 @@ mWrBridgeBindings
 (
 0
 )
+mUseAsyncImagePipeline
+(
+false
+)
 {
 }
 WebRenderImageHost
@@ -940,7 +944,7 @@ mWrBridge
 &
 &
 !
-mAsyncRef
+mUseAsyncImagePipeline
 &
 &
 !
