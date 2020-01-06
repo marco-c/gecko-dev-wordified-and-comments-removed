@@ -1019,9 +1019,9 @@ empty
 return
 false
 ;
-RefPtr
+nsCOMPtr
 <
-Runnable
+nsIRunnable
 >
 task
 =
@@ -1114,7 +1114,7 @@ PostTask
 (
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 task
 )
@@ -1137,7 +1137,7 @@ PostDelayedTask
 (
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 task
 int
@@ -1162,7 +1162,7 @@ PostIdleTask
 (
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 task
 )
@@ -1213,7 +1213,7 @@ PostTask_Helper
 (
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 task
 int
@@ -1285,9 +1285,9 @@ return
 #
 ifdef
 MOZ_TASK_TRACER
-RefPtr
+nsCOMPtr
 <
-Runnable
+nsIRunnable
 >
 tracedTask
 =
@@ -1535,7 +1535,7 @@ RunTask
 (
 already_AddRefed
 <
-Runnable
+nsIRunnable
 >
 aTask
 )
@@ -1549,9 +1549,9 @@ nestable_tasks_allowed_
 =
 false
 ;
-RefPtr
+nsCOMPtr
 <
-Runnable
+nsIRunnable
 >
 task
 =
