@@ -765,6 +765,12 @@ NS_ERROR_FAILURE
 }
 attrs
 .
+mPrivateBrowsingId
+=
+0
+;
+attrs
+.
 StripAttributes
 (
 mozilla
