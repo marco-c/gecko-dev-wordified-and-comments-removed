@@ -695,9 +695,7 @@ ComputedValues
 >
 bool
 {
-let
-display
-=
+if
 style
 .
 get_box
@@ -707,9 +705,6 @@ get_box
 clone_display
 (
 )
-;
-if
-display
 =
 =
 display
