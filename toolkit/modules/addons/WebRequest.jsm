@@ -4792,6 +4792,8 @@ loadingPrincipal
 =
 loadInfo
 ;
+try
+{
 return
 loadingPrincipal
 .
@@ -4808,6 +4810,13 @@ URI
 host
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 return
 true
