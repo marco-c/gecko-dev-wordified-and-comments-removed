@@ -410,11 +410,6 @@ attribute
 boolean
 isSynthesized
 ;
-boolean
-getPreventDefault
-(
-)
-;
 }
 ;
 dictionary
