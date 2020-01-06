@@ -2249,6 +2249,12 @@ uint32_t
 len
 )
 ;
+nsCSSValueSharedList
+*
+Gecko_NewNoneTransform
+(
+)
+;
 nsCSSValueBorrowedMut
 Gecko_CSSValue_GetArrayItem
 (
