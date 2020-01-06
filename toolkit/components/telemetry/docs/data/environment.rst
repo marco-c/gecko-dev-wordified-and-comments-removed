@@ -2150,6 +2150,15 @@ above
 }
 }
 }
+hasTouchbar
+:
+<
+bool
+>
+/
+/
+Mac
+only
 }
 addons
 :
