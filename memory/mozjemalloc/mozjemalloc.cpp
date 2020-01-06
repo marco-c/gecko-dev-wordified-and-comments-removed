@@ -88,7 +88,7 @@ algorithm
 >
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 define
 _CRT_SPINCOUNT
@@ -253,7 +253,7 @@ MALLOC_DECOMMIT
 endif
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 ifndef
 MOZ_MEMORY_SOLARIS
@@ -742,7 +742,7 @@ tlsIndex
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 define
 RB_NO_C99_VARARRAYS
@@ -878,7 +878,7 @@ CACHELINE_2POW
 )
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 define
 TINY_MIN_2POW
@@ -969,7 +969,7 @@ endif
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 #
 define
@@ -1025,7 +1025,7 @@ false
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 #
 elif
@@ -2053,7 +2053,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 &
 &
@@ -2260,7 +2260,7 @@ ptr
 ;
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 extern
 "
 C
@@ -2334,7 +2334,7 @@ p
 ;
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 volatile
 long
 dummy
@@ -2375,7 +2375,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 #
 define
@@ -2517,7 +2517,7 @@ mutex
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 if
 (
@@ -2656,7 +2656,7 @@ mutex
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 EnterCriticalSection
 (
@@ -2702,7 +2702,7 @@ mutex
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 LeaveCriticalSection
 (
@@ -2763,7 +2763,7 @@ lock
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 if
 (
@@ -2902,7 +2902,7 @@ lock
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 EnterCriticalSection
 (
@@ -2948,7 +2948,7 @@ lock
 if
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 LeaveCriticalSection
 (
@@ -3246,7 +3246,7 @@ size
 {
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 size_t
 pages_size
 =
@@ -3374,7 +3374,7 @@ size
 {
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 size_t
 pages_size
 =
@@ -4094,7 +4094,7 @@ extent_ad_comp
 )
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 static
 void
 *
@@ -5760,7 +5760,7 @@ size
 ;
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 {
 void
 *
@@ -6086,7 +6086,7 @@ length
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 size_t
 pages_size
 =
@@ -6604,7 +6604,7 @@ ret
 }
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 #
 define
 CAN_RECYCLE
@@ -7439,7 +7439,7 @@ arenas_lock
 }
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 TlsSetValue
 (
 tlsIndex
@@ -7512,7 +7512,7 @@ ifndef
 NO_TLS
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 ret
 =
 (
@@ -17001,7 +17001,7 @@ if
 (
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 |
 |
@@ -17071,7 +17071,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 static
 #
@@ -17095,7 +17095,7 @@ result
 ;
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 malloc_mutex_lock
 (
 &
@@ -17111,7 +17111,7 @@ malloc_initialized
 {
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 malloc_mutex_unlock
 (
 &
@@ -17128,7 +17128,7 @@ false
 }
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 tlsIndex
 =
 TlsAlloc
@@ -17152,7 +17152,7 @@ nullptr
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 {
 SYSTEM_INFO
 info
@@ -18044,7 +18044,7 @@ arenas
 {
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 malloc_mutex_unlock
 (
 &
@@ -18064,7 +18064,7 @@ ifndef
 NO_TLS
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 TlsSetValue
 (
 tlsIndex
@@ -18135,7 +18135,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_WINDOWS
+XP_WIN
 )
 &
 &
@@ -18167,7 +18167,7 @@ register_zone
 endif
 #
 ifndef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 malloc_mutex_unlock
 (
 &
@@ -19858,7 +19858,7 @@ jemalloc_purge_freed_pages_impl
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 void
 *
 _recalloc
@@ -20457,7 +20457,7 @@ endif
 endif
 #
 ifdef
-MOZ_MEMORY_WINDOWS
+XP_WIN
 BOOL
 APIENTRY
 DllMain
