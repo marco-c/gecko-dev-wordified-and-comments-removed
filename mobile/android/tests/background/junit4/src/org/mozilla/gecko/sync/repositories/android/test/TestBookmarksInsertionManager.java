@@ -101,6 +101,21 @@ sync
 .
 repositories
 .
+delegates
+.
+RepositorySessionStoreDelegate
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
+repositories
+.
 domain
 .
 BookmarkRecord
@@ -245,6 +260,8 @@ public
 boolean
 insertFolder
 (
+RepositorySessionStoreDelegate
+delegate
 BookmarkRecord
 record
 )
@@ -312,6 +329,8 @@ public
 void
 bulkInsertNonFolders
 (
+RepositorySessionStoreDelegate
+delegate
 Collection
 <
 BookmarkRecord
@@ -552,6 +571,7 @@ manager
 .
 enqueueRecord
 (
+null
 child1
 )
 ;
@@ -568,6 +588,7 @@ manager
 .
 enqueueRecord
 (
+null
 child2
 )
 ;
@@ -584,6 +605,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 )
 ;
@@ -601,6 +623,7 @@ manager
 .
 finishUp
 (
+null
 )
 ;
 assertTrue
@@ -714,6 +737,7 @@ manager
 .
 enqueueRecord
 (
+null
 child1
 )
 ;
@@ -730,6 +754,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 )
 ;
@@ -747,6 +772,7 @@ manager
 .
 enqueueRecord
 (
+null
 child2
 )
 ;
@@ -764,6 +790,7 @@ manager
 .
 finishUp
 (
+null
 )
 ;
 assertTrue
@@ -838,6 +865,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -863,6 +891,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -888,6 +917,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -913,6 +943,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -938,6 +969,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -953,6 +985,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -978,6 +1011,7 @@ manager
 .
 finishUp
 (
+null
 )
 ;
 assertTrue
@@ -1093,6 +1127,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -1108,6 +1143,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -1133,6 +1169,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1148,6 +1185,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1163,6 +1201,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1178,6 +1217,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1193,6 +1233,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1208,6 +1249,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1233,6 +1275,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -1258,6 +1301,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -1292,6 +1336,7 @@ manager
 .
 finishUp
 (
+null
 )
 ;
 assertTrue
@@ -1441,6 +1486,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1456,6 +1502,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1481,6 +1528,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -1506,6 +1554,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1531,6 +1580,7 @@ manager
 .
 finishUp
 (
+null
 )
 ;
 assertTrue
@@ -1589,6 +1639,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1604,6 +1655,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1619,6 +1671,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -1644,6 +1697,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1669,6 +1723,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1684,6 +1739,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1699,6 +1755,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1724,6 +1781,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1749,6 +1807,7 @@ manager
 .
 finishUp
 (
+null
 )
 ;
 assertTrue
@@ -1870,6 +1929,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1885,6 +1945,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1900,6 +1961,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -1915,6 +1977,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1930,6 +1993,7 @@ manager
 .
 enqueueRecord
 (
+null
 bookmark
 (
 "
@@ -1945,6 +2009,7 @@ manager
 .
 enqueueRecord
 (
+null
 folder
 (
 "
@@ -1970,6 +2035,7 @@ manager
 .
 finishUp
 (
+null
 )
 ;
 assertTrue
