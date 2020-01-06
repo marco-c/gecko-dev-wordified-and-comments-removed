@@ -2224,6 +2224,11 @@ stylist
 device
 (
 )
+previous_style
+.
+rules
+(
+)
 iter
 previous_style
 previous_style

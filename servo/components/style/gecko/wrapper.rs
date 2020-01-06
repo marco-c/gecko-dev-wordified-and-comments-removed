@@ -3193,9 +3193,8 @@ new
 ElementData
 :
 :
-new
+default
 (
-None
 )
 )
 )
@@ -3315,9 +3314,8 @@ deref_mut
 ElementData
 :
 :
-new
+default
 (
-None
 )
 )
 ;
@@ -5790,12 +5788,8 @@ d
 d
 .
 styles
-(
-)
 .
 primary
-.
-values
 (
 )
 )
