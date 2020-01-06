@@ -1205,13 +1205,12 @@ method
 )
 ;
 static
-void
+size_t
 NPObjWrapper_ObjectMoved
 (
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -8499,13 +8498,12 @@ npobj
 ;
 }
 static
-void
+size_t
 NPObjWrapper_ObjectMoved
 (
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -8518,6 +8516,7 @@ sNPObjWrappers
 )
 {
 return
+0
 ;
 }
 NPObject
@@ -8547,6 +8546,7 @@ npobj
 )
 {
 return
+0
 ;
 }
 JS
@@ -8601,6 +8601,9 @@ entry
 mJSObj
 =
 obj
+;
+return
+0
 ;
 }
 bool

@@ -1401,7 +1401,7 @@ obj
 )
 ;
 typedef
-void
+size_t
 (
 *
 JSObjectMovedOp
@@ -1410,7 +1410,6 @@ JSObjectMovedOp
 JSObject
 *
 obj
-const
 JSObject
 *
 old

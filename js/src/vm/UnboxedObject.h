@@ -1751,13 +1751,12 @@ object
 )
 ;
 static
-void
+size_t
 objectMoved
 (
 JSObject
 *
 obj
-const
 JSObject
 *
 old

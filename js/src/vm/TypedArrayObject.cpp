@@ -892,7 +892,7 @@ elements
 )
 ;
 }
-void
+size_t
 TypedArrayObject
 :
 :
@@ -901,7 +901,6 @@ objectMoved
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -948,6 +947,7 @@ hasBuffer
 )
 )
 return
+0
 ;
 if
 (
@@ -964,6 +964,9 @@ newObj
 setInlineElements
 (
 )
+;
+return
+0
 ;
 }
 size_t

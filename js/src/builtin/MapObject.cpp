@@ -1429,7 +1429,7 @@ range
 )
 ;
 }
-void
+size_t
 MapIteratorObject
 :
 :
@@ -1438,7 +1438,6 @@ objectMoved
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -1453,6 +1452,7 @@ old
 )
 )
 return
+0
 ;
 MapIteratorObject
 *
@@ -1487,6 +1487,7 @@ if
 range
 )
 return
+0
 ;
 Nursery
 &
@@ -1528,6 +1529,7 @@ range
 )
 ;
 return
+0
 ;
 }
 AutoEnterOOMUnsafeRegion
@@ -1610,6 +1612,15 @@ PrivateValue
 (
 newRange
 )
+)
+;
+return
+sizeof
+(
+ValueMap
+:
+:
+Range
 )
 ;
 }
@@ -6153,7 +6164,7 @@ range
 )
 ;
 }
-void
+size_t
 SetIteratorObject
 :
 :
@@ -6162,7 +6173,6 @@ objectMoved
 JSObject
 *
 obj
-const
 JSObject
 *
 old
@@ -6177,6 +6187,7 @@ old
 )
 )
 return
+0
 ;
 SetIteratorObject
 *
@@ -6211,6 +6222,7 @@ if
 range
 )
 return
+0
 ;
 Nursery
 &
@@ -6252,6 +6264,7 @@ range
 )
 ;
 return
+0
 ;
 }
 AutoEnterOOMUnsafeRegion
@@ -6334,6 +6347,15 @@ PrivateValue
 (
 newRange
 )
+)
+;
+return
+sizeof
+(
+ValueSet
+:
+:
+Range
 )
 ;
 }
