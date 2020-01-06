@@ -150,7 +150,10 @@ this
 .
 _encoder
 =
-null
+new
+TextEncoder
+(
+)
 ;
 this
 .
@@ -822,7 +825,6 @@ ccov_scope
 ;
 const
 {
-TextEncoder
 OS
 }
 =
@@ -844,15 +846,6 @@ osfile
 jsm
 "
 ccov_scope
-)
-;
-this
-.
-_encoder
-=
-new
-TextEncoder
-(
 )
 ;
 dump
