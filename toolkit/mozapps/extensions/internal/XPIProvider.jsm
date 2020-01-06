@@ -19046,6 +19046,11 @@ aFile
 "
 "
 )
+signedState
+:
+aAddon
+.
+signedState
 }
 ;
 if

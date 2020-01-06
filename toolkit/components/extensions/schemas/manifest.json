@@ -1788,6 +1788,9 @@ enum
 alarms
 "
 "
+mozillaAddons
+"
+"
 storage
 "
 "

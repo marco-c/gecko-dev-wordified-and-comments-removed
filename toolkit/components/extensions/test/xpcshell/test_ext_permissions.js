@@ -3121,6 +3121,9 @@ idle
 menus
 "
 "
+mozillaAddons
+"
+"
 storage
 "
 "
