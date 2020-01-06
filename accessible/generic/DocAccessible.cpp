@@ -5813,6 +5813,14 @@ GetNode
 )
 )
 ;
+aAccessible
+-
+>
+mStateFlags
+|
+=
+eIsNotInDocument
+;
 xpcAccessibleDocument
 *
 xpcDoc
