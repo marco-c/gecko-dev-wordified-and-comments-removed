@@ -224,6 +224,12 @@ formdata_delete
 [
 Formdata
 .
+verifyNot
+formdata_delete
+]
+[
+Formdata
+.
 verify
 formdata2
 ]
@@ -259,6 +265,12 @@ Formdata
 .
 verify
 formdata_new
+]
+[
+Formdata
+.
+verifyNot
+formdata_delete
 ]
 ]
 )
