@@ -3185,14 +3185,14 @@ mInlineData
 >
 mFloatEdgeIStart
 =
-NS_INTRINSIC_WIDTH_UNKNOWN
+nscoord_MIN
 ;
 mInlineData
 -
 >
 mFloatEdgeIEnd
 =
-NS_INTRINSIC_WIDTH_UNKNOWN
+nscoord_MIN
 ;
 }
 }
