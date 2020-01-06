@@ -209,6 +209,11 @@ ssl_loopback_unittest
 cc
 '
 '
+ssl_misc_unittest
+.
+cc
+'
+'
 ssl_record_unittest
 .
 cc

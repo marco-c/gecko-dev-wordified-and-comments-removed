@@ -5,6 +5,13 @@ tls_connect
 .
 h
 "
+#
+include
+"
+sslexp
+.
+h
+"
 extern
 "
 C

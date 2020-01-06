@@ -94,6 +94,12 @@ kTlsApplicationDataType
 ;
 const
 uint8_t
+kTlsAltHandshakeType
+=
+24
+;
+const
+uint8_t
 kTlsHandshakeClientHello
 =
 1

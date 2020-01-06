@@ -120,6 +120,11 @@ sslerr
 h
 '
 '
+sslexp
+.
+h
+'
+'
 sslproto
 .
 h
