@@ -840,6 +840,13 @@ to
 )
 SERVO_BINDING_FUNC
 (
+Servo_AnimationValues_GetZeroValue
+RawServoAnimationValueStrong
+RawServoAnimationValueBorrowed
+value_to_match
+)
+SERVO_BINDING_FUNC
+(
 Servo_AnimationValues_ComputeDistance
 double
 RawServoAnimationValueBorrowed
