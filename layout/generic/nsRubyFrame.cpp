@@ -1480,14 +1480,6 @@ lineWM
 )
 )
 ;
-textReflowInput
-.
-mLineLayout
-=
-aReflowInput
-.
-mLineLayout
-;
 textContainer
 -
 >
