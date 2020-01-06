@@ -253,11 +253,6 @@ aWindow
 {
 MOZ_ASSERT
 (
-aDocShell
-)
-;
-MOZ_ASSERT
-(
 mInnerWindow
 -
 >
