@@ -157,12 +157,12 @@ HTMLSharedElement
 NS_IMPL_ADDREF_INHERITED
 (
 HTMLSharedElement
-Element
+nsGenericHTMLElement
 )
 NS_IMPL_RELEASE_INHERITED
 (
 HTMLSharedElement
-Element
+nsGenericHTMLElement
 )
 NS_INTERFACE_MAP_BEGIN
 (
