@@ -56,6 +56,9 @@ namespace
 layers
 {
 class
+CompositorBridgeChild
+;
+class
 PaintThread
 final
 {
@@ -146,6 +149,9 @@ InitOnPaintThread
 void
 PaintContentsAsync
 (
+CompositorBridgeChild
+*
+aBridge
 gfx
 :
 :
