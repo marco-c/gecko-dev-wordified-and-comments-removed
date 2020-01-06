@@ -378,7 +378,7 @@ transform
 translateX
 (
 -
-738px
+450px
 )
 ;
 }
@@ -419,7 +419,7 @@ scaleX
 translateX
 (
 -
-738px
+450px
 )
 ;
 }
@@ -448,7 +448,7 @@ transform
 translateX
 (
 -
-612px
+450px
 )
 ;
 }
@@ -489,7 +489,7 @@ scaleX
 translateX
 (
 -
-612px
+450px
 )
 ;
 }
@@ -709,7 +709,7 @@ svg
 ;
 width
 :
-756px
+468px
 ;
 }
 #
@@ -852,14 +852,14 @@ function
 :
 steps
 (
-41
+25
 )
 ;
 animation
 -
 duration
 :
-684ms
+400ms
 ;
 }
 #
@@ -926,7 +926,7 @@ svg
 ;
 width
 :
-630px
+468px
 ;
 }
 #
@@ -1072,14 +1072,14 @@ function
 :
 steps
 (
-34
+25
 )
 ;
 animation
 -
 duration
 :
-600ms
+400ms
 ;
 }
 #
@@ -1106,7 +1106,7 @@ transform
 translateX
 (
 -
-738px
+450px
 )
 ;
 }
@@ -1149,7 +1149,7 @@ scaleX
 translateX
 (
 -
-738px
+450px
 )
 ;
 }
@@ -1185,7 +1185,7 @@ transform
 translateX
 (
 -
-612px
+450px
 )
 ;
 }
@@ -1236,7 +1236,7 @@ scaleX
 translateX
 (
 -
-612px
+450px
 )
 ;
 }
