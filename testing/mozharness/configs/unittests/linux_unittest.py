@@ -997,9 +997,11 @@ timeout
 "
 -
 -
-work
+sandbox
 -
-path
+read
+-
+whitelist
 =
 %
 (
@@ -1282,9 +1284,11 @@ timeout
 "
 -
 -
-work
+sandbox
 -
-path
+read
+-
+whitelist
 =
 %
 (

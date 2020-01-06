@@ -260,19 +260,6 @@ plugins
 ]
             
 '
-objPath
-'
-:
-os
-.
-environ
-[
-'
-PYTHON_TEST_TMP
-'
-]
-            
-'
 reftestExtensionPath
 '
 :
@@ -289,6 +276,22 @@ reftest
 )
             
 '
+sandboxReadWhitelist
+'
+:
+[
+here
+os
+.
+environ
+[
+'
+PYTHON_TEST_TMP
+'
+]
+]
+            
+'
 utilityPath
 '
 :
@@ -303,12 +306,6 @@ package_root
 bin
 '
 )
-            
-'
-workPath
-'
-:
-here
         
 }
 )
@@ -346,20 +343,17 @@ plugins
 ]
             
 '
-objPath
+sandboxReadWhitelist
 '
 :
+[
 build
 .
 topobjdir
-            
-'
-workPath
-'
-:
 build
 .
 topsrcdir
+]
         
 }
 )

@@ -523,19 +523,19 @@ symbols
         
 args
 .
-workPath
-=
+sandboxReadWhitelist
+.
+extend
+(
+[
 self
 .
 topsrcdir
-        
-args
-.
-objPath
-=
 self
 .
 topobjdir
+]
+)
         
 if
 not
