@@ -294,7 +294,7 @@ command
 :
 :
 {
-CapabilitiesParameters
+NewSessionParameters
 GetParameters
 WindowSizeParameters
 SwitchToWindowParameters
@@ -2129,7 +2129,7 @@ String
 capabilities
 :
 &
-CapabilitiesParameters
+NewSessionParameters
 )
 -
 >
@@ -2555,7 +2555,7 @@ self
 capabilities
 :
 &
-CapabilitiesParameters
+NewSessionParameters
 )
 -
 >
