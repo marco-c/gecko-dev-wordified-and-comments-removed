@@ -5799,10 +5799,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_ARG_INDEX_OUT_OF_RANGE
-"
-2
-"
+JSMSG_OFFSET_LARGER_THAN_FILESIZE
 )
 ;
 return
