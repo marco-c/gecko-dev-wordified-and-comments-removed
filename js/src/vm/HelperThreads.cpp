@@ -6094,6 +6094,7 @@ Tier2GeneratorTask
 maxWasmTier2GeneratorThreads
 (
 )
+true
 )
 ;
 }
