@@ -605,7 +605,7 @@ aFrame
 ;
 inline
 void
-UpdateOnlyAnimationStyles
+UpdateAnimationStylesForHitTesting
 (
 )
 ;

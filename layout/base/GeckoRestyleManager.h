@@ -701,7 +701,12 @@ EndProcessingRestyles
 public
 :
 void
-UpdateOnlyAnimationStyles
+UpdateAnimationStyles
+(
+)
+;
+void
+UpdateAnimationStylesForHitTesting
 (
 )
 ;
