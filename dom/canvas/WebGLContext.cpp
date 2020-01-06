@@ -10103,6 +10103,7 @@ sharedSurface
 GetSize
 (
 )
+vrmc
 )
 ;
 if
