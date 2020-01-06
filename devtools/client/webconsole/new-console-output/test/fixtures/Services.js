@@ -93,6 +93,11 @@ PREFS
 UI
 .
 FILTER_BAR
+PREFS
+.
+UI
+.
+PERSIST
 ]
 ;
 return
