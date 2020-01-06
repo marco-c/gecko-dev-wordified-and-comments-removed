@@ -1992,6 +1992,7 @@ class
 BailoutReturnStub
 {
 GetProp
+GetPropSuper
 SetProp
 Call
 New
