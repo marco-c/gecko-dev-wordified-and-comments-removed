@@ -235,15 +235,6 @@ nsString
 aName
 )
 {
-MOZ_ASSERT
-(
-aAlgorithm
-.
-IsString
-(
-)
-)
-;
 if
 (
 aAlgorithm
