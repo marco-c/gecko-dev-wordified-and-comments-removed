@@ -922,7 +922,7 @@ extensions
 /
 formautofill
 /
-locale
+locales
 AB_CD
 =
 *
@@ -1217,7 +1217,7 @@ extensions
 /
 formautofill
 /
-locale
+locales
 chrome
 AB_CD
 =
