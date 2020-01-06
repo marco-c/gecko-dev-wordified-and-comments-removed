@@ -5256,6 +5256,8 @@ ToMIRType
 ABIArgType
 (
 abi
+&
+ArgType_Mask
 )
 )
 ;

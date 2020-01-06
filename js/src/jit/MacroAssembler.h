@@ -12110,8 +12110,6 @@ argType
 switch
 (
 argType
-&
-ArgType_Mask
 )
 {
 case
