@@ -232,7 +232,6 @@ disabled
 ;
 [
 CEReactions
-SetterThrows
 ]
 attribute
 boolean

@@ -99,7 +99,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMHTMLMenuItemElement
+nsIDOMElement
 ;
 /
 *
@@ -247,7 +247,7 @@ void
 addItemFor
 (
 in
-nsIDOMHTMLMenuItemElement
+nsIDOMElement
 aElement
 in
 boolean
