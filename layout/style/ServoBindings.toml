@@ -3237,9 +3237,6 @@ RawGeckoXBLBinding
 RawServoSelectorList
 "
 "
-RawServoSourceSizeList
-"
-"
 RefPtr
 "
 "
@@ -3608,16 +3605,6 @@ name
 =
 "
 RawServoSelectorList
-"
-opaque
-=
-false
-}
-{
-name
-=
-"
-RawServoSourceSizeList
 "
 opaque
 =
