@@ -79,6 +79,8 @@ msg
 rust
 -
 webvr
+-
+api
 =
 {
 version
@@ -86,7 +88,7 @@ version
 "
 0
 .
-5
+8
 "
 features
 =

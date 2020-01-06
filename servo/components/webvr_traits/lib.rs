@@ -25,7 +25,7 @@ serde
 pub
 extern
 crate
-rust_webvr
+rust_webvr_api
 as
 webvr
 ;
