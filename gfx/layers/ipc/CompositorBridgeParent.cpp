@@ -2347,6 +2347,10 @@ NS_IsMainThread
 )
 )
 ;
+mCompositorManager
+=
+nullptr
+;
 mSelfRef
 =
 nullptr
