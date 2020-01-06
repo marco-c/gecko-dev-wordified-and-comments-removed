@@ -88,6 +88,16 @@ waitForHelperExitFinished
 (
 )
 {
+checkPostUpdateAppLog
+(
+)
+;
+}
+function
+checkPostUpdateAppLogFinished
+(
+)
+{
 standardInit
 (
 )
@@ -185,7 +195,7 @@ checkUpdateLogContains
 ERR_PARENT_PID_PERSISTS
 )
 ;
-waitForFilesInUse
+checkCallbackLog
 (
 )
 ;
