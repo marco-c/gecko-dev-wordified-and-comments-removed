@@ -1132,6 +1132,16 @@ regenerated
 )
 ;
 }
+else
+{
+mExecutionBudget
+=
+GetMaxBudget
+(
+isBackground
+)
+;
+}
 mLastBudgetUpdate
 =
 aNow
