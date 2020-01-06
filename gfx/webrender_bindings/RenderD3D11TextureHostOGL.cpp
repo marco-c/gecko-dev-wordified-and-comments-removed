@@ -681,13 +681,11 @@ fGenTextures
 mTextureHandle
 )
 ;
-gl
-:
-:
-ScopedBindTextureUnit
-scopedBindTexture
-(
 mGL
+-
+>
+fActiveTexture
+(
 LOCAL_GL_TEXTURE0
 )
 ;
