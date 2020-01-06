@@ -14479,7 +14479,6 @@ ASMJS
 :
 SetDocumentAndPageUseCounter
 (
-nullptr
 obj
 eUseCounter_custom_JS_asmjs
 )
@@ -14494,7 +14493,6 @@ WASM
 :
 SetDocumentAndPageUseCounter
 (
-nullptr
 obj
 eUseCounter_custom_JS_wasm
 )

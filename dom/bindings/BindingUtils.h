@@ -14692,9 +14692,6 @@ aRv
 void
 SetDocumentAndPageUseCounter
 (
-JSContext
-*
-aCx
 JSObject
 *
 aObject

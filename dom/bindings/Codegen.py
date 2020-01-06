@@ -53859,7 +53859,6 @@ code
 "
 SetDocumentAndPageUseCounter
 (
-cx
 obj
 eUseCounter_
 %
