@@ -90,6 +90,11 @@ EXPORTS
 =
 [
 '
+malloc_decls
+.
+h
+'
+'
 mozjemalloc_types
 .
 h
@@ -133,11 +138,6 @@ EXPORTS
 +
 =
 [
-'
-malloc_decls
-.
-h
-'
 '
 replace_malloc
 .
