@@ -2327,7 +2327,7 @@ candidate_parent
 checks
 :
 :
-same_computed_values
+can_share_style_across_parents
 (
 parent
 candidate_parent
