@@ -525,7 +525,6 @@ optimize
 lambda
 self
 params
-arg
 :
 False
 )
@@ -542,7 +541,6 @@ away
 lambda
 self
 params
-arg
 :
 True
 )
@@ -635,18 +633,21 @@ optimization
             
 task
 .
-optimization
+optimizations
 =
+[
 optimization
+]
         
 else
 :
             
 task
 .
-optimization
+optimizations
 =
-None
+[
+]
         
 task
 .
@@ -829,16 +830,13 @@ make_task
 '
 task1
 '
-{
+[
 '
 no
 -
 optimize
 '
-:
-[
 ]
-}
 )
             
 self
@@ -848,16 +846,13 @@ make_task
 '
 task2
 '
-{
+[
 '
 no
 -
 optimize
 '
-:
-[
 ]
-}
 )
             
 self
@@ -867,16 +862,13 @@ make_task
 '
 task3
 '
-{
+[
 '
 no
 -
 optimize
 '
-:
-[
 ]
-}
 )
             
 (
@@ -982,16 +974,13 @@ make_task
 '
 task1
 '
-{
+[
 '
 optimize
 -
 away
 '
-:
-[
 ]
-}
 )
             
 self
@@ -1001,16 +990,13 @@ make_task
 '
 task2
 '
-{
+[
 '
 no
 -
 optimize
 '
-:
-[
 ]
-}
 )
             
 (
@@ -1092,15 +1078,13 @@ make_task
 '
 task1
 '
-{
+[
 '
 optimize
 -
 away
 '
-:
-True
-}
+]
 )
             
 self
@@ -1110,15 +1094,13 @@ make_task
 '
 task2
 '
-{
+[
 '
 optimize
 -
 away
 '
-:
-True
-}
+]
 )
             
 (
@@ -1221,16 +1203,13 @@ make_task
 '
 task1
 '
-{
+[
 '
 no
 -
 optimize
 '
-:
-[
 ]
-}
 )
             
 self
@@ -1240,7 +1219,7 @@ make_task
 '
 task2
 '
-{
+[
 '
 optimize
 -
@@ -1248,11 +1227,10 @@ to
 -
 task
 '
-:
 '
 taskid
 '
-}
+]
 )
             
 self
@@ -1262,7 +1240,7 @@ make_task
 '
 task3
 '
-{
+[
 '
 optimize
 -
@@ -1270,11 +1248,10 @@ to
 -
 task
 '
-:
 '
 taskid
 '
-}
+]
 )
             
 (
@@ -2321,7 +2298,7 @@ make_task
 '
 task1
 '
-{
+[
 '
 optimize
 -
@@ -2329,11 +2306,10 @@ to
 -
 task
 '
-:
 '
 dep1
 '
-}
+]
 )
             
 self
@@ -2343,16 +2319,13 @@ make_task
 '
 task2
 '
-{
+[
 '
 no
 -
 optimize
 '
-:
-[
 ]
-}
 )
             
 self
@@ -2362,16 +2335,13 @@ make_task
 '
 task3
 '
-{
+[
 '
 no
 -
 optimize
 '
-:
-[
 ]
-}
 )
             
 (

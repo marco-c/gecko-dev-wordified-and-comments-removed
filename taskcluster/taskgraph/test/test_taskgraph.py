@@ -128,15 +128,15 @@ def
 '
 }
                       
-optimization
+optimizations
 =
-{
+[
+[
 '
 seta
 '
-:
-None
-}
+]
+]
                       
 dependencies
 =
@@ -277,10 +277,11 @@ b
 }
                 
 '
-optimization
+optimizations
 '
 :
-None
+[
+]
             
 }
             
@@ -342,16 +343,16 @@ dependencies
 }
                 
 '
-optimization
+optimizations
 '
 :
-{
+[
+[
 '
 seta
 '
-:
-None
-}
+]
+]
             
 }
         
@@ -409,15 +410,15 @@ b
 '
 }
                 
-optimization
+optimizations
 =
-{
+[
+[
 '
 seta
 '
-:
-None
-}
+]
+]
                 
 task
 =
@@ -461,15 +462,15 @@ dependencies
 {
 }
                 
-optimization
+optimizations
 =
-{
+[
+[
 '
 seta
 '
-:
-None
-}
+]
+]
                 
 task
 =
