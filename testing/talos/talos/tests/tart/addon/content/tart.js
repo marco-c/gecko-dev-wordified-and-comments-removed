@@ -44,8 +44,6 @@ tabDetector
 :
 {
 arm
-:
-function
 (
 handler
 win
@@ -67,8 +65,6 @@ handler
 ;
 }
 measureNow
-:
-function
 (
 e
 )
@@ -99,8 +95,6 @@ width
 ;
 }
 cleanup
-:
-function
 (
 handler
 win
@@ -126,8 +120,6 @@ customizeEnterDetector
 :
 {
 arm
-:
-function
 (
 handler
 win
@@ -147,8 +139,6 @@ handler
 ;
 }
 measureNow
-:
-function
 (
 e
 )
@@ -167,8 +157,6 @@ customizationready
 ;
 }
 cleanup
-:
-function
 (
 handler
 win
@@ -189,8 +177,6 @@ handler
 }
 }
 makeNewTabURLChangePromise
-:
-function
 (
 url
 )
@@ -250,7 +236,6 @@ url
 -
 changed
 "
-false
 )
 ;
 }
@@ -293,8 +278,6 @@ customizeEnterCssDetector
 :
 {
 arm
-:
-function
 (
 handler
 win
@@ -328,8 +311,6 @@ handler
 ;
 }
 measureNow
-:
-function
 (
 e
 )
@@ -350,8 +331,6 @@ transitionend
 ;
 }
 keepListening
-:
-function
 (
 e
 )
@@ -370,8 +349,6 @@ customizationready
 ;
 }
 cleanup
-:
-function
 (
 handler
 win
@@ -409,8 +386,6 @@ customizeExitDetector
 :
 {
 arm
-:
-function
 (
 handler
 win
@@ -430,8 +405,6 @@ handler
 ;
 }
 measureNow
-:
-function
 (
 e
 )
@@ -450,8 +423,6 @@ aftercustomization
 ;
 }
 cleanup
-:
-function
 (
 handler
 win
@@ -472,8 +443,6 @@ handler
 }
 }
 clickNewTab
-:
-function
 (
 )
 {
@@ -504,8 +473,6 @@ selectedTab
 ;
 }
 clickCloseCurrentTab
-:
-function
 (
 )
 {
@@ -536,8 +503,6 @@ selectedTab
 ;
 }
 fadeOutCurrentTab
-:
-function
 (
 )
 {
@@ -566,8 +531,6 @@ fadein
 ;
 }
 fadeInCurrentTab
-:
-function
 (
 )
 {
@@ -599,8 +562,6 @@ true
 ;
 }
 addSomeChromeUriTab
-:
-function
 (
 )
 {
@@ -647,8 +608,6 @@ html
 ;
 }
 triggerCustomizeEnter
-:
-function
 (
 )
 {
@@ -672,8 +631,6 @@ enter
 ;
 }
 triggerCustomizeEnterCss
-:
-function
 (
 )
 {
@@ -697,8 +654,6 @@ enter
 ;
 }
 triggerCustomizeExit
-:
-function
 (
 )
 {
@@ -722,8 +677,6 @@ exit
 ;
 }
 pinTart
-:
-function
 (
 )
 {
@@ -743,8 +696,6 @@ _tartTab
 ;
 }
 unpinTart
-:
-function
 (
 )
 {
@@ -797,8 +748,6 @@ controlProfiler
 true
 }
 _animate
-:
-function
 (
 preWaitMs
 triggerFunc
@@ -1706,8 +1655,6 @@ _onSequenceComplete
 :
 0
 _nextCommand
-:
-function
 (
 )
 {
@@ -1749,8 +1696,6 @@ _nextCommandIx
 ;
 }
 _doSequence
-:
-function
 (
 commands
 onComplete
@@ -1789,8 +1734,6 @@ _nextCommand
 ;
 }
 _log
-:
-function
 (
 str
 )
@@ -1826,8 +1769,6 @@ str
 ;
 }
 _logLine
-:
-function
 (
 str
 )
@@ -1847,8 +1788,6 @@ n
 ;
 }
 _reportAllResults
-:
-function
 (
 )
 {
@@ -2017,16 +1956,16 @@ testResults
 .
 join
 (
-'
-'
+"
+"
 )
 0
 testNames
 .
 join
 (
-'
-'
+"
+"
 )
 )
 ;
@@ -2039,8 +1978,6 @@ _onTestComplete
 :
 null
 _doneInternal
-:
-function
 (
 )
 {
@@ -2110,8 +2047,6 @@ _results
 }
 }
 _startTest
-:
-function
 (
 )
 {
@@ -4323,8 +4258,6 @@ _doneInternal
 ;
 }
 startTest
-:
-function
 (
 doneCallback
 config

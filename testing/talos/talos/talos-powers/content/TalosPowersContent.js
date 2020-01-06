@@ -76,7 +76,6 @@ callback
 )
 ;
 }
-;
 document
 .
 dispatchEvent
@@ -175,8 +174,6 @@ replyId
 :
 1
 exec
-:
-function
 (
 commandName
 arg

@@ -464,8 +464,6 @@ profileFile
 )
 ;
 }
-else
-{
 let
 msg
 =
@@ -501,7 +499,6 @@ reject
 msg
 )
 ;
-}
 }
 finishStartupProfiling
 (

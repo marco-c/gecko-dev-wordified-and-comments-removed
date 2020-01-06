@@ -110,7 +110,6 @@ wrappedJSObject
 this
 ;
 }
-;
 TalosPowersService
 .
 prototype
@@ -1061,12 +1060,12 @@ e
 {
 dump
 (
-'
+"
 Force
 Quit
 failed
 :
-'
+"
 +
 e
 )
@@ -1193,8 +1192,6 @@ ParentExecServices
 :
 {
 startFrameTimeRecording
-:
-function
 (
 arg
 callback
@@ -1231,8 +1228,6 @@ rv
 ;
 }
 stopFrameTimeRecording
-:
-function
 (
 arg
 callback
@@ -1309,8 +1304,6 @@ msg
 data
 .
 id
-result
-:
 result
 }
 )

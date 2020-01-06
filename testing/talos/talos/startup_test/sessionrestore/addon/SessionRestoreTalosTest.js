@@ -292,8 +292,6 @@ aTopic
 }
 }
 init
-:
-function
 (
 )
 {
@@ -405,8 +403,6 @@ RESTORED_TOPIC
 }
 }
 onReady
-:
-function
 (
 hasRestoredTabs
 )

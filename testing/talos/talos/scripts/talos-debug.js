@@ -17,8 +17,6 @@ fixed
 :
 2
 sum
-:
-function
 (
 values
 )
@@ -44,8 +42,6 @@ b
 ;
 }
 average
-:
-function
 (
 values
 )
@@ -77,8 +73,6 @@ length
 ;
 }
 median
-:
-function
 (
 values
 )
@@ -187,8 +181,6 @@ len
 ;
 }
 stddev
-:
-function
 (
 values
 avg
@@ -263,8 +255,6 @@ length
 ;
 }
 detectWarmup
-:
-function
 (
 values
 )
@@ -602,8 +592,6 @@ stableFrom
 ;
 }
 statsDisplay
-:
-function
 (
 collection
 )
@@ -740,8 +728,6 @@ average
 ;
 }
 tpRecordTime
-:
-function
 (
 dataCSV
 )
@@ -1164,9 +1150,9 @@ tpRecordTime
 =
 =
 =
-'
+"
 undefined
-'
+"
 )
 {
 tpRecordTime

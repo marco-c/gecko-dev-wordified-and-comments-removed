@@ -55,9 +55,9 @@ PrivilegeManager
 .
 enablePrivilege
 (
-'
+"
 UniversalXPConnect
-'
+"
 )
 ;
 }

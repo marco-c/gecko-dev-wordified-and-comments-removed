@@ -161,10 +161,6 @@ detail
 :
 {
 name
-:
-name
-data
-:
 data
 }
 }

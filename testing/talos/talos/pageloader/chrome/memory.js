@@ -160,8 +160,6 @@ event
 =
 {
 notify
-:
-function
 (
 timer
 )

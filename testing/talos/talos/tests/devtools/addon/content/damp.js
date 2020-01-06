@@ -278,8 +278,6 @@ prototype
 =
 {
 addTab
-:
-function
 (
 url
 )
@@ -361,8 +359,6 @@ true
 ;
 }
 closeCurrentTab
-:
-function
 (
 )
 {
@@ -385,8 +381,6 @@ selectedTab
 ;
 }
 reloadPage
-:
-function
 (
 )
 {
@@ -480,8 +474,6 @@ reload
 ;
 }
 openToolbox
-:
-function
 (
 tool
 =
@@ -644,8 +636,6 @@ startRecordTimestamp
 }
 )
 saveHeapSnapshot
-:
-function
 (
 label
 )
@@ -765,8 +755,6 @@ start
 ;
 }
 readHeapSnapshot
-:
-function
 (
 label
 )
@@ -1501,8 +1489,6 @@ testTeardown
 }
 )
 takeCensus
-:
-function
 (
 label
 )
@@ -1687,8 +1673,6 @@ resolve
 ;
 }
 _getToolLoadingTests
-:
-function
 (
 url
 label
@@ -2566,8 +2550,6 @@ _onSequenceComplete
 :
 0
 _nextCommand
-:
-function
 (
 )
 {
@@ -2612,8 +2594,6 @@ this
 ;
 }
 _doSequence
-:
-function
 (
 commands
 onComplete
@@ -2652,8 +2632,6 @@ _nextCommand
 ;
 }
 _log
-:
-function
 (
 str
 )
@@ -2689,8 +2667,6 @@ str
 ;
 }
 _logLine
-:
-function
 (
 str
 )
@@ -2710,8 +2686,6 @@ n
 ;
 }
 _reportAllResults
-:
-function
 (
 )
 {
@@ -2880,16 +2854,16 @@ testResults
 .
 join
 (
-'
-'
+"
+"
 )
 0
 testNames
 .
 join
 (
-'
-'
+"
+"
 )
 )
 ;
@@ -2902,8 +2876,6 @@ _onTestComplete
 :
 null
 _doneInternal
-:
-function
 (
 )
 {
@@ -3152,8 +3124,6 @@ onTimings
 ;
 }
 startTest
-:
-function
 (
 doneCallback
 config
