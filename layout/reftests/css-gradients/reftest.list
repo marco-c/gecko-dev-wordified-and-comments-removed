@@ -225,6 +225,10 @@ fails
 if
 (
 d2d
+&
+&
+!
+styloVsGecko
 )
 =
 =
@@ -270,6 +274,10 @@ fails
 if
 (
 d2d
+&
+&
+!
+styloVsGecko
 )
 =
 =
@@ -315,6 +323,10 @@ fails
 if
 (
 d2d
+&
+&
+!
+styloVsGecko
 )
 =
 =
@@ -342,6 +354,10 @@ fails
 if
 (
 d2d
+&
+&
+!
+styloVsGecko
 )
 =
 =

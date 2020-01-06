@@ -33,6 +33,10 @@ fails
 if
 (
 usesRepeatResampling
+&
+&
+!
+styloVsGecko
 )
 =
 =

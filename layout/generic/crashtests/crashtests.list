@@ -187,13 +187,11 @@ if
 stylo
 &
 &
+gtkWidget
+&
+&
 !
-(
-cocoaWidget
-&
-&
 isDebugBuild
-)
 1
 )
 load

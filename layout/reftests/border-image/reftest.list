@@ -376,6 +376,10 @@ fails
 if
 (
 usesRepeatResampling
+&
+&
+!
+styloVsGecko
 )
 =
 =
@@ -418,6 +422,10 @@ fails
 if
 (
 usesRepeatResampling
+&
+&
+!
+styloVsGecko
 )
 =
 =
