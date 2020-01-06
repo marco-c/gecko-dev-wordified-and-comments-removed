@@ -1,9 +1,14 @@
+from
+__future__
 import
-sys
+absolute_import
+print_function
+import
+copy
 import
 os
 import
-copy
+sys
 from
 mozlog
 .

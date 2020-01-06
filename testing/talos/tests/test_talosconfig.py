@@ -1,4 +1,13 @@
 from
+__future__
+import
+absolute_import
+print_function
+import
+json
+import
+unittest
+from
 talos
 import
 talosconfig
@@ -8,10 +17,6 @@ talos
 configuration
 import
 YAML
-import
-unittest
-import
-json
 ffox_path
 =
 '

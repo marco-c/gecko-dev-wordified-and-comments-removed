@@ -14,6 +14,11 @@ test
 "
 "
 "
+from
+__future__
+import
+absolute_import
+print_function
 import
 os
 import
@@ -25,6 +30,10 @@ mozinfo
 import
 mozrunner
 from
+mozlog
+import
+get_proxy_logger
+from
 mozprocess
 import
 ProcessHandlerMixin
@@ -35,25 +44,21 @@ profile
 import
 Profile
 from
-mozlog
-import
-get_proxy_logger
-from
 talos
 import
 utils
-from
-talos
-.
-utils
-import
-TalosError
 from
 talos
 .
 gecko_profile
 import
 GeckoProfile
+from
+talos
+.
+utils
+import
+TalosError
 LOG
 =
 get_proxy_logger
@@ -1147,10 +1152,12 @@ _tmp_dir
         
 except
 Exception
+as
 e
 :
             
 print
+(
 "
 Exception
 while
@@ -1165,9 +1172,12 @@ s
 self
 .
 _tmp_dir
+)
             
 print
+(
 e
+)
         
 if
 self

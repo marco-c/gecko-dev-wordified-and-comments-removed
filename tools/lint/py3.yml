@@ -169,10 +169,6 @@ mozharness
 -
 testing
 /
-talos
--
-testing
-/
 tools
 /
 iceserver

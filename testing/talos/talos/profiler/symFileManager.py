@@ -1,9 +1,7 @@
 from
-symLogging
+__future__
 import
-LogTrace
-LogError
-LogMessage
+absolute_import
 import
 itertools
 import
@@ -18,6 +16,13 @@ from
 bisect
 import
 bisect
+from
+.
+symLogging
+import
+LogTrace
+LogError
+LogMessage
 PREFETCHED_LIBS
 =
 [
