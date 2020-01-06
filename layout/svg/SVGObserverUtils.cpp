@@ -451,7 +451,7 @@ void
 nsSVGRenderingObserver
 :
 :
-InvalidateViaReferencedElement
+OnNonDOMMutationRenderingChange
 (
 )
 {
@@ -3549,7 +3549,7 @@ i
 ]
 -
 >
-InvalidateViaReferencedElement
+OnNonDOMMutationRenderingChange
 (
 )
 ;
@@ -3675,7 +3675,7 @@ i
 ]
 -
 >
-InvalidateViaReferencedElement
+OnNonDOMMutationRenderingChange
 (
 )
 ;
