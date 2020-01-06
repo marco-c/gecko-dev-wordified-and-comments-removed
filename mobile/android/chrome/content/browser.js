@@ -12199,9 +12199,14 @@ data
 uri
 )
 null
+Ci
+.
+nsIBrowserDOMWindow
+[
 data
 .
 flags
+]
 Ci
 .
 nsIBrowserDOMWindow
@@ -31259,6 +31264,7 @@ whitelist
 about
 :
 (
+|
 about
 |
 accounts
