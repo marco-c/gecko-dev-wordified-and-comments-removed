@@ -205,7 +205,7 @@ h
 #
 include
 "
-nsStyleContext
+GeckoStyleContext
 .
 h
 "
@@ -457,7 +457,7 @@ GetConditionalStyleData
 (
 nsStyleStructID
 aSID
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
@@ -728,7 +728,7 @@ const
 nsCSSValue
 *
 aValue
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -743,7 +743,7 @@ static
 void
 ComputePositionValue
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -3731,7 +3731,7 @@ nsStyleCoord
 aParentCoord
 int32_t
 aMask
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -4639,7 +4639,7 @@ const
 nsStyleCoord
 dummyParentCoord
 ;
-nsStyleContext
+GeckoStyleContext
 *
 dummyStyleContext
 =
@@ -4715,7 +4715,7 @@ nsStyleCoord
 aParentY
 int32_t
 aMask
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -5556,7 +5556,7 @@ aParentCoord
 const
 nscoord
 aInitialCoord
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -5817,7 +5817,7 @@ aValue
 nsPresContext
 *
 aPresContext
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsStyleCoord
@@ -5880,7 +5880,7 @@ aValue
 nsPresContext
 *
 aPresContext
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsStyleGradient
@@ -6507,7 +6507,7 @@ static
 void
 SetStyleImageToImageRect
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -6740,7 +6740,7 @@ static
 void
 SetStyleImage
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -9408,10 +9408,10 @@ nsRuleNode
 :
 PropagateGrandancestorBit
 (
-nsStyleContext
+GeckoStyleContext
 *
 aContext
-nsStyleContext
+GeckoStyleContext
 *
 aContextInheritedFrom
 )
@@ -9443,7 +9443,7 @@ aContext
 ;
 for
 (
-nsStyleContext
+GeckoStyleContext
 *
 context
 =
@@ -11224,7 +11224,7 @@ inline
 uint32_t
 GetPseudoRestriction
 (
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 )
@@ -11556,7 +11556,7 @@ aSID
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 )
@@ -11806,7 +11806,7 @@ WalkRuleTree
 const
 nsStyleStructID
 aSID
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 )
@@ -12432,7 +12432,7 @@ bit
 highestNode
 )
 ;
-nsStyleContext
+GeckoStyleContext
 *
 parentContext
 =
@@ -12587,7 +12587,7 @@ void
 const
 nsRuleData
 *
-nsStyleContext
+GeckoStyleContext
 *
 nsRuleNode
 *
@@ -12669,7 +12669,7 @@ SetDefaultOnRoot
 const
 nsStyleStructID
 aSID
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 )
@@ -13513,7 +13513,7 @@ Data
 ;
 \
 \
-nsStyleContext
+GeckoStyleContext
 *
 parentContext
 =
@@ -13983,7 +13983,7 @@ Data
 ;
 \
 \
-nsStyleContext
+GeckoStyleContext
 *
 parentContext
 =
@@ -15826,7 +15826,7 @@ nsPresContext
 const
 mPresContext
 ;
-nsStyleContext
+GeckoStyleContext
 *
 const
 mStyleContext
@@ -15850,7 +15850,7 @@ aParentFont
 nsPresContext
 *
 aPresContext
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 bool
@@ -16013,7 +16013,7 @@ SetFontSize
 nsPresContext
 *
 aPresContext
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 const
@@ -16830,7 +16830,7 @@ SetFont
 nsPresContext
 *
 aPresContext
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 uint8_t
@@ -20022,7 +20022,7 @@ SetGenericFont
 nsPresContext
 *
 aPresContext
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 uint8_t
@@ -20034,7 +20034,7 @@ aFont
 {
 AutoTArray
 <
-nsStyleContext
+GeckoStyleContext
 *
 8
 >
@@ -20047,7 +20047,7 @@ AppendElement
 aContext
 )
 ;
-nsStyleContext
+GeckoStyleContext
 *
 higherContext
 =
@@ -20211,7 +20211,7 @@ i
 i
 )
 {
-nsStyleContext
+GeckoStyleContext
 *
 context
 =
@@ -20426,7 +20426,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -20819,7 +20819,7 @@ const
 nsCSSValueList
 *
 aList
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 bool
@@ -21673,7 +21673,7 @@ typedef
 LengthNumberCalcObj
 result_type
 ;
-nsStyleContext
+GeckoStyleContext
 *
 const
 mStyleContext
@@ -21689,7 +21689,7 @@ mConditions
 ;
 LengthNumberCalcOps
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -22028,7 +22028,7 @@ LengthNumberCalcOps
 {
 SetLineHeightCalcOps
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -22217,7 +22217,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -23059,7 +23059,7 @@ SetUncacheable
 (
 )
 ;
-nsStyleContext
+GeckoStyleContext
 *
 parent
 =
@@ -24253,7 +24253,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -25306,7 +25306,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -25818,7 +25818,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -26876,7 +26876,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -33394,7 +33394,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -33936,7 +33936,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -34101,7 +34101,7 @@ static
 void
 ComputeValue
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -34152,7 +34152,7 @@ static
 void
 ComputeValue
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -34508,7 +34508,7 @@ static
 void
 ComputeValue
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -34571,7 +34571,7 @@ static
 void
 ComputeValue
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -34610,7 +34610,7 @@ static
 void
 ComputePositionCoord
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -34928,7 +34928,7 @@ static
 void
 ComputePositionValue
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -35157,7 +35157,7 @@ static
 void
 ComputePositionCoordValue
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -35422,7 +35422,7 @@ static
 void
 ComputeValue
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -36178,7 +36178,7 @@ static
 void
 SetImageLayerList
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -36493,7 +36493,7 @@ static
 void
 SetImageLayerPositionCoordList
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -36820,7 +36820,7 @@ static
 void
 SetImageLayerPairList
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -37584,7 +37584,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -38178,7 +38178,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -38593,7 +38593,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -39792,7 +39792,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -39910,7 +39910,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -40370,7 +40370,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -41381,7 +41381,7 @@ aValue
 nsStyleCoord
 &
 aResult
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -41530,7 +41530,7 @@ aResultMin
 nsStyleCoord
 &
 aResultMax
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -41720,7 +41720,7 @@ const
 nsStyleCoord
 &
 aParentValueMax
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -41890,7 +41890,7 @@ const
 nsStyleGridTemplate
 &
 aParentValue
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -42982,7 +42982,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -44575,7 +44575,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -44687,7 +44687,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -44919,7 +44919,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -46110,7 +46110,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -46334,7 +46334,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -46864,7 +46864,7 @@ parentPaint
 nsPresContext
 *
 aPresContext
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsStyleSVGPaint
@@ -47732,7 +47732,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -49330,7 +49330,7 @@ const
 nsCSSValue
 &
 aValue
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -50387,7 +50387,7 @@ const
 nsCSSValue
 *
 aValue
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -50625,7 +50625,7 @@ const
 nsCSSValue
 &
 aValue
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsPresContext
@@ -50921,7 +50921,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -52096,7 +52096,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -52193,7 +52193,7 @@ const
 nsRuleData
 *
 aRuleData
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsRuleNode
@@ -52958,7 +52958,7 @@ GetStyleData
 (
 nsStyleStructID
 aSID
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 bool
@@ -53284,6 +53284,19 @@ true
 }
 #
 endif
+RefPtr
+<
+GeckoStyleContext
+>
+styleContext
+=
+aStyleContext
+-
+>
+AsGecko
+(
+)
+;
 uint32_t
 inheritBits
 =
@@ -53481,13 +53494,13 @@ dataArray
 get
 (
 )
-aStyleContext
+styleContext
 -
 >
 PresContext
 (
 )
-aStyleContext
+styleContext
 )
 ;
 if
@@ -53907,11 +53920,11 @@ i
 ;
 }
 }
-nsStyleContext
+GeckoStyleContext
 *
-styleContext
+styleContextRef
 =
-aStyleContext
+styleContext
 ;
 bool
 haveExplicitUAInherit
@@ -53928,7 +53941,7 @@ nsRuleNode
 *
 ruleNode
 =
-styleContext
+styleContextRef
 -
 >
 RuleNode
@@ -54328,9 +54341,9 @@ Reset
 (
 )
 ;
-styleContext
+styleContextRef
 =
-styleContext
+styleContextRef
 -
 >
 GetParent
@@ -54364,7 +54377,7 @@ nsCSSPropertyID
 >
 &
 aProperties
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsCSSPropertyIDSet
@@ -54852,12 +54865,12 @@ nsRuleNode
 :
 ParentHasPseudoElementData
 (
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 )
 {
-nsStyleContext
+GeckoStyleContext
 *
 parent
 =
@@ -54886,7 +54899,7 @@ nsRuleNode
 :
 StoreStyleOnContext
 (
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsStyleStructID
@@ -54929,7 +54942,7 @@ nsRuleNode
 :
 ContextHasCachedData
 (
-nsStyleContext
+GeckoStyleContext
 *
 aContext
 nsStyleStructID

@@ -321,6 +321,15 @@ include
 "
 mozilla
 /
+GeckoStyleContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Keyframe
 .
 h

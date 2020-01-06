@@ -559,6 +559,15 @@ include
 "
 mozilla
 /
+GeckoStyleContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RestyleManager
 .
 h

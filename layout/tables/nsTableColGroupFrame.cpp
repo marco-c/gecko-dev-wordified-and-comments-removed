@@ -75,6 +75,15 @@ nsIPresShell
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GeckoStyleContext
+.
+h
+"
 using
 namespace
 mozilla
@@ -1542,6 +1551,12 @@ IsGeckoRuleNodeOrNull
 {
 if
 (
+static_cast
+<
+nsStyleContext
+*
+>
+(
 colFrame
 -
 >
@@ -1552,6 +1567,7 @@ StyleContext
 >
 GetParent
 (
+)
 )
 =
 =
