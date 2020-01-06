@@ -1287,12 +1287,6 @@ _moveInfobar
 (
 )
 ;
-this
-.
-_update
-(
-)
-;
 }
 _hide
 (
