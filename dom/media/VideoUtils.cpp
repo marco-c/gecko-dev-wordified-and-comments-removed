@@ -1188,6 +1188,13 @@ MediaPlayback
 break
 ;
 }
+static
+const
+uint32_t
+kMediaThreadPoolDefaultCount
+=
+4
+;
 return
 SharedThreadPool
 :
@@ -1198,12 +1205,7 @@ nsDependentCString
 (
 name
 )
-MediaPrefs
-:
-:
-MediaThreadPoolDefaultCount
-(
-)
+kMediaThreadPoolDefaultCount
 )
 ;
 }
