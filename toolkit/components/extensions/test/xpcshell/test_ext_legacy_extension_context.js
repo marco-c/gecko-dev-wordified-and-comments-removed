@@ -325,12 +325,6 @@ generate
 extensionData
 )
 ;
-extension
-.
-isEmbedded
-=
-true
-;
 let
 waitForExtensionInfo
 =
