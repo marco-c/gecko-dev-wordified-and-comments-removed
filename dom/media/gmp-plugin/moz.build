@@ -105,14 +105,9 @@ FINAL_TARGET_FILES
 =
 [
 '
-fake
+manifest
 .
-info
-'
-'
-fake
-.
-voucher
+json
 '
 ]
 SOURCES
@@ -148,7 +143,7 @@ cpp
 DEFINES
 [
 '
-GMP_FAKE_SUPPORT_DECRYPT
+CDM_IMPLEMENTATION
 '
 ]
 =
