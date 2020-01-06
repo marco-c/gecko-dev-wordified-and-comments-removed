@@ -3019,5 +3019,10 @@ this
 )
 ;
 var
+gDelayTestDriverEnd
+=
+false
+;
+var
 gPageCompleted
 ;
