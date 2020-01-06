@@ -2496,12 +2496,6 @@ message
 geckodriver
 -
 h
-geckodriver
-0
-.
-11
-.
-1
 WebDriver
 implementation
 for
