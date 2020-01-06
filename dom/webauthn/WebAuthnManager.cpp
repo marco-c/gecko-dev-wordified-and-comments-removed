@@ -1811,7 +1811,10 @@ srv
 =
 AssembleClientData
 (
-origin
+NS_ConvertUTF8toUTF16
+(
+rpId
+)
 challenge
 clientDataJSON
 )
@@ -2497,7 +2500,10 @@ srv
 =
 AssembleClientData
 (
-origin
+NS_ConvertUTF8toUTF16
+(
+rpId
+)
 challenge
 clientDataJSON
 )
