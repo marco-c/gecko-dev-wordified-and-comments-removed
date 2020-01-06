@@ -3601,14 +3601,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-|
-|
-PaintThread
-:
-:
-IsOnPaintThread
-(
-)
 )
 ;
 if
