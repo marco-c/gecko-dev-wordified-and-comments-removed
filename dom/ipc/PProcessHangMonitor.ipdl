@@ -151,6 +151,9 @@ tabId
 nsCString
 filename
 ;
+nsString
+addonId
+;
 }
 ;
 struct
