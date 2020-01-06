@@ -1024,7 +1024,7 @@ gContentAPI
 showHighlight
 (
 "
-addons
+home
 "
 )
 ;
