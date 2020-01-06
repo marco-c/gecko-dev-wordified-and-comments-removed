@@ -386,8 +386,14 @@ cell
 namespace
 JS
 {
-struct
-Zone
+enum
+StackKind
+{
+StackForSystemCode
+StackForTrustedScript
+StackForUntrustedScript
+StackKindCount
+}
 ;
 const
 uint32_t
