@@ -891,10 +891,6 @@ return
 ResolveServoStyle
 (
 aElement
-ServoTraversalFlags
-:
-:
-Empty
 )
 ;
 }
@@ -1792,10 +1788,6 @@ mRawSet
 get
 (
 )
-ServoTraversalFlags
-:
-:
-Empty
 )
 .
 Consume
@@ -4851,8 +4843,6 @@ ResolveServoStyle
 Element
 *
 aElement
-ServoTraversalFlags
-aFlags
 )
 {
 UpdateStylistIfNeeded
@@ -4873,7 +4863,6 @@ mRawSet
 get
 (
 )
-aFlags
 )
 .
 Consume

@@ -8184,10 +8184,6 @@ AsServo
 ResolveServoStyle
 (
 container
-ServoTraversalFlags
-:
-:
-Empty
 )
 ;
 }
