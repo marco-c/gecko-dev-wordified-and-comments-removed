@@ -174,15 +174,6 @@ StackingContextHelper
 (
 )
 ;
-void
-AdjustOrigin
-(
-const
-LayoutDevicePoint
-&
-aDelta
-)
-;
 wr
 :
 :
