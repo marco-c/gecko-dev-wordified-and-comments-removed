@@ -1118,6 +1118,11 @@ FileBlockCache
 cpp
 '
 '
+FileMediaResource
+.
+cpp
+'
+'
 GetUserMediaRequest
 .
 cpp
