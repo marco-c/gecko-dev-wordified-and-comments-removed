@@ -679,7 +679,7 @@ getLoginSavingEnabled
 (
 aURI
 .
-prePath
+displayPrePath
 )
 )
 return
@@ -699,7 +699,7 @@ countLogins
 (
 aURI
 .
-prePath
+displayPrePath
 "
 "
 "
@@ -786,7 +786,7 @@ findLogins
 }
 aURI
 .
-prePath
+displayPrePath
 "
 "
 "
@@ -832,7 +832,7 @@ setLoginSavingEnabled
 (
 aURI
 .
-prePath
+displayPrePath
 true
 )
 ;

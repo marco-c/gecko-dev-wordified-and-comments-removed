@@ -1817,7 +1817,7 @@ principal
 .
 URI
 .
-prePath
+displayPrePath
 )
 ;
 }

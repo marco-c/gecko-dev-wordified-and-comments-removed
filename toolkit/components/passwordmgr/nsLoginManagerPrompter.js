@@ -7566,7 +7566,7 @@ scheme
 +
 uri
 .
-hostPort
+displayHostPort
 ;
 }
 _getShortDisplayHost

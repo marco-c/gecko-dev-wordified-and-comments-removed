@@ -403,7 +403,7 @@ hostname
 :
 documentURI
 .
-prePath
+displayPrePath
 schemeUpgrades
 :
 LoginHelper
@@ -451,7 +451,7 @@ password
 resolveBy
 documentURI
 .
-prePath
+displayPrePath
 )
 ;
 logins
@@ -636,7 +636,7 @@ loginFormOrigin
 :
 documentURI
 .
-prePath
+displayPrePath
 login
 inputElement
 }

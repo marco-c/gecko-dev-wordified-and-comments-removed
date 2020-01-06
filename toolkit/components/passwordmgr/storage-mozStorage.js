@@ -2246,7 +2246,7 @@ http
 +
 valueURI
 .
-hostPort
+displayHostPort
 ;
 }
 }
