@@ -16087,6 +16087,13 @@ str
 if
 (
 nbytes
+=
+=
+0
+|
+|
+(
+nbytes
 %
 sizeof
 (
@@ -16095,6 +16102,7 @@ uint64_t
 !
 =
 0
+)
 )
 {
 JS_ReportErrorASCII
