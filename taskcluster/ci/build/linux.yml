@@ -609,6 +609,11 @@ time
 36000
 env
 :
+PERFHERDER_EXTRA_OPTIONS
+:
+base
+-
+toolchains
 TOOLTOOL_MANIFEST
 :
 browser
@@ -756,6 +761,11 @@ time
 36000
 env
 :
+PERFHERDER_EXTRA_OPTIONS
+:
+base
+-
+toolchains
 TOOLTOOL_MANIFEST
 :
 browser
