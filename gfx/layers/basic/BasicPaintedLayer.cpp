@@ -782,7 +782,7 @@ CompositorMightResample
 flags
 |
 =
-RotatedContentBuffer
+ContentClient
 :
 :
 PAINT_WILL_RESAMPLE
@@ -794,7 +794,7 @@ if
 (
 flags
 &
-RotatedContentBuffer
+ContentClient
 :
 :
 PAINT_WILL_RESAMPLE
@@ -811,7 +811,7 @@ MayResample
 flags
 |
 =
-RotatedContentBuffer
+ContentClient
 :
 :
 PAINT_WILL_RESAMPLE
@@ -828,7 +828,7 @@ mDrawAtomically
 flags
 |
 =
-RotatedContentBuffer
+ContentClient
 :
 :
 PAINT_NO_ROTATION

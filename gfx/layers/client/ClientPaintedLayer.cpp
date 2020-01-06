@@ -511,7 +511,7 @@ GetPaintFlags
 uint32_t
 flags
 =
-RotatedContentBuffer
+ContentClient
 :
 :
 PAINT_CAN_DRAW_ROTATED
@@ -534,7 +534,7 @@ CompositorMightResample
 flags
 |
 =
-RotatedContentBuffer
+ContentClient
 :
 :
 PAINT_WILL_RESAMPLE
@@ -546,7 +546,7 @@ if
 (
 flags
 &
-RotatedContentBuffer
+ContentClient
 :
 :
 PAINT_WILL_RESAMPLE
@@ -563,7 +563,7 @@ MayResample
 flags
 |
 =
-RotatedContentBuffer
+ContentClient
 :
 :
 PAINT_WILL_RESAMPLE
@@ -667,7 +667,7 @@ didUpdate
 =
 false
 ;
-RotatedContentBuffer
+RotatedBuffer
 :
 :
 DrawIterator
@@ -869,7 +869,7 @@ didUpdate
 =
 false
 ;
-RotatedContentBuffer
+RotatedBuffer
 :
 :
 DrawIterator
@@ -1061,7 +1061,7 @@ Get
 PaintContents
 (
 captureState
-RotatedContentBuffer
+ContentClient
 :
 :
 PrepareDrawTargetForPainting

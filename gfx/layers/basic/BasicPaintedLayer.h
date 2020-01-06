@@ -123,14 +123,14 @@ BasicImplData
 public
 :
 typedef
-RotatedContentBuffer
+ContentClient
 :
 :
 PaintState
 PaintState
 ;
 typedef
-RotatedContentBuffer
+ContentClient
 :
 :
 ContentType
