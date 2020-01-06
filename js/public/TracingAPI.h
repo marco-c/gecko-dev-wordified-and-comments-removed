@@ -826,6 +826,7 @@ Moving
 GrayBuffering
 VerifyTraceProtoAndIface
 ClearEdges
+UnmarkGray
 }
 ;
 virtual

@@ -144,6 +144,19 @@ Tasks
 "
 67
 )
+UnmarkGrayPhaseKind
+=
+PhaseKind
+(
+"
+UNMARK_GRAY
+"
+"
+Unmark
+gray
+"
+56
+)
 PhaseKindGraphRoots
 =
 [
@@ -308,6 +321,8 @@ Mark
         
 MarkRootsPhaseKind
         
+UnmarkGrayPhaseKind
+        
 PhaseKind
 (
 "
@@ -347,19 +362,7 @@ Sweeping
 10
 [
             
-PhaseKind
-(
-"
-SWEEP_MARK_TYPES
-"
-"
-Mark
-Types
-During
-Sweeping
-"
-11
-)
+UnmarkGrayPhaseKind
             
 PhaseKind
 (
@@ -373,6 +376,11 @@ Black
 Pointers
 "
 12
+[
+                
+UnmarkGrayPhaseKind
+            
+]
 )
             
 PhaseKind
@@ -385,6 +393,11 @@ Mark
 Weak
 "
 13
+[
+                
+UnmarkGrayPhaseKind
+            
+]
 )
             
 PhaseKind
@@ -992,17 +1005,7 @@ Barriers
 55
 [
         
-PhaseKind
-(
-"
-UNMARK_GRAY
-"
-"
-Unmark
-gray
-"
-56
-)
+UnmarkGrayPhaseKind
     
 ]
 )
