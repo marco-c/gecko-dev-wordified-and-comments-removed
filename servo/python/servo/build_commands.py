@@ -1654,6 +1654,21 @@ if
 android
 :
             
+env
+[
+"
+OPENSSL_VERSION
+"
+]
+=
+"
+1
+.
+0
+.
+2k
+"
+            
 make_cmd
 =
 [
@@ -1832,12 +1847,19 @@ openssl_dir
 "
 openssl
 -
-1
-.
-0
-.
-1t
+{
+}
 "
+.
+format
+(
+env
+[
+"
+OPENSSL_VERSION
+"
+]
+)
 )
             
 env
