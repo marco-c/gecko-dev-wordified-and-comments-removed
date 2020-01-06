@@ -127,7 +127,7 @@ XML
 <
 !
 ENTITY
-backLink2
+backLink
 .
 label
 "
@@ -137,6 +137,8 @@ label
 ;
 Go
 Back
+to
+Privacy
 "
 >
 <
