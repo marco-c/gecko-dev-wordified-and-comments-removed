@@ -85,7 +85,6 @@ nsLookAndFeel
 (
 )
 ;
-virtual
 nsresult
 NativeGetColor
 (
@@ -95,8 +94,8 @@ nscolor
 &
 aResult
 )
+override
 ;
-virtual
 nsresult
 GetIntImpl
 (
@@ -106,8 +105,8 @@ int32_t
 &
 aResult
 )
+override
 ;
-virtual
 nsresult
 GetFloatImpl
 (
@@ -117,8 +116,8 @@ float
 &
 aResult
 )
+override
 ;
-virtual
 bool
 GetFontImpl
 (
@@ -133,14 +132,14 @@ aFontStyle
 float
 aDevPixPerCSSPixel
 )
+override
 ;
-virtual
 char16_t
 GetPasswordCharacterImpl
 (
 )
+override
 ;
-virtual
 nsTArray
 <
 LookAndFeelInt
@@ -148,8 +147,8 @@ LookAndFeelInt
 GetIntCacheImpl
 (
 )
+override
 ;
-virtual
 void
 SetIntCacheImpl
 (
@@ -161,6 +160,7 @@ LookAndFeelInt
 &
 aLookAndFeelIntCache
 )
+override
 ;
 private
 :
