@@ -1739,15 +1739,6 @@ mPlayState
 ;
 Mirror
 <
-MediaDecoder
-:
-:
-PlayState
->
-mNextPlayState
-;
-Mirror
-<
 double
 >
 mVolume
