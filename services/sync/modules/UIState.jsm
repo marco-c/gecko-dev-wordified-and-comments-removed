@@ -715,6 +715,14 @@ profile
 .
 avatar
 ;
+state
+.
+email
+=
+profile
+.
+email
+;
 }
 async
 _getUserData

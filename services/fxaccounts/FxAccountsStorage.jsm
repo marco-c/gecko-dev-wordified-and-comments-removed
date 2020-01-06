@@ -1019,6 +1019,13 @@ uid
 "
 in
 newFields
+|
+|
+"
+email
+"
+in
+newFields
 )
 {
 throw
@@ -1031,6 +1038,9 @@ Can
 t
 change
 uid
+or
+email
+address
 "
 )
 ;
