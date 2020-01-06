@@ -76,13 +76,6 @@ open
 PropTypes
 .
 bool
-indent
-:
-PropTypes
-.
-number
-.
-isRequired
 timestampsVisible
 :
 PropTypes
@@ -105,9 +98,6 @@ defaultProps
 open
 :
 false
-indent
-:
-0
 }
 ;
 function
@@ -122,7 +112,6 @@ dispatch
 message
 open
 serviceContainer
-indent
 timestampsVisible
 }
 =
@@ -133,6 +122,7 @@ const
 id
 :
 messageId
+indent
 source
 type
 level

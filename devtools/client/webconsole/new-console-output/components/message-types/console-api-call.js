@@ -177,13 +177,6 @@ PropTypes
 object
 .
 isRequired
-indent
-:
-PropTypes
-.
-number
-.
-isRequired
 timestampsVisible
 :
 PropTypes
@@ -206,9 +199,6 @@ defaultProps
 open
 :
 false
-indent
-:
-0
 }
 ;
 function
@@ -224,7 +214,6 @@ message
 open
 tableData
 serviceContainer
-indent
 timestampsVisible
 repeat
 loadedObjectProperties
@@ -237,6 +226,7 @@ const
 id
 :
 messageId
+indent
 source
 type
 level
