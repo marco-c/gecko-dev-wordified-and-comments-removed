@@ -2019,6 +2019,12 @@ GetOrCreateChannelClassifier
 (
 )
 ;
+MOZ_MUST_USE
+nsresult
+RedirectToInterceptedChannel
+(
+)
+;
 private
 :
 nsCOMPtr
