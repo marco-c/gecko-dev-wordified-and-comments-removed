@@ -1121,17 +1121,6 @@ rv
 rv
 )
 ;
-mResource
--
->
-SetReadMode
-(
-MediaCacheStream
-:
-:
-MODE_METADATA
-)
-;
 SetStateMachine
 (
 CreateStateMachine

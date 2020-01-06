@@ -810,6 +810,8 @@ mNotifyDataEndedStatus
 ;
 ReadMode
 mCurrentMode
+=
+MODE_METADATA
 ;
 bool
 mMetadataInPartialBlockBuffer
