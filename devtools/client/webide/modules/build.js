@@ -299,7 +299,7 @@ if
 (
 data
 .
-contains
+includes
 (
 "
 cordova
