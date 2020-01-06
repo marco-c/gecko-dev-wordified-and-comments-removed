@@ -150,13 +150,4 @@ message
 .
 js
 '
-'
-variables
--
-view
--
-link
-.
-js
-'
 )

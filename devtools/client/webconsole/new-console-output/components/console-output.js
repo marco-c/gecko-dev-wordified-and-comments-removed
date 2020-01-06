@@ -55,6 +55,7 @@ const
 getAllMessagesById
 getAllMessagesUiById
 getAllMessagesTableDataById
+getAllMessagesObjectPropertiesById
 getAllNetworkMessagesUpdateById
 getVisibleMessages
 getAllRepeatById
@@ -181,6 +182,13 @@ PropTypes
 .
 bool
 messagesTableData
+:
+PropTypes
+.
+object
+.
+isRequired
+messagesObjectProperties
 :
 PropTypes
 .
@@ -376,6 +384,7 @@ visibleMessages
 messages
 messagesUi
 messagesTableData
+messagesObjectProperties
 messagesRepeat
 networkMessagesUpdate
 serviceContainer
@@ -404,6 +413,7 @@ MessageContainer
 dispatch
 key
 :
+messageId
 messageId
 serviceContainer
 open
@@ -442,6 +452,14 @@ getMessage
 =
 >
 messages
+.
+get
+(
+messageId
+)
+loadedObjectProperties
+:
+messagesObjectProperties
 .
 get
 (
@@ -578,6 +596,12 @@ state
 messagesTableData
 :
 getAllMessagesTableDataById
+(
+state
+)
+messagesObjectProperties
+:
+getAllMessagesObjectPropertiesById
 (
 state
 )

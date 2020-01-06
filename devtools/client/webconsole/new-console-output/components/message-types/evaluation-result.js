@@ -92,6 +92,13 @@ EvaluationResult
 propTypes
 =
 {
+dispatch
+:
+PropTypes
+.
+func
+.
+isRequired
 message
 :
 PropTypes
@@ -118,6 +125,11 @@ serviceContainer
 PropTypes
 .
 object
+loadedObjectProperties
+:
+PropTypes
+.
+object
 }
 ;
 EvaluationResult
@@ -138,10 +150,12 @@ props
 {
 const
 {
+dispatch
 message
 serviceContainer
 indent
 timestampsVisible
+loadedObjectProperties
 }
 =
 props
@@ -241,6 +255,8 @@ messageBody
 GripMessageBody
 (
 {
+dispatch
+messageId
 grip
 :
 parameters
@@ -251,6 +267,7 @@ true
 escapeWhitespace
 :
 false
+loadedObjectProperties
 }
 )
 ;
