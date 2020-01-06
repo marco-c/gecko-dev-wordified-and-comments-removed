@@ -387,6 +387,16 @@ dom
 .
 js
 )
+content
+/
+format
+.
+js
+(
+format
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
