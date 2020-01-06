@@ -1723,6 +1723,13 @@ PN_TERNARY
 )
 )
 ;
+if
+(
+pn
+-
+>
+pn_kid1
+)
 stack
 -
 >
