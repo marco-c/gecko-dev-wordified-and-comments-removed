@@ -49,14 +49,6 @@ enable
 "
 true
 ]
-[
-"
-extensions
-.
-e10sBlocksEnabling
-"
-false
-]
 ]
 }
 resolve

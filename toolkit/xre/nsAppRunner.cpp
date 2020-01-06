@@ -22542,9 +22542,6 @@ kE10sEnabledByDefault
 kE10sDisabledByUser
 =
 2
-kE10sDisabledForAddons
-=
-7
 kE10sForceDisabled
 =
 8

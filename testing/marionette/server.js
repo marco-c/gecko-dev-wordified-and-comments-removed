@@ -845,14 +845,6 @@ enabledScopes
 "
 extensions
 .
-e10sBlocksEnabling
-"
-false
-]
-[
-"
-extensions
-.
 getAddons
 .
 cache

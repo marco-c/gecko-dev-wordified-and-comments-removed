@@ -4338,14 +4338,6 @@ enable
 '
 :
 True
-                
-'
-extensions
-.
-e10sBlocksEnabling
-'
-:
-False
             
 }
 )

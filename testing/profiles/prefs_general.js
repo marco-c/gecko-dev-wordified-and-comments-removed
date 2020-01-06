@@ -3336,16 +3336,6 @@ shutdownTimeoutSecs
 user_pref
 (
 "
-extensions
-.
-e10sBlocksEnabling
-"
-false
-)
-;
-user_pref
-(
-"
 lightweightThemes
 .
 selectedThemeID
