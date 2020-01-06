@@ -219,10 +219,8 @@ inputName
 this
 .
 SEARCHBAR_ID
-)
-{
-if
-(
+&
+&
 formField
 )
 {
@@ -265,7 +263,6 @@ returned
 "
 )
 ;
-}
 }
 this
 .
@@ -1039,8 +1036,10 @@ this
 .
 _debug
 )
+{
 return
 ;
+}
 dump
 (
 "
@@ -1572,8 +1571,10 @@ tok
 0
 )
 )
+{
 continue
 ;
+}
 this
 .
 _calculateScore
@@ -2391,6 +2392,7 @@ entries
 .
 length
 )
+{
 throw
 Components
 .
@@ -2408,6 +2410,7 @@ Cr
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
+}
 }
 get
 wrappedJSObject
@@ -2442,10 +2445,12 @@ length
 =
 0
 )
+{
 return
 -
 1
 ;
+}
 return
 0
 ;
@@ -2466,6 +2471,7 @@ length
 =
 0
 )
+{
 return
 Ci
 .
@@ -2473,6 +2479,7 @@ nsIAutoCompleteResult
 .
 RESULT_NOMATCH
 ;
+}
 return
 Ci
 .
