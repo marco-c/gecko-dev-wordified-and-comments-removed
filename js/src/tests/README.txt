@@ -65,8 +65,9 @@ into
 the
 browser
 used
-by
-Tinderbox
+in
+continuous
+integration
 .
 The
 browser
@@ -141,6 +142,10 @@ en
 US
 /
 docs
+/
+Mozilla
+/
+Projects
 /
 SpiderMonkey
 /
