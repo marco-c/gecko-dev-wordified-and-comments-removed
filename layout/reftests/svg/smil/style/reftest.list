@@ -1593,15 +1593,6 @@ font
 '
 shorthand
 property
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 anim
