@@ -203,6 +203,7 @@ style
 case
 BORDER_STYLE_GROOVE
 :
+{
 modulate
 =
 flip
@@ -229,9 +230,11 @@ vec2
 ;
 break
 ;
+}
 case
 BORDER_STYLE_RIDGE
 :
+{
 modulate
 =
 flip
@@ -258,6 +261,7 @@ vec2
 ;
 break
 ;
+}
 default
 :
 modulate
@@ -571,7 +575,7 @@ sub_part
 =
 prim
 .
-sub_index
+user_data0
 ;
 BorderCorners
 corners

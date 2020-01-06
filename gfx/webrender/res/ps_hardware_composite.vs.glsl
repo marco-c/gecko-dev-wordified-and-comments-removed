@@ -65,10 +65,10 @@ main
 void
 )
 {
-PrimitiveInstance
-pi
+CompositeInstance
+ci
 =
-fetch_prim_instance
+fetch_composite_instance
 (
 )
 ;
@@ -77,7 +77,7 @@ dest_task
 =
 fetch_alpha_batch_task
 (
-pi
+ci
 .
 render_task_index
 )
@@ -87,11 +87,9 @@ src_task
 =
 fetch_alpha_batch_task
 (
-pi
+ci
 .
-user_data
-.
-x
+src_task_index
 )
 ;
 vec2
@@ -185,7 +183,7 @@ uTransform
 vec4
 (
 local_pos
-pi
+ci
 .
 z
 1

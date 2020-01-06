@@ -89,7 +89,7 @@ fetch_glyph
 (
 prim
 .
-sub_index
+user_data0
 )
 ;
 ResourceRect
@@ -99,9 +99,7 @@ fetch_resource_rect
 (
 prim
 .
-user_data
-.
-x
+user_data1
 )
 ;
 RectWithSize

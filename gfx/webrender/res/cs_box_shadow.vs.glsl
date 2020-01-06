@@ -65,10 +65,10 @@ main
 void
 )
 {
-CachePrimitiveInstance
-cpi
+PrimitiveInstance
+pi
 =
-fetch_cache_instance
+fetch_prim_instance
 (
 )
 ;
@@ -77,7 +77,7 @@ task
 =
 fetch_render_task
 (
-cpi
+pi
 .
 render_task_index
 )
@@ -87,9 +87,9 @@ bs
 =
 fetch_boxshadow
 (
-cpi
+pi
 .
-specific_prim_index
+specific_prim_address
 )
 ;
 vec2

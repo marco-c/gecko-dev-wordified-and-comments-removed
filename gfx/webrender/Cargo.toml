@@ -324,6 +324,17 @@ branch
 servo
 "
 }
+rand
+=
+"
+0
+.
+3
+"
+#
+for
+the
+benchmarks
 servo
 -
 glutin

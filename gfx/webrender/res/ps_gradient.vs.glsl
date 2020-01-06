@@ -104,7 +104,7 @@ fetch_gradient_stop
 (
 prim
 .
-sub_index
+user_data0
 +
 0
 )
@@ -116,7 +116,7 @@ fetch_gradient_stop
 (
 prim
 .
-sub_index
+user_data0
 +
 1
 )

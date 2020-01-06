@@ -89,9 +89,7 @@ fetch_resource_rect
 (
 prim
 .
-user_data
-.
-x
+user_data0
 )
 ;
 #

@@ -168,9 +168,7 @@ fetch_resource_rect
 (
 prim
 .
-user_data
-.
-x
+user_data0
 )
 ;
 #
@@ -188,9 +186,7 @@ fetch_resource_rect
 (
 prim
 .
-user_data
-.
-x
+user_data0
 +
 1
 )
@@ -209,9 +205,7 @@ fetch_resource_rect
 (
 prim
 .
-user_data
-.
-x
+user_data0
 +
 2
 )

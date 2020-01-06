@@ -559,6 +559,7 @@ color_select
 case
 SIDE_BOTH
 :
+{
 /
 /
 TODO
@@ -662,6 +663,7 @@ style
 .
 x
 ;
+}
 case
 SIDE_FIRST
 :
@@ -708,7 +710,7 @@ sub_part
 =
 prim
 .
-sub_index
+user_data0
 ;
 BorderCorners
 corners
@@ -861,9 +863,7 @@ select_style
 (
 prim
 .
-user_data
-.
-x
+user_data1
 border
 .
 style
@@ -1059,9 +1059,7 @@ select_style
 (
 prim
 .
-user_data
-.
-x
+user_data1
 border
 .
 style
@@ -1255,9 +1253,7 @@ select_style
 (
 prim
 .
-user_data
-.
-x
+user_data1
 border
 .
 style
@@ -1486,9 +1482,7 @@ select_style
 (
 prim
 .
-user_data
-.
-x
+user_data1
 border
 .
 style
@@ -1770,9 +1764,7 @@ style
 color_delta
 prim
 .
-user_data
-.
-x
+user_data1
 )
 ;
 RectWithSize
