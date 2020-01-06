@@ -1173,7 +1173,6 @@ ELEMENT_HAS_DIRTY_DESCENDANTS_FOR_SERVO
 )
 ;
 }
-inline
 void
 NoteDirtyDescendantsForServo
 (
@@ -1220,7 +1219,6 @@ ELEMENT_HAS_ANIMATION_ONLY_DIRTY_DESCENDANTS_FOR_SERVO
 #
 ifdef
 DEBUG
-inline
 bool
 DirtyDescendantsBitIsPropagatedForServo
 (
