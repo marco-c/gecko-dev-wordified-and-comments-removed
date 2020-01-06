@@ -203,7 +203,7 @@ aSize
 )
 const
 ;
-void
+bool
 MaybeCreateTemporaryFile
 (
 )
