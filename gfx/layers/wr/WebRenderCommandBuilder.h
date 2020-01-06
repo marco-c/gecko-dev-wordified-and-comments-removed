@@ -417,6 +417,11 @@ RemoveUnusedAndResetWebRenderUserData
 (
 )
 ;
+void
+ClearCachedResources
+(
+)
+;
 template
 <
 class
