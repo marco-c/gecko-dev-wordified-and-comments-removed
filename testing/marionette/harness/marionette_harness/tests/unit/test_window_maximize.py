@@ -397,54 +397,6 @@ delta
 )
     
 def
-assert_window_restored
-(
-self
-actual
-)
-:
-        
-self
-.
-assertEqual
-(
-self
-.
-original_size
-[
-"
-width
-"
-]
-actual
-[
-"
-width
-"
-]
-)
-        
-self
-.
-assertEqual
-(
-self
-.
-original_size
-[
-"
-height
-"
-]
-actual
-[
-"
-height
-"
-]
-)
-    
-def
 assert_window_rect
 (
 self
@@ -592,7 +544,7 @@ maximize_resp
 )
     
 def
-test_maximize_twice_restores
+test_maximize_twice_is_idempotent
 (
 self
 )
@@ -615,7 +567,7 @@ assert_window_maximized
 maximized
 )
         
-restored
+still_maximized
 =
 self
 .
@@ -627,9 +579,9 @@ maximize_window
         
 self
 .
-assert_window_restored
+assert_window_maximized
 (
-restored
+still_maximized
 )
     
 def
@@ -658,6 +610,10 @@ i
 2
 )
             
+if
+expect_maximized
+:
+                
 rect
 =
 self
@@ -667,10 +623,6 @@ marionette
 maximize_window
 (
 )
-            
-if
-expect_maximized
-:
                 
 self
 .
@@ -682,9 +634,44 @@ rect
 else
 :
                 
+rect
+=
 self
 .
-assert_window_restored
+marionette
+.
+set_window_rect
 (
+width
+=
+800
+height
+=
+600
+)
+                
+self
+.
+assertEqual
+(
+800
 rect
+[
+"
+width
+"
+]
+)
+                
+self
+.
+assertEqual
+(
+600
+rect
+[
+"
+height
+"
+]
 )
