@@ -1510,6 +1510,9 @@ int
 "
 /
 >
+#
+ifdef
+MOZ_TELEMETRY_REPORTING
 <
 preference
 id
@@ -1537,6 +1540,8 @@ bool
 "
 /
 >
+#
+endif
 <
 preference
 id
