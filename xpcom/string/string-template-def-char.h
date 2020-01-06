@@ -78,3 +78,7 @@ PromiseFlatCString
 define
 nsTSubstringSplitter_CharT
 nsCSubstringSplitter
+#
+define
+TNullString_CharT
+NullCString
