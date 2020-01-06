@@ -917,9 +917,12 @@ xbl
 inherits
 =
 "
-value
+xbl
+:
+text
 =
 containerName
+highlightable
 "
 /
 >
