@@ -968,9 +968,6 @@ VideoDataPromise
 >
 mBaseVideoPromise
 ;
-MediaEventListener
-mDataArrivedListener
-;
 }
 ;
 }
