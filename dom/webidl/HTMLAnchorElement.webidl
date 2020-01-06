@@ -296,7 +296,7 @@ type
 ;
 [
 CEReactions
-Throws
+SetterThrows
 ]
 attribute
 DOMString

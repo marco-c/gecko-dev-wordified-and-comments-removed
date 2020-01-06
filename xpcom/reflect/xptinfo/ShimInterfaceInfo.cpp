@@ -265,6 +265,13 @@ h
 #
 include
 "
+nsIDOMHTMLAnchorElement
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLAreaElement
 .
 h
@@ -2213,6 +2220,10 @@ PositionError
 DEFINE_SHIM
 (
 History
+)
+DEFINE_SHIM
+(
+HTMLAnchorElement
 )
 DEFINE_SHIM
 (

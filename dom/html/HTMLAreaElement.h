@@ -119,12 +119,6 @@ TabIndexDefault
 override
 ;
 NS_DECL_NSIDOMHTMLAREAELEMENT
-NS_IMPL_FROMCONTENT_HTML_WITH_TAG
-(
-HTMLAreaElement
-area
-)
-;
 virtual
 nsresult
 GetEventTargetParent

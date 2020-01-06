@@ -109,6 +109,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIDOMHTMLAnchorElement
+.
+idl
+'
+'
 nsIDOMHTMLAreaElement
 .
 idl
