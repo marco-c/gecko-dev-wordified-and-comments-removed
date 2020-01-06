@@ -1101,11 +1101,6 @@ nsScannerSharedSubstring
 ;
 public
 :
-nsScannerIterator
-(
-)
-{
-}
 inline
 void
 normalize_forward
