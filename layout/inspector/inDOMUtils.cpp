@@ -1411,11 +1411,6 @@ rawRuleList
 Servo_ComputedValues_GetStyleRuleList
 (
 servo
--
->
-ComputedValues
-(
-)
 &
 rawRuleList
 )

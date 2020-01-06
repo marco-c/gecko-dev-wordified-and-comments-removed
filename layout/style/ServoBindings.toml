@@ -2237,7 +2237,12 @@ ownership
 :
 Strong
 <
-ServoStyleContext
+:
+:
+properties
+:
+:
+ComputedValues
 >
 "
 }
@@ -2365,7 +2370,12 @@ a
 &
 '
 a
-ServoStyleContext
+:
+:
+properties
+:
+:
+ComputedValues
 ;
 "
 "
