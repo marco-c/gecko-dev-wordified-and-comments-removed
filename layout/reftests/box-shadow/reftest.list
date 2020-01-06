@@ -423,12 +423,6 @@ skiaContent
 1
 50
 )
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
@@ -448,9 +442,6 @@ dynamic
 ref
 .
 xul
-#
-bug
-1408235
 random
 -
 if

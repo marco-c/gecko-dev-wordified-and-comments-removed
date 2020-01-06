@@ -23,7 +23,7 @@ ref
 xul
 #
 bug
-1408235
+1408824
 fails
 -
 if
@@ -49,7 +49,7 @@ ref
 xul
 #
 bug
-1408235
+1408824
 fails
 -
 if
@@ -75,7 +75,7 @@ ref
 xul
 #
 bug
-1408235
+1408824
 skip
 -
 if

@@ -313,15 +313,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-stylo
-|
-|
-styloVsGecko
-)
 =
 =
 setsize
@@ -332,8 +323,3 @@ setsize
 ref
 .
 xul
-#
-bug
-1408235
-for
-stylo
