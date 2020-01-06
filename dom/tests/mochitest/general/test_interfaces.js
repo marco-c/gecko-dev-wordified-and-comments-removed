@@ -820,9 +820,6 @@ HTMLAllCollection
 HTMLAnchorElement
 "
 "
-HTMLAppletElement
-"
-"
 HTMLAreaElement
 "
 "
