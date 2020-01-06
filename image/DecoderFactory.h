@@ -234,16 +234,6 @@ aICODecoder
 const
 Maybe
 <
-gfx
-:
-:
-IntSize
->
-&
-aExpectedSize
-const
-Maybe
-<
 uint32_t
 >
 &
