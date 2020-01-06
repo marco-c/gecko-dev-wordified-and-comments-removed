@@ -37,6 +37,12 @@ addPermission
 (
 )
 ;
+browserElementTestHelpers
+.
+allowTopLevelDataURINavigation
+(
+)
+;
 const
 {
 Services

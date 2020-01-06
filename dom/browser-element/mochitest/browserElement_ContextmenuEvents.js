@@ -29,6 +29,12 @@ addPermission
 (
 )
 ;
+browserElementTestHelpers
+.
+allowTopLevelDataURINavigation
+(
+)
+;
 var
 audioUrl
 =
