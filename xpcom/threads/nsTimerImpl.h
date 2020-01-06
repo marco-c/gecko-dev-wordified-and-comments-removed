@@ -497,6 +497,9 @@ nsresult
 InitCommon
 (
 const
+mozilla
+:
+:
 TimeDuration
 &
 aDelay
@@ -747,9 +750,15 @@ mType
 int32_t
 mGeneration
 ;
+mozilla
+:
+:
 TimeDuration
 mDelay
 ;
+mozilla
+:
+:
 TimeStamp
 mTimeout
 ;
