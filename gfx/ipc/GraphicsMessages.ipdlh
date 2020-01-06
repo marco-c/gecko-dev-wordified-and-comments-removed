@@ -218,6 +218,9 @@ featureLevel
 DxgiAdapterDesc
 adapter
 ;
+int32_t
+sequenceNumber
+;
 }
 ;
 struct

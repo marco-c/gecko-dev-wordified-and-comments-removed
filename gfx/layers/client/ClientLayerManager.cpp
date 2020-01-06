@@ -2216,6 +2216,11 @@ aCompositeEnd
 )
 ;
 }
+if
+(
+mTransactionIdAllocator
+)
+{
 mTransactionIdAllocator
 -
 >
@@ -2224,6 +2229,7 @@ NotifyTransactionCompleted
 aTransactionId
 )
 ;
+}
 }
 for
 (

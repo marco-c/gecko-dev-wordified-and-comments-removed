@@ -546,6 +546,11 @@ SchedulePaintIfDeviceReset
 )
 override
 ;
+void
+CheckForContentOnlyDeviceReset
+(
+)
+;
 mozilla
 :
 :
