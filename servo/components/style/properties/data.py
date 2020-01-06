@@ -421,7 +421,7 @@ None
                  
 gecko_strip_moz_prefix
 =
-True
+None
                  
 gecko_inexhaustive
 =
@@ -586,6 +586,14 @@ self
 .
 gecko_strip_moz_prefix
 =
+True
+\
+            
+if
+gecko_strip_moz_prefix
+is
+None
+else
 gecko_strip_moz_prefix
         
 self
