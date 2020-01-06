@@ -1071,9 +1071,9 @@ defined
 (
 RELEASE_OR_BETA
 )
-nsIThread
+nsISerialEventTarget
 *
-mBoundThread
+mBoundEventTarget
 ;
 #
 endif
@@ -1109,7 +1109,7 @@ AssertIsOnBoundThread
 {
 THREADSAFETY_ASSERT
 (
-mBoundThread
+mBoundEventTarget
 )
 ;
 #
@@ -1132,7 +1132,7 @@ THREADSAFETY_ASSERT
 (
 NS_SUCCEEDED
 (
-mBoundThread
+mBoundEventTarget
 -
 >
 IsOnCurrentThread
@@ -1187,7 +1187,7 @@ defined
 RELEASE_OR_BETA
 )
 :
-mBoundThread
+mBoundEventTarget
 (
 nullptr
 )
@@ -1407,7 +1407,7 @@ SetBoundThread
 THREADSAFETY_ASSERT
 (
 !
-mBoundThread
+mBoundEventTarget
 )
 ;
 #
@@ -1423,9 +1423,9 @@ defined
 (
 RELEASE_OR_BETA
 )
-mBoundThread
+mBoundEventTarget
 =
-NS_GetCurrentThread
+GetCurrentThreadSerialEventTarget
 (
 )
 ;
@@ -1433,7 +1433,7 @@ NS_GetCurrentThread
 endif
 THREADSAFETY_ASSERT
 (
-mBoundThread
+mBoundEventTarget
 )
 ;
 }
