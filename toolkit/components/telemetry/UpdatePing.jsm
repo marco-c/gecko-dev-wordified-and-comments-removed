@@ -521,6 +521,11 @@ targetBuildId
 update
 .
 buildID
+targetDisplayVersion
+:
+update
+.
+displayVersion
 }
 ;
 const

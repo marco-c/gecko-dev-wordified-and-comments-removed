@@ -248,6 +248,9 @@ targetVersion
 "
 targetChannel
 "
+"
+targetDisplayVersion
+"
 ]
 )
 {
