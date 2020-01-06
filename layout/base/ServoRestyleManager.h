@@ -663,6 +663,17 @@ ServoTraversalFlags
 aFlags
 )
 ;
+void
+DoReparentStyleContext
+(
+nsIFrame
+*
+aFrame
+ServoStyleSet
+&
+aStyleSet
+)
+;
 struct
 ReentrantChange
 {
