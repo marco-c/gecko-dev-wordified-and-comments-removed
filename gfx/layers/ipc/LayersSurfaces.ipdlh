@@ -318,8 +318,8 @@ isOpaque
 struct
 SurfaceTextureDescriptor
 {
-uintptr_t
-surfTex
+uint64_t
+handle
 ;
 IntSize
 size
