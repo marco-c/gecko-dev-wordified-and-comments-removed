@@ -1839,7 +1839,7 @@ editBookmarkPanelRemoveButton
 "
 )
 .
-doCommand
+click
 (
 )
 ;
