@@ -44,7 +44,7 @@ uint32_t
 aLen
 )
 {
-nsSMState
+uint32_t
 codingState
 ;
 for
