@@ -2219,13 +2219,6 @@ aDefault
 break
 ;
 }
-timeStamp
-=
-timer
--
->
-mTimeout
-;
 if
 (
 timer
@@ -2239,6 +2232,13 @@ IsLowPriority
 continue
 ;
 }
+timeStamp
+=
+timer
+-
+>
+mTimeout
+;
 bool
 isOnCurrentThread
 =
