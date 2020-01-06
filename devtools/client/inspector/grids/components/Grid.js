@@ -218,6 +218,13 @@ PropTypes
 func
 .
 isRequired
+onToggleShowGridAreas
+:
+PropTypes
+.
+func
+.
+isRequired
 onToggleShowGridLineNumbers
 :
 PropTypes
@@ -254,11 +261,12 @@ showGridOutline
 onHideBoxModelHighlighter
 onSetGridOverlayColor
 onShowBoxModelHighlighterForNode
+onShowGridAreaHighlight
+onShowGridCellHighlight
+onToggleShowGridAreas
 onToggleGridHighlighter
 onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
-onShowGridAreaHighlight
-onShowGridCellHighlight
 }
 =
 this
@@ -314,6 +322,7 @@ GridDisplaySettings
 (
 {
 highlighterSettings
+onToggleShowGridAreas
 onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
 }

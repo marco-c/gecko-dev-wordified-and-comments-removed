@@ -220,6 +220,7 @@ onShowGridAreaHighlight
 onShowGridCellHighlight
 onShowGridLineNamesHighlight
 onToggleGridHighlighter
+onToggleShowGridAreas
 onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
 }
@@ -265,6 +266,7 @@ onShowGridCellHighlight
 onShowGridLineNamesHighlight
 onToggleGeometryEditor
 onToggleGridHighlighter
+onToggleShowGridAreas
 onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
 }
