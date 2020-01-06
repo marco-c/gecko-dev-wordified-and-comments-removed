@@ -497,6 +497,7 @@ size
 [
 CEReactions
 Pure
+NeedsSubjectPrincipal
 SetterThrows
 ]
 attribute

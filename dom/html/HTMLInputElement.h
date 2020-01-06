@@ -2692,6 +2692,8 @@ GetSrc
 nsAString
 &
 aValue
+nsIPrincipal
+&
 )
 {
 GetURIAttr
@@ -2712,6 +2714,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+&
+aTriggeringPrincipal
 ErrorResult
 &
 aRv
@@ -2724,6 +2729,7 @@ nsGkAtoms
 :
 src
 aValue
+aTriggeringPrincipal
 aRv
 )
 ;
@@ -4682,6 +4688,12 @@ nsTextEditorState
 :
 SelectionProperties
 mSelectionProperties
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mSrcTriggeringPrincipal
 ;
 UniquePtr
 <
