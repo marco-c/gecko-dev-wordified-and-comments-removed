@@ -143,6 +143,8 @@ String
 modeHint
 String
 actionHint
+boolean
+inPrivateBrowsing
 )
 ;
 /

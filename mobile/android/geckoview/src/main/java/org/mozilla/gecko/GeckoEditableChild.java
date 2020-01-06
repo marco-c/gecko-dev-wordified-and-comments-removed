@@ -787,6 +787,7 @@ state
 typeHint
 modeHint
 actionHint
+inPrivateBrowsing
 )
 ;
 }

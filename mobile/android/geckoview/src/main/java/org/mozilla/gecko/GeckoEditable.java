@@ -5309,6 +5309,9 @@ modeHint
 final
 String
 actionHint
+final
+boolean
+inPrivateBrowsing
 )
 {
 if
@@ -5365,6 +5368,16 @@ actionHint
 "
 \
 "
+"
++
+"
+inPrivateBrowsing
+=
+"
++
+inPrivateBrowsing
++
+"
 )
 "
 )
@@ -5411,6 +5424,7 @@ state
 typeHint
 modeHint
 actionHint
+inPrivateBrowsing
 )
 ;
 }
