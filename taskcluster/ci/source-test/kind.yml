@@ -99,6 +99,10 @@ tests
 .
 yml
 -
+mocha
+.
+yml
+-
 mozlint
 .
 yml
