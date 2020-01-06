@@ -3301,12 +3301,6 @@ winWidget
 &
 stylo
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 filter
