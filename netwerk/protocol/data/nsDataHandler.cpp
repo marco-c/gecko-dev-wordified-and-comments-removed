@@ -207,10 +207,11 @@ URI_SYNC_LOAD_IS_OK
 ;
 if
 (
+!
 nsIOService
 :
 :
-IsInheritSecurityContextForDataURIEnabled
+IsDataURIUniqueOpaqueOrigin
 (
 )
 )
