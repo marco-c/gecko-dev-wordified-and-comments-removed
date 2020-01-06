@@ -138,6 +138,14 @@ scBounds
 0
 &
 opacity
+mTransform
+.
+IsIdentity
+(
+)
+?
+nullptr
+:
 &
 mTransform
 wr
