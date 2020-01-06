@@ -37,6 +37,15 @@ surfaceDestroyed
 (
 )
 ;
+void
+screenOriginChanged
+(
+int
+left
+int
+top
+)
+;
 }
 Listener
 getListener
