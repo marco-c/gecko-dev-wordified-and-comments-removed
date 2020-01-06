@@ -108,9 +108,6 @@ domstubs
 idl
 "
 interface
-nsIAtom
-;
-interface
 nsIContent
 ;
 interface
@@ -344,7 +341,7 @@ void
 addDefaultProperty
 (
 in
-nsIAtom
+AString
 aProperty
 in
 AString
@@ -447,7 +444,7 @@ void
 removeDefaultProperty
 (
 in
-nsIAtom
+AString
 aProperty
 in
 AString
@@ -579,7 +576,7 @@ void
 setInlineProperty
 (
 in
-nsIAtom
+AString
 aProperty
 in
 AString
@@ -769,7 +766,7 @@ void
 getInlineProperty
 (
 in
-nsIAtom
+AString
 aProperty
 in
 AString
@@ -792,7 +789,7 @@ AString
 getInlinePropertyWithAttrValue
 (
 in
-nsIAtom
+AString
 aProperty
 in
 AString
@@ -987,7 +984,7 @@ void
 removeInlineProperty
 (
 in
-nsIAtom
+AString
 aProperty
 in
 AString

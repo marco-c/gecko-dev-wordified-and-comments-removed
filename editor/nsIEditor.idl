@@ -109,9 +109,6 @@ interface
 nsIURI
 ;
 interface
-nsIAtom
-;
-interface
 nsIContent
 ;
 interface
