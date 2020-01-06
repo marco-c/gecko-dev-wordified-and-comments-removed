@@ -3158,11 +3158,6 @@ outerpc
 bool
 matchOrInsertSemicolonHelper
 (
-TokenStream
-:
-:
-Modifier
-modifier
 )
 ;
 bool
