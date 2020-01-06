@@ -7649,7 +7649,7 @@ mLocales
 =
 window
 .
-getAppLocalesAsBCP47
+getRegionalPrefsLocales
 (
 )
 ;

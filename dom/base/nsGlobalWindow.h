@@ -4429,7 +4429,7 @@ aRv
 )
 ;
 void
-GetAppLocalesAsBCP47
+GetRegionalPrefsLocales
 (
 nsTArray
 <
