@@ -3099,16 +3099,6 @@ nsIRunnable
 aEvent
 )
 {
-MOZ_ASSERT
-(
-PR_GetCurrentThread
-(
-)
-=
-=
-mThread
-)
-;
 nsCOMPtr
 <
 nsIRunnable
