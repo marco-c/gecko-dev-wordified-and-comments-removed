@@ -7,13 +7,6 @@ jsgcinlines_h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 mozilla
 /
 DebugOnly
@@ -53,6 +46,9 @@ js
 namespace
 gc
 {
+class
+AutoAssertEmptyNursery
+;
 inline
 void
 MakeAccessibleAfterMovingGC
