@@ -79,11 +79,12 @@ ExtensionError
 =
 ExtensionUtils
 ;
-function
+const
 enforceNoTemporaryAddon
-(
+=
 extensionId
-)
+=
+>
 {
 const
 EXCEPTION_MESSAGE
@@ -152,6 +153,7 @@ EXCEPTION_MESSAGE
 ;
 }
 }
+;
 this
 .
 storage

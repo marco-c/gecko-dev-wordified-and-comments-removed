@@ -52,11 +52,12 @@ ExtensionError
 =
 ExtensionUtils
 ;
-function
+const
 checkScope
-(
+=
 scope
-)
+=
+>
 {
 if
 (
@@ -91,13 +92,17 @@ scope
 ;
 }
 }
-function
-getAPI
+;
+const
+getPrivacyAPI
+=
 (
 extension
 name
 callback
 )
+=
+>
 {
 return
 {
@@ -190,6 +195,7 @@ name
 }
 ;
 }
+;
 ExtensionPreferencesManager
 .
 addSetting
@@ -671,7 +677,7 @@ network
 {
 networkPredictionEnabled
 :
-getAPI
+getPrivacyAPI
 (
 extension
 "
@@ -751,7 +757,7 @@ disablePrefetch
 )
 peerConnectionEnabled
 :
-getAPI
+getPrivacyAPI
 (
 extension
 "
@@ -782,7 +788,7 @@ enabled
 )
 webRTCIPHandlingPolicy
 :
-getAPI
+getPrivacyAPI
 (
 extension
 "
@@ -885,7 +891,7 @@ services
 {
 passwordSavingEnabled
 :
-getAPI
+getPrivacyAPI
 (
 extension
 "
@@ -918,7 +924,7 @@ websites
 {
 hyperlinkAuditingEnabled
 :
-getAPI
+getPrivacyAPI
 (
 extension
 "
@@ -947,7 +953,7 @@ send_pings
 )
 referrersEnabled
 :
-getAPI
+getPrivacyAPI
 (
 extension
 "

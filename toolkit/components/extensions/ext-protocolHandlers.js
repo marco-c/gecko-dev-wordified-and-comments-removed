@@ -68,11 +68,12 @@ URL
 ]
 )
 ;
-function
+const
 hasHandlerApp
-(
+=
 handlerConfig
-)
+=
+>
 {
 let
 protoInfo
@@ -153,6 +154,7 @@ return
 false
 ;
 }
+;
 this
 .
 protocolHandlers
