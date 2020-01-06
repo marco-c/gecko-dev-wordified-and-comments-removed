@@ -616,10 +616,6 @@ mShutdown
 =
 true
 ;
-CloseProcess
-(
-)
-;
 }
 else
 {
