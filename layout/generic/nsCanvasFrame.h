@@ -61,7 +61,7 @@ class
 nsPresContext
 ;
 class
-nsRenderingContext
+gfxContext
 ;
 class
 nsCanvasFrame
@@ -174,7 +174,7 @@ virtual
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -184,7 +184,7 @@ virtual
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -665,7 +665,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -740,7 +740,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -848,7 +848,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )

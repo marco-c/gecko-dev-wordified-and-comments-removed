@@ -241,7 +241,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 const
@@ -686,7 +686,7 @@ SizeComputationInput
 nsIFrame
 *
 aFrame
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 WritingMode

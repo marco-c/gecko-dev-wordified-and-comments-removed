@@ -10,6 +10,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -102,13 +109,6 @@ h
 include
 "
 nsPresContext
-.
-h
-"
-#
-include
-"
-nsRenderingContext
 .
 h
 "
@@ -629,7 +629,7 @@ nsTextControlFrame
 :
 CalcIntrinsicSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 WritingMode
@@ -1898,7 +1898,7 @@ nsTextControlFrame
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -1956,7 +1956,7 @@ nsTextControlFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -1987,7 +1987,7 @@ nsTextControlFrame
 :
 ComputeAutoSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 WritingMode

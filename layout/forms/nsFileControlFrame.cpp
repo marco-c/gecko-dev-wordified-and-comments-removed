@@ -2014,7 +2014,7 @@ nsFileControlFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )

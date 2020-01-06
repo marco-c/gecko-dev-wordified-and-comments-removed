@@ -397,7 +397,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -466,7 +466,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -602,7 +602,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -1101,7 +1101,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -1310,7 +1310,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -1509,7 +1509,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )
@@ -2049,7 +2049,7 @@ aBuilder
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -2140,7 +2140,7 @@ aBuilder
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 const
@@ -2218,7 +2218,7 @@ aBuilder
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const

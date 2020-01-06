@@ -36,13 +36,13 @@ struct
 nsRect
 ;
 class
+gfxContext
+;
+class
 nsAttrValue
 ;
 class
 nsPresContext
-;
-class
-nsRenderingContext
 ;
 class
 nsDeviceContext
@@ -111,7 +111,7 @@ NS_ITHEME_IID
 NS_IMETHOD
 DrawWidgetBackground
 (
-nsRenderingContext
+gfxContext
 *
 aContext
 nsIFrame

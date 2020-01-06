@@ -1699,7 +1699,7 @@ aRect
 gfxContext
 *
 aContext
-nsRenderingContext
+gfxContext
 *
 aRC
 nsDisplayListBuilder

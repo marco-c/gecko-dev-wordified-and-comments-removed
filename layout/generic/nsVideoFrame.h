@@ -198,7 +198,7 @@ override
 nsSize
 GetVideoIntrinsicSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -215,7 +215,7 @@ mozilla
 LogicalSize
 ComputeSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla
@@ -261,7 +261,7 @@ override
 nscoord
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -270,7 +270,7 @@ override
 nscoord
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )

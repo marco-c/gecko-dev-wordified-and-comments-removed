@@ -1,14 +1,14 @@
 #
 include
 "
-nsMathMLmfencedFrame
+gfxContext
 .
 h
 "
 #
 include
 "
-nsRenderingContext
+nsMathMLmfencedFrame
 .
 h
 "
@@ -2372,7 +2372,7 @@ nsMathMLmfencedFrame
 :
 GetIntrinsicISizeMetrics
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 ReflowOutput

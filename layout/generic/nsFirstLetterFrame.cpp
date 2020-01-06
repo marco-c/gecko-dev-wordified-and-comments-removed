@@ -483,7 +483,7 @@ nsFirstLetterFrame
 :
 AddInlineMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -511,7 +511,7 @@ nsFirstLetterFrame
 :
 AddInlinePrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -546,7 +546,7 @@ nsFirstLetterFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -568,7 +568,7 @@ nsFirstLetterFrame
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -590,7 +590,7 @@ nsFirstLetterFrame
 :
 ComputeSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 WritingMode

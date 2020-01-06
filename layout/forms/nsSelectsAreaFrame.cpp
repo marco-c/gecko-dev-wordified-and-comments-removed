@@ -564,7 +564,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsRenderingContext
+gfxContext
 *
 aCtx
 )

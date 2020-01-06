@@ -105,6 +105,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 nsArrayUtils
 .
 h
@@ -239,13 +246,6 @@ h
 include
 "
 nsView
-.
-h
-"
-#
-include
-"
-gfxContext
 .
 h
 "

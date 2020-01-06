@@ -209,7 +209,7 @@ nsTextBoxFrame
 void
 PaintTitle
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -299,7 +299,7 @@ LayoutTitle
 nsPresContext
 *
 aPresContext
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -330,7 +330,7 @@ aBoxLayoutState
 void
 CalcDrawRect
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 )
@@ -346,7 +346,7 @@ aContext
 nscoord
 CalculateTitleForWidth
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 nscoord
@@ -356,7 +356,7 @@ aWidth
 void
 GetTextSize
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const
@@ -393,7 +393,7 @@ InsertSeparatorBeforeAccessKey
 void
 DrawText
 (
-nsRenderingContext
+gfxContext
 &
 aRenderingContext
 const

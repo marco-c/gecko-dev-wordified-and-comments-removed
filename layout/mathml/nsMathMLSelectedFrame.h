@@ -86,7 +86,7 @@ mozilla
 LogicalSize
 ComputeSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla

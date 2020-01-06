@@ -185,13 +185,6 @@ h
 #
 include
 "
-gfxContext
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h
@@ -214,6 +207,13 @@ h
 include
 "
 KeyboardLayout
+.
+h
+"
+#
+include
+"
+gfxContext
 .
 h
 "

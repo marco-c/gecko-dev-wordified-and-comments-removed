@@ -225,11 +225,6 @@ nsRegionFwd
 h
 '
 '
-nsRenderingContext
-.
-h
-'
-'
 nsSize
 .
 h

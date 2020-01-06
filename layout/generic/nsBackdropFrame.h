@@ -93,7 +93,7 @@ mozilla
 LogicalSize
 ComputeAutoSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 mozilla

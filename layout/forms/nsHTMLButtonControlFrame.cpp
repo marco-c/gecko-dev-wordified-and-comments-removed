@@ -587,7 +587,7 @@ nsHTMLButtonControlFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -636,7 +636,7 @@ nsHTMLButtonControlFrame
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )

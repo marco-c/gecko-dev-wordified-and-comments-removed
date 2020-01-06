@@ -541,7 +541,7 @@ static
 nscoord
 CalculateColumnPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 const
@@ -742,7 +742,7 @@ nsRubyBaseContainerFrame
 :
 AddInlineMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -1069,7 +1069,7 @@ nsRubyBaseContainerFrame
 :
 AddInlinePrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 nsIFrame
@@ -1325,7 +1325,7 @@ nsRubyBaseContainerFrame
 :
 ComputeSize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 WritingMode

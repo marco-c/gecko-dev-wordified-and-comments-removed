@@ -25,7 +25,7 @@ struct
 nsEmbellishData
 ;
 class
-nsRenderingContext
+gfxContext
 ;
 class
 nsIFrame

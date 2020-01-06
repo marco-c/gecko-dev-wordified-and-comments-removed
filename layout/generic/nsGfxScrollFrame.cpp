@@ -3571,7 +3571,7 @@ nsHTMLScrollFrame
 :
 GetIntrinsicVScrollbarWidth
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -3642,7 +3642,7 @@ nsHTMLScrollFrame
 :
 GetMinISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
@@ -3681,7 +3681,7 @@ nsHTMLScrollFrame
 :
 GetPrefISize
 (
-nsRenderingContext
+gfxContext
 *
 aRenderingContext
 )
