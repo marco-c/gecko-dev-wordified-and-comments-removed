@@ -1462,6 +1462,11 @@ mozilla
 :
 CSSPseudoElementType
 pseudo_type
+mozilla
+:
+:
+StyleRuleInclusion
+rule_inclusion
 const
 mozilla
 :

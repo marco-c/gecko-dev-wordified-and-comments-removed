@@ -1782,6 +1782,8 @@ nsIAtom
 aPseudoTag
 CSSPseudoElementType
 aPseudoType
+StyleRuleInclusion
+aRuleInclusion
 )
 {
 RefPtr
@@ -1794,6 +1796,7 @@ ResolveTransientServoStyle
 (
 aElement
 aPseudoType
+aRuleInclusion
 )
 ;
 return
@@ -1825,6 +1828,8 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
+StyleRuleInclusion
+aRuleInclusion
 )
 {
 PreTraverseSync
@@ -1836,6 +1841,7 @@ ResolveStyleLazily
 (
 aElement
 aPseudoType
+aRuleInclusion
 )
 ;
 }
@@ -4222,6 +4228,8 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
+StyleRuleInclusion
+aRuleInclusion
 )
 {
 mPresContext
@@ -4352,6 +4360,7 @@ Servo_ResolveStyleLazily
 (
 elementForStyleResolution
 pseudoTypeForStyleResolution
+aRuleInclusion
 &
 Snapshots
 (
@@ -4390,6 +4399,7 @@ Servo_ResolveStyleLazily
 (
 elementForStyleResolution
 pseudoTypeForStyleResolution
+aRuleInclusion
 &
 Snapshots
 (

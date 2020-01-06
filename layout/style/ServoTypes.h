@@ -122,6 +122,14 @@ ForCSSRuleChanges
 ;
 enum
 class
+StyleRuleInclusion
+{
+All
+DefaultOnly
+}
+;
+enum
+class
 UpdateAnimationsTasks
 :
 uint8_t
