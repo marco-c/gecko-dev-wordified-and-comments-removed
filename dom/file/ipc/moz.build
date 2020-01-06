@@ -220,11 +220,6 @@ PBlob
 ipdl
 '
 '
-PBlobStream
-.
-ipdl
-'
-'
 PIPCBlobInputStream
 .
 ipdl
