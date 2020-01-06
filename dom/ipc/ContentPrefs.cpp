@@ -1297,11 +1297,6 @@ enabled
 "
 memory
 .
-free_dirty_pages
-"
-"
-memory
-.
 low_commit_space_threshold_mb
 "
 "
