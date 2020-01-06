@@ -2782,8 +2782,8 @@ XP_MACOSX
 struct
 FontInstancePlatformOptions
 {
-uint32_t
-unused
+bool
+font_smoothing
 ;
 bool
 operator
@@ -2798,12 +2798,12 @@ aOther
 const
 {
 return
-unused
+font_smoothing
 =
 =
 aOther
 .
-unused
+font_smoothing
 ;
 }
 }
