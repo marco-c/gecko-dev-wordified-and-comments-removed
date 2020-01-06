@@ -281,5 +281,16 @@ frame
 .
 patch
 "
+"
+hide
+-
+gcda
+-
+profiling
+-
+symbols
+.
+patch
+"
 ]
 }
