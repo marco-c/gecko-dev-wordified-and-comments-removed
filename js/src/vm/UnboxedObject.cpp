@@ -6811,13 +6811,10 @@ PreliminaryObjectArray
 objects
 )
 {
-if
+MOZ_ASSERT
 (
-!
 templateShape
 )
-return
-true
 ;
 if
 (
