@@ -4499,6 +4499,14 @@ callInfo
 )
 ;
 InliningResult
+inlineObject
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineObjectCreate
 (
 CallInfo

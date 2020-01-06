@@ -392,6 +392,11 @@ IntrinsicStringSplitString
 \
 _
 (
+Object
+)
+\
+_
+(
 ObjectCreate
 )
 \
