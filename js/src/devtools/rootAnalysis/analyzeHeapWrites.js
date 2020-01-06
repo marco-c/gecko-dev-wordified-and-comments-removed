@@ -619,6 +619,15 @@ null
 ]
 [
 "
+Gecko_SetCounterStyleToSymbols
+"
+"
+aPtr
+"
+null
+]
+[
+"
 Gecko_CopyCounterStyle
 "
 "

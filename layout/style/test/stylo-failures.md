@@ -472,11 +472,6 @@ html
 2
 ]
 *
-symbols
-(
-)
-function
-and
 string
 value
 on
@@ -491,15 +486,6 @@ bug
 test_value_storage
 .
 html
-symbols
-(
-[
-30
-]
-*
-.
-.
-.
 list
 -
 style
