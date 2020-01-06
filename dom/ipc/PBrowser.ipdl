@@ -4316,8 +4316,6 @@ RealKeyEvent
 (
 WidgetKeyboardEvent
 event
-MaybeNativeKeyBinding
-keyBinding
 )
 ;
 async
