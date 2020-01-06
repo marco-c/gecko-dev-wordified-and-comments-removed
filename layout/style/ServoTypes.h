@@ -117,7 +117,7 @@ TraversalRestyleBehavior
 Normal
 ForNewlyBoundElement
 ForReconstruct
-ForAnimationOnly
+ForThrottledAnimationFlush
 ForCSSRuleChanges
 }
 ;

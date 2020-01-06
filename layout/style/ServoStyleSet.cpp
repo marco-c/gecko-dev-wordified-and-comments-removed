@@ -1481,7 +1481,7 @@ aRestyleBehavior
 )
 {
 bool
-forAnimationOnly
+forThrottledAnimationFlush
 =
 aRestyleBehavior
 =
@@ -1489,7 +1489,7 @@ aRestyleBehavior
 TraversalRestyleBehavior
 :
 :
-ForAnimationOnly
+ForThrottledAnimationFlush
 ;
 AutoRestyleTimelineMarker
 marker
@@ -1500,7 +1500,7 @@ mPresContext
 GetDocShell
 (
 )
-forAnimationOnly
+forThrottledAnimationFlush
 )
 ;
 mozilla
@@ -1619,7 +1619,7 @@ postTraversalRequired
 ;
 if
 (
-forAnimationOnly
+forThrottledAnimationFlush
 )
 {
 return
@@ -3906,7 +3906,7 @@ bool
 ServoStyleSet
 :
 :
-StyleDocumentForAnimationOnly
+StyleDocumentForThrottledAnimationFlush
 (
 )
 {
@@ -3963,7 +3963,7 @@ Normal
 TraversalRestyleBehavior
 :
 :
-ForAnimationOnly
+ForThrottledAnimationFlush
 )
 )
 {

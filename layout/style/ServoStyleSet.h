@@ -769,7 +769,7 @@ aRestyleBehavior
 )
 ;
 bool
-StyleDocumentForAnimationOnly
+StyleDocumentForThrottledAnimationFlush
 (
 )
 ;
