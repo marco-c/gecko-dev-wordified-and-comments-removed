@@ -2336,7 +2336,7 @@ manifests
 /
 win64
 /
-clang
+releng
 .
 manifest
 "
@@ -2470,7 +2470,7 @@ manifests
 /
 win64
 /
-clang
+releng
 .
 manifest
 "

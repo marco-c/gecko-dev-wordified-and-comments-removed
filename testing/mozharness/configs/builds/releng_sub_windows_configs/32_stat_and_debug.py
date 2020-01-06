@@ -97,7 +97,7 @@ manifests
 win32
 /
 \
-clang
+releng
 .
 manifest
 "
