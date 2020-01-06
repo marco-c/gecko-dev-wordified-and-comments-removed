@@ -9385,7 +9385,7 @@ nsAString
 aMessage
 )
 ;
-protected
+private
 :
 typedef
 mozilla
@@ -9708,8 +9708,6 @@ FreeObserverList
 void
 )
 ;
-private
-:
 const
 nsCString
 mPrefRoot
