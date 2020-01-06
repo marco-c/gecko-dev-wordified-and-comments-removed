@@ -89,9 +89,6 @@ ReorderQueue
 .
 h
 "
-class
-ChromiumCDMCallback
-;
 namespace
 mozilla
 {
@@ -144,9 +141,9 @@ mPluginId
 bool
 Init
 (
-ChromiumCDMCallback
+ChromiumCDMProxy
 *
-aCDMCallback
+aProxy
 bool
 aAllowDistinctiveIdentifier
 bool
@@ -760,9 +757,9 @@ GMPContentParent
 *
 mContentParent
 ;
-ChromiumCDMCallback
+ChromiumCDMProxy
 *
-mCDMCallback
+mProxy
 =
 nullptr
 ;
