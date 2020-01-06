@@ -3359,6 +3359,14 @@ GetSingleton
 (
 )
 ;
+if
+(
+!
+XRE_IsGPUProcess
+(
+)
+)
+{
 MediaPrefs
 :
 :
@@ -3366,6 +3374,7 @@ GetSingleton
 (
 )
 ;
+}
 nsCOMPtr
 <
 nsIObserverService
