@@ -4246,6 +4246,12 @@ unsafe
 "
 )
 ;
+IgnoreOpensDuringUnload
+ignoreOpens
+(
+mDocument
+)
+;
 nsIPresShell
 *
 shell
@@ -5171,6 +5177,12 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
+IgnoreOpensDuringUnload
+ignoreOpens
+(
+mDocument
+)
+;
 nsEventStatus
 status
 =
