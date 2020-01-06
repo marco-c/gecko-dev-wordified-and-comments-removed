@@ -441,16 +441,6 @@ return
 NS_OK
 ;
 }
-bool
-IsTransportSeekable
-(
-)
-override
-{
-return
-true
-;
-}
 java
 :
 :

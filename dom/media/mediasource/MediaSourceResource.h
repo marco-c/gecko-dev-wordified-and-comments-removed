@@ -355,16 +355,6 @@ return
 NS_OK
 ;
 }
-bool
-IsTransportSeekable
-(
-)
-override
-{
-return
-true
-;
-}
 void
 SetEnded
 (
