@@ -110,8 +110,6 @@ aOptions
 const
 nsIntSize
 aSize
-bool
-aUsePlaceholder
 nsICanvasRenderingContextInternal
 *
 aContext
@@ -152,8 +150,6 @@ aFormat
 const
 nsIntSize
 aSize
-bool
-aUsePlaceholder
 EncodeCompleteCallback
 *
 aEncodeCallback
@@ -178,8 +174,6 @@ layers
 Image
 *
 aImage
-bool
-aUsePlaceholder
 EncodeCompleteCallback
 *
 aEncodeCallback
@@ -233,8 +227,6 @@ aFormat
 const
 nsIntSize
 aSize
-bool
-aUsePlaceholder
 layers
 :
 :
