@@ -623,7 +623,7 @@ worker_url
 ServoUrl
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Arc
@@ -640,7 +640,7 @@ AtomicBool
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -665,7 +665,7 @@ WorkerNavigator
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -686,7 +686,7 @@ DevtoolScriptControlMsg
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined

@@ -1521,8 +1521,8 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -1538,7 +1538,7 @@ NonHTMLDocument
 derive
 (
 Debug
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -1602,8 +1602,8 @@ empty
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #
@@ -1615,7 +1615,7 @@ StyleSheetInDocument
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Arc
@@ -1820,7 +1820,7 @@ ServoUrl
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 defined
@@ -2189,7 +2189,7 @@ Element
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -2257,8 +2257,8 @@ Element
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -2303,8 +2303,8 @@ HTMLImageElement
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -2349,8 +2349,8 @@ HTMLEmbedElement
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -2424,8 +2424,8 @@ href
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -2470,8 +2470,8 @@ HTMLFormElement
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -2516,8 +2516,8 @@ HTMLScriptElement
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -2577,8 +2577,8 @@ href
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -11162,7 +11162,7 @@ unwrap
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -11760,8 +11760,8 @@ derive
 Clone
 Copy
 Eq
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -20599,8 +20599,8 @@ NonNullJSObjectPtr
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -22923,8 +22923,8 @@ Blur
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -22933,7 +22933,7 @@ FakeRequestAnimationFrameCallback
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 non
@@ -22981,8 +22981,8 @@ run_the_animation_frame_callbacks
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -22999,7 +22999,7 @@ FrameRequestCallback
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -23141,8 +23141,8 @@ Report
 derive
 (
 Default
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #
@@ -23376,8 +23376,8 @@ default
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #

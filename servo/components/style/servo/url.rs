@@ -54,7 +54,7 @@ derive
 Clone
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -62,6 +62,14 @@ pub
 struct
 SpecifiedUrl
 {
+#
+[
+ignore_malloc_size_of
+=
+"
+Arc
+"
+]
 original
 :
 Option

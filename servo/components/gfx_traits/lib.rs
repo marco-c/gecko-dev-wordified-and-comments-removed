@@ -26,7 +26,7 @@ unsafe_code
 ]
 extern
 crate
-heapsize
+malloc_size_of
 ;
 #
 [
@@ -34,7 +34,7 @@ macro_use
 ]
 extern
 crate
-heapsize_derive
+malloc_size_of_derive
 ;
 #
 [
@@ -133,7 +133,7 @@ Debug
 Deserialize
 Eq
 Hash
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -235,7 +235,7 @@ glyph
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 struct
@@ -254,7 +254,7 @@ Debug
 Deserialize
 Eq
 Hash
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )

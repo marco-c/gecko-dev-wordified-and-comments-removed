@@ -595,8 +595,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -1077,8 +1077,8 @@ HTMLFormControlsCollection
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -1573,7 +1573,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -1590,7 +1590,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -4187,8 +4187,8 @@ idx
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -4219,8 +4219,8 @@ DOMString
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -4346,7 +4346,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -4363,7 +4363,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -4378,7 +4378,7 @@ FormDialog
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 #
@@ -4719,7 +4719,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub

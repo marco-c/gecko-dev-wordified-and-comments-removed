@@ -251,7 +251,7 @@ base_url
 ServoUrl
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -786,8 +786,8 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub

@@ -1395,7 +1395,7 @@ LocalName
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Arc
@@ -1436,7 +1436,7 @@ ElementState
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 bitflags
@@ -1464,7 +1464,7 @@ CustomElementReaction
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -1623,7 +1623,7 @@ f
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -1651,8 +1651,8 @@ derive
 Clone
 Copy
 Eq
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -22589,8 +22589,8 @@ changes
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct

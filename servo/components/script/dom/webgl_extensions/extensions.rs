@@ -139,12 +139,6 @@ gl
 GLenum
 ;
 use
-heapsize
-:
-:
-HeapSizeOf
-;
-use
 js
 :
 :
@@ -161,6 +155,12 @@ jsval
 :
 :
 JSVal
+;
+use
+malloc_size_of
+:
+:
+MallocSizeOf
 ;
 use
 ref_filter_map
@@ -276,8 +276,8 @@ FRAGMENT_SHADER_DERIVATIVE_HINT_OES
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -431,8 +431,8 @@ must_root
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -615,7 +615,7 @@ WebGLExtension
 +
 JSTraceable
 +
-HeapSizeOf
+MallocSizeOf
 >
 (
 &
@@ -832,7 +832,7 @@ WebGLExtension
 +
 JSTraceable
 +
-HeapSizeOf
+MallocSizeOf
 {
 let
 name
@@ -909,7 +909,7 @@ WebGLExtension
 +
 JSTraceable
 +
-HeapSizeOf
+MallocSizeOf
 {
 let
 name
@@ -1614,8 +1614,8 @@ derive
 (
 Eq
 Hash
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -1649,7 +1649,7 @@ WebGLError
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 struct
@@ -1657,7 +1657,7 @@ WebGLQueryParameterHandler
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Closures

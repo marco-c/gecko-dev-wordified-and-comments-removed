@@ -1024,8 +1024,8 @@ bitflags
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 flags
@@ -1055,8 +1055,8 @@ must_root
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -1236,7 +1236,7 @@ reflector_
 Reflector
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Channels
@@ -1249,7 +1249,7 @@ webgl_sender
 WebGLMsgSender
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1274,7 +1274,7 @@ share_mode
 WebGLContextShareMode
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1293,7 +1293,7 @@ HTMLCanvasElement
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1383,7 +1383,7 @@ WebGLProgram
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Because
@@ -1406,7 +1406,7 @@ f32
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Because
@@ -1429,7 +1429,7 @@ i32
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Because

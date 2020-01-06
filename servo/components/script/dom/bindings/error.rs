@@ -206,7 +206,7 @@ derive
 (
 Clone
 Debug
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub

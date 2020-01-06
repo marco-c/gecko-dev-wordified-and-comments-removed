@@ -6830,7 +6830,7 @@ _
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub

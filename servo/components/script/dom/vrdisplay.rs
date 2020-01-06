@@ -475,7 +475,7 @@ eventtarget
 EventTarget
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -535,7 +535,7 @@ VRStageParameters
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -553,7 +553,7 @@ WebVRFrameData
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -577,7 +577,7 @@ WebGLRenderingContext
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -595,7 +595,7 @@ u32
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 closures
@@ -629,10 +629,10 @@ VRFrameDataStatus
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
-channels
+closures
 are
 hard
 "
@@ -701,7 +701,7 @@ derive
 Clone
 Copy
 Eq
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]

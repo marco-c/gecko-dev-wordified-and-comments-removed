@@ -741,8 +741,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -771,8 +771,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -992,7 +992,7 @@ Blob
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1010,7 +1010,7 @@ JSVal
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1026,7 +1026,7 @@ Headers
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1045,7 +1045,7 @@ Mime
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1066,7 +1066,7 @@ EncodingRef
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -1091,7 +1091,7 @@ ServoUrl
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -9618,7 +9618,7 @@ derive
 (
 Clone
 Debug
-HeapSizeOf
+MallocSizeOf
 )
 ]
 struct
@@ -10188,8 +10188,8 @@ None
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -10198,7 +10198,7 @@ XHRTimeoutCallback
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Because

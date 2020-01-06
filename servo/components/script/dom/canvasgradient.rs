@@ -185,8 +185,8 @@ CanvasGradientStop
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub

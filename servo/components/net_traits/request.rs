@@ -52,7 +52,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -73,7 +73,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -98,7 +98,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -130,7 +130,7 @@ derive
 Clone
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -151,7 +151,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -174,7 +174,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -196,7 +196,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -216,7 +216,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -239,7 +239,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -259,7 +259,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -278,7 +278,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -296,7 +296,7 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -331,7 +331,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -367,7 +367,7 @@ serialize
 ]
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -411,7 +411,7 @@ serialize
 ]
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -656,7 +656,7 @@ vec
 derive
 (
 Clone
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -665,7 +665,7 @@ Request
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -687,7 +687,7 @@ sandboxed_storage_area_urls
 bool
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined

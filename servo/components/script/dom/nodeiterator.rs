@@ -204,7 +204,7 @@ Node
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -231,7 +231,7 @@ what_to_show
 u32
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Can

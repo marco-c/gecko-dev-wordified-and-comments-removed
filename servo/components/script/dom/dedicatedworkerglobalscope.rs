@@ -594,7 +594,7 @@ workerglobalscope
 WorkerGlobalScope
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -613,7 +613,7 @@ WorkerScriptMsg
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -632,7 +632,7 @@ WorkerScriptMsg
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -651,7 +651,7 @@ TimerEvent
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Trusted
@@ -679,7 +679,7 @@ TrustedWorkerAddress
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Can

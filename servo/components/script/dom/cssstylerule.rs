@@ -230,7 +230,7 @@ cssrule
 CSSRule
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Arc

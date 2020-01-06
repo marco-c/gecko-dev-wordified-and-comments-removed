@@ -367,8 +367,8 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -385,8 +385,8 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -3330,8 +3330,8 @@ Closed
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -3340,7 +3340,7 @@ EventSourceTimeoutCallback
 {
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Because
@@ -3359,7 +3359,7 @@ EventSource
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Because

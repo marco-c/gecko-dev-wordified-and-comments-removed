@@ -101,7 +101,7 @@ derive
 (
 Deserialize
 Serialize
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]
@@ -408,7 +408,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]

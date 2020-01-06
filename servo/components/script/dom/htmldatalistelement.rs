@@ -263,8 +263,8 @@ HTMLCollection
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct

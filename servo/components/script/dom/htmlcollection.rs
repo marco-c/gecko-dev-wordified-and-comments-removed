@@ -218,8 +218,8 @@ derive
 (
 Clone
 Copy
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -341,7 +341,7 @@ Node
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Contains
@@ -794,8 +794,8 @@ local_name
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -849,8 +849,8 @@ AllFilter
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -1157,8 +1157,8 @@ HTMLCollection
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -1375,8 +1375,8 @@ HTMLCollection
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct
@@ -1501,8 +1501,8 @@ HTMLCollection
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct

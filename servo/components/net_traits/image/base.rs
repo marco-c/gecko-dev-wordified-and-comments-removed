@@ -35,7 +35,7 @@ Copy
 Debug
 Deserialize
 Eq
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -55,7 +55,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -77,7 +77,7 @@ format
 PixelFormat
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -93,7 +93,7 @@ bytes
 IpcSharedMemory
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -198,7 +198,7 @@ Clone
 Debug
 Deserialize
 Eq
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )

@@ -567,8 +567,8 @@ must_root
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 #
@@ -613,7 +613,7 @@ reflector_
 Reflector
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -640,7 +640,7 @@ HTMLCanvasElement
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Arc
@@ -695,8 +695,8 @@ must_root
 derive
 (
 Clone
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 struct

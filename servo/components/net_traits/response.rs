@@ -69,7 +69,7 @@ derive
 Clone
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -96,7 +96,7 @@ Clone
 Copy
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -114,7 +114,7 @@ derive
 (
 Clone
 Debug
-HeapSizeOf
+MallocSizeOf
 PartialEq
 )
 ]
@@ -193,7 +193,7 @@ derive
 Clone
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -214,7 +214,7 @@ Clone
 Copy
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -246,7 +246,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -286,7 +286,7 @@ serialize
 ]
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -323,7 +323,7 @@ derive
 (
 Clone
 Debug
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -356,7 +356,7 @@ ServoUrl
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -386,7 +386,7 @@ u8
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Defined
@@ -400,7 +400,7 @@ headers
 Headers
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Mutex

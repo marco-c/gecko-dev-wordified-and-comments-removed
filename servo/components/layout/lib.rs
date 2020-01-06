@@ -42,10 +42,6 @@ extern
 crate
 gfx_traits
 ;
-extern
-crate
-heapsize
-;
 #
 [
 macro_use
@@ -69,6 +65,10 @@ macro_use
 extern
 crate
 log
+;
+extern
+crate
+malloc_size_of
 ;
 extern
 crate

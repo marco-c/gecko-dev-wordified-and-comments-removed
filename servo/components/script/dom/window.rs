@@ -1281,8 +1281,8 @@ derive
 Clone
 Copy
 Debug
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 PartialEq
 )
 ]
@@ -1297,7 +1297,7 @@ Zombie
 derive
 (
 Debug
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -1338,7 +1338,7 @@ globalscope
 GlobalScope
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 trait
@@ -1352,7 +1352,7 @@ script_chan
 MainThreadScriptChan
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1366,7 +1366,7 @@ dom_manipulation_task_source
 DOMManipulationTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1380,7 +1380,7 @@ user_interaction_task_source
 UserInteractionTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1394,7 +1394,7 @@ networking_task_source
 NetworkingTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1408,7 +1408,7 @@ history_traversal_task_source
 HistoryTraversalTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1422,7 +1422,7 @@ file_reading_task_source
 FileReadingTaskSource
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 task
@@ -1442,7 +1442,7 @@ Navigator
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Arc
@@ -1456,7 +1456,7 @@ ImageCache
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1553,7 +1553,7 @@ TimelineMarkerType
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1602,7 +1602,7 @@ dom_static
 GlobalStaticData
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc
@@ -1627,7 +1627,7 @@ Runtime
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1643,7 +1643,7 @@ Msg
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 trait
@@ -1674,7 +1674,7 @@ WindowSizeData
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1714,7 +1714,7 @@ u32
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1751,7 +1751,7 @@ Au
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 defined
@@ -1795,7 +1795,7 @@ TestRunner
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1808,7 +1808,7 @@ webgl_chan
 WebGLChan
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -1874,7 +1874,7 @@ Worklet
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 defined

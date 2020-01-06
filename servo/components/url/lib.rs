@@ -30,7 +30,7 @@ macro_use
 ]
 extern
 crate
-heapsize
+malloc_size_of
 ;
 #
 [
@@ -38,7 +38,7 @@ macro_use
 ]
 extern
 crate
-heapsize_derive
+malloc_size_of_derive
 ;
 #
 [
@@ -150,7 +150,7 @@ derive
 Clone
 Eq
 Hash
-HeapSizeOf
+MallocSizeOf
 Ord
 PartialEq
 PartialOrd
@@ -160,6 +160,14 @@ pub
 struct
 ServoUrl
 (
+#
+[
+ignore_malloc_size_of
+=
+"
+Arc
+"
+]
 Arc
 <
 Url

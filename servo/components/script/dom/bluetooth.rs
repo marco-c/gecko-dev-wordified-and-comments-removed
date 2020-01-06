@@ -736,8 +736,8 @@ BluetoothPermissionDescriptor
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub
@@ -757,8 +757,8 @@ bool
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 pub

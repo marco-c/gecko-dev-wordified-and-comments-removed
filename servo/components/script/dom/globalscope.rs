@@ -584,7 +584,7 @@ u64
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -603,7 +603,7 @@ ScriptToDevtoolsControlMsg
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -619,7 +619,7 @@ mem
 ProfilerChan
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -635,7 +635,7 @@ time
 ProfilerChan
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -648,7 +648,7 @@ script_to_constellation_chan
 ScriptToConstellationChan
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 channels
@@ -679,7 +679,7 @@ origin
 MutableOrigin
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Rc

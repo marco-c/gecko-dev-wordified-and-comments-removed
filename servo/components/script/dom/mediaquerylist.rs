@@ -743,7 +743,7 @@ SetOnchange
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub

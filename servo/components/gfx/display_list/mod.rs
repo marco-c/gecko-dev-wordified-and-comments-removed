@@ -227,7 +227,7 @@ i32
 derive
 (
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -1875,7 +1875,7 @@ Copy
 Debug
 Deserialize
 Eq
-HeapSizeOf
+MallocSizeOf
 Ord
 PartialEq
 PartialOrd
@@ -1900,7 +1900,7 @@ Copy
 Debug
 Deserialize
 Eq
-HeapSizeOf
+MallocSizeOf
 Ord
 PartialEq
 PartialOrd
@@ -1921,7 +1921,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -2575,7 +2575,7 @@ derive
 Clone
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -2600,7 +2600,7 @@ derive
 Clone
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -2688,7 +2688,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -2801,7 +2801,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -2989,7 +2989,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -3020,7 +3020,7 @@ derive
 Clone
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -4061,7 +4061,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4087,7 +4087,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4110,7 +4110,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4124,7 +4124,7 @@ base
 BaseDisplayItem
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Because
@@ -4172,7 +4172,7 @@ derive
 Clone
 Deserialize
 Eq
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -4191,7 +4191,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4209,7 +4209,7 @@ webrender_image
 WebRenderImageInfo
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Because
@@ -4258,7 +4258,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4281,7 +4281,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4321,7 +4321,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4344,7 +4344,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4384,7 +4384,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4407,7 +4407,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4446,7 +4446,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4497,7 +4497,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4523,7 +4523,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4549,7 +4549,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4580,7 +4580,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -4612,7 +4612,7 @@ Clone
 Copy
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -5087,7 +5087,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -5105,7 +5105,7 @@ color
 ColorF
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 enum
@@ -5128,7 +5128,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -5181,7 +5181,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -5215,7 +5215,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -5234,7 +5234,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -5257,7 +5257,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -5280,7 +5280,7 @@ derive
 (
 Clone
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]
@@ -5305,7 +5305,7 @@ Clone
 Copy
 Debug
 Deserialize
-HeapSizeOf
+MallocSizeOf
 PartialEq
 Serialize
 )
@@ -6156,7 +6156,7 @@ derive
 Clone
 Copy
 Deserialize
-HeapSizeOf
+MallocSizeOf
 Serialize
 )
 ]

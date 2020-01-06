@@ -153,7 +153,7 @@ specified
 [
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 ]
 pub
@@ -180,7 +180,7 @@ DevicePixel
 >
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Pure
@@ -193,7 +193,7 @@ root_font_size
 AtomicIsize
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Pure
@@ -206,7 +206,7 @@ used_root_font_size
 AtomicBool
 #
 [
-ignore_heap_size_of
+ignore_malloc_size_of
 =
 "
 Pure
@@ -641,7 +641,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]
@@ -680,7 +680,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]
@@ -1202,7 +1202,7 @@ servo
 "
 derive
 (
-HeapSizeOf
+MallocSizeOf
 )
 )
 ]

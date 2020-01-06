@@ -619,8 +619,8 @@ bitflags
 [
 derive
 (
-HeapSizeOf
 JSTraceable
+MallocSizeOf
 )
 ]
 flags
