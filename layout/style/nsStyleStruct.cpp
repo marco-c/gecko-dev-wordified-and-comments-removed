@@ -15591,7 +15591,7 @@ false
 ;
 #
 endif
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsStyleDisplay
@@ -16759,7 +16759,7 @@ mType
 eStyleContentType_Image
 )
 {
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsStyleContentData
@@ -19405,7 +19405,7 @@ false
 ;
 #
 endif
-NS_ReleaseOnMainThread
+NS_ReleaseOnMainThreadSystemGroup
 (
 "
 nsStyleUIReset
