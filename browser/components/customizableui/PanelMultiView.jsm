@@ -3212,6 +3212,17 @@ aAnchor
 return
 ;
 }
+if
+(
+!
+this
+.
+node
+)
+{
+return
+;
+}
 this
 .
 _currentSubView
