@@ -5530,7 +5530,8 @@ void
 *
 allocatedBase
 ;
-uintptr_t
+void
+*
 *
 jumpTable
 ;

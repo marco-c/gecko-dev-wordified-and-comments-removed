@@ -806,7 +806,7 @@ instanceObj
 const
 ;
 void
-finishTier2Generator
+finishTier2
 (
 UniqueLinkDataTier
 linkData2
