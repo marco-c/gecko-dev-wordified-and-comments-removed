@@ -11,7 +11,7 @@ mozilla
 /
 layers
 /
-CompositableTransactionParent
+CompositorThread
 .
 h
 "
@@ -74,10 +74,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-layers
-;
 namespace
 gfx
 {
@@ -182,6 +178,11 @@ const
 uint32_t
 &
 aPromiseID
+)
+;
+void
+StartVRListenerThread
+(
 )
 ;
 protected
@@ -572,7 +573,7 @@ aEndpoint
 ;
 static
 void
-RegisterVRManagerInVRListenerThread
+RegisterVRManagerInCompositorThread
 (
 VRManagerParent
 *
@@ -584,6 +585,11 @@ DeferredDestroy
 (
 )
 ;
+void
+RefreshDisplays
+(
+)
+;
 RefPtr
 <
 VRManagerParent
@@ -592,9 +598,12 @@ mSelfRef
 ;
 RefPtr
 <
-VRListenerThreadHolder
+layers
+:
+:
+CompositorThreadHolder
 >
-mVRListenerThreadHolder
+mCompositorThreadHolder
 ;
 RefPtr
 <
