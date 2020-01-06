@@ -181,7 +181,10 @@ set
 SERVO_BINDING_FUNC
 (
 Servo_StyleSet_MediumFeaturesChanged
-bool
+mozilla
+:
+:
+OriginFlags
 RawServoStyleSetBorrowed
 set
 bool
