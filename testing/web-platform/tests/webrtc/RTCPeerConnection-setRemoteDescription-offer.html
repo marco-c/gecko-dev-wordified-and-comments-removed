@@ -349,7 +349,6 @@ return
 generateOffer
 (
 {
-pc
 data
 :
 true
@@ -475,12 +474,10 @@ Promise
 all
 (
 [
-pc
-.
-createOffer
+generateOffer
 (
 {
-offerToReceiveAudio
+audio
 :
 true
 }
@@ -488,7 +485,6 @@ true
 generateOffer
 (
 {
-pc
 data
 :
 true
@@ -906,9 +902,7 @@ then
 )
 =
 >
-pc
-.
-createOffer
+generateOffer
 (
 )
 )

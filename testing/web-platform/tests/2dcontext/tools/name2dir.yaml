@@ -467,6 +467,7 @@ the
 canvas
 -
 element
+/
 "
 2d
 .
@@ -489,6 +490,7 @@ the
 canvas
 -
 element
+/
 "
 2d
 .
@@ -511,6 +513,7 @@ the
 canvas
 -
 element
+/
 "
 2d
 .
@@ -533,6 +536,7 @@ the
 canvas
 -
 element
+/
 "
 context
 :
@@ -553,6 +557,7 @@ the
 canvas
 -
 element
+/
 "
 fallback
 :
@@ -573,6 +578,7 @@ the
 canvas
 -
 element
+/
 "
 initial
 :
@@ -593,6 +599,7 @@ the
 canvas
 -
 element
+/
 "
 security
 :
@@ -613,6 +620,7 @@ the
 canvas
 -
 element
+/
 "
 size
 :
@@ -633,6 +641,7 @@ the
 canvas
 -
 element
+/
 "
 toBlob
 :
@@ -653,6 +662,7 @@ the
 canvas
 -
 element
+/
 "
 toDataURL
 :
@@ -673,6 +683,7 @@ the
 canvas
 -
 element
+/
 "
 type
 :
@@ -693,4 +704,5 @@ the
 canvas
 -
 element
+/
 "

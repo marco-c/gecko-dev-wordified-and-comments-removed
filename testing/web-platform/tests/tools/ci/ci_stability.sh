@@ -76,11 +76,6 @@ metadata
 /
 meta
 /
--
--
-install
--
-fonts
 }
 main
 (

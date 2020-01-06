@@ -386,9 +386,9 @@ iframe
 Examples
 :
 /
-feature
+payment
 -
-policy
+request
 /
 payment
 -
@@ -406,9 +406,9 @@ sub
 .
 html
 /
-feature
+payment
 -
-policy
+request
 /
 payment
 -
@@ -480,9 +480,9 @@ iframe
 Example
 :
 /
-feature
+payment
 -
-policy
+request
 /
 payment
 -
@@ -546,9 +546,9 @@ test_feature_availability
 Example
 :
 /
-feature
+payment
 -
-policy
+request
 /
 payment
 -
