@@ -512,6 +512,7 @@ GeckoExtensionRoute
 XblAnonymousByAttribute
 )
 ]
+;
 }
 #
 [
