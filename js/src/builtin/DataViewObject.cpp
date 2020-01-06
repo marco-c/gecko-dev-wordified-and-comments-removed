@@ -5623,7 +5623,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 {

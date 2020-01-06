@@ -7972,7 +7972,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 {
@@ -9091,7 +9091,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 {

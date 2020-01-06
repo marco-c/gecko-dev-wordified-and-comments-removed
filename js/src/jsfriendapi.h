@@ -3211,7 +3211,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSLinearString
@@ -3281,7 +3281,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSLinearString
@@ -3418,7 +3418,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSAtom
@@ -3447,7 +3447,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSAtom
@@ -7483,7 +7483,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -7851,7 +7851,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -7957,7 +7957,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -7979,7 +7979,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -8001,7 +8001,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -8023,7 +8023,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -8045,7 +8045,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -8067,7 +8067,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -8089,7 +8089,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -8111,7 +8111,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -8133,7 +8133,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -8155,7 +8155,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;
@@ -8280,7 +8280,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 ;

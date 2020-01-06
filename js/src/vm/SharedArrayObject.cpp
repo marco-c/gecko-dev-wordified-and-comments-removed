@@ -2220,7 +2220,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 )
 {
