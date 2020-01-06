@@ -96,6 +96,7 @@ cx
 size_t
 nparents
 ;
+MOZ_INIT_OUTSIDE_CTOR
 ParseNode
 *
 parents
