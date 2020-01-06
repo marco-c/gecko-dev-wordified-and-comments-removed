@@ -1275,6 +1275,7 @@ aIntegralImage
 size_t
 aIntegralImageStride
 )
+const
 {
 IntSize
 size

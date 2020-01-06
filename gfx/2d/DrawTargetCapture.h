@@ -33,6 +33,9 @@ class
 DrawingCommand
 ;
 class
+AlphaBoxBlur
+;
+class
 DrawTargetCaptureImpl
 :
 public
@@ -591,6 +594,17 @@ virtual
 void
 PopLayer
 (
+)
+override
+;
+virtual
+void
+Blur
+(
+const
+AlphaBoxBlur
+&
+aBlur
 )
 override
 ;
