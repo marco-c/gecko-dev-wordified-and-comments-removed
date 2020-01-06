@@ -137,13 +137,16 @@ aKey
 )
 {
 return
-NS_PTR_TO_UINT32
+PLDHashNumber
+(
+uintptr_t
 (
 aKey
 )
 >
 >
 2
+)
 ;
 }
 enum
