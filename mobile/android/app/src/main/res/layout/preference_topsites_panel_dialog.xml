@@ -280,7 +280,9 @@ gecko
 defaultValue
 =
 "
-true
+bool
+/
+pref_activitystream_pocket_enabled_default
 "
 /
 >
@@ -347,7 +349,9 @@ gecko
 defaultValue
 =
 "
-true
+bool
+/
+pref_activitystream_recentbookmarks_enabled_default
 "
 /
 >
@@ -414,7 +418,9 @@ gecko
 defaultValue
 =
 "
-true
+bool
+/
+pref_activitystream_visited_enabled_default
 "
 /
 >
