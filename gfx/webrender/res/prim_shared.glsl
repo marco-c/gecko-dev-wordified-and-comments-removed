@@ -480,7 +480,7 @@ vec4
 2
 ]
 (
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 address
@@ -491,7 +491,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 address
@@ -529,7 +529,7 @@ vec4
 2
 ]
 (
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -540,7 +540,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -723,7 +723,7 @@ vec4
 8
 ]
 (
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -734,7 +734,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -745,7 +745,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -756,7 +756,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -767,7 +767,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -778,7 +778,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -789,7 +789,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -800,7 +800,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -838,7 +838,7 @@ vec4
 3
 ]
 (
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -849,7 +849,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -860,7 +860,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -890,7 +890,7 @@ vec4
 4
 ]
 (
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 address
@@ -901,7 +901,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 address
@@ -912,7 +912,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 address
@@ -923,7 +923,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 address
@@ -961,7 +961,7 @@ vec4
 4
 ]
 (
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -972,7 +972,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -983,7 +983,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -994,7 +994,7 @@ ivec2
 0
 )
 )
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -1160,7 +1160,7 @@ transform
 0
 ]
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sLayers
 uv0
@@ -1179,7 +1179,7 @@ transform
 1
 ]
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sLayers
 uv0
@@ -1198,7 +1198,7 @@ transform
 2
 ]
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sLayers
 uv0
@@ -1217,7 +1217,7 @@ transform
 3
 ]
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sLayers
 uv0
@@ -1236,7 +1236,7 @@ inv_transform
 0
 ]
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sLayers
 uv0
@@ -1255,7 +1255,7 @@ inv_transform
 1
 ]
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sLayers
 uv0
@@ -1274,7 +1274,7 @@ inv_transform
 2
 ]
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sLayers
 uv0
@@ -1293,7 +1293,7 @@ inv_transform
 3
 ]
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sLayers
 uv0
@@ -1308,7 +1308,7 @@ ivec2
 vec4
 clip_rect
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sLayers
 uv1
@@ -1375,7 +1375,7 @@ task
 .
 data0
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sRenderTasks
 uv
@@ -1391,7 +1391,7 @@ task
 .
 data1
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sRenderTasks
 uv
@@ -1407,7 +1407,7 @@ task
 .
 data2
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sRenderTasks
 uv

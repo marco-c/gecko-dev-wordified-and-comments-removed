@@ -100,12 +100,11 @@ main
 void
 )
 {
-CacheClipInstance
-cci
+ClipMaskInstance
+cmi
 =
 fetch_clip_item
 (
-gl_InstanceID
 )
 ;
 ClipArea
@@ -113,9 +112,9 @@ area
 =
 fetch_clip_area
 (
-cci
+cmi
 .
-render_task_index
+render_task_address
 )
 ;
 Layer
@@ -123,9 +122,9 @@ layer
 =
 fetch_layer
 (
-cci
+cmi
 .
-layer_index
+layer_address
 )
 ;
 ImageMaskData
@@ -133,7 +132,7 @@ mask
 =
 fetch_mask_data
 (
-cci
+cmi
 .
 clip_data_address
 )
@@ -150,7 +149,7 @@ res
 =
 fetch_image_resource_direct
 (
-cci
+cmi
 .
 resource_address
 )
@@ -163,7 +162,7 @@ write_clip_tile_vertex
 local_rect
 layer
 area
-cci
+cmi
 .
 segment
 )

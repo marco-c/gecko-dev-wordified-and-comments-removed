@@ -99,9 +99,6 @@ mod
 internal_types
 ;
 mod
-mask_cache
-;
-mod
 prim_store
 ;
 mod
@@ -554,6 +551,7 @@ renderer
 CpuProfile
 GpuProfile
 DebugFlags
+OutputImageHandler
 RendererKind
 }
 ;
@@ -563,11 +561,18 @@ renderer
 :
 :
 {
-MAX_VERTEX_TEXTURE_WIDTH
 PROFILER_DBG
 RENDER_TARGET_DBG
 TEXTURE_CACHE_DBG
+ALPHA_PRIM_DBG
 }
+;
+pub
+use
+renderer
+:
+:
+MAX_VERTEX_TEXTURE_WIDTH
 ;
 pub
 use

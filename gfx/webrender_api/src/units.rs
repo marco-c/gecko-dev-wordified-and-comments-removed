@@ -196,6 +196,8 @@ Eq
 PartialEq
 Ord
 PartialOrd
+Deserialize
+Serialize
 )
 ]
 pub

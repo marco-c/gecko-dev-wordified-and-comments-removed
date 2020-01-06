@@ -106,7 +106,7 @@ address
 vec4
 data0
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -121,7 +121,7 @@ ivec2
 vec4
 data1
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
@@ -136,7 +136,7 @@ ivec2
 vec4
 data2
 =
-texelFetchOffset
+TEXEL_FETCH
 (
 sResourceCache
 uv
