@@ -120,8 +120,7 @@ inline
 void
 EmitBaselineTailCallVM
 (
-JitCode
-*
+TrampolinePtr
 MacroAssembler
 &
 uint32_t
@@ -136,8 +135,7 @@ inline
 void
 EmitIonTailCallVM
 (
-JitCode
-*
+TrampolinePtr
 MacroAssembler
 &
 uint32_t
@@ -167,8 +165,7 @@ inline
 void
 EmitBaselineCallVM
 (
-JitCode
-*
+TrampolinePtr
 MacroAssembler
 &
 )

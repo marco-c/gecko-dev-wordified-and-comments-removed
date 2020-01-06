@@ -7031,6 +7031,8 @@ jitRuntime
 getArgumentsRectifierReturnAddr
 (
 )
+.
+value
 ;
 MOZ_ASSERT
 (

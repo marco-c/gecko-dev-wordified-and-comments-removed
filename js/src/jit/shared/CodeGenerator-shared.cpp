@@ -232,7 +232,6 @@ recovers_
 )
 deoptTable_
 (
-nullptr
 )
 #
 ifdef
@@ -7262,8 +7261,7 @@ pushedArgs_
 ;
 #
 endif
-uint8_t
-*
+TrampolinePtr
 wrapper
 =
 gen
@@ -7380,10 +7378,7 @@ masm
 .
 callJit
 (
-ImmPtr
-(
 wrapper
-)
 )
 ;
 markSafepointAt

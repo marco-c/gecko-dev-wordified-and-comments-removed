@@ -5957,6 +5957,9 @@ handleFailureWithHandlerTail
 void
 *
 handler
+Label
+*
+profilerExitTail
 )
 ;
 void

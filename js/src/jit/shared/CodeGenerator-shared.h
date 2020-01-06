@@ -277,8 +277,13 @@ snapshots_
 RecoverWriter
 recovers_
 ;
-JitCode
-*
+mozilla
+:
+:
+Maybe
+<
+TrampolinePtr
+>
 deoptTable_
 ;
 #

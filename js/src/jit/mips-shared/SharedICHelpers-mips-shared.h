@@ -262,8 +262,7 @@ inline
 void
 EmitBaselineTailCallVM
 (
-uint8_t
-*
+TrampolinePtr
 target
 MacroAssembler
 &
@@ -422,7 +421,7 @@ offsetOfReturnAddress
 ;
 masm
 .
-branch
+jump
 (
 target
 )
@@ -432,8 +431,7 @@ inline
 void
 EmitIonTailCallVM
 (
-uint8_t
-*
+TrampolinePtr
 target
 MacroAssembler
 &
@@ -535,7 +533,7 @@ ICTailCallReg
 ;
 masm
 .
-branch
+jump
 (
 target
 )
@@ -600,8 +598,7 @@ inline
 void
 EmitBaselineCallVM
 (
-uint8_t
-*
+TrampolinePtr
 target
 MacroAssembler
 &

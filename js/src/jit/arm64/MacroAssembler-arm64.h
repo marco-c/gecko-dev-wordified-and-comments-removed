@@ -4158,7 +4158,7 @@ code
 void
 jump
 (
-ImmPtr
+TrampolinePtr
 code
 )
 {
@@ -4178,7 +4178,12 @@ b
 addPendingJump
 (
 loc
+ImmPtr
+(
 code
+.
+value
+)
 Relocation
 :
 :
@@ -13800,6 +13805,9 @@ handleFailureWithHandlerTail
 void
 *
 handler
+Label
+*
+profilerExitTail
 )
 ;
 void
@@ -13816,7 +13824,7 @@ profilerExitFrame
 (
 )
 {
-branch
+jump
 (
 GetJitContext
 (

@@ -844,8 +844,7 @@ frameSize
 lr
 )
 ;
-JitCode
-*
+TrampolinePtr
 handler
 =
 gen
@@ -862,7 +861,7 @@ getGenericBailoutHandler
 ;
 masm
 .
-branch
+jump
 (
 handler
 )
@@ -943,9 +942,7 @@ BailoutTableStart
 deoptTable_
 -
 >
-raw
-(
-)
+value
 )
 ;
 uint8_t
@@ -10941,8 +10938,7 @@ uintptr_t
 )
 )
 ;
-JitCode
-*
+TrampolinePtr
 thunk
 =
 gen
@@ -10959,7 +10955,7 @@ getInvalidationThunk
 ;
 masm
 .
-branch
+jump
 (
 thunk
 )

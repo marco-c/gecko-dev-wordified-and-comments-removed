@@ -344,11 +344,8 @@ jitRuntime
 getArgumentsRectifier
 (
 )
--
->
-raw
-(
-)
+.
+value
 ;
 }
 else

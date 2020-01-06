@@ -1324,8 +1324,7 @@ frameSize
 ra
 )
 ;
-JitCode
-*
+TrampolinePtr
 handler
 =
 gen
@@ -1342,7 +1341,7 @@ getGenericBailoutHandler
 ;
 masm
 .
-branch
+jump
 (
 handler
 )
@@ -11353,8 +11352,7 @@ uintptr_t
 )
 )
 ;
-JitCode
-*
+TrampolinePtr
 thunk
 =
 gen
@@ -11371,7 +11369,7 @@ getInvalidationThunk
 ;
 masm
 .
-branch
+jump
 (
 thunk
 )

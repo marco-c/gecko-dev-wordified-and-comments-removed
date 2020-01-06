@@ -4127,7 +4127,7 @@ code
 void
 jump
 (
-ImmPtr
+TrampolinePtr
 code
 )
 {
@@ -4141,7 +4141,12 @@ asMasm
 ;
 movePtr
 (
+ImmPtr
+(
 code
+.
+value
+)
 scratch
 )
 ;
@@ -6500,6 +6505,9 @@ handleFailureWithHandlerTail
 void
 *
 handler
+Label
+*
+profilerExitTail
 )
 ;
 public

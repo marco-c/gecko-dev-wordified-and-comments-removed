@@ -247,8 +247,7 @@ CallVMPhase
 phase
 )
 {
-uint8_t
-*
+TrampolinePtr
 code
 =
 cx
@@ -665,10 +664,7 @@ masm
 .
 call
 (
-ImmPtr
-(
 code
-)
 )
 ;
 uint32_t

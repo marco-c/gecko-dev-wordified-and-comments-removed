@@ -8986,6 +8986,9 @@ handleFailureWithHandlerTail
 void
 *
 handler
+Label
+*
+profilerExitTail
 )
 {
 int
@@ -9521,8 +9524,9 @@ Imm32
 skipProfilingInstrumentation
 )
 ;
-profilerExitFrame
+jump
 (
+profilerExitTail
 )
 ;
 bind
@@ -10383,7 +10387,7 @@ profilerExitFrame
 (
 )
 {
-branch
+jump
 (
 GetJitContext
 (

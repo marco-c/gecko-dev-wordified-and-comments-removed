@@ -1926,8 +1926,7 @@ MOZ_ASSERT
 calledPrepareVMCall_
 )
 ;
-uint8_t
-*
+TrampolinePtr
 code
 =
 cx_
@@ -1992,10 +1991,7 @@ masm
 .
 callJit
 (
-ImmPtr
-(
 code
-)
 )
 ;
 int
