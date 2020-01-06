@@ -258,7 +258,7 @@ content
 -
 category
 -
-border
+outline
 -
 focus
 :
@@ -5474,7 +5474,7 @@ category
 current
 ]
 {
-border
+outline
 :
 var
 (
@@ -5486,7 +5486,7 @@ content
 -
 category
 -
-border
+outline
 -
 focus
 )
@@ -5627,7 +5627,7 @@ width
 category
 -
 icon
-~
++
 .
 category
 -
@@ -5655,7 +5655,7 @@ inline
 -
 end
 :
-35px
+33px
 ;
 }
 .
