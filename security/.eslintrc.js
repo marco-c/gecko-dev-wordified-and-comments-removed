@@ -245,15 +245,6 @@ error
 "
 no
 -
-tabs
-"
-:
-"
-error
-"
-"
-no
--
 template
 -
 curly

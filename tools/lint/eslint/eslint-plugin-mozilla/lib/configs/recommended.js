@@ -1064,6 +1064,15 @@ error
 "
 no
 -
+tabs
+"
+:
+"
+error
+"
+"
+no
+-
 trailing
 -
 spaces
