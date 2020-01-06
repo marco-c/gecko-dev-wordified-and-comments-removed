@@ -408,6 +408,8 @@ Range
 uint8_t
 >
 aBytes
+ImageIntRect
+aDirtyRect
 )
 ;
 void

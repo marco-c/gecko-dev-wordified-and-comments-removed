@@ -1545,6 +1545,8 @@ Range
 uint8_t
 >
 aBytes
+ImageIntRect
+aDirtyRect
 )
 {
 auto
@@ -1583,6 +1585,7 @@ OpUpdateBlobImage
 aDescriptor
 bytes
 aKey
+aDirtyRect
 )
 )
 ;

@@ -1402,6 +1402,17 @@ descriptor
 (
 )
 bytes
+wr
+:
+:
+ToDeviceUintRect
+(
+op
+.
+dirtyRect
+(
+)
+)
 )
 ;
 break
