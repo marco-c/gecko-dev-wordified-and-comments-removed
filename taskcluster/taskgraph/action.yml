@@ -116,6 +116,12 @@ workerType
 "
 gecko
 -
+{
+{
+level
+}
+}
+-
 decision
 "
 provisionerId

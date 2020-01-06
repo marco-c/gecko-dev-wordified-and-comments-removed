@@ -620,8 +620,24 @@ v1
 /
 gecko
 -
+{
+}
+-
 images
 '
+.
+format
+(
+                
+config
+.
+params
+[
+'
+level
+'
+]
+)
             
 '
 worker
