@@ -917,6 +917,12 @@ paneSearchResults
 {
 gSearchResultsPane
 .
+query
+=
+null
+;
+gSearchResultsPane
+.
 searchInput
 .
 value
