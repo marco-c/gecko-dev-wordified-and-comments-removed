@@ -738,6 +738,10 @@ nightly_win
 '
         
 '
+nightly_desktop
+'
+        
+'
 mozilla_beta_tasks
 '
         
