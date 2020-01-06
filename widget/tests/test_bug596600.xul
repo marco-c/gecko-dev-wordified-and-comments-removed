@@ -450,18 +450,9 @@ setAttribute
 src
 "
 "
-data
-:
-text
-/
+file_bug596600
+.
 html
-<
-!
-DOCTYPE
-html
->
-Content
-page
 "
 )
 ;
@@ -508,8 +499,6 @@ gIFrame
 ;
 gIFrame
 .
-contentWindow
-.
 addEventListener
 (
 "
@@ -530,7 +519,7 @@ load
 arguments
 .
 callee
-false
+true
 )
 ;
 test1
@@ -538,7 +527,7 @@ test1
 )
 ;
 }
-false
+true
 )
 ;
 }
