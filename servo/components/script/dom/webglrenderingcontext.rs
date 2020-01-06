@@ -5757,7 +5757,7 @@ are
 all
 stored
 as
-RGBA8
+BGRA8
 internally
 .
 let
@@ -5772,7 +5772,7 @@ format
 PixelFormat
 :
 :
-RGBA8
+BGRA8
 =
 >
 img

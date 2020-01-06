@@ -3121,7 +3121,7 @@ format
 PixelFormat
 :
 :
-RGBA8
+BGRA8
 =
 >
 img

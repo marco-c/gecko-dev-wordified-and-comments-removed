@@ -47,7 +47,7 @@ PixelFormat
 K8
 KA8
 RGB8
-RGBA8
+BGRA8
 }
 #
 [
@@ -451,7 +451,7 @@ format
 PixelFormat
 :
 :
-RGBA8
+BGRA8
 bytes
 :
 IpcSharedMemory

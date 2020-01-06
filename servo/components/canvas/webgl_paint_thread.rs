@@ -1614,7 +1614,7 @@ webrender_traits
 ImageFormat
 :
 :
-RGBA8
+BGRA8
 offset
 :
 0
