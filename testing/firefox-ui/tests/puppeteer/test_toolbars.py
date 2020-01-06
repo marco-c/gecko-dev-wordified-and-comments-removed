@@ -1247,17 +1247,9 @@ urlbar
 send_keys
 (
 '
-a
+.
 '
 )
-        
-results
-=
-self
-.
-autocomplete_results
-.
-results
         
 Wait
 (
@@ -1278,7 +1270,7 @@ autocomplete_results
 is_complete
 )
         
-visible_result_count
+count_visible_results
 =
 len
 (
@@ -1293,27 +1285,28 @@ self
 .
 assertTrue
 (
-visible_result_count
+count_visible_results
 >
 0
 )
         
 self
 .
-assertEqual
+assertLessEqual
 (
-visible_result_count
-                         
-int
-(
-results
+count_visible_results
+                             
+self
+.
+autocomplete_results
+.
+element
 .
 get_property
 (
 '
-itemCount
+maxResults
 '
-)
 )
 )
     
