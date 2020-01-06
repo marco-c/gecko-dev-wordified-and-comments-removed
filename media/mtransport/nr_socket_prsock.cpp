@@ -9130,6 +9130,17 @@ size
 )
 )
 {
+if
+(
+msg_queue_
+.
+size
+(
+)
+>
+5
+)
+{
 r_log
 (
 LOG_GENERIC
@@ -9153,6 +9164,7 @@ size
 )
 )
 ;
+}
 fire_callback
 (
 NR_ASYNC_WAIT_READ
