@@ -228,10 +228,6 @@ mPrintProgressParams
 SetDocTitle
 (
 newTitle
-.
-get
-(
-)
 )
 ;
 }
@@ -270,10 +266,6 @@ mPrintProgressParams
 SetDocURL
 (
 newURL
-.
-get
-(
-)
 )
 ;
 }
