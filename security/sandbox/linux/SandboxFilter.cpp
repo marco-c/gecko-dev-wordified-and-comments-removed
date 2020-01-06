@@ -3231,6 +3231,15 @@ InvalidSyscall
 )
 ;
 }
+case
+__NR_utime
+:
+return
+Error
+(
+EPERM
+)
+;
 #
 endif
 case
