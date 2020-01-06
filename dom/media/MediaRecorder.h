@@ -455,6 +455,16 @@ InitializeDomExceptions
 (
 )
 ;
+void
+ForceInactive
+(
+)
+;
+void
+StopForSessionDestruction
+(
+)
+;
 RefPtr
 <
 DOMMediaStream
