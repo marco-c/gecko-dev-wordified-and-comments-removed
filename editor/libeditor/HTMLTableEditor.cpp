@@ -1789,7 +1789,7 @@ curCell
 NS_ERROR_FAILURE
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -2285,7 +2285,7 @@ rv
 rv
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -2919,7 +2919,7 @@ rv
 rv
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -3005,7 +3005,7 @@ cell
 NS_SUCCESS_EDITOR_ELEMENT_NOT_FOUND
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -3737,7 +3737,7 @@ cell
 NS_SUCCESS_EDITOR_ELEMENT_NOT_FOUND
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -4098,7 +4098,7 @@ startColIndex
 )
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -4782,7 +4782,7 @@ selection
 )
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -7060,7 +7060,7 @@ return
 NS_OK
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -7936,7 +7936,7 @@ sourceCell
 NS_ERROR_NULL_POINTER
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -8167,7 +8167,7 @@ return
 NS_SUCCESS_EDITOR_ELEMENT_NOT_FOUND
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -10336,7 +10336,7 @@ selection
 this
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this

@@ -3289,7 +3289,7 @@ res
 res
 )
 ;
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 phb
 (
 mTextEditor

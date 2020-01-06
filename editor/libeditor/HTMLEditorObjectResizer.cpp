@@ -4094,7 +4094,7 @@ mResizedObjectMarginTop
 0
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this

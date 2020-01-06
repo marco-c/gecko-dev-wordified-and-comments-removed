@@ -1771,7 +1771,7 @@ ETypingAction
 aAction
 )
 {
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -2731,7 +2731,7 @@ rules
 mRules
 )
 ;
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -2983,7 +2983,7 @@ EditAction
 insertIMEText
 ;
 }
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -3133,7 +3133,7 @@ rules
 mRules
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -3493,7 +3493,7 @@ rules
 mRules
 )
 ;
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -3937,7 +3937,7 @@ nsresult
 rv
 ;
 {
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 batch
 (
 this
@@ -3951,7 +3951,7 @@ MOZ_ASSERT
 (
 mIsInEditAction
 "
-AutoPlaceHolderBatch
+AutoPlaceholderBatch
 should
 '
 ve
@@ -6202,7 +6202,7 @@ GetData
 stuffToPaste
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -6327,7 +6327,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this

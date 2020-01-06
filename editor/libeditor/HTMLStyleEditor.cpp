@@ -603,7 +603,7 @@ return
 NS_OK
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this
@@ -5735,7 +5735,7 @@ RemoveAllInlineProperties
 (
 )
 {
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this
@@ -5915,7 +5915,7 @@ return
 NS_OK
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this
@@ -6673,7 +6673,7 @@ return
 NS_OK
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 batchIt
 (
 this

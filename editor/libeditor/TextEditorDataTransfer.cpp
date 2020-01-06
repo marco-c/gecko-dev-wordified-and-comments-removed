@@ -649,7 +649,7 @@ PlatformToDOMLineBreaks
 stuffToPaste
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -764,7 +764,7 @@ PlatformToDOMLineBreaks
 insertText
 )
 ;
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
@@ -1009,7 +1009,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-AutoEditBatch
+AutoPlaceholderBatch
 beginBatching
 (
 this
