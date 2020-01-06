@@ -26925,6 +26925,11 @@ ApplyTo
 (
 aContext
 aPresContext
+-
+>
+AppUnitsPerDevPixel
+(
+)
 aCommonClipCount
 )
 ;
