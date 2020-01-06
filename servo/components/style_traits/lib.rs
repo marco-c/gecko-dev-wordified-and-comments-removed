@@ -171,6 +171,10 @@ extern
 crate
 webrender_api
 ;
+extern
+crate
+servo_arc
+;
 #
 [
 cfg
