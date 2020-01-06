@@ -5041,7 +5041,7 @@ GetTextWidthHeight
 }
 "
 (
-STUB_BLURB_FOOTER
+STUB_BLURB_FOOTER2
 )
 "
 FontFooter
@@ -5086,7 +5086,7 @@ R2u
 \
 "
 (
-STUB_BLURB_FOOTER
+STUB_BLURB_FOOTER2
 )
 "
 !
@@ -5124,7 +5124,7 @@ R2u
 \
 "
 (
-STUB_BLURB_FOOTER
+STUB_BLURB_FOOTER2
 )
 "
 !
