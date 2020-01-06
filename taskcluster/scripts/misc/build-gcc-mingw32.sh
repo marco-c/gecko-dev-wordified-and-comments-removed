@@ -115,7 +115,7 @@ mingw32
 "
 mingw_version
 =
-cf626ef8965e062e29d4665590aa2920dcd54e75
+aa6ab47929a9cac6897f38e630ce0bb88458e288
 #
 GPG
 keys
