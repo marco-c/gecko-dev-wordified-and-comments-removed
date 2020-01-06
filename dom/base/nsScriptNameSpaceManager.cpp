@@ -1334,7 +1334,7 @@ return
 NS_OK
 ;
 }
-nsXPIDLCString
+nsCString
 contractId
 ;
 rv
@@ -1396,6 +1396,10 @@ registrar
 ContractIDToCID
 (
 contractId
+.
+get
+(
+)
 &
 cidPtr
 )

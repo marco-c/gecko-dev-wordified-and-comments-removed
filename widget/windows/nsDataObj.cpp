@@ -5510,7 +5510,10 @@ nsPrimitiveHelpers
 :
 CreateDataFromPrimitive
 (
+nsDependentCString
+(
 flavorStr
+)
 genericDataWrapper
 &
 data

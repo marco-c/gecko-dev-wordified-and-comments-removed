@@ -4955,7 +4955,7 @@ tr
 "
 )
 ;
-nsXPIDLCString
+nsCString
 loc
 ;
 aIndex

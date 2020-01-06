@@ -2346,7 +2346,7 @@ currentFlavor
 )
 continue
 ;
-nsXPIDLCString
+nsCString
 flavorStr
 ;
 currentFlavor
@@ -2379,6 +2379,10 @@ currentTransferable
 GetTransferData
 (
 flavorStr
+.
+get
+(
+)
 getter_AddRefs
 (
 dataSupports
@@ -2401,6 +2405,10 @@ aTransferable
 SetTransferData
 (
 flavorStr
+.
+get
+(
+)
 dataSupports
 dataSize
 )
@@ -2471,7 +2479,7 @@ currentFlavor
 )
 continue
 ;
-nsXPIDLCString
+nsCString
 flavorStr
 ;
 currentFlavor
@@ -2716,6 +2724,10 @@ aTransferable
 SetTransferData
 (
 flavorStr
+.
+get
+(
+)
 file
 dataLength
 )
@@ -2848,6 +2860,10 @@ aTransferable
 SetTransferData
 (
 flavorStr
+.
+get
+(
+)
 genericDataWrapper
 sizeof
 (
@@ -3266,6 +3282,10 @@ aTransferable
 SetTransferData
 (
 flavorStr
+.
+get
+(
+)
 genericDataWrapper
 dataLength
 )

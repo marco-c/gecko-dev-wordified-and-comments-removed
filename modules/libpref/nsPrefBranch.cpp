@@ -4260,7 +4260,7 @@ aReturn
 nsresult
 rv
 ;
-nsXPIDLCString
+nsCString
 propertyFileURL
 ;
 rv
@@ -4323,6 +4323,10 @@ bundleService
 CreateBundle
 (
 propertyFileURL
+.
+get
+(
+)
 getter_AddRefs
 (
 bundle

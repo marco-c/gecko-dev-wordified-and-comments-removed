@@ -1207,7 +1207,7 @@ currentFlavor
 )
 continue
 ;
-nsXPIDLCString
+nsCString
 flavorStr
 ;
 currentFlavor
@@ -1505,6 +1505,10 @@ aTransferable
 SetTransferData
 (
 flavorStr
+.
+get
+(
+)
 genericDataWrapper
 dataLength
 )
@@ -1643,6 +1647,10 @@ aTransferable
 SetTransferData
 (
 flavorStr
+.
+get
+(
+)
 genericDataWrapper
 dataLength
 )
@@ -2051,6 +2059,10 @@ aTransferable
 SetTransferData
 (
 flavorStr
+.
+get
+(
+)
 byteStream
 sizeof
 (
@@ -2328,7 +2340,7 @@ currentFlavor
 )
 continue
 ;
-nsXPIDLCString
+nsCString
 flavorStr
 ;
 currentFlavor
@@ -2361,6 +2373,10 @@ mTransferable
 GetTransferData
 (
 flavorStr
+.
+get
+(
+)
 getter_AddRefs
 (
 dataSupports
@@ -2383,6 +2399,10 @@ aTransferable
 SetTransferData
 (
 flavorStr
+.
+get
+(
+)
 dataSupports
 dataSize
 )
@@ -3076,7 +3096,7 @@ currentFlavor
 )
 continue
 ;
-nsXPIDLCString
+nsCString
 flavorStr
 ;
 currentFlavor
@@ -3167,6 +3187,10 @@ aTransferable
 GetTransferData
 (
 flavorStr
+.
+get
+(
+)
 getter_AddRefs
 (
 genericDataWrapper
@@ -3303,6 +3327,10 @@ aTransferable
 GetTransferData
 (
 flavorStr
+.
+get
+(
+)
 getter_AddRefs
 (
 genericDataWrapper
@@ -3430,6 +3458,10 @@ aTransferable
 GetTransferData
 (
 flavorStr
+.
+get
+(
+)
 getter_AddRefs
 (
 transferSupports
@@ -3719,6 +3751,10 @@ aTransferable
 GetTransferData
 (
 flavorStr
+.
+get
+(
+)
 getter_AddRefs
 (
 genericFile
@@ -3985,6 +4021,10 @@ aTransferable
 GetTransferData
 (
 flavorStr
+.
+get
+(
+)
 getter_AddRefs
 (
 genericURL

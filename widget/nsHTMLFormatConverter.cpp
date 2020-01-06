@@ -567,10 +567,6 @@ nsPrimitiveHelpers
 CreatePrimitiveForData
 (
 toFlavor
-.
-get
-(
-)
 dataStr
 .
 get
@@ -629,10 +625,6 @@ nsPrimitiveHelpers
 CreatePrimitiveForData
 (
 toFlavor
-.
-get
-(
-)
 outStr
 .
 get
@@ -698,10 +690,6 @@ nsPrimitiveHelpers
 CreatePrimitiveForData
 (
 toFlavor
-.
-get
-(
-)
 outStr
 .
 get

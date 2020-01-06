@@ -12119,7 +12119,7 @@ nsRegisterType
 )
 ;
 }
-nsXPIDLCString
+nsCString
 value
 ;
 nsresult
@@ -12159,6 +12159,10 @@ rv
 strcmp
 (
 value
+.
+get
+(
+)
 contractId
 )
 =

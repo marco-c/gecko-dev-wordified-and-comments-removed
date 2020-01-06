@@ -3540,7 +3540,7 @@ if
 if_info
 )
 {
-nsXPIDLCString
+nsCString
 name
 ;
 if_info
@@ -3564,6 +3564,10 @@ strcmp
 CutPrefix
 (
 name
+.
+get
+(
+)
 )
 mData
 -
@@ -4300,7 +4304,7 @@ i
 +
 )
 {
-nsXPIDLCString
+nsCString
 name
 ;
 rv
@@ -4338,6 +4342,10 @@ JS_DefineProperty
 cx
 obj
 name
+.
+get
+(
+)
 v
 JSPROP_ENUMERATE
 |
