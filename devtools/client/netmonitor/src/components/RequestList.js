@@ -118,6 +118,9 @@ connector
 )
 StatusBar
 (
+{
+connector
+}
 )
 )
 )
@@ -136,6 +139,13 @@ RequestList
 propTypes
 =
 {
+connector
+:
+PropTypes
+.
+object
+.
+isRequired
 isEmpty
 :
 PropTypes

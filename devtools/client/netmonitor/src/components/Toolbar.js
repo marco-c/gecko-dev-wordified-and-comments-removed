@@ -1145,7 +1145,7 @@ checkbox
 checked
 :
 persistentLogsEnabled
-onClick
+onChange
 :
 togglePersistentLogs
 }
@@ -1195,7 +1195,7 @@ checkbox
 checked
 :
 browserCacheDisabled
-onClick
+onChange
 :
 toggleBrowserCache
 }
