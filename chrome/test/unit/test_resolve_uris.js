@@ -394,7 +394,6 @@ foo
 break
 ;
 }
-;
 try
 {
 sourceURI

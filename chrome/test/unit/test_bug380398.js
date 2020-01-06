@@ -267,9 +267,6 @@ xul
 ;
 try
 {
-var
-result
-=
 chromeReg
 .
 convertChromeURL

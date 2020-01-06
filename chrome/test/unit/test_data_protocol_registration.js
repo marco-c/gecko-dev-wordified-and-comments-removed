@@ -49,6 +49,9 @@ Ci
 nsIUUIDGenerator
 )
 ;
+let
+newAppInfo
+=
 Components
 .
 utils
@@ -68,8 +71,11 @@ AppInfo
 .
 jsm
 "
-this
+{
+}
 )
+.
+newAppInfo
 ;
 let
 XULAppInfo
@@ -132,8 +138,6 @@ contractID
 :
 XULAPPINFO_CONTRACTID
 createInstance
-:
-function
 (
 outer
 iid

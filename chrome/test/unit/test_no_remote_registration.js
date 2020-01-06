@@ -98,8 +98,6 @@ allowPort
 >
 false
 newURI
-:
-function
 (
 aSpec
 aCharset
@@ -164,8 +162,6 @@ uri
 ;
 }
 newChannel2
-:
-function
 (
 )
 {
@@ -175,8 +171,6 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 }
 newChannel
-:
-function
 (
 )
 {
@@ -504,8 +498,6 @@ info
 1
 "
 createInstance
-:
-function
 (
 outer
 iid
@@ -626,8 +618,6 @@ i
 .
 scheme
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -1186,7 +1176,6 @@ scheme
 break
 ;
 }
-;
 try
 {
 let
