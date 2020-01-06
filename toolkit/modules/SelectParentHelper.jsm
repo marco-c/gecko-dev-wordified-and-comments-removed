@@ -95,6 +95,11 @@ currentMenulist
 null
 ;
 var
+selectRect
+=
+null
+;
+var
 currentZoom
 =
 1
@@ -103,9 +108,6 @@ var
 closedWithEnter
 =
 false
-;
-var
-selectRect
 ;
 var
 customStylingEnabled
@@ -1087,6 +1089,10 @@ currentBrowser
 null
 ;
 currentMenulist
+=
+null
+;
+selectRect
 =
 null
 ;
