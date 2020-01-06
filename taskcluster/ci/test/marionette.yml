@@ -1,3 +1,10 @@
+job
+-
+defaults
+:
+suite
+:
+marionette
 marionette
 :
 description
@@ -7,9 +14,6 @@ Marionette
 unittest
 run
 "
-suite
-:
-marionette
 treeherder
 -
 symbol
@@ -217,9 +221,6 @@ headless
 unittest
 run
 "
-suite
-:
-marionette
 treeherder
 -
 symbol
@@ -240,9 +241,6 @@ instance
 size
 :
 default
-chunks
-:
-1
 mozharness
 :
 script

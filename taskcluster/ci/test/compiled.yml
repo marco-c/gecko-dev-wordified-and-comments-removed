@@ -1,3 +1,10 @@
+job
+-
+defaults
+:
+e10s
+:
+false
 cppunit
 :
 description
@@ -10,9 +17,6 @@ Tests
 suite
 :
 cppunittest
-e10s
-:
-false
 treeherder
 -
 symbol
@@ -220,9 +224,6 @@ run
 suite
 :
 gtest
-e10s
-:
-false
 treeherder
 -
 symbol
@@ -442,9 +443,6 @@ jittest
 jittest
 -
 chunked
-e10s
-:
-false
 treeherder
 -
 symbol
