@@ -6,10 +6,6 @@ allow
 non_snake_case
 )
 ]
-extern
-crate
-backtrace
-;
 #
 [
 macro_use
