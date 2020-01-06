@@ -114,7 +114,6 @@ certificateUsageSSLClient
 certificateUsageSSLServer
 certificateUsageEmailSigner
 certificateUsageEmailRecipient
-certificateUsageObjectSigner
 ]
 ;
 const
