@@ -367,6 +367,11 @@ SelectionState
 cpp
 '
 '
+SetTextTransaction
+.
+cpp
+'
+'
 SplitNodeTransaction
 .
 cpp
