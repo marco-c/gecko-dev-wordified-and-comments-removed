@@ -30527,16 +30527,6 @@ VARIANT_LENGTH
 STR_WITH_LEN
 (
 "
-mozmm
-"
-)
-eCSSUnit_PhysicalMillimeter
-VARIANT_LENGTH
-}
-{
-STR_WITH_LEN
-(
-"
 vw
 "
 )
