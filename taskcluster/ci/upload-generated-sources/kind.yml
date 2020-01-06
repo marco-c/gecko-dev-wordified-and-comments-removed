@@ -199,6 +199,17 @@ py
 {
 ARTIFACT_URL
 }
+optimization
+:
+only
+-
+if
+-
+dependencies
+-
+run
+:
+null
 scopes
 :
 -
