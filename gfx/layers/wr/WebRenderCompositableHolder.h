@@ -352,14 +352,6 @@ MaybeIntSize
 &
 aScaleToSize
 const
-MaybeLayerRect
-&
-aClipRect
-const
-MaybeImageMask
-&
-aMask
-const
 WrImageRendering
 &
 aFilter
@@ -561,12 +553,6 @@ gfx
 :
 MaybeIntSize
 mScaleToSize
-;
-MaybeLayerRect
-mClipRect
-;
-MaybeImageMask
-mMask
 ;
 WrImageRendering
 mFilter

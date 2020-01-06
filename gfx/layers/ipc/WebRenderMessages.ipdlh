@@ -372,12 +372,6 @@ scTransform
 MaybeIntSize
 scaleToSize
 ;
-MaybeLayerRect
-clipRect
-;
-MaybeImageMask
-mask
-;
 WrImageRendering
 filter
 ;
