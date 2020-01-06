@@ -2580,7 +2580,7 @@ else
 {
 MOZ_ASSERT
 (
-obj
+nativeObj
 -
 >
 isIndexed
