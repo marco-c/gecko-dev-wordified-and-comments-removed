@@ -882,10 +882,6 @@ pub
 background_color
 :
 cef_color_t
-pub
-rendering_threads
-:
-c_int
 }
 pub
 type
