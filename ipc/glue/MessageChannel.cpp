@@ -8682,13 +8682,7 @@ MessageTask
 :
 GetAffectedSchedulerGroups
 (
-nsTArray
-<
-RefPtr
-<
-SchedulerGroup
->
->
+SchedulerGroupSet
 &
 aGroups
 )

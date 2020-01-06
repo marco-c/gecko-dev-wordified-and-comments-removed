@@ -457,6 +457,11 @@ nsEnvironment
 cpp
 '
 '
+nsILabelableRunnable
+.
+cpp
+'
+'
 nsMemoryPressure
 .
 cpp

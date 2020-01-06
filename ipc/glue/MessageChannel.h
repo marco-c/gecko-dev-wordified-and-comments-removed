@@ -1748,13 +1748,7 @@ mMessage
 bool
 GetAffectedSchedulerGroups
 (
-nsTArray
-<
-RefPtr
-<
-SchedulerGroup
->
->
+SchedulerGroupSet
 &
 aGroups
 )
