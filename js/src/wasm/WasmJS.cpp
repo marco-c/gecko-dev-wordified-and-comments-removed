@@ -2460,6 +2460,7 @@ found
 ;
 if
 (
+!
 HasProperty
 (
 cx
@@ -2468,8 +2469,12 @@ maximumId
 &
 found
 )
-&
-&
+)
+return
+false
+;
+if
+(
 found
 )
 {
