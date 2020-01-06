@@ -468,16 +468,8 @@ aClass
 NS_CLASSINFO_HELPER_BEGIN
 (
 aClass
-\
-MOZ_PASTE_PREFIX_AND_ARG_COUNT
+MOZ_ARG_COUNT
 (
-/
-*
-No
-prefix
-*
-/
-\
 __VA_ARGS__
 )
 )
