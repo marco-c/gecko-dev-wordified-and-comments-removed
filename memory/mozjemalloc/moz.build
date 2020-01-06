@@ -163,6 +163,14 @@ unused
 -
 function
 '
+'
+-
+Wno
+-
+error
+=
+uninitialized
+'
 ]
 if
 CONFIG
