@@ -88,9 +88,6 @@ Command
 Message
 "
 "
-MessageOrigin
-"
-"
 Response
 "
 ]
@@ -200,8 +197,9 @@ data
 }
 }
 }
-const
-MessageOrigin
+Message
+.
+Origin
 =
 {
 Client
@@ -270,7 +268,9 @@ this
 .
 origin
 =
-MessageOrigin
+Message
+.
+Origin
 .
 Client
 ;
@@ -619,7 +619,9 @@ this
 .
 origin
 =
-MessageOrigin
+Message
+.
+Origin
 .
 Server
 ;
