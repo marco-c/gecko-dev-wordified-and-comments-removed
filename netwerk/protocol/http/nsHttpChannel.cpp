@@ -10610,6 +10610,7 @@ httpStatus
 mRequestHead
 mResponseHead
 lci
+mIsTrackingResource
 )
 ;
 }

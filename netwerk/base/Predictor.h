@@ -224,6 +224,8 @@ reqponseHead
 nsILoadContextInfo
 *
 lci
+bool
+isTracking
 )
 ;
 private
@@ -445,6 +447,8 @@ const
 nsCString
 &
 method
+bool
+isTracking
 Predictor
 *
 predictor
@@ -461,6 +465,10 @@ httpStatus
 mMethod
 (
 method
+)
+mIsTracking
+(
+isTracking
 )
 mPredictor
 (
@@ -488,6 +496,9 @@ mHttpStatus
 ;
 nsCString
 mMethod
+;
+bool
+mIsTracking
 ;
 RefPtr
 <
@@ -1046,6 +1057,8 @@ const
 OriginAttributes
 &
 originAttributes
+bool
+isTracking
 )
 ;
 void
