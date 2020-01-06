@@ -4189,7 +4189,7 @@ eventType
 =
 =
 "
-popupshowing
+popupshown
 "
 &
 &
