@@ -12713,6 +12713,11 @@ value
 ListStyleType
 =
 >
+Box
+:
+:
+new
+(
 longhands
 :
 :
@@ -12725,6 +12730,7 @@ SpecifiedValue
 from_gecko_keyword
 (
 value
+)
 )
 MozMathVariant
 =
