@@ -2751,8 +2751,6 @@ YieldHandling
 yieldHandling
 ParseNodeKind
 kind
-JSOp
-op
 uint32_t
 begin
 )

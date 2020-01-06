@@ -38421,8 +38421,6 @@ YieldHandling
 yieldHandling
 ParseNodeKind
 kind
-JSOp
-op
 uint32_t
 begin
 )
@@ -38452,7 +38450,6 @@ handler
 newUnary
 (
 kind
-op
 begin
 kid
 )
@@ -38548,7 +38545,6 @@ unaryOpExpr
 (
 yieldHandling
 PNK_VOID
-JSOP_VOID
 begin
 )
 ;
@@ -38560,7 +38556,6 @@ unaryOpExpr
 (
 yieldHandling
 PNK_NOT
-JSOP_NOT
 begin
 )
 ;
@@ -38572,7 +38567,6 @@ unaryOpExpr
 (
 yieldHandling
 PNK_BITNOT
-JSOP_BITNOT
 begin
 )
 ;
@@ -38584,7 +38578,6 @@ unaryOpExpr
 (
 yieldHandling
 PNK_POS
-JSOP_POS
 begin
 )
 ;
@@ -38596,7 +38589,6 @@ unaryOpExpr
 (
 yieldHandling
 PNK_NEG
-JSOP_NEG
 begin
 )
 ;
