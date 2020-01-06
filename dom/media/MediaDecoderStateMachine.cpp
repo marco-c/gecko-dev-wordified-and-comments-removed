@@ -195,6 +195,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h

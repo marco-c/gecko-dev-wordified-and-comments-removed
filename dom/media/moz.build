@@ -1098,6 +1098,11 @@ ChannelMediaResource
 cpp
 '
 '
+CloneableWithRangeMediaResource
+.
+cpp
+'
+'
 CubebUtils
 .
 cpp
