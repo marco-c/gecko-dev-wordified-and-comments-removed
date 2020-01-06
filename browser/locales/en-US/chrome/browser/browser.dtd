@@ -2802,6 +2802,17 @@ Toolbar
 <
 !
 ENTITY
+searchBookmarks
+.
+label
+"
+Search
+Bookmarks
+"
+>
+<
+!
+ENTITY
 containersMenu
 .
 label
