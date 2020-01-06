@@ -199,11 +199,6 @@ nsPrefBranch
 cpp
 '
 '
-nsPrefsFactory
-.
-cpp
-'
-'
 prefapi
 .
 cpp
