@@ -5,6 +5,16 @@ servo
 .
 cargo
 /
+*
+!
+/
+.
+cargo
+/
+config
+.
+*
+/
 .
 servobuild
 /

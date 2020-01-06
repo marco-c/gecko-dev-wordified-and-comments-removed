@@ -12,6 +12,10 @@ linker
 "
 .
 /
+ports
+/
+servo
+/
 fake
 -
 ld
@@ -45,6 +49,10 @@ linker
 "
 .
 /
+ports
+/
+servo
+/
 fake
 -
 ld
@@ -77,6 +85,10 @@ linker
 =
 "
 .
+/
+ports
+/
+servo
 /
 fake
 -
@@ -179,6 +191,10 @@ linker
 =
 "
 .
+/
+ports
+/
+servo
 /
 fake
 -

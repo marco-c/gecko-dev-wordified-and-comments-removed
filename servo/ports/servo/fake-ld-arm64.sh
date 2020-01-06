@@ -75,6 +75,12 @@ set
 o
 pipefail
 source
+.
+/
+ports
+/
+servo
+/
 fake
 -
 ld
