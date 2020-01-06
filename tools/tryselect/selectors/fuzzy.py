@@ -1429,7 +1429,7 @@ False
 preset
 =
 None
-list_presets
+mod_presets
 =
 False
 push
@@ -1450,13 +1450,15 @@ kwargs
 :
     
 if
-list_presets
+mod_presets
 :
         
 return
+getattr
+(
 pset
-.
-list_presets
+mod_presets
+)
 (
 section
 =
