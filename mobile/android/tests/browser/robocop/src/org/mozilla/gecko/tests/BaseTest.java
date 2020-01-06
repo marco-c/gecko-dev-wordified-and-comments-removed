@@ -313,6 +313,7 @@ SuppressWarnings
 unchecked
 "
 )
+Deprecated
 abstract
 class
 BaseTest
