@@ -337,11 +337,6 @@ string
 js
 '
 '
-styleeditor
-.
-js
-'
-'
 styles
 .
 js
@@ -663,7 +658,7 @@ with
 Files
 (
 '
-styleeditor
+stylesheets
 .
 js
 '
