@@ -437,6 +437,8 @@ aShell
 nsIContent
 *
 aLimiter
+bool
+aAccessibleCaretEnabled
 )
 ;
 nsresult
@@ -1605,6 +1607,9 @@ mMouseDoubleDownState
 ;
 bool
 mDesiredPosSet
+;
+bool
+mAccessibleCaretEnabled
 ;
 int8_t
 mCaretMovementStyle

@@ -4463,8 +4463,9 @@ UpdatePreferenceStyles
 (
 )
 ;
-if
-(
+bool
+accessibleCaretEnabled
+=
 AccessibleCaretEnabled
 (
 mDocument
@@ -4474,6 +4475,10 @@ GetDocShell
 (
 )
 )
+;
+if
+(
+accessibleCaretEnabled
 )
 {
 mAccessibleCaretEventHub
@@ -4507,6 +4512,7 @@ Init
 (
 this
 nullptr
+accessibleCaretEnabled
 )
 ;
 #
