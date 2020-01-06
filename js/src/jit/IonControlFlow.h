@@ -2892,9 +2892,6 @@ JitAllocPolicy
 >
 labels_
 ;
-BytecodeAnalysis
-analysis_
-;
 bool
 aborted_
 ;
@@ -2911,12 +2908,6 @@ alloc
 JSScript
 *
 script
-)
-;
-MOZ_MUST_USE
-bool
-init
-(
 )
 ;
 MOZ_MUST_USE
