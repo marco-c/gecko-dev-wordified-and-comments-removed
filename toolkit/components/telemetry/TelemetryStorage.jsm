@@ -2325,6 +2325,13 @@ loadArchivedPing
 id
 )
 {
+let
+idAsObject
+=
+{
+id
+}
+;
 TelemetryStopwatch
 .
 start
@@ -2332,6 +2339,7 @@ start
 "
 TELEMETRY_ARCHIVE_LOAD_MS
 "
+idAsObject
 )
 ;
 const
@@ -2359,6 +2367,7 @@ cancel
 "
 TELEMETRY_ARCHIVE_LOAD_MS
 "
+idAsObject
 )
 ;
 this
@@ -2507,6 +2516,7 @@ cancel
 "
 TELEMETRY_ARCHIVE_LOAD_MS
 "
+idAsObject
 )
 ;
 await
@@ -2606,6 +2616,7 @@ cancel
 "
 TELEMETRY_ARCHIVE_LOAD_MS
 "
+idAsObject
 )
 ;
 throw
@@ -2657,6 +2668,7 @@ finish
 "
 TELEMETRY_ARCHIVE_LOAD_MS
 "
+idAsObject
 )
 ;
 return
