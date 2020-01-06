@@ -4328,8 +4328,9 @@ if
 mProvider
 )
 {
-MOZ_RELEASE_ASSERT
+if
 (
+!
 mProvider
 -
 >
@@ -4337,7 +4338,11 @@ IsValid
 (
 )
 )
+{
+return
+false
 ;
+}
 mTextureSource
 =
 new
