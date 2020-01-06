@@ -1145,6 +1145,8 @@ j
 cores
 )
 endif
+ifdef
+MOZ_AUTOMATION
 ifeq
 (
 4
@@ -1173,6 +1175,7 @@ output
 sync
 =
 line
+endif
 endif
 ifdef
 MOZ_BUILD_PROJECTS
