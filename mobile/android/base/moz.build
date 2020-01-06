@@ -7542,6 +7542,13 @@ java
 '
 util
 /
+PackageUtil
+.
+java
+'
+'
+util
+/
 ResourceDrawableUtils
 .
 java
