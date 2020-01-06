@@ -85,7 +85,7 @@ gre
 /
 modules
 /
-ExtensionUtils
+ExtensionParent
 .
 jsm
 "
@@ -96,7 +96,7 @@ var
 IconDetails
 }
 =
-ExtensionUtils
+ExtensionParent
 ;
 var
 pageActionMap

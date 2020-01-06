@@ -614,7 +614,7 @@ extensionStylesheets
 {
 const
 {
-ExtensionUtils
+ExtensionParent
 }
 =
 Cu
@@ -630,7 +630,7 @@ gre
 /
 modules
 /
-ExtensionUtils
+ExtensionParent
 .
 jsm
 "
@@ -639,7 +639,7 @@ jsm
 )
 ;
 return
-ExtensionUtils
+ExtensionParent
 .
 extensionStylesheets
 ;

@@ -186,7 +186,6 @@ jsm
 var
 {
 DefaultWeakMap
-extensionStylesheets
 promiseEvent
 }
 =
@@ -998,6 +997,8 @@ push
 (
 .
 .
+.
+ExtensionParent
 .
 extensionStylesheets
 )

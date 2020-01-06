@@ -84,6 +84,11 @@ ExtensionAPI
 :
 true
 "
+ExtensionCommon
+"
+:
+true
+"
 ExtensionManagement
 "
 :

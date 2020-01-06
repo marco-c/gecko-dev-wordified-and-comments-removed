@@ -8,7 +8,7 @@ var
 SpreadArgs
 }
 =
-ExtensionUtils
+ExtensionCommon
 ;
 this
 .

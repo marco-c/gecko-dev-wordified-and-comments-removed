@@ -42,7 +42,6 @@ jsm
 ;
 var
 {
-extensionStylesheets
 promiseEvent
 }
 =
@@ -461,6 +460,8 @@ InitBrowser
 {
 stylesheets
 :
+ExtensionParent
+.
 extensionStylesheets
 }
 )

@@ -31,7 +31,7 @@ var
 ignoreEvent
 }
 =
-ExtensionUtils
+ExtensionCommon
 ;
 let
 notificationsMap
