@@ -40016,6 +40016,16 @@ blipIntervalMilliseconds
 pref
 (
 "
+jsloader
+.
+shareGlobal
+"
+false
+)
+;
+pref
+(
+"
 dom
 .
 browserElement
