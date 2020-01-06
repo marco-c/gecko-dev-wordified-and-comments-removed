@@ -1497,6 +1497,8 @@ ptr
 nsIAtom
 *
 name
+RawGeckoPresContextBorrowed
+pres_context
 )
 ;
 void
