@@ -79,7 +79,7 @@ final
 int
 START_DRAWING_AT_POSITION
 =
-1
+2
 ;
 private
 static
