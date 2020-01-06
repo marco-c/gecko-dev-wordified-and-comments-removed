@@ -736,4 +736,12 @@ return
 historyId
 ;
 }
+Override
+public
+void
+onStateCommitted
+(
+)
+{
+}
 }

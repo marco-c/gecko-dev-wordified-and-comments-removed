@@ -75,4 +75,9 @@ boolean
 pinned
 )
 ;
+void
+onStateCommitted
+(
+)
+;
 }
