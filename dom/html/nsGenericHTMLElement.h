@@ -2413,6 +2413,11 @@ RemoveFromNameTable
 {
 if
 (
+HasName
+(
+)
+&
+&
 CanHaveName
 (
 NodeInfo
@@ -2423,11 +2428,6 @@ NodeInfo
 NameAtom
 (
 )
-)
-&
-&
-HasName
-(
 )
 )
 {
