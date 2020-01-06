@@ -534,15 +534,6 @@ return
 eRestyle_Subtree
 ;
 }
-if
-(
-aViewportChanged
-)
-{
-return
-eRestyle_ForceDescendants
-;
-}
 return
 nsRestyleHint
 (
