@@ -148,6 +148,11 @@ HeadlessClipboardData
 cpp
 '
 '
+HeadlessCompositorWidget
+.
+cpp
+'
+'
 HeadlessLookAndFeel
 .
 cpp
