@@ -882,7 +882,6 @@ None
 ;
 }
 let
-mut
 data
 =
 unsafe
