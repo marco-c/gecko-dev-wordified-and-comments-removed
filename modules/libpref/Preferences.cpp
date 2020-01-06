@@ -9028,7 +9028,7 @@ aReturn
 )
 ;
 nsresult
-SetCharPrefInternal
+SetCharPrefNoLengthCheck
 (
 const
 char
@@ -9916,7 +9916,7 @@ rv
 ;
 }
 return
-SetCharPrefInternal
+SetCharPrefNoLengthCheck
 (
 aPrefName
 aValue
@@ -9927,7 +9927,7 @@ nsresult
 nsPrefBranch
 :
 :
-SetCharPrefInternal
+SetCharPrefNoLengthCheck
 (
 const
 char
@@ -10088,7 +10088,7 @@ rv
 ;
 }
 return
-SetCharPrefInternal
+SetCharPrefNoLengthCheck
 (
 aPrefName
 aValue
@@ -11281,7 +11281,7 @@ rv
 {
 rv
 =
-SetCharPrefInternal
+SetCharPrefNoLengthCheck
 (
 aPrefName
 descriptorString
@@ -11495,7 +11495,7 @@ relDescriptor
 )
 ;
 return
-SetCharPrefInternal
+SetCharPrefNoLengthCheck
 (
 aPrefName
 descriptorString
@@ -11574,7 +11574,7 @@ rv
 }
 rv
 =
-SetCharPrefInternal
+SetCharPrefNoLengthCheck
 (
 aPrefName
 NS_ConvertUTF16toUTF8
