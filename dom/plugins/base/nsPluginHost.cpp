@@ -1600,6 +1600,10 @@ XRE_IsParentProcess
 )
 )
 {
+IncrementChromeEpoch
+(
+)
+;
 LoadPlugins
 (
 )
