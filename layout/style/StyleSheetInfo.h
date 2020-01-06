@@ -188,6 +188,9 @@ mSourceMapURL
 nsString
 mSourceMapURLFromComment
 ;
+nsString
+mSourceURL
+;
 #
 ifdef
 DEBUG
