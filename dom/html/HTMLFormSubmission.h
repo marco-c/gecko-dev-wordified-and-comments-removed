@@ -463,6 +463,10 @@ nsCOMPtr
 <
 nsIMultiplexInputStream
 >
+mPostData
+;
+nsIInputStream
+*
 mPostDataStream
 ;
 nsCString
