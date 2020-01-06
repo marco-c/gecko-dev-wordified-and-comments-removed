@@ -5956,7 +5956,6 @@ uint32_t
 GetPtr32Target
 (
 Iter
-*
 iter
 Register
 *
