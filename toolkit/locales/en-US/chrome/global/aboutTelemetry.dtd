@@ -298,6 +298,17 @@ Hangs
 ENTITY
 aboutTelemetry
 .
+threadHangStatsSection
+"
+Thread
+Hangs
+"
+>
+<
+!
+ENTITY
+aboutTelemetry
+.
 capturedStacksSection
 "
 Captured
