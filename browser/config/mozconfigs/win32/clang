@@ -54,9 +54,9 @@ win32
 /
 mozconfig
 .
-vs2015
+vs
 -
-win64
+latest
 .
 "
 topsrcdir

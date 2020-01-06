@@ -536,7 +536,7 @@ manifests
 /
 win32
 /
-vs2015
+releng
 .
 manifest
 "
@@ -676,7 +676,7 @@ manifests
 /
 win32
 /
-vs2015
+releng
 .
 manifest
 "
@@ -816,7 +816,7 @@ manifests
 /
 win64
 /
-vs2015
+releng
 .
 manifest
 "
@@ -956,7 +956,7 @@ manifests
 /
 win64
 /
-vs2015
+releng
 .
 manifest
 "
