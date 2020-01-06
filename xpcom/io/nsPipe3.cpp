@@ -322,12 +322,12 @@ mCallback
 aCallback
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mStream
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mCallback
 )
@@ -1118,12 +1118,12 @@ mOffset
 0
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mPipe
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mReadState
@@ -1151,14 +1151,14 @@ mStatus
 )
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mReadState
 .
 mActiveRead
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mSegment
 )
@@ -1174,7 +1174,7 @@ mLength
 aMaxLength
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mLength
 )
@@ -1225,7 +1225,7 @@ events
 ;
 }
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mReadState
@@ -1252,7 +1252,7 @@ Data
 )
 const
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -1260,7 +1260,7 @@ mStatus
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mSegment
 )
@@ -1277,7 +1277,7 @@ Length
 )
 const
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -1285,7 +1285,7 @@ mStatus
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mLength
 >
@@ -1306,7 +1306,7 @@ uint32_t
 aCount
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -1314,7 +1314,7 @@ mStatus
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aCount
 <
@@ -1459,7 +1459,7 @@ Release
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 int32_t
 (
@@ -1914,7 +1914,7 @@ mStatus
 NS_BASE_STREAM_WOULD_BLOCK
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 aReadState
@@ -1978,7 +1978,7 @@ mon
 mReentrantMonitor
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aReadState
 .
@@ -2110,7 +2110,7 @@ limit
 "
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aReadState
 .
@@ -2339,7 +2339,7 @@ aReadState
 mSegment
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mWriteSegment
 =
@@ -2491,7 +2491,7 @@ aReadState
 mActiveRead
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 aReadState
@@ -3067,7 +3067,7 @@ nsresult
 aReason
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 NS_FAILED
 (
@@ -3719,7 +3719,7 @@ ReadState
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mWriteSegment
 =
@@ -3729,7 +3729,7 @@ readState
 mSegment
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mWriteCursor
 =
@@ -3739,7 +3739,7 @@ readState
 mReadCursor
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mWriteCursor
 =
@@ -3966,7 +3966,7 @@ return
 0
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mWriteSegment
 >
@@ -3974,7 +3974,7 @@ mWriteSegment
 0
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aReadState
 .
