@@ -298,3 +298,12 @@ worker
 ENV
 LOGNAME
 worker
+CMD
+[
+"
+/
+runme
+.
+sh
+"
+]
