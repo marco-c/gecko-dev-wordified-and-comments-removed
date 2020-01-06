@@ -710,6 +710,10 @@ new
 SlicedInputStream
 (
 clonedStream
+.
+forget
+(
+)
 aStart
 aLength
 )
