@@ -2386,17 +2386,6 @@ enable
 -
 calendar
 '
-'
--
--
-enable
--
-incomplete
--
-external
--
-linkage
-'
 )
 imports
 (
