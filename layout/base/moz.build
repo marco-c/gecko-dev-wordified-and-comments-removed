@@ -492,11 +492,6 @@ AccessibleCaretManager
 cpp
 '
 '
-FrameProperties
-.
-cpp
-'
-'
 GeckoRestyleManager
 .
 cpp
