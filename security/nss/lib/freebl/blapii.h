@@ -71,6 +71,9 @@ freeit
 )
 ;
 SEC_BEGIN_PROTOS
+#
+ifndef
+NSS_FIPS_DISABLED
 SECStatus
 BL_FIPSEntryOK
 (
@@ -85,6 +88,8 @@ PRBool
 freeblOnly
 )
 ;
+#
+endif
 #
 if
 defined

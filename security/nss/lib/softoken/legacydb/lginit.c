@@ -2403,6 +2403,9 @@ verref
 .
 h
 "
+#
+ifndef
+NSS_FIPS_DISABLED
 if
 (
 flags
@@ -2423,6 +2426,8 @@ CKR_DEVICE_ERROR
 ;
 }
 }
+#
+endif
 rv
 =
 SECOID_Init

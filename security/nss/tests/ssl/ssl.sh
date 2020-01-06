@@ -11379,7 +11379,7 @@ on
 ;
 *
 )
-echo
+html_failed
 "
 {
 SCRIPTNAME
@@ -11394,7 +11394,8 @@ mode
 SERVER_MODE
 }
 "
-continue
+return
+1
 ;
 ;
 esac
@@ -11426,7 +11427,7 @@ on
 ;
 *
 )
-echo
+html_failed
 "
 {
 SCRIPTNAME
@@ -11441,7 +11442,8 @@ mode
 CLIENT_MODE
 }
 "
-continue
+return
+1
 ;
 ;
 esac

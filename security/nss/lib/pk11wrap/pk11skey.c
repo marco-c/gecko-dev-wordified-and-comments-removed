@@ -781,6 +781,15 @@ PR_TRUE
 ;
 if
 (
+!
+symKey
+)
+{
+return
+;
+}
+if
+(
 PR_ATOMIC_DECREMENT
 (
 &

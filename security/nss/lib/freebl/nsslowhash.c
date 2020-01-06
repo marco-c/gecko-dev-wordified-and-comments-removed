@@ -81,6 +81,9 @@ hashCtxt
 ;
 }
 ;
+#
+ifndef
+NSS_FIPS_DISABLED
 static
 int
 nsslow_GetFIPSEnabled
@@ -172,6 +175,8 @@ return
 1
 ;
 }
+#
+endif
 static
 NSSLOWInitContext
 dummyContext
@@ -205,6 +210,9 @@ FREEBL_InitStubs
 ;
 #
 endif
+#
+ifndef
+NSS_FIPS_DISABLED
 if
 (
 nsslow_GetFIPSEnabled
@@ -237,6 +245,8 @@ NULL
 ;
 }
 }
+#
+endif
 post_failed
 =
 PR_FALSE

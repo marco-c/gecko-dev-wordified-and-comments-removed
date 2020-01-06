@@ -22208,11 +22208,13 @@ cert_ssl
 cert_smime_client
 if
 [
+[
 -
-z
+n
 "
-NSS_TEST_DISABLE_FIPS
+NSS_TEST_ENABLE_FIPS
 "
+]
 ]
 ;
 then
