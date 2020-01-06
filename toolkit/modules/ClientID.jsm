@@ -673,6 +673,16 @@ Services
 .
 prefs
 .
+prefHasUserValue
+(
+PREF_CACHED_CLIENTID
+)
+&
+&
+Services
+.
+prefs
+.
 getPrefType
 (
 PREF_CACHED_CLIENTID
