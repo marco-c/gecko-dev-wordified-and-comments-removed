@@ -6246,6 +6246,16 @@ mDisableSubpixelAA
 true
 ;
 }
+bool
+IsSubpixelAADisabled
+(
+)
+const
+{
+return
+mDisableSubpixelAA
+;
+}
 virtual
 bool
 CanUseAsyncAnimations
