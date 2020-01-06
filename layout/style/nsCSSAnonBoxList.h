@@ -327,7 +327,7 @@ table
 cell
 "
 )
-CSS_WRAPPER_ANON_BOX
+CSS_NON_INHERITING_ANON_BOX
 (
 tableColGroup
 "
