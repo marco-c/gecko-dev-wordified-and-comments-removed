@@ -244,12 +244,6 @@ OriginAttributes
 aOriginAttributes
 )
 ;
-PRErrorCode
-GetErrorCode
-(
-)
-const
-;
 void
 GetErrorLogMessage
 (
