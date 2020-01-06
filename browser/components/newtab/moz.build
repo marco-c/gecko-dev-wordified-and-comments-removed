@@ -163,11 +163,6 @@ NewTabWebChannel
 .
 jsm
 '
-'
-PreviewProvider
-.
-jsm
-'
 ]
 XPIDL_SOURCES
 +
