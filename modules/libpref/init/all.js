@@ -1500,6 +1500,16 @@ pref
 "
 media
 .
+memory_cache_max_size
+"
+8192
+)
+;
+pref
+(
+"
+media
+.
 cache
 .
 resource
