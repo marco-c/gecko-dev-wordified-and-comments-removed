@@ -651,10 +651,9 @@ mData
 =
 newData
 ;
-SetDataFlags
-(
+mDataFlags
+=
 newDataFlags
-)
 ;
 return
 true
@@ -1663,8 +1662,8 @@ mLength
 =
 aLength
 ;
-SetDataFlags
-(
+mDataFlags
+=
 DataFlags
 :
 :
@@ -1674,7 +1673,6 @@ DataFlags
 :
 :
 LITERAL
-)
 ;
 }
 void
@@ -1820,8 +1818,8 @@ aStr
 .
 mLength
 ;
-SetDataFlags
-(
+mDataFlags
+=
 DataFlags
 :
 :
@@ -1831,7 +1829,6 @@ DataFlags
 :
 :
 SHARED
-)
 ;
 nsStringBuffer
 :
@@ -2129,8 +2126,8 @@ mLength
 =
 aLength
 ;
-SetDataFlags
-(
+mDataFlags
+=
 DataFlags
 :
 :
@@ -2140,7 +2137,6 @@ DataFlags
 :
 :
 OWNED
-)
 ;
 STRING_STAT_INCREMENT
 (
@@ -2866,13 +2862,12 @@ mLength
 =
 0
 ;
-SetDataFlags
-(
+mDataFlags
+=
 DataFlags
 :
 :
 TERMINATED
-)
 ;
 return
 true

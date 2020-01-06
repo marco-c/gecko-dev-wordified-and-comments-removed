@@ -68,8 +68,8 @@ str
 .
 mLength
 ;
-SetDataFlags
-(
+mDataFlags
+=
 DataFlags
 :
 :
@@ -79,7 +79,6 @@ DataFlags
 :
 :
 OWNED
-)
 ;
 new
 (
@@ -143,13 +142,12 @@ mLength
 =
 length
 ;
-SetDataFlags
-(
+mDataFlags
+=
 DataFlags
 :
 :
 TERMINATED
-)
 ;
 AssertValidDependentString
 (
