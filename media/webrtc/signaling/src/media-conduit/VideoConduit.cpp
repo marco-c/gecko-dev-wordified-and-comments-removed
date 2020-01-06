@@ -8466,6 +8466,17 @@ kViEMinCodecBitrate_bps
 out_min
 )
 ;
+out_max
+=
+std
+:
+:
+max
+(
+kViEMinCodecBitrate_bps
+out_max
+)
+;
 if
 (
 mStartBitrate
