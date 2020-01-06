@@ -108,6 +108,9 @@ a
 className
 :
 "
+devtools
+-
+button
 learn
 -
 more
@@ -116,7 +119,7 @@ link
 "
 title
 :
-url
+LEARN_MORE
 onClick
 :
 (
@@ -130,11 +133,6 @@ e
 url
 )
 }
-[
-{
-LEARN_MORE
-}
-]
 )
 )
 ;
