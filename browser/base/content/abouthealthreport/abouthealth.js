@@ -698,13 +698,15 @@ Services
 .
 scriptSecurityManager
 .
-getCodebasePrincipal
+createCodebasePrincipal
 (
 this
 .
 _getReportURI
 (
 )
+{
+}
 )
 ;
 let
