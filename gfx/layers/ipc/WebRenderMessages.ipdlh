@@ -521,8 +521,6 @@ mixBlendMode
 union
 WebRenderParentCommand
 {
-OpAddExternalImage
-;
 OpUpdateAsyncImagePipeline
 ;
 CompositableOperation
