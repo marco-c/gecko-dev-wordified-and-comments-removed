@@ -2868,6 +2868,13 @@ value
 "
 string
 "
+&
+&
+'
+binary
+'
+in
+value
 )
 {
 let
