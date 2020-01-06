@@ -114,7 +114,7 @@ EnsureAsyncRemoteStream
 )
 ;
 void
-SetRange
+InitWithExistingRange
 (
 uint64_t
 aStart
