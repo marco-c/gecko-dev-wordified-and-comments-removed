@@ -232,7 +232,7 @@ Reason
 aReason
 )
 ;
-int32_t
+TimeDuration
 CalculateDelay
 (
 Timeout
