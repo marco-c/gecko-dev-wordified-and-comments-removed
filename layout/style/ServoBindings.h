@@ -3260,13 +3260,6 @@ nsCSSCounterStyleRule
 CSSCounterStyleRule
 )
 ;
-RawGeckoElementBorrowedOrNull
-Gecko_GetBody
-(
-RawGeckoPresContextBorrowed
-pres_context
-)
-;
 bool
 Gecko_IsDocumentBody
 (
