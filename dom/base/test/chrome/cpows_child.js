@@ -178,15 +178,6 @@ message
 }
 )
 ;
-throw
-'
-failed
-check
-:
-'
-+
-message
-;
 }
 }
 var
