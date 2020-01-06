@@ -3167,6 +3167,16 @@ parent
 !
 =
 null
+&
+&
+parent
+.
+getType
+(
+)
+=
+=
+type
 )
 {
 if
@@ -3740,7 +3750,7 @@ false
 )
 )
 {
-GeckoApp
+GeckoAppShell
 .
 launchOrBringToFront
 (
