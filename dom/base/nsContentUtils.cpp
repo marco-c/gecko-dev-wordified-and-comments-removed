@@ -3281,7 +3281,6 @@ Shutdown
 (
 )
 ;
-virtual
 void
 AnnotateHang
 (
