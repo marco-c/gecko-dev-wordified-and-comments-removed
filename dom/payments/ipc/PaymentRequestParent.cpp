@@ -404,6 +404,11 @@ requestId
 )
 callback
 mTabId
+request
+.
+topLevelPrincipal
+(
+)
 methodData
 details
 options

@@ -539,6 +539,9 @@ const
 nsAString
 &
 aRequestId
+nsIPrincipal
+*
+aPrincipal
 nsIArray
 *
 aPaymentMethods
@@ -564,6 +567,12 @@ mTabId
 ;
 nsString
 mRequestId
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mTopLevelPrincipal
 ;
 nsCOMPtr
 <

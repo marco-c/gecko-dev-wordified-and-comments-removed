@@ -1193,6 +1193,12 @@ return
 nullptr
 ;
 }
+nsCOMPtr
+<
+nsIPrincipal
+>
+topLevelPrincipal
+;
 do
 {
 nsINode
@@ -1287,6 +1293,15 @@ nullptr
 }
 }
 }
+topLevelPrincipal
+=
+node
+-
+>
+NodePrincipal
+(
+)
+;
 node
 =
 parentNode
@@ -1379,6 +1394,7 @@ manager
 CreatePayment
 (
 window
+topLevelPrincipal
 aMethodData
 aDetails
 aOptions

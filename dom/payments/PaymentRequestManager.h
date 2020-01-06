@@ -114,6 +114,9 @@ CreatePayment
 nsPIDOMWindowInner
 *
 aWindow
+nsIPrincipal
+*
+aTopLevelPrincipal
 const
 Sequence
 <

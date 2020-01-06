@@ -107,6 +107,13 @@ nsIVariant
 .
 idl
 "
+#
+include
+"
+nsIPrincipal
+.
+idl
+"
 interface
 nsIArray
 ;
@@ -439,6 +446,11 @@ readonly
 attribute
 uint64_t
 tabId
+;
+readonly
+attribute
+nsIPrincipal
+topLevelPrincipal
 ;
 readonly
 attribute
