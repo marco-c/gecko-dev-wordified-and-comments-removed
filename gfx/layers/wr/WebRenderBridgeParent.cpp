@@ -1668,6 +1668,7 @@ aResources
 {
 Range
 <
+const
 wr
 :
 :
@@ -1817,13 +1818,9 @@ wrTexture
 wrTexture
 -
 >
-PushResourceUpdates
+AddWRImage
 (
 aResources
-TextureHost
-:
-:
-ADD_IMAGE
 keys
 wrTexture
 -
