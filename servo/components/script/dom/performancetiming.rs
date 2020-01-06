@@ -119,7 +119,7 @@ navigation_start
 u64
 navigation_start_precise
 :
-f64
+u64
 document
 :
 Dom
@@ -138,7 +138,7 @@ nav_start
 u64
 nav_start_precise
 :
-f64
+u64
 document
 :
 &
@@ -195,7 +195,7 @@ navigation_start
 u64
 navigation_start_precise
 :
-f64
+u64
 )
 -
 >
@@ -397,7 +397,7 @@ self
 )
 -
 >
-f64
+u64
 {
 self
 .

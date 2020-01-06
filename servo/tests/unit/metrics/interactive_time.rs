@@ -11,7 +11,6 @@ metrics
 {
 InteractiveMetrics
 InteractiveFlag
-InteractiveWindow
 }
 ;
 use
@@ -143,8 +142,6 @@ time
 precise_time_ns
 (
 )
-as
-f64
 )
 ;
 interactive
@@ -283,8 +280,6 @@ InteractiveFlag
 TimeToInteractive
 (
 t
-as
-f64
 )
 )
 ;
@@ -314,8 +309,6 @@ mta
 Some
 (
 t
-as
-f64
 )
 )
 ;
@@ -336,8 +329,6 @@ time
 precise_time_ns
 (
 )
-as
-f64
 )
 )
 ;
@@ -409,8 +400,6 @@ InteractiveFlag
 TimeToInteractive
 (
 t
-as
-f64
 )
 )
 ;
@@ -577,8 +566,6 @@ InteractiveFlag
 TimeToInteractive
 (
 t
-as
-f64
 )
 )
 ;

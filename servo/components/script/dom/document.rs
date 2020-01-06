@@ -11015,8 +11015,6 @@ borrow
 get_start
 (
 )
-as
-f64
 )
 )
 ;

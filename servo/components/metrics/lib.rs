@@ -192,7 +192,7 @@ self
 >
 Option
 <
-f64
+u64
 >
 ;
 fn
@@ -203,7 +203,7 @@ mut
 self
 time
 :
-f64
+u64
 )
 ;
 fn
@@ -227,7 +227,7 @@ name
 ProgressiveWebMetricType
 time
 :
-f64
+u64
 )
 ;
 }
@@ -277,14 +277,14 @@ Cell
 <
 Option
 <
-f64
+u64
 >
 >
 metric_time
 :
 Option
 <
-f64
+u64
 >
 )
 {
@@ -347,8 +347,6 @@ None
 precise_time_ns
 (
 )
-as
-f64
 }
 ;
 let
@@ -387,11 +385,7 @@ get_time_profiler_chan
 (
 )
 time
-as
-u64
 time
-as
-u64
 0
 0
 )
@@ -440,7 +434,7 @@ navigation_start
 :
 Option
 <
-f64
+u64
 >
 dom_content_loaded
 :
@@ -448,7 +442,7 @@ Cell
 <
 Option
 <
-f64
+u64
 >
 >
 main_thread_available
@@ -457,7 +451,7 @@ Cell
 <
 Option
 <
-f64
+u64
 >
 >
 time_to_interactive
@@ -466,7 +460,7 @@ Cell
 <
 Option
 <
-f64
+u64
 >
 >
 #
@@ -594,7 +588,7 @@ InteractiveFlag
 DOMContentLoaded
 TimeToInteractive
 (
-f64
+u64
 )
 }
 impl
@@ -681,8 +675,6 @@ Some
 precise_time_ns
 (
 )
-as
-f64
 )
 )
 ;
@@ -696,7 +688,7 @@ set_main_thread_available
 self
 time
 :
-f64
+u64
 )
 {
 if
@@ -737,7 +729,7 @@ self
 >
 Option
 <
-f64
+u64
 >
 {
 self
@@ -759,7 +751,7 @@ self
 >
 Option
 <
-f64
+u64
 >
 {
 self
@@ -977,7 +969,7 @@ self
 >
 Option
 <
-f64
+u64
 >
 {
 self
@@ -1004,7 +996,7 @@ self
 >
 Option
 <
-f64
+u64
 >
 {
 self
@@ -1019,7 +1011,7 @@ mut
 self
 time
 :
-f64
+u64
 )
 {
 self
@@ -1042,7 +1034,7 @@ _name
 ProgressiveWebMetricType
 _time
 :
-f64
+u64
 )
 {
 }
@@ -1087,7 +1079,7 @@ navigation_start
 :
 Option
 <
-f64
+u64
 >
 first_paint
 :
@@ -1095,7 +1087,7 @@ Cell
 <
 Option
 <
-f64
+u64
 >
 >
 first_contentful_paint
@@ -1104,7 +1096,7 @@ Cell
 <
 Option
 <
-f64
+u64
 >
 >
 pipeline_id
@@ -1444,7 +1436,7 @@ epoch
 Epoch
 paint_time
 :
-f64
+u64
 )
 {
 if
@@ -1580,7 +1572,7 @@ self
 >
 Option
 <
-f64
+u64
 >
 {
 self
@@ -1602,7 +1594,7 @@ self
 >
 Option
 <
-f64
+u64
 >
 {
 self
@@ -1629,7 +1621,7 @@ self
 >
 Option
 <
-f64
+u64
 >
 {
 self
@@ -1644,7 +1636,7 @@ mut
 self
 time
 :
-f64
+u64
 )
 {
 self
@@ -1667,7 +1659,7 @@ name
 ProgressiveWebMetricType
 time
 :
-f64
+u64
 )
 {
 let

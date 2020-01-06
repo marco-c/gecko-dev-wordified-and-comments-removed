@@ -700,7 +700,7 @@ DevtoolScriptControlMsg
 >
 navigation_start_precise
 :
-f64
+u64
 performance
 :
 MutNullableDom
@@ -832,8 +832,6 @@ navigation_start_precise
 precise_time_ns
 (
 )
-as
-f64
 performance
 :
 Default
