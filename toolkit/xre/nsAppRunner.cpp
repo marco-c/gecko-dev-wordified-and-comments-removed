@@ -22142,11 +22142,12 @@ defined
 (
 XP_WIN
 )
-if
+&
+&
+defined
 (
-false
+RELEASE_OR_BETA
 )
-{
 bool
 disabledForA11y
 =
@@ -22267,7 +22268,6 @@ kE10sDisabledForAccessibility
 return
 gMultiprocessBlockPolicy
 ;
-}
 }
 #
 endif
