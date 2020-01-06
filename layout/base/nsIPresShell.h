@@ -1176,6 +1176,17 @@ ScrollDirection
 aDirection
 )
 ;
+nsIScrollableFrame
+*
+GetNearestScrollableFrame
+(
+nsIFrame
+*
+aFrame
+ScrollDirection
+aDirection
+)
+;
 virtual
 nsIPageSequenceFrame
 *
