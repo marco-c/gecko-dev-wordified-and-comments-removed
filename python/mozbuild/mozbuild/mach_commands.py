@@ -9066,6 +9066,20 @@ MOZ_CRASHREPORTER_DISABLE
 1
 '
         
+else
+:
+            
+extra_env
+[
+'
+MOZ_CRASHREPORTER
+'
+]
+=
+'
+1
+'
+        
 if
 disable_e10s
 :
