@@ -4185,6 +4185,10 @@ enabled
 "
 false
 )
+&
+&
+!
+gCompareStyloToGecko
 ;
 sandbox
 .
