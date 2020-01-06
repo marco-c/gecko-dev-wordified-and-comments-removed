@@ -6553,7 +6553,10 @@ holder
 (
 CreateHolderFromAccessible
 (
+WrapNotNull
+(
 this
+)
 )
 )
 ;
