@@ -8,9 +8,14 @@ errors
 from
 marionette_harness
 import
+(
+    
 MarionetteTestCase
+    
 run_if_e10s
+    
 skip_if_mobile
+)
 def
 inline
 (
@@ -558,7 +563,7 @@ By
 .
 ID
 "
-username
+testDiv
 "
 )
         
@@ -572,9 +577,8 @@ marionette
 .
 title
 "
-XHTML
+Marionette
 Test
-Page
 "
 )
     
@@ -697,7 +701,7 @@ By
 .
 ID
 "
-username
+testDiv
 "
 )
         
@@ -711,9 +715,8 @@ marionette
 .
 title
 "
-XHTML
+Marionette
 Test
-Page
 "
 )
     
@@ -2123,9 +2126,8 @@ marionette
 .
 title
 "
-XHTML
+Marionette
 Test
-Page
 "
 )
     
@@ -2347,7 +2349,7 @@ By
 .
 ID
 "
-showbutton
+links
 "
 )
 .
