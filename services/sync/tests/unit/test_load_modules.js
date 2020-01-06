@@ -118,11 +118,6 @@ resource
 js
 "
 "
-rest
-.
-js
-"
-"
 service
 .
 js

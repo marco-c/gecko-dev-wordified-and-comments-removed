@@ -260,13 +260,6 @@ js
 '
 modules
 /
-rest
-.
-js
-'
-'
-modules
-/
 service
 .
 js
