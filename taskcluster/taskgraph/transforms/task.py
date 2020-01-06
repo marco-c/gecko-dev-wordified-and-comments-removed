@@ -2713,16 +2713,6 @@ medium
 '
     
 '
-mozilla
--
-aurora
-'
-:
-'
-medium
-'
-    
-'
 comm
 -
 aurora
