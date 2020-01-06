@@ -272,6 +272,12 @@ rv
 break
 ;
 }
+rv
+.
+SuppressException
+(
+)
+;
 }
 void
 CustomElementCallback
