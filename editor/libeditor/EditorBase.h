@@ -2279,6 +2279,11 @@ false
 }
 }
 bool
+IsSelectionEditable
+(
+)
+;
+bool
 IsMozEditorBogusNode
 (
 nsINode
