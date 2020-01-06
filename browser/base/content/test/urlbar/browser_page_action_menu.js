@@ -665,9 +665,9 @@ BrowserPageActions
 mainButtonNode
 )
 .
-visibility
+display
 "
-collapse
+none
 "
 "
 Main
@@ -688,10 +688,13 @@ mainButtonNode
 .
 style
 .
-visibility
+display
 =
 "
-visible
+-
+moz
+-
+box
 "
 ;
 await
@@ -756,7 +759,7 @@ style
 removeProperty
 (
 "
-visibility
+display
 "
 )
 ;
