@@ -2162,6 +2162,10 @@ mAsyncTransformAppliedToContent
 (
 false
 )
+mTestHasAsyncKeyScrolled
+(
+false
+)
 mCheckerboardEventLock
 (
 "
@@ -6640,6 +6644,10 @@ aEvent
 .
 mAction
 )
+;
+mTestHasAsyncKeyScrolled
+=
+true
 ;
 CSSPoint
 destination
