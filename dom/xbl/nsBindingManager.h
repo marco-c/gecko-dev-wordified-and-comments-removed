@@ -465,15 +465,12 @@ ElementDependentRuleProcessorData
 aData
 )
 ;
-nsresult
+bool
 MediumFeaturesChanged
 (
 nsPresContext
 *
 aPresContext
-bool
-*
-aRulesChanged
 )
 ;
 void
