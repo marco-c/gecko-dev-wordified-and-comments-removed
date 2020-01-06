@@ -330,6 +330,16 @@ function
 (
 )
 {
+return
+new
+Promise
+(
+(
+resolve
+)
+=
+>
+{
 const
 attachRefToHud
 =
@@ -1122,6 +1132,9 @@ ConsoleOutput
 (
 {
 serviceContainer
+onFirstMeaningfulPaint
+:
+resolve
 }
 )
 ;
@@ -1192,6 +1205,9 @@ jsterm
 .
 focus
 (
+)
+;
+}
 )
 ;
 }
