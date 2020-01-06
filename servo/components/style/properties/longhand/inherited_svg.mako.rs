@@ -330,7 +330,7 @@ gecko
 animation_value_type
 =
 "
-none
+ComputedValue
 "
 spec
 =
