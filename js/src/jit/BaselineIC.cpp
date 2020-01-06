@@ -13624,12 +13624,12 @@ cx
 nobj
 )
 ;
-CopyBoxedOrUnboxedDenseElements
-(
-cx
 nobj
+-
+>
+initDenseElements
+(
 arr
-0
 0
 length
 )
