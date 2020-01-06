@@ -312,10 +312,7 @@ aBuilder
 .
 PushBuiltDisplayList
 (
-Move
-(
 mBuiltDisplayList
-)
 )
 ;
 WrBridge
