@@ -3669,13 +3669,6 @@ loser
 }
 }
 else
-if
-(
-PK11_NeedLogin
-(
-slot
-)
-)
 {
 for
 (

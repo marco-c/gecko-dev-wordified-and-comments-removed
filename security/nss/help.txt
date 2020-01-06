@@ -9,10 +9,6 @@ hcv
 ]
 [
 -
-cc
-]
-[
--
 j
 <
 n
@@ -211,11 +207,6 @@ c
 clean
 before
 build
--
-cc
-clean
-without
-building
 -
 v
 verbose

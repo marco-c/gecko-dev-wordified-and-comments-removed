@@ -332,11 +332,6 @@ ghash_unittest
 cc
 '
 '
-rsa_unittest
-.
-cc
-'
-'
 <
 (
 DEPTH

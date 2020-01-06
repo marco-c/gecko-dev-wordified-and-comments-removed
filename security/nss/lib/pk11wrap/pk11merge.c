@@ -229,7 +229,7 @@ crv
 CKR_ATTRIBUTE_TYPE_INVALID
 )
 {
-CK_ULONG
+int
 i
 j
 ;
@@ -241,16 +241,6 @@ CK_ATTRIBUTE
 copyTemplateCount
 )
 ;
-if
-(
-!
-newTemplate
-)
-{
-return
-SECFailure
-;
-}
 for
 (
 i
