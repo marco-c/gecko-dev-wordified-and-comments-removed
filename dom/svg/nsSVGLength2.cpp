@@ -32,7 +32,7 @@ mozilla
 /
 dom
 /
-SVGSVGElement
+SVGViewportElement
 .
 h
 "
@@ -579,7 +579,7 @@ SVGElementMetrics
 nsSVGElement
 *
 aSVGElement
-SVGSVGElement
+SVGViewportElement
 *
 aCtx
 )
@@ -717,7 +717,7 @@ mCtx
 =
 static_cast
 <
-SVGSVGElement
+SVGViewportElement
 *
 >
 (
@@ -945,7 +945,7 @@ nsSVGLength2
 :
 GetUnitScaleFactor
 (
-SVGSVGElement
+SVGViewportElement
 *
 aCtx
 uint8_t

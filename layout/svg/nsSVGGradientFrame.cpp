@@ -2115,7 +2115,7 @@ GetAnimValue
 (
 static_cast
 <
-SVGSVGElement
+SVGViewportElement
 *
 >
 (
@@ -2663,7 +2663,7 @@ GetAnimValue
 (
 static_cast
 <
-SVGSVGElement
+SVGViewportElement
 *
 >
 (
