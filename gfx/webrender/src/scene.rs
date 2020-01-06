@@ -226,7 +226,6 @@ key
 )
 =
 >
-{
 self
 .
 transform_properties
@@ -277,7 +276,6 @@ identity
 )
 }
 }
-}
 pub
 fn
 resolve_float
@@ -323,7 +321,6 @@ key
 )
 =
 >
-{
 self
 .
 float_properties
@@ -367,7 +364,6 @@ key
 default_value
 }
 )
-}
 }
 }
 }

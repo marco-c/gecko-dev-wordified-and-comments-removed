@@ -1,4 +1,13 @@
 use
+api
+:
+:
+{
+ColorF
+ColorU
+}
+;
+use
 debug_render
 :
 :
@@ -11,8 +20,8 @@ device
 {
 Device
 GpuMarker
-GpuTimer
 GpuSampler
+GpuTimer
 NamedTag
 }
 ;
@@ -22,8 +31,8 @@ euclid
 :
 {
 Point2D
-Size2D
 Rect
+Size2D
 vec2
 }
 ;
@@ -50,15 +59,6 @@ std
 :
 :
 mem
-;
-use
-api
-:
-:
-{
-ColorF
-ColorU
-}
 ;
 use
 time
@@ -4544,6 +4544,7 @@ position
 |
 s
 |
+{
 s
 .
 description
@@ -4562,6 +4563,7 @@ as
 *
 const
 _
+}
 )
 {
 Some

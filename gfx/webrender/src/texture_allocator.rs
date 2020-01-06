@@ -155,6 +155,7 @@ size
 )
 {
 continue
+;
 }
 let
 candidate_area
@@ -182,6 +183,7 @@ candidate_area
 )
 ;
 break
+;
 }
 smallest_index_and_area
 .
@@ -327,6 +329,7 @@ new
 0
 )
 )
+;
 }
 let
 index
