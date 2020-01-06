@@ -8233,6 +8233,12 @@ all
 green
 .
 html
+fails
+-
+if
+(
+stylo
+)
 =
 =
 css
