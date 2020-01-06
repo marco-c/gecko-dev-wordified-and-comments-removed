@@ -45366,6 +45366,9 @@ content
 ;
 if
 (
+aRootLayer
+&
+&
 nsLayoutUtils
 :
 :
