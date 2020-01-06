@@ -672,7 +672,7 @@ profile
         
 self
 .
-assertEqual
+assertNotEqual
 (
 self
 .
@@ -752,7 +752,7 @@ profile
         
 self
 .
-assertEqual
+assertNotEqual
 (
 self
 .
