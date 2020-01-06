@@ -3135,6 +3135,9 @@ default
 guards
 :
 guards
+visited_styles_enabled
+:
+false
 running_animations
 :
 self
