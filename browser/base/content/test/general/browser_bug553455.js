@@ -1432,9 +1432,9 @@ panel
 childNodes
 .
 length
+!
 =
-=
-2
+1
 )
 {
 await
@@ -5134,6 +5134,11 @@ blank
 ;
 await
 closePromise
+;
+await
+waitForTick
+(
+)
 ;
 let
 installs
