@@ -1883,7 +1883,7 @@ if
 (
 !
 Android
-4
+1
 )
 load
 459968
@@ -3124,7 +3124,7 @@ if
 (
 !
 Android
-4
+1
 )
 load
 798020
@@ -3616,9 +3616,7 @@ load
 html
 asserts
 (
-0
--
-300
+543
 )
 load
 1015844
@@ -3627,6 +3625,8 @@ html
 #
 bug
 574889
+bug
+1374479
 pref
 (
 font
