@@ -161,6 +161,15 @@ uint32_t
 aHeight
 )
 ;
+static
+nsresult
+GetSpoofedUserAgent
+(
+nsACString
+&
+userAgent
+)
+;
 private
 :
 nsresult
