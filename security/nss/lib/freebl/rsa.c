@@ -1358,10 +1358,6 @@ keySizeInBits
 ;
 do
 {
-prerr
-=
-0
-;
 PORT_SetError
 (
 0
@@ -1481,13 +1477,6 @@ kiter
 <
 max_attempts
 )
-;
-if
-(
-prerr
-)
-goto
-cleanup
 ;
 cleanup
 :

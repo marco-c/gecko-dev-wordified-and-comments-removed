@@ -88,6 +88,14 @@ apt_packages
 git
 '
 )
+apt_packages
++
+=
+(
+'
+locales
+'
+)
 apt
 -
 get

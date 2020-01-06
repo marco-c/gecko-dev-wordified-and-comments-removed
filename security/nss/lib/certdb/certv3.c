@@ -796,6 +796,12 @@ else
 if
 (
 !
+keyUsage
+.
+data
+|
+|
+!
 (
 keyUsage
 .

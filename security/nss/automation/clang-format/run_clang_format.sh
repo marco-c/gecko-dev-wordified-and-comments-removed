@@ -197,6 +197,12 @@ google_test
 hg
 "
 \
+"
+.
+/
+out
+"
+\
 )
 top
 =

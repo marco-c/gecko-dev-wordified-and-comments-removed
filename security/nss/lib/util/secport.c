@@ -2582,6 +2582,16 @@ envValue
 )
 )
 ;
+if
+(
+!
+encoded
+)
+{
+return
+SECFailure
+;
+}
 strcpy
 (
 encoded

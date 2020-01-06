@@ -1106,6 +1106,16 @@ PORT_Alloc
 len
 )
 ;
+if
+(
+!
+string
+)
+{
+return
+NULL
+;
+}
 ptr
 =
 string

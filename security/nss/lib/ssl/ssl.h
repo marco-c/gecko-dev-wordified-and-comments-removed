@@ -882,6 +882,7 @@ unsigned
 int
 SSL_SignatureMaxCount
 (
+void
 )
 ;
 SSL_IMPORT
