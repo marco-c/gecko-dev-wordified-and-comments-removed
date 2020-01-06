@@ -260,15 +260,6 @@ ActionBar
 "
 app
 :
-title
-=
-"
-string
-/
-bookmark_edit_title
-"
-app
-:
 titleTextColor
 =
 "

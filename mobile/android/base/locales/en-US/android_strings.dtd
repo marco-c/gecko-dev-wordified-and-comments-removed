@@ -6093,6 +6093,15 @@ Bookmark
 <
 !
 ENTITY
+bookmark_edit_folder_title
+"
+Edit
+Folder
+"
+>
+<
+!
+ENTITY
 bookmark_edit_name
 "
 Name
