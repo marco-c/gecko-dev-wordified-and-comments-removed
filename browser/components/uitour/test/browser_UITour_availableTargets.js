@@ -57,7 +57,14 @@ hasQuit
 isPhoton
 |
 |
-false
+AppConstants
+.
+platform
+!
+=
+"
+macosx
+"
 ;
 var
 hasLibrary
