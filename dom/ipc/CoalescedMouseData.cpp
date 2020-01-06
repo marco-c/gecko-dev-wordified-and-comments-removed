@@ -313,11 +313,14 @@ mRefreshDriver
 mTabChild
 -
 >
-MaybeDispatchCoalescedMouseMoveEvents
+FlushAllCoalescedMouseData
 (
 )
 ;
-RemoveObserver
+mTabChild
+-
+>
+ProcessPendingCoalescedMouseDataAndDispatchEvents
 (
 )
 ;
