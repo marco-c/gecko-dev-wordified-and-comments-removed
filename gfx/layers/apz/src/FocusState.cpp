@@ -164,7 +164,7 @@ ft
 =
 (
 %
-d
+s
 %
 "
 PRIu64
@@ -175,14 +175,10 @@ n
 "
 aRootLayerTreeId
 aOriginatingLayersId
-static_cast
-<
-int
->
-(
 aState
 .
-mType
+Type
+(
 )
 aState
 .
