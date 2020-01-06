@@ -776,9 +776,6 @@ nsIChannel
 result
 )
 {
-nsresult
-rv
-;
 nsFileChannel
 *
 chan
@@ -829,14 +826,14 @@ NS_ADDREF
 chan
 )
 ;
+nsresult
 rv
 =
 chan
 -
 >
-SetLoadInfo
+Init
 (
-aLoadInfo
 )
 ;
 if
@@ -861,8 +858,9 @@ rv
 chan
 -
 >
-Init
+SetLoadInfo
 (
+aLoadInfo
 )
 ;
 if
