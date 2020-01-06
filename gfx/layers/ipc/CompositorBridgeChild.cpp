@@ -2595,6 +2595,18 @@ TimeStamp
 aCompositeEnd
 )
 {
+AutoTArray
+<
+RefPtr
+<
+TextureClientPool
+>
+2
+>
+texturePools
+=
+mTexturePools
+;
 if
 (
 mLayerManager
@@ -2712,7 +2724,7 @@ i
 ;
 i
 <
-mTexturePools
+texturePools
 .
 Length
 (
@@ -2723,7 +2735,7 @@ i
 +
 )
 {
-mTexturePools
+texturePools
 [
 i
 ]
