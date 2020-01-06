@@ -239,6 +239,7 @@ leaf
 }
 #
 endif
+static
 const
 nsHTMLElement
 gHTMLElements

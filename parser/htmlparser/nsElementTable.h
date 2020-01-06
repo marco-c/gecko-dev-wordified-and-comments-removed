@@ -110,12 +110,5 @@ aTag
 ;
 }
 ;
-extern
-const
-nsHTMLElement
-gHTMLElements
-[
-]
-;
 #
 endif
