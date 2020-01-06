@@ -1932,12 +1932,14 @@ Function
 >
 Rc
 <
-Vec
+Box
 <
+[
 Heap
 <
 JSVal
 >
+]
 >
 >
 )
@@ -2175,6 +2177,10 @@ Rc
 new
 (
 args
+.
+into_boxed_slice
+(
+)
 )
 )
 }
