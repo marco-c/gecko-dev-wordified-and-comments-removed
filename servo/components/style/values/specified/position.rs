@@ -40,8 +40,9 @@ computed
 :
 {
 CalcLengthOrPercentage
-ComputedValueAsSpecified
-Context
+LengthOrPercentage
+as
+ComputedLengthOrPercentage
 }
 ;
 use
@@ -52,9 +53,7 @@ computed
 :
 :
 {
-LengthOrPercentage
-as
-ComputedLengthOrPercentage
+Context
 ToComputedValue
 }
 ;
