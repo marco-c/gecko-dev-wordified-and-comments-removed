@@ -1542,7 +1542,7 @@ RectifierFrameLayout
 }
 ;
 class
-WasmFrameLayout
+WasmToJSJitFrameLayout
 :
 public
 JitFrameLayout
@@ -1559,7 +1559,7 @@ Size
 return
 sizeof
 (
-WasmFrameLayout
+WasmToJSJitFrameLayout
 )
 ;
 }

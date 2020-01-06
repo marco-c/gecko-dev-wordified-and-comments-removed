@@ -868,6 +868,14 @@ fixBaselineReturnAddress
 )
 ;
 void
+moveToWasmFrame
+(
+CommonFrameLayout
+*
+frame
+)
+;
+void
 moveToNextFrame
 (
 CommonFrameLayout

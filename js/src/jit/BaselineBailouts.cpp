@@ -2028,6 +2028,12 @@ MOZ_ASSERT
 priorType
 =
 =
+JitFrame_WasmToJSJit
+|
+|
+priorType
+=
+=
 JitFrame_IonJS
 |
 |
@@ -2043,6 +2049,12 @@ priorType
 =
 =
 JitFrame_IonJS
+|
+|
+priorType
+=
+=
+JitFrame_WasmToJSJit
 )
 return
 nullptr
