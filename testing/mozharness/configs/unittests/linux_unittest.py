@@ -2444,11 +2444,9 @@ layers
 .
 acceleration
 .
-force
--
-enabled
-=
 disabled
+=
+true
 "
 ]
             
