@@ -130,7 +130,7 @@ servo
 restyle_damage
 :
 :
-RESOLVE_GENERATED_CONTENT
+ServoRestyleDamage
 ;
 #
 [
@@ -322,6 +322,9 @@ restyle_damage
 .
 insert
 (
+ServoRestyleDamage
+:
+:
 RESOLVE_GENERATED_CONTENT
 )
 }

@@ -124,10 +124,7 @@ use
 element_state
 :
 :
-{
-IN_LTR_STATE
-IN_RTL_STATE
-}
+ElementState
 ;
 const
 LTR
@@ -198,6 +195,9 @@ LTR
 *
 s
 {
+ElementState
+:
+:
 IN_LTR_STATE
 }
 else
@@ -208,6 +208,9 @@ RTL
 *
 s
 {
+ElementState
+:
+:
 IN_RTL_STATE
 }
 else

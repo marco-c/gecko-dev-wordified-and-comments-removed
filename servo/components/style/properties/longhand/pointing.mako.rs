@@ -1183,6 +1183,9 @@ all
 flags
 =
 "
+PropertyFlags
+:
+:
 APPLIES_TO_PLACEHOLDER
 "
 spec

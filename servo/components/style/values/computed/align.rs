@@ -208,7 +208,10 @@ self
 align
 :
 :
-ALIGN_AUTO
+AlignFlags
+:
+:
+AUTO
 {
 *
 self

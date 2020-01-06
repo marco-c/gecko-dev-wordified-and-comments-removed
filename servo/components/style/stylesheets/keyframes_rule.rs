@@ -117,7 +117,7 @@ style_traits
 :
 :
 {
-PARSING_MODE_DEFAULT
+ParsingMode
 ToCss
 ParseError
 StyleParseErrorKind
@@ -1280,7 +1280,10 @@ CssRuleType
 :
 Keyframe
 )
-PARSING_MODE_DEFAULT
+ParsingMode
+:
+:
+DEFAULT
 parent_stylesheet_contents
 .
 quirks_mode

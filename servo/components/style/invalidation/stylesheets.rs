@@ -39,10 +39,7 @@ element
 restyle_hints
 :
 :
-{
-RESTYLE_SELF
 RestyleHint
-}
 ;
 use
 media_queries
@@ -1007,6 +1004,9 @@ hint
 .
 contains
 (
+RestyleHint
+:
+:
 RESTYLE_SELF
 )
 {
@@ -1053,6 +1053,9 @@ hint
 .
 insert
 (
+RestyleHint
+:
+:
 RESTYLE_SELF
 )
 ;

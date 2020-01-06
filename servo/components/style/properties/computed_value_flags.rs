@@ -75,7 +75,7 @@ handle
 this
 .
 pub
-flags
+struct
 ComputedValueFlags
 :
 u16
@@ -144,6 +144,7 @@ HAS_TEXT_DECORATION_LINES
 <
 <
 0
+;
 /
 /
 /
@@ -238,6 +239,7 @@ SHOULD_SUPPRESS_LINEBREAK
 <
 <
 1
+;
 /
 /
 /
@@ -279,6 +281,7 @@ IS_TEXT_COMBINED
 <
 <
 2
+;
 /
 /
 /
@@ -307,6 +310,7 @@ IS_RELEVANT_LINK_VISITED
 <
 <
 3
+;
 /
 /
 /
@@ -333,6 +337,7 @@ IS_IN_PSEUDO_ELEMENT_SUBTREE
 <
 <
 4
+;
 /
 /
 /
@@ -364,6 +369,7 @@ IS_IN_DISPLAY_NONE_SUBTREE
 <
 <
 5
+;
 /
 /
 /
@@ -426,6 +432,7 @@ INHERITS_DISPLAY
 <
 <
 6
+;
 /
 /
 /
@@ -457,6 +464,7 @@ INHERITS_CONTENT
 <
 <
 7
+;
 /
 /
 /
@@ -476,6 +484,7 @@ INHERITS_RESET_STYLE
 <
 <
 8
+;
 /
 /
 /
@@ -498,6 +507,7 @@ IS_STYLE_IF_VISITED
 <
 <
 9
+;
 }
 }
 impl
@@ -521,10 +531,19 @@ self
 &
 !
 (
+ComputedValueFlags
+:
+:
 INHERITS_DISPLAY
 |
+ComputedValueFlags
+:
+:
 INHERITS_CONTENT
 |
+ComputedValueFlags
+:
+:
 INHERITS_RESET_STYLE
 )
 }

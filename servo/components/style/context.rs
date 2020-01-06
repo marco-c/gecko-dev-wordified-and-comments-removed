@@ -326,6 +326,12 @@ Stylist
 ;
 use
 thread_state
+:
+:
+{
+self
+ThreadState
+}
 ;
 use
 time
@@ -2192,7 +2198,7 @@ normal
 restyle
 .
 pub
-flags
+struct
 UpdateAnimationsTasks
 :
 u8
@@ -2211,6 +2217,7 @@ structs
 :
 :
 UpdateAnimationsTasks_CSSAnimations
+;
 /
 /
 /
@@ -2225,6 +2232,7 @@ structs
 :
 :
 UpdateAnimationsTasks_CSSTransitions
+;
 /
 /
 /
@@ -2239,6 +2247,7 @@ structs
 :
 :
 UpdateAnimationsTasks_EffectProperties
+;
 /
 /
 /
@@ -2260,6 +2269,7 @@ structs
 :
 :
 UpdateAnimationsTasks_CascadeResults
+;
 }
 }
 #
@@ -2300,7 +2310,7 @@ only
 restyle
 .
 pub
-flags
+struct
 PostAnimationTasks
 :
 u8
@@ -2344,6 +2354,7 @@ const
 DISPLAY_CHANGED_FROM_NONE_FOR_SMIL
 =
 0x01
+;
 }
 }
 pub
@@ -2456,7 +2467,7 @@ get
 )
 =
 =
-thread_state
+ThreadState
 :
 :
 LAYOUT
@@ -2951,7 +2962,7 @@ get
 )
 =
 =
-thread_state
+ThreadState
 :
 :
 LAYOUT
@@ -3128,7 +3139,7 @@ get
 )
 =
 =
-thread_state
+ThreadState
 :
 :
 LAYOUT
@@ -3952,7 +3963,7 @@ get
 )
 =
 =
-thread_state
+ThreadState
 :
 :
 LAYOUT

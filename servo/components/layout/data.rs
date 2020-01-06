@@ -173,7 +173,7 @@ bitflags
 !
 {
 pub
-flags
+struct
 LayoutDataFlags
 :
 u8
@@ -197,6 +197,7 @@ const
 HAS_NEWLY_CONSTRUCTED_FLOW
 =
 0x01
+;
 #
 [
 doc
@@ -217,5 +218,6 @@ const
 HAS_BEEN_TRAVERSED
 =
 0x02
+;
 }
 }
