@@ -1079,7 +1079,10 @@ CheckContentPolicy
 (
 nsIPrincipal
 *
-aSourcePrincipal
+aLoadingPrincipal
+nsIPrincipal
+*
+aTriggeringPrincipal
 nsIURI
 *
 aTargetURI

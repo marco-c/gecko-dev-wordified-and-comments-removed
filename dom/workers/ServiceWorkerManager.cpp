@@ -3948,6 +3948,7 @@ nsIContentPolicy
 TYPE_INTERNAL_SERVICE_WORKER
 aScriptURI
 documentPrincipal
+documentPrincipal
 doc
 EmptyCString
 (

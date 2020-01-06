@@ -6531,6 +6531,12 @@ doc
 NodePrincipal
 (
 )
+doc
+-
+>
+NodePrincipal
+(
+)
 thisContent
 mContentType
 nullptr
@@ -6753,6 +6759,12 @@ mURI
 mURI
 :
 mBaseURI
+doc
+-
+>
+NodePrincipal
+(
+)
 doc
 -
 >

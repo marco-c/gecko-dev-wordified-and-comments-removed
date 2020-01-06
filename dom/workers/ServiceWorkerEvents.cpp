@@ -1437,6 +1437,12 @@ LoadingPrincipal
 aLoadInfo
 -
 >
+TriggeringPrincipal
+(
+)
+aLoadInfo
+-
+>
 LoadingNode
 (
 )

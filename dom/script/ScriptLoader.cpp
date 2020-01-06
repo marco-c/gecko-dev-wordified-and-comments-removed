@@ -1437,6 +1437,12 @@ aDocument
 NodePrincipal
 (
 )
+aDocument
+-
+>
+NodePrincipal
+(
+)
 aContext
 NS_LossyConvertUTF16toASCII
 (

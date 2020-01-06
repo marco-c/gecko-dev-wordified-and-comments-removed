@@ -3032,6 +3032,7 @@ NS_CheckContentLoadPolicy
 aPolicyType
 contentLocation
 aTriggeringPrincipal
+aTriggeringPrincipal
 aLoadingContext
 EmptyCString
 (

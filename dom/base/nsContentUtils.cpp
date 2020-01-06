@@ -16476,6 +16476,7 @@ NS_CheckContentLoadPolicy
 aContentType
 aURI
 aLoadingPrincipal
+aLoadingPrincipal
 aContext
 EmptyCString
 (

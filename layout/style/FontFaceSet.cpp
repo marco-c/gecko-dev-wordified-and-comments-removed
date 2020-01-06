@@ -6878,6 +6878,7 @@ nsIContentPolicy
 TYPE_FONT
 aFontLocation
 aPrincipal
+aPrincipal
 mDocument
 EmptyCString
 (

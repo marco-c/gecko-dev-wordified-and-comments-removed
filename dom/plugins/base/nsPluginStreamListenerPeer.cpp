@@ -783,6 +783,7 @@ nsIContentPolicy
 TYPE_OBJECT_SUBREQUEST
 mURL
 principal
+principal
 element
 contentType
 nullptr

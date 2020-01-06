@@ -39887,6 +39887,7 @@ NS_CheckContentLoadPolicy
 (
 contentType
 aURI
+nullptr
 aTriggeringPrincipal
 requestingContext
 EmptyCString

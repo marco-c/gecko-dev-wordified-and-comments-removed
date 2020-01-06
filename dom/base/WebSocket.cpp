@@ -6089,6 +6089,7 @@ nsIContentPolicy
 TYPE_WEBSOCKET
 uri
 aPrincipal
+aPrincipal
 originDoc
 EmptyCString
 (
