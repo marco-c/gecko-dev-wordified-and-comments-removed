@@ -333,6 +333,15 @@ if
 mNextIndex
 >
 0
+|
+|
+!
+mTextRun
+-
+>
+mSingleGlyphRun
+.
+mFont
 )
 {
 return
