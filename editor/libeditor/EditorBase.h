@@ -3207,11 +3207,11 @@ nsIDOMEventListener
 >
 mEventListener
 ;
-WeakPtr
+RefPtr
 <
 PlaceholderTransaction
 >
-mPlaceholderTransactionWeak
+mPlaceholderTransaction
 ;
 nsIAtom
 *
