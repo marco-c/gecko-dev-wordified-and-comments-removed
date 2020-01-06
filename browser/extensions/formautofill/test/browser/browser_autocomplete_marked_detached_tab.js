@@ -184,6 +184,12 @@ checkPopup
 autoCompletePopup
 )
 ;
+await
+closePopup
+(
+browser
+)
+;
 let
 newWin
 =
