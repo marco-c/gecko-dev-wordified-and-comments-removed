@@ -56,7 +56,15 @@ MPL
 0
 /
 .
-AB_CD
+[
+features
+/
+devtools
+mozilla
+.
+org
+]
+chrome
 .
 jar
 :

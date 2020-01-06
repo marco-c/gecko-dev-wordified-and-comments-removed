@@ -53,6 +53,14 @@ MPL
 0
 /
 .
+[
+features
+/
+devtools
+mozilla
+.
+org
+]
 webide
 .
 jar
@@ -68,7 +76,6 @@ classic
 %
 skin
 /
-*
 skin
 /
 webide

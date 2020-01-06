@@ -85,6 +85,7 @@ debugger
 .
 js
 )
+*
 content
 /
 preferences
@@ -6276,15 +6277,3 @@ noautohide
 .
 svg
 )
-%
-manifest
-devtools
--
-startup
-.
-manifest
-%
-manifest
-webideComponents
-.
-manifest
