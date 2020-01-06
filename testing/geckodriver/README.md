@@ -777,6 +777,9 @@ Object
 lt
 ;
 string
+&
+nbsp
+;
 (
 string
 |
