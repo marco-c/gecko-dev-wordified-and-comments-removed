@@ -4433,6 +4433,10 @@ DispatchTimeMarchesOn
 (
 )
 ;
+DispatchUpdateCueDisplay
+(
+)
+;
 }
 void
 TextTrackManager
