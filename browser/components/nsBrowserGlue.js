@@ -2462,7 +2462,7 @@ startup
 :
 this
 .
-_finalUIStartup
+_beforeUIStartup
 (
 )
 ;
@@ -4559,10 +4559,10 @@ applyPrefDefaults
 )
 ;
 }
-_finalUIStartup
+_beforeUIStartup
 :
 function
-BG__finalUIStartup
+BG__beforeUIStartup
 (
 )
 {
