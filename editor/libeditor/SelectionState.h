@@ -362,9 +362,7 @@ SelAdjSplitNode
 (
 nsIContent
 &
-aOldRightNode
-int32_t
-aOffset
+aRightNode
 nsIContent
 *
 aNewLeftNode
