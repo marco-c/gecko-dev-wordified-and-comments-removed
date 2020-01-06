@@ -760,12 +760,9 @@ frame
 frame
 -
 >
-IsFrameOfType
+HasAllStateBits
 (
-nsIFrame
-:
-:
-eSVG
+NS_FRAME_SVG_LAYOUT
 )
 )
 {
