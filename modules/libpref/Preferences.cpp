@@ -2703,8 +2703,6 @@ char
 *
 mName
 ;
-public
-:
 PrefValue
 mDefaultValue
 ;
