@@ -8252,9 +8252,9 @@ onboarding
 /
 img
 /
-watermark64
+watermark
 .
-png
+svg
 "
 ;
 button
