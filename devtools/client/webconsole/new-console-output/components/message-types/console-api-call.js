@@ -263,6 +263,7 @@ messageId
 parameters
 userProvidedStyles
 serviceContainer
+type
 }
 ;
 if
@@ -549,6 +550,7 @@ messageId
 parameters
 serviceContainer
 userProvidedStyles
+type
 }
 =
 options
@@ -587,6 +589,7 @@ useQuotes
 :
 false
 loadedObjectProperties
+type
 }
 )
 )
