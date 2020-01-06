@@ -5123,9 +5123,6 @@ touch_start_tolerance
 "
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -5138,8 +5135,6 @@ enabled
 false
 )
 ;
-#
-endif
 pref
 (
 "
