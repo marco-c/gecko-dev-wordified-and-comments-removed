@@ -222,12 +222,6 @@ number
 ;
 public
 long
-getDuration
-(
-)
-;
-public
-long
 getBufferedPosition
 (
 )
