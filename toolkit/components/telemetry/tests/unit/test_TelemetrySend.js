@@ -4482,10 +4482,6 @@ await
 waitAnnotateCrashReport
 (
 IS_UNIFIED_TELEMETRY
-?
-true
-:
-false
 (
 )
 =
@@ -4531,11 +4527,8 @@ true
 await
 waitAnnotateCrashReport
 (
+!
 IS_UNIFIED_TELEMETRY
-?
-false
-:
-true
 (
 )
 =
