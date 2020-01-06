@@ -135,12 +135,3 @@ lib
 .
 js
 )
-content
-/
-modules
-/
-(
-*
-.
-jsm
-)
