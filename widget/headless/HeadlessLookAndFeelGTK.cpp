@@ -878,15 +878,6 @@ aResult
 break
 ;
 case
-eIntID_ColorPickerAvailable
-:
-aResult
-=
-1
-;
-break
-;
-case
 eIntID_PhysicalHomeButton
 :
 aResult
