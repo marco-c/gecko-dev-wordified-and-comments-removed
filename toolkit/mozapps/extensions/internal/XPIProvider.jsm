@@ -1840,6 +1840,9 @@ apiextension
 "
 extension
 "
+"
+theme
+"
 ]
 )
 ;
