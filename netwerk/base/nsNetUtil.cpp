@@ -6099,6 +6099,10 @@ runnable
 forget
 (
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6299,6 +6303,10 @@ runnable
 forget
 (
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 if

@@ -135,7 +135,6 @@ TailDispatcher
 )
 ;
 }
-MOZ_MUST_USE
 nsresult
 Dispatch
 (
@@ -144,6 +143,10 @@ already_AddRefed
 nsIRunnable
 >
 aRunnable
+DispatchFailureHandling
+aFailureHandling
+=
+AssertDispatchSuccess
 DispatchReason
 aReason
 =
@@ -161,6 +164,7 @@ Move
 (
 aRunnable
 )
+aFailureHandling
 aReason
 )
 ;
