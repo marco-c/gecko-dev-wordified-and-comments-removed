@@ -157,6 +157,13 @@ components
 /
 selectors
 "
+features
+=
+[
+"
+gecko_like_types
+"
+]
 }
 style_traits
 =
