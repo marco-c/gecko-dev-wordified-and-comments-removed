@@ -2627,6 +2627,7 @@ createNonSyntactic
 (
 cx
 env
+global
 )
 ;
 if

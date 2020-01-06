@@ -2729,6 +2729,7 @@ createNonSyntactic
 (
 cx
 enclosing
+enclosing
 )
 ;
 if

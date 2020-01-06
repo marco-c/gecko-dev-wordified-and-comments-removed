@@ -5798,6 +5798,8 @@ JSContext
 cx
 HandleObject
 enclosing
+HandleObject
+thisv
 )
 {
 MOZ_ASSERT
@@ -5866,7 +5868,7 @@ env
 >
 initThisValue
 (
-enclosing
+thisv
 )
 ;
 return

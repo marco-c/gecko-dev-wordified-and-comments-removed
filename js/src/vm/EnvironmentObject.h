@@ -1391,6 +1391,8 @@ JSContext
 cx
 HandleObject
 enclosing
+HandleObject
+thisv
 )
 ;
 static
