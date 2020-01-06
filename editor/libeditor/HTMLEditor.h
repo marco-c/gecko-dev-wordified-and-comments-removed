@@ -662,16 +662,6 @@ aNode
 )
 ;
 static
-nsIDOMNode
-*
-GetBlockNodeParent
-(
-nsIDOMNode
-*
-aNode
-)
-;
-static
 Element
 *
 GetBlock
