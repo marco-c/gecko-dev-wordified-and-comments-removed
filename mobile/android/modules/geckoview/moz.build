@@ -130,6 +130,11 @@ GeckoViewSettings
 jsm
 '
 '
+GeckoViewTab
+.
+jsm
+'
+'
 Messaging
 .
 jsm
