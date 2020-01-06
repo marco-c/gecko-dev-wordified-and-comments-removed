@@ -8291,6 +8291,12 @@ return
 NS_OK
 ;
 }
+IgnoreOpensDuringUnload
+ignoreOpenGuard
+(
+this
+)
+;
 mParser
 -
 >
@@ -8298,7 +8304,7 @@ Terminate
 (
 )
 ;
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 !
 mParser

@@ -555,6 +555,16 @@ GetDelegate
 )
 ;
 }
+void
+PermanentlyUndefineInsertionPoint
+(
+)
+{
+mInsertionPointPermanentlyUndefined
+=
+true
+;
+}
 nsresult
 ParseUntilBlocked
 (
@@ -588,6 +598,9 @@ mDocumentClosed
 ;
 bool
 mInDocumentWrite
+;
+bool
+mInsertionPointPermanentlyUndefined
 ;
 RefPtr
 <
