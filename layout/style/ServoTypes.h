@@ -249,8 +249,6 @@ XXXLarge
 struct
 ServoFontComputationData
 {
-private
-:
 ServoKeywordSize
 mKeyword
 ;
