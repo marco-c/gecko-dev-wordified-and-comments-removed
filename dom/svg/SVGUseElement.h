@@ -18,7 +18,11 @@ h
 #
 include
 "
-nsReferencedElement
+mozilla
+/
+dom
+/
+IDTracker
 .
 h
 "
