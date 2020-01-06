@@ -1835,7 +1835,6 @@ ErrorStatus
 :
 :
 InvalidArgument
-&
 format
 !
 (
@@ -2184,6 +2183,10 @@ UnknownError
 e
 .
 description
+(
+)
+.
+to_owned
 (
 )
 )
@@ -3762,8 +3765,6 @@ ErrorStatus
 :
 :
 UnknownError
-&
-*
 format
 !
 (
@@ -3825,8 +3826,6 @@ WebDriverError
 new
 (
 status
-&
-*
 error
 .
 message
@@ -8387,6 +8386,10 @@ e
 description
 (
 )
+.
+to_owned
+(
+)
 )
 )
 ;
@@ -8596,8 +8599,6 @@ ErrorStatus
 :
 :
 UnknownError
-&
-*
 format
 !
 (
