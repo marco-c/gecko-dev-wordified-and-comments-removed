@@ -8002,13 +8002,10 @@ self
 profiler_metadata
 (
 )
+&
 self
 .
 time_profiler_chan
-.
-clone
-(
-)
 0
 text_shaping_time
 0
