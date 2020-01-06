@@ -329,6 +329,10 @@ empty
 )
 }
 }
+#
+[
+inline
+]
 fn
 clear_restyle_state
 (
@@ -355,6 +359,10 @@ empty
 )
 ;
 }
+#
+[
+inline
+]
 fn
 clear_restyle_flags_and_damage
 (
@@ -519,6 +527,10 @@ TRAVERSED_WITHOUT_STYLING
 )
 ;
 }
+#
+[
+inline
+]
 pub
 fn
 is_restyle
@@ -578,6 +590,10 @@ contains
 TRAVERSED_WITHOUT_STYLING
 )
 }
+#
+[
+inline
+]
 pub
 fn
 contains_restyle_data
@@ -1586,6 +1602,10 @@ handled_snapshot
 ;
 }
 }
+#
+[
+inline
+]
 pub
 fn
 has_styles
@@ -1918,6 +1938,10 @@ important_rules
 =
 other_important_rules
 }
+#
+[
+inline
+]
 pub
 fn
 clear_restyle_state
@@ -1936,6 +1960,10 @@ clear_restyle_state
 )
 ;
 }
+#
+[
+inline
+]
 pub
 fn
 clear_restyle_flags_and_damage

@@ -68,6 +68,10 @@ nsChangeHint
 impl
 GeckoRestyleDamage
 {
+#
+[
+inline
+]
 pub
 fn
 new
@@ -85,6 +89,10 @@ GeckoRestyleDamage
 raw
 )
 }
+#
+[
+inline
+]
 pub
 fn
 as_change_hint
@@ -100,6 +108,10 @@ self
 .
 0
 }
+#
+[
+inline
+]
 pub
 fn
 empty
@@ -117,6 +129,10 @@ nsChangeHint
 )
 )
 }
+#
+[
+inline
+]
 pub
 fn
 is_empty

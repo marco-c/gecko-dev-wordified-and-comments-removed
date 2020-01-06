@@ -492,6 +492,10 @@ FlushThrottledAnimations
 impl
 TraversalFlags
 {
+#
+[
+inline
+]
 pub
 fn
 for_animation_only
