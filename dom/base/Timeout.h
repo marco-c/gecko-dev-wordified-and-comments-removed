@@ -159,7 +159,7 @@ mInterval
 uint32_t
 mFiringId
 ;
-uint32_t
+uint8_t
 mNestingLevel
 ;
 PopupControlState
