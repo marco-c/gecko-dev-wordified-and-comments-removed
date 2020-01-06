@@ -437,6 +437,10 @@ TelemetryBackgroundReceiver
 (
 )
 ;
+private
+boolean
+initialized
+;
 public
 static
 TelemetryBackgroundReceiver
@@ -456,6 +460,14 @@ Context
 context
 )
 {
+if
+(
+initialized
+)
+{
+return
+;
+}
 LocalBroadcastManager
 .
 getInstance
@@ -472,6 +484,10 @@ IntentFilter
 ACTION_BACKGROUND_TELEMETRY
 )
 )
+;
+initialized
+=
+true
 ;
 }
 Override
