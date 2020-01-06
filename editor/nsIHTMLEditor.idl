@@ -157,6 +157,7 @@ Element
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 87ee993e

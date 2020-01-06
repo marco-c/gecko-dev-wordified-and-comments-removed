@@ -111,6 +111,7 @@ nsIDOMRange
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 4805e684

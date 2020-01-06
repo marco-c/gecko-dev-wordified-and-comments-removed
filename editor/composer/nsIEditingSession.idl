@@ -115,6 +115,7 @@ nsIEditor
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 24f963d1

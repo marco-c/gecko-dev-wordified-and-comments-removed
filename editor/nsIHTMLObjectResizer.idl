@@ -109,6 +109,7 @@ idl
 "
 [
 scriptable
+builtinclass
 uuid
 (
 8b396020

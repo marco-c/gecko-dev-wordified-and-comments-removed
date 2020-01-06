@@ -108,6 +108,7 @@ nsIDOMNode
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 fdf23301
