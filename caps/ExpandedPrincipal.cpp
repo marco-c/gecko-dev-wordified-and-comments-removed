@@ -372,7 +372,7 @@ subOrigin
 }
 origin
 .
-Append
+AppendLiteral
 (
 "
 ]
@@ -915,7 +915,7 @@ spec
 }
 aStr
 .
-Append
+AppendLiteral
 (
 "
 ]

@@ -8519,7 +8519,7 @@ contractid
 ;
 contractid
 .
-Assign
+AssignLiteral
 (
 NS_HTTP_AUTHENTICATOR_CONTRACTID_PREFIX
 )

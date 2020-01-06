@@ -1306,7 +1306,7 @@ mrghh
 /
 note
 .
-Append
+AppendLiteral
 (
 "
 AdapterVendorID
@@ -1323,7 +1323,7 @@ narrowVendorID
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 AdapterDeviceID

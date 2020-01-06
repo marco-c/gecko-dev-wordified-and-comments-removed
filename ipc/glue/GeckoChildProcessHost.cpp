@@ -3435,7 +3435,7 @@ GeckoProcessType_Plugin
 {
 new_ld_lib_path
 .
-Append
+AppendLiteral
 (
 "
 /

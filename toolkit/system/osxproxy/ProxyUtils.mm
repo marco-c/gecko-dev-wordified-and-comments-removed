@@ -233,7 +233,7 @@ i
 {
 aNormalized
 .
-Append
+AppendLiteral
 (
 "
 .
@@ -267,7 +267,7 @@ else
 {
 aNormalized
 .
-Append
+AppendLiteral
 (
 "
 0

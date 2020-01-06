@@ -3082,7 +3082,7 @@ aHost
 ;
 hostSegment
 .
-Append
+AppendLiteral
 (
 "
 ]

@@ -702,7 +702,7 @@ mType
 ;
 filename
 .
-Append
+AppendLiteral
 (
 "
 .

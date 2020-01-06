@@ -1229,7 +1229,7 @@ mName
 ;
 s
 .
-Append
+AppendLiteral
 (
 "
 version
@@ -1246,7 +1246,7 @@ mVersion
 ;
 s
 .
-Append
+AppendLiteral
 (
 "
 tags
@@ -1280,7 +1280,7 @@ IsEmpty
 {
 tags
 .
-Append
+AppendLiteral
 (
 "
 "
@@ -1310,7 +1310,7 @@ mAPITags
 {
 tags
 .
-Append
+AppendLiteral
 (
 "
 :
@@ -1335,7 +1335,7 @@ tags
 ;
 s
 .
-Append
+AppendLiteral
 (
 "
 ]
@@ -1404,7 +1404,7 @@ IsEmpty
 {
 s
 .
-Append
+AppendLiteral
 (
 "
 "

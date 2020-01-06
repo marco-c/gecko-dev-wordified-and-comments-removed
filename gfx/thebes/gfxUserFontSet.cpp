@@ -6720,7 +6720,7 @@ Truncate
 ;
 spec
 .
-Append
+AppendLiteral
 (
 "
 .

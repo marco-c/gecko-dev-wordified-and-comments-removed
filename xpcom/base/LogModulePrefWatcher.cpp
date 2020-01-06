@@ -345,7 +345,7 @@ PID
 {
 prefValue
 .
-Append
+AppendLiteral
 (
 "
 %

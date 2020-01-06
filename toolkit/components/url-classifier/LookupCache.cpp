@@ -1902,7 +1902,7 @@ host
 key
 -
 >
-Append
+AppendLiteral
 (
 "
 /
@@ -1995,7 +1995,7 @@ last
 lookupHost
 -
 >
-Append
+AppendLiteral
 (
 "
 .
@@ -2016,7 +2016,7 @@ last
 lookupHost
 -
 >
-Append
+AppendLiteral
 (
 "
 /
@@ -2069,7 +2069,7 @@ last
 lookupHost2
 -
 >
-Append
+AppendLiteral
 (
 "
 .

@@ -709,7 +709,7 @@ origMsg
 ;
 msg
 .
-Append
+AppendLiteral
 (
 "
 :

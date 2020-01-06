@@ -6962,7 +6962,7 @@ aName
 ;
 command
 .
-Append
+AppendLiteral
 (
 "
 (

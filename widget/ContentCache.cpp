@@ -189,7 +189,7 @@ aRect
 x
 )
 ;
-Append
+AppendLiteral
 (
 "
 y
@@ -204,7 +204,7 @@ aRect
 y
 )
 ;
-Append
+AppendLiteral
 (
 "
 width
@@ -219,7 +219,7 @@ aRect
 width
 )
 ;
-Append
+AppendLiteral
 (
 "
 height
@@ -234,7 +234,7 @@ aRect
 height
 )
 ;
-Append
+AppendLiteral
 (
 "
 }
