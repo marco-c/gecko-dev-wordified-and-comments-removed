@@ -1202,14 +1202,6 @@ front
 "
 )
 ;
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -1233,7 +1225,6 @@ true
 }
 )
 ;
-}
 return
 Task
 .

@@ -1635,14 +1635,6 @@ function
 connection
 )
 {
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -1666,7 +1658,6 @@ true
 }
 )
 ;
-}
 DebuggerServer
 .
 allowChromeProcess

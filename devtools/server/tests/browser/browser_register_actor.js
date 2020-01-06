@@ -64,14 +64,6 @@ actor
 js
 "
 ;
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -95,7 +87,6 @@ true
 }
 )
 ;
-}
 gClient
 =
 new

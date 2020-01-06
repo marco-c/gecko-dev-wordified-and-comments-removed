@@ -25,14 +25,6 @@ test
 (
 )
 {
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -56,7 +48,6 @@ true
 }
 )
 ;
-}
 let
 transport
 =

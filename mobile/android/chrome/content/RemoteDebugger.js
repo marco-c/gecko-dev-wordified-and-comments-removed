@@ -756,16 +756,6 @@ function
 (
 )
 {
-if
-(
-DebuggerServer
-.
-initialized
-)
-{
-return
-;
-}
 DebuggerServer
 .
 init

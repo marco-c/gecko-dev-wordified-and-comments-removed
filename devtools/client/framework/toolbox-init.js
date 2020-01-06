@@ -364,14 +364,6 @@ linkedBrowser
 iframe
 }
 ;
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -395,7 +387,6 @@ true
 }
 )
 ;
-}
 let
 client
 =

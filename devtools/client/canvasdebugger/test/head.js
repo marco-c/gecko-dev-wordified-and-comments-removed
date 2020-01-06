@@ -1407,14 +1407,6 @@ initServer
 (
 )
 {
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -1438,7 +1430,6 @@ true
 }
 )
 ;
-}
 }
 function
 initCallWatcherBackend

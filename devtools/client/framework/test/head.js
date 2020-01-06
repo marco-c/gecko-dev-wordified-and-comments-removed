@@ -155,14 +155,6 @@ client
 "
 )
 ;
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -186,7 +178,6 @@ true
 }
 )
 ;
-}
 DebuggerServer
 .
 allowChromeProcess

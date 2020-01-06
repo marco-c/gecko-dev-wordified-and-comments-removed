@@ -10060,14 +10060,6 @@ SW__attach
 (
 )
 {
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -10091,7 +10083,6 @@ true
 }
 )
 ;
-}
 DebuggerServer
 .
 allowChromeProcess

@@ -2255,14 +2255,6 @@ get_chrome_actors
 callback
 )
 {
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -2286,7 +2278,6 @@ true
 }
 )
 ;
-}
 DebuggerServer
 .
 allowChromeProcess
