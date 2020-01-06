@@ -5166,6 +5166,15 @@ startswith
 sparc64
 '
 )
+or
+cpu
+.
+startswith
+(
+'
+sparcv9
+'
+)
 :
 canonical_cpu
 =
