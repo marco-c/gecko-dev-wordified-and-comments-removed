@@ -6086,17 +6086,6 @@ prefBranch
 MANAGE_OFFLINE_STATUS_PREF
 )
 ;
-nsCOMPtr
-<
-nsISupports
->
-cookieServ
-=
-do_GetService
-(
-NS_COOKIESERVICE_CONTRACTID
-)
-;
 }
 }
 else
