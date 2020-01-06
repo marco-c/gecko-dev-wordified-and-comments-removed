@@ -5468,7 +5468,7 @@ height
 u32
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -5592,7 +5592,7 @@ mut
 WrState
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -5669,7 +5669,7 @@ filter_count
 usize
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6107,7 +6107,7 @@ mut
 WrState
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6168,7 +6168,7 @@ WrImageMask
 >
 u64
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6330,7 +6330,7 @@ clip_id
 u64
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6382,7 +6382,7 @@ mut
 WrState
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6506,7 +6506,7 @@ scroll_id
 u64
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6562,7 +6562,7 @@ mut
 WrState
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6680,7 +6680,7 @@ const
 u64
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6786,7 +6786,7 @@ mut
 WrState
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6833,7 +6833,7 @@ pipeline_id
 WrPipelineId
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6897,7 +6897,7 @@ color
 ColorF
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -6976,7 +6976,7 @@ key
 WrImageKey
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7065,7 +7065,7 @@ image_rendering
 ImageRendering
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7158,7 +7158,7 @@ image_rendering
 ImageRendering
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7247,7 +7247,7 @@ image_rendering
 ImageRendering
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7345,7 +7345,7 @@ const
 GlyphOptions
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7440,7 +7440,7 @@ shadow
 TextShadow
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7504,7 +7504,7 @@ mut
 WrState
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7569,7 +7569,7 @@ style
 LineStyle
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7664,7 +7664,7 @@ radius
 BorderRadius
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7800,7 +7800,7 @@ repeat_vertical
 RepeatMode
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -7944,7 +7944,7 @@ f32
 >
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -8106,7 +8106,7 @@ f32
 >
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -8265,7 +8265,7 @@ tile_spacing
 LayoutSize
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -8411,7 +8411,7 @@ tile_spacing
 LayoutSize
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
@@ -8547,7 +8547,7 @@ clip_mode
 BoxShadowClipMode
 )
 {
-assert
+debug_assert
 !
 (
 unsafe
