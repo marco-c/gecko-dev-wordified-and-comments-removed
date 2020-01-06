@@ -170,7 +170,7 @@ AggressivelyForgetful
 <
 <
 4
-ClearDirtyDescendants
+ClearDirtyBits
 =
 1
 <

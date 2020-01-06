@@ -35,9 +35,9 @@ public
 explicit
 DocumentStyleRootIterator
 (
-nsIDocument
+nsINode
 *
-aDocument
+aStyleRoot
 )
 ;
 ~

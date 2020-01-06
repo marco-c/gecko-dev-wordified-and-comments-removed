@@ -56,6 +56,13 @@ index
 )
 SERVO_BINDING_FUNC
 (
+Servo_Element_IsDisplayNone
+bool
+RawGeckoElementBorrowed
+element
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleSheet_FromUTF8Bytes
 RawServoStyleSheetContentsStrong
 mozilla
