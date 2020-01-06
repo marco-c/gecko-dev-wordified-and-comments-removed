@@ -36907,7 +36907,7 @@ offset
 scrollFrame
 -
 >
-GetOffsetTo
+GetOffsetToCrossDoc
 (
 ReferenceFrame
 (
