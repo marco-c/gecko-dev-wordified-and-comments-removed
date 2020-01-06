@@ -646,6 +646,12 @@ dispatchToMainThread
 in
 nsIRunnable
 event
+[
+optional
+]
+in
+uint32_t
+priority
 )
 ;
 /
