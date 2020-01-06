@@ -125,6 +125,7 @@ schema
 import
 validate_schema
 Schema
+optionally_keyed_by
 from
 taskgraph
 .
@@ -1413,6 +1414,21 @@ release_promotion
 )
 :
 bool
+            
+Optional
+(
+'
+tuxedo_server_url
+'
+)
+:
+optionally_keyed_by
+(
+'
+project
+'
+basestring
+)
             
 Extra
 :
