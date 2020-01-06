@@ -2256,7 +2256,7 @@ mgr
 mgr
 -
 >
-Cancel
+MaybeCancelTransaction
 (
 NS_ERROR_DOM_OPERATION_ERR
 )
