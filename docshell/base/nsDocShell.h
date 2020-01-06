@@ -526,6 +526,9 @@ aDocShell
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aPrincipal
 int32_t
 aDelay
 bool
@@ -557,6 +560,12 @@ nsCOMPtr
 nsIURI
 >
 mURI
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mPrincipal
 ;
 int32_t
 mDelay
@@ -951,6 +960,9 @@ ForceRefreshURIFromTimer
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aPrincipal
 int32_t
 aDelay
 bool

@@ -28288,6 +28288,9 @@ RefreshURI
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aPrincipal
 int32_t
 aDelay
 bool
@@ -28378,6 +28381,7 @@ nsRefreshTimer
 (
 this
 aURI
+aPrincipal
 aDelay
 aRepeat
 aMetaRefresh
@@ -28510,6 +28514,9 @@ ForceRefreshURIFromTimer
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aPrincipal
 int32_t
 aDelay
 bool
@@ -28603,6 +28610,7 @@ return
 ForceRefreshURI
 (
 aURI
+aPrincipal
 aDelay
 aMetaRefresh
 )
@@ -28617,6 +28625,9 @@ ForceRefreshURI
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aPrincipal
 int32_t
 aDelay
 bool
@@ -28764,6 +28775,20 @@ nsIDocShellLoadInfo
 :
 :
 loadRefresh
+)
+;
+}
+if
+(
+aPrincipal
+)
+{
+loadInfo
+-
+>
+SetTriggeringPrincipal
+(
+aPrincipal
 )
 ;
 }
@@ -29646,6 +29671,7 @@ rv
 RefreshURI
 (
 uri
+aPrincipal
 seconds
 *
 1000
@@ -54656,6 +54682,9 @@ aDocShell
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aPrincipal
 int32_t
 aDelay
 bool
@@ -54671,6 +54700,10 @@ aDocShell
 mURI
 (
 aURI
+)
+mPrincipal
+(
+aPrincipal
 )
 mDelay
 (
@@ -54771,6 +54804,7 @@ mDocShell
 ForceRefreshURIFromTimer
 (
 mURI
+mPrincipal
 delay
 mMetaRefresh
 aTimer
