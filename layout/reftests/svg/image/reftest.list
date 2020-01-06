@@ -67,12 +67,6 @@ browserIsRemote
 4
 32
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 image

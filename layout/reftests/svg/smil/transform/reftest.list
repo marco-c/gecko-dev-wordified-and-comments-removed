@@ -83,12 +83,6 @@ gtkWidget
 1
 30
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 paced

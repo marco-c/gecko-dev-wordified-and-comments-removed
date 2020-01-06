@@ -4959,12 +4959,6 @@ ref
 .
 html
 fails
--
-if
-(
-!
-webrender
-)
 =
 =
 object
@@ -5013,12 +5007,6 @@ ref
 .
 html
 fails
--
-if
-(
-!
-webrender
-)
 =
 =
 object
