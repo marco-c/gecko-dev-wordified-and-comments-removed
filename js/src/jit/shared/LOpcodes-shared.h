@@ -1933,6 +1933,11 @@ IsArrayV
 \
 _
 (
+IsTypedArray
+)
+\
+_
+(
 IsObject
 )
 \

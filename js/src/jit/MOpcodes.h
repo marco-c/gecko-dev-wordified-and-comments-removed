@@ -1359,6 +1359,11 @@ IsArray
 \
 _
 (
+IsTypedArray
+)
+\
+_
+(
 IsObject
 )
 \
