@@ -1005,6 +1005,9 @@ aLoadGroup
 nsIPrincipal
 *
 aPrincipal
+nsDocShell
+*
+aContainer
 )
 {
 nsCOMPtr
@@ -1069,6 +1072,14 @@ ResetToURI
 uri
 aLoadGroup
 aPrincipal
+)
+;
+blankDoc
+-
+>
+SetContainer
+(
+aContainer
 )
 ;
 nsNodeInfoManager

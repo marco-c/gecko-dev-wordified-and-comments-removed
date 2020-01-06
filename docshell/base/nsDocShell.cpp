@@ -33104,6 +33104,7 @@ CreateBlankDocument
 (
 mLoadGroup
 principal
+this
 )
 ;
 if
@@ -33117,14 +33118,6 @@ blankDoc
 SetBaseURI
 (
 aBaseURI
-)
-;
-blankDoc
--
->
-SetContainer
-(
-this
 )
 ;
 blankDoc

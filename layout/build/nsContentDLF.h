@@ -19,6 +19,9 @@ nsMimeTypes
 h
 "
 class
+nsDocShell
+;
+class
 nsIChannel
 ;
 class
@@ -167,6 +170,9 @@ aLoadGroup
 nsIPrincipal
 *
 aPrincipal
+nsDocShell
+*
+aContainer
 )
 ;
 private
