@@ -1042,6 +1042,9 @@ numTargets
 ;
 if
 (
+gtkTargets
+&
+&
 gtk_clipboard_set_with_data
 (
 gtkClipboard
