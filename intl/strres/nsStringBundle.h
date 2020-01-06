@@ -87,16 +87,6 @@ nsStringBundle
 )
 ;
 nsresult
-GetStringFromIDHelper
-(
-int32_t
-aID
-nsAString
-&
-aResult
-)
-;
-nsresult
 GetStringFromNameHelper
 (
 const
