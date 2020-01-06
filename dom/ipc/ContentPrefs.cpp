@@ -282,6 +282,11 @@ max_chrome_script_run_time
 "
 dom
 .
+max_ext_content_script_run_time
+"
+"
+dom
+.
 max_script_run_time
 "
 "
