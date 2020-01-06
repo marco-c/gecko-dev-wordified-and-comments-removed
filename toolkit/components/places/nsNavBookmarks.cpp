@@ -270,7 +270,7 @@ void
 obs
 -
 >
-GetSkipTags
+GetSkipDescendantsOnItemRemoval
 (
 &
 skipDescendantsOnItemRemoval

@@ -17597,7 +17597,7 @@ aSkipDescendantsOnItemRemoval
 *
 aSkipDescendantsOnItemRemoval
 =
-false
+true
 ;
 return
 NS_OK
