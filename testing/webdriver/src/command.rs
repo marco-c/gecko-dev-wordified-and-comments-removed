@@ -10234,7 +10234,7 @@ body
 Some
 (
 "
-move
+pointerMove
 "
 )
 =
@@ -10262,7 +10262,7 @@ body
 Some
 (
 "
-cancel
+pointerCancel
 "
 )
 =
@@ -10405,7 +10405,7 @@ to_owned
 (
 )
 "
-cancel
+pointerCancel
 "
 .
 to_json
