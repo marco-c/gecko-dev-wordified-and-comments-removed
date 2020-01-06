@@ -1217,16 +1217,6 @@ mPendingPromisesCount
 0
 )
 ;
-MOZ_ASSERT
-(
-mSelfRef
-)
-;
-MOZ_ASSERT
-(
-mKeepAliveToken
-)
-;
 mRejected
 |
 =
