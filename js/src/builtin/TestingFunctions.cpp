@@ -18213,8 +18213,6 @@ node
 "
 wrapped
 JSPROP_ENUMERATE
-nullptr
-nullptr
 )
 )
 return
@@ -18292,8 +18290,6 @@ edge
 "
 edgeStr
 JSPROP_ENUMERATE
-nullptr
-nullptr
 )
 )
 return

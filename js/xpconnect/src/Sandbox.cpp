@@ -2760,6 +2760,13 @@ JSPROP_GETTER
 JSPROP_SETTER
 )
 ;
+attrs
+|
+=
+JSPROP_PROPOP_ACCESSORS
+|
+JSPROP_REDEFINE_NONCONFIGURABLE
+;
 if
 (
 !
@@ -2768,12 +2775,6 @@ JS_DefinePropertyById
 cx
 obj
 id
-v
-attrs
-|
-JSPROP_PROPOP_ACCESSORS
-|
-JSPROP_REDEFINE_NONCONFIGURABLE
 JS_PROPERTYOP_GETTER
 (
 writeToProto_getProperty
@@ -2782,6 +2783,7 @@ JS_PROPERTYOP_SETTER
 (
 writeToProto_setProperty
 )
+attrs
 )
 )
 return

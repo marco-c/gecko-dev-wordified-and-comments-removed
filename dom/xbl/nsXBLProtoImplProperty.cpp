@@ -792,11 +792,6 @@ name
 Length
 (
 )
-JS
-:
-:
-UndefinedHandleValue
-mJSAttributes
 JS_DATA_TO_FUNC_PTR
 (
 JSNative
@@ -815,6 +810,7 @@ get
 (
 )
 )
+mJSAttributes
 )
 )
 return

@@ -1660,8 +1660,6 @@ JS_DefinePropertyById
 ccx
 obj
 id
-UndefinedHandleValue
-propFlags
 JS_DATA_TO_FUNC_PTR
 (
 JSNative
@@ -1672,6 +1670,7 @@ get
 )
 )
 nullptr
+propFlags
 )
 ;
 }
@@ -2161,10 +2160,9 @@ JS_DefinePropertyById
 ccx
 obj
 id
-UndefinedHandleValue
-propFlags
 getter
 setter
+propFlags
 )
 ;
 }

@@ -7287,13 +7287,9 @@ glob
 "
 __LOCATION__
 "
-JS
-:
-:
-UndefinedHandleValue
-JSPROP_SHARED
 GetLocationProperty
 nullptr
+JSPROP_SHARED
 )
 ;
 {
