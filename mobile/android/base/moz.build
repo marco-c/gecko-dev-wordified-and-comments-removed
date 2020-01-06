@@ -4100,7 +4100,7 @@ java
 '
 media
 /
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 .
 java
 '
@@ -4121,14 +4121,14 @@ java
 '
 media
 /
-GeckoHlsResourceWrapper
+GeckoHLSResourceWrapper
 .
 java
 '
 '
 media
 /
-GeckoHlsSample
+GeckoHLSSample
 .
 java
 '
