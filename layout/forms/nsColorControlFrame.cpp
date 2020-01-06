@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsFormControlFrame
+nsCheckboxRadioFrame
 .
 h
 "
@@ -188,7 +188,7 @@ nsIFrame
 aDestructRoot
 )
 {
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 RegUnRegAccessKey

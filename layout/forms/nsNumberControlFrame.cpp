@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsFormControlFrame
+nsCheckboxRadioFrame
 .
 h
 "
@@ -304,7 +304,7 @@ first
 "
 )
 ;
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 RegUnRegAccessKey
@@ -611,7 +611,7 @@ mState
 NS_FRAME_FIRST_REFLOW
 )
 {
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 RegUnRegAccessKey

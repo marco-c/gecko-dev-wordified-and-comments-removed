@@ -18771,12 +18771,12 @@ NS_THEME_RADIO
 {
 /
 /
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 GetIntrinsicWidth
 and
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 GetIntrinsicHeight

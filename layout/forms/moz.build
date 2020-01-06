@@ -171,6 +171,11 @@ nsButtonFrameRenderer
 cpp
 '
 '
+nsCheckboxRadioFrame
+.
+cpp
+'
+'
 nsColorControlFrame
 .
 cpp
@@ -192,11 +197,6 @@ cpp
 '
 '
 nsFileControlFrame
-.
-cpp
-'
-'
-nsFormControlFrame
 .
 cpp
 '

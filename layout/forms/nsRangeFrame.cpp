@@ -61,7 +61,7 @@ h
 #
 include
 "
-nsFormControlFrame
+nsCheckboxRadioFrame
 .
 h
 "
@@ -445,7 +445,7 @@ mDummyTouchListener
 false
 )
 ;
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 RegUnRegAccessKey
@@ -1499,7 +1499,7 @@ mState
 NS_FRAME_FIRST_REFLOW
 )
 {
-nsFormControlFrame
+nsCheckboxRadioFrame
 :
 :
 RegUnRegAccessKey

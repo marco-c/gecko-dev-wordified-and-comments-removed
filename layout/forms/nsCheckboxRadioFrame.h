@@ -1,9 +1,9 @@
 #
 ifndef
-nsFormControlFrame_h___
+nsCheckboxRadioFrame_h___
 #
 define
-nsFormControlFrame_h___
+nsCheckboxRadioFrame_h___
 #
 include
 "
@@ -35,7 +35,7 @@ nsDisplayList
 h
 "
 class
-nsFormControlFrame
+nsCheckboxRadioFrame
 final
 :
 public
@@ -48,10 +48,10 @@ public
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 (
-nsFormControlFrame
+nsCheckboxRadioFrame
 )
 explicit
-nsFormControlFrame
+nsCheckboxRadioFrame
 (
 nsStyleContext
 *
@@ -108,7 +108,7 @@ override
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
 "
-nsFormControlFrame
+nsCheckboxRadioFrame
 "
 )
 ;
@@ -304,7 +304,7 @@ protected
 :
 virtual
 ~
-nsFormControlFrame
+nsCheckboxRadioFrame
 (
 )
 ;

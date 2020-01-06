@@ -28,6 +28,10 @@ Canvas
 )
 FRAME_TYPE
 (
+CheckboxRadio
+)
+FRAME_TYPE
+(
 ColorControl
 )
 FRAME_TYPE
@@ -65,10 +69,6 @@ FlexContainer
 FRAME_TYPE
 (
 FrameSet
-)
-FRAME_TYPE
-(
-FormControl
 )
 FRAME_TYPE
 (

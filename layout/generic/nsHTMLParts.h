@@ -29,7 +29,7 @@ class
 nsComboboxControlFrame
 ;
 class
-nsFormControlFrame
+nsCheckboxRadioFrame
 ;
 class
 nsIAtom
@@ -453,9 +453,9 @@ nsStyleContext
 aContext
 )
 ;
-nsFormControlFrame
+nsCheckboxRadioFrame
 *
-NS_NewFormControlFrame
+NS_NewCheckboxRadioFrame
 (
 nsIPresShell
 *
