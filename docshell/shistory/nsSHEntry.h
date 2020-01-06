@@ -195,6 +195,9 @@ mIsSrcdocEntry
 bool
 mScrollRestorationIsManual
 ;
+bool
+mLoadedInThisProcess
+;
 }
 ;
 #
