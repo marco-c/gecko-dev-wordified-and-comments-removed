@@ -4386,6 +4386,9 @@ aScriptElement
 bool
 *
 aInterrupted
+bool
+*
+aStreamEnded
 )
 {
 switch
@@ -5639,13 +5642,10 @@ case
 eTreeOpStreamEnded
 :
 {
-aBuilder
--
->
-DidBuildModel
-(
-false
-)
+*
+aStreamEnded
+=
+true
 ;
 return
 NS_OK
