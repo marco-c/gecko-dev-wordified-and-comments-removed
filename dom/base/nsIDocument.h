@@ -5571,6 +5571,9 @@ const
 nsAString
 &
 aSizesAttr
+bool
+*
+aIsImgSet
 )
 =
 0
@@ -5588,6 +5591,8 @@ nsAString
 aCrossOriginAttr
 ReferrerPolicyEnum
 aReferrerPolicy
+bool
+aIsImgSet
 )
 =
 0

@@ -3420,6 +3420,9 @@ const
 nsAString
 &
 aSizesAttr
+bool
+*
+aIsImgSet
 )
 override
 ;
@@ -3436,6 +3439,8 @@ nsAString
 aCrossOriginAttr
 ReferrerPolicy
 aReferrerPolicy
+bool
+aIsImgSet
 )
 override
 ;

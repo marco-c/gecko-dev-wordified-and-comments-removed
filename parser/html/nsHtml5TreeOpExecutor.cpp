@@ -3924,6 +3924,11 @@ BaseURIForPreload
 (
 )
 ;
+bool
+isImgSet
+=
+false
+;
 nsCOMPtr
 <
 nsIURI
@@ -3939,6 +3944,8 @@ baseURI
 aURL
 aSrcset
 aSizes
+&
+isImgSet
 )
 ;
 if
@@ -4010,6 +4017,7 @@ MaybePreLoadImage
 uri
 aCrossOrigin
 referrerPolicy
+isImgSet
 )
 ;
 }
