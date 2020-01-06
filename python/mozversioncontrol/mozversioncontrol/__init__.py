@@ -98,7 +98,6 @@ path
 Try
 running
 '
-+
                     
 '
 |
@@ -113,7 +112,6 @@ is
 up
 to
 '
-+
                     
 '
 date
