@@ -7297,6 +7297,9 @@ attachToContext
 (
 this
 mLayerView
+getAppEventDispatcher
+(
+)
 )
 ;
 Tabs
@@ -7658,9 +7661,7 @@ if
 mIsRestoringActivity
 )
 {
-EventDispatcher
-.
-getInstance
+getAppEventDispatcher
 (
 )
 .
@@ -11958,6 +11959,16 @@ Tabs
 unregisterOnTabsChangedListener
 (
 this
+)
+;
+Tabs
+.
+getInstance
+(
+)
+.
+detachFromContext
+(
 )
 ;
 if
