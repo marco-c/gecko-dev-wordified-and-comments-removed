@@ -1644,11 +1644,6 @@ std
 :
 string
 test_pc
-(
-"
-PC
-"
-)
 ;
 if
 (
@@ -1841,11 +1836,6 @@ std
 :
 string
 test_pc
-(
-"
-PC
-"
-)
 ;
 if
 (
