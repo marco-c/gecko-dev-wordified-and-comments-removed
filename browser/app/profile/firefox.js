@@ -13649,7 +13649,7 @@ processPrelaunch
 .
 enabled
 "
-false
+true
 )
 ;
 pref
