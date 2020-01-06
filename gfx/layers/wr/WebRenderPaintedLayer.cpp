@@ -475,6 +475,12 @@ wr
 DisplayListBuilder
 &
 aBuilder
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 const
 StackingContextHelper
 &
@@ -486,6 +492,7 @@ scroller
 (
 this
 aBuilder
+aResources
 aSc
 )
 ;
@@ -522,14 +529,9 @@ GenerateImageKey
 (
 )
 ;
-WrBridge
-(
-)
--
->
-AddWebRenderParentCommand
-(
-OpAddExternalImage
+aResources
+.
+AddExternalImage
 (
 mExternalImageId
 .
@@ -537,7 +539,6 @@ value
 (
 )
 key
-)
 )
 ;
 WrManager
@@ -813,6 +814,7 @@ HasCurrentImage
 CreateWebRenderDisplayList
 (
 aBuilder
+aResources
 aSc
 )
 ;
