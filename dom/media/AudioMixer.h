@@ -300,6 +300,15 @@ aSampleRate
 mSampleRate
 )
 ;
+if
+(
+!
+aSamples
+)
+{
+return
+;
+}
 for
 (
 uint32_t
