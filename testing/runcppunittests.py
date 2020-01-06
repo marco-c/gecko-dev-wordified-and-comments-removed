@@ -541,17 +541,6 @@ systems
 env
 [
 "
-MOZILLA_FIVE_HOME
-"
-]
-=
-self
-.
-xre_path
-        
-env
-[
-"
 MOZ_XRE_DIR
 "
 ]
