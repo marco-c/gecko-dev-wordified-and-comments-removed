@@ -1401,6 +1401,7 @@ CommandArgument
 (
 '
 -
+-
 submit
 '
 '
