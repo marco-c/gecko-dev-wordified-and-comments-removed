@@ -259,16 +259,6 @@ toUserSpace
 maskArea
 )
 ;
-context
--
->
-SetMatrix
-(
-gfxMatrix
-(
-)
-)
-;
 gfxRect
 maskSurfaceRect
 =
@@ -277,6 +267,10 @@ context
 >
 GetClipExtents
 (
+gfxContext
+:
+:
+eDeviceSpace
 )
 ;
 maskSurfaceRect
