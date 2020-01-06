@@ -17294,6 +17294,14 @@ Services
 appinfo
 .
 shouldBlockIncompatJaws
+|
+|
+!
+Services
+.
+appinfo
+.
+browserTabsRemoteAutostart
 )
 {
 return
