@@ -745,6 +745,9 @@ nsCSPDirective
 *
 mFrameSrc
 ;
+bool
+mParsingFrameAncestorsDir
+;
 cspTokens
 mTokens
 ;

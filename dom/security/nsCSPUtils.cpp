@@ -2148,6 +2148,10 @@ mGeneratedFromSelfKeyword
 (
 false
 )
+mWithinFrameAncstorsDir
+(
+false
+)
 {
 ToLowerCase
 (
@@ -2820,6 +2824,15 @@ rv
 false
 )
 ;
+if
+(
+mWithinFrameAncstorsDir
+)
+{
+return
+true
+;
+}
 nsString
 decodedUriPath
 ;
