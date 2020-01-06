@@ -5534,6 +5534,16 @@ uri1
 uri2
 )
 {
+if
+(
+!
+uri2
+)
+{
+return
+false
+;
+}
 let
 hashIndex1
 =
