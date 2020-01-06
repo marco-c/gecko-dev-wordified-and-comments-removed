@@ -119,6 +119,10 @@ protocol
 PNecko
 ;
 include
+protocol
+PStreamFilter
+;
+include
 InputStreamParams
 ;
 include
@@ -987,6 +991,16 @@ LogBlockedCORSRequest
 (
 nsString
 message
+)
+;
+async
+AttachStreamFilter
+(
+Endpoint
+<
+PStreamFilterParent
+>
+aEndpoint
 )
 ;
 both
