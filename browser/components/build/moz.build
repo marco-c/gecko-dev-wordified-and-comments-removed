@@ -168,12 +168,6 @@ migration
 .
 .
 /
-sessionstore
-'
-'
-.
-.
-/
 shell
 '
 ]
