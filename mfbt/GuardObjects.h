@@ -184,6 +184,8 @@ DEBUG
 define
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 \
+:
+:
 mozilla
 :
 :
@@ -197,6 +199,8 @@ _mCheckNotUsedAsTemporary
 define
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 \
+:
+:
 mozilla
 :
 :
@@ -209,6 +213,8 @@ GuardObjectNotifier
 _notifier
 =
 \
+:
+:
 mozilla
 :
 :
@@ -222,6 +228,8 @@ GuardObjectNotifier
 define
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 \
+:
+:
 mozilla
 :
 :
@@ -234,6 +242,8 @@ GuardObjectNotifier
 _notifier
 =
 \
+:
+:
 mozilla
 :
 :
@@ -247,6 +257,8 @@ GuardObjectNotifier
 define
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 \
+:
+:
 mozilla
 :
 :
@@ -261,6 +273,8 @@ _notifier
 define
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 \
+:
+:
 mozilla
 :
 :
@@ -275,6 +289,8 @@ _notifier
 define
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 \
+:
+:
 mozilla
 :
 :
@@ -286,6 +302,8 @@ _notifier
 define
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
 \
+:
+:
 mozilla
 :
 :
