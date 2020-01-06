@@ -43988,9 +43988,9 @@ security
 .
 data_uri
 .
-inherit_security_context
+unique_opaque_origin
 "
-true
+false
 )
 ;
 #
