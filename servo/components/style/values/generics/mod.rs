@@ -65,6 +65,10 @@ basic_shape
 ;
 pub
 mod
+border
+;
+pub
+mod
 grid
 ;
 pub
@@ -74,6 +78,10 @@ image
 pub
 mod
 position
+;
+pub
+mod
+rect
 ;
 #
 [
