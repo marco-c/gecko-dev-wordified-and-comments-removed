@@ -28,14 +28,5 @@ plugins
 mozilla
 "
 ]
-globals
-:
-{
-"
-SimpleTest
-"
-:
-false
-}
 }
 ;

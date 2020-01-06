@@ -233,7 +233,8 @@ id
 }
 )
 ;
-const
+this
+.
 sinon
 =
 require
