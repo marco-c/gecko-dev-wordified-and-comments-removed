@@ -50,8 +50,9 @@ id
 346196
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 AddRegExpCases

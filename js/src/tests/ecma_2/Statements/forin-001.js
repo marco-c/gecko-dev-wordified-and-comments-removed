@@ -59,8 +59,9 @@ id
 344855
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

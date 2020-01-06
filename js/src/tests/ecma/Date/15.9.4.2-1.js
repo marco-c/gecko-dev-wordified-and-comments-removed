@@ -55,8 +55,9 @@ id
 4088
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 AddTestCase

@@ -47,8 +47,9 @@ id
 6359
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 AddTestCase

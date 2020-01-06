@@ -47,8 +47,9 @@ id
 7703
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 types

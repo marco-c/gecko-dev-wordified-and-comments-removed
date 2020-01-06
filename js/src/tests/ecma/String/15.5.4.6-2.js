@@ -38,8 +38,9 @@ BUGNUMBER
 105721
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

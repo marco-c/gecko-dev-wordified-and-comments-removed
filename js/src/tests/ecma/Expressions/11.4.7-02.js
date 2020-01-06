@@ -32,8 +32,9 @@ BUGNUMBER
 432881
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 test_negation

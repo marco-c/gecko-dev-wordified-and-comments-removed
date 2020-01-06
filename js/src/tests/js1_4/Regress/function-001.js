@@ -34,8 +34,9 @@ BUGNUMBER
 3258435
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 writeHeaderToLog

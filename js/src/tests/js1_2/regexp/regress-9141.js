@@ -47,8 +47,9 @@ id
 9141
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 var

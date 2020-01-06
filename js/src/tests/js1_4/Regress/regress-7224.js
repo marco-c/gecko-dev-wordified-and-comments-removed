@@ -47,8 +47,9 @@ id
 7224
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 var

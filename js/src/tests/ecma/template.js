@@ -23,8 +23,9 @@ BUGNUMBER
 "
 "
 ;
-startTest
+printBugNumber
 (
+BUGNUMBER
 )
 ;
 test
