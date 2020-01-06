@@ -121,3 +121,15 @@ browser
 ini
 '
 ]
+MOCHITEST_CHROME_MANIFESTS
++
+=
+[
+'
+chrome
+/
+chrome
+.
+ini
+'
+]
