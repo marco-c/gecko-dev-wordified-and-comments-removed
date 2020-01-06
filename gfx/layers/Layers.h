@@ -2129,7 +2129,7 @@ mRecording
 ;
 public
 :
-void
+bool
 SetPendingScrollUpdateForNextTransaction
 (
 FrameMetrics
@@ -4234,6 +4234,16 @@ const
 {
 return
 mMaskLayer
+;
+}
+bool
+HasPendingTransform
+(
+)
+const
+{
+return
+mPendingTransform
 ;
 }
 void
