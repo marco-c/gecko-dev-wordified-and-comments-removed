@@ -174,10 +174,6 @@ const
 char
 *
 aPath
-const
-char
-*
-aPath2
 void
 *
 aReponseBuff
