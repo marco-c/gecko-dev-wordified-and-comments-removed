@@ -3276,7 +3276,7 @@ video
 -
 shmems
 "
-6
+4
 )
 ;
 #
@@ -37394,7 +37394,7 @@ tcp
 .
 tcp_fastopen_enable
 "
-true
+false
 )
 ;
 pref
