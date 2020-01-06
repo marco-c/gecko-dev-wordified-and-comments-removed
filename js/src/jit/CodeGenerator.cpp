@@ -37695,7 +37695,7 @@ InitElemGetterSetterFn
 (
 InitGetterSetterOperation
 "
-InitGetterSetterOperation
+InitElemGetterSetterOperation
 "
 )
 ;
@@ -37896,7 +37896,7 @@ InitPropGetterSetterFn
 (
 InitGetterSetterOperation
 "
-InitGetterSetterOperation
+InitPropGetterSetterOperation
 "
 )
 ;
@@ -65101,7 +65101,7 @@ DeletePropertyJit
 true
 >
 "
-DeletePropertyStrictJit
+DeletePropertyStrict
 "
 )
 ;
@@ -65120,7 +65120,7 @@ DeletePropertyJit
 false
 >
 "
-DeletePropertyNonStrictJit
+DeletePropertyNonStrict
 "
 )
 ;
@@ -65223,7 +65223,7 @@ DeleteElementJit
 true
 >
 "
-DeleteElementStrictJit
+DeleteElementStrict
 "
 )
 ;
@@ -65242,7 +65242,7 @@ DeleteElementJit
 false
 >
 "
-DeleteElementNonStrictJit
+DeleteElementNonStrict
 "
 )
 ;
