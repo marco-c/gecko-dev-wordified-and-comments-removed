@@ -8492,6 +8492,15 @@ refreshIdentityBlock
 }
 )
 ;
+gAboutNewTabService
+.
+QueryInterface
+(
+Ci
+.
+nsISupports
+)
+;
 let
 uriToLoad
 =
