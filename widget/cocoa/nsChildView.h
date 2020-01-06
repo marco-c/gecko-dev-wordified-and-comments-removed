@@ -867,6 +867,7 @@ sLastScrollEventScreenLocation
 ;
 class
 nsChildView
+final
 :
 public
 nsBaseWidget
