@@ -6163,7 +6163,7 @@ preferences
 .
 search
 "
-false
+true
 )
 ;
 #
