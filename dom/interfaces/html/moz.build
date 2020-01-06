@@ -154,6 +154,11 @@ nsIDOMHTMLInputElement
 idl
 '
 '
+nsIDOMHTMLLinkElement
+.
+idl
+'
+'
 nsIDOMHTMLMediaElement
 .
 idl
