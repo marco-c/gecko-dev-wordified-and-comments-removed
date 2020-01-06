@@ -2011,7 +2011,11 @@ self
 >
 bool
 {
-false
+self
+.
+contains_positioned_fragments
+(
+)
 }
 fn
 update_late_computed_inline_position_if_necessary

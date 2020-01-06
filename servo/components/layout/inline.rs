@@ -7166,7 +7166,7 @@ Au
 if
 self
 .
-contains_positioned_fragments
+is_absolute_containing_block
 (
 )
 {
