@@ -92,6 +92,17 @@ instanceof
 Ci
 .
 nsIDOMXULElement
+|
+|
+ExtensionUtils
+.
+instanceOf
+(
+target
+"
+HTMLIFrameElement
+"
+)
 )
 {
 tabId
