@@ -58,7 +58,8 @@ NSIS
 branding
 defines
 for
-Aurora
+Developer
+Edition
 builds
 .
 #
@@ -197,9 +198,7 @@ AB_CD
 &
 product
 =
-firefox
--
-aurora
+devedition
 -
 latest
 "
@@ -230,9 +229,7 @@ AB_CD
 &
 product
 =
-firefox
--
-aurora
+devedition
 -
 latest
 "
