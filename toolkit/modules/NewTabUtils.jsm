@@ -3708,7 +3708,10 @@ executeCached
 (
 aQuery
 params
+(
 aRow
+aCancel
+)
 =
 >
 {
@@ -3817,8 +3820,9 @@ queryError
 =
 e
 ;
-throw
-StopIteration
+aCancel
+(
+)
 ;
 }
 }

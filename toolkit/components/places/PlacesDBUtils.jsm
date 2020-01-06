@@ -533,7 +533,10 @@ PRAGMA
 integrity_check
 "
 null
+(
 r
+cancel
+)
 =
 >
 {
@@ -541,8 +544,9 @@ row
 =
 r
 ;
-throw
-StopIteration
+cancel
+(
+)
 ;
 }
 )
