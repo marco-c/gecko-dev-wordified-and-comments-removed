@@ -712,11 +712,6 @@ nsMediaFeatures
 h
 "
 "
-nsMediaList
-.
-h
-"
-"
 nsXBLBinding
 .
 h
@@ -1109,9 +1104,6 @@ nsCSSPropertyID
 "
 "
 nsCSSCounterDesc
-"
-"
-nsMediaExpression_Range
 "
 "
 nsMediaFeature_RangeType
@@ -1778,9 +1770,6 @@ nsMainThreadPtrHolder
 "
 "
 nsMargin
-"
-"
-nsMediaExpression
 "
 "
 nsMediaFeature
