@@ -5913,8 +5913,16 @@ null
 }
 reloadFrame
 (
+aEvent
 )
 {
+let
+forceReload
+=
+aEvent
+.
+shiftKey
+;
 this
 .
 browser
@@ -5935,6 +5943,7 @@ target
 this
 .
 target
+forceReload
 }
 )
 ;
