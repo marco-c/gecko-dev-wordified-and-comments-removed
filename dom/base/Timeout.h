@@ -186,12 +186,6 @@ mTimeoutId
 uint32_t
 mInterval
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-mPrincipal
-;
 uint32_t
 mFiringId
 ;
