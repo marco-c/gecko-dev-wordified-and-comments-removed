@@ -7,6 +7,11 @@ Cu
 =
 Components
 ;
+const
+{
+PollPromise
+}
+=
 Cu
 .
 import
@@ -24,6 +29,8 @@ sync
 .
 js
 "
+{
+}
 )
 ;
 const
@@ -35,7 +42,7 @@ add_task
 (
 async
 function
-test_until_types
+test_PollPromise_types
 (
 )
 {
@@ -62,9 +69,8 @@ strictEqual
 (
 typ
 await
-wait
-.
-until
+new
+PollPromise
 (
 resolve
 =
@@ -84,7 +90,7 @@ add_task
 (
 async
 function
-test_until_timeoutElapse
+test_PollPromise_timeoutElapse
 (
 )
 {
@@ -106,9 +112,8 @@ getTime
 )
 ;
 await
-wait
-.
-until
+new
+PollPromise
 (
 (
 resolve
@@ -163,7 +168,7 @@ add_task
 (
 async
 function
-test_until_rethrowError
+test_PollPromise_rethrowError
 (
 )
 {
@@ -178,9 +183,7 @@ err
 try
 {
 await
-wait
-.
-until
+PollPromise
 (
 (
 )
@@ -231,7 +234,7 @@ add_task
 (
 async
 function
-test_until_noTimeout
+test_PollPromise_noTimeout
 (
 )
 {
@@ -253,9 +256,8 @@ getTime
 )
 ;
 await
-wait
-.
-until
+new
+PollPromise
 (
 (
 resolve
@@ -311,7 +313,7 @@ add_task
 (
 async
 function
-test_until_timeout
+test_PollPromise_timeout
 (
 )
 {
@@ -333,9 +335,8 @@ getTime
 )
 ;
 await
-wait
-.
-until
+new
+PollPromise
 (
 (
 resolve
@@ -391,7 +392,7 @@ add_task
 (
 async
 function
-test_until_interval
+test_PollPromise_interval
 (
 )
 {
@@ -401,9 +402,8 @@ nevals
 0
 ;
 await
-wait
-.
-until
+new
+PollPromise
 (
 (
 resolve

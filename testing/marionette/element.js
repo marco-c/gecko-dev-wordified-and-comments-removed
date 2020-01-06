@@ -85,6 +85,11 @@ js
 }
 )
 ;
+const
+{
+PollPromise
+}
+=
 Cu
 .
 import
@@ -102,6 +107,8 @@ sync
 .
 js
 "
+{
+}
 )
 ;
 this
@@ -703,9 +710,8 @@ reject
 let
 findElements
 =
-wait
-.
-until
+new
+PollPromise
 (
 (
 resolve
