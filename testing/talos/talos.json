@@ -209,9 +209,6 @@ tpaint
 sessionrestore
 "
 "
-sessionrestore_many_windows
-"
-"
 sessionrestore_no_auto_restore
 "
 "
@@ -287,9 +284,6 @@ tpaint
 sessionrestore
 "
 "
-sessionrestore_many_windows
-"
-"
 sessionrestore_no_auto_restore
 "
 "
@@ -363,9 +357,6 @@ tpaint
 "
 "
 sessionrestore
-"
-"
-sessionrestore_many_windows
 "
 "
 sessionrestore_no_auto_restore
