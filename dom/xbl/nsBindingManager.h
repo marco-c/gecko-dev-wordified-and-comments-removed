@@ -615,8 +615,6 @@ aContainer
 nsIContent
 *
 aChild
-uint32_t
-aIndexInContainer
 bool
 aAppend
 )

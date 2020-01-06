@@ -6572,7 +6572,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
 )
 {
 mFrame
@@ -6600,7 +6599,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
 )
 {
 mFrame
@@ -6628,8 +6626,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling

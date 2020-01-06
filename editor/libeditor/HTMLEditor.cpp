@@ -13756,8 +13756,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-aIndexInContainer
 )
 {
 DoContentInserted
@@ -13765,7 +13763,6 @@ DoContentInserted
 aDocument
 aContainer
 aFirstNewContent
-aIndexInContainer
 eAppended
 )
 ;
@@ -13785,8 +13782,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 )
 {
 DoContentInserted
@@ -13794,7 +13789,6 @@ DoContentInserted
 aDocument
 aContainer
 aChild
-aIndexInContainer
 eInserted
 )
 ;
@@ -13911,7 +13905,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
 InsertedOrAppended
 aInsertedOrAppended
 )
@@ -14112,8 +14105,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling

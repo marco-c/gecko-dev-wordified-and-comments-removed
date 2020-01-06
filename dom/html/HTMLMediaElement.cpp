@@ -5921,7 +5921,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
 nsIContent
 *
 aPreviousSibling

@@ -4737,7 +4737,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
 )
 {
 }
@@ -5032,7 +5031,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
 )
 {
 }
@@ -5051,7 +5049,6 @@ aContainerNode
 nsIContent
 *
 aChildNode
-int32_t
 nsIContent
 *
 aPreviousSiblingNode

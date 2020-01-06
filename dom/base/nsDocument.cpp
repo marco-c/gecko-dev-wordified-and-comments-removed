@@ -10871,7 +10871,6 @@ ContentRemoved
 (
 this
 content
-i
 previousSibling
 )
 ;

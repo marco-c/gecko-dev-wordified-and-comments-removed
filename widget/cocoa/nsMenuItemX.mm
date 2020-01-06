@@ -2093,9 +2093,13 @@ nsIDocument
 aDocument
 nsIContent
 *
+aContainer
+nsIContent
+*
 aChild
-int32_t
-aIndexInContainer
+nsIContent
+*
+aPreviousSibling
 )
 {
 if

@@ -4601,7 +4601,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
 )
 {
 NotifyContentAdded
@@ -4636,9 +4635,13 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
 )
 {
+MOZ_ASSERT
+(
+aChild
+)
+;
 NotifyContentAdded
 (
 NODE_FROM
@@ -4666,7 +4669,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
 nsIContent
 *
 aPreviousSibling
@@ -4701,6 +4703,11 @@ NODE_FROM
 (
 aContainer
 aDocument
+)
+;
+MOZ_ASSERT
+(
+containerNode
 )
 ;
 uint32_t

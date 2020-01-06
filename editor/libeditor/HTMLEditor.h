@@ -3840,8 +3840,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 InsertedOrAppended
 aInsertedOrAppended
 )

@@ -914,8 +914,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-aNewIndexInContainer
 )
 {
 nsIDocument
@@ -937,7 +935,6 @@ aContainer
 doc
 aContainer
 aFirstNewContent
-aNewIndexInContainer
 )
 )
 ;
@@ -990,8 +987,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 )
 {
 NS_PRECONDITION
@@ -1105,7 +1100,6 @@ aContainer
 document
 container
 aChild
-aIndexInContainer
 )
 )
 ;
@@ -1122,8 +1116,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling
@@ -1240,7 +1232,6 @@ aContainer
 document
 container
 aChild
-aIndexInContainer
 aPreviousSibling
 )
 )

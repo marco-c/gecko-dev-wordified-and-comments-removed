@@ -3305,7 +3305,6 @@ GetChildAt
 (
 newIndexInContainer
 )
-newIndexInContainer
 )
 ;
 }

@@ -437,12 +437,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
-/
-*
-unused
-*
-/
 )
 {
 for
@@ -470,7 +464,6 @@ ContentInserted
 aDocument
 aContainer
 cur
-0
 )
 ;
 }
@@ -610,8 +603,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling
@@ -654,8 +645,9 @@ obs
 ObserveContentRemoved
 (
 aDocument
+aContainer
 aChild
-aIndexInContainer
+aPreviousSibling
 )
 ;
 else
@@ -743,8 +735,9 @@ obs
 ObserveContentRemoved
 (
 aDocument
+aContainer
 aChild
-aIndexInContainer
+aPreviousSibling
 )
 ;
 }
@@ -765,12 +758,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-/
-*
-unused
-*
-/
 )
 {
 if

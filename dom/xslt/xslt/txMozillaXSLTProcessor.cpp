@@ -5055,7 +5055,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
 )
 {
 mStylesheet
@@ -5078,7 +5077,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
 )
 {
 mStylesheet
@@ -5101,8 +5099,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling

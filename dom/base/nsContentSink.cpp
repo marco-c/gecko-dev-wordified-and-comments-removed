@@ -5525,7 +5525,6 @@ GetChildAt
 (
 aStartIndex
 )
-aStartIndex
 )
 ;
 mLastNotificationTime

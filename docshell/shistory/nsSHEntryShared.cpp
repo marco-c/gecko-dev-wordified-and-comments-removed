@@ -1114,7 +1114,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
 )
 {
 RemoveFromBFCacheAsync
@@ -1137,7 +1136,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
 )
 {
 RemoveFromBFCacheAsync
@@ -1160,8 +1158,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling

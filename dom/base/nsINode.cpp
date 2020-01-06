@@ -7904,7 +7904,6 @@ ContentAppended
 (
 parent
 aKid
-aIndex
 )
 ;
 }
@@ -7917,7 +7916,6 @@ ContentInserted
 (
 this
 aKid
-aIndex
 )
 ;
 }
@@ -9288,7 +9286,6 @@ ContentRemoved
 (
 this
 aKid
-aIndex
 previousSibling
 )
 ;
@@ -11358,11 +11355,6 @@ GetChildCount
 (
 )
 ;
-int32_t
-firstInsPos
-=
-insPos
-;
 nsIContent
 *
 firstInsertedContent
@@ -11444,7 +11436,6 @@ nsIContent
 this
 )
 firstInsertedContent
-firstInsPos
 )
 ;
 }
@@ -11489,7 +11480,6 @@ nsIContent
 this
 )
 firstInsertedContent
-firstInsPos
 )
 ;
 if

@@ -2989,7 +2989,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
 )
 {
 if
@@ -3026,7 +3025,6 @@ ContentInserted
 aDocument
 aContainer
 cur
-0
 )
 ;
 }
@@ -3046,7 +3044,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
 )
 {
 if
@@ -3386,8 +3383,6 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
-aIndexInContainer
 nsIContent
 *
 aPreviousSibling
