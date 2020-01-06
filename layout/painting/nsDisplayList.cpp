@@ -16341,6 +16341,7 @@ aBuilder
 RegisterThemeGeometry
 (
 aType
+aFrame
 LayoutDeviceIntRect
 :
 :
