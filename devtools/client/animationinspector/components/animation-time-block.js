@@ -2162,7 +2162,7 @@ y
 ;
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 [
@@ -2216,7 +2216,7 @@ endTime
 ;
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 segments
@@ -2299,7 +2299,7 @@ endTime
 ;
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 segments
@@ -2363,7 +2363,7 @@ endTime
 ;
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 segments
@@ -2464,7 +2464,7 @@ firstEndTime
 ;
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 firstSegments
@@ -2598,7 +2598,7 @@ y
 }
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 segments
@@ -2664,7 +2664,7 @@ y
 ;
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 [
@@ -2741,7 +2741,7 @@ y
 ;
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 [
@@ -2791,7 +2791,7 @@ endTime
 ;
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 segments
@@ -2849,7 +2849,7 @@ endTime
 ;
 graphHelper
 .
-appendShapePath
+appendPathElement
 (
 parentEl
 segments
