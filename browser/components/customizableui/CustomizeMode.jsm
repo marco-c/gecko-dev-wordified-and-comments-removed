@@ -5223,18 +5223,6 @@ removable
 removable
 )
 ;
-if
-(
-AppConstants
-.
-platform
-=
-=
-"
-win
-"
-)
-{
 wrapper
 .
 setAttribute
@@ -5247,7 +5235,6 @@ true
 "
 )
 ;
-}
 let
 contextMenuAttrName
 =
