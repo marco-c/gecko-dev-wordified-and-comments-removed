@@ -1979,6 +1979,17 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
+void
+NotifyTargetUserActivation
+(
+WidgetEvent
+*
+aEvent
+nsIContent
+*
+aTargetContent
+)
+;
 int32_t
 mLockCursor
 ;
