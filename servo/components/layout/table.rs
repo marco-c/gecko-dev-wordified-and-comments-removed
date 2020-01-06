@@ -52,7 +52,7 @@ display_list_builder
 :
 {
 DisplayListBuildState
-StackingContextCollectionFlags
+NEVER_CREATES_STACKING_CONTEXT
 }
 ;
 use
@@ -2545,12 +2545,7 @@ block_flow
 collect_stacking_contexts_for_block
 (
 state
-StackingContextCollectionFlags
-:
-:
-empty
-(
-)
+NEVER_CREATES_STACKING_CONTEXT
 )
 ;
 }
