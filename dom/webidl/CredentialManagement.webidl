@@ -209,6 +209,9 @@ CredentialRequestOptions
 PublicKeyCredentialRequestOptions
 publicKey
 ;
+AbortSignal
+signal
+;
 }
 ;
 dictionary
@@ -216,6 +219,9 @@ CredentialCreationOptions
 {
 MakePublicKeyCredentialOptions
 publicKey
+;
+AbortSignal
+signal
 ;
 }
 ;
