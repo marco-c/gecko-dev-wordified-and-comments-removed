@@ -54,7 +54,10 @@ aCounter
 )
 ;
 virtual
-nsresult
+RefPtr
+<
+ResultPromise
+>
 Register
 (
 const
@@ -94,7 +97,10 @@ aSignature
 override
 ;
 virtual
-nsresult
+RefPtr
+<
+ResultPromise
+>
 Sign
 (
 const
