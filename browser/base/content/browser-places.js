@@ -6914,6 +6914,14 @@ bar
 |
 |
 !
+window
+.
+toolbar
+.
+visible
+|
+|
+!
 this
 .
 COSMETIC_ANIMATIONS_ENABLED
