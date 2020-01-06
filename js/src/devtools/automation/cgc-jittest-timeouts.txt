@@ -9,6 +9,13 @@ asm
 .
 js
 /
+testBug1117235
+.
+js
+asm
+.
+js
+/
 testParallelCompile
 .
 js
