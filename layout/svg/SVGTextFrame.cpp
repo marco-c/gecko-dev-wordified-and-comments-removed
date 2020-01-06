@@ -6381,8 +6381,10 @@ aFilter
 nsIContent
 *
 aSubtree
+bool
+aPostReflow
 =
-nullptr
+true
 )
 ;
 bool
@@ -6703,6 +6705,9 @@ mGlyphUndisplayedCharacters
 float
 mLengthAdjustScaleFactor
 ;
+bool
+mPostReflow
+;
 }
 ;
 CharIterator
@@ -6721,6 +6726,8 @@ aFilter
 nsIContent
 *
 aSubtree
+bool
+aPostReflow
 )
 :
 mFilter
@@ -6761,6 +6768,10 @@ aSVGTextFrame
 -
 >
 mLengthAdjustScaleFactor
+)
+mPostReflow
+(
+aPostReflow
 )
 {
 if
@@ -7247,6 +7258,7 @@ GetText
 (
 )
 true
+mPostReflow
 )
 ;
 TrimOffsets
@@ -15607,6 +15619,7 @@ CharIterator
 :
 :
 eOriginal
+nullptr
 )
 ;
 if
@@ -16634,6 +16647,7 @@ CharIterator
 :
 :
 eOriginal
+nullptr
 )
 ;
 while
@@ -16722,6 +16736,7 @@ CharIterator
 :
 :
 eClusterOrLigatureGroupMiddle
+nullptr
 )
 ;
 while
@@ -17589,6 +17604,7 @@ CharIterator
 :
 :
 eClusterAndLigatureGroupStart
+nullptr
 )
 ;
 while
@@ -18070,6 +18086,7 @@ CharIterator
 :
 :
 eOriginal
+nullptr
 )
 ;
 while
