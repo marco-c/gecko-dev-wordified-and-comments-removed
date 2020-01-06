@@ -13,7 +13,7 @@ version
 .
 2
 .
-0
+2
 "
 authors
 =
@@ -93,7 +93,7 @@ regex
 .
 1
 .
-30
+41
 "
 rustc
 -
@@ -104,7 +104,7 @@ serialize
 .
 3
 .
-14
+15
 "
 uuid
 =
