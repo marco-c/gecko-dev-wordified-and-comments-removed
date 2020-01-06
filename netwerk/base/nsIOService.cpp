@@ -7708,6 +7708,7 @@ AsyncResolve2
 channel
 0
 callback
+nullptr
 getter_AddRefs
 (
 cancelable
@@ -7724,6 +7725,7 @@ AsyncResolve
 channel
 0
 callback
+nullptr
 getter_AddRefs
 (
 cancelable
