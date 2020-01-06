@@ -349,6 +349,7 @@ get
 struct
 BaselineStackBuilder
 {
+const
 JitFrameIterator
 &
 iter_
@@ -400,6 +401,7 @@ framePushed_
 ;
 BaselineStackBuilder
 (
+const
 JitFrameIterator
 &
 iter
@@ -2126,6 +2128,7 @@ JitActivation
 *
 activation_
 ;
+const
 JitFrameIterator
 &
 iter_
@@ -2137,6 +2140,7 @@ SnapshotIteratorForBailout
 JitActivation
 *
 activation
+const
 JitFrameIterator
 &
 iter
@@ -6968,6 +6972,7 @@ cx
 JitActivation
 *
 activation
+const
 JitFrameIterator
 &
 iter

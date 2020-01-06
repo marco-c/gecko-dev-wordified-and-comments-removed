@@ -21428,7 +21428,7 @@ done
 !
 i
 .
-isJit
+isJSJit
 (
 )
 &
@@ -21508,7 +21508,7 @@ if
 (
 i
 .
-isJit
+isJSJit
 (
 )
 )
@@ -21747,7 +21747,7 @@ if
 !
 i
 .
-isJit
+isJSJit
 (
 )
 )
@@ -21816,7 +21816,7 @@ if
 !
 i
 .
-isJit
+isJSJit
 (
 )
 &

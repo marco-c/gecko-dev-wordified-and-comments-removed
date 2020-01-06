@@ -2150,6 +2150,7 @@ cx
 JitActivation
 *
 activation
+const
 JitFrameIterator
 &
 iter

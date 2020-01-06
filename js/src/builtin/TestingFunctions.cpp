@@ -177,15 +177,6 @@ h
 #
 include
 "
-jit
-/
-JitFrameIterator
-.
-h
-"
-#
-include
-"
 js
 /
 Debug

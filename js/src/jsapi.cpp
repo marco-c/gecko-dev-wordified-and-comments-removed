@@ -37721,10 +37721,7 @@ isJit
 {
 for
 (
-jit
-:
-:
-JitFrameIterator
+OnlyJSJitFrameIter
 iter
 (
 activationIter
@@ -37746,6 +37743,10 @@ if
 (
 iter
 .
+frame
+(
+)
+.
 isScripted
 (
 )
@@ -37753,6 +37754,10 @@ isScripted
 &
 !
 iter
+.
+frame
+(
+)
 .
 script
 (

@@ -1567,6 +1567,7 @@ trace
 JSTracer
 *
 trc
+const
 JitFrameIterator
 &
 frame
