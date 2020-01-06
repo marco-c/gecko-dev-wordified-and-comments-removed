@@ -8460,7 +8460,8 @@ MakeContextCurrent
 (
 )
 const
-;
+{
+}
 bool
 ConvertImage
 (
