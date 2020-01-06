@@ -187,11 +187,6 @@ GlobalState
 jsm
 '
 '
-PageStyle
-.
-jsm
-'
-'
 PrivacyFilter
 .
 jsm
