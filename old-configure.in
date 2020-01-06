@@ -10247,6 +10247,15 @@ DSO_LDOPTS
 fi
 ;
 ;
+*
+-
+solaris
+*
+)
+MOZ_FIX_LINK_PATHS
+=
+;
+;
 esac
 AC_SUBST_LIST
 (
