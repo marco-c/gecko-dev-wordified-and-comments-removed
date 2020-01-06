@@ -250,6 +250,11 @@ STATE_DISABLED
 [
 Sync
 ]
+[
+Addons
+.
+skipValidation
+]
 ]
 )
 ;
@@ -270,6 +275,11 @@ STATE_DISABLED
 ]
 [
 Sync
+]
+[
+Addons
+.
+skipValidation
 ]
 ]
 )
@@ -292,6 +302,11 @@ STATE_ENABLED
 [
 Sync
 ]
+[
+Addons
+.
+skipValidation
+]
 ]
 )
 ;
@@ -312,6 +327,11 @@ STATE_DISABLED
 ]
 [
 Sync
+]
+[
+Addons
+.
+skipValidation
 ]
 ]
 )
