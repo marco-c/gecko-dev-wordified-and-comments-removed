@@ -463,7 +463,11 @@ taskref_or_string
 Optional
 (
 '
-chunks
+locales
+-
+per
+-
+chunk
 '
 )
 :
@@ -1280,7 +1284,11 @@ file
 "
         
 "
-chunks
+locales
+-
+per
+-
+chunk
 "
         
 "
@@ -1536,14 +1544,18 @@ in
 jobs
 :
         
-chunks
+locales_per_chunk
 =
 job
 .
 get
 (
 '
-chunks
+locales
+-
+per
+-
+chunk
 '
 )
         
@@ -1562,23 +1574,32 @@ all_locales_with_changesets
 ]
         
 if
-chunks
+locales_per_chunk
 :
             
-if
 chunks
->
+remainder
+=
+divmod
+(
 len
 (
 locales_with_changesets
 )
+locales_per_chunk
+)
+            
+if
+remainder
 :
                 
 chunks
 =
-len
+int
 (
-locales_with_changesets
+chunks
++
+1
 )
             
 for
