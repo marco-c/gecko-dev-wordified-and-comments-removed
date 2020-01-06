@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsAXPCNativeCallContext
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

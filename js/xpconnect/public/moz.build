@@ -90,11 +90,6 @@ EXPORTS
 =
 [
 '
-nsAXPCNativeCallContext
-.
-h
-'
-'
 nsTArrayHelpers
 .
 h
