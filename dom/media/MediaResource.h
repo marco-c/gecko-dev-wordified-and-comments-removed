@@ -1603,9 +1603,6 @@ mIgnoreClose
 MediaCacheStream
 mCacheStream
 ;
-Mutex
-mLock
-;
 MediaChannelStatistics
 mChannelStatistics
 ;
