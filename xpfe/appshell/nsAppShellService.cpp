@@ -651,6 +651,14 @@ if
 docShell
 )
 {
+docShell
+-
+>
+SetIsActive
+(
+false
+)
+;
 if
 (
 aIsPrivate
