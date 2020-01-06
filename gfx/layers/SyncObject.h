@@ -174,9 +174,13 @@ GetSyncType
 0
 ;
 virtual
-void
+bool
 Synchronize
 (
+bool
+aFallible
+=
+false
 )
 =
 0
