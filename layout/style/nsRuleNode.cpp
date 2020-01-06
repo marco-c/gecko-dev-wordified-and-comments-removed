@@ -1694,7 +1694,7 @@ aDefaultVariableFont
 >
 fontlist
 .
-FirstGeneric
+GetDefaultFontType
 (
 )
 ;
@@ -1705,12 +1705,9 @@ aDefaultVariableFont
 >
 fontlist
 .
-Length
+IsEmpty
 (
 )
-=
-=
-1
 &
 &
 (
