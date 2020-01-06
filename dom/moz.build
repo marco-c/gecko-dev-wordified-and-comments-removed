@@ -270,6 +270,9 @@ cache
 canvas
 '
 '
+clients
+'
+'
 commandhandler
 '
 '
