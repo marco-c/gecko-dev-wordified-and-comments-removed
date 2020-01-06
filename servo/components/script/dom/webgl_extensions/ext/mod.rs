@@ -30,6 +30,10 @@ WebGLExtensions
 ;
 pub
 mod
+oesstandardderivatives
+;
+pub
+mod
 oestexturefloat
 ;
 pub
