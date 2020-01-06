@@ -4179,6 +4179,13 @@ bool
 aIsReliable
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 MutexAutoLock
 lock
 (
