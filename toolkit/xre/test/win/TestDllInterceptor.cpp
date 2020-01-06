@@ -2145,6 +2145,9 @@ main
 (
 )
 {
+#
+ifndef
+MOZ_CODE_COVERAGE
 payload
 initial
 =
@@ -2515,6 +2518,8 @@ return
 1
 ;
 }
+#
+endif
 if
 (
 TestHook
