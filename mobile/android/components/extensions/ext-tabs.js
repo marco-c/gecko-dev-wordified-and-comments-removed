@@ -121,11 +121,12 @@ jsm
 "
 )
 ;
-function
+const
 getBrowserWindow
-(
+=
 window
-)
+=
+>
 {
 return
 window
@@ -168,6 +169,7 @@ nsIDOMWindow
 )
 ;
 }
+;
 let
 tabListener
 =

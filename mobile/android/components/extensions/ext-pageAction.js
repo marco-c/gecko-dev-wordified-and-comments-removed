@@ -98,7 +98,7 @@ IconDetails
 =
 ExtensionParent
 ;
-var
+let
 pageActionMap
 =
 new

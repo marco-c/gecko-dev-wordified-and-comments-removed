@@ -74,7 +74,7 @@ jsm
 "
 )
 ;
-var
+let
 browserActionMap
 =
 new
