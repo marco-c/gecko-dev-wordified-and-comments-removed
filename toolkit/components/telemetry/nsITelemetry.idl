@@ -2700,14 +2700,14 @@ process
 :
 {
 "
-group1
+category1
 .
 probe
 "
 :
 1
 "
-group1
+category1
 .
 other_probe
 "
@@ -3016,7 +3016,7 @@ process
 :
 {
 "
-group1
+category1
 .
 probe
 "
@@ -3764,7 +3764,7 @@ multiple
 scalars
 for
 a
-group
+category
 .
 They
 will
@@ -3796,10 +3796,10 @@ yaml
 *
 *
 param
-aGroupName
+aCategoryName
 The
 unique
-group
+category
 the
 scalars
 are
@@ -3996,7 +3996,7 @@ registerScalars
 (
 in
 ACString
-aGroupName
+aCategoryName
 in
 jsval
 aScalarData

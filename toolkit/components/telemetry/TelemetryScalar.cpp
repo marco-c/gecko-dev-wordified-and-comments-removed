@@ -359,7 +359,7 @@ kMaximumStringValueLength
 ;
 const
 uint32_t
-kMaximumGroupNameLength
+kMaximumCategoryNameLength
 =
 40
 ;
@@ -9187,7 +9187,7 @@ RegisterScalars
 const
 nsACString
 &
-aGroupName
+aCategoryName
 JS
 :
 :
@@ -9229,8 +9229,8 @@ if
 !
 IsValidIdentifierString
 (
-aGroupName
-kMaximumGroupNameLength
+aCategoryName
+kMaximumCategoryNameLength
 true
 false
 )
@@ -9241,7 +9241,7 @@ JS_ReportErrorASCII
 cx
 "
 Invalid
-group
+category
 name
 %
 s
@@ -9249,7 +9249,7 @@ s
 "
 PromiseFlatCString
 (
-aGroupName
+aCategoryName
 )
 .
 get
@@ -9448,7 +9448,7 @@ s
 "
 PromiseFlatCString
 (
-aGroupName
+aCategoryName
 )
 .
 get

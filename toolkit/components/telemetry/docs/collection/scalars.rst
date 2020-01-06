@@ -440,7 +440,7 @@ telemetry
 .
 registerScalars
 (
-group
+category
 scalarData
 )
 ;
@@ -453,7 +453,7 @@ add
 ons
 .
 *
-group
+category
 -
 *
 (
@@ -463,7 +463,7 @@ string
 *
 The
 unique
-group
+category
 the
 scalars
 are
@@ -815,7 +815,7 @@ the
 length
 of
 the
-group
+category
 name
 or
 the
@@ -841,7 +841,7 @@ registerScalars
 "
 myAddon
 .
-group
+category
 "
 {
 "
@@ -883,7 +883,7 @@ scalarSet
 "
 myAddon
 .
-group
+category
 .
 counter_scalar
 "
@@ -1268,11 +1268,11 @@ The
 following
 is
 a
-group
+category
 .
 a
 .
-group
+category
 .
 hierarchy
 :
@@ -1295,7 +1295,7 @@ string
 .
 .
 .
-group2
+category2
 :
 probe
 :
@@ -1311,7 +1311,7 @@ _scalar
 -
 limitations
 :
-Group
+Category
 and
 probe
 names
@@ -1331,7 +1331,7 @@ characters
 each
 ;
 -
-group
+category
 names
 must
 be
@@ -1386,7 +1386,7 @@ block
 yaml
 a
 .
-group
+category
 .
 hierarchy
 :
