@@ -377,14 +377,6 @@ Metrics
 (
 )
 .
-IsScrollable
-(
-)
-&
-&
-mLayer
--
->
 IsScrollInfoLayer
 (
 )
