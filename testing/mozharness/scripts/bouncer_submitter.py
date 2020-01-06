@@ -479,6 +479,8 @@ release_promotion
 for
 prop
 in
+\
+                    
 [
 '
 product
@@ -492,6 +494,7 @@ build_number
 '
 revision
 '
+                     
 '
 bouncer_submitter_config
 '
@@ -527,6 +530,7 @@ with
 s
 "
 %
+                              
 (
 prop
 self
@@ -593,6 +597,8 @@ prev_versions
 "
 ]
 =
+\
+                    
 self
 .
 buildbot_config

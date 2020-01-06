@@ -90,7 +90,6 @@ base
 .
 python
 import
-PostScriptRun
 PreScriptAction
 from
 mozharness
@@ -195,6 +194,9 @@ such
 as
 LLVMPipe
 )
+"
+                
+"
 to
 use
 the
@@ -701,14 +703,6 @@ action
 )
 :
         
-dirs
-=
-self
-.
-query_abs_dirs
-(
-)
-        
 requirements
 =
 os
@@ -1101,6 +1095,7 @@ tests
 '
 test
 )
+                 
 for
 test
 in
