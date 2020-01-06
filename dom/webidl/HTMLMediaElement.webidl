@@ -622,7 +622,10 @@ test
 dumpDebugInfo
 "
 ]
+Promise
+<
 void
+>
 mozDumpDebugInfo
 (
 )
