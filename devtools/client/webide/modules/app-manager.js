@@ -2871,9 +2871,8 @@ this
 connection
 )
 .
-then
+catch
 (
-null
 e
 =
 >

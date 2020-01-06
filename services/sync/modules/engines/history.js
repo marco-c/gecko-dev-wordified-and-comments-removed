@@ -1531,9 +1531,8 @@ promise
 =
 promise
 .
-then
+catch
 (
-null
 ex
 =
 >

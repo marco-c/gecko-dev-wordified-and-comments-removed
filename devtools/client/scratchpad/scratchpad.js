@@ -3315,9 +3315,8 @@ code
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -8485,9 +8484,8 @@ init
 }
 )
 .
-then
+catch
 (
-null
 (
 err
 )

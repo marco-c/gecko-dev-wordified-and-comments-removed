@@ -6354,9 +6354,8 @@ ip
 aDataTransfer
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

@@ -3642,9 +3642,8 @@ clusterURL
 }
 )
 .
-then
+catch
 (
-null
 err
 =
 >

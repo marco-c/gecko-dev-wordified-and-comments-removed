@@ -417,9 +417,8 @@ this
 }
 )
 .
-then
+catch
 (
-null
 function
 onError
 (

@@ -189,9 +189,8 @@ finish
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >

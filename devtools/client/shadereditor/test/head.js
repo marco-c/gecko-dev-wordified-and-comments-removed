@@ -853,9 +853,8 @@ spawn
 generator
 )
 .
-then
+catch
 (
-null
 handleError
 )
 ;

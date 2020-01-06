@@ -454,9 +454,8 @@ toggleBrowserConsole
 (
 )
 .
-then
+catch
 (
-null
 console
 .
 error

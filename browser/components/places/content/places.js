@@ -1898,9 +1898,8 @@ spec
 false
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils
@@ -2033,9 +2032,8 @@ file
 path
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

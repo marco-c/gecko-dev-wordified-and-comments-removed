@@ -122,9 +122,8 @@ console
 error
 )
 .
-then
+catch
 (
-null
 console
 .
 error

@@ -13190,9 +13190,8 @@ linkToInspector
 (
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -13627,9 +13626,8 @@ unhighlight
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >

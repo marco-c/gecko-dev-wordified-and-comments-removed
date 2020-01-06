@@ -1361,9 +1361,8 @@ items
 }
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

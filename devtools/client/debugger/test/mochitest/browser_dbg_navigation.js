@@ -143,9 +143,8 @@ then
 finish
 )
 .
-then
+catch
 (
-null
 aError
 =
 >

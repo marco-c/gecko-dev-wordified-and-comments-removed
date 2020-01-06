@@ -3291,9 +3291,8 @@ flush
 ;
 flushPromise
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -3505,9 +3504,8 @@ aCallback
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >

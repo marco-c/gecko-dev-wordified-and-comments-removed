@@ -6812,9 +6812,8 @@ flush
 (
 )
 .
-then
+catch
 (
-null
 (
 )
 =
@@ -6857,9 +6856,8 @@ jsonFile
 )
 )
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -7736,9 +7734,8 @@ saveChanges
 (
 )
 .
-then
+catch
 (
-null
 e
 =
 >

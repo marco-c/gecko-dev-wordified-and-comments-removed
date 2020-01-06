@@ -1434,9 +1434,8 @@ then
 aCallback
 )
 .
-then
+catch
 (
-null
 e
 =
 >

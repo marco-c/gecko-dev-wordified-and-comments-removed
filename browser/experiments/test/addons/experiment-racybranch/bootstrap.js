@@ -155,9 +155,8 @@ id
 branch
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

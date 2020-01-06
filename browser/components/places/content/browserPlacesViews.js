@@ -8936,9 +8936,8 @@ aEvent
 dataTransfer
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

@@ -2230,9 +2230,8 @@ promise
 =
 promise
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -2710,9 +2709,8 @@ promise
 =
 promise
 .
-then
+catch
 (
-null
 function
 onError
 (

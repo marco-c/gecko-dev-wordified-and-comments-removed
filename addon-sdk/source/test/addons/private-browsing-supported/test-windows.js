@@ -569,9 +569,8 @@ window
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -1022,9 +1021,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -1572,9 +1570,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail

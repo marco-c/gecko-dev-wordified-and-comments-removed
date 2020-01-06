@@ -507,9 +507,8 @@ finalize
 true
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -522,9 +521,8 @@ reportError
 (
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -569,9 +567,8 @@ addView
 this
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -584,9 +581,8 @@ addView
 this
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

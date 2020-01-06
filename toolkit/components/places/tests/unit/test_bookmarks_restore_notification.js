@@ -987,9 +987,8 @@ file
 false
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;
@@ -1094,9 +1093,8 @@ file
 false
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;
@@ -1343,9 +1341,8 @@ file
 true
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;
@@ -1451,9 +1448,8 @@ file
 true
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;

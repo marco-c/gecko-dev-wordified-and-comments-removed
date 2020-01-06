@@ -484,9 +484,8 @@ load
 rootURI
 )
 .
-then
+catch
 (
-null
 function
 failure
 (
@@ -563,9 +562,8 @@ options
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 exception

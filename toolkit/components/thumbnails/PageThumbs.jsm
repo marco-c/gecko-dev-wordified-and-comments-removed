@@ -2090,9 +2090,8 @@ true
 ]
 )
 .
-then
+catch
 (
-null
 function
 onError
 (

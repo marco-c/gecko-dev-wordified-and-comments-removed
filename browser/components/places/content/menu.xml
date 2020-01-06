@@ -2674,9 +2674,8 @@ event
 dataTransfer
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

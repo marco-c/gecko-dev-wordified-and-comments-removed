@@ -3760,9 +3760,8 @@ openSuggestionsPanel
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

@@ -89,9 +89,8 @@ console
 error
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -185,9 +184,8 @@ then
 testWindowHost
 )
 .
-then
+catch
 (
-null
 console
 .
 error

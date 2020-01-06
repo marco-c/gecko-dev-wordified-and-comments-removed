@@ -2266,9 +2266,8 @@ urlParams
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -2381,9 +2380,8 @@ true
 }
 )
 .
-then
+catch
 (
-null
 err
 =
 >

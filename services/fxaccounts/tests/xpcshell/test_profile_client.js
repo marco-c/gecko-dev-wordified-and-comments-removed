@@ -687,9 +687,8 @@ fetchProfile
 (
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -848,9 +847,8 @@ fetchProfile
 (
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -1560,9 +1558,8 @@ fetchProfile
 (
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -1679,9 +1676,8 @@ fetchProfile
 (
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -1761,9 +1757,8 @@ PUT
 "
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -1860,9 +1855,8 @@ fetchProfile
 (
 )
 .
-then
+catch
 (
-null
 function
 (
 e

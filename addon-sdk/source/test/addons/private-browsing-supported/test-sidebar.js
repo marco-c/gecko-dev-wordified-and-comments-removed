@@ -409,9 +409,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -862,9 +861,8 @@ sidebar
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -873,9 +871,8 @@ fail
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -1287,9 +1284,8 @@ then
 done
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail
@@ -1324,9 +1320,8 @@ here
 }
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail

@@ -2604,9 +2604,8 @@ this
 )
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -11254,9 +11253,8 @@ garbageCollect
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error

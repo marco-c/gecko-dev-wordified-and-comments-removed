@@ -1500,9 +1500,8 @@ false
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >

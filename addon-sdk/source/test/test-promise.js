@@ -899,9 +899,8 @@ promise
 }
 )
 .
-then
+catch
 (
-null
 function
 (
 actual
@@ -946,9 +945,8 @@ promise
 }
 )
 .
-then
+catch
 (
-null
 function
 (
 actual
@@ -1160,9 +1158,8 @@ actual
 }
 )
 .
-then
+catch
 (
-null
 function
 (
 reason
@@ -1237,9 +1234,8 @@ then
 (
 )
 .
-then
+catch
 (
-null
 function
 (
 actual
@@ -1268,9 +1264,8 @@ then
 (
 )
 .
-then
+catch
 (
-null
 function
 (
 actual
@@ -1909,9 +1904,8 @@ undefined
 }
 )
 .
-then
+catch
 (
-null
 function
 (
 actual
@@ -3532,9 +3526,8 @@ reject
 }
 )
 .
-then
+catch
 (
-null
 reason
 =
 >

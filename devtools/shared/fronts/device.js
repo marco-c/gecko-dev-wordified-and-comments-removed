@@ -155,9 +155,8 @@ release
 (
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

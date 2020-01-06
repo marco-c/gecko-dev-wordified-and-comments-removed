@@ -1431,9 +1431,8 @@ styleSheets
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -3191,9 +3190,8 @@ this
 )
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -4544,9 +4542,8 @@ this
 )
 )
 .
-then
+catch
 (
-null
 e
 =
 >

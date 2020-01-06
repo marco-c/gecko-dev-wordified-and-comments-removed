@@ -517,9 +517,8 @@ sanitize
 (
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils
@@ -540,9 +539,8 @@ close
 )
 )
 .
-then
+catch
 (
-null
 Components
 .
 utils

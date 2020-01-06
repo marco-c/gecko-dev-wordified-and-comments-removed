@@ -143,9 +143,8 @@ p3
 =
 p2
 .
-then
+catch
 (
-null
 null
 )
 ;
@@ -808,9 +807,8 @@ resolve
 0
 )
 .
-then
+catch
 (
-null
 null
 )
 name
@@ -835,9 +833,8 @@ reject
 0
 )
 .
-then
+catch
 (
-null
 (
 )
 =
@@ -921,9 +918,8 @@ setTimeout
 >
 p
 .
-then
+catch
 (
-null
 (
 )
 =

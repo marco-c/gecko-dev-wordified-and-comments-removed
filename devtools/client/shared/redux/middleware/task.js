@@ -94,9 +94,8 @@ getState
 )
 )
 .
-then
+catch
 (
-null
 handleError
 .
 bind

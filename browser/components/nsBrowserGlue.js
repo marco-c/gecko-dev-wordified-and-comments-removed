@@ -8242,9 +8242,8 @@ newProfilePath
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >

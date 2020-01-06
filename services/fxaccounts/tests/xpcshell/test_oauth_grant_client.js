@@ -480,9 +480,8 @@ scope
 "
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -645,9 +644,8 @@ scope
 "
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -771,9 +769,8 @@ scope
 "
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -884,9 +881,8 @@ PUT
 "
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -989,9 +985,8 @@ scope
 "
 )
 .
-then
+catch
 (
-null
 function
 (
 e
@@ -1162,9 +1157,8 @@ scope
 "
 )
 .
-then
+catch
 (
-null
 function
 (
 e

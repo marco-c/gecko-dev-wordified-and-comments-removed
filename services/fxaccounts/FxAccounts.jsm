@@ -5181,9 +5181,8 @@ whenVerifiedDeferred
 .
 promise
 .
-then
+catch
 (
-null
 err
 =
 >

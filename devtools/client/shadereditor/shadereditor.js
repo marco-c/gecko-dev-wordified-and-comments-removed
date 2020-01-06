@@ -1536,9 +1536,8 @@ then
 showSources
 )
 .
-then
+catch
 (
-null
 e
 =
 >

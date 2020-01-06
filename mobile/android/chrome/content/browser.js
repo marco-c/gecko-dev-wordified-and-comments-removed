@@ -38063,9 +38063,8 @@ e
 }
 )
 .
-then
+catch
 (
-null
 function
 onError
 (

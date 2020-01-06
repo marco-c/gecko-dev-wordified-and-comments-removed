@@ -3103,9 +3103,8 @@ addView
 downloadsView
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -3402,9 +3401,8 @@ remove
 download
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -3417,9 +3415,8 @@ finalize
 true
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

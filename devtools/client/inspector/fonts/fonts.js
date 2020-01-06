@@ -904,9 +904,8 @@ getAllUsedFontFaces
 options
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -928,9 +927,8 @@ node
 options
 )
 .
-then
+catch
 (
-null
 console
 .
 error

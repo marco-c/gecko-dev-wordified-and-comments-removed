@@ -112,9 +112,8 @@ then
 test_frame_location
 )
 .
-then
+catch
 (
-null
 error
 =
 >

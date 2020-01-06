@@ -3412,9 +3412,8 @@ node
 newTagName
 )
 .
-then
+catch
 (
-null
 (
 )
 =

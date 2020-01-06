@@ -2649,9 +2649,8 @@ promise
 }
 )
 .
-then
+catch
 (
-null
 (
 err
 )
@@ -3315,9 +3314,8 @@ _createPropertyViews
 (
 )
 .
-then
+catch
 (
-null
 e
 =
 >
@@ -5411,9 +5409,8 @@ expanded
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error

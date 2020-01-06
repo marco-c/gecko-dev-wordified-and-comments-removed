@@ -26602,9 +26602,8 @@ makeDir
 stagepath
 )
 .
-then
+catch
 (
-null
 (
 e
 )

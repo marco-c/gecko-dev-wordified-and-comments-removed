@@ -5096,9 +5096,8 @@ this
 _update
 )
 .
-then
+catch
 (
-null
 console
 .
 error

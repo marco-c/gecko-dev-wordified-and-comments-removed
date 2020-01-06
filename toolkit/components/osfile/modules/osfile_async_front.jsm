@@ -1385,9 +1385,8 @@ queue
 =
 promise
 .
-then
+catch
 (
-null
 (
 )
 =
@@ -1398,9 +1397,8 @@ undefined
 return
 promise
 .
-then
+catch
 (
-null
 null
 )
 ;

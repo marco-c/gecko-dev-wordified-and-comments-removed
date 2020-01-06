@@ -1174,9 +1174,8 @@ currentPromise
 {
 currentPromise
 .
-then
+catch
 (
-null
 err
 =
 >
@@ -1608,9 +1607,8 @@ spawn
 generator
 )
 .
-then
+catch
 (
-null
 ok
 .
 bind

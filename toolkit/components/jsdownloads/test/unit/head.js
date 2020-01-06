@@ -1381,9 +1381,8 @@ removeView
 this
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;
@@ -1416,9 +1415,8 @@ do_report_unexpected_exception
 }
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;
@@ -1474,9 +1472,8 @@ isPrivate
 }
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;
@@ -1551,9 +1548,8 @@ removeView
 this
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;
@@ -1586,9 +1582,8 @@ do_report_unexpected_exception
 }
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;
@@ -1710,9 +1705,8 @@ aCount
 }
 )
 .
-then
+catch
 (
-null
 do_report_unexpected_exception
 )
 ;
@@ -2306,9 +2300,8 @@ finished
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

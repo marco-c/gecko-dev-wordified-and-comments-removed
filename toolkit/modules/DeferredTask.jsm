@@ -488,9 +488,8 @@ null
 (
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

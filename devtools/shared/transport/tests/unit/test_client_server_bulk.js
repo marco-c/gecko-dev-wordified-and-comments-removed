@@ -992,9 +992,8 @@ close
 }
 )
 .
-then
+catch
 (
-null
 do_throw
 )
 ;
@@ -1209,9 +1208,8 @@ close
 }
 )
 .
-then
+catch
 (
-null
 do_throw
 )
 ;

@@ -1877,9 +1877,8 @@ aFile
 }
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -2687,9 +2686,8 @@ this
 )
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
@@ -2803,9 +2801,8 @@ removeFinished
 )
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError

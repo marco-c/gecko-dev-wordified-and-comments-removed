@@ -718,9 +718,8 @@ url
 )
 )
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -2420,9 +2419,8 @@ contentType
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -2550,9 +2548,8 @@ this
 onSource
 )
 .
-then
+catch
 (
-null
 error
 =
 >

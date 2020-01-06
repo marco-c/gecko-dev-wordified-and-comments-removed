@@ -230,9 +230,8 @@ release
 (
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -624,9 +623,8 @@ release
 (
 )
 .
-then
+catch
 (
-null
 console
 .
 error
@@ -737,9 +735,8 @@ chars
 }
 )
 .
-then
+catch
 (
-null
 console
 .
 error

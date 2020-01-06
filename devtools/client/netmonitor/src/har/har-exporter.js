@@ -802,9 +802,8 @@ jsonString
 }
 )
 .
-then
+catch
 (
-null
 function
 onError
 (

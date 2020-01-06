@@ -1297,9 +1297,8 @@ onHidden
 {
 onHidden
 .
-then
+catch
 (
-null
 e
 =
 >

@@ -118,9 +118,8 @@ do_test_finished
 }
 )
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -295,9 +294,8 @@ method
 (
 )
 .
-then
+catch
 (
-null
 error
 =
 >
@@ -727,9 +725,8 @@ promiseCall
 thrower
 )
 .
-then
+catch
 (
-null
 error
 =
 >

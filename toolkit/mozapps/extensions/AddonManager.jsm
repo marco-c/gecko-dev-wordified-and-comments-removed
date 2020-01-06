@@ -7214,9 +7214,8 @@ complete
 ;
 buPromise
 .
-then
+catch
 (
-null
 e
 =
 >
