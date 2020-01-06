@@ -3294,14 +3294,4 @@ mDefaultClearColor
 ;
 }
 }
-public
-boolean
-isIMEEnabled
-(
-)
-{
-return
-false
-;
-}
 }
