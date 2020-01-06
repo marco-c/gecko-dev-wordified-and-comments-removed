@@ -76,6 +76,7 @@ filter_target_tasks
 (
 graph
 parameters
+graph_config
 )
 :
     
@@ -136,6 +137,7 @@ fn
 (
 graph
 parameters
+graph_config
 )
 filter_task
 (
@@ -148,6 +150,7 @@ filter_servo
 (
 graph
 parameters
+graph_config
 )
 :
     

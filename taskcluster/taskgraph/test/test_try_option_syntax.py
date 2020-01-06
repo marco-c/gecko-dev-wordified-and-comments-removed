@@ -16,12 +16,6 @@ parse_message
 from
 taskgraph
 .
-try_option_syntax
-import
-RIDEALONG_BUILDS
-from
-taskgraph
-.
 graph
 import
 Graph
@@ -388,6 +382,52 @@ psan
 )
 ]
 }
+RIDEALONG_BUILDS
+=
+{
+    
+'
+linux
+'
+:
+[
+'
+linux
+-
+ridealong
+'
+]
+    
+'
+linux64
+'
+:
+[
+'
+linux64
+-
+ridealong
+'
+]
+}
+GRAPH_CONFIG
+=
+{
+    
+'
+try
+'
+:
+{
+'
+ridealong
+-
+builds
+'
+:
+RIDEALONG_BUILDS
+}
+}
 for
 r
 in
@@ -547,6 +587,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -620,6 +661,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -684,6 +726,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -753,6 +796,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -819,6 +863,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -887,6 +932,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -957,6 +1003,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1022,6 +1069,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1092,6 +1140,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1156,6 +1205,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1217,6 +1267,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1284,6 +1335,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1317,7 +1369,7 @@ linux
 '
 linux
 -
-l10n
+ridealong
 '
 ]
 "
@@ -1347,6 +1399,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1363,7 +1416,7 @@ linux
 '
 linux
 -
-l10n
+ridealong
 '
 ]
 )
@@ -1390,7 +1443,7 @@ linux
 '
 linux
 -
-l10n
+ridealong
 '
 '
 win32
@@ -1424,6 +1477,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1443,7 +1497,7 @@ linux
 '
 linux
 -
-l10n
+ridealong
 '
 '
 win32
@@ -1494,6 +1548,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 platforms
@@ -1592,6 +1647,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1657,6 +1713,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1737,6 +1794,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1817,6 +1875,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1893,6 +1952,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -1979,6 +2039,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -2077,6 +2138,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -2167,6 +2229,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -2260,6 +2323,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -2372,6 +2436,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -2487,6 +2552,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 all_platforms
@@ -2605,6 +2671,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -2705,6 +2772,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -2800,6 +2868,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -2865,6 +2934,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -2945,6 +3015,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3017,6 +3088,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3075,6 +3147,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3127,6 +3200,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3183,6 +3257,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3241,6 +3316,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3295,6 +3371,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3365,6 +3442,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3430,6 +3508,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3486,6 +3565,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self
@@ -3546,6 +3626,7 @@ TryOptionSyntax
 (
 parameters
 graph_with_jobs
+GRAPH_CONFIG
 )
         
 self

@@ -538,6 +538,7 @@ _try_task_config
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -574,6 +575,7 @@ _try_option_syntax
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -618,6 +620,7 @@ TryOptionSyntax
 (
 parameters
 full_task_graph
+graph_config
 )
     
 target_tasks_labels
@@ -968,6 +971,7 @@ target_tasks_try
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -994,6 +998,7 @@ _try_task_config
 (
 full_task_graph
 parameters
+graph_config
 )
     
 elif
@@ -1010,6 +1015,7 @@ _try_option_syntax
 (
 full_task_graph
 parameters
+graph_config
 )
     
 else
@@ -1029,6 +1035,7 @@ target_tasks_default
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -1091,6 +1098,7 @@ target_tasks_ash
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -1352,6 +1360,7 @@ target_tasks_cedar
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -1494,6 +1503,7 @@ target_tasks_graphics
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -1611,6 +1621,7 @@ target_tasks_valgrind
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -1760,6 +1771,7 @@ target_tasks_nightly_fennec
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -1943,6 +1955,7 @@ target_tasks_nightly_linux
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -2067,6 +2080,7 @@ target_tasks_mozilla_beta
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -2151,6 +2165,7 @@ target_tasks_mozilla_release
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -2251,6 +2266,7 @@ target_tasks_mozilla_beta_desktop_promotion
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -2455,6 +2471,7 @@ target_tasks_publish_firefox
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -2548,6 +2565,7 @@ target_tasks_candidates_fennec
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -2815,6 +2833,7 @@ target_tasks_publish_fennec
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -3100,6 +3119,7 @@ target_tasks_pine
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -3212,6 +3232,7 @@ target_tasks_nightly_macosx
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -3331,6 +3352,7 @@ target_tasks_nightly_win32
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -3464,6 +3486,7 @@ target_tasks_nightly_win64
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -3597,6 +3620,7 @@ target_tasks_nightly_desktop
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -3678,6 +3702,7 @@ target_tasks_dmd
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     
@@ -3764,6 +3789,7 @@ target_tasks_file_update
 (
 full_task_graph
 parameters
+graph_config
 )
 :
     

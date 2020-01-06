@@ -1696,6 +1696,7 @@ target_task_set
 self
 .
 parameters
+graph_config
 )
 )
             
