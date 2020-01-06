@@ -1101,6 +1101,16 @@ GetComputedDirectionality
 )
 const
 ;
+void
+NoteDirtyForServo
+(
+)
+;
+void
+NoteAnimationOnlyDirtyForServo
+(
+)
+;
 bool
 HasDirtyDescendantsForServo
 (

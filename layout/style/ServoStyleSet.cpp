@@ -3517,6 +3517,17 @@ flags
 =
 aBaseFlags
 ;
+postTraversalRequired
+|
+=
+root
+-
+>
+HasFlag
+(
+NODE_DESCENDANTS_NEED_FRAMES
+)
+;
 if
 (
 !
