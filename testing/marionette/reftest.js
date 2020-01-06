@@ -5,9 +5,6 @@ strict
 ;
 const
 {
-classes
-:
-Cc
 interfaces
 :
 Ci

@@ -54,7 +54,6 @@ const
 {
 ElementClickInterceptedError
 ElementNotInteractableError
-InvalidArgument
 InvalidArgumentError
 InvalidElementStateError
 pprint
@@ -1140,7 +1139,8 @@ resolve
 let
 handleEvent
 =
-event
+(
+)
 =
 >
 {

@@ -319,7 +319,8 @@ reject
 let
 bail
 =
-res
+(
+)
 =
 >
 {

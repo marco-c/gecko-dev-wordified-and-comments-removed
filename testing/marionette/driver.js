@@ -21,33 +21,6 @@ Cr
 =
 Components
 ;
-const
-loader
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-moz
-/
-jssubscript
--
-loader
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-mozIJSSubScriptLoader
-)
-;
 Cu
 .
 import
@@ -306,7 +279,6 @@ js
 const
 {
 ElementNotInteractableError
-error
 InsecureCertificateError
 InvalidArgumentError
 InvalidCookieDomainError
@@ -3014,7 +2986,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 if
@@ -3594,7 +3565,6 @@ setContext
 function
 (
 cmd
-resp
 )
 {
 let
@@ -4108,7 +4078,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -4259,7 +4228,6 @@ getCurrentUrl
 =
 function
 (
-cmd
 )
 {
 assert
@@ -4301,8 +4269,6 @@ getTitle
 =
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -4488,8 +4454,6 @@ goBack
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -4650,8 +4614,6 @@ goForward
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -4812,8 +4774,6 @@ refresh
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -5054,8 +5014,6 @@ getWindowHandle
 =
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -5088,8 +5046,6 @@ getWindowHandles
 =
 function
 (
-cmd
-resp
 )
 {
 return
@@ -5177,8 +5133,6 @@ getChromeWindowHandles
 =
 function
 (
-cmd
-resp
 )
 {
 return
@@ -5201,8 +5155,6 @@ getWindowRect
 =
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -5244,7 +5196,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -5658,7 +5609,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 let
@@ -6212,8 +6162,6 @@ switchToParentFrame
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -6257,7 +6205,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -7320,8 +7267,6 @@ getTimeouts
 =
 function
 (
-cmd
-resp
 )
 {
 return
@@ -7340,7 +7285,6 @@ setTimeouts
 function
 (
 cmd
-resp
 )
 {
 let
@@ -7387,7 +7331,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -7484,7 +7427,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -7565,8 +7507,6 @@ releaseActions
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -7749,7 +7689,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -8329,7 +8268,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -9585,7 +9523,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -9697,7 +9634,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -9827,7 +9763,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -9880,7 +9815,6 @@ addCookie
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -10091,8 +10025,6 @@ deleteAllCookies
 =
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -10167,7 +10099,6 @@ deleteCookie
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -10280,8 +10211,6 @@ close
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -10420,8 +10349,6 @@ closeChromeWindow
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -10532,8 +10459,6 @@ deleteSession
 =
 function
 (
-cmd
-resp
 )
 {
 if
@@ -10807,7 +10732,6 @@ takeScreenshot
 function
 (
 cmd
-resp
 )
 {
 let
@@ -11093,7 +11017,6 @@ setScreenOrientation
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -11241,8 +11164,6 @@ minimizeWindow
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -11370,8 +11291,6 @@ maximizeWindow
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -11467,7 +11386,6 @@ async
 function
 windowSizeChange
 (
-from
 )
 {
 return
@@ -11614,8 +11532,6 @@ fullscreenWindow
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -11743,8 +11659,6 @@ dismissDialog
 =
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -11804,8 +11718,6 @@ acceptDialog
 =
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -11911,7 +11823,6 @@ sendKeysToDialog
 function
 (
 cmd
-resp
 )
 {
 let
@@ -12053,7 +11964,6 @@ acceptConnections
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -12331,7 +12241,6 @@ installAddon
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -12416,7 +12325,6 @@ uninstallAddon
 function
 (
 cmd
-resp
 )
 {
 assert
@@ -13021,7 +12929,6 @@ async
 function
 (
 cmd
-resp
 )
 {
 if
@@ -13266,8 +13173,6 @@ teardownReftest
 =
 function
 (
-cmd
-resp
 )
 {
 if

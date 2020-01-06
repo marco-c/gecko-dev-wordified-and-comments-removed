@@ -11,9 +11,6 @@ CC
 classes
 :
 Cc
-interfaces
-:
-Ci
 utils
 :
 Cu
