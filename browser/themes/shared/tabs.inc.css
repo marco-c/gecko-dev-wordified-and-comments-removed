@@ -4579,6 +4579,10 @@ fill
 opacity
 )
 ;
+color
+:
+inherit
+;
 }
 .
 tabbrowser
