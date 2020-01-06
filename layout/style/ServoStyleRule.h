@@ -167,7 +167,7 @@ final
 public
 BindingStyleRule
 public
-nsIDOMCSSStyleRule
+nsICSSStyleRuleDOMWrapper
 {
 public
 :
@@ -202,6 +202,16 @@ final
 MOZ_MUST_OVERRIDE
 ;
 NS_DECL_NSIDOMCSSSTYLERULE
+NS_IMETHOD
+GetCSSStyleRule
+(
+BindingStyleRule
+*
+*
+aResult
+)
+override
+;
 uint32_t
 GetSelectorCount
 (
