@@ -24,6 +24,12 @@ mozilla
 namespace
 widget
 {
+#
+if
+defined
+(
+MOZ_WIDGET_GTK
+)
 class
 HeadlessLookAndFeel
 :
@@ -111,6 +117,14 @@ GetEchoPasswordImpl
 ;
 }
 ;
+#
+else
+typedef
+nsLookAndFeel
+HeadlessLookAndFeel
+;
+#
+endif
 }
 }
 #
