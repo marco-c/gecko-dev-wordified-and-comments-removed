@@ -2644,7 +2644,7 @@ True
 animation_value_type
 =
 "
-none
+discrete
 "
 )
 }
@@ -3437,7 +3437,7 @@ gecko
 animation_value_type
 =
 "
-none
+discrete
 "
 disable_when_testing
 =
@@ -3595,6 +3595,7 @@ input
 derive
 (
 Clone
+Debug
 PartialEq
 )
 ]
@@ -3633,6 +3634,7 @@ u32
 derive
 (
 Clone
+Debug
 PartialEq
 )
 ]
