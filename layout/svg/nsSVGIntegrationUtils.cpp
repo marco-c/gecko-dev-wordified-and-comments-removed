@@ -3383,9 +3383,16 @@ maskUsage
 shouldGenerateMaskLayer
 &
 &
+(
 maskUsage
 .
 shouldGenerateClipMaskLayer
+|
+|
+maskUsage
+.
+shouldApplyClipPath
+)
 )
 {
 maskTarget
