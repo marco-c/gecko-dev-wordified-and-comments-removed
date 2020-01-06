@@ -770,9 +770,6 @@ Init
 deviceUniqueIdUTF8
 )
 ;
-delete
-newCaptureModule
-;
 return
 NULL
 ;
