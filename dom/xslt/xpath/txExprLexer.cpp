@@ -275,7 +275,7 @@ txExprLexer
 parse
 (
 const
-nsASingleFragmentString
+nsAString
 &
 aPattern
 )

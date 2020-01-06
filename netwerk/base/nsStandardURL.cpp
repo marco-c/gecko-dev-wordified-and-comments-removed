@@ -1358,7 +1358,7 @@ nsSegmentEncoder
 EncodeSegment
 (
 const
-nsASingleFragmentCString
+nsACString
 &
 str
 int16_t

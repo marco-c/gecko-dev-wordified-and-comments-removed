@@ -1402,7 +1402,7 @@ NS_LITERAL_STRING
 )
 {
 const
-nsASingleFragmentString
+nsAString
 &
 url
 =

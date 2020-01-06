@@ -994,7 +994,7 @@ continue
 ;
 }
 const
-nsASingleFragmentCString
+nsACString
 &
 tmp
 =
@@ -1010,7 +1010,7 @@ hostIndex
 )
 ;
 const
-nsASingleFragmentCString
+nsACString
 &
 algo_string
 =
@@ -1026,7 +1026,7 @@ algoIndex
 )
 ;
 const
-nsASingleFragmentCString
+nsACString
 &
 fingerprint
 =
@@ -1042,7 +1042,7 @@ fingerprintIndex
 )
 ;
 const
-nsASingleFragmentCString
+nsACString
 &
 bits_string
 =
@@ -1058,7 +1058,7 @@ overrideBitsIndex
 )
 ;
 const
-nsASingleFragmentCString
+nsACString
 &
 db_key
 =

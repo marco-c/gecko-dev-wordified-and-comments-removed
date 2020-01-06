@@ -117,16 +117,8 @@ nsString
 nsAFlatString
 ;
 typedef
-nsSubstring
-nsASingleFragmentString
-;
-typedef
 nsCString
 nsAFlatCString
-;
-typedef
-nsCSubstring
-nsASingleFragmentCString
 ;
 #
 endif

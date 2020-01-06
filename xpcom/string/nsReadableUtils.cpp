@@ -5570,11 +5570,11 @@ int32_t
 CompareUTF8toUTF16
 (
 const
-nsASingleFragmentCString
+nsACString
 &
 aUTF8String
 const
-nsASingleFragmentString
+nsAString
 &
 aUTF16String
 )

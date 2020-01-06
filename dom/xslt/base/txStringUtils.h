@@ -41,7 +41,7 @@ bool
 TX_StringEqualsAtom
 (
 const
-nsASingleFragmentString
+nsAString
 &
 aString
 nsIAtom
