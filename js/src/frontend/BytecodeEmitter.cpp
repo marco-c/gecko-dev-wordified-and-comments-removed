@@ -3951,6 +3951,12 @@ case
 ScopeKind
 :
 :
+WasmInstance
+:
+case
+ScopeKind
+:
+:
 WasmFunction
 :
 MOZ_CRASH
@@ -7385,6 +7391,12 @@ Module
 :
 break
 ;
+case
+ScopeKind
+:
+:
+WasmInstance
+:
 case
 ScopeKind
 :
