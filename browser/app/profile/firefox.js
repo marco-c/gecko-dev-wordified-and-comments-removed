@@ -11140,6 +11140,16 @@ max_decoded_image_kb
 pref
 (
 "
+sidebar
+.
+position_start
+"
+true
+)
+;
+pref
+(
+"
 social
 .
 share
