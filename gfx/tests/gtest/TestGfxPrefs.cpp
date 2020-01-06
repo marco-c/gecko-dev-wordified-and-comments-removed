@@ -389,9 +389,6 @@ APZMaxVelocity
 )
 ;
 }
-#
-ifdef
-MOZ_CRASHREPORTER
 extern
 bool
 SimpleNoCLibDtoA
@@ -567,5 +564,3 @@ testBuffer
 )
 ;
 }
-#
-endif
