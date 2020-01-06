@@ -181,7 +181,7 @@ aFile
 )
 override
 ;
-nsresult
+void
 FindTargetObject
 (
 JSContext
