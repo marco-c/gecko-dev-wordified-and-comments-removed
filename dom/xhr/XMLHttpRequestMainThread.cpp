@@ -15528,6 +15528,9 @@ mUpload
 &
 !
 mUploadComplete
+&
+&
+mFlagHadUploadListenersOnSend
 )
 {
 DispatchProgressEvent
