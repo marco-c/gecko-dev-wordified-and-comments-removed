@@ -528,7 +528,7 @@ lehest
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -548,7 +548,7 @@ lahkumata
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -565,7 +565,7 @@ soovid
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -596,7 +596,7 @@ hoida
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -614,7 +614,7 @@ lehti
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -640,7 +640,7 @@ salvestamiseks
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -656,7 +656,7 @@ meeldib
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {
@@ -833,6 +833,19 @@ message
 :
 "
 privaatsuspoliitikaga
+"
+}
+"
+libraryLabel
+"
+:
+{
+"
+message
+"
+:
+"
+Ekraanipildid
 "
 }
 }

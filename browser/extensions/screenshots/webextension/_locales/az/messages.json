@@ -682,7 +682,7 @@ olun
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -714,7 +714,7 @@ n
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -738,7 +738,7 @@ n
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -781,7 +781,7 @@ gedin
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -806,7 +806,7 @@ kin
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -853,7 +853,7 @@ in
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -868,7 +868,7 @@ kimi
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {

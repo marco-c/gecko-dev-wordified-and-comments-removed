@@ -617,7 +617,7 @@ dersiniz
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -645,7 +645,7 @@ n
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -660,7 +660,7 @@ yakala
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -701,7 +701,7 @@ gelebilirsiniz
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -720,7 +720,7 @@ yakala
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -757,7 +757,7 @@ in
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -773,7 +773,7 @@ yakala
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {

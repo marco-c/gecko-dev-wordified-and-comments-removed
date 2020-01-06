@@ -547,7 +547,7 @@ tinklalap
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -570,7 +570,7 @@ Firefox
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -589,7 +589,7 @@ norite
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -626,7 +626,7 @@ pasirinkim
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -644,7 +644,7 @@ tinklalapius
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -674,7 +674,7 @@ tinklalap
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -689,7 +689,7 @@ patogiau
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {

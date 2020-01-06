@@ -549,7 +549,7 @@ stranicu
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -572,7 +572,7 @@ Firefox
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -588,7 +588,7 @@ elite
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -627,7 +627,7 @@ a
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -645,7 +645,7 @@ a
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -698,7 +698,7 @@ snimke
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -715,7 +715,7 @@ stranice
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {

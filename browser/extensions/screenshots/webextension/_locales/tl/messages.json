@@ -531,7 +531,7 @@ pahina
 "
 }
 "
-tourBodyOne
+tourBodyIntro
 "
 :
 {
@@ -558,7 +558,7 @@ Firefox
 "
 }
 "
-tourHeaderTwo
+tourHeaderClickAndDrag
 "
 :
 {
@@ -576,7 +576,7 @@ Mo
 "
 }
 "
-tourBodyTwo
+tourBodyClickAndDrag
 "
 :
 {
@@ -619,7 +619,7 @@ pagpili
 "
 }
 "
-tourHeaderThree
+tourHeaderFullPage
 "
 :
 {
@@ -639,7 +639,7 @@ Pahina
 "
 }
 "
-tourBodyThree
+tourBodyFullPage
 "
 :
 {
@@ -672,7 +672,7 @@ pahina
 "
 }
 "
-tourHeaderFour
+tourHeaderDownloadUpload
 "
 :
 {
@@ -688,7 +688,7 @@ ito
 "
 }
 "
-tourBodyFour
+tourBodyDownloadUpload
 "
 :
 {
