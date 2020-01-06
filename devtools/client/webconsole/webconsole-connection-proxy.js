@@ -1012,6 +1012,7 @@ displayCachedMessages
 messages
 )
 ;
+}
 if
 (
 !
@@ -1028,7 +1029,6 @@ logWarningAboutReplacedAPI
 (
 )
 ;
-}
 }
 this
 .
