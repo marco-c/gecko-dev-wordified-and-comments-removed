@@ -6964,6 +6964,9 @@ bool
 legacy_syntax
 :
 bool
+moz_legacy_syntax
+:
+bool
 stops
 :
 u32
