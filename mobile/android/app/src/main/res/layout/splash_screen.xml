@@ -81,6 +81,15 @@ splash_root
 "
 android
 :
+background
+=
+"
+drawable
+/
+url_bar_bg
+"
+android
+:
 layout_width
 =
 "
