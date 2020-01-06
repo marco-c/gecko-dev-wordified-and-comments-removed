@@ -994,6 +994,7 @@ app
 -
 startup
 BrowserCLH
+service
 mozilla
 .
 org

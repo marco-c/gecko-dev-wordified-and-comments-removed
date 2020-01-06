@@ -226,6 +226,12 @@ BrowserCLH
 (
 )
 {
+this
+.
+wrappedJSObject
+=
+this
+;
 }
 BrowserCLH
 .
