@@ -882,7 +882,10 @@ aName
 )
 {
 return
-NS_GetFuncStringNodeList
+GetFuncStringContentList
+<
+nsCachableElementsByNameNodeList
+>
 (
 this
 MatchNameAttribute
