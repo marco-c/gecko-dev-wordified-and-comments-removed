@@ -37,12 +37,6 @@ endif
 if
 defined
 (
-MOZ_CRASHREPORTER
-)
-&
-&
-defined
-(
 __cplusplus
 )
 #
@@ -139,12 +133,6 @@ reason
 ;
 #
 if
-defined
-(
-MOZ_CRASHREPORTER
-)
-&
-&
 defined
 (
 __cplusplus

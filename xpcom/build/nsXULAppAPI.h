@@ -508,12 +508,6 @@ char
 aProcessTypeString
 )
 )
-#
-if
-defined
-(
-MOZ_CRASHREPORTER
-)
 XRE_API
 (
 bool
@@ -541,8 +535,6 @@ char
 aPipe
 )
 )
-#
-endif
 namespace
 mozilla
 {
