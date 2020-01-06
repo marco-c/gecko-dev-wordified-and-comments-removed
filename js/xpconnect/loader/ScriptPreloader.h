@@ -1175,6 +1175,14 @@ Cleanup
 )
 ;
 void
+FinishPendingParses
+(
+MonitorAutoLock
+&
+aMal
+)
+;
+void
 InvalidateCache
 (
 )
@@ -1255,7 +1263,7 @@ context
 )
 ;
 void
-FinishOffThreadDecode
+MaybeFinishOffThreadDecode
 (
 )
 ;
