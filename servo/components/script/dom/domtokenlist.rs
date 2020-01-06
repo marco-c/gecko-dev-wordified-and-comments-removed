@@ -1106,7 +1106,6 @@ pos
 )
 ;
 }
-}
 self
 .
 element
@@ -1120,6 +1119,7 @@ local_name
 atoms
 )
 ;
+}
 Ok
 (
 (
