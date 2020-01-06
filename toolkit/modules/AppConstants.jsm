@@ -733,17 +733,6 @@ else
 false
 #
 endif
-MOZ_PHOTON_PREFERENCES
-:
-#
-ifdef
-MOZ_PHOTON_PREFERENCES
-true
-#
-else
-false
-#
-endif
 MOZ_STYLO
 :
 #

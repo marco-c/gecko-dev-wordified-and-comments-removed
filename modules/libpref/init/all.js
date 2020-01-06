@@ -15531,7 +15531,7 @@ enable
 -
 prefetch
 "
-true
+false
 )
 ;
 pref
@@ -41138,7 +41138,6 @@ advisoryName
 Google
 Safe
 Browsing
-.
 "
 )
 ;
@@ -41492,7 +41491,6 @@ advisoryName
 Google
 Safe
 Browsing
-.
 "
 )
 ;
