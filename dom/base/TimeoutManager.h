@@ -305,6 +305,11 @@ Thaw
 (
 )
 ;
+void
+UpdateBackgroundState
+(
+)
+;
 static
 void
 Initialize
