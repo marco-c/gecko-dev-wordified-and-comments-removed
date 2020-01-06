@@ -856,11 +856,6 @@ target
 {
 if
 (
-aValue
-)
-{
-if
-(
 mPendingSubmission
 )
 {
@@ -882,7 +877,6 @@ mNotifiedObservers
 =
 notifiedObservers
 ;
-}
 }
 }
 return
