@@ -44425,6 +44425,15 @@ my
 -
 color
 "
+"
+none
+"
+"
+none
+2s
+linear
+2s
+"
 ]
 invalid_values
 :
