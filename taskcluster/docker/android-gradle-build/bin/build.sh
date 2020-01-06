@@ -201,6 +201,16 @@ sources
 .
 sh
 .
+HOME
+/
+bin
+/
+after
+-
+checkout
+.
+sh
+.
 WORKSPACE
 /
 build
