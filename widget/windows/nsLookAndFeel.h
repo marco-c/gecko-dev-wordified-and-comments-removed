@@ -201,6 +201,14 @@ nscolor
 aColor
 )
 ;
+nsresult
+GetAccentColorText
+(
+nscolor
+&
+aColor
+)
+;
 int32_t
 mUseAccessibilityTheme
 ;
