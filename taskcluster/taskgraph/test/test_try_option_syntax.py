@@ -2288,6 +2288,8 @@ self
 :
         
 "
+"
+"
 -
 u
 gtest
@@ -2298,13 +2300,24 @@ selects
 the
 linux
 linux64
-and
 linux64
 -
 asan
+linux64
+-
+stylo
+        
+and
+linux64
+-
+stylo
+-
+sequential
 platforms
 for
 gtest
+"
+"
 "
         
 tos
@@ -2361,6 +2374,19 @@ linux64
 linux64
 -
 asan
+'
+                                            
+'
+linux64
+-
+stylo
+'
+'
+linux64
+-
+stylo
+-
+sequential
 '
 ]
 }
