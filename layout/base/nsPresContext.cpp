@@ -5952,7 +5952,7 @@ void
 nsPresContext
 :
 :
-SetImageAnimationModeInternal
+SetImageAnimationMode
 (
 uint16_t
 aMode
@@ -7190,7 +7190,7 @@ nsISupports
 nsPresContext
 :
 :
-GetContainerWeakInternal
+GetContainerWeak
 (
 )
 const
@@ -7243,7 +7243,7 @@ bool
 nsPresContext
 :
 :
-BidiEnabledInternal
+BidiEnabled
 (
 )
 const
