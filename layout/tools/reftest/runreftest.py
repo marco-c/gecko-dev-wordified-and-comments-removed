@@ -2194,13 +2194,20 @@ autostart
 ]
 =
 True
+        
+else
+:
             
 prefs
 [
 '
-extensions
+browser
 .
-e10sBlocksEnabling
+tabs
+.
+remote
+.
+autostart
 '
 ]
 =
