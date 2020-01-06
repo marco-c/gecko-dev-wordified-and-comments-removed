@@ -2794,10 +2794,6 @@ hidden
 =
 0
 AND
-last_visit_date
->
-0
-AND
 (
 SUBSTR
 (
@@ -3413,6 +3409,10 @@ NOTNULL
 AND
 preview_image_url
 NOTNULL
+AND
+last_visit_date
+>
+0
 {
 this
 .
@@ -3535,6 +3535,10 @@ frecency
 =
 :
 frecencyThreshold
+AND
+last_visit_date
+>
+0
 {
 this
 .
