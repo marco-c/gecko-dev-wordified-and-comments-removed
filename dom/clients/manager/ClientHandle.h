@@ -77,6 +77,10 @@ friend
 class
 ClientManager
 ;
+friend
+class
+ClientHandleChild
+;
 RefPtr
 <
 ClientManager
@@ -112,6 +116,15 @@ const
 ClientOpConstructorArgs
 &
 aArgs
+)
+;
+void
+ExecutionReady
+(
+const
+ClientInfo
+&
+aClientInfo
 )
 ;
 ClientHandle

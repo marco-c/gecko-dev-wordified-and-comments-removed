@@ -106,6 +106,13 @@ Teardown
 (
 )
 ;
+async
+ExecutionReady
+(
+ClientSourceExecutionReadyArgs
+aArgs
+)
+;
 child
 :
 async

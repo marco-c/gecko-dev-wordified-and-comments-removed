@@ -115,6 +115,13 @@ aArgs
 child
 :
 async
+ExecutionReady
+(
+IPCClientInfo
+aClientInfo
+)
+;
+async
 __delete__
 (
 )

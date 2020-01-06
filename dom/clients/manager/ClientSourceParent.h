@@ -57,6 +57,9 @@ ClientHandleParent
 >
 mHandleList
 ;
+bool
+mExecutionReady
+;
 void
 KillInvalidChild
 (
@@ -65,6 +68,16 @@ KillInvalidChild
 IPCResult
 RecvTeardown
 (
+)
+override
+;
+IPCResult
+RecvExecutionReady
+(
+const
+ClientSourceExecutionReadyArgs
+&
+aArgs
 )
 override
 ;
