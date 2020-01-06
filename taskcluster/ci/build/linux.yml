@@ -1723,6 +1723,13 @@ b
 linux
 worker
 :
+env
+:
+PERFHERDER_EXTRA_OPTIONS
+:
+asan
+-
+fuzzing
 max
 -
 run
