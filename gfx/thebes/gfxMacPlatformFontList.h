@@ -545,7 +545,7 @@ userInfo
 ;
 gfxFontEntry
 *
-GlobalFontFallback
+PlatformGlobalFontFallback
 (
 const
 uint32_t
@@ -556,9 +556,6 @@ const
 gfxFontStyle
 *
 aMatchStyle
-uint32_t
-&
-aCmapCount
 gfxFontFamily
 *
 *
