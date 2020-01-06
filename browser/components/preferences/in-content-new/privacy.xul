@@ -3622,7 +3622,7 @@ flex
 description
 >
 &
-trackingProtection
+trackingProtection2
 .
 description
 ;
@@ -3682,7 +3682,7 @@ trackingProtectionRadioGroup
 "
 >
 &
-trackingProtection
+trackingProtection2
 .
 radioGroupLabel
 ;
