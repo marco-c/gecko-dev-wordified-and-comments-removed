@@ -109,7 +109,6 @@ Exposed
 =
 (
 Window
-Worker
 )
 ]
 interface

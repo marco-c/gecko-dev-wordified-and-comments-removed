@@ -522,6 +522,7 @@ ServiceWorkerEvent
 EnterFullscreen
 ExitFullscreen
 WebVREvent
+PerformanceTimelineTask
 }
 pub
 trait
