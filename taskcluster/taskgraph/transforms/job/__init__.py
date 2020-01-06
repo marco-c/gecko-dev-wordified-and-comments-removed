@@ -663,10 +663,8 @@ changed
         
 files_changed
 .
-extend
+append
 (
-[
-            
 '
 {
 }
@@ -681,17 +679,6 @@ config
 .
 path
 )
-            
-'
-taskcluster
-/
-taskgraph
-/
-*
-*
-'
-        
-]
 )
         
 if
