@@ -19,6 +19,15 @@ nsIPresShell
 .
 h
 "
+#
+include
+"
+mozilla
+/
+HashFunctions
+.
+h
+"
 SpanningCellSorter
 :
 :
@@ -103,7 +112,7 @@ key
 )
 {
 return
-NS_PTR_TO_INT32
+HashGeneric
 (
 key
 )
