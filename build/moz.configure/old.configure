@@ -1892,17 +1892,6 @@ with
 -
 android
 -
-cxx
--
-stl
-'
-'
--
--
-with
--
-android
--
 distribution
 -
 directory
