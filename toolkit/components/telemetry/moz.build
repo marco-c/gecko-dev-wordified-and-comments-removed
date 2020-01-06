@@ -283,6 +283,11 @@ TelemetryScalarEnums
 h
 '
 '
+CombinedStacks
+.
+h
+'
+'
 ipc
 /
 TelemetryComms
