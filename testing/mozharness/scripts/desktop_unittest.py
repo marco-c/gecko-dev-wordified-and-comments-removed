@@ -5433,6 +5433,10 @@ minutes
 60
 )
         
+verify_time_exceeded
+=
+False
+        
 start_time
 =
 datetime
@@ -6154,9 +6158,9 @@ br
 "
 )
                         
-max_verify_time
+verify_time_exceeded
 =
-0
+True
                         
 break
                     
@@ -6345,10 +6349,7 @@ log_level
 )
                 
 if
-max_verify_time
-<
-=
-0
+verify_time_exceeded
 :
                     
 break
