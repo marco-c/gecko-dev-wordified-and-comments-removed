@@ -2642,8 +2642,11 @@ mReferrerPolicy
 nsString
 mInitiatorType
 ;
-int16_t
+int8_t
 mRedirectCount
+;
+int8_t
+mInternalRedirectCount
 ;
 mozilla
 :

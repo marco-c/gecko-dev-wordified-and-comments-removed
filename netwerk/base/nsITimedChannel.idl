@@ -162,8 +162,12 @@ number
 of
 redirects
 attribute
-uint16_t
+uint8_t
 redirectCount
+;
+attribute
+uint8_t
+internalRedirectCount
 ;
 [
 noscript

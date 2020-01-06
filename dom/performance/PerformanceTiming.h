@@ -321,7 +321,7 @@ GetUnloadEventEnd
 )
 ;
 }
-uint16_t
+uint8_t
 GetRedirectCount
 (
 )
@@ -857,7 +857,7 @@ mResponseEnd
 TimeStamp
 mCacheReadEnd
 ;
-uint16_t
+uint8_t
 mRedirectCount
 ;
 bool
