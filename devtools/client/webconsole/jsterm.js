@@ -4235,14 +4235,6 @@ scrollHeight
 inputNode
 .
 inputField
-?
-inputNode
-.
-inputField
-.
-scrollHeight
-:
-inputNode
 .
 scrollHeight
 ;
