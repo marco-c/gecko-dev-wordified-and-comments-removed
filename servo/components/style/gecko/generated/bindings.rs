@@ -12405,6 +12405,9 @@ Servo_StyleSet_AddSizeOfExcludingThis
 malloc_size_of
 :
 MallocSizeOf
+malloc_enclosing_size_of
+:
+MallocSizeOf
 sizes
 :
 *
