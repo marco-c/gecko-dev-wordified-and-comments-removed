@@ -1335,6 +1335,17 @@ AudibleState
 eAudible
 )
 {
+nsPIDOMWindowInner
+*
+window
+=
+aContext
+-
+>
+GetParentObject
+(
+)
+;
 MediaStreamGraph
 *
 graph
@@ -1359,6 +1370,7 @@ MediaStreamGraph
 :
 AUDIO_THREAD_DRIVER
 aChannel
+window
 )
 ;
 AudioNodeEngine

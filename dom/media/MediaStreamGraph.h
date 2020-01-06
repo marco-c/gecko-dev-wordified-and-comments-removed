@@ -117,6 +117,9 @@ h
 class
 nsIRunnable
 ;
+class
+nsPIDOMWindowInner
+;
 template
 <
 >
@@ -1987,14 +1990,6 @@ return
 mStreamTracksStartTimeStamp
 ;
 }
-bool
-OpenNewAudioCallbackDriver
-(
-AudioDataListener
-*
-aListener
-)
-;
 friend
 class
 MediaStreamGraphImpl
@@ -3152,6 +3147,9 @@ dom
 :
 AudioChannel
 aChannel
+nsPIDOMWindowInner
+*
+aWindow
 )
 ;
 static

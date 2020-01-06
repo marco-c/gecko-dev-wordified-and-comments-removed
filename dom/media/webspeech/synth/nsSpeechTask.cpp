@@ -611,6 +611,7 @@ AudioChannel
 :
 :
 Normal
+nullptr
 )
 -
 >

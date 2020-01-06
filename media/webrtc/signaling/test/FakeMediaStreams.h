@@ -207,6 +207,9 @@ GraphDriverType
 aDriverType
 uint32_t
 aType
+nsPIDOMWindowInner
+*
+aWindow
 )
 {
 if

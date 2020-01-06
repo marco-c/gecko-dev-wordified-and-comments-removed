@@ -15031,6 +15031,7 @@ GetInstance
 (
 graphDriverType
 mAudioChannel
+window
 )
 ;
 RefPtr
@@ -15166,6 +15167,7 @@ GetInstance
 (
 graphDriverType
 mAudioChannel
+window
 )
 ;
 RefPtr
@@ -31179,6 +31181,7 @@ MediaStreamGraph
 :
 AUDIO_THREAD_DRIVER
 mAudioChannel
+window
 )
 ;
 if
