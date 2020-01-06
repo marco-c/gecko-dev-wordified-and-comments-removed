@@ -12301,13 +12301,10 @@ false
 ;
 }
 return
-css
+CSSMozDocumentRule
 :
 :
-DocumentRule
-:
-:
-UseForPresentation
+Match
 (
 doc
 docURI
