@@ -1836,7 +1836,7 @@ win
 undefined
 )
 {
-var
+let
 TIP
 =
 getTIP_
@@ -1853,7 +1853,7 @@ TIP
 return
 ;
 }
-var
+let
 KeyboardEvent
 =
 getKeyboardEvent_
@@ -1861,7 +1861,7 @@ getKeyboardEvent_
 win
 )
 ;
-var
+let
 modifiers
 =
 emulateToActivateModifiers_
@@ -1871,7 +1871,7 @@ event
 win
 )
 ;
-var
+let
 keyEventDict
 =
 createKeyboardEventDictionary_
@@ -1881,7 +1881,7 @@ event
 win
 )
 ;
-var
+let
 keyEvent
 =
 new
@@ -1894,7 +1894,7 @@ keyEventDict
 dictionary
 )
 ;
-var
+let
 dispatchKeydown
 =
 !
@@ -1923,7 +1923,7 @@ event
 .
 type
 ;
-var
+let
 dispatchKeyup
 =
 !
@@ -1993,7 +1993,7 @@ repeat
 =
 true
 ;
-var
+let
 repeatedKeyEvent
 =
 new
@@ -2008,7 +2008,7 @@ dictionary
 ;
 for
 (
-var
+let
 i
 =
 1
@@ -2066,7 +2066,7 @@ win
 }
 }
 ;
-var
+const
 TIPMap
 =
 new
@@ -2092,7 +2092,7 @@ win
 window
 ;
 }
-var
+let
 tip
 ;
 if
@@ -2263,7 +2263,7 @@ win
 window
 )
 {
-var
+let
 result
 =
 {
@@ -2275,7 +2275,7 @@ flags
 0
 }
 ;
-var
+let
 keyCodeIsDefined
 =
 "
@@ -2292,7 +2292,7 @@ keyCode
 =
 undefined
 ;
-var
+let
 keyCode
 =
 (
@@ -2321,7 +2321,7 @@ keyCode
 :
 0
 ;
-var
+let
 keyName
 =
 "
@@ -2528,7 +2528,7 @@ KEY_FORCE_PRINTABLE_KEY
 ;
 }
 }
-var
+let
 locationIsDefined
 =
 "
@@ -2648,7 +2648,7 @@ return
 null
 ;
 }
-var
+let
 KeyboardEvent
 =
 getKeyboardEvent_
@@ -2656,7 +2656,7 @@ getKeyboardEvent_
 win
 )
 ;
-var
+let
 modifiers
 =
 {
@@ -3353,7 +3353,7 @@ win
 window
 )
 {
-var
+let
 KeyboardEvent
 =
 getKeyboardEvent_

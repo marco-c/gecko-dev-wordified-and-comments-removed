@@ -151,7 +151,7 @@ Marionette
 "
 )
 ;
-var
+const
 ownPriorityGetterTrap
 =
 {
