@@ -1957,6 +1957,11 @@ uint32_t
 namespaces
 )
 ;
+async
+AudioDefaultDeviceChange
+(
+)
+;
 /
 /
 Re
