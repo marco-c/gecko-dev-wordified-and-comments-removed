@@ -109,9 +109,8 @@ ImageWrapper
 :
 SizeOfSourceWithComputedFallback
 (
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 {
@@ -121,7 +120,7 @@ mInnerImage
 >
 SizeOfSourceWithComputedFallback
 (
-aState
+aMallocSizeOf
 )
 ;
 }

@@ -54349,7 +54349,7 @@ SizeOfExcludingThis
 aWindowSizes
 -
 >
-mState
+mMallocSizeOf
 )
 ;
 if
@@ -54365,8 +54365,6 @@ AddSizeOfIncludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 &
 aWindowSizes
@@ -54414,8 +54412,6 @@ SizeOfExcludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -54459,8 +54455,6 @@ SizeOfIncludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -54512,8 +54506,6 @@ mDOMOtherSize
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 (
 this
@@ -54603,9 +54595,8 @@ nsDocument
 :
 SizeOfExcludingThis
 (
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 {
@@ -54671,7 +54662,7 @@ SizeOfIncludingThis
 aWindowSizes
 -
 >
-mState
+mMallocSizeOf
 )
 ;
 size_t
@@ -54812,8 +54803,6 @@ mStyleSheets
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -54830,8 +54819,6 @@ ShallowSizeOfExcludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -54856,8 +54843,6 @@ sheetArray
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -54878,8 +54863,6 @@ SizeOfIncludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -54899,8 +54882,6 @@ DOMSizeOfIncludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 :
@@ -54919,8 +54900,6 @@ ShallowSizeOfExcludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;
@@ -54937,8 +54916,6 @@ SizeOfExcludingThis
 aWindowSizes
 -
 >
-mState
-.
 mMallocSizeOf
 )
 ;

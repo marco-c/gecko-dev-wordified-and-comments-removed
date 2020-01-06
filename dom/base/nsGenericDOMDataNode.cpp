@@ -4864,9 +4864,8 @@ nsGenericDOMDataNode
 :
 SizeOfExcludingThis
 (
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 {
@@ -4878,7 +4877,7 @@ nsIContent
 :
 SizeOfExcludingThis
 (
-aState
+aMallocSizeOf
 )
 ;
 n
@@ -4888,9 +4887,7 @@ mText
 .
 SizeOfExcludingThis
 (
-aState
-.
-mMallocSizeOf
+aMallocSizeOf
 )
 ;
 return

@@ -206,9 +206,8 @@ nsWindowSizes
 mozilla
 :
 :
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 :
 #
@@ -240,9 +239,9 @@ mDOMEventListenersCount
 mArenaStats
 (
 )
-mState
+mMallocSizeOf
 (
-aState
+aMallocSizeOf
 )
 {
 }
@@ -362,9 +361,8 @@ mArenaStats
 mozilla
 :
 :
-SizeOfState
-&
-mState
+MallocSizeOf
+mMallocSizeOf
 ;
 #
 undef

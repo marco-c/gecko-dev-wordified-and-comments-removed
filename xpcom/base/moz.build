@@ -587,11 +587,6 @@ OwningNonNull
 h
 '
 '
-SizeOfState
-.
-h
-'
-'
 StaticMutex
 .
 h

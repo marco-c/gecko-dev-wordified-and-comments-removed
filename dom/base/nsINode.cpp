@@ -11836,9 +11836,8 @@ nsINode
 :
 SizeOfExcludingThis
 (
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 {
@@ -11868,9 +11867,7 @@ elm
 >
 SizeOfIncludingThis
 (
-aState
-.
-mMallocSizeOf
+aMallocSizeOf
 )
 ;
 }

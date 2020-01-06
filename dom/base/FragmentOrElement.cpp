@@ -11756,9 +11756,8 @@ FragmentOrElement
 :
 SizeOfExcludingThis
 (
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 {
@@ -11775,7 +11774,7 @@ nsIContent
 :
 SizeOfExcludingThis
 (
-aState
+aMallocSizeOf
 )
 ;
 n
@@ -11785,9 +11784,7 @@ mAttrsAndChildren
 .
 SizeOfExcludingThis
 (
-aState
-.
-mMallocSizeOf
+aMallocSizeOf
 )
 ;
 nsDOMSlots
@@ -11811,9 +11808,7 @@ slots
 >
 SizeOfIncludingThis
 (
-aState
-.
-mMallocSizeOf
+aMallocSizeOf
 )
 ;
 }

@@ -828,9 +828,8 @@ SizeOfExcludingThis
 mozilla
 :
 :
-SizeOfState
-&
-aState
+MallocSizeOf
+aMallocSizeOf
 )
 const
 {
@@ -840,7 +839,7 @@ nsGenericHTMLElement
 :
 SizeOfExcludingThis
 (
-aState
+aMallocSizeOf
 )
 +
 Link
@@ -848,7 +847,7 @@ Link
 :
 SizeOfExcludingThis
 (
-aState
+aMallocSizeOf
 )
 ;
 }
