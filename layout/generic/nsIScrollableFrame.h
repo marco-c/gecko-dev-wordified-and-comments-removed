@@ -779,7 +779,7 @@ nsRect
 *
 aDirtyRect
 bool
-aSetBase
+aAllowCreateDisplayPort
 )
 =
 0
