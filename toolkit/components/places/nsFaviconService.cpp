@@ -1301,6 +1301,8 @@ aCallback
 nsIPrincipal
 *
 aLoadingPrincipal
+uint64_t
+aRequestContextID
 mozIPlacesPendingOperation
 *
 *
@@ -1793,6 +1795,7 @@ page
 loadPrivate
 aCallback
 aLoadingPrincipal
+aRequestContextID
 )
 ;
 RefPtr

@@ -1038,6 +1038,7 @@ loadFavicon
 browser
 principal
 uri
+requestContextID
 )
 {
 this
@@ -1190,6 +1191,7 @@ false
 loadType
 callback
 principal
+requestContextID
 )
 ;
 if
@@ -2892,6 +2894,7 @@ loadFavicon
 browser
 principal
 uri
+requestContextID
 )
 {
 if
@@ -2926,6 +2929,7 @@ loadFavicon
 browser
 principal
 uri
+requestContextID
 )
 ;
 }
