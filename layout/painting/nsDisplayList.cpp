@@ -24383,6 +24383,7 @@ mBorderRenderer
 >
 CreateWebRenderCommands
 (
+this
 aBuilder
 aResources
 aSc
@@ -46453,7 +46454,9 @@ aBuilder
 PushClip
 (
 clipId
-true
+GetClipChain
+(
+)
 )
 ;
 }
@@ -46478,7 +46481,9 @@ aBuilder
 .
 PopClip
 (
-true
+GetClipChain
+(
+)
 )
 ;
 }

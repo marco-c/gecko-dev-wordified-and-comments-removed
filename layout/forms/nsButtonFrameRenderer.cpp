@@ -1817,6 +1817,7 @@ mBorderRenderer
 >
 CreateWebRenderCommands
 (
+this
 aBuilder
 aResources
 aSc
@@ -2693,6 +2694,7 @@ mBorderRenderer
 >
 CreateWebRenderCommands
 (
+this
 aBuilder
 aResources
 aSc

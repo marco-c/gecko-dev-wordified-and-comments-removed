@@ -16048,6 +16048,9 @@ nsCSSBorderRenderer
 :
 CreateWebRenderCommands
 (
+nsDisplayItem
+*
+aItem
 wr
 :
 :
@@ -16241,7 +16244,12 @@ aBuilder
 PushClip
 (
 clipId
-true
+aItem
+-
+>
+GetClipChain
+(
+)
 )
 ;
 }
@@ -16301,7 +16309,12 @@ aBuilder
 .
 PopClip
 (
-true
+aItem
+-
+>
+GetClipChain
+(
+)
 )
 ;
 }
