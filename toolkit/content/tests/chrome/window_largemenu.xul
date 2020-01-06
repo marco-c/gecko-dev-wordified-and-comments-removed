@@ -2579,10 +2579,6 @@ expectedy
 if
 (
 !
-isPanelTest
-&
-&
-!
 overlapOSChrome
 )
 {

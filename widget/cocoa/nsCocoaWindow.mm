@@ -5791,7 +5791,6 @@ mPopupLevel
 =
 ePopupLevelParent
 )
-{
 [
 nativeParentWindow
 addChildWindow
@@ -5802,14 +5801,6 @@ ordered
 NSWindowAbove
 ]
 ;
-[
-mWindow
-setLevel
-:
-NSPopUpMenuWindowLevel
-]
-;
-}
 }
 else
 {
@@ -8717,13 +8708,6 @@ child
 ordered
 :
 NSWindowAbove
-]
-;
-[
-mWindow
-setLevel
-:
-NSPopUpMenuWindowLevel
 ]
 ;
 }
