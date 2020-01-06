@@ -447,6 +447,9 @@ nsIWebBrowserFind
 class
 nsIWidget
 ;
+class
+FramingChecker
+;
 enum
 ViewMode
 {
@@ -574,6 +577,10 @@ nsDocShell
 friend
 class
 nsDSURIContentListener
+;
+friend
+class
+FramingChecker
 ;
 public
 :
