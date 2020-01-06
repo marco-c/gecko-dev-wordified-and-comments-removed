@@ -283,6 +283,17 @@ ic_search_icon
 "
 android
 :
+background
+=
+"
+android
+:
+color
+/
+transparent
+"
+android
+:
 visibility
 =
 "
