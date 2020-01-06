@@ -1391,10 +1391,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsXPIDLString
+nsAutoString
 subjectName
 ;
-nsXPIDLString
+nsAutoString
 issuerName
 ;
 mCert

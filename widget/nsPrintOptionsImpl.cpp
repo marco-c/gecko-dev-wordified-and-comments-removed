@@ -1022,7 +1022,7 @@ printRange
 )
 )
 ;
-nsXPIDLString
+nsString
 title
 ;
 aSettings
@@ -1045,7 +1045,7 @@ title
 =
 title
 ;
-nsXPIDLString
+nsString
 docURL
 ;
 aSettings
@@ -1068,7 +1068,7 @@ docURL
 =
 docURL
 ;
-nsXPIDLString
+nsString
 headerStrLeft
 ;
 aSettings
@@ -1091,7 +1091,7 @@ headerStrLeft
 =
 headerStrLeft
 ;
-nsXPIDLString
+nsString
 headerStrCenter
 ;
 aSettings
@@ -1114,7 +1114,7 @@ headerStrCenter
 =
 headerStrCenter
 ;
-nsXPIDLString
+nsString
 headerStrRight
 ;
 aSettings
@@ -1137,7 +1137,7 @@ headerStrRight
 =
 headerStrRight
 ;
-nsXPIDLString
+nsString
 footerStrLeft
 ;
 aSettings
@@ -1160,7 +1160,7 @@ footerStrLeft
 =
 footerStrLeft
 ;
-nsXPIDLString
+nsString
 footerStrCenter
 ;
 aSettings
@@ -1183,7 +1183,7 @@ footerStrCenter
 =
 footerStrCenter
 ;
-nsXPIDLString
+nsString
 footerStrRight
 ;
 aSettings
@@ -1304,7 +1304,7 @@ showPrintProgress
 )
 )
 ;
-nsXPIDLString
+nsString
 paperName
 ;
 aSettings
@@ -1439,7 +1439,7 @@ numCopies
 )
 )
 ;
-nsXPIDLString
+nsString
 printerName
 ;
 aSettings
@@ -1476,7 +1476,7 @@ printToFile
 )
 )
 ;
-nsXPIDLString
+nsString
 toFileName
 ;
 aSettings
@@ -6129,7 +6129,7 @@ _retval
 printSettings
 )
 ;
-nsXPIDLString
+nsString
 printerName
 ;
 nsresult
@@ -6471,7 +6471,7 @@ aPrinterName
 #
 ifdef
 DEBUG
-nsXPIDLString
+nsString
 printerName
 ;
 aPrintSettings

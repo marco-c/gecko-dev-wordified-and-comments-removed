@@ -4037,7 +4037,7 @@ current
 nsAutoString
 key
 ;
-nsXPIDLString
+nsAutoString
 value
 ;
 nsresult
@@ -8787,7 +8787,7 @@ algID
 false
 )
 ;
-nsXPIDLString
+nsString
 value
 ;
 ProcessName

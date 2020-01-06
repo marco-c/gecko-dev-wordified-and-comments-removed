@@ -1078,7 +1078,7 @@ nsDeviceContextSpecGTK
 )
 aData
 ;
-nsXPIDLString
+nsString
 printerName
 ;
 nsresult
@@ -1106,7 +1106,12 @@ rv
 )
 &
 &
+!
 printerName
+.
+IsVoid
+(
+)
 )
 {
 NS_ConvertUTF16toUTF8
@@ -1353,7 +1358,7 @@ EnumeratePrinters
 }
 else
 {
-nsXPIDLString
+nsString
 targetPath
 ;
 nsCOMPtr

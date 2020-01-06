@@ -345,7 +345,7 @@ datetime
 )
 ;
 }
-nsXPIDLString
+nsString
 msg
 ;
 nsAutoCString

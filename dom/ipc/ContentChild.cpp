@@ -2378,7 +2378,7 @@ return
 NS_OK
 ;
 }
-nsXPIDLString
+nsString
 msg
 ;
 nsresult

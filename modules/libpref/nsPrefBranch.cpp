@@ -2932,7 +2932,7 @@ if
 theString
 )
 {
-nsXPIDLString
+nsString
 wideString
 ;
 rv

@@ -1414,8 +1414,8 @@ selectedItem
 :
 (
 const
-char16_t
-*
+nsAString
+&
 )
 aCurrentString
 ;
@@ -2175,8 +2175,8 @@ selectedItem
 :
 (
 const
-char16_t
-*
+nsAString
+&
 )
 aCurrentString
 {
@@ -3118,7 +3118,7 @@ NSMakeRect
 /
 /
 Lists
-nsXPIDLString
+nsString
 sel
 ;
 mSettings

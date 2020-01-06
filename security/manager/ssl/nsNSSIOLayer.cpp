@@ -2362,7 +2362,7 @@ SSLErrorMessageType
 Plain
 )
 ;
-nsXPIDLString
+nsAutoString
 errorString
 ;
 socketInfo

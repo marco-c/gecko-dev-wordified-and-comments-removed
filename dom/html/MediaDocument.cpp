@@ -1463,7 +1463,7 @@ nsAString
 aStatus
 )
 {
-nsXPIDLString
+nsAutoString
 fileStr
 ;
 GetFileName

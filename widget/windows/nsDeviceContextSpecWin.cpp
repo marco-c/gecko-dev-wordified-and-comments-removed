@@ -1251,7 +1251,7 @@ nsIPrintSettings
 kOutputFormatPDF
 )
 {
-nsXPIDLString
+nsString
 filename
 ;
 mPrintSettings
@@ -1506,7 +1506,7 @@ nsIPrintSettings
 kOutputFormatPDF
 )
 {
-nsXPIDLString
+nsString
 filename
 ;
 mPrintSettings

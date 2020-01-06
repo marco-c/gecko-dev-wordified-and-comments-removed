@@ -3257,7 +3257,7 @@ rv
 return
 ;
 }
-nsXPIDLString
+nsString
 password
 ;
 bool

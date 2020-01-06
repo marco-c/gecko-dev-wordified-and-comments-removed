@@ -265,7 +265,7 @@ EndDocument
 (
 )
 {
-nsXPIDLString
+nsString
 targetPath
 ;
 nsCOMPtr

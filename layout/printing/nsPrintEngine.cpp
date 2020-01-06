@@ -4331,7 +4331,7 @@ NS_ENSURE_ARG_POINTER
 aPrintSettings
 )
 ;
-nsXPIDLString
+nsString
 printerName
 ;
 nsresult

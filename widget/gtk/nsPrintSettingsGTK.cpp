@@ -1742,7 +1742,7 @@ mGTKPrinter
 }
 else
 {
-nsXPIDLString
+nsString
 nullPrintName
 ;
 *

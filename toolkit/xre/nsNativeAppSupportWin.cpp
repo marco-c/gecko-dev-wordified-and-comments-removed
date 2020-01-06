@@ -3688,7 +3688,7 @@ baseWindow
 break
 ;
 }
-nsXPIDLString
+nsString
 title
 ;
 if

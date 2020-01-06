@@ -5070,9 +5070,6 @@ msg
 =
 message
 ;
-nsXPIDLString
-xmsg
-;
 nsAutoCString
 sxmsg
 ;
@@ -5092,6 +5089,9 @@ if
 errorObject
 )
 {
+nsString
+xmsg
+;
 if
 (
 NS_SUCCEEDED
