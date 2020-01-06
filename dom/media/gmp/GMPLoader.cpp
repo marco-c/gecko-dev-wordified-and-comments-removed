@@ -700,6 +700,16 @@ aLibPath
 )
 override
 {
+unsigned
+int
+dummy_rand
+;
+rand_s
+(
+&
+dummy_rand
+)
+;
 mozilla
 :
 :
