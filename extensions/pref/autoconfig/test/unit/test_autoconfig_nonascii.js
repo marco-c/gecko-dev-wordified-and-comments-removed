@@ -48,7 +48,7 @@ obsvc
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -58,7 +58,7 @@ observer
 service
 ;
 1
-'
+"
 ]
 .
 getService
@@ -91,16 +91,6 @@ getService
 Ci
 .
 nsIPrefService
-)
-;
-let
-defaultPrefs
-=
-ps
-.
-getDefaultBranch
-(
-null
 )
 ;
 let

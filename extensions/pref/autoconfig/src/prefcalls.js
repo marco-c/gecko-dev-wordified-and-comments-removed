@@ -541,6 +541,9 @@ e
 )
 ;
 }
+return
+undefined
+;
 }
 function
 clearPref
@@ -873,6 +876,9 @@ e
 )
 ;
 }
+return
+undefined
+;
 }
 function
 displayError
@@ -1070,4 +1076,7 @@ e
 )
 ;
 }
+return
+undefined
+;
 }
