@@ -746,6 +746,11 @@ MediaTrackList
 h
 '
 '
+MemoryBlockCache
+.
+h
+'
+'
 MP3Decoder
 .
 h
@@ -1249,6 +1254,11 @@ cpp
 '
 '
 MediaTrackList
+.
+cpp
+'
+'
+MemoryBlockCache
 .
 cpp
 '
