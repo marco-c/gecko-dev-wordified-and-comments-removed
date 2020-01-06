@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsTArray
+nsTObserverArray
 .
 h
 "
@@ -205,7 +205,7 @@ nsIEventTarget
 >
 mBackgroundThread
 ;
-nsTArray
+nsTObserverArray
 <
 StorageObserverSink
 *
