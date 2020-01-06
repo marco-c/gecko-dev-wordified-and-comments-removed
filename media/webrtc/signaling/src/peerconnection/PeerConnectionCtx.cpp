@@ -166,12 +166,24 @@ static
 const
 char
 *
-logTag
+pccLogTag
 =
 "
 PeerConnectionCtx
 "
 ;
+#
+ifdef
+LOGTAG
+#
+undef
+LOGTAG
+#
+endif
+#
+define
+LOGTAG
+pccLogTag
 namespace
 mozilla
 {
@@ -294,7 +306,7 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Shutting
 down
@@ -409,7 +421,7 @@ NS_IOSERVICE_OFFLINE
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Updating
 network
@@ -446,7 +458,7 @@ NS_IOSERVICE_ONLINE
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Updating
 network
@@ -469,7 +481,7 @@ else
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Received
 unsupported
@@ -650,7 +662,7 @@ gInstance
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Creating
 PeerConnectionCtx
@@ -777,7 +789,7 @@ Destroy
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2113,7 +2125,7 @@ mGMPService
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2169,7 +2181,7 @@ nullptr
 ;
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2225,7 +2237,7 @@ Cleanup
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
