@@ -41,6 +41,12 @@ None
 manifest_update
 =
 None
+download_from_github
+=
+None
+manifest_log
+=
+None
 def
 do_delayed_imports
 (
@@ -50,6 +56,8 @@ do_delayed_imports
 global
 manifest
 manifest_update
+download_from_github
+manifest_log
     
 from
 manifest
@@ -62,6 +70,20 @@ import
 update
 as
 manifest_update
+    
+from
+manifest
+.
+download
+import
+download_from_github
+    
+from
+manifest
+import
+log
+as
+manifest_log
 class
 TestChunker
 (
@@ -2653,6 +2675,9 @@ test_paths
 force_manifest_update
 =
 False
+manifest_download
+=
+False
 )
 :
         
@@ -2671,6 +2696,12 @@ self
 force_manifest_update
 =
 force_manifest_update
+        
+self
+.
+manifest_download
+=
+manifest_download
         
 self
 .
@@ -2796,6 +2827,12 @@ url_base
 recreate
 =
 True
+                             
+download
+=
+self
+.
+manifest_download
 )
     
 def
@@ -2811,6 +2848,9 @@ url_base
 "
                         
 recreate
+=
+False
+download
 =
 False
 )
@@ -2833,9 +2873,25 @@ s
 manifest_path
 )
         
+manifest_log
+.
+setup
+(
+)
+        
 json_data
 =
 None
+        
+if
+download
+:
+            
+download_from_github
+(
+manifest_path
+tests_path
+)
         
 if
 not
@@ -2989,6 +3045,11 @@ update_manifest
 manifest_path
 tests_path
 url_base
+download
+=
+self
+.
+manifest_download
 )
         
 manifest_file

@@ -716,6 +716,13 @@ appendChild
 button
 )
 ;
+test_driver
+.
+click
+(
+button
+)
+;
 }
 )
 ;

@@ -315,6 +315,23 @@ file
 try
 :
             
+if
+not
+os
+.
+path
+.
+isfile
+(
+cls
+.
+filename
+)
+:
+                
+return
+None
+            
 with
 open
 (

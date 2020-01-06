@@ -125,6 +125,9 @@ __init__
 self
 executor
 browser
+capabilities
+=
+None
 timeout_multiplier
 =
 1
@@ -157,6 +160,12 @@ marionette_port
 browser
 .
 marionette_port
+        
+self
+.
+capabilities
+=
+capabilities
         
 self
 .
@@ -975,9 +984,6 @@ if
 socket_timeout
 :
             
-try
-:
-                
 self
 .
 marionette
@@ -989,29 +995,6 @@ script
 socket_timeout
 /
 2
-            
-except
-(
-socket
-.
-error
-IOError
-)
-:
-                
-self
-.
-logger
-.
-debug
-(
-"
-Socket
-closed
-"
-)
-                
-return
         
 self
 .
@@ -2440,6 +2423,10 @@ True
 debug_info
 =
 None
+capabilities
+=
+None
+                 
 *
 *
 kwargs
@@ -2487,6 +2474,7 @@ MarionetteProtocol
 (
 self
 browser
+capabilities
 timeout_multiplier
 )
         
@@ -2890,6 +2878,9 @@ unexpected
 group_metadata
 =
 None
+capabilities
+=
+None
 *
 *
 kwargs
@@ -2940,6 +2931,9 @@ MarionetteProtocol
 (
 self
 browser
+capabilities
+                                           
+timeout_multiplier
 )
         
 self

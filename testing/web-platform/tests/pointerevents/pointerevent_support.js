@@ -1149,7 +1149,7 @@ scrollReturnInterval
 {
 window
 .
-setTimeout
+step_timeout
 (
 function
 (
@@ -1210,7 +1210,7 @@ null
 {
 window
 .
-setTimeout
+step_timeout
 (
 function
 (

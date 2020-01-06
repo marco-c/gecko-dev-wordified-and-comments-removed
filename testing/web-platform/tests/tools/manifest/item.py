@@ -600,6 +600,9 @@ url_base
 timeout
 =
 None
+testdriver
+=
+False
 manifest
 =
 None
@@ -626,6 +629,12 @@ self
 timeout
 =
 timeout
+        
+self
+.
+testdriver
+=
+testdriver
     
 def
 meta_key
@@ -639,6 +648,9 @@ return
 self
 .
 timeout
+self
+.
+testdriver
 )
     
 def
@@ -680,6 +692,27 @@ timeout
 self
 .
 timeout
+        
+if
+self
+.
+testdriver
+:
+            
+rv
+[
+-
+1
+]
+[
+"
+testdriver
+"
+]
+=
+self
+.
+testdriver
         
 return
 rv
@@ -737,6 +770,20 @@ get
 "
 timeout
 "
+)
+                   
+testdriver
+=
+bool
+(
+extras
+.
+get
+(
+"
+testdriver
+"
+)
 )
                    
 manifest

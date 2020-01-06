@@ -179,6 +179,7 @@ def
 test_handle_prompt_accept
 (
 new_session
+add_browser_capabilites
 )
 :
     
@@ -280,9 +281,16 @@ new_session
 (
 {
 "
+capabilities
+"
+:
+{
+"
 alwaysMatch
 "
 :
+add_browser_capabilites
+(
 {
 "
 unhandledPromptBehavior
@@ -291,6 +299,8 @@ unhandledPromptBehavior
 "
 accept
 "
+}
+)
 }
 }
 )

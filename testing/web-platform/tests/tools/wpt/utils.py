@@ -33,17 +33,23 @@ def
 set_if_none
 (
 self
+                    
 name
+                    
 value
+                    
 err_fn
 =
 None
+                    
 desc
 =
 None
+                    
 extra_cond
 =
 None
+                    
 )
 :
         
@@ -58,6 +64,11 @@ desc
 name
         
 if
+name
+not
+in
+self
+or
 self
 [
 name

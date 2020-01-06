@@ -159,6 +159,17 @@ selection_pattern
 '
 %
 (
+subresource
+)
+s
+/
+'
++
+\
+                    
+'
+%
+(
 opt_in_method
 )
 s
@@ -171,17 +182,6 @@ s
 %
 (
 origin
-)
-s
-/
-'
-+
-\
-                    
-'
-%
-(
-subresource
 )
 s
 /
@@ -210,6 +210,10 @@ s
 '
 test_file_path_pattern
 =
+selection_pattern
++
+\
+                         
 '
 %
 (
@@ -218,8 +222,6 @@ spec_name
 s
 /
 '
-+
-selection_pattern
 +
 \
                          

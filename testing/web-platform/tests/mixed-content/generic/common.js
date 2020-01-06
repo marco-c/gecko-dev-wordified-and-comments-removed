@@ -198,7 +198,6 @@ status
 =
 200
 )
-return
 reject
 (
 Error
@@ -209,6 +208,7 @@ statusText
 )
 )
 ;
+else
 resolve
 (
 xhr
@@ -333,7 +333,7 @@ createElement
 (
 tagName
 attrs
-parent
+parentNode
 doBindEvents
 )
 {
@@ -381,9 +381,9 @@ attrs
 ;
 if
 (
-parent
+parentNode
 )
-parent
+parentNode
 .
 appendChild
 (
@@ -409,7 +409,7 @@ createRequestViaElement
 (
 tagName
 attrs
-parent
+parentNode
 )
 {
 return
@@ -417,7 +417,7 @@ createElement
 (
 tagName
 attrs
-parent
+parentNode
 true
 )
 .
@@ -540,6 +540,10 @@ url
 {
 var
 worker
+;
+try
+{
+worker
 =
 new
 Worker
@@ -547,6 +551,21 @@ Worker
 url
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+Promise
+.
+reject
+(
+e
+)
+;
+}
 bindEvents
 (
 worker
@@ -872,7 +891,6 @@ source
 "
 {
 }
-mediaElement
 )
 ;
 mediaElement
@@ -923,6 +941,13 @@ sourceElement
 source_attrs
 )
 ;
+mediaElement
+.
+appendChild
+(
+sourceElement
+)
+;
 document
 .
 body
@@ -956,7 +981,7 @@ type
 "
 video
 /
-mp4
+ogg
 "
 src
 :
@@ -987,7 +1012,7 @@ type
 "
 audio
 /
-mpeg
+wav
 "
 src
 :

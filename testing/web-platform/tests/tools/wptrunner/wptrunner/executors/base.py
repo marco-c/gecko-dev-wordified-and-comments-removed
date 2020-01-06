@@ -599,6 +599,10 @@ convert_result
 =
 None
     
+supports_testdriver
+=
+False
+    
 def
 __init__
 (

@@ -61,6 +61,7 @@ install
 '
 )
 )
+{
 self
 .
 registration
@@ -69,6 +70,7 @@ unregister
 (
 )
 ;
+}
 }
 )
 ;
@@ -94,12 +96,17 @@ activate
 '
 )
 )
+e
+.
+waitUntil
+(
 self
 .
 registration
 .
 unregister
 (
+)
 )
 ;
 }
@@ -117,6 +124,10 @@ function
 e
 )
 {
+e
+.
+waitUntil
+(
 self
 .
 registration
@@ -148,6 +159,7 @@ result
 )
 ;
 }
+)
 )
 ;
 }

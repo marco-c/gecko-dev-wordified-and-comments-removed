@@ -4,6 +4,7 @@ def
 test_resp_sessionid
 (
 new_session
+add_browser_capabilites
 )
 :
     
@@ -18,6 +19,15 @@ capabilities
 "
 :
 {
+"
+alwaysMatch
+"
+:
+add_browser_capabilites
+(
+{
+}
+)
 }
 }
 )
@@ -51,6 +61,7 @@ def
 test_resp_capabilites
 (
 new_session
+add_browser_capabilites
 )
 :
     
@@ -65,6 +76,15 @@ capabilities
 "
 :
 {
+"
+alwaysMatch
+"
+:
+add_browser_capabilites
+(
+{
+}
+)
 }
 }
 )
@@ -149,6 +169,7 @@ def
 test_resp_data
 (
 new_session
+add_browser_capabilites
 platform_name
 )
 :
@@ -164,6 +185,15 @@ capabilities
 "
 :
 {
+"
+alwaysMatch
+"
+:
+add_browser_capabilites
+(
+{
+}
+)
 }
 }
 )
@@ -370,6 +400,7 @@ def
 test_timeouts
 (
 new_session
+add_browser_capabilites
 platform_name
 )
 :
@@ -389,6 +420,8 @@ capabilities
 alwaysMatch
 "
 :
+add_browser_capabilites
+(
 {
 "
 timeouts
@@ -402,6 +435,7 @@ implicit
 1000
 }
 }
+)
 }
 }
 )
@@ -445,6 +479,7 @@ def
 test_pageLoadStrategy
 (
 new_session
+add_browser_capabilites
 platform_name
 )
 :
@@ -459,6 +494,8 @@ new_session
 capabilities
 "
 :
+add_browser_capabilites
+(
 {
 "
 alwaysMatch
@@ -474,6 +511,7 @@ eager
 "
 }
 }
+)
 }
 )
     

@@ -136,6 +136,18 @@ click
 (
 )
     
+session
+.
+execute_script
+(
+"
+resetEvents
+(
+)
+;
+"
+)
+    
 return
 input_el
 pytest

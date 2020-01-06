@@ -31,6 +31,14 @@ SeleniumTestharnessExecutor
                                           
 SeleniumRefTestExecutor
 )
+from
+.
+.
+executors
+.
+executoredge
+import
+EdgeDriverWdspecExecutor
 __wptrunner__
 =
 {
@@ -77,6 +85,14 @@ reftest
 :
 "
 SeleniumRefTestExecutor
+"
+                              
+"
+wdspec
+"
+:
+"
+EdgeDriverWdspecExecutor
 "
 }
                  

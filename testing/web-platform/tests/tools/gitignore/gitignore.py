@@ -534,6 +534,7 @@ parts
 )
     
 except
+Exception
 :
         
 raise

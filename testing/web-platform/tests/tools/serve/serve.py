@@ -1642,7 +1642,7 @@ ErrorHandler
         
 self
 .
-static
+extra
 =
 [
 ]
@@ -1684,7 +1684,7 @@ forbidden
 +
 self
 .
-static
+extra
         
 for
 item
@@ -1712,6 +1712,35 @@ return
 routes
     
 def
+add_handler
+(
+self
+method
+route
+handler
+)
+:
+        
+self
+.
+extra
+.
+append
+(
+(
+str
+(
+method
+)
+str
+(
+route
+)
+handler
+)
+)
+    
+def
 add_static
 (
 self
@@ -1735,10 +1764,7 @@ content_type
         
 self
 .
-static
-.
-append
-(
+add_handler
 (
 b
 "
@@ -1749,7 +1775,6 @@ str
 route
 )
 handler
-)
 )
     
 def
@@ -2181,12 +2206,10 @@ tests
 "
 )
     
-logging
+logger
 .
-basicConfig
+setLevel
 (
-level
-=
 getattr
 (
 logging
@@ -2675,6 +2698,7 @@ stderr
 raise
         
 except
+Exception
 :
             
 print
@@ -2731,6 +2755,7 @@ KeyboardInterrupt
 pass
             
 except
+Exception
 :
                 
 print
@@ -2950,6 +2975,10 @@ s
 :
 %
 s
+.
+"
+                        
+"
 You
 may
 need
@@ -2961,6 +2990,11 @@ etc
 hosts
 or
 similar
+see
+README
+.
+md
+.
 "
 %
 (
@@ -3048,6 +3082,9 @@ domain
 %
 s
 .
+"
+                            
+"
 You
 may
 need
@@ -3059,6 +3096,10 @@ etc
 hosts
 or
 similar
+see
+README
+.
+md
 .
 "
 %

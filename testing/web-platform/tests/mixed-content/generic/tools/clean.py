@@ -62,17 +62,6 @@ expanduser
     
 assert
 "
-web
--
-platform
--
-tests
-"
-in
-top
-    
-assert
-"
 mixed
 -
 content
