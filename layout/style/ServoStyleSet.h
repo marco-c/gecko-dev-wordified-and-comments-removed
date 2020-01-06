@@ -550,6 +550,17 @@ already_AddRefed
 <
 ServoStyleContext
 >
+ReresolveStyleForBindings
+(
+Element
+*
+aElement
+)
+;
+already_AddRefed
+<
+ServoStyleContext
+>
 ResolveStyleForText
 (
 nsIContent
