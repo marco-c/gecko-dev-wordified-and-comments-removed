@@ -1458,7 +1458,7 @@ OverflowRegionRefreshInterval
 )
 ;
 void
-UpadateEffectSet
+UpdateEffectSet
 (
 mozilla
 :
