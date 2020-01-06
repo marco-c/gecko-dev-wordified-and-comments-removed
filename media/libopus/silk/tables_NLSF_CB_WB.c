@@ -543,7 +543,7 @@ silk_NLSF_CB1_WB_Q8
 static
 const
 opus_int16
-silk_NLSF_CB1_Wght_Q9
+silk_NLSF_CB1_WB_Wght_Q9
 [
 512
 ]
@@ -1666,7 +1666,7 @@ SILK_FIX_CONST
 6
 )
 silk_NLSF_CB1_WB_Q8
-silk_NLSF_CB1_Wght_Q9
+silk_NLSF_CB1_WB_Wght_Q9
 silk_NLSF_CB1_iCDF_WB
 silk_NLSF_PRED_WB_Q8
 silk_NLSF_CB2_SELECT_WB
