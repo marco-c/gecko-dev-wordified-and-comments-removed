@@ -2276,7 +2276,7 @@ mHTMLEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -6621,7 +6621,7 @@ mHTMLEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -11588,7 +11588,7 @@ mHTMLEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -13410,7 +13410,7 @@ NameAtom
 }
 }
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 htmlEditor
 )
@@ -17204,7 +17204,7 @@ htmlEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 htmlEditor
 )
@@ -29222,7 +29222,7 @@ NS_OK
 }
 {
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 htmlEditor
 )

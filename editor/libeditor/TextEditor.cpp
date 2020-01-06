@@ -3343,7 +3343,7 @@ NS_ERROR_NOT_INITIALIZED
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 this
 )

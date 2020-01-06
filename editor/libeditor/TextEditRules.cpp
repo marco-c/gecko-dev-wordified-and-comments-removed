@@ -1296,7 +1296,7 @@ mTextEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mTextEditor
 )
@@ -3303,7 +3303,7 @@ mTextEditor
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mTextEditor
 )
@@ -3778,7 +3778,7 @@ NS_OK
 ;
 }
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 textEditor
 )
@@ -5529,7 +5529,7 @@ br
 )
 {
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mTextEditor
 )

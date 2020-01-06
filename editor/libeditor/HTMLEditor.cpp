@@ -16596,7 +16596,7 @@ NS_ERROR_NULL_POINTER
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 this
 )
@@ -19615,7 +19615,7 @@ this
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 this
 )

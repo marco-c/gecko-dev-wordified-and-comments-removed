@@ -582,7 +582,7 @@ kMozTextInternal
 )
 {
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 this
 )

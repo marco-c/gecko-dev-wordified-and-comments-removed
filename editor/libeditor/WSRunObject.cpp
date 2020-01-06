@@ -6789,7 +6789,7 @@ NS_ERROR_NULL_POINTER
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -8164,7 +8164,7 @@ rightCheck
 )
 {
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -8309,7 +8309,7 @@ rv
 )
 ;
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -8474,7 +8474,7 @@ canConvert
 )
 {
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
@@ -8683,7 +8683,7 @@ canConvert
 )
 {
 AutoTransactionsConserveSelection
-dontSpazMySelection
+dontChangeMySelection
 (
 mHTMLEditor
 )
