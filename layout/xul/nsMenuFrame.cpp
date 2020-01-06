@@ -3228,7 +3228,9 @@ GetPrimaryFrame
 ?
 anchor
 :
-mContent
+GetContent
+(
+)
 ;
 }
 void

@@ -826,7 +826,9 @@ SVGMaskElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 uint16_t
@@ -1094,7 +1096,9 @@ SVGMaskElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsSVGEnum

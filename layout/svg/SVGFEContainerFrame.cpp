@@ -322,7 +322,9 @@ nsSVGFE
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if

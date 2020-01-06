@@ -759,7 +759,9 @@ HTMLProgressElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >

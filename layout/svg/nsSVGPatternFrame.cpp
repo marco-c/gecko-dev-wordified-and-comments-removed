@@ -1737,7 +1737,9 @@ SVGPatternElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -1876,7 +1878,9 @@ SVGPatternElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -1999,7 +2003,9 @@ animTransformList
 =
 GetPatternTransformList
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if
@@ -2049,7 +2055,9 @@ SVGPatternElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -2168,7 +2176,9 @@ SVGPatternElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -2290,7 +2300,9 @@ SVGPatternElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -2444,7 +2456,9 @@ SVGPatternElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsAutoString

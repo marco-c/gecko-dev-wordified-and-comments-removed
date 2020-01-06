@@ -168,7 +168,9 @@ SVGViewportElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -269,7 +271,9 @@ SVGViewportElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -380,7 +384,9 @@ SVGViewportElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 bool
@@ -593,7 +599,9 @@ SVGViewportElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -739,7 +747,9 @@ SVGViewportElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if
@@ -1101,7 +1111,9 @@ nsSVGElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -1226,7 +1238,9 @@ SVGViewportElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 gfxMatrix
@@ -1284,7 +1298,9 @@ SVGViewportElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if

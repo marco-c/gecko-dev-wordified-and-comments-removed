@@ -2012,7 +2012,9 @@ SVGClipPathElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 gfxMatrix

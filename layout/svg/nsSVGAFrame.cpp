@@ -377,7 +377,9 @@ SVGAElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 content
@@ -504,7 +506,9 @@ SVGAElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 gfxMatrix

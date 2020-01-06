@@ -576,7 +576,9 @@ nsSVGElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -994,7 +996,9 @@ SVGSwitchElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >

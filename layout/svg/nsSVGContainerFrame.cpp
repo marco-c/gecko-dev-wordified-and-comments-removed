@@ -574,7 +574,9 @@ nsSVGElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -971,7 +973,9 @@ nsSVGElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsSVGAnimatedTransformList

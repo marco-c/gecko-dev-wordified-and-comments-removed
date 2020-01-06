@@ -723,7 +723,9 @@ HTMLMeterElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 double

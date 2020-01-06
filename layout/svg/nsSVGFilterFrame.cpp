@@ -140,7 +140,9 @@ SVGFilterElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -284,7 +286,9 @@ SVGFilterElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -462,7 +466,9 @@ SVGFilterElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 }
@@ -585,7 +591,9 @@ SVGFilterElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 nsAutoString

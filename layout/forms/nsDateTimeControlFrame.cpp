@@ -1725,7 +1725,9 @@ HTMLInputElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 ;
 if
