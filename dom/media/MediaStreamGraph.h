@@ -3308,6 +3308,12 @@ OnGraphThreadOrNotRunning
 )
 const
 ;
+bool
+OnGraphThread
+(
+)
+const
+;
 nsTArray
 <
 nsCOMPtr

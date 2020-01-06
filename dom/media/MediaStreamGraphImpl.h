@@ -810,6 +810,13 @@ SetStreamOrderDirty
 (
 )
 {
+MOZ_ASSERT
+(
+OnGraphThreadOrNotRunning
+(
+)
+)
+;
 mStreamOrderDirty
 =
 true
