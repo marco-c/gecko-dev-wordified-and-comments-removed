@@ -1375,6 +1375,11 @@ msmpeg2vdec
 .
 dll
 "
+"
+psapi
+.
+dll
+"
 }
 ;
 nsTArray

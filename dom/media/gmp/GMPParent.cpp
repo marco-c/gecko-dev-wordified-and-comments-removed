@@ -4119,6 +4119,9 @@ NS_LITERAL_CSTRING
 dxva2
 .
 dll
+psapi
+.
+dll
 "
 )
 ;
