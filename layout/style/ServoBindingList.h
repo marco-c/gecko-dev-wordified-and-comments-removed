@@ -1679,6 +1679,13 @@ root
 )
 SERVO_BINDING_FUNC
 (
+Servo_MaybeGCRuleTree
+void
+RawServoStyleSetBorrowed
+set
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleSet_GetBaseComputedValuesForElement
 ServoComputedValuesStrong
 RawServoStyleSetBorrowed

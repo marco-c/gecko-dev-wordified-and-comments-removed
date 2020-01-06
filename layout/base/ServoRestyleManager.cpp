@@ -2637,6 +2637,13 @@ mInStyleRefresh
 =
 false
 ;
+styleSet
+-
+>
+MaybeGCRuleTree
+(
+)
+;
 MOZ_ASSERT
 (
 mAnimationsWithDestroyedFrame

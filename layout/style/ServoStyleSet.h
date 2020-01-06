@@ -856,6 +856,11 @@ UpdateStylist
 ;
 }
 }
+void
+MaybeGCRuleTree
+(
+)
+;
 #
 ifdef
 DEBUG
