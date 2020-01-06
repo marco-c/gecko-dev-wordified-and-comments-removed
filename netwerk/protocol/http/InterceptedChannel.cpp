@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsICancelable
+.
+h
+"
+#
+include
+"
 nsInputStreamPump
 .
 h
@@ -92,6 +99,13 @@ h
 include
 "
 nsIChannelEventSink
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "
@@ -1328,7 +1342,8 @@ mChannel
 >
 ForceIntercepted
 (
-mSynthesizedInput
+aBody
+aBodyCallback
 )
 ;
 mChannel
@@ -1358,7 +1373,8 @@ mSynthesizedResponseHead
 ref
 (
 )
-mSynthesizedInput
+aBody
+aBodyCallback
 mStreamListener
 )
 ;

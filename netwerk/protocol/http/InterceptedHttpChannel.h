@@ -122,6 +122,12 @@ nsIProgressEventSink
 >
 mProgressSink
 ;
+nsCOMPtr
+<
+nsIInterceptedBodyCallback
+>
+mBodyCallback
+;
 RefPtr
 <
 nsInputStreamPump
@@ -262,6 +268,11 @@ MaybeCallStatusAndProgress
 (
 )
 ;
+void
+MaybeCallBodyCallback
+(
+)
+;
 public
 :
 static
@@ -297,6 +308,9 @@ aHead
 nsIInputStream
 *
 aBody
+nsIInterceptedBodyCallback
+*
+aBodyCallback
 PRTime
 aCreationTime
 const
