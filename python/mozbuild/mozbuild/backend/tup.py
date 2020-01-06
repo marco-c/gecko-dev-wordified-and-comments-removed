@@ -773,6 +773,13 @@ cmd
 .
 extend
 (
+shell_quote
+(
+f
+)
+for
+f
+in
 self
 .
 local_flags
@@ -785,6 +792,13 @@ cmd
 .
 extend
 (
+shell_quote
+(
+f
+)
+for
+f
+in
 self
 .
 per_source_flags
