@@ -11426,6 +11426,15 @@ MakeVisible
 ;
 if
 (
+!
+docShell
+)
+{
+return
+;
+}
+if
+(
 nsCOMPtr
 <
 nsIPresShell
