@@ -229,7 +229,7 @@ namespace
 dom
 {
 class
-SystemFontListEntry
+FontFamilyListEntry
 ;
 }
 }
@@ -1103,7 +1103,7 @@ aListOfFonts
 ;
 virtual
 void
-ReadSystemFontList
+GetSystemFontFamilyList
 (
 InfallibleTArray
 <
@@ -1113,10 +1113,10 @@ mozilla
 dom
 :
 :
-SystemFontListEntry
+FontFamilyListEntry
 >
 *
-aFontList
+aFontFamilies
 )
 {
 }
