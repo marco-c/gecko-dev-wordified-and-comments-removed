@@ -1238,6 +1238,7 @@ aThreadParam
 )
 ;
 static
+MOZ_NORETURN
 BaseThreadInitThunk_func
 stub_BaseThreadInitThunk
 =
