@@ -82,6 +82,9 @@ HTMLTimeElement
 :
 HTMLElement
 {
+[
+CEReactions
+]
 attribute
 DOMString
 dateTime

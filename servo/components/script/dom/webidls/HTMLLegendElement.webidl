@@ -122,6 +122,11 @@ HTMLLegendElement
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 DOMString
 align

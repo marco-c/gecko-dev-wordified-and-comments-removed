@@ -108,6 +108,7 @@ token
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -121,6 +122,7 @@ tokens
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -134,6 +136,7 @@ tokens
 )
 ;
 [
+CEReactions
 Throws
 ]
 boolean
@@ -147,6 +150,7 @@ force
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -159,6 +163,7 @@ newToken
 )
 ;
 [
+CEReactions
 Pure
 ]
 attribute

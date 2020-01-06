@@ -215,6 +215,7 @@ DOMString
 tagName
 ;
 [
+CEReactions
 Pure
 ]
 attribute
@@ -222,6 +223,7 @@ DOMString
 id
 ;
 [
+CEReactions
 Pure
 ]
 attribute
@@ -292,6 +294,7 @@ localName
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -304,6 +307,7 @@ value
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -318,6 +322,9 @@ DOMString
 value
 )
 ;
+[
+CEReactions
+]
 void
 removeAttribute
 (
@@ -325,6 +332,9 @@ DOMString
 name
 )
 ;
+[
+CEReactions
+]
 void
 removeAttributeNS
 (
@@ -378,6 +388,7 @@ localName
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -389,6 +400,7 @@ attr
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -400,6 +412,7 @@ attr
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -475,6 +488,7 @@ classNames
 )
 ;
 [
+CEReactions
 Throws
 ]
 Element
@@ -694,6 +708,7 @@ interface
 Element
 {
 [
+CEReactions
 Throws
 TreatNullAs
 =
@@ -704,6 +719,7 @@ DOMString
 innerHTML
 ;
 [
+CEReactions
 Throws
 TreatNullAs
 =

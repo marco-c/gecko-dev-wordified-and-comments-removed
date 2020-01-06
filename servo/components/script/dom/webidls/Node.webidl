@@ -306,6 +306,7 @@ Node
 nextSibling
 ;
 [
+CEReactions
 Pure
 ]
 attribute
@@ -314,6 +315,7 @@ DOMString
 nodeValue
 ;
 [
+CEReactions
 Pure
 ]
 attribute
@@ -321,11 +323,17 @@ DOMString
 ?
 textContent
 ;
+[
+CEReactions
+]
 void
 normalize
 (
 )
 ;
+[
+CEReactions
+]
 Node
 cloneNode
 (
@@ -466,6 +474,7 @@ namespace
 )
 ;
 [
+CEReactions
 Throws
 ]
 Node
@@ -479,6 +488,7 @@ child
 )
 ;
 [
+CEReactions
 Throws
 ]
 Node
@@ -489,6 +499,7 @@ node
 )
 ;
 [
+CEReactions
 Throws
 ]
 Node
@@ -501,6 +512,7 @@ child
 )
 ;
 [
+CEReactions
 Throws
 ]
 Node

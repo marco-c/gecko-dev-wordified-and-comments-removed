@@ -337,6 +337,7 @@ sourceRange
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -345,6 +346,7 @@ deleteContents
 )
 ;
 [
+CEReactions
 NewObject
 Throws
 ]
@@ -354,6 +356,7 @@ extractContents
 )
 ;
 [
+CEReactions
 NewObject
 Throws
 ]
@@ -363,6 +366,7 @@ cloneContents
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -373,6 +377,7 @@ node
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -480,6 +485,7 @@ interface
 Range
 {
 [
+CEReactions
 NewObject
 Throws
 ]

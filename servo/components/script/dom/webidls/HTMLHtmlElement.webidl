@@ -116,6 +116,11 @@ HTMLHtmlElement
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 DOMString
 version

@@ -92,6 +92,7 @@ name
 )
 ;
 [
+CEReactions
 Throws
 ]
 setter
@@ -103,6 +104,9 @@ DOMString
 value
 )
 ;
+[
+CEReactions
+]
 deleter
 void
 (

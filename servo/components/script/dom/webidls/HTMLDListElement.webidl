@@ -116,6 +116,11 @@ HTMLDListElement
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 boolean
 compact

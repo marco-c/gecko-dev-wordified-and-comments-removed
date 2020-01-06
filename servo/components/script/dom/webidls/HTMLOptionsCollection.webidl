@@ -88,6 +88,9 @@ item
 namedItem
 (
 )
+[
+CEReactions
+]
 attribute
 unsigned
 long
@@ -98,12 +101,8 @@ length
 shadows
 inherited
 length
-/
-/
 [
 CEReactions
-]
-[
 Throws
 ]
 setter
@@ -117,12 +116,8 @@ HTMLOptionElement
 option
 )
 ;
-/
-/
 [
 CEReactions
-]
-[
 Throws
 ]
 void
@@ -146,8 +141,6 @@ before
 null
 )
 ;
-/
-/
 [
 CEReactions
 ]

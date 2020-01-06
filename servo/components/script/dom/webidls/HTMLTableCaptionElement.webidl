@@ -116,6 +116,11 @@ HTMLTableCaptionElement
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 DOMString
 align

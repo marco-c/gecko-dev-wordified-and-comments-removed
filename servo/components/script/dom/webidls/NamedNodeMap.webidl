@@ -129,6 +129,7 @@ localName
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -140,6 +141,7 @@ attr
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -151,6 +153,7 @@ attr
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr
@@ -161,6 +164,7 @@ qualifiedName
 )
 ;
 [
+CEReactions
 Throws
 ]
 Attr

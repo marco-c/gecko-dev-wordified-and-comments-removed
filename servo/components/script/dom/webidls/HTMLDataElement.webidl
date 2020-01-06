@@ -82,6 +82,9 @@ HTMLDataElement
 :
 HTMLElement
 {
+[
+CEReactions
+]
 attribute
 DOMString
 value

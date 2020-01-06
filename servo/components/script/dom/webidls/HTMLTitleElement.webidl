@@ -83,6 +83,7 @@ HTMLTitleElement
 HTMLElement
 {
 [
+CEReactions
 Pure
 ]
 attribute

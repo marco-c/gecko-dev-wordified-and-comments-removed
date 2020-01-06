@@ -83,6 +83,7 @@ HTMLFontElement
 HTMLElement
 {
 [
+CEReactions
 TreatNullAs
 =
 EmptyString
@@ -91,10 +92,16 @@ attribute
 DOMString
 color
 ;
+[
+CEReactions
+]
 attribute
 DOMString
 face
 ;
+[
+CEReactions
+]
 attribute
 DOMString
 size

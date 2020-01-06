@@ -116,6 +116,11 @@ HTMLHeadingElement
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 DOMString
 align

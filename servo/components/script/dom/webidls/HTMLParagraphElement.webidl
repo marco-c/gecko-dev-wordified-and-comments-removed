@@ -116,6 +116,11 @@ HTMLParagraphElement
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 DOMString
 align

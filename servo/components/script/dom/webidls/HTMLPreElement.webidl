@@ -116,6 +116,11 @@ HTMLPreElement
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 long
 width

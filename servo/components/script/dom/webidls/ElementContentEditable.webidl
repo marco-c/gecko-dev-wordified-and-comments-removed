@@ -85,6 +85,11 @@ ElementContentEditable
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 DOMString
 contentEditable

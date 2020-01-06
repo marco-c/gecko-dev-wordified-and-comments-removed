@@ -94,6 +94,7 @@ ChildNode
 {
 [
 Throws
+CEReactions
 Unscopable
 ]
 void
@@ -112,6 +113,7 @@ nodes
 ;
 [
 Throws
+CEReactions
 Unscopable
 ]
 void
@@ -130,6 +132,7 @@ nodes
 ;
 [
 Throws
+CEReactions
 Unscopable
 ]
 void
@@ -147,6 +150,7 @@ nodes
 )
 ;
 [
+CEReactions
 Unscopable
 ]
 void

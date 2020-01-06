@@ -82,6 +82,9 @@ HTMLDetailsElement
 :
 HTMLElement
 {
+[
+CEReactions
+]
 attribute
 boolean
 open

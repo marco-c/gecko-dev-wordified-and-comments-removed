@@ -82,6 +82,9 @@ HTMLLIElement
 :
 HTMLElement
 {
+[
+CEReactions
+]
 attribute
 long
 value
@@ -118,6 +121,11 @@ partial
 interface
 HTMLLIElement
 {
+/
+/
+[
+CEReactions
+]
 /
 /
 attribute

@@ -139,6 +139,7 @@ of
 .
 name
 [
+CEReactions
 Pure
 ]
 attribute
@@ -146,6 +147,7 @@ DOMString
 value
 ;
 [
+CEReactions
 Pure
 ]
 attribute
@@ -160,6 +162,7 @@ of
 .
 value
 [
+CEReactions
 Pure
 ]
 attribute

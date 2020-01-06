@@ -84,6 +84,11 @@ HTMLElement
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 DOMString
 cite

@@ -113,6 +113,7 @@ interface
 CSSStyleDeclaration
 {
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -149,6 +150,7 @@ property
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -177,6 +179,7 @@ priority
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -194,6 +197,7 @@ value
 )
 ;
 [
+CEReactions
 Throws
 ]
 void
@@ -211,6 +215,7 @@ priority
 )
 ;
 [
+CEReactions
 Throws
 ]
 DOMString
@@ -229,6 +234,7 @@ CSSRule
 parentRule
 ;
 [
+CEReactions
 SetterThrows
 ]
 attribute
@@ -242,6 +248,7 @@ interface
 CSSStyleDeclaration
 {
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -252,6 +259,7 @@ DOMString
 all
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -262,6 +270,7 @@ DOMString
 background
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -272,6 +281,7 @@ DOMString
 backgroundColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -284,6 +294,7 @@ background
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -294,6 +305,7 @@ DOMString
 backgroundPosition
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -306,6 +318,7 @@ background
 position
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -316,6 +329,7 @@ DOMString
 backgroundPositionX
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -330,6 +344,7 @@ position
 x
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -340,6 +355,7 @@ DOMString
 backgroundPositionY
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -354,6 +370,7 @@ position
 y
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -364,6 +381,7 @@ DOMString
 backgroundRepeat
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -376,6 +394,7 @@ background
 repeat
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -386,6 +405,7 @@ DOMString
 backgroundImage
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -398,6 +418,7 @@ background
 image
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -408,6 +429,7 @@ DOMString
 backgroundAttachment
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -420,6 +442,7 @@ background
 attachment
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -430,6 +453,7 @@ DOMString
 backgroundSize
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -442,6 +466,7 @@ background
 size
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -452,6 +477,7 @@ DOMString
 backgroundOrigin
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -464,6 +490,7 @@ background
 origin
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -474,6 +501,7 @@ DOMString
 backgroundClip
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -486,6 +514,7 @@ background
 clip
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -496,6 +525,7 @@ DOMString
 border
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -506,6 +536,7 @@ DOMString
 borderColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -518,6 +549,7 @@ border
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -528,6 +560,7 @@ DOMString
 borderRadius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -540,6 +573,7 @@ border
 radius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -550,6 +584,7 @@ DOMString
 borderSpacing
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -562,6 +597,7 @@ border
 spacing
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -572,6 +608,7 @@ DOMString
 borderStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -584,6 +621,7 @@ border
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -594,6 +632,7 @@ DOMString
 borderWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -606,6 +645,7 @@ border
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -616,6 +656,7 @@ DOMString
 borderBottom
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -628,6 +669,7 @@ border
 bottom
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -638,6 +680,7 @@ DOMString
 borderBottomColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -652,6 +695,7 @@ bottom
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -662,6 +706,7 @@ DOMString
 borderBottomLeftRadius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -678,6 +723,7 @@ left
 radius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -688,6 +734,7 @@ DOMString
 borderBottomRightRadius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -704,6 +751,7 @@ right
 radius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -714,6 +762,7 @@ DOMString
 borderBottomStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -728,6 +777,7 @@ bottom
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -738,6 +788,7 @@ DOMString
 borderBottomWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -752,6 +803,7 @@ bottom
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -762,6 +814,7 @@ DOMString
 borderLeft
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -774,6 +827,7 @@ border
 left
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -784,6 +838,7 @@ DOMString
 borderLeftColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -798,6 +853,7 @@ left
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -808,6 +864,7 @@ DOMString
 borderLeftStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -822,6 +879,7 @@ left
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -832,6 +890,7 @@ DOMString
 borderLeftWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -846,6 +905,7 @@ left
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -856,6 +916,7 @@ DOMString
 borderRight
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -868,6 +929,7 @@ border
 right
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -878,6 +940,7 @@ DOMString
 borderRightColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -892,6 +955,7 @@ right
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -902,6 +966,7 @@ DOMString
 borderRightStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -916,6 +981,7 @@ right
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -926,6 +992,7 @@ DOMString
 borderRightWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -940,6 +1007,7 @@ right
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -950,6 +1018,7 @@ DOMString
 borderTop
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -962,6 +1031,7 @@ border
 top
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -972,6 +1042,7 @@ DOMString
 borderTopColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -986,6 +1057,7 @@ top
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -996,6 +1068,7 @@ DOMString
 borderTopLeftRadius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1012,6 +1085,7 @@ left
 radius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1022,6 +1096,7 @@ DOMString
 borderTopRightRadius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1038,6 +1113,7 @@ right
 radius
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1048,6 +1124,7 @@ DOMString
 borderTopStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1062,6 +1139,7 @@ top
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1072,6 +1150,7 @@ DOMString
 borderTopWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1086,6 +1165,7 @@ top
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1100,6 +1180,7 @@ image
 source
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1110,6 +1191,7 @@ DOMString
 borderImageSource
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1124,6 +1206,7 @@ image
 slice
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1134,6 +1217,7 @@ DOMString
 borderImageSlice
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1148,6 +1232,7 @@ image
 repeat
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1158,6 +1243,7 @@ DOMString
 borderImageRepeat
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1172,6 +1258,7 @@ image
 outset
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1182,6 +1269,7 @@ DOMString
 borderImageOutset
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1196,6 +1284,7 @@ image
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1206,6 +1295,7 @@ DOMString
 borderImageWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1218,6 +1308,7 @@ border
 image
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1228,6 +1319,7 @@ DOMString
 borderImage
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1244,6 +1336,7 @@ start
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1254,6 +1347,7 @@ DOMString
 borderBlockStartColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1270,6 +1364,7 @@ start
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1280,6 +1375,7 @@ DOMString
 borderBlockStartWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1296,6 +1392,7 @@ start
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1306,6 +1403,7 @@ DOMString
 borderBlockStartStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1322,6 +1420,7 @@ end
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1332,6 +1431,7 @@ DOMString
 borderBlockEndColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1348,6 +1448,7 @@ end
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1358,6 +1459,7 @@ DOMString
 borderBlockEndWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1374,6 +1476,7 @@ end
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1384,6 +1487,7 @@ DOMString
 borderBlockEndStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1400,6 +1504,7 @@ start
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1410,6 +1515,7 @@ DOMString
 borderInlineStartColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1426,6 +1532,7 @@ start
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1436,6 +1543,7 @@ DOMString
 borderInlineStartWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1452,6 +1560,7 @@ start
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1462,6 +1571,7 @@ DOMString
 borderInlineStartStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1478,6 +1588,7 @@ end
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1488,6 +1599,7 @@ DOMString
 borderInlineEndColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1504,6 +1616,7 @@ end
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1514,6 +1627,7 @@ DOMString
 borderInlineEndWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1530,6 +1644,7 @@ end
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1540,6 +1655,7 @@ DOMString
 borderInlineEndStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1554,6 +1670,7 @@ block
 start
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1564,6 +1681,7 @@ DOMString
 borderBlockStart
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1578,6 +1696,7 @@ block
 end
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1588,6 +1707,7 @@ DOMString
 borderBlockEnd
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1602,6 +1722,7 @@ inline
 start
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1612,6 +1733,7 @@ DOMString
 borderInlineStart
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1626,6 +1748,7 @@ inline
 end
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1636,6 +1759,7 @@ DOMString
 borderInlineEnd
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1646,6 +1770,7 @@ DOMString
 content
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1656,6 +1781,7 @@ DOMString
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1666,6 +1792,7 @@ DOMString
 display
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1676,6 +1803,7 @@ DOMString
 opacity
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1686,6 +1814,7 @@ DOMString
 visibility
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1696,6 +1825,7 @@ DOMString
 cursor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1706,6 +1836,7 @@ DOMString
 boxSizing
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1718,6 +1849,7 @@ box
 sizing
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1728,6 +1860,7 @@ DOMString
 boxShadow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1740,6 +1873,7 @@ box
 shadow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1750,6 +1884,7 @@ DOMString
 textShadow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1762,6 +1897,7 @@ text
 shadow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1772,6 +1908,7 @@ DOMString
 _float
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1782,6 +1919,7 @@ DOMString
 clear
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1792,6 +1930,7 @@ DOMString
 clip
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1802,6 +1941,7 @@ DOMString
 transform
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1812,6 +1952,7 @@ DOMString
 transformOrigin
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1824,6 +1965,7 @@ transform
 origin
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1834,6 +1976,7 @@ DOMString
 perspective
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1844,6 +1987,7 @@ DOMString
 perspectiveOrigin
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1856,6 +2000,7 @@ perspective
 origin
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1866,6 +2011,7 @@ DOMString
 transformStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1878,6 +2024,7 @@ transform
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1888,6 +2035,7 @@ DOMString
 backfaceVisibility
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1900,6 +2048,7 @@ backface
 visibility
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1910,6 +2059,7 @@ DOMString
 direction
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1920,6 +2070,7 @@ DOMString
 unicodeBidi
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1932,6 +2083,7 @@ unicode
 bidi
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1942,6 +2094,7 @@ DOMString
 filter
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1952,6 +2105,7 @@ DOMString
 lineHeight
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1964,6 +2118,7 @@ line
 height
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1974,6 +2129,7 @@ DOMString
 mixBlendMode
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1988,6 +2144,7 @@ blend
 mode
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -1998,6 +2155,7 @@ DOMString
 verticalAlign
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2010,6 +2168,7 @@ vertical
 align
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2020,6 +2179,7 @@ DOMString
 listStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2032,6 +2192,7 @@ list
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2042,6 +2203,7 @@ DOMString
 listStylePosition
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2056,6 +2218,7 @@ style
 position
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2066,6 +2229,7 @@ DOMString
 listStyleType
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2080,6 +2244,7 @@ style
 type
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2090,6 +2255,7 @@ DOMString
 listStyleImage
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2104,6 +2270,7 @@ style
 image
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2114,6 +2281,7 @@ DOMString
 quotes
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2124,6 +2292,7 @@ DOMString
 counterIncrement
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2136,6 +2305,7 @@ counter
 increment
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2146,6 +2316,7 @@ DOMString
 counterReset
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2158,6 +2329,7 @@ counter
 reset
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2168,6 +2340,7 @@ DOMString
 overflow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2178,6 +2351,7 @@ DOMString
 overflowX
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2190,6 +2364,7 @@ overflow
 x
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2200,6 +2375,7 @@ DOMString
 overflowY
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2212,6 +2388,7 @@ overflow
 y
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2222,6 +2399,7 @@ DOMString
 overflowWrap
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2234,6 +2412,7 @@ overflow
 wrap
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2244,6 +2423,7 @@ DOMString
 tableLayout
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2256,6 +2436,7 @@ table
 layout
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2266,6 +2447,7 @@ DOMString
 borderCollapse
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2278,6 +2460,7 @@ border
 collapse
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2288,6 +2471,7 @@ DOMString
 emptyCells
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2300,6 +2484,7 @@ empty
 cells
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2310,6 +2495,7 @@ DOMString
 captionSide
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2322,6 +2508,7 @@ caption
 side
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2332,6 +2519,7 @@ DOMString
 whiteSpace
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2344,6 +2532,7 @@ white
 space
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2354,6 +2543,7 @@ DOMString
 writingMode
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2366,6 +2556,7 @@ writing
 mode
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2376,6 +2567,7 @@ DOMString
 letterSpacing
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2388,6 +2580,7 @@ letter
 spacing
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2398,6 +2591,7 @@ DOMString
 wordBreak
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2410,6 +2604,7 @@ word
 break
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2420,6 +2615,7 @@ DOMString
 wordSpacing
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2432,6 +2628,7 @@ word
 spacing
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2442,6 +2639,7 @@ DOMString
 wordWrap
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2454,6 +2652,7 @@ word
 wrap
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2464,6 +2663,7 @@ DOMString
 textOverflow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2476,6 +2676,7 @@ text
 overflow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2486,6 +2687,7 @@ DOMString
 textAlign
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2498,6 +2700,7 @@ text
 align
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2508,6 +2711,7 @@ DOMString
 textDecoration
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2520,6 +2724,7 @@ text
 decoration
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2530,6 +2735,7 @@ DOMString
 textDecorationLine
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2544,6 +2750,7 @@ decoration
 line
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2554,6 +2761,7 @@ DOMString
 textIndent
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2566,6 +2774,7 @@ text
 indent
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2576,6 +2785,7 @@ DOMString
 textJustify
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2590,6 +2800,7 @@ justify
 /
 /
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2602,6 +2813,7 @@ textOrientation
 /
 /
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2614,6 +2826,7 @@ text
 orientation
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2624,6 +2837,7 @@ DOMString
 textRendering
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2636,6 +2850,7 @@ text
 rendering
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2646,6 +2861,7 @@ DOMString
 textTransform
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2658,6 +2874,7 @@ text
 transform
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2668,6 +2885,7 @@ DOMString
 font
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2678,6 +2896,7 @@ DOMString
 fontFamily
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2690,6 +2909,7 @@ font
 family
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2700,6 +2920,7 @@ DOMString
 fontSize
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2712,6 +2933,7 @@ font
 size
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2722,6 +2944,7 @@ DOMString
 fontStretch
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2734,6 +2957,7 @@ font
 stretch
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2744,6 +2968,7 @@ DOMString
 fontStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2756,6 +2981,7 @@ font
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2766,6 +2992,7 @@ DOMString
 fontVariant
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2778,6 +3005,7 @@ font
 variant
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2788,6 +3016,7 @@ DOMString
 fontVariantCaps
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2802,6 +3031,7 @@ variant
 caps
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2812,6 +3042,7 @@ DOMString
 fontWeight
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2824,6 +3055,7 @@ font
 weight
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2834,6 +3066,7 @@ DOMString
 margin
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2844,6 +3077,7 @@ DOMString
 marginBottom
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2856,6 +3090,7 @@ margin
 bottom
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2866,6 +3101,7 @@ DOMString
 marginLeft
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2878,6 +3114,7 @@ margin
 left
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2888,6 +3125,7 @@ DOMString
 marginRight
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2900,6 +3138,7 @@ margin
 right
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2910,6 +3149,7 @@ DOMString
 marginTop
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2922,6 +3162,7 @@ margin
 top
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2936,6 +3177,7 @@ block
 start
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2946,6 +3188,7 @@ DOMString
 marginBlockStart
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2960,6 +3203,7 @@ block
 end
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2970,6 +3214,7 @@ DOMString
 marginBlockEnd
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2984,6 +3229,7 @@ inline
 start
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -2994,6 +3240,7 @@ DOMString
 marginInlineStart
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3008,6 +3255,7 @@ inline
 end
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3018,6 +3266,7 @@ DOMString
 marginInlineEnd
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3028,6 +3277,7 @@ DOMString
 padding
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3038,6 +3288,7 @@ DOMString
 paddingBottom
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3050,6 +3301,7 @@ padding
 bottom
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3060,6 +3312,7 @@ DOMString
 paddingLeft
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3072,6 +3325,7 @@ padding
 left
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3082,6 +3336,7 @@ DOMString
 paddingRight
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3094,6 +3349,7 @@ padding
 right
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3104,6 +3360,7 @@ DOMString
 paddingTop
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3116,6 +3373,7 @@ padding
 top
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3130,6 +3388,7 @@ block
 start
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3140,6 +3399,7 @@ DOMString
 paddingBlockStart
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3154,6 +3414,7 @@ block
 end
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3164,6 +3425,7 @@ DOMString
 paddingBlockEnd
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3178,6 +3440,7 @@ inline
 start
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3188,6 +3451,7 @@ DOMString
 paddingInlineStart
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3202,6 +3466,7 @@ inline
 end
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3212,6 +3477,7 @@ DOMString
 paddingInlineEnd
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3222,6 +3488,7 @@ DOMString
 outline
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3232,6 +3499,7 @@ DOMString
 outlineColor
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3244,6 +3512,7 @@ outline
 color
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3254,6 +3523,7 @@ DOMString
 outlineStyle
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3266,6 +3536,7 @@ outline
 style
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3276,6 +3547,7 @@ DOMString
 outlineWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3288,6 +3560,7 @@ outline
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3298,6 +3571,7 @@ DOMString
 outlineOffset
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3310,6 +3584,7 @@ outline
 offset
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3320,6 +3595,7 @@ DOMString
 position
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3330,6 +3606,7 @@ DOMString
 pointerEvents
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3342,6 +3619,7 @@ pointer
 events
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3352,6 +3630,7 @@ DOMString
 top
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3362,6 +3641,7 @@ DOMString
 right
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3372,6 +3652,7 @@ DOMString
 left
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3382,6 +3663,7 @@ DOMString
 bottom
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3396,6 +3678,7 @@ block
 start
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3406,6 +3689,7 @@ DOMString
 offsetBlockStart
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3420,6 +3704,7 @@ block
 end
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3430,6 +3715,7 @@ DOMString
 offsetBlockEnd
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3444,6 +3730,7 @@ inline
 start
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3454,6 +3741,7 @@ DOMString
 offsetInlineStart
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3468,6 +3756,7 @@ inline
 end
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3478,6 +3767,7 @@ DOMString
 offsetInlineEnd
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3488,6 +3778,7 @@ DOMString
 height
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3498,6 +3789,7 @@ DOMString
 minHeight
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3510,6 +3802,7 @@ min
 height
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3520,6 +3813,7 @@ DOMString
 maxHeight
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3532,6 +3826,7 @@ max
 height
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3542,6 +3837,7 @@ DOMString
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3552,6 +3848,7 @@ DOMString
 minWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3564,6 +3861,7 @@ min
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3574,6 +3872,7 @@ DOMString
 maxWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3586,6 +3885,7 @@ max
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3598,6 +3898,7 @@ block
 size
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3608,6 +3909,7 @@ DOMString
 blockSize
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3620,6 +3922,7 @@ inline
 size
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3630,6 +3933,7 @@ DOMString
 inlineSize
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3644,6 +3948,7 @@ block
 size
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3654,6 +3959,7 @@ DOMString
 maxBlockSize
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3668,6 +3974,7 @@ inline
 size
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3678,6 +3985,7 @@ DOMString
 maxInlineSize
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3692,6 +4000,7 @@ block
 size
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3702,6 +4011,7 @@ DOMString
 minBlockSize
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3716,6 +4026,7 @@ inline
 size
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3726,6 +4037,7 @@ DOMString
 minInlineSize
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3736,6 +4048,7 @@ DOMString
 zIndex
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3748,6 +4061,7 @@ z
 index
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3758,6 +4072,7 @@ DOMString
 imageRendering
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3770,6 +4085,7 @@ image
 rendering
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3780,6 +4096,7 @@ DOMString
 columnCount
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3792,6 +4109,7 @@ column
 count
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3802,6 +4120,7 @@ DOMString
 columnWidth
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3814,6 +4133,7 @@ column
 width
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3824,6 +4144,7 @@ DOMString
 columns
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3834,6 +4155,7 @@ DOMString
 columnGap
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3846,6 +4168,7 @@ column
 gap
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3856,6 +4179,7 @@ DOMString
 transition
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3866,6 +4190,7 @@ DOMString
 transitionDuration
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3878,6 +4203,7 @@ transition
 duration
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3888,6 +4214,7 @@ DOMString
 transitionTimingFunction
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3902,6 +4229,7 @@ timing
 function
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3912,6 +4240,7 @@ DOMString
 transitionProperty
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3924,6 +4253,7 @@ transition
 property
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3934,6 +4264,7 @@ DOMString
 transitionDelay
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3946,6 +4277,7 @@ transition
 delay
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3956,6 +4288,7 @@ DOMString
 flex
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3966,6 +4299,7 @@ DOMString
 flexFlow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3978,6 +4312,7 @@ flex
 flow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -3988,6 +4323,7 @@ DOMString
 flexDirection
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4000,6 +4336,7 @@ flex
 direction
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4010,6 +4347,7 @@ DOMString
 flexWrap
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4022,6 +4360,7 @@ flex
 wrap
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4032,6 +4371,7 @@ DOMString
 justifyContent
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4044,6 +4384,7 @@ justify
 content
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4054,6 +4395,7 @@ DOMString
 alignItems
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4066,6 +4408,7 @@ align
 items
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4076,6 +4419,7 @@ DOMString
 alignContent
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4088,6 +4432,7 @@ align
 content
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4098,6 +4443,7 @@ DOMString
 order
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4108,6 +4454,7 @@ DOMString
 flexBasis
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4120,6 +4467,7 @@ flex
 basis
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4130,6 +4478,7 @@ DOMString
 flexGrow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4142,6 +4491,7 @@ flex
 grow
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4152,6 +4502,7 @@ DOMString
 flexShrink
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4164,6 +4515,7 @@ flex
 shrink
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4174,6 +4526,7 @@ DOMString
 alignSelf
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4186,6 +4539,7 @@ align
 self
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4196,6 +4550,7 @@ DOMString
 animation
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4208,6 +4563,7 @@ animation
 name
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4218,6 +4574,7 @@ DOMString
 animationName
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4230,6 +4587,7 @@ animation
 duration
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4240,6 +4598,7 @@ DOMString
 animationDuration
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4254,6 +4613,7 @@ timing
 function
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4264,6 +4624,7 @@ DOMString
 animationTimingFunction
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4278,6 +4639,7 @@ iteration
 count
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4288,6 +4650,7 @@ DOMString
 animationIterationCount
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4300,6 +4663,7 @@ animation
 direction
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4310,6 +4674,7 @@ DOMString
 animationDirection
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4324,6 +4689,7 @@ play
 state
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4334,6 +4700,7 @@ DOMString
 animationPlayState
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4348,6 +4715,7 @@ fill
 mode
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4358,6 +4726,7 @@ DOMString
 animationFillMode
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =
@@ -4370,6 +4739,7 @@ animation
 delay
 ;
 [
+CEReactions
 SetterThrows
 TreatNullAs
 =

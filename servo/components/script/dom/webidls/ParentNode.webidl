@@ -127,6 +127,7 @@ long
 childElementCount
 ;
 [
+CEReactions
 Throws
 Unscopable
 ]
@@ -145,6 +146,7 @@ nodes
 )
 ;
 [
+CEReactions
 Throws
 Unscopable
 ]

@@ -90,11 +90,7 @@ CustomElementRegistry
 {
 [
 Throws
-/
-*
 CEReactions
-*
-/
 ]
 void
 define

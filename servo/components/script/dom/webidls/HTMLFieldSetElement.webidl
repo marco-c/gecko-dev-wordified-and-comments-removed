@@ -82,6 +82,9 @@ HTMLFieldSetElement
 :
 HTMLElement
 {
+[
+CEReactions
+]
 attribute
 boolean
 disabled
@@ -92,6 +95,11 @@ HTMLFormElement
 ?
 form
 ;
+/
+/
+[
+CEReactions
+]
 /
 /
 attribute

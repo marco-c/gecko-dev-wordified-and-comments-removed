@@ -91,6 +91,7 @@ HTMLCanvasElement
 HTMLElement
 {
 [
+CEReactions
 Pure
 ]
 attribute
@@ -99,6 +100,7 @@ long
 width
 ;
 [
+CEReactions
 Pure
 ]
 attribute

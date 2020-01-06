@@ -116,6 +116,11 @@ HTMLTableDataCellElement
 {
 /
 /
+[
+CEReactions
+]
+/
+/
 attribute
 DOMString
 abbr
