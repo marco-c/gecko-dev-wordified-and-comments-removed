@@ -66,10 +66,6 @@ object
 )
 :
     
-default_timeout
-=
-10
-    
 def
 __init__
 (

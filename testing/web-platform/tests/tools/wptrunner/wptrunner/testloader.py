@@ -576,9 +576,9 @@ time
 =
 sum
 (
-test
+wpttest
 .
-default_timeout
+DEFAULT_TIMEOUT
 if
 test
 .
@@ -590,9 +590,9 @@ timeout
 long
 "
 else
-test
+wpttest
 .
-long_timeout
+LONG_TIMEOUT
 for
 test
 in
