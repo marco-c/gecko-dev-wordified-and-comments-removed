@@ -298,7 +298,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -327,7 +327,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -768,7 +768,7 @@ version
 .
 1
 .
-4
+5
 "
 source
 =
@@ -831,9 +831,9 @@ index
 mp4parse
 0
 .
-7
+8
 .
-1
+0
 (
 registry
 +
@@ -935,7 +935,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -993,7 +993,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -1256,7 +1256,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -1422,7 +1422,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -1900,7 +1900,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -3823,7 +3823,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -4307,7 +4307,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -4413,7 +4413,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -4575,7 +4575,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -5101,7 +5101,7 @@ version
 .
 1
 .
-22
+27
 "
 source
 =
@@ -5130,12 +5130,12 @@ dependencies
 =
 [
 "
-gcc
+cc
+1
+.
 0
 .
-3
-.
-47
+1
 (
 registry
 +
@@ -5403,7 +5403,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -5810,7 +5810,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -6642,7 +6642,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -6721,7 +6721,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -6858,7 +6858,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -6997,7 +6997,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -7713,7 +7713,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -8087,7 +8087,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -9554,7 +9554,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -9583,7 +9583,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -9875,7 +9875,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -10307,7 +10307,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -10384,7 +10384,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -10552,7 +10552,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -10629,7 +10629,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -11128,7 +11128,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -11338,7 +11338,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -11482,7 +11482,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -11511,7 +11511,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -11661,7 +11661,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -11986,7 +11986,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -12333,7 +12333,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -12959,7 +12959,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -12988,7 +12988,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -14636,7 +14636,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -14799,7 +14799,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -14857,7 +14857,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -14940,7 +14940,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -15156,7 +15156,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -15235,7 +15235,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -15264,7 +15264,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -17255,7 +17255,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -17330,7 +17330,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -17494,7 +17494,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -17523,7 +17523,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -17862,7 +17862,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -17968,7 +17968,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -18659,7 +18659,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -19368,7 +19368,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -19397,7 +19397,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -19862,7 +19862,7 @@ version
 .
 2
 .
-8
+9
 "
 source
 =
@@ -20144,7 +20144,7 @@ version
 .
 2
 .
-23
+33
 "
 source
 =
@@ -20251,7 +20251,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -20841,7 +20841,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -21154,7 +21154,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -21926,7 +21926,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -22750,7 +22750,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -22914,7 +22914,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -23342,7 +23342,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -23371,7 +23371,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -23400,7 +23400,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -23564,7 +23564,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -23678,9 +23678,9 @@ version
 "
 0
 .
-7
+8
 .
-1
+0
 "
 source
 =
@@ -23744,6 +23744,37 @@ byteorder
 0
 .
 0
+(
+registry
++
+https
+:
+/
+/
+github
+.
+com
+/
+rust
+-
+lang
+/
+crates
+.
+io
+-
+index
+)
+"
+"
+num
+-
+traits
+0
+.
+1
+.
+37
 (
 registry
 +
@@ -24432,7 +24463,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -25071,7 +25102,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -25674,7 +25705,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -26554,7 +26585,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -27165,7 +27196,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -27757,7 +27788,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -27786,7 +27817,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -27954,7 +27985,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -28576,7 +28607,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -29908,7 +29939,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -30643,7 +30674,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -30954,7 +30985,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -30983,7 +31014,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -32315,7 +32346,7 @@ metadata
 .
 1
 .
-4
+5
 (
 registry
 +
@@ -32476,7 +32507,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -32895,7 +32926,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -32924,7 +32955,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -34119,7 +34150,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -34617,7 +34648,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -36104,7 +36135,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -36181,7 +36212,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -36438,7 +36469,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -36846,7 +36877,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -36875,7 +36906,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -37192,7 +37223,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -37370,7 +37401,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -37950,7 +37981,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -38309,7 +38340,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -38681,7 +38712,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -38791,7 +38822,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -39139,7 +39170,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -39168,7 +39199,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -39733,7 +39764,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -40633,7 +40664,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -42151,7 +42182,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -42929,7 +42960,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -43066,7 +43097,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -43362,7 +43393,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -43524,7 +43555,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -46158,7 +46189,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -47108,7 +47139,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -47655,7 +47686,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -47869,7 +47900,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -47898,7 +47929,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -48004,7 +48035,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -48776,7 +48807,7 @@ metadata
 .
 1
 .
-4
+5
 (
 registry
 +
@@ -48801,7 +48832,7 @@ index
 "
 =
 "
-f9a5fd5696539cf7a0c2f826be1d13f9a8673be2f9632c8b62f5b122f7e74416
+efc6ddcb9cf4d6587f4c4dec8444a35cc5098edb91043f02556dffec31278e3e
 "
 "
 checksum
@@ -49910,7 +49941,7 @@ cmake
 .
 1
 .
-22
+27
 (
 registry
 +
@@ -49935,7 +49966,7 @@ index
 "
 =
 "
-d18d68987ed4c516dcc3e7913659bfa4076f5182eea4a7e0038bb060953e76ac
+9b0ec063cbc2034e27f7166d04aa7aa1b9ed85b6c7c2414fb68aff20d1ebf604
 "
 "
 checksum
@@ -52748,7 +52779,7 @@ lazy_static
 .
 2
 .
-8
+9
 (
 registry
 +
@@ -52773,7 +52804,7 @@ index
 "
 =
 "
-3b37545ab726dd833ec6420aaba8231c5b320814b9029ad585555d2a03e94fbf
+c9e5e58fa1a4c3b915a561a78a22ee0cac6ab97dca2504428bc1cb074375f8d5
 "
 "
 checksum
@@ -52922,7 +52953,7 @@ libc
 .
 2
 .
-23
+33
 (
 registry
 +
@@ -52947,7 +52978,7 @@ index
 "
 =
 "
-e7eb6b826bfc1fdea7935d46556250d1799b7fe2d9f7951071f4291710665e3e
+5ba3df4dcb460b9dfbd070d41c94c19209620c191b0340b929ce748a2bcd42d2
 "
 "
 checksum
@@ -53606,9 +53637,9 @@ checksum
 mp4parse
 0
 .
-7
+8
 .
-1
+0
 (
 registry
 +
@@ -53633,7 +53664,7 @@ index
 "
 =
 "
-7b81651f9ede53d59281b54c7eb51ae50a868ac4765dd3bdfbbc79ce3d8aca7a
+99942c1e9fa8b6fc9b63c6eb65bc6d442df3bcd8b8889de5b436f5527fd81adf
 "
 "
 checksum

@@ -2477,8 +2477,8 @@ get
 "
 root
 "
-[
-]
+{
+}
 )
 ]
 content
