@@ -289,6 +289,9 @@ CONFIG_DIR
 (
 MAKENSISU
 )
+(
+MAKENSISU_FLAGS
+)
 installer
 .
 nsi
@@ -302,6 +305,9 @@ CONFIG_DIR
 &
 (
 MAKENSISU
+)
+(
+MAKENSISU_FLAGS
 )
 stub
 .
@@ -486,6 +492,9 @@ CONFIG_DIR
 &
 (
 MAKENSISU
+)
+(
+MAKENSISU_FLAGS
 )
 uninstaller
 .
@@ -850,6 +859,9 @@ CONFIG_DIR
 (
 MAKENSISU
 )
+(
+MAKENSISU_FLAGS
+)
 uninstaller
 .
 nsi
@@ -893,6 +905,9 @@ CONFIG_DIR
 &
 (
 MAKENSISU
+)
+(
+MAKENSISU_FLAGS
 )
 maintenanceservice_installer
 .
