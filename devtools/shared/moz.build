@@ -339,6 +339,13 @@ indentation
 js
 '
 '
+indexed
+-
+db
+.
+js
+'
+'
 l10n
 .
 js
