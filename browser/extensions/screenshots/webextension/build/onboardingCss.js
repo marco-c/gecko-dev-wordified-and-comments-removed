@@ -1444,7 +1444,7 @@ active
 -
 slide
 -
-4
+3
 #
 next
 {
@@ -1483,7 +1483,7 @@ active
 -
 slide
 -
-4
+3
 #
 done
 {
