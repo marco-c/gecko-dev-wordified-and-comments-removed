@@ -3232,6 +3232,11 @@ bool
 aIsFocused
 )
 ;
+void
+UpdateValidityState
+(
+)
+;
 HTMLInputElement
 *
 GetOwnerNumberControl
