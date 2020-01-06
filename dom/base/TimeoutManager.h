@@ -41,6 +41,9 @@ class
 OrderedTimeoutIterator
 ;
 class
+TimeoutExecutor
+;
+class
 TimeoutManager
 final
 {
@@ -180,6 +183,10 @@ aReason
 void
 RunTimeout
 (
+const
+TimeStamp
+&
+aNow
 const
 TimeStamp
 &
@@ -504,9 +511,6 @@ TimeoutManager
 aTimeoutManager
 SortBy
 aSortBy
-nsIEventTarget
-*
-aQueue
 )
 ;
 const
@@ -767,6 +771,12 @@ OrderedTimeoutIterator
 nsGlobalWindow
 &
 mWindow
+;
+RefPtr
+<
+TimeoutExecutor
+>
+mExecutor
 ;
 Timeouts
 mNormalTimeouts
