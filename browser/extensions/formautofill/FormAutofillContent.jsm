@@ -2319,7 +2319,10 @@ if
 !
 formHandler
 .
-isFormChangedSinceLastCollection
+updateFormIfNeeded
+(
+element
+)
 )
 {
 this
