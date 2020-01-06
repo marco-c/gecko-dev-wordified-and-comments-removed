@@ -445,6 +445,11 @@ UI
 .
 FILTER_BAR
 )
+networkMessageActiveTabId
+:
+"
+headers
+"
 }
 )
 }
