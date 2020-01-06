@@ -929,6 +929,11 @@ isSecure
 )
 false
 aAttrs
+aCookie
+.
+sameSite
+(
+)
 )
 ;
 RecordDocumentCookie
@@ -1165,6 +1170,14 @@ isSecure
 )
 false
 aAttrs
+aCookiesList
+[
+i
+]
+.
+sameSite
+(
+)
 )
 ;
 RecordDocumentCookie
@@ -1929,6 +1942,9 @@ aCookieAttributes
 .
 isHttpOnly
 aAttrs
+aCookieAttributes
+.
+sameSite
 )
 ;
 RecordDocumentCookie

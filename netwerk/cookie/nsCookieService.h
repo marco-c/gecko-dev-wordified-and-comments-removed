@@ -579,6 +579,9 @@ isSecure
 bool
 isHttpOnly
 ;
+int8_t
+sameSite
+;
 }
 ;
 class
