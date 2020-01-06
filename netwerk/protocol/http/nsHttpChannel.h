@@ -1901,6 +1901,14 @@ difftime_ms
 )
 ;
 void
+ReportRcwnStats
+(
+nsIRequest
+*
+firstResponseRequest
+)
+;
+void
 UpdateAggregateCallbacks
 (
 )
