@@ -2,10 +2,7 @@ use
 atomic_refcell
 :
 :
-{
 AtomicRefCell
-AtomicRefMut
-}
 ;
 use
 context
@@ -2257,15 +2254,11 @@ E
 element
 :
 E
-mut
 data
 :
 &
 mut
-AtomicRefMut
-<
 ElementData
->
 )
 where
 E
@@ -2285,7 +2278,6 @@ thread_local
 begin_element
 (
 element
-&
 data
 )
 ;
@@ -2434,8 +2426,6 @@ traversal
 traversal_data
 context
 element
-&
-mut
 data
 )
 {
@@ -2908,15 +2898,11 @@ E
 element
 :
 E
-mut
 data
 :
 &
 mut
-AtomicRefMut
-<
 ElementData
->
 )
 -
 >
@@ -2986,8 +2972,6 @@ element
 share_style_if_possible
 (
 context
-&
-mut
 data
 )
 }
@@ -3077,8 +3061,6 @@ element
 match_and_cascade
 (
 context
-&
-mut
 data
 StyleSharingBehavior
 :
@@ -3102,8 +3084,6 @@ replace_rules
 (
 flags
 context
-&
-mut
 data
 )
 ;
@@ -3112,8 +3092,6 @@ element
 cascade_primary_and_pseudos
 (
 context
-&
-mut
 data
 rules_changed
 .
@@ -3131,8 +3109,6 @@ element
 cascade_primary_and_pseudos
 (
 context
-&
-mut
 data
 false
 )
