@@ -4036,6 +4036,16 @@ continue
 }
 if
 (
+aFrame
+-
+>
+HasImageRequest
+(
+)
+)
+{
+if
+(
 imgRequestProxy
 *
 req
@@ -4056,6 +4066,7 @@ req
 aFrame
 )
 ;
+}
 }
 }
 }
@@ -4651,6 +4662,11 @@ newBorderImage
 if
 (
 oldBorderImage
+&
+&
+HasImageRequest
+(
+)
 )
 {
 imageLoader
