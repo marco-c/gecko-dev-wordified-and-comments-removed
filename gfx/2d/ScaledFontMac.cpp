@@ -1783,7 +1783,7 @@ Maybe
 wr
 :
 :
-FontInstanceOptions
+WrFontInstanceOptions
 >
 *
 aOutOptions
