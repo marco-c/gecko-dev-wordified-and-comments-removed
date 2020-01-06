@@ -1059,10 +1059,10 @@ i
 {
 aResult
 .
-Append
+AppendLiteral
 (
-'
-'
+"
+"
 )
 ;
 }
