@@ -1778,14 +1778,6 @@ nsIDOMDocument
 aDoc
 )
 {
-RefPtr
-<
-nsPrintEngine
->
-kungfuDeathGrip
-=
-this
-;
 nsresult
 rv
 =
