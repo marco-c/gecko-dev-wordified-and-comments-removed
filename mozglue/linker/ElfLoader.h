@@ -1247,6 +1247,12 @@ LibHandle
 >
 libc
 ;
+RefPtr
+<
+LibHandle
+>
+libm
+;
 #
 endif
 typedef
