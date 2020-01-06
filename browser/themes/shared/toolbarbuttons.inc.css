@@ -202,9 +202,6 @@ padding
 ;
 %
 endif
-%
-ifdef
-MOZ_PHOTON_ANIMATIONS
 -
 -
 toolbarbutton
@@ -213,8 +210,6 @@ height
 :
 0
 ;
-%
-endif
 }
 :
 root

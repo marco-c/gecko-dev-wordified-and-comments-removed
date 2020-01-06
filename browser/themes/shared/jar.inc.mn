@@ -1481,9 +1481,6 @@ svg
 )
 #
 endif
-#
-ifdef
-MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -1515,8 +1512,6 @@ animation
 .
 svg
 )
-#
-endif
 skin
 /
 classic
@@ -2859,9 +2854,6 @@ bookmark
 .
 svg
 )
-#
-ifdef
-MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -2887,8 +2879,6 @@ animation
 .
 svg
 )
-#
-endif
 skin
 /
 classic
@@ -3017,9 +3007,6 @@ chevron
 .
 svg
 )
-#
-ifdef
-MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -3045,8 +3032,6 @@ animation
 .
 svg
 )
-#
-endif
 skin
 /
 classic
@@ -3556,9 +3541,6 @@ library
 .
 svg
 )
-#
-ifdef
-MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -3588,8 +3570,6 @@ animation
 .
 svg
 )
-#
-endif
 #
 ifdef
 MOZ_PHOTON_THEME
@@ -3843,9 +3823,6 @@ reload
 .
 svg
 )
-#
-ifdef
-MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -3875,8 +3852,6 @@ stop
 .
 svg
 )
-#
-endif
 skin
 /
 classic
@@ -4007,9 +3982,6 @@ stop
 .
 svg
 )
-#
-ifdef
-MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -4039,8 +4011,6 @@ reload
 .
 svg
 )
-#
-endif
 skin
 /
 classic

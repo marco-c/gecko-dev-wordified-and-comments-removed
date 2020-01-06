@@ -10214,9 +10214,6 @@ label
 ;
 "
 >
-#
-ifdef
-MOZ_PHOTON_ANIMATIONS
 <
 box
 class
@@ -10246,8 +10243,6 @@ image
 /
 box
 >
-#
-endif
 <
 /
 toolbarbutton

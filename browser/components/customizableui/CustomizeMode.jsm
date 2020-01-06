@@ -3952,11 +3952,6 @@ customizationchange
 }
 if
 (
-AppConstants
-.
-MOZ_PHOTON_ANIMATIONS
-&
-&
 Services
 .
 prefs

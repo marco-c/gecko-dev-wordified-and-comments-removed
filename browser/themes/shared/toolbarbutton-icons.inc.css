@@ -276,9 +276,6 @@ svg
 %
 ifdef
 MOZ_PHOTON_THEME
-%
-ifdef
-MOZ_PHOTON_ANIMATIONS
 .
 toolbarbutton
 -
@@ -1351,8 +1348,6 @@ translateX
 )
 ;
 }
-%
-endif
 #
 reload
 -
@@ -2593,9 +2588,6 @@ svg
 )
 ;
 }
-%
-ifdef
-MOZ_PHOTON_ANIMATIONS
 #
 nav
 -
@@ -3084,8 +3076,6 @@ scaleX
 )
 ;
 }
-%
-endif
 #
 email
 -
@@ -3323,9 +3313,6 @@ svg
 )
 ;
 }
-%
-ifdef
-MOZ_PHOTON_ANIMATIONS
 keyframes
 library
 -
@@ -3835,5 +3822,3 @@ ease
 out
 ;
 }
-%
-endif

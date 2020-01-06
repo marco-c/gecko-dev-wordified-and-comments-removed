@@ -336,9 +336,6 @@ downloads
 button
 "
 >
-#
-ifdef
-MOZ_PHOTON_ANIMATIONS
 <
 box
 id
@@ -352,8 +349,6 @@ icon
 "
 /
 >
-#
-endif
 <
 stack
 id
