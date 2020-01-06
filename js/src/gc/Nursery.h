@@ -1097,6 +1097,8 @@ total
 size_t
 spaceToEnd
 (
+unsigned
+chunkCount
 )
 const
 ;
