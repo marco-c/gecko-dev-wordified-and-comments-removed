@@ -125,14 +125,6 @@ Exposed
 Window
 Worker
 )
-Func
-=
-"
-AbortController
-:
-:
-IsEnabled
-"
 ]
 interface
 AbortController
