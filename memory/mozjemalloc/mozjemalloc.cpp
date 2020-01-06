@@ -24,7 +24,7 @@ NO_TLS
 endif
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 define
 MALLOC_DOUBLE_PURGE
@@ -437,7 +437,7 @@ h
 >
 #
 ifndef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 include
 <
@@ -456,7 +456,7 @@ h
 >
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 include
 <
@@ -733,7 +733,7 @@ endif
 endif
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 static
 pthread_key_t
 tlsIndex
@@ -983,7 +983,7 @@ CRITICAL_SECTION
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 typedef
 struct
@@ -1031,7 +1031,7 @@ XP_WIN
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 static
 malloc_mutex_t
@@ -2060,7 +2060,7 @@ XP_WIN
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 static
 __thread
@@ -2278,7 +2278,7 @@ void
 ;
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 define
 FORK_HOOK
@@ -2537,7 +2537,7 @@ true
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 mutex
 -
@@ -2667,7 +2667,7 @@ mutex
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 OSSpinLockLock
 (
@@ -2713,7 +2713,7 @@ mutex
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 OSSpinLockUnlock
 (
@@ -2783,7 +2783,7 @@ true
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 lock
 -
@@ -2913,7 +2913,7 @@ lock
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 OSSpinLockLock
 (
@@ -2959,7 +2959,7 @@ lock
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 OSSpinLockUnlock
 (
@@ -2985,7 +2985,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 #
 define
@@ -4752,7 +4752,7 @@ n
 endif
 #
 ifdef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 #
 define
 VM_COPY_MIN
@@ -7450,7 +7450,7 @@ arena
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 pthread_setspecific
 (
@@ -7528,7 +7528,7 @@ tlsIndex
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 ret
 =
@@ -17007,7 +17007,7 @@ XP_WIN
 |
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 )
 #
@@ -17052,7 +17052,7 @@ endif
 if
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 extern
 "
@@ -17139,7 +17139,7 @@ TlsAlloc
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 pthread_key_create
 (
@@ -18078,7 +18078,7 @@ arenas
 elif
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 pthread_setspecific
 (
@@ -18142,7 +18142,7 @@ XP_WIN
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 pthread_atfork
 (
@@ -18157,7 +18157,7 @@ endif
 if
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 register_zone
 (
@@ -18263,7 +18263,7 @@ __GNUC__
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 #
 define
@@ -20059,7 +20059,7 @@ arenas_lock
 }
 #
 ifndef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 static
 #
 endif
@@ -20128,7 +20128,7 @@ huge_mtx
 }
 #
 ifndef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 static
 #
 endif
@@ -20197,7 +20197,7 @@ arenas_lock
 }
 #
 ifndef
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 static
 #
 endif
@@ -20280,7 +20280,7 @@ endif
 if
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 __attribute__
 (
@@ -20336,7 +20336,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_DARWIN
+XP_DARWIN
 )
 &
 &
