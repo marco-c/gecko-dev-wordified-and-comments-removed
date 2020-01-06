@@ -48,7 +48,7 @@ xul
 )
 ;
 .
-profile
+autofill
 -
 item
 -
@@ -72,6 +72,19 @@ size
 :
 .
 83em
+;
+}
+.
+autofill
+-
+footer
+{
+font
+-
+size
+:
+.
+91em
 ;
 }
 media
@@ -109,7 +122,7 @@ true
 ]
 >
 .
-profile
+autofill
 -
 item
 -
