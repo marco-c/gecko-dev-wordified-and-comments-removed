@@ -281,6 +281,13 @@ help
 ;
 -
 (
+NSString
+*
+)
+orientation
+;
+-
+(
 BOOL
 )
 isEnabled
