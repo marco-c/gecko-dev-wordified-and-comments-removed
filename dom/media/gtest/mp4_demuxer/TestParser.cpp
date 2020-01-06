@@ -297,7 +297,7 @@ mSize
 ;
 TEST
 (
-stagefright_MP4Metadata
+MP4Metadata
 EmptyStream
 )
 {
@@ -595,7 +595,7 @@ valid
 }
 TEST
 (
-stagefright_MoofParser
+MoofParser
 EmptyStream
 )
 {
@@ -1628,7 +1628,7 @@ true
 ;
 TEST
 (
-stagefright_MPEG4Metadata
+MP4Metadata
 test_case_mp4
 )
 {
@@ -2695,7 +2695,7 @@ if
 0
 TEST
 (
-stagefright_MPEG4Metadata
+MPEG4Metadata
 test_case_mp4_subsets
 )
 {
@@ -2888,7 +2888,7 @@ size
 endif
 TEST
 (
-stagefright_MoofParser
+MoofParser
 test_case_mp4
 )
 {
@@ -3329,7 +3329,7 @@ if
 0
 TEST
 (
-stagefright_MoofParser
+MoofParser
 test_case_mp4_subsets
 )
 {
@@ -4318,7 +4318,7 @@ media_gtest_video_init_mp4_len
 ;
 TEST
 (
-stagefright_MP4Metadata
+MP4Metadata
 EmptyCTTS
 )
 {

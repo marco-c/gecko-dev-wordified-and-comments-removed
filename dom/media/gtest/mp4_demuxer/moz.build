@@ -88,7 +88,7 @@ MPL
 Library
 (
 '
-stagefright_gtest
+mp4_demuxer_gtest
 '
 )
 SOURCES
@@ -288,7 +288,7 @@ UNIFIED_SOURCES
 =
 [
 '
-TestMP4Rust
+TestMP4
 .
 cpp
 '
@@ -306,13 +306,6 @@ gtest
 .
 .
 /
-.
-.
-/
-dom
-/
-media
-/
 test
 /
 street
@@ -328,9 +321,10 @@ LOCAL_INCLUDES
 .
 .
 /
-binding
+.
+.
 /
-include
+mp4
 '
 ]
 FINAL_LIBRARY

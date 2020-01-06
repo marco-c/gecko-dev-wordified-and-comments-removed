@@ -367,6 +367,14 @@ vp8
 ivf
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+mp4_demuxer
+'
+]
 include
 (
 '
