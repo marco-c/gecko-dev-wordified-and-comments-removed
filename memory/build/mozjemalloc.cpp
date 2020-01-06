@@ -18098,7 +18098,9 @@ return
 if
 (
 !
-malloc_initialized
+malloc_init
+(
+)
 )
 {
 memset
