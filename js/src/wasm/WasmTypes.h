@@ -5406,10 +5406,6 @@ boundsCheckLimit
 ;
 #
 endif
-uint8_t
-*
-globalData
-;
 Instance
 *
 instance
