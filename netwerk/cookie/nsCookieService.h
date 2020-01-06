@@ -758,7 +758,9 @@ aPermissionServices
 uint8_t
 aCookieBehavior
 bool
-aThirdPartyUtil
+aThirdPartySession
+bool
+aThirdPartyNonsecureSession
 nsIURI
 *
 aHostURI
@@ -1508,6 +1510,9 @@ mCookieBehavior
 ;
 bool
 mThirdPartySession
+;
+bool
+mThirdPartyNonsecureSession
 ;
 bool
 mLeaveSecureAlone
