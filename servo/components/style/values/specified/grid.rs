@@ -143,6 +143,7 @@ i
 >
 {
 match
+*
 input
 .
 next
@@ -183,6 +184,7 @@ Ok
 (
 value
 )
+ref
 t
 =
 >
@@ -194,6 +196,10 @@ BasicParseError
 UnexpectedToken
 (
 t
+.
+clone
+(
+)
 )
 .
 into
@@ -704,7 +710,7 @@ i
 |
 i
 .
-expect_ident
+expect_ident_cloned
 (
 )
 )
@@ -717,6 +723,7 @@ CustomIdent
 :
 from_ident
 (
+&
 ident
 &
 [

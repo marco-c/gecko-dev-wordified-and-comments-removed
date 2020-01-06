@@ -689,7 +689,7 @@ name
 =
 input
 .
-expect_ident
+expect_ident_cloned
 (
 )
 ?

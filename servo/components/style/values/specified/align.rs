@@ -2181,6 +2181,10 @@ expect_ident
 (
 )
 ?
+.
+clone
+(
+)
 "
 baseline
 "
@@ -2908,6 +2912,10 @@ expect_ident
 (
 )
 ?
+.
+clone
+(
+)
 ;
 let
 b
@@ -2991,6 +2999,10 @@ SelectorParseError
 UnexpectedIdent
 (
 b
+.
+clone
+(
+)
 )
 .
 into

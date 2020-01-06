@@ -872,6 +872,10 @@ io
 Cursor
 ;
 let
+u_tag
+;
+{
+let
 tag
 =
 input
@@ -945,7 +949,6 @@ as_bytes
 )
 )
 ;
-let
 u_tag
 =
 raw
@@ -963,6 +966,7 @@ unwrap
 (
 )
 ;
+}
 Ok
 (
 FontSettingTag

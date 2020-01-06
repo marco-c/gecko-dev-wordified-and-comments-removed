@@ -2,7 +2,7 @@ use
 cssparser
 :
 :
-CompactCowStr
+CowRcStr
 ;
 use
 html5ever
@@ -1259,7 +1259,7 @@ a
 >
 Into
 <
-CompactCowStr
+CowRcStr
 <
 '
 a
@@ -1275,7 +1275,7 @@ self
 )
 -
 >
-CompactCowStr
+CowRcStr
 <
 '
 a

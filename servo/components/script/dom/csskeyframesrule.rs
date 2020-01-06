@@ -829,11 +829,8 @@ KeyframesName
 :
 from_ident
 (
+&
 value
-.
-into
-(
-)
 )
 ;
 let

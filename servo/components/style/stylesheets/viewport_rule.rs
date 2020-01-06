@@ -27,7 +27,7 @@ cssparser
 :
 :
 {
-CompactCowStr
+CowRcStr
 ToCss
 as
 ParserToCss
@@ -1861,7 +1861,7 @@ mut
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i

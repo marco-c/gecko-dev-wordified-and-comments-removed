@@ -8,7 +8,7 @@ Parser
 QualifiedRuleParser
 RuleListParser
 ParserInput
-CompactCowStr
+CowRcStr
 }
 ;
 use
@@ -2999,7 +2999,7 @@ mut
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i

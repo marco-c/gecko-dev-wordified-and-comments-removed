@@ -24,7 +24,7 @@ use
 cssparser
 :
 :
-CompactCowStr
+CowRcStr
 ;
 use
 selectors
@@ -259,7 +259,7 @@ a
 {
 Snippet
 (
-CompactCowStr
+CowRcStr
 <
 '
 a
@@ -267,7 +267,7 @@ a
 )
 Ident
 (
-CompactCowStr
+CowRcStr
 <
 '
 a
@@ -316,7 +316,11 @@ s
 >
 s
 .
-into_owned
+as_ref
+(
+)
+.
+to_owned
 (
 )
 ErrorString
@@ -1512,7 +1516,7 @@ self
 -
 >
 (
-CompactCowStr
+CowRcStr
 <
 '
 a
@@ -1578,7 +1582,7 @@ self
 -
 >
 (
-CompactCowStr
+CowRcStr
 <
 '
 a

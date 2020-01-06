@@ -1066,11 +1066,11 @@ input
 try
 (
 |
-input
+i
 |
-input
+i
 .
-expect_ident
+expect_ident_cloned
 (
 )
 )
@@ -1113,6 +1113,10 @@ SelectorParseError
 UnexpectedIdent
 (
 ident
+.
+clone
+(
+)
 )
 .
 into
@@ -1339,6 +1343,7 @@ next
 {
 Ok
 (
+&
 Token
 :
 :

@@ -64,6 +64,10 @@ SelectorParseError
 UnexpectedIdent
 (
 __ident
+.
+clone
+(
+)
 )
 .
 into

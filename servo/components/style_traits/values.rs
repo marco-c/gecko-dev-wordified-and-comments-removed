@@ -2429,6 +2429,10 @@ Token
 Ident
 (
 ident
+.
+clone
+(
+)
 )
 )
 )
