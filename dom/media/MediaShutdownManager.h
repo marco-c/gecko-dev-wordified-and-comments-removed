@@ -153,6 +153,11 @@ mIsDoingXPCOMShutDown
 =
 false
 ;
+nsresult
+mError
+=
+NS_OK
+;
 }
 ;
 }
