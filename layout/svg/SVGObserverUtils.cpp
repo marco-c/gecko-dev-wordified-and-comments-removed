@@ -598,12 +598,12 @@ bool
 aReferenceImage
 )
 :
-mElement
+mObservedElementTracker
 (
 this
 )
 {
-mElement
+mObservedElementTracker
 .
 Reset
 (
@@ -641,7 +641,7 @@ DoUpdate
 {
 if
 (
-mElement
+mObservedElementTracker
 .
 get
 (
@@ -656,7 +656,7 @@ SVGObserverUtils
 :
 RemoveRenderingObserver
 (
-mElement
+mObservedElementTracker
 .
 get
 (
@@ -805,7 +805,7 @@ nsSVGFilterReference
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mElement
+mObservedElementTracker
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
@@ -821,7 +821,7 @@ StopListening
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mElement
+mObservedElementTracker
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
