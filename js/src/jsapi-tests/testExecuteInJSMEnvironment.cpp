@@ -182,6 +182,13 @@ __FILE__
 __LINE__
 )
 ;
+options
+.
+setNoScriptRval
+(
+true
+)
+;
 JS
 :
 :
@@ -690,6 +697,13 @@ setFileAndLine
 (
 __FILE__
 __LINE__
+)
+;
+options
+.
+setNoScriptRval
+(
+true
 )
 ;
 JS
