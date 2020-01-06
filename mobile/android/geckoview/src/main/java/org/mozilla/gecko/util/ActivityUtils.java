@@ -180,11 +180,14 @@ SYSTEM_UI_FLAG_VISIBLE
 }
 if
 (
-AppConstants
+Build
 .
-Versions
+VERSION
 .
-feature23Plus
+SDK_INT
+>
+=
+23
 )
 {
 final
