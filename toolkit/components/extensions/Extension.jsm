@@ -6287,6 +6287,16 @@ name
 }
 )
 promise
+.
+catch
+(
+(
+)
+=
+>
+{
+}
+)
 )
 ;
 let
