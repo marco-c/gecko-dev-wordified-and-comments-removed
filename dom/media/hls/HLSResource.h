@@ -359,7 +359,6 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
-override
 {
 NS_ASSERTION
 (

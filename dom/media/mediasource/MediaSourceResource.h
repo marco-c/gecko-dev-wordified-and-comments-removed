@@ -311,7 +311,6 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
-override
 {
 return
 RefPtr
