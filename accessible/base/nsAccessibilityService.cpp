@@ -7153,8 +7153,15 @@ SendGetA11yContentId
 )
 ;
 }
+gApplicationAccessible
+=
+new
+ApplicationAccessibleWrap
+(
+)
+;
 #
-endif
+else
 gApplicationAccessible
 =
 new
@@ -7162,6 +7169,8 @@ ApplicationAccessible
 (
 )
 ;
+#
+endif
 }
 NS_ADDREF
 (
