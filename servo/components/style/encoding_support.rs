@@ -429,6 +429,7 @@ string
 url_data
 stylesheet_loader
 error_reporter
+0
 )
 }
 }
