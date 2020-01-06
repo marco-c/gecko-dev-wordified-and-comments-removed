@@ -70,9 +70,7 @@ require
 "
 .
 /
-device
--
-adder
+DeviceAdder
 "
 )
 )

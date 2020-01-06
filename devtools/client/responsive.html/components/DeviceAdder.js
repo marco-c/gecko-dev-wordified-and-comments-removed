@@ -70,9 +70,9 @@ require
 "
 .
 /
-viewport
--
-dimension
+ViewportDimension
+.
+js
 "
 )
 )

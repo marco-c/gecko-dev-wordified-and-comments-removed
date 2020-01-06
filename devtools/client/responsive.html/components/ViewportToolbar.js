@@ -69,9 +69,7 @@ require
 "
 .
 /
-device
--
-selector
+DeviceSelector
 "
 )
 )

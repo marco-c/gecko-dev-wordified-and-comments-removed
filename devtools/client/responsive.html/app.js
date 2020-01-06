@@ -154,9 +154,7 @@ require
 /
 components
 /
-device
--
-modal
+DeviceModal
 "
 )
 )
@@ -173,9 +171,7 @@ require
 /
 components
 /
-global
--
-toolbar
+GlobalToolbar
 "
 )
 )
@@ -192,7 +188,7 @@ require
 /
 components
 /
-viewports
+Viewports
 "
 )
 )
