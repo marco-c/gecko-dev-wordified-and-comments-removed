@@ -236,7 +236,7 @@ os
 chmod
 (
 package
-0755
+0o0755
 )
     
 finally

@@ -571,6 +571,7 @@ CXX
 ]
     
 print
+(
 '
 MOZ_LIBSTDCXX_TARGET_VERSION
 =
@@ -581,6 +582,7 @@ s
 find_version
 (
 cxx_env
+)
 )
     
 host_cxx_env
@@ -598,6 +600,7 @@ cxx_env
 )
     
 print
+(
 '
 MOZ_LIBSTDCXX_HOST_VERSION
 =
@@ -608,4 +611,5 @@ s
 find_version
 (
 host_cxx_env
+)
 )

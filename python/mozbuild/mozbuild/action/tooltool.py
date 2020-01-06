@@ -2294,6 +2294,7 @@ file_records
 :
         
 print
+(
 "
 %
 s
@@ -2345,6 +2346,7 @@ else
 f
 .
 filename
+)
 )
     
 return
@@ -4456,7 +4458,7 @@ os
 makedirs
 (
 cache_folder
-0700
+0o0700
 )
                     
 shutil

@@ -236,6 +236,7 @@ assets
     
 except
 OSError
+as
 e
 :
         
