@@ -15,6 +15,17 @@ jpeglib
 .
 h
 "
+#
+define
+NEG_1
+(
+(
+unsigned
+int
+)
+-
+1
+)
 typedef
 struct
 {
@@ -1867,8 +1878,7 @@ Al
 m1
 =
 (
--
-1
+NEG_1
 )
 <
 <

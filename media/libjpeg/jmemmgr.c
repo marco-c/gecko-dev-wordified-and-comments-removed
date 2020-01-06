@@ -26,12 +26,17 @@ jmemsys
 h
 "
 #
+ifndef
+_WIN32
+#
 include
 <
 stdint
 .
 h
 >
+#
+endif
 #
 include
 <

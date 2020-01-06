@@ -23,7 +23,7 @@ C
 2011
 2014
 -
-2016
+2017
 D
 .
 R
@@ -3143,6 +3143,7 @@ index
 )
 ;
 jz
+near
 .
 ELOOP
 lea
@@ -3193,6 +3194,7 @@ r
 )
 {
 jl
+near
 .
 ERLOOP
 sub
@@ -3782,6 +3784,7 @@ index
 )
 ;
 jz
+near
 .
 ELOOP2
 shr
@@ -3838,6 +3841,7 @@ index
 )
 ;
 jz
+near
 .
 ELOOP2
 lea
@@ -3888,6 +3892,7 @@ r
 )
 {
 jl
+near
 .
 ERLOOP2
 sub
