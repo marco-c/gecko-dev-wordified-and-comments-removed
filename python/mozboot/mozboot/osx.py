@@ -2130,14 +2130,13 @@ printed
 False
         
 for
-name
 package
 in
 packages
 :
             
 if
-name
+package
 in
 installed
 :
@@ -2215,82 +2214,40 @@ packages
 =
 [
             
-(
 '
 python
 '
-'
-python
-'
-)
             
-(
 '
 mercurial
 '
-'
-mercurial
-'
-)
             
-(
 '
 git
 '
-'
-git
-'
-)
             
-(
 '
 autoconf
 2
 .
 13
 '
-'
-autoconf
-2
-.
-13
-'
-)
             
-(
 '
 gnu
 -
 tar
 '
-'
-gnu
--
-tar
-'
-)
             
-(
 '
 watchman
 '
-'
-watchman
-'
-)
             
-(
 '
 terminal
 -
 notifier
 '
-'
-terminal
--
-notifier
-'
-)
         
 ]
         
@@ -2315,23 +2272,13 @@ packages
 =
 [
             
-(
 '
-yasm
+llvm
 '
-'
-yasm
-'
-)
             
-(
 '
-llvm
+yasm
 '
-'
-llvm
-'
-)
         
 ]
         
@@ -2356,31 +2303,9 @@ packages
 =
 [
             
-(
-'
-brew
--
-cask
-'
-'
-caskroom
-/
-cask
-/
-brew
--
-cask
-'
-)
-            
-(
 '
 wget
 '
-'
-wget
-'
-)
         
 ]
         
@@ -2395,14 +2320,9 @@ casks
 =
 [
             
-(
 '
 java
 '
-'
-java
-'
-)
         
 ]
         
