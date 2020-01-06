@@ -75,9 +75,7 @@ this
 new
 WebMDemuxer
 (
-GetResource
-(
-)
+mResource
 )
 GetVideoFrameContainer
 (

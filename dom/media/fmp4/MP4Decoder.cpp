@@ -150,9 +150,7 @@ this
 new
 MP4Demuxer
 (
-GetResource
-(
-)
+mResource
 )
 GetVideoFrameContainer
 (

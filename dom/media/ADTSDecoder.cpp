@@ -95,9 +95,7 @@ this
 new
 ADTSDemuxer
 (
-GetResource
-(
-)
+mResource
 )
 )
 ;
