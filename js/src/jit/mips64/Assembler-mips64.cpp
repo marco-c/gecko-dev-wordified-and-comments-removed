@@ -671,8 +671,6 @@ uint8_t
 buffer
 bool
 flushICache
-=
-true
 )
 {
 MOZ_ASSERT
