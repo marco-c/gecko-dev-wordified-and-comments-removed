@@ -336,8 +336,6 @@ h
 undef
 FRAME_ID
 NON_FRAME_MARKER
-=
-0x20000000
 }
 ;
 virtual
