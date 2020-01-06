@@ -486,17 +486,6 @@ enabled
 "
 false
 )
-&
-&
-this
-.
-payload
-.
-hangs
-.
-length
->
-0
 )
 {
 this
