@@ -876,17 +876,6 @@ parse_selectors
 [
 "
 #
-foo1
-"
-"
-#
-foo2
-:
-:
-before
-"
-"
-#
 foo3
 >
 span
