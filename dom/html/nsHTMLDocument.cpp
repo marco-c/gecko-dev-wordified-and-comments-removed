@@ -11085,9 +11085,6 @@ nsHTMLDocument
 :
 TearingDownEditor
 (
-nsIEditor
-*
-aEditor
 )
 {
 if

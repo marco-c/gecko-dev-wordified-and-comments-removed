@@ -106,9 +106,6 @@ BindingDeclarations
 h
 "
 class
-nsIEditor
-;
-class
 nsIURI
 ;
 class
@@ -409,9 +406,6 @@ virtual
 void
 TearingDownEditor
 (
-nsIEditor
-*
-aEditor
 )
 override
 ;

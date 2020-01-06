@@ -22,9 +22,6 @@ class
 nsIContent
 ;
 class
-nsIEditor
-;
-class
 nsContentList
 ;
 #
@@ -202,9 +199,6 @@ virtual
 void
 TearingDownEditor
 (
-nsIEditor
-*
-aEditor
 )
 =
 0
