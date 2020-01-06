@@ -128,11 +128,12 @@ VsyncBridgeParent
 ;
 mCompositorThreadRef
 =
-CompositorThreadHolder
-:
-:
-GetSingleton
+new
+CompositorThreadHolderDebug
 (
+"
+VsyncBridge
+"
 )
 ;
 }
