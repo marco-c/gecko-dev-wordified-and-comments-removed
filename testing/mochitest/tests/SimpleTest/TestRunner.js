@@ -386,9 +386,7 @@ TestRunner
 .
 timeout
 =
-5
-*
-60
+300
 *
 1000
 ;

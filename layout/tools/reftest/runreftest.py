@@ -5631,7 +5631,7 @@ options
 .
 timeout
 +
-30
+70
 .
 0
                                                  
