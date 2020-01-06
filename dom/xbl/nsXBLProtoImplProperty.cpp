@@ -1062,7 +1062,7 @@ GetLineNumber
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 nsCString
@@ -1297,7 +1297,7 @@ GetLineNumber
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 nsCString

@@ -3359,7 +3359,7 @@ true
 uint32_t
 version
 =
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 ;
 nsresult
 rv
@@ -3490,7 +3490,7 @@ true
 ;
 version
 =
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 ;
 nsAutoString
 versionName
@@ -3517,13 +3517,7 @@ rv
 {
 version
 =
-nsContentUtils
-:
-:
-ParseJavascriptVersion
-(
-versionName
-)
+JSVERSION_UNKNOWN
 ;
 }
 else
