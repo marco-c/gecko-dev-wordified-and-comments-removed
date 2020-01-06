@@ -229,6 +229,7 @@ widget
 .
 ListView
 ;
+public
 class
 PinSiteDialog
 extends
