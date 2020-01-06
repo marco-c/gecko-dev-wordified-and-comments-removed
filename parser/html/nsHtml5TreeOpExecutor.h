@@ -691,6 +691,10 @@ aCrossOrigin
 const
 nsAString
 &
+aReferrerPolicy
+const
+nsAString
+&
 aIntegrity
 )
 ;
