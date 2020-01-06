@@ -74,9 +74,6 @@ InternalError
 Intl
 "
 "
-Iterator
-"
-"
 JSON
 "
 "
