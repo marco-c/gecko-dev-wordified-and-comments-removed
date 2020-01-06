@@ -132,11 +132,6 @@ nsISAXErrorHandler
 idl
 '
 '
-nsISAXLocator
-.
-idl
-'
-'
 nsISAXXMLReader
 .
 idl
@@ -157,11 +152,6 @@ nsSAXAttributes
 h
 '
 '
-nsSAXLocator
-.
-h
-'
-'
 nsSAXXMLReader
 .
 h
@@ -173,11 +163,6 @@ UNIFIED_SOURCES
 [
 '
 nsSAXAttributes
-.
-cpp
-'
-'
-nsSAXLocator
 .
 cpp
 '

@@ -337,12 +337,6 @@ nsString
 aQName
 )
 ;
-nsString
-mPublicId
-;
-nsString
-mSystemId
-;
 }
 ;
 #

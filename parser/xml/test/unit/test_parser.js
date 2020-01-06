@@ -377,7 +377,6 @@ error
 function
 error
 (
-aLocator
 aError
 )
 {
@@ -397,7 +396,6 @@ fatalError
 function
 fatalError
 (
-aLocator
 aError
 )
 {
@@ -418,7 +416,6 @@ ignorableWarning
 function
 ignorableWarning
 (
-aLocator
 aError
 )
 {
