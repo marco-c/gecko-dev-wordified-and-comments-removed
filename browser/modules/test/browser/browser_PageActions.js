@@ -83,9 +83,7 @@ browser
 /
 skin
 /
-email
--
-link
+mail
 .
 svg
 "
@@ -1900,9 +1898,7 @@ browser
 /
 skin
 /
-email
--
-link
+mail
 .
 svg
 "
@@ -2786,9 +2782,7 @@ browser
 /
 skin
 /
-email
--
-link
+mail
 .
 svg
 "
