@@ -132,6 +132,8 @@ SubmitFrame
 (
 PTexture
 aTexture
+uint64_t
+aFrameId
 )
 ;
 async

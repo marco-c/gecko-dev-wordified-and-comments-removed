@@ -188,6 +188,8 @@ VRLayerChild
 :
 SubmitFrame
 (
+uint64_t
+aFrameId
 )
 {
 if
@@ -325,6 +327,7 @@ mFront
 GetIPDLActor
 (
 )
+aFrameId
 )
 ;
 }

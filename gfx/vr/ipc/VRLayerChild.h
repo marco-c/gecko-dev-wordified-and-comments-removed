@@ -120,6 +120,8 @@ aCanvasElement
 void
 SubmitFrame
 (
+uint64_t
+aFrameId
 )
 ;
 bool
