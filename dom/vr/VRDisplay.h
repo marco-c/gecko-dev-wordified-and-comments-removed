@@ -453,7 +453,7 @@ nsISupports
 aParent
 )
 ;
-uint32_t
+uint64_t
 FrameID
 (
 )
@@ -622,7 +622,7 @@ VRPose
 (
 )
 ;
-uint32_t
+uint64_t
 mFrameId
 ;
 gfx
@@ -1344,7 +1344,7 @@ aRv
 void
 Update
 (
-uint32_t
+uint64_t
 aFrameNum
 const
 nsACString
@@ -1414,7 +1414,7 @@ mParent
 nsString
 mBase64Image
 ;
-uint32_t
+uint64_t
 mFrameNum
 ;
 }

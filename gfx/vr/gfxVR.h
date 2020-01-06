@@ -457,7 +457,7 @@ Clear
 )
 ;
 }
-int32_t
+int64_t
 inputFrameID
 ;
 double
@@ -768,7 +768,7 @@ return
 mSittingToStandingTransform
 ;
 }
-uint32_t
+uint64_t
 GetFrameId
 (
 )
@@ -837,7 +837,7 @@ mStageSize
 Matrix4x4
 mSittingToStandingTransform
 ;
-uint32_t
+uint64_t
 mFrameId
 ;
 VRHMDSensorState
@@ -1117,7 +1117,7 @@ mBase64Image
 SurfaceFormat
 mFormat
 ;
-uint32_t
+uint64_t
 mFrameNum
 ;
 uint32_t
