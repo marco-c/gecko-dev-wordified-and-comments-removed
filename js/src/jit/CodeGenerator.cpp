@@ -32585,7 +32585,7 @@ bool
 convertDoubleElements
 )
 {
-JSObject
+ArrayObject
 *
 res
 =
@@ -32611,13 +32611,6 @@ convertDoubleElements
 res
 -
 >
-as
-<
-ArrayObject
->
-(
-)
-.
 setShouldConvertDoubleElements
 (
 )
@@ -33598,7 +33591,7 @@ rejoin
 ;
 }
 typedef
-JSObject
+ArrayObject
 *
 (
 *
@@ -50648,7 +50641,7 @@ double
 ;
 }
 typedef
-JSObject
+ArrayObject
 *
 (
 *

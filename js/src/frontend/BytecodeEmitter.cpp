@@ -29275,7 +29275,7 @@ idx
 count
 )
 ;
-JSObject
+ArrayObject
 *
 obj
 =

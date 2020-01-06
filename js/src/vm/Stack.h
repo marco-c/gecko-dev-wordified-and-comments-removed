@@ -1906,7 +1906,7 @@ ArgumentsObject
 argsobj
 )
 ;
-JSObject
+ArrayObject
 *
 createRestParameter
 (

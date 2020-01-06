@@ -9364,7 +9364,7 @@ emit_JSOP_NEWARRAY
 ;
 }
 typedef
-JSObject
+ArrayObject
 *
 (
 *
@@ -20472,7 +20472,7 @@ syncStack
 0
 )
 ;
-JSObject
+ArrayObject
 *
 templateObject
 =
@@ -20509,16 +20509,7 @@ Compiler
 compiler
 (
 cx
-&
 templateObject
--
->
-as
-<
-ArrayObject
->
-(
-)
 )
 ;
 if

@@ -13598,7 +13598,7 @@ length
 (
 )
 ;
-JSObject
+ArrayObject
 *
 nobj
 =
@@ -26300,7 +26300,7 @@ argv
 +
 numFormals
 ;
-JSObject
+ArrayObject
 *
 obj
 =

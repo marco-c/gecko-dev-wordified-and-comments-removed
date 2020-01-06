@@ -426,7 +426,7 @@ isNonGlobal
 )
 ;
 }
-JSObject
+ArrayObject
 *
 InterpreterFrame
 :

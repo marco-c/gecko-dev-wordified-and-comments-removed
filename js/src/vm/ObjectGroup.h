@@ -1650,7 +1650,7 @@ UnknownIndex
 }
 ;
 static
-JSObject
+ArrayObject
 *
 newArrayObject
 (
