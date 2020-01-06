@@ -257,6 +257,8 @@ ExtensionPreferencesManager
 disableAll
 (
 extension
+.
+id
 )
 ;
 break
@@ -273,6 +275,8 @@ ExtensionPreferencesManager
 removeAll
 (
 extension
+.
+id
 )
 ;
 break
@@ -328,6 +332,8 @@ ExtensionPreferencesManager
 enableAll
 (
 extension
+.
+id
 )
 ;
 if
@@ -493,7 +499,7 @@ async
 function
 processSetting
 (
-extension
+id
 name
 action
 )
@@ -524,7 +530,7 @@ ExtensionSettingsStore
 action
 ]
 (
-extension
+id
 STORE_TYPE
 name
 )
@@ -651,7 +657,7 @@ prefName
 async
 setSetting
 (
-extension
+id
 name
 value
 )
@@ -681,7 +687,7 @@ ExtensionSettingsStore
 .
 addSetting
 (
-extension
+id
 STORE_TYPE
 name
 value
@@ -714,14 +720,14 @@ false
 }
 disableSetting
 (
-extension
+id
 name
 )
 {
 return
 processSetting
 (
-extension
+id
 name
 "
 disable
@@ -731,14 +737,14 @@ disable
 }
 enableSetting
 (
-extension
+id
 name
 )
 {
 return
 processSetting
 (
-extension
+id
 name
 "
 enable
@@ -748,14 +754,14 @@ enable
 }
 removeSetting
 (
-extension
+id
 name
 )
 {
 return
 processSetting
 (
-extension
+id
 name
 "
 removeSetting
@@ -766,7 +772,7 @@ removeSetting
 async
 disableAll
 (
-extension
+id
 )
 {
 await
@@ -783,7 +789,7 @@ ExtensionSettingsStore
 .
 getAllForExtension
 (
-extension
+id
 STORE_TYPE
 )
 ;
@@ -809,7 +815,7 @@ this
 .
 disableSetting
 (
-extension
+id
 name
 )
 )
@@ -827,7 +833,7 @@ disablePromises
 async
 enableAll
 (
-extension
+id
 )
 {
 await
@@ -844,7 +850,7 @@ ExtensionSettingsStore
 .
 getAllForExtension
 (
-extension
+id
 STORE_TYPE
 )
 ;
@@ -870,7 +876,7 @@ this
 .
 enableSetting
 (
-extension
+id
 name
 )
 )
@@ -888,7 +894,7 @@ enablePromises
 async
 removeAll
 (
-extension
+id
 )
 {
 await
@@ -905,7 +911,7 @@ ExtensionSettingsStore
 .
 getAllForExtension
 (
-extension
+id
 STORE_TYPE
 )
 ;
@@ -931,7 +937,7 @@ this
 .
 removeSetting
 (
-extension
+id
 name
 )
 )
@@ -972,7 +978,7 @@ name
 async
 getLevelOfControl
 (
-extension
+id
 name
 storeType
 =
@@ -1050,7 +1056,7 @@ ExtensionSettingsStore
 .
 getLevelOfControl
 (
-extension
+id
 storeType
 name
 )

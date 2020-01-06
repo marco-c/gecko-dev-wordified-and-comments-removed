@@ -247,6 +247,8 @@ ExtensionSettingsStore
 removeSetting
 (
 extension
+.
+id
 DEFAULT_SEARCH_STORE_TYPE
 DEFAULT_SEARCH_SETTING_NAME
 )
@@ -262,6 +264,8 @@ action
 ]
 (
 extension
+.
+id
 DEFAULT_SEARCH_STORE_TYPE
 DEFAULT_SEARCH_SETTING_NAME
 )
@@ -365,6 +369,8 @@ ExtensionPreferencesManager
 setSetting
 (
 extension
+.
+id
 "
 homepage_override
 "
@@ -744,6 +750,8 @@ ExtensionSettingsStore
 hasSetting
 (
 extension
+.
+id
 DEFAULT_SEARCH_STORE_TYPE
 DEFAULT_SEARCH_SETTING_NAME
 )
@@ -796,6 +804,8 @@ ExtensionSettingsStore
 addSetting
 (
 extension
+.
+id
 DEFAULT_SEARCH_STORE_TYPE
 DEFAULT_SEARCH_SETTING_NAME
 engineName

@@ -95,6 +95,8 @@ action
 ]
 (
 extension
+.
+id
 STORE_TYPE
 NEW_TAB_SETTING_NAME
 )
@@ -246,6 +248,8 @@ ExtensionSettingsStore
 addSetting
 (
 extension
+.
+id
 STORE_TYPE
 NEW_TAB_SETTING_NAME
 url
@@ -287,6 +291,8 @@ ExtensionSettingsStore
 enable
 (
 extension
+.
+id
 STORE_TYPE
 NEW_TAB_SETTING_NAME
 )

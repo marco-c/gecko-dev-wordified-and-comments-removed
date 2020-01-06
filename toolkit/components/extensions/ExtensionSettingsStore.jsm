@@ -540,7 +540,7 @@ installDate
 function
 alterSetting
 (
-extension
+id
 type
 key
 action
@@ -613,13 +613,6 @@ exist
 )
 ;
 }
-let
-id
-=
-extension
-.
-id
-;
 let
 foundIndex
 =
@@ -885,7 +878,7 @@ initialize
 async
 addSetting
 (
-extension
+id
 type
 key
 value
@@ -921,13 +914,6 @@ function
 )
 ;
 }
-let
-id
-=
-extension
-.
-id
-;
 ensureType
 (
 type
@@ -1112,7 +1098,7 @@ null
 }
 removeSetting
 (
-extension
+id
 type
 key
 )
@@ -1120,7 +1106,7 @@ key
 return
 alterSetting
 (
-extension
+id
 type
 key
 "
@@ -1131,7 +1117,7 @@ remove
 }
 enable
 (
-extension
+id
 type
 key
 )
@@ -1139,7 +1125,7 @@ key
 return
 alterSetting
 (
-extension
+id
 type
 key
 "
@@ -1150,7 +1136,7 @@ enable
 }
 disable
 (
-extension
+id
 type
 key
 )
@@ -1158,7 +1144,7 @@ key
 return
 alterSetting
 (
-extension
+id
 type
 key
 "
@@ -1235,7 +1221,7 @@ saveSoon
 }
 getAllForExtension
 (
-extension
+id
 type
 )
 {
@@ -1287,8 +1273,6 @@ item
 id
 =
 =
-extension
-.
 id
 )
 )
@@ -1322,7 +1306,7 @@ key
 }
 hasSetting
 (
-extension
+id
 type
 key
 )
@@ -1332,7 +1316,7 @@ this
 .
 getAllForExtension
 (
-extension
+id
 type
 )
 .
@@ -1345,7 +1329,7 @@ key
 async
 getLevelOfControl
 (
-extension
+id
 type
 key
 )
@@ -1388,13 +1372,6 @@ controllable_by_this_extension
 "
 ;
 }
-let
-id
-=
-extension
-.
-id
-;
 let
 enabledItems
 =

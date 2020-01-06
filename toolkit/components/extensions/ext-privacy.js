@@ -130,6 +130,8 @@ ExtensionPreferencesManager
 getLevelOfControl
 (
 extension
+.
+id
 name
 )
 value
@@ -159,6 +161,8 @@ ExtensionPreferencesManager
 setSetting
 (
 extension
+.
+id
 name
 details
 .
@@ -184,6 +188,8 @@ ExtensionPreferencesManager
 removeSetting
 (
 extension
+.
+id
 name
 )
 ;
