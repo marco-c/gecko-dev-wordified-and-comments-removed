@@ -196,6 +196,8 @@ MOCHITEST_MANIFESTS
 test
 /
 mochitest
+/
+mochitest
 .
 ini
 '
