@@ -103,9 +103,9 @@ AppConstants
 .
 DEBUG
 ?
-2000
+4000
 :
-500
+800
 ;
 let
 nsTimer
