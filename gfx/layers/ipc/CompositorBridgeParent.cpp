@@ -5759,9 +5759,9 @@ CompositorBridgeParent
 FlushApzRepaints
 (
 const
-LayerTransactionParent
-*
-aLayerTree
+uint64_t
+&
+aLayersId
 )
 {
 MOZ_ASSERT
@@ -5772,12 +5772,7 @@ mApzcTreeManager
 uint64_t
 layersId
 =
-aLayerTree
--
->
-GetId
-(
-)
+aLayersId
 ;
 if
 (
