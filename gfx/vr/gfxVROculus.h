@@ -112,6 +112,10 @@ NS_INLINE_DECL_REFCOUNTING
 VROculusSession
 )
 ;
+friend
+class
+VRDisplayOculus
+;
 public
 :
 VROculusSession
@@ -207,9 +211,6 @@ CompositingRenderTargetD3D11
 >
 mRenderTargets
 ;
-bool
-mPresenting
-;
 IntSize
 mPresentationSize
 ;
@@ -225,8 +226,11 @@ mLastShouldQuit
 TimeStamp
 mLastPresentationEnd
 ;
-TimeStamp
-mPresentationStart
+VRTelemetry
+mTelemetry
+;
+bool
+mPresenting
 ;
 ~
 VROculusSession
