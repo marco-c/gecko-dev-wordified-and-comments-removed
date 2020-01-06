@@ -2001,7 +2001,7 @@ APZTouchMoveTolerance
 float
 0
 .
-1
+0
 )
 ;
 DECL_GFX_PREF
