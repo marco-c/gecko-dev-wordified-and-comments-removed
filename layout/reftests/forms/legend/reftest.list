@@ -25,15 +25,6 @@ webcomponents
 enabled
 true
 )
-skip
--
-if
-(
-stylo
-|
-|
-styloVsGecko
-)
 =
 =
 shadow
@@ -48,11 +39,6 @@ dom
 ref
 .
 html
-#
-stylo
-:
-bug
-1409086
 =
 =
 1273433
