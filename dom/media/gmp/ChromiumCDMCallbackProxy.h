@@ -79,6 +79,16 @@ aSuccessful
 override
 ;
 void
+ResolvePromiseWithKeyStatus
+(
+uint32_t
+aPromiseId
+uint32_t
+aKeyStatus
+)
+override
+;
+void
 ResolvePromise
 (
 uint32_t
