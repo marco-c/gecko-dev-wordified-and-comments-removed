@@ -2179,9 +2179,6 @@ box
 ;
 }
 }
-%
-ifndef
-MOZ_PHOTON_THEME
 #
 main
 -
@@ -2207,8 +2204,6 @@ right
 1px
 ;
 }
-%
-endif
 #
 appcontent
 :

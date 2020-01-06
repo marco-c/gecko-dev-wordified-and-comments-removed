@@ -103,14 +103,6 @@ jar
 mn
 '
 ]
-DEFINES
-[
-'
-MENUBAR_CAN_AUTOHIDE
-'
-]
-=
-1
 include
 (
 '

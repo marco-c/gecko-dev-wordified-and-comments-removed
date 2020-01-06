@@ -157,9 +157,6 @@ color
 )
 ;
 }
-%
-ifndef
-MOZ_PHOTON_THEME
 #
 main
 -
@@ -219,8 +216,6 @@ top
 6px
 ;
 }
-%
-endif
 #
 identity
 -

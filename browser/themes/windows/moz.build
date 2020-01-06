@@ -111,14 +111,6 @@ CAN_DRAW_IN_TITLEBAR
 ]
 =
 1
-DEFINES
-[
-'
-MENUBAR_CAN_AUTOHIDE
-'
-]
-=
-1
 include
 (
 '
