@@ -169,7 +169,6 @@ ca_usages
 =
 [
 certificateUsageSSLCA
-certificateUsageVerifyCA
 ]
 ;
 let

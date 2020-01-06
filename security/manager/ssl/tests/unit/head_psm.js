@@ -682,16 +682,6 @@ certificateUsageObjectSigner
 0x0040
 ;
 const
-certificateUsageVerifyCA
-=
-0x0100
-;
-const
-certificateUsageStatusResponder
-=
-0x0400
-;
-const
 allCertificateUsages
 =
 {
@@ -701,8 +691,6 @@ certificateUsageSSLCA
 certificateUsageEmailSigner
 certificateUsageEmailRecipient
 certificateUsageObjectSigner
-certificateUsageVerifyCA
-certificateUsageStatusResponder
 }
 ;
 const

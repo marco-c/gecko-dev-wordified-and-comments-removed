@@ -2861,8 +2861,6 @@ certificateUsageEmailSigner
 certificateUsageEmailRecipient
 |
 certificateUsageObjectSigner
-|
-certificateUsageStatusResponder
 ;
 for
 (

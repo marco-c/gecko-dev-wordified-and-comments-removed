@@ -104,7 +104,6 @@ caUsage
 =
 [
 certificateUsageSSLCA
-certificateUsageVerifyCA
 ]
 ;
 const
