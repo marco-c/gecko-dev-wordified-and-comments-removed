@@ -219,11 +219,6 @@ AndroidContentController
 cpp
 '
 '
-AndroidJNI
-.
-cpp
-'
-'
 AndroidUiThread
 .
 cpp
