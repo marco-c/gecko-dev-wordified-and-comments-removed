@@ -194,7 +194,7 @@ PropTypes
 shape
 (
 {
-hudProxyClient
+hudProxy
 :
 PropTypes
 .
@@ -265,7 +265,9 @@ ObjectClient
 (
 serviceContainer
 .
-hudProxyClient
+hudProxy
+.
+client
 parameters
 [
 0
