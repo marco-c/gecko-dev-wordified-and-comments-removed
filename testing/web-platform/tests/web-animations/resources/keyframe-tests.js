@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 gGoodKeyframeCompositeValueTests
 =
 [
@@ -19,7 +19,7 @@ accumulate
 undefined
 ]
 ;
-var
+const
 gGoodOptionsCompositeValueTests
 =
 [
@@ -34,7 +34,7 @@ accumulate
 "
 ]
 ;
-var
+const
 gBadCompositeValueTests
 =
 [
@@ -50,7 +50,7 @@ Replace
 null
 ]
 ;
-var
+const
 gEmptyKeyframeListTests
 =
 [
@@ -60,7 +60,7 @@ null
 undefined
 ]
 ;
-var
+const
 gPropertyIndexedKeyframesTests
 =
 [
@@ -1265,7 +1265,7 @@ linear
 }
 ]
 ;
-var
+const
 gKeyframeSequenceTests
 =
 [
@@ -4838,7 +4838,7 @@ left
 }
 ]
 ;
-var
+const
 gInvalidKeyframesTests
 =
 [
@@ -5108,7 +5108,7 @@ TypeError
 }
 ]
 ;
-var
+const
 gKeyframeEffectOptionTests
 =
 [
@@ -5360,7 +5360,7 @@ forwards
 }
 ]
 ;
-var
+const
 gInvalidKeyframeEffectOptionTests
 =
 [
