@@ -90,6 +90,9 @@ def
 keyfile
 (
 desc
+default
+=
+None
 help
 =
 None
@@ -174,6 +177,9 @@ name
 nargs
 =
 1
+default
+=
+default
 help
 =
 help
@@ -337,6 +343,9 @@ def
 simple_keyfile
 (
 desc
+default
+=
+None
 )
 :
 value
@@ -344,6 +353,9 @@ value
 keyfile
 (
 desc
+default
+=
+default
 )
 set_config
 (
@@ -374,6 +386,9 @@ def
 id_and_secret_keyfile
 (
 desc
+default
+=
+None
 )
 :
 def
@@ -493,6 +508,9 @@ requests
 '
 %
 desc
+default
+=
+default
 callback
 =
 id_and_secret
