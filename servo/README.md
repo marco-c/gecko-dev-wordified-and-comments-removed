@@ -526,6 +526,9 @@ freeglut3
 -
 dev
 autoconf
+libx11
+-
+dev
 \
 libfreetype6
 -
