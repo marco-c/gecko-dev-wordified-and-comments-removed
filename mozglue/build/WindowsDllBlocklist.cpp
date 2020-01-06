@@ -1007,7 +1007,13 @@ klsihk64
 .
 dll
 "
-ALL_VERSIONS
+MAKE_VERSION
+(
+14
+0
+456
+0xffff
+)
 DllBlockInfo
 :
 :
