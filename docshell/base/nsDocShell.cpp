@@ -342,6 +342,13 @@ h
 #
 include
 "
+nsContentDLF
+.
+h
+"
+#
+include
+"
 nsDocShellCID
 .
 h
@@ -33088,9 +33095,9 @@ principal
 aPrincipal
 ;
 }
-docFactory
--
->
+nsContentDLF
+:
+:
 CreateBlankDocument
 (
 mLoadGroup
