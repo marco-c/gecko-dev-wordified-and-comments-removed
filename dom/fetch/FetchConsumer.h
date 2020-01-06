@@ -37,14 +37,14 @@ class
 Derived
 >
 class
-FetchBodyWrapper
+FetchBodyConsumer
 final
 {
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-FetchBodyWrapper
+FetchBodyConsumer
 <
 Derived
 >
@@ -52,7 +52,7 @@ Derived
 static
 already_AddRefed
 <
-FetchBodyWrapper
+FetchBodyConsumer
 <
 Derived
 >
@@ -89,7 +89,7 @@ mBody
 private
 :
 explicit
-FetchBodyWrapper
+FetchBodyConsumer
 (
 FetchBody
 <
@@ -100,7 +100,7 @@ aBody
 )
 ;
 ~
-FetchBodyWrapper
+FetchBodyConsumer
 (
 )
 ;
