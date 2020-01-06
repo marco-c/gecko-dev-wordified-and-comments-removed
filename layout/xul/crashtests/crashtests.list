@@ -511,15 +511,6 @@ Android
 -
 1
 )
-asserts
--
-if
-(
-stylo
-0
--
-1
-)
 load
 464407
 -
@@ -535,10 +526,6 @@ Bug
 1267054
 on
 Android
-bug
-718883
-for
-stylo
 load
 467080
 .
