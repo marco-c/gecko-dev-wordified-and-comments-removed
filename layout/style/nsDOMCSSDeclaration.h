@@ -393,6 +393,7 @@ define
 CSS_PROP_ALIAS
 (
 aliasname_
+aliasid_
 propid_
 aliasmethod_
 pref_

@@ -223,6 +223,7 @@ define
 CSS_PROP_ALIAS
 (
 name_
+aliasid_
 id_
 method_
 pref_
@@ -289,6 +290,7 @@ define
 CSS_PROP_ALIAS
 (
 name_
+aliasid_
 id_
 method_
 pref_
