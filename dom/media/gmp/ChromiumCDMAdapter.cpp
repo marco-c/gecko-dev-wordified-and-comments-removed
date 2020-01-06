@@ -264,7 +264,7 @@ void
 aUserData
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 ChromiumCdmHostFunc
@@ -392,7 +392,7 @@ GMPPlatformAPI
 aPlatformAPI
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 ChromiumCDMAdapter
@@ -545,7 +545,7 @@ return
 GMPGenericErr
 ;
 }
-CDM_LOG
+GMP_LOG
 (
 STRINGIFY
 (
@@ -586,7 +586,7 @@ uint32_t
 aDecryptorId
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 ChromiumCDMAdapter
@@ -657,7 +657,7 @@ if
 create
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 ChromiumCDMAdapter
@@ -742,7 +742,7 @@ if
 cdm
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 ChromiumCDMAdapter
@@ -784,7 +784,7 @@ return
 GMPGenericErr
 ;
 }
-CDM_LOG
+GMP_LOG
 (
 "
 cdm
@@ -819,7 +819,7 @@ GMPShutdown
 (
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 ChromiumCDMAdapter
@@ -863,7 +863,7 @@ if
 deinit
 )
 {
-CDM_LOG
+GMP_LOG
 (
 "
 DeinitializeCdmModule
