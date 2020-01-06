@@ -3159,6 +3159,11 @@ IsWin8OrLater
 HasBogusPopupsDropShadowOnMultiMonitor
 (
 )
+&
+&
+ShouldUseOffMainThreadCompositing
+(
+)
 )
 {
 extendedStyle
