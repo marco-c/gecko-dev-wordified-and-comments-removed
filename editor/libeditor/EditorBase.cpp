@@ -10875,7 +10875,11 @@ Collapse
 (
 &
 aCharData
-length
+aString
+.
+Length
+(
+)
 )
 ;
 NS_ASSERTION
