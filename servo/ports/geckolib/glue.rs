@@ -4115,6 +4115,7 @@ property
 &
 mut
 string
+None
 )
 ;
 debug_assert
@@ -13649,6 +13650,9 @@ buffer
 *
 mut
 nsAString
+computed_values
+:
+ServoStyleContextBorrowedOrNull
 )
 {
 let
@@ -13695,6 +13699,7 @@ property_id
 &
 mut
 string
+computed_values
 )
 ;
 debug_assert
