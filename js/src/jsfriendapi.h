@@ -4313,6 +4313,10 @@ limit
 int
 stackDummy
 ;
+JS_STACK_OOM_POSSIBLY_FAIL_REPORT
+(
+)
+;
 if
 (
 !
@@ -4351,6 +4355,10 @@ limit
 int
 stackDummy
 ;
+JS_STACK_OOM_POSSIBLY_FAIL
+(
+)
+;
 return
 JS_CHECK_STACK_SIZE
 (
@@ -4369,6 +4377,10 @@ JSContext
 cx
 )
 {
+JS_STACK_OOM_POSSIBLY_FAIL_REPORT
+(
+)
+;
 uintptr_t
 untrustedLimit
 =
@@ -4438,6 +4450,10 @@ void
 sp
 )
 {
+JS_STACK_OOM_POSSIBLY_FAIL
+(
+)
+;
 return
 JS_CHECK_STACK_SIZE
 (
@@ -4461,6 +4477,10 @@ void
 sp
 )
 {
+JS_STACK_OOM_POSSIBLY_FAIL_REPORT
+(
+)
+;
 if
 (
 !
