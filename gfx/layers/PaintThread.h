@@ -284,6 +284,11 @@ IsOnPaintThread
 )
 ;
 void
+BeginLayerTransaction
+(
+)
+;
+void
 PaintContents
 (
 CapturedPaintState
@@ -318,6 +323,10 @@ AddRef
 ;
 private
 :
+PaintThread
+(
+)
+;
 bool
 Init
 (
@@ -379,6 +388,9 @@ sThread
 static
 PlatformThreadId
 sThreadId
+;
+bool
+mInAsyncPaintGroup
 ;
 nsTArray
 <
