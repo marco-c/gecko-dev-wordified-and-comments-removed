@@ -74,6 +74,10 @@ Long
 Full
 }
 ;
+OSPreferences
+(
+)
+;
 static
 OSPreferences
 *
@@ -167,8 +171,6 @@ virtual
 OSPreferences
 (
 )
-{
-}
 ;
 static
 StaticRefPtr
