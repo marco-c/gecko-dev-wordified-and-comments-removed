@@ -53,7 +53,7 @@ endif
 #
 include
 "
-nsIThread
+nsThreadUtils
 .
 h
 "
