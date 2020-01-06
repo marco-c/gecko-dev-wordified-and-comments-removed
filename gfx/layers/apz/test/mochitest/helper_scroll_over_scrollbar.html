@@ -168,11 +168,14 @@ clientWidth
 2
 ;
 yield
-moveMouseAndScrollWheelOver
+synthesizeNativeWheelAndWaitForScrollEvent
 (
 subframe
 scrollbarX
 100
+0
+-
+10
 testDriver
 )
 ;
