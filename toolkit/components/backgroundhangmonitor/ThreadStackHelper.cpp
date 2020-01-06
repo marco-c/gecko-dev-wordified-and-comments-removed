@@ -540,9 +540,6 @@ aNativeStack
 >
 reserve
 (
-Telemetry
-:
-:
 HangStack
 :
 :
