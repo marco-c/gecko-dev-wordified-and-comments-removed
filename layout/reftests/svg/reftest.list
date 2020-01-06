@@ -4813,15 +4813,6 @@ skiaContent
 1
 6400
 )
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 mask
