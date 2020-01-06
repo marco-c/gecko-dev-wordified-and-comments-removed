@@ -105,7 +105,7 @@ DEBUG
 ?
 2000
 :
-200
+500
 ;
 let
 nsTimer
