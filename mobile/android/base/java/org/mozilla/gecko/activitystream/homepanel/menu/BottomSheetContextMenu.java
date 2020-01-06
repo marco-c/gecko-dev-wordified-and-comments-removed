@@ -527,10 +527,6 @@ null
 :
 item
 .
-getMetadataSlow
-(
-)
-.
 getImageUrl
 (
 )

@@ -44,8 +44,8 @@ getUrl
 )
 ;
 NonNull
-Metadata
-getMetadataSlow
+String
+getImageUrl
 (
 )
 ;
