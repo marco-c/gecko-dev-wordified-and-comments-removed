@@ -15,7 +15,7 @@ fixtures
 import
 clear_all_cookies
 def
-test_get_named_session_cookie
+test_get_named_cookie
 (
 session
 url
@@ -242,16 +242,19 @@ in
 cookie
     
 assert
-cookie
-.
-get
+isinstance
 (
+cookie
+[
 "
 expiry
 "
+]
+(
+int
+long
 )
-is
-None
+)
     
 assert
 cookie
