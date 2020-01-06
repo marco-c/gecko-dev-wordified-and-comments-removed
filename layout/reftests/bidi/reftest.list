@@ -1657,12 +1657,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 413928
@@ -1677,12 +1671,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 413928
