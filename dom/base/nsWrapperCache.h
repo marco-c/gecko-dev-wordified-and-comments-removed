@@ -812,6 +812,10 @@ PreservingWrapper
 return
 ;
 }
+GetWrapper
+(
+)
+;
 HoldJSObjects
 (
 aScriptObjectHolder
