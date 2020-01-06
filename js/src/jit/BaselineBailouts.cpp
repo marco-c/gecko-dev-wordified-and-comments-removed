@@ -9448,9 +9448,6 @@ Bailout_UninitializedThis
 case
 Bailout_BadDerivedConstructorReturn
 :
-case
-Bailout_NotPure
-:
 break
 ;
 case

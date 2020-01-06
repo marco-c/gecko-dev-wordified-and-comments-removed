@@ -149,7 +149,6 @@ Bailout_NonSharedTypedArrayInput
 Bailout_Debugger
 Bailout_UninitializedThis
 Bailout_BadDerivedConstructorReturn
-Bailout_NotPure
 Bailout_FirstExecution
 Bailout_OverflowInvalidate
 Bailout_NonStringInputInvalidate
@@ -383,14 +382,6 @@ Bailout_BadDerivedConstructorReturn
 return
 "
 Bailout_BadDerivedConstructorReturn
-"
-;
-case
-Bailout_NotPure
-:
-return
-"
-Bailout_NotPure
 "
 ;
 case

@@ -11245,6 +11245,16 @@ rnot_object
 i
 )
 ;
+rconcat_string
+(
+i
+)
+;
+rconcat_number
+(
+i
+)
+;
 rstring_length
 (
 i
