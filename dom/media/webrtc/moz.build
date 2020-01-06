@@ -171,6 +171,11 @@ MediaTrackConstraints
 .
 h
 '
+'
+SineWaveGenerator
+.
+h
+'
 ]
 if
 CONFIG
