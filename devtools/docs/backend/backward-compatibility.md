@@ -375,7 +375,7 @@ do
 :
 js
 let
-hasProfilerActor
+hasPerformanceActor
 =
 toolbox
 .
@@ -384,7 +384,7 @@ target
 hasActor
 (
 "
-profiler
+performance
 "
 )
 ;

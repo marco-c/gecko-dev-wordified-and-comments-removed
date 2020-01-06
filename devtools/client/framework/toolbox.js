@@ -11997,7 +11997,7 @@ target
 hasActor
 (
 "
-profiler
+performance
 "
 )
 )
