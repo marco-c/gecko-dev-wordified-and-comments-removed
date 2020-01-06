@@ -7657,7 +7657,7 @@ MOZ_OPTIMIZE_FLAGS
 =
 "
 -
-Os
+O2
 "
 if
 test
