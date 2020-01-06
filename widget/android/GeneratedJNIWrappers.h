@@ -10731,7 +10731,7 @@ jni
 CallingThread
 :
 :
-UI
+ANY
 ;
 static
 const
@@ -10865,7 +10865,7 @@ jni
 CallingThread
 :
 :
-ANY
+UI
 ;
 static
 const
