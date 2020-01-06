@@ -182,15 +182,6 @@ use
 style
 :
 :
-parser
-:
-:
-PARSING_MODE_DEFAULT
-;
-use
-style
-:
-:
 properties
 :
 :
@@ -246,7 +237,10 @@ use
 style_traits
 :
 :
+{
+PARSING_MODE_DEFAULT
 ToCss
+}
 ;
 #
 [

@@ -3694,6 +3694,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 value
@@ -3724,6 +3727,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 value
@@ -4392,6 +4398,10 @@ i
 t
 >
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -4403,7 +4413,7 @@ i
 '
 t
 >
-context
+num_context
 :
 AllowedNumericType
 )
@@ -4439,10 +4449,13 @@ ref
 value
 )
 if
-context
+num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 unit_value
@@ -4489,6 +4502,10 @@ i
 t
 >
 (
+context
+:
+&
+ParserContext
 input
 :
 &
@@ -4518,6 +4535,7 @@ Self
 :
 parse_with_clamping_mode
 (
+context
 input
 AllowedNumericType
 :
@@ -4582,7 +4600,7 @@ i
 t
 >
 (
-_context
+context
 :
 &
 ParserContext
@@ -4615,6 +4633,7 @@ Self
 :
 parse_with_clamping_mode
 (
+context
 input
 AllowedNumericType
 :
@@ -4906,6 +4925,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 value
@@ -4944,6 +4966,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 unit_value
@@ -4978,6 +5003,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 value
@@ -5825,6 +5853,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 value
@@ -5863,6 +5894,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 unit_value
@@ -5897,6 +5931,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 value
@@ -6518,6 +6555,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 value
@@ -6556,6 +6596,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 unit_value
@@ -6589,6 +6632,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 value
@@ -7120,6 +7166,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 value
@@ -7158,6 +7207,9 @@ num_context
 .
 is_ok
 (
+context
+.
+parsing_mode
 value
 .
 unit_value

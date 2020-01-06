@@ -55,7 +55,6 @@ parser
 :
 :
 {
-PARSING_MODE_DEFAULT
 ParserContext
 log_css_error
 }
@@ -91,6 +90,12 @@ atomic
 AtomicBool
 Ordering
 }
+;
+use
+style_traits
+:
+:
+PARSING_MODE_DEFAULT
 ;
 use
 stylearc

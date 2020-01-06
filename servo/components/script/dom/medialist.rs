@@ -158,10 +158,7 @@ style
 parser
 :
 :
-{
-PARSING_MODE_DEFAULT
 ParserContext
-}
 ;
 use
 style
@@ -197,7 +194,10 @@ use
 style_traits
 :
 :
+{
+PARSING_MODE_DEFAULT
 ToCss
+}
 ;
 #
 [

@@ -1161,12 +1161,9 @@ style
 parser
 :
 :
-{
-PARSING_MODE_DEFAULT
 ParserContext
 as
 CssParserContext
-}
 ;
 use
 style
@@ -1215,6 +1212,12 @@ stylesheets
 :
 :
 CssRuleType
+;
+use
+style_traits
+:
+:
+PARSING_MODE_DEFAULT
 ;
 use
 task_source

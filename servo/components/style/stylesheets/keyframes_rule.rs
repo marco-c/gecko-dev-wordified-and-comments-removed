@@ -35,7 +35,6 @@ parser
 :
 :
 {
-PARSING_MODE_DEFAULT
 ParserContext
 log_css_error
 }
@@ -134,6 +133,7 @@ style_traits
 :
 :
 {
+PARSING_MODE_DEFAULT
 ToCss
 ParseError
 StyleParseError

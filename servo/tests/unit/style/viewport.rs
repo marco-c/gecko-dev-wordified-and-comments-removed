@@ -70,7 +70,6 @@ parser
 :
 :
 {
-PARSING_MODE_DEFAULT
 Parse
 ParserContext
 }
@@ -173,7 +172,10 @@ use
 style_traits
 :
 :
+{
+PARSING_MODE_DEFAULT
 PinchZoomFactor
+}
 ;
 use
 style_traits

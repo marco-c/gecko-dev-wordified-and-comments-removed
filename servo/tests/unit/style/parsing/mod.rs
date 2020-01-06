@@ -59,10 +59,7 @@ style
 parser
 :
 :
-{
-PARSING_MODE_DEFAULT
 ParserContext
-}
 ;
 use
 style
@@ -108,6 +105,7 @@ style_traits
 :
 :
 {
+PARSING_MODE_DEFAULT
 ToCss
 ParseError
 }
