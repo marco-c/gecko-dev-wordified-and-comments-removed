@@ -818,12 +818,6 @@ Delete
 )
 ;
 bool
-HasDuplicateAttachments
-(
-)
-const
-;
-bool
 HasDefinedAttachments
 (
 )
