@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-const
-startTime
-=
-Date
-.
-now
-(
-)
-;
 this
 .
 senderror
@@ -476,6 +467,8 @@ now
 (
 )
 -
+startBackground
+.
 startTime
 >
 5

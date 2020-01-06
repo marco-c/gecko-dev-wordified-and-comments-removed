@@ -75,7 +75,7 @@ parseInt
 "
 |
 |
-5000
+10000
 10
 )
 maxImageWidth
@@ -86,7 +86,7 @@ parseInt
 "
 |
 |
-5000
+10000
 10
 )
 }
