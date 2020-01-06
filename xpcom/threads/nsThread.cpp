@@ -3959,6 +3959,14 @@ HasPendingEvent
 (
 lock
 )
+|
+|
+mIdleEvents
+.
+HasPendingEvent
+(
+lock
+)
 ;
 }
 return
