@@ -6975,7 +6975,6 @@ view
 .
 selectedNode
 aEvent
-view
 )
 ;
 }

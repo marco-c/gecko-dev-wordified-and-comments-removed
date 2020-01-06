@@ -2895,11 +2895,6 @@ BookmarksEventHandler
 onCommand
 (
 event
-this
-.
-parentNode
-.
-_placesView
 )
 ;
 "

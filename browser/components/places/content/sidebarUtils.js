@@ -369,7 +369,6 @@ aTree
 .
 selectedNode
 aEvent
-aTree
 )
 ;
 }
@@ -383,16 +382,11 @@ aEvent
 )
 {
 let
-tree
+node
 =
 aEvent
 .
 target
-;
-let
-node
-=
-tree
 .
 selectedNode
 ;
@@ -418,7 +412,6 @@ openNodeWithEvent
 (
 node
 aEvent
-tree
 )
 ;
 }

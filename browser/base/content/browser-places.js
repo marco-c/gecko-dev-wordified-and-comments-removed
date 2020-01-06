@@ -3945,7 +3945,6 @@ this
 onCommand
 (
 aEvent
-aView
 )
 ;
 }
@@ -3956,7 +3955,6 @@ function
 BEH_onCommand
 (
 aEvent
-aView
 )
 {
 var
@@ -3980,7 +3978,6 @@ target
 .
 _placesNode
 aEvent
-aView
 )
 ;
 }
@@ -9421,7 +9418,6 @@ function
 BUI_onPanelMenuViewCommand
 (
 aEvent
-aView
 )
 {
 let
@@ -9476,7 +9472,6 @@ target
 .
 _placesNode
 aEvent
-aView
 )
 ;
 PanelUI
