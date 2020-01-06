@@ -275,6 +275,17 @@ UpdatePicker
 "
 :
 {
+if
+(
+!
+this
+.
+picker
+)
+{
+return
+;
+}
 this
 .
 picker
