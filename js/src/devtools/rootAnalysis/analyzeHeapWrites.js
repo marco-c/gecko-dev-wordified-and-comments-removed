@@ -2030,9 +2030,6 @@ Gecko_CopyStyleContentsFrom
 "
 Gecko_CSSValue_SetAbsoluteLength
 "
-"
-Gecko_UnsetDirtyStyleAttr
-"
 /
 nsCSSPropertyIDSet
 :
