@@ -978,6 +978,9 @@ mInsertString
 nsString
 mInsertedString
 ;
+uint32_t
+mUniqueId
+;
 bool
 mKeyDownHandled
 ;
@@ -1001,6 +1004,10 @@ mKeyEvent
 (
 nullptr
 )
+mUniqueId
+(
+0
+)
 {
 Clear
 (
@@ -1013,11 +1020,19 @@ KeyEventState
 NSEvent
 *
 aNativeKeyEvent
+uint32_t
+aUniqueId
+=
+0
 )
 :
 mKeyEvent
 (
 nullptr
+)
+mUniqueId
+(
+0
 )
 {
 Clear
@@ -1027,6 +1042,7 @@ Clear
 Set
 (
 aNativeKeyEvent
+aUniqueId
 )
 ;
 }
@@ -1056,6 +1072,10 @@ Set
 NSEvent
 *
 aNativeKeyEvent
+uint32_t
+aUniqueId
+=
+0
 )
 {
 NS_PRECONDITION
@@ -1081,6 +1101,10 @@ aNativeKeyEvent
 retain
 ]
 ;
+mUniqueId
+=
+aUniqueId
+;
 }
 void
 Clear
@@ -1100,6 +1124,10 @@ release
 mKeyEvent
 =
 nullptr
+;
+mUniqueId
+=
+0
 ;
 }
 mInsertString
@@ -1338,6 +1366,10 @@ PushKeyEvent
 NSEvent
 *
 aNativeKeyEvent
+uint32_t
+aUniqueId
+=
+0
 )
 {
 uint32_t
@@ -1395,6 +1427,7 @@ mFirstKeyEvent
 Set
 (
 aNativeKeyEvent
+aUniqueId
 )
 ;
 keyEvent
@@ -1411,6 +1444,7 @@ new
 KeyEventState
 (
 aNativeKeyEvent
+aUniqueId
 )
 ;
 }
@@ -2211,6 +2245,8 @@ HandleKeyDownEvent
 NSEvent
 *
 aNativeEvent
+uint32_t
+aUniqueId
 )
 ;
 void
