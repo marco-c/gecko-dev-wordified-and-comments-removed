@@ -365,6 +365,8 @@ if
 (
 typeof
 (
+this
+.
 __URI__
 )
 =
@@ -375,12 +377,7 @@ string
 "
 &
 &
-this
-[
-"
 Components
-"
-]
 )
 {
 const
@@ -415,12 +412,7 @@ make
 (
 this
 uri
-this
-[
-"
 Components
-"
-]
 )
 ;
 this
