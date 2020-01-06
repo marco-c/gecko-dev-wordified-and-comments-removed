@@ -41170,9 +41170,7 @@ safebrowsing
 id
 "
 "
-%
-NAME
-%
+Firefox
 "
 )
 ;
