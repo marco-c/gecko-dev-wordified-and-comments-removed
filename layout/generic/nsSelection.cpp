@@ -16026,6 +16026,14 @@ rangesToAdd
 *
 aOutIndex
 =
+int32_t
+(
+mRanges
+.
+Length
+(
+)
+)
 -
 1
 ;
