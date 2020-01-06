@@ -5961,8 +5961,6 @@ GarbageCollect
 nsICycleCollectorListener
 *
 aListener
-int32_t
-aExtraForgetSkippableCalls
 )
 {
 AUTO_PROFILER_LABEL
@@ -5996,7 +5994,6 @@ nsJSContext
 CycleCollectNow
 (
 aListener
-aExtraForgetSkippableCalls
 )
 ;
 return
@@ -6012,8 +6009,6 @@ CycleCollect
 nsICycleCollectorListener
 *
 aListener
-int32_t
-aExtraForgetSkippableCalls
 )
 {
 nsJSContext
@@ -6022,7 +6017,6 @@ nsJSContext
 CycleCollectNow
 (
 aListener
-aExtraForgetSkippableCalls
 )
 ;
 return

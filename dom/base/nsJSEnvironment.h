@@ -345,10 +345,6 @@ nsICycleCollectorListener
 aListener
 =
 nullptr
-int32_t
-aExtraForgetSkippableCalls
-=
-0
 )
 ;
 static
