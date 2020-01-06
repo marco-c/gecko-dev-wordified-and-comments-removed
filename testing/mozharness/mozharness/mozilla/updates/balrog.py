@@ -72,6 +72,40 @@ username
 )
     
 def
+query_python
+(
+self
+)
+:
+        
+python
+=
+sys
+.
+executable
+        
+if
+'
+mock_target
+'
+in
+self
+.
+config
+:
+            
+python
+=
+'
+python2
+.
+7
+'
+        
+return
+python
+    
+def
 generate_balrog_props
 (
 self
@@ -407,9 +441,11 @@ cmd
 =
 [
             
-sys
+self
 .
-executable
+query_python
+(
+)
             
 submitter_script
             
@@ -663,9 +699,13 @@ product
 cmd
 =
 [
-sys
+            
+self
 .
-executable
+query_python
+(
+)
+            
 os
 .
 path
@@ -699,6 +739,7 @@ py
 "
 )
 )
+        
 ]
         
 cmd
@@ -1095,9 +1136,11 @@ cmd
 =
 [
             
-sys
+self
 .
-executable
+query_python
+(
+)
             
 submitter_script
             
