@@ -312,6 +312,11 @@ emitter
 js
 '
 '
+extend
+.
+js
+'
+'
 flags
 .
 js
