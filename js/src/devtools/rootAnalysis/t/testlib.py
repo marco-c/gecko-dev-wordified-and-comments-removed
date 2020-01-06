@@ -136,6 +136,9 @@ self
 indir
 outdir
 cfg
+verbose
+=
+0
 )
 :
         
@@ -156,6 +159,12 @@ self
 cfg
 =
 cfg
+        
+self
+.
+verbose
+=
+verbose
     
 def
 infile
@@ -593,6 +602,19 @@ analyze
 py
 "
 )
+'
+-
+v
+'
+if
+self
+.
+verbose
+else
+'
+-
+q
+'
 phase
 ]
         
