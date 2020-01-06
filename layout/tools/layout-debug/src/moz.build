@@ -94,11 +94,6 @@ nsILayoutDebuggingTools
 .
 idl
 '
-'
-nsILayoutRegressionTester
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
@@ -131,11 +126,6 @@ cpp
 '
 '
 nsLayoutDebuggingTools
-.
-cpp
-'
-'
-nsRegressionTester
 .
 cpp
 '
