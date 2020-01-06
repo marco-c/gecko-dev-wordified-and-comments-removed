@@ -644,6 +644,15 @@ if
 (
 e
 .
+mBytesInRes
+>
+BITMAPINFOSIZE
+)
+{
+if
+(
+e
+.
 mWidth
 =
 =
@@ -675,6 +684,7 @@ AppendElement
 e
 )
 ;
+}
 }
 }
 if
