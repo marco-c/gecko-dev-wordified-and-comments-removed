@@ -2422,6 +2422,13 @@ null
 }
 }
 let
+{
+documentURI
+}
+=
+doc
+;
+let
 uriParam
 =
 {
@@ -2559,6 +2566,10 @@ PARSE_ERROR_WORKER
 )
 ;
 }
+doc
+=
+null
+;
 if
 (
 !
@@ -2594,8 +2605,6 @@ article
 .
 url
 =
-doc
-.
 documentURI
 ;
 delete
