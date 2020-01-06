@@ -126,6 +126,11 @@ dom
 =
 [
 '
+AuthenticatorAssertionResponse
+.
+h
+'
+'
 AuthenticatorAttestationResponse
 .
 h
@@ -171,11 +176,6 @@ WebAuthentication
 h
 '
 '
-WebAuthnAssertion
-.
-h
-'
-'
 WebAuthnManager
 .
 h
@@ -205,6 +205,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AuthenticatorAssertionResponse
+.
+cpp
+'
 '
 AuthenticatorAttestationResponse
 .
@@ -242,11 +247,6 @@ cpp
 '
 '
 WebAuthentication
-.
-cpp
-'
-'
-WebAuthnAssertion
 .
 cpp
 '
