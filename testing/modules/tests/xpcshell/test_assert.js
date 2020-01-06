@@ -159,7 +159,6 @@ length
 clsChain
 ;
 }
-;
 assert
 .
 ok
@@ -914,8 +913,6 @@ nbRoot
 =
 {
 toString
-:
-function
 (
 )
 {
@@ -2037,8 +2034,6 @@ actual
 :
 {
 toJSON
-:
-function
 (
 )
 {

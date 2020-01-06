@@ -57,8 +57,6 @@ prototype
 =
 {
 testStart
-:
-function
 (
 test
 )
@@ -89,8 +87,6 @@ data
 ;
 }
 testStatus
-:
-function
 (
 test
 subtest
@@ -149,10 +145,6 @@ _testId
 test
 )
 subtest
-:
-subtest
-status
-:
 status
 }
 ;
@@ -242,8 +234,6 @@ data
 ;
 }
 testEnd
-:
-function
 (
 test
 status
@@ -275,8 +265,6 @@ _testId
 (
 test
 )
-status
-:
 status
 }
 ;
@@ -366,8 +354,6 @@ data
 ;
 }
 assertionCount
-:
-function
 (
 test
 count
@@ -384,16 +370,12 @@ data
 =
 {
 test
-:
-test
 min_expected
 :
 minExpected
 max_expected
 :
 maxExpected
-count
-:
 count
 }
 ;
@@ -409,8 +391,6 @@ data
 ;
 }
 suiteStart
-:
-function
 (
 tests
 runinfo
@@ -525,8 +505,6 @@ data
 ;
 }
 suiteEnd
-:
-function
 (
 extra
 =
@@ -567,8 +545,6 @@ data
 ;
 }
 log
-:
-function
 (
 level
 message
@@ -581,8 +557,6 @@ var
 data
 =
 {
-level
-:
 level
 message
 :
@@ -638,8 +612,6 @@ data
 ;
 }
 debug
-:
-function
 (
 message
 extra
@@ -660,8 +632,6 @@ extra
 ;
 }
 info
-:
-function
 (
 message
 extra
@@ -682,8 +652,6 @@ extra
 ;
 }
 warning
-:
-function
 (
 message
 extra
@@ -704,8 +672,6 @@ extra
 ;
 }
 error
-:
-function
 (
 message
 extra
@@ -726,8 +692,6 @@ extra
 ;
 }
 critical
-:
-function
 (
 message
 extra
@@ -748,8 +712,6 @@ extra
 ;
 }
 processOutput
-:
-function
 (
 thread
 message
@@ -759,23 +721,17 @@ this
 .
 _logData
 (
-'
+"
 process_output
-'
+"
 {
 message
-:
-message
-thread
-:
 thread
 }
 )
 ;
 }
 _logData
-:
-function
 (
 action
 data
@@ -788,8 +744,6 @@ var
 allData
 =
 {
-action
-:
 action
 time
 :
@@ -855,8 +809,6 @@ allData
 ;
 }
 _testId
-:
-function
 (
 test
 )
@@ -910,8 +862,6 @@ prototype
 =
 {
 log
-:
-function
 (
 message
 )
@@ -923,8 +873,6 @@ message
 ;
 }
 suite_start
-:
-function
 (
 message
 )
@@ -958,8 +906,6 @@ tests
 ;
 }
 test_start
-:
-function
 (
 message
 )
@@ -996,8 +942,6 @@ test
 ;
 }
 test_status
-:
-function
 (
 message
 )
@@ -1070,8 +1014,6 @@ message
 expected
 ;
 }
-else
-{
 return
 "
 TEST
@@ -1089,10 +1031,7 @@ status
 statusInfo
 ;
 }
-}
 test_end
-:
-function
 (
 message
 )
@@ -1224,8 +1163,6 @@ ms
 ;
 }
 suite_end
-:
-function
 (
 message
 )
