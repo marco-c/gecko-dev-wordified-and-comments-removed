@@ -1309,6 +1309,13 @@ FailFP
 =
 0xbad
 ;
+static
+const
+unsigned
+MaxVarU32DecodedBytes
+=
+5
+;
 }
 }
 #

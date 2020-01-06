@@ -1721,6 +1721,14 @@ task
 )
 ;
 bool
+StartOffThreadPromiseHelperTask
+(
+PromiseHelperTask
+*
+task
+)
+;
+bool
 StartOffThreadIonCompile
 (
 JSContext
