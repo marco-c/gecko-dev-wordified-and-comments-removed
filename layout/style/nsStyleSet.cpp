@@ -4487,6 +4487,11 @@ SetIsStyleIfVisited
 result
 -
 >
+AsGecko
+(
+)
+-
+>
 SetStyleIfVisited
 (
 resultIfVisited
