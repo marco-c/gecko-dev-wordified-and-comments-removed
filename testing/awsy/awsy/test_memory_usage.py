@@ -2883,6 +2883,14 @@ signal_user_active
 (
 )
             
+create_checkpoint
+(
+"
+TabsClosedExtraProcesses
+"
+itr
+)
+            
 self
 .
 clear_preloaded_browser
