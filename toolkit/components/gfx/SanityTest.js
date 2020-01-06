@@ -1816,6 +1816,14 @@ moveTo
 1000000000
 )
 ;
+sanityTest
+.
+resizeTo
+(
+PAGE_WIDTH
+PAGE_HEIGHT
+)
+;
 tester
 .
 scheduleTest
