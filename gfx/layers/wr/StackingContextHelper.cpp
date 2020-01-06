@@ -414,9 +414,11 @@ visibleRect
 bool
 is2d
 =
+!
 aTransformPtr
-&
-&
+|
+|
+(
 aTransformPtr
 -
 >
@@ -427,6 +429,7 @@ Is2D
 &
 !
 aPerspectivePtr
+)
 ;
 if
 (
