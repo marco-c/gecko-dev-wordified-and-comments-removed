@@ -3690,6 +3690,13 @@ HARD
 )
 GK_ATOM
 (
+haspopup
+"
+haspopup
+"
+)
+GK_ATOM
+(
 hasSameNode
 "
 has
