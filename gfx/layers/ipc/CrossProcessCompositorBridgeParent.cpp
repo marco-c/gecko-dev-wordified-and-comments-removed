@@ -1228,6 +1228,7 @@ WebRenderBridgeParent
 :
 CreateDestroyed
 (
+aPipelineId
 )
 ;
 parent
