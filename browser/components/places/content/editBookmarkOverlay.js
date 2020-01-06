@@ -927,7 +927,6 @@ _keyword
 }
 }
 }
-async
 _initLoadInSidebar
 (
 )
@@ -1313,15 +1312,6 @@ this
 _initTagsField
 (
 )
-.
-catch
-(
-Components
-.
-utils
-.
-reportError
-)
 ;
 else
 if
@@ -1342,15 +1332,6 @@ this
 .
 toggleTagsSelector
 (
-)
-.
-catch
-(
-Components
-.
-utils
-.
-reportError
 )
 ;
 if
@@ -2689,7 +2670,6 @@ newTags
 }
 ;
 }
-async
 _setTagsFromTagsInputField
 (
 aCurrentTags
@@ -2985,7 +2965,6 @@ uris
 let
 anyChanges
 =
-await
 this
 .
 _setTagsFromTagsInputField
@@ -4806,7 +4785,6 @@ null
 }
 ;
 }
-async
 _rebuildTagsSelectorList
 (
 )
@@ -5069,7 +5047,6 @@ selectedIndex
 ;
 }
 }
-async
 toggleTagsSelector
 (
 )
@@ -5150,7 +5127,6 @@ collapsed
 =
 false
 ;
-await
 this
 .
 _rebuildTagsSelectorList
@@ -5620,7 +5596,6 @@ break
 ;
 }
 }
-async
 _initTagsField
 (
 )
@@ -5901,7 +5876,6 @@ if
 updateTagsField
 )
 {
-await
 this
 .
 _initTagsField
@@ -5920,7 +5894,6 @@ tagsSelector
 )
 )
 {
-await
 this
 .
 _rebuildTagsSelectorList
