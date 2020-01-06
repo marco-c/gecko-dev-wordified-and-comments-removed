@@ -373,15 +373,13 @@ parent
 ;
 extensionDir
 .
-append
-(
-EXTENSION_ID
+leafName
 +
+=
 "
 .
 xpi
 "
-)
 ;
 }
 Components
