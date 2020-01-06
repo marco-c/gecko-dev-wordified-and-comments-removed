@@ -2364,6 +2364,11 @@ Principal
 aRequestingPrincipal
 )
 ;
+void
+OnDestroyTextComposition
+(
+)
+;
 static
 TabParent
 *

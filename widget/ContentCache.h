@@ -1270,6 +1270,11 @@ EventMessage
 aMessage
 )
 ;
+void
+OnDestroyTextComposition
+(
+)
+;
 bool
 RequestIMEToCommitComposition
 (
