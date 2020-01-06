@@ -50,7 +50,10 @@ use
 style_traits
 :
 :
+{
 ToCss
+ParseError
+}
 ;
 #
 [
@@ -112,8 +115,11 @@ ParserContext
 Result
 <
 Self
-(
-)
+ParseError
+<
+'
+a
+>
 >
 {
 let

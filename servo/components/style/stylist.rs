@@ -42,7 +42,7 @@ use
 error_reporting
 :
 :
-RustLogReporter
+create_error_reporter
 ;
 use
 font_metrics
@@ -2628,7 +2628,9 @@ p
 None
 None
 &
-RustLogReporter
+create_error_reporter
+(
+)
 font_metrics
 cascade_flags
 self
@@ -2946,7 +2948,9 @@ parent_style
 None
 None
 &
-RustLogReporter
+create_error_reporter
+(
+)
 font_metrics
 CascadeFlags
 :
@@ -5262,7 +5266,9 @@ parent_style
 None
 None
 &
-RustLogReporter
+create_error_reporter
+(
+)
 &
 metrics
 CascadeFlags

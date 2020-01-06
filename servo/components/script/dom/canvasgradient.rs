@@ -15,6 +15,7 @@ cssparser
 :
 {
 Parser
+ParserInput
 RGBA
 }
 ;
@@ -326,6 +327,19 @@ IndexSize
 }
 let
 mut
+input
+=
+ParserInput
+:
+:
+new
+(
+&
+color
+)
+;
+let
+mut
 parser
 =
 Parser
@@ -334,7 +348,8 @@ Parser
 new
 (
 &
-color
+mut
+input
 )
 ;
 let
