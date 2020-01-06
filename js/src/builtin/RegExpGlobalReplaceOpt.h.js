@@ -37,6 +37,12 @@ defined
 (
 FUNCTIONAL
 )
+|
+|
+defined
+(
+ELEMBASE
+)
 var
 originalSource
 =
@@ -344,6 +350,12 @@ if
 defined
 (
 FUNCTIONAL
+)
+|
+|
+defined
+(
+ELEMBASE
 )
 if
 (
