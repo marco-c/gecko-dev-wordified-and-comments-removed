@@ -81,9 +81,7 @@ eHaveWritingMode
 &
 &
 (
-GetWritingMode
-(
-)
+mWritingMode
 !
 =
 WritingMode
@@ -183,9 +181,7 @@ WritingMode
 x
 )
 "
-GetWritingMode
-(
-)
+mWritingMode
 )
 ;
 }
