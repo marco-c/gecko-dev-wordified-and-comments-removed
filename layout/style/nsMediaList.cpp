@@ -1611,15 +1611,10 @@ MOZ_ASSERT
 (
 aRules
 .
-BinaryIndexOf
+ContainsSorted
 (
 rule
 )
-!
-=
-aRules
-.
-NoIndex
 "
 aRules
 must

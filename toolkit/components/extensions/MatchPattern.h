@@ -281,15 +281,10 @@ const
 return
 mElems
 .
-BinaryIndexOf
+ContainsSorted
 (
 aAtom
 )
-!
-=
-mElems
-.
-NoIndex
 ;
 }
 bool
