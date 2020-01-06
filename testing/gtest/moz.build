@@ -109,6 +109,13 @@ gtest_exports
 =
 [
 '
+benchmark
+/
+BlackBox
+.
+h
+'
+'
 gtest
 /
 include
@@ -936,6 +943,9 @@ DIRS
 +
 =
 [
+'
+benchmark
+'
 '
 mozilla
 '
