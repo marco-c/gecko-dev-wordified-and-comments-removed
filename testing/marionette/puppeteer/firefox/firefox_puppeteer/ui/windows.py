@@ -2672,10 +2672,6 @@ keys
 append
 (
 command_key
-.
-lower
-(
-)
 )
         
 self
