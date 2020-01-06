@@ -117,6 +117,9 @@ class
 CDMProxy
 ;
 class
+GMPCrashHelper
+;
+class
 MediaDecoderReader
 ;
 class
@@ -292,6 +295,12 @@ layers
 KnowsCompositor
 >
 mKnowsCompositor
+;
+already_AddRefed
+<
+GMPCrashHelper
+>
+mCrashHelper
 ;
 explicit
 MediaDecoderReaderInit
