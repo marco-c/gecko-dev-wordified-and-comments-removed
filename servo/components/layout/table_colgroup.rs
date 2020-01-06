@@ -478,13 +478,13 @@ self
 .
 base
 .
-clip_and_scroll_info
+clipping_and_scrolling
 =
 Some
 (
 state
 .
-current_clip_and_scroll_info
+current_clipping_and_scrolling
 )
 ;
 }

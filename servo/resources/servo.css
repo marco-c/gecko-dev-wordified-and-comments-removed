@@ -1115,6 +1115,10 @@ increment
 :
 none
 ;
+overflow
+:
+visible
+;
 }
 *
 |
@@ -1150,6 +1154,10 @@ increment
 :
 none
 ;
+overflow
+:
+visible
+;
 }
 *
 |
@@ -1185,6 +1193,10 @@ increment
 :
 none
 ;
+overflow
+:
+visible
+;
 }
 *
 |
@@ -1219,6 +1231,10 @@ counter
 increment
 :
 none
+;
+overflow
+:
+visible
 ;
 }
 *
