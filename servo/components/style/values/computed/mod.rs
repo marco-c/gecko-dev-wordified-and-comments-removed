@@ -3121,7 +3121,7 @@ TrackList
 =
 GenericTrackList
 <
-TrackSize
+LengthOrPercentage
 >
 ;
 pub
@@ -3130,7 +3130,7 @@ GridTemplateComponent
 =
 GenericGridTemplateComponent
 <
-TrackSize
+LengthOrPercentage
 >
 ;
 impl
