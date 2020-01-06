@@ -17251,8 +17251,6 @@ self_and_ancestors
 {
 if
 let
-Some
-(
 &
 StyleSource
 :
@@ -17261,7 +17259,6 @@ Style
 (
 ref
 rule
-)
 )
 =
 rule_node
