@@ -468,8 +468,6 @@ hsla
 )
 inset
 ;
-%
-endif
 -
 -
 toolbarbutton
@@ -489,6 +487,8 @@ hsla
 09
 )
 ;
+%
+endif
 -
 -
 urlbar

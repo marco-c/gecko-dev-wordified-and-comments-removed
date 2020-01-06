@@ -334,8 +334,6 @@ rgba
 )
 inset
 ;
-%
-endif
 -
 -
 toolbarbutton
@@ -353,6 +351,8 @@ rgba
 1
 )
 ;
+%
+endif
 -
 -
 urlbar
@@ -638,6 +638,9 @@ hsla
 ;
 }
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 toolbar
 [
 brighttext
@@ -751,6 +754,8 @@ rgba
 )
 ;
 }
+%
+endif
 #
 menubar
 -
