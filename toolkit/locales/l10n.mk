@@ -1793,6 +1793,16 @@ MOZ_APP_MAXVERSION
 )
 -
 -
+app
+-
+name
+"
+(
+MOZ_APP_DISPLAYNAME
+)
+"
+-
+-
 defines
 (
 NEW_APP_DEFINES

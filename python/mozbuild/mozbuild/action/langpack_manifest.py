@@ -590,6 +590,8 @@ create_webmanifest
 locstr
 min_app_ver
 max_app_ver
+app_name
+                       
 defines
 chrome_entries
 )
@@ -740,15 +742,18 @@ description
 Language
 pack
 for
-Firefox
-for
 {
 0
+}
+for
+{
+1
 }
 '
 .
 format
 (
+app_name
 main_locale
 )
         
@@ -1097,6 +1102,32 @@ add_argument
 '
 -
 -
+app
+-
+name
+'
+                        
+help
+=
+'
+Name
+of
+the
+application
+the
+langpack
+is
+for
+'
+)
+    
+parser
+.
+add_argument
+(
+'
+-
+-
 defines
 '
 default
@@ -1205,6 +1236,10 @@ min_app_ver
 args
 .
 max_app_ver
+        
+args
+.
+app_name
         
 defines
         
