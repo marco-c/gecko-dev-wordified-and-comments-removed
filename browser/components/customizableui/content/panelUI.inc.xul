@@ -5981,6 +5981,9 @@ printCmd
 label
 ;
 "
+#
+ifdef
+XP_MACOSX
 key
 =
 "
@@ -5991,6 +5994,15 @@ command
 "
 cmd_print
 "
+#
+else
+command
+=
+"
+cmd_printPreview
+"
+#
+endif
 /
 >
 <
