@@ -1687,10 +1687,6 @@ SHUTDOWN_CC
 "
 *
 "
-FINISH_LARGE_EVALUATE
-"
-*
-"
 USER_INACTIVE
 "
 nonincrementalReason
