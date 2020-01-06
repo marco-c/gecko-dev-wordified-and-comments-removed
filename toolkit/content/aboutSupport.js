@@ -3923,6 +3923,9 @@ forceDisabled
 |
 0
 ;
+let
+a11yHandlerUsed
+=
 (
 "
 a11y
@@ -3932,6 +3935,13 @@ handler
 used
 "
 )
+;
+if
+(
+a11yHandlerUsed
+)
+{
+a11yHandlerUsed
 .
 textContent
 =
@@ -3939,6 +3949,7 @@ data
 .
 handlerUsed
 ;
+}
 }
 libraryVersions
 :
