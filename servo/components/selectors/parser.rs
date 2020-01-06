@@ -4252,6 +4252,12 @@ true
 )
 }
 ;
+let
+mut
+perform_step_2
+=
+true
+;
 if
 first_non_namespace
 =
@@ -4329,7 +4335,10 @@ dest
 ?
 ;
 }
-continue
+perform_step_2
+=
+false
+;
 }
 (
 _
@@ -4341,6 +4350,9 @@ _
 )
 }
 }
+if
+perform_step_2
+{
 for
 simple
 in
@@ -4374,6 +4386,7 @@ dest
 )
 ?
 ;
+}
 }
 }
 match
