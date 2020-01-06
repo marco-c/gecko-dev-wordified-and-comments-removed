@@ -611,12 +611,6 @@ MediaSourceDemuxer
 >
 mParent
 ;
-RefPtr
-<
-TrackBuffersManager
->
-mManager
-;
 TrackInfo
 :
 :
@@ -631,6 +625,12 @@ media
 :
 TimeUnit
 mNextRandomAccessPoint
+;
+RefPtr
+<
+TrackBuffersManager
+>
+mManager
 ;
 Maybe
 <

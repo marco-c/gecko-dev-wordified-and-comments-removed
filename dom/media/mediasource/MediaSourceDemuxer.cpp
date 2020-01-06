@@ -1595,10 +1595,6 @@ mParent
 (
 aParent
 )
-mManager
-(
-aManager
-)
 mType
 (
 aType
@@ -1608,6 +1604,10 @@ mMonitor
 "
 MediaSourceTrackDemuxer
 "
+)
+mManager
+(
+aManager
 )
 mReset
 (
@@ -2055,6 +2055,12 @@ GetBuffered
 (
 )
 {
+MonitorAutoLock
+mon
+(
+mMonitor
+)
+;
 if
 (
 !
@@ -2963,6 +2969,12 @@ MOZ_ASSERT
 OnTaskQueue
 (
 )
+)
+;
+MonitorAutoLock
+mon
+(
+mMonitor
 )
 ;
 mManager
