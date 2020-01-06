@@ -2705,6 +2705,12 @@ WorkerEventTarget
 >
 mWorkerControlEventTarget
 ;
+RefPtr
+<
+WorkerEventTarget
+>
+mWorkerHybridEventTarget
+;
 struct
 SyncLoopInfo
 {
@@ -3971,6 +3977,12 @@ NS_DISPATCH_NORMAL
 nsISerialEventTarget
 *
 ControlEventTarget
+(
+)
+;
+nsISerialEventTarget
+*
+HybridEventTarget
 (
 )
 ;
