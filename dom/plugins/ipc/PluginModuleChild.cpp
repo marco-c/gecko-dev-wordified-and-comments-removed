@@ -8906,10 +8906,9 @@ message_loop
 >
 PostTask
 (
-task
-.
-forget
+do_AddRef
 (
+task
 )
 )
 ;
