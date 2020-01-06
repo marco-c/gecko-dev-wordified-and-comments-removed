@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 LabeledEventQueue
 .
 h
