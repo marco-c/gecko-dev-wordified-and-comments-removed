@@ -689,6 +689,7 @@ typename
 T
 >
 class
+MOZ_NON_MEMMOVABLE
 BarrieredBase
 {
 protected
