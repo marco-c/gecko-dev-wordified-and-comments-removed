@@ -98,15 +98,6 @@ T
 as
 SpecifiedValue
 ;
-use
-values
-:
-:
-computed
-:
-:
-ComputedValueAsSpecified
-;
 #
 [
 cfg
@@ -130,12 +121,6 @@ url
 :
 SpecifiedUrl
 ;
-impl
-ComputedValueAsSpecified
-for
-SpecifiedValue
-{
-}
 pub
 mod
 computed_value
@@ -229,6 +214,7 @@ Clone
 Copy
 Debug
 PartialEq
+ToComputedValue
 ToCss
 )
 ]
@@ -280,6 +266,7 @@ derive
 Clone
 Debug
 PartialEq
+ToComputedValue
 )
 ]
 pub
@@ -319,6 +306,7 @@ derive
 Clone
 Debug
 PartialEq
+ToComputedValue
 )
 ]
 pub

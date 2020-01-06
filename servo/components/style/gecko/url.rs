@@ -131,6 +131,12 @@ ImageValue
 >
 >
 }
+trivial_to_computed_value
+!
+(
+SpecifiedUrl
+)
+;
 impl
 SpecifiedUrl
 {

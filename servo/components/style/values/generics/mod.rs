@@ -359,6 +359,7 @@ Clone
 Debug
 Eq
 PartialEq
+ToComputedValue
 ToCss
 )
 ]
