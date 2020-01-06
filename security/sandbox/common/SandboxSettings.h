@@ -1,0 +1,17 @@
+#
+ifndef
+mozilla_SandboxSettings_h
+#
+define
+mozilla_SandboxSettings_h
+namespace
+mozilla
+{
+int
+GetEffectiveContentSandboxLevel
+(
+)
+;
+}
+#
+endif
