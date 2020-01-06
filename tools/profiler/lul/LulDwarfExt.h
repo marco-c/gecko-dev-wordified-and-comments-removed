@@ -2146,6 +2146,13 @@ ARM
 (
 )
 ;
+static
+unsigned
+int
+MIPS
+(
+)
+;
 }
 ;
 DwarfCFIToModule
