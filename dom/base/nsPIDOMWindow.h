@@ -1087,12 +1087,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-|
-|
-defined
-(
-MOZ_WIDGET_GONK
-)
 virtual
 void
 EnableOrientationChangeListener

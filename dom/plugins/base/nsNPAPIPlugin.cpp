@@ -1311,12 +1311,6 @@ NS_ERROR_FAILURE
 ;
 }
 #
-elif
-defined
-(
-MOZ_WIDGET_GONK
-)
-#
 else
 NPError
 pluginCallError

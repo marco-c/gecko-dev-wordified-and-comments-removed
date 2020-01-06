@@ -1227,13 +1227,6 @@ defined
 (
 XP_MACOSX
 )
-&
-&
-!
-defined
-(
-MOZ_WIDGET_GONK
-)
 virtual
 nsresult
 NP_Initialize
@@ -2229,13 +2222,6 @@ XP_UNIX
 defined
 (
 XP_MACOSX
-)
-&
-&
-!
-defined
-(
-MOZ_WIDGET_GONK
 )
 virtual
 nsresult
