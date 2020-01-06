@@ -4105,9 +4105,7 @@ MessageChannel
 msg
 )
 ;
-MOZ_CRASH
-(
-)
+return
 ;
 }
 mLink
