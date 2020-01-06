@@ -160,7 +160,12 @@ BRANDING_FILES
 '
 bgstub
 .
-bmp
+jpg
+'
+'
+bgstub_2x
+.
+jpg
 '
 '
 branding
