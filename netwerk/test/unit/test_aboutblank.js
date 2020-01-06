@@ -160,11 +160,14 @@ true
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 result
-=
+!
 =
 Components
 .
@@ -173,6 +176,10 @@ results
 NS_ERROR_NOT_AVAILABLE
 )
 {
+throw
+e
+;
+}
 }
 do_check_eq
 (
