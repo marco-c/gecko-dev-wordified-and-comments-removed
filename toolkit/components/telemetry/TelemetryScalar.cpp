@@ -9783,7 +9783,7 @@ AddValue
 (
 aDiscardedData
 .
-mDiscardedAccumulations
+mDiscardedHistogramAccumulations
 )
 ;
 rv
@@ -9814,7 +9814,7 @@ AddValue
 (
 aDiscardedData
 .
-mDiscardedKeyedAccumulations
+mDiscardedKeyedHistogramAccumulations
 )
 ;
 rv
