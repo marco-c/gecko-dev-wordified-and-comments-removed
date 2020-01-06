@@ -98,7 +98,7 @@ numShiftedElements
 >
 0
 )
-unshiftElements
+moveShiftedElements
 (
 )
 ;

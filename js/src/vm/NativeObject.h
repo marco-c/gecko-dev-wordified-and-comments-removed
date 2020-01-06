@@ -4245,12 +4245,12 @@ count
 )
 ;
 void
-unshiftElements
+moveShiftedElements
 (
 )
 ;
 void
-maybeUnshiftElements
+maybeMoveShiftedElements
 (
 )
 ;
