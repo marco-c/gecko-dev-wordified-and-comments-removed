@@ -904,7 +904,9 @@ false
 ;
 }
 virtual
-nsCString
+const
+char
+*
 GetDescriptionName
 (
 )

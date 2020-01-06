@@ -94,7 +94,9 @@ Shutdown
 )
 override
 ;
-nsCString
+const
+char
+*
 GetDescriptionName
 (
 )

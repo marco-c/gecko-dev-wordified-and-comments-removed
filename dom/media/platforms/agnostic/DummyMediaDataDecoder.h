@@ -89,8 +89,8 @@ DummyDataCreator
 &
 aCreator
 const
-nsACString
-&
+char
+*
 aDescription
 const
 CreateDecoderParams
@@ -146,7 +146,9 @@ Flush
 )
 override
 ;
-nsCString
+const
+char
+*
 GetDescriptionName
 (
 )

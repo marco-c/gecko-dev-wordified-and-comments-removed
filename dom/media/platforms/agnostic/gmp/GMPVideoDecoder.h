@@ -162,7 +162,9 @@ Shutdown
 )
 override
 ;
-nsCString
+const
+char
+*
 GetDescriptionName
 (
 )
@@ -170,14 +172,11 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
-gmp
+GMP
 video
 decoder
 "
-)
 ;
 }
 ConversionRequired

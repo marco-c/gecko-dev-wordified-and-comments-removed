@@ -93,7 +93,9 @@ nsACString
 aMimeType
 )
 ;
-nsCString
+const
+char
+*
 GetDescriptionName
 (
 )
@@ -101,14 +103,11 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 ffmpeg
 audio
 decoder
 "
-)
 ;
 }
 private
