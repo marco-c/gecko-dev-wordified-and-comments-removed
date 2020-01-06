@@ -1909,6 +1909,8 @@ ReportRcwnStats
 nsIRequest
 *
 firstResponseRequest
+bool
+isFromNet
 )
 ;
 void
