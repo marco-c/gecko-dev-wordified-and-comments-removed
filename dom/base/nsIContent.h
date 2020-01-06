@@ -1950,6 +1950,16 @@ return
 false
 ;
 }
+void
+NoteDirtyForServo
+(
+)
+;
+void
+NoteAnimationOnlyDirtyForServo
+(
+)
+;
 protected
 :
 nsIAtom

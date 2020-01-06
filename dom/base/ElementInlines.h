@@ -98,10 +98,12 @@ this
 )
 ;
 }
+}
+}
 inline
 Element
 *
-Element
+nsINode
 :
 :
 GetFlattenedTreeParentElement
@@ -147,7 +149,7 @@ nullptr
 inline
 Element
 *
-Element
+nsINode
 :
 :
 GetFlattenedTreeParentElementForStyle
@@ -189,8 +191,6 @@ AsElement
 return
 nullptr
 ;
-}
-}
 }
 #
 endif
