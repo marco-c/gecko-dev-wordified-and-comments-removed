@@ -1119,6 +1119,10 @@ Runnable
 EnablePrioritizationRunnable
 "
 )
+mQueue
+(
+aQueue
+)
 {
 }
 NS_IMETHOD
