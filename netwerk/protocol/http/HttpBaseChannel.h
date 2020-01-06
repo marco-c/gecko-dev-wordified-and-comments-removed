@@ -2041,12 +2041,7 @@ void
 SetIsTrackingResource
 (
 )
-{
-mIsTrackingResource
-=
-true
 ;
-}
 const
 uint64_t
 &

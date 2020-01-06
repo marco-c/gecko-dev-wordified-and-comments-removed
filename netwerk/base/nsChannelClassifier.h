@@ -180,8 +180,7 @@ mTrackingAnnotationEnabled
 nsChannelClassifier
 (
 )
-{
-}
+;
 void
 MarkEntryClassified
 (
