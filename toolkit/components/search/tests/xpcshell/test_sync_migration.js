@@ -111,12 +111,11 @@ promiseGlobalMetadata
 (
 )
 ;
-do_check_eq
+do_check_false
 (
 metadata
 .
 searchDefaultExpir
-1471013469846
 )
 ;
 }
