@@ -2374,6 +2374,9 @@ false
 excludeUserContextId
 =
 0
+showDefaultTab
+=
+false
 useAccessKeys
 =
 true
@@ -2429,6 +2432,9 @@ createDocumentFragment
 if
 (
 excludeUserContextId
+|
+|
+showDefaultTab
 )
 {
 let
