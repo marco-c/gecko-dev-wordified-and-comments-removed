@@ -259,7 +259,6 @@ onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
 onShowGridAreaHighlight
 onShowGridCellHighlight
-onShowGridLineNamesHighlight
 }
 =
 this
@@ -328,7 +327,6 @@ GridOutline
 grids
 onShowGridAreaHighlight
 onShowGridCellHighlight
-onShowGridLineNamesHighlight
 }
 )
 :
