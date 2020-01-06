@@ -360,6 +360,11 @@ D3D11ShareHandleImage
 .
 cpp
 '
+'
+D3D11YCbCrImage
+.
+cpp
+'
 ]
 UNIFIED_SOURCES
 +
@@ -1019,6 +1024,11 @@ h
 '
 '
 D3D11ShareHandleImage
+.
+h
+'
+'
+D3D11YCbCrImage
 .
 h
 '
