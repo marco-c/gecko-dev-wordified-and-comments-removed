@@ -1203,6 +1203,10 @@ Type
 :
 Detach
 :
+mCurrentInputBuffer
+=
+nullptr
+;
 mTaskQueue
 =
 nullptr
