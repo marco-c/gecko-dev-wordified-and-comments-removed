@@ -352,13 +352,9 @@ mozilla
 .
 org
 /
-releases
-/
 l10n
-/
-mozilla
 -
-beta
+central
 "
     
 "

@@ -406,15 +406,10 @@ mozilla
 .
 org
 /
-releases
-/
 l10n
-/
-%
-s
+-
+central
 "
-%
-BRANCH
     
 "
 hg_l10n_tag
@@ -434,7 +429,11 @@ HG_SHARE_BASE_DIR
 l10n_dir
 "
 :
-MOZILLA_DIR
+"
+l10n
+-
+central
+"
     
 "
 repack_env
