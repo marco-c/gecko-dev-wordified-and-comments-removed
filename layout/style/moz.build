@@ -1583,6 +1583,13 @@ css
 '
 res
 /
+plaintext
+.
+css
+'
+'
+res
+/
 viewsource
 .
 css
