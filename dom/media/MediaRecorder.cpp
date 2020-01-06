@@ -3828,6 +3828,12 @@ CleanupStreams
 (
 )
 ;
+if
+(
+!
+mIsStartEventFired
+)
+{
 NS_DispatchToMainThread
 (
 new
@@ -3843,6 +3849,7 @@ start
 )
 )
 ;
+}
 if
 (
 NS_FAILED
