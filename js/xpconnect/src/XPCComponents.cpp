@@ -9506,7 +9506,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 ;

@@ -13470,7 +13470,7 @@ template
 struct
 CreateGlobalOptions
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 {
 static

@@ -3196,13 +3196,13 @@ JSObject
 aProto
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 Window
 (
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 Self
 (

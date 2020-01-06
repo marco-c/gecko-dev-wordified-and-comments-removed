@@ -28334,7 +28334,7 @@ callee
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 window
 ;
@@ -48223,7 +48223,7 @@ nsIDocument
 :
 CreateTouch
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 EventTarget

@@ -206,7 +206,7 @@ const
 nsAString
 &
 aType
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 int32_t

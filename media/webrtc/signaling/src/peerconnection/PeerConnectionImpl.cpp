@@ -3600,7 +3600,7 @@ Initialize
 PeerConnectionObserver
 &
 aObserver
-nsGlobalWindow
+nsGlobalWindowInner
 &
 aWindow
 const

@@ -223,7 +223,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 int32_t
@@ -355,7 +355,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 int32_t
@@ -406,7 +406,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 int32_t

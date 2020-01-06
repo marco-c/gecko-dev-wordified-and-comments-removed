@@ -3125,7 +3125,7 @@ ResolvePrototype
 nsIXPConnect
 *
 aXPConnect
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWin
 JSContext
@@ -3434,7 +3434,7 @@ proto
 )
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 ;
@@ -3546,6 +3546,11 @@ ResolvePrototype
 (
 sXPConnect
 win
+-
+>
+AssertInner
+(
+)
 cx
 global
 mData
@@ -5777,7 +5782,7 @@ aXPConnect
 JSContext
 *
 cx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWin
 const
@@ -5911,7 +5916,7 @@ ResolvePrototype
 nsIXPConnect
 *
 aXPConnect
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWin
 JSContext
@@ -6778,7 +6783,7 @@ const
 nsGlobalNameStruct
 *
 aStruct
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWin
 JSContext
@@ -6914,7 +6919,7 @@ NameStructEnabled
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWin
 const
@@ -7029,7 +7034,7 @@ nsWindowSH
 :
 GlobalResolve
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWin
 JSContext

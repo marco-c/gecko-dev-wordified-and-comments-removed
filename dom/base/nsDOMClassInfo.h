@@ -73,6 +73,9 @@ nsGlobalNameStruct
 class
 nsGlobalWindow
 ;
+class
+nsGlobalWindowInner
+;
 struct
 nsDOMClassInfoData
 ;
@@ -392,7 +395,7 @@ static
 nsresult
 GlobalResolve
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWin
 JSContext
@@ -441,7 +444,7 @@ NameStructEnabled
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWin
 const

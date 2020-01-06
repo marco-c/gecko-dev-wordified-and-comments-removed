@@ -16012,7 +16012,7 @@ rval
 void
 CreateGlobalOptions
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 :
 :
@@ -16106,7 +16106,7 @@ NS_OK
 bool
 CreateGlobalOptions
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 :
 :

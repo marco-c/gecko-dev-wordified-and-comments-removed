@@ -2365,7 +2365,7 @@ aImageSmoothingEnabled
 void
 DrawWindow
 (
-nsGlobalWindow
+nsGlobalWindowInner
 &
 aWindow
 double

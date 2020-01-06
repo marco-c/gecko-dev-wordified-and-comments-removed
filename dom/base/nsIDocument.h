@@ -347,6 +347,9 @@ class
 nsFrameLoader
 ;
 class
+nsGlobalWindowInner
+;
+class
 nsHTMLCSSStyleSheet
 ;
 class
@@ -8220,7 +8223,7 @@ Touch
 >
 CreateTouch
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aView
 mozilla
