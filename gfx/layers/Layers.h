@@ -3416,6 +3416,11 @@ MutatedSimple
 ;
 }
 }
+void
+EnsureAnimationsId
+(
+)
+;
 Animation
 *
 AddAnimation
