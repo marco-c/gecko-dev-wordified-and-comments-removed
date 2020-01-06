@@ -666,7 +666,7 @@ key
 }
 sinon
 .
-stub
+spy
 (
 FormAutofillContent
 "
