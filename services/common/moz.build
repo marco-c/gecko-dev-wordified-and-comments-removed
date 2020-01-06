@@ -285,15 +285,6 @@ logging
 .
 js
 '
-'
-modules
--
-testing
-/
-utils
-.
-js
-'
 ]
 JS_PREFERENCE_FILES
 +
