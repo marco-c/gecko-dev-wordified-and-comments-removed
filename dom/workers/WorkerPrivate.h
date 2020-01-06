@@ -330,7 +330,7 @@ class
 ServiceWorkerClientInfo
 ;
 class
-WorkerControlEventTarget
+WorkerEventTarget
 ;
 class
 WorkerControlRunnable
@@ -2701,7 +2701,7 @@ mMainThreadEventTarget
 ;
 RefPtr
 <
-WorkerControlEventTarget
+WorkerEventTarget
 >
 mWorkerControlEventTarget
 ;
