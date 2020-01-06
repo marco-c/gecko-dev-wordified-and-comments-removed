@@ -1719,6 +1719,16 @@ DOMRefCell
 <
 ServoUrl
 >
+#
+[
+ignore_heap_size_of
+=
+"
+defined
+in
+selectors
+"
+]
 quirks_mode
 :
 Cell
