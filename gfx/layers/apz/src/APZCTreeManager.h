@@ -428,7 +428,6 @@ ScrollableLayerGuid
 &
 aGuid
 )
-override
 ;
 void
 AdjustScrollForSurfaceShift

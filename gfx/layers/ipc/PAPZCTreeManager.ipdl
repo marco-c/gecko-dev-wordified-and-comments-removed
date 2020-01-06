@@ -713,13 +713,6 @@ aConstraints
 )
 ;
 async
-CancelAnimation
-(
-ScrollableLayerGuid
-aGuid
-)
-;
-async
 SetKeyboardMap
 (
 KeyboardMap
