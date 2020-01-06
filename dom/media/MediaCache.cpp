@@ -212,11 +212,6 @@ ifdef
 DEBUG
 #
 endif
-static
-MediaCache
-*
-gMediaCache
-;
 class
 MediaCacheFlusher
 final
@@ -1215,6 +1210,11 @@ ShutdownAndDestroyThis
 (
 )
 ;
+static
+MediaCache
+*
+gMediaCache
+;
 int64_t
 mNextResourceID
 ;
@@ -1274,6 +1274,13 @@ int64_t
 mSuspendedStatusToNotify
 ;
 }
+;
+MediaCache
+*
+MediaCache
+:
+:
+gMediaCache
 ;
 NS_IMETHODIMP
 MediaCacheFlusher
