@@ -337,6 +337,12 @@ xpconnect
 /
 src
 '
+'
+/
+netwerk
+/
+base
+'
 ]
 if
 CONFIG
