@@ -589,11 +589,6 @@ DOMMediaStream
 h
 '
 '
-EncodedBufferCache
-.
-h
-'
-'
 FileBlockCache
 .
 h
@@ -1127,11 +1122,6 @@ cpp
 '
 '
 DOMMediaStream
-.
-cpp
-'
-'
-EncodedBufferCache
 .
 cpp
 '

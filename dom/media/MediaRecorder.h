@@ -72,6 +72,9 @@ class
 AudioNode
 ;
 class
+Blob
+;
+class
 DOMException
 ;
 class
@@ -400,12 +403,8 @@ delete
 nsresult
 CreateAndDispatchBlobEvent
 (
-already_AddRefed
-<
-nsIDOMBlob
->
-&
-&
+Blob
+*
 aBlob
 )
 ;
