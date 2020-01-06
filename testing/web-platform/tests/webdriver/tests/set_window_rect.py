@@ -1063,18 +1063,6 @@ height
 }
 )
     
-assert
-session
-.
-window
-.
-state
-!
-=
-"
-minimized
-"
-    
 rect
 =
 assert_success
