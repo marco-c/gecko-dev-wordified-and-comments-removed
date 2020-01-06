@@ -3286,17 +3286,6 @@ UIState
 STATUS_SIGNED_IN
 )
 {
-this
-.
-updateSyncStatus
-(
-{
-syncing
-:
-true
-}
-)
-;
 setTimeout
 (
 (
