@@ -117,7 +117,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -1222,7 +1222,7 @@ messageData
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

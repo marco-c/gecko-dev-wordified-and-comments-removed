@@ -73,7 +73,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -177,7 +177,7 @@ previousCheckpoints
 null
 profileBeforeChangeDeferred
 :
-Promise
+PromiseUtils
 .
 defer
 (

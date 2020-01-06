@@ -128,7 +128,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -511,7 +511,7 @@ this
 .
 _deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -2038,7 +2038,7 @@ this
 .
 _deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

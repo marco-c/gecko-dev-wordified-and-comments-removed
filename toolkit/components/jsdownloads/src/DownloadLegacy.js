@@ -79,7 +79,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+PromiseUtils
 "
 "
 resource
@@ -90,7 +90,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -105,7 +105,7 @@ this
 .
 _deferDownload
 =
-Promise
+PromiseUtils
 .
 defer
 (

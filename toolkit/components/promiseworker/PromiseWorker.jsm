@@ -53,7 +53,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+PromiseUtils
 "
 "
 resource
@@ -64,7 +64,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -1015,7 +1015,7 @@ ex
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
