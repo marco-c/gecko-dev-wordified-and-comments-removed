@@ -3520,7 +3520,7 @@ GetScrollThumbData
 )
 aLayer
 .
-IsScrollbarContainer
+GetScrollbarContainerDirection
 (
 )
 )
@@ -4428,7 +4428,7 @@ GetScrollThumbData
 )
 aLayer
 .
-IsScrollbarContainer
+GetScrollbarContainerDirection
 (
 )
 )

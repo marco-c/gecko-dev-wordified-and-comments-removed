@@ -9117,7 +9117,11 @@ is3DContextLeaf
 }
 if
 (
-IsScrollbarContainer
+GetScrollbarContainerDirection
+(
+)
+.
+isSome
 (
 )
 )
