@@ -820,7 +820,7 @@ a_tree
 rbt_root
 ;
 \
-assert
+MOZ_ASSERT
 (
 rbp_n_t
 !
@@ -922,7 +922,7 @@ break
 \
 }
 \
-assert
+MOZ_ASSERT
 (
 rbp_n_t
 !
@@ -1018,7 +1018,7 @@ a_tree
 rbt_root
 ;
 \
-assert
+MOZ_ASSERT
 (
 rbp_p_t
 !
@@ -1120,7 +1120,7 @@ break
 \
 }
 \
-assert
+MOZ_ASSERT
 (
 rbp_p_t
 !
@@ -2857,7 +2857,7 @@ invariant
 *
 /
 \
-assert
+MOZ_ASSERT
 (
 rbp_right_get
 (
@@ -2917,7 +2917,7 @@ rbp_i_u
 else
 {
 \
-assert
+MOZ_ASSERT
 (
 rbp_right_get
 (
@@ -2983,7 +2983,7 @@ rbp_i_p
 else
 {
 \
-assert
+MOZ_ASSERT
 (
 rbp_i_cmp
 >
@@ -3055,7 +3055,7 @@ rbp_i_c
 else
 {
 \
-assert
+MOZ_ASSERT
 (
 rbp_i_cmp
 >
@@ -3598,7 +3598,7 @@ rbp_r_cmp
 )
 {
 \
-assert
+MOZ_ASSERT
 (
 (
 a_node
@@ -4049,7 +4049,7 @@ true
 )
 {
 \
-assert
+MOZ_ASSERT
 (
 rbp_r_p
 !
@@ -4177,7 +4177,7 @@ rbp_r_c
 else
 {
 \
-assert
+MOZ_ASSERT
 (
 rbp_right_get
 (
@@ -4292,7 +4292,7 @@ rbt_nil
 else
 {
 \
-assert
+MOZ_ASSERT
 (
 rbp_right_get
 (
@@ -4485,7 +4485,7 @@ rbp_r_cmp
 )
 {
 \
-assert
+MOZ_ASSERT
 (
 (
 a_node
