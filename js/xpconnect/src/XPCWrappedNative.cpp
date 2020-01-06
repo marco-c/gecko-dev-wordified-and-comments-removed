@@ -750,7 +750,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-CompartmentPrivate
+RealmPrivate
 :
 :
 Get
