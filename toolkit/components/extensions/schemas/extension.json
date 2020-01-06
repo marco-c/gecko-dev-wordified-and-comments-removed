@@ -339,9 +339,6 @@ enum
 tab
 "
 "
-notification
-"
-"
 popup
 "
 "
@@ -609,10 +606,10 @@ values
 tab
 '
 '
-notification
-'
-'
 popup
+'
+'
+sidebar
 '
 .
 "
