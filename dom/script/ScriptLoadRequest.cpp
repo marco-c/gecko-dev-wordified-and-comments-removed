@@ -102,8 +102,8 @@ aKind
 nsIScriptElement
 *
 aElement
-uint32_t
-aVersion
+ValidJSVersion
+aValidJSVersion
 mozilla
 :
 :
@@ -205,9 +205,9 @@ mBytecodeOffset
 (
 0
 )
-mJSVersion
+mValidJSVersion
 (
-aVersion
+aValidJSVersion
 )
 mLineNo
 (

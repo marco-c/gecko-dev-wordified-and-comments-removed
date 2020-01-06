@@ -79,8 +79,8 @@ ModuleLoadRequest
 nsIScriptElement
 *
 aElement
-uint32_t
-aVersion
+ValidJSVersion
+aValidJSVersion
 CORSMode
 aCORSMode
 const
