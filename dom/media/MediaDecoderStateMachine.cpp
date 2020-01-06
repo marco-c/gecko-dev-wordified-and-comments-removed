@@ -8050,6 +8050,9 @@ Enter
 (
 )
 {
+#
+ifndef
+MOZ_WIDGET_ANDROID
 Reader
 (
 )
@@ -8059,6 +8062,8 @@ ReleaseResources
 (
 )
 ;
+#
+endif
 bool
 hasNextFrame
 =
