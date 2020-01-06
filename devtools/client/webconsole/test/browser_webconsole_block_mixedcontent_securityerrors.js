@@ -501,15 +501,9 @@ resolve
 (
 msgs
 )
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 return

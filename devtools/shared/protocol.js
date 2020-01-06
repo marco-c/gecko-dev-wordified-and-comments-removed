@@ -5013,15 +5013,9 @@ packet
 .
 catch
 (
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 }

@@ -443,15 +443,9 @@ hasMethod
 .
 catch
 (
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 The

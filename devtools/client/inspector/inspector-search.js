@@ -369,15 +369,9 @@ reverse
 .
 catch
 (
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 }

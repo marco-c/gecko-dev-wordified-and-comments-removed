@@ -1554,15 +1554,9 @@ showSources
 .
 catch
 (
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 }

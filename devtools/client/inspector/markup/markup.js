@@ -1206,15 +1206,9 @@ nodeFront
 )
 ;
 }
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 }

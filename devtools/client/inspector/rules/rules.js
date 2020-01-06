@@ -4696,15 +4696,9 @@ refreshed
 )
 ;
 }
-e
-=
->
 console
 .
 error
-(
-e
-)
 )
 ;
 }
