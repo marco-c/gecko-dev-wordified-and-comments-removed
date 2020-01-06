@@ -867,7 +867,7 @@ Atomic
 <
 bool
 >
-sInShutdown
+sHasShutdown
 ;
 typedef
 media
@@ -4517,7 +4517,7 @@ override
 {
 if
 (
-sInShutdown
+sHasShutdown
 |
 |
 !
@@ -4925,7 +4925,7 @@ domStream
 stream
 |
 |
-sInShutdown
+sHasShutdown
 )
 {
 nsCOMPtr
@@ -4993,7 +4993,7 @@ NS_LITERAL_STRING
 InternalError
 "
 )
-sInShutdown
+sHasShutdown
 ?
 NS_LITERAL_STRING
 (
@@ -9121,7 +9121,7 @@ task
 {
 if
 (
-sInShutdown
+sHasShutdown
 )
 {
 MOZ_CRASH
@@ -9512,7 +9512,7 @@ NS_IsMainThread
 ;
 if
 (
-sInShutdown
+sHasShutdown
 )
 {
 return
@@ -10286,7 +10286,7 @@ NS_OK
 }
 if
 (
-sInShutdown
+sHasShutdown
 )
 {
 RefPtr
@@ -13692,7 +13692,7 @@ NS_IsMainThread
 NS_ENSURE_TRUE
 (
 !
-sInShutdown
+sHasShutdown
 NS_ERROR_FAILURE
 )
 ;
@@ -14180,7 +14180,7 @@ mBackend
 MOZ_RELEASE_ASSERT
 (
 !
-sInShutdown
+sHasShutdown
 )
 ;
 #
@@ -15193,16 +15193,12 @@ NS_IsMainThread
 ;
 if
 (
-sInShutdown
+sHasShutdown
 )
 {
 return
 ;
 }
-sInShutdown
-=
-true
-;
 nsCOMPtr
 <
 nsIObserverService
@@ -15562,6 +15558,10 @@ StopWebRtcLog
 ;
 #
 endif
+sHasShutdown
+=
+true
+;
 class
 ShutdownTask
 :
@@ -16486,7 +16486,7 @@ NS_OK
 }
 if
 (
-sInShutdown
+sHasShutdown
 )
 {
 return
