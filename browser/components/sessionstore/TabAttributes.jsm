@@ -35,6 +35,9 @@ iconLoadingPrincipal
 "
 skipbackgroundnotify
 "
+"
+mediaBlocked
+"
 ]
 )
 ;
