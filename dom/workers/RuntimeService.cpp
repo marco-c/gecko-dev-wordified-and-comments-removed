@@ -1426,7 +1426,7 @@ wasm
 )
 )
 .
-setWasmAlwaysBaseline
+setWasmBaseline
 (
 GetWorkerPref
 <

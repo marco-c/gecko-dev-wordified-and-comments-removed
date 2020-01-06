@@ -1715,6 +1715,8 @@ test
 -
 also
 -
+no
+-
 wasm
 -
 baseline
@@ -1737,9 +1739,9 @@ append
 '
 -
 -
-wasm
+no
 -
-always
+wasm
 -
 baseline
 '

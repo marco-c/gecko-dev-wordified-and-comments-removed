@@ -43,7 +43,7 @@ ScriptedCaller
 scriptedCaller
 ;
 bool
-alwaysBaseline
+baselineEnabled
 ;
 bool
 debugEnabled
@@ -74,7 +74,7 @@ Move
 scriptedCaller
 )
 )
-alwaysBaseline
+baselineEnabled
 (
 false
 )
