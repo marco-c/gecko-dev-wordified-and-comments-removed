@@ -418,10 +418,6 @@ format
 bytes_per_pixel
 (
 )
-.
-unwrap
-(
-)
 )
 as
 usize
