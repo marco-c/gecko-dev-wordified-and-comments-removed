@@ -112,6 +112,8 @@ MediaCacheStream
 nsresult
 Init
 (
+int64_t
+aContentLength
 )
 ;
 nsresult
