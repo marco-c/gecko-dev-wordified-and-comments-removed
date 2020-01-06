@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGEffects
+SVGObserverUtils
 .
 h
 "

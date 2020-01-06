@@ -146,11 +146,6 @@ nsFilterInstance
 h
 '
 '
-nsSVGEffects
-.
-h
-'
-'
 nsSVGFilterInstance
 .
 h
@@ -182,6 +177,11 @@ h
 '
 '
 SVGImageContext
+.
+h
+'
+'
+SVGObserverUtils
 .
 h
 '
@@ -229,11 +229,6 @@ cpp
 '
 '
 nsSVGContainerFrame
-.
-cpp
-'
-'
-nsSVGEffects
 .
 cpp
 '
@@ -364,6 +359,11 @@ cpp
 '
 '
 SVGImageContext
+.
+cpp
+'
+'
+SVGObserverUtils
 .
 cpp
 '
