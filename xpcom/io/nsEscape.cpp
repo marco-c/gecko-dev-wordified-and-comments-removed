@@ -1182,6 +1182,9 @@ nsACString
 aDst
 )
 {
+mozilla
+:
+:
 CheckedInt
 <
 nsACString
@@ -1800,6 +1803,9 @@ if
 aFilterMask
 &
 &
+mozilla
+:
+:
 ASCIIMask
 :
 :
@@ -1826,6 +1832,9 @@ Append
 (
 aPart
 i
+mozilla
+:
+:
 fallible
 )
 )
@@ -1955,6 +1964,9 @@ Append
 (
 aPart
 i
+mozilla
+:
+:
 fallible
 )
 )
@@ -2035,6 +2047,9 @@ Append
 (
 tempBuffer
 tempBufferPos
+mozilla
+:
+:
 fallible
 )
 )
@@ -2071,6 +2086,9 @@ Append
 (
 tempBuffer
 tempBufferPos
+mozilla
+:
+:
 fallible
 )
 )
