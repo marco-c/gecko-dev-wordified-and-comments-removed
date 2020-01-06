@@ -782,7 +782,6 @@ NS_DECL_ISUPPORTS_INHERITED
 #
 ifdef
 DEBUG
-virtual
 void
 List
 (
@@ -797,11 +796,10 @@ aIndent
 0
 )
 const
-override
+final
 ;
 #
 endif
-virtual
 already_AddRefed
 <
 mozilla
@@ -816,7 +814,7 @@ Clone
 (
 )
 const
-override
+final
 ;
 NS_DECL_NSIDOMCSSFONTFEATUREVALUESRULE
 void
@@ -888,7 +886,6 @@ return
 mFeatureValues
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (
@@ -899,7 +896,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-override
+final
 ;
 protected
 :
