@@ -1675,6 +1675,12 @@ stableTier
 )
 const
 ;
+Tier
+bestTier
+(
+)
+const
+;
 const
 CodeSegment
 &
