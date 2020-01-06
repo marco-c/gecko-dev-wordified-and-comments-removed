@@ -2252,6 +2252,13 @@ ServoStyleSheet
 aSheet
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 const_cast
 <
 ServoStyleSheet
@@ -2276,6 +2283,13 @@ ServoStyleSheet
 aSheet
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 const_cast
 <
 ServoStyleSheet
