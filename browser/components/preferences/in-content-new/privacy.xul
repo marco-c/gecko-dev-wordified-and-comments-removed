@@ -5089,7 +5089,7 @@ label
 =
 "
 &
-permissionSettingsButton2
+locationSettingsButton
 .
 label
 ;
@@ -5237,7 +5237,7 @@ label
 =
 "
 &
-permissionSettingsButton2
+cameraSettingsButton
 .
 label
 ;
@@ -5385,7 +5385,7 @@ label
 =
 "
 &
-permissionSettingsButton2
+microphoneSettingsButton
 .
 label
 ;
@@ -5560,7 +5560,7 @@ label
 =
 "
 &
-permissionSettingsButton2
+notificationSettingsButton
 .
 label
 ;
