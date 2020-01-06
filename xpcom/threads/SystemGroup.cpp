@@ -28,6 +28,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
