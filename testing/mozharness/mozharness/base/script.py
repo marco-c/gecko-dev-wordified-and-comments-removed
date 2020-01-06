@@ -2376,6 +2376,12 @@ file
 )
 :
             
+path
+=
+parsed_url
+.
+path
+            
 if
 not
 os
@@ -2384,7 +2390,7 @@ path
 .
 isfile
 (
-url
+path
 )
 :
                 
@@ -2415,19 +2421,7 @@ os
 .
 stat
 (
-url
-.
-replace
-(
-'
-file
-:
-/
-/
-'
-'
-'
-)
+path
 )
 .
 st_size
