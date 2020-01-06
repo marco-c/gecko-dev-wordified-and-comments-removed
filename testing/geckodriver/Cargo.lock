@@ -53,7 +53,7 @@ clap
 .
 23
 .
-2
+3
 (
 registry
 +
@@ -227,7 +227,7 @@ mozversion
 .
 1
 .
-0
+1
 (
 registry
 +
@@ -1489,7 +1489,7 @@ version
 .
 23
 .
-2
+3
 "
 source
 =
@@ -2086,7 +2086,7 @@ version
 .
 2
 .
-1
+2
 "
 source
 =
@@ -2162,7 +2162,7 @@ httparse
 .
 2
 .
-1
+2
 (
 registry
 +
@@ -3869,7 +3869,7 @@ version
 .
 1
 .
-0
+1
 "
 source
 =
@@ -8831,7 +8831,7 @@ clap
 .
 23
 .
-2
+3
 (
 registry
 +
@@ -8856,7 +8856,7 @@ index
 "
 =
 "
-cbf1114886d7cde2d6448517161d7db8d681a9a1c09f7d210f0b0864e48195f6
+f57e9b63057a545ad2ecd773ea61e49422ed1b1d63d74d5da5ecaee55b3396cd
 "
 "
 checksum
@@ -9037,7 +9037,7 @@ httparse
 .
 2
 .
-1
+2
 (
 registry
 +
@@ -9062,7 +9062,7 @@ index
 "
 =
 "
-a6e7a63e511f9edffbab707141fbb8707d1a3098615fb2adbd5769cdfcc9b17d
+77f756bed9ee3a83ce98774f4155b42a31b787029013f3a7d83eca714e500e21
 "
 "
 checksum
@@ -9659,7 +9659,7 @@ mozversion
 .
 1
 .
-0
+1
 (
 registry
 +
@@ -9684,7 +9684,7 @@ index
 "
 =
 "
-b9459629985b7524e318242bcdfbf8ccf66b53c6bd0872fdf376815b89b7b169
+76acea204db8c94a612821e0ddc5e4513e46af21fdbd8c15b8efe13b343062f0
 "
 "
 checksum
