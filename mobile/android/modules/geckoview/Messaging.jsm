@@ -527,6 +527,7 @@ sendRequest
 function
 (
 msg
+callback
 )
 {
 let
@@ -548,6 +549,7 @@ dispatch
 (
 type
 msg
+callback
 )
 ;
 }

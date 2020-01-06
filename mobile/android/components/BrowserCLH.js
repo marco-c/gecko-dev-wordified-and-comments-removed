@@ -929,15 +929,6 @@ Ci
 nsIDOMHTMLButtonElement
 )
 {
-this
-.
-FormAssistant
-.
-register
-(
-win
-)
-;
 return
 this
 .
