@@ -2917,6 +2917,9 @@ mPrivateBrowsingId
 nsString
 mInterceptedDocumentId
 ;
+uint32_t
+mDisplayMode
+;
 private
 :
 const
