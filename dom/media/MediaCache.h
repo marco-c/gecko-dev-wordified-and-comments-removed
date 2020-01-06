@@ -224,6 +224,10 @@ NotifyDataEnded
 (
 nsresult
 aStatus
+bool
+aReopenOnError
+=
+false
 )
 ;
 void
