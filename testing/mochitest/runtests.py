@@ -8161,6 +8161,14 @@ kill
                 
 self
 .
+websocketProcessBridge
+.
+wait
+(
+)
+                
+self
+.
 log
 .
 info
