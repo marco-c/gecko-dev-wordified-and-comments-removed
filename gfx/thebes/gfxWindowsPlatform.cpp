@@ -4514,9 +4514,6 @@ gfxWindowsPlatform
 :
 IsFontFormatSupported
 (
-nsIURI
-*
-aFontURI
 uint32_t
 aFormatFlags
 )
