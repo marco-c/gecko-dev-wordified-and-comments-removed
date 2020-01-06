@@ -306,7 +306,6 @@ level
 let
 s
 =
-new
 String
 (
 level

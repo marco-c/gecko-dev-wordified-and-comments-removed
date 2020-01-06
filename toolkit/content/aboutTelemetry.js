@@ -864,7 +864,6 @@ n
 )
 {
 return
-new
 String
 (
 n

@@ -2945,7 +2945,6 @@ scaleValues
 ;
 aValue
 =
-new
 Number
 (
 aValue

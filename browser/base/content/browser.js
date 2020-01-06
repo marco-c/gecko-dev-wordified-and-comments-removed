@@ -22117,14 +22117,6 @@ domwindowclosed
 )
 ;
 var
-charsetArg
-=
-new
-String
-(
-)
-;
-var
 handler
 =
 Components
@@ -22331,6 +22323,7 @@ document
 .
 characterSet
 ;
+let
 charsetArg
 =
 "

@@ -1233,17 +1233,6 @@ var
 "
 error
 "
-"
-no
--
-new
--
-wrappers
-"
-:
-"
-error
-"
 }
 }
 ;
