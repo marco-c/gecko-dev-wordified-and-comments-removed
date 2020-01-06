@@ -121,6 +121,15 @@ mSize
 =
 aSize
 ;
+mFormat
+=
+aRefDT
+-
+>
+GetFormat
+(
+)
+;
 return
 true
 ;
