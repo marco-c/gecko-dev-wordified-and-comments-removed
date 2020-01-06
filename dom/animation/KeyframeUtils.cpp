@@ -2333,7 +2333,14 @@ SpacingMode
 distribute
 eCSSProperty_UNKNOWN
 emptyArray
+static_cast
+<
+nsStyleContext
+*
+>
+(
 nullptr
+)
 )
 ;
 }
