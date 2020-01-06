@@ -1044,11 +1044,11 @@ syntax
 The
 string
 "
-currentColor
+currentcolor
 "
 for
 the
-currentColor
+currentcolor
 keyword
 *
 An
