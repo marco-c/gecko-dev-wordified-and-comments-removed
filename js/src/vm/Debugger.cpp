@@ -34419,7 +34419,7 @@ RootedId
 offsetId
 (
 cx
-AtomToId
+NameToId
 (
 cx
 -
@@ -34436,7 +34436,7 @@ RootedId
 lineNumberId
 (
 cx
-AtomToId
+NameToId
 (
 cx
 -
@@ -34453,7 +34453,7 @@ RootedId
 columnNumberId
 (
 cx
-AtomToId
+NameToId
 (
 cx
 -
@@ -34470,7 +34470,7 @@ RootedId
 countId
 (
 cx
-AtomToId
+NameToId
 (
 cx
 -

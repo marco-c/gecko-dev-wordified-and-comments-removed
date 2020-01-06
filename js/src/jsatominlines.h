@@ -194,6 +194,17 @@ atom
 ;
 }
 inline
+jsid
+AtomToId
+(
+PropertyName
+*
+name
+)
+=
+delete
+;
+inline
 bool
 ValueToIdPure
 (

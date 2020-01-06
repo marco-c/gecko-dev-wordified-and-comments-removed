@@ -16646,7 +16646,7 @@ jsid
 value_id
 (
 cx
-AtomToId
+NameToId
 (
 cx
 -
@@ -16666,7 +16666,7 @@ jsid
 done_id
 (
 cx
-AtomToId
+NameToId
 (
 cx
 -

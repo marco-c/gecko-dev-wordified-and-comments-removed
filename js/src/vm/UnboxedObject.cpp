@@ -9990,7 +9990,7 @@ propid
 )
 !
 =
-AtomToId
+NameToId
 (
 cx
 -
