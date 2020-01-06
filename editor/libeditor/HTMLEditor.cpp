@@ -673,6 +673,10 @@ ParagraphSeparator
 br
 )
 {
+mIsHTMLEditorClass
+=
+true
+;
 }
 HTMLEditor
 :

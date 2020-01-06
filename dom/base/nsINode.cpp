@@ -67,6 +67,15 @@ include
 "
 mozilla
 /
+HTMLEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 InternalMutationEvent
 .
 h
