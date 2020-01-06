@@ -122,10 +122,14 @@ nsIntSize
 (
 mFrameRect
 .
-width
+Width
+(
+)
 mFrameRect
 .
-height
+Height
+(
+)
 )
 ;
 }
