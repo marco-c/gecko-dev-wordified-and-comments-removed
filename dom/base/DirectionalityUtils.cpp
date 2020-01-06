@@ -357,6 +357,15 @@ parent
 NodeOrAncestorHasDirAuto
 (
 )
+&
+&
+!
+aTextNode
+-
+>
+IsInAnonymousSubtree
+(
+)
 )
 ;
 }
