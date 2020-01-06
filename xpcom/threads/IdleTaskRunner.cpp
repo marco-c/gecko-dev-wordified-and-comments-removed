@@ -44,6 +44,10 @@ const
 CallbackType
 &
 aCallback
+const
+char
+*
+aRunnableName
 uint32_t
 aDelay
 int64_t
@@ -82,6 +86,7 @@ new
 IdleTaskRunner
 (
 aCallback
+aRunnableName
 aDelay
 aBudget
 aRepeating
@@ -114,6 +119,10 @@ const
 CallbackType
 &
 aCallback
+const
+char
+*
+aRunnableName
 uint32_t
 aDelay
 int64_t
@@ -128,6 +137,10 @@ TaskCategory
 aTaskCategory
 )
 :
+IdleRunnable
+(
+aRunnableName
+)
 mCallback
 (
 aCallback

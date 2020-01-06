@@ -1247,6 +1247,12 @@ Create
 (
 &
 BackgroundFlushCallback
+"
+nsHtml5TreeOpExecutor
+:
+:
+BackgroundFlushCallback
+"
 250
 nsContentSink
 :
