@@ -5284,7 +5284,7 @@ field
 "
 )
 .
-as_f64
+as_u64
 (
 )
 ErrorStatus
@@ -5297,7 +5297,7 @@ to
 interpret
 width
 as
-float
+integer
 "
 )
 ;
@@ -5333,7 +5333,7 @@ field
 "
 )
 .
-as_f64
+as_u64
 (
 )
 ErrorStatus
@@ -5346,7 +5346,7 @@ to
 interpret
 height
 as
-float
+integer
 "
 )
 ;
@@ -5382,7 +5382,7 @@ field
 "
 )
 .
-as_f64
+as_i64
 (
 )
 ErrorStatus
@@ -5395,7 +5395,7 @@ to
 interpret
 x
 as
-float
+integer
 "
 )
 ;
@@ -5431,7 +5431,7 @@ field
 "
 )
 .
-as_f64
+as_i64
 (
 )
 ErrorStatus
@@ -5444,7 +5444,7 @@ to
 interpret
 y
 as
-float
+integer
 "
 )
 ;
