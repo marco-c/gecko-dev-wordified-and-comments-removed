@@ -41,8 +41,10 @@ jsm
 var
 {
 Loader
+Require
 descriptor
 resolveURI
+unload
 }
 =
 Cu
@@ -389,8 +391,6 @@ loader
 =
 new
 Loader
-.
-Loader
 (
 {
 id
@@ -473,8 +473,6 @@ function
 reason
 )
 {
-Loader
-.
 unload
 (
 this
@@ -773,8 +771,6 @@ this
 .
 require
 =
-Loader
-.
 Require
 (
 this
