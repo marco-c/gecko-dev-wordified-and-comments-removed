@@ -254,6 +254,15 @@ OSVR_DisplayConfig
 *
 m_display
 ;
+gfx
+:
+:
+Matrix4x4
+mHeadToEye
+[
+2
+]
+;
 }
 ;
 }
