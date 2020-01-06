@@ -9725,8 +9725,8 @@ getEventDispatcher
 )
 ;
 }
-Override
-public
+protected
+static
 GeckoProfile
 getProfile
 (
