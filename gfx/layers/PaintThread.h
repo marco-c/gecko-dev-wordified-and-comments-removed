@@ -36,10 +36,10 @@ namespace
 gfx
 {
 class
-DrawEventRecorderMemory
+DrawTarget
 ;
 class
-DrawTarget
+DrawTargetCapture
 ;
 }
 ;
@@ -77,9 +77,9 @@ PaintContents
 gfx
 :
 :
-DrawEventRecorderMemory
+DrawTargetCapture
 *
-aRecording
+aCapture
 gfx
 :
 :
