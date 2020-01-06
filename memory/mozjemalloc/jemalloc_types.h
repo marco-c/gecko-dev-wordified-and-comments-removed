@@ -68,9 +68,6 @@ size_t
 narenas
 ;
 size_t
-balance_threshold
-;
-size_t
 quantum
 ;
 size_t
