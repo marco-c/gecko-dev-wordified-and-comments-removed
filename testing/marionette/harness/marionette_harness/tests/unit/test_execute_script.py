@@ -2791,6 +2791,18 @@ assert_is_web_element
 el
 )
     
+skip_if_mobile
+(
+"
+Modal
+dialogs
+not
+supported
+in
+Fennec
+"
+)
+    
 def
 test_return_value_on_alert
 (
