@@ -279,6 +279,9 @@ mCloseWhenDone
 bool
 mRetargeting
 ;
+bool
+mAsyncStreamIsBuffered
+;
 mozilla
 :
 :
