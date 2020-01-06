@@ -98,6 +98,10 @@ export
 MOZ_TELEMETRY_REPORTING
 =
 1
+export
+MOZ_ANDROID_POCKET
+=
+1
 .
 "
 topsrcdir
