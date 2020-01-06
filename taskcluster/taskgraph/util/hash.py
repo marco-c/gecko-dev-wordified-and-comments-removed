@@ -26,11 +26,35 @@ import
 hashlib
 memoize
 def
-_hash_path
+hash_path
 (
 path
 )
 :
+    
+"
+"
+"
+Hash
+a
+single
+file
+.
+    
+Returns
+the
+SHA
+-
+256
+hash
+in
+hex
+form
+.
+    
+"
+"
+"
     
 with
 open
@@ -221,7 +245,7 @@ n
 format
 (
             
-_hash_path
+hash_path
 (
 mozpath
 .
