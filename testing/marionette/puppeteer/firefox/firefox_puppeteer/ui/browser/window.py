@@ -613,9 +613,9 @@ AddOnInstallBlockedNotification
 '
 addon
 -
-install
+webext
 -
-confirmation
+permissions
 -
 notification
 '
