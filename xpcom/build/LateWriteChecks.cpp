@@ -597,9 +597,6 @@ hFile
 ;
 do
 {
-int
-result
-=
 _mktemp_s
 (
 name
