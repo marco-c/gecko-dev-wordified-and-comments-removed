@@ -4716,7 +4716,7 @@ aOffset
 ;
 leaf
 .
-Insert
+InsertLiteral
 (
 "
 %

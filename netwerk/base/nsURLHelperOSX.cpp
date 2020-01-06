@@ -687,7 +687,7 @@ testRef
 ;
 possibleVolName
 .
-Insert
+InsertLiteral
 (
 "
 /

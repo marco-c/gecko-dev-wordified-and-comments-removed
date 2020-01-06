@@ -1961,11 +1961,11 @@ else
 {
 path
 .
-InsertLiteral
+Insert
 (
-"
+'
 .
-"
+'
 0
 )
 ;

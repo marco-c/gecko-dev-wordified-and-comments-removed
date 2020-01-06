@@ -4245,7 +4245,7 @@ cwdStr
 ;
 cwdStr
 .
-Insert
+InsertLiteral
 (
 "
 CWD
@@ -4359,7 +4359,7 @@ sizeBuf
 ;
 sizeBuf
 .
-Insert
+InsertLiteral
 (
 "
 SIZE
@@ -4485,7 +4485,7 @@ mdtmBuf
 ;
 mdtmBuf
 .
-Insert
+InsertLiteral
 (
 "
 MDTM
@@ -5217,7 +5217,7 @@ retrStr
 ;
 retrStr
 .
-Insert
+InsertLiteral
 (
 "
 RETR
@@ -5571,7 +5571,7 @@ storStr
 ;
 storStr
 .
-Insert
+InsertLiteral
 (
 "
 STOR

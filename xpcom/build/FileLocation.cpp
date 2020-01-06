@@ -566,7 +566,7 @@ IsZip
 {
 aResult
 .
-Insert
+InsertLiteral
 (
 "
 jar
