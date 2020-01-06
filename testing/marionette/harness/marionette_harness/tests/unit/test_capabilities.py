@@ -8,6 +8,10 @@ from
 marionette_harness
 import
 MarionetteTestCase
+from
+FixTk
+import
+convert_path
 class
 TestCapabilities
 (
@@ -513,6 +517,8 @@ else
                 
 current_profile
 =
+convert_path
+(
 self
 .
 marionette
@@ -524,10 +530,15 @@ runner
 profile
 .
 profile
+)
             
 self
 .
 assertEqual
+(
+convert_path
+(
+str
 (
 self
 .
@@ -539,6 +550,8 @@ moz
 profile
 "
 ]
+)
+)
 current_profile
 )
             
@@ -546,11 +559,17 @@ self
 .
 assertEqual
 (
+convert_path
+(
+str
+(
 self
 .
 marionette
 .
 profile
+)
+)
 current_profile
 )
         
