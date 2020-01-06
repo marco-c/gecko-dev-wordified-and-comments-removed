@@ -2690,15 +2690,6 @@ aParams
 context
 -
 >
-Save
-(
-)
-;
-aParams
-.
-context
--
->
 Clip
 (
 clipRect
@@ -2782,7 +2773,7 @@ aParams
 context
 -
 >
-Restore
+PopClip
 (
 )
 ;
