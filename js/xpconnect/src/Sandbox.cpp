@@ -488,14 +488,6 @@ NS_INTERFACE_MAP_ENTRY
 nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_END
-const
-char
-kScriptSecurityManagerContractID
-[
-]
-=
-NS_SCRIPTSECURITYMANAGER_CONTRACTID
-;
 class
 nsXPCComponents_utils_Sandbox
 :
