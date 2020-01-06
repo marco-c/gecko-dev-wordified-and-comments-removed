@@ -96,6 +96,11 @@ type
 log
 "
 "
+helperType
+"
+:
+null
+"
 level
 "
 :
@@ -424,6 +429,11 @@ type
 "
 log
 "
+"
+helperType
+"
+:
+null
 "
 level
 "
