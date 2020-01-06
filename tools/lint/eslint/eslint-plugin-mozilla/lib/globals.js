@@ -527,6 +527,8 @@ escope
 analyze
 (
 ast
+{
+}
 )
 ;
 let
