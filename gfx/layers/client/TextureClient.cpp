@@ -4303,6 +4303,7 @@ ifdef
 XP_WIN
 if
 (
+(
 aLayersBackend
 =
 =
@@ -4310,6 +4311,16 @@ LayersBackend
 :
 :
 LAYERS_D3D11
+|
+|
+aLayersBackend
+=
+=
+LayersBackend
+:
+:
+LAYERS_WR
+)
 &
 &
 (
