@@ -995,7 +995,12 @@ aState
 )
 ;
 void
-NotifyFinishedAsyncPaintTransaction
+NotifyBeginAsyncPaintEndTransaction
+(
+)
+;
+void
+NotifyFinishedAsyncPaintEndTransaction
 (
 )
 ;
@@ -1341,6 +1346,9 @@ mPaintLock
 ;
 size_t
 mOutstandingAsyncPaints
+;
+bool
+mOutstandingAsyncEndTransaction
 ;
 bool
 mIsWaitingForPaint
