@@ -769,6 +769,14 @@ property
 )
 SERVO_BINDING_FUNC
 (
+Servo_GetProperties_Overriding_Animation
+void
+RawGeckoElementBorrowed
+RawGeckoCSSPropertyIDListBorrowed
+nsCSSPropertyIDSetBorrowedMut
+)
+SERVO_BINDING_FUNC
+(
 Servo_AnimationValues_Interpolate
 RawServoAnimationValueStrong
 RawServoAnimationValueBorrowed

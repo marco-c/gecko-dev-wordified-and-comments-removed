@@ -1064,6 +1064,9 @@ nsCSSKeyword
 nsCSSPropertyID
 "
 "
+nsCSSPropertyIDSet
+"
+"
 nsCSSProps
 "
 "
@@ -1904,6 +1907,9 @@ RawGeckoAnimationPropertySegment
 RawGeckoComputedTiming
 "
 "
+RawGeckoCSSPropertyIDList
+"
+"
 RawGeckoDocument
 "
 "
@@ -2016,6 +2022,9 @@ nsCSSKeyword
 "
 "
 nsCSSPropertyID
+"
+"
+nsCSSPropertyIDSet
 "
 "
 nsCSSShadowArray
@@ -2319,6 +2328,9 @@ types
 =
 [
 "
+nsCSSPropertyIDSet
+"
+"
 nsCSSValue
 "
 "
@@ -2332,6 +2344,9 @@ RawGeckoAnimationValueList
 "
 "
 RawGeckoComputedTiming
+"
+"
+RawGeckoCSSPropertyIDList
 "
 "
 RawGeckoKeyframeList

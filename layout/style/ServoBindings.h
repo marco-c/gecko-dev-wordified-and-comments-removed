@@ -2683,6 +2683,13 @@ bool
 set_slow_selector
 )
 ;
+void
+Gecko_AddPropertyToSet
+(
+nsCSSPropertyIDSetBorrowedMut
+nsCSSPropertyID
+)
+;
 #
 define
 STYLE_STRUCT
