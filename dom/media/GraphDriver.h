@@ -1062,6 +1062,11 @@ Stop
 (
 )
 ;
+void
+FallbackToSystemClockDriver
+(
+)
+;
 uint32_t
 mOutputChannels
 ;
