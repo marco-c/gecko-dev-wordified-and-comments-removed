@@ -19175,13 +19175,6 @@ blendClip
 aBuilder
 )
 ;
-blendClip
-.
-ClearUpToASR
-(
-asr
-)
-;
 thisItemList
 .
 AppendNewToTop
@@ -19236,13 +19229,6 @@ AutoSaveRestore
 blendContainerClip
 (
 aBuilder
-)
-;
-blendContainerClip
-.
-ClearUpToASR
-(
-asr
 )
 ;
 bgItemList
@@ -30553,6 +30539,8 @@ const
 ActiveScrolledRoot
 *
 aActiveScrolledRoot
+bool
+aClearClipChain
 )
 :
 nsDisplayItem
@@ -30565,6 +30553,15 @@ mList
 (
 aBuilder
 )
+mFrameActiveScrolledRoot
+(
+aBuilder
+-
+>
+CurrentActiveScrolledRoot
+(
+)
+)
 mOverrideZIndex
 (
 0
@@ -30572,6 +30569,10 @@ mOverrideZIndex
 mHasZIndexOverride
 (
 false
+)
+mClearingClipChain
+(
+aClearClipChain
 )
 {
 MOZ_COUNT_CTOR
@@ -32057,6 +32058,7 @@ aBuilder
 aFrame
 aList
 aActiveScrolledRoot
+true
 )
 mOpacity
 (
@@ -33256,6 +33258,7 @@ aBuilder
 aFrame
 aList
 aActiveScrolledRoot
+true
 )
 mBlendMode
 (
@@ -33738,6 +33741,7 @@ aBuilder
 aFrame
 aList
 aActiveScrolledRoot
+true
 )
 mIsForBackground
 (
@@ -33975,6 +33979,8 @@ ScrollThumbData
 aThumbData
 bool
 aForceActive
+bool
+aClearClipChain
 )
 :
 nsDisplayWrapList
@@ -33983,6 +33989,7 @@ aBuilder
 aFrame
 aList
 aActiveScrolledRoot
+aClearClipChain
 )
 mFlags
 (
@@ -44475,6 +44482,8 @@ const
 ActiveScrolledRoot
 *
 aActiveScrolledRoot
+bool
+aClearClipChain
 )
 :
 nsDisplayWrapList
@@ -44483,6 +44492,7 @@ aBuilder
 aFrame
 aList
 aActiveScrolledRoot
+aClearClipChain
 )
 mHandleOpacity
 (
@@ -45340,6 +45350,7 @@ aFrame
 aList
 aHandleOpacity
 aActiveScrolledRoot
+true
 )
 {
 MOZ_COUNT_CTOR

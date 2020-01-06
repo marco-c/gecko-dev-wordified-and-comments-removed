@@ -112,6 +112,16 @@ aOldList
 nsDisplayList
 *
 aOutList
+const
+mozilla
+:
+:
+ActiveScrolledRoot
+*
+*
+aOutContainerASR
+=
+nullptr
 )
 ;
 bool
