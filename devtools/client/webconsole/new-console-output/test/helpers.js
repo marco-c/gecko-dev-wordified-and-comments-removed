@@ -238,17 +238,8 @@ setupStore
 input
 hud
 options
-=
-{
-}
 )
 {
-options
-.
-noDebounce
-=
-true
-;
 const
 store
 =
