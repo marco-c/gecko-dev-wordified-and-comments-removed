@@ -1757,7 +1757,6 @@ font_data
 )
 ;
 return
--
 fcd
 -
 >
@@ -1856,13 +1855,6 @@ glyph
 x
 y
 )
-;
-*
-y
-=
--
-*
-y
 ;
 return
 true
@@ -7595,7 +7587,6 @@ aVertical
 {
 i_offset
 =
--
 posInfo
 [
 glyphStart
@@ -7605,7 +7596,6 @@ y_offset
 ;
 i_advance
 =
--
 posInfo
 [
 glyphStart
@@ -8001,7 +7991,7 @@ aVertical
 i_offset
 =
 baseIOffset
-+
+-
 posInfo
 [
 glyphStart
@@ -8011,7 +8001,6 @@ y_offset
 ;
 i_advance
 =
--
 posInfo
 [
 glyphStart
