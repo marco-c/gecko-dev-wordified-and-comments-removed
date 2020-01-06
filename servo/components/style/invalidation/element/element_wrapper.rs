@@ -765,7 +765,7 @@ NonTSPseudoClass
 Dir
 (
 ref
-s
+dir
 )
 =
 >
@@ -787,7 +787,7 @@ selector_flag
 =
 dir_selector_to_state
 (
-s
+dir
 )
 ;
 if

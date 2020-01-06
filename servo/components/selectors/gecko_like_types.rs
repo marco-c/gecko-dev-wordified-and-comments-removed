@@ -29,6 +29,14 @@ u16
 ]
 >
 )
+Dir
+(
+Box
+<
+(
+)
+>
+)
 MozAny
 (
 Box
