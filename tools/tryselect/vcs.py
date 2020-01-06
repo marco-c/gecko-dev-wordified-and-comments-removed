@@ -417,6 +417,9 @@ write_task_config
 (
 self
 labels
+templates
+=
+None
 )
 :
         
@@ -450,14 +453,37 @@ as
 fh
 :
             
-json
-.
-dump
-(
+try_task_config
+=
+{
+'
+tasks
+'
+:
 sorted
 (
 labels
 )
+}
+            
+if
+templates
+:
+                
+try_task_config
+[
+'
+templates
+'
+]
+=
+templates
+            
+json
+.
+dump
+(
+try_task_config
 fh
 indent
 =
@@ -543,6 +569,9 @@ msg
 labels
 =
 None
+templates
+=
+None
 )
 :
         
@@ -563,6 +592,7 @@ self
 write_task_config
 (
 labels
+templates
 )
             
 self
@@ -815,6 +845,9 @@ msg
 labels
 =
 None
+templates
+=
+None
 )
 :
         
@@ -876,6 +909,7 @@ self
 write_task_config
 (
 labels
+templates
 )
             
 self
