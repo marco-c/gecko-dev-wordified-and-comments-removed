@@ -235,14 +235,12 @@ repeat
 :
 PropTypes
 .
-object
+number
 networkMessageUpdate
 :
 PropTypes
 .
 object
-.
-isRequired
 }
 getDefaultProps
 :
