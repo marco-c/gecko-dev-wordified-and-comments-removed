@@ -382,6 +382,16 @@ ImageContainer
 >
 mImageContainer
 ;
+struct
+{
+bool
+mImageSizeChanged
+=
+false
+;
+}
+mMainThreadState
+;
 Mutex
 mMutex
 ;
@@ -408,9 +418,6 @@ mLastPlayedVideoFrame
 ;
 bool
 mIntrinsicSizeChanged
-;
-bool
-mImageSizeChanged
 ;
 PrincipalHandle
 mLastPrincipalHandle
