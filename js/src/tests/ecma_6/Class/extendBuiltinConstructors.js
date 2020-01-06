@@ -527,17 +527,6 @@ elements
 "
 )
 ;
-if
-(
-typeof
-Promise
-!
-=
-=
-"
-undefined
-"
-)
 testBuiltin
 (
 Promise

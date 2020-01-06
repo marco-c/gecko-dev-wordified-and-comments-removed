@@ -144,10 +144,6 @@ new
 WeakSet
 (
 )
-this
-.
-Promise
-?
 new
 Promise
 (
@@ -159,8 +155,6 @@ Promise
 done
 "
 )
-:
-null
 Symbol
 (
 "
