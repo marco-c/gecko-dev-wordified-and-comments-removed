@@ -99,11 +99,6 @@ MP4Demuxer
 .
 h
 '
-'
-MP4Stream
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -111,11 +106,6 @@ UNIFIED_SOURCES
 [
 '
 MP4Decoder
-.
-cpp
-'
-'
-MP4Stream
 .
 cpp
 '
