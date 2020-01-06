@@ -171,6 +171,11 @@ extensions
 =
 [
 '
+StreamFilterBase
+.
+h
+'
+'
 StreamFilterChild
 .
 h
