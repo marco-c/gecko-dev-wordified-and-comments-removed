@@ -719,6 +719,15 @@ urlbar
 -
 icons
 {
+-
+moz
+-
+box
+-
+align
+:
+center
+;
 margin
 -
 inline
@@ -733,6 +742,11 @@ urlbar
 -
 icon
 {
+padding
+:
+0
+3px
+;
 width
 :
 22px
