@@ -1751,6 +1751,15 @@ nsIURI
 aDocURI
 )
 ;
+static
+bool
+HasUserSpaceOnUseUnitsMaskOrClipPath
+(
+nsIFrame
+*
+aFrame
+)
+;
 }
 ;
 #
