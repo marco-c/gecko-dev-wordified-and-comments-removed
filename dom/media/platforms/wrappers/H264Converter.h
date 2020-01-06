@@ -221,7 +221,7 @@ mLastError
 }
 private
 :
-MediaResult
+nsresult
 CreateDecoder
 (
 const
@@ -233,7 +233,7 @@ DecoderDoctorDiagnostics
 aDiagnostics
 )
 ;
-MediaResult
+nsresult
 CreateDecoderAndInit
 (
 MediaRawData
@@ -241,7 +241,7 @@ MediaRawData
 aSample
 )
 ;
-MediaResult
+nsresult
 CheckForSPSChange
 (
 MediaRawData
