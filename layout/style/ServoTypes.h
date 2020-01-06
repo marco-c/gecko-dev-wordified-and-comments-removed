@@ -259,10 +259,14 @@ mPtr
 ;
 }
 ;
+class
+ServoStyleContext
+;
 struct
 ServoVisitedStyle
 {
-uintptr_t
+ServoStyleContext
+*
 mPtr
 ;
 }
