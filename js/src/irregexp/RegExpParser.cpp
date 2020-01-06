@@ -28,6 +28,13 @@ h
 #
 include
 "
+jsgc
+.
+h
+"
+#
+include
+"
 frontend
 /
 TokenStream

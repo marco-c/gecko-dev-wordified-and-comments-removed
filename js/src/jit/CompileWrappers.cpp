@@ -1,6 +1,13 @@
 #
 include
 "
+jsgc
+.
+h
+"
+#
+include
+"
 jit
 /
 Ion

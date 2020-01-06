@@ -19,14 +19,14 @@ h
 #
 include
 "
-jsapi
+jscompartment
 .
 h
 "
 #
 include
 "
-jscompartment
+jsgc
 .
 h
 "
