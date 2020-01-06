@@ -2194,6 +2194,8 @@ gfx
 Matrix4x4
 *
 aTransform
+WrTransformStyle
+aTransformStyle
 const
 WrMixBlendMode
 &
@@ -2283,6 +2285,7 @@ aBounds
 aAnimationId
 aOpacity
 maybeTransform
+aTransformStyle
 aMixBlendMode
 aFilters
 .

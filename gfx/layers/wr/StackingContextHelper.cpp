@@ -155,6 +155,10 @@ nullptr
 :
 &
 mTransform
+WrTransformStyle
+:
+:
+Flat
 wr
 :
 :
@@ -263,6 +267,10 @@ scBounds
 aAnimationsId
 aOpacityPtr
 aTransformPtr
+WrTransformStyle
+:
+:
+Flat
 wr
 :
 :
