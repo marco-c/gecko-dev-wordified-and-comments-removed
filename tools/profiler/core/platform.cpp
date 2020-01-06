@@ -12557,7 +12557,7 @@ aLock
 const
 char
 *
-aMarker
+aMarkerName
 ProfilerMarkerPayload
 *
 aPayload
@@ -12687,7 +12687,7 @@ racyInfo
 >
 AddPendingMarker
 (
-aMarker
+aMarkerName
 payload
 .
 release
@@ -12707,7 +12707,7 @@ profiler_add_marker
 const
 char
 *
-aMarker
+aMarkerName
 ProfilerMarkerPayload
 *
 aPayload
@@ -12768,7 +12768,7 @@ return
 locked_profiler_add_marker
 (
 lock
-aMarker
+aMarkerName
 payload
 .
 release
@@ -12787,7 +12787,7 @@ aCategory
 const
 char
 *
-aInfo
+aMarkerName
 TracingKind
 aKind
 )
@@ -12833,7 +12833,7 @@ return
 ;
 }
 auto
-marker
+payload
 =
 new
 ProfilerMarkerTracing
@@ -12845,8 +12845,8 @@ aKind
 locked_profiler_add_marker
 (
 lock
-aInfo
-marker
+aMarkerName
+payload
 )
 ;
 }
@@ -12860,7 +12860,7 @@ aCategory
 const
 char
 *
-aInfo
+aMarkerName
 UniqueProfilerBacktrace
 aCause
 TracingKind
@@ -12908,7 +12908,7 @@ return
 ;
 }
 auto
-marker
+payload
 =
 new
 ProfilerMarkerTracing
@@ -12927,8 +12927,8 @@ aCause
 locked_profiler_add_marker
 (
 lock
-aInfo
-marker
+aMarkerName
+payload
 )
 ;
 }
