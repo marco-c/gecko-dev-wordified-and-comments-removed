@@ -3267,11 +3267,6 @@ Gecko_ShouldCreateStyleThreadPool
 (
 )
 ;
-size_t
-Gecko_GetSystemPageSize
-(
-)
-;
 #
 define
 STYLE_STRUCT
