@@ -617,11 +617,6 @@ icon
 }
 }
 else
-if
-(
-!
-defaultIcon
-)
 {
 defaultIcon
 =
