@@ -2394,9 +2394,6 @@ mType
 aType
 )
 ;
-mp4_demuxer
-:
-:
 BufferReader
 reader
 (

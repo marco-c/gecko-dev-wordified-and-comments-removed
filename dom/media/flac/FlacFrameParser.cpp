@@ -49,12 +49,6 @@ ResultExtensions
 .
 h
 "
-using
-mp4_demuxer
-:
-:
-BufferReader
-;
 namespace
 mozilla
 {

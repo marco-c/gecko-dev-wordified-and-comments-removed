@@ -158,9 +158,6 @@ nsresult
 >
 Parse
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -431,9 +428,6 @@ const
 bool
 Parse
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -448,9 +442,6 @@ nsresult
 >
 ParseXing
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -463,9 +454,6 @@ nsresult
 >
 ParseVBRI
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -610,9 +598,6 @@ nsresult
 >
 Parse
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader
@@ -624,9 +609,6 @@ aBytesToSkip
 bool
 ParseVBRHeader
 (
-mp4_demuxer
-:
-:
 BufferReader
 *
 aReader

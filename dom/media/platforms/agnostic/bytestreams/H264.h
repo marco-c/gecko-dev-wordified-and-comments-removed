@@ -12,6 +12,13 @@ DecoderData
 h
 "
 namespace
+mozilla
+{
+class
+BitReader
+;
+}
+namespace
 mp4_demuxer
 {
 #
@@ -77,9 +84,6 @@ H264_NAL_SLICE_EXT_DVC
 =
 21
 }
-;
-class
-BitReader
 ;
 struct
 SPSData
@@ -501,6 +505,9 @@ static
 bool
 vui_parameters
 (
+mozilla
+:
+:
 BitReader
 &
 aBr
@@ -513,6 +520,9 @@ static
 void
 hrd_parameters
 (
+mozilla
+:
+:
 BitReader
 &
 aBr

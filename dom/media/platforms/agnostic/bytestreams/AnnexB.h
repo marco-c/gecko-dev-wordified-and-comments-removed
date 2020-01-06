@@ -32,6 +32,9 @@ namespace
 mozilla
 {
 class
+BufferReader
+;
+class
 MediaRawData
 ;
 class
@@ -41,9 +44,6 @@ MediaByteBuffer
 namespace
 mp4_demuxer
 {
-class
-BufferReader
-;
 class
 AnnexB
 {
@@ -170,6 +170,9 @@ nsresult
 >
 ConvertSPSOrPPS
 (
+mozilla
+:
+:
 BufferReader
 &
 aReader

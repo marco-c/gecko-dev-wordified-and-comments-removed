@@ -5,12 +5,8 @@ BitReader
 .
 h
 "
-using
 namespace
 mozilla
-;
-namespace
-mp4_demuxer
 {
 BitReader
 :

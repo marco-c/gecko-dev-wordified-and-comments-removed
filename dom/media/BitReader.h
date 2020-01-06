@@ -12,7 +12,7 @@ MediaData
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 class
 BitReader
