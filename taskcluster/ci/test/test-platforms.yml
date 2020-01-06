@@ -357,10 +357,6 @@ screenshot
 -
 capture
 -
-talos
--
-awsy
--
 headless
 linux64
 -
@@ -405,8 +401,6 @@ desktop
 screenshot
 -
 capture
--
-awsy
 -
 headless
 #
