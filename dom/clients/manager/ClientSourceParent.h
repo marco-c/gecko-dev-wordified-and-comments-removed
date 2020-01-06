@@ -57,6 +57,11 @@ ClientHandleParent
 >
 mHandleList
 ;
+void
+KillInvalidChild
+(
+)
+;
 IPCResult
 RecvTeardown
 (
@@ -104,6 +109,11 @@ aArgs
 ;
 ~
 ClientSourceParent
+(
+)
+;
+void
+Init
 (
 )
 ;
