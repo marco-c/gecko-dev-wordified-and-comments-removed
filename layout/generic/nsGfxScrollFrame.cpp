@@ -10293,6 +10293,16 @@ else
 mAsyncSmoothMSDScroll
 -
 >
+SetRange
+(
+GetScrollRangeForClamping
+(
+)
+)
+;
+mAsyncSmoothMSDScroll
+-
+>
 SetDestination
 (
 mDestination
