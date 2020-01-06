@@ -1955,7 +1955,7 @@ stringBundle
 GetStringFromName
 (
 "
-hideCreditCards
+hideCreditCardsBtnLabel
 "
 )
 :
@@ -1966,7 +1966,7 @@ stringBundle
 GetStringFromName
 (
 "
-showCreditCards
+showCreditCardsBtnLabel
 "
 )
 ;
