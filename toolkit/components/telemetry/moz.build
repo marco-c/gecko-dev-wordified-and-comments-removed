@@ -346,6 +346,11 @@ TelemetryIPCAccumulator
 cpp
 '
 '
+ProcessedStack
+.
+cpp
+'
+'
 Telemetry
 .
 cpp
