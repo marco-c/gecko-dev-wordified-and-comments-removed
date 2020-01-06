@@ -425,9 +425,6 @@ request
 CredentialsMode
 Destination
 RequestInit
-Type
-as
-RequestType
 }
 ;
 use
@@ -2817,7 +2814,7 @@ self
 )
 ;
 let
-type_
+destination
 =
 match
 self
@@ -2832,7 +2829,7 @@ HTMLMediaElementTypeId
 HTMLAudioElement
 =
 >
-RequestType
+Destination
 :
 :
 Audio
@@ -2842,7 +2839,7 @@ HTMLMediaElementTypeId
 HTMLVideoElement
 =
 >
-RequestType
+Destination
 :
 :
 Video
@@ -2854,13 +2851,7 @@ request
 RequestInit
 {
 url
-type_
 destination
-:
-Destination
-:
-:
-Media
 credentials_mode
 :
 CredentialsMode

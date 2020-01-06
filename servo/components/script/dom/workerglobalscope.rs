@@ -324,9 +324,6 @@ Destination
 RequestInit
 as
 NetRequestInit
-Type
-as
-RequestType
 }
 ;
 use
@@ -1232,12 +1229,6 @@ url
 clone
 (
 )
-type_
-:
-RequestType
-:
-:
-Script
 destination
 :
 Destination

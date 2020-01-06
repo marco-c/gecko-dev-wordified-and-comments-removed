@@ -49,9 +49,6 @@ request
 {
 Destination
 RequestInit
-Type
-as
-RequestType
 }
 ;
 use
@@ -1393,12 +1390,6 @@ url
 clone
 (
 )
-type_
-:
-RequestType
-:
-:
-Font
 destination
 :
 Destination

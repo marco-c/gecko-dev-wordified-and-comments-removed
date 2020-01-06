@@ -160,10 +160,7 @@ net_traits
 request
 :
 :
-{
 Destination
-Type
-}
 ;
 use
 servo_url
@@ -2046,10 +2043,6 @@ NetworkError
 {
 set_default_accept
 (
-Type
-:
-:
-None
 Destination
 :
 :
@@ -2180,7 +2173,7 @@ is_ok
 if
 should_be_blocked_due_to_nosniff
 (
-Type
+Destination
 :
 :
 None
