@@ -433,13 +433,7 @@ tabs
 '
 default
 =
-delayed_getattr
-(
-milestone
-'
 is_nightly
-'
-)
 )
 #
 Enable
