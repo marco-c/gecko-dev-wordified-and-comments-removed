@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
 PropTypes
-}
 =
 require
 (
@@ -20,6 +18,10 @@ shared
 vendor
 /
 react
+-
+prop
+-
+types
 "
 )
 ;
