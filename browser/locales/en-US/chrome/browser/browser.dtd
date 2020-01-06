@@ -7331,6 +7331,17 @@ sidebar
 <
 !
 ENTITY
+sidebarMenuClose
+.
+label
+"
+Close
+Sidebar
+"
+>
+<
+!
+ENTITY
 quitApplicationCmdWin2
 .
 label

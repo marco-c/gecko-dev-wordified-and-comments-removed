@@ -3140,9 +3140,9 @@ label
 =
 "
 &
-sidebarCloseButton
+sidebarMenuClose
 .
-tooltip
+label
 ;
 "
 class
