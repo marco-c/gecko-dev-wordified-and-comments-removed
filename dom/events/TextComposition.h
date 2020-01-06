@@ -249,6 +249,17 @@ GetRootWidget
 nullptr
 ;
 }
+TabParent
+*
+GetTabParent
+(
+)
+const
+{
+return
+mTabParent
+;
+}
 bool
 IsSynthesizedForTests
 (

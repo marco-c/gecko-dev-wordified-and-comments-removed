@@ -911,6 +911,11 @@ mFrameElement
 (
 nullptr
 )
+mContentCache
+(
+*
+this
+)
 mRect
 (
 0
@@ -8430,7 +8435,7 @@ NotifyIME
 (
 aIMENotification
 widget
-true
+this
 )
 ;
 if
@@ -8813,7 +8818,7 @@ NotifyIME
 (
 aIMENotification
 widget
-true
+this
 )
 ;
 *
