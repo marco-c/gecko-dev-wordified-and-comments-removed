@@ -654,6 +654,16 @@ repackage
 '
 win32
 -
+nightly
+-
+repackage
+-
+signing
+'
+    
+'
+win32
+-
 noopt
 -
 debug
