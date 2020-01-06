@@ -6045,6 +6045,16 @@ sLowerNetworkPriority
 }
 static
 bool
+ShowInputPlaceholderOnFocus
+(
+)
+{
+return
+sShowInputPlaceholderOnFocus
+;
+}
+static
+bool
 IsBytecodeCacheEnabled
 (
 )
@@ -6586,6 +6596,10 @@ sRequestIdleCallbackEnabled
 static
 bool
 sLowerNetworkPriority
+;
+static
+bool
+sShowInputPlaceholderOnFocus
 ;
 #
 ifndef
