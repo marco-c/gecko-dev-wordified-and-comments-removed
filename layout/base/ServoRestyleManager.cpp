@@ -4296,6 +4296,16 @@ MOZ_ASSERT
 parent
 )
 ;
+if
+(
+parent
+-
+>
+IsInComposedDoc
+(
+)
+)
+{
 parent
 -
 >
@@ -4310,6 +4320,7 @@ SetHasDirtyDescendantsForServo
 (
 )
 ;
+}
 }
 else
 {
