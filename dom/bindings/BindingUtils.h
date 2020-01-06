@@ -1287,6 +1287,10 @@ unwrappedObj
 )
 )
 ;
+T
+*
+tempValue
+;
 nsresult
 rv
 =
@@ -1297,7 +1301,7 @@ false
 >
 (
 unwrappedObj
-value
+tempValue
 protoID
 protoDepth
 )
@@ -1313,6 +1317,10 @@ rv
 obj
 =
 unwrappedObj
+;
+value
+=
+tempValue
 ;
 return
 NS_OK
