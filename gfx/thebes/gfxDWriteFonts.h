@@ -25,7 +25,7 @@ h
 #
 include
 <
-dwrite
+dwrite_1
 .
 h
 >
@@ -392,6 +392,12 @@ RefPtr
 IDWriteFontFace
 >
 mFontFace
+;
+RefPtr
+<
+IDWriteFontFace1
+>
+mFontFace1
 ;
 cairo_font_face_t
 *
