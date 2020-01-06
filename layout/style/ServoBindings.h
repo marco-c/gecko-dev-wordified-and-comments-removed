@@ -3267,6 +3267,13 @@ RawGeckoPresContextBorrowed
 pres_context
 )
 ;
+bool
+Gecko_IsDocumentBody
+(
+RawGeckoElementBorrowed
+element
+)
+;
 nscolor
 Gecko_GetLookAndFeelSystemColor
 (
