@@ -643,6 +643,8 @@ nsJSUtils
 :
 ExecutionContext
 "
+nullptr
+__LINE__
 js
 :
 :
@@ -653,7 +655,6 @@ Category
 :
 :
 JS
-__LINE__
 )
 #
 endif
