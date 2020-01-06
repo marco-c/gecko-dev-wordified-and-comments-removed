@@ -1315,7 +1315,7 @@ this
 .
 layoutInspector
 .
-getAllGrids
+getGrids
 (
 this
 .
@@ -1714,7 +1714,7 @@ this
 .
 layoutInspector
 .
-getAllGrids
+getGrids
 (
 this
 .

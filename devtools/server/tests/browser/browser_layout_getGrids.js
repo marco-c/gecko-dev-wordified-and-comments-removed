@@ -380,7 +380,7 @@ grids
 yield
 layout
 .
-getAllGrids
+getGrids
 (
 walker
 .
