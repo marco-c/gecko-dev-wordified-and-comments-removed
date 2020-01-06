@@ -457,7 +457,7 @@ static
 StyleAnimationValue
 SampleValue
 (
-float
+double
 aPortion
 const
 layers
