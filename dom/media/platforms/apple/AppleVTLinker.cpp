@@ -29,6 +29,13 @@ nsDebug
 h
 "
 #
+include
+"
+PlatformDecoderModule
+.
+h
+"
+#
 define
 LOG
 (
