@@ -346,12 +346,6 @@ HasRules
 )
 const
 ;
-uint64_t
-FindOwningWindowInnerID
-(
-)
-const
-;
 #
 ifdef
 DEBUG

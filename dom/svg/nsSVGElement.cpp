@@ -5535,6 +5535,13 @@ private
 nsCSSParser
 mParser
 ;
+css
+:
+:
+Loader
+*
+mLoader
+;
 nsIURI
 *
 mDocURI
@@ -5587,6 +5594,10 @@ aBackend
 )
 :
 mParser
+(
+aLoader
+)
+mLoader
 (
 aLoader
 )
@@ -5842,6 +5853,7 @@ OwnerDoc
 GetCompatibilityMode
 (
 )
+mLoader
 )
 ;
 }
