@@ -1003,6 +1003,12 @@ _selectColor
 color
 )
 ;
+this
+.
+_onEyeDropperDone
+(
+)
+;
 }
 )
 ;
