@@ -1958,6 +1958,9 @@ aList
 {
 nsDisplayList
 newList
+(
+aBuilder
+)
 ;
 while
 (
@@ -2106,6 +2109,9 @@ return
 }
 nsDisplayList
 list
+(
+aBuilder
+)
 ;
 aExtraPage
 -
@@ -2470,6 +2476,9 @@ aLists
 {
 nsDisplayListCollection
 set
+(
+aBuilder
+)
 ;
 if
 (
@@ -2641,6 +2650,9 @@ child
 ;
 nsDisplayList
 content
+(
+aBuilder
+)
 ;
 {
 DisplayListClipState

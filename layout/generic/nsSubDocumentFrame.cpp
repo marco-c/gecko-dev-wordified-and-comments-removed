@@ -1422,6 +1422,9 @@ aList
 {
 nsDisplayList
 tempItems
+(
+aBuilder
+)
 ;
 nsDisplayItem
 *
@@ -1462,6 +1465,9 @@ TYPE_BACKGROUND_COLOR
 {
 nsDisplayList
 tmpList
+(
+aBuilder
+)
 ;
 tmpList
 .
@@ -1593,6 +1599,9 @@ pointerEventsNone
 {
 nsDisplayListCollection
 decorations
+(
+aBuilder
+)
 ;
 DisplayBorderBackgroundOutline
 (
@@ -2071,6 +2080,9 @@ true
 }
 nsDisplayList
 childItems
+(
+aBuilder
+)
 ;
 {
 DisplayListClipState

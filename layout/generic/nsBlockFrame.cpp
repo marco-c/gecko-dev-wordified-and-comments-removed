@@ -31491,6 +31491,9 @@ return
 ;
 nsDisplayListCollection
 collection
+(
+aBuilder
+)
 ;
 nsDisplayListSet
 childLists
@@ -31855,6 +31858,9 @@ this
 ;
 nsDisplayListCollection
 linesDisplayListCollection
+(
+aBuilder
+)
 ;
 nsLineBox
 *

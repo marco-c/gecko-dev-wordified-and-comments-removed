@@ -14928,6 +14928,10 @@ BeginFrame
 ;
 nsDisplayList
 list
+(
+&
+builder
+)
 ;
 nsDisplayTransform
 *
@@ -16384,6 +16388,10 @@ BeginFrame
 ;
 nsDisplayList
 list
+(
+&
+builder
+)
 ;
 if
 (
@@ -18314,6 +18322,10 @@ aDirtyRegion
 }
 nsDisplayList
 list
+(
+&
+builder
+)
 ;
 if
 (

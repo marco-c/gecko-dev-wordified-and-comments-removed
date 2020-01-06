@@ -13832,6 +13832,9 @@ AlwaysLayerizeScrollbarTrackTestOnly
 ;
 nsDisplayListCollection
 partList
+(
+aBuilder
+)
 ;
 {
 nsDisplayListBuilder
@@ -15302,6 +15305,9 @@ inflatedClip
 }
 nsDisplayListCollection
 scrolledContent
+(
+aBuilder
+)
 ;
 {
 nsDisplayListBuilder

@@ -5738,6 +5738,9 @@ aLists
 {
 nsDisplayListCollection
 set
+(
+aBuilder
+)
 ;
 nsBlockFrame
 :

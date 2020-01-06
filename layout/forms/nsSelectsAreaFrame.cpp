@@ -649,6 +649,9 @@ return
 }
 nsDisplayListCollection
 set
+(
+aBuilder
+)
 ;
 BuildDisplayListInternal
 (
