@@ -28947,12 +28947,6 @@ dispatchEvent
 event
 )
 ;
-PlacesToolbarHelper
-.
-init
-(
-)
-;
 BookmarkingUI
 .
 onToolbarVisibilityChange
