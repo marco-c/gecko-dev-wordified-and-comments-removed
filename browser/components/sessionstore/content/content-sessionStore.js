@@ -2817,6 +2817,15 @@ deadline
 {
 if
 (
+!
+content
+)
+{
+return
+;
+}
+if
+(
 deadline
 )
 {
