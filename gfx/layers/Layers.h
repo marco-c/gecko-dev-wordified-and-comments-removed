@@ -2148,6 +2148,7 @@ mRecording
 ;
 public
 :
+virtual
 bool
 SetPendingScrollUpdateForNextTransaction
 (
