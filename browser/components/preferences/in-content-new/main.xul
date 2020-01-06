@@ -6896,7 +6896,7 @@ checkForUpdates
 align
 =
 "
-center
+start
 "
 >
 <
@@ -6963,7 +6963,7 @@ downloadAndInstall
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7023,7 +7023,7 @@ apply
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7090,7 +7090,7 @@ checkingForUpdates
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7170,7 +7170,7 @@ downloading
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7235,7 +7235,7 @@ applying
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7275,7 +7275,7 @@ downloadFailed
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7391,7 +7391,7 @@ adminDisabled
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7460,7 +7460,7 @@ noUpdatesFound
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7545,7 +7545,7 @@ otherInstanceHandlingUpdates
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7614,7 +7614,7 @@ manualUpdate
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7627,6 +7627,14 @@ face
 sad
 "
 /
+>
+<
+description
+flex
+=
+"
+1
+"
 >
 <
 label
@@ -7671,6 +7679,10 @@ end
 <
 /
 label
+>
+<
+/
+description
 >
 <
 spacer
@@ -7726,7 +7738,7 @@ unsupportedSystem
 align
 =
 "
-center
+start
 "
 >
 <
@@ -7761,6 +7773,7 @@ unsupportedLink
 class
 =
 "
+learnMore
 text
 -
 link
@@ -7849,7 +7862,7 @@ restarting
 align
 =
 "
-center
+start
 "
 >
 <
