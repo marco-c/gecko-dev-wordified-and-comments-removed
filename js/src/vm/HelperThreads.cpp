@@ -4030,6 +4030,7 @@ group
 ;
 public
 :
+explicit
 AutoClearUsedByHelperThread
 (
 JSObject
