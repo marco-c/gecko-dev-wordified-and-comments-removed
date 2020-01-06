@@ -1769,7 +1769,7 @@ buffer
 )
 SERVO_BINDING_FUNC
 (
-Servo_GetCustomProperty
+Servo_GetCustomPropertyValue
 bool
 ServoComputedValuesBorrowed
 computed_values
@@ -1780,6 +1780,13 @@ name
 nsAString
 *
 value
+)
+SERVO_BINDING_FUNC
+(
+Servo_GetCustomPropertiesCount
+uint32_t
+ServoComputedValuesBorrowed
+computed_values
 )
 #
 define
