@@ -13,7 +13,7 @@ version
 .
 6
 .
-0
+1
 "
 authors
 =
@@ -82,7 +82,7 @@ env_logger
 .
 3
 .
-1
+2
 "
 hyper
 =
@@ -93,6 +93,8 @@ version
 0
 .
 7
+.
+2
 "
 default
 -
@@ -107,7 +109,7 @@ log
 .
 3
 .
-1
+5
 "
 mozprofile
 =
@@ -136,7 +138,7 @@ serialize
 .
 3
 .
-14
+16
 "
 uuid
 =
@@ -145,14 +147,14 @@ uuid
 .
 1
 .
-17
+18
 "
 webdriver
 =
 "
 0
 .
-5
+6
 .
 0
 "
@@ -163,7 +165,7 @@ regex
 .
 1
 .
-41
+47
 "
 argparse
 =
