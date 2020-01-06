@@ -3676,7 +3676,7 @@ contextMenuPromise
 promisePanelShown
 (
 "
-pageActionContextMenu
+pageActionPanelContextMenu
 "
 )
 ;
@@ -3708,7 +3708,7 @@ document
 getElementById
 (
 "
-pageActionContextMenu
+pageActionPanelContextMenu
 "
 )
 ;
@@ -3767,7 +3767,7 @@ contextMenuPromise
 promisePanelHidden
 (
 "
-pageActionContextMenu
+pageActionPanelContextMenu
 "
 )
 ;
@@ -3836,7 +3836,7 @@ contextMenuPromise
 promisePanelShown
 (
 "
-pageActionContextMenu
+pageActionPanelContextMenu
 "
 )
 ;
@@ -3915,7 +3915,7 @@ contextMenuPromise
 promisePanelHidden
 (
 "
-pageActionContextMenu
+pageActionPanelContextMenu
 "
 )
 ;
@@ -3969,7 +3969,7 @@ contextMenuPromise
 promisePanelShown
 (
 "
-pageActionContextMenu
+pageActionPanelContextMenu
 "
 )
 ;
@@ -4048,7 +4048,7 @@ contextMenuPromise
 promisePanelHidden
 (
 "
-pageActionContextMenu
+pageActionPanelContextMenu
 "
 )
 ;
@@ -4106,7 +4106,7 @@ contextMenuPromise
 promisePanelShown
 (
 "
-pageActionContextMenu
+pageActionPanelContextMenu
 "
 )
 ;
@@ -4185,7 +4185,7 @@ contextMenuPromise
 promisePanelHidden
 (
 "
-pageActionContextMenu
+pageActionPanelContextMenu
 "
 )
 ;
