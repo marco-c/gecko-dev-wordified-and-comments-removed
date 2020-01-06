@@ -464,13 +464,6 @@ h
 #
 include
 "
-CounterStyleManager
-.
-h
-"
-#
-include
-"
 FrameLayerBuilder
 .
 h
@@ -1598,13 +1591,6 @@ CacheObserver
 :
 :
 Init
-(
-)
-;
-CounterStyleManager
-:
-:
-InitializeBuiltinCounterStyles
 (
 )
 ;
