@@ -2882,9 +2882,6 @@ NOTPARALLEL
 .
 PHONY
 :
-checkout
-\
-real_checkout
 \
 realbuild
 \
@@ -2892,15 +2889,11 @@ build
 \
 profiledbuild
 \
-pull_all
-\
 build_all
 \
 clobber
 \
 clobber_all
-\
-pull_and_build_all
 \
 configure
 \
