@@ -2782,3 +2782,13 @@ is
 blocked
 "
 )
+XPC_MSG_DEF
+(
+NS_ERROR_HARMFUL_URI
+"
+The
+URI
+is
+harmful
+"
+)

@@ -993,6 +993,16 @@ UNWANTED_SOFTWARE
 "
 goog
 -
+harmful
+-
+proto
+"
+POTENTIALLY_HARMFUL_APPLICATION
+}
+{
+"
+goog
+-
 phish
 -
 proto
