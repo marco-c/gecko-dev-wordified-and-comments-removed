@@ -107,6 +107,13 @@ cubeb
 core
 "
 }
+libc
+=
+"
+0
+.
+2
+"
 log
 =
 "

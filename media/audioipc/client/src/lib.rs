@@ -14,6 +14,10 @@ extern
 crate
 cubeb_backend
 ;
+extern
+crate
+libc
+;
 #
 [
 macro_use
