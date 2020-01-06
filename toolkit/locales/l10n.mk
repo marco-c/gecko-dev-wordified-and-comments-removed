@@ -1988,6 +1988,16 @@ MOZ_APP_DISPLAYNAME
 "
 -
 -
+l10n
+-
+basedir
+"
+(
+L10NBASEDIR
+)
+"
+-
+-
 defines
 (
 NEW_APP_DEFINES
