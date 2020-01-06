@@ -349,6 +349,11 @@ boolean
 aForceUpdate
 )
 ;
+jsval
+invalidateCachedLivemarks
+(
+)
+;
 }
 ;
 [
