@@ -184,15 +184,6 @@ gThreadClient
 =
 threadClient
 ;
-if
-(
-principal
-=
-=
-=
-null
-)
-{
 await
 testPrincipal
 (
@@ -200,12 +191,6 @@ undefined
 false
 )
 ;
-}
-if
-(
-false
-)
-{
 await
 testPrincipal
 (
@@ -220,7 +205,6 @@ systemPrincipal
 false
 )
 ;
-}
 await
 testPrincipal
 (
