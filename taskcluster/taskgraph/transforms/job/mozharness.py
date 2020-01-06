@@ -483,6 +483,23 @@ workers
 "
 )
     
+if
+not
+taskdesc
+[
+'
+worker
+'
+]
+[
+'
+docker
+-
+image
+'
+]
+:
+        
 taskdesc
 [
 '
