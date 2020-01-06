@@ -440,7 +440,6 @@ dirtyFrameFn
 await
 testFn
 (
-dirtyFrameFn
 )
 ;
 }
