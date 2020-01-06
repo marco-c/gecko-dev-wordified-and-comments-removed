@@ -1766,7 +1766,6 @@ AsWebRenderTextureHost
 ;
 Range
 <
-const
 wr
 :
 :
@@ -1792,7 +1791,7 @@ pipeline
 mCurrentTexture
 -
 >
-PushExternalImage
+PushDisplayItems
 (
 builder
 wr

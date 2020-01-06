@@ -594,7 +594,7 @@ void
 WebRenderTextureHost
 :
 :
-PushExternalImage
+PushDisplayItems
 (
 wr
 :
@@ -621,9 +621,9 @@ wr
 :
 ImageRendering
 aFilter
+const
 Range
 <
-const
 wr
 :
 :
@@ -652,7 +652,7 @@ length
 mWrappedTextureHost
 -
 >
-PushExternalImage
+PushDisplayItems
 (
 aBuilder
 aBounds

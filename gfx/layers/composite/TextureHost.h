@@ -1790,7 +1790,7 @@ Unimplemented
 }
 virtual
 void
-PushExternalImage
+PushDisplayItems
 (
 wr
 :
@@ -1817,9 +1817,9 @@ wr
 :
 ImageRendering
 aFilter
+const
 Range
 <
-const
 wr
 :
 :
@@ -1833,7 +1833,7 @@ MOZ_ASSERT_UNREACHABLE
 (
 "
 No
-PushExternalImage
+PushDisplayItems
 (
 )
 implementation
@@ -2183,7 +2183,7 @@ override
 ;
 virtual
 void
-PushExternalImage
+PushDisplayItems
 (
 wr
 :
@@ -2210,9 +2210,9 @@ wr
 :
 ImageRendering
 aFilter
+const
 Range
 <
-const
 wr
 :
 :

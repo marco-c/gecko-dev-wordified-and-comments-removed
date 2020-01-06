@@ -5167,7 +5167,7 @@ void
 DXGITextureHostD3D11
 :
 :
-PushExternalImage
+PushDisplayItems
 (
 wr
 :
@@ -5194,9 +5194,9 @@ wr
 :
 ImageRendering
 aFilter
+const
 Range
 <
-const
 wr
 :
 :
@@ -6520,7 +6520,7 @@ void
 DXGIYCbCrTextureHostD3D11
 :
 :
-PushExternalImage
+PushDisplayItems
 (
 wr
 :
@@ -6547,9 +6547,9 @@ wr
 :
 ImageRendering
 aFilter
+const
 Range
 <
-const
 wr
 :
 :
