@@ -7432,8 +7432,6 @@ MediaFormatReader
 :
 ShouldSkip
 (
-bool
-aSkipToNextKeyframe
 TimeUnit
 aTimeThreshold
 )
@@ -7471,7 +7469,7 @@ rv
 )
 {
 return
-aSkipToNextKeyframe
+false
 ;
 }
 return
@@ -7738,7 +7736,6 @@ HasInternalSeekPending
 &
 ShouldSkip
 (
-aSkipToNextKeyframe
 aTimeThreshold
 )
 )
