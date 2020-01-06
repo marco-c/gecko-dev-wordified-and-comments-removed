@@ -3072,7 +3072,7 @@ arena
 ;
 MOZ_MUST_USE
 bool
-gcIfNeededPerAllocation
+gcIfNeededAtAllocation
 (
 JSContext
 *
