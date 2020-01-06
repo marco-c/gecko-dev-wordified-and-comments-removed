@@ -1133,7 +1133,7 @@ forms
 .
 autocomplete
 .
-experimental
+formautofill
 "
 true
 )
@@ -1190,7 +1190,7 @@ forms
 .
 autocomplete
 .
-experimental
+formautofill
 "
 )
 ;
