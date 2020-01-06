@@ -49,7 +49,7 @@ mozilla
 /
 dom
 /
-WebAuthnTransactionParent
+PWebAuthnTransactionParent
 .
 h
 "
@@ -606,7 +606,7 @@ U2FTokenManager
 :
 MaybeClearTransaction
 (
-WebAuthnTransactionParent
+PWebAuthnTransactionParent
 *
 aParent
 )
@@ -763,7 +763,7 @@ U2FTokenManager
 :
 Register
 (
-WebAuthnTransactionParent
+PWebAuthnTransactionParent
 *
 aTransactionParent
 const
@@ -1145,7 +1145,7 @@ U2FTokenManager
 :
 Sign
 (
-WebAuthnTransactionParent
+PWebAuthnTransactionParent
 *
 aTransactionParent
 const
@@ -1541,7 +1541,7 @@ U2FTokenManager
 :
 Cancel
 (
-WebAuthnTransactionParent
+PWebAuthnTransactionParent
 *
 aParent
 )
