@@ -1226,8 +1226,6 @@ mOverscrollHandoffChain
 FindFirstScrollable
 (
 aInitialEvent
-&
-mAllowedScrollDirections
 )
 ;
 if
@@ -1341,8 +1339,6 @@ FindFirstScrollable
 (
 *
 aFirstInput
-&
-mAllowedScrollDirections
 )
 ;
 }
@@ -2018,8 +2014,6 @@ mOverscrollHandoffChain
 FindFirstScrollable
 (
 aInitialEvent
-&
-mAllowedScrollDirections
 )
 ;
 if
@@ -2097,8 +2091,6 @@ FindFirstScrollable
 (
 *
 aFirstInput
-&
-mAllowedScrollDirections
 )
 ;
 if

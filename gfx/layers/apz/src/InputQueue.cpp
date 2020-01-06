@@ -1484,9 +1484,6 @@ y
 =
 0
 ;
-ScrollDirections
-allowedScrollDirections
-;
 RefPtr
 <
 AsyncPanZoomController
@@ -1504,8 +1501,6 @@ GetOverscrollHandoffChain
 FindFirstScrollable
 (
 horizontalComponent
-&
-allowedScrollDirections
 )
 ;
 return
@@ -1520,17 +1515,6 @@ aBlock
 >
 GetTargetApzc
 (
-)
-&
-&
-allowedScrollDirections
-.
-contains
-(
-ScrollDirection
-:
-:
-eHorizontal
 )
 ;
 }

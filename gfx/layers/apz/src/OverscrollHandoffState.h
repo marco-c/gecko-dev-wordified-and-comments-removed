@@ -204,9 +204,6 @@ const
 InputData
 &
 aInput
-ScrollDirections
-*
-aOutAllowedScrollDirections
 )
 const
 ;
