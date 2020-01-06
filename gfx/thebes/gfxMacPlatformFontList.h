@@ -546,7 +546,7 @@ kDisplaySizeSystemFontFamily
 }
 ;
 void
-GetSystemFontList
+ReadSystemFontList
 (
 InfallibleTArray
 <

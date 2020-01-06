@@ -2347,6 +2347,15 @@ dictionaries
 )
 ;
 async
+UpdateFontList
+(
+SystemFontListEntry
+[
+]
+fontList
+)
+;
+async
 UpdateAppLocales
 (
 nsCString
@@ -2595,6 +2604,8 @@ lookAndFeelIntCache
 used
 on
 MacOSX
+and
+Linux
 only
 :
 *
