@@ -13629,6 +13629,12 @@ return
 }
 attrs
 .
+mPrivateBrowsingId
+=
+0
+;
+attrs
+.
 StripAttributes
 (
 OriginAttributes
