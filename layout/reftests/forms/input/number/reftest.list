@@ -720,12 +720,6 @@ usable
 from
 content
 :
-fails
--
-if
-(
-stylo
-)
 =
 =
 number

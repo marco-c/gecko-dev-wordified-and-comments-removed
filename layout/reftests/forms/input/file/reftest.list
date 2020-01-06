@@ -100,12 +100,6 @@ if
 (
 Android
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 style
