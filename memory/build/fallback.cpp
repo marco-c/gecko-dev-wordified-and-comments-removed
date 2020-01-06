@@ -12,6 +12,13 @@ mozjemalloc
 .
 h
 "
+#
+include
+<
+stdlib
+.
+h
+>
 struct
 SystemMalloc
 {
