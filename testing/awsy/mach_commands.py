@@ -1198,6 +1198,24 @@ k
 ]
 =
 v
+            
+if
+bin_dir
+not
+in
+sys
+.
+path
+:
+                
+sys
+.
+path
+.
+append
+(
+bin_dir
+)
         
 for
 k
