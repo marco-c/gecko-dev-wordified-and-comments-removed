@@ -539,7 +539,7 @@ Actions
 .
 EventType
 .
-GECKO
+UI
 "
 Content
 :

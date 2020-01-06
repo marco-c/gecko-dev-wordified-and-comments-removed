@@ -886,7 +886,7 @@ Actions
 .
 EventType
 .
-GECKO
+UI
 "
 Content
 :
@@ -1011,7 +1011,7 @@ Actions
 .
 EventType
 .
-GECKO
+UI
 "
 Content
 :
