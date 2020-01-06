@@ -77,7 +77,10 @@ Message
 routingId
 SHMEM_CREATED_MESSAGE_TYPE
 0
+HeaderFlags
+(
 NESTED_INSIDE_CPOW
+)
 )
 {
 IPC

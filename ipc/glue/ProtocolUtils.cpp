@@ -372,7 +372,10 @@ Message
 MSG_ROUTING_CONTROL
 CHANNEL_OPENED_MESSAGE_TYPE
 0
+HeaderFlags
+(
 aNestedLevel
+)
 )
 {
 IPC
