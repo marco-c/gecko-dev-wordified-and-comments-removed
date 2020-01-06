@@ -46995,6 +46995,11 @@ t
 "
 3em
 "
+"
+0
+.
+0002
+"
 ]
 invalid_values
 :
@@ -47062,6 +47067,11 @@ other_values
 "
 "
 1em
+"
+"
+0
+.
+0002
 "
 ]
 invalid_values
@@ -47340,6 +47350,11 @@ other_values
 0
 .
 2em
+"
+"
+0
+.
+0002
 "
 ]
 invalid_values
