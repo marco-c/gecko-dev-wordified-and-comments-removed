@@ -93,12 +93,6 @@ listener
 js
 "
 ;
-var
-remoteFrames
-=
-[
-]
-;
 frame
 .
 RemoteFrame
@@ -552,6 +546,8 @@ i
 ;
 i
 <
+this
+.
 remoteFrames
 .
 length
@@ -564,6 +560,8 @@ i
 let
 f
 =
+this
+.
 remoteFrames
 [
 i
@@ -611,6 +609,8 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 {
+this
+.
 remoteFrames
 .
 splice
@@ -694,6 +694,8 @@ getWeakReference
 mm
 )
 ;
+this
+.
 remoteFrames
 .
 push
