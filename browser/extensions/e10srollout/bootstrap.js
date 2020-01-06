@@ -143,9 +143,7 @@ prefix
 )
 {
 return
-getAddonsDisqualifyForMulti
-(
-)
+false
 ;
 }
 }
@@ -167,9 +165,7 @@ prefix
 )
 {
 return
-getAddonsDisqualifyForMulti
-(
-)
+false
 ;
 }
 }
