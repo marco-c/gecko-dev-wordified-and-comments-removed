@@ -36,6 +36,17 @@ include
 "
 mozilla
 /
+dom
+/
+KeyframeEffectReadOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AnimationUtils
 .
 h

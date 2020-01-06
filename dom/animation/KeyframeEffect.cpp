@@ -49,6 +49,13 @@ nsDOMMutationObserver
 .
 h
 "
+#
+include
+"
+nsStyleContext
+.
+h
+"
 namespace
 mozilla
 {
