@@ -119,6 +119,15 @@ waitForPaused
 dbg
 )
 ;
+await
+waitForLoadedSource
+(
+dbg
+"
+simple1
+"
+)
+;
 assertPausedLocation
 (
 dbg

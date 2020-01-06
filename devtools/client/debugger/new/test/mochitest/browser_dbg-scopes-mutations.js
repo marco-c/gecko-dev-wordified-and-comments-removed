@@ -153,6 +153,17 @@ mutate
 await
 onPaused
 ;
+await
+waitForLoadedSource
+(
+dbg
+"
+script
+-
+mutate
+"
+)
+;
 is
 (
 getScopeNodeLabel
