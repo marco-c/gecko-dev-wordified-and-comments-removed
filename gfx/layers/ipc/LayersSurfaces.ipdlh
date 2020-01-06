@@ -324,8 +324,14 @@ handle
 IntSize
 size
 ;
+SurfaceFormat
+format
+;
 bool
 continuous
+;
+bool
+ignoreTransform
 ;
 }
 ;

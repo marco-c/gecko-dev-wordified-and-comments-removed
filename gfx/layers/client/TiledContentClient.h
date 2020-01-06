@@ -1233,10 +1233,9 @@ const
 nsIntPoint
 &
 aTileRect
-const
 nsIntRegion
 &
-dirtyRect
+aDirtyRegion
 )
 ;
 void
