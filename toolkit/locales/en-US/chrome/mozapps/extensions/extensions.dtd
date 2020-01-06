@@ -3375,6 +3375,17 @@ extensions
 ENTITY
 legacyExtensions
 .
+title
+"
+Legacy
+Extensions
+"
+>
+<
+!
+ENTITY
+legacyExtensions
+.
 description
 "
 These
