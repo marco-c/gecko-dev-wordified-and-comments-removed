@@ -308,10 +308,7 @@ context
 >
 SetMatrix
 (
-ThebesMatrix
-(
 transform
-)
 )
 ;
 mItem

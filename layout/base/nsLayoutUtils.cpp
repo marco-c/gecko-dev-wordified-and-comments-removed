@@ -18635,12 +18635,12 @@ AppUnitsPerDevPixel
 aRenderingContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aRenderingContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -32770,7 +32770,7 @@ currentMatrix
 aCtx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -33761,7 +33761,7 @@ aContext
 ;
 aContext
 .
-SetMatrix
+SetMatrixDouble
 (
 params
 .

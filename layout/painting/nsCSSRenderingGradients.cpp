@@ -5253,7 +5253,7 @@ RoundOut
 (
 )
 ;
-gfxMatrix
+Matrix
 ctm
 =
 aContext
@@ -5511,7 +5511,7 @@ snappedFillRectBottomRight
 ;
 aContext
 .
-SetMatrix
+SetMatrixDouble
 (
 transform
 )
@@ -5600,11 +5600,11 @@ else
 {
 aContext
 .
-SetMatrix
+SetMatrixDouble
 (
 aContext
 .
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .

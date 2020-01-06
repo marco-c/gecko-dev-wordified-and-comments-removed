@@ -7408,12 +7408,12 @@ AppUnitsPerDevPixel
 shadowContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 shadowContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -20309,7 +20309,7 @@ transform
 aDestinationCtx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -20456,7 +20456,7 @@ mDestinationCtx
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 (
 )
 )
@@ -20681,7 +20681,7 @@ transform
 aDestinationCtx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -20730,7 +20730,7 @@ aDestinationCtx
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 (
 )
 )
@@ -21086,7 +21086,10 @@ spreadRadius
 constrainSpreadRadius
 )
 ;
-gfxSize
+gfx
+:
+:
+Size
 scale
 =
 aDestinationCtx
@@ -21104,14 +21107,11 @@ true
 Matrix
 transform
 =
-ToMatrix
-(
 aDestinationCtx
 -
 >
 CurrentMatrix
 (
-)
 )
 ;
 if
@@ -21147,7 +21147,7 @@ aDestinationCtx
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 (
 )
 )

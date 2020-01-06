@@ -8658,7 +8658,7 @@ mContext
 ;
 mContext
 .
-SetMatrix
+SetMatrixDouble
 (
 mCanvasTM
 )
@@ -11164,7 +11164,7 @@ initialMatrix
 =
 aContext
 .
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -11438,7 +11438,7 @@ currentMatrix
 =
 aContext
 .
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -11605,7 +11605,7 @@ currentMatrix
 ;
 aContext
 .
-SetMatrix
+SetMatrixDouble
 (
 runTransform
 )

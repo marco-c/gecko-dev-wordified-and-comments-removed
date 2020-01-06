@@ -25989,7 +25989,7 @@ mat
 aCtx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -26015,7 +26015,7 @@ pt
 aCtx
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 mat
 )
@@ -37119,7 +37119,7 @@ aParams
 context
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -37164,7 +37164,7 @@ aParams
 context
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 unscaled
 )

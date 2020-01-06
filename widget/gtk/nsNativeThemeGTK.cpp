@@ -5306,7 +5306,7 @@ matrix
 ctx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 ;
@@ -5329,7 +5329,7 @@ scaleFactor
 ctx
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 matrix
 )

@@ -288,7 +288,7 @@ context
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 :
 :
 Translation
@@ -2788,14 +2788,11 @@ aRectSize
 Matrix
 destMatrix
 =
-ToMatrix
-(
 aDestinationCtx
 -
 >
 CurrentMatrix
 (
-)
 )
 ;
 bool

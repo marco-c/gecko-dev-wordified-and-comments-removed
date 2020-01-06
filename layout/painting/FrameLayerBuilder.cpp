@@ -14709,7 +14709,7 @@ context
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 :
 :
 Translation
@@ -15931,7 +15931,7 @@ maskCtx
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 :
 :
 Translation
@@ -26143,7 +26143,7 @@ context
 >
 SetMatrix
 (
-gfxMatrix
+Matrix
 :
 :
 Translation
@@ -27544,12 +27544,12 @@ mForcedBackgroundColor
 aContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -27649,12 +27649,12 @@ else
 aContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aContext
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .

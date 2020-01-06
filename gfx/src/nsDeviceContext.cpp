@@ -1933,7 +1933,7 @@ mPrintingScale
 pContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 transform
 )

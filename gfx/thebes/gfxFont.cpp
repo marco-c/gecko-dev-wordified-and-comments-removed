@@ -8741,7 +8741,7 @@ mRunParams
 context
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 imgParams
@@ -11225,7 +11225,7 @@ aRunParams
 context
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -11285,7 +11285,7 @@ aRunParams
 context
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 mat
 )
@@ -11368,7 +11368,7 @@ aRunParams
 context
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 )

@@ -3914,12 +3914,12 @@ aCtx
 aCtx
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aCtx
 -
 >
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .

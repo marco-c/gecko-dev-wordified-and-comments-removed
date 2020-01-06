@@ -1260,7 +1260,7 @@ newMatrix
 =
 aContext
 .
-CurrentMatrix
+CurrentMatrixDouble
 (
 )
 .
@@ -3515,7 +3515,7 @@ aContext
 aContext
 -
 >
-SetMatrix
+SetMatrixDouble
 (
 aNewTransform
 )
