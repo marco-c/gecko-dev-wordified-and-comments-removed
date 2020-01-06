@@ -1223,6 +1223,12 @@ FromMicroseconds
 250000
 )
 ;
+virtual
+nsCString
+GetDebugInfo
+(
+)
+;
 private
 :
 virtual
@@ -1240,11 +1246,6 @@ UnpinForSeek
 )
 =
 0
-;
-nsCString
-GetDebugInfo
-(
-)
 ;
 void
 NotifyCompositor
