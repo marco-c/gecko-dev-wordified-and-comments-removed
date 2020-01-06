@@ -127,6 +127,10 @@ PBrowser
 ;
 include
 protocol
+PCompositorManager
+;
+include
+protocol
 PCompositorWidget
 ;
 include
@@ -795,6 +799,9 @@ sync
 protocol
 PCompositorBridge
 {
+manager
+PCompositorManager
+;
 manages
 PAPZ
 ;
@@ -1134,6 +1141,11 @@ aActive
 ;
 parent
 :
+async
+__delete__
+(
+)
+;
 /
 /
 Must
