@@ -616,6 +616,9 @@ support_vcs_checkout
 config
 job
 taskdesc
+sparse
+=
+False
 )
 :
     
@@ -702,6 +705,31 @@ engine
 )
 :
         
+name
+=
+'
+level
+-
+%
+s
+-
+checkouts
+'
+%
+level
+        
+if
+sparse
+:
+            
+name
++
+=
+'
+-
+sparse
+'
+        
 taskdesc
 [
 '
@@ -734,16 +762,7 @@ persistent
 name
 '
 :
-'
-level
--
-%
-s
--
-checkouts
-'
-%
-level
+name
             
 '
 mount

@@ -169,6 +169,17 @@ checkout
 =
 True
     
+run
+[
+'
+sparse
+-
+profile
+'
+]
+=
+None
+    
 del
 run
 [
