@@ -2133,12 +2133,6 @@ repository
 "
 "
     
-args
-=
-[
-hg
-]
-    
 disable_exts
 =
 [
@@ -2185,12 +2179,19 @@ reviewboard
     
 ]
     
+def
+disable_extensions
+(
+args
+)
+:
+        
 for
 ext
 in
 disable_exts
 :
-        
+            
 args
 .
 extend
@@ -2214,6 +2215,17 @@ ext
 ]
 )
     
+pull_args
+=
+[
+hg
+]
+    
+disable_extensions
+(
+pull_args
+)
+    
 if
 os
 .
@@ -2225,7 +2237,7 @@ dest
 )
 :
         
-args
+pull_args
 .
 extend
 (
@@ -2244,7 +2256,7 @@ dest
 else
 :
         
-args
+pull_args
 .
 extend
 (
@@ -2267,6 +2279,33 @@ cwd
 '
 /
 '
+    
+update_args
+=
+[
+hg
+]
+    
+disable_extensions
+(
+update_args
+)
+    
+update_args
+.
+extend
+(
+[
+'
+update
+'
+'
+-
+r
+'
+revision
+]
+)
     
 print
 (
@@ -2305,7 +2344,7 @@ subprocess
 .
 check_call
 (
-args
+pull_args
 cwd
 =
 cwd
@@ -2315,17 +2354,7 @@ subprocess
 .
 check_call
 (
-[
-hg
-'
-update
-'
-'
--
-r
-'
-revision
-]
+update_args
 cwd
 =
 dest
