@@ -194,15 +194,3 @@ FINAL_LIBRARY
 '
 xul
 '
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-test
-/
-mochitest
-.
-ini
-'
-]
