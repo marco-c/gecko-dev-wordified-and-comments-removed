@@ -2698,15 +2698,6 @@ mAudioInput
 (
 nullptr
 )
-mAudioChannel
-(
-aGraphImpl
--
->
-AudioChannel
-(
-)
-)
 mAddedMixer
 (
 false

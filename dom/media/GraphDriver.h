@@ -1103,12 +1103,6 @@ StreamAndPromiseForOperation
 >
 mPromisesForOperation
 ;
-dom
-:
-:
-AudioChannel
-mAudioChannel
-;
 bool
 mAddedMixer
 ;

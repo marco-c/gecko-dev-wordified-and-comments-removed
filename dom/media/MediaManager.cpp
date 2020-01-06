@@ -4367,13 +4367,6 @@ MediaStreamGraph
 GetInstance
 (
 graphDriverType
-dom
-:
-:
-AudioChannel
-:
-:
-Normal
 window
 )
 ;
@@ -18846,13 +18839,6 @@ MediaStreamGraph
 :
 :
 AUDIO_THREAD_DRIVER
-dom
-:
-:
-AudioChannel
-:
-:
-Normal
 window
 )
 ;
