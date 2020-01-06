@@ -757,6 +757,14 @@ SetTransformCommand
 aTransform
 )
 ;
+DrawTarget
+:
+:
+SetTransform
+(
+aTransform
+)
+;
 }
 void
 DrawTargetCaptureImpl
