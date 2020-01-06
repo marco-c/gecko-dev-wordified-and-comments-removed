@@ -1146,12 +1146,7 @@ AOM_IMG_FMT_HIGHBITDEPTH
 ;
 if
 (
-img
--
->
-bit_depth
->
-8
+highbd
 )
 {
 aom_img_fmt_t
