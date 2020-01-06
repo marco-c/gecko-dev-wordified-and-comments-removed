@@ -34,6 +34,7 @@ widget
 typedef
 void
 (
+STDCALL
 *
 FPDF_InitLibrary_Pfn
 )
@@ -43,6 +44,7 @@ FPDF_InitLibrary_Pfn
 typedef
 void
 (
+STDCALL
 *
 FPDF_DestroyLibrary_Pfn
 )
@@ -52,6 +54,7 @@ FPDF_DestroyLibrary_Pfn
 typedef
 FPDF_DOCUMENT
 (
+STDCALL
 *
 FPDF_LoadDocument_Pfn
 )
@@ -65,6 +68,7 @@ password
 typedef
 void
 (
+STDCALL
 *
 FPDF_CloseDocument_Pfn
 )
@@ -76,6 +80,7 @@ aDocument
 typedef
 int
 (
+STDCALL
 *
 FPDF_GetPageCount_Pfn
 )
@@ -87,6 +92,7 @@ aDocument
 typedef
 FPDF_PAGE
 (
+STDCALL
 *
 FPDF_LoadPage_Pfn
 )
@@ -100,6 +106,7 @@ aPageIndex
 typedef
 void
 (
+STDCALL
 *
 FPDF_ClosePage_Pfn
 )
@@ -111,6 +118,7 @@ aPage
 typedef
 void
 (
+STDCALL
 *
 FPDF_RenderPage_Pfn
 )
