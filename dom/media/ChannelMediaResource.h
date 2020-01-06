@@ -553,6 +553,16 @@ Revoke
 (
 )
 ;
+void
+SetReopenOnError
+(
+)
+{
+mReopenOnError
+=
+true
+;
+}
 private
 :
 Mutex
@@ -563,6 +573,11 @@ RefPtr
 ChannelMediaResource
 >
 mResource
+;
+bool
+mReopenOnError
+=
+false
 ;
 const
 int64_t
@@ -621,6 +636,8 @@ nsIRequest
 aRequest
 nsresult
 aStatus
+bool
+aReopenOnError
 )
 ;
 nsresult
@@ -763,9 +780,6 @@ mPendingSeekOffset
 =
 -
 1
-;
-bool
-mReopenOnError
 ;
 MediaCacheStream
 mCacheStream
