@@ -1574,6 +1574,13 @@ true
 return
 ;
 }
+MOZ_ASSERT
+(
+NS_IsInCompositorThread
+(
+)
+)
+;
 ovrLayerEyeFov
 layer
 ;
@@ -4036,6 +4043,8 @@ GetSensorState
 {
 VRHMDSensorState
 result
+{
+}
 ;
 if
 (
@@ -4133,6 +4142,8 @@ absTime
 {
 VRHMDSensorState
 result
+{
+}
 ;
 ovrTrackingState
 state
