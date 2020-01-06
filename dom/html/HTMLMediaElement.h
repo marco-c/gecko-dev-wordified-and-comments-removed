@@ -745,7 +745,7 @@ aNewPrincipalHandle
 )
 ;
 virtual
-nsresult
+void
 DispatchAsyncEvent
 (
 const

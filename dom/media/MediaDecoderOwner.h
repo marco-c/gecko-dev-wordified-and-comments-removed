@@ -59,7 +59,7 @@ DownloadProgressed
 0
 ;
 virtual
-nsresult
+void
 DispatchAsyncEvent
 (
 const

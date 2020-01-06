@@ -31,7 +31,7 @@ MediaDecoderOwner
 {
 public
 :
-nsresult
+void
 DispatchAsyncEvent
 (
 const
@@ -41,9 +41,6 @@ aName
 )
 override
 {
-return
-NS_OK
-;
 }
 void
 FireTimeUpdate
