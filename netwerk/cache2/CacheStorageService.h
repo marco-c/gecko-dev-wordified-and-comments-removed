@@ -1126,6 +1126,10 @@ T
 void
 ProxyRelease
 (
+const
+char
+*
+aName
 nsCOMPtr
 <
 T
@@ -1139,6 +1143,7 @@ target
 {
 NS_ProxyRelease
 (
+aName
 target
 object
 .
@@ -1156,6 +1161,10 @@ T
 void
 ProxyReleaseMainThread
 (
+const
+char
+*
+aName
 nsCOMPtr
 <
 T
@@ -1166,6 +1175,7 @@ object
 {
 ProxyRelease
 (
+aName
 object
 GetMainThreadEventTarget
 (

@@ -395,6 +395,12 @@ FinalizeStatements
 ;
 NS_ProxyRelease
 (
+"
+FinalizeStatementCacheProxy
+:
+:
+mOwner
+"
 mCallingThread
 mOwner
 .

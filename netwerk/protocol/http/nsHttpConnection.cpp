@@ -693,6 +693,12 @@ nsMainThreadPtrHolder
 nsIInterfaceRequestor
 >
 (
+"
+nsHttpConnection
+:
+:
+mCallbacks
+"
 callbacks
 false
 )
@@ -6712,6 +6718,12 @@ nsMainThreadPtrHolder
 nsIInterfaceRequestor
 >
 (
+"
+nsHttpConnection
+:
+:
+mCallbacks
+"
 aCallbacks
 false
 )

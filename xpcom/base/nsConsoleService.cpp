@@ -1320,6 +1320,12 @@ retiredMessage
 {
 NS_ReleaseOnMainThread
 (
+"
+nsConsoleService
+:
+:
+retiredMessage
+"
 retiredMessage
 .
 forget

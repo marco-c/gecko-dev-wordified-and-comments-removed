@@ -16843,6 +16843,12 @@ mWorkerHolder
 {
 NS_ProxyRelease
 (
+"
+WebCryptoTask
+:
+:
+mWorkerHolder
+"
 mOriginalEventTarget
 mWorkerHolder
 .

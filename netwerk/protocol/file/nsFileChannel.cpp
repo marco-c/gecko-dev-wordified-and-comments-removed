@@ -489,6 +489,12 @@ NS_DISPATCH_NORMAL
 ;
 NS_ProxyRelease
 (
+"
+nsFileCopyEvent
+:
+:
+mCallback
+"
 mCallbackTarget
 mCallback
 .

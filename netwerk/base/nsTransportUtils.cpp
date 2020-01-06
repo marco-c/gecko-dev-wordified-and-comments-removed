@@ -113,6 +113,12 @@ nsTransportEventSinkProxy
 {
 NS_ProxyRelease
 (
+"
+nsTransportEventSinkProxy
+:
+:
+mSink
+"
 mTarget
 dont_AddRef
 (

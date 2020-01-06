@@ -3855,6 +3855,9 @@ nsMainThreadPtrHolder
 nsINativeFileWatcherCallback
 >
 (
+"
+nsINativeFileWatcherCallback
+"
 aOnChange
 )
 )
@@ -3871,6 +3874,9 @@ nsMainThreadPtrHolder
 nsINativeFileWatcherErrorCallback
 >
 (
+"
+nsINativeFileWatcherErrorCallback
+"
 aOnError
 )
 )
@@ -3887,6 +3893,9 @@ nsMainThreadPtrHolder
 nsINativeFileWatcherSuccessCallback
 >
 (
+"
+nsINativeFileWatcherSuccessCallback
+"
 aOnSuccess
 )
 )
@@ -4029,6 +4038,9 @@ nsMainThreadPtrHolder
 nsINativeFileWatcherCallback
 >
 (
+"
+nsINativeFileWatcherCallback
+"
 aOnChange
 )
 )
@@ -4045,6 +4057,9 @@ nsMainThreadPtrHolder
 nsINativeFileWatcherErrorCallback
 >
 (
+"
+nsINativeFileWatcherErrorCallback
+"
 aOnError
 )
 )
@@ -4061,6 +4076,9 @@ nsMainThreadPtrHolder
 nsINativeFileWatcherSuccessCallback
 >
 (
+"
+nsINativeFileWatcherSuccessCallback
+"
 aOnSuccess
 )
 )

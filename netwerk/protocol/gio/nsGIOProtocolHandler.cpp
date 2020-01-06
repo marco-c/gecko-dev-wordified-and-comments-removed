@@ -2316,6 +2316,12 @@ mChannel
 {
 NS_ReleaseOnMainThread
 (
+"
+nsGIOInputStream
+:
+:
+mChannel
+"
 dont_AddRef
 (
 mChannel

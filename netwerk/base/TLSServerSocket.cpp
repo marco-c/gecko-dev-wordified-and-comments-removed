@@ -1024,6 +1024,12 @@ nsMainThreadPtrHolder
 nsITLSServerSecurityObserver
 >
 (
+"
+TLSServerSecurityObserverProxy
+:
+:
+mListener
+"
 aListener
 )
 )
@@ -1265,6 +1271,12 @@ observer
 {
 NS_ReleaseOnMainThread
 (
+"
+TLSServerConnectionInfo
+:
+:
+mSecurityObserver
+"
 observer
 .
 forget

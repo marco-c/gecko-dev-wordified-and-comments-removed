@@ -557,6 +557,12 @@ CheckPermissionRunnable
 {
 NS_ProxyRelease
 (
+"
+CheckPermissionRunnable
+:
+:
+mActor
+"
 mBackgroundEventTarget
 mActor
 .

@@ -240,6 +240,12 @@ SyncLoad
 ;
 NS_ReleaseOnMainThread
 (
+"
+mozPersonalDictionaryLoader
+:
+:
+mDict
+"
 mDict
 .
 forget
@@ -544,6 +550,12 @@ Notify
 }
 NS_ReleaseOnMainThread
 (
+"
+mozPersonalDictionarySave
+:
+:
+mDict
+"
 mDict
 .
 forget

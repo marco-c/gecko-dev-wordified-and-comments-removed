@@ -7297,6 +7297,12 @@ NS_IsMainThread
 {
 NS_ReleaseOnMainThread
 (
+"
+NotifyOffThreadScriptLoadCompletedRunnable
+:
+:
+mRequest
+"
 mRequest
 .
 forget
@@ -7306,6 +7312,12 @@ forget
 ;
 NS_ReleaseOnMainThread
 (
+"
+NotifyOffThreadScriptLoadCompletedRunnable
+:
+:
+mLoader
+"
 mLoader
 .
 forget

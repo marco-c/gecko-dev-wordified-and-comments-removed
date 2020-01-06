@@ -16981,6 +16981,12 @@ index
 {
 NS_ReleaseOnMainThread
 (
+"
+WorkerDebugger
+:
+:
+mListeners
+"
 mListeners
 [
 index

@@ -1686,6 +1686,9 @@ nsMainThreadPtrHolder
 mozIVisitedStatusCallback
 >
 (
+"
+mozIVisitedStatusCallback
+"
 aCallback
 )
 )
@@ -3115,6 +3118,9 @@ nsMainThreadPtrHolder
 mozIVisitInfoCallback
 >
 (
+"
+mozIVisitInfoCallback
+"
 aCallback
 )
 )
@@ -3334,6 +3340,9 @@ nsMainThreadPtrHolder
 mozIVisitInfoCallback
 >
 (
+"
+mozIVisitInfoCallback
+"
 aCallback
 )
 )
@@ -7646,6 +7655,9 @@ nsMainThreadPtrHolder
 mozIVisitInfoCallback
 >
 (
+"
+mozIVisitInfoCallback
+"
 aCallback
 )
 )
@@ -11718,6 +11730,9 @@ nsMainThreadPtrHolder
 mozIVisitInfoCallback
 >
 (
+"
+mozIVisitInfoCallback
+"
 new
 SetDownloadAnnotations
 (
@@ -12613,6 +12628,9 @@ nsMainThreadPtrHolder
 mozIVisitInfoCallback
 >
 (
+"
+mozIVisitInfoCallback
+"
 aCallback
 )
 )

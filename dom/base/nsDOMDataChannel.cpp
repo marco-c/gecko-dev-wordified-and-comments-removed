@@ -2625,6 +2625,12 @@ shouldKeepAlive
 {
 NS_ReleaseOnMainThread
 (
+"
+nsDOMDataChannel
+:
+:
+mSelfRef
+"
 mSelfRef
 .
 forget
@@ -2672,6 +2678,12 @@ mSelfRef
 {
 NS_ReleaseOnMainThread
 (
+"
+nsDOMDataChannel
+:
+:
+mSelfRef
+"
 mSelfRef
 .
 forget

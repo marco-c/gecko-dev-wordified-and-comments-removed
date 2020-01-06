@@ -5757,6 +5757,9 @@ nsMainThreadPtrHolder
 Promise
 >
 (
+"
+Promise
+"
 promise
 )
 )

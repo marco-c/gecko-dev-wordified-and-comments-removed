@@ -296,6 +296,12 @@ nsBaseChannel
 {
 NS_ReleaseOnMainThread
 (
+"
+nsBaseChannel
+:
+:
+mLoadInfo
+"
 mLoadInfo
 .
 forget

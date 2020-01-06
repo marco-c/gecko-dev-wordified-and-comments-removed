@@ -197,6 +197,12 @@ nsInterfaceRequestorAgg
 {
 NS_ProxyRelease
 (
+"
+nsInterfaceRequestorAgg
+:
+:
+mFirst
+"
 mConsumerTarget
 mFirst
 .
@@ -207,6 +213,12 @@ forget
 ;
 NS_ProxyRelease
 (
+"
+nsInterfaceRequestorAgg
+:
+:
+mSecond
+"
 mConsumerTarget
 mSecond
 .

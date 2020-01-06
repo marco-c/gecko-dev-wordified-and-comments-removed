@@ -633,6 +633,9 @@ this
 ;
 NS_ReleaseOnMainThread
 (
+"
+WeakReferenceSupport
+"
 self
 .
 forget

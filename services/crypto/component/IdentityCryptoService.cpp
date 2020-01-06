@@ -1446,6 +1446,12 @@ nsMainThreadPtrHolder
 nsIIdentityKeyGenCallback
 >
 (
+"
+KeyGenRunnable
+:
+:
+mCallback
+"
 callback
 )
 )
@@ -2281,6 +2287,12 @@ nsMainThreadPtrHolder
 nsIIdentitySignCallback
 >
 (
+"
+SignRunnable
+:
+:
+mCallback
+"
 aCallback
 )
 )

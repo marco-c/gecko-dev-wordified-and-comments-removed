@@ -238,6 +238,12 @@ return
 }
 NS_ReleaseOnMainThread
 (
+"
+ManagerId
+:
+:
+mPrincipal
+"
 mPrincipal
 .
 forget

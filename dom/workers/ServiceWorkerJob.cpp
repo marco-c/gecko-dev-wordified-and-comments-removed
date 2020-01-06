@@ -850,6 +850,9 @@ SuppressException
 ;
 NS_ReleaseOnMainThread
 (
+"
+ServiceWorkerJob
+"
 kungFuDeathGrip
 .
 forget

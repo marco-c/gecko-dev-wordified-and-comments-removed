@@ -1920,6 +1920,12 @@ mCondition
 ;
 NS_ProxyRelease
 (
+"
+nsUDPSocket
+:
+:
+mListener
+"
 mListenerTarget
 listener
 .
@@ -3161,6 +3167,12 @@ nsMainThreadPtrHolder
 nsIUDPSocketListener
 >
 (
+"
+SocketListenerProxy
+:
+:
+mListener
+"
 aListener
 )
 )

@@ -533,6 +533,12 @@ nsMainThreadPtrHolder
 nsIXPConnectJSObjectHolder
 >
 (
+"
+Statement
+:
+:
+mStatementRowHolder
+"
 rowHolder
 )
 ;
@@ -771,6 +777,12 @@ nsMainThreadPtrHolder
 nsIXPConnectJSObjectHolder
 >
 (
+"
+Statement
+:
+:
+mStatementParamsHolder
+"
 paramsHolder
 )
 ;

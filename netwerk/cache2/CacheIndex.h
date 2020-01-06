@@ -4852,6 +4852,12 @@ NS_IsMainThread
 {
 NS_ReleaseOnMainThread
 (
+"
+DiskConsumptionObserver
+:
+:
+mObserver
+"
 mObserver
 .
 forget

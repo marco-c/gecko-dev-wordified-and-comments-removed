@@ -323,6 +323,12 @@ mLoadInfo
 {
 NS_ReleaseOnMainThread
 (
+"
+WyciwygChannelChild
+:
+:
+mLoadInfo
+"
 mLoadInfo
 .
 forget

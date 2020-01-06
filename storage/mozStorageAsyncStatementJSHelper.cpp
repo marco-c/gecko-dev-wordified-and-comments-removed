@@ -265,6 +265,12 @@ nsMainThreadPtrHolder
 nsIXPConnectJSObjectHolder
 >
 (
+"
+AsyncStatement
+:
+:
+mStatementParamsHolder
+"
 paramsHolder
 )
 ;

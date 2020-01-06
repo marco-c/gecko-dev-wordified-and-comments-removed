@@ -73,6 +73,12 @@ nsMainThreadPtrHolder
 nsIDNSListener
 >
 (
+"
+DNSListenerProxy
+:
+:
+mListener
+"
 aListener
 false
 )

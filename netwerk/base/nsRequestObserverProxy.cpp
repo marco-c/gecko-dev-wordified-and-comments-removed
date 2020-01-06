@@ -786,6 +786,12 @@ nsMainThreadPtrHolder
 nsIRequestObserver
 >
 (
+"
+nsRequestObserverProxy
+:
+:
+mObserver
+"
 observer
 )
 ;
@@ -797,6 +803,12 @@ nsMainThreadPtrHolder
 nsISupports
 >
 (
+"
+nsRequestObserverProxy
+:
+:
+mContext
+"
 context
 )
 ;

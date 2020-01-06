@@ -7065,6 +7065,12 @@ aRtcp
 ;
 NS_ProxyRelease
 (
+"
+PeerConnectionMedia
+:
+:
+mTransportFlows
+"
 GetSTSThread
 (
 )

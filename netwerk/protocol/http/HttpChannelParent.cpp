@@ -3068,6 +3068,9 @@ nsMainThreadPtrHolder
 nsIInterfaceRequestor
 >
 (
+"
+nsIInterfaceRequestor
+"
 iir
 )
 )

@@ -51,6 +51,12 @@ SpeechStreamListener
 {
 NS_ReleaseOnMainThread
 (
+"
+SpeechStreamListener
+:
+:
+mRecognition
+"
 mRecognition
 .
 forget

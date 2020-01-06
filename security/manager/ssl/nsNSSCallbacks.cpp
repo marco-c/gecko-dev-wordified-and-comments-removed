@@ -2390,6 +2390,12 @@ mLoader
 {
 NS_ReleaseOnMainThread
 (
+"
+nsHTTPListener
+:
+:
+mLoader
+"
 mLoader
 .
 forget

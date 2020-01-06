@@ -2308,6 +2308,12 @@ this
 ;
 NS_ReleaseOnMainThread
 (
+"
+WebSocketImpl
+:
+:
+mChannel
+"
 mChannel
 .
 forget
@@ -2317,6 +2323,12 @@ forget
 ;
 NS_ReleaseOnMainThread
 (
+"
+WebSocketImpl
+:
+:
+mService
+"
 mService
 .
 forget

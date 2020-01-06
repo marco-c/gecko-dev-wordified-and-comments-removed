@@ -2433,6 +2433,15 @@ return
 }
 NS_ProxyRelease
 (
+"
+Context
+:
+:
+ThreadsafeHandle
+:
+:
+mStrongRef
+"
 mOwningEventTarget
 mStrongRef
 .

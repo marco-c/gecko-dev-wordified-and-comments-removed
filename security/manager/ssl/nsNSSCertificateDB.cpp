@@ -6659,6 +6659,9 @@ nsMainThreadPtrHolder
 nsICertVerificationCallback
 >
 (
+"
+nsICertVerificationCallback
+"
 aCallback
 )
 )

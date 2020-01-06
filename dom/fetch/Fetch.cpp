@@ -549,6 +549,12 @@ FetchSignalProxy
 {
 NS_ProxyRelease
 (
+"
+FetchSignalProxy
+:
+:
+mSignalMainThread
+"
 mMainThreadEventTarget
 mSignalMainThread
 .
@@ -5496,6 +5502,12 @@ nsMainThreadPtrHolder
 nsIInputStreamPump
 >
 (
+"
+FetchBody
+:
+:
+mConsumeBodyPump
+"
 pump
 mMainThreadEventTarget
 )

@@ -300,6 +300,12 @@ mLoadInfo
 {
 NS_ReleaseOnMainThread
 (
+"
+nsIconChannel
+:
+:
+mLoadInfo
+"
 mLoadInfo
 .
 forget

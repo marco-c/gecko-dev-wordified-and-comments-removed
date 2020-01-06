@@ -1218,6 +1218,9 @@ nsMainThreadPtrHolder
 NetDashboardCallback
 >
 (
+"
+NetDashboardCallback
+"
 aCallback
 true
 )
@@ -1708,6 +1711,9 @@ nsMainThreadPtrHolder
 NetDashboardCallback
 >
 (
+"
+NetDashboardCallback
+"
 aCallback
 true
 )
@@ -2865,6 +2871,9 @@ nsMainThreadPtrHolder
 NetDashboardCallback
 >
 (
+"
+NetDashboardCallback
+"
 aCallback
 true
 )
@@ -3203,6 +3212,9 @@ nsMainThreadPtrHolder
 NetDashboardCallback
 >
 (
+"
+NetDashboardCallback
+"
 aCallback
 true
 )
@@ -3807,6 +3819,9 @@ nsMainThreadPtrHolder
 NetDashboardCallback
 >
 (
+"
+NetDashboardCallback
+"
 aCallback
 true
 )
@@ -3896,6 +3911,9 @@ nsMainThreadPtrHolder
 NetDashboardCallback
 >
 (
+"
+NetDashboardCallback
+"
 aCallback
 true
 )
@@ -4283,6 +4301,9 @@ nsMainThreadPtrHolder
 NetDashboardCallback
 >
 (
+"
+NetDashboardCallback
+"
 aCallback
 true
 )

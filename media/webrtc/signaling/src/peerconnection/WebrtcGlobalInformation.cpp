@@ -2191,6 +2191,9 @@ nsMainThreadPtrHolder
 WebrtcGlobalStatisticsCallback
 >
 (
+"
+WebrtcGlobalStatisticsCallback
+"
 &
 aStatsCallback
 )
@@ -2706,6 +2709,9 @@ nsMainThreadPtrHolder
 WebrtcGlobalLoggingCallback
 >
 (
+"
+WebrtcGlobalLoggingCallback
+"
 &
 aLoggingCallback
 )

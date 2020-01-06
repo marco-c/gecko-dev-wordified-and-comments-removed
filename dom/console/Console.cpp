@@ -3450,6 +3450,12 @@ pressure
 }
 NS_ReleaseOnMainThread
 (
+"
+Console
+:
+:
+mStorage
+"
 mStorage
 .
 forget
@@ -3459,6 +3465,12 @@ forget
 ;
 NS_ReleaseOnMainThread
 (
+"
+Console
+:
+:
+mSandbox
+"
 mSandbox
 .
 forget

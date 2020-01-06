@@ -1089,6 +1089,12 @@ mSTS
 ;
 NS_ProxyRelease
 (
+"
+DataChannelConnection
+:
+:
+mTransportFlow
+"
 mSTS
 mTransportFlow
 .
@@ -12571,6 +12577,9 @@ len
 {
 NS_ReleaseOnMainThread
 (
+"
+DataChannelBlobSendRunnable
+"
 runnable
 .
 forget
