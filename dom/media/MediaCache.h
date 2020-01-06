@@ -676,9 +676,6 @@ nsIPrincipal
 mPrincipal
 ;
 bool
-mInitialized
-;
-bool
 mHasHadUpdate
 ;
 bool
