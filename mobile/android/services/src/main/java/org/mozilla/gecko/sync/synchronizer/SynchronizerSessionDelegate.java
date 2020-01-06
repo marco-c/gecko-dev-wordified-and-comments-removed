@@ -15,14 +15,6 @@ SynchronizerSessionDelegate
 {
 public
 void
-onInitialized
-(
-SynchronizerSession
-session
-)
-;
-public
-void
 onSynchronized
 (
 SynchronizerSession
