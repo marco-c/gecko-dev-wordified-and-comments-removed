@@ -13894,3 +13894,15 @@ suppress_first_window_animation
 true
 )
 ;
+pref
+(
+"
+browser
+.
+onboarding
+.
+disabled
+"
+false
+)
+;
