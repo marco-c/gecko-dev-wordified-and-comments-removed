@@ -26,6 +26,9 @@ abs_work_dir
 }
 /
 artifacts
+{
+locale
+}
 "
     
 "
@@ -43,6 +46,21 @@ macosx64
 /
 repack
 "
+    
+"
+locale
+"
+:
+os
+.
+environ
+.
+get
+(
+"
+LOCALE
+"
+)
     
 "
 download_config

@@ -908,6 +908,24 @@ time
 }
         
 if
+locale
+:
+            
+worker
+[
+'
+env
+'
+]
+.
+update
+(
+LOCALE
+=
+locale
+)
+        
+if
 build_platform
 .
 startswith
@@ -1455,10 +1473,18 @@ build
 /
 artifacts
 /
+{
+}
 target
 .
 dmg
 '
+                    
+.
+format
+(
+locale_output_path
+)
             
 '
 name
@@ -1508,12 +1534,20 @@ build
 /
 artifacts
 /
+{
+}
 target
 .
 complete
 .
 mar
 '
+                    
+.
+format
+(
+locale_output_path
+)
             
 '
 name
