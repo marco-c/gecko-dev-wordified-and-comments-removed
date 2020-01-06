@@ -1714,6 +1714,9 @@ ImageCompositeNotificationInfo
 >
 mImageCompositeNotifications
 ;
+TimeStamp
+mPreviousFrameTimeStamp
+;
 uint64_t
 mChildLayerObserverEpoch
 ;
