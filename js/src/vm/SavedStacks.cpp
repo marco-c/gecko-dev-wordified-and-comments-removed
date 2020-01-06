@@ -215,6 +215,17 @@ include
 "
 vm
 /
+GeckoProfiler
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 NativeObject
 -
 inl
@@ -6055,7 +6066,7 @@ true
 ;
 }
 AutoGeckoProfilerEntry
-psuedoFrame
+pseudoFrame
 (
 cx
 "
