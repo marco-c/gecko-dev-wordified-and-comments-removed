@@ -160,7 +160,7 @@ FILE
 *
 fp
 ;
-char
+uint8_t
 buf
 [
 BLOCKSIZE
