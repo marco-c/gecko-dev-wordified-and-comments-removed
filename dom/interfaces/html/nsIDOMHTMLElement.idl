@@ -234,10 +234,6 @@ nsIDOMHTMLElement
 :
 nsIDOMElement
 {
-attribute
-DOMString
-accessKey
-;
 readonly
 attribute
 boolean
