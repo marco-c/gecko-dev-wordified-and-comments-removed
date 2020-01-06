@@ -314,6 +314,7 @@ font
 :
 {
 FontSize
+FontSizeAdjust
 FontWeight
 MozScriptLevel
 MozScriptMinSize
