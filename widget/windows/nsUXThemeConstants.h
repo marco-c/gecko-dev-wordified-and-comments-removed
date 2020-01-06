@@ -80,6 +80,10 @@ BP_GROUPBOX
 4
 #
 define
+BP_Count
+5
+#
+define
 TFP_TEXTFIELD
 1
 #
