@@ -1007,6 +1007,13 @@ HTMLEditor
 aHTMLEditor
 )
 ;
+nsDOMNavigationTiming
+*
+GetNavigationTiming
+(
+)
+const
+;
 private
 :
 bool
