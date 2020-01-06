@@ -148,7 +148,7 @@ been
 stored
 *
 /
-void
+nsISupports
 addCrash
 (
 in

@@ -1067,6 +1067,11 @@ eventsD2
 storeDir
 :
 storeD
+telemetryStoreSizeKey
+:
+"
+CRASH_STORE_COMPRESSED_BYTES
+"
 }
 )
 ;

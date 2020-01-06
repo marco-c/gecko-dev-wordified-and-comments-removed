@@ -49,11 +49,6 @@ cleanUpMinidump
 id
 )
 {
-if
-(
-id
-)
-{
 let
 dir
 =
@@ -135,7 +130,6 @@ remove
 true
 )
 ;
-}
 }
 add_task
 (

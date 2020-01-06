@@ -136,6 +136,12 @@ waitForExplicitFinish
 (
 )
 ;
+SimpleTest
+.
+expectChildProcessCrash
+(
+)
+;
 var
 w
 =
