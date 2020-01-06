@@ -548,8 +548,6 @@ OwnerHasError
 )
 const
 ;
-public
-:
 bool
 IsMediaSeekable
 (
