@@ -266,6 +266,8 @@ int32_t
 routing_id
 msgid_t
 type
+uint32_t
+segment_capacity
 NestedLevel
 nestedLevel
 PriorityValue
@@ -284,6 +286,7 @@ recordWriteLatency
 Pickle
 (
 MSG_HEADER_SZ
+segment_capacity
 )
 {
 MOZ_COUNT_CTOR

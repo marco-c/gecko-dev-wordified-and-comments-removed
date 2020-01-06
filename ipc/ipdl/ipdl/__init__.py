@@ -266,6 +266,7 @@ ipdlfilename
 ast
 outheadersdir
 outcppdir
+segmentcapacitydict
 )
 :
     
@@ -279,6 +280,7 @@ LowerToCxx
 lower
 (
 ast
+segmentcapacitydict
 )
     
 def

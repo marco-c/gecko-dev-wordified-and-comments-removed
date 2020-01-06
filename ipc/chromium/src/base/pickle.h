@@ -192,6 +192,10 @@ Pickle
 (
 uint32_t
 header_size
+size_t
+segment_capacity
+=
+0
 )
 ;
 Pickle

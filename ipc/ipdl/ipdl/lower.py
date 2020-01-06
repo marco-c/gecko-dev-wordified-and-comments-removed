@@ -43,6 +43,7 @@ lower
 (
 self
 tu
+segmentcapacitydict
 )
 :
         
@@ -120,6 +121,7 @@ lower
 tu
 pheader
 pcpp
+segmentcapacitydict
 )
         
 headers
@@ -9944,6 +9946,7 @@ self
 tu
 cxxHeaderFile
 cxxFile
+segmentcapacitydict
 )
 :
         
@@ -9966,6 +9969,12 @@ self
 cppfile
 =
 cxxFile
+        
+self
+.
+segmentcapacitydict
+=
+segmentcapacitydict
         
 tu
 .
@@ -11287,6 +11296,40 @@ decls
 [
 ]
             
+name
+=
+'
+%
+s
+:
+:
+%
+s
+'
+%
+(
+md
+.
+namespace
+md
+.
+decl
+.
+progname
+)
+            
+segmentcapacity
+=
+self
+.
+segmentcapacitydict
+.
+get
+(
+name
+0
+)
+            
 mfDecl
 mfDefn
 =
@@ -11305,6 +11348,8 @@ md
 msgId
 (
 )
+                                            
+segmentcapacity
                                             
 md
 .
@@ -11389,6 +11434,8 @@ md
 replyId
 (
 )
+                        
+0
                         
 md
 .
@@ -12122,6 +12169,7 @@ _generateMessageConstructor
 (
 clsname
 msgid
+segmentSize
 nested
 prio
 prettyName
@@ -12396,6 +12444,16 @@ routingId
 ExprVar
 (
 msgid
+)
+                                  
+ExprLiteral
+.
+Int
+(
+int
+(
+segmentSize
+)
 )
                                   
 ExprVar

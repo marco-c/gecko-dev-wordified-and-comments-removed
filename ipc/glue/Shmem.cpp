@@ -76,6 +76,7 @@ Message
 (
 routingId
 SHMEM_CREATED_MESSAGE_TYPE
+0
 NESTED_INSIDE_CPOW
 )
 {
