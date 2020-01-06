@@ -191,7 +191,7 @@ function
 ;
 "
 "
-browser_test
+test_foo
 .
 js
 "
