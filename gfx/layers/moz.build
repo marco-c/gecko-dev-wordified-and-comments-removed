@@ -1496,6 +1496,11 @@ RenderTrace
 h
 '
 '
+RotatedBuffer
+.
+h
+'
+'
 ShareableCanvasRenderer
 .
 h
