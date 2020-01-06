@@ -11395,17 +11395,6 @@ initWorkarounds
 (
 )
 {
-mWorkarounds
-.
-loseContextOnOutOfMemory
-=
-(
-mResetStrategy
-=
-=
-GL_LOSE_CONTEXT_ON_RESET_EXT
-)
-;
 }
 void
 Context
