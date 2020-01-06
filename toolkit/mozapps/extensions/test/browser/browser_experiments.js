@@ -1172,7 +1172,7 @@ removeObserver
 (
 observer
 "
-privacy
+advanced
 -
 pane
 -
@@ -1183,7 +1183,7 @@ loaded
 info
 (
 "
-Privacy
+Advanced
 preference
 pane
 opened
@@ -1207,7 +1207,9 @@ document
 getElementById
 (
 "
-dataCollectionCategory
+header
+-
+advanced
 "
 )
 ;
@@ -1243,7 +1245,7 @@ resolve
 ;
 }
 "
-privacy
+advanced
 -
 pane
 -

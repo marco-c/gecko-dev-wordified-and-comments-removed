@@ -326,6 +326,14 @@ return
 ;
 }
 let
+closePromise
+=
+promiseWindowClosed
+(
+alertWindow
+)
+;
+let
 tabPromise
 =
 BrowserTestUtils
@@ -392,10 +400,7 @@ opened
 )
 ;
 await
-promiseWindowClosed
-(
-alertWindow
-)
+closePromise
 ;
 await
 BrowserTestUtils
