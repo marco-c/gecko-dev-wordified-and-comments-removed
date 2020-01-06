@@ -1032,7 +1032,7 @@ JSEXN_TYPEERR
 can
 '
 t
-assing
+assign
 to
 property
 {

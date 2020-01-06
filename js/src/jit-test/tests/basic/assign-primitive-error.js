@@ -38,7 +38,7 @@ a
 can
 '
 t
-assing
+assign
 to
 property
 "
@@ -78,7 +78,7 @@ a
 can
 '
 t
-assing
+assign
 to
 property
 "
@@ -118,7 +118,7 @@ a
 can
 '
 t
-assing
+assign
 to
 property
 "
@@ -158,7 +158,7 @@ a
 can
 '
 t
-assing
+assign
 to
 property
 "
@@ -203,7 +203,7 @@ a
 can
 '
 t
-assing
+assign
 to
 property
 "
@@ -247,7 +247,7 @@ a
 can
 '
 t
-assing
+assign
 to
 property
 15
@@ -289,7 +289,7 @@ a
 can
 '
 t
-assing
+assign
 to
 property
 Symbol
