@@ -10783,7 +10783,13 @@ ClonedMessageData
 aData
 )
 {
-AUTO_PROFILER_LABEL_DYNAMIC_LOSSY_NSSTRING
+NS_LossyConvertUTF16toASCII
+messageNameCStr
+(
+aMessage
+)
+;
+AUTO_PROFILER_LABEL_DYNAMIC
 (
 "
 TabChild
@@ -10792,7 +10798,11 @@ TabChild
 RecvAsyncMessage
 "
 EVENTS
-aMessage
+messageNameCStr
+.
+get
+(
+)
 )
 ;
 CrossProcessCpowHolder

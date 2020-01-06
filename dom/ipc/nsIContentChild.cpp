@@ -793,7 +793,13 @@ ClonedMessageData
 aData
 )
 {
-AUTO_PROFILER_LABEL_DYNAMIC_LOSSY_NSSTRING
+NS_LossyConvertUTF16toASCII
+messageNameCStr
+(
+aMsg
+)
+;
+AUTO_PROFILER_LABEL_DYNAMIC
 (
 "
 nsIContentChild
@@ -802,7 +808,11 @@ nsIContentChild
 RecvAsyncMessage
 "
 EVENTS
-aMsg
+messageNameCStr
+.
+get
+(
+)
 )
 ;
 CrossProcessCpowHolder
