@@ -3663,7 +3663,7 @@ collector
 .
 mFrames
 >
-0
+5
 )
 ;
 }
