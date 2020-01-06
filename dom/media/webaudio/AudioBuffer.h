@@ -401,6 +401,9 @@ uint32_t
 aLength
 float
 aSampleRate
+ErrorResult
+&
+aRv
 )
 ;
 ~
