@@ -6293,6 +6293,7 @@ Request
 (
 global
 internalReq
+nullptr
 )
 ;
 MOZ_ASSERT_IF
