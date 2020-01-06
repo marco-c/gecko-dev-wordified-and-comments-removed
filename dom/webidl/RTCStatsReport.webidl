@@ -688,6 +688,12 @@ long
 long
 bytesReceived
 ;
+DOMHighResTimeStamp
+lastPacketSentTimestamp
+;
+DOMHighResTimeStamp
+lastPacketReceivedTimestamp
+;
 boolean
 selected
 ;
