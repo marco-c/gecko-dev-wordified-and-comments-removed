@@ -343,5 +343,13 @@ attribute
 PositionAlignSetting
 computedPositionAlign
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+boolean
+getActive
+;
 }
 ;
