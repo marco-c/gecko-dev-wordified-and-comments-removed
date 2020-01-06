@@ -33,7 +33,7 @@ h
 #
 include
 "
-AccessibleHypertext
+AccessibleHypertext2
 .
 h
 "
@@ -64,7 +64,7 @@ AccessibleTextTearoff
 final
 :
 public
-IAccessibleHypertext
+IAccessibleHypertext2
 {
 public
 :
@@ -365,6 +365,20 @@ hyperlinkIndex
 )
 override
 ;
+STDMETHODIMP
+get_hyperlinks
+(
+IAccessibleHyperlink
+*
+*
+*
+hyperlinks
+long
+*
+nHyperlinks
+)
+override
+;
 private
 :
 ~
@@ -387,7 +401,7 @@ mHandler
 ;
 RefPtr
 <
-IAccessibleHypertext
+IAccessibleHypertext2
 >
 mAccHypertextProxy
 ;
