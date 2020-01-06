@@ -449,6 +449,7 @@ const
 DrawTarget
 *
 aTarget
+const
 Matrix
 *
 aOriginalUserToDevice
