@@ -2158,11 +2158,6 @@ jsstr
 cpp
 '
 '
-jswatchpoint
-.
-cpp
-'
-'
 jsweakmap
 .
 cpp

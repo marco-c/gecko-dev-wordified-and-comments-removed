@@ -1761,11 +1761,6 @@ if
 nonProxyIsExtensible
 (
 )
-|
-|
-watched
-(
-)
 )
 {
 MOZ_ASSERT

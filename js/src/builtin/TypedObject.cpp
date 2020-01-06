@@ -10933,8 +10933,6 @@ TypedObject
 obj_deleteProperty
 nullptr
 nullptr
-nullptr
-nullptr
 }
 ;
 #
