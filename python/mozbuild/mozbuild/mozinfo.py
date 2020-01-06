@@ -845,6 +845,27 @@ MOZ_ARTIFACT_BUILDS
 1
 '
     
+d
+[
+'
+coverage
+'
+]
+=
+substs
+.
+get
+(
+'
+MOZ_CODE_COVERAGE
+'
+)
+=
+=
+'
+1
+'
+    
 def
 guess_platform
 (
