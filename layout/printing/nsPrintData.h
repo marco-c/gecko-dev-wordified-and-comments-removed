@@ -149,10 +149,6 @@ nsPrintObject
 >
 mPrintObject
 ;
-nsPrintObject
-*
-mSelectedPO
-;
 nsCOMArray
 <
 nsIWebProgressListener
