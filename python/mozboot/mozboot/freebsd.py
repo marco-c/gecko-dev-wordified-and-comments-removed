@@ -127,6 +127,10 @@ gtk3
 '
             
 '
+llvm40
+'
+            
+'
 pulseaudio
 '
             
@@ -160,34 +164,6 @@ append
 (
 '
 unzip
-'
-)
-        
-if
-self
-.
-flavor
-=
-=
-'
-freebsd
-'
-and
-self
-.
-version
-<
-11
-:
-            
-self
-.
-browser_packages
-.
-append
-(
-'
-gcc
 '
 )
     
@@ -316,14 +292,7 @@ checkout_root
 )
 :
         
-self
-.
-pkg_install
-(
-'
-llvm40
-'
-)
+pass
     
 def
 upgrade_mercurial
