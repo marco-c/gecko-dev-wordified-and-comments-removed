@@ -6652,6 +6652,11 @@ overflows
 "
 false
 "
+keepbroadcastattributeswhencustomizing
+=
+"
+true
+"
 command
 =
 "
@@ -6724,6 +6729,11 @@ overflows
 =
 "
 false
+"
+keepbroadcastattributeswhencustomizing
+=
+"
+true
 "
 command
 =
