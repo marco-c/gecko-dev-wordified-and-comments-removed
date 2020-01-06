@@ -265,6 +265,17 @@ subprocess
 check_output
 (
 cmd
+stderr
+=
+open
+(
+os
+.
+devnull
+'
+w
+'
+)
 )
 .
 strip
