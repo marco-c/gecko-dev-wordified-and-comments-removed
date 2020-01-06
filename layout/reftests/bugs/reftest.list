@@ -22389,6 +22389,17 @@ random
 if
 (
 cocoaWidget
+|
+|
+(
+gtkWidget
+&
+&
+webrender
+)
+|
+|
+winWidget
 )
 =
 =
@@ -22407,6 +22418,9 @@ xul
 #
 Bug
 631982
+and
+bug
+1375012
 =
 =
 508816
