@@ -146,6 +146,7 @@ UpdateStateInternal
 result
 aAnimationFinished
 aSize
+aAllowInvalidation
 )
 ;
 }
