@@ -37679,7 +37679,7 @@ tcp
 .
 tcp_fastopen_enable
 "
-true
+false
 )
 ;
 pref
@@ -40011,6 +40011,16 @@ activity
 blipIntervalMilliseconds
 "
 0
+)
+;
+pref
+(
+"
+jsloader
+.
+shareGlobal
+"
+false
 )
 ;
 pref

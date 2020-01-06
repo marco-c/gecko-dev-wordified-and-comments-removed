@@ -6645,11 +6645,11 @@ _sendMediaTelemetry
 let
 win
 =
-RecentWindow
+Services
 .
-getMostRecentBrowserWindow
-(
-)
+appShell
+.
+hiddenDOMWindow
 ;
 let
 v
