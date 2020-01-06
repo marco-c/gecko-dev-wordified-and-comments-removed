@@ -444,9 +444,9 @@ drawable
 /
 tab_close
 "
-android
+gecko
 :
-tint
+drawableTintList
 =
 "
 color
