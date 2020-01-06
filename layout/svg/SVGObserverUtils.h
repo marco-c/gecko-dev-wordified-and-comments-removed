@@ -299,6 +299,16 @@ dom
 Element
 Element
 ;
+typedef
+mozilla
+:
+:
+dom
+:
+:
+IDTracker
+IDTracker
+;
 nsSVGIDRenderingObserver
 (
 nsIURI
@@ -345,7 +355,7 @@ class
 SourceReference
 :
 public
-nsReferencedElement
+IDTracker
 {
 public
 :
@@ -385,7 +395,7 @@ StopListening
 (
 )
 ;
-nsReferencedElement
+IDTracker
 :
 :
 ElementChanged
