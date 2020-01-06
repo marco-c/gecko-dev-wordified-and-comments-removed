@@ -2234,7 +2234,7 @@ ic
 "
 abc
 "
-2
+3
 )
 ;
 }
@@ -2253,8 +2253,8 @@ ic
 .
 deleteSurroundingText
 (
-2
-1
+3
+0
 )
 ;
 assertTextAndSelectionAt
