@@ -3252,6 +3252,13 @@ file_path
 parse_config_file
 (
 file_path
+search_path
+=
+[
+"
+.
+"
+]
 )
 )
                     
