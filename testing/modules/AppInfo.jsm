@@ -257,6 +257,9 @@ invalidateCachesOnRestart
 )
 {
 }
+shouldBlockIncompatJaws
+:
+false
 get
 userCanElevate
 (
