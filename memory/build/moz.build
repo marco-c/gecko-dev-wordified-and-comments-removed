@@ -149,7 +149,7 @@ replace_malloc_bridge
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -161,7 +161,7 @@ cpp
 '
 mozmemory_wrap
 .
-c
+cpp
 '
 ]
 if
