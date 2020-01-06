@@ -231,6 +231,17 @@ top
 .
 document
 ;
+if
+(
+!
+topDoc
+.
+documentElement
+)
+{
+return
+;
+}
 browser
 =
 gBrowser
