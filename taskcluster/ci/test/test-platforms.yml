@@ -185,8 +185,6 @@ linux32
 opt
 -
 tests
--
-awsy
 linux32
 -
 nightly
@@ -216,8 +214,6 @@ linux32
 opt
 -
 tests
--
-awsy
 linux64
 /
 debug
