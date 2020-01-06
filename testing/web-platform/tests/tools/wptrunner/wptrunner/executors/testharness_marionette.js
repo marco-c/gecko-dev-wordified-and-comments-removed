@@ -194,14 +194,6 @@ function
 (
 )
 {
-log
-(
-"
-Timeout
-fired
-"
-)
-;
 window
 .
 wrappedJSObject
