@@ -669,6 +669,9 @@ mBlocked
 =
 0
 )
+&
+&
+mExecutor
 )
 {
 mExecutor
@@ -691,6 +694,11 @@ ContinueInterruptedParsingAsync
 (
 )
 {
+if
+(
+mExecutor
+)
+{
 mExecutor
 -
 >
@@ -698,6 +706,7 @@ ContinueInterruptedParsingAsync
 (
 )
 ;
+}
 }
 NS_IMETHODIMP_
 (
