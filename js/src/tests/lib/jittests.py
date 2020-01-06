@@ -2353,6 +2353,29 @@ VALGRIND_CMD
 +
 cmd
         
+if
+self
+.
+allow_unhandlable_oom
+or
+self
+.
+expect_crash
+:
+            
+cmd
++
+=
+[
+'
+-
+-
+suppress
+-
+minidump
+'
+]
+        
 return
 cmd
     
