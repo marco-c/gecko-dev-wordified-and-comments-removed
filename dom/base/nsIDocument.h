@@ -8963,6 +8963,11 @@ mMightHaveStaleServoData
 :
 1
 ;
+bool
+mDidCallBeginLoad
+:
+1
+;
 enum
 {
 eScopedStyle_Unknown
