@@ -4377,6 +4377,8 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
+ServoComputedValuesBorrowed
+aStyle
 )
 {
 return
@@ -4388,6 +4390,7 @@ get
 (
 )
 aElement
+aStyle
 &
 Snapshots
 (

@@ -988,6 +988,8 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
+ServoComputedValuesBorrowed
+aStyle
 )
 ;
 already_AddRefed
