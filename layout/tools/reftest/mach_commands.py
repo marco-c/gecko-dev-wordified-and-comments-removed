@@ -531,6 +531,14 @@ self
 .
 topsrcdir
         
+args
+.
+objPath
+=
+self
+.
+topobjdir
+        
 if
 not
 args

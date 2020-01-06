@@ -2281,6 +2281,30 @@ AttributeError
             
 pass
         
+try
+:
+            
+if
+options
+.
+objPath
+:
+                
+sandbox_whitelist_paths
+.
+append
+(
+options
+.
+objPath
+)
+        
+except
+AttributeError
+:
+            
+pass
+        
 if
 (
 platform
