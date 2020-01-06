@@ -111,6 +111,13 @@ nsIIOService
 io
 "
 "
+nsIIOService2
+"
+:
+"
+io
+"
+"
 nsISpeculativeConnect
 "
 :

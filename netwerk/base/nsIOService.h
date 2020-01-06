@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIIOService
+nsIIOService2
 .
 h
 "
@@ -250,7 +250,7 @@ nsIOService
 final
 :
 public
-nsIIOService
+nsIIOService2
 public
 nsIObserver
 public
@@ -266,6 +266,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIIOSERVICE
+NS_DECL_NSIIOSERVICE2
 NS_DECL_NSIOBSERVER
 NS_DECL_NSINETUTIL
 NS_DECL_NSISPECULATIVECONNECT

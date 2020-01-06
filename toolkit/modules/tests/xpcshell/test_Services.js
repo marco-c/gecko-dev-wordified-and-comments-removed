@@ -290,6 +290,16 @@ nsIIOService
 checkService
 (
 "
+io
+"
+Ci
+.
+nsIIOService2
+)
+;
+checkService
+(
+"
 intl
 "
 Ci

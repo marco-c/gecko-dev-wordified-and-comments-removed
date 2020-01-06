@@ -185,7 +185,7 @@ getService
 (
 Ci
 .
-nsIIOService
+nsIIOService2
 )
 ;
 let

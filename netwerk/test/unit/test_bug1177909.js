@@ -852,7 +852,7 @@ getService
 (
 Ci
 .
-nsIIOService
+nsIIOService2
 )
 ;
 let
@@ -1021,7 +1021,7 @@ getService
 (
 Ci
 .
-nsIIOService
+nsIIOService2
 )
 ;
 let
