@@ -944,7 +944,7 @@ const
 return
 !
 !
-mDocumentWeak
+mDocument
 ;
 }
 already_AddRefed
@@ -3155,11 +3155,11 @@ nsISelectionController
 >
 mSelectionController
 ;
-CachedWeakPtr
+nsCOMPtr
 <
 nsIDocument
 >
-mDocumentWeak
+mDocument
 ;
 protected
 :
