@@ -101,9 +101,6 @@ use
 euclid
 :
 :
-size
-:
-:
 Size2D
 ;
 use

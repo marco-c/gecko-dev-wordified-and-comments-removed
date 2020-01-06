@@ -126,9 +126,6 @@ use
 euclid
 :
 :
-side_offsets
-:
-:
 SideOffsets2D
 ;
 use

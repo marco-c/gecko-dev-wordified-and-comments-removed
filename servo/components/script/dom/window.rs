@@ -614,6 +614,7 @@ euclid
 :
 {
 Point2D
+Vector2D
 Rect
 Size2D
 }
@@ -1810,7 +1811,7 @@ DOMRefCell
 HashMap
 <
 UntrustedNodeAddress
-Point2D
+Vector2D
 <
 f32
 >
@@ -2392,7 +2393,7 @@ offsets
 HashMap
 <
 UntrustedNodeAddress
-Point2D
+Vector2D
 <
 f32
 >
@@ -9164,7 +9165,7 @@ scroll_root_id
 scroll_root_id
 scroll_offset
 :
-Point2D
+Vector2D
 :
 :
 new
@@ -11634,7 +11635,7 @@ Node
 )
 -
 >
-Point2D
+Vector2D
 <
 f32
 >
@@ -11705,7 +11706,7 @@ break
 }
 }
 let
-offset
+vp_origin
 =
 self
 .
@@ -11717,19 +11718,19 @@ get
 .
 origin
 ;
-Point2D
+Vector2D
 :
 :
 new
 (
-offset
+vp_origin
 .
 x
 .
 to_f32_px
 (
 )
-offset
+vp_origin
 .
 y
 .

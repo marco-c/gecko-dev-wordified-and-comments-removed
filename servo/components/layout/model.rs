@@ -17,7 +17,7 @@ euclid
 :
 :
 {
-Matrix4D
+Transform3D
 SideOffsets2D
 Size2D
 }
@@ -2397,7 +2397,7 @@ self
 )
 -
 >
-Matrix4D
+Transform3D
 <
 f32
 >
@@ -2416,12 +2416,12 @@ self
 )
 -
 >
-Matrix4D
+Transform3D
 <
 f32
 >
 {
-Matrix4D
+Transform3D
 :
 :
 row_major

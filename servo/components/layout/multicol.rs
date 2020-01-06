@@ -37,13 +37,10 @@ use
 euclid
 :
 :
+{
 Point2D
-;
-use
-euclid
-:
-:
-Size2D
+Vector2D
+}
 ;
 use
 floats
@@ -1017,7 +1014,7 @@ point
 *
 point
 +
-Size2D
+Vector2D
 :
 :
 new

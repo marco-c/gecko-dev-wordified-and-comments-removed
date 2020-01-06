@@ -9,10 +9,13 @@ euclid
 :
 :
 {
-Matrix4D
+Transform3D
 Point2D
+Vector2D
 Rect
 Size2D
+TypedRect
+SideOffsets2D
 }
 ;
 use
@@ -26,24 +29,6 @@ num
 One
 Zero
 }
-;
-use
-euclid
-:
-:
-rect
-:
-:
-TypedRect
-;
-use
-euclid
-:
-:
-side_offsets
-:
-:
-SideOffsets2D
 ;
 use
 gfx_traits
@@ -330,7 +315,7 @@ ClipId
 transform
 :
 &
-Matrix4D
+Transform3D
 <
 f32
 >
@@ -426,7 +411,7 @@ frac_point
 =
 inv_transform
 .
-transform_point
+transform_point2d
 (
 &
 Point2D
@@ -514,7 +499,7 @@ calculated_total_offsets
 insert
 (
 clip_id
-Point2D
+Vector2D
 :
 :
 zero
@@ -567,7 +552,7 @@ ClipId
 )
 -
 >
-Point2D
+Vector2D
 <
 f32
 >
@@ -631,7 +616,7 @@ parent_id
 }
 else
 {
-Point2D
+Vector2D
 :
 :
 zero
@@ -659,7 +644,7 @@ cloned
 .
 unwrap_or_else
 (
-Point2D
+Vector2D
 :
 :
 zero
@@ -1111,6 +1096,10 @@ stacking_context
 bounds
 .
 origin
+.
+to_vector
+(
+)
 ;
 if
 stacking_context
@@ -1147,7 +1136,7 @@ calculated_total_offsets
 insert
 (
 clip_id
-Point2D
+Vector2D
 :
 :
 zero
@@ -1572,6 +1561,10 @@ stacking_context
 bounds
 .
 origin
+.
+to_vector
+(
+)
 ;
 if
 stacking_context
@@ -1608,7 +1601,7 @@ calculated_total_offsets
 insert
 (
 clip_id
-Point2D
+Vector2D
 :
 :
 zero
@@ -2419,7 +2412,7 @@ transform
 :
 Option
 <
-Matrix4D
+Transform3D
 <
 f32
 >
@@ -2433,7 +2426,7 @@ perspective
 :
 Option
 <
-Matrix4D
+Transform3D
 <
 f32
 >
@@ -2494,7 +2487,7 @@ transform
 :
 Option
 <
-Matrix4D
+Transform3D
 <
 f32
 >
@@ -2506,7 +2499,7 @@ perspective
 :
 Option
 <
-Matrix4D
+Transform3D
 <
 f32
 >
@@ -4661,7 +4654,7 @@ self
 delta
 :
 &
-Point2D
+Vector2D
 <
 Au
 >
@@ -7189,7 +7182,7 @@ box
 pub
 offset
 :
-Point2D
+Vector2D
 <
 Au
 >
@@ -8761,7 +8754,7 @@ ScrollOffsetMap
 HashMap
 <
 ClipId
-Point2D
+Vector2D
 <
 f32
 >
@@ -8785,7 +8778,7 @@ bool
 impl
 SimpleMatrixDetection
 for
-Matrix4D
+Transform3D
 <
 f32
 >

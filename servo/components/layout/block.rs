@@ -13958,6 +13958,10 @@ late_absolute_position_info
 stacking_relative_position_of_absolute_containing_block
 +
 position_start
+.
+to_vector
+(
+)
 }
 ;
 if
@@ -14183,6 +14187,10 @@ self
 base
 .
 stacking_relative_position
+.
+to_point
+(
+)
 +
 (
 border_box_origin
@@ -14198,6 +14206,10 @@ base
 .
 writing_mode
 container_size
+)
+.
+to_vector
+(
 )
 }
 /
@@ -14423,6 +14435,10 @@ base
 .
 writing_mode
 )
+.
+to_vector
+(
+)
 ;
 let
 is_stacking_context
@@ -14558,6 +14574,10 @@ self
 base
 .
 stacking_relative_position
+.
+to_point
+(
+)
 +
 relative_offset
 }
@@ -15311,7 +15331,12 @@ Own
 .
 translate
 (
+&
 stacking_context_position
+.
+to_vector
+(
+)
 )
 )
 ;

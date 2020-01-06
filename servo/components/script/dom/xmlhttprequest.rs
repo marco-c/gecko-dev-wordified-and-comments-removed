@@ -466,9 +466,6 @@ use
 euclid
 :
 :
-length
-:
-:
 Length
 ;
 use

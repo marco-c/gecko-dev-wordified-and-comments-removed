@@ -20,10 +20,10 @@ use
 euclid
 :
 :
-point
-:
-:
+{
 Point2D
+Vector2D
+}
 ;
 use
 floats
@@ -611,6 +611,10 @@ kid
 stacking_relative_position
 +
 stacking_context_position
+.
+to_vector
+(
+)
 ;
 let
 relative_position
@@ -655,7 +659,7 @@ transform_matrix
 =
 matrix
 .
-transform_point
+transform_point2d
 (
 &
 Point2D
@@ -670,7 +674,7 @@ stacking_context_position
 =
 stacking_context_position
 +
-Point2D
+Vector2D
 :
 :
 new

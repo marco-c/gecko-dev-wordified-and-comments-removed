@@ -35,8 +35,9 @@ euclid
 :
 :
 {
-Matrix4D
+Transform3D
 Point2D
+Vector2D
 Radians
 Rect
 Size2D
@@ -16537,7 +16538,7 @@ self
 stacking_relative_flow_origin
 :
 &
-Point2D
+Vector2D
 <
 Au
 >
@@ -16721,6 +16722,7 @@ writing_mode
 .
 translate
 (
+&
 stacking_relative_flow_origin
 )
 }
@@ -17729,7 +17731,7 @@ box_shadow
 let
 offset
 =
-Point2D
+Vector2D
 :
 :
 new
@@ -19561,7 +19563,7 @@ Au
 >
 Option
 <
-Matrix4D
+Transform3D
 <
 f32
 >
@@ -19602,7 +19604,7 @@ let
 mut
 transform
 =
-Matrix4D
+Transform3D
 :
 :
 identity
@@ -19677,7 +19679,7 @@ to_f32_px
 let
 pre_transform
 =
-Matrix4D
+Transform3D
 :
 :
 create_translation
@@ -19690,7 +19692,7 @@ transform_origin_z
 let
 post_transform
 =
-Matrix4D
+Transform3D
 :
 :
 create_translation
@@ -19752,7 +19754,7 @@ radians
 (
 )
 ;
-Matrix4D
+Transform3D
 :
 :
 create_rotation
@@ -19802,7 +19804,7 @@ sz
 =
 >
 {
-Matrix4D
+Transform3D
 :
 :
 create_scale
@@ -19872,7 +19874,7 @@ to_f32_px
 (
 )
 ;
-Matrix4D
+Transform3D
 :
 :
 create_translation
@@ -19946,7 +19948,7 @@ theta_y
 =
 >
 {
-Matrix4D
+Transform3D
 :
 :
 create_skew
@@ -20012,7 +20014,7 @@ AccmulateMatrix
 into
 a
 valid
-Matrix4D
+Transform3D
 by
 /
 /
@@ -20020,7 +20022,7 @@ the
 reference
 box
 .
-Matrix4D
+Transform3D
 :
 :
 identity
@@ -20089,7 +20091,7 @@ Au
 >
 Option
 <
-Matrix4D
+Transform3D
 <
 f32
 >
@@ -20178,7 +20180,7 @@ to_f32_px
 let
 pre_transform
 =
-Matrix4D
+Transform3D
 :
 :
 create_translation
@@ -20197,7 +20199,7 @@ y
 let
 post_transform
 =
-Matrix4D
+Transform3D
 :
 :
 create_translation
@@ -21189,10 +21191,10 @@ translate
 &
 mut
 self
-point
+by
 :
 &
-Point2D
+Vector2D
 <
 Au
 >
@@ -21208,7 +21210,7 @@ scroll
 .
 translate
 (
-point
+by
 )
 ;
 self
@@ -21221,7 +21223,7 @@ paint
 .
 translate
 (
-point
+by
 )
 ;
 }
@@ -21708,7 +21710,7 @@ Au
 )
 -
 >
-Matrix4D
+Transform3D
 <
 f32
 >
@@ -21730,7 +21732,7 @@ d
 .
 0
 {
-Matrix4D
+Transform3D
 :
 :
 identity
@@ -21739,7 +21741,7 @@ identity
 }
 else
 {
-Matrix4D
+Transform3D
 :
 :
 create_perspective
