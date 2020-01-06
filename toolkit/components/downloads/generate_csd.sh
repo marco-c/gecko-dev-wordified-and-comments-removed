@@ -132,9 +132,9 @@ if
 !
 -
 f
-nsDownloadManager
+nsIApplicationReputation
 .
-cpp
+idl
 ]
 ;
 then
