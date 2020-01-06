@@ -6180,7 +6180,7 @@ aServoChildSheet
 aParentSheet
 -
 >
-AppendStyleSheet
+PrependStyleSheet
 (
 aSheet
 )
