@@ -9446,15 +9446,6 @@ use
 std
 :
 :
-borrow
-:
-:
-Cow
-;
-use
-std
-:
-:
 collections
 :
 :
