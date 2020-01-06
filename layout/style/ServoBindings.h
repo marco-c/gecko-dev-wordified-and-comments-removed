@@ -2331,13 +2331,6 @@ len
 )
 ;
 void
-Gecko_CSSValue_SetNormal
-(
-nsCSSValueBorrowedMut
-css_value
-)
-;
-void
 Gecko_CSSValue_SetNumber
 (
 nsCSSValueBorrowedMut
