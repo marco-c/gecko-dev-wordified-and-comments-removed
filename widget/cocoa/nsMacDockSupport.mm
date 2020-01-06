@@ -150,9 +150,8 @@ mProgressFraction
 {
 mProgressTimer
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 }
@@ -628,9 +627,8 @@ mAppIcon
 {
 mProgressTimer
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 mAppIcon
