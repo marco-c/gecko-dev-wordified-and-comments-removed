@@ -402,8 +402,7 @@ SERVO_BINDING_FUNC
 (
 Servo_SelectorList_Drop
 void
-RawServoSelectorList
-*
+RawServoSelectorListOwned
 selector_list
 )
 SERVO_BINDING_FUNC
