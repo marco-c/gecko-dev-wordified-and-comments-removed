@@ -588,12 +588,6 @@ box
 #
 inspector
 -
-rules
--
-container
-#
-inspector
--
 sidebar
 -
 container
@@ -612,12 +606,6 @@ height
 %
 ;
 }
-#
-inspector
--
-rules
--
-sidebar
 #
 inspector
 -
