@@ -820,6 +820,8 @@ DrawTarget
 aDrawTarget
 uint32_t
 aGlyphId
+gfxFloat
+aSize
 gfxRect
 *
 aResult
