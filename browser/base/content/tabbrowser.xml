@@ -17196,15 +17196,9 @@ aURIObject
 |
 |
 (
-Services
-.
-io
-.
-getProtocolFlags
+doGetProtocolFlags
 (
 aURIObject
-.
-scheme
 )
 &
 URI_INHERITS_SECURITY_CONTEXT
