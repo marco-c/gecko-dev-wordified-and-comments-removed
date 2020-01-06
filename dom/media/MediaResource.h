@@ -646,13 +646,6 @@ Tell
 ;
 virtual
 void
-EnsureCacheUpToDate
-(
-)
-{
-}
-virtual
-void
 Pin
 (
 )
@@ -1366,12 +1359,6 @@ int64_t
 aOffset
 uint32_t
 aCount
-)
-override
-;
-void
-EnsureCacheUpToDate
-(
 )
 override
 ;

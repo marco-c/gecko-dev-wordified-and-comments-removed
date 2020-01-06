@@ -184,11 +184,6 @@ mPrincipal
 ;
 }
 void
-EnsureCacheUpdate
-(
-)
-;
-void
 NotifyDataLength
 (
 int64_t

@@ -4029,15 +4029,6 @@ Invalidate
 (
 )
 ;
-GetResource
-(
-)
--
->
-EnsureCacheUpToDate
-(
-)
-;
 if
 (
 mPlayState
