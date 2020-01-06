@@ -11435,7 +11435,7 @@ if
 error
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 c
 .

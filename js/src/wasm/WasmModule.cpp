@@ -3528,7 +3528,7 @@ offset
 numElems
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -3603,7 +3603,7 @@ seg
 length
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -4274,7 +4274,7 @@ imports_
 i
 )
 ;
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -4390,7 +4390,7 @@ UINT32_MAX
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -4429,7 +4429,7 @@ declaredMax
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage

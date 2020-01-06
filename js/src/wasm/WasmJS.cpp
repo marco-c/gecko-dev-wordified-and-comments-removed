@@ -939,7 +939,7 @@ JSContext
 cx
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -968,7 +968,7 @@ char
 str
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -1171,7 +1171,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -2133,7 +2133,7 @@ if
 error
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -2278,7 +2278,7 @@ dbl
 max
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -2549,7 +2549,7 @@ limits
 maximum
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -2857,7 +2857,7 @@ module
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -4791,7 +4791,7 @@ byteLength
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -4976,7 +4976,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -5057,7 +5057,7 @@ if
 error
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -6187,7 +6187,7 @@ module
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -7514,7 +7514,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -7912,7 +7912,7 @@ uint32_t
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -9009,7 +9009,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -9107,7 +9107,7 @@ isString
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -9155,7 +9155,7 @@ anyfunc
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -9757,7 +9757,7 @@ isNull
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -10072,7 +10072,7 @@ uint32_t
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -11102,7 +11102,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -11329,7 +11329,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
@@ -11813,7 +11813,7 @@ PromiseObject
 promise
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage

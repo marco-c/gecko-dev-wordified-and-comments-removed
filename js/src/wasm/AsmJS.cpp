@@ -52972,7 +52972,7 @@ fun
 )
 )
 {
-JS_ReportErrorNumberASCII
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
