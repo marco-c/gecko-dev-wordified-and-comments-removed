@@ -3504,13 +3504,15 @@ failReadOnly
 ;
 return
 NativeSetProperty
+<
+Qualified
+>
 (
 cx
 self
 id
 v
 receiver
-Qualified
 result
 )
 ;
