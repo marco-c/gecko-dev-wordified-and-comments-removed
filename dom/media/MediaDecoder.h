@@ -740,7 +740,7 @@ const
 ;
 virtual
 void
-NotifyBytesDownloaded
+NotifyDownloadProgressed
 (
 )
 ;
