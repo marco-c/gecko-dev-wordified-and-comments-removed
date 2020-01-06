@@ -6681,9 +6681,12 @@ Address
 (
 StackPointer
 -
+int32_t
+(
 sizeof
 (
 intptr_t
+)
 )
 )
 HeapReg
