@@ -2228,6 +2228,7 @@ inspector
 .
 enabled
 "
+true
 )
 )
 {

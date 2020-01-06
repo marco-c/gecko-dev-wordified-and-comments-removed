@@ -2127,13 +2127,6 @@ onTextInput
 var
 showInspect
 =
-DevToolsShim
-.
-isInstalled
-(
-)
-&
-&
 this
 .
 inTabBrowser
@@ -2150,7 +2143,7 @@ inspector
 .
 enabled
 "
-false
+true
 )
 ;
 this
