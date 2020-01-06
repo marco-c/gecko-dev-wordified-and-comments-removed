@@ -867,7 +867,7 @@ flex
 -
 wrap
 :
-nowrap
+wrap
 ;
 }
 .
@@ -4602,6 +4602,12 @@ inline
 end
 :
 3px
+;
+white
+-
+space
+:
+nowrap
 ;
 }
 .
