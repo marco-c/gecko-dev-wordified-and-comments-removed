@@ -293,6 +293,17 @@ aMatches
 )
 override
 ;
+NotNull
+<
+DeclarationBlock
+*
+>
+GetDeclarationBlock
+(
+)
+const
+override
+;
 uint16_t
 Type
 (
