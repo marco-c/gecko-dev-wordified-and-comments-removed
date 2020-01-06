@@ -247,6 +247,11 @@ SGH
 I337
 "
 "
+SPH
+-
+L720
+"
+"
 SAMSUNG
 -
 SGH
