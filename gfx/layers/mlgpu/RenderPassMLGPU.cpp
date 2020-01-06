@@ -2722,11 +2722,13 @@ textureCoords
 .
 y
 =
+1
+.
+0
+-
 textureCoords
 .
-YMost
-(
-)
+y
 ;
 textureCoords
 .
