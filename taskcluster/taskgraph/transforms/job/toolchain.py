@@ -255,22 +255,17 @@ label
 replace
 (
 '
-toolchain
+%
+s
 -
 '
-'
-'
-)
+%
+config
 .
-split
-(
+kind
 '
-/
 '
 )
-[
-0
-]
         
 '
 digest
