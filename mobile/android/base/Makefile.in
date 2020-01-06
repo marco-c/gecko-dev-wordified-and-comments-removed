@@ -1353,10 +1353,10 @@ gradle
 \
 app
 :
-assembleOfficialAustralisDebug
+assembleOfficialPhotonDebug
 app
 :
-assembleOfficialAustralisDebugAndroidTest
+assembleOfficialPhotonDebugAndroidTest
 -
 x
 lint
@@ -1384,7 +1384,7 @@ transforms
 /
 dex
 /
-officialAustralis
+officialPhoton
 /
 debug
 /
@@ -3850,7 +3850,7 @@ resources
 -
 official
 -
-australis
+photon
 -
 debug
 .
