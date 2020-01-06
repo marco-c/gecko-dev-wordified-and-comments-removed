@@ -5816,6 +5816,7 @@ unsafe_code
 )
 ]
 pub
+unsafe
 fn
 from_untrusted_node_address
 (
@@ -5834,8 +5835,6 @@ Root
 <
 Node
 >
-{
-unsafe
 {
 let
 candidate
@@ -5918,7 +5917,6 @@ from_ref
 *
 boxed_node
 )
-}
 }
 #
 [

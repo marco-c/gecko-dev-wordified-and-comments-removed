@@ -398,10 +398,7 @@ use
 style_traits
 :
 :
-{
 CSSPixel
-UnsafeNode
-}
 ;
 use
 webdriver_msg
@@ -1112,7 +1109,7 @@ PipelineId
 )
 TransitionEnd
 (
-UnsafeNode
+UntrustedNodeAddress
 String
 f64
 )

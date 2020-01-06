@@ -1,7 +1,4 @@
 use
-PendingImage
-;
-use
 app_units
 :
 :
@@ -158,19 +155,6 @@ self
 -
 >
 MarginStyleResponse
-;
-fn
-pending_images
-(
-&
-self
-)
--
->
-Vec
-<
-PendingImage
->
 ;
 fn
 nodes_from_point_response
