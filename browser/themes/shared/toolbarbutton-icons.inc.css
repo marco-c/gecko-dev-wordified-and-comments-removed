@@ -76,6 +76,16 @@ brighttext
 .
 toolbarbutton
 -
+animatable
+-
+box
+toolbar
+[
+brighttext
+]
+.
+toolbarbutton
+-
 1
 {
 fill
