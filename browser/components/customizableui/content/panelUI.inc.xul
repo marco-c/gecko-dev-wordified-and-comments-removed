@@ -101,7 +101,7 @@ true
 "
 >
 <
-photonpanelmultiview
+panelmultiview
 mainViewId
 =
 "
@@ -284,7 +284,7 @@ panelview
 >
 <
 /
-photonpanelmultiview
+panelmultiview
 >
 <
 !
@@ -1507,7 +1507,7 @@ true
 "
 >
 <
-photonpanelmultiview
+panelmultiview
 id
 =
 "
@@ -6400,7 +6400,7 @@ panelview
 >
 <
 /
-photonpanelmultiview
+panelmultiview
 >
 <
 /

@@ -196,7 +196,7 @@ learnMore
 broadcasterset
 >
 <
-photonpanelmultiview
+panelmultiview
 id
 =
 "
@@ -2304,7 +2304,7 @@ panelview
 >
 <
 /
-photonpanelmultiview
+panelmultiview
 >
 <
 /

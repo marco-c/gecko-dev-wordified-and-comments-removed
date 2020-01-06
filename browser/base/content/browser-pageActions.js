@@ -1124,7 +1124,7 @@ document
 createElement
 (
 "
-photonpanelmultiview
+panelmultiview
 "
 )
 ;

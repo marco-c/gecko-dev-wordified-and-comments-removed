@@ -3860,7 +3860,7 @@ label
 "
 >
 <
-photonpanelmultiview
+panelmultiview
 id
 =
 "
@@ -3918,7 +3918,7 @@ panelview
 >
 <
 /
-photonpanelmultiview
+panelmultiview
 >
 <
 /

@@ -1051,7 +1051,7 @@ label
 menupopup
 >
 <
-photonpanelmultiview
+panelmultiview
 id
 =
 "
@@ -1787,7 +1787,7 @@ panelview
 >
 <
 /
-photonpanelmultiview
+panelmultiview
 >
 <
 /
