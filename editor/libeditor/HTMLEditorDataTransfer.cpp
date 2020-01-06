@@ -5489,11 +5489,10 @@ this
 nsAutoString
 flavor
 ;
-flavor
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 bestFlavor
+flavor
 )
 ;
 nsAutoString

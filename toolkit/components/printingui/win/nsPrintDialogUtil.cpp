@@ -952,13 +952,12 @@ aRect
 )
 {
 nsString
-cStr
+str
 ;
-cStr
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 aStr
+str
 )
 ;
 return
@@ -971,7 +970,7 @@ BS_RADIOBUTTON
 aHInst
 aHdlg
 aId
-cStr
+str
 aRect
 )
 ;

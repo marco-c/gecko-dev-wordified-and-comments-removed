@@ -5632,11 +5632,10 @@ return
 nsAutoCString
 keyCodeName
 ;
-keyCodeName
-.
-AssignWithConversion
+LossyCopyUTF16toASCII
 (
 aKeyCodeName
+keyCodeName
 )
 ;
 /

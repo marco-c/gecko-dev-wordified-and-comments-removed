@@ -2115,9 +2115,7 @@ ServiceWorker
 "
 )
 ;
-id
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 mWorkerPrivate
 -
@@ -2125,6 +2123,7 @@ mWorkerPrivate
 ServiceWorkerScope
 (
 )
+id
 )
 ;
 }

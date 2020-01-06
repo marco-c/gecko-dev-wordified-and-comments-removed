@@ -4203,11 +4203,10 @@ rv
 nsAutoCString
 targetstrC
 ;
-targetstrC
-.
-AssignWithConversion
+LossyCopyUTF16toASCII
 (
 targetStr
+targetstrC
 )
 ;
 MOZ_LOG
@@ -5134,11 +5133,10 @@ tagstr
 nsAutoCString
 tagstrC
 ;
-tagstrC
-.
-AssignWithConversion
+LossyCopyUTF16toASCII
 (
 tagstr
+tagstrC
 )
 ;
 MOZ_LOG

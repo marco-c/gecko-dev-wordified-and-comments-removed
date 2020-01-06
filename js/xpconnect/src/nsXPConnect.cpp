@@ -817,14 +817,13 @@ true
 )
 ;
 else
-mFileName
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 aReport
 -
 >
 filename
+mFileName
 )
 ;
 mLineNumber

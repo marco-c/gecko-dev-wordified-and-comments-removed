@@ -15441,15 +15441,10 @@ rv
 )
 )
 {
-mLastStyleSheetURL
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 spec
-.
-get
-(
-)
+mLastStyleSheetURL
 )
 ;
 AddNewStyleSheetToList

@@ -3418,11 +3418,10 @@ aKeyName
 nsAutoCString
 keyName
 ;
-keyName
-.
-AssignWithConversion
+LossyCopyUTF16toASCII
 (
 aKeyName
+keyName
 )
 ;
 ToUpperCase

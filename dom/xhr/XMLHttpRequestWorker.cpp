@@ -1415,14 +1415,13 @@ AssertIsOnMainThread
 (
 )
 ;
-mEventType
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 sEventStrings
 [
 STRING_loadstart
 ]
+mEventType
 )
 ;
 }

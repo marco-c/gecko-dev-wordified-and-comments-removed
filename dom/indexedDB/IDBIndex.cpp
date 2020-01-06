@@ -1065,9 +1065,7 @@ aLocale
 }
 else
 {
-aLocale
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 mMetadata
 -
@@ -1075,6 +1073,7 @@ mMetadata
 locale
 (
 )
+aLocale
 )
 ;
 }
