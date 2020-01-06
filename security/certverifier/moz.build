@@ -116,6 +116,11 @@ BRNameMatchingPolicy
 h
 '
 '
+Buffer
+.
+h
+'
+'
 CertVerifier
 .
 h
@@ -157,6 +162,11 @@ UNIFIED_SOURCES
 [
 '
 BRNameMatchingPolicy
+.
+cpp
+'
+'
+Buffer
 .
 cpp
 '
