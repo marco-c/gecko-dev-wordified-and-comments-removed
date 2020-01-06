@@ -18,6 +18,7 @@ expectedResult
 :
 [
 [
+[
 {
 "
 section
@@ -398,6 +399,7 @@ email
 "
 }
 ]
+]
 [
 ]
 ]
@@ -412,6 +414,7 @@ html
 "
 expectedResult
 :
+[
 [
 [
 {
@@ -886,6 +889,7 @@ number
 }
 ]
 ]
+]
 }
 {
 fixturePath
@@ -899,6 +903,8 @@ expectedResult
 :
 [
 [
+[
+]
 ]
 ]
 }

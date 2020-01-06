@@ -18,6 +18,7 @@ expectedResult
 :
 [
 [
+[
 {
 "
 section
@@ -243,6 +244,8 @@ email
 "
 }
 ]
+]
+[
 [
 {
 "
@@ -646,6 +649,7 @@ exp
 year
 "
 }
+]
 ]
 ]
 }

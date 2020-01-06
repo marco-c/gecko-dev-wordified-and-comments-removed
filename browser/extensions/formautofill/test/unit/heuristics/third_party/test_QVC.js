@@ -18,6 +18,7 @@ expectedResult
 :
 [
 [
+[
 {
 "
 section
@@ -104,6 +105,8 @@ exp
 "
 }
 ]
+]
+[
 [
 {
 "
@@ -132,6 +135,7 @@ fieldName
 email
 "
 }
+]
 ]
 ]
 }
@@ -147,6 +151,7 @@ expectedResult
 :
 [
 [
+[
 {
 "
 section
@@ -233,6 +238,8 @@ exp
 "
 }
 ]
+]
+[
 [
 {
 "
@@ -261,6 +268,7 @@ fieldName
 email
 "
 }
+]
 ]
 ]
 }
@@ -276,7 +284,10 @@ expectedResult
 :
 [
 [
+[
 ]
+]
+[
 [
 {
 "
@@ -305,6 +316,7 @@ fieldName
 email
 "
 }
+]
 ]
 [
 ]

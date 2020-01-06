@@ -18,6 +18,8 @@ expectedResult
 :
 [
 [
+[
+]
 ]
 ]
 }
@@ -31,6 +33,7 @@ html
 "
 expectedResult
 :
+[
 [
 [
 {
@@ -203,6 +206,7 @@ organization
 }
 ]
 ]
+]
 }
 {
 fixturePath
@@ -214,6 +218,7 @@ html
 "
 expectedResult
 :
+[
 [
 [
 {
@@ -274,6 +279,7 @@ cc
 exp
 "
 }
+]
 ]
 ]
 }
@@ -289,6 +295,7 @@ expectedResult
 :
 [
 [
+[
 {
 "
 section
@@ -347,6 +354,7 @@ cc
 exp
 "
 }
+]
 ]
 ]
 }

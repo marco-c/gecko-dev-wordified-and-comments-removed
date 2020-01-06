@@ -18,6 +18,7 @@ expectedResult
 :
 [
 [
+[
 {
 "
 section
@@ -332,6 +333,7 @@ tel
 "
 }
 ]
+]
 [
 ]
 ]
@@ -346,6 +348,7 @@ html
 "
 expectedResult
 :
+[
 [
 [
 {
@@ -699,6 +702,7 @@ year
 "
 }
 ]
+]
 [
 ]
 ]
@@ -717,6 +721,8 @@ expectedResult
 [
 ]
 [
+[
+]
 ]
 [
 ]
