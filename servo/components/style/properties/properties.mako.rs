@@ -1640,6 +1640,11 @@ unicode
 bidi
 '
 ]
+and
+not
+p
+.
+internal
 ]
 spec
 =
