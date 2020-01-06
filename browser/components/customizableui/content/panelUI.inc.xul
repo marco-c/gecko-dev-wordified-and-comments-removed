@@ -5685,11 +5685,6 @@ combined
 -
 buttons
 "
-closemenu
-=
-"
-none
-"
 >
 <
 label
@@ -5728,6 +5723,11 @@ command
 "
 cmd_fullZoomReduce
 "
+closemenu
+=
+"
+none
+"
 tooltip
 =
 "
@@ -5759,6 +5759,11 @@ command
 =
 "
 cmd_fullZoomReset
+"
+closemenu
+=
+"
+none
 "
 tooltip
 =
@@ -5794,6 +5799,11 @@ command
 =
 "
 cmd_fullZoomEnlarge
+"
+closemenu
+=
+"
+none
 "
 tooltip
 =
