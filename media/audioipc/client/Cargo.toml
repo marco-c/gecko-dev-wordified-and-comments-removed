@@ -63,7 +63,7 @@ audioipc
 }
 cubeb
 -
-core
+backend
 =
 {
 path
@@ -81,12 +81,12 @@ rs
 /
 cubeb
 -
-core
+backend
 "
 }
 cubeb
 -
-backend
+core
 =
 {
 path
@@ -104,7 +104,7 @@ rs
 /
 cubeb
 -
-backend
+core
 "
 }
 log

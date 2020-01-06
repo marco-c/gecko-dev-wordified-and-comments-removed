@@ -565,10 +565,6 @@ fill
 registration
 )
 .
-ok
-(
-)
-.
 expect
 (
 "
@@ -587,10 +583,6 @@ set_readiness
 fill
 (
 set_readiness
-)
-.
-ok
-(
 )
 .
 expect
@@ -736,7 +728,6 @@ Evented
 :
 deregister
 (
-&
 registration
 poll
 )
@@ -1070,9 +1061,9 @@ self
 str
 {
 match
+*
 self
 {
-&
 SendError
 :
 :
@@ -1088,7 +1079,6 @@ io_err
 description
 (
 )
-&
 SendError
 :
 :
@@ -1133,9 +1123,9 @@ self
 str
 {
 match
+*
 self
 {
-&
 TrySendError
 :
 :
@@ -1151,7 +1141,6 @@ io_err
 description
 (
 )
-&
 TrySendError
 :
 :
@@ -1165,7 +1154,6 @@ Full
 "
 Full
 "
-&
 TrySendError
 :
 :
@@ -1384,9 +1372,9 @@ fmt
 Result
 {
 match
+*
 e
 {
-&
 SendError
 :
 :
@@ -1407,7 +1395,6 @@ f
 "
 io_err
 )
-&
 SendError
 :
 :
@@ -1462,9 +1449,9 @@ fmt
 Result
 {
 match
+*
 e
 {
-&
 TrySendError
 :
 :
@@ -1485,7 +1472,6 @@ f
 "
 io_err
 )
-&
 TrySendError
 :
 :
@@ -1504,7 +1490,6 @@ f
 Full
 "
 )
-&
 TrySendError
 :
 :
