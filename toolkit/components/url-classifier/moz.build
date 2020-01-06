@@ -118,6 +118,11 @@ XPIDL_SOURCES
 =
 [
 '
+IUrlClassifierUITelemetry
+.
+idl
+'
+'
 nsIUrlClassifierDBService
 .
 idl
