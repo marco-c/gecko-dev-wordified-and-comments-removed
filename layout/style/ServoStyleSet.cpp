@@ -414,6 +414,10 @@ sheet
 ;
 }
 }
+SetStylistStyleSheetsDirty
+(
+)
+;
 }
 void
 ServoStyleSet
