@@ -50,15 +50,6 @@ use
 std
 :
 :
-borrow
-:
-:
-Borrow
-;
-use
-std
-:
-:
 collections
 :
 :
@@ -563,6 +554,8 @@ if
 let
 Some
 (
+ref
+mut
 tls
 )
 =
@@ -617,10 +610,6 @@ cx
 >
 &
 cx
-.
-borrow
-(
-)
 .
 statistics
 +
