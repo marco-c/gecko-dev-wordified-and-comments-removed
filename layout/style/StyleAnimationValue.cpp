@@ -8193,7 +8193,7 @@ const
 nsCSSValueList
 *
 aList2
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
@@ -8305,7 +8305,7 @@ const
 StyleAnimationValue
 &
 aEndValue
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 double
@@ -19984,7 +19984,7 @@ nsCSSPropertyID
 aProperty
 CSSEnabledState
 aEnabledState
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 nsTArray
@@ -20120,7 +20120,7 @@ nsCSSPropertyID
 aProperty
 CSSEnabledState
 aEnabledState
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 css
@@ -20214,7 +20214,7 @@ AsGecko
 ;
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 tmpStyleContext
 ;
@@ -20332,11 +20332,6 @@ aProperty
 tmpStyleContext
 -
 >
-AsGecko
-(
-)
--
->
 StyleData
 (
 sid
@@ -20450,7 +20445,7 @@ dom
 Element
 *
 aTargetElement
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -20643,7 +20638,7 @@ dom
 Element
 *
 aTargetElement
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 T
@@ -20730,7 +20725,7 @@ dom
 Element
 *
 aTargetElement
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -20776,7 +20771,7 @@ dom
 Element
 *
 aTargetElement
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -22166,7 +22161,7 @@ static
 void
 SubstitutePixelValues
 (
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -22203,11 +22198,6 @@ SpecifiedCalcToComputedCalc
 (
 aInput
 aStyleContext
--
->
-AsGecko
-(
-)
 aStyleContext
 -
 >
@@ -22392,11 +22382,6 @@ CalcLength
 (
 aInput
 aStyleContext
--
->
-AsGecko
-(
-)
 aStyleContext
 -
 >
@@ -23922,7 +23907,7 @@ ExtractComputedValue
 (
 nsCSSPropertyID
 aProperty
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 StyleAnimationValue
@@ -23953,11 +23938,6 @@ void
 styleStruct
 =
 aStyleContext
--
->
-AsGecko
-(
-)
 -
 >
 StyleData
@@ -30149,6 +30129,11 @@ aOther
 .
 mGecko
 aStyleContext
+-
+>
+AsGecko
+(
+)
 distance
 )
 ?
@@ -30345,6 +30330,11 @@ ComputeValue
 aProperty
 aElement
 styleContext
+-
+>
+AsGecko
+(
+)
 aValue
 false
 result

@@ -1237,7 +1237,7 @@ GeckoStyleContext
 aStyleContext
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 &
 aCachedBaseStyleContext

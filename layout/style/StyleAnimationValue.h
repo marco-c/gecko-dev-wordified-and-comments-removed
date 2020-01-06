@@ -108,6 +108,9 @@ gfx3DMatrix
 namespace
 mozilla
 {
+class
+GeckoStyleContext
+;
 namespace
 css
 {
@@ -219,7 +222,7 @@ const
 StyleAnimationValue
 &
 aEndValue
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 double
@@ -325,7 +328,10 @@ dom
 Element
 *
 aTargetElement
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -365,7 +371,10 @@ dom
 Element
 *
 aTargetElement
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -403,7 +412,10 @@ dom
 Element
 *
 aTargetElement
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aStyleContext
 const
@@ -475,7 +487,10 @@ ExtractComputedValue
 (
 nsCSSPropertyID
 aProperty
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aStyleContext
 StyleAnimationValue

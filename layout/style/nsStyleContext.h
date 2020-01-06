@@ -842,14 +842,6 @@ StartBackgroundImageLoads
 (
 )
 ;
-void
-MoveTo
-(
-nsStyleContext
-*
-aNewParent
-)
-;
 #
 ifdef
 DEBUG
@@ -1065,7 +1057,10 @@ GeckoStyleContext
 >
 NS_NewStyleContext
 (
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 *
 aParentContext
 nsIAtom

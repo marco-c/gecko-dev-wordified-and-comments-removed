@@ -13551,6 +13551,11 @@ ExtractComputedValue
 (
 propertyID
 styleContext
+-
+>
+AsGecko
+(
+)
 computedValue
 )
 )

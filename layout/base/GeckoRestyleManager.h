@@ -287,7 +287,7 @@ aRestyleHintData
 void
 ComputeAndProcessStyleChange
 (
-nsStyleContext
+GeckoStyleContext
 *
 aNewContext
 Element
@@ -315,7 +315,7 @@ nsRefPtrHashKey
 <
 nsIContent
 >
-nsStyleContext
+GeckoStyleContext
 >
 ReframingStyleContextTable
 ;
@@ -345,7 +345,7 @@ Put
 nsIContent
 *
 aContent
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
@@ -480,7 +480,7 @@ aStyleContext
 ;
 }
 }
-nsStyleContext
+GeckoStyleContext
 *
 Get
 (
@@ -665,12 +665,12 @@ aPresContext
 nsIContent
 *
 aContent
-nsStyleContext
+GeckoStyleContext
 *
 aOldStyleContext
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 *
 aNewStyleContext
@@ -1115,7 +1115,7 @@ ContextToClear
 {
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 mStyleContext
 ;
@@ -1167,7 +1167,7 @@ nsTArray
 <
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 >
 &
@@ -1259,7 +1259,7 @@ nsTArray
 <
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 >
 &
@@ -1288,7 +1288,7 @@ RestyleChildrenOfDisplayContentsElement
 nsIFrame
 *
 aParentFrame
-nsStyleContext
+GeckoStyleContext
 *
 aNewContext
 nsChangeHint
@@ -1335,7 +1335,7 @@ nsTArray
 <
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 >
 &
@@ -1390,13 +1390,13 @@ SwapInstruction
 {
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 mOldContext
 ;
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 mNewContext
 ;
@@ -1462,12 +1462,12 @@ MoveStyleContextsForContentChildren
 nsIFrame
 *
 aParent
-nsStyleContext
+GeckoStyleContext
 *
 aOldContext
 nsTArray
 <
-nsStyleContext
+GeckoStyleContext
 *
 >
 &
@@ -1477,7 +1477,7 @@ aContextsToMove
 bool
 MoveStyleContextsForChildren
 (
-nsStyleContext
+GeckoStyleContext
 *
 aOldContext
 )
@@ -1485,10 +1485,10 @@ aOldContext
 void
 CaptureChange
 (
-nsStyleContext
+GeckoStyleContext
 *
 aOldContext
-nsStyleContext
+GeckoStyleContext
 *
 aNewContext
 nsChangeHint
@@ -1521,7 +1521,7 @@ ComputeRestyleResultFromNewContext
 nsIFrame
 *
 aSelf
-nsStyleContext
+GeckoStyleContext
 *
 aNewContext
 RestyleResult
@@ -1559,7 +1559,7 @@ aChildRestyleHint
 nsIContent
 *
 aParent
-nsStyleContext
+GeckoStyleContext
 *
 aParentStyleContext
 )
@@ -1575,7 +1575,7 @@ aUndisplayed
 nsIContent
 *
 aUndisplayedParent
-nsStyleContext
+GeckoStyleContext
 *
 aParentStyleContext
 const
@@ -1610,7 +1610,7 @@ aFrame
 nsIContent
 *
 aContent
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
@@ -1647,7 +1647,7 @@ aFrame
 nsIContent
 *
 aContent
-nsStyleContext
+GeckoStyleContext
 *
 aStyleContext
 )
@@ -1883,7 +1883,7 @@ nsTArray
 <
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 >
 &
