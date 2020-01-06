@@ -134,7 +134,7 @@ aProperty
 ;
 static
 bool
-IsOffsetOrMarginStyleAnimated
+IsOffsetStyleAnimated
 (
 nsIFrame
 *
