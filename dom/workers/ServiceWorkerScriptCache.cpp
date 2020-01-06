@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsIInputStreamPump
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h

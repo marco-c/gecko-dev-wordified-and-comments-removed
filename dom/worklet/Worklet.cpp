@@ -110,6 +110,13 @@ h
 #
 include
 "
+nsIInputStreamPump
+.
+h
+"
+#
+include
+"
 nsIThreadRetargetableRequest
 .
 h
