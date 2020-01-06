@@ -15,6 +15,7 @@ sys
 from
 buildconfig
 import
+topsrcdir
 topobjdir
 from
 mozbuild
@@ -23,7 +24,7 @@ backend
 .
 configenvironment
 import
-ConfigEnvironment
+PartialConfigEnvironment
 from
 mozbuild
 .
@@ -182,22 +183,9 @@ input
     
 config
 =
-ConfigEnvironment
-.
-from_config_status
-(
-        
-mozpath
-.
-join
+PartialConfigEnvironment
 (
 topobjdir
-'
-config
-.
-status
-'
-)
 )
     
 if
@@ -212,8 +200,6 @@ mozpath
 .
 join
 (
-config
-.
 topsrcdir
 '
 js
@@ -241,11 +227,8 @@ JS_STANDALONE
         
 config
 =
-ConfigEnvironment
-.
-from_config_status
+PartialConfigEnvironment
 (
-            
 mozpath
 .
 join
@@ -256,11 +239,6 @@ js
 '
 '
 src
-'
-'
-config
-.
-status
 '
 )
 )
@@ -401,6 +379,13 @@ value
                 
 if
 name
+and
+cmd
+!
+=
+'
+endif
+'
 :
                     
 if
@@ -474,18 +459,15 @@ in
 config
 .
 defines
+[
+'
+ALLDEFINES
+'
+]
 .
 iteritems
 (
 )
-                            
-if
-name
-not
-in
-config
-.
-non_global_defines
 )
 )
                         
@@ -723,13 +705,25 @@ write
 l
 )
     
-return
+deps
+=
 {
 path
+}
+    
+deps
+.
+update
+(
 config
 .
-source
-}
+get_dependencies
+(
+)
+)
+    
+return
+deps
 def
 main
 (
