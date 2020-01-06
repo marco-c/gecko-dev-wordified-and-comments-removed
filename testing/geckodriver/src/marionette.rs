@@ -1570,6 +1570,7 @@ WebDriverError
 new
 (
 status
+&
 format
 !
 (
@@ -1582,6 +1583,10 @@ Error
 "
 err_msg
 )
+[
+.
+.
+]
 )
 )
 ;
