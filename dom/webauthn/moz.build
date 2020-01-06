@@ -166,11 +166,6 @@ U2FTokenTransport
 h
 '
 '
-WebAuthentication
-.
-h
-'
-'
 WebAuthnManager
 .
 h
@@ -232,11 +227,6 @@ cpp
 '
 '
 U2FTokenManager
-.
-cpp
-'
-'
-WebAuthentication
 .
 cpp
 '
