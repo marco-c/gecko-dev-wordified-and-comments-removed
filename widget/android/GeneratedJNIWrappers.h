@@ -45438,7 +45438,7 @@ jni
 DispatchTarget
 :
 :
-GECKO
+CURRENT
 ;
 }
 ;
@@ -45566,7 +45566,7 @@ jni
 DispatchTarget
 :
 :
-GECKO
+CURRENT
 ;
 }
 ;
