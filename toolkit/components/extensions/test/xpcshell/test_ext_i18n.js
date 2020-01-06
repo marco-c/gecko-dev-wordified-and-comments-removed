@@ -22,6 +22,12 @@ jsm
 "
 )
 ;
+ExtensionTestUtils
+.
+mockAppInfo
+(
+)
+;
 const
 server
 =

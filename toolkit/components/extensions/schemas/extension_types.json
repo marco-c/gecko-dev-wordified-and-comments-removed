@@ -810,6 +810,13 @@ optional
 :
 true
 "
+default
+"
+:
+"
+document_idle
+"
+"
 description
 "
 :
