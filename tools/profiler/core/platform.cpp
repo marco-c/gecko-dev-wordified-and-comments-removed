@@ -12128,7 +12128,7 @@ MakeUnique
 ProfileBuffer
 >
 (
-PROFILER_GET_BACKTRACE_ENTRIES
+1000
 )
 ;
 DoSyncSample
