@@ -2207,7 +2207,7 @@ aPath
 )
 !
 =
-NULL
+nullptr
 )
 {
 char
@@ -2217,7 +2217,7 @@ result
 realpath
 (
 aPath
-NULL
+nullptr
 )
 ;
 if
@@ -2225,7 +2225,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 strncpy
