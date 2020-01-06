@@ -70,6 +70,13 @@ h
 #
 include
 "
+nsIPrefBranch
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h
@@ -1073,6 +1080,12 @@ mTypeArray
 ;
 bool
 mIsShuttingDown
+;
+nsCOMPtr
+<
+nsIPrefBranch
+>
+mDefaultPrefBranch
 ;
 friend
 class
