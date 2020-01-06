@@ -9155,6 +9155,16 @@ if
 mIgnoreFrameDestruction
 )
 {
+if
+(
+aFrame
+-
+>
+HasImageRequest
+(
+)
+)
+{
 mDocument
 -
 >
@@ -9168,6 +9178,7 @@ DropRequestsForFrame
 aFrame
 )
 ;
+}
 mFrameConstructor
 -
 >
