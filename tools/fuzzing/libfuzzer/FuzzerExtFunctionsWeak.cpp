@@ -15,6 +15,13 @@ FuzzerExtFunctions
 .
 h
 "
+#
+include
+"
+FuzzerIO
+.
+h
+"
 extern
 "
 C

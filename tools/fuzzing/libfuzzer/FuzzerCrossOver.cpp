@@ -1,10 +1,5 @@
 #
 include
-<
-cstring
->
-#
-include
 "
 FuzzerDefs
 .
@@ -24,6 +19,11 @@ FuzzerRandom
 .
 h
 "
+#
+include
+<
+cstring
+>
 namespace
 fuzzer
 {
