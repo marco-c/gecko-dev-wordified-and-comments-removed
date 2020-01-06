@@ -2372,6 +2372,13 @@ isAtomsZone
 )
 )
 ;
+c
+-
+>
+holdGlobal
+(
+)
+;
 enterZoneGroup
 (
 c
@@ -2385,6 +2392,13 @@ zone
 group
 (
 )
+)
+;
+c
+-
+>
+releaseGlobal
+(
 )
 ;
 c

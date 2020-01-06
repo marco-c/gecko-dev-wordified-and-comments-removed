@@ -19762,7 +19762,7 @@ maybeAlive
 c
 -
 >
-hasBeenEntered
+shouldTraceGlobal
 (
 )
 |
