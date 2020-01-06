@@ -382,6 +382,11 @@ media
 "
 string
 "
+nonce
+:
+"
+string
+"
 type
 :
 "
