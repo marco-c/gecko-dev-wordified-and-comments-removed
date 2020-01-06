@@ -569,8 +569,14 @@ sidebarMenu
 popup
 .
 subviewbutton
+:
+not
+(
+.
+subviewbutton
 -
 iconic
+)
 >
 .
 toolbarbutton
@@ -583,7 +589,7 @@ inline
 -
 start
 :
-0
+16px
 ;
 }
 %
