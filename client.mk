@@ -207,9 +207,6 @@ MAKE
 #
 #
 Defines
-comma
-:
-=
 ifdef
 MACH
 ifndef
@@ -280,17 +277,6 @@ CWD
 )
 endif
 endif
-SH
-:
-=
-/
-bin
-/
-sh
-PERL
-?
-=
-perl
 PYTHON
 ?
 =
