@@ -5477,11 +5477,6 @@ idx
 )
 }
 )
-.
-num_threads
-(
-4
-)
 ;
 let
 workers

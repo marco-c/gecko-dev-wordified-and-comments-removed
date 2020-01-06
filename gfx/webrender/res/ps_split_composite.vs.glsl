@@ -135,9 +135,13 @@ ivec2
 )
 )
 ;
-return
 SplitGeometry
-(
+geo
+;
+geo
+.
+points
+=
 vec3
 [
 4
@@ -168,7 +172,9 @@ data2
 .
 yzw
 )
-)
+;
+return
+geo
 ;
 }
 vec3
