@@ -1515,6 +1515,17 @@ ExtensionTestUtils
 "
 ]
 "
+NativeManifests
+.
+jsm
+"
+:
+[
+"
+NativeManifests
+"
+]
+"
 fakeservices
 .
 js
@@ -3129,9 +3140,6 @@ jsm
 "
 :
 [
-"
-HostManifestManager
-"
 "
 NativeApp
 "
