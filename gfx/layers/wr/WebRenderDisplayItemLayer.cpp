@@ -185,6 +185,12 @@ GetPipeline
 contentSize
 )
 ;
+mParentCommands
+.
+Clear
+(
+)
+;
 mItem
 -
 >
@@ -193,6 +199,7 @@ CreateWebRenderCommands
 builder
 aResources
 aSc
+mParentCommands
 WrManager
 (
 )
@@ -263,6 +270,16 @@ aBuilder
 PushBuiltDisplayList
 (
 mBuiltDisplayList
+)
+;
+WrBridge
+(
+)
+-
+>
+AddWebRenderParentCommands
+(
+mParentCommands
 )
 ;
 }
