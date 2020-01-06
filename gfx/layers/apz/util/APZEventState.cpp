@@ -1781,7 +1781,7 @@ break
 }
 default
 :
-NS_WARNING
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -1790,6 +1790,8 @@ event
 type
 "
 )
+;
+break
 ;
 }
 if
