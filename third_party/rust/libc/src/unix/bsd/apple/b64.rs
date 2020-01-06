@@ -83,3 +83,13 @@ c_ulong
 =
 0x40107458
 ;
+pub
+const
+FIONREAD
+:
+:
+:
+c_ulong
+=
+0x4004667f
+;

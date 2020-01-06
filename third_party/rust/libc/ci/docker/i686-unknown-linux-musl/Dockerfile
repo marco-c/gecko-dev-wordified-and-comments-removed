@@ -5,6 +5,14 @@ ubuntu
 .
 10
 RUN
+dpkg
+-
+-
+add
+-
+architecture
+i386
+RUN
 apt
 -
 get
@@ -25,6 +33,8 @@ install
 recommends
 \
 gcc
+-
+multilib
 make
 libc6
 -
@@ -34,6 +44,9 @@ curl
 ca
 -
 certificates
+libc6
+:
+i386
 #
 Below
 we
