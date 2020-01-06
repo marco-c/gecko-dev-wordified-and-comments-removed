@@ -1997,7 +1997,7 @@ dt
 destDT
 -
 >
-CreateSimilarDrawTarget
+CreateSimilarRasterTarget
 (
 IntSize
 :
