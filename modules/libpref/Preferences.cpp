@@ -599,7 +599,7 @@ ifdef
 DEBUG
 #
 define
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 func
 pref
@@ -625,7 +625,7 @@ msg
 (
 \
 "
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 :
 called
 %
@@ -637,7 +637,7 @@ in
 a
 non
 -
-main
+parent
 process
 "
 \
@@ -672,7 +672,7 @@ while
 else
 #
 define
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 func
 pref
@@ -9797,7 +9797,7 @@ nsIFile
 )
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 GetComplexValue
@@ -9885,7 +9885,7 @@ nsIRelativeFilePref
 )
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 GetComplexValue
@@ -10485,7 +10485,7 @@ nsISupports
 aValue
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 SetComplexValue
@@ -10898,7 +10898,7 @@ char
 aPrefName
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 ClearUserPref
@@ -10995,7 +10995,7 @@ char
 aPrefName
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 LockPref
@@ -11045,7 +11045,7 @@ bool
 aRetVal
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 PrefIsLocked
@@ -11101,7 +11101,7 @@ char
 aPrefName
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 UnlockPref
@@ -11164,7 +11164,7 @@ char
 aStartingAt
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 DeleteBranch
@@ -15932,7 +15932,7 @@ nsIFile
 aFile
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 Preferences
@@ -15981,7 +15981,7 @@ ResetPrefs
 (
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 Preferences
@@ -16036,7 +16036,7 @@ ResetUserPrefs
 (
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 Preferences
@@ -17255,7 +17255,7 @@ SaveMethod
 aSaveMethod
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 Preferences
@@ -19933,7 +19933,7 @@ PrefValueKind
 aKind
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 SetCString
@@ -20022,7 +20022,7 @@ PrefValueKind
 aKind
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 SetBool
@@ -20111,7 +20111,7 @@ PrefValueKind
 aKind
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 SetInt
@@ -20184,7 +20184,7 @@ char
 aPref
 )
 {
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 (
 "
 ClearUser
@@ -22052,7 +22052,7 @@ NS_OK
 }
 #
 undef
-ENSURE_MAIN_PROCESS
+ENSURE_PARENT_PROCESS
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
 Preferences
