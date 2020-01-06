@@ -44062,16 +44062,6 @@ true
 pref
 (
 "
-plugins
-.
-navigator_hide_disabled_flash
-"
-false
-)
-;
-pref
-(
-"
 dom
 .
 mozBrowserFramesEnabled
