@@ -5052,7 +5052,7 @@ label
 =
 "
 &
-permissionSettingsButton
+permissionSettingsButton2
 .
 label
 ;
@@ -5200,7 +5200,7 @@ label
 =
 "
 &
-permissionSettingsButton
+permissionSettingsButton2
 .
 label
 ;
@@ -5348,7 +5348,7 @@ label
 =
 "
 &
-permissionSettingsButton
+permissionSettingsButton2
 .
 label
 ;
@@ -5523,7 +5523,7 @@ label
 =
 "
 &
-permissionSettingsButton
+permissionSettingsButton2
 .
 label
 ;
