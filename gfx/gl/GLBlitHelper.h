@@ -410,6 +410,9 @@ mDrawBlitProgs
 GLuint
 mQuadVAO
 ;
+GLuint
+mQuadVBO
+;
 nsCString
 mDrawBlitProg_VersionLine
 ;
