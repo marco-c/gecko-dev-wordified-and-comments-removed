@@ -2199,11 +2199,6 @@ mozilla
 ServoElementSnapshotTable
 *
 snapshots
-mozilla
-:
-:
-CSSPseudoElementType
-pseudo_type
 )
 SERVO_BINDING_FUNC
 (
