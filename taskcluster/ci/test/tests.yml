@@ -7620,6 +7620,13 @@ R
 (
 Rs
 )
+virtualization
+:
+virtual
+-
+with
+-
+gpu
 docker
 -
 image
