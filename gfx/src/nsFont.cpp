@@ -1731,6 +1731,13 @@ useGrayscaleAntialiasing
 true
 ;
 }
+aStyle
+-
+>
+fontSmoothingBackgroundColor
+=
+fontSmoothingBackgroundColor
+;
 }
 void
 nsFont

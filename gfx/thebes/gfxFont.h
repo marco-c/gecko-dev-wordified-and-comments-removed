@@ -395,6 +395,9 @@ baselineOffset
 uint32_t
 languageOverride
 ;
+nscolor
+fontSmoothingBackgroundColor
+;
 uint16_t
 weight
 ;
@@ -825,6 +828,16 @@ languageOverride
 other
 .
 languageOverride
+)
+&
+&
+(
+fontSmoothingBackgroundColor
+=
+=
+other
+.
+fontSmoothingBackgroundColor
 )
 ;
 }

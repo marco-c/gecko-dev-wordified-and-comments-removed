@@ -3154,6 +3154,10 @@ UnscaledFont
 aUnscaledFont
 Float
 aSize
+const
+Color
+&
+aFontSmoothingBackgroundColor
 bool
 aUseFontSmoothing
 )
@@ -3167,6 +3171,7 @@ ScaledFontMac
 aCGFont
 aUnscaledFont
 aSize
+aFontSmoothingBackgroundColor
 aUseFontSmoothing
 )
 ;

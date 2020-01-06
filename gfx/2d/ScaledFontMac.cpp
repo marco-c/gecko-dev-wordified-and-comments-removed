@@ -401,6 +401,10 @@ UnscaledFont
 aUnscaledFont
 Float
 aSize
+const
+Color
+&
+aFontSmoothingBackgroundColor
 bool
 aUseFontSmoothing
 bool
@@ -415,6 +419,10 @@ aSize
 mFont
 (
 aFont
+)
+mFontSmoothingBackgroundColor
+(
+aFontSmoothingBackgroundColor
 )
 mUseFontSmoothing
 (
@@ -2509,6 +2517,9 @@ ScaledFontMac
 fontRef
 this
 aGlyphSize
+Color
+(
+)
 true
 fontRef
 !
