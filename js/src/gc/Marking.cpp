@@ -13778,7 +13778,7 @@ WeakMarking
 ;
 for
 (
-GCSweepGroupIter
+SweepGroupZonesIter
 zone
 (
 runtime
