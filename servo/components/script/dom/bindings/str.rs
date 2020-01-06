@@ -45,6 +45,15 @@ use
 std
 :
 :
+default
+:
+:
+Default
+;
+use
+std
+:
+:
 fmt
 ;
 use
@@ -110,6 +119,7 @@ derive
 (
 Clone
 Debug
+Default
 Eq
 HeapSizeOf
 JSTraceable
@@ -399,6 +409,7 @@ self
 derive
 (
 Clone
+Default
 HeapSizeOf
 )
 ]
