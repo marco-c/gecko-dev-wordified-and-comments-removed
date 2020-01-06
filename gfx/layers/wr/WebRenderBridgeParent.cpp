@@ -5794,12 +5794,6 @@ mPaused
 return
 ;
 }
-const
-uint32_t
-maxPendingFrameCount
-=
-1
-;
 if
 (
 !
@@ -5817,7 +5811,7 @@ Get
 )
 -
 >
-GetPendingFrameCount
+TooManyPendingFrames
 (
 mApi
 -
@@ -5826,9 +5820,6 @@ GetId
 (
 )
 )
->
-=
-maxPendingFrameCount
 )
 {
 ScheduleComposition
