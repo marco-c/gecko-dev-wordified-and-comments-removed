@@ -9678,6 +9678,7 @@ enable_gold_option
 c_compiler
 developer_options
 build_env
+toolchain_flags
 linker_name
 )
 :
@@ -9715,6 +9716,13 @@ compiler
 c_compiler
 .
 flags
+if
+toolchain_flags
+:
+cmd_base
++
+=
+toolchain_flags
 def
 resolve_gold
 (
@@ -10130,6 +10138,7 @@ linker
 c_compiler
 developer_options
 check_build_environment
+extra_toolchain_flags
 when
 =
 build_not_win_mac
@@ -10154,6 +10163,7 @@ linker
 c_compiler
 developer_options
 build_env
+toolchain_flags
 )
 :
 linker
@@ -10195,6 +10205,7 @@ gold
 c_compiler
 developer_options
 build_env
+toolchain_flags
 linker
 )
 if
