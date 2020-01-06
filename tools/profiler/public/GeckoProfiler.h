@@ -1350,6 +1350,16 @@ aLabel
 aDynamicString
 aFrameAddress
 aLine
+js
+:
+:
+ProfileEntry
+:
+:
+Kind
+:
+:
+CPP_NORMAL
 aCategory
 )
 ;
