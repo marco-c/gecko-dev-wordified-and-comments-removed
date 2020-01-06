@@ -212,6 +212,11 @@ PMINIDUMP_CALLBACK_OUTPUT
 callback_output
 )
 ;
+void
+InitAppMemoryInternal
+(
+)
+;
 }
 #
 endif

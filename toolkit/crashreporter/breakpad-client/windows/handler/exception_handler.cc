@@ -3410,6 +3410,10 @@ enabled
 include_context_heap_
 )
 {
+InitAppMemoryInternal
+(
+)
+;
 auto
 predicate
 =
