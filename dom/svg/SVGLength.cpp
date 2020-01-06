@@ -860,7 +860,7 @@ aElement
 dom
 :
 :
-SVGSVGElement
+SVGViewportElement
 *
 viewportElement
 =

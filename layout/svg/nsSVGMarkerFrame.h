@@ -75,7 +75,7 @@ namespace
 dom
 {
 class
-SVGSVGElement
+SVGViewportElement
 ;
 }
 }
@@ -415,7 +415,7 @@ mozilla
 dom
 :
 :
-SVGSVGElement
+SVGViewportElement
 *
 aContext
 )

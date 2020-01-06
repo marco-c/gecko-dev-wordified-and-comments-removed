@@ -165,6 +165,9 @@ dom
 class
 SVGSVGElement
 ;
+class
+SVGViewportElement
+;
 static
 const
 unsigned
@@ -585,7 +588,7 @@ mozilla
 dom
 :
 :
-SVGSVGElement
+SVGViewportElement
 *
 GetCtx
 (

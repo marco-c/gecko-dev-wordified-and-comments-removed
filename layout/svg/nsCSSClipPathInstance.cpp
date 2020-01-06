@@ -31,17 +31,6 @@ include
 "
 mozilla
 /
-dom
-/
-SVGSVGElement
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 2D

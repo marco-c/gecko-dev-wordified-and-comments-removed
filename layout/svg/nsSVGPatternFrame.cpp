@@ -2885,7 +2885,7 @@ nsIFrame
 aTarget
 )
 {
-SVGSVGElement
+SVGViewportElement
 *
 ctx
 =
