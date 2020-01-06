@@ -1565,15 +1565,6 @@ optimize
 -
 enable
 -
-mozril
--
-geoloc
-'
-'
--
--
-enable
--
 necko
 -
 wifi
