@@ -195,6 +195,17 @@ DestructionObserver
 destruction_observer
 )
 ;
+bool
+IsAcceptingTasks
+(
+)
+const
+{
+return
+!
+shutting_down_
+;
+}
 void
 PostTask
 (
@@ -982,6 +993,9 @@ state_
 ;
 int
 run_depth_base_
+;
+bool
+shutting_down_
 ;
 #
 if

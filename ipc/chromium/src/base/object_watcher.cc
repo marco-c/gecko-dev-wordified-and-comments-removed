@@ -463,6 +463,19 @@ did_signal
 =
 true
 ;
+if
+(
+watch
+-
+>
+origin_loop
+-
+>
+IsAcceptingTasks
+(
+)
+)
+{
 watch
 -
 >
@@ -478,6 +491,7 @@ forget
 )
 )
 ;
+}
 }
 void
 ObjectWatcher
