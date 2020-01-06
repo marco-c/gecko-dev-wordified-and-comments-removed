@@ -90,6 +90,9 @@ services
 startupcache
 devtools
 /
+platform
+devtools
+/
 server
 devtools
 /
