@@ -577,6 +577,10 @@ sets
 stylo
 -
 tests
+-
+devtools
+-
+tests
 linux64
 -
 stylo
@@ -600,6 +604,10 @@ awsy
 stylo
 -
 stylo
+-
+tests
+-
+devtools
 -
 tests
 -
