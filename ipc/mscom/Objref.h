@@ -31,6 +31,12 @@ IStream
 *
 >
 aStream
+const
+uint64_t
+aStart
+const
+uint64_t
+aEnd
 )
 ;
 }
