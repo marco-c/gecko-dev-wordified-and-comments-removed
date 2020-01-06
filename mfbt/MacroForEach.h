@@ -108,6 +108,15 @@ aArgs
 )
 #
 define
+MOZ_FOR_EACH_0
+(
+m
+s
+fa
+a
+)
+#
+define
 MOZ_FOR_EACH_1
 (
 m

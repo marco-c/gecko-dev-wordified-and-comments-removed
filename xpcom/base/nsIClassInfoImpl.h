@@ -465,12 +465,6 @@ aClass
 .
 )
 \
-MOZ_STATIC_ASSERT_VALID_ARG_COUNT
-(
-__VA_ARGS__
-)
-;
-\
 NS_CLASSINFO_HELPER_BEGIN
 (
 aClass
@@ -508,12 +502,6 @@ aClass
 .
 .
 )
-\
-MOZ_STATIC_ASSERT_VALID_ARG_COUNT
-(
-__VA_ARGS__
-)
-;
 \
 NS_INTERFACE_MAP_BEGIN
 (

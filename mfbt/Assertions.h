@@ -1051,12 +1051,6 @@ format
 do
 {
 \
-MOZ_STATIC_ASSERT_VALID_ARG_COUNT
-(
-__VA_ARGS__
-)
-;
-\
 static_assert
 (
 \
