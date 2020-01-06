@@ -3918,6 +3918,17 @@ executeSoon
 =
 >
 {
+if
+(
+!
+this
+.
+attached
+)
+{
+return
+;
+}
 this
 .
 _windowReady
