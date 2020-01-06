@@ -9450,8 +9450,6 @@ HttpChannelParent
 aChannelParent
 nsresult
 aErrorCode
-bool
-aSkipResume
 )
 :
 mChannelParent
@@ -9461,10 +9459,6 @@ aChannelParent
 mErrorCode
 (
 aErrorCode
-)
-mSkipResume
-(
-aSkipResume
 )
 {
 MOZ_RELEASE_ASSERT
@@ -9493,7 +9487,6 @@ mChannelParent
 NotifyDiversionFailed
 (
 mErrorCode
-mSkipResume
 )
 ;
 return
@@ -9511,9 +9504,6 @@ mChannelParent
 nsresult
 mErrorCode
 ;
-bool
-mSkipResume
-;
 }
 ;
 void
@@ -9524,8 +9514,6 @@ FailDiversion
 (
 nsresult
 aErrorCode
-bool
-aSkipResume
 )
 {
 MOZ_RELEASE_ASSERT
@@ -9558,7 +9546,6 @@ HTTPFailDiversionEvent
 (
 this
 aErrorCode
-aSkipResume
 )
 )
 ;
@@ -9571,8 +9558,6 @@ NotifyDiversionFailed
 (
 nsresult
 aErrorCode
-bool
-aSkipResume
 )
 {
 LOG
