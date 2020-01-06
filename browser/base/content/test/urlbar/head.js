@@ -1174,11 +1174,7 @@ document
 getElementById
 (
 "
-page
--
-action
--
-panel
+pageActionPanel
 "
 )
 ;
@@ -1195,13 +1191,7 @@ document
 getElementById
 (
 "
-urlbar
--
-page
--
-action
--
-button
+pageActionButton
 "
 )
 ;
