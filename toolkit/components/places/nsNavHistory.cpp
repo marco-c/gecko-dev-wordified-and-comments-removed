@@ -7223,7 +7223,6 @@ history
 >
 GetStringFromName
 (
-u
 "
 finduri
 -
@@ -7325,7 +7324,6 @@ history
 >
 GetStringFromName
 (
-u
 "
 finduri
 -
@@ -7428,7 +7426,6 @@ history
 GetAgeInDaysString
 (
 7
-u
 "
 finduri
 -
@@ -7569,7 +7566,6 @@ history
 >
 GetStringFromName
 (
-u
 "
 finduri
 -
@@ -7715,7 +7711,6 @@ history
 GetAgeInDaysString
 (
 6
-u
 "
 finduri
 -
@@ -8195,7 +8190,6 @@ history
 >
 GetStringFromName
 (
-u
 "
 localhost
 "
@@ -19669,7 +19663,6 @@ return
 }
 GetStringFromName
 (
-u
 "
 localhost
 "
@@ -19686,7 +19679,7 @@ GetAgeInDaysString
 int32_t
 aInt
 const
-char16_t
+char
 *
 aName
 nsACString
@@ -19771,13 +19764,11 @@ return
 ;
 }
 }
-CopyUTF16toUTF8
-(
-nsDependentString
+aResult
+.
+Assign
 (
 aName
-)
-aResult
 )
 ;
 }
@@ -19788,7 +19779,7 @@ nsNavHistory
 GetStringFromName
 (
 const
-char16_t
+char
 *
 aName
 nsACString
@@ -19845,13 +19836,11 @@ return
 ;
 }
 }
-CopyUTF16toUTF8
-(
-nsDependentString
+aResult
+.
+Assign
 (
 aName
-)
-aResult
 )
 ;
 }

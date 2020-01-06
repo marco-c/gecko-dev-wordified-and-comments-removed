@@ -1763,14 +1763,7 @@ mPrintBundle
 >
 GetStringFromName
 (
-NS_ConvertUTF8toUTF16
-(
 aKey
-)
-.
-get
-(
-)
 getter_Copies
 (
 intlString

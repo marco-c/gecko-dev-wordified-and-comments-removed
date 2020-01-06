@@ -253,7 +253,6 @@ brandBundle
 >
 GetStringFromName
 (
-u
 "
 brandShortName
 "

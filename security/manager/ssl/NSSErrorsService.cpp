@@ -822,14 +822,7 @@ theBundle
 >
 GetStringFromName
 (
-NS_ConvertASCIItoUTF16
-(
 id_str
-)
-.
-get
-(
-)
 getter_Copies
 (
 msg

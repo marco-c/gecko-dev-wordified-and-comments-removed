@@ -1447,7 +1447,6 @@ mPIPStringBundle
 >
 GetStringFromName
 (
-u
 "
 getPKCS12FilePasswordMessage
 "

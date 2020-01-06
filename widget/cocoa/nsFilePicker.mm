@@ -791,7 +791,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 formatLabel
 "

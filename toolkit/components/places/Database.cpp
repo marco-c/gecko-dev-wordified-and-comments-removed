@@ -5217,7 +5217,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 BookmarksMenuFolderTitle
 "
@@ -5274,7 +5273,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 BookmarksToolbarFolderTitle
 "
@@ -5331,7 +5329,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 TagsFolderTitle
 "
@@ -5388,7 +5385,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 OtherBookmarksFolderTitle
 "
@@ -6308,17 +6304,10 @@ bundle
 >
 GetStringFromName
 (
-NS_ConvertASCIItoUTF16
-(
 titleStringIDs
 [
 i
 ]
-)
-.
-get
-(
-)
 getter_Copies
 (
 title

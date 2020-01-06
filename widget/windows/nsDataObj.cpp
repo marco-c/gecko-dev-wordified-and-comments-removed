@@ -4252,7 +4252,7 @@ bool
 GetLocalizedString
 (
 const
-char16_t
+char
 *
 aName
 nsXPIDLString
@@ -4454,7 +4454,6 @@ if
 !
 GetLocalizedString
 (
-u
 "
 noPageTitle
 "
@@ -4664,7 +4663,6 @@ if
 !
 GetLocalizedString
 (
-u
 "
 noPageTitle
 "

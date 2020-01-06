@@ -291,7 +291,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 readConfigTitle
 "
@@ -320,7 +319,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 readConfigMsg
 "

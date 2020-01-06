@@ -160,7 +160,7 @@ void
 logToConsole
 (
 const
-char16_t
+char
 *
 aName
 const

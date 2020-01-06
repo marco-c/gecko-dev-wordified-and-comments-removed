@@ -1071,11 +1071,10 @@ nsXPIDLString
 keyUTF16
 ;
 const
-char16_t
+char
 *
 labelProp
 =
-u
 "
 quitMenuitem
 .
@@ -1083,11 +1082,10 @@ label
 "
 ;
 const
-char16_t
+char
 *
 keyProp
 =
-u
 "
 quitMenuitem
 .

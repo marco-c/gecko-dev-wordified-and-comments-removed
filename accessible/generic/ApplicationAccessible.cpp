@@ -251,7 +251,6 @@ bundle
 >
 GetStringFromName
 (
-u
 "
 brandShortName
 "

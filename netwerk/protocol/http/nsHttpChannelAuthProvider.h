@@ -384,8 +384,8 @@ bool
 ConfirmAuth
 (
 const
-nsString
-&
+char
+*
 bundleKey
 bool
 doYesNoPrompt

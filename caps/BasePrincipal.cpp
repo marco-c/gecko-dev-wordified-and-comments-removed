@@ -613,12 +613,9 @@ nsScriptSecurityManager
 ReportError
 (
 nullptr
-NS_LITERAL_STRING
-(
 "
 CheckSameOriginError
 "
-)
 prinURI
 aURI
 )

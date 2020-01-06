@@ -327,7 +327,6 @@ mBundle
 >
 GetStringFromName
 (
-u
 "
 downloadsFolder
 "

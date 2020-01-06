@@ -10745,7 +10745,6 @@ GetInnerWindowID
 ;
 CSP_LogLocalizedStr
 (
-u
 "
 upgradeInsecureRequest
 "

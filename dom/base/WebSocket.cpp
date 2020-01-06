@@ -786,7 +786,7 @@ char
 *
 aBundleURI
 const
-char16_t
+char
 *
 aError
 const
@@ -1142,7 +1142,7 @@ char
 *
 aBundleURI
 const
-char16_t
+char
 *
 aError
 const
@@ -1228,7 +1228,7 @@ char
 mBundleURI
 ;
 const
-char16_t
+char
 *
 mError
 ;
@@ -1255,7 +1255,7 @@ char
 *
 aBundleURI
 const
-char16_t
+char
 *
 aError
 const
@@ -2100,7 +2100,6 @@ appstrings
 .
 properties
 "
-u
 "
 connectionFailure
 "
@@ -2129,7 +2128,6 @@ appstrings
 .
 properties
 "
-u
 "
 netInterrupt
 "
@@ -6171,7 +6169,6 @@ wss
 ;
 CSP_LogLocalizedStr
 (
-u
 "
 upgradeInsecureRequest
 "

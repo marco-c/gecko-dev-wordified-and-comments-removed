@@ -3097,7 +3097,7 @@ nsCSPContext
 logToConsole
 (
 const
-char16_t
+char
 *
 aName
 const
@@ -3891,7 +3891,6 @@ get
 ;
 logToConsole
 (
-u
 "
 triedToSendReport
 "
@@ -4085,7 +4084,6 @@ get
 ;
 logToConsole
 (
-u
 "
 reportURInotHttpsOrHttp2
 "
@@ -4452,7 +4450,6 @@ get
 ;
 logToConsole
 (
-u
 "
 triedToSendReport
 "
@@ -4894,12 +4891,10 @@ logToConsole
 (
 mReportOnlyFlag
 ?
-u
 "
 CSPROViolationWithURI
 "
 :
-u
 "
 CSPViolationWithURI
 "
@@ -5918,7 +5913,6 @@ get
 ;
 logToConsole
 (
-u
 "
 ignoringReportOnlyDirective
 "

@@ -1852,7 +1852,7 @@ char
 *
 aErrorPage
 const
-char16_t
+char
 *
 aErrorType
 const

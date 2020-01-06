@@ -404,7 +404,7 @@ void
 CSP_GetLocalizedStr
 (
 const
-char16_t
+char
 *
 aName
 const
@@ -791,7 +791,7 @@ void
 CSP_LogLocalizedStr
 (
 const
-char16_t
+char
 *
 aName
 const

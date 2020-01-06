@@ -100,8 +100,8 @@ nsresult
 GetStringFromName
 (
 const
-nsAString
-&
+char
+*
 aName
 nsAString
 &
