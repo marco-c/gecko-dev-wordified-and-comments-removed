@@ -351,9 +351,7 @@ publish_rules
 "
 :
 [
-"
-esr52
-"
+521
 ]
         
 }

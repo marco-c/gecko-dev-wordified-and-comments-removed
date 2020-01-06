@@ -387,12 +387,14 @@ publish_rules
 "
 :
 [
-"
-firefox
--
-beta
-"
+32
 ]
+            
+"
+schedule_asap
+"
+:
+True
         
 }
         
@@ -510,11 +512,7 @@ publish_rules
 "
 :
 [
-"
-firefox
--
-release
-"
+145
 ]
         
 }
