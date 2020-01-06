@@ -903,6 +903,16 @@ bug
 .
 diff
 \
+bug
+-
+1387476
+-
+timezone
+-
+detection
+.
+diff
+\
 ;
 do
 echo
