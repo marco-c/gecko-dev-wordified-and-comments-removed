@@ -247,6 +247,10 @@ cssstylesheet
 ;
 pub
 mod
+cssstylevalue
+;
+pub
+mod
 csssupportsrule
 ;
 pub
@@ -904,6 +908,10 @@ storage
 pub
 mod
 storageevent
+;
+pub
+mod
+stylepropertymapreadonly
 ;
 pub
 mod

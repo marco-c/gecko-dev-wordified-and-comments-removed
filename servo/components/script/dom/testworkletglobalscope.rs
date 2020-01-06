@@ -71,6 +71,15 @@ use
 dom
 :
 :
+worklet
+:
+:
+WorkletExecutor
+;
+use
+dom
+:
+:
 workletglobalscope
 :
 :
@@ -182,6 +191,9 @@ PipelineId
 base_url
 :
 ServoUrl
+executor
+:
+WorkletExecutor
 init
 :
 &
@@ -227,6 +239,7 @@ new_inherited
 (
 pipeline_id
 base_url
+executor
 init
 )
 lookup_table
