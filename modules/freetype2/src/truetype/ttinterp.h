@@ -455,7 +455,7 @@ FT_Bool
 vertical_lcd_lean
 ;
 FT_Bool
-backwards_compatibility
+backward_compatibility
 ;
 FT_Bool
 iupx_called

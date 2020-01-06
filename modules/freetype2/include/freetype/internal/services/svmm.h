@@ -141,6 +141,10 @@ FT_Fixed
 *
 *
 coords
+FT_Fixed
+*
+*
+normalizedcoords
 FT_MM_Var
 *
 *

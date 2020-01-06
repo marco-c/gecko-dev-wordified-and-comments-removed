@@ -129,7 +129,7 @@ avalue
 )
 ;
 typedef
-FT_Error
+void
 (
 *
 FT_Metrics_Adjust_Func
@@ -137,11 +137,6 @@ FT_Metrics_Adjust_Func
 (
 FT_Face
 face
-FT_ULong
-tag
-FT_Int
-*
-avalue
 )
 ;
 FT_DEFINE_SERVICE
@@ -331,7 +326,6 @@ metrics_adjust_
 ;
 \
 }
-;
 #
 endif
 FT_END_HEADER

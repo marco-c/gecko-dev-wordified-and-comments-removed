@@ -67610,6 +67610,9 @@ DEFINE_PS_TABLES
 #
 endif
 ;
+#
+ifdef
+DEFINE_PS_TABLES
 static
 unsigned
 long
@@ -68018,5 +68021,7 @@ return
 0
 ;
 }
+#
+endif
 #
 endif

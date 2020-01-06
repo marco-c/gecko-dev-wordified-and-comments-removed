@@ -22,6 +22,13 @@ psmodule
 h
 "
 #
+include
+"
+pstables
+.
+h
+"
+#
 define
 DEFINE_PS_TABLES
 #

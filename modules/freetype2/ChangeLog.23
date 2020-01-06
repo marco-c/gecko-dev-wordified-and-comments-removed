@@ -4595,8 +4595,9 @@ FT_RASTER_OPTION_ANTI_ALIASING
 DEBUG_RASTER
 )
 :
-Dont
+Don
 '
+t
 #
 undef
 just
@@ -7117,7 +7118,7 @@ buildchar
 is
 matched
 with
-T1_Decorder
+T1_Decoder
 -
 >
 top
@@ -7225,7 +7226,7 @@ h
 The
 type
 of
-PFR_PhysFont
+PFR_PhyFont
 -
 >
 chars_offset
@@ -7453,13 +7454,13 @@ h
 The
 type
 of
-T1_DecorderRec
+T1_DecoderRec
 .
 buildchar
 is
 matched
 with
-T1_DecorderRec
+T1_DecoderRec
 .
 top
 .
@@ -15866,7 +15867,7 @@ work
 now
 .
 (
-t1_operator_seac
+t1operator_seac
 )
 :
 Updated
@@ -19294,7 +19295,7 @@ declare
 ft_smooth_renderer_class
 ft_smooth_lcd_renderer_class
 and
-ft_smooth_lcd_v_renderer_class
+ft_smooth_lcdv_renderer_class
 using
 macros
 from
@@ -19332,7 +19333,7 @@ structs
 ft_smooth_renderer_class
 ft_smooth_lcd_renderer_class
 and
-ft_smooth_lcd_v_renderer_class
+ft_smooth_lcdv_renderer_class
 will
 have
 functions
@@ -31239,7 +31240,7 @@ FT2_EXTRA_LIBS
 when
 Carbon
 or
-ApplicationService
+ApplicationServices
 framework
 is
 missing
@@ -36686,7 +36687,7 @@ to
 FT_Stream_OpenLZW
 '
 with
-FT_CONFIG_OPTION_USE_LZ
+FT_CONFIG_OPTION_USE_LZW
 '
 .
 From
@@ -39665,7 +39666,7 @@ FT_Object_ActionName
 '
 scheme
 :
-FT_Get_Char_Variant_index
+FT_Get_Char_Variant_Index
 -
 >
 FT_Face_GetCharVariantIndex
@@ -40553,7 +40554,7 @@ src
 /
 otvalid
 /
-otmath
+otvmath
 .
 c
 :
@@ -41698,7 +41699,7 @@ aflatin
 .
 c
 (
-af_latin_metric_init_blues
+af_latin_metrics_init_blues
 )
 :
 Get
@@ -44899,7 +44900,7 @@ hard
 coded
 values
 instead
-on
+of
 relying
 on
 the
@@ -53314,7 +53315,7 @@ filter
 function
 .
 (
-FT_Library_Set_LcdFilter
+FT_Library_SetLcdFilter
 )
 :
 Update
@@ -55820,7 +55821,7 @@ ftgrays
 .
 c
 :
-Optmize
+Optimize
 the
 performance
 of
@@ -59575,7 +59576,7 @@ c
 TT_Load_Composite_Glyph
 )
 [
-FT_CONFIG_OPTION_BYTECODE_INTERPRETER
+TT_CONFIG_OPTION_BYTECODE_INTERPRETER
 ]
 :
 Make
@@ -60141,7 +60142,7 @@ issues
 Copyright
 2006
 -
-2016
+2017
 by
 David
 Turner

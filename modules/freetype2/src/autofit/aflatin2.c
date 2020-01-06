@@ -2,6 +2,9 @@
 include
 FT_ADVANCES_H
 #
+ifdef
+FT_OPTION_AUTOFIT2
+#
 include
 "
 afglobal
@@ -6213,6 +6216,12 @@ mode
 !
 =
 FT_RENDER_MODE_LIGHT
+&
+&
+mode
+!
+=
+FT_RENDER_MODE_LCD
 )
 other_flags
 |
@@ -6237,6 +6246,12 @@ mode
 =
 =
 FT_RENDER_MODE_LIGHT
+|
+|
+mode
+=
+=
+FT_RENDER_MODE_LCD
 |
 |
 (
@@ -10068,3 +10083,11 @@ AF_WritingSystem_ApplyHintsFunc
 )
 af_latin2_hints_apply
 )
+#
+else
+typedef
+int
+_af_latin2_dummy
+;
+#
+endif

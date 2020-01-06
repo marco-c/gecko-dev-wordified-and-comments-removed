@@ -2391,7 +2391,9 @@ position
 FT_Byte
 *
 )
+(
 buffer
+)
 \
 (
 FT_ULong

@@ -881,4 +881,10 @@ error
 ;
 }
 #
+else
+typedef
+int
+_tt_bdf_dummy
+;
+#
 endif

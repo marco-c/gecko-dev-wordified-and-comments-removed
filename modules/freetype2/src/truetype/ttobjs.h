@@ -261,7 +261,11 @@ FT_SizeRec
 root
 ;
 FT_Size_Metrics
+*
 metrics
+;
+FT_Size_Metrics
+hinted_metrics
 ;
 TT_Size_Metrics
 ttmetrics
@@ -450,6 +454,8 @@ tt_size_reset
 (
 TT_Size
 size
+FT_Bool
+only_height
 )
 ;
 FT_LOCAL

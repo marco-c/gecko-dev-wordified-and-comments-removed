@@ -1380,7 +1380,7 @@ ftc_snode_compare
 Use
 FT_CACHE_TRYLOOP
 and
-FTC_CACE_TRYLOOP_END
+FTC_CACHE_TRYLOOP_END
 .
 2005
 -
@@ -4699,7 +4699,7 @@ ftobjs
 .
 c
 (
-FT_Set_Char_Sizes
+FT_Set_Char_Size
 )
 :
 Handle
@@ -13060,7 +13060,7 @@ FT_Raccess_Guess
 )
 [
 !
-FT_CONFIG_OPTION_GUESSING_EMBEDDED_FORK
+FT_CONFIG_OPTION_GUESSING_EMBEDDED_RFORK
 ]
 :
 Remove
@@ -15140,7 +15140,7 @@ freetype
 .
 h
 (
-FT_GlyphMetrics
+FT_Glyph_Metrics
 )
 :
 Move
@@ -20730,7 +20730,7 @@ New
 macro
 .
 (
-psh_glyph_find_string_points
+psh_glyph_find_strong_points
 )
 :
 Use
@@ -24472,7 +24472,7 @@ result
 (
 FT_Stroker_Rewind
 FT_Glyph_Stroke
-FT_GlyphStrokeBorder
+FT_Glyph_StrokeBorder
 )
 :
 New
@@ -25448,7 +25448,7 @@ FT_PAD_ROUND
 FT_PAD_CEIL
 FT_PIX_FLOOR
 FT_PIX_ROUND
-FT_CEIL
+FT_PIX_CEIL
 )
 :
 New
@@ -31158,7 +31158,7 @@ ft_face_get_mm_service
 )
 :
 Return
-FT_Err_OK
+FT_Err_Ok
 if
 success
 .
@@ -32137,8 +32137,9 @@ t1decode
 .
 h
 :
-Dont
+Don
 '
+t
 include
 FT_INTERNAL_POSTSCRIPT_NAMES_H
 .
@@ -35108,7 +35109,7 @@ ftoption
 .
 h
 (
-TT_CONFIG_OPTION_OPTION_COMPILE_UNPATENTED_HINTING
+TT_CONFIG_OPTION_COMPILE_UNPATENTED_HINTING
 )
 :
 Replaced
@@ -37300,7 +37301,7 @@ redundant
 code
 .
 (
-FT_Set_Pixel_Size
+FT_Set_Pixel_Sizes
 )
 :
 Assign
@@ -38732,7 +38733,7 @@ Commented
 out
 .
 (
-cid_field_record
+cid_field_records
 )
 :
 Comment
@@ -44311,7 +44312,7 @@ Use
 FT_PtrDist
 instead
 of
-FT_Uint
+FT_UInt
 for
 len
 '
@@ -49311,7 +49312,7 @@ otlayout
 h
 src
 /
-otlyaout
+otlayout
 /
 otlconf
 .
@@ -54829,7 +54830,7 @@ New
 functions
 .
 (
-ft_smooth_locd_renderer_class
+ft_smooth_lcd_renderer_class
 ft_smooth_lcdv_renderer_class
 )
 :
@@ -55928,7 +55929,7 @@ bdfdrivr
 .
 c
 (
-BDF_GlyphLoad
+BDF_Glyph_Load
 )
 :
 Fix
@@ -57471,6 +57472,7 @@ Removed
 .
 (
 FTC_CACHE_USE_LINEAR_HASHING
+)
 :
 Removed
 also
@@ -57663,7 +57665,7 @@ Cid_Get_Next_Char
 Removed
 .
 (
-t1_cid_driver_class
+t1cid_driver_class
 )
 :
 Updated
@@ -58409,10 +58411,10 @@ CFF_Done_Font
 -
 >
 cff_font_done
-CFF_Size_Get_Global_Funcs
+CFF_Size_Get_Globals_Funcs
 -
 >
-cff_size_get_global_funcs
+cff_size_get_globals_funcs
 CFF_Size_Done
 -
 >
@@ -65844,7 +65846,7 @@ fttrace
 h
 src
 /
-Jamefile
+Jamfile
 :
 Updated
 .
@@ -69162,7 +69164,7 @@ file
 .
 It
 contains
-backwards
+backward
 compatibility
 functions
 .
@@ -69530,7 +69532,7 @@ cffobjs
 .
 c
 (
-CFF_Size_Get_Global_Funcs
+CFF_Size_Get_Globals_Funcs
 CFF_Size_Init
 CFF_GlyphSlot_Init
 )
@@ -70678,8 +70680,7 @@ T1_Struct
 ;
 /
 *
-backwards
--
+backward
 compatibility
 *
 /
@@ -71721,7 +71722,7 @@ t1decode
 .
 c
 (
-T1_Decode_Parse_Charstrings
+T1_Decoder_Parse_Charstrings
 )
 :
 The
@@ -72113,7 +72114,7 @@ t1_encoding_isolatin1
 Copyright
 2002
 -
-2016
+2017
 by
 David
 Turner

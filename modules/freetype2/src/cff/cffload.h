@@ -129,6 +129,16 @@ cid
 ;
 FT_LOCAL
 (
+FT_UInt32
+)
+cff_random
+(
+FT_UInt32
+r
+)
+;
+FT_LOCAL
+(
 FT_Error
 )
 cff_font_load
@@ -141,6 +151,8 @@ FT_Int
 face_index
 CFF_Font
 font
+CFF_Face
+face
 FT_Bool
 pure_cff
 FT_Bool
@@ -262,6 +274,10 @@ FT_Fixed
 *
 *
 coords
+FT_Fixed
+*
+*
+normalizedcoords
 FT_MM_Var
 *
 *
