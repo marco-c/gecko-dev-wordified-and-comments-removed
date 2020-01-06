@@ -501,10 +501,6 @@ cycles
 '
         
 '
-shutdown
-'
-        
-'
 profile_path
 '
         
@@ -675,10 +671,6 @@ tspaint_test
 .
 html
 '
-    
-shutdown
-=
-False
     
 xperf_counters
 =
@@ -914,10 +906,6 @@ sessionrestore
 /
 profile
 '
-    
-shutdown
-=
-False
     
 reinstall
 =
@@ -1358,9 +1346,6 @@ xperf_counters
 '
 '
 timeout
-'
-'
-shutdown
 '
 '
 responsiveness
@@ -3293,10 +3278,6 @@ question
 resolution
 =
 20
-    
-shutdown
-=
-True
     
 tpmanifest
 =

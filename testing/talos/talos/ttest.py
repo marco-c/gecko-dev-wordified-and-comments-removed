@@ -770,25 +770,6 @@ c
         
 if
 test_config
-[
-'
-shutdown
-'
-]
-:
-            
-global_counters
-[
-'
-shutdown
-'
-]
-=
-[
-]
-        
-if
-test_config
 .
 get
 (

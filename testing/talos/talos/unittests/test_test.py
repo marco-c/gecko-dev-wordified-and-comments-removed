@@ -737,10 +737,6 @@ cycles
 '
         
 '
-shutdown
-'
-        
-'
 profile_path
 '
         
@@ -1060,10 +1056,6 @@ gecko_profile_entries
             
 '
 url
-'
-            
-'
-shutdown
 '
             
 '

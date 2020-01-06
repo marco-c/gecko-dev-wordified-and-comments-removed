@@ -2144,10 +2144,6 @@ gecko_profile_entries
 '
     
 '
-shutdown
-'
-    
-'
 tpcycles
 '
     
@@ -2747,24 +2743,6 @@ pop
 (
 key
 )
-    
-if
-config
-[
-'
-xperf_path
-'
-]
-:
-        
-global_overrides
-[
-'
-shutdown
-'
-]
-=
-False
     
 return
 global_overrides
