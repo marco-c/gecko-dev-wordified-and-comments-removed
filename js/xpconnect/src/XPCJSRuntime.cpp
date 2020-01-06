@@ -8169,9 +8169,7 @@ explicit
 ;
 addonId
 .
-Insert
-(
-NS_LITERAL_CSTRING
+InsertLiteral
 (
 "
 add
@@ -8179,7 +8177,6 @@ add
 ons
 /
 "
-)
 0
 )
 ;

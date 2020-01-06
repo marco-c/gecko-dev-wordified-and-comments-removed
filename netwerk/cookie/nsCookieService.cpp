@@ -11488,9 +11488,7 @@ Cut
 ;
 host
 .
-Insert
-(
-NS_LITERAL_CSTRING
+InsertLiteral
 (
 "
 http
@@ -11498,7 +11496,6 @@ http
 /
 /
 "
-)
 0
 )
 ;
@@ -18629,14 +18626,11 @@ aCookieAttributes
 .
 host
 .
-Insert
-(
-NS_LITERAL_CSTRING
+InsertLiteral
 (
 "
 .
 "
-)
 0
 )
 ;

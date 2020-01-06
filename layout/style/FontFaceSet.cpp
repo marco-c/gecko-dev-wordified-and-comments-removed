@@ -3253,9 +3253,7 @@ GFX_PREF_WOFF2_ENABLED
 {
 accept
 .
-Insert
-(
-NS_LITERAL_CSTRING
+InsertLiteral
 (
 "
 application
@@ -3270,7 +3268,6 @@ q
 .
 0
 "
-)
 0
 )
 ;

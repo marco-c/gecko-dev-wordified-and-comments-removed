@@ -1629,15 +1629,12 @@ rv
 ;
 filename
 .
-Insert
-(
-NS_LITERAL_CSTRING
+InsertLiteral
 (
 "
 plugin
 -
 "
-)
 0
 )
 ;

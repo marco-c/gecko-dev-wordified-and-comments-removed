@@ -205,12 +205,9 @@ rv
 ;
 contractID
 .
-Insert
-(
-NS_LITERAL_CSTRING
+InsertLiteral
 (
 NS_ABOUT_MODULE_CONTRACTID_PREFIX
-)
 0
 )
 ;
