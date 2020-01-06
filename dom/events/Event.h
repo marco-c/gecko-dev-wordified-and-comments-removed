@@ -800,6 +800,11 @@ PreventDefaultInternal
 (
 bool
 aCalledByDefaultHandler
+nsIPrincipal
+*
+aPrincipal
+=
+nullptr
 )
 ;
 bool
