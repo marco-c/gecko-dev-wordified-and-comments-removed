@@ -177,8 +177,7 @@ freeze
 {
 collect
 (
-docShell
-frameTree
+content
 )
 {
 return
@@ -186,8 +185,7 @@ SessionStorageInternal
 .
 collect
 (
-docShell
-frameTree
+content
 )
 ;
 }
