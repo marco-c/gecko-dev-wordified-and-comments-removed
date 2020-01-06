@@ -530,7 +530,7 @@ const
 override
 ;
 static
-RefPtr
+already_AddRefed
 <
 ImageBridgeParent
 >
@@ -620,7 +620,7 @@ mSetChildThreadPriority
 bool
 mClosed
 ;
-static
+typedef
 std
 :
 :
@@ -633,6 +633,10 @@ ProcessId
 ImageBridgeParent
 *
 >
+ImageBridgeMap
+;
+static
+ImageBridgeMap
 sImageBridges
 ;
 RefPtr
