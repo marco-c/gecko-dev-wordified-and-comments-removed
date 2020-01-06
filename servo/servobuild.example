@@ -496,6 +496,17 @@ incremental
 =
 false
 #
+Whether
+to
+use
+ThinLTO
+or
+not
+#
+thinlto
+=
+false
+#
 Android
 information
 [
