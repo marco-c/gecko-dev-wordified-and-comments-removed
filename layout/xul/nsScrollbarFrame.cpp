@@ -608,6 +608,17 @@ GetTheme
 if
 (
 theme
+&
+&
+theme
+-
+>
+ThemeSupportsWidget
+(
+presContext
+this
+NS_THEME_SCROLLBAR
+)
 )
 {
 LayoutDeviceIntSize
