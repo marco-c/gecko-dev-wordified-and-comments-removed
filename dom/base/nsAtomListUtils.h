@@ -15,7 +15,7 @@ class
 nsAtom
 ;
 struct
-nsStaticAtom
+nsStaticAtomSetup
 ;
 class
 nsAtomListUtils
@@ -30,11 +30,11 @@ nsAtom
 *
 aAtom
 const
-nsStaticAtom
+nsStaticAtomSetup
 *
-aInfo
+aSetup
 uint32_t
-aInfoCount
+aCount
 )
 ;
 }

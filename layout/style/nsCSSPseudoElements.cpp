@@ -101,8 +101,8 @@ undef
 CSS_PSEUDO_ELEMENT
 static
 const
-nsStaticAtom
-CSSPseudoElements_info
+nsStaticAtomSetup
+sCSSPseudoElementAtomSetup
 [
 ]
 =
@@ -116,7 +116,7 @@ value_
 flags_
 )
 \
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 (
 name_
 #
@@ -187,7 +187,7 @@ AddRefAtoms
 {
 NS_RegisterStaticAtoms
 (
-CSSPseudoElements_info
+sCSSPseudoElementAtomSetup
 )
 ;
 }
@@ -209,10 +209,10 @@ nsAtomListUtils
 IsMember
 (
 aAtom
-CSSPseudoElements_info
+sCSSPseudoElementAtomSetup
 ArrayLength
 (
-CSSPseudoElements_info
+sCSSPseudoElementAtomSetup
 )
 )
 ;
@@ -359,7 +359,7 @@ i
 <
 ArrayLength
 (
-CSSPseudoElements_info
+sCSSPseudoElementAtomSetup
 )
 ;
 +
@@ -370,7 +370,7 @@ i
 if
 (
 *
-CSSPseudoElements_info
+sCSSPseudoElementAtomSetup
 [
 i
 ]
@@ -520,7 +520,7 @@ type
 ;
 return
 *
-CSSPseudoElements_info
+sCSSPseudoElementAtomSetup
 [
 static_cast
 <

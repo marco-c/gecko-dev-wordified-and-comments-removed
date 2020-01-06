@@ -67,8 +67,8 @@ undef
 GK_ATOM
 static
 const
-nsStaticAtom
-GkAtoms_info
+nsStaticAtomSetup
+sGkAtomSetup
 [
 ]
 =
@@ -80,7 +80,7 @@ GK_ATOM
 name_
 value_
 )
-NS_STATIC_ATOM
+NS_STATIC_ATOM_SETUP
 (
 name_
 #
@@ -114,7 +114,7 @@ AddRefAtoms
 {
 NS_RegisterStaticAtoms
 (
-GkAtoms_info
+sGkAtomSetup
 )
 ;
 }
