@@ -343,8 +343,6 @@ cityhash
 components
 /
 printingui
-/
-win
 '
 ]
 elif
@@ -414,8 +412,6 @@ LOCAL_INCLUDES
 components
 /
 printingui
-/
-mac
 '
 ]
 elif
@@ -764,8 +760,6 @@ LOCAL_INCLUDES
 components
 /
 printingui
-/
-unixshared
 '
 ]
 include
