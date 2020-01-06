@@ -301,7 +301,6 @@ layers
 :
 :
 SurfaceDescriptor
-&
 uint64_t
 const
 gfx

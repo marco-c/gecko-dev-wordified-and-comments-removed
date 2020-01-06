@@ -67,6 +67,17 @@ puppet
 submitframe
 1
 )
+pref
+(
+dom
+.
+vr
+.
+display
+.
+rafMaxDuration
+200
+)
 #
 VR
 SubmitFrame
