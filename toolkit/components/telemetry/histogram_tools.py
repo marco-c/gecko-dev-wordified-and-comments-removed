@@ -830,6 +830,19 @@ labels
         
 self
 .
+_record_in_processes
+=
+definition
+.
+get
+(
+'
+record_in_processes
+'
+)
+        
+self
+.
 compute_bucket_parameters
 (
 definition
@@ -1257,12 +1270,7 @@ in
 return
 self
 .
-definition
-[
-'
-record_in_processes
-'
-]
+_record_in_processes
     
 def
 record_in_processes_enum
@@ -1307,6 +1315,8 @@ in
 self
 .
 record_in_processes
+(
+)
 ]
     
 def
