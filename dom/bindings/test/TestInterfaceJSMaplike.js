@@ -195,6 +195,15 @@ __clear
 )
 ;
 }
+__onget
+:
+function
+(
+key
+value
+)
+{
+}
 }
 ;
 this
