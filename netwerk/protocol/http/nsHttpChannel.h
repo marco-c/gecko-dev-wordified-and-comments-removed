@@ -1261,6 +1261,17 @@ ContinueBeginConnect
 ;
 MOZ_MUST_USE
 nsresult
+OnBeforeConnect
+(
+)
+;
+void
+OnBeforeConnectContinue
+(
+)
+;
+MOZ_MUST_USE
+nsresult
 Connect
 (
 )
