@@ -2400,13 +2400,12 @@ JOF_TYPESET
 JOF_LEFTASSOC
 )
 \
-\
 macro
 (
-JSOP_SPREADCALLARRAY
+JSOP_UNUSED126
 126
 "
-spreadcallarray
+unused126
 "
 NULL
 5

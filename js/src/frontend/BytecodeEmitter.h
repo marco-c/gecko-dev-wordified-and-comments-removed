@@ -2140,8 +2140,6 @@ ParseNode
 pn
 uint32_t
 count
-JSOp
-op
 )
 ;
 MOZ_MUST_USE

@@ -10954,9 +10954,6 @@ jsop_newobject
 case
 JSOP_NEWARRAY
 :
-case
-JSOP_SPREADCALLARRAY
-:
 return
 jsop_newarray
 (
@@ -12692,6 +12689,9 @@ JSOP_FORCEINTERPRETER
 :
 break
 ;
+case
+JSOP_UNUSED126
+:
 case
 JSOP_UNUSED223
 :
