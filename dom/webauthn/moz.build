@@ -176,11 +176,6 @@ WebAuthnManager
 h
 '
 '
-WebAuthnRequest
-.
-h
-'
-'
 WebAuthnTransactionChild
 .
 h
