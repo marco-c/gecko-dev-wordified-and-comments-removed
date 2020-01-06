@@ -503,6 +503,8 @@ spec
 "
 mediaTab
 "
+{
+}
 )
 ;
 info
