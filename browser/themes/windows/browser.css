@@ -1038,6 +1038,9 @@ default
 theme
 )
 {
+%
+ifndef
+MOZ_PHOTON_THEME
 media
 (
 -
@@ -1071,6 +1074,8 @@ aabccf
 ;
 }
 }
+%
+endif
 media
 (
 -
