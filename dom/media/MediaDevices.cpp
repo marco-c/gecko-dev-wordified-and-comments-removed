@@ -965,6 +965,8 @@ MediaDevices
 :
 EnumerateDevices
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -1060,6 +1062,7 @@ EnumerateDevices
 window
 resolver
 rejecter
+aCallerType
 )
 ;
 return

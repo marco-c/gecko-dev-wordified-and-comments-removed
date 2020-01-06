@@ -175,6 +175,8 @@ Promise
 >
 EnumerateDevices
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv

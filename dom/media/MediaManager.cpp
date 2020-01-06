@@ -13673,6 +13673,11 @@ aOnSuccess
 nsIDOMGetUserMediaErrorCallback
 *
 aOnFailure
+dom
+:
+:
+CallerType
+aCallerType
 )
 {
 MOZ_ASSERT
@@ -13827,6 +13832,15 @@ streams
 .
 fake
 "
+)
+|
+|
+nsContentUtils
+:
+:
+ResistFingerprinting
+(
+aCallerType
 )
 ;
 RefPtr

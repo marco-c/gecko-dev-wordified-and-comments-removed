@@ -181,6 +181,7 @@ getSupportedConstraints
 ;
 [
 Throws
+NeedsCallerType
 ]
 Promise
 <
