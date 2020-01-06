@@ -2549,12 +2549,6 @@ WillDestroyCurrentMessageLoop
 {
 #
 if
-defined
-(
-DEBUG
-)
-&
-&
 !
 defined
 (
