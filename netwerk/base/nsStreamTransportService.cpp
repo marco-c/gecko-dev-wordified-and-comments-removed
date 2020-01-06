@@ -1871,6 +1871,14 @@ mDoingCallback
 (
 false
 )
+mSize
+(
+0
+)
+mResultForCallback
+(
+NS_OK
+)
 {
 mCallbackTarget
 =
