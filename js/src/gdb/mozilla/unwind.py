@@ -2761,19 +2761,19 @@ prevJitActivation_
 '
 ]
         
-exitFP
+packedExitFP
 =
 self
 .
 activation
 [
 '
-exitFP_
+packedExitFP_
 '
 ]
         
 if
-exitFP
+packedExitFP
 =
 =
 0
@@ -2808,7 +2808,7 @@ create_frame
 (
 pc
 exit_sp
-exitFP
+packedExitFP
 frame_type
 pending_frame
 )

@@ -268,7 +268,7 @@ nullptr
 ;
 uint8_t
 *
-exitFP
+jsExitFP
 =
 act
 -
@@ -278,14 +278,14 @@ asJit
 )
 -
 >
-exitFP
+jsExitFP
 (
 )
 ;
 if
 (
 !
-exitFP
+jsExitFP
 )
 return
 nullptr
@@ -296,7 +296,7 @@ jit
 JitProfilingFrameIterator
 iter
 (
-exitFP
+jsExitFP
 )
 ;
 MOZ_ASSERT

@@ -205,7 +205,7 @@ asJit
 )
 -
 >
-setExitFP
+setJSExitFP
 (
 FAKE_EXITFP_FOR_BAILOUT
 )
@@ -515,7 +515,7 @@ asJit
 )
 -
 >
-setExitFP
+setJSExitFP
 (
 FAKE_EXITFP_FOR_BAILOUT
 )
@@ -1004,7 +1004,7 @@ prevExitFP
 act
 -
 >
-exitFP
+jsExitFP
 (
 )
 ;
@@ -1025,7 +1025,7 @@ MakeScopeExit
 act
 -
 >
-setExitFP
+setJSExitFP
 (
 prevExitFP
 )
@@ -1036,7 +1036,7 @@ prevExitFP
 act
 -
 >
-setExitFP
+setJSExitFP
 (
 FAKE_EXITFP_FOR_BAILOUT
 )
@@ -1506,8 +1506,14 @@ jitActivations
 MOZ_ASSERT
 (
 jitActivations
-.
-exitFP
+-
+>
+asJit
+(
+)
+-
+>
+jsExitFP
 (
 )
 =

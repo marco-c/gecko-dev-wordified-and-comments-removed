@@ -3670,7 +3670,7 @@ asJit
 )
 -
 >
-exitFP
+jsExitFP
 (
 )
 =
@@ -3757,7 +3757,7 @@ asJit
 )
 -
 >
-exitFP
+jsExitFP
 (
 )
 )
@@ -3789,7 +3789,7 @@ asJit
 )
 -
 >
-exitFP
+jsExitFP
 (
 )
 "
@@ -3799,7 +3799,7 @@ space
 for
 ExitFooterFrame
 before
-exitFP
+jsExitFP
 "
 )
 ;
@@ -3818,7 +3818,7 @@ asJit
 )
 -
 >
-setExitFP
+setJSExitFP
 (
 (
 uint8_t

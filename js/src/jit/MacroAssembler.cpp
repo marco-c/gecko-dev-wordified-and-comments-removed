@@ -15138,7 +15138,7 @@ scratch
 JitActivation
 :
 :
-offsetOfExitFP
+offsetOfPackedExitFP
 (
 )
 )
