@@ -22,9 +22,9 @@ dependencies
 clap
 2
 .
-9
+10
 .
-2
+0
 (
 registry
 +
@@ -345,7 +345,7 @@ zip
 .
 1
 .
-17
+18
 (
 registry
 +
@@ -569,7 +569,7 @@ version
 "
 0
 .
-5
+7
 .
 0
 "
@@ -678,7 +678,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -755,7 +755,7 @@ gcc
 .
 3
 .
-31
+32
 (
 registry
 +
@@ -784,7 +784,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -823,9 +823,9 @@ version
 "
 2
 .
-9
+10
 .
-2
+0
 "
 source
 =
@@ -857,7 +857,7 @@ dependencies
 bitflags
 0
 .
-5
+7
 .
 0
 (
@@ -888,7 +888,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -1108,9 +1108,9 @@ index
 url
 1
 .
-1
+2
 .
-1
+0
 (
 registry
 +
@@ -1289,7 +1289,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -1361,7 +1361,7 @@ version
 .
 3
 .
-31
+32
 "
 source
 =
@@ -1672,7 +1672,7 @@ mime
 .
 2
 .
-1
+2
 (
 registry
 +
@@ -1904,9 +1904,9 @@ index
 url
 1
 .
-1
+2
 .
-1
+0
 (
 registry
 +
@@ -2494,7 +2494,7 @@ version
 .
 2
 .
-14
+15
 "
 source
 =
@@ -2654,7 +2654,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -2695,7 +2695,7 @@ version
 .
 2
 .
-1
+2
 "
 source
 =
@@ -2806,7 +2806,7 @@ gcc
 .
 3
 .
-31
+32
 (
 registry
 +
@@ -2835,7 +2835,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -2968,7 +2968,7 @@ tempdir
 .
 3
 .
-4
+5
 (
 registry
 +
@@ -3311,7 +3311,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -3428,7 +3428,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -4017,7 +4017,7 @@ version
 .
 3
 .
-4
+5
 "
 source
 =
@@ -4126,7 +4126,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -4234,7 +4234,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -4417,7 +4417,7 @@ libc
 .
 2
 .
-14
+15
 (
 registry
 +
@@ -4809,9 +4809,9 @@ version
 "
 1
 .
-1
+2
 .
-1
+0
 "
 source
 =
@@ -5614,7 +5614,7 @@ version
 .
 1
 .
-17
+18
 "
 source
 =
