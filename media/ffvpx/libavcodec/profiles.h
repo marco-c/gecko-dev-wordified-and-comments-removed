@@ -28,6 +28,13 @@ ff_dca_profiles
 extern
 const
 AVProfile
+ff_dnxhd_profiles
+[
+]
+;
+extern
+const
+AVProfile
 ff_h264_profiles
 [
 ]

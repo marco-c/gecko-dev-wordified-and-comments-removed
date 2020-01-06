@@ -13,8 +13,4 @@ define
 AV_HAVE_FAST_UNALIGNED
 1
 #
-define
-AV_HAVE_INCOMPATIBLE_FORK_ABI
-0
-#
 endif
