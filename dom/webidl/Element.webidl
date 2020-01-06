@@ -1488,6 +1488,7 @@ interface
 Element
 {
 [
+CEReactions
 Pure
 SetterThrows
 TreatNullAs
@@ -1499,6 +1500,7 @@ DOMString
 innerHTML
 ;
 [
+CEReactions
 Pure
 SetterThrows
 TreatNullAs
@@ -1510,6 +1512,7 @@ DOMString
 outerHTML
 ;
 [
+CEReactions
 Throws
 ]
 void

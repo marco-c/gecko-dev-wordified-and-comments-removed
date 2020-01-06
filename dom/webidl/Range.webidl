@@ -557,6 +557,7 @@ interface
 Range
 {
 [
+CEReactions
 Throws
 ]
 DocumentFragment
