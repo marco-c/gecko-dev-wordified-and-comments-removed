@@ -221,6 +221,14 @@ sh
 runme
 .
 sh
+COPY
+submit_complete
+.
+sh
+/
+submit_complete
+.
+sh
 RUN
 chmod
 755
@@ -234,6 +242,10 @@ bin
 *
 /
 runme
+.
+sh
+/
+submit_complete
 .
 sh
 ENV
