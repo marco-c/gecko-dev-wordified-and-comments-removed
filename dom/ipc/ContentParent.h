@@ -173,6 +173,13 @@ h
 #
 include
 "
+nsIInterfaceRequestor
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -408,6 +415,8 @@ public
 nsIDOMGeoPositionCallback
 public
 nsIDOMGeoPositionErrorCallback
+public
+nsIInterfaceRequestor
 public
 gfx
 :
@@ -1173,6 +1182,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIDOMGEOPOSITIONCALLBACK
 NS_DECL_NSIDOMGEOPOSITIONERRORCALLBACK
+NS_DECL_NSIINTERFACEREQUESTOR
 virtual
 bool
 DoLoadMessageManagerScript
