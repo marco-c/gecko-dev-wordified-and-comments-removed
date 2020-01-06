@@ -446,6 +446,8 @@ D
 enum
 class
 AllocKind
+:
+uint8_t
 {
 #
 define
