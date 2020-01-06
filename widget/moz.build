@@ -1428,6 +1428,9 @@ windows
 '
 cocoa
 '
+'
+android
+'
 )
 :
 UNIFIED_SOURCES
