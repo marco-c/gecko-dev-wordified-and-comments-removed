@@ -362,7 +362,7 @@ IntPoint
 aOffset
 )
 ;
-DrawResult
+void
 PaintFrameIntoMask
 (
 nsIFrame

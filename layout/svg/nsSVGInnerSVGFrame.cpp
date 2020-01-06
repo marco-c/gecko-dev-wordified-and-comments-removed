@@ -185,7 +185,7 @@ aPrevInFlow
 }
 #
 endif
-DrawResult
+void
 nsSVGInnerSVGFrame
 :
 :
@@ -198,12 +198,13 @@ const
 gfxMatrix
 &
 aTransform
+imgDrawingParams
+&
+aImgParams
 const
 nsIntRect
 *
 aDirtyRect
-uint32_t
-aFlags
 )
 {
 NS_ASSERTION
@@ -301,10 +302,6 @@ height
 )
 {
 return
-DrawResult
-:
-:
-SUCCESS
 ;
 }
 autoSR
@@ -342,7 +339,6 @@ clipRect
 )
 ;
 }
-return
 nsSVGDisplayContainerFrame
 :
 :
@@ -350,8 +346,8 @@ PaintSVG
 (
 aContext
 aTransform
+aImgParams
 aDirtyRect
-aFlags
 )
 ;
 }
