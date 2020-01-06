@@ -8,10 +8,7 @@ use
 internal_types
 :
 :
-{
 HardwareCompositeOp
-LowLevelFilterOp
-}
 ;
 use
 mask_cache
@@ -77,6 +74,7 @@ api
 :
 :
 {
+FilterOp
 MixBlendMode
 }
 ;
@@ -244,7 +242,7 @@ Blend
 (
 StackingContextIndex
 RenderTaskId
-LowLevelFilterOp
+FilterOp
 i32
 )
 Composite

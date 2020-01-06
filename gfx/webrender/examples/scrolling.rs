@@ -215,6 +215,10 @@ vec
 [
 ]
 None
+ScrollSensitivity
+:
+:
+ScriptAndInputEvents
 )
 ;
 builder
@@ -380,6 +384,10 @@ vec
 [
 ]
 None
+ScrollSensitivity
+:
+:
+ScriptAndInputEvents
 )
 ;
 builder
