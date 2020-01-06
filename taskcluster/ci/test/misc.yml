@@ -286,7 +286,7 @@ suite
 :
 test
 -
-verification
+verify
 treeherder
 -
 symbol

@@ -62,7 +62,7 @@ jittest
 '
 test
 -
-verification
+verify
 '
     
 '

@@ -4501,7 +4501,7 @@ suite
 '
 test
 -
-verification
+verify
 '
 :
             

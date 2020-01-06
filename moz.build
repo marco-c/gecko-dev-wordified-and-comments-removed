@@ -415,7 +415,7 @@ inclusive
 '
 test
 -
-verification
+verify
 '
 ]
 with
@@ -440,7 +440,7 @@ inclusive
 '
 test
 -
-verification
+verify
 '
 ]
 with
@@ -465,7 +465,7 @@ inclusive
 '
 test
 -
-verification
+verify
 '
 ]
 with
@@ -490,7 +490,7 @@ inclusive
 '
 test
 -
-verification
+verify
 '
 ]
 FILES_PER_UNIFIED_FILE
