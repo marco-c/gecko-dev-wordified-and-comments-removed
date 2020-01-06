@@ -6801,6 +6801,10 @@ NotifyDataArrivedInternal
 (
 )
 ;
+NotifyDownloadProgressed
+(
+)
+;
 }
 MediaDecoderStateMachine
 *

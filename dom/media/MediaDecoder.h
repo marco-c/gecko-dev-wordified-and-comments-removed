@@ -739,11 +739,6 @@ IsInfinite
 const
 ;
 void
-NotifyDownloadProgressed
-(
-)
-;
-void
 NotifyDataArrived
 (
 )
@@ -1549,6 +1544,11 @@ private
 :
 void
 NotifyDataArrivedInternal
+(
+)
+;
+void
+NotifyDownloadProgressed
 (
 )
 ;
