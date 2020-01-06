@@ -220,6 +220,11 @@ MutableBlobStreamListener
 .
 h
 '
+'
+StreamBlobImpl
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
