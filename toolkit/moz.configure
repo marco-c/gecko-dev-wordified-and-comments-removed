@@ -5586,6 +5586,15 @@ llvm
 config
 '
 )
+when
+=
+delayed_getattr
+(
+stylo_config
+'
+build
+'
+)
 what
 =
 '
