@@ -149,6 +149,11 @@ CoverageUtils
 jsm
 '
 '
+FileTestUtils
+.
+jsm
+'
+'
 MockRegistrar
 .
 jsm
