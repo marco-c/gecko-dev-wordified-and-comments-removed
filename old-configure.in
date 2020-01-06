@@ -44227,6 +44227,8 @@ export
 HOST_CXXFLAGS
 export
 HOST_LDFLAGS
+export
+MOZ_PGO
 if
 !
 test
