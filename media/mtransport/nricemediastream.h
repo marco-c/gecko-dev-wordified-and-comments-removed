@@ -173,6 +173,12 @@ bool
 nominated
 ;
 bool
+writable
+;
+bool
+readable
+;
+bool
 selected
 ;
 NrIceCandidate

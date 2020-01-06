@@ -673,10 +673,13 @@ long
 priority
 ;
 boolean
-readable
+nominated
 ;
 boolean
-nominated
+writable
+;
+boolean
+readable
 ;
 unsigned
 long
