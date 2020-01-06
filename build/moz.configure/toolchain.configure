@@ -10175,6 +10175,9 @@ Darwin
 '
 WINNT
 '
+'
+SunOS
+'
 )
 :
 return
