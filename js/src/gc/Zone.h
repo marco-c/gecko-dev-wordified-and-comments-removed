@@ -2307,7 +2307,7 @@ uid
 if
 (
 !
-getUniqueId
+getOrCreateUniqueId
 (
 cell
 &
@@ -2331,7 +2331,7 @@ true
 }
 MOZ_MUST_USE
 bool
-getUniqueId
+getOrCreateUniqueId
 (
 js
 :
@@ -2522,7 +2522,7 @@ oomUnsafe
 if
 (
 !
-getUniqueId
+getOrCreateUniqueId
 (
 cell
 &
