@@ -3252,6 +3252,14 @@ tab
 .
 doReload
 (
+event
+.
+isShiftPressed
+(
+)
+?
+true
+:
 false
 )
 ;
