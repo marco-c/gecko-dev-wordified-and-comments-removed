@@ -333,6 +333,7 @@ aOther
 private
 :
 static
+const
 nsSMILTime
 kUnresolvedMillis
 ;

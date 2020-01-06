@@ -817,6 +817,7 @@ newArray
 )
 ;
 }
+const
 nsAttrValue
 :
 :
@@ -847,6 +848,7 @@ nullptr
 }
 }
 ;
+const
 nsAttrValue
 :
 :
