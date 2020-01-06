@@ -122,6 +122,17 @@ aRetVal
 )
 ;
 void
+GetRegionalPrefsLocales
+(
+nsTArray
+<
+nsCString
+>
+&
+aRetVal
+)
+;
+void
 AssignAppLocales
 (
 const
