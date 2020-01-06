@@ -332,6 +332,14 @@ nsIDOMEvent
 aEvent
 )
 ;
+bool
+IsTextControl
+(
+nsINode
+*
+aNode
+)
+;
 nsCOMPtr
 <
 nsIAutoCompleteController
