@@ -268,7 +268,7 @@ mozilla
 /
 dom
 /
-Storage
+LocalStorage
 .
 h
 "
@@ -15333,15 +15333,11 @@ bool
 aIsPrivate
 )
 {
-Storage
+LocalStorage
 :
 :
 DispatchStorageEvent
 (
-Storage
-:
-:
-LocalStorage
 aDocumentURI
 aKey
 aOldValue

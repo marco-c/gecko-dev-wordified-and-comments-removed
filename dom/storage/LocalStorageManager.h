@@ -93,6 +93,10 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMSTORAGEMANAGER
 public
 :
+LocalStorageManager
+(
+)
+;
 static
 uint32_t
 GetQuota
@@ -141,10 +145,6 @@ aOriginNoSuffix
 ;
 private
 :
-LocalStorageManager
-(
-)
-;
 ~
 LocalStorageManager
 (

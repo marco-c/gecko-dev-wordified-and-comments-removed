@@ -113,6 +113,11 @@ dom
 =
 [
 '
+LocalStorage
+.
+h
+'
+'
 LocalStorageManager
 .
 h
