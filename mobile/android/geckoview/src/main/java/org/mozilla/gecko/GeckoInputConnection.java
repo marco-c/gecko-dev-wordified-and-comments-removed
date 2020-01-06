@@ -422,6 +422,10 @@ mInPrivateBrowsing
 ;
 private
 boolean
+mIsUserAction
+;
+private
+boolean
 mFocused
 ;
 private
@@ -3339,10 +3343,16 @@ getSelectionEnd
 editable
 )
 ;
+if
+(
+mIsUserAction
+)
+{
 showSoftInput
 (
 )
 ;
+}
 return
 this
 ;
@@ -4753,6 +4763,8 @@ String
 actionHint
 boolean
 inPrivateBrowsing
+boolean
+isUserAction
 )
 {
 if
@@ -4881,6 +4893,10 @@ actionHint
 mInPrivateBrowsing
 =
 inPrivateBrowsing
+;
+mIsUserAction
+=
+isUserAction
 ;
 mUpdateRequest
 =

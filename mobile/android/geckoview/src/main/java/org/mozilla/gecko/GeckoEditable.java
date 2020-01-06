@@ -5326,6 +5326,9 @@ actionHint
 final
 boolean
 inPrivateBrowsing
+final
+boolean
+isUserAction
 )
 {
 if
@@ -5439,6 +5442,7 @@ typeHint
 modeHint
 actionHint
 inPrivateBrowsing
+isUserAction
 )
 ;
 }
