@@ -341,7 +341,6 @@ finish_test
 ;
 }
 private
-static
 EventDispatcher
 getDispatcher
 (
@@ -383,9 +382,16 @@ scope
 )
 {
 return
+(
+(
 GeckoApp
+)
+getActivity
+(
+)
+)
 .
-getEventDispatcher
+getAppEventDispatcher
 (
 )
 ;
