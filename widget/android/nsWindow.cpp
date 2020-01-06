@@ -265,6 +265,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 WidgetUtils
 .
 h
@@ -6921,6 +6928,12 @@ nsIBrowserDOMWindow
 :
 :
 OPEN_EXTERNAL
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 getter_AddRefs
 (
 newWin

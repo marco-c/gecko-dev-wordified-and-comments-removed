@@ -19306,6 +19306,7 @@ aURI
 aOpener
 aWhere
 aFlags
+aTriggeringPrincipal
 )
 {
 let
@@ -19787,6 +19788,9 @@ isPrivate
 pinned
 :
 pinned
+triggeringPrincipal
+:
+aTriggeringPrincipal
 }
 )
 ;
@@ -19818,10 +19822,17 @@ loadURIWithFlags
 aURI
 .
 spec
+{
+flags
+:
 loadflags
+referrerURI
+:
 referrer
-null
-null
+triggeringPrincipal
+:
+aTriggeringPrincipal
+}
 )
 ;
 }
@@ -19838,6 +19849,7 @@ aURI
 aOpener
 aWhere
 aFlags
+aTriggeringPrincipal
 )
 {
 let
@@ -19851,6 +19863,7 @@ aURI
 aOpener
 aWhere
 aFlags
+aTriggeringPrincipal
 )
 ;
 return
@@ -19887,6 +19900,7 @@ aURI
 null
 aWhere
 aFlags
+null
 )
 ;
 if
