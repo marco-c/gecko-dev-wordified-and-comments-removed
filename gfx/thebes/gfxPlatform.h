@@ -1318,11 +1318,7 @@ IsFontFormatSupported
 uint32_t
 aFormatFlags
 )
-{
-return
-false
 ;
-}
 virtual
 bool
 DidRenderingDeviceReset
