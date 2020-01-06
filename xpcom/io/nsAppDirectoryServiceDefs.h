@@ -157,12 +157,6 @@ PrefDL
 "
 #
 define
-NS_EXT_PREFS_DEFAULTS_DIR_LIST
-"
-ExtPrefDL
-"
-#
-define
 NS_APP_PREFS_OVERRIDE_DIR
 "
 PrefDOverride

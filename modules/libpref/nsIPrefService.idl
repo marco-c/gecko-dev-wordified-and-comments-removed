@@ -1035,10 +1035,6 @@ user
 profile
 override
 defaults
-or
-extension
-*
-defaults
 are
 loaded
 .
