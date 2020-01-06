@@ -6075,12 +6075,11 @@ capabilities
 get
 (
 "
-specificationLevel
+moz
+:
+webdriverClick
 "
 )
->
-=
-1
 )
 ;
 }

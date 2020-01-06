@@ -608,7 +608,9 @@ self
 assertIn
 (
 "
-specificationLevel
+moz
+:
+webdriverClick
 "
 self
 .
@@ -624,14 +626,16 @@ self
 caps
 [
 "
-specificationLevel
+moz
+:
+webdriverClick
 "
 ]
-0
+False
 )
     
 def
-test_set_specification_level
+test_set_webdriver_click
 (
 self
 )
@@ -653,10 +657,12 @@ start_session
 (
 {
 "
-specificationLevel
+moz
+:
+webdriverClick
 "
 :
-2
+True
 }
 )
         
@@ -672,11 +678,13 @@ self
 .
 assertEqual
 (
-2
+True
 caps
 [
 "
-specificationLevel
+moz
+:
+webdriverClick
 "
 ]
 )

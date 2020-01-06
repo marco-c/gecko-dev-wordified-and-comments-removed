@@ -835,10 +835,12 @@ start_session
 (
 {
 "
-specificationLevel
+moz
+:
+webdriverClick
 "
 :
-1
+True
 }
 )
     
