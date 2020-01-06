@@ -2743,6 +2743,19 @@ timeout
 timeout
 )
         
+if
+status
+=
+=
+1
+:
+            
+lastTestSeen
+=
+RefTest
+.
+TEST_SEEN_FINAL
+        
 return
 status
 lastTestSeen
