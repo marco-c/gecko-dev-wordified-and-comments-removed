@@ -6641,6 +6641,9 @@ builds
 .
 environment_cleaner
 =
+-
+u
+VCINSTALLDIR
 PATH
 =
 '
