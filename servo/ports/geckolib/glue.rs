@@ -23036,11 +23036,7 @@ animatable
 =
 guard
 .
-declarations
-(
-)
-.
-iter
+normal_declaration_iter
 (
 )
 .
