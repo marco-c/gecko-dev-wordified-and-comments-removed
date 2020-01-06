@@ -128,17 +128,6 @@ Arg
 domnode
 "
 )
-traverseFrames
-:
-Arg
-(
-1
-"
-nullable
-:
-boolean
-"
-)
 }
 response
 :
