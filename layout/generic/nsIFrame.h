@@ -9422,6 +9422,16 @@ return
 mDisplayItemData
 ;
 }
+void
+DestroyAnonymousContent
+(
+already_AddRefed
+<
+nsIContent
+>
+aContent
+)
+;
 protected
 :
 void

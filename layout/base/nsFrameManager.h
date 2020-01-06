@@ -413,6 +413,16 @@ nsILayoutHistoryState
 aState
 )
 ;
+void
+DestroyAnonymousContent
+(
+already_AddRefed
+<
+nsIContent
+>
+aContent
+)
+;
 protected
 :
 static

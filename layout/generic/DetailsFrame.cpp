@@ -344,13 +344,13 @@ nsIFrame
 aDestructRoot
 )
 {
-nsContentUtils
-:
-:
 DestroyAnonymousContent
 (
-&
 mDefaultSummary
+.
+forget
+(
+)
 )
 ;
 nsBlockFrame

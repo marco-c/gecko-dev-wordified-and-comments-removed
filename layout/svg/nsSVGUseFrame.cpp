@@ -435,13 +435,13 @@ nsIFrame
 aDestructRoot
 )
 {
-nsContentUtils
-:
-:
 DestroyAnonymousContent
 (
-&
 mContentClone
+.
+forget
+(
+)
 )
 ;
 nsSVGGFrame
