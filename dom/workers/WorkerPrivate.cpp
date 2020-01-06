@@ -20494,6 +20494,8 @@ IsEmpty
 WorkerControlRunnable
 *
 runnable
+=
+nullptr
 ;
 while
 (
@@ -20555,6 +20557,8 @@ debuggerRunnablesPending
 WorkerRunnable
 *
 runnable
+=
+nullptr
 ;
 {
 MutexAutoLock
@@ -22290,6 +22294,8 @@ IsEmpty
 WorkerRunnable
 *
 runnable
+=
+nullptr
 ;
 mDebuggerQueue
 .
@@ -24495,6 +24501,8 @@ PeriodicTimer
 WorkerRunnable
 *
 runnable
+=
+nullptr
 ;
 {
 MutexAutoLock
