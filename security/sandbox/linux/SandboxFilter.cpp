@@ -3548,6 +3548,17 @@ ENOTTY
 .
 ElseIf
 (
+request
+=
+=
+FIONREAD
+Allow
+(
+)
+)
+.
+ElseIf
+(
 shifted_type
 !
 =
