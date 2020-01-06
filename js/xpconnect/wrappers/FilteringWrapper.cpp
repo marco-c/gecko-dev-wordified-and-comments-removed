@@ -764,7 +764,8 @@ Base
 typename
 Policy
 >
-bool
+JSObject
+*
 FilteringWrapper
 <
 Base
@@ -779,8 +780,6 @@ JSContext
 cx
 HandleObject
 wrapper
-MutableHandleObject
-objp
 )
 const
 {
@@ -806,7 +805,6 @@ enumerate
 (
 cx
 wrapper
-objp
 )
 ;
 }

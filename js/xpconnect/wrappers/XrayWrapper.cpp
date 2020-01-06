@@ -12081,7 +12081,8 @@ Base
 typename
 Traits
 >
-bool
+JSObject
+*
 XrayWrapper
 <
 Base
@@ -12096,8 +12097,6 @@ JSContext
 cx
 HandleObject
 wrapper
-MutableHandleObject
-objp
 )
 const
 {
@@ -12112,7 +12111,6 @@ enumerate
 (
 cx
 wrapper
-objp
 )
 ;
 }

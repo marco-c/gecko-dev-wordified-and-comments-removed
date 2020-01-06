@@ -4224,7 +4224,8 @@ props
 )
 ;
 }
-bool
+JSObject
+*
 xpc
 :
 :
@@ -4245,15 +4246,6 @@ JSObject
 *
 >
 proxy
-JS
-:
-:
-MutableHandle
-<
-JSObject
-*
->
-objp
 )
 const
 {
@@ -4265,7 +4257,6 @@ enumerate
 (
 cx
 proxy
-objp
 )
 ;
 }

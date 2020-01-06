@@ -247,7 +247,8 @@ const
 override
 ;
 virtual
-bool
+JSObject
+*
 enumerate
 (
 JSContext
@@ -262,15 +263,6 @@ JSObject
 *
 >
 wrapper
-JS
-:
-:
-MutableHandle
-<
-JSObject
-*
->
-objp
 )
 const
 override
