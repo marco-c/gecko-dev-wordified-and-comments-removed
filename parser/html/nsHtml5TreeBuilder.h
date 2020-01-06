@@ -322,7 +322,7 @@ INPUT
 static
 const
 int32_t
-ISINDEX
+RT_OR_RP
 =
 14
 ;
@@ -689,13 +689,6 @@ int32_t
 IMG
 =
 68
-;
-static
-const
-int32_t
-RT_OR_RP
-=
-69
 ;
 private
 :
@@ -2141,14 +2134,6 @@ int32_t
 start
 int32_t
 length
-)
-;
-void
-appendIsindexPrompt
-(
-nsIContentHandle
-*
-parent
 )
 ;
 void

@@ -779,11 +779,6 @@ ELT_ANNOTATION_XML
 static
 nsHtml5ElementName
 *
-ELT_ISINDEX
-;
-static
-nsHtml5ElementName
-*
 ELT_BIG
 ;
 static

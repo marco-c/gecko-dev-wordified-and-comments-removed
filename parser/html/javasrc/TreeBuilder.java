@@ -349,7 +349,7 @@ INPUT
 final
 static
 int
-ISINDEX
+RT_OR_RP
 =
 14
 ;
@@ -716,13 +716,6 @@ int
 IMG
 =
 68
-;
-final
-static
-int
-RT_OR_RP
-=
-69
 ;
 private
 static

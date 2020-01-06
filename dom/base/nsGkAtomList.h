@@ -18354,13 +18354,6 @@ refy
 )
 GK_ATOM
 (
-isindex
-"
-isindex
-"
-)
-GK_ATOM
-(
 fefunca
 "
 fefunca
