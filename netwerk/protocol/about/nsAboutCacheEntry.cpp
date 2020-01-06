@@ -420,6 +420,7 @@ Channel
 nsICacheEntryOpenCallback
 nsICacheEntryMetaDataVisitor
 nsIStreamListener
+nsIRequest
 nsIChannel
 )
 NS_IMETHODIMP
