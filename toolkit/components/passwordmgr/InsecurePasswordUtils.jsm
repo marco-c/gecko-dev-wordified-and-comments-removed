@@ -517,7 +517,7 @@ ownerDocument
 .
 defaultView
 .
-isSecureContext
+isSecureContextIfOpenerIgnored
 ;
 if
 (
@@ -657,7 +657,7 @@ domDoc
 .
 defaultView
 .
-isSecureContext
+isSecureContextIfOpenerIgnored
 ;
 let
 {
