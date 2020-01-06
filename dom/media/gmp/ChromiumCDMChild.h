@@ -313,6 +313,8 @@ override
 void
 RequestStorageId
 (
+uint32_t
+aVersion
 )
 override
 {
