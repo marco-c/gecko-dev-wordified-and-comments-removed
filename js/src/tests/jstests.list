@@ -5968,6 +5968,11 @@ id
 =
 1317394
 skip
+-
+if
+(
+release_or_beta
+)
 script
 test262
 /
@@ -5987,6 +5992,11 @@ buffer
 .
 js
 skip
+-
+if
+(
+release_or_beta
+)
 script
 test262
 /
