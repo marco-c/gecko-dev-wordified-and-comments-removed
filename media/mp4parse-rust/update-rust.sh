@@ -264,16 +264,6 @@ mp4parse
 .
 h
 .
-.
-/
-.
-.
-/
-dom
-/
-media
-/
-mp4
 /
 cp
 _upstream
