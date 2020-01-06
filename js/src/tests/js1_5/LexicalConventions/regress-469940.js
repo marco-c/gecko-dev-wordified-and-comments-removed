@@ -56,10 +56,10 @@ expect
 '
 SyntaxError
 :
-missing
-;
-before
-statement
+unexpected
+token
+:
+identifier
 '
 ;
 var

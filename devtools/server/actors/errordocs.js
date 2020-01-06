@@ -187,7 +187,7 @@ JSMSG_BAD_RETURN_OR_YIELD
 "
 Bad_return_or_yield
 "
-JSMSG_SEMI_BEFORE_STMNT
+JSMSG_UNEXPECTED_TOKEN_NO_EXPECT
 :
 "
 Missing_semicolon_before_statement

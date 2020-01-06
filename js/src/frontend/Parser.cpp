@@ -14127,7 +14127,11 @@ Operand
 ;
 error
 (
-JSMSG_SEMI_BEFORE_STMNT
+JSMSG_UNEXPECTED_TOKEN_NO_EXPECT
+TokenKindToDesc
+(
+tt
+)
 )
 ;
 return
