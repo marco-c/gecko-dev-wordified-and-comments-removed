@@ -310,6 +310,13 @@ constants
 js
 '
 '
+event
+-
+emitter
+.
+js
+'
+'
 extend
 .
 js
