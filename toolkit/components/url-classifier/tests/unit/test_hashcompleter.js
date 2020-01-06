@@ -772,6 +772,10 @@ completion
 .
 table
 =
+"
+test
+"
++
 (
 rand
 .
