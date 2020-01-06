@@ -130,7 +130,7 @@ mExtendedMIMEType
 ;
 }
 const
-nsACString
+nsCString
 &
 OriginalString
 (

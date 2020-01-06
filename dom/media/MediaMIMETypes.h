@@ -171,7 +171,7 @@ AsDependentString
 {
 }
 const
-nsACString
+nsCString
 &
 AsString
 (
@@ -449,7 +449,7 @@ IsEmpty
 ;
 }
 const
-nsAString
+nsString
 &
 AsString
 (
@@ -691,7 +691,7 @@ mBitrate
 ;
 }
 const
-nsACString
+nsCString
 &
 OriginalString
 (
