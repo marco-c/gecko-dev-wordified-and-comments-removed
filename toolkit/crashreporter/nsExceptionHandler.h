@@ -318,14 +318,6 @@ nsACString
 aBuildID
 )
 ;
-bool
-GetLastRunCrashID
-(
-nsAString
-&
-id
-)
-;
 nsresult
 RegisterAppMemory
 (
