@@ -30780,7 +30780,6 @@ CN
 Times
 Songti
 SC
-STSong
 Heiti
 SC
 "
@@ -30807,7 +30806,6 @@ CN
 Helvetica
 PingFang
 SC
-STHeiti
 Heiti
 SC
 "
@@ -30832,7 +30830,6 @@ CN
 Courier
 PingFang
 SC
-STHeiti
 Heiti
 SC
 "
@@ -30878,8 +30875,6 @@ TW
 Times
 Songti
 TC
-LiSong
-Pro
 Heiti
 TC
 "
@@ -30908,8 +30903,6 @@ PingFang
 TC
 Heiti
 TC
-LiHei
-Pro
 "
 )
 ;
@@ -30934,8 +30927,6 @@ PingFang
 TC
 Heiti
 TC
-LiHei
-Pro
 "
 )
 ;
@@ -30979,8 +30970,6 @@ HK
 Times
 Songti
 TC
-LiSong
-Pro
 Heiti
 TC
 "
@@ -31009,8 +30998,6 @@ PingFang
 TC
 Heiti
 TC
-LiHei
-Pro
 "
 )
 ;
@@ -31035,8 +31022,6 @@ PingFang
 TC
 Heiti
 TC
-LiHei
-Pro
 "
 )
 ;
