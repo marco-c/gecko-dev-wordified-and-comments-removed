@@ -147,6 +147,14 @@ window
 "
 :
 {
+}
+"
+before
+first
+paint
+"
+:
+{
 blacklist
 :
 {
@@ -167,14 +175,6 @@ js
 }
 "
 before
-first
-paint
-"
-:
-{
-}
-"
-before
 handling
 user
 events
@@ -183,6 +183,7 @@ events
 {
 }
 }
+;
 function
 test
 (
