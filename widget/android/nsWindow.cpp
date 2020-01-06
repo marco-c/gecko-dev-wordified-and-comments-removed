@@ -6007,7 +6007,7 @@ MOZ_RELEASE_ASSERT
 ww
 )
 ;
-nsAdoptingCString
+nsAutoCString
 url
 ;
 if
@@ -6027,7 +6027,8 @@ ToCString
 }
 else
 {
-url
+nsresult
+rv
 =
 Preferences
 :
@@ -6039,12 +6040,15 @@ toolkit
 .
 defaultChromeURI
 "
+url
 )
 ;
 if
 (
-!
-url
+NS_FAILED
+(
+rv
+)
 )
 {
 url
@@ -6167,6 +6171,10 @@ OpenWindow
 (
 nullptr
 url
+.
+get
+(
+)
 nullptr
 chromeFlags
 .

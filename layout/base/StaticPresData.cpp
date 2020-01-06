@@ -312,9 +312,9 @@ unit
 =
 eUnit_px
 ;
-nsAdoptingCString
+nsAutoCString
 cvalue
-=
+;
 Preferences
 :
 :
@@ -327,6 +327,7 @@ size
 .
 unit
 "
+cvalue
 )
 ;
 if
@@ -885,8 +886,6 @@ adjust
 generic_dot_langGroup
 )
 ;
-cvalue
-=
 Preferences
 :
 :
@@ -897,6 +896,7 @@ pref
 get
 (
 )
+cvalue
 )
 ;
 if

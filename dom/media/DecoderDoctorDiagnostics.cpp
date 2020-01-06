@@ -1899,9 +1899,9 @@ NotificationAndReportStringId
 aNotification
 )
 {
-nsAdoptingCString
+nsAutoCString
 filter
-=
+;
 Preferences
 :
 :
@@ -1918,6 +1918,7 @@ notifications
 -
 allowed
 "
+filter
 )
 ;
 return
@@ -1964,9 +1965,9 @@ return
 true
 ;
 }
-nsAdoptingCString
+nsAutoCString
 filter
-=
+;
 Preferences
 :
 :
@@ -2001,6 +2002,7 @@ warnings
 -
 allowed
 "
+filter
 )
 ;
 if

@@ -1433,7 +1433,9 @@ nsCString
 aName
 )
 {
-return
+nsAutoCString
+value
+;
 Preferences
 :
 :
@@ -1446,7 +1448,11 @@ navigator
 .
 hidden_ctp_plugin
 "
+value
 )
+;
+return
+value
 .
 Equals
 (

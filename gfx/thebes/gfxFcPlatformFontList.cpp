@@ -8076,9 +8076,9 @@ nextToken
 (
 )
 ;
-nsAdoptingCString
+nsAutoCString
 fontPrefValue
-=
+;
 Preferences
 :
 :
@@ -8088,6 +8088,7 @@ names
 [
 i
 ]
+fontPrefValue
 )
 ;
 if
@@ -8099,8 +8100,6 @@ IsEmpty
 )
 )
 {
-fontPrefValue
-=
 Preferences
 :
 :
@@ -8115,6 +8114,7 @@ langGroup
 get
 (
 )
+fontPrefValue
 )
 ;
 }

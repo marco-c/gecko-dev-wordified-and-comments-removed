@@ -4717,9 +4717,9 @@ XRE_IsContentProcess
 )
 )
 {
-auto
+nsAutoCString
 contentThemeName
-=
+;
 mozilla
 :
 :
@@ -4739,6 +4739,7 @@ theme
 -
 override
 "
+contentThemeName
 )
 ;
 if
