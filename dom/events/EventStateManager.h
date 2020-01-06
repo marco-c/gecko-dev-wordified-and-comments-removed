@@ -1745,6 +1745,14 @@ aEvent
 )
 ;
 void
+MaybeFirePointerCancel
+(
+WidgetInputEvent
+*
+aEvent
+)
+;
+void
 DetermineDragTargetAndDefaultData
 (
 nsPIDOMWindowOuter
