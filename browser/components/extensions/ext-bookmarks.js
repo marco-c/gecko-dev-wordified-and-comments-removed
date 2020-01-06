@@ -138,11 +138,6 @@ lastModified
 ;
 if
 (
-node
-.
-children
-&
-&
 !
 onlyChildren
 )
@@ -151,6 +146,10 @@ treenode
 .
 children
 =
+node
+.
+children
+?
 node
 .
 children
@@ -166,6 +165,9 @@ child
 node
 )
 )
+:
+[
+]
 ;
 }
 }
