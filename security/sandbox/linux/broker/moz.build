@@ -132,6 +132,11 @@ SandboxBrokerPolicyFactory
 .
 cpp
 '
+'
+SandboxBrokerRealpath
+.
+cpp
+'
 ]
 if
 CONFIG
