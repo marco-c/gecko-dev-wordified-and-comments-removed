@@ -1755,6 +1755,11 @@ keyToCodePoint
 key
 )
 ;
+(
+void
+)
+previousCodePoint
+;
 U_ASSERT
 (
 codePoint

@@ -2857,6 +2857,11 @@ n
 {
 n
 =
+static_cast
+<
+int32_t
+>
+(
 uprv_strlen
 (
 (
@@ -2868,6 +2873,7 @@ src
 )
 +
 1
+)
 ;
 }
 while
@@ -2962,6 +2968,11 @@ n
 {
 n
 =
+static_cast
+<
+int32_t
+>
+(
 uprv_strlen
 (
 (
@@ -2973,6 +2984,7 @@ src
 )
 +
 1
+)
 ;
 }
 while

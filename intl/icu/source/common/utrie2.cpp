@@ -3731,7 +3731,10 @@ codePoint
 U_SENTINEL
 ;
 return
-0
+trie
+-
+>
+errorValue
 ;
 }
 uint16_t
@@ -3775,7 +3778,10 @@ codePoint
 U_SENTINEL
 ;
 return
-0
+trie
+-
+>
+errorValue
 ;
 }
 uint16_t

@@ -66,7 +66,7 @@ class
 Hashtable
 ;
 class
-FixedDecimal
+IFixedDecimal
 ;
 class
 VisibleDigitsWithExponent
@@ -292,7 +292,7 @@ UnicodeString
 select
 (
 const
-FixedDecimal
+IFixedDecimal
 &
 number
 )

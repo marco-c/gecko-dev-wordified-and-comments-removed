@@ -374,15 +374,6 @@ UBool
 codePointOrder
 )
 ;
-#
-ifndef
-U_COMPARE_CODE_POINT_ORDER
-#
-define
-U_COMPARE_CODE_POINT_ORDER
-0x8000
-#
-endif
 U_STABLE
 int32_t
 U_EXPORT2

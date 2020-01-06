@@ -40,9 +40,6 @@ localpointer
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 {
@@ -68,7 +65,7 @@ struct
 UBiDiTransform
 UBiDiTransform
 ;
-U_DRAFT
+U_STABLE
 uint32_t
 U_EXPORT2
 ubiditransform_transform
@@ -104,7 +101,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_DRAFT
+U_STABLE
 UBiDiTransform
 *
 U_EXPORT2
@@ -115,7 +112,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ubiditransform_close
@@ -137,8 +134,6 @@ ubiditransform_close
 )
 ;
 U_NAMESPACE_END
-#
-endif
 #
 endif
 #

@@ -210,6 +210,16 @@ ProjectGuid
 ProjectGuid
 >
 <
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
+>
+<
 /
 PropertyGroup
 >
@@ -1686,7 +1696,7 @@ OutputFile
 \
 bin
 \
-icutu59
+icutu60
 .
 dll
 <
@@ -2163,7 +2173,7 @@ OutputFile
 \
 bin
 \
-icutu59d
+icutu60d
 .
 dll
 <
@@ -2626,7 +2636,7 @@ OutputFile
 \
 bin64
 \
-icutu59
+icutu60
 .
 dll
 <
@@ -3098,7 +3108,7 @@ OutputFile
 \
 bin64
 \
-icutu59d
+icutu60d
 .
 dll
 <

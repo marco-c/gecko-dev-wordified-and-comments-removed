@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-59
+5
 "
 }
 zoneStrings
@@ -605,7 +605,7 @@ Argentina
 ld
 {
 "
-Argent
+argent
 nai
 ny
 ri
@@ -953,7 +953,7 @@ id
 lg
 {
 "
-Azerbajdzs
+azerbajdzs
 ni
 id
 "
@@ -1859,7 +1859,7 @@ ls
 "
 francia
 -
-guianai
+guyanai
 id
 "
 }
@@ -2145,7 +2145,7 @@ lg
 "
 hawaii
 -
-aleut
+aleuti
 id
 z
 na
@@ -3572,6 +3572,7 @@ ld
 {
 "
 Saint
+-
 Pierre
 s
 Miquelon
@@ -3586,6 +3587,7 @@ lg
 {
 "
 Saint
+-
 Pierre
 s
 Miquelon
@@ -3598,6 +3600,7 @@ ls
 {
 "
 Saint
+-
 Pierre
 s
 Miquelon
@@ -4315,7 +4318,7 @@ Yakutsk
 ld
 {
 "
-Jakutszki
+jakutszki
 ny
 ri
 id
@@ -4347,7 +4350,7 @@ Yekaterinburg
 ld
 {
 "
-Jekatyerinburgi
+jekatyerinburgi
 ny
 ri
 id
@@ -4356,7 +4359,7 @@ id
 lg
 {
 "
-Jekatyerinburgi
+jekatyerinburgi
 id
 "
 }

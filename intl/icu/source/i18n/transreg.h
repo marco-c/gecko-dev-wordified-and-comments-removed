@@ -737,6 +737,9 @@ Hashtable
 specDAG
 ;
 UVector
+variantList
+;
+UVector
 availableIDs
 ;
 TransliteratorRegistry

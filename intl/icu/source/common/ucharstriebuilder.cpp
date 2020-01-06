@@ -1425,7 +1425,7 @@ hash
 =
 hash
 *
-37
+37u
 +
 ustr_hashUCharsN
 (

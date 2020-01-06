@@ -343,6 +343,12 @@ EXTRAS_TRUE
 EXTRA
 =
 extra
+#
+need
+tools
+for
+tests
+TOOLS_TRUE
 TESTS_TRUE
 TEST
 =
@@ -355,6 +361,10 @@ TOOLS_TRUE
 TOOLS
 =
 tools
+TOOLS_TRUE
+DATASUBDIR
+=
+data
 #
 #
 pkgconfig
@@ -526,7 +536,9 @@ ICUIO
 (
 TOOLS
 )
-data
+(
+DATASUBDIR
+)
 (
 EXTRA
 )
@@ -746,9 +758,6 @@ dist
 dist
 -
 recursive
-dist
--
-local
 check
 :
 all

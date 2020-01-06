@@ -27,7 +27,7 @@ Build
 ToolsVersion
 =
 "
-4
+14
 .
 0
 "
@@ -148,6 +148,16 @@ AF10
 <
 /
 ProjectGuid
+>
+<
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
 >
 <
 RootNamespace

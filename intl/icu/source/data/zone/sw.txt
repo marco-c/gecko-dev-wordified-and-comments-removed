@@ -42,9 +42,9 @@ Version
 .
 1
 .
-33
+37
 .
-73
+34
 "
 }
 zoneStrings
@@ -107,6 +107,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Afrika
@@ -429,6 +430,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Apia
@@ -463,6 +465,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Uarabuni
@@ -540,6 +543,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Magharibi
@@ -578,6 +582,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Armenia
@@ -651,6 +656,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Australia
@@ -695,6 +701,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Magharibi
@@ -736,6 +743,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Mashariki
@@ -774,6 +782,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Australia
@@ -796,7 +805,7 @@ Majira
 ya
 joto
 za
-Azeribaijani
+Azerbaijan
 "
 }
 lg
@@ -804,16 +813,17 @@ lg
 "
 Saa
 za
-Azeribaijani
+Azerbaijan
 "
 }
 ls
 {
 "
 Saa
+za
 Wastani
 za
-Azeribaijani
+Azerbaijan
 "
 }
 }
@@ -847,6 +857,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Azores
@@ -883,6 +894,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Bangladesh
@@ -1022,6 +1034,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Chamorro
@@ -1056,6 +1069,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Chatham
@@ -1127,6 +1141,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Uchina
@@ -1163,6 +1178,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Choibalsan
@@ -1274,6 +1290,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Visiwa
@@ -1383,7 +1400,7 @@ joto
 za
 Kisiwa
 cha
-Pasaka
+Easter
 "
 }
 lg
@@ -1393,18 +1410,19 @@ Saa
 za
 Kisiwa
 cha
-Pasaka
+Easter
 "
 }
 ls
 {
 "
 Saa
+za
 Wastani
 za
 Kisiwa
 cha
-Pasaka
+Easter
 "
 }
 }
@@ -1457,6 +1475,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Ulaya
@@ -1499,6 +1518,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Mashariki
@@ -1518,11 +1538,10 @@ ls
 "
 Saa
 za
-Further
--
-eastern
-European
-Time
+Mashariki
+zaidi
+mwa
+Ulaya
 "
 }
 }
@@ -1560,6 +1579,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Magharibi
@@ -1602,6 +1622,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Visiwa
@@ -1640,6 +1661,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Fiji
@@ -1742,7 +1764,7 @@ Majira
 ya
 joto
 za
-Jojia
+Georgia
 "
 }
 lg
@@ -1750,16 +1772,17 @@ lg
 "
 Saa
 za
-Jojia
+Georgia
 "
 }
 ls
 {
 "
 Saa
+za
 Wastani
 za
-Jojia
+Georgia
 "
 }
 }
@@ -1870,6 +1893,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Gulf
@@ -1964,6 +1988,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Hong
@@ -2001,6 +2026,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Hovd
@@ -2133,6 +2159,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Iran
@@ -2204,6 +2231,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Israeli
@@ -2345,6 +2373,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Korea
@@ -2465,6 +2494,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Lord
@@ -2672,6 +2702,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Mexico
@@ -2753,6 +2784,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Ulan
@@ -2874,6 +2906,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 New
@@ -2911,6 +2944,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 New
@@ -3019,6 +3053,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Fernando
@@ -3131,6 +3166,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Pakistan
@@ -3273,6 +3309,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Ufilipino
@@ -3520,6 +3557,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Samoa
@@ -3551,6 +3589,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Singapore
@@ -3585,7 +3624,7 @@ ls
 "
 Saa
 za
-Jojia
+Georgia
 Kusini
 "
 }
@@ -3663,6 +3702,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Taipei
@@ -3729,6 +3769,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Tonga
@@ -3906,6 +3947,7 @@ ls
 {
 "
 Saa
+za
 Wastani
 za
 Vanuatu

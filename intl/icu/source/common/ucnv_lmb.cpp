@@ -3191,6 +3191,9 @@ ULMBCS_DOUBLEOPTGROUP_START
 {
 bytes_written
 =
+(
+int32_t
+)
 LMBCSConversionWorker
 (
 extraInfo
@@ -3211,6 +3214,9 @@ bytes_written
 {
 bytes_written
 =
+(
+int32_t
+)
 LMBCSConversionWorker
 (
 extraInfo
@@ -3232,6 +3238,9 @@ bytes_written
 {
 bytes_written
 =
+(
+int32_t
+)
 LMBCSConversionWorker
 (
 extraInfo
@@ -3253,6 +3262,9 @@ else
 {
 bytes_written
 =
+(
+int32_t
+)
 LMBCSConversionWorker
 (
 extraInfo

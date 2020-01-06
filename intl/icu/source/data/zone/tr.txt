@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-59
+5
 "
 }
 zoneStrings
@@ -731,7 +731,7 @@ Australia_CentralWestern
 ld
 {
 "
-bat
+Bat
 Avustralya
 Yaz
 Saati
@@ -740,7 +740,7 @@ Saati
 lg
 {
 "
-bat
+Bat
 Avustralya
 Saati
 "
@@ -748,7 +748,7 @@ Saati
 ls
 {
 "
-bat
+Bat
 Avustralya
 Standart
 Saati
@@ -923,7 +923,7 @@ Bhutan
 ls
 {
 "
-Bhutan
+Butan
 Saati
 "
 }
@@ -1470,7 +1470,7 @@ Europe_Further_Eastern
 ls
 {
 "
-Daha
+leri
 Do
 u
 Avrupa

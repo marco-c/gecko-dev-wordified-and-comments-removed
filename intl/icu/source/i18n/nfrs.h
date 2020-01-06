@@ -403,10 +403,10 @@ double
 d
 )
 ;
-int64_t
+uint64_t
 util64_pow
 (
-int32_t
+uint32_t
 radix
 uint16_t
 exponent

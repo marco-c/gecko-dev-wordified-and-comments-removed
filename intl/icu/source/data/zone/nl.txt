@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-59
+1
 "
 }
 zoneStrings
@@ -1638,7 +1638,7 @@ ls
 {
 "
 Galapagoseilandse
-tijd
+standaardtijd
 "
 }
 }

@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-59
+5
 "
 }
 zoneStrings
@@ -381,7 +381,7 @@ ls
 {
 "
 Waktu
-Standard
+Piawai
 Apia
 "
 }
@@ -1617,6 +1617,7 @@ ls
 {
 "
 Waktu
+Piawai
 Teluk
 "
 }

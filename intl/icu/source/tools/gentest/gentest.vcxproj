@@ -210,6 +210,16 @@ B8C8A4A97891
 ProjectGuid
 >
 <
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
+>
+<
 RootNamespace
 >
 gentest

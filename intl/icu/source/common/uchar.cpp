@@ -3508,13 +3508,6 @@ pErrorCode
 return
 ;
 }
-if
-(
-propsVectorsColumns
->
-0
-)
-{
 utrie2_enum
 (
 &
@@ -3524,5 +3517,4 @@ _enumPropertyStartsRange
 sa
 )
 ;
-}
 }

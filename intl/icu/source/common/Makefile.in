@@ -812,6 +812,9 @@ o
 stringpiece
 .
 o
+bytesinkutil
+.
+o
 \
 stringtriebuilder
 .
@@ -1074,6 +1077,9 @@ rbbistbl
 .
 o
 rbbitblb
+.
+o
+rbbi_cache
 .
 o
 \

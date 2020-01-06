@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-59
+5
 "
 }
 zoneStrings
@@ -296,7 +296,7 @@ a
 h
 mi
 n
-trung
+Trung
 "
 }
 lg
@@ -305,7 +305,7 @@ lg
 Gi
 mi
 n
-trung
+Trung
 "
 }
 ls
@@ -316,7 +316,7 @@ chu
 n
 mi
 n
-trung
+Trung
 "
 }
 }
@@ -411,7 +411,7 @@ ld
 {
 "
 Gi
-M
+m
 a
 h
 Th
@@ -689,7 +689,7 @@ chu
 n
 mi
 n
-m
+t
 y
 Argentina
 "
@@ -738,7 +738,7 @@ ld
 {
 "
 Gi
-M
+m
 a
 h
 i
@@ -789,9 +789,7 @@ H
 Mi
 n
 Trung
-N
-c
-c
+Australia
 "
 }
 lg
@@ -801,9 +799,7 @@ Gi
 Mi
 n
 Trung
-N
-c
-c
+Australia
 "
 }
 ls
@@ -815,9 +811,7 @@ n
 Mi
 n
 Trung
-N
-c
-c
+Australia
 "
 }
 }
@@ -839,9 +833,7 @@ n
 Trung
 T
 y
-N
-c
-c
+Australia
 "
 }
 lg
@@ -853,9 +845,7 @@ n
 Trung
 T
 y
-N
-c
-c
+Australia
 "
 }
 ls
@@ -869,9 +859,7 @@ n
 Trung
 T
 y
-N
-c
-c
+Australia
 "
 }
 }
@@ -891,9 +879,7 @@ H
 Mi
 n
 ng
-N
-c
-c
+Australia
 "
 }
 lg
@@ -903,9 +889,7 @@ Gi
 Mi
 n
 ng
-N
-c
-c
+Australia
 "
 }
 ls
@@ -917,9 +901,7 @@ n
 Mi
 n
 ng
-N
-c
-c
+Australia
 "
 }
 }
@@ -940,9 +922,7 @@ Mi
 n
 T
 y
-N
-c
-c
+Australia
 "
 }
 lg
@@ -953,9 +933,7 @@ Mi
 n
 T
 y
-N
-c
-c
+Australia
 "
 }
 ls
@@ -968,9 +946,7 @@ Mi
 n
 T
 y
-N
-c
-c
+Australia
 "
 }
 }
@@ -1591,9 +1567,9 @@ ld
 {
 "
 Gi
-M
+m
 a
-H
+h
 Trung
 u
 "
@@ -1610,7 +1586,7 @@ ls
 {
 "
 Gi
-Chu
+chu
 n
 Trung
 u
@@ -1627,9 +1603,9 @@ ld
 {
 "
 Gi
-M
+m
 a
-H
+h
 ng
 u
 "
@@ -1646,7 +1622,7 @@ ls
 {
 "
 Gi
-Chu
+chu
 n
 ng
 u
@@ -1682,7 +1658,7 @@ ld
 {
 "
 Gi
-M
+m
 a
 h
 T
@@ -2072,7 +2048,7 @@ a
 H
 Hawaii
 -
-Aleutian
+Aleut
 "
 }
 lg
@@ -2081,7 +2057,7 @@ lg
 Gi
 Hawaii
 -
-Aleutian
+Aleut
 "
 }
 ls
@@ -2092,7 +2068,7 @@ Chu
 n
 Hawaii
 -
-Aleutian
+Aleut
 "
 }
 }

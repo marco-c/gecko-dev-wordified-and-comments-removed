@@ -210,6 +210,16 @@ ProjectGuid
 ProjectGuid
 >
 <
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
+>
+<
 /
 PropertyGroup
 >

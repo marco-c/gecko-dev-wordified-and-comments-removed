@@ -3599,7 +3599,7 @@ mapToUChars
 [
 UTF8_TEXT_CHUNK_SIZE
 *
-6
+3
 +
 6
 ]

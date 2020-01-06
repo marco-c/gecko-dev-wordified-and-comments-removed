@@ -210,6 +210,16 @@ BC1C1C95B547
 ProjectGuid
 >
 <
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
+>
+<
 /
 PropertyGroup
 >

@@ -77,7 +77,7 @@ UNORM_UNICODE_3_2
 define
 UNORM_COMPARE_NORM_OPTIONS_SHIFT
 20
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 unorm_normalize
@@ -102,7 +102,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_DEPRECATED
 UNormalizationCheckResult
 U_EXPORT2
 unorm_quickCheck
@@ -120,7 +120,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_DEPRECATED
 UNormalizationCheckResult
 U_EXPORT2
 unorm_quickCheckWithOptions
@@ -140,7 +140,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DEPRECATED
 UBool
 U_EXPORT2
 unorm_isNormalized
@@ -158,7 +158,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DEPRECATED
 UBool
 U_EXPORT2
 unorm_isNormalizedWithOptions
@@ -178,7 +178,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 unorm_next
@@ -205,7 +205,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 unorm_previous
@@ -232,7 +232,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 unorm_concatenate

@@ -554,9 +554,9 @@ LOCALE_NAME_MAX_LENGTH
 {
 }
 ;
-int32_t
-length
-=
+(
+void
+)
 uloc_toLanguageTag
 (
 locale
@@ -1052,7 +1052,6 @@ UnicodeString
 appendTo
 FieldPosition
 &
-pos
 )
 const
 {
@@ -1325,10 +1324,8 @@ parse
 const
 UnicodeString
 &
-text
 Calendar
 &
-cal
 ParsePosition
 &
 pos

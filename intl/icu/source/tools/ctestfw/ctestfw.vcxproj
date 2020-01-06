@@ -210,6 +210,16 @@ F451D078FC47
 ProjectGuid
 >
 <
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
+>
+<
 /
 PropertyGroup
 >
@@ -1683,7 +1693,7 @@ OutputFile
 \
 bin
 \
-icutest59
+icutest60
 .
 dll
 <
@@ -2137,7 +2147,7 @@ OutputFile
 \
 bin
 \
-icutest59d
+icutest60d
 .
 dll
 <
@@ -2569,7 +2579,7 @@ OutputFile
 \
 bin64
 \
-icutest59
+icutest60
 .
 dll
 <
@@ -3018,7 +3028,7 @@ OutputFile
 \
 bin64
 \
-icutest59d
+icutest60d
 .
 dll
 <

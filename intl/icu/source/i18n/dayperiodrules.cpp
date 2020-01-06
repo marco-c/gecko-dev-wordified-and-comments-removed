@@ -1826,7 +1826,7 @@ localeCode
 =
 locale
 .
-getName
+getBaseName
 (
 )
 ;

@@ -327,7 +327,6 @@ umtx_condSignal
 (
 UConditionVar
 *
-condition
 )
 {
 U_ASSERT

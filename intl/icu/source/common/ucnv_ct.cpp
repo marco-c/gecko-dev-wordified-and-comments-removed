@@ -2716,6 +2716,13 @@ converter
 extraInfo
 )
 ;
+converter
+-
+>
+extraInfo
+=
+NULL
+;
 }
 }
 static
@@ -3840,6 +3847,11 @@ tmpState
 }
 sourceOffset
 =
+static_cast
+<
+int32_t
+>
+(
 uprv_strlen
 (
 (
@@ -3859,6 +3871,7 @@ converter
 -
 >
 toULength
+)
 ;
 mySource
 +

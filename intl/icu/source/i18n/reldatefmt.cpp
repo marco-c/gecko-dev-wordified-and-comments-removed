@@ -2764,6 +2764,8 @@ RelDateTimeFmtDataSink
 {
 }
 }
+static
+const
 DateFormatSymbols
 :
 :

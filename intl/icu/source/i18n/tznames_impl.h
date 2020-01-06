@@ -65,6 +65,10 @@ umutex
 .
 h
 "
+#
+define
+ZONE_NAME_U16_MAX
+128
 U_NAMESPACE_BEGIN
 struct
 ZNStringPoolChunk

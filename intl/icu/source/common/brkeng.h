@@ -48,6 +48,9 @@ class
 UStack
 ;
 class
+UVector32
+;
+class
 DictionaryMatcher
 ;
 class
@@ -92,11 +95,9 @@ int32_t
 startPos
 int32_t
 endPos
-UBool
-reverse
 int32_t
 breakType
-UStack
+UVector32
 &
 foundBreaks
 )
@@ -192,11 +193,9 @@ int32_t
 startPos
 int32_t
 endPos
-UBool
-reverse
 int32_t
 breakType
-UStack
+UVector32
 &
 foundBreaks
 )

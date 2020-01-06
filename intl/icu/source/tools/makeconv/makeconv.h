@@ -69,7 +69,7 @@ NewConverter
 void
 (
 *
-U_CALLCONV
+U_CALLCONV_FPTR
 close
 )
 (
@@ -81,7 +81,7 @@ cnvData
 UBool
 (
 *
-U_CALLCONV
+U_CALLCONV_FPTR
 isValid
 )
 (
@@ -99,7 +99,7 @@ length
 UBool
 (
 *
-U_CALLCONV
+U_CALLCONV_FPTR
 addTable
 )
 (
@@ -117,7 +117,7 @@ staticData
 uint32_t
 (
 *
-U_CALLCONV
+U_CALLCONV_FPTR
 write
 )
 (

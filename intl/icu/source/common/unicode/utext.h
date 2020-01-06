@@ -704,7 +704,6 @@ __offset
 &
 __offset
 <
-=
 (
 int64_t
 )
@@ -714,6 +713,19 @@ ut
 -
 >
 nativeIndexingLimit
+&
+&
+(
+ut
+)
+-
+>
+chunkContents
+[
+__offset
+]
+<
+0xdc00
 )
 {
 \

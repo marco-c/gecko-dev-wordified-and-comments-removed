@@ -134,6 +134,10 @@ static
 int32_t
 availableLocaleListCount
 ;
+#
+if
+!
+UCONFIG_NO_SERVICE
 static
 icu
 :
@@ -153,6 +157,8 @@ gServiceInitOnce
 =
 U_INITONCE_INITIALIZER
 ;
+#
+endif
 static
 icu
 :

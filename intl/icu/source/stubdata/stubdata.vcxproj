@@ -210,6 +210,16 @@ A636
 ProjectGuid
 >
 <
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
+>
+<
 /
 PropertyGroup
 >
@@ -1731,7 +1741,7 @@ OutputFile
 \
 bin
 \
-icudt59
+icudt60
 .
 dll
 <
@@ -2188,7 +2198,7 @@ OutputFile
 \
 bin
 \
-icudt59
+icudt60
 .
 dll
 <
@@ -2638,7 +2648,7 @@ OutputFile
 \
 bin64
 \
-icudt59
+icudt60
 .
 dll
 <
@@ -3090,7 +3100,7 @@ OutputFile
 \
 bin64
 \
-icudt59
+icudt60
 .
 dll
 <

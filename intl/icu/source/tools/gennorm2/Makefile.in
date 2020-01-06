@@ -202,6 +202,12 @@ o
 n2builder
 .
 o
+extradata
+.
+o
+norms
+.
+o
 DEPS
 =
 (

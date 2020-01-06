@@ -2080,6 +2080,12 @@ LF
 define
 AT_SIGN
 0x0040
+#
+if
+UCONFIG_NO_REGULAR_EXPRESSIONS
+=
+=
+0
 static
 void
 trim
@@ -2363,6 +2369,8 @@ n
 ;
 }
 }
+#
+endif
 static
 void
 printNoteElements
@@ -2658,6 +2666,12 @@ UnicodeString
 )
 ;
 }
+#
+if
+UCONFIG_NO_REGULAR_EXPRESSIONS
+=
+=
+0
 static
 void
 printAttribute
@@ -2723,6 +2737,8 @@ UnicodeString
 )
 ;
 }
+#
+endif
 static
 void
 printComments

@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-59
+67
 "
 }
 zoneStrings
@@ -1307,7 +1307,6 @@ ls
 {
 "
 Dumont
--
 d
 Urvillen
 aika
@@ -1637,7 +1636,7 @@ Gambier
 ls
 {
 "
-Gambierin
+Gambiersaarten
 aika
 "
 }
@@ -2428,7 +2427,7 @@ Marquesas
 ls
 {
 "
-Marquesasin
+Marquesassaarten
 aika
 "
 }
@@ -2782,7 +2781,7 @@ Norfolk
 ls
 {
 "
-Norfolkinsaarten
+Norfolkinsaaren
 aika
 "
 }

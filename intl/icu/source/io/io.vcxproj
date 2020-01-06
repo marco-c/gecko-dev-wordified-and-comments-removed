@@ -210,6 +210,16 @@ BF0D
 ProjectGuid
 >
 <
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
+>
+<
 /
 PropertyGroup
 >
@@ -1668,7 +1678,7 @@ OutputFile
 \
 bin
 \
-icuio59
+icuio60
 .
 dll
 <
@@ -2113,7 +2123,7 @@ OutputFile
 \
 bin
 \
-icuio59d
+icuio60d
 .
 dll
 <
@@ -2536,7 +2546,7 @@ OutputFile
 \
 bin64
 \
-icuio59
+icuio60
 .
 dll
 <
@@ -2976,7 +2986,7 @@ OutputFile
 \
 bin64
 \
-icuio59d
+icuio60d
 .
 dll
 <

@@ -735,9 +735,9 @@ LOCALE_NAME_MAX_LENGTH
 {
 }
 ;
-int32_t
-length
-=
+(
+void
+)
 uloc_toLanguageTag
 (
 locale
@@ -1436,7 +1436,6 @@ UnicodeString
 appendTo
 FieldPosition
 &
-pos
 )
 const
 {
@@ -1471,7 +1470,6 @@ UnicodeString
 appendTo
 FieldPosition
 &
-pos
 )
 const
 {
@@ -1505,7 +1503,6 @@ UnicodeString
 appendTo
 FieldPosition
 &
-pos
 )
 const
 {

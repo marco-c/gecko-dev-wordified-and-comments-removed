@@ -75,9 +75,6 @@ struct
 USpoofChecker
 USpoofChecker
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 struct
 USpoofCheckResult
 ;
@@ -86,8 +83,6 @@ struct
 USpoofCheckResult
 USpoofCheckResult
 ;
-#
-endif
 typedef
 enum
 USpoofChecks
@@ -101,9 +96,6 @@ USPOOF_MIXED_SCRIPT_CONFUSABLE
 USPOOF_WHOLE_SCRIPT_CONFUSABLE
 =
 4
-#
-ifndef
-U_HIDE_DRAFT_API
 USPOOF_CONFUSABLE
 =
 USPOOF_SINGLE_SCRIPT_CONFUSABLE
@@ -111,8 +103,6 @@ USPOOF_SINGLE_SCRIPT_CONFUSABLE
 USPOOF_MIXED_SCRIPT_CONFUSABLE
 |
 USPOOF_WHOLE_SCRIPT_CONFUSABLE
-#
-endif
 #
 ifndef
 U_HIDE_DEPRECATED_API
@@ -522,10 +512,7 @@ status
 ;
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 uspoof_check2
@@ -548,7 +535,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 uspoof_check2UTF8
@@ -574,7 +561,7 @@ status
 #
 if
 U_SHOW_CPLUSPLUS_API
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 uspoof_check2UnicodeString
@@ -600,7 +587,7 @@ status
 ;
 #
 endif
-U_DRAFT
+U_STABLE
 USpoofCheckResult
 *
 U_EXPORT2
@@ -611,7 +598,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 uspoof_closeCheckResult
@@ -635,7 +622,7 @@ uspoof_closeCheckResult
 U_NAMESPACE_END
 #
 endif
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 uspoof_getCheckResultChecks
@@ -649,7 +636,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 URestrictionLevel
 U_EXPORT2
 uspoof_getCheckResultRestrictionLevel
@@ -663,7 +650,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 const
 USet
 *
@@ -679,8 +666,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 U_STABLE
 int32_t
 U_EXPORT2

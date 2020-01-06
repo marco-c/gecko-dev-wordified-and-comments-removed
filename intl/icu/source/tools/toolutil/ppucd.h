@@ -194,6 +194,7 @@ VALUE_LINE
 DEFAULTS_LINE
 BLOCK_LINE
 CP_LINE
+UNASSIGNED_LINE
 ALG_NAMES_RANGE_LINE
 LINE_TYPE_COUNT
 }
@@ -281,7 +282,7 @@ lineType
 lineType
 <
 =
-CP_LINE
+UNASSIGNED_LINE
 ;
 }
 const
@@ -464,6 +465,9 @@ UniProps
 defaultProps
 blockProps
 cpProps
+;
+UnicodeSet
+blockValues
 ;
 char
 lines

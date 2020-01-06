@@ -3901,6 +3901,11 @@ context
 )
 )
 {
+*
+pString
+=
+nullptr
+;
 return
 0
 ;
@@ -4227,6 +4232,11 @@ context
 )
 )
 {
+*
+pString
+=
+nullptr
+;
 return
 0
 ;

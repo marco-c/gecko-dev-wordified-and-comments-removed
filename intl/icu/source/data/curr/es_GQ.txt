@@ -45,7 +45,9 @@ FCFA
 "
 franco
 CFA
-BEAC
+de
+frica
+Central
 "
 }
 }

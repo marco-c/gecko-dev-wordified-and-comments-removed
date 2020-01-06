@@ -577,6 +577,12 @@ return
 didUpdate
 ;
 }
+#
+if
+U_PLATFORM_HAS_WINUWP_API
+=
+=
+0
 static
 UBool
 setCommonICUDataPointer
@@ -624,6 +630,8 @@ pErrorCode
 )
 ;
 }
+#
+endif
 static
 const
 char
@@ -3412,6 +3420,9 @@ next
 pErrorCode
 )
 )
+!
+=
+NULL
 )
 {
 #
@@ -4103,6 +4114,9 @@ data
 U_FILE_ALT_SEP_CHAR
 )
 )
+!
+=
+NULL
 )
 {
 *

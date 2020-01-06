@@ -271,9 +271,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UnicodeString
 getUnitDisplayName
 (
@@ -287,8 +284,6 @@ status
 )
 const
 ;
-#
-endif
 static
 MeasureFormat
 *

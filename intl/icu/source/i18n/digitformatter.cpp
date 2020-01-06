@@ -1067,6 +1067,8 @@ length
 ;
 int32_t
 fracBegin
+=
+0
 ;
 if
 (

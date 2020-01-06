@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-59
+1
 "
 }
 zoneStrings
@@ -516,7 +516,7 @@ Horario
 de
 ver
 n
-de
+da
 Arxentina
 "
 }
@@ -524,7 +524,7 @@ lg
 {
 "
 Horario
-de
+da
 Arxentina
 "
 }
@@ -534,7 +534,7 @@ ls
 Horario
 est
 ndar
-de
+da
 Arxentina
 "
 }
@@ -552,7 +552,7 @@ Horario
 de
 ver
 n
-de
+da
 Arxentina
 Occidental
 "
@@ -561,7 +561,7 @@ lg
 {
 "
 Horario
-de
+da
 Arxentina
 Occidental
 "
@@ -572,7 +572,7 @@ ls
 Horario
 est
 ndar
-de
+da
 Arxentina
 Occidental
 "
@@ -901,8 +901,7 @@ de
 ver
 n
 de
-Banglad
-s
+Bangladesh
 "
 }
 lg
@@ -910,8 +909,7 @@ lg
 "
 Horario
 de
-Banglad
-s
+Bangladesh
 "
 }
 ls
@@ -921,8 +919,7 @@ Horario
 est
 ndar
 de
-Banglad
-s
+Bangladesh
 "
 }
 }
@@ -1149,7 +1146,7 @@ Horario
 de
 ver
 n
-de
+da
 China
 "
 }
@@ -1157,7 +1154,7 @@ lg
 {
 "
 Horario
-de
+da
 China
 "
 }
@@ -1167,7 +1164,7 @@ ls
 Horario
 est
 ndar
-de
+da
 China
 "
 }
@@ -2517,7 +2514,7 @@ ls
 "
 Horario
 de
-Quirguicist
+Kirguizist
 n
 "
 }
@@ -2756,20 +2753,22 @@ Horario
 de
 ver
 n
+do
+noroeste
 de
 M
 xico
-Noroeste
 "
 }
 lg
 {
 "
 Horario
+do
+noroeste
 de
 M
 xico
-Noroeste
 "
 }
 ls
@@ -2778,10 +2777,11 @@ ls
 Horario
 est
 ndar
+do
+noroeste
 de
 M
 xico
-Noroeste
 "
 }
 }
@@ -2841,10 +2841,7 @@ de
 ver
 n
 de
-Ul
-n
-B
-tor
+Ulaanbaatar
 "
 }
 lg
@@ -2852,10 +2849,7 @@ lg
 "
 Horario
 de
-Ul
-n
-B
-tor
+Ulaanbaatar
 "
 }
 ls
@@ -2865,10 +2859,7 @@ Horario
 est
 ndar
 de
-Ul
-n
-B
-tor
+Ulaanbaatar
 "
 }
 }
@@ -3334,7 +3325,7 @@ Horario
 de
 ver
 n
-de
+do
 Per
 "
 }
@@ -3342,7 +3333,7 @@ lg
 {
 "
 Horario
-de
+do
 Per
 "
 }
@@ -3352,7 +3343,7 @@ ls
 Horario
 est
 ndar
-de
+do
 Per
 "
 }
@@ -3425,8 +3416,11 @@ ver
 n
 de
 Saint
+-
 Pierre
-e
+-
+et
+-
 Miquelon
 "
 }
@@ -3436,8 +3430,11 @@ lg
 Horario
 de
 Saint
+-
 Pierre
-e
+-
+et
+-
 Miquelon
 "
 }
@@ -3449,8 +3446,11 @@ est
 ndar
 de
 Saint
+-
 Pierre
-e
+-
+et
+-
 Miquelon
 "
 }
@@ -3651,7 +3651,7 @@ ls
 "
 Horario
 das
-Seixeles
+Seychelles
 "
 }
 }
@@ -3814,7 +3814,7 @@ ls
 "
 Horario
 de
-Toquelau
+Tokelau
 "
 }
 }
@@ -3936,7 +3936,7 @@ Horario
 de
 ver
 n
-de
+do
 Uruguai
 "
 }
@@ -3944,7 +3944,7 @@ lg
 {
 "
 Horario
-de
+do
 Uruguai
 "
 }
@@ -3954,7 +3954,7 @@ ls
 Horario
 est
 ndar
-de
+do
 Uruguai
 "
 }
@@ -3973,7 +3973,7 @@ de
 ver
 n
 de
-Usbequist
+Uzbequist
 n
 "
 }
@@ -3982,7 +3982,7 @@ lg
 "
 Horario
 de
-Usbequist
+Uzbequist
 n
 "
 }
@@ -3993,7 +3993,7 @@ Horario
 est
 ndar
 de
-Usbequist
+Uzbequist
 n
 "
 }
@@ -4288,6 +4288,7 @@ regionFormat
 "
 Horario
 de
+:
 {
 0
 }
@@ -4301,6 +4302,7 @@ de
 ver
 n
 de
+:
 {
 0
 }
@@ -4313,6 +4315,7 @@ Horario
 est
 ndar
 de
+:
 {
 0
 }

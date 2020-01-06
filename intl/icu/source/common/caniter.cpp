@@ -1601,6 +1601,9 @@ count
 (
 )
 )
+!
+=
+0
 )
 {
 finalResult

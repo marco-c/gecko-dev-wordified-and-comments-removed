@@ -3954,9 +3954,15 @@ res
 int32_t
 len
 =
+static_cast
+<
+int32_t
+>
+(
 uprv_strlen
 (
 mzID
+)
 )
 ;
 UChar

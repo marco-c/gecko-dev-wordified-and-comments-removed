@@ -263,8 +263,6 @@ gServiceInitOnce
 =
 U_INITONCE_INITIALIZER
 ;
-#
-endif
 U_CDECL_BEGIN
 static
 UBool
@@ -303,6 +301,8 @@ TRUE
 ;
 }
 U_CDECL_END
+#
+endif
 #
 if
 defined
@@ -884,6 +884,10 @@ return
 CALTYPE_UNKNOWN
 ;
 }
+#
+if
+!
+UCONFIG_NO_SERVICE
 static
 UBool
 isStandardSupportedKeyword
@@ -1035,6 +1039,8 @@ keyLen
 0
 ;
 }
+#
+endif
 static
 ECalType
 getCalendarTypeForLocale
@@ -11934,7 +11940,7 @@ U_DEBUG_CAL
 )
 #
 endif
-int32_t
+double
 millisInDay
 ;
 if
@@ -12288,7 +12294,7 @@ return
 FALSE
 ;
 }
-int32_t
+double
 Calendar
 :
 :
@@ -12296,7 +12302,7 @@ computeMillisInDay
 (
 )
 {
-int32_t
+double
 millisInDay
 =
 0
@@ -12445,7 +12451,7 @@ computeZoneOffset
 (
 double
 millis
-int32_t
+double
 millisInDay
 UErrorCode
 &

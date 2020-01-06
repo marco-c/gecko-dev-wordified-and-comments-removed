@@ -210,6 +210,16 @@ DC57
 ProjectGuid
 >
 <
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
+>
+<
 Keyword
 >
 Win32Proj

@@ -1158,7 +1158,6 @@ lang
 )
 ;
 }
-else
 if
 (
 _isIDSeparator
@@ -3042,8 +3041,9 @@ err
 static
 const
 char
-*
 LANG_DIR_STRING
+[
+]
 =
 "
 root

@@ -27,7 +27,7 @@ Build
 ToolsVersion
 =
 "
-4
+14
 .
 0
 "
@@ -224,6 +224,16 @@ v140
 <
 /
 PlatformToolset
+>
+<
+WindowsTargetPlatformVersion
+>
+8
+.
+1
+<
+/
+WindowsTargetPlatformVersion
 >
 <
 ConfigurationType

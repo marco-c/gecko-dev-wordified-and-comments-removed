@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-60
+1
 "
 }
 zoneStrings
@@ -1738,6 +1738,7 @@ ls
 {
 "
 Hindiston
+standart
 vaqti
 "
 }

@@ -174,6 +174,13 @@ pkg_genc
 h
 "
 #
+include
+"
+filetools
+.
+h
+"
+#
 define
 MAX_COLUMN
 (

@@ -68,15 +68,6 @@ UConverter
 ;
 #
 ifndef
-U_COMPARE_CODE_POINT_ORDER
-#
-define
-U_COMPARE_CODE_POINT_ORDER
-0x8000
-#
-endif
-#
-ifndef
 USTRING_H
 U_STABLE
 int32_t
@@ -1493,6 +1484,9 @@ sbs
 (
 &
 result
+length
+(
+)
 )
 ;
 toUTF8
@@ -1605,9 +1599,6 @@ UnicodeString
 src
 )
 ;
-#
-if
-U_HAVE_RVALUE_REFERENCES
 UnicodeString
 &
 operator
@@ -1627,8 +1618,6 @@ src
 )
 ;
 }
-#
-endif
 UnicodeString
 &
 moveFrom
@@ -2818,9 +2807,6 @@ UnicodeString
 that
 )
 ;
-#
-if
-U_HAVE_RVALUE_REFERENCES
 UnicodeString
 (
 UnicodeString
@@ -2830,8 +2816,6 @@ src
 )
 U_NOEXCEPT
 ;
-#
-endif
 UnicodeString
 (
 const

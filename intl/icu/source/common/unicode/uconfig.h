@@ -343,7 +343,9 @@ define
 UCONFIG_NO_NORMALIZATION
 0
 #
-elif
+endif
+#
+if
 UCONFIG_NO_NORMALIZATION
 #
 define

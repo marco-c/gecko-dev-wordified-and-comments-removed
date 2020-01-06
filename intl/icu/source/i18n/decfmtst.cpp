@@ -250,6 +250,7 @@ gStrictDashEquivalentsPattern
 }
 ;
 static
+const
 UChar32
 gMinusSigns
 [
@@ -266,6 +267,7 @@ gMinusSigns
 }
 ;
 static
+const
 UChar32
 gPlusSigns
 [

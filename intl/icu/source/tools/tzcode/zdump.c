@@ -82,6 +82,15 @@ dirent
 h
 "
 #
+include
+"
+sys
+/
+stat
+.
+h
+"
+#
 endif
 #
 ifndef
@@ -2327,7 +2336,6 @@ dp
 }
 #
 endif
-ICU
 if
 (
 vflag
@@ -6002,7 +6010,7 @@ fprintf
 fp
 "
 %
-02d
+02ld
 "
 hour
 )
@@ -6012,7 +6020,7 @@ fprintf
 fp
 "
 %
-02d
+02ld
 "
 min
 )
@@ -6022,7 +6030,7 @@ fprintf
 fp
 "
 %
-02d
+02ld
 "
 sec
 )

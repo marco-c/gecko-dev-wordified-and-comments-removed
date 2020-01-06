@@ -174,10 +174,13 @@ hi
 const
 ;
 UBool
-asciiBytes
+latin1Contains
 [
-0xc0
+0x100
 ]
+;
+UBool
+containsFFFD
 ;
 uint32_t
 table7FF

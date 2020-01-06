@@ -42,9 +42,9 @@ Version
 .
 1
 .
-31
+37
 .
-86
+5
 "
 }
 zoneStrings
@@ -3111,8 +3111,8 @@ Ljetno
 vrijeme
 na
 Ostrvima
-Sen
-Pjer
+Sveti
+Petar
 i
 Mikelon
 "
@@ -3123,8 +3123,8 @@ lg
 Vrijeme
 na
 Ostrvima
-Sen
-Pjer
+Sveti
+Petar
 i
 Mikelon
 "
@@ -3136,8 +3136,8 @@ Standardno
 vrijeme
 na
 Ostrvima
-Sen
-Pjer
+Sveti
+Petar
 i
 Mikelon
 "
@@ -3154,7 +3154,7 @@ ls
 "
 Vrijeme
 na
-Ostrvu
+Ostrvima
 Pitkern
 "
 }

@@ -273,9 +273,15 @@ return
 ustr_hashCharsN
 (
 s
+static_cast
+<
+int32_t
+>
+(
 uprv_strlen
 (
 s
+)
 )
 )
 ;

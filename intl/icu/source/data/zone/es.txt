@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-59
+22
 "
 }
 zoneStrings
@@ -336,6 +336,7 @@ de
 las
 Monta
 as
+Rocosas
 "
 }
 lg
@@ -346,6 +347,7 @@ de
 las
 Monta
 as
+Rocosas
 "
 }
 ls
@@ -358,6 +360,7 @@ de
 las
 Monta
 as
+Rocosas
 "
 }
 }
@@ -408,7 +411,7 @@ Anadyr
 ld
 {
 "
-Hora
+hora
 de
 verano
 de
@@ -418,7 +421,7 @@ Anadyr
 lg
 {
 "
-Hora
+hora
 de
 Anadyr
 "
@@ -426,7 +429,7 @@ Anadyr
 ls
 {
 "
-Hora
+hora
 est
 ndar
 de
@@ -1640,10 +1643,11 @@ ls
 {
 "
 hora
+del
+extremo
+oriental
 de
 Europa
-oriental
-lejana
 "
 }
 }
@@ -2064,7 +2068,7 @@ de
 Haw
 i
 -
-Aleutiano
+Aleutianas
 "
 }
 lg
@@ -2075,7 +2079,7 @@ de
 Haw
 i
 -
-Aleutiano
+Aleutianas
 "
 }
 ls
@@ -2088,7 +2092,7 @@ de
 Haw
 i
 -
-Aleutiano
+Aleutianas
 "
 }
 }
@@ -2418,7 +2422,7 @@ Kamchatka
 ld
 {
 "
-Hora
+hora
 de
 verano
 de
@@ -2428,7 +2432,7 @@ Kamchatka
 lg
 {
 "
-Hora
+hora
 de
 Kamchatka
 "
@@ -2436,8 +2440,7 @@ Kamchatka
 ls
 {
 "
-Hora
-de
+hora
 est
 ndar
 de
@@ -3032,7 +3035,10 @@ ls
 "
 hora
 de
+Myanmar
+(
 Birmania
+)
 "
 }
 }
@@ -3738,7 +3744,7 @@ Samara
 ld
 {
 "
-Hora
+hora
 de
 verano
 de
@@ -3748,7 +3754,7 @@ Samara
 lg
 {
 "
-Hora
+hora
 de
 Samara
 "
@@ -3756,7 +3762,7 @@ Samara
 ls
 {
 "
-Hora
+hora
 est
 ndar
 de
@@ -3859,7 +3865,8 @@ ls
 hora
 de
 Georgia
-meridional
+del
+Sur
 "
 }
 }

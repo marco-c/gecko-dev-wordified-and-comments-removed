@@ -38,6 +38,13 @@ brkeng
 .
 h
 "
+#
+include
+"
+uvectr32
+.
+h
+"
 U_NAMESPACE_BEGIN
 class
 DictionaryMatcher
@@ -99,11 +106,9 @@ int32_t
 startPos
 int32_t
 endPos
-UBool
-reverse
 int32_t
 breakType
-UStack
+UVector32
 &
 foundBreaks
 )
@@ -132,7 +137,7 @@ int32_t
 rangeStart
 int32_t
 rangeEnd
-UStack
+UVector32
 &
 foundBreaks
 )
@@ -200,7 +205,7 @@ int32_t
 rangeStart
 int32_t
 rangeEnd
-UStack
+UVector32
 &
 foundBreaks
 )
@@ -263,7 +268,7 @@ int32_t
 rangeStart
 int32_t
 rangeEnd
-UStack
+UVector32
 &
 foundBreaks
 )
@@ -326,7 +331,7 @@ int32_t
 rangeStart
 int32_t
 rangeEnd
-UStack
+UVector32
 &
 foundBreaks
 )
@@ -389,7 +394,7 @@ int32_t
 rangeStart
 int32_t
 rangeEnd
-UStack
+UVector32
 &
 foundBreaks
 )
@@ -470,7 +475,7 @@ int32_t
 rangeStart
 int32_t
 rangeEnd
-UStack
+UVector32
 &
 foundBreaks
 )

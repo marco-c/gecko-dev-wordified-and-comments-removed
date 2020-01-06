@@ -1169,6 +1169,11 @@ CollationDataReader
 IX_JAMO_CE32S_START
 ]
 =
+static_cast
+<
+int32_t
+>
+(
 data
 .
 jamoCE32s
@@ -1176,6 +1181,7 @@ jamoCE32s
 data
 .
 ce32s
+)
 ;
 }
 else

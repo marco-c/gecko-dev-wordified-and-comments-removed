@@ -64,14 +64,6 @@ XAG
 }
 CurrencyPlurals
 {
-AWG
-{
-other
-{
-"
-"
-}
-}
 KYD
 {
 other
@@ -110,9 +102,9 @@ Version
 .
 1
 .
-31
+37
 .
-33
+6
 "
 }
 }

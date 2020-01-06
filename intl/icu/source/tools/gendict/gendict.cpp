@@ -1852,10 +1852,9 @@ UTF
 8
 "
 ;
-UCHARBUF
-*
+LocalUCHARBUFPointer
 f
-=
+(
 ucbuf_open
 (
 wordFileName
@@ -1864,6 +1863,7 @@ codepage
 TRUE
 FALSE
 status
+)
 )
 ;
 if
@@ -2083,6 +2083,10 @@ while
 readLine
 (
 f
+.
+getAlias
+(
+)
 fileLine
 status
 )

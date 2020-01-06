@@ -42,9 +42,9 @@ Version
 .
 1
 .
-31
+37
 .
-86
+6
 "
 }
 zoneStrings
@@ -1260,7 +1260,7 @@ ls
 Hora
 padr
 o
-do
+de
 Chamorro
 "
 }
@@ -1278,7 +1278,7 @@ Hora
 de
 ver
 o
-do
+de
 Chatham
 "
 }
@@ -1286,7 +1286,7 @@ lg
 {
 "
 Hora
-do
+de
 Chatham
 "
 }
@@ -1296,7 +1296,7 @@ ls
 Hora
 padr
 o
-do
+de
 Chatham
 "
 }
@@ -3361,7 +3361,7 @@ ls
 "
 Hora
 de
-Niue
+Niu
 "
 }
 }

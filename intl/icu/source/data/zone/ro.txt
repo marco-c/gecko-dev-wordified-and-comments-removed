@@ -42,9 +42,9 @@ Version
 .
 1
 .
-32
+37
 .
-60
+5
 "
 }
 zoneStrings
@@ -3980,7 +3980,7 @@ Ora
 de
 var
 din
-Yaku
+Iaku
 k
 "
 }
@@ -3989,7 +3989,7 @@ lg
 "
 Ora
 din
-Yaku
+Iaku
 k
 "
 }
@@ -3999,7 +3999,7 @@ ls
 Ora
 standard
 din
-Yaku
+Iaku
 k
 "
 }

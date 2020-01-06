@@ -42,9 +42,9 @@ Version
 .
 1
 .
-31
+37
 .
-74
+5
 "
 }
 zoneStrings
@@ -1077,7 +1077,8 @@ ld
 {
 "
 houa
-fakapengil
+fakap
+ngil
 tesi
 taimi
 liliu
@@ -1087,7 +1088,8 @@ lg
 {
 "
 houa
-fakapengil
+fakap
+ngil
 tesi
 "
 }
@@ -1095,7 +1097,8 @@ ls
 {
 "
 houa
-fakapengil
+fakap
+ngil
 tesi
 taimi
 totonu

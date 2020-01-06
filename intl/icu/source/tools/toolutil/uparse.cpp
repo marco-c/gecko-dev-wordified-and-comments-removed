@@ -300,7 +300,7 @@ file
 char
 line
 [
-300
+10000
 ]
 ;
 char

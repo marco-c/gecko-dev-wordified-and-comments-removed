@@ -89,12 +89,14 @@ MAX_EVICT_ITERATIONS
 10
 ;
 static
+const
 int32_t
 DEFAULT_MAX_UNUSED
 =
 1000
 ;
 static
+const
 int32_t
 DEFAULT_PERCENTAGE_OF_IN_USE
 =
