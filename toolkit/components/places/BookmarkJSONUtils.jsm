@@ -354,6 +354,7 @@ notifyObservers
 PlacesUtils
 .
 TOPIC_BOOKMARKS_RESTORE_BEGIN
+aReplace
 )
 ;
 try
@@ -380,6 +381,7 @@ notifyObservers
 PlacesUtils
 .
 TOPIC_BOOKMARKS_RESTORE_SUCCESS
+aReplace
 )
 ;
 }
@@ -414,6 +416,7 @@ notifyObservers
 PlacesUtils
 .
 TOPIC_BOOKMARKS_RESTORE_FAILED
+aReplace
 )
 ;
 }
@@ -508,6 +511,7 @@ notifyObservers
 PlacesUtils
 .
 TOPIC_BOOKMARKS_RESTORE_BEGIN
+aReplace
 )
 ;
 try
@@ -594,6 +598,7 @@ notifyObservers
 PlacesUtils
 .
 TOPIC_BOOKMARKS_RESTORE_SUCCESS
+aReplace
 )
 ;
 }
@@ -628,6 +633,7 @@ notifyObservers
 PlacesUtils
 .
 TOPIC_BOOKMARKS_RESTORE_FAILED
+aReplace
 )
 ;
 throw
@@ -1575,6 +1581,7 @@ function
 notifyObservers
 (
 topic
+replace
 )
 {
 Services
@@ -1585,8 +1592,16 @@ notifyObservers
 (
 null
 topic
+replace
+?
 "
 json
+"
+:
+"
+json
+-
+append
 "
 )
 ;
