@@ -1686,9 +1686,12 @@ nsAutoScrollTimer
 >
 mAutoScrollTimer
 ;
-nsCOMArray
+FallibleTArray
+<
+nsCOMPtr
 <
 nsISelectionListener
+>
 >
 mSelectionListeners
 ;
