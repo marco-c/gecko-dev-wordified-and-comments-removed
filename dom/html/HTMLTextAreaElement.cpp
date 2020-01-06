@@ -1971,7 +1971,10 @@ aData
 SetKeywordValue
 (
 eCSSProperty_white_space
-NS_STYLE_WHITESPACE_PRE
+StyleWhiteSpace
+:
+:
+Pre
 )
 ;
 }

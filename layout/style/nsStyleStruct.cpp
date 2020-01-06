@@ -17667,7 +17667,10 @@ NS_STYLE_TEXT_TRANSFORM_NONE
 )
 mWhiteSpace
 (
-NS_STYLE_WHITESPACE_NORMAL
+StyleWhiteSpace
+:
+:
+Normal
 )
 mWordBreak
 (

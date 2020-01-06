@@ -7315,6 +7315,12 @@ StyleGeometryBox
 BorderBox
 ViewBox
 )
+DEFINE_ENUM_CLASS_SETTER
+(
+StyleWhiteSpace
+Normal
+PreSpace
+)
 #
 ifdef
 MOZ_XUL
@@ -23550,7 +23556,10 @@ parentText
 -
 >
 mWhiteSpace
-NS_STYLE_WHITESPACE_NORMAL
+StyleWhiteSpace
+:
+:
+Normal
 )
 ;
 SetValue

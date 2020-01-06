@@ -214,7 +214,10 @@ aData
 SetKeywordValue
 (
 eCSSProperty_white_space
-NS_STYLE_WHITESPACE_PRE_WRAP
+StyleWhiteSpace
+:
+:
+PreWrap
 )
 ;
 }
