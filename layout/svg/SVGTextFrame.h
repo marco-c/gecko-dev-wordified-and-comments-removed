@@ -517,6 +517,16 @@ gfx
 Point
 Point
 ;
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
 protected
 :
 explicit
