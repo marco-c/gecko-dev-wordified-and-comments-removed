@@ -630,6 +630,7 @@ boxDouble
 (
 reg
 out
+reg
 )
 ;
 }

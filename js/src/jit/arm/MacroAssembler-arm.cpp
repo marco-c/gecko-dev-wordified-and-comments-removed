@@ -15576,6 +15576,7 @@ const
 ValueOperand
 &
 dest
+FloatRegister
 )
 {
 as_vxfer

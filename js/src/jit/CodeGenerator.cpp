@@ -21222,6 +21222,7 @@ boxDouble
 (
 temp
 out
+temp
 )
 ;
 masm

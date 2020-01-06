@@ -4478,6 +4478,7 @@ const
 ValueOperand
 &
 dest
+FloatRegister
 )
 {
 vmovq

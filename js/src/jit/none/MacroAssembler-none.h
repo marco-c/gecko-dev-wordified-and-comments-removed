@@ -4088,6 +4088,7 @@ boxDouble
 (
 FloatRegister
 ValueOperand
+FloatRegister
 )
 {
 MOZ_CRASH

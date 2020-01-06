@@ -2445,6 +2445,7 @@ boxDouble
 (
 ScratchDoubleReg
 dest
+ScratchDoubleReg
 )
 ;
 }
@@ -2510,6 +2511,7 @@ boxDouble
 (
 ScratchDoubleReg
 dest
+ScratchDoubleReg
 )
 ;
 break
@@ -2540,6 +2542,7 @@ boxDouble
 (
 ScratchDoubleReg
 dest
+ScratchDoubleReg
 )
 ;
 break
@@ -10816,6 +10819,7 @@ boxDouble
 (
 ScratchDoubleReg
 val
+ScratchDoubleReg
 )
 ;
 bind
