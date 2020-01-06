@@ -56,8 +56,6 @@ PhantomData
 ;
 use
 {
-AuxiliaryLists
-AuxiliaryListsDescriptor
 BuiltDisplayList
 BuiltDisplayListDescriptor
 }
@@ -203,7 +201,6 @@ Epoch
 PipelineId
 LayoutSize
 BuiltDisplayListDescriptor
-AuxiliaryListsDescriptor
 bool
 )
 SetPageZoom
@@ -1751,13 +1748,11 @@ LayoutSize
 (
 pipeline_id
 display_list
-auxiliary_lists
 )
 :
 (
 PipelineId
 BuiltDisplayList
-AuxiliaryLists
 )
 preserve_frame_state
 :
@@ -1777,18 +1772,6 @@ into_data
 )
 ;
 let
-(
-aux_data
-aux_desc
-)
-=
-auxiliary_lists
-.
-into_data
-(
-)
-;
-let
 msg
 =
 ApiMsg
@@ -1801,7 +1784,6 @@ epoch
 pipeline_id
 viewport_size
 dl_desc
-aux_desc
 preserve_frame_state
 )
 ;
@@ -1835,9 +1817,6 @@ pipeline_id
 display_list_data
 :
 dl_data
-auxiliary_lists_data
-:
-aux_data
 }
 )
 .

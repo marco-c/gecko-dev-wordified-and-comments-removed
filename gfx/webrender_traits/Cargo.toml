@@ -96,6 +96,17 @@ app_units
 .
 4
 "
+bincode
+=
+"
+1
+.
+0
+.
+0
+-
+alpha2
+"
 byteorder
 =
 "

@@ -83,6 +83,9 @@ pub
 complex
 :
 ItemRange
+<
+ComplexClip
+>
 pub
 image_mask
 :

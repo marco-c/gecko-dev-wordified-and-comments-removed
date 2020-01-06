@@ -183,7 +183,7 @@ webrender_traits
 :
 :
 {
-AuxiliaryLists
+BuiltDisplayList
 ClipAndScrollInfo
 ClipId
 ColorF
@@ -259,12 +259,12 @@ usize
 ;
 pub
 type
-AuxiliaryListsMap
+DisplayListMap
 =
 HashMap
 <
 PipelineId
-AuxiliaryLists
+BuiltDisplayList
 BuildHasherDefault
 <
 FnvHasher
