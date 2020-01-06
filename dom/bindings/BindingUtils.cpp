@@ -5317,7 +5317,6 @@ XPCConvert
 NativeInterface2JSObject
 (
 aRetval
-nullptr
 aHelper
 aIID
 aAllowNativeWrapper
