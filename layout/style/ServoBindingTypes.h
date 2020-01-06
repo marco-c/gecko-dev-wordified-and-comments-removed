@@ -237,16 +237,6 @@ ComputedKeyframeValues
 RawGeckoComputedKeyframeValuesList
 ;
 typedef
-nsTArray
-<
-mozilla
-:
-:
-PropertyStyleAnimationValuePair
->
-RawGeckoAnimationValueList
-;
-typedef
 nsStyleAutoArray
 <
 mozilla
@@ -557,10 +547,6 @@ RawGeckoPresContext
 DECL_BORROWED_REF_TYPE_FOR
 (
 RawGeckoPresContext
-)
-DECL_BORROWED_MUT_REF_TYPE_FOR
-(
-RawGeckoAnimationValueList
 )
 DECL_BORROWED_MUT_REF_TYPE_FOR
 (

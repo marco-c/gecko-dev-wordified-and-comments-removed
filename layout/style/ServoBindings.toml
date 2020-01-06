@@ -2138,9 +2138,6 @@ RawGeckoFontFaceRuleList
 RawGeckoNode
 "
 "
-RawGeckoAnimationValueList
-"
-"
 RawServoAnimationValue
 "
 "
@@ -2578,9 +2575,6 @@ nsTimingFunction
 "
 "
 RawGeckoAnimationPropertySegment
-"
-"
-RawGeckoAnimationValueList
 "
 "
 RawGeckoComputedTiming
