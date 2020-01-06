@@ -215,6 +215,16 @@ install_rust_panic_hook
 (
 )
 {
+let
+default_hook
+=
+panic
+:
+:
+take_hook
+(
+)
+;
 panic
 :
 :
@@ -225,6 +235,7 @@ Box
 :
 new
 (
+move
 |
 info
 |
@@ -337,6 +348,11 @@ payload
 )
 ;
 }
+default_hook
+(
+info
+)
+;
 }
 )
 )
