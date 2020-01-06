@@ -6064,6 +6064,12 @@ border
 color
 )
 ;
+border
+-
+radius
+:
+2px
+;
 color
 :
 var
@@ -6290,6 +6296,12 @@ border
 -
 color
 )
+;
+border
+-
+radius
+:
+2px
 ;
 background
 -
