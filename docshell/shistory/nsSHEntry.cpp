@@ -3623,7 +3623,7 @@ do_GetWeakReference
 aSHistory
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mShared
