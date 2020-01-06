@@ -131,8 +131,6 @@ wait
 ProcessHandle
 *
 process_handle
-ProcessArchitecture
-arch
 )
 {
 bool

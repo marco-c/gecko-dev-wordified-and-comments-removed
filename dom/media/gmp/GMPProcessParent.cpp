@@ -107,12 +107,6 @@ ipc
 :
 GeckoChildProcessHost
 ;
-using
-base
-:
-:
-ProcessArchitecture
-;
 namespace
 mozilla
 {
@@ -411,12 +405,6 @@ SyncLaunch
 (
 args
 aTimeoutMs
-base
-:
-:
-GetCurrentProcessArchitecture
-(
-)
 )
 ;
 }
