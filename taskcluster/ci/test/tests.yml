@@ -2238,6 +2238,16 @@ test
 -
 platform
 :
+windows
+.
+*
+:
+-
+marionette
+/
+windows_taskcluster_config
+.
+py
 macosx
 .
 *
