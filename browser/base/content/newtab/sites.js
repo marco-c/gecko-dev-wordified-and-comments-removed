@@ -712,6 +712,13 @@ link
 imageURI
 )
 {
+const
+{
+unloadingPromise
+}
+=
+gPage
+;
 BackgroundPageThumbs
 .
 captureIfMissing
@@ -719,6 +726,9 @@ captureIfMissing
 this
 .
 url
+{
+unloadingPromise
+}
 )
 ;
 }
