@@ -4394,7 +4394,7 @@ LayersAllowBorderLayers
 gfxPrefs
 :
 :
-OverrideBase_WebRender
+OverrideBase_WebRendest
 (
 )
 )
