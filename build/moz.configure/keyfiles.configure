@@ -522,13 +522,9 @@ s_CLIENTID
 '
 %
 name
-delayed_getattr
-(
 content
-'
+.
 id
-'
-)
 )
 set_config
 (
@@ -539,11 +535,7 @@ s_KEY
 '
 %
 name
-delayed_getattr
-(
 content
-'
+.
 secret
-'
-)
 )

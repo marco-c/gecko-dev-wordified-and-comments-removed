@@ -1202,13 +1202,9 @@ add_old_configure_assignment
 '
 WINDOWSSDKDIR
 '
-delayed_getattr
-(
 valid_windows_sdk_dir
-'
+.
 path
-'
-)
 )
 add_old_configure_assignment
 (
