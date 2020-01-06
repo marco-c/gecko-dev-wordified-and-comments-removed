@@ -293,6 +293,18 @@ Screenshot
 "
 }
 "
+emptySelectionErrorTitle
+"
+:
+{
+"
+message
+"
+:
+"
+"
+}
+"
 genericErrorTitle
 "
 :
@@ -385,7 +397,6 @@ message
 :
 "
 .
-.
 "
 }
 "
@@ -410,6 +421,7 @@ message
 "
 :
 "
+.
 .
 "
 }

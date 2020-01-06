@@ -24,14 +24,10 @@ registeredFunctions
 {
 }
 ;
-browser
-.
-runtime
+exports
 .
 onMessage
-.
-addListener
-(
+=
 catcher
 .
 watchFunction
@@ -348,7 +344,6 @@ result
 )
 ;
 }
-)
 )
 ;
 exports

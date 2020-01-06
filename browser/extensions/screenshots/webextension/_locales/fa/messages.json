@@ -288,6 +288,18 @@ message
 "
 }
 "
+emptySelectionErrorTitle
+"
+:
+{
+"
+message
+"
+:
+"
+"
+}
+"
 genericErrorTitle
 "
 :
@@ -376,7 +388,6 @@ message
 :
 "
 .
-.
 "
 }
 "
@@ -401,6 +412,7 @@ message
 "
 :
 "
+.
 .
 "
 }

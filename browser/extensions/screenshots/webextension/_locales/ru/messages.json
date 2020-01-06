@@ -293,6 +293,18 @@ Firefox
 "
 }
 "
+emptySelectionErrorTitle
+"
+:
+{
+"
+message
+"
+:
+"
+"
+}
+"
 genericErrorTitle
 "
 :
@@ -384,7 +396,6 @@ message
 :
 "
 .
-.
 "
 }
 "
@@ -409,6 +420,7 @@ message
 "
 :
 "
+.
 .
 "
 }
