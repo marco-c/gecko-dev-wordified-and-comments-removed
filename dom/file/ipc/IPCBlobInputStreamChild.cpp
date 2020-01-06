@@ -661,7 +661,7 @@ mState
 }
 already_AddRefed
 <
-nsIInputStream
+IPCBlobInputStream
 >
 IPCBlobInputStreamChild
 :
