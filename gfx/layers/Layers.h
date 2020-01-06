@@ -1011,6 +1011,16 @@ AreComponentAlphaLayersEnabled
 )
 ;
 virtual
+bool
+BlendingRequiresIntermediateSurface
+(
+)
+{
+return
+false
+;
+}
+virtual
 void
 SetRoot
 (
