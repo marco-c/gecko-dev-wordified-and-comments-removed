@@ -3239,6 +3239,9 @@ reftest_screenshot
 unexpected
 "
                  
+group_metadata
+=
+None
 *
 *
 kwargs
@@ -3346,6 +3349,12 @@ original_pref_values
 =
 {
 }
+        
+self
+.
+group_metadata
+=
+group_metadata
         
 with
 open
@@ -3877,7 +3886,7 @@ self
 .
 executor
 .
-queue_metadata
+group_metadata
 is
 not
 None
@@ -3922,7 +3931,7 @@ self
 .
 executor
 .
-queue_metadata
+group_metadata
 .
 get
 (
