@@ -450,11 +450,11 @@ const
 ;
 MediaEventSourceExc
 <
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >
-nsAutoPtr
+UniquePtr
 <
 MetadataTags
 >
@@ -1654,11 +1654,11 @@ mOnMediaNotSeekable
 ;
 MediaEventProducerExc
 <
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >
-nsAutoPtr
+UniquePtr
 <
 MetadataTags
 >
