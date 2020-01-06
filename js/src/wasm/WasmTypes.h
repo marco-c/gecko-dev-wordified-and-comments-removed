@@ -5677,6 +5677,7 @@ BuiltinInstanceMethod
 ;
 private
 :
+MOZ_INIT_OUTSIDE_CTOR
 Which
 which_
 ;
