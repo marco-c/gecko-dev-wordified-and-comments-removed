@@ -115,11 +115,6 @@ JS
 :
 MutableHandleScript
 script
-JS
-:
-:
-MutableHandleFunction
-function
 )
 ;
 nsresult
