@@ -1418,6 +1418,18 @@ style
 values
 :
 :
+animated
+:
+:
+ToAnimatedZero
+;
+use
+style
+:
+:
+values
+:
+:
 computed
 :
 :
@@ -2815,7 +2827,7 @@ zero_value
 =
 value_to_match
 .
-get_zero_value
+to_animated_zero
 (
 )
 {
