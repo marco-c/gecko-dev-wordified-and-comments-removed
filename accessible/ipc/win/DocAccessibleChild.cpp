@@ -78,13 +78,13 @@ DocAccessibleChildBase
 (
 aDoc
 )
-mEmulatedWindowHandle
-(
-nullptr
-)
 mIsRemoteConstructed
 (
 false
+)
+mEmulatedWindowHandle
+(
+nullptr
 )
 {
 MOZ_COUNT_CTOR_INHERITED
