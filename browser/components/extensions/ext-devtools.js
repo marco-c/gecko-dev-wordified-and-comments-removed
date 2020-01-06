@@ -186,7 +186,7 @@ devToolsTarget
 =
 DevToolsShim
 .
-getTargetForTab
+createTargetForTab
 (
 tab
 )

@@ -876,6 +876,9 @@ webExtensionsMethods
 =
 [
 "
+createTargetForTab
+"
+"
 createWebExtensionInspectedWindowFront
 "
 "
