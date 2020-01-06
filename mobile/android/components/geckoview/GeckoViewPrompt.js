@@ -893,6 +893,13 @@ choices
 if
 (
 elem
+&
+&
+elem
+instanceof
+win
+.
+HTMLOptionElement
 )
 {
 dispatchEvents
@@ -978,9 +985,17 @@ i
 if
 (
 elem
+instanceof
+win
+.
+HTMLOptionElement
+&
+&
+elem
 .
 selected
 !
+=
 =
 (
 index
@@ -1003,6 +1018,7 @@ elem
 .
 selected
 ;
+}
 result
 .
 choices
@@ -1012,7 +1028,6 @@ index
 =
 undefined
 ;
-}
 }
 for
 (
@@ -1077,7 +1092,7 @@ result
 .
 choices
 [
-0
+i
 ]
 )
 ;
