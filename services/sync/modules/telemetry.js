@@ -542,6 +542,12 @@ extension
 -
 storage
 "
+"
+addresses
+"
+"
+creditcards
+"
 ]
 )
 ;
