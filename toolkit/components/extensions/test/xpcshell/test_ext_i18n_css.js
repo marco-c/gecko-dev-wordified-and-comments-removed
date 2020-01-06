@@ -798,6 +798,11 @@ scope
 "
 )
 ;
+if
+(
+false
+)
+{
 const
 LOCALE
 =
@@ -913,6 +918,7 @@ reset
 DIR_LEGACY
 )
 ;
+}
 await
 extension
 .
