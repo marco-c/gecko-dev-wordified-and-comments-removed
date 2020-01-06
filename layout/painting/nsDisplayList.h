@@ -4596,9 +4596,6 @@ bool
 mSelectedFramesOnly
 ;
 bool
-mAccurateVisibleRegions
-;
-bool
 mAllowMergingAndFlattening
 ;
 bool
@@ -18596,6 +18593,14 @@ aFrame
 nsDisplayItem
 (
 aFrame
+)
+mVisIStartEdge
+(
+0
+)
+mVisIEndEdge
+(
+0
 )
 {
 }
