@@ -276,15 +276,6 @@ ImageContainer
 >
 mImageContainer
 ;
-RefPtr
-<
-layers
-:
-:
-KnowsCompositor
->
-mImageAllocator
-;
 const
 RefPtr
 <

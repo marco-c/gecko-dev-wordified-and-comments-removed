@@ -396,12 +396,6 @@ aParams
 .
 mImageContainer
 )
-mImageAllocator
-(
-aParams
-.
-mKnowsCompositor
-)
 mTaskQueue
 (
 aParams
@@ -1389,7 +1383,6 @@ img
 >
 d_h
 )
-mImageAllocator
 )
 ;
 }
