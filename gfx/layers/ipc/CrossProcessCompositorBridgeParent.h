@@ -981,12 +981,6 @@ CrossProcessCompositorBridgeParent
 >
 mSelfRef
 ;
-RefPtr
-<
-CompositorThreadHolder
->
-mCompositorThreadHolder
-;
 bool
 mNotifyAfterRemotePaint
 ;
