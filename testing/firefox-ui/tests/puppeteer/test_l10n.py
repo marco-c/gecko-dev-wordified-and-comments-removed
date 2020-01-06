@@ -75,11 +75,11 @@ chrome
 :
 /
 /
-global
+branding
 /
 locale
 /
-about
+brand
 .
 dtd
 '
@@ -178,11 +178,11 @@ chrome
 :
 /
 /
-global
+branding
 /
 locale
 /
-about
+brand
 .
 dtd
 '
