@@ -6924,7 +6924,9 @@ defaultLeakThreshold
 tab
 "
 :
-3000
+options
+.
+defaultLeakThreshold
             
 "
 geckomediaplugin
@@ -6933,6 +6935,23 @@ geckomediaplugin
 20000
         
 }
+        
+if
+mozinfo
+.
+isWin
+:
+            
+options
+.
+leakThresholds
+[
+"
+tab
+"
+]
+=
+1000
         
 if
 options
