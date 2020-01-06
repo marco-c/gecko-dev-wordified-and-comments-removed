@@ -6749,6 +6749,9 @@ name
 *
 mut
 nsIAtom
+pres_context
+:
+RawGeckoPresContextBorrowed
 )
 ;
 }
