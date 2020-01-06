@@ -5219,6 +5219,16 @@ afterModify
 ;
 }
 else
+if
+(
+kind
+!
+=
+=
+"
+onError
+"
+)
 {
 this
 .
