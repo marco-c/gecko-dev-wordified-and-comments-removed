@@ -4652,6 +4652,10 @@ true
 }
 if
 (
+!
+aForceNoOpener
+&
+&
 subjectPrincipal
 &
 &
