@@ -115,11 +115,6 @@ MS
 16
 ;
 var
-gTc
-=
-0
-;
-var
 TITLE
 =
 "
