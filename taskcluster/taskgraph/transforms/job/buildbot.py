@@ -151,16 +151,6 @@ product
 '
 ]
     
-worker
-.
-pop
-(
-'
-env
-'
-None
-)
-    
 buildername
 =
 run
