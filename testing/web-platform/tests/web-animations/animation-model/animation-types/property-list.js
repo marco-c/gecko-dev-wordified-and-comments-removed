@@ -2471,6 +2471,9 @@ stretch
 types
 :
 [
+'
+fontStretch
+'
 ]
 }
 '
