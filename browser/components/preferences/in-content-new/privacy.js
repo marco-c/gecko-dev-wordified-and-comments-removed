@@ -1729,7 +1729,7 @@ bundlePrefs
 getString
 (
 "
-notificationspermissionstitle
+notificationspermissionstitle2
 "
 )
 bundlePrefs
@@ -1737,7 +1737,7 @@ bundlePrefs
 getString
 (
 "
-notificationspermissionstext4
+notificationspermissionstext5
 "
 )
 ]
@@ -4077,7 +4077,7 @@ bundlePreferences
 getString
 (
 "
-notificationspermissionstitle
+notificationspermissionstitle2
 "
 )
 ;
@@ -4090,7 +4090,7 @@ bundlePreferences
 getString
 (
 "
-notificationspermissionstext4
+notificationspermissionstext5
 "
 )
 ;
@@ -4109,7 +4109,7 @@ content
 /
 preferences
 /
-permissions
+sitePermissions
 .
 xul
 "
