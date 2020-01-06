@@ -65,6 +65,13 @@ HTTP_OK_CODE
 =
 200
 ;
+static
+const
+uint32_t
+HTTP_REQUESTED_RANGE_NOT_SATISFIABLE_CODE
+=
+416
+;
 mozilla
 :
 :

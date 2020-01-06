@@ -167,13 +167,6 @@ SEEK_VS_READ_THRESHOLD
 *
 1024
 ;
-static
-const
-uint32_t
-HTTP_REQUESTED_RANGE_NOT_SATISFIABLE_CODE
-=
-416
-;
 class
 nsIHttpChannel
 ;
