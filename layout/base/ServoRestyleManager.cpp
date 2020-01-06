@@ -355,7 +355,10 @@ IsBulletFrame
 )
 {
 return
+FirstContinuationOrPartOfIBSplit
+(
 parent
+)
 ;
 }
 if
