@@ -211,7 +211,7 @@ promiseShown
 await
 clickDoorhangerButton
 (
-MAIN_BUTTON_INDEX
+MAIN_BUTTON
 )
 ;
 }
@@ -464,7 +464,7 @@ promiseShown
 await
 clickDoorhangerButton
 (
-SECONDARY_BUTTON_INDEX
+SECONDARY_BUTTON
 )
 ;
 }
@@ -703,7 +703,7 @@ promiseShown
 await
 clickDoorhangerButton
 (
-SECONDARY_BUTTON_INDEX
+SECONDARY_BUTTON
 )
 ;
 }
@@ -971,7 +971,7 @@ promiseShown
 await
 clickDoorhangerButton
 (
-MAIN_BUTTON_INDEX
+MAIN_BUTTON
 )
 ;
 }
