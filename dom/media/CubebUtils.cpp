@@ -165,13 +165,13 @@ cubeb_latency_msg_frames
 "
 #
 define
-PREF_CUBEB_LOG_LEVEL
+PREF_CUBEB_LOGGING_LEVEL
 "
 media
 .
 cubeb
 .
-log_level
+logging_level
 "
 #
 define
@@ -933,7 +933,7 @@ if
 strcmp
 (
 aPref
-PREF_CUBEB_LOG_LEVEL
+PREF_CUBEB_LOGGING_LEVEL
 )
 =
 =
@@ -2124,10 +2124,10 @@ PREF_CUBEB_BACKEND
 Preferences
 :
 :
-RegisterCallbackAndCall
+RegisterCallback
 (
 PrefChanged
-PREF_CUBEB_LOG_LEVEL
+PREF_CUBEB_LOGGING_LEVEL
 )
 ;
 #
@@ -2206,7 +2206,7 @@ Preferences
 UnregisterCallback
 (
 PrefChanged
-PREF_CUBEB_LOG_LEVEL
+PREF_CUBEB_LOGGING_LEVEL
 )
 ;
 StaticMutexAutoLock
