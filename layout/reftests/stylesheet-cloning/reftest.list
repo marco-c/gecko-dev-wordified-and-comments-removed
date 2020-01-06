@@ -80,12 +80,6 @@ shouldbegreen
 ref
 .
 html
-skip
--
-if
-(
-stylo
-)
 =
 =
 supports
@@ -100,6 +94,3 @@ shouldbegreen
 ref
 .
 html
-#
-bug
-1367610
