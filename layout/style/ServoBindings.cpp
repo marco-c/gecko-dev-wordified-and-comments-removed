@@ -1399,6 +1399,9 @@ nsStyleContext
 aOldStyleContext
 ServoComputedValuesBorrowed
 aComputedValues
+bool
+*
+aAnyStyleChanged
 )
 {
 MOZ_ASSERT
@@ -1429,6 +1432,14 @@ equalStructs
 &
 samePointerStructs
 )
+;
+*
+aAnyStyleChanged
+=
+equalStructs
+!
+=
+NS_STYLE_INHERIT_MASK
 ;
 return
 result
