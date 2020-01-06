@@ -3238,6 +3238,9 @@ svg
 )
 ;
 }
+%
+ifdef
+MOZ_PHOTON_ANIMATIONS
 keyframes
 library
 -
@@ -3741,3 +3744,5 @@ ease
 out
 ;
 }
+%
+endif

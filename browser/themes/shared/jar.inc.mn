@@ -2829,6 +2829,9 @@ bookmark
 .
 svg
 )
+#
+ifdef
+MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -2854,6 +2857,8 @@ animation
 .
 svg
 )
+#
+endif
 skin
 /
 classic
@@ -3521,6 +3526,9 @@ library
 .
 svg
 )
+#
+ifdef
+MOZ_PHOTON_ANIMATIONS
 skin
 /
 classic
@@ -3550,6 +3558,8 @@ animation
 .
 svg
 )
+#
+endif
 #
 ifdef
 MOZ_PHOTON_THEME
