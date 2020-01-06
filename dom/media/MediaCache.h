@@ -661,6 +661,10 @@ nsIPrincipal
 aPrincipal
 )
 ;
+MediaCache
+*
+mMediaCache
+;
 ChannelMediaResource
 *
 mClient
