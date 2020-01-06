@@ -729,6 +729,11 @@ uint32_t
 aWriteCount
 )
 ;
+bool
+mClosed
+=
+false
+;
 RefPtr
 <
 Listener
