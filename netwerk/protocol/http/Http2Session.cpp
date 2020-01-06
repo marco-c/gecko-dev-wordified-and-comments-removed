@@ -23015,16 +23015,5 @@ return
 joinedReturn
 ;
 }
-void
-Http2Session
-:
-:
-ThrottleResponse
-(
-bool
-aThrottle
-)
-{
-}
 }
 }

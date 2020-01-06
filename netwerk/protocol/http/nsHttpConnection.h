@@ -774,13 +774,6 @@ port
 )
 ;
 void
-ThrottleResponse
-(
-bool
-aThrottle
-)
-;
-void
 SetFastOpenStatus
 (
 uint8_t
@@ -1198,12 +1191,6 @@ mEarlyNegotiatedALPN
 ;
 bool
 mDid0RTTSpdy
-;
-bool
-mResponseThrottled
-;
-bool
-mResumeRecvOnUnthrottle
 ;
 bool
 mFastOpen

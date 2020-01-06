@@ -650,11 +650,6 @@ nsIThrottledInputChannel
 idl
 '
 '
-nsIThrottlingService
-.
-idl
-'
-'
 nsITimedChannel
 .
 idl
@@ -1265,11 +1260,6 @@ cpp
 '
 '
 ThrottleQueue
-.
-cpp
-'
-'
-ThrottlingService
 .
 cpp
 '

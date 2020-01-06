@@ -98,9 +98,6 @@ nsISiteSecurityService
 class
 nsIStreamConverterService
 ;
-class
-nsIThrottlingService
-;
 namespace
 mozilla
 {
@@ -1116,12 +1113,6 @@ GetSSService
 (
 )
 ;
-nsIThrottlingService
-*
-GetThrottlingService
-(
-)
-;
 uint32_t
 Get32BitsOfPseudoRandom
 (
@@ -1444,12 +1435,6 @@ nsMainThreadPtrHandle
 nsISiteSecurityService
 >
 mSSService
-;
-nsMainThreadPtrHandle
-<
-nsIThrottlingService
->
-mThrottlingService
 ;
 nsHttpAuthCache
 mAuthCache
