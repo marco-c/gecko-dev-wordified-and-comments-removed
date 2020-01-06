@@ -694,12 +694,10 @@ bool
 mChannelEnded
 ;
 int64_t
-mStreamLength
+mChannelOffset
 ;
 int64_t
-mChannelOffset
-=
-0
+mStreamLength
 ;
 int64_t
 mStreamOffset
