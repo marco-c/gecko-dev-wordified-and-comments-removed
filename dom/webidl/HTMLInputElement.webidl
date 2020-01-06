@@ -621,7 +621,7 @@ ValidityState
 validity
 ;
 [
-GetterThrows
+Throws
 ]
 readonly
 attribute

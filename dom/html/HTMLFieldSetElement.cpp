@@ -214,10 +214,6 @@ HTMLFieldSetElement
 Name
 name
 )
-NS_IMPL_NSICONSTRAINTVALIDATION
-(
-HTMLFieldSetElement
-)
 bool
 HTMLFieldSetElement
 :

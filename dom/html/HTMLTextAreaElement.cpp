@@ -573,10 +573,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
-(
-HTMLTextAreaElement
-)
 NS_IMETHODIMP
 HTMLTextAreaElement
 :
@@ -4399,7 +4395,7 @@ IsEmpty
 )
 ;
 }
-NS_IMETHODIMP
+void
 HTMLTextAreaElement
 :
 :
@@ -4423,9 +4419,6 @@ UpdateState
 (
 true
 )
-;
-return
-NS_OK
 ;
 }
 bool

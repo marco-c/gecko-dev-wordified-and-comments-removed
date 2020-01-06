@@ -377,6 +377,9 @@ attribute
 ValidityState
 validity
 ;
+[
+Throws
+]
 readonly
 attribute
 DOMString
