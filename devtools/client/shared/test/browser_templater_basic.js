@@ -27,7 +27,7 @@ TEST_URI
 TEST_URI_ROOT
 +
 "
-browser_templater_basic
+doc_templater_basic
 .
 html
 "

@@ -27,7 +27,7 @@ TEST_URI
 TEST_URI_ROOT
 +
 "
-browser_layoutHelpers
+doc_layoutHelpers
 -
 getBoxQuads
 .

@@ -63,7 +63,7 @@ TEST_URI
 TEST_URI_ROOT
 +
 "
-browser_toolbar_webconsole_errors_count
+doc_toolbar_webconsole_errors_count
 .
 html
 "

@@ -161,9 +161,7 @@ const
 SYNTAX_OLD_STYLE
 =
 "
-html
--
-mdn
+doc_mdn
 -
 css
 -
@@ -180,9 +178,7 @@ const
 NO_SUMMARY
 =
 "
-html
--
-mdn
+doc_mdn
 -
 css
 -
@@ -197,9 +193,7 @@ const
 NO_SYNTAX
 =
 "
-html
--
-mdn
+doc_mdn
 -
 css
 -
@@ -214,9 +208,7 @@ const
 NO_SUMMARY_OR_SYNTAX
 =
 "
-html
--
-mdn
+doc_mdn
 -
 css
 -

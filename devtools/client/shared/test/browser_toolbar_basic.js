@@ -9,7 +9,7 @@ TEST_URI
 TEST_URI_ROOT
 +
 "
-browser_toolbar_basic
+doc_toolbar_basic
 .
 html
 "
