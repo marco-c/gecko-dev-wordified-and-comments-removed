@@ -3,9 +3,14 @@ website
 -
 name
 {
-padding
+-
+moz
+-
+box
+-
+align
 :
-5px
+center
 ;
 }
 #
