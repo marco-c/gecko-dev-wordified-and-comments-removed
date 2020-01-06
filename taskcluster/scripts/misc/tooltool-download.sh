@@ -185,6 +185,10 @@ v
 {
 TOOLTOOL_DL_FLAGS
 }
+{
+TOOLTOOL_MANIFEST
+:
++
 -
 -
 tooltool
@@ -195,6 +199,7 @@ manifest
 TOOLTOOL_MANIFEST
 }
 "
+}
 {
 TOOLTOOL_CACHE
 :
