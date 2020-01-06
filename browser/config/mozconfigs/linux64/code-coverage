@@ -39,12 +39,6 @@ ac_add_options
 -
 disable
 -
-crashreporter
-ac_add_options
--
--
-disable
--
 elf
 -
 hack
