@@ -259,6 +259,9 @@ partial
 interface
 Response
 {
+[
+GetterThrows
+]
 readonly
 attribute
 ReadableStream

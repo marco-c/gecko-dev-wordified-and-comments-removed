@@ -233,6 +233,11 @@ FetchSignal
 cpp
 '
 '
+FetchStream
+.
+cpp
+'
+'
 FetchUtil
 .
 cpp
