@@ -259,7 +259,7 @@ IpcResourceUpdateQueue
 aResources
 )
 ;
-bool
+void
 BeginTransaction
 (
 )

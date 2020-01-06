@@ -874,9 +874,6 @@ Now
 (
 )
 ;
-if
-(
-!
 WrBridge
 (
 )
@@ -885,11 +882,7 @@ WrBridge
 BeginTransaction
 (
 )
-)
-{
-return
 ;
-}
 DiscardCompositorAnimations
 (
 )
