@@ -1197,6 +1197,15 @@ return
 mLastCompositionEndTime
 ;
 }
+void
+UnlockAfterComposition
+(
+TextureHost
+*
+aTexture
+)
+override
+;
 bool
 NotifyNotUsedAfterComposition
 (
