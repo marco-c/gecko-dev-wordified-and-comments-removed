@@ -564,9 +564,8 @@ gecko
 "
 boxed
 =
-"
-True
-"
+not
+RUSTC_HAS_PR45225
 animation_value_type
 =
 "
@@ -922,9 +921,8 @@ gecko
 "
 boxed
 =
-"
-True
-"
+not
+RUSTC_HAS_PR45225
 animation_value_type
 =
 "

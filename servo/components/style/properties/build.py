@@ -258,6 +258,19 @@ properties
 __file__
 =
 template
+                  
+RUSTC_HAS_PR45225
+=
+os
+.
+environ
+.
+get
+(
+"
+RUSTC_HAS_PR45225
+"
+)
 )
     
 if
