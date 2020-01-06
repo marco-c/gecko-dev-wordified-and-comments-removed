@@ -211,6 +211,12 @@ PImageBridgeParent
 aEndpoint
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 virtual
 ShmemAllocator
 *
@@ -587,6 +593,12 @@ aEndpoint
 ;
 private
 :
+static
+void
+ShutdownInternal
+(
+)
+;
 void
 DeferredDestroy
 (

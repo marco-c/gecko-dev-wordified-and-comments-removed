@@ -76,11 +76,6 @@ sFinishedCompositorShutDown
 =
 false
 ;
-void
-ReleaseImageBridgeParentSingleton
-(
-)
-;
 CompositorThreadHolder
 *
 GetCompositorThreadHolder
@@ -466,7 +461,10 @@ down
 "
 )
 ;
-ReleaseImageBridgeParentSingleton
+ImageBridgeParent
+:
+:
+Shutdown
 (
 )
 ;
