@@ -340,6 +340,9 @@ shadow
 :
 none
 ;
+%
+ifndef
+MOZ_PHOTON_THEME
 -
 -
 pinned
@@ -389,6 +392,8 @@ transparent
 %
 )
 ;
+%
+endif
 -
 -
 url
@@ -975,6 +980,9 @@ shadow
 :
 none
 ;
+%
+ifndef
+MOZ_PHOTON_THEME
 -
 -
 pinned
@@ -1013,6 +1021,8 @@ transparent
 %
 )
 ;
+%
+endif
 }
 %
 ifndef
@@ -2635,6 +2645,20 @@ true
 ]
 )
 {
+%
+ifdef
+MOZ_PHOTON_THEME
+background
+-
+position
+:
+center
+bottom
+-
+4px
+;
+%
+else
 background
 -
 image
@@ -2663,6 +2687,8 @@ size
 100
 %
 ;
+%
+endif
 }
 .
 tabbrowser
