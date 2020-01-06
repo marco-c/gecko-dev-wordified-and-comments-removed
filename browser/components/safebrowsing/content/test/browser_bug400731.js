@@ -81,7 +81,7 @@ document
 getElementById
 (
 "
-ignoreWarningButton
+ignore_warning_link
 "
 )
 ;
@@ -209,7 +209,7 @@ buttonPresent
 "
 Ignore
 warning
-button
+link
 should
 be
 present
@@ -278,7 +278,7 @@ buttonPresent
 "
 Ignore
 warning
-button
+link
 should
 be
 missing
@@ -351,7 +351,7 @@ buttonPresent
 "
 Ignore
 warning
-button
+link
 should
 be
 present

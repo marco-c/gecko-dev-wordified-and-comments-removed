@@ -407,7 +407,7 @@ sleep
                     
 self
 .
-check_ignore_warning_button
+check_ignore_warning_link
 (
 unsafe_page
 )
@@ -438,7 +438,7 @@ sleep
                 
 self
 .
-check_ignore_warning_button
+check_ignore_warning_link
 (
 unsafe_page
 )
@@ -467,7 +467,7 @@ sleep
                 
 self
 .
-check_ignore_warning_button
+check_ignore_warning_link
 (
 unsafe_page
 )
@@ -479,7 +479,7 @@ check_x_button
 )
     
 def
-check_ignore_warning_button
+check_ignore_warning_link
 (
 self
 unsafe_page
@@ -498,11 +498,40 @@ By
 .
 ID
 '
-ignoreWarningButton
+seeDetailsButton
 '
 )
         
 button
+.
+click
+(
+)
+        
+time
+.
+sleep
+(
+1
+)
+        
+link
+=
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+ID
+'
+ignore_warning_link
+'
+)
+        
+link
 .
 click
 (
