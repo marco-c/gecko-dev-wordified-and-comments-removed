@@ -1992,6 +1992,11 @@ root
 )
 SERVO_BINDING_FUNC
 (
+Servo_IsWorkerThread
+bool
+)
+SERVO_BINDING_FUNC
+(
 Servo_MaybeGCRuleTree
 void
 RawServoStyleSetBorrowed

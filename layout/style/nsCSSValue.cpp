@@ -2507,16 +2507,11 @@ member
 \
 MOZ_ASSERT
 (
-NS_IsInCompositorThread
-(
-)
-|
-|
 !
 ServoStyleSet
 :
 :
-IsInServoTraversal
+IsCurrentThreadInServoTraversal
 (
 )
 )

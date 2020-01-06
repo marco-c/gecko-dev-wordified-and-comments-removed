@@ -283,6 +283,17 @@ return
 sInServoTraversal
 ;
 }
+#
+ifdef
+DEBUG
+static
+bool
+IsCurrentThreadInServoTraversal
+(
+)
+;
+#
+endif
 static
 ServoStyleSet
 *
