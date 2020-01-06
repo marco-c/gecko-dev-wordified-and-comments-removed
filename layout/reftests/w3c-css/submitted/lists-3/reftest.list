@@ -15,6 +15,12 @@ styloVsGecko
 |
 webrender
 )
+fails
+-
+if
+(
+stylo
+)
 =
 =
 list
@@ -49,6 +55,12 @@ styloVsGecko
 |
 |
 webrender
+)
+fails
+-
+if
+(
+stylo
 )
 =
 =

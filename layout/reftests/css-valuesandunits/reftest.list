@@ -2,6 +2,9 @@ fails
 -
 if
 (
+styloVsGecko
+|
+|
 stylo
 )
 =
@@ -26,6 +29,9 @@ fails
 -
 if
 (
+styloVsGecko
+|
+|
 stylo
 )
 =
@@ -52,6 +58,9 @@ fails
 -
 if
 (
+styloVsGecko
+|
+|
 stylo
 )
 =
@@ -74,10 +83,13 @@ rem
 ref
 .
 html
-fails
+skip
 -
 if
 (
+styloVsGecko
+|
+|
 stylo
 )
 =
@@ -168,6 +180,9 @@ fails
 -
 if
 (
+styloVsGecko
+|
+|
 stylo
 )
 =
@@ -255,6 +270,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -287,6 +305,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -323,6 +344,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -359,6 +383,12 @@ skip
 if
 (
 Android
+)
+fails
+-
+if
+(
+stylo
 )
 !
 =

@@ -6,6 +6,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -61,6 +64,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -107,6 +113,12 @@ ref
 .
 html
 fails
+-
+if
+(
+!
+stylo
+)
 fails
 -
 if
@@ -355,6 +367,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -379,6 +394,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -399,6 +417,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -439,6 +460,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -459,6 +483,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -479,6 +506,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -507,6 +537,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -538,6 +571,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =

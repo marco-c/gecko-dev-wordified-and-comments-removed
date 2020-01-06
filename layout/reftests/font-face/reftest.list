@@ -2019,6 +2019,12 @@ if
 (
 styloVsGecko
 )
+fails
+-
+if
+(
+stylo
+)
 HTTP
 (
 .
@@ -2047,6 +2053,9 @@ skip
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 HTTP
 (

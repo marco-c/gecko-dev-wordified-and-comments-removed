@@ -1,3 +1,9 @@
+fails
+-
+if
+(
+stylo
+)
 =
 =
 ruby
@@ -3458,6 +3464,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =

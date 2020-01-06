@@ -7982,6 +7982,12 @@ green
 .
 html
 fails
+-
+if
+(
+!
+stylo
+)
 =
 =
 css
@@ -8015,6 +8021,12 @@ green
 .
 html
 fails
+-
+if
+(
+!
+stylo
+)
 =
 =
 css
@@ -8237,6 +8249,9 @@ fails
 -
 if
 (
+styloVsGecko
+|
+|
 stylo
 )
 =
@@ -8382,6 +8397,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -45728,6 +45746,9 @@ skip
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -45776,6 +45797,9 @@ skip
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -45824,6 +45848,9 @@ skip
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -45872,6 +45899,9 @@ skip
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =

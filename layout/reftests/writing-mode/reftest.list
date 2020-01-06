@@ -2747,6 +2747,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =

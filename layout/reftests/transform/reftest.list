@@ -2149,6 +2149,9 @@ skip
 -
 if
 (
+styloVsGecko
+|
+|
 stylo
 )
 =
@@ -2173,8 +2176,3 @@ animation
 ref
 .
 html
-#
-bug
-1365851
-for
-stylo

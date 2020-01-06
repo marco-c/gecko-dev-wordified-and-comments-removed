@@ -421,6 +421,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 HTTP
 (
@@ -491,6 +494,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 HTTP
 (
@@ -697,6 +703,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 HTTP
 (
@@ -788,6 +797,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 HTTP
 (

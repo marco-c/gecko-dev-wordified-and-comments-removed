@@ -60,6 +60,12 @@ html
 #
 Bug
 1128229
+fails
+-
+if
+(
+stylo
+)
 HTTP
 (
 .
@@ -316,6 +322,12 @@ if
 gtkWidget
 10
 8
+)
+skip
+-
+if
+(
+stylo
 )
 HTTP
 (

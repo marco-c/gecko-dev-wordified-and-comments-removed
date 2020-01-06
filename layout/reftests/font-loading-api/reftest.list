@@ -67,6 +67,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 HTTP
 (

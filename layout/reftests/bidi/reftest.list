@@ -2159,6 +2159,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -3044,6 +3047,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -3064,6 +3070,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =

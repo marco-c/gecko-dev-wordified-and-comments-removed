@@ -143,6 +143,9 @@ skip
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -171,6 +174,9 @@ skip
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -201,6 +207,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -233,6 +242,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -275,6 +287,9 @@ skip
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -482,6 +497,9 @@ skip
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
@@ -858,6 +876,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =

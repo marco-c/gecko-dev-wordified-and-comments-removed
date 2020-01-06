@@ -3546,6 +3546,9 @@ fails
 if
 (
 styloVsGecko
+|
+|
+stylo
 )
 =
 =
