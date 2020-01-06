@@ -2782,14 +2782,11 @@ mProcessor
 {
 source
 =
-do_QueryInterface
-(
 mProcessor
 -
 >
 GetSourceContentModel
 (
-)
 )
 ;
 }
