@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsXULAppAPI
-.
-h
-"
-#
-include
-"
 mozilla
 /
 TimeStamp
@@ -493,13 +486,6 @@ CacheFileIOManager
 :
 Init
 (
-)
-;
-MOZ_ASSERT
-(
-XRE_IsParentProcess
-(
-)
 )
 ;
 MOZ_ASSERT
