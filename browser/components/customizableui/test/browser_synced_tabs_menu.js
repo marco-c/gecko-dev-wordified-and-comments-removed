@@ -313,7 +313,7 @@ signup
 uri
 "
 "
-http
+https
 :
 /
 /
