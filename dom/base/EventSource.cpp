@@ -7065,6 +7065,13 @@ PARSE_STATE_BEGIN_OF_LINE
 ;
 }
 else
+if
+(
+aChr
+!
+=
+0
+)
 {
 mLastFieldValue
 +
@@ -7143,6 +7150,13 @@ PARSE_STATE_COMMENT
 ;
 }
 else
+if
+(
+aChr
+!
+=
+0
+)
 {
 mLastFieldName
 +
