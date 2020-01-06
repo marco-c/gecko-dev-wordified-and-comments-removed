@@ -458,7 +458,7 @@ isForEventDelivery
 aBuilder
 -
 >
-HitTestShouldStopAtFirstOpaque
+HitTestIsForVisibility
 (
 )
 )

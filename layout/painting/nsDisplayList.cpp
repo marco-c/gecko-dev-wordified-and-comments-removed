@@ -5262,7 +5262,7 @@ mBuildingInvisibleItems
 (
 false
 )
-mHitTestShouldStopAtFirstOpaque
+mHitTestIsForVisibility
 (
 false
 )
@@ -5487,7 +5487,7 @@ f
 nsLayoutUtils
 :
 :
-GetParentOrPlaceholderForCrossDoc
+GetParentOrPlaceholderFor
 (
 f
 )
@@ -5563,7 +5563,7 @@ f
 nsLayoutUtils
 :
 :
-GetParentOrPlaceholderForCrossDoc
+GetParentOrPlaceholderFor
 (
 f
 )
@@ -6345,9 +6345,6 @@ UnmarkFrameForDisplay
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-aStopAtFrame
 )
 {
 aFrame
@@ -6378,7 +6375,7 @@ f
 nsLayoutUtils
 :
 :
-GetParentOrPlaceholderForCrossDoc
+GetParentOrPlaceholderFor
 (
 f
 )
@@ -6425,17 +6422,6 @@ SetForceDescendIntoIfVisible
 false
 )
 ;
-if
-(
-f
-=
-=
-aStopAtFrame
-)
-{
-break
-;
-}
 }
 }
 nsDisplayListBuilder
@@ -6831,7 +6817,6 @@ canvasFrame
 MarkFrameForDisplayIfVisible
 (
 canvasFrame
-aReferenceFrame
 )
 ;
 }
@@ -7001,7 +6986,7 @@ state
 -
 >
 mCaretFrame
-aReferenceFrame
+nullptr
 )
 ;
 }
@@ -7268,7 +7253,6 @@ NotifyNonBlankPaint
 }
 ResetMarkedFramesForDisplayList
 (
-aReferenceFrame
 )
 ;
 mPresShellStates
@@ -7438,9 +7422,6 @@ nsDisplayListBuilder
 :
 ResetMarkedFramesForDisplayList
 (
-nsIFrame
-*
-aReferenceFrame
 )
 {
 uint32_t
@@ -7479,7 +7460,6 @@ mFramesMarkedForDisplay
 [
 i
 ]
-aReferenceFrame
 )
 ;
 }
@@ -14588,6 +14568,15 @@ j
 ;
 if
 (
+aBuilder
+-
+>
+HitTestIsForVisibility
+(
+)
+|
+|
+(
 !
 GetMouseThrough
 (
@@ -14598,6 +14587,7 @@ f
 IsFrameReceivingPointerEvents
 (
 f
+)
 )
 )
 {
@@ -14616,7 +14606,7 @@ if
 aBuilder
 -
 >
-HitTestShouldStopAtFirstOpaque
+HitTestIsForVisibility
 (
 )
 &
@@ -31126,7 +31116,7 @@ if
 aBuilder
 -
 >
-HitTestShouldStopAtFirstOpaque
+HitTestIsForVisibility
 (
 )
 )
