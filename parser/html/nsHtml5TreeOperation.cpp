@@ -2341,6 +2341,14 @@ false
 ;
 if
 (
+nsContentUtils
+:
+:
+IsWebComponentsEnabled
+(
+)
+&
+&
 kNameSpaceID_None
 =
 =
