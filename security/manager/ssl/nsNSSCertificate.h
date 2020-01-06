@@ -93,9 +93,6 @@ DERArray
 }
 }
 class
-nsAutoString
-;
-class
 nsINSSComponent
 ;
 class

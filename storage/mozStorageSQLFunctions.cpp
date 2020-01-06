@@ -376,7 +376,7 @@ int
 nsAutoString
 :
 :
-kDefaultStorageSize
+kStorageSize
 >
 row1
 ;
@@ -386,7 +386,7 @@ int
 nsAutoString
 :
 :
-kDefaultStorageSize
+kStorageSize
 >
 row2
 ;
