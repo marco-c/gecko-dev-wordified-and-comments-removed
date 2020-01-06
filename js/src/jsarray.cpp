@@ -18148,7 +18148,7 @@ PlainObject
 (
 cx
 nullptr
-TenuredObject
+SingletonObject
 )
 )
 ;
