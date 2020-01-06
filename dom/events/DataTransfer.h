@@ -941,11 +941,6 @@ bool
 aHidden
 )
 ;
-void
-AddDummyHiddenData
-(
-)
-;
 Element
 *
 GetDragImage
