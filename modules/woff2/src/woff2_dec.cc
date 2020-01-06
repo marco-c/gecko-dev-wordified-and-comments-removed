@@ -95,7 +95,7 @@ UniquePtr
 #
 include
 "
-.
+brotli
 /
 decode
 .
@@ -4542,7 +4542,7 @@ dst_size
 int
 ok
 =
-BrotliDecompressBuffer
+BrotliDecoderDecompress
 (
 src_size
 src_buf

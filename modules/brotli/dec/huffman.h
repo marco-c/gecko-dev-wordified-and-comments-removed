@@ -6,13 +6,13 @@ define
 BROTLI_DEC_HUFFMAN_H_
 #
 include
-"
-.
+<
+brotli
 /
 types
 .
 h
-"
+>
 #
 include
 "
@@ -45,10 +45,6 @@ endif
 define
 BROTLI_HUFFMAN_MAX_CODE_LENGTH
 15
-#
-define
-BROTLI_HUFFMAN_MAX_CODE_LENGTHS_SIZE
-704
 static
 const
 uint16_t

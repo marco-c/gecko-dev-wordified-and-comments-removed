@@ -6,13 +6,13 @@ define
 BROTLI_DEC_CONTEXT_H_
 #
 include
-"
-.
+<
+brotli
 /
 types
 .
 h
-"
+>
 enum
 ContextType
 {
