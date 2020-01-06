@@ -1846,6 +1846,15 @@ js
 proxy_Construct
 &
 &
+native
+!
+=
+js
+:
+:
+IteratorConstructor
+&
+&
 (
 !
 callee

@@ -1779,6 +1779,15 @@ iterate
 \
 macro
 (
+iteratorIntrinsic
+iteratorIntrinsic
+"
+__iterator__
+"
+)
+\
+macro
+(
 join
 join
 "
