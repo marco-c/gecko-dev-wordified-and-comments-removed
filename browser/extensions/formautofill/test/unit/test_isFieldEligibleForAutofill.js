@@ -177,7 +177,7 @@ targetElement
 "
 expectedResult
 :
-false
+true
 }
 {
 document
@@ -251,7 +251,7 @@ targetElement
 "
 expectedResult
 :
-false
+true
 }
 {
 document
