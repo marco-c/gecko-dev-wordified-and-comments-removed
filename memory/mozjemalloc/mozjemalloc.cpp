@@ -6792,6 +6792,17 @@ ret
 size
 )
 ;
+if
+(
+zeroed
+)
+{
+*
+zeroed
+=
+true
+;
+}
 #
 endif
 return
