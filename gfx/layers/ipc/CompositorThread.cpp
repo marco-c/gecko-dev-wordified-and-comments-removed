@@ -631,6 +631,13 @@ Shutdown
 (
 )
 ;
+CompositorManagerParent
+:
+:
+Shutdown
+(
+)
+;
 sCompositorThreadHolder
 =
 nullptr
