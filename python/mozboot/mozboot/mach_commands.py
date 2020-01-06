@@ -111,6 +111,44 @@ prompt
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+no
+-
+interactive
+'
+dest
+=
+'
+no_interactive
+'
+action
+=
+'
+store_true
+'
+                     
+help
+=
+'
+Answer
+yes
+to
+any
+(
+Y
+/
+n
+)
+interactive
+prompts
+.
+'
+)
+    
 def
 bootstrap
 (
@@ -118,6 +156,9 @@ self
 application_choice
 =
 None
+no_interactive
+=
+False
 )
 :
         
@@ -135,6 +176,9 @@ Bootstrapper
 choice
 =
 application_choice
+no_interactive
+=
+no_interactive
 )
         
 bootstrapper
