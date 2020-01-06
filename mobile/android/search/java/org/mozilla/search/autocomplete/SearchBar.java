@@ -777,7 +777,7 @@ color
 =
 BitmapUtils
 .
-getDominantColor
+getDominantColorCustomImplementation
 (
 bitmap
 )
