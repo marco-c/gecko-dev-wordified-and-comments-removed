@@ -517,6 +517,13 @@ tag
 "
 )
 ;
+await
+PlacesTestUtils
+.
+promiseAsyncUpdates
+(
+)
+;
 }
 )
 ;
