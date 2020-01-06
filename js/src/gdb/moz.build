@@ -326,6 +326,14 @@ Wno
 -
 shadow
 '
+'
+-
+fno
+-
+strict
+-
+aliasing
+'
 ]
 #
 This

@@ -787,6 +787,14 @@ Werror
 =
 format
 '
+'
+-
+fno
+-
+strict
+-
+aliasing
+'
 ]
 #
 This
