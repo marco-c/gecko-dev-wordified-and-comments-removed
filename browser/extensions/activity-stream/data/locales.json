@@ -57915,7 +57915,8 @@ type_label_visited
 :
 "
 Ziyaret
-edildi
+etmi
+tiniz
 "
 "
 type_label_bookmarked
@@ -57923,8 +57924,7 @@ type_label_bookmarked
 :
 "
 Yer
-imlerine
-eklendi
+imlerinizde
 "
 "
 type_label_synced
@@ -58861,8 +58861,7 @@ lar
 n
 zdaki
 yer
-i
-aretlerinizi
+imlerinizi
 ge
 mi
 inizi
@@ -58872,8 +58871,7 @@ n
 z
 Firefox
 a
-ta
-yabilirsiniz
+aktarabilirsiniz
 .
 "
 "

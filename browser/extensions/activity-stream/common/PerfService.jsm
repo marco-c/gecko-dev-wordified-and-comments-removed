@@ -6,6 +6,16 @@ strict
 if
 (
 typeof
+Window
+=
+=
+=
+"
+undefined
+"
+&
+&
+typeof
 Components
 !
 =

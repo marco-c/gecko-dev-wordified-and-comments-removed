@@ -155,6 +155,14 @@ jsm
 "
 )
 ;
+const
+GREY_10
+=
+"
+#
+F9F9FA
+"
+;
 this
 .
 Screenshots
@@ -250,6 +258,11 @@ BackgroundPageThumbs
 captureIfMissing
 (
 url
+{
+backgroundColor
+:
+GREY_10
+}
 )
 ;
 const
