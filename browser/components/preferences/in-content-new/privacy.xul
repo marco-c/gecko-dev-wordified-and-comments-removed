@@ -5358,6 +5358,11 @@ enableHealthReport1
 accesskey
 ;
 "
+flex
+=
+"
+1
+"
 /
 >
 <
@@ -5471,6 +5476,11 @@ alwaysSubmitCrashReports1
 .
 accesskey
 ;
+"
+flex
+=
+"
+1
 "
 /
 >
