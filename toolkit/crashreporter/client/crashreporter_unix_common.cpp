@@ -252,6 +252,11 @@ fd
 )
 ;
 }
+closedir
+(
+dirfd
+)
+;
 sort
 (
 dumpfiles
