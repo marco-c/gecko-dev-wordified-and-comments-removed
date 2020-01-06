@@ -1409,6 +1409,8 @@ onBeforeLinkTraversal
 originalTarget
 linkURI
 linkNode
+docShell
+.
 isAppTab
 )
 ;
