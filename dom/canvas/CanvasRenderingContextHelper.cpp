@@ -126,6 +126,8 @@ JS
 Value
 >
 aParams
+bool
+aUsePlaceholder
 ErrorResult
 &
 aRv
@@ -260,6 +262,7 @@ aGlobal
 callback
 aType
 aParams
+aUsePlaceholder
 aRv
 )
 ;
@@ -294,6 +297,8 @@ JS
 Value
 >
 aParams
+bool
+aUsePlaceholder
 ErrorResult
 &
 aRv
@@ -494,6 +499,7 @@ format
 GetWidthHeight
 (
 )
+aUsePlaceholder
 callback
 )
 ;
