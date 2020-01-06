@@ -3058,7 +3058,7 @@ if
 mQueuedSample
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 mQueuedSample
 -
