@@ -552,7 +552,7 @@ signing
 :
 format
 :
-mar
+mar_sha384
 "
 ]
         
@@ -620,7 +620,7 @@ formats
 :
 [
 "
-mar
+mar_sha384
 "
 ]
         
