@@ -1722,6 +1722,16 @@ aInitData
 )
 override
 ;
+virtual
+nsresult
+SetNonClientMargins
+(
+LayoutDeviceIntMargin
+&
+aMargins
+)
+override
+;
 void
 SetDrawsInTitlebar
 (
