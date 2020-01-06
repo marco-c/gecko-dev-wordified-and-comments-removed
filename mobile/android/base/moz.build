@@ -4392,6 +4392,15 @@ activitystream
 /
 homepanel
 /
+ActivityStreamConfiguration
+.
+java
+'
+'
+activitystream
+/
+homepanel
+/
 ActivityStreamHomeFragment
 .
 java
