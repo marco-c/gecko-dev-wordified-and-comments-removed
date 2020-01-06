@@ -193,6 +193,8 @@ aLength
 void
 NotifyDataStarted
 (
+uint32_t
+aLoadID
 int64_t
 aOffset
 )
@@ -200,6 +202,8 @@ aOffset
 void
 NotifyDataReceived
 (
+uint32_t
+aLoadID
 int64_t
 aSize
 const
@@ -727,6 +731,11 @@ mCurrentMode
 ;
 bool
 mMetadataInPartialBlockBuffer
+;
+uint32_t
+mLoadID
+=
+0
 ;
 UniquePtr
 <
