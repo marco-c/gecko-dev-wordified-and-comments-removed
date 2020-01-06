@@ -744,6 +744,9 @@ mDatabaseStatus
 bool
 mClosed
 ;
+bool
+mShouldConvertIconPayloads
+;
 already_AddRefed
 <
 nsIAsyncShutdownClient
