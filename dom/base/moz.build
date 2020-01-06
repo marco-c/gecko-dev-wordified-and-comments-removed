@@ -412,6 +412,11 @@ nsDOMString
 h
 '
 '
+nsDOMTokenList
+.
+h
+'
+'
 nsFocusManager
 .
 h
@@ -638,6 +643,11 @@ h
 '
 '
 nsStyledElement
+.
+h
+'
+'
+nsStyleLinkElement
 .
 h
 '
