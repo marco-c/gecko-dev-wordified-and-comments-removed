@@ -1418,12 +1418,6 @@ MediaStream
 >
 mSuspendedStreams
 ;
-nsTHashtable
-<
-nsUint64HashKey
->
-mSuspendedContexts
-;
 uint32_t
 mFirstCycleBreaker
 ;
