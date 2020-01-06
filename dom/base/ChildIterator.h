@@ -663,6 +663,7 @@ endif
 }
 ;
 class
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 StyleChildrenIterator
 :
 private
