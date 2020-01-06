@@ -314,7 +314,7 @@ width
 <
 !
 ENTITY
-clearDataSettings2
+clearDataSettings3
 .
 label
 "
@@ -329,7 +329,6 @@ should
 automatically
 clear
 all
-:
 "
 >
 <
