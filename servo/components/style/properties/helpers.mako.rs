@@ -3125,10 +3125,7 @@ use
 style_traits
 :
 :
-{
-ToCss
 ParseError
-}
 ;
 define_css_keyword_enum
 !
@@ -4436,12 +4433,6 @@ aliases_for
 product
 )
 :
-use
-style_traits
-:
-:
-ToCss
-;
 define_css_keyword_enum
 !
 {
@@ -4543,12 +4534,6 @@ pub
 mod
 computed_value
 {
-use
-style_traits
-:
-:
-ToCss
-;
 define_css_keyword_enum
 !
 {

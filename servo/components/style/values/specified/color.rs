@@ -209,12 +209,6 @@ gecko
 mod
 gecko
 {
-use
-style_traits
-:
-:
-ToCss
-;
 define_css_keyword_enum
 !
 {

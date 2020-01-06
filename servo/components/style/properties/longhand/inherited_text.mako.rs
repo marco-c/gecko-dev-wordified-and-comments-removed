@@ -1031,12 +1031,6 @@ pub
 mod
 computed_value
 {
-use
-style_traits
-:
-:
-ToCss
-;
 macro_rules
 !
 define_text_align
@@ -4459,12 +4453,6 @@ emphasis
 position
 "
 >
-use
-style_traits
-:
-:
-ToCss
-;
 define_css_keyword_enum
 !
 (
