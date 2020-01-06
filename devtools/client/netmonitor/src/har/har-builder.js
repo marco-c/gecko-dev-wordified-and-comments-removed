@@ -673,6 +673,13 @@ url
 [
 ]
 ;
+if
+(
+file
+.
+requestPostData
+)
+{
 request
 .
 postData
@@ -684,6 +691,7 @@ buildPostData
 file
 )
 ;
+}
 request
 .
 headersSize
