@@ -86,6 +86,9 @@ env_logger
 "
 hyper
 =
+{
+version
+=
 "
 0
 .
@@ -93,6 +96,12 @@ hyper
 .
 13
 "
+default
+-
+features
+=
+false
+}
 log
 =
 "
