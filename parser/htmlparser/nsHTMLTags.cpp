@@ -732,7 +732,7 @@ nsHTMLTag
 nsHTMLTags
 :
 :
-LookupTag
+StringTagToId
 (
 const
 nsAString
@@ -849,7 +849,7 @@ i
 0
 ;
 return
-CaseSensitiveLookupTag
+CaseSensitiveStringTagToId
 (
 buf
 )
@@ -912,7 +912,7 @@ i
 ;
 id
 =
-LookupTag
+StringTagToId
 (
 nsDependentString
 (
@@ -952,7 +952,7 @@ NS_ASSERTION
 id
 =
 =
-LookupTag
+StringTagToId
 (
 uname
 )
@@ -967,7 +967,7 @@ NS_ASSERTION
 id
 =
 =
-CaseSensitiveLookupTag
+CaseSensitiveStringTagToId
 (
 tag
 )
@@ -989,7 +989,7 @@ NS_ASSERTION
 id
 =
 =
-CaseSensitiveLookupTag
+CaseSensitiveAtomTagToId
 (
 atom
 )
@@ -1002,7 +1002,7 @@ id
 }
 id
 =
-LookupTag
+StringTagToId
 (
 NS_LITERAL_STRING
 (
@@ -1024,7 +1024,7 @@ found
 ;
 id
 =
-LookupTag
+StringTagToId
 (
 NS_LITERAL_STRING
 (
@@ -1056,7 +1056,7 @@ NS_Atomize
 ;
 id
 =
-CaseSensitiveLookupTag
+CaseSensitiveAtomTagToId
 (
 atom
 )
@@ -1083,7 +1083,7 @@ zzzzz
 ;
 id
 =
-CaseSensitiveLookupTag
+CaseSensitiveAtomTagToId
 (
 atom
 )

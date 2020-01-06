@@ -78,7 +78,7 @@ return
 nsHTMLTags
 :
 :
-LookupTag
+StringTagToId
 (
 nsDependentAtomString
 (
@@ -103,7 +103,7 @@ return
 nsHTMLTags
 :
 :
-CaseSensitiveLookupTag
+CaseSensitiveAtomTagToId
 (
 aAtom
 )
@@ -126,7 +126,7 @@ return
 nsHTMLTags
 :
 :
-LookupTag
+StringTagToId
 (
 aTag
 )
