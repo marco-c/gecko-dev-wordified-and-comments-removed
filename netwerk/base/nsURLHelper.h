@@ -393,14 +393,10 @@ define
 NET_MAX_ADDRESS
 (
 (
-(
 char
 *
 )
-0
-)
--
-1
+UINTPTR_MAX
 )
 inline
 char
