@@ -608,6 +608,12 @@ SESSION_DATA
 true
 )
 ;
+await
+promiseWindowRestored
+(
+win
+)
+;
 let
 enumerator
 =
@@ -733,6 +739,12 @@ setWindowState
 win
 SESSION_DATA_OA
 true
+)
+;
+await
+promiseWindowRestored
+(
+win
 )
 ;
 enumerator

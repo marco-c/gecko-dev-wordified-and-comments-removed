@@ -187,6 +187,12 @@ setBrowserState
 state
 )
 ;
+await
+promiseWindowRestored
+(
+window
+)
+;
 enumerator
 =
 Services

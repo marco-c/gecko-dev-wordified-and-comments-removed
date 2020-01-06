@@ -191,6 +191,12 @@ win
 await
 promiseWindow
 ;
+await
+promiseWindowRestored
+(
+win
+)
+;
 info
 (
 "

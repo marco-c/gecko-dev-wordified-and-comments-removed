@@ -298,6 +298,12 @@ winState
 true
 )
 ;
+await
+promiseWindowRestored
+(
+win2
+)
+;
 for
 (
 let
@@ -777,6 +783,12 @@ stringify
 winState
 )
 true
+)
+;
+await
+promiseWindowRestored
+(
+win2
 )
 ;
 for
