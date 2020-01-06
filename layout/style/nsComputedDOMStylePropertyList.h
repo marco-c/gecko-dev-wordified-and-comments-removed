@@ -1100,6 +1100,11 @@ FloatEdge
 )
 COMPUTED_STYLE_PROP
 (
+_moz_font_smoothing_background_color
+FontSmoothingBackgroundColor
+)
+COMPUTED_STYLE_PROP
+(
 _moz_force_broken_image_icon
 ForceBrokenImageIcon
 )
