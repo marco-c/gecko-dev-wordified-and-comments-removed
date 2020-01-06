@@ -134,7 +134,7 @@ let
 previousValues
 =
 [
-12
+15
 1
 1
 1
