@@ -1878,11 +1878,6 @@ topLevelMenu
 [
 0
 ]
-.
-childNodes
-[
-0
-]
 ;
 let
 popupShownPromise
@@ -1957,8 +1952,14 @@ itemToSelect
 modifiers
 )
 ;
-return
+await
 popupHiddenPromise
+;
+contentAreaContextMenu
+.
+hidePopup
+(
+)
 ;
 }
 async
