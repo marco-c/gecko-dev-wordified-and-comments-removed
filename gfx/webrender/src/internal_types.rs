@@ -575,7 +575,7 @@ Frame
 )
 -
 >
-RendererFrame
+Self
 {
 RendererFrame
 {

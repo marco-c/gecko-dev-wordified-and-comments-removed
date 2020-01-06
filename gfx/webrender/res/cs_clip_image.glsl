@@ -456,11 +456,9 @@ oFragColor
 =
 vec4
 (
-min
-(
 alpha
+*
 clip_alpha
-)
 1
 .
 0

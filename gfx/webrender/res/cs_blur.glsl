@@ -173,7 +173,7 @@ data0
 #
 if
 defined
-WR_FEATURE_COLOR
+WR_FEATURE_COLOR_TARGET
 vec2
 texture_size
 =
@@ -218,10 +218,12 @@ x
 ;
 vBlurRadius
 =
-3
-*
 int
 (
+3
+.
+0
+*
 task
 .
 data1
@@ -449,7 +451,7 @@ WR_FRAGMENT_SHADER
 #
 if
 defined
-WR_FEATURE_COLOR
+WR_FEATURE_COLOR_TARGET
 #
 define
 SAMPLE_TYPE
@@ -733,8 +735,6 @@ i
 <
 =
 vBlurRadius
-/
-2
 ;
 +
 +

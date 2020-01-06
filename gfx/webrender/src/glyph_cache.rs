@@ -10,6 +10,12 @@ GlyphKey
 }
 ;
 use
+glyph_rasterizer
+:
+:
+GlyphFormat
+;
+use
 internal_types
 :
 :
@@ -66,6 +72,10 @@ pub
 scale
 :
 f32
+pub
+format
+:
+GlyphFormat
 }
 pub
 type

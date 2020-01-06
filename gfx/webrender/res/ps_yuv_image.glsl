@@ -1140,13 +1140,10 @@ vLocalPos
 #
 endif
 alpha
+*
 =
-min
-(
-alpha
 do_clip
 (
-)
 )
 ;
 /

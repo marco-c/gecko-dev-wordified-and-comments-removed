@@ -773,13 +773,10 @@ vPos
 #
 endif
 alpha
+*
 =
-min
-(
-alpha
 do_clip
 (
-)
 )
 ;
 oFragColor
