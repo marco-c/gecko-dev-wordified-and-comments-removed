@@ -3451,11 +3451,6 @@ AndroidGamepadManager
 java
 '
 '
-BaseGeckoInterface
-.
-java
-'
-'
 Clipboard
 .
 java
