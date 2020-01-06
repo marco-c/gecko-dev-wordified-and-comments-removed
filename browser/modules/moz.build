@@ -1029,11 +1029,6 @@ ContentLinkHandler
 jsm
 '
 '
-ContentMetaHandler
-.
-jsm
-'
-'
 ContentObservers
 .
 js
