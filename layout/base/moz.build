@@ -260,6 +260,11 @@ MobileViewportManager
 h
 '
 '
+nsAutoLayoutPhase
+.
+h
+'
+'
 nsBidi
 .
 h
