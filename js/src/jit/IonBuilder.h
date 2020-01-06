@@ -3963,6 +3963,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_iternext
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_in
 (
 )
