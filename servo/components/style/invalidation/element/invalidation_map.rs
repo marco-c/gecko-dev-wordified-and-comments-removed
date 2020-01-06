@@ -347,11 +347,13 @@ self
 .
 selector
 .
-combinator_at
+combinator_at_match_order
 (
 self
 .
 selector_offset
+-
+1
 )
 )
 }
