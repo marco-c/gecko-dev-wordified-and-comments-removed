@@ -80,6 +80,13 @@ ClearCachedResources
 )
 override
 ;
+virtual
+bool
+SupportsAsyncUpdate
+(
+)
+override
+;
 protected
 :
 virtual
