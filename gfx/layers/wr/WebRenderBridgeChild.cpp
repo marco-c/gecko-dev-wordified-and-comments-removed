@@ -1486,6 +1486,17 @@ aHandle
 if
 (
 !
+IPCOpen
+(
+)
+)
+{
+return
+;
+}
+if
+(
+!
 DestroyInTransaction
 (
 aHandle
