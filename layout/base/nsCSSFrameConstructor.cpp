@@ -11631,6 +11631,14 @@ nullptr
 nullptr
 )
 ;
+viewportFrame
+-
+>
+AddStateBits
+(
+NS_FRAME_OWNS_ANON_BOXES
+)
+;
 nsView
 *
 rootView
