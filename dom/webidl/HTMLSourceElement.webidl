@@ -172,6 +172,7 @@ HTMLElement
 {
 [
 CEReactions
+NeedsSubjectPrincipal
 SetterThrows
 ]
 attribute

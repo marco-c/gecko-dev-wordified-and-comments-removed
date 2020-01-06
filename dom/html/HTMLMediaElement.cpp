@@ -9693,7 +9693,12 @@ uri
 ;
 mLoadingSrcTriggeringPrincipal
 =
-nullptr
+childSrc
+-
+>
+GetSrcTriggeringPrincipal
+(
+)
 ;
 mMediaSource
 =
