@@ -199,6 +199,7 @@ aPresShell
 ~
 nsCSSFrameConstructor
 (
+void
 )
 {
 MOZ_ASSERT
