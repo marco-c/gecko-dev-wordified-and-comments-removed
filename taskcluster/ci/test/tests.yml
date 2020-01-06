@@ -11129,7 +11129,9 @@ ccov
 :
 [
 ]
-default
+linux64
+.
+*
 :
 built
 -
