@@ -1207,8 +1207,6 @@ fp
 )
 ;
 }
-namespace
-{
 typedef
 NTSTATUS
 (
@@ -1393,6 +1391,7 @@ mRealView
 ;
 }
 ;
+static
 DWORD
 GetTimestamp
 (
@@ -3234,10 +3233,10 @@ handle
 )
 ;
 }
+static
 WindowsDllInterceptor
 NtDllIntercept
 ;
-}
 MFBT_API
 void
 DllBlocklist_Initialize
