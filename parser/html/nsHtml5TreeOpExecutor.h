@@ -291,6 +291,9 @@ mCallContinueInterruptedParsingIfEnabled
 bool
 mAlreadyComplainedAboutCharset
 ;
+bool
+mAlreadyComplainedAboutDeepTree
+;
 public
 :
 nsHtml5TreeOpExecutor
@@ -529,6 +532,13 @@ ComplainAboutBogusProtocolCharset
 nsIDocument
 *
 aDoc
+)
+;
+void
+MaybeComplainAboutDeepTree
+(
+uint32_t
+aLineNumber
 )
 ;
 bool
