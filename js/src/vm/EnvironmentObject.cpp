@@ -2506,8 +2506,6 @@ ModuleEnvironmentObject
 deleteProperty
 nullptr
 nullptr
-nullptr
-nullptr
 }
 ;
 const
@@ -5172,8 +5170,6 @@ with_GetOwnPropertyDescriptor
 with_DeleteProperty
 nullptr
 nullptr
-nullptr
-nullptr
 }
 ;
 const
@@ -7084,8 +7080,6 @@ lexicalError_GetProperty
 lexicalError_SetProperty
 lexicalError_GetOwnPropertyDescriptor
 lexicalError_DeleteProperty
-nullptr
-nullptr
 nullptr
 nullptr
 }
