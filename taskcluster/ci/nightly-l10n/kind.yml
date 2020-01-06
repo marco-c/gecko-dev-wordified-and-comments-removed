@@ -487,9 +487,7 @@ nightly
 :
 osx
 -
-10
--
-7
+cross
 /
 opt
 android

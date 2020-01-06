@@ -30,9 +30,7 @@ platform
 :
 osx
 -
-10
--
-10
+cross
 /
 debug
 symbol
@@ -177,9 +175,7 @@ platform
 :
 osx
 -
-10
--
-10
+cross
 /
 opt
 symbol
@@ -436,9 +432,7 @@ platform
 :
 osx
 -
-10
--
-7
+cross
 -
 noopt
 /
@@ -637,9 +631,7 @@ platform
 :
 osx
 -
-10
--
-7
+cross
 -
 add
 -
@@ -832,9 +824,7 @@ platform
 :
 osx
 -
-10
--
-10
+cross
 /
 opt
 symbol

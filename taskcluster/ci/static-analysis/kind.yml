@@ -150,9 +150,7 @@ platform
 :
 osx
 -
-10
--
-7
+cross
 /
 debug
 worker
@@ -323,9 +321,7 @@ platform
 :
 osx
 -
-10
--
-7
+cross
 /
 opt
 worker
