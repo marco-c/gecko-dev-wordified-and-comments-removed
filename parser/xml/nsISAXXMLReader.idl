@@ -116,9 +116,6 @@ interface
 nsISAXDTDHandler
 ;
 interface
-nsISAXEntityResolver
-;
-interface
 nsISAXErrorHandler
 ;
 interface
