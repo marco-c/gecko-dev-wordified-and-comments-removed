@@ -703,6 +703,13 @@ originalLocation
 {
 if
 (
+this
+.
+_tooltip
+)
+{
+if
+(
 originalLocation
 )
 {
@@ -779,6 +786,7 @@ ready
 "
 )
 ;
+}
 }
 )
 ;
