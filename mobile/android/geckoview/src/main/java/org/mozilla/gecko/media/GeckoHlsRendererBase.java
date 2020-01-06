@@ -15,6 +15,15 @@ util
 Log
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+AppConstants
+;
+import
 com
 .
 google
@@ -1330,7 +1339,9 @@ elapsedRealtimeUs
 {
 if
 (
-DEBUG
+AppConstants
+.
+DEBUG_BUILD
 )
 {
 Log
