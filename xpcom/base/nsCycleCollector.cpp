@@ -886,7 +886,7 @@ aEvent
 ;
 #
 endif
-struct
+class
 PtrInfo
 ;
 class
@@ -1680,9 +1680,12 @@ white
 grey
 }
 ;
-struct
+class
 PtrInfo
+final
 {
+public
+:
 void
 *
 mPointer
