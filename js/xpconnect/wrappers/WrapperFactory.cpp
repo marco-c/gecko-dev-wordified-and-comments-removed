@@ -867,6 +867,14 @@ scope
 ;
 if
 (
+!
+JS_IsScriptSourceObject
+(
+obj
+)
+&
+&
+(
 CompartmentPrivate
 :
 :
@@ -889,6 +897,7 @@ target
 -
 >
 wasNuked
+)
 )
 {
 NS_WARNING
@@ -1482,6 +1491,14 @@ target
 {
 if
 (
+!
+JS_IsScriptSourceObject
+(
+obj
+)
+&
+&
+(
 CompartmentPrivate
 :
 :
@@ -1504,6 +1521,7 @@ target
 -
 >
 wasNuked
+)
 )
 {
 MOZ_ASSERT_UNREACHABLE
