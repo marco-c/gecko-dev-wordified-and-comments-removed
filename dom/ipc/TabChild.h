@@ -3592,6 +3592,14 @@ MaybeDispatchCoalescedWheelEvent
 (
 )
 ;
+nsEventStatus
+DispatchWidgetEventViaAPZ
+(
+WidgetGUIEvent
+&
+aEvent
+)
+;
 void
 DispatchWheelEvent
 (

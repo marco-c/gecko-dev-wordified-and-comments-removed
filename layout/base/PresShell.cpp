@@ -36692,6 +36692,15 @@ aEvent
 IsAllowedToDispatchDOMEvent
 (
 )
+&
+&
+!
+aEvent
+-
+>
+IsWaitingReplyFromRemoteProcess
+(
+)
 )
 {
 MOZ_ASSERT

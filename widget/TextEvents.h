@@ -407,10 +407,6 @@ mLocation
 (
 eKeyLocationStandard
 )
-mAccessKeyForwardedToChild
-(
-false
-)
 mUniqueId
 (
 0
@@ -517,10 +513,6 @@ mPseudoCharCode
 mLocation
 (
 eKeyLocationStandard
-)
-mAccessKeyForwardedToChild
-(
-false
 )
 mUniqueId
 (
@@ -816,9 +808,6 @@ mPseudoCharCode
 ;
 uint32_t
 mLocation
-;
-bool
-mAccessKeyForwardedToChild
 ;
 uint32_t
 mUniqueId
@@ -1327,12 +1316,6 @@ mIsComposing
 aEvent
 .
 mIsComposing
-;
-mAccessKeyForwardedToChild
-=
-aEvent
-.
-mAccessKeyForwardedToChild
 ;
 mKeyNameIndex
 =
