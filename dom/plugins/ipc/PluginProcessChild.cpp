@@ -95,9 +95,6 @@ defined
 MOZ_SANDBOX
 )
 #
-define
-TARGET_SANDBOX_EXPORTS
-#
 include
 "
 mozilla
