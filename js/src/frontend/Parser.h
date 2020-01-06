@@ -973,6 +973,11 @@ warnOnceAboutForEach
 )
 ;
 bool
+warnOnceAboutLegacyGenerator
+(
+)
+;
+bool
 allowsForEachIn
 (
 )
