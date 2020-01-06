@@ -39873,7 +39873,7 @@ memory
 .
 free_dirty_pages
 "
-false
+true
 )
 ;
 #
