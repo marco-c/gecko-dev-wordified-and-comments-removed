@@ -572,11 +572,9 @@ getExpandoObjectInternal
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-target
+JSObject
+*
+expandoChain
 nsIPrincipal
 *
 origin
