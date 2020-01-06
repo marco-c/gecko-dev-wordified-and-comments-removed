@@ -125,13 +125,9 @@ startTests
 )
 ;
 await
-(
 mozBrowserTests
 (
 browser
-)
-)
-(
 )
 ;
 }

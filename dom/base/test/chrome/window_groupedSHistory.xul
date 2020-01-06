@@ -5647,9 +5647,14 @@ promises
 .
 push
 (
-(
 navFn
+(
 )
+|
+|
+Promise
+.
+resolve
 (
 )
 )
