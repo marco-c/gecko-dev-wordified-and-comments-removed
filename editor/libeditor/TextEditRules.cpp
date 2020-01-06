@@ -806,13 +806,13 @@ GetAnchorNode
 (
 )
 ;
+mCachedSelectionOffset
+=
 selection
 -
 >
-GetAnchorOffset
+AnchorOffset
 (
-&
-mCachedSelectionOffset
 )
 ;
 }
