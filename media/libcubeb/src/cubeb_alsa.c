@@ -83,13 +83,6 @@ internal
 h
 "
 #
-include
-"
-cubeb_utils
-.
-h
-"
-#
 define
 CUBEB_STREAM_MAX
 16
