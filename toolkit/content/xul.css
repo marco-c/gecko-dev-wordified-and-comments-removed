@@ -1350,8 +1350,8 @@ vertical
 ;
 }
 %
-ifdef
-XP_MACOSX
+ifndef
+MOZ_WIDGET_GTK
 titlebar
 toolbar
 :
