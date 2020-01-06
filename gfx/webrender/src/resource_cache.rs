@@ -2199,6 +2199,7 @@ new
 (
 )
 )
+dirty_rect
 )
 ;
 }

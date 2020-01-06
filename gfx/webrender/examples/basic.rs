@@ -1249,6 +1249,10 @@ uniform
 .
 0
 )
+ClipMode
+:
+:
+Clip
 )
 ;
 let
@@ -1994,7 +1998,13 @@ offset
 color
 blur_radius
 spread_radius
+BorderRadius
+:
+:
+uniform
+(
 simple_border_radius
+)
 box_shadow_type
 )
 ;

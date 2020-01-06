@@ -107,6 +107,7 @@ api
 :
 {
 self
+DeviceUintRect
 DisplayListBuilder
 DocumentId
 LayoutSize
@@ -845,6 +846,12 @@ api
 :
 :
 BlobImageData
+_dirty_rect
+:
+Option
+<
+DeviceUintRect
+>
 )
 {
 self

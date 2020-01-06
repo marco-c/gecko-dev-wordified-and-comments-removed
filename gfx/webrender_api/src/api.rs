@@ -3797,10 +3797,22 @@ RenderNotifier
 Send
 {
 fn
+clone
+(
+&
+self
+)
+-
+>
+Box
+<
+RenderNotifier
+>
+;
+fn
 new_frame_ready
 (
 &
-mut
 self
 )
 ;
@@ -3808,7 +3820,6 @@ fn
 new_scroll_frame_ready
 (
 &
-mut
 self
 composite_needed
 :
@@ -3819,7 +3830,6 @@ fn
 external_event
 (
 &
-mut
 self
 _evt
 :
@@ -3835,7 +3845,6 @@ fn
 shut_down
 (
 &
-mut
 self
 )
 {

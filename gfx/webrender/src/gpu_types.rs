@@ -1,4 +1,10 @@
 use
+api
+:
+:
+LayerRect
+;
+use
 gpu_cache
 :
 :
@@ -73,6 +79,8 @@ i32
 derive
 (
 Debug
+Copy
+Clone
 )
 ]
 pub
@@ -114,6 +122,10 @@ pub
 blur_direction
 :
 BlurDirection
+pub
+region
+:
+LayerRect
 }
 #
 [
