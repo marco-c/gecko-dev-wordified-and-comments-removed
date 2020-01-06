@@ -708,7 +708,7 @@ LAYER_MANAGER_CURRENT
 override
 ;
 bool
-RecreateLayerManager
+CreateRemoteLayerManager
 (
 const
 std
@@ -726,6 +726,17 @@ LayerManager
 aInitializeFunc
 )
 ;
+bool
+HasLayerManager
+(
+)
+{
+return
+!
+!
+mLayerManager
+;
+}
 virtual
 void
 SetInputContext
