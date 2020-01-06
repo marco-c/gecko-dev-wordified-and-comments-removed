@@ -5068,6 +5068,9 @@ block
 inc
 .
 css
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 identity
 -
@@ -5202,6 +5205,8 @@ bottom
 ;
 }
 }
+%
+endif
 #
 identity
 -
