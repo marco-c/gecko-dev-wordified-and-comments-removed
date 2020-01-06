@@ -94,7 +94,7 @@ GeckoProcessType_Invalid
 )
 mRemoteType
 (
-NullString
+VoidString
 (
 )
 )
@@ -157,7 +157,7 @@ aProcess
 )
 mRemoteType
 (
-NullString
+VoidString
 (
 )
 )

@@ -4275,7 +4275,7 @@ nsDependentAtomString
 (
 attrName
 )
-NullString
+VoidString
 (
 )
 (
@@ -4285,7 +4285,7 @@ IsEmpty
 (
 )
 ?
-NullString
+VoidString
 (
 )
 :
@@ -4298,7 +4298,7 @@ IsEmpty
 (
 )
 ?
-NullString
+VoidString
 (
 )
 :

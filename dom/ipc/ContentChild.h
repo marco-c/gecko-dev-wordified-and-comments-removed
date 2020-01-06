@@ -3631,7 +3631,7 @@ mIsForBrowser
 nsString
 mRemoteType
 =
-NullString
+VoidString
 (
 )
 ;

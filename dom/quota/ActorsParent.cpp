@@ -22304,7 +22304,7 @@ client
 >
 AbortOperations
 (
-NullCString
+VoidCString
 (
 )
 )

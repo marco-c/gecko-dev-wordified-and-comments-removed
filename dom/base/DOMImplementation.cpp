@@ -276,7 +276,7 @@ NodeInfoManager
 name
 aPublicId
 aSystemId
-NullString
+VoidString
 (
 )
 aRv
@@ -863,7 +863,7 @@ EmptyString
 EmptyString
 (
 )
-NullString
+VoidString
 (
 )
 )
@@ -1242,7 +1242,7 @@ Value
 (
 )
 :
-NullString
+VoidString
 (
 )
 getter_AddRefs

@@ -1329,14 +1329,14 @@ EmptyCString
 const
 nsString
 &
-NullString
+VoidString
 (
 )
 ;
 const
 nsCString
 &
-NullCString
+VoidCString
 (
 )
 ;

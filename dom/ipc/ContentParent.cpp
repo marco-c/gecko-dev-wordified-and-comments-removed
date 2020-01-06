@@ -22678,7 +22678,7 @@ aFeatures
 aBaseURI
 aFullZoom
 nextTabParentId
-NullString
+VoidString
 (
 )
 rv

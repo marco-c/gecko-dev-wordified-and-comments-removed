@@ -3933,7 +3933,7 @@ Impl
 >
 SetLazyData
 (
-NullString
+VoidString
 (
 )
 aData

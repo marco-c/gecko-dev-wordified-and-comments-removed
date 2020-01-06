@@ -1688,10 +1688,10 @@ globalWindow
 AsInner
 (
 )
-NullString
+VoidString
 (
 )
-NullString
+VoidString
 (
 )
 )

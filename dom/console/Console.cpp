@@ -8442,7 +8442,7 @@ aStyles
 .
 AppendElement
 (
-NullString
+VoidString
 (
 )
 fallible

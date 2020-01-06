@@ -674,7 +674,7 @@ BroadcastChangeNotification
 (
 aKey
 old
-NullString
+VoidString
 (
 )
 )
@@ -752,13 +752,13 @@ NS_SUCCESS_DOM_NO_OPERATION
 {
 BroadcastChangeNotification
 (
-NullString
+VoidString
 (
 )
-NullString
+VoidString
 (
 )
-NullString
+VoidString
 (
 )
 )

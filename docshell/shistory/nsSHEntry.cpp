@@ -1677,7 +1677,7 @@ false
 ;
 mSrcdocData
 =
-NullString
+VoidString
 (
 )
 ;

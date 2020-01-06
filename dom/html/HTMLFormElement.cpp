@@ -3115,7 +3115,7 @@ target
 get
 (
 )
-NullString
+VoidString
 (
 )
 postDataStream

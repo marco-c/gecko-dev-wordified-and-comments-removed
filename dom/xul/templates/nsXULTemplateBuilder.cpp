@@ -2131,7 +2131,7 @@ nsDependentAtomString
 aTag
 )
 :
-NullString
+VoidString
 (
 )
 ;

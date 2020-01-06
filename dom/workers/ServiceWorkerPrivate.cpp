@@ -7468,7 +7468,7 @@ cx
 scriptSpec
 false
 WorkerTypeService
-NullString
+VoidString
 (
 )
 mInfo

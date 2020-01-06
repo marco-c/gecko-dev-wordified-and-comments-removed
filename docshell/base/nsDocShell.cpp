@@ -7167,7 +7167,7 @@ principalToInherit
 flags
 target
 nullptr
-NullString
+VoidString
 (
 )
 postStream
@@ -23000,7 +23000,7 @@ EmptyString
 (
 )
 nullptr
-NullString
+VoidString
 (
 )
 nullptr
@@ -23008,7 +23008,7 @@ nullptr
 LOAD_ERROR_PAGE
 nullptr
 true
-NullString
+VoidString
 (
 )
 this
@@ -23481,7 +23481,7 @@ contentTypeHint
 get
 (
 )
-NullString
+VoidString
 (
 )
 nullptr
@@ -38966,7 +38966,7 @@ mTypeHint
 get
 (
 )
-NullString
+VoidString
 (
 )
 mPostData
@@ -40718,7 +40718,7 @@ EmptyString
 (
 )
 aTypeHint
-NullString
+VoidString
 (
 )
 aPostData
@@ -42771,7 +42771,7 @@ else
 {
 srcdoc
 =
-NullString
+VoidString
 (
 )
 ;
@@ -50663,7 +50663,7 @@ else
 {
 srcdoc
 =
-NullString
+VoidString
 (
 )
 ;
@@ -50724,7 +50724,7 @@ contentType
 get
 (
 )
-NullString
+VoidString
 (
 )
 postData
@@ -56768,7 +56768,7 @@ aHeadersDataStream
 LOAD_LINK
 nullptr
 true
-NullString
+VoidString
 (
 )
 this

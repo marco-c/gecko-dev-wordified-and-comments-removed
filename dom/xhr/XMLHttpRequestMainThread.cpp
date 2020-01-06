@@ -6458,10 +6458,10 @@ Open
 aMethod
 aUrl
 true
-NullString
+VoidString
 (
 )
-NullString
+VoidString
 (
 )
 aRv

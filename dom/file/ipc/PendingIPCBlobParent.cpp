@@ -165,7 +165,7 @@ mBlobImpl
 >
 SetLazyData
 (
-NullString
+VoidString
 (
 )
 aData

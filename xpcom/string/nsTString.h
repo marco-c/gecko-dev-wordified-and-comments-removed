@@ -1547,7 +1547,7 @@ nsTString
 char
 >
 &
-NullCString
+VoidCString
 (
 )
 ;
@@ -1558,7 +1558,7 @@ nsTString
 char16_t
 >
 &
-NullString
+VoidString
 (
 )
 ;

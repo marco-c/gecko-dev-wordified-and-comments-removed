@@ -215,13 +215,13 @@ aType
 )
 mAttrNamespace
 (
-NullString
+VoidString
 (
 )
 )
 mPrevValue
 (
-NullString
+VoidString
 (
 )
 )

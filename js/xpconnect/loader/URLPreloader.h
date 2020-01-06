@@ -806,7 +806,7 @@ key
 )
 mData
 (
-NullCString
+VoidCString
 (
 )
 )

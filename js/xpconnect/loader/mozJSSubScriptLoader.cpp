@@ -269,7 +269,7 @@ cx
 )
 charset
 (
-NullString
+VoidString
 (
 )
 )

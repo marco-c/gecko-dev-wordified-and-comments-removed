@@ -1233,7 +1233,7 @@ aString
 )
 {
 return
-NullCString
+VoidCString
 (
 )
 ;

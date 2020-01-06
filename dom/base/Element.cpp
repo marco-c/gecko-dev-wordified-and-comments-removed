@@ -11685,7 +11685,7 @@ nsIDOMMutationEvent
 :
 ADDITION
 ?
-NullString
+VoidString
 (
 )
 :
@@ -11704,7 +11704,7 @@ IsEmpty
 (
 )
 ?
-NullString
+VoidString
 (
 )
 :
@@ -12989,7 +12989,7 @@ nsDependentAtomString
 (
 oldValueAtom
 )
-NullString
+VoidString
 (
 )
 (
@@ -12999,7 +12999,7 @@ IsEmpty
 (
 )
 ?
-NullString
+VoidString
 (
 )
 :

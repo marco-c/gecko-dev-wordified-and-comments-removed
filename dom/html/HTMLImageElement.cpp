@@ -1492,7 +1492,7 @@ mResponsiveSelector
 >
 SetDefaultSource
 (
-NullString
+VoidString
 (
 )
 )

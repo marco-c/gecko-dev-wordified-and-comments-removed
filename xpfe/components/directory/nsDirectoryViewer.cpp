@@ -4008,7 +4008,7 @@ RemoveElementAt
 nsCString
 uri
 =
-NullCString
+VoidCString
 (
 )
 ;
