@@ -22,8 +22,6 @@ extensions
 .
 screenshots
 .
-system
--
 disabled
 "
 false
@@ -156,8 +154,6 @@ extensions
 .
 screenshots
 .
-system
--
 disabled
 "
 false
@@ -185,8 +181,6 @@ extensions
 .
 screenshots
 .
-system
--
 disabled
 "
 false
@@ -299,8 +293,6 @@ extensions
 .
 screenshots
 .
-system
--
 disabled
 "
 true
