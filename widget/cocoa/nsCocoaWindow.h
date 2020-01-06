@@ -1674,6 +1674,9 @@ const
 LayoutDeviceIntRect
 &
 aRect
+nsWidgetInitData
+*
+aInitData
 )
 ;
 void
