@@ -545,7 +545,7 @@ syncedTabsDeckComponent
 ;
 syncedTabsDeckComponent
 .
-_accountStatus
+_getSignedInUser
 =
 (
 )
@@ -555,7 +555,11 @@ Promise
 .
 resolve
 (
+{
+verified
+:
 true
+}
 )
 ;
 let
