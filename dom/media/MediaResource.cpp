@@ -421,10 +421,6 @@ mReopenOnError
 (
 false
 )
-mIgnoreClose
-(
-false
-)
 mCacheStream
 (
 this
@@ -467,10 +463,6 @@ mOffset
 0
 )
 mReopenOnError
-(
-false
-)
-mIgnoreClose
 (
 false
 )
@@ -1280,10 +1272,6 @@ mReopenOnError
 =
 false
 ;
-mIgnoreClose
-=
-false
-;
 mSuspendAgent
 .
 UpdateSuspendedStatusIfNeeded
@@ -1759,12 +1747,6 @@ rv
 ;
 }
 }
-if
-(
-!
-mIgnoreClose
-)
-{
 mCacheStream
 .
 NotifyDataEnded
@@ -1826,7 +1808,6 @@ nsIRequest
 LOAD_BACKGROUND
 )
 ;
-}
 }
 return
 NS_OK
@@ -3167,10 +3148,6 @@ IsTransportSeekable
 )
 )
 {
-mIgnoreClose
-=
-true
-;
 CloseChannel
 (
 )
@@ -3786,10 +3763,6 @@ CloseChannel
 mOffset
 =
 aOffset
-;
-mIgnoreClose
-=
-true
 ;
 if
 (

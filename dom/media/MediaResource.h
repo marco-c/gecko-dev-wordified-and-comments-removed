@@ -1593,9 +1593,6 @@ mListener
 bool
 mReopenOnError
 ;
-bool
-mIgnoreClose
-;
 MediaCacheStream
 mCacheStream
 ;
