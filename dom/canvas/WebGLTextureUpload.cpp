@@ -2660,7 +2660,7 @@ maxWidthHeight
 mContext
 -
 >
-mImplMaxTextureSize
+mGLMaxTextureSize
 >
 >
 level
@@ -2676,7 +2676,7 @@ CeilingLog2
 mContext
 -
 >
-mImplMaxTextureSize
+mGLMaxTextureSize
 )
 ;
 break
@@ -2689,7 +2689,7 @@ maxWidthHeight
 mContext
 -
 >
-mImplMax3DTextureSize
+mGLMax3DTextureSize
 >
 >
 level
@@ -2705,7 +2705,7 @@ CeilingLog2
 mContext
 -
 >
-mImplMax3DTextureSize
+mGLMax3DTextureSize
 )
 ;
 break
@@ -2718,7 +2718,7 @@ maxWidthHeight
 mContext
 -
 >
-mImplMaxTextureSize
+mGLMaxTextureSize
 >
 >
 level
@@ -2728,7 +2728,7 @@ maxDepth
 mContext
 -
 >
-mImplMaxArrayTextureLayers
+mGLMaxArrayTextureLayers
 ;
 maxLevel
 =
@@ -2737,7 +2737,7 @@ CeilingLog2
 mContext
 -
 >
-mImplMaxTextureSize
+mGLMaxTextureSize
 )
 ;
 break
@@ -2756,7 +2756,7 @@ maxWidthHeight
 mContext
 -
 >
-mImplMaxCubeMapTextureSize
+mGLMaxCubeMapTextureSize
 >
 >
 level
@@ -2772,7 +2772,7 @@ CeilingLog2
 mContext
 -
 >
-mImplMaxCubeMapTextureSize
+mGLMaxCubeMapTextureSize
 )
 ;
 break

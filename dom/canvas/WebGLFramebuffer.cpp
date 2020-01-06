@@ -2944,7 +2944,7 @@ MOZ_ASSERT
 mContext
 -
 >
-mImplMaxColorAttachments
+mGLMaxColorAttachments
 <
 =
 kMaxColorAttachments
@@ -2958,7 +2958,7 @@ colorId
 mContext
 -
 >
-mImplMaxColorAttachments
+mGLMaxColorAttachments
 )
 return
 Nothing
@@ -4239,7 +4239,7 @@ i
 mContext
 -
 >
-mImplMaxColorAttachments
+mGLMaxColorAttachments
 ;
 i
 +
@@ -5441,7 +5441,7 @@ driverBuffers
 mContext
 -
 >
-mImplMaxDrawBuffers
+mGLMaxDrawBuffers
 LOCAL_GL_NONE
 )
 ;
@@ -5612,7 +5612,7 @@ Length
 mContext
 -
 >
-mImplMaxDrawBuffers
+mGLMaxDrawBuffers
 )
 {
 mContext
@@ -6488,7 +6488,7 @@ FloorLog2
 mContext
 -
 >
-mImplMaxTextureSize
+mGLMaxTextureSize
 )
 )
 return
@@ -6539,7 +6539,7 @@ FloorLog2
 mContext
 -
 >
-mImplMaxCubeMapTextureSize
+mGLMaxCubeMapTextureSize
 )
 )
 return
@@ -6896,7 +6896,7 @@ layer
 mContext
 -
 >
-mImplMax3DTextureSize
+mGLMax3DTextureSize
 )
 {
 mContext
@@ -6937,7 +6937,7 @@ FloorLog2
 mContext
 -
 >
-mImplMax3DTextureSize
+mGLMax3DTextureSize
 )
 )
 {
@@ -6987,7 +6987,7 @@ layer
 mContext
 -
 >
-mImplMaxArrayTextureLayers
+mGLMaxArrayTextureLayers
 )
 {
 mContext
@@ -7028,7 +7028,7 @@ FloorLog2
 mContext
 -
 >
-mImplMaxTextureSize
+mGLMaxTextureSize
 )
 )
 {

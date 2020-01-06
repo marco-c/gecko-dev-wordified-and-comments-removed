@@ -373,7 +373,7 @@ JS
 :
 Int32Value
 (
-mImplMax3DTextureSize
+mGLMax3DTextureSize
 )
 ;
 case
@@ -385,7 +385,7 @@ JS
 :
 Int32Value
 (
-mImplMaxArrayTextureLayers
+mGLMaxArrayTextureLayers
 )
 ;
 case
