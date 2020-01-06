@@ -3279,11 +3279,6 @@ mDecoderStateMachine
 >
 DispatchIsLiveStream
 (
-GetResource
-(
-)
--
->
 IsLiveStream
 (
 )

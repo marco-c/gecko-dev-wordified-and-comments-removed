@@ -1329,6 +1329,14 @@ CanPlayThroughImpl
 =
 0
 ;
+virtual
+bool
+IsLiveStream
+(
+)
+=
+0
+;
 RefPtr
 <
 MediaDecoderStateMachine
