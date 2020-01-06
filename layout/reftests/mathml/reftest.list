@@ -6786,6 +6786,17 @@ ref
 html
 pref
 (
+dom
+.
+meta
+-
+viewport
+.
+enabled
+true
+)
+pref
+(
 font
 .
 size
