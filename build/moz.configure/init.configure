@@ -2951,6 +2951,11 @@ check_build_environment
 '
 MOZ_AUTOMATION
 '
+'
+-
+-
+help
+'
 )
 checking
 (
@@ -2972,6 +2977,7 @@ vcs_checkout_type
 (
 build_env
 automation
+_
 )
 :
 if
