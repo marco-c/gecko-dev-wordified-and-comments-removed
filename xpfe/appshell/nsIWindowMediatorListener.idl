@@ -130,7 +130,7 @@ in
 nsIXULWindow
 window
 in
-wstring
+AString
 newTitle
 )
 ;

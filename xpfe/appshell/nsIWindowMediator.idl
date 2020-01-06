@@ -868,7 +868,7 @@ in
 nsIXULWindow
 aWindow
 in
-wstring
+AString
 inTitle
 )
 ;

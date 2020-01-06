@@ -1755,8 +1755,8 @@ nsIXULWindow
 *
 inWindow
 const
-char16_t
-*
+nsAString
+&
 inTitle
 )
 {
