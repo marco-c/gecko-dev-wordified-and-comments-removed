@@ -240,6 +240,10 @@ mGotTimecodeScale
 (
 false
 )
+mGotClusterTimecode
+(
+false
+)
 {
 if
 (
@@ -479,6 +483,9 @@ mTimecodeScale
 ;
 bool
 mGotTimecodeScale
+;
+bool
+mGotClusterTimecode
 ;
 }
 ;
