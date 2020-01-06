@@ -181,6 +181,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 nsAttrValue
 &
 aResult

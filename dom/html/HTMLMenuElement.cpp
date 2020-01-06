@@ -515,6 +515,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 nsAttrValue
 &
 aResult
@@ -558,6 +561,7 @@ ParseAttribute
 aNamespaceID
 aAttribute
 aValue
+aMaybeScriptedPrincipal
 aResult
 )
 ;
