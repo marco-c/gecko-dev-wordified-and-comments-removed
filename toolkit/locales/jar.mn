@@ -1488,6 +1488,12 @@ platform
 /
 gtk
 /
+os
+=
+LikeUnix
+os
+=
+Android
 %
 locale
 global
