@@ -182,6 +182,14 @@ OwnerDoc
 ;
 }
 return
+aElement
+-
+>
+GetAndClearHasUserInteractedLoadOrSeek
+(
+)
+|
+|
 EventStateManager
 :
 :
