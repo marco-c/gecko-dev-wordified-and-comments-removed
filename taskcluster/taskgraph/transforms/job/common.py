@@ -770,8 +770,6 @@ level
 s
 -
 checkouts
--
-v1
 '
 %
 level
