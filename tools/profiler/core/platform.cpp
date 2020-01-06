@@ -3139,6 +3139,13 @@ MAX_NATIVE_FRAMES
 =
 1024
 ;
+static
+const
+size_t
+MAX_JS_FRAMES
+=
+1024
+;
 struct
 NativeStack
 {
@@ -3313,7 +3320,7 @@ ProfilingFrameIterator
 Frame
 jsFrames
 [
-1000
+MAX_JS_FRAMES
 ]
 ;
 if
