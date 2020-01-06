@@ -1362,7 +1362,9 @@ RecordReflowStatus
 (
 bool
 aChildIsBlock
+const
 nsReflowStatus
+&
 aFrameReflowStatus
 )
 {
@@ -20420,7 +20422,7 @@ return
 newFrame
 ;
 }
-nsresult
+void
 nsBlockFrame
 :
 :
@@ -20432,7 +20434,9 @@ aState
 nsIFrame
 *
 aFloat
+const
 nsReflowStatus
+&
 aFloatStatus
 )
 {
@@ -20695,9 +20699,6 @@ mReflowStatus
 SetOverflowIncomplete
 (
 )
-;
-return
-NS_OK
 ;
 }
 static

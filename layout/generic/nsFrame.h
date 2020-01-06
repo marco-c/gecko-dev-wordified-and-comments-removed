@@ -1623,7 +1623,9 @@ char
 aMethod
 bool
 aEnter
+const
 nsReflowStatus
+&
 aStatus
 )
 ;
