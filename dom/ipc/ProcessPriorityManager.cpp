@@ -1196,6 +1196,14 @@ return
 sPrefsEnabled
 &
 &
+hal
+:
+:
+SetProcessPrioritySupported
+(
+)
+&
+&
 !
 sRemoteTabsDisabled
 ;

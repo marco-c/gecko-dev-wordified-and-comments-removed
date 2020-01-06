@@ -739,6 +739,11 @@ SwitchState
 aState
 )
 ;
+bool
+SetProcessPrioritySupported
+(
+)
+;
 void
 SetProcessPriority
 (
