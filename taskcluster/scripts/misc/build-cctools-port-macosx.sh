@@ -58,7 +58,7 @@ HOME
 workspace
 UPLOAD_DIR
 =
-WORKSPACE
+HOME
 /
 artifacts
 #

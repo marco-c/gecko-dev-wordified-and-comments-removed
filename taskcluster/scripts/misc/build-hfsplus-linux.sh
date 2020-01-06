@@ -33,7 +33,7 @@ WORKSPACE
 build
 UPLOAD_DIR
 =
-WORKSPACE
+HOME
 /
 artifacts
 cd

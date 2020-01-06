@@ -47,7 +47,7 @@ WORKSPACE
 dmg
 UPLOAD_DIR
 =
-WORKSPACE
+HOME
 /
 artifacts
 #

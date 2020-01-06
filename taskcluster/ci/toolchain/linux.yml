@@ -192,6 +192,8 @@ artifact
 :
 public
 /
+build
+/
 clang
 .
 tar
@@ -370,6 +372,8 @@ artifact
 :
 public
 /
+build
+/
 clang
 -
 tidy
@@ -485,6 +489,8 @@ artifact
 :
 public
 /
+build
+/
 gcc
 .
 tar
@@ -598,6 +604,8 @@ artifact
 :
 public
 /
+build
+/
 binutils
 .
 tar
@@ -734,6 +742,8 @@ toolchain
 artifact
 :
 public
+/
+build
 /
 cctools
 .
@@ -882,6 +892,8 @@ artifact
 :
 public
 /
+build
+/
 hfsplus
 -
 tools
@@ -986,6 +998,8 @@ toolchain
 artifact
 :
 public
+/
+build
 /
 dmg
 .
