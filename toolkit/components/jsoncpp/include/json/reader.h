@@ -74,6 +74,13 @@ disable
 )
 #
 endif
+#
+pragma
+pack
+(
+push
+8
+)
 namespace
 Json
 {
@@ -792,6 +799,12 @@ Value
 )
 ;
 }
+#
+pragma
+pack
+(
+pop
+)
 #
 if
 defined

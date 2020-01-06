@@ -5,8 +5,16 @@ LIB_JSONCPP_JSON_TOOL_H_INCLUDED
 define
 LIB_JSONCPP_JSON_TOOL_H_INCLUDED
 #
-ifndef
+ifdef
 NO_LOCALE_SUPPORT
+#
+define
+JSONCPP_NO_LOCALE_SUPPORT
+#
+endif
+#
+ifndef
+JSONCPP_NO_LOCALE_SUPPORT
 #
 include
 <
@@ -25,7 +33,7 @@ getDecimalPoint
 {
 #
 ifdef
-NO_LOCALE_SUPPORT
+JSONCPP_NO_LOCALE_SUPPORT
 return
 '
 \

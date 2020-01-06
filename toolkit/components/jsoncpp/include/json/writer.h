@@ -57,6 +57,13 @@ disable
 )
 #
 endif
+#
+pragma
+pack
+(
+push
+8
+)
 namespace
 Json
 {
@@ -733,6 +740,12 @@ root
 )
 ;
 }
+#
+pragma
+pack
+(
+pop
+)
 #
 if
 defined

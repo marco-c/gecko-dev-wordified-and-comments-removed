@@ -14,6 +14,13 @@ include
 <
 memory
 >
+#
+pragma
+pack
+(
+push
+8
+)
 namespace
 Json
 {
@@ -362,5 +369,11 @@ false
 ;
 }
 }
+#
+pragma
+pack
+(
+pop
+)
 #
 endif

@@ -20,6 +20,13 @@ h
 "
 #
 endif
+#
+pragma
+pack
+(
+push
+8
+)
 namespace
 Json
 {
@@ -60,5 +67,11 @@ allowNumericKeys_
 }
 ;
 }
+#
+pragma
+pack
+(
+pop
+)
 #
 endif
