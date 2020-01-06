@@ -7,6 +7,13 @@ GFX_WEBRENDERUSERDATA_H
 #
 include
 "
+BasicLayers
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -625,6 +632,12 @@ return
 mInvalid
 ;
 }
+RefPtr
+<
+BasicLayerManager
+>
+mBasicLayerManager
+;
 protected
 :
 nsAutoPtr

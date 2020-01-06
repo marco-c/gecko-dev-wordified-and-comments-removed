@@ -28408,6 +28408,17 @@ html
 ref
 .
 html
+pref
+(
+gfx
+.
+webrender
+.
+layers
+-
+free
+true
+)
 =
 =
 796847
