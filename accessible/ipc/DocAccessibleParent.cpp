@@ -2093,7 +2093,6 @@ if
 (
 aRole
 >
-=
 roles
 :
 :
