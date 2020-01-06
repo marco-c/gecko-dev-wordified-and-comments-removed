@@ -8168,6 +8168,13 @@ Shutdown
 (
 )
 ;
+mGraph
+-
+>
+mDriver
+=
+nullptr
+;
 if
 (
 mGraph
