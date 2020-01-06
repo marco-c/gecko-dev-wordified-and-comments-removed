@@ -66,12 +66,6 @@ SendElement
 }
 ;
 use
-error_reporting
-:
-:
-ParseErrorReporter
-;
-use
 euclid
 :
 :
@@ -636,13 +630,6 @@ StylesheetGuards
 '
 a
 >
-pub
-error_reporter
-:
-&
-'
-a
-ParseErrorReporter
 pub
 timer
 :

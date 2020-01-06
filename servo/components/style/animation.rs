@@ -2234,11 +2234,6 @@ previous_style
 previous_style
 None
 None
-&
-*
-context
-.
-error_reporter
 font_metrics_provider
 CascadeFlags
 :

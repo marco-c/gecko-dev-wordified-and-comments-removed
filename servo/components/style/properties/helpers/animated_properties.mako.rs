@@ -3897,12 +3897,6 @@ Self
 >
 {
 use
-error_reporting
-:
-:
-create_error_reporter
-;
-use
 properties
 :
 :
@@ -4298,13 +4292,6 @@ custom_properties
 (
 )
 ;
-let
-reporter
-=
-create_error_reporter
-(
-)
-;
 match
 id
 {
@@ -4462,8 +4449,6 @@ initial
 )
 ;
 }
-&
-reporter
 quirks_mode
 )
 ;

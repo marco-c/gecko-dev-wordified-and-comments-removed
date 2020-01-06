@@ -2310,10 +2310,6 @@ Option
 mut
 CascadeInfo
 >
-error_reporter
-:
-&
-ParseErrorReporter
 )
 {
 let
@@ -3174,7 +3170,6 @@ endif
 }
 }
 }
-error_reporter
 quirks_mode
 )
 ;
@@ -3191,7 +3186,6 @@ declaration
 inherited_style
 context
 cacheable
-error_reporter
 )
 ;
 %

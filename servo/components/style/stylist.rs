@@ -42,12 +42,6 @@ element_state
 ElementState
 ;
 use
-error_reporting
-:
-:
-create_error_reporter
-;
-use
 font_metrics
 :
 :
@@ -2769,10 +2763,6 @@ p
 )
 None
 None
-&
-create_error_reporter
-(
-)
 font_metrics
 cascade_flags
 self
@@ -3202,10 +3192,6 @@ inherited_style
 )
 None
 None
-&
-create_error_reporter
-(
-)
 font_metrics
 CascadeFlags
 :
@@ -3295,10 +3281,6 @@ parent_style
 )
 visited_values
 None
-&
-create_error_reporter
-(
-)
 font_metrics
 CascadeFlags
 :
@@ -5825,10 +5807,6 @@ parent_style
 )
 None
 None
-&
-create_error_reporter
-(
-)
 &
 metrics
 CascadeFlags

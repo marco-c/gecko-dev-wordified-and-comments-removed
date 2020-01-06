@@ -46,6 +46,9 @@ extern
 crate
 style_traits
 ;
+mod
+error_reporter
+;
 #
 [
 allow

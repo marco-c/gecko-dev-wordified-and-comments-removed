@@ -1541,6 +1541,9 @@ Token
 :
 :
 BadUrl
+(
+u
+)
 =
 >
 return
@@ -1550,6 +1553,9 @@ StyleParseError
 :
 :
 BadUrlInDeclarationValueBlock
+(
+u
+)
 .
 into
 (
@@ -1559,6 +1565,9 @@ Token
 :
 :
 BadString
+(
+s
+)
 =
 >
 return
@@ -1568,6 +1577,9 @@ StyleParseError
 :
 :
 BadStringInDeclarationValueBlock
+(
+s
+)
 .
 into
 (
