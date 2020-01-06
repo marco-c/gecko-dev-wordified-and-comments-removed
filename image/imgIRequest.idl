@@ -515,7 +515,7 @@ etc
 readonly
 attribute
 nsIURI
-currentURI
+finalURI
 ;
 readonly
 attribute

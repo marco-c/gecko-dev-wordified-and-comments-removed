@@ -2502,7 +2502,7 @@ nsresult
 imgRequestProxy
 :
 :
-GetCurrentURI
+GetFinalURI
 (
 nsIURI
 *
@@ -2528,7 +2528,7 @@ GetOwner
 )
 -
 >
-GetCurrentURI
+GetFinalURI
 (
 aURI
 )
