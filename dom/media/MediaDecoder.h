@@ -1694,6 +1694,11 @@ TimedMetadata
 aMetadata
 )
 ;
+bool
+ShouldThrottleDownload
+(
+)
+;
 MediaDecoderOwner
 *
 mOwner
