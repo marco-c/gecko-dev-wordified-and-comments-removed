@@ -213,6 +213,11 @@ UNIFIED_SOURCES
 =
 [
 '
+TestAudioTrackEncoder
+.
+cpp
+'
+'
 TestVideoTrackEncoder
 .
 cpp
