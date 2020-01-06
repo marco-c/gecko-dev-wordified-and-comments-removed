@@ -331,7 +331,6 @@ DoProcessMoreGeckoEvents
 {
 OnDispatchedEvent
 (
-nullptr
 )
 ;
 }
@@ -596,9 +595,6 @@ nsBaseAppShell
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-thr
 )
 {
 if
@@ -667,7 +663,6 @@ thr
 )
 OnDispatchedEvent
 (
-thr
 )
 ;
 }

@@ -1259,7 +1259,6 @@ mEventloopNestingLevel
 {
 OnDispatchedEvent
 (
-nullptr
 )
 ;
 mNativeCallbackPending

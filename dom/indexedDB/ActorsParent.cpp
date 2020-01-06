@@ -121910,8 +121910,6 @@ DEBUGThreadSlower
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
 )
 {
 MOZ_CRASH

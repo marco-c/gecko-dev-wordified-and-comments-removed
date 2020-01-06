@@ -360,9 +360,6 @@ ThreadObserver
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-thread
 )
 {
 EnqueueTask

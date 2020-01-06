@@ -1734,9 +1734,6 @@ ThreadObserver
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-aThread
 )
 {
 MonitorAutoLock

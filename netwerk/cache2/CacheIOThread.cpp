@@ -2186,9 +2186,6 @@ CacheIOThread
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-thread
 )
 {
 MonitorAutoLock

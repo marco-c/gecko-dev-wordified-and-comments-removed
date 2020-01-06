@@ -1574,9 +1574,6 @@ MessagePumpForNonMainUIThreads
 :
 OnDispatchedEvent
 (
-nsIThreadInternal
-*
-thread
 )
 {
 if
