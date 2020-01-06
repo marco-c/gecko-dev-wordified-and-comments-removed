@@ -537,7 +537,7 @@ sandbox
 let
 key
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -616,7 +616,7 @@ sb
 ;
 is
 (
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -638,7 +638,7 @@ empty
 let
 key
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (

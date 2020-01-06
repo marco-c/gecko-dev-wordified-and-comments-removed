@@ -968,9 +968,6 @@ chrome
 JavaScript
 as
 the
-[
-ThreadSafe
-]
 ChromeUtils
 .
 saveHeapSnapshot
@@ -981,7 +978,7 @@ dom
 /
 webidl
 /
-ThreadSafeChromeUtils
+ChromeUtils
 .
 webidl
 for

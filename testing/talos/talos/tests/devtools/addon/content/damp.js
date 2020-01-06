@@ -240,7 +240,7 @@ defineLazyGetter
 (
 this
 "
-ThreadSafeChromeUtils
+ChromeUtils
 "
 function
 (
@@ -250,7 +250,7 @@ return
 require
 (
 "
-ThreadSafeChromeUtils
+ChromeUtils
 "
 )
 ;
@@ -974,7 +974,7 @@ this
 .
 _snapshot
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 readHeapSnapshot
 (

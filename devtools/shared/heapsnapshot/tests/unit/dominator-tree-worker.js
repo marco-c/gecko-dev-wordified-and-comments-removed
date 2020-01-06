@@ -38,7 +38,7 @@ try
 const
 path
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 saveHeapSnapshot
 (
@@ -52,7 +52,7 @@ true
 const
 snapshot
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 readHeapSnapshot
 (

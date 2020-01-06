@@ -554,7 +554,7 @@ function
 )
 {
 return
-ThreadSafeChromeUtils
+ChromeUtils
 .
 saveHeapSnapshot
 (

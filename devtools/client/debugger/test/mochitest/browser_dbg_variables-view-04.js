@@ -1294,7 +1294,7 @@ emptied
 ;
 is
 (
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (

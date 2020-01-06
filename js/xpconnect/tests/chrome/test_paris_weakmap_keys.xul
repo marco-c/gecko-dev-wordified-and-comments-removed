@@ -573,7 +573,7 @@ garbageCollect
 ;
 is
 (
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (

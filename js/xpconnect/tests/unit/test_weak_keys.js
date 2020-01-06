@@ -67,7 +67,7 @@ no
 var
 keys
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -90,7 +90,7 @@ WeakMap
 ;
 keys
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -149,7 +149,7 @@ weakmap
 ;
 keys
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakSetKeys
 (
@@ -172,7 +172,7 @@ WeakMap
 ;
 keys
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakSetKeys
 (
@@ -242,7 +242,7 @@ forceGC
 ;
 keys
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -287,7 +287,7 @@ weakmap
 ;
 keys
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakSetKeys
 (

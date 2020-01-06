@@ -122,7 +122,7 @@ lazyRequireGetter
 (
 this
 "
-ThreadSafeChromeUtils
+ChromeUtils
 "
 )
 ;
@@ -723,7 +723,7 @@ dbg
 }
 }
 return
-ThreadSafeChromeUtils
+ChromeUtils
 .
 saveHeapSnapshotGetId
 (

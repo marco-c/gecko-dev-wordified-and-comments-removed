@@ -128,7 +128,7 @@ ResourceCleaner_cleanup
 let
 keys
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (

@@ -75,7 +75,7 @@ file
 const
 snapshot
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 readHeapSnapshot
 (

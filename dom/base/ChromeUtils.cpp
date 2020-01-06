@@ -82,7 +82,7 @@ namespace
 dom
 {
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 NondeterministicGetWeakMapKeys
@@ -227,7 +227,7 @@ UndefinedValue
 }
 }
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 NondeterministicGetWeakSetKeys
@@ -372,7 +372,7 @@ UndefinedValue
 }
 }
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 Base64URLEncode
@@ -568,7 +568,7 @@ rv
 }
 }
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 Base64URLDecode

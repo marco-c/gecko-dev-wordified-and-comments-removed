@@ -166,7 +166,7 @@ snapshots
 snapshotFilePath
 ]
 =
-ThreadSafeChromeUtils
+ChromeUtils
 .
 readHeapSnapshot
 (

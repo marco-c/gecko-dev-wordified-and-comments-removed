@@ -78,7 +78,7 @@ lazyRequireGetter
 (
 this
 "
-ThreadSafeChromeUtils
+ChromeUtils
 "
 )
 ;
@@ -4270,7 +4270,7 @@ Cu
 .
 waiveXrays
 (
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -4554,7 +4554,7 @@ Cu
 .
 waiveXrays
 (
-ThreadSafeChromeUtils
+ChromeUtils
 .
 nondeterministicGetWeakSetKeys
 (

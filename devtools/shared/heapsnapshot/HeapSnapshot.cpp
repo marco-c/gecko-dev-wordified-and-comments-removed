@@ -7807,7 +7807,7 @@ namespace
 devtools
 ;
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 SaveHeapSnapshotShared
@@ -8112,7 +8112,7 @@ edgeCount
 ;
 }
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 SaveHeapSnapshot
@@ -8146,7 +8146,7 @@ rv
 ;
 }
 void
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 SaveHeapSnapshotGetId
@@ -8183,7 +8183,7 @@ already_AddRefed
 <
 HeapSnapshot
 >
-ThreadSafeChromeUtils
+ChromeUtils
 :
 :
 ReadHeapSnapshot

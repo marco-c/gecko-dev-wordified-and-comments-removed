@@ -11105,12 +11105,22 @@ location
 )
             
 elif
+(
 identifier
 =
 =
 "
 ProtoObjectHack
 "
+or
+                  
+identifier
+=
+=
+"
+ChromeOnly
+"
+)
 :
                 
 if
