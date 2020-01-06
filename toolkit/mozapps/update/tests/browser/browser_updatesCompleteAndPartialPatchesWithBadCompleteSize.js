@@ -2,7 +2,7 @@ add_task
 (
 async
 function
-testCompleteAndPartialPatchesWithBadPartialSize
+testCompleteAndPartialPatchesWithBadCompleteSize
 (
 )
 {
@@ -10,7 +10,7 @@ let
 updateParams
 =
 "
-invalidPartialSize
+invalidCompleteSize
 =
 1
 &
@@ -42,7 +42,7 @@ cleanup
 (
 )
 {
-PanelUI
+AppMenuNotifications
 .
 removeNotification
 (

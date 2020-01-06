@@ -90,7 +90,7 @@ cleanup
 (
 )
 {
-PanelUI
+AppMenuNotifications
 .
 removeNotification
 (

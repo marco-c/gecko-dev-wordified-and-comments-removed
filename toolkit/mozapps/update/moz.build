@@ -144,6 +144,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+UpdateListener
+.
+jsm
+'
+'
 UpdateTelemetry
 .
 jsm

@@ -136,12 +136,6 @@ gBrowser
 selectedTab
 )
 ;
-gMenuButtonUpdateBadge
-.
-reset
-(
-)
-;
 }
 }
 ]
