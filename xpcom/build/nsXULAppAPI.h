@@ -617,6 +617,13 @@ XRE_IsGPUProcess
 (
 )
 )
+XRE_API
+(
+bool
+XRE_UseNativeEventProcessing
+(
+)
+)
 typedef
 void
 (
