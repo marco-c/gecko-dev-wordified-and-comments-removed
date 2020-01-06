@@ -1816,12 +1816,6 @@ mDuration
 ;
 Canonical
 <
-bool
->
-mIsShutdown
-;
-Canonical
-<
 NextFrameStatus
 >
 mNextFrameStatus
