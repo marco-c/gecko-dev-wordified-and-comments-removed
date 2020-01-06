@@ -270,6 +270,15 @@ n
 "
 )
 ;
+if
+(
+getBuildConfiguration
+(
+)
+.
+release_or_beta
+)
+{
 f
 =
 Function
@@ -311,3 +320,4 @@ b
 "
 )
 ;
+}

@@ -1,3 +1,13 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+release_or_beta
+)
+eval
+(
 m
 =
 {
@@ -155,5 +165,7 @@ getLcovInfo
 ;
 relazifyFunctions
 (
+)
+;
 )
 ;

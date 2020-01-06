@@ -51,7 +51,11 @@ in
 function
 (
 )
+{
+return
 z
+;
+}
 )
 (
 )

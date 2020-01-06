@@ -30,6 +30,8 @@ function
 (
 frame
 )
+{
+return
 frame
 .
 eval
@@ -37,6 +39,8 @@ eval
 "
 "
 )
+;
+}
 }
 )
 (

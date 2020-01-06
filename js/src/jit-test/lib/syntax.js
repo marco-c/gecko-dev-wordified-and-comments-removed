@@ -9722,6 +9722,15 @@ a
 "
 )
 ;
+if
+(
+getBuildConfiguration
+(
+)
+.
+release_or_beta
+)
+{
 test
 (
 "
@@ -9769,6 +9778,7 @@ function
 "
 )
 ;
+}
 enableForEach
 (
 )

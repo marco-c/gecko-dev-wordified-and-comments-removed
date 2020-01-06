@@ -26,6 +26,11 @@ code
 return
 ;
 }
+else
+{
+return
+;
+}
 enableLastWarning
 (
 )

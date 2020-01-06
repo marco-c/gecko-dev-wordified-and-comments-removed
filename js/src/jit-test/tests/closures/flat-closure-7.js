@@ -73,7 +73,11 @@ push
 function
 (
 )
+{
+return
 zero
+;
+}
 )
 (
 )
