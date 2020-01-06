@@ -1983,14 +1983,14 @@ BINPATH
 /
 components
 /
-nsContentPrefService
+ContentPrefService2
 .
 manifest
 BINPATH
 /
 components
 /
-nsContentPrefService
+ContentPrefService2
 .
 js
 BINPATH
