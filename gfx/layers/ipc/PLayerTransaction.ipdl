@@ -383,15 +383,6 @@ mozilla
 namespace
 layers
 {
-union
-MaybeTransform
-{
-Matrix4x4
-;
-void_t
-;
-}
-;
 /
 *
 *
