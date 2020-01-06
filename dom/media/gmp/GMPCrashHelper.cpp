@@ -19,6 +19,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+SystemGroup
+.
+h
+"
 namespace
 mozilla
 {

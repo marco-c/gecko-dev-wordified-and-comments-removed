@@ -78,6 +78,17 @@ mozilla
 /
 dom
 /
+MediaKeyStatusMap
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMException
 .
 h

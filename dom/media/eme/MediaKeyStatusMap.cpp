@@ -47,6 +47,13 @@ EMEUtils
 .
 h
 "
+#
+include
+"
+GMPUtils
+.
+h
+"
 namespace
 mozilla
 {
