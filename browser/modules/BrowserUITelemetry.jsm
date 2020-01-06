@@ -535,10 +535,14 @@ button
 }
 if
 (
-!
 AppConstants
 .
-RELEASE_OR_BETA
+MOZ_DEV_EDITION
+|
+|
+AppConstants
+.
+NIGHTLY_BUILD
 )
 {
 if
