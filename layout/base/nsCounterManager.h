@@ -654,10 +654,6 @@ nsCounterManager
 {
 public
 :
-nsCounterManager
-(
-)
-;
 bool
 AddCounterResetsAndIncrements
 (
