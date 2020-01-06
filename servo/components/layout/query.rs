@@ -427,7 +427,7 @@ margin_style_response
 :
 MarginStyleResponse
 pub
-stacking_context_scroll_offsets
+scroll_offsets
 :
 ScrollOffsetMap
 pub

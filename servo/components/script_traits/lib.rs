@@ -657,11 +657,11 @@ Epoch
 >
 )
 TickAnimations
-SetStackingContextScrollStates
+SetScrollStates
 (
 Vec
 <
-StackingContextScrollState
+ScrollState
 >
 )
 GetWebFontLoadState
@@ -2519,7 +2519,7 @@ Serialize
 ]
 pub
 struct
-StackingContextScrollState
+ScrollState
 {
 pub
 scroll_root_id
