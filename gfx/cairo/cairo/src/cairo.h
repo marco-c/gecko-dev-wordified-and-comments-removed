@@ -2298,6 +2298,15 @@ options
 )
 ;
 cairo_public
+cairo_hint_metrics_t
+cairo_scaled_font_get_hint_metrics
+(
+cairo_scaled_font_t
+*
+scaled_font
+)
+;
+cairo_public
 cairo_font_face_t
 *
 cairo_toy_font_face_create

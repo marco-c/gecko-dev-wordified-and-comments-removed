@@ -1076,6 +1076,10 @@ cairo_scaled_font_get_font_options
 _moz_cairo_scaled_font_get_font_options
 #
 define
+cairo_scaled_font_get_hint_metrics
+_moz_cairo_scaled_font_get_hint_metrics
+#
+define
 cairo_scaled_font_get_reference_count
 _moz_cairo_scaled_font_get_reference_count
 #
