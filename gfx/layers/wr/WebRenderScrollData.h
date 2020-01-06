@@ -141,6 +141,13 @@ aDescendantCount
 )
 ;
 void
+InitializeRoot
+(
+int32_t
+aDescendantCount
+)
+;
+void
 Initialize
 (
 WebRenderScrollData
