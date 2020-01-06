@@ -2057,7 +2057,7 @@ returnValue
 =
 originalUrl
 .
-spec
+displaySpec
 ;
 }
 }
@@ -7591,7 +7591,7 @@ getOriginalUrlObjectForDisplay
 (
 uri
 .
-spec
+displaySpec
 )
 ;
 if
@@ -7725,7 +7725,7 @@ decodeURLsOnCopy
 return
 uri
 .
-spec
+displaySpec
 ;
 }
 /
@@ -7759,7 +7759,7 @@ spec
 =
 uri
 .
-spec
+displaySpec
 ;
 let
 trimmedSpec
@@ -11481,7 +11481,7 @@ selectedBrowser
 .
 currentURI
 .
-spec
+displaySpec
 ;
 var
 title

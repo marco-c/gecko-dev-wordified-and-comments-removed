@@ -10015,7 +10015,7 @@ browser
 .
 currentURI
 .
-spec
+displaySpec
 )
 {
 try
@@ -10033,7 +10033,7 @@ browser
 currentURI
 )
 .
-spec
+displaySpec
 ;
 }
 catch
@@ -10047,7 +10047,7 @@ browser
 .
 currentURI
 .
-spec
+displaySpec
 ;
 }
 }
@@ -54709,7 +54709,7 @@ linkedBrowser
 .
 currentURI
 .
-spec
+displaySpec
 ;
 if
 (

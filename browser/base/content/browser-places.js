@@ -2282,7 +2282,7 @@ title
 |
 uri
 .
-spec
+displaySpec
 ;
 description
 =

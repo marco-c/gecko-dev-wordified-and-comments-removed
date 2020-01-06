@@ -4708,7 +4708,7 @@ makeURI
 aURL
 )
 .
-spec
+displaySpec
 ;
 }
 catch
@@ -4724,7 +4724,7 @@ if
 (
 fixedUpURL
 .
-spec
+displaySpec
 =
 =
 expectedURLSpec
