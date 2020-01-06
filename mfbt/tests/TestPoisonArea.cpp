@@ -754,7 +754,7 @@ aPage
 return
 !
 !
-posix_madvise
+madvise
 (
 reinterpret_cast
 <
@@ -767,7 +767,7 @@ aPage
 PageSize
 (
 )
-POSIX_MADV_NORMAL
+MADV_NORMAL
 )
 ;
 }
