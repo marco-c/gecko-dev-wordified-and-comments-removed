@@ -402,7 +402,7 @@ tester
 /
 test
 -
-ubuntu
+linux
 .
 sh
 ADD
@@ -416,7 +416,7 @@ tester
 /
 test
 -
-ubuntu
+linux
 .
 sh
 /
