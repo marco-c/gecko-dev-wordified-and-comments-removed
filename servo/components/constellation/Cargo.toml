@@ -399,6 +399,8 @@ target
 '
 cfg
 (
+all
+(
 not
 (
 target_os
@@ -406,6 +408,15 @@ target_os
 "
 windows
 "
+)
+not
+(
+target_os
+=
+"
+ios
+"
+)
 )
 )
 '
