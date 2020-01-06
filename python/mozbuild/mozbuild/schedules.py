@@ -60,6 +60,12 @@ jittest
 '
     
 '
+test
+-
+verification
+'
+    
+'
 jsreftest
 '
 ]
