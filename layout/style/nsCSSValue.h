@@ -754,6 +754,11 @@ mUsingRustString
 ;
 protected
 :
+bool
+mLoadedImage
+=
+false
+;
 virtual
 ~
 URLValueData
@@ -1035,13 +1040,6 @@ protected
 ImageValue
 (
 )
-;
-private
-:
-bool
-mLoadedImage
-=
-false
 ;
 public
 :
