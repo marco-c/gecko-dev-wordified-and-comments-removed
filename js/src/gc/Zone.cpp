@@ -476,6 +476,7 @@ shutdownCollectedEverything
 (
 )
 )
+{
 gcWeakMapList
 (
 )
@@ -484,6 +485,13 @@ clear
 (
 )
 ;
+regExps
+.
+clear
+(
+)
+;
+}
 #
 endif
 }
