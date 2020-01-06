@@ -13410,12 +13410,6 @@ aType
 ;
 mimeStream
 .
-addContentLength
-=
-true
-;
-mimeStream
-.
 setData
 (
 dataStream
