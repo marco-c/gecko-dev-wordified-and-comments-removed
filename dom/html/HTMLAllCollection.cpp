@@ -235,10 +235,6 @@ a
 nsGkAtoms
 :
 :
-applet
-nsGkAtoms
-:
-:
 button
 nsGkAtoms
 :

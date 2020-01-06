@@ -2497,15 +2497,6 @@ nsGkAtoms
 :
 embed
 )
-|
-|
-IsHTMLElement
-(
-nsGkAtoms
-:
-:
-applet
-)
 )
 ;
 nsIPresShell

@@ -2237,15 +2237,6 @@ aTag
 nsGkAtoms
 :
 :
-applet
-|
-|
-aTag
-=
-=
-nsGkAtoms
-:
-:
 embed
 |
 |
@@ -2310,10 +2301,6 @@ aElement
 >
 IsAnyOfHTMLElements
 (
-nsGkAtoms
-:
-:
-applet
 nsGkAtoms
 :
 :

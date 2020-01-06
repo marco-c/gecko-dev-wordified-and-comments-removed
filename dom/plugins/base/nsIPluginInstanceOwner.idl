@@ -147,7 +147,6 @@ nsPluginTagType
 nsPluginTagType_Unknown
 nsPluginTagType_Embed
 nsPluginTagType_Object
-nsPluginTagType_Applet
 }
 ;
 %

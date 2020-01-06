@@ -1670,12 +1670,8 @@ if
 mContent
 -
 >
-IsAnyOfHTMLElements
+IsHTMLElement
 (
-nsGkAtoms
-:
-:
-applet
 nsGkAtoms
 :
 :
@@ -1947,12 +1943,8 @@ if
 mContent
 -
 >
-IsAnyOfHTMLElements
+IsHTMLElement
 (
-nsGkAtoms
-:
-:
-applet
 nsGkAtoms
 :
 :
