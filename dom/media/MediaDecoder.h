@@ -1672,6 +1672,9 @@ mOnMediaNotSeekable
 MediaEventListener
 mOnEncrypted
 ;
+MediaEventListener
+mOnWaitingForKey
+;
 protected
 :
 double
