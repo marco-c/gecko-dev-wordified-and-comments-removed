@@ -12256,6 +12256,9 @@ perspective
 )
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 main
 -
@@ -12440,6 +12443,8 @@ solid
 toolbarShadowColor
 ;
 }
+%
+endif
 #
 customization
 -

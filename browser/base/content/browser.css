@@ -153,6 +153,9 @@ color
 important
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 :
 root
 :
@@ -170,6 +173,18 @@ lwtheme
 ]
 )
 {
+%
+else
+:
+root
+:
+-
+moz
+-
+lwtheme
+{
+%
+endif
 background
 -
 color
@@ -7551,6 +7566,9 @@ bottom
 }
 %
 endif
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 navigator
 -
@@ -7632,6 +7650,8 @@ function
 linear
 ;
 }
+%
+endif
 #
 PanelUI
 -

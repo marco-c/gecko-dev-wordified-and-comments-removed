@@ -728,6 +728,9 @@ panel
 .
 css
 )
+#
+ifndef
+MOZ_PHOTON_THEME
 skin
 /
 classic
@@ -750,9 +753,6 @@ gridTexture
 .
 png
 )
-#
-ifndef
-MOZ_PHOTON_THEME
 skin
 /
 classic

@@ -41087,6 +41087,11 @@ true
 <
 getter
 >
+<
+!
+[
+CDATA
+[
 let
 root
 =
@@ -41110,6 +41115,13 @@ true
 "
 |
 |
+(
+!
+AppConstants
+.
+MOZ_PHOTON_THEME
+&
+&
 root
 .
 getAttribute
@@ -41125,7 +41137,11 @@ exiting
 "
 true
 "
+)
 ;
+]
+]
+>
 <
 /
 getter

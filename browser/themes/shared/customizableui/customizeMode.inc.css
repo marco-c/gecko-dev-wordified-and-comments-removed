@@ -15,6 +15,9 @@ duration
 3s
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 main
 -
@@ -426,9 +429,6 @@ events
 none
 ;
 }
-%
-ifndef
-MOZ_PHOTON_THEME
 #
 main
 -
