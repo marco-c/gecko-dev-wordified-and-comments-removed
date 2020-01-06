@@ -60,7 +60,7 @@ app_units
 "
 0
 .
-4
+5
 "
 bluetooth_traits
 =
@@ -110,9 +110,7 @@ euclid
 "
 0
 .
-14
-.
-4
+15
 "
 gfx_traits
 =
@@ -152,7 +150,7 @@ hyper_serde
 "
 0
 .
-6
+7
 "
 ipc
 -
@@ -161,7 +159,7 @@ channel
 "
 0
 .
-7
+8
 "
 libc
 =
@@ -202,7 +200,7 @@ version
 "
 0
 .
-9
+11
 "
 features
 =
@@ -238,16 +236,9 @@ serialize
 serde
 =
 "
-0
+1
 .
-9
-"
-serde_derive
-=
-"
 0
-.
-9
 "
 servo_atoms
 =

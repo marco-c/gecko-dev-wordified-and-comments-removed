@@ -1607,7 +1607,16 @@ str
 where
 T
 :
+for
+<
+'
+de
+>
 Deserialize
+<
+'
+de
+>
 {
 let
 path

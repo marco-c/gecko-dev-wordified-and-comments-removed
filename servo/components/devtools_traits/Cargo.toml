@@ -88,7 +88,7 @@ hyper_serde
 "
 0
 .
-6
+7
 "
 ipc
 -
@@ -97,7 +97,7 @@ channel
 "
 0
 .
-7
+8
 "
 msg
 =
@@ -114,16 +114,9 @@ msg
 serde
 =
 "
-0
+1
 .
-9
-"
-serde_derive
-=
-"
 0
-.
-9
 "
 servo_url
 =

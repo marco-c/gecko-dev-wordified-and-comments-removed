@@ -70,7 +70,7 @@ macro_use
 ]
 extern
 crate
-serde_derive
+serde
 ;
 extern
 crate
@@ -187,11 +187,11 @@ String
 pub
 line
 :
-usize
+u32
 pub
 column
 :
-usize
+u32
 pub
 msg
 :

@@ -309,7 +309,7 @@ macro_use
 ]
 extern
 crate
-serde_derive
+serde
 ;
 pub
 extern

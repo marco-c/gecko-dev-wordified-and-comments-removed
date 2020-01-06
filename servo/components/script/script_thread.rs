@@ -15158,10 +15158,10 @@ filename
 String
 line
 :
-usize
+u32
 column
 :
-usize
+u32
 msg
 :
 String

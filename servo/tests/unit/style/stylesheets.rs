@@ -2101,11 +2101,11 @@ ServoUrl
 pub
 line
 :
-usize
+u32
 pub
 column
 :
-usize
+u32
 pub
 message
 :
@@ -2223,7 +2223,7 @@ line
 +
 line_number_offset
 as
-usize
+u32
 ;
 let
 mut

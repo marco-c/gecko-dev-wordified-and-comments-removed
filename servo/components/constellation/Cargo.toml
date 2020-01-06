@@ -146,9 +146,7 @@ euclid
 "
 0
 .
-14
-.
-4
+15
 "
 gfx
 =
@@ -188,7 +186,7 @@ channel
 "
 0
 .
-7
+8
 "
 itertools
 =
@@ -262,7 +260,7 @@ version
 "
 0
 .
-9
+11
 "
 features
 =
@@ -299,16 +297,9 @@ script_traits
 serde
 =
 "
-0
+1
 .
-9
-"
-serde_derive
-=
-"
 0
-.
-9
 "
 style_traits
 =

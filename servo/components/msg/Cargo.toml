@@ -79,16 +79,9 @@ heapsize_derive
 serde
 =
 "
-0
+1
 .
-9
-"
-serde_derive
-=
-"
 0
-.
-9
 "
 webrender_traits
 =

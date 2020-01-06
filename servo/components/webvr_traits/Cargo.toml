@@ -62,7 +62,7 @@ channel
 "
 0
 .
-7
+8
 "
 msg
 =
@@ -86,7 +86,7 @@ version
 "
 0
 .
-4
+5
 "
 features
 =
@@ -101,14 +101,7 @@ serialization
 serde
 =
 "
-0
+1
 .
-9
-"
-serde_derive
-=
-"
 0
-.
-9
 "
