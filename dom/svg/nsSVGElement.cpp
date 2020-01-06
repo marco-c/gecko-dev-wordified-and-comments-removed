@@ -1311,6 +1311,7 @@ stringValue
 ParseStyleAttribute
 (
 stringValue
+nullptr
 attrValue
 true
 )

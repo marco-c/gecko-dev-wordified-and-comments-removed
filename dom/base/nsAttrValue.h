@@ -1332,6 +1332,9 @@ const
 nsAString
 &
 aString
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 nsStyledElement
 *
 aElement
