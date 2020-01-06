@@ -4,15 +4,7 @@ GetAttributeNode
 )
 DEPRECATED_OPERATION
 (
-SetAttributeNode
-)
-DEPRECATED_OPERATION
-(
 GetAttributeNodeNS
-)
-DEPRECATED_OPERATION
-(
-SetAttributeNodeNS
 )
 DEPRECATED_OPERATION
 (
