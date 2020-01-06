@@ -170,8 +170,6 @@ WebRenderAPI
 >
 Create
 (
-bool
-aEnableProfiler
 layers
 :
 :
