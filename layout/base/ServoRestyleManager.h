@@ -359,6 +359,8 @@ aStyleSet
 nsStyleChangeList
 &
 aChangeList
+nsChangeHint
+aChangesHandledForDescendants
 )
 ;
 struct
