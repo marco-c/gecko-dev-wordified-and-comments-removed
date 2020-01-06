@@ -3981,7 +3981,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -4286,7 +4286,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -7574,7 +7574,7 @@ version
 .
 19
 .
-2
+5
 "
 source
 =
@@ -7818,6 +7818,35 @@ serde
 0
 .
 8
+(
+registry
++
+https
+:
+/
+/
+github
+.
+com
+/
+rust
+-
+lang
+/
+crates
+.
+io
+-
+index
+)
+"
+"
+smallvec
+0
+.
+4
+.
+3
 (
 registry
 +
@@ -13460,7 +13489,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -14428,7 +14457,7 @@ smallvec
 .
 4
 .
-0
+3
 (
 registry
 +
@@ -14699,7 +14728,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -20248,7 +20277,7 @@ smallvec
 .
 4
 .
-0
+3
 (
 registry
 +
@@ -29058,7 +29087,7 @@ smallvec
 .
 4
 .
-0
+3
 (
 registry
 +
@@ -33155,7 +33184,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -34206,7 +34235,7 @@ smallvec
 .
 4
 .
-0
+3
 (
 registry
 +
@@ -34615,7 +34644,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -35601,7 +35630,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -35822,7 +35851,7 @@ smallvec
 .
 4
 .
-0
+3
 (
 registry
 +
@@ -40280,7 +40309,7 @@ version
 .
 4
 .
-0
+3
 "
 source
 =
@@ -41199,7 +41228,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -41953,7 +41982,7 @@ smallvec
 .
 4
 .
-0
+3
 (
 registry
 +
@@ -42367,7 +42396,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -42688,7 +42717,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -42924,7 +42953,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -51865,7 +51894,7 @@ cssparser
 .
 19
 .
-2
+5
 (
 registry
 +
@@ -51890,7 +51919,7 @@ index
 "
 =
 "
-1f9442c00898020a56c9485d64c9c8f14ae30ba45be89d15846046593383467f
+dc476dc0960774aa1cabfd0044de7d4585a8f2f8a3ef72e6d9d1e16c1e2492b1
 "
 "
 checksum
@@ -58215,7 +58244,7 @@ smallvec
 .
 4
 .
-0
+3
 (
 registry
 +
@@ -58240,7 +58269,7 @@ index
 "
 =
 "
-2e40af10aafe98b4d8294ae8388d8a5cd0707c65d364872efe72d063ec44bee0
+8fcd03faf178110ab0334d74ca9631d77f94c8c11cc77fcb59538abf0025695d
 "
 "
 checksum
