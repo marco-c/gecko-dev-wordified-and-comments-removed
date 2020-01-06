@@ -736,7 +736,7 @@ _retval
 =
 true
 ;
-nsCString
+nsAutoCString
 clientId
 ;
 rv
@@ -746,10 +746,7 @@ entryInfo
 >
 GetClientID
 (
-getter_Copies
-(
 clientId
-)
 )
 ;
 if

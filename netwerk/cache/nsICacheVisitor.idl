@@ -337,7 +337,7 @@ device
 /
 readonly
 attribute
-string
+ACString
 description
 ;
 /
@@ -361,7 +361,7 @@ device
 /
 readonly
 attribute
-string
+ACString
 usageReport
 ;
 /
@@ -473,7 +473,7 @@ entry
 /
 readonly
 attribute
-string
+ACString
 clientID
 ;
 /
@@ -496,7 +496,7 @@ entry
 /
 readonly
 attribute
-string
+ACString
 deviceID
 ;
 /
