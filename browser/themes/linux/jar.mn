@@ -304,6 +304,17 @@ classic
 /
 browser
 /
+privatebrowsing
+-
+mask
+.
+png
+skin
+/
+classic
+/
+browser
+/
 searchbar
 .
 css
