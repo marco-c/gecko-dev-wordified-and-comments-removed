@@ -19666,6 +19666,13 @@ shutdownLeaks
                 
 self
 .
+harness
+.
+countfail
++
+=
+self
+.
 shutdownLeaks
 .
 process
@@ -19678,6 +19685,13 @@ self
 lsanLeaks
 :
                 
+self
+.
+harness
+.
+countfail
++
+=
 self
 .
 lsanLeaks

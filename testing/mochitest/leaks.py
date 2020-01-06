@@ -369,6 +369,10 @@ self
 )
 :
         
+failures
+=
+0
+        
 if
 not
 self
@@ -403,6 +407,11 @@ test
 suite
 "
 )
+            
+failures
++
+=
+1
         
 for
 test
@@ -479,6 +488,11 @@ count
 url
 )
 )
+                
+failures
++
+=
+1
             
 if
 test
@@ -589,6 +603,11 @@ leakedDocShells
 )
 )
                 
+failures
++
+=
+1
+                
 self
 .
 logger
@@ -658,6 +677,9 @@ leakedDocShells
 )
 )
 )
+        
+return
+failures
     
 def
 _logWindow
@@ -1883,6 +1905,10 @@ self
 )
 :
         
+failures
+=
+0
+        
 if
 self
 .
@@ -1916,6 +1942,11 @@ error
 .
 "
 )
+            
+failures
++
+=
+1
         
 if
 self
@@ -1950,6 +1981,11 @@ memory
 .
 "
 )
+            
+failures
++
+=
+1
             
 self
 .
@@ -2088,6 +2124,14 @@ at
 +
 f
 )
+            
+failures
++
+=
+1
+        
+return
+failures
     
 def
 _finishStack
