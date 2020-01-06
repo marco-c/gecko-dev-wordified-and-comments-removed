@@ -4960,9 +4960,7 @@ classic
 /
 browser
 /
-copy
--
-url
+link
 .
 svg
 (
@@ -4973,9 +4971,7 @@ shared
 /
 icons
 /
-copy
--
-url
+link
 .
 svg
 )
