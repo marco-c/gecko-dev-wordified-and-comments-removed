@@ -490,6 +490,11 @@ get
 }
 }
 }
+closedir
+(
+dir
+)
+;
 }
 }
 SandboxBrokerPolicyFactory
