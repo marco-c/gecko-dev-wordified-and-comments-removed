@@ -258,6 +258,8 @@ __delete__
 async
 RequestRegister
 (
+uint64_t
+aTransactionId
 WebAuthnTransactionInfo
 aTransactionInfo
 )
@@ -265,6 +267,8 @@ aTransactionInfo
 async
 RequestSign
 (
+uint64_t
+aTransactionId
 WebAuthnTransactionInfo
 aTransactionInfo
 )
@@ -272,6 +276,8 @@ aTransactionInfo
 async
 RequestCancel
 (
+uint64_t
+aTransactionId
 )
 ;
 child
@@ -279,6 +285,8 @@ child
 async
 ConfirmRegister
 (
+uint64_t
+aTransactionId
 uint8_t
 [
 ]
@@ -288,6 +296,8 @@ RegBuffer
 async
 ConfirmSign
 (
+uint64_t
+aTransactionId
 uint8_t
 [
 ]
@@ -301,6 +311,8 @@ ReplyBuffer
 async
 Abort
 (
+uint64_t
+aTransactionId
 nsresult
 Error
 )

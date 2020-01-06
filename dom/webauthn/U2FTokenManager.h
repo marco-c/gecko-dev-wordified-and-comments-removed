@@ -51,6 +51,10 @@ PWebAuthnTransactionParent
 *
 aTransactionParent
 const
+uint64_t
+&
+aTransactionId
+const
 WebAuthnTransactionInfo
 &
 aTransactionInfo
@@ -63,6 +67,10 @@ PWebAuthnTransactionParent
 *
 aTransactionParent
 const
+uint64_t
+&
+aTransactionId
+const
 WebAuthnTransactionInfo
 &
 aTransactionInfo
@@ -74,6 +82,10 @@ Cancel
 PWebAuthnTransactionParent
 *
 aTransactionParent
+const
+uint64_t
+&
+aTransactionId
 )
 ;
 void
@@ -113,6 +125,10 @@ void
 AbortTransaction
 (
 const
+uint64_t
+&
+aTransactionId
+const
 nsresult
 &
 aError
@@ -126,7 +142,9 @@ ClearTransaction
 void
 MaybeConfirmRegister
 (
+const
 uint64_t
+&
 aTransactionId
 U2FRegisterResult
 &
@@ -136,7 +154,9 @@ aResult
 void
 MaybeAbortRegister
 (
+const
 uint64_t
+&
 aTransactionId
 const
 nsresult
@@ -147,7 +167,9 @@ aError
 void
 MaybeConfirmSign
 (
+const
 uint64_t
+&
 aTransactionId
 U2FSignResult
 &
@@ -157,7 +179,9 @@ aResult
 void
 MaybeAbortSign
 (
+const
 uint64_t
+&
 aTransactionId
 const
 nsresult
@@ -188,7 +212,7 @@ U2FSignPromise
 mSignPromise
 ;
 uint64_t
-mTransactionId
+mLastTransactionId
 ;
 }
 ;

@@ -52,6 +52,10 @@ IPCResult
 RecvRequestRegister
 (
 const
+uint64_t
+&
+aTransactionId
+const
 WebAuthnTransactionInfo
 &
 aTransactionInfo
@@ -69,6 +73,10 @@ IPCResult
 RecvRequestSign
 (
 const
+uint64_t
+&
+aTransactionId
+const
 WebAuthnTransactionInfo
 &
 aTransactionInfo
@@ -85,6 +93,10 @@ ipc
 IPCResult
 RecvRequestCancel
 (
+const
+uint64_t
+&
+aTransactionId
 )
 override
 ;
