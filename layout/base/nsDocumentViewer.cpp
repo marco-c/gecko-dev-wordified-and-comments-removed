@@ -5661,6 +5661,14 @@ mFocusListener
 mDocument
 )
 {
+mFocusListener
+-
+>
+Init
+(
+this
+)
+;
 mDocument
 -
 >
