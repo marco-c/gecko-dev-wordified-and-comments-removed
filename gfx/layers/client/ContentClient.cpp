@@ -1234,13 +1234,6 @@ BufferRect
 )
 )
 ;
-mBuffer
--
->
-Unlock
-(
-)
-;
 }
 Clear
 (
