@@ -781,9 +781,13 @@ TextEditRules
 ;
 }
 ;
+}
+mozilla
+:
+:
 TextEditor
 *
-EditorBase
+nsIEditor
 :
 :
 AsTextEditor
@@ -793,6 +797,9 @@ AsTextEditor
 return
 static_cast
 <
+mozilla
+:
+:
 TextEditor
 *
 >
@@ -802,9 +809,12 @@ this
 ;
 }
 const
+mozilla
+:
+:
 TextEditor
 *
-EditorBase
+nsIEditor
 :
 :
 AsTextEditor
@@ -816,6 +826,9 @@ return
 static_cast
 <
 const
+mozilla
+:
+:
 TextEditor
 *
 >
@@ -823,7 +836,6 @@ TextEditor
 this
 )
 ;
-}
 }
 #
 endif
