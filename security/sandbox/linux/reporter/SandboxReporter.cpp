@@ -776,6 +776,12 @@ ioctl
 ;
 ARG_DECIMAL
 (
+fcntl
+1
+)
+;
+ARG_DECIMAL
+(
 madvise
 2
 )
