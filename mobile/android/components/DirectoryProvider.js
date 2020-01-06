@@ -655,7 +655,7 @@ reqLocales
 =
 Services
 .
-locales
+locale
 .
 getRequestedLocales
 (
