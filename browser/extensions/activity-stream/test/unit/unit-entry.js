@@ -349,7 +349,7 @@ getPublicSuffix
 io
 :
 {
-NewURI
+newURI
 (
 )
 {
