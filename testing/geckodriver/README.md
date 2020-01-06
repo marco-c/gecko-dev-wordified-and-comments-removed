@@ -1231,7 +1231,7 @@ code
 <
 code
 >
-direct
+noproxy
 <
 /
 code
