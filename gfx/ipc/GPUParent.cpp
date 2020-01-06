@@ -615,13 +615,6 @@ Start
 (
 )
 ;
-VRListenerThreadHolder
-:
-:
-Start
-(
-)
-;
 APZThreadUtils
 :
 :
