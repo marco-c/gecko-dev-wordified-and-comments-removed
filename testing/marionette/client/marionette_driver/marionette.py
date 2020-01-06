@@ -6295,7 +6295,7 @@ False
 value_type
 =
 "
-unspecified
+nsISupportsString
 "
 )
 :
@@ -6374,13 +6374,18 @@ complex
 value
 .
                            
-Possible
+Defaults
+to
+nsISupportsString
+.
+Other
+possible
 values
 are
 :
+                           
 nsIFile
 and
-                           
 nsIPrefLocalizedString
 .
         
