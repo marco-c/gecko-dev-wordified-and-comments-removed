@@ -1028,6 +1028,8 @@ uri
 catch
 (
 e
+)
+{
 if
 (
 typeof
@@ -1052,7 +1054,6 @@ Cr
 .
 NS_ERROR_MALFORMED_URI
 )
-)
 {
 throw
 new
@@ -1068,6 +1069,10 @@ valid
 URI
 '
 )
+;
+}
+throw
+e
 ;
 }
 }
