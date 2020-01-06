@@ -966,6 +966,15 @@ mSentToCompositor
 (
 false
 )
+mNextKeyFrameTime
+(
+TimeUnit
+:
+:
+Invalid
+(
+)
+)
 {
 MOZ_ASSERT
 (
