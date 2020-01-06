@@ -329,7 +329,7 @@ rule
 width
 "
 "
-BorderWidth
+BorderSideWidth
 "
 "
 Au
@@ -346,15 +346,10 @@ initial_specified_value
 specified
 :
 :
-BorderWidth
+BorderSideWidth
 :
 :
 Medium
-"
-products
-=
-"
-gecko
 "
 computed_type
 =
@@ -365,6 +360,11 @@ app_units
 :
 :
 Au
+"
+products
+=
+"
+gecko
 "
 spec
 =

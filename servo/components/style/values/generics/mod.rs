@@ -73,6 +73,10 @@ rect
 ;
 pub
 mod
+text
+;
+pub
+mod
 transform
 ;
 define_css_keyword_enum
