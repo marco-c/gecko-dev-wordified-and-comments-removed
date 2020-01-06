@@ -1139,6 +1139,14 @@ MozAny
 (
 _
 )
+|
+NonTSPseudoClass
+:
+:
+Dir
+(
+_
+)
 )
 }
 pub
