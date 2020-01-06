@@ -816,6 +816,16 @@ if
 (
 !
 menuHeight
+&
+&
+window
+.
+windowState
+=
+=
+window
+.
+STATE_MAXIMIZED
 )
 {
 titlebarContentHeight
