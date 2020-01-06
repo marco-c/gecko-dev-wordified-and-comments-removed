@@ -822,6 +822,8 @@ POWASSIGN
 )
 enum
 ParseNodeKind
+:
+uint16_t
 {
 #
 define
@@ -928,7 +930,7 @@ PropertyAccess
 class
 ParseNode
 {
-uint16_t
+ParseNodeKind
 pn_type
 ;
 uint8_t
@@ -1146,10 +1148,7 @@ PNK_LIMIT
 )
 ;
 return
-ParseNodeKind
-(
 pn_type
-)
 ;
 }
 void
