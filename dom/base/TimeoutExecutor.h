@@ -163,10 +163,6 @@ const
 TimeDuration
 &
 aMinDelay
-=
-TimeDuration
-(
-)
 )
 ;
 void
