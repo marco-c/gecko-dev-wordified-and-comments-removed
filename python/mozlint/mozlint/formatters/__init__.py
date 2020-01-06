@@ -25,6 +25,11 @@ from
 treeherder
 import
 TreeherderFormatter
+from
+.
+unix
+import
+UnixFormatter
 class
 JSONFormatter
 (
@@ -80,6 +85,12 @@ treeherder
 '
 :
 TreeherderFormatter
+    
+'
+unix
+'
+:
+UnixFormatter
 }
 def
 get
