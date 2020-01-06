@@ -65,12 +65,11 @@ x
 prop
 ;
 for
-each
 (
 let
 [
 ]
-in
+of
 [
 '
 '

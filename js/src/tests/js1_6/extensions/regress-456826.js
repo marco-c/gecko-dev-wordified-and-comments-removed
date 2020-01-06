@@ -441,11 +441,10 @@ Date
 )
 ;
 for
-each
 (
 var
 color
-in
+of
 colorStrings
 )
 {

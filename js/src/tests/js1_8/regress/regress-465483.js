@@ -62,10 +62,9 @@ NaN
 '
 ;
 for
-each
 (
 i
-in
+of
 [
 4
 '

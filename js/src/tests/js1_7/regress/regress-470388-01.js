@@ -56,11 +56,10 @@ summary
 )
 ;
 for
-each
 (
 let
 x
-in
+of
 [
 function
 (

@@ -75,11 +75,10 @@ t
 ;
 }
 for
-each
 (
 var
 i
-in
+of
 a
 )
 assertEq

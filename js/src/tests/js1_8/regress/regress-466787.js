@@ -75,11 +75,10 @@ j
 )
 {
 for
-each
 (
 let
 one
-in
+of
 [
 new
 Number

@@ -74,11 +74,10 @@ a
 )
 {
 for
-each
 (
 let
 b
-in
+of
 [
 1
 2

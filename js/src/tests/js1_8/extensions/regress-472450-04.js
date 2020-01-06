@@ -103,11 +103,10 @@ y
 )
 {
 for
-each
 (
 let
 z
-in
+of
 [
 null
 function

@@ -82,11 +82,10 @@ truthies
 ]
 ;
 for
-each
 (
 var
 op
-in
+of
 opsies
 )
 {

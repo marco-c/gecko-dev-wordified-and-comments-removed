@@ -51,11 +51,10 @@ summary
 )
 ;
 for
-each
 (
 let
 _
-in
+of
 [
 {
 }

@@ -51,11 +51,10 @@ summary
 )
 ;
 for
-each
 (
 let
 b
-in
+of
 [
 (
 -

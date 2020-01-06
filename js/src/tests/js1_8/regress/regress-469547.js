@@ -13,12 +13,11 @@ crash
 with
 :
 for
-each
 (
 let
 [
 ]
-in
+of
 [
 [
 ]
@@ -65,12 +64,11 @@ summary
 try
 {
 for
-each
 (
 let
 [
 ]
-in
+of
 [
 [
 ]

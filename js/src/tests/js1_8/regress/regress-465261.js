@@ -63,11 +63,10 @@ z
 )
 {
 for
-each
 (
 let
 x
-in
+of
 [
 0
 true

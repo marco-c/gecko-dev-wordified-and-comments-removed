@@ -91,11 +91,10 @@ g
 0
 ;
 for
-each
 (
 let
 e
-in
+of
 a
 )
 {
@@ -121,10 +120,9 @@ i
 )
 {
 for
-each
 (
 g
-in
+of
 [
 1
 ]

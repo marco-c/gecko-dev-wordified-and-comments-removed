@@ -55,11 +55,10 @@ f
 )
 {
 for
-each
 (
 let
 i
-in
+of
 [
 0
 {

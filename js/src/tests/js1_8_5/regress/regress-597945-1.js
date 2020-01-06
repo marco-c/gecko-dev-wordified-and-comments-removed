@@ -49,10 +49,9 @@ w
 }
 }
 for
-each
 (
 e
-in
+of
 [
 arguments
 arguments

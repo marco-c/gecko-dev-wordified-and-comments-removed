@@ -58,11 +58,10 @@ summary
 )
 ;
 for
-each
 (
 let
 d
-in
+of
 [
 -
 0x80000000

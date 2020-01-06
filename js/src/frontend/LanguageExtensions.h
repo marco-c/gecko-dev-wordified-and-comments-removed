@@ -11,9 +11,6 @@ enum
 class
 DeprecatedLanguageExtension
 {
-ForEach
-=
-0
 ExpressionClosure
 =
 3

@@ -16,7 +16,6 @@ z
 )
 {
 for
-each
 (
 y
 in

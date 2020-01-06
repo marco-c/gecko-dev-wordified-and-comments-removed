@@ -58,11 +58,10 @@ summary
 )
 ;
 for
-each
 (
 let
 i
-in
+of
 [
 0
 0

@@ -51,11 +51,10 @@ summary
 )
 ;
 for
-each
 (
 let
 j
-in
+of
 [
 null
 2

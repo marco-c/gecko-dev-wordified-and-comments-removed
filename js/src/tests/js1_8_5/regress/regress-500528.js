@@ -56,11 +56,10 @@ s
 '
 ;
 for
-each
 (
 var
 obj
-in
+of
 [
 c1
 c2

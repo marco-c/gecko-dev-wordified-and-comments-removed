@@ -102,14 +102,13 @@ actual
 '
 ;
 for
-each
 (
 var
 [
 foo
 bar
 ]
-in
+of
 list1
 )
 {
@@ -163,7 +162,6 @@ actual
 '
 ;
 for
-each
 (
 var
 [
@@ -171,7 +169,7 @@ foo
 bar
 baz
 ]
-in
+of
 list2
 )
 {

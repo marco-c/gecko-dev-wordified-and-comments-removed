@@ -22,10 +22,9 @@ e
 {
 \
 for
-each
 (
 foo
-in
+of
 [
 1
 ]

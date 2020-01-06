@@ -63,11 +63,10 @@ g
 ]
 ;
 for
-each
 (
 var
 v
-in
+of
 a
 )
 v

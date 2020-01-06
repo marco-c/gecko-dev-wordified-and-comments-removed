@@ -79,11 +79,10 @@ q
 3
 ;
 for
-each
 (
 let
 x
-in
+of
 [
 6
 7

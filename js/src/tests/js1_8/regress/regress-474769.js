@@ -10,11 +10,10 @@ summary
 TM
 :
 nested
-for
-each
 type
 -
 unstable
+for
 loops
 '
 ;
@@ -54,10 +53,9 @@ expect
 1
 ;
 for
-each
 (
 b
-in
+of
 [
 1
 1
@@ -76,11 +74,10 @@ function
 )
 {
 for
-each
 (
 let
 h
-in
+of
 [
 0
 0

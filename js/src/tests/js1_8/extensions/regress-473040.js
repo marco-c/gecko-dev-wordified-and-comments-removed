@@ -74,11 +74,10 @@ gc
 )
 ;
 for
-each
 (
 let
 x
-in
+of
 [
 new
 Boolean
