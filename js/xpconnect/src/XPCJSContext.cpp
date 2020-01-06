@@ -338,6 +338,15 @@ include
 "
 mozilla
 /
+ThreadLocal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtrExtensions
 .
 h
