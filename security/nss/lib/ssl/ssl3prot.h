@@ -75,9 +75,6 @@ content_handshake
 content_application_data
 =
 23
-content_alt_handshake
-=
-24
 }
 SSL3ContentType
 ;

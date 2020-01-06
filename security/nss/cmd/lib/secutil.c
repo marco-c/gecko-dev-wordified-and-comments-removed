@@ -5004,8 +5004,6 @@ if
 isprint
 (
 bmpChar
-&
-0xFF
 )
 )
 goto

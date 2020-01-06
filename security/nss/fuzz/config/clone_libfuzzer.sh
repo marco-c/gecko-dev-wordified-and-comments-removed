@@ -6,7 +6,7 @@ bin
 sh
 LIBFUZZER_REVISION
 =
-6937e68f927b6aefe526fcb9db8953f497e6e74d
+56bd1d43451cca4b6a11d3be316bb77ab159b09d
 d
 =
 (

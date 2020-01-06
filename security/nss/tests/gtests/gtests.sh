@@ -995,7 +995,6 @@ der_gtest
 pk11_gtest
 util_gtest
 freebl_gtest
-softoken_gtest
 "
 SOURCE_DIR
 =

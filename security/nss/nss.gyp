@@ -1418,17 +1418,6 @@ pk11_gtest
 '
 gtests
 /
-softoken_gtest
-/
-softoken_gtest
-.
-gyp
-:
-softoken_gtest
-'
-'
-gtests
-/
 ssl_gtest
 /
 ssl_gtest

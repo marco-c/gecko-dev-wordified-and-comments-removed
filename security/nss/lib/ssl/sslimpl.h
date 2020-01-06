@@ -1202,12 +1202,6 @@ enableShortHeaders
 :
 1
 ;
-unsigned
-int
-enableAltHandshaketype
-:
-1
-;
 }
 sslOptions
 ;
@@ -2378,9 +2372,6 @@ kea_def_mutable
 ;
 PRBool
 shortHeaders
-;
-PRBool
-altHandshakeType
 ;
 }
 SSL3HandshakeState

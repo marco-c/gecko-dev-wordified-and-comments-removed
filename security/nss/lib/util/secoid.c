@@ -9393,6 +9393,11 @@ ret
 =
 NULL
 ;
+if
+(
+dynOidHash
+)
+{
 NSSRWLock_LockRead
 (
 dynOidLock
@@ -9421,6 +9426,7 @@ NSSRWLock_UnlockRead
 dynOidLock
 )
 ;
+}
 if
 (
 ret
@@ -9479,6 +9485,11 @@ tagnum
 -
 SEC_OID_TOTAL
 ;
+if
+(
+dynOidTable
+)
+{
 NSSRWLock_LockRead
 (
 dynOidLock
@@ -9510,6 +9521,7 @@ NSSRWLock_UnlockRead
 dynOidLock
 )
 ;
+}
 if
 (
 dxo
