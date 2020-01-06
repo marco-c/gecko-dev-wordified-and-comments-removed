@@ -493,6 +493,17 @@ nsIContent
 aEndChild
 )
 ;
+void
+StyleChildRangeForReconstruct
+(
+nsIContent
+*
+aStartChild
+nsIContent
+*
+aEndChild
+)
+;
 public
 :
 void
@@ -4782,8 +4793,6 @@ RecoverLetterFrames
 nsContainerFrame
 *
 aBlockFrame
-bool
-aMayHaveFirstLine
 )
 ;
 void
