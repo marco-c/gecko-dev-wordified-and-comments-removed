@@ -37,12 +37,6 @@ files
 '
         
 '
-check
--
-test
-'
-        
-'
 update
 '
     
