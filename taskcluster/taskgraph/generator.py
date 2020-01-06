@@ -1848,8 +1848,12 @@ label_to_taskid
 =
 morph
 (
+            
 optimized_task_graph
 label_to_taskid
+self
+.
+parameters
 )
         
 yield

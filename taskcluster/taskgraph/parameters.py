@@ -69,6 +69,10 @@ message
 '
     
 '
+morph_templates
+'
+    
+'
 moz_build_date
 '
     
@@ -93,7 +97,26 @@ pushlog_id
 '
     
 '
+target_task_labels
+'
+    
+'
 target_tasks_method
+'
+]
+)
+TRY_ONLY_PARAMETERS
+=
+set
+(
+[
+    
+'
+morph_templates
+'
+    
+'
+target_task_labels
 '
 ]
 )
@@ -142,6 +165,8 @@ msg
 missing
 =
 PARAMETER_NAMES
+-
+TRY_ONLY_PARAMETERS
 -
 names
         
