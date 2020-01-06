@@ -650,7 +650,7 @@ aModType
 )
 override
 ;
-void
+nsresult
 GetText
 (
 nsString
