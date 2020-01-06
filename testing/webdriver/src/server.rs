@@ -750,7 +750,7 @@ new
 ErrorStatus
 :
 :
-UnsupportedOperation
+SessionNotCreated
 "
 Session
 is
