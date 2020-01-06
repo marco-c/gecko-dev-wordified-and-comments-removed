@@ -391,9 +391,9 @@ mTarget
 (
 aTarget
 )
-mTargetThread
+mEventTarget
 (
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -463,9 +463,9 @@ mTarget
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mTargetThread
+mEventTarget
 ;
 }
 ;
@@ -503,7 +503,7 @@ aMsg
 )
 ;
 return
-mTargetThread
+mEventTarget
 -
 >
 Dispatch

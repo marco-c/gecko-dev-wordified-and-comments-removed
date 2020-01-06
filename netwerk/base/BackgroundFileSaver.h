@@ -143,9 +143,9 @@ destructorSafeDestroyNSSReference
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mControlThread
+mControlEventTarget
 ;
 nsCOMPtr
 <

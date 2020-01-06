@@ -489,7 +489,7 @@ mSocket
 SetEventSink
 (
 eventSink
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )
@@ -638,7 +638,7 @@ AsyncWait
 this
 0
 0
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )

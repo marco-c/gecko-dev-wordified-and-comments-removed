@@ -285,7 +285,7 @@ nsCacheService
 ReleaseObject_Locked
 (
 mListener
-mThread
+mEventTarget
 )
 ;
 }
@@ -687,9 +687,9 @@ mListener
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mThread
+mEventTarget
 ;
 Mutex
 mLock

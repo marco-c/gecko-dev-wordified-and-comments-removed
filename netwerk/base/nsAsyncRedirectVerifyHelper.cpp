@@ -323,9 +323,9 @@ mFlags
 =
 flags
 ;
-mCallbackThread
+mCallbackEventTarget
 =
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
@@ -839,7 +839,7 @@ callback
 |
 |
 !
-mCallbackThread
+mCallbackEventTarget
 )
 {
 LOG
@@ -858,7 +858,7 @@ callback
 =
 %
 p
-mCallbackThread
+mCallbackEventTarget
 =
 %
 p
@@ -868,7 +868,7 @@ callback
 get
 (
 )
-mCallbackThread
+mCallbackEventTarget
 .
 get
 (
@@ -931,7 +931,7 @@ return
 nsresult
 rv
 =
-mCallbackThread
+mCallbackEventTarget
 -
 >
 Dispatch

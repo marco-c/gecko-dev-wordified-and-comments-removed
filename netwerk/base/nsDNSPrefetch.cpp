@@ -206,11 +206,14 @@ Now
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mainThread
+main
 =
-do_GetMainThread
+mozilla
+:
+:
+GetMainThreadEventTarget
 (
 )
 ;
@@ -228,7 +231,7 @@ nsIDNSService
 :
 RESOLVE_SPECULATE
 this
-mainThread
+main
 mOriginAttributes
 getter_AddRefs
 (

@@ -821,7 +821,7 @@ nsIEventTarget
 >
 mainThread
 (
-do_GetMainThread
+GetMainThreadEventTarget
 (
 )
 )

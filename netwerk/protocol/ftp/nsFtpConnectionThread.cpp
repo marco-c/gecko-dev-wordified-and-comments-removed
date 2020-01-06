@@ -6634,7 +6634,7 @@ mDataTransport
 SetEventSink
 (
 this
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 )

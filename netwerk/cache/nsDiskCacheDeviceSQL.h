@@ -1286,9 +1286,9 @@ mLockedEntries
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mInitThread
+mInitEventTarget
 ;
 }
 ;

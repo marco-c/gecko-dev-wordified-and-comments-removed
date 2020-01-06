@@ -4418,9 +4418,9 @@ mListener
 =
 listener
 ;
-mThread
+mEventTarget
 =
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
@@ -4529,7 +4529,7 @@ if
 mListener
 )
 {
-mThread
+mEventTarget
 -
 >
 Dispatch
@@ -4566,9 +4566,9 @@ mListener
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mThread
+mEventTarget
 ;
 }
 ;
@@ -7887,9 +7887,9 @@ request
 )
 -
 >
-mThread
+mEventTarget
 =
-do_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
@@ -8008,7 +8008,7 @@ NS_ASSERTION
 request
 -
 >
-mThread
+mEventTarget
 "
 no
 thread
@@ -8065,7 +8065,7 @@ return
 request
 -
 >
-mThread
+mEventTarget
 -
 >
 Dispatch

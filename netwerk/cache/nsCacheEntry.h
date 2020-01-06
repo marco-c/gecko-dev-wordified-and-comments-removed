@@ -1240,9 +1240,9 @@ mData
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mThread
+mEventTarget
 ;
 nsCacheMetaData
 mMetaData
