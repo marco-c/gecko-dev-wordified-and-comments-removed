@@ -633,7 +633,7 @@ sImageBridges
 ;
 RefPtr
 <
-CompositorThreadHolder
+CompositorThreadHolderDebug
 >
 mCompositorThreadHolder
 ;

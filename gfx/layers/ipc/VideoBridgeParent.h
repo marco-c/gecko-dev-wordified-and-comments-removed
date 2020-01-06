@@ -33,7 +33,7 @@ namespace
 layers
 {
 class
-CompositorThreadHolder
+CompositorThreadHolderDebug
 ;
 class
 VideoBridgeParent
@@ -253,7 +253,7 @@ mSelfRef
 ;
 RefPtr
 <
-CompositorThreadHolder
+CompositorThreadHolderDebug
 >
 mCompositorThreadRef
 ;
