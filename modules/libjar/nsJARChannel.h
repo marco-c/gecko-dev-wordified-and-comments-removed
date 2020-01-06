@@ -408,6 +408,12 @@ mJarFileOverride
 ;
 nsCOMPtr
 <
+nsIZipReader
+>
+mPreCachedJarReader
+;
+nsCOMPtr
+<
 nsIURI
 >
 mJarBaseURI
