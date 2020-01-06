@@ -113,10 +113,6 @@ MPL
 /
 include
 protocol
-PBlob
-;
-include
-protocol
 PBrowser
 ;
 include
@@ -357,9 +353,6 @@ protocol
 PContentBridge
 {
 manages
-PBlob
-;
-manages
 PBrowser
 ;
 manages
@@ -511,13 +504,6 @@ ContentParentId
 cpId
 bool
 isForBrowser
-)
-;
-async
-PBlob
-(
-BlobConstructorParams
-params
 )
 ;
 async
