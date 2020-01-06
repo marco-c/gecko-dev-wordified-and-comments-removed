@@ -678,9 +678,16 @@ getSystemCapabilities
 )
 {
 return
+"
+ISET
+:
+"
++
 gInstructionSet
 +
 "
+MEM
+:
 "
 +
 getMemoryMB
