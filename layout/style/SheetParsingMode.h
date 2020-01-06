@@ -12,8 +12,6 @@ css
 {
 enum
 SheetParsingMode
-:
-uint8_t
 {
 eAuthorSheetFeatures
 =
