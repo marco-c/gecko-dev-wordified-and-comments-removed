@@ -2183,15 +2183,6 @@ skiaContent
 22
 180
 )
-skip
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 table
