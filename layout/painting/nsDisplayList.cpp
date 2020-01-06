@@ -22897,6 +22897,13 @@ mMaybeHitRegion
 borderBox
 )
 ;
+mMaybeHitRegion
+.
+SimplifyOutward
+(
+8
+)
+;
 }
 else
 {
