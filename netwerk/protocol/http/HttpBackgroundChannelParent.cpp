@@ -441,11 +441,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-mIPCOpened
-)
-;
 if
 (
 !
