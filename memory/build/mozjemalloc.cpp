@@ -548,10 +548,6 @@ endif
 endif
 #
 define
-STRERROR_BUF
-64
-#
-define
 QUANTUM_2POW_MIN
 4
 #
@@ -4721,7 +4717,7 @@ aSize
 char
 buf
 [
-STRERROR_BUF
+64
 ]
 ;
 if
