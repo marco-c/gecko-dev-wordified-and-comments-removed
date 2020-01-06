@@ -1025,6 +1025,15 @@ aOffset
 )
 ;
 void
+ScrollByAndClamp
+(
+const
+CSSPoint
+&
+aOffset
+)
+;
+void
 ScaleWithFocus
 (
 float
