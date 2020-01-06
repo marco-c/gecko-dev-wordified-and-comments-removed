@@ -84,8 +84,6 @@ UTIL_SRCDIRS
 \
 util_gtest
 \
-der_gtest
-\
 (
 NULL
 )
@@ -110,6 +108,8 @@ NSS_SRCDIRS
 certdb_gtest
 \
 certhigh_gtest
+\
+der_gtest
 \
 pk11_gtest
 \

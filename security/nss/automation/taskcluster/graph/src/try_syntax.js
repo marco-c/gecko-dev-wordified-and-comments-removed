@@ -223,6 +223,9 @@ fuzz
 "
 aarch64
 "
+"
+mac
+"
 ]
 ;
 let
