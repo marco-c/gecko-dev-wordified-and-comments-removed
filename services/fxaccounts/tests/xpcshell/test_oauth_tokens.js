@@ -699,16 +699,6 @@ fxa
 ;
 }
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 MockFxAccountsOAuthGrantClient
 (
 )

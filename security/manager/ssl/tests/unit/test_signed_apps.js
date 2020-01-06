@@ -527,16 +527,6 @@ content
 ;
 }
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 check_open_result
 (
 name

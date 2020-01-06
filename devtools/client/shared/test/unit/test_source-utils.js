@@ -49,16 +49,6 @@ utils
 "
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 const
 CHROME_URLS
 =

@@ -86,16 +86,6 @@ FAKE_SESSION_TOKEN
 a0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebf
 "
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 var
 ACCOUNT_KEYS
 =

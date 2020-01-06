@@ -65,16 +65,6 @@ view
 "
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 const
 EXPECTED_INDIVIDUAL_STATES
 =

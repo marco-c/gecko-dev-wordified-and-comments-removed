@@ -101,16 +101,6 @@ gManifestHandlerURI
 =
 null
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 add_task
 (
 async

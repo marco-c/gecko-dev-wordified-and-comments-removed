@@ -206,16 +206,6 @@ maxActiveSeconds
 SEC_IN_ONE_DAY
 ;
 }
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 add_task
 (
 async

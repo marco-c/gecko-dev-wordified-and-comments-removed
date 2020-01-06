@@ -51,16 +51,6 @@ certs
 "
 ;
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 resetPrefs
 (
 )

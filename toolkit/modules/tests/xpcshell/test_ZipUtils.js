@@ -138,16 +138,6 @@ test_ZipUtils
 )
 ;
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 ensureExtracted
 (
 target

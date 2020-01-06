@@ -118,16 +118,6 @@ platformVersion
 )
 ;
 function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
-function
 promise_check_exist
 (
 path

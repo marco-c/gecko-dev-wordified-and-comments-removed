@@ -1108,13 +1108,3 @@ forEach
 add_test
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
