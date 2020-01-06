@@ -106,7 +106,7 @@ getStr
 "
 inspector
 .
-accesskey
+commandkey
 "
 )
 ;
@@ -264,7 +264,7 @@ title
 =
 inspector
 .
-accesskey
+commandkey
 "
 >
 <
@@ -310,7 +310,7 @@ title
 =
 inspector
 .
-accesskey
+commandkey
 "
 >
 <
