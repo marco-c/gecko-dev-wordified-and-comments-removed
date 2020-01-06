@@ -50,13 +50,6 @@ h
 "
 #
 endif
-#
-include
-"
-nsIThread
-.
-h
-"
 namespace
 mozilla
 {
