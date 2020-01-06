@@ -279,6 +279,11 @@ indent
 topLevelClasses
 messageBody
 messageId
+scrollToMessage
+:
+props
+.
+autoscroll
 serviceContainer
 exceptionDocURL
 frame

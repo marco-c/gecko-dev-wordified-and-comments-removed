@@ -71,6 +71,13 @@ PropTypes
 object
 .
 isRequired
+autoscroll
+:
+PropTypes
+.
+bool
+.
+isRequired
 indent
 :
 PropTypes
@@ -110,6 +117,7 @@ props
 {
 const
 {
+autoscroll
 indent
 message
 timestampsVisible
@@ -142,6 +150,9 @@ topLevelClasses
 [
 ]
 messageBody
+scrollToMessage
+:
+autoscroll
 serviceContainer
 indent
 timestampsVisible
