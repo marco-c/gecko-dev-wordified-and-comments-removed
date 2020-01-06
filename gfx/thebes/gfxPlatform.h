@@ -1458,6 +1458,12 @@ GetBidiNumeralOption
 ;
 static
 void
+ForceGlobalReflow
+(
+)
+;
+static
+void
 FlushFontAndWordCaches
 (
 )
