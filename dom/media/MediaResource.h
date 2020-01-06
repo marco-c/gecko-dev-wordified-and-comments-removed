@@ -973,10 +973,6 @@ mChannel
 (
 aChannel
 )
-mSuspendCount
-(
-0
-)
 mIsChannelSuspended
 (
 false
@@ -1027,11 +1023,10 @@ nsIChannel
 *
 mChannel
 ;
-Atomic
-<
 uint32_t
->
 mSuspendCount
+=
+0
 ;
 bool
 mIsChannelSuspended
