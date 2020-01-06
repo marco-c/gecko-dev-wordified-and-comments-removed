@@ -1104,6 +1104,9 @@ mHasLoadingFontFacesIsDirty
 bool
 mDelayedLoadCheck
 ;
+bool
+mBypassCache
+;
 }
 ;
 }
