@@ -3022,6 +3022,13 @@ aDest
 aFill
 aRepeatSize
 aSrc
+!
+aItem
+-
+>
+BackfaceIsHidden
+(
+)
 aOpacity
 )
 ;
@@ -3300,6 +3307,13 @@ PushImage
 (
 fill
 clip
+!
+aItem
+-
+>
+BackfaceIsHidden
+(
+)
 wr
 :
 :

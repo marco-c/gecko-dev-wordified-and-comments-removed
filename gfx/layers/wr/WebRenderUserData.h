@@ -442,6 +442,8 @@ wr
 MixBlendMode
 &
 aMixBlendMode
+bool
+aIsBackfaceVisible
 )
 ;
 void

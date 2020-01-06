@@ -5897,6 +5897,8 @@ const
 CSSIntRect
 &
 aSrc
+bool
+aIsBackfaceVisible
 float
 aOpacity
 )
@@ -6281,6 +6283,7 @@ PushLinearGradient
 (
 wrGradientBounds
 wrClipBounds
+aIsBackfaceVisible
 mozilla
 :
 :
@@ -6352,6 +6355,7 @@ PushRadialGradient
 (
 wrGradientBounds
 wrClipBounds
+aIsBackfaceVisible
 mozilla
 :
 :
