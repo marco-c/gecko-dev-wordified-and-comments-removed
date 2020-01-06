@@ -449,14 +449,6 @@ mtf
 1
 ]
 ;
-const
-uint8_t
-*
-custom_dict
-;
-int
-custom_dict_size
-;
 BrotliRunningMetablockHeaderState
 substate_metablock_header
 ;
@@ -499,6 +491,12 @@ is_metadata
 unsigned
 int
 should_wrap_ringbuffer
+:
+1
+;
+unsigned
+int
+canny_ringbuffer_allocation
 :
 1
 ;

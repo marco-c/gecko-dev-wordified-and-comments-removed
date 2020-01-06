@@ -27,8 +27,7 @@ HistogramType
 histograms
 )
 {
-unsigned
-int
+uint32_t
 seed
 =
 7
@@ -140,8 +139,7 @@ FN
 RandomSample
 )
 (
-unsigned
-int
+uint32_t
 *
 seed
 const
@@ -170,10 +168,6 @@ stride
 length
 )
 {
-pos
-=
-0
-;
 stride
 =
 length
@@ -243,8 +237,7 @@ stride
 +
 kMinItersForRefining
 ;
-unsigned
-int
+uint32_t
 seed
 =
 7

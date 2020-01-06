@@ -152,7 +152,7 @@ uint64_t
 h
 =
 (
-BROTLI_UNALIGNED_LOAD64
+BROTLI_UNALIGNED_LOAD64LE
 (
 p
 )
@@ -3721,7 +3721,7 @@ emit_remainder
 uint64_t
 input_bytes
 =
-BROTLI_UNALIGNED_LOAD64
+BROTLI_UNALIGNED_LOAD64LE
 (
 ip
 -
@@ -3965,7 +3965,7 @@ emit_remainder
 uint64_t
 input_bytes
 =
-BROTLI_UNALIGNED_LOAD64
+BROTLI_UNALIGNED_LOAD64LE
 (
 ip
 -

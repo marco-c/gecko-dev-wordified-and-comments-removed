@@ -75,11 +75,11 @@ MY_TEMP_DIR
 /
 brotli
 checkout
-v0
-.
-6
+v1
 .
 0
+.
+1
 COMMIT
 =
 (
@@ -159,6 +159,8 @@ MY_TEMP_DIR
 }
 /
 brotli
+/
+c
 /
 d
 d

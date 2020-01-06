@@ -76,7 +76,7 @@ array
 {
 #
 ifdef
-IS_LITTLE_ENDIAN
+BROTLI_LITTLE_ENDIAN
 uint8_t
 *
 p
@@ -156,7 +156,7 @@ pos
 7
 )
 ;
-BROTLI_UNALIGNED_STORE64
+BROTLI_UNALIGNED_STORE64LE
 (
 p
 v

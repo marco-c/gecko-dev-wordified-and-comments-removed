@@ -292,6 +292,10 @@ dist_cache
 size_t
 *
 last_insert_len
+const
+BrotliEncoderParams
+*
+params
 Command
 *
 commands

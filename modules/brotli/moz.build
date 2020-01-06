@@ -224,7 +224,7 @@ brotli
 HostProgram
 (
 '
-bro
+brotli
 '
 )
 HOST_SOURCES
@@ -357,7 +357,7 @@ c
 '
 tools
 /
-bro
+brotli
 .
 c
 '
