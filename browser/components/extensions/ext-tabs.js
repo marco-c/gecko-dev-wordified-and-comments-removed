@@ -2613,7 +2613,7 @@ toggleMuteAudio
 (
 extension
 .
-uuid
+id
 )
 ;
 }
