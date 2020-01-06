@@ -1202,6 +1202,12 @@ IsMSJapaneseIMEActive
 ;
 static
 bool
+IsGoogleJapaneseInputActive
+(
+)
+;
+static
+bool
 DoNotReturnErrorFromGetSelection
 (
 )
@@ -1458,9 +1464,9 @@ RecordCompositionStartAction
 ITfCompositionView
 *
 aComposition
-ULONG
+LONG
 aStart
-ULONG
+LONG
 aLength
 bool
 aPreserveSelection
@@ -2665,9 +2671,9 @@ newAction
 bool
 WasTextInsertedWithoutCompositionAt
 (
-ULONG
+LONG
 aStart
-ULONG
+LONG
 aLength
 )
 const
