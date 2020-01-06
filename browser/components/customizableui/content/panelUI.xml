@@ -229,7 +229,6 @@ inherits
 =
 "
 panelopen
-viewtype
 transitioning
 "
 >
@@ -247,7 +246,6 @@ xbl
 inherits
 =
 "
-viewtype
 transitioning
 "
 class
@@ -273,13 +271,6 @@ class
 panel
 -
 mainview
-"
-xbl
-:
-inherits
-=
-"
-viewtype
 "
 /
 >
