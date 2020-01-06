@@ -539,33 +539,42 @@ name
 :
 basestring
     
-Optional
+Required
 (
 '
-optimizations
+optimization
 '
+default
+=
+None
 )
 :
-[
 Any
 (
         
-[
+None
+        
+{
 '
 index
 -
 search
 '
+:
+[
 basestring
 ]
+}
         
-[
+{
 '
 seta
 '
-]
+:
+None
+}
         
-[
+{
 '
 skip
 -
@@ -573,13 +582,13 @@ unless
 -
 changed
 '
+:
 [
 basestring
 ]
-]
+}
     
 )
-]
     
 '
 worker
@@ -7748,7 +7757,7 @@ attributes
 attributes
             
 '
-optimizations
+optimization
 '
 :
 task
@@ -7756,10 +7765,9 @@ task
 get
 (
 '
-optimizations
+optimization
 '
-[
-]
+None
 )
         
 }
