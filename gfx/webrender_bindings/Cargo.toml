@@ -37,7 +37,7 @@ MPL
 [
 dependencies
 ]
-webrender_traits
+webrender_api
 =
 {
 path
@@ -46,14 +46,14 @@ path
 .
 .
 /
-webrender_traits
+webrender_api
 "
 version
 =
 "
 0
 .
-43
+47
 .
 0
 "
@@ -113,7 +113,7 @@ version
 "
 0
 .
-43
+47
 .
 0
 "

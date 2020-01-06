@@ -190,7 +190,7 @@ include
 webrender
 "
 "
-webrender_traits
+webrender_api
 "
 ]
 [
