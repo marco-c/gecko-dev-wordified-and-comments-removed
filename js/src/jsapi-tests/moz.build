@@ -211,6 +211,11 @@ testException
 cpp
 '
 '
+testExecuteInJSMEnvironment
+.
+cpp
+'
+'
 testExternalArrayBuffer
 .
 cpp
