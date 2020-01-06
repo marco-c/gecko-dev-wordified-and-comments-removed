@@ -340,6 +340,12 @@ PLAY_STATE_ENDED
 PLAY_STATE_SHUTDOWN
 }
 ;
+static
+void
+InitStatics
+(
+)
+;
 explicit
 MediaDecoder
 (
