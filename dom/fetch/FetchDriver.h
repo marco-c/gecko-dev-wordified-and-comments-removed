@@ -487,6 +487,8 @@ aFoundOpaqueRedirect
 void
 FailWithNetworkError
 (
+nsresult
+rv
 )
 ;
 void

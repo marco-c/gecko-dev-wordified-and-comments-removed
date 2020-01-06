@@ -304,6 +304,9 @@ body
 int64_t
 bodySize
 ;
+nsresult
+errorCode
+;
 }
 ;
 }

@@ -415,6 +415,7 @@ InternalResponse
 :
 NetworkError
 (
+NS_ERROR_FAILURE
 )
 ;
 }
@@ -478,6 +479,7 @@ InternalResponse
 :
 NetworkError
 (
+NS_ERROR_FAILURE
 )
 ;
 NotifyServer

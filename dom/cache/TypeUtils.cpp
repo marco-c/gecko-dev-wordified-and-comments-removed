@@ -1586,6 +1586,7 @@ InternalResponse
 :
 NetworkError
 (
+NS_ERROR_FAILURE
 )
 ;
 RefPtr

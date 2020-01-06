@@ -143,6 +143,10 @@ mPaddingSize
 (
 UNKNOWN_PADDING_SIZE
 )
+mErrorCode
+(
+NS_OK
+)
 {
 }
 already_AddRefed
@@ -181,6 +185,11 @@ InternalResponse
 :
 NetworkError
 (
+aIPCResponse
+.
+errorCode
+(
+)
 )
 ;
 }
