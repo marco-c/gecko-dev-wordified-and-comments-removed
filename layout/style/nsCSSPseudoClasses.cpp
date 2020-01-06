@@ -428,15 +428,6 @@ aType
 Type
 :
 :
-mozSystemMetric
-|
-|
-aType
-=
-=
-Type
-:
-:
 mozLocaleDir
 |
 |
