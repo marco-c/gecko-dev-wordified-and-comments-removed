@@ -2028,11 +2028,11 @@ gecko_profile_entries
 '
     
 '
-rss
+mainthread
 '
     
 '
-mainthread
+rss
 '
     
 '
