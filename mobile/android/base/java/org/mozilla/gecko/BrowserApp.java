@@ -8530,6 +8530,13 @@ this
 )
 ;
 }
+mDynamicToolbar
+.
+setLayerView
+(
+mLayerView
+)
+;
 setDynamicToolbarEnabled
 (
 mDynamicToolbar

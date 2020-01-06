@@ -2439,6 +2439,13 @@ preload
 context
 )
 ;
+GeckoAppShell
+.
+setLayerView
+(
+this
+)
+;
 initializeView
 (
 )
