@@ -267,10 +267,6 @@ gdk_screen_get_monitor_geometry
 )
 STUB
 (
-gdk_screen_get_monitor_workarea
-)
-STUB
-(
 gdk_screen_get_monitor_height_mm
 )
 STUB
@@ -2089,6 +2085,10 @@ gdk_error_trap_pop_ignored
 STUB
 (
 gdk_event_get_source_device
+)
+STUB
+(
+gdk_screen_get_monitor_workarea
 )
 STUB
 (
