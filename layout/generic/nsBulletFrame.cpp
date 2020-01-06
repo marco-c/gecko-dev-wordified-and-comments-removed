@@ -2141,12 +2141,12 @@ appUnitsPerDevPixel
 wr
 :
 :
-WrRect
+LayoutRect
 dest
 =
 aSc
 .
-ToRelativeWrRectRounded
+ToRelativeLayoutRectRounded
 (
 destRect
 )

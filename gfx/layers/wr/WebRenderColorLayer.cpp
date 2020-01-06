@@ -139,12 +139,12 @@ rect
 wr
 :
 :
-WrRect
+LayoutRect
 r
 =
 sc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 rect
 )
@@ -158,7 +158,7 @@ r
 wr
 :
 :
-ToWrColor
+ToColorF
 (
 mColor
 )

@@ -1649,12 +1649,12 @@ appUnitsPerDevPixel
 wr
 :
 :
-WrRect
+LayoutRect
 transformedRect
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 rect
 )
@@ -1668,7 +1668,7 @@ transformedRect
 wr
 :
 :
-ToWrColor
+ToColorF
 (
 ToDeviceColor
 (

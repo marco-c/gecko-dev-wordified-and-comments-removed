@@ -228,8 +228,8 @@ StackingContextHelper
 wr
 :
 :
-WrRect
-ToRelativeWrRect
+LayoutRect
+ToRelativeLayoutRect
 (
 const
 LayerRect
@@ -241,8 +241,8 @@ const
 wr
 :
 :
-WrRect
-ToRelativeWrRect
+LayoutRect
+ToRelativeLayoutRect
 (
 const
 LayoutDeviceRect
@@ -254,8 +254,8 @@ const
 wr
 :
 :
-WrPoint
-ToRelativeWrPoint
+LayoutPoint
+ToRelativeLayoutPoint
 (
 const
 LayerPoint
@@ -267,8 +267,8 @@ const
 wr
 :
 :
-WrRect
-ToRelativeWrRectRounded
+LayoutRect
+ToRelativeLayoutRectRounded
 (
 const
 LayoutDeviceRect

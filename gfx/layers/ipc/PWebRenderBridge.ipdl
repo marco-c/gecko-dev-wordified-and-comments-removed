@@ -527,7 +527,7 @@ uint64_t
 fwdTransactionId
 uint64_t
 transactionId
-WrSize
+LayoutSize
 aContentSize
 ByteBuffer
 aDL
@@ -556,7 +556,7 @@ uint64_t
 fwdTransactionId
 uint64_t
 transactionId
-WrSize
+LayoutSize
 aContentSize
 ByteBuffer
 aDL

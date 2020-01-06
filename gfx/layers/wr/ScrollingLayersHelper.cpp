@@ -332,13 +332,13 @@ GetScrollId
 )
 aStackingContext
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 contentRect
 )
 aStackingContext
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 clipBounds
 )
@@ -603,7 +603,7 @@ PushClip
 (
 aStackingContext
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 clipRect
 )
@@ -740,7 +740,7 @@ PushClip
 (
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 clipRect
 )

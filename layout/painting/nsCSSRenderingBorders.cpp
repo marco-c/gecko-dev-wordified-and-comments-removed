@@ -16065,12 +16065,12 @@ mOuterRect
 wr
 :
 :
-WrRect
+LayoutRect
 transformedRect
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 outerRect
 )

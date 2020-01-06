@@ -632,7 +632,7 @@ const
 wr
 :
 :
-WrSize
+LayoutSize
 &
 aContentSize
 const
@@ -702,7 +702,7 @@ const
 wr
 :
 :
-WrSize
+LayoutSize
 &
 aContentSize
 const
@@ -1384,7 +1384,7 @@ const
 wr
 :
 :
-WrSize
+LayoutSize
 &
 aContentSize
 const
@@ -1463,7 +1463,7 @@ const
 wr
 :
 :
-WrSize
+LayoutSize
 &
 aContentSize
 const

@@ -1359,7 +1359,7 @@ r
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 aRect
 )
@@ -2286,12 +2286,12 @@ GetKey
 wr
 :
 :
-WrRect
+LayoutRect
 dest
 =
 aSc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 imageRect
 +
@@ -2477,7 +2477,7 @@ DiscardCompositorAnimations
 wr
 :
 :
-WrSize
+LayoutSize
 contentSize
 {
 (

@@ -729,14 +729,14 @@ const
 wr
 :
 :
-WrRect
+LayoutRect
 &
 aBounds
 const
 wr
 :
 :
-WrRect
+LayoutRect
 &
 aClip
 wr

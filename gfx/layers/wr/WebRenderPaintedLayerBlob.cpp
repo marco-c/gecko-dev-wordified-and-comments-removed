@@ -653,7 +653,7 @@ PushImage
 (
 sc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 LayerRect
 (
@@ -662,7 +662,7 @@ mImageBounds
 )
 sc
 .
-ToRelativeWrRect
+ToRelativeLayoutRect
 (
 rect
 )

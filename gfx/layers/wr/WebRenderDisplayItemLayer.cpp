@@ -158,7 +158,7 @@ mItem
 wr
 :
 :
-WrSize
+LayoutSize
 contentSize
 ;
 wr
