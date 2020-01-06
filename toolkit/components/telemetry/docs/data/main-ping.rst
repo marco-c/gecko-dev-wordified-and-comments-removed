@@ -4096,8 +4096,8 @@ data
 At
 present
 there
-are
-two
+is
+one
 known
 users
 of
@@ -4106,8 +4106,6 @@ section
 :
 Telemetry
 Experiments
-and
-TelemetrySend
 .
 Telemetry
 Experiments
@@ -4121,17 +4119,6 @@ are
 activated
 and
 terminated
-.
-TelemetrySend
-uses
-it
-to
-record
-failures
-when
-sending
-Telemetry
-pings
 .
 webrtc
 -
