@@ -111,6 +111,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIBackgroundChannelRegistrar
+.
+idl
+'
+'
 nsIHstsPrimingCallback
 .
 idl
@@ -329,6 +334,11 @@ cpp
 '
 '
 ASpdySession
+.
+cpp
+'
+'
+BackgroundChannelRegistrar
 .
 cpp
 '
