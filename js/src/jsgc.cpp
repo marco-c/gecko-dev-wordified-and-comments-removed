@@ -34043,7 +34043,10 @@ if
 rootsRemoved
 &
 &
-cleanUpEverything
+IsShutdownGC
+(
+reason
+)
 )
 {
 JS
