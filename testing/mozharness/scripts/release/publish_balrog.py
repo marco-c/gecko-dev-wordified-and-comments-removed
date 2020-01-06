@@ -1137,18 +1137,6 @@ build_number
 "
 -
 -
-suffix
-"
-channel_config
-[
-"
-bz2_blob_suffix
-"
-]
-            
-"
--
--
 verbose
 "
         
