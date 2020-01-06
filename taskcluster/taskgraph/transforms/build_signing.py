@@ -351,37 +351,6 @@ macapp
 '
                 
 }
-{
-                   
-'
-artifacts
-'
-:
-[
-'
-public
-/
-build
-/
-update
-/
-target
-.
-complete
-.
-mar
-'
-]
-                   
-'
-format
-'
-:
-'
-mar
-'
-                
-}
             
 ]
         
