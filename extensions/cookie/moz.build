@@ -123,6 +123,15 @@ nsPopupWindowManager
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+caps
+'
+]
 include
 (
 '
