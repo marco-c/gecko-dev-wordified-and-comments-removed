@@ -109,11 +109,6 @@ asan
 :
 0
 '
-ubsan
-'
-:
-0
-'
 build_with_mozilla
 '
 :
