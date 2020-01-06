@@ -232,6 +232,8 @@ nsICODecoder
 *
 >
 aICODecoder
+bool
+aIsMetadataDecode
 const
 Maybe
 <
