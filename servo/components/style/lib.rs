@@ -317,10 +317,6 @@ parking_lot
 ;
 extern
 crate
-pdqsort
-;
-extern
-crate
 precomputed_hash
 ;
 extern
