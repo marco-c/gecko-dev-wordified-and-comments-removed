@@ -310,6 +310,9 @@ x86
 '
 x86_64
 '
+'
+mips64
+'
 )
 return
 target
