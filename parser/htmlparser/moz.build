@@ -157,6 +157,11 @@ EXPORTS
 =
 [
 '
+nsElementTable
+.
+h
+'
+'
 nsHTMLTagList
 .
 h
@@ -188,11 +193,6 @@ h
 '
 '
 nsIParser
-.
-h
-'
-'
-nsIParserService
 .
 h
 '
@@ -268,11 +268,6 @@ cpp
 '
 '
 nsParserMsgUtils
-.
-cpp
-'
-'
-nsParserService
 .
 cpp
 '

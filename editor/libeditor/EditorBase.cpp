@@ -734,9 +734,6 @@ class
 nsIOutputStream
 ;
 class
-nsIParserService
-;
-class
 nsITransferable
 ;
 #
@@ -751,11 +748,6 @@ h
 "
 #
 endif
-extern
-nsIParserService
-*
-sParserService
-;
 namespace
 mozilla
 {
