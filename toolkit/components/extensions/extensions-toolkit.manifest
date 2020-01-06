@@ -150,7 +150,7 @@ category
 webextension
 -
 schemas
-native_host_manifest
+native_manifest
 chrome
 :
 /
@@ -161,7 +161,7 @@ content
 /
 schemas
 /
-native_host_manifest
+native_manifest
 .
 json
 category

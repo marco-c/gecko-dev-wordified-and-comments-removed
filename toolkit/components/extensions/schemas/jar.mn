@@ -220,7 +220,7 @@ extensions
 /
 schemas
 /
-native_host_manifest
+native_manifest
 .
 json
 content
