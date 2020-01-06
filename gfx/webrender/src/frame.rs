@@ -2995,7 +2995,7 @@ prim_info
 SpecificDisplayItem
 :
 :
-PopShadow
+PopAllShadows
 =
 >
 {
@@ -3003,7 +3003,7 @@ context
 .
 builder
 .
-pop_shadow
+pop_all_shadows
 (
 )
 ;

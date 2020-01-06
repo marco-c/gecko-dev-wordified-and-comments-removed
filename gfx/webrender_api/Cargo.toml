@@ -96,7 +96,7 @@ bincode
 "
 0
 .
-8
+9
 "
 bitflags
 =
@@ -144,7 +144,7 @@ version
 "
 0
 .
-8
+9
 "
 optional
 =

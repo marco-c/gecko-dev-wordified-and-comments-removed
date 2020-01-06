@@ -3770,7 +3770,7 @@ push_shadow
 SpecificDisplayItem
 :
 :
-PopShadow
+PopAllShadows
 =
 >
 String
@@ -3779,7 +3779,7 @@ String
 from
 (
 "
-pop_shadow
+pop_all_shadows
 "
 )
 }
