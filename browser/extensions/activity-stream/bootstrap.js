@@ -115,11 +115,11 @@ BROWSER_READY_NOTIFICATION
 "
 browser
 -
-ui
+delayed
 -
 startup
 -
-complete
+finished
 "
 ;
 const
