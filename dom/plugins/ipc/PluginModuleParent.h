@@ -2854,9 +2854,6 @@ mInitOnAsyncConnect
 nsresult
 mAsyncInitRv
 ;
-NPError
-mAsyncInitError
-;
 dom
 :
 :

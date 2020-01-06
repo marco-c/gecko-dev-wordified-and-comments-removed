@@ -2770,6 +2770,9 @@ mInitOnAsyncConnect
 =
 false
 ;
+NPError
+dummyError
+;
 #
 if
 defined
@@ -2782,7 +2785,7 @@ NP_GetEntryPoints
 (
 mNPPIface
 &
-mAsyncInitError
+dummyError
 )
 ;
 if
@@ -2822,7 +2825,7 @@ NP_Initialize
 mNPNIface
 mNPPIface
 &
-mAsyncInitError
+dummyError
 )
 ;
 #
@@ -2833,7 +2836,7 @@ NP_Initialize
 (
 mNPNIface
 &
-mAsyncInitError
+dummyError
 )
 ;
 #
@@ -2859,7 +2862,7 @@ NP_GetEntryPoints
 (
 mNPPIface
 &
-mAsyncInitError
+dummyError
 )
 ;
 }
@@ -3367,10 +3370,6 @@ false
 mAsyncInitRv
 (
 NS_ERROR_NOT_INITIALIZED
-)
-mAsyncInitError
-(
-NPERR_NO_ERROR
 )
 mContentParent
 (
