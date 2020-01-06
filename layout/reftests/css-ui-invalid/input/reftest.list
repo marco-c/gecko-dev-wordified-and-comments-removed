@@ -646,12 +646,6 @@ success
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 input
@@ -672,12 +666,6 @@ file
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 input
