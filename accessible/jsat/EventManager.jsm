@@ -3752,13 +3752,9 @@ browser
 &
 &
 !
-(
 content
-instanceof
-Ci
 .
-nsIDOMChromeWindow
-)
+isChromeWindow
 )
 {
 Logger

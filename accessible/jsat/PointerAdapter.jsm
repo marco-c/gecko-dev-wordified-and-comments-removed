@@ -463,10 +463,8 @@ aEvent
 view
 .
 top
-instanceof
-Ci
 .
-nsIDOMChromeWindow
+isChromeWindow
 )
 {
 return

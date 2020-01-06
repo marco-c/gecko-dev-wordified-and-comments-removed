@@ -322,8 +322,8 @@ undoCloseWindow
 ok
 (
 newWin2
-instanceof
-ChromeWindow
+.
+isChromeWindow
 "
 undoCloseWindow
 actually

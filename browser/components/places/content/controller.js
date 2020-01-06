@@ -7616,8 +7616,8 @@ tab
 data
 .
 ownerGlobal
-instanceof
-ChromeWindow
+.
+isChromeWindow
 )
 {
 let

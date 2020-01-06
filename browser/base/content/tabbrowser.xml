@@ -48205,8 +48205,8 @@ tab
 sourceNode
 .
 ownerGlobal
-instanceof
-ChromeWindow
+.
+isChromeWindow
 &
 &
 sourceNode

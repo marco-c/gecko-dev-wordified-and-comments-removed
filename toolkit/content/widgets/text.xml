@@ -2637,12 +2637,8 @@ window
 if
 (
 window
-instanceof
-Components
 .
-interfaces
-.
-nsIDOMChromeWindow
+isChromeWindow
 )
 {
 while

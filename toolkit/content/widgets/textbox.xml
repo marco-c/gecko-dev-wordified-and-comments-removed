@@ -1974,10 +1974,7 @@ top
 &
 window
 .
-constructor
-=
-=
-ChromeWindow
+isChromeWindow
 &
 &
 document
