@@ -351,7 +351,6 @@ NodeOrAncestorHasDirAuto
 )
 ;
 }
-static
 Directionality
 GetDirectionFromText
 (
@@ -365,8 +364,6 @@ aLength
 uint32_t
 *
 aFirstStrong
-=
-nullptr
 )
 {
 const
