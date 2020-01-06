@@ -792,6 +792,10 @@ isWebExtensionContentScript
 (
 false
 )
+hasInterposition
+(
+false
+)
 waiveInterposition
 (
 false

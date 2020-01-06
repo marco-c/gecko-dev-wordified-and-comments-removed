@@ -3798,6 +3798,7 @@ return
 mIsAddonScope
 ;
 }
+inline
 bool
 HasInterposition
 (
@@ -11431,6 +11432,9 @@ skipWriteToGlobalPrototype
 ;
 bool
 isWebExtensionContentScript
+;
+bool
+hasInterposition
 ;
 bool
 waiveInterposition
