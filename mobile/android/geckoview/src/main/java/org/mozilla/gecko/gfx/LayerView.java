@@ -619,11 +619,6 @@ mOverscroll
 draw
 (
 canvas
-mSession
-.
-getViewportMetrics
-(
-)
 )
 ;
 }
