@@ -79,7 +79,7 @@ undefined
 ;
 f
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 5
@@ -87,7 +87,7 @@ objectEmulatingUndefined
 ;
 f
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 6
@@ -207,7 +207,7 @@ value
 }
 h
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 1
@@ -215,7 +215,7 @@ objectEmulatingUndefined
 ;
 h
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 2

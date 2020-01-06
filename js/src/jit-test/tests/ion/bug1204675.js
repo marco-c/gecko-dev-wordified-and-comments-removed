@@ -63,7 +63,7 @@ f
 (
 g
 [
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 ]

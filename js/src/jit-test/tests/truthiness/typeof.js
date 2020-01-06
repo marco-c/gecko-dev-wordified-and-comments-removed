@@ -13,7 +13,7 @@ assertEq
 (
 t1
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
@@ -26,7 +26,7 @@ assertEq
 (
 t1
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
@@ -39,7 +39,7 @@ assertEq
 (
 t1
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
@@ -135,7 +135,7 @@ assertEq
 (
 t2
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
@@ -148,7 +148,7 @@ assertEq
 (
 t2
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
@@ -161,7 +161,7 @@ assertEq
 (
 t2
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )

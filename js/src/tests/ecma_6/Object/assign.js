@@ -294,7 +294,7 @@ true
 if
 (
 typeof
-objectEmulatingUndefined
+createIsHTMLDDA
 =
 =
 =
@@ -306,7 +306,7 @@ function
 var
 falsyObject
 =
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 ;

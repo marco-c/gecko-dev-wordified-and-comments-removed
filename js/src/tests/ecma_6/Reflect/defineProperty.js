@@ -850,7 +850,7 @@ undefined
 if
 (
 typeof
-objectEmulatingUndefined
+createIsHTMLDDA
 =
 =
 =
@@ -862,7 +862,7 @@ falseValues
 .
 push
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )

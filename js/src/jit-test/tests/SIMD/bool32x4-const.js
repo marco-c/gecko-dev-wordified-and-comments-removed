@@ -84,7 +84,7 @@ NaN
 Symbol
 (
 )
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
@@ -147,7 +147,7 @@ Symbol
 )
 S
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )

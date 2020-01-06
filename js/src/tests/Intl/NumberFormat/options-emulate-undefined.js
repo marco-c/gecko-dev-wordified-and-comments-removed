@@ -1,7 +1,7 @@
 if
 (
 typeof
-objectEmulatingUndefined
+createIsHTMLDDA
 =
 =
 =
@@ -23,7 +23,7 @@ en
 -
 US
 '
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )

@@ -271,7 +271,7 @@ assertEq
 (
 foo
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
@@ -282,7 +282,7 @@ assertEq
 (
 foo
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )

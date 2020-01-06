@@ -10,7 +10,7 @@ values
 undefined
 null
 Math
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 ]

@@ -71,7 +71,7 @@ false
 ;
 f
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 false
@@ -79,7 +79,7 @@ false
 ;
 f
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 false
@@ -183,7 +183,7 @@ value
 }
 h
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 false
@@ -191,7 +191,7 @@ false
 ;
 h
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 false

@@ -16,7 +16,7 @@ i
 assertEq
 (
 typeof
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 "

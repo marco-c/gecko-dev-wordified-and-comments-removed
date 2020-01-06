@@ -3049,7 +3049,7 @@ i
 var
 o
 =
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 ;

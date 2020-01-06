@@ -85,7 +85,7 @@ quit
 var
 opt
 =
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 ;

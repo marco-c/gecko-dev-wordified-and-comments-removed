@@ -47,7 +47,7 @@ obj
 var
 emul
 =
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 ;
@@ -120,7 +120,7 @@ false
 ;
 f
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 emul
@@ -129,7 +129,7 @@ true
 ;
 f
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 emul
@@ -139,7 +139,7 @@ true
 f
 (
 emul
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 true
@@ -148,7 +148,7 @@ true
 f
 (
 emul
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 true

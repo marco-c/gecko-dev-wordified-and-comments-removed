@@ -17,13 +17,13 @@ x
 }
 f
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
 f
 (
-objectEmulatingUndefined
+createIsHTMLDDA
 (
 )
 )
