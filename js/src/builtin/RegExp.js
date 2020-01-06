@@ -916,6 +916,13 @@ if
 functionalReplace
 )
 {
+if
+(
+lengthS
+>
+5000
+)
+{
 var
 elemBase
 =
@@ -943,6 +950,7 @@ fullUnicode
 elemBase
 )
 ;
+}
 }
 return
 RegExpGlobalReplaceOptFunc
