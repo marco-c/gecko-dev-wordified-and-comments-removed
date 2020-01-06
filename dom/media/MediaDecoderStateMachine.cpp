@@ -13274,6 +13274,15 @@ rv
 rv
 )
 ;
+mReader
+-
+>
+SetCanonicalDuration
+(
+&
+mDuration
+)
+;
 return
 NS_OK
 ;
