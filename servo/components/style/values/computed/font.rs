@@ -96,7 +96,10 @@ specified
 font
 :
 :
+{
 XTextZoom
+FontSynthesis
+}
 ;
 #
 [
