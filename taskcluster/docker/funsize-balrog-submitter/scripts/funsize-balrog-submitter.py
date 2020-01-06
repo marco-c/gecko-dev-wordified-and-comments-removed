@@ -588,10 +588,11 @@ else
 if
 get_hash
 (
+retry
+(
 key
 .
 get_contents_as_string
-(
 )
 )
 =
