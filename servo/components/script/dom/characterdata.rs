@@ -660,15 +660,9 @@ new_length
 )
 ;
 if
-let
-Some
-(
-_
-)
-=
 self
 .
-downcast
+is
 :
 :
 <
