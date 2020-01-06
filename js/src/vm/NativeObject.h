@@ -2939,6 +2939,7 @@ slot
 private
 :
 static
+MOZ_ALWAYS_INLINE
 Shape
 *
 getChildProperty

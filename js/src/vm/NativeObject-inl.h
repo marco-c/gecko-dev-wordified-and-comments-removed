@@ -3840,7 +3840,12 @@ shape
 obj
 -
 >
-lookup
+lastProperty
+(
+)
+-
+>
+search
 (
 cx
 id

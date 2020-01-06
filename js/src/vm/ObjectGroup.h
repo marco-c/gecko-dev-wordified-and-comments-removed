@@ -1091,7 +1091,7 @@ jsid
 id
 )
 ;
-inline
+MOZ_ALWAYS_INLINE
 HeapTypeSet
 *
 maybeGetProperty

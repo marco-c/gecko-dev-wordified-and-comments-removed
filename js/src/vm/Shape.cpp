@@ -1519,6 +1519,7 @@ child
 )
 ;
 }
+MOZ_ALWAYS_INLINE
 Shape
 *
 NativeObject
