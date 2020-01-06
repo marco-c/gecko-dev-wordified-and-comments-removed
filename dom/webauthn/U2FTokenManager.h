@@ -141,9 +141,9 @@ mTransactionParent
 ;
 RefPtr
 <
-U2FSoftTokenManager
+U2FTokenTransport
 >
-mSoftTokenManager
+mTokenManagerImpl
 ;
 }
 ;
