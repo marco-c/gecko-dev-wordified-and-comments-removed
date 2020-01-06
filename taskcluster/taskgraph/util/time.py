@@ -577,6 +577,10 @@ time
 isoformat
 (
 )
+[
+:
+23
+]
 +
 '
 Z
@@ -653,6 +657,10 @@ utcnow
 isoformat
 (
 )
+[
+:
+23
+]
 +
 '
 Z
