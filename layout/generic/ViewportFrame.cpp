@@ -72,6 +72,15 @@ nsPlaceholderFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ServoStyleContextInlines
+.
+h
+"
 using
 namespace
 mozilla

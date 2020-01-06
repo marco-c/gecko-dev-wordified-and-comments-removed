@@ -66,6 +66,15 @@ include
 "
 mozilla
 /
+ServoStyleContextInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
