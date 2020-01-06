@@ -805,11 +805,12 @@ aResponse
 .
 form
 client
-:
-client
 chrome
 :
-false
+true
+isTabActor
+:
+true
 }
 ;
 }
