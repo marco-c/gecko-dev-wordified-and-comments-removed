@@ -2,7 +2,7 @@ android
 -
 api
 -
-15
+16
 /
 debug
 :
@@ -13,7 +13,9 @@ Android
 4
 .
 0
-API15
+api
+-
+16
 +
 Debug
 "
@@ -30,7 +32,7 @@ android
 -
 api
 -
-15
+16
 -
 debug
 treeherder
@@ -45,7 +47,9 @@ android
 -
 armv7
 -
-api15
+api
+-
+16
 /
 debug
 symbol
@@ -160,7 +164,7 @@ cfg
 :
 api
 -
-15
+16
 -
 debug
 tooltool
@@ -538,7 +542,7 @@ android
 -
 api
 -
-15
+16
 /
 opt
 :
@@ -549,7 +553,9 @@ Android
 4
 .
 0
-API15
+api
+-
+16
 +
 Opt
 "
@@ -566,7 +572,7 @@ android
 -
 api
 -
-15
+16
 -
 opt
 treeherder
@@ -581,7 +587,9 @@ android
 -
 armv7
 -
-api15
+api
+-
+16
 /
 opt
 symbol
@@ -696,7 +704,7 @@ cfg
 :
 api
 -
-15
+16
 tooltool
 -
 downloads
@@ -716,7 +724,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 /
@@ -729,7 +737,9 @@ Android
 4
 .
 0
-API15
+api
+-
+16
 +
 Nightly
 "
@@ -751,7 +761,7 @@ android
 -
 api
 -
-15
+16
 -
 opt
 type
@@ -775,7 +785,9 @@ android
 -
 armv7
 -
-api15
+api
+-
+16
 /
 opt
 symbol
@@ -894,7 +906,7 @@ cfg
 :
 api
 -
-15
+16
 tooltool
 -
 downloads
@@ -1330,7 +1342,7 @@ android
 -
 api
 -
-15
+16
 -
 old
 -
@@ -1345,7 +1357,9 @@ Android
 4
 .
 0
-API15
+api
+-
+16
 +
 Opt
 OldId
@@ -1363,7 +1377,7 @@ android
 -
 api
 -
-15
+16
 -
 old
 -
@@ -1382,7 +1396,9 @@ android
 -
 armv7
 -
-api15
+api
+-
+16
 -
 old
 -
@@ -1501,7 +1517,7 @@ cfg
 :
 api
 -
-15
+16
 -
 old
 -
@@ -1538,7 +1554,7 @@ android
 -
 api
 -
-15
+16
 -
 old
 -
@@ -1555,7 +1571,9 @@ Android
 4
 .
 0
-API15
+api
+-
+16
 +
 OldId
 Nightly
@@ -1578,7 +1596,7 @@ android
 -
 api
 -
-15
+16
 -
 old
 -
@@ -1606,7 +1624,9 @@ android
 -
 armv7
 -
-api15
+api
+-
+16
 -
 old
 -
@@ -1729,7 +1749,7 @@ cfg
 :
 api
 -
-15
+16
 -
 old
 -
@@ -1766,7 +1786,7 @@ android
 -
 api
 -
-15
+16
 -
 gradle
 /
@@ -1779,7 +1799,9 @@ Android
 4
 .
 0
-API15
+api
+-
+16
 +
 (
 Gradle
@@ -1799,7 +1821,7 @@ android
 -
 api
 -
-15
+16
 -
 gradle
 -
@@ -1812,7 +1834,7 @@ android
 -
 api
 -
-15
+16
 -
 gradle
 /
@@ -2069,7 +2091,7 @@ cfg
 :
 api
 -
-15
+16
 -
 gradle
 tooltool

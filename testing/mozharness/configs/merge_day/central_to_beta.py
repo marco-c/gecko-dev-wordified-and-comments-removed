@@ -174,7 +174,7 @@ android
 -
 api
 -
-15
+16
 /
 "
                   
@@ -400,7 +400,7 @@ android
 -
 api
 -
-15
+16
 /
 l10n
 -
@@ -479,7 +479,7 @@ android
 -
 api
 -
-15
+16
 /
 nightly
 "

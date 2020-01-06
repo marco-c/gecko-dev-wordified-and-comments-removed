@@ -210,7 +210,7 @@ l10n
 /
 mozilla
 -
-aurora
+beta
 "
 "
 hg_l10n_tag
@@ -226,7 +226,7 @@ l10n_dir
 "
 mozilla
 -
-aurora
+beta
 "
 "
 merge_locales

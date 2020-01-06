@@ -132,7 +132,7 @@ android
 -
 api
 -
-15
+16
 -
 debug
 '
@@ -142,7 +142,7 @@ android
 -
 api
 -
-15
+16
 -
 gradle
 -
@@ -154,7 +154,7 @@ android
 -
 api
 -
-15
+16
 -
 old
 -
@@ -168,7 +168,7 @@ android
 -
 api
 -
-15
+16
 -
 opt
 '

@@ -35,7 +35,7 @@ build_type
 '
 api
 -
-15
+16
 -
 opt
 '
@@ -57,7 +57,7 @@ android
 -
 api
 -
-15
+16
 -
 frontend
 /

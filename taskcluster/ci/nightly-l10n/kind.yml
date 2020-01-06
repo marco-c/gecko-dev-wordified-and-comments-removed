@@ -119,7 +119,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 /
@@ -161,7 +161,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -191,7 +191,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -273,7 +273,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -293,7 +293,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -333,7 +333,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -387,7 +387,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -395,7 +395,7 @@ android
 -
 api
 -
-15
+16
 -
 opt
 worker
@@ -429,7 +429,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -533,7 +533,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -545,7 +545,9 @@ android
 -
 armv7
 -
-api15
+api
+-
+16
 /
 opt
 env
@@ -826,7 +828,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -938,7 +940,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -956,7 +958,7 @@ _android
 -
 api
 -
-15
+16
 .
 py
 -
@@ -966,7 +968,7 @@ tc_android
 -
 api
 -
-15
+16
 .
 py
 #
@@ -1240,7 +1242,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :
@@ -1298,7 +1300,7 @@ android
 -
 api
 -
-15
+16
 -
 nightly
 :

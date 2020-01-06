@@ -9,8 +9,9 @@ description
 "
 Android
 armv7
-API
-15
+api
+-
+16
 +
 gradle
 dependencies
@@ -39,7 +40,7 @@ android
 -
 armv7
 -
-api15
+api16
 /
 opt
 kind
@@ -274,7 +275,7 @@ cfg
 :
 api
 -
-15
+16
 -
 gradle
 -
@@ -401,7 +402,7 @@ android
 -
 armv7
 -
-api15
+api16
 /
 opt
 kind
@@ -706,7 +707,7 @@ android
 -
 armv7
 -
-api15
+api16
 /
 opt
 kind
@@ -1375,7 +1376,7 @@ android
 -
 armv7
 -
-api15
+api16
 /
 opt
 kind
@@ -1763,7 +1764,7 @@ android
 -
 armv7
 -
-api15
+api16
 /
 opt
 kind

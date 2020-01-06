@@ -115,7 +115,7 @@ android
 -
 api
 -
-15
+16
 /
 opt
 #
@@ -142,7 +142,7 @@ android
 -
 api
 -
-15
+16
 -
 l10n
 :
@@ -172,7 +172,7 @@ android
 -
 api
 -
-15
+16
 -
 l10n
 :
@@ -236,7 +236,7 @@ android
 -
 api
 -
-15
+16
 -
 l10n
 :
@@ -256,7 +256,7 @@ android
 -
 api
 -
-15
+16
 -
 l10n
 :
@@ -354,7 +354,7 @@ android
 -
 api
 -
-15
+16
 -
 l10n
 :
@@ -366,7 +366,9 @@ android
 -
 armv7
 -
-api15
+api
+-
+16
 /
 opt
 mozharness
@@ -411,7 +413,7 @@ android
 -
 api
 -
-15
+16
 -
 l10n
 :
@@ -425,7 +427,7 @@ _android
 -
 api
 -
-15
+16
 .
 py
 -
@@ -435,7 +437,7 @@ tc_android
 -
 api
 -
-15
+16
 .
 py
 #
@@ -636,7 +638,7 @@ android
 -
 api
 -
-15
+16
 -
 l10n
 :
@@ -675,7 +677,7 @@ android
 -
 api
 -
-15
+16
 -
 l10n
 :
