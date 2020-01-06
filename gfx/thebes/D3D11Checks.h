@@ -85,15 +85,6 @@ IDXGIAdapter
 adapter
 )
 ;
-static
-bool
-DoesNV12Work
-(
-ID3D11Device
-*
-device
-)
-;
 }
 ;
 }
