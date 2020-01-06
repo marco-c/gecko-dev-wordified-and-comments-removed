@@ -74,17 +74,6 @@ include
 "
 mozilla
 /
-dom
-/
-AudioChannelBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h
@@ -3560,9 +3549,6 @@ Watchable
 bool
 >
 mDownloadSuspendedByCache
-;
-AudioChannel
-mAudioChannel
 ;
 bool
 mDisableVideo
