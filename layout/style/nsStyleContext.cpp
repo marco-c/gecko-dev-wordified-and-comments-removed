@@ -767,6 +767,13 @@ IsGecko
 )
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 const
 nsStyleVariables
 *
