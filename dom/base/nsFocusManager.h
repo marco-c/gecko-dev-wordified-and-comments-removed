@@ -174,6 +174,14 @@ return
 mFocusedContent
 ;
 }
+bool
+IsFocused
+(
+nsIContent
+*
+aContent
+)
+;
 nsPIDOMWindowOuter
 *
 GetFocusedWindow
