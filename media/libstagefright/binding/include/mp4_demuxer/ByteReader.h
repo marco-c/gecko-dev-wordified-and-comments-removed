@@ -300,7 +300,6 @@ size_t
 Offset
 (
 )
-const
 {
 return
 mLength
@@ -322,7 +321,6 @@ bool
 CanRead8
 (
 )
-const
 {
 return
 mRemaining
@@ -872,7 +870,6 @@ uint8_t
 PeekU8
 (
 )
-const
 {
 auto
 ptr
@@ -906,7 +903,6 @@ uint16_t
 PeekU16
 (
 )
-const
 {
 auto
 ptr
@@ -948,7 +944,6 @@ uint32_t
 PeekU24
 (
 )
-const
 {
 auto
 ptr
@@ -1000,7 +995,6 @@ uint32_t
 Peek24
 (
 )
-const
 {
 return
 (
@@ -1015,7 +1009,6 @@ uint32_t
 PeekU32
 (
 )
-const
 {
 auto
 ptr
@@ -1057,7 +1050,6 @@ int32_t
 Peek32
 (
 )
-const
 {
 auto
 ptr
@@ -1099,7 +1091,6 @@ uint64_t
 PeekU64
 (
 )
-const
 {
 auto
 ptr
@@ -1141,7 +1132,6 @@ int64_t
 Peek64
 (
 )
-const
 {
 auto
 ptr
@@ -1187,7 +1177,6 @@ Peek
 size_t
 aCount
 )
-const
 {
 if
 (
@@ -1276,7 +1265,6 @@ uint32_t
 Align
 (
 )
-const
 {
 return
 4
@@ -1300,7 +1288,6 @@ bool
 CanReadType
 (
 )
-const
 {
 return
 mRemaining
