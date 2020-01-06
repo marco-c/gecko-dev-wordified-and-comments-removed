@@ -163,9 +163,6 @@ nsIPromptFactory
 Ci
 .
 nsIPromptService
-Ci
-.
-nsIPromptService2
 ]
 )
 handleEvent

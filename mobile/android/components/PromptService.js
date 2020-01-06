@@ -140,9 +140,6 @@ nsIPromptFactory
 Ci
 .
 nsIPromptService
-Ci
-.
-nsIPromptService2
 ]
 )
 getPrompt

@@ -133,11 +133,6 @@ nsIPromptService
 idl
 '
 '
-nsIPromptService2
-.
-idl
-'
-'
 nsIWindowWatcher
 .
 idl
