@@ -1489,6 +1489,9 @@ lime
 .
 svg
 #
+bug
+1354406
+#
 animate
 some
 preserveAspectRatio
