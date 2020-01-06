@@ -672,7 +672,7 @@ None
         
 self
 .
-sock
+_sock
 =
 None
     
@@ -688,13 +688,13 @@ self
 if
 self
 .
-sock
+_sock
 :
             
 return
 self
 .
-sock
+_sock
 .
 gettimeout
 (
@@ -726,12 +726,12 @@ value
 if
 self
 .
-sock
+_sock
 :
             
 self
 .
-sock
+_sock
 .
 settimeout
 (
@@ -911,7 +911,7 @@ chunk
 =
 self
 .
-sock
+_sock
 .
 recv
 (
@@ -1141,7 +1141,7 @@ try
             
 self
 .
-sock
+_sock
 =
 socket
 .
@@ -1157,7 +1157,7 @@ SOCK_STREAM
             
 self
 .
-sock
+_sock
 .
 settimeout
 (
@@ -1168,7 +1168,7 @@ socket_timeout
             
 self
 .
-sock
+_sock
 .
 connect
 (
@@ -1187,7 +1187,7 @@ except
             
 self
 .
-sock
+_sock
 =
 None
             
@@ -1201,7 +1201,7 @@ SocketTimeout
 (
 self
 .
-sock
+_sock
 60
 .
 0
@@ -1437,7 +1437,7 @@ if
 not
 self
 .
-sock
+_sock
 :
             
 self
@@ -1526,7 +1526,7 @@ sent
 =
 self
 .
-sock
+_sock
 .
 send
 (
@@ -1802,7 +1802,7 @@ disconnecting
 if
 self
 .
-sock
+_sock
 :
             
 try
@@ -1810,7 +1810,7 @@ try
                 
 self
 .
-sock
+_sock
 .
 shutdown
 (
@@ -1841,7 +1841,7 @@ raise
             
 self
 .
-sock
+_sock
 .
 close
 (
@@ -1849,7 +1849,7 @@ close
             
 self
 .
-sock
+_sock
 =
 None
     
