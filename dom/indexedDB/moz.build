@@ -106,16 +106,6 @@ DOM
 IndexedDB
 "
 )
-TEST_DIRS
-+
-=
-[
-'
-test
-/
-extensions
-'
-]
 MOCHITEST_MANIFESTS
 +
 =
