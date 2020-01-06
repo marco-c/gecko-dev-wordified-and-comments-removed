@@ -453,4 +453,12 @@ mozmem_jemalloc_impl
 jemalloc_thread_local_arena
 )
 #
+define
+jemalloc_ptr_info_impl
+\
+mozmem_jemalloc_impl
+(
+jemalloc_ptr_info
+)
+#
 endif
