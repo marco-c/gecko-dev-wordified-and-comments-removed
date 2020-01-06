@@ -1323,6 +1323,10 @@ double
 aSinceTime
 =
 0
+bool
+aIsShuttingDown
+=
+false
 )
 nullptr
 )
@@ -1338,6 +1342,10 @@ double
 aSinceTime
 =
 0
+bool
+aIsShuttingDown
+=
+false
 mozilla
 :
 :
