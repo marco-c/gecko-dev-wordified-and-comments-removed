@@ -138,17 +138,6 @@ autofocus
 ;
 [
 CEReactions
-Pref
-=
-"
-dom
-.
-forms
-.
-autocomplete
-.
-formautofill
-"
 SetterThrows
 Pure
 ]
