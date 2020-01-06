@@ -304,6 +304,15 @@ lock
 sMutex
 )
 ;
+if
+(
+!
+sSubscribers
+)
+{
+return
+;
+}
 for
 (
 AudioStream
