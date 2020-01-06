@@ -4655,6 +4655,14 @@ newChild
 IPCOpen
 (
 )
+|
+|
+newChild
+-
+>
+IsDestroyed
+(
+)
 )
 )
 {
