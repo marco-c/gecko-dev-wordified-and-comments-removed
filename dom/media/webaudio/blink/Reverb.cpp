@@ -46,8 +46,9 @@ const
 float
 GainCalibration
 =
--
-58
+0
+.
+00125
 ;
 const
 float
@@ -182,15 +183,7 @@ power
 scale
 *
 =
-powf
-(
-10
 GainCalibration
-*
-0
-.
-05f
-)
 ;
 if
 (
