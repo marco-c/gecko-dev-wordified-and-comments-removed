@@ -7741,6 +7741,13 @@ ServoRestyleState
 aRestyleState
 )
 ;
+friend
+class
+mozilla
+:
+:
+ServoRestyleState
+;
 public
 :
 static
