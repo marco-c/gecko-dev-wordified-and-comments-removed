@@ -813,6 +813,14 @@ NotifyOfConsumersChange
 )
 ;
 void
+GetConsumers
+(
+nsAString
+&
+aString
+)
+;
+void
 SetConsumers
 (
 uint32_t
