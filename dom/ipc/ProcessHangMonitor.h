@@ -45,6 +45,9 @@ nsITabChild
 class
 nsIThread
 ;
+class
+nsString
+;
 namespace
 mozilla
 {
@@ -171,6 +174,10 @@ const
 char
 *
 aFileName
+const
+nsString
+&
+aAddonId
 )
 ;
 void

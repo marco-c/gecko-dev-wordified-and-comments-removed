@@ -304,6 +304,11 @@ attribute
 ACString
 scriptFileName
 ;
+readonly
+attribute
+AString
+addonId
+;
 /
 /
 For
