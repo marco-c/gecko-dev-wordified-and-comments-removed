@@ -1332,6 +1332,9 @@ CodePosition
 from
 CodePosition
 to
+size_t
+*
+numRanges
 )
 {
 MOZ_ASSERT
@@ -1340,6 +1343,13 @@ from
 <
 to
 )
+;
+static
+const
+size_t
+CoalesceLimit
+=
+100000
 ;
 LiveRange
 *
@@ -1393,6 +1403,12 @@ existing
 to
 (
 )
+&
+&
+*
+numRanges
+<
+CoalesceLimit
 )
 {
 prev
@@ -1627,6 +1643,13 @@ range
 >
 registerLink
 )
+;
+(
+*
+numRanges
+)
++
++
 ;
 }
 return
@@ -2892,6 +2915,11 @@ alloc
 return
 false
 ;
+size_t
+numRanges
+=
+0
+;
 for
 (
 size_t
@@ -3229,6 +3257,8 @@ block
 next
 (
 )
+&
+numRanges
 )
 )
 return
@@ -3630,6 +3660,8 @@ from
 next
 (
 )
+&
+numRanges
 )
 )
 return
@@ -3870,6 +3902,8 @@ alloc
 )
 from
 to
+&
+numRanges
 )
 )
 return
@@ -4302,6 +4336,8 @@ to
 next
 (
 )
+&
+numRanges
 )
 )
 return
@@ -4457,6 +4493,8 @@ entryPos
 next
 (
 )
+&
+numRanges
 )
 )
 return
@@ -4572,6 +4610,8 @@ alloc
 )
 from
 to
+&
+numRanges
 )
 )
 return
