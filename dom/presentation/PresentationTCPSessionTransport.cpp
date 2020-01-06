@@ -1073,17 +1073,6 @@ return
 rv
 ;
 }
-nsCOMPtr
-<
-nsIInputStream
->
-stream
-=
-do_QueryInterface
-(
-mMultiplexStream
-)
-;
 mMultiplexStreamCopier
 =
 do_CreateInstance
@@ -1164,7 +1153,7 @@ mMultiplexStreamCopier
 >
 Init
 (
-stream
+mMultiplexStream
 mSocketOutputStream
 target
 true

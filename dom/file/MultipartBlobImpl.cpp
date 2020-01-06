@@ -446,9 +446,10 @@ return
 ;
 }
 }
-CallQueryInterface
-(
 stream
+.
+forget
+(
 aStream
 )
 ;
