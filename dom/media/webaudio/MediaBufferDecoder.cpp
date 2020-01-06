@@ -824,7 +824,7 @@ resource
 mMainThread
 )
 ;
-MediaDecoderReaderInit
+MediaFormatReaderInit
 init
 (
 mBufferDecoder

@@ -82,7 +82,7 @@ CreateStateMachine
 (
 )
 {
-MediaDecoderReaderInit
+MediaFormatReaderInit
 init
 (
 this

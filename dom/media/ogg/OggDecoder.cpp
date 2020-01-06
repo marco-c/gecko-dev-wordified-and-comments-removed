@@ -64,7 +64,7 @@ OggDemuxer
 mResource
 )
 ;
-MediaDecoderReaderInit
+MediaFormatReaderInit
 init
 (
 this

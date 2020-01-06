@@ -36,7 +36,7 @@ struct
 MediaDecoderInit
 ;
 struct
-MediaDecoderReaderInit
+MediaFormatReaderInit
 ;
 class
 MediaDecoderOwner
@@ -110,7 +110,7 @@ const
 MediaContainerType
 &
 aType
-MediaDecoderReaderInit
+MediaFormatReaderInit
 &
 aInit
 )
