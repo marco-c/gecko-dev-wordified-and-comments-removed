@@ -2567,8 +2567,6 @@ SetterOp
 setter
 unsigned
 attrs
-unsigned
-flags
 ShapeTable
 :
 :
@@ -2837,7 +2835,7 @@ nbase
 id
 SHAPE_INVALID_SLOT
 attrs
-flags
+0
 )
 )
 ;
@@ -5055,7 +5053,6 @@ id
 getter
 setter
 attrs
-0
 entry
 true
 keep

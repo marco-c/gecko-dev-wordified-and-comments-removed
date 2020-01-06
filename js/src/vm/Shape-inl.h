@@ -2033,8 +2033,6 @@ SetterOp
 setter
 unsigned
 attrs
-unsigned
-flags
 bool
 allowDictionary
 )
@@ -2149,7 +2147,6 @@ id
 getter
 setter
 attrs
-flags
 entry
 allowDictionary
 keep
