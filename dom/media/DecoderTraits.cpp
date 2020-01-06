@@ -1420,7 +1420,11 @@ GetBool
 "
 media
 .
-wmf
+windows
+-
+media
+-
+foundation
 .
 play
 -
