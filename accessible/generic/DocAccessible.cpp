@@ -7035,6 +7035,9 @@ nsGkAtoms
 aria_owns
 &
 &
+dependentContent
+&
+&
 !
 aRelProvider
 -
