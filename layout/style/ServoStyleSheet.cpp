@@ -413,10 +413,15 @@ ServoStyleSheet
 (
 )
 {
-UnparentChildren
+}
+void
+ServoStyleSheet
+:
+:
+LastRelease
 (
 )
-;
+{
 DropRuleList
 (
 )

@@ -1015,6 +1015,11 @@ UnparentChildren
 )
 ;
 void
+LastRelease
+(
+)
+;
+void
 SubjectSubsumesInnerPrincipal
 (
 nsIPrincipal

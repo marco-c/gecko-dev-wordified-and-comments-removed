@@ -642,6 +642,11 @@ CSSStyleSheet
 )
 ;
 void
+LastRelease
+(
+)
+;
+void
 ClearRuleCascades
 (
 )

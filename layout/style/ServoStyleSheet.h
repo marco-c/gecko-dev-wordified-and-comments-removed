@@ -399,6 +399,11 @@ ServoStyleSheet
 (
 )
 ;
+void
+LastRelease
+(
+)
+;
 ServoStyleSheetInner
 *
 Inner
