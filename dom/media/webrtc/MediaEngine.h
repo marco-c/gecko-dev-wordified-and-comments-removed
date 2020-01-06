@@ -136,13 +136,6 @@ DEFAULT_VIDEO_FPS
 static
 const
 int
-DEFAULT_VIDEO_MIN_FPS
-=
-10
-;
-static
-const
-int
 DEFAULT_43_VIDEO_WIDTH
 =
 640
@@ -270,10 +263,6 @@ mFPS
 (
 0
 )
-mMinFPS
-(
-0
-)
 mFreq
 (
 0
@@ -336,9 +325,6 @@ mHeight
 ;
 int32_t
 mFPS
-;
-int32_t
-mMinFPS
 ;
 int32_t
 mFreq

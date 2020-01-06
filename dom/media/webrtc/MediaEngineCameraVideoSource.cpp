@@ -1232,9 +1232,6 @@ dx
 %
 d
 %
-d
--
-%
 dfps
 "
 aPrefs
@@ -1250,9 +1247,6 @@ GetHeight
 aPrefs
 .
 mFPS
-aPrefs
-.
-mMinFPS
 )
 )
 ;
