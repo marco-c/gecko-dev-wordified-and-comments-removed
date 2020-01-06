@@ -202,6 +202,12 @@ HEADING
 )
 MARKUPMAP
 (
+input
+New_HTMLInput
+0
+)
+MARKUPMAP
+(
 label
 New_HTMLLabel
 roles
