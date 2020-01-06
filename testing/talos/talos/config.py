@@ -3274,6 +3274,12 @@ error_filename
 :
 None
                 
+'
+no_upload_results
+'
+:
+False
+                
 }
     
 browser_config

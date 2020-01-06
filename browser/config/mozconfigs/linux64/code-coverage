@@ -60,6 +60,12 @@ ac_add_options
 disable
 -
 sandbox
+ac_add_options
+-
+-
+disable
+-
+profiling
 MOZ_CODE_COVERAGE
 =
 1
