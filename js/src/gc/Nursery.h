@@ -1360,6 +1360,12 @@ maxChunkCount_
 unsigned
 chunkCountLimit_
 ;
+mozilla
+:
+:
+TimeDuration
+timeInChunkAlloc_
+;
 float
 previousPromotionRate_
 ;
