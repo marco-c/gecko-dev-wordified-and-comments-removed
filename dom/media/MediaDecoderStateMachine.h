@@ -1357,13 +1357,6 @@ VideoFrameContainer
 >
 mVideoFrameContainer
 ;
-const
-dom
-:
-:
-AudioChannel
-mAudioChannel
-;
 RefPtr
 <
 TaskQueue

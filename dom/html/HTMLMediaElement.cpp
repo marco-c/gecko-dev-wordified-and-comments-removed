@@ -10424,7 +10424,6 @@ MediaDecoderInit
 decoderInit
 (
 this
-mAudioChannel
 mMuted
 ?
 0
@@ -20468,7 +20467,6 @@ MediaDecoderInit
 decoderInit
 (
 this
-mAudioChannel
 mMuted
 ?
 0
@@ -20967,7 +20965,6 @@ MediaDecoderInit
 decoderInit
 (
 this
-mAudioChannel
 mMuted
 ?
 0

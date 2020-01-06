@@ -11784,15 +11784,6 @@ GetVideoFrameContainer
 (
 )
 )
-mAudioChannel
-(
-aDecoder
--
->
-GetAudioChannel
-(
-)
-)
 mTaskQueue
 (
 new
