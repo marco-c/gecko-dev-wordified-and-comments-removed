@@ -138,18 +138,6 @@ max_build_output_timeout
 80
     
 '
-perfherder_extra_options
-'
-:
-[
-'
-static
--
-analysis
-'
-]
-    
-'
 base_name
 '
 :
@@ -172,18 +160,6 @@ platform
 :
 '
 win64
-'
-    
-'
-stage_platform
-'
-:
-'
-win64
--
-st
--
-an
 '
     
 '
@@ -414,18 +390,4 @@ mozconfig_platform
 '
 win64
 '
-    
-'
-mozconfig_variant
-'
-:
-'
-clang
-'
-    
-'
-artifact_flag_build_variant_in_try
-'
-:
-None
 }
