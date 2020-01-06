@@ -530,6 +530,7 @@ public
 TelemetrySyncPingBuilder
 setDevices
 (
+NonNull
 ArrayList
 <
 Parcelable
