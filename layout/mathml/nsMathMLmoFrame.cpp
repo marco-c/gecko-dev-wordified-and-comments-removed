@@ -261,10 +261,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -289,7 +285,6 @@ nsMathMLTokenFrame
 BuildDisplayList
 (
 aBuilder
-aDirtyRect
 aLists
 )
 ;

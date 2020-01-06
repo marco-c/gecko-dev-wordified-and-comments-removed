@@ -4659,10 +4659,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -4675,10 +4671,6 @@ DisplayCaret
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsRect
-&
-aDirtyRect
 nsDisplayList
 *
 aList
@@ -4831,10 +4823,6 @@ BuildDisplayListForStackingContext
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsRect
-&
-aDirtyRect
 nsDisplayList
 *
 aList
@@ -4862,10 +4850,6 @@ aBuilder
 nsIFrame
 *
 aChild
-const
-nsRect
-&
-aDirtyRect
 const
 nsDisplayListSet
 &
@@ -9449,10 +9433,6 @@ MarkAbsoluteFramesForDisplayList
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 static
