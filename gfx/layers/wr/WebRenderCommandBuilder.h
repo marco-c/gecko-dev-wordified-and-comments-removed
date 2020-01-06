@@ -711,12 +711,6 @@ mManager
 ClipIdMap
 mClipIdCache
 ;
-wr
-:
-:
-BuiltDisplayList
-mBuiltDisplayList
-;
 nsTArray
 <
 WebRenderParentCommand
