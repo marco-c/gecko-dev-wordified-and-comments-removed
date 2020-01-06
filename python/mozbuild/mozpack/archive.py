@@ -19,6 +19,7 @@ import
 (
     
 BaseFile
+File
 )
 DEFAULT_MTIME
 =
@@ -149,6 +150,7 @@ items
 :
             
 if
+not
 isinstance
 (
 f
@@ -156,6 +158,13 @@ BaseFile
 )
 :
                 
+f
+=
+File
+(
+f
+)
+            
 ti
 =
 tarfile
@@ -164,7 +173,7 @@ TarInfo
 (
 archive_path
 )
-                
+            
 ti
 .
 mode
@@ -174,7 +183,7 @@ f
 mode
 or
 0644
-                
+            
 ti
 .
 type
@@ -182,19 +191,6 @@ type
 tarfile
 .
 REGTYPE
-            
-else
-:
-                
-ti
-=
-tf
-.
-gettarinfo
-(
-f
-archive_path
-)
             
 if
 not
@@ -292,14 +288,6 @@ mtime
 =
 DEFAULT_MTIME
             
-if
-isinstance
-(
-f
-BaseFile
-)
-:
-                
 ti
 .
 size
@@ -309,40 +297,17 @@ f
 size
 (
 )
-                
-tf
-.
-addfile
-(
-ti
-f
-.
-open
-(
-)
-)
             
-else
-:
-                
-with
-open
-(
-f
-'
-rb
-'
-)
-as
-fh
-:
-                    
 tf
 .
 addfile
 (
 ti
-fh
+f
+.
+open
+(
+)
 )
 def
 create_tar_gz_from_files
