@@ -644,7 +644,7 @@ integration
 tests
 platform
 :
-lint
+linux64
 /
 opt
 treeherder
@@ -653,7 +653,7 @@ symbol
 :
 py
 (
-MH
+mh
 )
 kind
 :
