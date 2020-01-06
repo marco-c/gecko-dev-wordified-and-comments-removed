@@ -7,13 +7,6 @@ TabGroup_h
 #
 include
 "
-nsHashKeys
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -95,9 +88,6 @@ TabChild
 ;
 class
 DocGroup
-;
-class
-TabChild
 ;
 class
 TabGroup

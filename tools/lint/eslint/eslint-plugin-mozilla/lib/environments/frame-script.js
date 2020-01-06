@@ -50,9 +50,6 @@ false
 sendRpcMessage
 :
 false
-tabEventTarget
-:
-false
 }
 }
 ;

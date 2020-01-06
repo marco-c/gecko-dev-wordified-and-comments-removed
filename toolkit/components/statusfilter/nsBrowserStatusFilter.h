@@ -142,12 +142,6 @@ mListener
 ;
 nsCOMPtr
 <
-nsIEventTarget
->
-mTarget
-;
-nsCOMPtr
-<
 nsITimer
 >
 mTimer

@@ -563,16 +563,6 @@ aDocShell
 )
 override
 ;
-NS_IMETHOD
-GetTabEventTarget
-(
-nsIEventTarget
-*
-*
-aTarget
-)
-override
-;
 nsresult
 AddEventListener
 (
