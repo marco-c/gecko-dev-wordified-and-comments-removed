@@ -373,28 +373,24 @@ remote
 param
 method
 :
-"
-POST
-"
-or
-"
 GET
-"
+POST
+or
+DELETE
 .
         
 :
 param
-url
+uri
 :
-"
-command
-part
-"
+Relative
+endpoint
 of
 the
 requests
 URL
 path
+.
         
 :
 param
@@ -409,14 +405,12 @@ Defaults
 to
 an
 empty
-dictionary
             
+dictionary
 if
 method
 is
-"
 POST
-"
 .
         
 :
@@ -435,17 +429,16 @@ request
 :
 return
 :
-an
-instance
+Instance
 of
 wdclient
 .
 Response
 describing
 the
+            
 HTTP
 response
-            
 received
 from
 the
