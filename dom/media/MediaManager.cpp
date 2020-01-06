@@ -19398,6 +19398,9 @@ true
 ;
 if
 (
+mActivated
+&
+&
 !
 mFinished
 )
