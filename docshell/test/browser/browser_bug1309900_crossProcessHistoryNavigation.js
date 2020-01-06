@@ -52,7 +52,7 @@ loadURI
 "
 about
 :
-healthreport
+accounts
 "
 )
 ;
@@ -73,13 +73,13 @@ href
 "
 about
 :
-healthreport
+accounts
 "
 "
 Check
 about
 :
-healthreport
+accounts
 loaded
 "
 )
@@ -185,7 +185,7 @@ href
 "
 about
 :
-healthreport
+accounts
 "
 "
 Check
@@ -197,7 +197,7 @@ back
 to
 about
 :
-healthreport
+accounts
 "
 )
 ;
