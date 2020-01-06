@@ -410,7 +410,7 @@ rv
 ;
 }
 get
-currentURL
+currentURI
 (
 )
 {
@@ -427,8 +427,6 @@ this
 contentBrowser
 .
 currentURI
-.
-spec
 ;
 }
 else
