@@ -11220,7 +11220,7 @@ brandShorterName
 ENTITY
 updateRestart
 .
-message
+message2
 "
 After
 a
@@ -11237,6 +11237,13 @@ open
 tabs
 and
 windows
+that
+are
+not
+in
+Private
+Browsing
+mode
 .
 "
 >
