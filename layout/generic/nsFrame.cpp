@@ -48936,6 +48936,18 @@ equalStructs
 samePointerStructs
 )
 ;
+if
+(
+!
+aChildFrame
+-
+>
+HasAnyStateBits
+(
+NS_FRAME_OUT_OF_FLOW
+)
+)
+{
 childHint
 =
 NS_RemoveSubsumedHints
@@ -48950,6 +48962,7 @@ aChildFrame
 )
 )
 ;
+}
 if
 (
 childHint

@@ -1690,6 +1690,10 @@ mHasImageRequest
 (
 false
 )
+mHasFirstLetterChild
+(
+false
+)
 {
 mozilla
 :
@@ -7693,6 +7697,7 @@ aRestyleState
 ;
 public
 :
+static
 nsChangeHint
 UpdateStyleOfOwnedChildFrame
 (
@@ -9284,6 +9289,16 @@ mHasImageRequest
 aHasRequest
 ;
 }
+bool
+HasFirstLetterChild
+(
+)
+const
+{
+return
+mHasFirstLetterChild
+;
+}
 virtual
 bool
 RenumberFrameAndDescendants
@@ -9650,6 +9665,11 @@ mMayHaveRoundedCorners
 ;
 bool
 mHasImageRequest
+:
+1
+;
+bool
+mHasFirstLetterChild
 :
 1
 ;
