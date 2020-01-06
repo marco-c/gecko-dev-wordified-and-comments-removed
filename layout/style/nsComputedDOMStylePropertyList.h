@@ -725,6 +725,16 @@ OverflowY
 )
 COMPUTED_STYLE_PROP
 (
+overscroll_behavior_x
+OverscrollBehaviorX
+)
+COMPUTED_STYLE_PROP
+(
+overscroll_behavior_y
+OverscrollBehaviorY
+)
+COMPUTED_STYLE_PROP
+(
 padding_bottom
 PaddingBottom
 )
