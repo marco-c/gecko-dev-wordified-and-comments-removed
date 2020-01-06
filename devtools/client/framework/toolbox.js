@@ -2475,7 +2475,6 @@ screenY
 ;
 }
 }
-true
 )
 ;
 this
