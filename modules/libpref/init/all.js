@@ -896,9 +896,9 @@ script_loader
 .
 bytecode_cache
 .
-eager
+strategy
 "
-false
+0
 )
 ;
 pref
