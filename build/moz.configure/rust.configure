@@ -991,6 +991,9 @@ t
 cpu
 t
 .
+endianness
+t
+.
 os
 )
 if
@@ -1010,6 +1013,9 @@ per_raw_os
 previous
 .
 cpu
+previous
+.
+endianness
 previous
 .
 raw_os
@@ -1098,6 +1104,9 @@ per_raw_os
 t
 .
 cpu
+t
+.
+endianness
 raw_os
 )
 ]
@@ -1435,6 +1444,9 @@ get
 host_or_target
 .
 cpu
+host_or_target
+.
+endianness
 host_or_target_os
 )
 )
@@ -1455,6 +1467,9 @@ get
 host_or_target
 .
 cpu
+host_or_target
+.
+endianness
 host_or_target_raw_os
 )
 )
