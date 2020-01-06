@@ -3990,7 +3990,7 @@ title
 =
 "
 &
-copyLinkCmd
+copyURLCmd
 .
 label
 ;
@@ -4012,9 +4012,9 @@ title
 =
 "
 &
-sendTabToDevice
+sendToDevice
 .
-label
+label3
 ;
 "
 sendToDevice
