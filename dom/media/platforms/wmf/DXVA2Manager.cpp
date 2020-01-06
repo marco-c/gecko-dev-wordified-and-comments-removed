@@ -4967,6 +4967,9 @@ Get
 GetCompositorDevice
 (
 )
+&
+&
+mSyncObject
 )
 {
 client
