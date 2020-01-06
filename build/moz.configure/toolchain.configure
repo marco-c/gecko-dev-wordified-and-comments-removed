@@ -677,7 +677,6 @@ compile
 environment
 '
 build_project
-gonkdir
 '
 -
 -
@@ -689,16 +688,12 @@ compiling_android
 (
 compile_env
 build_project
-gonkdir
 _
 )
 :
 return
 compile_env
 and
-(
-gonkdir
-or
 build_project
 in
 (
@@ -710,7 +705,6 @@ android
 '
 js
 '
-)
 )
 include
 (
