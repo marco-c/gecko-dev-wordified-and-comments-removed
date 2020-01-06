@@ -63,6 +63,13 @@ h
 "
 #
 endif
+#
+include
+"
+AudioBlock
+.
+h
+"
 namespace
 mozilla
 {

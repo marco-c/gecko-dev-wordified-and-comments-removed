@@ -332,6 +332,13 @@ h
 #
 include
 "
+AudioNodeStream
+.
+h
+"
+#
+include
+"
 AudioStream
 .
 h

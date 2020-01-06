@@ -42,6 +42,13 @@ nsIScriptError
 .
 h
 "
+#
+include
+"
+AudioEventTimeline
+.
+h
+"
 namespace
 mozilla
 {
