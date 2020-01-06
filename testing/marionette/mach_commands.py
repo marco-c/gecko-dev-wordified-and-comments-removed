@@ -916,6 +916,13 @@ wait
         
 if
 http
+and
+proc
+.
+returncode
+=
+=
+0
 :
             
 import
@@ -1019,3 +1026,8 @@ httpd
 serve_forever
 (
 )
+        
+return
+proc
+.
+returncode
