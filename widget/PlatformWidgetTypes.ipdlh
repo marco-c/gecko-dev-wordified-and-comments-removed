@@ -162,14 +162,6 @@ HeadlessCompositorWidgetInitData
 ;
 }
 ;
-struct
-HeadlessCompositorWidgetInitData
-{
-LayoutDeviceIntSize
-InitialClientSize
-;
-}
-;
 }
 /
 /
