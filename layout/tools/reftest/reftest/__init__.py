@@ -695,6 +695,13 @@ item
 !
 =
 '
+or
+item
+=
+=
+'
+print
+'
 :
                     
 tests
