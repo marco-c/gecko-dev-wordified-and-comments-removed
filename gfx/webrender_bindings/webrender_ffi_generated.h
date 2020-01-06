@@ -64,15 +64,12 @@ BoxShadowClipMode
 :
 uint32_t
 {
-None
-=
-0
 Outset
 =
-1
+0
 Inset
 =
-2
+1
 Sentinel
 }
 ;
