@@ -974,9 +974,6 @@ components
 mozfind
 .
 xpt
-#
-ifdef
-ENABLE_INTL_API
 BINPATH
 /
 components
@@ -984,8 +981,6 @@ components
 mozintl
 .
 xpt
-#
-endif
 BINPATH
 /
 components
@@ -2352,9 +2347,6 @@ TVSimulatorService
 manifest
 #
 endif
-#
-ifdef
-ENABLE_INTL_API
 BINPATH
 /
 components
@@ -2369,8 +2361,6 @@ components
 mozIntl
 .
 js
-#
-endif
 ;
 Modules
 BINPATH

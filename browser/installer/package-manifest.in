@@ -1428,9 +1428,6 @@ components
 mozfind
 .
 xpt
-#
-ifdef
-ENABLE_INTL_API
 RESPATH
 /
 components
@@ -1438,8 +1435,6 @@ components
 mozintl
 .
 xpt
-#
-endif
 RESPATH
 /
 components
@@ -3351,9 +3346,6 @@ components
 PresentationDataChannelSessionTransport
 .
 manifest
-#
-ifdef
-ENABLE_INTL_API
 RESPATH
 /
 components
@@ -3368,8 +3360,6 @@ components
 mozIntl
 .
 js
-#
-endif
 #
 if
 defined
