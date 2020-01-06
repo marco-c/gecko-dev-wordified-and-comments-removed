@@ -23895,7 +23895,7 @@ right
 prc
 -
 >
-left
+bottom
 =
 0
 ;
