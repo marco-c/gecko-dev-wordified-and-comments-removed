@@ -2,9 +2,7 @@ use
 cssparser
 :
 :
-Color
-as
-CSSColor
+RGBA
 ;
 use
 std
@@ -203,7 +201,7 @@ LineDirection
 Length
 LengthOrPercentage
 Position
-CSSColor
+RGBA
 >
 ;
 pub
@@ -273,7 +271,7 @@ GradientItem
 =
 GenericGradientItem
 <
-CSSColor
+RGBA
 LengthOrPercentage
 >
 ;
@@ -283,7 +281,7 @@ ColorStop
 =
 GenericColorStop
 <
-CSSColor
+RGBA
 LengthOrPercentage
 >
 ;

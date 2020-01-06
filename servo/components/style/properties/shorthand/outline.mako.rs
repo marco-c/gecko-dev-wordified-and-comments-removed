@@ -167,7 +167,7 @@ i
 specified
 :
 :
-CSSColor
+Color
 :
 :
 parse

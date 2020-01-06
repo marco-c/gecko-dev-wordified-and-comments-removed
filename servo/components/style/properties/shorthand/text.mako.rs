@@ -476,11 +476,10 @@ dest
 ;
 }
 if
+*
 self
 .
 text_decoration_color
-.
-parsed
 !
 =
 specified

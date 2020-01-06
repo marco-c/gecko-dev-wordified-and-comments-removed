@@ -2,10 +2,7 @@ use
 cssparser
 :
 :
-{
-Color
 RGBA
-}
 ;
 use
 parsing
@@ -35,7 +32,7 @@ values
 specified
 :
 :
-CSSColor
+Color
 ;
 use
 style_traits
@@ -264,15 +261,13 @@ Auto
 let
 blue_color
 =
-CSSColor
-{
-parsed
-:
 Color
 :
 :
-RGBA
-(
+Numeric
+{
+parsed
+:
 RGBA
 {
 red
@@ -288,7 +283,6 @@ alpha
 :
 255
 }
-)
 authored
 :
 Some
