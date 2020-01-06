@@ -745,10 +745,6 @@ void
 aClosure
 )
 {
-AssertIsOnOwningThread
-(
-)
-;
 ConsoleCallData
 *
 tmp
