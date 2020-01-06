@@ -457,7 +457,7 @@ ss
 )
 ;
 SECStatus
-SSLExp_UseAltHandshakeType
+SSLExp_UseAltServerHelloType
 (
 PRFileDesc
 *
