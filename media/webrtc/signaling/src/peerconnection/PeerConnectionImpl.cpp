@@ -5330,6 +5330,15 @@ connected
 __FUNCTION__
 )
 ;
+mDataConnection
+-
+>
+SetMaxMessageSize
+(
+aMMSSet
+aMaxMessageSize
+)
+;
 return
 NS_OK
 ;
@@ -5374,7 +5383,8 @@ Init
 (
 aLocalPort
 aNumstreams
-true
+aMMSSet
+aMaxMessageSize
 )
 )
 {
@@ -6529,7 +6539,7 @@ EnsureDataConnection
 (
 WEBRTC_DATACHANNEL_PORT_DEFAULT
 WEBRTC_DATACHANNEL_STREAMS_DEFAULT
-WEBRTC_DATACHANELL_MAX_MESSAGE_SIZE_DEFAULT
+WEBRTC_DATACHANNEL_MAX_MESSAGE_SIZE_REMOTE_DEFAULT
 false
 )
 ;
