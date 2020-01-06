@@ -732,11 +732,10 @@ mInlineElements
 }
 if
 (
-!
 mArray
 -
 >
-size
+empty
 (
 )
 )
