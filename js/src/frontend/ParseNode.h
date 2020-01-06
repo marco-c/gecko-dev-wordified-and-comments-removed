@@ -2989,8 +2989,6 @@ TernaryNode
 (
 ParseNodeKind
 kind
-JSOp
-op
 ParseNode
 *
 kid1
@@ -3005,7 +3003,7 @@ kid3
 ParseNode
 (
 kind
-op
+JSOP_NOP
 PN_TERNARY
 TokenPos
 (
@@ -3061,8 +3059,6 @@ TernaryNode
 (
 ParseNodeKind
 kind
-JSOp
-op
 ParseNode
 *
 kid1
@@ -3081,7 +3077,7 @@ pos
 ParseNode
 (
 kind
-op
+JSOP_NOP
 PN_TERNARY
 pos
 )
@@ -5096,7 +5092,6 @@ pos
 TernaryNode
 (
 PNK_CLASS
-JSOP_NOP
 names
 heritage
 methodsOrBlock
