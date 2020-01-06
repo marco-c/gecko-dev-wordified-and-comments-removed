@@ -3524,6 +3524,10 @@ colNumber
 nsIURI
 *
 aURI
+const
+char
+*
+followup
 )
 ;
 }
