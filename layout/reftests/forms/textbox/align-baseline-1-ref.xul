@@ -123,10 +123,6 @@ appearance
 :
 none
 ;
-appearance
-:
-none
-;
 background
 :
 inherit

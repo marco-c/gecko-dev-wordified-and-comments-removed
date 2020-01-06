@@ -145,10 +145,6 @@ appearance
 :
 none
 ;
-appearance
-:
-none
-;
 background
 :
 gray

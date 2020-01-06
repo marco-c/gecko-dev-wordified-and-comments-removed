@@ -1563,9 +1563,7 @@ ThemeDrawsFocusForWidget
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 )
 {
@@ -1697,9 +1695,7 @@ ThemeDrawsFocusForWidget
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 )
 {

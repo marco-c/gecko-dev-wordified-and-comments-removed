@@ -1336,9 +1336,7 @@ if
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 {
 nsITheme
@@ -1371,9 +1369,7 @@ primaryFrame
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 )
 )
 {
@@ -1391,9 +1387,7 @@ primaryFrame
 disp
 -
 >
-UsedAppearance
-(
-)
+mAppearance
 aAttribute
 &
 repaint
