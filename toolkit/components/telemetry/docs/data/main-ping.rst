@@ -208,6 +208,12 @@ doc
 internals
 /
 pingsender
+unless
+the
+OS
+is
+shutting
+down
 *
 daily
 -
