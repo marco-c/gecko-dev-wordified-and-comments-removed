@@ -286,15 +286,6 @@ remote
 false
 )
 ;
-const
-testEnv
-=
-{
-expectRemote
-:
-false
-}
-;
 ExtensionTestUtils
 .
 init
