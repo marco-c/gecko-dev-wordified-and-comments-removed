@@ -232,6 +232,11 @@ CondVar
 h
 '
 '
+CPUUsageWatcher
+.
+h
+'
+'
 DeadlockDetector
 .
 h
@@ -383,6 +388,11 @@ cpp
 '
 '
 BlockingResourceBase
+.
+cpp
+'
+'
+CPUUsageWatcher
 .
 cpp
 '
