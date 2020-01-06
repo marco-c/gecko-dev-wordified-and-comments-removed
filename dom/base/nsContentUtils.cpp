@@ -2116,7 +2116,7 @@ bool
 nsContentUtils
 :
 :
-sIsFormAutofillAutocompleteEnabled
+sIsExperimentalAutocompleteEnabled
 =
 false
 ;
@@ -3739,7 +3739,7 @@ Preferences
 AddBoolVarCache
 (
 &
-sIsFormAutofillAutocompleteEnabled
+sIsExperimentalAutocompleteEnabled
 "
 dom
 .
@@ -3747,7 +3747,7 @@ forms
 .
 autocomplete
 .
-formautofill
+experimental
 "
 false
 )
@@ -6206,7 +6206,7 @@ eAutocompleteAttrState_Valid
 if
 (
 !
-sIsFormAutofillAutocompleteEnabled
+sIsExperimentalAutocompleteEnabled
 &
 &
 !
@@ -6238,7 +6238,7 @@ else
 if
 (
 !
-sIsFormAutofillAutocompleteEnabled
+sIsExperimentalAutocompleteEnabled
 &
 &
 !
@@ -25074,9 +25074,9 @@ sBuf
 ]
 )
 {
-nsAdoptingString
+nsAutoString
 tmp
-=
+;
 Preferences
 :
 :
@@ -25087,6 +25087,7 @@ intl
 .
 ellipsis
 "
+tmp
 )
 ;
 uint32_t

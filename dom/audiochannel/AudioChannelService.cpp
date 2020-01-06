@@ -2563,7 +2563,7 @@ GetDefaultAudioChannel
 {
 nsAutoString
 audioChannel
-(
+;
 Preferences
 :
 :
@@ -2574,7 +2574,7 @@ media
 .
 defaultAudioChannel
 "
-)
+audioChannel
 )
 ;
 if
