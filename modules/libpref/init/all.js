@@ -41379,7 +41379,7 @@ update
 .
 response_timeout_ms
 "
-15000
+30000
 )
 ;
 pref
@@ -41391,7 +41391,7 @@ update
 .
 timeout_ms
 "
-60000
+90000
 )
 ;
 pref
