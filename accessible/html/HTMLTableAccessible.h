@@ -28,6 +28,9 @@ h
 class
 nsITableCellLayout
 ;
+class
+nsTableCellFrame
+;
 namespace
 mozilla
 {
@@ -203,6 +206,13 @@ HTMLTableCellAccessible
 nsITableCellLayout
 *
 GetCellLayout
+(
+)
+const
+;
+nsTableCellFrame
+*
+GetCellFrame
 (
 )
 const
