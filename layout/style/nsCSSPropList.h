@@ -7975,7 +7975,7 @@ enabled
 0
 nullptr
 CSS_PROP_NO_OFFSET
-eStyleAnimType_Discrete
+eStyleAnimType_Custom
 )
 CSS_PROP_SVG
 (
