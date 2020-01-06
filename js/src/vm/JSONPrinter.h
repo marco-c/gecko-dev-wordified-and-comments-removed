@@ -222,17 +222,6 @@ value
 #
 endif
 void
-property
-(
-const
-char
-*
-name
-double
-value
-)
-;
-void
 formatProperty
 (
 const
@@ -258,6 +247,7 @@ TimePrecision
 {
 SECONDS
 MILLISECONDS
+MICROSECONDS
 }
 ;
 void

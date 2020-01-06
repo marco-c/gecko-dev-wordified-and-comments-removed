@@ -776,7 +776,7 @@ isDouble
 {
 j
 .
-property
+floatProperty
 (
 "
 value
@@ -786,6 +786,7 @@ v
 toDouble
 (
 )
+3
 )
 ;
 }

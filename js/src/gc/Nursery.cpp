@@ -2632,10 +2632,9 @@ i
 +
 ]
 time
+json
 .
-ToMicroseconds
-(
-)
+MICROSECONDS
 )
 ;
 json
