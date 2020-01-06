@@ -98,16 +98,6 @@ TOTAL_SITES
 =
 20
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
 add_task
 (
 async
