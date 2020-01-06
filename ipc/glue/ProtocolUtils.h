@@ -1617,16 +1617,6 @@ aMsg
 )
 {
 }
-bool
-IsMainThreadProtocol
-(
-)
-const
-{
-return
-mIsMainThreadProtocol
-;
-}
 protected
 :
 virtual
@@ -1741,9 +1731,6 @@ Shmem
 :
 id_t
 mLastShmemId
-;
-bool
-mIsMainThreadProtocol
 ;
 Mutex
 mEventTargetMutex

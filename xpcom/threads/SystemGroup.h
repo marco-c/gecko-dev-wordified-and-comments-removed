@@ -79,12 +79,6 @@ Shutdown
 (
 )
 ;
-static
-bool
-Initialized
-(
-)
-;
 }
 ;
 }
