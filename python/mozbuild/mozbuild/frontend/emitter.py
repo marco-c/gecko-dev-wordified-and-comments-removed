@@ -6090,27 +6090,6 @@ v
 ]
         
 if
-context
-[
-'
-NO_VISIBILITY_FLAGS
-'
-]
-:
-            
-passthru
-.
-variables
-[
-'
-VISIBILITY_FLAGS
-'
-]
-=
-'
-'
-        
-if
 isinstance
 (
 context

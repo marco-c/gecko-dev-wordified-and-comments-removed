@@ -52,9 +52,6 @@ zero
 DIST_INSTALL
 =
 False
-NO_VISIBILITY_FLAGS
-=
-True
 DELAYLOAD_DLLS
 =
 [

@@ -1876,6 +1876,33 @@ CXXFLAGS
 '
 )
 )
+            
+(
+'
+VISIBILITY
+'
+context
+.
+config
+.
+substs
+.
+get
+(
+'
+VISIBILITY_FLAGS
+'
+)
+             
+(
+'
+CXXFLAGS
+'
+'
+CFLAGS
+'
+)
+)
         
 )
         

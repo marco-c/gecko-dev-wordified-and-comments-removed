@@ -49,9 +49,6 @@ zero
 .
 0
 /
-NO_VISIBILITY_FLAGS
-=
-True
 DELAYLOAD_DLLS
 =
 [
