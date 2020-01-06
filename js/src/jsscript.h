@@ -5555,6 +5555,12 @@ isAsync
 &
 &
 !
+isDefaultClassConstructor
+(
+)
+&
+&
+!
 hasBaselineScript
 (
 )
