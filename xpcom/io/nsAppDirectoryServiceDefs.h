@@ -219,12 +219,6 @@ cachePDir
 "
 #
 define
-NS_APP_DOWNLOADS_50_FILE
-"
-DLoads
-"
-#
-define
 NS_APP_SEARCH_50_FILE
 "
 SrchF
