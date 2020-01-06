@@ -474,6 +474,19 @@ caches
 [
 ]
     
+worker
+[
+'
+chain
+-
+of
+-
+trust
+'
+]
+=
+True
+    
 docker_worker_add_public_artifacts
 (
 config
@@ -997,6 +1010,19 @@ directory
     
 }
 ]
+    
+worker
+[
+'
+chain
+-
+of
+-
+trust
+'
+]
+=
+True
     
 docker_worker_add_gecko_vcs_env_vars
 (
