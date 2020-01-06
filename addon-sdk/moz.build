@@ -604,13 +604,6 @@ js
 '
 sdk
 /
-notifications
-.
-js
-'
-'
-sdk
-/
 output
 /
 system
