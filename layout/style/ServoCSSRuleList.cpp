@@ -349,7 +349,7 @@ nullptr
 EnumerateInstantiatedRules
 (
 [
-aStyleSheet
+this
 ]
 (
 css
@@ -365,7 +365,7 @@ rule
 >
 SetStyleSheet
 (
-aStyleSheet
+mStyleSheet
 )
 ;
 }
