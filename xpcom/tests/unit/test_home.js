@@ -29,7 +29,7 @@ const
 nsILocalFile_
 =
 "
-nsIFile
+nsILocalFile
 "
 +
 os

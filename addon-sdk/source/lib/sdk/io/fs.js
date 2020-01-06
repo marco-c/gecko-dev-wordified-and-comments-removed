@@ -131,7 +131,7 @@ heritage
 )
 ;
 const
-nsIFile
+LocalFile
 =
 CC
 (
@@ -713,7 +713,7 @@ let
 fd
 =
 new
-nsIFile
+LocalFile
 (
 path
 )
@@ -1524,7 +1524,7 @@ let
 file
 =
 new
-nsIFile
+LocalFile
 (
 path
 )
@@ -2046,7 +2046,7 @@ let
 source
 =
 new
-nsIFile
+LocalFile
 (
 oldPath
 )
@@ -2055,7 +2055,7 @@ let
 target
 =
 new
-nsIFile
+LocalFile
 (
 newPath
 )
@@ -2125,7 +2125,7 @@ path
 {
 return
 new
-nsIFile
+LocalFile
 (
 path
 )
@@ -2433,7 +2433,7 @@ try
 file
 =
 new
-nsIFile
+LocalFile
 (
 path
 )
@@ -2724,7 +2724,7 @@ path
 {
 return
 new
-nsIFile
+LocalFile
 (
 path
 )
@@ -2761,7 +2761,7 @@ path
 {
 return
 new
-nsIFile
+LocalFile
 (
 path
 )
@@ -2850,7 +2850,7 @@ mode
 try
 {
 return
-nsIFile
+LocalFile
 (
 path
 )
@@ -2946,7 +2946,7 @@ return
 toArray
 (
 new
-nsIFile
+LocalFile
 (
 path
 )
@@ -3164,7 +3164,7 @@ Mode
 (
 aMode
 )
-nsIFile
+LocalFile
 (
 aPath
 )
