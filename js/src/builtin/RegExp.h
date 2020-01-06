@@ -358,14 +358,12 @@ RegExpGetSubstitution
 JSContext
 *
 cx
-HandleLinearString
-matched
+HandleObject
+matchResult
 HandleLinearString
 string
 size_t
 position
-HandleObject
-capturesObj
 HandleLinearString
 replacement
 size_t
