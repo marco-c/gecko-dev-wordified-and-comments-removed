@@ -331,6 +331,13 @@ MayBeClonedToOtherThreads
 const
 override
 ;
+size_t
+GetAllocationSize
+(
+)
+const
+override
+;
 protected
 :
 MultipartBlobImpl

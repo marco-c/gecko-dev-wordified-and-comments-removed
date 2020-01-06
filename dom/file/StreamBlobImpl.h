@@ -207,6 +207,13 @@ return
 mIsDirectory
 ;
 }
+size_t
+GetAllocationSize
+(
+)
+const
+override
+;
 private
 :
 StreamBlobImpl

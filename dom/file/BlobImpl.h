@@ -196,6 +196,15 @@ aType
 0
 ;
 virtual
+size_t
+GetAllocationSize
+(
+)
+const
+=
+0
+;
+virtual
 uint64_t
 GetSerialNumber
 (

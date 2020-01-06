@@ -429,6 +429,12 @@ ErrorResult
 aRv
 )
 ;
+size_t
+GetAllocationSize
+(
+)
+const
+;
 protected
 :
 Blob
@@ -473,6 +479,14 @@ nsISupports
 mParent
 ;
 }
+;
+uint64_t
+BindingJSObjectMallocBytes
+(
+Blob
+*
+aBlob
+)
 ;
 }
 }
