@@ -24,7 +24,7 @@ namespace
 xpc
 {
 struct
-ExposedPropertiesOnly
+OpaqueWithSilentFailing
 ;
 #
 define
@@ -36,7 +36,7 @@ js
 :
 :
 CrossCompartmentSecurityWrapper
-ExposedPropertiesOnly
+OpaqueWithSilentFailing
 >
 class
 ChromeObjectWrapper

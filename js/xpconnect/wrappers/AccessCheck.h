@@ -615,7 +615,7 @@ false
 }
 ;
 struct
-ExposedPropertiesOnly
+OpaqueWithSilentFailing
 :
 public
 Policy
