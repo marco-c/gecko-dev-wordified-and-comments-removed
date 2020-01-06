@@ -546,11 +546,12 @@ args
 )
 ;
 }
-void
+bool
 popFront
 (
 )
 {
+return
 fifo
 (
 )

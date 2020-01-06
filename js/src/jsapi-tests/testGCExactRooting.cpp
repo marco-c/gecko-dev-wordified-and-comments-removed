@@ -1824,10 +1824,13 @@ CHECK
 match
 )
 ;
+CHECK
+(
 shapes
 .
 popFront
 (
+)
 )
 ;
 }
