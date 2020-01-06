@@ -287,14 +287,12 @@ hbox
 id
 =
 "
-header
--
-sync
+firefoxAccountCategory
 "
 class
 =
 "
-header
+searchCategory
 "
 hidden
 =
