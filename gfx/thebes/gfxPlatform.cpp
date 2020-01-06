@@ -5,7 +5,7 @@ mozilla
 /
 layers
 /
-CompositorManagerChild
+CompositorBridgeChild
 .
 h
 "
@@ -4648,10 +4648,10 @@ ChildProcessShutdown
 layers
 :
 :
-CompositorManagerChild
+CompositorBridgeChild
 :
 :
-Shutdown
+ShutDown
 (
 )
 ;
@@ -4688,10 +4688,10 @@ ShutDown
 layers
 :
 :
-CompositorManagerChild
+CompositorBridgeChild
 :
 :
-Shutdown
+ShutDown
 (
 )
 ;

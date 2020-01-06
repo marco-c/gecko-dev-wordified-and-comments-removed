@@ -89,7 +89,6 @@ CompositorOptions
 &
 aOther
 )
-const
 {
 return
 mUseAPZ
