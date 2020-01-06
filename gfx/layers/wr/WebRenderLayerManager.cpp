@@ -986,6 +986,12 @@ nsDisplayItem
 :
 TYPE_SCROLL_INFO_LAYER
 :
+case
+nsDisplayItem
+:
+:
+TYPE_REMOTE
+:
 forceNewLayerData
 =
 true
