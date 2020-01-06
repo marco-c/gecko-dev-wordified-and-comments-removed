@@ -667,14 +667,14 @@ IsNull
 if
 (
 !
-mWorkerStart
+mWorkerRequestStart
 .
 IsNull
 (
 )
 &
 &
-mWorkerStart
+mWorkerRequestStart
 >
 mAsyncOpen
 )
@@ -683,7 +683,7 @@ mFetchStart
 =
 TimeStampToDOMHighRes
 (
-mWorkerStart
+mWorkerRequestStart
 )
 ;
 }
