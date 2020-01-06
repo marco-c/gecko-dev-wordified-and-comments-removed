@@ -2955,6 +2955,12 @@ ruleview
 selector
 -
 unmatched
+.
+ruleview
+-
+variable
+-
+unmatched
 {
 color
 :

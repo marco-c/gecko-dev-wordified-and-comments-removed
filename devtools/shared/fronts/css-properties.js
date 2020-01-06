@@ -578,6 +578,7 @@ property
 )
 {
 return
+(
 this
 .
 properties
@@ -594,6 +595,13 @@ property
 ]
 .
 isInherited
+)
+|
+|
+isCssVariable
+(
+property
+)
 ;
 }
 supportsType
@@ -1286,5 +1294,6 @@ CssProperties
 getCssProperties
 getClientCssProperties
 initCssProperties
+isCssVariable
 }
 ;
