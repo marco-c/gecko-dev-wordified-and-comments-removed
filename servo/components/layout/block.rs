@@ -3215,6 +3215,13 @@ self
 is_fixed
 (
 )
+|
+|
+self
+.
+is_root
+(
+)
 {
 /
 /
