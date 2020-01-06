@@ -7294,9 +7294,6 @@ ePopupShown
 }
 else
 {
-#
-ifndef
-MOZ_WIDGET_GTK
 if
 (
 !
@@ -7436,8 +7433,6 @@ return
 }
 }
 }
-#
-endif
 HidePopupCallback
 (
 aPopup
