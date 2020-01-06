@@ -232,18 +232,15 @@ switch_to
 tab1
 )
         
-self
-.
-restart_browser
-(
-)
-        
 ping
 =
 self
 .
 wait_for_ping
 (
+self
+.
+restart_browser
 lambda
 p
 :

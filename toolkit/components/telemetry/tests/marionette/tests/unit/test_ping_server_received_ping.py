@@ -102,6 +102,7 @@ self
 .
 wait_for_ping
 (
+None
 lambda
 p
 :
