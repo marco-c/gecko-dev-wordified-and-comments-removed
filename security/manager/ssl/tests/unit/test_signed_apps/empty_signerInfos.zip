@@ -1,5 +1,5 @@
 PK
-N
+V
 [
 K
 \
@@ -36,7 +36,7 @@ version
 "
 }
 PK
-N
+V
 [
 K
 H1
@@ -52,7 +52,7 @@ test
 extension
 .
 PK
-N
+V
 [
 K
 9
@@ -75,7 +75,7 @@ z
 IEND
 B
 PK
-N
+V
 [
 K
 .
@@ -287,7 +287,7 @@ g
 XJ0
 1
 PK
-N
+V
 [
 KV
 (
@@ -316,7 +316,7 @@ Manifest
 O82KfYvDFslkjCCtNkr0o4MYpFgXzjhr2bwiyx88Unc
 =
 PK
-N
+V
 [
 K
 META
@@ -370,7 +370,7 @@ pruLlxG
 FACLwGC48XU4S9oZOA0lVVQ
 =
 PK
-N
+V
 [
 K
 \
@@ -380,7 +380,7 @@ N
 manifest
 .
 jsonPK
-N
+V
 [
 K
 H1
@@ -388,7 +388,7 @@ H1
 +
 y
 READMEPK
-N
+V
 [
 K
 9
@@ -397,7 +397,7 @@ data
 image
 .
 pngPK
-N
+V
 [
 K
 .
@@ -409,7 +409,7 @@ INF
 A
 .
 RSAPK
-N
+V
 [
 KV
 (
@@ -424,7 +424,7 @@ INF
 A
 .
 SFPK
-N
+V
 [
 K
 META

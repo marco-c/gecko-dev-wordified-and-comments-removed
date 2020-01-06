@@ -1,5 +1,5 @@
 PK
-N
+V
 [
 K
 \
@@ -36,7 +36,7 @@ version
 "
 }
 PK
-N
+V
 [
 K
 H1
@@ -52,7 +52,7 @@ test
 extension
 .
 PK
-N
+V
 [
 K
 9
@@ -75,7 +75,7 @@ z
 IEND
 B
 PK
-N
+V
 [
 K
 \
@@ -85,7 +85,7 @@ N
 manifest
 .
 jsonPK
-N
+V
 [
 K
 H1
@@ -93,7 +93,7 @@ H1
 +
 y
 READMEPK
-N
+V
 [
 K
 9

@@ -123,7 +123,13 @@ do_get_file
 "
 test_signed_apps
 /
-signed_app
+app_mf
+-
+1_sf
+-
+1_p7
+-
+1
 .
 zip
 "
