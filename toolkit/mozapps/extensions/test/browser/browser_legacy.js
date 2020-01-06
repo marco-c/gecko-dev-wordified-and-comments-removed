@@ -578,7 +578,7 @@ mgrWin
 .
 gLegacyView
 .
-refreshVisibility
+refresh
 (
 )
 ;
@@ -888,7 +888,7 @@ mgrWin
 .
 gLegacyView
 .
-refreshVisibility
+refresh
 (
 )
 ;
@@ -1077,7 +1077,7 @@ mgrWin
 .
 gLegacyView
 .
-refreshVisibility
+refresh
 (
 )
 ;
