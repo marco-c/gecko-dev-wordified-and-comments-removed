@@ -3637,6 +3637,14 @@ threads
 0
 )
 {
+RefPtr
+<
+Service
+>
+kungFuDeathGrip
+=
+this
+;
 nsCOMPtr
 <
 nsIObserverService
