@@ -5475,8 +5475,16 @@ failures
 "
 "
         
+try
+:
+            
 import
 psutil
+        
+except
+:
+            
+return
         
 dir
 =
