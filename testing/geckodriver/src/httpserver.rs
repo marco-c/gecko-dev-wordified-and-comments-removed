@@ -344,6 +344,15 @@ err
 let
 body
 =
+format
+!
+(
+"
+{
+}
+\
+n
+"
 resp_data
 .
 to_json
@@ -352,6 +361,7 @@ to_json
 .
 to_string
 (
+)
 )
 ;
 {
