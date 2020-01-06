@@ -120,6 +120,12 @@ time
 )
     
 '
+build_number
+'
+:
+1
+    
+'
 do_not_optimize
 '
 :
@@ -228,6 +234,12 @@ M
 S
 "
 )
+    
+'
+next_version
+'
+:
+None
     
 '
 optimize_target_tasks
