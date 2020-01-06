@@ -6,6 +6,14 @@ translation
 /
 cld2
 /
+browser
+/
+extensions
+/
+mortar
+/
+ppapi
+/
 db
 /
 sqlite3
