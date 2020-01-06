@@ -226,7 +226,7 @@ flag
 =
 '
 -
-idirafter
+isystem
 '
 :
 flags
@@ -267,7 +267,7 @@ I
 '
 '
 -
-idirafter
+isystem
 '
 )
 )
