@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIDOMHTMLImageElement
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h

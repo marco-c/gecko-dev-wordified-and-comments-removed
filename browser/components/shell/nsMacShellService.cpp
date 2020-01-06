@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIDOMHTMLImageElement
-.
-h
-"
-#
-include
-"
 nsIImageLoadingContent
 .
 h

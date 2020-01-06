@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIDOMHTMLImageElement
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h

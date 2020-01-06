@@ -136,7 +136,7 @@ h
 #
 include
 "
-nsIDOMHTMLImageElement
+nsIDOMElement
 .
 h
 "
