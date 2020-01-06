@@ -3770,6 +3770,9 @@ context
 #
 endif
 }
+#
+ifndef
+JS_CODEGEN_NONE
 static
 uint8_t
 *
@@ -3780,15 +3783,6 @@ CONTEXT
 context
 )
 {
-#
-ifdef
-JS_CODEGEN_NONE
-MOZ_CRASH
-(
-)
-;
-#
-else
 return
 reinterpret_cast
 <
@@ -3802,9 +3796,9 @@ context
 )
 )
 ;
+}
 #
 endif
-}
 #
 if
 defined

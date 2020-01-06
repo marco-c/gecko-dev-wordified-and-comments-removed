@@ -2080,6 +2080,11 @@ defined
 (
 JS_CODEGEN_NONE
 )
+(
+void
+)
+priorOffset
+;
 MOZ_CRASH
 (
 )
