@@ -1634,9 +1634,6 @@ self
 .
 _stopped
         
-try
-:
-            
 self
 .
 _pipe
@@ -1649,12 +1646,6 @@ terminate
 '
 )
 )
-        
-except
-Exception
-:
-            
-pass
         
 self
 .
@@ -1679,45 +1670,19 @@ done
 =
 False
         
-def
-poll
-(
-)
-:
-            
-try
-:
-                
-return
+while
 self
 .
 _pipe
 .
 poll
 (
-0
-.
 1
-)
-            
-except
-Exception
-as
-e
-:
-                
-return
-True
-        
-while
-poll
-(
+.
+0
 )
 :
             
-try
-:
-                
 start_time
 end_time
 io_diff
@@ -1725,7 +1690,7 @@ cpu_diff
 cpu_percent
 virt_mem
 \
-                    
+                
 swap_mem
 =
 self
@@ -1735,18 +1700,6 @@ _pipe
 recv
 (
 )
-            
-except
-Exception
-as
-e
-:
-                
-start_time
-=
-'
-done
-'
             
 if
 start_time
@@ -1863,6 +1816,12 @@ join
 (
 10
 )
+        
+else
+:
+            
+assert
+done
         
 if
 len
