@@ -1060,6 +1060,12 @@ remove
 /
 Set
 sitename
+if
+necessary
+.
+let
+sitenameElem
+=
 document
 .
 getElementById
@@ -1070,6 +1076,13 @@ error
 _sitename
 "
 )
+;
+if
+(
+sitenameElem
+)
+{
+sitenameElem
 .
 textContent
 =
@@ -1077,6 +1090,7 @@ getHostString
 (
 )
 ;
+}
 document
 .
 title
