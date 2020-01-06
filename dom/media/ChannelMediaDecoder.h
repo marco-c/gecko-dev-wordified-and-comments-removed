@@ -74,6 +74,14 @@ Disconnect
 ;
 private
 :
+AbstractThread
+*
+AbstractMainThread
+(
+)
+const
+override
+;
 MediaDecoderOwner
 *
 GetMediaOwner
