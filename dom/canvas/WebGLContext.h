@@ -1267,6 +1267,10 @@ WebGLExtensionCompressedTextureS3TC
 ;
 friend
 class
+WebGLExtensionCompressedTextureS3TC_SRGB
+;
+friend
+class
 WebGLExtensionDepthTexture
 ;
 friend

@@ -793,6 +793,11 @@ WebGLExtensionCompressedTextureS3TC
 cpp
 '
 '
+WebGLExtensionCompressedTextureS3TC_SRGB
+.
+cpp
+'
+'
 WebGLExtensionDebugRendererInfo
 .
 cpp

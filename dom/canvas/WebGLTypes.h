@@ -156,6 +156,7 @@ WEBGL_compressed_texture_etc
 WEBGL_compressed_texture_etc1
 WEBGL_compressed_texture_pvrtc
 WEBGL_compressed_texture_s3tc
+WEBGL_compressed_texture_s3tc_srgb
 WEBGL_debug_renderer_info
 WEBGL_debug_shaders
 WEBGL_depth_texture
