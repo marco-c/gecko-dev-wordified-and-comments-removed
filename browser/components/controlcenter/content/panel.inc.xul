@@ -210,6 +210,11 @@ popup
 -
 mainView
 "
+descriptionheightworkaround
+=
+"
+true
+"
 >
 <
 panelview
@@ -226,11 +231,6 @@ flex
 =
 "
 1
-"
-descriptionheightworkaround
-=
-"
-true
 "
 >
 <
@@ -1170,11 +1170,6 @@ identity
 popup
 -
 securityView
-"
-descriptionheightworkaround
-=
-"
-true
 "
 >
 <
