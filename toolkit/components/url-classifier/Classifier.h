@@ -389,14 +389,6 @@ MergeNewLookupCaches
 )
 ;
 void
-CopyFullHashCacheToNewLookupCache
-(
-LookupCache
-*
-aNewLookupCache
-)
-;
-void
 RemoveUpdateIntermediaries
 (
 )
