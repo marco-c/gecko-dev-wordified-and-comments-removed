@@ -366,9 +366,7 @@ Shutdown
 )
 ;
 }
-const
-char
-*
+nsCString
 MediaDataDecoderProxy
 :
 :

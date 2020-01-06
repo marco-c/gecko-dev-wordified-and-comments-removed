@@ -180,9 +180,7 @@ Shutdown
 )
 override
 ;
-const
-char
-*
+nsCString
 GetDescriptionName
 (
 )
