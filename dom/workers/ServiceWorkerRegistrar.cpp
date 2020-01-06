@@ -4891,6 +4891,14 @@ if
 child
 )
 {
+mShuttingDown
+=
+true
+;
+ShutdownCompleted
+(
+)
+;
 return
 ;
 }
