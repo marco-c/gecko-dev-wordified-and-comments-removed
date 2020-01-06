@@ -701,6 +701,16 @@ stylo
 disabled
 windows
 -
+reftest
+-
+gpu
+:
+-
+reftest
+-
+gpu
+windows
+-
 tests
 :
 -
@@ -779,10 +789,6 @@ mochitest
 webgl
 -
 reftest
--
-reftest
--
-gpu
 -
 reftest
 -
