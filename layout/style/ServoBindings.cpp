@@ -12595,6 +12595,13 @@ size_t
 len
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 #
 ifdef
 MOZ_CRASHREPORTER
