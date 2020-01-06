@@ -331,12 +331,6 @@ android
 "
 #
 elif
-MOZ_WIDGET_GONK
-"
-gonk
-"
-#
-elif
 XP_LINUX
 "
 linux

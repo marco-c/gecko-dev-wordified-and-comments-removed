@@ -456,12 +456,6 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-|
-|
-defined
-(
-MOZ_WIDGET_GONK
-)
 nsAutoString
 path
 ;
