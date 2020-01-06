@@ -252,6 +252,14 @@ ShouldFailWithOOM
 }
 }
 ;
+void
+ReportOutOfMemory
+(
+JSContext
+*
+cx
+)
+;
 class
 TempAllocPolicy
 {
@@ -631,7 +639,7 @@ ShouldFailWithOOM
 )
 )
 {
-JS_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx_
 )

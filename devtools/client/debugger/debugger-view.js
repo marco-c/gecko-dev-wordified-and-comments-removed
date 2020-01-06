@@ -2650,7 +2650,7 @@ L10N
 getFormatStr
 (
 "
-errorLoadingText3
+errorLoadingText2
 "
 textInfo
 .
