@@ -1870,6 +1870,12 @@ kind
 ;
 MOZ_MUST_USE
 bool
+emitPushNotUndefinedOrNull
+(
+)
+;
+MOZ_MUST_USE
+bool
 emitUint16Operand
 (
 JSOp
