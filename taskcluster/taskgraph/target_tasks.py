@@ -2032,6 +2032,7 @@ in
 '
 balrog
 '
+            
 '
 beetmover
 '
@@ -2047,10 +2048,24 @@ l10n
 '
             
 '
+beetmover
+-
+repackage
+'
+'
+beetmover
+-
+repackage
+-
+signing
+'
+            
+'
 checksums
 -
 signing
 '
+            
 '
 nightly
 -
@@ -2076,21 +2091,36 @@ apk
 -
 breakpoint
 '
-'
-beetmover
--
-repackage
-'
             
 '
-beetmover
--
 repackage
 -
-signing
+l10n
 '
         
 ]
+:
+            
+return
+False
+        
+if
+task
+.
+attributes
+.
+get
+(
+'
+locale
+'
+'
+'
+)
+!
+=
+'
+'
 :
             
 return
