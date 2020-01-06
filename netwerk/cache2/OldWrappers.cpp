@@ -736,7 +736,7 @@ _retval
 =
 true
 ;
-nsXPIDLCString
+nsCString
 clientId
 ;
 rv

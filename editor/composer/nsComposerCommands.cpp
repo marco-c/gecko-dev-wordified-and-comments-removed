@@ -2800,7 +2800,7 @@ if
 aParams
 )
 {
-nsXPIDLCString
+nsCString
 s
 ;
 nsresult
@@ -6660,7 +6660,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsXPIDLCString
+nsCString
 s
 ;
 nsresult

@@ -3538,7 +3538,7 @@ currentFlavor
 )
 continue
 ;
-nsXPIDLCString
+nsCString
 flavorStr
 ;
 currentFlavor

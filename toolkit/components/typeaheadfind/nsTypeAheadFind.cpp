@@ -770,7 +770,7 @@ enablesound
 isSoundEnabled
 )
 ;
-nsXPIDLCString
+nsCString
 soundStr
 ;
 if

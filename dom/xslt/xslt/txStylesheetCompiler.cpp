@@ -4681,7 +4681,7 @@ rv
 rv
 )
 ;
-nsXPIDLCString
+nsCString
 contractID
 ;
 rv

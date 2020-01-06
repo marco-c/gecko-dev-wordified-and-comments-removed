@@ -387,10 +387,10 @@ Truncate
 nsresult
 rv
 ;
-nsXPIDLCString
+nsCString
 med
 ;
-nsXPIDLCString
+nsCString
 charset
 ;
 rv

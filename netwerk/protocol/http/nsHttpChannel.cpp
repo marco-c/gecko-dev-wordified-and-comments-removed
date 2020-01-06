@@ -14075,7 +14075,7 @@ nsDependentCString
 token
 )
 ;
-nsXPIDLCString
+nsCString
 lastVal
 ;
 entry
@@ -17883,7 +17883,7 @@ mCachedContentIsValid
 =
 false
 ;
-nsXPIDLCString
+nsCString
 buf
 ;
 rv
@@ -34369,7 +34369,7 @@ mCacheEntry
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsXPIDLCString
+nsCString
 cachedCharset
 ;
 rv

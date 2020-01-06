@@ -2616,7 +2616,7 @@ currentTransferableFlavor
 )
 continue
 ;
-nsXPIDLCString
+nsCString
 transferableFlavorStr
 ;
 currentTransferableFlavor

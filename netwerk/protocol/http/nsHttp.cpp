@@ -2187,7 +2187,7 @@ nsHttpResponseHead
 cachedResponseHead
 )
 {
-nsXPIDLCString
+nsCString
 buf
 ;
 nsresult
@@ -2425,7 +2425,7 @@ bool
 isImmutable
 )
 {
-nsXPIDLCString
+nsCString
 framedBuf
 ;
 nsresult

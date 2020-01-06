@@ -2243,7 +2243,7 @@ msg
 sourceName
 sourceLine
 ;
-nsXPIDLCString
+nsCString
 category
 ;
 uint32_t

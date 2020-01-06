@@ -7351,7 +7351,7 @@ rv
 return
 REMOTE_NOT_FOUND
 ;
-nsXPIDLCString
+nsCString
 response
 ;
 bool
@@ -19040,7 +19040,7 @@ rv
 )
 )
 {
-nsXPIDLCString
+nsCString
 sval
 ;
 rv

@@ -3555,7 +3555,7 @@ if
 imageRequest
 )
 {
-nsXPIDLCString
+nsCString
 mimeType
 ;
 imageRequest
@@ -3574,7 +3574,7 @@ ToUpperCase
 mimeType
 )
 ;
-nsXPIDLCString
+nsCString
 :
 :
 const_iterator
@@ -3595,7 +3595,7 @@ EndReading
 end
 )
 ;
-nsXPIDLCString
+nsCString
 :
 :
 const_iterator

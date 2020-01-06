@@ -570,7 +570,7 @@ service
 }
 else
 {
-nsXPIDLCString
+nsCString
 provider
 ;
 rv
@@ -1240,7 +1240,7 @@ SELECTED_SKIN_PREF
 )
 )
 {
-nsXPIDLCString
+nsCString
 provider
 ;
 rv

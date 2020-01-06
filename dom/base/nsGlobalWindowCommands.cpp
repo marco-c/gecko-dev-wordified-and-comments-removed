@@ -3780,7 +3780,7 @@ plain
 "
 )
 ;
-nsXPIDLCString
+nsCString
 format
 ;
 if

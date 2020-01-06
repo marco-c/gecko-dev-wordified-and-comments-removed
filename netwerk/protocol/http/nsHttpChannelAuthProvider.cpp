@@ -3915,7 +3915,7 @@ NS_ERROR_ABORT
 ;
 }
 }
-nsXPIDLCString
+nsCString
 result
 ;
 rv
@@ -5698,7 +5698,7 @@ return
 NS_OK
 ;
 }
-nsXPIDLCString
+nsCString
 creds
 ;
 rv
@@ -7086,7 +7086,7 @@ identFromURI
 =
 true
 ;
-nsXPIDLCString
+nsCString
 temp
 ;
 const

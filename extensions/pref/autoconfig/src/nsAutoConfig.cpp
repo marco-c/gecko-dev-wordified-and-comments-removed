@@ -811,9 +811,6 @@ rv
 nsAutoCString
 emailAddr
 ;
-nsXPIDLCString
-urlName
-;
 static
 bool
 firstTime
@@ -1933,7 +1930,7 @@ emailAddr
 nsresult
 rv
 ;
-nsXPIDLCString
+nsCString
 prefValue
 ;
 rv

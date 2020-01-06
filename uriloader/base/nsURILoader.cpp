@@ -1687,9 +1687,6 @@ no
 )
 )
 ;
-nsXPIDLCString
-desiredContentType
-;
 if
 (
 !
@@ -2852,7 +2849,7 @@ listenerWantsContent
 =
 false
 ;
-nsXPIDLCString
+nsCString
 typeToUse
 ;
 if

@@ -6027,7 +6027,7 @@ return
 ;
 }
 }
-nsXPIDLCString
+nsCString
 cookie
 ;
 service
@@ -15464,7 +15464,7 @@ Failed
 return
 ;
 }
-nsXPIDLCString
+nsCString
 cStringResult
 ;
 cmdParams

@@ -11533,7 +11533,7 @@ ToLowerCase
 lowercaseFileExt
 )
 ;
-nsXPIDLCString
+nsCString
 type
 ;
 nsresult

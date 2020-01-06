@@ -2773,9 +2773,6 @@ result
 nsresult
 rv
 ;
-nsXPIDLCString
-key
-;
 uint16_t
 code
 =
