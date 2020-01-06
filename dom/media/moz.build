@@ -557,6 +557,11 @@ AudioStream
 h
 '
 '
+AutoplayPolicy
+.
+h
+'
+'
 Benchmark
 .
 h
@@ -1100,6 +1105,11 @@ cpp
 '
 '
 AudioTrackList
+.
+cpp
+'
+'
+AutoplayPolicy
 .
 cpp
 '
