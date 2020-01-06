@@ -215,6 +215,14 @@ coreconf
 sanitizers
 .
 sh
+GYP
+=
+{
+GYP
+:
+-
+gyp
+}
 #
 Usage
 info
@@ -1425,7 +1433,9 @@ then
 if
 !
 hash
-gyp
+{
+GYP
+}
 2
 >
 /
@@ -1502,7 +1512,9 @@ lib
 fi
 run_verbose
 run_scanbuild
-gyp
+{
+GYP
+}
 -
 f
 ninja
