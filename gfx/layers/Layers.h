@@ -1517,13 +1517,6 @@ FlushRendering
 }
 virtual
 void
-WaitOnTransactionProcessed
-(
-)
-{
-}
-virtual
-void
 SendInvalidRegion
 (
 const
