@@ -910,6 +910,16 @@ aGuid
 )
 const
 ;
+LayerToParentLayerMatrix4x4
+ComputeTransformForNode
+(
+const
+HitTestingTreeNode
+*
+aNode
+)
+const
+;
 protected
 :
 RefPtr

@@ -313,6 +313,10 @@ const
 ParentLayerPoint
 &
 aPoint
+const
+LayerToParentLayerMatrix4x4
+&
+aTransform
 )
 const
 ;
@@ -328,6 +332,14 @@ const
 ;
 EventRegionsOverride
 GetEventRegionsOverride
+(
+)
+const
+;
+const
+CSSTransformMatrix
+&
+GetTransform
 (
 )
 const
