@@ -19,6 +19,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -83,6 +90,9 @@ nsIntRect
 *
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 if
 (
 aType
