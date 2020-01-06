@@ -395,6 +395,9 @@ mBlacklistedD3D11Driver
 nsCString
 mBlacklistedD3D9Driver
 ;
+TimeStamp
+mGPUCrashTime
+;
 }
 ;
 }
