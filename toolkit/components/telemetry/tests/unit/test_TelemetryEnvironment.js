@@ -2261,6 +2261,16 @@ object
 if
 (
 gIsWindows
+&
+&
+AppConstants
+.
+MOZ_BUILD_APP
+=
+=
+"
+browser
+"
 )
 {
 Assert
