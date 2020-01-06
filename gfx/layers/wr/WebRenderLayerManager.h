@@ -1657,9 +1657,6 @@ mLastCanvasDatas
 WebRenderUserDataRefTable
 mWebRenderUserDatas
 ;
-size_t
-mLastDisplayListSize
-;
 }
 ;
 }

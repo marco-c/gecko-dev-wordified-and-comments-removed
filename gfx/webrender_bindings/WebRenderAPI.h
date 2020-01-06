@@ -876,10 +876,6 @@ wr
 LayoutSize
 &
 aContentSize
-size_t
-aCapacity
-=
-0
 )
 ;
 DisplayListBuilder
