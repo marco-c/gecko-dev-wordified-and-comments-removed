@@ -1950,12 +1950,6 @@ _test_minimum_select_one_character
 (
 self
 el
-x
-=
-None
-y
-=
-None
 )
 :
         
@@ -2032,35 +2026,12 @@ original_content
 0
 ]
         
-if
-x
-and
-y
-:
-            
-pass
-        
-else
-:
-            
-x
-y
-=
 self
 .
-word_location
+long_press_on_word
 (
 el
 0
-)
-        
-self
-.
-long_press_on_location
-(
-el
-x
-y
 )
         
 (
