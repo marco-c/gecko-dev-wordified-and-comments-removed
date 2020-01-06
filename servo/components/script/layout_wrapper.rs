@@ -236,7 +236,7 @@ matching
 :
 {
 ElementSelectorFlags
-StyleRelations
+MatchingContext
 }
 ;
 use
@@ -4068,7 +4068,7 @@ _
 :
 &
 mut
-StyleRelations
+MatchingContext
 _
 :
 &
@@ -6950,7 +6950,7 @@ _
 :
 &
 mut
-StyleRelations
+MatchingContext
 _
 :
 &

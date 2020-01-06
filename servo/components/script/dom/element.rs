@@ -935,7 +935,7 @@ matching
 :
 {
 ElementSelectorFlags
-StyleRelations
+MatchingContext
 matches_selector_list
 }
 ;
@@ -18760,7 +18760,7 @@ _
 :
 &
 mut
-StyleRelations
+MatchingContext
 _
 :
 &

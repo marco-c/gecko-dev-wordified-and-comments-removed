@@ -89,7 +89,7 @@ selectors
 matching
 :
 :
-StyleRelations
+MatchingContext
 ;
 use
 selectors
@@ -3119,10 +3119,10 @@ NonTSPseudoClass
 AnyLink
 &
 mut
-StyleRelations
+MatchingContext
 :
 :
-empty
+default
 (
 )
 &
