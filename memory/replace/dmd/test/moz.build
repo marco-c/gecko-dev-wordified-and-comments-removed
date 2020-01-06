@@ -154,9 +154,9 @@ MOZ_NO_MOZALLOC
 ]
 =
 True
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 XPCSHELL_TESTS_MANIFESTS
 +
 =

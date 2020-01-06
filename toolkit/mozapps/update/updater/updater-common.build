@@ -464,9 +464,9 @@ NS_NO_XPCOM
 ]
 =
 True
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 for
 var
 in

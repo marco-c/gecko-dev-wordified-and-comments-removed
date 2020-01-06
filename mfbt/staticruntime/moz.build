@@ -121,9 +121,9 @@ mfbt_nonunified_src_cppsrcs
 USE_STATIC_LIBS
 =
 True
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 #
 Suppress
 warnings

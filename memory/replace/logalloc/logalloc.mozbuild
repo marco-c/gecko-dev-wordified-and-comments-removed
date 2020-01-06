@@ -100,9 +100,9 @@ LogAlloc
 cpp
 '
 ]
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 USE_STATIC_LIBS
 =
 True

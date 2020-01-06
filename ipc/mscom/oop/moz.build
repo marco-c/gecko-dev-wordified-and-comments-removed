@@ -197,9 +197,9 @@ MOZ_MSCOM_REMARSHAL_NO_HANDLER
 ]
 =
 True
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 NO_EXPAND_LIBS
 =
 True

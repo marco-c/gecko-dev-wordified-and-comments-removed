@@ -315,9 +315,9 @@ WindowsDllBlocklist
 cpp
 '
 ]
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 OS_LIBS
 +
 =

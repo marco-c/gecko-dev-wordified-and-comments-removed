@@ -258,9 +258,9 @@ _GNU_SOURCE
 ]
 =
 True
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 DEFINES
 [
 '

@@ -168,6 +168,6 @@ IMPL_MFBT
 ]
 =
 True
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)

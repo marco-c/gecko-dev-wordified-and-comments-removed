@@ -192,9 +192,9 @@ isn
 t
 Gecko
 code
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 NO_PGO
 =
 True

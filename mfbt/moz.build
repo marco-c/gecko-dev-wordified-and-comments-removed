@@ -693,9 +693,9 @@ SOURCES
 +
 =
 mfbt_nonunified_src_cppsrcs
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 #
 Suppress
 warnings

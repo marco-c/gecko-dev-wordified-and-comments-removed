@@ -243,9 +243,9 @@ maintenanceservice
 .
 rc
 '
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 OS_LIBS
 +
 =

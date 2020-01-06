@@ -258,9 +258,9 @@ new
 they
 require
 mozalloc
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 #
 Include
 fallible

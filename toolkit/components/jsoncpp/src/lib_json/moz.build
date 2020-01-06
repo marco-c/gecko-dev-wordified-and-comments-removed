@@ -190,9 +190,9 @@ build
 with
 exceptions
 enabled
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 Library
 (
 '

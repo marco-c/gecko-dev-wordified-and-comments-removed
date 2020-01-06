@@ -85,9 +85,9 @@ MPL
 0
 /
 .
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 GeckoCppUnitTests
 (
 [

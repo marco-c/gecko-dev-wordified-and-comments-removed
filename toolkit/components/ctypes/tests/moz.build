@@ -186,9 +186,9 @@ they
 require
 mozalloc
 .
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 NO_PGO
 =
 True

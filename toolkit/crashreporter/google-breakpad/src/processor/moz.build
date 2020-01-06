@@ -429,9 +429,9 @@ in
 the
 crashreporter
 clients
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 #
 We
 allow

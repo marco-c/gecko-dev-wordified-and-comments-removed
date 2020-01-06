@@ -386,9 +386,9 @@ xpcom
 build
 '
 ]
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 if
 CONFIG
 [

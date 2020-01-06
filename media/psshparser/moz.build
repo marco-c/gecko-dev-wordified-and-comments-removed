@@ -133,9 +133,9 @@ Library
 psshparser
 '
 )
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 DEFINES
 [
 '

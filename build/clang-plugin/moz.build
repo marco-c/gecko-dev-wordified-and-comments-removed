@@ -306,9 +306,9 @@ ThirdPartyPaths
 txt
 '
 ]
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 NO_VISIBILITY_FLAGS
 =
 True

@@ -241,9 +241,9 @@ CXXFLAGS
 GR
 '
 ]
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
 ALLOW_COMPILER_WARNINGS
 =
 True

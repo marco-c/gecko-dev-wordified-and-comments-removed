@@ -197,6 +197,6 @@ linkage
 bug
 558163
 )
-DISABLE_STL_WRAPPING
-=
-True
+DisableStlWrapping
+(
+)
