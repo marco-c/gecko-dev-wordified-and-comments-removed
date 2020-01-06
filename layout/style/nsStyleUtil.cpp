@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
