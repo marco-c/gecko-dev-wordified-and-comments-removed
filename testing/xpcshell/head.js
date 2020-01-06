@@ -685,8 +685,6 @@ listener
 =
 {
 QueryInterface
-:
-function
 (
 iid
 )
@@ -732,8 +730,6 @@ this
 ;
 }
 observe
-:
-function
 (
 msg
 )
@@ -955,8 +951,6 @@ prototype
 =
 {
 QueryInterface
-:
-function
 (
 iid
 )
@@ -998,8 +992,6 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 notify
-:
-function
 (
 timer
 )
@@ -1398,8 +1390,6 @@ factory
 :
 {
 createInstance
-:
-function
 (
 aOuter
 aIID
@@ -1428,8 +1418,6 @@ aIID
 ;
 }
 lockFactory
-:
-function
 (
 aLock
 )
@@ -1443,8 +1431,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -1498,22 +1484,16 @@ return
 ;
 }
 addIdleObserver
-:
-function
 (
 )
 {
 }
 removeIdleObserver
-:
-function
 (
 )
 {
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -3427,11 +3407,6 @@ _cleanupFunctions
 ]
 ;
 }
-.
-bind
-(
-this
-)
 )
 .
 catch
@@ -3838,8 +3813,6 @@ dispatchToMainThread
 (
 {
 run
-:
-function
 (
 )
 {
@@ -4588,7 +4561,6 @@ message
 }
 }
 else
-{
 if
 (
 todo
@@ -4635,7 +4607,6 @@ _abort_failed_test
 (
 )
 ;
-}
 }
 }
 function
@@ -5987,14 +5958,11 @@ return
 file
 ;
 }
-else
-{
 return
 do_get_tempdir
 (
 )
 ;
-}
 }
 function
 do_get_profile
@@ -6140,8 +6108,6 @@ provider
 =
 {
 getFile
-:
-function
 (
 prop
 persistent
@@ -6208,8 +6174,6 @@ null
 ;
 }
 QueryInterface
-:
-function
 (
 iid
 )
@@ -6830,8 +6794,6 @@ listener
 =
 {
 receiveMessage
-:
-function
 (
 message
 )

@@ -67,16 +67,12 @@ scope1
 =
 {
 __URI__
-:
-__URI__
 }
 ;
 var
 scope2
 =
 {
-__URI__
-:
 __URI__
 }
 ;
