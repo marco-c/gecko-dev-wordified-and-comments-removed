@@ -1010,6 +1010,13 @@ RawGeckoElementBorrowed
 element
 )
 ;
+void
+Gecko_UnsetDirtyStyleAttr
+(
+RawGeckoElementBorrowed
+element
+)
+;
 RawServoDeclarationBlockStrongBorrowedOrNull
 Gecko_GetHTMLPresentationAttrDeclarationBlock
 (
