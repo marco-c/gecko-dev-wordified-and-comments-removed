@@ -238,7 +238,7 @@ TableSwitch
 \
 _
 (
-IteratorNew_Fallback
+GetIterator_Fallback
 )
 \
 _

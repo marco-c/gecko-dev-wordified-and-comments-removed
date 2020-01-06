@@ -2582,6 +2582,17 @@ Register
 scratch
 )
 ;
+void
+emitRegisterEnumerator
+(
+Register
+enumeratorsList
+Register
+iter
+Register
+scratch
+)
+;
 private
 :
 void

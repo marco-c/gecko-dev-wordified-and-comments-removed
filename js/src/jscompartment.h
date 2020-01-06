@@ -5139,13 +5139,6 @@ NativeIterator
 *
 enumerators
 ;
-js
-:
-:
-PropertyIteratorObject
-*
-lastCachedNativeIterator
-;
 private
 :
 JS

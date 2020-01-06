@@ -5417,7 +5417,7 @@ space
 }
 ;
 class
-ICIteratorNew_Fallback
+ICGetIterator_Fallback
 :
 public
 ICFallbackStub
@@ -5427,7 +5427,7 @@ class
 ICStubSpace
 ;
 explicit
-ICIteratorNew_Fallback
+ICGetIterator_Fallback
 (
 JitCode
 *
@@ -5439,7 +5439,7 @@ ICFallbackStub
 ICStub
 :
 :
-IteratorNew_Fallback
+GetIterator_Fallback
 stubCode
 )
 {
@@ -5479,7 +5479,7 @@ cx
 ICStub
 :
 :
-IteratorNew_Fallback
+GetIterator_Fallback
 Engine
 :
 :
@@ -5499,7 +5499,7 @@ space
 return
 newStub
 <
-ICIteratorNew_Fallback
+ICGetIterator_Fallback
 >
 (
 space

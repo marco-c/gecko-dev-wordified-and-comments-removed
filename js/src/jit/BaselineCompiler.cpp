@@ -19064,7 +19064,7 @@ popRegsAndSync
 1
 )
 ;
-ICIteratorNew_Fallback
+ICGetIterator_Fallback
 :
 :
 Compiler

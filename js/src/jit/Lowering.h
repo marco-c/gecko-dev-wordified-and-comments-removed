@@ -1986,9 +1986,9 @@ ins
 )
 ;
 void
-visitIteratorStart
+visitGetIteratorCache
 (
-MIteratorStart
+MGetIteratorCache
 *
 ins
 )

@@ -67650,7 +67650,7 @@ MInstruction
 *
 ins
 =
-MIteratorStart
+MGetIteratorCache
 :
 :
 New
@@ -67659,7 +67659,6 @@ alloc
 (
 )
 obj
-flags
 )
 ;
 if
