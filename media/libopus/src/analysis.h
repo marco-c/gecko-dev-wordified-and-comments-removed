@@ -99,6 +99,9 @@ NB_TBANDS
 float
 prev_tonality
 ;
+int
+prev_bandwidth
+;
 float
 E
 [
