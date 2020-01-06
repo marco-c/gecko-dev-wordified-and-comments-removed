@@ -246,6 +246,14 @@ locales
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -292,6 +300,14 @@ dest
 :
 "
 locales_file
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -345,6 +361,14 @@ tag_override
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -390,6 +414,14 @@ dest
 :
 "
 user_repo_override
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "
@@ -442,6 +474,14 @@ release_config_file
 "
          
 "
+type
+"
+:
+"
+string
+"
+         
+"
 help
 "
 :
@@ -485,6 +525,14 @@ dest
 :
 "
 key_alias
+"
+         
+"
+type
+"
+:
+"
+choice
 "
          
 "
@@ -556,7 +604,9 @@ this_locale_chunk
 type
 "
 :
+"
 int
+"
          
 "
 help
@@ -608,7 +658,9 @@ total_locale_chunks
 type
 "
 :
+"
 int
+"
          
 "
 help
@@ -703,6 +755,14 @@ dest
 :
 "
 revision
+"
+         
+"
+type
+"
+:
+"
+string
 "
          
 "

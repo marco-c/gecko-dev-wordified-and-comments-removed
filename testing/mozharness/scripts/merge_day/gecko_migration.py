@@ -232,6 +232,14 @@ hg_user
 "
             
 "
+type
+"
+:
+"
+string
+"
+            
+"
 default
 "
 :
@@ -296,6 +304,14 @@ balrog_api_root
 "
             
 "
+type
+"
+:
+"
+string
+"
+            
+"
 help
 "
 :
@@ -337,6 +353,14 @@ dest
 :
 "
 balrog_username
+"
+            
+"
+type
+"
+:
+"
+string
 "
             
 "
@@ -389,6 +413,14 @@ balrog_credentials_file
 "
             
 "
+type
+"
+:
+"
+string
+"
+            
+"
 help
 "
 :
@@ -431,6 +463,14 @@ dest
 :
 "
 remove_locales
+"
+            
+"
+type
+"
+:
+"
+string
 "
             
 "

@@ -36,10 +36,6 @@ import
 sys
 import
 os
-from
-argparse
-import
-Namespace
 sys
 .
 path
@@ -1087,14 +1083,9 @@ cfg
             
 variant
             
-Namespace
-(
-*
-*
 rw_config
 .
-_config
-)
+config_parser
         
 )
         

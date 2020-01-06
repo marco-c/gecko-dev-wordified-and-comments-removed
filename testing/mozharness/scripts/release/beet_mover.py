@@ -203,6 +203,14 @@ locales
 "
         
 "
+type
+"
+:
+"
+string
+"
+        
+"
 help
 "
 :
@@ -655,7 +663,9 @@ default
 type
 "
 :
+"
 int
+"
         
 "
 help

@@ -998,6 +998,14 @@ system_bits
 "
           
 "
+type
+"
+:
+"
+choice
+"
+          
+"
 default
 "
 :
@@ -1163,7 +1171,9 @@ gecko_profile_interval
 type
 "
 :
+"
 int
+"
             
 "
 default

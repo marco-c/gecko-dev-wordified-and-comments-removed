@@ -342,6 +342,14 @@ store
 "
          
 "
+type
+"
+:
+"
+choice
+"
+         
+"
 choices
 "
 :
