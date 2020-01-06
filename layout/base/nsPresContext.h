@@ -118,6 +118,13 @@ h
 #
 include
 "
+nsLanguageAtomService
+.
+h
+"
+#
+include
+"
 FramePropertyTable
 .
 h
@@ -282,9 +289,6 @@ nsIDocShell
 ;
 class
 nsIDocument
-;
-class
-nsILanguageAtomService
 ;
 class
 nsITheme
@@ -4068,10 +4072,8 @@ nsITheme
 >
 mTheme
 ;
-nsCOMPtr
-<
-nsILanguageAtomService
->
+nsLanguageAtomService
+*
 mLangService
 ;
 nsCOMPtr

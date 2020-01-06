@@ -749,9 +749,6 @@ gfxFontconfigFont
 }
 ;
 class
-nsILanguageAtomService
-;
-class
 gfxFcPlatformFontList
 :
 public

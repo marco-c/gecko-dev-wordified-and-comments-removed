@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsLanguageAtomService
-.
-h
-"
-#
-include
-"
 nsPlatformCharset
 .
 h
@@ -180,10 +173,6 @@ nsCollation
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsCollationFactory
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsLanguageAtomService
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (

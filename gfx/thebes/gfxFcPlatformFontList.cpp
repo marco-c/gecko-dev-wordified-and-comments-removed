@@ -104,13 +104,6 @@ h
 #
 include
 "
-nsILanguageAtomService
-.
-h
-"
-#
-include
-"
 nsUnicodeProperties
 .
 h

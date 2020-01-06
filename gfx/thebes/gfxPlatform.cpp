@@ -4234,13 +4234,6 @@ Shutdown
 (
 )
 ;
-gfxFontGroup
-:
-:
-Shutdown
-(
-)
-;
 gfxGradientCache
 :
 :

@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsILanguageAtomService
+nsLanguageAtomService
 .
 h
 "
@@ -397,10 +397,8 @@ StaticPresData
 )
 {
 }
-nsCOMPtr
-<
-nsILanguageAtomService
->
+nsLanguageAtomService
+*
 mLangService
 ;
 nscoord

@@ -104,7 +104,7 @@ h
 #
 include
 "
-nsILanguageAtomService
+nsLanguageAtomService
 .
 h
 "
@@ -446,11 +446,6 @@ aListOfFonts
 ;
 void
 UpdateFontList
-(
-)
-;
-void
-InitLangService
 (
 )
 ;
@@ -1432,12 +1427,6 @@ nsString
 aFontFamilyNames
 )
 ;
-nsILanguageAtomService
-*
-GetLangService
-(
-)
-;
 nsIAtom
 *
 GetLangGroup
@@ -1767,10 +1756,8 @@ gfxUserFontSet
 >
 mUserFontSetList
 ;
-nsCOMPtr
-<
-nsILanguageAtomService
->
+nsLanguageAtomService
+*
 mLangService
 ;
 nsTArray

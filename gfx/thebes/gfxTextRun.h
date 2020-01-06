@@ -134,7 +134,7 @@ class
 nsIAtom
 ;
 class
-nsILanguageAtomService
+nsLanguageAtomService
 ;
 class
 gfxMissingFontRecorder
@@ -3793,11 +3793,6 @@ gfxFontFamily
 *
 aFamily
 )
-;
-static
-nsILanguageAtomService
-*
-gLangService
 ;
 }
 ;

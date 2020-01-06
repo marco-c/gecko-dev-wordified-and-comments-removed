@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsILanguageAtomService
+nsLanguageAtomService
 .
 h
 "
@@ -4020,9 +4020,11 @@ this
 }
 mLangService
 =
-do_GetService
+nsLanguageAtomService
+:
+:
+GetService
 (
-NS_LANGUAGEATOMSERVICE_CONTRACTID
 )
 ;
 Preferences
@@ -4504,11 +4506,6 @@ imgIContainer
 kNormalAnimMode
 ;
 }
-if
-(
-mLangService
-)
-{
 doc
 -
 >
@@ -4527,7 +4524,6 @@ GetDocumentCharacterSet
 )
 )
 ;
-}
 }
 }
 void
@@ -4762,11 +4758,6 @@ nsCString
 aCharSet
 )
 {
-if
-(
-mLangService
-)
-{
 mLanguage
 =
 mLangService
@@ -4808,7 +4799,6 @@ mFontGroupCacheDirty
 =
 true
 ;
-}
 switch
 (
 GET_BIDI_OPTION_TEXTTYPE
