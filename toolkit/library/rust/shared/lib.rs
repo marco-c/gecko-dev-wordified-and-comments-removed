@@ -59,6 +59,10 @@ extern
 crate
 cubeb_pulse
 ;
+extern
+crate
+encoding_c
+;
 use
 std
 :
