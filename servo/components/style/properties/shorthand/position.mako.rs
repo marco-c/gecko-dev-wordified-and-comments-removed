@@ -1337,7 +1337,7 @@ default
 if
 start
 .
-integer
+line_num
 .
 is_none
 (
@@ -1637,7 +1637,7 @@ default
 if
 other
 .
-integer
+line_num
 .
 is_none
 (
