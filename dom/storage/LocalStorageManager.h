@@ -386,6 +386,10 @@ friend
 class
 LocalStorageCache
 ;
+friend
+class
+StorageDBChild
+;
 virtual
 void
 DropCache

@@ -164,6 +164,14 @@ EmptyCString
 )
 )
 ;
+void
+NoteBackgroundThread
+(
+nsIEventTarget
+*
+aBackgroundThread
+)
+;
 private
 :
 virtual
@@ -190,6 +198,12 @@ static
 StorageObserver
 *
 sSelf
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mBackgroundThread
 ;
 nsTArray
 <
