@@ -819,7 +819,7 @@ setVideoMaxFrameDuration
 :
 bestFrameRateRange
 .
-maxFrameDuration
+minFrameDuration
 ]
 ;
 }
