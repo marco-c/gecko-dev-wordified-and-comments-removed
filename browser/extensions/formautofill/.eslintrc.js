@@ -522,17 +522,6 @@ literal
 error
 "
 "
-no
--
-unneeded
--
-ternary
-"
-:
-"
-error
-"
-"
 padded
 -
 blocks

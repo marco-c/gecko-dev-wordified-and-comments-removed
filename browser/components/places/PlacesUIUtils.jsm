@@ -3898,10 +3898,6 @@ where
 "
 tabshifted
 "
-?
-true
-:
-false
 ;
 browserWindow
 .

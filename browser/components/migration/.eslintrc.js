@@ -243,17 +243,6 @@ error
 "
 no
 -
-unneeded
--
-ternary
-"
-:
-"
-error
-"
-"
-no
--
 unused
 -
 vars

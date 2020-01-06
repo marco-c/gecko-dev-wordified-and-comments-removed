@@ -709,17 +709,6 @@ off
 "
 no
 -
-unneeded
--
-ternary
-"
-:
-"
-error
-"
-"
-no
--
 unused
 -
 vars

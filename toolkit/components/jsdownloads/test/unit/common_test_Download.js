@@ -1147,11 +1147,9 @@ stat
 winAttributes
 .
 readOnly
+!
+!
 isTemporary
-?
-true
-:
-false
 )
 ;
 }

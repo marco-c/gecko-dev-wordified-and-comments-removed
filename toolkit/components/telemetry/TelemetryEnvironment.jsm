@@ -6194,6 +6194,8 @@ null
 try
 {
 return
+!
+!
 shellService
 .
 isDefaultBrowser
@@ -6201,10 +6203,6 @@ isDefaultBrowser
 false
 true
 )
-?
-true
-:
-false
 ;
 }
 catch

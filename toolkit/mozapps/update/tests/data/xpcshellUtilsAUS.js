@@ -4142,11 +4142,9 @@ prefs
 setBoolPref
 (
 PREF_APP_UPDATE_SERVICE_ENABLED
+!
+!
 IS_SERVICE_TEST
-?
-true
-:
-false
 )
 ;
 }

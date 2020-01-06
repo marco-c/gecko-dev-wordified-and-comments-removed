@@ -244,11 +244,8 @@ setTestFilesAndDirsForFailure
 checkFilesAfterUpdateFailure
 (
 getApplyDirFile
+!
 IS_MACOSX
-?
-false
-:
-true
 false
 )
 ;

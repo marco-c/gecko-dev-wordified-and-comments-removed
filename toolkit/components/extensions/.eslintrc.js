@@ -1070,17 +1070,6 @@ off
 "
 no
 -
-unneeded
--
-ternary
-"
-:
-"
-error
-"
-"
-no
--
 var
 "
 :
