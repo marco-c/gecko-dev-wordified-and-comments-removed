@@ -61,6 +61,15 @@ stageUpdateFinished
 (
 )
 {
+checkUpdateManager
+(
+STATE_AFTER_STAGE
+true
+STATE_AFTER_STAGE
+0
+0
+)
+;
 removeUpdateInProgressLockFile
 (
 getAppBaseDir

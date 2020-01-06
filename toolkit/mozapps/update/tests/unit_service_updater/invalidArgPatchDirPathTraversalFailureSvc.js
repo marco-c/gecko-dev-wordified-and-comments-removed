@@ -109,6 +109,15 @@ standardInit
 (
 )
 ;
+checkUpdateManager
+(
+STATE_NONE
+false
+STATE_AFTER_RUNUPDATE
+0
+1
+)
+;
 checkPostUpdateRunningFile
 (
 false

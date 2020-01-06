@@ -100,7 +100,7 @@ equal
 gUpdateManager
 .
 updateCount
-1
+0
 "
 the
 update
