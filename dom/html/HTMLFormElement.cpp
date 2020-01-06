@@ -4121,10 +4121,11 @@ HTMLFormSubmission
 aFormSubmission
 )
 {
-nsTArray
+AutoTArray
 <
 nsGenericHTMLFormElement
 *
+100
 >
 sortedControls
 ;
@@ -7293,10 +7294,11 @@ ret
 =
 true
 ;
-nsTArray
+AutoTArray
 <
 nsGenericHTMLFormElement
 *
+100
 >
 sortedControls
 ;
