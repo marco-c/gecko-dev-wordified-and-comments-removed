@@ -43874,6 +43874,9 @@ true
 endif
 #
 ifdef
+MOZ_STYLO
+#
+ifdef
 MOZ_STYLO_ENABLE
 pref
 (
@@ -43905,6 +43908,8 @@ enabled
 false
 )
 ;
+#
+endif
 #
 endif
 #
