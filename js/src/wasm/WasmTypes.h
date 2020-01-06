@@ -5125,6 +5125,14 @@ Wasm
 AsmJS
 }
 ;
+enum
+class
+CompileMode
+{
+Baseline
+Ion
+}
+;
 struct
 Limits
 {

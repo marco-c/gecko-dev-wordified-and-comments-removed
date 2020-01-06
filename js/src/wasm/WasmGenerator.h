@@ -306,14 +306,6 @@ SystemAllocPolicy
 >
 UniqueFuncBytesVector
 ;
-enum
-class
-CompileMode
-{
-Baseline
-Ion
-}
-;
 class
 FuncCompileUnit
 {
