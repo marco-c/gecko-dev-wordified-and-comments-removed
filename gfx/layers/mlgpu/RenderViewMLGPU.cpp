@@ -1919,6 +1919,14 @@ return
 mDevice
 -
 >
+UnsetPSTexture
+(
+0
+)
+;
+mDevice
+-
+>
 SetRenderTarget
 (
 mTarget
