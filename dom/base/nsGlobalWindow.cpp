@@ -13317,7 +13317,7 @@ needComponents
 ?
 0
 :
-nsIXPConnect
+xpc
 :
 :
 OMIT_COMPONENTS_OBJECT
@@ -13325,7 +13325,7 @@ OMIT_COMPONENTS_OBJECT
 flags
 |
 =
-nsIXPConnect
+xpc
 :
 :
 DONT_FIRE_ONNEWGLOBALHOOK

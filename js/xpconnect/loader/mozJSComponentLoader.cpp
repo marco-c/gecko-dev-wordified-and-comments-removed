@@ -2558,7 +2558,7 @@ nsContentUtils
 GetSystemPrincipal
 (
 )
-nsIXPConnect
+xpc
 :
 :
 DONT_FIRE_ONNEWGLOBALHOOK
