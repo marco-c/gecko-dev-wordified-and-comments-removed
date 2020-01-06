@@ -114,7 +114,7 @@ buf
 [
 MAXIFNAME
 +
-41
+47
 ]
 ;
 int
