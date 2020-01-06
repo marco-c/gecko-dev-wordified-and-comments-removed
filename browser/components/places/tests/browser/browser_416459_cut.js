@@ -312,7 +312,6 @@ clipboard
 "
 )
 ;
-await
 ContentTree
 .
 view

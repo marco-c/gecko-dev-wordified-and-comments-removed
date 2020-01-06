@@ -273,7 +273,6 @@ focusTag
 PlacesOrganizer
 )
 ;
-await
 PlacesOrganizer
 .
 _places
