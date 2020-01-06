@@ -3436,6 +3436,12 @@ reftest
 assigned
 -
 layer
+random
+-
+if
+(
+webrender
+)
 !
 =
 reftest
