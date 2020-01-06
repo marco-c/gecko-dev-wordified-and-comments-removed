@@ -3018,16 +3018,13 @@ scroller
 ;
 overflowContainer
 .
-insertBefore
+appendChild
 (
 window
 .
 PanelUI
 .
 overflowFixedList
-overflowContainer
-.
-firstElementChild
 )
 ;
 document

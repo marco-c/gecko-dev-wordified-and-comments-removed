@@ -4081,8 +4081,6 @@ widget
 -
 overflow
 -
-fixed
--
 list
 "
 class
@@ -4094,10 +4092,12 @@ overflow
 -
 list
 "
-hidden
+overflowfortoolbar
 =
 "
-true
+nav
+-
+bar
 "
 /
 >
@@ -4130,6 +4130,8 @@ widget
 -
 overflow
 -
+fixed
+-
 list
 "
 class
@@ -4141,12 +4143,10 @@ overflow
 -
 list
 "
-overflowfortoolbar
+hidden
 =
 "
-nav
--
-bar
+true
 "
 /
 >
