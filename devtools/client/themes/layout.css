@@ -496,8 +496,6 @@ bottom
 grid
 -
 outline
--
-container
 {
 margin
 :
@@ -509,8 +507,6 @@ margin
 grid
 -
 outline
--
-container
 svg
 {
 overflow
