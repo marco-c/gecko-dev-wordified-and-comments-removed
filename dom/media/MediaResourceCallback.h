@@ -74,13 +74,6 @@ NotifyDataArrived
 }
 virtual
 void
-NotifyBytesDownloaded
-(
-)
-{
-}
-virtual
-void
 NotifyDataEnded
 (
 nsresult

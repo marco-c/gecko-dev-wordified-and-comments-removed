@@ -413,12 +413,6 @@ NotifyDataArrived
 override
 ;
 void
-NotifyBytesDownloaded
-(
-)
-override
-;
-void
 NotifyDataEnded
 (
 nsresult

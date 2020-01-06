@@ -1905,13 +1905,6 @@ uint32_t
 aWriteCount
 )
 {
-mCallback
--
->
-NotifyDataArrived
-(
-)
-;
 LOG
 (
 "
@@ -3704,7 +3697,7 @@ Revoke
 mCallback
 -
 >
-NotifyBytesDownloaded
+NotifyDataArrived
 (
 )
 ;
