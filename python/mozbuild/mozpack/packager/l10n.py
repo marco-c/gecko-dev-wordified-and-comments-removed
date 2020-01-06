@@ -108,6 +108,12 @@ errors
 from
 mozpack
 .
+mozjar
+import
+JAR_DEFLATED
+from
+mozpack
+.
 packager
 .
 unpack
@@ -1550,6 +1556,16 @@ FileCopier
 (
 )
     
+compress
+=
+min
+(
+app_finder
+.
+compressed
+JAR_DEFLATED
+)
+    
 if
 app_finder
 .
@@ -1593,9 +1609,7 @@ optimizedjars
                                  
 compress
 =
-app_finder
-.
-compressed
+compress
 )
     
 elif
@@ -1626,9 +1640,7 @@ optimizedjars
                                      
 compress
 =
-app_finder
-.
-compressed
+compress
                                      
 non_resources
 =
