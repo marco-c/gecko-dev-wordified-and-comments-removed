@@ -550,12 +550,6 @@ gtkWidget
 10
 32
 )
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
