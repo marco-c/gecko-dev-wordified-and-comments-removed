@@ -2854,6 +2854,7 @@ createWebExtensionOptions
 (
 optionsBox
 addon
+addonItem
 )
 ;
 break
@@ -2880,6 +2881,7 @@ createOptionsInTabButton
 (
 optionsBox
 addon
+addonItem
 )
 ;
 break
@@ -2923,6 +2925,7 @@ function
 (
 destination
 addon
+detailItem
 )
 {
 let
@@ -3064,6 +3067,15 @@ optionsURL
 ;
 }
 ;
+detailItem
+.
+removeAttribute
+(
+"
+optionsURL
+"
+)
+;
 }
 createWebExtensionOptions
 :
@@ -3072,6 +3084,7 @@ function
 (
 destination
 addon
+detailItem
 )
 {
 await
@@ -3306,6 +3319,15 @@ location
 replace
 (
 optionsURL
+)
+;
+detailItem
+.
+removeAttribute
+(
+"
+optionsURL
+"
 )
 ;
 }
