@@ -309,6 +309,11 @@ AddLikelySubtags
 (
 )
 ;
+bool
+AddLikelySubtagsWithoutRegion
+(
+)
+;
 const
 nsCString
 &
@@ -404,6 +409,15 @@ mRegion
 ;
 nsCString
 mVariant
+;
+bool
+AddLikelySubtagsForLocale
+(
+const
+nsACString
+&
+aLocale
+)
 ;
 }
 ;
