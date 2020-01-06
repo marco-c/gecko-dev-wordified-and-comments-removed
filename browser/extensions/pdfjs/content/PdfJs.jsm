@@ -412,6 +412,11 @@ enableHandToolOnLoad
 :
 false
 "
+cursorToolOnLoad
+"
+:
+0
+"
 enableWebGL
 "
 :
