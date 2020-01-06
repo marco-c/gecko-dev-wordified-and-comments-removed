@@ -131,7 +131,7 @@ initial
 =
 utils1
 .
-elementsRestyled
+restyleGeneration
 ;
 let
 utils2
@@ -151,7 +151,7 @@ initial
 =
 utils2
 .
-elementsRestyled
+restyleGeneration
 ;
 Services
 .
@@ -169,7 +169,7 @@ activate
 =
 utils1
 .
-elementsRestyled
+restyleGeneration
 ;
 restyles
 .
@@ -179,7 +179,7 @@ deactivate
 =
 utils2
 .
-elementsRestyled
+restyleGeneration
 ;
 Services
 .
@@ -197,7 +197,7 @@ activate
 =
 utils2
 .
-elementsRestyled
+restyleGeneration
 ;
 restyles
 .
@@ -207,7 +207,7 @@ deactivate
 =
 utils1
 .
-elementsRestyled
+restyleGeneration
 ;
 is
 (
