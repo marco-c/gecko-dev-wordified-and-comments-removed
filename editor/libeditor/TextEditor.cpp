@@ -2125,6 +2125,15 @@ Unused
 newLeftNode
 ;
 }
+Unused
+<
+<
+pointToInsertBrNode
+.
+Offset
+(
+)
+;
 brNode
 =
 CreateNode
