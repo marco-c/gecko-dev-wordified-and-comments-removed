@@ -1326,6 +1326,17 @@ AreComponentAlphaLayersEnabled
 override
 ;
 virtual
+bool
+SupportsBackdropCopyForComponentAlpha
+(
+)
+override
+{
+return
+false
+;
+}
+virtual
 already_AddRefed
 <
 DrawTarget
