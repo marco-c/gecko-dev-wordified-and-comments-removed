@@ -293,6 +293,14 @@ Image
 INIT_FLAG_TRANSIENT
 ;
 }
+imageFlags
+|
+=
+Image
+:
+:
+INIT_FLAG_SYNC_LOAD
+;
 return
 imageFlags
 ;
