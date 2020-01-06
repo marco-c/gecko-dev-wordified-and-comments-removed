@@ -222,6 +222,17 @@ before_unique_id
 )
 SERVO_BINDING_FUNC
 (
+Servo_StyleSet_UpdateStyleSheet
+void
+RawServoStyleSetBorrowed
+set
+RawServoStyleSheetBorrowed
+sheet
+uint64_t
+unique_id
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleSet_FlushStyleSheets
 void
 RawServoStyleSetBorrowed
