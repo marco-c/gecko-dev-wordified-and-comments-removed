@@ -347,6 +347,7 @@ ClipId
 LayoutPoint
 ScrollEventPhase
 ScrollLocation
+ScrollClamping
 }
 ;
 use
@@ -3984,6 +3985,10 @@ from_untyped
 point
 )
 id
+ScrollClamping
+:
+:
+ToContentBounds
 )
 ;
 }
