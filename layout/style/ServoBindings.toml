@@ -1365,9 +1365,6 @@ nsAttrName
 nsAttrValue
 "
 "
-nsBorderColors
-"
-"
 nscolor
 "
 "
@@ -2959,9 +2956,6 @@ StyleTransition
 "
 "
 gfxFontFeatureValueSet
-"
-"
-nsBorderColors
 "
 "
 nsCSSCounterStyleRule
