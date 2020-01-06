@@ -941,6 +941,13 @@ aId
 )
 ;
 void
+KeepCompositorAnimationsIdAlive
+(
+uint64_t
+aId
+)
+;
+void
 DiscardCompositorAnimations
 (
 )
