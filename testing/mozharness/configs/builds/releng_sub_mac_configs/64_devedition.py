@@ -41,4 +41,16 @@ stage_product
 '
 devedition
 '
+    
+'
+enable_talos_sendchange
+'
+:
+True
+    
+'
+enable_unittest_sendchange
+'
+:
+True
 }
