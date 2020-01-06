@@ -107,6 +107,17 @@ concurrent
 .
 ConcurrentLinkedQueue
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+gfx
+.
+GeckoSurface
+;
 final
 class
 Codec
@@ -1672,7 +1683,7 @@ configure
 (
 FormatParam
 format
-Surface
+GeckoSurface
 surface
 int
 flags

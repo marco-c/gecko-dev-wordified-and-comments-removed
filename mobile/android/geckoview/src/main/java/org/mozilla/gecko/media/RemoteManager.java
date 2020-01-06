@@ -100,6 +100,17 @@ util
 .
 List
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+gfx
+.
+GeckoSurface
+;
 public
 final
 class
@@ -580,7 +591,7 @@ boolean
 isEncoder
 MediaFormat
 format
-Surface
+GeckoSurface
 surface
 CodecProxy
 .
