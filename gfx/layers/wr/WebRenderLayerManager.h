@@ -853,6 +853,16 @@ WrUpdated
 (
 )
 ;
+void
+WindowOverlayChanged
+(
+)
+{
+mWindowOverlayChanged
+=
+true
+;
+}
 private
 :
 void
@@ -934,6 +944,9 @@ mDidCompositeObservers
 ;
 WebRenderScrollData
 mScrollData
+;
+bool
+mWindowOverlayChanged
 ;
 bool
 mNeedsComposite

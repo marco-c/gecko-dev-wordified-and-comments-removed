@@ -152,6 +152,10 @@ mLatestTransactionId
 (
 0
 )
+mWindowOverlayChanged
+(
+false
+)
 mNeedsComposite
 (
 false
@@ -663,6 +667,15 @@ aFlags
 {
 if
 (
+mWindowOverlayChanged
+)
+{
+return
+false
+;
+}
+if
+(
 aFlags
 &
 EndTransactionFlags
@@ -1105,6 +1118,10 @@ WrBridge
 builder
 resourceUpdates
 )
+;
+mWindowOverlayChanged
+=
+false
 ;
 WrBridge
 (
