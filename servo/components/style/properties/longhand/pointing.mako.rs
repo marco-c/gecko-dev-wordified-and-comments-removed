@@ -1196,6 +1196,11 @@ fill
 stroke
 all
 "
+flags
+=
+"
+APPLIES_TO_PLACEHOLDER
+"
 spec
 =
 "

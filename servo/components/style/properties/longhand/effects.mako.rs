@@ -65,6 +65,7 @@ flags
 =
 "
 CREATES_STACKING_CONTEXT
+APPLIES_TO_PLACEHOLDER
 "
 spec
 =
@@ -118,6 +119,11 @@ webkit
 ignored_when_colors_disabled
 =
 True
+flags
+=
+"
+APPLIES_TO_FIRST_LETTER
+"
 spec
 =
 "
