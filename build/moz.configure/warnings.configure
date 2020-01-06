@@ -842,9 +842,8 @@ MOZ_PGO
 #
 false
 positives
-depending
-on
-optimizations
+during
+PGO
 check_and_add_gcc_warning
 (
 '
@@ -858,6 +857,11 @@ free
 nonheap
 -
 object
+'
+when
+=
+'
+MOZ_PGO
 '
 )
 #
