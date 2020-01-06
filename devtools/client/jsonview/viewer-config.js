@@ -11,7 +11,16 @@ config
 baseUrl
 :
 "
-.
+resource
+:
+/
+/
+devtools
+/
+client
+/
+jsonview
+/
 "
 paths
 :
