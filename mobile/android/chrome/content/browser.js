@@ -31193,6 +31193,8 @@ firefox
 |
 feedback
 |
+healthreport
+|
 home
 |
 license
