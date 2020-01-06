@@ -10234,17 +10234,6 @@ IsEmpty
 return
 ;
 }
-while
-(
-decoder
-.
-mQueuedSamples
-.
-Length
-(
-)
-)
-{
 RefPtr
 <
 MediaRawData
@@ -10771,9 +10760,6 @@ RemoveElementAt
 0
 )
 ;
-break
-;
-}
 }
 void
 MediaFormatReader
