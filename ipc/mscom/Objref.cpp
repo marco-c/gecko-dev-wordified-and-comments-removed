@@ -1416,14 +1416,6 @@ return
 0
 ;
 }
-MOZ_ASSERT
-(
-clsid
-=
-=
-CLSID_StdMarshal
-)
-;
 if
 (
 clsid
