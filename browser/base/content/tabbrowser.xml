@@ -395,6 +395,11 @@ primary
 "
 true
 "
+blank
+=
+"
+true
+"
 xbl
 :
 inherits
