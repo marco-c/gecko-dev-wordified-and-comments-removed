@@ -33,3 +33,9 @@ VIEW_NODE_LOCATION_TYPE
 =
 5
 ;
+exports
+.
+VIEW_NODE_SHAPE_POINT_TYPE
+=
+6
+;
