@@ -6790,6 +6790,8 @@ CCACHE
 )
 '
 endif
+ifdef
+MOZ_DEBUG_SYMBOLS
 default_rustflags
 +
 =
@@ -6798,6 +6800,7 @@ C
 debuginfo
 =
 2
+endif
 #
 We
 use
