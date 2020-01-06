@@ -5692,10 +5692,8 @@ body
 ;
 for
 (
-nsCOMPtr
-<
 nsIContent
->
+*
 bodyChild
 =
 body
