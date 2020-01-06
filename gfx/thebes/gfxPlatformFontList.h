@@ -516,6 +516,12 @@ eNoSearchForLegacyFamilyNames
 <
 <
 1
+eNoAddToNamesMissedWhenSearching
+=
+1
+<
+<
+2
 }
 ;
 virtual
