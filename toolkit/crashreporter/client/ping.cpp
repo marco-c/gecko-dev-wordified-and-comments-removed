@@ -624,6 +624,9 @@ CrashTime
 EventLoopNestingLevel
 "
 "
+ipc_channel_error
+"
+"
 IsGarbageCollecting
 "
 "

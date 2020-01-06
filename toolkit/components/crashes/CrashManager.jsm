@@ -793,6 +793,9 @@ AsyncShutdownTimeout
 BuildID
 "
 "
+ipc_channel_error
+"
+"
 ProductID
 "
 "
