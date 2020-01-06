@@ -93,17 +93,6 @@ SVGUseElement
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-SVGMaskElement
-.
-h
-"
 using
 namespace
 mozilla
