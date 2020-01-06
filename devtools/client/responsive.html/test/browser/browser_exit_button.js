@@ -118,6 +118,11 @@ tab
 yield
 waitTabIsDetached
 ;
+yield
+newWindow
+.
+delayedStartupPromise
+;
 tab
 =
 newWindow
