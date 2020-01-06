@@ -17053,6 +17053,9 @@ nsContentUtils
 :
 GetStaticRequest
 (
+nsIDocument
+*
+aLoadingDocument
 imgRequestProxy
 *
 aRequest
@@ -17075,6 +17078,7 @@ aRequest
 >
 GetStaticRequest
 (
+aLoadingDocument
 getter_AddRefs
 (
 retval

@@ -84,6 +84,9 @@ namespace
 dom
 {
 class
+TabChild
+;
+class
 DocGroup
 ;
 class
