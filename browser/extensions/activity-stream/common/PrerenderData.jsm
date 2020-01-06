@@ -364,6 +364,12 @@ Pocket
 "
 }
 }
+topics
+:
+[
+{
+}
+]
 }
 {
 enabled
