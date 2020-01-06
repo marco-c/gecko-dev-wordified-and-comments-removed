@@ -57,6 +57,8 @@ docker_worker_add_tc_vcs_cache
     
 docker_worker_add_gecko_vcs_env_vars
     
+docker_worker_add_workspace_cache
+    
 support_vcs_checkout
 )
 from
@@ -516,6 +518,13 @@ directory
 '
     
 }
+)
+    
+docker_worker_add_workspace_cache
+(
+config
+job
+taskdesc
 )
     
 docker_worker_add_tc_vcs_cache
