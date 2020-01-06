@@ -289,6 +289,10 @@ appearance
 :
 none
 ;
+appearance
+:
+none
+;
 border
 :
 none
@@ -1638,6 +1642,10 @@ button
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none

@@ -3776,7 +3776,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 ;
 if

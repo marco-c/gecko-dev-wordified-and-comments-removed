@@ -3472,7 +3472,9 @@ ThemeNeedsComboboxDropmarker
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 !
 =
 NS_THEME_NONE
@@ -3737,7 +3739,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 =
 =
 NS_THEME_NONE
@@ -6749,7 +6753,9 @@ ThemeDrawsFocusForWidget
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 )
 &

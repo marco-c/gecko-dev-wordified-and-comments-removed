@@ -16,6 +16,10 @@ NS_THEME_CHECKBOX
 3
 #
 define
+NS_THEME_AUTO
+4
+#
+define
 NS_THEME_BUTTON_BEVEL
 7
 #

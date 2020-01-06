@@ -1103,7 +1103,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 ;
 if
 (
@@ -2231,7 +2233,9 @@ if
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 &
 &
 nsBox
@@ -2253,7 +2257,9 @@ this
 disp
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 )
 return

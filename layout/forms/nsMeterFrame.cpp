@@ -1363,7 +1363,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 =
 =
 NS_THEME_METERBAR
@@ -1395,7 +1397,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 =
 =
 NS_THEME_METERCHUNK

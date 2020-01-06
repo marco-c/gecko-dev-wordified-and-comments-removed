@@ -216,6 +216,10 @@ appearance
 :
 none
 ;
+appearance
+:
+none
+;
 margin
 :
 0
@@ -263,6 +267,10 @@ style
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none
@@ -399,6 +407,10 @@ appearance
 :
 none
 ;
+appearance
+:
+none
+;
 margin
 :
 0
@@ -446,6 +458,10 @@ style
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none

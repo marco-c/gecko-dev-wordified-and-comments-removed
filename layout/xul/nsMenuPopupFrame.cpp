@@ -1749,7 +1749,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 )
 {
 case

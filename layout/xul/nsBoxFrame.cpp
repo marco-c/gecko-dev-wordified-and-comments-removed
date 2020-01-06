@@ -5718,7 +5718,9 @@ styles
 styles
 -
 >
-mAppearance
+UsedAppearance
+(
+)
 =
 =
 NS_THEME_WIN_EXCLUDE_GLASS

@@ -72,6 +72,10 @@ moz
 appearance
 :
 none
+;
+appearance
+:
+none
 '
 >
 this
@@ -97,6 +101,10 @@ style
 -
 moz
 -
+appearance
+:
+none
+;
 appearance
 :
 none
