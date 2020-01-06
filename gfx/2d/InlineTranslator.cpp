@@ -132,6 +132,9 @@ read
 char
 *
 s
+std
+:
+:
 streamsize
 n
 )
