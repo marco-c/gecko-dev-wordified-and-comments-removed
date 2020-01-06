@@ -11187,6 +11187,10 @@ nsString
 &
 aActionHint
 const
+bool
+&
+aInPrivateBrowsing
+const
 int32_t
 &
 aCause
@@ -11268,6 +11272,12 @@ InputContext
 :
 :
 ORIGIN_CONTENT
+;
+context
+.
+mInPrivateBrowsing
+=
+aInPrivateBrowsing
 ;
 InputContextAction
 action

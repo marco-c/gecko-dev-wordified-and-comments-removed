@@ -3185,6 +3185,9 @@ mHTMLInputInputmode
 aContext
 .
 mActionHint
+aContext
+.
+mInPrivateBrowsing
 static_cast
 <
 int32_t

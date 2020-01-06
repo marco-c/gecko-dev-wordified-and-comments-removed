@@ -1160,6 +1160,10 @@ nsString
 &
 aActionHint
 const
+bool
+&
+aInPrivateBrowsing
+const
 int32_t
 &
 aCause

@@ -560,6 +560,10 @@ mMayBeIMEUnaware
 (
 false
 )
+mInPrivateBrowsing
+(
+false
+)
 {
 }
 bool
@@ -603,6 +607,9 @@ mOrigin
 ;
 bool
 mMayBeIMEUnaware
+;
+bool
+mInPrivateBrowsing
 ;
 bool
 IsOriginMainProcess

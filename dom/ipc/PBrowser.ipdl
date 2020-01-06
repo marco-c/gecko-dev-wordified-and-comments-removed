@@ -2499,6 +2499,8 @@ nsString
 inputmode
 nsString
 actionHint
+bool
+inPrivateBrowsing
 int32_t
 cause
 int32_t

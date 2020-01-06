@@ -558,6 +558,9 @@ const
 IMEState
 &
 aState
+nsPresContext
+*
+aPresContext
 nsIContent
 *
 aContent
