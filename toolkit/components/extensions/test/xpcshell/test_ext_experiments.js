@@ -886,7 +886,7 @@ apiAddonFile
 ;
 let
 {
-APIs
+ExtensionAPIs
 }
 =
 Cu
@@ -902,7 +902,7 @@ gre
 /
 modules
 /
-ExtensionManagement
+ExtensionAPI
 .
 jsm
 "
@@ -912,7 +912,7 @@ jsm
 ;
 ok
 (
-APIs
+ExtensionAPIs
 .
 apis
 .
