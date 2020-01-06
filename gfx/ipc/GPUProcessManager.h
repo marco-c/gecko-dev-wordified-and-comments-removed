@@ -543,6 +543,11 @@ SimulateDeviceReset
 )
 ;
 void
+DisableWebRender
+(
+)
+;
+void
 OnInProcessDeviceReset
 (
 )

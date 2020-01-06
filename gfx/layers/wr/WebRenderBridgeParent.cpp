@@ -4209,16 +4209,6 @@ FindCompositable
 aHandle
 )
 ;
-MOZ_ASSERT
-(
-host
--
->
-AsWebRenderImageHost
-(
-)
-)
-;
 WebRenderImageHost
 *
 wrHost
@@ -6954,6 +6944,7 @@ AddCompositable
 (
 aHandle
 aInfo
+true
 )
 )
 {

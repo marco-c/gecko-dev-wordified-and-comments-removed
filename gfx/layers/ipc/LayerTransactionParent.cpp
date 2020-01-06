@@ -5689,6 +5689,7 @@ AddCompositable
 (
 aHandle
 aInfo
+false
 )
 )
 {

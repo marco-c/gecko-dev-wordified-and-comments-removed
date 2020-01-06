@@ -135,6 +135,8 @@ const
 TextureInfo
 &
 aInfo
+bool
+aUseWebRender
 )
 ;
 RefPtr

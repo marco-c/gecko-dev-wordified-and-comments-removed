@@ -381,6 +381,8 @@ const
 TextureInfo
 &
 aTextureInfo
+bool
+aUseWebRender
 )
 ;
 virtual
