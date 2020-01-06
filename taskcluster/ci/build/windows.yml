@@ -2647,6 +2647,12 @@ releng
 .
 manifest
 "
+PERFHERDER_EXTRA_OPTIONS
+:
+"
+debug
+asan
+"
 run
 :
 using
@@ -2790,6 +2796,12 @@ win64
 releng
 .
 manifest
+"
+PERFHERDER_EXTRA_OPTIONS
+:
+"
+opt
+asan
 "
 run
 :
