@@ -444,6 +444,24 @@ bit
 '
     
 '
+windows10
+-
+64
+-
+ccov
+'
+:
+'
+Windows
+10
+64
+-
+bit
+Code
+Coverage
+'
+    
+'
 windows7
 -
 32
