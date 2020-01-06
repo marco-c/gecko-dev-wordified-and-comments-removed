@@ -24581,7 +24581,7 @@ version
 .
 8
 .
-384
+398
 '
 ;
 exports
@@ -24591,7 +24591,7 @@ build
 build
 =
 '
-8d55e6a0
+96377832
 '
 ;
 }
@@ -32382,7 +32382,7 @@ version
 .
 8
 .
-384
+398
 '
 ;
 PDFJS
@@ -32390,7 +32390,7 @@ PDFJS
 build
 =
 '
-8d55e6a0
+96377832
 '
 ;
 }
@@ -50686,14 +50686,14 @@ pdfjsVersion
 .
 8
 .
-384
+398
 '
 ;
 var
 pdfjsBuild
 =
 '
-8d55e6a0
+96377832
 '
 ;
 var
@@ -50975,6 +50975,14 @@ addLinkAttributes
 pdfjsDisplayDOMUtils
 .
 addLinkAttributes
+;
+exports
+.
+StatTimer
+=
+pdfjsSharedUtil
+.
+StatTimer
 ;
 }
 )
