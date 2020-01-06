@@ -13673,6 +13673,9 @@ mThumbData
 bool
 mForceActive
 ;
+uint64_t
+mWrAnimationId
+;
 }
 ;
 class

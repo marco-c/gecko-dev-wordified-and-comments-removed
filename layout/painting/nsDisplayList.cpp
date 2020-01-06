@@ -32403,6 +32403,10 @@ mForceActive
 (
 aForceActive
 )
+mWrAnimationId
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -32767,8 +32771,7 @@ EnsureAnimationsId
 (
 )
 ;
-uint64_t
-animationsId
+mWrAnimationId
 =
 animationInfo
 .
@@ -32786,7 +32789,7 @@ this
 &
 mList
 nullptr
-animationsId
+mWrAnimationId
 nullptr
 nullptr
 )
@@ -32860,6 +32863,14 @@ aLayerData
 SetScrollThumbData
 (
 mThumbData
+)
+;
+aLayerData
+-
+>
+SetScrollbarAnimationId
+(
+mWrAnimationId
 )
 ;
 aLayerData
