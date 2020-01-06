@@ -123,12 +123,15 @@ aRoot
 )
 ;
 virtual
-nsIntRegion
+bool
 ComputeDifferences
 (
 Layer
 *
 aRoot
+nsIntRegion
+&
+aOutRegion
 NotifySubDocInvalidationFunc
 aCallback
 )
