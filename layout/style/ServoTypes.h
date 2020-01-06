@@ -115,6 +115,7 @@ class
 TraversalRestyleBehavior
 {
 Normal
+ForNewlyBoundElement
 ForReconstruct
 ForAnimationOnly
 ForCSSRuleChanges

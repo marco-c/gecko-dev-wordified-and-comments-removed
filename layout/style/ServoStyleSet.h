@@ -812,6 +812,17 @@ aParent
 )
 ;
 void
+StyleNewlyBoundElement
+(
+dom
+:
+:
+Element
+*
+aElement
+)
+;
+void
 StyleSubtreeForReconstruct
 (
 dom
