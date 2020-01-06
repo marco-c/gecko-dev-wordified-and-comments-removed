@@ -2975,7 +2975,7 @@ updateMenuItemForward
 }
 Override
 public
-void
+boolean
 onLoadUri
 (
 final
@@ -3067,6 +3067,9 @@ intent
 )
 ;
 }
+return
+true
+;
 }
 Override
 public
