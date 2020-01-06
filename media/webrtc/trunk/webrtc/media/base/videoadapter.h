@@ -75,6 +75,7 @@ VideoAdapter
 (
 )
 ;
+virtual
 bool
 AdaptFrameResolution
 (
@@ -107,6 +108,7 @@ VideoFormat
 format
 )
 ;
+virtual
 void
 OnResolutionRequest
 (
@@ -128,6 +130,7 @@ int
 max_pixel_count_step_up
 )
 ;
+virtual
 void
 OnScaleResolutionBy
 (
