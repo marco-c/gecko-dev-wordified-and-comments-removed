@@ -501,12 +501,6 @@ EqualsLiteral
 length
 "
 )
-&
-&
-aOptions
-=
-=
-DoNotCreateProperties
 )
 {
 aKeyJSVal
