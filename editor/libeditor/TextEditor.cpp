@@ -3923,7 +3923,7 @@ selection
 MOZ_ASSERT
 (
 !
-mPlaceHolderBatch
+mPlaceholderBatch
 "
 UpdateIMEComposition
 (
