@@ -273,10 +273,6 @@ gecko
 "
 )
 ]
-#
-[
-macro_use
-]
 pub
 extern
 crate
