@@ -1004,6 +1004,9 @@ with
 open
 (
 ahem_src
+"
+rb
+"
 )
 as
 src
@@ -1011,7 +1014,7 @@ open
 (
 ahem_dest
 "
-w
+wb
 "
 )
 as
