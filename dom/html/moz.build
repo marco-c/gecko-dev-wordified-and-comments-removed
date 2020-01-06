@@ -525,6 +525,11 @@ HTMLSharedListElement
 h
 '
 '
+HTMLSlotElement
+.
+h
+'
+'
 HTMLSourceElement
 .
 h
@@ -906,6 +911,11 @@ cpp
 '
 '
 HTMLSharedListElement
+.
+cpp
+'
+'
+HTMLSlotElement
 .
 cpp
 '

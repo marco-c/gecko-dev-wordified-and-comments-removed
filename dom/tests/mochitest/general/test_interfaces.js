@@ -1007,6 +1007,16 @@ HTMLScriptElement
 "
 HTMLSelectElement
 "
+{
+name
+:
+"
+HTMLSlotElement
+"
+stylo
+:
+false
+}
 "
 HTMLSourceElement
 "

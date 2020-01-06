@@ -3922,6 +3922,11 @@ HTMLSelectElement
 webidl
 '
 '
+HTMLSlotElement
+.
+webidl
+'
+'
 HTMLSourceElement
 .
 webidl
