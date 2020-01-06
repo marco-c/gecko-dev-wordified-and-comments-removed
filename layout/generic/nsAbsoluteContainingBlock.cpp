@@ -2939,12 +2939,10 @@ LogicalMargin
 border
 (
 outerWM
-aReflowInput
-.
-mStyleBorder
+aDelegatingFrame
 -
 >
-GetComputedBorder
+GetUsedBorder
 (
 )
 )
