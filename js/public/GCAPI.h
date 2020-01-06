@@ -1237,15 +1237,15 @@ AutoAssertNoGC
 public
 AutoRequireNoGC
 {
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 JSContext
 *
 cx_
 ;
 public
 :
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 explicit
 AutoAssertNoGC
 (
@@ -1263,6 +1263,8 @@ AutoAssertNoGC
 ;
 #
 else
+public
+:
 explicit
 AutoAssertNoGC
 (
