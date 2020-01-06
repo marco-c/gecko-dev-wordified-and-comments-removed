@@ -6602,7 +6602,7 @@ registrarId
 const
 URIParams
 &
-newUri
+newOriginalURI
 const
 uint32_t
 &
@@ -6621,6 +6621,9 @@ uint64_t
 channelId
 )
 {
+nsresult
+rv
+;
 LOG
 (
 (
@@ -6650,7 +6653,7 @@ uri
 =
 DeserializeURI
 (
-newUri
+newOriginalURI
 )
 ;
 if
@@ -6679,7 +6682,6 @@ nsIChannel
 >
 newChannel
 ;
-nsresult
 rv
 =
 SetupRedirect

@@ -8484,6 +8484,9 @@ nsIAsyncVerifyRedirectCallback
 callback
 )
 {
+nsresult
+rv
+;
 LOG
 (
 (
@@ -8535,16 +8538,16 @@ nsCOMPtr
 <
 nsIURI
 >
-newURI
+newOriginalURI
 ;
 newChannel
 -
 >
-GetURI
+GetOriginalURI
 (
 getter_AddRefs
 (
-newURI
+newOriginalURI
 )
 )
 ;
@@ -8553,7 +8556,7 @@ uriParams
 ;
 SerializeURI
 (
-newURI
+newOriginalURI
 uriParams
 )
 ;
@@ -8584,7 +8587,6 @@ if
 httpChannel
 )
 {
-nsresult
 rv
 =
 httpChannel

@@ -820,7 +820,7 @@ Redirect1Begin
 uint32_t
 registrarId
 URIParams
-newUri
+newOriginalUri
 uint32_t
 redirectFlags
 nsHttpResponseHead
