@@ -887,9 +887,9 @@ void
 LIRGeneratorARM64
 :
 :
-visitAsmJSNeg
+visitWasmNeg
 (
-MAsmJSNeg
+MWasmNeg
 *
 ins
 )
@@ -897,7 +897,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmJSNeg
+visitWasmNeg
 "
 )
 ;

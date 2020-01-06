@@ -56705,7 +56705,7 @@ checkValue
 }
 ;
 class
-MAsmJSNeg
+MWasmNeg
 :
 public
 MUnaryInstruction
@@ -56715,7 +56715,7 @@ NoTypePolicy
 :
 Data
 {
-MAsmJSNeg
+MWasmNeg
 (
 MDefinition
 *
@@ -56743,7 +56743,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSNeg
+WasmNeg
 )
 TRIVIAL_NEW_WRAPPERS
 }

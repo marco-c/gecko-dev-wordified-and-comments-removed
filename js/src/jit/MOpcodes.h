@@ -1434,11 +1434,6 @@ DebugCheckSelfHosted
 \
 _
 (
-AsmJSNeg
-)
-\
-_
-(
 AsmJSLoadHeap
 )
 \
@@ -1460,6 +1455,11 @@ AsmJSAtomicExchangeHeap
 _
 (
 AsmJSAtomicBinopHeap
+)
+\
+_
+(
+WasmNeg
 )
 \
 _

@@ -606,9 +606,9 @@ MOZ_CRASH
 ;
 }
 void
-visitAsmJSNeg
+visitWasmNeg
 (
-MAsmJSNeg
+MWasmNeg
 *
 )
 {
