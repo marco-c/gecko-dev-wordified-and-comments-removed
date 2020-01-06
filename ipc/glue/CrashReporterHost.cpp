@@ -51,9 +51,6 @@ Telemetry
 h
 "
 #
-ifdef
-MOZ_CRASHREPORTER
-#
 include
 "
 nsExceptionHandler
@@ -74,8 +71,6 @@ nsICrashService
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -124,9 +119,6 @@ false
 )
 {
 }
-#
-ifdef
-MOZ_CRASHREPORTER
 bool
 CrashReporterHost
 :
@@ -1294,7 +1286,5 @@ aValue
 )
 ;
 }
-#
-endif
 }
 }

@@ -19,9 +19,6 @@ nsISupportsImpl
 .
 h
 "
-#
-ifdef
-MOZ_CRASHREPORTER
 namespace
 mozilla
 {
@@ -217,5 +214,3 @@ sClientSingleton
 }
 }
 }
-#
-endif
