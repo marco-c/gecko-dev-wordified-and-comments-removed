@@ -1172,6 +1172,14 @@ aState
 )
 const
 ;
+bool
+HasDocumentStateDependency
+(
+EventStates
+aState
+)
+const
+;
 already_AddRefed
 <
 ServoStyleContext
