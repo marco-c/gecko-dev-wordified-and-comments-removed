@@ -3237,6 +3237,17 @@ E
 ElementSelectorFlags
 )
 {
+if
+element
+.
+ignores_nth_child_selectors
+(
+)
+{
+return
+false
+;
+}
 flags_setter
 (
 element
