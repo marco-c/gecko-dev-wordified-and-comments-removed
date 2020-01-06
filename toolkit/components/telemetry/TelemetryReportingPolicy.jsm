@@ -1458,7 +1458,7 @@ TelemetryUtils
 .
 Preferences
 .
-FirsRunURL
+FirstRunURL
 "
 "
 )
