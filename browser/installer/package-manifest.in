@@ -2840,14 +2840,14 @@ RESPATH
 /
 components
 /
-ContentPrefService2
+nsContentPrefService
 .
 manifest
 RESPATH
 /
 components
 /
-ContentPrefService2
+nsContentPrefService
 .
 js
 RESPATH

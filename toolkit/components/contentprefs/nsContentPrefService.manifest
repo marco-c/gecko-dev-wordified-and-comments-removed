@@ -10,7 +10,7 @@ b074
 -
 36cf0fd5d414
 }
-ContentPrefService2
+nsContentPrefService
 .
 js
 contract
@@ -48,7 +48,7 @@ dcaa
 -
 2429a4dc97bb
 }
-ContentPrefService2
+nsContentPrefService
 .
 js
 contract
