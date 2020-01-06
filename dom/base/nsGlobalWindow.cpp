@@ -4360,7 +4360,7 @@ Call
 override
 {
 return
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -7021,11 +7021,11 @@ found
 =
 true
 ;
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 global
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -8473,11 +8473,11 @@ maxURLLength
 ;
 }
 }
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 outer
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -10945,7 +10945,7 @@ tmp
 mOuterWindow
 )
 {
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -12610,7 +12610,7 @@ somehow
 ;
 if
 (
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -12643,11 +12643,11 @@ return
 false
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 parentWin
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -12675,7 +12675,7 @@ MOZ_ASSERT
 parentWin
 =
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -13014,11 +13014,11 @@ GetWindows
 )
 )
 {
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -15714,6 +15714,9 @@ mTabGroup
 mTabGroup
 =
 =
+nsGlobalWindowOuter
+:
+:
 Cast
 (
 parentWindow
@@ -16252,6 +16255,9 @@ mTabGroup
 mTabGroup
 =
 =
+nsGlobalWindowOuter
+:
+:
 Cast
 (
 contentOpener
@@ -18948,7 +18954,7 @@ IsSecureContext
 const
 {
 return
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -18972,7 +18978,7 @@ IsSecureContextIfOpenerIgnored
 const
 {
 return
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -18994,7 +19000,7 @@ Suspend
 (
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -19016,7 +19022,7 @@ Resume
 (
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -19038,7 +19044,7 @@ Freeze
 (
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -19060,7 +19066,7 @@ Thaw
 (
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -19082,7 +19088,7 @@ SyncStateFromParentWindow
 (
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -19436,7 +19442,7 @@ nsGlobalWindow
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -20599,6 +20605,9 @@ GetScriptableParent
 ;
 return
 (
+nsGlobalWindowOuter
+:
+:
 Cast
 (
 parent
@@ -23052,7 +23061,7 @@ nsGlobalWindow
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -23230,7 +23239,7 @@ GetSystemPrincipal
 )
 &
 &
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -26468,7 +26477,7 @@ aCallerType
 )
 {
 return
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -27496,11 +27505,11 @@ mDoc
 endif
 if
 (
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 rootWindow
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -29791,7 +29800,7 @@ widget
 =
 win
 ?
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -31070,7 +31079,7 @@ mFullScreen
 )
 ;
 return
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -36938,7 +36947,7 @@ false
 ;
 }
 return
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -46932,7 +46941,7 @@ auto
 *
 parent
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -53384,13 +53393,13 @@ GetWindow
 :
 nullptr
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 parentInner
 =
 parentOuter
 ?
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -53655,7 +53664,7 @@ auto
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -53663,7 +53672,7 @@ Cast
 pWin
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 inner
 =
@@ -53892,7 +53901,7 @@ auto
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -56302,11 +56311,11 @@ GetCurrentInnerWindow
 AutoJSContext
 cx
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 sourceWin
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -56517,7 +56526,7 @@ nsGlobalWindow
 *
 parent
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -61297,7 +61306,7 @@ IsTopLevelWindow
 )
 {
 return
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -61321,7 +61330,7 @@ HadOriginalOpener
 const
 {
 return
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -62933,6 +62942,9 @@ MOZ_ASSERT_IF
 opener
 &
 &
+nsGlobalWindowOuter
+:
+:
 Cast
 (
 opener
