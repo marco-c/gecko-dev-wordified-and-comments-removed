@@ -24,6 +24,22 @@ generic
 '
 ]
 )
+all_unsupported_architectures_names
+=
+set
+(
+[
+'
+mips32
+'
+'
+mips64
+'
+'
+mips_shared
+'
+]
+)
 all_architecture_names
 =
 set
@@ -41,12 +57,6 @@ arm
 '
 arm64
 '
-'
-mips32
-'
-'
-mips64
-'
 ]
 )
 all_shared_architecture_names
@@ -56,9 +66,6 @@ set
 [
 '
 x86_shared
-'
-'
-mips_shared
 '
 '
 arm
@@ -560,6 +567,12 @@ all_architecture_names
 union
 (
 all_shared_architecture_names
+)
+                          
+.
+union
+(
+all_unsupported_architectures_names
 )
 ]
 )
@@ -1229,6 +1242,11 @@ s
 )
 )
         
+archs
+-
+=
+all_unsupported_architectures_names
+        
 if
 len
 (
@@ -1385,7 +1403,10 @@ DEFINED_ON
 .
 join
 (
+sorted
+(
 archs
+)
 )
 +
 '
@@ -1399,7 +1420,10 @@ n
 for
 a
 in
+sorted
+(
 archs
+)
 :
                 
 a
