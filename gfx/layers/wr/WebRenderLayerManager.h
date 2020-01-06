@@ -858,6 +858,11 @@ return
 mScrollData
 ;
 }
+void
+WrUpdated
+(
+)
+;
 private
 :
 void

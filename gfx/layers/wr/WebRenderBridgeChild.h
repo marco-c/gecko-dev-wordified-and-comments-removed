@@ -64,6 +64,9 @@ StackingContextHelper
 class
 TextureForwarder
 ;
+class
+WebRenderLayerManager
+;
 template
 <
 class
@@ -672,6 +675,14 @@ EndClearCachedResources
 (
 )
 ;
+void
+SetWebRenderLayerManager
+(
+WebRenderLayerManager
+*
+aManager
+)
+;
 ipc
 :
 :
@@ -967,6 +978,10 @@ wr
 :
 PipelineId
 mPipelineId
+;
+WebRenderLayerManager
+*
+mManager
 ;
 bool
 mIPCOpen
