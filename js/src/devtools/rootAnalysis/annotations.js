@@ -900,6 +900,17 @@ Release
 :
 true
 "
+uint32
+nsIAtom
+:
+:
+Release
+(
+)
+"
+:
+true
+"
 malloc
 "
 :
