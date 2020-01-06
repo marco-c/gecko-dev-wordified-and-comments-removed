@@ -4674,13 +4674,7 @@ Context
 is_root_element
 :
 false
-device
-:
-device
-inherited_style
-:
-default_values
-style
+builder
 :
 StyleBuilder
 :
@@ -4689,6 +4683,7 @@ for_derived_style
 (
 device
 default_values
+None
 None
 )
 font_metrics_provider

@@ -1848,10 +1848,6 @@ _declaration
 :
 &
 PropertyDeclaration
-_inherited_style
-:
-&
-ComputedValues
 context
 :
 &
@@ -1860,11 +1856,6 @@ computed
 :
 :
 Context
-_cacheable
-:
-&
-mut
-bool
 )
 {
 longhands

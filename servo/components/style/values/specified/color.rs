@@ -1670,6 +1670,8 @@ pres_context
 _context
 .
 device
+(
+)
 .
 pres_context
 (
@@ -1776,6 +1778,8 @@ pres_context
 _context
 .
 device
+(
+)
 .
 pres_context
 (
@@ -2051,6 +2055,8 @@ to_rgba
 context
 .
 style
+(
+)
 .
 get_color
 (

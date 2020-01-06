@@ -606,6 +606,8 @@ in_media_query
 context
 .
 device
+(
+)
 )
 }
 let
@@ -793,6 +795,8 @@ else
 context
 .
 device
+(
+)
 .
 root_font_size
 (
@@ -2061,6 +2065,8 @@ Gecko_GetAppUnitsPerPhysicalInch
 context
 .
 device
+(
+)
 .
 pres_context
 (

@@ -2187,13 +2187,7 @@ none
 {
 context
 .
-mutate_style
-(
-)
-.
-mutate_inheritedbox
-(
-)
+builder
 .
 set__servo_under_display_none
 (

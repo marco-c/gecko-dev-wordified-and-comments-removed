@@ -1375,10 +1375,6 @@ _declaration
 :
 &
 PropertyDeclaration
-_inherited_style
-:
-&
-ComputedValues
 context
 :
 &
@@ -1387,11 +1383,6 @@ computed
 :
 :
 Context
-_cacheable
-:
-&
-mut
-bool
 )
 {
 longhands
@@ -2375,13 +2366,7 @@ clone_display
 ;
 context
 .
-mutate_style
-(
-)
-.
-mutate_box
-(
-)
+builder
 .
 set__servo_display_for_hypothetical_box
 (

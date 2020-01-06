@@ -872,11 +872,6 @@ self
 image
 :
 Image
-cacheable
-:
-&
-mut
-bool
 )
 {
 match
@@ -932,11 +927,6 @@ get
 )
 )
 ;
-*
-cacheable
-=
-false
-;
 }
 }
 GenericImage
@@ -978,11 +968,6 @@ Gecko_InitializeImageCropRect
 (
 self
 )
-;
-*
-cacheable
-=
-false
 ;
 let
 ref

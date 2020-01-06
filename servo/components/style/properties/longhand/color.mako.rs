@@ -153,6 +153,8 @@ to_rgba
 context
 .
 inherited_style
+(
+)
 .
 get_color
 (
@@ -845,6 +847,8 @@ i32
 cx
 .
 device
+(
+)
 .
 pres_context
 (
