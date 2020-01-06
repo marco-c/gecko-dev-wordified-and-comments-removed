@@ -4059,10 +4059,7 @@ if
 fileName
 )
 return
-validateFileName
-(
 fileName
-)
 ;
 }
 let
@@ -4317,12 +4314,9 @@ aURI
 host
 )
 return
-validateFileName
-(
 aURI
 .
 host
-)
 ;
 }
 catch

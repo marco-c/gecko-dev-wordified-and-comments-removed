@@ -971,7 +971,7 @@ function
 (
 aLauncher
 aContext
-aDefaultFileName
+aDefaultFile
 aSuggestedFileExtension
 aForcePrompt
 )
@@ -1240,7 +1240,7 @@ this
 validateLeafName
 (
 defaultFolder
-aDefaultFileName
+aDefaultFile
 aSuggestedFileExtension
 )
 ;
@@ -1346,12 +1346,7 @@ picker
 .
 defaultString
 =
-this
-.
-getFinalLeafName
-(
-aDefaultFileName
-)
+aDefaultFile
 ;
 if
 (
