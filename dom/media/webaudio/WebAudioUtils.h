@@ -613,6 +613,9 @@ const
 char
 *
 aKey
+AbstractThread
+*
+aMainThread
 )
 ;
 }
