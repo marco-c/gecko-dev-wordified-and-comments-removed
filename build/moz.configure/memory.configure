@@ -171,16 +171,6 @@ value
 or
 None
 if
-build_project
-=
-=
-'
-js
-'
-:
-return
-True
-if
 target
 .
 kernel
