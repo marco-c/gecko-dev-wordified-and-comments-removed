@@ -362,6 +362,15 @@ mContainerType
 ;
 }
 virtual
+MediaDecoderStateMachine
+*
+CreateStateMachine
+(
+)
+=
+0
+;
+virtual
 void
 Shutdown
 (
@@ -548,6 +557,8 @@ OwnerHasError
 )
 const
 ;
+public
+:
 bool
 IsMediaSeekable
 (
@@ -1064,7 +1075,8 @@ nsACString
 &
 aString
 )
-;
+{
+}
 virtual
 void
 DumpDebugInfo
