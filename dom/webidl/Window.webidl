@@ -415,9 +415,6 @@ nsIMessageBroadcaster
 interface
 nsIDOMCrypto
 ;
-interface
-XULControllers
-;
 /
 /
 http
@@ -2393,7 +2390,7 @@ Throws
 ]
 readonly
 attribute
-XULControllers
+MozControllers
 controllers
 ;
 [

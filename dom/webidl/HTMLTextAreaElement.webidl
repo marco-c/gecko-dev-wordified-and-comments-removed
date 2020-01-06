@@ -196,7 +196,7 @@ interface
 nsIEditor
 ;
 interface
-XULControllers
+MozControllers
 ;
 [
 HTMLConstructor
@@ -510,7 +510,7 @@ ChromeOnly
 ]
 readonly
 attribute
-XULControllers
+MozControllers
 controllers
 ;
 }

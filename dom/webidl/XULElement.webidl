@@ -92,7 +92,7 @@ MPL
 *
 /
 interface
-XULControllers
+MozControllers
 ;
 interface
 MozFrameLoader
@@ -397,11 +397,10 @@ resource
 ;
 [
 Throws
-ChromeOnly
 ]
 readonly
 attribute
-XULControllers
+MozControllers
 controllers
 ;
 [

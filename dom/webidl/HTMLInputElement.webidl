@@ -211,7 +211,7 @@ preserve
 }
 ;
 interface
-XULControllers
+nsIControllers
 ;
 [
 HTMLConstructor
@@ -746,7 +746,7 @@ ChromeOnly
 ]
 readonly
 attribute
-XULControllers
+nsIControllers
 controllers
 ;
 /
