@@ -2185,7 +2185,7 @@ const
 int
 MIN_SUCCESSIVE_FRAMES
 =
-4
+3
 ;
 MediaByteRange
 candidateFrame
