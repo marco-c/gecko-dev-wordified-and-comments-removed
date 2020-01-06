@@ -1405,8 +1405,7 @@ AssignLiteral
 "
 \
 "
-Droid
-Sans
+Roboto
 \
 "
 "
