@@ -2226,6 +2226,8 @@ aOutputTrackFinished
 =
 true
 ;
+break
+;
 }
 if
 (
