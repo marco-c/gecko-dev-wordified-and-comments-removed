@@ -832,6 +832,15 @@ _scrollable
 )
 return
 ;
+if
+(
+!
+content
+.
+performance
+)
+return
+;
 let
 domUtils
 =
