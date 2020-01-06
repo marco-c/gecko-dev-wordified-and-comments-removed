@@ -312,6 +312,15 @@ activity_stream_base_margin
 "
 android
 :
+layout_marginLeft
+=
+"
+dimen
+/
+activity_stream_base_margin
+"
+android
+:
 layout_marginTop
 =
 "
