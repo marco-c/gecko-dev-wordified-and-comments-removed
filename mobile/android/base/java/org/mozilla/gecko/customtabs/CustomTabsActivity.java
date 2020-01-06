@@ -1389,6 +1389,14 @@ finish
 (
 )
 {
+if
+(
+mGeckoView
+!
+=
+null
+)
+{
 mGeckoView
 .
 loadUri
@@ -1400,6 +1408,7 @@ blank
 "
 )
 ;
+}
 super
 .
 finish
