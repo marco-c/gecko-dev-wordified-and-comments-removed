@@ -261,8 +261,9 @@ font
 :
 :
 {
-XTextZoom
+FontWeight
 MozScriptMinSize
+XTextZoom
 }
 ;
 pub
