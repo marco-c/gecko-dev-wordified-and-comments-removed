@@ -4426,7 +4426,7 @@ const
 uint32_t
 prioritySize
 =
-5
+kPriorityGroupCount
 *
 (
 kFrameHeaderBytes

@@ -534,6 +534,13 @@ kUrgentStartGroupID
 0xD
 }
 ;
+const
+static
+uint8_t
+kPriorityGroupCount
+=
+6
+;
 static
 nsresult
 RecvHeaders
