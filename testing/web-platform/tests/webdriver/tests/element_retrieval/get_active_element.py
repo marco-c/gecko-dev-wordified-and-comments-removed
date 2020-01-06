@@ -1,5 +1,3 @@
-import
-pytest
 from
 tests
 .
@@ -8,7 +6,6 @@ support
 asserts
 import
 assert_error
-assert_success
 assert_dialog_handled
 assert_same_element
 from
