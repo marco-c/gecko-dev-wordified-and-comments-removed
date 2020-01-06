@@ -98,10 +98,6 @@ responsiveness
 =
 False
         
-e10s
-=
-False
-        
 gecko_profile
 =
 False
@@ -164,10 +160,6 @@ testeventmap
 ]
         
 base_vs_ref
-=
-False
-        
-tpdisable_e10s
 =
 False
         
@@ -2497,15 +2489,6 @@ config
 )
 :
     
-if
-config
-[
-'
-e10s
-'
-]
-:
-        
 config
 [
 '
@@ -2525,29 +2508,6 @@ autostart
 ]
 =
 True
-    
-else
-:
-        
-config
-[
-'
-preferences
-'
-]
-[
-'
-browser
-.
-tabs
-.
-remote
-.
-autostart
-'
-]
-=
-False
     
 prefs
 =
@@ -3367,12 +3327,6 @@ container
                 
 '
 develop
-'
-:
-False
-                
-'
-e10s
 '
 :
 False

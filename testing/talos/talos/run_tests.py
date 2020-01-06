@@ -349,19 +349,15 @@ tpchrome
 tpmozafterpaint
 '
 '
-tpdisable_e10s
-'
-                        
-'
 tpnoisy
 '
 '
 tprender
 '
+                        
 '
 tploadnocache
 '
-                        
 '
 tpscrolltest
 '
@@ -1358,15 +1354,6 @@ start
 (
 )
     
-if
-config
-[
-'
-e10s
-'
-]
-:
-        
 talos_results
 .
 add_extra_option
