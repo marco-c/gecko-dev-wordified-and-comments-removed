@@ -822,6 +822,15 @@ ifneq
 IMPORT_LIBRARY
 )
 )
+ifneq
+(
+(
+IMPORT_LIBRARY
+)
+(
+SHARED_LIBRARY
+)
+)
 (
 SYSINSTALL
 )
@@ -834,4 +843,5 @@ DESTDIR
 (
 libdir
 )
+endif
 endif
