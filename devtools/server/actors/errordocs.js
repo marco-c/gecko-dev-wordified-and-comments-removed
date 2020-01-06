@@ -409,6 +409,16 @@ JSMSG_CANT_TRUNCATE_ARRAY
 "
 Non_configurable_array_element
 "
+JSMSG_INCOMPATIBLE_PROTO
+:
+"
+Called_on_incompatible_type
+"
+JSMSG_INCOMPATIBLE_METHOD
+:
+"
+Called_on_incompatible_type
+"
 }
 ;
 const
