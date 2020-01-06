@@ -2257,6 +2257,7 @@ pushPublicKey
 device
 .
 pushAuthKey
+null
 )
 ;
 doFxaRegistration
