@@ -2046,7 +2046,14 @@ bin
 :
 break
 return
+os
+.
+path
+.
+normpath
+(
 result
+)
 depends
 (
 vc_path
