@@ -1286,8 +1286,6 @@ loadDumpFile
 await
 collection
 .
-db
-.
 loadDump
 (
 initialData
@@ -1350,6 +1348,15 @@ return
 try
 {
 const
+strategy
+=
+Kinto
+.
+syncStrategy
+.
+SERVER_WINS
+;
+const
 {
 ok
 }
@@ -1361,6 +1368,7 @@ sync
 (
 {
 remote
+strategy
 }
 )
 ;
