@@ -541,7 +541,7 @@ __alpha__
 (
 defined
 (
-MOZ_MEMORY_BSD
+__FreeBSD_kernel__
 )
 &
 &
