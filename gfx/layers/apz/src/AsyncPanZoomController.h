@@ -1640,9 +1640,10 @@ private
 :
 public
 :
-bool
+ParentLayerPoint
 AttemptFling
 (
+const
 FlingHandoffState
 &
 aHandoffState
@@ -1731,14 +1732,6 @@ const
 ParentLayerPoint
 &
 aVelocity
-)
-;
-void
-AcceptFling
-(
-FlingHandoffState
-&
-aHandoffState
 )
 ;
 void

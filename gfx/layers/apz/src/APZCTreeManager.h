@@ -537,12 +537,13 @@ OverscrollHandoffState
 aOverscrollHandoffState
 )
 ;
-void
+ParentLayerPoint
 DispatchFling
 (
 AsyncPanZoomController
 *
 aApzc
+const
 FlingHandoffState
 &
 aHandoffState
