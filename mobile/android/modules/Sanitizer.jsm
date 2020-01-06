@@ -306,7 +306,6 @@ case
 downloadHistory
 "
 :
-return
 this
 .
 _clear
@@ -329,7 +328,6 @@ case
 formdata
 "
 :
-return
 this
 .
 _clear
@@ -371,7 +369,6 @@ argument
 }
 else
 {
-return
 this
 .
 _clear
