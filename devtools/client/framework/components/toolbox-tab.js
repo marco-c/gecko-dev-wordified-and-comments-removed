@@ -304,7 +304,7 @@ focusButton
 (
 id
 )
-onClick
+onMouseDown
 :
 (
 )
