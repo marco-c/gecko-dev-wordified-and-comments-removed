@@ -5791,7 +5791,7 @@ ap
 )
 ;
 void
-ReportAddonExceptionToTelementry
+ReportAddonExceptionToTelemetry
 (
 JSContext
 *
