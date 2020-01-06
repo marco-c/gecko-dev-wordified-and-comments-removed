@@ -16606,6 +16606,10 @@ GetAsVideoInfo
 (
 )
 :
+mVideo
+.
+mOriginalInfo
+?
 *
 mVideo
 .
@@ -16613,6 +16617,10 @@ mOriginalInfo
 -
 >
 GetAsVideoInfo
+(
+)
+:
+VideoInfo
 (
 )
 ;
