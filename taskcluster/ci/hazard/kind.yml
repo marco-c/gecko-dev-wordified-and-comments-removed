@@ -220,7 +220,7 @@ manifests
 /
 linux64
 /
-hazard
+releng
 .
 manifest
 "
@@ -299,6 +299,14 @@ gcc
 4
 .
 9
+-
+linux64
+-
+sixgill
+-
+linux64
+-
+rust
 linux64
 -
 haz
@@ -357,7 +365,7 @@ manifests
 /
 linux64
 /
-hazard
+releng
 .
 manifest
 "
@@ -429,3 +437,11 @@ gcc
 4
 .
 9
+-
+linux64
+-
+sixgill
+-
+linux64
+-
+rust
