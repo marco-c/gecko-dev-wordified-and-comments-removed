@@ -1637,9 +1637,6 @@ GetPluginDetails
 (
 )
 ;
-nsresult
-mAsyncNewRv
-;
 uint32_t
 mRunID
 ;
