@@ -35,12 +35,7 @@ ProcessExecutionMixin
 from
 mozversioncontrol
 import
-(
-    
-get_repository_from_build_config
-    
 get_repository_object
-)
 from
 .
 backend
@@ -1838,21 +1833,6 @@ directory
 '
 '
 '
-        
-try
-:
-            
-return
-get_repository_from_build_config
-(
-self
-)
-        
-except
-BuildEnvironmentNotFoundException
-:
-            
-pass
         
 return
 get_repository_object
