@@ -4216,7 +4216,7 @@ true
 ifdef
 MOZ_PHOTON_THEME
 <
-panelmultiview
+photonpanelmultiview
 mainViewId
 =
 "
@@ -4364,7 +4364,7 @@ panelview
 >
 <
 /
-panelmultiview
+photonpanelmultiview
 >
 #
 endif
