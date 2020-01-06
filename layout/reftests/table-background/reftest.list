@@ -206,17 +206,6 @@ html
 empty
 .
 html
-fuzzy
--
-if
-(
-styloVsGecko
-&
-&
-cocoaWidget
-1
-56781
-)
 !
 =
 backgr_layers
