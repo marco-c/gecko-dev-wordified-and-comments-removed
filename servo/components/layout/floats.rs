@@ -2691,6 +2691,8 @@ content_inline_size
 {
 if
 percentage
+.
+0
 >
 0
 .

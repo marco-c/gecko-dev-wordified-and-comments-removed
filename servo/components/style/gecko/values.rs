@@ -775,6 +775,8 @@ CoordDataValue
 Percent
 (
 p
+.
+0
 )
 LengthOrPercentage
 :
@@ -871,7 +873,10 @@ LengthOrPercentage
 :
 Percentage
 (
+Percentage
+(
 p
+)
 )
 )
 CoordDataValue
@@ -1054,6 +1059,8 @@ CoordDataValue
 Percent
 (
 p
+.
+0
 )
 LengthOrPercentageOrAuto
 :
@@ -1160,7 +1167,10 @@ LengthOrPercentageOrAuto
 :
 Percentage
 (
+Percentage
+(
 p
+)
 )
 )
 CoordDataValue
@@ -1268,6 +1278,8 @@ CoordDataValue
 Percent
 (
 p
+.
+0
 )
 LengthOrPercentageOrNone
 :
@@ -1374,7 +1386,10 @@ LengthOrPercentageOrNone
 :
 Percentage
 (
+Percentage
+(
 p
+)
 )
 )
 CoordDataValue

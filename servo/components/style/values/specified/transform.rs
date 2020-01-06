@@ -125,6 +125,7 @@ length
 {
 Length
 LengthOrPercentage
+Percentage
 }
 ;
 use
@@ -916,9 +917,12 @@ ComputedLengthOrPercentage
 :
 Percentage
 (
+Percentage
+(
 0
 .
 5
+)
 )
 }
 OriginComponent
@@ -953,6 +957,8 @@ keyword
 let
 p
 =
+Percentage
+(
 if
 keyword
 .
@@ -968,6 +974,7 @@ else
 1
 .
 }
+)
 ;
 ComputedLengthOrPercentage
 :

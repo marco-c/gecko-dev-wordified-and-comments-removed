@@ -633,6 +633,8 @@ v
 >
 {
 v
+.
+0
 =
 =
 0
@@ -698,6 +700,8 @@ v
 )
 if
 v
+.
+0
 =
 =
 0
@@ -1834,6 +1838,8 @@ containing_length
 scale_by
 (
 percent
+.
+0
 )
 )
 }
