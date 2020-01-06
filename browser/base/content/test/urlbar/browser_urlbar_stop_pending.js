@@ -591,6 +591,8 @@ browserStopped
 newTab
 .
 linkedBrowser
+null
+true
 )
 ;
 BrowserStop
@@ -1020,6 +1022,8 @@ browserStopped
 newTab
 .
 linkedBrowser
+null
+true
 )
 ;
 gURLBar
@@ -1064,6 +1068,8 @@ browserStopped
 newTab
 .
 linkedBrowser
+null
+true
 )
 ;
 BrowserStop
