@@ -1677,7 +1677,7 @@ exists
 state_dir
 )
         
-checkout_type
+r
 =
 current_firefox_checkout
 (
@@ -1688,7 +1688,7 @@ self
 instance
 .
 check_output
-                                                 
+                                     
 hg
 =
 self
@@ -1702,6 +1702,13 @@ hg
 '
 )
 )
+        
+(
+checkout_type
+checkout_root
+)
+=
+r
         
 if
 hg_installed
@@ -1857,6 +1864,10 @@ hg
 )
 dest
 )
+                
+checkout_root
+=
+dest
         
 if
 not
@@ -2952,9 +2963,12 @@ HG_ROOT_REVISIONS
 :
                     
 return
+(
 '
 hg
 '
+path
+)
             
 except
 subprocess
@@ -2976,9 +2990,12 @@ git_dir
 :
             
 return
+(
 '
 git
 '
+path
+)
         
 path
 child
@@ -3003,4 +3020,7 @@ child
 break
     
 return
+(
 None
+None
+)
