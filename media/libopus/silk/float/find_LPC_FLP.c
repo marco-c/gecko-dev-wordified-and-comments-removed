@@ -230,6 +230,10 @@ psEncC
 -
 >
 predictLPCOrder
+psEncC
+-
+>
+arch
 )
 ;
 silk_LPC_analysis_filter_FLP

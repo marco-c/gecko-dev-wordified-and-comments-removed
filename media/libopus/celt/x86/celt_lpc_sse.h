@@ -49,9 +49,6 @@ int
 N
 int
 ord
-opus_val16
-*
-mem
 int
 arch
 )
@@ -71,7 +68,6 @@ num
 y
 N
 ord
-mem
 arch
 )
 \
@@ -87,7 +83,6 @@ num
 y
 N
 ord
-mem
 arch
 )
 )
@@ -121,9 +116,6 @@ int
 N
 int
 ord
-opus_val16
-*
-mem
 int
 arch
 )
@@ -137,7 +129,6 @@ num
 y
 N
 ord
-mem
 arch
 )
 \
@@ -159,7 +150,6 @@ num
 y
 N
 ord
-mem
 arch
 )
 )

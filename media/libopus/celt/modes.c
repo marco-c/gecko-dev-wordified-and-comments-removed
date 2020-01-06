@@ -2780,7 +2780,8 @@ eBands
 opus_free
 (
 (
-opus_int16
+unsigned
+char
 *
 )
 mode

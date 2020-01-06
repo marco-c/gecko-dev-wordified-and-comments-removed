@@ -11,13 +11,6 @@ MDCT_ARM_H
 #
 include
 "
-config
-.
-h
-"
-#
-include
-"
 mdct
 .
 h

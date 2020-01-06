@@ -119,12 +119,6 @@ silk_LTP_gain_iCDF_2
 0
 }
 ;
-const
-opus_int16
-silk_LTP_gain_middle_avg_RD_Q14
-=
-12304
-;
 static
 const
 opus_uint8

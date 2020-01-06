@@ -106,6 +106,10 @@ psDec
 -
 >
 LPC_order
+psDec
+-
+>
+arch
 )
 ;
 if
@@ -213,6 +217,10 @@ psDec
 -
 >
 LPC_order
+psDec
+-
+>
+arch
 )
 ;
 }

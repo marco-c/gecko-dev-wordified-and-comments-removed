@@ -62,6 +62,8 @@ length
 const
 opus_int
 order
+int
+arch
 )
 {
 opus_int

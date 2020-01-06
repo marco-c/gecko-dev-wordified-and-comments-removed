@@ -18,14 +18,6 @@ main_FIX
 h
 "
 #
-define
-QC
-10
-#
-define
-QS
-14
-#
 if
 defined
 (
@@ -42,11 +34,8 @@ h
 "
 #
 endif
-#
-ifndef
-OVERRIDE_silk_warped_autocorrelation_FIX
 void
-silk_warped_autocorrelation_FIX
+silk_warped_autocorrelation_FIX_c
 (
 opus_int32
 *
@@ -461,5 +450,3 @@ corr_QC
 )
 ;
 }
-#
-endif

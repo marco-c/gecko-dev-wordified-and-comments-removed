@@ -1735,7 +1735,6 @@ s
 %
 %
 function
-;
 "
 proc
 )
@@ -1790,6 +1789,8 @@ empty
 .
 prefix
 =
+prefix
+.
 "
 ;
 "

@@ -16,6 +16,12 @@ __STDC__
 __STDC__
 &
 &
+defined
+(
+__STDC_VERSION__
+)
+&
+&
 __STDC_VERSION__
 >
 =

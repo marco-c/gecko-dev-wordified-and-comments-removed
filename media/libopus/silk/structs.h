@@ -85,6 +85,9 @@ MAX_SHAPE_LPC_ORDER
 opus_int32
 sLF_AR_shp_Q14
 ;
+opus_int32
+sDiff_shp_Q14
+;
 opus_int
 lagPrev
 ;
@@ -207,6 +210,11 @@ const
 opus_uint8
 *
 CB1_NLSF_Q8
+;
+const
+opus_int16
+*
+CB1_Wght_Q9
 ;
 const
 opus_uint8
@@ -497,12 +505,6 @@ pitchEstimationLPCOrder
 ;
 opus_int32
 pitchEstimationThreshold_Q16
-;
-opus_int
-LTPQuantLowComplexity
-;
-opus_int
-mu_LTP_Q9
 ;
 opus_int32
 sum_log_gain_Q7
@@ -860,6 +862,9 @@ lossCnt
 ;
 opus_int
 prevSignalType
+;
+int
+arch
 ;
 silk_PLC_struct
 sPLC

@@ -70,6 +70,9 @@ opus_int
 useInBandFEC
 ;
 opus_int
+LBRR_coded
+;
+opus_int
 useDTX
 ;
 opus_int
@@ -101,6 +104,12 @@ stereoWidth_Q14
 ;
 opus_int
 switchReady
+;
+opus_int
+signalType
+;
+opus_int
+offset
 ;
 }
 silk_EncControlStruct

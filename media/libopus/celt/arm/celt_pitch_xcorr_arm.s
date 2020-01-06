@@ -1278,6 +1278,8 @@ int
 len
 int
 max_pitch
+int
+arch
 )
 celt_pitch_xcorr_neon
 PROC
@@ -1371,6 +1373,12 @@ xcorr_kernel_neon
 (
 )
 )
+;
+ignored
+:
+;
+int
+arch
 STMFD
 sp
 !
@@ -3087,6 +3095,12 @@ r12
 =
 int
 j
+;
+ignored
+:
+;
+int
+arch
 STMFD
 sp
 !
