@@ -7799,12 +7799,6 @@ case
 BADCUE
 "
 :
-if
-(
-!
-line
-)
-{
 self
 .
 state
@@ -7812,6 +7806,13 @@ state
 "
 ID
 "
+;
+if
+(
+line
+)
+{
+continue
 ;
 }
 break
