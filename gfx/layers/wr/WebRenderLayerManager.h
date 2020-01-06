@@ -1332,16 +1332,10 @@ nsIWidget
 MOZ_NON_OWNING_REF
 mWidget
 ;
-std
-:
-:
-vector
-<
 wr
 :
 :
-ImageKey
->
+ResourceUpdateQueue
 mImageKeysToDelete
 ;
 nsTArray
