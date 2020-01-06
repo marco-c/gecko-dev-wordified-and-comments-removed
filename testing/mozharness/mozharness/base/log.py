@@ -2040,10 +2040,6 @@ parse
 "
 "
         
-log_level
-=
-INFO
-        
 for
 error_check
 in
@@ -2145,7 +2141,7 @@ get
 '
 level
 '
-log_level
+INFO
 )
                 
 if
@@ -2284,7 +2280,7 @@ log_output
                 
 self
 .
-log
+info
 (
 '
 %
@@ -2292,13 +2288,7 @@ s
 '
 %
 line
-level
-=
-log_level
 )
-        
-return
-log_level
     
 def
 add_lines
