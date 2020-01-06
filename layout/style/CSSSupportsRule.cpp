@@ -35,6 +35,12 @@ dom
 {
 NS_IMPL_ADDREF_INHERITED
 (
+mozilla
+:
+:
+dom
+:
+:
 CSSSupportsRule
 css
 :
@@ -43,6 +49,12 @@ ConditionRule
 )
 NS_IMPL_RELEASE_INHERITED
 (
+mozilla
+:
+:
+dom
+:
+:
 CSSSupportsRule
 css
 :
