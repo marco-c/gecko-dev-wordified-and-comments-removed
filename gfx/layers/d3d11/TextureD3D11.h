@@ -1123,6 +1123,15 @@ mCurrentTile
 0
 ;
 }
+RefPtr
+<
+TextureSource
+>
+ExtractCurrentTile
+(
+)
+override
+;
 void
 Reset
 (
