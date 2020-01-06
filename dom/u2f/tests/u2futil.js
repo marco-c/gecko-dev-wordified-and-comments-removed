@@ -378,6 +378,10 @@ str
 {
 if
 (
+!
+str
+|
+|
 str
 .
 length
