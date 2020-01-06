@@ -944,6 +944,12 @@ EventStates
 aStateMask
 )
 {
+MOZ_ASSERT
+(
+!
+mInStyleRefresh
+)
+;
 if
 (
 !
@@ -1015,6 +1021,12 @@ nsAttrValue
 aNewValue
 )
 {
+MOZ_ASSERT
+(
+!
+mInStyleRefresh
+)
+;
 RestyleHintData
 rsdata
 ;
