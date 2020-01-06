@@ -195,7 +195,7 @@ objp
 *
 objp
 =
-0
+nullptr
 ;
 delete
 wrapped
@@ -443,12 +443,12 @@ nr_socket_wrapped_sendto
 nr_socket_wrapped_recvfrom
 nr_socket_wrapped_getfd
 nr_socket_wrapped_getaddr
-0
-0
-0
+nullptr
+nullptr
+nullptr
 nr_socket_wrapped_close
-0
-0
+nullptr
+nullptr
 }
 ;
 int

@@ -1232,7 +1232,7 @@ objp
 *
 objp
 =
-0
+nullptr
 ;
 delete
 ip

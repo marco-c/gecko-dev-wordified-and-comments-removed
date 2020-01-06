@@ -2027,7 +2027,7 @@ char
 *
 attrs
 =
-0
+nullptr
 ;
 int
 attrct

@@ -863,7 +863,7 @@ timer_handle_
 ;
 timer_handle_
 =
-0
+nullptr
 ;
 }
 internal_socket_

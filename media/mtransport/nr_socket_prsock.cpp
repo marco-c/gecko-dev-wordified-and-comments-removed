@@ -9700,7 +9700,7 @@ objp
 *
 objp
 =
-0
+nullptr
 ;
 sock
 -

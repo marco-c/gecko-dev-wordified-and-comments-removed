@@ -108,7 +108,7 @@ GMPPlatformAPI
 *
 g_platform_api
 =
-NULL
+nullptr
 ;
 extern
 "
@@ -206,7 +206,7 @@ void
 {
 g_platform_api
 =
-NULL
+nullptr
 ;
 }
 }

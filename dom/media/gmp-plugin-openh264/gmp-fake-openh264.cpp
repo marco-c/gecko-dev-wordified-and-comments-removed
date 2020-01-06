@@ -327,7 +327,7 @@ GMPPlatformAPI
 *
 g_platform_api
 =
-NULL
+nullptr
 ;
 class
 FakeVideoEncoder
@@ -532,7 +532,7 @@ hostAPI
 )
 callback_
 (
-NULL
+nullptr
 )
 frames_encoded_
 (
@@ -1511,7 +1511,7 @@ hostAPI
 )
 callback_
 (
-NULL
+nullptr
 )
 {
 }
@@ -2032,7 +2032,7 @@ GMPVideoFrame
 *
 ftmp
 =
-NULL
+nullptr
 ;
 GMPErr
 err
@@ -2417,7 +2417,7 @@ void
 {
 g_platform_api
 =
-NULL
+nullptr
 ;
 }
 }
