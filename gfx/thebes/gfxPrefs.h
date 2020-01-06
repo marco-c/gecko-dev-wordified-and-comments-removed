@@ -3581,7 +3581,7 @@ webrender
 .
 profiler
 .
-enable
+enabled
 "
 WebRenderProfilerEnabled
 bool
