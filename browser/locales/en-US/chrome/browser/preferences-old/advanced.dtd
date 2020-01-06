@@ -1327,6 +1327,17 @@ U
 <
 !
 ENTITY
+performanceSettingsLearnMore
+.
+label
+"
+Learn
+more
+"
+>
+<
+!
+ENTITY
 limitContentProcess
 .
 label
