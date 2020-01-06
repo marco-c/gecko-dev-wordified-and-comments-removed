@@ -1336,7 +1336,7 @@ logger
 level
 =
 :
-trace
+debug
 opts
 =
 Selenium
