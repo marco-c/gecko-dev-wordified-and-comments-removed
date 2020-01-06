@@ -395,6 +395,9 @@ mCycleCollectorIsRunning
 bool
 mCheckTimerWaitingForCCEnd
 ;
+int64_t
+mGhostWindowCount
+;
 }
 ;
 #
