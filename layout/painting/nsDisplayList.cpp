@@ -11485,10 +11485,7 @@ layerManager
 GetLastTransactionId
 (
 )
-frame
--
->
-GetRect
+nsIntRect
 (
 )
 )
@@ -40170,6 +40167,12 @@ OP_OVER
 BackfaceIsHidden
 (
 )
+mFrame
+-
+>
+Extend3DContext
+(
+)
 )
 ;
 return
@@ -42892,6 +42895,7 @@ OP_OVER
 BackfaceIsHidden
 (
 )
+true
 )
 ;
 return

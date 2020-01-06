@@ -951,12 +951,6 @@ planes
 different
 z
 depth
-fails
--
-if
-(
-webrender
-)
 =
 =
 sorting
@@ -1765,12 +1759,6 @@ fuzzy
 (
 255
 150
-)
-fails
--
-if
-(
-webrender
 )
 =
 =
