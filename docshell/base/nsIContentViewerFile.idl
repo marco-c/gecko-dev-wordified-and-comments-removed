@@ -171,9 +171,6 @@ in
 boolean
 aSilent
 in
-FILE
-aDebugFile
-in
 nsIPrintSettings
 aPrintSettings
 )

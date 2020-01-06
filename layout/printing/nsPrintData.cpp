@@ -120,10 +120,6 @@ mType
 (
 aType
 )
-mDebugFilePtr
-(
-nullptr
-)
 mPrintDocList
 (
 0
@@ -324,10 +320,6 @@ OnEndPrinting
 if
 (
 mPrintDC
-&
-&
-!
-mDebugFilePtr
 )
 {
 PR_PL

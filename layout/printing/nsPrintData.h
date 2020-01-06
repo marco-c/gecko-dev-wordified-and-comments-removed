@@ -136,10 +136,6 @@ nsDeviceContext
 >
 mPrintDC
 ;
-FILE
-*
-mDebugFilePtr
-;
 mozilla
 :
 :
