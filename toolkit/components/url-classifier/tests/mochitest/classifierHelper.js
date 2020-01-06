@@ -43,11 +43,6 @@ CLASSIFIER_COMMON_URL
 )
 ;
 const
-HASHLEN
-=
-32
-;
-const
 PREFS
 =
 {

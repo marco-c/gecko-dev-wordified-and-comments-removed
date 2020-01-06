@@ -2420,12 +2420,13 @@ this
 isV4
 )
 {
-return
 this
 .
 handleResponseV4
 (
 )
+;
+return
 ;
 }
 let
@@ -3828,6 +3829,8 @@ Cr
 NS_ERROR_ABORT
 )
 ;
+this
+.
 telemetryClockStart
 =
 0

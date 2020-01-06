@@ -183,6 +183,18 @@ XHR
 "
 )
 ;
+/
+*
+import
+-
+globals
+-
+from
+classifierHelper
+.
+js
+*
+/
 const
 timeout
 =
@@ -670,8 +682,8 @@ function
 (
 )
 {
-var
-isPinged
+let
+pinged
 =
 xhr
 .
@@ -686,7 +698,7 @@ ping
 let
 success
 =
-isPinged
+pinged
 =
 =
 =
@@ -707,7 +719,7 @@ retryCnt
 is
 (
 expected
-isPinged
+pinged
 msg
 )
 ;

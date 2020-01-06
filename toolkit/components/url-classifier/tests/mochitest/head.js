@@ -130,7 +130,7 @@ str
 function
 bytesFromString
 (
-str
+str1
 )
 {
 var
@@ -175,7 +175,7 @@ converter
 .
 convertToByteArray
 (
-str
+str1
 )
 ;
 }
