@@ -1253,10 +1253,8 @@ Name
 )
 ;
 }
-already_AddRefed
-<
 gfxFont
->
+*
 gfxFontEntry
 :
 :
@@ -1273,10 +1271,8 @@ gfxCharacterMap
 aUnicodeRangeMap
 )
 {
-RefPtr
-<
 gfxFont
->
+*
 font
 =
 gfxFontCache
@@ -1315,9 +1311,11 @@ if
 !
 newFont
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -1364,10 +1362,6 @@ font
 }
 return
 font
-.
-forget
-(
-)
 ;
 }
 uint16_t

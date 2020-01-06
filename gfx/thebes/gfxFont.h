@@ -902,10 +902,8 @@ Shutdown
 (
 )
 ;
-already_AddRefed
-<
 gfxFont
->
+*
 Lookup
 (
 const
@@ -6212,10 +6210,8 @@ get
 )
 ;
 }
-already_AddRefed
-<
 gfxFont
->
+*
 GetSubSuperscriptFont
 (
 int32_t
@@ -6318,10 +6314,8 @@ float
 aBaselineOffset
 )
 ;
-already_AddRefed
-<
 gfxFont
->
+*
 GetSmallCapsFont
 (
 )

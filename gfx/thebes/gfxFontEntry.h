@@ -973,10 +973,8 @@ delete
 ;
 }
 ;
-already_AddRefed
-<
 gfxFont
->
+*
 FindOrMakeFont
 (
 const
