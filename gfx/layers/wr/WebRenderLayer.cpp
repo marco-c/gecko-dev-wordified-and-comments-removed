@@ -175,6 +175,10 @@ BuildWrMaskLayer
 (
 const
 StackingContextHelper
+&
+aRelativeTo
+const
+StackingContextHelper
 *
 aUnapplySc
 )
@@ -248,6 +252,7 @@ maskLayer
 >
 RenderMaskLayer
 (
+aRelativeTo
 transform
 )
 ;

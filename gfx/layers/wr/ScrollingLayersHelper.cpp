@@ -367,6 +367,7 @@ maskWrLayer
 >
 RenderMaskLayer
 (
+aStackingContext
 maskLayer
 -
 >
@@ -587,6 +588,7 @@ mLayer
 >
 BuildWrMaskLayer
 (
+aStackingContext
 nullptr
 )
 ;

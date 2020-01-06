@@ -217,6 +217,7 @@ mask
 =
 BuildWrMaskLayer
 (
+aSc
 nullptr
 )
 ;
