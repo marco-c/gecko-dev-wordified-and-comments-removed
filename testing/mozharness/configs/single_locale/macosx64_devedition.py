@@ -174,6 +174,16 @@ abs_merge_dir
 s
 /
 "
+        
+'
+EN_US_PACKAGE_NAME
+'
+:
+'
+target
+.
+dmg
+'
     
 }
     

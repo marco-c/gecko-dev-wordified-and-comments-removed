@@ -207,6 +207,26 @@ c
 /
 builds
 '
+        
+'
+EN_US_PACKAGE_NAME
+'
+:
+'
+target
+.
+zip
+'
+        
+'
+EN_US_PKG_INST_BASENAME
+'
+:
+'
+target
+.
+installer
+'
     
 }
     
