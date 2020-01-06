@@ -121,6 +121,9 @@ foo
 bar
 '
 StringType
+'
+desc
+'
 )
         
 (
@@ -130,6 +133,9 @@ foo
 baz
 '
 PathType
+'
+desc
+'
 )
     
 ]
@@ -152,6 +158,9 @@ dupesect
 foo
 '
 StringType
+'
+desc
+'
 )
         
 (
@@ -161,6 +170,9 @@ dupesect
 foo
 '
 StringType
+'
+desc
+'
 )
     
 ]
@@ -183,6 +195,9 @@ a
 string
 '
 StringType
+'
+desc
+'
 )
         
 (
@@ -192,6 +207,9 @@ a
 boolean
 '
 BooleanType
+'
+desc
+'
 )
         
 (
@@ -201,6 +219,9 @@ a
 pos_int
 '
 PositiveIntegerType
+'
+desc
+'
 )
         
 (
@@ -210,6 +231,9 @@ a
 int
 '
 IntegerType
+'
+desc
+'
 )
         
 (
@@ -219,6 +243,9 @@ a
 path
 '
 PathType
+'
+desc
+'
 )
     
 ]
@@ -251,6 +278,9 @@ string
 '
 string
 '
+'
+desc
+'
 )
             
 (
@@ -261,6 +291,9 @@ boolean
 '
 '
 boolean
+'
+'
+desc
 '
 )
             
@@ -273,6 +306,9 @@ pos_int
 '
 pos_int
 '
+'
+desc
+'
 )
             
 (
@@ -284,6 +320,9 @@ int
 '
 int
 '
+'
+desc
+'
 )
             
 (
@@ -294,6 +333,9 @@ path
 '
 '
 path
+'
+'
+desc
 '
 )
         
@@ -318,6 +360,9 @@ abc
 '
 StringType
 '
+desc
+'
+'
 a
 '
 {
@@ -341,6 +386,9 @@ foo
 xyz
 '
 StringType
+'
+desc
+'
 '
 w
 '
@@ -380,6 +428,9 @@ foo
 '
 string
 '
+'
+desc
+'
 )
         
 (
@@ -390,6 +441,9 @@ bar
 '
 '
 string
+'
+'
+desc
 '
 )
     
