@@ -82,16 +82,16 @@ env_logger
 .
 3
 .
-0
+1
 "
 hyper
 =
 "
 0
 .
-3
+4
 .
-10
+0
 "
 log
 =
@@ -109,7 +109,7 @@ regex
 .
 1
 .
-27
+30
 "
 rustc
 -
@@ -120,7 +120,7 @@ serialize
 .
 3
 .
-12
+14
 "
 uuid
 =
@@ -129,7 +129,7 @@ uuid
 .
 1
 .
-16
+17
 "
 mozrunner
 =
