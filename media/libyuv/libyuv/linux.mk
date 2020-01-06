@@ -578,6 +578,6 @@ s
 libyuv
 .
 a
-convert
+yuvconvert
 cpuid
 psnr

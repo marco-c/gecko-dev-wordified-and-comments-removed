@@ -170,7 +170,14 @@ __i386__
 !
 defined
 (
-__SSE2__
+__SSE__
+)
+&
+&
+!
+defined
+(
+__clang__
 )
 )
 #
