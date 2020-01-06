@@ -1339,7 +1339,7 @@ InfallibleTArray
 PrefSetting
 >
 *
-aPrefs
+aSettings
 )
 ;
 static
@@ -1351,7 +1351,7 @@ nsTArray
 PrefSetting
 >
 *
-aPrefs
+aSettings
 )
 ;
 static
