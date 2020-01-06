@@ -1327,6 +1327,15 @@ const
 {
 return
 mIsChrome
+|
+|
+mParsingMode
+=
+=
+css
+:
+:
+eUserSheetFeatures
 ;
 }
 CSSEnabledState
