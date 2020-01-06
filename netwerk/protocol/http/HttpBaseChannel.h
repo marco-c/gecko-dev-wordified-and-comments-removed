@@ -2482,6 +2482,11 @@ ReleaseMainThreadOnlyReferences
 (
 )
 ;
+bool
+IsCrossOriginWithReferrer
+(
+)
+;
 protected
 :
 Atomic
