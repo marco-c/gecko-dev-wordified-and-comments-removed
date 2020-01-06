@@ -732,6 +732,11 @@ MediaStreamListener
 h
 '
 '
+MediaStreamTypes
+.
+h
+'
+'
 MediaStreamVideoSink
 .
 h
