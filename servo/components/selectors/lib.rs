@@ -36,14 +36,6 @@ macro_use
 ]
 extern
 crate
-heapsize_derive
-;
-#
-[
-macro_use
-]
-extern
-crate
 log
 ;
 #
@@ -57,10 +49,6 @@ matches
 extern
 crate
 fnv
-;
-extern
-crate
-heapsize
 ;
 extern
 crate
