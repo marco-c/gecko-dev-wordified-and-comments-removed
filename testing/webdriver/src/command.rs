@@ -5670,7 +5670,7 @@ pub
 struct
 SendAlertTextParameters
 {
-keysToSend
+message
 :
 String
 }
@@ -5733,7 +5733,7 @@ data
 get
 (
 "
-keysToSend
+message
 "
 )
 ErrorStatus
@@ -5743,7 +5743,7 @@ InvalidArgument
 "
 Missing
 '
-handle
+message
 '
 parameter
 "
@@ -5758,7 +5758,7 @@ ErrorStatus
 InvalidArgument
 "
 '
-keysToSend
+message
 '
 not
 a
@@ -5775,7 +5775,7 @@ Ok
 (
 SendAlertTextParameters
 {
-keysToSend
+message
 :
 keys
 }
@@ -5813,7 +5813,7 @@ data
 insert
 (
 "
-keysToSend
+message
 "
 .
 to_string
@@ -5821,7 +5821,7 @@ to_string
 )
 self
 .
-keysToSend
+message
 .
 to_json
 (
