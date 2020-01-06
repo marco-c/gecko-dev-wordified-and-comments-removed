@@ -98,6 +98,15 @@ GeckoViewActivity
 "
 android
 :
+windowSoftInputMode
+=
+"
+stateUnspecified
+|
+adjustResize
+"
+android
+:
 launchMode
 =
 "
