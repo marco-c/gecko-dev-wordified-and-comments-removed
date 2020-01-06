@@ -1160,10 +1160,6 @@ controlcenter
 connection
 .
 svg
-#
-connection
--
-secure
 \
 "
 )
@@ -1203,10 +1199,6 @@ controlcenter
 connection
 .
 svg
-#
-connection
--
-secure
 \
 "
 )
