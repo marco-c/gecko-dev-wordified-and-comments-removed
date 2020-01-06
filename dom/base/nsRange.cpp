@@ -2007,6 +2007,14 @@ nsRange
 )
 ;
 }
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+isInList
+(
+)
+)
+;
 ranges
 -
 >
