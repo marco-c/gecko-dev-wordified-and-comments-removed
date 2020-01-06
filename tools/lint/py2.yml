@@ -205,10 +205,6 @@ web
 -
 platform
 -
-testing
-/
-xpcshell
--
 third_party
 -
 toolkit
