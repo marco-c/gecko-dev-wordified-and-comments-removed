@@ -48,10 +48,10 @@ protected
 uint32_t
 mType
 ;
-nsXPIDLCString
+nsCString
 mContentType
 ;
-nsXPIDLCString
+nsCString
 mLocation
 ;
 nsString
