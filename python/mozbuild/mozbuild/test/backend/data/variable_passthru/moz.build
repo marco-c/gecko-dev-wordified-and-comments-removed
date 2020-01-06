@@ -186,6 +186,3 @@ subsystem
 console
 '
 ]
-ALLOW_COMPILER_WARNINGS
-=
-True
