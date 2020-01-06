@@ -853,6 +853,24 @@ click
 (
 )
         
+if
+self
+.
+marionette
+.
+session_capabilities
+[
+"
+browserName
+"
+]
+!
+=
+"
+fennec
+"
+:
+            
 self
 .
 assertNotEqual
