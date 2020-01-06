@@ -3486,7 +3486,7 @@ cleanTarget
 ownerDocument
 =
 {
-fullscreenElement
+fullscreen
 :
 context
 .
@@ -3494,7 +3494,7 @@ target
 .
 ownerDocument
 .
-fullscreenElement
+fullscreen
 contentType
 :
 context
