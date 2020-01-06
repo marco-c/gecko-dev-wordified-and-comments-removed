@@ -218,7 +218,12 @@ webrtc
 trunk
 '
 ]
-UNIFIED_SOURCES
+#
+Multiple
+uses
+of
+logTag
+SOURCES
 +
 =
 [

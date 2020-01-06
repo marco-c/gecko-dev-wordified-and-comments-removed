@@ -132,14 +132,6 @@ Mutex
 h
 "
 #
-ifdef
-GetLastError
-#
-undef
-GetLastError
-#
-endif
-#
 include
 "
 signaling

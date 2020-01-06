@@ -393,24 +393,12 @@ static
 const
 char
 *
-vcLogTag
+logTag
 =
 "
 WebrtcVideoSessionConduit
 "
 ;
-#
-ifdef
-LOGTAG
-#
-undef
-LOGTAG
-#
-endif
-#
-define
-LOGTAG
-vcLogTag
 static
 const
 int
@@ -986,7 +974,7 @@ delta_frames
 ;
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1031,7 +1019,7 @@ else
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1109,7 +1097,7 @@ aStats
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1195,7 +1183,7 @@ aCall
 ;
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1241,7 +1229,7 @@ kMediaConduitNoError
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1258,7 +1246,7 @@ nullptr
 }
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1486,7 +1474,7 @@ aClosure
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 StreamStats
 polling
@@ -1674,7 +1662,7 @@ WebrtcVideoConduit
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -1703,7 +1691,7 @@ mVideoStatsTimer
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 canceling
 StreamStats
@@ -1724,7 +1712,7 @@ mCodecMutex
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 StreamStats
 cancelled
@@ -2023,7 +2011,7 @@ mode
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2538,7 +2526,7 @@ kVideoCodecUnknown
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -2593,7 +2581,7 @@ decoder
 ;
 CSFLogError
 (
-LOGTAG
+logTag
 "
 Failed
 to
@@ -2710,7 +2698,7 @@ kMediaConduitUnknownError
 }
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Created
 VideoReceiveStream
@@ -3228,7 +3216,7 @@ streamCount
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3253,7 +3241,7 @@ else
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3600,7 +3588,7 @@ maxMbps
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3643,7 +3631,7 @@ codecConfig
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -3721,7 +3709,7 @@ kMaxSimulcastStreams
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4452,7 +4440,7 @@ ssrc
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4566,7 +4554,7 @@ kMediaConduitNoError
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -4945,7 +4933,7 @@ cumulativeLost
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5055,7 +5043,7 @@ rttMs
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5170,7 +5158,7 @@ end
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5290,7 +5278,7 @@ INT32_MAX
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5385,7 +5373,7 @@ bytesSent
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -5991,7 +5979,7 @@ jvm
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6025,7 +6013,7 @@ Init
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6068,7 +6056,7 @@ result
 }
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6118,7 +6106,7 @@ aConduit
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6146,7 +6134,7 @@ mRecvStream
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 SyncTo
 called
@@ -6231,7 +6219,7 @@ aVideoRenderer
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6247,7 +6235,7 @@ aVideoRenderer
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6334,7 +6322,7 @@ aTransport
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6371,7 +6359,7 @@ aTransport
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6414,7 +6402,7 @@ codecConfigList
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6444,7 +6432,7 @@ empty
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6559,7 +6547,7 @@ kMediaConduitNoError
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -6789,7 +6777,7 @@ Length
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -7186,7 +7174,7 @@ ssrc
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -7288,7 +7276,7 @@ kMediaConduitNoError
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -8718,7 +8706,7 @@ height
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -8780,7 +8768,7 @@ framerate
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -8923,7 +8911,7 @@ new_frame
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -9052,7 +9040,7 @@ frame
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -9236,7 +9224,7 @@ height
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -9274,7 +9262,7 @@ mEngineTransmitting
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -9440,7 +9428,7 @@ wants
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -9799,7 +9787,7 @@ frame
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -9876,7 +9864,7 @@ mLastHeight
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -10301,7 +10289,7 @@ mCall
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 Error
 :
@@ -10383,7 +10371,7 @@ DELIVERY_OK
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -10478,7 +10466,7 @@ len
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 queuing
 packet
@@ -10553,7 +10541,7 @@ packet
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -10695,7 +10683,7 @@ mQueuedPackets
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Inserting
 queued
@@ -10757,7 +10745,7 @@ kMediaConduitNoError
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -10808,7 +10796,7 @@ kMediaConduitNoError
 }
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -10895,7 +10883,7 @@ kMediaConduitNoError
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -10930,7 +10918,7 @@ len
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -10956,7 +10944,7 @@ kMediaConduitNoError
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11002,7 +10990,7 @@ mSendStream
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11054,7 +11042,7 @@ kMediaConduitNoError
 }
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11098,7 +11086,7 @@ kMediaConduitNoError
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11188,7 +11176,7 @@ mRecvStream
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11238,7 +11226,7 @@ kMediaConduitNoError
 }
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11338,7 +11326,7 @@ options
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11449,7 +11437,7 @@ length
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11485,7 +11473,7 @@ length
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11528,7 +11516,7 @@ length
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11567,7 +11555,7 @@ true
 }
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11600,7 +11588,7 @@ video_frame
 {
 CSFLogVerbose
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11649,7 +11637,7 @@ mRenderer
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11937,7 +11925,7 @@ codecInfo
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -11982,7 +11970,7 @@ CODEC_PLNAME_SIZE
 {
 CSFLogError
 (
-LOGTAG
+logTag
 "
 %
 s
@@ -12022,7 +12010,7 @@ mRecvCodecList
 {
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 Name
@@ -12042,7 +12030,7 @@ c_str
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 Type
@@ -12058,7 +12046,7 @@ mType
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 Max
@@ -12078,7 +12066,7 @@ maxFs
 ;
 CSFLogDebug
 (
-LOGTAG
+logTag
 "
 Payload
 Max
