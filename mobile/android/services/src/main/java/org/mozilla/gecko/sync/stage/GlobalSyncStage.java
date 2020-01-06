@@ -10,6 +10,15 @@ sync
 stage
 ;
 import
+android
+.
+support
+.
+annotation
+.
+Nullable
+;
+import
 java
 .
 util
@@ -250,6 +259,7 @@ final
 String
 repositoryName
 ;
+Nullable
 public
 String
 getRepositoryName
