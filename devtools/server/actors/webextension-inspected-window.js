@@ -1459,8 +1459,12 @@ this
 .
 customizedReload
 ;
-throw
+console
+.
+error
+(
 err
+)
 ;
 }
 )
