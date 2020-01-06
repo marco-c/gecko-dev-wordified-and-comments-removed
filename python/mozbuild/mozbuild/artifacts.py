@@ -6299,6 +6299,24 @@ hexdigest
 16
 ]
             
+basename
+=
+os
+.
+path
+.
+basename
+(
+urlparse
+.
+urlparse
+(
+url
+)
+.
+path
+)
+            
 fname
 =
 hash
@@ -6307,14 +6325,7 @@ hash
 -
 '
 +
-os
-.
-path
-.
 basename
-(
-url
-)
         
 path
 =
