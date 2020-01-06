@@ -458,17 +458,6 @@ seed
 )
 ;
 extern
-uint64_t
-random_next
-(
-uint64_t
-*
-rngState
-int
-bits
-)
-;
-extern
 double
 math_random_impl
 (
