@@ -1110,14 +1110,6 @@ aSamePointerStructs
 ;
 public
 :
-void
-EnsureSameStructsCached
-(
-nsStyleContext
-*
-aOldContext
-)
-;
 template
 <
 typename

@@ -109,6 +109,14 @@ aSID
 )
 ;
 void
+EnsureSameStructsCached
+(
+nsStyleContext
+*
+aOldContext
+)
+;
+void
 SetIneligibleForSharing
 (
 )

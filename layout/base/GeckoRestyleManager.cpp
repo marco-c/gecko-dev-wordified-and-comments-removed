@@ -3912,6 +3912,11 @@ copyFromContinuation
 newContext
 -
 >
+AsGecko
+(
+)
+-
+>
 EnsureSameStructsCached
 (
 oldContext
@@ -4165,6 +4170,11 @@ oldExtraContext
 )
 {
 newContext
+-
+>
+AsGecko
+(
+)
 -
 >
 EnsureSameStructsCached
