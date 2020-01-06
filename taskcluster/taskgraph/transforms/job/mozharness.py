@@ -170,21 +170,6 @@ cfg
 :
 basestring
     
-Optional
-(
-'
-extra
--
-workspace
--
-cache
--
-key
-'
-)
-:
-basestring
-    
 Required
 (
 '
@@ -415,23 +400,6 @@ docker_worker_add_workspace_cache
 config
 job
 taskdesc
-                                      
-extra
-=
-run
-.
-get
-(
-'
-extra
--
-workspace
--
-cache
--
-key
-'
-)
 )
     
 support_vcs_checkout

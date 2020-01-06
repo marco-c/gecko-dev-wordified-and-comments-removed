@@ -78,6 +78,15 @@ chunk_locales
 )
 :
             
+job
+[
+'
+locale
+'
+]
+=
+locale
+            
 label
 =
 dep_job
@@ -142,6 +151,15 @@ build_type
 ]
 )
             
+job
+[
+'
+label
+'
+]
+=
+label
+            
 treeherder
 =
 job
@@ -179,33 +197,14 @@ format
 locale
 )
             
-yield
-{
-                
-'
-locale
-'
-:
-locale
-                
-'
-label
-'
-:
-label
-                
+job
+[
 '
 treeherder
 '
-:
+]
+=
 treeherder
-                
-'
-dependent
--
-task
-'
-:
-dep_job
             
-}
+yield
+job

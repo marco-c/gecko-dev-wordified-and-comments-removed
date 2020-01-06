@@ -347,7 +347,7 @@ format
 '
 :
 '
-macapp
+dmg
 '
                 
 }
