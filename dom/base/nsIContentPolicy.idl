@@ -1894,10 +1894,17 @@ DBSchema
 .
 cpp
 *
+ChannelWrapper
+.
+webidl
+ChannelWrapper
+.
+cpp
 and
 other
 things
 that
+*
 are
 not
 listed
@@ -1906,7 +1913,6 @@ that
 are
 related
 to
-*
 nsIContentPolicy
 .
 *
