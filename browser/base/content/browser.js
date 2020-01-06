@@ -9172,7 +9172,7 @@ win
 )
 )
 {
-ContextMenuTouchModeObserver
+MenuTouchModeObserver
 .
 init
 (
@@ -10248,7 +10248,7 @@ win
 )
 )
 {
-ContextMenuTouchModeObserver
+MenuTouchModeObserver
 .
 uninit
 (
@@ -40943,10 +40943,17 @@ openPopup
 this
 .
 button
+{
+position
+:
 "
 bottomcenter
 topright
 "
+triggerEvent
+:
+event
+}
 )
 ;
 }
@@ -42736,7 +42743,7 @@ restoreLastSession
 ;
 }
 var
-ContextMenuTouchModeObserver
+MenuTouchModeObserver
 =
 {
 init
@@ -42777,6 +42784,10 @@ localName
 "
 menupopup
 "
+&
+&
+!
+gPhotonStructure
 )
 {
 return
