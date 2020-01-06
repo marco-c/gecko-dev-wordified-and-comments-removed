@@ -307,6 +307,10 @@ gdk_screen_width
 )
 STUB
 (
+gdk_set_program_class
+)
+STUB
+(
 gdk_unicode_to_keyval
 )
 STUB

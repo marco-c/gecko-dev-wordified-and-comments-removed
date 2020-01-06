@@ -166,6 +166,15 @@ SendBidiKeyboardInfoToContent
 (
 )
 ;
+static
+void
+GetBrandShortName
+(
+nsAString
+&
+aBrandName
+)
+;
 }
 ;
 }
