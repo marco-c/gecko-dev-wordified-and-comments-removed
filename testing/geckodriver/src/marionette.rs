@@ -303,7 +303,6 @@ response
 {
 CloseWindowResponse
 Cookie
-CookieResponse
 CookiesResponse
 RectResponse
 NewSessionResponse
