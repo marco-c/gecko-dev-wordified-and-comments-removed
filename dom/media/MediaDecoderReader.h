@@ -902,9 +902,6 @@ TimeIntervals
 >
 mBuffered
 ;
-MediaInfo
-mInfo
-;
 media
 :
 :

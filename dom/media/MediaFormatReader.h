@@ -2133,6 +2133,9 @@ MaybeResolveMetadataPromise
 (
 )
 ;
+MediaInfo
+mInfo
+;
 UniquePtr
 <
 MetadataTags
