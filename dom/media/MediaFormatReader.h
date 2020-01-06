@@ -865,7 +865,7 @@ HandleDemuxedSamples
 (
 TrackType
 aTrack
-AbstractMediaDecoder
+FrameStatistics
 :
 :
 AutoNotifyDecoded

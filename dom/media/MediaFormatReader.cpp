@@ -9727,7 +9727,7 @@ HandleDemuxedSamples
 (
 TrackType
 aTrack
-AbstractMediaDecoder
+FrameStatistics
 :
 :
 AutoNotifyDecoded
@@ -11096,7 +11096,7 @@ pending
 "
 )
 ;
-AbstractMediaDecoder
+FrameStatistics
 :
 :
 AutoNotifyDecoded
