@@ -645,11 +645,6 @@ ref
 "
 Alarm
 "
-"
-optional
-"
-:
-true
 }
 ]
 }

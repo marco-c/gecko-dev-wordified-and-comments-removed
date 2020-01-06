@@ -282,12 +282,9 @@ node
 pageGuid
 visitId
 :
-String
-(
 node
 .
 visitId
-)
 visitTime
 :
 PlacesUtils
@@ -304,12 +301,9 @@ getTime
 )
 referringVisitId
 :
-String
-(
 node
 .
 fromVisitId
-)
 transition
 :
 getTransition

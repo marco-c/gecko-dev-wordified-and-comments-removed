@@ -617,11 +617,6 @@ type
 "
 string
 "
-"
-optional
-"
-:
-true
 }
 "
 filename
