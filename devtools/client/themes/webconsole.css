@@ -75,6 +75,17 @@ underline
 visited
 {
 }
+*
+{
+box
+-
+sizing
+:
+border
+-
+box
+;
+}
 .
 message
 {
