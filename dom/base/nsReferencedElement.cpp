@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Encoding
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -481,7 +490,7 @@ if
 aWatch
 )
 {
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
@@ -559,7 +568,7 @@ if
 aWatch
 )
 {
-RefPtr
+nsCOMPtr
 <
 nsIAtom
 >
