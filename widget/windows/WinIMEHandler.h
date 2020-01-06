@@ -282,6 +282,10 @@ sLastContextActionCause
 ;
 static
 bool
+sForceDisableCurrentIMM_IME
+;
+static
+bool
 sPluginHasFocus
 ;
 #
