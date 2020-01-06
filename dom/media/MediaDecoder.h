@@ -738,7 +738,6 @@ IsInfinite
 )
 const
 ;
-virtual
 void
 NotifyDownloadProgressed
 (
