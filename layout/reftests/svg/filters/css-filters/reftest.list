@@ -157,15 +157,6 @@ radius
 ref
 .
 html
-skip
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 blur
