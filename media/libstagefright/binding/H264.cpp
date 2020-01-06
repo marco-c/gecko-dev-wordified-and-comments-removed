@@ -3615,8 +3615,7 @@ chroma_sample_loc_type_bottom_field
 )
 ;
 }
-aDest
-.
+bool
 timing_info_present_flag
 =
 aBr
@@ -3627,15 +3626,9 @@ ReadBit
 ;
 if
 (
-aDest
-.
 timing_info_present_flag
 )
 {
-aDest
-.
-num_units_in_tick
-=
 aBr
 .
 ReadBits
@@ -3643,10 +3636,6 @@ ReadBits
 32
 )
 ;
-aDest
-.
-time_scale
-=
 aBr
 .
 ReadBits
@@ -3654,10 +3643,6 @@ ReadBits
 32
 )
 ;
-aDest
-.
-fixed_frame_rate_flag
-=
 aBr
 .
 ReadBit
