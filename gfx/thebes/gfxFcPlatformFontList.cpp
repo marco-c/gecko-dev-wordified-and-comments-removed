@@ -6217,8 +6217,6 @@ gfxFontFamily
 >
 *
 aOutput
-bool
-aDeferOtherFamilyNamesLoading
 gfxFontStyle
 *
 aStyle
@@ -6599,7 +6597,6 @@ FindAndAddFamilies
 subst
 &
 cachedFamilies
-aDeferOtherFamilyNamesLoading
 )
 ;
 }
@@ -7816,7 +7813,6 @@ FindAndAddFamilies
 mappedGenericName
 &
 genericFamilies
-true
 )
 )
 {
