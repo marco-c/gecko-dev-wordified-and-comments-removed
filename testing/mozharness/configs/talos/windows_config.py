@@ -369,6 +369,12 @@ install
 "
         
 "
+setup
+-
+mitmproxy
+"
+        
+"
 run
 -
 tests
