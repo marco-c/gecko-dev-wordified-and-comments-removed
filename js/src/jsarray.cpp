@@ -4909,14 +4909,13 @@ return
 NativeObject
 :
 :
-addProperty
+addAccessorProperty
 (
 cx
 obj
 lengthId
 array_length_getter
 array_length_setter
-SHAPE_INVALID_SLOT
 JSPROP_PERMANENT
 |
 JSPROP_SHADOWABLE
