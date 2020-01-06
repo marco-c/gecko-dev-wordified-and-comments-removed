@@ -32633,7 +32633,7 @@ nsCOMPtr
 <
 nsIContent
 >
-sibling
+brNode
 ;
 nsCOMPtr
 <
@@ -32662,14 +32662,9 @@ aPara
 doesCRCreateNewP
 )
 {
-sibling
+brNode
 =
-node
--
->
-AsContent
-(
-)
+nullptr
 ;
 }
 else
@@ -32690,7 +32685,7 @@ if
 aOffset
 )
 {
-sibling
+brNode
 =
 htmlEditor
 -
@@ -32703,7 +32698,7 @@ node
 if
 (
 !
-sibling
+brNode
 |
 |
 !
@@ -32712,7 +32707,7 @@ htmlEditor
 >
 IsVisibleBRElement
 (
-sibling
+brNode
 )
 |
 |
@@ -32723,7 +32718,7 @@ HasMozAttr
 (
 GetAsDOMNode
 (
-sibling
+brNode
 )
 )
 )
@@ -32731,6 +32726,10 @@ sibling
 newBRneeded
 =
 true
+;
+brNode
+=
+nullptr
 ;
 }
 }
@@ -32754,7 +32753,7 @@ Length
 )
 )
 {
-sibling
+brNode
 =
 htmlEditor
 -
@@ -32767,7 +32766,7 @@ node
 if
 (
 !
-sibling
+brNode
 |
 |
 !
@@ -32776,7 +32775,7 @@ htmlEditor
 >
 IsVisibleBRElement
 (
-sibling
+brNode
 )
 |
 |
@@ -32787,7 +32786,7 @@ HasMozAttr
 (
 GetAsDOMNode
 (
-sibling
+brNode
 )
 )
 )
@@ -32795,6 +32794,10 @@ sibling
 newBRneeded
 =
 true
+;
+brNode
+=
+nullptr
 ;
 offset
 +
@@ -32980,9 +32983,18 @@ if
 (
 !
 newBRneeded
+&
+&
+TextEditUtils
+:
+:
+IsBreak
+(
+nearNode
+)
 )
 {
-sibling
+brNode
 =
 nearNode
 ;
@@ -33025,7 +33037,7 @@ NS_OK
 )
 ;
 }
-sibling
+brNode
 =
 htmlEditor
 -
@@ -33065,7 +33077,7 @@ GetAsDOMNode
 (
 aPara
 )
-sibling
+brNode
 aSelection
 address_of
 (
@@ -33142,9 +33154,6 @@ aPara
 NS_ENSURE_TRUE
 (
 para
-&
-&
-aBRNode
 &
 &
 aSelNode
@@ -33290,6 +33299,9 @@ mHTMLEditor
 ;
 if
 (
+aBRNode
+&
+&
 mHTMLEditor
 -
 >
