@@ -1668,9 +1668,10 @@ GetCommonEditingHostForAllRanges
 (
 )
 ;
-nsTArray
+AutoTArray
 <
 RangeData
+1
 >
 mRanges
 ;
