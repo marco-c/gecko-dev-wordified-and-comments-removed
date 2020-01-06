@@ -2984,6 +2984,11 @@ windows
 *
 :
 5
+linux32
+/
+debug
+:
+16
 linux
 .
 *
