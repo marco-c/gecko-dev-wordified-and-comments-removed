@@ -77,6 +77,7 @@ mp4parse_codec_OPUS
 mp4parse_codec_AVC
 mp4parse_codec_VP9
 mp4parse_codec_MP3
+mp4parse_codec_MP4V
 }
 mp4parse_codec
 ;
