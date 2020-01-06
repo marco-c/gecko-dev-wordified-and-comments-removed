@@ -128,6 +128,11 @@ nsIUrlClassifierHashCompleter
 idl
 '
 '
+nsIUrlClassifierInfo
+.
+idl
+'
+'
 nsIUrlClassifierPrefixSet
 .
 idl
@@ -201,6 +206,11 @@ cpp
 '
 '
 nsUrlClassifierDBService
+.
+cpp
+'
+'
+nsUrlClassifierInfo
 .
 cpp
 '
