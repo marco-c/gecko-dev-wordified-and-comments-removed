@@ -483,7 +483,7 @@ build
     
 targeting
 API
-15
+16
 +
 which
 will
@@ -922,7 +922,7 @@ elif
 min_sdk
 =
 =
-15
+16
 :
             
 version

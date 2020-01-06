@@ -102,7 +102,7 @@ support
 Android
 SDK
 version
-15
+16
 and
 up
 by
@@ -138,7 +138,7 @@ in
 .
 MOZ_ANDROID_MIN_SDK_VERSION
 =
-15
+16
 #
 There
 are
