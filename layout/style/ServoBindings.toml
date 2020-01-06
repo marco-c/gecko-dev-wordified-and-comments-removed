@@ -2962,9 +2962,6 @@ ComputedTimingFunction_BeforeFlag
 CounterStylePtr
 "
 "
-FontFamilyList
-"
-"
 FontFamilyType
 "
 "
@@ -3251,6 +3248,15 @@ MatrixTransformOperator
 "
 "
 RawGeckoGfxMatrix4x4
+"
+"
+FontFamilyName
+"
+"
+mozilla
+:
+:
+SharedFontList
 "
 ]
 array
