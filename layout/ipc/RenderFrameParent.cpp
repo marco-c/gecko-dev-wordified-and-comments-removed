@@ -1886,16 +1886,6 @@ nsDisplayListBuilder
 aDisplayListBuilder
 )
 {
-MOZ_ASSERT
-(
-aManager
--
->
-IsLayersFreeTransaction
-(
-)
-)
-;
 mOffset
 =
 mozilla

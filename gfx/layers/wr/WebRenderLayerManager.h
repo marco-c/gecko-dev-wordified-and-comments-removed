@@ -516,15 +516,6 @@ nsDisplayListBuilder
 aDisplayListBuilder
 )
 ;
-bool
-IsLayersFreeTransaction
-(
-)
-{
-return
-mEndTransactionWithoutLayers
-;
-}
 virtual
 void
 EndTransaction
@@ -1751,9 +1742,6 @@ mIsFirstPaint
 ;
 FocusTarget
 mFocusTarget
-;
-bool
-mEndTransactionWithoutLayers
 ;
 RefPtr
 <
