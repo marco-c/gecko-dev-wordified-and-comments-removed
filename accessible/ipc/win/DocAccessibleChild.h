@@ -92,7 +92,7 @@ IPCResult
 RecvParentCOMProxy
 (
 const
-IDispatchHolder
+IAccessibleHolder
 &
 aParentCOMProxy
 )
@@ -110,7 +110,7 @@ WindowsHandle
 &
 aEmulatedWindowHandle
 const
-IDispatchHolder
+IAccessibleHolder
 &
 aEmulatedWindowCOMProxy
 )
@@ -132,7 +132,7 @@ GetNativeWindowHandle
 )
 const
 ;
-IDispatch
+IAccessible
 *
 GetEmulatedWindowIAccessible
 (
@@ -147,7 +147,7 @@ get
 )
 ;
 }
-IDispatch
+IAccessible
 *
 GetParentIAccessible
 (
@@ -1334,7 +1334,7 @@ mscom
 :
 ProxyUniquePtr
 <
-IDispatch
+IAccessible
 >
 mParentProxy
 ;
@@ -1343,7 +1343,7 @@ mscom
 :
 ProxyUniquePtr
 <
-IDispatch
+IAccessible
 >
 mEmulatedWindowProxy
 ;
