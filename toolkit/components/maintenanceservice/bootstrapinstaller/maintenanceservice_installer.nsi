@@ -288,13 +288,8 @@ Maintenance
 Service
 "
 !
-ifdef
-BrandFullName
-!
 undef
 BrandFullName
-!
-endif
 !
 define
 BrandFullName

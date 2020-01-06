@@ -127,13 +127,6 @@ Firefox
 "
 !
 define
-BrandFullName
-"
-Mozilla
-Firefox
-"
-!
-define
 CompanyName
 "
 Mozilla
