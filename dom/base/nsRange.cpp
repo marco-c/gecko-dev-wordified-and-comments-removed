@@ -1257,10 +1257,6 @@ mEndOffsetWasIncremented
 (
 false
 )
-mEnableGravitationOnElementRemoval
-(
-true
-)
 mCalledByJS
 (
 false
@@ -3532,15 +3528,6 @@ ContentIsDescendantOf
 mEndParent
 aChild
 )
-;
-}
-if
-(
-!
-mEnableGravitationOnElementRemoval
-)
-{
-return
 ;
 }
 if
