@@ -106,13 +106,6 @@ class
 SVGSVGElement
 ;
 }
-namespace
-gfx
-{
-class
-Matrix
-;
-}
 }
 #
 define

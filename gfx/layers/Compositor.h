@@ -188,9 +188,6 @@ namespace
 gfx
 {
 class
-Matrix
-;
-class
 DrawTarget
 ;
 class

@@ -37,13 +37,6 @@ nsSMILValue
 namespace
 mozilla
 {
-namespace
-gfx
-{
-class
-Matrix
-;
-}
 enum
 RotateType
 {
