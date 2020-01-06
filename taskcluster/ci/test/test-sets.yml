@@ -1528,6 +1528,8 @@ security
 precaution
 -
 marionette
+-
+geckoview
 android
 -
 opt
@@ -1536,6 +1538,8 @@ tests
 :
 -
 robocop
+-
+geckoview
 android
 -
 gradle
@@ -1548,8 +1552,6 @@ mochitest
 chrome
 -
 robocop
--
-geckoview
 -
 test
 -
@@ -1566,6 +1568,8 @@ mochitest
 chrome
 -
 xpcshell
+-
+geckoview
 devtools
 -
 tests
