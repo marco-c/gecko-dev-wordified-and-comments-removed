@@ -2224,7 +2224,7 @@ if
 aManager
 -
 >
-PushItemAsBlobImage
+PushItemAsImage
 (
 aItem
 aBuilder

@@ -330,7 +330,7 @@ aRect
 )
 ;
 bool
-PushItemAsBlobImage
+PushItemAsImage
 (
 nsDisplayItem
 *
