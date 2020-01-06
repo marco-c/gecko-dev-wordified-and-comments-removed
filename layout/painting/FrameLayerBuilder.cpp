@@ -28392,6 +28392,7 @@ return
 nullptr
 ;
 }
+static
 gfx
 :
 :
@@ -28409,7 +28410,7 @@ RoundedRect
 &
 aRects
 int32_t
-A2D
+aAppUnitsPerDevPixel
 )
 {
 nsRect
@@ -28460,15 +28461,13 @@ return
 gfx
 :
 :
-ToRect
-(
-nsLayoutUtils
-:
-:
-RectToGfxRect
+Rect
 (
 bounds
-A2D
+.
+ToNearestPixels
+(
+aAppUnitsPerDevPixel
 )
 )
 ;
