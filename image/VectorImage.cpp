@@ -397,7 +397,7 @@ GetRootSVGElem
 }
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 override

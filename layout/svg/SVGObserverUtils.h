@@ -261,7 +261,7 @@ StopObserving
 ;
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 =
@@ -344,9 +344,8 @@ get
 )
 ;
 }
-virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 override
@@ -415,7 +414,7 @@ StartObserving
 mOwningObserver
 -
 >
-DoUpdate
+OnRenderingChange
 (
 )
 ;
@@ -547,7 +546,7 @@ nsSVGRenderingObserverProperty
 }
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 override
@@ -633,7 +632,7 @@ Invalidate
 )
 override
 {
-DoUpdate
+OnRenderingChange
 (
 )
 ;
@@ -650,7 +649,7 @@ nsSVGFilterReference
 }
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 override
@@ -706,7 +705,7 @@ Invalidate
 (
 )
 {
-DoUpdate
+OnRenderingChange
 (
 )
 ;
@@ -726,7 +725,7 @@ nsSVGFilterChainObserver
 ;
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 =
@@ -837,7 +836,7 @@ protected
 :
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 override
@@ -880,7 +879,7 @@ protected
 :
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 override
@@ -935,7 +934,7 @@ protected
 :
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 override
@@ -985,7 +984,7 @@ protected
 :
 virtual
 void
-DoUpdate
+OnRenderingChange
 (
 )
 override
