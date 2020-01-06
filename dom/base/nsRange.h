@@ -515,7 +515,7 @@ parentNode
 static
 nsINode
 *
-GetParentAndOffsetBefore
+GetContainerAndOffsetBefore
 (
 nsINode
 *

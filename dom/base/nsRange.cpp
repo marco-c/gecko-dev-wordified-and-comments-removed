@@ -5781,7 +5781,7 @@ nsINode
 *
 parent
 =
-GetParentAndOffsetBefore
+GetContainerAndOffsetBefore
 (
 &
 aNode
@@ -6577,7 +6577,7 @@ nsINode
 *
 parent
 =
-GetParentAndOffsetBefore
+GetContainerAndOffsetBefore
 (
 &
 aNode
