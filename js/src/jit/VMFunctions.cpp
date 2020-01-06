@@ -7146,7 +7146,7 @@ isConstructor
 ;
 }
 void
-MarkValueFromIon
+MarkValueFromJit
 (
 JSRuntime
 *
@@ -7177,7 +7177,7 @@ barrier
 ;
 }
 void
-MarkStringFromIon
+MarkStringFromJit
 (
 JSRuntime
 *
@@ -7215,7 +7215,7 @@ barrier
 ;
 }
 void
-MarkObjectFromIon
+MarkObjectFromJit
 (
 JSRuntime
 *
@@ -7253,7 +7253,7 @@ barrier
 ;
 }
 void
-MarkShapeFromIon
+MarkShapeFromJit
 (
 JSRuntime
 *
@@ -7285,7 +7285,7 @@ barrier
 ;
 }
 void
-MarkObjectGroupFromIon
+MarkObjectGroupFromJit
 (
 JSRuntime
 *
