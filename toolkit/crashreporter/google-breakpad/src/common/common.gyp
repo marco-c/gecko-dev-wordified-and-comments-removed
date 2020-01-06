@@ -1248,7 +1248,7 @@ md5
 h
 '
 '
-memory
+memory_allocator
 .
 h
 '
@@ -1671,12 +1671,12 @@ macho_reader_unittest
 cc
 '
 '
-memory_range_unittest
+memory_allocator_unittest
 .
 cc
 '
 '
-memory_unittest
+memory_range_unittest
 .
 cc
 '

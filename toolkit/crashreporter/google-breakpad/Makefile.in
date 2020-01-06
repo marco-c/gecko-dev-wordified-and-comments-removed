@@ -5879,9 +5879,10 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
+\
 src
 /
 common
@@ -5891,7 +5892,6 @@ tests
 auto_tempdir
 .
 h
-\
 src
 /
 common
@@ -5901,6 +5901,7 @@ tests
 file_utils
 .
 cc
+\
 src
 /
 common
@@ -6317,7 +6318,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 (
 OBJEXT
@@ -17061,6 +17062,9 @@ program_transform_name
 psdir
 =
 psdir
+runstatedir
+=
+runstatedir
 sbindir
 =
 sbindir
@@ -19819,7 +19823,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 \
@@ -35162,7 +35166,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 (
 OBJEXT
@@ -63347,7 +63351,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 o
 :
@@ -63355,7 +63359,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 am__fastdepCXX_TRUE
@@ -63394,7 +63398,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 o
 -
@@ -63413,7 +63417,7 @@ DEPDIR
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 Tpo
 -
@@ -63426,7 +63430,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 o
 test
@@ -63437,7 +63441,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
@@ -63454,7 +63458,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 am__fastdepCXX_TRUE
@@ -63474,7 +63478,7 @@ DEPDIR
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 Tpo
 src
@@ -63487,7 +63491,7 @@ DEPDIR
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 Po
 AMDEP_TRUE
@@ -63502,7 +63506,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
@@ -63515,7 +63519,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 o
 '
@@ -63576,7 +63580,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 o
 test
@@ -63587,7 +63591,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
@@ -63604,7 +63608,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 src
@@ -63613,7 +63617,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 obj
 :
@@ -63621,7 +63625,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 am__fastdepCXX_TRUE
@@ -63660,7 +63664,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 obj
 -
@@ -63679,7 +63683,7 @@ DEPDIR
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 Tpo
 -
@@ -63692,7 +63696,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 obj
 if
@@ -63704,7 +63708,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
@@ -63718,7 +63722,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
@@ -63736,7 +63740,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
@@ -63759,7 +63763,7 @@ DEPDIR
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 Tpo
 src
@@ -63772,7 +63776,7 @@ DEPDIR
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 Po
 AMDEP_TRUE
@@ -63787,7 +63791,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
@@ -63800,7 +63804,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 obj
 '
@@ -63861,7 +63865,7 @@ common
 /
 src_client_linux_linux_client_unittest_shlib
 -
-memory_unittest
+memory_allocator_unittest
 .
 obj
 if
@@ -63873,7 +63877,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
@@ -63887,7 +63891,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
@@ -63905,7 +63909,7 @@ src
 /
 common
 /
-memory_unittest
+memory_allocator_unittest
 .
 cc
 '
