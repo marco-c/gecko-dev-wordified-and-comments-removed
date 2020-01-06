@@ -762,12 +762,6 @@ SupportsBackdropCopyForComponentAlpha
 (
 )
 ;
-ident
-.
-mUsingAdvancedLayers
-=
-true
-;
 return
 ident
 ;
