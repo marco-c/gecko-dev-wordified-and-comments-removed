@@ -835,16 +835,6 @@ ForceClose
 =
 0
 ;
-bool
-IsModalContentWindow
-(
-)
-const
-{
-return
-mIsModalContentWindow
-;
-}
 void
 SetHasPaintEventListeners
 (
@@ -1791,9 +1781,6 @@ mMayHavePointerEnterLeaveEventListener
 ;
 bool
 mInnerObjectsFreed
-;
-bool
-mIsModalContentWindow
 ;
 bool
 mIsActive
