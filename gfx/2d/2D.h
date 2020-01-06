@@ -2524,7 +2524,10 @@ class
 DrawTarget
 :
 public
-RefCounted
+external
+:
+:
+AtomicRefCounted
 <
 DrawTarget
 >
