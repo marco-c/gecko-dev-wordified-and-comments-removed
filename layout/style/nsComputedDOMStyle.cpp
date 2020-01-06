@@ -2455,7 +2455,10 @@ pseudoType
 )
 ;
 return
-NS_NewStyleContext
+ServoStyleContext
+:
+:
+Create
 (
 nullptr
 presContext
@@ -2598,7 +2601,10 @@ pseudoType
 )
 ;
 return
-NS_NewStyleContext
+ServoStyleContext
+:
+:
+Create
 (
 nullptr
 presContext

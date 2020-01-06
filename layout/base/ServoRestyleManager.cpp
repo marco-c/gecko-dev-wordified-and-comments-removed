@@ -1990,7 +1990,7 @@ true
 }
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 oldStyleContext
 =
@@ -2000,6 +2000,11 @@ styleFrame
 -
 >
 StyleContext
+(
+)
+-
+>
+AsServo
 (
 )
 :
@@ -2045,6 +2050,11 @@ displayContentsNode
 -
 >
 mStyle
+-
+>
+AsServo
+(
+)
 ;
 }
 }
@@ -2139,7 +2149,7 @@ aRestyleState
 ;
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 newContext
 =

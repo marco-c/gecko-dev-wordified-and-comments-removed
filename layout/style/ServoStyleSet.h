@@ -162,6 +162,9 @@ class
 ServoElementSnapshotTable
 ;
 class
+ServoStyleContext
+;
+class
 ServoStyleRuleMap
 ;
 }
@@ -592,7 +595,7 @@ All
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 ResolveInheritingAnonymousBoxStyle
 (
@@ -1205,7 +1208,7 @@ mSet
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 GetContext
 (
@@ -1231,7 +1234,7 @@ aElementForAnimation
 ;
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
 GetContext
 (

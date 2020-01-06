@@ -2899,11 +2899,17 @@ forget
 )
 ;
 }
+namespace
+mozilla
+{
 already_AddRefed
 <
-nsStyleContext
+ServoStyleContext
 >
-NS_NewStyleContext
+ServoStyleContext
+:
+:
+Create
 (
 nsStyleContext
 *
@@ -2925,7 +2931,7 @@ aComputedValues
 {
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 context
 =
@@ -2949,6 +2955,7 @@ forget
 (
 )
 ;
+}
 }
 nsIPresShell
 *

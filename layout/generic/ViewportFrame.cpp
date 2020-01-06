@@ -1990,11 +1990,16 @@ ServoRestyleState
 aRestyleState
 )
 {
-nsStyleContext
+ServoStyleContext
 *
 oldContext
 =
 StyleContext
+(
+)
+-
+>
+AsServo
 (
 )
 ;
@@ -2011,7 +2016,7 @@ GetPseudo
 ;
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 newContext
 =
