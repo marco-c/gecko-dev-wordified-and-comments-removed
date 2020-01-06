@@ -258,6 +258,15 @@ SetterThrows
 Pure
 ]
 attribute
+boolean
+allowPaymentRequest
+;
+[
+CEReactions
+SetterThrows
+Pure
+]
+attribute
 DOMString
 width
 ;
