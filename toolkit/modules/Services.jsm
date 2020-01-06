@@ -1281,11 +1281,9 @@ nsIQuotaManagerService
 ]
 ]
 ;
-initTable
-.
-forEach
+for
 (
-(
+let
 [
 name
 contract
@@ -1294,9 +1292,9 @@ enabled
 =
 true
 ]
+of
+initTable
 )
-=
->
 {
 if
 (
@@ -1315,8 +1313,6 @@ intf
 ;
 }
 }
-)
-;
 initTable
 =
 undefined
