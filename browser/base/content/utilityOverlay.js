@@ -3535,11 +3535,6 @@ advancedPrefs
 "
 )
 ;
-if
-(
-advancedPaneTabs
-)
-{
 advancedPaneTabs
 .
 selectedTab
@@ -3556,7 +3551,6 @@ advancedTab
 ]
 )
 ;
-}
 }
 }
 function
