@@ -415,7 +415,7 @@ wr
 :
 :
 ImageKey
-GetImageKey
+GenerateImageKey
 (
 )
 {
@@ -428,8 +428,6 @@ key
 key
 .
 mNamespace
-.
-mHandle
 =
 GetNamespace
 (
@@ -448,7 +446,7 @@ key
 ;
 }
 bool
-GetImageKeyForTextureHost
+GenerateImageKeyForTextureHost
 (
 wr
 :

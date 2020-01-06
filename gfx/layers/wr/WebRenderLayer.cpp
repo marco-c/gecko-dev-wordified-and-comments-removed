@@ -130,7 +130,7 @@ WrImageKey
 WebRenderLayer
 :
 :
-GetImageKey
+GenerateImageKey
 (
 )
 {
@@ -143,8 +143,6 @@ key
 key
 .
 mNamespace
-.
-mHandle
 =
 WrBridge
 (
@@ -554,7 +552,7 @@ wr
 WrImageKey
 key
 =
-GetImageKey
+GenerateImageKey
 (
 )
 ;
