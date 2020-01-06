@@ -597,7 +597,7 @@ healthReport
 isGeckoPrefOn
 ;
 }
-private
+public
 static
 boolean
 isDefaultBrowser
