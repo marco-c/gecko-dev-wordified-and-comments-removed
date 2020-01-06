@@ -257,6 +257,16 @@ use
 self
 :
 :
+font
+:
+:
+XTextZoom
+;
+pub
+use
+self
+:
+:
 box_
 :
 :
