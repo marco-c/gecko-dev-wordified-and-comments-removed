@@ -175,6 +175,15 @@ use
 std
 :
 :
+ascii
+:
+:
+AsciiExt
+;
+use
+std
+:
+:
 mem
 ;
 use
@@ -2341,7 +2350,7 @@ s_lower
 =
 s
 .
-to_lowercase
+to_ascii_lowercase
 (
 )
 ;
