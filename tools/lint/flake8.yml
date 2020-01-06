@@ -148,6 +148,8 @@ type
 external
 payload
 :
-flake8_
+python
+.
+flake8
 :
 lint

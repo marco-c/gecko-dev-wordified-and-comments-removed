@@ -295,7 +295,7 @@ tools
 /
 lint
 /
-flake8_
+python
 /
 flake8_requirements
 .
@@ -307,7 +307,7 @@ tools
 /
 lint
 /
-flake8_
+python
 /
 flake8_requirements
 .
