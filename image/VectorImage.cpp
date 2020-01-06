@@ -1409,8 +1409,6 @@ VectorImage
 ImageURL
 *
 aURI
-StyleBackendType
-aStyleBackendType
 )
 :
 ImageResource
@@ -1440,10 +1438,6 @@ false
 mHasPendingInvalidation
 (
 false
-)
-mStyleBackendType
-(
-aStyleBackendType
 )
 {
 }
@@ -4502,7 +4496,6 @@ mSVGDocumentWrapper
 new
 SVGDocumentWrapper
 (
-mStyleBackendType
 )
 ;
 nsresult
