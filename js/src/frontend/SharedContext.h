@@ -1323,11 +1323,6 @@ useAsm
 1
 ;
 bool
-insideUseAsm
-:
-1
-;
-bool
 isAnnexB
 :
 1
@@ -2105,9 +2100,6 @@ const
 {
 return
 useAsm
-|
-|
-insideUseAsm
 ;
 }
 void
