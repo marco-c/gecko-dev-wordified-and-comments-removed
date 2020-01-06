@@ -1087,6 +1087,17 @@ MoveOverflowToChildList
 )
 ;
 void
+PushChildrenToOverflow
+(
+nsIFrame
+*
+aFromChild
+nsIFrame
+*
+aPrevSibling
+)
+;
+void
 PushChildren
 (
 nsIFrame
