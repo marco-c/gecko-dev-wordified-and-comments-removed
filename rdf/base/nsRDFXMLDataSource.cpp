@@ -2758,6 +2758,10 @@ getter_AddRefs
 bufferedOut
 )
 out
+.
+forget
+(
+)
 4096
 )
 ;

@@ -8433,6 +8433,10 @@ getter_AddRefs
 bufferedOut
 )
 out
+.
+forget
+(
+)
 16
 *
 1024
