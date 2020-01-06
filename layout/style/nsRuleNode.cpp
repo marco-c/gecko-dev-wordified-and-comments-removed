@@ -30952,7 +30952,7 @@ parentDisplay
 -
 >
 mAppearance
-NS_THEME_NONE
+NS_THEME_AUTO
 )
 ;
 const
