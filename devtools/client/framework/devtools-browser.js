@@ -1821,7 +1821,6 @@ if
 processId
 )
 {
-return
 this
 .
 _getContentProcessTarget
@@ -1855,6 +1854,8 @@ WINDOW
 )
 ;
 }
+else
+{
 let
 msg
 =
@@ -1883,14 +1884,7 @@ null
 msg
 )
 ;
-return
-Promise
-.
-reject
-(
-msg
-)
-;
+}
 }
 installWebIDEWidget
 (
