@@ -4416,7 +4416,13 @@ b
 >
 {
 type
-Prelude
+PreludeNoBlock
+=
+(
+)
+;
+type
+PreludeBlock
 =
 (
 )
