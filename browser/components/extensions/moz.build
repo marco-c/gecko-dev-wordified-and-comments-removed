@@ -207,17 +207,6 @@ test
 xpcshell
 /
 xpcshell
--
-remote
-.
-ini
-'
-'
-test
-/
-xpcshell
-/
-xpcshell
 .
 ini
 '
