@@ -1510,9 +1510,6 @@ nsIIdleServiceInternal
 mIdleService
 ;
 bool
-mAwaitingFullScreen
-;
-bool
 mIsFullScreen
 ;
 bool
