@@ -207,6 +207,14 @@ AudioInputCubeb
 :
 sMutex
 ;
+uint32_t
+AudioInputCubeb
+:
+:
+sUserChannelCount
+=
+0
+;
 void
 AudioInputCubeb
 :

@@ -1977,6 +1977,14 @@ return
 mStreamTracksStartTimeStamp
 ;
 }
+bool
+OpenNewAudioCallbackDriver
+(
+AudioDataListener
+*
+aListener
+)
+;
 friend
 class
 MediaStreamGraphImpl

@@ -9532,6 +9532,12 @@ hsla
 1
 )
 ;
+background
+-
+color
+:
+transparent
+;
 }
 .
 sidebar
@@ -16177,6 +16183,9 @@ customizeMode
 inc
 .
 css
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 main
 -
@@ -16851,6 +16860,11 @@ solid
 transparent
 ;
 }
+%
+endif
+%
+ifndef
+MOZ_PHOTON_THEME
 media
 (
 min
@@ -17064,6 +17078,8 @@ png
 ;
 }
 }
+%
+endif
 .
 private
 -
