@@ -271,6 +271,13 @@ n
 static
 inline
 bool
+hasAtomic8
+(
+)
+;
+static
+inline
+bool
 isLockfree8
 (
 )
