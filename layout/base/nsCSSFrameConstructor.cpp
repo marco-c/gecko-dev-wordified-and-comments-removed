@@ -25745,7 +25745,7 @@ aState
 mFrameManager
 -
 >
-ChangeDisplayContents
+ChangeRegisteredDisplayContentsStyleFor
 (
 aContent
 styleContext
@@ -41016,7 +41016,7 @@ StyleDisplay
 None
 )
 {
-ChangeUndisplayedContent
+ChangeRegisteredDisplayNoneStyleFor
 (
 aElement
 newContext
@@ -41025,7 +41025,7 @@ newContext
 }
 else
 {
-ChangeDisplayContents
+ChangeRegisteredDisplayContentsStyleFor
 (
 aElement
 newContext

@@ -189,7 +189,7 @@ aStyleContext
 )
 ;
 void
-ChangeUndisplayedContent
+ChangeRegisteredDisplayNoneStyleFor
 (
 nsIContent
 *
@@ -208,7 +208,7 @@ aStyleContext
 ;
 }
 void
-ChangeDisplayContents
+ChangeRegisteredDisplayContentsStyleFor
 (
 nsIContent
 *
