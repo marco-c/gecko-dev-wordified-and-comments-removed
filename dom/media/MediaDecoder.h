@@ -670,7 +670,6 @@ Pause
 (
 )
 ;
-virtual
 void
 SetVolume
 (
@@ -678,7 +677,6 @@ double
 aVolume
 )
 ;
-virtual
 void
 SetPlaybackRate
 (
