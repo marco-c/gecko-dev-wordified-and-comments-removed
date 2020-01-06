@@ -13976,7 +13976,7 @@ IDN
 restriction_profile
 "
 "
-moderate
+high
 "
 )
 ;
