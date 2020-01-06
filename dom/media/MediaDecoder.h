@@ -135,15 +135,6 @@ h
 #
 include
 "
-necko
--
-config
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
