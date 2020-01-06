@@ -441,7 +441,7 @@ outstanding_
 AutoLockHelperThreadState
 lock
 ;
-CompileTaskPtrFifo
+CompileTaskPtrVector
 &
 worklist
 =
@@ -485,10 +485,9 @@ taskState_
 size_t
 removed
 =
-worklist
-.
-eraseIf
+EraseIf
 (
+worklist
 pred
 )
 ;
