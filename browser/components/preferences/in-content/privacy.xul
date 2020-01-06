@@ -2846,15 +2846,11 @@ id
 "
 showPasswordBox
 "
->
-<
-hbox
-id
+pack
 =
 "
-showPasswordsBox
+end
 "
-/
 >
 <
 button
