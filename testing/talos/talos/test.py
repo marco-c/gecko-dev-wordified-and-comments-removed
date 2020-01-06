@@ -4514,6 +4514,10 @@ tpmozafterpaint
 =
 False
     
+tpchrome
+=
+False
+    
 gecko_profile_interval
 =
 10
@@ -4643,6 +4647,10 @@ tppagecycles
 25
     
 tpmozafterpaint
+=
+False
+    
+tpchrome
 =
 False
     
@@ -4777,6 +4785,10 @@ tppagecycles
 tpmozafterpaint
 =
 True
+    
+tpchrome
+=
+False
     
 gecko_profile_interval
 =
