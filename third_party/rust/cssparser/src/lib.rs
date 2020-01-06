@@ -168,8 +168,6 @@ tokenizer
 :
 {
 Token
-NumericValue
-PercentageValue
 SourceLocation
 }
 ;
@@ -277,6 +275,13 @@ unicode_range
 :
 UnicodeRange
 ;
+pub
+use
+compact_cow_str
+:
+:
+CompactCowStr
+;
 #
 [
 doc
@@ -381,6 +386,9 @@ serializer
 mod
 unicode_range
 ;
+mod
+compact_cow_str
+;
 #
 [
 cfg
@@ -390,4 +398,14 @@ test
 ]
 mod
 tests
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+size_of_tests
 ;
