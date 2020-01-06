@@ -75,8 +75,6 @@ size_t
 impulseResponseBufferLength
 size_t
 maxFFTSize
-size_t
-numberOfChannels
 bool
 useBackgroundThreads
 bool
@@ -142,8 +140,6 @@ size_t
 impulseResponseBufferLength
 size_t
 maxFFTSize
-size_t
-numberOfChannels
 bool
 useBackgroundThreads
 )
