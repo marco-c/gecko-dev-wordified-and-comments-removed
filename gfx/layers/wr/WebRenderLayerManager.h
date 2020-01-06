@@ -567,6 +567,13 @@ mIsFirstPaint
 true
 ;
 }
+bool
+AsyncPanZoomEnabled
+(
+)
+const
+override
+;
 DrawPaintedLayerCallback
 GetPaintedLayerCallback
 (
