@@ -1493,12 +1493,6 @@ media
 :
 :
 TimeUnit
-mLowAudioThreshold
-;
-media
-:
-:
-TimeUnit
 mAmpleAudioThreshold
 ;
 using
