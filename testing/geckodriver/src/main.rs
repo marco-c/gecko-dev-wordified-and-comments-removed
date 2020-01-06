@@ -32,6 +32,10 @@ mozrunner
 ;
 extern
 crate
+mozversion
+;
+extern
+crate
 regex
 ;
 extern

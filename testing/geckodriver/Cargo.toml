@@ -181,6 +181,13 @@ mozrunner
 .
 3
 "
+mozversion
+=
+"
+0
+.
+1
+"
 regex
 =
 "
@@ -239,7 +246,7 @@ webdriver
 "
 0
 .
-23
+24
 "
 zip
 =
