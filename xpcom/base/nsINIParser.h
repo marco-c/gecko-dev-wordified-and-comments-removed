@@ -70,15 +70,6 @@ nsIFile
 aFile
 )
 ;
-nsresult
-Init
-(
-const
-char
-*
-aPath
-)
-;
 typedef
 bool
 (
