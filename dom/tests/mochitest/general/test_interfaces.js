@@ -1401,9 +1401,6 @@ PerformanceMeasure
 PerformanceNavigation
 "
 "
-PerformanceNavigationTiming
-"
-"
 PerformanceObserver
 "
 "
