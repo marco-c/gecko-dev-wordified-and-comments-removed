@@ -4954,7 +4954,7 @@ label
 =
 "
 &
-useRecommendedPerformanceSettings
+useRecommendedPerformanceSettings2
 .
 label
 ;
@@ -4963,7 +4963,7 @@ accesskey
 =
 "
 &
-useRecommendedPerformanceSettings
+useRecommendedPerformanceSettings2
 .
 accesskey
 ;
@@ -5019,7 +5019,7 @@ indent
 "
 >
 &
-useRecommendedPerformanceSettings
+useRecommendedPerformanceSettings2
 .
 description
 ;
@@ -5100,7 +5100,7 @@ accesskey
 =
 "
 &
-limitContentProcess
+limitContentProcess2
 .
 accesskey
 ;
@@ -5112,7 +5112,7 @@ contentProcessCount
 "
 >
 &
-limitContentProcess
+limitContentProcess2
 .
 label
 ;
@@ -5254,7 +5254,7 @@ hbox
 description
 >
 &
-limitContentProcess
+limitContentProcess2
 .
 description
 ;
