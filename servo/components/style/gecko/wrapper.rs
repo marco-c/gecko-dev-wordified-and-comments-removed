@@ -5980,8 +5980,11 @@ current
 =
 Some
 (
-*
 self
+.
+rule_hash_target
+(
+)
 )
 ;
 while
