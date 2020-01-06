@@ -4331,6 +4331,8 @@ isAtomic
 &
 &
 !
+env_
+.
 isAsmJS
 (
 )
