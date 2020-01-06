@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIEntityConverter
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIEntityConverter
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -368,12 +361,6 @@ aNode
 ;
 protected
 :
-nsCOMPtr
-<
-nsIEntityConverter
->
-mEntityConverter
-;
 bool
 mIsHTMLSerializer
 ;

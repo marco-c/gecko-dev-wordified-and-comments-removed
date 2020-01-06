@@ -247,11 +247,6 @@ nsExpatDriver
 cpp
 '
 '
-nsHTMLEntities
-.
-cpp
-'
-'
 nsHTMLTags
 .
 cpp

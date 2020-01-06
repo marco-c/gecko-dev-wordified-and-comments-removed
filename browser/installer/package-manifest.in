@@ -4496,13 +4496,6 @@ res
 language
 .
 properties
-RESPATH
-/
-res
-/
-entityTables
-/
-*
 #
 ifdef
 XP_MACOSX
