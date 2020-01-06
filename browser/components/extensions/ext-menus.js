@@ -331,6 +331,15 @@ contextData
 extension
 )
 ;
+if
+(
+!
+root
+)
+{
+return
+;
+}
 const
 children
 =
