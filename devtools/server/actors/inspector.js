@@ -117,7 +117,6 @@ emitter
 ;
 const
 {
-nodeListSpec
 walkerSpec
 inspectorSpec
 }
@@ -138,6 +137,7 @@ inspector
 const
 {
 nodeSpec
+nodeListSpec
 }
 =
 require

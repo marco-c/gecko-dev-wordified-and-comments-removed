@@ -689,6 +689,12 @@ types
 "
 imageData
 "
+"
+disconnectedNode
+"
+"
+disconnectedNodeArray
+"
 ]
 spec
 :
@@ -711,6 +717,9 @@ types
 [
 "
 domnode
+"
+"
+domnodelist
 "
 ]
 spec
