@@ -3338,15 +3338,6 @@ html
 lime
 .
 html
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 anim
