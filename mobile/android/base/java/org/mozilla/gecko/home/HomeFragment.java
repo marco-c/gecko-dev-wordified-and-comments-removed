@@ -1655,7 +1655,7 @@ run
 {
 GeckoApplication
 .
-createBrowserShortcut
+createShortcut
 (
 displayTitle
 info

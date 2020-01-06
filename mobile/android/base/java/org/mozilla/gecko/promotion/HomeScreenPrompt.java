@@ -668,7 +668,7 @@ run
 {
 GeckoApplication
 .
-createBrowserShortcut
+createShortcut
 (
 title
 url
