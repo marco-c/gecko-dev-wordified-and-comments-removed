@@ -1076,6 +1076,12 @@ nsINode
 >
 *
 aInOutParent
+nsCOMPtr
+<
+nsIContent
+>
+*
+aInOutChildAtOffset
 int32_t
 *
 aInOutOffset
@@ -1667,6 +1673,7 @@ InsertTextImpl
 (
 theString
 aInOutParent
+aInOutChildAtOffset
 aInOutOffset
 aDoc
 )

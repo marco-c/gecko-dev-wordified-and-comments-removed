@@ -707,6 +707,12 @@ nsINode
 >
 *
 aInOutNode
+nsCOMPtr
+<
+nsIContent
+>
+*
+aInOutChildAtOffset
 int32_t
 *
 aInOutOffset

@@ -1087,6 +1087,12 @@ nsINode
 >
 *
 aInOutNode
+nsCOMPtr
+<
+nsIContent
+>
+*
+aInOutChildAtOffset
 int32_t
 *
 aInOutOffset
@@ -3602,6 +3608,12 @@ aNode
 int32_t
 &
 aOffset
+nsCOMPtr
+<
+nsIContent
+>
+*
+aSelChild
 )
 ;
 void
