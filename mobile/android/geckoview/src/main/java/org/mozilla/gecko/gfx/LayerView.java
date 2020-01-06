@@ -1439,17 +1439,6 @@ layerView
 =
 this
 ;
-mCompositor
-.
-updateRootFrameMetrics
-(
-0
-0
-1
-.
-0f
-)
-;
 mToolbarAnimator
 .
 notifyCompositorCreated
