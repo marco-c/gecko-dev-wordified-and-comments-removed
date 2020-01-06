@@ -587,7 +587,3 @@ port
 linux64
 -
 clang
--
-linux64
--
-gcc
