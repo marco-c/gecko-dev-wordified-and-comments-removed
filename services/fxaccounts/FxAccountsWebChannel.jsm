@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -2194,9 +2199,10 @@ this
 .
 EnsureFxAccountsWebChannel
 =
-function
 (
 )
+=
+>
 {
 let
 contentUri

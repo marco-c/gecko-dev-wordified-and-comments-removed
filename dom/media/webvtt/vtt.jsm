@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -2103,12 +2108,6 @@ createElement
 (
 tagName
 )
-;
-element
-.
-localName
-=
-tagName
 ;
 var
 name

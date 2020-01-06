@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -1858,6 +1863,9 @@ return
 stmt
 ;
 }
+var
+dbMigrate
+;
 function
 dbInit
 (
@@ -2201,11 +2209,13 @@ schemaVersion
 DB_SCHEMA_VERSION
 ;
 }
-function
 dbMigrate
+=
 (
 oldVersion
 )
+=
+>
 {
 log
 (
@@ -2385,6 +2395,7 @@ completed
 )
 ;
 }
+;
 function
 dbAreExpectedColumnsPresent
 (

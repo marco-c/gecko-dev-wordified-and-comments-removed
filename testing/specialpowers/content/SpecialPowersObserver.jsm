@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 EXPORTED_SYMBOLS
 =
@@ -1014,10 +1019,11 @@ _topics
 .
 forEach
 (
-function
 (
 element
 )
+=
+>
 {
 obs
 .
@@ -1832,7 +1838,7 @@ request
 const
 filePerms
 =
-0666
+0o666
 ;
 let
 testFile

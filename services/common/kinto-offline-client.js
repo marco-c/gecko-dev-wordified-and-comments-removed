@@ -1,3 +1,13 @@
+"
+use
+strict
+"
+;
+const
+global
+=
+this
+;
 this
 .
 EXPORTED_SYMBOLS
