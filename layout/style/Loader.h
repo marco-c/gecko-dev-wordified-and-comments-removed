@@ -788,6 +788,9 @@ aElement
 nsIURI
 *
 aURL
+nsIPrincipal
+*
+aTriggeringPrincipal
 const
 nsAString
 &

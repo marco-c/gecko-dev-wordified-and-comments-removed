@@ -363,6 +363,10 @@ GetStyleSheetURL
 bool
 *
 aIsInline
+nsIPrincipal
+*
+*
+aTriggeringPrincipal
 )
 override
 ;
