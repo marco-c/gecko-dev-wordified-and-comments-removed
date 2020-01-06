@@ -127,6 +127,16 @@ Undo
 <
 !
 ENTITY
+addonAction
+.
+update
+"
+Update
+"
+>
+<
+!
+ENTITY
 addonUnsigned
 .
 message
