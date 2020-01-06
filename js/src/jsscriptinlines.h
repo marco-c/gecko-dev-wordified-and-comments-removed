@@ -935,9 +935,13 @@ baseline
 MOZ_ASSERT
 (
 !
-hasIonScript
-(
-)
+ion
+|
+|
+ion
+=
+=
+ION_DISABLED_SCRIPT
 )
 ;
 baseline

@@ -11881,6 +11881,9 @@ AbortReason
 :
 Alloc
 ;
+AutoLockHelperThreadState
+lock
+;
 if
 (
 !
@@ -11888,6 +11891,7 @@ StartOffThreadIonCompile
 (
 cx
 builder
+lock
 )
 )
 {
