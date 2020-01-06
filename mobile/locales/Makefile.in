@@ -1849,6 +1849,13 @@ libs
 -
 %
 :
+AB_CD
+=
+*
+libs
+-
+%
+:
 (
 libs
 -
@@ -1961,6 +1968,13 @@ multi
 -
 locale
 builds
+chrome
+-
+%
+:
+AB_CD
+=
+*
 chrome
 -
 %
