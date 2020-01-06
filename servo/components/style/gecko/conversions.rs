@@ -977,7 +977,7 @@ GenericImage
 :
 Gradient
 (
-gradient
+boxed_gradient
 )
 =
 >
@@ -986,7 +986,8 @@ self
 .
 set_gradient
 (
-gradient
+*
+boxed_gradient
 )
 }
 GenericImage
@@ -2492,6 +2493,11 @@ GenericImage
 :
 Rect
 (
+Box
+:
+:
+new
+(
 MozImageRect
 {
 url
@@ -2500,6 +2506,7 @@ right
 bottom
 left
 }
+)
 )
 )
 _
@@ -2684,7 +2691,10 @@ nsStyleImage
 )
 -
 >
+Box
+<
 Gradient
+>
 {
 use
 gecko
@@ -3702,6 +3712,11 @@ CompatMode
 Modern
 }
 ;
+Box
+:
+:
+new
+(
 Gradient
 {
 items
@@ -3713,6 +3728,7 @@ mRepeating
 kind
 compat_mode
 }
+)
 }
 }
 pub
