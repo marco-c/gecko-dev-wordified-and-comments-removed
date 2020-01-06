@@ -1923,8 +1923,15 @@ IsServo
 )
 )
 {
-NS_WARNING
+MOZ_ASSERT
 (
+!
+aOldDocument
+-
+>
+IsScopedStyleEnabled
+(
+)
 "
 stylo
 :
