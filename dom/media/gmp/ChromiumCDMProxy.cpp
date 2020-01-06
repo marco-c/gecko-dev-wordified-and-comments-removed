@@ -484,6 +484,10 @@ self
 -
 >
 mPersistentStateRequired
+self
+-
+>
+mMainThread
 )
 )
 {

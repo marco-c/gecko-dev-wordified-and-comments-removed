@@ -148,6 +148,9 @@ bool
 aAllowDistinctiveIdentifier
 bool
 aAllowPersistentState
+nsIEventTarget
+*
+aMainThread
 )
 ;
 void
@@ -860,6 +863,12 @@ mMaxRefFrames
 ;
 ReorderQueue
 mReorderQueue
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mMainThread
 ;
 }
 ;
