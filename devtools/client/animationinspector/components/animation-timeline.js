@@ -867,6 +867,9 @@ class
 :
 "
 animations
+devtools
+-
+monospace
 "
 }
 }

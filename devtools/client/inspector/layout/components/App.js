@@ -436,13 +436,6 @@ layout
 -
 container
 "
-className
-:
-"
-devtools
--
-monospace
-"
 }
 LayoutPromoteBar
 (
