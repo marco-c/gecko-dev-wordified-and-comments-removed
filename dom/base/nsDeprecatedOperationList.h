@@ -156,9 +156,5 @@ XMLBaseAttribute
 )
 DEPRECATED_OPERATION
 (
-XMLBaseAttributeForStyleAttr
-)
-DEPRECATED_OPERATION
-(
 WindowContentUntrusted
 )

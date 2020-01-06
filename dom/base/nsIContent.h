@@ -1852,10 +1852,8 @@ false
 const
 override
 ;
-already_AddRefed
-<
 nsIURI
->
+*
 GetBaseURIForStyleAttr
 (
 )
@@ -1928,14 +1926,6 @@ protected
 nsIAtom
 *
 DoGetID
-(
-)
-const
-;
-inline
-nsIURI
-*
-GetBaseURIWithoutXMLBase
 (
 )
 const
