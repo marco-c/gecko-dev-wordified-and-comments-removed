@@ -2419,9 +2419,6 @@ timeToFail
 js
 :
 :
-oom
-:
-:
 THREAD_TYPE_COOPERATING
 false
 )

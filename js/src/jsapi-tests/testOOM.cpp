@@ -201,9 +201,6 @@ oomAfter
 js
 :
 :
-oom
-:
-:
 THREAD_TYPE_COOPERATING
 true
 )
