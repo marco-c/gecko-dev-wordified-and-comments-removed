@@ -1169,6 +1169,8 @@ talos
 macosx64
 -
 tests
+-
+debug
 #
 #
 #

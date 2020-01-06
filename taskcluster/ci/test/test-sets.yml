@@ -646,8 +646,6 @@ clipboard
 macosx64
 -
 tests
--
-debug
 :
 -
 cppunit
