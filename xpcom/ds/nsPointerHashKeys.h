@@ -137,8 +137,6 @@ aKey
 )
 {
 return
-PLDHashNumber
-(
 uintptr_t
 (
 aKey
@@ -146,7 +144,6 @@ aKey
 >
 >
 2
-)
 ;
 }
 enum
