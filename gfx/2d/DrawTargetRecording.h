@@ -141,12 +141,7 @@ GetSize
 override
 {
 return
-mFinalDT
--
->
-GetSize
-(
-)
+mSize
 ;
 }
 virtual
