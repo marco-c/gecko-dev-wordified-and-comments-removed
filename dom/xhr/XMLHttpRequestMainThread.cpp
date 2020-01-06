@@ -1813,11 +1813,6 @@ NS_IMPL_RELEASE_INHERITED
 XMLHttpRequestMainThread
 XMLHttpRequestEventTarget
 )
-NS_IMPL_EVENT_HANDLER
-(
-XMLHttpRequestMainThread
-readystatechange
-)
 void
 XMLHttpRequestMainThread
 :
