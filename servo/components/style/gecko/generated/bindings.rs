@@ -15067,6 +15067,9 @@ RawServoStyleSetBorrowed
 element
 :
 RawGeckoElementBorrowed
+existing_style
+:
+ServoComputedValuesBorrowed
 snapshots
 :
 *

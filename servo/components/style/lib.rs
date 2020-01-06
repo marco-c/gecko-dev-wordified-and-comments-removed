@@ -608,6 +608,10 @@ sharing
 ;
 pub
 mod
+style_resolver
+;
+pub
+mod
 stylist
 ;
 #
