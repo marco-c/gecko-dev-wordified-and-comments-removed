@@ -284,6 +284,12 @@ init
 (
 )
 ;
+gMainPane
+.
+preInit
+(
+)
+;
 let
 categories
 =
