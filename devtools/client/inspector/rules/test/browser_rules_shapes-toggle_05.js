@@ -241,6 +241,8 @@ testActor
 .
 eval
 (
+content
+.
 document
 .
 querySelector
