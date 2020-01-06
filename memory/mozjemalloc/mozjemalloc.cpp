@@ -31,19 +31,8 @@ MALLOC_DOUBLE_PURGE
 #
 endif
 #
-ifndef
-MOZ_MEMORY_DEBUG
-#
-define
-MALLOC_PRODUCTION
-#
-endif
-#
-ifndef
-MALLOC_PRODUCTION
-#
-define
-MALLOC_DEBUG
+ifdef
+MOZ_DEBUG
 #
 define
 MALLOC_XMALLOC
@@ -911,7 +900,7 @@ h
 "
 #
 ifdef
-MALLOC_DEBUG
+MOZ_DEBUG
 #
 ifdef
 inline
@@ -1569,7 +1558,7 @@ arena_run_s
 if
 defined
 (
-MALLOC_DEBUG
+MOZ_DEBUG
 )
 |
 |
@@ -1641,7 +1630,7 @@ arena_s
 if
 defined
 (
-MALLOC_DEBUG
+MOZ_DEBUG
 )
 |
 |
@@ -2308,8 +2297,8 @@ kAllocPoison
 0xe5
 ;
 #
-ifndef
-MALLOC_PRODUCTION
+ifdef
+MOZ_DEBUG
 static
 bool
 opt_abort
@@ -3405,7 +3394,7 @@ h
 "
 #
 ifdef
-MALLOC_DEBUG
+MOZ_DEBUG
 #
 define
 assert
@@ -7677,7 +7666,7 @@ ret
 }
 #
 ifdef
-MALLOC_DEBUG
+MOZ_DEBUG
 #
 define
 MALLOC_RTREE_LOCK
@@ -7730,7 +7719,7 @@ l
 )
 #
 ifdef
-MALLOC_DEBUG
+MOZ_DEBUG
 #
 define
 MALLOC_RTREE_GET_VALIDATE
@@ -12651,7 +12640,7 @@ opt_dirty_max
 ;
 #
 ifdef
-MALLOC_DEBUG
+MOZ_DEBUG
 size_t
 ndirty
 =
@@ -14337,7 +14326,7 @@ nregs
 if
 defined
 (
-MALLOC_DEBUG
+MOZ_DEBUG
 )
 |
 |
@@ -16767,7 +16756,7 @@ run_mapelm
 if
 defined
 (
-MALLOC_DEBUG
+MOZ_DEBUG
 )
 |
 |
@@ -18640,7 +18629,7 @@ malloc_bin_stats_t
 if
 defined
 (
-MALLOC_DEBUG
+MOZ_DEBUG
 )
 |
 |
@@ -20957,8 +20946,8 @@ opt_dirty_max
 break
 ;
 #
-ifndef
-MALLOC_PRODUCTION
+ifdef
+MOZ_DEBUG
 case
 '
 j
@@ -21188,8 +21177,8 @@ break
 #
 endif
 #
-ifndef
-MALLOC_PRODUCTION
+ifdef
+MOZ_DEBUG
 case
 '
 z
