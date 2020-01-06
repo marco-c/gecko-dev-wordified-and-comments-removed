@@ -473,6 +473,10 @@ mInLayerTreeCompressionMode
 (
 false
 )
+mIsInactiveLayerManager
+(
+false
+)
 mContainerLayerGeneration
 (
 0
@@ -5209,6 +5213,8 @@ aManager
 PaintedLayerData
 *
 aLayerData
+bool
+aIsInactiveLayerManager
 const
 DisplayItemClip
 *
@@ -5256,6 +5262,10 @@ GetDOMGeneration
 mContainingPaintedLayer
 =
 aLayerData
+;
+mIsInactiveLayerManager
+=
+aIsInactiveLayerManager
 ;
 mInactiveLayerClip
 =
@@ -20270,6 +20280,7 @@ Init
 mDisplayListBuilder
 tempManager
 aLayerData
+true
 &
 aClip
 )
