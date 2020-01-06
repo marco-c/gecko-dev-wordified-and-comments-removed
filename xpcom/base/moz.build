@@ -135,6 +135,11 @@ nsIInterfaceRequestor
 idl
 '
 '
+nsILoadURIDelegate
+.
+idl
+'
+'
 nsIMemory
 .
 idl

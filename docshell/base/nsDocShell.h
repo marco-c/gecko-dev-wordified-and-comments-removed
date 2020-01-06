@@ -357,6 +357,13 @@ nsIDeprecationWarner
 .
 h
 "
+#
+include
+"
+nsILoadURIDelegate
+.
+h
+"
 namespace
 mozilla
 {
@@ -2622,6 +2629,12 @@ mChromeEventHandler
 ;
 eCharsetReloadState
 mCharsetReloadState
+;
+nsCOMPtr
+<
+nsILoadURIDelegate
+>
+mLoadURIDelegate
 ;
 int32_t
 mChildOffset
