@@ -282,14 +282,6 @@ LoadCerts
 )
 ;
 "
-onunload
-=
-"
-DeregisterSmartCardObservers
-(
-)
-;
-"
 buttons
 =
 "
