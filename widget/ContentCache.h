@@ -1325,12 +1325,6 @@ mPendingCompositionUpdate
 ;
 #
 if
-defined
-(
-MOZ_CRASHREPORTER
-)
-&
-&
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
 nsTArray
 <
@@ -1621,12 +1615,6 @@ aWidget
 ;
 #
 if
-defined
-(
-MOZ_CRASHREPORTER
-)
-&
-&
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
 void
 RemoveUnnecessaryEventMessageLog
