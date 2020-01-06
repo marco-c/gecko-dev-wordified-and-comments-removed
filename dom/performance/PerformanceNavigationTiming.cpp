@@ -85,6 +85,7 @@ PerformanceNavigationTiming
 UnloadEventStart
 (
 )
+const
 {
 return
 mTiming
@@ -95,7 +96,7 @@ GetDOMTiming
 )
 -
 >
-GetUnloadEventStart
+GetUnloadEventStartHighRes
 (
 )
 ;
@@ -107,6 +108,7 @@ PerformanceNavigationTiming
 UnloadEventEnd
 (
 )
+const
 {
 return
 mTiming
@@ -117,7 +119,7 @@ GetDOMTiming
 )
 -
 >
-GetUnloadEventEnd
+GetUnloadEventEndHighRes
 (
 )
 ;
@@ -129,6 +131,7 @@ PerformanceNavigationTiming
 DomInteractive
 (
 )
+const
 {
 return
 mTiming
@@ -139,7 +142,7 @@ GetDOMTiming
 )
 -
 >
-GetDomInteractive
+GetDomInteractiveHighRes
 (
 )
 ;
@@ -151,6 +154,7 @@ PerformanceNavigationTiming
 DomContentLoadedEventStart
 (
 )
+const
 {
 return
 mTiming
@@ -161,7 +165,7 @@ GetDOMTiming
 )
 -
 >
-GetDomContentLoadedEventStart
+GetDomContentLoadedEventStartHighRes
 (
 )
 ;
@@ -173,6 +177,7 @@ PerformanceNavigationTiming
 DomContentLoadedEventEnd
 (
 )
+const
 {
 return
 mTiming
@@ -183,7 +188,7 @@ GetDOMTiming
 )
 -
 >
-GetDomContentLoadedEventEnd
+GetDomContentLoadedEventEndHighRes
 (
 )
 ;
@@ -195,6 +200,7 @@ PerformanceNavigationTiming
 DomComplete
 (
 )
+const
 {
 return
 mTiming
@@ -205,7 +211,7 @@ GetDOMTiming
 )
 -
 >
-GetDomComplete
+GetDomCompleteHighRes
 (
 )
 ;
@@ -217,6 +223,7 @@ PerformanceNavigationTiming
 LoadEventStart
 (
 )
+const
 {
 return
 mTiming
@@ -227,7 +234,7 @@ GetDOMTiming
 )
 -
 >
-GetLoadEventStart
+GetLoadEventStartHighRes
 (
 )
 ;
@@ -250,7 +257,7 @@ GetDOMTiming
 )
 -
 >
-GetLoadEventEnd
+GetLoadEventEndHighRes
 (
 )
 ;
@@ -262,6 +269,7 @@ PerformanceNavigationTiming
 Type
 (
 )
+const
 {
 switch
 (
@@ -337,6 +345,7 @@ PerformanceNavigationTiming
 RedirectCount
 (
 )
+const
 {
 return
 mTiming
