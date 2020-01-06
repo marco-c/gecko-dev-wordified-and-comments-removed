@@ -52,7 +52,7 @@ LLVM_VERSION
 1
 BINDGEN_FEATURES
 =
-testing_only_llvm_stable
+testing_only_libclang_3_8
 -
 LLVM_VERSION
 =
@@ -63,7 +63,7 @@ LLVM_VERSION
 1
 BINDGEN_FEATURES
 =
-testing_only_llvm_stable
+testing_only_libclang_3_8
 -
 LLVM_VERSION
 =
@@ -74,6 +74,7 @@ LLVM_VERSION
 0
 BINDGEN_FEATURES
 =
+testing_only_libclang_3_9
 -
 LLVM_VERSION
 =
@@ -84,6 +85,7 @@ LLVM_VERSION
 0
 BINDGEN_FEATURES
 =
+testing_only_libclang_4
 matrix
 :
 fast_finish
@@ -96,18 +98,6 @@ env
 :
 LLVM_VERSION
 =
-4
-.
-0
-.
-0
-BINDGEN_FEATURES
-=
--
-env
-:
-LLVM_VERSION
-=
 3
 .
 7
@@ -115,7 +105,7 @@ LLVM_VERSION
 1
 BINDGEN_FEATURES
 =
-testing_only_llvm_stable
+testing_only_libclang_3_8
 cache
 :
 directories
