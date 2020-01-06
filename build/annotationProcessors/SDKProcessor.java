@@ -2300,6 +2300,8 @@ ClassWithOptions
 (
 clazz
 generatedName
+"
+"
 )
 )
 ;

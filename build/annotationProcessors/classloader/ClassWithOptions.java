@@ -27,6 +27,11 @@ String
 generatedName
 ;
 public
+final
+String
+ifdef
+;
+public
 ClassWithOptions
 (
 Class
@@ -36,6 +41,8 @@ Class
 someClass
 String
 name
+String
+ifdef
 )
 {
 wrappedClass
@@ -45,6 +52,12 @@ someClass
 generatedName
 =
 name
+;
+this
+.
+ifdef
+=
+ifdef
 ;
 }
 }

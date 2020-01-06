@@ -1623,6 +1623,13 @@ in
 '
 annotation
 /
+BuildFlag
+.
+java
+'
+'
+annotation
+/
 JNITarget
 .
 java
