@@ -25,6 +25,9 @@ wasm
 class
 Code
 ;
+class
+CodeSegment
+;
 typedef
 Vector
 <
@@ -162,6 +165,13 @@ const
 void
 *
 pc
+const
+CodeSegment
+*
+*
+segment
+=
+nullptr
 )
 const
 ;
