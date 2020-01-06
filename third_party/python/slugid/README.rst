@@ -89,6 +89,15 @@ Downloads
 |
 A
 python
+2
+.
+7
+and
+python
+3
+.
+5
+compatible
 module
 for
 generating
