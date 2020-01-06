@@ -1,12 +1,3 @@
-body
-{
-font
--
-size
-:
-1rem
-;
-}
 form
 label
 div
@@ -116,14 +107,6 @@ none
 }
 button
 {
-font
--
-size
-:
-1
-.
-2em
-;
 padding
 :
 3px

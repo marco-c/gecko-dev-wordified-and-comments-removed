@@ -875,6 +875,12 @@ caption
 xul
 |
 label
+:
+not
+(
+.
+dialogTitle
+)
 {
 font
 -
