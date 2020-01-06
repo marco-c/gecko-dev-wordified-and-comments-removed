@@ -49,6 +49,11 @@ nestedShell
 '
 :
 true
+'
+nukeAllCCWs
+'
+:
+true
 }
 ;
 function
