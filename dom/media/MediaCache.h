@@ -128,7 +128,7 @@ int64_t
 aContentLength
 )
 ;
-void
+nsresult
 InitAsClone
 (
 MediaCacheStream
@@ -171,18 +171,6 @@ mClosed
 &
 !
 mIsPrivateBrowsing
-&
-&
-(
-!
-mDidNotifyDataEnded
-|
-|
-NS_SUCCEEDED
-(
-mNotifyDataEndedStatus
-)
-)
 ;
 }
 nsIPrincipal
