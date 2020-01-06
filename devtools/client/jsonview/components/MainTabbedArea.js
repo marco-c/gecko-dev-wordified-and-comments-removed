@@ -65,9 +65,7 @@ require
 "
 .
 /
-json
--
-panel
+JsonPanel
 "
 )
 )
@@ -84,9 +82,7 @@ require
 "
 .
 /
-text
--
-panel
+TextPanel
 "
 )
 )
@@ -103,9 +99,7 @@ require
 "
 .
 /
-headers
--
-panel
+HeadersPanel
 "
 )
 )

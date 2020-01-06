@@ -68,11 +68,7 @@ require
 /
 components
 /
-main
--
-tabbed
--
-area
+MainTabbedArea
 "
 )
 )

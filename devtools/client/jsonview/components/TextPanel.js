@@ -72,7 +72,7 @@ require
 /
 reps
 /
-toolbar
+Toolbar
 "
 )
 )

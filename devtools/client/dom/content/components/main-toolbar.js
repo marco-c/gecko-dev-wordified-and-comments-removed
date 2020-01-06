@@ -77,7 +77,7 @@ components
 /
 reps
 /
-toolbar
+Toolbar
 "
 )
 )

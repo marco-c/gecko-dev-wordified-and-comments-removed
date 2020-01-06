@@ -69,7 +69,7 @@ require
 "
 .
 /
-headers
+Headers
 "
 )
 )
@@ -89,7 +89,7 @@ require
 /
 reps
 /
-toolbar
+Toolbar
 "
 )
 )

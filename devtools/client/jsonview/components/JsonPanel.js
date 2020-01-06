@@ -127,9 +127,7 @@ require
 "
 .
 /
-search
--
-box
+SearchBox
 "
 )
 )
@@ -149,7 +147,7 @@ require
 /
 reps
 /
-toolbar
+Toolbar
 "
 )
 )
