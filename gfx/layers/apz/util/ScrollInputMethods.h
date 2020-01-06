@@ -34,6 +34,7 @@ ApzScrollLine
 ApzScrollCharacter
 ApzScrollPage
 ApzCompleteScroll
+ApzAutoscrolling
 }
 ;
 }
