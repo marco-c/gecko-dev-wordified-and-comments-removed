@@ -1007,9 +1007,6 @@ mod
 transition_duration
 ;
 mod
-transition_property
-;
-mod
 transition_timing_function
 ;
 mod
