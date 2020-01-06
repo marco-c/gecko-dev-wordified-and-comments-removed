@@ -417,7 +417,8 @@ array
 )
 {
 return
-null
+"
+"
 ;
 }
 return
@@ -429,10 +430,15 @@ s
 =
 >
 s
+?
+s
 .
 trim
 (
 )
+:
+"
+"
 )
 .
 filter
