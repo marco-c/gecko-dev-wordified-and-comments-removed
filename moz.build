@@ -535,9 +535,6 @@ test
 verify
 '
 ]
-FILES_PER_UNIFIED_FILE
-=
-1
 CONFIGURE_SUBST_FILES
 +
 =
