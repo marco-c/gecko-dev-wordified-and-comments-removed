@@ -2215,7 +2215,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSHistory
 :
 :
@@ -6742,7 +6742,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSHistory
 :
 :
