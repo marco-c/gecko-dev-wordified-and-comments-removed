@@ -204,15 +204,6 @@ aRect
 )
 const
 ;
-gfx
-:
-:
-Matrix4x4
-TransformToRoot
-(
-)
-const
-;
 private
 :
 wr

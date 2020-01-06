@@ -589,7 +589,6 @@ mLayer
 BuildWrMaskLayer
 (
 aStackingContext
-nullptr
 )
 ;
 LayerRect
