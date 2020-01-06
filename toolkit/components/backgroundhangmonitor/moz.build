@@ -112,12 +112,7 @@ BackgroundHangMonitor
 h
 '
 '
-HangDetails
-.
-h
-'
-'
-HangStack
+ThreadHangStats
 .
 h
 '
@@ -132,12 +127,7 @@ BackgroundHangMonitor
 cpp
 '
 '
-HangDetails
-.
-cpp
-'
-'
-HangStack
+ThreadHangStats
 .
 cpp
 '
