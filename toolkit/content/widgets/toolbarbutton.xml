@@ -321,6 +321,15 @@ wrap
 /
 >
 <
+children
+includes
+=
+"
+box
+"
+/
+>
+<
 /
 content
 >
