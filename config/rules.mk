@@ -3966,6 +3966,9 @@ o
 CXXFLAGS
 )
 (
+PGO_CFLAGS
+)
+(
 PROGOBJS
 )
 (
@@ -4505,6 +4508,9 @@ EXPAND_CC_OR_CXX
 )
 (
 CXXFLAGS
+)
+(
+PGO_CFLAGS
 )
 -
 o
