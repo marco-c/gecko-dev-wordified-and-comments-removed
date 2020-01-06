@@ -45,6 +45,7 @@ SEND_CUSTOM_REQUEST
 SELECT_REQUEST
 TOGGLE_COLUMN
 WATERFALL_RESIZE
+PANELS
 }
 =
 require
@@ -177,9 +178,9 @@ Columns
 )
 detailsPanelSelectedTab
 :
-"
-headers
-"
+PANELS
+.
+HEADERS
 networkDetailsOpen
 :
 false

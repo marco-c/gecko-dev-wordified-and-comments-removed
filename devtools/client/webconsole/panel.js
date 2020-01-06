@@ -424,6 +424,7 @@ console
 error
 (
 msg
+reason
 )
 ;
 }

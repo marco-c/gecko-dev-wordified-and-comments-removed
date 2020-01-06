@@ -1099,6 +1099,13 @@ className
 devtools
 -
 button
+edit
+-
+and
+-
+resend
+-
+button
 "
 onClick
 :
@@ -1113,6 +1120,11 @@ className
 :
 "
 devtools
+-
+button
+raw
+-
+headers
 -
 button
 "
