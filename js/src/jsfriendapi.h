@@ -1338,8 +1338,6 @@ flags
 )
 |
 JSPROP_ENUMERATE
-|
-JSFUN_STUB_GSOPS
 nullptr
 usage
 help
@@ -1366,8 +1364,6 @@ flags
 )
 |
 JSPROP_ENUMERATE
-|
-JSFUN_STUB_GSOPS
 &
 js
 :

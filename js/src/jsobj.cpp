@@ -16902,12 +16902,6 @@ DefineAsIntrinsic
 intrinsic
 )
 {
-flags
-&
-=
-~
-JSFUN_STUB_GSOPS
-;
 RootedId
 id
 (

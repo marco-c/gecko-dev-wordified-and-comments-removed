@@ -332,7 +332,7 @@ ptestFunctions
 ]
 =
 {
-JS_FS
+JS_FN
 (
 "
 test_fn
@@ -341,7 +341,7 @@ test_fn
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 test_fn2
@@ -350,7 +350,7 @@ test_fn2
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 enable
@@ -359,7 +359,7 @@ enable
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 disable

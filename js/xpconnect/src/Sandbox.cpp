@@ -2914,7 +2914,7 @@ SandboxFunctions
 ]
 =
 {
-JS_FS
+JS_FN
 (
 "
 dump
@@ -2923,7 +2923,7 @@ SandboxDump
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 debug
@@ -2932,7 +2932,7 @@ SandboxDebug
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 importFunction

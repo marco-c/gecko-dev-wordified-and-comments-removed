@@ -4081,7 +4081,7 @@ PACGlobalFunctions
 ]
 =
 {
-JS_FS
+JS_FN
 (
 "
 dnsResolve
@@ -4090,7 +4090,7 @@ PACDnsResolve
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 myIpAddress
@@ -4099,7 +4099,7 @@ PACMyIpAddress
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 alert

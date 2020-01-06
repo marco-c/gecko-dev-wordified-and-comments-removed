@@ -12490,7 +12490,7 @@ EnablePrivilegeSpec
 ]
 =
 {
-JS_FS
+JS_FN
 (
 "
 enablePrivilege

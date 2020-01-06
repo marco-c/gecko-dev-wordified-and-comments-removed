@@ -8600,8 +8600,6 @@ global
 evalId
 IndirectEval
 1
-JSFUN_STUB_GSOPS
-|
 JSPROP_RESOLVING
 )
 ;

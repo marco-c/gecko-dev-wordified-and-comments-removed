@@ -12180,12 +12180,6 @@ AllocKind
 allocKind
 )
 {
-flags
-&
-=
-~
-JSFUN_STUB_GSOPS
-;
 RootedAtom
 atom
 (

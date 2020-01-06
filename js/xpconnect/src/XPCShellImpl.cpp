@@ -3533,7 +3533,7 @@ glob_functions
 ]
 =
 {
-JS_FS
+JS_FN
 (
 "
 print
@@ -3542,7 +3542,7 @@ Print
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 readline
@@ -3551,7 +3551,7 @@ ReadLine
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 load
@@ -3560,7 +3560,7 @@ Load
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 quit
@@ -3569,7 +3569,7 @@ Quit
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 version
@@ -3578,7 +3578,7 @@ Version
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 dumpXPC
@@ -3587,7 +3587,7 @@ DumpXPC
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 dump
@@ -3596,7 +3596,7 @@ Dump
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 gc
@@ -3608,7 +3608,7 @@ GC
 #
 ifdef
 JS_GC_ZEAL
-JS_FS
+JS_FN
 (
 "
 gczeal
@@ -3619,7 +3619,7 @@ GCZeal
 )
 #
 endif
-JS_FS
+JS_FN
 (
 "
 options
@@ -3628,7 +3628,7 @@ Options
 0
 0
 )
-JS_FS
+JS_FN
 (
 "
 sendCommand
@@ -3637,7 +3637,7 @@ SendCommand
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 atob
@@ -3649,7 +3649,7 @@ Atob
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 btoa
@@ -3661,7 +3661,7 @@ Btoa
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 setInterruptCallback
@@ -3670,7 +3670,7 @@ SetInterruptCallback
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 simulateActivityCallback
@@ -3679,7 +3679,7 @@ SimulateActivityCallback
 1
 0
 )
-JS_FS
+JS_FN
 (
 "
 registerAppManifest
@@ -3691,7 +3691,7 @@ RegisterAppManifest
 #
 ifdef
 ENABLE_TESTS
-JS_FS
+JS_FN
 (
 "
 registerXPCTestComponents
