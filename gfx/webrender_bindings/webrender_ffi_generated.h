@@ -4003,6 +4003,8 @@ WrPipelineId
 aPipelineId
 LayoutSize
 aContentSize
+size_t
+aCapacity
 )
 WR_FUNC
 ;
