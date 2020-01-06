@@ -176,6 +176,10 @@ PDataChannel
 ;
 include
 protocol
+PSimpleChannel
+;
+include
+protocol
 PTransportProvider
 ;
 include
@@ -404,6 +408,9 @@ manages
 PDataChannel
 ;
 manages
+PSimpleChannel
+;
+manages
 PFileChannel
 ;
 manages
@@ -628,6 +635,13 @@ URI
 /
 async
 PDataChannel
+(
+uint32_t
+channelId
+)
+;
+async
+PSimpleChannel
 (
 uint32_t
 channelId
