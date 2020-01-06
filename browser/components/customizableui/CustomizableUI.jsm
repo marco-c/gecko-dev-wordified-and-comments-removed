@@ -1515,6 +1515,17 @@ defaultPlacements
 :
 [
 ]
+anchor
+:
+"
+nav
+-
+bar
+-
+overflow
+-
+button
+"
 }
 true
 )
