@@ -34,7 +34,7 @@ class
 nsINode
 ;
 class
-nsAttrChildContentList
+nsChildContentList
 final
 :
 public
@@ -43,7 +43,7 @@ nsINodeList
 public
 :
 explicit
-nsAttrChildContentList
+nsChildContentList
 (
 nsINode
 *
@@ -59,7 +59,7 @@ aNode
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
-nsAttrChildContentList
+nsChildContentList
 )
 virtual
 JSObject
@@ -127,7 +127,7 @@ mNode
 private
 :
 ~
-nsAttrChildContentList
+nsChildContentList
 (
 )
 {

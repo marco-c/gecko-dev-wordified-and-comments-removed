@@ -187,7 +187,7 @@ class
 nsAttrAndChildArray
 ;
 class
-nsAttrChildContentList
+nsChildContentList
 ;
 struct
 nsCSSSelectorList
@@ -2729,7 +2729,7 @@ mMutationObservers
 ;
 RefPtr
 <
-nsAttrChildContentList
+nsChildContentList
 >
 mChildNodes
 ;
