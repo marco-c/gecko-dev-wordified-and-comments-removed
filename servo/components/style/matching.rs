@@ -405,7 +405,10 @@ use
 style_resolver
 :
 :
+{
+PseudoElementResolution
 StyleResolverForElement
+}
 ;
 use
 stylist
@@ -500,6 +503,10 @@ RuleInclusion
 :
 :
 All
+PseudoElementResolution
+:
+:
+IfApplicable
 )
 .
 cascade_style_and_visited_with_default_parents
