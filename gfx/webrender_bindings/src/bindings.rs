@@ -4821,15 +4821,9 @@ FilterOp
 :
 Blur
 (
-Au
-:
-:
-from_f32_px
-(
 c_filter
 .
 argument
-)
 )
 WrFilterOpType
 :
