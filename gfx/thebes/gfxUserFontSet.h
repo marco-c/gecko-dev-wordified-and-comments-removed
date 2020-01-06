@@ -972,16 +972,6 @@ aPrivate
 )
 ;
 static
-uint32_t
-Generation
-(
-)
-{
-return
-sGeneration
-;
-}
-static
 void
 Shutdown
 (
@@ -1470,10 +1460,6 @@ Entry
 >
 *
 sUserFonts
-;
-static
-uint32_t
-sGeneration
 ;
 }
 ;
