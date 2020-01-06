@@ -155,6 +155,11 @@ TestEscapeURL
 cpp
 '
 '
+TestEventPriorities
+.
+cpp
+'
+'
 TestEventTargetQI
 .
 cpp

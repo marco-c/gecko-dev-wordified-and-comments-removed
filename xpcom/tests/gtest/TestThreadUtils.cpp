@@ -1,6 +1,13 @@
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
