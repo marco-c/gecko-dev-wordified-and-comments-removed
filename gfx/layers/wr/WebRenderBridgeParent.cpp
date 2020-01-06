@@ -614,9 +614,9 @@ mWrEpoch
 )
 mIdNameSpace
 (
-+
-+
-sIdNameSpace
+AllocIdNameSpace
+(
+)
 )
 mPaused
 (
