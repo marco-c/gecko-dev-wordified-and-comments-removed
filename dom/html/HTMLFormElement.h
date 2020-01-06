@@ -315,7 +315,7 @@ const
 nsAString
 &
 aName
-nsIFormControl
+HTMLInputElement
 *
 aRadio
 )
@@ -328,7 +328,7 @@ const
 nsAString
 &
 aName
-nsIFormControl
+HTMLInputElement
 *
 aRadio
 )
