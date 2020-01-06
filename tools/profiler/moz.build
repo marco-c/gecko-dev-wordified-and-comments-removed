@@ -236,13 +236,6 @@ cpp
 '
 gecko
 /
-ProfileGatherer
-.
-cpp
-'
-'
-gecko
-/
 ProfilerChild
 .
 cpp
