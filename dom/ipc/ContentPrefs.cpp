@@ -1571,13 +1571,6 @@ log
 stackTraceDepth
 "
 "
-shutdown
-.
-watchdog
-.
-timeoutSecs
-"
-"
 signed
 .
 applets
