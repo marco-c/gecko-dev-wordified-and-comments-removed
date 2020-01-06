@@ -195,7 +195,6 @@ Sample
 sample
 )
 ;
-oneway
 void
 releaseOutput
 (
