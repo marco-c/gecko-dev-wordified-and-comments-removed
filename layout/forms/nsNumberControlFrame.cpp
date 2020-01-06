@@ -2914,9 +2914,6 @@ localizedValue
 aValue
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 Decimal
 val
 =
@@ -2961,8 +2958,6 @@ localizedValue
 )
 ;
 }
-#
-endif
 IgnoredErrorResult
 rv
 ;
@@ -3030,9 +3025,6 @@ CallerType
 System
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 ICUUtils
 :
 :
@@ -3106,8 +3098,6 @@ AppendFloat
 value
 )
 ;
-#
-endif
 }
 bool
 nsNumberControlFrame
