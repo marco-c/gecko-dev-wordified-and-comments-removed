@@ -4596,12 +4596,8 @@ attr
 aElement
 -
 >
-GetParsedAttr
+GetClasses
 (
-nsGkAtoms
-:
-:
-_class
 )
 ;
 if
