@@ -4437,7 +4437,7 @@ project
 .
 buildDir
 /
-outputs
+reports
 /
 findbugs
 /
@@ -4663,7 +4663,7 @@ project
 .
 buildDir
 /
-outputs
+reports
 /
 findbugs
 /

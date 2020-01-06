@@ -1021,7 +1021,7 @@ android
 /
 app
 /
-outputs
+reports
 '
 )
         
@@ -1063,7 +1063,7 @@ android
 /
 app
 /
-outputs
+reports
 /
 lint
 -
@@ -2087,7 +2087,7 @@ android
 /
 app
 /
-outputs
+reports
 /
 findbugs
 '
@@ -2140,7 +2140,7 @@ android
 /
 app
 /
-outputs
+reports
 /
 findbugs
 '
@@ -2808,6 +2808,16 @@ GRADLE
 ]
 +
 gradle_flags
++
+[
+'
+-
+-
+console
+=
+plain
+'
+]
 +
 args
             

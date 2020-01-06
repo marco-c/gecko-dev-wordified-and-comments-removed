@@ -284,8 +284,6 @@ photon
 debug
 -
 androidTest
--
-unaligned
 .
 apk
 endif
