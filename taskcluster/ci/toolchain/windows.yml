@@ -1088,13 +1088,7 @@ rust
 -
 1
 .
-23
-.
-0
--
-beta
-.
-1
+21
 :
 description
 :
@@ -1117,8 +1111,6 @@ symbol
 TW32
 (
 rust
--
-beta
 )
 tier
 :
@@ -1190,7 +1182,11 @@ arguments
 channel
 '
 '
-beta
+1
+.
+21
+.
+0
 '
 '
 -
