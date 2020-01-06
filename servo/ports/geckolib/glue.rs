@@ -12285,6 +12285,13 @@ input
 let
 result
 =
+parser
+.
+parse_entirely
+(
+|
+p
+|
 transition_timing_function
 :
 :
@@ -12295,9 +12302,8 @@ parse
 (
 &
 context
-&
-mut
-parser
+p
+)
 )
 ;
 match
