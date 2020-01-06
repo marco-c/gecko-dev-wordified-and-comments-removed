@@ -4710,12 +4710,9 @@ if
 (
 mDeletedRowIndexRanges
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 mDeletedRowIndexRanges
@@ -4958,12 +4955,9 @@ if
 (
 mDeletedRowIndexRanges
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 return
 0
