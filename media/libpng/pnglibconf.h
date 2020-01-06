@@ -8,9 +8,6 @@ PNGLCONF_H
 define
 MOZ_EMBEDDED_LIBPNG
 #
-define
-PNG_USER_LIMITS_SUPPORTED
-#
 ifndef
 MOZ_PNG_MAX_WIDTH
 #
@@ -38,9 +35,6 @@ Unlimited
 /
 #
 endif
-#
-define
-PNG_SET_USER_LIMITS_SUPPORTED
 #
 define
 PNG_API_RULE
