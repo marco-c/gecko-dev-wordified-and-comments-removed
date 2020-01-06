@@ -1494,7 +1494,13 @@ Dispatch
 (
 WrapRunnable
 (
+RefPtr
+<
+GeckoMediaPluginServiceParent
+>
+(
 this
+)
 &
 GeckoMediaPluginServiceParent
 :
