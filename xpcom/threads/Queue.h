@@ -31,7 +31,7 @@ Queue
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsEmpty
 (
