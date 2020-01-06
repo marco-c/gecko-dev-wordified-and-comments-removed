@@ -153,9 +153,9 @@ rustup
 /
 archive
 /
-0
+1
 .
-2
+6
 .
 0
 /
@@ -177,7 +177,7 @@ exe
 rustup_init
                     
 '
-a45ab7462b567dacddaf6e9e48bb43a1b9c1db4404ba77868f7d6fc685282a46
+9855b9f0b19fd83c056185e083b6b345982becc2f8c608aac14998a73bcc2937
 '
 )
             
