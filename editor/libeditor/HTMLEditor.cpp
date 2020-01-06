@@ -7878,6 +7878,16 @@ GetParentNode
 )
 ;
 }
+if
+(
+!
+nodeToExamine
+)
+{
+return
+NS_OK
+;
+}
 do
 {
 if
