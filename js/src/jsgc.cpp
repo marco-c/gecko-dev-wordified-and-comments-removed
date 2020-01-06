@@ -35248,7 +35248,7 @@ isIncrementalGCInProgress
 zone
 -
 >
-needsIncrementalBarrier
+wasGCStarted
 (
 )
 )
