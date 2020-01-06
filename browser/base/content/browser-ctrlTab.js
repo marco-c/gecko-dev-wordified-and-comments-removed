@@ -3136,7 +3136,7 @@ this
 ;
 gBrowser
 .
-mTabBox
+tabbox
 .
 handleCtrlTab
 =

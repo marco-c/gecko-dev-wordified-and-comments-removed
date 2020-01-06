@@ -732,7 +732,7 @@ field
 name
 =
 "
-mTabBox
+tabbox
 "
 readonly
 =
@@ -6908,6 +6908,19 @@ Ci
 nsISerializationHelper
 )
 ;
+<
+/
+field
+>
+<
+field
+name
+=
+"
+mIconLoadingPrincipal
+"
+>
+null
 <
 /
 field
@@ -26164,7 +26177,7 @@ _allowTabChange
 return
 this
 .
-mTabBox
+tabbox
 .
 selectedTab
 ;
@@ -26176,7 +26189,7 @@ the
 tab
 this
 .
-mTabBox
+tabbox
 .
 selectedTab
 =
@@ -31122,7 +31135,7 @@ this
 .
 tabbrowser
 .
-mTabBox
+tabbox
 .
 tabs
 ;
@@ -43470,7 +43483,7 @@ this
 .
 tabbrowser
 .
-mTabBox
+tabbox
 ;
 <
 /

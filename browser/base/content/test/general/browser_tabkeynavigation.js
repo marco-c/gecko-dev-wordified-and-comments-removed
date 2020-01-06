@@ -594,7 +594,7 @@ if
 (
 gBrowser
 .
-mTabBox
+tabbox
 .
 _handleMetaAltArrows
 )
@@ -620,7 +620,7 @@ getComputedStyle
 (
 gBrowser
 .
-mTabBox
+tabbox
 )
 .
 direction
@@ -1026,7 +1026,7 @@ getComputedStyle
 (
 gBrowser
 .
-mTabBox
+tabbox
 )
 .
 direction
