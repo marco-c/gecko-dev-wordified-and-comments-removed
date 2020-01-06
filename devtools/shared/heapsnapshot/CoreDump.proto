@@ -1343,6 +1343,17 @@ wish
 to
 avoid
 .
+syntax
+=
+"
+proto2
+"
+;
+option
+optimize_for
+=
+LITE_RUNTIME
+;
 package
 mozilla
 .
