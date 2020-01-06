@@ -1788,6 +1788,15 @@ Ion
 TBD
 }
 ;
+enum
+class
+CompileMode
+{
+Once
+Tier1
+Tier2
+}
+;
 class
 Tiers
 {
