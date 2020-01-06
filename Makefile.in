@@ -1830,6 +1830,8 @@ echo
 =
 =
 "
+ifndef
+MOZ_PROFILE_GENERATE
 #
 Ideally
 we
@@ -1873,6 +1875,7 @@ DIST
 sccache
 .
 log
+endif
 endif
 distclean
 :
