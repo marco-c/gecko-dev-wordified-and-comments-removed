@@ -145,6 +145,8 @@ aHand
 GamepadServiceType
 aServiceType
 uint32_t
+aDisplayID
+uint32_t
 aNumButtons
 uint32_t
 aNumAxes
