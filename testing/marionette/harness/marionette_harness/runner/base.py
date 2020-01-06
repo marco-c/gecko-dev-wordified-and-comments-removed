@@ -2742,40 +2742,48 @@ self
 .
 add_argument
 (
-'
+"
 -
 -
 headless
-'
+"
                           
 action
 =
-'
+"
 store_true
-'
+"
                           
 dest
 =
-'
+"
 headless
-'
+"
                           
 default
 =
+os
+.
+environ
+.
+get
+(
+"
+MOZ_HEADLESS
+"
 False
+)
                           
 help
 =
-'
-Enable
+"
+Run
+tests
+in
 headless
 mode
-when
-running
-marionette
-tests
 .
-'
+"
 )
         
 self
