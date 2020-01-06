@@ -196,17 +196,6 @@ style
 off
 "
 "
-generator
--
-star
--
-spacing
-"
-:
-"
-off
-"
-"
 handle
 -
 callback
