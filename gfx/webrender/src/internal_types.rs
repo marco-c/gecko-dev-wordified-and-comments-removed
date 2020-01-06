@@ -677,6 +677,15 @@ RendererFrame
 TextureUpdateList
 BackendProfileCounters
 )
+UpdateResources
+{
+updates
+:
+TextureUpdateList
+cancel_rendering
+:
+bool
+}
 }
 #
 [
