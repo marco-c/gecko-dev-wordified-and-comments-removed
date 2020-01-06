@@ -153,6 +153,11 @@ FetchSignal
 h
 '
 '
+FetchStreamReader
+.
+h
+'
+'
 FetchUtil
 .
 h
@@ -234,6 +239,11 @@ cpp
 '
 '
 FetchStream
+.
+cpp
+'
+'
+FetchStreamReader
 .
 cpp
 '
