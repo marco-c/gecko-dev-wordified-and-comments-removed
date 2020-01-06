@@ -4515,6 +4515,17 @@ static
 bool
 IsReallyFixedPos
 (
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
+bool
+MayBeReallyFixedPos
+(
+const
 nsIFrame
 *
 aFrame

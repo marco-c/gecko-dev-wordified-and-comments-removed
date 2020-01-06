@@ -548,6 +548,7 @@ ChildListIDForOutOfFlow
 (
 nsFrameState
 aPlaceholderState
+const
 nsIFrame
 *
 aChild
@@ -592,7 +593,7 @@ return
 nsLayoutUtils
 :
 :
-IsReallyFixedPos
+MayBeReallyFixedPos
 (
 aChild
 )
