@@ -572,10 +572,12 @@ removeCurrentTab
 (
 )
 ;
-win
+await
+BrowserTestUtils
 .
-close
+closeWindow
 (
+win
 )
 ;
 }
