@@ -5848,20 +5848,8 @@ CompositorBridgeParent
 :
 GetAnimationStorage
 (
-const
-uint64_t
-&
-aId
 )
 {
-MOZ_ASSERT
-(
-aId
-=
-=
-0
-)
-;
 if
 (
 !
@@ -6813,7 +6801,6 @@ mLayerManager
 this
 GetAnimationStorage
 (
-0
 )
 0
 )
@@ -7422,7 +7409,6 @@ SetLayerManager
 mLayerManager
 GetAnimationStorage
 (
-0
 )
 )
 ;
@@ -7474,7 +7460,6 @@ CompositableHolder
 )
 GetAnimationStorage
 (
-0
 )
 )
 ;
@@ -7702,7 +7687,6 @@ animStorage
 =
 GetAnimationStorage
 (
-0
 )
 ;
 mWrBridge

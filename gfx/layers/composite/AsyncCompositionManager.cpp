@@ -5585,7 +5585,6 @@ mCompositorBridge
 >
 GetAnimationStorage
 (
-0
 )
 ;
 uint64_t
