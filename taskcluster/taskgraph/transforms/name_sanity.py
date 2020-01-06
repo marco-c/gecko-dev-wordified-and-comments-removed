@@ -113,6 +113,14 @@ attr
 '
 locale
 '
+job
+.
+get
+(
+'
+locale
+'
+)
 )
 :
             
@@ -198,8 +206,16 @@ attr
 '
 locale
 '
+job
+.
+get
+(
+'
+locale
 '
 '
+'
+)
 )
         
 )

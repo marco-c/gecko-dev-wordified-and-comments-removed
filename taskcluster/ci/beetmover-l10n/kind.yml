@@ -77,6 +77,14 @@ taskgraph
 .
 transforms
 .
+name_sanity
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 beetmover
 :
 transforms
