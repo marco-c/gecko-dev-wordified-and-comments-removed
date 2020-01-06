@@ -242,12 +242,11 @@ FrameMetrics
 ViewID
 scrollId
 =
-nsLayoutUtils
-:
-:
-ViewIDForASR
-(
 asr
+-
+>
+GetViewId
+(
 )
 ;
 if
