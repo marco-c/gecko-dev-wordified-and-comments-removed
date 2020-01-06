@@ -123,6 +123,9 @@ strings
 .
 parent
 :
+gecko_enum
+:
+GeckoProcessType_Default
 description
 :
 This
@@ -144,6 +147,9 @@ process
 .
 content
 :
+gecko_enum
+:
+GeckoProcessType_Content
 description
 :
 This
@@ -158,6 +164,9 @@ in
 .
 extension
 :
+gecko_enum
+:
+GeckoProcessType_Content
 description
 :
 >
@@ -190,6 +199,9 @@ Telemetry
 .
 gpu
 :
+gecko_enum
+:
+GeckoProcessType_GPU
 description
 :
 This
