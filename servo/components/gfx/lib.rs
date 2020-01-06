@@ -49,14 +49,6 @@ range_contains
 #
 !
 [
-feature
-(
-unique
-)
-]
-#
-!
-[
 deny
 (
 unsafe_code

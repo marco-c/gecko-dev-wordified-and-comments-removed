@@ -3,7 +3,6 @@
 [
 feature
 (
-start
 core_intrinsics
 )
 ]
