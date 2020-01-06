@@ -90,6 +90,11 @@ UNIFIED_SOURCES
 =
 [
 '
+TestCollation
+.
+cpp
+'
+'
 TestLocaleService
 .
 cpp
