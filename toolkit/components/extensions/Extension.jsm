@@ -6283,6 +6283,11 @@ id
 {
 this
 .
+manifest
+&
+&
+this
+.
 name
 }
 )
