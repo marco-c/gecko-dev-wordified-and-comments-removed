@@ -101,6 +101,7 @@ e
 data
 ]
 (
+SAME_COMPARTMENT
 )
 ;
 }
