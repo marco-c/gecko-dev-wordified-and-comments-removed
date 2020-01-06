@@ -147,6 +147,11 @@ PlatformDecoderModule
 h
 '
 '
+ReorderQueue
+.
+h
+'
+'
 SimpleMap
 .
 h
