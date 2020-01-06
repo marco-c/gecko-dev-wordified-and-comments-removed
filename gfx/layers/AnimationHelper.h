@@ -36,8 +36,8 @@ h
 namespace
 mozilla
 {
-class
-StyleAnimationValue
+struct
+AnimationValue
 ;
 namespace
 layers
@@ -63,7 +63,7 @@ InfallibleTArray
 mozilla
 :
 :
-StyleAnimationValue
+AnimationValue
 >
 mStartValues
 ;
@@ -72,7 +72,7 @@ InfallibleTArray
 mozilla
 :
 :
-StyleAnimationValue
+AnimationValue
 >
 mEndValues
 ;
@@ -480,7 +480,7 @@ AnimData
 >
 &
 aAnimationData
-StyleAnimationValue
+AnimationValue
 &
 aAnimationValue
 bool
@@ -501,7 +501,7 @@ AnimData
 >
 &
 aAnimData
-StyleAnimationValue
+AnimationValue
 &
 aBaseAnimationStyle
 )

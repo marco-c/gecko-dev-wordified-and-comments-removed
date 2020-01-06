@@ -143,7 +143,7 @@ return
 mCompositorAnimationsId
 ;
 }
-StyleAnimationValue
+AnimationValue
 GetBaseAnimationStyle
 (
 )
@@ -220,7 +220,7 @@ mAnimationData
 uint64_t
 mAnimationGeneration
 ;
-StyleAnimationValue
+AnimationValue
 mBaseAnimationStyle
 ;
 bool
