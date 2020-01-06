@@ -575,6 +575,10 @@ BaseScalarInfo
 internal_GetScalarInfo
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 ScalarKey
 &
 aId
@@ -640,6 +644,10 @@ ScalarCount
 bool
 internal_IsValidId
 (
+const
+StaticMutexAutoLock
+&
+lock
 const
 ScalarKey
 &
@@ -4060,6 +4068,10 @@ namespace
 bool
 internal_CanRecordBase
 (
+const
+StaticMutexAutoLock
+&
+lock
 )
 {
 return
@@ -4069,6 +4081,10 @@ gCanRecordBase
 bool
 internal_CanRecordExtended
 (
+const
+StaticMutexAutoLock
+&
+lock
 )
 {
 return
@@ -4079,6 +4095,10 @@ bool
 internal_IsKeyedScalar
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 ScalarKey
 &
 aId
@@ -4087,6 +4107,7 @@ aId
 return
 internal_GetScalarInfo
 (
+lock
 aId
 )
 .
@@ -4096,6 +4117,10 @@ keyed
 bool
 internal_CanRecordProcess
 (
+const
+StaticMutexAutoLock
+&
+lock
 const
 ScalarKey
 &
@@ -4109,6 +4134,7 @@ info
 =
 internal_GetScalarInfo
 (
+lock
 aId
 )
 ;
@@ -4128,6 +4154,10 @@ bool
 internal_CanRecordForScalarID
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 ScalarKey
 &
 aId
@@ -4140,6 +4170,7 @@ info
 =
 internal_GetScalarInfo
 (
+lock
 aId
 )
 ;
@@ -4148,6 +4179,7 @@ canRecordBase
 =
 internal_CanRecordBase
 (
+lock
 )
 ;
 if
@@ -4171,6 +4203,7 @@ dataset
 canRecordBase
 internal_CanRecordExtended
 (
+lock
 )
 )
 ;
@@ -4192,6 +4225,10 @@ ScalarResult
 internal_CanRecordScalar
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 ScalarKey
 &
 aId
@@ -4203,6 +4240,7 @@ if
 (
 internal_IsKeyedScalar
 (
+lock
 aId
 )
 !
@@ -4222,6 +4260,7 @@ if
 !
 internal_CanRecordForScalarID
 (
+lock
 aId
 )
 )
@@ -4238,6 +4277,7 @@ if
 !
 internal_CanRecordProcess
 (
+lock
 aId
 )
 )
@@ -4259,6 +4299,10 @@ Ok
 nsresult
 internal_GetEnumByScalarName
 (
+const
+StaticMutexAutoLock
+&
+lock
 const
 nsACString
 &
@@ -4322,6 +4366,10 @@ nsresult
 internal_GetScalarByEnum
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 ScalarKey
 &
 aId
@@ -4338,6 +4386,7 @@ if
 !
 internal_IsValidId
 (
+lock
 aId
 )
 )
@@ -4368,6 +4417,7 @@ info
 =
 internal_GetScalarInfo
 (
+lock
 aId
 )
 ;
@@ -4521,6 +4571,10 @@ ScalarResult
 internal_UpdateScalar
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 nsACString
 &
 aName
@@ -4539,6 +4593,7 @@ rv
 =
 internal_GetEnumByScalarName
 (
+lock
 aName
 &
 uniqueId
@@ -4576,6 +4631,7 @@ sr
 =
 internal_CanRecordScalar
 (
+lock
 uniqueId
 false
 )
@@ -4628,6 +4684,7 @@ info
 =
 internal_GetScalarInfo
 (
+lock
 uniqueId
 )
 ;
@@ -4719,6 +4776,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+lock
 uniqueId
 ProcessID
 :
@@ -4817,6 +4875,10 @@ nsresult
 internal_GetKeyedScalarByEnum
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 ScalarKey
 &
 aId
@@ -4833,6 +4895,7 @@ if
 !
 internal_IsValidId
 (
+lock
 aId
 )
 )
@@ -4864,6 +4927,7 @@ info
 =
 internal_GetScalarInfo
 (
+lock
 aId
 )
 ;
@@ -5050,6 +5114,10 @@ ScalarResult
 internal_UpdateKeyedScalar
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 nsACString
 &
 aName
@@ -5072,6 +5140,7 @@ rv
 =
 internal_GetEnumByScalarName
 (
+lock
 aName
 &
 uniqueId
@@ -5109,6 +5178,7 @@ sr
 =
 internal_CanRecordScalar
 (
+lock
 uniqueId
 true
 )
@@ -5161,6 +5231,7 @@ info
 =
 internal_GetScalarInfo
 (
+lock
 uniqueId
 )
 ;
@@ -5253,6 +5324,7 @@ rv
 =
 internal_GetKeyedScalarByEnum
 (
+lock
 uniqueId
 ProcessID
 :
@@ -5351,6 +5423,10 @@ void
 internal_DynamicScalarToIPC
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 nsTArray
 <
 DynamicScalarInfo
@@ -5429,6 +5505,10 @@ void
 internal_BroadcastDefinitions
 (
 const
+StaticMutexAutoLock
+&
+lock
+const
 nsTArray
 <
 DynamicScalarInfo
@@ -5485,6 +5565,7 @@ ipcDefinitions
 ;
 internal_DynamicScalarToIPC
 (
+lock
 scalarInfos
 ipcDefinitions
 )
@@ -5933,6 +6014,7 @@ sr
 =
 internal_UpdateScalar
 (
+locker
 aName
 ScalarActionType
 :
@@ -6050,6 +6132,7 @@ sr
 =
 internal_UpdateKeyedScalar
 (
+locker
 aName
 aKey
 ScalarActionType
@@ -6150,6 +6233,7 @@ if
 (
 internal_CanRecordScalar
 (
+locker
 uniqueId
 false
 )
@@ -6207,6 +6291,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 uniqueId
 ProcessID
 :
@@ -6308,6 +6393,7 @@ if
 (
 internal_CanRecordScalar
 (
+locker
 uniqueId
 true
 )
@@ -6366,6 +6452,7 @@ rv
 =
 internal_GetKeyedScalarByEnum
 (
+locker
 uniqueId
 ProcessID
 :
@@ -6478,6 +6565,7 @@ sr
 =
 internal_UpdateScalar
 (
+locker
 aName
 ScalarActionType
 :
@@ -6595,6 +6683,7 @@ sr
 =
 internal_UpdateKeyedScalar
 (
+locker
 aName
 aKey
 ScalarActionType
@@ -6695,6 +6784,7 @@ if
 (
 internal_CanRecordScalar
 (
+locker
 uniqueId
 false
 )
@@ -6752,6 +6842,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 uniqueId
 ProcessID
 :
@@ -6851,6 +6942,7 @@ if
 (
 internal_CanRecordScalar
 (
+locker
 uniqueId
 false
 )
@@ -6911,6 +7003,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 uniqueId
 ProcessID
 :
@@ -7008,6 +7101,7 @@ if
 (
 internal_CanRecordScalar
 (
+locker
 uniqueId
 false
 )
@@ -7065,6 +7159,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 uniqueId
 ProcessID
 :
@@ -7166,6 +7261,7 @@ if
 (
 internal_CanRecordScalar
 (
+locker
 uniqueId
 true
 )
@@ -7224,6 +7320,7 @@ rv
 =
 internal_GetKeyedScalarByEnum
 (
+locker
 uniqueId
 ProcessID
 :
@@ -7326,6 +7423,7 @@ if
 (
 internal_CanRecordScalar
 (
+locker
 uniqueId
 true
 )
@@ -7384,6 +7482,7 @@ rv
 =
 internal_GetKeyedScalarByEnum
 (
+locker
 uniqueId
 ProcessID
 :
@@ -7496,6 +7595,7 @@ sr
 =
 internal_UpdateScalar
 (
+locker
 aName
 ScalarActionType
 :
@@ -7613,6 +7713,7 @@ sr
 =
 internal_UpdateKeyedScalar
 (
+locker
 aName
 aKey
 ScalarActionType
@@ -7713,6 +7814,7 @@ if
 (
 internal_CanRecordScalar
 (
+locker
 uniqueId
 false
 )
@@ -7770,6 +7872,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 uniqueId
 ProcessID
 :
@@ -7871,6 +7974,7 @@ if
 (
 internal_CanRecordScalar
 (
+locker
 uniqueId
 true
 )
@@ -7929,6 +8033,7 @@ rv
 =
 internal_GetKeyedScalarByEnum
 (
+locker
 uniqueId
 ProcessID
 :
@@ -8230,6 +8335,7 @@ info
 =
 internal_GetScalarInfo
 (
+locker
 ScalarKey
 {
 childIter
@@ -8789,6 +8895,7 @@ info
 =
 internal_GetScalarInfo
 (
+locker
 ScalarKey
 {
 childIter
@@ -9893,7 +10000,6 @@ locker
 newScalarInfos
 )
 ;
-}
 if
 (
 res
@@ -9930,9 +10036,11 @@ NS_ERROR_INVALID_ARG
 :
 internal_BroadcastDefinitions
 (
+locker
 newScalarInfos
 )
 ;
+}
 return
 NS_OK
 ;
@@ -10303,6 +10411,7 @@ if
 !
 internal_CanRecordBase
 (
+locker
 )
 )
 {
@@ -10336,6 +10445,7 @@ NS_WARN_IF
 !
 internal_IsValidId
 (
+locker
 uniqueId
 )
 )
@@ -10360,6 +10470,7 @@ if
 (
 internal_IsKeyedScalar
 (
+locker
 uniqueId
 )
 )
@@ -10372,6 +10483,7 @@ if
 !
 internal_CanRecordForScalarID
 (
+locker
 uniqueId
 )
 )
@@ -10390,6 +10502,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 uniqueId
 aProcessType
 &
@@ -10452,6 +10565,7 @@ scalarType
 =
 internal_GetScalarInfo
 (
+locker
 uniqueId
 )
 .
@@ -10749,6 +10863,7 @@ if
 !
 internal_CanRecordBase
 (
+locker
 )
 )
 {
@@ -10782,6 +10897,7 @@ NS_WARN_IF
 !
 internal_IsValidId
 (
+locker
 uniqueId
 )
 )
@@ -10807,6 +10923,7 @@ if
 !
 internal_IsKeyedScalar
 (
+locker
 uniqueId
 )
 )
@@ -10819,6 +10936,7 @@ if
 !
 internal_CanRecordForScalarID
 (
+locker
 uniqueId
 )
 )
@@ -10837,6 +10955,7 @@ rv
 =
 internal_GetKeyedScalarByEnum
 (
+locker
 uniqueId
 aProcessType
 &
@@ -10899,6 +11018,7 @@ scalarType
 =
 internal_GetScalarInfo
 (
+locker
 uniqueId
 )
 .
@@ -11203,6 +11323,7 @@ if
 !
 internal_CanRecordBase
 (
+locker
 )
 )
 {
@@ -11228,6 +11349,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 ScalarKey
 {
 static_cast
@@ -11269,6 +11391,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 ScalarKey
 {
 static_cast
@@ -11310,6 +11433,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 ScalarKey
 {
 static_cast
@@ -11351,6 +11475,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 ScalarKey
 {
 static_cast
@@ -11392,6 +11517,7 @@ rv
 =
 internal_GetScalarByEnum
 (
+locker
 ScalarKey
 {
 static_cast
@@ -11468,6 +11594,7 @@ gTelemetryScalarsMutex
 ;
 internal_DynamicScalarToIPC
 (
+locker
 *
 gDynamicScalarInfo
 aDefArray
