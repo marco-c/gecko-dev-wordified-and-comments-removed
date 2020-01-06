@@ -177,9 +177,6 @@ shutil
 rmtree
 (
 dump_directory
-ignore_errors
-=
-True
 )
         
 if
@@ -262,7 +259,15 @@ setUp
         
 self
 .
-mozcrash_mock
+mozcrash
+=
+runner
+.
+mozcrash
+        
+runner
+.
+mozcrash
 =
 MockMozCrash
 (
@@ -314,6 +319,14 @@ tearDown
 self
 )
 :
+        
+runner
+.
+mozcrash
+=
+self
+.
+mozcrash
         
 self
 .
@@ -367,20 +380,6 @@ else
 system
 '
         
-mozcrash
-=
-runner
-.
-mozcrash
-        
-runner
-.
-mozcrash
-=
-self
-.
-mozcrash_mock
-        
 socket_timeout
 =
 self
@@ -388,6 +387,18 @@ self
 marionette
 .
 client
+.
+socket_timeout
+        
+self
+.
+marionette
+.
+client
+.
+socket_timeout
+=
+self
 .
 socket_timeout
         
@@ -402,18 +413,6 @@ context
         
 try
 :
-            
-self
-.
-marionette
-.
-client
-.
-socket_timeout
-=
-self
-.
-socket_timeout
             
 self
 .
@@ -521,12 +520,6 @@ sandbox
 finally
 :
             
-runner
-.
-mozcrash
-=
-mozcrash
-            
 self
 .
 marionette
@@ -630,6 +623,14 @@ process_id
 self
 .
 pid
+)
+        
+self
+.
+marionette
+.
+get_url
+(
 )
     
 run_if_e10s
