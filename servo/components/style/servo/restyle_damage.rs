@@ -1447,14 +1447,14 @@ visibility
 if
 old
 .
-get_custom_properties
+custom_properties
 (
 )
 !
 =
 new
 .
-get_custom_properties
+custom_properties
 (
 )
 {

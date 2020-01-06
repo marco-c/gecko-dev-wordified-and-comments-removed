@@ -976,7 +976,7 @@ visited_rules
 :
 style
 .
-get_visited_style
+visited_style
 (
 )
 .
