@@ -2455,7 +2455,7 @@ UnprotectedData
 <
 size_t
 >
-numHelperThreadZones
+numActiveHelperThreadZones
 ;
 friend
 class
@@ -2495,7 +2495,7 @@ hasHelperThreadZones
 const
 {
 return
-numHelperThreadZones
+numActiveHelperThreadZones
 >
 0
 ;
