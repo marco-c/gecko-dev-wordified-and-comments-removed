@@ -2023,6 +2023,12 @@ callback
 =
 NS_NewInputStreamReadyEvent
 (
+"
+nsJPEGEncoder
+:
+:
+NotifyListener
+"
 mCallback
 mCallbackTarget
 )
