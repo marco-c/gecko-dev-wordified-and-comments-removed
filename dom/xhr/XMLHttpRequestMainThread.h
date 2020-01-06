@@ -1086,6 +1086,11 @@ IsLowercaseResponseHeader
 (
 )
 ;
+void
+MaybeLowerChannelPriority
+(
+)
+;
 public
 :
 virtual

@@ -5854,6 +5854,16 @@ GetUserIsInteracting
 (
 )
 ;
+static
+bool
+IsLowerNetworkPriority
+(
+)
+{
+return
+sLowerNetworkPriority
+;
+}
 private
 :
 static
@@ -6299,6 +6309,10 @@ sSkipCursorMoveForSameValueSet
 static
 bool
 sRequestIdleCallbackEnabled
+;
+static
+bool
+sLowerNetworkPriority
 ;
 static
 uint32_t
