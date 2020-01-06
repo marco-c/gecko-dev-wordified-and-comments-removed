@@ -4459,6 +4459,11 @@ mLoadFlags
 LOAD_DOCUMENT_URI
 )
 {
+if
+(
+mIPCOpen
+)
+{
 mKeptAlive
 =
 true
@@ -4467,6 +4472,7 @@ SendDocumentChannelCleanup
 (
 )
 ;
+}
 }
 else
 {
