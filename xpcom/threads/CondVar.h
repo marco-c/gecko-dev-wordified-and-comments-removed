@@ -107,8 +107,7 @@ PR_INTERVAL_NO_TIMEOUT
 #
 ifdef
 MOZILLA_INTERNAL_API
-AutoProfilerThreadSleep
-sleep
+AUTO_PROFILER_THREAD_SLEEP
 ;
 #
 endif

@@ -33288,24 +33288,17 @@ StmtBlock
 (
 [
                     
-StmtDecl
+StmtExpr
 (
-Decl
+ExprCall
 (
-Type
+ExprVar
 (
 '
-AutoProfilerTracing
-'
-)
-                                  
-'
-syncIPCTracer
+AUTO_PROFILER_TRACING
 '
 )
                              
-initargs
-=
 [
 ExprLiteral
 .
@@ -33315,7 +33308,7 @@ String
 IPC
 "
 )
-                                        
+                               
 ExprLiteral
 .
 String
@@ -33338,6 +33331,7 @@ prettyMsgName
 )
 )
 ]
+)
 )
                     
 StmtExpr

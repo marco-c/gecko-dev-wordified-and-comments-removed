@@ -1713,7 +1713,7 @@ testsOverThreshold
 =
 0
 ;
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 test
 -

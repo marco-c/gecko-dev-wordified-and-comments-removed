@@ -4260,7 +4260,7 @@ true
 else
 if
 (
-profiler_feature_active
+PROFILER_FEATURE_ACTIVE
 (
 ProfilerFeature
 :
@@ -4280,7 +4280,7 @@ Dump
 ss
 )
 ;
-profiler_tracing
+PROFILER_TRACING
 (
 "
 log

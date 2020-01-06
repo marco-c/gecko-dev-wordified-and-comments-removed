@@ -1434,9 +1434,6 @@ ipc
 :
 BackgroundChild
 ;
-char
-stackTop
-;
 ThreadInitData
 *
 initData
@@ -1553,7 +1550,7 @@ IsEmpty
 )
 )
 {
-profiler_register_thread
+PROFILER_REGISTER_THREAD
 (
 initData
 -
@@ -1563,8 +1560,6 @@ name
 BeginReading
 (
 )
-&
-stackTop
 )
 ;
 }
@@ -1696,7 +1691,7 @@ UnregisterCurrentThread
 self
 )
 ;
-profiler_unregister_thread
+PROFILER_UNREGISTER_THREAD
 (
 )
 ;

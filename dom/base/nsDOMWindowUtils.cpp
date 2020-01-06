@@ -1787,7 +1787,7 @@ doc
 {
 RefPtr
 <
-nsAtom
+nsIAtom
 >
 name
 =
@@ -13655,7 +13655,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
-nsAtom
+nsIAtom
 >
 pseudo
 =
@@ -16164,7 +16164,7 @@ bool
 aRetVal
 )
 {
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Enter
@@ -16264,7 +16264,7 @@ ExitFullscreen
 (
 )
 {
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Exit

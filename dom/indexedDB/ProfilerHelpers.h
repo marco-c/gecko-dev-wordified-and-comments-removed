@@ -1422,6 +1422,9 @@ logLevel
 )
 |
 |
+#
+ifdef
+MOZ_GECKO_PROFILER
 (
 aUseProfiler
 &
@@ -1430,6 +1433,11 @@ profiler_is_active
 (
 )
 )
+#
+else
+false
+#
+endif
 )
 {
 nsAutoCString
@@ -1481,7 +1489,7 @@ if
 aUseProfiler
 )
 {
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 message
 .

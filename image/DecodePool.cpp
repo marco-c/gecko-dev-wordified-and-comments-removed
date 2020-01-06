@@ -666,7 +666,7 @@ ShutdownThread
 thisThread
 )
 ;
-profiler_unregister_thread
+PROFILER_UNREGISTER_THREAD
 (
 )
 ;

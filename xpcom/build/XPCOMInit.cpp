@@ -4044,7 +4044,7 @@ nsCycleCollector_shutdown
 shutdownCollect
 )
 ;
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Shutdown
@@ -4148,7 +4148,7 @@ created
 )
 ;
 }
-profiler_clear_js_context
+PROFILER_CLEAR_JS_CONTEXT
 (
 )
 ;

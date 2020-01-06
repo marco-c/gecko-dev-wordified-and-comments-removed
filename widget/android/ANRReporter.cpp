@@ -32,6 +32,9 @@ bool
 aUnwind
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -106,6 +109,8 @@ char
 )
 )
 ;
+#
+endif
 return
 true
 ;
@@ -124,6 +129,9 @@ GetNativeStack
 (
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 const
 PRIntervalTime
 timeout
@@ -250,6 +258,8 @@ get
 )
 ;
 }
+#
+endif
 return
 nullptr
 ;
@@ -262,6 +272,9 @@ ReleaseNativeStack
 (
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 !
@@ -277,5 +290,7 @@ profiler_stop
 (
 )
 ;
+#
+endif
 }
 }

@@ -832,8 +832,7 @@ RemoveExpiredFontKeys
 (
 )
 ;
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint
@@ -1192,8 +1191,7 @@ inner
 capacity
 ;
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 Paint

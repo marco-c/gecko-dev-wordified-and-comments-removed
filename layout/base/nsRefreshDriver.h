@@ -365,6 +365,9 @@ observer
 "
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 !
@@ -378,6 +381,8 @@ profiler_get_backtrace
 )
 ;
 }
+#
+endif
 bool
 appended
 =
@@ -440,6 +445,9 @@ observer
 "
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 !
@@ -453,6 +461,8 @@ profiler_get_backtrace
 )
 ;
 }
+#
+endif
 bool
 appended
 =
@@ -1139,12 +1149,17 @@ RefreshDriverTimer
 *
 mActiveTimer
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 UniqueProfilerBacktrace
 mReflowCause
 ;
 UniqueProfilerBacktrace
 mStyleCause
 ;
+#
+endif
 mozilla
 :
 :

@@ -558,7 +558,7 @@ get
 ;
 if
 (
-profiler_feature_active
+PROFILER_FEATURE_ACTIVE
 (
 ProfilerFeature
 :

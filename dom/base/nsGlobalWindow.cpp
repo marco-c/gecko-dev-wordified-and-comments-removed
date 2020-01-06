@@ -29546,7 +29546,7 @@ stage
 eBeforeToggle
 )
 {
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Fullscreen
@@ -29581,7 +29581,7 @@ stage
 eToggleFullscreen
 )
 {
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Fullscreen
@@ -29791,7 +29791,7 @@ stage
 eEnd
 )
 {
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Fullscreen
@@ -29915,7 +29915,7 @@ shouldContinue
 =
 true
 ;
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Fullscreen
@@ -29999,7 +29999,7 @@ shouldContinue
 =
 true
 ;
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 Fullscreen
@@ -57136,7 +57136,7 @@ nsGlobalWindow
 :
 EventListenerAdded
 (
-nsAtom
+nsIAtom
 *
 aType
 )
@@ -57301,7 +57301,7 @@ nsGlobalWindow
 :
 EventListenerRemoved
 (
-nsAtom
+nsIAtom
 *
 aType
 )

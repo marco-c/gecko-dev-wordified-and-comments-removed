@@ -176,7 +176,7 @@ h
 #
 include
 "
-nsAtom
+nsIAtom
 .
 h
 "
@@ -2722,7 +2722,7 @@ DEBUG
 bool
 AtomIsEventHandlerName
 (
-nsAtom
+nsIAtom
 *
 aName
 )
@@ -5211,8 +5211,7 @@ TimeStamp
 aDeadline
 )
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 CC
@@ -6212,8 +6211,7 @@ NS_IsMainThread
 return
 ;
 }
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 CC

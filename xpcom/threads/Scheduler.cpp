@@ -2494,15 +2494,13 @@ nsThread
 MAIN_THREAD
 )
 ;
-profiler_register_thread
+PROFILER_REGISTER_THREAD
 (
 aName
 .
 BeginReading
 (
 )
-&
-aStackTop
 )
 ;
 mOldMainLoop
@@ -2646,7 +2644,7 @@ UnregisterCurrentThread
 self
 )
 ;
-profiler_unregister_thread
+PROFILER_UNREGISTER_THREAD
 (
 )
 ;

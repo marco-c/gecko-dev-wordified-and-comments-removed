@@ -1983,11 +1983,7 @@ void
 arg
 )
 {
-mozilla
-:
-:
-AutoProfilerRegisterThread
-registerThread
+AUTO_PROFILER_REGISTER_THREAD
 (
 "
 JS
@@ -2561,7 +2557,7 @@ Get
 (
 )
 ;
-profiler_js_interrupt_callback
+PROFILER_JS_INTERRUPT_CALLBACK
 (
 )
 ;
@@ -4211,7 +4207,7 @@ Context
 nullptr
 )
 ;
-profiler_clear_js_context
+PROFILER_CLEAR_JS_CONTEXT
 (
 )
 ;
@@ -4854,7 +4850,7 @@ kSystemCodeBuffer
 kTrustedScriptBuffer
 )
 ;
-profiler_set_js_context
+PROFILER_SET_JS_CONTEXT
 (
 cx
 )

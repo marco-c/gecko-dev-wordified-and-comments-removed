@@ -5,6 +5,9 @@ mozilla_ThreadStackHelper_h
 define
 mozilla_ThreadStackHelper_h
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 js
@@ -112,16 +115,11 @@ defined
 XP_MACOSX
 )
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 define
 MOZ_THREADSTACKHELPER_PSEUDO
 #
 define
 MOZ_THREADSTACKHELPER_NATIVE
-#
-endif
 #
 endif
 #
@@ -284,5 +282,7 @@ mThreadId
 }
 ;
 }
+#
+endif
 #
 endif

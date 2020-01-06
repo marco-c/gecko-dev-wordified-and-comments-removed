@@ -550,11 +550,7 @@ ThreadMain
 (
 )
 {
-mozilla
-:
-:
-AutoProfilerRegisterThread
-registerThread
+AUTO_PROFILER_REGISTER_THREAD
 (
 name_
 .

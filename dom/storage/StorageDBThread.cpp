@@ -1801,8 +1801,7 @@ void
 aArg
 )
 {
-AutoProfilerRegisterThread
-registerThread
+AUTO_PROFILER_REGISTER_THREAD
 (
 "
 localStorage

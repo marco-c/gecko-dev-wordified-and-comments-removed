@@ -3101,6 +3101,12 @@ get
 (
 )
 ;
+#
+if
+defined
+(
+MOZ_DUMP_PAINTING
+)
 if
 (
 gfxPrefs
@@ -3111,7 +3117,7 @@ LayersDumpTexture
 )
 |
 |
-profiler_feature_active
+PROFILER_FEATURE_ACTIVE
 (
 ProfilerFeature
 :
@@ -3144,6 +3150,8 @@ false
 )
 ;
 }
+#
+endif
 }
 void
 TiledContentHost

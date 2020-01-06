@@ -367,7 +367,7 @@ h
 #
 include
 "
-nsAtom
+nsIAtom
 .
 h
 "
@@ -4327,6 +4327,9 @@ NS_ENSURE_ARG_POINTER
 aEvent
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -4384,6 +4387,8 @@ get
 )
 ;
 }
+#
+endif
 if
 (
 IPCAccessibilityActive
@@ -4861,7 +4866,7 @@ forget
 (
 )
 ;
-nsAtom
+nsIAtom
 *
 landmark
 =
@@ -7538,7 +7543,7 @@ return
 aRole
 ;
 }
-nsAtom
+nsIAtom
 *
 Accessible
 :
@@ -12822,7 +12827,7 @@ Accessible
 aItem
 )
 {
-nsAtom
+nsIAtom
 *
 id
 =
@@ -13186,7 +13191,7 @@ Accessible
 :
 AttrNumericValue
 (
-nsAtom
+nsIAtom
 *
 aAttr
 )

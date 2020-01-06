@@ -266,12 +266,17 @@ GeckoProfiler
 h
 "
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 ProfilerMarkerPayload
 .
 h
 "
+#
+endif
 #
 ifdef
 MOZ_CRASHREPORTER
@@ -3641,6 +3646,9 @@ Context
 aContext
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -3736,6 +3744,8 @@ aContext
 ;
 }
 }
+#
+endif
 if
 (
 aProgress
@@ -4224,9 +4234,11 @@ Now
 )
 ;
 }
+#
+ifdef
+MOZ_GECKO_PROFILER
 else
 if
-(
 (
 aProgress
 =
@@ -4238,7 +4250,6 @@ GCNurseryProgress
 :
 :
 GC_NURSERY_COLLECTION_END
-)
 &
 &
 profiler_is_active
@@ -4277,6 +4288,8 @@ aContext
 )
 ;
 }
+#
+endif
 if
 (
 self

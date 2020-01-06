@@ -198,12 +198,17 @@ class
 MOZ_STACK_CLASS
 ExecutionContext
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 mozilla
 :
 :
 AutoProfilerLabel
 mAutoProfilerLabel
 ;
+#
+endif
 JSContext
 *
 mCx

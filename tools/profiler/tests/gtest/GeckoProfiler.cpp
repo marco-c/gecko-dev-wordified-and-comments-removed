@@ -1919,7 +1919,7 @@ B
 TRACING_EVENT
 )
 ;
-profiler_tracing
+PROFILER_TRACING
 (
 "
 A
@@ -1930,7 +1930,7 @@ C
 TRACING_INTERVAL_START
 )
 ;
-profiler_tracing
+PROFILER_TRACING
 (
 "
 A
@@ -1964,8 +1964,7 @@ bt
 )
 ;
 {
-AutoProfilerTracing
-tracing
+AUTO_PROFILER_TRACING
 (
 "
 C
@@ -2000,7 +1999,7 @@ TRACING_EVENT
 )
 )
 ;
-profiler_add_marker
+PROFILER_ADD_MARKER
 (
 "
 M3

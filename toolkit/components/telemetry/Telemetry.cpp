@@ -7045,11 +7045,8 @@ aKey
 )
 {
 #
-if
-defined
-(
+ifdef
 MOZ_GECKO_PROFILER
-)
 TelemetryImpl
 :
 :
@@ -8792,11 +8789,8 @@ aKey
 )
 {
 #
-if
-defined
-(
+ifdef
 MOZ_GECKO_PROFILER
-)
 TelemetryImpl
 :
 :

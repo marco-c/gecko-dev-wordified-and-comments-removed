@@ -113,8 +113,7 @@ void
 arg
 )
 {
-AutoProfilerRegisterThread
-registerThread
+AUTO_PROFILER_REGISTER_THREAD
 (
 "
 Protected
