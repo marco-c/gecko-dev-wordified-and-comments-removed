@@ -4189,16 +4189,6 @@ isValidOut
 )
 ;
 void
-InvalidateCompilerOutputsForScript
-(
-JSContext
-*
-cx
-HandleScript
-script
-)
-;
-void
 FinishDefinitePropertiesAnalysis
 (
 JSContext

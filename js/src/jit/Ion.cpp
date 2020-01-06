@@ -2887,12 +2887,6 @@ clearPendingException
 (
 )
 ;
-InvalidateCompilerOutputsForScript
-(
-cx
-calleeScript
-)
-;
 }
 }
 {
