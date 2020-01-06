@@ -87,8 +87,6 @@ tree
 :
 android
 -
-gradle
--
 build
 }
 env
@@ -356,8 +354,6 @@ taskcluster
 docker
 /
 android
--
-gradle
 -
 build
 /

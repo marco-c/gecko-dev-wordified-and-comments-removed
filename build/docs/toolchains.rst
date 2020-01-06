@@ -649,8 +649,6 @@ docker
 /
 android
 -
-gradle
--
 build
 .
 The

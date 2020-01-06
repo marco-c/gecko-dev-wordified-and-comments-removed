@@ -195,8 +195,6 @@ lnt
 )
 android
 -
-gradle
--
 build
 :
 symbol
@@ -214,16 +212,4 @@ symbol
 I
 (
 idx
-)
-funsize
--
-update
--
-generator
-:
-symbol
-:
-I
-(
-pg
 )
