@@ -131,13 +131,6 @@ asserts
 (
 1
 )
-asserts
--
-if
-(
-styloVsGecko
-2
-)
 =
 =
 ol
