@@ -19324,7 +19324,7 @@ pm
 pm
 -
 >
-TriggerDeviceResetForTesting
+SimulateDeviceReset
 (
 )
 ;

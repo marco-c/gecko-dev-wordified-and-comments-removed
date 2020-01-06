@@ -535,7 +535,7 @@ aHost
 override
 ;
 void
-TriggerDeviceResetForTesting
+SimulateDeviceReset
 (
 )
 ;
