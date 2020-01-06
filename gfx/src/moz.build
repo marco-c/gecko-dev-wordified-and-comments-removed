@@ -281,6 +281,11 @@ gfx
 =
 [
 '
+CompositorHitTestInfo
+.
+h
+'
+'
 TiledRegion
 .
 h
