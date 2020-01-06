@@ -261,6 +261,12 @@ nsIObjectLoadingContent
 :
 :
 PLUGIN_VULNERABLE_NO_UPDATE
+eFallbackClickToPlayQuiet
+=
+nsIObjectLoadingContent
+:
+:
+PLUGIN_CLICK_TO_PLAY_QUIET
 }
 ;
 nsObjectLoadingContent
