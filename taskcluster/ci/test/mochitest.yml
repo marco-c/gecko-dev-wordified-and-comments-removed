@@ -703,7 +703,7 @@ opt
 xlarge
 default
 :
-legacy
+default
 allow
 -
 software
