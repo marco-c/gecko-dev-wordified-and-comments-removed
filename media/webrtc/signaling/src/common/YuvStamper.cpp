@@ -33,13 +33,6 @@ h
 #
 include
 "
-plarena
-.
-h
-"
-#
-include
-"
 nspr
 .
 h
