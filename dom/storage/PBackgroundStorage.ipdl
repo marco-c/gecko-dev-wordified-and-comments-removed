@@ -188,7 +188,7 @@ PBackground
 parent
 :
 async
-__delete__
+DeleteMe
 (
 )
 ;
@@ -368,6 +368,11 @@ pattern
 ;
 child
 :
+async
+__delete__
+(
+)
+;
 async
 Observe
 (
