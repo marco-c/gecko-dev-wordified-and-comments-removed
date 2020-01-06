@@ -877,7 +877,7 @@ SERVO_BINDING_FUNC
 (
 Servo_ComputedValues_ExtractAnimationValue
 RawServoAnimationValueStrong
-ServoComputedValuesBorrowed
+ServoStyleContextBorrowed
 computed_values
 nsCSSPropertyID
 property

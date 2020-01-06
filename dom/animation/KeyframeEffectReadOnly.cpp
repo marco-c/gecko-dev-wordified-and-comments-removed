@@ -2277,11 +2277,6 @@ baseValue
 Servo_ComputedValues_ExtractAnimationValue
 (
 aBaseStyleContext
--
->
-ComputedValues
-(
-)
 aProperty
 .
 mProperty

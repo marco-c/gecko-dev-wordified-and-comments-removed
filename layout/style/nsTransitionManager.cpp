@@ -2269,11 +2269,6 @@ mServo
 Servo_ComputedValues_ExtractAnimationValue
 (
 aComputedStyle
--
->
-ComputedValues
-(
-)
 aProperty
 )
 .
