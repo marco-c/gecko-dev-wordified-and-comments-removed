@@ -89,8 +89,9 @@ box
 hidden
 )
 {
-info
+ok
 (
+false
 "
 Unexpected
 sidebar

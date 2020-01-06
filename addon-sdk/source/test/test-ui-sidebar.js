@@ -9036,13 +9036,7 @@ querySelector
 #
 sidebar
 -
-header
->
-toolbarbutton
-.
 close
--
-icon
 '
 )
 ;
