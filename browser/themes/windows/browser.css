@@ -5640,12 +5640,17 @@ size
 .
 15em
 ;
+%
+ifndef
+MOZ_PHOTON_THEME
 min
 -
 height
 :
 28px
 ;
+%
+endif
 }
 :
 root

@@ -4442,8 +4442,12 @@ searchbar
 textbox
 {
 font
+-
+size
 :
-icon
+1
+.
+25em
 ;
 }
 %
