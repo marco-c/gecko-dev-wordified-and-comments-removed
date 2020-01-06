@@ -493,6 +493,12 @@ this
 mQueuedEntries
 )
 ;
+mQueuedEntries
+.
+Clear
+(
+)
+;
 ErrorResult
 rv
 ;
@@ -528,12 +534,6 @@ SuppressException
 )
 ;
 }
-mQueuedEntries
-.
-Clear
-(
-)
-;
 }
 void
 PerformanceObserver
