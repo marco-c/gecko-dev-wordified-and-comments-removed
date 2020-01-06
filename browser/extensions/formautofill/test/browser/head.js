@@ -1035,6 +1035,18 @@ saveCreditCard
 creditcard
 )
 {
+let
+creditcardClone
+=
+Object
+.
+assign
+(
+{
+}
+creditcard
+)
+;
 Services
 .
 cpmm
@@ -1048,6 +1060,8 @@ SaveCreditCard
 "
 {
 creditcard
+:
+creditcardClone
 }
 )
 ;
