@@ -1234,7 +1234,10 @@ style
 values
 :
 :
+{
 specified
+computed
+}
 ;
 use
 stylesheet_loader
@@ -4572,7 +4575,7 @@ LengthOrPercentageOrAuto
 :
 Percentage
 (
-specified
+computed
 :
 :
 Percentage
@@ -4781,7 +4784,7 @@ LengthOrPercentageOrAuto
 :
 Percentage
 (
-specified
+computed
 :
 :
 Percentage

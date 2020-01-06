@@ -333,7 +333,6 @@ specified
 :
 {
 BorderStyle
-Percentage
 UrlOrNone
 }
 ;
@@ -392,6 +391,7 @@ LengthOrPercentageOrAuto
 LengthOrPercentageOrNone
 MaxLength
 MozLength
+Percentage
 }
 ;
 pub

@@ -52,6 +52,7 @@ computed
 :
 {
 Context
+Percentage
 ToComputedValue
 }
 ;
@@ -79,7 +80,6 @@ specified
 {
 AllowQuirks
 LengthOrPercentage
-Percentage
 }
 ;
 use
@@ -1550,9 +1550,10 @@ LengthOrPercentage
 Percentage
 (
 Percentage
+:
+:
+zero
 (
-0
-.
 )
 )
 )
@@ -1715,10 +1716,10 @@ length
 Some
 (
 Percentage
+:
+:
+hundred
 (
-1
-.
-0
 )
 )
 )

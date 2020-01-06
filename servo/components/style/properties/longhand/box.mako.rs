@@ -5722,7 +5722,6 @@ Angle
 Integer
 Length
 LengthOrPercentage
-Percentage
 }
 ;
 use
@@ -5793,7 +5792,6 @@ computed
 {
 Length
 LengthOrPercentage
-Percentage
 }
 ;
 #
@@ -6400,6 +6398,9 @@ to_list
 :
 T
 progress
+:
+computed
+:
 :
 Percentage
 }
@@ -7144,6 +7145,9 @@ to_list
 :
 SpecifiedValue
 progress
+:
+computed
+:
 :
 Percentage
 }

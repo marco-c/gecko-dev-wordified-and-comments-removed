@@ -136,6 +136,7 @@ computed
 {
 MaxLength
 MozLength
+Percentage
 }
 ;
 use
@@ -199,15 +200,6 @@ grid
 TrackBreadth
 TrackKeyword
 }
-;
-use
-values
-:
-:
-specified
-:
-:
-Percentage
 ;
 pub
 trait

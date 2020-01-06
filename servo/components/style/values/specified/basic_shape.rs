@@ -42,6 +42,15 @@ use
 values
 :
 :
+computed
+:
+:
+Percentage
+;
+use
+values
+:
+:
 generics
 :
 :
@@ -163,10 +172,7 @@ values
 specified
 :
 :
-{
 LengthOrPercentage
-Percentage
-}
 ;
 use
 values
