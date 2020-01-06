@@ -123,7 +123,7 @@ JavaScript
 .
 *
 [
-_libwebdriver_
+_webdriver_
 ]
 is
 a
@@ -209,7 +209,7 @@ README
 .
 md
 [
-_libwebdriver_
+_webdriver_
 ]
 :
 .
@@ -852,7 +852,7 @@ Testing
 geckodriver
 ]
 component
-in
+on
 Bugzilla
 .
 We
