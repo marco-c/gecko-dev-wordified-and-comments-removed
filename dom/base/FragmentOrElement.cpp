@@ -6501,6 +6501,9 @@ const
 nsAString
 &
 aTextContent
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
