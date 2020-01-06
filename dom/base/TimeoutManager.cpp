@@ -2234,7 +2234,7 @@ GetPopupControlState
 (
 )
 <
-openAbused
+openBlocked
 )
 {
 if

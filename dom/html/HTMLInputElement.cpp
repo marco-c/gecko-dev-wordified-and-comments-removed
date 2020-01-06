@@ -3854,7 +3854,7 @@ GetPopupControlState
 )
 <
 =
-openControlled
+openBlocked
 )
 {
 return

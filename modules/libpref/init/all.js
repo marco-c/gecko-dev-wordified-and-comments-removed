@@ -10928,7 +10928,7 @@ popups
 .
 disable_from_plugins
 "
-2
+3
 )
 ;
 pref
