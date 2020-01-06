@@ -42,7 +42,6 @@ var
 {
 Loader
 Require
-descriptor
 resolveURI
 unload
 }
@@ -885,7 +884,9 @@ defineProperties
 loader
 .
 globals
-descriptor
+Object
+.
+getOwnPropertyDescriptors
 (
 globals
 )
