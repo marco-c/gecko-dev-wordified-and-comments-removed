@@ -418,6 +418,15 @@ aEnabled
 )
 ;
 void
+SetFrameStartTime
+(
+const
+TimeStamp
+&
+aTime
+)
+;
+void
 RunOnRenderThread
 (
 UniquePtr

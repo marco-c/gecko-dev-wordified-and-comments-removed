@@ -537,6 +537,8 @@ WebRenderScrollData
 aScrollData
 uint32_t
 idNameSpace
+TimeStamp
+fwdTime
 )
 ;
 sync
@@ -566,6 +568,8 @@ WebRenderScrollData
 aScrollData
 uint32_t
 idNameSpace
+TimeStamp
+fwdTime
 )
 ;
 async

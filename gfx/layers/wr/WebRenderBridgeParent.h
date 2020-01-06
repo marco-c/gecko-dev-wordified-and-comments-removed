@@ -657,6 +657,10 @@ const
 uint32_t
 &
 aIdNameSpace
+const
+TimeStamp
+&
+aFwdTime
 )
 override
 ;
@@ -727,6 +731,10 @@ const
 uint32_t
 &
 aIdNameSpace
+const
+TimeStamp
+&
+aFwdTime
 )
 override
 ;
@@ -1178,6 +1186,10 @@ uint32_t
 aWrEpoch
 uint64_t
 aTransactionId
+const
+TimeStamp
+&
+aFwdTime
 )
 ;
 uint64_t
@@ -1200,6 +1212,10 @@ wr
 Epoch
 &
 aEpoch
+const
+TimeStamp
+&
+aEndTime
 )
 ;
 TextureFactoryIdentifier
@@ -1488,6 +1504,10 @@ const
 uint32_t
 &
 aIdNameSpace
+const
+TimeStamp
+&
+aFwdTime
 )
 ;
 mozilla
@@ -1584,6 +1604,10 @@ Epoch
 aEpoch
 uint64_t
 aId
+const
+TimeStamp
+&
+aFwdTime
 )
 :
 mEpoch
@@ -1593,6 +1617,10 @@ aEpoch
 mId
 (
 aId
+)
+mFwdTime
+(
+aFwdTime
 )
 {
 }
@@ -1604,6 +1632,9 @@ mEpoch
 ;
 uint64_t
 mId
+;
+TimeStamp
+mFwdTime
 ;
 }
 ;

@@ -150,6 +150,15 @@ bool
 aEnabled
 )
 ;
+void
+SetFrameStartTime
+(
+const
+TimeStamp
+&
+aTime
+)
+;
 ~
 RendererOGL
 (
@@ -303,6 +312,9 @@ wr
 :
 WindowId
 mWindowId
+;
+TimeStamp
+mFrameStartTime
 ;
 }
 ;
