@@ -1449,3 +1449,15 @@ v2
 )
 ;
 }
+function
+waitForPaints
+(
+)
+{
+return
+waitForAnimationFrames
+(
+2
+)
+;
+}
