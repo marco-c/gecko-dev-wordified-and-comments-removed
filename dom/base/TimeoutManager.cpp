@@ -995,12 +995,6 @@ if
 aTimeout
 -
 >
-mIsInterval
-|
-|
-aTimeout
--
->
 mNestingLevel
 >
 =
