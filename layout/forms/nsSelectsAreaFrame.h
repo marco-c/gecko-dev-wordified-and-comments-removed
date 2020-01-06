@@ -128,7 +128,7 @@ kClassID
 )
 mBSizeOfARow
 (
-0
+nscoord_MIN
 )
 {
 }
