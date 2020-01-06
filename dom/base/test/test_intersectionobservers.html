@@ -1967,7 +1967,6 @@ it
 (
 '
 does
-not
 trigger
 if
 target
@@ -2040,7 +2039,7 @@ to
 .
 be
 (
-0
+1
 )
 ;
 done
@@ -3549,7 +3548,7 @@ to
 .
 be
 (
-2
+3
 )
 ;
 expect
@@ -4627,7 +4626,7 @@ to
 .
 be
 (
-3
+4
 )
 ;
 expect
@@ -4670,7 +4669,7 @@ expect
 (
 records
 [
-1
+2
 ]
 .
 target
@@ -4687,7 +4686,7 @@ expect
 (
 records
 [
-1
+2
 ]
 .
 intersectionRatio
@@ -4706,7 +4705,7 @@ expect
 (
 records
 [
-2
+3
 ]
 .
 target
@@ -4723,7 +4722,7 @@ expect
 (
 records
 [
-2
+3
 ]
 .
 intersectionRatio
@@ -4826,7 +4825,7 @@ to
 .
 be
 (
-2
+4
 )
 ;
 expect
@@ -4869,7 +4868,7 @@ expect
 (
 records
 [
-1
+3
 ]
 .
 target
@@ -4886,7 +4885,7 @@ expect
 (
 records
 [
-1
+3
 ]
 .
 intersectionRatio
@@ -4994,7 +4993,7 @@ to
 .
 be
 (
-3
+4
 )
 ;
 expect
@@ -5073,7 +5072,7 @@ expect
 (
 records
 [
-2
+3
 ]
 .
 target
@@ -5090,7 +5089,7 @@ expect
 (
 records
 [
-2
+3
 ]
 .
 intersectionRatio
@@ -5324,14 +5323,14 @@ to
 .
 be
 (
-1
+2
 )
 ;
 expect
 (
 records
 [
-0
+1
 ]
 .
 intersectionRatio
@@ -5348,7 +5347,7 @@ expect
 (
 records
 [
-0
+1
 ]
 .
 target
@@ -6302,7 +6301,7 @@ to
 .
 be
 (
-0
+1
 )
 ;
 done
@@ -6346,7 +6345,7 @@ to
 .
 be
 (
-1
+2
 )
 ;
 var
@@ -6450,7 +6449,7 @@ to
 .
 be
 (
-2
+3
 )
 ;
 var
@@ -6555,7 +6554,7 @@ to
 .
 be
 (
-3
+4
 )
 ;
 var
@@ -6659,7 +6658,7 @@ to
 .
 be
 (
-4
+5
 )
 ;
 var
@@ -6868,6 +6867,11 @@ left
 220px
 '
 ;
+var
+callCount
+=
+0
+;
 io
 =
 new
@@ -6878,6 +6882,21 @@ function
 records
 )
 {
+callCount
++
++
+;
+if
+(
+callCount
+<
+=
+1
+)
+{
+return
+;
+}
 expect
 (
 records
