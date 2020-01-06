@@ -966,15 +966,6 @@ element
 :
 Element
 ;
-use
-std
-:
-:
-ascii
-:
-:
-AsciiExt
-;
 let
 element
 =

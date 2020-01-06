@@ -151,15 +151,6 @@ use
 std
 :
 :
-ascii
-:
-:
-AsciiExt
-;
-use
-std
-:
-:
 fmt
 ;
 use

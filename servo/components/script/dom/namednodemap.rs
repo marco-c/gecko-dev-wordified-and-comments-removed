@@ -157,15 +157,6 @@ html5ever
 :
 LocalName
 ;
-use
-std
-:
-:
-ascii
-:
-:
-AsciiExt
-;
 #
 [
 dom_struct

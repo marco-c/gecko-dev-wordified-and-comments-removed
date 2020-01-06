@@ -907,15 +907,6 @@ use
 std
 :
 :
-ascii
-:
-:
-AsciiExt
-;
-use
-std
-:
-:
 borrow
 :
 :

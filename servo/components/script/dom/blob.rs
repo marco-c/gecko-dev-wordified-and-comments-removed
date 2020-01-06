@@ -175,15 +175,6 @@ use
 std
 :
 :
-ascii
-:
-:
-AsciiExt
-;
-use
-std
-:
-:
 mem
 ;
 use

@@ -339,15 +339,6 @@ use
 std
 :
 :
-ascii
-:
-:
-AsciiExt
-;
-use
-std
-:
-:
 collections
 :
 :

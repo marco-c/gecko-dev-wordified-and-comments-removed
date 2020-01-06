@@ -349,15 +349,6 @@ use
 std
 :
 :
-ascii
-:
-:
-AsciiExt
-;
-use
-std
-:
-:
 cell
 :
 :
