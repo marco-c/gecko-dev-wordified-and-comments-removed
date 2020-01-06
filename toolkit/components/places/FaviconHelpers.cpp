@@ -3110,6 +3110,16 @@ PRIORITY_LOWEST
 )
 ;
 }
+if
+(
+nsContentUtils
+:
+:
+IsTailingEnabled
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIClassOfService
@@ -3142,6 +3152,7 @@ nsIClassOfService
 Throttleable
 )
 ;
+}
 }
 rv
 =

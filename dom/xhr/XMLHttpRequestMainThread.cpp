@@ -11132,6 +11132,16 @@ fileNameString
 return
 ;
 }
+if
+(
+nsContentUtils
+:
+:
+IsTailingEnabled
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIClassOfService
@@ -11169,6 +11179,7 @@ nsIClassOfService
 TailAllowed
 )
 ;
+}
 }
 nsCOMPtr
 <
