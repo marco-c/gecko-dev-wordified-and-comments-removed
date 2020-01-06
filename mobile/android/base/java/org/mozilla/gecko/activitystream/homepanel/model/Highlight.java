@@ -90,6 +90,17 @@ ranking
 HighlightsRanking
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+db
+.
+BrowserContract
+;
+import
 java
 .
 util
