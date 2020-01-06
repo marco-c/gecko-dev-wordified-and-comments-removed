@@ -11,7 +11,7 @@ MP4Decoder_h_
 #
 include
 "
-MediaDecoder
+ChannelMediaDecoder
 .
 h
 "
@@ -54,7 +54,7 @@ class
 MP4Decoder
 :
 public
-MediaDecoder
+ChannelMediaDecoder
 {
 public
 :

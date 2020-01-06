@@ -1,6 +1,13 @@
 #
 include
 "
+ChannelMediaDecoder
+.
+h
+"
+#
+include
+"
 DecoderTraits
 .
 h
@@ -9,13 +16,6 @@ h
 include
 "
 MediaContainerType
-.
-h
-"
-#
-include
-"
-MediaDecoder
 .
 h
 "
@@ -1144,7 +1144,7 @@ CANPLAY_NO
 static
 already_AddRefed
 <
-MediaDecoder
+ChannelMediaDecoder
 >
 InstantiateDecoder
 (
@@ -1169,7 +1169,7 @@ NS_IsMainThread
 ;
 RefPtr
 <
-MediaDecoder
+ChannelMediaDecoder
 >
 decoder
 ;
@@ -1474,7 +1474,7 @@ nullptr
 }
 already_AddRefed
 <
-MediaDecoder
+ChannelMediaDecoder
 >
 DecoderTraits
 :

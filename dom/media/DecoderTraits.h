@@ -24,13 +24,13 @@ class
 AbstractMediaDecoder
 ;
 class
+ChannelMediaDecoder
+;
+class
 DecoderDoctorDiagnostics
 ;
 class
 MediaContainerType
-;
-class
-MediaDecoder
 ;
 struct
 MediaDecoderInit
@@ -83,7 +83,7 @@ aDiagnostics
 static
 already_AddRefed
 <
-MediaDecoder
+ChannelMediaDecoder
 >
 CreateDecoder
 (

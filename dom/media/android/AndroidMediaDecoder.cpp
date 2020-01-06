@@ -36,7 +36,7 @@ MediaContainerType
 aType
 )
 :
-MediaDecoder
+ChannelMediaDecoder
 (
 aInit
 )

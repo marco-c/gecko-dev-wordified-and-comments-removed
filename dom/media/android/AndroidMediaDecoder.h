@@ -11,7 +11,7 @@ AndroidMediaDecoder_h_
 #
 include
 "
-MediaDecoder
+ChannelMediaDecoder
 .
 h
 "
@@ -36,7 +36,7 @@ class
 AndroidMediaDecoder
 :
 public
-MediaDecoder
+ChannelMediaDecoder
 {
 MediaContainerType
 mType

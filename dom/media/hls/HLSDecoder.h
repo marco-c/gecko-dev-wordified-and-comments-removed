@@ -7,7 +7,7 @@ HLSDecoder_h_
 #
 include
 "
-MediaDecoder
+ChannelMediaDecoder
 .
 h
 "
@@ -22,7 +22,7 @@ HLSDecoder
 final
 :
 public
-MediaDecoder
+ChannelMediaDecoder
 {
 public
 :
@@ -34,7 +34,7 @@ MediaDecoderInit
 aInit
 )
 :
-MediaDecoder
+ChannelMediaDecoder
 (
 aInit
 )

@@ -567,6 +567,11 @@ BufferMediaResource
 h
 '
 '
+ChannelMediaDecoder
+.
+h
+'
+'
 CubebUtils
 .
 h
@@ -1085,6 +1090,11 @@ cpp
 '
 '
 CanvasCaptureMediaStream
+.
+cpp
+'
+'
+ChannelMediaDecoder
 .
 cpp
 '

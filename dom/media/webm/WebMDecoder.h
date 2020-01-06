@@ -11,7 +11,7 @@ WebMDecoder_h_
 #
 include
 "
-MediaDecoder
+ChannelMediaDecoder
 .
 h
 "
@@ -32,7 +32,7 @@ class
 WebMDecoder
 :
 public
-MediaDecoder
+ChannelMediaDecoder
 {
 public
 :
@@ -44,7 +44,7 @@ MediaDecoderInit
 aInit
 )
 :
-MediaDecoder
+ChannelMediaDecoder
 (
 aInit
 )

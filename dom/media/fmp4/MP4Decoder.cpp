@@ -126,7 +126,7 @@ MediaDecoderInit
 aInit
 )
 :
-MediaDecoder
+ChannelMediaDecoder
 (
 aInit
 )

@@ -11,7 +11,7 @@ WaveDecoder_h_
 #
 include
 "
-MediaDecoder
+ChannelMediaDecoder
 .
 h
 "
@@ -25,7 +25,7 @@ class
 WaveDecoder
 :
 public
-MediaDecoder
+ChannelMediaDecoder
 {
 public
 :
@@ -37,7 +37,7 @@ MediaDecoderInit
 aInit
 )
 :
-MediaDecoder
+ChannelMediaDecoder
 (
 aInit
 )
