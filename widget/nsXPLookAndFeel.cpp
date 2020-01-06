@@ -1500,6 +1500,7 @@ Preferences
 GetString
 (
 prefName
+&
 colorStr
 )
 ;
@@ -1791,6 +1792,7 @@ sColorPrefs
 [
 i
 ]
+&
 colorStr
 )
 ;

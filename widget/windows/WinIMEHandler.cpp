@@ -4134,6 +4134,7 @@ Preferences
 GetString
 (
 kOskPathPrefName
+&
 cachedPath
 )
 ;

@@ -1282,6 +1282,7 @@ Preferences
 GetCString
 (
 PREF_DOWNLOAD_ALLOW_TABLE
+&
 allowlist
 )
 ;
@@ -1312,6 +1313,7 @@ Preferences
 GetCString
 (
 PREF_DOWNLOAD_BLOCK_TABLE
+&
 blocklist
 )
 ;
@@ -1378,6 +1380,7 @@ Preferences
 GetCString
 (
 PREF_DOWNLOAD_BLOCK_TABLE
+&
 blockList
 )
 ;
@@ -1463,6 +1466,7 @@ Preferences
 GetCString
 (
 PREF_DOWNLOAD_ALLOW_TABLE
+&
 allowList
 )
 ;
@@ -6014,7 +6018,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsAutoCString
+nsCString
 serviceUrl
 ;
 NS_ENSURE_SUCCESS
@@ -6025,6 +6029,7 @@ Preferences
 GetCString
 (
 PREF_SB_APP_REP_URL
+&
 serviceUrl
 )
 NS_ERROR_NOT_AVAILABLE
@@ -6075,6 +6080,7 @@ Preferences
 GetCString
 (
 PREF_DOWNLOAD_BLOCK_TABLE
+&
 table
 )
 NS_ERROR_NOT_AVAILABLE
@@ -6124,6 +6130,7 @@ Preferences
 GetCString
 (
 PREF_DOWNLOAD_ALLOW_TABLE
+&
 table
 )
 NS_ERROR_NOT_AVAILABLE

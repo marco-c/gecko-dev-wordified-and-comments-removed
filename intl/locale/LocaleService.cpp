@@ -334,6 +334,7 @@ Preferences
 GetCString
 (
 SELECTED_LOCALE_PREF
+&
 locale
 )
 )
@@ -2014,6 +2015,7 @@ prefString
 get
 (
 )
+&
 dir
 )
 ;
@@ -2063,6 +2065,7 @@ prefString
 get
 (
 )
+&
 dir
 )
 ;

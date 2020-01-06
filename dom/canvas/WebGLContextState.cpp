@@ -1250,6 +1250,7 @@ Preferences
 GetString
 (
 overridePref
+&
 ret
 )
 ;
