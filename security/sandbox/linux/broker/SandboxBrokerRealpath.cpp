@@ -101,10 +101,6 @@ SandboxBroker
 .
 h
 "
-using
-namespace
-base
-;
 static
 size_t
 my_strlcat
@@ -160,6 +156,9 @@ pos1
 return
 pos1
 +
+base
+:
+:
 strlcpy
 (
 s1
@@ -397,6 +396,9 @@ resolved_len
 ;
 left_len
 =
+base
+:
+:
 strlcpy
 (
 left
@@ -470,6 +472,9 @@ resolved
 ;
 left_len
 =
+base
+:
+:
 strlcpy
 (
 left
@@ -1215,6 +1220,9 @@ NULL
 }
 left_len
 =
+base
+:
+:
 strlcpy
 (
 left
