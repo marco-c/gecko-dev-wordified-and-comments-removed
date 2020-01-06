@@ -215,13 +215,6 @@ aIntervalMilliseconds
 )
 )
 {
-MOZ_RELEASE_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 if
 (
 mIntervalMicroseconds
@@ -316,13 +309,6 @@ PSLockRef
 aLock
 )
 {
-MOZ_RELEASE_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 if
 (
 mIntervalMicroseconds

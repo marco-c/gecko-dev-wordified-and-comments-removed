@@ -329,13 +329,6 @@ aIntervalMilliseconds
 )
 )
 {
-MOZ_RELEASE_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 pthread_attr_t
 *
 attr_ptr
@@ -392,13 +385,6 @@ PSLockRef
 aLock
 )
 {
-MOZ_RELEASE_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 }
 void
 SamplerThread
