@@ -420,7 +420,7 @@ IntSize
 aSize
 )
 ;
-sync
+async
 AddImage
 (
 ImageKey
@@ -450,7 +450,7 @@ ByteBuffer
 aBytes
 )
 ;
-sync
+async
 UpdateImage
 (
 ImageKey
@@ -463,7 +463,7 @@ ByteBuffer
 aBytes
 )
 ;
-sync
+async
 DeleteImage
 (
 ImageKey
