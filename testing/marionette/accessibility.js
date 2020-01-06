@@ -823,8 +823,12 @@ hidden
 )
 ;
 }
-finally
+catch
+(
+e
+)
 {
+}
 return
 hidden
 &
@@ -837,7 +841,6 @@ hidden
 true
 "
 ;
-}
 }
 matchState
 (
