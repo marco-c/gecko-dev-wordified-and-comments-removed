@@ -30623,7 +30623,10 @@ GetFocusedNode
 ;
 if
 (
-IsLink
+nsContentUtils
+:
+:
+ContentIsLink
 (
 focusedNode
 )
