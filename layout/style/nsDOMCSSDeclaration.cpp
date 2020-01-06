@@ -460,6 +460,7 @@ servoEnv
 =
 GetServoCSSParsingEnvironment
 (
+aSubjectPrincipal
 )
 ;
 if
@@ -502,6 +503,7 @@ geckoEnv
 GetCSSParsingEnvironment
 (
 geckoEnv
+aSubjectPrincipal
 )
 ;
 if
@@ -1223,6 +1225,9 @@ nsDOMCSSDeclaration
 :
 ModifyDeclaration
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 GeckoFunc
 aGeckoFunc
 ServoFunc
@@ -1289,6 +1294,7 @@ geckoEnv
 GetCSSParsingEnvironment
 (
 geckoEnv
+aSubjectPrincipal
 )
 ;
 if
@@ -1324,6 +1330,7 @@ servoEnv
 =
 GetServoCSSParsingEnvironment
 (
+aSubjectPrincipal
 )
 ;
 if
@@ -1392,6 +1399,7 @@ aSubjectPrincipal
 return
 ModifyDeclaration
 (
+aSubjectPrincipal
 [
 &
 ]
@@ -1524,6 +1532,7 @@ aPropertyName
 return
 ModifyDeclaration
 (
+aSubjectPrincipal
 [
 &
 ]

@@ -100,6 +100,9 @@ GetCSSParsingEnvironment
 CSSParsingEnvironment
 &
 aCSSParseEnv
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 final
 ;
@@ -109,6 +112,9 @@ nsDOMCSSDeclaration
 ServoCSSParsingEnvironment
 GetServoCSSParsingEnvironment
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 const
 final

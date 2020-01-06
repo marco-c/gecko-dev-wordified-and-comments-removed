@@ -5184,6 +5184,9 @@ GetCSSParsingEnvironment
 CSSParsingEnvironment
 &
 aCSSParseEnv
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 override
 ;
@@ -5193,6 +5196,9 @@ nsDOMCSSDeclaration
 ServoCSSParsingEnvironment
 GetServoCSSParsingEnvironment
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 const
 final
@@ -5386,6 +5392,9 @@ GetCSSParsingEnvironment
 CSSParsingEnvironment
 &
 aCSSParseEnv
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 {
 GetCSSParsingEnvironmentForRule
@@ -5404,6 +5413,9 @@ DOMCSSDeclarationImpl
 :
 GetServoCSSParsingEnvironment
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 const
 {

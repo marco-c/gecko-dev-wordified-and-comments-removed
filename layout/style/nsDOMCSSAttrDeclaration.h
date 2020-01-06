@@ -85,6 +85,9 @@ GetCSSParsingEnvironment
 CSSParsingEnvironment
 &
 aCSSParseEnv
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 override
 ;
@@ -94,6 +97,9 @@ nsDOMCSSDeclaration
 ServoCSSParsingEnvironment
 GetServoCSSParsingEnvironment
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 const
 final

@@ -211,6 +211,9 @@ GetCSSParsingEnvironment
 CSSParsingEnvironment
 &
 aCSSParseEnv
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 final
 {
@@ -242,6 +245,9 @@ aCSSParseEnv
 ServoCSSParsingEnvironment
 GetServoCSSParsingEnvironment
 (
+nsIPrincipal
+*
+aSubjectPrincipal
 )
 const
 final
