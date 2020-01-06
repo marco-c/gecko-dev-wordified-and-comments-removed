@@ -176,7 +176,7 @@ that
 /
 readonly
 attribute
-wstring
+AString
 defaultPrinterName
 ;
 /
@@ -219,7 +219,7 @@ void
 initPrintSettingsFromPrinter
 (
 in
-wstring
+AString
 aPrinterName
 in
 nsIPrintSettings

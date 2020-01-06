@@ -252,14 +252,14 @@ MFC
 noscript
 ]
 attribute
-wstring
+AString
 deviceName
 ;
 [
 noscript
 ]
 attribute
-wstring
+AString
 driverName
 ;
 [

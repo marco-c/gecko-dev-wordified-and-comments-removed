@@ -34255,10 +34255,7 @@ printSettings
 >
 GetPrinterName
 (
-getter_Copies
-(
 printerName
-)
 )
 ;
 bool
@@ -34298,10 +34295,7 @@ printSettingsService
 >
 GetDefaultPrinterName
 (
-getter_Copies
-(
 printerName
-)
 )
 ;
 printSettings
@@ -34310,10 +34304,6 @@ printSettings
 SetPrinterName
 (
 printerName
-.
-get
-(
-)
 )
 ;
 }
@@ -34323,10 +34313,6 @@ printSettingsService
 InitPrintSettingsFromPrinter
 (
 printerName
-.
-get
-(
-)
 printSettings
 )
 ;

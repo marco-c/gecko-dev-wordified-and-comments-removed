@@ -600,10 +600,7 @@ settings
 >
 GetPrinterName
 (
-getter_Copies
-(
 printerName
-)
 )
 ;
 #
@@ -623,10 +620,7 @@ mPrintSettingsSvc
 >
 GetDefaultPrinterName
 (
-getter_Copies
-(
 printerName
-)
 )
 ;
 settings
@@ -635,10 +629,6 @@ settings
 SetPrinterName
 (
 printerName
-.
-get
-(
-)
 )
 ;
 }
@@ -648,10 +638,6 @@ mPrintSettingsSvc
 InitPrintSettingsFromPrinter
 (
 printerName
-.
-get
-(
-)
 settings
 )
 ;
@@ -693,10 +679,6 @@ mPrintSettingsSvc
 InitPrintSettingsFromPrinter
 (
 printerName
-.
-get
-(
-)
 settings
 )
 ;
