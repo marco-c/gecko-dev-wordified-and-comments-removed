@@ -1346,6 +1346,14 @@ aBuffer
 .
 mYUVColorSpace
 ;
+data
+.
+mBitDepth
+=
+aBuffer
+.
+mBitDepth
+;
 return
 data
 ;
