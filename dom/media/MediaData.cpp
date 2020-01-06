@@ -8,6 +8,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 MediaInfo
 .
 h
@@ -22,7 +29,7 @@ h
 #
 include
 "
-ImageContainer
+YCbCrUtils
 .
 h
 "
@@ -34,13 +41,6 @@ mozilla
 layers
 /
 SharedRGBImage
-.
-h
-"
-#
-include
-"
-YCbCrUtils
 .
 h
 "
