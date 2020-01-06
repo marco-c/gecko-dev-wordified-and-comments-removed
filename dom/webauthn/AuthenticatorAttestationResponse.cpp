@@ -36,7 +36,7 @@ NS_IMPL_RELEASE_INHERITED
 AuthenticatorAttestationResponse
 AuthenticatorResponse
 )
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 AuthenticatorAttestationResponse
 )

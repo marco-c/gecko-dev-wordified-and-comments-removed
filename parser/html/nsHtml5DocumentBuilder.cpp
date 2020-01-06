@@ -50,7 +50,7 @@ nsHtml5DocumentBuilder
 nsContentSink
 mOwnedElements
 )
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsHtml5DocumentBuilder
 )

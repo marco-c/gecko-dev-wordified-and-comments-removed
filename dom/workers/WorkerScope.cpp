@@ -2847,7 +2847,7 @@ WorkerGlobalScope
 mClients
 mRegistration
 )
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 ServiceWorkerGlobalScope
 )

@@ -744,7 +744,7 @@ NS_IMPL_RELEASE_INHERITED
 ServiceWorkerRegistrationMainThread
 ServiceWorkerRegistration
 )
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 ServiceWorkerRegistrationMainThread
 )
@@ -4036,7 +4036,7 @@ NS_IMPL_RELEASE_INHERITED
 ServiceWorkerRegistrationWorkerThread
 ServiceWorkerRegistration
 )
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 ServiceWorkerRegistrationWorkerThread
 )
@@ -5014,7 +5014,7 @@ NS_IMPL_RELEASE_INHERITED
 ServiceWorkerRegistration
 DOMEventTargetHelper
 )
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 ServiceWorkerRegistration
 )
