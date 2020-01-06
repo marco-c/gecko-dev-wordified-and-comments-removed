@@ -64,7 +64,7 @@ X11CompositorWidget
 X11CompositorWidget
 (
 const
-CompositorWidgetInitData
+X11CompositorWidgetInitData
 &
 aInitData
 const

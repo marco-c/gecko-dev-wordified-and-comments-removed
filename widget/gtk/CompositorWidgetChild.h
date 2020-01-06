@@ -46,7 +46,7 @@ final
 public
 PCompositorWidgetChild
 public
-CompositorWidgetDelegate
+PlatformCompositorWidgetDelegate
 {
 public
 :

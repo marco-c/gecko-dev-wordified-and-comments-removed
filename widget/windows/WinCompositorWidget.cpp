@@ -96,7 +96,7 @@ WinCompositorWidget
 WinCompositorWidget
 (
 const
-CompositorWidgetInitData
+WinCompositorWidgetInitData
 &
 aInitData
 const

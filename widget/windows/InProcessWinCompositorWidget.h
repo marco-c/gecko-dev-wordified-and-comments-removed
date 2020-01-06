@@ -32,7 +32,7 @@ public
 InProcessWinCompositorWidget
 (
 const
-CompositorWidgetInitData
+WinCompositorWidgetInitData
 &
 aInitData
 const
