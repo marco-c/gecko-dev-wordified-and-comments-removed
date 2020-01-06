@@ -48,6 +48,9 @@ nsISeekableStream
 .
 h
 "
+namespace
+mozilla
+{
 class
 SlicedInputStream
 final
@@ -165,5 +168,6 @@ mAsyncWaitRequestedCount
 ;
 }
 ;
+}
 #
 endif

@@ -30,11 +30,11 @@ nsStreamUtils
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+using
+namespace
 ipc
 ;
 NS_IMPL_ADDREF
@@ -1979,4 +1979,5 @@ SetEOF
 (
 )
 ;
+}
 }
