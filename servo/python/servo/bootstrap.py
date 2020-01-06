@@ -14,7 +14,7 @@ distutils
 .
 version
 import
-StrictVersion
+LooseVersion
 import
 json
 import
@@ -1275,13 +1275,13 @@ version
 )
             
 if
-StrictVersion
+LooseVersion
 (
 cmake_version
 )
 >
 =
-StrictVersion
+LooseVersion
 (
 version
 )
