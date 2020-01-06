@@ -53,3 +53,15 @@ visible
 false
 )
 ;
+pref
+(
+"
+devtools
+.
+onboarding
+.
+experiment
+"
+false
+)
+;
