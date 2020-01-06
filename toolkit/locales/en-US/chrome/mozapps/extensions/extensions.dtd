@@ -3352,7 +3352,9 @@ no
 longer
 supported
 by
-Firefox
+&
+brandShortName
+;
 .
 "
 >
@@ -3381,12 +3383,15 @@ do
 not
 meet
 current
-Firefox
+&
+brandShortName
+;
 standards
 so
-we
+they
+have
+been
 deactivated
-them
 .
 "
 >
@@ -3402,7 +3407,6 @@ about
 the
 changes
 to
-Firefox
 add
 -
 ons
