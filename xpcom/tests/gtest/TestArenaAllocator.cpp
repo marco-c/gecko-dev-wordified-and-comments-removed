@@ -1140,7 +1140,7 @@ const
 size_t
 kArenaSize
 =
-64
+128
 ;
 ArenaAllocator
 <
