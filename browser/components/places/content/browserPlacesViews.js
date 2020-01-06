@@ -2731,7 +2731,9 @@ PlacesUIUtils
 .
 guessUrlSchemeForUI
 (
-aURIString
+aPlacesNode
+.
+uri
 )
 )
 ;
@@ -3214,7 +3216,9 @@ uri
 {
 if
 (
-aCount
+aPlacesNode
+.
+accessCount
 )
 child
 .

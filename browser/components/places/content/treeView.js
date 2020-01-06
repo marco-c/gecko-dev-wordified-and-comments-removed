@@ -3658,7 +3658,7 @@ function
 PTV_nodeURIChanged
 (
 aNode
-aNewURI
+aOldURI
 )
 {
 this
@@ -3697,8 +3697,8 @@ function
 PTV_nodeHistoryDetailsChanged
 (
 aNode
-aUpdatedVisitDate
-aUpdatedVisitCount
+aOldVisitDate
+aOldVisitCount
 )
 {
 if
