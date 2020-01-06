@@ -1431,6 +1431,7 @@ highlight
 highlight
 word
 linksOnly
+drawOutline
 )
 {
 let
@@ -1614,7 +1615,7 @@ finder
 .
 _outlineLink
 (
-true
+drawOutline
 )
 ;
 }
@@ -2473,6 +2474,9 @@ word
 params
 .
 linksOnly
+params
+.
+drawOutline
 )
 ;
 }
@@ -2562,6 +2566,9 @@ searchString
 data
 .
 linksOnly
+data
+.
+drawOutline
 )
 ;
 }
