@@ -50,6 +50,12 @@ ext
 buildToolsVersion
 defaultConfig
 {
+defaultPublishConfig
+'
+release
+'
+publishNonDefault
+true
 targetSdkVersion
 project
 .
