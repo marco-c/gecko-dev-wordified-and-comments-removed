@@ -2433,14 +2433,6 @@ private
 nsresult
 CacheOrReadAt
 (
-int
-oOffset
-unsigned
-oCount
-const
-char
-*
-oContext
 int64_t
 aOffset
 char
