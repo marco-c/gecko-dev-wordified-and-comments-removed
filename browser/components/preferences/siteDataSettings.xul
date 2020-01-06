@@ -288,6 +288,17 @@ init
 )
 ;
 "
+onkeypress
+=
+"
+gSiteDataSettings
+.
+onKeyPress
+(
+event
+)
+;
+"
 persist
 =
 "
