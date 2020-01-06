@@ -220,6 +220,7 @@ SendAlertText
 SendKeysParameters
 )
 TakeScreenshot
+Status
 Extension
 (
 T
@@ -2258,6 +2259,16 @@ TakeScreenshot
 Route
 :
 :
+Status
+=
+>
+WebDriverCommand
+:
+:
+Status
+Route
+:
+:
 Extension
 (
 ref
@@ -2588,6 +2599,11 @@ WebDriverCommand
 :
 :
 TakeScreenshot
+|
+WebDriverCommand
+:
+:
+Status
 =
 >
 {
