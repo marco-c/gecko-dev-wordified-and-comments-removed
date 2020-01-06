@@ -185,6 +185,9 @@ mSheets
 nsString
 mSourceMapURL
 ;
+nsString
+mSourceMapURLFromComment
+;
 #
 ifdef
 DEBUG

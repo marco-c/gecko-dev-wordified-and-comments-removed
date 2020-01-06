@@ -167,6 +167,16 @@ sheet
 )
 SERVO_BINDING_FUNC
 (
+Servo_StyleSheet_GetSourceMapURL
+void
+RawServoStyleSheetContentsBorrowed
+sheet
+nsAString
+*
+result
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleSheet_GetOrigin
 uint8_t
 RawServoStyleSheetContentsBorrowed
