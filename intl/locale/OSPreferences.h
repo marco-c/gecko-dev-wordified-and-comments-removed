@@ -146,6 +146,11 @@ nsAString
 aRetVal
 )
 ;
+void
+Refresh
+(
+)
+;
 protected
 :
 nsTArray
@@ -270,11 +275,6 @@ aLocale
 nsAString
 &
 aRetVal
-)
-;
-void
-Refresh
-(
 )
 ;
 }
