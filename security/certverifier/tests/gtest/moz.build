@@ -90,6 +90,11 @@ SOURCES
 =
 [
 '
+BTSerializationTest
+.
+cpp
+'
+'
 CTDiversityPolicyTest
 .
 cpp

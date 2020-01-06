@@ -7,6 +7,13 @@ h
 "
 #
 include
+"
+CTUtils
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -266,8 +273,6 @@ length
 typename
 T
 >
-static
-inline
 Result
 ReadUint
 (
@@ -408,8 +413,6 @@ template
 size_t
 prefixLength
 >
-static
-inline
 Result
 ReadVariableBytes
 (
