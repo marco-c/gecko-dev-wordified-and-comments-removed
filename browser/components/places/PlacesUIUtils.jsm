@@ -2581,9 +2581,11 @@ PlacesTransactions
 NewBookmark
 (
 {
-uri
+url
 :
-NetUtil
+Services
+.
+io
 .
 newURI
 (

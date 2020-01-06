@@ -6082,7 +6082,7 @@ isTag
 )
 {
 let
-uris
+urls
 =
 items
 .
@@ -6103,7 +6103,9 @@ map
 item
 =
 >
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -6119,7 +6121,7 @@ PlacesTransactions
 Tag
 (
 {
-uris
+urls
 tag
 :
 ip

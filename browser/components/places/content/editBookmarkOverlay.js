@@ -3130,9 +3130,10 @@ return
 }
 (
 async
-function
 (
 )
+=
+>
 {
 let
 guid
