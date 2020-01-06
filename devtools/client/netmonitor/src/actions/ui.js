@@ -26,6 +26,23 @@ constants
 "
 )
 ;
+const
+{
+triggerActivity
+}
+=
+require
+(
+"
+.
+.
+/
+connector
+/
+index
+"
+)
+;
 function
 openNetworkDetails
 (
@@ -74,7 +91,6 @@ disabled
 function
 openStatistics
 (
-connector
 open
 )
 {
@@ -83,8 +99,6 @@ if
 open
 )
 {
-connector
-.
 triggerActivity
 (
 ACTIVITY_TYPE
@@ -249,7 +263,6 @@ browserCacheDisabled
 function
 toggleStatistics
 (
-connector
 )
 {
 return
@@ -263,7 +276,6 @@ dispatch
 (
 openStatistics
 (
-connector
 !
 getState
 (
