@@ -23368,16 +23368,6 @@ retain
 true
 )
 ;
-pref
-(
-"
-reftest
-.
-compareRetainedDisplayLists
-"
-true
-)
-;
 #
 else
 pref
