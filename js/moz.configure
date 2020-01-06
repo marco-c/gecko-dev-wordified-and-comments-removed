@@ -288,6 +288,13 @@ JS_STANDALONE
 '
 js_standalone
 )
+set_define
+(
+'
+JS_STANDALONE
+'
+js_standalone
+)
 add_old_configure_assignment
 (
 '
