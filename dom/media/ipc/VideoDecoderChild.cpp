@@ -722,8 +722,14 @@ if
 (
 !
 manager
-|
-|
+)
+{
+return
+false
+;
+}
+if
+(
 !
 manager
 -
