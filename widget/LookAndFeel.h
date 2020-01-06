@@ -606,6 +606,12 @@ Refresh
 )
 ;
 static
+void
+NativeInit
+(
+)
+;
+static
 nsTArray
 <
 LookAndFeelInt

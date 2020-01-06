@@ -127,6 +127,14 @@ aResult
 )
 override
 ;
+void
+NativeInit
+(
+)
+final
+{
+}
+;
 nsresult
 GetIntImpl
 (
