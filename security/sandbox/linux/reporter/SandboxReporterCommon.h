@@ -58,6 +58,7 @@ ProcType
 uint8_t
 {
 CONTENT
+FILE
 MEDIA_PLUGIN
 }
 ;

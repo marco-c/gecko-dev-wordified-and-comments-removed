@@ -2963,6 +2963,8 @@ SetContentProcessSandbox
 (
 int
 aBrokerFd
+bool
+aFileProcess
 std
 :
 :
@@ -3015,6 +3017,16 @@ gSandboxReporterClient
 .
 emplace
 (
+aFileProcess
+?
+SandboxReport
+:
+:
+ProcType
+:
+:
+FILE
+:
 SandboxReport
 :
 :

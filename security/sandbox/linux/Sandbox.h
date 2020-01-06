@@ -45,6 +45,8 @@ SetContentProcessSandbox
 (
 int
 aBrokerFd
+bool
+aFileProcess
 std
 :
 :
