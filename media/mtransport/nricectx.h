@@ -1124,6 +1124,15 @@ NrIceProxyServer
 proxy_server
 )
 ;
+void
+SetCtxFlags
+(
+bool
+default_route_only
+bool
+proxy_only
+)
+;
 nsresult
 StartGathering
 (
