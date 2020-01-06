@@ -6154,6 +6154,10 @@ br
 "
 )
                         
+max_verify_time
+=
+0
+                        
 break
                     
 final_cmd
@@ -6339,6 +6343,15 @@ level
 =
 log_level
 )
+                
+if
+max_verify_time
+<
+=
+0
+:
+                    
+break
         
 else
 :
