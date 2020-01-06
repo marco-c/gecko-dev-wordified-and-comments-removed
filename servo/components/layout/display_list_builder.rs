@@ -7953,7 +7953,7 @@ Left
 Angle
 :
 :
-Degree
+Deg
 (
 270
 .
@@ -7971,7 +7971,7 @@ Right
 Angle
 :
 :
-Degree
+Deg
 (
 90
 .
@@ -8004,7 +8004,7 @@ Top
 Angle
 :
 :
-Degree
+Deg
 (
 0
 .
@@ -8022,7 +8022,7 @@ Bottom
 Angle
 :
 :
-Degree
+Deg
 (
 180
 .
