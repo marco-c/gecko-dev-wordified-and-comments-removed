@@ -381,7 +381,7 @@ false
 SET_DEFAULT
 (
 disableInlineBacktracking
-true
+false
 )
 ;
 SET_DEFAULT
