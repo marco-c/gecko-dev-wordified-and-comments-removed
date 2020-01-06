@@ -1285,6 +1285,11 @@ ResumeReading
 (
 )
 ;
+bool
+EligibleForThrottling
+(
+)
+;
 private
 :
 bool
