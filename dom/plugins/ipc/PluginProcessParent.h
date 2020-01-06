@@ -250,11 +250,6 @@ GeckoChildProcessHost
 :
 GetChannel
 ;
-void
-SetCallRunnableImmediately
-(
-)
-;
 virtual
 bool
 WaitUntilConnected
@@ -329,9 +324,6 @@ mLaunchCompleteTask
 MessageLoop
 *
 mMainMsgLoop
-;
-bool
-mRunCompleteTaskImmediately
 ;
 #
 ifdef
