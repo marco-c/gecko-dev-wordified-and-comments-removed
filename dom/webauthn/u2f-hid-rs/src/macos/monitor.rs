@@ -112,6 +112,7 @@ F
 :
 Fn
 (
+(
 IOHIDDeviceRef
 Receiver
 <
@@ -120,6 +121,7 @@ Vec
 u8
 >
 >
+)
 &
 Fn
 (
@@ -161,6 +163,7 @@ F
 :
 Fn
 (
+(
 IOHIDDeviceRef
 Receiver
 <
@@ -169,6 +172,7 @@ Vec
 u8
 >
 >
+)
 &
 Fn
 (
@@ -707,8 +711,10 @@ alive
 {
 f
 (
+(
 device_ref
 rx
+)
 alive
 )
 ;
@@ -808,6 +814,7 @@ F
 :
 Fn
 (
+(
 IOHIDDeviceRef
 Receiver
 <
@@ -816,6 +823,7 @@ Vec
 u8
 >
 >
+)
 &
 Fn
 (

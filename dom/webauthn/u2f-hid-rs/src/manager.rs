@@ -36,10 +36,10 @@ consts
 PARAMETER_SIZE
 ;
 use
-platform
+statemachine
 :
 :
-PlatformManager
+StateMachine
 ;
 use
 runloop
@@ -197,9 +197,9 @@ alive
 {
 let
 mut
-pm
+sm
 =
-PlatformManager
+StateMachine
 :
 :
 new
@@ -242,7 +242,7 @@ callback
 =
 >
 {
-pm
+sm
 .
 register
 (
@@ -271,7 +271,7 @@ callback
 =
 >
 {
-pm
+sm
 .
 sign
 (
@@ -293,7 +293,7 @@ Cancel
 =
 >
 {
-pm
+sm
 .
 cancel
 (
@@ -320,7 +320,7 @@ _
 }
 }
 }
-pm
+sm
 .
 cancel
 (
