@@ -998,6 +998,14 @@ d
 )
 ;
 void
+getElements
+(
+Value
+*
+vp
+)
+;
+void
 notifyBufferDetached
 (
 JSContext
