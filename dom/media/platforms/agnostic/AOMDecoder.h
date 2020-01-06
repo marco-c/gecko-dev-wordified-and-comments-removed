@@ -140,16 +140,6 @@ aMimeType
 ;
 static
 bool
-IsSupportedCodec
-(
-const
-nsAString
-&
-aCodecType
-)
-;
-static
-bool
 IsKeyframe
 (
 Span
