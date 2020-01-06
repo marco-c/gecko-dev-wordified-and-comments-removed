@@ -1441,6 +1441,11 @@ do_QueryFrame
 rootFrame
 )
 ;
+if
+(
+scrollFrame
+)
+{
 rootRect
 =
 scrollFrame
@@ -1450,6 +1455,7 @@ GetScrollPortRect
 (
 )
 ;
+}
 }
 }
 }
