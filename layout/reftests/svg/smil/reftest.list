@@ -1648,15 +1648,6 @@ some
 paint
 server
 values
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 anim
