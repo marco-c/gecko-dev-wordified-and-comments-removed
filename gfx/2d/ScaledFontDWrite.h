@@ -316,6 +316,7 @@ UnscaledFontDWrite
 struct
 InstanceData
 {
+explicit
 InstanceData
 (
 ScaledFontDWrite
