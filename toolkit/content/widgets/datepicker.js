@@ -1085,6 +1085,11 @@ year
 "
 numeric
 "
+timeZone
+:
+"
+UTC
+"
 }
 )
 .
@@ -1111,6 +1116,11 @@ month
 :
 "
 long
+"
+timeZone
+:
+"
+UTC
 "
 }
 )
@@ -1294,7 +1304,7 @@ Date
 0
 )
 .
-setFullYear
+setUTCFullYear
 (
 year
 )
