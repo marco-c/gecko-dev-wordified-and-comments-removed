@@ -466,15 +466,6 @@ empty
         
 b
 '
-NECKO_PROTOCOLS
-'
-:
-set
-(
-)
-        
-b
-'
 JS_STANDALONE
 '
 :

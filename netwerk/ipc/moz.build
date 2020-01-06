@@ -183,16 +183,6 @@ PNecko
 ipdl
 '
 '
-PRtspChannel
-.
-ipdl
-'
-'
-PRtspController
-.
-ipdl
-'
-'
 PSimpleChannel
 .
 ipdl
