@@ -189,7 +189,6 @@ VM
 .
 04
 x64
-DevEdition
 '
     
 '
@@ -4227,6 +4226,9 @@ stylo
 stylo
 -
 sequential
+'
+'
+devedition
 '
 )
 :
