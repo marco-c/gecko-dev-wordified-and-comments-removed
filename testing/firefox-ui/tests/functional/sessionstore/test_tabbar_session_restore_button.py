@@ -22,9 +22,9 @@ def
 setUp
 (
 self
-prefValue
+restore_button_pref
 =
-True
+1
 )
 :
         
@@ -53,7 +53,7 @@ tabs
 restorebutton
 '
 :
-prefValue
+restore_button_pref
 }
 )
         
@@ -607,7 +607,9 @@ self
 .
 setUp
 (
-False
+restore_button_pref
+=
+0
 )
     
 def

@@ -4472,7 +4472,7 @@ tabs
 .
 restorebutton
 "
-false
+0
 )
 ;
 pref
