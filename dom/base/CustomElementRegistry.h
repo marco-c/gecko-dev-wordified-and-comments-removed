@@ -770,7 +770,10 @@ false
 typedef
 AutoTArray
 <
-nsWeakPtr
+RefPtr
+<
+Element
+>
 1
 >
 ElementQueue
