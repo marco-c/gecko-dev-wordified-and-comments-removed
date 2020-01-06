@@ -228,7 +228,7 @@ delta
         
 self
 .
-assertGreater
+assertAlmostEqual
 (
             
 actual
@@ -245,7 +245,9 @@ max
 width
 "
 ]
--
+            
+delta
+=
 delta
             
 msg
@@ -294,14 +296,12 @@ max
 width
 "
 ]
--
-delta
 )
 )
         
 self
 .
-assertGreater
+assertAlmostEqual
 (
             
 actual
@@ -318,6 +318,10 @@ max
 height
 "
 ]
+            
+delta
+=
+delta
             
 msg
 =
@@ -364,8 +368,6 @@ max
 height
 "
 ]
--
-delta
 )
 )
     
