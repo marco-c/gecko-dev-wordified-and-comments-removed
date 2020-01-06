@@ -3729,6 +3729,8 @@ const
 nsStyleCoord
 &
 aCoord
+bool
+aClampNegativeCalc
 )
 ;
 already_AddRefed

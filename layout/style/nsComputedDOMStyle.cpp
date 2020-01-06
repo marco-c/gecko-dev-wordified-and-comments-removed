@@ -17443,6 +17443,7 @@ SetCssTextToCoord
 (
 argumentString
 aCoord
+true
 )
 ;
 nsAutoString
@@ -31057,6 +31058,7 @@ aBoxValues
 [
 0
 ]
+true
 )
 ;
 SetCssTextToCoord
@@ -31066,6 +31068,7 @@ aBoxValues
 [
 1
 ]
+true
 )
 ;
 SetCssTextToCoord
@@ -31075,6 +31078,7 @@ aBoxValues
 [
 2
 ]
+true
 )
 ;
 SetCssTextToCoord
@@ -31084,6 +31088,7 @@ aBoxValues
 [
 3
 ]
+true
 )
 ;
 aString
@@ -31469,6 +31474,7 @@ Coordinates
 [
 i
 ]
+true
 )
 ;
 shapeFunctionString
@@ -31500,6 +31506,7 @@ i
 +
 1
 ]
+true
 )
 ;
 shapeFunctionString
@@ -32144,6 +32151,8 @@ const
 nsStyleCoord
 &
 aCoord
+bool
+aClampNegativeCalc
 )
 {
 RefPtr
@@ -32155,16 +32164,11 @@ value
 new
 nsROCSSPrimitiveValue
 ;
-bool
-clampNegativeCalc
-=
-true
-;
 SetValueToCoord
 (
 value
 aCoord
-clampNegativeCalc
+aClampNegativeCalc
 )
 ;
 value
@@ -32343,6 +32347,7 @@ aStyleFilter
 GetFilterParameter
 (
 )
+true
 )
 ;
 }
