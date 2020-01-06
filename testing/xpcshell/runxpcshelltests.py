@@ -6518,6 +6518,19 @@ topsrcdir
 encode
 (
 )
+        
+self
+.
+env
+[
+"
+MOZ_DISABLE_CONTENT_SANDBOX
+"
+]
+=
+"
+1
+"
     
 def
 buildEnvironment

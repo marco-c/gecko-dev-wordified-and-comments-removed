@@ -11930,9 +11930,6 @@ void_t
 (
 )
 ;
-#
-ifdef
-XP_LINUX
 shouldSandbox
 =
 (
@@ -11952,6 +11949,9 @@ MOZ_DISABLE_CONTENT_SANDBOX
 "
 )
 ;
+#
+ifdef
+XP_LINUX
 if
 (
 shouldSandbox
