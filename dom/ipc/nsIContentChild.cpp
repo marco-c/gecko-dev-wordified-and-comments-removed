@@ -543,6 +543,13 @@ nullptr
 )
 ;
 }
+tabChild
+-
+>
+SendRemoteIsReadyToHandleInputEvents
+(
+)
+;
 return
 IPC_OK
 (
