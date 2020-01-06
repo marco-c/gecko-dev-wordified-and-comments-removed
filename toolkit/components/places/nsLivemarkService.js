@@ -3363,6 +3363,11 @@ aURI
 aVisitedStatus
 )
 {
+let
+wasVisited
+=
+false
+;
 for
 (
 let
@@ -3389,6 +3394,12 @@ aURI
 )
 )
 {
+wasVisited
+=
+child
+.
+visited
+;
 child
 .
 visited
@@ -3474,8 +3485,10 @@ observer
 nodeHistoryDetailsChanged
 (
 node
-0
-aVisitedStatus
+node
+.
+time
+wasVisited
 )
 ;
 }
