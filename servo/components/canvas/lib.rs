@@ -28,6 +28,10 @@ euclid
 ;
 extern
 crate
+fnv
+;
+extern
+crate
 gleam
 ;
 extern
