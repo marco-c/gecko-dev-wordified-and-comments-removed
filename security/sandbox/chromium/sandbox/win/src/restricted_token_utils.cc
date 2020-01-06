@@ -442,6 +442,12 @@ SE_CHANGE_NOTIFY_NAME
 ;
 restricted_token
 .
+AddUserSidForDenyOnly
+(
+)
+;
+restricted_token
+.
 AddRestrictingSid
 (
 WinBuiltinUsersSid

@@ -111,6 +111,10 @@ endif
 namespace
 sandbox
 {
+extern
+bool
+gUseRestricting
+;
 class
 RestrictedToken
 {

@@ -1027,6 +1027,13 @@ GetInitializedBrokerServices
 sandboxing
 :
 :
+NetworkDriveCheck
+(
+)
+;
+sandboxing
+:
+:
 PermissionsService
 *
 permissionsService
