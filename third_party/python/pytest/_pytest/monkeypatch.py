@@ -9,8 +9,15 @@ functionality
 "
 "
 "
+from
+__future__
+import
+absolute_import
+division
+print_function
 import
 os
+import
 sys
 import
 re
@@ -20,6 +27,12 @@ py
 builtin
 import
 _basestring
+from
+_pytest
+.
+fixtures
+import
+fixture
 RE_IMPORT_ERROR_NAME
 =
 re
@@ -37,10 +50,10 @@ named
 )
 "
 )
+fixture
 def
-pytest_funcarg__monkeypatch
+monkeypatch
 (
-request
 )
 :
     
@@ -50,7 +63,7 @@ request
 The
 returned
 monkeypatch
-funcarg
+fixture
 provides
 these
     
@@ -157,6 +170,8 @@ requesting
     
 test
 function
+or
+fixture
 has
 finished
 .
@@ -191,21 +206,18 @@ target
     
 mpatch
 =
-monkeypatch
+MonkeyPatch
 (
 )
     
-request
-.
-addfinalizer
-(
+yield
+mpatch
+    
 mpatch
 .
 undo
+(
 )
-    
-return
-mpatch
 def
 resolve
 (
@@ -514,13 +526,18 @@ Notset
 (
 )
 class
-monkeypatch
+MonkeyPatch
 :
     
 "
 "
 "
 Object
+returned
+by
+the
+monkeypatch
+fixture
 keeping
 a
 record
@@ -534,6 +551,7 @@ env
 syspath
 changes
 .
+    
 "
 "
 "

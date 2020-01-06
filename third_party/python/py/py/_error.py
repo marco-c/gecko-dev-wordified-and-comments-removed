@@ -148,6 +148,12 @@ errno
 .
 EEXIST
     
+18
+:
+errno
+.
+EXDEV
+    
 13
 :
 errno

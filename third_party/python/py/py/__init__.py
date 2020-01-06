@@ -1,10 +1,6 @@
 "
 "
 "
-py
-.
-test
-and
 pylib
 :
 rapid
@@ -70,7 +66,7 @@ __version__
 .
 4
 .
-31
+34
 '
 from
 py
@@ -107,6 +103,10 @@ _error
 error
 '
 )
+import
+py
+.
+error
 _apipkg
 .
 initpkg

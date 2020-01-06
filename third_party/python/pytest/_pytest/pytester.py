@@ -17,6 +17,12 @@ plugins
 "
 "
 "
+from
+__future__
+import
+absolute_import
+division
+print_function
 import
 codecs
 import
@@ -40,11 +46,16 @@ fnmatch
 import
 fnmatch
 from
-py
-.
-builtin
+weakref
 import
-print_
+WeakKeyDictionary
+from
+_pytest
+.
+capture
+import
+MultiCapture
+SysCapture
 from
 _pytest
 .
@@ -62,6 +73,14 @@ main
 import
 Session
 EXIT_OK
+from
+_pytest
+.
+assertion
+.
+rewrite
+import
+AssertionRewritingHook
 def
 pytest_addoption
 (
@@ -527,7 +546,7 @@ True
 )
     
 def
-pytest_runtest_item
+pytest_runtest_protocol
 (
 self
 item
@@ -755,10 +774,24 @@ item
 location
 )
             
-pytest
+error
 .
-fail
+append
 (
+"
+See
+issue
+#
+2366
+"
+)
+            
+item
+.
+warn
+(
+'
+'
 "
 \
 n
@@ -768,9 +801,6 @@ join
 (
 error
 )
-pytrace
-=
-False
 )
 winpymap
 =
@@ -943,18 +973,9 @@ if
 executable
 :
             
-if
-name
-=
-=
-"
-jython
-"
-:
-                
 import
 subprocess
-                
+            
 popen
 =
 subprocess
@@ -972,7 +993,7 @@ executable
 version
 "
 ]
-                    
+                
 universal_newlines
 =
 True
@@ -982,7 +1003,7 @@ subprocess
 .
 PIPE
 )
-                
+            
 out
 err
 =
@@ -991,6 +1012,15 @@ popen
 communicate
 (
 )
+            
+if
+name
+=
+=
+"
+jython
+"
+:
                 
 if
 not
@@ -1022,6 +1052,19 @@ in
 err
 :
                     
+executable
+=
+None
+            
+elif
+popen
+.
+returncode
+!
+=
+0
+:
+                
 executable
 =
 None
@@ -1614,7 +1657,7 @@ _name
 name
 :
                     
-print_
+print
 (
 "
 NAMEMATCH
@@ -1634,7 +1677,7 @@ __dict__
 )
 :
                         
-print_
+print
 (
 "
 CHECKERMATCH
@@ -1653,7 +1696,7 @@ call
 else
 :
                         
-print_
+print
 (
 "
 NOCHECKERMATCH
@@ -1679,7 +1722,7 @@ ind
                     
 break
                 
-print_
+print
 (
 "
 NONAMEMATCH
@@ -2334,8 +2377,18 @@ return
 LineComp
 (
 )
+pytest
+.
+fixture
+(
+name
+=
+'
+LineMatcher
+'
+)
 def
-pytest_funcarg__LineMatcher
+LineMatcher_fixture
 (
 request
 )
@@ -2366,6 +2419,7 @@ re
 .
 compile
 (
+r
 "
 (
 \
@@ -2632,6 +2686,18 @@ num
                     
 return
 d
+        
+raise
+ValueError
+(
+"
+Pytest
+terminal
+report
+not
+found
+"
+)
     
 def
 assert_outcomes
@@ -2750,9 +2816,7 @@ to
 test
 /
 run
-py
-.
-test
+pytest
 itself
 .
     
@@ -2774,9 +2838,7 @@ which
 aid
 with
 testing
-py
-.
-test
+pytest
 itself
 .
 Unless
@@ -2916,6 +2978,14 @@ self
 request
 =
 request
+        
+self
+.
+_mod_collections
+=
+WeakKeyDictionary
+(
+)
         
 basetmp
 =
@@ -3272,14 +3342,15 @@ _savemodulekeys
 :
             
 if
+not
 name
-!
-=
+.
+startswith
+(
 "
 zope
-.
-interface
 "
+)
 :
                 
 del
@@ -3416,6 +3487,13 @@ self
 ext
 args
 kwargs
+encoding
+=
+"
+utf
+-
+8
+"
 )
 :
         
@@ -3524,6 +3602,16 @@ ext
 ext
 )
             
+p
+.
+dirpath
+(
+)
+.
+ensure_dir
+(
+)
+            
 source
 =
 Source
@@ -3617,11 +3705,7 @@ strip
 .
 encode
 (
-"
-utf
--
-8
-"
+encoding
 )
             
 p
@@ -4220,7 +4304,7 @@ a
 (
 sub
 )
-direcotry
+directory
 with
 an
 empty
@@ -4475,9 +4559,7 @@ the
 (
 configured
 )
-py
-.
-test
+pytest
         
 Config
 instance
@@ -4936,7 +5018,7 @@ in
 process
 .
         
-Retuns
+Returns
 a
 tuple
 of
@@ -4972,9 +5054,7 @@ run
 all
 of
         
-py
-.
-test
+pytest
 inside
 the
 test
@@ -5102,9 +5182,7 @@ run
 all
 of
         
-py
-.
-test
+pytest
 inside
 the
 test
@@ -5215,6 +5293,43 @@ instance
 "
 "
 "
+        
+orig_warn
+=
+AssertionRewritingHook
+.
+_warn_already_imported
+        
+def
+revert
+(
+)
+:
+            
+AssertionRewritingHook
+.
+_warn_already_imported
+=
+orig_warn
+        
+self
+.
+request
+.
+addfinalizer
+(
+revert
+)
+        
+AssertionRewritingHook
+.
+_warn_already_imported
+=
+lambda
+*
+a
+:
+None
         
 rec
 =
@@ -5445,11 +5560,16 @@ time
         
 capture
 =
-py
+MultiCapture
+(
+Capture
+=
+SysCapture
+)
+        
+capture
 .
-io
-.
-StdCapture
+start_capturing
 (
 )
         
@@ -5517,7 +5637,13 @@ err
 =
 capture
 .
-reset
+readouterr
+(
+)
+            
+capture
+.
+stop_capturing
 (
 )
             
@@ -5745,9 +5871,7 @@ args
 Return
 a
 new
-py
-.
-test
+pytest
 Config
 instance
 from
@@ -5759,9 +5883,7 @@ args
 This
 invokes
 the
-py
-.
-test
+pytest
 bootstrapping
 code
 in
@@ -5892,9 +6014,7 @@ args
 Return
 a
 new
-py
-.
-test
+pytest
 configured
 Config
 instance
@@ -6002,9 +6122,7 @@ python
 file
 and
 runs
-py
-.
-test
+pytest
 '
 s
         
@@ -6145,9 +6263,7 @@ python
 file
 and
 runs
-py
-.
-test
+pytest
 '
 s
         
@@ -6233,9 +6349,7 @@ and
 then
 runs
 the
-py
-.
-test
+pytest
 collection
 on
 it
@@ -6299,7 +6413,7 @@ file
            
 to
 the
-temporarly
+temporary
 directory
 to
 ensure
@@ -6465,14 +6579,40 @@ return
 "
 "
         
+if
+modcol
+not
+in
+self
+.
+_mod_collections
+:
+            
+self
+.
+_mod_collections
+[
+modcol
+]
+=
+list
+(
+modcol
+.
+collect
+(
+)
+)
+        
 for
 colitem
 in
-modcol
+self
 .
-_memocollect
-(
-)
+_mod_collections
+[
+modcol
+]
 :
             
 if
@@ -6726,7 +6866,7 @@ stderr
 "
 )
         
-print_
+print
 (
 "
 running
@@ -6741,7 +6881,7 @@ cmdargs
 )
 )
         
-print_
+print
 (
 "
 in
@@ -6996,11 +7136,7 @@ in
 lines
 :
                 
-py
-.
-builtin
-.
-print_
+print
 (
 line
 file
@@ -7157,9 +7293,7 @@ kwargs
 "
 "
 Run
-py
-.
-test
+pytest
 as
 a
 subprocess
@@ -7366,9 +7500,7 @@ expect_timeout
 "
 "
 Run
-py
-.
-test
+pytest
 using
 pexpect
 .
@@ -7380,9 +7512,7 @@ to
 use
 the
 right
-py
-.
-test
+pytest
 and
 sets
 up
@@ -7413,6 +7543,8 @@ tmpdir
 mkdir
 (
 "
+temp
+-
 pexpect
 "
 )
@@ -7548,34 +7680,6 @@ pypy
 bit
 not
 supported
-"
-)
-        
-if
-sys
-.
-platform
-=
-=
-"
-darwin
-"
-:
-            
-pytest
-.
-xfail
-(
-"
-pexpect
-does
-not
-work
-reliably
-on
-darwin
-?
-!
 "
 )
         
@@ -7896,6 +8000,13 @@ self
 lines
 =
 lines
+        
+self
+.
+_log_output
+=
+[
+]
     
 def
 str
@@ -8060,7 +8171,9 @@ line
 )
 :
                     
-print_
+self
+.
+_log
 (
 "
 matched
@@ -8077,8 +8190,9 @@ break
 else
 :
                 
-raise
-ValueError
+self
+.
+_log
 (
 "
 line
@@ -8091,6 +8205,14 @@ output
 "
 %
 line
+)
+                
+raise
+ValueError
+(
+self
+.
+_log_text
 )
     
 def
@@ -8182,6 +8304,61 @@ fnline
 )
     
 def
+_log
+(
+self
+*
+args
+)
+:
+        
+self
+.
+_log_output
+.
+append
+(
+'
+'
+.
+join
+(
+(
+str
+(
+x
+)
+for
+x
+in
+args
+)
+)
+)
+    
+property
+    
+def
+_log_text
+(
+self
+)
+:
+        
+return
+'
+\
+n
+'
+.
+join
+(
+self
+.
+_log_output
+)
+    
+def
 fnmatch_lines
 (
 self
@@ -8251,29 +8428,6 @@ stdout
 "
 "
         
-def
-show
-(
-arg1
-arg2
-)
-:
-            
-py
-.
-builtin
-.
-print_
-(
-arg1
-arg2
-file
-=
-sys
-.
-stderr
-)
-        
 lines2
 =
 self
@@ -8335,7 +8489,9 @@ line
 nextline
 :
                     
-show
+self
+.
+_log
 (
 "
 exact
@@ -8358,7 +8514,9 @@ line
 )
 :
                     
-show
+self
+.
+_log
 (
 "
 fnmatch
@@ -8370,7 +8528,9 @@ line
 )
 )
                     
-show
+self
+.
+_log
 (
 "
 with
@@ -8392,7 +8552,9 @@ not
 nomatchprinted
 :
                         
-show
+self
+.
+_log
 (
 "
 nomatch
@@ -8408,7 +8570,9 @@ nomatchprinted
 =
 True
                     
-show
+self
+.
+_log
 (
 "
 and
@@ -8430,9 +8594,9 @@ nextline
 else
 :
                 
-pytest
+self
 .
-fail
+_log
 (
 "
 remains
@@ -8440,11 +8604,18 @@ unmatched
 :
 %
 r
-see
-stderr
 "
 %
 (
 line
 )
+)
+                
+pytest
+.
+fail
+(
+self
+.
+_log_text
 )
