@@ -157,6 +157,7 @@ true
 ;
 }
 }
+;
 function
 run_test
 (

@@ -388,6 +388,8 @@ this
 _closeResult
 ;
 }
+return
+;
 }
 ;
 File
@@ -3007,6 +3009,8 @@ this
 _findData
 ;
 }
+else
+{
 let
 error
 =
@@ -3034,6 +3038,8 @@ return
 null
 ;
 }
+else
+{
 throw
 new
 File
@@ -3052,6 +3058,8 @@ this
 _path
 )
 ;
+}
+}
 }
 File
 .

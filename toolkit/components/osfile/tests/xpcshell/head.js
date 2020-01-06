@@ -398,6 +398,7 @@ result
 )
 ;
 }
+;
 function
 reference_compare_files
 (
@@ -461,6 +462,7 @@ b_contents
 )
 ;
 }
+;
 async
 function
 removeTestFile

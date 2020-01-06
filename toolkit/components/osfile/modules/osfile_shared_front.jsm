@@ -373,6 +373,8 @@ return
 buffer
 ;
 }
+else
+{
 return
 buffer
 .
@@ -382,6 +384,7 @@ subarray
 pos
 )
 ;
+}
 }
 write
 :
@@ -528,9 +531,9 @@ leafName
 .
 lastIndexOf
 (
-"
+'
 .
-"
+'
 )
 ;
 let
