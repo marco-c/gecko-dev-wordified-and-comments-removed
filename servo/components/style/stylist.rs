@@ -5855,6 +5855,7 @@ derive
 (
 Debug
 Clone
+PartialEq
 )
 ]
 pub
