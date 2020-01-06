@@ -128,3 +128,14 @@ UI
 Tests
 "
 )
+SCHEDULES
+.
+exclusive
+=
+[
+"
+firefox
+-
+ui
+"
+]
