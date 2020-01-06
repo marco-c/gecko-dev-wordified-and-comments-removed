@@ -1333,6 +1333,12 @@ ovrInit_Debug
 ovrInit_RequestVersion
 =
 0x00000004
+ovrInit_Invisible
+=
+0x00000010
+ovrInit_MixedRendering
+=
+0x00000020
 ovrinit_WritableBits
 =
 0x00ffffff
@@ -2044,8 +2050,8 @@ pfn_ovr_SubmitFrame
 (
 ovrSession
 session
-unsigned
-int
+long
+long
 frameIndex
 const
 ovrViewScaleDesc

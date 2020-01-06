@@ -229,7 +229,7 @@ VRHMDSensorState
 GetSensorState
 (
 double
-timeOffset
+absTime
 )
 ;
 ovrHmdDesc
