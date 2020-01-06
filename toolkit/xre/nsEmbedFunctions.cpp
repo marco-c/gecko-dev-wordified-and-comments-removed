@@ -3838,6 +3838,10 @@ ContentParent
 :
 GetNewOrUsedBrowserProcess
 (
+NS_LITERAL_STRING
+(
+DEFAULT_REMOTE_TYPE
+)
 )
 ;
 parent

@@ -230,11 +230,6 @@ shutdown
 )
 #
 define
-NO_REMOTE_TYPE
-"
-"
-#
-define
 DEFAULT_REMOTE_TYPE
 "
 web
@@ -614,11 +609,6 @@ const
 nsAString
 &
 aRemoteType
-=
-NS_LITERAL_STRING
-(
-NO_REMOTE_TYPE
-)
 hal
 :
 :
