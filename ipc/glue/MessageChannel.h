@@ -244,6 +244,7 @@ PromiseRejectReason
 SendError
 ChannelClosed
 HandlerRejected
+ActorDestroyed
 EndGuard_
 }
 ;
@@ -291,6 +292,11 @@ mozilla
 Monitor
 Monitor
 ;
+typedef
+void
+*
+ActorIdType
+;
 struct
 PromiseHolder
 {
@@ -299,6 +305,9 @@ RefPtr
 MozPromiseRefcountable
 >
 mPromise
+;
+ActorIdType
+mActorId
 ;
 std
 :
@@ -309,6 +318,7 @@ void
 (
 MozPromiseRefcountable
 *
+PromiseRejectReason
 const
 char
 *
@@ -529,6 +539,8 @@ aMsg
 Promise
 *
 aPromise
+ActorIdType
+aActorId
 )
 {
 int32_t
@@ -570,6 +582,12 @@ aPromise
 ;
 holder
 .
+mActorId
+=
+aActorId
+;
+holder
+.
 mRejectFunction
 =
 [
@@ -578,6 +596,8 @@ mRejectFunction
 MozPromiseRefcountable
 *
 aRejectPromise
+PromiseRejectReason
+aReason
 const
 char
 *
@@ -596,10 +616,7 @@ aRejectPromise
 >
 Reject
 (
-PromiseRejectReason
-:
-:
-ChannelClosed
+aReason
 aRejectSite
 )
 ;
@@ -686,6 +703,13 @@ const
 Message
 &
 aMsg
+)
+;
+void
+RejectPendingPromisesForActor
+(
+ActorIdType
+aActorId
 )
 ;
 SyncSendError
