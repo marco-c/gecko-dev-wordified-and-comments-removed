@@ -1875,12 +1875,9 @@ attribute
 boolean
 isFirstPaint
 ;
-void
+uint32_t
 getPresShellId
 (
-out
-uint32_t
-aPresShellId
 )
 ;
 /
