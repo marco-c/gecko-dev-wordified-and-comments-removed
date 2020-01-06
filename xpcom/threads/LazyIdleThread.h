@@ -226,9 +226,9 @@ mMutex
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 nsCOMPtr
 <

@@ -714,11 +714,11 @@ aEvent
 #
 ifdef
 MOZILLA_INTERNAL_API
-nsIThread
+nsIEventTarget
 *
 thread
 =
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
@@ -986,11 +986,11 @@ aEvent
 #
 ifdef
 MOZILLA_INTERNAL_API
-nsIThread
+nsIEventTarget
 *
 thread
 =
-NS_GetCurrentThread
+GetCurrentThreadEventTarget
 (
 )
 ;
