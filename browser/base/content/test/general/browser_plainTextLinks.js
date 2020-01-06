@@ -89,8 +89,6 @@ promiseFocus
 gBrowser
 .
 selectedBrowser
-.
-contentWindowAsCPOW
 )
 ;
 await
