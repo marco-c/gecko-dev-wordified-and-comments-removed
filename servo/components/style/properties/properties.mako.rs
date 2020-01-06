@@ -3133,6 +3133,8 @@ ComputedValuesMap
 >
 f
 :
+&
+mut
 F
 error_reporter
 :
@@ -3151,7 +3153,7 @@ boxed
 where
 F
 :
-FnOnce
+FnMut
 (
 &
 DeclaredValue
@@ -3178,7 +3180,7 @@ else
 where
 F
 :
-FnOnce
+FnMut
 (
 &
 DeclaredValue
@@ -3311,6 +3313,8 @@ ComputedValuesMap
 >
 f
 :
+&
+mut
 F
 error_reporter
 :
@@ -3329,7 +3333,7 @@ boxed
 where
 F
 :
-FnOnce
+FnMut
 (
 &
 DeclaredValue
@@ -3356,7 +3360,7 @@ else
 where
 F
 :
-FnOnce
+FnMut
 (
 &
 DeclaredValue
