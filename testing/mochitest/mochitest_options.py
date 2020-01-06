@@ -6924,7 +6924,7 @@ defaultLeakThreshold
 tab
 "
 :
-10000
+3000
             
 "
 geckomediaplugin
@@ -8332,6 +8332,11 @@ photon
 debug
 -
 androidTest
+-
+'
+                                                      
+'
+unaligned
 .
 apk
 '
