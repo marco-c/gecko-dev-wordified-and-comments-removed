@@ -2493,10 +2493,7 @@ current_cv
 &
 '
 a
-Arc
-<
 ComputedValues
->
 _pseudo_element
 :
 Option
@@ -2512,10 +2509,7 @@ Option
 &
 '
 a
-Arc
-<
 ComputedValues
->
 >
 {
 Some
