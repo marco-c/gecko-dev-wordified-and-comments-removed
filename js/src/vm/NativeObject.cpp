@@ -6857,7 +6857,7 @@ true
 ;
 }
 static
-inline
+MOZ_ALWAYS_INLINE
 bool
 PurgeEnvironmentChain
 (
