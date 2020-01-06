@@ -635,6 +635,17 @@ invalid_reg
 static
 constexpr
 Register
+NativeABIPrologueClobberable
+{
+Registers
+:
+:
+invalid_reg
+}
+;
+static
+constexpr
+Register
 WasmTableCallScratchReg
 {
 Registers
