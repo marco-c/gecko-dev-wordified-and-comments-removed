@@ -140,10 +140,10 @@ boolean
 echoCancellation
 ;
 boolean
-mozNoiseSuppression
+noiseSuppression
 ;
 boolean
-mozAutoGainControl
+autoGainControl
 ;
 /
 /

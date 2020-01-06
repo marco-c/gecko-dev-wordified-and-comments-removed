@@ -181,12 +181,12 @@ echoCancellation
 true
 ;
 boolean
-mozNoiseSuppression
+noiseSuppression
 =
 true
 ;
 boolean
-mozAutoGainControl
+autoGainControl
 =
 true
 ;

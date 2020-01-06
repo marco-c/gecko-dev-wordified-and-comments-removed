@@ -1038,7 +1038,7 @@ Construct
 ;
 mSettings
 .
-mMozAutoGainControl
+mAutoGainControl
 .
 Construct
 (
@@ -1047,7 +1047,7 @@ Construct
 ;
 mSettings
 .
-mMozNoiseSuppression
+mNoiseSuppression
 .
 Construct
 (
@@ -1302,7 +1302,7 @@ mAgcOn
 =
 c
 .
-mMozAutoGainControl
+mAutoGainControl
 .
 Get
 (
@@ -1317,7 +1317,7 @@ mNoiseOn
 =
 c
 .
-mMozNoiseSuppression
+mNoiseSuppression
 .
 Get
 (
@@ -1901,7 +1901,7 @@ that
 >
 mSettings
 .
-mMozAutoGainControl
+mAutoGainControl
 .
 Value
 (
@@ -1916,7 +1916,7 @@ that
 >
 mSettings
 .
-mMozNoiseSuppression
+mNoiseSuppression
 .
 Value
 (
