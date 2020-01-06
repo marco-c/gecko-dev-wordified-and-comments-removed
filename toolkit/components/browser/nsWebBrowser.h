@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsIWebBrowserStream
-.
-h
-"
-#
-include
-"
 nsIWindowWatcher
 .
 h
@@ -162,13 +155,6 @@ h
 include
 "
 nsIPrintSettings
-.
-h
-"
-#
-include
-"
-nsEmbedStream
 .
 h
 "
@@ -323,8 +309,6 @@ nsIWebBrowserFocus
 public
 nsIWebProgressListener
 public
-nsIWebBrowserStream
-public
 nsIWidgetListener
 public
 nsSupportsWeakReference
@@ -351,7 +335,6 @@ NS_DECL_NSIWEBBROWSERSETUP
 NS_DECL_NSIWEBBROWSERPERSIST
 NS_DECL_NSICANCELABLE
 NS_DECL_NSIWEBBROWSERFOCUS
-NS_DECL_NSIWEBBROWSERSTREAM
 NS_DECL_NSIWEBPROGRESSLISTENER
 protected
 :
@@ -559,12 +542,6 @@ mPersistResult
 ;
 uint32_t
 mPersistFlags
-;
-RefPtr
-<
-nsEmbedStream
->
-mStream
 ;
 nsIWidget
 *

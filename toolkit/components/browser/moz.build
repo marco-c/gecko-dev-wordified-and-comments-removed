@@ -166,11 +166,6 @@ nsIWebBrowserSetup
 .
 idl
 '
-'
-nsIWebBrowserStream
-.
-idl
-'
 ]
 if
 CONFIG
@@ -206,11 +201,6 @@ UNIFIED_SOURCES
 [
 '
 nsCommandHandler
-.
-cpp
-'
-'
-nsEmbedStream
 .
 cpp
 '
