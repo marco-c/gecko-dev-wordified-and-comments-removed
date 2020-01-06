@@ -444,12 +444,6 @@ onCreate
 savedInstanceState
 )
 ;
-GeckoAppShell
-.
-ensureCrashHandling
-(
-)
-;
 final
 SafeIntent
 safeIntent

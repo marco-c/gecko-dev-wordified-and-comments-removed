@@ -426,12 +426,6 @@ Bundle
 savedInstanceState
 )
 {
-GeckoAppShell
-.
-ensureCrashHandling
-(
-)
-;
 super
 .
 onCreate
