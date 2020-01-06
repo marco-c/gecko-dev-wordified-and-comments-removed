@@ -1138,8 +1138,8 @@ notes
 =
 packet
 ;
-let
-parameters
+const
+parameter
 =
 helperResult
 &
@@ -1194,6 +1194,10 @@ null
 level
 messageText
 parameters
+:
+[
+parameter
+]
 exceptionDocURL
 frame
 timeStamp

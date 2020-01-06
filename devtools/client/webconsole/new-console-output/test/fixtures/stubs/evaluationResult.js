@@ -105,6 +105,7 @@ log
 parameters
 "
 :
+[
 {
 "
 type
@@ -165,6 +166,7 @@ timestamp
 0
 }
 }
+]
 "
 repeatId
 "
@@ -209,6 +211,7 @@ parameters
 \
 "
 :
+[
 {
 \
 "
@@ -293,6 +296,7 @@ timestamp
 0
 }
 }
+]
 \
 "
 source
@@ -430,6 +434,7 @@ defined
 parameters
 "
 :
+[
 {
 "
 type
@@ -439,6 +444,7 @@ type
 undefined
 "
 }
+]
 "
 repeatId
 "
@@ -527,6 +533,7 @@ parameters
 \
 "
 :
+[
 {
 \
 "
@@ -540,6 +547,7 @@ undefined
 \
 "
 }
+]
 \
 "
 source
@@ -737,6 +745,7 @@ character
 parameters
 "
 :
+[
 {
 "
 type
@@ -746,6 +755,7 @@ type
 undefined
 "
 }
+]
 "
 repeatId
 "
@@ -832,6 +842,7 @@ parameters
 \
 "
 :
+[
 {
 \
 "
@@ -845,6 +856,7 @@ undefined
 \
 "
 }
+]
 \
 "
 source
@@ -1040,6 +1052,7 @@ log
 parameters
 "
 :
+[
 {
 "
 type
@@ -1156,6 +1169,7 @@ safeGetterValues
 }
 }
 }
+]
 "
 repeatId
 "
@@ -1200,6 +1214,7 @@ parameters
 \
 "
 :
+[
 {
 \
 "
@@ -1362,6 +1377,7 @@ safeGetterValues
 }
 }
 }
+]
 \
 "
 source
@@ -1707,6 +1723,7 @@ longString37
 parameters
 "
 :
+[
 {
 "
 type
@@ -1716,6 +1733,7 @@ type
 undefined
 "
 }
+]
 "
 repeatId
 "
@@ -1996,6 +2014,7 @@ parameters
 \
 "
 :
+[
 {
 \
 "
@@ -2009,6 +2028,7 @@ undefined
 \
 "
 }
+]
 \
 "
 source
