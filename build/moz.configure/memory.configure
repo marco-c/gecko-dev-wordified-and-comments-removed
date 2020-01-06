@@ -505,6 +505,16 @@ value
 or
 None
 if
+build_project
+=
+=
+'
+memory
+'
+:
+return
+True
+if
 milestone
 .
 is_nightly
