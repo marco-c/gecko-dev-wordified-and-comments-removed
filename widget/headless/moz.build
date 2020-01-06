@@ -224,6 +224,11 @@ HeadlessLookAndFeelGTK
 .
 cpp
 '
+'
+HeadlessThemeGTK
+.
+cpp
+'
 ]
 include
 (
