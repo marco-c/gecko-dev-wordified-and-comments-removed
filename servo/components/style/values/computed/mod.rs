@@ -162,6 +162,16 @@ use
 self
 :
 :
+background
+:
+:
+BackgroundSize
+;
+pub
+use
+self
+:
+:
 border
 :
 :
@@ -327,6 +337,10 @@ position
 :
 :
 Position
+;
+pub
+mod
+background
 ;
 pub
 mod
