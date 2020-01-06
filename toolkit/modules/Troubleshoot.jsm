@@ -1433,6 +1433,12 @@ data
 .
 styloResult
 =
+AppConstants
+.
+MOZ_STYLO
+&
+&
+(
 !
 !
 env
@@ -1461,6 +1467,7 @@ servo
 enabled
 "
 false
+)
 )
 ;
 const
