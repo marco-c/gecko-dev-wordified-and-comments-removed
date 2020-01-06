@@ -4066,6 +4066,15 @@ tooltip
 )
 CSS_KEY
 (
+inner
+-
+spin
+-
+button
+inner_spin_button
+)
+CSS_KEY
+(
 spinner
 spinner
 )

@@ -4098,6 +4098,10 @@ eCSSKeyword_tooltip
 NS_THEME_TOOLTIP
 }
 {
+eCSSKeyword_inner_spin_button
+NS_THEME_INNER_SPIN_BUTTON
+}
+{
 eCSSKeyword_spinner
 NS_THEME_SPINNER
 }
