@@ -2203,6 +2203,11 @@ ES_Descriptor
 (
 _
 )
+|
+AudioCodecSpecific
+:
+:
+LPCM
 =
 >
 mp4parse_codec
@@ -2707,6 +2712,8 @@ channels
 audio
 .
 channelcount
+as
+u16
 ;
 (
 *
@@ -2729,9 +2736,8 @@ sample_rate
 audio
 .
 samplerate
->
->
-16
+as
+u32
 ;
 match
 audio
@@ -3148,6 +3154,11 @@ AudioCodecSpecific
 :
 :
 MP3
+|
+AudioCodecSpecific
+:
+:
+LPCM
 =
 >
 (
