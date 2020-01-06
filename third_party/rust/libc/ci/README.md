@@ -308,10 +308,7 @@ linux
 -
 gnu
 *
-{
 x86_64
-aarch64
-}
 -
 unknown
 -

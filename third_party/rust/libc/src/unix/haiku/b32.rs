@@ -10,9 +10,3 @@ c_ulong
 =
 u32
 ;
-pub
-type
-time_t
-=
-i32
-;

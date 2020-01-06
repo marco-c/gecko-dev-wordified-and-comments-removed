@@ -174,7 +174,7 @@ android
 /
 sdk
 /
-emulator
+tools
 /
 qemu
 /
@@ -268,13 +268,6 @@ SHELL
 bin
 /
 dash
-/
-android
-/
-sdk
-/
-emulator
-/
 emulator
 aarch64
 -
