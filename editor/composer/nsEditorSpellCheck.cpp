@@ -2662,6 +2662,13 @@ get
 #
 endif
 }
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 Preferences
 :
 :
@@ -2686,7 +2693,8 @@ printf
 *
 *
 *
-Storing
+Possibly
+storing
 spellchecker
 .
 dictionary
@@ -2709,6 +2717,7 @@ get
 ;
 #
 endif
+}
 }
 }
 return
