@@ -208,7 +208,8 @@ aOutAlphaType
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetIsOpaque
 (
 bool

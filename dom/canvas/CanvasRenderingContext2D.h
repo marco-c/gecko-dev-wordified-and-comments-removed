@@ -2586,7 +2586,8 @@ Snapshot
 )
 ;
 }
-NS_IMETHOD
+virtual
+void
 SetIsOpaque
 (
 bool

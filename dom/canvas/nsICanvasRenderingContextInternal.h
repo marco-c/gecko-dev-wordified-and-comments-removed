@@ -482,7 +482,8 @@ nullptr
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetIsOpaque
 (
 bool
