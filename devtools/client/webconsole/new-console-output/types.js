@@ -83,9 +83,6 @@ LOG
 groupId
 :
 null
-indent
-:
-0
 }
 )
 ;
@@ -146,9 +143,6 @@ null
 notes
 :
 null
-indent
-:
-0
 }
 )
 ;
@@ -200,9 +194,6 @@ null
 totalTime
 :
 null
-indent
-:
-0
 }
 )
 ;
