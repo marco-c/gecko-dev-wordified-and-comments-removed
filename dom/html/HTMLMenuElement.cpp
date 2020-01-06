@@ -114,7 +114,6 @@ MENU_TYPE_CONTEXT
 =
 1
 MENU_TYPE_TOOLBAR
-MENU_TYPE_LIST
 }
 ;
 static
@@ -141,12 +140,6 @@ toolbar
 MENU_TYPE_TOOLBAR
 }
 {
-"
-list
-"
-MENU_TYPE_LIST
-}
-{
 nullptr
 0
 }
@@ -164,7 +157,7 @@ kMenuDefaultType
 &
 kMenuTypeTable
 [
-2
+1
 ]
 ;
 enum
@@ -207,7 +200,7 @@ aNodeInfo
 )
 mType
 (
-MENU_TYPE_LIST
+MENU_TYPE_TOOLBAR
 )
 {
 }
