@@ -576,7 +576,7 @@ color
 -
 opacity
 :
-10
+20
 %
 -
 -
@@ -590,7 +590,7 @@ photon_notification_bg_pressed
 "
 >
 #
-19000000
+33000000
 <
 /
 color

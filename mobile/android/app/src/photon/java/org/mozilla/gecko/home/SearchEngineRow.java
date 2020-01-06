@@ -1370,10 +1370,13 @@ else
 {
 suggestionItem
 =
-mInflater
+View
 .
 inflate
 (
+getContext
+(
+)
 R
 .
 layout

@@ -11,7 +11,7 @@ version
 encoding
 =
 "
-UTF
+utf
 -
 8
 "
@@ -118,7 +118,7 @@ drawable
 "
 color
 /
-photon_notification_bg_pressed
+photon_content_bg_pressed
 "
 /
 >
@@ -131,7 +131,7 @@ drawable
 "
 color
 /
-photon_notification_bg
+photon_content_bg
 "
 /
 >
