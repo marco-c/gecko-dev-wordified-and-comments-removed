@@ -22,13 +22,6 @@ ensureNoPreloadedBrowser
 )
 ;
 let
-origTab
-=
-gBrowser
-.
-selectedTab
-;
-let
 tab
 =
 await
@@ -117,8 +110,6 @@ switchDone
 ;
 }
 EXPECTED_REFLOWS
-window
-origTab
 )
 ;
 is

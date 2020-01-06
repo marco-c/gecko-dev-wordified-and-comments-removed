@@ -58,13 +58,6 @@ TAB_COUNT_FOR_GROWTH
 )
 ;
 let
-origTab
-=
-gBrowser
-.
-selectedTab
-;
-let
 lastTab
 =
 gBrowser
@@ -169,8 +162,6 @@ switchDone
 ;
 }
 EXPECTED_REFLOWS
-window
-origTab
 )
 ;
 await
