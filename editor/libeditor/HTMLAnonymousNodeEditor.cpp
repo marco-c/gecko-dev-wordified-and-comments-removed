@@ -1416,11 +1416,11 @@ manualNACProperty
 )
 )
 ;
-MOZ_ASSERT
+if
 (
 nac
 )
-;
+{
 nac
 -
 >
@@ -1450,6 +1450,7 @@ nsGkAtoms
 manualNACProperty
 )
 ;
+}
 }
 aContent
 -
