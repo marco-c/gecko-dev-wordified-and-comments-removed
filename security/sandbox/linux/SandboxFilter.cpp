@@ -2807,8 +2807,6 @@ SEMCTL
 case
 SEMOP
 :
-#
-endif
 return
 Some
 (
@@ -2817,6 +2815,8 @@ Allow
 )
 )
 ;
+#
+endif
 default
 :
 return
