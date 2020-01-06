@@ -4148,7 +4148,11 @@ mozilla
 TimeDuration
 mLastWheelProcessingDuration
 ;
+nsClassHashtable
+<
+nsUint32HashKey
 CoalescedMouseData
+>
 mCoalescedMouseData
 ;
 CoalescedWheelData
