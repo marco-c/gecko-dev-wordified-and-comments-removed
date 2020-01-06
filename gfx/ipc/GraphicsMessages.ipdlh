@@ -221,6 +221,9 @@ adapter
 int32_t
 sequenceNumber
 ;
+bool
+useNV12
+;
 }
 ;
 struct

@@ -253,6 +253,11 @@ IsWARP
 )
 ;
 bool
+CanUseNV12
+(
+)
+;
+bool
 CanInitializeKeyedMutexTextures
 (
 )
