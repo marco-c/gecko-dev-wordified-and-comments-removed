@@ -2300,12 +2300,8 @@ if
 aNode
 -
 >
-IsNodeOfType
+IsContent
 (
-nsINode
-:
-:
-eCONTENT
 )
 |
 |

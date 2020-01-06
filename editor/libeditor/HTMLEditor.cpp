@@ -1578,12 +1578,8 @@ eDOCUMENT
 aNode
 -
 >
-IsNodeOfType
+IsContent
 (
-nsINode
-:
-:
-eCONTENT
 )
 "
 aNode

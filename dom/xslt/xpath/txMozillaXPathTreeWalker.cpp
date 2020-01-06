@@ -265,12 +265,8 @@ NS_ASSERTION
 rootNode
 -
 >
-IsNodeOfType
+IsContent
 (
-nsINode
-:
-:
-eCONTENT
 )
 "
 root
@@ -378,12 +374,8 @@ NS_ASSERTION
 rootNode
 -
 >
-IsNodeOfType
+IsContent
 (
-nsINode
-:
-:
-eCONTENT
 )
 "
 root

@@ -416,8 +416,6 @@ aFlags
 &
 ~
 (
-eCONTENT
-|
 eTEXT
 |
 eDATA_NODE

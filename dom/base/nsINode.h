@@ -998,12 +998,6 @@ nsINode
 ;
 enum
 {
-eCONTENT
-=
-1
-<
-<
-0
 eDOCUMENT
 =
 1
@@ -2804,9 +2798,8 @@ NODE_CHROME_ONLY_ACCESS
 )
 |
 |
-IsNodeOfType
+IsContent
 (
-eCONTENT
 )
 "
 Flag
@@ -5109,9 +5102,8 @@ NS_ASSERTION
 (
 !
 (
-IsNodeOfType
+IsContent
 (
-eCONTENT
 )
 &
 &

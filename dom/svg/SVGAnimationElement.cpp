@@ -1434,11 +1434,7 @@ return
 aFlags
 &
 ~
-(
-eCONTENT
-|
 eANIMATION
-)
 )
 ;
 }

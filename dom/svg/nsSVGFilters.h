@@ -362,11 +362,7 @@ return
 aFlags
 &
 ~
-(
-eCONTENT
-|
 eFILTER
-)
 )
 ;
 }

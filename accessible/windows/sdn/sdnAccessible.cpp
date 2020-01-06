@@ -474,12 +474,8 @@ aNameSpaceID
 mNode
 -
 >
-IsNodeOfType
+IsContent
 (
-nsINode
-:
-:
-eCONTENT
 )
 ?
 static_cast

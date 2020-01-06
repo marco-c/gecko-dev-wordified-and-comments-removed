@@ -4313,13 +4313,7 @@ aFlags
 const
 {
 return
-!
-(
-aFlags
-&
-~
-eCONTENT
-)
+false
 ;
 }
 void

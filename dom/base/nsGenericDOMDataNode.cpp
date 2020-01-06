@@ -3599,11 +3599,7 @@ return
 aFlags
 &
 ~
-(
-eCONTENT
-|
 eDATA_NODE
-)
 )
 ;
 }
