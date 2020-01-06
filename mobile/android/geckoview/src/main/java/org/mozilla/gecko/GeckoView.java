@@ -4641,6 +4641,9 @@ void
 confirm
 (
 final
+Context
+context
+final
 Uri
 uri
 )
@@ -4659,6 +4662,7 @@ mType
 {
 confirm
 (
+context
 uri
 =
 =
@@ -4693,6 +4697,9 @@ static
 String
 getFile
 (
+final
+Context
+context
 final
 Uri
 uri
@@ -4738,11 +4745,7 @@ final
 ContentResolver
 cr
 =
-GeckoAppShell
-.
-getApplicationContext
-(
-)
+context
 .
 getContentResolver
 (
@@ -4891,6 +4894,9 @@ void
 confirm
 (
 final
+Context
+context
+final
 Uri
 [
 ]
@@ -4990,6 +4996,7 @@ i
 =
 getFile
 (
+context
 uris
 [
 i
@@ -6843,6 +6850,8 @@ AlertCallback
 void
 confirm
 (
+Context
+context
 Uri
 uri
 )
@@ -6850,6 +6859,8 @@ uri
 void
 confirm
 (
+Context
+context
 Uri
 [
 ]

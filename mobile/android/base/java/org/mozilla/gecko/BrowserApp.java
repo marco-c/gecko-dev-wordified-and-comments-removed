@@ -1471,17 +1471,6 @@ gecko
 .
 util
 .
-Clipboard
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
 ContextUtils
 ;
 import
@@ -7169,6 +7158,7 @@ Clipboard
 .
 getText
 (
+this
 )
 ;
 if
@@ -7246,6 +7236,7 @@ Clipboard
 .
 getText
 (
+this
 )
 ;
 if
@@ -7529,6 +7520,7 @@ Clipboard
 .
 setText
 (
+this
 url
 )
 ;

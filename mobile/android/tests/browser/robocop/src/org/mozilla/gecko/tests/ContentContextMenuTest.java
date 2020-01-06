@@ -23,8 +23,6 @@ mozilla
 .
 gecko
 .
-util
-.
 Clipboard
 ;
 import
@@ -489,6 +487,13 @@ Clipboard
 .
 getText
 (
+getInstrumentation
+(
+)
+.
+getContext
+(
+)
 )
 ;
 mAsserter

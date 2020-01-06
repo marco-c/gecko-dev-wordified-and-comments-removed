@@ -45,15 +45,6 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 GeckoBundle

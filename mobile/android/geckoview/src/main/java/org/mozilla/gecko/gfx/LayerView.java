@@ -59,15 +59,6 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoThread
 ;
 import

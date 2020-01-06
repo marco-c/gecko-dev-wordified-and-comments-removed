@@ -748,6 +748,9 @@ static
 void
 start
 (
+final
+Context
+context
 )
 {
 ThreadUtils
@@ -768,6 +771,7 @@ run
 {
 doStart
 (
+context
 )
 ;
 }
@@ -779,6 +783,9 @@ static
 void
 doStart
 (
+final
+Context
+context
 )
 {
 ThreadUtils
@@ -799,6 +806,7 @@ scanForGamepads
 ;
 addDeviceListener
 (
+context
 )
 ;
 sStarted
@@ -813,6 +821,9 @@ static
 void
 stop
 (
+final
+Context
+context
 )
 {
 ThreadUtils
@@ -833,6 +844,7 @@ run
 {
 doStop
 (
+context
 )
 ;
 }
@@ -844,6 +856,9 @@ static
 void
 doStop
 (
+final
+Context
+context
 )
 {
 ThreadUtils
@@ -859,6 +874,7 @@ sStarted
 {
 removeDeviceListener
 (
+context
 )
 ;
 sPendingGamepads
@@ -1870,6 +1886,9 @@ static
 void
 addDeviceListener
 (
+final
+Context
+context
 )
 {
 if
@@ -2103,11 +2122,7 @@ im
 (
 InputManager
 )
-GeckoAppShell
-.
-getApplicationContext
-(
-)
+context
 .
 getSystemService
 (
@@ -2135,6 +2150,9 @@ static
 void
 removeDeviceListener
 (
+final
+Context
+context
 )
 {
 if
@@ -2177,11 +2195,7 @@ im
 (
 InputManager
 )
-GeckoAppShell
-.
-getApplicationContext
-(
-)
+context
 .
 getSystemService
 (
