@@ -1118,7 +1118,10 @@ bool
 >
 mInCallback
 ;
+Atomic
+<
 bool
+>
 mMicrophoneActive
 ;
 bool
