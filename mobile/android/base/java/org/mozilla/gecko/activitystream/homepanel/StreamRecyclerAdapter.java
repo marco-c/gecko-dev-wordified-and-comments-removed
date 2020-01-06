@@ -892,7 +892,7 @@ int
 faviconHeight
 )
 {
-openContextMenu
+openContextMenuForTopSite
 (
 topSite
 absolutePosition
@@ -1014,7 +1014,7 @@ int
 position
 )
 {
-openContextMenu
+openContextMenuForWebpageItemRow
 (
 row
 position
@@ -1963,7 +1963,7 @@ getChildViewHolder
 v
 )
 ;
-openContextMenu
+openContextMenuForWebpageItemRow
 (
 highlightItem
 position
@@ -2062,7 +2062,7 @@ true
 }
 private
 void
-openContextMenu
+openContextMenuForWebpageItemRow
 (
 final
 WebpageItemRow
@@ -2251,7 +2251,7 @@ getTileHeight
 }
 private
 void
-openContextMenu
+openContextMenuForTopSite
 (
 final
 TopSite
