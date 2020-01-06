@@ -362,16 +362,6 @@ with
 the
 reason
 shutdown
-using
-:
-doc
-:
-.
-.
-/
-internals
-/
-pingsender
 if
 recorded
 data
