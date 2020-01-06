@@ -250,6 +250,8 @@ int32_t
 aLength
 bool
 aUpdateBidi
+bool
+aForce2b
 )
 ;
 bool
@@ -263,6 +265,8 @@ uint32_t
 aLength
 bool
 aUpdateBidi
+bool
+aForce2b
 )
 ;
 void

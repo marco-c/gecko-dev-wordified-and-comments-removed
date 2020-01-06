@@ -9353,6 +9353,13 @@ nsTextNode
 pNodeInfoManager
 )
 ;
+textNode
+-
+>
+MarkAsMaybeModifiedFrequently
+(
+)
+;
 element
 -
 >

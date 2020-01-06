@@ -1492,6 +1492,10 @@ document
 GetBidiEnabled
 (
 )
+HasFlag
+(
+NS_MAYBE_MODIFIED_FREQUENTLY
+)
 )
 ;
 NS_ENSURE_TRUE
@@ -1529,6 +1533,10 @@ document
 >
 GetBidiEnabled
 (
+)
+HasFlag
+(
+NS_MAYBE_MODIFIED_FREQUENTLY
 )
 )
 ;
@@ -1638,6 +1646,10 @@ document
 >
 GetBidiEnabled
 (
+)
+HasFlag
+(
+NS_MAYBE_MODIFIED_FREQUENTLY
 )
 )
 ;

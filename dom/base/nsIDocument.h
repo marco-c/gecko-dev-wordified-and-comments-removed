@@ -6695,6 +6695,15 @@ const
 ;
 already_AddRefed
 <
+nsTextNode
+>
+CreateEmptyTextNode
+(
+)
+const
+;
+already_AddRefed
+<
 mozilla
 :
 :

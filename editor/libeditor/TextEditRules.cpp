@@ -3675,11 +3675,13 @@ nsTextNode
 >
 newNode
 =
-doc
--
->
+EditorBase
+:
+:
 CreateTextNode
 (
+*
+doc
 tString
 )
 ;
