@@ -12262,6 +12262,14 @@ readListener
 =
 nullptr
 ;
+if
+(
+mDefaultDBState
+-
+>
+syncConn
+)
+{
 mDefaultDBState
 -
 >
@@ -12280,6 +12288,7 @@ syncConn
 =
 nullptr
 ;
+}
 mDefaultDBState
 -
 >
