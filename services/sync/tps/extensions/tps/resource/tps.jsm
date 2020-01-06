@@ -6219,7 +6219,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 if

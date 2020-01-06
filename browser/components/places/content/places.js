@@ -2542,7 +2542,7 @@ Desk
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let
@@ -2920,7 +2920,7 @@ Desk
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

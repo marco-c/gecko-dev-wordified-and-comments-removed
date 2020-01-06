@@ -142,7 +142,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 if
@@ -183,7 +183,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 let
@@ -500,7 +500,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 if

@@ -36,7 +36,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 var
@@ -94,7 +94,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 _tmpd

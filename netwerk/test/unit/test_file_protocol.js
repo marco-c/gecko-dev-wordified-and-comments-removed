@@ -96,7 +96,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 }

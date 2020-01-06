@@ -29,7 +29,7 @@ const
 nsILocalFile_
 =
 "
-nsILocalFile
+nsIFile
 "
 +
 os
@@ -167,7 +167,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 expected

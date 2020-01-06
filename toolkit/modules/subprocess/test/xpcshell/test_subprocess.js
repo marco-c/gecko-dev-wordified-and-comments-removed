@@ -3129,7 +3129,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 tmpDirFile

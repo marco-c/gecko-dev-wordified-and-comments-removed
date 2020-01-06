@@ -110,7 +110,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 outputDir
@@ -698,7 +698,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 jsonFile

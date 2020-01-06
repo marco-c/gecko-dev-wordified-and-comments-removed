@@ -857,7 +857,7 @@ ProfD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 testsURI

@@ -132,7 +132,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 const

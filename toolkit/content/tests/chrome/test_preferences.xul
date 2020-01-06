@@ -305,7 +305,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 }
 ;
@@ -454,7 +454,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 }
 ;
@@ -669,7 +669,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 aPrefValueSet
 .
 file
@@ -866,7 +866,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 result
@@ -1200,7 +1200,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 }
 result
@@ -1502,7 +1502,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 }
 result

@@ -221,7 +221,7 @@ local
 1
 "
 "
-nsILocalFile
+nsIFile
 "
 "
 initWithPath
@@ -679,7 +679,7 @@ ProfD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 bookmarksBackupDir

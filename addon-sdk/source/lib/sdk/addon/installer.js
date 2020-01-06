@@ -157,7 +157,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 try

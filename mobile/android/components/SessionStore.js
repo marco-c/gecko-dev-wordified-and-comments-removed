@@ -587,7 +587,7 @@ ProfD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 this

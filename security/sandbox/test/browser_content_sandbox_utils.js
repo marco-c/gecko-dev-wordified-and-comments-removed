@@ -194,7 +194,7 @@ Home
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 Assert
@@ -321,7 +321,7 @@ get
 contentTempKey
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 Assert
@@ -424,7 +424,7 @@ ProfD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 return
@@ -452,7 +452,7 @@ Home
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 return
@@ -515,7 +515,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 dir

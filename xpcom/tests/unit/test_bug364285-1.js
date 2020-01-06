@@ -122,7 +122,7 @@ TmpD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 }

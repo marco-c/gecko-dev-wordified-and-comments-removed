@@ -82,13 +82,13 @@ interfaces
 nsIAppShellService
 ;
 const
-nsILocalFile
+nsIFile
 =
 Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 ;
 const
 nsIFileURL
@@ -306,7 +306,7 @@ LOCAL_FILE_CONTRACTID
 .
 createInstance
 (
-nsILocalFile
+nsIFile
 )
 ;
 dir
@@ -410,7 +410,7 @@ clone
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 ;
 }
@@ -435,7 +435,7 @@ clone
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 ;
 }

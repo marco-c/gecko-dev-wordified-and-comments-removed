@@ -948,7 +948,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 return
@@ -1002,7 +1002,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 0x02
 |

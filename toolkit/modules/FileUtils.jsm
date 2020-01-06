@@ -568,7 +568,7 @@ local
 "
 Ci
 .
-nsILocalFile
+nsIFile
 "
 initWithPath
 "

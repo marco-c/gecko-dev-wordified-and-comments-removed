@@ -2773,7 +2773,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 parentURI

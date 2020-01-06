@@ -550,7 +550,7 @@ ProfD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 moduleLocalFiles

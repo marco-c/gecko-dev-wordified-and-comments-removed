@@ -456,7 +456,7 @@ get
 aLocation
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 gDirSvc

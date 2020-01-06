@@ -49,7 +49,7 @@ TmpD
 '
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 base

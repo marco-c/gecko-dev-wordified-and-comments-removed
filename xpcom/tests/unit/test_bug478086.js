@@ -4,13 +4,13 @@ run_test
 )
 {
 var
-nsILocalFile
+nsIFile
 =
 Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 ;
 var
 root
@@ -34,7 +34,7 @@ local
 .
 createInstance
 (
-nsILocalFile
+nsIFile
 )
 ;
 if
@@ -113,7 +113,7 @@ getNext
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 .
 path

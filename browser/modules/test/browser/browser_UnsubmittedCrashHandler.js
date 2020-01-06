@@ -304,7 +304,7 @@ create
 (
 Ci
 .
-nsILocalFile
+nsIFile
 .
 NORMAL_FILE_TYPE
 FileUtils

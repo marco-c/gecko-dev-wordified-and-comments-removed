@@ -247,7 +247,7 @@ QueryInterface
 (
 AM_Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

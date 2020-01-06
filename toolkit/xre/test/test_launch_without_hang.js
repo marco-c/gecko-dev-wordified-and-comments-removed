@@ -362,7 +362,7 @@ WinD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 ret
@@ -452,7 +452,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 ret
@@ -575,7 +575,7 @@ WinD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 file
@@ -636,7 +636,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 file

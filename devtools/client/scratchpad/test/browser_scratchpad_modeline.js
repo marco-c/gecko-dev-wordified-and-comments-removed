@@ -501,7 +501,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 true
 fileImported
@@ -564,7 +564,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 true
 function

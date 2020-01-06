@@ -1570,7 +1570,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 gDownloadLastDir

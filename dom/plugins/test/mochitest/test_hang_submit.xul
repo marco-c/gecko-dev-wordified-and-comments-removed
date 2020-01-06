@@ -872,7 +872,7 @@ UAppData
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 file

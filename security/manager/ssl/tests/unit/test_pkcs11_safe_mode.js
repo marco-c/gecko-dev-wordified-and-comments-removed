@@ -209,7 +209,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 libraryFile

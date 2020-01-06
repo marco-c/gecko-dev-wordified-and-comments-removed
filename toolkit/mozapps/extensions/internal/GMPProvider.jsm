@@ -3677,7 +3677,7 @@ get
 NS_GRE_DIR
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

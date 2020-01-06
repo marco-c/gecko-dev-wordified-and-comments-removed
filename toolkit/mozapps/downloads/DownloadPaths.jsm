@@ -62,7 +62,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 var

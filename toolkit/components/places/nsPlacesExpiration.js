@@ -3206,7 +3206,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 diskAvailableBytes

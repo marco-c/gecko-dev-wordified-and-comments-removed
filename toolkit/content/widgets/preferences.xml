@@ -2841,7 +2841,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 return
@@ -3151,7 +3151,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 lf
@@ -3188,7 +3188,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 this
@@ -3206,7 +3206,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 lf
 )
 ;

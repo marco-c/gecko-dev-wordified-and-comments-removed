@@ -161,7 +161,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let
@@ -399,7 +399,7 @@ Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 )
 ;
 file
@@ -749,7 +749,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

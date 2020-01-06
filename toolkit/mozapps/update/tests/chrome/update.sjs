@@ -94,7 +94,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let
@@ -258,7 +258,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 scriptFile

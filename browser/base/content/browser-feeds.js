@@ -1545,7 +1545,7 @@ setComplexValue
 prefName
 Ci
 .
-nsILocalFile
+nsIFile
 selectedApp
 )
 ;
@@ -1649,7 +1649,7 @@ getComplexValue
 aFeedHandler
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 }
@@ -2329,7 +2329,7 @@ getComplexValue
 feedTypePref
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 }

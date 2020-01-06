@@ -367,7 +367,7 @@ get
 XRE_EXECUTABLE_FILE
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

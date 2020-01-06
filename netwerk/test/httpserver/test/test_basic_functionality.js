@@ -180,7 +180,7 @@ CurProcD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 srv

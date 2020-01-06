@@ -12892,7 +12892,7 @@ lastDir
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 if
@@ -12991,7 +12991,7 @@ lastDir
 "
 Ci
 .
-nsILocalFile
+nsIFile
 this
 .
 _lastDir
@@ -13088,7 +13088,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 }

@@ -1675,7 +1675,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let
@@ -2808,7 +2808,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

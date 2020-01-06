@@ -36,7 +36,7 @@ local
 1
 "
 "
-nsILocalFile
+nsIFile
 "
 "
 initWithPath
@@ -97,7 +97,7 @@ TmpD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 var

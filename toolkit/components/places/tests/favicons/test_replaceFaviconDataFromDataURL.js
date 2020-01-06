@@ -85,7 +85,7 @@ TmpD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

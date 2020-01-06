@@ -4128,13 +4128,13 @@ aCallback
 )
 {
 const
-nsILocalFile
+nsIFile
 =
 Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 ;
 const
 nsIFilePicker
@@ -4207,7 +4207,7 @@ file
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 )
 ;
@@ -4277,7 +4277,7 @@ download
 .
 dir
 "
-nsILocalFile
+nsIFile
 )
 ;
 if

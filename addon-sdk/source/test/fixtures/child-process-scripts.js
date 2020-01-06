@@ -677,7 +677,7 @@ chrome
 )
 ;
 let
-nsILocalFile
+nsIFile
 =
 CC
 (
@@ -693,7 +693,7 @@ local
 1
 '
 '
-nsILocalFile
+nsIFile
 '
 '
 initWithPath
@@ -703,7 +703,7 @@ initWithPath
 let
 file
 =
-nsILocalFile
+nsIFile
 (
 name
 )

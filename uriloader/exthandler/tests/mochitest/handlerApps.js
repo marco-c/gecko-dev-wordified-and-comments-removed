@@ -396,7 +396,7 @@ SpecialPowers
 .
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 exe
@@ -517,7 +517,7 @@ SpecialPowers
 .
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 exe
@@ -559,7 +559,7 @@ SpecialPowers
 .
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 exe
@@ -637,7 +637,7 @@ SpecialPowers
 .
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 killall

@@ -566,7 +566,7 @@ setComplexValue
 kPrefName
 Ci
 .
-nsILocalFile
+nsIFile
 dir1
 )
 ;
@@ -617,7 +617,7 @@ setComplexValue
 kPrefName
 Ci
 .
-nsILocalFile
+nsIFile
 dir1
 )
 ;

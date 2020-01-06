@@ -52,7 +52,7 @@ local
 1
 "
 "
-nsILocalFile
+nsIFile
 "
 "
 initWithPath
@@ -597,7 +597,7 @@ QueryInterface
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 let

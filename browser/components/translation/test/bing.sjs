@@ -871,7 +871,7 @@ CurWorkD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 for

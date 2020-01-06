@@ -192,7 +192,7 @@ XREExeF
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 if

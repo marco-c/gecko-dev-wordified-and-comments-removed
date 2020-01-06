@@ -13,11 +13,11 @@ Components
 classes
 ;
 const
-nsILocalFile
+nsIFile
 =
 I
 .
-nsILocalFile
+nsIFile
 ;
 const
 nsIProperties
@@ -210,7 +210,7 @@ do_check_eq
 (
 file
 instanceof
-nsILocalFile
+nsIFile
 true
 )
 ;

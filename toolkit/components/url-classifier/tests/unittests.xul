@@ -1234,7 +1234,7 @@ TmpD
 "
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 tempDir
