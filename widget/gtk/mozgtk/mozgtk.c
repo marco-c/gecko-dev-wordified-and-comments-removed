@@ -2084,10 +2084,6 @@ gdk_window_get_type
 )
 STUB
 (
-gdk_window_get_window_type
-)
-STUB
-(
 gdk_x11_window_get_xid
 )
 STUB
