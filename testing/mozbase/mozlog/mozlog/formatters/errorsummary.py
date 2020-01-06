@@ -20,6 +20,12 @@ self
         
 self
 .
+groups
+=
+None
+        
+self
+.
 line_count
 =
 0
@@ -122,6 +128,21 @@ subtest
 subtest
                 
 "
+group
+"
+:
+self
+.
+groups
+.
+get
+(
+test
+'
+'
+)
+                
+"
 status
 "
 :
@@ -189,6 +210,37 @@ item
 )
 :
         
+self
+.
+groups
+=
+{
+v
+:
+k
+for
+k
+in
+item
+[
+"
+tests
+"
+]
+for
+v
+in
+item
+[
+"
+tests
+"
+]
+[
+k
+]
+}
+        
 return
 self
 .
@@ -199,7 +251,7 @@ test_groups
 "
 {
 "
-tests
+groups
 "
 :
 item
@@ -208,6 +260,10 @@ item
 tests
 "
 ]
+.
+keys
+(
+)
 }
 )
     
