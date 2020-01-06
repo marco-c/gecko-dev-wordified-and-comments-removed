@@ -2650,6 +2650,12 @@ activeCamera
 let
 activeMic
 ;
+if
+(
+!
+sharingScreen
+)
+{
 for
 (
 let
@@ -2754,6 +2760,7 @@ device
 ;
 break
 ;
+}
 }
 }
 if
