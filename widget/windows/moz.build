@@ -653,6 +653,14 @@ pdfium
 public
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+gtest
+'
+]
 LOCAL_INCLUDES
 +
 =
