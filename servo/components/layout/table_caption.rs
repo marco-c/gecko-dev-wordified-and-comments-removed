@@ -38,7 +38,7 @@ display_list_builder
 :
 :
 {
-EstablishContainingBlock
+StackingContextCollectionFlags
 StackingContextCollectionState
 }
 ;
@@ -421,10 +421,12 @@ block_flow
 collect_stacking_contexts_for_block
 (
 state
-EstablishContainingBlock
+StackingContextCollectionFlags
 :
 :
-No
+empty
+(
+)
 )
 ;
 }
