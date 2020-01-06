@@ -353,6 +353,14 @@ autoLock
 .
 GetImage
 (
+BasicManager
+(
+)
+-
+>
+GetCompositionTime
+(
+)
 )
 ;
 if
