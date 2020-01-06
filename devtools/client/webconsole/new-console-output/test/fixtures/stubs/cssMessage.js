@@ -202,7 +202,7 @@ column
 \
 "
 :
-2
+23
 }
 \
 "
@@ -350,7 +350,7 @@ line
 column
 "
 :
-2
+23
 }
 "
 groupId
@@ -537,7 +537,7 @@ column
 \
 "
 :
-2
+15
 }
 \
 "
@@ -686,7 +686,7 @@ line
 column
 "
 :
-2
+15
 }
 "
 groupId
@@ -826,6 +826,14 @@ lineText
 "
 :
 "
+such
+-
+unknown
+-
+property
+:
+wow
+;
 "
 "
 lineNumber
@@ -836,7 +844,7 @@ lineNumber
 columnNumber
 "
 :
-2
+23
 "
 category
 "
@@ -1010,6 +1018,13 @@ lineText
 "
 :
 "
+padding
+-
+top
+:
+invalid
+value
+;
 "
 "
 lineNumber
@@ -1020,7 +1035,7 @@ lineNumber
 columnNumber
 "
 :
-2
+15
 "
 category
 "
