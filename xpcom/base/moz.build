@@ -170,11 +170,6 @@ nsISecurityConsoleMessage
 idl
 '
 '
-nsIStatusReporter
-.
-idl
-'
-'
 nsISupports
 .
 idl
@@ -826,11 +821,6 @@ cpp
 '
 '
 nsSecurityConsoleMessage
-.
-cpp
-'
-'
-nsStatusReporterManager
 .
 cpp
 '
