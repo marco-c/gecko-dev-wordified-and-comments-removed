@@ -193,7 +193,7 @@ data
 }
 virtual
 void
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

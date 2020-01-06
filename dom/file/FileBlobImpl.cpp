@@ -1022,7 +1022,7 @@ void
 FileBlobImpl
 :
 :
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

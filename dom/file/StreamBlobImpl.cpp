@@ -300,7 +300,7 @@ void
 StreamBlobImpl
 :
 :
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

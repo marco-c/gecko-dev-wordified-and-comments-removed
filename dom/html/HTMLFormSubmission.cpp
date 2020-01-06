@@ -2134,7 +2134,7 @@ eLinebreakSpace
 aBlob
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

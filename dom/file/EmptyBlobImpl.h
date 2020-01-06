@@ -76,7 +76,7 @@ true
 }
 virtual
 void
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

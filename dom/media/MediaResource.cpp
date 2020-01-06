@@ -520,7 +520,7 @@ stream
 blobImpl
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

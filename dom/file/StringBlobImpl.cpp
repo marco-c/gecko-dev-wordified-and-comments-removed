@@ -165,7 +165,7 @@ void
 StringBlobImpl
 :
 :
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *

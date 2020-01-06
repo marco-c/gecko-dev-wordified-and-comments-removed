@@ -27593,7 +27593,7 @@ inputStream
 mBlobImpl
 -
 >
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

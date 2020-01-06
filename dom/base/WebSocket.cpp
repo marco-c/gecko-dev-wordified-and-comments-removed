@@ -9527,7 +9527,7 @@ msgStream
 ;
 aData
 .
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

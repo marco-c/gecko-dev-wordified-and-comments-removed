@@ -1611,7 +1611,7 @@ GetAsBlob
 ;
 blob
 .
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

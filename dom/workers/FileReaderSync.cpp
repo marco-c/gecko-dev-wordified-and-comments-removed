@@ -393,7 +393,7 @@ stream
 ;
 aBlob
 .
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (
@@ -544,7 +544,7 @@ stream
 ;
 aBlob
 .
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (
@@ -694,7 +694,7 @@ stream
 ;
 aBlob
 .
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (
@@ -1248,7 +1248,7 @@ stream
 ;
 aBlob
 .
-GetInternalStream
+CreateInputStream
 (
 getter_AddRefs
 (

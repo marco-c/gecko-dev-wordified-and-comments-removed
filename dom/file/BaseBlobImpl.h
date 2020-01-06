@@ -436,7 +436,7 @@ nullptr
 }
 virtual
 void
-GetInternalStream
+CreateInputStream
 (
 nsIInputStream
 *
