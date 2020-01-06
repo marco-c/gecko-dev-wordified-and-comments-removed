@@ -221,14 +221,6 @@ xpcshell
 ini
 '
 ]
-DEFINES
-[
-'
-MOZ_ENABLE_BACKGROUND_HANG_MONITOR
-'
-]
-=
-1
 XPIDL_SOURCES
 +
 =
