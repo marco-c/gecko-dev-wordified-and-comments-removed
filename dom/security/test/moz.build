@@ -190,6 +190,13 @@ browser
 ini
 '
 '
+general
+/
+browser
+.
+ini
+'
+'
 hsts
 /
 browser
