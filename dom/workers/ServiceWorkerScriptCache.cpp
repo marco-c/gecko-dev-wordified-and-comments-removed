@@ -2375,7 +2375,6 @@ GetGlobalObject
 (
 )
 ir
-nullptr
 )
 ;
 RequestOrUSVString

@@ -171,10 +171,6 @@ mHeaders
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mSignal
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
 mFetchStreamReader
 )
 tmp
@@ -204,10 +200,6 @@ mOwner
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mHeaders
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mSignal
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -249,9 +241,6 @@ aGlobal
 InternalResponse
 *
 aInternalResponse
-AbortSignal
-*
-aSignal
 )
 :
 FetchBody
@@ -264,10 +253,6 @@ aGlobal
 mInternalResponse
 (
 aInternalResponse
-)
-mSignal
-(
-aSignal
 )
 {
 MOZ_ASSERT
@@ -394,7 +379,6 @@ Response
 (
 global
 error
-nullptr
 )
 ;
 return
@@ -1097,7 +1081,6 @@ Response
 (
 global
 internalResponse
-nullptr
 )
 ;
 if
@@ -1800,7 +1783,6 @@ Response
 (
 mOwner
 ir
-mSignal
 )
 ;
 if
@@ -1998,7 +1980,6 @@ Response
 (
 mOwner
 ir
-mSignal
 )
 ;
 if
