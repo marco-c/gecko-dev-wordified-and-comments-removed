@@ -1,8 +1,10 @@
 marionette
 -
 harness
-=
+>
 =
 4
+.
+0
 .
 0
