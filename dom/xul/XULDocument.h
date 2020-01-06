@@ -1535,7 +1535,7 @@ static
 nsresult
 CreateTemplateBuilder
 (
-Element
+nsIContent
 *
 aElement
 )
@@ -1752,7 +1752,7 @@ protected
 :
 nsCOMPtr
 <
-Element
+nsIContent
 >
 mElement
 ;
@@ -1761,7 +1761,7 @@ public
 explicit
 TemplateBuilderHookup
 (
-Element
+nsIContent
 *
 aElement
 )

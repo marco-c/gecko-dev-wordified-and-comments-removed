@@ -2547,16 +2547,6 @@ xbl
 :
 true
 }
-{
-name
-:
-"
-XULTreeBuilderObserver
-"
-xbl
-:
-true
-}
 ]
 ;
 function
