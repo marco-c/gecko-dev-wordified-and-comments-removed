@@ -3708,6 +3708,16 @@ load
 1
 .
 html
+asserts
+-
+if
+(
+!
+stylo
+0
+-
+2
+)
 pref
 (
 dom
@@ -3723,6 +3733,9 @@ load
 1
 .
 html
+#
+bug
+1389936
 load
 1134531
 .
