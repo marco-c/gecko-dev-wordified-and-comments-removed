@@ -2220,7 +2220,6 @@ enum
 Serialization
 {
 eNormalized
-eAuthorSpecified
 }
 ;
 void
