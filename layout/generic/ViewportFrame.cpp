@@ -471,7 +471,7 @@ clipState
 .
 ClipContainingBlockDescendantsExtra
 (
-dirty
+visible
 +
 aBuilder
 -
