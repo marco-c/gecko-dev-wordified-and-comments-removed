@@ -1170,6 +1170,13 @@ target_arch
 "
 aarch64
 "
+or
+target_arch
+=
+=
+"
+sparc64
+"
 '
 {
 '
