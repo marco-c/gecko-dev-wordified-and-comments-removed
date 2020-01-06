@@ -1593,9 +1593,6 @@ HOST_OBJS
 IMPORT_LIBRARY
 )
 \
-(
-EXE_DEF_FILE
-)
 so_locations
 _gen
 _stubs
@@ -3616,9 +3613,6 @@ STATIC_LIBS_DEPS
 EXTRA_DEPS
 )
 (
-EXE_DEF_FILE
-)
-(
 RESFILE
 )
 (
@@ -3942,9 +3936,6 @@ OS_LIBS
 )
 (
 BIN_FLAGS
-)
-(
-EXE_DEF_FILE
 )
 (
 call
