@@ -1300,16 +1300,6 @@ ShutdownConnectionManager
 (
 )
 ;
-bool
-KeepEmptyResponseHeadersAsEmtpyString
-(
-)
-const
-{
-return
-mKeepEmptyResponseHeadersAsEmtpyString
-;
-}
 uint32_t
 DefaultHpackBuffer
 (
@@ -1801,9 +1791,6 @@ nsCOMPtr
 nsIRequestContextService
 >
 mRequestContextService
-;
-bool
-mKeepEmptyResponseHeadersAsEmtpyString
 ;
 uint32_t
 mDefaultHpackBuffer
