@@ -1565,9 +1565,10 @@ selected
 )
 &
 &
+Arc
 :
 :
-arc_ptr_eq
+ptr_eq
 (
 &
 result_info

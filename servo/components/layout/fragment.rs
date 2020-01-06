@@ -11895,9 +11895,10 @@ other_info
 debug_assert
 !
 (
+Arc
 :
 :
-arc_ptr_eq
+ptr_eq
 (
 &
 this_info

@@ -153,6 +153,12 @@ use
 std
 :
 :
+process
+;
+use
+std
+:
+:
 ptr
 ;
 use
@@ -1345,8 +1351,10 @@ old_size
 >
 MAX_REFCOUNT
 {
-panic
-!
+process
+:
+:
+abort
 (
 )
 ;
