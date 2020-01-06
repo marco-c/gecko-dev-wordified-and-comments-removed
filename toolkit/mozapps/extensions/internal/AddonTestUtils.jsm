@@ -3522,9 +3522,9 @@ shutdownError
 =
 XPIscope
 .
-XPIProvider
+XPIDatabase
 .
-_shutdownError
+_saveError
 ;
 AddonManagerPrivate
 .
