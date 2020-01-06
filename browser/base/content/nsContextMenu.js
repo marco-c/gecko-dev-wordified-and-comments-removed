@@ -8025,6 +8025,15 @@ true
 inBackground
 :
 false
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;

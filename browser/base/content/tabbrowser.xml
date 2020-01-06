@@ -34830,6 +34830,16 @@ true
 isPrerendered
 :
 true
+triggeringPrincipal
+:
+Utils
+.
+deserializePrincipal
+(
+data
+.
+triggeringPrincipal
+)
 }
 )
 ;
