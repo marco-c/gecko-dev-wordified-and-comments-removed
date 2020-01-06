@@ -130,6 +130,13 @@ h
 #
 include
 "
+ScreenHelperCocoa
+.
+h
+"
+#
+include
+"
 TextInputHandler
 .
 h

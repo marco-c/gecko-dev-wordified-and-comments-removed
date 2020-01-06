@@ -105,6 +105,15 @@ h
 #
 include
 "
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
+"
 nsPrintDialogX
 .
 h
