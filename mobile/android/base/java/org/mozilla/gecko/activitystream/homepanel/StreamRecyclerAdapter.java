@@ -116,17 +116,6 @@ gecko
 .
 activitystream
 .
-ActivityStream
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-activitystream
-.
 ActivityStreamTelemetry
 ;
 import
@@ -422,7 +411,7 @@ final
 RowItemType
 [
 ]
-FIXED_ROWS
+ACTIVITY_STREAM_SECTIONS
 =
 {
 RowItemType
@@ -587,7 +576,7 @@ for
 RowItemType
 type
 :
-FIXED_ROWS
+ACTIVITY_STREAM_SECTIONS
 )
 {
 recyclerViewModel
@@ -1909,7 +1898,7 @@ recyclerViewModel
 subList
 (
 0
-FIXED_ROWS
+ACTIVITY_STREAM_SECTIONS
 .
 length
 +
