@@ -2051,6 +2051,10 @@ _deleteItemMessageId
 successResponse
 )
 ;
+_lastAddSucceeded
+=
+false
+;
 }
 error
 (
