@@ -351,6 +351,9 @@ channelInfo
 OptionalPrincipalInfo
 principalInfo
 ;
+uint32_t
+paddingInfo
+;
 int64_t
 paddingSize
 ;
