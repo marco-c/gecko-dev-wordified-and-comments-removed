@@ -153,7 +153,7 @@ mReason
 uint32_t
 mTimeoutId
 ;
-uint32_t
+TimeDuration
 mInterval
 ;
 uint32_t
