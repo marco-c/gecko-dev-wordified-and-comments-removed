@@ -25,7 +25,7 @@ include
 "
 mozilla
 /
-UniquePtr
+Maybe
 .
 h
 "
@@ -83,10 +83,12 @@ aEditorBase
 nsIAtom
 *
 aName
-UniquePtr
+Maybe
 <
 SelectionState
 >
+&
+&
 aSelState
 )
 ;
@@ -200,10 +202,7 @@ mCompositionTransaction
 bool
 mCommitted
 ;
-UniquePtr
-<
 SelectionState
->
 mStartSel
 ;
 SelectionState

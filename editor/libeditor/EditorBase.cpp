@@ -785,10 +785,6 @@ mPlaceholderName
 (
 nullptr
 )
-mSelState
-(
-nullptr
-)
 mModCount
 (
 0
@@ -3893,11 +3889,8 @@ selection
 )
 {
 mSelState
-=
-MakeUnique
-<
-SelectionState
->
+.
+emplace
 (
 )
 ;
@@ -4080,8 +4073,10 @@ mSelState
 ;
 }
 mSelState
-=
-nullptr
+.
+reset
+(
+)
 ;
 }
 if
