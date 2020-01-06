@@ -3605,8 +3605,9 @@ SizeOfExcludingThis
 mozilla
 :
 :
-MallocSizeOf
-aMallocSizeOf
+SizeOfState
+&
+aState
 )
 const
 {
@@ -3644,7 +3645,9 @@ iface
 >
 SizeOfIncludingThis
 (
-aMallocSizeOf
+aState
+.
+mMallocSizeOf
 )
 ;
 }

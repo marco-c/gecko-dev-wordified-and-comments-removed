@@ -2808,8 +2808,9 @@ RasterImage
 :
 SizeOfSourceWithComputedFallback
 (
-MallocSizeOf
-aMallocSizeOf
+SizeOfState
+&
+aState
 )
 const
 {
@@ -2819,7 +2820,9 @@ mSourceBuffer
 >
 SizeOfIncludingThisWithComputedFallback
 (
-aMallocSizeOf
+aState
+.
+mMallocSizeOf
 )
 ;
 }

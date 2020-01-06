@@ -377,8 +377,9 @@ ImageMemoryCounter
 Image
 *
 aImage
-MallocSizeOf
-aMallocSizeOf
+SizeOfState
+&
+aState
 bool
 aIsUsed
 )
@@ -605,8 +606,9 @@ virtual
 size_t
 SizeOfSourceWithComputedFallback
 (
-MallocSizeOf
-aMallocSizeOf
+SizeOfState
+&
+aState
 )
 const
 =

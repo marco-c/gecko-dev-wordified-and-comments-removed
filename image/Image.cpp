@@ -35,8 +35,9 @@ ImageMemoryCounter
 Image
 *
 aImage
-MallocSizeOf
-aMallocSizeOf
+SizeOfState
+&
+aState
 bool
 aIsUsed
 )
@@ -133,7 +134,7 @@ aImage
 >
 SizeOfSourceWithComputedFallback
 (
-aMallocSizeOf
+aState
 )
 )
 ;
@@ -143,7 +144,9 @@ aImage
 CollectSizeOfSurfaces
 (
 mSurfaces
-aMallocSizeOf
+aState
+.
+mMallocSizeOf
 )
 ;
 for
