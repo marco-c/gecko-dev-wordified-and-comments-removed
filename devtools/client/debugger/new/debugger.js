@@ -200231,9 +200231,9 @@ name
 ]
 )
 {
-throw
-new
-Error
+console
+.
+warn
 (
 "
 Unknown
@@ -200243,6 +200243,9 @@ SVG
 +
 name
 )
+;
+return
+null
 ;
 }
 var
