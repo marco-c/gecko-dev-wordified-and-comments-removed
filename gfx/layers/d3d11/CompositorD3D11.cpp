@@ -5041,15 +5041,11 @@ COMPONENT_ALPHA
 {
 MOZ_ASSERT
 (
-gfxConfig
+gfxPrefs
 :
 :
-IsEnabled
+ComponentAlphaEnabled
 (
-Feature
-:
-:
-COMPONENT_ALPHA
 )
 )
 ;
