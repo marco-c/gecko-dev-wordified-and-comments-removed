@@ -2646,6 +2646,9 @@ result
 }
 )
 ;
+#
+ifndef
+XP_MACOSX
 MOZ_GTEST_BENCH
 (
 TestStandardURL
@@ -2796,3 +2799,5 @@ result
 }
 )
 ;
+#
+endif
