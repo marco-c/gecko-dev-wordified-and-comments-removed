@@ -19596,6 +19596,13 @@ oldNextSibling
 nsCSSFrameConstructor
 :
 :
+InsertionKind
+:
+:
+Async
+nsCSSFrameConstructor
+:
+:
 REMOVE_CONTENT
 )
 ;

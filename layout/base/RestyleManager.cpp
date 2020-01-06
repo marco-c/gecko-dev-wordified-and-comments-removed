@@ -6773,10 +6773,6 @@ InsertionKind
 :
 :
 Sync
-nsCSSFrameConstructor
-:
-:
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 }

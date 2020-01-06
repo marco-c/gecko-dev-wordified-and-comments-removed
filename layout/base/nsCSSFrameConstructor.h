@@ -622,6 +622,14 @@ aProvidedTreeMatchContext
 public
 :
 enum
+class
+InsertionKind
+{
+Sync
+Async
+}
+;
+enum
 RemoveFlags
 {
 REMOVE_CONTENT
@@ -641,6 +649,8 @@ aChild
 nsIContent
 *
 aOldNextSibling
+InsertionKind
+aInsertionKind
 RemoveFlags
 aFlags
 )
@@ -4408,14 +4418,6 @@ Element
 aElement
 )
 ;
-enum
-class
-InsertionKind
-{
-Sync
-Async
-}
-;
 void
 RecreateFramesForContent
 (
@@ -4424,8 +4426,6 @@ nsIContent
 aContent
 InsertionKind
 aInsertionKind
-RemoveFlags
-aFlags
 )
 ;
 void
@@ -4444,8 +4444,6 @@ nsIFrame
 aFrame
 InsertionKind
 aInsertionKind
-RemoveFlags
-aFlags
 )
 ;
 nsIFrame
@@ -4687,8 +4685,6 @@ nsIFrame
 aFrame
 InsertionKind
 aInsertionKind
-RemoveFlags
-aFlags
 )
 ;
 nsFirstLetterFrame

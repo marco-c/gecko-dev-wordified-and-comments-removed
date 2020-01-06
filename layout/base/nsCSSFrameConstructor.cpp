@@ -27186,7 +27186,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 }
@@ -32109,7 +32108,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -32736,7 +32734,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -32858,7 +32855,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -34536,7 +34532,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -34762,7 +34757,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -34815,7 +34809,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -34880,7 +34873,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -36265,6 +36257,8 @@ aChild
 nsIContent
 *
 aOldNextSibling
+InsertionKind
+aInsertionKind
 RemoveFlags
 aFlags
 )
@@ -36303,26 +36297,22 @@ frames
 "
 )
 ;
-const
-InsertionKind
-insertionKind
-=
+MOZ_ASSERT
 (
 aFlags
 =
 =
 REMOVE_FOR_RECONSTRUCTION
-)
-?
-InsertionKind
-:
-:
-Sync
-:
+|
+|
+aInsertionKind
+=
+=
 InsertionKind
 :
 :
 Async
+)
 ;
 nsPresContext
 *
@@ -36636,8 +36626,7 @@ LAYOUT_PHASE_TEMP_EXIT
 RecreateFramesForContent
 (
 ancestor
-insertionKind
-aFlags
+aInsertionKind
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -36705,7 +36694,8 @@ ContentRemoved
 aChild
 c
 nullptr
-aFlags
+aInsertionKind
+REMOVE_FOR_RECONSTRUCTION
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -36904,8 +36894,7 @@ LAYOUT_PHASE_TEMP_EXIT
 RecreateFramesForContent
 (
 bindingParent
-insertionKind
-aFlags
+aInsertionKind
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -36951,8 +36940,7 @@ if
 MaybeRecreateContainerForFrameRemoval
 (
 childFrame
-insertionKind
-aFlags
+aInsertionKind
 )
 )
 {
@@ -37018,8 +37006,7 @@ parentFrame
 GetContent
 (
 )
-insertionKind
-aFlags
+aInsertionKind
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -37077,8 +37064,7 @@ parentFrame
 GetContent
 (
 )
-insertionKind
-aFlags
+aInsertionKind
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -37167,8 +37153,7 @@ grandparentFrame
 GetContent
 (
 )
-insertionKind
-aFlags
+aInsertionKind
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -38054,7 +38039,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -41166,7 +41150,6 @@ InsertionKind
 :
 :
 Sync
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -41360,8 +41343,6 @@ nsIFrame
 aFrame
 InsertionKind
 aInsertionKind
-RemoveFlags
-aFlags
 )
 {
 NS_PRECONDITION
@@ -41476,7 +41457,6 @@ ReframeContainingBlock
 (
 aFrame
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -41534,7 +41514,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -41677,7 +41656,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -41803,7 +41781,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -41940,7 +41917,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -41987,7 +41963,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -42072,7 +42047,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -42167,7 +42141,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -42295,7 +42268,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -42431,7 +42403,6 @@ ReframeContainingBlock
 (
 parent
 aInsertionKind
-aFlags
 )
 ;
 return
@@ -42510,8 +42481,6 @@ nsIContent
 aContent
 InsertionKind
 aInsertionKind
-RemoveFlags
-aFlags
 )
 {
 MOZ_ASSERT
@@ -42680,7 +42649,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 }
@@ -42798,7 +42766,6 @@ GetContent
 (
 )
 aInsertionKind
-aFlags
 )
 ;
 }
@@ -42856,7 +42823,6 @@ RecreateFramesForContent
 (
 parentContent
 aInsertionKind
-aFlags
 )
 ;
 }
@@ -42870,7 +42836,6 @@ MaybeRecreateContainerForFrameRemoval
 (
 frame
 aInsertionKind
-aFlags
 )
 )
 {
@@ -42940,7 +42905,8 @@ ContentRemoved
 container
 aContent
 nextSibling
-aFlags
+aInsertionKind
+REMOVE_FOR_RECONSTRUCTION
 )
 ;
 if
@@ -43058,6 +43024,10 @@ GetParent
 )
 aElement
 nextSibling
+InsertionKind
+:
+:
+Async
 REMOVE_DESTROY_FRAMES
 )
 ;
@@ -53258,7 +53228,6 @@ InsertionKind
 :
 :
 Async
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -53358,7 +53327,6 @@ InsertionKind
 :
 :
 Async
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -53415,7 +53383,6 @@ InsertionKind
 :
 :
 Async
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -53504,7 +53471,6 @@ InsertionKind
 :
 :
 Async
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -53550,7 +53516,6 @@ InsertionKind
 :
 :
 Async
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -53968,7 +53933,6 @@ InsertionKind
 :
 :
 Async
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -54202,7 +54166,6 @@ InsertionKind
 :
 :
 Async
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -54220,8 +54183,6 @@ nsIFrame
 aFrame
 InsertionKind
 aInsertionKind
-RemoveFlags
-aFlags
 )
 {
 #
@@ -54361,7 +54322,6 @@ AsElement
 (
 )
 aInsertionKind
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 return
@@ -54382,7 +54342,6 @@ GetRootElement
 (
 )
 aInsertionKind
-REMOVE_FOR_RECONSTRUCTION
 )
 ;
 }
