@@ -6798,10 +6798,6 @@ break
 else
 :
                 
-config
-=
-None
-                
 try
 :
                     
@@ -6842,25 +6838,12 @@ config_rc
 return
 config_rc
                     
-try
-:
-                        
 config
 =
 self
 .
 config_environment
-                    
-except
-Exception
-:
-                        
-pass
                 
-if
-config
-:
-                    
 active_backend
 =
 config
@@ -6879,11 +6862,11 @@ None
 [
 0
 ]
-                    
+                
 if
 active_backend
 :
-                        
+                    
 backend_cls
 =
 get_backend_class
@@ -6893,7 +6876,7 @@ active_backend
 (
 config
 )
-                        
+                    
 status
 =
 backend_cls
