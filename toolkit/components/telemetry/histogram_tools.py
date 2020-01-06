@@ -2282,6 +2282,15 @@ definition
 )
 :
         
+if
+not
+self
+.
+_strict_type_checks
+:
+            
+return
+        
 field
 =
 '
