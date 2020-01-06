@@ -28439,6 +28439,14 @@ props
 if
 (
 computeInvalidRect
+&
+&
+layerManager
+-
+>
+GetRoot
+(
+)
 )
 {
 props
