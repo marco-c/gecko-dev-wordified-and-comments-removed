@@ -8072,6 +8072,15 @@ solaris
 )
 MOZ_FIX_LINK_PATHS
 =
+"
+-
+L
+{
+DIST
+}
+/
+bin
+"
 ;
 ;
 esac
