@@ -238,6 +238,8 @@ size_t
 impulseResponseBufferLength
 size_t
 maxFFTSize
+size_t
+numberOfChannels
 bool
 useBackgroundThreads
 bool
@@ -392,6 +394,7 @@ initialize
 irChannels
 impulseResponseBufferLength
 maxFFTSize
+numberOfChannels
 useBackgroundThreads
 )
 ;
@@ -506,6 +509,8 @@ size_t
 impulseResponseBufferLength
 size_t
 maxFFTSize
+size_t
+numberOfChannels
 bool
 useBackgroundThreads
 )
@@ -527,7 +532,7 @@ m_convolvers
 .
 SetCapacity
 (
-numResponseChannels
+numberOfChannels
 )
 ;
 int

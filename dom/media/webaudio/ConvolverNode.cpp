@@ -338,6 +338,7 @@ Reverb
 mBuffer
 mBufferLength
 MaxFFTSize
+2
 mUseBackgroundThreads
 mNormalize
 mSampleRate
