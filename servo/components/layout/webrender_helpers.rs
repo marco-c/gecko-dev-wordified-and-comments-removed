@@ -3771,7 +3771,8 @@ ClipScrollNodeType
 :
 StickyFrame
 (
-sticky_frame_info
+ref
+sticky_data
 )
 =
 >
@@ -3794,7 +3795,15 @@ node
 .
 id
 item_rect
-sticky_frame_info
+sticky_data
+.
+margins
+sticky_data
+.
+vertical_offset_bounds
+sticky_data
+.
+horizontal_offset_bounds
 )
 ;
 builder
