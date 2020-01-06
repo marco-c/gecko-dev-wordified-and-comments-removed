@@ -12732,6 +12732,12 @@ useRegister
 (
 codePoint
 )
+temp
+(
+)
+temp
+(
+)
 )
 ;
 assignSnapshot
