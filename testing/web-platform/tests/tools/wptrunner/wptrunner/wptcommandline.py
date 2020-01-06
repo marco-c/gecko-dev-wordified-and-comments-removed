@@ -3556,6 +3556,8 @@ name
 )
     
 if
+path
+and
 os
 .
 access
@@ -3569,6 +3571,12 @@ X_OK
         
 return
 path
+    
+else
+:
+        
+return
+None
 def
 check_args
 (
