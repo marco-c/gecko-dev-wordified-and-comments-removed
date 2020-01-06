@@ -503,11 +503,6 @@ BiquadFilterNode
 cpp
 '
 '
-BufferDecoder
-.
-cpp
-'
-'
 ChannelMergerNode
 .
 cpp
