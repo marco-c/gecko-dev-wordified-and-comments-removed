@@ -1942,6 +1942,9 @@ DrawEmphasisMarks
 gfxContext
 *
 aContext
+TextDrawTarget
+*
+aTextDrawer
 mozilla
 :
 :
