@@ -1060,11 +1060,6 @@ tests
 all
 via
 BBB
-#
-Disabled
-until
-flag
-day
 windows8
 -
 64
@@ -1082,9 +1077,6 @@ test
 -
 sets
 :
-[
-]
-#
 -
 windows8
 -
@@ -1106,9 +1098,6 @@ test
 -
 sets
 :
-[
-]
-#
 -
 windows8
 -
@@ -1134,9 +1123,6 @@ test
 -
 sets
 :
-[
-]
-#
 -
 windows8
 -
@@ -1162,9 +1148,6 @@ test
 -
 sets
 :
-[
-]
-#
 -
 windows8
 -
