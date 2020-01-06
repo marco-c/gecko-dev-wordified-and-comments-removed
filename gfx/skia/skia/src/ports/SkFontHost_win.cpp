@@ -1815,10 +1815,6 @@ SkFontStyle
 aStyle
 bool
 aForceGDI
-float
-aGamma
-float
-aContrast
 )
 {
 return
@@ -1831,8 +1827,6 @@ aFactory
 aFontFace
 aStyle
 aForceGDI
-aGamma
-aContrast
 )
 ;
 }
