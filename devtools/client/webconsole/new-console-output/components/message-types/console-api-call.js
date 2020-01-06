@@ -214,6 +214,7 @@ tableData
 serviceContainer
 indent
 timestampsVisible
+repeat
 }
 =
 props
@@ -226,7 +227,6 @@ messageId
 source
 type
 level
-repeat
 stacktrace
 frame
 timeStamp
