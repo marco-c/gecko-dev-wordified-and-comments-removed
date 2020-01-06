@@ -3293,15 +3293,6 @@ svg
 lime
 .
 svg
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 anim

@@ -905,15 +905,6 @@ svg
 #
 Trimmed
 intervals
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 trimmed

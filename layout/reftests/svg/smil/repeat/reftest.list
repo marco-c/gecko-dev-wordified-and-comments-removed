@@ -3,15 +3,6 @@ Tests
 for
 repeat
 behaviour
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 indefinite
