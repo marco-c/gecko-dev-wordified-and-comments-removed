@@ -1594,6 +1594,13 @@ WebRenderTextureHost
 .
 h
 '
+'
+wr
+/
+WebRenderUserData
+.
+h
+'
 ]
 if
 CONFIG
@@ -3120,6 +3127,13 @@ cpp
 wr
 /
 WebRenderTextLayer
+.
+cpp
+'
+'
+wr
+/
+WebRenderUserData
 .
 cpp
 '
