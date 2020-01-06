@@ -5102,17 +5102,10 @@ now
 (
 )
         
-while
-datetime
-.
-datetime
-.
-now
-(
-)
--
+timeout_time
+=
 starttime
-<
++
 datetime
 .
 timedelta
@@ -5121,6 +5114,17 @@ seconds
 =
 timeout
 )
+        
+while
+datetime
+.
+datetime
+.
+now
+(
+)
+<
+timeout_time
 :
             
 if
