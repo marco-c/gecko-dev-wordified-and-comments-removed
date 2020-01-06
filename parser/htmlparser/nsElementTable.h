@@ -273,7 +273,7 @@ const
 #
 ifdef
 DEBUG
-eHTMLTags
+nsHTMLTag
 mTagID
 ;
 #
@@ -288,7 +288,7 @@ static
 bool
 IsContainer
 (
-eHTMLTags
+nsHTMLTag
 aTag
 )
 ;
@@ -296,7 +296,7 @@ static
 bool
 IsBlock
 (
-eHTMLTags
+nsHTMLTag
 aTag
 )
 ;

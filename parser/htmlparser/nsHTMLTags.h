@@ -289,8 +289,4 @@ gTagAtomTable
 }
 ;
 #
-define
-eHTMLTags
-nsHTMLTag
-#
 endif

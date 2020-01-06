@@ -2078,7 +2078,7 @@ final
 #
 ifdef
 DEBUG
-eHTMLTags
+nsHTMLTag
 mTag
 ;
 #
@@ -3508,7 +3508,7 @@ eHTMLTag_button
 {
 static
 const
-eHTMLTags
+nsHTMLTag
 kButtonExcludeKids
 [
 ]
