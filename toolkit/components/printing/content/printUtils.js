@@ -2324,12 +2324,15 @@ ppBrowser
 )
 ;
 }
+else
+{
 printPreviewTB
 .
 updateToolbar
 (
 )
 ;
+}
 ppBrowser
 .
 collapsed
