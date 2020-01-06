@@ -12,11 +12,6 @@ GetEffectiveContentSandboxLevel
 (
 )
 ;
-bool
-IsDevelopmentBuild
-(
-)
-;
 }
 #
 endif
