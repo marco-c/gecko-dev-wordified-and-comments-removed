@@ -3985,6 +3985,15 @@ sendToDeviceFeedback
 label
 ;
 "
+sendToDeviceOfflineFeedback
+=
+"
+&
+sendToDeviceOfflineFeedback
+.
+label
+;
+"
 >
 <
 hbox
