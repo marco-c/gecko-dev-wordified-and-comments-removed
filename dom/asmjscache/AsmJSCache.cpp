@@ -5213,7 +5213,6 @@ enum
 State
 {
 eInitial
-eBackgroundChildPending
 eOpening
 eOpened
 eClosing
@@ -5480,9 +5479,6 @@ return
 NS_OK
 ;
 }
-case
-eBackgroundChildPending
-:
 case
 eOpening
 :
