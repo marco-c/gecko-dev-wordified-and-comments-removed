@@ -1271,6 +1271,7 @@ CreateEncodedBasicConstraints
 (
 bool
 isCA
+const
 long
 *
 pathLenConstraint
