@@ -626,7 +626,7 @@ override
 virtual
 nsIContent
 *
-GetXBLInsertionParent
+GetXBLInsertionPoint
 (
 )
 const
@@ -634,7 +634,7 @@ override
 ;
 virtual
 void
-SetXBLInsertionParent
+SetXBLInsertionPoint
 (
 nsIContent
 *
@@ -1003,7 +1003,7 @@ nsCOMPtr
 <
 nsIContent
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 ;
 RefPtr
 <

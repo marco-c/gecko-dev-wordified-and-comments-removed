@@ -994,7 +994,7 @@ this
 aContent
 -
 >
-SetXBLInsertionParent
+SetXBLInsertionPoint
 (
 nullptr
 )
@@ -3796,7 +3796,7 @@ aPreviousSibling
 aChild
 -
 >
-SetXBLInsertionParent
+SetXBLInsertionPoint
 (
 nullptr
 )

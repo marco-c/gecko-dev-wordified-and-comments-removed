@@ -3429,7 +3429,7 @@ cb
 mExtendedSlots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 "
 )
 ;
@@ -3440,7 +3440,7 @@ NoteXPCOMChild
 mExtendedSlots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 .
 get
 (
@@ -3685,7 +3685,7 @@ mXBLBinding
 mExtendedSlots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 =
 nullptr
 ;
@@ -5693,7 +5693,7 @@ nsIContent
 FragmentOrElement
 :
 :
-GetXBLInsertionParent
+GetXBLInsertionPoint
 (
 )
 const
@@ -5723,7 +5723,7 @@ return
 slots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 ;
 }
 }
@@ -5923,7 +5923,7 @@ void
 FragmentOrElement
 :
 :
-SetXBLInsertionParent
+SetXBLInsertionPoint
 (
 nsIContent
 *
@@ -5934,7 +5934,7 @@ nsCOMPtr
 <
 nsIContent
 >
-oldInsertionParent
+oldInsertionPoint
 =
 nullptr
 ;
@@ -5956,12 +5956,12 @@ SetFlags
 NODE_MAY_BE_IN_BINDING_MNGR
 )
 ;
-oldInsertionParent
+oldInsertionPoint
 =
 slots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 .
 forget
 (
@@ -5970,7 +5970,7 @@ forget
 slots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 =
 aContent
 ;
@@ -5988,12 +5988,12 @@ GetExistingExtendedDOMSlots
 )
 )
 {
-oldInsertionParent
+oldInsertionPoint
 =
 slots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 .
 forget
 (
@@ -6002,7 +6002,7 @@ forget
 slots
 -
 >
-mXBLInsertionParent
+mXBLInsertionPoint
 =
 nullptr
 ;
@@ -6010,7 +6010,7 @@ nullptr
 }
 if
 (
-oldInsertionParent
+oldInsertionPoint
 !
 =
 aContent
