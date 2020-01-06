@@ -1822,7 +1822,7 @@ if
 aSandboxLevel
 >
 =
-10
+4
 )
 {
 jobLevel
@@ -1830,7 +1830,7 @@ jobLevel
 sandbox
 :
 :
-JOB_RESTRICTED
+JOB_LOCKDOWN
 ;
 accessTokenLevel
 =
