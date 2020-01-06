@@ -2386,13 +2386,6 @@ RESPATH
 /
 components
 /
-payments
-.
-manifest
-RESPATH
-/
-components
-/
 passwordmgr
 .
 manifest
