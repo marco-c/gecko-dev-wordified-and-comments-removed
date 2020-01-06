@@ -925,6 +925,9 @@ proxyInfo
 "
 ip
 "
+"
+frameAncestors
+"
 ]
 ;
 function
