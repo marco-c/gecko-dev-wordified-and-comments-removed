@@ -3776,13 +3776,6 @@ IsInStableOrMetaStableState
 )
 ;
 static
-nsISerialEventTarget
-*
-GetStableStateEventTarget
-(
-)
-;
-static
 nsresult
 ProcessViewportInfo
 (
@@ -7067,11 +7060,6 @@ sXMLFragmentSink
 static
 bool
 sFragmentParsingActive
-;
-static
-nsISerialEventTarget
-*
-sStableStateEventTarget
 ;
 static
 nsString
