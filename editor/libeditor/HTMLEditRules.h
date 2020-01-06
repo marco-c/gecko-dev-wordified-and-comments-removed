@@ -1281,14 +1281,6 @@ aSelection
 nsINode
 &
 aParentDivOrP
-nsINode
-*
-aTextNode
-int32_t
-aOffset
-nsIContent
-*
-aChildAtOffset
 )
 ;
 nsresult
