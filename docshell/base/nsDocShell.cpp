@@ -55751,6 +55751,8 @@ aFileName
 nsIInputStream
 *
 aPostDataStream
+int64_t
+aPostDataStreamLength
 nsIInputStream
 *
 aHeadersDataStream
@@ -55815,6 +55817,7 @@ get
 )
 mFileName
 mPostDataStream
+mPostDataStreamLength
 mHeadersDataStream
 mNoOpenerImplied
 nullptr
@@ -55852,6 +55855,9 @@ nsCOMPtr
 nsIInputStream
 >
 mPostDataStream
+;
+int64_t
+mPostDataStreamLength
 ;
 nsCOMPtr
 <
@@ -55907,6 +55913,8 @@ aFileName
 nsIInputStream
 *
 aPostDataStream
+int64_t
+aPostDataStreamLength
 nsIInputStream
 *
 aHeadersDataStream
@@ -55947,6 +55955,10 @@ aFileName
 mPostDataStream
 (
 aPostDataStream
+)
+mPostDataStreamLength
+(
+aPostDataStreamLength
 )
 mHeadersDataStream
 (
@@ -56005,6 +56017,8 @@ aFileName
 nsIInputStream
 *
 aPostDataStream
+int64_t
+aPostDataStreamLength
 nsIInputStream
 *
 aHeadersDataStream
@@ -56179,6 +56193,7 @@ get
 )
 aFileName
 aPostDataStream
+aPostDataStreamLength
 aHeadersDataStream
 noOpenerImplied
 aIsTrusted
@@ -56223,6 +56238,8 @@ aFileName
 nsIInputStream
 *
 aPostDataStream
+int64_t
+aPostDataStreamLength
 nsIInputStream
 *
 aHeadersDataStream
@@ -56789,8 +56806,7 @@ get
 )
 aFileName
 aPostDataStream
--
-1
+aPostDataStreamLength
 aHeadersDataStream
 LOAD_LINK
 nullptr

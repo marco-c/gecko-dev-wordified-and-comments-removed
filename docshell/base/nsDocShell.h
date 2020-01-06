@@ -716,6 +716,8 @@ aFileName
 nsIInputStream
 *
 aPostDataStream
+int64_t
+aPostDataStreamLength
 nsIInputStream
 *
 aHeadersDataStream
@@ -749,6 +751,11 @@ nsIInputStream
 aPostDataStream
 =
 0
+int64_t
+aPostDataStreamLength
+=
+-
+1
 nsIInputStream
 *
 aHeadersDataStream
