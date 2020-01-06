@@ -1209,9 +1209,6 @@ run
 time
 :
 5400
-tier
-:
-2
 mozharness
 :
 script
@@ -1302,7 +1299,7 @@ asan
 3
 default
 :
-default
+2
 geckoview
 :
 description
