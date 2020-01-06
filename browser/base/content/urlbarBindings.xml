@@ -431,13 +431,6 @@ input
 textbox
 -
 input
-uri
--
-element
--
-right
--
-align
 "
 allowevents
 =
