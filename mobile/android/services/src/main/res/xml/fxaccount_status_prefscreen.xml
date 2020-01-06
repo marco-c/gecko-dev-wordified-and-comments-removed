@@ -596,14 +596,14 @@ key
 "
 sync
 .
-allow_metered
+restrict_metered
 "
 android
 :
 defaultValue
 =
 "
-true
+false
 "
 android
 :

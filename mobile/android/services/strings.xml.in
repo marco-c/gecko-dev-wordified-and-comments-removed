@@ -752,7 +752,7 @@ fxaccount_pref_sync_use_metered
 "
 >
 &
-fxaccount_pref_sync_use_metered
+fxaccount_pref_sync_use_metered2
 ;
 <
 /
@@ -767,7 +767,7 @@ fxaccount_pref_sync_use_metered_summary
 "
 >
 &
-fxaccount_pref_sync_use_metered_summary
+fxaccount_pref_sync_use_metered_summary2
 ;
 <
 /
