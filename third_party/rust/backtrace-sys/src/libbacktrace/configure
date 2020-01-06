@@ -89037,7 +89037,7 @@ then
 :
 ALLOC_FILE
 =
-mmap
+alloc
 .
 lo
 else

@@ -120,9 +120,9 @@ version
 "
 1
 .
-6
+7
 .
-2
+0
 "
 authors
 =
@@ -132,9 +132,7 @@ Sean
 McArthur
 <
 sean
-.
-monstar
-gmail
+seanmonstar
 .
 com
 >
@@ -165,6 +163,13 @@ docs
 rs
 /
 num_cpus
+"
+readme
+=
+"
+README
+.
+md
 "
 keywords
 =
@@ -226,5 +231,5 @@ version
 .
 2
 .
-6
+26
 "

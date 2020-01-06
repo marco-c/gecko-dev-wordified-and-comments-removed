@@ -110,6 +110,12 @@ https
 /
 /
 s3
+-
+us
+-
+west
+-
+1
 .
 amazonaws
 .
@@ -119,7 +125,7 @@ rust
 -
 lang
 -
-ci
+ci2
 /
 libc
 /

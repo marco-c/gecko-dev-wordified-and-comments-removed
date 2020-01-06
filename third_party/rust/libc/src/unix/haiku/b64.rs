@@ -10,3 +10,9 @@ c_long
 =
 i64
 ;
+pub
+type
+time_t
+=
+i64
+;
