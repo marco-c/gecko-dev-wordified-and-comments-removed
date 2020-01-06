@@ -3813,15 +3813,10 @@ text
 -
 link
 "
-onclick
+id
 =
 "
-gotoPref
-(
-'
-search
-'
-)
+openSearchEnginePreferences
 "
 >
 &
