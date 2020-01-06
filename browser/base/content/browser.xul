@@ -8294,6 +8294,17 @@ image
 id
 =
 "
+extension
+-
+icon
+"
+/
+>
+<
+image
+id
+=
+"
 remote
 -
 control
