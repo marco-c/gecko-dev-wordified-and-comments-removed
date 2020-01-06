@@ -217,6 +217,16 @@ webrtc
 /
 trunk
 '
+'
+/
+netwerk
+/
+srtp
+/
+src
+/
+include
+'
 ]
 UNIFIED_SOURCES
 +

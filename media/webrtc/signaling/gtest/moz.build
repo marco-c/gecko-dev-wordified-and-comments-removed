@@ -260,6 +260,16 @@ webrtc
 /
 trunk
 '
+'
+/
+netwerk
+/
+srtp
+/
+src
+/
+include
+'
 ]
 SOURCES
 +
