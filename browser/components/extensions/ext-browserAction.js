@@ -1212,6 +1212,15 @@ tabbrowser
 selectedBrowser
 )
 ;
+CustomizableUI
+.
+hidePanelForNode
+(
+event
+.
+target
+)
+;
 }
 }
 }
