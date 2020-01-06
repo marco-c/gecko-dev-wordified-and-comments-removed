@@ -39638,6 +39638,12 @@ _preparePanelToBeShown
 (
 )
 {
+BookmarkingUI
+.
+updateBookmarkPageMenuItem
+(
+)
+;
 let
 browser
 =

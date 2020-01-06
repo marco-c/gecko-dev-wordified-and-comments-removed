@@ -7670,7 +7670,7 @@ BUI_uninit
 {
 this
 .
-_updateBookmarkPageMenuItem
+updateBookmarkPageMenuItem
 (
 true
 )
@@ -8153,10 +8153,10 @@ _starButtonOverflowedLabel
 }
 }
 }
-_updateBookmarkPageMenuItem
+updateBookmarkPageMenuItem
 :
 function
-BUI__updateBookmarkPageMenuItem
+BUI_updateBookmarkPageMenuItem
 (
 forceReset
 )
@@ -8240,7 +8240,7 @@ return
 ;
 this
 .
-_updateBookmarkPageMenuItem
+updateBookmarkPageMenuItem
 (
 )
 ;
@@ -8969,7 +8969,7 @@ onCurrentPageContextPopupShowing
 {
 this
 .
-_updateBookmarkPageMenuItem
+updateBookmarkPageMenuItem
 (
 )
 ;
@@ -9029,7 +9029,7 @@ aEvent
 {
 this
 .
-_updateBookmarkPageMenuItem
+updateBookmarkPageMenuItem
 (
 )
 ;
