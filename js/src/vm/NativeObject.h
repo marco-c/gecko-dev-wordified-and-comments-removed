@@ -3957,11 +3957,7 @@ elements_
 i
 ]
 .
-HeapSlot
-:
-:
-~
-HeapSlot
+destroy
 (
 )
 ;
@@ -3996,11 +3992,7 @@ i
 )
 -
 >
-HeapSlot
-:
-:
-~
-HeapSlot
+destroy
 (
 )
 ;
