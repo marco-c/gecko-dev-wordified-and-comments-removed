@@ -1566,6 +1566,7 @@ amount
 )
 =
 >
+{
 result
 .
 push
@@ -1585,8 +1586,13 @@ amount
 into
 (
 )
+amount
+.
+0
 )
 )
+;
+}
 GenericFilter
 :
 :
