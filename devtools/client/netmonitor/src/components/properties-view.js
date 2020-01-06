@@ -236,6 +236,11 @@ openLink
 PropTypes
 .
 func
+cropLimit
+:
+PropTypes
+.
+number
 }
 getDefaultProps
 (
@@ -260,6 +265,9 @@ sectionNames
 :
 [
 ]
+cropLimit
+:
+1024
 }
 ;
 }
@@ -565,7 +573,11 @@ MODE
 TINY
 cropLimit
 :
-60
+this
+.
+props
+.
+cropLimit
 }
 )
 )
