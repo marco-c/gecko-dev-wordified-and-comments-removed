@@ -842,6 +842,10 @@ gStartAfter
 undefined
 ;
 var
+gSuiteStarted
+=
+false
+var
 gTestPluginEnabledStates
 =
 null
@@ -3203,6 +3207,10 @@ gStartAfter
 =
 =
 undefined
+&
+&
+!
+gSuiteStarted
 )
 {
 logger
@@ -3225,6 +3233,9 @@ length
 }
 )
 ;
+gSuiteStarted
+=
+true
 }
 if
 (
@@ -9792,6 +9803,9 @@ gTestResults
 }
 )
 ;
+gSuiteStarted
+=
+false
 logger
 .
 info
