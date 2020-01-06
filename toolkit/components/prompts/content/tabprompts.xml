@@ -1447,6 +1447,11 @@ unload
 this
 )
 ;
+if
+(
+linkedTab
+)
+{
 linkedTab
 .
 addEventListener
@@ -1457,6 +1462,7 @@ TabClose
 this
 )
 ;
+}
 /
 /
 Note
@@ -1690,6 +1696,13 @@ unload
 this
 )
 ;
+if
+(
+this
+.
+linkedTab
+)
+{
 this
 .
 linkedTab
@@ -1702,6 +1715,7 @@ TabClose
 this
 )
 ;
+}
 }
 catch
 (
