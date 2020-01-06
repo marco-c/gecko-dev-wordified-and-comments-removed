@@ -454,11 +454,8 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-window
-.
-gBrowser
-TARGET_URL
 true
+TARGET_URL
 )
 ;
 }
