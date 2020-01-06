@@ -76,6 +76,11 @@ HeadersPanel
 js
 '
 '
+HtmlPreview
+.
+js
+'
+'
 MdnLink
 .
 js
