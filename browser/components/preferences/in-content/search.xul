@@ -734,6 +734,11 @@ seltype
 "
 single
 "
+allowunderflowscroll
+=
+"
+true
+"
 >
 <
 treechildren
