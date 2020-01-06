@@ -903,9 +903,6 @@ pc
 SrcNoteType
 type
 =
-(
-SrcNoteType
-)
 SN_TYPE
 (
 sn

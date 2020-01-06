@@ -18724,9 +18724,6 @@ break
 SrcNoteType
 type
 =
-(
-SrcNoteType
-)
 SN_TYPE
 (
 sn
@@ -19013,9 +19010,6 @@ sn
 SrcNoteType
 type
 =
-(
-SrcNoteType
-)
 SN_TYPE
 (
 sn
@@ -19138,9 +19132,6 @@ sn
 SrcNoteType
 type
 =
-(
-SrcNoteType
-)
 SN_TYPE
 (
 sn
