@@ -642,14 +642,6 @@ ReentrantMonitorAutoEnter
 aReentrantMonitor
 )
 ;
-void
-CloseInternal
-(
-ReentrantMonitorAutoEnter
-&
-aReentrantMonitor
-)
-;
 bool
 UpdatePrincipal
 (
