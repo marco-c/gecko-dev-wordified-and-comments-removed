@@ -55,6 +55,10 @@ qcms
 /
 gfx
 /
+sfntly
+/
+gfx
+/
 skia
 /
 gfx
