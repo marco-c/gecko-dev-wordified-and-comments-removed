@@ -2181,7 +2181,7 @@ pageIndex
 .
 url
 .
-path
+pathQueryRef
 )
 ;
 if

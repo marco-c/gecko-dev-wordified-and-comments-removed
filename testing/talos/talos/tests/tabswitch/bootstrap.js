@@ -203,11 +203,6 @@ getInterface
 (
 Ci
 .
-nsIDOMWindowInternal
-|
-|
-Ci
-.
 nsIDOMWindow
 )
 ;
@@ -2390,7 +2385,7 @@ createInstance
 (
 Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 localFile
