@@ -416,6 +416,7 @@ expected_value
 as_ptr
 (
 )
+ignore_case
 )
 AttrSelectorOperator
 :
@@ -444,6 +445,7 @@ expected_value
 as_ptr
 (
 )
+ignore_case
 )
 AttrSelectorOperator
 :
@@ -472,6 +474,7 @@ expected_value
 as_ptr
 (
 )
+ignore_case
 )
 AttrSelectorOperator
 :
@@ -500,6 +503,7 @@ expected_value
 as_ptr
 (
 )
+ignore_case
 )
 AttrSelectorOperator
 :
@@ -528,6 +532,7 @@ expected_value
 as_ptr
 (
 )
+ignore_case
 )
 }
 }
