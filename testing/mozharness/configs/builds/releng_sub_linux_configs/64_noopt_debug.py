@@ -300,18 +300,16 @@ installed
 /
 lib64
 :
-\
 %
+(
+abs_obj_dir
+)
 s
 /
 dist
 /
 bin
 '
-%
-(
-MOZ_OBJDIR
-)
         
 '
 TINDERBOX_OUTPUT

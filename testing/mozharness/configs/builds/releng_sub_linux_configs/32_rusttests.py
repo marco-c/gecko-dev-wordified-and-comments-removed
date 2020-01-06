@@ -274,20 +274,18 @@ gcc
 /
 installed
 /
-lib
+lib64
 :
-\
 %
+(
+abs_obj_dir
+)
 s
 /
 dist
 /
 bin
 '
-%
-(
-MOZ_OBJDIR
-)
         
 '
 XPCOM_DEBUG_BREAK
