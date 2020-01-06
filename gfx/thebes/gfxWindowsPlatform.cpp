@@ -1706,7 +1706,7 @@ UpdateRenderMode
 if
 (
 !
-DWriteEnabled
+DWriteAvailable
 (
 )
 &
@@ -2416,7 +2416,7 @@ IsNotWin7PreRTM
 )
 &
 &
-DWriteEnabled
+DWriteAvailable
 (
 )
 )
@@ -5477,7 +5477,7 @@ SetupClearTypeParams
 {
 if
 (
-DWriteEnabled
+DWriteAvailable
 (
 )
 )
@@ -7450,7 +7450,7 @@ return
 if
 (
 !
-DWriteEnabled
+DWriteAvailable
 (
 )
 &
