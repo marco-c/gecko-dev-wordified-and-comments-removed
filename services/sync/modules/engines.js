@@ -6053,7 +6053,9 @@ item
 }
 beforeRecordDiscard
 (
-record
+localRecord
+remoteRecord
+remoteIsNewer
 )
 {
 }
@@ -6953,7 +6955,9 @@ this
 .
 beforeRecordDiscard
 (
+localRecord
 item
+remoteIsNewer
 )
 ;
 }
