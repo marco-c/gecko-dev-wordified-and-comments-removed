@@ -286,4 +286,8 @@ gcc
 -
 linux64
 -
+rust
+-
+linux64
+-
 sccache

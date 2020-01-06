@@ -276,6 +276,10 @@ clang
 -
 linux64
 -
+rust
+-
+linux64
+-
 sccache
 linux64
 -
@@ -429,6 +433,10 @@ clang
 -
 linux64
 -
+rust
+-
+linux64
+-
 sccache
 win32
 -
@@ -562,6 +570,10 @@ win32
 clang
 -
 cl
+-
+win32
+-
+rust
 -
 win64
 -
@@ -698,6 +710,10 @@ win32
 clang
 -
 cl
+-
+win32
+-
+rust
 -
 win64
 -
@@ -837,6 +853,10 @@ cl
 -
 win64
 -
+rust
+-
+win64
+-
 sccache
 win64
 -
@@ -970,6 +990,10 @@ win64
 clang
 -
 cl
+-
+win64
+-
+rust
 -
 win64
 -
