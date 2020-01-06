@@ -14484,7 +14484,9 @@ dmg
 from
 mozbuild
 .
-repackage
+repackaging
+.
+dmg
 import
 repackage_dmg
             
