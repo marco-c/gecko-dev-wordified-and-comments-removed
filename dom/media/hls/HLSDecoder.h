@@ -59,13 +59,6 @@ Shutdown
 )
 override
 ;
-MediaDecoderStateMachine
-*
-CreateStateMachine
-(
-)
-override
-;
 static
 bool
 IsEnabled
@@ -116,6 +109,12 @@ override
 ;
 private
 :
+MediaDecoderStateMachine
+*
+CreateStateMachine
+(
+)
+;
 bool
 CanPlayThroughImpl
 (
