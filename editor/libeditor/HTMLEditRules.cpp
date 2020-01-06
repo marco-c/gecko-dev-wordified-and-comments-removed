@@ -17365,6 +17365,22 @@ GetStartContainer
 (
 )
 ;
+nsIContent
+*
+child
+=
+aSelection
+.
+GetRangeAt
+(
+0
+)
+-
+>
+GetChildAtStartOffset
+(
+)
+;
 int32_t
 offset
 =
@@ -17453,6 +17469,7 @@ GetNextHTMLNode
 (
 container
 offset
+child
 )
 ;
 if
@@ -17588,6 +17605,7 @@ GetNextHTMLNode
 (
 container
 offset
+child
 true
 )
 ;
@@ -23014,6 +23032,7 @@ GetNextHTMLNode
 (
 parent
 offset
+child
 )
 ;
 if
@@ -25792,6 +25811,17 @@ NS_ERROR_FAILURE
 }
 nsIContent
 *
+startChild
+=
+range
+-
+>
+GetChildAtStartOffset
+(
+)
+;
+nsIContent
+*
 endChild
 =
 range
@@ -26251,6 +26281,7 @@ int32_t
 (
 startOffset
 )
+startChild
 )
 ;
 if
@@ -27080,6 +27111,7 @@ GetNextHTMLNode
 (
 node
 offset
+child
 true
 )
 ;
@@ -27268,6 +27300,7 @@ GetNextHTMLNode
 (
 node
 offset
+child
 true
 )
 ;
@@ -27285,6 +27318,7 @@ GetNextHTMLNode
 (
 node
 offset
+child
 true
 )
 ;
@@ -27397,6 +27431,7 @@ GetNextHTMLNode
 (
 node
 offset
+child
 true
 )
 ;
@@ -31766,6 +31801,7 @@ GetNextHTMLNode
 (
 node
 aOffset
+aChildAtOffset
 )
 ;
 NS_ENSURE_STATE
@@ -36751,7 +36787,7 @@ rv
 rv
 )
 ;
-nsIContent
+nsINode
 *
 child
 =
@@ -36789,6 +36825,10 @@ selNode
 )
 )
 {
+child
+=
+temp
+;
 selNode
 =
 EditorBase
@@ -37269,6 +37309,7 @@ GetNextHTMLNode
 (
 selNode
 selOffset
+child
 true
 )
 ;
@@ -37402,7 +37443,7 @@ nsINode
 aSelNode
 int32_t
 aSelOffset
-nsIContent
+nsINode
 *
 aChildAtOffset
 nsIEditor
@@ -37498,6 +37539,7 @@ GetNextHTMLNode
 (
 aSelNode
 aSelOffset
+aChildAtOffset
 )
 ;
 if
