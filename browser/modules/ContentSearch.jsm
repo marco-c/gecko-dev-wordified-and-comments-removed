@@ -1902,6 +1902,13 @@ openPreferences
 "
 paneGeneral
 "
+{
+origin
+:
+"
+contentSearch
+"
+}
 )
 ;
 }

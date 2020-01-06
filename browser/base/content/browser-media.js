@@ -1092,6 +1092,13 @@ openPreferences
 "
 panePrivacy
 "
+{
+origin
+:
+"
+browserMedia
+"
+}
 )
 ;
 }

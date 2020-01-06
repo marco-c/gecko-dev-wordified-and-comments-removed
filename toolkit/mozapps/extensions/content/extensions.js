@@ -8086,6 +8086,13 @@ openAdvancedPreferences
 "
 dataChoicesTab
 "
+{
+origin
+:
+"
+experimentsOpenPref
+"
+}
 )
 ;
 }
@@ -8098,6 +8105,13 @@ openPreferences
 "
 paneAdvanced
 "
+{
+origin
+:
+"
+experimentsOpenPref
+"
+}
 )
 ;
 }
