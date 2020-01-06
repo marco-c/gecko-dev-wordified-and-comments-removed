@@ -9010,6 +9010,9 @@ CountCompartments
 cx
 )
 ;
+#
+ifdef
+JS_GC_ZEAL
 JS_SetGCZeal
 (
 cx
@@ -9017,6 +9020,8 @@ cx
 JS_DEFAULT_ZEAL_FREQ
 )
 ;
+#
+endif
 for
 (
 unsigned
