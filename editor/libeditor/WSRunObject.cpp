@@ -746,12 +746,6 @@ nsIEditor
 :
 EDirection
 aSelect
-nsCOMPtr
-<
-nsIContent
->
-*
-aInOutChildAtOffset
 )
 {
 NS_ENSURE_TRUE
@@ -1062,7 +1056,6 @@ CreateBRImpl
 (
 aInOutParent
 aInOutOffset
-aInOutChildAtOffset
 aSelect
 )
 ;
