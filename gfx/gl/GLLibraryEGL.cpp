@@ -1836,6 +1836,10 @@ ReleaseTexImage
 )
 SYMBOL
 (
+SwapInterval
+)
+SYMBOL
+(
 QuerySurface
 )
 END_OF_SYMBOLS
