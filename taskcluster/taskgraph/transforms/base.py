@@ -58,6 +58,10 @@ kind
 path
 config
 params
+                 
+kind_dependencies_tasks
+=
+None
 )
 :
         
@@ -84,6 +88,12 @@ self
 params
 =
 params
+        
+self
+.
+kind_dependencies_tasks
+=
+kind_dependencies_tasks
 class
 TransformSequence
 (
