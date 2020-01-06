@@ -111,9 +111,6 @@ mInactiveTitlebarColor
 BOOL
 mDisabledNeedsDisplay
 ;
-float
-mDPI
-;
 NSTrackingArea
 *
 mTrackingArea
@@ -199,12 +196,6 @@ titlebarColorForActiveWindow
 BOOL
 )
 aActive
-;
--
-(
-float
-)
-getDPI
 ;
 -
 (
