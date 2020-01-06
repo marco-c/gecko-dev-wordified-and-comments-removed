@@ -155,7 +155,7 @@ typedef
 struct
 _IA2Data
 {
-long
+VARIANT
 mRole
 ;
 long
