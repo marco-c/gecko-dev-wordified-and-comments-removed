@@ -186,6 +186,14 @@ color
 #
 10404a
 ;
+box
+-
+sizing
+:
+content
+-
+box
+;
 }
 #
 onboarding
@@ -217,7 +225,7 @@ inline
 -
 start
 :
-32px
+39px
 ;
 border
 -
@@ -2949,7 +2957,7 @@ inline
 -
 start
 :
-68px
+73px
 ;
 line
 -
