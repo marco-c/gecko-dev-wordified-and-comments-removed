@@ -10280,6 +10280,12 @@ return
 false
 ;
 }
+aTab
+.
+_fullLabel
+=
+aLabel
+;
 aOptions
 =
 aOptions
@@ -34277,6 +34283,11 @@ else
 {
 label
 =
+tab
+.
+_fullLabel
+|
+|
 tab
 .
 getAttribute
