@@ -267,6 +267,11 @@ mem
 c
 '
 '
+opt
+.
+c
+'
+'
 parseutils
 .
 c
