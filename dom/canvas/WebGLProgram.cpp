@@ -6119,9 +6119,10 @@ false
 }
 if
 (
+!
 mNextLink_TransformFeedbackVaryings
 .
-size
+empty
 (
 )
 )
@@ -6208,10 +6209,9 @@ mNextLink_TransformFeedbackVaryings
 {
 if
 (
-!
 componentsPerVert
 .
-size
+empty
 (
 )
 |
@@ -7647,10 +7647,9 @@ const
 {
 if
 (
-!
 fragDataMap
 .
-size
+empty
 (
 )
 )
