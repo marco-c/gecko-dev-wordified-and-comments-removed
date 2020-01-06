@@ -1459,7 +1459,7 @@ omt_data_delivery
 .
 enabled
 "
-false
+true
 )
 ;
 pref
