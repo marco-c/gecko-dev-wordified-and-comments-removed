@@ -3963,11 +3963,6 @@ flip
 "
 slide
 "
-photon
-=
-"
-true
-"
 position
 =
 "
@@ -3990,7 +3985,7 @@ title
 =
 "
 &
-copyURLCmd
+copyLinkCmd
 .
 label
 ;
@@ -4012,9 +4007,9 @@ title
 =
 "
 &
-sendToDevice
+sendTabToDevice
 .
-label3
+label
 ;
 "
 sendToDevice
