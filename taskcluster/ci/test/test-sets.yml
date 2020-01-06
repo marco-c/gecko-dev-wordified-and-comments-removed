@@ -1481,10 +1481,6 @@ browser
 -
 chrome
 -
-mochitest
--
-media
--
 reftest
 -
 no
