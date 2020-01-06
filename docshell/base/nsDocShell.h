@@ -2580,7 +2580,7 @@ mChromeEventHandler
 eCharsetReloadState
 mCharsetReloadState
 ;
-uint32_t
+int32_t
 mChildOffset
 ;
 uint32_t
