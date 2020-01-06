@@ -4346,7 +4346,6 @@ attr
 build_platform
 '
 )
-not
 in
 self
 .
