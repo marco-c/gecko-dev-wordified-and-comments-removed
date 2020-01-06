@@ -41,6 +41,7 @@ constellation_msg
 Key
 KeyModifiers
 KeyState
+TraversalDirection
 }
 ;
 use
@@ -162,20 +163,6 @@ Clone
 ]
 pub
 enum
-WindowNavigateMsg
-{
-Forward
-Back
-}
-#
-[
-derive
-(
-Clone
-)
-]
-pub
-enum
 WindowEvent
 {
 Idle
@@ -245,7 +232,7 @@ f32
 ResetZoom
 Navigation
 (
-WindowNavigateMsg
+TraversalDirection
 )
 Quit
 KeyEvent
