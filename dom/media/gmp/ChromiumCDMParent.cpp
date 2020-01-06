@@ -4624,7 +4624,7 @@ kCodecH264
 mp4_demuxer
 :
 :
-H264
+AnnexB
 :
 :
 HasSPS

@@ -3190,7 +3190,7 @@ mNeedSPSForTelemetry
 mp4_demuxer
 :
 :
-H264
+AnnexB
 :
 :
 HasSPS
@@ -3208,7 +3208,7 @@ extradata
 mp4_demuxer
 :
 :
-H264
+AnnexB
 :
 :
 ExtractExtraData
