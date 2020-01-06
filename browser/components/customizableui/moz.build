@@ -144,6 +144,11 @@ ScrollbarSampler
 .
 jsm
 '
+'
+SearchWidgetTracker
+.
+jsm
+'
 ]
 if
 CONFIG
