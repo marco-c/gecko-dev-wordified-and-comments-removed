@@ -829,7 +829,7 @@ test_system_font_serialization
 .
 html
 [
-5
+3
 ]
 *
 serialize
