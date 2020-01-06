@@ -1481,7 +1481,7 @@ GetSyncObject
 )
 ;
 }
-ContentClientRemote
+ContentClient
 :
 :
 EndPaint
