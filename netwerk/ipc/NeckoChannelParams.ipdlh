@@ -491,6 +491,12 @@ forceHSTSPriming
 bool
 mixedContentWouldBlock
 ;
+bool
+isHSTSPriming
+;
+bool
+isHSTSPrimingUpgrade
+;
 }
 ;
 /
