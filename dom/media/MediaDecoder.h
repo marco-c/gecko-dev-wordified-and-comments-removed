@@ -1064,7 +1064,8 @@ nsACString
 &
 aString
 )
-;
+{
+}
 virtual
 void
 DumpDebugInfo
