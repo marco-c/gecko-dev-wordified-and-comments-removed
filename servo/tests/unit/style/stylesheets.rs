@@ -664,15 +664,6 @@ new
 (
 url
 )
-dirty_on_viewport_size_change
-:
-AtomicBool
-:
-:
-new
-(
-false
-)
 quirks_mode
 :
 QuirksMode

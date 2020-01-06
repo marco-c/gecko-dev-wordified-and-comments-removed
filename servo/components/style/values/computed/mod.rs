@@ -728,7 +728,7 @@ device
 }
 pub
 fn
-viewport_size
+viewport_size_for_viewport_unit_resolution
 (
 &
 self
@@ -746,7 +746,7 @@ builder
 .
 device
 .
-au_viewport_size
+au_viewport_size_for_viewport_unit_resolution
 (
 )
 }
