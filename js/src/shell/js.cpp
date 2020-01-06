@@ -31125,11 +31125,6 @@ BufferStreamState
 {
 MOZ_ASSERT
 (
-shutdown
-)
-;
-MOZ_ASSERT
-(
 jobs
 .
 empty
