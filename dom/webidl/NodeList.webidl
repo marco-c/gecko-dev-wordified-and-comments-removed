@@ -145,6 +145,9 @@ apply
 .
 *
 /
+[
+ProbablyShortLivingWrapper
+]
 interface
 NodeList
 {
