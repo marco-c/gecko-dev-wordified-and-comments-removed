@@ -636,11 +636,7 @@ load
 .
 svg
 asserts
--
-if
 (
-!
-stylo
 2
 )
 load
