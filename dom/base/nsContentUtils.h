@@ -3593,13 +3593,6 @@ aRunnable
 )
 ;
 static
-nsISerialEventTarget
-*
-GetStableStateEventTarget
-(
-)
-;
-static
 void
 EnterMicroTask
 (
@@ -6671,11 +6664,6 @@ sXMLFragmentSink
 static
 bool
 sFragmentParsingActive
-;
-static
-nsISerialEventTarget
-*
-sStableStateEventTarget
 ;
 static
 nsString
