@@ -209,12 +209,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-|
-|
-defined
-(
-MOZ_WIDGET_GONK
-)
 #
 define
 MOZ_WRAP_NEW_DELETE
