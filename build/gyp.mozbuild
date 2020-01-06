@@ -221,15 +221,6 @@ else
 include_alsa_audio
 '
 :
-1
-if
-CONFIG
-[
-'
-MOZ_ALSA
-'
-]
-else
 0
 '
 include_pulse_audio
