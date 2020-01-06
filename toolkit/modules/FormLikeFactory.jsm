@@ -139,6 +139,7 @@ aField
 {
 if
 (
+(
 !
 (
 aField
@@ -146,6 +147,17 @@ instanceof
 Ci
 .
 nsIDOMHTMLInputElement
+)
+&
+&
+!
+(
+aField
+instanceof
+Ci
+.
+nsIDOMHTMLSelectElement
+)
 )
 |
 |
@@ -223,6 +235,7 @@ querySelectorAll
 (
 "
 input
+select
 "
 )
 )
