@@ -129,7 +129,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 DISPLAYED_DEVICES_PREF
 )
@@ -244,7 +244,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 DISPLAYED_DEVICES_PREF
 devicesToSave
