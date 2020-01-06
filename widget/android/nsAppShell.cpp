@@ -1729,6 +1729,9 @@ aCookie
 return
 ;
 }
+widget
+:
+:
 AndroidAlerts
 :
 :
@@ -2949,6 +2952,9 @@ nsIWidget
 >
 widget
 =
+widget
+:
+:
 WidgetUtils
 :
 :
@@ -3422,11 +3428,17 @@ NS_OK
 ;
 RefPtr
 <
+widget
+:
+:
 GeckoEditableSupport
 >
 editableSupport
 =
 new
+widget
+:
+:
 GeckoEditableSupport
 (
 editableChild

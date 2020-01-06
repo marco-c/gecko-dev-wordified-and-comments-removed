@@ -56,6 +56,10 @@ nsITheme
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 gfx
