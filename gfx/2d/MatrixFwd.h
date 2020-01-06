@@ -29,6 +29,17 @@ Float
 >
 Matrix
 ;
+typedef
+double
+Double
+;
+typedef
+BaseMatrix
+<
+Double
+>
+MatrixDouble
+;
 struct
 UnknownUnits
 ;
