@@ -2205,7 +2205,6 @@ Some
 previous_style
 )
 None
-None
 font_metrics_provider
 CascadeFlags
 :

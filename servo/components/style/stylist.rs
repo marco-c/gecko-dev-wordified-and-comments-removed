@@ -3030,7 +3030,6 @@ parent
 parent
 parent
 None
-None
 font_metrics
 cascade_flags
 self
@@ -3590,7 +3589,6 @@ Some
 layout_parent_style_for_visited
 )
 None
-None
 font_metrics
 cascade_flags
 self
@@ -3651,7 +3649,6 @@ Some
 layout_parent_style
 )
 visited_values
-None
 font_metrics
 cascade_flags
 self
@@ -6016,7 +6013,6 @@ Some
 (
 parent_style
 )
-None
 None
 &
 metrics
