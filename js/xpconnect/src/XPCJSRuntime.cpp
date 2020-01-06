@@ -3199,15 +3199,6 @@ JS
 :
 :
 GC_CYCLE_BEGIN
-|
-|
-progress
-=
-=
-JS
-:
-:
-GC_SLICE_BEGIN
 )
 ;
 #
