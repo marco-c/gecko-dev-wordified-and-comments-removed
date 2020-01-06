@@ -17,7 +17,7 @@ vcs
 import
 VCSHelper
 class
-SyntaxParser
+EmptyParser
 (
 BaseTryParser
 )
