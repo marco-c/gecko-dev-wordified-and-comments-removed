@@ -4537,11 +4537,6 @@ PerformanceNavigation
 webidl
 '
 '
-PerformanceNavigationTiming
-.
-webidl
-'
-'
 PerformanceObserver
 .
 webidl

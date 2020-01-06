@@ -140,17 +140,6 @@ include
 "
 mozilla
 /
-dom
-/
-PerformanceNavigationTiming
-.
-h
-"
-#
-include
-"
-mozilla
-/
 IntegerPrintfMacros
 .
 h
