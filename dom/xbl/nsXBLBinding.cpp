@@ -592,7 +592,7 @@ mIsShadowRootBinding
 nsXBLBinding
 :
 :
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 mContent
 -
@@ -647,7 +647,7 @@ mIsShadowRootBinding
 nsXBLBinding
 :
 :
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 tmp
 -
@@ -821,7 +821,7 @@ void
 nsXBLBinding
 :
 :
-InstallAnonymousContent
+BindAnonymousContent
 (
 nsIContent
 *
@@ -977,7 +977,7 @@ void
 nsXBLBinding
 :
 :
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 nsIDocument
 *
@@ -1402,7 +1402,7 @@ point
 }
 }
 }
-InstallAnonymousContent
+BindAnonymousContent
 (
 mContent
 mBoundElement
@@ -1573,7 +1573,7 @@ observes
 )
 )
 {
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 doc
 mContent
@@ -3445,7 +3445,7 @@ mIsShadowRootBinding
 nsXBLBinding
 :
 :
-UninstallAnonymousContent
+UnbindAnonymousContent
 (
 aOldDocument
 mContent
