@@ -523,11 +523,6 @@ link
 -
 button
 "
-"
-containers
--
-panelmenu
-"
 .
 .
 .
