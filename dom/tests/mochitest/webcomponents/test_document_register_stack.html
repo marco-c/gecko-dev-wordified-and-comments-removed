@@ -257,7 +257,7 @@ bar
 is
 (
 attributeChangedCallbackCalled
-false
+true
 "
 While
 element
@@ -266,7 +266,6 @@ being
 created
 element
 should
-not
 be
 added
 to
@@ -277,6 +276,10 @@ callback
 queue
 .
 "
+)
+;
+runNextTest
+(
 )
 ;
 }
@@ -357,10 +360,6 @@ bar
 attributeChangedCallbackCalled
 =
 true
-;
-runNextTest
-(
-)
 ;
 }
 ;
