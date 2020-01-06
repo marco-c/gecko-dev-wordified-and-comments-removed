@@ -92,7 +92,9 @@ message
 includes
 (
 "
-uninitialized
+call
+super
+constructor
 "
 )
 true
