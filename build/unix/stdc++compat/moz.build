@@ -154,6 +154,15 @@ True
 DisableStlWrapping
 (
 )
+COMPILE_FLAGS
+[
+'
+CLANG_PLUGIN
+'
+]
+=
+[
+]
 DEFINES
 [
 '
