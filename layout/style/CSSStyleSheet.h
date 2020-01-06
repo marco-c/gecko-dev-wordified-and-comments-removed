@@ -690,10 +690,9 @@ CSSStyleSheet
 )
 ;
 void
-ClearRuleCascadesInternal
+ClearRuleCascades
 (
 )
-override
 ;
 nsresult
 RegisterNamespaceRule
