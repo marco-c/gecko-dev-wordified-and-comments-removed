@@ -56,6 +56,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Unused
+.
+h
+"
 using
 namespace
 mozilla
@@ -380,6 +389,9 @@ return
 0
 ;
 }
+Unused
+<
+<
 aBuf
 .
 initCapacity
