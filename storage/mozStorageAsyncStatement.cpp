@@ -828,6 +828,12 @@ threadOpenedOn
 ;
 NS_ProxyRelease
 (
+"
+AsyncStatement
+:
+:
+mDBConnection
+"
 targetThread
 mDBConnection
 .

@@ -1284,6 +1284,11 @@ LayerMetricsWrapper
 h
 '
 '
+LayersHelpers
+.
+h
+'
+'
 LayersTypes
 .
 h
@@ -2570,6 +2575,11 @@ cpp
 '
 '
 LayerScope
+.
+cpp
+'
+'
+LayersHelpers
 .
 cpp
 '

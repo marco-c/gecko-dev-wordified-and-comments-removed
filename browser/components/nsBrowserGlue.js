@@ -8043,9 +8043,7 @@ Services
 .
 tm
 .
-mainThread
-.
-idleDispatch
+idleDispatchToMainThread
 (
 (
 )
@@ -8242,9 +8240,8 @@ newProfilePath
 }
 )
 .
-then
+catch
 (
-null
 e
 =
 >

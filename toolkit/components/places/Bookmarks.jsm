@@ -3478,9 +3478,8 @@ urls
 true
 )
 .
-then
+catch
 (
-null
 Cu
 .
 reportError
