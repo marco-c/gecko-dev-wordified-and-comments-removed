@@ -831,6 +831,14 @@ performanceentry
 ;
 pub
 mod
+performancemark
+;
+pub
+mod
+performancemeasure
+;
+pub
+mod
 performanceobserver
 ;
 pub

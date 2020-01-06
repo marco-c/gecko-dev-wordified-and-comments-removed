@@ -1,0 +1,10 @@
+impl_performance_entry_struct
+!
+(
+PerformanceMeasureBinding
+PerformanceMeasure
+"
+measure
+"
+)
+;

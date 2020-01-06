@@ -233,6 +233,12 @@ str
 &
 [
 "
+mark
+"
+"
+measure
+"
+"
 paint
 "
 ]
