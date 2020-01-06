@@ -130,17 +130,9 @@ derivedInstance
 .
 test
 ;
-assertThrowsInstanceOf
-(
-(
-)
-=
->
 testSolo
 (
 undefined
-)
-TypeError
 )
 ;
 let
