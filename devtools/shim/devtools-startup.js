@@ -188,6 +188,8 @@ chrome
 /
 /
 devtools
+-
+shim
 /
 locale
 /

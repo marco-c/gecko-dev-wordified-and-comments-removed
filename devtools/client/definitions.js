@@ -584,7 +584,7 @@ properties
 "
 devtools
 /
-client
+shim
 /
 locales
 /
