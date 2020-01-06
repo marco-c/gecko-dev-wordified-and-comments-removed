@@ -190,6 +190,14 @@ MOZ_SUPPORTS_FIFO
 endif
 #
 if
+!
+defined
+(
+ANDROID
+)
+&
+&
+(
 defined
 (
 XP_LINUX
@@ -199,6 +207,7 @@ XP_LINUX
 defined
 (
 __FreeBSD__
+)
 )
 #
 define
