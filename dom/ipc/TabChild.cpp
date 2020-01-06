@@ -8535,10 +8535,16 @@ type
 )
 ;
 }
+WidgetKeyboardEvent
+localEvent
+(
+aEvent
+)
+;
 SendRequestNativeKeyBindings
 (
 aType
-aEvent
+localEvent
 &
 aCommands
 )

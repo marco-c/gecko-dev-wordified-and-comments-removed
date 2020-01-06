@@ -280,8 +280,6 @@ aKeyboardEvent
 nsEventStatus
 &
 aStatus
-bool
-dispatchedToContentProcess
 )
 ;
 void
@@ -1865,7 +1863,7 @@ WidgetGUIEvent
 aEvent
 )
 ;
-bool
+void
 DispatchCrossProcessEvent
 (
 WidgetEvent
