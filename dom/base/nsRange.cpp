@@ -13061,9 +13061,10 @@ point
 aR
 -
 >
-width
-=
+SetWidth
+(
 0
+)
 ;
 aR
 -
@@ -13101,8 +13102,8 @@ aKeepLeft
 aR
 -
 >
-width
-=
+SetWidth
+(
 point
 .
 x
@@ -13111,6 +13112,7 @@ aR
 -
 >
 x
+)
 ;
 }
 else
@@ -13118,8 +13120,8 @@ else
 aR
 -
 >
-width
-=
+SetWidth
+(
 aR
 -
 >
@@ -13130,6 +13132,7 @@ XMost
 point
 .
 x
+)
 ;
 aR
 -
@@ -13819,9 +13822,10 @@ aClampToEdge
 ;
 r
 .
-width
-=
+SetWidth
+(
 0
+)
 ;
 r
 =
