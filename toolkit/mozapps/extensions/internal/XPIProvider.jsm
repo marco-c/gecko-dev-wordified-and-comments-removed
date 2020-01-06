@@ -2055,7 +2055,16 @@ return
 false
 ;
 return
+(
+(
 REQUIRE_SIGNING
+&
+&
+!
+Cu
+.
+isInAutomation
+)
 |
 |
 Preferences
@@ -2064,6 +2073,7 @@ get
 (
 PREF_XPI_SIGNATURES_REQUIRED
 false
+)
 )
 ;
 }
@@ -13466,6 +13476,11 @@ if
 (
 !
 REQUIRE_SIGNING
+|
+|
+Cu
+.
+isInAutomation
 )
 Services
 .
