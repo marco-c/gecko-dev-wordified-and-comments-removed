@@ -1064,12 +1064,6 @@ mSource
 uint64_t
 mOffset
 ;
-nsTArray
-<
-uint64_t
->
-mMoofOffsets
-;
 Mvhd
 mMvhd
 ;
