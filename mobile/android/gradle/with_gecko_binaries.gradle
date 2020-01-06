@@ -477,7 +477,8 @@ here
 .
 inputs
 .
-source
+file
+(
 project
 (
 '
@@ -493,6 +494,11 @@ main
 resources
 .
 srcDirs
+)
+.
+skipWhenEmpty
+(
+)
 /
 /
 Produce
@@ -755,8 +761,8 @@ fail
 }
 task
 checkLibsExistInDistDir
-<
-<
+{
+doLast
 {
 if
 (
@@ -796,6 +802,7 @@ packaged
 ?
 "
 )
+}
 }
 }
 task
@@ -840,8 +847,8 @@ lib
 }
 task
 checkAssetsExistInDistDir
-<
-<
+{
+doLast
 {
 if
 (
@@ -880,6 +887,7 @@ packaged
 ?
 "
 )
+}
 }
 }
 task
