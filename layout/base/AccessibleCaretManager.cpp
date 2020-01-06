@@ -1030,7 +1030,9 @@ AccessibleCaretManager
 :
 UpdateCarets
 (
+const
 UpdateCaretsHintSet
+&
 aHint
 )
 {
@@ -1251,7 +1253,9 @@ AccessibleCaretManager
 :
 UpdateCaretsForCursorMode
 (
+const
 UpdateCaretsHintSet
+&
 aHints
 )
 {
@@ -1501,7 +1505,9 @@ AccessibleCaretManager
 :
 UpdateCaretsForSelectionMode
 (
+const
 UpdateCaretsHintSet
+&
 aHints
 )
 {
