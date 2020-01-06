@@ -511,7 +511,7 @@ accesskey
 =
 "
 &
-language
+fonts
 .
 accesskey
 ;
@@ -523,7 +523,7 @@ selectLangs
 "
 >
 &
-language
+fonts
 .
 label
 ;
@@ -1331,7 +1331,7 @@ accesskey
 =
 "
 &
-proportional
+proportional2
 .
 accesskey
 ;
@@ -1343,7 +1343,7 @@ defaultFontType
 "
 >
 &
-proportional
+proportional2
 .
 label
 ;
@@ -1482,7 +1482,7 @@ sizeVar
 "
 >
 &
-size
+size2
 .
 label
 ;
@@ -1925,7 +1925,7 @@ accesskey
 =
 "
 &
-serif
+serif2
 .
 accesskey
 ;
@@ -1937,7 +1937,7 @@ serif
 "
 >
 &
-serif
+serif2
 .
 label
 ;
@@ -2032,7 +2032,7 @@ accesskey
 &
 sans
 -
-serif
+serif2
 .
 accesskey
 ;
@@ -2048,7 +2048,7 @@ serif
 &
 sans
 -
-serif
+serif2
 .
 label
 ;
@@ -2143,7 +2143,7 @@ accesskey
 =
 "
 &
-monospace
+monospace2
 .
 accesskey
 ;
@@ -2155,7 +2155,7 @@ monospace
 "
 >
 &
-monospace
+monospace2
 .
 label
 ;
@@ -2249,7 +2249,7 @@ sizeMono
 "
 >
 &
-size
+size2
 .
 label
 ;
@@ -2699,7 +2699,7 @@ accesskey
 =
 "
 &
-minSize
+minSize2
 .
 accesskey
 ;
@@ -2711,7 +2711,7 @@ minSize
 "
 >
 &
-minSize
+minSize2
 .
 label
 ;
@@ -3307,7 +3307,7 @@ languages
 .
 customize
 .
-Fallback2
+Fallback3
 .
 accesskey
 ;
@@ -3323,7 +3323,7 @@ languages
 .
 customize
 .
-Fallback2
+Fallback3
 .
 label
 ;

@@ -324,7 +324,7 @@ value
 &
 loaddevice
 .
-modname
+modname2
 ;
 "
 accesskey
@@ -333,7 +333,7 @@ accesskey
 &
 loaddevice
 .
-modname
+modname2
 .
 accesskey
 ;
@@ -390,7 +390,7 @@ value
 &
 loaddevice
 .
-filename
+filename2
 ;
 "
 accesskey
@@ -399,7 +399,7 @@ accesskey
 &
 loaddevice
 .
-filename
+filename2
 .
 accesskey
 ;

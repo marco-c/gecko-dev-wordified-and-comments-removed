@@ -86,7 +86,7 @@ Languages
 ENTITY
 languages
 .
-customize
+customize2
 .
 description
 "
@@ -112,7 +112,6 @@ in
 order
 of
 preference
-:
 "
 >
 <

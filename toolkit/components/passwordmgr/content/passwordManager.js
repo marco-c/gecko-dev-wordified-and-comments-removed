@@ -471,7 +471,7 @@ kSignonBundle
 getString
 (
 "
-loginsDescriptionAll
+loginsDescriptionAll2
 "
 )
 ;
@@ -3205,7 +3205,7 @@ kSignonBundle
 getString
 (
 "
-loginsDescriptionAll
+loginsDescriptionAll2
 "
 )
 ;

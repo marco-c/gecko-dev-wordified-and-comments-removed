@@ -136,7 +136,7 @@ Others
 ENTITY
 certmgr
 .
-mine
+mine2
 "
 You
 have
@@ -147,7 +147,6 @@ organizations
 that
 identify
 you
-:
 "
 >
 <
@@ -155,7 +154,7 @@ you
 ENTITY
 certmgr
 .
-others
+others2
 "
 You
 have
@@ -166,7 +165,6 @@ that
 identify
 these
 people
-:
 "
 >
 <
@@ -174,7 +172,7 @@ people
 ENTITY
 certmgr
 .
-websites2
+websites3
 "
 You
 have
@@ -185,7 +183,6 @@ that
 identify
 these
 servers
-:
 "
 >
 <
@@ -193,7 +190,7 @@ servers
 ENTITY
 certmgr
 .
-cas
+cas2
 "
 You
 have
@@ -205,7 +202,6 @@ identify
 these
 certificate
 authorities
-:
 "
 >
 <
@@ -213,7 +209,7 @@ authorities
 ENTITY
 certmgr
 .
-orphans
+orphans2
 "
 You
 have
@@ -230,7 +226,6 @@ of
 the
 other
 categories
-:
 "
 >
 <

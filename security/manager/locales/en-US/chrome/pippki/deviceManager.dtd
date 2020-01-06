@@ -354,11 +354,10 @@ add
 ENTITY
 loaddevice
 .
-modname
+modname2
 "
 Module
 Name
-:
 "
 >
 <
@@ -366,7 +365,7 @@ Name
 ENTITY
 loaddevice
 .
-modname
+modname2
 .
 accesskey
 "
@@ -394,11 +393,10 @@ Module
 ENTITY
 loaddevice
 .
-filename
+filename2
 "
 Module
 filename
-:
 "
 >
 <
@@ -406,7 +404,7 @@ filename
 ENTITY
 loaddevice
 .
-filename
+filename2
 .
 accesskey
 "

@@ -1136,7 +1136,7 @@ label
 =
 "
 &
-manualTypeRadio
+manualTypeRadio2
 .
 label
 ;
@@ -1145,7 +1145,7 @@ accesskey
 =
 "
 &
-manualTypeRadio
+manualTypeRadio2
 .
 accesskey
 ;
@@ -1210,7 +1210,7 @@ accesskey
 =
 "
 &
-http
+http2
 .
 accesskey
 ;
@@ -1222,7 +1222,7 @@ networkProxyHTTP
 "
 >
 &
-http
+http2
 .
 label
 ;
@@ -1294,7 +1294,7 @@ networkProxyHTTP_Port
 "
 >
 &
-port
+port2
 .
 label
 ;
@@ -1441,7 +1441,7 @@ accesskey
 =
 "
 &
-ssl
+ssl2
 .
 accesskey
 ;
@@ -1453,7 +1453,7 @@ networkProxySSL
 "
 >
 &
-ssl
+ssl2
 .
 label
 ;
@@ -1529,7 +1529,7 @@ networkProxySSL_Port
 "
 >
 &
-port
+port2
 .
 label
 ;
@@ -1615,7 +1615,7 @@ accesskey
 =
 "
 &
-ftp
+ftp2
 .
 accesskey
 ;
@@ -1627,7 +1627,7 @@ networkProxyFTP
 "
 >
 &
-ftp
+ftp2
 .
 label
 ;
@@ -1703,7 +1703,7 @@ networkProxyFTP_Port
 "
 >
 &
-port
+port2
 .
 label
 ;
@@ -1789,7 +1789,7 @@ accesskey
 =
 "
 &
-socks
+socks2
 .
 accesskey
 ;
@@ -1801,7 +1801,7 @@ networkProxySOCKS
 "
 >
 &
-socks
+socks2
 .
 label
 ;
@@ -1877,7 +1877,7 @@ networkProxySOCKS_Port
 "
 >
 &
-port
+port2
 .
 label
 ;
@@ -2060,7 +2060,7 @@ accesskey
 =
 "
 &
-noproxy
+noproxy2
 .
 accesskey
 ;
@@ -2072,7 +2072,7 @@ networkProxyNone
 "
 >
 &
-noproxy
+noproxy2
 .
 label
 ;
@@ -2144,7 +2144,7 @@ label
 =
 "
 &
-autoTypeRadio
+autoTypeRadio2
 .
 label
 ;
@@ -2153,7 +2153,7 @@ accesskey
 =
 "
 &
-autoTypeRadio
+autoTypeRadio2
 .
 accesskey
 ;
