@@ -7,12 +7,6 @@ ffi
 :
 OsString
 ;
-use
-vec_map
-:
-:
-VecMap
-;
 #
 [
 doc
@@ -53,7 +47,7 @@ hidden
 pub
 vals
 :
-VecMap
+Vec
 <
 OsString
 >
@@ -78,11 +72,12 @@ occurs
 1
 vals
 :
-VecMap
+Vec
 :
 :
-new
+with_capacity
 (
+1
 )
 }
 }

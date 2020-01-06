@@ -61,6 +61,7 @@ windows
 "
 )
 ]
+pub
 trait
 OsStrExt3
 {
