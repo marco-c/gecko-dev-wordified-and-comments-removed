@@ -69,7 +69,6 @@ return_type
 .
 .
 )
-\
 name
 #
 #
