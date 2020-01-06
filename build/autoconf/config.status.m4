@@ -284,7 +284,7 @@ variable
 ifdef
 (
 [
-AC_SUBST_LIST
+AC_SUBST_LIST_
 1
 ]
 [
