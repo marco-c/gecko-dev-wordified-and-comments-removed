@@ -156,6 +156,11 @@ key
 this
 .
 id
+title
+:
+this
+.
+title
 }
 ExtensionSidebarComponent
 (
