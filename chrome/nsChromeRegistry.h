@@ -603,12 +603,6 @@ flags
 ;
 enum
 {
-PLATFORM_PACKAGE
-=
-1
-<
-<
-0
 XPCNATIVEWRAPPERS
 =
 1
