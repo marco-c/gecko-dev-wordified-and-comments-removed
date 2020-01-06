@@ -12304,7 +12304,7 @@ aCache
 ;
 }
 inline
-uint64_t
+size_t
 BindingJSObjectMallocBytes
 (
 void
@@ -12481,7 +12481,7 @@ aReflector
 }
 if
 (
-uint64_t
+size_t
 mallocBytes
 =
 BindingJSObjectMallocBytes
@@ -12575,7 +12575,7 @@ aReflector
 }
 if
 (
-uint64_t
+size_t
 mallocBytes
 =
 BindingJSObjectMallocBytes

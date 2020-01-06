@@ -574,6 +574,12 @@ ErrorResult
 aRv
 )
 ;
+size_t
+GetAllocatedSize
+(
+)
+const
+;
 protected
 :
 ImageBitmap
@@ -849,6 +855,9 @@ mAlphaType
 ;
 bool
 mIsCroppingAreaOutSideOfSourceImage
+;
+bool
+mAllocatedImageData
 ;
 }
 ;

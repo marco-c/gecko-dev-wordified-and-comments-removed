@@ -480,7 +480,7 @@ mParent
 ;
 }
 ;
-uint64_t
+size_t
 BindingJSObjectMallocBytes
 (
 Blob
