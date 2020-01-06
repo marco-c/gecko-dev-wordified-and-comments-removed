@@ -7106,6 +7106,11 @@ testing
 TELEMETRY_TEST_DELAY
 :
 TELEMETRY_DELAY
+testing
+?
+0
+:
+undefined
 )
 ;
 delayedTask
