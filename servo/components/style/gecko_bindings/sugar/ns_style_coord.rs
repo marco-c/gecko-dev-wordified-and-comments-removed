@@ -86,6 +86,7 @@ leaky_set_null
 coord
 }
 }
+unsafe
 impl
 CoordData
 for
@@ -140,6 +141,7 @@ get_mValue
 }
 }
 }
+unsafe
 impl
 CoordDataMut
 for
@@ -377,6 +379,7 @@ index
 :
 usize
 }
+unsafe
 impl
 <
 '
@@ -451,6 +454,7 @@ index
 }
 }
 }
+unsafe
 impl
 <
 '
@@ -525,6 +529,7 @@ index
 }
 }
 }
+unsafe
 impl
 <
 '
@@ -711,6 +716,7 @@ index
 :
 usize
 }
+unsafe
 impl
 <
 '
@@ -777,6 +783,7 @@ index
 }
 }
 }
+unsafe
 impl
 <
 '
@@ -843,6 +850,7 @@ index
 }
 }
 }
+unsafe
 impl
 <
 '
@@ -995,6 +1003,7 @@ nsStyleCoord_CalcValue
 )
 }
 pub
+unsafe
 trait
 CoordDataMut
 :
@@ -1757,6 +1766,7 @@ as_calc_mut
 }
 }
 pub
+unsafe
 trait
 CoordData
 {
