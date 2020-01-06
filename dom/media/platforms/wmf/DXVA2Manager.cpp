@@ -5695,7 +5695,7 @@ outputType
 SetGUID
 (
 MF_MT_SUBTYPE
-MFVideoFormat_NV12
+MFVideoFormat_ARGB32
 )
 ;
 NS_ENSURE_TRUE
