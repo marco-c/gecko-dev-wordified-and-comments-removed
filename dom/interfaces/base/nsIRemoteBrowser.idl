@@ -63,6 +63,9 @@ nsISupports
 .
 idl
 "
+interface
+nsIPrincipal
+;
 [
 scriptable
 uuid
@@ -183,6 +186,11 @@ in
 string
 disabledCommands
 )
+;
+readonly
+attribute
+nsIPrincipal
+contentPrincipal
 ;
 }
 ;
