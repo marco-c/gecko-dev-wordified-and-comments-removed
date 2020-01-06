@@ -1,8 +1,6 @@
 import
 pytest
 from
-tests
-.
 support
 .
 fixtures

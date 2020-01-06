@@ -1,10 +1,6 @@
 import
 pytest
 from
-tests
-.
-actions
-.
 support
 .
 keys
@@ -12,10 +8,6 @@ import
 ALL_EVENTS
 Keys
 from
-tests
-.
-actions
-.
 support
 .
 refine

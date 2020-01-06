@@ -1,10 +1,6 @@
 import
 pytest
 from
-tests
-.
-actions
-.
 support
 .
 refine
@@ -13,10 +9,6 @@ get_keys
 filter_dict
 get_events
 from
-tests
-.
-actions
-.
 support
 .
 keys

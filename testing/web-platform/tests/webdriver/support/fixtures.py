@@ -7,16 +7,12 @@ urlparse
 import
 webdriver
 from
-tests
-.
 support
 .
 http_request
 import
 HTTPRequest
 from
-tests
-.
 support
 import
 merge_dictionaries

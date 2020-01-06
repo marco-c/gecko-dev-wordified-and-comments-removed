@@ -5,16 +5,12 @@ pytest
 import
 types
 from
-tests
-.
 support
 .
 inline
 import
 inline
 from
-tests
-.
 support
 .
 asserts

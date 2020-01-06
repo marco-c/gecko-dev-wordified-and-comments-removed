@@ -159,8 +159,6 @@ url
 /
 webdriver
 /
-tests
-/
 actions
 /
 support
