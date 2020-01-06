@@ -181,6 +181,12 @@ OffThreadPromiseState
 500
 )
 \
+_
+(
+WasmTier2GeneratorComplete
+500
+)
+\
 \
 _
 (
