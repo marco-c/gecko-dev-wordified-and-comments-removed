@@ -1256,11 +1256,11 @@ GetCustomElementData
 )
 const
 {
-nsDOMSlots
+nsExtendedDOMSlots
 *
 slots
 =
-GetExistingDOMSlots
+GetExistingExtendedDOMSlots
 (
 )
 ;
@@ -3279,11 +3279,11 @@ FastGetShadowRoot
 )
 const
 {
-nsDOMSlots
+nsExtendedDOMSlots
 *
 slots
 =
-GetExistingDOMSlots
+GetExistingExtendedDOMSlots
 (
 )
 ;
