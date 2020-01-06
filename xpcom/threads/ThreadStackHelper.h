@@ -90,9 +90,17 @@ h
 endif
 #
 if
+(
 defined
 (
 XP_LINUX
+)
+&
+&
+defined
+(
+HAVE_64BIT_BUILD
+)
 )
 |
 |
