@@ -343,13 +343,6 @@ servo
 #
 15346
 *
-test_units_time
-.
-html
-[
-1
-]
-*
 test_author_specified_style
 .
 html
