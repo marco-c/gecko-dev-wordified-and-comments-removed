@@ -1029,11 +1029,6 @@ ContentLinkHandler
 jsm
 '
 '
-ContentMetaHandler
-.
-jsm
-'
-'
 ContentObservers
 .
 js
@@ -1045,6 +1040,11 @@ jsm
 '
 '
 ContentWebRTC
+.
+jsm
+'
+'
+ContextMenu
 .
 jsm
 '

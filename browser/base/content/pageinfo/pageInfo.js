@@ -2147,6 +2147,11 @@ feedXML
 "
 )
 ;
+let
+imageInfo
+=
+imageElement
+;
 mm
 .
 sendAsyncMessage
@@ -2161,9 +2166,6 @@ strings
 :
 gStrings
 frameOuterWindowID
-}
-{
-imageElement
 }
 )
 ;
@@ -2242,8 +2244,6 @@ docInfo
 ;
 gImageElement
 =
-pageInfoData
-.
 imageInfo
 ;
 var

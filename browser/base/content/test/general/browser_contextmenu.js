@@ -181,8 +181,16 @@ BrowserTestUtils
 .
 openNewForegroundTab
 (
+{
 gBrowser
 url
+waitForLoad
+:
+true
+waitForStateStop
+:
+true
+}
 )
 ;
 await
