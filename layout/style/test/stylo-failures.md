@@ -323,6 +323,17 @@ html
 3
 ]
 *
+test_media_queries_dynamic
+.
+html
+restyle
+:
+bug
+1382077
+[
+4
+]
+*
 test_media_queries_dynamic_xbl
 .
 html
