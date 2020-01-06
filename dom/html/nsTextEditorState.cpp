@@ -10581,6 +10581,18 @@ SettingValue
 false
 )
 ;
+if
+(
+!
+notifyValueChanged
+)
+{
+ValueWasChanged
+(
+true
+)
+;
+}
 }
 if
 (
@@ -10836,7 +10848,6 @@ SetIsDirty
 ;
 }
 }
-}
 ValueWasChanged
 (
 !
@@ -10844,6 +10855,7 @@ ValueWasChanged
 mRootNode
 )
 ;
+}
 mTextCtrlElement
 -
 >
