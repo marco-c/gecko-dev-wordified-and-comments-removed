@@ -498,6 +498,12 @@ nsCOMPtr
 <
 nsIMultiplexInputStream
 >
+mPostData
+;
+nsCOMPtr
+<
+nsIInputStream
+>
 mPostDataStream
 ;
 nsCString

@@ -1715,7 +1715,7 @@ aEncoding
 aOriginatingElement
 )
 {
-mPostDataStream
+mPostData
 =
 do_CreateInstance
 (
@@ -1734,6 +1734,13 @@ stream
 ;
 1
 "
+)
+;
+mPostDataStream
+=
+do_QueryInterface
+(
+mPostData
 )
 ;
 mTotalLength
@@ -2617,7 +2624,7 @@ AddPostDataStream
 (
 )
 ;
-mPostDataStream
+mPostData
 -
 >
 AppendStream
@@ -2799,7 +2806,7 @@ if
 postDataChunkStream
 )
 {
-mPostDataStream
+mPostData
 -
 >
 AppendStream

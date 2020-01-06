@@ -139,7 +139,7 @@ d53b5dffaade
 interface
 nsIMultiplexInputStream
 :
-nsIInputStream
+nsISupports
 {
 /
 *
