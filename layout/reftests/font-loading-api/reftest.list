@@ -16,12 +16,6 @@ api
 enabled
 true
 )
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
@@ -45,12 +39,6 @@ insert
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
