@@ -83,6 +83,14 @@ RawServoDeclarationBlock
 >
 mServoDeclarationBlock
 ;
+#
+ifdef
+DEBUG
+bool
+mSimulateComputeValuesFailure
+;
+#
+endif
 bool
 operator
 =
