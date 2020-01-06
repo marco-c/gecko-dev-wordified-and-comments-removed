@@ -1730,6 +1730,9 @@ aTextRunsSize
 size_t
 *
 aPresContextSize
+size_t
+*
+aFramePropertiesSize
 )
 override
 ;

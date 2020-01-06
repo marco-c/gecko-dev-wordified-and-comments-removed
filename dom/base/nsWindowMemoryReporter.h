@@ -177,6 +177,12 @@ mLayoutPresContextSize
 macro
 (
 Other
+mLayoutFramePropertiesSize
+)
+\
+macro
+(
+Other
 mPropertyTablesSize
 )
 \
