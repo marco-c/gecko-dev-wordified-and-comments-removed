@@ -3485,9 +3485,6 @@ mLoadedDataFired
 bool
 mAutoplaying
 ;
-bool
-mAutoplayEnabled
-;
 WakeLockBoolWrapper
 mPaused
 ;
