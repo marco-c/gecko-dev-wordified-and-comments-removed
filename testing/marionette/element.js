@@ -85,6 +85,11 @@ js
 }
 )
 ;
+const
+{
+wait
+}
+=
 Cu
 .
 import
@@ -98,10 +103,12 @@ marionette
 /
 content
 /
-wait
+sync
 .
 js
 "
+{
+}
 )
 ;
 this

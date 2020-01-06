@@ -503,7 +503,7 @@ marionette
 /
 content
 /
-wait
+sync
 .
 js
 "
