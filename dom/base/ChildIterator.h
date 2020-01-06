@@ -717,16 +717,6 @@ GetNextChild
 (
 )
 ;
-static
-bool
-IsNeeded
-(
-const
-Element
-*
-aParent
-)
-;
 }
 ;
 }
