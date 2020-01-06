@@ -103,9 +103,6 @@ MozRDFCompositeDataSource
 interface
 MozRDFResource
 ;
-interface
-MozXULTemplateBuilder
-;
 [
 Func
 =
@@ -382,7 +379,7 @@ database
 ;
 readonly
 attribute
-MozXULTemplateBuilder
+XULTemplateBuilder
 ?
 builder
 ;

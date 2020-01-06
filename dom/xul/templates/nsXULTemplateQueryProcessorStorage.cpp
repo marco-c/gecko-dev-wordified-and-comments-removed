@@ -131,6 +131,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+nsTemplateMatch
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsXULTemplateResultSetStorage

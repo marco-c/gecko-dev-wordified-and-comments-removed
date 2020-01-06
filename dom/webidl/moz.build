@@ -5465,6 +5465,11 @@ TreeColumns
 webidl
 '
 '
+TreeView
+.
+webidl
+'
+'
 TreeWalker
 .
 webidl
@@ -5716,6 +5721,11 @@ webidl
 '
 '
 XULElement
+.
+webidl
+'
+'
+XULTemplateBuilder
 .
 webidl
 '
