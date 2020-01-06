@@ -1004,9 +1004,6 @@ nullptr
 void
 UpgradeCandidates
 (
-JSContext
-*
-aCx
 nsIAtom
 *
 aKey
