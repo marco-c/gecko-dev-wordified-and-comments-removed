@@ -3622,11 +3622,6 @@ GeckoViewSettings
 java
 '
 '
-GeckoVRManager
-.
-java
-'
-'
 gfx
 /
 BitmapUtils
