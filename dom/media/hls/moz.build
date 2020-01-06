@@ -76,11 +76,6 @@ HLSDemuxer
 h
 '
 '
-HLSResource
-.
-h
-'
-'
 HLSUtils
 .
 h
@@ -97,11 +92,6 @@ cpp
 '
 '
 HLSDemuxer
-.
-cpp
-'
-'
-HLSResource
 .
 cpp
 '
