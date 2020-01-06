@@ -249,11 +249,6 @@ target
 ;
 readonly
 attribute
-nsIDOMHTMLCollection
-elements
-;
-readonly
-attribute
 long
 length
 ;
