@@ -443,9 +443,8 @@ GetNextInFlow
 )
 ;
 }
-virtual
 void
-DoUpdateStyleOfOwnedAnonBoxes
+UpdateStyleOfOwnedAnonBoxesForIBSplit
 (
 mozilla
 :
@@ -459,7 +458,6 @@ aChangeList
 nsChangeHint
 aHintForThisFrame
 )
-override
 ;
 protected
 :
