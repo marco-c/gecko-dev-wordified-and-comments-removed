@@ -507,6 +507,16 @@ aCodecs
 )
 const
 ;
+bool
+ContainsPrefix
+(
+const
+nsAString
+&
+aCodecPrefix
+)
+const
+;
 template
 <
 size_t
