@@ -330,11 +330,6 @@ nsIIOService
 idl
 '
 '
-nsIIOService2
-.
-idl
-'
-'
 nsILoadContextInfo
 .
 idl

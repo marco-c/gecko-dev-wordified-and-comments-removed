@@ -376,7 +376,7 @@ SpecialPowers
 .
 Ci
 .
-nsIIOService2
+nsIIOService
 )
 ;
 iosvc
