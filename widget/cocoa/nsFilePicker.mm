@@ -1406,7 +1406,7 @@ Display
 the
 file
 dialog
-NS_IMETHODIMP
+nsresult
 nsFilePicker
 :
 :

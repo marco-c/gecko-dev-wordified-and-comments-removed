@@ -2196,6 +2196,7 @@ enableBackupAllButton
 )
 ;
 }
+async
 function
 exportCerts
 (
@@ -2213,6 +2214,7 @@ of
 selected_certs
 )
 {
+await
 exportToFile
 (
 window

@@ -518,10 +518,13 @@ gDefaultProfileParent
 ;
 dirChooser
 .
-show
+open
+(
 (
 )
-;
+=
+>
+{
 newProfileRoot
 =
 dirChooser
@@ -556,6 +559,9 @@ newProfileRoot
 ;
 updateProfileDisplay
 (
+)
+;
+}
 )
 ;
 }
