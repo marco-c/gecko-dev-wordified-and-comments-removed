@@ -917,7 +917,9 @@ set_font_weight
 font_weight
 :
 :
-Weight400
+normal
+(
+)
 )
 ;
 font_style
