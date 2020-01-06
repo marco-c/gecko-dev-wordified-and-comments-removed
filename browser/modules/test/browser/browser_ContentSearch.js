@@ -308,7 +308,7 @@ name
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -1103,7 +1103,7 @@ form
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -1287,7 +1287,7 @@ form
 ;
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -1888,7 +1888,7 @@ e
 let
 addDeferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

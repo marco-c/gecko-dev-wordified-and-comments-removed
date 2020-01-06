@@ -2905,7 +2905,7 @@ xbar
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -3110,7 +3110,7 @@ xbar
 ;
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -4892,7 +4892,7 @@ setUp
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -5621,7 +5621,7 @@ promiseTab
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

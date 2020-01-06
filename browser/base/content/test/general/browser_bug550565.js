@@ -60,7 +60,7 @@ ico
 let
 got_favicon
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -144,7 +144,7 @@ pushState
 ;
 got_favicon
 =
-Promise
+PromiseUtils
 .
 defer
 (

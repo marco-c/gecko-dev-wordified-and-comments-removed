@@ -686,7 +686,7 @@ resolved
 )
 ;
 return
-Promise
+PromiseUtils
 .
 defer
 (
@@ -894,7 +894,7 @@ true
 )
 ;
 return
-Promise
+PromiseUtils
 .
 defer
 (
@@ -942,7 +942,7 @@ false
 )
 ;
 return
-Promise
+PromiseUtils
 .
 defer
 (
@@ -1180,7 +1180,7 @@ test_filename
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

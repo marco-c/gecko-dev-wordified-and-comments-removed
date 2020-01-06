@@ -125,7 +125,7 @@ autocomplete
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -282,7 +282,7 @@ tab
 ;
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
