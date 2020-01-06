@@ -10712,6 +10712,12 @@ farthestAncestor
 res
 )
 ;
+res
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 NS_WARN_IF
@@ -10778,6 +10784,12 @@ res
 )
 ;
 }
+res
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 NS_WARN_IF
