@@ -1884,6 +1884,15 @@ apz
 /
 src
 /
+AutoscrollAnimation
+.
+cpp
+'
+'
+apz
+/
+src
+/
 Axis
 .
 cpp
