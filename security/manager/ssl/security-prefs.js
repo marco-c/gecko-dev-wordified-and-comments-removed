@@ -878,6 +878,6 @@ mixed_content
 .
 hsts_priming_request_timeout
 "
-3000
+2000
 )
 ;

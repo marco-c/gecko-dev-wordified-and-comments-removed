@@ -136,7 +136,7 @@ HSTSPrimingListener
 :
 sHSTSPrimingTimeout
 =
-3000
+2000
 ;
 HSTSPrimingListener
 :
