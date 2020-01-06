@@ -167,6 +167,8 @@ const
 gfxRect
 *
 aSkipRect
+bool
+aUseHardwareAccel
 )
 {
 DrawTarget
@@ -249,6 +251,7 @@ ptrOr
 (
 nullptr
 )
+aUseHardwareAccel
 )
 ;
 if
@@ -344,6 +347,8 @@ const
 Rect
 *
 aSkipRect
+bool
+aUseHardwareAccel
 )
 {
 mBlur
@@ -404,10 +409,7 @@ IsEmpty
 )
 &
 &
-blurDataSize
->
-=
-8192
+aUseHardwareAccel
 &
 &
 backend

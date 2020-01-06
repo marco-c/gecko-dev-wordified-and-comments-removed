@@ -160,6 +160,10 @@ const
 gfxRect
 *
 aSkipRect
+bool
+aUseHardwareAccel
+=
+true
 )
 ;
 already_AddRefed
@@ -232,6 +236,10 @@ Rect
 aSkipRect
 =
 nullptr
+bool
+aUseHardwareAccel
+=
+true
 )
 ;
 already_AddRefed
