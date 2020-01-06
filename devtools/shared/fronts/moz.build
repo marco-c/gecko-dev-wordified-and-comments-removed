@@ -184,11 +184,6 @@ node
 js
 '
 '
-perf
-.
-js
-'
-'
 performance
 -
 recording
