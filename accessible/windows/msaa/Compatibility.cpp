@@ -744,6 +744,17 @@ L
 OsmHooks
 "
 )
+|
+|
+:
+:
+GetModuleHandleW
+(
+L
+"
+OsmHks64
+"
+)
 )
 sConsumers
 |
