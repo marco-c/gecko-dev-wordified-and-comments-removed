@@ -94,10 +94,9 @@ rmt
     
 description
 =
+(
+        
 "
-"
-"
-    
 Run
 tests
 in
@@ -112,7 +111,14 @@ usually
 by
 SETA
 .
-    
+"
+        
+"
+\
+n
+"
+        
+"
 This
 action
 is
@@ -127,7 +133,9 @@ merged
 into
 another
 branch
-    
+"
+        
+"
 to
 check
 that
@@ -139,10 +147,9 @@ hidden
 any
 failures
 .
+"
     
-"
-"
-"
+)
     
 order
 =
