@@ -88,7 +88,7 @@ cl
 )
 tier
 :
-2
+1
 worker
 -
 type
@@ -252,7 +252,7 @@ cl
 )
 tier
 :
-2
+1
 worker
 -
 type
