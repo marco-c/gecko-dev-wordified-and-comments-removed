@@ -630,6 +630,14 @@ DIRS
 /
 tools
 /
+code
+-
+coverage
+'
+'
+/
+tools
+/
 power
 '
 '
