@@ -1023,6 +1023,7 @@ bool
 )
 FetchDocuments
 FetchPasses
+FetchClipScrollTree
 }
 #
 [
