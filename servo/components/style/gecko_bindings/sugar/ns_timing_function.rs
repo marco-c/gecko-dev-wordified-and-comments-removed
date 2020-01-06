@@ -217,8 +217,6 @@ ref
 mut
 gecko_cubic_bezier
 =
-unsafe
-{
 self
 .
 __bindgen_anon_1
@@ -228,7 +226,6 @@ mFunc
 as_mut
 (
 )
-}
 ;
 gecko_cubic_bezier
 .

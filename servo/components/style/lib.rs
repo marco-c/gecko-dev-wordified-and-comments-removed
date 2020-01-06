@@ -17,14 +17,6 @@ missing_docs
 #
 !
 [
-allow
-(
-unused_unsafe
-)
-]
-#
-!
-[
 recursion_limit
 =
 "

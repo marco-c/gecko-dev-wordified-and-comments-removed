@@ -740,8 +740,6 @@ self
 >
 MediaType
 {
-unsafe
-{
 let
 context
 =
@@ -790,7 +788,6 @@ medium_to_use
 )
 )
 )
-}
 }
 pub
 fn

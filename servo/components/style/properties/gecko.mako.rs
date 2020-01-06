@@ -1436,7 +1436,6 @@ ComputedValues
 let
 arc
 =
-unsafe
 {
 let
 arc
@@ -10176,15 +10175,12 @@ gecko
 ;
 }
 }
-unsafe
-{
 output
 .
 set_move
 (
 list
 )
-}
 ;
 }
 fn
@@ -18825,8 +18821,6 @@ servo
 )
 ;
 }
-unsafe
-{
 self
 .
 gecko
@@ -18841,7 +18835,6 @@ get
 (
 )
 )
-}
 }
 pub
 fn
@@ -24297,8 +24290,6 @@ other
 Self
 )
 {
-unsafe
-{
 self
 .
 gecko
@@ -24333,7 +24324,6 @@ len
 (
 )
 )
-}
 ;
 let
 count
@@ -24689,8 +24679,6 @@ len
 (
 )
 ;
-unsafe
-{
 self
 .
 gecko
@@ -24709,7 +24697,6 @@ ensure_len
 (
 input_len
 )
-}
 ;
 self
 .
@@ -24981,8 +24968,6 @@ len
 (
 )
 ;
-unsafe
-{
 self
 .
 gecko
@@ -25001,7 +24986,6 @@ ensure_len
 (
 input_len
 )
-}
 ;
 self
 .
@@ -25471,8 +25455,6 @@ len
 (
 )
 ;
-unsafe
-{
 self
 .
 gecko
@@ -25483,7 +25465,6 @@ ensure_len
 (
 input_len
 )
-}
 ;
 self
 .
@@ -27768,8 +27749,6 @@ len
 =
 0
 {
-unsafe
-{
 self
 .
 gecko
@@ -27784,7 +27763,6 @@ len
 (
 )
 )
-}
 ;
 self
 .
@@ -28268,8 +28246,6 @@ nsCSSPropertyID
 :
 eCSSProperty_UNKNOWN
 ;
-unsafe
-{
 self
 .
 gecko
@@ -28288,7 +28264,6 @@ len
 (
 )
 )
-}
 ;
 let
 count
@@ -28536,8 +28511,6 @@ len
 0
 )
 ;
-unsafe
-{
 self
 .
 gecko
@@ -28552,7 +28525,6 @@ len
 (
 )
 )
-}
 ;
 self
 .
@@ -28999,8 +28971,6 @@ len
 (
 )
 ;
-unsafe
-{
 self
 .
 gecko
@@ -29011,7 +28981,6 @@ ensure_len
 (
 input_len
 )
-}
 ;
 self
 .
@@ -33164,8 +33133,6 @@ image_layers_field
 .
 mImageCount
 ;
-unsafe
-{
 Gecko_EnsureImageLayersLength
 (
 &
@@ -33192,7 +33159,6 @@ capitalize
 }
 )
 ;
-}
 for
 (
 layer
@@ -34762,8 +34728,6 @@ servo
 )
 ;
 }
-unsafe
-{
 self
 .
 gecko
@@ -34778,7 +34742,6 @@ get
 (
 )
 )
-}
 }
 pub
 fn
@@ -43190,8 +43153,6 @@ as
 u8
 ;
 }
-unsafe
-{
 gecko
 .
 mRawPtr
@@ -43203,7 +43164,7 @@ servo
 into_addrefed
 (
 )
-}
+;
 }
 }
 #
@@ -46740,8 +46701,6 @@ unsafe
 let
 gecko_image_request
 =
-unsafe
-{
 &
 *
 *
@@ -46754,7 +46713,6 @@ mImage
 as_ref
 (
 )
-}
 ;
 ContentItem
 :

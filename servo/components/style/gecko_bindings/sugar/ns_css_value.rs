@@ -1280,8 +1280,6 @@ self
 >
 Angle
 {
-unsafe
-{
 Angle
 :
 :
@@ -1296,7 +1294,6 @@ self
 .
 mUnit
 )
-}
 }
 pub
 fn

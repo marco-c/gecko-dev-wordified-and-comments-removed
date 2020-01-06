@@ -2479,8 +2479,6 @@ self
 const
 nsIContent
 {
-unsafe
-{
 self
 .
 0
@@ -2495,7 +2493,6 @@ nsIContent
 >
 (
 )
-}
 }
 fn
 inherits_style
@@ -3072,6 +3069,7 @@ flags
 )
 }
 }
+unsafe
 fn
 unset_flags
 (
@@ -3081,8 +3079,6 @@ flags
 :
 u32
 )
-{
-unsafe
 {
 Gecko_UnsetNodeFlags
 (
@@ -3095,7 +3091,6 @@ as_node
 0
 flags
 )
-}
 }
 pub
 fn
@@ -7058,8 +7053,6 @@ get
 (
 )
 ;
-unsafe
-{
 self
 .
 unset_flags
@@ -7082,7 +7075,6 @@ as
 u32
 )
 ;
-}
 if
 !
 ptr
@@ -7109,8 +7101,6 @@ self
 let
 data
 =
-unsafe
-{
 Box
 :
 :
@@ -7126,7 +7116,6 @@ get
 (
 )
 )
-}
 ;
 self
 .

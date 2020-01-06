@@ -152,8 +152,6 @@ unsafe
 let
 element
 =
-unsafe
-{
 :
 :
 std
@@ -174,7 +172,6 @@ GeckoElement
 (
 element
 )
-}
 ;
 bindings
 :
