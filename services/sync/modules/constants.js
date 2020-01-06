@@ -1,6 +1,3 @@
-#
-filter
-substitution
 this
 .
 EXPORTED_SYMBOLS
@@ -24,7 +21,11 @@ entries
 WEAVE_VERSION
 :
 "
-weave_version
+1
+.
+58
+.
+0
 "
 SYNC_API_VERSION
 :
