@@ -243,10 +243,10 @@ image
 {
 Gradient
 GradientItem
+Image
 ImageLayer
 LineDirection
-Image
-ImageRect
+MozImageRect
 }
 ;
 #

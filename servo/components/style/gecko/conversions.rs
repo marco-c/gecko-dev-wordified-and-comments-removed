@@ -2238,7 +2238,7 @@ computed
 :
 {
 NumberOrPercentage
-ImageRect
+MozImageRect
 }
 ;
 match
@@ -2389,7 +2389,7 @@ GenericImage
 :
 Rect
 (
-ImageRect
+MozImageRect
 {
 url
 top
@@ -5426,7 +5426,7 @@ else
 TrackSize
 :
 :
-MinMax
+Minmax
 (
 min
 max
@@ -5530,7 +5530,7 @@ gecko_max
 TrackSize
 :
 :
-MinMax
+Minmax
 (
 ref
 min
