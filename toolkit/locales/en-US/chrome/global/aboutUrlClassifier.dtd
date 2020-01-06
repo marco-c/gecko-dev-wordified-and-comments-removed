@@ -366,16 +366,6 @@ Result
 ENTITY
 aboutUrlClassifier
 .
-cacheTitle
-"
-Cache
-"
->
-<
-!
-ENTITY
-aboutUrlClassifier
-.
 memoryTitle
 "
 Memory
