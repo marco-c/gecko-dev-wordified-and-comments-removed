@@ -195,12 +195,6 @@ html
 stress
 -
 tests
-skip
--
-if
-(
-styloVsGecko
-)
 load
 stress
 -
