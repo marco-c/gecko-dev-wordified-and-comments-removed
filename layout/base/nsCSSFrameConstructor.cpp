@@ -36492,6 +36492,9 @@ UpdateViewportScrollbarStylesOverride
 ;
 if
 (
+aContainer
+&
+&
 newOverrideElement
 &
 &
