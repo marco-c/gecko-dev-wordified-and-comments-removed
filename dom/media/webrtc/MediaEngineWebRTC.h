@@ -2736,6 +2736,9 @@ mSkipProcessing
 MediaEnginePrefs
 mLastPrefs
 ;
+AlignedShortBuffer
+mInputDownmixBuffer
+;
 }
 ;
 class
