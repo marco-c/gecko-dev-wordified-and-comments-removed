@@ -2320,7 +2320,7 @@ NeedsCallerType
 ]
 readonly
 attribute
-float
+double
 devicePixelRatio
 ;
 /
