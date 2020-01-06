@@ -2859,6 +2859,17 @@ hg
 '
 debuginstall
 '
+'
+-
+-
+config
+=
+ui
+.
+username
+=
+worker
+'
 ]
 )
         
