@@ -1309,8 +1309,6 @@ test_loader
 .
 test_ids
 run_info
-=
-run_info
 )
                 
 for
