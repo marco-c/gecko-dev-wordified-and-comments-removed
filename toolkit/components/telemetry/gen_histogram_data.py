@@ -11,7 +11,7 @@ ParserError
 import
 sys
 import
-histogram_tools
+parse_histograms
 banner
 =
 "
@@ -1263,7 +1263,7 @@ histograms
 =
 list
 (
-histogram_tools
+parse_histograms
 .
 from_files
 (

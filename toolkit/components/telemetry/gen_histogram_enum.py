@@ -7,7 +7,7 @@ shared_telemetry_utils
 import
 ParserError
 import
-histogram_tools
+parse_histograms
 import
 itertools
 import
@@ -119,7 +119,7 @@ all_histograms
 =
 list
 (
-histogram_tools
+parse_histograms
 .
 from_files
 (

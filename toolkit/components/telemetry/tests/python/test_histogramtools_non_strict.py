@@ -43,7 +43,7 @@ append
 TELEMETRY_ROOT_PATH
 )
 import
-histogram_tools
+parse_histograms
 def
 load_histogram
 (
@@ -106,7 +106,7 @@ ps
 :
         
 return
-histogram_tools
+parse_histograms
 .
 load_histograms_into_dict
 (
@@ -221,21 +221,21 @@ SAMPLE_HISTOGRAM
         
 hist
 =
-histogram_tools
+parse_histograms
 .
 Histogram
 (
 '
 A11Y_INSTANTIATED_FLAG
 '
-                                         
+                                          
 histograms
 [
 '
 A11Y_INSTANTIATED_FLAG
 '
 ]
-                                         
+                                          
 strict_type_checks
 =
 False
@@ -361,21 +361,21 @@ SAMPLE_HISTOGRAM
         
 hist
 =
-histogram_tools
+parse_histograms
 .
 Histogram
 (
 '
 TEST_NON_NUMERIC_HISTOGRAM
 '
-                                         
+                                          
 histograms
 [
 '
 TEST_NON_NUMERIC_HISTOGRAM
 '
 ]
-                                         
+                                          
 strict_type_checks
 =
 False
@@ -430,14 +430,14 @@ all_histograms
 =
 list
 (
-histogram_tools
+parse_histograms
 .
 from_files
 (
 [
 HISTOGRAMS_PATH
 ]
-                                                         
+                                                          
 strict_type_checks
 =
 False

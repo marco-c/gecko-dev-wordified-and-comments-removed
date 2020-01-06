@@ -1,7 +1,7 @@
 import
 sys
 import
-histogram_tools
+parse_histograms
 import
 json
 from
@@ -28,7 +28,7 @@ OrderedDict
 for
 histogram
 in
-histogram_tools
+parse_histograms
 .
 from_files
 (
@@ -104,7 +104,7 @@ count
         
 }
         
-histogram_tools
+parse_histograms
 .
 table_dispatch
 (
@@ -114,7 +114,7 @@ kind
 (
 )
 table
-                                       
+                                        
 lambda
 k
 :
@@ -211,7 +211,7 @@ buckets
 )
         
 except
-histogram_tools
+parse_histograms
 .
 DefinitionException
 :
