@@ -208,13 +208,6 @@ cpp
 '
 core
 /
-StackTop
-.
-cpp
-'
-'
-core
-/
 ThreadInfo
 .
 cpp

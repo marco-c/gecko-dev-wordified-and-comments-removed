@@ -99,13 +99,6 @@ include
 vector
 >
 #
-include
-"
-StackTop
-.
-h
-"
-#
 if
 defined
 (
