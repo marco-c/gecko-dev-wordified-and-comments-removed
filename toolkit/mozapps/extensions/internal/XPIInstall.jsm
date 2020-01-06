@@ -924,9 +924,6 @@ extension
 theme
 :
 4
-locale
-:
-8
 dictionary
 :
 64
@@ -965,9 +962,6 @@ dictionary
 "
 "
 experiment
-"
-"
-locale
 "
 "
 webextension
