@@ -1344,7 +1344,7 @@ R
 .
 drawable
 .
-ab_menu
+ic_overflow
 )
 ;
 actionBarPresenter
