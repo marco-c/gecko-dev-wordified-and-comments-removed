@@ -290,7 +290,7 @@ return
 (
 )
 return
-tuple
+set
 (
 x
 [
@@ -321,6 +321,9 @@ r
 KitsRoot
 *
 '
+get_32_and_64_bit
+=
+True
 )
 )
 #
