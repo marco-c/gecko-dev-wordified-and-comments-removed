@@ -1127,6 +1127,15 @@ aboutType
 =
 -
 1
+&
+&
+aboutType
+!
+=
+=
+"
+newtab
+"
 )
 {
 aboutURLs

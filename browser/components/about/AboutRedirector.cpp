@@ -1244,6 +1244,11 @@ nsIAboutModule
 :
 :
 ENABLE_INDEXED_DB
+|
+nsIAboutModule
+:
+:
+URI_SAFE_FOR_UNTRUSTED_CONTENT
 ;
 return
 NS_OK
