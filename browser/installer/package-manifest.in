@@ -1671,6 +1671,13 @@ RESPATH
 /
 components
 /
+reputationservice
+.
+xpt
+RESPATH
+/
+components
+/
 satchel
 .
 xpt
