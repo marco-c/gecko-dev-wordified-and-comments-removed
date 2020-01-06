@@ -1053,6 +1053,17 @@ NameSectionName
 name
 "
 ;
+static
+const
+char
+SourceMappingURLSectionName
+[
+]
+=
+"
+sourceMappingURL
+"
+;
 enum
 class
 NameType
