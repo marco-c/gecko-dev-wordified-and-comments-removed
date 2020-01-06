@@ -855,16 +855,6 @@ addressType
 &
 f
 .
-contactType
-=
-=
-info
-.
-contactType
-&
-&
-f
-.
 fieldName
 =
 =
