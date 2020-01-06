@@ -124,6 +124,11 @@ CustomTypeAnnotation
 cpp
 '
 '
+DanglingOnTemporaryChecker
+.
+cpp
+'
+'
 DiagnosticsMatcher
 .
 cpp
@@ -240,6 +245,11 @@ cpp
 '
 '
 TrivialCtorDtorChecker
+.
+cpp
+'
+'
+VariableUsageHelpers
 .
 cpp
 '
