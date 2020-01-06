@@ -108,6 +108,12 @@ sourceTab
 linkedBrowser
 ;
 await
+waitForSourceLoaded
+(
+sourceBrowser
+)
+;
+await
 ContentTask
 .
 spawn
@@ -226,6 +232,12 @@ await
 openViewSource
 (
 browser
+)
+;
+await
+waitForSourceLoaded
+(
+sourceWin
 )
 ;
 await
