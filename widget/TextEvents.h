@@ -277,6 +277,20 @@ ShortcutKeyCandidate
 {
 ShortcutKeyCandidate
 (
+)
+:
+mCharCode
+(
+0
+)
+mIgnoreShift
+(
+0
+)
+{
+}
+ShortcutKeyCandidate
+(
 uint32_t
 aCharCode
 bool
@@ -1125,6 +1139,7 @@ ShortcutKeyCandidateArray
 &
 aCandidates
 )
+const
 ;
 void
 GetAccessKeyCandidates
@@ -1136,6 +1151,7 @@ uint32_t
 &
 aCandidates
 )
+const
 ;
 static
 void
