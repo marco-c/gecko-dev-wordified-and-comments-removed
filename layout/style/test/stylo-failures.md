@@ -528,13 +528,6 @@ bug
 test_counter_style
 .
 html
-[
-11
-]
-*
-test_counter_style
-.
-html
 asserts
 [
 11
