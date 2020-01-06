@@ -2810,7 +2810,7 @@ self
 ipc
 :
 :
-PromiseRejectReason
+ResponseRejectReason
 aReason
 )
 {

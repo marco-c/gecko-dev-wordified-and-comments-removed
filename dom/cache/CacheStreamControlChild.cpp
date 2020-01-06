@@ -498,7 +498,7 @@ aResolver
 holder
 ]
 (
-PromiseRejectReason
+ResponseRejectReason
 aReason
 )
 {
