@@ -145,11 +145,6 @@ override
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
-(
-SVGAElement
-SVGAElementBase
-)
 virtual
 nsresult
 GetEventTargetParent
