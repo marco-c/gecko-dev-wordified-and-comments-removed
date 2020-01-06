@@ -1898,6 +1898,9 @@ svg
 )
 ;
 }
+%
+ifdef
+MOZ_PHOTON_THEME
 #
 customization
 -
@@ -1946,6 +1949,8 @@ svg
 )
 ;
 }
+%
+endif
 %
 ifndef
 MOZ_PHOTON_THEME
@@ -3575,6 +3580,9 @@ svg
 )
 ;
 }
+%
+ifdef
+MOZ_PHOTON_THEME
 #
 customization
 -
@@ -3692,6 +3700,8 @@ svg
 )
 ;
 }
+%
+endif
 .
 customization
 -
