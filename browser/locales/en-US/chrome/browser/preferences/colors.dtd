@@ -92,7 +92,7 @@ macWidth
 <
 !
 ENTITY
-overrideDefaultPageColors
+overrideDefaultPageColors2
 .
 label
 "
@@ -107,13 +107,12 @@ with
 your
 selections
 above
-:
 "
 >
 <
 !
 ENTITY
-overrideDefaultPageColors
+overrideDefaultPageColors2
 .
 accesskey
 "
