@@ -10936,7 +10936,7 @@ rv
 mTextEditor
 -
 >
-GetDocumentIsEmpty
+DocumentIsEmpty
 (
 &
 empty

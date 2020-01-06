@@ -288,6 +288,17 @@ int32_t
 aLength
 )
 ;
+bool
+HasBogusNode
+(
+)
+{
+return
+!
+!
+mBogusNode
+;
+}
 protected
 :
 void

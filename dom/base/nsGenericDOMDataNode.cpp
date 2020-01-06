@@ -4316,9 +4316,7 @@ TextLength
 const
 {
 return
-mText
-.
-GetLength
+TextDataLength
 (
 )
 ;
