@@ -44,9 +44,10 @@ getDisplayedRequests
 state
 )
 .
-isEmpty
-(
-)
+length
+=
+=
+0
 ;
 }
 const
