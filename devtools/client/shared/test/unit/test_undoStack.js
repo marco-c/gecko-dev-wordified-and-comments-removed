@@ -6,6 +6,7 @@ strict
 const
 {
 Loader
+Require
 }
 =
 Components
@@ -19,14 +20,12 @@ resource
 :
 /
 /
-gre
+devtools
 /
-modules
+shared
 /
-commonjs
-/
-toolkit
-/
+base
+-
 loader
 .
 js
@@ -39,8 +38,6 @@ const
 loader
 =
 new
-Loader
-.
 Loader
 (
 {
@@ -84,8 +81,6 @@ globals
 const
 require
 =
-Loader
-.
 Require
 (
 loader

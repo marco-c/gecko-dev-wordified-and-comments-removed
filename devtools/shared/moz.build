@@ -252,6 +252,13 @@ utils
 js
 '
 '
+base
+-
+loader
+.
+js
+'
+'
 builtin
 -
 modules
