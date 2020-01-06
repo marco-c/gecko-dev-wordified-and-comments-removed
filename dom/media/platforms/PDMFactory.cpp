@@ -1355,14 +1355,9 @@ forget
 )
 ;
 }
+else
 if
 (
-NS_FAILED
-(
-result
-)
-&
-&
 aParams
 .
 mError
