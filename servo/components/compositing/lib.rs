@@ -156,9 +156,6 @@ mod
 compositor_thread
 ;
 mod
-delayed_composition
-;
-mod
 touch
 ;
 pub
