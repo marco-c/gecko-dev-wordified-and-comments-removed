@@ -74,10 +74,6 @@ return_type
 .
 )
 \
-extern
-"
-C
-"
 MOZ_MEMORY_API
 return_type
 name
@@ -99,10 +95,6 @@ malloc_decls
 .
 h
 "
-extern
-"
-C
-"
 MOZ_MEMORY_API
 char
 *
@@ -113,10 +105,6 @@ char
 *
 )
 ;
-extern
-"
-C
-"
 MOZ_MEMORY_API
 char
 *

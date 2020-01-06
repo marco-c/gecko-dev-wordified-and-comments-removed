@@ -66,10 +66,6 @@ return_type
 .
 )
 \
-extern
-"
-C
-"
 MOZ_MEMORY_API
 return_type
 name
