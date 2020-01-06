@@ -1,4 +1,6 @@
 import
+re
+import
 sys
 import
 collections
@@ -1020,7 +1022,6 @@ __init__
 self
 phaseKind
 parent
-depth
 )
 :
         
@@ -1040,7 +1041,15 @@ self
 .
 depth
 =
+parent
+.
 depth
++
+1
+if
+parent
+else
+0
         
 self
 .
@@ -1060,6 +1069,55 @@ self
 nextInPhaseKind
 =
 None
+        
+self
+.
+path
+=
+re
+.
+sub
+(
+r
+'
+\
+W
++
+'
+'
+_
+'
+phaseKind
+.
+name
+.
+lower
+(
+)
+)
+        
+if
+parent
+is
+not
+None
+:
+            
+self
+.
+path
+=
+parent
+.
+path
++
+'
+.
+'
++
+self
+.
+path
 def
 expandPhases
 (
@@ -1071,7 +1129,7 @@ phases
 [
 ]
     
-phasesForPhase
+phasesForKind
 =
 collections
 .
@@ -1085,7 +1143,6 @@ traverse
 (
 phaseKind
 parent
-depth
 )
 :
         
@@ -1095,7 +1152,6 @@ Phase
 (
 phaseKind
 parent
-depth
 )
         
 phases
@@ -1106,13 +1162,13 @@ ep
 )
         
 if
-phasesForPhase
+phasesForKind
 [
 phaseKind
 ]
 :
             
-phasesForPhase
+phasesForKind
 [
 phaseKind
 ]
@@ -1125,7 +1181,7 @@ nextInPhaseKind
 =
 ep
         
-phasesForPhase
+phasesForKind
 [
 phaseKind
 ]
@@ -1149,9 +1205,6 @@ traverse
 (
 child
 ep
-depth
-+
-1
 )
             
 if
@@ -1194,12 +1247,11 @@ traverse
 (
 phaseKind
 None
-0
 )
     
 return
 phases
-phasesForPhase
+phasesForKind
 AllPhases
 PhasesForPhaseKind
 =
@@ -1250,7 +1302,7 @@ else
         
 for
 index
-xphase
+phase
 in
 enumerate
 (
@@ -1258,7 +1310,7 @@ phases
 )
 :
             
-xphase
+phase
 .
 name
 =
@@ -1465,14 +1517,14 @@ n
 "
 )
     
-expandedPhaseNames
+phaseNames
 =
 map
 (
 lambda
-xphase
+phase
 :
-xphase
+phase
 .
 name
 AllPhases
@@ -1509,7 +1561,7 @@ Phase
 "
 uint8_t
 "
-expandedPhaseNames
+phaseNames
 extraPhases
 )
 def
@@ -1541,7 +1593,7 @@ in
 AllPhaseKinds
 :
         
-xPhase
+phase
 =
 PhasesForPhaseKind
 [
@@ -1584,7 +1636,7 @@ n
 phaseKind
 .
 name
-xPhase
+phase
 .
 name
 phaseKind
@@ -1618,7 +1670,7 @@ n
 def
 name
 (
-xphase
+phase
 )
 :
         
@@ -1629,11 +1681,11 @@ Phase
 :
 "
 +
-xphase
+phase
 .
 name
 if
-xphase
+phase
 else
 "
 Phase
@@ -1659,21 +1711,21 @@ n
 )
     
 for
-xphase
+phase
 in
 AllPhases
 :
         
 firstChild
 =
-xphase
+phase
 .
 children
 [
 0
 ]
 if
-xphase
+phase
 .
 children
 else
@@ -1681,7 +1733,7 @@ None
         
 phaseKind
 =
-xphase
+phase
 .
 phaseKind
         
@@ -1719,6 +1771,12 @@ d
 s
 \
 "
+\
+"
+%
+s
+\
+"
 }
 \
 n
@@ -1728,12 +1786,12 @@ n
 (
 name
 (
-xphase
+phase
 )
                    
 name
 (
-xphase
+phase
 .
 parent
 )
@@ -1745,14 +1803,14 @@ firstChild
                    
 name
 (
-xphase
+phase
 .
 nextSibling
 )
                    
 name
 (
-xphase
+phase
 .
 nextInPhaseKind
 )
@@ -1761,13 +1819,17 @@ phaseKind
 .
 name
                    
-xphase
+phase
 .
 depth
                    
 phaseKind
 .
 descr
+                   
+phase
+.
+path
 )
 )
     
