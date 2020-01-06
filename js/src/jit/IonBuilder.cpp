@@ -65188,6 +65188,16 @@ reobj
 )
 )
 ;
+bool
+hasShared
+=
+reobj
+-
+>
+hasShared
+(
+)
+;
 MRegExp
 *
 regexp
@@ -65204,6 +65214,7 @@ constraints
 (
 )
 reobj
+hasShared
 )
 ;
 current
