@@ -2019,6 +2019,16 @@ var
 ]
 =
 True
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]
 DEFINES
 [
 '
