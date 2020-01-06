@@ -730,6 +730,11 @@ RubyUtils
 h
 '
 '
+ScrollAnimationBezierPhysics
+.
+h
+'
+'
 ScrollAnimationPhysics
 .
 h
@@ -1086,7 +1091,7 @@ RubyUtils
 cpp
 '
 '
-ScrollAnimationPhysics
+ScrollAnimationBezierPhysics
 .
 cpp
 '

@@ -389,6 +389,13 @@ h
 #
 include
 "
+ScrollAnimationBezierPhysics
+.
+h
+"
+#
+include
+"
 ScrollSnap
 .
 h
@@ -8368,7 +8375,7 @@ PresShell
 }
 ;
 static
-ScrollAnimationPhysicsSettings
+ScrollAnimationBezierPhysicsSettings
 ComputeAnimationSettingsForOrigin
 (
 nsIAtom
@@ -8585,7 +8592,7 @@ intervalRatio
 )
 ;
 return
-ScrollAnimationPhysicsSettings
+ScrollAnimationBezierPhysicsSettings
 {
 minMS
 maxMS
@@ -8671,7 +8678,7 @@ mOrigin
 =
 aOrigin
 ;
-ScrollAnimationPhysicsSettings
+ScrollAnimationBezierPhysicsSettings
 settings
 =
 ComputeAnimationSettingsForOrigin
@@ -8683,7 +8690,7 @@ mAnimationPhysics
 =
 MakeUnique
 <
-ScrollAnimationPhysics
+ScrollAnimationBezierPhysics
 >
 (
 aInitialPosition

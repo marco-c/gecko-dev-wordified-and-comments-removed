@@ -8,6 +8,13 @@ h
 #
 include
 "
+ScrollAnimationBezierPhysics
+.
+h
+"
+#
+include
+"
 gfxPrefs
 .
 h
@@ -19,7 +26,7 @@ namespace
 layers
 {
 static
-ScrollAnimationPhysicsSettings
+ScrollAnimationBezierPhysicsSettings
 SettingsForType
 (
 KeyboardScrollAction
@@ -198,7 +205,7 @@ intervalRatio
 )
 ;
 return
-ScrollAnimationPhysicsSettings
+ScrollAnimationBezierPhysicsSettings
 {
 minMS
 maxMS

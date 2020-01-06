@@ -8,6 +8,13 @@ h
 #
 include
 "
+ScrollAnimationBezierPhysics
+.
+h
+"
+#
+include
+"
 AsyncPanZoomController
 .
 h
@@ -33,7 +40,7 @@ namespace
 layers
 {
 static
-ScrollAnimationPhysicsSettings
+ScrollAnimationBezierPhysicsSettings
 SettingsForDeltaType
 (
 ScrollWheelInput
@@ -200,7 +207,7 @@ intervalRatio
 )
 ;
 return
-ScrollAnimationPhysicsSettings
+ScrollAnimationBezierPhysicsSettings
 {
 minMS
 maxMS
