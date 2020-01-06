@@ -162,7 +162,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-applications
+general
 "
 {
 leaveOpen

@@ -466,8 +466,6 @@ about
 :
 preferences
 #
-general
--
 search
 "
 )
