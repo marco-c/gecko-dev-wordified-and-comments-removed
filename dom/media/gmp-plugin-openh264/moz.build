@@ -175,9 +175,9 @@ ole32
 USE_STATIC_LIBS
 =
 True
-NO_VISIBILITY_FLAGS
-=
-True
+NoVisibilityFlags
+(
+)
 #
 Don
 '

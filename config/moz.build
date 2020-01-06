@@ -137,9 +137,9 @@ wrapped
 system
 headers
 .
-NO_VISIBILITY_FLAGS
-=
-True
+NoVisibilityFlags
+(
+)
 CONFIGURE_SUBST_FILES
 +
 =

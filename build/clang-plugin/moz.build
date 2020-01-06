@@ -309,9 +309,9 @@ txt
 DisableStlWrapping
 (
 )
-NO_VISIBILITY_FLAGS
-=
-True
+NoVisibilityFlags
+(
+)
 #
 libc
 +

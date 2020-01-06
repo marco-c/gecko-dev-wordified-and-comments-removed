@@ -144,9 +144,9 @@ all
 the
 symbols
 .
-NO_VISIBILITY_FLAGS
-=
-True
+NoVisibilityFlags
+(
+)
 SYMBOLS_FILE
 =
 '

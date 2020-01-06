@@ -324,9 +324,9 @@ avutil
 .
 symbols
 '
-NO_VISIBILITY_FLAGS
-=
-True
+NoVisibilityFlags
+(
+)
 OS_LIBS
 +
 =

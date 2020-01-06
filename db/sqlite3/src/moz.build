@@ -85,9 +85,9 @@ MPL
 0
 /
 .
-NO_VISIBILITY_FLAGS
-=
-True
+NoVisibilityFlags
+(
+)
 EXPORTS
 +
 =

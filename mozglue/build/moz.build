@@ -268,9 +268,9 @@ until
 bug
 662814
 lands
-NO_VISIBILITY_FLAGS
-=
-True
+NoVisibilityFlags
+(
+)
 SOURCES
 +
 =

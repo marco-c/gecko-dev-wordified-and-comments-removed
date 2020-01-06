@@ -152,9 +152,9 @@ GeckoSharedLibrary
 qipcap
 '
 )
-NO_VISIBILITY_FLAGS
-=
-True
+NoVisibilityFlags
+(
+)
 NO_PGO
 =
 True

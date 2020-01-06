@@ -112,9 +112,9 @@ else
 ALLOW_COMPILER_WARNINGS
 =
 True
-NO_VISIBILITY_FLAGS
-=
-True
+NoVisibilityFlags
+(
+)
 CONFIGURE_DEFINE_FILES
 +
 =
