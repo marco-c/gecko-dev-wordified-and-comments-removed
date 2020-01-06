@@ -1444,6 +1444,7 @@ length
 {
 resolve
 (
+true
 )
 ;
 return
