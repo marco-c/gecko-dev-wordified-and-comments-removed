@@ -130,6 +130,9 @@ Alpha
 Subpixel
 =
 2
+Bitmap
+=
+3
 Sentinel
 }
 ;

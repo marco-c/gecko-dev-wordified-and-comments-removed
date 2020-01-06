@@ -98,6 +98,13 @@ bincode
 .
 8
 "
+bitflags
+=
+"
+0
+.
+9
+"
 byteorder
 =
 "
