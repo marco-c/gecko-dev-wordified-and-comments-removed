@@ -32,6 +32,16 @@ toolbarbutton
 -
 icon
 {
+%
+ifndef
+MOZ_PHOTON_THEME
+padding
+:
+2px
+6px
+;
+%
+else
 padding
 :
 calc
@@ -50,6 +60,8 @@ padding
 1px
 )
 ;
+%
+endif
 }
 :
 -

@@ -18,9 +18,17 @@ editBookmarkPanel
 let
 bookmarkStar
 =
+AppConstants
+.
+MOZ_PHOTON_THEME
+?
 BookmarkingUI
 .
 star
+:
+BookmarkingUI
+.
+button
 ;
 let
 bookmarkPanelTitle

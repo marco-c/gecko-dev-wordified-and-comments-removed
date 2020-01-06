@@ -794,6 +794,11 @@ if
 (
 AppConstants
 .
+MOZ_PHOTON_THEME
+&
+&
+AppConstants
+.
 isPlatformAndVersionAtLeast
 (
 "

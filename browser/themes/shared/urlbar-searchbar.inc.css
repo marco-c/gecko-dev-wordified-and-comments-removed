@@ -1,3 +1,6 @@
+%
+ifdef
+MOZ_PHOTON_THEME
 #
 urlbar
 .
@@ -231,6 +234,8 @@ color
 white
 ;
 }
+%
+endif
 :
 root
 [
@@ -353,6 +358,9 @@ appearance
 none
 ;
 }
+%
+ifdef
+MOZ_PHOTON_THEME
 .
 pageAction
 -
@@ -1282,6 +1290,8 @@ animation
 rtl
 ;
 }
+%
+endif
 %
 endif
 #
