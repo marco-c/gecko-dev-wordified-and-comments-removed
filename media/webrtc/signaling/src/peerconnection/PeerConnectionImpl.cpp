@@ -922,17 +922,6 @@ NS_IsMainThread
 }
 }
 operator
-JSErrorResult
-&
-(
-)
-{
-return
-*
-mRv
-;
-}
-operator
 ErrorResult
 &
 (
