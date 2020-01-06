@@ -649,6 +649,11 @@ nsCString
 result
 )
 ;
+nsresult
+CheckIfHostIsAscii
+(
+)
+;
 void
 CoalescePath
 (
