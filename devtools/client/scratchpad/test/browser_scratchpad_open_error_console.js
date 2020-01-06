@@ -1,5 +1,7 @@
 const
+{
 HUDService
+}
 =
 require
 (

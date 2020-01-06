@@ -94,7 +94,9 @@ storage
 )
 ;
 const
+{
 HUDService
+}
 =
 require
 (

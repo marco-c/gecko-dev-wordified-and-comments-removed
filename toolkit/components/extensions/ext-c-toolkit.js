@@ -74,7 +74,9 @@ browser
 )
 ;
 let
-hudservice
+{
+HUDService
+}
 =
 require
 (
@@ -89,7 +91,7 @@ hudservice
 "
 )
 ;
-hudservice
+HUDService
 .
 openBrowserConsoleOrFocus
 (

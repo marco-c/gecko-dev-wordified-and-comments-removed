@@ -617,7 +617,9 @@ browser
 )
 ;
 let
-hudservice
+{
+HUDService
+}
 =
 require
 (
@@ -651,7 +653,7 @@ haveConsole
 =
 !
 !
-hudservice
+HUDService
 .
 getBrowserConsole
 (
@@ -676,7 +678,7 @@ haveConsole
 )
 {
 await
-hudservice
+HUDService
 .
 toggleBrowserConsole
 (
