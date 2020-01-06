@@ -15,7 +15,7 @@ from
 .
 shared
 import
-JSONTemplateError
+TemplateError
 string
 import
 operator
@@ -142,26 +142,16 @@ or
 b
 )
 }
-class
-ExpressionError
-(
-JSONTemplateError
-)
-:
-    
-classmethod
-    
 def
-expectation
+expectationError
 (
-cls
 operator
 expected
 )
 :
-        
+    
 return
-cls
+TemplateError
 (
 '
 {
@@ -617,7 +607,7 @@ string
 :
             
 raise
-ExpressionError
+TemplateError
 (
 '
 expression
@@ -745,9 +735,7 @@ v
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 unary
@@ -798,9 +786,7 @@ v
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 unary
@@ -848,7 +834,7 @@ KeyError
 :
             
 raise
-ExpressionError
+TemplateError
 (
 '
 no
@@ -1072,9 +1058,7 @@ bool
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 +
@@ -1117,9 +1101,7 @@ bool
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 +
@@ -1161,9 +1143,7 @@ string
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 +
@@ -1221,9 +1201,7 @@ left
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 op
 '
@@ -1268,9 +1246,7 @@ right
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 op
 '
@@ -1443,9 +1419,7 @@ dict
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 .
@@ -1482,7 +1456,7 @@ KeyError
 :
             
 raise
-ExpressionError
+TemplateError
 (
 '
 {
@@ -1532,7 +1506,7 @@ left
 :
             
 raise
-ExpressionError
+TemplateError
 (
 '
 function
@@ -1558,6 +1532,7 @@ pc
 return
 left
 (
+*
 args
 )
     
@@ -1695,9 +1670,7 @@ bool
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 op
 '
@@ -1762,9 +1735,7 @@ string
 :
                 
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 in
@@ -1797,9 +1768,7 @@ string
 :
                 
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 in
@@ -1824,9 +1793,7 @@ list
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 in
@@ -1855,9 +1822,7 @@ TypeError
 :
             
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 in
@@ -2139,9 +2104,7 @@ TypeError
 :
                 
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 [
@@ -2171,7 +2134,7 @@ IndexError
 :
                 
 raise
-ExpressionError
+TemplateError
 (
 '
 index
@@ -2186,9 +2149,7 @@ TypeError
 :
                 
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 [
@@ -2211,9 +2172,7 @@ dict
 :
         
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 [
@@ -2239,9 +2198,7 @@ string
 :
         
 raise
-ExpressionError
-.
-expectation
+expectationError
 (
 '
 [

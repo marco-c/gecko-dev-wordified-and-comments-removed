@@ -5,6 +5,8 @@ absolute_import
 print_function
 unicode_literals
 import
+datetime
+import
 re
 from
 .
@@ -17,9 +19,9 @@ shared
 import
 JSONTemplateError
 DeleteMarker
+TemplateError
 from
 .
-builtins
 import
 builtins
 _context_re
@@ -75,7 +77,7 @@ context
 :
         
 raise
-JSONTemplateError
+TemplateError
 (
 '
 top
@@ -112,10 +114,30 @@ Z0
     
 full_context
 =
+{
+'
+now
+'
+:
+datetime
+.
+datetime
+.
+utcnow
+(
+)
+}
+    
+full_context
+.
+update
+(
 builtins
 .
-copy
+build
 (
+full_context
+)
 )
     
 full_context

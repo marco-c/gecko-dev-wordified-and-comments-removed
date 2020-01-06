@@ -14,7 +14,7 @@ from
 .
 shared
 import
-JSONTemplateError
+TemplateError
 from
 .
 six
@@ -24,7 +24,7 @@ viewitems
 class
 SyntaxError
 (
-JSONTemplateError
+TemplateError
 )
 :
     
