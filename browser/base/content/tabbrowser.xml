@@ -9051,9 +9051,7 @@ fullScreen
 |
 isTabEmpty
 (
-this
-.
-mCurrentTab
+newTab
 )
 )
 {
