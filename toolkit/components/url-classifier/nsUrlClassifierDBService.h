@@ -509,6 +509,11 @@ didCheck
 )
 ;
 nsresult
+PreShutdown
+(
+)
+;
+nsresult
 Shutdown
 (
 )
@@ -662,6 +667,12 @@ OpenDb
 nsresult
 GCC_MANGLING_WORKAROUND
 CloseDb
+(
+)
+;
+nsresult
+GCC_MANGLING_WORKAROUND
+PreShutdown
 (
 )
 ;

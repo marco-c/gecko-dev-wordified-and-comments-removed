@@ -808,6 +808,11 @@ CloseDb
 )
 ;
 nsresult
+PreShutdown
+(
+)
+;
+nsresult
 CacheCompletions
 (
 mozilla
