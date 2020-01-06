@@ -6345,7 +6345,14 @@ isDirectCall
 (
 otherEdge
 /
-getter_AddRefs
+getter_
+(
+?
+:
+AddRefs
+|
+Copies
+)
 /
 )
 &
