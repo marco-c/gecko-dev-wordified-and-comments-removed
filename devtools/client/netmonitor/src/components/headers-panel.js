@@ -418,6 +418,11 @@ renderValue
 PropTypes
 .
 func
+openLink
+:
+PropTypes
+.
+func
 }
 getInitialState
 (
@@ -715,6 +720,7 @@ render
 {
 const
 {
+openLink
 cloneSelectedRequest
 request
 :
@@ -1341,6 +1347,7 @@ renderValue
 this
 .
 renderValue
+openLink
 }
 )
 )

@@ -76,6 +76,7 @@ function
 StackTracePanel
 (
 {
+openLink
 request
 sourceMapService
 }
@@ -123,6 +124,7 @@ url
 line
 )
 sourceMapService
+openLink
 }
 )
 )
@@ -154,6 +156,11 @@ sourceMapService
 PropTypes
 .
 object
+openLink
+:
+PropTypes
+.
+func
 }
 ;
 module

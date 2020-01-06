@@ -294,6 +294,11 @@ sourceMapService
 PropTypes
 .
 object
+openLink
+:
+PropTypes
+.
+func
 updateRequest
 :
 PropTypes
@@ -536,6 +541,7 @@ let
 isEmpty
 networkDetailsOpen
 sourceMapService
+openLink
 }
 =
 this
@@ -668,6 +674,7 @@ ref
 endPanel
 "
 sourceMapService
+openLink
 }
 )
 endPanelCollapsed

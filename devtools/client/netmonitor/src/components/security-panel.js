@@ -113,6 +113,7 @@ function
 SecurityPanel
 (
 {
+openLink
 request
 }
 )
@@ -779,6 +780,7 @@ getExpandedNodes
 (
 object
 )
+openLink
 }
 )
 )
@@ -804,6 +806,11 @@ PropTypes
 object
 .
 isRequired
+openLink
+:
+PropTypes
+.
+func
 }
 ;
 function

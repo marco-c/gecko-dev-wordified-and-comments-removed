@@ -487,6 +487,11 @@ sourceMapService
 serviceContainer
 .
 sourceMapService
+openLink
+:
+serviceContainer
+.
+openLink
 selectTab
 :
 (

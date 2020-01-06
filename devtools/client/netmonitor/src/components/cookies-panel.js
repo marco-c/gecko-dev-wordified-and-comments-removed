@@ -127,6 +127,7 @@ CookiesPanel
 (
 {
 request
+openLink
 }
 )
 {
@@ -265,6 +266,7 @@ COOKIES_FILTER_TEXT
 sectionNames
 :
 SECTION_NAMES
+openLink
 }
 )
 )
@@ -291,6 +293,11 @@ PropTypes
 object
 .
 isRequired
+openLink
+:
+PropTypes
+.
+func
 }
 ;
 function

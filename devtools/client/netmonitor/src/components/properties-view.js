@@ -231,6 +231,11 @@ sectionNames
 PropTypes
 .
 array
+openLink
+:
+PropTypes
+.
+func
 }
 getDefaultProps
 (
@@ -640,6 +645,7 @@ object
 renderRow
 renderValue
 sectionNames
+openLink
 }
 =
 this
@@ -804,6 +810,7 @@ renderValue
 this
 .
 renderValueWithRep
+openLink
 }
 )
 )

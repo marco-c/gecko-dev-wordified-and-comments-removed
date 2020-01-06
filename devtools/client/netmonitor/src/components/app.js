@@ -92,8 +92,9 @@ function
 App
 (
 {
-statisticsOpen
+openLink
 sourceMapService
+statisticsOpen
 }
 )
 {
@@ -116,6 +117,7 @@ statisticsOpen
 MonitorPanel
 (
 {
+openLink
 sourceMapService
 }
 )
@@ -140,6 +142,16 @@ App
 propTypes
 =
 {
+openLink
+:
+PropTypes
+.
+func
+sourceMapService
+:
+PropTypes
+.
+object
 statisticsOpen
 :
 PropTypes
@@ -147,11 +159,6 @@ PropTypes
 bool
 .
 isRequired
-sourceMapService
-:
-PropTypes
-.
-object
 }
 ;
 module
