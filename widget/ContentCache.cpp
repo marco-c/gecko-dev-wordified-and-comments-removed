@@ -8231,6 +8231,15 @@ MOZ_ASSERT
 mPendingEventsNeedingAck
 )
 ;
+if
+(
+!
+aWidget
+)
+{
+return
+;
+}
 mPendingEventsNeedingAck
 +
 +
@@ -8239,10 +8248,9 @@ nsCOMPtr
 <
 nsIWidget
 >
-kungFuDeathGrip
-(
+widget
+=
 aWidget
-)
 ;
 if
 (
@@ -8262,7 +8270,7 @@ mPendingTextChange
 if
 (
 !
-aWidget
+widget
 -
 >
 Destroyed
@@ -8282,7 +8290,7 @@ IMEStateManager
 NotifyIME
 (
 notification
-aWidget
+widget
 &
 mTabParent
 )
@@ -8307,7 +8315,7 @@ mPendingSelectionChange
 if
 (
 !
-aWidget
+widget
 -
 >
 Destroyed
@@ -8327,7 +8335,7 @@ IMEStateManager
 NotifyIME
 (
 notification
-aWidget
+widget
 &
 mTabParent
 )
@@ -8352,7 +8360,7 @@ mPendingLayoutChange
 if
 (
 !
-aWidget
+widget
 -
 >
 Destroyed
@@ -8372,7 +8380,7 @@ IMEStateManager
 NotifyIME
 (
 notification
-aWidget
+widget
 &
 mTabParent
 )
@@ -8397,7 +8405,7 @@ mPendingCompositionUpdate
 if
 (
 !
-aWidget
+widget
 -
 >
 Destroyed
@@ -8417,7 +8425,7 @@ IMEStateManager
 NotifyIME
 (
 notification
-aWidget
+widget
 &
 mTabParent
 )
@@ -8433,7 +8441,7 @@ mPendingEventsNeedingAck
 &
 &
 !
-aWidget
+widget
 -
 >
 Destroyed
@@ -8473,7 +8481,7 @@ HasNotification
 {
 FlushPendingNotifications
 (
-aWidget
+widget
 )
 ;
 }
