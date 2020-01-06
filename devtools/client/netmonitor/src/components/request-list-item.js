@@ -649,6 +649,13 @@ PropTypes
 func
 .
 isRequired
+onWaterfallMouseDown
+:
+PropTypes
+.
+func
+.
+isRequired
 waterfallWidth
 :
 PropTypes
@@ -795,6 +802,7 @@ onMouseDown
 onCauseBadgeMouseDown
 onSecurityIconMouseDown
 onThumbnailMouseDown
+onWaterfallMouseDown
 }
 =
 this
@@ -1192,6 +1200,7 @@ RequestListColumnWaterfall
 {
 item
 firstRequestStartedMillis
+onWaterfallMouseDown
 }
 )
 )
