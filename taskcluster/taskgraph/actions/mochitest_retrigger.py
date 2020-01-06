@@ -32,7 +32,7 @@ util
 import
 (
 find_decision_task
-create_task
+create_task_from_def
 )
 from
 .
@@ -1143,7 +1143,7 @@ slugid
 (
 )
     
-create_task
+create_task_from_def
 (
 new_task_id
 new_task_definition
