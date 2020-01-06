@@ -343,6 +343,10 @@ WidgetEventTime
 class
 NativeEventData
 ;
+enum
+class
+AccessKeyType
+;
 struct
 AlternativeCharCode
 ;

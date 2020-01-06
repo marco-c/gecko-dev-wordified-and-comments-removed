@@ -5078,15 +5078,6 @@ trusted
 key
 event
 *
-param
-modifierMask
-indicates
-which
-accesskey
-modifiers
-are
-pressed
-*
 /
 async
 HandleAccessKey
@@ -5097,8 +5088,6 @@ uint32_t
 [
 ]
 charCodes
-int32_t
-modifierMask
 )
 ;
 /

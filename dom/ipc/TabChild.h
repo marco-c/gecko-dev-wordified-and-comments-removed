@@ -2668,10 +2668,6 @@ uint32_t
 &
 &
 aCharCodes
-const
-int32_t
-&
-aModifierMask
 )
 override
 ;
