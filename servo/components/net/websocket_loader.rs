@@ -2157,7 +2157,7 @@ unwrap_or_else
 |
 |
 {
-basic_fetch
+scheme_fetch
 (
 &
 url
@@ -2219,7 +2219,7 @@ into
 response
 }
 fn
-basic_fetch
+scheme_fetch
 (
 url
 :
