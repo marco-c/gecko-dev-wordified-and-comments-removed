@@ -166,7 +166,7 @@ h
 #
 include
 "
-nsIInputStream
+nsIStringStream
 .
 h
 "

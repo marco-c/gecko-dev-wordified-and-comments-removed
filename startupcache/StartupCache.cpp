@@ -1713,7 +1713,7 @@ rv
 ;
 nsIStringInputStream
 *
-sis
+stream
 =
 holder
 -
@@ -1729,7 +1729,7 @@ holder
 >
 writer
 ;
-sis
+stream
 -
 >
 ShareData
@@ -1790,18 +1790,6 @@ StartupCache
 ;
 #
 endif
-nsCOMPtr
-<
-nsIInputStream
->
-stream
-(
-do_QueryInterface
-(
-sis
-)
-)
-;
 rv
 =
 writer

@@ -207,23 +207,6 @@ ASSERT_TRUE
 multiplexStream
 )
 ;
-nsCOMPtr
-<
-nsIInputStream
->
-stream
-(
-do_QueryInterface
-(
-multiplexStream
-)
-)
-;
-ASSERT_TRUE
-(
-stream
-)
-;
 rv
 =
 multiplexStream
@@ -330,7 +313,7 @@ rv
 ;
 rv
 =
-stream
+multiplexStream
 -
 >
 Available
@@ -376,7 +359,7 @@ length
 ;
 rv
 =
-stream
+multiplexStream
 -
 >
 Read
@@ -406,7 +389,7 @@ count
 ;
 rv
 =
-stream
+multiplexStream
 -
 >
 Available
@@ -497,7 +480,7 @@ rv
 ;
 rv
 =
-stream
+multiplexStream
 -
 >
 Available
@@ -529,7 +512,7 @@ length
 ;
 rv
 =
-stream
+multiplexStream
 -
 >
 Read
@@ -559,7 +542,7 @@ count
 ;
 rv
 =
-stream
+multiplexStream
 -
 >
 Available
@@ -633,7 +616,7 @@ rv
 ;
 rv
 =
-stream
+multiplexStream
 -
 >
 Available
@@ -671,7 +654,7 @@ length
 ;
 rv
 =
-stream
+multiplexStream
 -
 >
 Read
@@ -701,7 +684,7 @@ count
 ;
 rv
 =
-stream
+multiplexStream
 -
 >
 Available
