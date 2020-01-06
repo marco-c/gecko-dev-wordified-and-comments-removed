@@ -395,6 +395,11 @@ GraphTime
 aStateEnd
 )
 ;
+void
+SignalMainThreadCleanup
+(
+)
+;
 bool
 Running
 (
