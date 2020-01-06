@@ -110,8 +110,6 @@ switchDone
 ;
 }
 EXPECTED_REFLOWS
-window
-origTab
 )
 ;
 await
