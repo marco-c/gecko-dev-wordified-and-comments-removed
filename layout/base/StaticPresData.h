@@ -271,6 +271,11 @@ GetLangGroup
 nsIAtom
 *
 aLanguage
+bool
+*
+aNeedsToCache
+=
+nullptr
 )
 const
 ;
@@ -298,6 +303,11 @@ const
 LangGroupFontPrefs
 *
 aPrefs
+bool
+*
+aNeedsToCache
+=
+nullptr
 )
 const
 ;
@@ -356,6 +366,11 @@ GetFontPrefsForLang
 nsIAtom
 *
 aLanguage
+bool
+*
+aNeedsToCache
+=
+nullptr
 )
 const
 {
@@ -370,6 +385,7 @@ GetFontPrefsForLangHelper
 aLanguage
 &
 mStaticLangGroupFontPrefs
+aNeedsToCache
 )
 ;
 }

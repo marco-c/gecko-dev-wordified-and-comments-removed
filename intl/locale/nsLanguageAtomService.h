@@ -72,6 +72,11 @@ GetLanguageGroup
 nsIAtom
 *
 aLanguage
+bool
+*
+aNeedsToCache
+=
+nullptr
 )
 ;
 already_AddRefed

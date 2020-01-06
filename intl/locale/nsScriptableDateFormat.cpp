@@ -35,6 +35,13 @@ nsServiceManagerUtils
 .
 h
 "
+#
+include
+"
+nsILocaleService
+.
+h
+"
 static
 NS_DEFINE_CID
 (

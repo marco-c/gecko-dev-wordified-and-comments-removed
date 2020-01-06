@@ -85,6 +85,11 @@ endif
 #
 ifdef
 DEBUG
+bool
+LockedForWritingByCurrentThread
+(
+)
+;
 void
 ReadLock
 (

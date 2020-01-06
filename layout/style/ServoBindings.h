@@ -2585,6 +2585,11 @@ ShutdownServo
 (
 )
 ;
+void
+AssertIsMainThreadOrServoLangFontPrefsCacheLocked
+(
+)
+;
 const
 nsMediaFeature
 *
