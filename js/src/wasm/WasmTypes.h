@@ -4503,7 +4503,7 @@ enum
 Kind
 {
 Function
-InterpEntry
+Entry
 ImportJitExit
 ImportInterpExit
 BuiltinThunk
@@ -4552,10 +4552,10 @@ func
 ;
 struct
 {
-uint8_t
+uint16_t
 beginToUntrustedFPStart_
 ;
-uint8_t
+uint16_t
 beginToUntrustedFPEnd_
 ;
 }
@@ -4876,7 +4876,7 @@ kind
 )
 =
 =
-InterpEntry
+Entry
 ;
 }
 uint32_t
