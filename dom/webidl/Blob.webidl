@@ -219,9 +219,6 @@ end
 optional
 DOMString
 contentType
-=
-"
-"
 )
 ;
 }

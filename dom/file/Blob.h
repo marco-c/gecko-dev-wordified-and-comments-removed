@@ -398,7 +398,10 @@ int64_t
 &
 aEnd
 const
+Optional
+<
 nsAString
+>
 &
 aContentType
 ErrorResult
