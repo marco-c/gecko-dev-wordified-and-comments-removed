@@ -195,6 +195,9 @@ extensions
 nsCString
 niceName
 ;
+nsString
+sandboxScript
+;
 }
 ;
 union
