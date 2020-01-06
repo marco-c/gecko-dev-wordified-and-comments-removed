@@ -6386,7 +6386,7 @@ u32
 }
 unsafe
 fn
-clear_descendants_bits
+clear_descendant_bits
 (
 &
 self
@@ -6767,6 +6767,15 @@ as
 u32
 |
 ELEMENT_HANDLED_SNAPSHOT
+as
+u32
+|
+structs
+:
+:
+Element_kAllServoDescendantBits
+|
+NODE_NEEDS_FRAME
 as
 u32
 )

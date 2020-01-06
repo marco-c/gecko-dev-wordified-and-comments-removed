@@ -2177,7 +2177,7 @@ self
 }
 unsafe
 fn
-clear_descendants_bits
+clear_descendant_bits
 (
 &
 self
