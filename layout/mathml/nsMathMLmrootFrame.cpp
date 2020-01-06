@@ -1012,7 +1012,7 @@ mSqrChar
 .
 Stretch
 (
-aPresContext
+this
 drawTarget
 fontSizeInflation
 NS_STRETCH_DIRECTION_VERTICAL
@@ -1743,9 +1743,7 @@ mSqrChar
 .
 GetMaxWidth
 (
-PresContext
-(
-)
+this
 aRenderingContext
 -
 >
