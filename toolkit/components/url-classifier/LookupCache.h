@@ -768,6 +768,15 @@ InvalidateExpiredCacheEntries
 )
 ;
 void
+CopyFullHashCache
+(
+const
+LookupCache
+*
+aSource
+)
+;
+void
 ClearCache
 (
 )
@@ -780,7 +789,7 @@ key
 )
 {
 return
-mCache
+mFullHashCache
 .
 Get
 (
@@ -1002,7 +1011,7 @@ class
 PerProviderDirectoryTestUtils
 ;
 FullHashResponseMap
-mCache
+mFullHashCache
 ;
 }
 ;

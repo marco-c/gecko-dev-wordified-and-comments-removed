@@ -389,6 +389,11 @@ MergeNewLookupCaches
 )
 ;
 void
+CopyAndInvalidateFullHashCache
+(
+)
+;
+void
 RemoveUpdateIntermediaries
 (
 )
