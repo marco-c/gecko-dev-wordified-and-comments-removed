@@ -770,10 +770,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -786,10 +782,6 @@ BuildDisplayList
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsRect
-&
-aDirtyRect
 const
 nsDisplayListSet
 &
@@ -1024,10 +1016,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -1044,10 +1032,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -1062,7 +1046,6 @@ aLists
 BuildDisplayListForNonBlockChildren
 (
 aBuilder
-aDirtyRect
 aLists
 DISPLAY_CHILD_INLINE
 )

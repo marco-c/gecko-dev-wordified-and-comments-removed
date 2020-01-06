@@ -1135,10 +1135,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -1198,7 +1194,6 @@ BuildDisplayListForChild
 (
 aBuilder
 thumb
-aDirtyRect
 set
 DISPLAY_CHILD_INLINE
 )
@@ -1210,7 +1205,6 @@ else
 BuildDisplayListForInline
 (
 aBuilder
-aDirtyRect
 aLists
 )
 ;

@@ -883,10 +883,6 @@ nsFrame
 *
 aFrame
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -927,7 +923,12 @@ f
 >
 GetFirstRowContaining
 (
-aDirtyRect
+aBuilder
+-
+>
+GetDirtyRect
+(
+)
 .
 y
 &
@@ -958,7 +959,12 @@ y
 overflowAbove
 >
 =
-aDirtyRect
+aBuilder
+-
+>
+GetDirtyRect
+(
+)
 .
 YMost
 (
@@ -977,7 +983,12 @@ y
 overflowAbove
 >
 =
-aDirtyRect
+aBuilder
+-
+>
+GetDirtyRect
+(
+)
 .
 YMost
 (
@@ -992,7 +1003,6 @@ BuildDisplayListForChild
 (
 aBuilder
 kid
-aDirtyRect
 aLists
 )
 ;
@@ -1048,7 +1058,6 @@ BuildDisplayListForChild
 (
 aBuilder
 kid
-aDirtyRect
 aLists
 )
 ;
@@ -1114,10 +1123,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -1130,7 +1135,6 @@ DisplayGenericTablePart
 (
 aBuilder
 this
-aDirtyRect
 aLists
 DisplayRows
 )

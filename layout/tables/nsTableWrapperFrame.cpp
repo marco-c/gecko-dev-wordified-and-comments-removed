@@ -773,10 +773,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -794,7 +790,6 @@ IsEmpty
 BuildDisplayListForInnerTable
 (
 aBuilder
-aDirtyRect
 aLists
 )
 ;
@@ -807,7 +802,6 @@ set
 BuildDisplayListForInnerTable
 (
 aBuilder
-aDirtyRect
 set
 )
 ;
@@ -830,7 +824,6 @@ mCaptionFrames
 FirstChild
 (
 )
-aDirtyRect
 captionSet
 )
 ;
@@ -922,10 +915,6 @@ nsDisplayListBuilder
 *
 aBuilder
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -950,7 +939,6 @@ BuildDisplayListForChild
 (
 aBuilder
 kid
-aDirtyRect
 aLists
 )
 ;

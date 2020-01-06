@@ -769,10 +769,6 @@ nsFrame
 *
 aFrame
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -789,10 +785,6 @@ nsFrame
 *
 aFrame
 const
-nsRect
-&
-aDirtyRect
-const
 nsDisplayListSet
 &
 aLists
@@ -808,10 +800,6 @@ aBuilder
 nsFrame
 *
 aFrame
-const
-nsRect
-&
-aDirtyRect
 const
 nsDisplayListSet
 &
@@ -894,10 +882,6 @@ BuildDisplayList
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsRect
-&
-aDirtyRect
 const
 nsDisplayListSet
 &
