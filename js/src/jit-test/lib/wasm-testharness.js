@@ -260,15 +260,3 @@ description
 )
 ;
 }
-setJitCompilerOption
-(
-'
-wasm
-.
-test
--
-mode
-'
-1
-)
-;
