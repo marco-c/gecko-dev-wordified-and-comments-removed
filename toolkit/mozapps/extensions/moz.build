@@ -304,6 +304,10 @@ LOCAL_INCLUDES
 [
 '
 /
+chrome
+'
+'
+/
 dom
 /
 base
