@@ -15074,6 +15074,11 @@ if
 mFirstHttpTransaction
 )
 {
+if
+(
+mConnection
+)
+{
 RefPtr
 <
 nsHttpConnection
@@ -15095,6 +15100,7 @@ SetEvent
 aStatus
 )
 ;
+}
 }
 else
 {
