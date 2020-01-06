@@ -365,7 +365,7 @@ the
 given
 base
 /
-bath
+path
 while
 without
 a
