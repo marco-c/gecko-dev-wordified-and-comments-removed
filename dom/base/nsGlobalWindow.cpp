@@ -16181,6 +16181,10 @@ mContext
 nullptr
 ;
 }
+mDocShell
+=
+nullptr
+;
 NS_ASSERTION
 (
 !
