@@ -41,7 +41,7 @@ ots
 Current
 revision
 :
-5f685b8e1fce77347c87f6d98511d53debbe64b2
+57ef618b11aa0409637af04988ccce7e6b92ed0f
 (
 5
 .
@@ -92,16 +92,6 @@ patch
 :
 ots
 -
-config
+lz4
 .
 patch
-(
-config
-.
-h
-not
-needed
-in
-mozilla
-build
-)
