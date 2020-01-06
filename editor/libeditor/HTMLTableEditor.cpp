@@ -12125,7 +12125,7 @@ nsCOMPtr
 <
 nsIDOMNode
 >
-endParent
+endContainer
 ;
 rv
 =
@@ -12136,7 +12136,7 @@ GetEndContainer
 (
 getter_AddRefs
 (
-endParent
+endContainer
 )
 )
 ;
@@ -12177,7 +12177,7 @@ if
 startContainer
 =
 =
-endParent
+endContainer
 &
 &
 endOffset

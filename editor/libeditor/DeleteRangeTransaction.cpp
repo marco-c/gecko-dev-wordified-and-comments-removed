@@ -231,7 +231,7 @@ nsCOMPtr
 <
 nsINode
 >
-endParent
+endContainer
 =
 rangeToDelete
 -
@@ -255,7 +255,7 @@ MOZ_ASSERT
 startContainer
 &
 &
-endParent
+endContainer
 )
 ;
 if
@@ -263,7 +263,7 @@ if
 startContainer
 =
 =
-endParent
+endContainer
 )
 {
 nsresult
@@ -321,7 +321,7 @@ rv
 =
 CreateTxnsToDeleteContent
 (
-endParent
+endContainer
 endOffset
 nsIEditor
 :

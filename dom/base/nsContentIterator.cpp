@@ -4697,7 +4697,7 @@ StartOffset
 ;
 nsINode
 *
-endParent
+endContainer
 =
 mRange
 -
@@ -4724,7 +4724,7 @@ mCommonParent
 startContainer
 &
 &
-endParent
+endContainer
 )
 ;
 MOZ_ASSERT
@@ -4749,7 +4749,7 @@ endOffset
 )
 <
 =
-endParent
+endContainer
 -
 >
 Length
@@ -4762,7 +4762,7 @@ if
 startContainer
 =
 =
-endParent
+endContainer
 )
 {
 nsINode
@@ -4802,7 +4802,7 @@ nsContentUtils
 :
 GetAncestorsAndOffsets
 (
-endParent
+endContainer
 -
 >
 AsDOMNode
@@ -4982,7 +4982,7 @@ EndOffset
 int32_t
 numChildren
 =
-endParent
+endContainer
 -
 >
 GetChildCount
@@ -5013,14 +5013,14 @@ numChildren
 {
 node
 =
-endParent
+endContainer
 ;
 }
 else
 {
 lastCandidate
 =
-endParent
+endContainer
 -
 >
 GetChildAt

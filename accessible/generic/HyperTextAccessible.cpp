@@ -8690,7 +8690,7 @@ GetStartContainer
 ;
 HyperTextAccessible
 *
-endParent
+endContainer
 =
 nsAccUtils
 :
@@ -8712,7 +8712,7 @@ startContainer
 |
 |
 !
-endParent
+endContainer
 )
 {
 continue
@@ -8744,7 +8744,7 @@ false
 int32_t
 endOffset
 =
-endParent
+endContainer
 -
 >
 DOMPointToOffset
@@ -8783,7 +8783,7 @@ this
 mDoc
 startContainer
 startOffset
-endParent
+endContainer
 endOffset
 )
 ;
