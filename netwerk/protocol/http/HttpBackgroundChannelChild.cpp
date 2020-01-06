@@ -1897,7 +1897,7 @@ self
 {
 MOZ_ASSERT
 (
-NS_IsMainThread
+OnSocketThread
 (
 )
 )
