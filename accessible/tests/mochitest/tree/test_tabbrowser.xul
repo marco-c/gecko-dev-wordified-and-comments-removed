@@ -1294,8 +1294,6 @@ tabs
 /
 /
 Test
-/
-/
 gA11yEventDumpToConsole
 =
 true
@@ -1321,6 +1319,12 @@ doTest
 (
 )
 {
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 /
 /
 Load
