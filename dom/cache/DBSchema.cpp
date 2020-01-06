@@ -1658,15 +1658,6 @@ TYPE_WEB_MANIFEST
 nsIContentPolicy
 :
 :
-TYPE_SAVEAS_DOWNLOAD
-=
-=
-43
-&
-&
-nsIContentPolicy
-:
-:
 TYPE_INTERNAL_SCRIPT
 =
 =
