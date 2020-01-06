@@ -188,6 +188,11 @@ js
 "
 )
 ;
+const
+{
+GeckoDriver
+}
+=
 Cu
 .
 import
@@ -205,6 +210,8 @@ driver
 .
 js
 "
+{
+}
 )
 ;
 const
@@ -253,6 +260,11 @@ js
 "
 )
 ;
+const
+{
+DebuggerTransport
+}
+=
 Cu
 .
 import
@@ -270,6 +282,8 @@ transport
 .
 js
 "
+{
+}
 )
 ;
 XPCOMUtils
@@ -1501,7 +1515,6 @@ notifyObservers
 (
 this
 NOTIFY_RUNNING
-false
 )
 ;
 this
@@ -1633,6 +1646,7 @@ conn
 .
 id
 }
++
 from
 {
 clientSocket
@@ -2252,7 +2266,6 @@ whatHo
 )
 ;
 }
-;
 send
 (
 msg
@@ -2331,7 +2344,6 @@ resp
 )
 ;
 }
-;
 sendMessage
 (
 msg

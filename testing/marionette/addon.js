@@ -251,8 +251,6 @@ listener
 =
 {
 onInstallEnded
-:
-function
 (
 install
 addon
@@ -267,8 +265,6 @@ id
 ;
 }
 onInstallFailed
-:
-function
 (
 install
 )
@@ -285,8 +281,6 @@ error
 ;
 }
 onInstalled
-:
-function
 (
 addon
 )

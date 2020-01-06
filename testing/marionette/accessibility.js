@@ -22,7 +22,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -34,7 +34,7 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 Cu
@@ -731,7 +731,6 @@ element
 )
 ;
 }
-;
 isActionableRole
 (
 accessible

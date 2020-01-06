@@ -161,12 +161,9 @@ tab
 linkedBrowser
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 ;
 browser
@@ -209,12 +206,9 @@ win
 gBrowser
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 ;
 browser
@@ -475,8 +469,6 @@ contentBrowser
 currentURI
 ;
 }
-else
-{
 throw
 new
 NoSuchWindowError
@@ -493,7 +485,6 @@ browser
 "
 )
 ;
-}
 }
 get
 rect

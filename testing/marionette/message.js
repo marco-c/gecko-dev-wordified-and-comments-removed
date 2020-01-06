@@ -121,8 +121,7 @@ Marionette
 "
 )
 ;
-this
-.
+const
 MessageOrigin
 =
 {
@@ -210,11 +209,8 @@ data
 }
 }
 ;
-this
-.
-Command
-=
 class
+Command
 {
 constructor
 (
@@ -473,7 +469,6 @@ params
 ;
 }
 }
-;
 Command
 .
 TYPE
@@ -543,8 +538,6 @@ capabilities
 ]
 }
 set
-:
-function
 (
 obj
 prop
@@ -614,9 +607,7 @@ true
 ;
 }
 }
-;
-this
-.
+const
 ResponseBody
 =
 (
@@ -631,11 +622,8 @@ Proxy
 validator
 )
 ;
-this
-.
-Response
-=
 class
+Response
 {
 constructor
 (
@@ -954,7 +942,6 @@ resp
 ;
 }
 }
-;
 Response
 .
 TYPE

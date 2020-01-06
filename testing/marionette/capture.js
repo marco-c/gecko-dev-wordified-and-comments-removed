@@ -229,7 +229,7 @@ null
 }
 )
 {
-let
+const
 scale
 =
 win
@@ -370,7 +370,15 @@ if
 highlights
 )
 {
-return
+throw
+new
+TypeError
+(
+"
+Missing
+highlights
+"
+)
 ;
 }
 context
@@ -617,9 +625,9 @@ toString
 let
 padding
 =
-'
+"
 00000000
-'
+"
 ;
 let
 paddedValue
@@ -656,4 +664,3 @@ join
 )
 ;
 }
-;

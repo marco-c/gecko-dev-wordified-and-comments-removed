@@ -442,13 +442,6 @@ getWindow
 el
 )
 ;
-const
-doc
-=
-win
-.
-document
-;
 if
 (
 el
@@ -984,7 +977,6 @@ win
 ;
 }
 }
-;
 interaction
 .
 selectOption
@@ -1040,14 +1032,6 @@ elements
 )
 ;
 }
-let
-win
-=
-getWindow
-(
-el
-)
-;
 let
 containerEl
 =
@@ -1188,7 +1172,6 @@ addEventListener
 beforeunload
 "
 handleEvent
-false
 )
 ;
 win

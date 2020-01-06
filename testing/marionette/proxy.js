@@ -497,21 +497,17 @@ debug
 Received
 DOM
 event
-"
 {
 event
 .
 type
 }
-"
 for
-"
 {
 event
 .
 target
 }
-"
 )
 ;
 switch
@@ -661,7 +657,6 @@ unload
 this
 .
 closeHandler
-false
 )
 ;
 if
@@ -706,7 +701,6 @@ TabClose
 this
 .
 closeHandler
-false
 )
 ;
 }
@@ -746,7 +740,6 @@ unload
 this
 .
 closeHandler
-false
 )
 ;
 if
@@ -791,7 +784,6 @@ TabClose
 this
 .
 closeHandler
-false
 )
 ;
 }
@@ -947,8 +939,6 @@ const
 msg
 =
 {
-type
-:
 type
 data
 :
@@ -1107,7 +1097,6 @@ for
 let
 [
 p
-cb
 ]
 of
 this
@@ -1178,11 +1167,8 @@ ownPriorityGetterTrap
 ;
 }
 ;
-this
-.
-AsyncChromeSender
-=
 class
+AsyncChromeSender
 {
 constructor
 (
@@ -1388,7 +1374,6 @@ proxy
 ;
 }
 }
-;
 proxy
 .
 toChrome

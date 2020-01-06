@@ -152,6 +152,13 @@ action
 "
 ]
 ;
+const
+{
+pprint
+}
+=
+error
+;
 this
 .
 action
@@ -2328,8 +2335,6 @@ in
 (
 name
 this
-error
-.
 pprint
 Unknown
 pointer
@@ -2432,8 +2437,6 @@ in
 (
 name
 this
-error
-.
 pprint
 Unknown
 pointerType
@@ -2554,8 +2557,6 @@ in
 (
 type
 ACTIONS
-error
-.
 pprint
 Unknown
 action
@@ -2623,8 +2624,6 @@ throw
 new
 InvalidArgumentError
 (
-error
-.
 pprint
 Expected
 obj
@@ -2666,8 +2665,6 @@ pointerType
 )
 ;
 }
-else
-{
 return
 new
 action
@@ -2679,7 +2676,6 @@ name
 (
 )
 ;
-}
 }
 }
 action
@@ -2915,8 +2911,6 @@ assert
 defined
 (
 subtype
-error
-.
 pprint
 Expected
 subtype
@@ -3085,8 +3079,6 @@ assert
 string
 (
 attr
-error
-.
 pprint
 Expected
 string
@@ -3117,7 +3109,6 @@ subtype
 subtype
 ;
 }
-;
 toString
 (
 )
@@ -3290,8 +3281,6 @@ assert
 string
 (
 key
-error
-.
 pprint
 (
 "
@@ -3346,8 +3335,6 @@ positiveInteger
 actionItem
 .
 button
-error
-.
 pprint
 Expected
 '
@@ -3410,8 +3397,6 @@ positiveInteger
 item
 .
 duration
-error
-.
 pprint
 Expected
 '
@@ -3475,8 +3460,6 @@ integer
 item
 .
 x
-error
-.
 pprint
 Expected
 '
@@ -3524,8 +3507,6 @@ integer
 item
 .
 y
-error
-.
 pprint
 Expected
 '
@@ -3557,8 +3538,6 @@ new
 UnsupportedOperationError
 (
 )
-;
-break
 ;
 case
 action
@@ -3593,8 +3572,6 @@ positiveInteger
 item
 .
 duration
-error
-.
 pprint
 Expected
 '
@@ -3660,8 +3637,6 @@ assert
 array
 (
 actions
-error
-.
 pprint
 Expected
 '
@@ -3838,8 +3813,6 @@ assert
 string
 (
 id
-error
-.
 pprint
 Expected
 '
@@ -3868,8 +3841,6 @@ assert
 array
 (
 actionItems
-error
-.
 pprint
 (
 "
@@ -4079,8 +4050,6 @@ PointerParameters
 )
 ;
 }
-else
-{
 return
 new
 action
@@ -4094,14 +4063,12 @@ pointerType
 ;
 }
 }
-}
 ;
 action
 .
 processPointerAction
 =
 function
-processPointerAction
 (
 id
 pointerParams
@@ -4899,10 +4866,9 @@ container
 )
 {
 return
-function
-(
 a
-)
+=
+>
 {
 let
 inputState
@@ -5024,6 +4990,9 @@ tickDuration
 )
 ;
 }
+return
+undefined
+;
 }
 ;
 }
@@ -5295,12 +5264,9 @@ a
 button
 )
 ;
-action
-.
-inputsToCancel
-.
-push
-(
+let
+copy
+=
 Object
 .
 assign
@@ -5316,6 +5282,14 @@ action
 PointerUp
 }
 )
+;
+action
+.
+inputsToCancel
+.
+push
+(
+copy
 )
 ;
 switch
@@ -5400,8 +5374,6 @@ is
 supported
 "
 )
-;
-break
 ;
 default
 :
@@ -5729,6 +5701,7 @@ frame
 innerWidth
 }
 )
++
 and
 height
 (
@@ -6343,4 +6316,8 @@ el
 )
 ;
 }
+return
+{
+}
+;
 }
