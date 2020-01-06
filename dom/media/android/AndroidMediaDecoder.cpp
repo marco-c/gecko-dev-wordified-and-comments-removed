@@ -65,6 +65,7 @@ AndroidMediaReader
 (
 this
 mType
+mResource
 )
 )
 ;

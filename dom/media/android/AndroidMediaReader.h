@@ -145,6 +145,9 @@ const
 MediaContainerType
 &
 aContainerType
+MediaResource
+*
+aResource
 )
 ;
 nsresult
