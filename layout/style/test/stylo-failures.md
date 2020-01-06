@@ -1062,7 +1062,7 @@ servo
 #
 15482
 [
-7
+3
 ]
 *
 test_author_specified_style
