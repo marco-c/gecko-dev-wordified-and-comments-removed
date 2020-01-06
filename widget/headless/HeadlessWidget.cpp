@@ -860,6 +860,12 @@ mWindowType
 =
 =
 eWindowType_dialog
+|
+|
+mWindowType
+=
+=
+eWindowType_sheet
 "
 Raising
 a
@@ -1050,6 +1056,12 @@ mWindowType
 =
 =
 eWindowType_dialog
+|
+|
+mWindowType
+=
+=
+eWindowType_sheet
 )
 )
 {
