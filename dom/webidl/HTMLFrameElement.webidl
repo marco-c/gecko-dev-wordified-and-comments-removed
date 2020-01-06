@@ -207,6 +207,7 @@ scrolling
 ;
 [
 CEReactions
+NeedsSubjectPrincipal
 SetterThrows
 ]
 attribute

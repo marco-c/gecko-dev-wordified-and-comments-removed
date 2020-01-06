@@ -155,9 +155,11 @@ GetSandboxFlags
 void
 GetSrc
 (
-nsAString
+nsString
 &
 aSrc
+nsIPrincipal
+&
 )
 const
 {
@@ -179,6 +181,9 @@ const
 nsAString
 &
 aSrc
+nsIPrincipal
+&
+aTriggeringPrincipal
 ErrorResult
 &
 aError
@@ -191,6 +196,7 @@ nsGkAtoms
 :
 src
 aSrc
+aTriggeringPrincipal
 aError
 )
 ;

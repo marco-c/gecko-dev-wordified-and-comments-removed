@@ -287,7 +287,7 @@ allowed
 "
 )
 ;
-wrappedFrame
+frame
 .
 src
 =
@@ -331,6 +331,11 @@ finish
 1000
 )
 ;
+}
+{
+once
+:
+true
 }
 )
 ;

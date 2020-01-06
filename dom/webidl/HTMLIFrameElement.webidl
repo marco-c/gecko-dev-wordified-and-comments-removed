@@ -202,6 +202,7 @@ HTMLElement
 {
 [
 CEReactions
+NeedsSubjectPrincipal
 SetterThrows
 Pure
 ]
