@@ -631,14 +631,6 @@ AppendNativeAnonymousChildren
 (
 )
 ;
-void
-AppendNativeAnonymousChildrenFromFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
 const
 nsIContent
 *
