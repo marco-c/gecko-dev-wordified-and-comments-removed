@@ -96,7 +96,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -699,7 +699,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -2057,7 +2057,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -3159,7 +3159,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -4493,7 +4493,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -6924,7 +6924,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -7848,7 +7848,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -9368,7 +9368,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -9662,7 +9662,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -10221,7 +10221,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -10250,7 +10250,7 @@ serde_derive
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -12275,7 +12275,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -14431,7 +14431,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -14988,7 +14988,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -17687,7 +17687,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -19072,7 +19072,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -20384,7 +20384,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -24926,7 +24926,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -24971,6 +24971,45 @@ servo
 /
 webrender
 )
+"
+]
+[
+[
+package
+]
+]
+name
+=
+"
+msg_tests
+"
+version
+=
+"
+0
+.
+0
+.
+1
+"
+dependencies
+=
+[
+"
+msg
+0
+.
+0
+.
+1
+"
+"
+size_of_test
+0
+.
+0
+.
+1
 "
 ]
 [
@@ -25700,7 +25739,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -26868,7 +26907,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -28279,7 +28318,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -30935,7 +30974,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -31249,7 +31288,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -32049,7 +32088,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -33020,7 +33059,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -33049,7 +33088,7 @@ serde_derive
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -34709,7 +34748,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -36008,7 +36047,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -36522,7 +36561,7 @@ version
 .
 0
 .
-8
+14
 "
 source
 =
@@ -36556,7 +36595,7 @@ serde_derive
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -36631,7 +36670,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -36672,7 +36711,7 @@ version
 .
 0
 .
-8
+14
 "
 source
 =
@@ -36733,9 +36772,9 @@ index
 serde_derive_internals
 0
 .
-15
+16
 .
-1
+0
 (
 registry
 +
@@ -36803,9 +36842,9 @@ version
 "
 0
 .
-15
+16
 .
-1
+0
 "
 source
 =
@@ -37032,7 +37071,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -37234,6 +37273,14 @@ index
 "
 "
 metrics_tests
+0
+.
+0
+.
+1
+"
+"
+msg_tests
 0
 .
 0
@@ -39231,7 +39278,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -39627,7 +39674,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -40174,7 +40221,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -41237,7 +41284,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -42523,7 +42570,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -43488,7 +43535,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -46202,7 +46249,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -46231,7 +46278,7 @@ serde_derive
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -46829,7 +46876,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -47191,7 +47238,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -49144,7 +49191,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -58236,7 +58283,7 @@ serde
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -58261,7 +58308,7 @@ index
 "
 =
 "
-c2f530d36fb84ec48fb7146936881f026cdbf4892028835fd9398475f82c1bb4
+bcb6a7637a47663ee073391a139ed07851f27ed2532c2abc88c6bf27a16cdf34
 "
 "
 checksum
@@ -58304,7 +58351,7 @@ serde_derive
 .
 0
 .
-8
+14
 (
 registry
 +
@@ -58329,16 +58376,16 @@ index
 "
 =
 "
-10552fad5500771f3902d0c5ba187c5881942b811b7ba0d8fbbfbf84d80806d3
+812ff66056fd9a9a5b7c119714243b0862cf98340e7d4b5ee05a932c40d5ea6c
 "
 "
 checksum
 serde_derive_internals
 0
 .
-15
+16
 .
-1
+0
 (
 registry
 +
@@ -58363,7 +58410,7 @@ index
 "
 =
 "
-37aee4e0da52d801acfbc0cc219eb1eda7142112339726e427926a6f6ee65d3a
+bd381f6d01a6616cdba8530492d453b7761b456ba974e98768a18cad2cd76f58
 "
 "
 checksum
