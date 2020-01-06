@@ -14780,7 +14780,9 @@ mCrashReporter
 >
 GenerateMinidumpAndPair
 (
-this
+Process
+(
+)
 nullptr
 NS_LITERAL_CSTRING
 (
