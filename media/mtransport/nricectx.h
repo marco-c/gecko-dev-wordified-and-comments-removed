@@ -965,12 +965,6 @@ size
 )
 ;
 }
-bool
-HasStreamsToConnect
-(
-)
-const
-;
 const
 std
 :
