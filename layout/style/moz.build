@@ -648,6 +648,11 @@ ServoElementSnapshotTable
 h
 '
 '
+ServoFontFeatureValuesRule
+.
+h
+'
+'
 ServoImportRule
 .
 h
@@ -1327,6 +1332,11 @@ cpp
 '
 '
 ServoElementSnapshot
+.
+cpp
+'
+'
+ServoFontFeatureValuesRule
 .
 cpp
 '

@@ -70,6 +70,11 @@ RawServoDocumentRule
 )
 SERVO_ARC_TYPE
 (
+FontFeatureValuesRule
+RawServoFontFeatureValuesRule
+)
+SERVO_ARC_TYPE
+(
 RuleNode
 RawServoRuleNode
 )
