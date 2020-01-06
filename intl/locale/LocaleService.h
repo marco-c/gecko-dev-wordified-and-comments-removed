@@ -465,6 +465,12 @@ LocaleService
 (
 )
 ;
+nsAutoCStringN
+<
+16
+>
+mDefaultLocale
+;
 nsTArray
 <
 nsCString
