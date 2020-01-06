@@ -283,6 +283,16 @@ ld
 .
 sh
 "
+"
+*
+.
+ogv
+"
+"
+*
+.
+webm
+"
 ]
 SPEC_BASE_PATH
 =
