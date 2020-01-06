@@ -4646,7 +4646,7 @@ insertOneBookmark
 )
 ;
 int
-deleted
+changed
 =
 mProvider
 .
@@ -4686,10 +4686,10 @@ mAsserter
 is
 (
 (
-deleted
+changed
 =
 =
-1
+2
 )
 true
 "
@@ -5055,7 +5055,7 @@ close
 (
 )
 ;
-deleted
+changed
 =
 mProvider
 .
@@ -5104,7 +5104,7 @@ mAsserter
 is
 (
 (
-deleted
+changed
 =
 =
 1
@@ -5171,7 +5171,7 @@ insertOneBookmark
 (
 )
 ;
-deleted
+changed
 =
 mProvider
 .
@@ -5197,10 +5197,10 @@ mAsserter
 is
 (
 (
-deleted
+changed
 =
 =
-1
+2
 )
 true
 "
@@ -5427,7 +5427,7 @@ close
 (
 )
 ;
-deleted
+changed
 =
 0
 ;
@@ -5448,7 +5448,7 @@ CONTENT_URI
 parentId
 )
 ;
-deleted
+changed
 =
 mProvider
 .
@@ -5481,7 +5481,7 @@ mAsserter
 is
 (
 (
-deleted
+changed
 =
 =
 0
@@ -14526,7 +14526,7 @@ entry
 )
 ;
 int
-deleted
+changed
 =
 mProvider
 .
@@ -14566,10 +14566,10 @@ mAsserter
 is
 (
 (
-deleted
+changed
 =
 =
-1
+2
 )
 true
 "
