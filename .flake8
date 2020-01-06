@@ -42,3 +42,10 @@ line
 length
 =
 99
+exclude
+=
+testing
+/
+mochitest
+/
+pywebsocket
