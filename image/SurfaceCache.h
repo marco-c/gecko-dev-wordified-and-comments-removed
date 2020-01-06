@@ -187,13 +187,13 @@ mFlags
 mFlags
 ;
 }
-uint32_t
+PLDHashNumber
 Hash
 (
 )
 const
 {
-uint32_t
+PLDHashNumber
 hash
 =
 HashGeneric
@@ -328,7 +328,7 @@ aFlags
 {
 }
 static
-uint32_t
+PLDHashNumber
 HashSIC
 (
 const

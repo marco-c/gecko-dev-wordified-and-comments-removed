@@ -308,7 +308,7 @@ mMeetOrSlice
 )
 ;
 }
-uint32_t
+PLDHashNumber
 Hash
 (
 )
