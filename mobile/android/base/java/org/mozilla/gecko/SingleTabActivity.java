@@ -173,17 +173,6 @@ getUnsafe
 }
 else
 {
-GeckoActivityMonitor
-.
-getInstance
-(
-)
-.
-onActivityNewIntent
-(
-this
-)
-;
 loadTabFromIntent
 (
 intent

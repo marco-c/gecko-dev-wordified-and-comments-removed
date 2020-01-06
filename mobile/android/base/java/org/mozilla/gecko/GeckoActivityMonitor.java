@@ -178,15 +178,6 @@ savedInstanceState
 )
 {
 }
-public
-void
-onActivityNewIntent
-(
-Activity
-activity
-)
-{
-}
 Override
 public
 void
