@@ -295,7 +295,7 @@ get
 "
 GET
 request
-eventTimings
+update
 "
 )
 ;
@@ -550,7 +550,7 @@ get
 "
 GET
 request
-eventTimings
+update
 "
 )
 ;
@@ -767,7 +767,7 @@ get
 XHR
 GET
 request
-eventTimings
+update
 "
 )
 ;
@@ -975,7 +975,7 @@ get
 XHR
 POST
 request
-eventTimings
+update
 "
 )
 ;

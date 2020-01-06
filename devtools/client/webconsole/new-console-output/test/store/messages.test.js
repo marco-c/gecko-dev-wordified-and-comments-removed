@@ -4266,7 +4266,7 @@ get
 "
 GET
 request
-eventTimings
+update
 "
 )
 ;
@@ -4317,7 +4317,7 @@ get
 XHR
 GET
 request
-eventTimings
+update
 "
 )
 ;
@@ -4404,7 +4404,7 @@ get
 XHR
 GET
 request
-eventTimings
+update
 "
 )
 ;
