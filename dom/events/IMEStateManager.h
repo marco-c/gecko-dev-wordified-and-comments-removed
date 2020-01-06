@@ -624,6 +624,12 @@ DestroyIMEContentObserver
 )
 ;
 static
+void
+NotifyIMEOfBlurForChildProcess
+(
+)
+;
+static
 bool
 IsEditable
 (
