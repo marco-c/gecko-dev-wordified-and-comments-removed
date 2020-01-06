@@ -7714,7 +7714,7 @@ mDefaultSocketType
 .
 Adopt
 (
-0
+nullptr
 )
 ;
 else
@@ -11180,11 +11180,7 @@ p
 token
 !
 =
-(
-char
-*
-)
-0
+nullptr
 ;
 token
 =
@@ -11229,11 +11225,7 @@ if
 trim
 !
 =
-(
-char
-*
-)
-0
+nullptr
 )
 *
 trim

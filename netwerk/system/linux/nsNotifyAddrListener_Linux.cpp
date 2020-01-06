@@ -1064,7 +1064,7 @@ list
 ifa
 !
 =
-NULL
+nullptr
 ;
 ifa
 =
@@ -1085,7 +1085,7 @@ ifa
 ifa_addr
 =
 =
-NULL
+nullptr
 )
 continue
 ;
