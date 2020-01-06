@@ -76,6 +76,9 @@ nsIContentFrameMessageManager
 interface
 nsIWebBrowserChrome3
 ;
+interface
+nsIPrincipal
+;
 native
 CommandsArray
 (
@@ -206,6 +209,9 @@ linksCount
 in
 nsIDroppedLinkItem
 links
+in
+nsIPrincipal
+triggeringPrincipal
 )
 ;
 readonly
