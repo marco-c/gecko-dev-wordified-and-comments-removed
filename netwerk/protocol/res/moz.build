@@ -99,6 +99,11 @@ nsISubstitutingProtocolHandler
 .
 idl
 '
+'
+nsISubstitutionObserver
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
