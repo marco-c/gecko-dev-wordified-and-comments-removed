@@ -12893,7 +12893,7 @@ parentStyle
 styleSet
 -
 >
-ResolveTransientServoStyle
+ResolveStyleLazily
 (
 aElement
 CSSPseudoElementType

@@ -2524,7 +2524,7 @@ result
 servoSet
 -
 >
-ResolveTransientStyle
+ResolveStyleLazily
 (
 aElement
 pseudoType
