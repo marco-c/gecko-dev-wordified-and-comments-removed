@@ -256,12 +256,9 @@ insertBeforeID
 =
 PageActions
 .
-nextActionID
+nextActionIDInPanel
 (
 action
-PageActions
-.
-actions
 )
 ;
 let
@@ -376,9 +373,6 @@ panelViewNode
 ;
 }
 }
-return
-node
-;
 }
 _makePanelButtonNodeForAction
 (
@@ -1484,12 +1478,9 @@ insertBeforeID
 =
 PageActions
 .
-nextActionID
+nextActionIDInUrlbar
 (
 action
-PageActions
-.
-actionsInUrlbar
 )
 ;
 let
@@ -1552,7 +1543,6 @@ remove
 }
 }
 return
-null
 ;
 }
 let
@@ -1729,9 +1719,6 @@ label
 }
 }
 }
-return
-node
-;
 }
 _makeUrlbarButtonNode
 (
