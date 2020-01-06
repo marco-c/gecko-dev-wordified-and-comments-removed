@@ -392,6 +392,7 @@ aStretch
 uint8_t
 aStyle
 )
+override
 ;
 virtual
 gfxFontEntry
@@ -415,6 +416,7 @@ aFontData
 uint32_t
 aLength
 )
+override
 ;
 void
 GetSystemFontList
@@ -464,6 +466,7 @@ gfxFontFamily
 &
 aFamilyArray
 )
+override
 ;
 void
 WillShutdown
