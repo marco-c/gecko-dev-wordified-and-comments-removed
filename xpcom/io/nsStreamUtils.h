@@ -51,10 +51,6 @@ nsIInputStreamCallback
 >
 NS_NewInputStreamReadyEvent
 (
-const
-char
-*
-aName
 nsIInputStreamCallback
 *
 aNotify
