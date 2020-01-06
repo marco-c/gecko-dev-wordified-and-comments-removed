@@ -697,7 +697,7 @@ new
 ErrorStatus
 :
 :
-SessionNotCreated
+UnsupportedOperation
 "
 Session
 is
