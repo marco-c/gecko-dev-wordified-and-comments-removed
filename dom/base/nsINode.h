@@ -2651,10 +2651,11 @@ Unlink
 (
 )
 ;
-nsTObserverArray
+nsAutoTObserverArray
 <
 nsIMutationObserver
 *
+1
 >
 mMutationObservers
 ;
@@ -6041,10 +6042,11 @@ GetExistingSlots
 )
 ;
 }
-nsTObserverArray
+nsAutoTObserverArray
 <
 nsIMutationObserver
 *
+1
 >
 *
 GetMutationObservers
