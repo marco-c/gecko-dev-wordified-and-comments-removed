@@ -687,12 +687,6 @@ pub
 mod
 values
 ;
-pub
-use
-servo_arc
-as
-stylearc
-;
 use
 std
 :
