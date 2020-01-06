@@ -7739,7 +7739,8 @@ _get_hg_revisions_from_git
 (
 )
         
-return
+last_revs
+=
 subprocess
 .
 check_output
@@ -7759,6 +7760,10 @@ log
 template
 '
 '
+{
+rev
+}
+:
 {
 node
 }
@@ -7805,6 +7810,32 @@ _topsrcdir
 splitlines
 (
 )
+        
+return
+[
+i
+.
+split
+(
+'
+:
+'
+)
+[
+-
+1
+]
+for
+i
+in
+sorted
+(
+last_revs
+reverse
+=
+True
+)
+]
     
 def
 _find_pushheads
