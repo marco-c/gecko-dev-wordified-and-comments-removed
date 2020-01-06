@@ -387,6 +387,15 @@ property
 "
 ]
 "
+dot
+-
+notation
+"
+:
+"
+error
+"
+"
 max
 -
 len

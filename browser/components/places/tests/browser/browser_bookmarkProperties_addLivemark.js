@@ -40,8 +40,11 @@ itemId
 PlacesUIUtils
 .
 leftPaneQueries
-.
+[
+"
 UnfiledBookmarks
+"
+]
 ;
 tree
 .

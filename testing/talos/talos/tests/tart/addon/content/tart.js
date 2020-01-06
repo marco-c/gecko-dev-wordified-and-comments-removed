@@ -4187,8 +4187,11 @@ sequenceArray
 concat
 (
 subtests
-.
+[
+"
 init
+"
+]
 )
 ;
 sequenceArray
@@ -4219,8 +4222,11 @@ sequenceArray
 concat
 (
 subtests
-.
+[
+"
 restore
+"
+]
 )
 ;
 this

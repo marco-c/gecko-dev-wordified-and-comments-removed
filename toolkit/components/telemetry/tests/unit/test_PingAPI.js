@@ -3456,8 +3456,11 @@ keyedHistograms
 [
 id
 ]
-.
+[
+"
 a
+"
+]
 .
 sum
 1

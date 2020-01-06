@@ -1467,8 +1467,11 @@ itemId
 PlacesUIUtils
 .
 leftPaneQueries
-.
+[
+"
 History
+"
+]
 )
 {
 PlacesQueryBuilder
@@ -1490,8 +1493,11 @@ itemId
 PlacesUIUtils
 .
 leftPaneQueries
-.
+[
+"
 Downloads
+"
+]
 )
 {
 PlacesQueryBuilder

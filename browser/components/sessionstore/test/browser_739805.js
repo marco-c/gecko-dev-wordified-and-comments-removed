@@ -226,8 +226,11 @@ formdata
 formdata
 .
 id
-.
+[
+"
 foo
+"
+]
 "
 bar
 "

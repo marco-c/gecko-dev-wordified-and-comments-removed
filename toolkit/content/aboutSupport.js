@@ -5183,8 +5183,11 @@ key
 =
 =
 data
-.
+[
+"
 hasUserNamespaces
+"
+]
 )
 {
 continue

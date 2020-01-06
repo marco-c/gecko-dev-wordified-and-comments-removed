@@ -134,6 +134,15 @@ property
 "
 ]
 "
+dot
+-
+notation
+"
+:
+"
+error
+"
+"
 generator
 -
 star

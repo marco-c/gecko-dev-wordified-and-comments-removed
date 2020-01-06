@@ -3285,8 +3285,11 @@ GB
 &
 &
 availableLocales
-.
+[
+"
 en
+"
+]
 "
 shouldn
 '

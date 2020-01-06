@@ -172,8 +172,11 @@ promiseEngineMetadata
 do_check_eq
 (
 metadata
-.
+[
+"
 bug645970
+"
+]
 .
 alias
 "

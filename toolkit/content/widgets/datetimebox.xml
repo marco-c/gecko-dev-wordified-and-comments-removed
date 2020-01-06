@@ -4015,8 +4015,11 @@ shouldShowSecondField
 )
 {
 options
-.
+[
+"
 second
+"
+]
 =
 "
 numeric

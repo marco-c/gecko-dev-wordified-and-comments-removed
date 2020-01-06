@@ -97,8 +97,11 @@ registry
 getService
 (
 Ci
-.
+[
+"
 nsIChromeRegistry
+"
+]
 )
 ;
 let

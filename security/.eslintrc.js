@@ -75,6 +75,15 @@ case
 error
 "
 "
+dot
+-
+notation
+"
+:
+"
+error
+"
+"
 generator
 -
 star

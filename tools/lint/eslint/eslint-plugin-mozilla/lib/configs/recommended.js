@@ -352,15 +352,6 @@ return
 error
 "
 "
-dot
--
-notation
-"
-:
-"
-error
-"
-"
 eol
 -
 last

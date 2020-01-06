@@ -50,6 +50,15 @@ max
 }
 ]
 "
+dot
+-
+notation
+"
+:
+"
+error
+"
+"
 indent
 "
 :

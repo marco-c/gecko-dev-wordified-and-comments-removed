@@ -910,8 +910,11 @@ Assert
 equal
 (
 foundCookie
-.
+[
+"
 name
+"
+]
 COOKIE_NAME
 "
 Check
@@ -925,8 +928,11 @@ Assert
 equal
 (
 foundCookie
-.
+[
+"
 value
+"
+]
 USER_CONTEXTS
 [
 userContextId

@@ -18653,8 +18653,11 @@ aExtraParams
 ;
 }
 aExtraParams
-.
+[
+"
 instanceID
+"
+]
 =
 this
 .
@@ -22570,8 +22573,11 @@ addonFor
 (
 this
 )
-.
+[
+"
 aboutURL
+"
+]
 :
 null
 ;

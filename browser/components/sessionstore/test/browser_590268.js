@@ -361,8 +361,11 @@ i
 ]
 .
 extData
-.
+[
+"
 uniq
+"
+]
 ;
 if
 (

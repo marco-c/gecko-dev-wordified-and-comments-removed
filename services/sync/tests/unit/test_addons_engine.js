@@ -1069,8 +1069,11 @@ false
 reconciler
 .
 addons
-.
+[
+"
 DUMMY
+"
+]
 =
 record
 ;

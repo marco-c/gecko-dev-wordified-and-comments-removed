@@ -2939,8 +2939,11 @@ histogramSnapshots
 [
 process
 ]
-.
+[
+"
 __expired__
+"
+]
 undefined
 )
 ;

@@ -1026,8 +1026,11 @@ if
 (
 typeof
 obj
-.
+[
+"
 toJSON
+"
+]
 =
 =
 "

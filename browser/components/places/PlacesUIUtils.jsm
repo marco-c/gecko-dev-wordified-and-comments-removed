@@ -5748,8 +5748,11 @@ allBookmarksFolderId
 this
 .
 leftPaneQueries
-.
+[
+"
 AllBookmarks
+"
+]
 ;
 }
 getLeftPaneQueryNameFromId

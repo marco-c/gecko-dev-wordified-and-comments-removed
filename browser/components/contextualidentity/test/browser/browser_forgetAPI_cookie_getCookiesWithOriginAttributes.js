@@ -314,8 +314,11 @@ nsICookie2
 is
 (
 foundCookie
-.
+[
+"
 name
+"
+]
 cookieName
 "
 Check
@@ -327,8 +330,11 @@ name
 is
 (
 foundCookie
-.
+[
+"
 value
+"
+]
 USER_CONTEXTS
 [
 userContextId

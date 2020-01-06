@@ -521,8 +521,11 @@ if
 (
 !
 options
-.
+[
+"
 content_uri
+"
+]
 )
 {
 throw
@@ -551,8 +554,11 @@ if
 (
 !
 options
-.
+[
+"
 channel_id
+"
+]
 )
 {
 throw

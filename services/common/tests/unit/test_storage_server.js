@@ -4228,8 +4228,11 @@ request
 response
 .
 headers
-.
+[
+"
 allow
+"
+]
 "
 DELETE
 "

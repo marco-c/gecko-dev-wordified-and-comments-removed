@@ -530,8 +530,11 @@ offset
 )
 >
 aPref
-.
+[
+"
 threshold
+"
+]
 )
 {
 let
@@ -550,8 +553,11 @@ if
 (
 !
 aPref
-.
+[
+"
 latched
+"
+]
 |
 |
 (
