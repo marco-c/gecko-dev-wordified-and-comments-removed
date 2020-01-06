@@ -23,17 +23,6 @@ android
 .
 exoplayer2
 .
-C
-;
-import
-com
-.
-google
-.
-android
-.
-exoplayer2
-.
 Format
 ;
 import
@@ -830,7 +819,7 @@ code
 }
 WrapForJNI
 private
-GeckoHlsSample
+GeckoHLSSample
 [
 ]
 getSamples
@@ -843,7 +832,7 @@ number
 {
 ConcurrentLinkedQueue
 <
-GeckoHlsSample
+GeckoHLSSample
 >
 samples
 =
@@ -916,7 +905,7 @@ samples
 toArray
 (
 new
-GeckoHlsSample
+GeckoHLSSample
 [
 samples
 .

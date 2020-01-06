@@ -35,13 +35,6 @@ CryptoInfo
 import
 android
 .
-os
-.
-Handler
-;
-import
-android
-.
 util
 .
 Log
@@ -448,7 +441,7 @@ mDemuxedInputSamples
 .
 offer
 (
-GeckoHlsSample
+GeckoHLSSample
 .
 EOS
 )
@@ -604,10 +597,10 @@ size
 0
 )
 ;
-GeckoHlsSample
+GeckoHLSSample
 sample
 =
-GeckoHlsSample
+GeckoHLSSample
 .
 create
 (
