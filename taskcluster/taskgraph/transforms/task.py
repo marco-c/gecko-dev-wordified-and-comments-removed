@@ -2188,6 +2188,8 @@ SY
 -
 stylo
 -
+disabled
+-
 e10s
 '
 :
@@ -2201,7 +2203,8 @@ by
 TaskCluster
 with
 e10s
-stylo
+Stylo
+disabled
 '
     
 '
@@ -2226,7 +2229,7 @@ by
 TaskCluster
 with
 e10s
-stylo
+Stylo
 sequential
 '
     

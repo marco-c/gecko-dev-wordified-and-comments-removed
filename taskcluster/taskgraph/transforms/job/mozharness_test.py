@@ -178,6 +178,8 @@ x64
 linux64
 -
 stylo
+-
+disabled
 '
 :
 '
@@ -412,6 +414,8 @@ windows10
 64
 -
 stylo
+-
+disabled
 '
 :
 '
@@ -517,6 +521,8 @@ windows7
 32
 -
 stylo
+-
+disabled
 '
 :
 '
