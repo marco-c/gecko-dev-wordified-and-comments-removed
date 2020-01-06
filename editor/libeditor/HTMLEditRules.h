@@ -330,6 +330,15 @@ aResult
 )
 override
 ;
+NS_IMETHOD_
+(
+bool
+)
+DocumentIsEmpty
+(
+)
+override
+;
 NS_IMETHOD
 DocumentModified
 (
