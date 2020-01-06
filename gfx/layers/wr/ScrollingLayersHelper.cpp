@@ -311,7 +311,7 @@ MovingDownToChildren
 ;
 contentRect
 .
-MoveBy
+MoveTo
 (
 clipBounds
 .
