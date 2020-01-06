@@ -956,10 +956,10 @@ mCalledPropertyDtor
 ;
 #
 endif
-uint32_t
+bool
 mMayHaveOpacityAnim
 ;
-uint32_t
+bool
 mMayHaveTransformAnim
 ;
 }
