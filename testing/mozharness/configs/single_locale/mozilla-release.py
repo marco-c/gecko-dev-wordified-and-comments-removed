@@ -74,13 +74,9 @@ mozilla
 .
 org
 /
-releases
-/
 l10n
-/
-mozilla
 -
-release
+central
 "
     
 "

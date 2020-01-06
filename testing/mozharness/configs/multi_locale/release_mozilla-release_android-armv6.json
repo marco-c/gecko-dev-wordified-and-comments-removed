@@ -264,13 +264,9 @@ mozilla
 .
 org
 /
-releases
-/
 l10n
-/
-mozilla
 -
-release
+central
 "
 "
 required_config_vars
@@ -286,9 +282,9 @@ l10n_dir
 "
 :
 "
-mozilla
+l10n
 -
-release
+central
 "
 "
 merge_locales

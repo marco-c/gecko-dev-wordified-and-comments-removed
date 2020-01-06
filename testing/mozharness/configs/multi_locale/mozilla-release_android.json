@@ -217,13 +217,9 @@ mozilla
 .
 org
 /
-releases
-/
 l10n
-/
-mozilla
 -
-release
+central
 "
 "
 hg_l10n_tag
@@ -237,9 +233,9 @@ l10n_dir
 "
 :
 "
-mozilla
+l10n
 -
-release
+central
 "
 "
 merge_locales
