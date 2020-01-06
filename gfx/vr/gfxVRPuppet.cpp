@@ -3136,7 +3136,7 @@ mPuppetHMD
 nullptr
 ;
 }
-void
+bool
 VRSystemManagerPuppet
 :
 :
@@ -3175,6 +3175,9 @@ AppendElement
 (
 mPuppetHMD
 )
+;
+return
+true
 ;
 }
 bool

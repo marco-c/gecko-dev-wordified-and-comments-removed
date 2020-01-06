@@ -1112,6 +1112,8 @@ Length
 i
 )
 {
+if
+(
 mManagers
 [
 i
@@ -1122,10 +1124,19 @@ GetHMDs
 (
 displays
 )
+)
+{
+break
 ;
+}
 }
 bool
 displayInfoChanged
+=
+false
+;
+bool
+displaySetChanged
 =
 false
 ;
@@ -1145,7 +1156,7 @@ Count
 )
 )
 {
-displayInfoChanged
+displaySetChanged
 =
 true
 ;
@@ -1178,7 +1189,7 @@ GetDisplayID
 )
 )
 {
-displayInfoChanged
+displaySetChanged
 =
 true
 ;
@@ -1205,7 +1216,7 @@ break
 }
 if
 (
-displayInfoChanged
+displaySetChanged
 )
 {
 mVRDisplays
@@ -1246,6 +1257,9 @@ display
 if
 (
 displayInfoChanged
+|
+|
+displaySetChanged
 |
 |
 aMustDispatch
