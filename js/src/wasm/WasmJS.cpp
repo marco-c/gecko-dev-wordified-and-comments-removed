@@ -2112,7 +2112,7 @@ error
 SharedModule
 module
 =
-Compile
+CompileInitialTier
 (
 *
 bytecode
@@ -5109,7 +5109,7 @@ error
 SharedModule
 module
 =
-Compile
+CompileInitialTier
 (
 *
 bytecode
@@ -10716,7 +10716,7 @@ override
 {
 module
 =
-Compile
+CompileInitialTier
 (
 *
 bytecode
@@ -11442,7 +11442,7 @@ override
 {
 module
 =
-Compile
+CompileInitialTier
 (
 *
 bytecode

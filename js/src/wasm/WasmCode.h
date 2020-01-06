@@ -1264,9 +1264,6 @@ UniqueMetadataTier
 metadata2_
 ;
 mutable
-mozilla
-:
-:
 Atomic
 <
 bool
