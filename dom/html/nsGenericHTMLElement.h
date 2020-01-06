@@ -131,9 +131,6 @@ class
 nsIDOMHTMLMenuElement
 ;
 class
-nsIEditor
-;
-class
 nsIFormControlFrame
 ;
 class
@@ -2971,7 +2968,10 @@ aRv
 virtual
 already_AddRefed
 <
-nsIEditor
+mozilla
+:
+:
+TextEditor
 >
 GetAssociatedEditor
 (
