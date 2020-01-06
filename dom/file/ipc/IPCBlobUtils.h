@@ -32,9 +32,6 @@ namespace
 dom
 {
 class
-IPCBlob
-;
-class
 nsIContentChild
 ;
 class
