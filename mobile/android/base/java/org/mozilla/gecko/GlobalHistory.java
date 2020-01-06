@@ -1034,7 +1034,7 @@ NotifierRunnable
 (
 GeckoAppShell
 .
-getContext
+getApplicationContext
 (
 )
 )
