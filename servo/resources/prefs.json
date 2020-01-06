@@ -710,4 +710,13 @@ enabled
 "
 :
 true
+"
+webgl
+.
+testing
+.
+context_creation_error
+"
+:
+false
 }
