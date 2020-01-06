@@ -10498,7 +10498,7 @@ selection
 selection
 -
 >
-RemoveAllRanges
+RemoveAllRangesTemporarily
 (
 )
 ;

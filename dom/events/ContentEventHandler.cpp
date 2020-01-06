@@ -15330,7 +15330,7 @@ rv
 mSelection
 -
 >
-RemoveAllRanges
+RemoveAllRangesTemporarily
 (
 )
 ;

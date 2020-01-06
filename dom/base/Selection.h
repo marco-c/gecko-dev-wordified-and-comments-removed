@@ -825,6 +825,11 @@ ErrorResult
 aRv
 )
 ;
+nsresult
+RemoveAllRangesTemporarily
+(
+)
+;
 void
 Stringify
 (
@@ -1761,6 +1766,12 @@ RefPtr
 nsRange
 >
 mAnchorFocusRange
+;
+RefPtr
+<
+nsRange
+>
+mCachedRange
 ;
 RefPtr
 <
