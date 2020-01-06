@@ -7900,7 +7900,9 @@ mainWindow
 openPreferences
 (
 "
-paneAdvanced
+privacy
+-
+reports
 "
 {
 origin
