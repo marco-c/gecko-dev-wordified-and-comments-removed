@@ -80,7 +80,7 @@ level2
 "
 >
 <
-input
+select
 id
 =
 "
@@ -91,6 +91,10 @@ autocomplete
 "
 country
 "
+>
+<
+/
+select
 >
 <
 input
@@ -131,7 +135,7 @@ street
 addr
 "
 "
-country
+email
 "
 ]
 expectedResult
@@ -345,7 +349,7 @@ fieldName
 "
 :
 "
-country
+email
 "
 }
 formId
@@ -556,7 +560,7 @@ level2
 "
 >
 <
-input
+select
 id
 =
 "
@@ -567,6 +571,10 @@ autocomplete
 "
 country
 "
+>
+<
+/
+select
 >
 <
 /
@@ -1134,7 +1142,7 @@ formId
 +
 "
 >
-input
+*
 [
 autocomplete
 =

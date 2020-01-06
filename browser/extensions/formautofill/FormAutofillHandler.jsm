@@ -269,6 +269,13 @@ fieldName
 ;
 if
 (
+element
+instanceof
+Ci
+.
+nsIDOMHTMLInputElement
+&
+&
 value
 )
 {
