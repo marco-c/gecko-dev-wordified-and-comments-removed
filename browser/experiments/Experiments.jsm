@@ -852,7 +852,11 @@ experiment
 .
 then
 (
+(
+{
 addons
+}
+)
 =
 >
 {

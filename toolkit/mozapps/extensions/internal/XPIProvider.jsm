@@ -16643,6 +16643,9 @@ addons
 {
 resolve
 (
+{
+addons
+:
 addons
 .
 filter
@@ -16672,6 +16675,10 @@ addon
 appDisabled
 )
 )
+fullData
+:
+true
+}
 )
 ;
 }
@@ -16824,7 +16831,14 @@ Promise
 .
 resolve
 (
+{
+addons
+:
 result
+fullData
+:
+false
+}
 )
 ;
 }
