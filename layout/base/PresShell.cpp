@@ -18775,7 +18775,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -18854,7 +18854,7 @@ Element
 aElement
 int32_t
 aNameSpaceID
-nsIAtom
+nsAtom
 *
 aAttribute
 int32_t
@@ -43721,7 +43721,7 @@ if
 content
 )
 {
-nsIAtom
+nsAtom
 *
 tag
 ;
