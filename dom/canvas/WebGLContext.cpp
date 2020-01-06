@@ -3150,6 +3150,16 @@ PREFER_ES3
 ;
 }
 else
+if
+(
+!
+gfxPrefs
+:
+:
+WebGL1AllowCoreProfile
+(
+)
+)
 {
 flags
 |
