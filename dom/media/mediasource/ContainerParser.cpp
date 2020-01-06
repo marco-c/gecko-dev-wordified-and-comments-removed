@@ -42,8 +42,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 MoofParser
 .
 h
@@ -88,8 +86,6 @@ MOZ_FMP4
 #
 include
 "
-mp4_demuxer
-/
 AtomType
 .
 h
@@ -104,8 +100,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 Stream
 .
 h

@@ -16,8 +16,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 Atom
 .
 h
@@ -25,8 +23,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 AtomType
 .
 h

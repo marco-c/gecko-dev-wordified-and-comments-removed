@@ -71,8 +71,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 MoofParser
 .
 h
@@ -80,8 +78,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 MP4Metadata
 .
 h
@@ -89,8 +85,6 @@ h
 #
 include
 "
-mp4_demuxer
-/
 Stream
 .
 h
