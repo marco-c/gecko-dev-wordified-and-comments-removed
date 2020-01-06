@@ -2730,6 +2730,10 @@ tpmozafterpaint
 =
 False
     
+tpchrome
+=
+False
+    
 gecko_profile_interval
 =
 10
@@ -2892,6 +2896,10 @@ tploadnocache
 True
     
 tpmozafterpaint
+=
+False
+    
+tpchrome
 =
 False
     
@@ -3980,6 +3988,10 @@ tppagecycles
 =
 12
     
+tpchrome
+=
+False
+    
 timeout
 =
 10000
@@ -4263,6 +4275,10 @@ alert_threshold
 5
 .
 0
+    
+tpchrome
+=
+False
 register_test
 (
 )
@@ -4884,6 +4900,10 @@ tpmozafterpaint
 =
 True
     
+tpchrome
+=
+False
+    
 gecko_profile_interval
 =
 1
@@ -4967,6 +4987,10 @@ tppagecycles
 25
     
 tpmozafterpaint
+=
+False
+    
+tpchrome
 =
 False
     
@@ -5130,6 +5154,10 @@ tppagecycles
 tpmozafterpaint
 =
 True
+    
+tpchrome
+=
+False
     
 preferences
 =
