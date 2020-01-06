@@ -190,8 +190,6 @@ unsigned
 long
 rangeCount
 ;
-/
-/
 readonly
 attribute
 DOMString
@@ -542,7 +540,7 @@ rawType
 readonly
 attribute
 short
-type
+selectionType
 ;
 [
 ChromeOnly
