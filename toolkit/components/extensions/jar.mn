@@ -251,6 +251,17 @@ extensions
 /
 ext
 -
+tabs
+-
+base
+.
+js
+content
+/
+extensions
+/
+ext
+-
 theme
 .
 js
