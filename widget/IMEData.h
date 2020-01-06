@@ -643,6 +643,9 @@ bool
 mMayBeIMEUnaware
 ;
 bool
+mHasHandledUserInput
+;
+bool
 mInPrivateBrowsing
 ;
 bool
