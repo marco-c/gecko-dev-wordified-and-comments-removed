@@ -267,10 +267,6 @@ rb
 -
 tools
 /
-tryselect
--
-tools
-/
 update
 -
 packaging
