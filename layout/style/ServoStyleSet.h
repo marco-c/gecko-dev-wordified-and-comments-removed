@@ -1420,6 +1420,9 @@ mStylistState
 uint64_t
 mUserFontSetUpdateGeneration
 ;
+uint32_t
+mUserFontCacheUpdateGeneration
+;
 bool
 mNeedsRestyleAfterEnsureUniqueInner
 ;
