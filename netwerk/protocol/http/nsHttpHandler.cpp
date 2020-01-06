@@ -7029,7 +7029,7 @@ HTTP_PREF
 "
 referer
 .
-spoofOnionSource
+hideOnionSource
 "
 )
 )
@@ -7047,7 +7047,7 @@ HTTP_PREF
 "
 referer
 .
-spoofOnionSource
+hideOnionSource
 "
 )
 &
