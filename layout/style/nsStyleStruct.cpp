@@ -14374,9 +14374,6 @@ FillImageLayerList
 (
 mLayers
 &
-nsStyleImageLayers
-:
-:
 Layer
 :
 :
@@ -14389,9 +14386,6 @@ FillImageLayerList
 (
 mLayers
 &
-nsStyleImageLayers
-:
-:
 Layer
 :
 :
@@ -14404,9 +14398,6 @@ FillImageLayerList
 (
 mLayers
 &
-nsStyleImageLayers
-:
-:
 Layer
 :
 :
@@ -14419,9 +14410,6 @@ FillImageLayerList
 (
 mLayers
 &
-nsStyleImageLayers
-:
-:
 Layer
 :
 :
@@ -14434,9 +14422,6 @@ FillImageLayerList
 (
 mLayers
 &
-nsStyleImageLayers
-:
-:
 Layer
 :
 :
@@ -14449,9 +14434,6 @@ FillImageLayerList
 (
 mLayers
 &
-nsStyleImageLayers
-:
-:
 Layer
 :
 :
@@ -14488,9 +14470,6 @@ FillImageLayerList
 (
 mLayers
 &
-nsStyleImageLayers
-:
-:
 Layer
 :
 :
@@ -14503,9 +14482,6 @@ FillImageLayerList
 (
 mLayers
 &
-nsStyleImageLayers
-:
-:
 Layer
 :
 :
@@ -14518,9 +14494,6 @@ FillImageLayerList
 (
 mLayers
 &
-nsStyleImageLayers
-:
-:
 Layer
 :
 :
