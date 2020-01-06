@@ -600,6 +600,17 @@ uint32_t
 ssrc
 )
 {
+if
+(
+mType
+!
+=
+SdpMediaSection
+:
+:
+kApplication
+)
+{
 mSsrcs
 .
 push_back
@@ -607,6 +618,7 @@ push_back
 ssrc
 )
 ;
+}
 }
 bool
 GetActive
