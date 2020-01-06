@@ -2532,6 +2532,11 @@ result
 =
 true
 ;
+*
+aCountWritten
+=
+0
+;
 return
 NS_ERROR_ABORT
 ;
@@ -2637,6 +2642,11 @@ aClosure
 result
 =
 true
+;
+*
+aCountRead
+=
+0
 ;
 return
 NS_ERROR_ABORT
