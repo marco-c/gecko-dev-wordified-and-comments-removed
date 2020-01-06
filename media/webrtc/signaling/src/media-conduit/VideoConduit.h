@@ -205,6 +205,7 @@ namespace
 mozilla
 {
 const
+unsigned
 int
 kVideoMtu
 =
