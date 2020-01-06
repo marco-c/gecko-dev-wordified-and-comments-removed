@@ -1377,8 +1377,7 @@ aBeforeFlag
 RawServoAnimationValueBorrowedOrNull
 Gecko_AnimationGetBaseStyle
 (
-void
-*
+RawServoAnimationValueTableBorrowed
 aBaseStyles
 nsCSSPropertyID
 aProperty

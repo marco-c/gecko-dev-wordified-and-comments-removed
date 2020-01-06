@@ -1354,8 +1354,7 @@ Servo_AnimationCompose
 void
 RawServoAnimationValueMapBorrowedMut
 animation_values
-void
-*
+RawServoAnimationValueTableBorrowed
 base_values
 nsCSSPropertyID
 property

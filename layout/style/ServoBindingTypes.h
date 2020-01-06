@@ -190,6 +190,11 @@ mozilla
 ServoElementSnapshot
 ;
 typedef
+void
+*
+RawServoAnimationValueTableBorrowed
+;
+typedef
 nsINode
 RawGeckoNode
 ;
