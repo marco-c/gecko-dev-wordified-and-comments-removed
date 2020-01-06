@@ -52,6 +52,10 @@ slog_atomic
 ;
 extern
 crate
+slog_extra
+;
+extern
+crate
 slog_stdlog
 ;
 extern
