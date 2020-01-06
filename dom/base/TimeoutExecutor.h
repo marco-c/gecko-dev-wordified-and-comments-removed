@@ -55,6 +55,9 @@ mTimer
 TimeStamp
 mDeadline
 ;
+TimeDuration
+mAllowedEarlyFiringTime
+;
 enum
 class
 Mode
