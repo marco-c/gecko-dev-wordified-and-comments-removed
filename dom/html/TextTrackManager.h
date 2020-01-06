@@ -421,6 +421,12 @@ ReportTelemetryForCue
 )
 ;
 bool
+IsShutdown
+(
+)
+const
+;
+bool
 mCueTelemetryReported
 ;
 class
