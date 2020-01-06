@@ -1222,11 +1222,13 @@ devtools
 /
 client
 /
-responsivedesign
+responsive
+.
+html
 /
-responsivedesign
--
-child
+browser
+/
+content
 .
 js
 "
