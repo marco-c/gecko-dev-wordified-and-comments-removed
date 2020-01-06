@@ -184,6 +184,7 @@ GoBack
 GoForward
 Refresh
 GetTitle
+GetPageSource
 GetWindowHandle
 GetWindowHandles
 Close
@@ -3134,6 +3135,8 @@ GetCurrentUrl
 |
 GetTitle
 |
+GetPageSource
+|
 GetWindowHandle
 |
 IsDisplayed
@@ -5288,6 +5291,18 @@ Some
 (
 "
 getTitle
+"
+)
+None
+)
+GetPageSource
+=
+>
+(
+Some
+(
+"
+getPageSource
 "
 )
 None
