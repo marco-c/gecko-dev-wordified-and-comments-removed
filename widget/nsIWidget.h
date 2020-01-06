@@ -1727,6 +1727,15 @@ aMode
 0
 ;
 virtual
+void
+SuppressAnimation
+(
+bool
+aSuppress
+)
+{
+}
+virtual
 nsSizeMode
 SizeMode
 (
