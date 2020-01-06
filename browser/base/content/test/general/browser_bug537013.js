@@ -274,10 +274,16 @@ texts
 ;
 gFindBar
 .
-toggleHighlight
+getElement
 (
-true
+"
+highlight
+"
 )
+.
+checked
+=
+true
 ;
 gBrowser
 .
@@ -895,7 +901,7 @@ New
 window
 findbar
 has
-disabled
+enabled
 buttons
 !
 "
