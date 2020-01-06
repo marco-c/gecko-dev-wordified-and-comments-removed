@@ -3700,7 +3700,7 @@ mObservesMutationsForPrint
 (
 false
 )
-mSuppressInterruptibleReflows
+mWasLastReflowInterrupted
 (
 false
 )
@@ -18319,7 +18319,9 @@ flushType
 >
 =
 (
-mSuppressInterruptibleReflows
+SuppressInterruptibleReflows
+(
+)
 ?
 FlushType
 :
@@ -42576,7 +42578,7 @@ Clear
 (
 )
 ;
-mSuppressInterruptibleReflows
+mWasLastReflowInterrupted
 =
 true
 ;
