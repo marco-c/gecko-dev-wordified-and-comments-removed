@@ -6737,9 +6737,13 @@ CycleCollectedJSContext
 FinalizeIncrementally
 )
 {
-NS_DispatchToCurrentThread
+NS_IdleDispatchToCurrentThread
+(
+do_AddRef
 (
 mFinalizeRunnable
+)
+2500
 )
 ;
 }
