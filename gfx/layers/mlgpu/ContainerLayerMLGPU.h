@@ -233,6 +233,17 @@ aManager
 )
 override
 ;
+Maybe
+<
+gfx
+:
+:
+IntRect
+>
+ComputeIntermediateSurfaceBounds
+(
+)
+;
 private
 :
 RefPtr
