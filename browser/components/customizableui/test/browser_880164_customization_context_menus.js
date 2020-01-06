@@ -29,6 +29,7 @@ add_task
 (
 async
 function
+home_button_context
 (
 )
 {
@@ -231,6 +232,7 @@ add_task
 (
 async
 function
+tabstrip_context
 (
 )
 {
@@ -494,6 +496,7 @@ add_task
 (
 async
 function
+empty_toolbar_context
 (
 )
 {
@@ -710,6 +713,7 @@ add_task
 (
 async
 function
+urlbar_context
 (
 )
 {
@@ -887,6 +891,7 @@ add_task
 (
 async
 function
+searchbar_context_move_to_panel_and_back
 (
 )
 {
@@ -1097,6 +1102,7 @@ add_task
 (
 async
 function
+context_within_panel
 (
 )
 {
@@ -1313,6 +1319,7 @@ add_task
 (
 async
 function
+context_home_button_in_customize_mode
 (
 )
 {
@@ -1497,6 +1504,7 @@ add_task
 (
 async
 function
+context_click_in_palette
 (
 )
 {
@@ -1618,6 +1626,7 @@ add_task
 (
 async
 function
+context_click_in_customize_mode
 (
 )
 {
@@ -1758,6 +1767,7 @@ add_task
 (
 async
 function
+context_click_customize_mode_panel_not_opened
 (
 )
 {
@@ -1978,6 +1988,7 @@ add_task
 (
 async
 function
+context_combined_buttons_toolbar
 (
 )
 {
@@ -2044,12 +2055,24 @@ button
 await
 shownPromise
 ;
+let
+moveToToolbar
+=
 contextMenu
 .
-childNodes
-[
-0
-]
+querySelector
+(
+"
+.
+customize
+-
+context
+-
+moveToToolbar
+"
+)
+;
+moveToToolbar
 .
 doCommand
 (
@@ -2282,6 +2305,7 @@ add_task
 (
 async
 function
+context_after_customization_panel
 (
 )
 {
@@ -2484,6 +2508,7 @@ add_task
 (
 async
 function
+custom_context_menus
 (
 )
 {
