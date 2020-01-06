@@ -18,13 +18,6 @@ plugin
 :
 mozilla
 /
-recommended
-"
-"
-plugin
-:
-mozilla
-/
 browser
 -
 test

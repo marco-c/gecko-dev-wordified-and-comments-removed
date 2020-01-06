@@ -8,17 +8,6 @@ module
 exports
 =
 {
-extends
-:
-[
-"
-plugin
-:
-mozilla
-/
-recommended
-"
-]
 globals
 :
 {
