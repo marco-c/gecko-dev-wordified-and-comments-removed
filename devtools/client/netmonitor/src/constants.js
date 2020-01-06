@@ -432,6 +432,9 @@ responseCookies
 responseContent
 "
 "
+responseContentAvailable
+"
+"
 responseContentDataUri
 "
 "
