@@ -291,6 +291,7 @@ HelperThreadState
 wasmWorklist
 (
 lock
+compileMode_
 )
 ;
 MOZ_ASSERT
@@ -331,6 +332,7 @@ HelperThreadState
 wasmFinishedList
 (
 lock
+compileMode_
 )
 ;
 MOZ_ASSERT
@@ -370,6 +372,7 @@ HelperThreadState
 harvestFailedWasmJobs
 (
 lock
+compileMode_
 )
 ;
 MOZ_ASSERT
@@ -414,6 +417,9 @@ HelperThreadState
 )
 .
 wasmCompilationInProgress
+(
+compileMode_
+)
 )
 ;
 HelperThreadState
@@ -421,6 +427,9 @@ HelperThreadState
 )
 .
 wasmCompilationInProgress
+(
+compileMode_
+)
 =
 false
 ;
@@ -1433,6 +1442,7 @@ HelperThreadState
 wasmFailed
 (
 lock
+compileMode_
 )
 )
 {
@@ -1466,6 +1476,7 @@ HelperThreadState
 harvestWasmError
 (
 lock
+compileMode_
 )
 )
 ;
@@ -1484,6 +1495,7 @@ HelperThreadState
 wasmFinishedList
 (
 lock
+compileMode_
 )
 .
 empty
@@ -1504,6 +1516,7 @@ HelperThreadState
 wasmFinishedList
 (
 lock
+compileMode_
 )
 .
 popCopy
@@ -4714,6 +4727,9 @@ cpuCount
 threads
 .
 wasmCompilationInProgress
+(
+compileMode_
+)
 .
 compareExchange
 (
@@ -4739,6 +4755,7 @@ HelperThreadState
 wasmFailed
 (
 lock
+compileMode_
 )
 )
 ;
@@ -4751,6 +4768,7 @@ HelperThreadState
 wasmWorklist
 (
 lock
+compileMode_
 )
 .
 empty
@@ -4767,6 +4785,7 @@ HelperThreadState
 wasmFinishedList
 (
 lock
+compileMode_
 )
 .
 empty
@@ -4827,6 +4846,7 @@ i
 +
 +
 )
+{
 tasks_
 .
 infallibleEmplaceBack
@@ -4834,9 +4854,11 @@ infallibleEmplaceBack
 *
 env_
 tier_
+compileMode_
 COMPILATION_LIFO_DEFAULT_CHUNK_SIZE
 )
 ;
+}
 if
 (
 !
@@ -5092,6 +5114,7 @@ if
 StartOffThreadWasmCompile
 (
 currentTask_
+compileMode_
 )
 )
 return
