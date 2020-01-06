@@ -1514,6 +1514,7 @@ stylesheets
 {
 Stylesheet
 StylesheetContents
+Origin
 OriginSet
 }
 ;
@@ -14261,6 +14262,10 @@ stylesheets
 .
 get
 (
+Origin
+:
+:
+Author
 index
 )
 .

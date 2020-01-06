@@ -235,6 +235,7 @@ origin
 {
 Origin
 OriginSet
+OriginSetIterator
 PerOrigin
 PerOriginIter
 }

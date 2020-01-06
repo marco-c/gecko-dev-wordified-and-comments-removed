@@ -354,6 +354,13 @@ origin
 ;
 }
 }
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 OriginSetIterator
