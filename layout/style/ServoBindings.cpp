@@ -6601,6 +6601,8 @@ bool
 aRepeating
 bool
 aLegacySyntax
+bool
+aMozLegacySyntax
 uint32_t
 aStopCount
 )
@@ -6641,6 +6643,13 @@ result
 mLegacySyntax
 =
 aLegacySyntax
+;
+result
+-
+>
+mMozLegacySyntax
+=
+aMozLegacySyntax
 ;
 result
 -
