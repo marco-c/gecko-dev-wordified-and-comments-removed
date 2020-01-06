@@ -284,6 +284,9 @@ return
 mRemaining
 ;
 }
+mozilla
+:
+:
 Result
 <
 uint8_t
@@ -332,6 +335,9 @@ return
 ptr
 ;
 }
+mozilla
+:
+:
 Result
 <
 uint16_t
@@ -388,6 +394,9 @@ ptr
 )
 ;
 }
+mozilla
+:
+:
 Result
 <
 int16_t
@@ -444,6 +453,9 @@ ptr
 )
 ;
 }
+mozilla
+:
+:
 Result
 <
 uint32_t
@@ -510,6 +522,9 @@ ptr
 ]
 ;
 }
+mozilla
+:
+:
 Result
 <
 int32_t
@@ -556,6 +571,9 @@ unwrap
 )
 ;
 }
+mozilla
+:
+:
 Result
 <
 int32_t
@@ -643,6 +661,9 @@ return
 result
 ;
 }
+mozilla
+:
+:
 Result
 <
 uint32_t
@@ -699,6 +720,9 @@ ptr
 )
 ;
 }
+mozilla
+:
+:
 Result
 <
 int32_t
@@ -755,6 +779,9 @@ ptr
 )
 ;
 }
+mozilla
+:
+:
 Result
 <
 uint64_t
@@ -811,6 +838,9 @@ ptr
 )
 ;
 }
+mozilla
+:
+:
 Result
 <
 int64_t
