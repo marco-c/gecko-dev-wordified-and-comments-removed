@@ -109,7 +109,7 @@ frame
 :
 FRAME_COLOR
 "
-background_tab_text
+tab_text
 "
 :
 TAB_TEXT_COLOR
