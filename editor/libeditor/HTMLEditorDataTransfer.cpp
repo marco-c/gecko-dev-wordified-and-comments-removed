@@ -264,13 +264,6 @@ h
 #
 include
 "
-nsIDOMHTMLImageElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLInputElement
 .
 h
