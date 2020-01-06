@@ -1561,6 +1561,15 @@ Window
 {
 [
 SameObject
+Pref
+=
+"
+dom
+.
+worklet
+.
+enabled
+"
 ]
 readonly
 attribute

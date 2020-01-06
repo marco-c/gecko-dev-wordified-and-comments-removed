@@ -85,6 +85,15 @@ Global
 Worklet
 PaintWorklet
 )
+Pref
+=
+"
+dom
+.
+worklet
+.
+enabled
+"
 Exposed
 =
 PaintWorklet

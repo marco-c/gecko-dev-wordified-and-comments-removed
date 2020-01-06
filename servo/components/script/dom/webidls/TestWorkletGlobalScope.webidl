@@ -83,6 +83,15 @@ Global
 Worklet
 TestWorklet
 )
+Pref
+=
+"
+dom
+.
+worklet
+.
+enabled
+"
 Exposed
 =
 TestWorklet

@@ -75,6 +75,15 @@ worklets
 #
 worklet
 [
+Pref
+=
+"
+dom
+.
+worklet
+.
+enabled
+"
 Exposed
 =
 (

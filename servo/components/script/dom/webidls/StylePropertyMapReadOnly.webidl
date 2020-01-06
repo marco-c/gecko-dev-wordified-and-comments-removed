@@ -92,6 +92,15 @@ to
 Window
 ?
 [
+Pref
+=
+"
+dom
+.
+worklet
+.
+enabled
+"
 Exposed
 =
 (

@@ -108,6 +108,15 @@ issues
 /
 2611
 [
+Pref
+=
+"
+dom
+.
+worklet
+.
+enabled
+"
 Exposed
 =
 Worklet

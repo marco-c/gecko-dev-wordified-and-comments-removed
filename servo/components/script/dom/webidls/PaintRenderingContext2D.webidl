@@ -79,6 +79,15 @@ api
 #
 paintrenderingcontext2d
 [
+Pref
+=
+"
+dom
+.
+worklet
+.
+enabled
+"
 Exposed
 =
 PaintWorklet

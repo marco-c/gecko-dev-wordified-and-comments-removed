@@ -79,6 +79,15 @@ api
 #
 paintsize
 [
+Pref
+=
+"
+dom
+.
+worklet
+.
+enabled
+"
 Exposed
 =
 PaintWorklet
