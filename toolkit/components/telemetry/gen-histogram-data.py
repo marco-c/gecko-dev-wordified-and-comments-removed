@@ -224,7 +224,7 @@ label_count
 print
 (
 "
-const
+constexpr
 HistogramInfo
 gHistograms
 [
