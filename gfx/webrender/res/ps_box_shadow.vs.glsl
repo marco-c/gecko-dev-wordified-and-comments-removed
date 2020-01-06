@@ -83,7 +83,7 @@ fetch_boxshadow
 (
 prim
 .
-prim_index
+specific_prim_address
 )
 ;
 RectWithSize
@@ -93,7 +93,7 @@ fetch_instance_geometry
 (
 prim
 .
-prim_index
+specific_prim_address
 +
 BS_HEADER_VECS
 +

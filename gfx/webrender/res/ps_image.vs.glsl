@@ -79,7 +79,7 @@ fetch_image
 (
 prim
 .
-prim_index
+specific_prim_address
 )
 ;
 ResourceRect
