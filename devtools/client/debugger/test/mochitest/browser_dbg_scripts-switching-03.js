@@ -255,7 +255,7 @@ gL10N
 getFormatStr
 (
 "
-errorLoadingText2
+errorLoadingText3
 "
 "
 "
