@@ -159,11 +159,11 @@ style_traits
 :
 :
 {
-ToCss
+Comma
 OneOrMoreSeparated
-CommaSeparator
 ParseError
 StyleParseError
+ToCss
 }
 ;
 use
@@ -233,7 +233,7 @@ Source
 type
 S
 =
-CommaSeparator
+Comma
 ;
 }
 #

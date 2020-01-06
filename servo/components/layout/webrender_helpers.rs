@@ -70,22 +70,16 @@ use
 style
 :
 :
-computed_values
-:
-:
-filter
-;
-use
-style
-:
-:
 values
 :
 :
 computed
 :
 :
+{
 BorderStyle
+Filter
+}
 ;
 use
 style
@@ -101,6 +95,8 @@ effects
 :
 :
 Filter
+as
+GenericFilter
 ;
 use
 webrender_traits
@@ -1412,10 +1408,10 @@ FilterOp
 impl
 ToFilterOps
 for
-filter
-:
-:
-T
+Vec
+<
+Filter
+>
 {
 fn
 to_filter_ops
@@ -1444,8 +1440,6 @@ with_capacity
 (
 self
 .
-0
-.
 len
 (
 )
@@ -1456,8 +1450,6 @@ filter
 in
 self
 .
-0
-.
 iter
 (
 )
@@ -1466,7 +1458,7 @@ match
 *
 filter
 {
-Filter
+GenericFilter
 :
 :
 Blur
@@ -1490,7 +1482,7 @@ Blur
 radius
 )
 )
-Filter
+GenericFilter
 :
 :
 Brightness
@@ -1514,7 +1506,7 @@ Brightness
 amount
 )
 )
-Filter
+GenericFilter
 :
 :
 Contrast
@@ -1538,7 +1530,7 @@ Contrast
 amount
 )
 )
-Filter
+GenericFilter
 :
 :
 Grayscale
@@ -1562,7 +1554,7 @@ Grayscale
 amount
 )
 )
-Filter
+GenericFilter
 :
 :
 HueRotate
@@ -1590,7 +1582,7 @@ radians
 )
 )
 )
-Filter
+GenericFilter
 :
 :
 Invert
@@ -1614,7 +1606,7 @@ Invert
 amount
 )
 )
-Filter
+GenericFilter
 :
 :
 Opacity
@@ -1642,7 +1634,7 @@ into
 )
 )
 )
-Filter
+GenericFilter
 :
 :
 Saturate
@@ -1666,7 +1658,7 @@ Saturate
 amount
 )
 )
-Filter
+GenericFilter
 :
 :
 Sepia
@@ -1690,7 +1682,7 @@ Sepia
 amount
 )
 )
-Filter
+GenericFilter
 :
 :
 DropShadow

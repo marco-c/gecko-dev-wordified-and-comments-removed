@@ -33,11 +33,11 @@ style_traits
 :
 :
 {
+Comma
 OneOrMoreSeparated
-CommaSeparator
-ToCss
 ParseError
 StyleParseError
+ToCss
 }
 ;
 use
@@ -692,7 +692,7 @@ T
 type
 S
 =
-CommaSeparator
+Comma
 ;
 }
 impl

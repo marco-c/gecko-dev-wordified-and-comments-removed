@@ -13006,13 +13006,9 @@ effects
 .
 filter
 .
-clone
-(
-)
-.
 0
 .
-into_vec
+clone
 (
 )
 ;

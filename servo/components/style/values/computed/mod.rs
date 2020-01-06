@@ -208,7 +208,7 @@ self
 effects
 :
 :
-FilterList
+Filter
 ;
 pub
 use
