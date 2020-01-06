@@ -2315,6 +2315,7 @@ arenas_map
 endif
 #
 endif
+MOZ_JEMALLOC_API
 const
 char
 *
@@ -3417,6 +3418,7 @@ p4
 return
 ;
 }
+MOZ_JEMALLOC_API
 void
 (
 *
