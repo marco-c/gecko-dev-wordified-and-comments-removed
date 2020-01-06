@@ -24,3 +24,12 @@ PRFileDesc
 aOutFileDesc
 )
 ;
+nsresult
+NS_OpenAnonymousTemporaryNsIFile
+(
+nsIFile
+*
+*
+aFile
+)
+;
