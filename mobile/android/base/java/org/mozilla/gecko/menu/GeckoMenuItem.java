@@ -160,6 +160,14 @@ ITEM_TYPE_DEFAULT
 ;
 public
 static
+final
+int
+ITEM_TYPE_ICON
+=
+0x01
+;
+public
+static
 interface
 Layout
 {

@@ -6366,6 +6366,13 @@ java
 '
 menu
 /
+MenuItemIcon
+.
+java
+'
+'
+menu
+/
 MenuItemSwitcherLayout
 .
 java
