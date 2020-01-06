@@ -1011,7 +1011,7 @@ busy
 not
 (
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -1080,7 +1080,7 @@ progress
 not
 (
 [
-visuallyselected
+selected
 =
 true
 ]
