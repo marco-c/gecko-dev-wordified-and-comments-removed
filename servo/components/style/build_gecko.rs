@@ -41,7 +41,7 @@ from
 env
 :
 :
-var
+var_os
 (
 "
 OUT_DIR
@@ -657,7 +657,7 @@ from
 env
 :
 :
-var
+var_os
 (
 "
 MOZ_SRC
@@ -739,7 +739,7 @@ from
 env
 :
 :
-var
+var_os
 (
 "
 MOZ_TOPOBJDIR
@@ -904,7 +904,7 @@ from
 env
 :
 :
-var
+var_os
 (
 "
 MOZ_DIST
@@ -4177,7 +4177,7 @@ line
 }
 if
 let
-Ok
+Some
 (
 path
 )
@@ -4185,7 +4185,7 @@ path
 env
 :
 :
-var
+var_os
 (
 "
 STYLO_BUILD_LOG
@@ -4968,7 +4968,7 @@ from
 env
 :
 :
-var
+var_os
 (
 "
 CARGO_MANIFEST_DIR
@@ -5328,7 +5328,7 @@ from
 env
 :
 :
-var
+var_os
 (
 "
 CARGO_MANIFEST_DIR

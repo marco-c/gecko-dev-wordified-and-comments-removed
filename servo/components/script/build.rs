@@ -295,7 +295,7 @@ from
 env
 :
 :
-var
+var_os
 (
 "
 OUT_DIR
@@ -412,7 +412,7 @@ from
 env
 :
 :
-var
+var_os
 (
 "
 OUT_DIR
