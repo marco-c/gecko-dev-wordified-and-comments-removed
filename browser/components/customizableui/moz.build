@@ -135,11 +135,6 @@ PanelMultiView
 jsm
 '
 '
-PanelWideWidgetTracker
-.
-jsm
-'
-'
 ScrollbarSampler
 .
 jsm

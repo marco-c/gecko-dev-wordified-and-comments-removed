@@ -1734,7 +1734,6 @@ showSubView
 (
 aViewId
 aAnchor
-aPlacementArea
 aEvent
 )
 {

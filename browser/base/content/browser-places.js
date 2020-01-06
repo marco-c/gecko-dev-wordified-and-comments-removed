@@ -8771,9 +8771,6 @@ PanelUI
 bookmarks
 "
 anchor
-CustomizableUI
-.
-AREA_PANEL
 event
 )
 ;
