@@ -32,7 +32,9 @@ run_test
 var
 feedFeedURI
 =
-ios
+Services
+.
+io
 .
 newURI
 (
@@ -54,7 +56,9 @@ xml
 var
 httpFeedURI
 =
-ios
+Services
+.
+io
 .
 newURI
 (
@@ -78,7 +82,9 @@ xml
 var
 httpURI
 =
-ios
+Services
+.
+io
 .
 newURI
 (
@@ -100,7 +106,9 @@ xml
 var
 httpsFeedURI
 =
-ios
+Services
+.
+io
 .
 newURI
 (
@@ -124,7 +132,9 @@ xml
 var
 httpsURI
 =
-ios
+Services
+.
+io
 .
 newURI
 (
@@ -274,7 +284,9 @@ function
 (
 )
 {
-ios
+Services
+.
+io
 .
 newURI
 (
@@ -325,7 +337,9 @@ function
 (
 )
 {
-ios
+Services
+.
+io
 .
 newURI
 (
