@@ -264,7 +264,7 @@ FRAME_COLOR
 ]
 ;
 const
-TAB_TEXT_COLOR
+BACKGROUND_TAB_TEXT_COLOR
 =
 [
 207
@@ -309,10 +309,10 @@ frame
 :
 FRAME_COLOR
 "
-tab_text
+background_tab_text
 "
 :
-TAB_TEXT_COLOR
+BACKGROUND_TAB_TEXT_COLOR
 }
 "
 icons
