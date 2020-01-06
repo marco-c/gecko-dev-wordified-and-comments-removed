@@ -219,7 +219,6 @@ uint8_t
 {
 None
 URL
-Image
 Shape
 Box
 }
