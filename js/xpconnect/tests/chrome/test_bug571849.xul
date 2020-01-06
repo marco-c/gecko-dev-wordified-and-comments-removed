@@ -304,8 +304,10 @@ for
 (
 let
 i
-in
-Iterator
+of
+Object
+.
+entries
 (
 docnodes
 )
@@ -328,7 +330,9 @@ i
 is
 (
 index
+"
 0
+"
 "
 enumerated
 the

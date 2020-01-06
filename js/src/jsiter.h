@@ -773,6 +773,13 @@ HandleObject
 obj
 )
 ;
+bool
+IsLegacyIterator
+(
+HandleValue
+v
+)
+;
 extern
 JSObject
 *

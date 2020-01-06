@@ -40,14 +40,6 @@ object
 assertEq
 (
 iter
-instanceof
-Iterator
-false
-)
-;
-assertEq
-(
-iter
 .
 toString
 (
