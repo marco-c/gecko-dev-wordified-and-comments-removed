@@ -121,7 +121,7 @@ layers
 CompositorBridgeParentBase
 *
 aBridge
-GLint
+uint32_t
 *
 aMaxTextureSize
 bool
@@ -380,15 +380,6 @@ get
 return
 ;
 }
-gl
--
->
-fGetIntegerv
-(
-LOCAL_GL_MAX_TEXTURE_SIZE
-mMaxTextureSize
-)
-;
 *
 mUseANGLE
 =
@@ -441,6 +432,7 @@ mEnableProfiler
 mDocHandle
 &
 wrRenderer
+mMaxTextureSize
 )
 )
 {
@@ -573,7 +565,7 @@ DocumentHandle
 *
 mDocHandle
 ;
-GLint
+uint32_t
 *
 mMaxTextureSize
 ;
@@ -766,7 +758,7 @@ docHandle
 =
 nullptr
 ;
-GLint
+uint32_t
 maxTextureSize
 =
 0
