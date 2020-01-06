@@ -4154,10 +4154,6 @@ Matrix
 aMaskTransform
 )
 {
-Save
-(
-)
-;
 mDT
 -
 >
@@ -4331,10 +4327,6 @@ GetUserData
 sDontUseAsSourceKey
 )
 ;
-Save
-(
-)
-;
 if
 (
 pushOpaqueWithCopiedBG
@@ -4393,10 +4385,6 @@ mDT
 -
 >
 PopLayer
-(
-)
-;
-Restore
 (
 )
 ;
