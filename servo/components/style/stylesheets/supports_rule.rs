@@ -1772,6 +1772,11 @@ parse_into
 mut
 declarations
 id
+prop
+.
+into
+(
+)
 &
 context
 input
