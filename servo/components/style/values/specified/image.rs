@@ -320,6 +320,7 @@ GenericImage
 <
 Gradient
 MozImageRect
+SpecifiedUrl
 >
 ;
 #
@@ -567,6 +568,7 @@ MozImageRect
 GenericMozImageRect
 <
 NumberOrPercentage
+SpecifiedUrl
 >
 ;
 impl

@@ -46,6 +46,7 @@ specified
 LengthOrPercentageOrNumber
 NonNegativeLengthOrPercentageOrNumber
 Opacity
+SpecifiedUrl
 }
 ;
 use
@@ -70,6 +71,7 @@ generic
 SVGPaint
 <
 RGBAColor
+SpecifiedUrl
 >
 ;
 no_viewport_percentage
@@ -88,6 +90,7 @@ generic
 SVGPaintKind
 <
 RGBAColor
+SpecifiedUrl
 >
 ;
 #

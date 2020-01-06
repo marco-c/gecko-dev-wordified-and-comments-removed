@@ -41,6 +41,15 @@ use
 values
 :
 :
+computed
+:
+:
+ComputedUrl
+;
+use
+values
+:
+:
 generics
 :
 :
@@ -58,6 +67,7 @@ generic
 SVGPaint
 <
 RGBA
+ComputedUrl
 >
 ;
 pub
@@ -70,6 +80,7 @@ generic
 SVGPaintKind
 <
 RGBA
+ComputedUrl
 >
 ;
 impl

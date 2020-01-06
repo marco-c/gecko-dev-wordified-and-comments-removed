@@ -223,6 +223,7 @@ ClippingShape
 GenericClippingShape
 <
 BasicShape
+SpecifiedUrl
 >
 ;
 pub
@@ -232,6 +233,7 @@ FloatAreaShape
 GenericFloatAreaShape
 <
 BasicShape
+SpecifiedUrl
 >
 ;
 pub
@@ -306,6 +308,7 @@ ShapeSource
 <
 BasicShape
 ReferenceBox
+SpecifiedUrl
 >
 {
 fn
