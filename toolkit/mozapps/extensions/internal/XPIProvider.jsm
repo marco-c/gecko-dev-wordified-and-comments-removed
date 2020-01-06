@@ -1897,7 +1897,7 @@ this
 "
 DB_SCHEMA
 "
-20
+21
 )
 ;
 XPCOMUtils
