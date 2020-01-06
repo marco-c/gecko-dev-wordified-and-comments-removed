@@ -514,6 +514,14 @@ version
 }
 )
 ;
+this
+.
+extension
+.
+isEmbedded
+=
+true
+;
 const
 onBeforeStarted
 =
