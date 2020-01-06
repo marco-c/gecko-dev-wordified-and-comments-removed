@@ -141,6 +141,16 @@ Painting
 "
 )
 \
+_
+(
+ADVANCED_LAYERS
+Feature
+"
+Advanced
+Layers
+"
+)
+\
 /
 *
 Add
