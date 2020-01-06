@@ -1665,7 +1665,7 @@ bundlePrefs
 getString
 (
 "
-savedLoginsExceptions_desc2
+savedLoginsExceptions_desc3
 "
 )
 ]
@@ -4767,7 +4767,7 @@ bundlePrefs
 getString
 (
 "
-savedLoginsExceptions_desc2
+savedLoginsExceptions_desc3
 "
 )
 }
