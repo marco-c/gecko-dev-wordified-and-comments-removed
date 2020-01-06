@@ -714,7 +714,7 @@ webauth
 .
 webauthn_enable_usbtoken
 "
-false
+true
 )
 ;
 pref
