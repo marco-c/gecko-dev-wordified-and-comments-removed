@@ -2522,6 +2522,11 @@ nullptr
 )
 ;
 void
+ClearFixedBackgroundDisplayData
+(
+)
+;
+void
 MarkPreserve3DFramesForDisplayList
 (
 nsIFrame
