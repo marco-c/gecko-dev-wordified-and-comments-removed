@@ -142,6 +142,13 @@ Close
 (
 )
 {
+if
+(
+IsOpen
+(
+)
+)
+{
 Flush
 (
 )
@@ -165,6 +172,7 @@ mBufferPos
 =
 0
 ;
+}
 }
 bool
 IsOpen
