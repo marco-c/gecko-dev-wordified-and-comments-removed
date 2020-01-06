@@ -1917,7 +1917,7 @@ Value
 value
 )
 ;
-inline
+MOZ_ALWAYS_INLINE
 void
 AddTypePropertyId
 (
@@ -1966,7 +1966,7 @@ type
 )
 ;
 }
-inline
+MOZ_ALWAYS_INLINE
 void
 AddTypePropertyId
 (

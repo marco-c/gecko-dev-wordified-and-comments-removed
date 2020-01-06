@@ -2370,6 +2370,7 @@ const
 ;
 #
 endif
+MOZ_ALWAYS_INLINE
 void
 set
 (

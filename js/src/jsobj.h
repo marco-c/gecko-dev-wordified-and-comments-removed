@@ -1865,6 +1865,12 @@ nonProxyIsExtensible
 )
 const
 ;
+bool
+uninlinedNonProxyIsExtensible
+(
+)
+const
+;
 public
 :
 static
