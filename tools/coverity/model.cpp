@@ -212,15 +212,6 @@ expr
 )
 #
 define
-NS_RUNTIMEABORT
-(
-msg
-)
-__coverity_panic__
-(
-)
-#
-define
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_THIS_BEGIN
 (
 _class

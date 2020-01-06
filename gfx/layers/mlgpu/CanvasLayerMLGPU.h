@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsDebug
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h

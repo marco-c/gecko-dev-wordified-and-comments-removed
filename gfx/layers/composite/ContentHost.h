@@ -219,13 +219,6 @@ h
 #
 include
 "
-nsDebug
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
