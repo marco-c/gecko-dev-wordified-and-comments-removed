@@ -559,11 +559,16 @@ product
     
 if
 product
-!
-=
+not
+in
+(
 "
 firefox
 "
+"
+servo
+"
+)
 :
         
 expected_hosts
