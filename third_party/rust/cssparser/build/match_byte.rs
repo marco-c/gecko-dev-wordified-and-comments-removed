@@ -1246,7 +1246,6 @@ None
 )
 ;
 for
-mut
 byte
 in
 table
@@ -1307,7 +1306,6 @@ None
 )
 ;
 for
-mut
 byte
 in
 table
