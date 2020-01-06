@@ -609,14 +609,14 @@ history
 ;
 for
 (
-int
+size_t
 i
 =
 0
 ;
 i
 <
-MAX_RendertraceProperty
+sRendertracePropertyCount
 ;
 i
 +
