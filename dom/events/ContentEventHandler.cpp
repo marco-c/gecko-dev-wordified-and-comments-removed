@@ -448,7 +448,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -2935,7 +2935,7 @@ endNode
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -3894,7 +3894,7 @@ endNode
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -6202,7 +6202,7 @@ endNode
 mFirstSelectedRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -7468,7 +7468,7 @@ endNode
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -7651,7 +7651,7 @@ node
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 )
@@ -14443,7 +14443,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;

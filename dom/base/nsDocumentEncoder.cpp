@@ -3556,7 +3556,7 @@ aNode
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 )
@@ -3986,7 +3986,7 @@ endParent
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;

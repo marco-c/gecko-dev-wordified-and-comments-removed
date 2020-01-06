@@ -2959,7 +2959,7 @@ endNode
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;

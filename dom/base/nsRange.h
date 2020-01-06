@@ -266,7 +266,7 @@ mStartParent
 }
 nsINode
 *
-GetEndParent
+GetEndContainer
 (
 )
 const

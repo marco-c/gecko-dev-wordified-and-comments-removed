@@ -1923,7 +1923,7 @@ endNode
 aDomRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -3102,7 +3102,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -3701,7 +3701,7 @@ return
 mAnchorFocusRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -3807,7 +3807,7 @@ return
 mAnchorFocusRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -4107,7 +4107,7 @@ end
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -4421,7 +4421,7 @@ CompareToRangeEnd
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 range
@@ -4460,7 +4460,7 @@ nsRange
 aSubtract
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 )
@@ -4475,7 +4475,7 @@ SetStartAndEnd
 aSubtract
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 aSubtract
@@ -4487,7 +4487,7 @@ EndOffset
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 range
@@ -5369,7 +5369,7 @@ StartOffset
 aItem
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 aItem
@@ -5452,7 +5452,7 @@ StartOffset
 aItem
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 aItem
@@ -6138,7 +6138,7 @@ return
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 =
@@ -7770,7 +7770,7 @@ endNode
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -8330,7 +8330,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -10213,7 +10213,7 @@ endNode
 =
 aRange
 .
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -11515,7 +11515,7 @@ parent
 lastRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -12357,7 +12357,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -12544,7 +12544,7 @@ focusOffset
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 range
@@ -12789,7 +12789,7 @@ SetEnd
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 range
@@ -14250,7 +14250,7 @@ StartOffset
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 range

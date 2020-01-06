@@ -45739,7 +45739,7 @@ StartOffset
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 range

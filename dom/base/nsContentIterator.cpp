@@ -1094,7 +1094,7 @@ endNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -4702,7 +4702,7 @@ endParent
 mRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;

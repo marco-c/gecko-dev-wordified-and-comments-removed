@@ -20724,7 +20724,7 @@ content
 aRange
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 )
@@ -21240,7 +21240,7 @@ endParent
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;

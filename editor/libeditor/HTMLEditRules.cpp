@@ -1700,7 +1700,7 @@ GetRangeAt
 )
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -2944,7 +2944,7 @@ selEndNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -10072,7 +10072,7 @@ NS_ASSERTION
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 =
@@ -11533,7 +11533,7 @@ GetRangeAt
 )
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -25136,7 +25136,7 @@ selEndNode
 range
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -27482,7 +27482,7 @@ endNode
 =
 aRange
 .
-GetEndParent
+GetEndContainer
 (
 )
 ;
@@ -27949,7 +27949,7 @@ endParent
 r
 -
 >
-GetEndParent
+GetEndContainer
 (
 )
 ;
