@@ -5237,6 +5237,11 @@ uenum
 h
 unicode
 /
+unistr
+.
+h
+unicode
+/
 unorm
 .
 h
