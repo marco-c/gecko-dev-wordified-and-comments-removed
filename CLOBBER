@@ -195,11 +195,9 @@ any
 more
 .
 Bug
-1361661
+1340627
 -
-Update
-Telemetry
-build
-and
-headers
-.
+clobber
+for
+Skia
+update
