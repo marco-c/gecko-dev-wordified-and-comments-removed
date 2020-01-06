@@ -42,9 +42,16 @@ public
 :
 DrawTargetCaptureImpl
 (
+BackendType
+aBackend
+const
+IntSize
+&
+aSize
+SurfaceFormat
+aFormat
 )
-{
-}
+;
 bool
 Init
 (
@@ -816,6 +823,7 @@ override
 ;
 protected
 :
+virtual
 ~
 DrawTargetCaptureImpl
 (
