@@ -819,7 +819,7 @@ TestOpusResampler
 48000
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 TestOpusResampler
 (
@@ -828,10 +828,10 @@ TestOpusResampler
 )
 =
 =
-9600
+48000
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 TestOpusResampler
 (
@@ -840,7 +840,7 @@ TestOpusResampler
 )
 =
 =
-44100
+48000
 )
 ;
 }
