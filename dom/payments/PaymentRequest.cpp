@@ -2034,8 +2034,6 @@ PaymentRequest
 :
 RespondShowPayment
 (
-bool
-aAccept
 const
 nsAString
 &
@@ -2082,8 +2080,10 @@ eInteractive
 ;
 if
 (
-!
-aAccept
+NS_FAILED
+(
+aRv
+)
 )
 {
 RejectShowPayment
@@ -2357,7 +2357,6 @@ mUpdateError
 {
 RespondShowPayment
 (
-false
 EmptyString
 (
 )
