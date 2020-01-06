@@ -154,7 +154,10 @@ GLContext
 mGL
 ;
 GLuint
-mTextureHandle
+mTextureHandles
+[
+3
+]
 ;
 }
 ;
