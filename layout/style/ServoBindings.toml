@@ -1363,6 +1363,9 @@ nsStylePosition
 nsStyleSVG
 "
 "
+nsStyleSVGOpacitySource
+"
+"
 nsStyleSVGPaint
 "
 "
@@ -2813,6 +2816,9 @@ nsStyleQuoteValues
 "
 "
 nsStyleSVG
+"
+"
+nsStyleSVGOpacitySource
 "
 "
 nsStyleSVGPaint
