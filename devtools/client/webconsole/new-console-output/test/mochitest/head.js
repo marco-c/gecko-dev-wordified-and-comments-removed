@@ -667,8 +667,12 @@ onPopupHidden
 function
 loadDocument
 (
-browser
 url
+browser
+=
+gBrowser
+.
+selectedBrowser
 )
 {
 return
