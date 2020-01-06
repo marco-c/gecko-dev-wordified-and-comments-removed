@@ -3775,6 +3775,9 @@ None
 test_paths
 =
 None
+verify
+=
+False
 )
 :
         
@@ -3791,6 +3794,9 @@ test_tags
 test_paths
 =
 test_paths
+verify
+=
+verify
 )
         
 uniqueTestPaths
