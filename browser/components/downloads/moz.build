@@ -138,6 +138,11 @@ DownloadsCommon
 jsm
 '
 '
+DownloadsSubview
+.
+jsm
+'
+'
 DownloadsTaskbar
 .
 jsm
