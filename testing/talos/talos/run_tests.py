@@ -1380,7 +1380,7 @@ if
 config
 [
 '
-stylo
+enable_stylo
 '
 ]
 :
@@ -1391,6 +1391,24 @@ add_extra_option
 (
 '
 stylo
+'
+)
+    
+if
+config
+[
+'
+disable_stylo
+'
+]
+:
+        
+talos_results
+.
+add_extra_option
+(
+'
+stylo_disabled
 '
 )
     
