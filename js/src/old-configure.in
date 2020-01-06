@@ -1854,9 +1854,6 @@ in
 _CC_SUITE
 =
 14
-MSVS_VERSION
-=
-2015
 MSVC_C_RUNTIME_DLL
 =
 vcruntime140
@@ -1934,10 +1931,6 @@ sizedDealloc
 ;
 ;
 esac
-AC_SUBST
-(
-MSVS_VERSION
-)
 AC_SUBST
 (
 MSVC_C_RUNTIME_DLL

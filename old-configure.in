@@ -2350,9 +2350,6 @@ in
 _CC_SUITE
 =
 14
-MSVS_VERSION
-=
-2015
 MSVC_C_RUNTIME_DLL
 =
 vcruntime140
@@ -2613,10 +2610,6 @@ fi
 ;
 ;
 esac
-AC_SUBST
-(
-MSVS_VERSION
-)
 AC_SUBST
 (
 MSVC_HAS_DIA_SDK
