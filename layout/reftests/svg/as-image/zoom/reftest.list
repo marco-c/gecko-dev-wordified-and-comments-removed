@@ -121,12 +121,6 @@ zoomIn
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 img
@@ -151,12 +145,6 @@ zoomOut
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 img

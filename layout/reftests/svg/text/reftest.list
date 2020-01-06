@@ -32,12 +32,6 @@ underline
 ref
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 simple
@@ -2548,12 +2542,6 @@ textLength
 ref
 .
 svg
-fails
--
-if
-(
-webrender
-)
 =
 =
 textLength
