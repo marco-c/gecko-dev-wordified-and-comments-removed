@@ -76,9 +76,6 @@ JSRuntime
 rt
 )
 {
-AutoUnsafeCallWithABI
-unsafe
-;
 return
 TlsContext
 .

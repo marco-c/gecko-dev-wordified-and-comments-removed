@@ -2368,8 +2368,8 @@ uint32_t
 newCount
 )
 {
-AutoUnsafeCallWithABI
-unsafe
+AutoCheckCannotGC
+nogc
 ;
 if
 (
@@ -2419,8 +2419,8 @@ NativeObject
 obj
 )
 {
-AutoUnsafeCallWithABI
-unsafe
+AutoCheckCannotGC
+nogc
 ;
 MOZ_ASSERT
 (
