@@ -1058,7 +1058,6 @@ true
 ;
 }
 if
-(
 cfg
 !
 (
@@ -1067,18 +1066,6 @@ feature
 "
 servo
 "
-)
-|
-|
-traversal_flags
-.
-contains
-(
-traversal_flags
-:
-:
-AggressivelyForgetful
-)
 )
 &
 &
