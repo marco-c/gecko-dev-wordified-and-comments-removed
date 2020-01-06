@@ -25,7 +25,7 @@ auto
 ;
 async
 function
-testModeButton
+testModeMenuitem
 (
 mode
 modePref
@@ -103,7 +103,7 @@ await
 popupShownPromise
 ;
 let
-button
+item
 =
 document
 .
@@ -114,9 +114,7 @@ customization
 -
 uidensity
 -
-menu
--
-button
+menuitem
 -
 "
 +
@@ -124,7 +122,7 @@ mode
 )
 ;
 let
-normalButton
+normalItem
 =
 document
 .
@@ -135,9 +133,7 @@ customization
 -
 uidensity
 -
-menu
--
-button
+menuitem
 -
 normal
 "
@@ -145,7 +141,7 @@ normal
 ;
 is
 (
-normalButton
+normalItem
 .
 getAttribute
 (
@@ -159,13 +155,12 @@ true
 "
 Normal
 mode
-button
+menuitem
 should
 be
 active
 by
 default
-.
 "
 )
 ;
@@ -173,7 +168,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-button
+item
 {
 type
 :
@@ -219,9 +214,8 @@ on
 {
 mode
 }
-button
+menuitem
 hover
-.
 )
 ;
 is
@@ -252,16 +246,15 @@ on
 {
 mode
 }
-button
+menuitem
 hover
-.
 )
 ;
 EventUtils
 .
 synthesizeMouseAtCenter
 (
-normalButton
+normalItem
 {
 type
 :
@@ -315,8 +308,7 @@ the
 {
 mode
 }
-button
-.
+menuitem
 )
 ;
 let
@@ -331,7 +323,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-button
+item
 {
 }
 )
@@ -363,9 +355,8 @@ on
 {
 mode
 }
-button
+menuitem
 click
-.
 )
 ;
 is
@@ -395,8 +386,7 @@ the
 {
 mode
 }
-button
-.
+menuitem
 )
 ;
 popupShownPromise
@@ -420,7 +410,7 @@ popupShownPromise
 ;
 is
 (
-button
+item
 .
 getAttribute
 (
@@ -435,11 +425,10 @@ true
 mode
 }
 mode
-button
+menuitem
 should
 be
 active
-.
 )
 ;
 popupHiddenPromise
@@ -492,7 +481,7 @@ popupShownPromise
 ;
 is
 (
-button
+item
 .
 getAttribute
 (
@@ -507,7 +496,7 @@ true
 mode
 }
 mode
-button
+menuitem
 should
 be
 active
@@ -517,7 +506,6 @@ and
 exiting
 customize
 mode
-.
 )
 ;
 popupHiddenPromise
@@ -531,7 +519,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-normalButton
+normalItem
 {
 }
 )
@@ -560,8 +548,7 @@ when
 clicking
 the
 normal
-button
-.
+menuitem
 "
 )
 ;
@@ -623,7 +610,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-button
+item
 {
 }
 )
@@ -655,9 +642,8 @@ on
 {
 mode
 }
-button
+menuitem
 click
-.
 )
 ;
 is
@@ -687,8 +673,7 @@ the
 {
 mode
 }
-button
-.
+menuitem
 )
 ;
 await
@@ -719,8 +704,7 @@ when
 clicking
 the
 normal
-button
-.
+menuitem
 "
 )
 ;
@@ -762,7 +746,7 @@ add_task
 (
 async
 function
-test_compact_mode_button
+test_compact_mode_menuitem
 (
 )
 {
@@ -793,7 +777,7 @@ return
 ;
 }
 await
-testModeButton
+testModeMenuitem
 (
 "
 compact
@@ -812,7 +796,7 @@ add_task
 (
 async
 function
-test_touch_mode_button
+test_touch_mode_menuitem
 (
 )
 {
@@ -865,9 +849,7 @@ customization
 -
 uidensity
 -
-menu
--
-button
+menuitem
 -
 touch
 "
@@ -890,7 +872,7 @@ return
 ;
 }
 await
-testModeButton
+testModeMenuitem
 (
 "
 touch

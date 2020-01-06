@@ -745,9 +745,7 @@ customization
 -
 uidensity
 -
-menu
--
-button
+menuitem
 -
 compact
 "
@@ -761,9 +759,7 @@ customization
 -
 uidensity
 -
-menu
--
-button
+menuitem
 "
 role
 =
@@ -884,9 +880,7 @@ customization
 -
 uidensity
 -
-menu
--
-button
+menuitem
 -
 normal
 "
@@ -900,9 +894,7 @@ customization
 -
 uidensity
 -
-menu
--
-button
+menuitem
 "
 role
 =
@@ -1026,9 +1018,7 @@ customization
 -
 uidensity
 -
-menu
--
-button
+menuitem
 -
 touch
 "
@@ -1042,9 +1032,7 @@ customization
 -
 uidensity
 -
-menu
--
-button
+menuitem
 "
 role
 =
