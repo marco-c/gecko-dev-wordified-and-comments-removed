@@ -131,7 +131,7 @@ set
 )
 SERVO_BINDING_FUNC
 (
-Servo_StyleSet_RebuildData
+Servo_StyleSet_RebuildCachedData
 void
 RawServoStyleSetBorrowed
 set
@@ -139,11 +139,12 @@ set
 SERVO_BINDING_FUNC
 (
 Servo_StyleSet_MediumFeaturesChanged
-nsRestyleHint
+bool
 RawServoStyleSetBorrowed
 set
 bool
-viewport_changed
+*
+viewport_units_used
 )
 SERVO_BINDING_FUNC
 (

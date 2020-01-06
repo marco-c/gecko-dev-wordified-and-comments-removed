@@ -930,7 +930,7 @@ StyleSet
 )
 -
 >
-ClearDataAndMarkDeviceDirty
+ClearCachedStyleData
 (
 )
 ;
