@@ -358,7 +358,7 @@ RegExpGetSubstitution
 JSContext
 *
 cx
-HandleObject
+HandleArrayObject
 matchResult
 HandleLinearString
 string

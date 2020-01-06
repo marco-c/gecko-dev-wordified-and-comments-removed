@@ -4897,7 +4897,7 @@ expectedStr_
 GCPtrString
 expectedSep_
 ;
-GCPtrObject
+GCPtrArrayObject
 templateObject_
 ;
 ICCall_ConstStringSplit
@@ -4916,7 +4916,7 @@ str
 JSString
 *
 sep
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -5012,7 +5012,7 @@ return
 expectedSep_
 ;
 }
-GCPtrObject
+GCPtrArrayObject
 &
 templateObject
 (
@@ -5043,7 +5043,7 @@ expectedStr_
 RootedString
 expectedSep_
 ;
-RootedObject
+RootedArrayObject
 templateObject_
 ;
 MOZ_MUST_USE
@@ -5101,7 +5101,7 @@ HandleString
 str
 HandleString
 sep
-HandleValue
+HandleArrayObject
 templateObject
 )
 :
@@ -5134,12 +5134,7 @@ sep
 templateObject_
 (
 cx
-&
 templateObject
-.
-toObject
-(
-)
 )
 {
 }
