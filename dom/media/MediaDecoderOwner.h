@@ -143,6 +143,10 @@ virtual
 void
 NetworkError
 (
+const
+MediaResult
+&
+aError
 )
 =
 0

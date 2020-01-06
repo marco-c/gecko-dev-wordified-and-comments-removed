@@ -18,6 +18,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+MediaResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -68,6 +75,10 @@ virtual
 void
 NotifyNetworkError
 (
+const
+MediaResult
+&
+aError
 )
 {
 }

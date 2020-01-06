@@ -240,6 +240,10 @@ ResourceCallback
 :
 NotifyNetworkError
 (
+const
+MediaResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -259,6 +263,7 @@ mDecoder
 >
 NetworkError
 (
+aError
 )
 ;
 }
@@ -1360,6 +1365,14 @@ else
 {
 NetworkError
 (
+MediaResult
+(
+aStatus
+"
+Download
+aborted
+"
+)
 )
 ;
 }

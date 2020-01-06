@@ -4232,6 +4232,10 @@ MediaDecoder
 :
 NetworkError
 (
+const
+MediaResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -4256,6 +4260,7 @@ GetOwner
 >
 NetworkError
 (
+aError
 )
 ;
 }

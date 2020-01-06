@@ -374,6 +374,10 @@ NotifyXPCOMShutdown
 void
 NetworkError
 (
+const
+MediaResult
+&
+aError
 )
 ;
 virtual
