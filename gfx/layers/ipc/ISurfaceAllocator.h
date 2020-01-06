@@ -390,13 +390,6 @@ const
 0
 ;
 virtual
-int32_t
-GetMaxTextureSize
-(
-)
-const
-;
-virtual
 void
 CancelWaitForRecycle
 (
