@@ -209,13 +209,6 @@ dom
 ul
 (
 {
-id
-:
-"
-grid
--
-list
-"
 }
 grids
 .
