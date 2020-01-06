@@ -112,11 +112,7 @@ override
 nsresult
 Load
 (
-nsIStreamListener
-*
-*
 )
-override
 ;
 media
 :
