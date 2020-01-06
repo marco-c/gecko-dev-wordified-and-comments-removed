@@ -298,15 +298,6 @@ window
 title
 ;
 "
-browserConsoleTitle
-=
-"
-&
-browserConsole
-.
-title
-;
-"
 windowtype
 =
 "

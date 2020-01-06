@@ -143,17 +143,6 @@ Console
 >
 <
 !
-ENTITY
-browserConsole
-.
-title
-"
-Browser
-Console
-"
->
-<
-!
 -
 -
 LOCALIZATION
