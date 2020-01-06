@@ -2451,6 +2451,30 @@ C_LDFLAGS
 '
 )
 )
+            
+(
+'
+MOZBUILD_CFLAGS
+'
+None
+(
+'
+CFLAGS
+'
+)
+)
+            
+(
+'
+MOZBUILD_CXXFLAGS
+'
+None
+(
+'
+CXXFLAGS
+'
+)
+)
         
 )
         
