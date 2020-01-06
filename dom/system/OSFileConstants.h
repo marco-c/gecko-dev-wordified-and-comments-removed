@@ -92,7 +92,7 @@ mInitialized
 struct
 Paths
 ;
-nsAutoPtr
+UniquePtr
 <
 Paths
 >
