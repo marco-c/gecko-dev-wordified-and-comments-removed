@@ -8855,15 +8855,6 @@ all
 green
 .
 html
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 css
