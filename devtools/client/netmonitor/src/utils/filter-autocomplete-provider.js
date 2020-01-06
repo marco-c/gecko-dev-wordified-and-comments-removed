@@ -166,6 +166,17 @@ push
 request
 .
 mimeType
+.
+replace
+(
+/
+;
+.
++
+/
+"
+"
+)
 )
 ;
 break
