@@ -2507,7 +2507,7 @@ this
 .
 currentLine
 "
-escapeSpaces
+escapeSpaces1
 "
 this
 .
@@ -2993,7 +2993,7 @@ this
 .
 currentLine
 "
-escapeSpaces
+escapeSpaces1
 "
 this
 .
