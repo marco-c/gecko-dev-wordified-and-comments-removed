@@ -18813,13 +18813,13 @@ detachPreliminaryObjects
 (
 )
 ;
-if
+MOZ_ASSERT
 (
 shape
 (
 )
 )
-{
+;
 MOZ_ASSERT
 (
 shape
@@ -18944,7 +18944,6 @@ shape
 return
 ;
 }
-}
 TryConvertToUnboxedLayout
 (
 cx
@@ -18967,13 +18966,6 @@ maybeUnboxedLayout
 )
 return
 ;
-if
-(
-shape
-(
-)
-)
-{
 group
 -
 >
@@ -18985,7 +18977,6 @@ shape
 )
 )
 ;
-}
 }
 bool
 TypeNewScript
