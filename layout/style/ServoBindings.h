@@ -750,6 +750,13 @@ StyleChildrenIteratorBorrowedMut
 it
 )
 ;
+bool
+Gecko_ElementHasBindingWithAnonymousContent
+(
+RawGeckoElementBorrowed
+element
+)
+;
 uint64_t
 Gecko_ElementState
 (
