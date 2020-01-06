@@ -428,6 +428,11 @@ TextIndexQuery
 ReflowGoal
 :
 :
+TickAnimations
+|
+ReflowGoal
+:
+:
 Full
 =
 >
@@ -504,11 +509,6 @@ MarginStyleQuery
 (
 _
 )
-|
-ReflowGoal
-:
-:
-TickAnimations
 =
 >
 false
