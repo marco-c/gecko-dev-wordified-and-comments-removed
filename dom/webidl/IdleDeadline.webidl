@@ -124,7 +124,7 @@ System
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsRequestIdleCallbackEnabled

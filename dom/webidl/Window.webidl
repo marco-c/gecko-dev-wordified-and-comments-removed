@@ -928,7 +928,7 @@ UnsafeInPrerendering
 Func
 =
 "
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 IsWindowPrintEnabled
