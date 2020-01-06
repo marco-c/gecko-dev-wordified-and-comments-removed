@@ -5019,6 +5019,7 @@ lastModifiedTime
 =
 SYSTEM_ADDON_INSTALL_DATE
 ;
+await
 loadAddonManager
 (
 APP_ID
