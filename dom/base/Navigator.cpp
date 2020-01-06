@@ -6450,13 +6450,6 @@ Cast
 mWindow
 )
 ;
-win
--
->
-NotifyVREventListenerAdded
-(
-)
-;
 nsTArray
 <
 RefPtr
