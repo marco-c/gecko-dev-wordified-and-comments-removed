@@ -54,6 +54,13 @@ cubeb
 .
 h
 "
+#
+include
+"
+cubeb_mixer
+.
+h
+"
 template
 <
 typename

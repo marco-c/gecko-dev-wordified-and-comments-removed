@@ -70,6 +70,11 @@ common
 h
 "
 #
+include
+<
+atomic
+>
+#
 define
 SAMPLE_FREQUENCY
 48000
@@ -80,7 +85,13 @@ CUBEB_SAMPLE_S16LE
 struct
 cb_user_data
 {
+std
+:
+:
+atomic
+<
 long
+>
 position
 ;
 }
@@ -570,6 +581,10 @@ user_data
 -
 >
 position
+.
+load
+(
+)
 )
 ;
 }
