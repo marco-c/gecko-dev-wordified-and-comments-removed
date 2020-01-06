@@ -80,6 +80,17 @@ h
 #
 include
 "
+gc
+/
+ObjectKind
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 Shape
