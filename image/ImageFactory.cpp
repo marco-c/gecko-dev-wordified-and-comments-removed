@@ -323,6 +323,8 @@ bool
 aIsMultiPart
 uint32_t
 aInnerWindowId
+StyleBackendType
+aStyleBackendType
 )
 {
 MOZ_ASSERT
@@ -452,6 +454,7 @@ aMimeType
 aURI
 imageFlags
 aInnerWindowId
+aStyleBackendType
 )
 ;
 }
@@ -1114,6 +1117,8 @@ uint32_t
 aImageFlags
 uint32_t
 aInnerWindowId
+StyleBackendType
+aStyleBackendType
 )
 {
 MOZ_ASSERT
@@ -1134,6 +1139,7 @@ new
 VectorImage
 (
 aURI
+aStyleBackendType
 )
 ;
 aProgressTracker
