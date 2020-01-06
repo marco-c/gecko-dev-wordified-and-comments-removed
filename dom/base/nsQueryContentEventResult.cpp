@@ -544,6 +544,12 @@ mEventMessage
 =
 =
 eQueryTextContent
+|
+|
+mEventMessage
+=
+=
+eQueryTextRect
 NS_ERROR_NOT_AVAILABLE
 )
 ;
