@@ -1957,13 +1957,6 @@ UTF
 }
 }
 }
-nsDependentCSubstring
-data
-(
-aFileData
-aDataLen
-)
-;
 return
 nsContentUtils
 :
@@ -1971,7 +1964,8 @@ nsContentUtils
 ConvertStringFromEncoding
 (
 encoding
-data
+aFileData
+aDataLen
 aResult
 )
 ;
