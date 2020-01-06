@@ -5190,7 +5190,6 @@ ShapeExtent
 :
 parse_with_compat_mode
 (
-context
 i
 compat_mode
 )
@@ -5317,7 +5316,6 @@ ShapeExtent
 :
 parse_with_compat_mode
 (
-context
 i
 compat_mode
 )
@@ -5458,7 +5456,6 @@ ShapeExtent
 :
 parse_with_compat_mode
 (
-context
 i
 compat_mode
 )
@@ -5976,10 +5973,6 @@ i
 t
 >
 (
-context
-:
-&
-ParserContext
 input
 :
 &
@@ -6013,7 +6006,6 @@ Self
 :
 parse
 (
-context
 input
 )
 ?
