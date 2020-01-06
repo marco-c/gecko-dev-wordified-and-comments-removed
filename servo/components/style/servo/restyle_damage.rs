@@ -442,6 +442,11 @@ StyleChange
 :
 :
 Changed
+{
+reset_only
+:
+false
+}
 }
 ;
 StyleDifference

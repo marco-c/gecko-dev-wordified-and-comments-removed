@@ -1882,7 +1882,6 @@ text_align
 :
 start
 )
-;
 }
 fn
 adjust_for_text_decoration_lines
