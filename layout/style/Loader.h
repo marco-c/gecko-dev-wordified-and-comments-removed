@@ -579,7 +579,7 @@ nsIURI
 aURL
 RefPtr
 <
-CSSStyleSheet
+StyleSheet
 >
 &
 aResult
@@ -588,7 +588,7 @@ aResult
 void
 AddReusableSheet
 (
-CSSStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -628,7 +628,7 @@ nsTArray
 <
 RefPtr
 <
-CSSStyleSheet
+StyleSheet
 >
 >
 mReusableSheets
