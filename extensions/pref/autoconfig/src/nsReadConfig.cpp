@@ -533,10 +533,10 @@ rv
 =
 NS_OK
 ;
-nsAutoCString
+nsCString
 lockFileName
 ;
-nsAutoCString
+nsCString
 lockVendor
 ;
 uint32_t
@@ -611,7 +611,10 @@ config
 .
 filename
 "
+getter_Copies
+(
 lockFileName
+)
 )
 ;
 MOZ_LOG
@@ -862,7 +865,10 @@ config
 .
 filename
 "
+getter_Copies
+(
 lockFileName
+)
 )
 ;
 if
@@ -889,7 +895,10 @@ config
 .
 vendor
 "
+getter_Copies
+(
 lockVendor
+)
 )
 ;
 if
@@ -937,7 +946,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsAutoCString
+nsCString
 urlName
 ;
 rv
@@ -952,7 +961,10 @@ autoadmin
 .
 global_config_url
 "
+getter_Copies
+(
 urlName
+)
 )
 ;
 if

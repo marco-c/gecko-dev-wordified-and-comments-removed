@@ -498,7 +498,7 @@ gssInit
 (
 )
 {
-nsAutoCString
+nsCString
 libPath
 ;
 nsCOMPtr
@@ -523,7 +523,10 @@ prefs
 GetCharPref
 (
 kNegotiateAuthGssLib
+getter_Copies
+(
 libPath
+)
 )
 ;
 prefs

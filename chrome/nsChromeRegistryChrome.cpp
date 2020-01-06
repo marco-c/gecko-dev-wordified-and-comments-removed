@@ -570,7 +570,7 @@ service
 }
 else
 {
-nsAutoCString
+nsCString
 provider
 ;
 rv
@@ -581,7 +581,10 @@ prefs
 GetCharPref
 (
 SELECTED_SKIN_PREF
+getter_Copies
+(
 provider
+)
 )
 ;
 if
@@ -1237,7 +1240,7 @@ SELECTED_SKIN_PREF
 )
 )
 {
-nsAutoCString
+nsCString
 provider
 ;
 rv
@@ -1252,7 +1255,10 @@ pref
 get
 (
 )
+getter_Copies
+(
 provider
+)
 )
 ;
 if

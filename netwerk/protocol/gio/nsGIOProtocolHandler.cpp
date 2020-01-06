@@ -3424,7 +3424,10 @@ prefs
 GetCharPref
 (
 MOZ_GIO_SUPPORTED_PROTOCOLS
+getter_Copies
+(
 mSupportedProtocols
+)
 )
 ;
 if
