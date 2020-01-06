@@ -1078,6 +1078,16 @@ StyleRuleMap
 (
 )
 ;
+void
+ClearPresContext
+(
+)
+{
+mPresContext
+=
+nullptr
+;
+}
 bool
 MightHaveAttributeDependency
 (

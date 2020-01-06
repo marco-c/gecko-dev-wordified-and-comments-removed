@@ -5768,6 +5768,11 @@ ServoStyleRuleMap
 this
 )
 ;
+if
+(
+mPresContext
+)
+{
 nsIDocument
 *
 doc
@@ -5800,6 +5805,7 @@ AddObserver
 mStyleRuleMap
 )
 ;
+}
 }
 return
 mStyleRuleMap

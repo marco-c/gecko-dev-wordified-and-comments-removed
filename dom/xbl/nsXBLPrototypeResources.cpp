@@ -778,6 +778,13 @@ UpdateStylistIfNeeded
 (
 )
 ;
+mServoStyleSet
+-
+>
+ClearPresContext
+(
+)
+;
 }
 void
 nsXBLPrototypeResources
