@@ -4864,6 +4864,14 @@ aWebProgress
 isLoadingDocument
 &
 &
+Components
+.
+isSuccessCode
+(
+aStatus
+)
+&
+&
 !
 this
 .
