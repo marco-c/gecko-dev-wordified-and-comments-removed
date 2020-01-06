@@ -207,9 +207,6 @@ button6
 "
         
 "
-button9
-"
-"
 no_accessible_but_displayed
 "
     
