@@ -344,6 +344,12 @@ Wl
 dead_strip
 "
 export
+BINDGEN_CFLAGS
+=
+"
+FLAGS
+"
+export
 TOOLCHAIN_PREFIX
 =
 CROSS_CCTOOLS_PATH
