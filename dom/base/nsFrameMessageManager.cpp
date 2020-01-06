@@ -8064,7 +8064,7 @@ script
 ScriptPreloader
 :
 :
-GetSingleton
+GetChildSingleton
 (
 )
 .
@@ -8411,7 +8411,7 @@ XRE_IsParentProcess
 ScriptPreloader
 :
 :
-GetSingleton
+GetChildSingleton
 (
 )
 .
