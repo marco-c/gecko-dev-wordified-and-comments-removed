@@ -344,12 +344,7 @@ StyleSheet
 :
 ChangeType
 )
-{
-NoteStyleSheetsChanged
-(
-)
 ;
-}
 void
 RecordShadowStyleChange
 (
@@ -364,7 +359,7 @@ ShadowRoot
 aShadowRoot
 )
 {
-NoteStyleSheetsChanged
+ForceAllStyleDirty
 (
 )
 ;
@@ -795,7 +790,7 @@ aRoot
 )
 ;
 void
-NoteStyleSheetsChanged
+ForceAllStyleDirty
 (
 )
 ;
