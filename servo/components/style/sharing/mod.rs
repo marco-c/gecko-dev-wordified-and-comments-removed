@@ -78,6 +78,7 @@ matching
 :
 {
 ElementSelectorFlags
+VisitedHandlingMode
 StyleRelations
 }
 ;
@@ -261,6 +262,10 @@ element
 .
 synthesize_presentational_hints_for_legacy_attributes
 (
+VisitedHandlingMode
+:
+:
+AllLinksUnvisited
 &
 mut
 pres_hints

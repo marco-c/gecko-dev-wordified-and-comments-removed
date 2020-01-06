@@ -253,6 +253,7 @@ matching
 ElementSelectorFlags
 MatchingContext
 RelevantLinkStatus
+VisitedHandlingMode
 }
 ;
 use
@@ -2258,6 +2259,9 @@ V
 (
 &
 self
+_visited_handling
+:
+VisitedHandlingMode
 hints
 :
 &
@@ -7206,6 +7210,9 @@ V
 (
 &
 self
+_visited_handling
+:
+VisitedHandlingMode
 _hints
 :
 &

@@ -138,7 +138,10 @@ selectors
 matching
 :
 :
+{
 ElementSelectorFlags
+VisitedHandlingMode
+}
 ;
 use
 shared_lock
@@ -1521,6 +1524,9 @@ V
 (
 &
 self
+visited_handling
+:
+VisitedHandlingMode
 hints
 :
 &
