@@ -25,7 +25,7 @@ createEnum
 (
 [
 "
-UPDATE_FLEXBOXES
+UPDATE_CHANGES
 "
 ]
 module

@@ -295,7 +295,7 @@ opened
 "
 ;
 class
-App
+LayoutApp
 extends
 PureComponent
 {
@@ -685,6 +685,6 @@ state
 state
 )
 (
-App
+LayoutApp
 )
 ;
