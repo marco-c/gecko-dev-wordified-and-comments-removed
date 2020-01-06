@@ -188,17 +188,6 @@ Destroy
 (
 )
 ;
-HostLayerManager
-*
-layer_manager
-(
-)
-const
-{
-return
-mLayerManager
-;
-}
 void
 SetLayerManager
 (
