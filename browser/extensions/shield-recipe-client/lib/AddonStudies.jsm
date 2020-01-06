@@ -418,6 +418,11 @@ notifyObservers
 (
 study
 STUDY_ENDED_TOPIC
+{
+study
+.
+recipeId
+}
 )
 ;
 }
