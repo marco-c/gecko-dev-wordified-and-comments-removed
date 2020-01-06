@@ -808,7 +808,6 @@ screenshot
 capture
 -
 headless
-#
 -
 windows
 -
@@ -852,7 +851,6 @@ headless
 windows
 -
 tests
-#
 -
 windows
 -
@@ -944,7 +942,6 @@ screenshot
 capture
 -
 headless
-#
 -
 windows
 -
@@ -984,7 +981,6 @@ screenshot
 capture
 -
 headless
-#
 -
 windows
 -
