@@ -16,7 +16,7 @@ homepage
 "
 about
 :
-home
+preferences
 "
 ;
 await
