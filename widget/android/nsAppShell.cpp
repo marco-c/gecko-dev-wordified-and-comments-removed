@@ -1113,10 +1113,7 @@ RunUiThreadCallback
 )
 {
 return
-AndroidUiThread
-:
-:
-RunDelayedTasksIfValid
+RunAndroidUiTasks
 (
 )
 ;

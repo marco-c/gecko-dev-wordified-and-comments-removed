@@ -36,6 +36,11 @@ DestroyAndroidUiThread
 (
 )
 ;
+int64_t
+RunAndroidUiTasks
+(
+)
+;
 MessageLoop
 *
 GetAndroidUiThreadMessageLoop
