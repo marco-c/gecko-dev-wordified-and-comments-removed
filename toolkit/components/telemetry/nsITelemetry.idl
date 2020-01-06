@@ -396,14 +396,8 @@ the
 currently
 registered
 histograms
-from
-all
-processes
 .
 *
-{
-process1
-:
 {
 name1
 :
@@ -418,7 +412,6 @@ data2
 .
 .
 .
-}
 }
 *
 where
