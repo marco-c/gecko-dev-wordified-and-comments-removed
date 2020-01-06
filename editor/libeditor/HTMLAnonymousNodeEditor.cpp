@@ -1043,6 +1043,17 @@ GetAsServo
 )
 )
 {
+if
+(
+styleSet
+-
+>
+MayTraverseFrom
+(
+newContent
+)
+)
+{
 styleSet
 -
 >
@@ -1051,6 +1062,7 @@ StyleNewSubtree
 newContent
 )
 ;
+}
 }
 ElementDeletionObserver
 *
