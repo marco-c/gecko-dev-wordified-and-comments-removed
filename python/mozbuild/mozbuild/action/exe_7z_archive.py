@@ -13,6 +13,8 @@ subprocess
 import
 tempfile
 import
+buildconfig
+import
 mozpack
 .
 path
@@ -95,9 +97,14 @@ subprocess
 check_call
 (
 [
+buildconfig
+.
+substs
+[
 '
-7z
+7Z
 '
+]
 '
 a
 '
