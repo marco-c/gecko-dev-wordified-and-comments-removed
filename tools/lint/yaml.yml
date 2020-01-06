@@ -7,11 +7,6 @@ linter
 include
 :
 -
-.
-cron
-.
-yml
--
 taskcluster
 extensions
 :
