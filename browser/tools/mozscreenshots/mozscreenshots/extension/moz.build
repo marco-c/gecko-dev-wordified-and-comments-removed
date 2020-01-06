@@ -106,7 +106,7 @@ True
 NO_JS_MANIFEST
 =
 True
-FINAL_TARGET_PP_FILES
+FINAL_TARGET_FILES
 +
 =
 [
@@ -115,6 +115,11 @@ bootstrap
 .
 js
 '
+]
+FINAL_TARGET_PP_FILES
++
+=
+[
 '
 install
 .
