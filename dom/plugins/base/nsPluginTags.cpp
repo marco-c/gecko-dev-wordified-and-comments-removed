@@ -1983,15 +1983,6 @@ if
 mIsFlashPlugin
 &
 &
-!
-PR_GetEnv
-(
-"
-MOZ_ALLOW_WEAKER_SANDBOX
-"
-)
-&
-&
 mSandboxLevel
 <
 2
