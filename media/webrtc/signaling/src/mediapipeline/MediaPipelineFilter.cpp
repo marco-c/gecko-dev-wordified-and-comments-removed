@@ -423,7 +423,7 @@ SENDER_REPORT_T
 )
 {
 return
-false
+true
 ;
 }
 uint32_t
