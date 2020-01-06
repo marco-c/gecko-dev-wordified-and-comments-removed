@@ -431,6 +431,16 @@ false
 ;
 }
 public
+boolean
+getFullFetchForced
+(
+)
+{
+return
+false
+;
+}
+public
 long
 getSyncDeadline
 (

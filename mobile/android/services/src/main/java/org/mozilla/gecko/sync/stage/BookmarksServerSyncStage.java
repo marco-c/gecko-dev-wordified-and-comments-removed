@@ -326,6 +326,7 @@ getAllowedToUseHighWaterMark
 getRepositoryStateProvider
 (
 )
+false
 )
 ;
 }
