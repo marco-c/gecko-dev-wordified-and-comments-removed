@@ -1889,13 +1889,6 @@ nsAString
 *
 name
 )
-SERVO_BINDING_FUNC
-(
-Servo_GetEmptyVariables
-const
-nsStyleVariables
-*
-)
 #
 define
 SERVO_ARC_TYPE
