@@ -155,6 +155,11 @@ SVGStringList
 .
 h
 '
+'
+SVGTagList
+.
+h
+'
 ]
 EXPORTS
 .
@@ -271,6 +276,11 @@ h
 '
 '
 SVGDocument
+.
+h
+'
+'
+SVGElementFactory
 .
 h
 '
