@@ -114,11 +114,6 @@ nsIDOMHTMLBaseElement
 idl
 '
 '
-nsIDOMHTMLButtonElement
-.
-idl
-'
-'
 nsIDOMHTMLCanvasElement
 .
 idl
