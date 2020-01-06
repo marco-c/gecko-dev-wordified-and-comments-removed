@@ -269,6 +269,10 @@ ParserContext
 a
 >
 {
+#
+[
+inline
+]
 pub
 fn
 new
@@ -311,6 +315,10 @@ namespaces
 None
 }
 }
+#
+[
+inline
+]
 pub
 fn
 new_for_cssom
@@ -353,6 +361,10 @@ parsing_mode
 quirks_mode
 )
 }
+#
+[
+inline
+]
 pub
 fn
 new_with_rule_type
