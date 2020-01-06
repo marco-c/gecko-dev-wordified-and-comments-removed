@@ -729,6 +729,9 @@ UpdateAnimationsTasks
 "
 ParsingMode
 "
+"
+ThemeWidgetType
+"
 ]
 constified
 -
@@ -1329,6 +1332,9 @@ StyleShapeSource
 "
 "
 StyleTransition
+"
+"
+ThemeWidgetType
 "
 "
 mozilla
