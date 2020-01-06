@@ -51,6 +51,9 @@ class
 CodeRange
 ;
 class
+CodeSegment
+;
+class
 DebugFrame
 ;
 class
@@ -834,9 +837,9 @@ Instance
 LookupFaultingInstance
 (
 const
-Code
+CodeSegment
 &
-code
+codeSegment
 void
 *
 pc
