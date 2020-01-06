@@ -486,7 +486,7 @@ install_target
 \
                             
 .
-add_pattern_symlink
+add_pattern_link
 (
                                 
 prefix
@@ -525,7 +525,7 @@ obj
 install_target
 ]
 .
-add_symlink
+add_link
 (
                             
 f

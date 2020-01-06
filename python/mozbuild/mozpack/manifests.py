@@ -25,6 +25,8 @@ FileFinder
     
 GeneratedFile
     
+HardlinkFile
+    
 PreprocessedFile
 )
 import
@@ -244,7 +246,7 @@ destination
 path
 .
       
-symlink
+link
 -
 -
 The
@@ -254,12 +256,14 @@ will
 be
 a
 symlink
+or
+hardlink
 to
 the
 source
+          
 path
 .
-          
 If
 symlinks
 are
@@ -341,7 +345,7 @@ not
 exist
 .
       
-patternsymlink
+patternlink
 -
 -
 Paths
@@ -357,6 +361,8 @@ path
 will
 be
 symlinked
+or
+hardlinked
 to
 the
 destination
@@ -368,7 +374,7 @@ patterncopy
 -
 Similar
 to
-patternsymlink
+patternlink
 except
 files
 are
@@ -376,6 +382,8 @@ copied
 not
           
 symlinked
+/
+hardlinked
 .
       
 preprocess
@@ -480,7 +488,7 @@ FIELD_SEPARATOR
 x1f
 '
     
-SYMLINK
+LINK
 =
 1
     
@@ -496,7 +504,7 @@ OPTIONAL_EXISTS
 =
 4
     
-PATTERN_SYMLINK
+PATTERN_LINK
 =
 5
     
@@ -738,7 +746,7 @@ record_type
 =
 self
 .
-SYMLINK
+LINK
 :
                 
 dest
@@ -752,7 +760,7 @@ fields
                 
 self
 .
-add_symlink
+add_link
 (
 source
 dest
@@ -840,7 +848,7 @@ record_type
 =
 self
 .
-PATTERN_SYMLINK
+PATTERN_LINK
 :
                 
 _
@@ -856,7 +864,7 @@ fields
                 
 self
 .
-add_pattern_symlink
+add_pattern_link
 (
 base
 pattern
@@ -1464,7 +1472,7 @@ parts
 )
     
 def
-add_symlink
+add_link
 (
 self
 source
@@ -1477,7 +1485,7 @@ dest
 "
 Add
 a
-symlink
+link
 to
 this
 manifest
@@ -1486,8 +1494,11 @@ manifest
 dest
 will
 be
+either
 a
 symlink
+or
+hardlink
 to
 source
 .
@@ -1504,7 +1515,7 @@ dest
 (
 self
 .
-SYMLINK
+LINK
 source
 )
 )
@@ -1674,7 +1685,7 @@ OPTIONAL_EXISTS
 )
     
 def
-add_pattern_symlink
+add_pattern_link
 (
 self
 base
@@ -1693,7 +1704,7 @@ match
 that
 results
 in
-symlinks
+links
 being
 created
 .
@@ -1732,7 +1743,11 @@ source
 file
 will
 be
+either
 symlinked
+or
+hardlinked
+        
 under
 dest
 .
@@ -1802,7 +1817,7 @@ dest
 (
 self
 .
-PATTERN_SYMLINK
+PATTERN_LINK
 base
 pattern
 dest
@@ -1833,7 +1848,7 @@ copies
 .
         
 See
-add_pattern_symlink
+add_pattern_link
 (
 )
 for
@@ -2058,6 +2073,12 @@ defines_override
 =
 {
 }
+                          
+link_policy
+=
+'
+symlink
+'
 )
 :
         
@@ -2125,9 +2146,48 @@ for
 preprocessing
 .
         
+The
+caller
+can
+set
+a
+link
+policy
+.
+This
+determines
+whether
+symlinks
+        
+hardlinks
+or
+copies
+are
+used
+for
+LINK
+and
+PATTERN_LINK
+.
+        
 "
 "
 "
+        
+assert
+link_policy
+in
+(
+"
+symlink
+"
+"
+hardlink
+"
+"
+copy
+"
+)
         
 for
 dest
@@ -2162,15 +2222,48 @@ install_type
 =
 self
 .
-SYMLINK
+LINK
 :
+                
+if
+link_policy
+=
+=
+"
+symlink
+"
+:
+                    
+cls
+=
+AbsoluteSymlinkFile
+                
+elif
+link_policy
+=
+=
+"
+hardlink
+"
+:
+                    
+cls
+=
+HardlinkFile
+                
+else
+:
+                    
+cls
+=
+File
                 
 registry
 .
 add
 (
 dest
-AbsoluteSymlinkFile
+cls
 (
 entry
 [
@@ -2260,7 +2353,7 @@ in
 (
 self
 .
-PATTERN_SYMLINK
+PATTERN_LINK
 self
 .
 PATTERN_COPY
@@ -2305,12 +2398,41 @@ install_type
 =
 self
 .
-PATTERN_SYMLINK
+PATTERN_LINK
 :
                     
+if
+link_policy
+=
+=
+"
+symlink
+"
+:
+                        
 cls
 =
 AbsoluteSymlinkFile
+                    
+elif
+link_policy
+=
+=
+"
+hardlink
+"
+:
+                        
+cls
+=
+HardlinkFile
+                    
+else
+:
+                        
+cls
+=
+File
                 
 else
 :
@@ -2499,129 +2621,4 @@ d
 %
                 
 install_type
-)
-class
-InstallManifestNoSymlinks
-(
-InstallManifest
-)
-:
-    
-"
-"
-"
-Like
-InstallManifest
-but
-files
-are
-never
-installed
-as
-symbolic
-links
-.
-    
-Instead
-they
-are
-always
-copied
-.
-    
-"
-"
-"
-    
-def
-add_symlink
-(
-self
-source
-dest
-)
-:
-        
-"
-"
-"
-A
-wrapper
-that
-accept
-symlink
-entries
-and
-install
-file
-copies
-.
-        
-source
-will
-be
-copied
-to
-dest
-.
-        
-"
-"
-"
-        
-self
-.
-add_copy
-(
-source
-dest
-)
-    
-def
-add_pattern_symlink
-(
-self
-base
-pattern
-dest
-)
-:
-        
-"
-"
-"
-A
-wrapper
-that
-accepts
-symlink
-patterns
-and
-installs
-file
-copies
-.
-        
-Files
-discovered
-with
-pattern
-will
-be
-copied
-to
-dest
-.
-        
-"
-"
-"
-        
-self
-.
-add_pattern_copy
-(
-base
-pattern
-dest
 )

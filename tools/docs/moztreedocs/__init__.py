@@ -658,7 +658,7 @@ InstallManifest
         
 m
 .
-add_symlink
+add_link
 (
 self
 .
@@ -746,7 +746,7 @@ source_dir
                     
 m
 .
-add_symlink
+add_link
 (
 source_path
 os

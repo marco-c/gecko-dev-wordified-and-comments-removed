@@ -5356,7 +5356,7 @@ install_info
                     
 synthesized_manifest
 .
-add_pattern_symlink
+add_pattern_link
 (
 *
 install_info
@@ -5374,7 +5374,7 @@ install_info
                     
 synthesized_manifest
 .
-add_symlink
+add_link
 (
 *
 install_info
@@ -6072,7 +6072,7 @@ m
         
 m
 .
-add_symlink
+add_link
 (
 __file__
 '

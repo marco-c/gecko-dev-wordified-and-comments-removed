@@ -3063,7 +3063,7 @@ install_info
                     
 manifest
 .
-add_pattern_symlink
+add_pattern_link
 (
 *
 install_info
@@ -3081,7 +3081,7 @@ install_info
                     
 manifest
 .
-add_symlink
+add_link
 (
 *
 install_info
@@ -3415,7 +3415,7 @@ continue
         
 manifest
 .
-add_symlink
+add_link
 (
 source
 dest
@@ -3433,7 +3433,7 @@ pattern_installs
         
 manifest
 .
-add_pattern_symlink
+add_pattern_link
 (
 base
 pattern

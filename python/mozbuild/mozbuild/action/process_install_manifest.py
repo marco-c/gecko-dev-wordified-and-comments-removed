@@ -42,8 +42,6 @@ import
 (
     
 InstallManifest
-    
-InstallManifestNoSymlinks
 )
 from
 mozbuild
@@ -223,17 +221,9 @@ remove_all_directory_symlinks
 =
 False
     
-manifest_cls
-=
-InstallManifestNoSymlinks
-if
-no_symlinks
-else
-InstallManifest
-    
 manifest
 =
-manifest_cls
+InstallManifest
 (
 )
     
@@ -246,7 +236,7 @@ paths
 manifest
 |
 =
-manifest_cls
+InstallManifest
 (
 path
 =
@@ -259,14 +249,31 @@ FileCopier
 (
 )
     
+link_policy
+=
+"
+copy
+"
+if
+no_symlinks
+else
+"
+symlink
+"
+    
 manifest
 .
 populate_registry
 (
+        
 copier
 defines_override
 =
 defines
+link_policy
+=
+link_policy
+    
 )
     
 result
