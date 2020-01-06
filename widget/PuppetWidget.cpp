@@ -2890,6 +2890,17 @@ compositionCommitEvent
 status
 )
 ;
+Unused
+<
+<
+mTabChild
+-
+>
+SendOnEventNeedingAckHandled
+(
+eCompositionCommitRequestHandled
+)
+;
 return
 NS_OK
 ;
