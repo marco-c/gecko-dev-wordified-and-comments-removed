@@ -70,7 +70,7 @@ cdm_interface_version
 cdm
 :
 :
-ContentDecryptionModule_8
+ContentDecryptionModule_9
 :
 :
 kVersion
@@ -83,7 +83,7 @@ nullptr
 cdm
 :
 :
-Host_8
+Host_9
 *
 host
 =
@@ -92,7 +92,7 @@ static_cast
 cdm
 :
 :
-Host_8
+Host_9
 *
 >
 (
