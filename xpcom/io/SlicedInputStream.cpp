@@ -687,6 +687,16 @@ mLength
 mCurPos
 ;
 }
+if
+(
+!
+aCount
+)
+{
+return
+NS_OK
+;
+}
 nsresult
 rv
 =
