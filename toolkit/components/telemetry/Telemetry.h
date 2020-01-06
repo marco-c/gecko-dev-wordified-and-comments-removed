@@ -807,16 +807,6 @@ CanRecordExtended
 (
 )
 ;
-bool
-CanRecordReleaseData
-(
-)
-;
-bool
-CanRecordPrereleaseData
-(
-)
-;
 void
 RecordSlowSQLStatement
 (
