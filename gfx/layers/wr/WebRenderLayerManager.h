@@ -890,6 +890,16 @@ mWindowOverlayChanged
 true
 ;
 }
+nsIWidget
+*
+GetWidget
+(
+)
+{
+return
+mWidget
+;
+}
 dom
 :
 :
