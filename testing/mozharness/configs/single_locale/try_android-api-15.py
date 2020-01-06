@@ -1,3 +1,5 @@
+import
+os
 BRANCH
 =
 "
@@ -277,6 +279,12 @@ update_gecko_source_to_enUS
 False
     
 "
+nightly_build
+"
+:
+True
+    
+"
 repos
 "
 :
@@ -521,7 +529,17 @@ firefox
 EN_US_BINARY_URL
 "
 :
+os
+.
+environ
+.
+get
+(
+"
 EN_US_BINARY_URL
+"
+EN_US_BINARY_URL
+)
         
 "
 LOCALE_MERGEDIR
