@@ -849,13 +849,6 @@ back
 -
 button
 "
-widgetName
-:
-"
-urlbar
--
-container
-"
 }
 ]
 [
