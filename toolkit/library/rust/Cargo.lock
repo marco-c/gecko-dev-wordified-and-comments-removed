@@ -8803,7 +8803,7 @@ smallbitvec
 .
 0
 .
-3
+6
 (
 registry
 +
@@ -14396,7 +14396,7 @@ version
 .
 0
 .
-3
+6
 "
 source
 =
@@ -15397,7 +15397,7 @@ smallbitvec
 .
 0
 .
-3
+6
 (
 registry
 +
@@ -24104,7 +24104,7 @@ smallbitvec
 .
 0
 .
-3
+6
 (
 registry
 +
@@ -24129,7 +24129,7 @@ index
 "
 =
 "
-c1ebf4681dc284c22efb7248986bbdf8aa23c2749ea85a0107e0e787038d303e
+79b776f00dfe01df905fa3b2eaa1659522e99e3fc4a7b1334171622205c4bdcf
 "
 "
 checksum
