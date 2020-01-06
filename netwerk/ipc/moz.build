@@ -313,6 +313,12 @@ caps
 '
 '
 /
+dom
+/
+base
+'
+'
+/
 modules
 /
 libjar

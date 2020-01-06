@@ -11,6 +11,17 @@ mozilla
 /
 net
 /
+NeckoTargetHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 PWebSocketEventListenerChild
 .
 h
@@ -30,6 +41,8 @@ final
 :
 public
 PWebSocketEventListenerChild
+public
+NeckoTargetHolder
 {
 public
 :
@@ -42,6 +55,9 @@ WebSocketEventListenerChild
 (
 uint64_t
 aInnerWindowID
+nsIEventTarget
+*
+aTarget
 )
 ;
 mozilla
