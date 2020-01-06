@@ -4711,12 +4711,6 @@ mBrowserDOMWindow
 nsWeakPtr
 mFullscreenPresShell
 ;
-nsCOMPtr
-<
-mozIDOMWindowProxy
->
-mOpenerForInitialContentBrowser
-;
 }
 mChromeFields
 ;
