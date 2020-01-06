@@ -16,10 +16,6 @@ env_logger
 ;
 extern
 crate
-hashglobe
-;
-extern
-crate
 libc
 ;
 #
