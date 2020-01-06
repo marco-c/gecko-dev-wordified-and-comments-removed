@@ -336,6 +336,12 @@ rhs
 .
 rtpStreamId
 ;
+repairedRtpStreamId
+=
+rhs
+.
+repairedRtpStreamId
+;
 return
 *
 this

@@ -2913,7 +2913,7 @@ StreamId
 rtpStreamId
 ;
 StreamId
-repairedStreamId
+repairedRtpStreamId
 ;
 }
 ;

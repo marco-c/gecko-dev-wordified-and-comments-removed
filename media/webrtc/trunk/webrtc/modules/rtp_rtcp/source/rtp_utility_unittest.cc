@@ -1073,7 +1073,7 @@ header
 .
 extension
 .
-repairedStreamId
+repairedRtpStreamId
 StreamId
 (
 "
@@ -1228,7 +1228,7 @@ header
 .
 extension
 .
-repairedStreamId
+repairedRtpStreamId
 StreamId
 (
 "

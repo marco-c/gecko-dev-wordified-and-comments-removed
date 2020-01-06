@@ -351,6 +351,17 @@ const
 int
 kRtpStreamIdDefaultId
 ;
+static
+const
+char
+*
+kRepairedRtpStreamIdUri
+;
+static
+const
+int
+kRepairedRtpStreamIdDefaultId
+;
 std
 :
 :

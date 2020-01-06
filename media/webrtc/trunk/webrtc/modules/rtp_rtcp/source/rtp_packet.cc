@@ -1021,7 +1021,7 @@ header
 >
 extension
 .
-repairedStreamId
+repairedRtpStreamId
 )
 ;
 GetExtension
