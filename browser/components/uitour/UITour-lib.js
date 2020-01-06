@@ -952,6 +952,7 @@ showFirefoxAccounts
 function
 (
 extraURLCampaignParams
+email
 )
 {
 _sendEvent
@@ -968,6 +969,7 @@ stringify
 (
 extraURLCampaignParams
 )
+email
 }
 )
 ;
