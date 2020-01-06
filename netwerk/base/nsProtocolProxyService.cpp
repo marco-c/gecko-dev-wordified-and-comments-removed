@@ -3668,6 +3668,10 @@ Length
 =
 =
 0
+&
+&
+!
+mFilterLocalHosts
 )
 return
 true
