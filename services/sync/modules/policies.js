@@ -3683,6 +3683,11 @@ RESTRequest
 "
 BookmarkSyncUtils
 "
+"
+addons
+.
+xpi
+"
 ]
 ;
 this
