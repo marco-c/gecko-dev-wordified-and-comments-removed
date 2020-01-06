@@ -431,6 +431,8 @@ protected
 void
 Shutdown
 (
+bool
+aInitSucceeded
 )
 ;
 bool
@@ -454,7 +456,7 @@ aNewDatabaseCreated
 )
 ;
 nsresult
-InitFaviconsDatabaseFile
+EnsureFaviconsDatabaseFile
 (
 nsCOMPtr
 <
@@ -482,6 +484,17 @@ const
 nsCString
 &
 aReason
+)
+;
+nsresult
+SetupDatabaseConnection
+(
+nsCOMPtr
+<
+mozIStorageService
+>
+&
+aStorage
 )
 ;
 nsresult
