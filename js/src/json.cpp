@@ -3861,14 +3861,12 @@ empty
 if
 (
 !
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 wrapper
 emptyId
 vp
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )

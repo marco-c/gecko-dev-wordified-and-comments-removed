@@ -6913,7 +6913,7 @@ positiveInfinityValue
 if
 (
 !
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 global
@@ -6926,8 +6926,6 @@ names
 .
 NaN
 valueNaN
-nullptr
-nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -6937,7 +6935,7 @@ JSPROP_RESOLVING
 |
 |
 !
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 global
@@ -6950,8 +6948,6 @@ names
 .
 Infinity
 valueInfinity
-nullptr
-nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY

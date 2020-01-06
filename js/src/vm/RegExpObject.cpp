@@ -6525,7 +6525,7 @@ Int32Value
 if
 (
 !
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 templateObject
@@ -6538,16 +6538,12 @@ names
 .
 index
 index
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
-{
 return
 matchResultTemplateObject_
 ;
-}
 RootedValue
 inputVal
 (
@@ -6569,7 +6565,7 @@ emptyString
 if
 (
 !
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 templateObject
@@ -6582,8 +6578,6 @@ names
 .
 input
 inputVal
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )

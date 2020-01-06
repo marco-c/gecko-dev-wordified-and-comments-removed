@@ -6645,14 +6645,12 @@ value
 if
 (
 !
-NativeDefineProperty
+NativeDefineDataProperty
 (
 cx
 obj
 propid
 value
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
