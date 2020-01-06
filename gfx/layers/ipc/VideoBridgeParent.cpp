@@ -70,12 +70,11 @@ this
 ;
 mCompositorThreadRef
 =
-new
-CompositorThreadHolderDebug
+CompositorThreadHolder
+:
+:
+GetSingleton
 (
-"
-VideoBridge
-"
 )
 ;
 }
