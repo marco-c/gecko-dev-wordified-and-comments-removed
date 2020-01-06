@@ -206,6 +206,12 @@ clang
 tar
 .
 xz
+toolchains
+:
+-
+linux64
+-
+sccache
 macosx64
 -
 clang
@@ -395,6 +401,12 @@ tidy
 tar
 .
 xz
+toolchains
+:
+-
+linux64
+-
+sccache
 macosx64
 -
 cctools
@@ -543,3 +555,9 @@ cctools
 tar
 .
 bz2
+toolchains
+:
+-
+linux64
+-
+sccache

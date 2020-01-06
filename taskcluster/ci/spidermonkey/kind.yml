@@ -390,6 +390,12 @@ upload
 files
 .
 mk
+toolchains
+:
+-
+linux64
+-
+sccache
 jobs
 :
 sm

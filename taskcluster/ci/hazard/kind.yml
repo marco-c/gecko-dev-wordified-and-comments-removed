@@ -285,6 +285,12 @@ src
 /
 *
 *
+toolchains
+:
+-
+linux64
+-
+sccache
 linux64
 -
 haz
@@ -401,3 +407,9 @@ browser
 HOME
 /
 workspace
+toolchains
+:
+-
+linux64
+-
+sccache
