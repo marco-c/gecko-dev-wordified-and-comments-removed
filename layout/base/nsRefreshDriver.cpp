@@ -8901,6 +8901,8 @@ nsRefreshDriver
 :
 GetTransactionId
 (
+bool
+aThrottle
 )
 {
 +
@@ -8909,6 +8911,9 @@ mPendingTransaction
 ;
 if
 (
+aThrottle
+&
+&
 mPendingTransaction
 >
 =

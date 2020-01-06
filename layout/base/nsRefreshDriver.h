@@ -707,6 +707,8 @@ aJank
 uint64_t
 GetTransactionId
 (
+bool
+aThrottle
 )
 override
 ;
