@@ -307,7 +307,7 @@ aRunnable
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 SystemGroup
 :

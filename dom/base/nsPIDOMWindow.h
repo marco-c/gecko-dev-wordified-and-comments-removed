@@ -120,9 +120,6 @@ class
 nsIDocument
 ;
 class
-nsIEventTarget
-;
-class
 nsIIdleObserver
 ;
 class
@@ -130,6 +127,9 @@ nsIPrincipal
 ;
 class
 nsIScriptTimeoutHandler
+;
+class
+nsISerialEventTarget
 ;
 class
 nsIURI
@@ -1576,7 +1576,7 @@ GetDocGroup
 const
 ;
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (

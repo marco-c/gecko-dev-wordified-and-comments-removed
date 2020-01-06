@@ -241,7 +241,7 @@ aRunnable
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 DocGroup
 :

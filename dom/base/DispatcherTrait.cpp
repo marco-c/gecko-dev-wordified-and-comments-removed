@@ -81,7 +81,7 @@ aRunnable
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 DispatcherTrait
 :
@@ -94,7 +94,7 @@ aCategory
 const
 {
 return
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

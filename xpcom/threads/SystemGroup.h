@@ -50,7 +50,7 @@ aRunnable
 )
 ;
 static
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (

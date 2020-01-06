@@ -23,10 +23,10 @@ TaskCategory
 h
 "
 class
-nsIEventTarget
+nsIRunnable
 ;
 class
-nsIRunnable
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -65,7 +65,7 @@ aRunnable
 )
 ;
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (

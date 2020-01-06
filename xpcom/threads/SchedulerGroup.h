@@ -58,6 +58,9 @@ nsIEventTarget
 class
 nsIRunnable
 ;
+class
+nsISerialEventTarget
+;
 namespace
 mozilla
 {
@@ -290,7 +293,7 @@ aRunnable
 )
 ;
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (
@@ -366,7 +369,7 @@ aCategory
 virtual
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 CreateEventTargetFor
 (
@@ -440,7 +443,7 @@ mAccessValid
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mEventTargets
 [

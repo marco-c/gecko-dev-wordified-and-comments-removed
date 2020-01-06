@@ -308,7 +308,7 @@ do_QueryInterface
 thing
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 serial
 )

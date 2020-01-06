@@ -7,7 +7,7 @@ mozilla_ThrottledEventQueue_h
 #
 include
 "
-nsIEventTarget
+nsISerialEventTarget
 .
 h
 "
@@ -39,7 +39,7 @@ ThrottledEventQueue
 final
 :
 public
-nsIEventTarget
+nsISerialEventTarget
 {
 class
 Inner
@@ -79,7 +79,7 @@ ThrottledEventQueue
 >
 Create
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aBaseTarget
 )

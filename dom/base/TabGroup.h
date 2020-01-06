@@ -286,7 +286,7 @@ return
 mWindows
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTargetFor
 (

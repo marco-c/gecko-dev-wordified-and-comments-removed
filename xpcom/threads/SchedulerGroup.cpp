@@ -828,7 +828,7 @@ aRunnable
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 SchedulerGroup
 :
@@ -1037,7 +1037,7 @@ mEventTargets
 i
 ]
 =
-do_GetMainThread
+GetMainThreadSerialEventTarget
 (
 )
 ;
@@ -1098,7 +1098,7 @@ aXPCOMShutdown
 ?
 nullptr
 :
-do_GetMainThread
+GetMainThreadSerialEventTarget
 (
 )
 ;
@@ -1113,7 +1113,7 @@ nullptr
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 SchedulerGroup
 :
