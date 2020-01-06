@@ -572,6 +572,9 @@ aContent
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aTriggeringPrincipal
 nsIURI
 *
 aSourceURI

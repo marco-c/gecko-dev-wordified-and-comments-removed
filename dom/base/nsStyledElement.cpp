@@ -784,6 +784,7 @@ nullptr
 NodePrincipal
 (
 )
+aMaybeScriptedPrincipal
 doc
 -
 >
