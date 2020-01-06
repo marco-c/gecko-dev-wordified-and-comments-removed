@@ -1461,6 +1461,8 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+int64_t
+aRequestOffset
 )
 ;
 nsresult
