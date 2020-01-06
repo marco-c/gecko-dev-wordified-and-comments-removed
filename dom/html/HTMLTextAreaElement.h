@@ -1526,7 +1526,7 @@ GetEditor
 return
 mState
 .
-GetEditor
+GetTextEditor
 (
 )
 ;

@@ -71,6 +71,13 @@ nsDataHashtable
 .
 h
 "
+#
+include
+"
+nsXBLBinding
+.
+h
+"
 class
 ContentUnbinder
 ;

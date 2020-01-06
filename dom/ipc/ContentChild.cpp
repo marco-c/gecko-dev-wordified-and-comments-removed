@@ -780,6 +780,13 @@ h
 #
 include
 "
+nsIContentViewer
+.
+h
+"
+#
+include
+"
 nsICycleCollectorListener
 .
 h
