@@ -119,8 +119,9 @@ callback
 interface
 MutationObserver
 {
-/
-/
+[
+Throws
+]
 void
 observe
 (
