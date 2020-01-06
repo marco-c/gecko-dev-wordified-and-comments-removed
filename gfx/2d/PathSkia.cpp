@@ -799,7 +799,7 @@ SkRectToRect
 (
 mPath
 .
-getBounds
+computeTightBounds
 (
 )
 )
@@ -884,7 +884,7 @@ SkRectToRect
 (
 result
 .
-getBounds
+computeTightBounds
 (
 )
 )
