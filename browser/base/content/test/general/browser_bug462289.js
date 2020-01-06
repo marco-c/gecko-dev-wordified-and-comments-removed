@@ -101,9 +101,10 @@ tab1
 }
 )
 ;
-executeSoon
+setTimeout
 (
 step2
+0
 )
 ;
 }
@@ -155,9 +156,10 @@ tab1
 }
 )
 ;
-executeSoon
+setTimeout
 (
 step3
+0
 )
 ;
 }
@@ -283,9 +285,10 @@ tab1
 }
 )
 ;
-executeSoon
+setTimeout
 (
 step4
+0
 )
 ;
 }
@@ -445,9 +448,10 @@ mousedown
 }
 )
 ;
-executeSoon
+setTimeout
 (
 step6
+0
 )
 ;
 }
