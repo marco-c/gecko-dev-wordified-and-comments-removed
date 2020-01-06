@@ -1753,6 +1753,17 @@ mach
 '
 )
         
+mach_binary
+=
+os
+.
+path
+.
+abspath
+(
+mach_binary
+)
+        
 if
 not
 os
