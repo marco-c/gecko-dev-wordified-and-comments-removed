@@ -291,11 +291,8 @@ residentUnique
 this
 .
 _summaries
-[
-"
+.
 Parent
-"
-]
 =
 {
 uss

@@ -1434,11 +1434,8 @@ pageData
 url
 ;
 query
-[
-"
+.
 body
-"
-]
 =
 body
 ;

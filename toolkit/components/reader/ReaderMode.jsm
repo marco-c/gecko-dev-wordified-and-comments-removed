@@ -305,11 +305,8 @@ scope
 ;
 return
 scope
-[
-"
+.
 Readability
-"
-]
 ;
 }
 )

@@ -1113,11 +1113,8 @@ if
 (
 !
 startupInfo
-[
-"
+.
 firstPaint
-"
-]
 )
 {
 let

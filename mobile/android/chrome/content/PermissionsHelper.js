@@ -458,11 +458,8 @@ browser
 GetStringFromName
 (
 typeStrings
-[
-"
+.
 label
-"
-]
 )
 ;
 let
@@ -635,11 +632,8 @@ _currentPermissions
 [
 indexToClear
 ]
-[
-"
+.
 type
-"
-]
 ;
 this
 .

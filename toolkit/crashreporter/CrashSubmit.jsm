@@ -611,11 +611,8 @@ crstrings
 )
 {
 strings
-[
-"
+.
 crashid
-"
-]
 =
 crstrings
 .
@@ -632,11 +629,8 @@ crstrings
 )
 {
 strings
-[
-"
+.
 reporturl
-"
-]
 =
 crstrings
 .

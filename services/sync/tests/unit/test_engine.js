@@ -1517,11 +1517,8 @@ do_check_true
 tracker
 .
 changedIDs
-[
-"
+.
 abcdefghijkl
-"
-]
 )
 ;
 Svc

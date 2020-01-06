@@ -13136,11 +13136,8 @@ getStartupInfo
 ;
 delete
 startupEvents
-[
-"
+.
 process
-"
-]
 ;
 function
 keyIsMilestone

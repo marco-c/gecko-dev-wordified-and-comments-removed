@@ -833,11 +833,8 @@ _updateClockOffset
 restResponse
 .
 headers
-[
-"
+.
 date
-"
-]
 )
 ;
 if

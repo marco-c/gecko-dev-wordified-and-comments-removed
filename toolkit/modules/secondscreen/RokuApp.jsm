@@ -1124,11 +1124,8 @@ data
 return
 ;
 data
-[
-"
+.
 _v
-"
-]
 =
 PROTOCOL_VERSION
 ;

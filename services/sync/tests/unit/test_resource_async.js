@@ -2100,11 +2100,8 @@ do_check_eq
 res1
 .
 _headers
-[
-"
+.
 authorization
-"
-]
 "
 Basic
 foobar
@@ -2116,11 +2113,8 @@ do_check_eq
 res1
 .
 headers
-[
-"
+.
 authorization
-"
-]
 "
 Basic
 foobar

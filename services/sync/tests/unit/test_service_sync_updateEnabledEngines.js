@@ -2132,11 +2132,8 @@ delete
 d
 .
 engines
-[
-"
+.
 steam
-"
-]
 ;
 metaWBO
 .
@@ -2187,11 +2184,8 @@ clientsEngine
 _store
 .
 _remoteClients
-[
-"
+.
 foobar
-"
-]
 =
 {
 name

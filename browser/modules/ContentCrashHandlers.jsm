@@ -1589,11 +1589,8 @@ includeURL
 )
 {
 extraExtraKeyVals
-[
-"
+.
 URL
-"
-]
 =
 "
 "

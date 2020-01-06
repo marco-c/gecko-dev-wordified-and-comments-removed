@@ -2973,11 +2973,8 @@ deepEqual
 ping
 .
 payload
-[
-"
+.
 os
-"
-]
 TelemetryHealthPing
 .
 OsInfo
