@@ -262,6 +262,12 @@ nsIStreamListener
 aStreamListener
 )
 ;
+bool
+IsTransportSeekable
+(
+)
+override
+;
 void
 SetLoadInBackground
 (

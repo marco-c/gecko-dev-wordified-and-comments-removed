@@ -140,6 +140,16 @@ return
 mDemuxer
 ;
 }
+bool
+IsTransportSeekable
+(
+)
+override
+{
+return
+true
+;
+}
 void
 GetMozDebugReaderData
 (

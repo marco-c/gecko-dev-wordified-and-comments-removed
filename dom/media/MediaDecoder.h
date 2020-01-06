@@ -543,10 +543,13 @@ IsMediaSeekable
 (
 )
 ;
+virtual
 bool
 IsTransportSeekable
 (
 )
+=
+0
 ;
 virtual
 media

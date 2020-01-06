@@ -86,6 +86,16 @@ Pause
 )
 override
 ;
+bool
+IsTransportSeekable
+(
+)
+override
+{
+return
+true
+;
+}
 void
 Suspend
 (
