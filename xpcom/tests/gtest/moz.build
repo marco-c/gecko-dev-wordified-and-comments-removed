@@ -225,6 +225,11 @@ TestRacingServiceManager
 cpp
 '
 '
+TestRecursiveMutex
+.
+cpp
+'
+'
 TestRWLock
 .
 cpp

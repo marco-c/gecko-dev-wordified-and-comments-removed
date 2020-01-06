@@ -109,6 +109,7 @@ BlockingResourceType
 eMutex
 eReentrantMonitor
 eCondVar
+eRecursiveMutex
 }
 ;
 static
