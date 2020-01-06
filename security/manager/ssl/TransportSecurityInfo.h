@@ -126,12 +126,13 @@ namespace
 psm
 {
 enum
+class
 SSLErrorMessageType
 {
-OverridableCertErrorMessage
+OverridableCert
 =
 1
-PlainErrorMessage
+Plain
 =
 2
 }

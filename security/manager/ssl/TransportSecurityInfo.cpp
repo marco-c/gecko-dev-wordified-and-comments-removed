@@ -178,7 +178,10 @@ mErrorCode
 )
 mErrorMessageType
 (
-PlainErrorMessage
+SSLErrorMessageType
+:
+:
+Plain
 )
 mPort
 (
@@ -725,7 +728,10 @@ MOZ_ASSERT
 errorMessageType
 !
 =
-OverridableCertErrorMessage
+SSLErrorMessageType
+:
+:
+OverridableCert
 |
 |
 (
@@ -763,7 +769,10 @@ if
 errorMessageType
 =
 =
-OverridableCertErrorMessage
+SSLErrorMessageType
+:
+:
+OverridableCert
 &
 &
 mSSLStatus
