@@ -81,6 +81,12 @@ ClientManager
 >
 mManager
 ;
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mEventTarget
+;
 Variant
 <
 Nothing
@@ -151,6 +157,9 @@ ClientSource
 ClientManager
 *
 aManager
+nsISerialEventTarget
+*
+aEventTarget
 const
 ClientSourceConstructorArgs
 &
@@ -216,6 +225,13 @@ const
 ClientInfo
 &
 Info
+(
+)
+const
+;
+nsISerialEventTarget
+*
+EventTarget
 (
 )
 const
