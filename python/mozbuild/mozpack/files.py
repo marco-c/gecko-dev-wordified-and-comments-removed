@@ -6322,7 +6322,7 @@ os
 .
 path
 .
-exists
+lexists
 (
 srcpath
 )
