@@ -350,6 +350,15 @@ aIsHeadless
 )
 override
 ;
+NS_IMETHOD
+GetOffMainThreadPaintEnabled
+(
+bool
+*
+aOffMainThreadPaintEnabled
+)
+override
+;
 virtual
 nsresult
 Init

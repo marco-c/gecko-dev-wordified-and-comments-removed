@@ -3074,6 +3074,16 @@ Direct2D
 "
 )
 ;
+addRowFromKey
+(
+"
+features
+"
+"
+offMainThreadPaintEnabled
+"
+)
+;
 if
 (
 "

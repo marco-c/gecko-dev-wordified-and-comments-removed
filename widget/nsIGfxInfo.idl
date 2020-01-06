@@ -195,6 +195,11 @@ attribute
 boolean
 isHeadless
 ;
+readonly
+attribute
+boolean
+OffMainThreadPaintEnabled
+;
 /
 /
 XXX
