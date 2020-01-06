@@ -12254,6 +12254,9 @@ e
 function
 focusAndSelectUrlBar
 (
+userInitiatedFocus
+=
+false
 )
 {
 if
@@ -12276,6 +12279,7 @@ function
 {
 focusAndSelectUrlBar
 (
+userInitiatedFocus
 )
 ;
 }
@@ -12309,9 +12313,21 @@ showNavToolbox
 ;
 gURLBar
 .
+userInitiatedFocus
+=
+userInitiatedFocus
+;
+gURLBar
+.
 select
 (
 )
+;
+gURLBar
+.
+userInitiatedFocus
+=
+false
 ;
 if
 (
@@ -12341,6 +12357,7 @@ if
 (
 focusAndSelectUrlBar
 (
+true
 )
 )
 return
@@ -20181,6 +20198,7 @@ inputField
 {
 focusAndSelectUrlBar
 (
+true
 )
 ;
 }
