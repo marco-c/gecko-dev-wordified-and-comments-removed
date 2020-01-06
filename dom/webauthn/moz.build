@@ -151,6 +151,11 @@ PublicKeyCredential
 h
 '
 '
+U2FHIDTokenManager
+.
+h
+'
+'
 U2FSoftTokenManager
 .
 h
@@ -217,6 +222,11 @@ cpp
 '
 '
 PublicKeyCredential
+.
+cpp
+'
+'
+U2FHIDTokenManager
 .
 cpp
 '
