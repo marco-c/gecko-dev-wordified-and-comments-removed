@@ -2302,13 +2302,6 @@ mVsyncBridge
 nullptr
 ;
 }
-CompositorManagerChild
-:
-:
-OnGPUProcessShutdown
-(
-)
-;
 #
 ifdef
 MOZ_CRASHREPORTER
