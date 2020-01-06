@@ -3759,7 +3759,6 @@ PlacesControllerDragHelper
 disallowInsertion
 (
 container
-this
 )
 )
 return
@@ -3919,7 +3918,6 @@ PlacesControllerDragHelper
 disallowInsertion
 (
 container
-this
 )
 )
 return
@@ -5374,7 +5372,6 @@ PlacesControllerDragHelper
 canMoveNode
 (
 node
-this
 )
 )
 {

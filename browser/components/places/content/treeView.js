@@ -6797,11 +6797,6 @@ PlacesControllerDragHelper
 disallowInsertion
 (
 container
-this
-.
-_tree
-.
-element
 )
 )
 return
@@ -6910,11 +6905,6 @@ PlacesControllerDragHelper
 disallowInsertion
 (
 container
-this
-.
-_tree
-.
-element
 )
 )
 return

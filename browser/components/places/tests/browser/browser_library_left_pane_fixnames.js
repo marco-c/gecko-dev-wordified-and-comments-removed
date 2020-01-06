@@ -423,8 +423,14 @@ badName
 )
 ;
 }
-restoreLeftPaneGetters
+PlacesUIUtils
+.
+__defineGetter__
 (
+"
+leftPaneFolderId
+"
+cachedLeftPaneFolderIdGetter
 )
 ;
 openLibrary

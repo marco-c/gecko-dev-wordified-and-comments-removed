@@ -669,9 +669,6 @@ PlacesControllerDragHelper
 disallowInsertion
 (
 resultNode
-this
-.
-_rootView
 )
 )
 {
@@ -981,14 +978,11 @@ _placesNode
 !
 PlacesUIUtils
 .
-isFolderReadOnly
+isContentsReadOnly
 (
 elt
 .
 _placesNode
-this
-.
-_rootView
 )
 )
 |
@@ -2607,9 +2601,6 @@ PlacesControllerDragHelper
 canMoveNode
 (
 draggedElt
-this
-.
-_rootView
 elt
 )
 )

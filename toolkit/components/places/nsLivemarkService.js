@@ -2080,12 +2080,6 @@ guid
 )
 ;
 }
-skipDescendantsOnItemRemoval
-:
-false
-skipTags
-:
-true
 onPageChanged
 (
 )
