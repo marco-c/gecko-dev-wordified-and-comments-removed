@@ -218,14 +218,6 @@ aHeightScale
 )
 ;
 NS_IMETHOD
-SetPaperSizeUnit
-(
-int16_t
-aPaperSizeUnit
-)
-override
-;
-NS_IMETHOD
 SetScaling
 (
 double
