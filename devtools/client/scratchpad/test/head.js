@@ -194,8 +194,6 @@ testing
 =
 true
 ;
-SimpleTest
-.
 registerCleanupFunction
 (
 (
