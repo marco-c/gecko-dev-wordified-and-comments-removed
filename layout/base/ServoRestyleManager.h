@@ -508,6 +508,11 @@ ProcessPendingRestyles
 )
 ;
 void
+ProcessAllPendingAttributeAndStateInvalidations
+(
+)
+;
+void
 UpdateOnlyAnimationStyles
 (
 )
