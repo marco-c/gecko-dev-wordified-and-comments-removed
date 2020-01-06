@@ -22,6 +22,9 @@ PProfilerParent
 .
 h
 "
+class
+nsIProfilerStartParams
+;
 namespace
 mozilla
 {
