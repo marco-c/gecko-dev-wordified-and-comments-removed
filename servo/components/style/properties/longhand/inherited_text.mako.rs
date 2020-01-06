@@ -205,9 +205,6 @@ gecko_enum_prefix
 "
 StyleHyphens
 "
-gecko_inexhaustive
-=
-True
 products
 =
 "
@@ -637,11 +634,6 @@ gecko_enum_prefix
 =
 "
 StyleTextJustify
-"
-gecko_inexhaustive
-=
-"
-True
 "
 animation_value_type
 =
@@ -2866,11 +2858,6 @@ gecko_enum_prefix
 StyleWhiteSpace
 "
 needs_conversion
-=
-"
-True
-"
-gecko_inexhaustive
 =
 "
 True

@@ -89,9 +89,6 @@ gecko_enum_prefix
 "
 StyleBoxAlign
 "
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "
@@ -171,9 +168,6 @@ gecko_enum_prefix
 "
 StyleBoxDirection
 "
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "
@@ -350,9 +344,6 @@ gecko_enum_prefix
 "
 StyleBoxOrient
 "
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "
@@ -434,9 +425,6 @@ gecko_enum_prefix
 "
 StyleBoxPack
 "
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "
@@ -526,9 +514,6 @@ gecko_enum_prefix
 "
 StyleStackSizing
 "
-gecko_inexhaustive
-=
-True
 animation_value_type
 =
 "
