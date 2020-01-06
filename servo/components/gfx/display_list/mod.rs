@@ -193,6 +193,7 @@ webrender_api
 :
 :
 {
+ScrollSensitivity
 TransformStyle
 WebGLContextId
 }
@@ -3044,6 +3045,9 @@ enum
 ScrollRootType
 {
 ScrollFrame
+(
+ScrollSensitivity
+)
 Clip
 }
 #
