@@ -10583,6 +10583,17 @@ flush
 (
 )
 ;
+if
+(
+masm
+.
+oom
+(
+)
+)
+return
+false
+;
 masm
 .
 patchAdd32ToPtr
