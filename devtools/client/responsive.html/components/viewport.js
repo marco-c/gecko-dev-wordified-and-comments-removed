@@ -102,13 +102,6 @@ devices
 )
 .
 isRequired
-location
-:
-Types
-.
-location
-.
-isRequired
 screenshot
 :
 PropTypes
@@ -293,7 +286,6 @@ render
 let
 {
 devices
-location
 screenshot
 swapAfterMount
 viewport
@@ -342,7 +334,6 @@ ResizableViewport
 (
 {
 devices
-location
 screenshot
 swapAfterMount
 viewport
