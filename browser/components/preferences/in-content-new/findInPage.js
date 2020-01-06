@@ -1329,6 +1329,16 @@ searchPhrase
 let
 valueResult
 =
+nodeObject
+.
+tagName
+!
+=
+=
+"
+menuitem
+"
+?
 this
 .
 stringMatchesFilters
@@ -1343,6 +1353,8 @@ value
 )
 searchPhrase
 )
+:
+false
 ;
 let
 keywordsResult
