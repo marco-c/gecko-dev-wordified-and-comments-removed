@@ -1361,6 +1361,12 @@ family
 :
 foo
 ;
+font
+-
+size
+:
+12px
+;
 text
 -
 transform
@@ -1558,6 +1564,12 @@ font
 family
 :
 foo
+;
+font
+-
+size
+:
+12px
 ;
 }
 <
