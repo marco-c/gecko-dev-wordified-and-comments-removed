@@ -4331,6 +4331,14 @@ connectStart
 ;
 mTransactionTimings
 .
+secureConnectionStart
+=
+timing
+.
+secureConnectionStart
+;
+mTransactionTimings
+.
 connectEnd
 =
 timing

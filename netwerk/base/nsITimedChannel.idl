@@ -299,6 +299,14 @@ noscript
 readonly
 attribute
 TimeStamp
+secureConnectionStart
+;
+[
+noscript
+]
+readonly
+attribute
+TimeStamp
 connectEnd
 ;
 [
@@ -593,6 +601,11 @@ readonly
 attribute
 PRTime
 connectStartTime
+;
+readonly
+attribute
+PRTime
+secureConnectionStartTime
 ;
 readonly
 attribute

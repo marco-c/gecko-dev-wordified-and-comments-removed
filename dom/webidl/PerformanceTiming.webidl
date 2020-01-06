@@ -214,17 +214,6 @@ long
 long
 connectEnd
 ;
-/
-/
-secureConnectionStart
-will
-be
-implemneted
-in
-bug
-772589
-/
-/
 readonly
 attribute
 unsigned

@@ -100,6 +100,9 @@ dns
 connect
 "
 "
+ssl
+"
+"
 send
 "
 "

@@ -32,6 +32,9 @@ TimeStamp
 connectStart
 ;
 TimeStamp
+secureConnectionStart
+;
+TimeStamp
 connectEnd
 ;
 TimeStamp
