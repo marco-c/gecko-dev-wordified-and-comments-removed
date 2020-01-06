@@ -1438,9 +1438,11 @@ doc
 getElementById
 (
 "
-urlbar
+page
 -
-icons
+action
+-
+buttons
 "
 )
 ;
