@@ -331,13 +331,6 @@ paddingTop
 "
 android
 :
-paddingBottom
-=
-"
-30dp
-"
-android
-:
 gravity
 =
 "

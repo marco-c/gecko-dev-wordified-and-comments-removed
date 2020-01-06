@@ -3076,7 +3076,7 @@ android
 layout_height
 "
 >
-60dp
+43dp
 <
 /
 item
@@ -8109,7 +8109,7 @@ textColor
 >
 color
 /
-text_and_tabs_tray_grey
+ob_title
 <
 /
 item
@@ -8157,7 +8157,7 @@ textColor
 >
 color
 /
-placeholder_grey
+ob_subtitle
 <
 /
 item
@@ -8222,7 +8222,7 @@ textColor
 >
 color
 /
-link_blue
+ob_click
 <
 /
 item
