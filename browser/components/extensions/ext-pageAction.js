@@ -382,6 +382,11 @@ Action
 id
 :
 widgetId
+extensionID
+:
+extension
+.
+id
 title
 :
 this
@@ -401,7 +406,7 @@ defaults
 .
 icon
 )
-shownInUrlbar
+pinnedToUrlbar
 :
 true
 disabled

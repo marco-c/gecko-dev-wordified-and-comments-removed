@@ -645,7 +645,7 @@ saveToPocketCmd
 label
 "
 )
-shownInUrlbar
+pinnedToUrlbar
 :
 true
 wantsIframe

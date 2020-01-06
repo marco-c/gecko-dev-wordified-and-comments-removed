@@ -211,7 +211,7 @@ equal
 (
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 true
 )
 ;
@@ -253,13 +253,13 @@ equal
 (
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 true
 )
 ;
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 =
 false
 ;
@@ -301,7 +301,7 @@ equal
 (
 action
 .
-shownInUrlbar
+pinnedToUrlbar
 false
 )
 ;
