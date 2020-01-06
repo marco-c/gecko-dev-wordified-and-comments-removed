@@ -223,6 +223,17 @@ __VA_ARGS__
 )
 static
 const
+int64_t
+SEEK_VS_READ_THRESHOLD
+=
+1
+*
+1024
+*
+1024
+;
+static
+const
 double
 NONSEEKABLE_READAHEAD_MAX
 =
