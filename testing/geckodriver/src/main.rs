@@ -64,6 +64,10 @@ slog_stream
 ;
 extern
 crate
+uuid
+;
+extern
+crate
 zip
 ;
 extern
