@@ -396,7 +396,9 @@ shared
 /
 client
 /
-main
+object
+-
+client
 "
 :
 return

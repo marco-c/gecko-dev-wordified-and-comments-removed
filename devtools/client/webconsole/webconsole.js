@@ -260,9 +260,10 @@ shared
 /
 client
 /
-main
+environment
+-
+client
 "
-true
 )
 ;
 loader
@@ -280,9 +281,10 @@ shared
 /
 client
 /
-main
+object
+-
+client
 "
-true
 )
 ;
 loader

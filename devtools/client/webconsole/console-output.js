@@ -126,9 +126,10 @@ shared
 /
 client
 /
-main
+object
+-
+client
 "
-true
 )
 ;
 const
