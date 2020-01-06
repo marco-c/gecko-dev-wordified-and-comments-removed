@@ -565,6 +565,8 @@ getService
 wrappedJSObject
 .
 data
+.
+code
 ;
 for
 (
