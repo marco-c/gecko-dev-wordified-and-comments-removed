@@ -414,7 +414,10 @@ mUnmarshal
 >
 GetUnmarshalClass
 (
+MarshalAs
+(
 riid
+)
 pv
 dwDestContext
 pvDestContext
