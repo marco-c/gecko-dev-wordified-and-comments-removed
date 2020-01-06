@@ -924,20 +924,6 @@ java
 .
 util
 .
-LinkedList
-;
-import
-java
-.
-util
-.
-List
-;
-import
-java
-.
-util
-.
 Locale
 ;
 import
@@ -1011,7 +997,7 @@ mma
 .
 MmaDelegate
 .
-DOWNLOAD_VIDEOS_OR_ANY_OTHER_MEDIA
+DOWNLOAD_MEDIA_SAVED_IMAGE
 ;
 import
 static
@@ -1025,7 +1011,7 @@ mma
 .
 MmaDelegate
 .
-LOADS_ARTICLES
+READER_AVAILABLE
 ;
 public
 abstract
@@ -4578,7 +4564,7 @@ MmaDelegate
 .
 track
 (
-LOADS_ARTICLES
+READER_AVAILABLE
 )
 ;
 }
@@ -4613,7 +4599,7 @@ MmaDelegate
 .
 track
 (
-DOWNLOAD_VIDEOS_OR_ANY_OTHER_MEDIA
+DOWNLOAD_MEDIA_SAVED_IMAGE
 )
 ;
 }

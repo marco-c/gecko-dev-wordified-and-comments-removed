@@ -122,7 +122,7 @@ mma
 .
 MmaDelegate
 .
-LOAD_BOOKMARK
+OPENED_BOOKMARK
 ;
 import
 static
@@ -136,7 +136,7 @@ mma
 .
 MmaDelegate
 .
-SAVE_BOOKMARK
+SAVED_BOOKMARK
 ;
 import
 static
@@ -150,7 +150,7 @@ mma
 .
 MmaDelegate
 .
-SAVE_PASSWORD
+SAVED_LOGIN_AND_PASSWORD
 ;
 import
 static
@@ -164,7 +164,7 @@ mma
 .
 MmaDelegate
 .
-WHEN_USER_TAKE_A_SCREENSHOT
+SCREENSHOT
 ;
 RobocopTarget
 public
@@ -1244,7 +1244,7 @@ MmaDelegate
 .
 track
 (
-SAVE_BOOKMARK
+SAVED_BOOKMARK
 )
 ;
 }
@@ -1287,7 +1287,7 @@ MmaDelegate
 .
 track
 (
-LOAD_BOOKMARK
+OPENED_BOOKMARK
 )
 ;
 }
@@ -1375,7 +1375,7 @@ MmaDelegate
 .
 track
 (
-WHEN_USER_TAKE_A_SCREENSHOT
+SCREENSHOT
 )
 ;
 }
@@ -1420,7 +1420,7 @@ MmaDelegate
 .
 track
 (
-SAVE_PASSWORD
+SAVED_LOGIN_AND_PASSWORD
 )
 ;
 }
