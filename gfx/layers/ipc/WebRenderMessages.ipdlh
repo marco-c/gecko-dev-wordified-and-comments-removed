@@ -683,8 +683,6 @@ OpAddFontInstance
 ;
 OpDeleteFontInstance
 ;
-OpAddExternalImage
-;
 }
 ;
 }

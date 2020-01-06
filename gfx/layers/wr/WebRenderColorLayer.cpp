@@ -116,7 +116,6 @@ scroller
 (
 this
 aBuilder
-aResources
 aSc
 )
 ;
