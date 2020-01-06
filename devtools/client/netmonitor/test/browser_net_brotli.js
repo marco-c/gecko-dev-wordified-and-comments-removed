@@ -246,7 +246,7 @@ networkMenu
 .
 sizeB
 "
-10
+60
 )
 size
 :

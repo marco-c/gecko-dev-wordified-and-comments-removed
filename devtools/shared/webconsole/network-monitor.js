@@ -2137,6 +2137,12 @@ transferredSize
 this
 .
 transferredSize
++
+this
+.
+httpActivity
+.
+headersSize
 ;
 try
 {
@@ -4863,6 +4869,14 @@ responseStatus
 response
 .
 status
+;
+httpActivity
+.
+headersSize
+=
+response
+.
+headersSize
 ;
 switch
 (

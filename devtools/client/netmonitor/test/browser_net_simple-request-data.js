@@ -1608,7 +1608,7 @@ requestItem
 .
 transferredSize
 "
-12
+342
 "
 "
 The
@@ -1828,7 +1828,7 @@ networkMenu
 .
 sizeB
 "
-12
+342
 )
 size
 :

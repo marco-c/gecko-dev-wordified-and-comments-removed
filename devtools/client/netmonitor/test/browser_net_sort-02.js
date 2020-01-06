@@ -2328,13 +2328,14 @@ transferred
 :
 L10N
 .
-getStr
+getFormatStrWithNumbers
 (
 "
 networkMenu
 .
-sizeUnavailable
+sizeB
 "
+198
 )
 size
 :
@@ -2425,7 +2426,7 @@ networkMenu
 .
 sizeB
 "
-19
+217
 )
 size
 :
@@ -2516,7 +2517,7 @@ networkMenu
 .
 sizeB
 "
-29
+227
 )
 size
 :
@@ -2607,7 +2608,7 @@ networkMenu
 .
 sizeB
 "
-39
+237
 )
 size
 :
@@ -2698,7 +2699,7 @@ networkMenu
 .
 sizeB
 "
-49
+247
 )
 size
 :
