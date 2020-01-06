@@ -3145,6 +3145,7 @@ if
 cubeb_get_min_latency
 (
 cubebContext
+&
 output
 &
 latency_frames
