@@ -482,6 +482,10 @@ Clear
 (
 )
 ;
+RemoveUnusedAndResetWebRenderUserData
+(
+)
+;
 if
 (
 mTransactionIdAllocator
@@ -3972,6 +3976,10 @@ clear
 mClipIdCache
 .
 clear
+(
+)
+;
+RemoveUnusedAndResetWebRenderUserData
 (
 )
 ;
