@@ -227,6 +227,17 @@ max
 2
 }
 ]
+"
+no
+-
+throw
+-
+literal
+"
+:
+"
+error
+"
 }
 }
 ;
