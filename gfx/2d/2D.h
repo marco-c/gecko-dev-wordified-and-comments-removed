@@ -235,7 +235,7 @@ namespace
 wr
 {
 struct
-WrFontInstanceOptions
+FontInstanceOptions
 ;
 struct
 FontInstancePlatformOptions
@@ -2376,7 +2376,7 @@ Maybe
 wr
 :
 :
-WrFontInstanceOptions
+FontInstanceOptions
 >
 *
 aOutOptions
