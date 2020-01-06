@@ -289,6 +289,11 @@ GraphDriver
 aPreviousDriver
 )
 ;
+bool
+Scheduled
+(
+)
+;
 virtual
 TimeStamp
 GetCurrentTimeStamp
@@ -434,6 +439,9 @@ RefPtr
 GraphDriver
 >
 mNextDriver
+;
+bool
+mScheduled
 ;
 virtual
 ~
