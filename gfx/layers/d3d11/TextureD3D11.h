@@ -1377,11 +1377,7 @@ GetAsSurface
 (
 )
 override
-{
-return
-nullptr
 ;
-}
 virtual
 void
 GetWRImageKeys
