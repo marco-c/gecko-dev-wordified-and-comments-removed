@@ -1117,7 +1117,7 @@ return
 }
 this
 .
-isMutationsEventOccuredDuringHidden
+mutationsDetectedWhileHidden
 =
 false
 ;
