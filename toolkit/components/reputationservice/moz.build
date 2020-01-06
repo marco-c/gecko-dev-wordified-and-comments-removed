@@ -123,6 +123,11 @@ XPIDL_SOURCES
 =
 [
 '
+ILoginReputation
+.
+idl
+'
+'
 nsIApplicationReputation
 .
 idl
@@ -156,6 +161,11 @@ csd
 pb
 .
 cc
+'
+'
+LoginReputation
+.
+cpp
 '
 ]
 FINAL_LIBRARY
