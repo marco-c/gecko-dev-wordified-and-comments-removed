@@ -35,9 +35,6 @@ nsString
 h
 "
 #
-ifdef
-ENABLE_INTL_API
-#
 include
 "
 unicode
@@ -46,8 +43,6 @@ ucol
 .
 h
 "
-#
-endif
 class
 nsCollation
 final
@@ -70,9 +65,6 @@ nsCollation
 (
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 nsresult
 ConvertStrength
 (
@@ -119,8 +111,6 @@ UCollator
 *
 mCollatorICU
 ;
-#
-endif
 }
 ;
 #

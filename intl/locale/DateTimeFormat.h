@@ -35,9 +35,6 @@ prtime
 h
 "
 #
-ifdef
-ENABLE_INTL_API
-#
 include
 "
 unicode
@@ -46,8 +43,6 @@ udat
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -165,9 +160,6 @@ DateTimeFormat
 DateFormatSelectorsForeign
 )
 ;
-#
-ifdef
-ENABLE_INTL_API
 static
 nsresult
 FormatUDateTime
@@ -190,8 +182,6 @@ nsAString
 aStringOut
 )
 ;
-#
-endif
 static
 nsCString
 *
