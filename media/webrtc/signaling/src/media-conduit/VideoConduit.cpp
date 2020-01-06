@@ -9676,6 +9676,13 @@ max_pixel_count_step_up
 ;
 if
 (
+max_fs
+>
+0
+)
+{
+if
+(
 max_pixel_count
 .
 value_or
@@ -9725,6 +9732,7 @@ int
 max_fs
 )
 ;
+}
 }
 mVideoAdapter
 .
