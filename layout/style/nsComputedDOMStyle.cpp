@@ -2782,6 +2782,7 @@ nsComputedDOMStyle
 :
 GetPresShellForContent
 (
+const
 nsIContent
 *
 aContent
