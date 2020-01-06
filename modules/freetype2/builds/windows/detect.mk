@@ -492,7 +492,7 @@ in
 threads
 of
 the
-freetype
+FreeType
 mailing
 list
 #

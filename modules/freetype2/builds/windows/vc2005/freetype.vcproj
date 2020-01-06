@@ -431,7 +431,7 @@ win32
 \
 vc2005
 \
-freetype28
+freetype281
 .
 lib
 "
@@ -837,7 +837,7 @@ win32
 \
 vc2005
 \
-freetype28MT
+freetype281MT
 .
 lib
 "
@@ -1243,7 +1243,7 @@ win32
 \
 vc2005
 \
-freetype28ST
+freetype281ST
 .
 lib
 "
@@ -1637,7 +1637,7 @@ win32
 \
 vc2005
 \
-freetype28_D
+freetype281_D
 .
 lib
 "
@@ -2037,7 +2037,7 @@ win32
 \
 vc2005
 \
-freetype28ST_D
+freetype281ST_D
 .
 lib
 "
@@ -2444,7 +2444,7 @@ win32
 \
 vc2005
 \
-freetype28MT_D
+freetype281MT_D
 .
 lib
 "

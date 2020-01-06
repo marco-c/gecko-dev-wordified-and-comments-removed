@@ -5350,8 +5350,10 @@ j
 +
 )
 sum
-+
 =
+ADD_INT32
+(
+sum
 FT_MulFix
 (
 *
@@ -5374,6 +5376,7 @@ delta
 )
 *
 65536
+)
 )
 ;
 parser

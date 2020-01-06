@@ -13217,7 +13217,7 @@ package
 I
 build
 except
-freetype
+FreeType
 for
 this
 test
@@ -13230,8 +13230,8 @@ flag
 static
 '
 works
-On
-freetype
+In
+FreeType
 no
 is
 received

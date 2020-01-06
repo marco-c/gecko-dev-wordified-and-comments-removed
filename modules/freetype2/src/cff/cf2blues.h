@@ -54,7 +54,7 @@ cf2_intToFixed
 #
 define
 CF2_MIN_COUNTER
-cf2_floatToFixed
+cf2_doubleToFixed
 (
 0
 .

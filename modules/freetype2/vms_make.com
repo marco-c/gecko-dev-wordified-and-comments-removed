@@ -1,6 +1,7 @@
 !
 make
-Freetype2
+FreeType
+2
 under
 OpenVMS
 !
@@ -84,7 +85,7 @@ External
 libraries
 (
 like
-Freetype
+FreeType
 XPM
 etc
 .
@@ -223,7 +224,8 @@ Make
 procedure
 history
 for
-Freetype2
+FreeType
+2
 !
 !
 -
@@ -326,7 +328,7 @@ number
 Add
 error
 handling
-Freetype
+FreeType
 2
 .
 1
@@ -902,7 +904,7 @@ output
 Could
 not
 locate
-Freetype
+FreeType
 2
 include
 files
@@ -7102,7 +7104,7 @@ libraries
 like
 t1lib
 and
-freetype
+FreeType
 )
 are
 available
@@ -7785,7 +7787,7 @@ hack
 to
 get
 the
-freetype
+FreeType
 includes
 to
 work

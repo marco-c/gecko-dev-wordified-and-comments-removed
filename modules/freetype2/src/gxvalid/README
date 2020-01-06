@@ -108,7 +108,7 @@ otvalid
 module
 gxvalid
 uses
-Freetype
+FreeType
 2
 '
 s

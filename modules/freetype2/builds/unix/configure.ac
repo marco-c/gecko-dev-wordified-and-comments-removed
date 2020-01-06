@@ -104,6 +104,8 @@ FreeType
 2
 .
 8
+.
+1
 ]
 [
 freetype
@@ -140,11 +142,11 @@ TXT
 version_info
 =
 '
-20
+21
 :
 0
 :
-14
+15
 '
 AC_SUBST
 (
@@ -1629,8 +1631,7 @@ AC_MSG_RESULT
 (
 [
 ok
-add
-it
+adding
 to
 XX_ANSIFLAGS
 ]

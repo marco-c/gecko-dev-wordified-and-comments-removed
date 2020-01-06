@@ -383,6 +383,11 @@ x
 -
 >
 num_glyphs
+FT_CALLBACK_TABLE
+const
+TT_CMap_ClassRec
+tt_cmap_unicode_class_rec
+;
 FT_LOCAL
 (
 FT_Error

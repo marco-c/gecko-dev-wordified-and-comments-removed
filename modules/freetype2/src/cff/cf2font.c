@@ -94,7 +94,7 @@ if
 (
 emRatio
 <
-cf2_floatToFixed
+cf2_doubleToFixed
 (
 .
 01
@@ -1134,9 +1134,11 @@ font
 >
 stdVW
 >
+MUL_INT32
+(
 2
-*
 stdHW
+)
 )
 font
 -

@@ -30,6 +30,8 @@ FreeType
 .
 8
 .
+1
+.
 #
 #
 Report
@@ -5228,6 +5230,8 @@ PACKAGE_VERSION
 2
 .
 8
+.
+1
 '
 PACKAGE_STRING
 =
@@ -5236,6 +5240,8 @@ FreeType
 2
 .
 8
+.
+1
 '
 PACKAGE_BUGREPORT
 =
@@ -11230,6 +11236,8 @@ FreeType
 2
 .
 8
+.
+1
 to
 adapt
 to
@@ -11850,6 +11858,8 @@ FreeType
 2
 .
 8
+.
+1
 :
 "
 ;
@@ -13049,6 +13059,8 @@ configure
 2
 .
 8
+.
+1
 generated
 by
 GNU
@@ -17676,6 +17688,8 @@ as_me
 2
 .
 8
+.
+1
 which
 was
 generated
@@ -20851,11 +20865,11 @@ TXT
 version_info
 =
 '
-20
+21
 :
 0
 :
-14
+15
 '
 ft_version
 =
@@ -93841,8 +93855,7 @@ LINENO
 result
 :
 ok
-add
-it
+adding
 to
 XX_ANSIFLAGS
 "
@@ -93852,8 +93865,7 @@ XX_ANSIFLAGS
 as_echo
 "
 ok
-add
-it
+adding
 to
 XX_ANSIFLAGS
 "
@@ -106432,6 +106444,8 @@ as_me
 2
 .
 8
+.
+1
 which
 was
 generated
@@ -106798,6 +106812,8 @@ status
 2
 .
 8
+.
+1
 configured
 by
 0

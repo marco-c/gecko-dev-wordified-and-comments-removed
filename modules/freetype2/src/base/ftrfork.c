@@ -1083,16 +1083,6 @@ Exit
 ;
 if
 (
-ref
-[
-j
-]
-.
-res_id
-<
-0
-|
-|
 temp
 <
 0
@@ -1145,6 +1135,9 @@ offset
 n
 "
 j
+(
+FT_UShort
+)
 ref
 [
 j
