@@ -4502,10 +4502,11 @@ ActiveScrolledRoot
 >
 mActiveScrolledRoots
 ;
-nsTArray
+AutoTArray
 <
 DisplayItemClipChain
 *
+128
 >
 mClipChainsToDestroy
 ;
