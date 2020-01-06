@@ -349,6 +349,7 @@ LoadUrl
 LoadData
 bool
 )
+AbortLoadUrl
 PostMessage
 (
 BrowsingContextId
