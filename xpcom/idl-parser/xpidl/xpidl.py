@@ -4337,10 +4337,6 @@ function
 =
 False
     
-deprecated
-=
-False
-    
 noscript
 =
 False
@@ -4420,19 +4416,6 @@ builtinclass
 True
     
 def
-setdeprecated
-(
-self
-)
-:
-        
-self
-.
-deprecated
-=
-True
-    
-def
 setmain_process_scriptable_only
 (
 self
@@ -4492,15 +4475,6 @@ noscript
 (
 False
 setnoscript
-)
-        
-'
-deprecated
-'
-:
-(
-False
-setdeprecated
 )
         
 '
@@ -5049,10 +5023,6 @@ undefined
 =
 None
     
-deprecated
-=
-False
-    
 infallible
 =
 False
@@ -5395,21 +5365,6 @@ implicit_jscontext
 self
 .
 implicit_jscontext
-=
-True
-                
-elif
-name
-=
-=
-'
-deprecated
-'
-:
-                    
-self
-.
-deprecated
 =
 True
                 
@@ -5867,10 +5822,6 @@ optional_argc
 =
 False
     
-deprecated
-=
-False
-    
 def
 __init__
 (
@@ -6047,21 +5998,6 @@ optional_argc
 self
 .
 optional_argc
-=
-True
-            
-elif
-name
-=
-=
-'
-deprecated
-'
-:
-                
-self
-.
-deprecated
 =
 True
             
