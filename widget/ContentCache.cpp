@@ -8186,6 +8186,10 @@ aCommittedString
 =
 mCompositionString
 ;
+mPendingEventsNeedingAck
++
++
+;
 return
 true
 ;
