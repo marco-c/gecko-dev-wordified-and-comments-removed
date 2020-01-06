@@ -390,7 +390,7 @@ let
 asyncResource
 =
 new
-AsyncResource
+Resource
 (
 httpServer
 .

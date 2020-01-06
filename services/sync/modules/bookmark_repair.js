@@ -2999,7 +2999,7 @@ _now
 )
 {
 return
-AsyncResource
+Resource
 .
 serverTime
 ;

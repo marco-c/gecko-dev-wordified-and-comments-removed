@@ -433,7 +433,7 @@ let
 r
 =
 new
-AsyncResource
+Resource
 (
 server
 .
@@ -535,7 +535,7 @@ let
 r
 =
 new
-AsyncResource
+Resource
 (
 server
 .
@@ -632,7 +632,7 @@ let
 r
 =
 new
-AsyncResource
+Resource
 (
 server
 .
