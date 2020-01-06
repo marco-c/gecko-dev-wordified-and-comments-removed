@@ -978,7 +978,11 @@ sConsumers
 &
 (
 ~
+(
+UIAUTOMATION
+|
 NVDA
+)
 )
 )
 &
