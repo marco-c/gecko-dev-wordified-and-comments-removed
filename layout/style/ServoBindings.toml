@@ -2114,6 +2114,12 @@ Side
 nsIContent
 "
 "
+nsIDocument
+"
+"
+nsIDocument_DocumentTheme
+"
+"
 RawGeckoAnimationPropertySegment
 "
 "
