@@ -1807,6 +1807,10 @@ const
 nsIFrame
 *
 aAncestor
+bool
+aInCSSUnits
+=
+false
 )
 ;
 static

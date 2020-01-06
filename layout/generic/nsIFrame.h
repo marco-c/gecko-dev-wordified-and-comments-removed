@@ -6770,6 +6770,10 @@ nsIFrame
 *
 *
 aOutAncestor
+bool
+aInCSSUnits
+=
+false
 )
 ;
 enum
