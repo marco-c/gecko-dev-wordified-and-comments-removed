@@ -42008,7 +42008,6 @@ advisoryName
 Google
 Safe
 Browsing
-.
 "
 )
 ;
@@ -42362,7 +42361,6 @@ advisoryName
 Google
 Safe
 Browsing
-.
 "
 )
 ;
