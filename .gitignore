@@ -303,6 +303,8 @@ Python
 virtualenv
 artifacts
 .
+third_party
+/
 python
 /
 psutil
@@ -313,6 +315,8 @@ psutil
 *
 .
 so
+third_party
+/
 python
 /
 psutil
@@ -323,6 +327,8 @@ psutil
 *
 .
 pyd
+third_party
+/
 python
 /
 psutil
