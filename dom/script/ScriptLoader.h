@@ -1168,14 +1168,6 @@ ModuleLoadRequest
 aRequest
 )
 ;
-bool
-InstantiateModuleTree
-(
-ModuleLoadRequest
-*
-aRequest
-)
-;
 void
 StartFetchingModuleDependencies
 (

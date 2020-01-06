@@ -2008,6 +2008,16 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_ASSERT
+(
+nsContentUtils
+:
+:
+IsInMicroTask
+(
+)
+)
+;
 NS_ENSURE_TRUE
 (
 xpc
