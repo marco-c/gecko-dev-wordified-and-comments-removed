@@ -1465,13 +1465,6 @@ gczeal
 -
 enable
 -
-gold
-'
-'
--
--
-enable
--
 hardware
 -
 aec
