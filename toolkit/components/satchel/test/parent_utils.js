@@ -324,6 +324,7 @@ result
 count
 =
 result
+;
 }
 handleError
 (

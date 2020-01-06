@@ -789,6 +789,7 @@ is
 denied
 '
 )
+;
 continue
 ;
 }

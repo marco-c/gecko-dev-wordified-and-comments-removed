@@ -2872,6 +2872,7 @@ guid
 change
 .
 newGuid
+;
 delete
 change
 .
@@ -4400,6 +4401,7 @@ where
 =
 "
 "
+;
 let
 boundaryCalc
 =

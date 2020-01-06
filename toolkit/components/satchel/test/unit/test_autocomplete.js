@@ -1539,6 +1539,7 @@ sync2
 sync3
 "
 ]
+;
 add_test
 (
 function

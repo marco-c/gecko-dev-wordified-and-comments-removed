@@ -126,6 +126,7 @@ entries
 ]
 ;
 }
+;
 FormAutoCompleteResult
 .
 prototype
