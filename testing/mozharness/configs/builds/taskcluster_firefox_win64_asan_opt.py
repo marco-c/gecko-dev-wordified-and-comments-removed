@@ -435,16 +435,24 @@ exe
 MINIDUMP_SAVE_PATH
 '
 :
-'
-%
+os
+.
+path
+.
+join
 (
-base_work_dir
+os
+.
+getcwd
+(
 )
-s
-\
-\
-minidumps
 '
+public
+'
+'
+build
+'
+)
     
 }
     
