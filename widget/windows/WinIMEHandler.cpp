@@ -1952,7 +1952,7 @@ CAUSE_UNKNOWN
 InputContextAction
 :
 :
-GOT_FOCUS
+WIDGET_CREATED
 )
 )
 ;
