@@ -578,6 +578,15 @@ png_ptr
 chunk_name
 )
 ;
+png_check_chunk_length
+(
+png_ptr
+png_ptr
+-
+>
+push_length
+)
+;
 png_ptr
 -
 >

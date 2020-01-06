@@ -2628,8 +2628,7 @@ row_info
 rowbytes
 =
 (
-unsigned
-int
+png_size_t
 )
 (
 dp
@@ -3132,6 +3131,8 @@ row_info
 -
 >
 rowbytes
+-
+1
 ;
 switch
 (

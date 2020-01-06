@@ -206,6 +206,14 @@ png_bytep
 exif
 ;
 #
+ifdef
+PNG_READ_eXIf_SUPPORTED
+png_bytep
+eXIf_buf
+;
+#
+endif
+#
 endif
 #
 ifdef
