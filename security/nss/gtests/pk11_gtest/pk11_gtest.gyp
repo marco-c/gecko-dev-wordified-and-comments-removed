@@ -134,11 +134,6 @@ pk11_ecdsa_unittest
 cc
 '
 '
-pk11_encrypt_derive_unittest
-.
-cc
-'
-'
 pk11_pbkdf2_unittest
 .
 cc

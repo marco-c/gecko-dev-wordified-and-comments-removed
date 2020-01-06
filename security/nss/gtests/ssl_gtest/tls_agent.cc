@@ -2239,12 +2239,12 @@ EnsureTlsSetup
 SECStatus
 rv
 =
-SSL_UseAltHandshakeType
+SSL_UseAltServerHelloType
 (
 ssl_fd
 (
 )
-PR_TRUE
+true
 )
 ;
 EXPECT_EQ
