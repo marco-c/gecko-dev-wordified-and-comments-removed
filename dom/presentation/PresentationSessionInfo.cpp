@@ -1381,7 +1381,7 @@ nullptr
 auto
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId

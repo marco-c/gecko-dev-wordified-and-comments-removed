@@ -983,7 +983,7 @@ nsGlobalWindowInner
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId

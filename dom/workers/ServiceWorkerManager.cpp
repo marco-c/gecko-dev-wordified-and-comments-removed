@@ -16811,7 +16811,7 @@ nsPIDOMWindowInner
 >
 win
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId

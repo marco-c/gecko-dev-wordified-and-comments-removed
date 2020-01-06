@@ -436,7 +436,7 @@ nsGlobalWindowOuter
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 GetOuterWindowWithId

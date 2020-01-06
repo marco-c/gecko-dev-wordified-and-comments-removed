@@ -1561,7 +1561,7 @@ nsGlobalWindowOuter
 >
 window
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 GetOuterWindowWithId
@@ -1617,7 +1617,7 @@ nsGlobalWindowInner
 >
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId

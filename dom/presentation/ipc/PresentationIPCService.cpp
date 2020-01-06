@@ -305,7 +305,7 @@ nsPIDOMWindowInner
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
@@ -2032,7 +2032,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 GetInnerWindowWithId
