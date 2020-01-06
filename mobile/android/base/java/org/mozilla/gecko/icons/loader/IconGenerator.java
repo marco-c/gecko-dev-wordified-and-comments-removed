@@ -206,7 +206,7 @@ getPageUrl
 )
 ;
 }
-public
+VisibleForTesting
 static
 IconResponse
 generate
