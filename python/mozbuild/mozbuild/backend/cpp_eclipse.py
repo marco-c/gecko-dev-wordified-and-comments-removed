@@ -8869,6 +8869,11 @@ formatterprofiles
 version
 =
 1
+scalability
+.
+numberOfLines
+=
+15000
 "
 "
 "
