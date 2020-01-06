@@ -1682,6 +1682,10 @@ mClass
 (
 aID
 )
+mMayHaveRoundedCorners
+(
+false
+)
 {
 mozilla
 :
@@ -9199,6 +9203,11 @@ mWritingMode
 ;
 ClassID
 mClass
+;
+bool
+mMayHaveRoundedCorners
+:
+1
 ;
 virtual
 FrameSearchResult
