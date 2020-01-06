@@ -216,11 +216,9 @@ manifests
 /
 linux64
 /
-clang
+releng
 .
 manifest
-.
-centos6
 "
 run
 :
@@ -371,11 +369,9 @@ manifests
 /
 linux64
 /
-clang
+releng
 .
 manifest
-.
-centos6
 "
 run
 :

@@ -797,7 +797,7 @@ manifests
 /
 linux64
 /
-asan
+releng
 .
 manifest
 "
@@ -904,7 +904,7 @@ manifests
 /
 linux64
 /
-msan
+releng
 .
 manifest
 "

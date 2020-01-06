@@ -111,7 +111,7 @@ manifests
 linux64
 /
 \
-asan
+releng
 .
 manifest
 "

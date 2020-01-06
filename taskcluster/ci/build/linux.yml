@@ -2122,7 +2122,7 @@ manifests
 /
 linux64
 /
-asan
+releng
 .
 manifest
 "
@@ -2299,7 +2299,7 @@ manifests
 /
 linux64
 /
-fuzzing
+releng
 .
 manifest
 "
@@ -2476,7 +2476,7 @@ manifests
 /
 linux64
 /
-asan
+releng
 .
 manifest
 "
