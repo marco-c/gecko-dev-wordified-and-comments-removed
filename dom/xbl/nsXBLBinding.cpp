@@ -1294,12 +1294,6 @@ nsINode
 >
 clonedNode
 ;
-nsCOMArray
-<
-nsINode
->
-nodesWithProperties
-;
 nsNodeUtils
 :
 :
@@ -1313,7 +1307,7 @@ doc
 NodeInfoManager
 (
 )
-nodesWithProperties
+nullptr
 getter_AddRefs
 (
 clonedNode
