@@ -24282,14 +24282,6 @@ anEvent
 |
 !
 mGeckoChild
-|
-|
-[
-self
-beginOrEndGestureForEventPhase
-:
-anEvent
-]
 )
 {
 return
