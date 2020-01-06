@@ -752,8 +752,6 @@ mozilla
 LogicalSize
 &
 aPercentBasis
-WritingMode
-aCBWritingMode
 const
 nsMargin
 *
