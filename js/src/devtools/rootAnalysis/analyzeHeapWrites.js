@@ -2964,6 +2964,7 @@ WorklistEntry
 name
 safeArguments
 stack
+parameterNames
 )
 {
 this
@@ -2988,8 +2989,7 @@ this
 .
 parameterNames
 =
-{
-}
+parameterNames
 ;
 }
 WorklistEntry
@@ -4855,9 +4855,8 @@ callee
 name
 safeArguments
 location
-entry
-.
-parameterNames
+{
+}
 )
 )
 ;
@@ -5446,6 +5445,12 @@ safeArguments
 ]
 ;
 var
+parameterNames
+=
+{
+}
+;
+var
 worklist
 =
 [
@@ -5461,10 +5466,10 @@ CallSite
 name
 safeArguments
 null
-{
-}
+parameterNames
 )
 ]
+parameterNames
 )
 ]
 ;
@@ -5706,6 +5711,9 @@ callee
 .
 safeArguments
 nstack
+callee
+.
+parameterNames
 )
 )
 ;
