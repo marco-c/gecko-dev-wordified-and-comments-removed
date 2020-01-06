@@ -39,7 +39,7 @@ json
 "
 ;
 const
-COMPUTE_TESTCASES
+ADDRESS_COMPUTE_TESTCASES
 =
 [
 {
@@ -439,7 +439,7 @@ line3
 ]
 ;
 const
-NORMALIZE_TESTCASES
+ADDRESS_NORMALIZE_TESTCASES
 =
 [
 {
@@ -1033,7 +1033,7 @@ add_task
 (
 async
 function
-test_computeFields
+test_computeAddressFields
 (
 )
 {
@@ -1063,7 +1063,7 @@ initialize
 (
 )
 ;
-COMPUTE_TESTCASES
+ADDRESS_COMPUTE_TESTCASES
 .
 forEach
 (
@@ -1071,6 +1071,8 @@ testcase
 =
 >
 profileStorage
+.
+addresses
 .
 add
 (
@@ -1107,6 +1109,8 @@ addresses
 =
 profileStorage
 .
+addresses
+.
 getAll
 (
 )
@@ -1127,7 +1131,7 @@ testcase
 :
 "
 +
-COMPUTE_TESTCASES
+ADDRESS_COMPUTE_TESTCASES
 [
 i
 ]
@@ -1137,7 +1141,7 @@ description
 ;
 do_check_record_matches
 (
-COMPUTE_TESTCASES
+ADDRESS_COMPUTE_TESTCASES
 [
 i
 ]
@@ -1157,7 +1161,7 @@ add_task
 (
 async
 function
-test_normalizeFields
+test_normalizeAddressFields
 (
 )
 {
@@ -1187,7 +1191,7 @@ initialize
 (
 )
 ;
-NORMALIZE_TESTCASES
+ADDRESS_NORMALIZE_TESTCASES
 .
 forEach
 (
@@ -1195,6 +1199,8 @@ testcase
 =
 >
 profileStorage
+.
+addresses
 .
 add
 (
@@ -1231,6 +1237,8 @@ addresses
 =
 profileStorage
 .
+addresses
+.
 getAll
 (
 )
@@ -1251,7 +1259,7 @@ testcase
 :
 "
 +
-NORMALIZE_TESTCASES
+ADDRESS_NORMALIZE_TESTCASES
 [
 i
 ]
@@ -1261,7 +1269,7 @@ description
 ;
 do_check_record_matches
 (
-NORMALIZE_TESTCASES
+ADDRESS_NORMALIZE_TESTCASES
 [
 i
 ]

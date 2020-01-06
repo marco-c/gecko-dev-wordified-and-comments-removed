@@ -675,8 +675,15 @@ false
 return
 profileStorage
 .
+addresses
+.
 getAll
 (
+{
+noComputedFields
+:
+true
+}
 )
 .
 length
@@ -752,6 +759,8 @@ guid
 {
 profileStorage
 .
+addresses
+.
 update
 (
 data
@@ -766,6 +775,8 @@ address
 else
 {
 profileStorage
+.
+addresses
 .
 add
 (
@@ -796,6 +807,8 @@ guid
 =
 >
 profileStorage
+.
+addresses
 .
 remove
 (
@@ -916,6 +929,8 @@ addresses
 =
 profileStorage
 .
+addresses
+.
 getByFilter
 (
 {
@@ -930,6 +945,8 @@ else
 addresses
 =
 profileStorage
+.
+addresses
 .
 getAll
 (
@@ -995,6 +1012,8 @@ clear
 ;
 }
 profileStorage
+.
+addresses
 .
 getAll
 (
