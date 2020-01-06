@@ -315,11 +315,6 @@ nsIContentViewerEdit
 idl
 '
 '
-nsIContentViewerFile
-.
-idl
-'
-'
 nsIContextMenuListener
 .
 idl
