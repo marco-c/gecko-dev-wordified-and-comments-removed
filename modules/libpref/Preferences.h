@@ -168,6 +168,14 @@ class
 PrefSetting
 ;
 }
+enum
+class
+PrefValueKind
+{
+Default
+User
+}
+;
 class
 Preferences
 final
