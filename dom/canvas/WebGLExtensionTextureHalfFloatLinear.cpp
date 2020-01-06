@@ -55,6 +55,17 @@ WebGLExtensionBase
 webgl
 )
 {
+MOZ_ASSERT
+(
+!
+webgl
+-
+>
+IsWebGL2
+(
+)
+)
+;
 auto
 &
 fua
