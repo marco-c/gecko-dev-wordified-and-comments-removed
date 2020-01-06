@@ -1,6 +1,13 @@
 #
 include
 "
+HttpLog
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h

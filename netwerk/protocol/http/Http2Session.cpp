@@ -5098,7 +5098,7 @@ return
 true
 ;
 #
-endif
+else
 if
 (
 !
@@ -5308,6 +5308,8 @@ VerifyStream
 return
 false
 ;
+#
+endif
 }
 void
 Http2Session
