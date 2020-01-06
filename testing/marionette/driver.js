@@ -1728,7 +1728,7 @@ commandID
 {
 payload
 .
-command_id
+commandID
 =
 commandID
 ;
@@ -4227,7 +4227,7 @@ let
 parameters
 =
 {
-command_id
+commandID
 :
 this
 .
@@ -4620,7 +4620,7 @@ let
 parameters
 =
 {
-command_id
+commandID
 :
 this
 .
@@ -4782,7 +4782,7 @@ let
 parameters
 =
 {
-command_id
+commandID
 :
 this
 .
@@ -4922,7 +4922,7 @@ let
 parameters
 =
 {
-command_id
+commandID
 :
 this
 .
@@ -7307,7 +7307,7 @@ switchToGlobalMessageManager
 }
 cmd
 .
-command_id
+commandID
 =
 cmd
 .
@@ -8555,7 +8555,7 @@ let
 parameters
 =
 {
-command_id
+commandID
 :
 this
 .
