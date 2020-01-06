@@ -38,6 +38,10 @@ NR_INTERFACE_TYPE_MOBILE
 define
 NR_INTERFACE_TYPE_VPN
 0x8
+#
+define
+NR_INTERFACE_TYPE_TEREDO
+0x16
 int
 estimated_speed
 ;

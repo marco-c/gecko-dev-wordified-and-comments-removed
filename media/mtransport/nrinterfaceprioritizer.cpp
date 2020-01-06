@@ -482,6 +482,17 @@ return
 3
 ;
 }
+if
+(
+type
+&
+NR_INTERFACE_TYPE_TEREDO
+)
+{
+return
+5
+;
+}
 return
 4
 ;
