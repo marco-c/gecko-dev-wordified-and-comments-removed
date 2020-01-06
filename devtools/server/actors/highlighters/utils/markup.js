@@ -1355,12 +1355,6 @@ isTopLevel
 {
 this
 .
-_remove
-(
-)
-;
-this
-.
 _removeAllListeners
 (
 )
