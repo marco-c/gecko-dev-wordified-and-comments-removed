@@ -876,7 +876,7 @@ PageProtectingVector
 unsigned
 char
 256
-ProtectedReallocPolicy
+SystemAllocPolicy
 false
 false
 >
