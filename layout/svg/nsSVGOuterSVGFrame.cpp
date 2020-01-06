@@ -2745,9 +2745,9 @@ Save
 (
 )
 ;
-uint32_t
-flags
-=
+imgDrawingParams
+imgParams
+(
 aBuilder
 -
 >
@@ -2764,6 +2764,7 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE_IF_FAST
+)
 ;
 gfxMatrix
 tm
@@ -2784,9 +2785,6 @@ Translation
 devPixelOffset
 )
 ;
-DrawResult
-result
-=
 nsSVGUtils
 :
 :
@@ -2801,9 +2799,9 @@ ThebesContext
 (
 )
 tm
+imgParams
 &
 contentAreaDirtyRect
-flags
 )
 ;
 nsDisplayItemGenericImageGeometry
@@ -2812,6 +2810,8 @@ nsDisplayItemGenericImageGeometry
 UpdateDrawResult
 (
 this
+imgParams
+.
 result
 )
 ;
@@ -3817,7 +3817,7 @@ aFlags
 )
 ;
 }
-DrawResult
+void
 nsSVGOuterSVGFrame
 :
 :
@@ -3830,12 +3830,13 @@ const
 gfxMatrix
 &
 aTransform
+imgDrawingParams
+&
+aImgParams
 const
 nsIntRect
 *
 aDirtyRect
-uint32_t
-aFlags
 )
 {
 NS_ASSERTION
@@ -3897,7 +3898,6 @@ FirstChild
 )
 )
 ;
-return
 anonKid
 -
 >
@@ -3905,8 +3905,8 @@ PaintSVG
 (
 aContext
 aTransform
+aImgParams
 aDirtyRect
-aFlags
 )
 ;
 }

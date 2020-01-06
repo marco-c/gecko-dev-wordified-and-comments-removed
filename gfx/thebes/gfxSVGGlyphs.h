@@ -296,7 +296,7 @@ uint32_t
 aGlyphId
 )
 ;
-bool
+void
 RenderGlyph
 (
 gfxContext

@@ -1090,7 +1090,7 @@ aElem
 )
 ;
 }
-bool
+void
 gfxSVGGlyphs
 :
 :
@@ -1123,7 +1123,7 @@ Get
 aGlyphId
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 glyph
 "
@@ -1154,7 +1154,6 @@ OwnerDoc
 )
 )
 ;
-return
 nsSVGUtils
 :
 :
