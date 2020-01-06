@@ -1859,7 +1859,7 @@ error
 ContextualParseError
 :
 :
-UnsupportedRule
+InvalidRule
 (
 slice
 error
