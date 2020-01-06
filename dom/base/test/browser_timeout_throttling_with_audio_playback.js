@@ -201,11 +201,6 @@ kDelay
 =
 10
 ;
-const
-kAllowedError
-=
-1000
-;
 Services
 .
 scriptloader
@@ -358,9 +353,7 @@ ok
 timeout
 <
 =
-kDelay
-+
-kAllowedError
+kMinTimeoutBackground
 Got
 the
 correct
@@ -369,6 +362,7 @@ timeout
 {
 timeout
 }
+)
 )
 ;
 yield
