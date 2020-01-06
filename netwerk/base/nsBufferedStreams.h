@@ -268,7 +268,6 @@ mAsyncWaitCallback
 ;
 class
 nsBufferedOutputStream
-final
 :
 public
 nsBufferedStream
