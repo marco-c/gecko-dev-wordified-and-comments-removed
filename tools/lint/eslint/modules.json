@@ -4556,6 +4556,9 @@ promiseZeroTimer
 "
 promiseNamedTimer
 "
+"
+getLoginTelemetryScalar
+"
 ]
 "
 Utils
