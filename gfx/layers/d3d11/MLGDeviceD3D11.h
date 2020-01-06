@@ -1321,6 +1321,15 @@ ID3D11VertexShader
 aShader
 )
 ;
+ID3D11ShaderResourceView
+*
+ResolveTextureSourceForShader
+(
+TextureSource
+*
+aSource
+)
+;
 private
 :
 RefPtr
