@@ -1937,12 +1937,12 @@ repeating
 gradient
 .
 compat_mode
-!
+=
 =
 CompatMode
 :
 :
-Modern
+Moz
 gradient
 .
 compat_mode
