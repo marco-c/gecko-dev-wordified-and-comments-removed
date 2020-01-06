@@ -209,10 +209,10 @@ NotifyDataReceived
 (
 uint32_t
 aLoadID
-int64_t
-aSize
+uint32_t
+aCount
 const
-char
+uint8_t
 *
 aData
 )

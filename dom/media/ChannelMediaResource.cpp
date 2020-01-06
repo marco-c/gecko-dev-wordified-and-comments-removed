@@ -1764,7 +1764,15 @@ closure
 >
 mLoadID
 aCount
+reinterpret_cast
+<
+const
+uint8_t
+*
+>
+(
 aFromSegment
+)
 )
 ;
 *
