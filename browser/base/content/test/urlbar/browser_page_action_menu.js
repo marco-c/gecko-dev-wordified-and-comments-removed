@@ -1262,6 +1262,8 @@ null
 label
 :
 "
+Send
+to
 All
 Devices
 "
@@ -2132,6 +2134,8 @@ null
 label
 :
 "
+Send
+to
 All
 Devices
 "
