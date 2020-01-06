@@ -755,6 +755,15 @@ aPriority
 )
 override
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+override
+;
 MOZ_MUST_USE
 bool
 GetAssociatedContentSecurity

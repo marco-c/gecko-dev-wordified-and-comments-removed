@@ -436,6 +436,12 @@ mChannelChild
 =
 nullptr
 ;
+mQueuedRunnables
+.
+Clear
+(
+)
+;
 }
 void
 HttpBackgroundChannelChild
