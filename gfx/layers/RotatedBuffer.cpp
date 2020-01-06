@@ -1232,13 +1232,6 @@ PopClip
 )
 ;
 }
-destDT
--
->
-Flush
-(
-)
-;
 ReturnDrawTarget
 (
 destDT
@@ -1333,13 +1326,6 @@ PopClip
 )
 ;
 }
-destDT
--
->
-Flush
-(
-)
-;
 ReturnDrawTarget
 (
 destDT
