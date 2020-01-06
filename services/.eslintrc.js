@@ -29,5 +29,16 @@ literal
 "
 :
 2
+"
+mozilla
+/
+use
+-
+services
+"
+:
+"
+error
+"
 }
 }
