@@ -124,6 +124,7 @@ SetWindowRect
 WindowRectParameters
 )
 MaximizeWindow
+FullscreenWindow
 SwitchToWindow
 (
 SwitchToWindowParameters
@@ -762,6 +763,16 @@ WebDriverCommand
 :
 :
 MaximizeWindow
+Route
+:
+:
+FullscreenWindow
+=
+>
+WebDriverCommand
+:
+:
+FullscreenWindow
 Route
 :
 :
@@ -2902,6 +2913,11 @@ WebDriverCommand
 :
 :
 MaximizeWindow
+|
+WebDriverCommand
+:
+:
+FullscreenWindow
 |
 WebDriverCommand
 :
