@@ -397,6 +397,7 @@ click
 this
 .
 selectHelper
+true
 )
 ;
 win
@@ -409,6 +410,7 @@ click
 this
 .
 inputWidgetHelper
+true
 )
 ;
 break
