@@ -2489,6 +2489,17 @@ sessionId
 "
 ]
         
+self
+.
+capabilities
+=
+value
+[
+"
+capabilities
+"
+]
+        
 if
 self
 .
