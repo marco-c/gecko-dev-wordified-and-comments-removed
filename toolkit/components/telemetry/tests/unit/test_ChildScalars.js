@@ -1101,7 +1101,7 @@ TelemetryUtils
 .
 Preferences
 .
-TelemetryEnabled
+OverridePreRelease
 true
 )
 ;

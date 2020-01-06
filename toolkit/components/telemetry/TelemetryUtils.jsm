@@ -201,6 +201,17 @@ send
 .
 overrideOfficialCheck
 "
+OverridePreRelease
+:
+"
+toolkit
+.
+telemetry
+.
+testing
+.
+overridePreRelease
+"
 Server
 :
 "
