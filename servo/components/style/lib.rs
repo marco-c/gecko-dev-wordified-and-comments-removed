@@ -277,17 +277,6 @@ extern
 crate
 pdqsort
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 extern
 crate
 precomputed_hash
