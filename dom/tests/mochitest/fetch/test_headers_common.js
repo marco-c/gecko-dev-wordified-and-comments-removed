@@ -1662,9 +1662,6 @@ key_iter
 foo
 "
 "
-foo
-"
-"
 foo2
 "
 ]
@@ -1685,6 +1682,7 @@ value_iter
 "
 bar
 "
++
 ehsanInflated
 "
 baz2
@@ -1711,11 +1709,7 @@ foo
 "
 bar
 "
-]
-[
-"
-foo
-"
++
 ehsanInflated
 ]
 [
@@ -1748,11 +1742,7 @@ foo
 "
 bar
 "
-]
-[
-"
-foo
-"
++
 ehsanInflated
 ]
 [
@@ -1789,11 +1779,7 @@ foo
 "
 bar
 "
-]
-[
-"
-foo
-"
++
 ehsanInflated
 ]
 [
