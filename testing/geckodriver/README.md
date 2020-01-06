@@ -616,7 +616,13 @@ code
 td
 >
 array
+&
+nbsp
+;
 of
+&
+nbsp
+;
 strings
 <
 td
