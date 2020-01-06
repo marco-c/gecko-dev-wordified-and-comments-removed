@@ -16374,7 +16374,7 @@ write
 "
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -16477,7 +16477,7 @@ write
 "
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -16576,7 +16576,7 @@ write
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 \
@@ -16676,7 +16676,7 @@ write
 "
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -16772,7 +16772,7 @@ write
 "
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -16893,7 +16893,7 @@ write
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 \
@@ -17817,7 +17817,7 @@ write
 "
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -17920,7 +17920,7 @@ write
 "
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -18036,7 +18036,7 @@ write
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 \
@@ -18081,7 +18081,7 @@ write
 "
 #
 ifndef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -18185,7 +18185,7 @@ write
 "
 #
 ifdef
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 \
 n
 "
@@ -18323,7 +18323,7 @@ write
 endif
 /
 *
-DEFINE_PS_TABLES
+DEFINE_PS_TABLES_DATA
 *
 /
 \
@@ -18399,9 +18399,7 @@ argv
 1
 ]
 "
-w
-\
-n
+wb
 "
 )
   

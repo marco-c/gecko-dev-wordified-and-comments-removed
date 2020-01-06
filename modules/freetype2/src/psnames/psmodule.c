@@ -32,6 +32,9 @@ h
 define
 DEFINE_PS_TABLES
 #
+define
+DEFINE_PS_TABLES_DATA
+#
 include
 "
 pstables
