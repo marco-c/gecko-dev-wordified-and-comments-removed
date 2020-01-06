@@ -2273,7 +2273,6 @@ reject
 target
 :
 this
-status
 type
 :
 "
