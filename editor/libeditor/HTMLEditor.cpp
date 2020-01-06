@@ -1279,6 +1279,7 @@ mSelectionListenerP
 new
 ResizerSelectionListener
 (
+*
 this
 )
 ;
