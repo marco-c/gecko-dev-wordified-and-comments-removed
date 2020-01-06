@@ -310,8 +310,9 @@ const
 nscolor
 *
 aBorderColors
-const
 nsBorderColors
+*
+const
 *
 aCompositeColors
 nscolor
@@ -453,11 +454,7 @@ mBorderColors
 4
 ]
 ;
-const
-nsTArray
-<
-nscolor
->
+nsBorderColors
 *
 mCompositeColors
 [
@@ -636,11 +633,8 @@ DrawBorderSidesCompositeColors
 int
 aSides
 const
-nsTArray
-<
-nscolor
->
-&
+nsBorderColors
+*
 compositeColors
 )
 ;
