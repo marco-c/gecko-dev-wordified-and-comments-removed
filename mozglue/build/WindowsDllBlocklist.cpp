@@ -1220,6 +1220,7 @@ fp
 ifdef
 _M_IX86
 typedef
+MOZ_NORETURN_PTR
 void
 (
 __fastcall
