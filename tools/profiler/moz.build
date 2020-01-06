@@ -661,10 +661,6 @@ LOCAL_INCLUDES
 [
 '
 /
-caps
-'
-'
-/
 docshell
 /
 base
