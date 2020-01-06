@@ -741,6 +741,7 @@ aDisplayList
 nsDisplayListBuilder
 *
 aDisplayListBuilder
+const
 StackingContextHelper
 &
 aSc
@@ -3438,14 +3439,6 @@ MOZ_ASSERT
 (
 mWidget
 )
-;
-RefPtr
-<
-WebRenderLayerManager
->
-selfRef
-=
-this
 ;
 if
 (

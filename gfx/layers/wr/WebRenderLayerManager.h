@@ -359,6 +359,7 @@ aDisplayList
 nsDisplayListBuilder
 *
 aDisplayListBuilder
+const
 StackingContextHelper
 &
 aSc
