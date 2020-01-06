@@ -229,10 +229,7 @@ gecko
 )
 ]
 use
-std
-:
-:
-collections
+hash
 :
 :
 HashMap

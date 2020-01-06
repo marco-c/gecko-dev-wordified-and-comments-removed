@@ -399,7 +399,7 @@ gecko
 )
 ]
 use
-fnv
+hash
 :
 :
 FnvHashMap

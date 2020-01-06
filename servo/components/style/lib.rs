@@ -124,6 +124,10 @@ pub
 mod
 gecko_string_cache
 ;
+extern
+crate
+hashglobe
+;
 #
 [
 cfg
@@ -558,6 +562,10 @@ unsafe_code
 pub
 mod
 gecko_bindings
+;
+pub
+mod
+hash
 ;
 pub
 mod
