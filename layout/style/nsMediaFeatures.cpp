@@ -2398,7 +2398,7 @@ eBoolInteger
 nsMediaFeature
 :
 :
-eNoRequirements
+eUserAgentAndChromeOnly
 {
 &
 nsGkAtoms
@@ -2425,7 +2425,7 @@ eBoolInteger
 nsMediaFeature
 :
 :
-eNoRequirements
+eUserAgentAndChromeOnly
 {
 &
 nsGkAtoms
@@ -2452,7 +2452,7 @@ eBoolInteger
 nsMediaFeature
 :
 :
-eNoRequirements
+eUserAgentAndChromeOnly
 {
 &
 nsGkAtoms
@@ -2479,7 +2479,7 @@ eBoolInteger
 nsMediaFeature
 :
 :
-eNoRequirements
+eUserAgentAndChromeOnly
 {
 &
 nsGkAtoms
@@ -2506,7 +2506,7 @@ eBoolInteger
 nsMediaFeature
 :
 :
-eNoRequirements
+eUserAgentAndChromeOnly
 {
 &
 nsGkAtoms
