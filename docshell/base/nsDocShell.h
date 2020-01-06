@@ -1511,6 +1511,9 @@ ShouldAddToSessionHistory
 nsIURI
 *
 aURI
+nsIChannel
+*
+aChannel
 )
 ;
 nsresult
