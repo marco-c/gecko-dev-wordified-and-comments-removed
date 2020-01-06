@@ -210,6 +210,13 @@ false
 \
 _
 (
+UseWebRenderProgramBinary
+bool
+false
+)
+\
+_
+(
 WebRenderDebugFlags
 int32_t
 0
