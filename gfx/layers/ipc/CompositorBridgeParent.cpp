@@ -230,6 +230,13 @@ h
 #
 include
 "
+VRManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
