@@ -80,7 +80,7 @@ use
 error_reporting
 :
 :
-ParseErrorReporter
+create_error_reporter
 ;
 use
 font_metrics
@@ -2935,10 +2935,6 @@ UrlExtraData
 quirks_mode
 :
 QuirksMode
-reporter
-:
-&
-ParseErrorReporter
 )
 -
 >
@@ -2948,7 +2944,10 @@ parse_style_attribute
 (
 value
 url_data
-reporter
+&
+create_error_reporter
+(
+)
 quirks_mode
 )
 }

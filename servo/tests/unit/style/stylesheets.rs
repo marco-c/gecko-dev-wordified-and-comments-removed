@@ -723,7 +723,7 @@ line
 1
 column
 :
-18
+19
 }
 }
 )
@@ -975,7 +975,7 @@ line
 3
 column
 :
-8
+9
 }
 }
 )
@@ -1232,7 +1232,7 @@ line
 11
 column
 :
-8
+9
 }
 }
 )
@@ -1762,7 +1762,7 @@ line
 15
 column
 :
-8
+9
 }
 }
 )
@@ -2013,7 +2013,7 @@ line
 16
 column
 :
-18
+19
 }
 }
 )
@@ -2453,18 +2453,10 @@ invalid
 true
 ;
 '
-\
-Custom
-(
-UnknownProperty
-(
-\
-"
-invalid
-\
-"
-)
-)
+found
+unexpected
+identifier
+true
 "
 error
 .
@@ -2474,7 +2466,7 @@ message
 assert_eq
 !
 (
-9
+10
 error
 .
 line
@@ -2483,7 +2475,7 @@ line
 assert_eq
 !
 (
-8
+9
 error
 .
 column
@@ -2522,13 +2514,6 @@ Custom
 PropertyDeclaration
 (
 InvalidValue
-(
-\
-"
-display
-\
-"
-)
 )
 )
 "
@@ -2540,7 +2525,7 @@ message
 assert_eq
 !
 (
-8
+9
 error
 .
 line
@@ -2549,7 +2534,7 @@ line
 assert_eq
 !
 (
-8
+9
 error
 .
 column
