@@ -18637,6 +18637,13 @@ widget
 "
 )
 ;
+PointerEventHandler
+:
+:
+ReleaseAllPointerCapture
+(
+)
+;
 sPreLockPoint
 =
 sLastRefPoint

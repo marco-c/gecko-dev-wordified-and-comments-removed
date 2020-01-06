@@ -155,6 +155,12 @@ aPointerId
 )
 ;
 static
+void
+ReleaseAllPointerCapture
+(
+)
+;
+static
 PointerCaptureInfo
 *
 GetPointerCaptureInfo

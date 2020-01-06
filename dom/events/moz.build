@@ -126,6 +126,17 @@ mochitest
 .
 ini
 '
+'
+test
+/
+pointerevents
+/
+pointerlock
+/
+mochitest
+.
+ini
+'
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
