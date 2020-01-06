@@ -23,6 +23,12 @@ NormalBorder
 }
 ;
 use
+clip
+:
+:
+ClipSource
+;
+use
 ellipse
 :
 :
@@ -39,12 +45,6 @@ frame_builder
 :
 :
 FrameBuilder
-;
-use
-mask_cache
-:
-:
-ClipSource
 ;
 use
 prim_store
