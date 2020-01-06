@@ -7896,6 +7896,13 @@ java
 '
 widget
 /
+SplashScreen
+.
+java
+'
+'
+widget
+/
 SquaredImageView
 .
 java
