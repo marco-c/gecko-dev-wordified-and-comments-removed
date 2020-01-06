@@ -92,6 +92,12 @@ RGBAColor
 =
 RGBA
 ;
+pub
+type
+ColorPropertyValue
+=
+RGBA
+;
 impl
 Color
 {

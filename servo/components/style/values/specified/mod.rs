@@ -273,6 +273,7 @@ color
 :
 {
 Color
+ColorPropertyValue
 RGBAColor
 }
 ;
