@@ -57,6 +57,7 @@ const
 {
 isChromeScheme
 isContentScheme
+isWASM
 parseURL
 }
 =
@@ -976,6 +977,12 @@ isContentScheme
 (
 location
 schemeStartIndex
+)
+|
+|
+isWASM
+(
+location
 )
 )
 {
