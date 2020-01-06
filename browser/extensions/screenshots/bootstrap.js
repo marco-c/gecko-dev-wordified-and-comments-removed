@@ -366,6 +366,9 @@ APP_STARTUP
 =
 1
 ;
+let
+startupReason
+;
 function
 startup
 (
@@ -373,6 +376,10 @@ data
 reason
 )
 {
+startupReason
+=
+reason
+;
 if
 (
 reason
@@ -456,6 +463,7 @@ started
 stop
 (
 webExtension
+reason
 )
 ;
 }
@@ -570,6 +578,7 @@ shouldDisable
 stop
 (
 webExtension
+ADDON_DISABLE
 )
 ;
 }
@@ -584,6 +593,7 @@ webExtension
 .
 startup
 (
+startupReason
 )
 .
 then
@@ -653,12 +663,14 @@ function
 stop
 (
 webExtension
+reason
 )
 {
 webExtension
 .
 shutdown
 (
+reason
 )
 ;
 }
