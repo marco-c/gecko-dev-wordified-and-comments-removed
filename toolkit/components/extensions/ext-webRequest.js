@@ -387,6 +387,9 @@ isProxy
 "
 challenger
 "
+"
+proxyInfo
+"
 ]
 ;
 for
