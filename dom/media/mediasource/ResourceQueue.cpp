@@ -55,15 +55,6 @@ Sprintf
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Unused
-.
-h
-"
 extern
 mozilla
 :
@@ -1001,9 +992,6 @@ fp
 return
 ;
 }
-Unused
-<
-<
 fwrite
 (
 item
