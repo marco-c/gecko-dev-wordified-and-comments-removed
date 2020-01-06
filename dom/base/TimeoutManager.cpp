@@ -6297,10 +6297,17 @@ OnDocumentLoaded
 (
 )
 {
+if
+(
+!
+mThrottleTrackingTimeouts
+)
+{
 MaybeStartThrottleTrackingTimout
 (
 )
 ;
+}
 }
 void
 TimeoutManager
