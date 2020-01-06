@@ -2403,11 +2403,10 @@ nsIFrame
 :
 FindCloserFrameForSelection
 (
+const
 nsPoint
+&
 aPoint
-nsIFrame
-:
-:
 FrameWithDistance
 *
 aCurrentBestFrame
@@ -21505,7 +21504,9 @@ GetSelectionClosestFrame
 nsIFrame
 *
 aFrame
+const
 nsPoint
+&
 aPoint
 uint32_t
 aFlags
@@ -21674,7 +21675,9 @@ GetSelectionClosestFrameForChild
 nsIFrame
 *
 aChild
+const
 nsPoint
+&
 aPoint
 uint32_t
 aFlags
@@ -21891,7 +21894,9 @@ nsBlockFrame
 :
 LineIterator
 aLine
+const
 nsPoint
+&
 aPoint
 uint32_t
 aFlags
@@ -22247,7 +22252,9 @@ GetSelectionClosestFrameForBlock
 nsIFrame
 *
 aFrame
+const
 nsPoint
+&
 aPoint
 uint32_t
 aFlags
@@ -22691,7 +22698,9 @@ GetSelectionClosestFrame
 nsIFrame
 *
 aFrame
+const
 nsPoint
+&
 aPoint
 uint32_t
 aFlags
@@ -22857,7 +22866,9 @@ OffsetsForSingleFrame
 nsIFrame
 *
 aFrame
+const
 nsPoint
+&
 aPoint
 )
 {
@@ -23236,7 +23247,9 @@ nsIFrame
 :
 GetContentOffsetsFromPoint
 (
+const
 nsPoint
+&
 aPoint
 uint32_t
 aFlags
@@ -23590,7 +23603,9 @@ nsFrame
 :
 CalcContentOffsetsFromFramePoint
 (
+const
 nsPoint
+&
 aPoint
 )
 {

@@ -2361,7 +2361,9 @@ DisplayItemClip
 :
 MoveBy
 (
+const
 nsPoint
+&
 aPoint
 )
 {

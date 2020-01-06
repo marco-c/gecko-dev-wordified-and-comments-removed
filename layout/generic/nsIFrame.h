@@ -5613,7 +5613,9 @@ SKIP_HIDDEN
 ContentOffsets
 GetContentOffsetsFromPoint
 (
+const
 nsPoint
+&
 aPoint
 uint32_t
 aFlags
@@ -5625,7 +5627,9 @@ virtual
 ContentOffsets
 GetContentOffsetsFromPointExternal
 (
+const
 nsPoint
+&
 aPoint
 uint32_t
 aFlags
@@ -9224,7 +9228,9 @@ virtual
 void
 FindCloserFrameForSelection
 (
+const
 nsPoint
+&
 aPoint
 FrameWithDistance
 *

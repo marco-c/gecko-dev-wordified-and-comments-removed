@@ -599,7 +599,9 @@ mClipRect
 void
 MoveBy
 (
+const
 nsPoint
+&
 aPoint
 )
 ;

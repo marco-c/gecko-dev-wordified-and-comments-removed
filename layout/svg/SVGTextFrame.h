@@ -692,7 +692,9 @@ virtual
 void
 FindCloserFrameForSelection
 (
+const
 nsPoint
+&
 aPoint
 FrameWithDistance
 *

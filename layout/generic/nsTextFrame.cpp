@@ -38162,7 +38162,9 @@ nsTextFrame
 :
 CalcContentOffsetsFromFramePoint
 (
+const
 nsPoint
+&
 aPoint
 )
 {
@@ -38206,7 +38208,9 @@ nsTextFrame
 :
 GetCharacterOffsetAtFramePointInternal
 (
+const
 nsPoint
+&
 aPoint
 bool
 aForInsertionPoint
