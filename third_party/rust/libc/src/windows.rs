@@ -1131,7 +1131,11 @@ target_env
 "
 msvc
 "
+feature
+=
+"
 stdbuild
+"
 )
 )
 ]

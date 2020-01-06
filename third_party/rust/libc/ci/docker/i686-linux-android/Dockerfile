@@ -174,7 +174,7 @@ android
 /
 sdk
 /
-tools
+emulator
 /
 qemu
 /
@@ -268,6 +268,13 @@ SHELL
 bin
 /
 dash
+/
+android
+/
+sdk
+/
+emulator
+/
 emulator
 i686
 -
