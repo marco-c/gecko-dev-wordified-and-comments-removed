@@ -476,7 +476,7 @@ JSObject
 obj
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 global
 =

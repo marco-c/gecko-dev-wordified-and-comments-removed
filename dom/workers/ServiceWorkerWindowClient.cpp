@@ -545,7 +545,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 =
@@ -1670,7 +1670,7 @@ NS_ERROR_TYPE_ERR
 )
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 ;
@@ -2073,7 +2073,7 @@ aUrl
 nsIPrincipal
 *
 aPrincipal
-nsGlobalWindow
+nsGlobalWindowInner
 *
 *
 aWindow
@@ -2084,7 +2084,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 =

@@ -2377,7 +2377,7 @@ IsChromeWorker
 (
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

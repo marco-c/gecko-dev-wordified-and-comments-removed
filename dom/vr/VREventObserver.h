@@ -23,7 +23,7 @@ nsISupportsImpl
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 namespace
 mozilla
@@ -44,7 +44,7 @@ VREventObserver
 explicit
 VREventObserver
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aGlobalWindow
 )
@@ -119,7 +119,7 @@ VREventObserver
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 mWindow
 ;

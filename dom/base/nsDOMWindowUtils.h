@@ -37,7 +37,7 @@ BasicEvents
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowOuter
 ;
 class
 nsIPresShell
@@ -186,7 +186,7 @@ public
 explicit
 nsDOMWindowUtils
 (
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 aWindow
 )

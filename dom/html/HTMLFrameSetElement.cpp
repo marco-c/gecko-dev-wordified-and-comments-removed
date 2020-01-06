@@ -1453,11 +1453,11 @@ GetInnerWindow
 )
 {
 \
-nsGlobalWindow
+nsGlobalWindowInner
 *
 globalWin
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -1530,11 +1530,11 @@ return
 }
 \
 \
-nsGlobalWindow
+nsGlobalWindowInner
 *
 globalWin
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

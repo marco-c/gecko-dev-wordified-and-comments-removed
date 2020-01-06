@@ -150,7 +150,7 @@ public
 :
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 mWindow
 ;

@@ -4124,7 +4124,7 @@ Initialize
 TestObserver
 *
 aObserver
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 const

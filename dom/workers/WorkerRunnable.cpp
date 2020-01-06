@@ -1152,7 +1152,7 @@ isMainThread
 {
 globalObject
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

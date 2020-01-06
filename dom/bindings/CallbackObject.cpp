@@ -760,7 +760,7 @@ return
 ;
 }
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

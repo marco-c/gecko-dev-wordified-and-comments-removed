@@ -2632,7 +2632,7 @@ auto
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

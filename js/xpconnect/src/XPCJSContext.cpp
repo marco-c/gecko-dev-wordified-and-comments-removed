@@ -2842,7 +2842,7 @@ cx
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 win
 =

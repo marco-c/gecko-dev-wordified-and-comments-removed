@@ -2106,7 +2106,7 @@ aCx
 return
 Init
 (
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -2131,7 +2131,7 @@ aWindow
 return
 Init
 (
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -2147,7 +2147,7 @@ AutoJSAPI
 :
 Init
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 JSContext
@@ -2176,7 +2176,7 @@ AutoJSAPI
 :
 Init
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -2280,7 +2280,7 @@ ErrorReport
 (
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -2519,7 +2519,7 @@ ErrorReport
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 win
 =

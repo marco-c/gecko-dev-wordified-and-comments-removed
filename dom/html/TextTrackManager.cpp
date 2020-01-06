@@ -3334,7 +3334,7 @@ if
 win
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -3442,7 +3442,7 @@ if
 win
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

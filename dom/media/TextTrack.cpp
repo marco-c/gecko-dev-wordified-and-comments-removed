@@ -1407,7 +1407,7 @@ self
 =
 this
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

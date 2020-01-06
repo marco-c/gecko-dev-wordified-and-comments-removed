@@ -1240,11 +1240,11 @@ NS_OK
 ;
 }
 }
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -1589,11 +1589,11 @@ aDisabledCommands
 )
 ;
 }
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 win
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

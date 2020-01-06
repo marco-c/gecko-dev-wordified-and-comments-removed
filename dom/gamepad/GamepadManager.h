@@ -34,7 +34,7 @@ GamepadServiceType
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 namespace
 mozilla
@@ -106,7 +106,7 @@ StopMonitoring
 void
 AddListener
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -114,7 +114,7 @@ aWindow
 void
 RemoveListener
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -305,7 +305,7 @@ const
 GamepadChangeEvent
 &
 aEvent
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -317,7 +317,7 @@ const
 GamepadChangeEvent
 &
 aEvent
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 =
@@ -327,7 +327,7 @@ nullptr
 bool
 MaybeWindowHasSeenGamepad
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 uint32_t
@@ -337,7 +337,7 @@ aIndex
 bool
 WindowHasSeenGamepad
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 uint32_t
@@ -348,7 +348,7 @@ const
 void
 SetWindowHasSeenGamepad
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 uint32_t
@@ -379,7 +379,7 @@ nsTArray
 <
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 >
 mListeners

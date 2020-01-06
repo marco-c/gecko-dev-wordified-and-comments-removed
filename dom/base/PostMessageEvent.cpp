@@ -191,14 +191,14 @@ PostMessageEvent
 :
 PostMessageEvent
 (
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 aSource
 const
 nsAString
 &
 aCallerOrigin
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 aTargetWindow
 nsIPrincipal
@@ -350,7 +350,7 @@ mSourceDocument
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 targetWindow
 ;
@@ -878,7 +878,7 @@ DispatchError
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aTargetWindow
 mozilla
@@ -978,7 +978,7 @@ PostMessageEvent
 :
 Dispatch
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aTargetWindow
 Event

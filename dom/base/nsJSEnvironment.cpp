@@ -1738,7 +1738,7 @@ ErrorEvent
 :
 Constructor
 (
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -2067,7 +2067,7 @@ ErrorEvent
 :
 Constructor
 (
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -2238,7 +2238,7 @@ exception
 #
 ifdef
 DEBUG
-nsGlobalWindow
+nsGlobalWindowInner
 *
 JSObject2Win
 (

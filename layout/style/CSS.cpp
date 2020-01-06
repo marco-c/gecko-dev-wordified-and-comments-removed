@@ -106,7 +106,7 @@ SupportsParsingInfo
 aInfo
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =

@@ -1095,7 +1095,7 @@ MarkForCC
 }
 static_cast
 <
-nsGlobalWindow
+nsGlobalWindowInner
 *
 >
 (

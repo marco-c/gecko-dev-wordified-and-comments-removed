@@ -373,7 +373,7 @@ NS_IsMainThread
 )
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 globalWindow
 =

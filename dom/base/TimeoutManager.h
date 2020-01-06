@@ -29,7 +29,7 @@ class
 nsITimeoutHandler
 ;
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 namespace
 mozilla
@@ -52,7 +52,7 @@ public
 explicit
 TimeoutManager
 (
-nsGlobalWindow
+nsGlobalWindowInner
 &
 aWindow
 )
@@ -793,7 +793,7 @@ friend
 class
 OrderedTimeoutIterator
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 &
 mWindow
 ;

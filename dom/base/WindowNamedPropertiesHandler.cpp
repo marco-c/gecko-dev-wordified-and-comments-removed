@@ -319,7 +319,7 @@ aProxy
 )
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -704,7 +704,7 @@ return
 true
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -726,7 +726,7 @@ nsString
 >
 names
 ;
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 outer
 =

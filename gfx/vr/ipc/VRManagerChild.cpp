@@ -1094,7 +1094,7 @@ windowId
 mNavigatorCallbacks
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 =

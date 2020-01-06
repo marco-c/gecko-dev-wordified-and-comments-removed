@@ -2128,7 +2128,7 @@ CompilationScope
 )
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 WindowOrNull
 (
@@ -2168,10 +2168,17 @@ win
 )
 ;
 return
+static_cast
+<
+nsGlobalWindowInner
+*
+>
+(
 win
+)
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 WindowGlobalOrNull
 (
@@ -2204,7 +2211,7 @@ glob
 )
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 AddonWindowOrNull
 (
@@ -2296,7 +2303,7 @@ mainGlobal
 )
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 CurrentWindowOrNull
 (

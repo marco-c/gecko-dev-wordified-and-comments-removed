@@ -11387,7 +11387,7 @@ GetInnerWindow
 )
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -31915,11 +31915,11 @@ return
 nullptr
 ;
 }
-nsGlobalWindow
+nsGlobalWindowInner
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -37789,11 +37789,11 @@ mMessage
 eLoad
 )
 {
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -40951,7 +40951,7 @@ auto
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -62590,7 +62590,7 @@ nullptr
 ;
 }
 return
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

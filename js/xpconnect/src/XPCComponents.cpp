@@ -8399,7 +8399,7 @@ console
 return
 NS_OK
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 globalWin
 =

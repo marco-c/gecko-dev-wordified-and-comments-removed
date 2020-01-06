@@ -272,7 +272,7 @@ nsTArray
 <
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 >
 :
@@ -284,7 +284,7 @@ nsTArray
 <
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 >
 :
@@ -643,7 +643,7 @@ GamepadManager
 :
 AddListener
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -846,7 +846,7 @@ GamepadManager
 :
 RemoveListener
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -1489,7 +1489,7 @@ nsTArray
 <
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 >
 listeners
@@ -2011,7 +2011,7 @@ GamepadManager
 :
 MaybeWindowHasSeenGamepad
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 uint32_t
@@ -2048,7 +2048,7 @@ GamepadManager
 :
 WindowHasSeenGamepad
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 uint32_t
@@ -2083,7 +2083,7 @@ GamepadManager
 :
 SetWindowHasSeenGamepad
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 uint32_t
@@ -2385,7 +2385,7 @@ nsTArray
 <
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowInner
 >
 >
 listeners
@@ -2494,7 +2494,7 @@ const
 GamepadChangeEvent
 &
 aEvent
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -2661,7 +2661,7 @@ const
 GamepadChangeEvent
 &
 aEvent
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )

@@ -21314,7 +21314,7 @@ nullptr
 }
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 window
 =
@@ -45180,7 +45180,7 @@ about
 0
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -48706,7 +48706,7 @@ nullptr
 }
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 window
 =

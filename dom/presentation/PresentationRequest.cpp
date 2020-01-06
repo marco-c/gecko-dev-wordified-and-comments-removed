@@ -918,7 +918,7 @@ Navigator
 >
 navigator
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast
@@ -2311,7 +2311,7 @@ Navigator
 >
 navigator
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

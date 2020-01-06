@@ -149,7 +149,7 @@ Preferences
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 class
 nsIPrincipal
@@ -1518,7 +1518,7 @@ JSObject
 aObj
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 WindowOrNull
 (
@@ -1527,7 +1527,7 @@ JSObject
 aObj
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 WindowGlobalOrNull
 (
@@ -1536,7 +1536,7 @@ JSObject
 aObj
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 AddonWindowOrNull
 (
@@ -1545,7 +1545,7 @@ JSObject
 aObj
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 CurrentWindowOrNull
 (

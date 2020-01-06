@@ -4351,11 +4351,11 @@ openAbused
 true
 )
 ;
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 globalWindow
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

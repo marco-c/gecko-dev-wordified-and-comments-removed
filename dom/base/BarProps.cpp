@@ -66,7 +66,7 @@ BarProp
 :
 BarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -385,7 +385,7 @@ MenubarProp
 :
 MenubarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -467,7 +467,7 @@ ToolbarProp
 :
 ToolbarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -549,7 +549,7 @@ LocationbarProp
 :
 LocationbarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -631,7 +631,7 @@ PersonalbarProp
 :
 PersonalbarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -713,7 +713,7 @@ StatusbarProp
 :
 StatusbarProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -796,7 +796,7 @@ ScrollbarsProp
 :
 ScrollbarsProp
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )

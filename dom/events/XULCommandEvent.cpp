@@ -433,7 +433,7 @@ auto
 *
 view
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

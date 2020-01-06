@@ -54,7 +54,7 @@ class
 nsPIDOMWindowInner
 ;
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 class
 nsIScriptContext
@@ -357,7 +357,7 @@ MOZ_MUST_USE
 bool
 Init
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 )
@@ -366,7 +366,7 @@ MOZ_MUST_USE
 bool
 Init
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aWindow
 JSContext

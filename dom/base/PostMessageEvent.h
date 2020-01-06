@@ -46,7 +46,10 @@ nsThreadUtils
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowOuter
+;
+class
+nsGlobalWindowInner
 ;
 class
 nsIDocument
@@ -74,14 +77,14 @@ public
 NS_DECL_NSIRUNNABLE
 PostMessageEvent
 (
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 aSource
 const
 nsAString
 &
 aCallerOrigin
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 aTargetWindow
 nsIPrincipal
@@ -104,7 +107,7 @@ PostMessageEvent
 void
 Dispatch
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aTargetWindow
 Event
@@ -118,7 +121,7 @@ DispatchError
 JSContext
 *
 aCx
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aTargetWindow
 mozilla
@@ -134,7 +137,7 @@ aEventTarget
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 mSource
 ;
@@ -143,7 +146,7 @@ mCallerOrigin
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 mTargetWindow
 ;

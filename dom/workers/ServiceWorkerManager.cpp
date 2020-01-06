@@ -13653,7 +13653,7 @@ auto
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

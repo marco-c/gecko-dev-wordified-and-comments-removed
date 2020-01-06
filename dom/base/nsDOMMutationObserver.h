@@ -2697,7 +2697,7 @@ return
 mOwner
 &
 &
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

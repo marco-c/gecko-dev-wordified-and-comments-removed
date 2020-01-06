@@ -33,7 +33,7 @@ WindowOrientationObserver
 :
 WindowOrientationObserver
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aGlobalWindow
 )

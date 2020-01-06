@@ -8376,7 +8376,7 @@ rootWin
 auto
 globalWin
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

@@ -4700,7 +4700,7 @@ false
 if
 (
 !
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

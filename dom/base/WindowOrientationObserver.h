@@ -14,7 +14,7 @@ HalScreenConfiguration
 h
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 namespace
 mozilla
@@ -40,7 +40,7 @@ public
 explicit
 WindowOrientationObserver
 (
-nsGlobalWindow
+nsGlobalWindowInner
 *
 aGlobalWindow
 )
@@ -74,7 +74,7 @@ OrientationAngle
 ;
 private
 :
-nsGlobalWindow
+nsGlobalWindowInner
 *
 MOZ_NON_OWNING_REF
 mWindow

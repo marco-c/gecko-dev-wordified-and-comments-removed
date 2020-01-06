@@ -2161,7 +2161,7 @@ win
 {
 scriptContext
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

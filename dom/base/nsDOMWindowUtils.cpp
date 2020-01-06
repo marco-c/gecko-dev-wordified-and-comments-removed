@@ -1262,7 +1262,7 @@ nsDOMWindowUtils
 :
 nsDOMWindowUtils
 (
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 aWindow
 )
@@ -10789,7 +10789,7 @@ window
 *
 retval
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -10947,11 +10947,11 @@ happen
 "
 )
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 inner
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -15001,7 +15001,7 @@ window
 NS_ERROR_FAILURE
 )
 ;
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -15043,7 +15043,7 @@ window
 NS_ERROR_FAILURE
 )
 ;
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -15091,7 +15091,7 @@ NS_ERROR_FAILURE
 *
 aResult
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -17348,7 +17348,7 @@ NS_ENSURE_STATE
 window
 )
 ;
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

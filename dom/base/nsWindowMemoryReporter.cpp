@@ -396,11 +396,11 @@ size_t
 aOtherSize
 )
 {
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 window
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

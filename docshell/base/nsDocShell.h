@@ -408,7 +408,10 @@ class
 nsDOMNavigationTiming
 ;
 class
-nsGlobalWindow
+nsGlobalWindowOuter
+;
+class
+nsGlobalWindowInner
 ;
 class
 nsIController
@@ -2629,7 +2632,7 @@ mReferrerPolicy
 ;
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 mScriptGlobal
 ;

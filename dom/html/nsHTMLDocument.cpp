@@ -6438,11 +6438,11 @@ nullptr
 }
 RefPtr
 <
-nsGlobalWindow
+nsGlobalWindowOuter
 >
 win
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast

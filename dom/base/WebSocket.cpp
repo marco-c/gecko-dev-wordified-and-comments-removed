@@ -6445,7 +6445,7 @@ error
 ;
 parentWindow
 =
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 Cast

@@ -432,7 +432,7 @@ mWindowId
 1
 )
 {
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 globalWindow
 =

@@ -1243,7 +1243,7 @@ windowId
 =
 0
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -7030,7 +7030,7 @@ HolderClass
 }
 }
 static
-nsGlobalWindow
+nsGlobalWindowInner
 *
 AsWindow
 (
@@ -8875,7 +8875,7 @@ index
 )
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -8916,11 +8916,11 @@ EnsureInnerWindow
 (
 )
 ;
-nsGlobalWindow
+nsGlobalWindowOuter
 *
 global
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
@@ -9279,7 +9279,7 @@ AutoIdVector
 props
 )
 {
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -10743,7 +10743,7 @@ desc
 return
 false
 ;
-nsGlobalWindow
+nsGlobalWindowInner
 *
 win
 =
@@ -10817,7 +10817,7 @@ auto
 *
 cwin
 =
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 Cast
