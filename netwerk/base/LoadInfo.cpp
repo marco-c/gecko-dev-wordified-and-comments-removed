@@ -1833,6 +1833,13 @@ Clear
 (
 )
 ;
+copy
+-
+>
+mResultPrincipalURI
+=
+nullptr
+;
 return
 copy
 .
