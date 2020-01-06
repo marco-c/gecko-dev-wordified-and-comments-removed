@@ -1,5 +1,7 @@
 var
+{
 FormHistory
+}
 =
 (
 Components
@@ -25,8 +27,6 @@ jsm
 }
 )
 )
-.
-FormHistory
 ;
 add_task
 (

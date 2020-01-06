@@ -1060,6 +1060,9 @@ query
 INSERT
 INTO
 moz_formhistory
+"
++
+"
 (
 fieldname
 value
@@ -1144,6 +1147,9 @@ query
 "
 UPDATE
 moz_formhistory
+"
++
+"
 SET
 timesUsed
 =
