@@ -267,15 +267,6 @@ enum
 DevicePixel
 {
 }
-pub
-type
-UnsafeNode
-=
-(
-usize
-usize
-)
-;
 #
 [
 derive
