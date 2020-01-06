@@ -126,6 +126,17 @@ context
 -
 fill
 "
+fill
+-
+opacity
+=
+"
+context
+-
+stroke
+-
+opacity
+"
 d
 =
 "
