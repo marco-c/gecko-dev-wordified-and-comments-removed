@@ -39,7 +39,9 @@ h
 #
 include
 "
-PseudoStack
+js
+/
+ProfilingStack
 .
 h
 "
@@ -597,7 +599,7 @@ RacyInfo
 )
 -
 >
-mStack
+entries
 RacyInfo
 (
 )
@@ -619,7 +621,7 @@ RacyInfo
 )
 -
 >
-mStack
+entries
 )
 )
 ;

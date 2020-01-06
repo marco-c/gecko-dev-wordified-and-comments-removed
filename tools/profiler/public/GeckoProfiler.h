@@ -1265,13 +1265,6 @@ h
 #
 include
 "
-PseudoStack
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
