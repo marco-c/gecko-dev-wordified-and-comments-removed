@@ -549,6 +549,16 @@ TimeStamp
 }
 }
 static
+TimeStamp
+GetHandlingInputStart
+(
+)
+{
+return
+sHandlingInputStart
+;
+}
+static
 bool
 IsHandlingUserInput
 (
