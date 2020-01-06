@@ -307,17 +307,6 @@ mozilla
 .
 gecko
 .
-annotation
-.
-JNITarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 FileUtils
@@ -3881,7 +3870,6 @@ getApplicationInfo
 dataDir
 ;
 }
-JNITarget
 public
 static
 String

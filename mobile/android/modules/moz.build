@@ -260,11 +260,6 @@ InputWidgetHelper
 jsm
 '
 '
-JNI
-.
-jsm
-'
-'
 LightweightThemeConsumer
 .
 jsm
