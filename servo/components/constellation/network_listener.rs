@@ -49,6 +49,7 @@ net_traits
 :
 {
 CoreResourceMsg
+FetchChannels
 FetchMetadata
 FetchResponseMsg
 }
@@ -337,7 +338,13 @@ req_init
 clone
 (
 )
+FetchChannels
+:
+:
+ResponseMsg
+(
 ipc_sender
+)
 )
 }
 }

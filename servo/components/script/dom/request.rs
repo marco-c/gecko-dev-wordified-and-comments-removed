@@ -3556,6 +3556,10 @@ borrow
 .
 mode
 .
+clone
+(
+)
+.
 into
 (
 )
@@ -4871,6 +4875,10 @@ NetTraitsRequestMode
 :
 :
 WebSocket
+{
+.
+.
+}
 =
 >
 unreachable
