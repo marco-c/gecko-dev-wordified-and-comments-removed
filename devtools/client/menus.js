@@ -80,10 +80,13 @@ devtools
 /
 client
 /
-responsivedesign
+responsive
+.
+html
 /
-responsivedesign
+manager
 "
+true
 )
 ;
 loader

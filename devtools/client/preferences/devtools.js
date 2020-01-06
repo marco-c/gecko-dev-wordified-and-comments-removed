@@ -2709,17 +2709,3 @@ version
 "
 )
 ;
-pref
-(
-"
-devtools
-.
-responsive
-.
-html
-.
-enabled
-"
-true
-)
-;
