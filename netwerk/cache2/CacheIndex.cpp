@@ -8277,13 +8277,7 @@ mIndex
 .
 RemoveEntry
 (
-*
-update
--
->
-Hash
-(
-)
+entry
 )
 ;
 entry
