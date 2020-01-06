@@ -2019,8 +2019,6 @@ data
 doc
 .
 characterSet
-0
-null
 )
 ;
 coStream

@@ -398,8 +398,6 @@ UTF
 -
 8
 "
-1024
-0x0
 )
 ;
 do_check_true

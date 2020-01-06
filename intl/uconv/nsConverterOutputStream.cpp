@@ -80,10 +80,6 @@ const
 char
 *
 aCharset
-uint32_t
-aBufferSize
-char16_t
-aReplacementChar
 )
 {
 NS_PRECONDITION

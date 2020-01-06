@@ -274,8 +274,6 @@ init
 (
 foStream
 charset
-0
-0x0000
 )
 ;
 os
