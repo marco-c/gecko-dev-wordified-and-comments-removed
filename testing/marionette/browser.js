@@ -1233,8 +1233,7 @@ get
 }
 }
 ;
-this
-.
+const
 WindowState
 =
 {
