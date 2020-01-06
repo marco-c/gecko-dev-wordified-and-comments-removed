@@ -7170,6 +7170,16 @@ opt
 .
 option
 build_project
+when
+=
+kwargs
+.
+get
+(
+'
+when
+'
+)
 )
 def
 js_option
