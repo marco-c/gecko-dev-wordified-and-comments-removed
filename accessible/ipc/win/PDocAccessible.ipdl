@@ -223,6 +223,9 @@ AccessibleData
 ]
 NewTree
 ;
+bool
+EventSuppressed
+;
 }
 ;
 struct

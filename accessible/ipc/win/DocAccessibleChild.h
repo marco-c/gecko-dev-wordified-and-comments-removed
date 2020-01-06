@@ -498,6 +498,11 @@ AccessibleData
 >
 (
 )
+aEventData
+.
+EventSuppressed
+(
+)
 )
 mFromUser
 (
