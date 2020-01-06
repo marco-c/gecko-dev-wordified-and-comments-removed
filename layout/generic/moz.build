@@ -635,11 +635,6 @@ nsIFrameInlines
 h
 '
 '
-nsIFrameUtil
-.
-h
-'
-'
 nsILineIterator
 .
 h
@@ -942,11 +937,6 @@ cpp
 '
 '
 nsFrameState
-.
-cpp
-'
-'
-nsFrameUtil
 .
 cpp
 '
