@@ -1462,7 +1462,12 @@ nsAString
 &
 aValue
 )
+{
+aValue
+=
+mPreviewValue
 ;
+}
 void
 SetPreviewValue
 (
@@ -1753,6 +1758,9 @@ RefPtr
 nsContentList
 >
 mSelectedOptions
+;
+nsString
+mPreviewValue
 ;
 private
 :
