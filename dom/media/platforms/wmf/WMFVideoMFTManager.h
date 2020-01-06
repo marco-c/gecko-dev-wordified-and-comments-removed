@@ -429,6 +429,11 @@ mIsValid
 =
 true
 ;
+bool
+mIMFUsable
+=
+false
+;
 }
 ;
 }
