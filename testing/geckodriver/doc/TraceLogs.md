@@ -1375,7 +1375,7 @@ Ruby
 client
 ]
 :
-http
+https
 :
 /
 /
@@ -1397,7 +1397,7 @@ rb
 Options
 ]
 :
-http
+https
 :
 /
 /
