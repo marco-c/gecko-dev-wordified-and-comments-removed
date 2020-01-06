@@ -2165,7 +2165,7 @@ GetColor
 Gecko_CopyStyleContentsFrom
 "
 "
-Gecko_CSSValue_SetAbsoluteLength
+Gecko_CSSValue_SetPixelValue
 "
 "
 Gecko_UnsetDirtyStyleAttr
