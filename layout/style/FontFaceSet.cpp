@@ -7030,7 +7030,7 @@ uint8_t
 *
 >
 (
-moz_xmalloc
+malloc
 (
 sizeof
 (
