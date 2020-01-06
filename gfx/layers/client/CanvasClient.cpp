@@ -1321,7 +1321,7 @@ gfx
 BackendType
 :
 :
-CAIRO
+SKIA
 ;
 TexClientFactory
 factory
