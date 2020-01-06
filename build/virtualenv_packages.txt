@@ -97,6 +97,15 @@ third_party
 /
 python
 /
+hglib
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 jsmin
 optional
 :
