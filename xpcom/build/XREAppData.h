@@ -173,7 +173,7 @@ void
 ptr
 )
 {
-NS_Free
+free
 (
 const_cast
 <

@@ -935,7 +935,7 @@ uint8_t
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 length
 *

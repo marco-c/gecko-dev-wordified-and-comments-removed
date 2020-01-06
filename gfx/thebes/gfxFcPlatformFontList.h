@@ -259,7 +259,7 @@ if
 mFontData
 )
 {
-NS_Free
+free
 (
 (
 void

@@ -6370,7 +6370,7 @@ if
 face
 )
 {
-NS_Free
+free
 (
 (
 void
@@ -6403,7 +6403,7 @@ ReleaseFTFace
 face
 )
 ;
-NS_Free
+free
 (
 (
 void

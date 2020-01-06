@@ -442,7 +442,7 @@ res
 char
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 NSID_LENGTH
 )

@@ -182,7 +182,7 @@ void
 ptr
 )
 {
-NS_Free
+free
 (
 ptr
 )
