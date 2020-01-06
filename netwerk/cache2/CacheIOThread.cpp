@@ -484,9 +484,6 @@ InitThread
 (
 )
 {
-BOOL
-result
-=
 :
 :
 DuplicateHandle
