@@ -1,3 +1,8 @@
+from
+__future__
+import
+absolute_import
+print_function
 import
 math
 import
@@ -2273,11 +2278,13 @@ summary
 "
         
 print
+(
 "
 Bisection
 summary
 :
 "
+)
         
 for
 line
@@ -2288,4 +2295,6 @@ summary
 :
             
 print
+(
 line
+)

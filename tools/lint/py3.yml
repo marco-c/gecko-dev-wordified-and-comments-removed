@@ -152,6 +152,8 @@ marionette
 testing
 /
 mochitest
+/
+pywebsocket
 -
 testing
 /
