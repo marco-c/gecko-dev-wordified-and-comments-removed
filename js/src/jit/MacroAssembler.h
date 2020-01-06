@@ -2289,6 +2289,8 @@ enterExitFrame
 (
 Register
 cxreg
+Register
+scratch
 const
 VMFunction
 *
@@ -2303,6 +2305,8 @@ enterFakeExitFrame
 (
 Register
 cxreg
+Register
+scratch
 enum
 ExitFrameTokenValues
 token
@@ -2314,6 +2318,8 @@ enterFakeExitFrameForNative
 (
 Register
 cxreg
+Register
+scratch
 bool
 isConstructing
 )
@@ -2335,6 +2341,8 @@ linkExitFrame
 (
 Register
 cxreg
+Register
+scratch
 )
 ;
 void

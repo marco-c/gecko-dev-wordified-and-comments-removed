@@ -122,10 +122,6 @@ Activation
 *
 activation_
 ;
-void
-*
-savedPrevJitTop_
-;
 static
 const
 unsigned

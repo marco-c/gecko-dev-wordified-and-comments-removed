@@ -87,7 +87,7 @@ static
 uint8_t
 *
 const
-FAKE_JIT_TOP_FOR_BAILOUT
+FAKE_EXITFP_FOR_BAILOUT
 =
 reinterpret_cast
 <

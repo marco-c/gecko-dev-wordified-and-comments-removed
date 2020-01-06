@@ -24044,6 +24044,7 @@ masm
 enterFakeExitFrameForNative
 (
 argContextReg
+tempReg
 call
 -
 >
@@ -24697,6 +24698,7 @@ masm
 .
 enterFakeExitFrame
 (
+argJSContext
 argJSContext
 IonDOMMethodExitFrameLayoutToken
 )
@@ -48737,6 +48739,7 @@ masm
 .
 enterFakeExitFrame
 (
+temp0
 temp0
 LazyLinkExitFrameLayoutToken
 )
@@ -73200,6 +73203,7 @@ masm
 enterFakeExitFrame
 (
 JSContextReg
+JSContextReg
 IonDOMExitFrameLayoutGetterToken
 )
 ;
@@ -73701,6 +73705,7 @@ masm
 .
 enterFakeExitFrame
 (
+JSContextReg
 JSContextReg
 IonDOMExitFrameLayoutSetterToken
 )

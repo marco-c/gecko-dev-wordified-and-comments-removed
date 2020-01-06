@@ -6677,10 +6677,6 @@ MagicValue
 JS_ARG_POISON
 )
 )
-jitTop
-(
-nullptr
-)
 jitStackLimit
 (
 UINTPTR_MAX
