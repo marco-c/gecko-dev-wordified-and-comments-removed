@@ -505,7 +505,9 @@ Assign
 NS_LITERAL_STRING
 (
 "
-S256
+SHA
+-
+256
 "
 )
 )
