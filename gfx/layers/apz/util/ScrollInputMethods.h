@@ -30,6 +30,10 @@ MainThreadScrollbarDrag
 MainThreadScrollbarButtonClick
 MainThreadScrollbarTrackClick
 MainThreadAutoscrolling
+ApzScrollLine
+ApzScrollCharacter
+ApzScrollPage
+ApzCompleteScroll
 }
 ;
 }
