@@ -4154,6 +4154,15 @@ password
 <
 !
 ENTITY
+pref_sync_default_title
+"
+Firefox
+Account
+"
+>
+<
+!
+ENTITY
 pref_sync2
 "
 Sign
