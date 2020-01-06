@@ -24,6 +24,17 @@ test
 "
 ]
 "
+globals
+"
+:
+{
+"
+gBrowser
+"
+:
+false
+}
+"
 rules
 "
 :
