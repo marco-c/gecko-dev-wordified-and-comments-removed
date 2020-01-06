@@ -3138,9 +3138,6 @@ cx
 ;
 if
 (
-cache
-&
-&
 !
 options
 .
@@ -3173,6 +3170,9 @@ if
 (
 !
 script
+&
+&
+cache
 )
 rv
 =
