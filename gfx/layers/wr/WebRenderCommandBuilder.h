@@ -147,6 +147,11 @@ Destroy
 )
 ;
 void
+EmptyTransaction
+(
+)
+;
+void
 BuildWebRenderCommands
 (
 wr
