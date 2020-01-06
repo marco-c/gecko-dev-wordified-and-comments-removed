@@ -955,6 +955,7 @@ except
 (
 KeyboardInterrupt
 SystemExit
+IOError
 )
 :
             

@@ -30,13 +30,15 @@ configure
 -
 -
 help
+2
 >
-out
+&
+1
+|
 head
 -
 n
 7
-out
 Adding
 configure
 options
