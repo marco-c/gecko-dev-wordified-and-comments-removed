@@ -40,9 +40,13 @@ Length
 (
 )
 ;
-mIsStatic
-=
-false
+SetKind
+(
+AtomKind
+:
+:
+HTML5Atom
+)
 ;
 RefPtr
 <
