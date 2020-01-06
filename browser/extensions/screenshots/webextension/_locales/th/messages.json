@@ -478,7 +478,7 @@ message
 "
 }
 "
-termsAndPrivacyNoticeCloudServices
+termsAndPrivacyNotice2
 "
 :
 {
@@ -491,7 +491,6 @@ Firefox
 Screenshots
 TERMSANDPRIVACYNOTICETERMSLINK
 TERMSANDPRIVACYNOTICEPRIVACYLINK
-Firefox
 "
 "
 placeholders
@@ -540,6 +539,18 @@ message
 }
 "
 termsAndPrivacyNoticyPrivacyLink
+"
+:
+{
+"
+message
+"
+:
+"
+"
+}
+"
+libraryLabel
 "
 :
 {

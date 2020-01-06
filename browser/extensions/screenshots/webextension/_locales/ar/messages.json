@@ -489,7 +489,7 @@ message
 "
 }
 "
-termsAndPrivacyNoticeCloudServices
+termsAndPrivacyNotice2
 "
 :
 {
@@ -549,6 +549,18 @@ message
 }
 "
 termsAndPrivacyNoticyPrivacyLink
+"
+:
+{
+"
+message
+"
+:
+"
+"
+}
+"
+libraryLabel
 "
 :
 {

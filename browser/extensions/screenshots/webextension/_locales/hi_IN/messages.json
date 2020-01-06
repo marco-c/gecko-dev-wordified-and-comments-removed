@@ -502,7 +502,7 @@ message
 "
 }
 "
-termsAndPrivacyNoticeCloudServices
+termsAndPrivacyNotice2
 "
 :
 {
@@ -511,7 +511,6 @@ message
 "
 :
 "
-Firefox
 Firefox
 TERMSANDPRIVACYNOTICETERMSLINK
 TERMSANDPRIVACYNOTICEPRIVACYLINK
@@ -564,6 +563,18 @@ message
 }
 "
 termsAndPrivacyNoticyPrivacyLink
+"
+:
+{
+"
+message
+"
+:
+"
+"
+}
+"
+libraryLabel
 "
 :
 {

@@ -769,7 +769,7 @@ Selesai
 "
 }
 "
-termsAndPrivacyNoticeCloudServices
+termsAndPrivacyNotice2
 "
 :
 {
@@ -778,7 +778,7 @@ message
 "
 :
 "
-Dengan
+Apabila
 menggunakan
 Firefox
 Screenshots
@@ -788,9 +788,6 @@ dengan
 TERMSANDPRIVACYNOTICETERMSLINK
 dan
 TERMSANDPRIVACYNOTICEPRIVACYLINK
-Firefox
-Cloud
-Services
 .
 "
 "
@@ -851,6 +848,19 @@ message
 "
 Notis
 Privasi
+"
+}
+"
+libraryLabel
+"
+:
+{
+"
+message
+"
+:
+"
+Screenshots
 "
 }
 }

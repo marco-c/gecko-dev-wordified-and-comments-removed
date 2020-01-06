@@ -504,7 +504,7 @@ message
 "
 }
 "
-termsAndPrivacyNoticeCloudServices
+termsAndPrivacyNotice2
 "
 :
 {
@@ -515,8 +515,6 @@ message
 "
 Firefox
 Screenshots
-Firefox
-:
 TERMSANDPRIVACYNOTICETERMSLINK
 TERMSANDPRIVACYNOTICEPRIVACYLINK
 .
@@ -568,6 +566,18 @@ message
 }
 "
 termsAndPrivacyNoticyPrivacyLink
+"
+:
+{
+"
+message
+"
+:
+"
+"
+}
+"
+libraryLabel
 "
 :
 {

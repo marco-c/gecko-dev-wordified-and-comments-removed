@@ -476,7 +476,7 @@ message
 "
 }
 "
-termsAndPrivacyNoticeCloudServices
+termsAndPrivacyNotice2
 "
 :
 {
@@ -487,9 +487,6 @@ message
 "
 Firefox
 Screenshots
-Firefox
-Cloud
-Services
 TERMSANDPRIVACYNOTICETERMSLINK
 TERMSANDPRIVACYNOTICEPRIVACYLINK
 .

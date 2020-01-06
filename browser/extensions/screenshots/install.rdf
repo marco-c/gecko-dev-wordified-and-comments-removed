@@ -201,9 +201,9 @@ em
 :
 version
 >
-10
+16
 .
-12
+1
 .
 0
 <
@@ -233,9 +233,11 @@ https
 :
 /
 /
-pageshot
+screenshots
 .
-net
+firefox
+.
+com
 /
 <
 /

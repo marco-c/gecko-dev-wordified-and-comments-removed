@@ -242,7 +242,6 @@ MOZ_EXTENSION
 (
 [
 ^
-\
 "
 ]
 +
@@ -773,7 +772,7 @@ i18n
 getMessage
 (
 "
-termsAndPrivacyNoticeCloudServices
+termsAndPrivacyNotice2
 "
 [
 sentinelSplitter
