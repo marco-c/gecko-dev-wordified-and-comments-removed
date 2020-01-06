@@ -3429,7 +3429,7 @@ if
 InputContextAction
 :
 :
-IsUserAction
+IsHandlingUserInput
 (
 sLastContextActionCause
 )
