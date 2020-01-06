@@ -6218,16 +6218,6 @@ pref
 "
 apz
 .
-allow_with_webrender
-"
-false
-)
-;
-pref
-(
-"
-apz
-.
 allow_zooming
 "
 false

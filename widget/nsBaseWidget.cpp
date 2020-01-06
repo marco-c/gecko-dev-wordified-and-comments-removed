@@ -5095,15 +5095,6 @@ UseAPZ
 if
 (
 enableWR
-&
-&
-!
-gfxPrefs
-:
-:
-APZAllowWithWebRender
-(
-)
 )
 {
 enableAPZ
