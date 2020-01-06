@@ -73,7 +73,7 @@ parse_important
 stylesheet_encoding
 EncodingSupport
 TokenSerializationType
-CompactCowStr
+CowRcStr
 Color
 RGBA
 parse_nth
@@ -1010,6 +1010,10 @@ next
 (
 )
 ?
+.
+clone
+(
+)
 input
 )
 )
@@ -2678,6 +2682,7 @@ next
 )
 Ok
 (
+&
 token
 )
 )
@@ -2713,7 +2718,7 @@ a
 >
 Result
 <
-CompactCowStr
+CowRcStr
 <
 '
 a
@@ -3511,6 +3516,18 @@ input
 next_including_whitespace_and_comments
 (
 )
+.
+map
+(
+|
+t
+|
+t
+.
+clone
+(
+)
+)
 }
 else
 {
@@ -3518,6 +3535,18 @@ input
 .
 next_including_whitespace
 (
+)
+.
+map
+(
+|
+t
+|
+t
+.
+clone
+(
+)
 )
 }
 {
@@ -4036,6 +4065,7 @@ next_including_whitespace
 )
 Ok
 (
+&
 Token
 :
 :
@@ -4081,6 +4111,7 @@ next_including_whitespace
 )
 Ok
 (
+&
 Token
 :
 :
@@ -4121,6 +4152,7 @@ next_including_whitespace
 )
 Ok
 (
+&
 Token
 :
 :
@@ -4166,6 +4198,7 @@ next_including_whitespace
 )
 Ok
 (
+&
 Token
 :
 :
@@ -4208,6 +4241,7 @@ next_including_whitespace
 )
 Ok
 (
+&
 Token
 :
 :
@@ -4262,6 +4296,7 @@ next_including_whitespace
 )
 Ok
 (
+&
 Token
 :
 :
@@ -4328,6 +4363,7 @@ next_including_whitespace
 )
 Ok
 (
+&
 Token
 :
 :
@@ -4889,6 +4925,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :
@@ -4948,6 +4985,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :
@@ -7181,7 +7219,7 @@ mut
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -7251,6 +7289,18 @@ input
 next_including_whitespace
 (
 )
+.
+map
+(
+|
+t
+|
+t
+.
+clone
+(
+)
+)
 {
 if
 token
@@ -7313,6 +7363,10 @@ next_including_whitespace
 )
 .
 unwrap
+(
+)
+.
+clone
 (
 )
 ;
@@ -7393,7 +7447,7 @@ mut
 self
 name
 :
-CompactCowStr
+CowRcStr
 <
 '
 i
@@ -7751,6 +7805,18 @@ input
 .
 next_including_whitespace
 (
+)
+.
+map
+(
+|
+t
+|
+t
+.
+clone
+(
+)
 )
 {
 values
@@ -9195,6 +9261,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :
@@ -9221,6 +9288,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :
@@ -9247,6 +9315,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :
@@ -9264,6 +9333,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :
@@ -9306,6 +9376,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :
@@ -9332,6 +9403,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :
@@ -9358,6 +9430,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :
@@ -9375,6 +9448,7 @@ next
 )
 Ok
 (
+&
 Token
 :
 :

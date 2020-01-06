@@ -266,6 +266,10 @@ next_including_whitespace
 (
 )
 ?
+.
+clone
+(
+)
 {
 Token
 :
@@ -280,6 +284,7 @@ Delim
 >
 {
 match
+*
 input
 .
 next_including_whitespace
@@ -311,6 +316,7 @@ Delim
 >
 {
 }
+ref
 t
 =
 >
@@ -323,6 +329,10 @@ BasicParseError
 UnexpectedToken
 (
 t
+.
+clone
+(
+)
 )
 )
 }
@@ -376,6 +386,7 @@ next_including_whitespace
 {
 Ok
 (
+&
 Token
 :
 :
@@ -394,6 +405,7 @@ input
 )
 Ok
 (
+&
 Token
 :
 :
@@ -409,6 +421,7 @@ Dimension
 }
 Ok
 (
+&
 Token
 :
 :
@@ -484,6 +497,7 @@ next_including_whitespace
 {
 Ok
 (
+&
 Token
 :
 :

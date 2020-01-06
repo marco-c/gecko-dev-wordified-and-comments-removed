@@ -1,8 +1,8 @@
 use
-compact_cow_str
+cow_rc_str
 :
 :
-CompactCowStr
+CowRcStr
 ;
 use
 std
@@ -223,8 +223,8 @@ str
 size_of_test
 !
 (
-compact_cow_str
-CompactCowStr
+cow_rc_str
+CowRcStr
 16
 )
 ;
