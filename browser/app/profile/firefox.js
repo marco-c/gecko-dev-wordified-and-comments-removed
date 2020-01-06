@@ -5907,7 +5907,7 @@ plugins
 .
 show_infobar
 "
-false
+true
 )
 ;
 pref
