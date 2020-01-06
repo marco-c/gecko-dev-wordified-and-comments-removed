@@ -340,9 +340,6 @@ HistoryTracker
 downloadLimit
 :
 MAX_HISTORY_DOWNLOAD
-applyIncomingBatchSize
-:
-HISTORY_STORE_BATCH_SIZE
 syncPriority
 :
 7
