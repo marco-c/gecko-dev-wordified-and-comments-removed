@@ -1184,6 +1184,14 @@ Element
 aElement
 )
 ;
+void
+CorruptRuleHashAndCrash
+(
+unsigned
+long
+aIndex
+)
+;
 private
 :
 friend
