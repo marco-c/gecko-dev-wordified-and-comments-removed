@@ -542,6 +542,15 @@ nsIWidget
 aWidget
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+DestroyWidgetRunnable
+"
+)
 mWidget
 (
 aWidget

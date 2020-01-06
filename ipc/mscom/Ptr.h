@@ -126,6 +126,12 @@ NS_DispatchToMainThread
 (
 NewNonOwningRunnableMethod
 (
+"
+mscom
+:
+:
+MainThreadRelease
+"
 aPtr
 &
 T

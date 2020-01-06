@@ -2855,6 +2855,15 @@ bool
 aIsSynthesizedEvent
 )
 :
+Runnable
+(
+"
+TextComposition
+:
+:
+CompositionEventDispatcher
+"
+)
 mTextComposition
 (
 aComposition

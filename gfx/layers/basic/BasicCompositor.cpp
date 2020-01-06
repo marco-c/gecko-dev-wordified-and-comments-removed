@@ -5262,6 +5262,15 @@ runnable
 =
 NS_NewRunnableFunction
 (
+"
+layers
+:
+:
+BasicCompositor
+:
+:
+TryToEndRemoteDrawing
+"
 [
 self
 ]

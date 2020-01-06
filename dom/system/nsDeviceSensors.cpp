@@ -626,6 +626,15 @@ uint32_t
 aType
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+DeviceSensorTestEvent
+"
+)
 mTarget
 (
 aTarget

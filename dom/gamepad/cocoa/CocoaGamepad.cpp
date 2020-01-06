@@ -1134,6 +1134,12 @@ DarwinGamepadService
 service
 )
 :
+Runnable
+(
+"
+DarwinGamepadServiceStartupRunnable
+"
+)
 mService
 (
 service

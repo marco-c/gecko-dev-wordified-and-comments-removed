@@ -934,6 +934,12 @@ event
 =
 NewRunnableMethod
 (
+"
+ZoomConstraintsClient
+:
+:
+RefreshZoomConstraints
+"
 this
 &
 ZoomConstraintsClient

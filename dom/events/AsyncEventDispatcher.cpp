@@ -81,6 +81,12 @@ WidgetEvent
 aEvent
 )
 :
+CancelableRunnable
+(
+"
+AsyncEventDispatcher
+"
+)
 mTarget
 (
 aTarget

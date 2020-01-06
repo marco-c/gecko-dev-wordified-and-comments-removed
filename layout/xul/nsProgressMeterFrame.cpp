@@ -134,6 +134,15 @@ nsFrameState
 aBitToAdd
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+nsReflowFrameRunnable
+"
+)
 mWeakFrame
 (
 aFrame

@@ -799,6 +799,12 @@ r
 =
 NS_NewRunnableFunction
 (
+"
+PaymentRequestParent
+:
+:
+RespondPayment
+"
 [
 self
 response

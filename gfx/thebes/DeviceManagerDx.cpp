@@ -2610,11 +2610,6 @@ multi
 )
 )
 ;
-if
-(
-multi
-)
-{
 multi
 -
 >
@@ -2623,7 +2618,6 @@ SetMultithreadProtected
 TRUE
 )
 ;
-}
 if
 (
 reuseDevice
@@ -4117,6 +4111,12 @@ task
 =
 NS_NewRunnableFunction
 (
+"
+DeviceManagerDx
+:
+:
+PreloadAttachmentsOnCompositorThread
+"
 [
 ]
 (

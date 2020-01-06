@@ -11080,7 +11080,7 @@ mDisplayPortExpiryTimer
 mDisplayPortExpiryTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 RemoveDisplayPortCallback
 this
@@ -11094,6 +11094,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+ScrollFrameHelper
+:
+:
+ResetDisplayPortExpiryTimer
+"
 )
 ;
 }
@@ -11697,7 +11703,7 @@ return
 mScrollActivityTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 ScrollActivityCallback
 this
@@ -11706,6 +11712,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+ScrollFrameHelper
+:
+:
+ScheduleSyntheticMouseMove
+"
 )
 ;
 }

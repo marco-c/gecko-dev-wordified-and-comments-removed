@@ -516,6 +516,15 @@ bool
 aRootHasSecureConnection
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+nsMixedContentEvent
+"
+)
 mContext
 (
 aContext

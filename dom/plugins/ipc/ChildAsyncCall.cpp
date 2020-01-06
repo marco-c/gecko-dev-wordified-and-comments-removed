@@ -33,6 +33,15 @@ void
 aUserData
 )
 :
+CancelableRunnable
+(
+"
+plugins
+:
+:
+ChildAsyncCall
+"
+)
 mInstance
 (
 instance

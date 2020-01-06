@@ -1346,7 +1346,7 @@ rv
 sTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 OnTimeout
 nullptr
@@ -1357,6 +1357,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+WheelTransaction
+:
+:
+SetTimeout
+"
 )
 ;
 NS_WARNING_ASSERTION

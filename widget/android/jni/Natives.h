@@ -2520,6 +2520,9 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+ProxyNativeCall
+"
 ProxyNativeCall
 <
 Impl

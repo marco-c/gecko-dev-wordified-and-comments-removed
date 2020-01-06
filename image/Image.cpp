@@ -565,6 +565,15 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
+"
+image
+:
+:
+ImageResource
+:
+:
+SendOnUnlockedDraw
+"
 [
 =
 ]

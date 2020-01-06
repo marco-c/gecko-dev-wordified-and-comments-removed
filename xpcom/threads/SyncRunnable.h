@@ -57,6 +57,12 @@ nsIRunnable
 aRunnable
 )
 :
+Runnable
+(
+"
+SyncRunnable
+"
+)
 mRunnable
 (
 aRunnable
@@ -83,6 +89,12 @@ nsIRunnable
 aRunnable
 )
 :
+Runnable
+(
+"
+SyncRunnable
+"
+)
 mRunnable
 (
 Move

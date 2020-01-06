@@ -203,6 +203,15 @@ NewRunnableMethod
 TimeStamp
 >
 (
+"
+layout
+:
+:
+VsyncParent
+:
+:
+DispatchVsyncEvent
+"
 this
 &
 VsyncParent

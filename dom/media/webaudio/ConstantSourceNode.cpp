@@ -1002,6 +1002,15 @@ ConstantSourceNode
 aNode
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+EndedEventDispatcher
+"
+)
 mNode
 (
 aNode

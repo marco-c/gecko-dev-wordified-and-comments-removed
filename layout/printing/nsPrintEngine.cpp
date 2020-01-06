@@ -17017,6 +17017,15 @@ nsIDocumentViewerPrint
 docViewerPrint
 )
 :
+mozilla
+:
+:
+Runnable
+(
+"
+nsPrintCompletionEvent
+"
+)
 mDocViewerPrint
 (
 docViewerPrint

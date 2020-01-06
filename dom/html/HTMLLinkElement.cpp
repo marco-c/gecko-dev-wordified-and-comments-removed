@@ -659,6 +659,15 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
+"
+dom
+:
+:
+HTMLLinkElement
+:
+:
+BindToTree
+"
 this
 update
 )

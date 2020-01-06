@@ -43224,6 +43224,12 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
+"
+HTMLEditRules
+:
+:
+DocumentModifiedWorker
+"
 this
 &
 HTMLEditRules
