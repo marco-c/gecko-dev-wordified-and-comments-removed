@@ -671,6 +671,11 @@ _insertBeforeActionID
 PageActions
 .
 ACTION_ID_BOOKMARK_SEPARATOR
+_urlbarInsertBeforeActionID
+:
+PageActions
+.
+ACTION_ID_BOOKMARK
 _urlbarNodeInMarkup
 :
 true
