@@ -1270,7 +1270,7 @@ i
 .
 0001
 '
-expecetd
+expected
 '
 +
 expected
