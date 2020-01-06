@@ -19,14 +19,6 @@ refine
 import
 get_events
 filter_dict
-from
-tests
-.
-support
-.
-wait
-import
-wait
 def
 link_doc
 (
@@ -640,6 +632,11 @@ element
 link
 )
 .
+pause
+(
+300
+)
+.
 perform
 (
 )
@@ -650,19 +647,6 @@ url
 =
 start
     
-error_message
-=
-"
-Did
-not
-navigate
-to
-%
-s
-"
-%
-destination
-    
 click
 (
 session
@@ -681,20 +665,13 @@ False
 )
 )
     
-wait
-(
+assert
 session
-lambda
-s
-:
-s
 .
 url
 =
 =
 destination
-error_message
-)
     
 session
 .
@@ -720,20 +697,13 @@ False
 )
 )
     
-wait
-(
+assert
 session
-lambda
-s
-:
-s
 .
 url
 =
 =
 destination
-error_message
-)
 pytest
 .
 mark
