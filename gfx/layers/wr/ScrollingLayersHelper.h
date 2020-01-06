@@ -229,6 +229,12 @@ StackingContextHelper
 aSc
 )
 ;
+bool
+InsideClipAndScroll
+(
+)
+const
+;
 typedef
 std
 :
