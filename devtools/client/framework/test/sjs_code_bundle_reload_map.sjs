@@ -135,12 +135,16 @@ counter
 =
 1
 +
+(
 +
 getState
 (
 "
 counter
 "
+)
+%
+2
 )
 ;
 let
