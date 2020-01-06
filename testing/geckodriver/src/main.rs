@@ -111,6 +111,7 @@ ArgumentParser
 IncrBy
 StoreTrue
 Store
+StoreOption
 }
 ;
 use
@@ -228,7 +229,10 @@ webdriver_port
 u16
 marionette_port
 :
+Option
+<
 u16
+>
 connect_existing
 :
 bool
@@ -287,7 +291,7 @@ webdriver_port
 4444u16
 marionette_port
 :
-2828u16
+None
 connect_existing
 :
 false
@@ -460,7 +464,7 @@ marionette
 port
 "
 ]
-Store
+StoreOption
 "
 Port
 to
@@ -1376,6 +1380,13 @@ io
 :
 Read
 ;
+const
+MARIONETTE_DEFAULT_PORT
+:
+u16
+=
+2828
+;
 #
 [
 test
@@ -1542,7 +1553,7 @@ MarionetteSettings
 {
 port
 :
-2828
+None
 launcher
 :
 BrowserLauncher
@@ -1592,6 +1603,7 @@ handler
 .
 set_prefs
 (
+MARIONETTE_DEFAULT_PORT
 &
 mut
 gecko_profile
