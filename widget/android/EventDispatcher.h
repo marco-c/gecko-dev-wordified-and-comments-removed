@@ -209,7 +209,6 @@ UnboxBundle
 JSContext
 *
 aCx
-const
 jni
 :
 :
