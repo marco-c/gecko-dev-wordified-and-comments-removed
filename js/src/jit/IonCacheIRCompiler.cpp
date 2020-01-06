@@ -6294,7 +6294,7 @@ MOZ_ASSERT
 target
 -
 >
-hasJITCode
+hasScript
 (
 )
 )
@@ -6305,7 +6305,6 @@ loadJitCodeRaw
 (
 scratch
 scratch
-nullptr
 )
 ;
 masm
@@ -11986,7 +11985,7 @@ MOZ_ASSERT
 target
 -
 >
-hasJITCode
+hasScript
 (
 )
 )
@@ -11997,7 +11996,6 @@ loadJitCodeRaw
 (
 scratch
 scratch
-nullptr
 )
 ;
 masm

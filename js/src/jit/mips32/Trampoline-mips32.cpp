@@ -2939,7 +2939,6 @@ loadJitCodeRaw
 (
 calleeTokenReg
 t1
-nullptr
 )
 ;
 argumentsRectifierReturnOffset_

@@ -897,7 +897,7 @@ setBaselineScript
 (
 JSRuntime
 *
-maybeRuntime
+rt
 js
 :
 :
@@ -952,9 +952,9 @@ resetWarmUpResetCounter
 (
 )
 ;
-updateBaselineOrIonRaw
+updateJitCodeRaw
 (
-maybeRuntime
+rt
 )
 ;
 }

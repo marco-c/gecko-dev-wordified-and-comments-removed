@@ -2611,7 +2611,6 @@ loadJitCodeRaw
 (
 rax
 rax
-nullptr
 )
 ;
 argumentsRectifierReturnOffset_

@@ -1767,7 +1767,7 @@ setPendingIonBuilder
 (
 JSRuntime
 *
-maybeRuntime
+rt
 JSScript
 *
 script
@@ -1821,7 +1821,7 @@ script
 >
 setIonScript
 (
-maybeRuntime
+rt
 ION_PENDING_SCRIPT
 )
 ;
@@ -1836,15 +1836,18 @@ clearDependentWasmImports
 script
 -
 >
-updateBaselineOrIonRaw
+updateJitCodeRaw
 (
-maybeRuntime
+rt
 )
 ;
 }
 void
 removePendingIonBuilder
 (
+JSRuntime
+*
+rt
 JSScript
 *
 script
@@ -1852,7 +1855,7 @@ script
 {
 setPendingIonBuilder
 (
-nullptr
+rt
 script
 nullptr
 )
@@ -1874,7 +1877,7 @@ script
 >
 setIonScript
 (
-nullptr
+rt
 nullptr
 )
 ;

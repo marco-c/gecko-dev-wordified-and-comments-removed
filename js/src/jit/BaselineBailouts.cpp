@@ -7424,7 +7424,7 @@ script
 )
 -
 >
-updateBaselineOrIonRaw
+updateJitCodeRaw
 (
 cx
 -

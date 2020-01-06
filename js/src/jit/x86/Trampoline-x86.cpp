@@ -2384,7 +2384,6 @@ loadJitCodeRaw
 (
 eax
 eax
-nullptr
 )
 ;
 argumentsRectifierReturnOffset_

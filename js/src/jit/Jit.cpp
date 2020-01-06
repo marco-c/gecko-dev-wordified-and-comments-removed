@@ -690,7 +690,7 @@ code
 script
 -
 >
-baselineOrIonRawPointer
+jitCodeRaw
 (
 )
 ;
@@ -698,7 +698,12 @@ do
 {
 if
 (
-code
+script
+-
+>
+hasBaselineScript
+(
+)
 )
 break
 ;
@@ -760,7 +765,7 @@ code
 script
 -
 >
-baselineOrIonRawPointer
+jitCodeRaw
 (
 )
 ;
@@ -826,7 +831,7 @@ code
 script
 -
 >
-baselineOrIonRawPointer
+jitCodeRaw
 (
 )
 ;

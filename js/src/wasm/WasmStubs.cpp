@@ -4408,7 +4408,6 @@ loadJitCodeNoArgCheck
 (
 callee
 callee
-nullptr
 )
 ;
 Label

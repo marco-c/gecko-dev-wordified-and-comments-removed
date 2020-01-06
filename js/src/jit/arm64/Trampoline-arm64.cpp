@@ -1876,7 +1876,6 @@ loadJitCodeRaw
 (
 r5
 r3
-nullptr
 )
 ;
 argumentsRectifierReturnOffset_
