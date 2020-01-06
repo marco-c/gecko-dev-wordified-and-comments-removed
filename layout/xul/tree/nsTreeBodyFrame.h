@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+AtomArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -2108,6 +2117,9 @@ nsTreeImageCacheEntry
 >
 mImageCache
 ;
+mozilla
+:
+:
 AtomArray
 mScratchArray
 ;
