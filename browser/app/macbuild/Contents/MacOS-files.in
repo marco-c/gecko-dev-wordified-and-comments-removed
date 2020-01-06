@@ -16,6 +16,16 @@ certutil
 firefox
 -
 bin
+#
+if
+defined
+(
+MOZ_GECKODRIVER
+)
+/
+geckodriver
+#
+endif
 /
 gtest
 /
