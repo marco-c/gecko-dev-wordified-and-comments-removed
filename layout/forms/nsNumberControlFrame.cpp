@@ -1424,6 +1424,9 @@ NS_EVENT_STATE_FOCUS
 )
 )
 {
+IgnoredErrorResult
+ignored
+;
 HTMLInputElement
 :
 :
@@ -1435,6 +1438,7 @@ mTextField
 >
 Focus
 (
+ignored
 )
 ;
 }
@@ -2662,6 +2666,9 @@ mOriginalTarget
 mTextField
 )
 {
+IgnoredErrorResult
+ignored
+;
 HTMLInputElement
 :
 :
@@ -2673,6 +2680,7 @@ mTextField
 >
 Focus
 (
+ignored
 )
 ;
 }

@@ -234,11 +234,6 @@ nsIDOMHTMLElement
 :
 nsIDOMElement
 {
-void
-focus
-(
-)
-;
 attribute
 DOMString
 accessKey
