@@ -13630,12 +13630,6 @@ true
 endif
 #
 else
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 pref
 (
 "
@@ -13646,8 +13640,6 @@ use_simplify_page
 true
 )
 ;
-#
-endif
 #
 endif
 pref
