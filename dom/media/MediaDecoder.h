@@ -1044,7 +1044,17 @@ NextFrameStatus
 )
 {
 return
+!
+IsEnded
+(
+)
+?
 mNextFrameStatus
+:
+MediaDecoderOwner
+:
+:
+NEXT_FRAME_UNAVAILABLE
 ;
 }
 virtual
