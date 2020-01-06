@@ -214,6 +214,17 @@ tests
 /
 browser
 /
+bounds
+/
+browser
+.
+ini
+'
+'
+tests
+/
+browser
+/
 browser
 .
 ini
