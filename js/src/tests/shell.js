@@ -2746,12 +2746,11 @@ return
 var
 optionNames
 =
-currentOptions
-.
-split
+StringSplit
 (
-'
-'
+currentOptions
+"
+"
 )
 ;
 for
