@@ -103,11 +103,6 @@ nsITransaction
 idl
 '
 '
-nsITransactionList
-.
-idl
-'
-'
 nsITransactionListener
 .
 idl
@@ -139,11 +134,6 @@ UNIFIED_SOURCES
 [
 '
 nsTransactionItem
-.
-cpp
-'
-'
-nsTransactionList
 .
 cpp
 '
