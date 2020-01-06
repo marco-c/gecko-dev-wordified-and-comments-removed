@@ -1433,6 +1433,14 @@ defaults
 to
 0
 .
+.
+.
+_histogram
+-
+type
+-
+keyed
+:
 Keyed
 Histograms
 -

@@ -293,6 +293,16 @@ annotations
 <
 experiments
 >
+*
+:
+doc
+:
+Remote
+content
+uptake
+<
+uptake
+>
 .
 .
 toctree
@@ -324,6 +334,7 @@ stack
 -
 capture
 experiments
+uptake
 *
 Browser
 Usage
