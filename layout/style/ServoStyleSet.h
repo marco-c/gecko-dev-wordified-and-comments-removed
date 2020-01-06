@@ -801,6 +801,17 @@ aElement
 )
 ;
 void
+StyleSubtreeForReconstruct
+(
+dom
+:
+:
+Element
+*
+aRoot
+)
+;
+void
 UpdateStylistIfNeeded
 (
 )

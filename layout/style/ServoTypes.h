@@ -164,6 +164,12 @@ Forgetful
 <
 <
 3
+AggressivelyForgetful
+=
+1
+<
+<
+4
 ClearDirtyBits
 =
 1
