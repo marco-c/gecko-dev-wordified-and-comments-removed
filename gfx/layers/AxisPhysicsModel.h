@@ -59,6 +59,7 @@ double
 GetVelocity
 (
 )
+const
 ;
 void
 SetVelocity
@@ -71,6 +72,7 @@ double
 GetPosition
 (
 )
+const
 ;
 void
 SetPosition
