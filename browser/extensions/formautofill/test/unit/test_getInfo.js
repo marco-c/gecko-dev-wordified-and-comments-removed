@@ -1258,6 +1258,12 @@ testcase
 expectedReturnValue
 )
 ;
+LabelUtils
+.
+clearLabelMap
+(
+)
+;
 }
 )
 ;

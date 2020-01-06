@@ -767,6 +767,12 @@ testcase
 expectedLabelIds
 )
 ;
+LabelUtils
+.
+clearLabelMap
+(
+)
+;
 }
 )
 ;
