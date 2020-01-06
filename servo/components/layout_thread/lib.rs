@@ -767,15 +767,6 @@ use
 std
 :
 :
-marker
-:
-:
-PhantomData
-;
-use
-std
-:
-:
 mem
 as
 std_mem
@@ -7638,11 +7629,6 @@ mut
 extra_data
 =
 ExtraStyleData
-{
-marker
-:
-PhantomData
-}
 ;
 let
 needs_dirtying
