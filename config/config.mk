@@ -858,8 +858,6 @@ build
 autoconf
 ifdef
 _MSC_VER
-ifndef
-MOZ_USING_SCCACHE
 CC_WRAPPER
 ?
 =
@@ -876,7 +874,6 @@ call
 py_action
 cl
 )
-endif
 endif
 #
 _MSC_VER
