@@ -731,6 +731,13 @@ LayerRenderTarget
 i32
 )
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 enum
 TextureUpdateOp
@@ -833,6 +840,13 @@ RenderTargetMode
 }
 Free
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 TextureUpdate

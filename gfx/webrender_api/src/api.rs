@@ -919,7 +919,7 @@ pub
 enum
 WebGLCommand
 {
-FenceAndWaitSync
+Flush
 }
 #
 [
