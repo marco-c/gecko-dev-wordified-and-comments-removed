@@ -2,6 +2,7 @@ from
 __future__
 import
 absolute_import
+print_function
 import
 errno
 import
@@ -706,12 +707,14 @@ OSError
 :
                 
 print
->
->
+(
+args
+file
+=
 sys
 .
 stderr
-args
+)
                 
 raise
         
@@ -1105,11 +1108,7 @@ ESRCH
 :
                                 
 print
->
->
-sys
-.
-stderr
+(
 "
 Could
 not
@@ -1120,9 +1119,16 @@ process
 s
 "
 %
+                                      
 self
 .
 pid
+file
+=
+sys
+.
+stderr
+)
                                 
 raise
                     
@@ -1625,13 +1631,7 @@ _ignore_children
 :
                     
 print
->
->
-sys
-.
-stderr
-\
-                        
+(
 "
 ProcessManager
 UNABLE
@@ -1641,9 +1641,18 @@ job
 objects
 to
 manage
+"
+                          
+"
 child
 processes
 "
+file
+=
+sys
+.
+stderr
+)
                 
 creationflags
 |
@@ -1680,6 +1689,7 @@ can_nest_jobs
 :
                     
 print
+(
 "
 ProcessManager
 NOT
@@ -1687,6 +1697,7 @@ managing
 child
 processes
 "
+)
                 
 hp
 ht
@@ -1940,11 +1951,7 @@ except
 :
                         
 print
->
->
-sys
-.
-stderr
+(
 "
 "
 "
@@ -1969,6 +1976,12 @@ processes
 "
 "
 "
+file
+=
+sys
+.
+stderr
+)
                         
 tb
 =
@@ -1979,12 +1992,14 @@ format_exc
 )
                         
 print
->
->
+(
+tb
+file
+=
 sys
 .
 stderr
-tb
+)
                         
 self
 .
@@ -2251,13 +2266,7 @@ MAX_IOCOMPLETION_PORT_NOTIFICATION_DELAY
 :
                             
 print
->
->
-sys
-.
-stderr
-\
-                                
+(
 "
 WARNING
 |
@@ -2267,18 +2276,21 @@ Port
 failed
 to
 signal
+"
+                                  
+"
 process
 shutdown
 "
-                            
-print
->
->
+file
+=
 sys
 .
 stderr
-\
-                                
+)
+                            
+print
+(
 "
 Parent
 process
@@ -2290,19 +2302,20 @@ children
 alive
 :
 "
+                                  
 %
 self
 .
 pid
-                            
-print
->
->
+file
+=
 sys
 .
 stderr
-\
-                                
+)
+                            
+print
+(
 "
 PIDS
 :
@@ -2328,15 +2341,16 @@ self
 _spawned_procs
 ]
 )
-                            
-print
->
->
+                                  
+file
+=
 sys
 .
 stderr
-\
-                                
+)
+                            
+print
+(
 "
 Attempting
 to
@@ -2348,6 +2362,13 @@ guarantee
 of
 success
 "
+                                  
+file
+=
+sys
+.
+stderr
+)
                             
 self
 .
@@ -2397,11 +2418,7 @@ ERROR_ABANDONED_WAIT_0
 :
                             
 print
->
->
-sys
-.
-stderr
+(
 "
 IO
 Completion
@@ -2409,6 +2426,12 @@ Port
 unexpectedly
 closed
 "
+file
+=
+sys
+.
+stderr
+)
                             
 self
 .
@@ -2444,13 +2467,7 @@ else
 :
                             
 print
->
->
-sys
-.
-stderr
-\
-                                
+(
 "
 Error
 Code
@@ -2463,13 +2480,18 @@ IO
 Completion
 Port
 "
-\
-                                
+                                  
 "
 exiting
 "
 %
 errcode
+file
+=
+sys
+.
+stderr
+)
                             
 raise
 WinError
@@ -3089,6 +3111,7 @@ WAIT_TIMEOUT
 :
                         
 print
+(
 "
 Timed
 out
@@ -3097,9 +3120,13 @@ for
 process
 to
 close
+"
+                              
+"
 attempting
 TerminateProcess
 "
+)
                         
 self
 .
@@ -3117,12 +3144,14 @@ WAIT_OBJECT_0
 :
                         
 print
+(
 "
 Single
 process
 terminated
 successfully
 "
+)
                         
 self
 .
@@ -3542,13 +3571,7 @@ None
 :
                             
 print
->
->
-sys
-.
-stderr
-\
-                                
+(
 "
 Encountered
 error
@@ -3563,6 +3586,13 @@ s
 "
 %
 e
+                                  
+file
+=
+sys
+.
+stderr
+)
                             
 raise
                         
@@ -3601,13 +3631,7 @@ else
 :
             
 print
->
->
-sys
-.
-stderr
-\
-                
+(
 "
 Unrecognized
 platform
@@ -3615,10 +3639,19 @@ process
 groups
 may
 not
+"
+                  
+"
 be
 managed
 properly
 "
+file
+=
+sys
+.
+stderr
+)
             
 def
 _wait
@@ -4917,11 +4950,7 @@ None
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 MOZPROCESS
 WARNING
@@ -4934,8 +4963,7 @@ waitForFinish
 is
 deprecated
 "
-\
-                             
+              
 "
 use
 ProcessHandler
@@ -4945,6 +4973,12 @@ wait
 )
 instead
 "
+file
+=
+sys
+.
+stderr
+)
         
 return
 self
@@ -5157,13 +5191,7 @@ detached_pid
 new_pid
                 
 print
->
->
-sys
-.
-stdout
-\
-                    
+(
 '
 Child
 process
@@ -5183,8 +5211,7 @@ it
 is
 no
 '
-\
-                    
+                      
 '
 longer
 in
@@ -5200,8 +5227,7 @@ the
 process
 id
 '
-\
-                    
+                      
 '
 "
 %
@@ -5216,11 +5242,18 @@ process
 .
 '
 %
+                      
 (
 self
 .
 pid
 new_pid
+)
+file
+=
+sys
+.
+stdout
 )
 class
 CallableList

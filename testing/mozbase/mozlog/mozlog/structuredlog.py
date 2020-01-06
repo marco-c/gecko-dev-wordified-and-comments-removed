@@ -1,6 +1,8 @@
 from
 __future__
 import
+absolute_import
+print_function
 unicode_literals
 from
 multiprocessing
@@ -20,6 +22,7 @@ time
 import
 traceback
 from
+.
 logtypes
 import
 Unicode
@@ -33,6 +36,7 @@ Int
 Any
 Tuple
 from
+.
 logtypes
 import
 log_action
@@ -1463,11 +1467,7 @@ Exception
 :
                     
 print
->
->
-sys
-.
-__stderr__
+(
 '
 %
 s
@@ -1480,17 +1480,25 @@ handler
 '
 %
 __name__
-                    
-print
->
->
+file
+=
 sys
 .
 __stderr__
+)
+                    
+print
+(
 traceback
 .
 format_exc
 (
+)
+file
+=
+sys
+.
+__stderr__
 )
     
 def

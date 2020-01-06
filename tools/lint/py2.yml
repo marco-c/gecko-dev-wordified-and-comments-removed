@@ -169,10 +169,6 @@ mochitest
 -
 testing
 /
-mozbase
--
-testing
-/
 mozharness
 -
 testing

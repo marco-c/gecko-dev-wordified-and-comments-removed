@@ -1,3 +1,8 @@
+from
+__future__
+import
+absolute_import
+print_function
 import
 argparse
 from
@@ -524,9 +529,12 @@ Info
 "
         
 print
+(
 run_str
+)
         
 print
+(
 "
 =
 "
@@ -534,6 +542,7 @@ print
 len
 (
 run_str
+)
 )
         
 print_run
@@ -562,6 +571,7 @@ items
 :
         
 print
+(
 "
 \
 n
@@ -571,8 +581,10 @@ str
 (
 test
 )
+)
         
 print
+(
 "
 -
 "
@@ -580,6 +592,7 @@ print
 len
 (
 test
+)
 )
         
 for
@@ -594,6 +607,7 @@ iteritems
 :
             
 print
+(
 "
 [
 %
@@ -641,6 +655,7 @@ results
 .
 iteritems
 (
+)
 )
 )
 )
@@ -823,11 +838,13 @@ json
 :
         
 print
+(
 json
 .
 dumps
 (
 unstable
+)
 )
     
 else

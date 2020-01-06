@@ -2,6 +2,7 @@ from
 __future__
 import
 absolute_import
+print_function
 import
 os
 import
@@ -1819,6 +1820,7 @@ True
 :
             
 print
+(
 '
 %
 s
@@ -1851,6 +1853,7 @@ key
 ]
 )
 )
+)
             
 flag
 =
@@ -1874,6 +1877,7 @@ items
 :
         
 print
+(
 '
 %
 s
@@ -1885,6 +1889,7 @@ s
 (
 key
 value
+)
 )
 if
 __name__

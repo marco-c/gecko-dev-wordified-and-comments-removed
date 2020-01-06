@@ -1,11 +1,15 @@
+from
+__future__
+import
+absolute_import
 import
 json
 import
 os
 import
-shutil
-import
 sys
+import
+shutil
 import
 tempfile
 import
@@ -20,6 +24,10 @@ xml
 dom
 import
 minidom
+from
+six
+import
+reraise
 import
 mozfile
 from
@@ -1967,7 +1975,8 @@ as
 e
 :
             
-raise
+reraise
+(
 AddonFormatError
 (
 str
@@ -1984,6 +1993,7 @@ exc_info
 [
 2
 ]
+)
         
 if
 is_webext
@@ -2256,7 +2266,8 @@ as
 e
 :
                 
-raise
+reraise
+(
 AddonFormatError
 (
 str
@@ -2273,6 +2284,7 @@ exc_info
 [
 2
 ]
+)
         
 if
 isinstance

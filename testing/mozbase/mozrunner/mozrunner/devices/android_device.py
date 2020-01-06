@@ -1,3 +1,8 @@
+from
+__future__
+import
+absolute_import
+print_function
 import
 fileinput
 import
@@ -5450,6 +5455,7 @@ verbose_logging
 :
         
 print
+(
 "
 DEBUG
 :
@@ -5458,6 +5464,7 @@ s
 "
 %
 text
+)
 def
 _log_warning
 (
@@ -5466,6 +5473,7 @@ text
 :
     
 print
+(
 "
 WARNING
 :
@@ -5474,6 +5482,7 @@ s
 "
 %
 text
+)
 def
 _log_info
 (
@@ -5482,12 +5491,14 @@ text
 :
     
 print
+(
 "
 %
 s
 "
 %
 text
+)
 def
 _download_file
 (
@@ -5554,6 +5565,7 @@ path
         
 except
 Exception
+as
 e
 :
             
@@ -5660,6 +5672,7 @@ dst_path
         
 except
 Exception
+as
 e
 :
             
