@@ -5042,6 +5042,7 @@ return
 tabToSelect
 ;
 }
+RobocopTarget
 public
 Tab
 addTab
