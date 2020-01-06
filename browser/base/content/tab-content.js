@@ -4656,11 +4656,6 @@ URI
 aURI
 .
 spec
-originCharset
-:
-aURI
-.
-originCharset
 delay
 :
 aDelay
@@ -4785,9 +4780,6 @@ newURI
 data
 .
 URI
-data
-.
-originCharset
 )
 ;
 refreshURI

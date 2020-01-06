@@ -162,9 +162,6 @@ query
 StandardURLSegment
 ref
 ;
-nsCString
-originCharset
-;
 bool
 isMutable
 ;

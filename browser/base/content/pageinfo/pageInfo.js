@@ -2242,11 +2242,6 @@ docInfo
 documentURIObject
 .
 spec
-docInfo
-.
-documentURIObject
-.
-originCharset
 )
 ;
 let

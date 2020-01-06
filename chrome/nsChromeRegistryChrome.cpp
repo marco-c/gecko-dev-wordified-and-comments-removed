@@ -1466,16 +1466,6 @@ aSerializedURI
 spec
 )
 ;
-aURI
--
->
-GetOriginCharset
-(
-aSerializedURI
-.
-charset
-)
-;
 }
 void
 nsChromeRegistryChrome
