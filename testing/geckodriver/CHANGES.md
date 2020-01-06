@@ -50,12 +50,12 @@ ini
 file
 (
 fixes
-(
+[
 Selenium
 #
 3884
-)
-[
+]
+(
 https
 :
 /
@@ -71,7 +71,7 @@ selenium
 issues
 /
 3884
-]
+)
 )
 -
 Session
