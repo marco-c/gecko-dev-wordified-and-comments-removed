@@ -1677,6 +1677,11 @@ isFirstPaint
 )
 aInfo
 .
+focusTarget
+(
+)
+aInfo
+.
 scheduleComposite
 (
 )
