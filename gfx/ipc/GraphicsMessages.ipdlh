@@ -233,6 +233,9 @@ FeatureStatus
 oglCompositing
 ;
 FeatureStatus
+advancedLayers
+;
+FeatureStatus
 useD2D1
 ;
 }
@@ -324,6 +327,9 @@ d3d11Compositing
 ;
 FeatureChange
 oglCompositing
+;
+FeatureChange
+advancedLayers
 ;
 GPUDeviceStatus
 gpuDevice
