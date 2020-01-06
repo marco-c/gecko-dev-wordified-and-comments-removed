@@ -4186,6 +4186,13 @@ intersection
 )
 GK_ATOM
 (
+intersectionobserverlist
+"
+intersectionobserverlist
+"
+)
+GK_ATOM
+(
 is
 "
 is

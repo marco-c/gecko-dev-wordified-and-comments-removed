@@ -130,9 +130,6 @@ struct
 CustomElementData
 ;
 class
-DOMIntersectionObserver
-;
-class
 Element
 ;
 }
@@ -970,16 +967,6 @@ RefPtr
 CustomElementData
 >
 mCustomElementData
-;
-nsDataHashtable
-<
-nsRefPtrHashKey
-<
-DOMIntersectionObserver
->
-int32_t
->
-mRegisteredIntersectionObservers
 ;
 nsCOMPtr
 <
