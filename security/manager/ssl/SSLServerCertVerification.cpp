@@ -1891,14 +1891,12 @@ mDefaultErrorCodeToReport
 }
 int32_t
 port
-;
+=
 mInfoObject
 -
 >
 GetPort
 (
-&
-port
 )
 ;
 nsAutoCString
