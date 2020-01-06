@@ -190,7 +190,7 @@ domobject_derive
 ;
 extern
 crate
-encoding
+encoding_rs
 ;
 extern
 crate

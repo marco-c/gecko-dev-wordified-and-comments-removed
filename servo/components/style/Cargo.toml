@@ -161,7 +161,7 @@ cssparser
 serde
 "
 "
-encoding
+encoding_rs
 "
 "
 malloc_size_of
@@ -272,7 +272,7 @@ cssparser
 .
 0
 "
-encoding
+encoding_rs
 =
 {
 version
@@ -280,7 +280,7 @@ version
 "
 0
 .
-2
+7
 "
 optional
 =

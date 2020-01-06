@@ -107,16 +107,7 @@ window_from_node
 }
 ;
 use
-encoding
-:
-:
-EncodingRef
-;
-use
-encoding
-:
-:
-all
+encoding_rs
 :
 :
 UTF_8
@@ -773,8 +764,6 @@ let
 environment_encoding
 =
 UTF_8
-as
-EncodingRef
 ;
 let
 protocol_encoding_label
