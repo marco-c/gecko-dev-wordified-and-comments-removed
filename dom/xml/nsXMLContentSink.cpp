@@ -6410,7 +6410,7 @@ aType
 FlushType
 :
 :
-EnsurePresShellInitAndFrames
+InterruptibleLayout
 )
 {
 MaybeStartLayout
