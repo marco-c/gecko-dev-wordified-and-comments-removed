@@ -11321,6 +11321,23 @@ options
 .
 topobjdir
         
+if
+options
+.
+headless
+:
+            
+browserEnv
+[
+"
+MOZ_HEADLESS
+"
+]
+=
+'
+1
+'
+        
 browserEnv
 [
 "
@@ -16762,6 +16779,21 @@ e10s
 options
 .
 e10s
+}
+)
+        
+mozinfo
+.
+update
+(
+{
+"
+headless
+"
+:
+options
+.
+headless
 }
 )
         
