@@ -469,16 +469,6 @@ HTMLMediaElement
 nsGenericHTMLElement
 )
 virtual
-nsresult
-GetEventTargetParent
-(
-EventChainPreVisitor
-&
-aVisitor
-)
-override
-;
-virtual
 bool
 ParseAttribute
 (
