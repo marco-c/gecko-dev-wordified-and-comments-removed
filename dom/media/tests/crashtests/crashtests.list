@@ -97,6 +97,12 @@ load
 1367930_1
 .
 html
+skip
+-
+if
+(
+Android
+)
 load
 1367930_2
 .
