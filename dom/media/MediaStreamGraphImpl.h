@@ -672,12 +672,14 @@ aEndBlockingDecisions
 StreamTime
 GraphTimeToStreamTimeWithBlocking
 (
+const
 MediaStream
 *
 aStream
 GraphTime
 aTime
 )
+const
 ;
 void
 NotifyHasCurrentData

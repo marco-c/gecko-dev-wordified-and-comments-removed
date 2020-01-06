@@ -997,6 +997,7 @@ FindTrack
 TrackID
 aID
 )
+const
 ;
 class
 MOZ_STACK_CLASS
@@ -1073,6 +1074,7 @@ bool
 IsEnded
 (
 )
+const
 {
 return
 mIndex
@@ -1105,6 +1107,7 @@ Track
 get
 (
 )
+const
 {
 return
 mBuffer
@@ -1246,6 +1249,7 @@ StreamTime
 GetForgottenDuration
 (
 )
+const
 {
 return
 mForgottenTime

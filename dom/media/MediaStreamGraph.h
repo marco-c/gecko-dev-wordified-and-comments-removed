@@ -443,6 +443,14 @@ GraphImpl
 (
 )
 ;
+const
+MediaStreamGraphImpl
+*
+GraphImpl
+(
+)
+const
+;
 MediaStreamGraph
 *
 Graph
@@ -469,6 +477,7 @@ TrackRate
 GraphRate
 (
 )
+const
 {
 return
 mTracks
@@ -682,6 +691,7 @@ StreamTime
 GetCurrentTime
 (
 )
+const
 {
 NS_ASSERTION
 (
@@ -705,6 +715,7 @@ bool
 IsFinished
 (
 )
+const
 {
 NS_ASSERTION
 (
@@ -728,6 +739,7 @@ bool
 IsDestroyed
 (
 )
+const
 {
 NS_ASSERTION
 (
@@ -813,6 +825,7 @@ StreamTime
 GetTracksEnd
 (
 )
+const
 {
 return
 mTracks
@@ -829,6 +842,7 @@ void
 DumpTrackInfo
 (
 )
+const
 {
 return
 mTracks
@@ -862,6 +876,7 @@ bool
 HasAudioOutput
 (
 )
+const
 {
 return
 !
@@ -1026,6 +1041,7 @@ uint32_t
 ConsumerCount
 (
 )
+const
 {
 return
 mConsumers
@@ -1049,6 +1065,7 @@ GraphTime
 GetStreamTracksStartTime
 (
 )
+const
 {
 return
 mTracksStartTime
@@ -1060,6 +1077,7 @@ StreamTimeToSeconds
 StreamTime
 aTime
 )
+const
 {
 NS_ASSERTION
 (
@@ -1101,6 +1119,7 @@ StreamTimeToMicroseconds
 StreamTime
 aTime
 )
+const
 {
 NS_ASSERTION
 (
@@ -1140,6 +1159,7 @@ SecondsToNearestStreamTime
 double
 aSeconds
 )
+const
 {
 NS_ASSERTION
 (
@@ -1181,6 +1201,7 @@ MicrosecondsToStreamTimeRoundDown
 int64_t
 aMicroseconds
 )
+const
 {
 return
 (
@@ -1204,6 +1225,7 @@ aRate
 StreamTime
 aTime
 )
+const
 {
 return
 RateConvertTicksRoundUp
@@ -1226,6 +1248,7 @@ aRate
 TrackTicks
 aTicks
 )
+const
 {
 return
 RateConvertTicksRoundDown
@@ -1246,6 +1269,7 @@ GraphTimeToStreamTimeWithBlocking
 GraphTime
 aTime
 )
+const
 ;
 StreamTime
 GraphTimeToStreamTime
@@ -1253,6 +1277,7 @@ GraphTimeToStreamTime
 GraphTime
 aTime
 )
+const
 ;
 GraphTime
 StreamTimeToGraphTime
@@ -1260,11 +1285,13 @@ StreamTimeToGraphTime
 StreamTime
 aTime
 )
+const
 ;
 bool
 IsFinishedOnGraphThread
 (
 )
+const
 {
 return
 mFinished
@@ -1279,6 +1306,7 @@ bool
 HasCurrentData
 (
 )
+const
 {
 return
 mHasCurrentData
@@ -1294,6 +1322,7 @@ FindTrack
 TrackID
 aID
 )
+const
 ;
 StreamTracks
 :
@@ -1355,6 +1384,7 @@ bool
 IsSuspended
 (
 )
+const
 {
 return
 mSuspendedCount
@@ -2289,6 +2319,7 @@ MediaStream
 GetSource
 (
 )
+const
 {
 return
 mSource
@@ -2298,6 +2329,7 @@ TrackID
 GetSourceTrackId
 (
 )
+const
 {
 return
 mSourceTrack
@@ -2308,6 +2340,7 @@ ProcessedMediaStream
 GetDestination
 (
 )
+const
 {
 return
 mDest
@@ -2317,6 +2350,7 @@ TrackID
 GetDestinationTrackId
 (
 )
+const
 {
 return
 mDestTrack
@@ -2360,6 +2394,7 @@ PassTrackThrough
 TrackID
 aTrackId
 )
+const
 {
 bool
 blocked
@@ -2447,6 +2482,7 @@ AllowCreationOf
 TrackID
 aTrackId
 )
+const
 {
 bool
 blocked
@@ -2553,6 +2589,7 @@ GetNextInputInterval
 GraphTime
 aTime
 )
+const
 ;
 MediaStreamGraphImpl
 *
@@ -2806,6 +2843,7 @@ MediaInputPort
 *
 aPort
 )
+const
 {
 return
 mInputs
@@ -2828,6 +2866,7 @@ uint32_t
 InputPortCount
 (
 )
+const
 {
 return
 mInputs
