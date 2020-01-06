@@ -355,9 +355,6 @@ WebSocket
 .
 Used
 in
-FlyWeb
-and
-in
 /
 /
 devtools
