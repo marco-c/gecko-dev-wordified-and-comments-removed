@@ -83,6 +83,11 @@ time
         
 imported_content
 =
+'
+%
+f
+'
+%
 time
 .
 time
