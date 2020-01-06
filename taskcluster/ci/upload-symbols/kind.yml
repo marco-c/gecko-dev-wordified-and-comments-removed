@@ -181,6 +181,12 @@ nightly
 /
 opt
 -
+win32
+-
+nightly
+/
+opt
+-
 win64
 -
 nightly
