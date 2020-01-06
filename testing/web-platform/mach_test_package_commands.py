@@ -4,6 +4,8 @@ import
 unicode_literals
 import
 os
+import
+sys
 from
 mach_commands_base
 import
@@ -466,8 +468,7 @@ geckodriver
 "
 )
         
-kwargs
-=
+return
 wptcommandline
 .
 check_args
