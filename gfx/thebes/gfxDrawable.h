@@ -578,6 +578,9 @@ gfxSurfaceDrawable
 >
 MakeSurfaceDrawable
 (
+gfxContext
+*
+aContext
 mozilla
 :
 :
