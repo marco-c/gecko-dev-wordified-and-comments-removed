@@ -3877,17 +3877,6 @@ Resource
 "
 ]
 "
-responsivedesign
-.
-jsm
-"
-:
-[
-"
-ResponsiveUIManager
-"
-]
-"
 rest
 .
 js

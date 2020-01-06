@@ -498,17 +498,13 @@ true
 ;
 loader
 .
-lazyImporter
+lazyRequireGetter
 (
 this
 "
 ResponsiveUIManager
 "
 "
-resource
-:
-/
-/
 devtools
 /
 client
@@ -516,8 +512,6 @@ client
 responsivedesign
 /
 responsivedesign
-.
-jsm
 "
 )
 ;
