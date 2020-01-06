@@ -138,6 +138,11 @@ DownloadLastDir
 jsm
 '
 '
+DownloadPaths
+.
+jsm
+'
+'
 DownloadUtils
 .
 jsm
