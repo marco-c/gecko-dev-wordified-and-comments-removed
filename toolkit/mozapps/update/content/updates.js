@@ -3063,8 +3063,6 @@ _setUpdateApplying
 return
 ;
 }
-else
-{
 gUpdates
 .
 wiz
@@ -3078,7 +3076,6 @@ finished
 ;
 return
 ;
-}
 }
 }
 if
