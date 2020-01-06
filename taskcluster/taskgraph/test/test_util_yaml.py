@@ -7,7 +7,7 @@ unicode_literals
 import
 unittest
 from
-taskgraph
+.
 .
 util
 import
@@ -15,7 +15,6 @@ yaml
 from
 mozunit
 import
-main
 MockedOpen
 FOO_YML
 =
@@ -99,16 +98,4 @@ val1
 '
 ]
 }
-)
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-    
-main
-(
 )

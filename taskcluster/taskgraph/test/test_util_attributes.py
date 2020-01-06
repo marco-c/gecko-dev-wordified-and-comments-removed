@@ -25,10 +25,6 @@ attrmatch
     
 match_run_on_projects
 )
-from
-mozunit
-import
-main
 class
 Attrmatch
 (
@@ -1097,16 +1093,4 @@ date
 '
 ]
 )
-)
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-    
-main
-(
 )
