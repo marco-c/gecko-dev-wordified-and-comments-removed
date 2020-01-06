@@ -121,7 +121,7 @@ nsTArray
 wr
 :
 :
-TextShadow
+Shadow
 >
 shadows
 ;
@@ -556,7 +556,7 @@ const
 wr
 :
 :
-TextShadow
+Shadow
 &
 aShadow
 )
@@ -1350,7 +1350,7 @@ const
 wr
 :
 :
-TextShadow
+Shadow
 &
 shadow
 :
@@ -1361,7 +1361,7 @@ shadows
 {
 aBuilder
 .
-PushTextShadow
+PushShadow
 (
 wrBoundsRect
 wrClipRect
@@ -1489,7 +1489,7 @@ i
 {
 aBuilder
 .
-PopTextShadow
+PopShadow
 (
 )
 ;
