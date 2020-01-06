@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsIDOMHTMLSourceElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -56,8 +49,6 @@ final
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLSourceElement
 {
 public
 :
@@ -89,7 +80,6 @@ NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 HTMLSourceElement
 source
 )
-NS_DECL_NSIDOMHTMLSOURCEELEMENT
 virtual
 nsresult
 Clone

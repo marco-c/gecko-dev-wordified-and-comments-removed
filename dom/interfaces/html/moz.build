@@ -169,11 +169,6 @@ nsIDOMHTMLSelectElement
 idl
 '
 '
-nsIDOMHTMLSourceElement
-.
-idl
-'
-'
 nsIDOMMozBrowserFrame
 .
 idl

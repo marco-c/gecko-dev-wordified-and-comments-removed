@@ -1,13 +1,6 @@
 #
 include
 "
-nsIDOMHTMLSourceElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
