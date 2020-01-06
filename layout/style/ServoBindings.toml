@@ -2944,6 +2944,9 @@ RawGeckoURLExtraData
 RawGeckoXBLBinding
 "
 "
+RawServoSelectorList
+"
+"
 RefPtr
 "
 "
@@ -3294,6 +3297,16 @@ RawServoStyleSet
 opaque
 =
 true
+}
+{
+name
+=
+"
+RawServoSelectorList
+"
+opaque
+=
+false
 }
 {
 name
