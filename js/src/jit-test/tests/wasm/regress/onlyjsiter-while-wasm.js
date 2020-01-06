@@ -9,7 +9,9 @@ evalInCooperativeThread
 undefined
 '
 )
-return
+quit
+(
+)
 ;
 try
 {
