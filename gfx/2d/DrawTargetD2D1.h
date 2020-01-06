@@ -1379,8 +1379,8 @@ mDependingOnTargets
 uint32_t
 mUsedCommandListsSincePurge
 ;
-bool
-mDidComplexBlendWithListInList
+uint32_t
+mComplexBlendsWithListInList
 ;
 static
 StaticRefPtr
