@@ -1448,7 +1448,7 @@ nsIAtom
 >
 Self
 {
-debug_assert
+assert
 !
 (
 !
@@ -2075,7 +2075,7 @@ nsIAtom
 >
 Atom
 {
-debug_assert
+assert
 !
 (
 !
