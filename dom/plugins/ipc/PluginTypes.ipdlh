@@ -130,9 +130,6 @@ nsCString
 extensions
 ;
 bool
-isJavaPlugin
-;
-bool
 isFlashPlugin
 ;
 bool

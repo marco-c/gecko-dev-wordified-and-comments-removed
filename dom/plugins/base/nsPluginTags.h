@@ -508,8 +508,6 @@ nsCString
 >
 aExtensions
 bool
-aIsJavaPlugin
-bool
 aIsFlashPlugin
 bool
 aSupportsAsyncRender
@@ -625,9 +623,6 @@ RefPtr
 nsNPAPIPlugin
 >
 mPlugin
-;
-bool
-mIsJavaPlugin
 ;
 bool
 mIsFlashPlugin
