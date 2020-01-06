@@ -353,7 +353,7 @@ ok
 (
 true
 "
-createdCallback
+connectedCallback
 called
 when
 reigsterElement
@@ -371,7 +371,7 @@ ok
 (
 canSeePrototype
 "
-createdCallback
+connectedCallback
 should
 be
 able
