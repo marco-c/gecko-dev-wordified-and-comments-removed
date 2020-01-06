@@ -126,9 +126,11 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+Core
 '
 '
-OriginAttributes
+DOM
+:
+Security
 '
 )
