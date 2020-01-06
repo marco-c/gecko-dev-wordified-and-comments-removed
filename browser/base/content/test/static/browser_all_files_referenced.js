@@ -1173,7 +1173,7 @@ gre
 /
 modules
 /
-Localization
+DOMLocalization
 .
 jsm
 "
