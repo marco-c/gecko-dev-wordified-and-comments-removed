@@ -7001,7 +7001,7 @@ void
 JS
 :
 :
-PokeGC
+NotifyGCRootsRemoved
 (
 JSContext
 *
@@ -7018,7 +7018,7 @@ runtime
 >
 gc
 .
-poke
+notifyRootsRemoved
 (
 )
 ;

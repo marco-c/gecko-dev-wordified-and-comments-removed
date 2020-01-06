@@ -1742,9 +1742,8 @@ runDebugGC
 (
 )
 ;
-inline
 void
-poke
+notifyRootsRemoved
 (
 )
 ;
@@ -4750,7 +4749,7 @@ ActiveThreadData
 <
 bool
 >
-poked
+rootsRemoved
 ;
 #
 ifdef

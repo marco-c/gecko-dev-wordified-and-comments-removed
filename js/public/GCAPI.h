@@ -132,7 +132,7 @@ DESTROY_RUNTIME
 \
 D
 (
-UNUSED0
+ROOTS_REMOVED
 )
 \
 D
@@ -1782,7 +1782,7 @@ JS_FRIEND_API
 (
 void
 )
-PokeGC
+NotifyGCRootsRemoved
 (
 JSContext
 *
