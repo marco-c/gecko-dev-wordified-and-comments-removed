@@ -59,9 +59,6 @@ class
 nsIURI
 ;
 class
-nsCString
-;
-class
 nsAboutCacheEntry
 final
 :

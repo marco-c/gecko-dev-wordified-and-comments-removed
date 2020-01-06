@@ -53,9 +53,6 @@ h
 class
 nsILoadContextInfo
 ;
-class
-nsACString
-;
 namespace
 mozilla
 {

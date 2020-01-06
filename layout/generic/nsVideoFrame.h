@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArrayForwardDeclare
 .
 h
@@ -55,9 +62,6 @@ LayerManager
 ;
 }
 }
-class
-nsAString
-;
 class
 nsPresContext
 ;

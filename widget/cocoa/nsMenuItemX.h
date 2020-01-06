@@ -35,6 +35,13 @@ nsChangeObserver
 h
 "
 #
+include
+"
+nsStringFwd
+.
+h
+"
+#
 import
 <
 Cocoa
@@ -43,9 +50,6 @@ Cocoa
 .
 h
 >
-class
-nsString
-;
 class
 nsMenuItemIconX
 ;

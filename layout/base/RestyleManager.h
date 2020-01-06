@@ -27,9 +27,13 @@ nsPresContext
 .
 h
 "
-class
-nsCString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsCSSFrameConstructor
 ;

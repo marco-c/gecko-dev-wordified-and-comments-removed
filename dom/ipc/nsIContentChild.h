@@ -27,6 +27,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArrayForwardDeclare
 .
 h
@@ -84,9 +91,6 @@ NS_ICONTENTCHILD_IID
 0xe4
 }
 }
-class
-nsString
-;
 namespace
 IPC
 {

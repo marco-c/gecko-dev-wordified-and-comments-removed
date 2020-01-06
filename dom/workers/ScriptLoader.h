@@ -18,6 +18,13 @@ nsIContentPolicy
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIPrincipal
 ;
@@ -29,9 +36,6 @@ nsIDocument
 ;
 class
 nsILoadGroup
-;
-class
-nsString
 ;
 class
 nsIChannel

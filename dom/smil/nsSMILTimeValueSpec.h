@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsReferencedElement
 .
 h
@@ -34,9 +41,6 @@ nsIDOMEventListener
 .
 h
 "
-class
-nsAString
-;
 class
 nsSMILTimeValue
 ;

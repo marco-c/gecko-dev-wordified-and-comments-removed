@@ -89,9 +89,6 @@ class
 nsIRequestObserver
 ;
 class
-nsString
-;
-class
 nsIURI
 ;
 class

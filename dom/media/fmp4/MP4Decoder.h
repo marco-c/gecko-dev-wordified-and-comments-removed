@@ -8,9 +8,13 @@ MP4Decoder_h_
 #
 define
 MP4Decoder_h_
-class
-nsACString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {

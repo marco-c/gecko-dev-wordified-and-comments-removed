@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -55,9 +62,6 @@ StaticPtr
 .
 h
 "
-class
-nsAString
-;
 class
 nsNameSpaceManager
 final

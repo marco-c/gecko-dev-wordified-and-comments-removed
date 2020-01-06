@@ -110,9 +110,13 @@ nsTArrayForwardDeclare
 .
 h
 "
-class
-nsCString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 %
 }
 [

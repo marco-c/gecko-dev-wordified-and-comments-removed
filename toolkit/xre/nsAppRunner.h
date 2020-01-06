@@ -68,6 +68,13 @@ endif
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -98,9 +105,6 @@ nsIProfileUnlocker
 ;
 class
 nsIFactory
-;
-class
-nsString
 ;
 extern
 nsXREDirProvider

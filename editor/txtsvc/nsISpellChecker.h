@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -75,9 +82,6 @@ af0cdd211868
 }
 class
 nsITextServicesDocument
-;
-class
-nsString
 ;
 class
 nsISpellChecker

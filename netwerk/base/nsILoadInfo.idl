@@ -169,9 +169,13 @@ LoadTainting
 .
 h
 "
-class
-nsCString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 %
 }
 [

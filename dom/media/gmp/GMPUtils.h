@@ -34,6 +34,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -64,9 +71,6 @@ host4
 "
 class
 nsIFile
-;
-class
-nsCString
 ;
 class
 nsISimpleEnumerator

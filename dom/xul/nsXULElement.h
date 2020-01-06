@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsStyledElement
 .
 h
@@ -187,9 +194,6 @@ h
 "
 class
 nsIDocument
-;
-class
-nsString
 ;
 class
 nsXULPrototypeDocument

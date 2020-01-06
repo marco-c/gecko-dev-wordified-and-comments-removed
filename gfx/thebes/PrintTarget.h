@@ -31,6 +31,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {

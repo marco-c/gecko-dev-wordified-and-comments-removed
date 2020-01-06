@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 plhash
 .
 h
@@ -46,9 +53,6 @@ nsIObserver
 .
 h
 "
-class
-nsCString
-;
 namespace
 mozilla
 {

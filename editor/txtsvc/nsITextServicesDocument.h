@@ -11,6 +11,13 @@ nsISupports
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIDOMDocument
 ;
@@ -19,9 +26,6 @@ nsIDOMRange
 ;
 class
 nsIEditor
-;
-class
-nsString
 ;
 class
 nsITextServicesFilter

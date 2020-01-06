@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -60,9 +67,6 @@ nsPIDOMWindow
 .
 h
 "
-class
-nsACString
-;
 class
 nsIPrincipal
 ;

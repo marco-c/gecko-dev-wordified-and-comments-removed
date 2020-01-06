@@ -42,9 +42,13 @@ nsIDOMTransitionEvent
 .
 h
 "
-class
-nsAString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {

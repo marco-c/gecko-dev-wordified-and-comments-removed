@@ -19,6 +19,13 @@ nsMenuBaseX
 h
 "
 #
+include
+"
+nsStringFwd
+.
+h
+"
+#
 import
 <
 Cocoa
@@ -29,9 +36,6 @@ h
 >
 class
 nsIContent
-;
-class
-nsString
 ;
 class
 nsMenuBarX

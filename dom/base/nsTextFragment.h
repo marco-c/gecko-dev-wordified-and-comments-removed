@@ -44,9 +44,6 @@ nsISupportsImpl
 h
 "
 class
-nsString
-;
-class
 nsTextFragment
 final
 {

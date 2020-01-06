@@ -26,6 +26,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsStringFwd
+.
+h
+"
+#
 define
 NS_DIALOGPARAMBLOCK_CID
 \
@@ -44,9 +51,6 @@ NS_DIALOGPARAMBLOCK_CID
 0x73
 }
 }
-class
-nsString
-;
 class
 nsDialogParamBlock
 :

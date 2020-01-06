@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -54,9 +61,6 @@ nsIDOMNode
 ;
 class
 nsINode
-;
-class
-nsString
 ;
 namespace
 mozilla

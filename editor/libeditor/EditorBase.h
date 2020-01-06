@@ -246,9 +246,6 @@ class
 nsRange
 ;
 class
-nsString
-;
-class
 nsTransactionManager
 ;
 enum

@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArrayForwardDeclare
 .
 h
@@ -45,9 +52,6 @@ h
 "
 class
 nsINode
-;
-class
-nsString
 ;
 namespace
 mozilla

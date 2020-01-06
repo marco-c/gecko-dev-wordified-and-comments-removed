@@ -64,9 +64,6 @@ nsISupports
 idl
 "
 interface
-nsAString
-;
-interface
 inISearchObserver
 ;
 [

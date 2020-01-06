@@ -4,9 +4,13 @@ nsHtml5ArrayCopy_h
 #
 define
 nsHtml5ArrayCopy_h
-class
-nsString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsHtml5StackNode
 ;

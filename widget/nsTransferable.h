@@ -49,9 +49,6 @@ h
 class
 nsIMutableArray
 ;
-class
-nsString
-;
 struct
 DataStruct
 {

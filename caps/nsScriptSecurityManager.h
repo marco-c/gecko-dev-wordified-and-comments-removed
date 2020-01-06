@@ -65,6 +65,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 plstr
 .
 h
@@ -85,9 +92,6 @@ stdint
 .
 h
 >
-class
-nsCString
-;
 class
 nsIIOService
 ;

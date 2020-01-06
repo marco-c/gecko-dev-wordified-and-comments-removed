@@ -38,9 +38,13 @@ nsINode
 .
 h
 "
-class
-nsAString
-;
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIAtom
 ;

@@ -108,6 +108,13 @@ C
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArrayForwardDeclare
 .
 h
@@ -119,9 +126,6 @@ T
 >
 class
 nsCOMArray
-;
-class
-nsCString
 ;
 %
 }
