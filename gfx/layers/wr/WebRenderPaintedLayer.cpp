@@ -665,7 +665,9 @@ mVisibleRegion
 ToUnknownRegion
 (
 )
-mValidRegion
+GetValidRegion
+(
+)
 )
 ;
 if

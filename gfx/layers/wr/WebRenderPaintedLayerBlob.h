@@ -215,16 +215,8 @@ Add
 aRegion
 )
 ;
-mValidRegion
-.
-Sub
+UpdateValidRegionAfterInvalidRegionChanged
 (
-mValidRegion
-mInvalidRegion
-.
-GetRegion
-(
-)
 )
 ;
 }

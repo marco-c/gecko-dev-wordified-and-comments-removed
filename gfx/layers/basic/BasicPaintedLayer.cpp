@@ -349,9 +349,7 @@ IsRetained
 )
 )
 {
-mValidRegion
-.
-SetEmpty
+ClearValidRegion
 (
 )
 ;
@@ -857,11 +855,8 @@ this
 flags
 )
 ;
-mValidRegion
-.
-Sub
+SubtractFromValidRegion
 (
-mValidRegion
 state
 .
 mRegionToInvalidate
