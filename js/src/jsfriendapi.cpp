@@ -6948,10 +6948,7 @@ stats
 gcstats
 :
 :
-PhaseKind
-:
-:
-TRACE_HEAP
+PHASE_TRACE_HEAP
 )
 ;
 rt
