@@ -3548,11 +3548,10 @@ mWaitingForKeyListener
 EncryptionInfo
 mPendingEncryptedInitData
 ;
-Watchable
-<
 bool
->
 mDownloadSuspendedByCache
+=
+false
 ;
 bool
 mDisableVideo
