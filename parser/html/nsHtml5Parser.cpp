@@ -2607,6 +2607,9 @@ if
 mBlocked
 |
 |
+mInsertionPointPermanentlyUndefined
+|
+|
 mExecutor
 -
 >
