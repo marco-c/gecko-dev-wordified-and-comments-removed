@@ -5357,11 +5357,6 @@ CascadeLevel
 :
 :
 UserImportant
-|
-CascadeLevel
-:
-:
-XBL
 =
 >
 {
@@ -5447,6 +5442,11 @@ CascadeLevel
 :
 :
 PresHints
+|
+CascadeLevel
+:
+:
+XBL
 |
 CascadeLevel
 :
