@@ -44502,9 +44502,6 @@ false
 endif
 #
 endif
-#
-ifdef
-RELEASE
 pref
 (
 "
@@ -44530,7 +44527,8 @@ false
 )
 ;
 #
-else
+ifdef
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
