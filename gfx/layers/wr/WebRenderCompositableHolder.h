@@ -606,6 +606,9 @@ mInitialised
 bool
 mIsChanged
 ;
+bool
+mUseExternalImage
+;
 LayerRect
 mScBounds
 ;

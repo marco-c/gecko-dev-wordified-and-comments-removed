@@ -84,6 +84,10 @@ mIsChanged
 (
 false
 )
+mUseExternalImage
+(
+false
+)
 mFilter
 (
 WrImageRendering
@@ -1515,6 +1519,13 @@ aHolder
 mKeys
 )
 ;
+aUseExternalImage
+=
+aHolder
+-
+>
+mUseExternalImage
+;
 return
 true
 ;
@@ -1556,6 +1567,11 @@ true
 ;
 }
 aUseExternalImage
+=
+aHolder
+-
+>
+mUseExternalImage
 =
 GetImageKeyForTextureHost
 (
