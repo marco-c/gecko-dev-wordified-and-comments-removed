@@ -2355,7 +2355,10 @@ destBufferRect
 }
 if
 (
-canReuseBuffer
+canKeepBufferContents
+&
+&
+mBuffer
 &
 &
 (
