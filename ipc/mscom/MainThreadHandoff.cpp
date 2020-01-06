@@ -2216,6 +2216,12 @@ GetHandlerPayloadSize
 (
 NotNull
 <
+IInterceptor
+*
+>
+aInterceptor
+NotNull
+<
 DWORD
 *
 >
@@ -2238,6 +2244,7 @@ mHandlerProvider
 >
 GetHandlerPayloadSize
 (
+aInterceptor
 aOutPayloadSize
 )
 ;
@@ -2248,6 +2255,12 @@ MainThreadHandoff
 :
 WriteHandlerPayload
 (
+NotNull
+<
+IInterceptor
+*
+>
+aInterceptor
 NotNull
 <
 IStream
@@ -2272,6 +2285,7 @@ mHandlerProvider
 >
 WriteHandlerPayload
 (
+aInterceptor
 aStream
 )
 ;
