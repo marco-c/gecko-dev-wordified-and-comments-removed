@@ -593,9 +593,6 @@ use
 webrender
 :
 :
-renderer
-:
-:
 RendererKind
 ;
 use
@@ -1005,9 +1002,6 @@ debug_flags
 webrender
 :
 :
-renderer
-:
-:
 DebugFlags
 :
 :
@@ -1020,9 +1014,6 @@ debug_flags
 set
 (
 webrender
-:
-:
-renderer
 :
 :
 PROFILER_DBG
