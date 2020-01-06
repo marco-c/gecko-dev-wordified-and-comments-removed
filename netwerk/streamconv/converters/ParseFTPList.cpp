@@ -185,6 +185,8 @@ list_result
 result
 PRTimeParamFn
 timeParam
+NowTimeFn
+nowTimeFn
 )
 {
 unsigned
@@ -8189,7 +8191,7 @@ state
 >
 now_time
 =
-PR_Now
+nowTimeFn
 (
 )
 ;
@@ -11466,7 +11468,7 @@ state
 >
 now_time
 =
-PR_Now
+nowTimeFn
 (
 )
 ;
