@@ -18,6 +18,8 @@ include_bytes
 /
 api
 /
+xml
+/
 gl
 .
 xml
@@ -41,6 +43,8 @@ include_bytes
 "
 .
 .
+/
+api_egl
 /
 api
 /
@@ -70,6 +74,8 @@ include_bytes
 /
 api
 /
+xml
+/
 wgl
 .
 xml
@@ -95,6 +101,8 @@ include_bytes
 .
 /
 api
+/
+xml
 /
 glx
 .

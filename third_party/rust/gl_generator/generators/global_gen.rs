@@ -280,7 +280,6 @@ never
 fn
 metaloadfn
 (
-mut
 loadfn
 :
 &
@@ -1764,13 +1763,9 @@ cmd_name
 :
 load_with
 (
-|
-s
-|
+&
+mut
 loadfn
-(
-s
-)
 )
 ;
 "
