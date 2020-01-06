@@ -94,6 +94,10 @@ PCacheStreamControl
 ;
 include
 protocol
+PClientManager
+;
+include
+protocol
 PFileDescriptorSet
 ;
 include
@@ -299,6 +303,9 @@ PCacheStorage
 ;
 manages
 PCacheStreamControl
+;
+manages
+PClientManager
 ;
 manages
 PFileDescriptorSet
@@ -545,6 +552,11 @@ PWebAuthnTransaction
 ;
 async
 PTemporaryIPCBlob
+(
+)
+;
+async
+PClientManager
 (
 )
 ;
