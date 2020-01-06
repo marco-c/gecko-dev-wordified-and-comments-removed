@@ -6569,11 +6569,11 @@ media
 .
 wmf
 .
-allow
--
-d3d11
--
 dxva
+.
+d3d11
+.
+enabled
 "
 PDMWMFAllowD3D11
 bool
@@ -6588,9 +6588,9 @@ media
 .
 wmf
 .
-max
--
 dxva
+.
+max
 -
 videos
 "
