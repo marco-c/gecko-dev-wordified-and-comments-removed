@@ -32,6 +32,12 @@ append
 TEST_FILE
 )
 ;
+dir
+.
+normalize
+(
+)
+;
 const
 uriString
 =
