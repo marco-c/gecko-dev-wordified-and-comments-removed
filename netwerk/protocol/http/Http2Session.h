@@ -32,6 +32,15 @@ h
 #
 include
 "
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
+include
+"
 nsAHttpConnection
 .
 h

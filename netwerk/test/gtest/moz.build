@@ -108,6 +108,11 @@ TestHttpAuthUtils
 cpp
 '
 '
+TestPartiallySeekableInputStream
+.
+cpp
+'
+'
 TestProtocolProxyService
 .
 cpp

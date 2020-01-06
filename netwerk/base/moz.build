@@ -904,6 +904,11 @@ MemoryDownloader
 h
 '
 '
+PartiallySeekableInputStream
+.
+h
+'
+'
 Predictor
 .
 h
@@ -1220,6 +1225,11 @@ cpp
 '
 '
 nsURLParsers
+.
+cpp
+'
+'
+PartiallySeekableInputStream
 .
 cpp
 '

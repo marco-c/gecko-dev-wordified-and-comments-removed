@@ -2809,6 +2809,12 @@ mChannelId
 uint32_t
 mLastRedirectFlags
 ;
+uint64_t
+mReqContentLength
+;
+bool
+mReqContentLengthDetermined
+;
 nsString
 mIntegrityMetadata
 ;
