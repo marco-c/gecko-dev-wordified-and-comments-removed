@@ -1184,6 +1184,11 @@ include_dirs
 :
 [
 '
+(
+MOZ_LIBEVENT_CFLAGS
+)
+'
+'
 <
 (
 libevent_dir
