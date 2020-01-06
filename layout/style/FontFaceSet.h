@@ -863,6 +863,11 @@ nsIPrincipal
 aPrincipal
 )
 ;
+bool
+GetPrivateBrowsing
+(
+)
+;
 nsresult
 SyncLoadFontData
 (
@@ -1101,9 +1106,6 @@ mDelayedLoadCheck
 ;
 bool
 mBypassCache
-;
-bool
-mPrivateBrowsing
 ;
 }
 ;
