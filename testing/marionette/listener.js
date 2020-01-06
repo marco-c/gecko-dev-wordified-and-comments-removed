@@ -4380,7 +4380,7 @@ action
 .
 Chain
 .
-fromJson
+fromJSON
 (
 msg
 .

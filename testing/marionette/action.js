@@ -2520,7 +2520,7 @@ InputState
 ;
 }
 static
-fromJson
+fromJSON
 (
 obj
 )
@@ -3101,7 +3101,7 @@ type
 ;
 }
 static
-fromJson
+fromJSON
 (
 actionSequence
 actionItem
@@ -3218,7 +3218,7 @@ action
 .
 PointerParameters
 .
-fromJson
+fromJSON
 (
 actionSequence
 .
@@ -3600,7 +3600,7 @@ toString
 ;
 }
 static
-fromJson
+fromJSON
 (
 actions
 )
@@ -3650,7 +3650,7 @@ action
 .
 Sequence
 .
-fromJson
+fromJSON
 (
 actionSequence
 )
@@ -3742,7 +3742,7 @@ toString
 ;
 }
 static
-fromJson
+fromJSON
 (
 actionSequence
 )
@@ -3752,7 +3752,7 @@ inputSourceState
 =
 InputState
 .
-fromJson
+fromJSON
 (
 actionSequence
 )
@@ -3933,7 +3933,7 @@ action
 .
 Action
 .
-fromJson
+fromJSON
 (
 actionSequence
 actionItem
@@ -3992,7 +3992,7 @@ pointerType
 ;
 }
 static
-fromJson
+fromJSON
 (
 parametersData
 )
