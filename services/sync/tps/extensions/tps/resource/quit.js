@@ -270,12 +270,13 @@ throw
 new
 Error
 (
-"
 goQuitApplication
 :
-"
-+
+{
 ex
+.
+message
+}
 )
 ;
 }

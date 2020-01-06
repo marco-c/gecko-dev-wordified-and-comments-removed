@@ -517,6 +517,8 @@ ex
 do_check_eq
 (
 error
+.
+message
 "
 No
 ciphertext
@@ -669,6 +671,8 @@ ex
 do_check_eq
 (
 error
+.
+message
 "
 Record
 id
@@ -738,6 +742,8 @@ ex
 do_check_eq
 (
 error
+.
+message
 .
 substr
 (
@@ -950,6 +956,8 @@ HMAC
 mismatch
 "
 err
+.
+message
 .
 substr
 (

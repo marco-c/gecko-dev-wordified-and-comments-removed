@@ -565,6 +565,9 @@ IN_PROGRESS
 )
 {
 throw
+new
+Error
+(
 "
 Can
 only
@@ -577,6 +580,7 @@ been
 sent
 .
 "
+)
 ;
 }
 this
@@ -639,6 +643,9 @@ NOT_SENT
 )
 {
 throw
+new
+Error
+(
 "
 Request
 has
@@ -647,6 +654,7 @@ been
 sent
 !
 "
+)
 ;
 }
 this

@@ -1379,11 +1379,15 @@ get
 )
 {
 throw
+new
+Error
+(
 "
 Sync
 this
 !
 "
+)
 ;
 }
 ;

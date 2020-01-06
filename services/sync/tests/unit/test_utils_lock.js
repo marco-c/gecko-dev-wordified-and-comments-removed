@@ -372,6 +372,8 @@ ex
 do_check_begins
 (
 ex
+.
+message
 "
 Could
 not

@@ -1762,6 +1762,9 @@ record
 )
 {
 throw
+new
+Error
+(
 "
 override
 create
@@ -1769,6 +1772,7 @@ in
 a
 subclass
 "
+)
 ;
 }
 async
@@ -1778,6 +1782,9 @@ record
 )
 {
 throw
+new
+Error
+(
 "
 override
 remove
@@ -1785,6 +1792,7 @@ in
 a
 subclass
 "
+)
 ;
 }
 async
@@ -1794,6 +1802,9 @@ record
 )
 {
 throw
+new
+Error
+(
 "
 override
 update
@@ -1801,6 +1812,7 @@ in
 a
 subclass
 "
+)
 ;
 }
 async
@@ -1810,6 +1822,9 @@ id
 )
 {
 throw
+new
+Error
+(
 "
 override
 itemExists
@@ -1817,6 +1832,7 @@ in
 a
 subclass
 "
+)
 ;
 }
 async
@@ -1827,6 +1843,9 @@ collection
 )
 {
 throw
+new
+Error
+(
 "
 override
 createRecord
@@ -1834,6 +1853,7 @@ in
 a
 subclass
 "
+)
 ;
 }
 async
@@ -1844,6 +1864,9 @@ newID
 )
 {
 throw
+new
+Error
+(
 "
 override
 changeItemID
@@ -1851,6 +1874,7 @@ in
 a
 subclass
 "
+)
 ;
 }
 async
@@ -1859,6 +1883,9 @@ getAllIDs
 )
 {
 throw
+new
+Error
+(
 "
 override
 getAllIDs
@@ -1866,6 +1893,7 @@ in
 a
 subclass
 "
+)
 ;
 }
 async
@@ -1874,6 +1902,9 @@ wipe
 )
 {
 throw
+new
+Error
+(
 "
 override
 wipe
@@ -1881,6 +1912,7 @@ in
 a
 subclass
 "
+)
 ;
 }
 }
@@ -3067,6 +3099,9 @@ _sync
 )
 {
 throw
+new
+Error
+(
 "
 engine
 does
@@ -3075,6 +3110,7 @@ implement
 _sync
 method
 "
+)
 ;
 }
 return
@@ -3110,6 +3146,9 @@ _resetClient
 )
 {
 throw
+new
+Error
+(
 "
 engine
 does
@@ -3118,6 +3157,7 @@ implement
 _resetClient
 method
 "
+)
 ;
 }
 return

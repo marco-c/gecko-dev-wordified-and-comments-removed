@@ -388,6 +388,9 @@ id
 )
 {
 throw
+new
+Error
+(
 "
 No
 ID
@@ -395,6 +398,7 @@ for
 ServerWBO
 !
 "
+)
 ;
 }
 this
@@ -2552,6 +2556,9 @@ break
 default
 :
 throw
+new
+Error
+(
 "
 Non
 -
@@ -2560,6 +2567,7 @@ on
 info_collections
 .
 "
+)
 ;
 }
 response
@@ -4922,6 +4930,9 @@ resp
 default
 :
 throw
+new
+Error
+(
 "
 Request
 method
@@ -4936,6 +4947,7 @@ not
 implemented
 .
 "
+)
 ;
 }
 }
