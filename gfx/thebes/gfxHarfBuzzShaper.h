@@ -75,6 +75,7 @@ gfx
 :
 DrawTarget
 *
+MOZ_NON_OWNING_REF
 mDrawTarget
 ;
 }

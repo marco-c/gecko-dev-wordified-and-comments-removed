@@ -303,6 +303,7 @@ protected
 :
 gfxCharacterMap
 *
+MOZ_NON_OWNING_REF
 mCharMap
 ;
 }

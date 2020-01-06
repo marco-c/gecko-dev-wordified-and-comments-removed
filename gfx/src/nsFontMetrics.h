@@ -587,6 +587,7 @@ mLanguage
 ;
 nsDeviceContext
 *
+MOZ_NON_OWNING_REF
 mDeviceContext
 ;
 int32_t

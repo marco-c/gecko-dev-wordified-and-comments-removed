@@ -1225,6 +1225,15 @@ true
 ;
 gfxFont
 *
+MOZ_UNSAFE_REF
+(
+"
+tracking
+for
+deferred
+deletion
+"
+)
 mFont
 ;
 }

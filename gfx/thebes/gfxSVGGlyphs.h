@@ -370,6 +370,7 @@ mSVGData
 ;
 gfxFontEntry
 *
+MOZ_NON_OWNING_REF
 mFontEntry
 ;
 const

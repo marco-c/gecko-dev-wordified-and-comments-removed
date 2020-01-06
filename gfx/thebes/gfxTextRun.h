@@ -2347,6 +2347,7 @@ mUserData
 ;
 gfxFontGroup
 *
+MOZ_OWNING_REF
 mFontGroup
 ;
 gfxSkipChars
@@ -3493,10 +3494,12 @@ union
 {
 gfxFont
 *
+MOZ_OWNING_REF
 mFont
 ;
 gfxFontEntry
 *
+MOZ_OWNING_REF
 mFontEntry
 ;
 }
