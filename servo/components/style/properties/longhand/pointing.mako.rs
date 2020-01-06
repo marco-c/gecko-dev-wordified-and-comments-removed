@@ -198,6 +198,21 @@ cfg_attr
 feature
 =
 "
+gecko
+"
+derive
+(
+MallocSizeOf
+)
+)
+]
+#
+[
+cfg_attr
+(
+feature
+=
+"
 servo
 "
 derive
@@ -265,6 +280,7 @@ derive
 (
 Clone
 Debug
+MallocSizeOf
 PartialEq
 ToComputedValue
 )
@@ -305,6 +321,7 @@ derive
 (
 Clone
 Debug
+MallocSizeOf
 PartialEq
 ToComputedValue
 )
