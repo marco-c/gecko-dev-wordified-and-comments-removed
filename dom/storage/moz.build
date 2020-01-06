@@ -223,7 +223,7 @@ IPDL_SOURCES
 =
 [
 '
-PStorage
+PBackgroundStorage
 .
 ipdl
 '

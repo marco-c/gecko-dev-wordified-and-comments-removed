@@ -1061,6 +1061,12 @@ indexedDB
 /
 dom
 /
+storage
+'
+'
+/
+dom
+/
 workers
 '
 '

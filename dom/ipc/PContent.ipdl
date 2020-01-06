@@ -224,10 +224,6 @@ PSpeechSynthesis
 ;
 include
 protocol
-PStorage
-;
-include
-protocol
 PTestShell
 ;
 include
@@ -1441,9 +1437,6 @@ PParentToChildStream
 ;
 manages
 PSpeechSynthesis
-;
-manages
-PStorage
 ;
 manages
 PTestShell
@@ -3806,15 +3799,6 @@ PChildToParentStream
 ;
 async
 PSpeechSynthesis
-(
-)
-;
-nested
-(
-inside_cpow
-)
-async
-PStorage
 (
 )
 ;

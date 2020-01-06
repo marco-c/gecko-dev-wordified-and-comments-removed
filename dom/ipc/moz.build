@@ -670,12 +670,6 @@ security
 /
 dom
 /
-storage
-'
-'
-/
-dom
-/
 workers
 '
 '
