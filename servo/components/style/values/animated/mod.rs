@@ -1649,7 +1649,11 @@ ComputedBorderCornerRadius
 :
 new
 (
+(
 animated
+.
+0
+)
 .
 0
 .
@@ -1658,7 +1662,11 @@ width
 clamp_to_non_negative
 (
 )
+(
 animated
+.
+0
+)
 .
 0
 .

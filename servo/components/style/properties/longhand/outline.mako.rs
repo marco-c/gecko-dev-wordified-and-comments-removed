@@ -598,14 +598,10 @@ BorderCornerRadius
 computed
 :
 :
-LengthOrPercentage
+BorderCornerRadius
 :
 :
 zero
-(
-)
-.
-into
 (
 )
 "

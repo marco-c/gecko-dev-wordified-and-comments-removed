@@ -247,6 +247,7 @@ border
 BorderImageSideWidth
 BorderRadius
 BorderSideWidth
+BorderSpacing
 }
 ;
 pub
