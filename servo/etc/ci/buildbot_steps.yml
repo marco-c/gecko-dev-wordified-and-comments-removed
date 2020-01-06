@@ -814,9 +814,6 @@ zlib
 lib
 /
 pkgconfig
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -826,9 +823,6 @@ build
 dev
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -837,9 +831,6 @@ test
 unit
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -849,9 +840,6 @@ package
 dev
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -1440,9 +1428,6 @@ self
 test
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -1452,9 +1437,6 @@ build
 dev
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -1463,9 +1445,6 @@ test
 compiletest
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -1474,9 +1453,6 @@ test
 unit
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -1486,9 +1462,6 @@ package
 dev
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -1497,9 +1470,6 @@ build
 cef
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -1988,9 +1958,6 @@ keep
 force
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 ANDROID_SDK
 =
 /
@@ -2019,9 +1986,6 @@ android
 dev
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 ANDROID_SDK
 =
 /
@@ -2101,9 +2065,6 @@ keep
 force
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 ANDROID_SDK
 =
 /
@@ -2132,9 +2093,6 @@ android
 release
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 ANDROID_SDK
 =
 /
@@ -2187,9 +2145,6 @@ keep
 force
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
@@ -2248,9 +2203,6 @@ keep
 force
 -
 env
-SERVO_RUSTC_LLVM_ASSERTIONS
-=
-1
 .
 /
 mach
