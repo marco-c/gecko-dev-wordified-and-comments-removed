@@ -1209,7 +1209,7 @@ assertEquals
 6
 recordsChannel
 .
-getStoreCount
+getStoreAttemptedCount
 (
 )
 )
@@ -1314,7 +1314,7 @@ assertTrue
 (
 recordsChannel
 .
-getStoreCount
+getStoreAttemptedCount
 (
 )
 <
@@ -1421,7 +1421,7 @@ assertTrue
 (
 recordsChannel
 .
-getStoreCount
+getStoreAttemptedCount
 (
 )
 <
@@ -1573,7 +1573,7 @@ assertTrue
 (
 recordsChannel
 .
-getStoreCount
+getStoreAttemptedCount
 (
 )
 <
@@ -1732,7 +1732,7 @@ size
 )
 recordsChannel
 .
-getStoreCount
+getStoreAttemptedCount
 (
 )
 )
@@ -1987,7 +1987,7 @@ size
 )
 recordsChannel
 .
-getStoreCount
+getStoreAttemptedCount
 (
 )
 )
@@ -2095,7 +2095,7 @@ size
 )
 recordsChannel
 .
-getStoreCount
+getStoreAttemptedCount
 (
 )
 )

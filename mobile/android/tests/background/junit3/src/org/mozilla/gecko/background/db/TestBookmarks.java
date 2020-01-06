@@ -4540,6 +4540,16 @@ guid
 Override
 public
 void
+onRecordStoreReconciled
+(
+String
+guid
+)
+{
+}
+Override
+public
+void
 onStoreFailed
 (
 Exception

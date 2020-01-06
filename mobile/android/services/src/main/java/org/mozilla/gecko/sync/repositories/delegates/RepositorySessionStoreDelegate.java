@@ -34,6 +34,13 @@ recordGuid
 )
 ;
 void
+onRecordStoreReconciled
+(
+String
+guid
+)
+;
+void
 onRecordStoreSucceeded
 (
 String
