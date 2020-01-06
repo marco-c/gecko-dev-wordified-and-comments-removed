@@ -1115,7 +1115,12 @@ POST
 "
 body
 :
+JSON
+.
+stringify
+(
 fakePingJSON
+)
 }
 )
 ;

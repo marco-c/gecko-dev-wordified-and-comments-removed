@@ -101,6 +101,10 @@ set
 Components
 :
 {
+classes
+:
+{
+}
 interfaces
 :
 {
@@ -221,6 +225,11 @@ removeObserver
 prefs
 :
 {
+getStringPref
+(
+)
+{
+}
 getDefaultBranch
 (
 )

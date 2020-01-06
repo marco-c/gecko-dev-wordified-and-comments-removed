@@ -14,12 +14,12 @@ Components
 ;
 const
 {
-actionTypes
-:
-at
 actionCreators
 :
 ac
+actionTypes
+:
+at
 }
 =
 Cu
