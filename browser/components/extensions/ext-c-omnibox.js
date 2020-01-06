@@ -62,7 +62,7 @@ childManager
 callParentFunctionNoReturn
 (
 "
-omnibox_internal
+omnibox
 .
 addSuggestions
 "
@@ -84,7 +84,7 @@ childManager
 getParentEvent
 (
 "
-omnibox_internal
+omnibox
 .
 onInputChanged
 "
@@ -108,7 +108,7 @@ childManager
 getParentEvent
 (
 "
-omnibox_internal
+omnibox
 .
 onInputChanged
 "
