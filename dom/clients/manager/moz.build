@@ -124,6 +124,11 @@ ClientOpPromise
 h
 '
 '
+ClientSource
+.
+h
+'
+'
 ClientState
 .
 h
@@ -220,6 +225,11 @@ cpp
 '
 '
 ClientOpenWindowOpParent
+.
+cpp
+'
+'
+ClientSource
 .
 cpp
 '
