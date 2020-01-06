@@ -85,6 +85,13 @@ h
 #
 include
 "
+nsIImageLoadingContent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

@@ -685,16 +685,6 @@ ImageLoadType
 aImageLoadType
 )
 ;
-void
-SetBlockedRequest
-(
-nsIURI
-*
-aURI
-int16_t
-aContentDecision
-)
-;
 RefPtr
 <
 imgRequestProxy
