@@ -6355,10 +6355,6 @@ ErrorResult
 aRv
 )
 {
-mConsumeType
-=
-aType
-;
 if
 (
 BodyUsed
@@ -6379,6 +6375,10 @@ return
 nullptr
 ;
 }
+mConsumeType
+=
+aType
+;
 SetBodyUsed
 (
 )
