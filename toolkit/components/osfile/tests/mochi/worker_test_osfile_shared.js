@@ -105,8 +105,6 @@ kind
 is
 "
 outcome
-:
-outcome
 description
 :
 "
@@ -153,8 +151,6 @@ kind
 "
 isnot
 "
-outcome
-:
 outcome
 description
 :

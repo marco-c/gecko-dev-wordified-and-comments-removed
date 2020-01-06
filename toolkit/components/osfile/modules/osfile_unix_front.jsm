@@ -136,9 +136,6 @@ _init
 (
 )
 ;
-let
-LOG
-=
 SharedAll
 .
 LOG
@@ -667,7 +664,6 @@ modificationDate
 {
 let
 {
-value
 ptr
 }
 =
@@ -1559,17 +1555,6 @@ true
 )
 {
 let
-chunk_size
-=
-Math
-.
-min
-(
-nbytes
-bufSize
-)
-;
-let
 bytes_just_read
 =
 read
@@ -1985,9 +1970,6 @@ let
 source
 dest
 ;
-let
-result
-;
 try
 {
 source
@@ -2051,8 +2033,6 @@ options
 unixUserland
 )
 {
-result
-=
 pump_userland
 (
 source
@@ -2063,8 +2043,6 @@ options
 }
 else
 {
-result
-=
 pump
 (
 source
@@ -3571,7 +3549,6 @@ modificationDate
 {
 let
 {
-value
 ptr
 }
 =
@@ -3913,8 +3890,6 @@ curDir
 "
 {
 set
-:
-function
 (
 path
 )
@@ -3928,8 +3903,6 @@ path
 ;
 }
 get
-:
-function
 (
 )
 {

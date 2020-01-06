@@ -111,9 +111,6 @@ jsm
 "
 )
 ;
-let
-LOG
-=
 SharedAll
 .
 LOG
@@ -231,8 +228,6 @@ Win
 File
 =
 {
-Type
-:
 Type
 }
 ;

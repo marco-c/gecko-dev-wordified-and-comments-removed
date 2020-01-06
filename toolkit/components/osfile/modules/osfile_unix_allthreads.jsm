@@ -148,9 +148,6 @@ require
 )
 ;
 }
-var
-LOG
-=
 SharedAll
 .
 LOG

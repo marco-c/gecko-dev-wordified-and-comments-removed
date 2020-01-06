@@ -2911,8 +2911,6 @@ consoleListener
 =
 {
 observe
-:
-function
 (
 aMessage
 )
@@ -2979,9 +2977,6 @@ true
 consoleListener
 )
 ;
-let
-fileExists
-=
 await
 OS
 .
