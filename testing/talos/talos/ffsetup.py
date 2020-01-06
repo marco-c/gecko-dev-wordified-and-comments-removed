@@ -640,6 +640,14 @@ develop
 or
 \
            
+'
+try
+'
+in
+str
+.
+lower
+(
 self
 .
 browser_config
@@ -648,11 +656,7 @@ browser_config
 branch_name
 '
 ]
-=
-=
-'
-Try
-'
+)
 :
             
 extensions
