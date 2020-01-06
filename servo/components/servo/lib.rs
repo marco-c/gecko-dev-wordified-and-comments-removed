@@ -1198,6 +1198,11 @@ create_api
 )
 ;
 let
+wr_document_layer
+=
+0
+;
+let
 webrender_document
 =
 webrender_api
@@ -1209,6 +1214,7 @@ window
 framebuffer_size
 (
 )
+wr_document_layer
 )
 ;
 script
