@@ -151,11 +151,6 @@ PublicKeyCredential
 h
 '
 '
-ScopedCredential
-.
-h
-'
-'
 U2FSoftTokenManager
 .
 h
@@ -227,11 +222,6 @@ cpp
 '
 '
 PublicKeyCredential
-.
-cpp
-'
-'
-ScopedCredential
 .
 cpp
 '
