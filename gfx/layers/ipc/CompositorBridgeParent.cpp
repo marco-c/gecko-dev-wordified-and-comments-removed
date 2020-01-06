@@ -7402,6 +7402,10 @@ SetLayerManager
 mLayerManager
 )
 ;
+ScheduleComposition
+(
+)
+;
 }
 parent
 =
