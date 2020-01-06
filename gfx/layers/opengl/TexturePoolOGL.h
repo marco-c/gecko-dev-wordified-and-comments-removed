@@ -56,6 +56,14 @@ Shutdown
 (
 )
 ;
+private
+:
+static
+void
+MaybeFillTextures
+(
+)
+;
 }
 ;
 }
