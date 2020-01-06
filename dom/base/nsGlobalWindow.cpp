@@ -19773,6 +19773,9 @@ return
 }
 if
 (
+mTopInnerWindow
+&
+&
 !
 IsTopInnerWindow
 (
@@ -19873,6 +19876,9 @@ return
 }
 if
 (
+mTopInnerWindow
+&
+&
 !
 IsTopInnerWindow
 (
