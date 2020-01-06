@@ -1052,6 +1052,14 @@ execute_async_script
 except
 errors
 .
+NoSuchWindowException
+:
+                
+break
+            
+except
+errors
+.
 ScriptTimeoutException
 :
                 
@@ -1103,7 +1111,7 @@ self
 .
 logger
 .
-error
+warning
 (
 traceback
 .
