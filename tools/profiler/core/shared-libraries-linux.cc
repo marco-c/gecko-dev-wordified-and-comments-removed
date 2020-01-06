@@ -1076,10 +1076,10 @@ lib
 GetNativeDebugPath
 (
 )
-=
-=
-"
-"
+.
+empty
+(
+)
 )
 {
 lib
