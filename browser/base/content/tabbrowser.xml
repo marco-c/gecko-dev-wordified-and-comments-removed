@@ -22414,7 +22414,7 @@ this
 .
 tabContainer
 .
-mTabstrip
+arrowScrollbox
 .
 _updateScrollButtonsDisabledState
 (
@@ -43545,7 +43545,7 @@ field
 name
 =
 "
-mTabstrip
+arrowScrollbox
 "
 >
 document
@@ -43830,11 +43830,11 @@ return
 ;
 }
 let
-tabstripWidth
+arrowScrollboxWidth
 =
 this
 .
-mTabstrip
+arrowScrollbox
 .
 clientWidth
 ;
@@ -43966,7 +43966,7 @@ overflow
 .
 if
 (
-tabstripWidth
+arrowScrollboxWidth
 -
 tabbarUsedSpace
 >
@@ -45560,7 +45560,7 @@ true
 )
 this
 .
-mTabstrip
+arrowScrollbox
 .
 ensureElementIsVisible
 (
@@ -45845,7 +45845,7 @@ isEndTab
 !
 this
 .
-mTabstrip
+arrowScrollbox
 .
 _scrollButtonDown
 .
@@ -46545,11 +46545,11 @@ layoutData
 )
 {
 let
-tabstrip
+arrowScrollbox
 =
 this
 .
-mTabstrip
+arrowScrollbox
 ;
 layoutData
 =
@@ -46574,7 +46574,7 @@ getBoundingClientRect
 width
 scrollButtonWidth
 :
-tabstrip
+arrowScrollbox
 .
 _scrollButtonDown
 .
@@ -47042,7 +47042,7 @@ translateX
 =
 this
 .
-mTabstrip
+arrowScrollbox
 .
 _scrollbox
 .
@@ -47850,7 +47850,7 @@ _animateElement
 >
 this
 .
-mTabstrip
+arrowScrollbox
 .
 _scrollButtonDown
 ;
@@ -47901,7 +47901,7 @@ scrollRect
 =
 this
 .
-mTabstrip
+arrowScrollbox
 .
 scrollClientRect
 ;
@@ -47976,7 +47976,7 @@ if
 (
 this
 .
-mTabstrip
+arrowScrollbox
 .
 smoothScroll
 )
@@ -48050,7 +48050,7 @@ width
 {
 this
 .
-mTabstrip
+arrowScrollbox
 .
 ensureElementIsVisible
 (
@@ -48062,13 +48062,13 @@ return
 }
 this
 .
-mTabstrip
+arrowScrollbox
 .
 scrollByPixels
 (
 this
 .
-mTabstrip
+arrowScrollbox
 .
 _isRTLScrollbox
 ?
@@ -48884,7 +48884,7 @@ overflowed
 .
 this
 .
-mTabstrip
+arrowScrollbox
 .
 _updateScrollButtonsDisabledState
 (
@@ -51208,7 +51208,7 @@ scrollX
 :
 this
 .
-mTabstrip
+arrowScrollbox
 .
 _scrollbox
 .
@@ -51302,11 +51302,11 @@ stopPropagation
 )
 ;
 var
-tabStrip
+arrowScrollbox
 =
 this
 .
-mTabstrip
+arrowScrollbox
 ;
 var
 ltr
@@ -51412,7 +51412,7 @@ up
 :
 pixelsToScroll
 =
-tabStrip
+arrowScrollbox
 .
 scrollIncrement
 *
@@ -51430,7 +51430,7 @@ down
 :
 pixelsToScroll
 =
-tabStrip
+arrowScrollbox
 .
 scrollIncrement
 ;
@@ -51441,7 +51441,7 @@ if
 (
 pixelsToScroll
 )
-tabStrip
+arrowScrollbox
 .
 scrollByPixels
 (
@@ -51586,7 +51586,7 @@ return
 var
 rect
 =
-tabStrip
+arrowScrollbox
 .
 getBoundingClientRect
 (
@@ -51627,7 +51627,7 @@ scrolling
 let
 scrollRect
 =
-tabStrip
+arrowScrollbox
 .
 scrollClientRect
 ;
@@ -52737,7 +52737,7 @@ bo
 =
 this
 .
-mTabstrip
+arrowScrollbox
 .
 boxObject
 ;
@@ -57144,7 +57144,7 @@ nsIDOMWindowUtils
 )
 ;
 let
-tabstripRect
+arrowScrollboxRect
 =
 windowUtils
 .
@@ -57152,7 +57152,7 @@ getBoundsWithoutFlushing
 (
 tabContainer
 .
-mTabstrip
+arrowScrollbox
 )
 ;
 for
@@ -57213,7 +57213,7 @@ curTabRect
 left
 >
 =
-tabstripRect
+arrowScrollboxRect
 .
 left
 &
@@ -57223,7 +57223,7 @@ curTabRect
 right
 <
 =
-tabstripRect
+arrowScrollboxRect
 .
 right
 )

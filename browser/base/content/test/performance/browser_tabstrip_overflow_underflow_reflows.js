@@ -162,7 +162,7 @@ gBrowser
 .
 tabContainer
 .
-mTabstrip
+arrowScrollbox
 .
 hasAttribute
 (

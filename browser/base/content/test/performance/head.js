@@ -803,7 +803,7 @@ gBrowser
 .
 tabContainer
 .
-mTabstrip
+arrowScrollbox
 .
 getBoundingClientRect
 (
