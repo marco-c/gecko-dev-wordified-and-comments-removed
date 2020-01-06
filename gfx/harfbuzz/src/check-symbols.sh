@@ -116,6 +116,7 @@ grep
 [
 BCDGINRSTVW
 ]
+.
 '
 |
 grep

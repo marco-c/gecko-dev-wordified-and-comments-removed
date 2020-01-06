@@ -142,6 +142,7 @@ grep
 [
 BCDGINRSTVW
 ]
+.
 '
 |
 grep
