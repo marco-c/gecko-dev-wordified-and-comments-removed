@@ -349,7 +349,7 @@ class
 IncrementalFinalizeRunnable
 :
 public
-CancelableRunnable
+Runnable
 {
 typedef
 AutoTArray
