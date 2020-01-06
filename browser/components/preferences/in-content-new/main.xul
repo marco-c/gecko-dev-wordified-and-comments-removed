@@ -2860,6 +2860,11 @@ tr
 html
 :
 tr
+class
+=
+"
+tableGroup
+"
 >
 <
 html
@@ -3008,6 +3013,11 @@ tr
 html
 :
 tr
+class
+=
+"
+tableSubGroup
+"
 >
 <
 html
@@ -6649,10 +6659,6 @@ label
 label
 >
 <
-separator
-/
->
-<
 hbox
 align
 =
@@ -7960,10 +7966,6 @@ vbox
 >
 #
 endif
-<
-separator
-/
->
 #
 ifdef
 MOZ_UPDATER
