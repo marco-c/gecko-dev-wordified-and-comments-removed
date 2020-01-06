@@ -158,12 +158,6 @@ LOCAL_INCLUDES
 /
 workers
 '
-'
-/
-netwerk
-/
-base
-'
 ]
 MOCHITEST_MANIFESTS
 +
