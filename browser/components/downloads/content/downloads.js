@@ -2393,7 +2393,7 @@ downloadsHistory
 )
 ;
 }
-onDataLoadStarting
+onDownloadBatchStarting
 (
 )
 {
@@ -2402,7 +2402,7 @@ DownloadsCommon
 log
 (
 "
-onDataLoadStarting
+onDownloadBatchStarting
 called
 for
 DownloadsView
@@ -2417,7 +2417,7 @@ loading
 true
 ;
 }
-onDataLoadCompleted
+onDownloadBatchEnded
 (
 )
 {
@@ -2426,7 +2426,7 @@ DownloadsCommon
 log
 (
 "
-onDataLoadCompleted
+onDownloadBatchEnded
 called
 for
 DownloadsView

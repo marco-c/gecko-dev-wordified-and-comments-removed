@@ -4300,12 +4300,7 @@ firstDownloadElement
 }
 }
 }
-onDataLoadStarting
-(
-)
-{
-}
-onDataLoadCompleted
+onDownloadBatchEnded
 (
 )
 {
