@@ -16600,6 +16600,8 @@ GetHoverGeneration
 ;
 nsEventStatus
 status
+=
+nsEventStatus_eIgnore
 ;
 nsView
 *
