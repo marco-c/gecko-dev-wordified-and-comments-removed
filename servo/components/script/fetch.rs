@@ -521,6 +521,11 @@ redirect_mode
 request
 .
 redirect_mode
+cache_mode
+:
+request
+.
+cache_mode
 .
 .
 NetTraitsRequestInit
