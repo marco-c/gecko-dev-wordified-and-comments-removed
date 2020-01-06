@@ -13,7 +13,7 @@ version
 .
 2
 .
-1
+2
 "
 #
 :
@@ -127,6 +127,15 @@ inputs
 "
 "
 "
+categories
+=
+[
+"
+text
+-
+processing
+"
+]
 [
 dependencies
 ]
@@ -216,7 +225,7 @@ version
 .
 4
 .
-0
+1
 "
 }
 #

@@ -348,7 +348,7 @@ regex
 /
 regex
 /
-enum
+struct
 .
 Regex
 .
@@ -525,6 +525,7 @@ assert_eq
 "
 2010
 "
+&
 caps
 [
 "
@@ -539,6 +540,7 @@ assert_eq
 "
 03
 "
+&
 caps
 [
 "
@@ -553,6 +555,7 @@ assert_eq
 "
 14
 "
+&
 caps
 [
 "

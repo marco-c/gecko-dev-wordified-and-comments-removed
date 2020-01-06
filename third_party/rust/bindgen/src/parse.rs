@@ -275,7 +275,7 @@ BindgenContext
 ItemId
 ;
 fn
-named_type
+type_param
 (
 with_id
 :

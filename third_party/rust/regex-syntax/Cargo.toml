@@ -15,7 +15,7 @@ version
 .
 4
 .
-0
+1
 "
 #
 :
@@ -114,6 +114,9 @@ dependencies
 ]
 quickcheck
 =
+{
+version
+=
 "
 0
 .
@@ -121,6 +124,12 @@ quickcheck
 .
 1
 "
+default
+-
+features
+=
+false
+}
 rand
 =
 "

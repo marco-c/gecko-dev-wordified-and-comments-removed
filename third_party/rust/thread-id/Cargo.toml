@@ -13,7 +13,7 @@ version
 "
 3
 .
-0
+1
 .
 0
 "
@@ -35,6 +35,8 @@ com
 license
 =
 "
+MIT
+/
 Apache
 -
 2
