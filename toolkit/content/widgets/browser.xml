@@ -1470,7 +1470,9 @@ this
 .
 _sameProcessAsFrameLoader
 =
-Cu
+Components
+.
+utils
 .
 getWeakReference
 (
