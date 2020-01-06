@@ -375,6 +375,7 @@ elementId
 )
 ;
 [
+CEReactions
 NewObject
 Throws
 ]
@@ -393,6 +394,7 @@ options
 )
 ;
 [
+CEReactions
 NewObject
 Throws
 ]
