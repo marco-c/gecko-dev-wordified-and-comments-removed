@@ -746,16 +746,6 @@ flex
 "
 )
 ;
-view
-.
-setAttribute
-(
-"
-extension
-"
-true
-)
-;
 document
 .
 getElementById
