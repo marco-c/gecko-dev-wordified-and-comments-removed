@@ -5083,6 +5083,8 @@ windows10
 64
 .
 *
+/
+debug
 :
 buildbot
 -
@@ -5107,6 +5109,11 @@ android
 *
 :
 10
+windows
+.
+*
+:
+8
 default
 :
 3
