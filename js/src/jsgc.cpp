@@ -21547,6 +21547,13 @@ waitBackgroundSweepEnd
 (
 )
 ;
+{
+AutoLockGC
+lock
+(
+runtime
+)
+;
 for
 (
 auto
@@ -21557,6 +21564,7 @@ gc
 >
 allNonEmptyChunks
 (
+lock
 )
 ;
 !
@@ -21641,6 +21649,7 @@ entry
 )
 return
 ;
+}
 }
 WeakMapSet
 markedWeakMaps
@@ -21950,6 +21959,12 @@ reset
 (
 )
 ;
+AutoLockGC
+lock
+(
+runtime
+)
+;
 for
 (
 auto
@@ -21960,6 +21975,7 @@ gc
 >
 allNonEmptyChunks
 (
+lock
 )
 ;
 !
@@ -22249,6 +22265,13 @@ setMarkColorBlack
 )
 ;
 }
+{
+AutoLockGC
+lock
+(
+runtime
+)
+;
 for
 (
 auto
@@ -22259,6 +22282,7 @@ gc
 >
 allNonEmptyChunks
 (
+lock
 )
 ;
 !
@@ -22309,6 +22333,7 @@ entry
 bitmap
 )
 ;
+}
 }
 for
 (
@@ -22529,6 +22554,15 @@ waitBackgroundSweepEnd
 (
 )
 ;
+AutoLockGC
+lock
+(
+gc
+-
+>
+rt
+)
+;
 for
 (
 auto
@@ -22539,6 +22573,7 @@ gc
 >
 allNonEmptyChunks
 (
+lock
 )
 ;
 !
