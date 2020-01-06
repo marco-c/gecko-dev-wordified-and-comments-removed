@@ -3030,6 +3030,16 @@ mOpenParams
 localFile
 )
 ;
+if
+(
+!
+file
+)
+{
+return
+NS_ERROR_NOT_INITIALIZED
+;
+}
 nsresult
 rv
 =
