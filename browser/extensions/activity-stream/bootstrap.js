@@ -564,6 +564,7 @@ if
 data
 =
 =
+=
 ACTIVITY_STREAM_ENABLED_PREF
 )
 {

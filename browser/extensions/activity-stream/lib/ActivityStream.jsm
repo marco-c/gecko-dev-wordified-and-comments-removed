@@ -33,6 +33,9 @@ jsm
 ;
 const
 {
+actionCreators
+:
+ac
 actionTypes
 :
 at
@@ -1744,7 +1747,7 @@ data
 "
 value
 :
-false
+true
 }
 {
 name
@@ -1980,6 +1983,10 @@ store
 .
 dispatch
 (
+ac
+.
+BroadcastToContent
+(
 {
 type
 :
@@ -1998,6 +2005,7 @@ options
 version
 }
 }
+)
 )
 ;
 this

@@ -165,6 +165,16 @@ FakePrefs
 Services
 :
 {
+telemetry
+:
+{
+canRecordBase
+:
+true
+canRecordExtended
+:
+true
+}
 locale
 :
 {
