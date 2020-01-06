@@ -8196,12 +8196,6 @@ destroy
 (
 )
 ;
-IntentHelper
-.
-destroy
-(
-)
-;
 GeckoNetworkManager
 .
 destroy
