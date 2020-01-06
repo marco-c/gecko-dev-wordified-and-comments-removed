@@ -209,8 +209,6 @@ init
 (
 )
 ;
-default
-:
 break
 ;
 }
