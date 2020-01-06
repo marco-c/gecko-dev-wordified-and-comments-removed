@@ -296,8 +296,6 @@ dom
 :
 GamepadHand
 aHand
-uint32_t
-aDisplayID
 )
 ;
 void
