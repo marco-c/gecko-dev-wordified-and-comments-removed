@@ -502,6 +502,17 @@ kwargs
 leak_check
 "
 ]
+            
+"
+stylo_threads
+"
+:
+kwargs
+[
+"
+stylo_threads
+"
+]
 }
 def
 executor_kwargs
@@ -920,6 +931,9 @@ None
 leak_check
 =
 False
+stylo_threads
+=
+1
 )
 :
         
@@ -1064,6 +1078,12 @@ self
 leak_check
 =
 leak_check
+        
+self
+.
+stylo_threads
+=
+stylo_threads
     
 def
 settings
@@ -1152,6 +1172,20 @@ MOZ_DISABLE_NONLOCAL_CONNECTIONS
 "
 1
 "
+        
+env
+[
+"
+STYLO_THREADS
+"
+]
+=
+str
+(
+self
+.
+stylo_threads
+)
         
 locations
 =
