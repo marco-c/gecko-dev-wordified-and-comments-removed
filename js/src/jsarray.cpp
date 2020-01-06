@@ -9894,13 +9894,13 @@ hasDefined
 {
 if
 (
+!
+IsCallable
+(
 args
 [
 0
 ]
-.
-isPrimitive
-(
 )
 )
 {
