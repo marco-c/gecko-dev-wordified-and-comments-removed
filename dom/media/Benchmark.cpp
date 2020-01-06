@@ -159,7 +159,7 @@ VP9Benchmark
 :
 sBenchmarkVersionID
 =
-2
+3
 ;
 const
 char
