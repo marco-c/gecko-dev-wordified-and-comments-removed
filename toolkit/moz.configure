@@ -5906,6 +5906,7 @@ clang
 -
 path
 '
+host
 )
 imports
 (
@@ -5928,6 +5929,7 @@ bindgen_enabled
 llvm_config
 libclang_path
 clang_path
+host
 )
 :
 if
@@ -5978,6 +5980,21 @@ libclang_path
 invoke_llvm_config
 (
 llvm_config
+'
+-
+-
+bindir
+'
+if
+host
+.
+os
+=
+=
+'
+WINNT
+'
+else
 '
 -
 -
