@@ -11590,11 +11590,11 @@ return
 emit3
 (
 op
-ARGC_HI
+ARGC_LO
 (
 argc
 )
-ARGC_LO
+ARGC_HI
 (
 argc
 )
@@ -12400,11 +12400,11 @@ if
 emit3
 (
 op
-UINT16_HI
+UINT16_LO
 (
 operand
 )
-UINT16_LO
+UINT16_HI
 (
 operand
 )
