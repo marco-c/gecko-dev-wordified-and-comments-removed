@@ -1147,6 +1147,11 @@ Dir
 (
 _
 )
+|
+NonTSPseudoClass
+:
+:
+MozIsHTML
 )
 }
 pub
