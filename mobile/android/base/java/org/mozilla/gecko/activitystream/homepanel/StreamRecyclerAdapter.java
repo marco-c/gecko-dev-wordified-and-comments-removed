@@ -177,7 +177,7 @@ homepanel
 .
 stream
 .
-HighlightsTitle
+HighlightsTitleRow
 ;
 import
 org
@@ -743,13 +743,13 @@ getViewType
 {
 return
 new
-HighlightsTitle
+HighlightsTitleRow
 (
 inflater
 .
 inflate
 (
-HighlightsTitle
+HighlightsTitleRow
 .
 LAYOUT_ID
 parent
