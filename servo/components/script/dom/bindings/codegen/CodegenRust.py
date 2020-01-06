@@ -43751,7 +43751,7 @@ dom
 bindings
 :
 :
-interface
+htmlconstructor
 :
 :
 html_constructor
@@ -43777,7 +43777,7 @@ dom
 bindings
 :
 :
-interface
+htmlconstructor
 :
 :
 pop_current_element_queue
@@ -43790,7 +43790,7 @@ dom
 bindings
 :
 :
-interface
+htmlconstructor
 :
 :
 push_new_element_queue
