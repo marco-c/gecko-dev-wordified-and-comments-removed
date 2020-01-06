@@ -723,10 +723,6 @@ const
 AutoLockHelperThreadState
 &
 lock
-bool
-assumeThreadAvailable
-=
-false
 )
 ;
 bool
@@ -1389,14 +1385,6 @@ CompileTask
 )
 ;
 }
-bool
-handleWasmIdleWorkload
-(
-AutoLockHelperThreadState
-&
-locked
-)
-;
 ParseTask
 *
 parseTask
@@ -1532,10 +1520,6 @@ handleWasmWorkload
 AutoLockHelperThreadState
 &
 locked
-bool
-assumeThreadAvailable
-=
-false
 )
 ;
 void
