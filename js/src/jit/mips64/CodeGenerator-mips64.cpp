@@ -4327,7 +4327,7 @@ as_ext
 (
 ScratchRegister
 ScratchRegister
-16
+6
 1
 )
 ;
@@ -4463,7 +4463,7 @@ as_ext
 (
 ScratchRegister
 ScratchRegister
-16
+6
 1
 )
 ;
@@ -4590,7 +4590,7 @@ as_ext
 (
 output
 output
-16
+6
 1
 )
 ;
