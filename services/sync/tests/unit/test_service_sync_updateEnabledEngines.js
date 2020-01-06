@@ -451,7 +451,12 @@ identity
 syncKeyBundle
 )
 ;
-return
+let
+{
+success
+}
+=
+await
 serverKeys
 .
 upload
@@ -465,8 +470,11 @@ Service
 cryptoKeysURL
 )
 )
-.
+;
+ok
+(
 success
+)
 ;
 }
 const
