@@ -2835,7 +2835,9 @@ SendReceive
 CheckKeys
 (
 ssl_kea_dh
+ssl_grp_ffdhe_2048
 ssl_auth_rsa_sign
+ssl_sig_rsa_pss_sha256
 )
 ;
 Reset
@@ -2910,7 +2912,7 @@ CheckKeys
 ssl_kea_dh
 ssl_grp_ffdhe_2048
 ssl_auth_rsa_sign
-ssl_sig_none
+ssl_sig_rsa_pss_sha256
 )
 ;
 ASSERT_LT

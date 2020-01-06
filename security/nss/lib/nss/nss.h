@@ -32,9 +32,12 @@ NSS_VERSION
 "
 3
 .
-33
+34
 "
 _NSS_CUSTOMIZED
+"
+Beta
+"
 #
 define
 NSS_VMAJOR
@@ -42,7 +45,7 @@ NSS_VMAJOR
 #
 define
 NSS_VMINOR
-33
+34
 #
 define
 NSS_VPATCH
@@ -54,7 +57,7 @@ NSS_VBUILD
 #
 define
 NSS_BETA
-PR_FALSE
+PR_TRUE
 #
 ifndef
 RC_INVOKED
@@ -406,6 +409,10 @@ NSS_DTLS_VERSION_MIN_POLICY
 define
 NSS_DTLS_VERSION_MAX_POLICY
 0x00b
+#
+define
+__NSS_PKCS12_DECODE_FORCE_UNICODE
+0x00c
 SECStatus
 NSS_OptionSet
 (

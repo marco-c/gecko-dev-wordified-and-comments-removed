@@ -62,6 +62,7 @@ nullptr
 )
 {
 }
+virtual
 ~
 AeadCipher
 (

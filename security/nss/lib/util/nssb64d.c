@@ -844,6 +844,9 @@ i
 PR_ASSERT
 (
 (
+PRUint32
+)
+(
 out
 -
 data

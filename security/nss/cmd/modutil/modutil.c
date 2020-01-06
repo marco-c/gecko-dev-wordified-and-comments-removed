@@ -4628,6 +4628,12 @@ break
 case
 CREATE_COMMAND
 :
+errcode
+=
+InitPW
+(
+)
+;
 break
 ;
 case

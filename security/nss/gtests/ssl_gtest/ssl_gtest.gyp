@@ -204,6 +204,11 @@ ssl_hrr_unittest
 cc
 '
 '
+ssl_keylog_unittest
+.
+cc
+'
+'
 ssl_loopback_unittest
 .
 cc

@@ -581,6 +581,12 @@ authType
 SSLSignatureScheme
 signatureScheme
 ;
+SSLNamedGroup
+originalKeaGroup
+;
+PRBool
+resumed
+;
 }
 SSLChannelInfo
 ;

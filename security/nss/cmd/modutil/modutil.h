@@ -152,6 +152,12 @@ ListModules
 )
 ;
 Error
+InitPW
+(
+void
+)
+;
+Error
 ChangePW
 (
 char

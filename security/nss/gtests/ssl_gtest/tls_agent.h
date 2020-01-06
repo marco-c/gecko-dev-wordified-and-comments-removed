@@ -510,6 +510,14 @@ kea_size
 const
 ;
 void
+CheckOriginalKEA
+(
+SSLNamedGroup
+kea_group
+)
+const
+;
+void
 CheckAuthType
 (
 SSLAuthType
