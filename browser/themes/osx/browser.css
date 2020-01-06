@@ -2337,6 +2337,17 @@ none
 ;
 }
 #
+main
+-
+window
+:
+not
+(
+[
+customizing
+]
+)
+#
 back
 -
 button
@@ -2377,7 +2388,7 @@ opacity
 :
 0
 .
-4
+28
 ;
 }
 .
