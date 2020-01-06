@@ -607,6 +607,12 @@ ref
 black140x100
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 poster
@@ -635,6 +641,12 @@ ref
 black140x100
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 poster
