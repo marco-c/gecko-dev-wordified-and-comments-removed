@@ -2150,12 +2150,14 @@ aBorder
 )
 {
 int32_t
-aPixelsToTwips
+d2a
 =
-nsPresContext
-:
-:
-AppUnitsPerCSSPixel
+PresContext
+(
+)
+-
+>
+AppUnitsPerDevPixel
 (
 )
 ;
@@ -2195,7 +2197,7 @@ aWM
 =
 BC_BORDER_END_HALF_COORD
 (
-aPixelsToTwips
+d2a
 mBStartContBorderWidth
 )
 ;
@@ -2208,7 +2210,7 @@ aWM
 =
 BC_BORDER_START_HALF_COORD
 (
-aPixelsToTwips
+d2a
 mBEndContBorderWidth
 )
 ;
