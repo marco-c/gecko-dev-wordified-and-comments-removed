@@ -184,13 +184,6 @@ mPrincipal
 ;
 }
 void
-NotifyDataLength
-(
-int64_t
-aLength
-)
-;
-void
 NotifyDataStarted
 (
 uint32_t
@@ -199,6 +192,8 @@ int64_t
 aOffset
 bool
 aSeekable
+int64_t
+aLength
 )
 ;
 void
