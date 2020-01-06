@@ -41,8 +41,13 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 SharedSSLState
 )
+explicit
 SharedSSLState
 (
+uint32_t
+aTlsFlags
+=
+0
 )
 ;
 static
