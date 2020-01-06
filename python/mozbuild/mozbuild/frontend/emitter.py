@@ -5775,7 +5775,6 @@ canonical_suffix
 ]
                     
 if
-(
 variable
 .
 startswith
@@ -5784,14 +5783,6 @@ startswith
 UNIFIED_
 '
 )
-and
-                            
-'
-FILES_PER_UNIFIED_FILE
-'
-in
-context
-)
 :
                         
 arglist
@@ -5799,11 +5790,14 @@ arglist
 append
 (
 context
-[
+.
+get
+(
 '
 FILES_PER_UNIFIED_FILE
 '
-]
+16
+)
 )
                     
 obj
