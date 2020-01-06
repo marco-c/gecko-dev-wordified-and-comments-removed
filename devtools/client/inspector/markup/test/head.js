@@ -63,7 +63,11 @@ clipboard
 require
 (
 "
-sdk
+devtools
+/
+shared
+/
+platform
 /
 clipboard
 "
@@ -1223,7 +1227,7 @@ true
 {
 clipboard
 .
-set
+copyString
 (
 "
 <
@@ -1234,9 +1238,6 @@ test
 /
 p
 >
-"
-"
-html
 "
 )
 ;
@@ -1417,7 +1418,7 @@ true
 {
 clipboard
 .
-set
+copyString
 (
 "
 <
@@ -1428,9 +1429,6 @@ test
 /
 p
 >
-"
-"
-html
 "
 )
 ;

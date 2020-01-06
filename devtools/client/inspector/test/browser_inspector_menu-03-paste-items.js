@@ -121,7 +121,11 @@ clipboard
 require
 (
 "
-sdk
+devtools
+/
+shared
+/
+platform
 /
 clipboard
 "
@@ -200,7 +204,7 @@ works
 ;
 clipboard
 .
-set
+copyString
 (
 "
 this
@@ -338,7 +342,7 @@ includes
 (
 clipboard
 .
-get
+getText
 (
 )
 )
@@ -406,7 +410,7 @@ works
 ;
 clipboard
 .
-set
+copyString
 (
 "
 this
@@ -556,7 +560,7 @@ getInnerHTML
 =
 clipboard
 .
-get
+getText
 (
 )
 "
@@ -725,7 +729,7 @@ clipboardData
 ;
 clipboard
 .
-set
+copyString
 (
 clipboardData
 )

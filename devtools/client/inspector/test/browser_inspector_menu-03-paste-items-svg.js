@@ -111,7 +111,11 @@ clipboard
 require
 (
 "
-sdk
+devtools
+/
+shared
+/
+platform
 /
 clipboard
 "
@@ -268,7 +272,7 @@ clipboardData
 ;
 clipboard
 .
-set
+copyString
 (
 clipboardData
 )
