@@ -14914,9 +14914,10 @@ GetTransform
 item
 -
 >
-~
-nsDisplayTransform
+Destroy
 (
+&
+builder
 )
 ;
 builder
