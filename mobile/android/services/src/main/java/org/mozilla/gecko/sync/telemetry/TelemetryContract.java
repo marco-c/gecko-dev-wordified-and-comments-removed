@@ -84,6 +84,16 @@ took
 "
 ;
 public
+final
+static
+String
+KEY_RESTARTED
+=
+"
+restarted
+"
+;
+public
 static
 final
 String

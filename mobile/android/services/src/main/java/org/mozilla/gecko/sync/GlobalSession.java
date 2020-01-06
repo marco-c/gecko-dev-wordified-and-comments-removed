@@ -2027,6 +2027,12 @@ restart
 throws
 AlreadySyncingException
 {
+telemetryCollector
+.
+setRestarted
+(
+)
+;
 this
 .
 currentState
