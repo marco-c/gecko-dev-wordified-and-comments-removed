@@ -162,9 +162,17 @@ MOZ_EXTERN_C
 MFBT_API
 #
 if
+(
 defined
 (
 XP_WIN
+)
+|
+|
+defined
+(
+XP_DARWIN
+)
 )
 #
 if
