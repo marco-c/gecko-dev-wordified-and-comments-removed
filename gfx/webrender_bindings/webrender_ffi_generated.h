@@ -2645,7 +2645,7 @@ WrState
 *
 aState
 LayoutRect
-aRect
+aClipRect
 const
 WrComplexClipRegion
 *
