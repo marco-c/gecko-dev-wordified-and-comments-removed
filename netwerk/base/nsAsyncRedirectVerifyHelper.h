@@ -126,6 +126,9 @@ nsIChannel
 newChan
 uint32_t
 flags
+nsIEventTarget
+*
+mainThreadEventTarget
 bool
 synchronize
 =

@@ -4272,6 +4272,9 @@ nsIChannel
 newChan
 uint32_t
 flags
+nsIEventTarget
+*
+mainThreadEventTarget
 )
 {
 RefPtr
@@ -4294,6 +4297,7 @@ Init
 oldChan
 newChan
 flags
+mainThreadEventTarget
 )
 ;
 }
