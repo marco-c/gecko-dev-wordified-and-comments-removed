@@ -301,7 +301,7 @@ aRecorder
 {
 dt
 =
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 aRecorder
 dt
@@ -530,7 +530,7 @@ DrawTarget
 >
 dt
 =
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 aRecorder
 mRefDT
@@ -620,7 +620,7 @@ DrawTarget
 PrintTarget
 :
 :
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 DrawEventRecorder
 *
@@ -659,7 +659,7 @@ gfx
 Factory
 :
 :
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 aRecorder
 aDrawTarget

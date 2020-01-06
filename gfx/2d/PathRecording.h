@@ -526,6 +526,10 @@ private
 :
 friend
 class
+DrawTargetWrapAndRecord
+;
+friend
+class
 DrawTargetRecording
 ;
 friend

@@ -236,7 +236,7 @@ already_AddRefed
 <
 DrawTarget
 >
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 DrawEventRecorder
 *

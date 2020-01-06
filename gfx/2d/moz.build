@@ -191,6 +191,11 @@ DrawTargetTiled
 h
 '
 '
+DrawTargetWrapAndRecord
+.
+h
+'
+'
 Filters
 .
 h
@@ -1083,6 +1088,11 @@ cpp
 '
 '
 DrawTargetTiled
+.
+cpp
+'
+'
+DrawTargetWrapAndRecord
 .
 cpp
 '

@@ -201,7 +201,7 @@ aRecorder
 {
 dt
 =
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 aRecorder
 dt
@@ -335,7 +335,7 @@ DrawTarget
 >
 dt
 =
-CreateRecordingDrawTarget
+CreateWrapAndRecordDrawTarget
 (
 aRecorder
 mRefDT

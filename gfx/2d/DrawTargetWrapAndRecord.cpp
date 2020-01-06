@@ -1,7 +1,7 @@
 #
 include
 "
-DrawTargetRecording
+DrawTargetWrapAndRecord
 .
 h
 "
@@ -63,7 +63,7 @@ namespace
 gfx
 {
 struct
-RecordingSourceSurfaceUserData
+WrapAndRecordSourceSurfaceUserData
 {
 void
 *
@@ -78,20 +78,20 @@ recorder
 }
 ;
 void
-RecordingSourceSurfaceUserDataFunc
+WrapAndRecordSourceSurfaceUserDataFunc
 (
 void
 *
 aUserData
 )
 {
-RecordingSourceSurfaceUserData
+WrapAndRecordSourceSurfaceUserData
 *
 userData
 =
 static_cast
 <
-RecordingSourceSurfaceUserData
+WrapAndRecordSourceSurfaceUserData
 *
 >
 (
@@ -153,7 +153,7 @@ userData
 }
 static
 void
-StoreSourceSurfaceRecording
+StoreSourceSurface
 (
 DrawEventRecorderPrivate
 *
@@ -323,7 +323,7 @@ GetFormat
 }
 static
 void
-EnsureSurfaceStoredRecording
+EnsureSurfaceStored
 (
 DrawEventRecorderPrivate
 *
@@ -364,7 +364,7 @@ GetDataSurface
 (
 )
 ;
-StoreSourceSurfaceRecording
+StoreSourceSurface
 (
 aRecorder
 aSurface
@@ -388,12 +388,12 @@ AddSourceSurface
 aSurface
 )
 ;
-RecordingSourceSurfaceUserData
+WrapAndRecordSourceSurfaceUserData
 *
 userData
 =
 new
-RecordingSourceSurfaceUserData
+WrapAndRecordSourceSurfaceUserData
 ;
 userData
 -
@@ -424,14 +424,14 @@ aRecorder
 )
 userData
 &
-RecordingSourceSurfaceUserDataFunc
+WrapAndRecordSourceSurfaceUserDataFunc
 )
 ;
 return
 ;
 }
 class
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 :
 public
 SourceSurface
@@ -440,9 +440,9 @@ public
 :
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 )
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 (
 SourceSurface
 *
@@ -471,7 +471,7 @@ this
 ;
 }
 ~
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 (
 )
 {
@@ -574,7 +574,7 @@ mRecorder
 }
 ;
 class
-GradientStopsRecording
+GradientStopsWrapAndRecord
 :
 public
 GradientStops
@@ -583,9 +583,9 @@ public
 :
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
-GradientStopsRecording
+GradientStopsWrapAndRecord
 )
-GradientStopsRecording
+GradientStopsWrapAndRecord
 (
 GradientStops
 *
@@ -614,7 +614,7 @@ this
 ;
 }
 ~
-GradientStopsRecording
+GradientStopsWrapAndRecord
 (
 )
 {
@@ -669,7 +669,7 @@ mRecorder
 static
 SourceSurface
 *
-GetSourceSurfaceRecording
+GetSourceSurface
 (
 SourceSurface
 *
@@ -699,7 +699,7 @@ aSurface
 return
 static_cast
 <
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 *
 >
 (
@@ -713,7 +713,7 @@ mFinalSurface
 static
 GradientStops
 *
-GetGradientStopsRecording
+GetGradientStops
 (
 GradientStops
 *
@@ -743,7 +743,7 @@ aStops
 return
 static_cast
 <
-GradientStopsRecording
+GradientStopsWrapAndRecord
 *
 >
 (
@@ -755,7 +755,7 @@ mFinalGradientStops
 ;
 }
 class
-FilterNodeRecording
+FilterNodeWrapAndRecord
 :
 public
 FilterNode
@@ -764,7 +764,7 @@ public
 :
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
-FilterNodeRecording
+FilterNodeWrapAndRecord
 override
 )
 using
@@ -773,7 +773,7 @@ FilterNode
 :
 SetAttribute
 ;
-FilterNodeRecording
+FilterNodeWrapAndRecord
 (
 FilterNode
 *
@@ -802,7 +802,7 @@ this
 ;
 }
 ~
-FilterNodeRecording
+FilterNodeWrapAndRecord
 (
 )
 {
@@ -873,7 +873,7 @@ aNode
 return
 static_cast
 <
-FilterNodeRecording
+FilterNodeWrapAndRecord
 *
 >
 (
@@ -896,7 +896,7 @@ aSurface
 )
 override
 {
-EnsureSurfaceStoredRecording
+EnsureSurfaceStored
 (
 mRecorder
 aSurface
@@ -924,7 +924,7 @@ mFinalFilterNode
 SetInput
 (
 aIndex
-GetSourceSurfaceRecording
+GetSourceSurface
 (
 aSurface
 )
@@ -1199,10 +1199,10 @@ mRecorder
 }
 ;
 struct
-AdjustedPatternRecording
+AdjustedPattern
 {
 explicit
-AdjustedPatternRecording
+AdjustedPattern
 (
 const
 Pattern
@@ -1229,7 +1229,7 @@ aPattern
 ;
 }
 ~
-AdjustedPatternRecording
+AdjustedPattern
 (
 )
 {
@@ -1301,7 +1301,7 @@ mSurfPat
 )
 SurfacePattern
 (
-GetSourceSurfaceRecording
+GetSourceSurface
 (
 surfPat
 -
@@ -1366,7 +1366,7 @@ linGradPat
 -
 >
 mEnd
-GetGradientStopsRecording
+GetGradientStops
 (
 linGradPat
 -
@@ -1427,7 +1427,7 @@ radGradPat
 -
 >
 mRadius2
-GetGradientStopsRecording
+GetGradientStops
 (
 radGradPat
 -
@@ -1513,10 +1513,10 @@ mPattern
 ;
 }
 ;
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
-DrawTargetRecording
+DrawTargetWrapAndRecord
 (
 DrawEventRecorder
 *
@@ -1602,13 +1602,13 @@ GetFormat
 )
 ;
 }
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
-DrawTargetRecording
+DrawTargetWrapAndRecord
 (
 const
-DrawTargetRecording
+DrawTargetWrapAndRecord
 *
 aDT
 DrawTarget
@@ -1661,11 +1661,11 @@ GetFormat
 )
 ;
 }
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 ~
-DrawTargetRecording
+DrawTargetWrapAndRecord
 (
 )
 {
@@ -1682,7 +1682,7 @@ this
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 FillRect
@@ -1727,7 +1727,7 @@ FillRect
 (
 aRect
 *
-AdjustedPatternRecording
+AdjustedPattern
 (
 aPattern
 )
@@ -1736,7 +1736,7 @@ aOptions
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 StrokeRect
@@ -1786,7 +1786,7 @@ StrokeRect
 (
 aRect
 *
-AdjustedPatternRecording
+AdjustedPattern
 (
 aPattern
 )
@@ -1796,7 +1796,7 @@ aOptions
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 StrokeLine
@@ -1852,7 +1852,7 @@ StrokeLine
 aBegin
 aEnd
 *
-AdjustedPatternRecording
+AdjustedPattern
 (
 aPattern
 )
@@ -1862,7 +1862,7 @@ aOptions
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 Fill
@@ -1885,7 +1885,7 @@ RefPtr
 <
 PathRecording
 >
-pathRecording
+pathWrapAndRecord
 =
 EnsurePathStored
 (
@@ -1905,7 +1905,7 @@ RecordEvent
 RecordedFill
 (
 this
-pathRecording
+pathWrapAndRecord
 aPattern
 aOptions
 )
@@ -1916,12 +1916,12 @@ mFinalDT
 >
 Fill
 (
-pathRecording
+pathWrapAndRecord
 -
 >
 mPath
 *
-AdjustedPatternRecording
+AdjustedPattern
 (
 aPattern
 )
@@ -1930,7 +1930,7 @@ aOptions
 ;
 }
 struct
-RecordingFontUserData
+WrapAndRecordFontUserData
 {
 void
 *
@@ -1945,20 +1945,20 @@ recorder
 }
 ;
 void
-RecordingFontUserDataDestroyFunc
+WrapAndRecordFontUserDataDestroyFunc
 (
 void
 *
 aUserData
 )
 {
-RecordingFontUserData
+WrapAndRecordFontUserData
 *
 userData
 =
 static_cast
 <
-RecordingFontUserData
+WrapAndRecordFontUserData
 *
 >
 (
@@ -2005,7 +2005,7 @@ userData
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 FillGlyphs
@@ -2187,7 +2187,7 @@ gfxWarning
 <
 <
 "
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 FillGlyphs
@@ -2220,12 +2220,12 @@ unscaledFont
 )
 )
 ;
-RecordingFontUserData
+WrapAndRecordFontUserData
 *
 userData
 =
 new
-RecordingFontUserData
+WrapAndRecordFontUserData
 ;
 userData
 -
@@ -2249,7 +2249,7 @@ AddUserData
 userDataKey
 userData
 &
-RecordingFontUserDataDestroyFunc
+WrapAndRecordFontUserDataDestroyFunc
 )
 ;
 userData
@@ -2292,7 +2292,7 @@ FillGlyphs
 aFont
 aBuffer
 *
-AdjustedPatternRecording
+AdjustedPattern
 (
 aPattern
 )
@@ -2302,7 +2302,7 @@ aRenderingOptions
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 Mask
@@ -2351,12 +2351,12 @@ mFinalDT
 Mask
 (
 *
-AdjustedPatternRecording
+AdjustedPattern
 (
 aSource
 )
 *
-AdjustedPatternRecording
+AdjustedPattern
 (
 aMask
 )
@@ -2365,7 +2365,7 @@ aOptions
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 MaskSurface
@@ -2390,7 +2390,7 @@ EnsurePatternDependenciesStored
 aSource
 )
 ;
-EnsureSurfaceStoredRecording
+EnsureSurfaceStored
 (
 mRecorder
 aMask
@@ -2420,11 +2420,11 @@ mFinalDT
 MaskSurface
 (
 *
-AdjustedPatternRecording
+AdjustedPattern
 (
 aSource
 )
-GetSourceSurfaceRecording
+GetSourceSurface
 (
 aMask
 )
@@ -2434,7 +2434,7 @@ aOptions
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 Stroke
@@ -2461,7 +2461,7 @@ RefPtr
 <
 PathRecording
 >
-pathRecording
+pathWrapAndRecord
 =
 EnsurePathStored
 (
@@ -2481,7 +2481,7 @@ RecordEvent
 RecordedStroke
 (
 this
-pathRecording
+pathWrapAndRecord
 aPattern
 aStrokeOptions
 aOptions
@@ -2493,12 +2493,12 @@ mFinalDT
 >
 Stroke
 (
-pathRecording
+pathWrapAndRecord
 -
 >
 mPath
 *
-AdjustedPatternRecording
+AdjustedPattern
 (
 aPattern
 )
@@ -2511,7 +2511,7 @@ already_AddRefed
 <
 SourceSurface
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 Snapshot
@@ -2538,7 +2538,7 @@ SourceSurface
 retSurf
 =
 new
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 (
 surf
 mRecorder
@@ -2568,7 +2568,7 @@ already_AddRefed
 <
 SourceSurface
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 IntoLuminanceSource
@@ -2601,7 +2601,7 @@ SourceSurface
 retSurf
 =
 new
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 (
 surf
 mRecorder
@@ -2630,7 +2630,7 @@ forget
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 DetachAllSnapshots
@@ -2646,7 +2646,7 @@ DetachAllSnapshots
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 DrawSurface
@@ -2672,7 +2672,7 @@ DrawOptions
 aOptions
 )
 {
-EnsureSurfaceStoredRecording
+EnsureSurfaceStored
 (
 mRecorder
 aSurface
@@ -2702,7 +2702,7 @@ mFinalDT
 >
 DrawSurface
 (
-GetSourceSurfaceRecording
+GetSourceSurface
 (
 aSurface
 )
@@ -2714,7 +2714,7 @@ aOptions
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 DrawSurfaceWithShadow
@@ -2740,7 +2740,7 @@ CompositionOp
 aOp
 )
 {
-EnsureSurfaceStoredRecording
+EnsureSurfaceStored
 (
 mRecorder
 aSurface
@@ -2771,7 +2771,7 @@ mFinalDT
 >
 DrawSurfaceWithShadow
 (
-GetSourceSurfaceRecording
+GetSourceSurface
 (
 aSurface
 )
@@ -2784,7 +2784,7 @@ aOp
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 DrawFilter
@@ -2837,7 +2837,7 @@ mFinalDT
 >
 DrawFilter
 (
-FilterNodeRecording
+FilterNodeWrapAndRecord
 :
 :
 GetFilterNode
@@ -2854,7 +2854,7 @@ already_AddRefed
 <
 FilterNode
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 CreateFilter
@@ -2884,7 +2884,7 @@ FilterNode
 retNode
 =
 new
-FilterNodeRecording
+FilterNodeWrapAndRecord
 (
 node
 mRecorder
@@ -2911,7 +2911,7 @@ forget
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 ClearRect
@@ -2944,7 +2944,7 @@ aRect
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 CopySurface
@@ -2962,7 +2962,7 @@ IntPoint
 aDestination
 )
 {
-EnsureSurfaceStoredRecording
+EnsureSurfaceStored
 (
 mRecorder
 aSurface
@@ -2990,7 +2990,7 @@ mFinalDT
 >
 CopySurface
 (
-GetSourceSurfaceRecording
+GetSourceSurface
 (
 aSurface
 )
@@ -3000,7 +3000,7 @@ aDestination
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 PushClip
@@ -3015,7 +3015,7 @@ RefPtr
 <
 PathRecording
 >
-pathRecording
+pathWrapAndRecord
 =
 EnsurePathStored
 (
@@ -3030,7 +3030,7 @@ RecordEvent
 RecordedPushClip
 (
 this
-pathRecording
+pathWrapAndRecord
 )
 )
 ;
@@ -3039,7 +3039,7 @@ mFinalDT
 >
 PushClip
 (
-pathRecording
+pathWrapAndRecord
 -
 >
 mPath
@@ -3047,7 +3047,7 @@ mPath
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 PushClipRect
@@ -3080,7 +3080,7 @@ aRect
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 PopClip
@@ -3107,7 +3107,7 @@ PopClip
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 PushLayer
@@ -3136,7 +3136,7 @@ if
 aMask
 )
 {
-EnsureSurfaceStoredRecording
+EnsureSurfaceStored
 (
 mRecorder
 aMask
@@ -3178,7 +3178,7 @@ aCopyBackground
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 PopLayer
@@ -3208,7 +3208,7 @@ already_AddRefed
 <
 SourceSurface
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 CreateSourceSurfaceFromData
@@ -3252,7 +3252,7 @@ SourceSurface
 retSurf
 =
 new
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 (
 surf
 mRecorder
@@ -3285,7 +3285,7 @@ already_AddRefed
 <
 SourceSurface
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 OptimizeSourceSurface
@@ -3317,7 +3317,7 @@ SourceSurface
 retSurf
 =
 new
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 (
 surf
 mRecorder
@@ -3352,7 +3352,7 @@ GetDataSurface
 )
 ;
 }
-StoreSourceSurfaceRecording
+StoreSourceSurface
 (
 mRecorder
 retSurf
@@ -3374,7 +3374,7 @@ already_AddRefed
 <
 SourceSurface
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 CreateSourceSurfaceFromNativeSurface
@@ -3407,7 +3407,7 @@ SourceSurface
 retSurf
 =
 new
-SourceSurfaceRecording
+SourceSurfaceWrapAndRecord
 (
 surf
 mRecorder
@@ -3426,7 +3426,7 @@ GetDataSurface
 (
 )
 ;
-StoreSourceSurfaceRecording
+StoreSourceSurface
 (
 mRecorder
 retSurf
@@ -3448,7 +3448,7 @@ already_AddRefed
 <
 DrawTarget
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 CreateSimilarDrawTarget
@@ -3490,7 +3490,7 @@ nullptr
 similarDT
 =
 new
-DrawTargetRecording
+DrawTargetWrapAndRecord
 (
 this
 similarDT
@@ -3508,7 +3508,7 @@ already_AddRefed
 <
 PathBuilder
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 CreatePathBuilder
@@ -3547,7 +3547,7 @@ already_AddRefed
 <
 GradientStops
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 CreateGradientStops
@@ -3585,7 +3585,7 @@ GradientStops
 retStops
 =
 new
-GradientStopsRecording
+GradientStopsWrapAndRecord
 (
 stops
 mRecorder
@@ -3614,7 +3614,7 @@ forget
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 SetTransform
@@ -3658,7 +3658,7 @@ already_AddRefed
 <
 PathRecording
 >
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 EnsurePathStored
@@ -3673,7 +3673,7 @@ RefPtr
 <
 PathRecording
 >
-pathRecording
+pathWrapAndRecord
 ;
 if
 (
@@ -3691,7 +3691,7 @@ BackendType
 RECORDING
 )
 {
-pathRecording
+pathWrapAndRecord
 =
 const_cast
 <
@@ -3722,7 +3722,7 @@ aPath
 )
 {
 return
-pathRecording
+pathWrapAndRecord
 .
 forget
 (
@@ -3772,7 +3772,7 @@ RefPtr
 <
 PathBuilderRecording
 >
-builderRecording
+builderWrapAndRecord
 =
 new
 PathBuilderRecording
@@ -3786,12 +3786,12 @@ aPath
 >
 StreamToSink
 (
-builderRecording
+builderWrapAndRecord
 )
 ;
-pathRecording
+pathWrapAndRecord
 =
-builderRecording
+builderWrapAndRecord
 -
 >
 Finish
@@ -3813,7 +3813,7 @@ RecordEvent
 (
 RecordedPathCreation
 (
-pathRecording
+pathWrapAndRecord
 )
 )
 ;
@@ -3822,10 +3822,10 @@ mRecorder
 >
 AddStoredObject
 (
-pathRecording
+pathWrapAndRecord
 )
 ;
-pathRecording
+pathWrapAndRecord
 -
 >
 mStoredRecorders
@@ -3836,7 +3836,7 @@ mRecorder
 )
 ;
 return
-pathRecording
+pathWrapAndRecord
 .
 forget
 (
@@ -3844,7 +3844,7 @@ forget
 ;
 }
 void
-DrawTargetRecording
+DrawTargetWrapAndRecord
 :
 :
 EnsurePatternDependenciesStored
@@ -3961,7 +3961,7 @@ SurfacePattern
 aPattern
 )
 ;
-EnsureSurfaceStoredRecording
+EnsureSurfaceStored
 (
 mRecorder
 pat
