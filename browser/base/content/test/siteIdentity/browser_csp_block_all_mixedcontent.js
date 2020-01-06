@@ -55,11 +55,13 @@ finish
 )
 ;
 }
+async
 function
 verifyUInotDegraded
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser

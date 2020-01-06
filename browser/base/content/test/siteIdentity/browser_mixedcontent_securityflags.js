@@ -221,6 +221,7 @@ set
 }
 )
 ;
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -345,6 +346,7 @@ set
 }
 )
 ;
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -473,6 +475,7 @@ set
 }
 )
 ;
+await
 assertMixedContentBlockingState
 (
 gTestBrowser

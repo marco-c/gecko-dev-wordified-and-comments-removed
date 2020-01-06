@@ -122,6 +122,7 @@ finish
 )
 ;
 }
+async
 function
 test1A
 (
@@ -139,6 +140,7 @@ then
 test1B
 )
 ;
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -305,11 +307,13 @@ url
 )
 ;
 }
+async
 function
 test1D
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -404,6 +408,7 @@ url
 )
 ;
 }
+async
 function
 test2A
 (
@@ -421,6 +426,7 @@ then
 test2B
 )
 ;
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -589,11 +595,13 @@ click
 )
 ;
 }
+async
 function
 test2D
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -688,11 +696,13 @@ url
 )
 ;
 }
+async
 function
 test3A
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser

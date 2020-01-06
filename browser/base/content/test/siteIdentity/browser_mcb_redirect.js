@@ -187,11 +187,13 @@ checkUIForTest1
 )
 ;
 }
+async
 function
 checkUIForTest1
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -310,11 +312,13 @@ checkUIForTest2
 )
 ;
 }
+async
 function
 checkUIForTest2
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser

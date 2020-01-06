@@ -82,6 +82,7 @@ BrowserTestUtils
 withNewTab
 (
 TEST_URL
+async
 function
 (
 browser
@@ -95,6 +96,7 @@ insecure
 "
 )
 ;
+await
 assertMixedContentBlockingState
 (
 browser

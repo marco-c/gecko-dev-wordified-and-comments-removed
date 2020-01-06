@@ -185,6 +185,7 @@ MixedTest1A
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -331,6 +332,7 @@ false
 url
 )
 ;
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -398,6 +400,7 @@ MixedTest3A
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -560,6 +563,7 @@ p2
 }
 )
 ;
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -627,6 +631,7 @@ MixedTest4A
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -747,6 +752,7 @@ MixedTest4C
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -868,6 +874,7 @@ MixedTest5A
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -1093,6 +1100,7 @@ MixedTest6B
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -1236,6 +1244,7 @@ MixedTest6D
 (
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser

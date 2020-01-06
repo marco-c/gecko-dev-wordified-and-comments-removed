@@ -177,6 +177,7 @@ test1
 gTestBrowser
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -264,6 +265,7 @@ test2
 gTestBrowser
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser
@@ -350,6 +352,7 @@ test3
 gTestBrowser
 )
 {
+await
 assertMixedContentBlockingState
 (
 gTestBrowser

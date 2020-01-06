@@ -386,6 +386,7 @@ cache
 }
 )
 ;
+await
 assertMixedContentBlockingState
 (
 browser
