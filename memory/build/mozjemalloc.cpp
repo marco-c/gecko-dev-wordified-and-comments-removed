@@ -190,10 +190,6 @@ mozilla
 ifdef
 XP_WIN
 #
-define
-_CRT_SPINCOUNT
-5000
-#
 include
 <
 io
@@ -3761,7 +3757,7 @@ InitializeCriticalSectionAndSpinCount
 (
 &
 mMutex
-_CRT_SPINCOUNT
+5000
 )
 )
 {
