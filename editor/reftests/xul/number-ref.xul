@@ -43,14 +43,6 @@ stylesheet
 href
 =
 "
-chrome
-:
-/
-/
-reftest
-/
-content
-/
 input
 .
 css
