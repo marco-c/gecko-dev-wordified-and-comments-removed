@@ -257,7 +257,7 @@ specifies
 a
 job
 .
-using
+type
 corresponding
 to
 a
@@ -291,7 +291,7 @@ Tasks
 For
 job
 .
-using
+type
 "
 decision
 -
