@@ -1840,9 +1840,6 @@ EnterDebuggeeNoExecute
 >
 noExecuteDebuggerTop
 ;
-bool
-handlingSegFault
-;
 js
 :
 :
