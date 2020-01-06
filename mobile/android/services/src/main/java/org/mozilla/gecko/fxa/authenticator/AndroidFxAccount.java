@@ -4602,7 +4602,15 @@ void
 finalize
 (
 )
+throws
+Throwable
 {
+super
+.
+finalize
+(
+)
+;
 if
 (
 locked
