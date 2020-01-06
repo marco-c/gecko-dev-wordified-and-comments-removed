@@ -115,7 +115,6 @@ Clone
 Debug
 HasViewportPercentage
 PartialEq
-ToComputedValue
 )
 ]
 #
@@ -217,7 +216,6 @@ Copy
 Debug
 HasViewportPercentage
 PartialEq
-ToComputedValue
 )
 ]
 #
