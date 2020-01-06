@@ -9,6 +9,15 @@ userMadeSearchSuggestionsChoice
 :
 true
 "
+javascript
+.
+options
+.
+asyncstack
+"
+:
+false
+"
 image
 .
 mem
