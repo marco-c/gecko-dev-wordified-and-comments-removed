@@ -14734,9 +14734,6 @@ eSideTop
 ]
 )
 ;
-bool
-allBordersSolid
-;
 if
 (
 allBordersSameStyle
@@ -14934,6 +14931,8 @@ return
 bool
 hasCompositeColors
 ;
+const
+bool
 allBordersSolid
 =
 AllBordersSolid
