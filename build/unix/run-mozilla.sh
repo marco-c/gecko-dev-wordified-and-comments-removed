@@ -1658,7 +1658,6 @@ then
 MRE_HOME
 =
 MOZ_DIST_BIN
-"
 fi
 #
 #
