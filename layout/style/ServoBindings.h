@@ -2160,7 +2160,7 @@ RawGeckoElementBorrowed
 element
 )
 ;
-nsChangeHint
+uint32_t
 Gecko_CalcStyleDifference
 (
 ServoStyleContextBorrowed
