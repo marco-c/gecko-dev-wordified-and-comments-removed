@@ -48,7 +48,6 @@ servo
 util
 import
 host_triple
-host_platform
 BIN_SUFFIX
 =
 "
@@ -1802,28 +1801,38 @@ True
 )
 )
         
-platforms_with_rustc_alt_builds
+triples_with_rustc_alt_builds
 =
 [
+            
 "
+x86_64
+-
 unknown
 -
 linux
 -
 gnu
 "
+            
 "
+x86_64
+-
 apple
 -
 darwin
 "
+            
 "
+x86_64
+-
 pc
 -
 windows
 -
 msvc
 "
+        
 ]
         
 llvm_assertions_default
@@ -1838,12 +1847,12 @@ os
 environ
                                    
 or
-host_platform
+host_triple
 (
 )
 not
 in
-platforms_with_rustc_alt_builds
+triples_with_rustc_alt_builds
 )
         
 self
