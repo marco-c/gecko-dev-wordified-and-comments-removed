@@ -272,6 +272,11 @@ aMallocSizeOf
 this
 )
 ;
+if
+(
+mSheet
+)
+{
 n
 +
 =
@@ -281,6 +286,7 @@ ServoStyleSheetMallocSizeOf
 mSheet
 )
 ;
+}
 return
 n
 ;
