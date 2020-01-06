@@ -5233,7 +5233,6 @@ NativeInterface2JSObject
 (
 &
 v
-nullptr
 helper
 nullptr
 false
