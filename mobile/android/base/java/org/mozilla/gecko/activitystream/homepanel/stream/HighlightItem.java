@@ -204,17 +204,6 @@ util
 ViewUtil
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-widget
-.
-FaviconView
-;
-import
 java
 .
 lang
@@ -292,7 +281,7 @@ position
 ;
 private
 final
-StreamPageIconLayout
+StreamOverridablePageIconLayout
 pageIconLayout
 ;
 private
@@ -378,7 +367,7 @@ card_history_label
 pageIconLayout
 =
 (
-StreamPageIconLayout
+StreamOverridablePageIconLayout
 )
 itemView
 .
