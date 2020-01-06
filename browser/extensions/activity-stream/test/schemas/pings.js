@@ -794,6 +794,9 @@ valid
 (
 [
 "
+first_window_opened
+"
+"
 menu_plus_or_keyboard
 "
 "
