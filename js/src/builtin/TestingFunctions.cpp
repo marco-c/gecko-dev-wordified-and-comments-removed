@@ -12596,7 +12596,7 @@ isIon
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 jitIter
 (
 cx

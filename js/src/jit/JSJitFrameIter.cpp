@@ -3,7 +3,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JSJitFrameIter
 -
 inl
 .
@@ -47,10 +47,10 @@ js
 :
 jit
 ;
-JitFrameIterator
+JSJitFrameIter
 :
 :
-JitFrameIterator
+JSJitFrameIter
 (
 const
 JitActivation
@@ -132,17 +132,17 @@ JitFrame_Bailout
 ;
 }
 }
-JitFrameIterator
+JSJitFrameIter
 :
 :
-JitFrameIterator
+JSJitFrameIter
 (
 JSContext
 *
 cx
 )
 :
-JitFrameIterator
+JSJitFrameIter
 (
 cx
 -
@@ -159,7 +159,7 @@ asJit
 {
 }
 bool
-JitFrameIterator
+JSJitFrameIter
 :
 :
 checkInvalidation
@@ -180,7 +180,7 @@ dummy
 ;
 }
 bool
-JitFrameIterator
+JSJitFrameIter
 :
 :
 checkInvalidation
@@ -349,7 +349,7 @@ true
 ;
 }
 CalleeToken
-JitFrameIterator
+JSJitFrameIter
 :
 :
 calleeToken
@@ -374,7 +374,7 @@ calleeToken
 }
 JSFunction
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 callee
@@ -407,7 +407,7 @@ calleeToken
 }
 JSFunction
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 maybeCallee
@@ -438,7 +438,7 @@ nullptr
 ;
 }
 bool
-JitFrameIterator
+JSJitFrameIter
 :
 :
 isBareExit
@@ -468,7 +468,7 @@ isBareExit
 ;
 }
 bool
-JitFrameIterator
+JSJitFrameIter
 :
 :
 isFunctionFrame
@@ -487,7 +487,7 @@ calleeToken
 }
 JSScript
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 script
@@ -539,7 +539,7 @@ script
 ;
 }
 void
-JitFrameIterator
+JSJitFrameIter
 :
 :
 baselineScriptAndPc
@@ -649,7 +649,7 @@ script
 }
 Value
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 actualArgs
@@ -672,7 +672,7 @@ argv
 }
 uint8_t
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 prevFp
@@ -703,7 +703,7 @@ headerSize
 ;
 }
 void
-JitFrameIterator
+JSJitFrameIter
 :
 :
 operator
@@ -783,7 +783,7 @@ prevFp
 }
 uintptr_t
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 spillBase
@@ -821,7 +821,7 @@ frameSize
 ;
 }
 MachineState
-JitFrameIterator
+JSJitFrameIter
 :
 :
 machineState
@@ -1054,7 +1054,7 @@ machine
 }
 JitFrameLayout
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 jsFrame
@@ -1104,7 +1104,7 @@ fp
 }
 IonScript
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 ionScript
@@ -1163,7 +1163,7 @@ ionScriptFromCalleeToken
 }
 IonScript
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 ionScriptFromCalleeToken
@@ -1200,7 +1200,7 @@ ionScript
 const
 SafepointIndex
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 safepoint
@@ -1239,7 +1239,7 @@ cachedSafepointIndex_
 ;
 }
 SnapshotOffset
-JitFrameIterator
+JSJitFrameIter
 :
 :
 snapshotOffset
@@ -1287,7 +1287,7 @@ snapshotOffset
 const
 OsiIndex
 *
-JitFrameIterator
+JSJitFrameIter
 :
 :
 osiIndex
@@ -1330,7 +1330,7 @@ osiReturnPointOffset
 ;
 }
 bool
-JitFrameIterator
+JSJitFrameIter
 :
 :
 isConstructing
@@ -1348,7 +1348,7 @@ calleeToken
 ;
 }
 unsigned
-JitFrameIterator
+JSJitFrameIter
 :
 :
 numActualArgs
@@ -1402,7 +1402,7 @@ argc
 ;
 }
 void
-JitFrameIterator
+JSJitFrameIter
 :
 :
 dumpBaseline
@@ -1702,7 +1702,7 @@ endif
 }
 }
 void
-JitFrameIterator
+JSJitFrameIter
 :
 :
 dump
@@ -1971,7 +1971,7 @@ stderr
 ifdef
 DEBUG
 bool
-JitFrameIterator
+JSJitFrameIter
 :
 :
 verifyReturnAddressUsingNativeToBytecodeMap

@@ -82,7 +82,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JSJitFrameIter
 -
 inl
 .
@@ -223,7 +223,7 @@ jitActivations
 sp
 )
 ;
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 jitActivations
@@ -533,7 +533,7 @@ jitActivations
 sp
 )
 ;
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 jitActivations
@@ -872,7 +872,7 @@ JitActivationIterator
 &
 activations
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 )
@@ -1067,7 +1067,7 @@ frame
 )
 )
 ;
-JitFrameIterator
+JSJitFrameIter
 frameView
 (
 jitActivations

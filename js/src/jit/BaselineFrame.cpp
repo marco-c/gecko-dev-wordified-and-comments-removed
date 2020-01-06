@@ -141,7 +141,7 @@ JSTracer
 *
 trc
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frameIterator
 )
@@ -728,7 +728,7 @@ get
 (
 )
 ;
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 cx

@@ -36,7 +36,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JSJitFrameIter
 .
 h
 "

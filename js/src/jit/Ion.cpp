@@ -2932,7 +2932,7 @@ get
 (
 )
 ;
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 cx
@@ -15793,7 +15793,7 @@ frameno
 )
 {
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 =

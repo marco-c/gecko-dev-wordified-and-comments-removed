@@ -1,9 +1,9 @@
 #
 ifndef
-jit_JitFrameIterator_h
+jit_JSJitFrameIter_h
 #
 define
-jit_JitFrameIterator_h
+jit_JSJitFrameIter_h
 #
 include
 "
@@ -108,7 +108,7 @@ cx
 )
 ;
 class
-JitFrameIterator
+JSJitFrameIter
 {
 protected
 :
@@ -148,7 +148,7 @@ const
 public
 :
 explicit
-JitFrameIterator
+JSJitFrameIter
 (
 const
 JitActivation
@@ -157,7 +157,7 @@ activation
 )
 ;
 explicit
-JitFrameIterator
+JSJitFrameIter
 (
 JSContext
 *
@@ -1121,7 +1121,7 @@ JitActivation
 activation
 ;
 const
-JitFrameIterator
+JSJitFrameIter
 *
 frame
 ;
@@ -1180,7 +1180,7 @@ JitActivation
 *
 activation
 const
-JitFrameIterator
+JSJitFrameIter
 *
 frame
 FallbackConsequence
@@ -1780,7 +1780,7 @@ public
 SnapshotIterator
 (
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 const
@@ -2089,7 +2089,7 @@ class
 InlineFrameIterator
 {
 const
-JitFrameIterator
+JSJitFrameIter
 *
 frame_
 ;
@@ -2175,7 +2175,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 *
 iter
 )
@@ -2909,13 +2909,13 @@ void
 resetOn
 (
 const
-JitFrameIterator
+JSJitFrameIter
 *
 iter
 )
 ;
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 (

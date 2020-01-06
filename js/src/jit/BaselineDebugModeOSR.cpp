@@ -913,7 +913,7 @@ iter
 )
 {
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 =
@@ -1824,7 +1824,7 @@ iter
 )
 {
 const
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 =
@@ -2621,7 +2621,7 @@ case
 JitFrame_BaselineStub
 :
 {
-JitFrameIterator
+JSJitFrameIter
 prev
 (
 iter

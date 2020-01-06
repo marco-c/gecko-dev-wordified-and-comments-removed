@@ -89,15 +89,6 @@ Rooting
 h
 "
 #
-include
-"
-jit
-/
-JitFrameIterator
-.
-h
-"
-#
 ifdef
 CHECK_OSIPOINT_REGISTERS
 #
@@ -111,6 +102,15 @@ h
 "
 #
 endif
+#
+include
+"
+jit
+/
+JSJitFrameIter
+.
+h
+"
 #
 include
 "
@@ -5592,7 +5592,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 size_t
@@ -6233,7 +6233,7 @@ MaybeOneOf
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 wasm
 :
 :
@@ -6333,7 +6333,7 @@ constructed
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 >
 (
 )
@@ -6342,7 +6342,7 @@ JitFrameIterator
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 asJSJit
 (
@@ -6356,7 +6356,7 @@ ref
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 >
 (
 )
@@ -6366,7 +6366,7 @@ const
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 asJSJit
 (
@@ -6381,7 +6381,7 @@ ref
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 >
 (
 )
@@ -6564,7 +6564,7 @@ const
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 frame
 (
@@ -7286,7 +7286,7 @@ const
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 jsJitFrame
 (
@@ -7327,7 +7327,7 @@ asWasm
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 jsJitFrame
 (

@@ -90,7 +90,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JitSpewer
 .
 h
 "
@@ -99,7 +99,7 @@ include
 "
 jit
 /
-JitSpewer
+JSJitFrameIter
 .
 h
 "

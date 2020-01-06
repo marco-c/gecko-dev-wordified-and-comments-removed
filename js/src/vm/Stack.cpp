@@ -93,7 +93,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JSJitFrameIter
 -
 inl
 .
@@ -2952,7 +2952,7 @@ construct
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 >
 (
 another
@@ -3042,7 +3042,7 @@ construct
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 >
 (
 act
@@ -3104,7 +3104,7 @@ isJSJit
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 &
 frames
 =
@@ -3888,7 +3888,7 @@ js
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 *
 )
 nullptr
@@ -3933,7 +3933,7 @@ js
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 *
 )
 nullptr
@@ -3981,7 +3981,7 @@ js
 jit
 :
 :
-JitFrameIterator
+JSJitFrameIter
 *
 )
 nullptr
@@ -8244,7 +8244,7 @@ JSContext
 *
 cx
 const
-JitFrameIterator
+JSJitFrameIter
 &
 iter
 size_t

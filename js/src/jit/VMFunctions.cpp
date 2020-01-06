@@ -1757,7 +1757,7 @@ DenseElementResult
 Success
 ;
 }
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 cx
@@ -6155,7 +6155,7 @@ activations
 cx
 )
 ;
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 activations

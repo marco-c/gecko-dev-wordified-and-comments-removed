@@ -1790,13 +1790,6 @@ cpp
 '
 jit
 /
-JitFrameIterator
-.
-cpp
-'
-'
-jit
-/
 JitFrames
 .
 cpp
@@ -1812,6 +1805,13 @@ cpp
 jit
 /
 JitSpewer
+.
+cpp
+'
+'
+jit
+/
+JSJitFrameIter
 .
 cpp
 '

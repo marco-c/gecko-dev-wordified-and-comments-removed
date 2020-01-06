@@ -30,7 +30,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JSJitFrameIter
 .
 h
 "
@@ -1016,7 +1016,7 @@ JSContext
 cx
 )
 {
-JitFrameIterator
+JSJitFrameIter
 frame
 (
 cx
