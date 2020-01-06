@@ -421,7 +421,7 @@ requestsListContents
 type
 :
 "
-mousemove
+mouseout
 "
 }
 monitor
