@@ -16270,7 +16270,7 @@ test
 needs
 reftest
 -
-paged
+print
 )
 .
 existing
@@ -28111,15 +28111,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 731521
