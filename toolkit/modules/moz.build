@@ -423,7 +423,8 @@ BUG_COMPONENT
 Toolkit
 '
 '
-General
+Application
+Update
 '
 )
 with
@@ -1131,10 +1132,8 @@ BUG_COMPONENT
 Toolkit
 '
 '
-Add
--
-ons
-Manager
+Application
+Update
 '
 )
 with
