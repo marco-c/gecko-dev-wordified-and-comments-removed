@@ -552,3 +552,16 @@ third_party
 python
 /
 PyECC
+optional
+:
+packages
+.
+txt
+:
+comm
+/
+build
+/
+virtualenv_packages
+.
+txt
