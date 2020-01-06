@@ -415,7 +415,7 @@ wr
 :
 :
 ImageKey
-GetImageKey
+GenerateImageKey
 (
 )
 {
@@ -446,7 +446,7 @@ key
 ;
 }
 bool
-GetImageKeyForTextureHost
+GenerateImageKeyForTextureHost
 (
 wr
 :

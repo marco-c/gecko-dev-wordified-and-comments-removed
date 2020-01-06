@@ -219,7 +219,7 @@ wr
 :
 :
 WrImageKey
-GetImageKey
+GenerateImageKey
 (
 )
 ;
