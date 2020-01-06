@@ -618,6 +618,11 @@ type
 integer
 "
 "
+optional
+"
+:
+true
+"
 minimum
 "
 :
@@ -1332,11 +1337,6 @@ sessionId
 :
 {
 "
-unsupported
-"
-:
-true
-"
 type
 "
 :
@@ -1386,6 +1386,11 @@ type
 "
 string
 "
+"
+optional
+"
+:
+true
 "
 description
 "
@@ -4213,6 +4218,11 @@ ref
 "
 Tab
 "
+"
+optional
+"
+:
+true
 "
 description
 "
