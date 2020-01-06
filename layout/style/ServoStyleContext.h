@@ -32,9 +32,6 @@ public
 :
 ServoStyleContext
 (
-nsStyleContext
-*
-aParent
 nsPresContext
 *
 aPresContext
