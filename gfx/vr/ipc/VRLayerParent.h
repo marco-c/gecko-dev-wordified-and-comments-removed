@@ -167,12 +167,6 @@ mVRDisplayID
 gfx
 :
 :
-IntSize
-mSize
-;
-gfx
-:
-:
 Rect
 mLeftEyeRect
 ;

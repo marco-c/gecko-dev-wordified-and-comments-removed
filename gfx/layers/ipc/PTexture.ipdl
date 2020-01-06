@@ -121,10 +121,6 @@ PImageBridge
 ;
 include
 protocol
-PVRManager
-;
-include
-protocol
 PVideoBridge
 ;
 include
@@ -214,8 +210,6 @@ manager
 PImageBridge
 or
 PCompositorBridge
-or
-PVRManager
 or
 PVideoBridge
 ;
