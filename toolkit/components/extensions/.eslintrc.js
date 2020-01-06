@@ -59,6 +59,11 @@ MatchPatternSet
 :
 false
 "
+WebExtensionContentScript
+"
+:
+false
+"
 WebExtensionPolicy
 "
 :

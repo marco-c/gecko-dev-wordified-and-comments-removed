@@ -14322,6 +14322,15 @@ extension
 )
 GK_ATOM
 (
+all_urlsPermission
+"
+<
+all_urls
+>
+"
+)
+GK_ATOM
+(
 http
 "
 http
