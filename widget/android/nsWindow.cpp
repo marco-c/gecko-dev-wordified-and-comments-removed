@@ -4407,10 +4407,6 @@ int32_t
 aWindowWidth
 int32_t
 aWindowHeight
-int32_t
-aScreenWidth
-int32_t
-aScreenHeight
 )
 {
 MOZ_ASSERT

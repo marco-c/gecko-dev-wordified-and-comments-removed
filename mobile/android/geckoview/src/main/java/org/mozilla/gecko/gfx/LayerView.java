@@ -595,10 +595,6 @@ int
 windowWidth
 int
 windowHeight
-int
-screenWidth
-int
-screenHeight
 )
 ;
 WrapForJNI
@@ -1417,9 +1413,6 @@ mLayerClient
 new
 GeckoLayerClient
 (
-getContext
-(
-)
 this
 )
 ;
@@ -2597,10 +2590,6 @@ int
 windowWidth
 int
 windowHeight
-int
-screenWidth
-int
-screenHeight
 )
 {
 mCompositor
@@ -2609,8 +2598,6 @@ onSizeChanged
 (
 windowWidth
 windowHeight
-screenWidth
-screenHeight
 )
 ;
 }
