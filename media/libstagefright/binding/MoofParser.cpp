@@ -4481,6 +4481,11 @@ Read32
 )
 ;
 }
+if
+(
+sampleSize
+)
+{
 Sample
 sample
 ;
@@ -4589,11 +4594,6 @@ mEmptyOffset
 )
 )
 ;
-decodeTime
-+
-=
-sampleDuration
-;
 sample
 .
 mSync
@@ -4629,6 +4629,12 @@ sample
 .
 mByteRange
 )
+;
+}
+decodeTime
++
+=
+sampleDuration
 ;
 }
 mMaxRoundingError
