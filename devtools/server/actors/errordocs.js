@@ -362,11 +362,6 @@ JSMSG_DEPRECATED_STRING_METHOD
 "
 Deprecated_String_generics
 "
-JSMSG_DEPRECATED_TOLOCALEFORMAT
-:
-"
-Deprecated_toLocaleFormat
-"
 JSMSG_RESERVED_ID
 :
 "

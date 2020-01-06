@@ -2074,9 +2074,6 @@ setUTCMilliseconds
 toUTCString
 "
 "
-toLocaleFormat
-"
-"
 toLocaleString
 "
 "

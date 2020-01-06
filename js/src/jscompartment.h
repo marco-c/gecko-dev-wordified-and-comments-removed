@@ -3285,11 +3285,6 @@ bool
 marked
 ;
 bool
-warnedAboutDateToLocaleFormat
-:
-1
-;
-bool
 warnedAboutExprClosure
 :
 1
