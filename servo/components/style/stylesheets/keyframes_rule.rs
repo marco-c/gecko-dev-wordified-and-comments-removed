@@ -8,6 +8,7 @@ Parser
 QualifiedRuleParser
 RuleListParser
 ParserInput
+CompactCowStr
 }
 ;
 use
@@ -112,15 +113,6 @@ SharedRwLockReadGuard
 Locked
 ToCssWithGuard
 }
-;
-use
-std
-:
-:
-borrow
-:
-:
-Cow
 ;
 use
 std
@@ -3000,11 +2992,10 @@ mut
 self
 name
 :
-Cow
+CompactCowStr
 <
 '
 i
-str
 >
 input
 :

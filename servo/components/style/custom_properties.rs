@@ -1684,11 +1684,14 @@ Token
 :
 :
 Dimension
-(
-_
+{
+unit
+:
 ref
 value
-)
+.
+.
+}
 =
 >
 {
