@@ -1468,6 +1468,18 @@ neither
 "
 )
 ;
+if
+(
+variant
+.
+val
+.
+p
+!
+=
+nullptr
+)
+{
 static_cast
 <
 nsISupports
@@ -1486,6 +1498,7 @@ Release
 (
 )
 ;
+}
 }
 }
 }
