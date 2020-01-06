@@ -471,6 +471,12 @@ textoverflow
 /
 >
 <
+/
+xul
+:
+hbox
+>
+<
 xul
 :
 image
@@ -527,12 +533,6 @@ focused
 usertyping
 "
 /
->
-<
-/
-xul
-:
-hbox
 >
 <
 xul
