@@ -1953,6 +1953,11 @@ HasClass
 \
 _
 (
+ObjectClassToString
+)
+\
+_
+(
 RecompileCheck
 )
 \

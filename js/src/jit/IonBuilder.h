@@ -4498,6 +4498,14 @@ callInfo
 )
 ;
 InliningResult
+inlineObjectToString
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineDefineDataProperty
 (
 CallInfo

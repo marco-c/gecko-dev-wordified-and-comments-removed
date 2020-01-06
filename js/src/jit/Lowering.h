@@ -2170,6 +2170,14 @@ ins
 )
 ;
 void
+visitObjectClassToString
+(
+MObjectClassToString
+*
+ins
+)
+;
+void
 visitWasmAddOffset
 (
 MWasmAddOffset
