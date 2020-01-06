@@ -9757,7 +9757,7 @@ GetPseudoType
 )
 )
 ;
-MOZ_ASSERT
+if
 (
 elem
 -
@@ -9766,7 +9766,7 @@ HasServoData
 (
 )
 )
-;
+{
 return
 Servo_HasAuthorSpecifiedRules
 (
@@ -9777,6 +9777,13 @@ UseDocumentColors
 )
 )
 ;
+}
+else
+{
+return
+false
+;
+}
 }
 gfxUserFontSet
 *
