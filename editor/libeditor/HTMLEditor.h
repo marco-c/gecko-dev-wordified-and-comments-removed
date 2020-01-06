@@ -1525,7 +1525,7 @@ nsIDOMElement
 aElement
 )
 ;
-NS_IMETHOD
+nsresult
 TabInTable
 (
 bool

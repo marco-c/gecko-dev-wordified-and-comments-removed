@@ -2979,6 +2979,16 @@ return
 mDispatchInputEvent
 ;
 }
+bool
+Destroyed
+(
+)
+const
+{
+return
+mDidPreDestroy
+;
+}
 already_AddRefed
 <
 nsITransactionManager

@@ -799,6 +799,17 @@ NS_OK
 ;
 if
 (
+Destroyed
+(
+)
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 hideUI
 )
 {

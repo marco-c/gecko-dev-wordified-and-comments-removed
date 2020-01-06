@@ -2748,6 +2748,17 @@ handled
 ;
 if
 (
+Destroyed
+(
+)
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 handled
 )
 {
@@ -4405,7 +4416,7 @@ aAction
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
