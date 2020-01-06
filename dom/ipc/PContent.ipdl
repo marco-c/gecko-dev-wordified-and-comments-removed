@@ -3218,6 +3218,16 @@ CrossProcessMutexHandle
 handle
 )
 ;
+async
+DumpCodeCoverageCounters
+(
+)
+;
+async
+ResetCodeCoverageCounters
+(
+)
+;
 parent
 :
 async
