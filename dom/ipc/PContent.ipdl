@@ -3453,6 +3453,10 @@ PluginTag
 [
 ]
 plugins
+FakePluginTag
+[
+]
+fakePlugins
 uint32_t
 newPluginEpoch
 )

@@ -82,6 +82,12 @@ PluginTag
 >
 *
 aPlugins
+nsTArray
+<
+FakePluginTag
+>
+*
+aFakePlugins
 uint32_t
 *
 aNewPluginEpoch
