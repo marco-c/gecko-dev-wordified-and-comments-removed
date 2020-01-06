@@ -6165,7 +6165,7 @@ DestroyOverflowList
 }
 }
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 removed
 "
@@ -6725,7 +6725,7 @@ Destroy
 (
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 !
 prevInFlow

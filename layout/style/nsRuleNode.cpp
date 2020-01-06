@@ -14659,7 +14659,7 @@ type_
 data_
 )
 \
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 !
 conditions
@@ -14921,7 +14921,7 @@ type_
 data_
 )
 \
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 !
 conditions

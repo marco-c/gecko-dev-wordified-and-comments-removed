@@ -110,7 +110,7 @@ mLevel
 mImportance
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 mCurrent
 "

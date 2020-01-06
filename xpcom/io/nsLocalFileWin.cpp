@@ -5866,7 +5866,7 @@ NS_LITERAL_STRING
 ;
 }
 }
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 0
 <
@@ -5890,7 +5890,7 @@ invalid
 "
 )
 ;
-NS_POSTCONDITION
+MOZ_ASSERT
 (
 path
 .
