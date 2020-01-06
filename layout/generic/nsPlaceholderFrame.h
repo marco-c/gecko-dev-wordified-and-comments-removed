@@ -513,6 +513,17 @@ aProviderFrame
 )
 const
 ;
+nsStyleContext
+*
+GetLayoutParentStyleForOutOfFlow
+(
+nsIFrame
+*
+*
+aProviderFrame
+)
+const
+;
 bool
 RenumberFrameAndDescendants
 (
