@@ -104,6 +104,9 @@ e10srollout
 followonsearch
 '
 '
+onboarding
+'
+'
 pdfjs
 '
 '
@@ -252,8 +255,5 @@ DIRS
 activity
 -
 stream
-'
-'
-onboarding
 '
 ]

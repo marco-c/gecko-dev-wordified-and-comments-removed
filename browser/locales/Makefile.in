@@ -932,8 +932,6 @@ locale
 -
 *
 endif
-ifdef
-NIGHTLY_BUILD
 (
 MAKE
 )
@@ -955,7 +953,6 @@ XPI_NAME
 locale
 -
 *
-endif
 (
 MAKE
 )
