@@ -2218,6 +2218,10 @@ mHasRoundedBottomCorners
 (
 false
 )
+mDevPixelCornerRadius
+{
+0
+}
 mIsCoveringTitlebar
 (
 false
@@ -2252,6 +2256,14 @@ mIsDispatchPaint
 (
 false
 )
+mPluginFocused
+{
+false
+}
+mCurrentPanGestureBelongsToSwipe
+{
+false
+}
 {
 EnsureLogInitialized
 (
@@ -17644,6 +17656,10 @@ mGLContext
 (
 aContext
 )
+mQuadVBO
+{
+0
+}
 {
 mGLContext
 -

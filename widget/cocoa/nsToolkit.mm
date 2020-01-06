@@ -312,6 +312,10 @@ mSleepWakeNotificationRLS
 (
 nullptr
 )
+mPowerNotifier
+{
+0
+}
 mEventTapPort
 (
 nullptr

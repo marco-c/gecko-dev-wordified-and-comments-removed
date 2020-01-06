@@ -248,6 +248,11 @@ GfxInfo
 GfxInfo
 (
 )
+:
+mOSXVersion
+{
+0
+}
 {
 }
 static
