@@ -1497,15 +1497,6 @@ build
 package
 install
 #
-Do
-everything
-from
-scratch
-everything
-:
-clean
-build
-#
 #
 #
 #
@@ -2910,8 +2901,6 @@ clobber
 clobber_all
 \
 pull_and_build_all
-\
-everything
 \
 configure
 \
