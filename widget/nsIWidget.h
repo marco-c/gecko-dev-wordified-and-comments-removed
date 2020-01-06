@@ -2085,6 +2085,15 @@ aStyle
 ;
 virtual
 void
+SetWindowOpacity
+(
+float
+aOpacity
+)
+{
+}
+virtual
+void
 SetShowsToolbarButton
 (
 bool
