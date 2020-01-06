@@ -68420,8 +68420,7 @@ String
 MUnbox
 :
 :
-Fallible
-Bailout_IterNextNonString
+Infallible
 )
 ;
 current

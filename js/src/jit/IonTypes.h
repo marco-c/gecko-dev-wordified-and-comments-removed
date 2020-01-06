@@ -151,7 +151,6 @@ Bailout_UninitializedThis
 Bailout_BadDerivedConstructorReturn
 Bailout_FirstExecution
 Bailout_OverflowInvalidate
-Bailout_IterNextNonString
 Bailout_DoubleOutput
 Bailout_ArgumentCheck
 Bailout_BoundsCheck
@@ -398,14 +397,6 @@ Bailout_OverflowInvalidate
 return
 "
 Bailout_OverflowInvalidate
-"
-;
-case
-Bailout_IterNextNonString
-:
-return
-"
-Bailout_IterNextNonString
 "
 ;
 case
