@@ -6834,7 +6834,7 @@ plugins
 /
 pluginGeneric
 .
-png
+svg
 "
 disable
 :
