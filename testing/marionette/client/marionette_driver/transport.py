@@ -576,7 +576,7 @@ def
 __init__
 (
 self
-addr
+host
 port
 socket_timeout
 =
@@ -628,9 +628,15 @@ altogether
         
 self
 .
-addr
+_sock
 =
-addr
+None
+        
+self
+.
+host
+=
+host
         
 self
 .
@@ -640,7 +646,7 @@ port
         
 self
 .
-_socket_timeout
+socket_timeout
 =
 socket_timeout
         
@@ -669,12 +675,6 @@ self
 expected_response
 =
 None
-        
-self
-.
-_sock
-=
-None
     
 property
     
@@ -684,21 +684,6 @@ socket_timeout
 self
 )
 :
-        
-if
-self
-.
-_sock
-:
-            
-return
-self
-.
-_sock
-.
-gettimeout
-(
-)
         
 return
 self
@@ -1175,7 +1160,7 @@ connect
 (
 self
 .
-addr
+host
 self
 .
 port
