@@ -1389,7 +1389,7 @@ getElementById
 (
 BrowserPageActions
 .
-_urlbarButtonNodeIDForActionID
+urlbarButtonNodeIDForActionID
 (
 this
 .
