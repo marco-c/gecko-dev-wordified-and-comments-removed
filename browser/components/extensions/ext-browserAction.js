@@ -777,6 +777,9 @@ this
 defaults
 .
 area
+localized
+:
+false
 onBeforeCreated
 :
 document
