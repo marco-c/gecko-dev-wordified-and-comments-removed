@@ -1459,7 +1459,7 @@ omt_data_delivery
 .
 enabled
 "
-true
+false
 )
 ;
 pref
@@ -15745,7 +15745,7 @@ network
 .
 preload
 "
-true
+false
 )
 ;
 pref
