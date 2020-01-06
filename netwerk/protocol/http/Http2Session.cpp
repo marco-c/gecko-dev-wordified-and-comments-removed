@@ -10031,7 +10031,7 @@ CleanupStream
 (
 pushedStream
 NS_ERROR_FAILURE
-INTERNAL_ERROR
+REFUSED_STREAM_ERROR
 )
 ;
 self
