@@ -689,6 +689,7 @@ null
 }
 notifyChildOfSettingsChange
 (
+enabled
 )
 {
 if
@@ -724,9 +725,10 @@ PDFJS
 :
 Child
 :
-refreshSettings
+updateSettings
 "
 {
+enabled
 }
 )
 ;
