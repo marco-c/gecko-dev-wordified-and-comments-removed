@@ -12188,9 +12188,16 @@ browserDOMWindow
 .
 openURI
 (
+Services
+.
+io
+.
+newURI
+(
 data
 .
 uri
+)
 null
 data
 .
@@ -12200,6 +12207,7 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_EXTERNAL
+null
 )
 ;
 break
