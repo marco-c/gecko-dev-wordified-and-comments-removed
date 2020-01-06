@@ -7262,6 +7262,12 @@ void
 this
 )
 ;
+MOZ_ASSERT
+(
+!
+mCompositorSession
+)
+;
 }
 bool
 nsWindow
@@ -7609,6 +7615,13 @@ nullptr
 )
 ;
 }
+nsBaseWidget
+:
+:
+DestroyCompositor
+(
+)
+;
 nsBaseWidget
 :
 :
