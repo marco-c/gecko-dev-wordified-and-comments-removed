@@ -279,11 +279,8 @@ clearEvents
 let
 search_hist
 =
-getAndClearKeyedHistogram
+getSearchCountsHistogram
 (
-"
-SEARCH_COUNTS
-"
 )
 ;
 let
