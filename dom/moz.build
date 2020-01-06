@@ -529,9 +529,6 @@ cocoa
 '
 windows
 '
-'
-android
-'
 )
 :
 TEST_DIRS

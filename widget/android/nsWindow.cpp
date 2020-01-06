@@ -443,13 +443,6 @@ h
 #
 include
 "
-android_npapi
-.
-h
-"
-#
-include
-"
 FennecJNINatives
 .
 h
