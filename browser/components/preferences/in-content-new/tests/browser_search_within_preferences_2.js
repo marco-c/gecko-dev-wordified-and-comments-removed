@@ -352,13 +352,13 @@ label
 "
 Forget
 this
-Email
+email
 "
 "
 The
 Forget
 this
-Email
+email
 button
 should
 exist

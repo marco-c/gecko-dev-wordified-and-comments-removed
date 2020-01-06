@@ -645,7 +645,7 @@ verify
 label
 "
 Verify
-Email
+email
 "
 >
 <
@@ -667,7 +667,7 @@ label
 "
 Forget
 this
-Email
+email
 "
 >
 <
