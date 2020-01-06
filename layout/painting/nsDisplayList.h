@@ -4981,7 +4981,7 @@ mBuildingInvisibleItems
 aBuildingInvisibleItems
 ;
 }
-void
+bool
 MarkFrameModifiedDuringBuilding
 (
 nsIFrame
@@ -5015,7 +5015,13 @@ SetFrameIsModified
 true
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 AnimatedGeometryRoot
 *
