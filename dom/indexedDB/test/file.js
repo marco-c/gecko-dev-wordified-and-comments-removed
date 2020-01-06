@@ -306,8 +306,6 @@ view
 ]
 {
 type
-:
-type
 }
 )
 ;
@@ -329,8 +327,6 @@ view
 ]
 name
 {
-type
-:
 type
 }
 )

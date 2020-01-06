@@ -134,8 +134,6 @@ nsISupports
 ]
 )
 runTest
-:
-function
 (
 )
 {
@@ -267,8 +265,6 @@ gFactory
 =
 {
 register
-:
-function
 (
 )
 {
