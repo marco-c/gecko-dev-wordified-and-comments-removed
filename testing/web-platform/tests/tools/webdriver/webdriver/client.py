@@ -1598,14 +1598,13 @@ property
 command
     
 def
-size
+rect
 (
 self
 )
 :
         
-resp
-=
+return
 self
 .
 session
@@ -1621,16 +1620,33 @@ window
 rect
 "
 )
+    
+property
+    
+command
+    
+def
+size
+(
+self
+)
+:
+        
+rect
+=
+self
+.
+rect
         
 return
 (
-resp
+rect
 [
 "
 width
 "
 ]
-resp
+rect
 [
 "
 height
@@ -1700,33 +1716,21 @@ self
 )
 :
         
-resp
+rect
 =
 self
 .
-session
-.
-send_session_command
-(
-"
-GET
-"
-"
-window
-/
 rect
-"
-)
         
 return
 (
-resp
+rect
 [
 "
 x
 "
 ]
-resp
+rect
 [
 "
 y
@@ -1784,6 +1788,27 @@ rect
 "
 body
 )
+    
+property
+    
+command
+    
+def
+state
+(
+self
+)
+:
+        
+return
+self
+.
+rect
+[
+"
+state
+"
+]
     
 command
     
