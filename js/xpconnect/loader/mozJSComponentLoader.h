@@ -107,12 +107,6 @@ class
 nsIFile
 ;
 class
-nsIPrincipal
-;
-class
-nsIXPConnectJSObjectHolder
-;
-class
 ComponentLoaderInfo
 ;
 namespace
