@@ -1774,7 +1774,7 @@ extension
 }
 callFunction
 (
-std_Array_sort
+ArraySort
 extensions
 )
 ;
