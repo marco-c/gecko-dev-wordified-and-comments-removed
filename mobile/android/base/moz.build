@@ -4537,6 +4537,17 @@ homepanel
 /
 stream
 /
+HighlightsEmptyStateRow
+.
+java
+'
+'
+activitystream
+/
+homepanel
+/
+stream
+/
 StreamOverridablePageIconLayout
 .
 java
