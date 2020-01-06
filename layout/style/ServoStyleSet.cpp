@@ -5660,6 +5660,10 @@ Element
 *
 root
 =
+IsMaster
+(
+)
+?
 mPresContext
 -
 >
@@ -5671,6 +5675,8 @@ Document
 GetDocumentElement
 (
 )
+:
+nullptr
 ;
 Servo_StyleSet_FlushStyleSheets
 (
