@@ -443,6 +443,9 @@ attribute
 DOMString
 id
 ;
+[
+NeedsCallerType
+]
 readonly
 attribute
 DOMString
@@ -516,6 +519,9 @@ getConstraints
 (
 )
 ;
+[
+NeedsCallerType
+]
 MediaTrackSettings
 getSettings
 (

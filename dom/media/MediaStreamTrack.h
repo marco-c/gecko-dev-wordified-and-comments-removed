@@ -88,6 +88,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -766,12 +773,14 @@ aID
 )
 const
 ;
+virtual
 void
 GetLabel
 (
 nsAString
 &
 aLabel
+CallerType
 )
 {
 GetSource
@@ -825,6 +834,8 @@ dom
 MediaTrackSettings
 &
 aResult
+CallerType
+aCallerType
 )
 ;
 already_AddRefed
