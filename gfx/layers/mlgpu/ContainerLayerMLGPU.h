@@ -214,6 +214,15 @@ aBuilder
 )
 override
 ;
+void
+OnLayerManagerChange
+(
+LayerManagerMLGPU
+*
+aManager
+)
+override
+;
 private
 :
 RefPtr

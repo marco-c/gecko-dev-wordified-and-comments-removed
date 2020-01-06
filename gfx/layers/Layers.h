@@ -2215,6 +2215,17 @@ return
 mManager
 ;
 }
+void
+SetManager
+(
+LayerManager
+*
+aManager
+HostLayer
+*
+aSelf
+)
+;
 enum
 {
 CONTENT_OPAQUE
