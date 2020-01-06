@@ -336,6 +336,10 @@ mFakeDeviceChangeEventOn
 (
 false
 )
+mChannels
+(
+0
+)
 {
 }
 int32_t
@@ -385,6 +389,9 @@ mDelayAgnostic
 ;
 bool
 mFakeDeviceChangeEventOn
+;
+int32_t
+mChannels
 ;
 int32_t
 GetWidth
