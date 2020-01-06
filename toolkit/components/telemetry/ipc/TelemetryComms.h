@@ -620,7 +620,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 )
 )
 ;
@@ -668,7 +668,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 )
 )
 ;
@@ -716,7 +716,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 )
 )
 ;
@@ -843,7 +843,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 :
 {
 uint32_t
@@ -893,7 +893,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 :
 {
 nsString
@@ -941,7 +941,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 :
 {
 bool
@@ -1140,7 +1140,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 )
 )
 ;
@@ -1226,7 +1226,7 @@ uint32_t
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 )
 )
 ;
@@ -1369,7 +1369,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_COUNT
+SCALAR_TYPE_COUNT
 :
 {
 uint32_t
@@ -1419,7 +1419,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_STRING
+SCALAR_TYPE_STRING
 :
 {
 MOZ_ASSERT
@@ -1451,7 +1451,7 @@ case
 nsITelemetry
 :
 :
-SCALAR_BOOLEAN
+SCALAR_TYPE_BOOLEAN
 :
 {
 bool
