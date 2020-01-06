@@ -572,6 +572,17 @@ inconsistent
 "
 "
     
+if
+'
+SKIP
+'
+in
+results_dict
+:
+        
+return
+False
+    
 return
 len
 (
