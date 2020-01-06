@@ -106,7 +106,7 @@ template
 :
 :
 {
-AsNamed
+AsTemplateParam
 TemplateInstantiation
 TemplateParameters
 }
@@ -1845,7 +1845,7 @@ false
 }
 }
 impl
-AsNamed
+AsTemplateParam
 for
 Type
 {
@@ -1855,7 +1855,7 @@ Extra
 Item
 ;
 fn
-as_named
+as_template_param
 (
 &
 self
@@ -1879,7 +1879,7 @@ self
 .
 kind
 .
-as_named
+as_template_param
 (
 ctx
 item
@@ -1887,7 +1887,7 @@ item
 }
 }
 impl
-AsNamed
+AsTemplateParam
 for
 TypeKind
 {
@@ -1897,7 +1897,7 @@ Extra
 Item
 ;
 fn
-as_named
+as_template_param
 (
 &
 self
@@ -1946,7 +1946,7 @@ id
 >
 id
 .
-as_named
+as_template_param
 (
 ctx
 &

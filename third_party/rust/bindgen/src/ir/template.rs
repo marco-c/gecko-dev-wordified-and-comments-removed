@@ -326,13 +326,13 @@ collect
 }
 pub
 trait
-AsNamed
+AsTemplateParam
 {
 type
 Extra
 ;
 fn
-as_named
+as_template_param
 (
 &
 self
@@ -356,7 +356,7 @@ ItemId
 >
 ;
 fn
-is_named
+is_template_param
 (
 &
 self
@@ -378,7 +378,7 @@ bool
 {
 self
 .
-as_named
+as_template_param
 (
 ctx
 extra
