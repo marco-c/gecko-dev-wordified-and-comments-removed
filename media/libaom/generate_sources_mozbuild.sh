@@ -1603,7 +1603,7 @@ x86_64
 -
 win64
 -
-vs12
+vs14
 {
 all_platforms
 }
@@ -1624,7 +1624,7 @@ x86
 -
 win32
 -
-gcc
+vs14
 {
 all_platforms
 }

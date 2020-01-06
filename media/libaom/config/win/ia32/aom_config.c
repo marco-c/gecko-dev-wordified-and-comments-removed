@@ -23,7 +23,7 @@ x86
 -
 win32
 -
-gcc
+vs14
 -
 -
 enable

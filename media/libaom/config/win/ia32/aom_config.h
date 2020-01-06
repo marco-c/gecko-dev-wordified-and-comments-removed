@@ -10,7 +10,7 @@ RESTRICT
 #
 define
 INLINE
-inline
+__forceinline
 #
 define
 ARCH_ARM
@@ -142,11 +142,11 @@ CONFIG_RVCT
 #
 define
 CONFIG_GCC
-1
+0
 #
 define
 CONFIG_MSVS
-0
+1
 #
 define
 CONFIG_PIC
