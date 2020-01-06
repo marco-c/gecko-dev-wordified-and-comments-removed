@@ -210,12 +210,6 @@ no
 -
 accel
 -
-telemetry
--
-tests
--
-client
--
 xpcshell
 web
 -
