@@ -631,11 +631,6 @@ MediaDecoderOwner
 h
 '
 '
-MediaDecoderReader
-.
-h
-'
-'
 MediaDecoderStateMachine
 .
 h
@@ -1139,11 +1134,6 @@ cpp
 '
 '
 MediaDecoder
-.
-cpp
-'
-'
-MediaDecoderReader
 .
 cpp
 '

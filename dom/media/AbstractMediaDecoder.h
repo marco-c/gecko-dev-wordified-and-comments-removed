@@ -98,14 +98,6 @@ CDMProxy
 class
 GMPCrashHelper
 ;
-typedef
-nsDataHashtable
-<
-nsCStringHashKey
-nsCString
->
-MetadataTags
-;
 class
 AbstractMediaDecoder
 :
