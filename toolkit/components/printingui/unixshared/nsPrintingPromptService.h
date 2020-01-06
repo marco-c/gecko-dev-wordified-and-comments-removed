@@ -9,10 +9,13 @@ define
 NS_PRINTINGPROMPTSERVICE_CID
 \
 {
+\
 0xe042570c
 0x62de
 0x4bb6
+\
 {
+\
 0xa6
 0xe0
 0x79
@@ -21,7 +24,9 @@ NS_PRINTINGPROMPTSERVICE_CID
 0x7
 0xb4
 0xdf
+\
 }
+\
 }
 #
 define

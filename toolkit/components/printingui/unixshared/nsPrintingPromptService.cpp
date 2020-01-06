@@ -106,8 +106,9 @@ nsPrintingPromptService
 nsPrintingPromptService
 (
 )
-{
-}
+=
+default
+;
 nsPrintingPromptService
 :
 :
@@ -115,8 +116,9 @@ nsPrintingPromptService
 nsPrintingPromptService
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsPrintingPromptService
 :
