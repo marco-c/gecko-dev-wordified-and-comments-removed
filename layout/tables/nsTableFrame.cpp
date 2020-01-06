@@ -915,6 +915,17 @@ borderCollapse
 ;
 if
 (
+borderCollapse
+)
+{
+SetNeedToCalcHasBCBorders
+(
+true
+)
+;
+}
+if
+(
 !
 aPrevInFlow
 )
