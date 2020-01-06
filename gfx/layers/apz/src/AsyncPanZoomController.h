@@ -1560,6 +1560,10 @@ SmoothScrollAnimation
 ;
 friend
 class
+GenericScrollAnimation
+;
+friend
+class
 WheelScrollAnimation
 ;
 friend

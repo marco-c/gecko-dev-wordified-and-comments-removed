@@ -7498,7 +7498,7 @@ AsWheelScrollAnimation
 animation
 -
 >
-Update
+UpdateDelta
 (
 aEvent
 .
