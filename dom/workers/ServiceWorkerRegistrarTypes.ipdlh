@@ -141,8 +141,8 @@ cacheName
 PrincipalInfo
 principal
 ;
-uint32_t
-loadFlags
+uint16_t
+updateViaCache
 ;
 int64_t
 currentWorkerInstalledTime
