@@ -87,16 +87,6 @@ this
 )
 ;
 }
-~
-ServoStyleContext
-(
-)
-{
-Destructor
-(
-)
-;
-}
 void
 ResolveSameStructsAs
 (

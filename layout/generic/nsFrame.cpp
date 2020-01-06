@@ -48817,7 +48817,7 @@ us
 ;
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 newContext
 =
@@ -48831,6 +48831,11 @@ ResolveInheritingAnonymousBoxStyle
 (
 pseudo
 StyleContext
+(
+)
+-
+>
+AsServo
 (
 )
 )

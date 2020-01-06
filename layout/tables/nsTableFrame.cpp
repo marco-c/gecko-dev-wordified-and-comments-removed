@@ -38316,7 +38316,7 @@ parent
 ;
 RefPtr
 <
-nsStyleContext
+ServoStyleContext
 >
 newContext
 =
@@ -38336,6 +38336,11 @@ aOwningFrame
 -
 >
 StyleContext
+(
+)
+-
+>
+AsServo
 (
 )
 )
