@@ -196689,14 +196689,14 @@ pdfjsVersion
 .
 0
 .
-104
+106
 '
 ;
 var
 pdfjsBuild
 =
 '
-012d0756
+0052dc2b
 '
 ;
 var
@@ -197679,7 +197679,7 @@ workerVersion
 .
 0
 .
-104
+106
 '
 ;
 if
