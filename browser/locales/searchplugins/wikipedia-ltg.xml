@@ -85,8 +85,10 @@ search
 <
 ShortName
 >
-Vikip
-dija
+Vikipedeja
+(
+ltg
+)
 <
 /
 ShortName
@@ -96,10 +98,9 @@ Description
 >
 Vikip
 dija
-br
-v
-enciklop
-dija
+breivuo
+e
+ciklopedeja
 <
 /
 Description
@@ -169,7 +170,7 @@ https
 :
 /
 /
-lv
+ltg
 .
 wikipedia
 .
@@ -237,7 +238,7 @@ https
 :
 /
 /
-lv
+ltg
 .
 wikipedia
 .
@@ -245,7 +246,8 @@ org
 /
 wiki
 /
-Special
+Sevi
+kuo
 :
 Search
 "
