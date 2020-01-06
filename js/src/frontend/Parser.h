@@ -3095,6 +3095,15 @@ ForbidAssignmentToFunctionCalls
 ;
 private
 :
+const
+char
+*
+nameIsArgumentsOrEval
+(
+Node
+node
+)
+;
 bool
 checkIncDecOperand
 (
