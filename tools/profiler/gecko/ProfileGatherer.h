@@ -55,11 +55,6 @@ ProfileGatherer
 )
 ;
 void
-WillGatherOOPProfile
-(
-)
-;
-void
 GatheredOOPProfile
 (
 const
