@@ -96,16 +96,6 @@ WMFH264Decoder
 (
 )
 ;
-#
-ifdef
-__MINGW32__
-uint32_t
-cores
-=
-1u
-;
-#
-else
 uint32_t
 cores
 =
@@ -126,8 +116,6 @@ hardware_concurrency
 )
 )
 ;
-#
-endif
 HRESULT
 hr
 =
