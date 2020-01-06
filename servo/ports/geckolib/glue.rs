@@ -2563,18 +2563,6 @@ as_node
 )
 )
 ;
-if
-!
-traversal_flags
-.
-contains
-(
-TraversalFlags
-:
-:
-UnstyledOnly
-)
-{
 let
 needs_animation_only_restyle
 =
@@ -2636,7 +2624,6 @@ snapshots
 }
 )
 ;
-}
 }
 traverse_subtree
 (
