@@ -100,8 +100,6 @@ uint32_t
 aLength
 CTRunRef
 aCTRun
-int32_t
-aStringOffset
 )
 ;
 CTFontRef
