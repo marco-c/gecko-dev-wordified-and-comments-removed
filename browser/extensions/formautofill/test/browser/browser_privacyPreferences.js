@@ -35,7 +35,7 @@ CHECKBOX_AUTOFILL
 =
 "
 #
-profileAutofill
+addressAutofill
 checkbox
 "
 ;

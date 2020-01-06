@@ -11,7 +11,7 @@ selAddresses
 :
 "
 #
-profiles
+addresses
 "
 btnRemove
 :
@@ -115,7 +115,7 @@ add_task
 (
 async
 function
-test_manageProfilesInitialState
+test_manageAddressesInitialState
 (
 )
 {
@@ -128,7 +128,7 @@ withNewTab
 gBrowser
 url
 :
-MANAGE_PROFILES_DIALOG_URL
+MANAGE_ADDRESSES_DIALOG_URL
 }
 async
 function
@@ -269,7 +269,7 @@ add_task
 (
 async
 function
-test_cancelManageProfileDialogWithESC
+test_cancelManageAddressDialogWithESC
 (
 )
 {
@@ -288,7 +288,7 @@ window
 .
 openDialog
 (
-MANAGE_PROFILES_DIALOG_URL
+MANAGE_ADDRESSES_DIALOG_URL
 )
 ;
 win
@@ -320,7 +320,7 @@ ok
 true
 "
 Manage
-profiles
+addresses
 dialog
 is
 closed
@@ -372,7 +372,7 @@ add_task
 (
 async
 function
-test_removingSingleAndMultipleProfiles
+test_removingSingleAndMultipleAddresses
 (
 )
 {
@@ -401,7 +401,7 @@ window
 .
 openDialog
 (
-MANAGE_PROFILES_DIALOG_URL
+MANAGE_ADDRESSES_DIALOG_URL
 null
 DIALOG_SIZE
 )
@@ -626,7 +626,7 @@ add_task
 (
 async
 function
-test_profilesDialogWatchesStorageChanges
+test_addressesDialogWatchesStorageChanges
 (
 )
 {
@@ -637,7 +637,7 @@ window
 .
 openDialog
 (
-MANAGE_PROFILES_DIALOG_URL
+MANAGE_ADDRESSES_DIALOG_URL
 null
 DIALOG_SIZE
 )

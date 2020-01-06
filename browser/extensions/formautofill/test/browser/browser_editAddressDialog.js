@@ -7,7 +7,7 @@ add_task
 (
 async
 function
-test_cancelEditProfileDialog
+test_cancelEditAddressDialog
 (
 )
 {
@@ -26,7 +26,7 @@ window
 .
 openDialog
 (
-EDIT_PROFILE_DIALOG_URL
+EDIT_ADDRESS_DIALOG_URL
 null
 null
 null
@@ -61,7 +61,7 @@ ok
 true
 "
 Edit
-profile
+address
 dialog
 is
 closed
@@ -114,7 +114,7 @@ add_task
 (
 async
 function
-test_cancelEditProfileDialogWithESC
+test_cancelEditAddressDialogWithESC
 (
 )
 {
@@ -133,7 +133,7 @@ window
 .
 openDialog
 (
-EDIT_PROFILE_DIALOG_URL
+EDIT_ADDRESS_DIALOG_URL
 )
 ;
 win
@@ -165,7 +165,7 @@ ok
 true
 "
 Edit
-profile
+address
 dialog
 is
 closed
@@ -236,7 +236,7 @@ window
 .
 openDialog
 (
-EDIT_PROFILE_DIALOG_URL
+EDIT_ADDRESS_DIALOG_URL
 null
 null
 null
@@ -271,7 +271,7 @@ ok
 true
 "
 Edit
-profile
+address
 dialog
 is
 closed
@@ -617,7 +617,7 @@ info
 (
 "
 saving
-profile
+address
 "
 )
 ;
@@ -729,7 +729,7 @@ add_task
 (
 async
 function
-test_editProfile
+test_editAddress
 (
 )
 {
@@ -756,7 +756,7 @@ window
 .
 openDialog
 (
-EDIT_PROFILE_DIALOG_URL
+EDIT_ADDRESS_DIALOG_URL
 null
 null
 addresses
@@ -794,7 +794,7 @@ ok
 true
 "
 Edit
-profile
+address
 dialog
 is
 closed

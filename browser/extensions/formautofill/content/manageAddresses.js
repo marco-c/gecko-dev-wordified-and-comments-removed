@@ -22,7 +22,7 @@ Cr
 Components
 ;
 const
-EDIT_PROFILE_URL
+EDIT_ADDRESS_URL
 =
 "
 chrome
@@ -33,7 +33,7 @@ formautofill
 /
 content
 /
-editProfile
+editAddress
 .
 xhtml
 "
@@ -105,12 +105,12 @@ defineLazyLogGetter
 (
 this
 "
-manageProfiles
+manageAddresses
 "
 )
 ;
 function
-ManageProfileDialog
+ManageAddressDialog
 (
 )
 {
@@ -138,7 +138,7 @@ true
 )
 ;
 }
-ManageProfileDialog
+ManageAddressDialog
 .
 prototype
 =
@@ -201,7 +201,7 @@ document
 getElementById
 (
 "
-profiles
+addresses
 "
 )
 controlsContainer
@@ -744,7 +744,7 @@ gSubDialog
 .
 open
 (
-EDIT_PROFILE_URL
+EDIT_ADDRESS_URL
 null
 address
 )
@@ -1334,7 +1334,7 @@ changed
 }
 ;
 new
-ManageProfileDialog
+ManageAddressDialog
 (
 )
 ;
