@@ -2966,9 +2966,35 @@ full_path
 )
 )
                         
+try
+:
+                            
 delete
 (
 full_path
+)
+                        
+except
+OSError
+as
+e
+:
+                            
+print
+(
+"
+Removal
+failed
+with
+error
+{
+}
+"
+.
+format
+(
+e
+)
 )
                     
 else
