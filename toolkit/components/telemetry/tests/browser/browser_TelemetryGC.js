@@ -469,7 +469,7 @@ slice
 length
 <
 =
-15
+12
 "
 slice
 is

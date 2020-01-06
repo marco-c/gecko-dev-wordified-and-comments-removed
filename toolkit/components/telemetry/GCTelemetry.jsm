@@ -451,7 +451,7 @@ MAX_SLICES
 const
 MAX_SLICE_KEYS
 =
-15
+12
 ;
 const
 MAX_PHASES
