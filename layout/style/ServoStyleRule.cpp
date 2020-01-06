@@ -921,6 +921,13 @@ uint64_t
 aSpecificity
 )
 {
+Servo_StyleRule_GetSpecificityAtIndex
+(
+mRawRule
+aSelectorIndex
+aSpecificity
+)
+;
 return
 NS_OK
 ;
