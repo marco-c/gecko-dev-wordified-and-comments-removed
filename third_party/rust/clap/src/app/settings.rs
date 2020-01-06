@@ -28,7 +28,7 @@ BitOr
 bitflags
 !
 {
-flags
+struct
 Flags
 :
 u64
@@ -37,9 +37,7 @@ const
 SC_NEGATE_REQS
 =
 1
-<
-<
-0
+;
 const
 SC_REQUIRED
 =
@@ -47,6 +45,7 @@ SC_REQUIRED
 <
 <
 1
+;
 const
 A_REQUIRED_ELSE_HELP
 =
@@ -54,6 +53,7 @@ A_REQUIRED_ELSE_HELP
 <
 <
 2
+;
 const
 GLOBAL_VERSION
 =
@@ -61,6 +61,7 @@ GLOBAL_VERSION
 <
 <
 3
+;
 const
 VERSIONLESS_SC
 =
@@ -68,6 +69,7 @@ VERSIONLESS_SC
 <
 <
 4
+;
 const
 UNIFIED_HELP
 =
@@ -75,6 +77,7 @@ UNIFIED_HELP
 <
 <
 5
+;
 const
 WAIT_ON_ERROR
 =
@@ -82,6 +85,7 @@ WAIT_ON_ERROR
 <
 <
 6
+;
 const
 SC_REQUIRED_ELSE_HELP
 =
@@ -89,6 +93,7 @@ SC_REQUIRED_ELSE_HELP
 <
 <
 7
+;
 const
 NEEDS_LONG_HELP
 =
@@ -96,6 +101,7 @@ NEEDS_LONG_HELP
 <
 <
 8
+;
 const
 NEEDS_LONG_VERSION
 =
@@ -103,6 +109,7 @@ NEEDS_LONG_VERSION
 <
 <
 9
+;
 const
 NEEDS_SC_HELP
 =
@@ -110,6 +117,7 @@ NEEDS_SC_HELP
 <
 <
 10
+;
 const
 DISABLE_VERSION
 =
@@ -117,6 +125,7 @@ DISABLE_VERSION
 <
 <
 11
+;
 const
 HIDDEN
 =
@@ -124,6 +133,7 @@ HIDDEN
 <
 <
 12
+;
 const
 TRAILING_VARARG
 =
@@ -131,6 +141,7 @@ TRAILING_VARARG
 <
 <
 13
+;
 const
 NO_BIN_NAME
 =
@@ -138,6 +149,7 @@ NO_BIN_NAME
 <
 <
 14
+;
 const
 ALLOW_UNK_SC
 =
@@ -145,6 +157,7 @@ ALLOW_UNK_SC
 <
 <
 15
+;
 const
 UTF8_STRICT
 =
@@ -152,6 +165,7 @@ UTF8_STRICT
 <
 <
 16
+;
 const
 UTF8_NONE
 =
@@ -159,6 +173,7 @@ UTF8_NONE
 <
 <
 17
+;
 const
 LEADING_HYPHEN
 =
@@ -166,6 +181,7 @@ LEADING_HYPHEN
 <
 <
 18
+;
 const
 NO_POS_VALUES
 =
@@ -173,6 +189,7 @@ NO_POS_VALUES
 <
 <
 19
+;
 const
 NEXT_LINE_HELP
 =
@@ -180,6 +197,7 @@ NEXT_LINE_HELP
 <
 <
 20
+;
 const
 DERIVE_DISP_ORDER
 =
@@ -187,6 +205,7 @@ DERIVE_DISP_ORDER
 <
 <
 21
+;
 const
 COLORED_HELP
 =
@@ -194,6 +213,7 @@ COLORED_HELP
 <
 <
 22
+;
 const
 COLOR_ALWAYS
 =
@@ -201,6 +221,7 @@ COLOR_ALWAYS
 <
 <
 23
+;
 const
 COLOR_AUTO
 =
@@ -208,6 +229,7 @@ COLOR_AUTO
 <
 <
 24
+;
 const
 COLOR_NEVER
 =
@@ -215,6 +237,7 @@ COLOR_NEVER
 <
 <
 25
+;
 const
 DONT_DELIM_TRAIL
 =
@@ -222,6 +245,7 @@ DONT_DELIM_TRAIL
 <
 <
 26
+;
 const
 ALLOW_NEG_NUMS
 =
@@ -229,6 +253,7 @@ ALLOW_NEG_NUMS
 <
 <
 27
+;
 const
 LOW_INDEX_MUL_POS
 =
@@ -236,6 +261,7 @@ LOW_INDEX_MUL_POS
 <
 <
 28
+;
 const
 DISABLE_HELP_SC
 =
@@ -243,6 +269,7 @@ DISABLE_HELP_SC
 <
 <
 29
+;
 const
 DONT_COLLAPSE_ARGS
 =
@@ -250,6 +277,7 @@ DONT_COLLAPSE_ARGS
 <
 <
 30
+;
 const
 ARGS_NEGATE_SCS
 =
@@ -257,6 +285,7 @@ ARGS_NEGATE_SCS
 <
 <
 31
+;
 const
 PROPAGATE_VALS_DOWN
 =
@@ -264,6 +293,7 @@ PROPAGATE_VALS_DOWN
 <
 <
 32
+;
 const
 ALLOW_MISSING_POS
 =
@@ -271,6 +301,7 @@ ALLOW_MISSING_POS
 <
 <
 33
+;
 const
 TRAILING_VALUES
 =
@@ -278,6 +309,7 @@ TRAILING_VALUES
 <
 <
 34
+;
 const
 VALID_NEG_NUM_FOUND
 =
@@ -285,6 +317,7 @@ VALID_NEG_NUM_FOUND
 <
 <
 35
+;
 const
 PROPOGATED
 =
@@ -292,6 +325,7 @@ PROPOGATED
 <
 <
 36
+;
 const
 VALID_ARG_FOUND
 =
@@ -299,6 +333,7 @@ VALID_ARG_FOUND
 <
 <
 37
+;
 const
 INFER_SUBCOMMANDS
 =
@@ -306,6 +341,7 @@ INFER_SUBCOMMANDS
 <
 <
 38
+;
 const
 CONTAINS_LAST
 =
@@ -313,6 +349,7 @@ CONTAINS_LAST
 <
 <
 39
+;
 }
 }
 #

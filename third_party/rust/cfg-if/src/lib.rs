@@ -1,6 +1,11 @@
 #
 !
 [
+no_std
+]
+#
+!
+[
 doc
 (
 html_root_url
@@ -303,7 +308,7 @@ test
 ]
 {
 use
-std
+core
 :
 :
 option
