@@ -13074,9 +13074,6 @@ DefaultIcon
 "
 "
 {
-EndIf
-}
-{
 If
 }
 {
@@ -13105,6 +13102,9 @@ DefaultIcon
 "
 "
 "
+{
+EndIf
+}
 {
 EndIf
 }
