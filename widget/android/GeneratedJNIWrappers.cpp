@@ -9117,14 +9117,6 @@ float
 a1
 float
 a2
-float
-a3
-float
-a4
-float
-a5
-float
-a6
 )
 const
 -
@@ -9154,10 +9146,6 @@ nullptr
 a0
 a1
 a2
-a3
-a4
-a5
-a6
 )
 ;
 }

@@ -3708,10 +3708,6 @@ const
 CSSToScreenScale
 &
 aZoom
-const
-CSSRect
-&
-aPage
 )
 =
 0

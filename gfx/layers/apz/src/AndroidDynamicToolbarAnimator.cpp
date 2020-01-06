@@ -4624,7 +4624,6 @@ NewRunnableMethod
 <
 ScreenPoint
 CSSToScreenScale
-CSSRect
 >
 (
 "
@@ -4641,7 +4640,6 @@ UiCompositorControllerParent
 SendRootFrameMetrics
 aScrollOffset
 aScale
-aCssPageRect
 )
 )
 ;

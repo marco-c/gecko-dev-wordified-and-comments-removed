@@ -323,8 +323,6 @@ ScreenPoint
 aScrollOffset
 CSSToScreenScale
 aZoom
-CSSRect
-aPage
 )
 ;
 async

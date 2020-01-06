@@ -744,14 +744,6 @@ float
 scrollY
 float
 zoom
-float
-cssPageLeft
-float
-cssPageTop
-float
-cssPageRight
-float
-cssPageBottom
 )
 {
 mViewportMetrics
