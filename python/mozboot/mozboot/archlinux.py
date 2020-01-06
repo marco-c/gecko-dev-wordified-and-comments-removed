@@ -288,7 +288,7 @@ MOBILE_ANDROID_COMMON_PACKAGES
 [
         
 '
-jdk7
+jdk8
 -
 openjdk
 '
