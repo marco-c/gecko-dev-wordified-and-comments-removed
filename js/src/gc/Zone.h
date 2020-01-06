@@ -569,10 +569,6 @@ bool
 discardBaselineCode
 =
 true
-bool
-addMarkers
-=
-true
 )
 ;
 void

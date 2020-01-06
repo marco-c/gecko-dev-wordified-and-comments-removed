@@ -3111,10 +3111,6 @@ ReleaseAllJITCode
 FreeOp
 *
 op
-bool
-addMarkers
-=
-true
 )
 ;
 extern

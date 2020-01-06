@@ -975,8 +975,6 @@ FreeOp
 fop
 bool
 discardBaselineCode
-bool
-addMarkers
 )
 {
 if
@@ -1104,7 +1102,6 @@ FinishInvalidation
 (
 fop
 script
-addMarkers
 )
 ;
 if
