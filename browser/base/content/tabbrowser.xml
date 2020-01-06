@@ -7729,11 +7729,6 @@ wrapper
 "
 )
 ;
-if
-(
-forwardButtonContainer
-)
-{
 forwardButtonContainer
 .
 setAttribute
@@ -7774,7 +7769,6 @@ true
 }
 )
 ;
-}
 this
 .
 _appendStatusPanel
