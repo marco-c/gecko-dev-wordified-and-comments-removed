@@ -1218,9 +1218,16 @@ responseType
 if
 (
 !
+(
 extension
 .
 isEmbedded
+|
+|
+recipient
+.
+toProxyScript
+)
 |
 |
 !
