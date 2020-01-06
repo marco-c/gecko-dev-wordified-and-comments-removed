@@ -26,7 +26,6 @@ about
 :
 blank
 "
-triggeringPrincipal_base64
 }
 ]
 }
@@ -47,7 +46,6 @@ example
 com
 /
 "
-triggeringPrincipal_base64
 }
 ]
 }

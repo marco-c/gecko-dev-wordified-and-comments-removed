@@ -32,7 +32,7 @@ jsm
 )
 ;
 const
-triggeringPrincipal_base64
+triggeringPrincipalBase64
 =
 Utils
 .
@@ -86,7 +86,7 @@ about
 :
 blank
 "
-triggeringPrincipal_base64
+triggeringPrincipalBase64
 }
 ]
 }
