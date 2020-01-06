@@ -78,7 +78,7 @@ aFmt
 )
 ;
 static
-uint32_t
+void
 ssprintf
 (
 nsAString
@@ -113,7 +113,7 @@ aAp
 )
 ;
 static
-uint32_t
+void
 vssprintf
 (
 nsAString
