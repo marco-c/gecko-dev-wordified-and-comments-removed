@@ -375,7 +375,7 @@ largeAllocSuccessTests
 {
 requestLongerTimeout
 (
-2
+4
 )
 ;
 let
