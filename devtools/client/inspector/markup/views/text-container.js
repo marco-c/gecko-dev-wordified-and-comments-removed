@@ -75,9 +75,13 @@ require
 "
 devtools
 /
-shared
+client
 /
-extend
+inspector
+/
+markup
+/
+utils
 "
 )
 ;
