@@ -540,6 +540,14 @@ aBuilder
 ;
 virtual
 bool
+MayBeAsynchronouslyScrolled
+(
+)
+=
+0
+;
+virtual
+bool
 IsMaybeScrollingActive
 (
 )
