@@ -2783,6 +2783,11 @@ present
 '
 )
             
+if
+not
+status
+:
+                
 for
 warning
 in
@@ -2793,7 +2798,7 @@ monitor
 instance_warnings
 )
 :
-                
+                    
 path
 =
 mozpath
@@ -2807,7 +2812,7 @@ filename
 '
 ]
 )
-                
+                    
 if
 path
 .
@@ -2818,7 +2823,7 @@ self
 topsrcdir
 )
 :
-                    
+                        
 path
 =
 path
@@ -2833,7 +2838,7 @@ topsrcdir
 1
 :
 ]
-                
+                    
 warning
 [
 '
@@ -2842,7 +2847,7 @@ normpath
 ]
 =
 path
-                
+                    
 if
 warning
 [
@@ -2854,7 +2859,7 @@ is
 not
 None
 :
-                    
+                        
 self
 .
 log
@@ -2866,7 +2871,7 @@ WARNING
 compiler_warning
 '
 warning
-                             
+                                 
 '
 warning
 :
@@ -2887,17 +2892,17 @@ flag
 }
 ]
 '
-                             
+                                 
 '
 {
 message
 }
 '
 )
-                
+                    
 else
 :
-                    
+                        
 self
 .
 log
@@ -2909,7 +2914,7 @@ WARNING
 compiler_warning
 '
 warning
-                             
+                                 
 '
 warning
 :
