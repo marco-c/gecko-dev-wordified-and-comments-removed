@@ -479,7 +479,7 @@ NULL
 ;
 r
 =
-cubeb_init
+common_init
 (
 &
 ctx
@@ -490,7 +490,6 @@ test
 :
 channels
 "
-NULL
 )
 ;
 if
@@ -790,7 +789,7 @@ NULL
 ;
 r
 =
-cubeb_init
+common_init
 (
 &
 ctx
@@ -799,7 +798,6 @@ Cubeb
 audio
 test
 "
-NULL
 )
 ;
 if

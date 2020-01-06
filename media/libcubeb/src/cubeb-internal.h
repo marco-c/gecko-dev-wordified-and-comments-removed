@@ -235,7 +235,6 @@ cubeb_device_type
 type
 cubeb_device_collection
 *
-*
 collection
 )
 ;

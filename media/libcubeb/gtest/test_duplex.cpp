@@ -380,7 +380,7 @@ latency_frames
 ;
 r
 =
-cubeb_init
+common_init
 (
 &
 ctx
@@ -389,7 +389,6 @@ Cubeb
 duplex
 example
 "
-NULL
 )
 ;
 ASSERT_EQ

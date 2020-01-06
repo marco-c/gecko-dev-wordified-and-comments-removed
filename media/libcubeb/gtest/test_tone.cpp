@@ -384,7 +384,7 @@ r
 ;
 r
 =
-cubeb_init
+common_init
 (
 &
 ctx
@@ -393,7 +393,6 @@ Cubeb
 tone
 example
 "
-NULL
 )
 ;
 ASSERT_EQ
