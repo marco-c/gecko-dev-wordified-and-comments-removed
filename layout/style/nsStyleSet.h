@@ -1731,17 +1731,6 @@ ClearSelectors
 (
 )
 ;
-static
-bool
-IsCSSSheetType
-(
-mozilla
-:
-:
-SheetType
-aSheetType
-)
-;
 void
 SetUsesViewportUnits
 (
