@@ -616,6 +616,16 @@ mozilla
 gfx
 :
 :
+Size
+Size
+;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
 Matrix4x4
 Matrix4x4
 ;
@@ -5040,7 +5050,7 @@ IsAnimationLoggingEnabled
 )
 ;
 static
-gfxSize
+Size
 ComputeSuitableScaleForAnimation
 (
 const
