@@ -7407,6 +7407,11 @@ true
 }
 #
 endif
+SetReadyStateInternal
+(
+READYSTATE_UNINITIALIZED
+)
+;
 rv
 =
 window
