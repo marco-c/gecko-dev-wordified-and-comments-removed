@@ -12320,9 +12320,9 @@ version
 "
 0
 .
-3
+4
 .
-2
+0
 "
 source
 =
@@ -12341,7 +12341,7 @@ servo
 /
 fontsan
 #
-ab68da1723827d6302653ccb76c1d215d36b7d4c
+29e879c870348c4b3fd51086e42dbb6365171479
 "
 dependencies
 =
@@ -13782,9 +13782,9 @@ index
 fontsan
 0
 .
-3
+4
 .
-2
+0
 (
 git
 +
@@ -53302,9 +53302,9 @@ checksum
 fontsan
 0
 .
-3
+4
 .
-2
+0
 (
 git
 +
