@@ -551,9 +551,9 @@ stylo
 False
         
 if
-'
+"
 STYLO_FORCE_ENABLED
-'
+"
 in
 os
 .
@@ -568,6 +568,25 @@ stylo
 ]
 =
 True
+        
+if
+"
+STYLO_FORCE_DISABLED
+"
+in
+os
+.
+environ
+:
+            
+self
+[
+"
+stylo
+"
+]
+=
+False
         
 if
 extras
