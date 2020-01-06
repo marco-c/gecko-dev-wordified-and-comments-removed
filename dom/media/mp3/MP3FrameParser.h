@@ -30,9 +30,6 @@ h
 namespace
 mozilla
 {
-namespace
-mp3
-{
 class
 ID3Parser
 {
@@ -631,7 +628,6 @@ mPrevFrame
 ;
 }
 ;
-}
 }
 #
 endif

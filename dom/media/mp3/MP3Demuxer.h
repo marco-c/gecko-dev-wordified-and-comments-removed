@@ -28,9 +28,6 @@ h
 namespace
 mozilla
 {
-namespace
-mp3
-{
 class
 MP3TrackDemuxer
 ;
@@ -479,7 +476,6 @@ mInfo
 ;
 }
 ;
-}
 }
 #
 endif

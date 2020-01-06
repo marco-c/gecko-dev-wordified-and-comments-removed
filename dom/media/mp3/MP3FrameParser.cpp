@@ -122,9 +122,6 @@ namespace
 mozilla
 {
 namespace
-mp3
-{
-namespace
 frame_header
 {
 static
@@ -3530,6 +3527,5 @@ mPos
 +
 )
 ;
-}
 }
 }
