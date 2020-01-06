@@ -131,11 +131,6 @@ b
 linux
 worker
 :
-implementation
-:
-docker
--
-worker
 max
 -
 run

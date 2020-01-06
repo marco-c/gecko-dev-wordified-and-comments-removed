@@ -42,11 +42,6 @@ linux
 xlarge
 worker
 :
-implementation
-:
-docker
--
-worker
 docker
 -
 image
@@ -397,11 +392,6 @@ linux
 xlarge
 worker
 :
-implementation
-:
-docker
--
-worker
 docker
 -
 image
@@ -534,11 +524,6 @@ linux
 xlarge
 worker
 :
-implementation
-:
-docker
--
-worker
 docker
 -
 image

@@ -157,11 +157,6 @@ b
 linux
 worker
 :
-implementation
-:
-docker
--
-worker
 docker
 -
 image

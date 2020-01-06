@@ -110,11 +110,6 @@ b
 win2012
 worker
 :
-implementation
-:
-generic
--
-worker
 max
 -
 run
@@ -226,11 +221,6 @@ b
 win2012
 worker
 :
-implementation
-:
-generic
--
-worker
 max
 -
 run
@@ -358,11 +348,6 @@ b
 win2012
 worker
 :
-implementation
-:
-generic
--
-worker
 max
 -
 run
@@ -492,11 +477,6 @@ b
 win2012
 worker
 :
-implementation
-:
-generic
--
-worker
 max
 -
 run

@@ -224,6 +224,9 @@ implementation
 docker
 -
 worker
+os
+:
+linux
 docker
 -
 image
@@ -577,6 +580,9 @@ implementation
 docker
 -
 worker
+os
+:
+linux
 docker
 -
 image
@@ -917,6 +923,9 @@ implementation
 docker
 -
 worker
+os
+:
+linux
 docker
 -
 image
@@ -1634,6 +1643,9 @@ implementation
 docker
 -
 worker
+os
+:
+linux
 docker
 -
 image
@@ -2021,6 +2033,9 @@ implementation
 docker
 -
 worker
+os
+:
+linux
 docker
 -
 image

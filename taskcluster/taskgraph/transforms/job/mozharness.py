@@ -502,6 +502,14 @@ params
 level
 '
 ]
+        
+'
+MOZ_AUTOMATION
+'
+:
+'
+1
+'
     
 }
 )
@@ -1038,6 +1046,31 @@ taskdesc
 )
 :
     
+assert
+job
+[
+'
+worker
+'
+]
+[
+'
+os
+'
+]
+=
+=
+'
+windows
+'
+'
+only
+supports
+windows
+right
+now
+'
+    
 run
 =
 job
@@ -1260,6 +1293,14 @@ MOZ_SIMPLE_PACKAGE_NAME
 :
 '
 target
+'
+        
+'
+MOZ_AUTOMATION
+'
+:
+'
+1
 '
     
 }

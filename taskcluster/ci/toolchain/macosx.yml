@@ -104,11 +104,6 @@ b
 macosx64
 worker
 :
-implementation
-:
-docker
--
-worker
 docker
 -
 image
@@ -249,11 +244,6 @@ b
 macosx64
 worker
 :
-implementation
-:
-docker
--
-worker
 docker
 -
 image
@@ -390,11 +380,6 @@ b
 macosx64
 worker
 :
-implementation
-:
-docker
--
-worker
 docker
 -
 image
