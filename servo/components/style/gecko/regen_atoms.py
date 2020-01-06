@@ -380,6 +380,8 @@ compile
 CSS_ANON_BOX
 |
 CSS_NON_INHERITING_ANON_BOX
+|
+CSS_WRAPPER_ANON_BOX
 )
 \
 (
@@ -719,6 +721,7 @@ self
 :
         
 return
+(
 self
 .
 macro
@@ -727,6 +730,17 @@ macro
 "
 CSS_ANON_BOX
 "
+or
+                
+self
+.
+macro
+=
+=
+"
+CSS_WRAPPER_ANON_BOX
+"
+)
     
 def
 is_tree_pseudo_element
