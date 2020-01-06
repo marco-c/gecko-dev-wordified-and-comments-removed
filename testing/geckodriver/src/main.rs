@@ -69,8 +69,7 @@ net
 :
 {
 SocketAddr
-SocketAddrV4
-Ipv4Addr
+IpAddr
 }
 ;
 use
@@ -565,7 +564,7 @@ webdriver_port
 let
 addr
 =
-Ipv4Addr
+IpAddr
 :
 :
 from_str
@@ -581,16 +580,10 @@ x
 SocketAddr
 :
 :
-V4
-(
-SocketAddrV4
-:
-:
 new
 (
 x
 port
-)
 )
 )
 .
