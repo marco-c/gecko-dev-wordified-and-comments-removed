@@ -1850,6 +1850,7 @@ AndroidSurfaceTexture
 GetTransformMatrix
 (
 surf
+&
 ret
 )
 ;
