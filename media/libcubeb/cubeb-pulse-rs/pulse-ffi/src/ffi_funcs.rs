@@ -4,6 +4,17 @@ super
 :
 *
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+dlopen
+"
+)
+]
 macro_rules
 !
 cstr
