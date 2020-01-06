@@ -2891,6 +2891,12 @@ toolbarbutton
 height
 )
 ;
+min
+-
+height
+:
+36px
+;
 }
 #
 nav
@@ -3694,6 +3700,12 @@ toolbarbutton
 -
 height
 )
+;
+min
+-
+height
+:
+54px
 ;
 background
 -
