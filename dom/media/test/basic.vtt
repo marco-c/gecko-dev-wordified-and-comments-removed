@@ -1,6 +1,5 @@
 WEBVTT
-Region
-:
+REGION
 id
 =
 testOne
@@ -11,8 +10,7 @@ width
 =
 30
 %
-Region
-:
+REGION
 id
 =
 testTwo
