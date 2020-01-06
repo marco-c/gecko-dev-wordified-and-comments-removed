@@ -3319,9 +3319,6 @@ mAuthChannel
 >
 ConnectionRestartable
 (
-mConnectionBased
-&
-&
 !
 authAtProgress
 )
