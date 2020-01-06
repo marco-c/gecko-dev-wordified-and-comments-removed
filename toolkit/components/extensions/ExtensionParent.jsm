@@ -672,6 +672,9 @@ Schemas
 load
 (
 BASE_SCHEMA
+AppConstants
+.
+DEBUG
 )
 .
 then
