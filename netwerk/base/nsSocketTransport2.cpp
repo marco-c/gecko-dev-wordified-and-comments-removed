@@ -15131,7 +15131,7 @@ is
 no
 "
 "
-PR_FileDesc2PlatformOverlappedIOHandle
+PR_EXPERIMENTAL_ONLY_IN_4_17_GetOverlappedIOHandle
 function
 .
 \
