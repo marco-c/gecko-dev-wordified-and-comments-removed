@@ -94,6 +94,14 @@ bin
 /
 gtest
 '
+if
+CONFIG
+[
+'
+ENABLE_TESTS
+'
+]
+:
 USE_LIBS
 +
 =
@@ -103,6 +111,11 @@ gkrust
 -
 gtest
 '
+]
+USE_LIBS
++
+=
+[
 '
 static
 :

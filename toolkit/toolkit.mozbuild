@@ -93,6 +93,14 @@ MPL
 0
 /
 .
+if
+CONFIG
+[
+'
+ENABLE_TESTS
+'
+]
+:
 DIRS
 +
 =
@@ -107,6 +115,11 @@ gtest
 /
 rust
 '
+]
+DIRS
++
+=
+[
 '
 /
 toolkit

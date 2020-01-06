@@ -2001,6 +2001,7 @@ in
 -
 build
 '
+enable_tests
 when
 =
 '
@@ -2021,9 +2022,13 @@ build_project
 target
 automation
 enabled
+enable_tests
 )
 :
 if
+not
+enable_tests
+or
 not
 enabled
 :
