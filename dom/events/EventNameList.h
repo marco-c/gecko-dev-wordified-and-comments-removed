@@ -1021,6 +1021,13 @@ eBasicEventClass
 )
 WINDOW_EVENT
 (
+messageerror
+eMessageError
+EventNameType_HTMLBodyOrFramesetOnly
+eBasicEventClass
+)
+WINDOW_EVENT
+(
 offline
 eOffline
 EventNameType_XUL
