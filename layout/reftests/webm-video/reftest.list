@@ -1521,12 +1521,6 @@ if
 (
 styloVsGecko
 )
-skip
--
-if
-(
-webrender
-)
 =
 =
 object
@@ -1592,12 +1586,6 @@ fails
 if
 (
 styloVsGecko
-)
-skip
--
-if
-(
-webrender
 )
 =
 =
