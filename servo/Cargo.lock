@@ -13509,7 +13509,7 @@ xml5ever
 .
 11
 .
-0
+1
 (
 registry
 +
@@ -15472,7 +15472,7 @@ markup5ever
 .
 6
 .
-0
+2
 (
 registry
 +
@@ -21760,7 +21760,7 @@ xml5ever
 .
 11
 .
-0
+1
 (
 registry
 +
@@ -21911,7 +21911,7 @@ version
 .
 6
 .
-0
+2
 "
 source
 =
@@ -33928,7 +33928,7 @@ xml5ever
 .
 11
 .
-0
+1
 (
 registry
 +
@@ -48290,7 +48290,7 @@ version
 .
 11
 .
-0
+1
 "
 source
 =
@@ -48382,7 +48382,7 @@ markup5ever
 .
 6
 .
-0
+2
 (
 registry
 +
@@ -53283,7 +53283,7 @@ markup5ever
 .
 6
 .
-0
+2
 (
 registry
 +
@@ -53308,7 +53308,7 @@ index
 "
 =
 "
-42cbeefb74733fcb0ea1997095d3439fd62891c72c30f51aeed29751cfad94b0
+2cf89d3e0486c32c9d99521455ddf9a438910a1ce2bd376936086edc15dff5fc
 "
 "
 checksum
@@ -58375,7 +58375,7 @@ xml5ever
 .
 11
 .
-0
+1
 (
 registry
 +
@@ -58400,5 +58400,5 @@ index
 "
 =
 "
-c48ce5543b6396e3cd5f52e25a492857853bba3a93d457c76b9eaaca57a07e03
+7ea36cbec2df63ed95e07861d0868a12fb8cb73c88f4c0b0ebf36f2dfc86b6eb
 "

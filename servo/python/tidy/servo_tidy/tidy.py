@@ -2471,11 +2471,15 @@ chain
 (
 [
 content
-[
+.
+get
+(
 "
 root
 "
+[
 ]
+)
 ]
 content
 [
