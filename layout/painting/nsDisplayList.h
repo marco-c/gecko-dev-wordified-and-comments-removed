@@ -2545,6 +2545,10 @@ aFrame
 nsIFrame
 *
 aStopAtFrame
+bool
+aAlreadyAddedFrame
+=
+false
 )
 ;
 void
