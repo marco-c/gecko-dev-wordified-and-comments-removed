@@ -18965,6 +18965,8 @@ SetFastOpenConnected
 (
 nsresult
 aError
+bool
+aWillRetry
 )
 {
 RefPtr
@@ -18977,6 +18979,10 @@ this
 )
 ;
 if
+(
+aWillRetry
+&
+&
 (
 (
 aError
@@ -18991,6 +18997,7 @@ aError
 =
 =
 NS_ERROR_NET_TIMEOUT
+)
 )
 )
 {

@@ -37,6 +37,8 @@ SetFastOpenConnected
 (
 nsresult
 error
+bool
+aWillRetry
 )
 =
 0
