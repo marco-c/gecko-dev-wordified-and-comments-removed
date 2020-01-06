@@ -244,16 +244,6 @@ aProxy
 )
 ;
 }
-Type
-GetType
-(
-)
-const
-{
-return
-mType
-;
-}
 void
 ResolveOrReject
 (
