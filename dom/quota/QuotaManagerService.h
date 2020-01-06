@@ -150,15 +150,6 @@ nsIEventTarget
 >
 mBackgroundThread
 ;
-nsTArray
-<
-nsAutoPtr
-<
-PendingRequestInfo
->
->
-mPendingRequests
-;
 QuotaChild
 *
 mBackgroundActor
