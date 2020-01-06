@@ -626,7 +626,15 @@ JSON
 .
 parse
 (
+JSON
+.
+parse
+(
 wbo
+)
+[
+0
+]
 )
 .
 payload
