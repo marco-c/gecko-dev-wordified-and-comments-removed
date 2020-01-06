@@ -442,6 +442,16 @@ index
 )
 SERVO_BINDING_FUNC
 (
+Servo_CssRules_GetCounterStyleRuleAt
+nsCSSCounterStyleRule
+*
+ServoCssRulesBorrowed
+rules
+uint32_t
+index
+)
+SERVO_BINDING_FUNC
+(
 Servo_StyleRule_GetStyle
 RawServoDeclarationBlockStrong
 RawServoStyleRuleBorrowed
