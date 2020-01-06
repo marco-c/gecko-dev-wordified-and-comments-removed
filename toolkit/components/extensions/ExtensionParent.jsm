@@ -3346,14 +3346,6 @@ try
 let
 args
 =
-data
-.
-noClone
-?
-data
-.
-args
-:
 Cu
 .
 cloneInto

@@ -4038,10 +4038,6 @@ callParentAsyncFunction
 path
 args
 callback
-options
-=
-{
-}
 )
 {
 let
@@ -4090,14 +4086,6 @@ id
 callId
 path
 args
-noClone
-:
-options
-.
-noClone
-|
-|
-false
 }
 )
 ;

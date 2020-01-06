@@ -3999,7 +3999,6 @@ ChromeWorker
 ExtensionCommon
 MatchPattern
 MatchPatternSet
-StructuredCloneHolder
 extensions
 :
 this
