@@ -323,7 +323,7 @@ UNEXPECTED
 -
 FAIL
 :
-setup
+manifestLibrary
 .
 js
 |
@@ -362,7 +362,7 @@ UNEXPECTED
 -
 FAIL
 :
-setup
+manifestLibrary
 .
 js
 |
@@ -373,6 +373,16 @@ loading
 url
 +
 "
+(
+HTTP
+"
++
+req
+.
+status
++
+"
+)
 \
 n
 "
