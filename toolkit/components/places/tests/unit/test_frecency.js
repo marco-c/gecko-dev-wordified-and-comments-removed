@@ -172,6 +172,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+async
 function
 ensure_results
 (
@@ -179,26 +180,21 @@ uris
 searchTerm
 )
 {
+await
 PlacesTestUtils
 .
 promiseAsyncUpdates
 (
 )
-.
-then
-(
-(
-)
-=
->
+await
 ensure_results_internal
 (
 uris
 searchTerm
 )
-)
 ;
 }
+async
 function
 ensure_results_internal
 (
@@ -279,6 +275,16 @@ numSearchesStarted
 ;
 }
 ;
+let
+promise
+=
+new
+Promise
+(
+resolve
+=
+>
+{
 input
 .
 onSearchComplete
@@ -350,13 +356,14 @@ spec
 )
 ;
 }
-deferEnsureResults
-.
 resolve
 (
 )
 ;
 }
+;
+}
+)
 ;
 controller
 .
@@ -364,6 +371,9 @@ startSearch
 (
 searchTerm
 )
+;
+await
+promise
 ;
 }
 try
@@ -732,6 +742,7 @@ site
 ]
 )
 ;
+await
 ensure_results
 (
 [
@@ -791,6 +802,7 @@ site
 ]
 )
 ;
+await
 ensure_results
 (
 [
@@ -850,6 +862,7 @@ site
 ]
 )
 ;
+await
 ensure_results
 (
 [
@@ -909,6 +922,7 @@ site
 ]
 )
 ;
+await
 ensure_results
 (
 [
@@ -968,6 +982,7 @@ site
 ]
 )
 ;
+await
 ensure_results
 (
 [
@@ -1028,6 +1043,7 @@ site
 ]
 )
 ;
+await
 ensure_results
 (
 [
@@ -1088,6 +1104,7 @@ site
 ]
 )
 ;
+await
 ensure_results
 (
 [
@@ -1148,6 +1165,7 @@ site
 ]
 )
 ;
+await
 ensure_results
 (
 [
@@ -1160,6 +1178,7 @@ site
 )
 ;
 }
+async
 function
 (
 )
@@ -1193,6 +1212,7 @@ setBookmark
 uri4
 )
 ;
+await
 ensure_results
 (
 [
@@ -1205,6 +1225,7 @@ a
 )
 ;
 }
+async
 function
 (
 )
@@ -1238,6 +1259,7 @@ setBookmark
 uri4
 )
 ;
+await
 ensure_results
 (
 [
@@ -1250,6 +1272,7 @@ aa
 )
 ;
 }
+async
 function
 (
 )
@@ -1283,6 +1306,7 @@ setBookmark
 uri4
 )
 ;
+await
 ensure_results
 (
 [
@@ -1295,6 +1319,7 @@ aaa
 )
 ;
 }
+async
 function
 (
 )
@@ -1328,6 +1353,7 @@ setBookmark
 uri4
 )
 ;
+await
 ensure_results
 (
 [
@@ -1340,6 +1366,7 @@ aaaa
 )
 ;
 }
+async
 function
 (
 )
@@ -1373,6 +1400,7 @@ setBookmark
 uri4
 )
 ;
+await
 ensure_results
 (
 [
@@ -1385,6 +1413,7 @@ aaa
 )
 ;
 }
+async
 function
 (
 )
@@ -1418,6 +1447,7 @@ setBookmark
 uri4
 )
 ;
+await
 ensure_results
 (
 [
@@ -1430,6 +1460,7 @@ aa
 )
 ;
 }
+async
 function
 (
 )
@@ -1463,6 +1494,7 @@ setBookmark
 uri4
 )
 ;
+await
 ensure_results
 (
 [
@@ -1476,9 +1508,6 @@ a
 ;
 }
 ]
-;
-var
-deferEnsureResults
 ;
 add_task
 (
@@ -1623,23 +1652,10 @@ clearHistory
 (
 )
 ;
-deferEnsureResults
-=
-Promise
-.
-defer
-(
-)
-;
 await
 test
 (
 )
-;
-await
-deferEnsureResults
-.
-promise
 ;
 }
 for

@@ -543,7 +543,7 @@ this
 .
 deferNextTest
 =
-Promise
+PromiseUtils
 .
 defer
 (
