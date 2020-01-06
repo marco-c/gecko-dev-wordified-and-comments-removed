@@ -131,13 +131,6 @@ GetLoadFlags
 )
 const
 ;
-void
-SetLoadFlags
-(
-nsLoadFlags
-aLoadFlags
-)
-;
 private
 :
 class
@@ -164,6 +157,8 @@ const
 nsACString
 &
 aMaxScope
+nsLoadFlags
+aLoadFlags
 )
 ;
 void

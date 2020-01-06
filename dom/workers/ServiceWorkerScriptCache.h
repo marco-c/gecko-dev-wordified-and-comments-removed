@@ -73,14 +73,6 @@ const
 nsACString
 &
 aMaxScope
-)
-=
-0
-;
-virtual
-void
-SaveLoadFlags
-(
 nsLoadFlags
 aLoadFlags
 )
