@@ -2820,6 +2820,10 @@ streamConsumerSymbols
 {
 SYMBOL
 (
+StreamConsumerGLTextureExternalKHR
+)
+SYMBOL
+(
 StreamConsumerAcquireKHR
 )
 SYMBOL
