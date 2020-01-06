@@ -16,6 +16,16 @@ c4f7300b7fbb4c0e02665b0bf8d55b94d331600e3626cd4b4b64e56067735bd8
 "
 "
 .
+cargo
+-
+ok
+"
+:
+"
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+"
+"
+.
 travis
 .
 yml
