@@ -96,11 +96,6 @@ OnStartRequestReceived
 (
 )
 ;
-void
-OnBackgroundChannelCreationFailed
-(
-)
-;
 protected
 :
 IPCResult
