@@ -12,6 +12,9 @@ add_ocsp_test
 aHost
 aExpectedResult
 aStaplingEnabled
+aExpectOCSPRequest
+=
+false
 )
 {
 add_connection_test
@@ -24,8 +27,7 @@ function
 {
 gExpectOCSPRequest
 =
-!
-aStaplingEnabled
+aExpectOCSPRequest
 ;
 clearOCSPCache
 (
@@ -75,6 +77,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -92,6 +95,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -113,6 +117,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -130,6 +135,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -147,6 +153,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -164,6 +171,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -181,6 +189,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -198,6 +207,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -215,6 +225,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -234,6 +245,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -251,6 +263,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -268,6 +281,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -289,6 +303,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -308,6 +323,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -327,6 +343,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -346,6 +363,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -365,6 +383,7 @@ com
 "
 PRErrorCodeSuccess
 false
+true
 )
 ;
 add_ocsp_test
@@ -493,6 +512,7 @@ com
 "
 SEC_ERROR_OCSP_INVALID_SIGNING_CERT
 true
+true
 )
 ;
 add_test
@@ -544,6 +564,7 @@ com
 "
 SEC_ERROR_OCSP_INVALID_SIGNING_CERT
 true
+true
 )
 ;
 add_ocsp_test
@@ -594,6 +615,7 @@ example
 com
 "
 SEC_ERROR_OCSP_TRY_SERVER_LATER
+true
 true
 )
 ;
@@ -866,6 +888,7 @@ com
 "
 SEC_ERROR_OCSP_INVALID_SIGNING_CERT
 true
+true
 )
 ;
 add_ocsp_test
@@ -886,6 +909,7 @@ example
 com
 "
 SEC_ERROR_OCSP_INVALID_SIGNING_CERT
+true
 true
 )
 ;
@@ -908,6 +932,7 @@ com
 "
 SEC_ERROR_OCSP_INVALID_SIGNING_CERT
 true
+true
 )
 ;
 add_ocsp_test
@@ -928,6 +953,7 @@ example
 com
 "
 SEC_ERROR_OCSP_INVALID_SIGNING_CERT
+true
 true
 )
 ;
@@ -950,6 +976,7 @@ com
 "
 SEC_ERROR_OCSP_INVALID_SIGNING_CERT
 true
+true
 )
 ;
 add_ocsp_test
@@ -971,6 +998,7 @@ com
 "
 SEC_ERROR_OCSP_INVALID_SIGNING_CERT
 true
+true
 )
 ;
 add_ocsp_test
@@ -987,6 +1015,7 @@ example
 com
 "
 SEC_ERROR_OCSP_INVALID_SIGNING_CERT
+true
 true
 )
 ;
@@ -1182,6 +1211,40 @@ run_test
 {
 do_get_profile
 (
+)
+;
+Services
+.
+prefs
+.
+setIntPref
+(
+"
+security
+.
+OCSP
+.
+enabled
+"
+1
+)
+;
+Services
+.
+prefs
+.
+setIntPref
+(
+"
+security
+.
+OCSP
+.
+timeoutMilliseconds
+.
+soft
+"
+5000
 )
 ;
 let
