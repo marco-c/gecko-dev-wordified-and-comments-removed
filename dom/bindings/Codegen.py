@@ -44458,7 +44458,8 @@ successCode
                            
 returnsNewObject
 exceptionCode
-typedArraysAreStructs
+                           
+spiderMonkeyInterfacesAreStructs
                            
 isConstructorRetval
 =
@@ -44564,7 +44565,7 @@ exit
 .
     
 If
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 is
 true
 then
@@ -44573,9 +44574,9 @@ the
 type
 is
 a
-typed
-array
     
+SpiderMonkey
+interface
 "
 result
 "
@@ -44583,10 +44584,11 @@ is
 one
 of
 the
+    
 dom
 :
 :
-TypedArray
+SpiderMonkeyInterfaceObjectStorage
 subclasses
 not
 a
@@ -45287,7 +45289,7 @@ successCode
 returnsNewObject
 exceptionCode
                                                         
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
         
 code
@@ -45451,10 +45453,10 @@ returnArray
 "
                 
 '
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 '
 :
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
             
 }
 )
@@ -45773,10 +45775,10 @@ returnObj
 "
                 
 '
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 '
 :
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
             
 }
 )
@@ -46878,7 +46880,7 @@ isSpiderMonkeyInterface
 and
                             
 not
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
 )
 :
@@ -47020,7 +47022,7 @@ isSpiderMonkeyInterface
 (
 )
 and
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
 )
 :
@@ -47074,7 +47076,7 @@ successCode
 returnsNewObject
 exceptionCode
                                                        
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
         
 return
@@ -47125,7 +47127,7 @@ isSpiderMonkeyInterface
 :
         
 assert
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
         
 return
 (
@@ -47897,7 +47899,7 @@ templateValues
 get
 (
 '
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 '
 False
 )
@@ -72353,7 +72355,7 @@ result
 val
                 
 "
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 "
 :
 True
@@ -94074,7 +94076,7 @@ returnsNewObject
 False
                 
 '
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 '
 :
 True
@@ -99975,7 +99977,7 @@ append
 CGCallbackInterface
 (
 x
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
 True
 )
@@ -100257,13 +100259,13 @@ visibility
 public
 "
                  
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
 True
+                 
 variadicIsSequence
 =
 False
-                 
 resultNotAddRefed
 =
 False
@@ -100271,7 +100273,6 @@ False
 virtual
 =
 False
-                 
 override
 =
 False
@@ -100283,16 +100284,16 @@ False
 "
         
 If
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 is
 false
-typed
-arrays
+SpiderMonkey
+interfaces
+        
 will
 be
 passed
 as
-        
 JS
 :
 :
@@ -100310,16 +100311,16 @@ true
 they
 will
 be
+        
 passed
 as
 one
 of
 the
-        
 dom
 :
 :
-TypedArray
+SpiderMonkeyInterfaceObjectStorage
 subclasses
 .
         
@@ -100401,9 +100402,9 @@ passJSBitsAsNeeded
         
 self
 .
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
         
 self
 .
@@ -102865,7 +102866,7 @@ if
 not
 self
 .
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 :
                 
 return
@@ -110512,7 +110513,7 @@ __init__
 (
 self
 descriptor
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
 False
 )
@@ -110556,7 +110557,7 @@ CallbackGetter
 (
 a
 descriptor
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
                    
 for
@@ -110572,7 +110573,7 @@ CallbackSetter
 (
 a
 descriptor
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
                    
 for
@@ -110627,7 +110628,7 @@ CallbackOperation
 m
 sig
 descriptor
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
                    
 for
@@ -110955,7 +110956,8 @@ needThisHandling
 rethrowContentException
 =
 False
-typedArraysAreStructs
+                 
+spiderMonkeyInterfacesAreStructs
 =
 False
                  
@@ -111170,9 +111172,9 @@ visibility
 =
 visibility
                                 
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
         
 self
@@ -111879,12 +111881,12 @@ self
 exceptionCode
                     
 '
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 '
 :
 self
 .
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
                 
 }
 )
@@ -112669,7 +112671,8 @@ needThisHandling
 rethrowContentException
 =
 False
-typedArraysAreStructs
+                 
+spiderMonkeyInterfacesAreStructs
 =
 False
 )
@@ -112687,9 +112690,9 @@ descriptorProvider
 needThisHandling
 rethrowContentException
                                 
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
     
 def
@@ -113072,7 +113075,7 @@ rethrowContentException
 =
 False
                  
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
 False
 )
@@ -113107,9 +113110,9 @@ descriptor
 singleOperation
 rethrowContentException
                                 
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
     
 def
@@ -113488,7 +113491,8 @@ self
 method
 signature
 descriptor
-typedArraysAreStructs
+                 
+spiderMonkeyInterfacesAreStructs
 )
 :
         
@@ -113551,9 +113555,9 @@ isJSImplemented
 (
 )
                                        
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
     
 def
@@ -113622,7 +113626,8 @@ attr
 sig
 name
 descriptor
-typedArraysAreStructs
+                 
+spiderMonkeyInterfacesAreStructs
 )
 :
         
@@ -113666,9 +113671,9 @@ isJSImplemented
 (
 )
                                 
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
     
 def
@@ -113715,7 +113720,7 @@ __init__
 self
 attr
 descriptor
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
 :
         
@@ -113742,7 +113747,7 @@ descriptor
                                   
 descriptor
                                   
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
     
 def
@@ -113944,7 +113949,7 @@ __init__
 self
 attr
 descriptor
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
 :
         
@@ -113983,7 +113988,7 @@ descriptor
 )
                                   
 descriptor
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 )
     
 def
@@ -114255,7 +114260,7 @@ rethrowContentException
 =
 True
                                        
-typedArraysAreStructs
+spiderMonkeyInterfacesAreStructs
 =
 True
 )
