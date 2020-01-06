@@ -2273,6 +2273,13 @@ MAX_TAB_COUNT_SCALAR_NAME
 tabCount
 )
 ;
+this
+.
+_recordTabCount
+(
+tabCount
+)
+;
 }
 _onWindowOpen
 (
