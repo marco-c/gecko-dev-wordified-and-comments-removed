@@ -35,17 +35,6 @@ include
 "
 mozilla
 /
-dom
-/
-EncodingUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h

@@ -224,9 +224,12 @@ aRv
 void
 InitWithEncoding
 (
+NotNull
+<
 const
-nsACString
-&
+Encoding
+*
+>
 aEncoding
 const
 bool

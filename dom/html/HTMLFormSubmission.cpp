@@ -235,17 +235,6 @@ mozilla
 /
 dom
 /
-EncodingUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 File
 .
 h
