@@ -8651,7 +8651,7 @@ state_selector
 in
 state_selectors
 .
-into_iter
+drain
 (
 )
 {

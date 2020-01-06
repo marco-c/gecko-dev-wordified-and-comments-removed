@@ -3822,7 +3822,7 @@ insert_ordered_rules_with_important
 (
 declarations
 .
-into_iter
+drain
 (
 )
 .
