@@ -261,6 +261,8 @@ OS_TARGET
 '
 Android
 '
+and
+FORCE_SHARED_LIB
 :
 USE_LIBS
 +
