@@ -851,11 +851,6 @@ class
 ruleview
 -
 selectorcontainer
-theme
--
-fg
--
-color3
 "
 tabindex
 :
