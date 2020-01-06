@@ -121,6 +121,7 @@ GESTURE_SECOND_SINGLE_TOUCH_DOWN
 GESTURE_LONG_TOUCH_DOWN
 GESTURE_MULTI_TOUCH_DOWN
 GESTURE_PINCH
+GESTURE_ONE_TOUCH_PINCH
 }
 ;
 nsEventStatus
@@ -167,6 +168,11 @@ TriggerSingleTapConfirmedEvent
 ;
 bool
 MoveDistanceIsLarge
+(
+)
+;
+ParentLayerCoord
+GetYSpanFromStartPoint
 (
 )
 ;
