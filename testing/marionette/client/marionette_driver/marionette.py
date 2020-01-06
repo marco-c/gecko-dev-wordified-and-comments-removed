@@ -5209,6 +5209,23 @@ not
 None
 :
                     
+try
+:
+                        
+sock
+.
+shutdown
+(
+socket
+.
+SHUT_RDWR
+)
+                    
+except
+:
+                        
+pass
+                    
 sock
 .
 close
