@@ -233,6 +233,10 @@ EventHandlerNonNull
 aCallback
 )
 ;
+IMPL_EVENT_HANDLER
+(
+messageerror
+)
 void
 UnshippedEntangle
 (
@@ -343,6 +347,11 @@ ConnectToPBackground
 ;
 void
 Dispatch
+(
+)
+;
+void
+DispatchError
 (
 )
 ;
