@@ -588,7 +588,6 @@ preferenceName
 experiment
 .
 preferenceType
-undefined
 )
 !
 =
@@ -973,7 +972,6 @@ getPref
 preferences
 preferenceName
 preferenceType
-undefined
 )
 preferenceBranchType
 }
@@ -1189,7 +1187,6 @@ getPref
 UserPreferences
 preferenceName
 preferenceType
-undefined
 )
 ;
 if
