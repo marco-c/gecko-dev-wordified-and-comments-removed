@@ -58,7 +58,7 @@ __clang_major__
 __clang_minor__
 <
 =
-8
+9
 #
 define
 CLANG_CRASH_BUG
