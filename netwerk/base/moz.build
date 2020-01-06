@@ -899,11 +899,6 @@ MemoryDownloader
 h
 '
 '
-MozURL
-.
-h
-'
-'
 PartiallySeekableInputStream
 .
 h
@@ -980,11 +975,6 @@ cpp
 '
 '
 MemoryDownloader
-.
-cpp
-'
-'
-MozURL
 .
 cpp
 '

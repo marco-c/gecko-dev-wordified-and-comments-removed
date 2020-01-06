@@ -108,11 +108,6 @@ TestHttpAuthUtils
 cpp
 '
 '
-TestMozURL
-.
-cpp
-'
-'
 TestPartiallySeekableInputStream
 .
 cpp
