@@ -1034,7 +1034,8 @@ nsIAtom
 aPseudoTag
 )
 {
-auto
+ServoStyleContext
+*
 parent
 =
 const_cast
@@ -1046,8 +1047,9 @@ ServoStyleContext
 aParentContext
 )
 ;
-auto
-presContext
+nsPresContext
+*
+pres
 =
 const_cast
 <
@@ -1066,7 +1068,7 @@ aContext
 ServoStyleContext
 (
 parent
-presContext
+pres
 aPseudoTag
 aPseudoType
 ServoComputedValuesForgotten
