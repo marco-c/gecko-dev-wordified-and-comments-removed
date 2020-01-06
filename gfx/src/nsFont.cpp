@@ -392,6 +392,16 @@ aOther
 .
 smoothing
 )
+&
+&
+(
+fontSmoothingBackgroundColor
+=
+=
+aOther
+.
+fontSmoothingBackgroundColor
+)
 )
 {
 return

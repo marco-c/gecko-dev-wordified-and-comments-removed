@@ -13338,9 +13338,6 @@ mozilla
 StyleComplexColor
 mCaretColor
 ;
-nscolor
-mFontSmoothingBackgroundColor
-;
 inline
 uint8_t
 GetEffectivePointerEvents
