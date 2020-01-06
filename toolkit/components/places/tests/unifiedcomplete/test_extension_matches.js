@@ -1700,12 +1700,6 @@ suggestion
 )
 ;
 }
-controller
-.
-stopSearch
-(
-)
-;
 }
 }
 ;
