@@ -4904,6 +4904,15 @@ FlushFontCache
 RebuildAllStyleData
 (
 NS_STYLE_HINT_REFLOW
+mDocument
+-
+>
+IsStyledByServo
+(
+)
+?
+eRestyle_ForceDescendants
+:
 nsRestyleHint
 (
 0
