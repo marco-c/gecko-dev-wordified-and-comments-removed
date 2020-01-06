@@ -2175,12 +2175,10 @@ char
 *
 srcData
 =
-(
 decodedImg
 .
 get
 (
-)
 )
 ;
 const
