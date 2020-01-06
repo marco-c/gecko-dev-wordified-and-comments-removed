@@ -322,6 +322,16 @@ ClearWrBridge
 (
 )
 ;
+TextureHost
+*
+GetCurrentTextureHost
+(
+)
+{
+return
+mCurrentTextureHost
+;
+}
 protected
 :
 virtual

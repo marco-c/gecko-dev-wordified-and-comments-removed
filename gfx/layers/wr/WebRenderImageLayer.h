@@ -153,15 +153,6 @@ wr
 MaybeExternalImageId
 mExternalImageId
 ;
-nsTArray
-<
-wr
-:
-:
-ImageKey
->
-mVideoKeys
-;
 Maybe
 <
 wr
