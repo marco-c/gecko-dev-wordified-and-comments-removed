@@ -126,6 +126,10 @@ new
 WAVTrackDemuxer
 (
 mSource
+.
+GetResource
+(
+)
 )
 ;
 }
@@ -294,7 +298,8 @@ WAVTrackDemuxer
 :
 WAVTrackDemuxer
 (
-MediaResourceIndex
+MediaResource
+*
 aSource
 )
 :

@@ -616,7 +616,8 @@ public
 explicit
 WAVTrackDemuxer
 (
-MediaResourceIndex
+MediaResource
+*
 aSource
 )
 ;
