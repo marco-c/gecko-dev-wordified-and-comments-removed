@@ -27594,7 +27594,7 @@ return
 false
 ;
 }
-gfxSize
+Size
 StyleAnimationValue
 :
 :
@@ -29985,7 +29985,7 @@ forget
 )
 ;
 }
-gfxSize
+Size
 AnimationValue
 :
 :

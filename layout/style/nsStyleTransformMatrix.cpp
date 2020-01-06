@@ -6207,7 +6207,7 @@ return
 m
 ;
 }
-gfxSize
+Size
 GetScaleValue
 (
 const
@@ -6307,16 +6307,13 @@ canDraw2D
 )
 {
 return
-gfxSize
+Size
 (
 )
 ;
 }
 return
-ThebesMatrix
-(
 transform2d
-)
 .
 ScaleFactors
 (

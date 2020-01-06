@@ -700,7 +700,13 @@ Array
 aArray
 )
 ;
-gfxSize
+mozilla
+:
+:
+gfx
+:
+:
+Size
 GetScaleValue
 (
 const
