@@ -189,15 +189,6 @@ Pure
 ]
 attribute
 DOMString
-nonce
-;
-[
-CEReactions
-SetterThrows
-Pure
-]
-attribute
-DOMString
 type
 ;
 [
