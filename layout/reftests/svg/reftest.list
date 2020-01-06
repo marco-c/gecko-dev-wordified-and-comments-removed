@@ -3503,6 +3503,14 @@ svg
 pass
 .
 svg
+fuzzy
+-
+if
+(
+webrender
+1
+35
+)
 =
 =
 foreignObject
