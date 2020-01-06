@@ -253,14 +253,6 @@ MOZ_APP_DISPLAYNAME
 endif
 !
 define
-BrandFullName
-"
-{
-BrandFullNameInternal
-}
-"
-!
-define
 CERTIFICATE_NAME
 "
 Mozilla
