@@ -41,6 +41,9 @@ MediaDecoderOwner
 class
 MediaDecoderReader
 ;
+class
+MediaResource
+;
 enum
 CanPlayStatus
 {
@@ -107,6 +110,9 @@ aType
 AbstractMediaDecoder
 *
 aDecoder
+MediaResource
+*
+aResource
 )
 ;
 static
