@@ -2505,6 +2505,9 @@ bool
 >
 mRaceCacheWithNetwork
 ;
+bool
+mCacheAsyncOpenCalled
+;
 protected
 :
 virtual
