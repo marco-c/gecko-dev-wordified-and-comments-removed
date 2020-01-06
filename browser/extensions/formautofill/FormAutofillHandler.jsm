@@ -727,6 +727,12 @@ reset
 onChangeHandler
 )
 ;
+this
+.
+filledProfileGUID
+=
+null
+;
 }
 }
 ;
