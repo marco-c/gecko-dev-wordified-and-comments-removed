@@ -372,13 +372,7 @@ clientData
 mYSize
 clientData
 .
-mYStride
-clientData
-.
 mCbCrSize
-clientData
-.
-mCbCrStride
 StereoMode
 :
 :
@@ -387,7 +381,6 @@ YUVColorSpace
 :
 :
 BT601
-8
 TextureFlags
 :
 :
