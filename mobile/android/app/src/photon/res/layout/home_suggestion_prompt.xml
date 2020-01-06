@@ -359,13 +359,6 @@ button_no
 "
 android
 :
-textAllCaps
-=
-"
-true
-"
-android
-:
 textColor
 =
 "
@@ -455,13 +448,6 @@ text
 string
 /
 button_yes
-"
-android
-:
-textAllCaps
-=
-"
-true
 "
 android
 :
