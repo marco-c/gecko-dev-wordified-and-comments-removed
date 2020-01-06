@@ -106,16 +106,6 @@ Microsecond
 }
 ;
 void
-CreateStatisticsRecorder
-(
-)
-;
-void
-DestroyStatisticsRecorder
-(
-)
-;
-void
 Init
 (
 )
