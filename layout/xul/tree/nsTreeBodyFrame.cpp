@@ -15313,12 +15313,6 @@ Inflate
 twistyMargin
 )
 ;
-aRenderingContext
-.
-Save
-(
-)
-;
 const
 nsStyleBorder
 *
@@ -15771,12 +15765,6 @@ srcX
 mIndentation
 ;
 }
-aRenderingContext
-.
-Restore
-(
-)
-;
 }
 nsRect
 twistyRect
