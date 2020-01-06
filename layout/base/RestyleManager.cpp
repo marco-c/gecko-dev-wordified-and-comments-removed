@@ -6433,7 +6433,11 @@ data
 mHint
 |
 =
-nsChangeHint_AllReflowHints
+(
+nsChangeHint_ReflowHintsForISizeChange
+|
+nsChangeHint_ReflowHintsForBSizeChange
+)
 ;
 doReconstruct
 =
