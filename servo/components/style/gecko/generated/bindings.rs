@@ -11843,7 +11843,7 @@ C
 {
 pub
 fn
-Servo_StyleSet_RebuildData
+Servo_StyleSet_RebuildCachedData
 (
 set
 :
@@ -11863,13 +11863,15 @@ Servo_StyleSet_MediumFeaturesChanged
 set
 :
 RawServoStyleSetBorrowed
-viewport_changed
+viewport_units_used
 :
+*
+mut
 bool
 )
 -
 >
-nsRestyleHint
+bool
 ;
 }
 extern
