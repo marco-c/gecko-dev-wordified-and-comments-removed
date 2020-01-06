@@ -4873,6 +4873,7 @@ Ci
 Cu
 Cr
 XPCOMUtils
+ChromeUtils
 ChromeWorker
 ExtensionAPI
 ExtensionCommon
