@@ -45,14 +45,6 @@ NS_IsMainThread
 )
 ;
 #
-else
-extern
-bool
-NS_IsMainThread
-(
-)
-;
-#
 endif
 #
 endif
