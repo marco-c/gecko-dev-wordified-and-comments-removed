@@ -280,6 +280,16 @@ nsIFocusManager
 checkService
 (
 "
+idle
+"
+Ci
+.
+nsIIdleService
+)
+;
+checkService
+(
+"
 io
 "
 Ci

@@ -9213,6 +9213,12 @@ hidePopup
 }
 )
 ;
+gBrowser
+.
+requestPreloadBrowser
+(
+)
+;
 this
 .
 delayedStartupFinished
