@@ -504,7 +504,6 @@ JS_TELEMETRY_GC_MARK_ROOTS_MS
 JS_TELEMETRY_GC_MARK_GRAY_MS
 JS_TELEMETRY_GC_SLICE_MS
 JS_TELEMETRY_GC_SLOW_PHASE
-JS_TELEMETRY_GC_SLOW_TASK
 JS_TELEMETRY_GC_MMU_50
 JS_TELEMETRY_GC_RESET
 JS_TELEMETRY_GC_RESET_REASON
@@ -5048,10 +5047,9 @@ const
 CompartmentFilter
 &
 sourceFilter
-const
-CompartmentFilter
-&
-targetFilter
+JSCompartment
+*
+target
 NukeReferencesToWindow
 nukeReferencesToWindow
 NukeReferencesFromTarget
