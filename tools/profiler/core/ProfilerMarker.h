@@ -132,7 +132,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -185,7 +185,7 @@ mPayload
 StreamPayload
 (
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;

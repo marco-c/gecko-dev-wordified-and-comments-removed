@@ -270,7 +270,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 double
 aSinceTime
 )
@@ -314,7 +314,7 @@ ThreadId
 )
 aBuffer
 aWriter
-aStartTime
+aProcessStartTime
 aSinceTime
 mContext
 mSavedStreamedSamples
@@ -565,7 +565,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 double
 aSinceTime
 JSContext
@@ -844,7 +844,7 @@ StreamMarkersToJSON
 (
 aWriter
 aThreadId
-aStartTime
+aProcessStartTime
 aSinceTime
 aUniqueStacks
 )
@@ -876,7 +876,7 @@ aBuffer
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 )
 {
 MOZ_ASSERT
@@ -954,7 +954,7 @@ StreamMarkersToJSON
 (
 b
 mThreadId
-aStartTime
+aProcessStartTime
 0
 *
 mUniqueStacks

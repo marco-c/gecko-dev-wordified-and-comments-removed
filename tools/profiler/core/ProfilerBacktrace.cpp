@@ -86,7 +86,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -102,7 +102,7 @@ get
 mThreadId
 mBuffer
 aWriter
-aStartTime
+aProcessStartTime
 0
 nullptr
 nullptr

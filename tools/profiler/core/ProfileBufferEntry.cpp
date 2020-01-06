@@ -3436,7 +3436,7 @@ aThreadId
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 double
 aSinceTime
 UniqueStacks
@@ -3537,7 +3537,7 @@ getMarker
 StreamJSON
 (
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -3693,7 +3693,7 @@ aThreadId
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 LastSample
 &
 aLS
@@ -3828,7 +3828,7 @@ Now
 (
 )
 -
-aStartTime
+aProcessStartTime
 )
 .
 ToMilliseconds

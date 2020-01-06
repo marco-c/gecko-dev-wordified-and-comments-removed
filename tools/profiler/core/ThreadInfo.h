@@ -504,7 +504,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 double
 aSinceTime
 )
@@ -521,7 +521,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 )
 ;
 ThreadResponsiveness
@@ -811,7 +811,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 double
 aSinceTime
 JSContext

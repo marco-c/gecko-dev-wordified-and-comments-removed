@@ -131,7 +131,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -172,7 +172,7 @@ startTime
 (
 mStartTime
 -
-aStartTime
+aProcessStartTime
 )
 .
 ToMilliseconds
@@ -201,7 +201,7 @@ endTime
 (
 mEndTime
 -
-aStartTime
+aProcessStartTime
 )
 .
 ToMilliseconds
@@ -231,7 +231,7 @@ mStack
 StreamJSON
 (
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -321,7 +321,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -333,7 +333,7 @@ streamCommonProps
 tracing
 "
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -465,7 +465,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -477,7 +477,7 @@ streamCommonProps
 gpu_timer_query
 "
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -491,7 +491,7 @@ cpustart
 (
 mCpuTimeStart
 -
-aStartTime
+aProcessStartTime
 )
 .
 ToMilliseconds
@@ -509,7 +509,7 @@ cpuend
 (
 mCpuTimeEnd
 -
-aStartTime
+aProcessStartTime
 )
 .
 ToMilliseconds
@@ -572,7 +572,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -584,7 +584,7 @@ streamCommonProps
 innerHTML
 "
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -680,7 +680,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -692,7 +692,7 @@ streamCommonProps
 io
 "
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -826,7 +826,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -838,7 +838,7 @@ streamCommonProps
 UserTiming
 "
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -934,7 +934,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -946,7 +946,7 @@ streamCommonProps
 DOMEvent
 "
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -1061,7 +1061,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1190,7 +1190,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1257,7 +1257,7 @@ aWriter
 const
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1273,7 +1273,7 @@ vsync
 (
 mVsyncTimestamp
 -
-aStartTime
+aProcessStartTime
 )
 .
 ToMilliseconds
@@ -1309,7 +1309,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1326,7 +1326,7 @@ streamCommonProps
 GCSlice
 "
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -1378,7 +1378,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1395,7 +1395,7 @@ streamCommonProps
 GCMajor
 "
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;
@@ -1447,7 +1447,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 UniqueStacks
 &
 aUniqueStacks
@@ -1464,7 +1464,7 @@ streamCommonProps
 GCMinor
 "
 aWriter
-aStartTime
+aProcessStartTime
 aUniqueStacks
 )
 ;

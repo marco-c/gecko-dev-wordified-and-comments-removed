@@ -145,7 +145,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 double
 aSinceTime
 UniqueStacks
@@ -164,7 +164,7 @@ mozilla
 :
 TimeStamp
 &
-aStartTime
+aProcessStartTime
 LastSample
 &
 aLS
