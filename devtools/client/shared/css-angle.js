@@ -3,13 +3,14 @@ use
 strict
 "
 ;
-const
-{
-CSS_ANGLEUNIT
-}
-=
-require
+loader
+.
+lazyRequireGetter
 (
+this
+"
+CSS_ANGLEUNIT
+"
 "
 devtools
 /
@@ -21,6 +22,7 @@ properties
 -
 db
 "
+true
 )
 ;
 const
@@ -91,15 +93,18 @@ classifyAngle
 ;
 CssAngle
 .
-ANGLEUNIT
-=
-CSS_ANGLEUNIT
-;
-CssAngle
-.
 prototype
 =
 {
+get
+ANGLEUNIT
+(
+)
+{
+return
+CSS_ANGLEUNIT
+;
+}
 _angleUnit
 :
 null
@@ -209,7 +214,7 @@ toLowerCase
 (
 )
 in
-CssAngle
+this
 .
 ANGLEUNIT
 )
@@ -280,7 +285,7 @@ angleUnit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -302,7 +307,7 @@ angleUnit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -330,7 +335,7 @@ angleUnit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -354,7 +359,7 @@ angleUnit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -373,7 +378,7 @@ authoredAngleValue
 let
 unitStr
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -460,7 +465,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -482,7 +487,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -510,7 +515,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -542,7 +547,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -569,7 +574,7 @@ PI
 let
 unitStr
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -656,7 +661,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -678,7 +683,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -702,7 +707,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -734,7 +739,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -753,7 +758,7 @@ authoredAngleValue
 let
 unitStr
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -840,7 +845,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -862,7 +867,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -884,7 +889,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -916,7 +921,7 @@ unit
 =
 =
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -935,7 +940,7 @@ authoredAngleValue
 let
 unitStr
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -1066,7 +1071,7 @@ Object
 .
 keys
 (
-CssAngle
+this
 .
 ANGLEUNIT
 )
@@ -1137,7 +1142,7 @@ Object
 .
 keys
 (
-CssAngle
+this
 .
 ANGLEUNIT
 )
@@ -1212,7 +1217,7 @@ this
 .
 angleUnit
 =
-CssAngle
+this
 .
 ANGLEUNIT
 [
@@ -1248,7 +1253,7 @@ angleUnit
 )
 {
 case
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -1263,7 +1268,7 @@ deg
 break
 ;
 case
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -1278,7 +1283,7 @@ rad
 break
 ;
 case
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -1293,7 +1298,7 @@ grad
 break
 ;
 case
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -1328,7 +1333,7 @@ this
 angleUnit
 !
 =
-CssAngle
+this
 .
 ANGLEUNIT
 .
@@ -1389,9 +1394,7 @@ deg
 )
 {
 return
-CssAngle
-.
-ANGLEUNIT
+CSS_ANGLEUNIT
 .
 deg
 ;
@@ -1409,9 +1412,7 @@ grad
 )
 {
 return
-CssAngle
-.
-ANGLEUNIT
+CSS_ANGLEUNIT
 .
 grad
 ;
@@ -1429,9 +1430,7 @@ rad
 )
 {
 return
-CssAngle
-.
-ANGLEUNIT
+CSS_ANGLEUNIT
 .
 rad
 ;
@@ -1449,17 +1448,13 @@ turn
 )
 {
 return
-CssAngle
-.
-ANGLEUNIT
+CSS_ANGLEUNIT
 .
 turn
 ;
 }
 return
-CssAngle
-.
-ANGLEUNIT
+CSS_ANGLEUNIT
 .
 deg
 ;
