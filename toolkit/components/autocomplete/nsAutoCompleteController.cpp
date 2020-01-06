@@ -1773,6 +1773,13 @@ GetCompleteSelectedIndex
 completeSelection
 )
 ;
+Unused
+<
+<
+StopSearch
+(
+)
+;
 popup
 -
 >
