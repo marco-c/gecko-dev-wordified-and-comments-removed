@@ -3373,6 +3373,9 @@ slot
 unsigned
 attrs
 ShapeTable
+*
+table
+ShapeTable
 :
 :
 Entry
@@ -3402,6 +3405,9 @@ JSSetterOp
 setter
 unsigned
 attrs
+ShapeTable
+*
+table
 ShapeTable
 :
 :
