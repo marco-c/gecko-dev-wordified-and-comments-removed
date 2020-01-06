@@ -902,13 +902,6 @@ CONFIG
 CLANG_CXX
 '
 ]
-or
-CONFIG
-[
-'
-GNU_CXX
-'
-]
 :
 SOURCES
 [
