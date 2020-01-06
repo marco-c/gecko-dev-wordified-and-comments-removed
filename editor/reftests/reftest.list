@@ -1743,7 +1743,7 @@ if
 browserIsRemote
 0
 -
-2
+3
 )
 asserts
 -
@@ -1770,6 +1770,11 @@ caret_on_presshell_reinit
 ref
 .
 html
+#
+bug
+959132
+for
+assertions
 fuzzy
 -
 if
