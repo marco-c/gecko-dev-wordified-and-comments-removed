@@ -550,6 +550,16 @@ jsm
 "
 )
 ;
+const
+Promise
+=
+require
+(
+"
+Promise
+"
+)
+;
 XPCOMUtils
 .
 defineConstant

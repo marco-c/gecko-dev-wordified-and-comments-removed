@@ -260,6 +260,16 @@ helpers
 )
 ;
 const
+Promise
+=
+require
+(
+"
+Promise
+"
+)
+;
+const
 CANVAS_ACTOR_RECORDING_ATTEMPT
 =
 flags

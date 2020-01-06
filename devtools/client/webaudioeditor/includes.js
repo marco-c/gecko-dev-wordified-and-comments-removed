@@ -201,6 +201,16 @@ helpers
 )
 ;
 const
+Promise
+=
+require
+(
+"
+Promise
+"
+)
+;
+const
 STRINGS_URI
 =
 "

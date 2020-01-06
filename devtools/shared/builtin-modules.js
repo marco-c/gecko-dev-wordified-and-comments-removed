@@ -478,6 +478,7 @@ create
 Services
 )
 promise
+Promise
 PromiseDebugging
 ChromeUtils
 ThreadSafeChromeUtils

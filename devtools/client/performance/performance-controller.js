@@ -141,6 +141,16 @@ prefs
 )
 ;
 var
+Promise
+=
+require
+(
+"
+Promise
+"
+)
+;
+var
 EVENTS
 =
 require

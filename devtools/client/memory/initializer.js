@@ -200,6 +200,16 @@ DevToolsUtils
 "
 )
 ;
+const
+Promise
+=
+require
+(
+"
+Promise
+"
+)
+;
 var
 gToolbox
 gFront

@@ -240,6 +240,16 @@ task
 )
 ;
 const
+Promise
+=
+require
+(
+"
+Promise
+"
+)
+;
+const
 EVENTS
 =
 {

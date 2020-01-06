@@ -74,6 +74,16 @@ task
 )
 ;
 const
+Promise
+=
+require
+(
+"
+Promise
+"
+)
+;
+const
 Telemetry
 =
 require

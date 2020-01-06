@@ -632,6 +632,16 @@ helpers
 )
 ;
 const
+Promise
+=
+require
+(
+"
+Promise
+"
+)
+;
+const
 React
 =
 require
