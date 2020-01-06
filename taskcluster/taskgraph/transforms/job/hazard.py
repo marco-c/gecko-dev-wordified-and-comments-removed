@@ -308,7 +308,7 @@ point
 :
 '
 /
-builds
+home
 /
 worker
 /
@@ -370,7 +370,7 @@ TOOLTOOL_CACHE
 =
 '
 /
-builds
+home
 /
 worker
 /
@@ -388,7 +388,7 @@ GECKO_DIR
 =
 '
 /
-builds
+home
 /
 worker
 /
@@ -408,7 +408,7 @@ command
         
 '
 /
-builds
+home
 /
 worker
 /
@@ -428,7 +428,7 @@ recursive
 '
 '
 /
-builds
+home
 /
 worker
 /
@@ -446,7 +446,7 @@ recursive
 '
 '
 /
-builds
+home
 /
 worker
 /
@@ -462,7 +462,7 @@ checkout
 '
 '
 /
-builds
+home
 /
 worker
 /

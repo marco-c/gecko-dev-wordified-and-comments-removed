@@ -1874,7 +1874,7 @@ HG_STORE_PATH
 :
 '
 /
-builds
+home
 /
 worker
 /
@@ -2017,7 +2017,7 @@ level
                             
 '
 /
-builds
+home
 /
 worker
 /
@@ -2071,7 +2071,7 @@ command
                         
 '
 /
-builds
+home
 /
 worker
 /
@@ -2081,7 +2081,6 @@ run
 -
 task
 '
-                        
 '
 -
 -
@@ -2090,7 +2089,7 @@ vcs
 checkout
 =
 /
-builds
+home
 /
 worker
 /
@@ -2117,7 +2116,7 @@ cx
 \
 cd
 /
-builds
+home
 /
 worker
 /
@@ -2130,7 +2129,7 @@ ln
 -
 s
 /
-builds
+home
 /
 worker
 /

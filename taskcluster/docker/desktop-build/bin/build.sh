@@ -110,7 +110,7 @@ for
 cache
 in
 /
-builds
+home
 /
 worker
 /
@@ -119,13 +119,13 @@ tc
 -
 vcs
 /
-builds
+home
 /
 worker
 /
 workspace
 /
-builds
+home
 /
 worker
 /
@@ -188,7 +188,7 @@ worker
 c
 "
 /
-builds
+home
 /
 worker
 /
