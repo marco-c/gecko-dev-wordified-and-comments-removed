@@ -2169,6 +2169,25 @@ slowLog
 =
 False
             
+endTime
+=
+datetime
+.
+datetime
+.
+now
+(
+)
++
+datetime
+.
+timedelta
+(
+seconds
+=
+timeout
+)
+            
 while
 (
 top
@@ -2271,11 +2290,15 @@ noOutputTimer
 interval
                 
 if
+datetime
+.
+datetime
+.
+now
 (
-timer
->
-timeout
 )
+>
+endTime
 :
                     
 status
