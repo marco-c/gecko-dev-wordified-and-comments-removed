@@ -210,7 +210,7 @@ up
 windows
 "
 "
-miscGroup
+permissionsGroup
 "
 )
 ;

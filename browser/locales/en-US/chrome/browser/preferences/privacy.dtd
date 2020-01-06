@@ -382,6 +382,16 @@ History
 <
 !
 ENTITY
+permissions
+.
+label
+"
+Permissions
+"
+>
+<
+!
+ENTITY
 locationBar
 .
 label

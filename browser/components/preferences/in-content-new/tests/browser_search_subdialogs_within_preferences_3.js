@@ -74,7 +74,7 @@ add
 ons
 "
 "
-addonsPhishingGroup
+permissionsGroup
 "
 )
 ;
