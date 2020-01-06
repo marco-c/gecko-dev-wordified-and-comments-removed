@@ -3232,11 +3232,6 @@ bool
 aIsFocused
 )
 ;
-void
-UpdateValidityState
-(
-)
-;
 HTMLInputElement
 *
 GetOwnerNumberControl
@@ -3794,12 +3789,9 @@ SetDefaultValueAsValue
 (
 )
 ;
-virtual
 void
-SetDirectionIfAuto
+SetDirectionFromValue
 (
-bool
-aAuto
 bool
 aNotify
 )
