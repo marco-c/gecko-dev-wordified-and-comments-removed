@@ -3710,10 +3710,6 @@ gcmHashContext
 ghash
 =
 NULL
-*
-ghashmem
-=
-NULL
 ;
 unsigned
 char
@@ -3807,7 +3803,7 @@ return
 NULL
 ;
 }
-ghashmem
+ghash
 =
 PORT_ZAlloc
 (
@@ -3821,7 +3817,7 @@ gcmHashContext
 ;
 if
 (
-ghashmem
+ghash
 =
 =
 NULL
@@ -3837,6 +3833,13 @@ loser
 ;
 }
 ghash
+-
+>
+mem
+=
+ghash
+;
+ghash
 =
 (
 gcmHashContext
@@ -3847,7 +3850,7 @@ gcmHashContext
 (
 uintptr_t
 )
-ghashmem
+ghash
 +
 15
 )
@@ -3858,13 +3861,6 @@ uintptr_t
 )
 0x0F
 )
-;
-ghash
--
->
-mem
-=
-ghashmem
 ;
 gcm
 -
