@@ -1144,7 +1144,10 @@ return
 n
 ;
 }
+NS_IMETHODIMP_
+(
 MozExternalRefCountType
+)
 nsIAtom
 :
 :
@@ -1202,7 +1205,10 @@ DoAddRef
 )
 ;
 }
+NS_IMETHODIMP_
+(
 MozExternalRefCountType
+)
 nsIAtom
 :
 :
