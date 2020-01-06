@@ -3527,15 +3527,3 @@ lastMaintenance
 7258114800
 )
 ;
-user_pref
-(
-"
-extensions
-.
-pocket
-.
-disablePageAction
-"
-true
-)
-;
