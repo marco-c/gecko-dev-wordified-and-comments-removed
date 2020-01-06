@@ -245,6 +245,17 @@ tests
 /
 browser
 /
+events
+/
+browser
+.
+ini
+'
+'
+tests
+/
+browser
+/
 scroll
 /
 browser
