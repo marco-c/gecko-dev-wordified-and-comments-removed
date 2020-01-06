@@ -239,12 +239,26 @@ _run_tooltool
 (
 )
         
+if
+self
+.
+config
+.
+get
+(
+"
+run_configure
+"
+True
+)
+:
+            
 self
 .
 _get_mozconfig
 (
 )
-        
+            
 self
 .
 _run_configure
