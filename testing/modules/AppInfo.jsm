@@ -561,5 +561,16 @@ cid
 factory
 )
 ;
+Cc
+.
+initialize
+(
+Cc
+[
+cid
+]
+cid
+)
+;
 }
 ;
