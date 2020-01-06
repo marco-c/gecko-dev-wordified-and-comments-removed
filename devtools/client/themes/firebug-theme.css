@@ -756,7 +756,13 @@ inline
 -
 end
 :
-4px
+0
+;
+mask
+-
+image
+:
+none
 ;
 }
 .
