@@ -5131,15 +5131,6 @@ dlc
 /
 catalog
 /
-DownloadContentBootstrap
-.
-java
-'
-'
-dlc
-/
-catalog
-/
 DownloadContentBuilder
 .
 java

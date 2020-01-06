@@ -358,14 +358,14 @@ loadFromDisk
 ;
 Assert
 .
-assertTrue
+assertEquals
 (
 "
 Catalog
 is
-not
 empty
 "
+0
 catalog
 .
 getContentToStudy
@@ -375,8 +375,6 @@ getContentToStudy
 size
 (
 )
->
-0
 )
 ;
 }
