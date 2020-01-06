@@ -1108,12 +1108,6 @@ assert_less_than_equal
 assert_greater_than
 "
 "
-assert_greater_than_equal
-"
-"
-assert_not_exists
-"
-"
 assert_between_inclusive
 "
 "
@@ -1166,14 +1160,6 @@ EventWatcher
 opener
 .
 EventWatcher
-;
-window
-.
-W3CTest
-=
-opener
-.
-W3CTest
 ;
 function
 done
