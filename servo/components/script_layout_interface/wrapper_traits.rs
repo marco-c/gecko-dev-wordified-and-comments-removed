@@ -553,6 +553,14 @@ LayoutNodeType
 ;
 unsafe
 fn
+initialize_data
+(
+&
+self
+)
+;
+unsafe
+fn
 init_style_and_layout_data
 (
 &

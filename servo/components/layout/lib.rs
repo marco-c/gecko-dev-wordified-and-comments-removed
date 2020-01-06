@@ -68,10 +68,6 @@ canvas_traits
 ;
 extern
 crate
-core
-;
-extern
-crate
 euclid
 ;
 extern
@@ -229,6 +225,7 @@ pub
 mod
 context
 ;
+pub
 mod
 data
 ;

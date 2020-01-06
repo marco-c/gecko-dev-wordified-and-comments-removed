@@ -5167,6 +5167,8 @@ element
 RawGeckoElementBorrowed
 )
 {
+unsafe
+{
 GeckoElement
 (
 element
@@ -5175,6 +5177,7 @@ element
 clear_data
 (
 )
+}
 ;
 }
 #
@@ -9937,10 +9940,6 @@ ensure_data
 (
 )
 }
-.
-borrow_mut
-(
-)
 ;
 let
 doc_data
@@ -10223,10 +10222,6 @@ ensure_data
 (
 )
 }
-.
-borrow_mut
-(
-)
 ;
 data
 .
