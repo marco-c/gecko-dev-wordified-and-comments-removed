@@ -2875,10 +2875,6 @@ bool
 aAllowWrapping
 MutableHandleValue
 aVal
-nsIXPConnectJSObjectHolder
-*
-*
-aHolder
 )
 {
 AutoJSContext
@@ -2910,7 +2906,7 @@ XPCConvert
 NativeInterface2JSObject
 (
 aVal
-aHolder
+nullptr
 helper
 aIID
 aAllowWrapping
@@ -3037,7 +3033,6 @@ aIID
 true
 &
 v
-nullptr
 )
 ;
 if
@@ -3146,7 +3141,6 @@ aCache
 aIID
 aAllowWrapping
 aVal
-nullptr
 )
 ;
 }
