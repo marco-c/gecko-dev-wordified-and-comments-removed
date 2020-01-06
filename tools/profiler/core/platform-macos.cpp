@@ -627,6 +627,12 @@ aLock
 )
 {
 }
+#
+if
+defined
+(
+HAVE_NATIVE_UNWIND
+)
 void
 Registers
 :
@@ -700,3 +706,5 @@ __builtin_return_address
 )
 ;
 }
+#
+endif

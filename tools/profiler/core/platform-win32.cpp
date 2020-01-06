@@ -707,6 +707,12 @@ aLock
 )
 {
 }
+#
+if
+defined
+(
+HAVE_NATIVE_UNWIND
+)
 void
 Registers
 :
@@ -811,3 +817,5 @@ Ebp
 #
 endif
 }
+#
+endif
