@@ -995,7 +995,7 @@ aState
 )
 ;
 void
-NotifyFinishedAsyncPaintLayer
+NotifyFinishedAsyncPaintTransaction
 (
 )
 ;
