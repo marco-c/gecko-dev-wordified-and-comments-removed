@@ -6334,7 +6334,7 @@ if
 s
 -
 >
-hasSlot
+isDataProperty
 (
 )
 &

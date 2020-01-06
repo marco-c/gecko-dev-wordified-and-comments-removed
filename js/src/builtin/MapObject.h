@@ -2259,7 +2259,7 @@ addShape
 addShape
 -
 >
-hasSlot
+isDataProperty
 (
 )
 )

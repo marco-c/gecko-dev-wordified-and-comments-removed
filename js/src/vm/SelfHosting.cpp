@@ -17894,15 +17894,7 @@ MOZ_ASSERT
 shape
 -
 >
-hasSlot
-(
-)
-&
-&
-shape
--
->
-hasDefaultGetter
+isDataProperty
 (
 )
 )

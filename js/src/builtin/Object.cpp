@@ -4128,15 +4128,7 @@ fromShape
 shape
 -
 >
-hasDefaultGetter
-(
-)
-&
-&
-shape
--
->
-hasSlot
+isDataProperty
 (
 )
 )

@@ -210,16 +210,7 @@ iterShape
 iterShape
 -
 >
-hasSlot
-(
-)
-|
-|
-!
-iterShape
--
->
-hasDefaultGetter
+isDataProperty
 (
 )
 )
@@ -308,7 +299,7 @@ nextShape
 nextShape
 -
 >
-hasSlot
+isDataProperty
 (
 )
 )

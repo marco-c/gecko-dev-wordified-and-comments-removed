@@ -632,7 +632,7 @@ if
 shape
 -
 >
-hasSlot
+isDataProperty
 (
 )
 )

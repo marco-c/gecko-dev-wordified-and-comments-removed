@@ -26917,16 +26917,7 @@ shape
 shape
 -
 >
-hasDefaultGetter
-(
-)
-|
-|
-!
-shape
--
->
-hasSlot
+isDataProperty
 (
 )
 )
