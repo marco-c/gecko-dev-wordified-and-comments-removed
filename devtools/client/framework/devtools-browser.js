@@ -4180,6 +4180,12 @@ win
 )
 ;
 }
+DebuggerServer
+.
+removeContentServerScript
+(
+)
+;
 gDevTools
 .
 destroy
