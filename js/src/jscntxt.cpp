@@ -5126,7 +5126,7 @@ messageStr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 noteObj
@@ -5194,7 +5194,7 @@ filenameStr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 noteObj
@@ -5228,7 +5228,7 @@ lineno
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 noteObj
@@ -5262,7 +5262,7 @@ column
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 noteObj

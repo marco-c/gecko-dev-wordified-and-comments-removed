@@ -1699,7 +1699,7 @@ val
 )
 ;
 return
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -2955,7 +2955,7 @@ continue
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 array

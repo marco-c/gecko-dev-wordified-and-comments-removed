@@ -5398,7 +5398,7 @@ true
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 optObj
@@ -30248,7 +30248,7 @@ lineno
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx_
 result_
@@ -30269,7 +30269,7 @@ column
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx_
 result_
@@ -30350,7 +30350,7 @@ isEntryPoint
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx_
 result_
@@ -30490,7 +30490,7 @@ lineno
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx_
 result_
@@ -30511,7 +30511,7 @@ column
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx_
 result_
@@ -30539,7 +30539,7 @@ true
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx_
 result_
@@ -30967,7 +30967,7 @@ offsets
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 result
@@ -31085,7 +31085,7 @@ lineno
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx_
 entry
@@ -31106,7 +31106,7 @@ column
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx_
 entry
@@ -31148,7 +31148,7 @@ offset
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx_
 entry
@@ -34634,7 +34634,7 @@ item
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 item
@@ -34644,7 +34644,7 @@ offsetValue
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 item
@@ -34654,7 +34654,7 @@ lineNumberValue
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 item
@@ -34664,7 +34664,7 @@ columnNumberValue
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 item
@@ -60674,7 +60674,7 @@ atom
 )
 ;
 return
-DefineProperty
+DefineDataProperty
 (
 cx
 value
@@ -61275,22 +61275,18 @@ cx
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 debugCtor
 debuggeeWouldRunId
 debuggeeWouldRunCtor
-nullptr
-nullptr
 0
 )
 )
-{
 return
 false
 ;
-}
 debugProto
 -
 >
@@ -62139,7 +62135,7 @@ atomized
 ;
 }
 return
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -62225,7 +62221,7 @@ reason
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -62379,7 +62375,7 @@ ToMilliseconds
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 collectionObj
@@ -62396,7 +62392,7 @@ start
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 collectionObj
@@ -62430,7 +62426,7 @@ collectionObj
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 slicesArray
@@ -62458,7 +62454,7 @@ slicesArray
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj

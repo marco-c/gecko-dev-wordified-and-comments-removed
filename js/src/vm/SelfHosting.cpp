@@ -2750,7 +2750,7 @@ toObject
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 ctor
@@ -2766,8 +2766,6 @@ args
 [
 1
 ]
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_ENUMERATE

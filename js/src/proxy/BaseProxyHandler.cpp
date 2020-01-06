@@ -870,14 +870,12 @@ JSPROP_IGNORE_PERMANENT
 JSPROP_ENUMERATE
 ;
 return
-DefineProperty
+DefineDataProperty
 (
 cx
 receiverObj
 id
 v
-nullptr
-nullptr
 attrs
 result
 )

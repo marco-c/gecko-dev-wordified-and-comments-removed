@@ -455,7 +455,7 @@ reportCount
 &
 &
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -491,7 +491,7 @@ reportBytes
 &
 &
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -549,7 +549,7 @@ labelString
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1528,7 +1528,7 @@ objectsReport
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1569,7 +1569,7 @@ scriptsReport
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1610,7 +1610,7 @@ stringsReport
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1651,7 +1651,7 @@ otherReport
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -2036,7 +2036,7 @@ atom
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -2615,7 +2615,7 @@ otherReport
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -3336,7 +3336,7 @@ atom
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -5023,7 +5023,7 @@ noFilenameReport
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj

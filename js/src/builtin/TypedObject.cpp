@@ -2223,7 +2223,7 @@ size
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 descr
@@ -2236,8 +2236,6 @@ names
 .
 byteLength
 typeByteLength
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -2266,7 +2264,7 @@ alignment
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 descr
@@ -2279,8 +2277,6 @@ names
 .
 byteAlignment
 typeByteAlignment
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -2297,7 +2293,7 @@ else
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 descr
@@ -2310,8 +2306,6 @@ names
 .
 byteLength
 UndefinedHandleValue
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -2325,7 +2319,7 @@ false
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 descr
@@ -2338,8 +2332,6 @@ names
 .
 byteAlignment
 UndefinedHandleValue
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -2535,7 +2527,7 @@ elementType
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -2548,8 +2540,6 @@ names
 .
 elementType
 elementTypeVal
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -2573,7 +2563,7 @@ length
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -2586,8 +2576,6 @@ names
 .
 length
 lengthValue
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -3711,7 +3699,7 @@ nullptr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 userFieldTypes
@@ -3720,8 +3708,6 @@ fieldTypeObjs
 [
 i
 ]
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -3886,14 +3872,12 @@ value
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 userFieldOffsets
 id
 offsetValue
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -4335,7 +4319,7 @@ userFieldOffsets
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 descr
@@ -4348,8 +4332,6 @@ names
 .
 fieldOffsets
 userFieldOffsetsValue
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -4374,7 +4356,7 @@ userFieldTypes
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 descr
@@ -4387,8 +4369,6 @@ names
 .
 fieldTypes
 userFieldTypesValue
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5192,14 +5172,12 @@ descr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 module
 className
 descrValue
-nullptr
-nullptr
 0
 )
 )
@@ -5408,7 +5386,7 @@ protoProto
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 proto
@@ -5421,8 +5399,6 @@ names
 .
 prototype
 protoProtoValue
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5743,7 +5719,7 @@ arrayType
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 module
@@ -5756,8 +5732,6 @@ names
 .
 ArrayType
 arrayTypeValue
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5815,7 +5789,7 @@ structType
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 module
@@ -5828,8 +5802,6 @@ names
 .
 StructType
 structTypeValue
-nullptr
-nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5854,7 +5826,7 @@ module
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 global
@@ -5867,8 +5839,6 @@ names
 .
 TypedObject
 moduleValue
-nullptr
-nullptr
 JSPROP_RESOLVING
 )
 )

@@ -6531,7 +6531,7 @@ Atomics
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 global
@@ -6544,16 +6544,12 @@ names
 .
 Atomics
 AtomicsValue
-nullptr
-nullptr
 JSPROP_RESOLVING
 )
 )
-{
 return
 nullptr
 ;
-}
 global
 -
 >

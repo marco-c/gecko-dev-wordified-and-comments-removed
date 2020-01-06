@@ -6909,7 +6909,7 @@ revoker
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 result
@@ -6926,7 +6926,7 @@ proxyVal
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 result

@@ -41310,7 +41310,7 @@ nameStr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 warningObj
@@ -41362,7 +41362,7 @@ messageStr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 warningObj
@@ -41396,7 +41396,7 @@ lineno
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 warningObj
@@ -41430,7 +41430,7 @@ column
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 warningObj
@@ -41481,7 +41481,7 @@ notesArray
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 warningObj

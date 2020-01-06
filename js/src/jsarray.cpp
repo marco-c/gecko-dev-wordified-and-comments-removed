@@ -1859,7 +1859,7 @@ Incomplete
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 resObj_
@@ -2634,7 +2634,7 @@ return
 false
 ;
 return
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -3405,7 +3405,7 @@ ArrayObject
 )
 {
 return
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -3418,8 +3418,6 @@ names
 .
 length
 vp
-nullptr
-nullptr
 JSPROP_ENUMERATE
 result
 )
@@ -13392,7 +13390,7 @@ Incomplete
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 nresult
@@ -15559,7 +15557,7 @@ hole
 &
 &
 !
-DefineElement
+DefineDataElement
 (
 cx
 result
@@ -16874,7 +16872,7 @@ k
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 obj
@@ -18215,7 +18213,7 @@ true
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 unscopables
@@ -18232,7 +18230,7 @@ value
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 unscopables
@@ -18249,7 +18247,7 @@ value
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 unscopables
@@ -18266,7 +18264,7 @@ value
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 unscopables
@@ -18283,7 +18281,7 @@ value
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 unscopables
@@ -18300,7 +18298,7 @@ value
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 unscopables
@@ -18317,7 +18315,7 @@ value
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 unscopables
@@ -18334,7 +18332,7 @@ value
 |
 |
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 unscopables
@@ -18389,14 +18387,12 @@ unscopables
 )
 ;
 return
-DefineProperty
+DefineDataProperty
 (
 cx
 proto
 id
 value
-nullptr
-nullptr
 JSPROP_READONLY
 )
 ;

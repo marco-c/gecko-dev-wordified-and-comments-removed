@@ -3061,7 +3061,7 @@ next
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 res
@@ -5172,7 +5172,7 @@ nullptr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 resultObj
@@ -5193,7 +5193,7 @@ nullptr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 resultObj

@@ -2833,7 +2833,7 @@ false
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 locales
@@ -2844,16 +2844,11 @@ asPropertyName
 (
 )
 TrueHandleValue
-nullptr
-nullptr
-JSPROP_ENUMERATE
 )
 )
-{
 return
 false
 ;
-}
 }
 #
 endif
@@ -3921,7 +3916,7 @@ ctor
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 Intl
@@ -3934,8 +3929,6 @@ names
 .
 Collator
 ctorValue
-nullptr
-nullptr
 0
 )
 )
@@ -4200,7 +4193,7 @@ index
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 collations
@@ -4323,7 +4316,7 @@ jscollation
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 collations
@@ -7074,7 +7067,7 @@ nullptr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 proto
@@ -7087,8 +7080,6 @@ names
 .
 formatToParts
 ftp
-nullptr
-nullptr
 0
 )
 )
@@ -7110,7 +7101,7 @@ ctor
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 Intl
@@ -7123,8 +7114,6 @@ names
 .
 NumberFormat
 ctorValue
-nullptr
-nullptr
 0
 )
 )
@@ -10162,7 +10151,7 @@ type
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 singlePart
@@ -10212,7 +10201,7 @@ partSubstr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 singlePart
@@ -10241,7 +10230,7 @@ singlePart
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 partsArray
@@ -11306,7 +11295,7 @@ ctor
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 Intl
@@ -11319,8 +11308,6 @@ names
 .
 DateTimeFormat
 ctorValue
-nullptr
-nullptr
 0
 )
 )
@@ -11755,7 +11742,7 @@ false
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 calendars
@@ -11935,7 +11922,7 @@ jscalendar
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 calendars
@@ -11999,7 +11986,7 @@ jscalendar
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 calendars
@@ -15879,7 +15866,7 @@ type
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 singlePart
@@ -15929,7 +15916,7 @@ partSubstr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 singlePart
@@ -15958,7 +15945,7 @@ singlePart
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 partsArray
@@ -16976,7 +16963,7 @@ ctor
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 Intl
@@ -16989,8 +16976,6 @@ names
 .
 PluralRules
 ctorValue
-nullptr
-nullptr
 0
 )
 )
@@ -17934,7 +17919,7 @@ str
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 res
@@ -18859,7 +18844,7 @@ firstDayOfWeek
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 info
@@ -18896,7 +18881,7 @@ minDays
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 info
@@ -19109,7 +19094,7 @@ isInt32
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 info
@@ -19130,7 +19115,7 @@ false
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 info
@@ -20875,7 +20860,7 @@ displayName
 if
 (
 !
-DefineElement
+DefineDataElement
 (
 cx
 result
@@ -20986,7 +20971,7 @@ false
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 info
@@ -21053,7 +21038,7 @@ ltr
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 info
@@ -21356,7 +21341,7 @@ intl
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 global
@@ -21369,16 +21354,12 @@ names
 .
 Intl
 intlValue
-nullptr
-nullptr
 JSPROP_RESOLVING
 )
 )
-{
 return
 false
 ;
-}
 global
 -
 >

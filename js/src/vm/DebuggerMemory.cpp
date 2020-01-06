@@ -1036,7 +1036,7 @@ frame
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1090,7 +1090,7 @@ when
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1148,7 +1148,7 @@ className
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1193,7 +1193,7 @@ ctorName
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1226,7 +1226,7 @@ size
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
@@ -1259,7 +1259,7 @@ inNursery
 if
 (
 !
-DefineProperty
+DefineDataProperty
 (
 cx
 obj
