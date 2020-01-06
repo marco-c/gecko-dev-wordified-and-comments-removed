@@ -570,6 +570,7 @@ transform
 :
 {
 TimingFunction
+Transform
 TransformOrigin
 }
 ;
