@@ -39,9 +39,9 @@ Version
 :
 1
 .
-5
+6
 .
-1
+0
 Libs
 :
 -
@@ -55,6 +55,8 @@ Libs
 .
 private
 :
+-
+lm
 Requires
 .
 private

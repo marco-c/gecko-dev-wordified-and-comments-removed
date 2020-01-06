@@ -171,6 +171,10 @@ HB_SCRIPT_MARCHEN
 HB_SCRIPT_NEWA
 HB_SCRIPT_OSAGE
 HB_SCRIPT_TANGUT
+HB_SCRIPT_MASARAM_GONDI
+HB_SCRIPT_NUSHU
+HB_SCRIPT_SOYOMBO
+HB_SCRIPT_ZANABAZAR_SQUARE
 }
 ;
 static
@@ -180,6 +184,7 @@ hb_ucdn_combining_class
 hb_unicode_funcs_t
 *
 ufuncs
+HB_UNUSED
 hb_codepoint_t
 unicode
 void
@@ -206,6 +211,7 @@ hb_ucdn_eastasian_width
 hb_unicode_funcs_t
 *
 ufuncs
+HB_UNUSED
 hb_codepoint_t
 unicode
 void
@@ -248,6 +254,7 @@ hb_ucdn_general_category
 hb_unicode_funcs_t
 *
 ufuncs
+HB_UNUSED
 hb_codepoint_t
 unicode
 void
@@ -273,6 +280,7 @@ hb_ucdn_mirroring
 hb_unicode_funcs_t
 *
 ufuncs
+HB_UNUSED
 hb_codepoint_t
 unicode
 void
@@ -295,6 +303,7 @@ hb_ucdn_script
 hb_unicode_funcs_t
 *
 ufuncs
+HB_UNUSED
 hb_codepoint_t
 unicode
 void
@@ -320,6 +329,7 @@ hb_ucdn_compose
 hb_unicode_funcs_t
 *
 ufuncs
+HB_UNUSED
 hb_codepoint_t
 a
 hb_codepoint_t
@@ -349,6 +359,7 @@ hb_ucdn_decompose
 hb_unicode_funcs_t
 *
 ufuncs
+HB_UNUSED
 hb_codepoint_t
 ab
 hb_codepoint_t
@@ -380,6 +391,7 @@ hb_ucdn_decompose_compatibility
 hb_unicode_funcs_t
 *
 ufuncs
+HB_UNUSED
 hb_codepoint_t
 u
 hb_codepoint_t

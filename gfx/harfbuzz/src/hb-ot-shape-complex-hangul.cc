@@ -1812,6 +1812,7 @@ NULL
 NULL
 setup_masks_hangul
 NULL
+NULL
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
 false
 }

@@ -143,6 +143,9 @@ USE_SMAbv
 USE_SMBlw
 =
 42
+USE_CS
+=
+43
 }
 ;
 HB_INTERNAL

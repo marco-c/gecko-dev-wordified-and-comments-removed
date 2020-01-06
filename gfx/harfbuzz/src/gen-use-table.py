@@ -815,6 +815,10 @@ Top_And_Left_And_Right
 '
 	
 '
+Bottom_And_Left
+'
+	
+'
 Bottom_And_Right
 '
 	
@@ -1024,6 +1028,8 @@ in
 [
 0x104E
 0x2022
+0x11A3F
+0x11A45
 ]
 )
 or
@@ -1187,6 +1193,20 @@ UGC
 =
 Lo
 def
+is_CONS_WITH_STACKER
+(
+U
+UISC
+UGC
+)
+:
+	
+return
+UISC
+=
+=
+Consonant_With_Stacker
+def
 is_HALANT
 (
 U
@@ -1341,7 +1361,6 @@ UISC
 in
 [
 Consonant_Preceding_Repha
-Consonant_With_Stacker
 Consonant_Prefixed
 ]
 def
@@ -1553,6 +1572,12 @@ SUB
 is_CONS_SUB
 	
 '
+CS
+'
+:
+is_CONS_WITH_STACKER
+	
+'
 H
 '
 :
@@ -1686,6 +1711,7 @@ Blw
 :
 [
 Bottom
+Bottom_And_Left
 ]
 		
 '
@@ -1936,24 +1962,19 @@ UISC
 =
 Tone_Mark
 		
-evals
-=
-[
-(
-k
-v
-(
+if
 U
+=
+=
+0x1A7F
+:
 UISC
-UGC
-)
-)
-for
-k
-v
-in
-items
-]
+=
+Consonant_Final
+;
+UIPC
+=
+Bottom
 		
 values
 =
@@ -1963,9 +1984,14 @@ for
 k
 v
 in
-evals
+items
 if
 v
+(
+U
+UISC
+UGC
+)
 ]
 		
 assert

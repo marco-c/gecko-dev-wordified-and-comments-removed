@@ -317,6 +317,10 @@ Symbol
 =
 18
 ;
+CS
+=
+19
+;
 c
 =
 (
@@ -512,7 +516,11 @@ V
 ;
 consonant_syllable
 =
+(
 Repha
+|
+CS
+)
 ?
 (
 cn
@@ -556,7 +564,11 @@ syllable_tail
 standalone_cluster
 =
 (
+(
 Repha
+|
+CS
+)
 ?
 PLACEHOLDER
 |

@@ -14,9 +14,9 @@ HarfBuzz
 [
 1
 .
-5
+6
 .
-1
+0
 ]
 [
 https
@@ -421,6 +421,8 @@ sysconf
 getpagesize
 mmap
 isatty
+newlocale
+strtod_l
 )
 AC_CHECK_HEADERS
 (
@@ -430,6 +432,9 @@ h
 sys
 /
 mman
+.
+h
+xlocale
 .
 h
 )
@@ -4482,16 +4487,6 @@ docs
 version
 .
 xml
-win32
-/
-Makefile
-win32
-/
-config
-.
-h
-.
-win32
 ]
 )
 AC_OUTPUT

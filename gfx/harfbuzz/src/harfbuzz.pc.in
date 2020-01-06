@@ -45,6 +45,8 @@ Libs
 .
 private
 :
+-
+lm
 %
 libs_private
 %

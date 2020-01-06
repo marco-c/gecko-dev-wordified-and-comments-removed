@@ -536,6 +536,8 @@ libharfbuzz_la_LDFLAGS
 AM_LDFLAGS
 )
 -
+lm
+-
 version
 -
 info
@@ -1796,6 +1798,12 @@ sh
 check
 -
 defs
+.
+sh
+\
+check
+-
+externs
 .
 sh
 \

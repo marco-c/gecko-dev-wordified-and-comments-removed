@@ -2982,6 +2982,7 @@ decompose_use
 compose_use
 setup_masks_use
 NULL
+NULL
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_EARLY
 false
 }

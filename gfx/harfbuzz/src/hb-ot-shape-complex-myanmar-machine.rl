@@ -255,7 +255,7 @@ C
 ;
 D
 =
-19
+32
 ;
 D0
 =
@@ -336,6 +336,10 @@ Ra
 P
 =
 31
+;
+CS
+=
+19
 ;
 j
 =
@@ -446,7 +450,11 @@ complex_syllable_tail
 ;
 consonant_syllable
 =
+(
 k
+|
+CS
+)
 ?
 (
 c

@@ -976,6 +976,7 @@ HB_BUFFER_DIFF_FLAG_POSITION_MISMATCH
 }
 hb_buffer_diff_flags_t
 ;
+HB_EXTERN
 hb_buffer_diff_flags_t
 hb_buffer_diff
 (

@@ -22,7 +22,6 @@ src
 util
 test
 docs
-win32
 EXTRA_DIST
 =
 \
@@ -39,6 +38,10 @@ README
 python
 \
 BUILD
+.
+md
+\
+RELEASING
 .
 md
 \

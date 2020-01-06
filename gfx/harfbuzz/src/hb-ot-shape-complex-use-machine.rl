@@ -538,6 +538,12 @@ SMBlw
 ;
 #
 SYM_MOD_BELOW
+CS
+=
+43
+;
+#
+CONS_WITH_STACKER
 consonant_modifiers
 =
 CMAbv
@@ -631,7 +637,11 @@ FM
 ;
 virama_terminated_cluster
 =
+(
 R
+|
+CS
+)
 ?
 (
 B
@@ -645,7 +655,11 @@ H
 ;
 standard_cluster
 =
+(
 R
+|
+CS
+)
 ?
 (
 B

@@ -502,6 +502,7 @@ NULL
 compose_hebrew
 NULL
 disable_otl_hebrew
+NULL
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_LATE
 true
 }
