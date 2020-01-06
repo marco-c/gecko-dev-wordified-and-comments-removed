@@ -130,6 +130,11 @@ TestBlankVideoDataCreator
 cpp
 '
 '
+TestCDMStorage
+.
+cpp
+'
+'
 TestGMPCrossOrigin
 .
 cpp
