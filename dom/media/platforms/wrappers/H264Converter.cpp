@@ -1609,6 +1609,7 @@ NS_OK
 }
 if
 (
+!
 mp4_demuxer
 :
 :
@@ -1622,9 +1623,8 @@ aSample
 >
 mExtraData
 )
-&
-&
-!
+|
+|
 mp4_demuxer
 :
 :
@@ -1641,6 +1641,10 @@ mOriginalExtraData
 )
 )
 {
+return
+NS_OK
+;
+}
 extra_data
 =
 mOriginalExtraData
@@ -1650,7 +1654,6 @@ aSample
 >
 mExtraData
 ;
-}
 }
 if
 (
