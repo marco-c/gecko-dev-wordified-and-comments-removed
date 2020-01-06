@@ -2844,8 +2844,6 @@ JSFreeOp
 fop
 JSFinalizeStatus
 status
-bool
-isZoneGC
 void
 *
 data
