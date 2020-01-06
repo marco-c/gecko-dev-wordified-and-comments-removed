@@ -1154,6 +1154,7 @@ nsIAtom
 *
 aAttribute
 )
+const
 ;
 bool
 HasStateDependency
@@ -1168,6 +1169,7 @@ aElement
 EventStates
 aState
 )
+const
 ;
 private
 :
