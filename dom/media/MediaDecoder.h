@@ -1798,12 +1798,14 @@ mPlaybackStatistics
 bool
 mPinnedForSeek
 ;
+const
 dom
 :
 :
 AudioChannel
 mAudioChannel
 ;
+const
 bool
 mMinimizePreroll
 ;
