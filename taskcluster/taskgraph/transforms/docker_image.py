@@ -389,16 +389,15 @@ context_hash
 )
 )
         
-optimization
+optimizations
 =
-{
+[
+[
 '
 index
 -
 search
 '
-:
-[
 '
 {
 }
@@ -425,6 +424,7 @@ level
 image_name
 context_hash
 )
+]
             
 for
 level
@@ -448,7 +448,6 @@ level
 )
 )
 ]
-}
         
 zstd_level
 =
@@ -530,10 +529,10 @@ routes
 routes
             
 '
-optimization
+optimizations
 '
 :
-optimization
+optimizations
             
 '
 scopes
