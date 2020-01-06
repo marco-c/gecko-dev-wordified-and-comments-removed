@@ -321,11 +321,6 @@ StringBlobImpl
 cpp
 '
 '
-TemporaryBlobImpl
-.
-cpp
-'
-'
 TemporaryFileBlobImpl
 .
 cpp
