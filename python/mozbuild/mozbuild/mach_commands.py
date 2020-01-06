@@ -2817,6 +2817,17 @@ txt
 "
 )
                 
+if
+os
+.
+path
+.
+exists
+(
+pathToThirdparty
+)
+:
+                    
 with
 open
 (
@@ -2825,7 +2836,7 @@ pathToThirdparty
 as
 f
 :
-                    
+                        
 LOCAL_SUPPRESS_DIRS
 =
 tuple
@@ -2850,6 +2861,14 @@ read
 splitlines
 (
 )
+)
+                
+else
+:
+                    
+LOCAL_SUPPRESS_DIRS
+=
+(
 )
                 
 suppressed_by_dir
