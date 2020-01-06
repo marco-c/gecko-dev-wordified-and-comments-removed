@@ -777,6 +777,9 @@ isEmpty
 )
 ;
 }
+LayerSession
+mSession
+;
 private
 LayerSession
 .
@@ -1021,6 +1024,8 @@ mOverscroll
 draw
 (
 canvas
+mSession
+.
 getViewportMetrics
 (
 )
@@ -1452,6 +1457,10 @@ LayerSession
 session
 )
 {
+mSession
+=
+session
+;
 mCompositor
 =
 session

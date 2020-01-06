@@ -839,6 +839,10 @@ toolbarOffset
 =
 geckoView
 .
+getDynamicToolbarAnimator
+(
+)
+.
 getCurrentToolbarHeight
 (
 )
@@ -849,9 +853,15 @@ zoomFactor
 =
 geckoView
 .
-getZoomFactor
+getSession
 (
 )
+.
+getViewportMetrics
+(
+)
+.
+zoomFactor
 ;
 geckoView
 .

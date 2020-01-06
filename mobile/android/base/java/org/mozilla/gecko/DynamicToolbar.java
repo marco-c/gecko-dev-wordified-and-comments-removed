@@ -36,17 +36,6 @@ mozilla
 .
 gecko
 .
-gfx
-.
-LayerView
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 ThreadUtils
@@ -132,7 +121,7 @@ PrefHandler
 prefObserver
 ;
 private
-LayerView
+GeckoView
 layerView
 ;
 private
@@ -356,7 +345,7 @@ public
 void
 setLayerView
 (
-LayerView
+GeckoView
 layerView
 )
 {
