@@ -6504,13 +6504,15 @@ nsresult
 TextEditRules
 :
 :
-CreateMozBR
+CreateBRInternal
 (
 nsIDOMNode
 *
 inParent
 int32_t
 inOffset
+bool
+aMozBR
 nsIDOMNode
 *
 *
@@ -6569,6 +6571,9 @@ brNode
 ;
 if
 (
+aMozBR
+&
+&
 brElem
 )
 {
