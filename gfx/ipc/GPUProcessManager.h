@@ -520,6 +520,11 @@ aOutCompositorOptions
 )
 ;
 void
+ResetCompositors
+(
+)
+;
+void
 OnProcessLaunchComplete
 (
 GPUProcessHost
