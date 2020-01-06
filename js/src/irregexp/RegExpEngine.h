@@ -188,6 +188,12 @@ bool
 sticky
 bool
 unicode
+RegExpShared
+:
+:
+JitCodeTables
+&
+tables
 )
 ;
 template
