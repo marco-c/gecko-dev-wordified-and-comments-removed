@@ -98,6 +98,7 @@ aCompositable
 ;
 protected
 :
+virtual
 ~
 SharedPlanarYCbCrImage
 (

@@ -127,6 +127,7 @@ aCompositable
 ;
 protected
 :
+virtual
 ~
 SharedRGBImage
 (
