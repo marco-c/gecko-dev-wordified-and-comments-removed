@@ -8913,7 +8913,6 @@ if
 StartIncrementalEncoding
 (
 cx
-saveBuffer
 script
 )
 )
@@ -9040,6 +9039,7 @@ FinishIncrementalEncoding
 (
 cx
 script
+saveBuffer
 )
 )
 return

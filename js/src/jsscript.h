@@ -2095,12 +2095,6 @@ xdrEncodeTopLevel
 JSContext
 *
 cx
-JS
-:
-:
-TranscodeBuffer
-&
-buffer
 HandleScript
 script
 )
@@ -2120,6 +2114,12 @@ sourceObject
 bool
 xdrFinalizeEncoder
 (
+JS
+:
+:
+TranscodeBuffer
+&
+buffer
 )
 ;
 const

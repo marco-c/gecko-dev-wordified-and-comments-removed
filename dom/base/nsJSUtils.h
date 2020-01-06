@@ -440,15 +440,6 @@ void
 *
 *
 aOffThreadToken
-mozilla
-:
-:
-Vector
-<
-uint8_t
->
-&
-aBytecodeBuf
 JS
 :
 :

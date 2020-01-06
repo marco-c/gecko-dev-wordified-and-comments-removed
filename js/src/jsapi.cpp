@@ -36057,9 +36057,6 @@ StartIncrementalEncoding
 JSContext
 *
 cx
-TranscodeBuffer
-&
-buffer
 JS
 :
 :
@@ -36089,7 +36086,6 @@ scriptSource
 xdrEncodeTopLevel
 (
 cx
-buffer
 script
 )
 )
@@ -36117,6 +36113,9 @@ JS
 :
 HandleScript
 script
+TranscodeBuffer
+&
+buffer
 )
 {
 if
@@ -36140,6 +36139,7 @@ scriptSource
 >
 xdrFinalizeEncoder
 (
+buffer
 )
 )
 return

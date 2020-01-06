@@ -22993,9 +22993,6 @@ StartIncrementalEncoding
 JSContext
 *
 cx
-TranscodeBuffer
-&
-buffer
 JS
 :
 :
@@ -23018,6 +23015,9 @@ JS
 :
 HandleScript
 script
+TranscodeBuffer
+&
+buffer
 )
 ;
 }

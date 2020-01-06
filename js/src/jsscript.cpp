@@ -11792,12 +11792,6 @@ xdrEncodeTopLevel
 JSContext
 *
 cx
-JS
-:
-:
-TranscodeBuffer
-&
-buffer
 HandleScript
 script
 )
@@ -11813,12 +11807,6 @@ XDRIncrementalEncoder
 >
 (
 cx
-buffer
-buffer
-.
-length
-(
-)
 )
 ;
 if
@@ -12013,6 +12001,12 @@ ScriptSource
 :
 xdrFinalizeEncoder
 (
+JS
+:
+:
+TranscodeBuffer
+&
+buffer
 )
 {
 MOZ_ASSERT
@@ -12052,6 +12046,7 @@ xdrEncoder_
 >
 linearize
 (
+buffer
 )
 )
 return
