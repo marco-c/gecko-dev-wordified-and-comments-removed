@@ -2016,7 +2016,6 @@ mCurrentInputBuffer
 new
 SourceBufferResource
 (
-mType
 )
 ;
 }
@@ -4001,7 +4000,6 @@ mCurrentInputBuffer
 new
 SourceBufferResource
 (
-mType
 )
 ;
 mCurrentInputBuffer
@@ -4439,7 +4437,6 @@ mCurrentInputBuffer
 new
 SourceBufferResource
 (
-mType
 )
 ;
 mCurrentInputBuffer

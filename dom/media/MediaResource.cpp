@@ -409,10 +409,6 @@ aChannel
 nsIURI
 *
 aURI
-const
-MediaContainerType
-&
-aContainerType
 bool
 aIsPrivateBrowsing
 )
@@ -422,7 +418,6 @@ BaseMediaResource
 aCallback
 aChannel
 aURI
-aContainerType
 )
 mOffset
 (
@@ -474,10 +469,6 @@ nsIURI
 *
 aURI
 const
-MediaContainerType
-&
-aContainerType
-const
 MediaChannelStatistics
 &
 aStatistics
@@ -488,7 +479,6 @@ BaseMediaResource
 aCallback
 aChannel
 aURI
-aContainerType
 )
 mOffset
 (
@@ -2906,9 +2896,6 @@ ChannelMediaResource
 aCallback
 nullptr
 mURI
-GetContentType
-(
-)
 mChannelStatistics
 )
 ;
@@ -3653,20 +3640,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
-)
-;
-mChannel
--
->
-SetContentType
-(
-GetContentType
-(
-)
-.
-OriginalString
-(
-)
 )
 ;
 mSuspendAgent
@@ -4512,10 +4485,6 @@ aChannel
 nsIURI
 *
 aURI
-const
-MediaContainerType
-&
-aContainerType
 )
 :
 BaseMediaResource
@@ -4523,7 +4492,6 @@ BaseMediaResource
 aCallback
 aChannel
 aURI
-aContainerType
 )
 mSize
 (
@@ -6005,8 +5973,6 @@ HLSResource
 aCallback
 aChannel
 uri
-*
-containerType
 )
 ;
 return
@@ -6043,8 +6009,6 @@ FileMediaResource
 aCallback
 aChannel
 uri
-*
-containerType
 )
 ;
 }
@@ -6105,8 +6069,6 @@ FileMediaResource
 aCallback
 aChannel
 uri
-*
-containerType
 )
 ;
 }
@@ -6125,8 +6087,6 @@ ChannelMediaResource
 aCallback
 aChannel
 uri
-*
-containerType
 aIsPrivateBrowsing
 )
 ;

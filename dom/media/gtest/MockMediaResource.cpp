@@ -35,10 +35,6 @@ const
 char
 *
 aFileName
-const
-MediaContainerType
-&
-aContainerType
 )
 :
 mFileHandle
@@ -48,10 +44,6 @@ nullptr
 mFileName
 (
 aFileName
-)
-mContainerType
-(
-aContainerType
 )
 {
 }

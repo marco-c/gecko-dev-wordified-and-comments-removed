@@ -137,10 +137,6 @@ aChannel
 nsIURI
 *
 aURI
-const
-MediaContainerType
-&
-aContainerType
 )
 :
 mCallback
@@ -154,10 +150,6 @@ aChannel
 mURI
 (
 aURI
-)
-mContainerType
-(
-aContainerType
 )
 {
 nsCString
