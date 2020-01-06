@@ -721,6 +721,17 @@ bool
 aAlpnIgnored
 )
 ;
+nsresult
+GetOriginAttributes
+(
+mozilla
+:
+:
+OriginAttributes
+*
+oa
+)
+;
 protected
 :
 static
