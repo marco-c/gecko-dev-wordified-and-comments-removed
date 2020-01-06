@@ -4602,8 +4602,10 @@ FireReadystatechangeEvent
 if
 (
 mUpload
-&
-&
+)
+{
+if
+(
 !
 mUploadComplete
 )
@@ -4612,6 +4614,7 @@ mUploadComplete
 =
 true
 ;
+}
 if
 (
 mFlagHadUploadListenersOnSend
