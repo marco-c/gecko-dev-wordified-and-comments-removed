@@ -37,3 +37,9 @@ extension
 1
 )
 ;
+testEnv
+.
+expectRemote
+=
+true
+;
