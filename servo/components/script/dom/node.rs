@@ -378,7 +378,10 @@ dom
 customelementregistry
 :
 :
+{
 CallbackReaction
+try_upgrade_element
+}
 ;
 use
 dom
@@ -2228,6 +2231,7 @@ CallbackReaction
 :
 :
 Disconnected
+None
 )
 ;
 }
@@ -9024,6 +9028,7 @@ from_ref
 document
 )
 )
+None
 )
 ;
 }
@@ -10223,6 +10228,17 @@ CallbackReaction
 :
 :
 Connected
+None
+)
+;
+}
+else
+{
+try_upgrade_element
+(
+&
+*
+descendant
 )
 ;
 }
