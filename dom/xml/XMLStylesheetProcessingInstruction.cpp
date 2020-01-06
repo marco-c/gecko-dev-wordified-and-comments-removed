@@ -387,9 +387,6 @@ nsIURI
 *
 baseURL
 ;
-nsAutoCString
-charset
-;
 nsIDocument
 *
 document
@@ -415,7 +412,8 @@ GetDocBaseURI
 (
 )
 ;
-charset
+auto
+encoding
 =
 document
 -
@@ -437,11 +435,7 @@ getter_AddRefs
 aURI
 )
 href
-charset
-.
-get
-(
-)
+encoding
 baseURL
 )
 ;
