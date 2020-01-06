@@ -3,13 +3,6 @@ use
 strict
 "
 ;
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-destroy
-"
-)
-;
 add_task
 (
 function
