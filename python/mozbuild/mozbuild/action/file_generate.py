@@ -418,6 +418,18 @@ topobjdir
 )
 )
                 
+deps
+|
+=
+set
+(
+buildconfig
+.
+get_dependencies
+(
+)
+)
+                
 mk
 =
 Makefile
