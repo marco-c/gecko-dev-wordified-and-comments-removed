@@ -14,7 +14,7 @@ const
 unsigned
 BufferSize
 =
-20
+32
 ;
 static
 unsigned
@@ -69,8 +69,9 @@ isFullGc
 ;
 CHECK
 (
-checkSingleGroup
+checkGroupCount
 (
+1
 )
 )
 ;
@@ -317,8 +318,9 @@ isFullGc
 ;
 CHECK
 (
-checkSingleGroup
+checkGroupCount
 (
+1
 )
 )
 ;
@@ -408,8 +410,9 @@ isFullGc
 ;
 CHECK
 (
-checkSingleGroup
+checkGroupCount
 (
+1
 )
 )
 ;
@@ -539,8 +542,9 @@ isFullGc
 ;
 CHECK
 (
-checkSingleGroup
+checkGroupCount
 (
+2
 )
 )
 ;
@@ -1075,8 +1079,10 @@ uninit
 ;
 }
 bool
-checkSingleGroup
+checkGroupCount
 (
+size_t
+count
 )
 {
 CHECK
@@ -1091,7 +1097,11 @@ CHECK
 FinalizeCalls
 =
 =
-4
+count
+*
+3
++
+1
 )
 ;
 return
