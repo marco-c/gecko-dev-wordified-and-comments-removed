@@ -79,7 +79,6 @@ h
 define
 BBP
 8
-static
 PRBool
 sftkdb_isULONGAttribute
 (
@@ -5654,7 +5653,7 @@ object
 -
 >
 objclass
-template
+ntemplate
 count
 objectID
 )
@@ -5731,7 +5730,7 @@ arena
 handle
 db
 objectID
-template
+ntemplate
 count
 )
 ;
