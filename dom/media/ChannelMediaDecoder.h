@@ -208,6 +208,11 @@ Shutdown
 )
 override
 ;
+bool
+CanClone
+(
+)
+;
 already_AddRefed
 <
 ChannelMediaDecoder
