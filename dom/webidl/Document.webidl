@@ -1160,10 +1160,6 @@ extensions
 ?
 attribute
 EventHandler
-onwheel
-;
-attribute
-EventHandler
 onbeforescriptexecute
 ;
 attribute

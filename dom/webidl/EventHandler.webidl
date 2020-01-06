@@ -440,15 +440,9 @@ attribute
 EventHandler
 onmouseup
 ;
-/
-/
-(
-Not
-implemented
-)
 attribute
 EventHandler
-onmousewheel
+onwheel
 ;
 attribute
 EventHandler

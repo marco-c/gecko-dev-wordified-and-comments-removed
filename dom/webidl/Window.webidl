@@ -2790,13 +2790,6 @@ attribute
 MozSelfSupport
 MozSelfSupport
 ;
-[
-Pure
-]
-attribute
-EventHandler
-onwheel
-;
 attribute
 EventHandler
 ondevicemotion
