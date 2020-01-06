@@ -7,7 +7,7 @@ MediaDecoderOwner_h_
 #
 include
 "
-AbstractMediaDecoder
+MediaInfo
 .
 h
 "
