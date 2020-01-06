@@ -571,9 +571,8 @@ mScheduleTimer
 {
 mScheduleTimer
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 if
@@ -728,9 +727,8 @@ mTimer
 {
 mTimer
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 }
