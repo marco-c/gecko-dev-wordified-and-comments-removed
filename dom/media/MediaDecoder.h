@@ -1449,13 +1449,6 @@ MediaDecoder
 >
 mWatchManager
 ;
-virtual
-void
-ShutdownBitChanged
-(
-)
-{
-}
 double
 ExplicitDuration
 (

@@ -134,16 +134,6 @@ nsIObserver
 public
 :
 virtual
-bool
-IsOggDecoderShutdown
-(
-)
-{
-return
-false
-;
-}
-virtual
 MediaResource
 *
 GetResource
