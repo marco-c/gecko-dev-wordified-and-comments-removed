@@ -356,6 +356,16 @@ py
 '
 testing
 /
+geckodriver
+/
+mach_commands
+.
+py
+'
+    
+'
+testing
+/
 mach_commands
 .
 py
