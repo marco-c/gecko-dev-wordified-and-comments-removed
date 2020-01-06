@@ -1666,6 +1666,7 @@ Serialize
 [
 derive
 (
+Animate
 Clone
 ComputeSquaredDistance
 Copy
@@ -1679,6 +1680,7 @@ derive
 (
 PartialEq
 PartialOrd
+ToAnimatedZero
 ToComputedValue
 ToCss
 )
@@ -1715,6 +1717,7 @@ Serialize
 [
 derive
 (
+Animate
 Clone
 ComputeSquaredDistance
 Copy
@@ -1728,6 +1731,7 @@ derive
 (
 PartialEq
 PartialOrd
+ToAnimatedZero
 ToComputedValue
 ToCss
 )

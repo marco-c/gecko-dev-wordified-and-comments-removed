@@ -1765,6 +1765,7 @@ derive
 Clone
 Copy
 PartialEq
+ToAnimatedZero
 ToCss
 )
 ]
