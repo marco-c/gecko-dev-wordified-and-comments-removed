@@ -9066,11 +9066,16 @@ IOThread
 (
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 thread
 )
+{
+return
+0
 ;
+}
 return
 thread
 -
