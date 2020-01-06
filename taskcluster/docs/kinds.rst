@@ -116,7 +116,7 @@ build
 kind
 artifacts
 and
-passess
+passes
 them
 through
 signingscriptworker

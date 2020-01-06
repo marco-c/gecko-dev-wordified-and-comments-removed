@@ -59,7 +59,7 @@ taskgraph
 .
 loader
 .
-single_dep
+build_signing
 :
 loader
 transforms
@@ -94,14 +94,6 @@ dependencies
 :
 -
 build
-only
--
-for
--
-attributes
-:
--
-nightly
 not
 -
 for
