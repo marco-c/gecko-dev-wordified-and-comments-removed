@@ -522,11 +522,6 @@ MobileViewportManager
 cpp
 '
 '
-nsBidi
-.
-cpp
-'
-'
 nsBidiPresUtils
 .
 cpp
