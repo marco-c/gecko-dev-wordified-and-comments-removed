@@ -92,6 +92,17 @@ height
 <
 path
 fill
+-
+opacity
+=
+"
+context
+-
+fill
+-
+opacity
+"
+fill
 =
 "
 context
