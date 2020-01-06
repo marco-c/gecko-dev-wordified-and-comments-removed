@@ -738,12 +738,6 @@ trigger_wasm_interrupt
 (
 )
 {
-MOZ_ASSERT
-(
-!
-wasm_interrupt_
-)
-;
 wasm_interrupt_
 =
 true
