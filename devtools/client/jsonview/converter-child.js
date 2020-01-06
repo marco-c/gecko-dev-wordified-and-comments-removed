@@ -1016,9 +1016,9 @@ resource
 /
 /
 devtools
--
+/
 client
--
+/
 jsonview
 /
 "

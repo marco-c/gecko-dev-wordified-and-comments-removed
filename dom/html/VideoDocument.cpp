@@ -297,9 +297,9 @@ resource
 :
 /
 /
-content
--
-accessible
+gre
+/
+res
 /
 TopLevelVideoDocument
 .

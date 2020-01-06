@@ -203,10 +203,6 @@ tablet
 '
 process
 '
-        
-'
-contentaccessible
-'
     
 ]
     

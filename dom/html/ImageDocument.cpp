@@ -1348,9 +1348,9 @@ resource
 :
 /
 /
-content
--
-accessible
+gre
+/
+res
 /
 ImageDocument
 .
@@ -1380,9 +1380,9 @@ resource
 :
 /
 /
-content
--
-accessible
+gre
+/
+res
 /
 TopLevelImageDocument
 .
