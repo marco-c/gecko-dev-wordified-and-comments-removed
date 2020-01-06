@@ -1435,7 +1435,7 @@ secret
 >
 overlappedActive
 =
-FALSE
+PR_FALSE
 ;
 PR_LOG
 (
@@ -1555,7 +1555,7 @@ secret
 >
 overlappedActive
 =
-FALSE
+PR_FALSE
 ;
 return
 PR_FAILURE

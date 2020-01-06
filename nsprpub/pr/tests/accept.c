@@ -554,11 +554,14 @@ if
 !
 debug_mode
 )
+{
 failed_already
 =
 1
 ;
+}
 else
+{
 PR_fprintf
 (
 output
@@ -588,6 +591,7 @@ PR_GetError
 )
 )
 ;
+}
 goto
 ErrorExit
 ;
@@ -816,6 +820,7 @@ if
 (
 debug_mode
 )
+{
 PR_fprintf
 (
 output
@@ -831,6 +836,7 @@ n
 "
 )
 ;
+}
 return
 ;
 }
