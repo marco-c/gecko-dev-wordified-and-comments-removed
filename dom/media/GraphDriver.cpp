@@ -4932,6 +4932,9 @@ aState
 =
 =
 CUBEB_STATE_ERROR
+&
+&
+mAudioStream
 )
 {
 MonitorAutoLock
