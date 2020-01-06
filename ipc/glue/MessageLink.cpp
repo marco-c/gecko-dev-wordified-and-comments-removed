@@ -1339,6 +1339,15 @@ mChannelState
 =
 =
 ChannelOpening
+|
+|
+mChan
+-
+>
+mChannelState
+=
+=
+ChannelConnected
 )
 {
 mChan
@@ -1368,6 +1377,7 @@ if
 (
 mExistingListener
 )
+{
 mExistingListener
 -
 >
@@ -1376,6 +1386,7 @@ OnChannelConnected
 peer_pid
 )
 ;
+}
 if
 (
 notifyChannel
