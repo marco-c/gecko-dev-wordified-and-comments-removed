@@ -4971,8 +4971,6 @@ SetterOp
 setter
 unsigned
 attrs
-unsigned
-flags
 )
 {
 MOZ_ASSERT
@@ -5088,7 +5086,7 @@ id
 getter
 setter
 attrs
-flags
+0
 entry
 true
 keep
@@ -5184,7 +5182,7 @@ matchesParamsAfterId
 nbase
 SHAPE_INVALID_SLOT
 attrs
-flags
+0
 getter
 setter
 )
@@ -5395,8 +5393,6 @@ shape
 >
 flags
 =
-flags
-|
 Shape
 :
 :
@@ -5502,7 +5498,7 @@ nbase
 id
 SHAPE_INVALID_SLOT
 attrs
-flags
+0
 )
 )
 ;
@@ -5727,10 +5723,6 @@ propid
 getter
 setter
 attrs
-shape
--
->
-flags
 )
 ;
 }
