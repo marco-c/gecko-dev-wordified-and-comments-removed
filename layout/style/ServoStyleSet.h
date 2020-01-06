@@ -635,14 +635,6 @@ ServoStyleSheet
 aReferenceSheet
 )
 ;
-void
-UpdateStyleSheet
-(
-ServoStyleSheet
-*
-aSheet
-)
-;
 int32_t
 SheetCount
 (
