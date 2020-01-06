@@ -133,16 +133,6 @@ browser
 ini
 '
 ]
-JAR_MANIFESTS
-+
-=
-[
-'
-jar
-.
-mn
-'
-]
 TESTING_JS_MODULES
 +
 =
