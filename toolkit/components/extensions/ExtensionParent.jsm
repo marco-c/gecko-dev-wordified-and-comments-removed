@@ -6437,6 +6437,9 @@ locales
 manifests
 "
 "
+permissions
+"
+"
 schemas
 "
 ]
@@ -6674,6 +6677,14 @@ id
 this
 .
 manifests
+.
+delete
+(
+id
+)
+this
+.
+permissions
 .
 delete
 (
