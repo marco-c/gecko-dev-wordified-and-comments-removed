@@ -9365,6 +9365,16 @@ Defaults
 ENTITY
 customizeMode
 .
+done
+"
+Done
+"
+>
+<
+!
+ENTITY
+customizeMode
+.
 toolbars
 "
 Show
