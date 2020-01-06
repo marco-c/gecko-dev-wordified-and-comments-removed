@@ -273,11 +273,10 @@ target_tasks_method
 '
 :
 '
-%
-(
+{
 project
-)
-s_desktop_promotion
+}
+_desktop_promotion
 '
         
 '
@@ -1093,12 +1092,25 @@ get
 '
 target_tasks_method
 '
+        
 promotion_config
 [
 '
 target_tasks_method
 '
 ]
+.
+format
+(
+project
+=
+parameters
+[
+'
+project
+'
+]
+)
     
 )
     
