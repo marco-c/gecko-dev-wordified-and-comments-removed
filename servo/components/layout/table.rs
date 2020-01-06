@@ -2733,9 +2733,6 @@ fragment
 compute_border_and_padding
 (
 containing_block_inline_size
-self
-.
-border_collapse
 )
 }
 fn

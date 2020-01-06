@@ -218,7 +218,6 @@ computed_values
 :
 :
 {
-border_collapse
 box_sizing
 display
 float
@@ -15834,13 +15833,6 @@ fragment
 compute_border_and_padding
 (
 containing_block_inline_size
-border_collapse
-:
-:
-T
-:
-:
-separate
 )
 ;
 }
