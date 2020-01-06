@@ -720,6 +720,8 @@ aRequestedBytes
 State
 SetWaiting
 (
+bool
+aHasConsumer
 )
 {
 MOZ_ASSERT
@@ -736,6 +738,10 @@ mState
 !
 =
 WAITING
+|
+|
+!
+aHasConsumer
 "
 Did
 we

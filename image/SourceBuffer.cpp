@@ -2553,6 +2553,9 @@ aIterator
 .
 SetWaiting
 (
+!
+!
+aConsumer
 )
 ;
 }
@@ -2772,6 +2775,9 @@ aIterator
 .
 SetWaiting
 (
+!
+!
+aConsumer
 )
 ;
 }
