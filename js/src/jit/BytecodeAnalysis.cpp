@@ -77,10 +77,6 @@ hasTryFinally_
 (
 false
 )
-hasSetArg_
-(
-false
-)
 {
 }
 struct
@@ -973,15 +969,6 @@ case
 JSOP_FINALLY
 :
 hasTryFinally_
-=
-true
-;
-break
-;
-case
-JSOP_SETARG
-:
-hasSetArg_
 =
 true
 ;
