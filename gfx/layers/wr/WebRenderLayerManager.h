@@ -1367,6 +1367,15 @@ mImageKeysToDelete
 ;
 nsTArray
 <
+wr
+:
+:
+ImageKey
+>
+mImageKeysToDeleteLater
+;
+nsTArray
+<
 uint64_t
 >
 mDiscardedCompositorAnimationsIds
