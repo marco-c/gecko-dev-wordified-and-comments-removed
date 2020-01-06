@@ -4868,11 +4868,6 @@ PostVisibilityUpdateEvent
 )
 override
 ;
-void
-MaybeActiveMediaComponents
-(
-)
-;
 virtual
 void
 DocAddSizeOfExcludingThis
