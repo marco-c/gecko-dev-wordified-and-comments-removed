@@ -919,7 +919,7 @@ label
 of
 doc
 .
-getElementsByTagName
+querySelectorAll
 (
 "
 label
