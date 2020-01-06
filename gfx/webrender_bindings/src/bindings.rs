@@ -2949,6 +2949,9 @@ clone
 cache_expiry_frames
 :
 60
+enable_render_on_scroll
+:
+false
 .
 .
 Default
