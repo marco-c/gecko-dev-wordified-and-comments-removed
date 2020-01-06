@@ -8690,6 +8690,10 @@ dangerous
 }
 #
 endif
+ClearInDocument
+(
+)
+;
 if
 (
 MayHaveAnimations
@@ -8746,10 +8750,6 @@ animationsProperty
 )
 ;
 }
-ClearInDocument
-(
-)
-;
 if
 (
 IsStyledByServo
