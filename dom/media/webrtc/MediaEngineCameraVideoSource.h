@@ -240,6 +240,10 @@ mImage
 =
 nullptr
 ;
+mImageContainer
+=
+nullptr
+;
 }
 protected
 :
