@@ -1235,10 +1235,6 @@ PushBoxShadow
 (
 deviceBoxRect
 deviceClipRect
-!
-BackfaceIsHidden
-(
-)
 deviceBoxRect
 wr
 :

@@ -549,8 +549,6 @@ const
 LayerRect
 &
 aClip
-bool
-aBackfaceVisible
 )
 ;
 wr

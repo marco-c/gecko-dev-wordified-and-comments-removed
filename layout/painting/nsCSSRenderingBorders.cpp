@@ -708,8 +708,6 @@ const
 aCompositeColors
 nscolor
 aBackgroundColor
-bool
-aBackfaceIsVisible
 )
 :
 mPresContext
@@ -739,10 +737,6 @@ aBorderRadii
 mBackgroundColor
 (
 aBackgroundColor
-)
-mBackfaceIsVisible
-(
-aBackfaceIsVisible
 )
 {
 PodCopy
@@ -16249,7 +16243,6 @@ PushBorder
 (
 transformedRect
 transformedRect
-mBackfaceIsVisible
 wr
 :
 :

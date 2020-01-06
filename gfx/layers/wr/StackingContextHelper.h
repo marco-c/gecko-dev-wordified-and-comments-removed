@@ -261,10 +261,6 @@ CompositionOp
 :
 :
 OP_OVER
-bool
-aBackfaceVisible
-=
-true
 )
 ;
 StackingContextHelper

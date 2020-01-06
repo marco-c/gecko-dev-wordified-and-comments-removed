@@ -317,8 +317,6 @@ const
 aCompositeColors
 nscolor
 aBackgroundColor
-bool
-aBackfaceIsVisible
 )
 ;
 void
@@ -480,9 +478,6 @@ mNoBorderRadius
 ;
 bool
 mAvoidStroke
-;
-bool
-mBackfaceIsVisible
 ;
 bool
 AreBorderSideFinalStylesSame
