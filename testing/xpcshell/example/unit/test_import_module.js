@@ -9,9 +9,9 @@ typeof
 (
 this
 [
-'
+"
 MODULE_IMPORTED
-'
+"
 ]
 )
 =
@@ -27,9 +27,9 @@ typeof
 (
 this
 [
-'
+"
 MODULE_URI
-'
+"
 ]
 )
 =
