@@ -11,13 +11,6 @@ MediaDecoder_h_
 #
 include
 "
-AbstractMediaDecoder
-.
-h
-"
-#
-include
-"
 DecoderDoctorDiagnostics
 .
 h
@@ -197,6 +190,9 @@ class
 AbstractThread
 ;
 class
+FrameStatistics
+;
+class
 VideoFrameContainer
 ;
 class
@@ -339,9 +335,6 @@ aContainerType
 ;
 class
 MediaDecoder
-:
-public
-AbstractMediaDecoder
 {
 public
 :
@@ -354,7 +347,10 @@ true
 >
 SeekPromise
 ;
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+MediaDecoder
+)
 enum
 PlayState
 {
@@ -789,8 +785,6 @@ VideoFrameContainer
 GetVideoFrameContainer
 (
 )
-final
-override
 {
 return
 mVideoFrameContainer
@@ -804,7 +798,6 @@ ImageContainer
 GetImageContainer
 (
 )
-override
 ;
 void
 FireTimeUpdate
@@ -995,7 +988,6 @@ GetOwner
 (
 )
 const
-override
 ;
 AbstractThread
 *
@@ -1003,8 +995,6 @@ AbstractMainThread
 (
 )
 const
-final
-override
 {
 return
 mAbstractMainThread

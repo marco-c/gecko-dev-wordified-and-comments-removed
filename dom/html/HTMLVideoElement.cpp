@@ -121,6 +121,13 @@ h
 #
 include
 "
+FrameStatistics
+.
+h
+"
+#
+include
+"
 MediaError
 .
 h
