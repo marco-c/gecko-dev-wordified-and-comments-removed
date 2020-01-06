@@ -5753,9 +5753,6 @@ aRv
 )
 StorageOpenResult
 (
-nullptr
-nullptr
-mNamespace
 )
 mCacheId
 )

@@ -137,8 +137,6 @@ aGlobal
 CacheChild
 *
 aActor
-Namespace
-aNamespace
 )
 ;
 already_AddRefed
@@ -481,10 +479,6 @@ mGlobal
 CacheChild
 *
 mActor
-;
-const
-Namespace
-mNamespace
 ;
 public
 :
