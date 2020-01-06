@@ -691,7 +691,7 @@ ViewID
 &
 aScrollId
 const
-uint64_t
+WrClipId
 *
 aClipId
 )
@@ -1213,7 +1213,7 @@ nullptr
 ;
 Maybe
 <
-uint64_t
+WrClipId
 >
 TopmostClipId
 (
@@ -1262,7 +1262,7 @@ std
 :
 vector
 <
-uint64_t
+WrClipId
 >
 mClipIdStack
 ;

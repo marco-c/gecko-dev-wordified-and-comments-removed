@@ -385,7 +385,10 @@ fixedFor
 ;
 Maybe
 <
-uint64_t
+wr
+:
+:
+WrClipId
 >
 clipId
 =
