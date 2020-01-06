@@ -7801,6 +7801,13 @@ java
 '
 widget
 /
+HoverDelegateWithReset
+.
+java
+'
+'
+widget
+/
 IconTabWidget
 .
 java
