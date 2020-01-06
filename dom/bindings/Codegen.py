@@ -52902,11 +52902,16 @@ isHTMLConstructor
             
 argsPre
 .
-append
+extend
 (
+[
 "
 args
 "
+"
+desiredProto
+"
+]
 )
         
 needsCx
