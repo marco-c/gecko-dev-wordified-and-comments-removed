@@ -1,3 +1,8 @@
+'
+use
+strict
+'
+;
 function
 assert_computed_timing_for_each_phase
 (
