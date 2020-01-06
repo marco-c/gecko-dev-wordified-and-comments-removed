@@ -11474,13 +11474,6 @@ inFullscreen
 tabsintitlebar
 ]
 )
-:
-not
-(
-[
-customizing
-]
-)
 #
 TabsToolbar
 :
