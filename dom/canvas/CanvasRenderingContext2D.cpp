@@ -12946,10 +12946,9 @@ parentStyle
 declarations
 )
 ;
-Servo_DeclarationBlock_SerializeOneValue
+Servo_SerializeFontValueForCanvas
 (
 declarations
-eCSSProperty_font
 &
 aOutUsedFont
 )

@@ -1509,6 +1509,16 @@ mozilla
 CSSPseudoElementType
 pseudo_type
 )
+SERVO_BINDING_FUNC
+(
+Servo_SerializeFontValueForCanvas
+void
+RawServoDeclarationBlockBorrowed
+declarations
+nsAString
+*
+buffer
+)
 #
 define
 STYLE_STRUCT
