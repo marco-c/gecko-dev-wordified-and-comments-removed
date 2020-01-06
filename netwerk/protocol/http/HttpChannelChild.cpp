@@ -10843,6 +10843,14 @@ handleFetchEventEnd
 =
 mHandleFetchEventEnd
 ;
+openArgs
+.
+forceMainDocumentChannel
+(
+)
+=
+mForceMainDocumentChannel
+;
 SetEventTarget
 (
 )

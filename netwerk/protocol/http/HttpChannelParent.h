@@ -557,6 +557,10 @@ const
 TimeStamp
 &
 aHandleFetchEventEnd
+const
+bool
+&
+aForceMainDocumentChannel
 )
 ;
 virtual
