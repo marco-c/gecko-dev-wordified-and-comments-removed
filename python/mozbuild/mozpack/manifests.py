@@ -1783,8 +1783,9 @@ mozpath
 .
 join
 (
-dest
+base
 pattern
+dest
 )
             
 (
@@ -1840,8 +1841,9 @@ mozpath
 .
 join
 (
-dest
+base
 pattern
+dest
 )
             
 (
