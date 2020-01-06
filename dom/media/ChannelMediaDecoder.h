@@ -18,6 +18,13 @@ MediaResourceCallback
 .
 h
 "
+#
+include
+"
+MediaChannelStatistics
+.
+h
+"
 class
 nsIChannel
 ;
