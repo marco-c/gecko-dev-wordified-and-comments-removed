@@ -103,6 +103,8 @@ query
 -
 Introduced
 a
+moz
+:
 firefoxOptions
 capability
 to
@@ -205,6 +207,8 @@ in
 favour
 of
 the
+moz
+:
 firefoxOptions
 dictionary
 detailed

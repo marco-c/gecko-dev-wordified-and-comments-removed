@@ -450,6 +450,8 @@ supports
 a
 capability
 named
+moz
+:
 firefoxOptions
 which
 takes
