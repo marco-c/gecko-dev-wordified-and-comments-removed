@@ -19,9 +19,6 @@ flow
 {
 self
 Flow
-MutableFlowUtils
-PostorderFlowTraversal
-PreorderFlowTraversal
 }
 ;
 use
@@ -93,6 +90,7 @@ traversal
 :
 :
 {
+AssignBSizes
 AssignISizes
 BubbleISizes
 }
@@ -101,7 +99,10 @@ use
 traversal
 :
 :
-AssignBSizes
+{
+PostorderFlowTraversal
+PreorderFlowTraversal
+}
 ;
 pub
 use
@@ -303,7 +304,7 @@ null_unsafe_flow
 }
 }
 fn
-buttom_up_flow
+bottom_up_flow
 (
 mut
 unsafe_flow
@@ -618,7 +619,7 @@ if
 !
 had_children
 {
-buttom_up_flow
+bottom_up_flow
 (
 *
 unsafe_flow
@@ -758,7 +759,7 @@ assign_bsize_traversal
 }
 pub
 fn
-traverse_flow_tree_preorder
+reflow
 (
 root
 :
@@ -811,12 +812,11 @@ layout_context
 context
 }
 ;
-root
-.
-traverse_postorder
-(
-&
 bubble_inline_sizes
+.
+traverse
+(
+root
 )
 ;
 }

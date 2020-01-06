@@ -924,7 +924,7 @@ break
 }
 }
 fn
-compute_absolute_position
+compute_stacking_relative_position
 (
 &
 mut
@@ -939,7 +939,7 @@ self
 .
 block_flow
 .
-compute_absolute_position
+compute_stacking_relative_position
 (
 layout_context
 )
@@ -1486,7 +1486,7 @@ fragmentation_context
 )
 }
 fn
-compute_absolute_position
+compute_stacking_relative_position
 (
 &
 mut
@@ -1501,7 +1501,7 @@ self
 .
 block_flow
 .
-compute_absolute_position
+compute_stacking_relative_position
 (
 layout_context
 )
