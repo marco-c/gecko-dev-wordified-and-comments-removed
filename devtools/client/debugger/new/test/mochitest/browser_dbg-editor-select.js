@@ -141,8 +141,6 @@ dbg
 assertPausedLocation
 (
 dbg
-simple1
-4
 )
 ;
 yield
@@ -154,8 +152,6 @@ dbg
 assertPausedLocation
 (
 dbg
-simple2
-2
 )
 ;
 yield
@@ -173,8 +169,6 @@ dbg
 assertPausedLocation
 (
 dbg
-simple1
-5
 )
 ;
 yield
@@ -220,8 +214,6 @@ dbg
 assertPausedLocation
 (
 dbg
-longSrc
-66
 )
 ;
 ok

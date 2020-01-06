@@ -157,12 +157,6 @@ dbg
 assertPausedLocation
 (
 dbg
-"
-main
-.
-js
-"
-4
 )
 ;
 }

@@ -58,12 +58,6 @@ dbg
 assertPausedLocation
 (
 dbg
-"
-scripts
-.
-html
-"
-18
 )
 ;
 yield
@@ -149,8 +143,6 @@ dbg
 assertPausedLocation
 (
 dbg
-source
-5
 )
 ;
 }

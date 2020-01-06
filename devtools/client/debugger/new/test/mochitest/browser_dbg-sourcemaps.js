@@ -448,8 +448,6 @@ dbg
 assertPausedLocation
 (
 dbg
-entrySrc
-15
 )
 ;
 yield
@@ -461,12 +459,6 @@ dbg
 assertPausedLocation
 (
 dbg
-"
-times2
-.
-js
-"
-2
 )
 ;
 yield
@@ -478,12 +470,6 @@ dbg
 assertPausedLocation
 (
 dbg
-"
-times2
-.
-js
-"
-3
 )
 ;
 yield
@@ -501,12 +487,6 @@ dbg
 assertPausedLocation
 (
 dbg
-"
-entry
-.
-js
-"
-16
 )
 ;
 }

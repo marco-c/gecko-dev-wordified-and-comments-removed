@@ -31,6 +31,7 @@ min
 .
 js
 "
+2
 )
 ;
 clickElement
@@ -42,11 +43,17 @@ prettyPrintButton
 )
 ;
 yield
-waitForDispatch
+waitForSource
 (
 dbg
 "
-TOGGLE_PRETTY_PRINT
+math
+.
+min
+.
+js
+:
+formatted
 "
 )
 ;
@@ -103,8 +110,6 @@ dbg
 assertPausedLocation
 (
 dbg
-ppSrc
-18
 )
 ;
 yield
@@ -116,8 +121,6 @@ dbg
 assertPausedLocation
 (
 dbg
-ppSrc
-27
 )
 ;
 yield
