@@ -97,6 +97,10 @@ __atomic_fetch_
 ^
 __atomic_load_
 /
+/
+^
+__atomic_thread_fence
+/
 ]
 ;
 if
