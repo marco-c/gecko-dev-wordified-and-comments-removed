@@ -1425,6 +1425,11 @@ Empty
 Component
 :
 :
+Scope
+|
+Component
+:
+:
 NthChild
 (
 .

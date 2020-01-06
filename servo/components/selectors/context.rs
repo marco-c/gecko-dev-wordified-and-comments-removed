@@ -16,6 +16,12 @@ nth_index_cache
 :
 NthIndexCache
 ;
+use
+tree
+:
+:
+OpaqueElement
+;
 #
 [
 derive
@@ -161,6 +167,13 @@ pub
 relevant_link_found
 :
 bool
+pub
+scope_element
+:
+Option
+<
+OpaqueElement
+>
 quirks_mode
 :
 QuirksMode
@@ -282,6 +295,9 @@ quirks_mode
 classes_and_ids_case_sensitivity
 (
 )
+scope_element
+:
+None
 }
 }
 #
