@@ -290,15 +290,6 @@ jsval
 UndefinedValue
 ;
 use
-js
-:
-:
-rust
-:
-:
-Runtime
-;
-use
 msg
 :
 :
@@ -341,6 +332,7 @@ CommonScriptMsg
 ScriptChan
 ScriptPort
 new_rt_and_cx
+Runtime
 }
 ;
 use

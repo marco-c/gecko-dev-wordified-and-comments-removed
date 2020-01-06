@@ -616,15 +616,6 @@ jsval
 UndefinedValue
 ;
 use
-js
-:
-:
-rust
-:
-:
-Runtime
-;
-use
 layout_image
 :
 :
@@ -800,6 +791,7 @@ CommonScriptMsg
 ScriptChan
 ScriptPort
 ScriptThreadEventCategory
+Runtime
 }
 ;
 use

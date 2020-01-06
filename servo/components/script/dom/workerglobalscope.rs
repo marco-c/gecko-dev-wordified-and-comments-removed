@@ -303,15 +303,6 @@ panic
 maybe_resume_unwind
 ;
 use
-js
-:
-:
-rust
-:
-:
-Runtime
-;
-use
 net_traits
 :
 :
@@ -347,6 +338,7 @@ CommonScriptMsg
 ScriptChan
 ScriptPort
 get_reports
+Runtime
 }
 ;
 use
