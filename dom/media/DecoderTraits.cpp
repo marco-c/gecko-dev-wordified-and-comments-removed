@@ -396,13 +396,6 @@ return
 CANPLAY_NO
 ;
 }
-#
-if
-!
-defined
-(
-MOZ_OMX_WEBM_DECODER
-)
 if
 (
 WebMDecoder
@@ -433,8 +426,6 @@ return
 CANPLAY_NO
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_FMP4
@@ -688,13 +679,6 @@ CANPLAY_MAYBE
 }
 #
 endif
-#
-if
-!
-defined
-(
-MOZ_OMX_WEBM_DECODER
-)
 if
 (
 WebMDecoder
@@ -710,8 +694,6 @@ return
 CANPLAY_MAYBE
 ;
 }
-#
-endif
 if
 (
 MP3Decoder

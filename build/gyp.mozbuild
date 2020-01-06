@@ -500,11 +500,6 @@ arm_neon_optional
 :
 1
 '
-moz_webrtc_omx
-'
-:
-0
-'
 moz_webrtc_mediacodec
 '
 :
