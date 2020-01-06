@@ -3786,12 +3786,6 @@ dest
 )
 ;
 }
-result
-.
-mDidSelfCopy
-=
-true
-;
 mDidSelfCopy
 =
 true
@@ -3963,12 +3957,6 @@ data
 )
 ;
 }
-result
-.
-mDidSelfCopy
-=
-true
-;
 mDidSelfCopy
 =
 true
@@ -3989,8 +3977,6 @@ IntPoint
 if
 (
 !
-result
-.
 mDidSelfCopy
 )
 {
