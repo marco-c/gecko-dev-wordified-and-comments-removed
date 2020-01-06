@@ -89,16 +89,6 @@ Linux
 OS_TARGET
 )
 )
-OS_LDFLAGS
-+
-=
--
-Wl
--
-version
--
-script
-symverscript
 symverscript
 :
 symverscript
