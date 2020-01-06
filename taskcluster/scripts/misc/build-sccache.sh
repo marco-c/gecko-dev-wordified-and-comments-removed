@@ -45,7 +45,7 @@ artifacts
 export
 CC
 =
-clang
+gcc
 PATH
 =
 "
@@ -55,7 +55,7 @@ build
 /
 src
 /
-clang
+gcc
 /
 bin
 :
