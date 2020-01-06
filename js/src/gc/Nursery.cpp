@@ -663,13 +663,9 @@ maxNurseryChunks_
 return
 true
 ;
-AutoMaybeStartBackgroundAllocation
-maybeBgAlloc
-;
 updateNumChunksLocked
 (
 1
-maybeBgAlloc
 lock
 )
 ;
@@ -5381,9 +5377,6 @@ numChunks
 newCount
 )
 {
-AutoMaybeStartBackgroundAllocation
-maybeBgAlloc
-;
 AutoLockGC
 lock
 (
@@ -5395,7 +5388,6 @@ runtime
 updateNumChunksLocked
 (
 newCount
-maybeBgAlloc
 lock
 )
 ;
@@ -5412,9 +5404,6 @@ updateNumChunksLocked
 (
 unsigned
 newCount
-AutoMaybeStartBackgroundAllocation
-&
-maybeBgAlloc
 AutoLockGC
 &
 lock
@@ -5541,7 +5530,6 @@ gc
 getOrAllocChunk
 (
 lock
-maybeBgAlloc
 )
 ;
 if

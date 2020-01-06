@@ -1032,9 +1032,6 @@ Value
 )
 ;
 }
-class
-AutoMaybeStartBackgroundAllocation
-;
 struct
 SortedArenaListSegment
 {
@@ -3030,9 +3027,6 @@ AllocKind
 thingKind
 ShouldCheckThresholds
 checkThresholds
-AutoMaybeStartBackgroundAllocation
-&
-maybeStartBGAlloc
 )
 ;
 inline
