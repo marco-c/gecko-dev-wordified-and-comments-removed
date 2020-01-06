@@ -1018,6 +1018,8 @@ if
 aImageKey
 .
 mNamespace
+.
+mHandle
 !
 =
 mIdNameSpace
@@ -1160,6 +1162,8 @@ if
 aImageKey
 .
 mNamespace
+.
+mHandle
 !
 =
 mIdNameSpace
@@ -1288,6 +1292,8 @@ if
 aFontKey
 .
 mNamespace
+.
+mHandle
 !
 =
 mIdNameSpace
@@ -1407,6 +1413,8 @@ if
 aFontKey
 .
 mNamespace
+.
+mHandle
 !
 =
 mIdNameSpace
@@ -1540,6 +1548,8 @@ if
 aImageKey
 .
 mNamespace
+.
+mHandle
 !
 =
 mIdNameSpace
@@ -1623,6 +1633,8 @@ if
 aImageKey
 .
 mNamespace
+.
+mHandle
 !
 =
 mIdNameSpace
@@ -2752,6 +2764,8 @@ keys
 ]
 .
 mNamespace
+.
+mHandle
 !
 =
 mIdNameSpace
@@ -5621,16 +5635,6 @@ ApplyAsyncImages
 mApi
 )
 ;
-if
-(
-gfxPrefs
-:
-:
-WebRenderOMTAEnabled
-(
-)
-)
-{
 SampleAnimations
 (
 opacityArray
@@ -5659,7 +5663,6 @@ scheduleComposite
 =
 true
 ;
-}
 }
 if
 (
