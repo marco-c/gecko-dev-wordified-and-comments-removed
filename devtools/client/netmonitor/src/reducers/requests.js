@@ -175,9 +175,6 @@ undefined
 responseContentAvailable
 :
 false
-responseContentDataUri
-:
-undefined
 formDataSections
 :
 undefined
