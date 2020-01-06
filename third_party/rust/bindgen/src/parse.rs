@@ -11,6 +11,7 @@ context
 {
 BindgenContext
 ItemId
+TypeId
 }
 ;
 use
@@ -166,7 +167,7 @@ BindgenContext
 >
 Result
 <
-ItemId
+TypeId
 ParseError
 >
 ;
@@ -205,7 +206,7 @@ BindgenContext
 >
 Result
 <
-ItemId
+TypeId
 ParseError
 >
 ;
@@ -238,7 +239,7 @@ BindgenContext
 )
 -
 >
-ItemId
+TypeId
 ;
 fn
 from_ty_or_ref_with_id
@@ -272,7 +273,7 @@ BindgenContext
 )
 -
 >
-ItemId
+TypeId
 ;
 fn
 type_param
@@ -299,7 +300,7 @@ BindgenContext
 >
 Option
 <
-ItemId
+TypeId
 >
 ;
 fn
@@ -319,6 +320,6 @@ BindgenContext
 )
 -
 >
-ItemId
+TypeId
 ;
 }

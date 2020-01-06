@@ -38,10 +38,6 @@ log
 ;
 extern
 crate
-clang_sys
-;
-extern
-crate
 clap
 ;
 use
