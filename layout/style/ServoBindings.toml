@@ -1533,6 +1533,13 @@ nsClassHashtable
 -
 Ditto
 "
+nsInterfaceHashtable
+"
+#
+<
+-
+Ditto
+"
 nsIDocument_SelectorCache
 "
 #
