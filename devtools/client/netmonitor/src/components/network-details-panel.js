@@ -171,13 +171,13 @@ activeTabId
 request
 selectTab
 sourceMapService
+cloneSelectedRequest
 }
 )
 :
 CustomRequestPanel
 (
 {
-cloneSelectedRequest
 request
 }
 )
