@@ -676,6 +676,15 @@ mPromptTempRedirect
 ;
 }
 bool
+IsUrgentStartEnabled
+(
+)
+{
+return
+mUrgentStartEnabled
+;
+}
+bool
 TCPKeepaliveEnabledForShortLivedConns
 (
 )
@@ -1533,6 +1542,9 @@ mThrottleResumeFor
 ;
 uint32_t
 mThrottleResumeIn
+;
+bool
+mUrgentStartEnabled
 ;
 uint8_t
 mRedirectionLimit
