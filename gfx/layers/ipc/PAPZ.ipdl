@@ -548,7 +548,7 @@ aScrollId
 )
 ;
 async
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 ViewID
 aScrollId

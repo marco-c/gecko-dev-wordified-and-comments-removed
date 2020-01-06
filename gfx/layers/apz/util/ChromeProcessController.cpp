@@ -1378,7 +1378,7 @@ void
 ChromeProcessController
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 const
 FrameMetrics
@@ -1422,14 +1422,14 @@ layers
 ChromeProcessController
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 "
 this
 &
 ChromeProcessController
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 aScrollId
 )
 )
@@ -1440,7 +1440,7 @@ return
 APZCCallbackHelper
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 aScrollId
 )

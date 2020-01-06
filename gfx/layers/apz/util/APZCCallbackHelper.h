@@ -414,7 +414,7 @@ aScrollId
 ;
 static
 void
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 const
 FrameMetrics

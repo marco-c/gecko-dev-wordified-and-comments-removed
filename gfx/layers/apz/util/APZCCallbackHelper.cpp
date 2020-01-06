@@ -4417,7 +4417,7 @@ void
 APZCCallbackHelper
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 const
 FrameMetrics
@@ -4475,7 +4475,7 @@ nullptr
 "
 autoscroll
 -
-handled
+rejected
 -
 by
 -

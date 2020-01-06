@@ -3050,7 +3050,7 @@ aDragMetrics
 0
 ;
 virtual
-void
+bool
 StartAsyncAutoscroll
 (
 const

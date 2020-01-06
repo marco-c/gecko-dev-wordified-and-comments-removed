@@ -180,7 +180,7 @@ aDragMetrics
 )
 override
 ;
-void
+bool
 StartAutoscroll
 (
 const

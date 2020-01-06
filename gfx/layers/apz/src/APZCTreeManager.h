@@ -559,7 +559,7 @@ aDragMetrics
 )
 override
 ;
-void
+bool
 StartAutoscroll
 (
 const
@@ -1080,6 +1080,16 @@ apzc
 ;
 void
 NotifyScrollbarDragRejected
+(
+const
+ScrollableLayerGuid
+&
+aGuid
+)
+const
+;
+void
+NotifyAutoscrollRejected
 (
 const
 ScrollableLayerGuid

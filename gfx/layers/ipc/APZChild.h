@@ -191,7 +191,7 @@ ipc
 :
 :
 IPCResult
-RecvNotifyAutoscrollHandledByAPZ
+RecvNotifyAsyncAutoscrollRejected
 (
 const
 ViewID

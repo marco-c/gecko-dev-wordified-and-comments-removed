@@ -331,7 +331,7 @@ void
 ContentProcessController
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 const
 FrameMetrics
@@ -345,7 +345,7 @@ aScrollId
 APZCCallbackHelper
 :
 :
-NotifyAutoscrollHandledByAPZ
+NotifyAsyncAutoscrollRejected
 (
 aScrollId
 )
