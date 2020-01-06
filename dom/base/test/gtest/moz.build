@@ -104,6 +104,11 @@ TestPlainTextSerializer
 .
 cpp
 '
+'
+TestXPathGenerator
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
