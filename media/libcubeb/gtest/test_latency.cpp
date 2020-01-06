@@ -196,6 +196,7 @@ r
 cubeb_get_min_latency
 (
 ctx
+&
 params
 &
 latency_frames
