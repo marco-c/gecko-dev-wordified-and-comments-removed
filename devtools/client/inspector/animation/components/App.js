@@ -51,7 +51,7 @@ redux
 )
 ;
 const
-AnimationList
+AnimationListContainer
 =
 createFactory
 (
@@ -60,7 +60,7 @@ require
 "
 .
 /
-AnimationList
+AnimationListContainer
 "
 )
 )
@@ -178,7 +178,7 @@ animations
 .
 length
 ?
-AnimationList
+AnimationListContainer
 (
 {
 animations
