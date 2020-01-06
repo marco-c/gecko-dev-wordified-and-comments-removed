@@ -904,17 +904,6 @@ aClosure
 )
 ;
 nsresult
-IsSystemPrincipal
-(
-nsIPrincipal
-*
-principal
-bool
-*
-result
-)
-;
-nsresult
 GetResultResource
 (
 nsIXULTemplateResult
