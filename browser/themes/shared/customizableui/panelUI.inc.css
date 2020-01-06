@@ -9956,7 +9956,7 @@ min
 -
 height
 :
-2em
+unset
 ;
 }
 #
@@ -9975,7 +9975,12 @@ min
 -
 width
 :
-3em
+calc
+(
+3ch
++
+8px
+)
 ;
 text
 -
