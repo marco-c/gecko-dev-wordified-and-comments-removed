@@ -222,7 +222,7 @@ homepanel
 .
 stream
 .
-WelcomePanel
+WelcomePanelRow
 ;
 import
 org
@@ -677,13 +677,13 @@ getViewType
 {
 return
 new
-WelcomePanel
+WelcomePanelRow
 (
 inflater
 .
 inflate
 (
-WelcomePanel
+WelcomePanelRow
 .
 LAYOUT_ID
 parent

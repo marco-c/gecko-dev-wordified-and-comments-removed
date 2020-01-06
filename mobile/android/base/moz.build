@@ -4570,7 +4570,7 @@ homepanel
 /
 stream
 /
-WelcomePanel
+WelcomePanelRow
 .
 java
 '
