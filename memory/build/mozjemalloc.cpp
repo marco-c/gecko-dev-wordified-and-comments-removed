@@ -6308,8 +6308,6 @@ size
 size_t
 alignment
 bool
-base
-bool
 *
 zeroed
 )
@@ -6333,15 +6331,6 @@ trailsize
 ChunkType
 chunk_type
 ;
-if
-(
-base
-)
-{
-return
-nullptr
-;
-}
 alloc_size
 =
 size
@@ -6788,6 +6777,10 @@ CAN_RECYCLE
 (
 size
 )
+&
+&
+!
+base
 )
 {
 ret
@@ -6800,7 +6793,6 @@ chunks_szad_mmap
 chunks_ad_mmap
 size
 alignment
-base
 zeroed
 )
 ;
