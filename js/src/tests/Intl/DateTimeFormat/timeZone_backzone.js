@@ -207,17 +207,6 @@ Harare
 "
 Africa
 /
-Juba
-"
-:
-"
-Africa
-/
-Juba
-"
-"
-Africa
-/
 Kampala
 "
 :

@@ -666,6 +666,13 @@ CST
 CTT
 "
 "
+Canada
+/
+East
+-
+Saskatchewan
+"
+"
 EAT
 "
 "
