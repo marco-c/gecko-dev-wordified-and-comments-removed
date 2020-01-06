@@ -415,6 +415,17 @@ aState
 ;
 protected
 :
+static
+nsIContent
+*
+ParentForUndisplayedMap
+(
+const
+nsIContent
+*
+aContent
+)
+;
 void
 ClearAllMapsFor
 (
