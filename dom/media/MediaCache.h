@@ -49,6 +49,9 @@ nsTHashtable
 h
 "
 class
+nsIEventTarget
+;
+class
 nsIPrincipal
 ;
 namespace
@@ -123,6 +126,13 @@ MediaCacheStream
 *
 aOriginal
 )
+;
+nsIEventTarget
+*
+OwnerThread
+(
+)
+const
 ;
 void
 SetTransportSeekable
