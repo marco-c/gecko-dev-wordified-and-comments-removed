@@ -388,11 +388,6 @@ test
 -
 platform
 :
-android
-.
-*
-:
-3
 windows10
 -
 64
