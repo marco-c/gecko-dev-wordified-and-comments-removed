@@ -588,3 +588,17 @@ enabled
 true
 )
 ;
+pref
+(
+"
+devtools
+.
+debugger
+.
+features
+.
+wasm
+"
+true
+)
+;
