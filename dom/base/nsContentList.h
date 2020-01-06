@@ -795,6 +795,10 @@ bool
 aDeep
 =
 true
+bool
+aLiveList
+=
+true
 )
 ;
 nsContentList
@@ -824,6 +828,10 @@ aMatchNameSpaceId
 kNameSpaceID_None
 bool
 aFuncMayDependOnAttr
+=
+true
+bool
+aLiveList
 =
 true
 )
@@ -1350,6 +1358,12 @@ mFlushesNeeded
 ;
 uint8_t
 mIsHTMLDocument
+:
+1
+;
+const
+uint8_t
+mIsLiveList
 :
 1
 ;
