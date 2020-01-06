@@ -15,6 +15,13 @@ h
 #
 include
 "
+CanRunScriptChecker
+.
+h
+"
+#
+include
+"
 DanglingOnTemporaryChecker
 .
 h

@@ -20,6 +20,17 @@ assert
 )
 CHECK
 (
+CanRunScriptChecker
+"
+can
+-
+run
+-
+script
+"
+)
+CHECK
+(
 DanglingOnTemporaryChecker
 "
 dangling

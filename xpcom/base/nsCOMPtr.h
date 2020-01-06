@@ -929,6 +929,7 @@ class
 T
 >
 class
+MOZ_IS_REFPTR
 nsCOMPtr
 final
 #

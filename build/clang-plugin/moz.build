@@ -119,6 +119,11 @@ AssertAssignmentChecker
 cpp
 '
 '
+CanRunScriptChecker
+.
+cpp
+'
+'
 CustomTypeAnnotation
 .
 cpp
