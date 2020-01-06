@@ -136,9 +136,15 @@ fake_app
     
 runner
 .
-_e10s_from_browser
+_appinfo
 =
+{
+'
+browserTabsRemoteAutostart
+'
+:
 True
+}
     
 monkeypatch
 .
@@ -3706,7 +3712,7 @@ mock_runner
     
 mock_runner
 .
-_e10s_from_browser
+e10s
 =
 False
     
