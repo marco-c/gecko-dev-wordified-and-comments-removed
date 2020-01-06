@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SlicedInputStream_h
+SlicedInputStream_h
 #
 define
-mozilla_SlicedInputStream_h
+SlicedInputStream_h
 #
 include
 "
@@ -48,9 +48,6 @@ nsISeekableStream
 .
 h
 "
-namespace
-mozilla
-{
 class
 SlicedInputStream
 final
@@ -168,6 +165,5 @@ mAsyncWaitRequestedCount
 ;
 }
 ;
-}
 #
 endif

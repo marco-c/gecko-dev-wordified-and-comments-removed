@@ -435,6 +435,11 @@ nsWildCard
 h
 '
 '
+SlicedInputStream
+.
+h
+'
+'
 SpecialSystemDirectory
 .
 h
@@ -448,11 +453,6 @@ mozilla
 [
 '
 Base64
-.
-h
-'
-'
-SlicedInputStream
 .
 h
 '
