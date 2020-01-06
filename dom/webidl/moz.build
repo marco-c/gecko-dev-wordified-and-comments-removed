@@ -6184,6 +6184,11 @@ MediaQueryListEvent
 webidl
 '
 '
+MediaRecorderErrorEvent
+.
+webidl
+'
+'
 MediaStreamEvent
 .
 webidl
