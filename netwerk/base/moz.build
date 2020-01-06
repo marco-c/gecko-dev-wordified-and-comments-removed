@@ -813,11 +813,6 @@ nsStreamListenerWrapper
 h
 '
 '
-nsTemporaryFileInputStream
-.
-h
-'
-'
 nsURIHashKey
 .
 h
@@ -1195,11 +1190,6 @@ cpp
 '
 '
 nsSyncStreamListener
-.
-cpp
-'
-'
-nsTemporaryFileInputStream
 .
 cpp
 '
