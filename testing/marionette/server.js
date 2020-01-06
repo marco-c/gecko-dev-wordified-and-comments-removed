@@ -780,6 +780,16 @@ false
 "
 dom
 .
+file
+.
+createInChild
+"
+true
+]
+[
+"
+dom
+.
 ipc
 .
 reportProcessHangs
