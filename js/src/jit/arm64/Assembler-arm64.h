@@ -2387,7 +2387,7 @@ r9
 static
 constexpr
 Register
-NativeABIPrologueClobberable
+ABINonArgReturnVolatileReg
 =
 lr
 ;

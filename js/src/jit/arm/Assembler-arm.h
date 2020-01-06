@@ -603,9 +603,9 @@ r5
 static
 constexpr
 Register
-NativeABIPrologueClobberable
+ABINonArgReturnVolatileReg
 =
-ScratchRegister
+lr
 ;
 static
 constexpr

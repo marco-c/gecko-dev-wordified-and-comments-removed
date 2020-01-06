@@ -185,7 +185,7 @@ t1
 static
 constexpr
 Register
-NativeABIPrologueClobberable
+ABINonArgReturnVolatileReg
 =
 t0
 ;

@@ -626,9 +626,9 @@ ebx
 static
 constexpr
 Register
-NativeABIPrologueClobberable
+ABINonArgReturnVolatileReg
 =
-eax
+ecx
 ;
 static
 constexpr

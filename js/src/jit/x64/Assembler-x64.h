@@ -1318,9 +1318,9 @@ r13
 static
 constexpr
 Register
-NativeABIPrologueClobberable
+ABINonArgReturnVolatileReg
 =
-rax
+r10
 ;
 static
 constexpr
