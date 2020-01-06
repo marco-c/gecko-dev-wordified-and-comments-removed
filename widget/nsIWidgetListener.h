@@ -171,6 +171,14 @@ aInFullscreen
 ;
 virtual
 void
+OcclusionStateChanged
+(
+bool
+aIsFullyOccluded
+)
+;
+virtual
+void
 WindowActivated
 (
 )
