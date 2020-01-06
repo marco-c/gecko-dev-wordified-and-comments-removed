@@ -5723,7 +5723,7 @@ replacementEnd
 return
 false
 ;
-CharT
+char16_t
 c
 =
 currentDollar
