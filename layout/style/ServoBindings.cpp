@@ -2927,6 +2927,17 @@ IsDynamic
 return
 ;
 }
+nsAutoAnimationMutationBatch
+mb
+(
+aElement
+-
+>
+OwnerDoc
+(
+)
+)
+;
 CSSPseudoElementType
 pseudoType
 =
