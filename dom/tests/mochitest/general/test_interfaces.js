@@ -1597,6 +1597,9 @@ RTCRtpReceiver
 RTCRtpSender
 "
 "
+RTCRtpTransceiver
+"
+"
 RTCSessionDescription
 "
 "
