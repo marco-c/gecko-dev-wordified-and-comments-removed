@@ -32,6 +32,7 @@ WebGLContextShareMode
 WebGLCommand
 WebGLError
 WebGLVersion
+WebGLSLVersion
 }
 ;
 use
@@ -1279,6 +1280,9 @@ WebGLContextShareMode
 webgl_version
 :
 WebGLVersion
+glsl_version
+:
+WebGLSLVersion
 #
 [
 ignore_malloc_size_of
@@ -1639,6 +1643,11 @@ ctx_data
 .
 share_mode
 webgl_version
+glsl_version
+:
+ctx_data
+.
+glsl_version
 limits
 :
 ctx_data
@@ -11970,6 +11979,9 @@ compile
 self
 .
 webgl_version
+self
+.
+glsl_version
 &
 self
 .
