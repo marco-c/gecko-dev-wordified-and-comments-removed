@@ -133,6 +133,15 @@ TextDrawTarget
 .
 h
 "
+using
+mozilla
+:
+:
+layout
+:
+:
+TextDrawTarget
+;
 namespace
 mozilla
 {
