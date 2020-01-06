@@ -1239,6 +1239,9 @@ MediaQueryListEvent
 MediaRecorder
 "
 "
+MediaRecorderErrorEvent
+"
+"
 MediaSource
 "
 "
@@ -1591,9 +1594,6 @@ RadioNodeList
 "
 "
 Range
-"
-"
-RecordErrorEvent
 "
 "
 Rect
