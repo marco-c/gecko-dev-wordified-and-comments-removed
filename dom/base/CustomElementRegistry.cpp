@@ -2372,12 +2372,6 @@ attributeChangedCallback
 "
 createdCallback
 "
-"
-attachedCallback
-"
-"
-detachedCallback
-"
 }
 ;
 static
