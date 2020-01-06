@@ -635,7 +635,7 @@ aGlobal
 #
 ifdef
 MOZ_GECKO_PROFILER
-mProfilerRAII
+mAutoProfilerLabel
 (
 "
 nsJSUtils

@@ -449,7 +449,7 @@ ULONG_PTR
 aParam
 )
 {
-GeckoProfilerThreadWakeRAII
+AutoProfilerThreadWake
 wake
 ;
 mozilla

@@ -17919,8 +17919,8 @@ Category
 GRAPHICS
 )
 ;
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

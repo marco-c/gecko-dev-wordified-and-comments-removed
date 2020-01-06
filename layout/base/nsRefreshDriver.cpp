@@ -1455,8 +1455,8 @@ drivers
 this
 )
 ;
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint
@@ -6569,8 +6569,8 @@ IsEmpty
 )
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint
@@ -7243,7 +7243,7 @@ GetPresShell
 {
 Maybe
 <
-GeckoProfilerTracingRAII
+AutoProfilerTracing
 >
 tracingStyleFlush
 ;
@@ -7414,7 +7414,7 @@ i
 {
 Maybe
 <
-GeckoProfilerTracingRAII
+AutoProfilerTracing
 >
 tracingLayoutFlush
 ;
@@ -8786,8 +8786,8 @@ ImageRequestCount
 )
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

@@ -11187,8 +11187,8 @@ SetLayerTreeCompressionMode
 ;
 }
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

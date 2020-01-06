@@ -204,8 +204,8 @@ MOZ_GECKO_PROFILER
 mozilla
 :
 :
-ProfilerStackFrameRAII
-mProfilerRAII
+AutoProfilerLabel
+mAutoProfilerLabel
 ;
 #
 endif

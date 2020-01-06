@@ -3989,8 +3989,8 @@ IntRect
 aRect
 )
 {
-GeckoProfilerTracingRAII
-tracer
+AutoProfilerTracing
+tracing
 (
 "
 Paint

@@ -273,7 +273,7 @@ OTHER
 mozilla
 :
 :
-GeckoProfilerThreadSleepRAII
+AutoProfilerThreadSleep
 sleep
 ;
 event_
@@ -337,7 +337,7 @@ OTHER
 mozilla
 :
 :
-GeckoProfilerThreadSleepRAII
+AutoProfilerThreadSleep
 sleep
 ;
 event_

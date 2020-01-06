@@ -33201,7 +33201,7 @@ Decl
 Type
 (
 '
-GeckoProfilerTracingRAII
+AutoProfilerTracing
 '
 )
                                   
