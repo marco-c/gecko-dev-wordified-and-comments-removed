@@ -2551,6 +2551,7 @@ s
 \
 n
 "
+mWrState
 Stringify
 (
 aBounds
@@ -2614,6 +2615,7 @@ PopStackingContext
 \
 n
 "
+mWrState
 )
 ;
 wr_dp_pop_stacking_context
@@ -2712,10 +2714,11 @@ s
 complex
 =
 %
-d
+zu
 \
 n
 "
+mWrState
 clip_id
 Stringify
 (
@@ -2803,6 +2806,7 @@ PRIu64
 \
 n
 "
+mWrState
 aClipId
 .
 id
@@ -2845,6 +2849,7 @@ PRIu64
 \
 n
 "
+mWrState
 mClipIdStack
 .
 back
@@ -2883,6 +2888,16 @@ BuiltDisplayList
 dl
 )
 {
+WRDL_LOG
+(
+"
+PushBuiltDisplayList
+\
+n
+"
+mWrState
+)
+;
 wr_dp_push_built_display_list
 (
 mWrState
@@ -2951,6 +2966,7 @@ s
 \
 n
 "
+mWrState
 aScrollId
 Stringify
 (
@@ -3061,6 +3077,7 @@ PRIu64
 \
 n
 "
+mWrState
 mScrollIdStack
 .
 back
@@ -3122,6 +3139,7 @@ s
 \
 n
 "
+mWrState
 aScrollId
 aClipId
 ?
@@ -3182,6 +3200,7 @@ PopClipAndScroll
 \
 n
 "
+mWrState
 )
 ;
 mScrollIdStack
@@ -3244,6 +3263,7 @@ s
 \
 n
 "
+mWrState
 Stringify
 (
 aBounds
@@ -3589,6 +3609,7 @@ s
 \
 n
 "
+mWrState
 Stringify
 (
 aBounds
