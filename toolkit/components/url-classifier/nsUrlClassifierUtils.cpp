@@ -1486,7 +1486,7 @@ get
 )
 )
 ;
-nsCString
+nsXPIDLCString
 version
 ;
 nsresult
@@ -1516,10 +1516,6 @@ rv
 )
 ?
 version
-.
-get
-(
-)
 :
 DEFAULT_PROTOCOL_VERSION
 ;

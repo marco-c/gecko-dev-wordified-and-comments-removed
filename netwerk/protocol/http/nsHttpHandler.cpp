@@ -7696,7 +7696,7 @@ default
 )
 )
 {
-nsCString
+nsXPIDLCString
 accept
 ;
 rv
@@ -7733,10 +7733,6 @@ rv
 SetAccept
 (
 accept
-.
-get
-(
-)
 )
 ;
 MOZ_ASSERT
@@ -7764,7 +7760,7 @@ encoding
 )
 )
 {
-nsCString
+nsXPIDLCString
 acceptEncodings
 ;
 rv
@@ -7801,10 +7797,6 @@ rv
 SetAcceptEncodings
 (
 acceptEncodings
-.
-get
-(
-)
 false
 )
 ;
@@ -7835,7 +7827,7 @@ secure
 )
 )
 {
-nsCString
+nsXPIDLCString
 acceptEncodings
 ;
 rv
@@ -7874,10 +7866,6 @@ rv
 SetAcceptEncodings
 (
 acceptEncodings
-.
-get
-(
-)
 true
 )
 ;
@@ -7908,7 +7896,7 @@ type
 )
 )
 {
-nsCString
+nsXPIDLCString
 sval
 ;
 rv
@@ -7990,10 +7978,6 @@ sps
 GetSocketProvider
 (
 sval
-.
-get
-(
-)
 getter_AddRefs
 (
 sp

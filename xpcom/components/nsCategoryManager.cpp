@@ -2695,7 +2695,7 @@ entryString
 continue
 ;
 }
-nsCString
+nsXPIDLCString
 contractID
 ;
 rv
@@ -2737,10 +2737,6 @@ instance
 do_GetService
 (
 contractID
-.
-get
-(
-)
 )
 ;
 if

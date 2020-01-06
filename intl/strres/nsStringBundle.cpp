@@ -2902,7 +2902,7 @@ nsIStringBundle
 >
 bundle
 ;
-nsCString
+nsXPIDLCString
 stringBundleURL
 ;
 if
@@ -3134,10 +3134,6 @@ rv
 getStringBundle
 (
 stringBundleURL
-.
-get
-(
-)
 getter_AddRefs
 (
 bundle

@@ -2346,7 +2346,7 @@ currentFlavor
 )
 continue
 ;
-nsCString
+nsXPIDLCString
 flavorStr
 ;
 currentFlavor
@@ -2379,10 +2379,6 @@ currentTransferable
 GetTransferData
 (
 flavorStr
-.
-get
-(
-)
 getter_AddRefs
 (
 dataSupports
@@ -2405,10 +2401,6 @@ aTransferable
 SetTransferData
 (
 flavorStr
-.
-get
-(
-)
 dataSupports
 dataSize
 )
@@ -2479,7 +2471,7 @@ currentFlavor
 )
 continue
 ;
-nsCString
+nsXPIDLCString
 flavorStr
 ;
 currentFlavor
@@ -2724,10 +2716,6 @@ aTransferable
 SetTransferData
 (
 flavorStr
-.
-get
-(
-)
 file
 dataLength
 )
@@ -2846,10 +2834,6 @@ nsPrimitiveHelpers
 CreatePrimitiveForData
 (
 flavorStr
-.
-get
-(
-)
 clipboardDataPtr
 dataLength
 getter_AddRefs
@@ -2864,10 +2848,6 @@ aTransferable
 SetTransferData
 (
 flavorStr
-.
-get
-(
-)
 genericDataWrapper
 sizeof
 (
@@ -3178,10 +3158,6 @@ nsLinebreakHelpers
 ConvertPlatformToDOMLinebreaks
 (
 flavorStr
-.
-get
-(
-)
 &
 clipboardDataPtr
 &
@@ -3276,10 +3252,6 @@ nsPrimitiveHelpers
 CreatePrimitiveForData
 (
 flavorStr
-.
-get
-(
-)
 clipboardDataPtrNoBOM
 dataLength
 getter_AddRefs
@@ -3294,10 +3266,6 @@ aTransferable
 SetTransferData
 (
 flavorStr
-.
-get
-(
-)
 genericDataWrapper
 dataLength
 )
