@@ -202,7 +202,7 @@ UnresolvedNamesOnly
 }
 ;
 static
-void
+bool
 GetNames
 (
 JSContext
@@ -219,10 +219,10 @@ JSObject
 aObj
 NameType
 aNameType
-nsTArray
-<
-nsString
->
+JS
+:
+:
+AutoIdVector
 &
 aNames
 )
