@@ -93,7 +93,7 @@ android
 enabled
 =
 "
-false
+true
 "
 /
 >
@@ -134,7 +134,7 @@ android
 enabled
 =
 "
-false
+true
 "
 >
 <
@@ -211,7 +211,7 @@ android
 enabled
 =
 "
-false
+true
 "
 /
 >
