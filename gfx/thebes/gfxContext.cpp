@@ -2842,6 +2842,7 @@ gfxContext
 GetClipExtents
 (
 )
+const
 {
 Rect
 rect
@@ -5235,6 +5236,7 @@ gfxContext
 GetAzureDeviceSpaceClipBounds
 (
 )
+const
 {
 Rect
 rect
@@ -5324,6 +5326,7 @@ c
 +
 )
 {
+const
 AzureState
 :
 :
