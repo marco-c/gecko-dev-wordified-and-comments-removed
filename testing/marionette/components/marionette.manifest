@@ -18,6 +18,8 @@ mozilla
 .
 org
 /
+remote
+/
 marionette
 ;
 1
@@ -45,6 +47,8 @@ mozilla
 .
 org
 /
+remote
+/
 marionette
 ;
 1
@@ -58,6 +62,8 @@ Marionette
 mozilla
 .
 org
+/
+remote
 /
 marionette
 ;
