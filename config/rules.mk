@@ -827,8 +827,6 @@ LIB_SUFFIX
 endif
 endif
 ifdef
-LIBRARY
-ifdef
 FORCE_SHARED_LIB
 ifdef
 MKSHLIB
@@ -849,9 +847,6 @@ MKSHLIB
 endif
 #
 FORCE_SHARED_LIB
-endif
-#
-LIBRARY
 ifeq
 (
 (
