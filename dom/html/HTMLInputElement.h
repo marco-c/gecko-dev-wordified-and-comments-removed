@@ -3794,12 +3794,9 @@ SetDefaultValueAsValue
 (
 )
 ;
-virtual
 void
-SetDirectionIfAuto
+SetDirectionFromValue
 (
-bool
-aAuto
 bool
 aNotify
 )
