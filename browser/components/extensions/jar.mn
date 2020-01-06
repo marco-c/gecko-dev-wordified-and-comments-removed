@@ -310,15 +310,6 @@ browser
 /
 ext
 -
-utils
-.
-js
-content
-/
-browser
-/
-ext
--
 windows
 .
 js

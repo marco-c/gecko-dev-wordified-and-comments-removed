@@ -47,6 +47,14 @@ jsm
 ;
 global
 .
+EventEmitter
+=
+ExtensionUtils
+.
+EventEmitter
+;
+global
+.
 EventManager
 =
 ExtensionCommon
