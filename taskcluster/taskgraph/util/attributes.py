@@ -2,9 +2,7 @@ import
 re
 INTEGRATION_PROJECTS
 =
-set
-(
-[
+{
     
 '
 mozilla
@@ -15,13 +13,10 @@ inbound
 '
 autoland
 '
-]
-)
+}
 RELEASE_PROJECTS
 =
-set
-(
-[
+{
     
 '
 mozilla
@@ -46,8 +41,7 @@ mozilla
 -
 release
 '
-]
-)
+}
 def
 attrmatch
 (
