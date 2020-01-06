@@ -537,7 +537,6 @@ mDispatcher
 >
 Dispatch
 (
-nullptr
 mCategory
 Move
 (
@@ -608,10 +607,6 @@ SchedulerGroup
 :
 UnlabeledDispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -759,10 +754,6 @@ SchedulerGroup
 :
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -777,7 +768,6 @@ aRunnable
 return
 LabeledDispatch
 (
-aName
 aCategory
 Move
 (
@@ -1151,10 +1141,6 @@ SchedulerGroup
 :
 LabeledDispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -1199,7 +1185,6 @@ this
 return
 UnlabeledDispatch
 (
-aName
 aCategory
 runnable
 .

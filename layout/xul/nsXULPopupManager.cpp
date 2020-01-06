@@ -3758,9 +3758,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsXULPopupShowingEvent
-"
 TaskCategory
 :
 :
@@ -5069,9 +5066,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsXULPopupHidingEvent
-"
 TaskCategory
 :
 :
@@ -6526,9 +6520,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsXULMenuCommandEvent
-"
 TaskCategory
 :
 :
@@ -7303,6 +7294,9 @@ ePopupShown
 }
 else
 {
+#
+ifndef
+MOZ_WIDGET_GTK
 if
 (
 !
@@ -7442,6 +7436,8 @@ return
 }
 }
 }
+#
+endif
 HidePopupCallback
 (
 aPopup
@@ -13146,9 +13142,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsXULPopupPositionedEvent
-"
 TaskCategory
 :
 :

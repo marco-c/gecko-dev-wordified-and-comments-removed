@@ -335,12 +335,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-MediaResource
-:
-:
-Destroy
-"
 TaskCategory
 :
 :

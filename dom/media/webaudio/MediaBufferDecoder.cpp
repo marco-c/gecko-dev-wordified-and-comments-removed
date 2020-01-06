@@ -1178,17 +1178,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-MediaDecodeTask
-:
-:
-OnMetadataRead
-(
-)
-:
-:
-report_telemetry
-"
 TaskCategory
 :
 :

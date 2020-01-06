@@ -481,12 +481,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-VideoUtils
-:
-:
-DeleteObjectTask
-"
 TaskCategory
 :
 :
@@ -774,13 +768,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-~
-WMFVideoMFTManager
-:
-:
-report_telemetry
-"
 TaskCategory
 :
 :

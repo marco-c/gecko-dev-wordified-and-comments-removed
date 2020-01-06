@@ -193,9 +193,6 @@ aPtr
 >
 DispatchToMain
 (
-"
-nsHtml5StreamParserReleaser
-"
 releaser
 .
 forget

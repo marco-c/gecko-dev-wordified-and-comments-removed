@@ -742,9 +742,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-ShortTermURISpecCache
-"
 TaskCategory
 :
 :

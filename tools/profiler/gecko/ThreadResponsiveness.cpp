@@ -176,9 +176,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-CheckResponsivenessTask
-"
 TaskCategory
 :
 :
@@ -301,9 +298,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-CheckResponsivenessTask
-"
 TaskCategory
 :
 :

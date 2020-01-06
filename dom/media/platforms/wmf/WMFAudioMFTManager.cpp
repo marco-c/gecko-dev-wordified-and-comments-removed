@@ -1176,17 +1176,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-WMFAudioMFTManager
-:
-:
-Output
-(
-)
-:
-:
-report_telemetry
-"
 TaskCategory
 :
 :

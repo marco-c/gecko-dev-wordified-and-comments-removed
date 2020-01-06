@@ -1418,9 +1418,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsMenuBarSwitchMenu
-"
 TaskCategory
 :
 :

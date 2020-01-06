@@ -2343,9 +2343,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-NotifyBHRHangObservers
-"
 TaskCategory
 :
 :

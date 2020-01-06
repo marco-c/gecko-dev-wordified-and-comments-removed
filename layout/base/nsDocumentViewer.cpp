@@ -8295,9 +8295,6 @@ document
 >
 Dispatch
 (
-"
-nsDocumentShownDispatcher
-"
 TaskCategory
 :
 :

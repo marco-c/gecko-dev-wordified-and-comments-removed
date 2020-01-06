@@ -291,10 +291,6 @@ virtual
 nsresult
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -342,10 +338,6 @@ static
 nsresult
 UnlabeledDispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -404,10 +396,6 @@ aEventTarget
 nsresult
 LabeledDispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed

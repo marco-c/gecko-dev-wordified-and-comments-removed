@@ -2982,10 +2982,6 @@ aSkipCheckingDynEntries
 nsresult
 DispatchToTabGroup
 (
-const
-char
-*
-aName
 mozilla
 :
 :

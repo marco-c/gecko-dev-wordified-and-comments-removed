@@ -49,10 +49,6 @@ virtual
 nsresult
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed

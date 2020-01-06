@@ -838,12 +838,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-CaptureTask
-:
-:
-TaskComplete
-"
 TaskCategory
 :
 :

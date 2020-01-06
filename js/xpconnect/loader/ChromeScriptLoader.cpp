@@ -532,12 +532,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-ScriptLoader
-:
-:
-FinishCompile
-"
 TaskCategory
 :
 :

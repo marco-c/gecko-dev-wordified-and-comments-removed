@@ -510,9 +510,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsImageBoxFrameEvent
-"
 TaskCategory
 :
 :

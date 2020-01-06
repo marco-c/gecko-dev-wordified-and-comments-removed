@@ -2800,9 +2800,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsMenuActivateEvent
-"
 TaskCategory
 :
 :
@@ -3007,9 +3004,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsMenuActivateEvent
-"
 TaskCategory
 :
 :

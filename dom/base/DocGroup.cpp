@@ -217,10 +217,6 @@ DocGroup
 :
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -238,7 +234,6 @@ mTabGroup
 >
 Dispatch
 (
-aName
 aCategory
 Move
 (

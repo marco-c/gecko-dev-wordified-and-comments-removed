@@ -457,12 +457,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-ScopedGfxFeatureReporter
-:
-:
-RegisterObserverRunnable
-"
 TaskCategory
 :
 :
@@ -566,12 +560,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-ScopedGfxFeatureReporter
-:
-:
-AppendAppNotesRunnable
-"
 TaskCategory
 :
 :

@@ -3179,9 +3179,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsHtml5SVGLoadDispatcher
-"
 TaskCategory
 :
 :

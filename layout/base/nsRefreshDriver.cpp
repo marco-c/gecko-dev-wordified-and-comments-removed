@@ -8841,12 +8841,6 @@ Document
 >
 Dispatch
 (
-"
-nsRefreshDriver
-:
-:
-DoRefresh
-"
 TaskCategory
 :
 :

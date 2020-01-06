@@ -8993,12 +8993,6 @@ mDocument
 >
 Dispatch
 (
-"
-PresShell
-:
-:
-FireResizeEvent
-"
 TaskCategory
 :
 :
@@ -27738,12 +27732,6 @@ mDocument
 >
 Dispatch
 (
-"
-PresShell
-:
-:
-UpdateApproximateFrameVisibility
-"
 TaskCategory
 :
 :

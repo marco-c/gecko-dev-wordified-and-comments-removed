@@ -9480,10 +9480,6 @@ virtual
 nsresult
 Dispatch
 (
-const
-char
-*
-aName
 mozilla
 :
 :

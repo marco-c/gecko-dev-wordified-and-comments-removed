@@ -24550,9 +24550,6 @@ OwnerDoc
 >
 Dispatch
 (
-"
-nsDelayedCalcBCBorders
-"
 TaskCategory
 :
 :

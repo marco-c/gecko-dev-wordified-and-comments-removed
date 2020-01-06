@@ -94,12 +94,6 @@ SystemGroup
 :
 Dispatch
 (
-"
-GMPTestMonitor
-:
-:
-SetFinished
-"
 mozilla
 :
 :

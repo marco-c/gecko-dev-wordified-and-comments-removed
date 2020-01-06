@@ -2380,10 +2380,6 @@ WorkerGlobalScope
 :
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -4852,10 +4848,6 @@ WorkerDebuggerGlobalScope
 :
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed

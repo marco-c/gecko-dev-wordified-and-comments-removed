@@ -878,12 +878,6 @@ win
 >
 Dispatch
 (
-"
-TextTrackList
-:
-:
-CreateAndDispatchChangeEvent
-"
 TaskCategory
 :
 :

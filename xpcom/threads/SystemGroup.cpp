@@ -272,10 +272,6 @@ SystemGroup
 :
 Dispatch
 (
-const
-char
-*
-aName
 TaskCategory
 aCategory
 already_AddRefed
@@ -298,7 +294,6 @@ Get
 >
 Dispatch
 (
-aName
 aCategory
 Move
 (
