@@ -192,6 +192,13 @@ js
 }
 )
 ;
+const
+{
+Command
+Message
+Response
+}
+=
 Cu
 .
 import
@@ -209,6 +216,8 @@ message
 .
 js
 "
+{
+}
 )
 ;
 const
