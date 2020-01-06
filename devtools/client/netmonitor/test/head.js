@@ -2853,6 +2853,8 @@ file
 )
 .
 textContent
+decodeURIComponent
+(
 name
 +
 (
@@ -2866,6 +2868,7 @@ query
 :
 "
 "
+)
 )
 "
 The
