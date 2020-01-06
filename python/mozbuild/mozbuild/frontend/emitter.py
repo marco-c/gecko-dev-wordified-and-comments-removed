@@ -393,6 +393,14 @@ set
         
 self
 .
+_rust_compile_dirs
+=
+set
+(
+)
+        
+self
+.
 _compile_flags
 =
 dict
@@ -5063,6 +5071,21 @@ context
 objdir
 )
         
+elif
+linkables
+:
+            
+self
+.
+_rust_compile_dirs
+.
+add
+(
+context
+.
+objdir
+)
+        
 if
 host_linkables
 and
@@ -8091,6 +8114,19 @@ objdir
 ]
 =
 computed_flags
+            
+yield
+computed_link_flags
+        
+elif
+context
+.
+objdir
+in
+self
+.
+_rust_compile_dirs
+:
             
 yield
 computed_link_flags
