@@ -156,6 +156,12 @@ MOZ_ASSERT
 mVideoEncoder
 )
 ;
+if
+(
+!
+mSuspended
+)
+{
 mVideoEncoder
 -
 >
@@ -164,6 +170,7 @@ SetCurrentFrames
 aSegment
 )
 ;
+}
 }
 void
 MediaEncoder
