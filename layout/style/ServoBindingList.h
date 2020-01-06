@@ -141,8 +141,6 @@ Servo_StyleSet_RebuildData
 void
 RawServoStyleSetBorrowed
 set
-RawGeckoElementBorrowedOrNull
-doc_elem
 )
 SERVO_BINDING_FUNC
 (
