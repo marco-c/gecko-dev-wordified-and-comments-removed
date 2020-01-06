@@ -2750,7 +2750,7 @@ end
 ;
 MOZ_ASSERT
 (
-metadata_
+metadataTier_
 -
 >
 funcExports
@@ -2763,7 +2763,7 @@ empty
 if
 (
 !
-metadata_
+metadataTier_
 -
 >
 funcExports
@@ -2815,7 +2815,7 @@ funcToCodeRange_
 funcIndex
 ]
 ;
-metadata_
+metadataTier_
 -
 >
 funcExports
@@ -2880,7 +2880,7 @@ size
 uint32_t
 numFuncExports
 =
-metadata_
+metadataTier_
 -
 >
 funcExports
@@ -2987,7 +2987,7 @@ i
 GenerateEntry
 (
 masm
-metadata_
+metadataTier_
 -
 >
 funcExports
@@ -3052,7 +3052,7 @@ i
 GenerateImportInterpExit
 (
 masm
-metadata_
+metadataTier_
 -
 >
 funcImports
@@ -3072,7 +3072,7 @@ i
 GenerateImportJitExit
 (
 masm
-metadata_
+metadataTier_
 -
 >
 funcImports
@@ -3202,7 +3202,7 @@ offsetBy
 offsetInWhole
 )
 ;
-metadata_
+metadataTier_
 -
 >
 funcExports
@@ -3272,7 +3272,7 @@ offsetBy
 offsetInWhole
 )
 ;
-metadata_
+metadataTier_
 -
 >
 funcImports
@@ -3323,7 +3323,7 @@ offsetBy
 offsetInWhole
 )
 ;
-metadata_
+metadataTier_
 -
 >
 funcImports
@@ -3824,7 +3824,7 @@ return
 false
 ;
 return
-metadata_
+metadataTier_
 -
 >
 funcImports
@@ -4515,7 +4515,7 @@ MOZ_ASSERT
 funcIndex
 =
 =
-metadata_
+metadataTier_
 -
 >
 funcImports
@@ -4554,7 +4554,7 @@ finishedFuncDefs_
 )
 ;
 return
-metadata_
+metadataTier_
 -
 >
 funcImports
@@ -5348,7 +5348,7 @@ FuncImport
 &
 funcImport
 =
-metadata_
+metadataTier_
 -
 >
 funcImports

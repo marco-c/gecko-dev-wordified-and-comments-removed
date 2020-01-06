@@ -659,7 +659,7 @@ FuncImport
 &
 fi
 =
-metadata
+metadataTier
 (
 )
 .
@@ -1995,7 +1995,7 @@ length
 )
 =
 =
-metadata
+metadataTier
 (
 )
 .
@@ -2144,7 +2144,7 @@ i
 ;
 i
 <
-metadata
+metadataTier
 (
 )
 .
@@ -2172,7 +2172,7 @@ FuncImport
 &
 fi
 =
-metadata
+metadataTier
 (
 )
 .
@@ -2856,7 +2856,7 @@ i
 ;
 i
 <
-metadata
+metadataTier
 (
 )
 .
@@ -2877,7 +2877,7 @@ import
 =
 funcImportTls
 (
-metadata
+metadataTier
 (
 )
 .
@@ -3127,7 +3127,7 @@ FuncImport
 &
 fi
 :
-metadata
+metadataTier
 (
 )
 .
@@ -4892,7 +4892,7 @@ FuncImport
 &
 fi
 =
-metadata
+metadataTier
 (
 )
 .

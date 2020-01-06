@@ -824,7 +824,7 @@ funcIndex
 code_
 -
 >
-metadata
+metadataTier
 (
 )
 .

@@ -1156,6 +1156,12 @@ codeRanges
 CallSiteVector
 callSites
 ;
+FuncImportVector
+funcImports
+;
+FuncExportVector
+funcExports
+;
 Uint32Vector
 debugTrapFarJumpOffsets
 ;
@@ -1270,12 +1276,6 @@ return
 this
 ;
 }
-FuncImportVector
-funcImports
-;
-FuncExportVector
-funcExports
-;
 SigWithIdVector
 sigIds
 ;
