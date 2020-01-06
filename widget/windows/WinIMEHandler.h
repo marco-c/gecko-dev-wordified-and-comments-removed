@@ -63,7 +63,7 @@ class
 IMEHandler
 final
 {
-public
+private
 :
 static
 void
@@ -71,6 +71,8 @@ Initialize
 (
 )
 ;
+public
+:
 static
 void
 Terminate

@@ -2632,13 +2632,6 @@ Initialize
 ;
 #
 endif
-IMEHandler
-:
-:
-Initialize
-(
-)
-;
 if
 (
 SUCCEEDED
