@@ -144,7 +144,7 @@ aBlobImpl
 )
 ;
 void
-CancelPump
+ShutDownMainThreadConsuming
 (
 )
 ;
@@ -160,6 +160,16 @@ const
 {
 return
 mWorkerPrivate
+;
+}
+void
+NullifyConsumeBodyPump
+(
+)
+{
+mConsumeBodyPump
+=
+nullptr
 ;
 }
 private
@@ -256,7 +266,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsMainThreadPtrHandle
+nsCOMPtr
 <
 nsIInputStreamPump
 >
@@ -273,6 +283,9 @@ mConsumePromise
 ;
 bool
 mBodyConsumed
+;
+bool
+mShuttingDown
 ;
 }
 ;
