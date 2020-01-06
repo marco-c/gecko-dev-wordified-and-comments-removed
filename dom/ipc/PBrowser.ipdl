@@ -3102,7 +3102,7 @@ open
 .
 *
 /
-async
+sync
 BrowserFrameOpenWindow
 (
 PBrowser
@@ -3118,8 +3118,16 @@ aFeatures
 )
 returns
 (
-CreatedWindowInfo
-window
+bool
+windowOpened
+TextureFactoryIdentifier
+textureFactoryIdentifier
+uint64_t
+layersId
+CompositorOptions
+compositorOptions
+uint32_t
+maxTouchPoints
 )
 ;
 /
