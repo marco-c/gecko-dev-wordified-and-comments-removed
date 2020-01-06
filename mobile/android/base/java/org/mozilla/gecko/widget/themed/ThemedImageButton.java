@@ -441,7 +441,7 @@ getDrawable
 ;
 }
 Override
-public
+protected
 void
 onAttachedToWindow
 (
@@ -466,7 +466,7 @@ this
 ;
 }
 Override
-public
+protected
 void
 onDetachedFromWindow
 (

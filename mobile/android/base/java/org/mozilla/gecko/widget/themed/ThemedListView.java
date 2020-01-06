@@ -112,13 +112,13 @@ AttributeSet
 ;
 public
 class
-ThemedFrameLayout
+ThemedListView
 extends
 android
 .
 widget
 .
-FrameLayout
+ListView
 implements
 LightweightTheme
 .
@@ -259,7 +259,7 @@ ColorStateList
 drawableColors
 ;
 public
-ThemedFrameLayout
+ThemedListView
 (
 Context
 context
@@ -282,7 +282,7 @@ attrs
 ;
 }
 public
-ThemedFrameLayout
+ThemedListView
 (
 Context
 context
