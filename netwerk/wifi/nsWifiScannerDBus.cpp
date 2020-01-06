@@ -10,9 +10,7 @@ include
 "
 mozilla
 /
-ipc
-/
-DBusMessageRefPtr
+DBusHelpers
 .
 h
 "

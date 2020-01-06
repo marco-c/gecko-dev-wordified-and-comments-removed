@@ -49,9 +49,7 @@ include
 "
 mozilla
 /
-ipc
-/
-DBusConnectionRefPtr
+DBusHelpers
 .
 h
 "
