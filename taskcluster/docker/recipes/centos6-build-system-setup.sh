@@ -96,6 +96,17 @@ install
 cmake
 .
 sh
+.
+/
+setup
+/
+install
+-
+debug
+-
+symbols
+.
+sh
 rm
 -
 rf
