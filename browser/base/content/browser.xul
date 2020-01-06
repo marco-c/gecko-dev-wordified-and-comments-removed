@@ -8966,6 +8966,13 @@ closemenu
 "
 none
 "
+cui
+-
+areatype
+=
+"
+toolbar
+"
 label
 =
 "
