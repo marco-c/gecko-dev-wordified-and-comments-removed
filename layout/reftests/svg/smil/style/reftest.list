@@ -50,7 +50,7 @@ colors
 &
 hex
 values
-skip
+fails
 -
 if
 (
@@ -84,7 +84,7 @@ fill
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -128,7 +128,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -172,7 +172,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -216,7 +216,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -260,7 +260,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -302,7 +302,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -343,7 +343,7 @@ color
 property
 paced
 calcMode
-skip
+fails
 -
 if
 (
@@ -395,7 +395,7 @@ skiaContent
 1
 580
 )
-skip
+fails
 -
 if
 (
@@ -437,7 +437,7 @@ skiaContent
 1
 580
 )
-skip
+fails
 -
 if
 (
@@ -481,7 +481,7 @@ skiaContent
 1
 580
 )
-skip
+fails
 -
 if
 (
@@ -541,7 +541,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -583,7 +583,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -627,7 +627,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -671,7 +671,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -715,7 +715,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -759,7 +759,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -801,7 +801,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -858,7 +858,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -900,7 +900,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -944,7 +944,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -988,7 +988,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -1032,7 +1032,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -1076,7 +1076,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -1117,7 +1117,7 @@ fill
 property
 paced
 calcMode
-skip
+fails
 -
 if
 (
@@ -1169,7 +1169,7 @@ skiaContent
 1
 580
 )
-skip
+fails
 -
 if
 (
@@ -1211,7 +1211,7 @@ skiaContent
 1
 580
 )
-skip
+fails
 -
 if
 (
@@ -1255,7 +1255,7 @@ skiaContent
 1
 580
 )
-skip
+fails
 -
 if
 (
@@ -1383,7 +1383,7 @@ F
 .
 4
 )
-skip
+fails
 -
 if
 (
@@ -1463,7 +1463,7 @@ skiaContent
 1
 885
 )
-skip
+fails
 -
 if
 (
@@ -1501,7 +1501,7 @@ skiaContent
 1
 210
 )
-skip
+fails
 -
 if
 (
@@ -1533,7 +1533,7 @@ fillopacity
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -1573,7 +1573,7 @@ skiaContent
 1
 550
 )
-skip
+fails
 -
 if
 (
@@ -1603,7 +1603,7 @@ fillopacity
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -1671,7 +1671,7 @@ skiaContent
 1
 365
 )
-skip
+fails
 -
 if
 (
@@ -1709,7 +1709,7 @@ font
 '
 shorthand
 property
-skip
+fails
 -
 if
 (
@@ -1753,7 +1753,7 @@ with
 pixel
 values
 only
-skip
+fails
 -
 if
 (
@@ -1831,7 +1831,7 @@ accepts
 unitless
 values
 )
-skip
+fails
 -
 if
 (
@@ -1867,7 +1867,7 @@ fontsize
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -1903,7 +1903,7 @@ fontsize
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -1952,7 +1952,7 @@ accepts
 unitless
 values
 )
-skip
+fails
 -
 if
 (
@@ -1988,7 +1988,7 @@ fontsize
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2024,7 +2024,7 @@ fontsize
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2075,7 +2075,7 @@ to
 with
 percent
 values
-skip
+fails
 -
 if
 (
@@ -2111,7 +2111,7 @@ fontsize
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2147,7 +2147,7 @@ fontsize
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2283,7 +2283,7 @@ property
 with
 negative
 addition
-skip
+fails
 -
 if
 (
@@ -2319,7 +2319,7 @@ fontsize
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2355,7 +2355,7 @@ fontsize
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2450,7 +2450,7 @@ with
 pixel
 values
 only
-skip
+fails
 -
 if
 (
@@ -2484,7 +2484,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2550,7 +2550,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2600,7 +2600,7 @@ with
 unitless
 values
 only
-skip
+fails
 -
 if
 (
@@ -2634,7 +2634,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2700,7 +2700,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -2804,7 +2804,7 @@ Bug
 594933
 )
 .
-skip
+fails
 -
 if
 (
@@ -2896,7 +2896,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3043,7 +3043,7 @@ if
 !
 stylo
 )
-skip
+fails
 -
 if
 (
@@ -3086,7 +3086,7 @@ if
 !
 stylo
 )
-skip
+fails
 -
 if
 (
@@ -3122,7 +3122,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3241,7 +3241,7 @@ to
 with
 em
 values
-skip
+fails
 -
 if
 (
@@ -3275,7 +3275,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3309,7 +3309,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3343,7 +3343,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3379,7 +3379,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3415,7 +3415,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3438,36 +3438,6 @@ by
 em
 -
 px
-.
-svg
-anim
--
-css
--
-strokewidth
--
-1
--
-ref
-.
-svg
-=
-=
-anim
--
-css
--
-strokewidth
--
-1
--
-from
--
-to
--
-px
--
-em
 .
 svg
 anim
@@ -3495,7 +3465,7 @@ from
 -
 to
 -
-em
+px
 -
 em
 .
@@ -3527,6 +3497,36 @@ to
 -
 em
 -
+em
+.
+svg
+anim
+-
+css
+-
+strokewidth
+-
+1
+-
+ref
+.
+svg
+=
+=
+anim
+-
+css
+-
+strokewidth
+-
+1
+-
+from
+-
+to
+-
+em
+-
 px
 .
 svg
@@ -3541,7 +3541,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3575,7 +3575,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3609,7 +3609,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3812,7 +3812,7 @@ width
 property
 negative
 addition
-skip
+fails
 -
 if
 (
@@ -3848,7 +3848,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3884,7 +3884,7 @@ strokewidth
 ref
 .
 svg
-skip
+fails
 -
 if
 (
@@ -3928,7 +3928,7 @@ skiaContent
 1
 170
 )
-skip
+fails
 -
 if
 (

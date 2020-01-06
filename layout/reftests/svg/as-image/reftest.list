@@ -695,7 +695,7 @@ blue100x100
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -748,7 +748,7 @@ border
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -787,7 +787,7 @@ border
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -838,7 +838,7 @@ are
 off
 by
 one
-skip
+fails
 -
 if
 (
@@ -883,7 +883,7 @@ lime100x100
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -926,7 +926,7 @@ stroke
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -961,7 +961,7 @@ lime100x100
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -1029,7 +1029,7 @@ blue100x100
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -1087,7 +1087,7 @@ blue100x100
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -1140,7 +1140,7 @@ border
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -1179,7 +1179,7 @@ border
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -1230,7 +1230,7 @@ are
 off
 by
 one
-skip
+fails
 -
 if
 (
@@ -1275,7 +1275,7 @@ lime100x100
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -1318,7 +1318,7 @@ stroke
 ref
 .
 html
-skip
+fails
 -
 if
 (
@@ -1417,7 +1417,7 @@ border
 ref
 .
 html
-skip
+fails
 -
 if
 (
