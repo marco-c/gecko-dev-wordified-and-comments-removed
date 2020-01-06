@@ -645,9 +645,9 @@ aRefPtr
 this
 -
 >
-Remove
+RemoveEntry
 (
-aKey
+ent
 )
 ;
 return
