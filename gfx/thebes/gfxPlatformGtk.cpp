@@ -1399,7 +1399,7 @@ int32_t
 gfxPlatformGtk
 :
 :
-GetDPI
+GetFontScaleDPI
 (
 )
 {
@@ -1457,14 +1457,14 @@ double
 gfxPlatformGtk
 :
 :
-GetDPIScale
+GetFontScaleFactor
 (
 )
 {
 int32_t
 dpi
 =
-GetDPI
+GetFontScaleDPI
 (
 )
 ;

@@ -340,13 +340,13 @@ target
 endif
 static
 int32_t
-GetDPI
+GetFontScaleDPI
 (
 )
 ;
 static
 double
-GetDPIScale
+GetFontScaleFactor
 (
 )
 ;
