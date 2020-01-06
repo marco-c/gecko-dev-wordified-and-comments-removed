@@ -2600,8 +2600,8 @@ typedef
 struct
 SessionTicketStr
 {
-PRUint16
-ticket_version
+PRBool
+valid
 ;
 SSL3ProtocolVersion
 ssl_version
@@ -2647,8 +2647,8 @@ master_secret
 PRBool
 extendedMasterSecretUsed
 ;
-ClientIdentity
-client_identity
+ClientAuthenticationType
+client_auth_type
 ;
 SECItem
 peer_cert

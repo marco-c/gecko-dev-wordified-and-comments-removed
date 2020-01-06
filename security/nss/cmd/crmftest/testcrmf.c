@@ -5934,6 +5934,12 @@ PK11_MakeIDFromPubKey
 publicValue
 )
 ;
+SECITEM_FreeItem
+(
+publicValue
+PR_TRUE
+)
+;
 if
 (
 keyID
@@ -5974,6 +5980,12 @@ pkcs11Slot
 keyID
 &
 pwdata
+)
+;
+SECITEM_FreeItem
+(
+keyID
+PR_TRUE
 )
 ;
 if

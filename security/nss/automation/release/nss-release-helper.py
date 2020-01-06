@@ -2128,11 +2128,10 @@ create_nss_release_archive
     
 ensure_arguments_after_action
 (
-4
+3
 "
 nss_release_version
 nss_hg_release_tag
-nspr_release_version
 path_to_stage_directory
 "
 )
@@ -2159,7 +2158,7 @@ strip
 (
 )
     
-nsprrel
+stagedir
 =
 args
 [
@@ -2170,12 +2169,31 @@ strip
 (
 )
     
-stagedir
+with
+open
+(
+'
+automation
+/
+release
+/
+nspr
+-
+version
+.
+txt
+'
+)
+as
+nspr_version_file
+:
+        
+nsprrel
 =
-args
-[
-4
-]
+next
+(
+nspr_version_file
+)
 .
 strip
 (
