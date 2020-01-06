@@ -131,13 +131,6 @@ h
 '
 public
 /
-ProfilerMarkerPayload
-.
-h
-'
-'
-public
-/
 ProfilerParent
 .
 h
@@ -941,6 +934,13 @@ h
 public
 /
 GeckoProfilerReporter
+.
+h
+'
+'
+public
+/
+ProfilerMarkerPayload
 .
 h
 '

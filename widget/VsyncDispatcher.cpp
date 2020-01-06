@@ -128,9 +128,6 @@ TimeStamp
 aVsyncTimestamp
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 layers
 :
 :
@@ -142,8 +139,6 @@ PostInsertVsyncProfilerMarker
 aVsyncTimestamp
 )
 ;
-#
-endif
 MutexAutoLock
 lock
 (

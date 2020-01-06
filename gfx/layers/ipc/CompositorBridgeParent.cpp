@@ -703,17 +703,12 @@ Telemetry
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ProfilerMarkerPayload
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -8376,9 +8371,6 @@ TimeStamp
 aVsyncTimestamp
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 MOZ_ASSERT
 (
 CompositorThreadHolder
@@ -8403,8 +8395,6 @@ aVsyncTimestamp
 )
 )
 ;
-#
-endif
 }
 void
 CompositorBridgeParent
