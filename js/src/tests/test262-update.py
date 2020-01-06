@@ -60,6 +60,14 @@ fields
 "
                             
 "
+Promise
+.
+prototype
+.
+finally
+"
+                            
+"
 optional
 -
 catch
