@@ -621,6 +621,17 @@ PREF_DEBUG_ENABLED
 this
 )
 ;
+loggingEnabled
+=
+Services
+.
+prefs
+.
+getBoolPref
+(
+PREF_DEBUG_ENABLED
+)
+;
 }
 HashCompleter
 .
