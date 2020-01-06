@@ -138,10 +138,7 @@ aDeviceContext
 bool
 TranslateRecording
 (
-std
-:
-:
-istream
+PRFileDescStream
 &
 aRecording
 )

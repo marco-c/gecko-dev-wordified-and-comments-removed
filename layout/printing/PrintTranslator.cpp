@@ -107,10 +107,7 @@ PrintTranslator
 :
 TranslateRecording
 (
-std
-:
-:
-istream
+PRFileDescStream
 &
 aRecording
 )
