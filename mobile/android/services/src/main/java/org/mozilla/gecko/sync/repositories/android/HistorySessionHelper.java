@@ -235,7 +235,7 @@ HistorySessionHelper
 (
 StoreTrackingRepositorySession
 session
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 dbHelper
 )
 {
@@ -1068,7 +1068,7 @@ transactionSuccess
 =
 (
 (
-AndroidBrowserHistoryDataAccessor
+HistoryDataAccessor
 )
 dbHelper
 )

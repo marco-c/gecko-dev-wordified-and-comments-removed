@@ -161,9 +161,9 @@ Bundle
 ;
 public
 class
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 extends
-AndroidBrowserRepositoryDataAccessor
+DataAccessor
 {
 private
 static
@@ -259,7 +259,7 @@ static
 {
 if
 (
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS
 .
@@ -290,7 +290,7 @@ IN
 int
 remaining
 =
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS
 .
@@ -303,7 +303,7 @@ for
 String
 specialGuid
 :
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS
 )
@@ -406,7 +406,7 @@ QueryHelper
 queryHelper
 ;
 public
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 (
 Context
 context
@@ -1463,7 +1463,7 @@ String
 ]
 specialGUIDs
 =
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS
 ;
@@ -1823,7 +1823,7 @@ record
 .
 title
 =
-AndroidBrowserBookmarksRepositorySession
+BookmarksRepositorySession
 .
 SPECIAL_GUIDS_MAP
 .
