@@ -386,6 +386,11 @@ bool
 null
 on
 failure
+and
+until
+session
+restore
+completes
 not
 available
 on
