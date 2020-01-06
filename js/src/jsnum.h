@@ -228,6 +228,16 @@ si
 )
 ;
 extern
+bool
+IsInteger
+(
+const
+Value
+&
+val
+)
+;
+extern
 MOZ_MUST_USE
 bool
 JS_FASTCALL
