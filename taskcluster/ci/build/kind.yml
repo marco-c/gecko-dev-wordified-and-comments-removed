@@ -85,6 +85,14 @@ taskgraph
 .
 transforms
 .
+build_lints
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 job
 :
 transforms
