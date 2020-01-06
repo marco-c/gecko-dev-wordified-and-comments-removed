@@ -896,9 +896,6 @@ gz
 '
 %
 prefix
-forcemode
-=
-0644
 )
     
 h

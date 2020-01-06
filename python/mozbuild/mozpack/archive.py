@@ -28,9 +28,6 @@ create_tar_from_files
 (
 fp
 files
-forcemode
-=
-None
 )
 :
     
@@ -92,23 +89,6 @@ files
 can
 be
 written
-.
-    
-Mode
-(
-permissions
-)
-of
-files
-is
-forced
-if
-a
-value
-for
-forcemode
-is
-passed
 .
     
 FUTURE
@@ -280,19 +260,6 @@ s
 f
 )
             
-if
-forcemode
-is
-not
-None
-:
-                
-ti
-.
-mode
-=
-forcemode
-            
 ti
 .
 uid
@@ -388,9 +355,6 @@ None
 compresslevel
 =
 9
-forcemode
-=
-None
 )
 :
     
@@ -450,24 +414,6 @@ the
 handle
 .
     
-Mode
-(
-permissions
-)
-of
-files
-is
-forced
-if
-a
-value
-for
-forcemode
-is
-    
-passed
-.
-    
 "
 "
 "
@@ -509,7 +455,6 @@ create_tar_from_files
 (
 gf
 files
-forcemode
 )
 class
 _BZ2Proxy
