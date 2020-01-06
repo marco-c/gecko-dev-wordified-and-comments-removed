@@ -233,14 +233,7 @@ projects
 :
 [
 '
-mozilla
--
-central
-'
-'
-mozilla
--
-beta
+release
 '
 ]
 ignore
