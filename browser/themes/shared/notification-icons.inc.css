@@ -1220,9 +1220,13 @@ popup
 -
 menulist
 {
+min
+-
 width
 :
-72px
+6
+.
+5em
 ;
 }
 .
