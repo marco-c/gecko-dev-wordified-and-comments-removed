@@ -1714,7 +1714,7 @@ rows
 await
 db
 .
-execute
+executeCached
 (
 SELECT
 1
