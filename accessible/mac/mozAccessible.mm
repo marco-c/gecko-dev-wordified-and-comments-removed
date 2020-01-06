@@ -5138,6 +5138,17 @@ return
 AXDocumentNote
 "
 ;
+case
+roles
+:
+:
+OUTLINEITEM
+:
+return
+"
+AXOutlineRow
+"
+;
 /
 /
 macOS
