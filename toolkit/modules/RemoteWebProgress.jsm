@@ -1193,6 +1193,17 @@ objects
 .
 contentWindow
 ;
+if
+(
+json
+.
+documentContentType
+!
+=
+=
+null
+)
+{
 this
 .
 _browser
@@ -1203,6 +1214,7 @@ json
 .
 documentContentType
 ;
+}
 if
 (
 typeof
