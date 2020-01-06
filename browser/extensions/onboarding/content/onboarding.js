@@ -322,7 +322,7 @@ private
 -
 browsing
 .
-title
+title2
 "
 >
 <
@@ -346,7 +346,7 @@ private
 -
 browsing
 .
-description
+description2
 "
 >
 <
@@ -601,7 +601,7 @@ tour
 -
 addons
 .
-title
+title2
 "
 >
 <
@@ -623,7 +623,7 @@ tour
 -
 addons
 .
-description
+description2
 "
 >
 <
@@ -874,7 +874,7 @@ tour
 -
 customize
 .
-title
+title2
 "
 >
 <
@@ -896,7 +896,7 @@ tour
 -
 customize
 .
-description
+description2
 "
 >
 <
@@ -1027,7 +1027,7 @@ onboarding
 .
 tour
 -
-search
+search2
 "
 getNotificationStrings
 (
@@ -1143,7 +1143,7 @@ tour
 -
 search
 .
-title
+title2
 "
 >
 <
@@ -1165,7 +1165,7 @@ tour
 -
 search
 .
-description
+description2
 "
 >
 <
@@ -1481,7 +1481,7 @@ default
 -
 browser
 .
-title
+title2
 "
 >
 <
@@ -1505,7 +1505,7 @@ default
 -
 browser
 .
-description
+description2
 "
 >
 <
@@ -1634,7 +1634,7 @@ onboarding
 .
 tour
 -
-sync
+sync2
 "
 getNotificationStrings
 (
@@ -1766,7 +1766,7 @@ tour
 -
 sync
 .
-title
+title2
 "
 >
 <
@@ -1788,7 +1788,7 @@ tour
 -
 sync
 .
-description
+description2
 "
 >
 <
