@@ -49135,8 +49135,10 @@ module
 )
 ;
 }
-static
 bool
+js
+:
+:
 InstantiateAsmJS
 (
 JSContext
