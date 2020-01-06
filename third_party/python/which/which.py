@@ -1572,6 +1572,13 @@ os
 .
 path
 .
+expanduser
+(
+                    
+os
+.
+path
+.
 normpath
 (
 os
@@ -1584,6 +1591,7 @@ dirName
 command
 +
 ext
+)
 )
 )
 )
