@@ -421,6 +421,15 @@ testcase
 description
 )
 ;
+LabelUtils
+.
+_labelStrings
+=
+new
+WeakMap
+(
+)
+;
 let
 doc
 =

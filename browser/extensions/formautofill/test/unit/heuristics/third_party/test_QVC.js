@@ -71,7 +71,7 @@ fieldName
 "
 cc
 -
-exp
+number
 "
 }
 {
@@ -100,7 +100,7 @@ fieldName
 "
 cc
 -
-number
+exp
 "
 }
 ]
@@ -200,7 +200,7 @@ fieldName
 "
 cc
 -
-exp
+number
 "
 }
 {
@@ -229,7 +229,7 @@ fieldName
 "
 cc
 -
-number
+exp
 "
 }
 ]
