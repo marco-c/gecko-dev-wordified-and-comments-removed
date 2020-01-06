@@ -3602,7 +3602,11 @@ type
 UTIHelper
 stringFromPboardType
 :
-kMozFileUrlsPboardType
+(
+NSString
+*
+)
+kUTTypeFileURL
 ]
 ;
 allowFileURL
