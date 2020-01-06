@@ -8221,9 +8221,6 @@ Enter
 (
 )
 {
-#
-ifndef
-MOZ_WIDGET_ANDROID
 if
 (
 !
@@ -8243,8 +8240,6 @@ ReleaseResources
 )
 ;
 }
-#
-endif
 bool
 hasNextFrame
 =
