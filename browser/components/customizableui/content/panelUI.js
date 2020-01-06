@@ -2934,6 +2934,13 @@ panelRemover
 )
 ;
 let
+currentView
+=
+multiView
+.
+current
+;
+let
 evt
 =
 new
@@ -2945,11 +2952,11 @@ ViewHiding
 {
 detail
 :
-viewNode
+currentView
 }
 )
 ;
-viewNode
+currentView
 .
 dispatchEvent
 (
