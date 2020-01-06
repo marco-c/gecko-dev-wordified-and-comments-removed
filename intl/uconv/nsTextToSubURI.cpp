@@ -667,6 +667,11 @@ encoding
 )
 )
 {
+free
+(
+unescaped
+)
+;
 return
 NS_ERROR_UCONV_NOCONV
 ;
