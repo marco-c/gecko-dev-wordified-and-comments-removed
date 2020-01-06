@@ -44,9 +44,6 @@ rst
 multil10n
 .
 rst
-spidermonkey_build
-.
-rst
 talos_script
 .
 rst
