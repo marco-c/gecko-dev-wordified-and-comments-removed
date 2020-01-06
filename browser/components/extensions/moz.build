@@ -138,7 +138,14 @@ ExtensionPopups
 jsm
 '
 '
-ParseSymbols
+ParseBreakpadSymbols
+-
+worker
+.
+js
+'
+'
+ParseNMSymbols
 -
 worker
 .
