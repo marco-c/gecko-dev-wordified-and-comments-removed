@@ -329,6 +329,8 @@ external_dirs
 media
 /
 openmax_dl
+/
+dl
 '
 ]
 if
