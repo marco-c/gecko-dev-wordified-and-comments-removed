@@ -4199,6 +4199,14 @@ callInfo
 )
 ;
 InliningResult
+inlineBoolean
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineNewIterator
 (
 CallInfo

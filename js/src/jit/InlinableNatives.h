@@ -100,6 +100,12 @@ AtomicsIsLockFree
 \
 _
 (
+Boolean
+)
+\
+\
+_
+(
 IntlIsCollator
 )
 \
