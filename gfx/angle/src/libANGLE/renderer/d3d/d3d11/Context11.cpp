@@ -758,7 +758,7 @@ this
 mode
 first
 count
-0
+1
 )
 ;
 }
@@ -834,7 +834,7 @@ mode
 count
 type
 indices
-0
+1
 indexRange
 )
 ;
@@ -928,7 +928,7 @@ mode
 count
 type
 indices
-0
+1
 indexRange
 )
 ;
