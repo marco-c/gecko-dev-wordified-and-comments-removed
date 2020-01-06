@@ -242,6 +242,14 @@ checksums
 -
 signing
 "
+            
+'
+release
+-
+notify
+-
+promote
+'
         
 ]
         

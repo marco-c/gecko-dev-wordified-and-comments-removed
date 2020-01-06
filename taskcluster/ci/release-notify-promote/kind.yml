@@ -69,6 +69,14 @@ taskgraph
 .
 transforms
 .
+release_deps
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 task
 :
 transforms
@@ -80,6 +88,12 @@ dependencies
 beetmover
 -
 checksums
+-
+release
+-
+bouncer
+-
+sub
 jobs
 :
 fennec
@@ -282,3 +296,8 @@ release
 -
 drivers
 "
+extra
+:
+product
+:
+fennec

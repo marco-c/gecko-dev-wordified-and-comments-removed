@@ -283,6 +283,19 @@ type
 }
     
 )
+    
+Optional
+(
+'
+dependencies
+'
+)
+:
+{
+basestring
+:
+taskref_or_string
+}
 }
 )
 transforms
@@ -489,11 +502,6 @@ get_beetmover_action_scope
 config
 )
         
-dependencies
-=
-{
-}
-        
 task
 =
 {
@@ -552,7 +560,12 @@ product
 dependencies
 '
 :
+job
+[
+'
 dependencies
+'
+]
             
 '
 attributes

@@ -424,6 +424,17 @@ label
 '
 ]
         
+build_platform
+=
+attributes
+.
+get
+(
+'
+build_platform
+'
+)
+        
 description
 =
 (
@@ -477,14 +488,7 @@ US
                 
 build_platform
 =
-attributes
-.
-get
-(
-'
 build_platform
-'
-)
                 
 build_type
 =
@@ -500,6 +504,66 @@ build_type
 )
         
 )
+        
+extra
+=
+{
+}
+        
+if
+build_platform
+.
+startswith
+(
+"
+android
+"
+)
+:
+            
+extra
+[
+'
+product
+'
+]
+=
+'
+fennec
+'
+        
+elif
+'
+devedition
+'
+in
+build_platform
+:
+            
+extra
+[
+'
+product
+'
+]
+=
+'
+devedition
+'
+        
+else
+:
+            
+extra
+[
+'
+product
+'
+]
+=
+'
+firefox
+'
         
 dependent_kind
 =
@@ -713,6 +777,12 @@ treeherder
 '
 :
 treeherder
+            
+'
+extra
+'
+:
+extra
         
 }
         
