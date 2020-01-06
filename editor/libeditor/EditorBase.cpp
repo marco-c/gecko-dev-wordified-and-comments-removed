@@ -5644,11 +5644,8 @@ mRangeUpdater
 .
 SelAdjInsertNode
 (
+&
 aParent
-.
-AsDOMNode
-(
-)
 aPosition
 )
 ;
