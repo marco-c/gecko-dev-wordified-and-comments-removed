@@ -691,11 +691,6 @@ nsXMLNameSpaceMap
 .
 h
 '
-'
-XPathGenerator
-.
-h
-'
 ]
 if
 CONFIG
@@ -1825,11 +1820,6 @@ cpp
 '
 '
 WindowOrientationObserver
-.
-cpp
-'
-'
-XPathGenerator
 .
 cpp
 '
