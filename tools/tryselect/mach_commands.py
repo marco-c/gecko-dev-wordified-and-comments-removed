@@ -119,7 +119,7 @@ FuzzyParser
 (
 )
 def
-generic_parser
+base_parser
 (
 )
 :
@@ -131,9 +131,19 @@ cli
 import
 BaseTryParser
     
+return
+BaseTryParser
+(
+)
+def
+generic_parser
+(
+)
+:
+    
 parser
 =
-BaseTryParser
+base_parser
 (
 )
     
@@ -930,12 +940,19 @@ any
 tasks
 .
 '
+                
+parser
+=
+base_parser
 )
     
 def
 try_empty
 (
 self
+*
+*
+kwargs
 )
 :
         
@@ -1025,6 +1042,9 @@ run_empty_try
 return
 run_empty_try
 (
+*
+*
+kwargs
 )
     
 SubCommand
