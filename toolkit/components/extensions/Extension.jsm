@@ -6002,13 +6002,12 @@ active
 =
 false
 ;
+return
 this
 .
 cleanupGeneratedFile
 (
 )
-;
-return
 ;
 }
 GlobalManager

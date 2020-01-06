@@ -141,11 +141,6 @@ ExtensionContent
 jsm
 '
 '
-ExtensionManagement
-.
-jsm
-'
-'
 ExtensionPageChild
 .
 jsm
