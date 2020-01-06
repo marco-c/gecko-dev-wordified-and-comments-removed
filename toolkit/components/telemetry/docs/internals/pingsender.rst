@@ -322,9 +322,6 @@ on
 Firefox
 for
 Android
-at
-the
-moment
 (
 see
 bug

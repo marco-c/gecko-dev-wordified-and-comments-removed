@@ -45,16 +45,12 @@ E
 g
 .
 for
-Mac
 users
 that
-are
-used
-to
 always
 put
 their
-laptops
+computers
 into
 sleep
 -

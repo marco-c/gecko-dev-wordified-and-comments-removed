@@ -80,6 +80,9 @@ have
 to
 create
 suitable
+:
+doc
+:
 histograms
 for
 them

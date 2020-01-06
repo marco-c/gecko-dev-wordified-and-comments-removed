@@ -216,9 +216,9 @@ about
 telemetry
 .
 If
-the
 preferences
 allow
+the
 upload
 of
 Telemetry

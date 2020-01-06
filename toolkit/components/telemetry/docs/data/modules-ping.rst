@@ -14,6 +14,8 @@ ping
 =
 =
 =
+=
+=
 This
 ping
 is
@@ -36,7 +38,7 @@ client
 ID
 and
 environment
-is
+are
 submitted
 with
 this

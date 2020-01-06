@@ -53,10 +53,10 @@ separately
 )
 CSS
 property
-and
+or
 deprecated
 DOM
-operations
+operation
 .
 Custom
 use
