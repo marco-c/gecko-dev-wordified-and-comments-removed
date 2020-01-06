@@ -62,6 +62,9 @@ FormatStackString
 JSContext
 *
 cx
+JS
+:
+:
 HandleObject
 aStack
 )
@@ -401,6 +404,9 @@ cx
 (
 )
 ;
+JS
+:
+:
 RootedObject
 stack
 (
