@@ -123,6 +123,11 @@ loadedObjectProperties
 PropTypes
 .
 object
+loadedObjectEntries
+:
+PropTypes
+.
+object
 }
 ;
 function
@@ -138,6 +143,7 @@ message
 serviceContainer
 timestampsVisible
 loadedObjectProperties
+loadedObjectEntries
 }
 =
 props
@@ -252,6 +258,7 @@ escapeWhitespace
 :
 false
 loadedObjectProperties
+loadedObjectEntries
 type
 helperType
 }
