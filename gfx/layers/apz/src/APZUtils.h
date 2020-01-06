@@ -80,6 +80,9 @@ ScrollSnap
 ExcludeWheel
 =
 0x4
+TriggeredExternally
+=
+0x8
 }
 ;
 inline

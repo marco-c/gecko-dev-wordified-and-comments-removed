@@ -171,6 +171,16 @@ aScrollId
 override
 ;
 void
+CancelAutoscroll
+(
+const
+ScrollableLayerGuid
+&
+aGuid
+)
+override
+;
+void
 PostDelayedTask
 (
 already_AddRefed
