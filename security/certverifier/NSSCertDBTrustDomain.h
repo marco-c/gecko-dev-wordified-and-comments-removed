@@ -108,8 +108,8 @@ SECStatus
 InitializeNSS
 (
 const
-char
-*
+nsACString
+&
 dir
 bool
 readOnly
