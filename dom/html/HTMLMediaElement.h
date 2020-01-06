@@ -3803,7 +3803,7 @@ mSeekDOMPromise
 }
 ;
 bool
-HasDebuggerPrivilege
+HasDebuggerOrTabsPrivilege
 (
 JSContext
 *

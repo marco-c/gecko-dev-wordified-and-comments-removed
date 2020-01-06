@@ -573,7 +573,7 @@ HTMLMediaElement
 Func
 =
 "
-HasDebuggerPrivilege
+HasDebuggerOrTabsPrivilege
 "
 ]
 readonly
@@ -586,7 +586,7 @@ mozMediaSourceObject
 Func
 =
 "
-HasDebuggerPrivilege
+HasDebuggerOrTabsPrivilege
 "
 ]
 readonly
@@ -598,7 +598,7 @@ mozDebugReaderData
 Func
 =
 "
-HasDebuggerPrivilege
+HasDebuggerOrTabsPrivilege
 "
 NewObject
 ]
