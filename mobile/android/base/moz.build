@@ -6683,11 +6683,6 @@ TopSitesPanelsPreference
 java
 '
 '
-PresentationView
-.
-java
-'
-'
 PrintHelper
 .
 java
