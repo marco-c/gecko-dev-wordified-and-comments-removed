@@ -144,6 +144,14 @@ nsACString
 aRef
 )
 ;
+nsresult
+GetOrigin
+(
+nsACString
+&
+aOrigin
+)
+;
 private
 :
 explicit
