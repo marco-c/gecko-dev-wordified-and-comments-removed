@@ -14645,15 +14645,8 @@ requests
 .
 exceptions
 .
-ConnectionError
+HTTPError
 )
-:
-                        
-should_retry
-=
-True
-                    
-else
 :
                         
 status
@@ -14675,6 +14668,13 @@ status
 =
 =
 400
+                    
+else
+:
+                        
+should_retry
+=
+True
                     
 if
 should_retry
