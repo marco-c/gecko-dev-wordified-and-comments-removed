@@ -584,6 +584,9 @@ kind
 of
 [
 "
+page
+"
+"
 browser
 "
 ]
@@ -810,6 +813,7 @@ closeActionContextMenu
 popup
 .
 firstChild
+kind
 )
 ;
 const
