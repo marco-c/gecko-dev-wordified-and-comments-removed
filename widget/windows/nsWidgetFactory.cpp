@@ -365,7 +365,10 @@ nsIWidget
 widget
 =
 new
-ChildWindow
+nsWindow
+(
+true
+)
 ;
 return
 widget
