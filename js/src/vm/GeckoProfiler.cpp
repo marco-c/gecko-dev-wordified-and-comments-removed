@@ -2290,6 +2290,10 @@ if
 (
 !
 cx
+|
+|
+!
+cx
 -
 >
 isProfilerSamplingEnabled
