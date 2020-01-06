@@ -1087,7 +1087,6 @@ libs
 clean
 realclean
 distclean
-maybe_clobber_profiledbuild
 upload
 sdk
 installer
@@ -1707,17 +1706,11 @@ pgo_clobber
 MAKE
 )
 -
-f
+C
 (
-TOPSRCDIR
+OBJDIR
 )
-/
-client
-.
-mk
 maybe_clobber_profiledbuild
-CREATE_MOZCONFIG_JSON
-=
 (
 call
 BUILDSTATUS
