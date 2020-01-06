@@ -1952,6 +1952,12 @@ defined
 (
 __i386__
 )
+|
+|
+defined
+(
+__aarch64__
+)
 size_t
 anon_mapping_length
 =
@@ -2353,6 +2359,12 @@ elif
 defined
 (
 __i386__
+)
+|
+|
+defined
+(
+__aarch64__
 )
 :
 :
