@@ -169,6 +169,19 @@ will
 be
 created
     
+-
+optimized
+-
+-
+true
+if
+this
+task
+need
+not
+be
+performed
+    
 This
 class
 is
@@ -248,6 +261,12 @@ self
 task_id
 =
 None
+        
+self
+.
+optimized
+=
+False
         
 self
 .
