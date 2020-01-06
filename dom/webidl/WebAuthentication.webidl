@@ -201,7 +201,7 @@ Promise
 <
 boolean
 >
-isPlatformAuthenticatorAvailable
+isUserVerifyingPlatformAuthenticatorAvailable
 (
 )
 ;

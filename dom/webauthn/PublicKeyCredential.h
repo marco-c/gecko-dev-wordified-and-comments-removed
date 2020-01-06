@@ -174,7 +174,7 @@ already_AddRefed
 <
 Promise
 >
-IsPlatformAuthenticatorAvailable
+IsUserVerifyingPlatformAuthenticatorAvailable
 (
 GlobalObject
 &

@@ -305,7 +305,7 @@ Promise
 PublicKeyCredential
 :
 :
-IsPlatformAuthenticatorAvailable
+IsUserVerifyingPlatformAuthenticatorAvailable
 (
 GlobalObject
 &
@@ -378,14 +378,6 @@ return
 nullptr
 ;
 }
-promise
--
->
-MaybeResolve
-(
-true
-)
-;
 return
 promise
 .
