@@ -29323,12 +29323,6 @@ structs
 nsIAtom
 ;
 use
-gecko_string_cache
-:
-:
-Atom
-;
-use
 values
 :
 :
@@ -29382,12 +29376,6 @@ gecko_atom
 {
 CustomIdent
 (
-unsafe
-{
-Atom
-:
-:
-from_addrefed
 (
 *
 gecko_atom
@@ -29396,7 +29384,10 @@ as
 mut
 nsIAtom
 )
-}
+.
+into
+(
+)
 )
 }
 )
