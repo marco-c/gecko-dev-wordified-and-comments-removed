@@ -211,6 +211,10 @@ toolchains
 -
 linux64
 -
+gcc
+-
+linux64
+-
 sccache
 macosx64
 -
@@ -406,6 +410,10 @@ toolchains
 -
 linux64
 -
+gcc
+-
+linux64
+-
 sccache
 macosx64
 -
@@ -557,6 +565,10 @@ tar
 bz2
 toolchains
 :
+-
+linux64
+-
+gcc
 -
 linux64
 -

@@ -290,6 +290,10 @@ toolchains
 -
 linux64
 -
+gcc
+-
+linux64
+-
 sccache
 linux64
 -
@@ -409,6 +413,10 @@ HOME
 workspace
 toolchains
 :
+-
+linux64
+-
+gcc
 -
 linux64
 -
