@@ -2741,6 +2741,13 @@ json_escaping
 .
 cc
 '
+#
+namespace
+problem
+in
+json_escaping
+.
+h
 '
 src
 /
@@ -2756,6 +2763,13 @@ json_objectwriter
 .
 cc
 '
+#
+namespace
+problem
+in
+json_escaping
+.
+h
 '
 src
 /
