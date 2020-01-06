@@ -261,8 +261,10 @@ aType
 )
 ;
 static
+already_AddRefed
+<
 nsIAtom
-*
+>
 GetPseudoAtom
 (
 const

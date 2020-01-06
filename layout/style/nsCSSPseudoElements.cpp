@@ -534,8 +534,10 @@ aType
 mAtom
 ;
 }
+already_AddRefed
+<
 nsIAtom
-*
+>
 nsCSSPseudoElements
 :
 :
@@ -703,6 +705,10 @@ nullptr
 }
 return
 pseudo
+.
+forget
+(
+)
 ;
 }
 bool

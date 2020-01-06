@@ -13841,8 +13841,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+nsCOMPtr
+<
 nsIAtom
-*
+>
 pseudo
 =
 nsCSSPseudoElements
