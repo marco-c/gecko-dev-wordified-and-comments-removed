@@ -507,7 +507,7 @@ global
 )
 ;
 let
-win
+window
 =
 global
 .
@@ -518,7 +518,7 @@ as_window
 let
 url
 =
-win
+window
 .
 get_url
 (
@@ -527,7 +527,7 @@ get_url
 let
 quirks_mode
 =
-win
+window
 .
 Document
 (
@@ -568,6 +568,11 @@ context
 &
 mut
 parser
+window
+.
+css_error_reporter
+(
+)
 )
 ;
 }

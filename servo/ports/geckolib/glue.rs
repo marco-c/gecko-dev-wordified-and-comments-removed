@@ -15711,6 +15711,8 @@ context
 &
 mut
 parser
+&
+NullReporter
 )
 ;
 }

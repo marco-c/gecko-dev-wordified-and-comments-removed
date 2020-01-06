@@ -547,7 +547,7 @@ is_in_doc
 )
 ;
 let
-win
+window
 =
 window_from_node
 (
@@ -646,7 +646,7 @@ string
 let
 url
 =
-win
+window
 .
 get_url
 (
@@ -708,6 +708,15 @@ mq_str
 )
 ;
 let
+css_error_reporter
+=
+window
+.
+css_error_reporter
+(
+)
+;
+let
 mq
 =
 Arc
@@ -734,6 +743,7 @@ new
 mut
 input
 )
+css_error_reporter
 )
 )
 )
@@ -763,7 +773,7 @@ from_str
 (
 &
 data
-win
+window
 .
 get_url
 (
@@ -779,11 +789,7 @@ Some
 &
 loader
 )
-win
-.
 css_error_reporter
-(
-)
 doc
 .
 quirks_mode

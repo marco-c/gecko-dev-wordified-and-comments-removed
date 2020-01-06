@@ -857,6 +857,11 @@ self
 .
 context
 input
+self
+.
+error_context
+.
+error_reporter
 )
 ;
 let
@@ -2041,6 +2046,11 @@ self
 .
 context
 input
+self
+.
+error_context
+.
+error_reporter
 )
 ;
 let
