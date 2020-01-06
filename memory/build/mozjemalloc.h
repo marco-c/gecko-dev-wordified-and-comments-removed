@@ -233,9 +233,10 @@ DummyArenaAllocator
 {
 static
 arena_id_t
-moz_create_arena
+moz_create_arena_with_params
 (
-void
+arena_params_t
+*
 )
 {
 return
