@@ -216,6 +216,7 @@ assertTrue
 (
 past
 <
+=
 tab1
 .
 lastAccessed
