@@ -1785,8 +1785,6 @@ rect
 body
 )
     
-property
-    
 command
     
 def
