@@ -266,7 +266,7 @@ android
 layout_height
 =
 "
-match_parent
+wrap_content
 "
 android
 :
@@ -429,14 +429,14 @@ android
 layout_width
 =
 "
-24dp
+wrap_content
 "
 android
 :
 layout_height
 =
 "
-24dp
+wrap_content
 "
 android
 :
