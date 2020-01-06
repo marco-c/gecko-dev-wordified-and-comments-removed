@@ -1028,6 +1028,11 @@ D3D9SurfaceImage
 h
 '
 '
+DirectionUtils
+.
+h
+'
+'
 Effects
 .
 h
