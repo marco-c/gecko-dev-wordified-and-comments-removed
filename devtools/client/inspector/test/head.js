@@ -2833,7 +2833,7 @@ name
 '
 has
 been
-instanciated
+instantiated
 )
 ;
 let
