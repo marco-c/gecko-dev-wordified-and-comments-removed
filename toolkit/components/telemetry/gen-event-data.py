@@ -457,8 +457,6 @@ d
 %
 d
 %
-d
-%
 s
 %
 s
@@ -494,10 +492,6 @@ extras
 [
 1
 ]
-               
-e
-.
-expiry_day
                
 e
 .
