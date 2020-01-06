@@ -87,7 +87,9 @@ methodData
 .
 supportedMethods
 "
-MyPay
+basic
+-
+card
 "
 "
 supported
@@ -95,7 +97,9 @@ method
 should
 be
 '
-MyPay
+basic
+-
+card
 '
 .
 "
@@ -428,7 +432,9 @@ methodData
 .
 supportedMethods
 "
-MyPay
+basic
+-
+card
 "
 "
 methodData
@@ -438,7 +444,9 @@ name
 should
 be
 '
-MyPay
+basic
+-
+card
 '
 .
 "
