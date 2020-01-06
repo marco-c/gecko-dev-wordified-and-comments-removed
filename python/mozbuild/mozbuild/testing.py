@@ -2090,6 +2090,21 @@ python
 False
 )
     
+CRAMTEST
+=
+(
+'
+cram
+'
+'
+cram
+'
+'
+.
+'
+False
+)
+    
 MARIONETTE
 =
 (
