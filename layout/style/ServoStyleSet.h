@@ -1127,6 +1127,13 @@ StyleRuleMap
 bool
 MightHaveAttributeDependency
 (
+const
+dom
+:
+:
+Element
+&
+aElement
 nsIAtom
 *
 aAttribute
@@ -1135,6 +1142,13 @@ aAttribute
 bool
 HasStateDependency
 (
+const
+dom
+:
+:
+Element
+&
+aElement
 EventStates
 aState
 )

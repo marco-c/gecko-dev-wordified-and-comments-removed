@@ -5848,6 +5848,10 @@ ServoStyleSet
 :
 MightHaveAttributeDependency
 (
+const
+Element
+&
+aElement
 nsIAtom
 *
 aAttribute
@@ -5861,6 +5865,8 @@ mRawSet
 get
 (
 )
+&
+aElement
 aAttribute
 )
 ;
@@ -5871,6 +5877,10 @@ ServoStyleSet
 :
 HasStateDependency
 (
+const
+Element
+&
+aElement
 EventStates
 aState
 )
@@ -5883,6 +5893,8 @@ mRawSet
 get
 (
 )
+&
+aElement
 aState
 .
 ServoValue
