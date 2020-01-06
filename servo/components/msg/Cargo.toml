@@ -62,15 +62,6 @@ bitflags
 .
 7
 "
-cssparser
-=
-"
-0
-.
-13
-.
-3
-"
 heapsize
 =
 "
