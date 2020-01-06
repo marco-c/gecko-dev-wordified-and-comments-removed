@@ -46,6 +46,8 @@ ac_add_options
 disable
 -
 stylo
+unset
+LLVM_CONFIG
 #
 Use
 Clang
