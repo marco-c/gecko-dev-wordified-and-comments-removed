@@ -519,6 +519,10 @@ reftest
 -
 reftest
 -
+gpu
+-
+reftest
+-
 no
 -
 accel
@@ -584,6 +588,16 @@ svgr
 talos
 -
 tp5o
+-
+talos
+-
+xperf
+-
+talos
+-
+quantum
+-
+pageload
 macosx64
 -
 tests
