@@ -609,15 +609,6 @@ skiaContent
 needs
 -
 focus
-skip
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 focus

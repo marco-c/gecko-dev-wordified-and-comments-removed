@@ -54,12 +54,6 @@ rtl
 ref
 .
 html
-random
--
-if
-(
-styloVsGecko
-)
 =
 =
 bar
