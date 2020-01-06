@@ -209,7 +209,7 @@ ONBOARDING_MIN_WIDTH_PX
 const
 SPEECH_BUBBLE_MIN_WIDTH_PX
 =
-1150
+1130
 ;
 var
 onboardingTourset
