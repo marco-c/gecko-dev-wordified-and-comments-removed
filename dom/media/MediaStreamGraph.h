@@ -3047,6 +3047,16 @@ AUDIO_CALLBACK_DRIVER_SHUTDOWN_TIMEOUT
 static
 MediaStreamGraph
 *
+GetInstanceIfExists
+(
+nsPIDOMWindowInner
+*
+aWindow
+)
+;
+static
+MediaStreamGraph
+*
 GetInstance
 (
 GraphDriverType
