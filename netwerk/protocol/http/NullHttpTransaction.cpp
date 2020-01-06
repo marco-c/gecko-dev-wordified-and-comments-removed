@@ -429,6 +429,10 @@ mClaimed
 (
 false
 )
+mFastOpenStatus
+(
+TFO_NOT_TRIED
+)
 mCallbacks
 (
 callbacks
