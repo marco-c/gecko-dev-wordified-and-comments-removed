@@ -19306,6 +19306,10 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 (
 ServoElementMallocSizeOf
 )
+MOZ_DEFINE_MALLOC_ENCLOSING_SIZE_OF
+(
+ServoElementMallocEnclosingSizeOf
+)
 void
 Element
 :
@@ -19362,6 +19366,7 @@ aNodeSize
 Servo_Element_SizeOfExcludingThisAndCVs
 (
 ServoElementMallocSizeOf
+ServoElementMallocEnclosingSizeOf
 &
 aSizes
 .

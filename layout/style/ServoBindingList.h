@@ -13,6 +13,12 @@ mozilla
 :
 :
 MallocSizeOf
+malloc_size_of
+mozilla
+:
+:
+MallocSizeOf
+malloc_enclosing_size_of
 mozilla
 :
 :
@@ -162,6 +168,11 @@ mozilla
 :
 MallocSizeOf
 malloc_size_of
+mozilla
+:
+:
+MallocSizeOf
+malloc_enclosing_size_of
 RawServoStyleSheetContentsBorrowed
 sheet
 )
