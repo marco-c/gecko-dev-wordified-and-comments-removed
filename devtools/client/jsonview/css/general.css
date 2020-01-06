@@ -105,14 +105,6 @@ margin
 8px
 ;
 }
-#
-headers
-{
-display
-:
-none
-;
-}
 body
 .
 theme
@@ -168,5 +160,12 @@ body
 -
 background
 )
+;
+}
+table
+{
+font
+:
+inherit
 ;
 }
