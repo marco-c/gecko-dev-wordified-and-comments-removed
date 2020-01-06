@@ -24432,13 +24432,14 @@ borrow_data
 )
 {
 if
+!
 data
 .
 restyle
 .
 hint
 .
-has_non_animation_invalidations
+is_empty
 (
 )
 {
