@@ -1287,6 +1287,9 @@ subcommand
 description
 =
 None
+parser
+=
+None
 )
 :
         
@@ -1306,6 +1309,9 @@ subcommand
 description
 =
 description
+parser
+=
+parser
 )
     
 def

@@ -2312,6 +2312,10 @@ subcommand
         
 c_parser
 =
+subhandler
+.
+parser
+or
 argparse
 .
 ArgumentParser
@@ -2319,11 +2323,13 @@ ArgumentParser
 add_help
 =
 False
-            
+)
+        
+c_parser
+.
 formatter_class
 =
 CommandFormatter
-)
         
 group
 =
