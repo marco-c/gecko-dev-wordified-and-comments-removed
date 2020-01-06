@@ -228,6 +228,16 @@ immutable
 .
 js
 '
+'
+WasmDis
+.
+js
+'
+'
+WasmParser
+.
+js
+'
 ]
 DevToolsModules
 (
