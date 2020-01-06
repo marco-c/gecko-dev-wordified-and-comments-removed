@@ -353,6 +353,7 @@ GMPInstallManager
 prototype
 =
 {
+async
 _getURL
 (
 )
@@ -432,6 +433,7 @@ url
 }
 url
 =
+await
 UpdateUtils
 .
 formatUpdateURL
@@ -460,6 +462,7 @@ return
 url
 ;
 }
+async
 checkForAddons
 (
 )
@@ -516,15 +519,6 @@ _deferred
 PromiseUtils
 .
 defer
-(
-)
-;
-let
-url
-=
-this
-.
-_getURL
 (
 )
 ;
@@ -592,6 +586,16 @@ KEY_CERTS_BRANCH
 ;
 }
 }
+let
+url
+=
+await
+this
+.
+_getURL
+(
+)
+;
 let
 addonPromise
 =
