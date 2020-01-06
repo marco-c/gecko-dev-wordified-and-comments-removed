@@ -4464,6 +4464,7 @@ DESC
 )
 ;
 }
+Nullable
 public
 Cursor
 getHistoryForURL
