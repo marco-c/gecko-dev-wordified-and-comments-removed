@@ -149,6 +149,13 @@ webextension
 '
 webextension
 /
+assertIsBlankDocument
+.
+js
+'
+'
+webextension
+/
 assertIsTrusted
 .
 js

@@ -4520,6 +4520,8 @@ fn
 =
 watchFunction
 (
+assertIsTrusted
+(
 (
 function
 (
@@ -4624,6 +4626,7 @@ null
 eventName
 )
 )
+)
 ;
 primedDocumentHandlers
 .
@@ -4643,7 +4646,13 @@ set
 "
 keyup
 "
+watchFunction
+(
+assertIsTrusted
+(
 keyupHandler
+)
+)
 )
 ;
 window

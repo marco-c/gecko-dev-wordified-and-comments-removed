@@ -50,6 +50,11 @@ assertIsTrusted
 js
 "
 "
+assertIsBlankDocument
+.
+js
+"
+"
 background
 /
 selectorLoader
