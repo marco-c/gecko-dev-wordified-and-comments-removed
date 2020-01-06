@@ -1192,6 +1192,15 @@ item
 <
 !
 ENTITY
+bookmark_folder_updated
+"
+Folder
+updated
+"
+>
+<
+!
+ENTITY
 bookmark_parent_folder
 "
 Parent
