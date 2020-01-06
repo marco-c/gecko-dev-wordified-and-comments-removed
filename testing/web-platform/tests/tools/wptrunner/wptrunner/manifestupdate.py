@@ -778,6 +778,7 @@ def
 create
 (
 cls
+test_type
 test_id
 )
 :
@@ -852,6 +853,16 @@ node
         
 self
 .
+set
+(
+"
+type
+"
+test_type
+)
+        
+self
+.
 _from_file
 =
 False
@@ -868,7 +879,7 @@ self
 )
 :
         
-ignore_keys
+required_keys
 =
 set
 (
@@ -890,8 +901,9 @@ keys
 (
 )
 )
--
-ignore_keys
+!
+=
+required_keys
 :
             
 return
