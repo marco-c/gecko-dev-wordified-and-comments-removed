@@ -397,7 +397,7 @@ R
 .
 color
 .
-about_page_header_grey
+photon_browser_toolbar_bg
 )
 )
 ;
