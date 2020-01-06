@@ -226,11 +226,6 @@ ChromeManifestParser
 jsm
 '
 '
-DeferredSave
-.
-jsm
-'
-'
 LightweightThemeManager
 .
 jsm
