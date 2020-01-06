@@ -2178,11 +2178,6 @@ aError
 )
 override
 ;
-bool
-SendAssociatePluginId
-(
-)
-;
 void
 CachedSettingChanged
 (
@@ -2789,13 +2784,6 @@ mInitOnAsyncConnect
 ;
 nsresult
 mAsyncInitRv
-;
-dom
-:
-:
-ContentParent
-*
-mContentParent
 ;
 nsCOMPtr
 <
