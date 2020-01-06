@@ -2705,9 +2705,6 @@ friend
 class
 LaunchedTask
 ;
-nsresult
-mAsyncInitRv
-;
 nsCOMPtr
 <
 nsIObserver
