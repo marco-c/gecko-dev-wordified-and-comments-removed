@@ -2872,6 +2872,12 @@ width
 :
 menuPanelWidth
 ;
+max
+-
+width
+:
+30em
+;
 }
 photonpanelmultiview
 panelview
