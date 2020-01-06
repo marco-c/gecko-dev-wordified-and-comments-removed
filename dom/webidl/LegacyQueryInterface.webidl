@@ -252,6 +252,10 @@ FileList
 implements
 LegacyQueryInterface
 ;
+FrameLoader
+implements
+LegacyQueryInterface
+;
 FormData
 implements
 LegacyQueryInterface

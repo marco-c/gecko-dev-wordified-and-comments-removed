@@ -95,9 +95,6 @@ interface
 XULControllers
 ;
 interface
-MozFrameLoader
-;
-interface
 MozRDFCompositeDataSource
 ;
 interface
@@ -518,7 +515,7 @@ ChromeOnly
 ]
 readonly
 attribute
-MozFrameLoader
+FrameLoader
 ?
 frameLoader
 ;
