@@ -8865,7 +8865,7 @@ pageActionButton
 tooltip
 ;
 "
-onclick
+onmousedown
 =
 "
 BrowserPageActions
@@ -9174,7 +9174,7 @@ key
 "
 key_openDownloads
 "
-oncommand
+onmousedown
 =
 "
 DownloadsIndicatorView
@@ -9276,7 +9276,7 @@ removable
 "
 true
 "
-oncommand
+onmousedown
 =
 "
 PanelUI

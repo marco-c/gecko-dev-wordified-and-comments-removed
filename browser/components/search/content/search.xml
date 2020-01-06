@@ -4274,7 +4274,7 @@ handler
 event
 =
 "
-click
+mousedown
 "
 button
 =
