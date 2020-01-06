@@ -385,6 +385,8 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
+=
+0
 ;
 virtual
 double
