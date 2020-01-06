@@ -10367,11 +10367,7 @@ GetBool
 "
 media
 .
-windows
--
-media
--
-foundation
+wmf
 .
 use
 -
