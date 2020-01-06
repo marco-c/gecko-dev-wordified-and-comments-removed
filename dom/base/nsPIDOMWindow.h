@@ -694,6 +694,7 @@ nsPIDOMWindowOuter
 GetOuterWindow
 (
 )
+const
 {
 return
 mIsInnerWindow
@@ -704,8 +705,15 @@ get
 (
 )
 :
+const_cast
+<
+nsPIDOMWindowOuter
+*
+>
+(
 AsOuter
 (
+)
 )
 ;
 }
