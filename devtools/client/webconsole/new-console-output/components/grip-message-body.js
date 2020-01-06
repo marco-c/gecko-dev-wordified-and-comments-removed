@@ -402,9 +402,14 @@ roots
 {
 path
 :
+(
+grip
+&
+&
 grip
 .
 actor
+)
 |
 |
 JSON
@@ -522,6 +527,10 @@ string
 "
 |
 |
+(
+grip
+&
+&
 grip
 .
 type
@@ -531,6 +540,7 @@ type
 "
 longString
 "
+)
 )
 {
 Object

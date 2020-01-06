@@ -343,6 +343,16 @@ columns
 items
 )
 {
+const
+{
+dispatch
+serviceContainer
+}
+=
+this
+.
+props
+;
 return
 items
 .
@@ -396,6 +406,8 @@ SHORT
 useQuotes
 :
 false
+serviceContainer
+dispatch
 }
 )
 )
