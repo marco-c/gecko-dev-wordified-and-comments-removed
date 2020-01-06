@@ -2063,12 +2063,6 @@ exactHostMatch
 true
 }
 "
-indexedDB
-"
-:
-{
-}
-"
 focus
 -
 tab

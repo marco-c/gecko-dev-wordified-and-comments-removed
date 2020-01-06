@@ -101,9 +101,6 @@ geo
 image
 "
 "
-indexedDB
-"
-"
 install
 "
 "
@@ -774,9 +771,6 @@ popup
 "
 "
 install
-"
-"
-indexedDB
 "
 ]
 ;
