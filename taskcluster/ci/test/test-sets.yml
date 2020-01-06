@@ -220,6 +220,10 @@ tests
 -
 client
 -
+test
+-
+verify
+-
 xpcshell
 web
 -
@@ -1243,12 +1247,6 @@ tests
 mochitest
 -
 browser
--
-chrome
--
-mochitest
--
-devtools
 -
 chrome
 -
