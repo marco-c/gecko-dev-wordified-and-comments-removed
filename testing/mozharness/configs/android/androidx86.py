@@ -60,7 +60,7 @@ tooltool_cache
 :
 "
 /
-builds
+home
 /
 worker
 /
@@ -96,7 +96,7 @@ avds_dir
 :
 "
 /
-builds
+home
 /
 worker
 /

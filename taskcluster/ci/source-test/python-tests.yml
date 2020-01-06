@@ -387,7 +387,7 @@ command
 >
 source
 /
-builds
+home
 /
 worker
 /
@@ -407,7 +407,7 @@ start_xvfb
 &
 cd
 /
-builds
+home
 /
 worker
 /
@@ -722,7 +722,7 @@ command
 >
 cd
 /
-builds
+home
 /
 worker
 /

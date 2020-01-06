@@ -24,9 +24,9 @@ upd
 .
 1
 .
-7
+6
 .
-201706291036
+20160329195300
 MAINTAINER
 Nick
 Alexander
@@ -56,14 +56,14 @@ is
 updated
 VOLUME
 /
-builds
+home
 /
 worker
 /
 workspace
 VOLUME
 /
-builds
+home
 /
 worker
 /
@@ -93,7 +93,7 @@ variables
 ADD
 bin
 /
-builds
+home
 /
 worker
 /
@@ -103,7 +103,7 @@ chmod
 +
 x
 /
-builds
+home
 /
 worker
 /
@@ -149,7 +149,7 @@ xvfb
 .
 sh
 /
-builds
+home
 /
 worker
 /
@@ -166,7 +166,7 @@ dot
 -
 config
 /
-builds
+home
 /
 worker
 /
@@ -265,7 +265,7 @@ oauth
 .
 txt
 /
-builds
+home
 /
 worker
 /
@@ -315,7 +315,7 @@ buildprops
 .
 json
 /
-builds
+home
 /
 worker
 /
@@ -740,6 +740,10 @@ directly
 from
 github
 .
+RUN
+mkdir
+/
+build
 ADD
 https
 :
@@ -793,7 +797,7 @@ build
 .
 WORKDIR
 /
-builds
+home
 /
 worker
 #

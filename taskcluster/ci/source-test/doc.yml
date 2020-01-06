@@ -82,7 +82,7 @@ gz
 path
 :
 /
-builds
+home
 /
 worker
 /
@@ -107,7 +107,7 @@ command
 >
 cd
 /
-builds
+home
 /
 worker
 /

@@ -287,7 +287,7 @@ point
 :
 '
 /
-builds
+home
 /
 worker
 /
@@ -333,7 +333,7 @@ command
 [
 '
 /
-builds
+home
 /
 worker
 /
