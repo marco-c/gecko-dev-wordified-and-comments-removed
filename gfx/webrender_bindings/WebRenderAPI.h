@@ -955,10 +955,6 @@ const
 WrRect
 &
 aBounds
-const
-WrRect
-&
-aClip
 wr
 :
 :
