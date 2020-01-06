@@ -814,9 +814,8 @@ null
 name
 :
 "
-then
+catch
 (
-null
 null
 )
 "

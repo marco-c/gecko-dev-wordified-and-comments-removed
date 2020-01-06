@@ -1397,9 +1397,8 @@ undefined
 return
 promise
 .
-catch
+then
 (
-null
 )
 ;
 }
