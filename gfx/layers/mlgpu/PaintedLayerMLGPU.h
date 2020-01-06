@@ -230,13 +230,9 @@ SamplerMode
 LinearRepeat
 ;
 }
-void
-SetRenderRegion
+nsIntRegion
+GetRenderRegion
 (
-LayerIntRegion
-&
-&
-aRegion
 )
 ;
 MOZ_LAYER_DECL_NAME
