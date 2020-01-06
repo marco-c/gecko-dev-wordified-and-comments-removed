@@ -7951,6 +7951,10 @@ mDefaultDBState
 =
 nullptr
 ;
+mInitializedDBConn
+=
+false
+;
 mInitializedDBStates
 =
 false
@@ -8076,10 +8080,6 @@ mDefaultDBState
 closeListener
 =
 nullptr
-;
-mInitializedDBConn
-=
-false
 ;
 }
 void
@@ -8831,7 +8831,7 @@ nullptr
 gCookieService
 -
 >
-InitDBConn
+InitDBConnInternal
 (
 )
 ;
