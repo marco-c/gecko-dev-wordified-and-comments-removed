@@ -465,6 +465,13 @@ h
 #
 include
 "
+nsRFPService
+.
+h
+"
+#
+include
+"
 OscillatorNode
 .
 h
@@ -2853,6 +2860,11 @@ Stream
 )
 ;
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsSecs
+(
 stream
 -
 >
@@ -2863,6 +2875,7 @@ stream
 >
 GetCurrentTime
 (
+)
 )
 )
 ;

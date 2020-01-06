@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsRFPService
+.
+h
+"
+#
+include
+"
 nsStringStream
 .
 h
@@ -1372,6 +1379,11 @@ mIsFile
 {
 mLastModificationDate
 =
+nsRFPService
+:
+:
+ReduceTimePrecisionAsUSecs
+(
 lastModifiedSet
 ?
 lastModified
@@ -1380,6 +1392,7 @@ PR_USEC_PER_MSEC
 :
 JS_Now
 (
+)
 )
 ;
 }

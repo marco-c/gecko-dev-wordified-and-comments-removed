@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsRFPService
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -2465,6 +2472,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsSecs
+(
 mPlaybackStream
 -
 >
@@ -2478,6 +2490,7 @@ GetCurrentTime
 )
 -
 mLogicalStreamStartTime
+)
 )
 ;
 }
