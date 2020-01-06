@@ -438,6 +438,14 @@ moz
 -
 window
 -
+opacity
+"
+"
+-
+moz
+-
+window
+-
 shadow
 "
 }

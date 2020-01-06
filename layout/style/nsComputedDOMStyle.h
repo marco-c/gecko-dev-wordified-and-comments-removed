@@ -2913,6 +2913,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetWindowOpacity
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetColumnCount
 (
 )

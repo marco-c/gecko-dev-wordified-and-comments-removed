@@ -9229,6 +9229,13 @@ IsScrolledOutOfView
 (
 )
 ;
+virtual
+void
+UpdateWidgetProperties
+(
+)
+{
+}
 bool
 HasImageRequest
 (
