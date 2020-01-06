@@ -594,6 +594,12 @@ updateEditUIVisibility
 (
 )
 ;
+gURLBar
+.
+blur
+(
+)
+;
 let
 overridePromise
 =
