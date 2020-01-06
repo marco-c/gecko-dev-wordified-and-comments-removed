@@ -2605,6 +2605,14 @@ itemBounds
 if
 (
 useBlobImage
+|
+|
+aItem
+-
+>
+MustPaintOnContentSide
+(
+)
 )
 {
 paintBounds
