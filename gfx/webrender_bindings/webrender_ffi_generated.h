@@ -3789,6 +3789,9 @@ const
 FontInstancePlatformOptions
 *
 aPlatformOptions
+WrVecU8
+*
+aVariations
 )
 WR_FUNC
 ;

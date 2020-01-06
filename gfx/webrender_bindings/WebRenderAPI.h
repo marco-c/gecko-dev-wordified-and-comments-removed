@@ -406,6 +406,12 @@ wr
 FontInstancePlatformOptions
 *
 aPlatformOptions
+wr
+:
+:
+Vec_u8
+&
+aVariations
 )
 ;
 void

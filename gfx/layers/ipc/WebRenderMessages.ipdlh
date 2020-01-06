@@ -644,6 +644,9 @@ options
 MaybeFontInstancePlatformOptions
 platformOptions
 ;
+OffsetRange
+variations
+;
 FontInstanceKey
 instanceKey
 ;
