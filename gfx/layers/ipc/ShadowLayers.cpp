@@ -4070,6 +4070,14 @@ mIsFirstPaint
 ;
 info
 .
+focusTarget
+(
+)
+=
+mFocusTarget
+;
+info
+.
 scheduleComposite
 (
 )
@@ -4369,6 +4377,12 @@ true
 mIsFirstPaint
 =
 false
+;
+mFocusTarget
+=
+FocusTarget
+(
+)
 ;
 MOZ_LAYERS_LOG
 (

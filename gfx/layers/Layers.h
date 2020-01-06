@@ -491,6 +491,9 @@ class
 HostLayer
 ;
 class
+FocusTarget
+;
+class
 KnowsCompositor
 ;
 class
@@ -1525,6 +1528,17 @@ virtual
 void
 SetIsFirstPaint
 (
+)
+{
+}
+virtual
+void
+SetFocusTarget
+(
+const
+FocusTarget
+&
+aFocusTarget
 )
 {
 }
