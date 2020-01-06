@@ -756,11 +756,7 @@ override
 mFrame
 -
 >
-Properties
-(
-)
-.
-Delete
+DeleteProperty
 (
 nsIFrame
 :

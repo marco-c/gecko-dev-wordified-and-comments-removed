@@ -559,11 +559,7 @@ nsSVGPaintingProperty
 *
 property
 =
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 nsSVGEffects
 :
@@ -899,11 +895,7 @@ nsGkAtoms
 href
 )
 {
-Properties
-(
-)
-.
-Delete
+DeleteProperty
 (
 nsSVGEffects
 :

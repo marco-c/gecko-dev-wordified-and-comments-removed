@@ -245,7 +245,7 @@ CaretAssociationHint
 h
 '
 '
-FramePropertyTable
+FrameProperties
 .
 h
 '
@@ -492,7 +492,7 @@ AccessibleCaretManager
 cpp
 '
 '
-FramePropertyTable
+FrameProperties
 .
 cpp
 '

@@ -12433,13 +12433,6 @@ aMallocSizeOf
 const
 {
 return
-mPropertyTable
-.
-SizeOfExcludingThis
-(
-aMallocSizeOf
-)
-+
 mLangGroupFontPrefs
 .
 SizeOfExcludingThis

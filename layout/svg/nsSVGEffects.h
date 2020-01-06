@@ -16,7 +16,7 @@ h
 #
 include
 "
-FramePropertyTable
+FrameProperties
 .
 h
 "

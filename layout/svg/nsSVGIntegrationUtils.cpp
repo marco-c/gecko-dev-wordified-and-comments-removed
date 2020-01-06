@@ -324,11 +324,7 @@ r
 aFrame
 -
 >
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 nsIFrame
 :
@@ -373,11 +369,7 @@ preTransformOverflows
 aFrame
 -
 >
-Properties
-(
-)
-.
-Get
+GetProperty
 (
 aFrame
 -
