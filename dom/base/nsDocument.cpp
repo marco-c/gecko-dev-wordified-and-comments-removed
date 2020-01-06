@@ -22446,6 +22446,10 @@ mIsGoingAway
 &
 &
 !
+mInUnlinkOrDeletion
+&
+&
+!
 mIgnoreDocGroupMismatches
 )
 {
