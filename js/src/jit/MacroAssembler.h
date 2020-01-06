@@ -7632,6 +7632,8 @@ DEFINED_ON
 x86
 x64
 arm
+mips32
+mips64
 )
 ;
 void
@@ -7649,6 +7651,7 @@ DEFINED_ON
 (
 x86_shared
 arm
+mips_shared
 )
 ;
 void
@@ -7688,6 +7691,8 @@ DEFINED_ON
 x86
 x64
 arm
+mips32
+mips64
 )
 ;
 void
@@ -7705,6 +7710,7 @@ DEFINED_ON
 (
 x86_shared
 arm
+mips_shared
 )
 ;
 void
