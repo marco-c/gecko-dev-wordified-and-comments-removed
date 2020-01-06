@@ -1287,6 +1287,10 @@ WM_CLOSE
 0
 )
 ;
+hwnd_
+=
+NULL
+;
 PlatformThread
 :
 :
