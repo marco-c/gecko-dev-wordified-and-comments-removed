@@ -215,8 +215,9 @@ VRFieldOfView
 VRFieldOfView
 (
 )
-{
-}
+=
+default
+;
 VRFieldOfView
 (
 double
@@ -1688,8 +1689,9 @@ virtual
 VRSystemManager
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 mControllerCount
 ;

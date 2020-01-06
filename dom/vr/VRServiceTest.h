@@ -433,6 +433,8 @@ aWindow
 VRServiceTest
 (
 )
+=
+default
 ;
 nsCOMPtr
 <

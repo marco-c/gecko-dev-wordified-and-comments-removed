@@ -115,6 +115,8 @@ virtual
 VRDisplayEvent
 (
 )
+=
+default
 ;
 explicit
 VRDisplayEvent

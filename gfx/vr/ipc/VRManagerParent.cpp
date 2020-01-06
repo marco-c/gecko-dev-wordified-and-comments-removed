@@ -1972,12 +1972,9 @@ aGamepadEvent
 )
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 bool
 VRManagerParent
@@ -2016,12 +2013,9 @@ aPromiseID
 )
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 }
 }

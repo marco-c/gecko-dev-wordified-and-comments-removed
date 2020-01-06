@@ -2006,15 +2006,6 @@ SendCreateVRTestSystem
 )
 ;
 }
-VRServiceTest
-:
-:
-~
-VRServiceTest
-(
-)
-{
-}
 void
 VRServiceTest
 :
