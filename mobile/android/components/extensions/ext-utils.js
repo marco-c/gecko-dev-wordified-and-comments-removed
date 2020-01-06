@@ -1471,6 +1471,8 @@ window
 }
 class
 TabContext
+extends
+EventEmitter
 {
 constructor
 (
@@ -1478,6 +1480,10 @@ getDefaults
 extension
 )
 {
+super
+(
+)
+;
 this
 .
 extension
@@ -1497,13 +1503,6 @@ tabData
 new
 Map
 (
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 GlobalEventDispatcher
