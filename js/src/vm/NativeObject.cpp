@@ -6579,7 +6579,12 @@ flags
 (
 )
 &
+(
 OBJECT_FLAG_DYNAMIC_MASK
+&
+~
+OBJECT_FLAG_UNKNOWN_PROPERTIES
+)
 )
 ;
 static
