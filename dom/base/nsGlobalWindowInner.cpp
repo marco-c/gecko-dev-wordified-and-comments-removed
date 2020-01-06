@@ -6232,6 +6232,9 @@ EventTarget
 >
 eventTarget
 =
+nsContentUtils
+:
+:
 TryGetTabChildGlobalAsEventTarget
 (
 frameElement
@@ -6272,6 +6275,9 @@ GetFrameElementInternal
 ;
 eventTarget
 =
+nsContentUtils
+:
+:
 TryGetTabChildGlobalAsEventTarget
 (
 frameElement
@@ -6287,6 +6293,9 @@ eventTarget
 {
 eventTarget
 =
+nsContentUtils
+:
+:
 TryGetTabChildGlobalAsEventTarget
 (
 mChromeEventHandler
