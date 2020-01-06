@@ -4531,11 +4531,6 @@ accessory
 -
 button
 "
-flex
-=
-"
-1
-"
 hidden
 =
 "
@@ -4655,11 +4650,6 @@ class
 accessory
 -
 button
-"
-flex
-=
-"
-1
 "
 label
 =
