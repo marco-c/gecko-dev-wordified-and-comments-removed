@@ -293,6 +293,11 @@ return
 nullptr
 ;
 }
+NS_ADDREF
+(
+gJarHandler
+)
+;
 return
 jar
 .
