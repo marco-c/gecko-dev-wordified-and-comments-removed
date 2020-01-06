@@ -92,6 +92,15 @@ h
 #
 include
 "
+mozilla
+/
+EndianUtils
+.
+h
+"
+#
+include
+"
 include
 /
 ESDS
@@ -1129,6 +1138,9 @@ length
 uint16_t
 preskip
 =
+mozilla
+:
+:
 LittleEndian
 :
 :
@@ -1144,6 +1156,9 @@ data
 10
 )
 ;
+mozilla
+:
+:
 OpusDataDecoder
 :
 :
