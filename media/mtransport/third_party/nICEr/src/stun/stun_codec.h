@@ -187,6 +187,15 @@ extern
 nr_stun_attr_codec
 nr_stun_attr_codec_old_xor_mapped_address
 ;
+size_t
+nr_count_utf8_code_points_without_validation
+(
+const
+char
+*
+s
+)
+;
 int
 nr_stun_encode_message
 (
