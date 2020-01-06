@@ -617,7 +617,7 @@ defineLazyModuleGetter
 (
 this
 "
-TelemetryHealthPing
+UpdatePing
 "
 "
 resource
@@ -628,7 +628,7 @@ gre
 /
 modules
 /
-TelemetryHealthPing
+UpdatePing
 .
 jsm
 "
@@ -2724,6 +2724,12 @@ getCachedClientID
 (
 )
 ;
+UpdatePing
+.
+earlyInit
+(
+)
+;
 this
 .
 _delayedInitTaskDeferred
@@ -3032,6 +3038,12 @@ finalize
 )
 ;
 }
+UpdatePing
+.
+shutdown
+(
+)
+;
 TelemetryReportingPolicy
 .
 shutdown
@@ -3046,13 +3058,6 @@ shutdown
 ;
 await
 TelemetrySend
-.
-shutdown
-(
-)
-;
-await
-TelemetryHealthPing
 .
 shutdown
 (

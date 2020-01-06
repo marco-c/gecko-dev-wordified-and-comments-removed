@@ -371,11 +371,6 @@ TelemetryHistogram
 cpp
 '
 '
-TelemetryIOInterposeObserver
-.
-cpp
-'
-'
 TelemetryScalar
 .
 cpp
@@ -459,11 +454,6 @@ TelemetryEnvironment
 jsm
 '
 '
-TelemetryHealthPing
-.
-jsm
-'
-'
 TelemetryLog
 .
 jsm
@@ -515,6 +505,11 @@ jsm
 '
 '
 UITelemetry
+.
+jsm
+'
+'
+UpdatePing
 .
 jsm
 '

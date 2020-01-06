@@ -12328,11 +12328,11 @@ toolkit
 .
 telemetry
 .
-shutdownPingSender
+newProfilePing
 .
-enabledFirstSession
+enabled
 "
-false
+true
 )
 ;
 pref
@@ -12342,7 +12342,7 @@ toolkit
 .
 telemetry
 .
-newProfilePing
+updatePing
 .
 enabled
 "
