@@ -26,6 +26,13 @@ namespace
 mozilla
 {
 namespace
+wr
+{
+struct
+ByteBuffer
+;
+}
+namespace
 ipc
 {
 class
@@ -118,7 +125,10 @@ void
 BufferReceived
 (
 const
-nsCString
+wr
+:
+:
+ByteBuffer
 &
 aBuffer
 )
