@@ -1720,6 +1720,11 @@ SurfaceTextureHost
 }
 protected
 :
+bool
+EnsureAttached
+(
+)
+;
 mozilla
 :
 :
