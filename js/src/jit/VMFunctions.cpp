@@ -7151,11 +7151,12 @@ JSString
 stringp
 )
 {
-if
+MOZ_ASSERT
 (
 *
 stringp
 )
+;
 TraceManuallyBarrieredEdge
 (
 &
@@ -7185,11 +7186,12 @@ JSObject
 objp
 )
 {
-if
+MOZ_ASSERT
 (
 *
 objp
 )
+;
 TraceManuallyBarrieredEdge
 (
 &
