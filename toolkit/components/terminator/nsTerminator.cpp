@@ -544,6 +544,10 @@ arg
 ;
 nsCString
 destinationPath
+;
+destinationPath
+.
+Adopt
 (
 static_cast
 <
@@ -973,7 +977,7 @@ if
 !
 defined
 (
-DEBUG
+NS_FREE_PERMANENT_DATA
 )
 StartWriter
 (
@@ -1299,7 +1303,7 @@ if
 !
 defined
 (
-DEBUG
+NS_FREE_PERMANENT_DATA
 )
 UpdateTelemetry
 (
