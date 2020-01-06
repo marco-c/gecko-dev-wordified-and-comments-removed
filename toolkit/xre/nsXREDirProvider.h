@@ -180,6 +180,11 @@ aProfileLocalDir
 )
 ;
 void
+InitializeUserPrefs
+(
+)
+;
+void
 DoShutdown
 (
 )
@@ -503,6 +508,11 @@ mProfileLocalDir
 ;
 bool
 mProfileNotified
+;
+bool
+mPrefsInitialized
+=
+false
 ;
 #
 if
