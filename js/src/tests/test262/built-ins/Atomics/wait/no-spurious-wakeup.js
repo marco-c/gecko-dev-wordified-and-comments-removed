@@ -61,6 +61,10 @@ be
 about
 1000
 ms
+but
+can
+be
+more
 262
 .
 agent
@@ -147,10 +151,6 @@ assert
 .
 sameValue
 (
-Math
-.
-abs
-(
 (
 getReport
 (
@@ -158,10 +158,10 @@ getReport
 |
 0
 )
--
+>
+=
 1000
-)
-<
+-
 ATOMICS_MAX_TIME_EPSILON
 true
 )
