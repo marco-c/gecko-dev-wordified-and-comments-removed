@@ -177,10 +177,6 @@ class
 nsUXThemeData
 {
 static
-HMODULE
-sThemeDLL
-;
-static
 HANDLE
 sThemes
 [
@@ -229,13 +225,6 @@ EnsureCommandButtonBoxMetrics
 ;
 public
 :
-static
-const
-wchar_t
-kThemeLibraryName
-[
-]
-;
 static
 bool
 sFlatMenus
