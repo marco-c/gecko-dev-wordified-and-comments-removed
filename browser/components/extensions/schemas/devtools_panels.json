@@ -166,10 +166,12 @@ name
 onSelectionChanged
 "
 "
-unsupported
+type
 "
 :
-true
+"
+function
+"
 "
 description
 "
