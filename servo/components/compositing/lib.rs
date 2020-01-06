@@ -26,6 +26,10 @@ extern
 crate
 ipc_channel
 ;
+extern
+crate
+libc
+;
 #
 [
 macro_use

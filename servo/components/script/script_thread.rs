@@ -6171,7 +6171,8 @@ SendEvent
 _
 MouseMoveEvent
 (
-_
+.
+.
 )
 )
 )
@@ -13960,6 +13961,7 @@ MouseButtonEvent
 event_type
 button
 point
+node_address
 )
 =
 >
@@ -13972,12 +13974,14 @@ pipeline_id
 event_type
 button
 point
+node_address
 )
 ;
 }
 MouseMoveEvent
 (
 point
+node_address
 )
 =
 >
@@ -14056,6 +14060,7 @@ point
 self
 .
 topmost_mouse_over_target
+node_address
 )
 ;
 if
@@ -14335,6 +14340,7 @@ TouchEvent
 event_type
 identifier
 point
+node_address
 )
 =
 >
@@ -14350,6 +14356,7 @@ pipeline_id
 event_type
 identifier
 point
+node_address
 )
 ;
 match
@@ -14430,9 +14437,10 @@ _
 }
 TouchpadPressureEvent
 (
-point
+_point
 pressure
 phase
+node_address
 )
 =
 >
@@ -14495,9 +14503,9 @@ js_runtime
 rt
 (
 )
-point
 pressure
 phase
+node_address
 )
 ;
 }
@@ -14591,6 +14599,12 @@ Point2D
 <
 f32
 >
+node_address
+:
+Option
+<
+UntrustedNodeAddress
+>
 )
 {
 let
@@ -14654,6 +14668,7 @@ rt
 button
 point
 mouse_event_type
+node_address
 )
 ;
 }
@@ -14676,6 +14691,12 @@ point
 Point2D
 <
 f32
+>
+node_address
+:
+Option
+<
+UntrustedNodeAddress
 >
 )
 -
@@ -14754,6 +14775,7 @@ rt
 event_type
 identifier
 point
+node_address
 )
 }
 fn
