@@ -1779,13 +1779,6 @@ checked
 ;
 this
 .
-title
-=
-"
-"
-;
-this
-.
 _box
 .
 hidden
