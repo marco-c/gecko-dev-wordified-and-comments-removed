@@ -937,6 +937,11 @@ nsFocusManager
 nsFocusManager
 (
 )
+:
+mEventHandlingNeedsFlush
+(
+false
+)
 {
 }
 nsFocusManager
@@ -7446,6 +7451,10 @@ return
 nullptr
 ;
 }
+mEventHandlingNeedsFlush
+=
+false
+;
 doc
 -
 >
