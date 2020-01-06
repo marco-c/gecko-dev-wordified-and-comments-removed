@@ -1156,7 +1156,6 @@ i
 -
 )
 {
-volatile
 ProfileEntry
 &
 entry
@@ -1232,7 +1231,6 @@ dynamicString
 ;
 }
 }
-volatile
 ProfileEntry
 &
 entry
@@ -1558,7 +1556,6 @@ JSTracer
 *
 trc
 )
-volatile
 {
 if
 (
@@ -1826,7 +1823,6 @@ JSTracer
 *
 trc
 )
-volatile
 {
 if
 (
@@ -2231,7 +2227,6 @@ sp
 )
 return
 ;
-volatile
 ProfileEntry
 &
 entry
@@ -2325,7 +2320,6 @@ sp
 )
 return
 ;
-volatile
 ProfileEntry
 &
 entry
@@ -2386,7 +2380,6 @@ script
 (
 )
 const
-volatile
 {
 MOZ_ASSERT
 (
@@ -2469,7 +2462,6 @@ pc
 (
 )
 const
-volatile
 {
 MOZ_ASSERT
 (
@@ -2551,7 +2543,6 @@ jsbytecode
 *
 pc
 )
-volatile
 {
 MOZ_ASSERT
 (

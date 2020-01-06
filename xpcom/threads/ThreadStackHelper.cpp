@@ -1636,7 +1636,6 @@ ThreadStackHelper
 AppendJSEntry
 (
 const
-volatile
 js
 :
 :
@@ -2054,7 +2053,6 @@ reservedBufferSize
 )
 ;
 const
-volatile
 js
 :
 :
@@ -2068,7 +2066,6 @@ mPseudoStack
 entries
 ;
 const
-volatile
 js
 :
 :

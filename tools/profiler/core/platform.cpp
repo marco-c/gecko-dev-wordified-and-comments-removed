@@ -2768,7 +2768,6 @@ aLock
 ProfileBuffer
 *
 aBuffer
-volatile
 js
 :
 :
@@ -3275,7 +3274,6 @@ aSample
 .
 mRacyInfo
 ;
-volatile
 js
 :
 :
@@ -3631,7 +3629,6 @@ pseudoIndex
 pseudoCount
 )
 {
-volatile
 js
 :
 :
@@ -3848,7 +3845,6 @@ pseudoIndex
 pseudoCount
 )
 ;
-volatile
 js
 :
 :
@@ -4492,7 +4488,6 @@ i
 i
 )
 {
-volatile
 js
 :
 :
@@ -12526,7 +12521,6 @@ FeaturePrivacy
 lock
 )
 ;
-volatile
 js
 :
 :

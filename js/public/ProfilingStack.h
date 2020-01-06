@@ -66,26 +66,21 @@ ProfileEntry
 const
 char
 *
-volatile
 label_
 ;
 const
 char
 *
-volatile
 dynamicString_
 ;
 void
 *
-volatile
 spOrScript
 ;
 int32_t
-volatile
 lineOrPcOffset
 ;
 uint32_t
-volatile
 kindAndCategory_
 ;
 static
@@ -238,7 +233,6 @@ isCpp
 (
 )
 const
-volatile
 {
 Kind
 k
@@ -271,7 +265,6 @@ isJs
 (
 )
 const
-volatile
 {
 Kind
 k
@@ -307,7 +300,6 @@ char
 *
 aLabel
 )
-volatile
 {
 label_
 =
@@ -321,7 +313,6 @@ label
 (
 )
 const
-volatile
 {
 return
 label_
@@ -334,7 +325,6 @@ dynamicString
 (
 )
 const
-volatile
 {
 return
 dynamicString_
@@ -361,7 +351,6 @@ aKind
 Category
 aCategory
 )
-volatile
 {
 label_
 =
@@ -423,7 +412,6 @@ jsbytecode
 *
 aPc
 )
-volatile
 {
 label_
 =
@@ -477,7 +465,6 @@ setKind
 Kind
 aKind
 )
-volatile
 {
 kindAndCategory_
 =
@@ -499,7 +486,6 @@ kind
 (
 )
 const
-volatile
 {
 return
 Kind
@@ -521,7 +507,6 @@ category
 (
 )
 const
-volatile
 {
 return
 Category
@@ -544,7 +529,6 @@ stackAddress
 (
 )
 const
-volatile
 {
 MOZ_ASSERT
 (
@@ -567,14 +551,12 @@ script
 (
 )
 const
-volatile
 ;
 uint32_t
 line
 (
 )
 const
-volatile
 {
 MOZ_ASSERT
 (
@@ -600,7 +582,6 @@ rawScript
 (
 )
 const
-volatile
 {
 MOZ_ASSERT
 (
@@ -626,7 +607,6 @@ pc
 (
 )
 const
-volatile
 ;
 void
 setPC
@@ -635,7 +615,6 @@ jsbytecode
 *
 pc
 )
-volatile
 ;
 void
 trace
@@ -644,7 +623,6 @@ JSTracer
 *
 trc
 )
-volatile
 ;
 static
 const
@@ -916,7 +894,6 @@ js
 :
 :
 ProfileEntry
-volatile
 entries
 [
 MaxEntries
@@ -928,6 +905,10 @@ mozilla
 Atomic
 <
 uint32_t
+mozilla
+:
+:
+SequentiallyConsistent
 >
 stackPointer
 ;
