@@ -2065,7 +2065,7 @@ self
 handle_android_target
 (
 "
-arm
+armv7
 -
 linux
 -
