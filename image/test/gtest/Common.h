@@ -1132,6 +1132,13 @@ FirstFramePaddingGIFTestCase
 )
 ;
 ImageTestCase
+TransparentIfWithinICOBMPTestCase
+(
+TestCaseFlags
+aFlags
+)
+;
+ImageTestCase
 NoFrameDelayGIFTestCase
 (
 )

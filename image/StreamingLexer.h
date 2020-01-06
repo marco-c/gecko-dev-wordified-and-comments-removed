@@ -68,6 +68,13 @@ Vector
 .
 h
 "
+#
+include
+"
+SourceBuffer
+.
+h
+"
 namespace
 mozilla
 {

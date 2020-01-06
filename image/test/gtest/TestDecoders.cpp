@@ -47,6 +47,13 @@ h
 #
 include
 "
+ImageOps
+.
+h
+"
+#
+include
+"
 imgIContainer
 .
 h
