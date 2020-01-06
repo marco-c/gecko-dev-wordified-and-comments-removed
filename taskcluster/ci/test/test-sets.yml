@@ -417,6 +417,10 @@ mochitest
 -
 mochitest
 -
+a11y
+-
+mochitest
+-
 browser
 -
 screenshots
