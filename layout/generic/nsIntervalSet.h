@@ -23,6 +23,7 @@ typedef
 nscoord
 coord_type
 ;
+explicit
 nsIntervalSet
 (
 nsIPresShell
