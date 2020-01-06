@@ -531,7 +531,7 @@ nsISupports
 {
 readonly
 attribute
-string
+AUTF8String
 className
 ;
 [
