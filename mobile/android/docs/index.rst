@@ -82,7 +82,6 @@ downloadcontenttelemetry
 adjust
 mma
 defaultdomains
-bouncer
 shutdown
 push
 Indices
