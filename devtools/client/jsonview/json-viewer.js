@@ -431,9 +431,9 @@ JSONViewInitialized
 }
 )
 ;
-window
+JSONView
 .
-jsonViewInitialized
+initialized
 =
 true
 ;
