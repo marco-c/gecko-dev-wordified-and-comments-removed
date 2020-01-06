@@ -2751,7 +2751,6 @@ name
 )
 i
 JSPROP_ENUMERATE
-0
 )
 )
 ;

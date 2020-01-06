@@ -2975,7 +2975,6 @@ nbase
 id
 SHAPE_INVALID_SLOT
 attrs
-0
 )
 )
 ;
@@ -3351,7 +3350,6 @@ nbase
 id
 slot
 attrs
-0
 )
 )
 ;
@@ -3721,7 +3719,6 @@ nbase
 id
 slot
 JSPROP_ENUMERATE
-0
 )
 )
 ;
@@ -3915,7 +3912,6 @@ nbase
 id
 slot
 JSPROP_ENUMERATE
-0
 )
 )
 ;
@@ -4267,7 +4263,6 @@ nbase
 id
 i
 JSPROP_ENUMERATE
-0
 )
 )
 ;
@@ -4983,7 +4978,6 @@ nbase
 id
 slot
 attrs
-0
 )
 )
 ;
@@ -5575,7 +5569,6 @@ nbase
 id
 SHAPE_INVALID_SLOT
 attrs
-0
 )
 )
 ;
@@ -9888,10 +9881,6 @@ key
 -
 >
 attrs
-key
--
->
-flags
 )
 ;
 lookup
