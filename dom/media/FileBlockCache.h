@@ -116,6 +116,13 @@ Init
 )
 override
 ;
+int32_t
+GetMaxBlocks
+(
+)
+const
+override
+;
 nsresult
 WriteBlock
 (

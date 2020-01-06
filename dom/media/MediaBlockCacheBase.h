@@ -95,6 +95,15 @@ Init
 0
 ;
 virtual
+int32_t
+GetMaxBlocks
+(
+)
+const
+=
+0
+;
+virtual
 nsresult
 WriteBlock
 (
