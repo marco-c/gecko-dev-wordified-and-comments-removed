@@ -1983,6 +1983,7 @@ port2
 loadChromeScript
 (
 urlOrFunction
+sandboxOptions
 )
 {
 let
@@ -2028,6 +2029,7 @@ scriptArgs
 =
 {
 id
+sandboxOptions
 }
 ;
 if
