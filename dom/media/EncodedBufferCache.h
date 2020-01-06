@@ -115,6 +115,16 @@ nsAString
 aContentType
 )
 ;
+size_t
+SizeOfExcludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+;
 private
 :
 nsTArray

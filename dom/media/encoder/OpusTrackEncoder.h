@@ -80,8 +80,11 @@ AudioTrackEncoder
 {
 public
 :
+explicit
 OpusTrackEncoder
 (
+TrackRate
+aTrackRate
 )
 ;
 virtual
