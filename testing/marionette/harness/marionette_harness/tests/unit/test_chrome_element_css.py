@@ -135,11 +135,10 @@ self
 assertIn
 (
 "
-identity
--
-icon
-.
-svg
+chrome
+:
+/
+/
 "
 favicon_image
 )
