@@ -6,7 +6,14 @@ fieldtext
 {
 fill
 :
-GrayText
+fieldtext
+;
+fill
+-
+opacity
+:
+.
+6
 ;
 }
 .
