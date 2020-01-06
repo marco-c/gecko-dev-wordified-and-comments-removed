@@ -579,7 +579,7 @@ len
 )
 ;
 CryptoX_Result
-CyprtoAPI_VerifySignature
+CryptoAPI_VerifySignature
 (
 HCRYPTHASH
 *
@@ -705,7 +705,7 @@ signedData
 len
 )
 \
-CyprtoAPI_VerifySignature
+CryptoAPI_VerifySignature
 (
 hash
 publicKey

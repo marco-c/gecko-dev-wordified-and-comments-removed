@@ -347,7 +347,7 @@ defined
 XP_WIN
 )
 CryptoX_Result
-CyprtoAPI_VerifySignature
+CryptoAPI_VerifySignature
 (
 HCRYPTHASH
 *
