@@ -202,6 +202,12 @@ aOther
 .
 mOriginalURI
 )
+mResultPrincipalURI
+(
+aOther
+.
+mResultPrincipalURI
+)
 mReferrerURI
 (
 aOther
