@@ -2127,6 +2127,13 @@ onTextInput
 var
 showInspect
 =
+DevToolsShim
+.
+isInstalled
+(
+)
+&
+&
 this
 .
 inTabBrowser
@@ -2143,7 +2150,7 @@ inspector
 .
 enabled
 "
-true
+false
 )
 ;
 this
@@ -8806,6 +8813,15 @@ data
 .
 dataUrl
 ;
+let
+imageName
+=
+message
+.
+data
+.
+imageName
+;
 const
 kDesktopBackgroundURL
 =
@@ -8888,6 +8904,7 @@ gSetBackground
 init
 (
 image
+imageName
 )
 ;
 dbWin
@@ -8916,6 +8933,7 @@ resizable
 no
 "
 image
+imageName
 )
 ;
 }
@@ -8935,6 +8953,7 @@ modal
 dependent
 "
 image
+imageName
 )
 ;
 }

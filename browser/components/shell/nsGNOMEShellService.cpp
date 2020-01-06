@@ -1720,6 +1720,10 @@ nsIDOMElement
 aElement
 int32_t
 aPosition
+const
+nsACString
+&
+aImageName
 )
 {
 nsresult
