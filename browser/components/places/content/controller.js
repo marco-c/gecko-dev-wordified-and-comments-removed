@@ -6379,7 +6379,6 @@ newTransactions
 await
 getTransactionsForTransferItems
 (
-type
 items
 insertionIndex
 ip
@@ -7802,7 +7801,6 @@ newTransactions
 await
 getTransactionsForTransferItems
 (
-flavor
 nodes
 insertionIndex
 parentGuid
@@ -8525,7 +8523,6 @@ async
 function
 getTransactionsForTransferItems
 (
-dataFlavor
 items
 insertionIndex
 insertionParentGuid
@@ -8678,7 +8675,6 @@ PlacesUIUtils
 getTransactionForData
 (
 item
-dataFlavor
 insertionParentGuid
 index
 doCopy

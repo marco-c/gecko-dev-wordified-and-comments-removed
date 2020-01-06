@@ -2191,7 +2191,6 @@ null
 getTransactionForData
 (
 aData
-aType
 aNewParentGuid
 aIndex
 aCopy
