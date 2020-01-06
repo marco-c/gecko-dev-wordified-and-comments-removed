@@ -1264,11 +1264,6 @@ id
 "
 context_sendTabToDevice_separator
 "
-hidden
-=
-"
-true
-"
 /
 >
 <
@@ -1295,11 +1290,6 @@ sendTabToDevice
 .
 accesskey
 ;
-"
-hidden
-=
-"
-true
 "
 >
 <
