@@ -346,6 +346,11 @@ testIndexToString
 cpp
 '
 '
+testInformalValueTypeName
+.
+cpp
+'
+'
 testIntern
 .
 cpp
