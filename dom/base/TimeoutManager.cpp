@@ -4888,6 +4888,16 @@ mWindow
 mThrottleTimeoutsTimer
 -
 >
+SetTarget
+(
+EventTarget
+(
+)
+)
+;
+mThrottleTimeoutsTimer
+-
+>
 InitWithCallback
 (
 callback
