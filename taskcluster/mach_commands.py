@@ -103,13 +103,6 @@ root
 -
 r
 '
-default
-=
-'
-taskcluster
-/
-ci
-'
                             
 help
 =
@@ -806,14 +799,6 @@ root
 '
 -
 r
-'
-                     
-default
-=
-'
-taskcluster
-/
-ci
 '
                      
 help
@@ -2630,11 +2615,13 @@ TaskGraphGenerator
 root_dir
 =
 options
-[
+.
+get
+(
 '
 root
 '
-]
+)
                 
 parameters
 =

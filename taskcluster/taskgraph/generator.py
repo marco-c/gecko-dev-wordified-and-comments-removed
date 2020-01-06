@@ -491,6 +491,20 @@ dict
 "
 "
         
+if
+root_dir
+is
+None
+:
+            
+root_dir
+=
+'
+taskcluster
+/
+ci
+'
+        
 self
 .
 root_dir
@@ -1727,10 +1741,35 @@ graph
 "
 )
         
+existing_tasks
+=
+self
+.
+parameters
+.
+get
+(
+'
+existing_tasks
+'
+)
+        
 do_not_optimize
 =
 set
 (
+self
+.
+parameters
+.
+get
+(
+'
+do_not_optimize
+'
+[
+]
+)
 )
         
 if
@@ -1750,11 +1789,19 @@ True
             
 do_not_optimize
 =
+set
+(
 target_task_set
 .
 graph
 .
 nodes
+)
+.
+union
+(
+do_not_optimize
+)
         
 optimized_task_graph
 label_to_taskid
@@ -1768,6 +1815,10 @@ self
 parameters
                                                                     
 do_not_optimize
+                                                                    
+existing_tasks
+=
+existing_tasks
 )
         
 yield
