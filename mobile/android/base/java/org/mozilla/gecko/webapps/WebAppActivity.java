@@ -1237,7 +1237,7 @@ activityOrientation
 =
 GeckoScreenOrientation
 .
-screenOrientationToAndroidOrientation
+screenOrientationToActivityInfoOrientation
 (
 orientation
 )
