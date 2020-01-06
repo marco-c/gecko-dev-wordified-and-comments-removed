@@ -878,6 +878,11 @@ if
 context
 .
 is_root_element
+|
+|
+context
+.
+in_media_query
 {
 reference_font_size
 }
