@@ -14179,6 +14179,11 @@ test
 -
 platform
 :
+linux32
+/
+debug
+:
+12
 linux64
 /
 debug
