@@ -15538,7 +15538,7 @@ enable
 -
 prefetch
 "
-true
+false
 )
 ;
 pref
