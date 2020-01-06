@@ -508,6 +508,7 @@ for
 (
 let
 {
+parent
 child
 }
 of
@@ -522,6 +523,13 @@ missingChildren
 ]
 )
 {
+ids
+.
+add
+(
+parent
+)
+;
 ids
 .
 add
@@ -595,6 +603,7 @@ for
 let
 {
 parent
+child
 }
 of
 validationInfo
@@ -615,6 +624,13 @@ add
 parent
 )
 ;
+ids
+.
+add
+(
+child
+)
+;
 }
 if
 (
@@ -633,6 +649,7 @@ for
 (
 let
 {
+parent
 child
 }
 of
@@ -647,6 +664,13 @@ deletedParents
 ]
 )
 {
+ids
+.
+add
+(
+parent
+)
+;
 ids
 .
 add
