@@ -503,7 +503,7 @@ method
 return
 ;
 }
-MoveOverflowToChildList
+MoveInlineOverflowToChildList
 (
 aReflowInput
 .

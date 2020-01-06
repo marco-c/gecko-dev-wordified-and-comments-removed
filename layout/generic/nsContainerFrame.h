@@ -1084,11 +1084,14 @@ DestroyOverflowList
 bool
 MoveOverflowToChildList
 (
+)
+;
+bool
+MoveInlineOverflowToChildList
+(
 nsIFrame
 *
 aLineContainer
-=
-nullptr
 )
 ;
 void

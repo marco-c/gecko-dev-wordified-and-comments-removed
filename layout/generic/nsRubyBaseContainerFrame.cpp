@@ -1535,7 +1535,7 @@ LineContainerFrame
 (
 )
 ;
-MoveOverflowToChildList
+MoveInlineOverflowToChildList
 (
 lineContainer
 )
@@ -1578,7 +1578,7 @@ i
 ]
 -
 >
-MoveOverflowToChildList
+MoveInlineOverflowToChildList
 (
 lineContainer
 )
