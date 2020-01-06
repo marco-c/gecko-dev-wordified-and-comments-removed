@@ -203,6 +203,16 @@ null
 endif
 public
 static
+final
+String
+MOZ_MMA_SENDER_ID
+=
+"
+242693410970
+"
+;
+public
+static
 MmaInterface
 getMma
 (

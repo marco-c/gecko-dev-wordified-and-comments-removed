@@ -123,6 +123,7 @@ MmaDelegate
 handleGcmMessage
 (
 this
+from
 bundle
 )
 )
