@@ -23264,7 +23264,6 @@ NativePropertyHooks
               
 MOZ_ASSERT
 (
-!
 clasp
 -
 >
@@ -23274,9 +23273,12 @@ mNativeHooks
 mResolveOwnProperty
                          
 "
-Shouldn
+Don
 '
 t
+know
+how
+to
 resolve
 the
 properties
@@ -23289,8 +23291,6 @@ for
 {
 nativeType
 }
-for
-Xrays
 .
 "
 )
@@ -23298,7 +23298,6 @@ Xrays
               
 MOZ_ASSERT
 (
-!
 clasp
 -
 >
@@ -23308,9 +23307,12 @@ mNativeHooks
 mEnumerateOwnProperties
                          
 "
-Shouldn
+Don
 '
 t
+know
+how
+to
 enumerate
 the
 properties
@@ -23323,8 +23325,6 @@ for
 {
 nativeType
 }
-for
-Xrays
 .
 "
 )
