@@ -2354,6 +2354,12 @@ if
 mCanStop
 )
 {
+mGeckoView
+.
+stop
+(
+)
+;
 }
 else
 {
