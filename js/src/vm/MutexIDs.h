@@ -202,6 +202,12 @@ WasmCompileTaskState
 \
 _
 (
+ThreadId
+600
+)
+\
+_
+(
 WasmCodeSegmentMap
 600
 )
