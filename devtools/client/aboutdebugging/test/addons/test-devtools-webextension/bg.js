@@ -47,9 +47,11 @@ myWebExtensionShowPopup
 (
 )
 {
-console
+browser
 .
-log
+test
+.
+sendMessage
 (
 "
 readyForOpenPopup
