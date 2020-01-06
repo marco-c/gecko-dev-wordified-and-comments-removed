@@ -190086,7 +190086,7 @@ ast
 return
 fillRange
 (
-1
+0
 ast
 .
 tokens
@@ -190176,6 +190176,8 @@ loc
 start
 .
 line
+-
+1
 )
 ;
 return
