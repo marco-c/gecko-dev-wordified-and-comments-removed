@@ -477,6 +477,8 @@ image
 anonid
 =
 "
+urlbar
+-
 go
 -
 button
@@ -489,6 +491,9 @@ urlbar
 go
 -
 button
+urlbar
+-
+icon
 "
 onclick
 =
@@ -1618,6 +1623,8 @@ this
 anonid
 "
 "
+urlbar
+-
 go
 -
 button
