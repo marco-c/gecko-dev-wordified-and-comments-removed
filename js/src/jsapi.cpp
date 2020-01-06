@@ -19646,11 +19646,11 @@ rhs
 .
 column
 ;
-sourceStartColumn
+scriptSourceOffset
 =
 rhs
 .
-sourceStartColumn
+scriptSourceOffset
 ;
 isRunOnce
 =

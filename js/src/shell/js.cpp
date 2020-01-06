@@ -6882,7 +6882,6 @@ options
 setColumn
 (
 c
-c
 )
 ;
 }
