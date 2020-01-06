@@ -52,15 +52,6 @@ html
 ref
 .
 html
-#
-see
-bug
-1353399
-.
-Intermittent
-with
-WR
-enabled
 test
 -
 pref
