@@ -137,6 +137,11 @@ JsepTrack
 .
 cpp
 '
+'
+SsrcGenerator
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
