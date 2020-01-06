@@ -1967,6 +1967,9 @@ AllocationSiteTable
 *
 allocationSiteTable
 ;
+ReadBarrieredObjectGroup
+stringSplitStringGroup
+;
 public
 :
 struct
@@ -2049,6 +2052,16 @@ ObjectGroupFlags
 initialFlags
 =
 0
+)
+;
+static
+ObjectGroup
+*
+getStringSplitStringGroup
+(
+JSContext
+*
+cx
 )
 ;
 void
