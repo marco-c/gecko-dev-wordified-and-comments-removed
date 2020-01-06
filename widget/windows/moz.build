@@ -610,6 +610,12 @@ widget
 '
 '
 /
+widget
+/
+headless
+'
+'
+/
 xpcom
 /
 base

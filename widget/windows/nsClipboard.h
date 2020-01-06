@@ -66,6 +66,15 @@ nsClipboard
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIOBSERVER
+static
+already_AddRefed
+<
+nsIClipboard
+>
+GetInstance
+(
+)
+;
 NS_IMETHOD
 HasDataMatchingFlavors
 (

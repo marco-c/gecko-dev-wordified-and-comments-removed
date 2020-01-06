@@ -211,11 +211,7 @@ bool
 aRaise
 )
 override
-{
-return
-NS_OK
 ;
-}
 virtual
 nsresult
 ConfigureChildren
@@ -378,6 +374,11 @@ mInputContext
 ;
 LayoutDeviceIntRect
 mRestoreBounds
+;
+void
+SendSetZLevelEvent
+(
+)
 ;
 }
 ;

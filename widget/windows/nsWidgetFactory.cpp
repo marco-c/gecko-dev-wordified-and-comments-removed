@@ -498,9 +498,13 @@ nsIdleServiceWin
 :
 GetInstance
 )
-NS_GENERIC_FACTORY_CONSTRUCTOR
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
+nsIClipboard
 nsClipboard
+:
+:
+GetInstance
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -837,7 +841,7 @@ nsIdleServiceWinConstructor
 kNS_CLIPBOARD_CID
 false
 nullptr
-nsClipboardConstructor
+nsIClipboardConstructor
 Module
 :
 :

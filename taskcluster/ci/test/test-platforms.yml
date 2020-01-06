@@ -796,6 +796,8 @@ external
 media
 -
 tests
+-
+headless
 windows7
 -
 32
@@ -843,6 +845,8 @@ desktop
 screenshot
 -
 capture
+-
+headless
 #
 win32
 gpu
@@ -932,6 +936,8 @@ external
 media
 -
 tests
+-
+headless
 windows10
 -
 64
@@ -979,6 +985,8 @@ desktop
 screenshot
 -
 capture
+-
+headless
 #
 win64
 gpu
@@ -1059,6 +1067,8 @@ sets
 common
 -
 tests
+-
+headless
 #
 #
 #
