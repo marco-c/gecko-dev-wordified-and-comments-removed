@@ -176,6 +176,9 @@ js1_8_5
 shell
 /
 \
+test
+/
+\
 test262
 /
 \
