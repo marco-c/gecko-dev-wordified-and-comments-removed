@@ -350,7 +350,9 @@ echo
 Removing
 node_modules
 and
-npm_shrinkwrap
+package
+-
+lock
 .
 json
 .
