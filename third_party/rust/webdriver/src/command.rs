@@ -124,6 +124,7 @@ SetWindowRect
 WindowRectParameters
 )
 MaximizeWindow
+FullscreenWindow
 SwitchToWindow
 (
 SwitchToWindowParameters
@@ -762,6 +763,16 @@ WebDriverCommand
 :
 :
 MaximizeWindow
+Route
+:
+:
+FullscreenWindow
+=
+>
+WebDriverCommand
+:
+:
+FullscreenWindow
 Route
 :
 :
@@ -2906,6 +2917,11 @@ MaximizeWindow
 WebDriverCommand
 :
 :
+FullscreenWindow
+|
+WebDriverCommand
+:
+:
 NewSession
 (
 _
@@ -3884,7 +3900,8 @@ ErrorStatus
 :
 InvalidArgument
 "
-Script
+Page
+load
 timeout
 duration
 was
@@ -3937,7 +3954,7 @@ ErrorStatus
 :
 InvalidArgument
 "
-Script
+Implicit
 timeout
 duration
 was

@@ -744,14 +744,8 @@ session
 id
 {
 }
-expected
-{
-}
 "
 msg_session_id
-existing_session
-.
-id
 )
 )
 )
@@ -1117,6 +1111,8 @@ debug
 !
 (
 "
+-
+>
 {
 }
 {
@@ -1409,6 +1405,8 @@ debug
 !
 (
 "
+<
+-
 {
 }
 {
