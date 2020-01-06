@@ -9,6 +9,17 @@ include
 "
 mozilla
 /
+gfx
+/
+Matrix
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EnumeratedArray
 .
 h

@@ -25,6 +25,13 @@ h
 #
 include
 "
+gfxPoint
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
@@ -66,9 +73,6 @@ gfxImageSurface
 ;
 struct
 gfxRect
-;
-struct
-gfxPoint
 ;
 template
 <

@@ -216,6 +216,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+gfxPoint
+.
+h
+"
 class
 gfxContext
 ;
@@ -287,9 +294,6 @@ imgIRequest
 ;
 class
 nsIDocument
-;
-struct
-gfxPoint
 ;
 struct
 nsStyleFont
