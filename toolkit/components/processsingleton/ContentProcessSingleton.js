@@ -276,6 +276,11 @@ functionName
 consoleMsg
 .
 functionName
+&
+&
+consoleMsg
+.
+functionName
 .
 substring
 (
