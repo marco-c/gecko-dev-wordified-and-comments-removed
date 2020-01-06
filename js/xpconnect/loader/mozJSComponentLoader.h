@@ -252,8 +252,6 @@ nsIURI
 *
 aComponent
 bool
-aReuseLoaderGlobal
-bool
 *
 aRealFile
 )
@@ -636,9 +634,6 @@ mInProgressImports
 ;
 bool
 mInitialized
-;
-bool
-mReuseLoaderGlobal
 ;
 }
 ;

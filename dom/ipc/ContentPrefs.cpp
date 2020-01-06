@@ -718,11 +718,6 @@ javascript
 use_us_english_locale
 "
 "
-jsloader
-.
-reuseGlobal
-"
-"
 layout
 .
 idle_period
