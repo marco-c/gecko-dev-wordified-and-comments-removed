@@ -106,7 +106,7 @@ uint32_t
 aLength
 )
 ;
-uint64_t
+void
 GetBlobWhenReady
 (
 nsISupports

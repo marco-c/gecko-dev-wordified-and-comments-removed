@@ -1522,7 +1522,7 @@ BeginShutdown
 ;
 }
 }
-uint64_t
+void
 MutableBlobStorage
 :
 :
@@ -1621,7 +1621,6 @@ NS_DISPATCH_NORMAL
 )
 ;
 return
-0
 ;
 }
 RefPtr
@@ -1649,7 +1648,6 @@ forget
 )
 ;
 return
-mDataLen
 ;
 }
 if
@@ -1673,7 +1671,6 @@ mPendingCallback
 aCallback
 ;
 return
-mDataLen
 ;
 }
 RefPtr
@@ -1787,12 +1784,8 @@ error
 )
 {
 return
-0
 ;
 }
-return
-mDataLen
-;
 }
 nsresult
 MutableBlobStorage
