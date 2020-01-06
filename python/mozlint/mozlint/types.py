@@ -32,6 +32,7 @@ from
 pathutils
 import
 filterpaths
+findobject
 class
 BaseType
 (
@@ -68,7 +69,7 @@ __call__
 (
 self
 paths
-linter
+config
 *
 *
 lintargs
@@ -80,6 +81,9 @@ lintargs
 "
 Run
 linter
+defined
+by
+config
 against
 paths
 with
@@ -104,10 +108,11 @@ directory
         
 :
 param
-linter
+config
 :
 Linter
-definition
+config
+the
 paths
 are
 being
@@ -163,7 +168,7 @@ paths
 filterpaths
 (
 paths
-linter
+config
 *
 *
 lintargs
@@ -188,7 +193,7 @@ self
 _lint
 (
 paths
-linter
+config
 *
 *
 lintargs
@@ -215,7 +220,7 @@ self
 _lint
 (
 p
-linter
+config
 *
 *
 lintargs
@@ -323,7 +328,7 @@ _lint
 (
 self
 path
-linter
+config
 *
 *
 lintargs
@@ -332,7 +337,7 @@ lintargs
         
 payload
 =
-linter
+config
 [
 '
 payload
@@ -390,9 +395,9 @@ append
 (
 result
 .
-from_linter
+from_config
 (
-linter
+config
 path
 =
 path
@@ -541,26 +546,30 @@ _lint
 (
 self
 files
-linter
+config
 *
 *
 lintargs
 )
 :
         
-payload
+func
 =
-linter
+findobject
+(
+config
 [
 '
 payload
 '
 ]
+)
         
 return
-payload
+func
 (
 files
+config
 *
 *
 lintargs
@@ -576,15 +585,15 @@ def
 __init__
 (
 self
-linter
+config
 )
 :
         
 self
 .
-linter
+config
 =
-linter
+config
         
 self
 .
@@ -609,11 +618,11 @@ append
 (
 result
 .
-from_linter
+from_config
 (
 self
 .
-linter
+config
 *
 *
 data
@@ -635,32 +644,23 @@ _lint
 (
 self
 files
-linter
+config
 *
 *
 lintargs
 )
 :
         
-payload
-=
-linter
-[
-"
-payload
-"
-]
-        
 handler
 =
 LintHandler
 (
-linter
+config
 )
         
 logger
 =
-linter
+config
 .
 get
 (
@@ -693,7 +693,7 @@ structuredlog
 .
 StructuredLogger
 (
-linter
+config
 [
 "
 name
@@ -726,12 +726,25 @@ add_handler
 handler
 )
         
+func
+=
+findobject
+(
+config
+[
+"
+payload
+"
+]
+)
+        
 try
 :
             
-payload
+func
 (
 files
+config
 logger
 *
 *

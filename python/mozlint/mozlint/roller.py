@@ -55,12 +55,6 @@ lintargs
 )
 :
     
-parse
-=
-Parser
-(
-)
-    
 results
 =
 defaultdict
@@ -80,7 +74,7 @@ True
 try
 :
             
-linter_path
+config
 =
 queue
 .
@@ -100,18 +94,11 @@ return
 results
 failed
         
-linter
-=
-parse
-(
-linter_path
-)
-        
 func
 =
 supported_types
 [
-linter
+config
 [
 '
 type
@@ -124,7 +111,7 @@ res
 func
 (
 paths
-linter
+config
 *
 *
 lintargs
@@ -153,7 +140,7 @@ failed
 .
 append
 (
-linter
+config
 [
 '
 name
@@ -429,7 +416,7 @@ self
 .
 linters
 .
-append
+extend
 (
 self
 .
@@ -709,7 +696,7 @@ Queue
 )
         
 for
-linter
+config
 in
 self
 .
@@ -720,12 +707,7 @@ queue
 .
 put
 (
-linter
-[
-'
-path
-'
-]
+config
 )
         
 num_procs

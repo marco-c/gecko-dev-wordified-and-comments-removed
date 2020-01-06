@@ -128,12 +128,12 @@ easy
 as
 defining
 a
-json
+config
 object
 in
 a
 .
-lint
+yml
 file
 .
 This

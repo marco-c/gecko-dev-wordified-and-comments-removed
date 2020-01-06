@@ -432,9 +432,9 @@ self
 o
 )
 def
-from_linter
+from_config
 (
-lintobj
+config
 *
 *
 kwargs
@@ -455,8 +455,8 @@ result
 ResultContainer
 from
 a
-LINTER
-definition
+linter
+config
 .
     
 Convenience
@@ -466,9 +466,9 @@ pulls
 defaults
 from
 a
-LINTER
+linter
     
-definition
+config
 and
 forwards
 them
@@ -476,18 +476,16 @@ them
     
 :
 param
-lintobj
+config
 :
-LINTER
-obj
+linter
+config
 as
 defined
 in
 a
 .
-lint
-.
-py
+yml
 file
     
 :
@@ -543,7 +541,7 @@ kwargs
 get
 (
 attr
-lintobj
+config
 .
 get
 (
@@ -568,7 +566,7 @@ linter
 '
 ]
 =
-lintobj
+config
 .
 get
 (
@@ -594,7 +592,7 @@ message
 '
 ]
 =
-lintobj
+config
 .
 get
 (
