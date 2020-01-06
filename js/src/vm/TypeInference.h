@@ -2727,6 +2727,14 @@ constraints
 )
 ;
 bool
+maybeProxy
+(
+CompilerConstraintList
+*
+constraints
+)
+;
+bool
 maybeEmulatesUndefined
 (
 CompilerConstraintList
