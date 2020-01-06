@@ -805,12 +805,14 @@ checkTestModuleNotPresent
 ;
 ok
 (
+!
 gModuleDB
 .
 canToggleFIPS
 "
 It
 should
+NOT
 be
 possible
 to
