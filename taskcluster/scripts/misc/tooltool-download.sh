@@ -5,9 +5,7 @@ tooltool
 manifest
 .
 cd
-HOME
-/
-workspace
+WORKSPACE
 /
 build
 /
