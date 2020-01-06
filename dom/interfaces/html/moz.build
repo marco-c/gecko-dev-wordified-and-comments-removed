@@ -114,11 +114,6 @@ nsIDOMHTMLBaseElement
 idl
 '
 '
-nsIDOMHTMLCanvasElement
-.
-idl
-'
-'
 nsIDOMHTMLCollection
 .
 idl
@@ -140,6 +135,11 @@ idl
 '
 '
 nsIDOMHTMLHtmlElement
+.
+idl
+'
+'
+nsIDOMHTMLIFrameElement
 .
 idl
 '

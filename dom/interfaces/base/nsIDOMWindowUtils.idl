@@ -265,9 +265,6 @@ interface
 nsIDOMElement
 ;
 interface
-nsIDOMHTMLCanvasElement
-;
-interface
 nsIDOMEvent
 ;
 interface
@@ -6532,10 +6529,10 @@ uint32_t
 compareCanvases
 (
 in
-nsIDOMHTMLCanvasElement
+nsISupports
 aCanvas1
 in
-nsIDOMHTMLCanvasElement
+nsISupports
 aCanvas2
 out
 unsigned

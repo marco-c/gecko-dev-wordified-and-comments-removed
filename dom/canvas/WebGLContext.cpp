@@ -7782,7 +7782,7 @@ OwnerDoc
 )
 static_cast
 <
-nsIDOMHTMLCanvasElement
+nsIContent
 *
 >
 (
@@ -7948,7 +7948,7 @@ OwnerDoc
 )
 static_cast
 <
-nsIDOMHTMLCanvasElement
+nsIContent
 *
 >
 (
