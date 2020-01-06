@@ -1442,6 +1442,9 @@ pattern
 https
 ?
 |
+wss
+?
+|
 file
 |
 ftp
