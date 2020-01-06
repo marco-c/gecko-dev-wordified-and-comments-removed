@@ -77,7 +77,7 @@ brotli
 checkout
 v0
 .
-4
+6
 .
 0
 COMMIT
@@ -137,8 +137,10 @@ mozilla
 DIRS
 =
 "
+common
 dec
 enc
+include
 tools
 "
 for
@@ -167,17 +169,6 @@ rf
 {
 MY_TEMP_DIR
 }
-patch
--
-p1
-<
-clang
--
-cl
--
-exceptions
-.
-patch
 hg
 addremove
 DIRS
