@@ -123,9 +123,14 @@ const
 char
 *
 fmt
+const
 PRMJTime
 *
 tm
+int
+equivalentYear
+int
+offsetInSeconds
 )
 ;
 #
