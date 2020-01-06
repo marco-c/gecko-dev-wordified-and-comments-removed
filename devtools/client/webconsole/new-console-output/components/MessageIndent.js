@@ -4,11 +4,7 @@ strict
 "
 ;
 const
-{
-DOM
-:
 dom
-}
 =
 require
 (
@@ -22,6 +18,10 @@ shared
 vendor
 /
 react
+-
+dom
+-
+factories
 "
 )
 ;
