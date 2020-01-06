@@ -48,7 +48,7 @@ h
 #
 include
 "
-D3D11
+d3d11
 .
 h
 "
