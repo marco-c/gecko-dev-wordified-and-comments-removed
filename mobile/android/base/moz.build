@@ -3683,13 +3683,6 @@ java
 '
 gfx
 /
-GeckoLayerClient
-.
-java
-'
-'
-gfx
-/
 GeckoSurface
 .
 java
