@@ -492,6 +492,12 @@ attribute
 boolean
 active
 ;
+static
+readonly
+attribute
+boolean
+isExtensionProcess
+;
 /
 *
 *

@@ -292,6 +292,12 @@ aDefaultCSP
 )
 const
 ;
+bool
+IsExtensionProcess
+(
+)
+const
+;
 protected
 :
 virtual
@@ -376,6 +382,10 @@ nsCOMPtr
 nsIObserverService
 >
 mObs
+;
+static
+bool
+sRemoteExtensions
 ;
 }
 ;
