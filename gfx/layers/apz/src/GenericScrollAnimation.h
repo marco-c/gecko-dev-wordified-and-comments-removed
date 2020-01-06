@@ -14,7 +14,7 @@ h
 #
 include
 "
-AsyncScrollBase
+ScrollAnimationPhysics
 .
 h
 "
@@ -32,8 +32,6 @@ GenericScrollAnimation
 :
 public
 AsyncPanZoomAnimation
-public
-AsyncScrollBase
 {
 public
 :
@@ -121,6 +119,9 @@ protected
 AsyncPanZoomController
 &
 mApzc
+;
+ScrollAnimationPhysics
+mAnimationPhysics
 ;
 nsPoint
 mFinalDestination

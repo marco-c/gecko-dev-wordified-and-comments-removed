@@ -1,7 +1,7 @@
 #
 include
 "
-AsyncScrollBase
+ScrollAnimationPhysics
 .
 h
 "
@@ -16,10 +16,10 @@ using
 namespace
 mozilla
 ;
-AsyncScrollBase
+ScrollAnimationPhysics
 :
 :
-AsyncScrollBase
+ScrollAnimationPhysics
 (
 nsPoint
 aStartPos
@@ -36,7 +36,7 @@ aStartPos
 {
 }
 void
-AsyncScrollBase
+ScrollAnimationPhysics
 :
 :
 Update
@@ -151,7 +151,7 @@ false
 ;
 }
 TimeDuration
-AsyncScrollBase
+ScrollAnimationPhysics
 :
 :
 ComputeDuration
@@ -231,7 +231,7 @@ durationMS
 ;
 }
 void
-AsyncScrollBase
+ScrollAnimationPhysics
 :
 :
 InitializeHistory
@@ -288,7 +288,7 @@ maxDelta
 ;
 }
 void
-AsyncScrollBase
+ScrollAnimationPhysics
 :
 :
 InitTimingFunction
@@ -435,7 +435,7 @@ SmoothScrollStopDecelerationWeighting
 ;
 }
 nsPoint
-AsyncScrollBase
+ScrollAnimationPhysics
 :
 :
 PositionAt
@@ -514,7 +514,7 @@ y
 ;
 }
 nsSize
-AsyncScrollBase
+ScrollAnimationPhysics
 :
 :
 VelocityAt
@@ -561,7 +561,7 @@ y
 ;
 }
 nscoord
-AsyncScrollBase
+ScrollAnimationPhysics
 :
 :
 VelocityComponent

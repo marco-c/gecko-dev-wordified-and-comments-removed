@@ -570,11 +570,6 @@ EXPORTS
 =
 [
 '
-AsyncScrollBase
-.
-h
-'
-'
 nsCanvasFrame
 .
 h
@@ -735,6 +730,11 @@ RubyUtils
 h
 '
 '
+ScrollAnimationPhysics
+.
+h
+'
+'
 ScrollbarActivity
 .
 h
@@ -815,11 +815,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-AsyncScrollBase
-.
-cpp
-'
 '
 BlockReflowInput
 .
@@ -1087,6 +1082,11 @@ cpp
 '
 '
 RubyUtils
+.
+cpp
+'
+'
+ScrollAnimationPhysics
 .
 cpp
 '
