@@ -7620,7 +7620,7 @@ if
 group
 -
 >
-unknownProperties
+unknownPropertiesDontCheckGeneration
 (
 )
 )
@@ -7634,7 +7634,7 @@ propTypes
 group
 -
 >
-maybeGetProperty
+maybeGetPropertyDontCheckGeneration
 (
 *
 id
