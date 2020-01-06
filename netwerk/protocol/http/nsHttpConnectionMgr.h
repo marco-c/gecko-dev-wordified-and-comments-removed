@@ -209,6 +209,7 @@ THROTTLING_ENABLED
 THROTTLING_SUSPEND_FOR
 THROTTLING_RESUME_FOR
 THROTTLING_RESUME_IN
+THROTTLING_TIME_WINDOW
 }
 ;
 nsHttpConnectionMgr
@@ -237,6 +238,8 @@ uint32_t
 throttleResumeFor
 uint32_t
 throttleResumeIn
+uint32_t
+throttleTimeWindow
 )
 ;
 MOZ_MUST_USE
@@ -563,6 +566,15 @@ ShouldStopReading
 nsHttpTransaction
 *
 aTrans
+)
+;
+void
+TouchThrottlingTimeWindow
+(
+bool
+aEnsureTicker
+=
+true
 )
 ;
 bool
@@ -1329,6 +1341,9 @@ mThrottleResumeFor
 uint32_t
 mThrottleResumeIn
 ;
+TimeDuration
+mThrottleTimeWindow
+;
 Atomic
 <
 bool
@@ -1948,6 +1963,11 @@ bool
 aEnable
 )
 ;
+bool
+InThrottlingTimeWindow
+(
+)
+;
 nsClassHashtable
 <
 nsUint64HashKey
@@ -1966,6 +1986,9 @@ mActiveTransactions
 ;
 bool
 mThrottlingInhibitsReading
+;
+TimeStamp
+mThrottlingWindowEndsAt
 ;
 nsCOMPtr
 <
