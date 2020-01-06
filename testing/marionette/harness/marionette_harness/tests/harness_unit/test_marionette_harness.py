@@ -1,4 +1,6 @@
 import
+mozunit
+import
 pytest
 from
 mock
@@ -624,19 +626,10 @@ __main__
 '
 :
     
-import
-sys
-    
-sys
-.
-exit
-(
-pytest
+mozunit
 .
 main
 (
-        
-[
 '
 -
 -
@@ -646,7 +639,4 @@ tbpl
 =
 -
 '
-__file__
-]
-)
 )

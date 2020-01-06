@@ -26,6 +26,9 @@ mozlog
 unstructured
 as
 mozlog
+try
+:
+    
 log
 =
 mozlog
@@ -46,6 +49,11 @@ os
 devnull
 )
 )
+except
+ValueError
+:
+    
+pass
 def
 popen_factory
 (

@@ -4487,4 +4487,9 @@ mozunit
 .
 main
 (
+runwith
+=
+'
+unittest
+'
 )

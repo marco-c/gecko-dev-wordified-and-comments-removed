@@ -1292,14 +1292,22 @@ True
 )
             
 if
-line
-.
-endswith
-(
 '
 FAILED
 '
+in
+line
+.
+rsplit
+(
+'
+'
+1
 )
+[
+-
+1
+]
 :
                 
 line

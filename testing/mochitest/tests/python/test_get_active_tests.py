@@ -5,8 +5,6 @@ print_function
 unicode_literals
 import
 os
-import
-sys
 from
 argparse
 import
@@ -15,6 +13,8 @@ from
 manifestparser
 import
 TestManifest
+import
+mozunit
 import
 pytest
 pytest
@@ -485,21 +485,8 @@ __main__
 '
 :
     
-sys
-.
-exit
-(
-pytest
+mozunit
 .
 main
 (
-[
-'
--
--
-verbose
-'
-__file__
-]
-)
 )

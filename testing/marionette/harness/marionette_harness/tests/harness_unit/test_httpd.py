@@ -7,6 +7,8 @@ types
 import
 urllib2
 import
+mozunit
+import
 pytest
 from
 wptserve
@@ -421,19 +423,10 @@ __main__
 "
 :
     
-import
-sys
-    
-sys
-.
-exit
-(
-pytest
+mozunit
 .
 main
 (
-        
-[
 '
 -
 -
@@ -443,7 +436,4 @@ tbpl
 =
 -
 '
-__file__
-]
-)
 )

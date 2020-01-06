@@ -4,12 +4,12 @@ import
 unicode_literals
 import
 json
-import
-sys
 from
 collections
 import
 defaultdict
+import
+mozunit
 import
 pytest
 from
@@ -653,21 +653,8 @@ __main__
 '
 :
     
-sys
-.
-exit
-(
-pytest
+mozunit
 .
 main
 (
-[
-'
--
--
-verbose
-'
-__file__
-]
-)
 )
