@@ -943,6 +943,13 @@ CURLOPT_FAILONERROR
 1
 )
 ;
+easy_setopt
+(
+mCurl
+CURLOPT_CONNECTTIMEOUT_MS
+kConnectionTimeoutMs
+)
+;
 err
 =
 easy_perform

@@ -101,6 +101,14 @@ Encoding
 gzip
 "
 ;
+const
+uint32_t
+kConnectionTimeoutMs
+=
+30
+*
+1000
+;
 std
 :
 :
