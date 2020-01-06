@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltablecaptionelement
+[
+HTMLConstructor
+]
 interface
 HTMLTableCaptionElement
 :

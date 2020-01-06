@@ -74,6 +74,9 @@ multipage
 /
 #
 htmllabelelement
+[
+HTMLConstructor
+]
 interface
 HTMLLabelElement
 :

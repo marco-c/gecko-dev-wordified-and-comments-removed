@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltextareaelement
+[
+HTMLConstructor
+]
 interface
 HTMLTextAreaElement
 :

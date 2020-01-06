@@ -74,6 +74,9 @@ multipage
 /
 #
 htmloutputelement
+[
+HTMLConstructor
+]
 interface
 HTMLOutputElement
 :

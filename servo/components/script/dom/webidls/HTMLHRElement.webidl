@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlhrelement
+[
+HTMLConstructor
+]
 interface
 HTMLHRElement
 :

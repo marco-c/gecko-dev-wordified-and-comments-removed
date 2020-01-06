@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlfieldsetelement
+[
+HTMLConstructor
+]
 interface
 HTMLFieldSetElement
 :

@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlulistelement
+[
+HTMLConstructor
+]
 interface
 HTMLUListElement
 :

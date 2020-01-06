@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlareaelement
+[
+HTMLConstructor
+]
 interface
 HTMLAreaElement
 :

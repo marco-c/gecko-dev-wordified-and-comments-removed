@@ -75,6 +75,7 @@ multipage
 #
 htmltablecellelement
 [
+HTMLConstructor
 Abstract
 ]
 interface

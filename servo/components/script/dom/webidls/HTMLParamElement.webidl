@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlparamelement
+[
+HTMLConstructor
+]
 interface
 HTMLParamElement
 :

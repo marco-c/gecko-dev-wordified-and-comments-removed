@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlbrelement
+[
+HTMLConstructor
+]
 interface
 HTMLBRElement
 :

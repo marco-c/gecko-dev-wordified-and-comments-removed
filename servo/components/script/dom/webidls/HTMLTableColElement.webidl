@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltablecolelement
+[
+HTMLConstructor
+]
 interface
 HTMLTableColElement
 :

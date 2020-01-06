@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlbaseelement
+[
+HTMLConstructor
+]
 interface
 HTMLBaseElement
 :

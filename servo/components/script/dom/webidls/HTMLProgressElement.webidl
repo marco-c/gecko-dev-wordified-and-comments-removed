@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlprogresselement
+[
+HTMLConstructor
+]
 interface
 HTMLProgressElement
 :

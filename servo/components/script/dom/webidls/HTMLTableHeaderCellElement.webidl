@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltableheadercellelement
+[
+HTMLConstructor
+]
 interface
 HTMLTableHeaderCellElement
 :

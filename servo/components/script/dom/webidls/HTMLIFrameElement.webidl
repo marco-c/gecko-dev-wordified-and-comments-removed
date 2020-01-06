@@ -74,6 +74,9 @@ multipage
 /
 #
 htmliframeelement
+[
+HTMLConstructor
+]
 interface
 HTMLIFrameElement
 :

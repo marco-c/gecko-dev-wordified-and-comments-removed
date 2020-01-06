@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlvideoelement
+[
+HTMLConstructor
+]
 interface
 HTMLVideoElement
 :

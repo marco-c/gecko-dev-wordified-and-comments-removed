@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltitleelement
+[
+HTMLConstructor
+]
 interface
 HTMLTitleElement
 :

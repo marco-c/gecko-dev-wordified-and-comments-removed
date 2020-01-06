@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlmeterelement
+[
+HTMLConstructor
+]
 interface
 HTMLMeterElement
 :

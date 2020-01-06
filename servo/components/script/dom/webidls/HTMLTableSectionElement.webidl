@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltablesectionelement
+[
+HTMLConstructor
+]
 interface
 HTMLTableSectionElement
 :

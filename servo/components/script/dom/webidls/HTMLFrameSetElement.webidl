@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlframesetelement
+[
+HTMLConstructor
+]
 interface
 HTMLFrameSetElement
 :

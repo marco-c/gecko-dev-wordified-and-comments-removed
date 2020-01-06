@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlfontelement
+[
+HTMLConstructor
+]
 interface
 HTMLFontElement
 :

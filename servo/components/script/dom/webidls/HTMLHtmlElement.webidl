@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlhtmlelement
+[
+HTMLConstructor
+]
 interface
 HTMLHtmlElement
 :

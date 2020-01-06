@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlbuttonelement
+[
+HTMLConstructor
+]
 interface
 HTMLButtonElement
 :

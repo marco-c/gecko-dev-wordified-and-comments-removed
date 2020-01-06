@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlinputelement
+[
+HTMLConstructor
+]
 interface
 HTMLInputElement
 :

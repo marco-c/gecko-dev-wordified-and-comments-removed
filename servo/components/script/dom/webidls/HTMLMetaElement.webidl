@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlmetaelement
+[
+HTMLConstructor
+]
 interface
 HTMLMetaElement
 :

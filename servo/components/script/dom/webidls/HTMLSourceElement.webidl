@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlsourceelement
+[
+HTMLConstructor
+]
 interface
 HTMLSourceElement
 :

@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltrackelement
+[
+HTMLConstructor
+]
 interface
 HTMLTrackElement
 :

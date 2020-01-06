@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlpreelement
+[
+HTMLConstructor
+]
 interface
 HTMLPreElement
 :

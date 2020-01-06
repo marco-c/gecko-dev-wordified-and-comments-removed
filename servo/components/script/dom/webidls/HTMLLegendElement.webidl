@@ -74,6 +74,9 @@ multipage
 /
 #
 htmllegendelement
+[
+HTMLConstructor
+]
 interface
 HTMLLegendElement
 :

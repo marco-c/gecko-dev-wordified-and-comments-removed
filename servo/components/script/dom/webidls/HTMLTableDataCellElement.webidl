@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltabledatacellelement
+[
+HTMLConstructor
+]
 interface
 HTMLTableDataCellElement
 :

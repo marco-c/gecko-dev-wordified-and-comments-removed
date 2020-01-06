@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlmapelement
+[
+HTMLConstructor
+]
 interface
 HTMLMapElement
 :

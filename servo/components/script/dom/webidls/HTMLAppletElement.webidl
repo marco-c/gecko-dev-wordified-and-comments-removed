@@ -74,6 +74,15 @@ multipage
 /
 #
 htmlappletelement
+/
+/
+Note
+:
+intentionally
+not
+[
+HTMLConstructor
+]
 interface
 HTMLAppletElement
 :

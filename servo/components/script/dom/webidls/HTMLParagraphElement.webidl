@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlparagraphelement
+[
+HTMLConstructor
+]
 interface
 HTMLParagraphElement
 :

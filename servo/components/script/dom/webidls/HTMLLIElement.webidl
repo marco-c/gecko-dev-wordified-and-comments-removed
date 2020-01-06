@@ -74,6 +74,9 @@ multipage
 /
 #
 htmllielement
+[
+HTMLConstructor
+]
 interface
 HTMLLIElement
 :

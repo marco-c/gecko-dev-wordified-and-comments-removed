@@ -74,6 +74,9 @@ multipage
 /
 #
 htmldataelement
+[
+HTMLConstructor
+]
 interface
 HTMLDataElement
 :

@@ -74,6 +74,9 @@ multipage
 /
 #
 htmldivelement
+[
+HTMLConstructor
+]
 interface
 HTMLDivElement
 :

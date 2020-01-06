@@ -75,6 +75,7 @@ multipage
 #
 htmlimageelement
 [
+HTMLConstructor
 NamedConstructor
 =
 Image

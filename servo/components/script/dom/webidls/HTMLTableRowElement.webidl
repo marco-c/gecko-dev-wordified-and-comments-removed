@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltablerowelement
+[
+HTMLConstructor
+]
 interface
 HTMLTableRowElement
 :

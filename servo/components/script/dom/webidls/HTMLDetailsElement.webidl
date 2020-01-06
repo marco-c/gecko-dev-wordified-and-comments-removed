@@ -74,6 +74,9 @@ multipage
 /
 #
 htmldetailselement
+[
+HTMLConstructor
+]
 interface
 HTMLDetailsElement
 :

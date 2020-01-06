@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlselectelement
+[
+HTMLConstructor
+]
 interface
 HTMLSelectElement
 :

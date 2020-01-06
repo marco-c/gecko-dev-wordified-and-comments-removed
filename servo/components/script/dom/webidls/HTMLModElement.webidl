@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlmodelement
+[
+HTMLConstructor
+]
 interface
 HTMLModElement
 :

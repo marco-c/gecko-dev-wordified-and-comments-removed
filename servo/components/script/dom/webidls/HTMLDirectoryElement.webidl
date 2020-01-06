@@ -74,6 +74,9 @@ multipage
 /
 #
 htmldirectoryelement
+[
+HTMLConstructor
+]
 interface
 HTMLDirectoryElement
 :

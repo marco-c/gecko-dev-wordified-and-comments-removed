@@ -74,6 +74,9 @@ multipage
 /
 #
 htmldialogelement
+[
+HTMLConstructor
+]
 interface
 HTMLDialogElement
 :

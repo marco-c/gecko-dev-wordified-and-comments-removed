@@ -74,6 +74,9 @@ multipage
 /
 #
 htmloptgroupelement
+[
+HTMLConstructor
+]
 interface
 HTMLOptGroupElement
 :

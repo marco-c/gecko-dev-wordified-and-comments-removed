@@ -82,6 +82,9 @@ WebGLRenderingContext
 )
 RenderingContext
 ;
+[
+HTMLConstructor
+]
 interface
 HTMLCanvasElement
 :

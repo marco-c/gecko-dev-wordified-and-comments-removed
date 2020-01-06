@@ -74,6 +74,9 @@ multipage
 /
 #
 htmldatalistelement
+[
+HTMLConstructor
+]
 interface
 HTMLDataListElement
 :

@@ -74,6 +74,9 @@ multipage
 /
 #
 htmltimeelement
+[
+HTMLConstructor
+]
 interface
 HTMLTimeElement
 :

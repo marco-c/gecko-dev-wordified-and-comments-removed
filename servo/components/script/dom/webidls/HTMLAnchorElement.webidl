@@ -166,6 +166,9 @@ multipage
 /
 #
 htmlanchorelement
+[
+HTMLConstructor
+]
 interface
 HTMLAnchorElement
 :

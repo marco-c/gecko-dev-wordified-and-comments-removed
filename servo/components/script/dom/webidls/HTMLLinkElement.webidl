@@ -74,6 +74,9 @@ multipage
 /
 #
 htmllinkelement
+[
+HTMLConstructor
+]
 interface
 HTMLLinkElement
 :

@@ -74,10 +74,13 @@ multipage
 /
 #
 htmlformelement
-/
-/
 [
+/
+*
 OverrideBuiltins
+*
+/
+HTMLConstructor
 ]
 interface
 HTMLFormElement

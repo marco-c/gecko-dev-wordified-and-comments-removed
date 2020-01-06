@@ -74,6 +74,9 @@ multipage
 /
 #
 htmldlistelement
+[
+HTMLConstructor
+]
 interface
 HTMLDListElement
 :

@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlobjectelement
+[
+HTMLConstructor
+]
 interface
 HTMLObjectElement
 :

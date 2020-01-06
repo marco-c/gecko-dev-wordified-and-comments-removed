@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlstyleelement
+[
+HTMLConstructor
+]
 interface
 HTMLStyleElement
 :

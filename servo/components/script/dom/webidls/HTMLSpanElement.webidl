@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlspanelement
+[
+HTMLConstructor
+]
 interface
 HTMLSpanElement
 :

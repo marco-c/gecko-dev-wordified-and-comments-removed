@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlembedelement
+[
+HTMLConstructor
+]
 interface
 HTMLEmbedElement
 :

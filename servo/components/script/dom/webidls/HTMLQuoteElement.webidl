@@ -74,6 +74,9 @@ multipage
 /
 #
 htmlquoteelement
+[
+HTMLConstructor
+]
 interface
 HTMLQuoteElement
 :

@@ -78,6 +78,9 @@ the
 body
 -
 element
+[
+HTMLConstructor
+]
 interface
 HTMLBodyElement
 :
