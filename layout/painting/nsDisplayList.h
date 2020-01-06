@@ -19217,7 +19217,7 @@ override
 private
 :
 bool
-ShouldPaintOnMaskLayer
+CanPaintOnMaskLayer
 (
 LayerManager
 *

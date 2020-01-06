@@ -15648,16 +15648,6 @@ nsDisplayMask
 aMaskItem
 )
 {
-MOZ_ASSERT
-(
-mManager
--
->
-IsCompositingCheap
-(
-)
-)
-;
 RefPtr
 <
 ImageLayer
