@@ -84,6 +84,12 @@ strlen
 Servo_DeclarationBlock_GetCssText
 /
 /
+nsIFrame
+:
+:
+AppendOwnedAnonBoxes
+/
+/
 ^
 __atomic_fetch_
 /
