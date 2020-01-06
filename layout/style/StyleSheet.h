@@ -233,6 +233,7 @@ SheetParsingMode
 ParsingMode
 (
 )
+const
 {
 return
 mParsingMode
@@ -487,6 +488,14 @@ mOwnerRule
 }
 void
 PrependStyleSheet
+(
+StyleSheet
+*
+aSheet
+)
+;
+void
+PrependStyleSheetSilently
 (
 StyleSheet
 *
