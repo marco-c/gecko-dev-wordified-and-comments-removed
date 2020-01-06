@@ -103,12 +103,6 @@ gecko_bindings
 :
 structs
 ;
-use
-matching
-:
-:
-StyleSharingCandidateCache
-;
 #
 [
 cfg
@@ -180,6 +174,12 @@ shared_lock
 :
 :
 StylesheetGuards
+;
+use
+sharing
+:
+:
+StyleSharingCandidateCache
 ;
 #
 [
