@@ -394,8 +394,14 @@ ServoStyleSet
 :
 ServoStyleSet
 (
+Kind
+aKind
 )
 :
+mKind
+(
+aKind
+)
 mPresContext
 (
 nullptr
