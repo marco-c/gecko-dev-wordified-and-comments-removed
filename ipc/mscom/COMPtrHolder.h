@@ -553,7 +553,6 @@ proxyStream
 .
 GetInterface
 (
-_IID
 mozilla
 :
 :
