@@ -189,18 +189,10 @@ linux
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-linux32
-/
 release
 '
                 
@@ -219,18 +211,10 @@ linux64
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-linux64
-/
 release
 '
                 
@@ -249,18 +233,10 @@ macosx64
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-macosx64
-/
 release
 '
                 
@@ -279,18 +255,10 @@ win32
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win32
-/
 release
 '
                 
@@ -309,18 +277,10 @@ win64
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win64
-/
 release
 '
                 
@@ -707,18 +667,10 @@ linux
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-linux32
-/
 beta
 '
                 
@@ -737,18 +689,10 @@ linux64
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-linux64
-/
 beta
 '
                 
@@ -767,18 +711,10 @@ macosx64
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-macosx64
-/
 beta
 '
                 
@@ -797,18 +733,10 @@ win32
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win32
-/
 beta
 '
                 
@@ -827,18 +755,10 @@ win64
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win64
-/
 beta
 '
                 
@@ -1876,18 +1796,10 @@ linux
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-linux32
-/
 release
 '
             
@@ -1918,18 +1830,10 @@ linux64
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-linux64
-/
 release
 '
             
@@ -2040,18 +1944,10 @@ macosx64
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-macosx64
-/
 release
 '
             
@@ -2124,18 +2020,10 @@ win32
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win32
-/
 release
 '
             
@@ -2166,18 +2054,10 @@ win64
 {
                 
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win64
-/
 release
 '
             

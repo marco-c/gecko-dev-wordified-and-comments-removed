@@ -273,18 +273,10 @@ bin
 }
     
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-macosx64
-/
 add
 -
 on

@@ -405,18 +405,18 @@ build
 }
     
 '
-src_mozconfig
+mozconfig_platform
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win64
-/
+64
+'
+    
+'
+mozconfig_variant
+'
+:
+'
 add
 -
 on

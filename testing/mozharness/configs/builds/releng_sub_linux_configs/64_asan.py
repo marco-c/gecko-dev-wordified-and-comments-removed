@@ -327,18 +327,10 @@ bin
 }
     
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-linux64
-/
 nightly
 -
 asan

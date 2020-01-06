@@ -269,18 +269,10 @@ builds
 }
     
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win64
-/
 debug
 '
 }

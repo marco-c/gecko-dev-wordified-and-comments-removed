@@ -22,18 +22,10 @@ s_Artifact_build
 '
     
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-win32
-/
 artifact
 '
 }

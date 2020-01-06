@@ -679,18 +679,18 @@ x86_64
 ]
     
 '
-src_mozconfig
+mozconfig_platform
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
 linux64
-/
+'
+    
+'
+mozconfig_variant
+'
+:
+'
 debug
 -
 static

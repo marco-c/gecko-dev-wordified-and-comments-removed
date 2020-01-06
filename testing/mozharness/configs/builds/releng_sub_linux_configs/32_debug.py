@@ -319,18 +319,10 @@ TINDERBOX_OUTPUT
 }
     
 '
-src_mozconfig
+mozconfig_variant
 '
 :
 '
-browser
-/
-config
-/
-mozconfigs
-/
-linux32
-/
 debug
 '
 }
