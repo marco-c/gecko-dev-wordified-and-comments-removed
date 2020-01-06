@@ -1764,6 +1764,9 @@ info
 (
 l
 )
+'
+replace
+'
 )
 as
 out
@@ -5161,15 +5164,6 @@ startswith
 (
 '
 sparc64
-'
-)
-or
-cpu
-.
-startswith
-(
-'
-sparcv9
 '
 )
 :
