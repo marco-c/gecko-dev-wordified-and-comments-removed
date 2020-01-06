@@ -367,11 +367,12 @@ entry
 '
         
 if
-not
-isinstance
+hasattr
 (
 pattern
-basestring
+'
+match
+'
 )
 :
             
@@ -397,10 +398,16 @@ dbname
 xdb
 "
 ]
+                                             
+universal_newlines
+=
+True
 )
             
 matches
 =
+list
+(
 filter
 (
 lambda
@@ -417,6 +424,7 @@ output
 .
 splitlines
 (
+)
 )
 )
             
@@ -493,6 +501,10 @@ xdb
 "
 pattern
 ]
+                                         
+universal_newlines
+=
+True
 )
         
 return
@@ -514,7 +526,7 @@ None
 )
 :
         
-file
+open
 (
 "
 defaults
@@ -776,13 +788,18 @@ strip
 for
 line
 in
-file
+open
 (
 fullpath
+"
+r
+"
 )
 )
         
 return
+list
+(
 filter
 (
 lambda
@@ -793,6 +810,7 @@ is
 not
 None
 values
+)
 )
     
 def
