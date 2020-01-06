@@ -96,6 +96,11 @@ DOMString
 >
 entryTypes
 ;
+boolean
+buffered
+=
+false
+;
 }
 ;
 callback
