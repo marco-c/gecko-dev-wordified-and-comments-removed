@@ -904,6 +904,10 @@ kNS_GFXINFO_CID
 false
 nullptr
 GfxInfoConstructor
+Module
+:
+:
+ALLOW_IN_GPU_PROCESS
 }
 {
 &
