@@ -1347,6 +1347,13 @@ endif
 #
 include
 "
+ClearOnShutdown
+.
+h
+"
+#
+include
+"
 ProcessUtils
 .
 h
