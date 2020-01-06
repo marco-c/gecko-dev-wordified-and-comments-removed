@@ -378,8 +378,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-bool
-aForceUpdate
 uint32_t
 aGenerationId
 )
@@ -477,9 +475,6 @@ true
 ;
 if
 (
-aForceUpdate
-|
-|
 entry
 .
 mGenerationId
@@ -656,8 +651,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-bool
-aForceUpdate
 uint32_t
 aGenerationId
 wr
@@ -825,7 +818,6 @@ UpdateKey
 (
 aManager
 aResources
-aForceUpdate
 aGenerationId
 )
 ;
@@ -895,7 +887,6 @@ UpdateKey
 (
 aManager
 aResources
-aForceUpdate
 aGenerationId
 )
 ;
@@ -1075,7 +1066,6 @@ UpdateKey
 (
 aManager
 aResources
-aForceUpdate
 aGenerationId
 )
 ;
@@ -1101,8 +1091,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-bool
-aForceUpdate
 wr
 :
 :
@@ -1254,7 +1242,6 @@ Share
 sharedSurface
 aManager
 aResources
-aForceUpdate
 generation
 aKey
 )
