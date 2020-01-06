@@ -1525,6 +1525,10 @@ getter_AddRefs
 mPump
 )
 input
+.
+forget
+(
+)
 )
 ;
 if
@@ -4067,6 +4071,10 @@ getter_AddRefs
 mPump
 )
 input
+.
+forget
+(
+)
 )
 ;
 if

@@ -1735,10 +1735,6 @@ mCacheOutputStream
 =
 nullptr
 ;
-mCacheInputStream
-=
-nullptr
-;
 if
 (
 NS_FAILED
@@ -2986,6 +2982,12 @@ mLoadFlags
 =
 INHIBIT_PERSISTENT_CACHING
 ;
+nsCOMPtr
+<
+nsIInputStream
+>
+inputStream
+;
 rv
 =
 mCacheEntry
@@ -2996,7 +2998,7 @@ OpenInputStream
 0
 getter_AddRefs
 (
-mCacheInputStream
+inputStream
 )
 )
 ;
@@ -3012,7 +3014,7 @@ rv
 ;
 NS_ENSURE_TRUE
 (
-mCacheInputStream
+inputStream
 NS_ERROR_UNEXPECTED
 )
 ;
@@ -3024,7 +3026,11 @@ getter_AddRefs
 (
 mPump
 )
-mCacheInputStream
+inputStream
+.
+forget
+(
+)
 )
 ;
 if

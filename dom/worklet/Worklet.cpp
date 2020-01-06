@@ -672,6 +672,10 @@ getter_AddRefs
 pump
 )
 inputStream
+.
+forget
+(
+)
 )
 ;
 if
