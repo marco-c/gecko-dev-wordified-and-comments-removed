@@ -1063,6 +1063,12 @@ doctypeAsNode
 result
 )
 ;
+result
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 NS_WARN_IF
@@ -1151,6 +1157,12 @@ AppendChild
 *
 root
 result
+)
+;
+result
+.
+WouldReportJSException
+(
 )
 ;
 if

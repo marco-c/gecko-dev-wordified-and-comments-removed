@@ -11811,7 +11811,7 @@ return
 aArg
 ;
 }
-nsresult
+void
 ReparentWrapper
 (
 JSContext
@@ -11826,6 +11826,9 @@ JSObject
 *
 >
 aObj
+ErrorResult
+&
+aError
 )
 ;
 bool

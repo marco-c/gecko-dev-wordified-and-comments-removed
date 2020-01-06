@@ -7464,8 +7464,6 @@ cx
 wrapper
 )
 ;
-rv
-=
 mozilla
 :
 :
@@ -7476,6 +7474,7 @@ ReparentWrapper
 (
 cx
 wrapper
+rv
 )
 ;
 if
@@ -7520,8 +7519,6 @@ if
 contentsOwnerWrapper
 )
 {
-rv
-=
 mozilla
 :
 :
@@ -7532,6 +7529,7 @@ ReparentWrapper
 (
 cx
 contentsOwnerWrapper
+rv
 )
 ;
 if
