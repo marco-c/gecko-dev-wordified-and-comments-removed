@@ -198,7 +198,7 @@ layout_width
 "
 dimen
 /
-favicon_bg
+favicon_small_size
 "
 android
 :
@@ -207,7 +207,7 @@ layout_height
 "
 dimen
 /
-favicon_bg
+favicon_small_size
 "
 android
 :
@@ -223,7 +223,7 @@ minWidth
 "
 dimen
 /
-favicon_bg
+favicon_small_size
 "
 android
 :
@@ -232,7 +232,7 @@ minHeight
 "
 dimen
 /
-favicon_bg
+favicon_small_size
 "
 /
 >
