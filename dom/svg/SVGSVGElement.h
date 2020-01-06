@@ -1517,6 +1517,10 @@ mRootElem
 (
 aRootElem
 )
+mDidOverride
+(
+false
+)
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
