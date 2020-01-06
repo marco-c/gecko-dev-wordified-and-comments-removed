@@ -433,9 +433,6 @@ self
 paths
 =
 None
-rev
-=
-None
 outgoing
 =
 None
@@ -478,20 +475,6 @@ or
 directories
 to
 lint
-.
-        
-:
-param
-rev
-:
-Lint
-all
-files
-touched
-by
-the
-specified
-revision
 .
         
 :
@@ -605,24 +588,6 @@ linters
             
 raise
 LintersNotConfigured
-        
-if
-rev
-:
-            
-paths
-.
-extend
-(
-self
-.
-vcs
-.
-by_rev
-(
-rev
-)
-)
         
 if
 workdir
