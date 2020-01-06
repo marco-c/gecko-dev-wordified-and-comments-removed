@@ -59,7 +59,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsRefPtrHashtable
 .
 h
 "
@@ -991,13 +991,10 @@ Layer
 >
 mRoot
 ;
-nsDataHashtable
+nsRefPtrHashtable
 <
 nsUint64HashKey
-RefPtr
-<
 Layer
->
 >
 mLayerMap
 ;
