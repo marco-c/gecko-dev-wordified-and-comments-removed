@@ -315,13 +315,6 @@ StatisticsPanel
 propTypes
 :
 {
-connector
-:
-PropTypes
-.
-object
-.
-isRequired
 closeStatistics
 :
 PropTypes
@@ -1761,7 +1754,6 @@ valueSeq
 )
 (
 dispatch
-props
 )
 =
 >
@@ -1779,9 +1771,6 @@ Actions
 .
 openStatistics
 (
-props
-.
-connector
 false
 )
 )
