@@ -424,7 +424,7 @@ behaviors
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 newGlobal

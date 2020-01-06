@@ -623,7 +623,7 @@ run_next_test
 add_test
 (
 function
-test_arm_async_generator
+test_arm_async_function
 (
 )
 {
@@ -665,7 +665,7 @@ arm
 add_test
 (
 function
-test_arm_async_legacy_generator
+test_arm_async_generator
 (
 )
 {
@@ -675,10 +675,8 @@ deferredTask
 new
 DeferredTask
 (
-eval
-(
-(
 function
+*
 (
 )
 {
@@ -694,8 +692,6 @@ run_next_test
 )
 ;
 }
-)
-)
 50
 )
 ;
