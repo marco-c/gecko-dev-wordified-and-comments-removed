@@ -1299,7 +1299,7 @@ profiler_call_enter
 const
 char
 *
-aInfo
+aLabel
 js
 :
 :
@@ -1344,13 +1344,13 @@ pseudoStack
 pseudoStack
 -
 >
-push
+pushCppFrame
 (
-aInfo
-aCategory
+aLabel
+aDynamicString
 aFrameAddress
 aLine
-aDynamicString
+aCategory
 )
 ;
 return
