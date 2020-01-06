@@ -926,11 +926,6 @@ NS_DECLARE_FRAME_PROPERTY_FRAMELIST
 (
 BackdropProperty
 )
-NS_DECLARE_FRAME_PROPERTY_WITHOUT_DTOR
-(
-FirstLetterProperty
-nsIFrame
-)
 #
 ifdef
 DEBUG

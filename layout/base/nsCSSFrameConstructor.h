@@ -108,9 +108,6 @@ class
 nsFirstLineFrame
 ;
 class
-nsFirstLetterFrame
-;
-class
 nsICSSAnonBoxPseudo
 ;
 class
@@ -4683,8 +4680,7 @@ nsIContent
 aReframeContent
 )
 ;
-nsFirstLetterFrame
-*
+void
 CreateFloatingLetterFrame
 (
 nsFrameConstructorState
