@@ -94,14 +94,6 @@ DevToolsUtils
 "
 )
 ;
-exports
-.
-emit
-=
-EventEmitter
-.
-emit
-;
 var
 types
 =
