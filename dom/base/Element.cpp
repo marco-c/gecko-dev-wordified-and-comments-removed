@@ -5632,7 +5632,7 @@ GetShell
 shell
 -
 >
-DestroyFramesFor
+DestroyFramesForAndRestyle
 (
 this
 )

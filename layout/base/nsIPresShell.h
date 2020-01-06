@@ -1270,7 +1270,7 @@ NotifyCounterStylesAreDirty
 ;
 virtual
 void
-DestroyFramesFor
+DestroyFramesForAndRestyle
 (
 mozilla
 :

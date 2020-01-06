@@ -1173,7 +1173,7 @@ return
 shell
 -
 >
-DestroyFramesFor
+DestroyFramesForAndRestyle
 (
 host
 )
@@ -2168,7 +2168,7 @@ return
 shell
 -
 >
-DestroyFramesFor
+DestroyFramesForAndRestyle
 (
 aElement
 )
