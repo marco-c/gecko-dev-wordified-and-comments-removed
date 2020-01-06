@@ -68,9 +68,7 @@ h
 #
 include
 "
-js
-/
-Utility
+jsutil
 .
 h
 "
@@ -457,6 +455,16 @@ options
 )
 )
 {
+MOZ_ASSERT
+(
+js
+:
+:
+IsInitialized
+(
+)
+)
+;
 }
 template
 <

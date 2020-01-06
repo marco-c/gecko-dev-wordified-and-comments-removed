@@ -438,6 +438,13 @@ JS_Init
 "
 )
 ;
+libraryInitState
+=
+InitState
+:
+:
+Initializing
+;
 PRMJ_NowInit
 (
 )

@@ -24,6 +24,7 @@ InitState
 Uninitialized
 =
 0
+Initializing
 Running
 ShutDown
 }
@@ -210,7 +211,7 @@ detail
 :
 :
 libraryInitState
-!
+>
 =
 JS
 :
@@ -221,7 +222,7 @@ detail
 InitState
 :
 :
-Uninitialized
+Running
 ;
 }
 extern
