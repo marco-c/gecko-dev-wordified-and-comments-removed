@@ -341,12 +341,6 @@ DoRandomOperation
 (
 )
 {
-using
-mozilla
-:
-:
-UniquePtr
-;
 Object
 *
 obj
