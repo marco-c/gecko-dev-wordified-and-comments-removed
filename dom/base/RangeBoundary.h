@@ -826,7 +826,7 @@ void
 Set
 (
 const
-nsIContent
+nsINode
 *
 aChild
 )
@@ -836,6 +836,24 @@ MOZ_ASSERT
 aChild
 )
 ;
+if
+(
+!
+aChild
+-
+>
+IsContent
+(
+)
+)
+{
+Clear
+(
+)
+;
+return
+;
+}
 mParent
 =
 aChild
@@ -901,7 +919,7 @@ reset
 )
 ;
 }
-void
+bool
 AdvanceOffset
 (
 )
@@ -916,6 +934,7 @@ mParent
 )
 {
 return
+false
 ;
 }
 EnsureRef
@@ -969,6 +988,7 @@ Length
 )
 {
 return
+false
 ;
 }
 mOffset
@@ -988,6 +1008,7 @@ value
 )
 ;
 return
+true
 ;
 }
 mRef
@@ -1018,9 +1039,10 @@ Some
 0
 )
 ;
+return
+false
+;
 }
-else
-{
 mOffset
 =
 mozilla
@@ -1031,8 +1053,8 @@ Some
 1
 )
 ;
-}
 return
+true
 ;
 }
 nsIContent
@@ -1056,6 +1078,7 @@ nextSibling
 )
 {
 return
+false
 ;
 }
 mRef
@@ -1088,8 +1111,11 @@ value
 )
 ;
 }
+return
+true
+;
 }
-void
+bool
 RewindOffset
 (
 )
@@ -1104,6 +1130,7 @@ mParent
 )
 {
 return
+false
 ;
 }
 EnsureRef
@@ -1140,6 +1167,7 @@ Some
 )
 ;
 return
+false
 ;
 }
 MOZ_ASSERT
@@ -1167,6 +1195,7 @@ value
 )
 {
 return
+false
 ;
 }
 mOffset
@@ -1186,6 +1215,7 @@ value
 )
 ;
 return
+true
 ;
 }
 mRef
@@ -1223,6 +1253,9 @@ value
 )
 ;
 }
+return
+true
+;
 }
 void
 SetAfterRef
