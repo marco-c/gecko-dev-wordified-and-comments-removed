@@ -95,6 +95,10 @@ MPL
 /
 include
 protocol
+PTexture
+;
+include
+protocol
 PVideoDecoder
 ;
 include
