@@ -416,6 +416,16 @@ nullptr
 return
 ;
 }
+RefPtr
+<
+CacheWorkerHolder
+>
+holder
+=
+GetWorkerHolder
+(
+)
+;
 SendOpenStream
 (
 aId
@@ -430,6 +440,7 @@ GetCurrentThreadSerialEventTarget
 __func__
 [
 aResolver
+holder
 ]
 (
 const
@@ -460,6 +471,7 @@ stream
 }
 [
 aResolver
+holder
 ]
 (
 PromiseRejectReason
