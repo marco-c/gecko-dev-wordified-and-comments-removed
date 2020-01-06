@@ -2208,8 +2208,11 @@ PageTableCache
 {
 memset
 (
-&
 mPages
+.
+begin
+(
+)
 0
 sizeof
 (
