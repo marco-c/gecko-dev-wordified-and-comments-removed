@@ -30,7 +30,7 @@ muted
 pending
 "
 "
-iconLoadingPrincipal
+iconloadingprincipal
 "
 "
 skipbackgroundnotify
