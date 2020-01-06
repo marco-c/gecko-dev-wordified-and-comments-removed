@@ -407,12 +407,6 @@ NotifyNetworkError
 override
 ;
 void
-NotifyDecodeError
-(
-)
-override
-;
-void
 NotifyDataArrived
 (
 )

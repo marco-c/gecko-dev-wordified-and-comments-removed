@@ -67,13 +67,6 @@ NotifyNetworkError
 }
 virtual
 void
-NotifyDecodeError
-(
-)
-{
-}
-virtual
-void
 NotifyDataArrived
 (
 )
