@@ -981,10 +981,6 @@ cubeb_channel_layout
 sPreferredChannelLayout
 ;
 }
-extern
-LazyLogModule
-gAudioStreamLog
-;
 static
 const
 uint32_t

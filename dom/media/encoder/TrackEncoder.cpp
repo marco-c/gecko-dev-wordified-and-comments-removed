@@ -122,13 +122,6 @@ DEFAULT_FRAME_HEIGHT
 static
 const
 int
-DEFAULT_TRACK_RATE
-=
-USECS_PER_S
-;
-static
-const
-int
 AUDIO_INIT_FAILED_DURATION
 =
 1

@@ -2546,15 +2546,6 @@ javascript
 options
 .
 "
-static
-const
-char
-js_options_dot_str
-[
-]
-=
-JS_OPTIONS_DOT_STR
-;
 nsJSContext
 :
 :

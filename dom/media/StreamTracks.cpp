@@ -22,6 +22,9 @@ algorithm
 namespace
 mozilla
 {
+#
+ifdef
+DEBUG
 extern
 LazyLogModule
 gMediaStreamGraphLog
@@ -39,9 +42,6 @@ gMediaStreamGraphLog
 type
 msg
 )
-#
-ifdef
-DEBUG
 void
 StreamTracks
 :

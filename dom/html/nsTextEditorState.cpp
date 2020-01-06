@@ -349,13 +349,6 @@ layers
 :
 ScrollInputMethod
 ;
-static
-NS_DEFINE_CID
-(
-kTextEditorCID
-NS_TEXTEDITOR_CID
-)
-;
 class
 MOZ_STACK_CLASS
 ValueSetter

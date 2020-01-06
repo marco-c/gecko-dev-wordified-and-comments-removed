@@ -217,15 +217,6 @@ already_AddRefed
 <
 PlatformDecoderModule
 >
-CreateAgnosticDecoderModule
-(
-)
-;
-extern
-already_AddRefed
-<
-PlatformDecoderModule
->
 CreateBlankDecoderModule
 (
 )
