@@ -972,6 +972,11 @@ Blur
 cpp
 '
 '
+CaptureCommandList
+.
+cpp
+'
+'
 DataSourceSurface
 .
 cpp

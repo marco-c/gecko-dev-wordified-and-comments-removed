@@ -108,6 +108,17 @@ nsCocoaFeatures
 h
 "
 #
+include
+"
+mozilla
+/
+gfx
+/
+Logging
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_COCOA
 extern
