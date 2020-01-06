@@ -45,15 +45,6 @@ ProfilingStack
 .
 h
 "
-void
-ProfilerJSEventMarker
-(
-const
-char
-*
-aEvent
-)
-;
 class
 RacyThreadInfo
 final
@@ -690,8 +681,7 @@ js
 RegisterContextProfilingEventMarker
 (
 mContext
-&
-ProfilerJSEventMarker
+profiler_add_marker
 )
 ;
 }
