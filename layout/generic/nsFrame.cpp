@@ -4234,6 +4234,14 @@ StyleImageLoader
 if
 (
 aOldLayers
+&
+&
+aFrame
+-
+>
+HasImageRequest
+(
+)
 )
 {
 CompareLayers
