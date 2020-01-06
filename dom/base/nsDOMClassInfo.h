@@ -71,10 +71,10 @@ struct
 nsGlobalNameStruct
 ;
 class
-nsGlobalWindow
+nsGlobalWindowInner
 ;
 class
-nsGlobalWindowInner
+nsGlobalWindowOuter
 ;
 struct
 nsDOMClassInfoData
@@ -433,7 +433,11 @@ desc
 ;
 friend
 class
-nsGlobalWindow
+nsGlobalWindowInner
+;
+friend
+class
+nsGlobalWindowOuter
 ;
 public
 :

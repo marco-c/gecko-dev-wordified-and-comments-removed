@@ -99,7 +99,10 @@ window
 thawed
 "
 class
-nsGlobalWindow
+nsGlobalWindowInner
+;
+class
+nsGlobalWindowOuter
 ;
 class
 nsIArray
@@ -1919,7 +1922,10 @@ mozIDOMWindow
 >
 {
 friend
-nsGlobalWindow
+nsGlobalWindowInner
+;
+friend
+nsGlobalWindowOuter
 ;
 public
 :

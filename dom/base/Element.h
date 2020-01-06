@@ -302,7 +302,10 @@ class
 nsFocusManager
 ;
 class
-nsGlobalWindow
+nsGlobalWindowInner
+;
+class
+nsGlobalWindowOuter
 ;
 class
 nsICSSDeclaration
@@ -1435,7 +1438,13 @@ friend
 class
 :
 :
-nsGlobalWindow
+nsGlobalWindowInner
+;
+friend
+class
+:
+:
+nsGlobalWindowOuter
 ;
 friend
 class
