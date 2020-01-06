@@ -42,13 +42,6 @@ return
 off
 "
 "
-quotes
-"
-:
-"
-off
-"
-"
 object
 -
 shorthand

@@ -20,7 +20,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -34,7 +34,7 @@ accessibility
 Utils
 .
 jsm
-'
+"
 )
 ;
 Cu
@@ -90,9 +90,9 @@ getAccessible
 aOldAccOrElmOrID
 |
 |
-'
+"
 root
-'
+"
 )
 :
 null
@@ -479,9 +479,9 @@ getAccessible
 aOldAccOrElmOrID
 |
 |
-'
+"
 root
-'
+"
 )
 :
 null

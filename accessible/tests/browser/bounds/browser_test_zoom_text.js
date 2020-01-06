@@ -68,11 +68,11 @@ browser
 {
 name
 :
-'
+"
 layout
 .
 js
-'
+"
 dir
 :
 MOCHITESTS_DIR
