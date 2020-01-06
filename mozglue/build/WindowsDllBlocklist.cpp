@@ -2081,8 +2081,7 @@ b
 mVersion
 !
 =
--
-1
+ALL_VERSIONS
 )
 {
 WriteFile
