@@ -2141,6 +2141,9 @@ RawGeckoNode
 RawServoAnimationValue
 "
 "
+RawGeckoServoAnimationValueList
+"
+"
 RawServoDeclarationBlock
 "
 "
@@ -2593,6 +2596,9 @@ RawGeckoFontFaceRuleList
 "
 "
 RawGeckoServoStyleRuleList
+"
+"
+RawGeckoServoAnimationValueList
 "
 ]
 fixups

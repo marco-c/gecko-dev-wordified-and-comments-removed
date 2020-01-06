@@ -219,6 +219,16 @@ RawGeckoURLExtraData
 typedef
 nsTArray
 <
+RefPtr
+<
+RawServoAnimationValue
+>
+>
+RawGeckoServoAnimationValueList
+;
+typedef
+nsTArray
+<
 mozilla
 :
 :
@@ -547,6 +557,10 @@ RawGeckoPresContext
 DECL_BORROWED_REF_TYPE_FOR
 (
 RawGeckoPresContext
+)
+DECL_BORROWED_MUT_REF_TYPE_FOR
+(
+RawGeckoServoAnimationValueList
 )
 DECL_BORROWED_MUT_REF_TYPE_FOR
 (
