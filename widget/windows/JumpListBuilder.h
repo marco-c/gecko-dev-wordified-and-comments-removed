@@ -89,6 +89,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ReentrantMonitor
+.
+h
+"
 namespace
 mozilla
 {
@@ -153,6 +162,9 @@ nsCOMPtr
 nsIThread
 >
 mIOThread
+;
+ReentrantMonitor
+mMonitor
 ;
 bool
 IsSeparator
