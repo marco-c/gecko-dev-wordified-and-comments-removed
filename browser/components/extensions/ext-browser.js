@@ -1989,17 +1989,6 @@ getId
 nativeTab
 )
 ;
-Services
-.
-tm
-.
-dispatchToMainThread
-(
-(
-)
-=
->
-{
 this
 .
 emit
@@ -2014,9 +2003,6 @@ nativeTab
 tabId
 windowId
 isWindowClosing
-}
-)
-;
 }
 )
 ;
