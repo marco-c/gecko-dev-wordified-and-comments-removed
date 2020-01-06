@@ -1365,9 +1365,6 @@ nsAttrName
 nsAttrValue
 "
 "
-nsBorderColors
-"
-"
 nscolor
 "
 "
@@ -2796,12 +2793,6 @@ OriginFlags
 mozilla
 :
 :
-Side
-"
-"
-mozilla
-:
-:
 UniquePtr
 "
 "
@@ -2959,9 +2950,6 @@ StyleTransition
 "
 "
 gfxFontFeatureValueSet
-"
-"
-nsBorderColors
 "
 "
 nsCSSCounterStyleRule
