@@ -18374,6 +18374,8 @@ ownerDocument
 location
 .
 hostname
+{
+}
 )
 ;
 let
