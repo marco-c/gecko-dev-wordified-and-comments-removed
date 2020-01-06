@@ -140,13 +140,6 @@ android
 .
 app
 .
-NotificationManager
-;
-import
-android
-.
-app
-.
 PendingIntent
 ;
 import
@@ -393,13 +386,6 @@ java
 util
 .
 GregorianCalendar
-;
-import
-java
-.
-util
-.
-List
 ;
 import
 java
