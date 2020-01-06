@@ -5264,9 +5264,8 @@ ENTITY
 contextmenu_add_to_launcher
 "
 Add
-to
-Home
-Screen
+Page
+Shortcut
 "
 >
 <
@@ -9114,9 +9113,8 @@ ENTITY
 promotion_add_to_homescreen
 "
 Add
-to
-home
-screen
+page
+shortcut
 "
 >
 <
