@@ -407,9 +407,6 @@ class
 RemoveStyleSheetTransaction
 ;
 class
-SetTextTransaction
-;
-class
 SplitNodeTransaction
 ;
 class
