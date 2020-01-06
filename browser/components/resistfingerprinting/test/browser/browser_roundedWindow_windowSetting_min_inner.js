@@ -44,5 +44,6 @@ initHeight
 1000
 }
 ]
+false
 )
 ;
