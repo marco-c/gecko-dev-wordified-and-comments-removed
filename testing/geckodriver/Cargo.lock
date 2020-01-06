@@ -51,9 +51,9 @@ index
 clap
 2
 .
-22
+23
 .
-1
+2
 (
 registry
 +
@@ -82,7 +82,7 @@ hyper
 .
 10
 .
-5
+7
 (
 registry
 +
@@ -1487,9 +1487,9 @@ version
 "
 2
 .
-22
+23
 .
-1
+2
 "
 source
 =
@@ -1579,9 +1579,9 @@ index
 term_size
 0
 .
-2
-.
 3
+.
+0
 (
 registry
 +
@@ -2128,7 +2128,7 @@ version
 .
 10
 .
-5
+7
 "
 source
 =
@@ -2526,7 +2526,7 @@ version
 .
 1
 .
-0
+1
 "
 source
 =
@@ -3208,7 +3208,7 @@ version
 .
 2
 .
-5
+6
 "
 source
 =
@@ -4204,7 +4204,7 @@ integer
 .
 1
 .
-33
+34
 (
 registry
 +
@@ -4309,7 +4309,7 @@ version
 .
 1
 .
-33
+34
 "
 source
 =
@@ -4424,7 +4424,7 @@ integer
 .
 1
 .
-33
+34
 (
 registry
 +
@@ -5737,7 +5737,7 @@ lazy_static
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -6314,9 +6314,9 @@ version
 "
 0
 .
-2
-.
 3
+.
+0
 "
 source
 =
@@ -7491,7 +7491,7 @@ idna
 .
 1
 .
-0
+1
 (
 registry
 +
@@ -7887,7 +7887,7 @@ hyper
 .
 10
 .
-5
+7
 (
 registry
 +
@@ -8858,9 +8858,9 @@ checksum
 clap
 2
 .
-22
+23
 .
-1
+2
 (
 registry
 +
@@ -8885,7 +8885,7 @@ index
 "
 =
 "
-e17a4a72ffea176f77d6e2db609c6c919ef221f23862c9915e687fb54d833485
+cbf1114886d7cde2d6448517161d7db8d681a9a1c09f7d210f0b0864e48195f6
 "
 "
 checksum
@@ -9100,7 +9100,7 @@ hyper
 .
 10
 .
-5
+7
 (
 registry
 +
@@ -9125,7 +9125,7 @@ index
 "
 =
 "
-43a15e3273b2133aaac0150478ab443fb89f15c3de41d8d93d8f3bb14bf560f6
+eb15973f070a7de8bf3f61261726ef09647741110af6062d5ca1e21e6c4bd013
 "
 "
 checksum
@@ -9134,7 +9134,7 @@ idna
 .
 1
 .
-0
+1
 (
 registry
 +
@@ -9159,7 +9159,7 @@ index
 "
 =
 "
-1053236e00ce4f668aeca4a769a09b3bf5a682d802abd6f3cb39374f6b162c11
+6ac85ec3f80c8e4e99d9325521337e14ec7555c458a14e377d189659a427f375
 "
 "
 checksum
@@ -9380,7 +9380,7 @@ lazy_static
 .
 2
 .
-5
+6
 (
 registry
 +
@@ -9405,7 +9405,7 @@ index
 "
 =
 "
-4732c563b9a21a406565c4747daa7b46742f082911ae4753f390dc9ec7ee1a97
+2f61b8421c7a4648c391611625d56fdd5c7567da05af1be655fd8cacc643abb3
 "
 "
 checksum
@@ -9792,7 +9792,7 @@ integer
 .
 1
 .
-33
+34
 (
 registry
 +
@@ -9817,7 +9817,7 @@ index
 "
 =
 "
-21e4df1098d1d797d27ef0c69c178c3fab64941559b290fcae198e0825c9c8b5
+ef1a4bf6f9174aa5783a9b4cc892cacd11aebad6c69ad027a0b65c6ca5f8aa37
 "
 "
 checksum
@@ -10630,9 +10630,9 @@ checksum
 term_size
 0
 .
-2
-.
 3
+.
+0
 (
 registry
 +
@@ -10657,7 +10657,7 @@ index
 "
 =
 "
-07b6c1ac5b3fffd75073276bca1ceed01f67a28537097a2a9539e116e50fb21a
+e2b6b55df3198cc93372e85dd2ed817f0e38ce8cc0f22eb32391bfad9c4bf209
 "
 "
 checksum
