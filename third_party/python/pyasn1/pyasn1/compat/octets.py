@@ -87,6 +87,24 @@ isinstance
 s
 str
 )
+    
+isStringType
+=
+lambda
+s
+:
+isinstance
+(
+s
+(
+str
+unicode
+)
+)
+    
+ensureString
+=
+str
 else
 :
     
@@ -122,15 +140,9 @@ x
 octs2ints
 =
 lambda
-s
+x
 :
-[
 x
-for
-x
-in
-s
-]
     
 str2octs
 =
@@ -141,6 +153,13 @@ x
 .
 encode
 (
+'
+iso
+-
+8859
+-
+1
+'
 )
     
 octs2str
@@ -152,6 +171,13 @@ x
 .
 decode
 (
+'
+iso
+-
+8859
+-
+1
+'
 )
     
 isOctetsType
@@ -164,3 +190,18 @@ isinstance
 s
 bytes
 )
+    
+isStringType
+=
+lambda
+s
+:
+isinstance
+(
+s
+str
+)
+    
+ensureString
+=
+bytes
