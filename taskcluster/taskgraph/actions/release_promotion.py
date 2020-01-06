@@ -982,12 +982,6 @@ release_promotion_flavor
 '
 ]
     
-if
-release_promotion_flavor
-in
-VERSION_BUMP_FLAVORS
-:
-        
 next_version
 =
 str
@@ -999,17 +993,28 @@ get
 '
 next_version
 '
+)
+or
 '
 '
 )
-)
+    
+if
+release_promotion_flavor
+in
+VERSION_BUMP_FLAVORS
+:
         
 if
 next_version
-=
-=
-"
-"
+in
+[
+'
+'
+'
+None
+'
+]
 :
             
 raise
