@@ -1133,6 +1133,7 @@ new
 UnscaledFontDWrite
 (
 fontFace
+nullptr
 DWRITE_FONT_SIMULATIONS_NONE
 mNeedsCairo
 )
