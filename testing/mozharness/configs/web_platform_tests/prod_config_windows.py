@@ -382,4 +382,14 @@ download_minidump_stackwalk
 "
 :
 True
+    
+"
+verify_category
+"
+:
+"
+web
+-
+platform
+"
 }
