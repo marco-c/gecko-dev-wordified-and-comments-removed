@@ -953,6 +953,10 @@ startOffset
 0
 ;
 }
+UpdatePrincipal
+(
+)
+;
 mCacheStream
 .
 NotifyDataStarted
@@ -1641,10 +1645,6 @@ uint32_t
 aCount
 )
 {
-UpdatePrincipal
-(
-)
-;
 RefPtr
 <
 ChannelMediaResource
@@ -3272,6 +3272,11 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_ASSERT
+(
+mChannel
+)
+;
 nsCOMPtr
 <
 nsIPrincipal
@@ -3292,9 +3297,6 @@ GetSecurityManager
 if
 (
 secMan
-&
-&
-mChannel
 )
 {
 secMan
