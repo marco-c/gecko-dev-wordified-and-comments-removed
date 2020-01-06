@@ -197,16 +197,4 @@ exe
 )
 )
 endif
-OS_CXXFLAGS
-+
-=
-(
-CLANG_PLUGIN_FLAGS
-)
-OS_CFLAGS
-+
-=
-(
-CLANG_PLUGIN_FLAGS
-)
 endif
