@@ -9,6 +9,16 @@ output
 *
 page_load_test
 /
+tp5n
+/
+*
+page_load_test
+/
+tp5n
+.
+zip
+venv
+/
 *
 __pycache__
 /
