@@ -1701,15 +1701,6 @@ perf
 -
 enable
 -
-safe
--
-browsing
-'
-'
--
--
-enable
--
 sandbox
 '
 '
