@@ -285,6 +285,15 @@ src
 /
 cubeb_utils
 .
+c
+src
+cp
+1
+/
+src
+/
+cubeb_utils
+.
 h
 src
 cp

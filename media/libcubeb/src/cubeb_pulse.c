@@ -65,6 +65,13 @@ h
 "
 #
 include
+"
+cubeb_utils
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -7799,6 +7806,10 @@ pulse_get_preferred_channel_layout
 enumerate_devices
 =
 pulse_enumerate_devices
+.
+device_collection_destroy
+=
+cubeb_utils_default_device_collection_destroy
 .
 destroy
 =

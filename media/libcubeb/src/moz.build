@@ -123,6 +123,11 @@ cubeb_panner
 .
 cpp
 '
+'
+cubeb_utils
+.
+c
+'
 ]
 if
 CONFIG

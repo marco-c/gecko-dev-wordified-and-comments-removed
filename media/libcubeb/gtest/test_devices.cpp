@@ -745,6 +745,7 @@ stdout
 ;
 cubeb_device_collection_destroy
 (
+ctx
 collection
 )
 ;
@@ -820,6 +821,7 @@ stdout
 ;
 cubeb_device_collection_destroy
 (
+ctx
 collection
 )
 ;

@@ -3221,6 +3221,11 @@ got
 )
 ;
 }
+cubeb_resampler_destroy
+(
+resampler
+)
+;
 }
 void
 check_input
@@ -3397,6 +3402,11 @@ got
 )
 ;
 }
+cubeb_resampler_destroy
+(
+resampler
+)
+;
 }
 template
 <
@@ -4070,4 +4080,9 @@ BUF_BASE_SIZE
 )
 ;
 }
+cubeb_resampler_destroy
+(
+resampler
+)
+;
 }

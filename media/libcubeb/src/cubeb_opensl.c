@@ -9277,6 +9277,10 @@ enumerate_devices
 =
 NULL
 .
+device_collection_destroy
+=
+NULL
+.
 destroy
 =
 opensl_destroy

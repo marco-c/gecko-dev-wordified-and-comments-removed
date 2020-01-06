@@ -83,6 +83,13 @@ h
 "
 #
 include
+"
+cubeb_utils
+.
+h
+"
+#
+include
 <
 jack
 /
@@ -716,6 +723,10 @@ NULL
 enumerate_devices
 =
 cbjack_enumerate_devices
+.
+device_collection_destroy
+=
+cubeb_utils_default_device_collection_destroy
 .
 destroy
 =
