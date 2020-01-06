@@ -781,7 +781,7 @@ button
 )
 ;
 let
-titleBarButton
+titlebarCheckbox
 =
 document
 .
@@ -794,7 +794,7 @@ titlebar
 -
 visibility
 -
-button
+checkbox
 "
 )
 ;
@@ -855,7 +855,7 @@ state
 ;
 is
 (
-titleBarButton
+titlebarCheckbox
 .
 hasAttribute
 (
@@ -868,7 +868,7 @@ defaultValue
 "
 Title
 bar
-button
+checkbox
 should
 reflect
 pref
@@ -928,7 +928,7 @@ changed
 ;
 is
 (
-titleBarButton
+titlebarCheckbox
 .
 hasAttribute
 (
@@ -940,7 +940,7 @@ defaultValue
 "
 Title
 bar
-button
+checkbox
 should
 reflect
 changed
@@ -1010,7 +1010,7 @@ reset
 ;
 is
 (
-titleBarButton
+titlebarCheckbox
 .
 hasAttribute
 (
@@ -1023,7 +1023,7 @@ defaultValue
 "
 Title
 bar
-button
+checkbox
 should
 reflect
 default
@@ -1132,7 +1132,7 @@ reset
 ;
 is
 (
-titleBarButton
+titlebarCheckbox
 .
 hasAttribute
 (
@@ -1144,7 +1144,7 @@ defaultValue
 "
 Title
 bar
-button
+checkbox
 should
 reflect
 undo

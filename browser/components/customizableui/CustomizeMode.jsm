@@ -789,7 +789,7 @@ CAN_DRAW_IN_TITLEBAR
 {
 this
 .
-_updateTitlebarButton
+_updateTitlebarCheckbox
 (
 )
 ;
@@ -9258,7 +9258,7 @@ CAN_DRAW_IN_TITLEBAR
 {
 this
 .
-_updateTitlebarButton
+_updateTitlebarCheckbox
 (
 )
 ;
@@ -9307,7 +9307,7 @@ break
 ;
 }
 }
-_updateTitlebarButton
+_updateTitlebarCheckbox
 (
 )
 {
@@ -9336,7 +9336,7 @@ true
 )
 ;
 let
-button
+checkbox
 =
 this
 .
@@ -9351,7 +9351,7 @@ titlebar
 -
 visibility
 -
-button
+checkbox
 "
 )
 ;
@@ -9360,7 +9360,7 @@ if
 drawInTitlebar
 )
 {
-button
+checkbox
 .
 removeAttribute
 (
@@ -9372,7 +9372,7 @@ checked
 }
 else
 {
-button
+checkbox
 .
 setAttribute
 (
