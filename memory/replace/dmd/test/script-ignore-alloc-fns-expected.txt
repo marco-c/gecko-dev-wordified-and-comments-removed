@@ -109,8 +109,10 @@ json
 Invocation
 {
 DMD
-is
-undefined
+=
+'
+1
+'
 Mode
 =
 '

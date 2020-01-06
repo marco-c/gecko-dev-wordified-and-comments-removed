@@ -13,7 +13,9 @@ invocation
 dmdEnvVar
 "
 :
-null
+"
+1
+"
 "
 mode
 "
