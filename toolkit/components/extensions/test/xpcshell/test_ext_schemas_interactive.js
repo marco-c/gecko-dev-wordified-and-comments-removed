@@ -26,6 +26,7 @@ jsm
 ;
 const
 {
+ExtensionAPI
 ExtensionAPIs
 }
 =
