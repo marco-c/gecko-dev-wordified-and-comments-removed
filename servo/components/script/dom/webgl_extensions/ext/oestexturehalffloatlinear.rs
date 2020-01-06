@@ -81,6 +81,7 @@ super
 {
 WebGLExtension
 WebGLExtensions
+WebGLExtensionSpec
 }
 ;
 #
@@ -170,6 +171,19 @@ OESTextureHalfFloatLinearBinding
 :
 Wrap
 )
+}
+fn
+spec
+(
+)
+-
+>
+WebGLExtensionSpec
+{
+WebGLExtensionSpec
+:
+:
+All
 }
 fn
 is_supported

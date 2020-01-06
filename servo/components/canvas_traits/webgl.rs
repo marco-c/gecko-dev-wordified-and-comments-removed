@@ -236,7 +236,9 @@ derive
 Clone
 Copy
 Deserialize
+Eq
 MallocSizeOf
+PartialEq
 Serialize
 )
 ]

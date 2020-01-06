@@ -111,6 +111,16 @@ use
 self
 :
 :
+extension
+:
+:
+WebGLExtensionSpec
+;
+pub
+use
+self
+:
+:
 extensions
 :
 :

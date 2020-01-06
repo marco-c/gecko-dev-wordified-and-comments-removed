@@ -1829,6 +1829,7 @@ WebGLExtensions
 :
 new
 (
+webgl_version
 )
 }
 }
