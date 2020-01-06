@@ -1105,6 +1105,8 @@ aNow
 MediaCacheStream
 *
 aStream
+int32_t
+aStreamBlockIndex
 )
 ;
 int32_t
@@ -3177,6 +3179,8 @@ aNow
 MediaCacheStream
 *
 aStream
+int32_t
+aStreamBlockIndex
 )
 {
 mReentrantMonitor
@@ -3192,13 +3196,7 @@ FindReusableBlock
 (
 aNow
 aStream
-OffsetToBlockIndexUnchecked
-(
-aStream
--
->
-mChannelOffset
-)
+aStreamBlockIndex
 INT32_MAX
 )
 ;
@@ -7507,6 +7505,7 @@ FindBlockForIncomingData
 (
 now
 aStream
+aStreamBlockIndex
 )
 ;
 if
