@@ -5517,6 +5517,9 @@ enabled
 false
 )
 ;
+#
+ifndef
+MOZILLA_OFFICIAL
 pref
 (
 "
@@ -5529,6 +5532,8 @@ id
 MOZ_APP_UA_NAME
 )
 ;
+#
+endif
 pref
 (
 "

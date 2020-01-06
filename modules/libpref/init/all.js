@@ -41170,7 +41170,9 @@ safebrowsing
 id
 "
 "
-Firefox
+%
+NAME
+%
 "
 )
 ;
@@ -44250,6 +44252,12 @@ false
 ;
 #
 if
+defined
+(
+NIGHTLY_BUILD
+)
+&
+&
 !
 defined
 (
