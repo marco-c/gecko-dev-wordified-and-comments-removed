@@ -5629,10 +5629,7 @@ else
 moveValue
 (
 v
-ValueOperand
-(
 temp
-)
 )
 ;
 for

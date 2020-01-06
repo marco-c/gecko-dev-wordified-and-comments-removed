@@ -710,10 +710,7 @@ masm
 moveValue
 (
 R1
-ValueOperand
-(
 R2
-)
 )
 ;
 val
