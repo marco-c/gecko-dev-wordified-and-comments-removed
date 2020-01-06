@@ -211,7 +211,9 @@ aria
 describedby
 =
 "
-infoBody
+info
+.
+body
 "
 onunload
 =
@@ -613,7 +615,9 @@ image
 id
 =
 "
-infoIcon
+info
+.
+icon
 "
 class
 =
@@ -667,7 +671,9 @@ description
 id
 =
 "
-infoTitle
+info
+.
+title
 "
 #
 ifndef
@@ -697,7 +703,9 @@ description
 id
 =
 "
-infoBody
+info
+.
+body
 "
 context
 =
