@@ -295,12 +295,14 @@ querySelector
 "
 .
 CodeMirror
--
-lines
 "
 )
 .
-textContent
+CodeMirror
+.
+getValue
+(
+)
 ;
 ok
 (
