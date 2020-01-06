@@ -79,9 +79,6 @@ Record
 filterBarVisible
 :
 false
-filteredMessageVisible
-:
-false
 persistLogs
 :
 false
