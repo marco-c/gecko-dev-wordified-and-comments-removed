@@ -5072,6 +5072,10 @@ replace_init
 malloc_table_t
 *
 aMallocTable
+ReplaceMallocBridge
+*
+*
+aBridge
 )
 {
 mozilla
@@ -5115,14 +5119,9 @@ malloc_decls
 .
 h
 "
-}
-ReplaceMallocBridge
 *
-replace_get_bridge
-(
-)
-{
-return
+aBridge
+=
 mozilla
 :
 :

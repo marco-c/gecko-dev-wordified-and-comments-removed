@@ -71,9 +71,4 @@ Wl
 -
 U
 _replace_init
--
-Wl
--
-U
-_replace_get_bridge
 endif
