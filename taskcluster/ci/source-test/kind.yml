@@ -53,6 +53,9 @@ MPL
 0
 /
 .
+-
+-
+-
 loader
 :
 taskgraph
@@ -93,9 +96,11 @@ jobs
 from
 :
 -
-python
+cram
+.
+yml
 -
-tests
+doc
 .
 yml
 -
@@ -107,7 +112,9 @@ mozlint
 .
 yml
 -
-doc
+python
+-
+tests
 .
 yml
 -

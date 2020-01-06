@@ -431,3 +431,17 @@ locales
 /
 docs
 '
+CRAMTEST_MANIFESTS
++
+=
+[
+'
+tryselect
+/
+test
+/
+cram
+.
+ini
+'
+]

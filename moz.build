@@ -449,6 +449,9 @@ third_party
 /
 python
 '
+'
+tools
+'
 ]
 if
 not
