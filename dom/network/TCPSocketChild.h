@@ -172,6 +172,9 @@ const
 uint16_t
 &
 aPort
+nsIEventTarget
+*
+aTarget
 )
 ;
 ~
@@ -369,6 +372,12 @@ mPort
 ;
 nsCString
 mFilterName
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mIPCEventTarget
 ;
 }
 ;
