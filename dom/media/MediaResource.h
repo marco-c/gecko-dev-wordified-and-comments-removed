@@ -1507,10 +1507,6 @@ aFlags
 nsresult
 OpenChannel
 (
-nsIStreamListener
-*
-*
-aStreamListener
 )
 ;
 nsresult
