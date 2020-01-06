@@ -178,6 +178,12 @@ const
 PerformanceObserverInit
 &
 aOptions
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 ;
 void
