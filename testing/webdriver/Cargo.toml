@@ -117,8 +117,17 @@ uuid
 "
 hyper
 =
+{
+version
+=
 "
 0
 .
 6
 "
+default
+-
+features
+=
+false
+}
