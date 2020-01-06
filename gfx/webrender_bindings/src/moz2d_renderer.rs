@@ -20,6 +20,7 @@ bindings
 ByteSlice
 MutByteSlice
 wr_moz2d_render_cb
+ArcVecU8
 }
 ;
 use
@@ -1254,13 +1255,7 @@ u32
 vec
 :
 &
-Arc
-<
-Vec
-<
-u8
->
->
+ArcVecU8
 )
 ;
 fn
