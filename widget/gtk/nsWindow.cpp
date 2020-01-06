@@ -24934,6 +24934,16 @@ gpointer
 user_data
 )
 {
+if
+(
+GPUProcessManager
+:
+:
+Get
+(
+)
+)
+{
 GPUProcessManager
 :
 :
@@ -24946,6 +24956,7 @@ ResetCompositors
 (
 )
 ;
+}
 }
 static
 void
