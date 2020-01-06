@@ -3612,6 +3612,11 @@ GeckoThread
 java
 '
 '
+GeckoView
+.
+java
+'
+'
 GeckoViewHandler
 .
 java
