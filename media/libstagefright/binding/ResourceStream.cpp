@@ -118,8 +118,7 @@ nsresult
 rv
 =
 mResource
--
->
+.
 ReadAt
 (
 offset
@@ -190,6 +189,10 @@ nsresult
 rv
 =
 mResource
+.
+GetResource
+(
+)
 -
 >
 ReadFromCache
@@ -246,8 +249,7 @@ aSize
 if
 (
 mResource
--
->
+.
 GetLength
 (
 )
@@ -261,8 +263,7 @@ false
 aSize
 =
 mResource
--
->
+.
 GetLength
 (
 )
