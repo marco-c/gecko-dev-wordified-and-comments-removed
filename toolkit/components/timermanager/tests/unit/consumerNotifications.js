@@ -1986,9 +1986,11 @@ observe
 (
 null
 "
-xpcom
+profile
 -
-shutdown
+before
+-
+change
 "
 "
 "
