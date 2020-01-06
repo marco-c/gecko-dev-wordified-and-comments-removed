@@ -70,6 +70,7 @@ __init__
 self
 abi
 os
+is64Bit
 isdebug
 )
 :
@@ -85,6 +86,12 @@ self
 os
 =
 os
+        
+self
+.
+is64Bit
+=
+is64Bit
         
 self
 .
@@ -147,6 +154,10 @@ OS
 {
 }
 "
+is64Bit
+:
+{
+}
 XPCOMABI
 :
 "
@@ -202,6 +213,18 @@ format
 self
 .
 os
+                    
+"
+true
+"
+if
+self
+.
+is64Bit
+else
+"
+false
+"
                     
 self
 .
@@ -401,6 +424,8 @@ TARGET_XPCOM_ABI
 OS_TARGET
 |
 MOZ_DEBUG
+|
+HAVE_64BIT_BUILD
 )
 \
 s
@@ -421,6 +446,11 @@ kw
 {
 '
 isdebug
+'
+:
+False
+'
+is64Bit
 '
 :
 False
@@ -500,6 +530,31 @@ os
 ]
 =
 val
+                
+if
+key
+=
+=
+'
+HAVE_64BIT_BUILD
+'
+:
+                    
+kw
+[
+'
+is64Bit
+'
+]
+=
+(
+val
+=
+=
+'
+1
+'
+)
                 
 if
 key
