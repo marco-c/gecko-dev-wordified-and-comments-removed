@@ -1276,11 +1276,11 @@ EditActionResult
 ReturnInParagraph
 (
 Selection
-*
+&
 aSelection
 nsINode
-*
-aHeader
+&
+aParentDivOrP
 nsINode
 *
 aTextNode
