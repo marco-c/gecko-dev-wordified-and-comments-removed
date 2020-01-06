@@ -18063,6 +18063,9 @@ compartment
 (
 )
 this
+getScriptName
+(
+)
 )
 ;
 destroyScriptName
