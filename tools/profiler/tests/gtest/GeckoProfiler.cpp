@@ -1710,14 +1710,14 @@ TRACING_EVENT
 )
 )
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 M3
 "
 )
 ;
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 M4
@@ -1753,7 +1753,7 @@ i
 +
 )
 {
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 M5
@@ -1922,7 +1922,7 @@ i
 +
 )
 {
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 M5

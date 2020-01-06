@@ -486,7 +486,7 @@ handle
 #
 ifdef
 MOZ_GECKO_PROFILER
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 gpu_timer_query

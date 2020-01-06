@@ -5755,7 +5755,7 @@ DoShutdown
 (
 )
 ;
-PROFILER_MARKER
+profiler_add_marker
 (
 "
 Shutdown

@@ -3651,7 +3651,7 @@ JS
 GC_CYCLE_END
 )
 {
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 GCMajor
@@ -3695,7 +3695,7 @@ JS
 GC_SLICE_END
 )
 {
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 GCSlice
@@ -4231,7 +4231,7 @@ profiler_is_active
 #
 ifdef
 MOZ_GECKO_PROFILER
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 GCMinor

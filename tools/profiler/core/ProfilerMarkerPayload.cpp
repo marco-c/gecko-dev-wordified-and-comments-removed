@@ -893,7 +893,7 @@ char
 event
 )
 {
-PROFILER_MARKER
+profiler_add_marker
 (
 event
 )

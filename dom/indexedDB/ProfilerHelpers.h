@@ -1475,7 +1475,7 @@ if
 aUseProfiler
 )
 {
-PROFILER_MARKER
+profiler_add_marker
 (
 message
 .

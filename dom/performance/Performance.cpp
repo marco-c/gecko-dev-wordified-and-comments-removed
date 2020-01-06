@@ -1331,7 +1331,7 @@ profiler_is_active
 )
 )
 {
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 UserTiming
@@ -1748,7 +1748,7 @@ FromMilliseconds
 endTime
 )
 ;
-PROFILER_MARKER_PAYLOAD
+profiler_add_marker
 (
 "
 UserTiming
