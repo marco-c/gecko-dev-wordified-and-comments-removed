@@ -391,7 +391,7 @@ inner
 -
 window
 -
-destroyed
+nuked
 "
 )
 ;
