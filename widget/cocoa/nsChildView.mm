@@ -11344,17 +11344,6 @@ ToWrRect
 mTitlebarRect
 )
 ;
-WrClipRegionToken
-clip
-=
-aBuilder
-.
-PushClipRegion
-(
-rect
-nullptr
-)
-;
 aBuilder
 .
 PushImage
@@ -11376,7 +11365,7 @@ size
 height
 )
 }
-clip
+rect
 wr
 :
 :

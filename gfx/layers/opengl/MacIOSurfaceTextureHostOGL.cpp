@@ -1215,7 +1215,8 @@ WrRect
 &
 aBounds
 const
-WrClipRegionToken
+WrRect
+&
 aClip
 wr
 :

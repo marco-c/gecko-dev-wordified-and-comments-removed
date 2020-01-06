@@ -806,16 +806,6 @@ imageRect
 offset
 )
 ;
-WrClipRegionToken
-clipRegion
-=
-aBuilder
-.
-PushClipRegion
-(
-dest
-)
-;
 WrImageKey
 key
 =
@@ -865,7 +855,7 @@ aBuilder
 PushImage
 (
 dest
-clipRegion
+dest
 wr
 :
 :
