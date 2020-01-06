@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+Encoding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventStates
 .
 h
@@ -10392,8 +10401,6 @@ document
 "
 )
 ;
-aCharset
-=
 mContent
 -
 >
@@ -10404,6 +10411,12 @@ GetComposedDoc
 >
 GetDocumentCharacterSet
 (
+)
+-
+>
+Name
+(
+aCharset
 )
 ;
 }

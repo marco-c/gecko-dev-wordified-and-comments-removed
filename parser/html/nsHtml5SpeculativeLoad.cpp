@@ -288,7 +288,13 @@ aExecutor
 >
 SetDocumentCharsetAndSource
 (
+Encoding
+:
+:
+ForName
+(
 narrowName
+)
 intSource
 )
 ;
