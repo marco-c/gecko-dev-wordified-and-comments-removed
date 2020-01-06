@@ -629,8 +629,6 @@ AuthenticationResult
 DENY
 ;
 }
-else
-{
 return
 DebuggerServer
 .
@@ -638,6 +636,5 @@ AuthenticationResult
 .
 ALLOW
 ;
-}
 }
 }
