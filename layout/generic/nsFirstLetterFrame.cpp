@@ -1599,15 +1599,10 @@ nsStyleContext
 *
 parentSC
 =
-this
+parent
 -
 >
 StyleContext
-(
-)
--
->
-GetParentAllowServo
 (
 )
 ;
