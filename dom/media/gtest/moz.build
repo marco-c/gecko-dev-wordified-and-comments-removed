@@ -120,6 +120,11 @@ TestAudioSegment
 cpp
 '
 '
+TestAudioTrackEncoder
+.
+cpp
+'
+'
 TestBlankVideoDataCreator
 .
 cpp
@@ -171,11 +176,6 @@ cpp
 '
 '
 TestRust
-.
-cpp
-'
-'
-TestTrackEncoder
 .
 cpp
 '
