@@ -8804,6 +8804,15 @@ hidden
 "
 true
 "
+class
+=
+"
+urlbar
+-
+icon
+-
+wrapper
+"
 context
 =
 "
