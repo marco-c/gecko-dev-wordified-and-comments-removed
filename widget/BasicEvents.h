@@ -1935,6 +1935,12 @@ CanBeSentToRemoteProcess
 const
 ;
 bool
+WillBeSentToRemoteProcess
+(
+)
+const
+;
+bool
 IsRetargetedNativeEventDelivererForPlugin
 (
 )
