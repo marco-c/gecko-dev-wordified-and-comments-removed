@@ -2260,13 +2260,7 @@ object
 }
 if
 (
-"
-attribution
-"
-in
-data
-.
-settings
+gIsWindows
 )
 {
 Assert
