@@ -2684,7 +2684,7 @@ ResetState
 (
 )
 ;
-nsresult
+MediaResult
 LoadResource
 (
 )
