@@ -174,14 +174,12 @@ hbox
 id
 =
 "
-header
--
-search
+searchCategory
 "
 class
 =
 "
-header
+subcategory
 "
 hidden
 =
