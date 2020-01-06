@@ -128,11 +128,6 @@ cubeb_strings
 .
 c
 '
-'
-cubeb_utils
-.
-c
-'
 ]
 if
 CONFIG
