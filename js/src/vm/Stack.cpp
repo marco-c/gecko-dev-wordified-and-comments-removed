@@ -3155,7 +3155,7 @@ wasmFrames_
 wasm
 :
 :
-FrameIterator
+WasmFrameIter
 (
 data_
 .
@@ -5644,7 +5644,7 @@ wasmFrames_
 wasm
 :
 :
-FrameIterator
+WasmFrameIter
 (
 activation
 )

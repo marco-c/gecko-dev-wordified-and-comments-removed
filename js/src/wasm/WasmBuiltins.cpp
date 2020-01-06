@@ -343,7 +343,7 @@ cx
 (
 )
 ;
-FrameIterator
+WasmFrameIter
 iter
 (
 activation
@@ -749,11 +749,11 @@ cx
 (
 )
 ;
-FrameIterator
+WasmFrameIter
 iter
 (
 activation
-FrameIterator
+WasmFrameIter
 :
 :
 Unwind

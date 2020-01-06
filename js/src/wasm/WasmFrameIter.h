@@ -1,9 +1,9 @@
 #
 ifndef
-wasm_frame_iterator_h
+wasm_frame_iter_h
 #
 define
-wasm_frame_iterator_h
+wasm_frame_iter_h
 #
 include
 "
@@ -63,7 +63,7 @@ struct
 CallableOffsets
 ;
 class
-FrameIterator
+WasmFrameIter
 {
 public
 :
@@ -116,12 +116,12 @@ popFrame
 public
 :
 explicit
-FrameIterator
+WasmFrameIter
 (
 )
 ;
 explicit
-FrameIterator
+WasmFrameIter
 (
 WasmActivation
 *

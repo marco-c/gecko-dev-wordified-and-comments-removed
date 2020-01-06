@@ -55,9 +55,6 @@ Metadata
 struct
 MetadataTier
 ;
-class
-FrameIterator
-;
 struct
 ShareableBytes
 :

@@ -2726,7 +2726,7 @@ cpp
 '
 wasm
 /
-WasmFrameIterator
+WasmFrameIter
 .
 cpp
 '

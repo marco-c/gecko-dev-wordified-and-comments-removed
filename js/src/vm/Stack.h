@@ -134,7 +134,7 @@ include
 "
 wasm
 /
-WasmFrameIterator
+WasmFrameIter
 .
 h
 "
@@ -6271,7 +6271,7 @@ ionInlineFrameNo_
 wasm
 :
 :
-FrameIterator
+WasmFrameIter
 wasmFrames_
 ;
 Data
