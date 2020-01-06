@@ -15624,7 +15624,7 @@ SetCapacity
 gHashTable
 -
 >
-Capacity
+EntryCount
 (
 )
 )
