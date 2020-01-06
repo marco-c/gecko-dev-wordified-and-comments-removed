@@ -233,6 +233,17 @@ PerformanceWorker
 (
 )
 ;
+nsISupports
+*
+GetAsISupports
+(
+)
+override
+{
+return
+nullptr
+;
+}
 void
 InsertUserEntry
 (
