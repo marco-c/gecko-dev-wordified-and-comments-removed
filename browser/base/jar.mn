@@ -1886,7 +1886,7 @@ browser
 /
 defaultthemes
 /
-compactdark
+dark
 .
 icon
 .
@@ -1896,7 +1896,7 @@ content
 /
 defaultthemes
 /
-compactdark
+dark
 .
 icon
 .
@@ -1908,7 +1908,7 @@ browser
 /
 defaultthemes
 /
-compactlight
+light
 .
 icon
 .
@@ -1918,7 +1918,7 @@ content
 /
 defaultthemes
 /
-compactlight
+light
 .
 icon
 .
