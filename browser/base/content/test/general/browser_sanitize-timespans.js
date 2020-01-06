@@ -38,7 +38,7 @@ jsm
 ;
 requestLongerTimeout
 (
-2
+5
 )
 ;
 var
