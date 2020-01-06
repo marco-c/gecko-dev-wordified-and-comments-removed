@@ -14171,6 +14171,10 @@ copy
 (
 )
         
+marionette_exception
+=
+None
+        
 try
 :
             
@@ -14601,13 +14605,16 @@ gecko_id
 =
 gecko_id
             
+try
+:
+                
 marionette_args
 =
 marionette_args
 or
 {
 }
-            
+                
 self
 .
 marionette
@@ -14618,7 +14625,7 @@ Marionette
 *
 marionette_args
 )
-            
+                
 self
 .
 marionette
@@ -14626,7 +14633,7 @@ marionette
 start_session
 (
 )
-            
+                
 addons
 =
 Addons
@@ -14635,14 +14642,14 @@ self
 .
 marionette
 )
-            
+                
 addons
 .
 install
 (
 create_zip
 (
-                
+                    
 os
 .
 path
@@ -14657,10 +14664,10 @@ extensions
 specialpowers
 '
 )
-            
+                
 )
 )
-            
+                
 addons
 .
 install
@@ -14672,13 +14679,13 @@ self
 mochijar
 )
 )
-            
+                
 self
 .
 execute_start_script
 (
 )
-            
+                
 self
 .
 marionette
@@ -14686,11 +14693,23 @@ marionette
 delete_session
 (
 )
-            
+                
 del
 self
 .
 marionette
+            
+except
+IOError
+:
+                
+marionette_exception
+=
+sys
+.
+exc_info
+(
+)
             
 status
 =
@@ -14912,6 +14931,24 @@ urlOpts
 =
 [
 ]
+        
+if
+marionette_exception
+is
+not
+None
+:
+            
+exc
+value
+tb
+=
+marionette_exception
+            
+raise
+exc
+value
+tb
         
 return
 status
