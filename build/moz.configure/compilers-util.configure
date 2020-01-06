@@ -111,8 +111,14 @@ def
 compiler_class
 (
 compiler
+host_or_target
 )
 :
+is_target
+=
+host_or_target
+is
+target
 class
 Compiler
 (
@@ -401,6 +407,9 @@ flags
 or
 [
 ]
+if
+is_target
+:
 flags
 +
 =

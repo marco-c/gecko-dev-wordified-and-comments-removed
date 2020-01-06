@@ -258,6 +258,20 @@ return
 [
 ]
             
+target
+=
+depends
+(
+when
+=
+True
+)
+(
+lambda
+:
+True
+)
+            
 include
 (
 '
@@ -272,7 +286,23 @@ configure
 '
 )
             
+template
+            
+def
+wrap_compiler
+(
+compiler
+)
+:
+                
+return
 compiler_class
+(
+compiler
+False
+)
+            
+wrap_compiler
             
 depends
 (
@@ -333,7 +363,7 @@ C
                 
 )
             
-compiler_class
+wrap_compiler
             
 depends
 (
