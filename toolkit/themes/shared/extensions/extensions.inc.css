@@ -3765,11 +3765,10 @@ bottom
 detail
 -
 view
->
 .
-box
+scrollbox
 -
-inherit
+innerbox
 {
 margin
 -
