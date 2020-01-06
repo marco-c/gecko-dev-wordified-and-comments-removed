@@ -492,7 +492,7 @@ aParentContext
 LazyComputeBehavior
 aMayCompute
 TreeMatchContext
-&
+*
 aTreeMatchContext
 )
 ;
@@ -740,7 +740,7 @@ nsStyleContext
 *
 aParentContext
 TreeMatchContext
-&
+*
 aTreeMatchContext
 dom
 :
