@@ -15864,7 +15864,7 @@ isGCSweepingOrCompacting
 if
 (
 !
-isMarked
+isMarkedAny
 (
 )
 )

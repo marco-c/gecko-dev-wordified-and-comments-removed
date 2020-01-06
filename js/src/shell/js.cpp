@@ -32675,12 +32675,8 @@ if
 cell
 -
 >
-isMarked
+isMarkedGray
 (
-gc
-:
-:
-GRAY
 )
 )
 color
@@ -32695,12 +32691,8 @@ if
 cell
 -
 >
-isMarked
+isMarkedAny
 (
-gc
-:
-:
-BLACK
 )
 )
 color
