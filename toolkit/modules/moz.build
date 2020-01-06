@@ -975,7 +975,7 @@ Files
 '
 RemoteController
 .
-jsm
+js
 '
 )
 :
@@ -1558,7 +1558,7 @@ jsm
 '
 RemoteController
 .
-jsm
+js
 '
 '
 RemoteFinder

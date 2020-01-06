@@ -1,13 +1,3 @@
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-RemoteController
-"
-]
-;
 const
 Ci
 =
