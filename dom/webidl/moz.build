@@ -4785,6 +4785,11 @@ StorageType
 webidl
 '
 '
+StructuredCloneHolder
+.
+webidl
+'
+'
 StyleSheet
 .
 webidl
