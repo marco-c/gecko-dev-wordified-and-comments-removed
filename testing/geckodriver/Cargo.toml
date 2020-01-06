@@ -189,12 +189,9 @@ mozprofile
 mozrunner
 =
 "
-^
 0
 .
 3
-.
-1
 "
 regex
 =
