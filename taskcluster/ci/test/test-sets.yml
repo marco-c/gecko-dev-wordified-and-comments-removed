@@ -1056,8 +1056,6 @@ windows8
 tests
 :
 -
-crashtest
--
 mochitest
 -
 mochitest
