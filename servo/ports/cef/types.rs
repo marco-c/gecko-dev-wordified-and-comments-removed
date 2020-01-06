@@ -625,6 +625,13 @@ y
 :
 c_int
 }
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 cef_rect
@@ -1994,6 +2001,13 @@ CT_GRAB
 CT_GRABBING
 CT_CUSTOM
 }
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 _cef_screen_info
