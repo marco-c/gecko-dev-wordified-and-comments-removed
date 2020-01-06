@@ -11312,7 +11312,7 @@ loadUrlInTab
 (
 AboutPages
 .
-UPDATER
+FIREFOX
 )
 ;
 break
