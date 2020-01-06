@@ -761,13 +761,6 @@ aSheet
 >
 GetCssRulesInternal
 (
-!
-mStyleSet
--
->
-IsForXBL
-(
-)
 )
 )
 ;
