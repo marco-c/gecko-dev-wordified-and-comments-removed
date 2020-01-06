@@ -1326,13 +1326,6 @@ malloc_default_zone
 )
 ;
 }
-__attribute__
-(
-(
-constructor
-)
-)
-static
 void
 register_zone
 (
