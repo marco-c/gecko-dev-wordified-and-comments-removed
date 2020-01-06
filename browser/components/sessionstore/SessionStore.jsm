@@ -12212,13 +12212,11 @@ options
 restoreImmediately
 :
 true
-reloadInFreshProcess
+newFrameloader
 :
-!
-!
 recentLoadArguments
 .
-reloadInFreshProcess
+newFrameloader
 remoteType
 :
 recentLoadArguments
@@ -15881,7 +15879,7 @@ newFrameloader
 =
 aOptions
 .
-reloadInFreshProcess
+newFrameloader
 |
 |
 !
