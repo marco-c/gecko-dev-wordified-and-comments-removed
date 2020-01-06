@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIPrefBranchInternal
-.
-h
-"
-#
-include
-"
 nsIPrefLocalizedString
 .
 h
@@ -626,7 +619,7 @@ nsPrefBranch
 final
 :
 public
-nsIPrefBranchInternal
+nsIPrefBranch
 public
 nsIObserver
 public
@@ -643,7 +636,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPREFBRANCH
-NS_DECL_NSIPREFBRANCH2
 NS_DECL_NSIOBSERVER
 nsPrefBranch
 (

@@ -157,16 +157,6 @@ nsIPrefBranch
 idl
 '
 '
-nsIPrefBranch2
-.
-idl
-'
-'
-nsIPrefBranchInternal
-.
-idl
-'
-'
 nsIPrefLocalizedString
 .
 idl

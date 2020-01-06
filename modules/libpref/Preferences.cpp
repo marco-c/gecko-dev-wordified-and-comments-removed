@@ -3291,14 +3291,6 @@ nsIPrefBranch
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIPrefBranch2
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIPrefBranchInternal
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_END

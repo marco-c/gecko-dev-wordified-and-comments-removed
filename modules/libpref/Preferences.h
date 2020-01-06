@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsIPrefBranchInternal
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -179,7 +172,7 @@ nsIPrefService
 public
 nsIObserver
 public
-nsIPrefBranchInternal
+nsIPrefBranch
 public
 nsSupportsWeakReference
 {

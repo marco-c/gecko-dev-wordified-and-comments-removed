@@ -737,7 +737,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranchInternal
+nsIPrefBranch
 )
 ;
 <

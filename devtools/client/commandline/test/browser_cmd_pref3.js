@@ -32,7 +32,7 @@ QueryInterface
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 var
