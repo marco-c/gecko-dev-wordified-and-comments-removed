@@ -363,12 +363,12 @@ id
 "
 containersAdd
 "
-onclick
+oncommand
 =
 "
 gContainersPane
 .
-onAddButtonClick
+onAddButtonCommand
 (
 )
 ;

@@ -105,7 +105,7 @@ containersAdd
 ;
 addButton
 .
-click
+doCommand
 (
 )
 ;
