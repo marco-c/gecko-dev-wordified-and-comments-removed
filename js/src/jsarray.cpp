@@ -17238,7 +17238,7 @@ isConstructor
 if
 (
 !
-GetPrototypeFromCallableConstructor
+GetPrototypeFromBuiltinConstructor
 (
 cx
 args

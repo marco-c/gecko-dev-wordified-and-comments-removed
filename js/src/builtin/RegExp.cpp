@@ -1907,7 +1907,7 @@ cx
 if
 (
 !
-GetPrototypeFromCallableConstructor
+GetPrototypeFromBuiltinConstructor
 (
 cx
 args
@@ -2179,7 +2179,7 @@ cx
 if
 (
 !
-GetPrototypeFromCallableConstructor
+GetPrototypeFromBuiltinConstructor
 (
 cx
 args
