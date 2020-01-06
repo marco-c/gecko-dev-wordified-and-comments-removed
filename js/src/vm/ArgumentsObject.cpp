@@ -2096,8 +2096,11 @@ ArgumentsObject
 obj
 )
 {
-AutoUnsafeCallWithABI
-unsafe
+JS
+:
+:
+AutoCheckCannotGC
+nogc
 ;
 JSFunction
 *
