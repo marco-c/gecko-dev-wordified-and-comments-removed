@@ -626,7 +626,7 @@ i
 ]
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -750,7 +750,7 @@ rv
 ;
 }
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3845,7 +3845,7 @@ aName
 TX_DECL_FUNCTION
 private
 :
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

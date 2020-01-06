@@ -1109,7 +1109,7 @@ if
 list
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1120,7 +1120,7 @@ NS_Atomize
 aTagname
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2166,7 +2166,7 @@ Length
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -434,7 +434,7 @@ mMethodIndex
 #
 ifdef
 TX_TO_STRING
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

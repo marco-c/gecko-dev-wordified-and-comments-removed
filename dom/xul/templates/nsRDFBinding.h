@@ -36,7 +36,7 @@ RDFBinding
 {
 public
 :
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -48,7 +48,7 @@ nsIRDFResource
 >
 mPredicate
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -233,7 +233,7 @@ GetSingleton
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

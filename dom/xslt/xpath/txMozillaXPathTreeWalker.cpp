@@ -1235,7 +1235,7 @@ IsElement
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1316,7 +1316,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

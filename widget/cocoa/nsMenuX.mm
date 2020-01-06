@@ -3734,7 +3734,7 @@ menu
 int32_t
 dummy
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3835,7 +3835,7 @@ GetChildAt
 i
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

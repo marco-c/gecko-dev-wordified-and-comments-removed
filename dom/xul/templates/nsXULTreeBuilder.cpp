@@ -6323,7 +6323,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

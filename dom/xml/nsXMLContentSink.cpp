@@ -4040,7 +4040,7 @@ eXMLContentSinkState_InDocumentElement
 int32_t
 nameSpaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4522,7 +4522,7 @@ content
 #
 ifdef
 DEBUG
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5038,7 +5038,7 @@ fragment
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -6142,7 +6142,7 @@ nsIContent
 aContent
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

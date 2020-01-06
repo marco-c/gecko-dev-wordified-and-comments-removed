@@ -3473,9 +3473,12 @@ NS_ERROR_DOM_TYPE_ERR
 return
 ;
 }
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 filters
 ;
@@ -4076,9 +4079,12 @@ Animations
 (
 )
 ;
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 &
 filters
@@ -4094,7 +4100,7 @@ if
 (
 filters
 .
-Count
+Length
 (
 )
 )
@@ -4138,7 +4144,7 @@ AppendElements
 (
 filters
 .
-Count
+Length
 (
 )
 mozilla
@@ -4165,7 +4171,7 @@ return
 }
 for
 (
-int32_t
+size_t
 j
 =
 0
@@ -4174,7 +4180,7 @@ j
 <
 filters
 .
-Count
+Length
 (
 )
 ;

@@ -934,7 +934,7 @@ nsXBLPrototypeHandler
 *
 mNextHandler
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

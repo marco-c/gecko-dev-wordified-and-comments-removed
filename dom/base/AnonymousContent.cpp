@@ -774,7 +774,7 @@ nsAString
 aElementId
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -168,7 +168,7 @@ Element
 >
 mElement
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -9938,7 +9938,7 @@ SetNull
 }
 if
 (
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -14792,7 +14792,7 @@ match
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -18093,7 +18093,7 @@ MOZ_COUNT_CTOR
 nsStyleText
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

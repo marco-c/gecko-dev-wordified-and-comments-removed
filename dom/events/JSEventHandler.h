@@ -881,7 +881,7 @@ nsISupports
 *
 mTarget
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

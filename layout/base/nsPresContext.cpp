@@ -8592,7 +8592,7 @@ if
 mFontGroupCacheDirty
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

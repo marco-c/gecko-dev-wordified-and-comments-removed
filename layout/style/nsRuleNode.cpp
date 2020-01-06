@@ -6997,7 +6997,7 @@ case
 eCSSUnit_Element
 :
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -41216,7 +41216,7 @@ GetIntValue
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

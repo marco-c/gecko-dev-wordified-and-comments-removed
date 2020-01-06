@@ -11630,7 +11630,7 @@ aURL
 nullptr
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -13417,7 +13417,7 @@ true
 }
 else
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -14285,7 +14285,7 @@ nsMediaExpression
 eEqual
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -16096,7 +16096,7 @@ uint32_t
 aColumnNumber
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -19225,7 +19225,7 @@ void
 aData
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -19735,7 +19735,7 @@ aValue
 {
 if
 (
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -24374,7 +24374,7 @@ ASCIIToLower
 buffer
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -26620,7 +26620,7 @@ AddSelector
 aPrevCombinator
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -73381,7 +73381,7 @@ if
 mNameSpaceMap
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -1138,7 +1138,7 @@ _retval
 =
 nullptr
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5674,7 +5674,7 @@ incorrect
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

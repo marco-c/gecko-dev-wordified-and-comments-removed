@@ -952,7 +952,7 @@ mPersistStateStore
 nsTreeRows
 mRows
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -932,7 +932,7 @@ STYLE_STRUCT_RESET
 #
 undef
 STYLE_STRUCT_INHERITED
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

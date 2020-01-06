@@ -113,9 +113,12 @@ aToRes
 nsClassHashtable
 <
 nsCStringHashKey
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 >
 mAdjacencyList

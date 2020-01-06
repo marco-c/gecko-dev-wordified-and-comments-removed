@@ -198,7 +198,7 @@ nsIAtom
 aLangGroupAtom
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

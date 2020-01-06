@@ -3895,7 +3895,7 @@ break
 }
 }
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3909,7 +3909,7 @@ href
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

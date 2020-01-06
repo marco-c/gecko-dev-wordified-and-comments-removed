@@ -674,7 +674,7 @@ nsAssignment
 public
 :
 const
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -49,7 +49,7 @@ aPrefix
 )
 {
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

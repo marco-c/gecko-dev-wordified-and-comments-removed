@@ -561,7 +561,7 @@ Listener
 EventListenerHolder
 mListener
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2035,7 +2035,7 @@ EventTarget
 MOZ_NON_OWNING_REF
 mTarget
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

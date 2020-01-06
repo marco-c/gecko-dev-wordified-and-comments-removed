@@ -201,7 +201,7 @@ final
 ;
 private
 :
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

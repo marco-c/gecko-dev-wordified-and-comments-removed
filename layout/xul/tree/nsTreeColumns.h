@@ -612,7 +612,7 @@ mColumns
 nsString
 mId
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -1625,7 +1625,7 @@ i
 -
 i
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2221,7 +2221,7 @@ klass
 }
 else
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2238,7 +2238,7 @@ i
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2742,7 +2742,7 @@ klass
 }
 else
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2759,7 +2759,7 @@ i
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3087,7 +3087,7 @@ klass
 }
 else
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3104,7 +3104,7 @@ i
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4363,7 +4363,7 @@ mFour
 .
 htmlCreator
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4485,7 +4485,7 @@ mFour
 .
 svgCreator
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4591,7 +4591,7 @@ mOne
 .
 node
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4861,7 +4861,7 @@ case
 eTreeOpAppendDoctypeToDocument
 :
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5966,7 +5966,7 @@ mTwo
 .
 charPtr
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5979,7 +5979,7 @@ mThree
 atom
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -233,7 +233,7 @@ mNamespaceID
 int32_t
 mNamespaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

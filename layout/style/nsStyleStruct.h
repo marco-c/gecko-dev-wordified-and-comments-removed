@@ -772,7 +772,7 @@ mScriptMinSize
 float
 mScriptSizeMultiplier
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -9153,7 +9153,7 @@ mDelay
 nsCSSPropertyID
 mProperty
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -10988,9 +10988,12 @@ mTopLayer
 uint8_t
 mWillChangeBitField
 ;
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 mWillChange
 ;
@@ -14701,7 +14704,7 @@ mStrokeDasharray
 ;
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

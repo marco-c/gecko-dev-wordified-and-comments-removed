@@ -717,7 +717,7 @@ mBaseURLSpec
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -820,7 +820,7 @@ nsAString
 aURI
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1009,7 +1009,7 @@ EnsureNewPrefix
 nsAutoString
 qname
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1274,7 +1274,7 @@ NS_OK
 ;
 }
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

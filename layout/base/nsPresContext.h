@@ -3910,7 +3910,7 @@ atom
 )
 mMedium
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3927,7 +3927,7 @@ nsILinkHandler
 MOZ_NON_OWNING_REF
 mLinkHandler
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

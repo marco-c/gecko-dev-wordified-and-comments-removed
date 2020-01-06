@@ -8063,7 +8063,7 @@ mRange
 aRange
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -2572,7 +2572,7 @@ targetElem
 return
 false
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

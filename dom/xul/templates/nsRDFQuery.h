@@ -283,13 +283,13 @@ mSimple
 true
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mRefVariable
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

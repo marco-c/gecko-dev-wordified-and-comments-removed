@@ -590,7 +590,7 @@ TestNode
 *
 mSimpleRuleMemberTest
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

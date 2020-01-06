@@ -203,7 +203,7 @@ SetIsVoid
 true
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -678,7 +678,7 @@ NS_OK
 }
 private
 :
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -862,7 +862,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

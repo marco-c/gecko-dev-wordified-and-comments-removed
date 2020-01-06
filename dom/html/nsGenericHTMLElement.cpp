@@ -10531,7 +10531,7 @@ string
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -10614,7 +10614,7 @@ string
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

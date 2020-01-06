@@ -7628,7 +7628,7 @@ nsTreeColumn
 aCol
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

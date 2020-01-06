@@ -536,7 +536,7 @@ nsString
 aValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -616,7 +616,7 @@ nsString
 aValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1994,7 +1994,7 @@ aNsID
 kNameSpaceID_None
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2065,7 +2065,7 @@ nsId
 =
 aNsID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3532,7 +3532,7 @@ ASCIIToLower
 httpEquiv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4143,7 +4143,7 @@ rv
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

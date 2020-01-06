@@ -3013,7 +3013,7 @@ NS_OK
 nsAutoString
 nodeID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3352,7 +3352,7 @@ nsIRDFResource
 aResource
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3615,7 +3615,7 @@ aCount
 =
 0
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3844,7 +3844,7 @@ char16_t
 aAttributes
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3991,7 +3991,7 @@ char16_t
 aName
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4064,7 +4064,7 @@ char16_t
 aAttributes
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4324,7 +4324,7 @@ aAttributes
 nsresult
 rv
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4546,7 +4546,7 @@ aAttributes
 nsresult
 rv
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4892,7 +4892,7 @@ attr
 endLocal
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

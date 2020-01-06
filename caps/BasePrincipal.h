@@ -730,13 +730,13 @@ nsACString
 aOriginNoSuffix
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mOriginNoSuffix
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

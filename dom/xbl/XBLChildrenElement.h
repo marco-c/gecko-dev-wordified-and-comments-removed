@@ -538,7 +538,7 @@ mInsertedChildren
 ;
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

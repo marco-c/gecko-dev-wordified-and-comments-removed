@@ -1690,7 +1690,7 @@ NamespaceID
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2124,7 +2124,7 @@ GetNextHandler
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2784,7 +2784,7 @@ handler
 continue
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

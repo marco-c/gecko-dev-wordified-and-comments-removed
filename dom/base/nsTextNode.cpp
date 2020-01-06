@@ -340,7 +340,7 @@ mGrandparent
 int32_t
 mNameSpaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

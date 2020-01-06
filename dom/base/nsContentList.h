@@ -1311,13 +1311,13 @@ mRootNode
 int32_t
 mMatchNameSpaceId
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mHTMLMatchAtom
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

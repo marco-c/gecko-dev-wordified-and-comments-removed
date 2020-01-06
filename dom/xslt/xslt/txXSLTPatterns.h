@@ -547,9 +547,12 @@ TX_DECL_PATTERN
 ;
 private
 :
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 mIds
 ;
@@ -609,7 +612,7 @@ mName
 #
 ifdef
 TX_TO_STRING
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

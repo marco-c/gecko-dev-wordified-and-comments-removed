@@ -191,7 +191,7 @@ mString
 )
 {
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

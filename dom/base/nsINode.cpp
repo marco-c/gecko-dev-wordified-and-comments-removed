@@ -3881,7 +3881,7 @@ aResult
 =
 nullptr
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4153,7 +4153,7 @@ nsIDocument
 eGetSetUserData
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

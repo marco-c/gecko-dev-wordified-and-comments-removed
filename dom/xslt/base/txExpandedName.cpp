@@ -100,7 +100,7 @@ if
 colon
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

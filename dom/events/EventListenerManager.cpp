@@ -3271,7 +3271,7 @@ EventListenerFlags
 aFlags
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3327,7 +3327,7 @@ EventListenerFlags
 aFlags
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4356,7 +4356,7 @@ cx
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7032,7 +7032,7 @@ if
 mIsMainThreadELM
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

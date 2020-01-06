@@ -85,7 +85,7 @@ Entry
 nsCString
 mURI
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

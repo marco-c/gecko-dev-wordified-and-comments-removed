@@ -688,7 +688,7 @@ delete
 mNext
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

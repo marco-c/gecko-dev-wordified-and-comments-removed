@@ -5017,7 +5017,7 @@ value
 float
 f
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5858,7 +5858,7 @@ aNode
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -15329,7 +15329,7 @@ aHandled
 =
 false
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -20479,7 +20479,7 @@ value
 float
 f
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -20841,7 +20841,7 @@ value
 float
 f
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -32622,7 +32622,7 @@ if
 isEmptyNode
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -41404,7 +41404,7 @@ value
 float
 f
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

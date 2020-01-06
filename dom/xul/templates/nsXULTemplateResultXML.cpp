@@ -83,7 +83,7 @@ mNode
 aNode
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

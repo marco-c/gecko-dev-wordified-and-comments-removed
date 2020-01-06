@@ -1993,7 +1993,7 @@ nsAString
 aValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2073,7 +2073,7 @@ ErrorResult
 rv
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

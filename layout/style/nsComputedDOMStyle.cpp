@@ -24825,9 +24825,12 @@ DoGetWillChange
 )
 {
 const
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 &
 willChange
@@ -33104,7 +33107,7 @@ DoGetContextProperties
 const
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

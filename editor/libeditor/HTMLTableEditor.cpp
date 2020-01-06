@@ -7899,7 +7899,7 @@ selection
 this
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

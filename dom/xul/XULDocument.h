@@ -2249,7 +2249,7 @@ mListener
 nsString
 mAttr
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

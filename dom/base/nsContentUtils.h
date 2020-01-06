@@ -6707,7 +6707,10 @@ sConsoleService
 static
 nsDataHashtable
 <
-nsISupportsHashKey
+nsRefPtrHashKey
+<
+nsIAtom
+>
 EventNameMapping
 >
 *
@@ -6723,9 +6726,12 @@ EventNameMapping
 sStringEventTable
 ;
 static
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 *
 sUserDefinedEvents

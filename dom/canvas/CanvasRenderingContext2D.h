@@ -4713,7 +4713,7 @@ gfxFontGroup
 >
 fontGroup
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

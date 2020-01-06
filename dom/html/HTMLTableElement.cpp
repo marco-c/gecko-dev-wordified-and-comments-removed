@@ -913,7 +913,7 @@ aFound
 =
 false
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

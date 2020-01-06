@@ -7033,7 +7033,7 @@ MOZ_ASSERT
 aHTMLEditor
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7132,7 +7132,7 @@ MOZ_ASSERT
 aHTMLEditor
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -991,7 +991,7 @@ aIs
 )
 const
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1002,7 +1002,7 @@ NS_Atomize
 aLocalName
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1173,7 +1173,7 @@ NodeInfo
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1267,7 +1267,7 @@ nsAString
 aTypeExtension
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1285,7 +1285,7 @@ NameAtom
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1925,7 +1925,7 @@ nsIDocument
 eAttributeChanged
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2603,7 +2603,7 @@ define
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2724,7 +2724,7 @@ WasPassed
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2858,9 +2858,12 @@ LifecycleCallbacks
 )
 )
 ;
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 observedAttributes
 ;
@@ -3275,7 +3278,7 @@ attrStr
 }
 }
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3452,7 +3455,7 @@ Value
 aRetVal
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3565,7 +3568,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5002,9 +5005,12 @@ aLocalName
 Function
 *
 aConstructor
-nsCOMArray
+nsTArray
+<
+RefPtr
 <
 nsIAtom
+>
 >
 &
 &

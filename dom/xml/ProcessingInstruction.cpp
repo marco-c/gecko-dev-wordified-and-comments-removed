@@ -114,7 +114,7 @@ manager
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

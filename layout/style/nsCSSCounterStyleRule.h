@@ -360,7 +360,7 @@ nsAString
 aValue
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

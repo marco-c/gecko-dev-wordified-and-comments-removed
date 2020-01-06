@@ -1339,7 +1339,7 @@ aNodeInfo
 ifdef
 DEBUG
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1480,7 +1480,7 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

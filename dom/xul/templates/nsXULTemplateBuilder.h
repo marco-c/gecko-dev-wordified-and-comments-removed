@@ -986,13 +986,13 @@ mQuerySets
 bool
 mQueriesCompiled
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mRefVariable
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -635,7 +635,7 @@ localName
 bool
 prefixIsNull
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

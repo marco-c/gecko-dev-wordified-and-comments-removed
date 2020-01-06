@@ -178,7 +178,7 @@ NS_IsMainThread
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

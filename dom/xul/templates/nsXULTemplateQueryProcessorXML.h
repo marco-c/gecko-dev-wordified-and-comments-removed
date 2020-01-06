@@ -313,7 +313,7 @@ nsXULTemplateQueryProcessorXML
 *
 mProcessor
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

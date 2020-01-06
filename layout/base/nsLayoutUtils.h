@@ -6751,7 +6751,7 @@ nsIContent
 >
 mContent
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -6790,7 +6790,7 @@ nsIContent
 >
 mContent
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

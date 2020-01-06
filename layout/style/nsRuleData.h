@@ -539,7 +539,7 @@ nsIAtom
 aValue
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

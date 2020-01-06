@@ -4584,7 +4584,7 @@ GetExtendsRoot
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -3860,7 +3860,7 @@ nsStyleContext
 >
 mStyleContext
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

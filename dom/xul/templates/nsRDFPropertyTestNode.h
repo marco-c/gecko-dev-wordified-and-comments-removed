@@ -371,7 +371,7 @@ nsXULTemplateQueryProcessorRDF
 *
 mProcessor
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -389,7 +389,7 @@ nsIRDFResource
 >
 mProperty
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

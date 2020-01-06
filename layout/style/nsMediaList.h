@@ -412,7 +412,7 @@ aOther
 }
 }
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -849,7 +849,7 @@ mTypeOmitted
 bool
 mHadUnknownExpression
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

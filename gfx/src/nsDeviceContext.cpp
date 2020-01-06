@@ -374,7 +374,7 @@ nsDeviceContext
 *
 mContext
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

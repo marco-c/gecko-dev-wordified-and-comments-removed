@@ -223,7 +223,7 @@ aRightString
 ;
 protected
 :
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -235,7 +235,7 @@ mSource
 ConditionRelation
 mRelation
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -460,13 +460,13 @@ protected
 struct
 Binding
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mSourceVariable
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -507,7 +507,7 @@ nsIXULTemplateRuleFilter
 >
 mRuleFilter
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -517,13 +517,13 @@ Binding
 *
 mBindings
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mRefVariable
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -563,7 +563,7 @@ nsISupports
 >
 mCompiledQuery
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

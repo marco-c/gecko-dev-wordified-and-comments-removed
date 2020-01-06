@@ -118,7 +118,7 @@ index
 {
 mPrefixes
 .
-RemoveObjectAt
+RemoveElementAt
 (
 index
 )
@@ -207,7 +207,7 @@ if
 !
 mPrefixes
 .
-AppendObject
+AppendElement
 (
 prefix
 )
@@ -232,11 +232,11 @@ nullptr
 {
 mPrefixes
 .
-RemoveObjectAt
+RemoveElementAt
 (
 mPrefixes
 .
-Count
+Length
 (
 )
 -
@@ -347,7 +347,7 @@ nsAString
 aPrefix
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

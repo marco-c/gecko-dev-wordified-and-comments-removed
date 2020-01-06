@@ -194,7 +194,7 @@ ToLowerCase
 lowered
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -435,7 +435,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -588,7 +588,7 @@ langGroupStr
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

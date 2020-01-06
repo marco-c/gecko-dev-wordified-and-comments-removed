@@ -1095,7 +1095,7 @@ eXBL_InDocument
 int32_t
 nameSpaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2737,7 +2737,7 @@ char16_t
 aResult
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2910,7 +2910,7 @@ allowuntrusted
 =
 nullptr
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3391,7 +3391,7 @@ name
 =
 nullptr
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3547,7 +3547,7 @@ readonly
 =
 nullptr
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3718,7 +3718,7 @@ exposeToUntrustedContent
 =
 false
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4310,7 +4310,7 @@ mNumAttributes
 =
 aAttsCount
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

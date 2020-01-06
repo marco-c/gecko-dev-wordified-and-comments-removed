@@ -721,7 +721,7 @@ Element
 aOriginalObject
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -842,7 +842,7 @@ float
 resizerWidth
 resizerHeight
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

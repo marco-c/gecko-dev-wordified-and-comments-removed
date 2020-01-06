@@ -1272,7 +1272,7 @@ NS_ERROR_INVALID_ARG
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

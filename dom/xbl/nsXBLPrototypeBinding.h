@@ -989,7 +989,10 @@ mBindToUntrustedContent
 typedef
 nsClassHashtable
 <
-nsISupportsHashKey
+nsRefPtrHashKey
+<
+nsIAtom
+>
 nsXBLAttributeEntry
 >
 InnerAttributeTable
@@ -1261,7 +1264,7 @@ mInterfaceTable
 int32_t
 mBaseNameSpaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

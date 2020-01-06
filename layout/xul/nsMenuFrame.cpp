@@ -708,7 +708,7 @@ protected
 WeakFrame
 mFrame
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

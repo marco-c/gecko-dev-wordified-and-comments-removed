@@ -1132,7 +1132,7 @@ hasMoreTokens
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1149,7 +1149,7 @@ nextToken
 ;
 mIds
 .
-AppendObject
+AppendElement
 (
 atom
 )
@@ -1239,9 +1239,11 @@ IndexOf
 (
 id
 )
->
--
-1
+!
+=
+mIds
+.
+NoIndex
 ;
 return
 NS_OK
@@ -1315,7 +1317,7 @@ count
 =
 mIds
 .
-Count
+Length
 (
 )
 -

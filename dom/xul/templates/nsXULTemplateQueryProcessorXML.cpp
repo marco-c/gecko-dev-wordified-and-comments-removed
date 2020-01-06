@@ -1170,7 +1170,7 @@ StealNSResult
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -3025,7 +3025,7 @@ case
 eAtom
 :
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3718,7 +3718,7 @@ Length
 ;
 for
 (
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5011,7 +5011,7 @@ aValue
 ;
 for
 (
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5200,7 +5200,7 @@ ResetIfSet
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5348,7 +5348,7 @@ iter
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7850,7 +7850,7 @@ len
 NS_ATTRVALUE_MAX_STRINGLENGTH_ATOM
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -207,7 +207,7 @@ TabParent
 mTabParent
 ;
 const
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -720,13 +720,13 @@ txStylesheetAttr
 int32_t
 mNamespaceID
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
 mLocalName
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

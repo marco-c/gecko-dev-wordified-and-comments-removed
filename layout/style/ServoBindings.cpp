@@ -3904,7 +3904,7 @@ nsAttrValue
 eAtom
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4080,7 +4080,7 @@ nsAttrValue
 eAtom
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4971,7 +4971,7 @@ eAtomArray
 ;
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5035,7 +5035,7 @@ static_assert
 (
 sizeof
 (
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5057,7 +5057,7 @@ static_assert
 (
 alignof
 (
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5075,7 +5075,7 @@ simplification
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -6267,7 +6267,7 @@ CounterStyleManager
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -10778,7 +10778,7 @@ aLanguage
 LangGroupFontPrefs
 prefs
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -1363,7 +1363,7 @@ mFocusSequenceNumber
 BaseEventFlags
 mFlags
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

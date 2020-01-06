@@ -118,7 +118,7 @@ EditorBase
 >
 mEditorBase
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

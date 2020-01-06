@@ -1071,7 +1071,7 @@ aLocalName
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -390,7 +390,7 @@ true
 static
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -784,7 +784,7 @@ RuleHashTagTableEntry
 public
 RuleHashTableEntry
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -5077,7 +5077,7 @@ sSystemMetrics
 new
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -8119,7 +8119,7 @@ CSSPseudoClassType
 mozSystemMetric
 :
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

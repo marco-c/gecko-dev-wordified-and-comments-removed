@@ -144,9 +144,12 @@ EventTarget
 >
 mTarget
 ;
-nsCOMPtr
+nsTArray
 <
-nsIMutableArray
+RefPtr
+<
+nsIAtom
+>
 >
 mChangedListenerNames
 ;

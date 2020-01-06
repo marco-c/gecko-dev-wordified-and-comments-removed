@@ -1282,7 +1282,7 @@ aEvent
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2920,7 +2920,7 @@ GetEventName
 (
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -1551,7 +1551,7 @@ nsString
 aNamespace
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1970,7 +1970,7 @@ nullptr
 )
 ;
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3862,7 +3862,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -3981,7 +3981,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4080,7 +4080,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

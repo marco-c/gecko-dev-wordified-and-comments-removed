@@ -1734,7 +1734,7 @@ nextToken
 )
 ;
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2050,7 +2050,7 @@ expected
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2314,7 +2314,7 @@ nextToken
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -2727,7 +2727,7 @@ nextToken
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

@@ -116,7 +116,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
