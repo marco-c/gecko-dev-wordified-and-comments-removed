@@ -127,12 +127,6 @@ UpdateUrlbarSearchSplitterState
 (
 )
 ;
-CombinedStopReload
-.
-uninit
-(
-)
-;
 PlacesToolbarHelper
 .
 customizeStart
@@ -231,12 +225,6 @@ customizeDone
 DownloadsButton
 .
 customizeDone
-(
-)
-;
-CombinedStopReload
-.
-init
 (
 )
 ;
