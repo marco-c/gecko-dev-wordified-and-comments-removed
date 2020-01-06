@@ -201,7 +201,7 @@ ppid
 char
 szExeFile
 [
-NAME_MAX
+_POSIX_PATH_MAX
 +
 1
 ]
