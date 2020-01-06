@@ -162,12 +162,9 @@ f
 ]
 )
 {
-ok
+isnot
 (
 gc
-!
-=
-=
 null
 "
 GC
@@ -349,7 +346,7 @@ present
 "
 )
 ;
-ok
+is
 (
 typeof
 (
@@ -357,8 +354,6 @@ gc
 .
 totals
 )
-=
-=
 "
 object
 "
@@ -421,7 +416,7 @@ totals
 "
 )
 {
-ok
+isnot
 (
 typeof
 (
@@ -430,8 +425,6 @@ gc
 key
 ]
 )
-!
-=
 "
 object
 "
@@ -552,7 +545,7 @@ times
 "
 )
 {
-ok
+isnot
 (
 typeof
 (
@@ -561,8 +554,6 @@ slice
 key
 ]
 )
-!
-=
 "
 object
 "
@@ -618,7 +609,7 @@ add
 phase
 )
 ;
-ok
+is
 (
 typeof
 (
@@ -629,8 +620,6 @@ times
 phase
 ]
 )
-=
-=
 "
 number
 "
@@ -661,7 +650,7 @@ in
 totals
 )
 {
-ok
+is
 (
 typeof
 (
@@ -670,8 +659,6 @@ totals
 phase
 ]
 )
-=
-=
 "
 number
 "
