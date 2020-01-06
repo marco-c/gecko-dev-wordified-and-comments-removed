@@ -77,6 +77,10 @@ clang_sys
 ;
 extern
 crate
+peeking_take_while
+;
+extern
+crate
 regex
 ;
 #

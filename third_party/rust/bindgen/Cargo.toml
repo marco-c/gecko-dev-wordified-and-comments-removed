@@ -155,7 +155,7 @@ version
 .
 25
 .
-0
+1
 "
 build
 =
@@ -301,7 +301,7 @@ version
 "
 0
 .
-17
+18
 .
 0
 "
@@ -324,6 +324,15 @@ lazy_static
 2
 .
 1
+"
+peeking_take_while
+=
+"
+0
+.
+1
+.
+2
 "
 syntex_syntax
 =

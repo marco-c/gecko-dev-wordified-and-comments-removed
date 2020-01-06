@@ -22,6 +22,10 @@ dirname
 .
 .
 "
+export
+RUST_BACKTRACE
+=
+1
 #
 Regenerate
 the
