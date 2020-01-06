@@ -80,6 +80,15 @@ extensions
 /
 schemas
 /
+browser_settings
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 contextual_identities
 .
 json
