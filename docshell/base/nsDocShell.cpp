@@ -4476,17 +4476,6 @@ NS_GET_IID
 nsIDOMWindow
 )
 )
-|
-|
-aIID
-.
-Equals
-(
-NS_GET_IID
-(
-nsIDOMWindowInternal
-)
-)
 )
 &
 &

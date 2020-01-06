@@ -937,7 +937,7 @@ nsPIDOMWindow
 nsISupports
 >
 private
-nsIDOMWindowInternal
+nsIDOMWindow
 public
 nsIScriptGlobalObject
 public
@@ -10360,10 +10360,6 @@ static
 WindowByIdTable
 *
 sWindowsById
-;
-static
-bool
-sWarnedAboutWindowInternal
 ;
 }
 ;
