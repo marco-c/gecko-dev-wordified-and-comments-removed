@@ -178,16 +178,6 @@ mBackendType
 )
 {
 }
-GradientCacheKey
-(
-GradientCacheKey
-&
-&
-aOther
-)
-=
-default
-;
 union
 FloatUint32
 {
@@ -487,8 +477,8 @@ GradientCacheData
 GradientStops
 *
 aStops
+const
 GradientCacheKey
-&
 &
 aKey
 )
@@ -499,10 +489,7 @@ aStops
 )
 mKey
 (
-Move
-(
 aKey
-)
 )
 {
 }
