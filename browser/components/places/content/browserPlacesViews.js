@@ -10739,7 +10739,8 @@ null
 }
 }
 ;
-var
+this
+.
 PlacesPanelview
 =
 class
@@ -10792,7 +10793,7 @@ originalTarget
 :
 this
 .
-_viewElt
+_rootElt
 }
 )
 ;

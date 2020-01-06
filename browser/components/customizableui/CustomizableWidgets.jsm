@@ -1259,7 +1259,7 @@ id
 }
 onViewShowing
 (
-aEvent
+event
 )
 {
 if
@@ -1400,7 +1400,7 @@ this
 }
 onViewHiding
 (
-aEvent
+event
 )
 {
 log

@@ -9906,8 +9906,6 @@ excludeQueries
 1
 "
 ;
-PlacesPanelview
-;
 this
 .
 _panelMenuView
