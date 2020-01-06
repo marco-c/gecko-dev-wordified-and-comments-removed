@@ -228,15 +228,6 @@ MALLOC_DECL_VOID
 jemalloc_thread_local_arena
 bool
 )
-MALLOC_DECL_VOID
-(
-jemalloc_ptr_info
-const
-void
-*
-jemalloc_ptr_info_t
-*
-)
 #
 endif
 #

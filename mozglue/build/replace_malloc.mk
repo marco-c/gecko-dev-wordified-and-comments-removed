@@ -164,12 +164,6 @@ Wl
 U
 _replace_jemalloc_thread_local_arena
 \
--
-Wl
--
-U
-_replace_jemalloc_ptr_info
-\
 (
 NULL
 )
