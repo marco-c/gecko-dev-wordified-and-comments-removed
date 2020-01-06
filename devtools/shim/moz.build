@@ -176,6 +176,9 @@ DIRS
 =
 [
 '
+aboutdevtools
+'
+'
 locales
 '
 ]
