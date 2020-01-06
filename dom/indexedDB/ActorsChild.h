@@ -1100,9 +1100,10 @@ PBackgroundIDBDatabaseFileChild
 *
 AllocPBackgroundIDBDatabaseFileChild
 (
-PBlobChild
-*
-aBlobChild
+const
+IPCBlob
+&
+aIPCBlob
 )
 override
 ;
