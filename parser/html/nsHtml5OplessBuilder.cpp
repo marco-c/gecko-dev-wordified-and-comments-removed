@@ -71,9 +71,9 @@ Start
 (
 )
 {
-mFlushState
-=
-eInFlush
+BeginFlush
+(
+)
 ;
 BeginDocUpdate
 (
@@ -89,6 +89,10 @@ Finish
 )
 {
 EndDocUpdate
+(
+)
+;
+EndFlush
 (
 )
 ;
@@ -125,10 +129,6 @@ mOwnedElements
 Clear
 (
 )
-;
-mFlushState
-=
-eNotFlushing
 ;
 }
 void
