@@ -98,16 +98,6 @@ enabled
 "
 true
 ]
-[
-"
-toolkit
-.
-cosmeticAnimations
-.
-enabled
-"
-true
-]
 ]
 }
 )
