@@ -908,6 +908,16 @@ aIsFullscreen
 ;
 virtual
 void
+FullscreenWillChange
+(
+bool
+aIsFullscreen
+)
+=
+0
+;
+virtual
+void
 FinishFullscreenChange
 (
 bool

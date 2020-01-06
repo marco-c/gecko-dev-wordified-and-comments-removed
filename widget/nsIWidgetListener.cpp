@@ -154,6 +154,17 @@ void
 nsIWidgetListener
 :
 :
+FullscreenWillChange
+(
+bool
+aInFullscreen
+)
+{
+}
+void
+nsIWidgetListener
+:
+:
 FullscreenChanged
 (
 bool

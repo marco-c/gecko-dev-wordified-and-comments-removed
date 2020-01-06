@@ -1049,6 +1049,13 @@ aShouldHide
 override
 ;
 void
+WillEnterFullScreen
+(
+bool
+aFullScreen
+)
+;
+void
 EnteredFullScreen
 (
 bool

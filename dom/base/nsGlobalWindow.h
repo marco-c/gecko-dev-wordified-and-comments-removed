@@ -1775,6 +1775,16 @@ final
 ;
 virtual
 void
+FullscreenWillChange
+(
+bool
+aIsFullscreen
+)
+override
+final
+;
+virtual
+void
 FinishFullscreenChange
 (
 bool

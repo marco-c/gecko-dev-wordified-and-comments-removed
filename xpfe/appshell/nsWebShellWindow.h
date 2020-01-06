@@ -206,6 +206,15 @@ override
 ;
 virtual
 void
+FullscreenWillChange
+(
+bool
+aInFullscreen
+)
+override
+;
+virtual
+void
 FullscreenChanged
 (
 bool

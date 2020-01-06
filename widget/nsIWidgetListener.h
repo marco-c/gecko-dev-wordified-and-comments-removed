@@ -163,6 +163,14 @@ aActualBelow
 ;
 virtual
 void
+FullscreenWillChange
+(
+bool
+aInFullscreen
+)
+;
+virtual
+void
 FullscreenChanged
 (
 bool
