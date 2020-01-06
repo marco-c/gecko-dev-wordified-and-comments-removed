@@ -31957,7 +31957,7 @@ replace
 ?
 :
 \
-s
+W
 *
 javascript
 :
