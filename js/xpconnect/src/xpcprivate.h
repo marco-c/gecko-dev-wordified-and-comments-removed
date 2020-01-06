@@ -10307,6 +10307,11 @@ fileReader
 :
 1
 ;
+bool
+messageChannel
+:
+1
+;
 private
 :
 bool
