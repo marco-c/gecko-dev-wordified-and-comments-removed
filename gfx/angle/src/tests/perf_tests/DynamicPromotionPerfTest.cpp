@@ -668,7 +668,7 @@ GL_FALSE
 reinterpret_cast
 <
 const
-GLvoid
+void
 *
 >
 (

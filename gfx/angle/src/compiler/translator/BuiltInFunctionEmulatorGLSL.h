@@ -43,6 +43,14 @@ targetGLSLVersion
 )
 ;
 void
+InitBuiltInAtanFunctionEmulatorForGLSLWorkarounds
+(
+BuiltInFunctionEmulator
+*
+emu
+)
+;
+void
 InitBuiltInFunctionEmulatorForGLSLMissingFunctions
 (
 BuiltInFunctionEmulator

@@ -48,8 +48,8 @@ mPreprocessor
 init
 (
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -95,8 +95,8 @@ mPreprocessor
 init
 (
 1
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -135,7 +135,7 @@ input
 .
 read
 (
-NULL
+nullptr
 1
 &
 lineNo
@@ -170,7 +170,7 @@ input
 (
 1
 str
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -324,7 +324,7 @@ input
 (
 1
 str
-NULL
+nullptr
 )
 ;
 EXPECT_STREQ
@@ -409,7 +409,7 @@ input1
 (
 count
 str
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -513,7 +513,7 @@ input2
 (
 count
 str
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -589,7 +589,7 @@ input3
 (
 count
 str
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -640,7 +640,7 @@ input4
 (
 count
 str
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -753,7 +753,7 @@ input1
 (
 count
 str
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -857,7 +857,7 @@ input2
 (
 count
 str
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -933,7 +933,7 @@ input3
 (
 count
 str
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -984,7 +984,7 @@ input4
 (
 count
 str
-NULL
+nullptr
 )
 ;
 EXPECT_EQ

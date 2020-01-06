@@ -398,7 +398,7 @@ kHeight
 0
 GL_RGBA
 GL_UNSIGNED_BYTE
-NULL
+nullptr
 )
 ;
 glBindTexture

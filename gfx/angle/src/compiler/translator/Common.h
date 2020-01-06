@@ -341,6 +341,10 @@ T
 {
 public
 :
+POOL_ALLOCATOR_NEW_DELETE
+(
+)
+;
 typedef
 typename
 std
@@ -474,6 +478,10 @@ D
 {
 public
 :
+POOL_ALLOCATOR_NEW_DELETE
+(
+)
+;
 typedef
 pool_allocator
 <

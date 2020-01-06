@@ -60,6 +60,9 @@ RefCountObject
 (
 id
 )
+mState
+(
+)
 mImpl
 (
 factory
@@ -67,12 +70,10 @@ factory
 >
 createSampler
 (
+mState
 )
 )
 mLabel
-(
-)
-mSamplerState
 (
 )
 {
@@ -139,7 +140,7 @@ GLenum
 minFilter
 )
 {
-mSamplerState
+mState
 .
 minFilter
 =
@@ -156,7 +157,7 @@ getMinFilter
 const
 {
 return
-mSamplerState
+mState
 .
 minFilter
 ;
@@ -171,7 +172,7 @@ GLenum
 magFilter
 )
 {
-mSamplerState
+mState
 .
 magFilter
 =
@@ -188,7 +189,7 @@ getMagFilter
 const
 {
 return
-mSamplerState
+mState
 .
 magFilter
 ;
@@ -203,7 +204,7 @@ GLenum
 wrapS
 )
 {
-mSamplerState
+mState
 .
 wrapS
 =
@@ -220,7 +221,7 @@ getWrapS
 const
 {
 return
-mSamplerState
+mState
 .
 wrapS
 ;
@@ -235,7 +236,7 @@ GLenum
 wrapT
 )
 {
-mSamplerState
+mState
 .
 wrapT
 =
@@ -252,7 +253,7 @@ getWrapT
 const
 {
 return
-mSamplerState
+mState
 .
 wrapT
 ;
@@ -267,7 +268,7 @@ GLenum
 wrapR
 )
 {
-mSamplerState
+mState
 .
 wrapR
 =
@@ -284,7 +285,7 @@ getWrapR
 const
 {
 return
-mSamplerState
+mState
 .
 wrapR
 ;
@@ -299,7 +300,7 @@ float
 maxAnisotropy
 )
 {
-mSamplerState
+mState
 .
 maxAnisotropy
 =
@@ -316,7 +317,7 @@ getMaxAnisotropy
 const
 {
 return
-mSamplerState
+mState
 .
 maxAnisotropy
 ;
@@ -331,7 +332,7 @@ GLfloat
 minLod
 )
 {
-mSamplerState
+mState
 .
 minLod
 =
@@ -348,7 +349,7 @@ getMinLod
 const
 {
 return
-mSamplerState
+mState
 .
 minLod
 ;
@@ -363,7 +364,7 @@ GLfloat
 maxLod
 )
 {
-mSamplerState
+mState
 .
 maxLod
 =
@@ -380,7 +381,7 @@ getMaxLod
 const
 {
 return
-mSamplerState
+mState
 .
 maxLod
 ;
@@ -395,7 +396,7 @@ GLenum
 compareMode
 )
 {
-mSamplerState
+mState
 .
 compareMode
 =
@@ -412,7 +413,7 @@ getCompareMode
 const
 {
 return
-mSamplerState
+mState
 .
 compareMode
 ;
@@ -427,7 +428,7 @@ GLenum
 compareFunc
 )
 {
-mSamplerState
+mState
 .
 compareFunc
 =
@@ -444,7 +445,7 @@ getCompareFunc
 const
 {
 return
-mSamplerState
+mState
 .
 compareFunc
 ;
@@ -459,7 +460,7 @@ GLenum
 sRGBDecode
 )
 {
-mSamplerState
+mState
 .
 sRGBDecode
 =
@@ -476,7 +477,7 @@ getSRGBDecode
 const
 {
 return
-mSamplerState
+mState
 .
 sRGBDecode
 ;
@@ -493,7 +494,7 @@ getSamplerState
 const
 {
 return
-mSamplerState
+mState
 ;
 }
 rx
@@ -511,6 +512,27 @@ const
 {
 return
 mImpl
+;
+}
+void
+Sampler
+:
+:
+syncState
+(
+const
+Context
+*
+context
+)
+{
+mImpl
+-
+>
+syncState
+(
+context
+)
 ;
 }
 }

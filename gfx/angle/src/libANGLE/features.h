@@ -110,13 +110,6 @@ ANGLE_STD_ASYNC_WORKERS
 )
 #
 if
-!
-defined
-(
-__MINGW32__
-)
-&
-&
 defined
 (
 ANGLE_PLATFORM_WINDOWS

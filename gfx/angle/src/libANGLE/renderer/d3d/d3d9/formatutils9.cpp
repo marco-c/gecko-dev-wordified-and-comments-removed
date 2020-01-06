@@ -1245,7 +1245,7 @@ D3DFMT_UNKNOWN
 )
 dataInitializerFunction
 (
-NULL
+nullptr
 )
 loadFunction
 (
@@ -1328,7 +1328,7 @@ dataInitIter
 >
 second
 :
-NULL
+nullptr
 ;
 info
 .
@@ -1773,7 +1773,7 @@ InsertD3D9FormatInfo
 map
 GL_LUMINANCE8_EXT
 D3DFMT_L8
-D3DFMT_L8
+D3DFMT_UNKNOWN
 LoadToNative
 <
 GLubyte
@@ -1787,7 +1787,7 @@ InsertD3D9FormatInfo
 map
 GL_LUMINANCE8_ALPHA8_EXT
 D3DFMT_A8L8
-D3DFMT_A8L8
+D3DFMT_UNKNOWN
 LoadToNative
 <
 GLubyte
@@ -3188,7 +3188,7 @@ outputElementSize
 )
 copyFunction
 (
-NULL
+nullptr
 )
 nativeFormat
 (

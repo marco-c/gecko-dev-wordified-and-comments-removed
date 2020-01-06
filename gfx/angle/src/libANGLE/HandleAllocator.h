@@ -20,11 +20,6 @@ angle_gl
 .
 h
 "
-#
-include
-<
-stack
->
 namespace
 gl
 {
@@ -78,6 +73,11 @@ reserve
 (
 GLuint
 handle
+)
+;
+void
+reset
+(
 )
 ;
 private

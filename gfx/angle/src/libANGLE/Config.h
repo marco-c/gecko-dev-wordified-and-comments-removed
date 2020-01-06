@@ -168,6 +168,9 @@ transparentBlueValue
 EGLint
 optimalOrientation
 ;
+EGLenum
+colorComponentType
+;
 }
 ;
 class

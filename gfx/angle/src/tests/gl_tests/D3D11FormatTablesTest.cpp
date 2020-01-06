@@ -311,7 +311,7 @@ internalFormatInfo
 gl
 :
 :
-GetInternalFormatInfo
+GetSizedInternalFormatInfo
 (
 internalFormat
 )

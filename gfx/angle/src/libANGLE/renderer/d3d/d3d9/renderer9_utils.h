@@ -31,6 +31,15 @@ Error
 .
 h
 "
+#
+include
+"
+platform
+/
+WorkaroundsD3D
+.
+h
+"
 namespace
 gl
 {
@@ -43,9 +52,6 @@ rx
 {
 class
 RenderTarget9
-;
-struct
-WorkaroundsD3D
 ;
 namespace
 gl_d3d9
@@ -306,6 +312,9 @@ false
 ;
 }
 }
+angle
+:
+:
 WorkaroundsD3D
 GenerateWorkarounds
 (

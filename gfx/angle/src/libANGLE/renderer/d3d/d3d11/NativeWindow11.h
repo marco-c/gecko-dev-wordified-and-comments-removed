@@ -67,9 +67,6 @@ window
 )
 {
 }
-#
-ifdef
-ANGLE_ENABLE_D3D11
 virtual
 HRESULT
 createSwapChain
@@ -86,6 +83,8 @@ UINT
 width
 UINT
 height
+UINT
+samples
 IDXGISwapChain
 *
 *
@@ -102,8 +101,6 @@ commitChange
 =
 0
 ;
-#
-endif
 }
 ;
 }

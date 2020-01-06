@@ -357,6 +357,14 @@ DE_OS
 =
 DE_OS_ANDROID
 )
+|
+|
+(
+DE_OS
+=
+=
+DE_OS_WIN32
+)
 {
 std
 :
