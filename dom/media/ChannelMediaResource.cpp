@@ -3051,7 +3051,7 @@ GetOffset
 totalLength
 )
 {
-CacheClientSeek
+Seek
 (
 GetOffset
 (
