@@ -549,6 +549,15 @@ color
 4c9ed9
 ;
 }
+.
+toolbarbutton
+-
+animatable
+-
+box
+[
+brighttext
+]
 toolbar
 [
 brighttext
