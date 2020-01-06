@@ -1772,12 +1772,6 @@ if
 (
 cocoaWidget
 )
-skip
--
-if
-(
-styloVsGecko
-)
 HTTP
 (
 .
