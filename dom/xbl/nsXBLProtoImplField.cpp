@@ -617,8 +617,10 @@ thisObj
 )
 )
 ;
+nsCOMPtr
+<
 nsISupports
-*
+>
 native
 =
 xpc

@@ -1941,8 +1941,10 @@ iid
 bp
 )
 ;
+nsCOMPtr
+<
 nsISupports
-*
+>
 identity
 =
 UnwrapReflectorToISupports

@@ -87,8 +87,10 @@ ccx
 cx
 )
 ;
+nsCOMPtr
+<
 nsISupports
-*
+>
 supports
 =
 xpc

@@ -13401,8 +13401,10 @@ obj
 )
 .
                     
+nsCOMPtr
+<
 nsISupports
-*
+>
 native
 =
                       

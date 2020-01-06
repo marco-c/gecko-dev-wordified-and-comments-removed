@@ -6484,8 +6484,10 @@ out
 =
 nullptr
 ;
+nsCOMPtr
+<
 nsISupports
-*
+>
 native
 =
 xpc
