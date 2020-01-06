@@ -62,7 +62,6 @@ internal_types
 :
 {
 CacheTextureId
-RenderTargetMode
 TextureUpdateList
 TextureUpdateSource
 }
@@ -339,7 +338,7 @@ FrameId
 )
 -
 >
-CacheEntry
+Self
 {
 CacheEntry
 {
@@ -638,7 +637,7 @@ u32
 )
 -
 >
-TextureCache
+Self
 {
 TextureCache
 {
@@ -2326,6 +2325,9 @@ filter
 texture_array
 .
 filter
+render_target
+:
+None
 layer_count
 :
 texture_array
@@ -2333,12 +2335,6 @@ texture_array
 layer_count
 as
 i32
-mode
-:
-RenderTargetMode
-:
-:
-RenderTarget
 }
 }
 ;
@@ -2598,12 +2594,9 @@ descriptor
 .
 format
 filter
-mode
+render_target
 :
-RenderTargetMode
-:
-:
-RenderTarget
+None
 layer_count
 :
 1

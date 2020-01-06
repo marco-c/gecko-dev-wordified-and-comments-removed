@@ -68,7 +68,7 @@ vColor
 ifdef
 WR_FEATURE_TRANSFORM
 varying
-vec3
+vec2
 vLocalPos
 ;
 #
@@ -108,7 +108,7 @@ color
 #
 ifdef
 WR_FEATURE_TRANSFORM
-TransformVertexInfo
+VertexInfo
 vi
 =
 write_transform_vertex
@@ -207,14 +207,9 @@ ifdef
 WR_FEATURE_TRANSFORM
 alpha
 =
-0
-.
-0
-;
 init_transform_fs
 (
 vLocalPos
-alpha
 )
 ;
 #

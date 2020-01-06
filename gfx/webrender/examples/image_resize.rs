@@ -90,9 +90,9 @@ resources
 &
 mut
 ResourceUpdates
-_layout_size
+_framebuffer_size
 :
-LayoutSize
+DeviceUintSize
 _pipeline_id
 :
 PipelineId
