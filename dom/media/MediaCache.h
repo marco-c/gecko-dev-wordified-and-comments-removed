@@ -210,11 +210,6 @@ aData
 )
 ;
 void
-FlushPartialBlock
-(
-)
-;
-void
 NotifyLoadID
 (
 uint32_t
