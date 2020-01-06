@@ -345,7 +345,7 @@ EnsureGPUReady
 (
 )
 ;
-RefPtr
+already_AddRefed
 <
 CompositorSession
 >
@@ -372,6 +372,9 @@ gfx
 IntSize
 &
 aSurfaceSize
+bool
+*
+aRetry
 )
 ;
 bool
