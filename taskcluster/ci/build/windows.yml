@@ -2402,7 +2402,7 @@ manifests
 /
 win64
 /
-releng
+vs2015
 .
 manifest
 "
@@ -2540,7 +2540,7 @@ manifests
 /
 win64
 /
-releng
+vs2015
 .
 manifest
 "

@@ -60,9 +60,9 @@ win32
 /
 mozconfig
 .
-vs
+vs2015
 -
-latest
+win64
 .
 "
 topsrcdir

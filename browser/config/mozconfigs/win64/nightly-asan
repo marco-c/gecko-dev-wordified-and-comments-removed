@@ -58,9 +58,7 @@ win64
 /
 mozconfig
 .
-vs
--
-latest
+vs2015
 "
 .
 "
