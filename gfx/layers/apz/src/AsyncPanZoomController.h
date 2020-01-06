@@ -1448,7 +1448,7 @@ const
 ;
 private
 :
-void
+bool
 SampleCompositedAsyncTransform
 (
 )
