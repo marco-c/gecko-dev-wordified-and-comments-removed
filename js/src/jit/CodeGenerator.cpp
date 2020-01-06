@@ -1894,6 +1894,16 @@ rejoin
 return
 ;
 }
+case
+CacheKind
+:
+:
+Call
+:
+MOZ_CRASH
+(
+)
+;
 }
 MOZ_CRASH
 (

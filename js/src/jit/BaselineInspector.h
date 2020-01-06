@@ -506,7 +506,7 @@ pc
 ;
 MOZ_MUST_USE
 bool
-isOptimizableCallStringSplit
+isOptimizableConstStringSplit
 (
 jsbytecode
 *

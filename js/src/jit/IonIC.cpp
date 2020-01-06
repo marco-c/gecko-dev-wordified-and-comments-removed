@@ -287,6 +287,12 @@ CacheKind
 :
 TypeOf
 :
+case
+CacheKind
+:
+:
+Call
+:
 MOZ_CRASH
 (
 "

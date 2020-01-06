@@ -4823,7 +4823,7 @@ pcOffset_
 }
 ;
 class
-ICCall_StringSplit
+ICCall_ConstStringSplit
 :
 public
 ICMonitoredStub
@@ -4846,7 +4846,7 @@ expectedSep_
 GCPtrObject
 templateObject_
 ;
-ICCall_StringSplit
+ICCall_ConstStringSplit
 (
 JitCode
 *
@@ -4872,7 +4872,7 @@ ICMonitoredStub
 ICStub
 :
 :
-Call_StringSplit
+Call_ConstStringSplit
 stubCode
 firstMonitorStub
 )
@@ -4905,7 +4905,7 @@ offsetOfExpectedStr
 return
 offsetof
 (
-ICCall_StringSplit
+ICCall_ConstStringSplit
 expectedStr_
 )
 ;
@@ -4919,7 +4919,7 @@ offsetOfExpectedSep
 return
 offsetof
 (
-ICCall_StringSplit
+ICCall_ConstStringSplit
 expectedSep_
 )
 ;
@@ -4933,7 +4933,7 @@ offsetOfTemplateObject
 return
 offsetof
 (
-ICCall_StringSplit
+ICCall_ConstStringSplit
 templateObject_
 )
 ;
@@ -5057,7 +5057,7 @@ cx
 ICStub
 :
 :
-Call_StringSplit
+Call_ConstStringSplit
 )
 firstMonitorStub_
 (
@@ -5101,7 +5101,7 @@ space
 return
 newStub
 <
-ICCall_StringSplit
+ICCall_ConstStringSplit
 >
 (
 space
