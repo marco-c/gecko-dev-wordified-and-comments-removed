@@ -2146,9 +2146,11 @@ addEventListener
 click
 "
 (
+ev
 )
 =
 >
+{
 document
 .
 getElementById
@@ -2168,6 +2170,14 @@ remove
 hidden
 "
 )
+;
+ev
+.
+stopPropagation
+(
+)
+;
+}
 )
 ;
 GenericSubsection
