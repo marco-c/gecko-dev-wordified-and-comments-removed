@@ -50,12 +50,6 @@ XPCStringConvert
 :
 FinalizeLiteral
 (
-JS
-:
-:
-Zone
-*
-zone
 const
 JSStringFinalizer
 *
@@ -86,12 +80,6 @@ XPCStringConvert
 :
 FinalizeDOMString
 (
-JS
-:
-:
-Zone
-*
-zone
 const
 JSStringFinalizer
 *

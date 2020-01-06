@@ -7537,9 +7537,6 @@ static
 void
 FinalizeExternalString
 (
-Zone
-*
-zone
 const
 JSStringFinalizer
 *
@@ -7562,9 +7559,6 @@ static
 void
 FinalizeExternalString
 (
-Zone
-*
-zone
 const
 JSStringFinalizer
 *

@@ -8729,9 +8729,6 @@ static
 void
 FinalizeRepresentativeExternalString
 (
-Zone
-*
-zone
 const
 JSStringFinalizer
 *
@@ -8754,9 +8751,6 @@ static
 void
 FinalizeRepresentativeExternalString
 (
-Zone
-*
-zone
 const
 JSStringFinalizer
 *
