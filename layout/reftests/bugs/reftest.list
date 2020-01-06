@@ -21081,15 +21081,6 @@ html
 ref
 .
 html
-skip
--
-if
-(
-stylo
-|
-|
-styloVsGecko
-)
 =
 =
 486848
@@ -21104,9 +21095,6 @@ xul
 ref
 .
 xul
-#
-bug
-1408293
 =
 =
 487539
