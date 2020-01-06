@@ -122,7 +122,7 @@ PREVIEW_UPDATE_DELAY
 150
 ;
 class
-FontsApp
+App
 extends
 PureComponent
 {
@@ -346,6 +346,6 @@ state
 state
 )
 (
-FontsApp
+App
 )
 ;

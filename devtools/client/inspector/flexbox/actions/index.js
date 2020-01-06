@@ -24,9 +24,6 @@ enum
 createEnum
 (
 [
-"
-UPDATE_FLEXBOXES
-"
 ]
 module
 .
