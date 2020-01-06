@@ -64,9 +64,6 @@ ping
 crash
 -
 ping
-backgroundhangmonitor
--
-ping
 anonymous
 -
 ping
