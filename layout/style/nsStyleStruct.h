@@ -733,6 +733,15 @@ mFont
 nscoord
 mSize
 ;
+float
+mFontSizeFactor
+;
+nscoord
+mFontSizeOffset
+;
+uint8_t
+mFontSizeKeyword
+;
 uint8_t
 mGenericID
 ;
