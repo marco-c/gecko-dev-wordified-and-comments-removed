@@ -184,15 +184,6 @@ fy
 ;
 /
 /
-XXX
-:
-Bug
-1242048
-/
-/
-[
-SameObject
-]
 readonly
 attribute
 SVGAnimatedLength
