@@ -7009,6 +7009,17 @@ else
 environment_cleaner
 =
 endif
+rust_unlock_unstable
+=
+ifdef
+MOZ_RUST_SIMD
+rust_unlock_unstable
++
+=
+RUSTC_BOOTSTRAP
+=
+1
+endif
 #
 This
 function
@@ -7060,6 +7071,9 @@ CARGO_BUILD
 env
 (
 environment_cleaner
+)
+(
+rust_unlock_unstable
 )
 (
 rustflags_override
