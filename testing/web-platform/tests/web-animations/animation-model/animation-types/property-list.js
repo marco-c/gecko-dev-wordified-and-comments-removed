@@ -2436,6 +2436,9 @@ opacity
 types
 :
 [
+'
+opacity
+'
 ]
 }
 '
@@ -5632,6 +5635,9 @@ opacity
 types
 :
 [
+'
+opacity
+'
 ]
 }
 '
