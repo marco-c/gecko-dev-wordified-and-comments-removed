@@ -1257,17 +1257,6 @@ sharing
 [
 1
 ]
-*
-test_default_computed_style
-.
-html
-:
-getDefaultComputedStyle
-bug
-1366157
-[
-1
-]
 #
 #
 Assertions
