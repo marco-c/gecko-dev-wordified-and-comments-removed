@@ -921,6 +921,8 @@ lir
 template
 <
 size_t
+Ops
+size_t
 Temps
 >
 void
@@ -929,12 +931,10 @@ LIRGeneratorShared
 :
 defineBox
 (
-details
-:
-:
-LInstructionFixedDefsTempsHelper
+LInstructionHelper
 <
 BOX_PIECES
+Ops
 Temps
 >
 *
