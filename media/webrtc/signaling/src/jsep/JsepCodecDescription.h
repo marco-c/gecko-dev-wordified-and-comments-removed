@@ -1429,9 +1429,10 @@ red
 "
 &
 &
+!
 mRedundantEncodings
 .
-size
+empty
 (
 )
 )

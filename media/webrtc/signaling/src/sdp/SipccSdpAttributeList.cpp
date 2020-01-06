@@ -1344,12 +1344,9 @@ if
 (
 fingerprint
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 errorHolder

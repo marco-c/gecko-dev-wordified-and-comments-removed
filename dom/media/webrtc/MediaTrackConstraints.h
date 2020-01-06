@@ -1045,13 +1045,13 @@ Clamp
 (
 mIdeal
 .
-size
+empty
 (
 )
 ?
-mIdeal
-:
 defaultValue
+:
+mIdeal
 )
 ;
 }

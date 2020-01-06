@@ -1556,12 +1556,9 @@ if
 (
 discreteValues
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 os
@@ -2805,12 +2802,9 @@ if
 (
 discreteValues
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 os

@@ -494,12 +494,11 @@ GetSctpmap
 ;
 if
 (
-!
 sctpmap
 .
 mSctpmaps
 .
-size
+empty
 (
 )
 )

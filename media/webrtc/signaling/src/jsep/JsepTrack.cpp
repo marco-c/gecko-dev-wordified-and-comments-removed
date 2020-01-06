@@ -1444,9 +1444,10 @@ max_streams
 ;
 if
 (
+!
 mJsEncodeConstraints
 .
-size
+empty
 (
 )
 )

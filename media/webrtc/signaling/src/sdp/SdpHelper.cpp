@@ -285,12 +285,13 @@ candidate
 }
 if
 (
+!
 candidateAttrs
 -
 >
 mValues
 .
-size
+empty
 (
 )
 )

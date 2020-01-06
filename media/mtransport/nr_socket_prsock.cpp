@@ -8441,12 +8441,9 @@ if
 (
 msg_queue_
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 ABORT
@@ -9132,9 +9129,10 @@ PR_POLL_READ
 {
 if
 (
+!
 msg_queue_
 .
-size
+empty
 (
 )
 )
