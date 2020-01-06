@@ -96,9 +96,6 @@ aushelper
 e10srollout
 '
 '
-followonsearch
-'
-'
 pdfjs
 '
 '
@@ -106,6 +103,13 @@ pocket
 '
 '
 screenshots
+'
+'
+shield
+-
+recipe
+-
+client
 '
 '
 webcompat
@@ -146,13 +150,6 @@ formautofill
 '
 '
 presentation
-'
-'
-shield
--
-recipe
--
-client
 '
 '
 webcompat
