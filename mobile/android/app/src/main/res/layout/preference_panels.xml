@@ -216,7 +216,16 @@ android
 :
 attr
 /
-textAppearanceMedium
+textAppearance
+"
+android
+:
+textSize
+=
+"
+dimen
+/
+preference_panel_text_size
 "
 android
 :
