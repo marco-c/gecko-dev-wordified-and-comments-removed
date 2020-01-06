@@ -215,6 +215,15 @@ third_party
 /
 python
 /
+six
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 voluptuous
 mozilla
 .

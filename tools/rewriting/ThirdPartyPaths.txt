@@ -491,6 +491,12 @@ third_party
 /
 python
 /
+six
+/
+third_party
+/
+python
+/
 which
 /
 third_party
