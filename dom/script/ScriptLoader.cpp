@@ -3073,7 +3073,7 @@ All
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 importsReady
@@ -3087,7 +3087,7 @@ Then
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 __func__
@@ -4173,7 +4173,7 @@ Then
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 __func__
