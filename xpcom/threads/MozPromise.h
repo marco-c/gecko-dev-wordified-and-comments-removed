@@ -3993,8 +3993,10 @@ ThenValueType
 >
 mThenValue
 ;
+RefPtr
+<
 MozPromise
-*
+>
 mReceiver
 ;
 }
