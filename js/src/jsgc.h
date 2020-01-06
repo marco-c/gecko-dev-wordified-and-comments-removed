@@ -120,6 +120,8 @@ allocKind
 traceKind
 type
 sizedType
+bgFinal
+nursery
 )
 \
 template
