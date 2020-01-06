@@ -2111,6 +2111,13 @@ GetRootElement
 const
 ;
 virtual
+nsIContent
+*
+GetUnfocusedKeyEventTarget
+(
+)
+;
+virtual
 nsViewportInfo
 GetViewportInfo
 (
