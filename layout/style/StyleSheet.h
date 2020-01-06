@@ -170,6 +170,9 @@ const
 StyleSheet
 &
 aCopy
+StyleSheet
+*
+aParentToUse
 dom
 :
 :
