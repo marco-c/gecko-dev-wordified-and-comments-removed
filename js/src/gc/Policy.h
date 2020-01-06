@@ -680,7 +680,7 @@ return
 gc
 :
 :
-IsCellPointerValid
+IsCellPointerValidOrNull
 (
 v
 )

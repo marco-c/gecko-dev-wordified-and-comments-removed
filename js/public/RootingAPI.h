@@ -1490,7 +1490,7 @@ js
 gc
 :
 :
-IsCellPointerValid
+IsCellPointerValidOrNull
 (
 newPtr
 )
