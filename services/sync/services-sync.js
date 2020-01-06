@@ -976,8 +976,8 @@ maxPayloadCount
 )
 ;
 #
-ifndef
-RELEASE_OR_BETA
+ifdef
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -996,6 +996,14 @@ enabled
 true
 )
 ;
+#
+endif
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 pref
 (
 "
