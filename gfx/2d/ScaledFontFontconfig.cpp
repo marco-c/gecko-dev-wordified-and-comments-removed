@@ -1371,6 +1371,11 @@ aUnscaledFont
 aSize
 )
 ;
+cairo_scaled_font_destroy
+(
+cairoScaledFont
+)
+;
 FcPatternDestroy
 (
 pattern
