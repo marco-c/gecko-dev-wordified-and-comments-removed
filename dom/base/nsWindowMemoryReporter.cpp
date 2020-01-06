@@ -4675,6 +4675,10 @@ ToSeconds
 ghostTimeout
 )
 {
+mGhostWindowCount
++
++
+;
 if
 (
 aOutGhostIDs
@@ -4695,10 +4699,6 @@ WindowID
 (
 )
 )
-;
-mGhostWindowCount
-+
-+
 ;
 }
 }
