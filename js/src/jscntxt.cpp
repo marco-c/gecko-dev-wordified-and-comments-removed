@@ -6658,6 +6658,10 @@ interrupt_
 (
 false
 )
+interruptRegExpJit_
+(
+false
+)
 handlingJitInterrupt_
 (
 false

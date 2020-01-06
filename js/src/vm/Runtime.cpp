@@ -2762,6 +2762,10 @@ JSContext
 RequestInterruptUrgent
 )
 {
+interruptRegExpJit_
+=
+true
+;
 fx
 .
 lock
@@ -2829,6 +2833,10 @@ UINTPTR_MAX
 )
 {
 interrupt_
+=
+false
+;
+interruptRegExpJit_
 =
 false
 ;
