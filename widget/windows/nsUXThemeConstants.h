@@ -587,6 +587,7 @@ WP_SMALLFRAMEBOTTOMSIZINGTEMPLATE
 WP_FRAME
 =
 38
+WP_Count
 }
 ;
 enum
@@ -622,5 +623,18 @@ BS_INACTIVE
 }
 }
 }
+#
+define
+THEME_PART_DISTINCT_VALUE_COUNT
+mozilla
+:
+:
+widget
+:
+:
+themeconst
+:
+:
+WP_Count
 #
 endif
