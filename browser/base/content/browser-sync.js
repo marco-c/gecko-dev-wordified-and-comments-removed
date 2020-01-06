@@ -443,14 +443,6 @@ if
 this
 .
 _initialized
-|
-|
-!
-window
-.
-toolbar
-.
-visible
 )
 {
 return
