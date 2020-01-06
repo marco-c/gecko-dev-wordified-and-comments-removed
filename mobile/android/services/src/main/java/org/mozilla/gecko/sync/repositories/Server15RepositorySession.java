@@ -296,6 +296,11 @@ getInfoConfiguration
 serverRepository
 .
 authHeaderProvider
+serverRepository
+.
+getAbortOnStoreFailure
+(
+)
 )
 ;
 }
