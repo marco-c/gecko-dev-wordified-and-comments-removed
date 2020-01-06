@@ -236,10 +236,6 @@ mPresContext
 (
 nullptr
 )
-mAllowResolveStaleStyles
-(
-false
-)
 mAuthorStyleDisabled
 (
 false
@@ -2003,7 +1999,6 @@ mRawSet
 get
 (
 )
-mAllowResolveStaleStyles
 )
 .
 Consume
@@ -4648,7 +4643,6 @@ mRawSet
 get
 (
 )
-mAllowResolveStaleStyles
 )
 .
 Consume
