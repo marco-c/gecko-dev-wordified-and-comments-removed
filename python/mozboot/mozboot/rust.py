@@ -57,7 +57,7 @@ RUSTUP_VERSION
 '
 1
 .
-0
+5
 .
 0
 '
@@ -75,7 +75,7 @@ freebsd
 :
         
 '
-706c2c8a49498b722baad5e8dadaa16a3505e2a9f46b7ee3f41d4dce56163155
+0fd08eaf4cb2935a195e4bab2352a4506e986dc65e3ba6c696d374081f9b56cb
 '
     
 '
@@ -88,7 +88,7 @@ darwin
 :
         
 '
-2da68a13feb9a691ef3b59d0d6d53af617962ab5ba4673eaf3818778ccd00bec
+29884ee3b2b896fd5ac0ecee624d726667974a4a6df01a66a7ab345325d623a5
 '
     
 '
@@ -103,7 +103,7 @@ gnu
 :
         
 '
-4cda09438c08eab55cfe4a98325a5722c4ec66865d07da07d38ddc6c36893692
+7b5ce33a881992b285e2aa6cbc785da4138c5bab7c8c9b55c06918bfb1ba0efa
 '
     
 '
@@ -118,7 +118,7 @@ msvc
 :
         
 '
-e3bba8fbb24aed412757d1ea07d6ed1e952ca3f6293b3551e44649601dbe830f
+7500b705855c4f8e70e222ad1192bb46de15629f73a6459a98c9fd4bd06136bc
 '
 }
 NO_PLATFORM
