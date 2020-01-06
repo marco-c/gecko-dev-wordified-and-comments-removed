@@ -392,8 +392,9 @@ CPU
 Architecture
 #
 endif
+extern
 const
-CLSID
+GUID
 CLSID_AMDWebmMfVp9Dec
 =
 {
