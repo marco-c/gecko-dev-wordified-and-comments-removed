@@ -182,6 +182,11 @@ HTMLEditor
 h
 '
 '
+ManualNAC
+.
+h
+'
+'
 SelectionState
 .
 h
