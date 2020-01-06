@@ -191,6 +191,12 @@ object
 PropTypes
 .
 array
+PropTypes
+.
+bool
+PropTypes
+.
+number
 ]
 )
 }

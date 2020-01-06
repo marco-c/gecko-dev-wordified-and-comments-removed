@@ -222,6 +222,12 @@ array
 PropTypes
 .
 object
+PropTypes
+.
+bool
+PropTypes
+.
+number
 ]
 )
 jsonTextLength
