@@ -2248,7 +2248,7 @@ slot
 id
 (
 )
-=
+!
 =
 declaration
 .
@@ -2256,6 +2256,9 @@ id
 (
 )
 {
+continue
+;
+}
 let
 important
 =
@@ -2435,7 +2438,6 @@ i
 ;
 break
 ;
-}
 }
 }
 }
