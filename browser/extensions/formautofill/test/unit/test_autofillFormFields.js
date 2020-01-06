@@ -108,7 +108,7 @@ tel
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 ]
@@ -301,7 +301,7 @@ tel
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -824,7 +824,7 @@ tel
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -1313,7 +1313,7 @@ tel
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -1789,7 +1789,7 @@ tel
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -2287,7 +2287,7 @@ select
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -2530,7 +2530,7 @@ select
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -2772,7 +2772,7 @@ select
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -2968,7 +2968,7 @@ select
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -3118,7 +3118,7 @@ select
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -3271,7 +3271,7 @@ select
 /
 form
 >
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -3462,15 +3462,15 @@ promises
 ;
 handler
 .
-fieldDetails
+addressFieldDetails
 =
 testcase
 .
-fieldDetails
+addressFieldDetails
 ;
 handler
 .
-fieldDetails
+addressFieldDetails
 .
 forEach
 (

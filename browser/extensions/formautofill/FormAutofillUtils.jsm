@@ -72,6 +72,15 @@ this
 FormAutofillUtils
 =
 {
+get
+AUTOFILL_FIELDS_THRESHOLD
+(
+)
+{
+return
+3
+;
+}
 _fieldNameInfo
 :
 {

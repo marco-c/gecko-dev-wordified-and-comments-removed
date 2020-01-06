@@ -562,7 +562,7 @@ elementId
 "
 targetElement
 "
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -641,7 +641,7 @@ elementId
 "
 targetElement
 "
-fieldDetails
+addressFieldDetails
 :
 [
 {
@@ -1171,7 +1171,7 @@ getInfo
 element
 testcase
 .
-fieldDetails
+addressFieldDetails
 )
 ;
 Assert
