@@ -276,6 +276,14 @@ urlclassifier
 .
 disallow_completions
 "
+#
+define
+PASSWORD_ALLOW_TABLE_PREF
+"
+urlclassifier
+.
+passwordAllowTable
+"
 using
 namespace
 mozilla
