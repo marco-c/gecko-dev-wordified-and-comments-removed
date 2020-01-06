@@ -341,13 +341,35 @@ cert
 '
 )
         
+python
+=
+sys
+.
+executable
+        
+if
+'
+mock_target
+'
+in
+self
+.
+config
+:
+            
+python
+=
+'
+python2
+.
+7
+'
+        
 cmd
 =
 [
             
-sys
-.
-executable
+python
             
 os
 .
