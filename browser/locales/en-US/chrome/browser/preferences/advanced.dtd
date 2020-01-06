@@ -1339,7 +1339,7 @@ Q
 <
 !
 ENTITY
-viewCerts
+viewCerts2
 .
 label
 "
@@ -1350,7 +1350,7 @@ Certificates
 <
 !
 ENTITY
-viewCerts
+viewCerts2
 .
 accesskey
 "
@@ -1360,7 +1360,7 @@ C
 <
 !
 ENTITY
-viewSecurityDevices
+viewSecurityDevices2
 .
 label
 "
@@ -1371,7 +1371,7 @@ Devices
 <
 !
 ENTITY
-viewSecurityDevices
+viewSecurityDevices2
 .
 accesskey
 "

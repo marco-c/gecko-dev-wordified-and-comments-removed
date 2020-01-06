@@ -370,7 +370,7 @@ more
 <
 !
 ENTITY
-changeBlockList
+changeBlockList2
 .
 label
 "
@@ -382,7 +382,7 @@ List
 <
 !
 ENTITY
-changeBlockList
+changeBlockList2
 .
 accesskey
 "

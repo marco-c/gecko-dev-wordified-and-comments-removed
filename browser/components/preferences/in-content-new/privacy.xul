@@ -4407,7 +4407,7 @@ label
 =
 "
 &
-changeBlockList
+changeBlockList2
 .
 label
 ;
@@ -4416,7 +4416,7 @@ accesskey
 =
 "
 &
-changeBlockList
+changeBlockList2
 .
 accesskey
 ;
@@ -6017,7 +6017,7 @@ label
 =
 "
 &
-viewCerts
+viewCerts2
 .
 label
 ;
@@ -6026,7 +6026,7 @@ accesskey
 =
 "
 &
-viewCerts
+viewCerts2
 .
 accesskey
 ;
@@ -6155,7 +6155,7 @@ label
 =
 "
 &
-viewSecurityDevices
+viewSecurityDevices2
 .
 label
 ;
@@ -6164,7 +6164,7 @@ accesskey
 =
 "
 &
-viewSecurityDevices
+viewSecurityDevices2
 .
 accesskey
 ;
