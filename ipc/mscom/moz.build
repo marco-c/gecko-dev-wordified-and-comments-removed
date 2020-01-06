@@ -443,8 +443,8 @@ BUG_COMPONENT
 Core
 "
 "
-Disability
-Access
-APIs
+IPC
+:
+MSCOM
 "
 )
