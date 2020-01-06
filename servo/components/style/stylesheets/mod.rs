@@ -31,6 +31,7 @@ memory
 mod
 namespace_rule
 ;
+pub
 mod
 origin
 ;
@@ -251,6 +252,7 @@ origin
 :
 {
 Origin
+OriginSet
 PerOrigin
 PerOriginClear
 }
