@@ -2247,7 +2247,9 @@ isErrorPage
 await
 PlacesUtils
 .
-promisePlaceInfo
+history
+.
+fetch
 (
 aBrowser
 .

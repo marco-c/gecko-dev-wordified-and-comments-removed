@@ -8663,9 +8663,11 @@ page
 *
 deprecated
 use
-mozIAsyncHistory
+PlacesUtils
 .
-getPlacesInfo
+history
+.
+fetch
 instead
 .
 *
