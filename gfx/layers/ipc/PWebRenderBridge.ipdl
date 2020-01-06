@@ -529,6 +529,8 @@ WrBuiltDisplayListDescriptor
 aDLDesc
 WebRenderScrollData
 aScrollData
+uint32_t
+idNameSpace
 )
 ;
 sync
@@ -556,6 +558,8 @@ WrBuiltDisplayListDescriptor
 aDLDesc
 WebRenderScrollData
 aScrollData
+uint32_t
+idNameSpace
 )
 ;
 async
@@ -765,6 +769,13 @@ ShutdownSync
 ;
 child
 :
+async
+WrUpdated
+(
+uint32_t
+newIdNameSpace
+)
+;
 async
 __delete__
 (
