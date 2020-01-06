@@ -1783,7 +1783,7 @@ intermittent
 GRADLE_USER_HOME
 :
 /
-home
+builds
 /
 worker
 /
@@ -1826,7 +1826,7 @@ maven
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1868,7 +1868,7 @@ apk
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1913,7 +1913,7 @@ build
 path
 :
 /
-home
+builds
 /
 worker
 /

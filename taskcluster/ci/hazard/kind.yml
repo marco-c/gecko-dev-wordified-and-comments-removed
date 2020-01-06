@@ -220,7 +220,7 @@ command
 >
 cd
 /
-home
+builds
 /
 worker
 /
@@ -356,7 +356,7 @@ command
 >
 cd
 /
-home
+builds
 /
 worker
 /

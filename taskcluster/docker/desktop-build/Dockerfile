@@ -24,9 +24,9 @@ upd
 .
 1
 .
-6
+7
 .
-20160329195300
+201706291036
 MAINTAINER
 Dustin
 J
@@ -48,14 +48,14 @@ is
 updated
 VOLUME
 /
-home
+builds
 /
 worker
 /
 workspace
 VOLUME
 /
-home
+builds
 /
 worker
 /
@@ -85,7 +85,7 @@ variables
 ADD
 bin
 /
-home
+builds
 /
 worker
 /
@@ -95,7 +95,7 @@ chmod
 +
 x
 /
-home
+builds
 /
 worker
 /
@@ -438,7 +438,7 @@ xvfb
 .
 sh
 /
-home
+builds
 /
 worker
 /
@@ -472,7 +472,7 @@ run
 -
 task
 /
-home
+builds
 /
 worker
 /
@@ -489,7 +489,7 @@ dot
 -
 config
 /
-home
+builds
 /
 worker
 /
@@ -588,7 +588,7 @@ oauth
 .
 txt
 /
-home
+builds
 /
 worker
 /
@@ -638,7 +638,7 @@ buildprops
 .
 json
 /
-home
+builds
 /
 worker
 /

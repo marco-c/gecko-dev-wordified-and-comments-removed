@@ -254,7 +254,7 @@ mkdir
 -
 p
 /
-home
+builds
 /
 worker
 /
@@ -296,7 +296,7 @@ tar
 .
 xz
 /
-home
+builds
 /
 worker
 /
@@ -308,7 +308,7 @@ tar
 .
 xz
 /
-home
+builds
 /
 worker
 /
@@ -322,7 +322,7 @@ tar
 .
 xz
 /
-home
+builds
 /
 worker
 /
@@ -354,7 +354,7 @@ tooltool
 #
 pushd
 /
-home
+builds
 /
 worker
 /
