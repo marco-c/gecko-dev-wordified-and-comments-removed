@@ -127,7 +127,7 @@ result
 ;
 readonly
 attribute
-DOMError
+DOMException
 ?
 error
 ;

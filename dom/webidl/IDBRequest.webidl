@@ -198,7 +198,7 @@ Throws
 ]
 readonly
 attribute
-DOMError
+DOMException
 ?
 error
 ;

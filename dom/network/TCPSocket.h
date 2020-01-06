@@ -115,9 +115,6 @@ ErrorResult
 namespace
 dom
 {
-class
-DOMError
-;
 struct
 ServerSocketOptions
 ;

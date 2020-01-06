@@ -247,7 +247,7 @@ db
 ;
 readonly
 attribute
-DOMError
+DOMException
 ?
 error
 ;

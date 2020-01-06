@@ -133,7 +133,7 @@ RTCPeerConnectionErrorCallback
 =
 void
 (
-DOMError
+DOMException
 error
 )
 ;

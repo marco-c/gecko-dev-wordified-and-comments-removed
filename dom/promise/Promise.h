@@ -132,9 +132,6 @@ class
 AnyCallback
 ;
 class
-DOMError
-;
-class
 MediaStreamError
 ;
 class

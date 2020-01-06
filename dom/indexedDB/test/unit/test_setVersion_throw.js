@@ -237,12 +237,12 @@ target
 .
 error
 instanceof
-DOMError
+DOMException
 "
 Request
 has
 a
-DOMError
+DOMException
 "
 )
 ;

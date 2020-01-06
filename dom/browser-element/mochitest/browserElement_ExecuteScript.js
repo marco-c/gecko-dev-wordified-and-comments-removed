@@ -591,7 +591,7 @@ is
 (
 error
 .
-name
+message
 '
 SyntaxError
 :
@@ -634,7 +634,7 @@ is
 (
 error
 .
-name
+message
 '
 Script
 last
@@ -703,7 +703,7 @@ is
 (
 error
 .
-name
+message
 '
 BOOM
 '
@@ -760,7 +760,7 @@ is
 (
 error
 .
-name
+message
 '
 Value
 returned
@@ -872,7 +872,7 @@ is
 (
 error
 .
-name
+message
 '
 TypeError
 :
@@ -1005,7 +1005,7 @@ is
 (
 error
 .
-name
+message
 '
 URL
 mismatches
@@ -1053,7 +1053,7 @@ is
 (
 error
 .
-name
+message
 '
 Malformed
 URL
@@ -1107,7 +1107,7 @@ is
 (
 error
 .
-name
+message
 '
 Origin
 mismatches
@@ -1161,7 +1161,7 @@ is
 (
 error
 .
-name
+message
 '
 Origin
 mismatches

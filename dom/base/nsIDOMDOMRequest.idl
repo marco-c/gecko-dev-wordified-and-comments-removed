@@ -168,7 +168,7 @@ result
 ;
 /
 /
-DOMError
+DOMException
 readonly
 attribute
 nsISupports
