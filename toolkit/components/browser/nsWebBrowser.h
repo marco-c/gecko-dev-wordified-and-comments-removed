@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsCWebBrowser
 .
 h
@@ -339,7 +346,12 @@ nsWebBrowser
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsWebBrowser
+nsIWebBrowser
+)
 NS_DECL_NSIBASEWINDOW
 NS_DECL_NSIDOCSHELLTREEITEM
 NS_DECL_NSIINTERFACEREQUESTOR
