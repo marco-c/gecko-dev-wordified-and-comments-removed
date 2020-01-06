@@ -1639,6 +1639,13 @@ write
 (
 data
 )
+        
+if
+missing_component
+:
+            
+return
+1
     
 SubCommand
 (
