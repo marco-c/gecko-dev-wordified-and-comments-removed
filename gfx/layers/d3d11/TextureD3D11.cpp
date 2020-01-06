@@ -6547,9 +6547,16 @@ GetFormat
 )
 )
 ;
-auto
-slice
-=
+wr
+:
+:
+Vec_u8
+imgBytes
+;
+imgBytes
+.
+PushBytes
+(
 Range
 <
 uint8_t
@@ -6566,6 +6573,7 @@ map
 .
 mStride
 )
+)
 ;
 aResources
 .
@@ -6576,7 +6584,7 @@ aImageKeys
 0
 ]
 descriptor
-slice
+imgBytes
 )
 ;
 dataSourceSurface

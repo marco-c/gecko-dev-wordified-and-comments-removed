@@ -274,6 +274,12 @@ wr
 DisplayListBuilder
 &
 aBuilder
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResourceUpdates
 const
 StackingContextHelper
 &

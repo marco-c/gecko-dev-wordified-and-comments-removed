@@ -1531,6 +1531,13 @@ h
 '
 wr
 /
+IpcResourceUpdateQueue
+.
+h
+'
+'
+wr
+/
 ScrollingLayersHelper
 .
 h
@@ -3064,6 +3071,13 @@ cpp
 wr
 /
 AsyncImagePipelineManager
+.
+cpp
+'
+'
+wr
+/
+IpcResourceUpdateQueue
 .
 cpp
 '
