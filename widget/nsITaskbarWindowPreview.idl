@@ -231,13 +231,13 @@ will
 start
 to
 receive
-drawPreview
+requestPreview
 and
-drawThumbnail
+requestThumbnail
 calls
+*
 as
 well
-*
 as
 reads
 on
