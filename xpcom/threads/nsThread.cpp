@@ -4457,7 +4457,7 @@ nsCOMPtr
 <
 nsIIdleRunnable
 >
-incrementalEvent
+idleEvent
 (
 do_QueryInterface
 (
@@ -4468,10 +4468,10 @@ aEvent
 ;
 if
 (
-incrementalEvent
+idleEvent
 )
 {
-incrementalEvent
+idleEvent
 -
 >
 SetDeadline
