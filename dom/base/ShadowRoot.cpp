@@ -2257,6 +2257,9 @@ aContainer
 if
 (
 content
+&
+&
+content
 -
 >
 MatchedNodes
@@ -2382,6 +2385,9 @@ aContainer
 if
 (
 content
+&
+&
+content
 -
 >
 MatchedNodes
@@ -2475,6 +2481,9 @@ aContainer
 ;
 if
 (
+content
+&
+&
 content
 -
 >
