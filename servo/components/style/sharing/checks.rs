@@ -23,6 +23,15 @@ dom
 TElement
 ;
 use
+selectors
+:
+:
+context
+:
+:
+NthIndexCache
+;
+use
 sharing
 :
 :
@@ -396,6 +405,11 @@ StyleBloom
 <
 E
 >
+nth_index_cache
+:
+&
+mut
+NthIndexCache
 selector_flags_map
 :
 &
@@ -430,6 +444,7 @@ revalidation_match_results
 (
 stylist
 bloom
+nth_index_cache
 selector_flags_map
 )
 ;
@@ -442,6 +457,7 @@ revalidation_match_results
 (
 stylist
 bloom
+nth_index_cache
 )
 ;
 debug_assert_eq

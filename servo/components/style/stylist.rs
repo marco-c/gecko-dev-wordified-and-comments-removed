@@ -245,6 +245,7 @@ ElementSelectorFlags
 matches_selector
 MatchingContext
 MatchingMode
+NthIndexCache
 }
 ;
 use
@@ -4042,6 +4043,7 @@ MatchingMode
 :
 ForStatelessPseudoElement
 None
+None
 self
 .
 quirks_mode
@@ -4170,6 +4172,7 @@ MatchingMode
 :
 :
 ForStatelessPseudoElement
+None
 None
 VisitedHandlingMode
 :
@@ -4633,6 +4636,7 @@ MatchingMode
 :
 :
 Normal
+None
 None
 self
 .
@@ -5477,6 +5481,11 @@ Option
 &
 BloomFilter
 >
+nth_index_cache
+:
+&
+mut
+NthIndexCache
 flags_setter
 :
 &
@@ -5513,6 +5522,10 @@ MatchingMode
 :
 Normal
 bloom
+Some
+(
+nth_index_cache
+)
 self
 .
 quirks_mode
