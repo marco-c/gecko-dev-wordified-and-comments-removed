@@ -2083,6 +2083,11 @@ TopmostScrollId
 (
 )
 ;
+bool
+TopmostIsClip
+(
+)
+;
 wr
 :
 :
