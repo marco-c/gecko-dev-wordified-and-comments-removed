@@ -63,7 +63,7 @@ append
 "
 sessionstore
 .
-js
+jsonlz4
 "
 )
 ;
