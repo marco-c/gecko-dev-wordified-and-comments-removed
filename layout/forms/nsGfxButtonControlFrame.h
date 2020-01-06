@@ -147,14 +147,6 @@ aModType
 override
 ;
 virtual
-bool
-IsLeaf
-(
-)
-const
-override
-;
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame

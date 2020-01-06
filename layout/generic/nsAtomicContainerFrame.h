@@ -23,17 +23,6 @@ NS_DECL_ABSTRACT_FRAME
 (
 nsAtomicContainerFrame
 )
-bool
-IsLeaf
-(
-)
-const
-override
-{
-return
-true
-;
-}
 FrameSearchResult
 PeekOffsetNoAmount
 (

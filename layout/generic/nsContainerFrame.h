@@ -198,14 +198,6 @@ aChild
 override
 ;
 virtual
-bool
-IsLeaf
-(
-)
-const
-override
-;
-virtual
 FrameSearchResult
 PeekOffsetNoAmount
 (
