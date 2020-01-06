@@ -1156,9 +1156,7 @@ Shutdown
 )
 ;
 }
-const
-char
-*
+nsCString
 GetDescriptionName
 (
 )

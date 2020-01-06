@@ -129,12 +129,15 @@ Move
 (
 creator
 )
+NS_LITERAL_CSTRING
+(
 "
 null
 media
 data
 decoder
 "
+)
 aParams
 )
 ;

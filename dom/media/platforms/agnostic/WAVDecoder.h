@@ -102,9 +102,7 @@ Shutdown
 )
 override
 ;
-const
-char
-*
+nsCString
 GetDescriptionName
 (
 )
@@ -112,11 +110,14 @@ const
 override
 {
 return
+NS_LITERAL_CSTRING
+(
 "
 wave
 audio
 decoder
 "
+)
 ;
 }
 private
