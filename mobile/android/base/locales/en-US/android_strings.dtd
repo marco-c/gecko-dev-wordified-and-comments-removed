@@ -4729,17 +4729,6 @@ performance
 <
 !
 ENTITY
-datareporting_abouthr_title
-"
-View
-my
-Health
-Report
-"
->
-<
-!
-ENTITY
 datareporting_telemetry_title
 "
 Telemetry

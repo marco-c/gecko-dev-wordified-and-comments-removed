@@ -140,18 +140,6 @@ public
 static
 final
 String
-HEALTHREPORT
-=
-"
-about
-:
-healthreport
-"
-;
-public
-static
-final
-String
 HOME
 =
 "
@@ -471,7 +459,6 @@ ADDONS
 CONFIG
 DOWNLOADS
 FIREFOX
-HEALTHREPORT
 )
 )
 ;
