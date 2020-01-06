@@ -349,7 +349,7 @@ aProperty
 )
 )
 }
-void
+bool
 DeclarationBlock
 :
 :

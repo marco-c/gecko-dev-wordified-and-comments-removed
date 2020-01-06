@@ -460,7 +460,7 @@ aProperty
 )
 ;
 inline
-void
+bool
 RemovePropertyByID
 (
 nsCSSPropertyID
