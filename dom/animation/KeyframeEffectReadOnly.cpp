@@ -5075,15 +5075,11 @@ segmentIdx
 ]
 .
 mFromValue
-.
-mGecko
 !
 =
 segment
 .
 mToValue
-.
-mGecko
 )
 {
 binding_detail
