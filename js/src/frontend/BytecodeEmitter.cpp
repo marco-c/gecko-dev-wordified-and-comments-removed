@@ -29277,12 +29277,6 @@ else
 {
 MOZ_ASSERT
 (
-isOp
-(
-JSOP_NEWINIT
-)
-&
-&
 !
 (
 pn_xflags
@@ -29465,14 +29459,6 @@ case
 PNK_OBJECT
 :
 {
-MOZ_ASSERT
-(
-isOp
-(
-JSOP_NEWINIT
-)
-)
-;
 MOZ_ASSERT
 (
 !

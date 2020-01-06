@@ -5439,14 +5439,6 @@ PNK_ARRAY
 case
 PNK_OBJECT
 :
-MOZ_ASSERT
-(
-isOp
-(
-JSOP_NEWINIT
-)
-)
-;
 return
 !
 (
