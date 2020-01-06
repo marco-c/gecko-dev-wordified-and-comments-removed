@@ -89,6 +89,15 @@ extensions
 /
 schemas
 /
+clipboard
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 contextual_identities
 .
 json

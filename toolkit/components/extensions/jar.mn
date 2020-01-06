@@ -125,6 +125,15 @@ extensions
 /
 ext
 -
+clipboard
+.
+js
+content
+/
+extensions
+/
+ext
+-
 cookies
 .
 js
