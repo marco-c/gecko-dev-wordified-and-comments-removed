@@ -151,9 +151,6 @@ sessionrestore_no_auto_restore
 "
 tabpaint
 "
-"
-cpstartup
-"
 ]
 }
 "
@@ -205,9 +202,6 @@ sessionrestore_no_auto_restore
 "
 "
 tabpaint
-"
-"
-cpstartup
 "
 ]
 }
