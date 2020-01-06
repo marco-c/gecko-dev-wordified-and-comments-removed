@@ -626,6 +626,12 @@ DevToolsStartup
 prototype
 =
 {
+initialized
+:
+false
+recorded
+:
+false
 developerToggleCreated
 :
 false
@@ -1551,9 +1557,6 @@ return
 k
 ;
 }
-initialized
-:
-false
 initDevTools
 :
 function
@@ -1569,7 +1572,7 @@ reason
 !
 this
 .
-initialized
+recorded
 )
 {
 try
@@ -1616,6 +1619,12 @@ n
 )
 ;
 }
+this
+.
+recorded
+=
+true
+;
 }
 this
 .
