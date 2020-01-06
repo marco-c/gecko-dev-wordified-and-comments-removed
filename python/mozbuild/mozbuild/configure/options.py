@@ -3205,6 +3205,25 @@ _last
 =
 0
         
+assert
+(
+argv
+and
+not
+argv
+[
+0
+]
+.
+startswith
+(
+'
+-
+-
+'
+)
+)
+        
 for
 arg
 in

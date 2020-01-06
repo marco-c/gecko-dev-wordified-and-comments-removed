@@ -2032,6 +2032,9 @@ config
 {
 }
 [
+'
+configure
+'
 ]
 out
 out
@@ -2778,6 +2781,9 @@ config
 {
 }
 [
+'
+configure
+'
 ]
 out
 out
@@ -3087,6 +3093,9 @@ config
 {
 }
 [
+'
+configure
+'
 ]
 out
 out
