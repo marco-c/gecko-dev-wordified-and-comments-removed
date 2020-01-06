@@ -113,6 +113,12 @@ get
 )
 aWriter
 aProcessStartTime
+TimeStamp
+(
+)
+TimeStamp
+(
+)
 0
 &
 firstSampleTimeIgnored
