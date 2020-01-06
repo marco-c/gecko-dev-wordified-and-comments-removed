@@ -98,6 +98,13 @@ namespace
 mozilla
 {
 namespace
+gl
+{
+class
+GLBlitHelper
+;
+}
+namespace
 layers
 {
 class
@@ -552,6 +559,13 @@ DXGIYCbCrTextureData
 public
 TextureData
 {
+friend
+class
+gl
+:
+:
+GLBlitHelper
+;
 public
 :
 static

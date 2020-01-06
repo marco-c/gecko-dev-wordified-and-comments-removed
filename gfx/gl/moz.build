@@ -439,6 +439,11 @@ UNIFIED_SOURCES
 =
 [
 '
+GLBlitHelperD3D
+.
+cpp
+'
+'
 GLContextProviderWGL
 .
 cpp
