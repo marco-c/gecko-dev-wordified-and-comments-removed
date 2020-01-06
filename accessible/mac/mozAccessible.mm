@@ -5260,6 +5260,12 @@ case
 roles
 :
 :
+FOOTNOTE
+:
+case
+roles
+:
+:
 SECTION
 :
 if
