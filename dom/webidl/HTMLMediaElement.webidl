@@ -639,11 +639,6 @@ attribute
 boolean
 mozPreservesPitch
 ;
-readonly
-attribute
-boolean
-mozAutoplayEnabled
-;
 /
 /
 NB

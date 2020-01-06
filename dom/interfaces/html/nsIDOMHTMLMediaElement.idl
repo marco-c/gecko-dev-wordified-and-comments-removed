@@ -421,11 +421,6 @@ attribute
 boolean
 ended
 ;
-readonly
-attribute
-boolean
-mozAutoplayEnabled
-;
 attribute
 boolean
 autoplay
