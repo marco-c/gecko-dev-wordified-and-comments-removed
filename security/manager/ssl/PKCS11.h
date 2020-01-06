@@ -1,9 +1,9 @@
 #
 ifndef
-_nsCrypto_h_
+PKCS11_h
 #
 define
-_nsCrypto_h_
+PKCS11_h
 #
 include
 "
@@ -18,6 +18,12 @@ nsNSSShutDown
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+psm
+{
 #
 define
 NS_PKCS11_CID
@@ -38,7 +44,7 @@ NS_PKCS11_CID
 }
 }
 class
-nsPkcs11
+PKCS11
 :
 public
 nsIPKCS11
@@ -47,7 +53,7 @@ nsNSSShutDownObject
 {
 public
 :
-nsPkcs11
+PKCS11
 (
 )
 ;
@@ -57,7 +63,7 @@ protected
 :
 virtual
 ~
-nsPkcs11
+PKCS11
 (
 )
 ;
@@ -73,5 +79,7 @@ override
 }
 }
 ;
+}
+}
 #
 endif

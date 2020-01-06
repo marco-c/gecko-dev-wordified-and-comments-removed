@@ -373,11 +373,6 @@ nsClientAuthRemember
 h
 '
 '
-nsCrypto
-.
-h
-'
-'
 nsNSSCallbacks
 .
 h
@@ -522,11 +517,6 @@ cpp
 '
 '
 nsClientAuthRemember
-.
-cpp
-'
-'
-nsCrypto
 .
 cpp
 '
@@ -692,6 +682,11 @@ cpp
 '
 '
 nsTLSSocketProvider
+.
+cpp
+'
+'
+PKCS11
 .
 cpp
 '
