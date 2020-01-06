@@ -5720,7 +5720,6 @@ SetupBridge
 (
 aPluginId
 this
-false
 aRv
 aRunID
 aEndpoint
@@ -5899,7 +5898,6 @@ SetupBridge
 (
 aPluginId
 this
-true
 aRv
 &
 dummy

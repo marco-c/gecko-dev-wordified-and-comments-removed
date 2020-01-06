@@ -253,8 +253,6 @@ GetChannel
 void
 SetCallRunnableImmediately
 (
-bool
-aCallImmediately
 )
 ;
 virtual
