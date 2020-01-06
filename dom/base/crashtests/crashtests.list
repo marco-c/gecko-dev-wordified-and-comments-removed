@@ -1355,3 +1355,16 @@ load
 1383780
 .
 html
+pref
+(
+clipboard
+.
+autocopy
+true
+)
+load
+1385272
+-
+1
+.
+html
