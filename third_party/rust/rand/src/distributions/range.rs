@@ -27,6 +27,7 @@ derive
 (
 Clone
 Copy
+Debug
 )
 ]
 pub
@@ -333,6 +334,10 @@ a
 /
 bijection
 .
+#
+[
+inline
+]
 fn
 construct_range
 (

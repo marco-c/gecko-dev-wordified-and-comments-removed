@@ -22,6 +22,13 @@ u64
 *
 1024
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 ReseedingRng
@@ -411,6 +418,7 @@ derive
 (
 Clone
 Copy
+Debug
 )
 ]
 pub

@@ -19,6 +19,13 @@ mem
 use
 Rng
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 ReadRng
