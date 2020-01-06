@@ -61,6 +61,13 @@ content
 /
 schemas
 /
+browser_action
+.
+json
+content
+/
+schemas
+/
 page_action
 .
 json
