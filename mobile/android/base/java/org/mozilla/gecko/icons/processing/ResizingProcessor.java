@@ -53,6 +53,14 @@ ResizingProcessor
 implements
 Processor
 {
+public
+static
+final
+int
+MAX_SCALE_FACTOR
+=
+3
+;
 Override
 public
 void
@@ -145,7 +153,7 @@ largestSize
 =
 size
 *
-2
+MAX_SCALE_FACTOR
 ;
 if
 (
