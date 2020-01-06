@@ -1862,12 +1862,6 @@ mPlaybackRate
 ;
 Mirror
 <
-bool
->
-mStateMachineIsShutdown
-;
-Mirror
-<
 media
 :
 :
