@@ -1633,6 +1633,9 @@ none
 important
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 back
 -
@@ -1763,9 +1766,6 @@ none
 important
 ;
 }
-%
-ifndef
-MOZ_PHOTON_THEME
 #
 forward
 -
@@ -1787,8 +1787,6 @@ none
 important
 ;
 }
-%
-endif
 #
 main
 -
@@ -1988,6 +1986,8 @@ bottom
 2px
 ;
 }
+%
+endif
 #
 urlbar
 #
