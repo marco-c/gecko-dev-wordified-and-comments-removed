@@ -535,6 +535,9 @@ blocklistState
 "
 blocklistURL
 "
+"
+startupData
+"
 ]
 ;
 const
