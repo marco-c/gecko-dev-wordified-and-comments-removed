@@ -921,6 +921,11 @@ nsFrameList
 cpp
 '
 '
+nsFrameSelection
+.
+cpp
+'
+'
 nsFrameSetFrame
 .
 cpp
