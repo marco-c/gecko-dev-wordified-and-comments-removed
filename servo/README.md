@@ -1274,9 +1274,7 @@ see
 [
 rust
 -
-commit
--
-hash
+toolchain
 ]
 (
 https
@@ -1297,9 +1295,7 @@ master
 /
 rust
 -
-commit
--
-hash
+toolchain
 )
 .
 #

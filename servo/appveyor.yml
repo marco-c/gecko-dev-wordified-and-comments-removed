@@ -410,9 +410,7 @@ servo
 >
 rust
 -
-commit
--
-hash
+toolchain
 -
 .
 cargo
@@ -420,9 +418,7 @@ cargo
 >
 rust
 -
-commit
--
-hash
+toolchain
 -
 .
 ccache
