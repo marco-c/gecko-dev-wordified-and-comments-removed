@@ -4660,7 +4660,6 @@ matchesParamsAfterId
 nbase
 slot
 attrs
-0
 nullptr
 nullptr
 )
@@ -5261,7 +5260,6 @@ matchesParamsAfterId
 nbase
 SHAPE_INVALID_SLOT
 attrs
-0
 getter
 setter
 )
