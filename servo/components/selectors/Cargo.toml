@@ -157,6 +157,10 @@ gecko_like_types
 =
 [
 ]
+unstable
+=
+[
+]
 [
 dependencies
 ]
