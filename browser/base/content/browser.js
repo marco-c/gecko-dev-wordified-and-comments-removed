@@ -25556,12 +25556,6 @@ timeWhenSwitchedToStop
 =
 0
 ;
-this
-.
-animate
-=
-false
-;
 }
 uninit
 (
