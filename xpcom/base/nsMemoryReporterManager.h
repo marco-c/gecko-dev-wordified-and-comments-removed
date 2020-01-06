@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsIEventTarget
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h
@@ -563,6 +570,12 @@ mPendingProcessesState
 PendingReportersState
 *
 mPendingReportersState
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mThreadPool
 ;
 PendingProcessesState
 *
