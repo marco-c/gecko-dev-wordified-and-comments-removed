@@ -447,6 +447,9 @@ script
 '
 payments
 '
+'
+websocket
+'
 ]
 if
 CONFIG

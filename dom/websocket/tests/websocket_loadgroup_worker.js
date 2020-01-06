@@ -80,9 +80,9 @@ tests
 /
 dom
 /
-base
+websocket
 /
-test
+tests
 /
 file_websocket_hello
 "

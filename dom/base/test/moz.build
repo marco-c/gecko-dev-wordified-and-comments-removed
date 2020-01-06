@@ -113,13 +113,6 @@ mochitest
 .
 ini
 '
-'
-websocket_hybi
-/
-mochitest
-.
-ini
-'
 ]
 MOCHITEST_CHROME_MANIFESTS
 +

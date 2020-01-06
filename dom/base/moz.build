@@ -1117,11 +1117,6 @@ WebKitCSSMatrix
 h
 '
 '
-WebSocket
-.
-h
-'
-'
 WindowOrientationObserver
 .
 h
@@ -1840,11 +1835,6 @@ cpp
 '
 '
 WebKitCSSMatrix
-.
-cpp
-'
-'
-WebSocket
 .
 cpp
 '

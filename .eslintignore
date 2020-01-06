@@ -2077,6 +2077,12 @@ webidl
 *
 dom
 /
+websocket
+/
+*
+*
+dom
+/
 workers
 /
 *
