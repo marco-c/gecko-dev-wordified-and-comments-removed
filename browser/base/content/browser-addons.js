@@ -96,7 +96,7 @@ maybeRemove
 ;
 }
 }
-const
+var
 gXPInstallObserver
 =
 {
@@ -2879,7 +2879,7 @@ remove
 }
 }
 ;
-const
+var
 gExtensionsNotifications
 =
 {
