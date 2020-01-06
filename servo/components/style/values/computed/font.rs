@@ -119,6 +119,7 @@ font
 :
 {
 XTextZoom
+XLang
 FontSynthesis
 FontVariantSettings
 }
