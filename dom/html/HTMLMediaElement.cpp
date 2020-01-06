@@ -21063,15 +21063,6 @@ mPendingNotifyOutput
 (
 false
 )
-mAbstractMainThread
-(
-aElement
--
->
-AbstractMainThread
-(
-)
-)
 {
 }
 void
@@ -21323,7 +21314,6 @@ aGraph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 event
 .
 forget
@@ -21353,7 +21343,6 @@ aGraph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 NewRunnableMethod
 (
 "
@@ -21411,7 +21400,6 @@ aGraph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 NewRunnableMethod
 (
 "
@@ -21456,13 +21444,6 @@ mMutex
 ;
 bool
 mPendingNotifyOutput
-;
-const
-RefPtr
-<
-AbstractThread
->
-mAbstractMainThread
 ;
 }
 ;

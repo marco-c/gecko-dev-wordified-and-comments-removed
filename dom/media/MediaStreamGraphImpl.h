@@ -1687,6 +1687,13 @@ mLatencyLog
 AudioMixer
 mMixer
 ;
+const
+RefPtr
+<
+AbstractThread
+>
+mAbstractMainThread
+;
 #
 ifdef
 MOZ_WEBRTC
@@ -1768,13 +1775,6 @@ dom
 :
 AudioChannel
 mAudioChannel
-;
-const
-RefPtr
-<
-AbstractThread
->
-mAbstractMainThread
 ;
 }
 ;

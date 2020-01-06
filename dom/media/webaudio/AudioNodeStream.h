@@ -195,9 +195,6 @@ Flags
 aFlags
 TrackRate
 aSampleRate
-AbstractThread
-*
-aMainThread
 )
 ;
 ~

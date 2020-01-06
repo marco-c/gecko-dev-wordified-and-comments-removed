@@ -501,13 +501,6 @@ mVideoBitsPerSecond
 uint32_t
 mBitsPerSecond
 ;
-const
-RefPtr
-<
-AbstractThread
->
-mAbstractMainThread
-;
 private
 :
 void

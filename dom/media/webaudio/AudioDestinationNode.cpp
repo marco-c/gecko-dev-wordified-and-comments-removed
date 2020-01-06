@@ -744,7 +744,7 @@ ResolvePromise
 renderedBuffer
 )
 ;
-mAbstractMainThread
+context
 -
 >
 Dispatch
@@ -1113,7 +1113,6 @@ Graph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 runnable
 .
 forget

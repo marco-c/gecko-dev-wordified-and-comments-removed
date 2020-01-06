@@ -133,10 +133,6 @@ mStarted
 (
 false
 )
-mAbstractMainThread
-(
-aMainThread
-)
 {
 }
 void
@@ -227,7 +223,6 @@ aGraph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 NewRunnableMethod
 (
 "
@@ -254,7 +249,6 @@ aGraph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 NewRunnableMethod
 (
 "
@@ -335,7 +329,6 @@ aGraph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 NewRunnableMethod
 (
 "
@@ -372,13 +365,6 @@ mStream
 ;
 bool
 mStarted
-;
-const
-RefPtr
-<
-AbstractThread
->
-mAbstractMainThread
 ;
 }
 ;
@@ -617,12 +603,6 @@ nullptr
 >
 CreateSourceStream
 (
-AbstractThread
-:
-:
-MainThread
-(
-)
 )
 ;
 mIndirectAudio

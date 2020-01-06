@@ -252,7 +252,6 @@ aGraph
 >
 DispatchToMainThreadAfterStreamStateUpdate
 (
-mAbstractMainThread
 NewRunnableMethod
 (
 "
@@ -705,7 +704,6 @@ Graph
 >
 CreateSourceStream
 (
-aMainThread
 )
 )
 mListener

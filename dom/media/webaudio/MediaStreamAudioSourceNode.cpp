@@ -346,12 +346,6 @@ Create
 (
 graph
 engine
-aMediaStream
--
->
-AbstractMainThread
-(
-)
 )
 ;
 mInputStream

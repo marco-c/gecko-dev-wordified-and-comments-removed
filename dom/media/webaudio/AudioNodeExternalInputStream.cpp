@@ -64,9 +64,6 @@ AudioNodeEngine
 aEngine
 TrackRate
 aSampleRate
-AbstractThread
-*
-aMainThread
 )
 :
 AudioNodeStream
@@ -74,7 +71,6 @@ AudioNodeStream
 aEngine
 NO_STREAM_FLAGS
 aSampleRate
-aMainThread
 )
 {
 MOZ_COUNT_CTOR
@@ -112,9 +108,6 @@ aGraph
 AudioNodeEngine
 *
 aEngine
-AbstractThread
-*
-aMainThread
 )
 {
 AudioContext
@@ -174,7 +167,6 @@ aGraph
 GraphRate
 (
 )
-aMainThread
 )
 ;
 stream
