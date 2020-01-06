@@ -157,6 +157,11 @@ aStream
 )
 override
 ;
+void
+Shutdown
+(
+)
+;
 private
 :
 ~
