@@ -636,6 +636,17 @@ getContentValues
 newRecord
 )
 ;
+cv
+.
+remove
+(
+BrowserContract
+.
+Bookmarks
+.
+PARAM_INSERT_FROM_SYNC_AS_MODIFIED
+)
+;
 final
 Bundle
 data
