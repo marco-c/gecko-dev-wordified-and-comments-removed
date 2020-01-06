@@ -1422,6 +1422,7 @@ GetReferrerPolicy
 (
 )
 principal
+0
 nullptr
 nullptr
 nullptr

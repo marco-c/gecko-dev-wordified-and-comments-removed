@@ -1929,6 +1929,8 @@ aLoadingDocument
 nsIPrincipal
 *
 aLoadingPrincipal
+uint64_t
+aRequestContextID
 nsIURI
 *
 aReferrer
@@ -6049,6 +6051,9 @@ aLoadingPrincipal
 nsContentPolicyType
 &
 aContentPolicyType
+uint64_t
+*
+aRequestContextID
 )
 ;
 static

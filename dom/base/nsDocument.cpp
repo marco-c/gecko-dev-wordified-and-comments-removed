@@ -43840,6 +43840,7 @@ this
 NodePrincipal
 (
 )
+0
 mDocumentURI
 aReferrerPolicy
 nullptr

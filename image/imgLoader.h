@@ -906,6 +906,8 @@ aReferrerPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
+uint64_t
+aRequestContextID
 nsILoadGroup
 *
 aLoadGroup

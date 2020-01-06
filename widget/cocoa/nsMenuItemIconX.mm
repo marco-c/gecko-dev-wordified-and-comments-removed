@@ -1327,6 +1327,11 @@ rv
 }
 else
 {
+uint64_t
+dummy
+=
+0
+;
 nsContentUtils
 :
 :
@@ -1338,6 +1343,8 @@ getter_AddRefs
 mLoadingPrincipal
 )
 mContentType
+&
+dummy
 )
 ;
 }
@@ -2018,6 +2025,7 @@ net
 :
 RP_Unset
 mLoadingPrincipal
+0
 loadGroup
 this
 mContent
