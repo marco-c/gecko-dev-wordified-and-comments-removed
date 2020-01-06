@@ -144,15 +144,6 @@ browser
 /
 schemas
 /
-find
-.
-json
-content
-/
-browser
-/
-schemas
-/
 geckoProfiler
 .
 json
