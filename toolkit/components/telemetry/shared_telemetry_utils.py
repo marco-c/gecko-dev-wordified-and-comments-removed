@@ -383,7 +383,7 @@ file
 as
 a
 C
-const
+constexpr
 char
 array
 .
@@ -562,7 +562,7 @@ f
 write
 (
 "
-const
+constexpr
 char
 %
 s

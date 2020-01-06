@@ -412,7 +412,7 @@ output
 print
 (
 "
-const
+constexpr
 uint32_t
 EventCount
 =

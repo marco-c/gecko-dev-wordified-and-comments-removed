@@ -119,7 +119,7 @@ extra_count
 print
 (
 "
-const
+constexpr
 uint32_t
 %
 s
@@ -344,7 +344,7 @@ gCommonEventInfo
 print
 (
 "
-const
+constexpr
 CommonEventInfo
 %
 s
@@ -570,7 +570,7 @@ gEventInfo
 print
 (
 "
-const
+constexpr
 EventInfo
 %
 s
