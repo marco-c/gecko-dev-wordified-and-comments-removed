@@ -216,7 +216,6 @@ JS_URL
 yield
 refreshTab
 (
-tab
 )
 ;
 yield

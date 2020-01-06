@@ -372,7 +372,6 @@ length
 yield
 refreshTab
 (
-tab
 )
 ;
 const

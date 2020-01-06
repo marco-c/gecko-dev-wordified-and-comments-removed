@@ -128,9 +128,6 @@ target
 yield
 refreshTab
 (
-gBrowser
-.
-selectedTab
 )
 ;
 info
