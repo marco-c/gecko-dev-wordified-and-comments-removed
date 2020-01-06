@@ -848,9 +848,10 @@ bindingToRemove
 mBindingTable
 -
 >
-RemoveAndForget
+Remove
 (
 aRef
+&
 bindingToRemove
 )
 ;

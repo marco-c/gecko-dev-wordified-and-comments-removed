@@ -844,9 +844,10 @@ mMutex
 ;
 mPluginCrashHelpers
 .
-RemoveAndForget
+Remove
 (
 aPluginId
+&
 helpers
 )
 ;

@@ -2363,7 +2363,7 @@ issuerSet
 ;
 issuerTable
 .
-RemoveAndForget
+Remove
 (
 hashKey
 -
@@ -2371,6 +2371,7 @@ hashKey
 GetKey
 (
 )
+&
 issuerSet
 )
 ;

@@ -601,11 +601,12 @@ holder
 ;
 mDecrypts
 .
-RemoveAndForget
+Remove
 (
 aDecrypted
 .
 mSample
+&
 holder
 )
 ;
