@@ -166,17 +166,6 @@ false
 }
 Override
 public
-AbsoluteLayout
-getPluginContainer
-(
-)
-{
-return
-null
-;
-}
-Override
-public
 void
 invalidateOptionsMenu
 (

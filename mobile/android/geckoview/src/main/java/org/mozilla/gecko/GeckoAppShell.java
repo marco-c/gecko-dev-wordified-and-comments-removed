@@ -8847,12 +8847,6 @@ areTabsShown
 )
 ;
 public
-AbsoluteLayout
-getPluginContainer
-(
-)
-;
-public
 void
 invalidateOptionsMenu
 (
