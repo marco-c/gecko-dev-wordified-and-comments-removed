@@ -5590,6 +5590,17 @@ dataStorage
 )
 )
 ;
+nsThreadManager
+:
+:
+get
+(
+)
+.
+EnableMainThreadEventPrioritization
+(
+)
+;
 }
 mozilla
 :

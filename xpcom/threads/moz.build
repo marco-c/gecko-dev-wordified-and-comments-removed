@@ -392,6 +392,11 @@ HangMonitor
 cpp
 '
 '
+InputEventStatistics
+.
+cpp
+'
+'
 LazyIdleThread
 .
 cpp

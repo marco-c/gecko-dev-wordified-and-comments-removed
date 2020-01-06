@@ -12375,10 +12375,7 @@ Message
 NORMAL_PRIORITY
 '
     
-else
-:
-        
-assert
+elif
 prio
 =
 =
@@ -12386,7 +12383,23 @@ ipdl
 .
 ast
 .
-HIGH_PRIORITY
+INPUT_PRIORITY
+:
+        
+prioEnum
+=
+'
+IPC
+:
+:
+Message
+:
+:
+INPUT_PRIORITY
+'
+    
+else
+:
         
 prioEnum
 =
