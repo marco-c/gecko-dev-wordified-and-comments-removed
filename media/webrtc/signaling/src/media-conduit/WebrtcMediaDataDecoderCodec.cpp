@@ -184,6 +184,10 @@ codec
 "
 video
 /
+webm
+;
+codecs
+=
 vp8
 "
 ;
@@ -203,6 +207,10 @@ codec
 "
 video
 /
+webm
+;
+codecs
+=
 vp9
 "
 ;
