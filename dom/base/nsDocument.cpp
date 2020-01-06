@@ -39194,6 +39194,14 @@ mOnloadBlockCount
 &
 &
 mScriptGlobalObject
+&
+&
+GetReadyStateEnum
+(
+)
+!
+=
+READYSTATE_COMPLETE
 )
 {
 if
