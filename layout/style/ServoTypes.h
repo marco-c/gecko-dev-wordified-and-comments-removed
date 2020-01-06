@@ -117,6 +117,7 @@ TraversalRestyleBehavior
 Normal
 ForReconstruct
 ForAnimationOnly
+ForCSSRuleChanges
 }
 ;
 enum

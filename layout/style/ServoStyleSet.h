@@ -683,6 +683,8 @@ aStateMask
 bool
 StyleDocument
 (
+TraversalRestyleBehavior
+aRestyleBehavior
 )
 ;
 bool

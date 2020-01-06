@@ -10707,6 +10707,10 @@ set
 >
 StyleDocument
 (
+TraversalRestyleBehavior
+:
+:
+Normal
 )
 ;
 }
