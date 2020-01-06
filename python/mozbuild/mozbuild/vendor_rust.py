@@ -217,14 +217,17 @@ vendor
 .
 1
 .
-3
+11
 and
 newer
         
 strips
 out
 .
-gitattributes
+orig
+and
+.
+rej
 files
 which
 we
@@ -275,14 +278,15 @@ v
 (
 \
 d
++
 \
 .
 )
 *
 \
 d
++
 )
-:
 '
 l
 )
@@ -313,7 +317,7 @@ b
 .
 1
 .
-3
+11
 '
         
 return
@@ -1009,7 +1013,7 @@ vendor
 .
 1
 .
-3
+11
 required
 ;
 force
@@ -2158,6 +2162,13 @@ args
 cargo
 '
 vendor
+'
+'
+-
+-
+no
+-
+delete
 '
 '
 -
