@@ -141,6 +141,11 @@ AuthenticatorResponse
 h
 '
 '
+NSSU2FTokenRemote
+.
+h
+'
+'
 PublicKeyCredential
 .
 h
@@ -234,6 +239,11 @@ cpp
 src
 /
 output_dynamic
+.
+cpp
+'
+'
+NSSU2FTokenRemote
 .
 cpp
 '
