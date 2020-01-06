@@ -1946,7 +1946,7 @@ max
 aRequestedRect
 .
 width
-64
+8
 )
 ;
 return
