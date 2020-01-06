@@ -2052,8 +2052,9 @@ OnTracksAvailable
 tracksAvailableCallback
 )
 ;
+return
+;
 }
-else
 if
 (
 mRecorder
@@ -2129,9 +2130,9 @@ CREATE_AUDIO_TRACK
 trackRate
 )
 ;
+return
+;
 }
-else
-{
 MOZ_ASSERT
 (
 false
@@ -2141,7 +2142,6 @@ source
 "
 )
 ;
-}
 }
 void
 Stop
