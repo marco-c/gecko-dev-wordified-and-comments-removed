@@ -7601,7 +7601,7 @@ background
 color
 :
 #
-0096dd
+0060df
 ;
 color
 :
@@ -7654,6 +7654,15 @@ prefs
 button
 :
 hover
+{
+background
+-
+color
+:
+#
+003eaa
+;
+}
 .
 PanelUI
 -
@@ -7672,7 +7681,7 @@ background
 color
 :
 #
-018acb
+002275
 ;
 }
 .
