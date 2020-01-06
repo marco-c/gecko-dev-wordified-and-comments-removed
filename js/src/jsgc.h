@@ -4188,12 +4188,6 @@ FrameVerifierPre
 \
 D
 (
-StackRooting
-6
-)
-\
-D
-(
 GenerationalGC
 7
 )
