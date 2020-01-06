@@ -435,10 +435,7 @@ suffix
 catch
 (
 err
-)
-{
 if
-(
 err
 instanceof
 OS
@@ -471,13 +468,6 @@ suffix
 "
 )
 ;
-}
-else
-{
-throw
-err
-;
-}
 }
 await
 reference_compare_files
@@ -655,6 +645,7 @@ TMP_PATH
 )
 ;
 }
+;
 await
 test_with_options
 (
