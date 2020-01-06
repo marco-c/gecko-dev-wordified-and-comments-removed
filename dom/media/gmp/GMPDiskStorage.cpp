@@ -637,6 +637,8 @@ nullptr
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 dirEntry
@@ -648,6 +650,7 @@ PR_RDONLY
 0
 &
 fd
+)
 )
 )
 )
@@ -680,9 +683,12 @@ fd
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 err
+)
 )
 )
 {
@@ -712,9 +718,12 @@ filename
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -1018,6 +1027,8 @@ recordName
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 err
@@ -1028,6 +1039,7 @@ recordLength
 =
 =
 0
+)
 )
 {
 return
@@ -1248,6 +1260,8 @@ GMPNoErr
 }
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 OpenStorageFile
@@ -1262,6 +1276,7 @@ record
 -
 >
 mFileDesc
+)
 )
 )
 )

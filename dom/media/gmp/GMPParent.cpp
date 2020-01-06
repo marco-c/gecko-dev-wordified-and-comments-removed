@@ -646,9 +646,12 @@ parent
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -678,9 +681,12 @@ parentLeafName
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -812,6 +818,8 @@ path
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 mDirectory
@@ -820,6 +828,7 @@ mDirectory
 GetPath
 (
 path
+)
 )
 )
 )
@@ -3061,9 +3070,12 @@ infoFile
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -3130,9 +3142,12 @@ manifestFile
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -4515,6 +4530,8 @@ child
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 PGMPContent
@@ -4535,6 +4552,7 @@ OtherPid
 parent
 &
 child
+)
 )
 )
 )

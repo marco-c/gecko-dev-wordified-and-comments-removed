@@ -414,9 +414,12 @@ aFileBase
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -425,6 +428,8 @@ false
 ;
 }
 if
+(
+NS_WARN_IF
 (
 NS_FAILED
 (
@@ -436,6 +441,7 @@ Clone
 getter_AddRefs
 (
 aLibDirectory
+)
 )
 )
 )
@@ -466,9 +472,12 @@ parent
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -491,9 +500,12 @@ parentLeafName
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -962,9 +974,12 @@ app
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -989,9 +1004,12 @@ appBinary
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 {
@@ -1501,6 +1519,8 @@ newFile
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 NS_NewNativeLocalFile
@@ -1510,6 +1530,7 @@ true
 getter_AddRefs
 (
 newFile
+)
 )
 )
 )
@@ -1802,6 +1823,8 @@ parent
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 path
@@ -1812,6 +1835,7 @@ GetParent
 getter_AddRefs
 (
 parent
+)
 )
 )
 )
@@ -1900,6 +1924,8 @@ parent
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 path
@@ -1910,6 +1936,7 @@ GetParent
 getter_AddRefs
 (
 parent
+)
 )
 )
 )
