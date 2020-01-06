@@ -924,6 +924,9 @@ in
 handles
 :
             
+try
+:
+                
 self
 .
 marionette
@@ -932,7 +935,7 @@ switch_to_window
 (
 handle
 )
-            
+                
 self
 .
 marionette
@@ -940,6 +943,14 @@ marionette
 close
 (
 )
+            
+except
+errors
+.
+NoSuchWindowException
+:
+                
+pass
         
 self
 .
