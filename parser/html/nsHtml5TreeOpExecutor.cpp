@@ -886,7 +886,7 @@ aType
 FlushType
 :
 :
-InterruptibleLayout
+EnsurePresShellInitAndFrames
 )
 {
 nsContentSink
