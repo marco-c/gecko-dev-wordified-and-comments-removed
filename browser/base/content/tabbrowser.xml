@@ -44691,7 +44691,7 @@ this
 .
 mTabstrip
 .
-_smoothScrollByPixels
+scrollByPixels
 (
 this
 .
