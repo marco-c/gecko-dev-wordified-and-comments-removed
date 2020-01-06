@@ -102,14 +102,14 @@ const
 explicit
 IndiceWrapper
 (
-mp4parse_byte_data
+Mp4parseByteData
 &
 aRustIndice
 )
 ;
 protected
 :
-mp4parse_byte_data
+Mp4parseByteData
 mIndice
 ;
 }
@@ -122,7 +122,7 @@ operator
 (
 )
 (
-mp4parse_parser
+Mp4parseParser
 *
 aPtr
 )
@@ -531,7 +531,7 @@ mozilla
 :
 UniquePtr
 <
-mp4parse_parser
+Mp4parseParser
 FreeMP4Parser
 >
 mParser

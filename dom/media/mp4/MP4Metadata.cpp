@@ -145,7 +145,7 @@ IndiceWrapper
 :
 IndiceWrapper
 (
-mp4parse_byte_data
+Mp4parseByteData
 &
 aIndice
 )
@@ -231,7 +231,7 @@ false
 ;
 }
 const
-mp4parse_indice
+Mp4parseIndice
 *
 indice
 =
@@ -547,7 +547,7 @@ mSourceAdaptor
 aSource
 )
 {
-mp4parse_io
+Mp4parseIo
 io
 =
 {
@@ -608,7 +608,7 @@ Parse
 (
 )
 {
-mp4parse_status
+Mp4parseStatus
 rv
 =
 mp4parse_read
@@ -625,7 +625,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 MOZ_LOG
@@ -654,7 +654,7 @@ return
 rv
 =
 =
-mp4parse_status_OOM
+MP4PARSE_STATUS_OOM
 ?
 NS_ERROR_OUT_OF_MEMORY
 :
@@ -677,7 +677,7 @@ UpdateCrypto
 (
 )
 {
-mp4parse_pssh_info
+Mp4parsePsshInfo
 info
 =
 {
@@ -697,7 +697,7 @@ info
 )
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 return
@@ -743,7 +743,7 @@ TrackInfo
 :
 TrackType
 aLHS
-mp4parse_track_type
+Mp4parseTrackType
 aRHS
 )
 {
@@ -762,7 +762,7 @@ return
 aRHS
 =
 =
-mp4parse_track_type_AUDIO
+MP4PARSE_TRACK_TYPE_AUDIO
 ;
 case
 TrackInfo
@@ -774,7 +774,7 @@ return
 aRHS
 =
 =
-mp4parse_track_type_VIDEO
+MP4PARSE_TRACK_TYPE_VIDEO
 ;
 default
 :
@@ -825,7 +825,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 MOZ_LOG
@@ -896,7 +896,7 @@ tracks
 i
 )
 {
-mp4parse_track_info
+Mp4parseTrackInfo
 track_info
 ;
 rv
@@ -918,7 +918,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 continue
@@ -931,10 +931,7 @@ track_info
 codec
 =
 =
-mp4parse_codec
-:
-:
-mp4parse_codec_UNKNOWN
+MP4PARSE_CODEC_UNKNOWN
 )
 {
 continue
@@ -1034,7 +1031,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 return
@@ -1064,7 +1061,7 @@ tracks
 i
 )
 {
-mp4parse_track_info
+Mp4parseTrackInfo
 track_info
 ;
 rv
@@ -1086,7 +1083,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 continue
@@ -1197,7 +1194,7 @@ nullptr
 }
 ;
 }
-mp4parse_track_info
+Mp4parseTrackInfo
 info
 ;
 auto
@@ -1224,7 +1221,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 MOZ_LOG
@@ -1293,7 +1290,7 @@ codec
 )
 {
 case
-mp4parse_codec_UNKNOWN
+MP4PARSE_CODEC_UNKNOWN
 :
 codec_string
 =
@@ -1304,7 +1301,7 @@ unknown
 break
 ;
 case
-mp4parse_codec_AAC
+MP4PARSE_CODEC_AAC
 :
 codec_string
 =
@@ -1315,7 +1312,7 @@ aac
 break
 ;
 case
-mp4parse_codec_OPUS
+MP4PARSE_CODEC_OPUS
 :
 codec_string
 =
@@ -1326,7 +1323,7 @@ opus
 break
 ;
 case
-mp4parse_codec_FLAC
+MP4PARSE_CODEC_FLAC
 :
 codec_string
 =
@@ -1337,7 +1334,7 @@ flac
 break
 ;
 case
-mp4parse_codec_AVC
+MP4PARSE_CODEC_AVC
 :
 codec_string
 =
@@ -1350,7 +1347,7 @@ h
 break
 ;
 case
-mp4parse_codec_VP9
+MP4PARSE_CODEC_VP9
 :
 codec_string
 =
@@ -1361,7 +1358,7 @@ vp9
 break
 ;
 case
-mp4parse_codec_MP3
+MP4PARSE_CODEC_MP3
 :
 codec_string
 =
@@ -1372,7 +1369,7 @@ mp3
 break
 ;
 case
-mp4parse_codec_MP4V
+MP4PARSE_CODEC_MP4V
 :
 codec_string
 =
@@ -1383,7 +1380,7 @@ mp4v
 break
 ;
 case
-mp4parse_codec_JPEG
+MP4PARSE_CODEC_JPEG
 :
 codec_string
 =
@@ -1394,7 +1391,7 @@ jpeg
 break
 ;
 case
-mp4parse_codec_AC3
+MP4PARSE_CODEC_AC3
 :
 codec_string
 =
@@ -1407,7 +1404,7 @@ ac
 break
 ;
 case
-mp4parse_codec_EC3
+MP4PARSE_CODEC_EC3
 :
 codec_string
 =
@@ -1473,7 +1470,7 @@ TrackType
 kAudioTrack
 :
 {
-mp4parse_track_audio_info
+Mp4parseTrackAudioInfo
 audio
 ;
 auto
@@ -1500,7 +1497,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 MOZ_LOG
@@ -1594,7 +1591,7 @@ TrackType
 kVideoTrack
 :
 {
-mp4parse_track_video_info
+Mp4parseTrackVideoInfo
 video
 ;
 auto
@@ -1621,7 +1618,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 MOZ_LOG
@@ -1770,7 +1767,7 @@ IsPositive
 )
 )
 {
-mp4parse_fragment_info
+Mp4parseFragmentInfo
 info
 ;
 auto
@@ -1792,7 +1789,7 @@ if
 rv
 =
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 e
@@ -1929,7 +1926,7 @@ TrackID
 aTrackID
 )
 {
-mp4parse_byte_data
+Mp4parseByteData
 indiceRawData
 =
 {
@@ -1960,7 +1957,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 return
@@ -2026,7 +2023,7 @@ if
 rv
 !
 =
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 )
 {
 return
