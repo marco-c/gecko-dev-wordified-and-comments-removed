@@ -178,6 +178,9 @@ nullptr
 }
 #
 endif
+#
+ifdef
+MOZILLA_OFFICIAL
 if
 (
 !
@@ -188,6 +191,8 @@ return
 nullptr
 ;
 }
+#
+endif
 cdm
 :
 :
