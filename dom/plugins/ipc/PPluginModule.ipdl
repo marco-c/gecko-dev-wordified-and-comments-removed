@@ -436,13 +436,6 @@ rv
 )
 ;
 async
-AsyncNP_Initialize
-(
-PluginSettings
-settings
-)
-;
-async
 PPluginInstance
 (
 nsCString
