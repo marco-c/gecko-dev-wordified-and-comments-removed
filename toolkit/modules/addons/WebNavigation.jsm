@@ -1282,8 +1282,8 @@ data
 {
 const
 {
+createdOuterWindowId
 isSourceTab
-createdWindowId
 sourceFrameId
 url
 }
@@ -1299,7 +1299,7 @@ createdNavigationTargetByOuterWindowId
 .
 get
 (
-createdWindowId
+createdOuterWindowId
 )
 ;
 if
@@ -1314,7 +1314,7 @@ createdNavigationTargetByOuterWindowId
 .
 set
 (
-createdWindowId
+createdOuterWindowId
 {
 browser
 data
@@ -1330,7 +1330,7 @@ createdNavigationTargetByOuterWindowId
 .
 delete
 (
-createdWindowId
+createdOuterWindowId
 )
 ;
 let
