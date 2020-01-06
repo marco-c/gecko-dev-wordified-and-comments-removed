@@ -8685,9 +8685,8 @@ NS_ERROR_FAILURE
 ;
 mIdleThreadTimer
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 NS_ENSURE_STATE

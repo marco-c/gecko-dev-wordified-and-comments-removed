@@ -13837,9 +13837,8 @@ mTimeoutTimer
 {
 mTimeoutTimer
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 SetTimerEventTarget
@@ -15592,9 +15591,8 @@ mProgressNotifier
 {
 mProgressNotifier
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 SetTimerEventTarget
@@ -15713,9 +15711,8 @@ eErrorOrExpired
 }
 mSyncTimeoutTimer
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 SetTimerEventTarget

@@ -1683,9 +1683,8 @@ rv
 ;
 mDeleteTimer
 =
-do_CreateInstance
+NS_NewTimer
 (
-NS_TIMER_CONTRACTID
 )
 ;
 NS_ENSURE_STATE
