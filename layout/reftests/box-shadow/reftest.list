@@ -613,12 +613,6 @@ d2d
 26
 5910
 )
-fails
--
-if
-(
-stylo
-)
 =
 =
 boxshadow
