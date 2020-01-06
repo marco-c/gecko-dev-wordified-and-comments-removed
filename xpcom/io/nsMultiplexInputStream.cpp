@@ -941,10 +941,6 @@ rv2
 ;
 }
 }
-mAsyncWaitCallback
-=
-nullptr
-;
 return
 rv
 ;
