@@ -320,6 +320,7 @@ DOMTokenList
 dropzone
 ;
 [
+CEReactions
 SetterThrows
 Pure
 ]
