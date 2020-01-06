@@ -1186,7 +1186,7 @@ wr
 :
 ImageKey
 >
-mImageKeys
+mImageKeysToDelete
 ;
 nsTArray
 <

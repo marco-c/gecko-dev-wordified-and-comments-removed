@@ -4396,6 +4396,10 @@ ScheduleComposition
 (
 )
 ;
+DeleteOldImages
+(
+)
+;
 for
 (
 std
