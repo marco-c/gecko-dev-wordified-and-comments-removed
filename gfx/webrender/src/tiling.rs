@@ -5627,6 +5627,14 @@ ctx
 device_pixel_ratio
 )
 ;
+font
+.
+render_mode
+=
+text
+.
+shadow_render_mode
+;
 let
 texture_id
 =
