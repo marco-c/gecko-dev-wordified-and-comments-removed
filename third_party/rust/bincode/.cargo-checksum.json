@@ -16,14 +16,6 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 "
 "
 .
-gitignore
-"
-:
-"
-e084df3ce631ce22082bd63f9e421e7f4d7a2408d6520de532f6a649e4d320dd
-"
-"
-.
 travis
 .
 yml

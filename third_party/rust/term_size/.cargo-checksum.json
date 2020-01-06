@@ -26,14 +26,6 @@ toml
 "
 "
 .
-gitignore
-"
-:
-"
-c16e899c57b402fc2ec014f7a2f72c151a3767bee0bac43221e092d7cd08a8c1
-"
-"
-.
 travis
 .
 yml

@@ -1,9 +1,0 @@
-perf
-.
-data
-*
-/
-target
-Cargo
-.
-lock

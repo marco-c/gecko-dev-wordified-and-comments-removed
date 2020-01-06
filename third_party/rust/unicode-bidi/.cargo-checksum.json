@@ -16,14 +16,6 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 "
 "
 .
-gitignore
-"
-:
-"
-c4efd1043636b9b8f207ead7488fca41f56871884df3c1f51bafdd80daa60f24
-"
-"
-.
 rustfmt
 .
 toml
