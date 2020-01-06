@@ -1955,7 +1955,7 @@ as
 u64
 cursor
 as
-u8
+u16
 )
 )
 None
@@ -1994,8 +1994,6 @@ local_clip
 is_backface_visible
 :
 true
-tag
-:
 tag
 edge_aa_segment_mask
 :

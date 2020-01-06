@@ -1130,11 +1130,6 @@ enable_text_antialiasing
 debug_flags
 :
 debug_flags
-enable_batcher
-:
-opts
-.
-webrender_batch
 debug
 :
 opts
