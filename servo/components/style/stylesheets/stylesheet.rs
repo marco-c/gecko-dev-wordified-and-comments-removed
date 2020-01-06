@@ -1086,10 +1086,6 @@ iter_rules
 :
 :
 <
-'
-a
-'
-b
 EffectiveRules
 >
 (
