@@ -31,7 +31,7 @@ stylo
         
 self
 .
-install_tooltool_clang_package
+install_toolchain_artifact
 (
 state_dir
 checkout_root
