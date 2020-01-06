@@ -246,7 +246,7 @@ aAddonId
 ;
 nsCOMPtr
 <
-nsIChannel
+nsITraceableChannel
 >
 channel
 =
