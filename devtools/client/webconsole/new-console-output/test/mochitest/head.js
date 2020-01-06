@@ -1059,5 +1059,14 @@ activeElement
 =
 =
 node
+&
+&
+node
+.
+ownerDocument
+.
+hasFocus
+(
+)
 ;
 }
