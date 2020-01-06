@@ -2170,6 +2170,10 @@ JS_GetRuntime
 aCx
 )
 )
+mHasPendingIdleGCTask
+(
+false
+)
 mPrevGCSliceCallback
 (
 nullptr
