@@ -2510,7 +2510,7 @@ size_t
 aCapacity
 )
 :
-mMaskClipCount
+mExtraClipCount
 (
 0
 )
@@ -2962,7 +2962,7 @@ WrClipId
 &
 aClipId
 bool
-aMask
+aExtra
 )
 {
 wr_dp_push_clip
@@ -2995,7 +2995,7 @@ id
 if
 (
 !
-aMask
+aExtra
 )
 {
 mClipIdStack
@@ -3008,7 +3008,7 @@ aClipId
 }
 else
 {
-mMaskClipCount
+mExtraClipCount
 +
 +
 ;
@@ -3021,7 +3021,7 @@ DisplayListBuilder
 PopClip
 (
 bool
-aMask
+aExtra
 )
 {
 WRDL_LOG
@@ -3050,7 +3050,7 @@ id
 if
 (
 !
-aMask
+aExtra
 )
 {
 mClipIdStack
@@ -3062,7 +3062,7 @@ pop_back
 }
 else
 {
-mMaskClipCount
+mExtraClipCount
 -
 -
 ;

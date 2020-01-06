@@ -1023,7 +1023,7 @@ WrClipId
 &
 aClipId
 bool
-aMask
+aExtra
 =
 false
 )
@@ -1032,7 +1032,7 @@ void
 PopClip
 (
 bool
-aMask
+aExtra
 =
 false
 )
@@ -2016,12 +2016,12 @@ mWrState
 ;
 }
 bool
-HasMaskClip
+HasExtraClip
 (
 )
 {
 return
-mMaskClipCount
+mExtraClipCount
 >
 0
 ;
@@ -2088,7 +2088,7 @@ ViewID
 mScrollParents
 ;
 uint32_t
-mMaskClipCount
+mExtraClipCount
 ;
 friend
 class
