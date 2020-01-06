@@ -55,7 +55,7 @@ s
 http_status
 =
 %
-d
+s
 >
 "
 %
@@ -84,7 +84,7 @@ return
 s
 (
 %
-d
+s
 )
 \
 n
