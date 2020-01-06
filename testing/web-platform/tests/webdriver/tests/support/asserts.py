@@ -381,6 +381,8 @@ assert_success
 (
 response
 value
+=
+None
 )
 :
     
@@ -427,17 +429,21 @@ wdclient
 .
 Response
 instance
+.
     
 :
 param
 value
 :
-expected
+Expected
 value
 of
 the
 response
 body
+if
+any
+.
     
 "
 "
@@ -451,6 +457,13 @@ status
 =
 200
     
+if
+value
+is
+not
+None
+:
+        
 assert
 response
 .
