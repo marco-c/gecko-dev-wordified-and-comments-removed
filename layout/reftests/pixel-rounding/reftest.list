@@ -3455,12 +3455,6 @@ width
 0
 .
 html
-fails
--
-if
-(
-webrender
-)
 =
 =
 iframe
@@ -3475,11 +3469,6 @@ iframe
 ref
 .
 html
-#
-bug
-1374378
-for
-webrender
 fuzzy
 -
 if

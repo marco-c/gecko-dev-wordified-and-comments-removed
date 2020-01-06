@@ -25726,12 +25726,6 @@ Android
 8
 20
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 602200
@@ -25746,11 +25740,6 @@ html
 ref
 .
 html
-#
-bug
-1363060
-for
-webrender
 =
 =
 602200

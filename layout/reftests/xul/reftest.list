@@ -1552,14 +1552,6 @@ svg
 ref
 .
 html
-fuzzy
--
-if
-(
-webrender
-16
-20
-)
 =
 =
 object
