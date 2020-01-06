@@ -34137,7 +34137,7 @@ aLineTop
 const
 ReflowInput
 &
-rs
+ri
 =
 aState
 .
@@ -34187,7 +34187,7 @@ reflowInput
 aState
 .
 mPresContext
-rs
+ri
 aBulletFrame
 availSize
 )
@@ -34231,7 +34231,7 @@ mRect
 WritingMode
 wm
 =
-rs
+ri
 .
 GetWritingMode
 (
@@ -34262,7 +34262,7 @@ IStart
 wm
 )
 -
-rs
+ri
 .
 ComputedLogicalBorderPadding
 (
