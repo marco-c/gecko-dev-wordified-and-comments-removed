@@ -956,6 +956,15 @@ defines
 MOZ_LANGPACK_CONTRIBUTORS
 '
 ]
+if
+'
+MOZ_LANGPACK_CONTRIBUTORS
+'
+in
+defines
+else
+"
+"
     
 )
     
