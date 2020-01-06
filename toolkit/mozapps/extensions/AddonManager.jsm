@@ -11308,6 +11308,7 @@ provider
 "
 getActiveAddons
 "
+null
 aTypes
 )
 ;
