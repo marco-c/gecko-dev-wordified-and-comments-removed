@@ -250,6 +250,10 @@ closeWindow
 win
 )
 ;
+win
+=
+null
+;
 removePermission
 (
 testPageURL
