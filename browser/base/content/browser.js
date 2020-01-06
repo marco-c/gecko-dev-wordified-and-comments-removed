@@ -21537,11 +21537,15 @@ index
 {
 item
 .
-setAttribute
+style
+.
+listStyleImage
+=
+"
+url
 (
 "
-image
-"
++
 PlacesUtils
 .
 urlWithSizeRef
@@ -21557,7 +21561,10 @@ icon
 uri
 16
 )
++
+"
 )
+"
 ;
 }
 if
@@ -34447,7 +34454,7 @@ browser
 .
 currentURI
 .
-path
+pathQueryRef
 ;
 var
 message
@@ -39652,7 +39659,7 @@ test
 (
 uri
 .
-path
+pathQueryRef
 )
 ;
 this
@@ -39726,7 +39733,7 @@ newURI
 (
 resolvedURI
 .
-path
+pathQueryRef
 )
 ;
 }

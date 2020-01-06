@@ -8557,7 +8557,7 @@ newURI
 (
 aURI
 .
-path
+pathQueryRef
 )
 ;
 return
@@ -18708,11 +18708,8 @@ aExtraParams
 ;
 }
 aExtraParams
-[
-"
+.
 instanceID
-"
-]
 =
 this
 .
@@ -22628,11 +22625,8 @@ addonFor
 (
 this
 )
-[
-"
+.
 aboutURL
-"
-]
 :
 null
 ;

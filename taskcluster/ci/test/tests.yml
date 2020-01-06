@@ -7691,6 +7691,13 @@ R
 (
 Rs
 )
+virtualization
+:
+virtual
+-
+with
+-
+gpu
 docker
 -
 image
@@ -11668,13 +11675,6 @@ test
 -
 platform
 :
-windows10
--
-64
-.
-*
-:
-2
 default
 :
 default
