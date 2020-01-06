@@ -299,6 +299,10 @@ libmar
 /
 modules
 /
+woff2
+/
+modules
+/
 zlib
 /
 netwerk
@@ -433,13 +437,13 @@ third_party
 /
 python
 /
-pyyaml
+pytoml
 /
 third_party
 /
 python
 /
-pytoml
+pyyaml
 /
 third_party
 /
