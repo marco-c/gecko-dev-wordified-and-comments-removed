@@ -662,6 +662,9 @@ const
 nsAString
 &
 aInnerHTML
+nsIPrincipal
+&
+aScriptedPrincipal
 ErrorResult
 &
 aError
