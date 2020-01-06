@@ -7935,13 +7935,6 @@ TouchDelegateWithReset
 .
 java
 '
-'
-widget
-/
-SplashScreen
-.
-java
-'
 ]
 ]
 #
