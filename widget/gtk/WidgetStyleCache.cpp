@@ -3997,7 +3997,7 @@ sWidgetStorage
 }
 GtkStyleContext
 *
-ClaimStyleContext
+GetStyleContext
 (
 WidgetNodeType
 aNodeType
@@ -4224,13 +4224,4 @@ style
 return
 style
 ;
-}
-void
-ReleaseStyleContext
-(
-GtkStyleContext
-*
-aStyleContext
-)
-{
 }

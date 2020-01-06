@@ -76,7 +76,7 @@ G_TYPE_NONE
 ;
 GtkStyleContext
 *
-ClaimStyleContext
+GetStyleContext
 (
 WidgetNodeType
 aNodeType
@@ -92,14 +92,6 @@ StyleFlags
 aFlags
 =
 NO_STYLE_FLAGS
-)
-;
-void
-ReleaseStyleContext
-(
-GtkStyleContext
-*
-style
 )
 ;
 void
