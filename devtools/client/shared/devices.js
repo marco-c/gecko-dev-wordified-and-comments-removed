@@ -234,7 +234,14 @@ list
 .
 push
 (
+Object
+.
+assign
+(
+{
+}
 device
+)
 )
 ;
 yield
