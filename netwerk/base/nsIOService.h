@@ -582,6 +582,11 @@ InitializeNetworkLinkService
 (
 )
 ;
+nsresult
+InitializeProtocolProxyService
+(
+)
+;
 void
 LookupProxyInfo
 (
