@@ -3485,10 +3485,6 @@ child_node
 in
 element
 .
-as_node
-(
-)
-.
 traversal_children
 (
 )
@@ -3915,10 +3911,6 @@ for
 kid
 in
 p
-.
-as_node
-(
-)
 .
 traversal_children
 (

@@ -1076,10 +1076,6 @@ child
 in
 element
 .
-as_node
-(
-)
-.
 traversal_children
 (
 )
