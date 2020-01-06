@@ -213,7 +213,7 @@ else
 {
 newProfileName
 .
-Assign
+AssignLiteral
 (
 "
 default

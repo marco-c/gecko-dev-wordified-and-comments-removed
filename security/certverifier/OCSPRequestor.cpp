@@ -743,7 +743,7 @@ else
 {
 path
 .
-Assign
+AssignLiteral
 (
 "
 /
@@ -802,7 +802,7 @@ useGET
 {
 method
 .
-Assign
+AssignLiteral
 (
 "
 GET

@@ -692,7 +692,7 @@ rv
 )
 spec
 .
-Assign
+AssignLiteral
 (
 "
 (

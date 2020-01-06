@@ -2233,7 +2233,7 @@ contractId
 ;
 contractId
 .
-Assign
+AssignLiteral
 (
 NS_HTTP_AUTHENTICATOR_CONTRACTID_PREFIX
 )
@@ -4512,7 +4512,7 @@ contractid
 ;
 contractid
 .
-Assign
+AssignLiteral
 (
 NS_HTTP_AUTHENTICATOR_CONTRACTID_PREFIX
 )

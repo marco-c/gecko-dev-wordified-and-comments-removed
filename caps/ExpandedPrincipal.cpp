@@ -827,7 +827,7 @@ aStr
 {
 aStr
 .
-Assign
+AssignLiteral
 (
 "
 [

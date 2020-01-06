@@ -867,7 +867,7 @@ get
 ;
 service
 .
-Insert
+InsertLiteral
 (
 "
 HTTP
@@ -1491,7 +1491,7 @@ contractId
 ;
 contractId
 .
-Assign
+AssignLiteral
 (
 NS_HTTP_AUTHENTICATOR_CONTRACTID_PREFIX
 )

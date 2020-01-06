@@ -471,7 +471,7 @@ IsVertical
 )
 )
 {
-Assign
+AssignLiteral
 (
 "
 Horizontal
@@ -490,7 +490,7 @@ IsVerticalLR
 )
 )
 {
-Assign
+AssignLiteral
 (
 "
 Vertical
@@ -503,7 +503,7 @@ LR
 return
 ;
 }
-Assign
+AssignLiteral
 (
 "
 Vertical

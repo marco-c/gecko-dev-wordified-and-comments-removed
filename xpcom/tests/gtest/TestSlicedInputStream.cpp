@@ -1657,7 +1657,7 @@ buf
 ;
 buf
 .
-Assign
+AssignLiteral
 (
 "
 Hello
@@ -1813,7 +1813,7 @@ buf
 ;
 buf
 .
-Assign
+AssignLiteral
 (
 "
 Hello
@@ -2018,7 +2018,7 @@ buf
 ;
 buf
 .
-Assign
+AssignLiteral
 (
 "
 Hello
@@ -2261,7 +2261,7 @@ buf
 ;
 buf
 .
-Assign
+AssignLiteral
 (
 "
 Hello

@@ -3066,7 +3066,7 @@ FindChar
 {
 hostSegment
 .
-Assign
+AssignLiteral
 (
 "
 [
