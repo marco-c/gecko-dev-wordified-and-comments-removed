@@ -405,9 +405,6 @@ startTime
 }
 )
 ;
-let
-childDone
-=
 run_test_in_child
 (
 "
@@ -705,16 +702,6 @@ string
 ;
 }
 )
-;
-do_send_remote_message
-(
-'
-bhr_hangs_detected
-'
-)
-;
-await
-childDone
 ;
 }
 )
