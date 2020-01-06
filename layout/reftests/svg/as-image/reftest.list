@@ -724,15 +724,6 @@ lime100x100
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-|
-|
-stylo
-)
 =
 =
 context
@@ -751,9 +742,6 @@ border
 ref
 .
 html
-#
-Bug
-1380590
 test
 -
 pref
