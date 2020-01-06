@@ -9920,12 +9920,6 @@ case
 CacheKind
 :
 :
-Compare
-:
-case
-CacheKind
-:
-:
 GetElem
 :
 case
@@ -10255,12 +10249,6 @@ switch
 kind
 )
 {
-case
-CacheKind
-:
-:
-Compare
-:
 case
 CacheKind
 :
