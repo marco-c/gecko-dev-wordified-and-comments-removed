@@ -85,6 +85,14 @@ MPL
 0
 /
 .
+DIRS
++
+=
+[
+'
+stringvalidator
+'
+]
 modules
 =
 [
