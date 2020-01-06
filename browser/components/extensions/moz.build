@@ -201,7 +201,7 @@ if
 CONFIG
 [
 '
-HOST_OS_ARCH
+OS_ARCH
 '
 ]
 !
