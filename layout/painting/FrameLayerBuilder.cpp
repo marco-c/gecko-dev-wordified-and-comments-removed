@@ -14310,6 +14310,13 @@ CombinedTouchActionRegion
 )
 ;
 }
+mMaybeHitRegion
+.
+SimplifyOutward
+(
+8
+)
+;
 mScaledHitRegionBounds
 =
 aState
