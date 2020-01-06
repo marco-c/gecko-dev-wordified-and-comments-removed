@@ -34,6 +34,14 @@ mozharness
 .
 base
 .
+errors
+import
+BaseErrorList
+from
+mozharness
+.
+base
+.
 script
 import
 PreScriptAction
@@ -83,6 +91,16 @@ CodeCoverageMixin
     
 code_coverage_config_options
 )
+from
+mozharness
+.
+mozilla
+.
+testing
+.
+errors
+import
+HarnessErrorList
 from
 mozharness
 .
@@ -1879,6 +1897,12 @@ log_obj
 log_compact
 =
 True
+                                        
+error_list
+=
+BaseErrorList
++
+HarnessErrorList
 )
         
 env
