@@ -6416,6 +6416,17 @@ imgIRequest
 :
 :
 STATUS_LOAD_COMPLETE
+&
+&
+!
+(
+imageStatus
+&
+imgIRequest
+:
+:
+STATUS_ERROR
+)
 )
 {
 nsCOMPtr
