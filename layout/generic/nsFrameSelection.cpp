@@ -9823,7 +9823,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsINode
 *
-parent
+container
 =
 range
 -
@@ -9835,11 +9835,13 @@ GetStartContainer
 if
 (
 !
-parent
+container
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 int32_t
 offset
 =
@@ -9854,7 +9856,7 @@ nsIContent
 *
 child
 =
-parent
+container
 -
 >
 GetChildAt
@@ -9872,10 +9874,12 @@ IsCell
 child
 )
 )
+{
 previousCellParent
 =
-parent
+container
 ;
+}
 if
 (
 !
