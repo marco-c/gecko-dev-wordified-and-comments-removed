@@ -1013,6 +1013,13 @@ return
 mProperties
 ;
 }
+void
+ResolveImage
+(
+uint32_t
+aIndex
+)
+;
 private
 :
 virtual
@@ -1030,6 +1037,10 @@ nsSVGPaintingProperty
 >
 >
 mProperties
+;
+nsIFrame
+*
+mFrame
 ;
 }
 ;
