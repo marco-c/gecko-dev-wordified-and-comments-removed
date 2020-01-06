@@ -6334,7 +6334,7 @@ _execution_stack
         
 self
 .
-_finder
+finder
 =
 finder
         
@@ -7945,7 +7945,7 @@ VARIABLES
 config
 self
 .
-_finder
+finder
 )
         
 sandbox
@@ -7961,7 +7961,7 @@ finder
 =
 self
 .
-_finder
+finder
 )
         
 sandbox
@@ -8134,7 +8134,7 @@ if
 not
 self
 .
-_finder
+finder
 .
 get
 (
