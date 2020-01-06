@@ -273,6 +273,17 @@ browser
 .
 ini
 '
+'
+tests
+/
+browser
+/
+tree
+/
+browser
+.
+ini
+'
 ]
 with
 Files
