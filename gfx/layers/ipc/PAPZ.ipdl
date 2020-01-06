@@ -548,6 +548,13 @@ aScrollId
 )
 ;
 async
+NotifyAutoscrollHandledByAPZ
+(
+ViewID
+aScrollId
+)
+;
+async
 Destroy
 (
 )
