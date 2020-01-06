@@ -5699,12 +5699,8 @@ HasAddedNodesDuringDocumentChange
 )
 )
 ;
-MOZ_ASSERT
+MaybeNotifyIMEOfAddedTextDuringDocumentChange
 (
-!
-HasAddedNodesDuringDocumentChange
-(
-)
 )
 ;
 }
