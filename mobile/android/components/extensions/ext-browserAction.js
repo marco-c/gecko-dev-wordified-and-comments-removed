@@ -344,7 +344,9 @@ tab
 |
 tab
 .
-selected
+getActive
+(
+)
 )
 {
 BrowserActions
