@@ -303,12 +303,24 @@ static
 const
 char
 *
-logTag
+pcmLogTag
 =
 "
 PeerConnectionMedia
 "
 ;
+#
+ifdef
+LOGTAG
+#
+undef
+LOGTAG
+#
+endif
+#
+define
+LOGTAG
+pcmLogTag
 RefPtr
 <
 WebRtcCallWrapper
@@ -385,7 +397,7 @@ oldInfo
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Failed
 to
@@ -446,7 +458,7 @@ newInfo
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Failed
 to
@@ -864,7 +876,7 @@ aGlobal
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Created
 PeerConnection
@@ -907,7 +919,7 @@ PeerConnectionImpl
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Created
 PeerConnection
@@ -959,7 +971,7 @@ NS_OK
 }
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1036,7 +1048,7 @@ proxyinfo
 {
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1075,7 +1087,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1113,7 +1125,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1197,7 +1209,7 @@ else
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1249,7 +1261,7 @@ addrs
 {
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1413,7 +1425,7 @@ XRE_IsContentProcess
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1556,7 +1568,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1616,7 +1628,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1681,7 +1693,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1785,7 +1797,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1921,7 +1933,7 @@ mIceCtxHdlr
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -1962,7 +1974,7 @@ stun_servers
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2029,7 +2041,7 @@ turn_servers
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2061,7 +2073,7 @@ empty
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2092,7 +2104,7 @@ Init
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2138,7 +2150,7 @@ AllocateResolver
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2306,7 +2318,7 @@ stream
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2391,7 +2403,7 @@ stream
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Failed
 to
@@ -2556,7 +2568,7 @@ mIce
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Transport
 %
@@ -2614,7 +2626,7 @@ else
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Transport
 %
@@ -2836,7 +2848,7 @@ aComponentCount
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -2927,7 +2939,7 @@ HasParsedAttributes
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -3062,7 +3074,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Couldn
 '
@@ -3399,7 +3411,7 @@ aIceOptionsList
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Starting
 ICE
@@ -3508,7 +3520,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -4490,7 +4502,7 @@ stream
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 No
 ICE
@@ -4543,7 +4555,7 @@ rv
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 Couldn
 '
@@ -4981,7 +4993,7 @@ mMainThread
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -5075,7 +5087,7 @@ mMainThread
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -5183,7 +5195,7 @@ mMainThread
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -5277,7 +5289,7 @@ mMainThread
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -5400,7 +5412,7 @@ NS_DISPATCH_NORMAL
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -5423,7 +5435,7 @@ SelfDestruct_m
 {
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -5476,7 +5488,7 @@ mSTSThread
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -5576,7 +5588,7 @@ Destroy
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Ice
 Telemetry
@@ -6287,7 +6299,7 @@ mIceCtxHdlr
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -6518,7 +6530,7 @@ port
 ;
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -6633,7 +6645,7 @@ aStream
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7128,7 +7140,7 @@ newTrackId
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7183,7 +7195,7 @@ pipeline
 {
 CSFLogInfo
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -7803,7 +7815,7 @@ end
 {
 CSFLogError
 (
-logTag
+LOGTAG
 "
 %
 s
@@ -8069,7 +8081,7 @@ audio_conduit
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Syncing
 %
@@ -8171,7 +8183,7 @@ STREAM_TIME_MAX
 ;
 CSFLogDebug
 (
-logTag
+LOGTAG
 "
 Finished
 adding
