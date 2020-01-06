@@ -103,10 +103,6 @@ PGMPVideoEncoder
 ;
 include
 protocol
-PGMPDecryptor
-;
-include
-protocol
 PChromiumCDM
 ;
 namespace
@@ -120,9 +116,6 @@ protocol
 PGMPContent
 {
 manages
-PGMPDecryptor
-;
-manages
 PGMPVideoDecoder
 ;
 manages
@@ -133,11 +126,6 @@ PChromiumCDM
 ;
 child
 :
-async
-PGMPDecryptor
-(
-)
-;
 async
 PGMPVideoDecoder
 (
