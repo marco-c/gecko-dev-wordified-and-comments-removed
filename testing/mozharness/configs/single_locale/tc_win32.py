@@ -114,7 +114,7 @@ MOZ_OBJDIR
 "
 obj
 -
-l10n
+firefox
 "
         
 "
