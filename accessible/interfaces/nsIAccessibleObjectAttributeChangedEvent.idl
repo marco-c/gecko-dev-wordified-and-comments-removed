@@ -118,9 +118,6 @@ nsIAccessibleEvent
 .
 idl
 "
-interface
-nsIAtom
-;
 /
 *
 *
@@ -172,7 +169,7 @@ changed
 /
 readonly
 attribute
-nsIAtom
+AString
 changedAttribute
 ;
 }
