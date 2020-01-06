@@ -7875,7 +7875,7 @@ list
 {
 flex
 :
-0
+1
 1
 auto
 ;
@@ -7934,7 +7934,12 @@ min
 -
 height
 :
-0
+calc
+(
+174px
++
+8em
+)
 ;
 }
 #
