@@ -104,6 +104,12 @@ nsIPrincipal
 aPrincipal
 )
 ;
+static
+bool
+StoragePrefIsEnabled
+(
+)
+;
 enum
 StorageType
 {

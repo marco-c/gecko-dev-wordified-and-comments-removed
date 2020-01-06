@@ -9951,12 +9951,11 @@ IsOuterWindow
 if
 (
 !
-Preferences
+Storage
 :
 :
-GetBool
+StoragePrefIsEnabled
 (
-kStorageEnabled
 )
 )
 {
