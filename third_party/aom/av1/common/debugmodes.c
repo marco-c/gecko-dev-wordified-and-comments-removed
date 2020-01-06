@@ -23,6 +23,17 @@ av1
 /
 common
 /
+enums
+.
+h
+"
+#
+include
+"
+av1
+/
+common
+/
 onyxc_int
 .
 h
@@ -202,7 +213,7 @@ file
 *
 (
 (
-int
+char
 *
 )
 (
@@ -243,7 +254,7 @@ n
 mi
 +
 =
-8
+MAX_MIB_SIZE
 ;
 }
 fprintf
@@ -475,7 +486,7 @@ n
 mi
 +
 =
-8
+MAX_MIB_SIZE
 ;
 }
 fprintf
@@ -602,7 +613,7 @@ n
 mi
 +
 =
-8
+MAX_MIB_SIZE
 ;
 }
 fprintf

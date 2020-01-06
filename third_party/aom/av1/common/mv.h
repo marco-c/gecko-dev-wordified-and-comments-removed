@@ -186,6 +186,10 @@ WARPEDPIXEL_FILTER_BITS
 7
 #
 define
+WARP_PARAM_REDUCE_BITS
+6
+#
+define
 HORSHEAR_REDUCE_PREC_BITS
 5
 #
@@ -1422,9 +1426,6 @@ AFFINE
 }
 #
 endif
-#
-if
-CONFIG_REF_MV
 typedef
 struct
 candidate_mv
@@ -1447,8 +1448,6 @@ weight
 }
 CANDIDATE_MV
 ;
-#
-endif
 static
 INLINE
 int

@@ -126,6 +126,16 @@ patent
 .
 #
 #
+if
+(
+NOT
+AOM_BUILD_CMAKE_COMPILER_FLAGS_CMAKE_
+)
+set
+(
+AOM_BUILD_CMAKE_COMPILER_FLAGS_CMAKE_
+1
+)
 include
 (
 CheckCCompilerFlag
@@ -1517,3 +1527,8 @@ endif
 endfunction
 (
 )
+endif
+(
+)
+#
+AOM_BUILD_CMAKE_COMPILER_FLAGS_CMAKE_

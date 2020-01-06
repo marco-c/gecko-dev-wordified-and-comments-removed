@@ -157,6 +157,18 @@ enable
 accounting
 -
 -
+disable
+-
+docs
+-
+-
+disable
+-
+unit
+-
+tests
+-
+-
 enable
 -
 inspection
@@ -164,7 +176,7 @@ inspection
 -
 enable
 -
-aom_highbitdepth
+highbitdepth
 -
 -
 extra

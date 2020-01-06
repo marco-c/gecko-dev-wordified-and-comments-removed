@@ -126,6 +126,16 @@ patent
 .
 #
 #
+if
+(
+NOT
+AOM_AOM_MEM_AOM_MEM_CMAKE_
+)
+set
+(
+AOM_AOM_MEM_AOM_MEM_CMAKE_
+1
+)
 set
 (
 AOM_MEM_SOURCES
@@ -224,3 +234,8 @@ aom_mem
 endfunction
 (
 )
+endif
+(
+)
+#
+AOM_AOM_MEM_AOM_MEM_CMAKE_

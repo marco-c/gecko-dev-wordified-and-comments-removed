@@ -41,6 +41,15 @@ h
 #
 include
 "
+.
+/
+aom_config
+.
+h
+"
+#
+include
+"
 test
 /
 acm_random
@@ -92,6 +101,10 @@ binary_codes_writer
 .
 h
 "
+#
+define
+ACCT_STR
+__func__
 using
 libaom_test
 :
@@ -570,6 +583,7 @@ br
 range
 near_range
 ref
+ACCT_STR
 )
 ;
 GTEST_ASSERT_EQ
@@ -1059,6 +1073,7 @@ br
 range
 k
 ref
+ACCT_STR
 )
 ;
 GTEST_ASSERT_EQ

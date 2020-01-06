@@ -802,7 +802,7 @@ timebase
 .
 num
 0
-30
+12
 )
 ;
 cfg_
@@ -959,7 +959,7 @@ timebase
 .
 num
 0
-40
+20
 )
 ;
 cfg_
@@ -978,7 +978,7 @@ unsigned
 int
 num_droppable_frames
 =
-11
+5
 ;
 unsigned
 int
@@ -988,16 +988,10 @@ droppable_frame_list
 =
 {
 5
+10
+13
 16
-22
-23
-24
-25
-26
-27
-28
-29
-30
+19
 }
 ;
 SetDroppableFrames

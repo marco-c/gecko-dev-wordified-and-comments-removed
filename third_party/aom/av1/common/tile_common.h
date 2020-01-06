@@ -116,6 +116,7 @@ const
 struct
 AV1Common
 *
+const
 cm
 int
 row

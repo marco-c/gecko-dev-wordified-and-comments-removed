@@ -55,6 +55,17 @@ aom_dsp
 /
 x86
 /
+obmc_intrinsic_ssse3
+.
+h
+"
+#
+include
+"
+aom_dsp
+/
+x86
+/
 synonyms
 .
 h

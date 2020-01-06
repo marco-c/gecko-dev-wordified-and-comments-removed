@@ -437,15 +437,6 @@ decoder
 aom_codec_stream_info_t
 stream_info
 ;
-stream_info
-.
-sz
-=
-sizeof
-(
-stream_info
-)
-;
 if
 (
 video

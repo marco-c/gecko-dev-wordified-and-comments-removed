@@ -19,7 +19,8 @@ rbuf
 {
 #
 if
-CONFIG_DAALA_EC
+!
+CONFIG_ANS
 od_ec_enc_checkpoint
 (
 &
@@ -44,7 +45,8 @@ error
 CONFIG_PVQ
 currently
 requires
-CONFIG_DAALA_EC
+!
+CONFIG_ANS
 .
 "
 #
@@ -80,7 +82,8 @@ rbuf
 {
 #
 if
-CONFIG_DAALA_EC
+!
+CONFIG_ANS
 od_ec_enc_rollback
 (
 &
@@ -105,7 +108,8 @@ error
 CONFIG_PVQ
 currently
 requires
-CONFIG_DAALA_EC
+!
+CONFIG_ANS
 .
 "
 #

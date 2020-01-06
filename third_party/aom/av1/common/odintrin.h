@@ -5,6 +5,17 @@ AV1_COMMON_ODINTRIN_H_
 define
 AV1_COMMON_ODINTRIN_H_
 #
+if
+defined
+(
+_MSC_VER
+)
+#
+define
+_USE_MATH_DEFINES
+#
+endif
+#
 include
 <
 math

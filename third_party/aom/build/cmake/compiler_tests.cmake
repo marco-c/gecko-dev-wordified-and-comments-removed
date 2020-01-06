@@ -126,6 +126,16 @@ patent
 .
 #
 #
+if
+(
+NOT
+AOM_BUILD_CMAKE_COMPILER_TESTS_CMAKE_
+)
+set
+(
+AOM_BUILD_CMAKE_COMPILER_TESTS_CMAKE_
+1
+)
 include
 (
 CheckCSourceCompiles
@@ -1045,3 +1055,8 @@ endif
 endfunction
 (
 )
+endif
+(
+)
+#
+AOM_BUILD_CMAKE_COMPILER_TESTS_CMAKE_

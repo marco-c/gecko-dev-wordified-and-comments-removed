@@ -194,7 +194,8 @@ sum
 ;
 #
 if
-CONFIG_DAALA_EC
+!
+CONFIG_ANS
 r
 -
 >
@@ -212,7 +213,8 @@ error
 CONFIG_PVQ
 currently
 requires
-CONFIG_DAALA_EC
+!
+CONFIG_ANS
 .
 "
 #

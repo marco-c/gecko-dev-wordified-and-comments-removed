@@ -128,6 +128,16 @@ patent
 #
 if
 (
+NOT
+AOM_BUILD_CMAKE_MSVC_RUNTIME_CMAKE_
+)
+set
+(
+AOM_BUILD_CMAKE_MSVC_RUNTIME_CMAKE_
+1
+)
+if
+(
 MSVC
 )
 #
@@ -241,3 +251,8 @@ endif
 endif
 (
 )
+endif
+(
+)
+#
+AOM_BUILD_CMAKE_MSVC_RUNTIME_CMAKE_

@@ -460,7 +460,7 @@ yuv
 30
 1
 0
-100
+15
 )
 ;
 ASSERT_NO_FATAL_FAILURE
@@ -516,7 +516,7 @@ yuv
 30
 1
 0
-100
+15
 )
 ;
 ASSERT_NO_FATAL_FAILURE

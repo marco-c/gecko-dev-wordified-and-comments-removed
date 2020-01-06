@@ -309,6 +309,14 @@ distortion
 &
 sse
 NULL
+#
+if
+CONFIG_EXT_INTER
+NULL
+0
+0
+#
+endif
 0
 0
 0
@@ -414,6 +422,11 @@ NONE_FRAME
 endif
 av1_build_inter_predictors_sby
 (
+&
+cpi
+-
+>
+common
 xd
 mb_row
 mb_col

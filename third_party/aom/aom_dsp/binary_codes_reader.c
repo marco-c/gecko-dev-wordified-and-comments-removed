@@ -3,7 +3,7 @@ include
 "
 aom_dsp
 /
-bitreader
+binary_codes_reader
 .
 h
 "
@@ -133,7 +133,7 @@ v
 }
 }
 int16_t
-aom_read_primitive_symmetric
+aom_read_primitive_symmetric_
 (
 aom_reader
 *
@@ -141,6 +141,7 @@ r
 unsigned
 int
 mag_bits
+ACCT_STR_PARAM
 )
 {
 if
@@ -148,7 +149,7 @@ if
 aom_read_bit
 (
 r
-NULL
+ACCT_STR_NAME
 )
 )
 {
@@ -158,7 +159,7 @@ s
 aom_read_bit
 (
 r
-NULL
+ACCT_STR_NAME
 )
 ;
 int16_t
@@ -168,7 +169,7 @@ aom_read_literal
 (
 r
 mag_bits
-NULL
+ACCT_STR_NAME
 )
 +
 1
@@ -194,13 +195,14 @@ return
 }
 }
 uint16_t
-aom_read_primitive_quniform
+aom_read_primitive_quniform_
 (
 aom_reader
 *
 r
 uint16_t
 n
+ACCT_STR_PARAM
 )
 {
 if
@@ -249,7 +251,7 @@ r
 l
 -
 1
-NULL
+ACCT_STR_NAME
 )
 ;
 return
@@ -271,12 +273,12 @@ m
 aom_read_bit
 (
 r
-NULL
+ACCT_STR_NAME
 )
 ;
 }
 uint16_t
-aom_read_primitive_refbilevel
+aom_read_primitive_refbilevel_
 (
 aom_reader
 *
@@ -287,6 +289,7 @@ uint16_t
 p
 uint16_t
 ref
+ACCT_STR_PARAM
 )
 {
 if
@@ -374,7 +377,7 @@ if
 aom_read_bit
 (
 r
-NULL
+ACCT_STR_NAME
 )
 )
 {
@@ -384,6 +387,7 @@ aom_read_primitive_quniform
 (
 r
 p
+ACCT_STR_NAME
 )
 +
 lolimit
@@ -399,6 +403,7 @@ r
 n
 -
 p
+ACCT_STR_NAME
 )
 ;
 if
@@ -419,7 +424,7 @@ v
 ;
 }
 uint16_t
-aom_read_primitive_subexpfin
+aom_read_primitive_subexpfin_
 (
 aom_reader
 *
@@ -428,6 +433,7 @@ uint16_t
 n
 uint16_t
 k
+ACCT_STR_PARAM
 )
 {
 int
@@ -493,6 +499,7 @@ r
 n
 -
 mk
+ACCT_STR_NAME
 )
 +
 mk
@@ -507,7 +514,7 @@ if
 aom_read_bit
 (
 r
-NULL
+ACCT_STR_NAME
 )
 )
 {
@@ -531,7 +538,7 @@ aom_read_literal
 (
 r
 b
-NULL
+ACCT_STR_NAME
 )
 +
 mk
@@ -546,7 +553,7 @@ v
 ;
 }
 uint16_t
-aom_read_primitive_refsubexpfin
+aom_read_primitive_refsubexpfin_
 (
 aom_reader
 *
@@ -557,6 +564,7 @@ uint16_t
 k
 uint16_t
 ref
+ACCT_STR_PARAM
 )
 {
 return
@@ -569,12 +577,13 @@ aom_read_primitive_subexpfin
 r
 n
 k
+ACCT_STR_NAME
 )
 )
 ;
 }
 int16_t
-aom_read_signed_primitive_refsubexpfin
+aom_read_signed_primitive_refsubexpfin_
 (
 aom_reader
 *
@@ -585,6 +594,7 @@ uint16_t
 k
 int16_t
 ref
+ACCT_STR_PARAM
 )
 {
 ref
@@ -614,6 +624,7 @@ r
 scaled_n
 k
 ref
+ACCT_STR_NAME
 )
 -
 n

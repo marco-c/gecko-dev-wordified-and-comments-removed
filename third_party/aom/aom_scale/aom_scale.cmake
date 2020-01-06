@@ -126,6 +126,16 @@ patent
 .
 #
 #
+if
+(
+NOT
+AOM_AOM_SCALE_AOM_SCALE_CMAKE_
+)
+set
+(
+AOM_AOM_SCALE_AOM_SCALE_CMAKE_
+1
+)
 set
 (
 AOM_SCALE_SOURCES
@@ -303,3 +313,8 @@ PARENT_SCOPE
 endfunction
 (
 )
+endif
+(
+)
+#
+AOM_AOM_SCALE_AOM_SCALE_CMAKE_

@@ -137,9 +137,6 @@ int
 skip
 ;
 int
-pred_pixel_ready
-;
-int
 skippable
 ;
 int

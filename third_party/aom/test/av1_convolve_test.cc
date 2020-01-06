@@ -1883,6 +1883,9 @@ filter_ls
 #
 if
 CONFIG_HIGHBITDEPTH
+#
+ifndef
+__clang_analyzer__
 TEST
 (
 AV1ConvolveTest
@@ -2269,6 +2272,8 @@ dst_ref
 }
 }
 }
+#
+endif
 TEST
 (
 AV1ConvolveTest

@@ -138,10 +138,6 @@ aom_codec_stream_info
 {
 unsigned
 int
-sz
-;
-unsigned
-int
 w
 ;
 unsigned

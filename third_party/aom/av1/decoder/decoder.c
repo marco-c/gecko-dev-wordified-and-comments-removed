@@ -254,9 +254,6 @@ init_done
 =
 1
 ;
-#
-if
-CONFIG_EC_MULTISYMBOL
 av1_indices_from_tree
 (
 av1_intra_mode_ind
@@ -355,8 +352,6 @@ av1_inter_mode_inv
 av1_inter_mode_tree
 )
 ;
-#
-endif
 }
 }
 static

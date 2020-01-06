@@ -126,6 +126,16 @@ patent
 .
 #
 #
+if
+(
+NOT
+AOM_AOM_PORTS_AOM_PORTS_CMAKE_
+)
+set
+(
+AOM_AOM_PORTS_AOM_PORTS_CMAKE_
+1
+)
 set
 (
 AOM_PORTS_INCLUDES
@@ -522,3 +532,8 @@ endif
 endfunction
 (
 )
+endif
+(
+)
+#
+AOM_AOM_PORTS_AOM_PORTS_CMAKE_

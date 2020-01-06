@@ -491,7 +491,7 @@ screendata
 y4m
 "
 0
-10
+3
 )
 ;
 cfg_
@@ -576,7 +576,7 @@ screendata
 y4m
 "
 0
-10
+3
 )
 ;
 cfg_

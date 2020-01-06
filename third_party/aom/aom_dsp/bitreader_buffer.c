@@ -130,6 +130,13 @@ bit
 }
 else
 {
+if
+(
+rb
+-
+>
+error_handler
+)
 rb
 -
 >

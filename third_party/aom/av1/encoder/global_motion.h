@@ -68,7 +68,7 @@ int
 params_cost
 )
 ;
-double
+int64_t
 refine_integerized_param
 (
 WarpedMotionParams

@@ -1870,13 +1870,10 @@ low_content_frame
 }
 if
 (
+av1_resize_pending
+(
 cpi
--
->
-resize_pending
-!
-=
-0
+)
 |
 |
 (

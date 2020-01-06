@@ -252,6 +252,7 @@ git
 "
 git_version_id
 =
+(
 git
 describe
 -
@@ -271,6 +272,7 @@ v
 dev
 /
 null
+)
 fi
 changelog_version
 =
@@ -317,9 +319,19 @@ CHANGELOG
 then
 changelog_version
 =
-head
+(
+grep
 -
-n1
+m
+1
+"
+v
+[
+0
+-
+9
+]
+"
 "
 {
 p
@@ -327,6 +339,7 @@ p
 /
 CHANGELOG
 "
+\
 |
 awk
 '
@@ -335,6 +348,7 @@ print
 2
 }
 '
+)
 changelog_version
 =
 "

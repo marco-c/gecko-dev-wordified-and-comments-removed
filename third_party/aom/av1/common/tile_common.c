@@ -580,6 +580,9 @@ tile_rows
 #
 if
 CONFIG_DEPENDENT_HORZTILES
+#
+if
+CONFIG_TILE_GROUPS
 if
 (
 row
@@ -605,9 +608,6 @@ tile_info
 tg_horz_boundary
 )
 )
-#
-if
-CONFIG_TILE_GROUPS
 #
 else
 if

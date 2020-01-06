@@ -69,10 +69,8 @@ void
 fliplr_4x4
 (
 __m128i
+*
 in
-[
-2
-]
 )
 {
 in
@@ -138,10 +136,8 @@ void
 fliplr_8x8
 (
 __m128i
+*
 in
-[
-8
-]
 )
 {
 in
@@ -255,10 +251,8 @@ void
 fliplr_16x8
 (
 __m128i
+*
 in
-[
-16
-]
 )
 {
 fliplr_8x8
@@ -2195,6 +2189,9 @@ v_scale_w
 =
 _mm_set1_epi16
 (
+(
+int16_t
+)
 Sqrt2
 )
 ;

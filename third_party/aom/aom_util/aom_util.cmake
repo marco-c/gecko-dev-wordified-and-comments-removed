@@ -126,6 +126,16 @@ patent
 .
 #
 #
+if
+(
+NOT
+AOM_AOM_UTIL_AOM_UTIL_CMAKE_
+)
+set
+(
+AOM_AOM_UTIL_AOM_UTIL_CMAKE_
+1
+)
 set
 (
 AOM_UTIL_SOURCES
@@ -258,3 +268,8 @@ aom_util
 endfunction
 (
 )
+endif
+(
+)
+#
+AOM_AOM_UTIL_AOM_UTIL_CMAKE_

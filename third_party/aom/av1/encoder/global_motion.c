@@ -875,7 +875,7 @@ wmtype
 wmtype
 ;
 }
-double
+int64_t
 refine_integerized_param
 (
 WarpedMotionParams
@@ -961,8 +961,9 @@ wm
 >
 wmmat
 ;
-double
+int64_t
 step_error
+best_error
 ;
 int32_t
 step
@@ -977,9 +978,6 @@ curr_param
 int32_t
 best_param
 ;
-double
-best_error
-;
 force_wmtype
 (
 wm
@@ -988,7 +986,7 @@ wmtype
 ;
 best_error
 =
-av1_warp_erroradv
+av1_warp_error
 (
 wm
 #
@@ -1153,7 +1151,7 @@ step
 ;
 step_error
 =
-av1_warp_erroradv
+av1_warp_error
 (
 wm
 #
@@ -1227,7 +1225,7 @@ step
 ;
 step_error
 =
-av1_warp_erroradv
+av1_warp_error
 (
 wm
 #
@@ -1312,7 +1310,7 @@ step_dir
 ;
 step_error
 =
-av1_warp_erroradv
+av1_warp_error
 (
 wm
 #
