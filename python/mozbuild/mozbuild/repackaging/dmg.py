@@ -1,4 +1,6 @@
 import
+errno
+import
 os
 import
 tempfile
