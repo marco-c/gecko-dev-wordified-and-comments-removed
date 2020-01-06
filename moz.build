@@ -449,9 +449,6 @@ third_party
 /
 python
 '
-'
-tools
-'
 ]
 if
 not
@@ -630,6 +627,9 @@ DIRS
 [
 '
 build
+'
+'
+tools
 '
 '
 probes
