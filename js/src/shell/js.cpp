@@ -42833,8 +42833,6 @@ dom_props
 "
 x
 "
-JSPROP_SHARED
-|
 JSPROP_ENUMERATE
 {
 {

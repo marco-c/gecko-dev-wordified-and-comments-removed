@@ -3813,8 +3813,6 @@ attrs
 |
 =
 JSPROP_GETTER
-|
-JSPROP_SHARED
 ;
 Value
 setter
@@ -3873,8 +3871,6 @@ attrs
 |
 =
 JSPROP_SETTER
-|
-JSPROP_SHARED
 ;
 attrs
 &

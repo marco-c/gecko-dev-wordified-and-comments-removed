@@ -7270,7 +7270,7 @@ __LOCATION__
 "
 GetLocationProperty
 nullptr
-JSPROP_SHARED
+0
 )
 ;
 {

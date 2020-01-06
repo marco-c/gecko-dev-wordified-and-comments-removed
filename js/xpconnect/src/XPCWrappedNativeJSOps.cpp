@@ -1629,8 +1629,6 @@ propFlags
 |
 =
 JSPROP_GETTER
-|
-JSPROP_SHARED
 ;
 propFlags
 &
@@ -2076,8 +2074,6 @@ propFlags
 |
 =
 JSPROP_GETTER
-|
-JSPROP_SHARED
 ;
 propFlags
 &
