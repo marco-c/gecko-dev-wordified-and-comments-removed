@@ -295,9 +295,7 @@ default
 type
 "
 :
-"
 int
-"
             
 "
 help
@@ -348,9 +346,7 @@ default
 type
 "
 :
-"
 int
-"
             
 "
 help

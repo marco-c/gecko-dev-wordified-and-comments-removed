@@ -36,7 +36,7 @@ overlaid
 by
 command
 line
-options
+arguments
 .
   
 (
@@ -135,15 +135,14 @@ set
 "
 "
 from
+argparse
+import
+ArgumentParser
+Action
+from
 copy
 import
 deepcopy
-from
-optparse
-import
-OptionParser
-Option
-OptionGroup
 import
 os
 import
@@ -181,205 +180,58 @@ ERROR
 CRITICAL
 FATAL
 class
-ExtendedOptionParser
+ExtendAction
 (
-OptionParser
+Action
 )
 :
-    
-"
-"
-"
-OptionParser
-but
-with
-ExtendOption
-as
-the
-option_class
-.
-    
-"
-"
-"
     
 def
-__init__
+__call__
 (
 self
-*
-*
-kwargs
-)
-:
-        
-kwargs
-[
-'
-option_class
-'
-]
-=
-ExtendOption
-        
-OptionParser
-.
-__init__
-(
-self
-*
-*
-kwargs
-)
-class
-ExtendOption
-(
-Option
-)
-:
-    
-"
-"
-"
-from
-http
-:
-/
-/
-docs
-.
-python
-.
-org
-/
-library
-/
-optparse
-.
-html
-?
-highlight
-=
-optparse
-#
-adding
--
-new
--
-actions
-"
-"
-"
-    
-ACTIONS
-=
-Option
-.
-ACTIONS
-+
-(
-"
-extend
-"
-)
-    
-STORE_ACTIONS
-=
-Option
-.
-STORE_ACTIONS
-+
-(
-"
-extend
-"
-)
-    
-TYPED_ACTIONS
-=
-Option
-.
-TYPED_ACTIONS
-+
-(
-"
-extend
-"
-)
-    
-ALWAYS_TYPED_ACTIONS
-=
-Option
-.
-ALWAYS_TYPED_ACTIONS
-+
-(
-"
-extend
-"
-)
-    
-def
-take_action
-(
-self
-action
-dest
-opt
-value
-values
 parser
+namespace
+values
+option_string
+=
+None
 )
 :
         
-if
-action
+items
 =
-=
-"
+getattr
+(
+namespace
+self
+.
+dest
+)
+or
+[
+]
+        
+items
+.
 extend
-"
-:
-            
-lvalue
-=
-value
+(
+values
 .
 split
 (
-"
-"
+'
+'
 )
-            
-values
-.
-ensure_value
-(
-dest
-[
-]
-)
-.
-extend
-(
-lvalue
 )
         
-else
-:
-            
-Option
-.
-take_action
+setattr
 (
-                
+namespace
 self
-action
+.
 dest
-opt
-value
-values
-parser
+items
 )
 def
 make_immutable
@@ -1466,15 +1318,7 @@ False
                  
 usage
 =
-"
-usage
-:
-%
-prog
-[
-options
-]
-"
+None
 )
 :
         
@@ -1669,11 +1513,6 @@ None
 option_args
 =
 [
-'
-dummy_mozharness_script_with_no_command_line_options
-.
-py
-'
 ]
         
 if
@@ -1732,7 +1571,7 @@ self
 .
 config_parser
 =
-ExtendedOptionParser
+ArgumentParser
 (
 usage
 =
@@ -1743,7 +1582,22 @@ self
 .
 config_parser
 .
-add_option
+register
+(
+'
+action
+'
+'
+extend
+'
+ExtendAction
+)
+        
+self
+.
+config_parser
+.
+add_argument
 (
             
 "
@@ -1752,22 +1606,6 @@ add_option
 work
 -
 dir
-"
-action
-=
-"
-store
-"
-dest
-=
-"
-work_dir
-"
-            
-type
-=
-"
-string
 "
 default
 =
@@ -1794,7 +1632,7 @@ self
 .
 config_parser
 .
-add_option
+add_argument
 (
             
 "
@@ -1805,22 +1643,6 @@ base
 work
 -
 dir
-"
-action
-=
-"
-store
-"
-dest
-=
-"
-base_work_dir
-"
-            
-type
-=
-"
-string
 "
 default
 =
@@ -1852,7 +1674,7 @@ self
 .
 config_parser
 .
-add_option
+add_argument
 (
             
 "
@@ -1882,11 +1704,6 @@ dest
 config_files
 "
             
-type
-=
-"
-string
-"
 help
 =
 "
@@ -1906,7 +1723,7 @@ self
 .
 config_parser
 .
-add_option
+add_argument
 (
             
 "
@@ -1939,11 +1756,6 @@ dest
 =
 "
 opt_config_files
-"
-type
-=
-"
-string
 "
 default
 =
@@ -1988,7 +1800,7 @@ self
 .
 config_parser
 .
-add_option
+add_argument
 (
             
 "
@@ -2002,12 +1814,6 @@ action
 =
 "
 store_true
-"
-            
-dest
-=
-"
-dump_config
 "
             
 help
@@ -2038,7 +1844,7 @@ self
 .
 config_parser
 .
-add_option
+add_argument
 (
             
 "
@@ -2054,12 +1860,6 @@ action
 =
 "
 store_true
-"
-            
-dest
-=
-"
-dump_config_hierarchy
 "
             
 help
@@ -2121,11 +1921,12 @@ hierarchy
         
 log_option_group
 =
-OptionGroup
-(
 self
 .
 config_parser
+.
+add_argument_group
+(
 "
 Logging
 "
@@ -2133,7 +1934,7 @@ Logging
         
 log_option_group
 .
-add_option
+add_argument
 (
             
 "
@@ -2142,22 +1943,6 @@ add_option
 log
 -
 level
-"
-action
-=
-"
-store
-"
-            
-type
-=
-"
-choice
-"
-dest
-=
-"
-log_level
 "
 default
 =
@@ -2199,7 +1984,7 @@ fatal
         
 log_option_group
 .
-add_option
+add_argument
 (
             
 "
@@ -2241,7 +2026,7 @@ console
         
 log_option_group
 .
-add_option
+add_argument
 (
             
 "
@@ -2257,12 +2042,6 @@ action
 =
 "
 store_true
-"
-            
-dest
-=
-"
-append_to_log
 "
 default
 =
@@ -2281,7 +2060,7 @@ log
         
 log_option_group
 .
-add_option
+add_argument
 (
             
 "
@@ -2319,7 +2098,7 @@ MultiFileLogger
         
 log_option_group
 .
-add_option
+add_argument
 (
             
 "
@@ -2355,27 +2134,18 @@ SimpleFileLogger
         
 )
         
-self
-.
-config_parser
-.
-add_option_group
-(
-log_option_group
-)
-        
 action_option_group
 =
-OptionGroup
-(
-            
 self
 .
 config_parser
+.
+add_argument_group
+(
+            
 "
 Actions
 "
-            
 "
 Use
 these
@@ -2389,12 +2159,11 @@ disable
 actions
 .
 "
-        
 )
         
 action_option_group
 .
-add_option
+add_argument
 (
             
 "
@@ -2408,12 +2177,6 @@ action
 =
 "
 store_true
-"
-            
-dest
-=
-"
-list_actions
 "
             
 help
@@ -2431,7 +2194,7 @@ exit
         
 action_option_group
 .
-add_option
+add_argument
 (
             
 "
@@ -2480,7 +2243,7 @@ all_actions
         
 action_option_group
 .
-add_option
+add_argument
 (
             
 "
@@ -2529,7 +2292,7 @@ all_actions
             
 action_option_group
 .
-add_option
+add_argument
 (
                 
 "
@@ -2575,7 +2338,7 @@ action
             
 action_option_group
 .
-add_option
+add_argument
 (
                 
 "
@@ -2622,15 +2385,6 @@ action
             
 )
         
-self
-.
-config_parser
-.
-add_option_group
-(
-action_option_group
-)
-        
 if
 config_options
 :
@@ -2645,7 +2399,7 @@ self
 .
 config_parser
 .
-add_option
+add_argument
 (
 *
 option
@@ -2688,7 +2442,7 @@ self
 .
 config_parser
 .
-add_option
+add_argument
 (
 *
 option
@@ -3024,7 +2778,7 @@ get_cfgs_from_files
 (
 self
 all_config_files
-options
+args
 )
 :
         
@@ -3095,11 +2849,11 @@ config
 -
 file
 ;
-options
+args
 is
 the
 argparse
-options
+Namespace
 object
 giving
         
@@ -3110,7 +2864,7 @@ other
 command
 -
 line
-options
+arguments
 .
         
 This
@@ -3280,7 +3034,7 @@ Exception
 if
 cf
 in
-options
+args
 .
 opt_config_files
 :
@@ -3343,7 +3097,7 @@ after
 adding
 the
 basic
-options
+arguments
 so
         
 child
@@ -3387,10 +3141,7 @@ argv
 :
 ]
         
-(
-options
 args
-)
 =
 self
 .
@@ -3401,21 +3152,9 @@ parse_args
 args
 )
         
-defaults
-=
-self
-.
-config_parser
-.
-defaults
-.
-copy
-(
-)
-        
 if
 not
-options
+args
 .
 config_files
 :
@@ -3427,7 +3166,7 @@ require_config_file
 :
                 
 if
-options
+args
 .
 list_actions
 :
@@ -3480,16 +3219,14 @@ self
 get_cfgs_from_files
 (
                 
-options
+args
 .
 config_files
 +
-options
+args
 .
 opt_config_files
-options
-=
-options
+args
             
 )
 )
@@ -3603,21 +3340,17 @@ config
         
 for
 key
+value
 in
-defaults
+vars
+(
+args
+)
 .
-keys
+items
 (
 )
 :
-            
-value
-=
-getattr
-(
-options
-key
-)
             
 if
 value
@@ -3628,17 +3361,17 @@ None
 continue
             
 if
-key
-in
-defaults
-and
 value
 =
 =
-defaults
-[
+self
+.
+config_parser
+.
+get_default
+(
 key
-]
+)
 and
 key
 in
@@ -3715,7 +3448,7 @@ update_actions
 )
         
 if
-options
+args
 .
 list_actions
 :
@@ -3741,25 +3474,14 @@ volatile_config
         
 self
 .
-options
-=
-options
-        
-self
-.
 args
 =
 args
         
 return
-(
-self
-.
-options
 self
 .
 args
-)
     
 def
 update_actions
@@ -3818,7 +3540,7 @@ other
 action
 -
 specific
-options
+arguments
 run
 with
 default

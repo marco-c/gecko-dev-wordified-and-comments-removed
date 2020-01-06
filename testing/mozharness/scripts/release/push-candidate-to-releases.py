@@ -526,9 +526,7 @@ default
 type
 "
 :
-"
 int
-"
             
 "
 help

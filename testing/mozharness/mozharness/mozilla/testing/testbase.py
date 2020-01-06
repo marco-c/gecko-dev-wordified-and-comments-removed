@@ -648,14 +648,6 @@ download_symbols
 "
      
 "
-type
-"
-:
-"
-choice
-"
-     
-"
 choices
 "
 :

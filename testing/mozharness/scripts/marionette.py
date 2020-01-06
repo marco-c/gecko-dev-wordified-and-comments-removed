@@ -342,14 +342,6 @@ store
 "
          
 "
-type
-"
-:
-"
-choice
-"
-         
-"
 choices
 "
 :
