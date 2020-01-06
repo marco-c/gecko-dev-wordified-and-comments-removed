@@ -115,6 +115,7 @@ use
 YuvColorSpace
 YuvData
 YuvImageDisplayItem
+LayoutVector2D
 }
 ;
 use
@@ -3945,7 +3946,7 @@ box_bounds
 LayoutRect
 offset
 :
-LayoutPoint
+LayoutVector2D
 color
 :
 ColorF

@@ -406,7 +406,7 @@ fetch_yuv_image
 (
 prim
 .
-prim_index
+specific_prim_address
 )
 ;
 vStretchSize

@@ -79,7 +79,7 @@ fetch_rectangle
 (
 prim
 .
-prim_index
+specific_prim_address
 )
 ;
 vColor
