@@ -53,13 +53,3 @@ visible
 false
 )
 ;
-pref
-(
-"
-devtools
-.
-enabled
-"
-true
-)
-;

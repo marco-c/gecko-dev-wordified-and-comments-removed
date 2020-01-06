@@ -2449,15 +2449,6 @@ nsString
 aMessageOut
 )
 ;
-static
-bool
-DevToolsEnabled
-(
-JSContext
-*
-aCx
-)
-;
 private
 :
 static
@@ -6742,10 +6733,6 @@ sIsWebComponentsEnabled
 static
 bool
 sIsCustomElementsEnabled
-;
-static
-bool
-sDevToolsEnabled
 ;
 static
 bool
