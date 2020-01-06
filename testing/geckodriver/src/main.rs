@@ -1259,6 +1259,7 @@ start
 (
 addr
 handler
+&
 extension_routes
 (
 )
