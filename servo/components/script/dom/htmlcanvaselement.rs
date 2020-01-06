@@ -2859,6 +2859,7 @@ ImageOrMetadataAvailable
 ImageAvailable
 (
 image
+url
 )
 )
 =
@@ -2869,6 +2870,7 @@ ImageResponse
 Loaded
 (
 image
+url
 )
 _
 =

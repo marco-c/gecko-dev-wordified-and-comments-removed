@@ -78,6 +78,7 @@ Arc
 <
 Image
 >
+ServoUrl
 )
 MetadataAvailable
 (
@@ -202,6 +203,7 @@ Arc
 <
 Image
 >
+ServoUrl
 )
 MetadataLoaded
 (
@@ -213,6 +215,7 @@ Arc
 <
 Image
 >
+ServoUrl
 )
 None
 }
