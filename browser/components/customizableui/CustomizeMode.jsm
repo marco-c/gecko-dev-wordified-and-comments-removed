@@ -2425,14 +2425,6 @@ _updateLWThemeButtonIcon
 (
 )
 ;
-if
-(
-!
-AppConstants
-.
-MOZ_PHOTON_THEME
-)
-{
 this
 .
 maybeShowTip
@@ -2440,7 +2432,6 @@ maybeShowTip
 panelHolder
 )
 ;
-}
 this
 .
 _handler
