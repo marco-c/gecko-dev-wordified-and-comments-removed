@@ -60,3 +60,5 @@ corpus
 fuzz
 /
 out
+.
+chk
