@@ -69,7 +69,7 @@ undefined
 installPackage
 (
 "
-version3_0upgrade_profile
+version2_1upgrade_profile
 "
 )
 ;
@@ -176,9 +176,9 @@ upgrade
 (
 QM
 version
-3
+2
 .
-0
+1
 )
 "
 )
