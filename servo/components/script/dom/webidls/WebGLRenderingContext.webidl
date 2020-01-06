@@ -3552,8 +3552,6 @@ GLenum
 pname
 )
 ;
-/
-/
 [
 WebGLHandlesContextLoss
 ]

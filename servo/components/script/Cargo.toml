@@ -341,6 +341,13 @@ fnv
 .
 0
 "
+gleam
+=
+"
+0
+.
+4
+"
 gfx_traits
 =
 {
@@ -353,6 +360,13 @@ path
 gfx_traits
 "
 }
+half
+=
+"
+1
+.
+0
+"
 heapsize
 =
 "

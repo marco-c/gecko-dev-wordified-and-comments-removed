@@ -825,6 +825,7 @@ webrender_traits
 WebGLRenderbufferId
 WebGLShaderId
 WebGLTextureId
+WebGLVertexArrayId
 }
 ;
 use
@@ -2513,6 +2514,12 @@ unsafe_no_jsmanaged_fields
 !
 (
 WebGLTextureId
+)
+;
+unsafe_no_jsmanaged_fields
+!
+(
+WebGLVertexArrayId
 )
 ;
 unsafe_no_jsmanaged_fields

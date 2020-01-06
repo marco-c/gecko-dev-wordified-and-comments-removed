@@ -260,6 +260,14 @@ extern
 crate
 gfx_traits
 ;
+extern
+crate
+gleam
+;
+extern
+crate
+half
+;
 #
 [
 macro_use
