@@ -404,6 +404,13 @@ Tabbar
 (
 {
 activeTabId
+menuDocument
+:
+window
+.
+parent
+.
+document
 onSelect
 :
 selectTab
