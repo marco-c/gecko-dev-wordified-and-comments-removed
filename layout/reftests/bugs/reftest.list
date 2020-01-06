@@ -26202,6 +26202,12 @@ html
 notref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 619117
@@ -29642,6 +29648,12 @@ if
 skiaContent
 1
 123
+)
+fails
+-
+if
+(
+webrender
 )
 =
 =
