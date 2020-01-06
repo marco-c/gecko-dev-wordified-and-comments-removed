@@ -4805,14 +4805,6 @@ styloVsGecko
 !
 webrender
 )
-fuzzy
--
-if
-(
-styloVsGecko
-11
-388
-)
 =
 =
 object
