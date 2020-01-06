@@ -140,6 +140,7 @@ Shmem
 }
 class
 nsWindow
+final
 :
 public
 nsBaseWidget

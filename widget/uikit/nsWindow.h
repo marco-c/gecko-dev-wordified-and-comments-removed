@@ -36,6 +36,7 @@ ChildView
 ;
 class
 nsWindow
+final
 :
 public
 nsBaseWidget
