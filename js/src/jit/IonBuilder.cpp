@@ -64943,6 +64943,15 @@ RegExpObject
 reobj
 )
 {
+MOZ_ASSERT
+(
+!
+IsInsideNursery
+(
+reobj
+)
+)
+;
 MRegExp
 *
 regexp

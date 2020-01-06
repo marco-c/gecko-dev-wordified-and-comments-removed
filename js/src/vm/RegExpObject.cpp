@@ -273,6 +273,8 @@ RegExpAlloc
 JSContext
 *
 cx
+NewObjectKind
+newKind
 HandleObject
 proto
 )
@@ -285,10 +287,6 @@ RegExpObject
 regexp
 (
 cx
-)
-;
-regexp
-=
 NewObjectWithClassProto
 <
 RegExpObject
@@ -296,7 +294,8 @@ RegExpObject
 (
 cx
 proto
-TenuredObject
+newKind
+)
 )
 ;
 if
@@ -968,6 +967,8 @@ tokenStream
 LifoAlloc
 &
 alloc
+NewObjectKind
+newKind
 )
 {
 RootedAtom
@@ -999,6 +1000,7 @@ flags
 options
 tokenStream
 alloc
+newKind
 )
 ;
 }
@@ -1026,6 +1028,8 @@ tokenStream
 LifoAlloc
 &
 alloc
+NewObjectKind
+newKind
 )
 {
 Maybe
@@ -1136,6 +1140,7 @@ cx
 RegExpAlloc
 (
 cx
+newKind
 )
 )
 ;
@@ -7759,6 +7764,7 @@ xdr
 lifoAlloc
 (
 )
+TenuredObject
 )
 ;
 if
@@ -7878,6 +7884,7 @@ cx
 tempLifoAlloc
 (
 )
+TenuredObject
 )
 ;
 }

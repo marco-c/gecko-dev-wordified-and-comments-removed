@@ -1084,6 +1084,7 @@ cx
 RegExpAlloc
 (
 cx
+GenericObject
 )
 )
 ;
@@ -1928,6 +1929,7 @@ cx
 RegExpAlloc
 (
 cx
+GenericObject
 proto
 )
 )
@@ -2199,6 +2201,7 @@ cx
 RegExpAlloc
 (
 cx
+GenericObject
 proto
 )
 )
@@ -2348,6 +2351,7 @@ cx
 RegExpAlloc
 (
 cx
+GenericObject
 )
 )
 ;

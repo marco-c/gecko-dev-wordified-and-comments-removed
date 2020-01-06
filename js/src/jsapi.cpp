@@ -31153,6 +31153,7 @@ cx
 tempLifoAlloc
 (
 )
+GenericObject
 )
 ;
 return
@@ -31209,6 +31210,7 @@ cx
 tempLifoAlloc
 (
 )
+GenericObject
 )
 ;
 }

@@ -18460,6 +18460,7 @@ cx
 tempLifoAlloc
 (
 )
+TenuredObject
 )
 ;
 }

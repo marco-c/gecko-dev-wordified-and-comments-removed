@@ -43925,6 +43925,7 @@ nullptr
 &
 tokenStream
 alloc
+TenuredObject
 )
 ;
 if
