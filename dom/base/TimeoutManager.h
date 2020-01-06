@@ -403,6 +403,12 @@ EndSyncOperation
 (
 )
 ;
+nsIEventTarget
+*
+EventTarget
+(
+)
+;
 static
 const
 uint32_t
