@@ -296,11 +296,6 @@ customMenuItems
 data
 .
 customMenuItems
-addonInfo
-:
-data
-.
-addonInfo
 documentURIObject
 docLocation
 :
