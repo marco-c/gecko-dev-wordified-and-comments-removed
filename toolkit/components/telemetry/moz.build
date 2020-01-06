@@ -454,6 +454,11 @@ TelemetryEnvironment
 jsm
 '
 '
+TelemetryHealthPing
+.
+jsm
+'
+'
 TelemetryLog
 .
 jsm
