@@ -5,10 +5,7 @@ properties
 animated_properties
 :
 :
-{
 Animatable
-IntermediateColor
-}
 ;
 use
 properties
@@ -98,6 +95,18 @@ animated
 ToAnimatedValue
 ToAnimatedZero
 }
+;
+use
+values
+:
+:
+animated
+:
+:
+color
+:
+:
+Color
 ;
 use
 values
@@ -241,7 +250,7 @@ BoxShadow
 =
 GenericBoxShadow
 <
-IntermediateColor
+Color
 Length
 NonNegativeLength
 Length
@@ -337,7 +346,7 @@ SimpleShadow
 =
 GenericSimpleShadow
 <
-IntermediateColor
+Color
 Length
 NonNegativeLength
 >
@@ -1426,7 +1435,7 @@ SimpleShadow
 {
 color
 :
-IntermediateColor
+Color
 :
 :
 transparent

@@ -1532,7 +1532,7 @@ animation_value_type
 "
 Either
 <
-IntermediateColor
+AnimatedColor
 Auto
 >
 "

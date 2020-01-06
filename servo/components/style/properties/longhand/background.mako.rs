@@ -92,7 +92,7 @@ color
 animation_value_type
 =
 "
-IntermediateColor
+AnimatedColor
 "
 ignored_when_colors_disabled
 =

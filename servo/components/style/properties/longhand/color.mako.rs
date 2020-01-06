@@ -59,7 +59,7 @@ True
 animation_value_type
 =
 "
-IntermediateRGBA
+AnimatedRGBA
 "
 ignored_when_colors_disabled
 =

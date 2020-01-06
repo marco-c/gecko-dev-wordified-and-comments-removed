@@ -5235,7 +5235,7 @@ gecko
 animation_value_type
 =
 "
-IntermediateColor
+AnimatedColor
 "
 need_clone
 =
@@ -5417,7 +5417,7 @@ gecko
 animation_value_type
 =
 "
-IntermediateColor
+AnimatedColor
 "
 need_clone
 =
@@ -5510,7 +5510,7 @@ gecko
 animation_value_type
 =
 "
-IntermediateColor
+AnimatedColor
 "
 need_clone
 =
