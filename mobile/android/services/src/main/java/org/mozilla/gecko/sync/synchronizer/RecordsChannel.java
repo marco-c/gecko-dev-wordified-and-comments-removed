@@ -1404,7 +1404,6 @@ this
 ;
 }
 Nullable
-VisibleForTesting
 public
 synchronized
 ReflowIsNecessaryException
