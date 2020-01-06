@@ -252,12 +252,6 @@ feature
 in
 style
 rule
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
@@ -1088,12 +1082,6 @@ kerning
 normal
 .
 html
-fails
--
-if
-(
-stylo
-)
 HTTP
 (
 .
