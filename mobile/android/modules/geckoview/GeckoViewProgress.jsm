@@ -798,7 +798,7 @@ cert
 {
 result
 .
-security_exception
+securityException
 =
 true
 ;
@@ -1268,9 +1268,6 @@ GeckoView
 :
 SecurityChanged
 "
-status
-:
-aState
 identity
 :
 identity
