@@ -328,11 +328,6 @@ AreAllStreamsForResourceSuspended
 (
 )
 ;
-int64_t
-Tell
-(
-)
-;
 nsresult
 Read
 (

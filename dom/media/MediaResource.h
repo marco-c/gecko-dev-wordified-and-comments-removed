@@ -136,14 +136,6 @@ ShouldCacheReads
 0
 ;
 virtual
-int64_t
-Tell
-(
-)
-=
-0
-;
-virtual
 void
 Pin
 (

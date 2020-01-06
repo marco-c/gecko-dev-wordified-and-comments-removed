@@ -184,12 +184,6 @@ return
 true
 ;
 }
-int64_t
-Tell
-(
-)
-override
-;
 void
 Pin
 (

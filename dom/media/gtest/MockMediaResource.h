@@ -73,16 +73,6 @@ return
 true
 ;
 }
-int64_t
-Tell
-(
-)
-override
-{
-return
-0
-;
-}
 void
 Pin
 (

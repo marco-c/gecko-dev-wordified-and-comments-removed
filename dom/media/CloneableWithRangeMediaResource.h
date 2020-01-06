@@ -64,10 +64,6 @@ mSize
 (
 aSize
 )
-mCurrentPosition
-(
-0
-)
 mInitialized
 (
 false
@@ -186,12 +182,6 @@ return
 true
 ;
 }
-int64_t
-Tell
-(
-)
-override
-;
 void
 Pin
 (
@@ -382,9 +372,6 @@ mStream
 ;
 uint64_t
 mSize
-;
-uint64_t
-mCurrentPosition
 ;
 bool
 mInitialized
