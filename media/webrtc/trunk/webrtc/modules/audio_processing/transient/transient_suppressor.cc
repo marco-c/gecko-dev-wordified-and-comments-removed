@@ -54,7 +54,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+checks
 .
 h
 "
@@ -488,9 +488,8 @@ data_length_
 analysis_length_
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -512,11 +511,9 @@ analysis_length_
 +
 1
 ;
-assert
+RTC_DCHECK_GE
 (
 complex_analysis_length_
->
-=
 kMaxVoiceBin
 )
 ;

@@ -22,19 +22,9 @@ cstdlib
 >
 #
 include
-"
-testing
-/
-gtest
-/
-include
-/
-gtest
-/
-gtest
-.
-h
-"
+<
+memory
+>
 #
 include
 "
@@ -53,7 +43,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+rate_statistics
 .
 h
 "
@@ -110,11 +100,9 @@ include
 "
 webrtc
 /
-modules
+test
 /
-remote_bitrate_estimator
-/
-rate_statistics
+field_trial
 .
 h
 "
@@ -125,7 +113,7 @@ webrtc
 /
 test
 /
-field_trial
+gtest
 .
 h
 "
@@ -222,7 +210,6 @@ reset
 new
 OveruseDetector
 (
-options_
 )
 )
 ;
@@ -528,6 +515,7 @@ ComputeDeltas
 (
 rtp_timestamp
 receive_time_ms
+receive_time_ms
 packet_size
 &
 timestamp_delta
@@ -561,6 +549,7 @@ overuse_detector_
 State
 (
 )
+receive_time_ms
 )
 ;
 overuse_detector_
@@ -598,28 +587,28 @@ rtp_timestamp_
 OverUseDetectorOptions
 options_
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 OveruseDetector
 >
 overuse_detector_
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 OveruseEstimator
 >
 overuse_estimator_
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 InterArrival
 >
@@ -1058,7 +1047,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-8
+7
 frames_until_overuse
 )
 ;
@@ -1125,7 +1114,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-6
+7
 frames_until_overuse
 )
 ;
@@ -1640,7 +1629,7 @@ j
 ;
 j
 <
-5
+3
 ;
 +
 +
@@ -1799,7 +1788,7 @@ sigma_ms
 ;
 EXPECT_EQ
 (
-1
+0
 unique_overuse
 )
 ;
@@ -1817,7 +1806,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-13
+20
 frames_until_overuse
 )
 ;
@@ -1866,7 +1855,7 @@ sigma_ms
 ;
 EXPECT_EQ
 (
-1
+0
 unique_overuse
 )
 ;
@@ -1933,7 +1922,7 @@ sigma_ms
 ;
 EXPECT_EQ
 (
-1
+0
 unique_overuse
 )
 ;
@@ -1951,7 +1940,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-32
+44
 frames_until_overuse
 )
 ;
@@ -2000,7 +1989,7 @@ sigma_ms
 ;
 EXPECT_EQ
 (
-1
+0
 unique_overuse
 )
 ;
@@ -2104,7 +2093,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-13
+20
 frames_until_overuse
 )
 ;
@@ -2172,7 +2161,7 @@ sigma_ms
 ;
 EXPECT_EQ
 (
-1
+0
 unique_overuse
 )
 ;
@@ -2190,7 +2179,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-32
+44
 frames_until_overuse
 )
 ;
@@ -2258,7 +2247,7 @@ sigma_ms
 ;
 EXPECT_EQ
 (
-1
+0
 unique_overuse
 )
 ;
@@ -2276,7 +2265,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-13
+20
 frames_until_overuse
 )
 ;
@@ -2362,7 +2351,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-32
+44
 frames_until_overuse
 )
 ;
@@ -2448,7 +2437,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-15
+19
 frames_until_overuse
 )
 ;
@@ -2515,7 +2504,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-6
+5
 frames_until_overuse
 )
 ;
@@ -2582,7 +2571,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-41
+44
 frames_until_overuse
 )
 ;
@@ -2735,7 +2724,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-15
+19
 frames_until_overuse
 )
 ;
@@ -2802,7 +2791,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-6
+5
 frames_until_overuse
 )
 ;
@@ -2869,7 +2858,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-41
+44
 frames_until_overuse
 )
 ;
@@ -3022,7 +3011,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-15
+19
 frames_until_overuse
 )
 ;
@@ -3089,7 +3078,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-6
+5
 frames_until_overuse
 )
 ;
@@ -3156,7 +3145,7 @@ drift_per_frame_ms
 ;
 EXPECT_EQ
 (
-41
+44
 frames_until_overuse
 )
 ;
@@ -3275,7 +3264,6 @@ reset
 new
 OveruseDetector
 (
-options_
 )
 )
 ;

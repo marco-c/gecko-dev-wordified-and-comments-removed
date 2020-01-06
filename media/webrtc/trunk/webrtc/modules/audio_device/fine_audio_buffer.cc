@@ -499,14 +499,8 @@ bytes_per_10_ms_
 ;
 RTC_CHECK_EQ
 (
-static_cast
-<
-size_t
->
-(
 -
 bytes_left
-)
 playout_cached_bytes_
 )
 ;

@@ -68,6 +68,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -1645,7 +1656,7 @@ time_t
 ut
 )
 {
-ASSERT
+RTC_DCHECK
 (
 NULL
 !
@@ -1764,7 +1775,7 @@ FILETIME
 ft
 )
 {
-ASSERT
+RTC_DCHECK
 (
 NULL
 !
@@ -2125,7 +2136,7 @@ start
 =
 4
 ;
-ASSERT
+RTC_DCHECK
 (
 start
 >
@@ -2166,7 +2177,7 @@ start
 =
 6
 ;
-ASSERT
+RTC_DCHECK
 (
 start
 >

@@ -196,7 +196,7 @@ min_size
 RTC_DCHECK_GT
 (
 min_size
-0u
+0
 )
 ;
 rtc
@@ -333,10 +333,6 @@ max_num_buffers_
 )
 .
 "
-;
-RTC_NOTREACHED
-(
-)
 ;
 }
 }

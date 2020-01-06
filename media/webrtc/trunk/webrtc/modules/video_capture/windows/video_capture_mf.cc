@@ -24,14 +24,6 @@ VideoCaptureMF
 :
 VideoCaptureMF
 (
-const
-int32_t
-id
-)
-:
-VideoCaptureImpl
-(
-id
 )
 {
 }
@@ -50,9 +42,6 @@ VideoCaptureMF
 :
 Init
 (
-const
-int32_t
-id
 const
 char
 *

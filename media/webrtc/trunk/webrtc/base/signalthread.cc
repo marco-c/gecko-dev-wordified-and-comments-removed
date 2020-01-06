@@ -16,6 +16,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -28,6 +39,8 @@ SignalThread
 :
 SignalThread
 (
+bool
+use_socket_server
 )
 :
 main_
@@ -42,6 +55,7 @@ Current
 worker_
 (
 this
+use_socket_server
 )
 state_
 (
@@ -86,7 +100,7 @@ SignalThread
 (
 )
 {
-ASSERT
+RTC_DCHECK
 (
 refcount_
 =
@@ -120,7 +134,7 @@ ee
 this
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 main_
 -
@@ -130,7 +144,7 @@ IsCurrent
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 kInit
 =
@@ -162,7 +176,7 @@ ee
 this
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 main_
 -
@@ -203,9 +217,8 @@ Start
 }
 else
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -226,7 +239,7 @@ ee
 this
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 main_
 -
@@ -319,9 +332,8 @@ refcount_
 }
 else
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -340,7 +352,7 @@ ee
 this
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 main_
 -
@@ -379,9 +391,8 @@ kReleasing
 }
 else
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -400,7 +411,7 @@ ee
 this
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 worker_
 .
@@ -446,7 +457,7 @@ msg
 message_id
 )
 {
-ASSERT
+RTC_DCHECK
 (
 main_
 -
@@ -581,6 +592,7 @@ main_
 >
 Post
 (
+RTC_FROM_HERE
 this
 ST_MSG_WORKER_DONE
 )

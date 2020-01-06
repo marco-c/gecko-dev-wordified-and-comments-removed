@@ -23,6 +23,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -260,7 +271,7 @@ ST_FLUSHING
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 result
 !
@@ -487,7 +498,7 @@ ST_FLUSHING
 )
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 result
 !
@@ -517,9 +528,8 @@ result
 SR_ERROR
 )
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 state_
@@ -586,9 +596,8 @@ result
 SR_BLOCK
 )
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 return

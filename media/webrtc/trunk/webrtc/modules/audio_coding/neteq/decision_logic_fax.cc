@@ -75,9 +75,9 @@ expand
 size_t
 decoder_frame_length
 const
-RTPHeader
+Packet
 *
-packet_header
+next_packet
 Modes
 prev_mode
 bool
@@ -85,6 +85,8 @@ play_dtmf
 bool
 *
 reset_decoder
+size_t
+generated_noise_samples
 )
 {
 assert
@@ -122,12 +124,12 @@ is_cng_packet
 ;
 if
 (
-packet_header
+next_packet
 )
 {
 available_timestamp
 =
-packet_header
+next_packet
 -
 >
 timestamp
@@ -139,10 +141,10 @@ decoder_database_
 >
 IsComfortNoise
 (
-packet_header
+next_packet
 -
 >
-payloadType
+payload_type
 )
 ;
 }
@@ -159,7 +161,7 @@ int32_t
 >
 (
 (
-generated_noise_samples_
+generated_noise_samples
 +
 target_timestamp
 )
@@ -185,7 +187,7 @@ kRfc3389CngNoPacket
 if
 (
 !
-packet_header
+next_packet
 )
 {
 if
@@ -268,7 +270,7 @@ int32_t
 >
 (
 (
-generated_noise_samples_
+generated_noise_samples
 +
 target_timestamp
 )

@@ -22,7 +22,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+constructormagic
 .
 h
 "

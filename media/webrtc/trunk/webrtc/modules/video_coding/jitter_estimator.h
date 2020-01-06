@@ -104,6 +104,7 @@ incompleteFrame
 false
 )
 ;
+virtual
 int
 GetJitterEstimate
 (

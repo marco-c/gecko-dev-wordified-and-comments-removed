@@ -1,5 +1,12 @@
 #
 include
+"
+decode_residual
+.
+h
+"
+#
+include
 <
 string
 .
@@ -68,7 +75,7 @@ lsf_check
 .
 h
 "
-void
+bool
 WebRtcIlbcfix_DecodeResidual
 (
 IlbcDecoder
@@ -252,6 +259,9 @@ iLBCdec_inst
 state_short_len
 )
 ;
+if
+(
+!
 WebRtcIlbcfix_CbConstruct
 (
 &
@@ -280,6 +290,9 @@ ST_MEM_L_TBL
 ST_MEM_L_TBL
 diff
 )
+)
+return
+false
 ;
 }
 else
@@ -313,6 +326,9 @@ CB_MEML
 meml_gotten
 )
 ;
+if
+(
+!
 WebRtcIlbcfix_CbConstruct
 (
 reverseDecresidual
@@ -332,6 +348,9 @@ ST_MEM_L_TBL
 ST_MEM_L_TBL
 diff
 )
+)
+return
+false
 ;
 WebRtcSpl_MemCpyReversedOrder
 (
@@ -427,6 +446,9 @@ subframe
 +
 )
 {
+if
+(
+!
 WebRtcIlbcfix_CbConstruct
 (
 &
@@ -465,6 +487,9 @@ mem
 MEM_LF_TBL
 SUBL
 )
+)
+return
+false
 ;
 memmove
 (
@@ -613,6 +638,9 @@ subframe
 +
 )
 {
+if
+(
+!
 WebRtcIlbcfix_CbConstruct
 (
 &
@@ -642,6 +670,9 @@ mem
 MEM_LF_TBL
 SUBL
 )
+)
+return
+false
 ;
 memmove
 (
@@ -700,4 +731,7 @@ Nback
 )
 ;
 }
+return
+true
+;
 }

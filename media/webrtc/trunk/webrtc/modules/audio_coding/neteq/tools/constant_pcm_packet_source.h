@@ -79,8 +79,13 @@ int
 payload_type
 )
 ;
+std
+:
+:
+unique_ptr
+<
 Packet
-*
+>
 NextPacket
 (
 )

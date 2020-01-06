@@ -36,7 +36,10 @@ return
 1
 ;
 }
-int32_t
+AudioDeviceGeneric
+:
+:
+InitStatus
 AudioDeviceDummy
 :
 :
@@ -45,7 +48,10 @@ Init
 )
 {
 return
-0
+InitStatus
+:
+:
+OK
 ;
 }
 int32_t

@@ -35,7 +35,7 @@ LoudestFilter
 :
 RemoveTimeoutStreams
 (
-uint32_t
+int64_t
 time_ms
 )
 {
@@ -178,13 +178,13 @@ RTPHeader
 rtp_header
 )
 {
-uint32_t
+int64_t
 time_now_ms
 =
 rtc
 :
 :
-Time
+TimeMillis
 (
 )
 ;
@@ -309,7 +309,7 @@ FindQuietestStream
 ;
 RTC_CHECK_NE
 (
-0u
+0
 quietest_ssrc
 )
 ;

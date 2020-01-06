@@ -32,6 +32,17 @@ webrtc
 /
 base
 /
+constructormagic
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 criticalsection
 .
 h
@@ -63,6 +74,11 @@ size
 (
 )
 const
+;
+void
+Clear
+(
+)
 ;
 bool
 ReadFront
@@ -115,7 +131,6 @@ capacity_
 size_t
 default_size_
 ;
-mutable
 CriticalSection
 crit_
 ;

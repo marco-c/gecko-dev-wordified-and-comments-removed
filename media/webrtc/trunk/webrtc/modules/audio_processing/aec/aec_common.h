@@ -48,6 +48,14 @@ aligned
 )
 #
 endif
+#
+ifdef
+__cplusplus
+namespace
+webrtc
+{
+#
+endif
 extern
 ALIGN16_BEG
 const
@@ -105,5 +113,11 @@ const
 float
 WebRtcAec_kMinFarendPSD
 ;
+#
+ifdef
+__cplusplus
+}
+#
+endif
 #
 endif

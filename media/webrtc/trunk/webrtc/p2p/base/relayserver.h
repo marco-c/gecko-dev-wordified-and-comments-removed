@@ -824,7 +824,7 @@ std
 string
 &
 password
-uint32_t
+int
 lifetime
 )
 ;
@@ -844,7 +844,7 @@ return
 server_
 ;
 }
-uint32_t
+int
 lifetime
 (
 )
@@ -1019,10 +1019,10 @@ RelayServerConnection
 >
 external_connections_
 ;
-uint32_t
+int
 lifetime_
 ;
-uint32_t
+int64_t
 last_used_
 ;
 }

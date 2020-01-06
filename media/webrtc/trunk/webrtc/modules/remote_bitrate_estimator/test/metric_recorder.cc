@@ -618,7 +618,7 @@ metric
 kTotalAvailable
 )
 {
-BWE_TEST_LOGGING_PLOT_WITH_NAME
+BWE_TEST_LOGGING_PLOT_WITH_NAME_AND_SSRC
 (
 0
 plot_information_
@@ -631,6 +631,7 @@ now_ms_
 GetTotalAvailableKbps
 (
 )
+flow_id_
 "
 Available
 "
@@ -646,7 +647,7 @@ metric
 kAvailablePerFlow
 )
 {
-BWE_TEST_LOGGING_PLOT_WITH_NAME
+BWE_TEST_LOGGING_PLOT_WITH_NAME_AND_SSRC
 (
 0
 plot_information_
@@ -659,6 +660,7 @@ now_ms_
 GetAvailablePerFlowKbps
 (
 )
+flow_id_
 "
 Available_per_flow
 "
@@ -727,7 +729,7 @@ T
 y
 )
 {
-BWE_TEST_LOGGING_PLOT_WITH_NAME
+BWE_TEST_LOGGING_PLOT_WITH_NAME_AND_SSRC
 (
 windows_id
 prefix
@@ -739,6 +741,7 @@ double
 (
 y
 )
+flow_id_
 algorithm_name_
 )
 ;
@@ -1597,6 +1600,7 @@ ms
 "
 num_flows
 )
+;
 BWE_TEST_LOGGING_ERRORBAR
 (
 5
@@ -1748,6 +1752,7 @@ packet_loss_ratio_
 "
 num_flows
 )
+;
 BWE_TEST_LOGGING_BAR
 (
 6
@@ -1824,6 +1829,7 @@ objective_function
 "
 num_flows
 )
+;
 BWE_TEST_LOGGING_BAR
 (
 7

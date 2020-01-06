@@ -56,6 +56,8 @@ AudioFrame
 :
 SpeechType
 speech_type
+bool
+muted
 )
 ;
 void

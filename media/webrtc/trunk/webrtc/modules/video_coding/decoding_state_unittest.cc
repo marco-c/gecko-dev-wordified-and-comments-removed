@@ -8,21 +8,6 @@ h
 #
 include
 "
-testing
-/
-gtest
-/
-include
-/
-gtest
-/
-gtest
-.
-h
-"
-#
-include
-"
 webrtc
 /
 modules
@@ -85,6 +70,17 @@ packet
 .
 h
 "
+#
+include
+"
+webrtc
+/
+test
+/
+gtest
+.
+h
+"
 namespace
 webrtc
 {
@@ -142,7 +138,7 @@ packet
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 true
 ;
@@ -166,7 +162,7 @@ kVideoFrameDelta
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codec
 =
@@ -174,7 +170,7 @@ kRtpVideoVp8
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -284,13 +280,13 @@ kVideoFrameDelta
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 false
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -333,7 +329,7 @@ Reset
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -376,7 +372,7 @@ frame
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -524,7 +520,7 @@ Reset
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -536,7 +532,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -548,7 +544,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -618,7 +614,7 @@ Reset
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -630,7 +626,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -642,7 +638,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -714,7 +710,7 @@ Reset
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -726,7 +722,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -738,7 +734,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -793,7 +789,7 @@ Reset
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -805,7 +801,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -817,7 +813,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -881,7 +877,7 @@ Reset
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -893,7 +889,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -905,7 +901,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -977,7 +973,7 @@ Reset
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -989,7 +985,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1001,7 +997,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1062,7 +1058,7 @@ Reset
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1074,7 +1070,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1086,7 +1082,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1408,7 +1404,7 @@ kVideoFrameDelta
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codec
 =
@@ -1428,7 +1424,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1440,7 +1436,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1452,7 +1448,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1520,7 +1516,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1532,7 +1528,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1544,7 +1540,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1616,7 +1612,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1628,7 +1624,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1640,7 +1636,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1712,7 +1708,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1724,7 +1720,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1736,7 +1732,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1802,7 +1798,7 @@ kVideoFrameKey
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 1
 ;
@@ -1820,7 +1816,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1832,7 +1828,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1844,7 +1840,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1922,7 +1918,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1934,7 +1930,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -1946,7 +1942,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2004,7 +2000,7 @@ kVideoFrameDelta
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 1
 ;
@@ -2022,7 +2018,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2034,7 +2030,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2046,7 +2042,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2121,7 +2117,7 @@ kVideoFrameDelta
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 1
 ;
@@ -2139,7 +2135,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2151,7 +2147,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2163,7 +2159,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2175,7 +2171,7 @@ pictureId
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2236,7 +2232,7 @@ kVideoFrameDelta
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 1
 ;
@@ -2260,7 +2256,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2272,7 +2268,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2284,7 +2280,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2296,7 +2292,7 @@ pictureId
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2351,7 +2347,7 @@ kVideoFrameDelta
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 1
 ;
@@ -2375,7 +2371,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2387,7 +2383,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2399,7 +2395,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2411,7 +2407,7 @@ pictureId
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2460,7 +2456,7 @@ kVideoFrameDelta
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 1
 ;
@@ -2484,7 +2480,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2496,7 +2492,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2508,7 +2504,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2520,7 +2516,7 @@ pictureId
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2594,7 +2590,7 @@ kVideoFrameKey
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codec
 =
@@ -2614,7 +2610,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2626,7 +2622,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2638,7 +2634,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2722,7 +2718,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2734,7 +2730,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2920,7 +2916,7 @@ kVideoFrameDelta
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codec
 =
@@ -2940,7 +2936,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2952,7 +2948,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -2964,7 +2960,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -3032,7 +3028,7 @@ seqNum
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -3044,7 +3040,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -3087,7 +3083,7 @@ Reset
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -3100,7 +3096,7 @@ tl0PicIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -3112,7 +3108,7 @@ temporalIdx
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -3165,7 +3161,7 @@ packet
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 true
 ;
@@ -3215,7 +3211,7 @@ data
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codec
 =
@@ -3227,7 +3223,7 @@ vp9_hdr
 =
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -3421,7 +3417,7 @@ packet
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 true
 ;
@@ -3471,7 +3467,7 @@ data
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codec
 =
@@ -3483,7 +3479,7 @@ vp9_hdr
 =
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .
@@ -3764,7 +3760,7 @@ packet
 ;
 packet
 .
-isFirstPacket
+is_first_packet_in_frame
 =
 true
 ;
@@ -3814,7 +3810,7 @@ data
 ;
 packet
 .
-codecSpecificHeader
+video_header
 .
 codec
 =
@@ -3826,7 +3822,7 @@ vp9_hdr
 =
 packet
 .
-codecSpecificHeader
+video_header
 .
 codecHeader
 .

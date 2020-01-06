@@ -199,6 +199,10 @@ NotifyingAsyncClosureBase
 AsyncInvoker
 *
 invoker
+const
+Location
+&
+callback_posted_from
 Thread
 *
 calling_thread
@@ -248,6 +252,13 @@ NULL
 }
 private
 :
+AsyncInvoker
+*
+invoker_
+;
+Location
+callback_posted_from_
+;
 Callback0
 <
 void
@@ -256,10 +267,6 @@ callback_
 ;
 CriticalSection
 crit_
-;
-AsyncInvoker
-*
-invoker_
 ;
 Thread
 *
@@ -294,6 +301,10 @@ NotifyingAsyncClosure
 AsyncInvoker
 *
 invoker
+const
+Location
+&
+callback_posted_from
 Thread
 *
 calling_thread
@@ -320,6 +331,7 @@ callback_host
 NotifyingAsyncClosureBase
 (
 invoker
+callback_posted_from
 calling_thread
 )
 functor_
@@ -427,6 +439,10 @@ NotifyingAsyncClosure
 AsyncInvoker
 *
 invoker
+const
+Location
+&
+callback_posted_from
 Thread
 *
 calling_thread
@@ -452,6 +468,7 @@ callback_host
 NotifyingAsyncClosureBase
 (
 invoker
+callback_posted_from
 calling_thread
 )
 functor_

@@ -1,14 +1,3 @@
-per
--
-file
-*
-.
-isolate
-=
-kjellander
-webrtc
-.
-org
 #
 These
 are
@@ -46,7 +35,7 @@ per
 file
 *
 .
-gyp
+gn
 =
 *
 per
@@ -54,6 +43,6 @@ per
 file
 *
 .
-gypi
+gni
 =
 *

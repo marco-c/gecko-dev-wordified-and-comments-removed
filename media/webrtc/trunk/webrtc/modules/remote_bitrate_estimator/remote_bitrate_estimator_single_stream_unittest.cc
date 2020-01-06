@@ -116,7 +116,7 @@ RateIncreaseRtpTimestamps
 {
 RateIncreaseRtpTimestampsTestHelper
 (
-1240
+1267
 )
 ;
 }
@@ -130,7 +130,8 @@ CapacityDropTestHelper
 (
 1
 false
-600
+633
+0
 )
 ;
 }
@@ -144,7 +145,8 @@ CapacityDropTestHelper
 (
 1
 true
-600
+633
+0
 )
 ;
 }
@@ -158,7 +160,8 @@ CapacityDropTestHelper
 (
 2
 true
-700
+767
+0
 )
 ;
 }
@@ -172,7 +175,8 @@ CapacityDropTestHelper
 (
 3
 true
-734
+567
+0
 )
 ;
 }
@@ -186,7 +190,8 @@ CapacityDropTestHelper
 (
 13
 true
-700
+733
+0
 )
 ;
 }
@@ -201,6 +206,7 @@ CapacityDropTestHelper
 19
 true
 700
+0
 )
 ;
 }
@@ -214,7 +220,8 @@ CapacityDropTestHelper
 (
 30
 true
-700
+733
+0
 )
 ;
 }

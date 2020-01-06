@@ -59,7 +59,7 @@ Set
 (
 int
 audio_level
-uint32_t
+int64_t
 last_time_ms
 )
 {
@@ -81,7 +81,7 @@ last_time_ms
 int
 audio_level
 ;
-uint32_t
+int64_t
 last_time_ms
 ;
 }
@@ -89,7 +89,7 @@ last_time_ms
 void
 RemoveTimeoutStreams
 (
-uint32_t
+int64_t
 time_ms
 )
 ;

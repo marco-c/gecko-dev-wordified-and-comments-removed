@@ -1,5 +1,10 @@
 #
 include
+<
+memory
+>
+#
+include
 "
 webrtc
 /
@@ -232,13 +237,7 @@ header
 RTC_DCHECK_LE
 (
 length
-static_cast
-<
-size_t
->
-(
 IP_PACKET_SIZE
-)
 )
 ;
 uint8_t
@@ -330,10 +329,10 @@ payloadType
 =
 vp8_video_payload_type_
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 RtpDepacketizer
 >

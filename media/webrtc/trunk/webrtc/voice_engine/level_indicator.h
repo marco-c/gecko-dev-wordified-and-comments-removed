@@ -9,7 +9,9 @@ include
 "
 webrtc
 /
-typedefs
+base
+/
+criticalsection
 .
 h
 "
@@ -18,9 +20,7 @@ include
 "
 webrtc
 /
-voice_engine
-/
-voice_engine_defines
+typedefs
 .
 h
 "
@@ -29,9 +29,6 @@ webrtc
 {
 class
 AudioFrame
-;
-class
-CriticalSectionWrapper
 ;
 namespace
 voe
@@ -86,8 +83,10 @@ kUpdateFrequency
 10
 }
 ;
-CriticalSectionWrapper
-&
+rtc
+:
+:
+CriticalSection
 _critSect
 ;
 int16_t

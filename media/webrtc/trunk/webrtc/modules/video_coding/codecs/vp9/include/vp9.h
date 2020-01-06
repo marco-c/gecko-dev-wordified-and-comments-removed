@@ -31,6 +31,12 @@ VideoEncoder
 public
 :
 static
+bool
+IsSupported
+(
+)
+;
+static
 VP9Encoder
 *
 Create
@@ -54,6 +60,12 @@ VideoDecoder
 {
 public
 :
+static
+bool
+IsSupported
+(
+)
+;
 static
 VP9Decoder
 *

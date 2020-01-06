@@ -51,7 +51,7 @@ p2p
 /
 base
 /
-transport
+jseptransport
 .
 h
 "
@@ -111,7 +111,7 @@ rtc
 :
 Thread
 *
-worker_thread
+network_thread
 rtc
 :
 :
@@ -194,7 +194,7 @@ rtc
 :
 Thread
 *
-worker_thread_
+network_thread_
 ;
 rtc
 :

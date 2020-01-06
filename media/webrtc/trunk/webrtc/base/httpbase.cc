@@ -1,4 +1,9 @@
 #
+include
+<
+memory
+>
+#
 if
 defined
 (
@@ -26,6 +31,17 @@ SEC_E_CERT_EXPIRED
 )
 #
 endif
+#
+include
+"
+webrtc
+/
+base
+/
+checks
+.
+h
+"
 #
 include
 "
@@ -238,9 +254,8 @@ state_
 ST_COMPLETE
 )
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -1051,9 +1066,8 @@ break
 ;
 default
 :
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 break
@@ -1289,7 +1303,10 @@ return
 SR_BLOCK
 ;
 }
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 StreamInterface
 >
@@ -1590,7 +1607,7 @@ HttpError
 error
 )
 {
-ASSERT
+RTC_DCHECK
 (
 NULL
 !
@@ -1598,7 +1615,7 @@ NULL
 base_
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 NULL
 !
@@ -1682,7 +1699,7 @@ HttpBase
 (
 )
 {
-ASSERT
+RTC_DCHECK
 (
 HM_NONE
 =
@@ -1759,9 +1776,8 @@ NULL
 )
 )
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -1818,7 +1834,7 @@ detach
 (
 )
 {
-ASSERT
+RTC_DCHECK
 (
 HM_NONE
 =
@@ -1879,7 +1895,7 @@ HttpData
 data
 )
 {
-ASSERT
+RTC_DCHECK
 (
 HM_NONE
 =
@@ -2075,7 +2091,7 @@ HttpData
 data
 )
 {
-ASSERT
+RTC_DCHECK
 (
 HM_NONE
 =
@@ -2358,7 +2374,7 @@ HttpError
 error
 )
 {
-ASSERT
+RTC_DCHECK
 (
 HM_RECV
 =
@@ -2366,7 +2382,7 @@ HM_RECV
 mode_
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 NULL
 !
@@ -2439,7 +2455,7 @@ read_result
 case
 SR_SUCCESS
 :
-ASSERT
+RTC_DCHECK
 (
 len_
 +
@@ -2530,7 +2546,7 @@ processed
 error
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 processed
 <
@@ -2641,7 +2657,7 @@ flush_data
 (
 )
 {
-ASSERT
+RTC_DCHECK
 (
 HM_SEND
 =
@@ -2667,7 +2683,7 @@ while
 true
 )
 {
-ASSERT
+RTC_DCHECK
 (
 len_
 <
@@ -2815,7 +2831,7 @@ result
 SR_SUCCESS
 )
 {
-ASSERT
+RTC_DCHECK
 (
 reserve
 +
@@ -2919,7 +2935,7 @@ if
 chunk_data_
 )
 {
-ASSERT
+RTC_DCHECK
 (
 len_
 +
@@ -3064,7 +3080,7 @@ result
 SR_SUCCESS
 )
 {
-ASSERT
+RTC_DCHECK
 (
 written
 <
@@ -3111,7 +3127,7 @@ return
 }
 else
 {
-ASSERT
+RTC_DCHECK
 (
 result
 =
@@ -3140,9 +3156,8 @@ return
 ;
 }
 }
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -3154,7 +3169,7 @@ queue_headers
 (
 )
 {
-ASSERT
+RTC_DCHECK
 (
 HM_SEND
 =
@@ -3341,7 +3356,7 @@ HttpError
 err
 )
 {
-ASSERT
+RTC_DCHECK
 (
 mode_
 !
@@ -3400,7 +3415,7 @@ mode
 doc_stream_
 )
 {
-ASSERT
+RTC_DCHECK
 (
 HE_NONE
 !
@@ -3464,7 +3479,7 @@ int
 error
 )
 {
-ASSERT
+RTC_DCHECK
 (
 stream
 =
@@ -3644,7 +3659,7 @@ int
 error
 )
 {
-ASSERT
+RTC_DCHECK
 (
 stream
 =
@@ -3880,7 +3895,7 @@ chunked
 data_size
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 NULL
 !

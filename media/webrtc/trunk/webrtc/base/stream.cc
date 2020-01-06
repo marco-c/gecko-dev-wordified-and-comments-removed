@@ -68,6 +68,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -482,6 +493,7 @@ t
 >
 Post
 (
+RTC_FROM_HERE
 this
 MSG_POST_EVENT
 new
@@ -2122,7 +2134,7 @@ position
 )
 const
 {
-ASSERT
+RTC_DCHECK
 (
 NULL
 !
@@ -2180,7 +2192,7 @@ size
 )
 const
 {
-ASSERT
+RTC_DCHECK
 (
 NULL
 !
@@ -2245,7 +2257,7 @@ size
 )
 const
 {
-ASSERT
+RTC_DCHECK
 (
 NULL
 !
@@ -2386,9 +2398,8 @@ file_
 )
 ;
 }
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -2424,9 +2435,8 @@ file_
 NULL
 )
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -2465,9 +2475,8 @@ file_
 NULL
 )
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -2703,7 +2712,7 @@ return
 result
 ;
 }
-ASSERT
+RTC_DCHECK
 (
 buffer_length_
 >
@@ -3560,6 +3569,13 @@ GetState
 )
 const
 {
+CritScope
+cs
+(
+&
+crit_
+)
+;
 return
 state_
 ;
@@ -3858,7 +3874,7 @@ cs
 crit_
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 size
 <
@@ -4013,7 +4029,7 @@ cs
 crit_
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 size
 <
@@ -5286,7 +5302,7 @@ size_t
 data_len
 )
 {
-ASSERT
+RTC_DCHECK
 (
 buffer_len
 >

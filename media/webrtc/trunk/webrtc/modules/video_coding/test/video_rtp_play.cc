@@ -1,5 +1,10 @@
 #
 include
+<
+memory
+>
+#
+include
 "
 webrtc
 /
@@ -344,10 +349,10 @@ kConfigRenderDelayMs
 kConfigMinPlayoutDelayMs
 )
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 webrtc
 :

@@ -4,6 +4,11 @@ WEBRTC_MODULES_AUDIO_PROCESSING_AECM_AECM_CORE_H_
 #
 define
 WEBRTC_MODULES_AUDIO_PROCESSING_AECM_AECM_CORE_H_
+extern
+"
+C
+"
+{
 #
 include
 "
@@ -30,6 +35,7 @@ signal_processing_library
 .
 h
 "
+}
 #
 include
 "
@@ -727,12 +733,6 @@ WebRtcAecm_ResetAdaptiveChannel
 ;
 #
 if
-defined
-(
-WEBRTC_DETECT_NEON
-)
-|
-|
 defined
 (
 WEBRTC_HAS_NEON

@@ -14,6 +14,11 @@ h
 #
 include
 <
+memory
+>
+#
+include
+<
 vector
 >
 struct

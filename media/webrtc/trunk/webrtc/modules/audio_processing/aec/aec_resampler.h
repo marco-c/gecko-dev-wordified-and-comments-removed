@@ -19,6 +19,9 @@ aec_core
 .
 h
 "
+namespace
+webrtc
+{
 enum
 {
 kResamplingDelay
@@ -94,5 +97,6 @@ size_t
 size_out
 )
 ;
+}
 #
 endif

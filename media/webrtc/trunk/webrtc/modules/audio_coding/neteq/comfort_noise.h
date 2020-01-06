@@ -103,10 +103,6 @@ sync_buffer_
 (
 sync_buffer
 )
-internal_error_code_
-(
-0
-)
 {
 }
 void
@@ -117,8 +113,9 @@ Reset
 int
 UpdateParameters
 (
+const
 Packet
-*
+&
 packet
 )
 ;

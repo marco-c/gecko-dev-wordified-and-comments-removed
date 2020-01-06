@@ -7,6 +7,11 @@ WEBRTC_BASE_FILEROTATINGSTREAM_H_
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
@@ -338,7 +343,10 @@ const
 Mode
 mode_
 ;
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 FileStream
 >

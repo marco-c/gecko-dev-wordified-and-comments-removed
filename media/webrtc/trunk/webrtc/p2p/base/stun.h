@@ -528,7 +528,7 @@ Read
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -539,7 +539,7 @@ Write
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -689,7 +689,7 @@ Read
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -703,7 +703,7 @@ Write
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -814,7 +814,7 @@ WritePadding
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -826,7 +826,7 @@ ConsumePadding
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -1054,7 +1054,7 @@ Read
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -1066,7 +1066,7 @@ Write
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -1195,7 +1195,7 @@ Read
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -1207,7 +1207,7 @@ Write
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -1317,7 +1317,7 @@ Read
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -1329,7 +1329,7 @@ Write
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -1412,7 +1412,7 @@ Read
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -1424,7 +1424,7 @@ Write
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -1579,7 +1579,7 @@ Read
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -1591,7 +1591,7 @@ Write
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -1759,7 +1759,7 @@ Read
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -1770,7 +1770,7 @@ Write
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -1860,7 +1860,7 @@ Read
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 *
 buf
 )
@@ -1871,7 +1871,7 @@ Write
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 *
 buf
 )
@@ -2352,6 +2352,12 @@ STUN_ATTR_ICE_CONTROLLED
 STUN_ATTR_ICE_CONTROLLING
 =
 0x802A
+STUN_ATTR_NOMINATION
+=
+0xC001
+STUN_ATTR_NETWORK_INFO
+=
+0xC057
 }
 ;
 enum
@@ -2393,6 +2399,12 @@ type
 {
 case
 STUN_ATTR_PRIORITY
+:
+case
+STUN_ATTR_NETWORK_INFO
+:
+case
+STUN_ATTR_NOMINATION
 :
 return
 STUN_VALUE_UINT32

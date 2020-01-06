@@ -1,10 +1,14 @@
 #
 include
-<
-assert
+"
+webrtc
+/
+base
+/
+nattypes
 .
 h
->
+"
 #
 include
 "
@@ -12,7 +16,7 @@ webrtc
 /
 base
 /
-nattypes
+checks
 .
 h
 "
@@ -233,9 +237,8 @@ SymmetricNAT
 ;
 default
 :
-assert
+RTC_NOTREACHED
 (
-0
 )
 ;
 return

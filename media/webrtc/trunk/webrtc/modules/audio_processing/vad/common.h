@@ -4,6 +4,13 @@ WEBRTC_MODULES_AUDIO_PROCESSING_VAD_COMMON_H_
 #
 define
 WEBRTC_MODULES_AUDIO_PROCESSING_VAD_COMMON_H_
+#
+include
+<
+stddef
+.
+h
+>
 static
 const
 int

@@ -26,7 +26,7 @@ stdlib
 h
 >
 #
-if
+ifdef
 _WIN32
 #
 include

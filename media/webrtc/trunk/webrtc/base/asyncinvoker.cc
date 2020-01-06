@@ -179,6 +179,7 @@ Invoke
 void
 >
 (
+RTC_FROM_HERE
 Bind
 (
 &
@@ -245,6 +246,10 @@ Send
 it
 -
 >
+posted_from
+it
+-
+>
 phandler
 it
 -
@@ -264,6 +269,10 @@ AsyncInvoker
 :
 DoInvoke
 (
+const
+Location
+&
+posted_from
 Thread
 *
 thread
@@ -308,6 +317,7 @@ thread
 >
 Post
 (
+posted_from
 this
 id
 new
@@ -327,6 +337,10 @@ AsyncInvoker
 :
 DoInvokeDelayed
 (
+const
+Location
+&
+posted_from
 Thread
 *
 thread
@@ -373,6 +387,7 @@ thread
 >
 PostDelayed
 (
+posted_from
 delay_ms
 this
 id
@@ -510,6 +525,10 @@ NotifyingAsyncClosureBase
 AsyncInvoker
 *
 invoker
+const
+Location
+&
+callback_posted_from
 Thread
 *
 calling_thread
@@ -518,6 +537,10 @@ calling_thread
 invoker_
 (
 invoker
+)
+callback_posted_from_
+(
+callback_posted_from
 )
 calling_thread_
 (
@@ -607,6 +630,7 @@ AsyncInvoke
 void
 >
 (
+callback_posted_from_
 calling_thread_
 callback_
 )

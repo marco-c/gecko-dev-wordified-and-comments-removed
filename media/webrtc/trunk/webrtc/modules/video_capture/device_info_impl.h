@@ -67,9 +67,6 @@ public
 :
 DeviceInfoImpl
 (
-const
-int32_t
-id
 )
 ;
 virtual
@@ -147,16 +144,6 @@ Init
 ;
 virtual
 int32_t
-Refresh
-(
-)
-{
-return
-0
-;
-}
-virtual
-int32_t
 CreateCapabilityMap
 (
 const
@@ -192,9 +179,6 @@ height
 ;
 protected
 :
-int32_t
-_id
-;
 typedef
 std
 :

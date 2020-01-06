@@ -11,7 +11,7 @@ defines
 .
 h
 "
-void
+int
 WebRtcIlbcfix_DecodeImpl
 (
 int16_t
@@ -27,6 +27,7 @@ iLBCdec_inst
 int16_t
 mode
 )
+WARN_UNUSED_RESULT
 ;
 #
 endif

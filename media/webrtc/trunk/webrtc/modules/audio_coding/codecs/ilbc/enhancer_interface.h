@@ -17,6 +17,7 @@ WebRtcIlbcfix_EnhancerInterface
 int16_t
 *
 out
+const
 int16_t
 *
 in

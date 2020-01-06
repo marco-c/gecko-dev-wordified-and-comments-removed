@@ -1,9 +1,9 @@
 #
 ifndef
-BASE_THREAD_ANNOTATIONS_H_
+WEBRTC_BASE_THREAD_ANNOTATIONS_H_
 #
 define
-BASE_THREAD_ANNOTATIONS_H_
+WEBRTC_BASE_THREAD_ANNOTATIONS_H_
 #
 if
 defined
@@ -59,7 +59,7 @@ define
 GUARDED_VAR
 THREAD_ANNOTATION_ATTRIBUTE__
 (
-guarded
+guarded_var
 )
 #
 define
@@ -69,7 +69,7 @@ x
 )
 THREAD_ANNOTATION_ATTRIBUTE__
 (
-point_to_guarded_by
+pt_guarded_by
 (
 x
 )
@@ -79,7 +79,7 @@ define
 PT_GUARDED_VAR
 THREAD_ANNOTATION_ATTRIBUTE__
 (
-point_to_guarded
+pt_guarded_var
 )
 #
 define
@@ -143,13 +143,16 @@ __VA_ARGS__
 define
 LOCKS_EXCLUDED
 (
-x
+.
+.
+.
 )
+\
 THREAD_ANNOTATION_ATTRIBUTE__
 (
 locks_excluded
 (
-x
+__VA_ARGS__
 )
 )
 #

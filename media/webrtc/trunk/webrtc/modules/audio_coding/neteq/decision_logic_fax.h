@@ -71,6 +71,10 @@ delay_manager
 BufferLevelFilter
 *
 buffer_level_filter
+const
+TickTimer
+*
+tick_timer
 )
 :
 DecisionLogic
@@ -82,6 +86,7 @@ decoder_database
 packet_buffer
 delay_manager
 buffer_level_filter
+tick_timer
 )
 {
 }
@@ -101,9 +106,9 @@ expand
 size_t
 decoder_frame_length
 const
-RTPHeader
+Packet
 *
-packet_header
+next_packet
 Modes
 prev_mode
 bool
@@ -111,6 +116,8 @@ play_dtmf
 bool
 *
 reset_decoder
+size_t
+generated_noise_samples
 )
 override
 ;

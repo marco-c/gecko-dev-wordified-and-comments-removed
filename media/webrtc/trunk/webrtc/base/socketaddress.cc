@@ -125,6 +125,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -582,7 +593,7 @@ int
 port
 )
 {
-ASSERT
+RTC_DCHECK
 (
 (
 0

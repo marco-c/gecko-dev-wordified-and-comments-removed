@@ -81,7 +81,7 @@ enum
 {
 kDecoderFrameMemoryLength
 =
-30
+10
 }
 ;
 struct
@@ -294,11 +294,6 @@ nowMs
 ;
 int32_t
 Release
-(
-)
-;
-int32_t
-Reset
 (
 )
 ;

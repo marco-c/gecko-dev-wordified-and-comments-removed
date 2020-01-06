@@ -16,6 +16,7 @@ WebRtcIlbcfix_CreateAugmentedVec
 (
 size_t
 index
+const
 int16_t
 *
 buffer

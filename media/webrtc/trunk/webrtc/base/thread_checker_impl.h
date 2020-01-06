@@ -56,7 +56,6 @@ DetachFromThread
 ;
 private
 :
-mutable
 CriticalSection
 lock_
 ;

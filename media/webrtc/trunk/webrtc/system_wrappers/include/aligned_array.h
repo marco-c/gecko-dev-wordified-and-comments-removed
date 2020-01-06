@@ -63,7 +63,7 @@ cols
 RTC_CHECK_GT
 (
 alignment
-0u
+0
 )
 ;
 head_row_

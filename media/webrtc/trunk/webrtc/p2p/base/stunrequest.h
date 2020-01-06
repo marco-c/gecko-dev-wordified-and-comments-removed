@@ -106,6 +106,13 @@ int
 msg_type
 )
 ;
+bool
+HasRequest
+(
+int
+msg_type
+)
+;
 void
 Remove
 (
@@ -328,7 +335,7 @@ msg
 )
 const
 ;
-uint32_t
+int
 Elapsed
 (
 )
@@ -426,7 +433,7 @@ StunMessage
 *
 msg_
 ;
-uint32_t
+int64_t
 tstamp_
 ;
 friend

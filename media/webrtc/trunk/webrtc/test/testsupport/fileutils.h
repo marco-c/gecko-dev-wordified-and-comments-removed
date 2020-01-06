@@ -32,14 +32,6 @@ std
 :
 :
 string
-ProjectRootPath
-(
-)
-;
-std
-:
-:
-string
 OutputPath
 (
 )

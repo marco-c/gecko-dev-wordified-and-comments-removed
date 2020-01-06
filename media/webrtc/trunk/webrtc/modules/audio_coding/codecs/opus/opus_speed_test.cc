@@ -81,7 +81,6 @@ TearDown
 )
 override
 ;
-virtual
 float
 EncodeABlock
 (
@@ -97,8 +96,8 @@ size_t
 *
 encoded_bytes
 )
+override
 ;
-virtual
 float
 DecodeABlock
 (
@@ -112,6 +111,7 @@ int16_t
 *
 out_data
 )
+override
 ;
 WebRtcOpusEncInst
 *

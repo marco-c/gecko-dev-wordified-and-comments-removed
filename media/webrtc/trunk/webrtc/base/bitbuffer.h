@@ -225,6 +225,13 @@ uint32_t
 val
 )
 ;
+bool
+WriteSignedExponentialGolomb
+(
+int32_t
+val
+)
+;
 private
 :
 uint8_t

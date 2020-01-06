@@ -64,7 +64,7 @@ enum
 RateControlRegion
 ;
 bool
-AdaptiveThresholdExperimentIsEnabled
+AdaptiveThresholdExperimentIsDisabled
 (
 )
 ;
@@ -73,13 +73,8 @@ OveruseDetector
 {
 public
 :
-explicit
 OveruseDetector
 (
-const
-OverUseDetectorOptions
-&
-options
 )
 ;
 virtual
@@ -123,7 +118,6 @@ InitializeExperiment
 (
 )
 ;
-const
 bool
 in_experiment_
 ;
@@ -135,12 +129,6 @@ k_down_
 ;
 double
 overusing_time_threshold_
-;
-webrtc
-:
-:
-OverUseDetectorOptions
-options_
 ;
 double
 threshold_

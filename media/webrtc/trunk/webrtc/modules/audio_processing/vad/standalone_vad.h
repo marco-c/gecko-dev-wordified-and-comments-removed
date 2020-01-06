@@ -9,17 +9,6 @@ include
 "
 webrtc
 /
-base
-/
-scoped_ptr
-.
-h
-"
-#
-include
-"
-webrtc
-/
 modules
 /
 audio_processing

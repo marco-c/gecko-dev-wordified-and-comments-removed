@@ -153,6 +153,16 @@ complexity
 )
 ;
 int16_t
+WebRtcOpus_SetForceChannels
+(
+OpusEncInst
+*
+inst
+size_t
+num_channels
+)
+;
+int16_t
 WebRtcOpus_DecoderCreate
 (
 OpusDecInst

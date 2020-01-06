@@ -136,12 +136,9 @@ override
 bool
 NextPacket
 (
-uint8_t
+RtpPacketToSend
 *
-buffer
-size_t
-*
-bytes_to_send
+packet
 bool
 *
 last_packet

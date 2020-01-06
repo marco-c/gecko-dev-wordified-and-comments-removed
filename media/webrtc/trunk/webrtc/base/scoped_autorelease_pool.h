@@ -22,6 +22,17 @@ common
 h
 "
 #
+include
+"
+webrtc
+/
+base
+/
+constructormagic
+.
+h
+"
+#
 ifdef
 __OBJC__
 class

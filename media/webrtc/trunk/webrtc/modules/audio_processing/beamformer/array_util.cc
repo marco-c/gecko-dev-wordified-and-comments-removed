@@ -70,7 +70,7 @@ array_geometry
 size
 (
 )
-1u
+1
 )
 ;
 float
@@ -440,7 +440,7 @@ array_geometry
 size
 (
 )
-1u
+1
 )
 ;
 const
@@ -561,7 +561,7 @@ array_geometry
 size
 (
 )
-1u
+1
 )
 ;
 const

@@ -135,6 +135,8 @@ if
 fread
 (
 destination
++
+samples_read
 sizeof
 (
 int16_t

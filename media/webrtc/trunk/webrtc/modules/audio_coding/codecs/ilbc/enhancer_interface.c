@@ -46,6 +46,7 @@ WebRtcIlbcfix_EnhancerInterface
 int16_t
 *
 out
+const
 int16_t
 *
 in
@@ -131,6 +132,7 @@ int16_t
 *
 plc_pred
 ;
+const
 int16_t
 *
 target
@@ -676,12 +678,9 @@ i
 =
 enerSh
 -
-(
+2
+*
 corrSh
-<
-<
-1
-)
 ;
 }
 ind

@@ -297,6 +297,17 @@ return
 ready_
 ;
 }
+ProtocolType
+GetProtocol
+(
+)
+const
+override
+{
+return
+PROTO_UDP
+;
+}
 sigslot
 :
 :

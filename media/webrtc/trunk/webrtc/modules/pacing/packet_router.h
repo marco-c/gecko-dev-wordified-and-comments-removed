@@ -38,7 +38,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+thread_annotations
 .
 h
 "
@@ -49,7 +49,7 @@ webrtc
 /
 base
 /
-thread_annotations
+thread_checker
 .
 h
 "
@@ -110,7 +110,7 @@ public
 PacedSender
 :
 :
-Callback
+PacketSender
 public
 TransportSequenceNumberAllocator
 {
@@ -153,6 +153,8 @@ int64_t
 capture_timestamp
 bool
 retransmission
+int
+probe_cluster_id
 )
 override
 ;
@@ -161,6 +163,8 @@ TimeToSendPadding
 (
 size_t
 bytes
+int
+probe_cluster_id
 )
 override
 ;
@@ -194,8 +198,14 @@ private
 rtc
 :
 :
+ThreadChecker
+pacer_thread_checker_
+;
+rtc
+:
+:
 CriticalSection
-modules_lock_
+modules_crit_
 ;
 std
 :
@@ -208,7 +218,7 @@ RtpRtcp
 rtp_modules_
 GUARDED_BY
 (
-modules_lock_
+modules_crit_
 )
 ;
 volatile

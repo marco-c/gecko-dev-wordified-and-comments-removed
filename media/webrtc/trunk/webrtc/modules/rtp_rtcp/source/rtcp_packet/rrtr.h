@@ -117,11 +117,9 @@ buffer
 const
 ;
 void
-WithNtp
+SetNtp
 (
-const
 NtpTime
-&
 ntp
 )
 {

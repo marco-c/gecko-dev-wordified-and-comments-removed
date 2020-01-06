@@ -13,7 +13,7 @@ modules
 /
 desktop_capture
 /
-screen_capturer
+desktop_capturer
 .
 h
 "
@@ -23,10 +23,10 @@ webrtc
 bool
 GetScreenList
 (
-ScreenCapturer
+DesktopCapturer
 :
 :
-ScreenList
+SourceList
 *
 screens
 )
@@ -34,7 +34,10 @@ screens
 bool
 IsScreenValid
 (
-ScreenId
+DesktopCapturer
+:
+:
+SourceId
 screen
 std
 :
@@ -47,7 +50,10 @@ device_key
 DesktopRect
 GetScreenRect
 (
-ScreenId
+DesktopCapturer
+:
+:
+SourceId
 screen
 const
 std

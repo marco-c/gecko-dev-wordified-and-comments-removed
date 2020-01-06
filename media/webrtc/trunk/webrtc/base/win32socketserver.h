@@ -213,6 +213,9 @@ void
 buffer
 size_t
 length
+int64_t
+*
+timestamp
 )
 ;
 virtual
@@ -227,6 +230,9 @@ length
 SocketAddress
 *
 out_addr
+int64_t
+*
+timestamp
 )
 ;
 virtual

@@ -7,6 +7,10 @@ WEBRTC_MODULES_VIDEO_PROCESSING_UTIL_SKIN_DETECTION_H_
 namespace
 webrtc
 {
+#
+define
+MODEL_MODE
+0
 typedef
 unsigned
 char

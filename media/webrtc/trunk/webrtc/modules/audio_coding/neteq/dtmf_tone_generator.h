@@ -158,7 +158,7 @@ const
 int
 kAmplitude
 [
-37
+64
 ]
 ;
 static

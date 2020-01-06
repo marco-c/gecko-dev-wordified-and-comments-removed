@@ -48,6 +48,11 @@ size_t
 offset
 )
 ;
+~
+SparseFIRFilter
+(
+)
+;
 void
 Filter
 (

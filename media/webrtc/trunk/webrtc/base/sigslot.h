@@ -5,12 +5,6 @@ WEBRTC_BASE_SIGSLOT_H__
 define
 WEBRTC_BASE_SIGSLOT_H__
 #
-ifndef
-TALK_BASE_SIGSLOT_H__
-#
-define
-TALK_BASE_SIGSLOT_H__
-#
 include
 <
 list
@@ -12855,7 +12849,5 @@ itNext
 ;
 }
 ;
-#
-endif
 #
 endif

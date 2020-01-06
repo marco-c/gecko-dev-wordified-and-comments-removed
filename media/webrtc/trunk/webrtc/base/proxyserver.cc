@@ -21,6 +21,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 socketfactory
 .
 h
@@ -78,7 +89,7 @@ SOCK_STREAM
 )
 )
 {
-ASSERT
+RTC_DCHECK
 (
 server_socket_
 .
@@ -90,7 +101,7 @@ get
 NULL
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 int_addr
 .
@@ -216,7 +227,7 @@ AsyncSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 !
@@ -549,7 +560,7 @@ SocketAddress
 addr
 )
 {
-ASSERT
+RTC_DCHECK
 (
 !
 connected_
@@ -660,7 +671,7 @@ AsyncSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 !
@@ -794,7 +805,7 @@ FifoBuffer
 buffer
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 !
@@ -848,6 +859,7 @@ Recv
 (
 p
 size
+nullptr
 )
 ;
 buffer
@@ -881,7 +893,7 @@ FifoBuffer
 buffer
 )
 {
-ASSERT
+RTC_DCHECK
 (
 socket
 !

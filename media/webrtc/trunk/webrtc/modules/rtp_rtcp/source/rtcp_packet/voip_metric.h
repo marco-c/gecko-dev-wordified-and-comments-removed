@@ -116,7 +116,7 @@ buffer
 const
 ;
 void
-To
+SetMediaSsrc
 (
 uint32_t
 ssrc
@@ -128,7 +128,7 @@ ssrc
 ;
 }
 void
-WithVoipMetric
+SetVoipMetric
 (
 const
 RTCPVoIPMetric

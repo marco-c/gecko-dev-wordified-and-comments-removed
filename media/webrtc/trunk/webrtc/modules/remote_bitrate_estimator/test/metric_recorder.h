@@ -40,9 +40,7 @@ include
 "
 webrtc
 /
-test
-/
-testsupport
+base
 /
 gtest_prod_util
 .

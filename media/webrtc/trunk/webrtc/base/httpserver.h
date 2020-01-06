@@ -11,6 +11,11 @@ map
 >
 #
 include
+<
+memory
+>
+#
+include
 "
 webrtc
 /
@@ -400,7 +405,10 @@ StreamInterface
 stream
 )
 ;
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 AsyncSocket
 >

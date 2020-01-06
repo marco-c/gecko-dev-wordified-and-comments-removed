@@ -1,14 +1,10 @@
 #
 include
-"
-webrtc
-/
-base
-/
-byteorder
+<
+stdint
 .
 h
-"
+>
 #
 include
 "
@@ -16,7 +12,7 @@ webrtc
 /
 base
 /
-basictypes
+byteorder
 .
 h
 "

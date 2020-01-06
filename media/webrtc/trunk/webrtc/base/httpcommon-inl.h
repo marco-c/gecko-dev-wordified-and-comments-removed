@@ -22,6 +22,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -418,7 +429,7 @@ CTYPE
 }
 else
 {
-ASSERT
+RTC_DCHECK
 (
 val
 [

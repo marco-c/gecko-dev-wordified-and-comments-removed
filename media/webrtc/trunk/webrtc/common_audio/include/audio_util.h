@@ -30,17 +30,6 @@ include
 "
 webrtc
 /
-base
-/
-scoped_ptr
-.
-h
-"
-#
-include
-"
-webrtc
-/
 typedefs
 .
 h
@@ -904,7 +893,7 @@ num_channels
 RTC_DCHECK_GT
 (
 num_frames
-0u
+0
 )
 ;
 const

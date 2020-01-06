@@ -19,5 +19,10 @@ const
 int
 kTransportSequenceNumberExtensionId
 ;
+extern
+const
+int
+kVideoRotationExtensionId
+;
 }
 }

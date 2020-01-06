@@ -52,13 +52,12 @@ LogcatTraceContext
 (
 )
 ;
-virtual
 ~
 LogcatTraceContext
 (
 )
+override
 ;
-virtual
 void
 Print
 (
@@ -71,6 +70,7 @@ message
 int
 length
 )
+override
 ;
 }
 ;

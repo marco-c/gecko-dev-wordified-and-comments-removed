@@ -102,18 +102,6 @@ x509v3
 h
 >
 #
-if
-HAVE_CONFIG_H
-#
-include
-"
-config
-.
-h
-"
-#
-endif
-#
 include
 "
 webrtc
@@ -121,6 +109,17 @@ webrtc
 base
 /
 arraysize
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
+checks
 .
 h
 "
@@ -644,6 +643,7 @@ Recv
 (
 out
 outl
+nullptr
 )
 ;
 if
@@ -1400,7 +1400,7 @@ SSLMode
 mode
 )
 {
-ASSERT
+RTC_DCHECK
 (
 state_
 =
@@ -1523,7 +1523,7 @@ BeginSSL
 <
 ssl_host_name_
 ;
-ASSERT
+RTC_DCHECK
 (
 state_
 =
@@ -1572,14 +1572,7 @@ bio
 =
 BIO_new_socket
 (
-static_cast
-<
-AsyncSocketAdapter
-*
->
-(
 socket_
-)
 )
 ;
 if
@@ -1690,7 +1683,7 @@ ContinueSSL
 (
 )
 {
-ASSERT
+RTC_DCHECK
 (
 state_
 =
@@ -1893,6 +1886,7 @@ Current
 >
 PostDelayed
 (
+RTC_FROM_HERE
 delay
 this
 MSG_TIMEOUT
@@ -2133,7 +2127,7 @@ SSL_CONNECTING
 :
 SetError
 (
-EWOULDBLOCK
+ENOTCONN
 )
 ;
 return
@@ -2330,6 +2324,9 @@ void
 pv
 size_t
 cb
+int64_t
+*
+timestamp
 )
 {
 switch
@@ -2348,6 +2345,7 @@ Recv
 (
 pv
 cb
+timestamp
 )
 ;
 case
@@ -2358,7 +2356,7 @@ SSL_CONNECTING
 :
 SetError
 (
-EWOULDBLOCK
+ENOTCONN
 )
 ;
 return
@@ -2496,6 +2494,9 @@ cb
 SocketAddress
 *
 paddr
+int64_t
+*
+timestamp
 )
 {
 if
@@ -2521,6 +2522,7 @@ Recv
 (
 pv
 cb
+timestamp
 )
 ;
 *
@@ -2706,7 +2708,7 @@ state_
 SSL_WAIT
 )
 {
-ASSERT
+RTC_DCHECK
 (
 state_
 =

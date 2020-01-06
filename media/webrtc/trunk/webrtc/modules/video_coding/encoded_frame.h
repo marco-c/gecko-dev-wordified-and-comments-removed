@@ -239,7 +239,7 @@ rotation
 const
 {
 return
-_rotation
+rotation_
 ;
 }
 bool
@@ -285,14 +285,6 @@ return
 _codecSpecificInfo
 ;
 }
-const
-RTPFragmentationHeader
-*
-FragmentationHeader
-(
-)
-const
-;
 protected
 :
 void
@@ -333,12 +325,6 @@ webrtc
 :
 VideoCodecType
 _codec
-;
-RTPFragmentationHeader
-_fragmentation
-;
-VideoRotation
-_rotation
 ;
 bool
 _rotation_set

@@ -34,7 +34,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+checks
 .
 h
 "
@@ -70,10 +70,9 @@ sum_of_squares_
 0
 )
 {
-assert
+RTC_DCHECK_GT
 (
 length
->
 0
 )
 ;
@@ -133,7 +132,7 @@ float
 second
 )
 {
-assert
+RTC_DCHECK
 (
 in
 &

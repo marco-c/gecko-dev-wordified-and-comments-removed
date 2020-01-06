@@ -6,6 +6,11 @@ define
 WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_WAVE_WIN_H
 #
 include
+<
+memory
+>
+#
+include
 "
 webrtc
 /
@@ -173,7 +178,7 @@ audioLayer
 const
 ;
 virtual
-int32_t
+InitStatus
 Init
 (
 )
@@ -1125,10 +1130,10 @@ _hShutdownSetVolumeEvent
 HANDLE
 _hSetCaptureVolumeEvent
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 rtc
 :

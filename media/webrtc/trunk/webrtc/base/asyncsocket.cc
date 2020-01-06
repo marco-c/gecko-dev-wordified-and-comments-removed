@@ -9,6 +9,17 @@ asyncsocket
 .
 h
 "
+#
+include
+"
+webrtc
+/
+base
+/
+checks
+.
+h
+"
 namespace
 rtc
 {
@@ -73,7 +84,7 @@ AsyncSocket
 socket
 )
 {
-ASSERT
+RTC_DCHECK
 (
 !
 socket_
@@ -296,6 +307,9 @@ void
 pv
 size_t
 cb
+int64_t
+*
+timestamp
 )
 {
 return
@@ -306,6 +320,7 @@ Recv
 (
 pv
 cb
+timestamp
 )
 ;
 }
@@ -323,6 +338,9 @@ cb
 SocketAddress
 *
 paddr
+int64_t
+*
+timestamp
 )
 {
 return
@@ -334,6 +352,7 @@ RecvFrom
 pv
 cb
 paddr
+timestamp
 )
 ;
 }

@@ -456,6 +456,16 @@ VP8LoadNewBytes
 br
 )
 ;
+if
+(
+br
+-
+>
+eof_
+)
+return
+0
+;
 }
 const
 int

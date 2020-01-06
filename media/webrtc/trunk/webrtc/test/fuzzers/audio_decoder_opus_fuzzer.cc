@@ -82,6 +82,10 @@ kAllocatedOuputSizeSamples
 ;
 FuzzAudioDecoder
 (
+DecoderFunctionType
+:
+:
+kNormalDecode
 data
 size
 &

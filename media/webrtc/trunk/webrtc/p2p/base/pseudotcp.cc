@@ -33,6 +33,11 @@ algorithm
 #
 include
 <
+memory
+>
+#
+include
+<
 set
 >
 #
@@ -86,6 +91,17 @@ webrtc
 /
 base
 /
+checks
+.
+h
+"
+#
+include
+"
+webrtc
+/
+base
+/
 common
 .
 h
@@ -98,17 +114,6 @@ webrtc
 base
 /
 logging
-.
-h
-"
-#
-include
-"
-webrtc
-/
-base
-/
-scoped_ptr
 .
 h
 "
@@ -687,6 +692,11 @@ Now
 if
 0
 return
+static_cast
+<
+uint32_t
+>
+(
 rtc
 :
 :
@@ -696,6 +706,7 @@ StartTime
 (
 )
 )
+)
 ;
 #
 else
@@ -703,7 +714,7 @@ return
 rtc
 :
 :
-Time
+Time32
 (
 )
 ;
@@ -751,7 +762,7 @@ m_sbuf
 m_sbuf_len
 )
 {
-ASSERT
+RTC_DCHECK
 (
 m_rbuf_len
 +
@@ -819,7 +830,7 @@ m_largest
 =
 0
 ;
-ASSERT
+RTC_DCHECK
 (
 MIN_PACKET
 >
@@ -1017,7 +1028,7 @@ m_rto_base
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 m_rto_base
 +
@@ -1039,9 +1050,8 @@ empty
 )
 )
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -1210,7 +1220,7 @@ m_snd_wnd
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 m_lastsend
 +
@@ -1228,7 +1238,7 @@ if
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 now
 m_lastrecv
@@ -1283,7 +1293,7 @@ m_t_ack
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 m_t_ack
 +
@@ -1319,7 +1329,7 @@ TCP_ESTABLISHED
 &
 &
 (
-TimeDiff
+TimeDiff32
 (
 m_lastrecv
 +
@@ -1351,7 +1361,7 @@ TCP_ESTABLISHED
 &
 &
 (
-TimeDiff
+TimeDiff32
 (
 m_lasttraffic
 +
@@ -1541,9 +1551,8 @@ m_rbuf_len
 }
 else
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -1599,7 +1608,7 @@ opt
 OPT_SNDBUF
 )
 {
-ASSERT
+RTC_DCHECK
 (
 m_state
 =
@@ -1622,7 +1631,7 @@ opt
 OPT_RCVBUF
 )
 {
-ASSERT
+RTC_DCHECK
 (
 m_state
 =
@@ -1638,9 +1647,8 @@ value
 }
 else
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -1796,7 +1804,7 @@ return
 SOCKET_ERROR
 ;
 }
-ASSERT
+RTC_DCHECK
 (
 result
 =
@@ -2070,7 +2078,7 @@ available_space
 )
 )
 {
-ASSERT
+RTC_DCHECK
 (
 !
 bCtrl
@@ -2221,7 +2229,7 @@ uint32_t
 len
 )
 {
-ASSERT
+RTC_DCHECK
 (
 HEADER_SIZE
 +
@@ -2238,10 +2246,10 @@ Now
 (
 )
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 uint8_t
 [
@@ -2391,7 +2399,7 @@ RTC_UNUSED
 result
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 result
 =
@@ -2402,7 +2410,7 @@ rtc
 SR_SUCCESS
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 static_cast
 <
@@ -2650,7 +2658,7 @@ if
 (
 size
 <
-12
+HEADER_SIZE
 )
 return
 false
@@ -3031,7 +3039,7 @@ nTimeout
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 m_t_ack
 +
@@ -3060,7 +3068,7 @@ nTimeout
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 m_rto_base
 +
@@ -3092,7 +3100,7 @@ nTimeout
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 m_lastsend
 +
@@ -3127,7 +3135,7 @@ nTimeout
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 m_lasttraffic
 +
@@ -3488,7 +3496,7 @@ rtt
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 now
 seg
@@ -3642,9 +3650,8 @@ endif
 }
 else
 {
-ASSERT
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -3712,7 +3719,7 @@ nFree
 ;
 )
 {
-ASSERT
+RTC_DCHECK
 (
 !
 m_slist
@@ -4585,7 +4592,7 @@ nOffset
 NULL
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 result
 =
@@ -5105,7 +5112,7 @@ return
 false
 ;
 }
-ASSERT
+RTC_DCHECK
 (
 wres
 =
@@ -5359,7 +5366,7 @@ if
 rtc
 :
 :
-TimeDiff
+TimeDiff32
 (
 now
 m_lastsend
@@ -5732,7 +5739,7 @@ xmit
 +
 it
 ;
-ASSERT
+RTC_DCHECK
 (
 it
 !
@@ -6033,7 +6040,7 @@ queueConnectMessage
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 buf
 (
 rtc
@@ -6141,7 +6148,7 @@ options_specified
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 buf
 (
 data
@@ -6193,7 +6200,7 @@ TCP_OPT_NOOP
 continue
 ;
 }
-ASSERT
+RTC_DCHECK
 (
 len
 !
@@ -6503,7 +6510,7 @@ SetCapacity
 new_size
 )
 ;
-ASSERT
+RTC_DCHECK
 (
 result
 )

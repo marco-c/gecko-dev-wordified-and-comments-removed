@@ -895,7 +895,7 @@ volume
 TEST_F
 (
 VolumeTest
-ManualRequiresMicrophoneCanSetMicrophoneVolumeWithAgcOff
+DISABLED_ManualRequiresMicrophoneCanSetMicrophoneVolumeWithAgcOff
 )
 {
 SwitchToManualMicrophone

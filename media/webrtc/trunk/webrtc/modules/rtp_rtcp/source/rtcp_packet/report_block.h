@@ -64,7 +64,7 @@ buffer
 const
 ;
 void
-To
+SetMediaSsrc
 (
 uint32_t
 ssrc
@@ -76,7 +76,7 @@ ssrc
 ;
 }
 void
-WithFractionLost
+SetFractionLost
 (
 uint8_t
 fraction_lost
@@ -88,14 +88,14 @@ fraction_lost
 ;
 }
 bool
-WithCumulativeLost
+SetCumulativeLost
 (
 uint32_t
 cumulative_lost
 )
 ;
 void
-WithExtHighestSeqNum
+SetExtHighestSeqNum
 (
 uint32_t
 ext_highest_seq_num
@@ -107,7 +107,7 @@ ext_highest_seq_num
 ;
 }
 void
-WithJitter
+SetJitter
 (
 uint32_t
 jitter
@@ -119,7 +119,7 @@ jitter
 ;
 }
 void
-WithLastSr
+SetLastSr
 (
 uint32_t
 last_sr
@@ -131,7 +131,7 @@ last_sr
 ;
 }
 void
-WithDelayLastSr
+SetDelayLastSr
 (
 uint32_t
 delay_last_sr

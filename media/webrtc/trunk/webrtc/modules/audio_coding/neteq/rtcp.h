@@ -116,7 +116,7 @@ received_packets_prior_
 uint32_t
 expected_prior_
 ;
-uint32_t
+int64_t
 jitter_
 ;
 int32_t

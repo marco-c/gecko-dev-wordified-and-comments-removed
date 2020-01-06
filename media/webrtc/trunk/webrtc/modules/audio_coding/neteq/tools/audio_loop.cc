@@ -157,6 +157,10 @@ block_length_samples_
 =
 block_length_samples
 ;
+next_index_
+=
+0
+;
 return
 true
 ;

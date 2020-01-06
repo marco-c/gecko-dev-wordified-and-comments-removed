@@ -159,6 +159,9 @@ void
 pv
 size_t
 cb
+int64_t
+*
+timestamp
 )
 override
 ;
@@ -173,6 +176,9 @@ cb
 SocketAddress
 *
 paddr
+int64_t
+*
+timestamp
 )
 override
 ;

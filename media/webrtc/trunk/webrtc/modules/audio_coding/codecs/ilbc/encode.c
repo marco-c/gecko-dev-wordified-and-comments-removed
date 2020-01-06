@@ -83,6 +83,17 @@ hp_input
 h
 "
 #
+include
+"
+webrtc
+/
+base
+/
+checks
+.
+h
+"
+#
 ifdef
 SPLIT_10MS
 #
@@ -953,6 +964,8 @@ LPC_FILTERORDER
 0
 )
 ;
+RTC_CHECK
+(
 WebRtcIlbcfix_CbConstruct
 (
 &
@@ -980,6 +993,7 @@ CB_MEML
 ST_MEM_L_TBL
 ST_MEM_L_TBL
 diff
+)
 )
 ;
 }
@@ -1089,6 +1103,8 @@ LPC_FILTERORDER
 0
 )
 ;
+RTC_CHECK
+(
 WebRtcIlbcfix_CbConstruct
 (
 reverseDecresidual
@@ -1107,6 +1123,7 @@ CB_MEML
 ST_MEM_L_TBL
 ST_MEM_L_TBL
 diff
+)
 )
 ;
 WebRtcSpl_MemCpyReversedOrder
@@ -1559,6 +1576,8 @@ LPC_FILTERORDER
 subcount
 )
 ;
+RTC_CHECK
+(
 WebRtcIlbcfix_CbConstruct
 (
 &
@@ -1596,6 +1615,7 @@ CB_NSTAGES
 mem
 MEM_LF_TBL
 SUBL
+)
 )
 ;
 memmove
@@ -2078,6 +2098,8 @@ LPC_FILTERORDER
 subcount
 )
 ;
+RTC_CHECK
+(
 WebRtcIlbcfix_CbConstruct
 (
 &
@@ -2106,6 +2128,7 @@ CB_NSTAGES
 mem
 MEM_LF_TBL
 SUBL
+)
 )
 ;
 memmove

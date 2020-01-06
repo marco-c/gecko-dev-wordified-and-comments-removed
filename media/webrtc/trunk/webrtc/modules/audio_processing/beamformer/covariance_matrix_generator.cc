@@ -3,11 +3,6 @@ define
 _USE_MATH_DEFINES
 #
 include
-<
-cmath
->
-#
-include
 "
 webrtc
 /
@@ -21,6 +16,11 @@ covariance_matrix_generator
 .
 h
 "
+#
+include
+<
+cmath
+>
 namespace
 webrtc
 {
@@ -34,7 +34,7 @@ x
 )
 {
 #
-if
+ifdef
 WEBRTC_WIN
 return
 _j0
@@ -67,7 +67,7 @@ x
 {
 RTC_CHECK_EQ
 (
-1u
+1
 x
 .
 num_rows
@@ -504,7 +504,7 @@ mat
 {
 RTC_CHECK_EQ
 (
-1u
+1
 mat
 -
 >

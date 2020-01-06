@@ -926,9 +926,13 @@ k
 *
 gainQ13
 )
+*
+(
+1
 <
 <
 3
+)
 ;
 }
 WebRtcIsacfix_NormLatticeFilterAr
@@ -974,9 +978,13 @@ Vector_Word32_2
 [
 k
 ]
+*
+(
+1
 <
 <
 9
+)
 ;
 for
 (

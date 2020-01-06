@@ -49,17 +49,6 @@ WEBRTC_POSIX
 "
 #
 endif
-#
-include
-"
-webrtc
-/
-base
-/
-basictypes
-.
-h
-"
 namespace
 rtc
 {

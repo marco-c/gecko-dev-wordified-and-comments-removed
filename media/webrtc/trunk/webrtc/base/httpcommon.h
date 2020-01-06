@@ -12,6 +12,11 @@ map
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
@@ -37,7 +42,7 @@ webrtc
 /
 base
 /
-common
+checks
 .
 h
 "
@@ -48,7 +53,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+common
 .
 h
 "
@@ -1120,7 +1125,7 @@ CTYPE
 }
 else
 {
-ASSERT
+RTC_DCHECK
 (
 val
 [
@@ -1166,7 +1171,7 @@ string
 val
 )
 {
-ASSERT
+RTC_DCHECK
 (
 val
 .
@@ -1337,7 +1342,10 @@ iterator
 HttpVersion
 version
 ;
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 StreamInterface
 >

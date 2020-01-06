@@ -126,7 +126,7 @@ packet_time
 rtc
 :
 :
-ByteBuffer
+ByteBufferReader
 bbuf
 (
 buf
@@ -340,7 +340,7 @@ addr
 rtc
 :
 :
-ByteBuffer
+ByteBufferWriter
 buf
 ;
 msg

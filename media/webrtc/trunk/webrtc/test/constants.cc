@@ -33,5 +33,11 @@ kTransportSequenceNumberExtensionId
 =
 8
 ;
+const
+int
+kVideoRotationExtensionId
+=
+9
+;
 }
 }

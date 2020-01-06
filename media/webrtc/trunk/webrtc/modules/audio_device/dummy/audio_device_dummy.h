@@ -63,7 +63,7 @@ audioLayer
 const
 override
 ;
-int32_t
+InitStatus
 Init
 (
 )

@@ -6,6 +6,11 @@ define
 WEBRTC_MODULES_VIDEO_CAPTURE_MAIN_SOURCE_LINUX_VIDEO_CAPTURE_LINUX_H_
 #
 include
+<
+memory
+>
+#
+include
 "
 webrtc
 /
@@ -56,8 +61,6 @@ public
 :
 VideoCaptureModuleV4L2
 (
-int32_t
-id
 )
 ;
 virtual
@@ -139,10 +142,10 @@ DeAllocateVideoBuffers
 (
 )
 ;
-rtc
+std
 :
 :
-scoped_ptr
+unique_ptr
 <
 rtc
 :

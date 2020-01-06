@@ -7,6 +7,11 @@ WEBRTC_BASE_TASKPARENT_H__
 #
 include
 <
+memory
+>
+#
+include
+<
 set
 >
 #
@@ -16,7 +21,7 @@ webrtc
 /
 base
 /
-basictypes
+checks
 .
 h
 "
@@ -27,7 +32,7 @@ webrtc
 /
 base
 /
-scoped_ptr
+constructormagic
 .
 h
 "
@@ -101,11 +106,7 @@ AnyChildError
 ;
 #
 if
-!
-defined
-(
-NDEBUG
-)
+RTC_DCHECK_IS_ON
 bool
 IsChildTask
 (
@@ -186,7 +187,10 @@ Task
 >
 ChildSet
 ;
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 ChildSet
 >
