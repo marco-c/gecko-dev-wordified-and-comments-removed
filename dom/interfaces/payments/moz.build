@@ -100,6 +100,11 @@ nsIPaymentActionResponse
 idl
 '
 '
+nsIPaymentAddress
+.
+idl
+'
+'
 nsIPaymentRequest
 .
 idl

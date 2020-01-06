@@ -132,6 +132,11 @@ PaymentRequestManager
 h
 '
 '
+PaymentRequestUpdateEvent
+.
+h
+'
+'
 PaymentResponse
 .
 h
@@ -178,6 +183,11 @@ cpp
 '
 '
 PaymentRequestService
+.
+cpp
+'
+'
+PaymentRequestUpdateEvent
 .
 cpp
 '

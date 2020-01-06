@@ -159,5 +159,13 @@ AString
 requestId
 )
 ;
+nsIPaymentActionResponse
+updatePayment
+(
+in
+AString
+requestId
+)
+;
 }
 ;

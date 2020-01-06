@@ -9,6 +9,13 @@ PaymentResponse
 .
 h
 "
+#
+include
+"
+PaymentRequestUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -106,6 +113,10 @@ aRequestId
 mMethodName
 (
 aMethodName
+)
+mDetails
+(
+aDetails
 )
 mShippingOption
 (
@@ -213,7 +224,7 @@ GetDetails
 (
 JSContext
 *
-cx
+aCx
 JS
 :
 :
@@ -226,6 +237,13 @@ aRetVal
 )
 const
 {
+DeserializeToJSObject
+(
+mDetails
+aCx
+aRetVal
+)
+;
 }
 void
 PaymentResponse

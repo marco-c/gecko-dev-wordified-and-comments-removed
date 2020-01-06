@@ -4465,6 +4465,11 @@ PaymentRequest
 webidl
 '
 '
+PaymentRequestUpdateEvent
+.
+webidl
+'
+'
 PaymentResponse
 .
 webidl
