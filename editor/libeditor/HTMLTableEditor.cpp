@@ -12051,7 +12051,7 @@ nsCOMPtr
 <
 nsIDOMNode
 >
-startParent
+startContainer
 ;
 nsresult
 rv
@@ -12063,7 +12063,7 @@ GetStartContainer
 (
 getter_AddRefs
 (
-startParent
+startContainer
 )
 )
 ;
@@ -12075,7 +12075,7 @@ rv
 ;
 NS_ENSURE_TRUE
 (
-startParent
+startContainer
 NS_ERROR_FAILURE
 )
 ;
@@ -12107,7 +12107,7 @@ childNode
 =
 GetChildAt
 (
-startParent
+startContainer
 startOffset
 )
 ;
@@ -12148,7 +12148,7 @@ rv
 ;
 NS_ENSURE_TRUE
 (
-startParent
+startContainer
 NS_ERROR_FAILURE
 )
 ;
@@ -12174,7 +12174,7 @@ rv
 ;
 if
 (
-startParent
+startContainer
 =
 =
 endParent

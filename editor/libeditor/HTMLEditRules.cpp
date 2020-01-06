@@ -2164,7 +2164,7 @@ nsCOMPtr
 <
 nsIDOMNode
 >
-rangeStartParent
+rangeStartContainer
 rangeEndParent
 ;
 int32_t
@@ -2192,7 +2192,7 @@ GetStartContainer
 (
 getter_AddRefs
 (
-rangeStartParent
+rangeStartContainer
 )
 )
 ;
@@ -2227,15 +2227,17 @@ rangeEndOffset
 ;
 if
 (
-rangeStartParent
+rangeStartContainer
 &
 &
 rangeEndParent
 )
+{
 bDamagedRange
 =
 true
 ;
+}
 }
 if
 (
@@ -2714,7 +2716,7 @@ mRangeItem
 -
 >
 mStartOffset
-rangeStartParent
+rangeStartContainer
 rangeStartOffset
 rangeEndParent
 rangeEndOffset
@@ -38431,7 +38433,7 @@ nsCOMPtr
 <
 nsIDOMNode
 >
-startParent
+startContainer
 endParent
 ;
 range
@@ -38441,13 +38443,13 @@ GetStartContainer
 (
 getter_AddRefs
 (
-startParent
+startContainer
 )
 )
 ;
 if
 (
-startParent
+startContainer
 )
 {
 if
@@ -38455,7 +38457,7 @@ if
 node
 =
 =
-startParent
+startContainer
 )
 {
 *
@@ -38474,7 +38476,7 @@ EditorUtils
 :
 IsDescendantOf
 (
-startParent
+startContainer
 node
 )
 )
@@ -38502,7 +38504,7 @@ endParent
 ;
 if
 (
-startParent
+startContainer
 =
 =
 endParent

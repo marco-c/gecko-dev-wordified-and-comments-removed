@@ -10683,7 +10683,7 @@ nsCOMPtr
 <
 nsIDOMNode
 >
-startParent
+startContainer
 ;
 int32_t
 startOffset
@@ -10699,7 +10699,7 @@ GetStartContainer
 (
 getter_AddRefs
 (
-startParent
+startContainer
 )
 )
 ;
@@ -10770,10 +10770,10 @@ rv
 ;
 if
 (
-startParent
+startContainer
 &
 &
-startParent
+startContainer
 =
 =
 endParent
@@ -10795,7 +10795,7 @@ selectedNode
 =
 GetChildAt
 (
-startParent
+startContainer
 startOffset
 )
 ;

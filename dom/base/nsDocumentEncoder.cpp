@@ -3954,7 +3954,7 @@ NS_OK
 ;
 nsINode
 *
-startParent
+startContainer
 =
 aRange
 -
@@ -3965,7 +3965,7 @@ GetStartContainer
 ;
 NS_ENSURE_TRUE
 (
-startParent
+startContainer
 NS_ERROR_FAILURE
 )
 ;
@@ -4059,7 +4059,7 @@ sp
 =
 do_QueryInterface
 (
-startParent
+startContainer
 )
 ;
 nsContentUtils
@@ -4150,7 +4150,7 @@ rv
 if
 (
 (
-startParent
+startContainer
 =
 =
 endParent
@@ -4159,7 +4159,7 @@ endParent
 &
 IsTextNode
 (
-startParent
+startContainer
 )
 )
 {
@@ -4178,7 +4178,7 @@ content
 =
 do_QueryInterface
 (
-startParent
+startContainer
 )
 ;
 if
@@ -4227,7 +4227,7 @@ rv
 =
 SerializeNodeStart
 (
-startParent
+startContainer
 startOffset
 endOffset
 aOutputString

@@ -4676,7 +4676,7 @@ GetCommonAncestor
 ;
 nsINode
 *
-startParent
+startContainer
 =
 mRange
 -
@@ -4721,7 +4721,7 @@ MOZ_ASSERT
 mCommonParent
 &
 &
-startParent
+startContainer
 &
 &
 endParent
@@ -4735,7 +4735,7 @@ startOffset
 )
 <
 =
-startParent
+startContainer
 -
 >
 Length
@@ -4759,7 +4759,7 @@ Length
 ;
 if
 (
-startParent
+startContainer
 =
 =
 endParent
@@ -4769,7 +4769,7 @@ nsINode
 *
 child
 =
-startParent
+startContainer
 -
 >
 GetFirstChild
@@ -4846,7 +4846,7 @@ nullptr
 if
 (
 !
-startParent
+startContainer
 -
 >
 GetChildCount
@@ -4856,7 +4856,7 @@ GetChildCount
 {
 node
 =
-startParent
+startContainer
 ;
 }
 else
@@ -4865,7 +4865,7 @@ nsIContent
 *
 child
 =
-startParent
+startContainer
 -
 >
 GetChildAt
@@ -4881,7 +4881,7 @@ child
 {
 node
 =
-startParent
+startContainer
 ;
 }
 else
