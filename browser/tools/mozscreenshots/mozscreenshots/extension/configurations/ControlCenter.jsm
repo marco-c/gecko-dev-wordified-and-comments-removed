@@ -358,7 +358,7 @@ loadPage
 "
 about
 :
-home
+rights
 "
 )
 ;
