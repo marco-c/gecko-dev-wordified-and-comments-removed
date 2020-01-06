@@ -229,11 +229,6 @@ gfxFontPrefLangList
 h
 '
 '
-gfxFontSrcURI
-.
-h
-'
-'
 gfxFontUtils
 .
 h
@@ -1055,11 +1050,6 @@ cpp
 '
 '
 gfxFontMissingGlyphs
-.
-cpp
-'
-'
-gfxFontSrcURI
 .
 cpp
 '
