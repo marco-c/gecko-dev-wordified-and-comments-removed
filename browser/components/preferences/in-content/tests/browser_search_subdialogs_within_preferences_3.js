@@ -26,6 +26,16 @@ search
 "
 true
 ]
+[
+"
+browser
+.
+storageManager
+.
+enabled
+"
+true
+]
 ]
 }
 )
