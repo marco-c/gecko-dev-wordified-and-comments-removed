@@ -32593,7 +32593,7 @@ GetReturnInParagraphCreatesNewParagraph
 )
 ;
 bool
-newSelNode
+splitAfterNewBR
 =
 false
 ;
@@ -32607,7 +32607,7 @@ nsCOMPtr
 <
 nsIDOMNode
 >
-selNode
+containerAtSplitPoint
 =
 GetAsDOMNode
 (
@@ -32615,7 +32615,7 @@ aNode
 )
 ;
 int32_t
-selOffset
+offsetAtSplitPoint
 =
 aOffset
 ;
@@ -32835,8 +32835,8 @@ htmlEditor
 >
 SplitNode
 (
-selNode
-aOffset
+containerAtSplitPoint
+offsetAtSplitPoint
 getter_AddRefs
 (
 leftDOMNode
@@ -32861,7 +32861,7 @@ rv
 )
 ;
 }
-selNode
+containerAtSplitPoint
 =
 leftDOMNode
 ;
@@ -33034,7 +33034,7 @@ node
 "
 )
 ;
-newSelNode
+splitAfterNewBR
 =
 true
 ;
@@ -33127,10 +33127,10 @@ Offset
 ;
 if
 (
-newSelNode
+splitAfterNewBR
 )
 {
-selNode
+containerAtSplitPoint
 =
 GetAsDOMNode
 (
@@ -33141,7 +33141,7 @@ Container
 )
 )
 ;
-selOffset
+offsetAtSplitPoint
 =
 pointToInsertBR
 .
@@ -33168,10 +33168,10 @@ brNode
 aSelection
 address_of
 (
-selNode
+containerAtSplitPoint
 )
 &
-selOffset
+offsetAtSplitPoint
 )
 )
 ;
