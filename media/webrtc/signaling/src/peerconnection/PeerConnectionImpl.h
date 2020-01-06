@@ -3448,6 +3448,14 @@ std
 string
 mPreviousIcePwd
 ;
+unsigned
+long
+mIceRestartCount
+;
+unsigned
+long
+mIceRollbackCount
+;
 mozilla
 :
 :
