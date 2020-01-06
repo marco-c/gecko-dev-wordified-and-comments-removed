@@ -3858,6 +3858,13 @@ vec
 }
 }
 }
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 MarionetteSettings
