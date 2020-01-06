@@ -844,9 +844,6 @@ mEntryType
 ;
 }
 ;
-#
-ifdef
-MOZ_CRASHREPORTER
 void
 CrashReporterMetadataShmem
 :
@@ -960,7 +957,5 @@ break
 }
 }
 }
-#
-endif
 }
 }
