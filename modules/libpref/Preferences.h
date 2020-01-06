@@ -1391,7 +1391,7 @@ aMallocSizeOf
 ;
 static
 void
-HandleDirty
+DirtyCallback
 (
 )
 ;
