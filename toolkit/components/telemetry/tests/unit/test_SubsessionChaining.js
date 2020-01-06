@@ -725,6 +725,10 @@ XPCShell
 "
 )
 ;
+finishAddonManagerStartup
+(
+)
+;
 await
 setEmptyPrefWatchlist
 (
