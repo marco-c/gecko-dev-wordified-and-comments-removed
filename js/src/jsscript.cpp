@@ -13837,6 +13837,13 @@ return
 nullptr
 ;
 }
+MOZ_DIAGNOSTIC_ASSERT
+(
+codeLength
+>
+0
+)
+;
 entry
 -
 >
