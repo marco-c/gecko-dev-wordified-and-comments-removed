@@ -858,6 +858,8 @@ gfxFontFamily
 >
 *
 aOutput
+bool
+aDeferOtherFamilyNamesLoading
 gfxFontStyle
 *
 aStyle
