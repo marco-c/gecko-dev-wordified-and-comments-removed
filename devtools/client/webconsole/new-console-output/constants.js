@@ -314,6 +314,11 @@ ASSERT
 "
 assert
 "
+DEBUG
+:
+"
+debug
+"
 PROFILE
 :
 "
