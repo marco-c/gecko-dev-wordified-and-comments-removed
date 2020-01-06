@@ -2525,6 +2525,18 @@ x
 harness_timeout
 =
 15
+if
+not
+mozinfo
+.
+info
+[
+"
+ccov
+"
+]
+else
+60
         
 self
 .
