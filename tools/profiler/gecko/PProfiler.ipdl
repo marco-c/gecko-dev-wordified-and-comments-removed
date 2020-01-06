@@ -208,6 +208,13 @@ params
 )
 ;
 async
+EnsureStarted
+(
+ProfilerInitParams
+params
+)
+;
+async
 Stop
 (
 )
