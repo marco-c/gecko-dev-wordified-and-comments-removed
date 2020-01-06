@@ -537,6 +537,7 @@ position
 {
 Position
 PositionComponent
+GridAutoFlow
 }
 ;
 pub
