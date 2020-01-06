@@ -1445,13 +1445,6 @@ components
 locale
 .
 xpt
-RESPATH
-/
-components
-/
-lwbrk
-.
-xpt
 #
 ifdef
 MOZ_GECKO_PROFILER

@@ -980,13 +980,6 @@ components
 locale
 .
 xpt
-BINPATH
-/
-components
-/
-lwbrk
-.
-xpt
 #
 ifdef
 MOZ_GECKO_PROFILER
