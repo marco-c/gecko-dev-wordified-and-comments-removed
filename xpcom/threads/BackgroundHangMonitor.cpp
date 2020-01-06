@@ -916,6 +916,10 @@ RunMonitorThread
 (
 )
 {
+profiler_initialize_stackwalk
+(
+)
+;
 MonitorAutoLock
 autoLock
 (

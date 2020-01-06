@@ -857,6 +857,13 @@ aSampleNative
 true
 )
 )
+PROFILER_FUNC_VOID
+(
+profiler_initialize_stackwalk
+(
+)
+)
+;
 struct
 ProfilerBacktraceDestructor
 {
