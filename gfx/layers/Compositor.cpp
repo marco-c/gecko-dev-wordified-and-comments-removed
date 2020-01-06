@@ -264,10 +264,6 @@ Destroy
 (
 )
 ;
-FlushPendingNotifyNotUsed
-(
-)
-;
 mIsDestroyed
 =
 true
