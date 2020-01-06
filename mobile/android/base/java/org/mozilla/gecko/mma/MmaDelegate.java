@@ -649,7 +649,7 @@ isGeckoPrefOn
 isInPrivateBrowsing
 ;
 }
-private
+public
 static
 boolean
 isDefaultBrowser
