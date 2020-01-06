@@ -434,6 +434,12 @@ RawServoSourceSizeListBorrowedOrNull
 )
 SERVO_BINDING_FUNC
 (
+Servo_SourceSizeList_Drop
+void
+RawServoSourceSizeListOwned
+)
+SERVO_BINDING_FUNC
+(
 Servo_SelectorList_Matches
 bool
 RawGeckoElementBorrowed
