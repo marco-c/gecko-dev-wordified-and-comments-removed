@@ -3982,6 +3982,9 @@ maxTouchPoints
 =
 0
 ;
+DimensionInfo
+dimensionInfo
+;
 if
 (
 aIframeMoz
@@ -4110,6 +4113,8 @@ layersId
 compositorOptions
 &
 maxTouchPoints
+&
+dimensionInfo
 )
 )
 {
@@ -4357,6 +4362,14 @@ layersId
 compositorOptions
 renderFrame
 showInfo
+)
+;
+newChild
+-
+>
+RecvUpdateDimensions
+(
+dimensionInfo
 )
 ;
 for

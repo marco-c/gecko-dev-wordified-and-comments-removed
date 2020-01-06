@@ -2057,6 +2057,9 @@ aCompositorOptions
 uint32_t
 *
 aMaxTouchPoints
+DimensionInfo
+*
+aDimensions
 )
 override
 ;

@@ -1746,6 +1746,11 @@ ScreenIntSize
 aSize
 )
 ;
+DimensionInfo
+GetDimensionInfo
+(
+)
+;
 void
 SizeModeChanged
 (

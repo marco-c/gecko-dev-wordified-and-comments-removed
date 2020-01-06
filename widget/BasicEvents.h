@@ -999,6 +999,10 @@ WidgetEvent
 &
 aOther
 )
+:
+WidgetEventTime
+(
+)
 {
 MOZ_COUNT_CTOR
 (

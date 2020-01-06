@@ -5377,6 +5377,8 @@ CompositorOptions
 compositorOptions
 uint32_t
 maxTouchPoints
+DimensionInfo
+dimensions
 )
 ;
 async
