@@ -311,6 +311,9 @@ mozilla
 class
 DeclarationBlock
 ;
+class
+TextEditor
+;
 namespace
 dom
 {
@@ -4112,9 +4115,12 @@ GetScopeChainParent
 const
 override
 ;
-nsIEditor
+mozilla
+:
+:
+TextEditor
 *
-GetEditorInternal
+GetTextEditorInternal
 (
 )
 ;

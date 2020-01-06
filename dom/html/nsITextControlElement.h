@@ -25,9 +25,6 @@ class
 nsAString
 ;
 class
-nsIEditor
-;
-class
 nsISelectionController
 ;
 class
@@ -41,6 +38,9 @@ mozilla
 {
 class
 ErrorResult
+;
+class
+TextEditor
 ;
 namespace
 dom
@@ -207,7 +207,10 @@ const
 ;
 NS_IMETHOD_
 (
-nsIEditor
+mozilla
+:
+:
+TextEditor
 *
 )
 GetTextEditor

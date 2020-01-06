@@ -1039,7 +1039,7 @@ aIgnoreWrap
 }
 NS_IMETHODIMP_
 (
-nsIEditor
+TextEditor
 *
 )
 HTMLTextAreaElement
@@ -1050,7 +1050,9 @@ GetTextEditor
 )
 {
 return
-GetEditor
+mState
+.
+GetTextEditor
 (
 )
 ;

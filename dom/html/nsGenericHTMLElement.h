@@ -169,6 +169,9 @@ EventListenerManager
 class
 EventStates
 ;
+class
+TextEditor
+;
 namespace
 dom
 {
@@ -2999,15 +3002,6 @@ InNavQuirksMode
 nsIDocument
 *
 aDoc
-)
-;
-nsresult
-GetEditor
-(
-nsIEditor
-*
-*
-aEditor
 )
 ;
 void
