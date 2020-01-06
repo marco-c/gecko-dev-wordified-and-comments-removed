@@ -42,12 +42,14 @@ SpecialPowers
 object
 "
 )
+{
 Components
 =
 SpecialPowers
 .
 Components
 ;
+}
 function
 executeSoon
 (
@@ -2790,6 +2792,7 @@ _message_
 )
 ;
 return
+false
 ;
 }
 ok

@@ -155,19 +155,6 @@ objectStoreName
 Blobs
 "
 ;
-const
-testFile
-=
-getRandomFile
-(
-"
-random
-.
-bin
-"
-100000
-)
-;
 let
 databases
 =
@@ -321,6 +308,7 @@ onsuccess
 =
 grabEventAndContinueHandler
 ;
+let
 event
 =
 yield
