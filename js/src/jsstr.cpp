@@ -4825,7 +4825,7 @@ i
 +
 )
 {
-char16_t
+CharT
 c
 =
 chars
@@ -4864,7 +4864,7 @@ i
 length
 )
 {
-char16_t
+CharT
 trail
 =
 chars
@@ -6500,7 +6500,7 @@ i
 +
 )
 {
-char16_t
+CharT
 c
 =
 chars
@@ -6539,7 +6539,7 @@ i
 length
 )
 {
-char16_t
+CharT
 trail
 =
 chars
@@ -6605,13 +6605,7 @@ c
 &
 CanUpperCaseSpecialCasing
 (
-static_cast
-<
-CharT
->
-(
 c
-)
 )
 )
 )
