@@ -1182,12 +1182,6 @@ aParentContext
 TreeMatchContext
 *
 aTreeMatchContext
-dom
-:
-:
-Element
-*
-aPseudoElement
 )
 {
 if
@@ -1215,12 +1209,9 @@ aType
 aParentContext
 *
 aTreeMatchContext
-aPseudoElement
 )
 ;
 }
-else
-{
 return
 AsServo
 (
@@ -1232,10 +1223,8 @@ ProbePseudoElementStyle
 aParentElement
 aType
 aParentContext
-aPseudoElement
 )
 ;
-}
 }
 nsRestyleHint
 StyleSetHandle

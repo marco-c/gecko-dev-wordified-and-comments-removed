@@ -792,14 +792,6 @@ aParentContext
 TreeMatchContext
 *
 aTreeMatchContext
-dom
-:
-:
-Element
-*
-aPseudoElement
-=
-nullptr
 )
 ;
 inline
