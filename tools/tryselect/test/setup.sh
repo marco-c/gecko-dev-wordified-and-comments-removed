@@ -31,7 +31,6 @@ p
 cachedir
 cat
 >
->
 cachedir
 /
 target_task_set
@@ -53,7 +52,6 @@ build
 baz
 EOF
 cat
->
 >
 cachedir
 /
