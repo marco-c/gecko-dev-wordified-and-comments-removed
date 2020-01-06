@@ -143,6 +143,8 @@ nsIPrincipal
 aTriggeringPrincipal
 bool
 aLoadFromExternal
+bool
+aIsDownLoad
 )
 {
 if
@@ -175,6 +177,9 @@ nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
+|
+|
+aIsDownLoad
 )
 {
 return
@@ -2641,6 +2646,7 @@ GetExternalContentPolicyType
 (
 )
 nullTriggeringPrincipal
+false
 false
 )
 )

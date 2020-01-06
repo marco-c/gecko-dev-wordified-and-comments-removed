@@ -39735,6 +39735,12 @@ aLoadType
 =
 LOAD_NORMAL_EXTERNAL
 )
+!
+aFileName
+.
+IsVoid
+(
+)
 )
 )
 {
