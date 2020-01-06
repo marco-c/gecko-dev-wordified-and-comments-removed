@@ -7108,7 +7108,7 @@ RegExpObject
 (
 cx
 group
-TenuredObject
+GenericObject
 )
 )
 ;
