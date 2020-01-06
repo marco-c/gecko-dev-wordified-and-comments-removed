@@ -366,6 +366,7 @@ ensure_stylo_packages
 (
 self
 state_dir
+checkout_root
 )
 :
         

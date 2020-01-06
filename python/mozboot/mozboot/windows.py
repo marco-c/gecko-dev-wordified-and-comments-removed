@@ -565,6 +565,7 @@ ensure_stylo_packages
 (
 self
 state_dir
+checkout_root
 )
 :
         
@@ -576,6 +577,7 @@ self
 install_tooltool_clang_package
 (
 state_dir
+checkout_root
 stylo
 .
 WINDOWS

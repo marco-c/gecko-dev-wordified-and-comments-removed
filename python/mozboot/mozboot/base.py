@@ -1765,6 +1765,7 @@ ensure_stylo_packages
 (
 self
 state_dir
+checkout_root
 )
 :
         
@@ -1811,39 +1812,10 @@ install_tooltool_clang_package
 (
 self
 state_dir
+checkout_root
 manifest_file
 )
 :
-        
-topsrcdir
-=
-os
-.
-path
-.
-join
-(
-os
-.
-path
-.
-dirname
-(
-__file__
-)
-'
-.
-.
-'
-'
-.
-.
-'
-'
-.
-.
-'
-)
         
 abs_manifest_file
 =
@@ -1853,7 +1825,7 @@ path
 .
 join
 (
-topsrcdir
+checkout_root
 manifest_file
 )
         
@@ -1865,7 +1837,7 @@ path
 .
 join
 (
-topsrcdir
+checkout_root
 '
 mach
 '
