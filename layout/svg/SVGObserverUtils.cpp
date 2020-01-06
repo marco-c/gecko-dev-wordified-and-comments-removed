@@ -115,7 +115,7 @@ void
 nsSVGRenderingObserver
 :
 :
-StartListening
+StartObserving
 (
 )
 {
@@ -146,7 +146,7 @@ void
 nsSVGRenderingObserver
 :
 :
-StopListening
+StopObserving
 (
 )
 {
@@ -476,7 +476,7 @@ mInObserverList
 =
 false
 ;
-StopListening
+StopObserving
 (
 )
 ;
@@ -613,7 +613,7 @@ true
 aReferenceImage
 )
 ;
-StartListening
+StartObserving
 (
 )
 ;
@@ -626,7 +626,7 @@ nsSVGIDRenderingObserver
 (
 )
 {
-StopListening
+StopObserving
 (
 )
 ;
@@ -815,7 +815,7 @@ nsSVGFilterReference
 tmp
 -
 >
-StopListening
+StopObserving
 (
 )
 ;

@@ -250,12 +250,12 @@ true
 protected
 :
 void
-StartListening
+StartObserving
 (
 )
 ;
 void
-StopListening
+StopObserving
 (
 )
 ;
@@ -392,7 +392,7 @@ override
 mOwningObserver
 -
 >
-StopListening
+StopObserving
 (
 )
 ;
@@ -408,7 +408,7 @@ aTo
 mOwningObserver
 -
 >
-StartListening
+StartObserving
 (
 )
 ;
