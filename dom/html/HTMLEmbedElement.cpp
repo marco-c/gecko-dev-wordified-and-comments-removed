@@ -255,8 +255,7 @@ nsIImageLoadingContent
 imgIOnloadBlocker
 nsIChannelEventSink
 )
-NS_INTERFACE_TABLE_TO_MAP_SEGUE
-NS_INTERFACE_MAP_END_INHERITING
+NS_INTERFACE_TABLE_TAIL_INHERITING
 (
 nsGenericHTMLElement
 )
