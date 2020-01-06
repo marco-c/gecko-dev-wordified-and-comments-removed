@@ -2386,6 +2386,22 @@ suite
 =
 reftest
 "
+                        
+"
+-
+-
+setpref
+=
+layers
+.
+acceleration
+.
+force
+-
+enabled
+=
+true
+"
 ]
             
 "
