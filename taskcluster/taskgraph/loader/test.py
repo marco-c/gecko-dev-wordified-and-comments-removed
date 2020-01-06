@@ -897,6 +897,7 @@ set
 test_sets
 )
 <
+=
 set
 (
 test_sets_cfg
