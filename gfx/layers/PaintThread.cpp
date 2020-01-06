@@ -712,18 +712,6 @@ aState
 ;
 RefPtr
 <
-DrawTargetCapture
->
-capture
-(
-aState
--
->
-mCapture
-)
-;
-RefPtr
-<
 PaintThread
 >
 self
@@ -747,7 +735,6 @@ PaintContents
 [
 self
 cbc
-capture
 state
 aCallback
 ]
