@@ -632,10 +632,7 @@ use
 malloc_size_of
 :
 :
-{
-malloc_size_of
 MallocSizeOfOps
-}
 ;
 use
 mem
@@ -9589,7 +9586,12 @@ MallocSizeOfOps
 :
 new
 (
-malloc_size_of
+:
+:
+servo_allocator
+:
+:
+usable_size
 None
 None
 )

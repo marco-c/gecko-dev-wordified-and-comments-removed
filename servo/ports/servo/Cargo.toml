@@ -416,6 +416,11 @@ libservo
 /
 unstable
 "
+"
+profile_tests
+/
+unstable
+"
 ]
 [
 dependencies

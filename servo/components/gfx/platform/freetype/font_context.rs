@@ -57,10 +57,15 @@ malloc_size_of
 :
 :
 {
-malloc_size_of
 MallocSizeOf
 MallocSizeOfOps
 }
+;
+use
+servo_allocator
+:
+:
+usable_size
 ;
 use
 std
@@ -184,7 +189,7 @@ unsafe
 let
 actual_size
 =
-malloc_size_of
+usable_size
 (
 ptr
 as
@@ -239,7 +244,7 @@ unsafe
 let
 actual_size
 =
-malloc_size_of
+usable_size
 (
 ptr
 as
@@ -314,7 +319,7 @@ ft_realloc
 mem
 :
 FT_Memory
-_cur_size
+old_size
 :
 c_long
 new_req_size
@@ -343,7 +348,7 @@ unsafe
 {
 old_actual_size
 =
-malloc_size_of
+usable_size
 (
 old_ptr
 as
@@ -351,6 +356,13 @@ as
 const
 _
 )
+;
+let
+old_size
+=
+old_size
+as
+usize
 ;
 vec
 =
@@ -369,8 +381,8 @@ as
 *
 mut
 u8
-old_actual_size
-old_actual_size
+old_size
+old_size
 )
 ;
 }
@@ -441,7 +453,7 @@ unsafe
 let
 new_actual_size
 =
-malloc_size_of
+usable_size
 (
 new_ptr
 as
