@@ -176,6 +176,7 @@ startContainer
 ;
 readonly
 attribute
+unsigned
 long
 startOffset
 ;
@@ -186,6 +187,7 @@ endContainer
 ;
 readonly
 attribute
+unsigned
 long
 endOffset
 ;
@@ -206,6 +208,7 @@ in
 nsIDOMNode
 refNode
 in
+unsigned
 long
 offset
 )
@@ -217,6 +220,7 @@ in
 nsIDOMNode
 refNode
 in
+unsigned
 long
 offset
 )
@@ -436,6 +440,7 @@ in
 nsIDOMNode
 parent
 in
+unsigned
 long
 offset
 )
@@ -498,6 +503,7 @@ in
 nsIDOMNode
 parent
 in
+unsigned
 long
 offset
 )
