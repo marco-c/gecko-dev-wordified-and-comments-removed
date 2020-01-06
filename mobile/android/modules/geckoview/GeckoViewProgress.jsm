@@ -111,18 +111,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
-.
-defineLazyGetter
-(
-this
-"
+var
 dump
-"
-(
-)
 =
->
 Cu
 .
 import
@@ -154,7 +145,6 @@ null
 "
 ViewProgress
 "
-)
 )
 ;
 function

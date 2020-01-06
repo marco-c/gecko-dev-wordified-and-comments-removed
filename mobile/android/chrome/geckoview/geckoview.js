@@ -102,18 +102,9 @@ window
 )
 )
 ;
-XPCOMUtils
-.
-defineLazyGetter
-(
-this
-"
+var
 dump
-"
-(
-)
 =
->
 Cu
 .
 import
@@ -145,7 +136,6 @@ null
 "
 View
 "
-)
 )
 ;
 var
