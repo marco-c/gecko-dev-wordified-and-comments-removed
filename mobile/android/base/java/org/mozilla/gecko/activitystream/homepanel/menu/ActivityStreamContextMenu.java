@@ -1612,6 +1612,9 @@ menuMode
 final
 Item
 item
+final
+boolean
+shouldOverrideIconWithImageProvider
 HomePager
 .
 OnUrlOpenListener
@@ -1651,6 +1654,7 @@ context
 telemetryExtraBuilder
 menuMode
 item
+shouldOverrideIconWithImageProvider
 onUrlOpenListener
 onUrlOpenInBackgroundListener
 tilesWidth

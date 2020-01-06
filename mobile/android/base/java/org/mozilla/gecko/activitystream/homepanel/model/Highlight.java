@@ -25,6 +25,15 @@ support
 .
 annotation
 .
+NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
 Nullable
 ;
 import
@@ -541,6 +550,7 @@ return
 url
 ;
 }
+NonNull
 public
 Metadata
 getMetadataSlow
