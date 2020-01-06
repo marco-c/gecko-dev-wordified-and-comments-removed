@@ -744,6 +744,13 @@ aOther
 mHeaders
 )
 )
+mBodyLength
+(
+InternalResponse
+:
+:
+UNKNOWN_BODY_SIZE
+)
 mContentPolicyType
 (
 aOther
