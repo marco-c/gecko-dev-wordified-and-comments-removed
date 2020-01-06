@@ -289,7 +289,9 @@ PreTranslate
 0f
 mBounds
 .
-height
+Height
+(
+)
 )
 .
 PreScale
@@ -315,10 +317,14 @@ Rect
 0
 mBounds
 .
-width
+Width
+(
+)
 mBounds
 .
-height
+Height
+(
+)
 )
 surface
 mSamplingFilter

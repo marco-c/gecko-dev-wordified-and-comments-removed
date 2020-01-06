@@ -310,7 +310,9 @@ NSAppUnitsToFloatPixels
 (
 rect
 .
-width
+Width
+(
+)
 nsDeviceContext
 :
 :
@@ -336,7 +338,9 @@ NSAppUnitsToFloatPixels
 (
 rect
 .
-height
+Height
+(
+)
 nsDeviceContext
 :
 :

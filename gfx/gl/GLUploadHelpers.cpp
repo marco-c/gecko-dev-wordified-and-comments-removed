@@ -2119,10 +2119,14 @@ rect
 y
 rect
 .
-width
+Width
+(
+)
 rect
 .
-height
+Height
+(
+)
 aStride
 pixelSize
 format

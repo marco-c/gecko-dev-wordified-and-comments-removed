@@ -256,7 +256,9 @@ PreTranslate
 0
 mBounds
 .
-height
+Height
+(
+)
 0
 )
 .
@@ -294,10 +296,14 @@ rect
 0
 mBounds
 .
-width
+Width
+(
+)
 mBounds
 .
-height
+Height
+(
+)
 )
 ;
 DumpLayerInfo

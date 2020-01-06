@@ -391,7 +391,9 @@ img
 >
 mPictureRect
 .
-width
+Width
+(
+)
 info
 .
 img
@@ -399,7 +401,9 @@ img
 >
 mPictureRect
 .
-height
+Height
+(
+)
 )
 ;
 mHost

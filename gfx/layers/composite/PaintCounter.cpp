@@ -407,10 +407,14 @@ mRect
 y
 mRect
 .
-width
+Width
+(
+)
 mRect
 .
-height
+Height
+(
+)
 )
 ;
 aCompositor

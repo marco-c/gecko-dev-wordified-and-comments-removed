@@ -2647,7 +2647,9 @@ const
 return
 aRect
 .
-width
+Width
+(
+)
 ;
 }
 ParentLayerCoord
@@ -2778,7 +2780,9 @@ const
 return
 aRect
 .
-height
+Height
+(
+)
 ;
 }
 ParentLayerCoord
