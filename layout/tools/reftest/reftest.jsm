@@ -1561,10 +1561,6 @@ return
 null
 ;
 }
-this
-.
-OnRefTestLoad
-=
 function
 OnRefTestLoad
 (
