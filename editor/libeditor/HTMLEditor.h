@@ -561,10 +561,10 @@ NS_DECL_NSIHTMLINLINETABLEEDITOR
 nsresult
 CopyLastEditableChildStyles
 (
-nsIDOMNode
+nsINode
 *
 aPreviousBlock
-nsIDOMNode
+nsINode
 *
 aNewBlock
 Element
