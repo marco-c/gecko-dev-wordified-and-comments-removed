@@ -2622,7 +2622,7 @@ GetScrollableRect
 <
 <
 (
-aLayer
+metrics
 .
 IsScrollInfoLayer
 (
@@ -2762,6 +2762,10 @@ aLayer
 if
 (
 aLayer
+.
+Metrics
+(
+)
 .
 IsScrollInfoLayer
 (
