@@ -165,6 +165,13 @@ ColorType
 UrlPaintServer
 >
 {
+#
+[
+animation
+(
+error
+)
+]
 None
 Color
 (
