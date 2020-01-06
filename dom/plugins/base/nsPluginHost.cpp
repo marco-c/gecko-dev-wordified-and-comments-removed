@@ -10754,11 +10754,6 @@ isFlashPlugin
 )
 tag
 .
-supportsAsyncInit
-(
-)
-tag
-.
 supportsAsyncRender
 (
 )
@@ -11835,10 +11830,6 @@ tag
 -
 >
 mIsFlashPlugin
-tag
--
->
-mSupportsAsyncInit
 tag
 -
 >
