@@ -82,6 +82,9 @@ overlap
 :
 0px
 ;
+%
+ifndef
+MOZ_PHOTON_THEME
 -
 -
 space
@@ -92,6 +95,8 @@ tabbar
 :
 0px
 ;
+%
+endif
 -
 -
 toolbarbutton
@@ -1126,6 +1131,9 @@ backgroundcolor
 d7d7d8
 ;
 }
+%
+ifndef
+MOZ_PHOTON_THEME
 #
 main
 -
@@ -1148,6 +1156,8 @@ tabbar
 9px
 ;
 }
+%
+endif
 .
 tab
 -
