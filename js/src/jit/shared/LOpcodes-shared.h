@@ -1053,6 +1053,11 @@ ValueToString
 \
 _
 (
+ValueToObject
+)
+\
+_
+(
 ValueToObjectOrNull
 )
 \

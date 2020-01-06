@@ -609,6 +609,11 @@ ToString
 \
 _
 (
+ToObject
+)
+\
+_
+(
 ToObjectOrNull
 )
 \

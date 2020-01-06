@@ -691,6 +691,14 @@ lir
 )
 ;
 void
+visitValueToObject
+(
+LValueToObject
+*
+lir
+)
+;
+void
 visitValueToObjectOrNull
 (
 LValueToObjectOrNull
