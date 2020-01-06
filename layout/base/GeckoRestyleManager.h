@@ -698,13 +698,13 @@ EndProcessingRestyles
 (
 )
 ;
+public
+:
 void
 UpdateAnimationStyles
 (
 )
 ;
-public
-:
 void
 UpdateAnimationStylesForHitTesting
 (
