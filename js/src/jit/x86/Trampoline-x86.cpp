@@ -3833,6 +3833,14 @@ callWithABI
 f
 .
 wrapped
+MoveOp
+:
+:
+GENERAL
+CheckUnsafeCallWithABI
+:
+:
+DontCheckHasExitFrame
 )
 ;
 if

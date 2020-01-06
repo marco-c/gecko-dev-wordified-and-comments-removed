@@ -50,6 +50,9 @@ size_t
 byteLength
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 MOZ_ASSERT
 (
 byteLength
@@ -210,6 +213,9 @@ size_t
 byteLength
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 MOZ_ASSERT
 (
 byteLength
