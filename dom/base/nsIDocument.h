@@ -8690,12 +8690,7 @@ SetUserHasInteracted
 bool
 aUserHasInteracted
 )
-{
-mUserHasInteracted
-=
-aUserHasInteracted
 ;
-}
 bool
 UserHasInteracted
 (
