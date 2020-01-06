@@ -188,6 +188,7 @@ maxRequests
 requestPeriod
 timeoutIncrement
 maxTimeout
+tolerance
 )
 {
 this
@@ -225,6 +226,12 @@ this
 MAX_TIMEOUT_
 =
 maxTimeout
+;
+this
+.
+TOLERANCE_
+=
+tolerance
 ;
 this
 .
@@ -303,6 +310,10 @@ now
 if
 (
 now
++
+this
+.
+TOLERANCE_
 <
 this
 .
@@ -651,6 +662,7 @@ backoffInterval
 *
 60
 *
+1000
 1000
 )
 ;
