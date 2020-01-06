@@ -653,6 +653,8 @@ false
 about
 :
 preferences
+#
+search
 "
 )
 ;
