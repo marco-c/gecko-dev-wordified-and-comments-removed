@@ -39,7 +39,7 @@ JS_GC_ZEAL
 "
 :
 "
-Compact
+IncrementalMultipleSlices
 "
 "
 JITTEST_EXTRA_ARGS

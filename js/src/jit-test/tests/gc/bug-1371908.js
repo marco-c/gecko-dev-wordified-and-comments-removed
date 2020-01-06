@@ -12,6 +12,11 @@ quit
 (
 )
 ;
+gczeal
+(
+0
+)
+;
 offThreadCompileScript
 (
 "
