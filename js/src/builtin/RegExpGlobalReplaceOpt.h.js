@@ -150,6 +150,8 @@ matchLength
 matched
 .
 length
+|
+0
 ;
 var
 position
@@ -157,6 +159,8 @@ position
 result
 .
 index
+|
+0
 ;
 lastIndex
 =
@@ -343,6 +347,11 @@ lastIndex
 lengthS
 )
 break
+;
+lastIndex
+|
+=
+0
 ;
 }
 #
