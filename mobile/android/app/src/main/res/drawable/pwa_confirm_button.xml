@@ -118,9 +118,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-pwa_confirm_button_pressed
+pwa_confirm_btn_pressed
 "
 android
 :
@@ -147,9 +147,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-pwa_confirm_button_normal
+pwa_confirm_btn_normal
 "
 /
 >
