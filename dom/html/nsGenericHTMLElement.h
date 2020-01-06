@@ -3486,6 +3486,10 @@ const
 nsAttrValue
 *
 aValue
+const
+nsAttrValue
+*
+aOldValue
 bool
 aNotify
 )
@@ -4481,6 +4485,10 @@ const
 nsAttrValue
 *
 aValue
+const
+nsAttrValue
+*
+aOldValue
 bool
 aNotify
 )

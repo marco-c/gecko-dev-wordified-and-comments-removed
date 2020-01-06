@@ -1602,6 +1602,9 @@ aModType
 bool
 *
 aHasListeners
+bool
+*
+aOldValueSet
 )
 ;
 bool
@@ -1630,6 +1633,9 @@ aModType
 bool
 *
 aHasListeners
+bool
+*
+aOldValueSet
 )
 ;
 virtual
@@ -4227,7 +4233,7 @@ nsIAtom
 aPrefix
 const
 nsAttrValue
-&
+*
 aOldValue
 nsAttrValue
 &
@@ -4282,7 +4288,7 @@ aResult
 ;
 virtual
 bool
-SetMappedAttribute
+SetAndSwapMappedAttribute
 (
 nsIAtom
 *
@@ -4290,6 +4296,9 @@ aName
 nsAttrValue
 &
 aValue
+bool
+*
+aValueWasSet
 nsresult
 *
 aRetval
@@ -4329,6 +4338,10 @@ const
 nsAttrValue
 *
 aValue
+const
+nsAttrValue
+*
+aOldValue
 bool
 aNotify
 )

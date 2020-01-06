@@ -1970,6 +1970,9 @@ originalValue
 )
 ;
 }
+bool
+oldValueSet
+;
 if
 (
 originalName
@@ -1996,6 +1999,8 @@ Atom
 (
 )
 attrValue
+&
+oldValueSet
 )
 ;
 }
@@ -2017,6 +2022,8 @@ NodeInfo
 (
 )
 attrValue
+&
+oldValueSet
 )
 ;
 }
@@ -4795,6 +4802,10 @@ const
 nsAttrValue
 *
 aValue
+const
+nsAttrValue
+*
+aOldValue
 bool
 aNotify
 )
@@ -5579,6 +5590,7 @@ AfterSetAttr
 aNamespaceID
 aName
 aValue
+aOldValue
 aNotify
 )
 ;
@@ -8340,6 +8352,9 @@ mValue
 )
 ;
 }
+bool
+oldValueSet
+;
 if
 (
 protoattr
@@ -8367,6 +8382,8 @@ Atom
 (
 )
 attrValue
+&
+oldValueSet
 )
 ;
 }
@@ -8387,6 +8404,8 @@ NodeInfo
 (
 )
 attrValue
+&
+oldValueSet
 )
 ;
 }

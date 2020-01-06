@@ -38,7 +38,7 @@ bool
 nsMappedAttributeElement
 :
 :
-SetMappedAttribute
+SetAndSwapMappedAttribute
 (
 nsIAtom
 *
@@ -46,6 +46,9 @@ aName
 nsAttrValue
 &
 aValue
+bool
+*
+aValueWasSet
 nsresult
 *
 aRetval
@@ -69,12 +72,13 @@ aRetval
 =
 mAttrsAndChildren
 .
-SetAndTakeMappedAttr
+SetAndSwapMappedAttr
 (
 aName
 aValue
 this
 sheet
+aValueWasSet
 )
 ;
 return

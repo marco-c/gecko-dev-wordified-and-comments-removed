@@ -1254,6 +1254,9 @@ attrValue
 true
 )
 ;
+bool
+oldValueSet
+;
 rv
 =
 mAttrsAndChildren
@@ -1265,6 +1268,8 @@ nsGkAtoms
 :
 style
 attrValue
+&
+oldValueSet
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1293,6 +1298,10 @@ const
 nsAttrValue
 *
 aValue
+const
+nsAttrValue
+*
+aOldValue
 bool
 aNotify
 )
@@ -1431,6 +1440,7 @@ AfterSetAttr
 aNamespaceID
 aName
 aValue
+aOldValue
 aNotify
 )
 ;
@@ -6574,6 +6584,7 @@ SetAttrAndNotify
 kNameSpaceID_None
 aName
 nullptr
+&
 aEmptyOrOldValue
 aNewValue
 modType
@@ -6655,12 +6666,17 @@ oldAttrValue
 serializedValue
 )
 ;
+bool
+oldValueSet
+;
 mAttrsAndChildren
 .
 SetAndSwapAttr
 (
 aName
 oldAttrValue
+&
+oldValueSet
 )
 ;
 }

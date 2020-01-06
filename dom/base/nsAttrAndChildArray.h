@@ -410,6 +410,9 @@ aLocalName
 nsAttrValue
 &
 aValue
+bool
+*
+aHadValue
 )
 ;
 nsresult
@@ -427,6 +430,9 @@ aName
 nsAttrValue
 &
 aValue
+bool
+*
+aHadValue
 )
 ;
 nsresult
@@ -493,7 +499,7 @@ kNameSpaceID_None
 const
 ;
 nsresult
-SetAndTakeMappedAttr
+SetAndSwapMappedAttr
 (
 nsIAtom
 *
@@ -507,6 +513,9 @@ aContent
 nsHTMLStyleSheet
 *
 aSheet
+bool
+*
+aHadValue
 )
 ;
 nsresult

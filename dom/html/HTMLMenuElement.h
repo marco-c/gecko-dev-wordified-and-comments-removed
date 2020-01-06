@@ -71,6 +71,7 @@ menu
 )
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLMENUELEMENT
+virtual
 nsresult
 AfterSetAttr
 (
@@ -83,6 +84,10 @@ const
 nsAttrValue
 *
 aValue
+const
+nsAttrValue
+*
+aOldValue
 bool
 aNotify
 )
