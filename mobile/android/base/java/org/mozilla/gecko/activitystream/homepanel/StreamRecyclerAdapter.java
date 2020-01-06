@@ -500,11 +500,7 @@ https
 /
 getpocket
 .
-cdn
-.
-mozilla
-.
-net
+com
 /
 explore
 /
@@ -513,6 +509,10 @@ trending
 src
 =
 ff_android
+&
+cdn
+=
+0
 "
 ;
 private
