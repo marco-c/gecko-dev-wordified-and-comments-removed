@@ -1480,6 +1480,12 @@ StructuredLogger
 (
 logger
 )
+        
+logger
+.
+reset_state
+(
+)
     
 formatter_options
 =
