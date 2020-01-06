@@ -607,6 +607,10 @@ org
 /
 book
 /
+first
+-
+edition
+/
 match
 .
 html
@@ -629,6 +633,10 @@ lang
 org
 /
 book
+/
+first
+-
+edition
 /
 patterns
 .
