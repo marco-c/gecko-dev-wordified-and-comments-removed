@@ -926,7 +926,7 @@ bytecode_cache
 .
 enabled
 "
-true
+false
 )
 ;
 pref
