@@ -12079,6 +12079,9 @@ colormap_entries
 )
 break
 ;
+goto
+bad_output
+;
 default
 :
 bad_output

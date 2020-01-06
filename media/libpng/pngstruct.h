@@ -1163,6 +1163,9 @@ colorspace
 endif
 #
 endif
+int
+num_exif
+;
 }
 ;
 #

@@ -198,6 +198,17 @@ phys_unit_type
 endif
 #
 ifdef
+PNG_eXIf_SUPPORTED
+int
+num_exif
+;
+png_bytep
+exif
+;
+#
+endif
+#
+ifdef
 PNG_hIST_SUPPORTED
 png_uint_16p
 hist
