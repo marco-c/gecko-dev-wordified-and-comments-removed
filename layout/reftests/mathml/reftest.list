@@ -3805,6 +3805,14 @@ skiaContent
 1
 80
 )
+fuzzy
+-
+if
+(
+Android
+255
+105
+)
 skip
 -
 if
@@ -3830,6 +3838,11 @@ Windows
 :
 bug
 1314684
+;
+Android
+:
+bug
+1392254
 =
 =
 mathml
