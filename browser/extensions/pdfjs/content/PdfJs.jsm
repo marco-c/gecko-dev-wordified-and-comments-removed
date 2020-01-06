@@ -378,6 +378,9 @@ called
 in
 the
 parent
+"
++
+"
 process
 .
 "
@@ -1438,6 +1441,9 @@ should
 be
 observing
 PDF
+"
++
+"
 handler
 changes
 .
