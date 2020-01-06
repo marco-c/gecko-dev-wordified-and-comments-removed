@@ -7754,9 +7754,6 @@ ftp
 "
 chrome
 "
-"
-resource
-"
 ]
 )
 ;
