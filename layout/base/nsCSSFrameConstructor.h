@@ -489,7 +489,6 @@ aStartChild
 nsIContent
 *
 aEndChild
-InsertionKind
 )
 ;
 void
@@ -593,8 +592,6 @@ aChild
 nsIContent
 *
 aOldNextSibling
-InsertionKind
-aInsertionKind
 RemoveFlags
 aFlags
 )
@@ -4862,8 +4859,6 @@ MaybeRecreateContainerForFrameRemoval
 nsIFrame
 *
 aFrame
-InsertionKind
-aInsertionKind
 )
 ;
 nsIFrame
@@ -5095,7 +5090,6 @@ aIsAppend
 nsIFrame
 *
 aPrevSibling
-InsertionKind
 )
 ;
 void
@@ -5104,8 +5098,6 @@ ReframeContainingBlock
 nsIFrame
 *
 aFrame
-InsertionKind
-aInsertionKind
 )
 ;
 nsFirstLetterFrame
