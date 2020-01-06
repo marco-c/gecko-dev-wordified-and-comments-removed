@@ -10274,6 +10274,9 @@ RawGeckoURLExtraData
 line_number_offset
 :
 u32
+quirks_mode
+:
+nsCompatibility
 )
 -
 >
@@ -11448,6 +11451,9 @@ RawGeckoURLExtraData
 parsing_mode
 :
 ParsingMode
+quirks_mode
+:
+nsCompatibility
 )
 -
 >
@@ -12056,6 +12062,9 @@ RawGeckoURLExtraData
 parsing_mode
 :
 ParsingMode
+quirks_mode
+:
+nsCompatibility
 )
 -
 >
@@ -12093,6 +12102,9 @@ RawGeckoURLExtraData
 parsing_mode
 :
 ParsingMode
+quirks_mode
+:
+nsCompatibility
 )
 -
 >
