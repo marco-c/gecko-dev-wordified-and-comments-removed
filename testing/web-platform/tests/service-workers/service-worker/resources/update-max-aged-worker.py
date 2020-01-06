@@ -101,6 +101,8 @@ mainTime
 =
 {
 time
+:
+8f
 }
 ;
         

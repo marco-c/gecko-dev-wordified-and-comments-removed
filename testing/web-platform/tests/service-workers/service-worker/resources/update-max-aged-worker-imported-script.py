@@ -88,6 +88,8 @@ importTime
 =
 {
 time
+:
+8f
 }
 ;
     
