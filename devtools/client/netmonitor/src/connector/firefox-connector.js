@@ -591,6 +591,14 @@ tabTarget
 ;
 this
 .
+toolbox
+=
+connection
+.
+toolbox
+;
+this
+.
 webConsoleClient
 =
 this

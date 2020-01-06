@@ -270,6 +270,10 @@ connector
 .
 viewSourceInDebugger
 (
+.
+.
+.
+arguments
 )
 ;
 }
