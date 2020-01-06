@@ -1240,6 +1240,26 @@ log
 )
 )
         
+cmd
+.
+append
+(
+'
+-
+-
+symbols
+-
+path
+=
+%
+s
+'
+%
+self
+.
+symbols_path
+)
+        
 test_file
 =
 os
