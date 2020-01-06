@@ -1063,6 +1063,9 @@ set
 webrender
 :
 :
+DebugFlags
+:
+:
 PROFILER_DBG
 opts
 .
