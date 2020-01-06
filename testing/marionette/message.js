@@ -148,7 +148,7 @@ type
 case
 Command
 .
-TYPE
+Type
 :
 return
 Command
@@ -161,7 +161,7 @@ data
 case
 Response
 .
-TYPE
+Type
 :
 return
 Response
@@ -340,7 +340,7 @@ return
 [
 Command
 .
-TYPE
+Type
 this
 .
 id
@@ -382,7 +382,7 @@ n
 =
 Command
 .
-TYPE
+Type
 )
 (
 type
@@ -415,7 +415,7 @@ params
 }
 Command
 .
-TYPE
+Type
 =
 0
 ;
@@ -751,7 +751,7 @@ return
 [
 Response
 .
-TYPE
+Type
 this
 .
 id
@@ -793,7 +793,7 @@ n
 =
 Response
 .
-TYPE
+Type
 )
 (
 type
@@ -832,7 +832,7 @@ resp
 }
 Response
 .
-TYPE
+Type
 =
 1
 ;

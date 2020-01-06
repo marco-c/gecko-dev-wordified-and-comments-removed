@@ -470,7 +470,7 @@ equal
 (
 Command
 .
-TYPE
+Type
 msg
 [
 0
@@ -810,7 +810,7 @@ run_next_test
 add_test
 (
 function
-test_Command_TYPE
+test_Command_Type
 (
 )
 {
@@ -819,7 +819,7 @@ equal
 0
 Command
 .
-TYPE
+Type
 )
 ;
 run_next_test
@@ -1400,7 +1400,7 @@ equal
 (
 Response
 .
-TYPE
+Type
 msg
 [
 0
@@ -1716,7 +1716,7 @@ run_next_test
 add_test
 (
 function
-test_Response_TYPE
+test_Response_Type
 (
 )
 {
@@ -1725,7 +1725,7 @@ equal
 1
 Response
 .
-TYPE
+Type
 )
 ;
 run_next_test
