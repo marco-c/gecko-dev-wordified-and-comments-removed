@@ -1333,9 +1333,7 @@ Services
 .
 tm
 .
-mainThread
-.
-idleDispatch
+idleDispatchToMainThread
 (
 (
 )
@@ -1346,9 +1344,7 @@ Services
 .
 tm
 .
-mainThread
-.
-idleDispatch
+idleDispatchToMainThread
 (
 (
 )
