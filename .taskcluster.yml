@@ -831,7 +831,7 @@ comment
 HG_STORE_PATH
 :
 /
-home
+builds
 /
 worker
 /
@@ -843,7 +843,7 @@ store
 TASKCLUSTER_CACHES
 :
 /
-home
+builds
 /
 worker
 /
@@ -865,7 +865,7 @@ sparse
 v1
 :
 /
-home
+builds
 /
 worker
 /
@@ -929,14 +929,14 @@ taskcluster
 /
 decision
 :
+2
+.
 0
 .
-1
-.
-10
+0
 sha256
 :
-c5451ee6c655b3d97d4baa3b0e29a5115f23e0991d4f7f36d2a8f793076d6854
+4039fd878e5700b326d4a636e28c595c053fbcb53909c1db84ad1f513cf644ef
 '
 maxRunTime
 :
@@ -977,7 +977,7 @@ command
 :
 -
 /
-home
+builds
 /
 worker
 /
@@ -995,7 +995,7 @@ vcs
 checkout
 =
 /
-home
+builds
 /
 worker
 /
@@ -1114,7 +1114,7 @@ in
 >
 cd
 /
-home
+builds
 /
 worker
 /
@@ -1127,7 +1127,7 @@ ln
 -
 s
 /
-home
+builds
 /
 worker
 /
@@ -1275,7 +1275,7 @@ path
 :
 '
 /
-home
+builds
 /
 worker
 /
