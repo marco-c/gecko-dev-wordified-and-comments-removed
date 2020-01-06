@@ -198,7 +198,6 @@ nullptr
 )
 ;
 }
-static
 bool
 ElementNotInList
 (
@@ -207,7 +206,8 @@ T
 aElm
 )
 {
-return
+if
+(
 !
 SiblingAccess
 :
@@ -226,6 +226,17 @@ GetPrev
 (
 aElm
 )
+)
+{
+return
+mHead
+!
+=
+aElm
+;
+}
+return
+false
 ;
 }
 public
