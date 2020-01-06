@@ -6192,6 +6192,14 @@ newZoom
 ;
 if
 (
+mDocument
+-
+>
+IsStyledByServo
+(
+)
+|
+|
 HasCachedStyleData
 (
 )
