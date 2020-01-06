@@ -1245,12 +1245,6 @@ svg
 lime
 .
 svg
-random
--
-if
-(
-webrender
-)
 =
 =
 anim
@@ -2747,11 +2741,13 @@ rxry
 ref
 .
 svg
-random
+fuzzy
 -
 if
 (
 webrender
+1
+350
 )
 =
 =
