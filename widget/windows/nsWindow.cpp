@@ -32789,9 +32789,9 @@ if
 sMainWindowClass
 )
 {
-nsAdoptingString
+nsAutoString
 className
-=
+;
 Preferences
 :
 :
@@ -32802,6 +32802,7 @@ ui
 .
 window_class_override
 "
+className
 )
 ;
 if

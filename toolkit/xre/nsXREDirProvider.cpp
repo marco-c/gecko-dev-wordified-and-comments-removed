@@ -3834,9 +3834,9 @@ nullptr
 nsresult
 rv
 ;
-nsAdoptingString
+nsAutoString
 tempDirSuffix
-=
+;
 Preferences
 :
 :
@@ -3851,6 +3851,7 @@ content
 .
 tempDirSuffix
 "
+tempDirSuffix
 )
 ;
 if

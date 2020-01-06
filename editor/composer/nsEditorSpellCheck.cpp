@@ -3657,8 +3657,6 @@ endif
 nsAutoString
 preferredDict
 ;
-preferredDict
-=
 Preferences
 :
 :
@@ -3669,6 +3667,7 @@ spellchecker
 .
 dictionary
 "
+preferredDict
 )
 ;
 if
