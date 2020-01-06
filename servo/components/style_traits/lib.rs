@@ -881,6 +881,7 @@ omitted
 /
 /
 /
+<
 https
 :
 /
@@ -899,6 +900,7 @@ values
 /
 #
 lengths
+>
 const
 PARSING_MODE_DEFAULT
 =
@@ -943,6 +945,7 @@ px
 /
 /
 /
+<
 https
 :
 /
@@ -962,6 +965,7 @@ coords
 html
 #
 Units
+>
 const
 PARSING_MODE_ALLOW_UNITLESS_LENGTH
 =
@@ -989,6 +993,7 @@ parsing
 /
 /
 /
+<
 https
 :
 /
@@ -1008,6 +1013,7 @@ implnote
 html
 #
 RangeClamping
+>
 const
 PARSING_MODE_ALLOW_ALL_NUMERIC_VALUES
 =

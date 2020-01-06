@@ -137,6 +137,7 @@ element
 /
 /
 /
+<
 https
 :
 /
@@ -155,6 +156,7 @@ multipage
 selector
 -
 active
+>
 /
 /
 /
@@ -188,6 +190,7 @@ focus
 /
 /
 /
+<
 https
 :
 /
@@ -206,6 +209,7 @@ multipage
 selector
 -
 focus
+>
 const
 IN_FOCUS_STATE
 =
@@ -227,6 +231,7 @@ element
 /
 /
 /
+<
 https
 :
 /
@@ -245,6 +250,7 @@ multipage
 selector
 -
 hover
+>
 const
 IN_HOVER_STATE
 =
@@ -268,6 +274,7 @@ disabled
 /
 /
 /
+<
 http
 :
 /
@@ -284,6 +291,7 @@ html
 selector
 -
 enabled
+>
 const
 IN_ENABLED_STATE
 =
@@ -301,6 +309,7 @@ disabled
 /
 /
 /
+<
 http
 :
 /
@@ -317,6 +326,7 @@ html
 selector
 -
 disabled
+>
 const
 IN_DISABLED_STATE
 =
@@ -334,6 +344,7 @@ checked
 /
 /
 /
+<
 https
 :
 /
@@ -352,6 +363,7 @@ multipage
 selector
 -
 checked
+>
 const
 IN_CHECKED_STATE
 =
@@ -362,6 +374,7 @@ IN_CHECKED_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -380,6 +393,7 @@ multipage
 selector
 -
 indeterminate
+>
 const
 IN_INDETERMINATE_STATE
 =
@@ -390,6 +404,7 @@ IN_INDETERMINATE_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -410,6 +425,7 @@ selector
 placeholder
 -
 shown
+>
 const
 IN_PLACEHOLDER_SHOWN_STATE
 =
@@ -420,6 +436,7 @@ IN_PLACEHOLDER_SHOWN_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -438,6 +455,7 @@ multipage
 selector
 -
 target
+>
 const
 IN_TARGET_STATE
 =
@@ -448,6 +466,7 @@ IN_TARGET_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -467,6 +486,7 @@ org
 pseudo
 -
 class
+>
 const
 IN_FULLSCREEN_STATE
 =
@@ -477,6 +497,7 @@ IN_FULLSCREEN_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -495,6 +516,7 @@ multipage
 selector
 -
 valid
+>
 const
 IN_VALID_STATE
 =
@@ -505,6 +527,7 @@ IN_VALID_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -523,6 +546,7 @@ multipage
 selector
 -
 invalid
+>
 const
 IN_INVALID_STATE
 =
@@ -896,6 +920,7 @@ IN_HANDLER_CRASHED_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -914,6 +939,7 @@ multipage
 selector
 -
 required
+>
 const
 IN_REQUIRED_STATE
 =
@@ -924,6 +950,7 @@ IN_REQUIRED_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -942,6 +969,7 @@ multipage
 selector
 -
 optional
+>
 const
 IN_OPTIONAL_STATE
 =
@@ -952,6 +980,7 @@ IN_OPTIONAL_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -972,6 +1001,7 @@ selector
 read
 -
 write
+>
 const
 IN_READ_WRITE_STATE
 =
@@ -1002,6 +1032,7 @@ IN_UNRESOLVED_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -1020,6 +1051,7 @@ multipage
 selector
 -
 visited
+>
 const
 IN_VISITED_STATE
 =
@@ -1030,6 +1062,7 @@ IN_VISITED_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -1048,6 +1081,7 @@ multipage
 selector
 -
 link
+>
 const
 IN_UNVISITED_STATE
 =
@@ -1058,6 +1092,7 @@ IN_UNVISITED_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -1080,6 +1115,7 @@ any
 link
 -
 pseudo
+>
 const
 IN_VISITED_OR_UNVISITED_STATE
 =
@@ -1134,6 +1170,7 @@ IN_DRAGOVER_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -1154,6 +1191,7 @@ selector
 in
 -
 range
+>
 const
 IN_INRANGE_STATE
 =
@@ -1164,6 +1202,7 @@ IN_INRANGE_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -1186,6 +1225,7 @@ out
 of
 -
 range
+>
 const
 IN_OUTOFRANGE_STATE
 =
@@ -1196,6 +1236,7 @@ IN_OUTOFRANGE_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -1216,6 +1257,7 @@ selector
 read
 -
 only
+>
 const
 IN_MOZ_READONLY_STATE
 =
@@ -1226,6 +1268,7 @@ IN_MOZ_READONLY_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -1246,6 +1289,7 @@ selector
 read
 -
 write
+>
 const
 IN_MOZ_READWRITE_STATE
 =
@@ -1256,6 +1300,7 @@ IN_MOZ_READWRITE_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -1274,6 +1319,7 @@ multipage
 selector
 -
 default
+>
 const
 IN_DEFAULT_STATE
 =
@@ -1508,6 +1554,7 @@ IN_HANDLER_VULNERABLE_NO_UPDATE_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -1530,6 +1577,7 @@ focus
 within
 -
 pseudo
+>
 const
 IN_FOCUS_WITHIN_STATE
 =

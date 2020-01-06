@@ -1519,6 +1519,7 @@ counter_style_descriptors
 /
 /
 /
+<
 https
 :
 /
@@ -1541,6 +1542,7 @@ counter
 style
 -
 system
+>
 "
 system
 "
@@ -1559,6 +1561,7 @@ Symbolic
 /
 /
 /
+<
 https
 :
 /
@@ -1581,6 +1584,7 @@ counter
 style
 -
 negative
+>
 "
 negative
 "
@@ -1612,6 +1616,7 @@ None
 /
 /
 /
+<
 https
 :
 /
@@ -1634,6 +1639,7 @@ counter
 style
 -
 prefix
+>
 "
 prefix
 "
@@ -1660,6 +1666,7 @@ to_owned
 /
 /
 /
+<
 https
 :
 /
@@ -1682,6 +1689,7 @@ counter
 style
 -
 suffix
+>
 "
 suffix
 "
@@ -1709,6 +1717,7 @@ to_owned
 /
 /
 /
+<
 https
 :
 /
@@ -1731,6 +1740,7 @@ counter
 style
 -
 range
+>
 "
 range
 "
@@ -1762,6 +1772,7 @@ auto
 /
 /
 /
+<
 https
 :
 /
@@ -1784,6 +1795,7 @@ counter
 style
 -
 pad
+>
 "
 pad
 "
@@ -1814,6 +1826,7 @@ to_owned
 /
 /
 /
+<
 https
 :
 /
@@ -1836,6 +1849,7 @@ counter
 style
 -
 fallback
+>
 "
 fallback
 "
@@ -1890,6 +1904,7 @@ decimal
 /
 /
 /
+<
 https
 :
 /
@@ -1914,6 +1929,7 @@ counter
 style
 -
 symbols
+>
 "
 symbols
 "
@@ -1927,6 +1943,7 @@ Symbols
 /
 /
 /
+<
 https
 :
 /
@@ -1953,6 +1970,7 @@ style
 additive
 -
 symbols
+>
 "
 additive
 -
@@ -1968,6 +1986,7 @@ AdditiveSymbols
 /
 /
 /
+<
 https
 :
 /
@@ -1992,6 +2011,7 @@ style
 speak
 -
 as
+>
 "
 speak
 -

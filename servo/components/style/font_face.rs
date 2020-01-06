@@ -1371,6 +1371,7 @@ rule
 /
 /
 /
+<
 https
 :
 /
@@ -1391,6 +1392,7 @@ font
 face
 -
 rule
+>
 #
 [
 derive

@@ -15361,6 +15361,7 @@ height
 /
 /
 /
+<
 https
 :
 /
@@ -15381,6 +15382,7 @@ widl
 Element
 -
 innerHTML
+>
 fn
 GetInnerHTML
 (
@@ -15477,6 +15479,7 @@ qname
 /
 /
 /
+<
 https
 :
 /
@@ -15497,6 +15500,7 @@ widl
 Element
 -
 innerHTML
+>
 fn
 SetInnerHTML
 (
@@ -20860,6 +20864,7 @@ events
 /
 /
 /
+<
 https
 :
 /
@@ -20884,6 +20889,7 @@ click
 activation
 -
 steps
+>
 /
 /
 /
@@ -21477,6 +21483,7 @@ IN_ACTIVE_STATE
 /
 /
 /
+<
 https
 :
 /
@@ -21497,6 +21504,7 @@ concept
 selector
 -
 active
+>
 pub
 fn
 set_active_state
@@ -21945,6 +21953,7 @@ value
 /
 /
 /
+<
 https
 :
 /
@@ -21959,6 +21968,7 @@ org
 /
 #
 connected
+>
 pub
 fn
 is_connected
@@ -22369,6 +22379,7 @@ value
 /
 /
 /
+<
 https
 :
 /
@@ -22387,6 +22398,7 @@ attribute
 is
 -
 set
+>
 Set
 (
 Option
@@ -22408,6 +22420,7 @@ removed
 /
 /
 /
+<
 https
 :
 /
@@ -22426,6 +22439,7 @@ attribute
 is
 -
 removed
+>
 Removed
 }
 impl
