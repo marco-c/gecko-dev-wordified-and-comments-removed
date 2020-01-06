@@ -209,7 +209,7 @@ proto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorObjectPrototype
+getOrCreateGeneratorObjectPrototype
 (
 cx
 global
@@ -1293,7 +1293,7 @@ RESERVED_SLOTS
 static
 const
 JSFunctionSpec
-star_generator_methods
+generator_methods
 [
 ]
 =
@@ -1390,7 +1390,7 @@ bool
 GlobalObject
 :
 :
-initStarGenerators
+initGenerators
 (
 JSContext
 *
@@ -1410,7 +1410,7 @@ global
 >
 getReservedSlot
 (
-STAR_GENERATOR_OBJECT_PROTO
+GENERATOR_OBJECT_PROTO
 )
 .
 isObject
@@ -1478,7 +1478,7 @@ DefinePropertiesAndFunctions
 cx
 genObjectProto
 nullptr
-star_generator_methods
+generator_methods
 )
 |
 |
@@ -1675,7 +1675,7 @@ global
 >
 setReservedSlot
 (
-STAR_GENERATOR_OBJECT_PROTO
+GENERATOR_OBJECT_PROTO
 ObjectValue
 (
 *
@@ -1688,7 +1688,7 @@ global
 >
 setReservedSlot
 (
-STAR_GENERATOR_FUNCTION
+GENERATOR_FUNCTION
 ObjectValue
 (
 *
@@ -1701,7 +1701,7 @@ global
 >
 setReservedSlot
 (
-STAR_GENERATOR_FUNCTION_PROTO
+GENERATOR_FUNCTION_PROTO
 ObjectValue
 (
 *
@@ -1718,7 +1718,7 @@ bool
 js
 :
 :
-CheckStarGeneratorResumptionValue
+CheckGeneratorResumptionValue
 (
 JSContext
 *

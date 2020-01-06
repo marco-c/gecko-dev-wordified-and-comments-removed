@@ -3975,7 +3975,7 @@ if
 GlobalObject
 :
 :
-initStarGenerators
+initGenerators
 (
 cx
 global
@@ -8346,7 +8346,7 @@ JSObject
 GlobalObject
 :
 :
-getStarGeneratorFunctionPrototype
+getGeneratorFunctionPrototype
 (
 )
 {
@@ -8357,7 +8357,7 @@ v
 =
 getReservedSlot
 (
-STAR_GENERATOR_FUNCTION_PROTO
+GENERATOR_FUNCTION_PROTO
 )
 ;
 return
@@ -8451,12 +8451,12 @@ GlobalObject
 ;
 JSObject
 *
-parseTaskStarGenFunctionProto
+parseTaskGenFunctionProto
 =
 parseGlobal
 -
 >
-getStarGeneratorFunctionPrototype
+getGeneratorFunctionPrototype
 (
 )
 ;
@@ -8632,7 +8632,7 @@ if
 protoObj
 =
 =
-parseTaskStarGenFunctionProto
+parseTaskGenFunctionProto
 )
 {
 newProto
@@ -8640,7 +8640,7 @@ newProto
 global
 -
 >
-getStarGeneratorFunctionPrototype
+getGeneratorFunctionPrototype
 (
 )
 ;

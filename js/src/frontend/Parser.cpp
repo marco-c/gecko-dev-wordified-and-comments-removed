@@ -16161,7 +16161,7 @@ proto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorFunctionPrototype
+getOrCreateGeneratorFunctionPrototype
 (
 cx
 context
@@ -38063,7 +38063,7 @@ proto
 GlobalObject
 :
 :
-getOrCreateStarGeneratorFunctionPrototype
+getOrCreateGeneratorFunctionPrototype
 (
 cx
 context

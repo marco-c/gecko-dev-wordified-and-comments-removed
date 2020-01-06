@@ -1045,7 +1045,7 @@ frame
 ;
 MOZ_MUST_USE
 bool
-CheckStarGeneratorResumptionValue
+CheckGeneratorResumptionValue
 (
 JSContext
 *

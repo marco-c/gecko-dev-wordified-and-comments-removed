@@ -140,9 +140,9 @@ EMPTY_GLOBAL_SCOPE
 ITERATOR_PROTO
 ARRAY_ITERATOR_PROTO
 STRING_ITERATOR_PROTO
-STAR_GENERATOR_OBJECT_PROTO
-STAR_GENERATOR_FUNCTION_PROTO
-STAR_GENERATOR_FUNCTION
+GENERATOR_OBJECT_PROTO
+GENERATOR_FUNCTION_PROTO
+GENERATOR_FUNCTION
 ASYNC_FUNCTION_PROTO
 ASYNC_FUNCTION
 ASYNC_ITERATOR_PROTO
@@ -2753,7 +2753,7 @@ initStringIteratorProto
 static
 NativeObject
 *
-getOrCreateStarGeneratorObjectPrototype
+getOrCreateGeneratorObjectPrototype
 (
 JSContext
 *
@@ -2773,8 +2773,8 @@ getOrCreateObject
 (
 cx
 global
-STAR_GENERATOR_OBJECT_PROTO
-initStarGenerators
+GENERATOR_OBJECT_PROTO
+initGenerators
 )
 )
 ;
@@ -2782,7 +2782,7 @@ initStarGenerators
 static
 NativeObject
 *
-getOrCreateStarGeneratorFunctionPrototype
+getOrCreateGeneratorFunctionPrototype
 (
 JSContext
 *
@@ -2802,8 +2802,8 @@ getOrCreateObject
 (
 cx
 global
-STAR_GENERATOR_FUNCTION_PROTO
-initStarGenerators
+GENERATOR_FUNCTION_PROTO
+initGenerators
 )
 )
 ;
@@ -2811,7 +2811,7 @@ initStarGenerators
 static
 JSObject
 *
-getOrCreateStarGeneratorFunction
+getOrCreateGeneratorFunction
 (
 JSContext
 *
@@ -2829,8 +2829,8 @@ getOrCreateObject
 (
 cx
 global
-STAR_GENERATOR_FUNCTION
-initStarGenerators
+GENERATOR_FUNCTION
+initGenerators
 )
 ;
 }
@@ -3797,7 +3797,7 @@ global
 ;
 static
 bool
-initStarGenerators
+initGenerators
 (
 JSContext
 *
@@ -4295,7 +4295,7 @@ JSFunction
 }
 JSObject
 *
-getStarGeneratorFunctionPrototype
+getGeneratorFunctionPrototype
 (
 )
 ;
