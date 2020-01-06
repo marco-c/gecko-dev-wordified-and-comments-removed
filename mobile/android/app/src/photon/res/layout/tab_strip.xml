@@ -121,7 +121,9 @@ android
 layout_height
 =
 "
-match_parent
+dimen
+/
+tablet_tab_strip_height
 "
 android
 :
@@ -130,7 +132,7 @@ background
 "
 color
 /
-text_and_tabs_tray_grey
+photon_tab_strip_bg
 "
 /
 >
