@@ -145,6 +145,11 @@ TestStreamingLexer
 cpp
 '
 '
+TestSurfaceCache
+.
+cpp
+'
+'
 TestSurfaceSink
 .
 cpp
