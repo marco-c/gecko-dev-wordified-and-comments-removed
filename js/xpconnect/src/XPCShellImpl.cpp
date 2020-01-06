@@ -5915,10 +5915,6 @@ rv
 =
 XRE_GetBinaryPath
 (
-argv
-[
-0
-]
 getter_AddRefs
 (
 appFile
