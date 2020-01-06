@@ -16250,11 +16250,16 @@ HashKey
 )
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 ent
 )
+{
+return
+false
 ;
+}
 nsTArray
 <
 RefPtr
