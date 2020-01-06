@@ -10651,12 +10651,6 @@ xhtml
 ref
 .
 xhtml
-fails
--
-if
-(
-webrender
-)
 =
 =
 379349
@@ -10671,12 +10665,6 @@ xhtml
 ref
 .
 xhtml
-fails
--
-if
-(
-webrender
-)
 =
 =
 379349
