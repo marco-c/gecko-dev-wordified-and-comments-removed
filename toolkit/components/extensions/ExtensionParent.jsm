@@ -431,6 +431,14 @@ Set
 (
 )
 ;
+if
+(
+!
+AppConstants
+.
+RELEASE_OR_BETA
+)
+{
 schemaURLs
 .
 add
@@ -452,6 +460,7 @@ json
 "
 )
 ;
+}
 let
 GlobalManager
 ;
@@ -5024,6 +5033,7 @@ extensionNameFromURI
 GlobalManager
 HiddenExtensionPage
 ParentAPIManager
+WebExtensionPolicy
 apiManager
 get
 baseManifestProperties
