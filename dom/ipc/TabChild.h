@@ -2602,6 +2602,13 @@ MakeHidden
 (
 )
 ;
+void
+OnDocShellActivated
+(
+bool
+aIsActive
+)
+;
 nsIContentChild
 *
 Manager
