@@ -2210,7 +2210,7 @@ selector
 ;
 container
 .
-_onMouseMove
+onMouseMove
 (
 {
 pageX
@@ -2278,7 +2278,7 @@ selector
 ;
 container
 .
-_onMouseUp
+onMouseUp
 (
 )
 ;
