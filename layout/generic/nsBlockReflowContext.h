@@ -70,7 +70,7 @@ aPresContext
 const
 ReflowInput
 &
-aParentRS
+aParentRI
 )
 ;
 ~
