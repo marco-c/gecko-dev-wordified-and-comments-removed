@@ -2507,11 +2507,17 @@ defined
 (
 OS_WIN
 )
+static_cast
+<
+void
+>
+(
 DCHECK
 (
 positive_value
 >
 0
+)
 )
 #
 endif
