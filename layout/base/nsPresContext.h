@@ -1807,11 +1807,6 @@ return
 mFullZoom
 ;
 }
-float
-GetDeviceFullZoom
-(
-)
-;
 void
 SetFullZoom
 (
