@@ -201,7 +201,7 @@ AsGecko
 )
 {
 \
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGecko
 (
@@ -232,7 +232,7 @@ AsServo
 )
 {
 \
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsServo
 (
@@ -265,7 +265,7 @@ AsGecko
 const
 {
 \
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsGecko
 (
@@ -299,7 +299,7 @@ AsServo
 const
 {
 \
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 IsServo
 (
