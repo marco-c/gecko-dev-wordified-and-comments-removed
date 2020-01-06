@@ -1,7 +1,5 @@
 if
 (
-!
-(
 this
 .
 SharedArrayBuffer
@@ -11,20 +9,7 @@ this
 .
 Atomics
 )
-)
 {
-reportCompare
-(
-true
-true
-)
-;
-quit
-(
-0
-)
-;
-}
 let
 ab
 =
@@ -492,6 +477,7 @@ Idx
 RangeError
 )
 ;
+}
 }
 }
 reportCompare
