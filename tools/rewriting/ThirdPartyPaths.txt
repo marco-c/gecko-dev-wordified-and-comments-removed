@@ -6,10 +6,6 @@ translation
 /
 cld2
 /
-build
-/
-stlport
-/
 db
 /
 sqlite3
@@ -33,16 +29,6 @@ hunspell
 /
 src
 /
-gfx
-/
-2d
-/
-convolver
-gfx
-/
-2d
-/
-image_operations
 gfx
 /
 angle
