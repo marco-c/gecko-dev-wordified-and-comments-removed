@@ -3142,6 +3142,9 @@ GetRawExtension
 (
 kInvalidId
 )
+testing
+:
+:
 IsEmpty
 (
 )
@@ -3185,6 +3188,9 @@ AllocateRawExtension
 kInvalidId
 3
 )
+testing
+:
+:
 IsEmpty
 (
 )

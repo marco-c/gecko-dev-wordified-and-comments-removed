@@ -113,6 +113,14 @@ callback
 override
 ;
 void
+Stop
+(
+)
+override
+{
+}
+;
+void
 CaptureFrame
 (
 )

@@ -232,6 +232,13 @@ CreateDirectxCapturer
 (
 )
 {
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 if
 (
 !
@@ -268,6 +275,13 @@ MaybeCreateDirectxCapturer
 return
 true
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 void
 CreateMagnifierCapturer
