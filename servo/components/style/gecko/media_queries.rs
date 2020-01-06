@@ -732,8 +732,6 @@ Size2D
 Au
 >
 {
-unsafe
-{
 let
 area
 =
@@ -764,7 +762,6 @@ area
 height
 )
 )
-}
 }
 pub
 fn
