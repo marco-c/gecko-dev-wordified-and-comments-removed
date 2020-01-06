@@ -181,6 +181,16 @@ web
 images
 /
 "
+"
+resource
+:
+/
+/
+formautofill
+/
+addressmetadata
+/
+"
 ]
 ;
 if
