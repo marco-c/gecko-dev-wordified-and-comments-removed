@@ -859,6 +859,9 @@ portID
 "
 inited
 "
+simulated
+:
+true
 }
 )
 ;
@@ -882,6 +885,9 @@ portID
 "
 loaded
 "
+simulated
+:
+true
 }
 )
 ;
