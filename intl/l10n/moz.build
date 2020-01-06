@@ -134,6 +134,16 @@ chrome
 ini
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]
 FINAL_LIBRARY
 =
 '
