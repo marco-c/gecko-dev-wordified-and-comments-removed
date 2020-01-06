@@ -5472,7 +5472,12 @@ transition
 max
 -
 width
-300ms
+100ms
+;
+padding
+:
+0
+5px
 ;
 }
 .
@@ -5663,10 +5668,5 @@ display
 moz
 -
 box
-;
-padding
-:
-0
-5px
 ;
 }
