@@ -100,8 +100,6 @@ return
 fmap
 ;
 }
-else
-{
 PR_DELETE
 (
 fmap
@@ -110,7 +108,6 @@ fmap
 return
 NULL
 ;
-}
 }
 PR_IMPLEMENT
 (

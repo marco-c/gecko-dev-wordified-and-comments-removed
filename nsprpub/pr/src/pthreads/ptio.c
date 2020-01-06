@@ -3837,7 +3837,6 @@ PR_TRUE
 PR_FALSE
 ;
 }
-else
 if
 (
 (
@@ -4001,7 +4000,6 @@ PR_TRUE
 PR_FALSE
 ;
 }
-else
 if
 (
 (
@@ -4246,7 +4244,6 @@ PR_TRUE
 PR_FALSE
 ;
 }
-else
 if
 (
 (
@@ -4434,7 +4431,6 @@ PR_TRUE
 PR_FALSE
 ;
 }
-else
 if
 (
 (
@@ -14342,8 +14338,6 @@ return
 PR_FAILURE
 ;
 }
-else
-{
 #
 ifdef
 _PR_HAVE_SOCKADDR_LEN
@@ -14426,7 +14420,6 @@ PR_TRUE
 return
 PR_SUCCESS
 ;
-}
 }
 static
 PRStatus
@@ -14505,8 +14498,6 @@ return
 PR_FAILURE
 ;
 }
-else
-{
 #
 ifdef
 _PR_HAVE_SOCKADDR_LEN
@@ -14589,7 +14580,6 @@ PR_TRUE
 return
 PR_SUCCESS
 ;
-}
 }
 static
 PRStatus
@@ -18117,7 +18107,6 @@ return
 PR_FAILURE
 ;
 }
-else
 return
 PR_SUCCESS
 ;
@@ -18638,8 +18627,6 @@ return
 PR_SUCCESS
 ;
 }
-else
-{
 pt_MapError
 (
 _PR_MD_MAP_RMDIR_ERROR
@@ -18649,7 +18636,6 @@ errno
 return
 PR_FAILURE
 ;
-}
 }
 PR_IMPLEMENT
 (

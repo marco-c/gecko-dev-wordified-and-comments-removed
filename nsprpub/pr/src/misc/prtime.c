@@ -947,7 +947,6 @@ year
 return
 1
 ;
-else
 return
 0
 ;
@@ -6285,7 +6284,6 @@ rest
 )
 break
 ;
-else
 if
 (
 (
@@ -6377,7 +6375,6 @@ rest
 )
 break
 ;
-else
 if
 (
 (
@@ -6390,7 +6387,6 @@ rest
 )
 break
 ;
-else
 if
 (
 (
@@ -6510,7 +6506,6 @@ rest
 )
 break
 ;
-else
 if
 (
 (
@@ -6752,7 +6747,6 @@ end
 break
 ;
 }
-else
 if
 (
 (
@@ -10254,8 +10248,6 @@ return
 0
 ;
 }
-else
-{
 return
 (
 dayOfYear
@@ -10278,5 +10270,4 @@ dayOfYear
 1
 )
 ;
-}
 }

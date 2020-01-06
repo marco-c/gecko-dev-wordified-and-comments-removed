@@ -15872,12 +15872,9 @@ return
 errno
 ;
 }
-else
-{
 return
 err
 ;
-}
 #
 endif
 }

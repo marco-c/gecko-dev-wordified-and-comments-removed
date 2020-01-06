@@ -227,7 +227,6 @@ return
 rv
 ;
 }
-else
 if
 (
 (
@@ -1166,8 +1165,6 @@ return
 newstack
 ;
 }
-else
-{
 rv
 =
 PR_PushIOLayer
@@ -1188,7 +1185,6 @@ rv
 return
 newfd
 ;
-}
 }
 static
 PRStatus
@@ -1875,8 +1871,6 @@ return
 nbytes
 ;
 }
-else
-{
 rv
 =
 PR_PushIOLayer
@@ -1898,7 +1892,6 @@ rv
 return
 nbytes
 ;
-}
 }
 static
 PRInt32
@@ -2545,8 +2538,6 @@ stack
 return
 PR_FAILURE
 ;
-else
-{
 PR_DELETE
 (
 stack
@@ -2555,7 +2546,6 @@ stack
 return
 PR_SUCCESS
 ;
-}
 }
 PR_IMPLEMENT
 (
@@ -3592,7 +3582,6 @@ lower
 identity
 ;
 }
-else
 return
 fd
 -
@@ -3638,13 +3627,14 @@ fd
 >
 identity
 )
+{
 return
 fd
 -
 >
 lower
 ;
-else
+}
 return
 fd
 ;

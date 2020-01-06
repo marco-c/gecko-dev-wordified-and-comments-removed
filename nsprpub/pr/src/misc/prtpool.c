@@ -4271,8 +4271,6 @@ JOB_IO_CONNECT
 )
 ;
 }
-else
-{
 if
 (
 rv
@@ -4306,7 +4304,6 @@ joinable
 )
 )
 ;
-}
 }
 PR_IMPLEMENT
 (
