@@ -23238,7 +23238,7 @@ remote
 .
 allowLinkedWebInFileUriProcess
 "
-false
+true
 )
 ;
 pref
