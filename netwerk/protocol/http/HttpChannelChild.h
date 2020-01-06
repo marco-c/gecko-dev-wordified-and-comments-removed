@@ -706,6 +706,10 @@ const
 uint64_t
 &
 channelId
+const
+NetAddr
+&
+oldPeerAddr
 )
 override
 ;

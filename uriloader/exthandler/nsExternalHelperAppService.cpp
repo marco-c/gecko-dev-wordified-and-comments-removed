@@ -246,6 +246,13 @@ h
 #
 include
 "
+nsIRedirectHistoryEntry
+.
+h
+"
+#
+include
+"
 nsIHandlerService
 .
 h
@@ -8916,9 +8923,9 @@ Length
 ;
 for
 (
-nsIPrincipal
+nsIRedirectHistoryEntry
 *
-principal
+entry
 :
 loadInfo
 -
@@ -8933,7 +8940,7 @@ redirectChain
 >
 AppendElement
 (
-principal
+entry
 false
 )
 ;

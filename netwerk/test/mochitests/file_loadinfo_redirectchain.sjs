@@ -209,6 +209,8 @@ redirectChain
 i
 ]
 .
+principal
+.
 URI
 .
 spec
@@ -243,6 +245,8 @@ redirectChainIncludingInternalRedirects
 [
 i
 ]
+.
+principal
 .
 URI
 .
