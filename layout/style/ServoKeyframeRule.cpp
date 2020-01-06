@@ -82,10 +82,13 @@ aParent
 )
 final
 {
+NS_IF_ADDREF
+(
 *
 aParent
 =
 mRule
+)
 ;
 return
 NS_OK
