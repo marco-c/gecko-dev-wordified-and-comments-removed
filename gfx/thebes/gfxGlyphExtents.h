@@ -14,6 +14,13 @@ h
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
@@ -43,9 +50,6 @@ h
 "
 class
 gfxContext
-;
-struct
-gfxRect
 ;
 namespace
 mozilla

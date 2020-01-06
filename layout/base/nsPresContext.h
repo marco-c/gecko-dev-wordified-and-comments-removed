@@ -160,6 +160,13 @@ algorithm
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 gfxRect
 .
 h

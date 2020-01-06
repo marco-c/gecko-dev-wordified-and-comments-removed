@@ -14,6 +14,13 @@ h
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 nsSize
 .
 h
@@ -47,9 +54,6 @@ h
 "
 class
 gfxContext
-;
-struct
-gfxRect
 ;
 namespace
 mozilla

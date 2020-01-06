@@ -14217,8 +14217,12 @@ height
 ;
 nativeWidgetRect
 .
-ScaleInverse
+Scale
 (
+1
+.
+0
+/
 gfxFloat
 (
 p2a

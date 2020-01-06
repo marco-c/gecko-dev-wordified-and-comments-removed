@@ -7,6 +7,13 @@ MOZILLA_DOM_OFFSCREENCANVAS_H_
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DOMEventTargetHelper

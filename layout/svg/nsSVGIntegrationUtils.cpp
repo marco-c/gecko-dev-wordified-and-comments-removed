@@ -5342,8 +5342,12 @@ height
 ;
 overrideBounds
 .
-ScaleInverse
+Scale
 (
+1
+.
+0
+/
 aFrame
 -
 >

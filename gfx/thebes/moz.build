@@ -1094,11 +1094,6 @@ gfxPlatformFontList
 cpp
 '
 '
-gfxRect
-.
-cpp
-'
-'
 gfxScriptItemizer
 .
 cpp

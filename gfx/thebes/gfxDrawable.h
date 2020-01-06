@@ -21,6 +21,13 @@ h
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -37,6 +44,13 @@ mozilla
 gfx
 /
 Types
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "
