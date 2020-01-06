@@ -738,8 +738,11 @@ element
 get_id
 (
 )
+!
+=
+candidate_element
 .
-is_some
+get_id
 (
 )
 {
