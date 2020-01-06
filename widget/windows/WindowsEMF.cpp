@@ -197,15 +197,10 @@ HDC
 aDeviceContext
 const
 RECT
-*
+&
 aRect
 )
 {
-MOZ_ASSERT
-(
-aRect
-)
-;
 if
 (
 !
@@ -225,6 +220,7 @@ PlayEnhMetaFile
 (
 aDeviceContext
 mEmf
+&
 aRect
 )
 !
