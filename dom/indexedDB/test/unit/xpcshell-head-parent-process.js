@@ -2414,6 +2414,9 @@ testingFunctions
 wasmExtractCode
 (
 module1
+"
+ion
+"
 )
 ;
 let
@@ -2424,6 +2427,9 @@ testingFunctions
 wasmExtractCode
 (
 module2
+"
+ion
+"
 )
 ;
 let
