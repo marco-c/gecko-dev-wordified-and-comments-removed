@@ -309,7 +309,11 @@ self
 box_
 :
 :
+{
+AnimationIterationCount
+AnimationName
 VerticalAlign
+}
 ;
 pub
 use

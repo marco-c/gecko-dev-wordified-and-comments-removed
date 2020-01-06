@@ -260,7 +260,11 @@ self
 box_
 :
 :
+{
+AnimationIterationCount
+AnimationName
 VerticalAlign
+}
 ;
 pub
 use
@@ -1343,13 +1347,6 @@ Debug
 MallocSizeOf
 PartialEq
 PartialOrd
-)
-]
-#
-[
-allow
-(
-missing_docs
 )
 ]
 pub
