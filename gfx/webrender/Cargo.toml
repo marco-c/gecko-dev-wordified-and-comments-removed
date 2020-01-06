@@ -112,10 +112,6 @@ serde
 serde_derive
 "
 ]
-query
-=
-[
-]
 [
 dependencies
 ]
@@ -223,9 +219,9 @@ webrender_api
 bitflags
 =
 "
-1
-.
 0
+.
+9
 "
 thread_profiler
 =

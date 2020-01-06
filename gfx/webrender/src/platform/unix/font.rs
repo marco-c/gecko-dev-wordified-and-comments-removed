@@ -1523,6 +1523,17 @@ slot
 metrics
 }
 ;
+if
+metrics
+.
+horiAdvance
+=
+=
+0
+{
+return
+None
+}
 let
 advance
 =

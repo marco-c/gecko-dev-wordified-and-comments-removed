@@ -19,12 +19,6 @@ render_task
 :
 RenderTaskId
 ;
-use
-tiling
-:
-:
-RenderTargetKind
-;
 #
 [
 derive
@@ -95,10 +89,6 @@ Option
 <
 RenderTaskId
 >
-pub
-kind
-:
-RenderTargetKind
 }
 impl
 PicturePrimitive
@@ -110,9 +100,6 @@ new_shadow
 shadow
 :
 Shadow
-kind
-:
-RenderTargetKind
 )
 -
 >
@@ -140,7 +127,6 @@ shadow
 render_task_id
 :
 None
-kind
 }
 }
 pub

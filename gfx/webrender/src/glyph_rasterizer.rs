@@ -872,14 +872,11 @@ entry
 {
 if
 let
-Ok
-(
 Some
 (
 ref
 mut
 glyph_info
-)
 )
 =
 *
@@ -1683,10 +1680,7 @@ job
 request
 .
 key
-Ok
-(
 glyph_info
-)
 )
 ;
 }
