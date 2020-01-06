@@ -3846,6 +3846,11 @@ Promise
 >
 mSeekDOMPromise
 ;
+void
+AssertReadyStateIsNothing
+(
+)
+;
 }
 ;
 bool
