@@ -1519,6 +1519,11 @@ WasmBoundsCheck
 \
 _
 (
+WasmAlignmentCheck
+)
+\
+_
+(
 WasmLoadTls
 )
 \

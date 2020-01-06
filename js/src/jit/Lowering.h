@@ -2210,6 +2210,14 @@ ins
 )
 ;
 void
+visitWasmAlignmentCheck
+(
+MWasmAlignmentCheck
+*
+ins
+)
+;
+void
 visitWasmLoadGlobalVar
 (
 MWasmLoadGlobalVar
