@@ -163,6 +163,12 @@ lint
 -
 tools
 /
+mach_commands
+.
+py
+-
+tools
+/
 mercurial
 -
 tools
