@@ -125,6 +125,18 @@ import
 cli
         
 lintargs
+.
+setdefault
+(
+'
+root
+'
+self
+.
+topsrcdir
+)
+        
+lintargs
 [
 '
 exclude
