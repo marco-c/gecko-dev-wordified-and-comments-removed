@@ -453,6 +453,13 @@ nscoord
 aOldHeight
 =
 0
+ResizeReflowOptions
+aOptions
+=
+ResizeReflowOptions
+:
+:
+eBSizeExact
 )
 override
 ;
@@ -468,6 +475,13 @@ nscoord
 aOldWidth
 nscoord
 aOldHeight
+ResizeReflowOptions
+aOptions
+=
+ResizeReflowOptions
+:
+:
+eBSizeExact
 )
 override
 ;
