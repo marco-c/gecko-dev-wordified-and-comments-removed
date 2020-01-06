@@ -697,9 +697,10 @@ Instance
 *
 LookupFaultingInstance
 (
-WasmActivation
-*
-activation
+const
+Code
+&
+code
 void
 *
 pc
