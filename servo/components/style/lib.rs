@@ -43,10 +43,6 @@ extern
 crate
 atomic_refcell
 ;
-extern
-crate
-bit_vec
-;
 #
 [
 macro_use
@@ -369,6 +365,10 @@ servo
 extern
 crate
 servo_url
+;
+extern
+crate
+smallbitvec
 ;
 extern
 crate

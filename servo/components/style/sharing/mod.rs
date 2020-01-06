@@ -17,12 +17,6 @@ AtomicRefMut
 }
 ;
 use
-bit_vec
-:
-:
-BitVec
-;
-use
 bloom
 :
 :
@@ -97,6 +91,12 @@ servo_arc
 :
 :
 Arc
+;
+use
+smallbitvec
+:
+:
+SmallBitVec
 ;
 use
 smallvec
@@ -212,7 +212,7 @@ revalidation_match_results
 :
 Option
 <
-BitVec
+SmallBitVec
 >
 }
 impl
@@ -497,7 +497,7 @@ F
 -
 >
 &
-BitVec
+SmallBitVec
 where
 E
 :
@@ -765,7 +765,7 @@ E
 -
 >
 &
-BitVec
+SmallBitVec
 {
 self
 .
@@ -1004,7 +1004,7 @@ E
 -
 >
 &
-BitVec
+SmallBitVec
 {
 let
 element
