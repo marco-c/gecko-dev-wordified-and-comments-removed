@@ -176,7 +176,6 @@ LayerTransactionChild
 )
 {
 }
-virtual
 void
 ActorDestroy
 (

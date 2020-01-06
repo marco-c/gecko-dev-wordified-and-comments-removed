@@ -900,7 +900,6 @@ DoDestroy
 (
 )
 ;
-virtual
 mozilla
 :
 :

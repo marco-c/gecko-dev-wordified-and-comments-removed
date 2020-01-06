@@ -564,7 +564,6 @@ aPaintTime
 )
 {
 }
-virtual
 ShmemAllocator
 *
 AsShmemAllocator
@@ -576,7 +575,6 @@ return
 this
 ;
 }
-virtual
 CompositorBridgeParentBase
 *
 AsCompositorBridgeParentBase
@@ -588,7 +586,6 @@ return
 this
 ;
 }
-virtual
 mozilla
 :
 :
@@ -681,7 +678,6 @@ aCompositeEnd
 )
 {
 }
-virtual
 base
 :
 :
@@ -691,7 +687,6 @@ GetChildProcessId
 )
 override
 ;
-virtual
 void
 NotifyNotUsed
 (
@@ -703,7 +698,6 @@ aTransactionId
 )
 override
 ;
-virtual
 void
 SendAsyncMessage
 (
@@ -717,7 +711,6 @@ aMessage
 )
 override
 ;
-virtual
 bool
 AllocShmem
 (
@@ -746,7 +739,6 @@ aShmem
 )
 override
 ;
-virtual
 bool
 AllocUnsafeShmem
 (
@@ -775,7 +767,6 @@ aShmem
 )
 override
 ;
-virtual
 void
 DeallocShmem
 (
@@ -1029,7 +1020,6 @@ uint64_t
 aLayerTreeId
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1046,7 +1036,6 @@ aRootLayerTreeId
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1062,7 +1051,6 @@ aOutData
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1075,7 +1063,6 @@ RecvWillClose
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1088,7 +1075,6 @@ RecvPause
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1101,7 +1087,6 @@ RecvResume
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1121,7 +1106,6 @@ aOptions
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1148,7 +1132,6 @@ aOptions
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1168,7 +1151,6 @@ aOptions
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1185,7 +1167,6 @@ child
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1209,7 +1190,6 @@ aRect
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1222,7 +1202,6 @@ RecvFlushRendering
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1235,7 +1214,6 @@ RecvFlushRenderingAsync
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1248,7 +1226,6 @@ RecvWaitOnTransactionProcessed
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1261,7 +1238,6 @@ RecvForcePresent
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1278,7 +1254,6 @@ aRegion
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1298,7 +1273,6 @@ aOutStartIndex
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1321,7 +1295,6 @@ intervals
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1347,7 +1320,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -1367,7 +1339,6 @@ IPC_OK
 ;
 }
 ;
-virtual
 mozilla
 :
 :
@@ -1404,7 +1375,6 @@ uint32_t
 aPresShellId
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1425,7 +1395,6 @@ aRegion
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1438,7 +1407,6 @@ RecvAllPluginsCaptured
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (
@@ -1447,7 +1415,6 @@ why
 )
 override
 ;
-virtual
 void
 ShadowLayersUpdated
 (
@@ -1463,7 +1430,6 @@ aHitTestUpdate
 )
 override
 ;
-virtual
 void
 ForceComposite
 (
@@ -1473,7 +1439,6 @@ aLayerTree
 )
 override
 ;
-virtual
 bool
 SetTestSampleTime
 (
@@ -1488,7 +1453,6 @@ aTime
 )
 override
 ;
-virtual
 void
 LeaveTestMode
 (
@@ -1499,7 +1463,6 @@ aId
 )
 override
 ;
-virtual
 void
 ApplyAsyncProperties
 (
@@ -1515,7 +1478,6 @@ GetAnimationStorage
 (
 )
 ;
-virtual
 void
 FlushApzRepaints
 (
@@ -1526,7 +1488,6 @@ aLayersId
 )
 override
 ;
-virtual
 void
 GetAPZTestData
 (
@@ -1540,7 +1501,6 @@ aOutData
 )
 override
 ;
-virtual
 void
 SetConfirmedTargetAPZC
 (
@@ -1562,7 +1522,6 @@ aTargets
 )
 override
 ;
-virtual
 AsyncCompositionManager
 *
 GetCompositionManager
@@ -1577,7 +1536,6 @@ return
 mCompositionManager
 ;
 }
-virtual
 PTextureParent
 *
 AllocPTextureParent
@@ -1612,7 +1570,6 @@ aExternalImageId
 )
 override
 ;
-virtual
 bool
 DeallocPTextureParent
 (
@@ -1622,7 +1579,6 @@ actor
 )
 override
 ;
-virtual
 bool
 IsSameProcess
 (
@@ -1630,7 +1586,6 @@ IsSameProcess
 const
 override
 ;
-virtual
 void
 NotifyWebRenderError
 (
@@ -2015,7 +1970,6 @@ override
 }
 #
 endif
-virtual
 mozilla
 :
 :
@@ -2278,7 +2232,6 @@ DeferredDestroy
 (
 )
 ;
-virtual
 PLayerTransactionParent
 *
 AllocPLayerTransactionParent
@@ -2297,7 +2250,6 @@ aId
 )
 override
 ;
-virtual
 bool
 DeallocPLayerTransactionParent
 (
@@ -2501,7 +2453,6 @@ TimeStamp
 aCompositeEnd
 )
 ;
-virtual
 void
 NotifyDidCompositeToPipeline
 (
