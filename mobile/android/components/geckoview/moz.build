@@ -95,6 +95,11 @@ GeckoView
 manifest
 '
 '
+GeckoViewPermission
+.
+js
+'
+'
 GeckoViewPrompt
 .
 js

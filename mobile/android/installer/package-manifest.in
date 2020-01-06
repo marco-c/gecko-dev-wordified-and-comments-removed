@@ -3117,6 +3117,13 @@ components
 GeckoViewPrompt
 .
 js
+BINPATH
+/
+components
+/
+GeckoViewPermission
+.
+js
 #
 else
 BINPATH
