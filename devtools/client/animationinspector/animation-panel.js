@@ -1398,7 +1398,6 @@ onRateChanged
 :
 function
 (
-e
 rate
 )
 {
@@ -1454,7 +1453,6 @@ onTimelineDataChanged
 :
 function
 (
-e
 data
 )
 {
