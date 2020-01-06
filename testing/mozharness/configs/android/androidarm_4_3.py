@@ -119,7 +119,7 @@ tooltool_cache
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -132,7 +132,7 @@ avds_dir
 :
 "
 /
-home
+builds
 /
 worker
 /

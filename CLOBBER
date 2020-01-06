@@ -195,11 +195,10 @@ any
 more
 .
 Bug
-1353650
+1338651
 -
 Update
-to
-ICU
-59
-requires
-clobber
+OSX
+Taskcluster
+docker
+image

@@ -240,7 +240,7 @@ WORKSPACE
 :
 =
 /
-home
+builds
 /
 worker
 /

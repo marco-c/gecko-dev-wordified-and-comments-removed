@@ -227,7 +227,7 @@ PATH
 :
 '
 /
-home
+builds
 /
 worker
 /
