@@ -500,7 +500,7 @@ IsEnableAudioCompeting
 (
 )
 )
-mShouldSendBlockStopEvent
+mShouldSendActiveMediaBlockStopEvent
 (
 false
 )
@@ -582,7 +582,7 @@ bool
 mOwningAudioFocus
 ;
 bool
-mShouldSendBlockStopEvent
+mShouldSendActiveMediaBlockStopEvent
 ;
 private
 :
