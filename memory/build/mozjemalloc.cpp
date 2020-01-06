@@ -139,6 +139,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 #
 ifdef
 XP_WIN
@@ -1335,15 +1339,9 @@ CHUNK_RECYCLE_LIMIT
 CHUNKSIZE_DEFAULT
 ;
 static
-mozilla
-:
-:
 Atomic
 <
 size_t
-mozilla
-:
-:
 ReleaseAcquire
 >
 gRecycledSize
@@ -1469,9 +1467,6 @@ mMutex
 }
 ;
 static
-mozilla
-:
-:
 Atomic
 <
 bool
@@ -2300,9 +2295,6 @@ link_dirty
 #
 ifdef
 MALLOC_DOUBLE_PURGE
-mozilla
-:
-:
 DoublyLinkedListElement
 <
 arena_chunk_t
@@ -2533,9 +2525,6 @@ mChunksDirty
 #
 ifdef
 MALLOC_DOUBLE_PURGE
-mozilla
-:
-:
 DoublyLinkedList
 <
 arena_chunk_t
@@ -3026,9 +3015,6 @@ thread_arena
 #
 else
 static
-mozilla
-:
-:
 detail
 :
 :
@@ -3036,9 +3022,6 @@ ThreadLocal
 <
 arena_t
 *
-mozilla
-:
-:
 detail
 :
 :
@@ -4604,9 +4587,6 @@ aPtr
 using
 UniqueBaseNode
 =
-mozilla
-:
-:
 UniquePtr
 <
 extent_node_t
@@ -9458,9 +9438,6 @@ aChunk
 >
 chunks_madvised_elem
 )
-mozilla
-:
-:
 DoublyLinkedListElement
 <
 arena_chunk_t
@@ -15762,9 +15739,6 @@ new
 &
 mChunksMAdvised
 )
-mozilla
-:
-:
 DoublyLinkedList
 <
 arena_chunk_t
@@ -19433,9 +19407,6 @@ npages
 pagesize_2pow
 )
 ;
-mozilla
-:
-:
 Unused
 <
 <
