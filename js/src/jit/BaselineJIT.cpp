@@ -5580,10 +5580,14 @@ toMonitoredFallbackStub
 )
 -
 >
-fallbackMonitorStub
+maybeFallbackMonitorStub
 (
 )
 ;
+if
+(
+lastMonStub
+)
 lastMonStub
 -
 >
