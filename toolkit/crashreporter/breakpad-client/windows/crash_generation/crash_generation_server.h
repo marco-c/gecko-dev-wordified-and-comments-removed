@@ -21,6 +21,17 @@ windows
 /
 common
 /
+minidump_callback
+.
+h
+"
+#
+include
+"
+windows
+/
+common
+/
 ipc_protocol
 .
 h
@@ -491,6 +502,9 @@ client_info_
 ;
 bool
 include_context_heap_
+;
+AppMemoryList
+app_memory_info_
 ;
 CrashGenerationServer
 (
