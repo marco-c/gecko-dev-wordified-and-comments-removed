@@ -1922,7 +1922,7 @@ this
 .
 tabContainer
 .
-adjustTabstrip
+_updateCloseButtons
 (
 )
 ;
@@ -2086,7 +2086,7 @@ this
 .
 tabContainer
 .
-adjustTabstrip
+_updateCloseButtons
 (
 )
 ;
@@ -22683,7 +22683,7 @@ this
 .
 tabContainer
 .
-adjustTabstrip
+_updateCloseButtons
 (
 )
 ;
@@ -25793,7 +25793,7 @@ this
 .
 tabContainer
 .
-adjustTabstrip
+_updateCloseButtons
 (
 )
 ;
@@ -25924,7 +25924,7 @@ this
 .
 tabContainer
 .
-adjustTabstrip
+_updateCloseButtons
 (
 )
 ;
@@ -43280,7 +43280,7 @@ CDATA
 [
 this
 .
-mTabClipWidth
+_tabClipWidth
 =
 Services
 .
@@ -45207,7 +45207,7 @@ method
 name
 =
 "
-adjustTabstrip
+_updateCloseButtons
 "
 >
 <
@@ -45472,7 +45472,7 @@ width
 =
 this
 .
-mTabClipWidth
+_tabClipWidth
 )
 {
 this
@@ -47718,7 +47718,7 @@ updateAppearance
 ;
 this
 .
-adjustTabstrip
+_updateCloseButtons
 (
 )
 ;
@@ -48778,7 +48778,7 @@ tabAnimationsInProgress
 ;
 this
 .
-adjustTabstrip
+_updateCloseButtons
 (
 )
 ;
@@ -49161,7 +49161,7 @@ _fullyOpen
 )
 this
 .
-adjustTabstrip
+_updateCloseButtons
 (
 )
 ;
