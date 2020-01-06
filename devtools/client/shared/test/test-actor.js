@@ -71,6 +71,7 @@ task
 const
 {
 isContentStylesheet
+getCSSStyleRules
 }
 =
 require
@@ -3045,8 +3046,6 @@ selector
 let
 domRules
 =
-DOMUtils
-.
 getCSSStyleRules
 (
 node
