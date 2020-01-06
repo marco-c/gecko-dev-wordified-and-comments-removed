@@ -101,12 +101,12 @@ mRacyInfo
 mozilla
 :
 :
-WrapNotNull
-(
-new
+MakeNotNull
+<
 RacyThreadInfo
+*
+>
 (
-)
 )
 )
 mPlatformData

@@ -401,12 +401,12 @@ mFramesNotified
 endif
 mSourceBuffer
 (
-WrapNotNull
-(
-new
+MakeNotNull
+<
 SourceBuffer
+*
+>
 (
-)
 )
 )
 mHasSize
