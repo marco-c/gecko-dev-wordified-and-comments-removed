@@ -34,6 +34,12 @@ ui
 -
 testing
 /
+mach_commands
+.
+py
+-
+testing
+/
 marionette
 /
 client
