@@ -2360,6 +2360,12 @@ REGEXP_UNICODE_FLAG
 )
 )
 ;
+if
+(
+flags
+&
+REGEXP_STICKY_FLAG
+)
 splitter
 =
 regexp_construct_raw_flags
@@ -2370,6 +2376,11 @@ flags
 ~
 REGEXP_STICKY_FLAG
 )
+;
+else
+splitter
+=
+rx
 ;
 }
 else
@@ -2455,7 +2466,7 @@ undefined
 )
 lim
 =
-MAX_NUMERIC_INDEX
+MAX_UINT32
 ;
 else
 lim
