@@ -7661,6 +7661,12 @@ type
 "
 )
 ;
+item
+.
+typeCode
+=
+type
+;
 if
 (
 type
