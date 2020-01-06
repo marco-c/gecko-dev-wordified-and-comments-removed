@@ -145,6 +145,3 @@ CONFIG
 MOZ_BZ2_CFLAGS
 '
 ]
-NO_PGO
-=
-True

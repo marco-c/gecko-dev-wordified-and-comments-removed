@@ -108,9 +108,6 @@ modules
 test
 '
 )
-NO_PGO
-=
-True
 if
 CONFIG
 [

@@ -217,6 +217,3 @@ OS_LIBS
 gdiplus
 '
 ]
-NO_PGO
-=
-True

@@ -154,6 +154,3 @@ pkcs11testmodule
 .
 symbols
 '
-NO_PGO
-=
-True

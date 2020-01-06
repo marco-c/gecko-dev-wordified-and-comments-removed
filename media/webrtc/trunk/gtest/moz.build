@@ -156,9 +156,6 @@ otherwise
 DISABLE_STL_WRAPPING
 =
 True
-NO_PGO
-=
-True
 LOCAL_INCLUDES
 +
 =
