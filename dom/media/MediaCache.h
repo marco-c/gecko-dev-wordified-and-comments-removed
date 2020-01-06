@@ -742,6 +742,11 @@ mLoadID
 =
 0
 ;
+bool
+mThrottleReadahead
+=
+false
+;
 UniquePtr
 <
 uint8_t
@@ -763,11 +768,6 @@ BLOCK_SIZE
 const
 bool
 mIsPrivateBrowsing
-;
-bool
-mThrottleReadahead
-=
-false
 ;
 }
 ;
