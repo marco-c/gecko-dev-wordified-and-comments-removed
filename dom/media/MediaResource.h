@@ -2216,6 +2216,13 @@ mOffset
 )
 mCacheBlockSize
 (
+aResource
+-
+>
+ShouldCacheReads
+(
+)
+?
 SelectCacheSize
 (
 MediaPrefs
@@ -2225,6 +2232,8 @@ MediaResourceIndexCache
 (
 )
 )
+:
+0
 )
 mCachedOffset
 (
