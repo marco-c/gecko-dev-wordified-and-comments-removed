@@ -2446,7 +2446,11 @@ mEntityID
 uint64_t
 mStartPos
 ;
+Atomic
+<
 nsresult
+ReleaseAcquire
+>
 mStatus
 ;
 uint32_t
