@@ -27987,7 +27987,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSString
@@ -28074,7 +28074,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSString
@@ -28371,7 +28371,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSString
@@ -28431,7 +28431,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSString
@@ -28547,7 +28547,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSFlatString
@@ -28578,7 +28578,7 @@ const
 JS
 :
 :
-AutoCheckCannotGC
+AutoRequireNoGC
 &
 nogc
 JSFlatString
