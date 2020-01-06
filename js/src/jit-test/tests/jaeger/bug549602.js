@@ -1,7 +1,3 @@
-version
-(
-180
-)
 function
 f1
 (
