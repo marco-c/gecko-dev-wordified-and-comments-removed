@@ -424,6 +424,10 @@ HasMetadataFor
 (
 aScrollId
 )
+.
+isSome
+(
+)
 ;
 }
 ;

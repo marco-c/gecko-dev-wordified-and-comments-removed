@@ -645,7 +645,10 @@ aIndex
 )
 const
 ;
-bool
+Maybe
+<
+size_t
+>
 HasMetadataFor
 (
 const
