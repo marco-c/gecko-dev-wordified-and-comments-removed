@@ -2419,6 +2419,9 @@ empty
 )
 &
 ServoMetricsProvider
+context
+.
+error_reporter
 )
 .
 clone
@@ -2467,6 +2470,9 @@ primary
 false
 &
 ServoMetricsProvider
+context
+.
+error_reporter
 )
 .
 unwrap

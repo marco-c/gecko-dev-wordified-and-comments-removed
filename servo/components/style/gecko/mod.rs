@@ -19,6 +19,10 @@ data
 ;
 pub
 mod
+error_reporter
+;
+pub
+mod
 global_style_data
 ;
 pub
