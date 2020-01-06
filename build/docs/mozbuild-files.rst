@@ -290,7 +290,7 @@ a
 few
 symbols
 from
-__builtins__
+__builtin__
 are
 exposed
 .
@@ -298,8 +298,11 @@ These
 include
 True
 False
-and
 None
+sorted
+int
+and
+set
 .
 Global
 functions
