@@ -463,6 +463,7 @@ rv
 =
 BodyDeleteFiles
 (
+aQuotaInfo
 aDBDir
 deletedBodyIdList
 )
@@ -505,6 +506,7 @@ rv
 =
 BodyDeleteOrphanedFiles
 (
+aQuotaInfo
 aDBDir
 knownBodyIdList
 )
@@ -688,6 +690,7 @@ rv
 =
 BodyDeleteFiles
 (
+aQuotaInfo
 dbDir
 mDeletedBodyIdList
 )
@@ -2861,6 +2864,13 @@ mConn
 =
 aConn
 ;
+mQuotaInfo
+.
+emplace
+(
+aQuotaInfo
+)
+;
 nsresult
 rv
 =
@@ -3844,6 +3854,11 @@ aRv
 {
 BodyDeleteFiles
 (
+mQuotaInfo
+.
+ref
+(
+)
 mDBDir
 mBodyIdWrittenList
 )
@@ -3955,6 +3970,12 @@ nsISupports
 >
 >
 mCopyContextList
+;
+Maybe
+<
+QuotaInfo
+>
+mQuotaInfo
 ;
 }
 ;

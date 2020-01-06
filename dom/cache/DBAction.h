@@ -135,6 +135,10 @@ aConnOut
 nsresult
 WipeDatabase
 (
+const
+QuotaInfo
+&
+aQuotaInfo
 nsIFile
 *
 aDBFile
