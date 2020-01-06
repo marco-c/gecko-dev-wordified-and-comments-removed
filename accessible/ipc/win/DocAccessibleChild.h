@@ -116,6 +116,16 @@ aEmulatedWindowCOMProxy
 )
 override
 ;
+virtual
+ipc
+:
+:
+IPCResult
+RecvRestoreFocus
+(
+)
+override
+;
 HWND
 GetNativeWindowHandle
 (
