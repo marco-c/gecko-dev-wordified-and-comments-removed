@@ -826,12 +826,7 @@ SetMode
 Mode
 aMode
 )
-{
-mMode
-=
-aMode
 ;
-}
 bool
 IsReadOnly
 (
@@ -944,6 +939,11 @@ uint32_t
 aLength
 )
 const
+;
+void
+Disconnect
+(
+)
 ;
 void
 ClearAll
