@@ -14269,6 +14269,12 @@ mIncrementalPhase
 CleanupPhase
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+!
+mScanInProgress
+)
+;
 mGraph
 .
 Clear
@@ -15282,6 +15288,12 @@ MOZ_ASSERT
 IsIdle
 (
 )
+)
+;
+MOZ_RELEASE_ASSERT
+(
+!
+mScanInProgress
 )
 ;
 mCollectionStart
