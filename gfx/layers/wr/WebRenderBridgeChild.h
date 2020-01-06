@@ -491,6 +491,16 @@ ClearReadLocks
 (
 )
 ;
+void
+BeginClearCachedResources
+(
+)
+;
+void
+EndClearCachedResources
+(
+)
+;
 private
 :
 friend
@@ -756,6 +766,9 @@ mReadLockSequenceNumber
 ;
 bool
 mIsInTransaction
+;
+bool
+mIsInClearCachedResources
 ;
 uint32_t
 mIdNamespace
