@@ -40,6 +40,11 @@ endif
 ifdef
 MOZILLA_INTERNAL_API
 bool
+NS_IsMainThreadTLSInitialized
+(
+)
+;
+bool
 NS_IsMainThread
 (
 )
