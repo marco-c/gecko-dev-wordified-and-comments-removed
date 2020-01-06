@@ -589,7 +589,7 @@ substs
 get
 (
 '
-MOZ_STYLO
+MOZ_STYLO_ENABLE
 '
 )
 =
