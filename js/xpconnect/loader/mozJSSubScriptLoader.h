@@ -109,8 +109,6 @@ nsIIOService
 *
 serv
 bool
-reuseGlobal
-bool
 wantReturnValue
 JS
 :
@@ -142,8 +140,6 @@ charset
 nsIIOService
 *
 serv
-bool
-reuseGlobal
 bool
 wantReturnValue
 bool
