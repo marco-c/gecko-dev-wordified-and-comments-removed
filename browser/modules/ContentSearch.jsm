@@ -339,9 +339,6 @@ stringNames
 searchHeader
 "
 "
-searchPlaceholder
-"
-"
 searchForSomethingWith
 "
 "
