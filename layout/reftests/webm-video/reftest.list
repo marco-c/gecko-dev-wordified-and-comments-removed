@@ -607,7 +607,7 @@ ref
 black140x100
 .
 html
-fails
+random
 -
 if
 (
@@ -641,7 +641,7 @@ ref
 black140x100
 .
 html
-fails
+random
 -
 if
 (
