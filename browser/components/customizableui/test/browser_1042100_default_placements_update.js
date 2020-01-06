@@ -98,7 +98,7 @@ CustomizableUIBSPass
 ;
 CustomizableUIInternal
 .
-_introduceNewBuiltinWidgets
+_updateForNewVersion
 (
 )
 ;
@@ -339,7 +339,7 @@ kVersion
 }
 CustomizableUIInternal
 .
-_introduceNewBuiltinWidgets
+_updateForNewVersion
 (
 )
 ;
@@ -600,7 +600,7 @@ controls
 ;
 CustomizableUIInternal
 .
-_introduceNewBuiltinWidgets
+_updateForNewVersion
 (
 )
 ;
