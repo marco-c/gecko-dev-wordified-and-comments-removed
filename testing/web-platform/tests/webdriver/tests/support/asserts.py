@@ -114,7 +114,7 @@ such
 alert
 "
 :
-400
+404
     
 "
 no
@@ -138,7 +138,7 @@ such
 frame
 "
 :
-400
+404
     
 "
 no
@@ -146,7 +146,7 @@ such
 window
 "
 :
-400
+404
     
 "
 script
