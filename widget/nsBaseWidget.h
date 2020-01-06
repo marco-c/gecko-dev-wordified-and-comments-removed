@@ -911,7 +911,7 @@ LAYER_MANAGER_CURRENT
 override
 ;
 void
-NotifyRemoteCompositorSessionLost
+NotifyCompositorSessionLost
 (
 mozilla
 :

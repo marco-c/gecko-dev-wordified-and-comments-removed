@@ -131,7 +131,7 @@ Get
 )
 -
 >
-RegisterSession
+RegisterRemoteProcessSession
 (
 this
 )
@@ -188,15 +188,10 @@ NotifySessionLost
 (
 )
 {
-MOZ_ASSERT
-(
-mWidget
-)
-;
 mWidget
 -
 >
-NotifyRemoteCompositorSessionLost
+NotifyCompositorSessionLost
 (
 this
 )
@@ -270,6 +265,7 @@ RemoteCompositorSession
 GetWidget
 (
 )
+const
 {
 return
 mWidget
@@ -369,7 +365,7 @@ Get
 )
 -
 >
-UnregisterSession
+UnregisterRemoteProcessSession
 (
 this
 )

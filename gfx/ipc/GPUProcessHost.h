@@ -110,7 +110,7 @@ aHost
 }
 virtual
 void
-OnProcessDeviceReset
+OnRemoteProcessDeviceReset
 (
 GPUProcessHost
 *
