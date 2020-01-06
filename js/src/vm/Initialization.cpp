@@ -968,6 +968,17 @@ ReleaseProcessExecutableMemory
 (
 )
 ;
+MOZ_ASSERT
+(
+!
+js
+:
+:
+LiveMappedBufferCount
+(
+)
+)
+;
 }
 js
 :

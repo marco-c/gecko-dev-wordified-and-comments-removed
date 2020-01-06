@@ -18412,10 +18412,7 @@ rval
 .
 setInt32
 (
-SharedArrayRawBuffer
-:
-:
-liveBuffers
+LiveMappedBufferCount
 (
 )
 )
