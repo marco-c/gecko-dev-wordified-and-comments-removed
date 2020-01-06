@@ -50907,10 +50907,9 @@ nsIPrompt
 :
 BUTTON_POS_2
 ;
-bool
-old
-=
-JS_DisableInterruptCallback
+{
+AutoDisableJSInterruptCallback
+disabler
 (
 cx
 )
@@ -50935,12 +50934,7 @@ neverShowDlgChk
 buttonPressed
 )
 ;
-JS_ResetInterruptCallback
-(
-cx
-old
-)
-;
+}
 if
 (
 NS_SUCCEEDED
