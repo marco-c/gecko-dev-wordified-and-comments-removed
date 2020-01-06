@@ -1327,9 +1327,17 @@ id
 ;
 if
 (
+!
 wref
 )
 {
+throw
+new
+RangeError
+(
+)
+;
+}
 return
 wref
 .
@@ -1337,7 +1345,6 @@ get
 (
 )
 ;
-}
 }
 }
 ;
