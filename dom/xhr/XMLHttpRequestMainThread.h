@@ -747,6 +747,7 @@ eRequest
 eUnreachable
 eChannelOpen
 eRedirect
+eTerminated
 ENUM_MAX
 }
 ;
@@ -2468,6 +2469,11 @@ mNetworkInterfaceId
 ;
 void
 CloseRequest
+(
+)
+;
+void
+TerminateOngoingFetch
 (
 )
 ;
