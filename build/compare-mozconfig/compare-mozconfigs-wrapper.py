@@ -265,13 +265,6 @@ whitelist
 '
                                         
 whitelist_path
-'
--
--
-no
--
-download
-'
                                         
 platform
 +
@@ -325,13 +318,6 @@ whitelist
 '
                                         
 whitelist_path
-'
--
--
-no
--
-download
-'
                                         
 platform
 +
