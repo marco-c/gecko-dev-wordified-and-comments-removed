@@ -18,6 +18,8 @@ api
 branch
 )
 s
+non
+-
 Gradle
 '
     
@@ -80,37 +82,6 @@ android
 '
     
 '
-postflight_build_mach_commands
-'
-:
-[
-        
-[
-'
-gradle
-'
-         
-'
-geckoview
-:
-assembleWithGeckoBinaries
-'
-         
-'
-geckoview_example
-:
-assembleWithGeckoBinaries
-'
-         
-'
-uploadArchives
-'
-        
-]
-    
-]
-    
-'
 artifact_flag_build_variant_in_try
 '
 :
@@ -125,8 +96,9 @@ artifact
 '
     
 '
-max_build_output_timeout
+postflight_build_mach_commands
 '
 :
-0
+[
+]
 }

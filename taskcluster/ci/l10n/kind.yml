@@ -315,6 +315,12 @@ l10n
 -
 android
 -
+gradle
+-
+dependencies
+-
+android
+-
 sdk
 -
 linux
