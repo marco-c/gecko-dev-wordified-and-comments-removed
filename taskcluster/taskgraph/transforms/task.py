@@ -6170,6 +6170,20 @@ in
 tasks
 :
         
+level
+=
+str
+(
+config
+.
+params
+[
+'
+level
+'
+]
+)
+        
 worker_type
 =
 task
@@ -6185,17 +6199,7 @@ format
 (
 level
 =
-str
-(
-config
-.
-params
-[
-'
 level
-'
-]
-)
 )
         
 provisioner_id
@@ -6226,6 +6230,18 @@ routes
         
 scopes
 =
+[
+s
+.
+format
+(
+level
+=
+level
+)
+for
+s
+in
 task
 .
 get
@@ -6236,6 +6252,7 @@ scopes
 [
 ]
 )
+]
         
 extra
 =

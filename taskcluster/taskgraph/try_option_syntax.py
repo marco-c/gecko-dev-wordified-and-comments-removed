@@ -4422,17 +4422,14 @@ if
 self
 .
 jobs
-and
+:
+                
+return
 job_try_name
-not
 in
 self
 .
 jobs
-:
-                
-return
-False
             
 elif
 not
