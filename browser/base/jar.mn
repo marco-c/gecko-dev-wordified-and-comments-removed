@@ -1359,6 +1359,7 @@ xml
 #
 ifdef
 CAN_DRAW_IN_TITLEBAR
+*
 content
 /
 browser
