@@ -278,11 +278,11 @@ true
 user_pref
 (
 "
-toolkit
+datareporting
 .
-telemetry
+healthreport
 .
-enabled
+uploadEnabled
 "
 false
 )

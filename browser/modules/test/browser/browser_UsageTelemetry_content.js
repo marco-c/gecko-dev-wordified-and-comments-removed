@@ -191,16 +191,6 @@ enabled
 "
 true
 ]
-[
-"
-toolkit
-.
-telemetry
-.
-enabled
-"
-true
-]
 ]
 }
 )

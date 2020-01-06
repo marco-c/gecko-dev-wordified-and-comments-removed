@@ -1021,13 +1021,6 @@ prefs
 =
 [
 "
-toolkit
-.
-telemetry
-.
-enabled
-"
-"
 browser
 .
 translation
