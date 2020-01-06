@@ -743,12 +743,6 @@ enable_unittest_sendchange
 True
     
 '
-skip_balrog_uploads
-'
-:
-True
-    
-'
 base_name
 '
 :
