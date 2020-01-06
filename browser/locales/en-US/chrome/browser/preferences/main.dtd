@@ -237,6 +237,17 @@ R
 <
 !
 ENTITY
+disableExtension
+.
+label
+"
+Disable
+Extension
+"
+>
+<
+!
+ENTITY
 downloads
 .
 label
