@@ -40565,7 +40565,7 @@ goog
 -
 downloadwhite
 -
-proto
+digest256
 "
 )
 ;
@@ -40581,7 +40581,7 @@ goog
 -
 badbinurl
 -
-proto
+shavar
 "
 )
 ;
