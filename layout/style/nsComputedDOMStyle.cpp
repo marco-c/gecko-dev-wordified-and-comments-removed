@@ -23270,15 +23270,7 @@ StylePosition
 )
 -
 >
-ComputedJustifyItems
-(
-mStyleContext
--
->
-GetParentAllowServo
-(
-)
-)
+mJustifyItems
 ;
 nsCSSValue
 :

@@ -7698,10 +7698,7 @@ IsStyleNormalOrAuto
 stylePosition
 -
 >
-ComputedJustifyItems
-(
-nullptr
-)
+mJustifyItems
 )
 )
 {
