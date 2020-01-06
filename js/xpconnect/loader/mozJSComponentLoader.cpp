@@ -2993,7 +2993,6 @@ ReadCachedScript
 cache
 cachePath
 cx
-mSystemPrincipal
 &
 script
 )
