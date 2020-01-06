@@ -41076,6 +41076,9 @@ InterceptedHttpChannel
 :
 CreateForInterception
 (
+mChannelCreationTime
+mChannelCreationTimestamp
+mAsyncOpenTime
 )
 ;
 nsresult
