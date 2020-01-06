@@ -148,6 +148,10 @@ toolchains
 -
 linux64
 -
+hfsplus
+-
+linux64
+-
 libdmg
 -
 linux64
@@ -289,6 +293,10 @@ downloads
 internal
 toolchains
 :
+-
+linux64
+-
+hfsplus
 -
 linux64
 -
@@ -462,6 +470,10 @@ toolchains
 -
 linux64
 -
+hfsplus
+-
+linux64
+-
 libdmg
 -
 linux64
@@ -621,6 +633,10 @@ beta
 ]
 toolchains
 :
+-
+linux64
+-
+hfsplus
 -
 linux64
 -
@@ -823,6 +839,10 @@ try
 ]
 toolchains
 :
+-
+linux64
+-
+hfsplus
 -
 linux64
 -
@@ -1030,6 +1050,10 @@ toolchains
 -
 linux64
 -
+hfsplus
+-
+linux64
+-
 libdmg
 -
 linux64
@@ -1190,6 +1214,10 @@ downloads
 internal
 toolchains
 :
+-
+linux64
+-
+hfsplus
 -
 linux64
 -
