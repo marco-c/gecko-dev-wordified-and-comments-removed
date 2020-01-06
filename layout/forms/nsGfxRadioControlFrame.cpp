@@ -388,7 +388,7 @@ PaintCheckedRadioButton
 "
 CheckedRadioButton
 "
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_CHECKED_RADIOBUTTON

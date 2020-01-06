@@ -1347,7 +1347,7 @@ docFrame
 >
 InvalidateLayer
 (
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_REMOTE

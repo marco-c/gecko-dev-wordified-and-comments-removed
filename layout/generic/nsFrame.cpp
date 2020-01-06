@@ -10811,7 +10811,7 @@ PaintDebugBorder
 "
 DebugBorder
 "
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_DEBUG_BORDER
@@ -10871,7 +10871,7 @@ PaintEventTargetBorder
 "
 EventTargetBorder
 "
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_EVENT_TARGET_BORDER
@@ -11197,7 +11197,7 @@ GetType
 )
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_TRANSFORM
@@ -11224,7 +11224,7 @@ GetType
 )
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_PERSPECTIVE
@@ -12384,7 +12384,6 @@ BlockBorderBackgrounds
 >
 DeleteAll
 (
-aBuilder
 )
 ;
 set
@@ -12396,7 +12395,6 @@ Floats
 >
 DeleteAll
 (
-aBuilder
 )
 ;
 set
@@ -12408,7 +12406,6 @@ Content
 >
 DeleteAll
 (
-aBuilder
 )
 ;
 set
@@ -12420,7 +12417,6 @@ PositionedDescendants
 >
 DeleteAll
 (
-aBuilder
 )
 ;
 set
@@ -12432,7 +12428,6 @@ Outlines
 >
 DeleteAll
 (
-aBuilder
 )
 ;
 }
@@ -13498,7 +13493,7 @@ GetType
 )
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_PERSPECTIVE
@@ -31559,7 +31554,7 @@ FrameLayerBuilder
 GetDedicatedLayer
 (
 this
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_TRANSFORM
@@ -31867,7 +31862,7 @@ nsIFrame
 :
 InvalidateLayer
 (
-DisplayItemType
+uint32_t
 aDisplayItemKey
 const
 nsIntRect
@@ -31885,10 +31880,7 @@ NS_ASSERTION
 (
 aDisplayItemKey
 >
-DisplayItemType
-:
-:
-TYPE_ZERO
+0
 "
 Need
 a
@@ -31961,7 +31953,7 @@ return
 nullptr
 ;
 }
-DisplayItemType
+uint32_t
 displayItemKey
 =
 aDisplayItemKey
@@ -31971,7 +31963,7 @@ if
 aDisplayItemKey
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_PLUGIN
@@ -31980,7 +31972,7 @@ TYPE_PLUGIN
 aDisplayItemKey
 =
 =
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_REMOTE
@@ -31988,10 +31980,7 @@ TYPE_REMOTE
 {
 displayItemKey
 =
-DisplayItemType
-:
-:
-TYPE_ZERO
+0
 ;
 }
 if
@@ -32003,13 +31992,7 @@ InvalidateFrameWithRect
 (
 *
 aFrameDamageRect
-static_cast
-<
-uint32_t
->
-(
 displayItemKey
-)
 )
 ;
 }
@@ -32017,13 +32000,7 @@ else
 {
 InvalidateFrame
 (
-static_cast
-<
-uint32_t
->
-(
 displayItemKey
-)
 )
 ;
 }

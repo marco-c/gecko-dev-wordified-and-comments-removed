@@ -215,6 +215,9 @@ NS_DISPLAY_DECL_NAME
 "
 ColumnRule
 "
+nsDisplayItem
+:
+:
 TYPE_COLUMN_RULE
 )
 ;

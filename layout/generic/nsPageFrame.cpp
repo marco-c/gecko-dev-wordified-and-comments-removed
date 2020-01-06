@@ -2031,9 +2031,9 @@ f
 i
 -
 >
-Destroy
+~
+nsDisplayItem
 (
-aBuilder
 )
 ;
 continue
@@ -2417,6 +2417,9 @@ NS_DISPLAY_DECL_NAME
 "
 HeaderFooter
 "
+nsDisplayItem
+:
+:
 TYPE_HEADER_FOOTER
 )
 virtual

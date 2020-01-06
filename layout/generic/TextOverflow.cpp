@@ -1051,6 +1051,9 @@ return
 mIndex
 <
 <
+nsDisplayItem
+:
+:
 TYPE_BITS
 )
 |
@@ -4008,9 +4011,9 @@ mBlock
 item
 -
 >
-Destroy
+~
+nsDisplayItem
 (
-mBuilder
 )
 ;
 continue

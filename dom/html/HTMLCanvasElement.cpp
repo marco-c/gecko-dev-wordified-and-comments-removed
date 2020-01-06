@@ -4609,16 +4609,10 @@ userDataTable
 >
 Get
 (
-static_cast
-<
-uint32_t
->
-(
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_CANVAS
-)
 getter_AddRefs
 (
 data
@@ -4741,7 +4735,7 @@ frame
 >
 InvalidateLayer
 (
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_CANVAS
@@ -4760,7 +4754,7 @@ frame
 >
 InvalidateLayer
 (
-DisplayItemType
+nsDisplayItem
 :
 :
 TYPE_CANVAS
