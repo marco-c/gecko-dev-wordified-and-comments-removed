@@ -1097,7 +1097,7 @@ uint8_t
 aTypeOffset
 )
 ;
-nsresult
+void
 EncodeString
 (
 const
@@ -1113,7 +1113,7 @@ template
 typename
 T
 >
-nsresult
+void
 EncodeString
 (
 const
@@ -1133,7 +1133,7 @@ template
 typename
 T
 >
-nsresult
+void
 EncodeAsString
 (
 const
@@ -1177,7 +1177,7 @@ uint8_t
 aType
 )
 ;
-nsresult
+void
 EncodeBinary
 (
 JSObject
