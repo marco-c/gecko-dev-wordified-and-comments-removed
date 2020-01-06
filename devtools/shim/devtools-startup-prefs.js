@@ -1,0 +1,12 @@
+pref
+(
+"
+devtools
+.
+jsonview
+.
+enabled
+"
+true
+)
+;
