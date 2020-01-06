@@ -125,8 +125,7 @@ anything
 "
 )
 ;
-await
-BrowserTestUtils
+gBrowser
 .
 removeTab
 (
