@@ -13293,8 +13293,11 @@ nsGkAtoms
 :
 _empty
 ;
-int32_t
-offset
+nsIContent
+*
+childInBlock
+=
+nullptr
 ;
 nsCOMPtr
 <
@@ -13364,7 +13367,7 @@ IsDescendantOf
 leftList
 rightBlock
 &
-offset
+childInBlock
 )
 &
 &
@@ -13377,7 +13380,7 @@ IsDescendantOf
 rightList
 leftBlock
 &
-offset
+childInBlock
 )
 )
 {
@@ -13626,13 +13629,7 @@ nsIContent
 >
 child
 =
-rightList
--
->
-GetChildAt
-(
-offset
-)
+childInBlock
 ;
 child
 ;
