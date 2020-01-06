@@ -156,6 +156,10 @@ unwrap
 proc_macro_derive
 (
 ToCss
+attributes
+(
+css
+)
 )
 ]
 pub

@@ -3065,7 +3065,7 @@ self
 CounterStyleOrNone
 :
 :
-None_
+None
 =
 >
 unsafe
