@@ -6362,6 +6362,18 @@ rv
 ;
 nsCOMPtr
 <
+nsIInputStream
+>
+stream
+(
+do_QueryInterface
+(
+sstream
+)
+)
+;
+nsCOMPtr
+<
 nsIIOService
 >
 ios
@@ -6507,7 +6519,7 @@ uploadChannel
 >
 ExplicitSetUploadStream
 (
-sstream
+stream
 NS_LITERAL_CSTRING
 (
 "

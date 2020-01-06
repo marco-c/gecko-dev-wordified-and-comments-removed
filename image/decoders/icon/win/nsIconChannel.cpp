@@ -73,7 +73,7 @@ h
 #
 include
 "
-nsIStringStream
+nsIInputStream
 .
 h
 "

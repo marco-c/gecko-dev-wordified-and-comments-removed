@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIInputStream
+nsISupports
 .
 idl
 "
@@ -175,7 +175,7 @@ b1251f80fd53
 interface
 nsIStringInputStream
 :
-nsIInputStream
+nsISupports
 {
 /
 *

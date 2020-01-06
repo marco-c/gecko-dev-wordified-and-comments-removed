@@ -2607,7 +2607,10 @@ postDataLen
 ;
 postStream
 =
+do_QueryInterface
+(
 sis
+)
 ;
 if
 (
