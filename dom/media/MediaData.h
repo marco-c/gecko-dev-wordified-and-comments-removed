@@ -141,6 +141,9 @@ Image
 class
 ImageContainer
 ;
+class
+KnowsCompositor
+;
 }
 class
 MediaByteBuffer
@@ -1664,6 +1667,14 @@ const
 IntRect
 &
 aPicture
+layers
+:
+:
+KnowsCompositor
+*
+aAllocator
+=
+nullptr
 )
 ;
 static
