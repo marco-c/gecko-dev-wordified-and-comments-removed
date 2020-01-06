@@ -29103,6 +29103,7 @@ GetDocGroup
 CustomElementReactionsStack
 (
 )
+aCx
 )
 ;
 nsAutoString
