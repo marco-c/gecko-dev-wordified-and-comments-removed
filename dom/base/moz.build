@@ -612,11 +612,6 @@ nsRange
 h
 '
 '
-nsReferencedElement
-.
-h
-'
-'
 nsSandboxFlags
 .
 h
@@ -953,6 +948,11 @@ h
 '
 '
 IdleRequest
+.
+h
+'
+'
+IDTracker
 .
 h
 '
@@ -1314,6 +1314,11 @@ IdleRequest
 cpp
 '
 '
+IDTracker
+.
+cpp
+'
+'
 ImageEncoder
 .
 cpp
@@ -1600,11 +1605,6 @@ cpp
 '
 '
 nsRange
-.
-cpp
-'
-'
-nsReferencedElement
 .
 cpp
 '
