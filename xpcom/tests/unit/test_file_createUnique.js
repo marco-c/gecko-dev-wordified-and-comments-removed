@@ -130,7 +130,11 @@ throw
 catch
 (
 e
+)
+{
 if
+(
+!
 (
 e
 instanceof
@@ -150,5 +154,9 @@ NS_ERROR_FILE_UNRECOGNIZED_PATH
 )
 )
 {
+throw
+e
+;
+}
 }
 }
