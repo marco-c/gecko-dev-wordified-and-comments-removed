@@ -14381,9 +14381,6 @@ pauseMedia
 stopMedia
 "
 "
-blockMedia
-"
-"
 resumeMedia
 "
 "
@@ -14755,11 +14752,6 @@ aTab
 ;
 break
 ;
-case
-"
-blockMedia
-"
-:
 case
 "
 resumeMedia
