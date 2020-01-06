@@ -2448,7 +2448,7 @@ prop
 _retval
 =
 !
-nsCachedStyleData
+nsStyleContext
 :
 :
 IsReset

@@ -2614,7 +2614,7 @@ aProperty
 ]
 ;
 return
-nsCachedStyleData
+nsStyleContext
 :
 :
 IsInherited
