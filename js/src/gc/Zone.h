@@ -1988,6 +1988,13 @@ setGCMaxMallocBytes
 (
 size_t
 value
+const
+js
+:
+:
+AutoLockGC
+&
+lock
 )
 {
 gcMallocCounter
@@ -1995,6 +2002,7 @@ gcMallocCounter
 setMax
 (
 value
+lock
 )
 ;
 }

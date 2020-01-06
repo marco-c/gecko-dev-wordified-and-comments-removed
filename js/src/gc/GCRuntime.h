@@ -1245,7 +1245,7 @@ mozilla
 :
 Atomic
 <
-ptrdiff_t
+size_t
 mozilla
 :
 :
@@ -1253,13 +1253,7 @@ ReleaseAcquire
 >
 bytes_
 ;
-js
-:
-:
-ActiveThreadData
-<
 size_t
->
 maxBytes_
 ;
 mozilla
@@ -1267,7 +1261,7 @@ mozilla
 :
 Atomic
 <
-uint32_t
+bool
 mozilla
 :
 :
@@ -1302,7 +1296,7 @@ reset
 {
 bytes_
 =
-maxBytes_
+0
 ;
 triggered_
 =
@@ -1314,6 +1308,10 @@ setMax
 (
 size_t
 newMax
+const
+AutoLockGC
+&
+lock
 )
 {
 maxBytes_
@@ -1355,7 +1353,7 @@ bytes
 )
 {
 bytes_
--
++
 =
 ptrdiff_t
 (
@@ -1419,9 +1417,9 @@ const
 {
 return
 bytes_
-<
+>
 =
-0
+maxBytes_
 ;
 }
 }
@@ -2281,6 +2279,10 @@ setMaxMallocBytes
 (
 size_t
 value
+const
+AutoLockGC
+&
+lock
 )
 ;
 bool

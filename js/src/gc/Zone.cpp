@@ -387,6 +387,7 @@ maxMallocBytesAllocated
 0
 .
 9
+lock
 )
 ;
 jitCodeCounter
@@ -401,6 +402,7 @@ MaxCodeBytesPerProcess
 0
 .
 8
+lock
 )
 ;
 }
