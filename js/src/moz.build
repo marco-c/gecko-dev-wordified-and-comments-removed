@@ -1412,13 +1412,6 @@ cpp
 '
 gc
 /
-MemoryProfiler
-.
-cpp
-'
-'
-gc
-/
 Nursery
 .
 cpp

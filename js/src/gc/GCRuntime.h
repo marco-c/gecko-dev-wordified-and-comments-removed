@@ -4305,9 +4305,6 @@ tunables
 GCSchedulingState
 schedulingState
 ;
-MemProfiler
-mMemProfiler
-;
 AtomMarkingRuntime
 atomMarking
 ;

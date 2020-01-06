@@ -1452,18 +1452,6 @@ components
 locale
 .
 xpt
-#
-ifdef
-MOZ_GECKO_PROFILER
-RESPATH
-/
-components
-/
-memory_profiler
-.
-xpt
-#
-endif
 RESPATH
 /
 browser
@@ -2389,9 +2377,6 @@ components
 nsSidebar
 .
 js
-#
-ifdef
-NIGHTLY_BUILD
 RESPATH
 /
 components
@@ -2406,8 +2391,6 @@ components
 paymentUIService
 .
 js
-#
-endif
 RESPATH
 /
 components

@@ -590,14 +590,6 @@ profiler
 '
 '
 /
-tools
-/
-memory
--
-profiler
-'
-'
-/
 xpfe
 /
 components
