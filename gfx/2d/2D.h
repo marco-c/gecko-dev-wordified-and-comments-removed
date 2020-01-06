@@ -4015,6 +4015,11 @@ uint32_t
 aSize
 FontType
 aType
+void
+*
+aFontContext
+=
+nullptr
 )
 ;
 static

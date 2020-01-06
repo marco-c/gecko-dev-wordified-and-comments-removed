@@ -104,6 +104,8 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
+FT_Library
+aFTLibrary
 )
 {
 if
@@ -154,7 +156,7 @@ Factory
 :
 NewFTFaceFromData
 (
-nullptr
+aFTLibrary
 fontData
 .
 get

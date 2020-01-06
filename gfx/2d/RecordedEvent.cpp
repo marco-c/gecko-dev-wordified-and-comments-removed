@@ -8073,6 +8073,12 @@ aTranslator
 GetDesiredFontType
 (
 )
+aTranslator
+-
+>
+GetFontContext
+(
+)
 )
 ;
 if

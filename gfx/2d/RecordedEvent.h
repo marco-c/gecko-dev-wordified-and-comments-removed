@@ -564,6 +564,17 @@ GetDesiredFontType
 =
 0
 ;
+virtual
+void
+*
+GetFontContext
+(
+)
+{
+return
+nullptr
+;
+}
 }
 ;
 struct
