@@ -1540,7 +1540,7 @@ storage
 .
 enabled
 "
-false
+true
 )
 ;
 pref
