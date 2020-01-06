@@ -246,12 +246,6 @@ sdp
 /
 sipcc
 /
-memory
-/
-jemalloc
-/
-src
-/
 mfbt
 /
 decimal

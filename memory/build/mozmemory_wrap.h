@@ -260,16 +260,6 @@ endif
 #
 endif
 #
-define
-je_
-(
-a
-)
-je_
-#
-#
-a
-#
 if
 !
 defined

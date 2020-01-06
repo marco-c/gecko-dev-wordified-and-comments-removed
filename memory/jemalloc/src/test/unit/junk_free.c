@@ -1,7 +1,0 @@
-#
-include
-"
-junk
-.
-c
-"

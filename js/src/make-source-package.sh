@@ -1265,14 +1265,6 @@ TOPSRCDIR
 /
 memory
 /
-jemalloc
-\
-{
-TOPSRCDIR
-}
-/
-memory
-/
 mozalloc
 \
 {
