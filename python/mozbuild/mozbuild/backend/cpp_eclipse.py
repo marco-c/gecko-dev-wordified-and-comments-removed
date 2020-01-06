@@ -8651,6 +8651,9 @@ preferences
 version
 =
 1
+ensureNewlineAtEOF
+=
+false
 formatter_profile
 =
 _Mozilla
