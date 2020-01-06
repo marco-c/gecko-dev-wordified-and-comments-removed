@@ -65,6 +65,12 @@ HasBadInput
 const
 override
 ;
+nsresult
+MinMaxStepAttrChanged
+(
+)
+override
+;
 protected
 :
 explicit

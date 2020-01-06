@@ -250,7 +250,12 @@ aModType
 override
 ;
 void
-UpdateInputBoxValue
+OnValueChanged
+(
+)
+;
+void
+OnMinMaxStepAttrChanged
 (
 )
 ;
