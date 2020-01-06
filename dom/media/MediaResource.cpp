@@ -2802,13 +2802,13 @@ thread
 "
 )
 ;
-mCacheStream
-.
-Close
+CloseChannel
 (
 )
 ;
-CloseChannel
+mCacheStream
+.
+Close
 (
 )
 ;
