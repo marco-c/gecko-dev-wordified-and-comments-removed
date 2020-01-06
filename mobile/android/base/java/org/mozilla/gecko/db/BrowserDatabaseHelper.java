@@ -1965,7 +1965,7 @@ KEY
 (
 "
 +
-Visits
+PageMetadata
 .
 HISTORY_GUID
 +
