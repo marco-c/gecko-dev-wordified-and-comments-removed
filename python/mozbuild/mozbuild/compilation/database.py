@@ -354,10 +354,6 @@ MOZBUILD_CMFLAGS
 '
 MOZBUILD_CMMFLAGS
 '
-                        
-'
-RTL_FLAGS
-'
 )
 :
                 
@@ -1215,32 +1211,6 @@ CFLAGS
 [
 canonical_suffix
 ]
-)
-        
-if
-canonical_suffix
-in
-(
-'
-.
-c
-'
-'
-.
-cpp
-'
-)
-:
-            
-db
-.
-append
-(
-'
-(
-RTL_FLAGS
-)
-'
 )
         
 append_var
