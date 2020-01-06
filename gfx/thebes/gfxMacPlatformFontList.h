@@ -546,7 +546,7 @@ kDisplaySizeSystemFontFamily
 }
 ;
 void
-ReadSystemFontList
+GetSystemFontFamilyList
 (
 InfallibleTArray
 <
@@ -556,7 +556,7 @@ mozilla
 dom
 :
 :
-SystemFontListEntry
+FontFamilyListEntry
 >
 *
 aList

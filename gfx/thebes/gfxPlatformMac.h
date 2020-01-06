@@ -130,7 +130,7 @@ CreatePlatformFontList
 override
 ;
 void
-ReadSystemFontList
+GetSystemFontFamilyList
 (
 InfallibleTArray
 <
@@ -140,10 +140,10 @@ mozilla
 dom
 :
 :
-SystemFontListEntry
+FontFamilyListEntry
 >
 *
-aFontList
+aFontFamilies
 )
 override
 ;
