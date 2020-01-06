@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 posixpath
 import
@@ -1481,7 +1476,6 @@ crash_dir_found
 :
                 
 print
-(
 "
 Automation
 Error
@@ -1499,9 +1493,9 @@ remote
 device
 "
 %
-                      
+\
+                    
 remote_dir
-)
                 
 return
 True
