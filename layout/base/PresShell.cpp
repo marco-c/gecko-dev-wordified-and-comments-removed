@@ -32160,6 +32160,17 @@ aEvent
 >
 mFocusSequenceNumber
 ;
+aFrame
+-
+>
+SchedulePaint
+(
+nsIFrame
+:
+:
+PAINT_COMPOSITE_ONLY
+)
+;
 }
 if
 (
