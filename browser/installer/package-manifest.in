@@ -310,6 +310,13 @@ RESPATH
 dictionaries
 /
 *
+RESPATH
+/
+browser
+/
+localization
+/
+*
 #
 if
 defined
