@@ -853,7 +853,7 @@ autoconf
 13
 cp
 -
-pPR
+PR
 {
 TOPSRCDIR
 }
