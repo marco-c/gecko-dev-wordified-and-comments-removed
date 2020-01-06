@@ -5328,9 +5328,9 @@ minDistance
 if
 (
 rectVisibility
-!
 =
-nsRectVisibility_kAboveViewport
+=
+nsRectVisibility_kVisible
 )
 {
 return
