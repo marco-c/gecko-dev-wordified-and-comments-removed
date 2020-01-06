@@ -72,7 +72,7 @@ objdir
 "
 obj
 -
-l10n
+firefox
 "
     
 "
@@ -514,7 +514,7 @@ MOZ_OBJDIR
 "
 obj
 -
-l10n
+firefox
 "
         
 "

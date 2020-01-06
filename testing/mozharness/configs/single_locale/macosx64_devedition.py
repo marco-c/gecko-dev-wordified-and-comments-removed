@@ -80,7 +80,7 @@ MOZ_OBJDIR
 "
 obj
 -
-l10n
+firefox
 "
         
 "
@@ -213,7 +213,7 @@ objdir
 "
 obj
 -
-l10n
+firefox
 "
     
 "

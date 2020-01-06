@@ -18,7 +18,7 @@ OBJDIR
 "
 obj
 -
-l10n
+firefox
 "
 STAGE_SERVER
 =

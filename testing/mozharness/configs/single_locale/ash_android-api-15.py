@@ -16,7 +16,7 @@ OBJDIR
 "
 obj
 -
-l10n
+firefox
 "
 EN_US_BINARY_URL
 =
