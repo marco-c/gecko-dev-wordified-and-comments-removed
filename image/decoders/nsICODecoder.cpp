@@ -1060,7 +1060,6 @@ WrapNotNull
 (
 this
 )
-false
 Some
 (
 GetRealSize
@@ -1294,7 +1293,6 @@ WrapNotNull
 (
 this
 )
-false
 Some
 (
 GetRealSize
