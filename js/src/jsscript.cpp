@@ -13160,6 +13160,12 @@ options
 introductionOffset
 )
 ;
+startColumn_
+=
+options
+.
+sourceStartColumn
+;
 parameterListEnd_
 =
 parameterListEnd

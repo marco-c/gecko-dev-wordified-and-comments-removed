@@ -19373,6 +19373,12 @@ rhs
 .
 column
 ;
+sourceStartColumn
+=
+rhs
+.
+sourceStartColumn
+;
 isRunOnce
 =
 rhs

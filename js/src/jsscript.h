@@ -1260,6 +1260,9 @@ bool
 mutedErrors_
 ;
 uint32_t
+startColumn_
+;
+uint32_t
 introductionOffset_
 ;
 uint32_t
@@ -1377,6 +1380,10 @@ nullptr
 mutedErrors_
 (
 false
+)
+startColumn_
+(
+0
 )
 introductionOffset_
 (
@@ -1995,6 +2002,16 @@ const
 {
 return
 mutedErrors_
+;
+}
+uint32_t
+startColumn
+(
+)
+const
+{
+return
+startColumn_
 ;
 }
 bool
