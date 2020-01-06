@@ -105,7 +105,7 @@ size_of
 dummies
 :
 :
-PseudoElementSelector
+PseudoElement
 >
 (
 )
@@ -116,7 +116,7 @@ size_of
 real
 :
 :
-PseudoElementSelector
+PseudoElement
 >
 (
 )
@@ -132,7 +132,7 @@ align_of
 dummies
 :
 :
-PseudoElementSelector
+PseudoElement
 >
 (
 )
@@ -143,7 +143,7 @@ align_of
 real
 :
 :
-PseudoElementSelector
+PseudoElement
 >
 (
 )

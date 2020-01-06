@@ -7417,12 +7417,6 @@ guards
 element
 &
 pseudo
-ElementState
-:
-:
-empty
-(
-)
 base
 &
 metrics
