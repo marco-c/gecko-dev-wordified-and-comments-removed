@@ -162,6 +162,11 @@ selector
 js
 '
 '
+shapes
+.
+js
+'
+'
 simple
 -
 outline
