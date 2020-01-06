@@ -14,6 +14,9 @@ element
 "
 anyfunc
 "
+initial
+:
+1
 }
 ;
 var
