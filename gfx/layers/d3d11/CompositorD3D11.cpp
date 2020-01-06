@@ -268,6 +268,7 @@ gfx
 namespace
 layers
 {
+static
 bool
 CanUsePartialPresents
 (
@@ -1288,6 +1289,7 @@ return
 true
 ;
 }
+static
 bool
 CanUsePartialPresents
 (
