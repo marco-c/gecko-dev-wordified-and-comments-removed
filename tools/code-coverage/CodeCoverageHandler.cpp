@@ -1,14 +1,17 @@
 #
 include
 <
-signal
+stdio
 .
 h
 >
 #
+ifndef
+XP_WIN
+#
 include
 <
-stdio
+signal
 .
 h
 >
@@ -19,6 +22,8 @@ unistd
 .
 h
 >
+#
+endif
 #
 include
 "
@@ -259,6 +264,9 @@ SetSignalHandlers
 (
 )
 {
+#
+ifndef
+XP_WIN
 printf_stderr
 (
 "
@@ -394,6 +402,8 @@ handler
 "
 )
 ;
+#
+endif
 }
 CodeCoverageHandler
 :
