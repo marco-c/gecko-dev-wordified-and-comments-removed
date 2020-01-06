@@ -227,7 +227,7 @@ GetTitle
 GetPageSource
 GetWindowHandle
 GetWindowHandles
-Close
+CloseWindow
 SetWindowSize
 GetWindowSize
 MaximizeWindow
@@ -4373,7 +4373,7 @@ GoForward
 |
 Refresh
 |
-Close
+CloseWindow
 |
 SetTimeouts
 (
@@ -6940,7 +6940,7 @@ getWindowHandles
 )
 None
 )
-Close
+CloseWindow
 =
 >
 (
