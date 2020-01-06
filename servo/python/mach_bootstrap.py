@@ -826,7 +826,17 @@ join
 (
 wpt_root
 "
-harness
+web
+-
+platform
+-
+tests
+"
+"
+tools
+"
+"
+wptrunner
 "
 )
     
