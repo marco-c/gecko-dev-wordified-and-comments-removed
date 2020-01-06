@@ -45,6 +45,17 @@ jsm
 type
 :
 string
+extensions
+:
+[
+'
+.
+js
+'
+'
+jsm
+'
+]
 payload
 :
 foobar
