@@ -1,5 +1,7 @@
 export
-default
+let
+x
+=
 42
 ;
 moduleRan
