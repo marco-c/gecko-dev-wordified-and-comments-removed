@@ -1096,6 +1096,7 @@ ToSupportedRotation
 int32_t
 aDegree
 )
+const
 {
 switch
 (
