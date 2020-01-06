@@ -2914,7 +2914,7 @@ shape
 }
 static
 bool
-allocSlot
+allocDictionarySlot
 (
 JSContext
 *
