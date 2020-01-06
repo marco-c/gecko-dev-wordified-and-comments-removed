@@ -570,9 +570,7 @@ Some
 (
 style
 .
-into
-(
-)
+0
 )
 }
 #
@@ -2241,9 +2239,9 @@ new_styles
 .
 primary
 .
-0
-.
 style
+.
+0
 data
 .
 hint
