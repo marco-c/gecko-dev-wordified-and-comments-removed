@@ -271,6 +271,8 @@ b
 )
 ;
 }
+otherGlobal
+.
 TypeError
 )
 ;
