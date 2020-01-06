@@ -10394,7 +10394,7 @@ rtPath
 ;
 rtPath2
 .
-Replace
+ReplaceLiteral
 (
 0
 strlen
@@ -10403,12 +10403,9 @@ strlen
 explicit
 "
 )
-NS_LITERAL_CSTRING
-(
 "
 decommitted
 "
-)
 )
 ;
 REPORT_GC_BYTES
