@@ -115,6 +115,15 @@ mk_add_options
 MOZ_PGO
 =
 1
+#
+Enable
+MOZ_ALLOW_LEGACY_EXTENSIONS
+ac_add_options
+"
+MOZ_ALLOW_LEGACY_EXTENSIONS
+=
+1
+"
 .
 "
 topsrcdir
