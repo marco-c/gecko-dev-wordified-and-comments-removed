@@ -239,8 +239,8 @@ constexpr
 Register64
 ReturnReg64
 (
-InvalidReg
-InvalidReg
+v1
+v0
 )
 ;
 static
