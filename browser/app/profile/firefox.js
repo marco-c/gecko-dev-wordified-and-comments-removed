@@ -3602,7 +3602,7 @@ suggest
 .
 searches
 "
-false
+true
 )
 ;
 pref
