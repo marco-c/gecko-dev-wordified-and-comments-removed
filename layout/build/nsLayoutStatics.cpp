@@ -559,13 +559,6 @@ h
 #
 endif
 #
-include
-"
-nsTextServicesDocument
-.
-h
-"
-#
 ifdef
 MOZ_WEBSPEECH
 #
@@ -966,13 +959,6 @@ nsGkAtoms
 :
 :
 AddRefAtoms
-(
-)
-;
-nsTextServicesDocument
-:
-:
-RegisterAtoms
 (
 )
 ;

@@ -71,9 +71,6 @@ class
 OffsetEntry
 ;
 class
-nsAtom
-;
-class
 nsIContent
 ;
 class
@@ -204,12 +201,6 @@ nsTextServicesDocument
 public
 :
 nsTextServicesDocument
-(
-)
-;
-static
-void
-RegisterAtoms
 (
 )
 ;
