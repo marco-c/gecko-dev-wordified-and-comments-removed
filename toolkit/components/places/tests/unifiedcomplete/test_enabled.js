@@ -178,7 +178,7 @@ add_task
 (
 async
 function
-test_sync_enabled
+test_linked_enabled_prefs
 (
 )
 {
