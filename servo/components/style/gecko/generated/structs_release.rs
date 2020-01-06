@@ -263848,7 +263848,7 @@ nsCharTraits
 test
 ]
 fn
-__bindgen_test_layout__bindgen_ty_id_210969_instantiation_98
+__bindgen_test_layout__bindgen_ty_id_210967_instantiation_98
 (
 )
 {
@@ -263934,7 +263934,7 @@ u8
 test
 ]
 fn
-__bindgen_test_layout__bindgen_ty_id_211005_instantiation_99
+__bindgen_test_layout__bindgen_ty_id_211003_instantiation_99
 (
 )
 {
