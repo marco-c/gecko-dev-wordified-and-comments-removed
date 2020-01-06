@@ -37,6 +37,9 @@ nsRect
 h
 "
 #
+ifdef
+MOZ_ENABLE_SKIA
+#
 include
 "
 mozilla
@@ -47,6 +50,8 @@ ConvolutionFilter
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
