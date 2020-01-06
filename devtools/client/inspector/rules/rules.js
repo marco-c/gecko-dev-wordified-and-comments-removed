@@ -4761,6 +4761,17 @@ no
 -
 results
 "
+class
+:
+"
+devtools
+-
+sidepanel
+-
+no
+-
+result
+"
 textContent
 :
 l10n

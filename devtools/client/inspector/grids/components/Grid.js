@@ -338,11 +338,13 @@ div
 className
 :
 "
-layout
+devtools
+-
+sidepanel
 -
 no
 -
-grids
+result
 "
 }
 getStr
