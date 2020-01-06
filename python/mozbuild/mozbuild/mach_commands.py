@@ -13011,29 +13011,6 @@ user_value
 b
                 
 if
-'
-/
-'
-not
-in
-b
-:
-                    
-b
-=
-'
-{
-}
-/
-opt
-'
-.
-format
-(
-b
-)
-                
-if
 not
 b
 .
@@ -13109,7 +13086,6 @@ build
 return
 1
                 
-optimized
 task_id
 =
 optimize_task
@@ -13120,8 +13096,12 @@ task
 )
                 
 if
-not
-optimized
+task_id
+in
+(
+True
+False
+)
 :
                     
 self
