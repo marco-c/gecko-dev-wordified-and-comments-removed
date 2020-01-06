@@ -192,6 +192,24 @@ Yosemite
 '
     
 '
+macosx64
+-
+devedition
+'
+:
+'
+Rev7
+MacOSX
+Yosemite
+10
+.
+10
+.
+5
+DevEdition
+'
+    
+'
 android
 -
 4
@@ -366,11 +384,13 @@ build_type
     
 if
 build_platform
-=
-=
+.
+startswith
+(
 '
 macosx64
 '
+)
 and
 build_type
 =
