@@ -15000,6 +15000,9 @@ RawGeckoElementBorrowed
 set
 :
 RawServoStyleSetBorrowed
+restyle_behavior
+:
+TraversalRestyleBehavior
 )
 -
 >
