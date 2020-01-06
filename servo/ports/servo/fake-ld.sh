@@ -168,6 +168,10 @@ toolchains
 {
 _ANDROID_EABI
 }
+-
+4
+.
+9
 /
 prebuilt
 /
@@ -193,6 +197,10 @@ toolchains
 {
 _ANDROID_EABI
 }
+-
+4
+.
+9
 /
 prebuilt
 /
@@ -271,11 +279,9 @@ ANDROID_CXX_LIBS
 ANDROID_TOOLCHAIN
 }
 /
-arm
--
-linux
--
-androideabi
+{
+_ANDROID_EABI
+}
 -
 gcc
 "
