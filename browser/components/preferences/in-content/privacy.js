@@ -855,7 +855,6 @@ gPrivacyPane
 )
 ;
 }
-;
 function
 appendSearchKeywords
 (
@@ -906,13 +905,12 @@ keywords
 .
 join
 (
-'
-'
+"
+"
 )
 )
 ;
 }
-;
 this
 .
 _updateSanitizeSettingsButton
