@@ -12,6 +12,12 @@ getLogger
 manifest
 "
 )
+def
+setup
+(
+)
+:
+    
 logger
 .
 setLevel
@@ -20,6 +26,7 @@ logging
 .
 DEBUG
 )
+    
 handler
 =
 logging
@@ -30,6 +37,7 @@ sys
 .
 stdout
 )
+    
 formatter
 =
 logging
@@ -41,12 +49,14 @@ logging
 BASIC_FORMAT
 None
 )
+    
 handler
 .
 setFormatter
 (
 formatter
 )
+    
 logger
 .
 addHandler

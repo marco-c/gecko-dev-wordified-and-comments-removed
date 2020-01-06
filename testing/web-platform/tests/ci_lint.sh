@@ -1,9 +1,0 @@
-set
--
-ex
-.
-/
-manifest
-.
-/
-lint

@@ -373,6 +373,9 @@ def
 stop
 (
 self
+force
+=
+False
 )
 :
         
@@ -382,6 +385,9 @@ server
 .
 stop
 (
+force
+=
+force
 )
     
 def

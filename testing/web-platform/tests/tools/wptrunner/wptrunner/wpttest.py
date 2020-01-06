@@ -4,8 +4,6 @@ from
 collections
 import
 defaultdict
-import
-mozinfo
 from
 wptmanifest
 .
@@ -465,6 +463,9 @@ None
 )
 :
         
+import
+mozinfo
+        
 self
 .
 _update_mozinfo
@@ -611,6 +612,9 @@ directory
 "
 "
 "
+        
+import
+mozinfo
         
 path
 =

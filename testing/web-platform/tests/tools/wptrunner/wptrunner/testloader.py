@@ -2907,7 +2907,7 @@ Manifest
 (
 url_base
 )
-            
+        
 manifest_update
 .
 update

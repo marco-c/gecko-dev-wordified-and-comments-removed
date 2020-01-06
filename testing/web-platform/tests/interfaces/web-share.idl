@@ -27,6 +27,7 @@ void
 >
 share
 (
+optional
 ShareData
 data
 )
