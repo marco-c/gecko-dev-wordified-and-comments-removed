@@ -3929,9 +3929,6 @@ SHARED_LIBS
 OS_LIBS
 )
 (
-BIN_FLAGS
-)
-(
 call
 CHECK_BINARY
 )
@@ -4456,9 +4453,6 @@ SHARED_LIBS
 )
 (
 OS_LIBS
-)
-(
-BIN_FLAGS
 )
 (
 call

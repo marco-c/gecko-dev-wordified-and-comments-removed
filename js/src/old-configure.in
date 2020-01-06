@@ -7714,9 +7714,10 @@ DSO_LDOPTS
 -
 shared
 '
-BIN_FLAGS
+MOZ_PROGRAM_LDFLAGS
 =
-'
+"
+MOZ_PROGRAM_LDFLAGS
 -
 Wl
 -
@@ -7724,7 +7725,7 @@ Wl
 export
 -
 dynamic
-'
+"
 else
 DSO_PIC_CFLAGS
 =
@@ -18413,10 +18414,6 @@ IMPLIB
 AC_SUBST
 (
 FILTER
-)
-AC_SUBST
-(
-BIN_FLAGS
 )
 AC_SUBST_LIST
 (
