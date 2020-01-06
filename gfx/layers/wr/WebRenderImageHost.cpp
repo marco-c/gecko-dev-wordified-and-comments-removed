@@ -63,7 +63,7 @@ mozilla
 /
 layers
 /
-AsyncImagePipelineManager
+WebRenderCompositableHolder
 .
 h
 "
@@ -380,7 +380,7 @@ MOZ_ASSERT
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 )
@@ -449,7 +449,7 @@ IsNull
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 -
@@ -630,7 +630,7 @@ MOZ_ASSERT
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 )
@@ -640,7 +640,7 @@ time
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 -
@@ -746,7 +746,7 @@ MOZ_ASSERT
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 )
@@ -754,7 +754,7 @@ AsyncImageManager
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 -
@@ -892,7 +892,7 @@ MOZ_ASSERT
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 )
@@ -926,7 +926,7 @@ WrEpoch
 mWrBridge
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 -

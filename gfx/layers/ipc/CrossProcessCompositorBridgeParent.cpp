@@ -216,7 +216,7 @@ mozilla
 /
 layers
 /
-AsyncImagePipelineManager
+WebRenderCompositableHolder
 .
 h
 "
@@ -1290,14 +1290,14 @@ GetWebRenderAPI
 ;
 RefPtr
 <
-AsyncImagePipelineManager
+WebRenderCompositableHolder
 >
 holder
 =
 root
 -
 >
-AsyncImageManager
+CompositableHolder
 (
 )
 ;
