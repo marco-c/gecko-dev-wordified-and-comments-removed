@@ -187,6 +187,7 @@ Servo_MediaList_SetText
 mRawList
 &
 mediaText
+aCallerType
 )
 ;
 }

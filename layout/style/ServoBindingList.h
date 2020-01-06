@@ -1780,6 +1780,14 @@ const
 nsACString
 *
 text
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 SERVO_BINDING_FUNC
 (
