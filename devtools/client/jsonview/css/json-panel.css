@@ -1,4 +1,6 @@
 .
+jsonPrimitiveValue
+.
 jsonParseError
 {
 font
@@ -28,6 +30,10 @@ padding
 :
 10px
 ;
+}
+.
+jsonParseError
+{
 color
 :
 red

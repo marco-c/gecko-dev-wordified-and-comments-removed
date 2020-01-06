@@ -117,9 +117,6 @@ err
 jsonData
 =
 err
-+
-"
-"
 ;
 }
 let
@@ -283,6 +280,16 @@ function
 data
 )
 {
+if
+(
+jsonData
+instanceof
+Error
+)
+{
+return
+;
+}
 if
 (
 input
