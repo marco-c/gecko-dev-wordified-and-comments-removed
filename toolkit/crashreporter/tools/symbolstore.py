@@ -3817,16 +3817,16 @@ None
 2
 )
                         
+sourcepath
+=
+filename
+                        
 filename
 =
 normpath
 (
 filename
 )
-                        
-sourcepath
-=
-filename
                         
 if
 filename
