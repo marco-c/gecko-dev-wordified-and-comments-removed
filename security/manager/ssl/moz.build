@@ -188,11 +188,6 @@ nsINSSErrorsService
 idl
 '
 '
-nsINSSU2FToken
-.
-idl
-'
-'
 nsINSSVersion
 .
 idl
@@ -259,11 +254,6 @@ idl
 '
 '
 nsITokenPasswordDialogs
-.
-idl
-'
-'
-nsIU2FToken
 .
 idl
 '
@@ -389,11 +379,6 @@ h
 '
 '
 nsNSSShutDown
-.
-h
-'
-'
-nsNSSU2FToken
 .
 h
 '
@@ -602,11 +587,6 @@ cpp
 '
 '
 nsNSSShutDown
-.
-cpp
-'
-'
-nsNSSU2FToken
 .
 cpp
 '
