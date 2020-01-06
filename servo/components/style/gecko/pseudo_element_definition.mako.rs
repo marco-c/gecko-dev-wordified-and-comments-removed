@@ -973,7 +973,7 @@ mut
 structs
 :
 :
-nsIAtom
+nsAtom
 CSSPseudoElementType
 )
 {

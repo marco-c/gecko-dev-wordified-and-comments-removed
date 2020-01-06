@@ -308,7 +308,7 @@ nsGkAtoms
 TYPE
 =
 "
-nsIAtom
+nsAtom
 "
 class
 CSSPseudoElementsAtomSource
@@ -1122,7 +1122,7 @@ gecko_bindings
 structs
 :
 :
-nsIAtom
+nsAtom
 ;
 "
            
@@ -1200,7 +1200,7 @@ ptr
 :
 *
 mut
-nsIAtom
+nsAtom
 )
 -
 >
@@ -1499,7 +1499,7 @@ TYPE
 !
 =
 "
-nsIAtom
+nsAtom
 "
 :
                 

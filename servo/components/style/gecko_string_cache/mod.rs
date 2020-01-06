@@ -50,8 +50,8 @@ structs
 :
 :
 {
-nsIAtom
-nsIAtom_AtomKind
+nsAtom
+nsAtom_AtomKind
 }
 ;
 use
@@ -259,7 +259,7 @@ pub
 struct
 WeakAtom
 (
-nsIAtom
+nsAtom
 )
 ;
 pub
@@ -456,7 +456,7 @@ atom
 :
 *
 const
-nsIAtom
+nsAtom
 )
 -
 >
@@ -718,7 +718,7 @@ mKind
 )
 =
 =
-nsIAtom_AtomKind
+nsAtom_AtomKind
 :
 :
 StaticAtom
@@ -796,14 +796,14 @@ self
 >
 *
 mut
-nsIAtom
+nsAtom
 {
 let
 const_ptr
 :
 *
 const
-nsIAtom
+nsAtom
 =
 &
 self
@@ -814,7 +814,7 @@ const_ptr
 as
 *
 mut
-nsIAtom
+nsAtom
 }
 pub
 fn
@@ -1323,7 +1323,7 @@ ptr
 :
 *
 mut
-nsIAtom
+nsAtom
 callback
 :
 F
@@ -1388,7 +1388,7 @@ ptr
 :
 *
 mut
-nsIAtom
+nsAtom
 )
 -
 >
@@ -1442,7 +1442,7 @@ ptr
 :
 *
 mut
-nsIAtom
+nsAtom
 )
 -
 >
@@ -1487,7 +1487,7 @@ self
 >
 *
 mut
-nsIAtom
+nsAtom
 {
 let
 ptr
@@ -2053,7 +2053,7 @@ From
 <
 *
 mut
-nsIAtom
+nsAtom
 >
 for
 Atom
@@ -2069,7 +2069,7 @@ ptr
 :
 *
 mut
-nsIAtom
+nsAtom
 )
 -
 >

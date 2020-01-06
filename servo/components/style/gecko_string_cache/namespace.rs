@@ -5,7 +5,7 @@ gecko_bindings
 structs
 :
 :
-nsIAtom
+nsAtom
 ;
 use
 precomputed_hash
@@ -373,7 +373,7 @@ atom
 :
 *
 mut
-nsIAtom
+nsAtom
 )
 -
 >

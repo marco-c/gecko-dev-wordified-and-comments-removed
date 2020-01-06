@@ -378,7 +378,7 @@ structs
 :
 :
 {
-nsIAtom
+nsAtom
 nsIContent
 nsINode_BooleanFlag
 }
@@ -11558,7 +11558,7 @@ self
 >
 *
 mut
-nsIAtom
+nsAtom
 ;
 }
 impl
@@ -11586,7 +11586,7 @@ self
 >
 *
 mut
-nsIAtom
+nsAtom
 {
 match
 *
