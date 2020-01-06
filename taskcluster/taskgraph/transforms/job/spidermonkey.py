@@ -120,6 +120,9 @@ worker
 "
 spidermonkey
 "
+schema
+=
+sm_run_schema
 )
 run_job_using
 (
@@ -133,6 +136,9 @@ spidermonkey
 -
 package
 "
+schema
+=
+sm_run_schema
 )
 run_job_using
 (
@@ -148,6 +154,10 @@ mozjs
 -
 crate
 "
+               
+schema
+=
+sm_run_schema
 )
 def
 docker_worker_spidermonkey
@@ -155,9 +165,6 @@ docker_worker_spidermonkey
 config
 job
 taskdesc
-schema
-=
-sm_run_schema
 )
 :
     
