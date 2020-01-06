@@ -106,15 +106,6 @@ window
 icon
 .
 png
-skin
-/
-classic
-/
-browser
-/
-aboutSyncTabs
-.
-css
 *
 skin
 /
