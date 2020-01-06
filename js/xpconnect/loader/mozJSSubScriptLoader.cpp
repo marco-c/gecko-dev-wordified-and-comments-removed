@@ -1066,6 +1066,9 @@ if
 loadScope
 )
 {
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 JSObject
 *
 targetGlobal
@@ -1110,6 +1113,8 @@ JSM
 "
 )
 ;
+#
+endif
 if
 (
 !
