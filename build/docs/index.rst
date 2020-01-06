@@ -100,6 +100,7 @@ binaries
 toolchains
 locales
 rust
+sparse
 integrated
 development
 environment
