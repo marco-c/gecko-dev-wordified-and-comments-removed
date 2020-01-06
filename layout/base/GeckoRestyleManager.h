@@ -1456,11 +1456,6 @@ nsRestyleHint
 aRestyleHint
 )
 ;
-void
-AddLayerChangesForAnimation
-(
-)
-;
 bool
 MoveStyleContextsForContentChildren
 (

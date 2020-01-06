@@ -1492,6 +1492,13 @@ aChangeList
 )
 ;
 }
+AddLayerChangesForAnimation
+(
+styleFrame
+aElement
+aChangeList
+)
+;
 }
 const
 bool
