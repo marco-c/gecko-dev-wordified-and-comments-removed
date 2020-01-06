@@ -3138,7 +3138,7 @@ info
 layer
 -
 >
-GetRenderRegion
+GetDrawRects
 (
 )
 )
@@ -3534,7 +3534,7 @@ info
 layer
 -
 >
-GetRenderRegion
+GetDrawRects
 (
 )
 )
