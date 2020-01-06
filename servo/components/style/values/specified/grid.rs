@@ -40,7 +40,10 @@ use
 style_traits
 :
 :
+{
+HasViewportPercentage
 ToCss
+}
 ;
 use
 values
@@ -50,7 +53,6 @@ values
 CSSFloat
 CustomIdent
 Either
-HasViewportPercentage
 }
 ;
 use

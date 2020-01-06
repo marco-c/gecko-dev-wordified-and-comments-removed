@@ -51,12 +51,6 @@ size
 :
 Size2D
 ;
-use
-std
-:
-:
-i32
-;
 #
 [
 derive

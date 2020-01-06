@@ -22,7 +22,7 @@ PropertyDeclaration
 }
 ;
 use
-values
+style_traits
 :
 :
 HasViewportPercentage

@@ -23,13 +23,10 @@ use
 style_traits
 :
 :
-ToCss
-;
-use
-values
-:
-:
+{
 HasViewportPercentage
+ToCss
+}
 ;
 use
 values

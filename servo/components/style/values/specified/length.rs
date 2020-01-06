@@ -69,7 +69,10 @@ use
 style_traits
 :
 :
+{
+HasViewportPercentage
 ToCss
+}
 ;
 use
 style_traits
@@ -111,7 +114,6 @@ Auto
 CSSFloat
 Either
 FONT_MEDIUM_PX
-HasViewportPercentage
 None_
 Normal
 }
