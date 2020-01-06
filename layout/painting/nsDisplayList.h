@@ -8443,7 +8443,11 @@ Count
 (
 )
 const
+{
+return
+mLength
 ;
+}
 void
 SortByZOrder
 (
