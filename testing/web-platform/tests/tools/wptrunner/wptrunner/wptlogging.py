@@ -484,6 +484,9 @@ str
 )
 :
             
+try
+:
+                
 data
 =
 data
@@ -492,6 +495,28 @@ decode
 (
 "
 utf8
+"
+)
+            
+except
+UnicodeDecodeError
+:
+                
+data
+=
+data
+.
+encode
+(
+"
+string_escape
+"
+)
+.
+decode
+(
+"
+ascii
 "
 )
         
