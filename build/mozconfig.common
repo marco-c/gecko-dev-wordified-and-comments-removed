@@ -205,3 +205,13 @@ mozconfig
 .
 rust
 "
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+cache
+"

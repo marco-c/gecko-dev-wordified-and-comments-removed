@@ -852,16 +852,6 @@ MOZ_PACKAGE_JSSHELL
 #
 Use
 ccache
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
-cache
-"
 HOST_CC
 =
 "

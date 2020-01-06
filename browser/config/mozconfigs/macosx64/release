@@ -103,13 +103,3 @@ common
 .
 override
 "
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
-cache
-"
