@@ -3353,6 +3353,10 @@ NS_FAILED
 (
 aStatusCode
 )
+|
+|
+!
+mObserver
 )
 {
 nsCOMPtr
