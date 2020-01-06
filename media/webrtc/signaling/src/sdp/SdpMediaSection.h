@@ -651,9 +651,12 @@ GetSctpPort
 )
 const
 ;
-uint32_t
+bool
 GetMaxMessageSize
 (
+uint32_t
+*
+size
 )
 const
 ;

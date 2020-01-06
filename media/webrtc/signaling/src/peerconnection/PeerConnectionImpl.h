@@ -2906,6 +2906,8 @@ uint16_t
 aNumstreams
 uint32_t
 aMaxMessageSize
+bool
+aMMSSet
 )
 ;
 nsresult
@@ -3048,6 +3050,9 @@ remoteport
 uint32_t
 *
 maxmessagesize
+bool
+*
+mmsset
 uint16_t
 *
 level
