@@ -1428,13 +1428,6 @@ cinnabar
 "
         
 from
-moztest
-.
-resolve
-import
-TestResolver
-        
-from
 tryselect
 .
 selectors
@@ -1525,20 +1518,6 @@ exit
 1
 )
         
-def
-resolver_func
-(
-)
-:
-            
-return
-self
-.
-_spawn
-(
-TestResolver
-)
-        
 at
 =
 AutoTry
@@ -1546,7 +1525,6 @@ AutoTry
 self
 .
 topsrcdir
-resolver_func
 self
 .
 _mach_context
