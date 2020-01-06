@@ -434,6 +434,7 @@ testURL
 "
 about
 :
+mozilla
 "
 ;
 tab

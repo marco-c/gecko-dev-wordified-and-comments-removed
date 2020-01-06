@@ -92,6 +92,7 @@ gBrowser
 "
 about
 :
+mozilla
 "
 )
 ;

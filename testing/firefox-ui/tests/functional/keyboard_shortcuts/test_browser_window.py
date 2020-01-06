@@ -47,6 +47,7 @@ navigate
 '
 about
 :
+about
 '
 )
         
