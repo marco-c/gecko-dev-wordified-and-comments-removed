@@ -167,9 +167,14 @@ input
 if
 self
 .
-puppeteer
+marionette
 .
-platform
+session_capabilities
+[
+'
+platformName
+'
+]
 =
 =
 '
