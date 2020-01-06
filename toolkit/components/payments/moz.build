@@ -134,11 +134,6 @@ paymentUIService
 js
 '
 ]
-EXTRA_JS_MODULES
-+
-=
-[
-]
 JAR_MANIFESTS
 +
 =
@@ -159,3 +154,15 @@ docs
 '
 docs
 '
+TESTING_JS_MODULES
++
+=
+[
+'
+test
+/
+PaymentTestUtils
+.
+jsm
+'
+]
