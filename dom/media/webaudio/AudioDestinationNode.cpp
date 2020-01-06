@@ -1656,6 +1656,13 @@ NotifyMainThreadStreamFinished
 {
 MOZ_ASSERT
 (
+NS_IsMainThread
+(
+)
+)
+;
+MOZ_ASSERT
+(
 mStream
 -
 >
@@ -1669,7 +1676,12 @@ if
 mIsOffline
 )
 {
-NS_DispatchToCurrentThread
+AbstractMainThread
+(
+)
+-
+>
+Dispatch
 (
 NewRunnableMethod
 (
