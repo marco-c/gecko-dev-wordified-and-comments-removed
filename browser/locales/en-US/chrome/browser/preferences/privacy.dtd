@@ -507,11 +507,12 @@ suggest
 ENTITY
 locbar
 .
-history
+history2
 .
 label
 "
-History
+Browsing
+history
 "
 >
 <
@@ -519,7 +520,7 @@ History
 ENTITY
 locbar
 .
-history
+history2
 .
 accesskey
 "

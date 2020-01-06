@@ -3271,7 +3271,7 @@ label
 &
 locbar
 .
-history
+history2
 .
 label
 ;
@@ -3282,7 +3282,7 @@ accesskey
 &
 locbar
 .
-history
+history2
 .
 accesskey
 ;
