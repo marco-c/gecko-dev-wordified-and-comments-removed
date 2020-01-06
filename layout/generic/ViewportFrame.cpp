@@ -245,6 +245,9 @@ aLists
 }
 nsDisplayList
 topLayerList
+(
+aBuilder
+)
 ;
 BuildDisplayListForTopLayer
 (
@@ -511,6 +514,9 @@ IsAtRootOfPseudoStackingContext
 ;
 nsDisplayList
 list
+(
+aBuilder
+)
 ;
 aFrame
 -

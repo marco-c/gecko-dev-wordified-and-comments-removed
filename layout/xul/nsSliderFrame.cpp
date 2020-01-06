@@ -2058,6 +2058,9 @@ tempLists
 ;
 nsDisplayList
 masterList
+(
+aBuilder
+)
 ;
 masterList
 .

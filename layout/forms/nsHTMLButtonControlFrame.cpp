@@ -420,6 +420,9 @@ nullptr
 }
 nsDisplayList
 onTop
+(
+aBuilder
+)
 ;
 if
 (
