@@ -805,6 +805,11 @@ mVideoShmemsActive
 uint32_t
 mVideoShmemLimit
 ;
+uint32_t
+mMaxVideoShmemsActive
+=
+0
+;
 bool
 mIsShutdown
 =
