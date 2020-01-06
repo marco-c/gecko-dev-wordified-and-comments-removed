@@ -10743,9 +10743,13 @@ if
 (
 NS_FAILED
 (
-NS_DispatchToCurrentThread
+NS_IdleDispatchToCurrentThread
 (
 encoder
+.
+forget
+(
+)
 )
 )
 )
