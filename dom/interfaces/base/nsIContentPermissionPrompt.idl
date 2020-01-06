@@ -472,6 +472,11 @@ attribute
 nsIDOMElement
 element
 ;
+readonly
+attribute
+boolean
+isHandlingUserInput
+;
 /
 *
 *

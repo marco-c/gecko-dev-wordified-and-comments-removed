@@ -301,6 +301,8 @@ aIconURL
 nsPIDOMWindowInner
 *
 aWindow
+bool
+aIsHandlingUserInput
 nsIPrincipal
 *
 principal
@@ -418,6 +420,9 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+bool
+mIsHandlingUserInput
 ;
 bool
 mAllow

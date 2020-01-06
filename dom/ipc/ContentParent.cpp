@@ -21457,6 +21457,10 @@ Principal
 &
 aPrincipal
 const
+bool
+&
+aIsHandlingUserInput
+const
 TabId
 &
 aTabId
@@ -21517,6 +21521,7 @@ GetOwnerElement
 (
 )
 aPrincipal
+aIsHandlingUserInput
 aTabId
 )
 ;

@@ -5454,6 +5454,8 @@ PermissionRequest
 aRequests
 Principal
 aPrincipal
+bool
+aIsHandlingUserInput
 TabId
 tabId
 )

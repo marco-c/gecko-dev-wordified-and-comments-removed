@@ -1937,6 +1937,10 @@ Principal
 &
 aPrincipal
 const
+bool
+&
+aIsTrusted
+const
 TabId
 &
 aTabId
