@@ -1699,7 +1699,11 @@ IsFirstPaint
 GetLayersId
 (
 )
-0
+mScrollData
+.
+GetPaintSequenceNumber
+(
+)
 )
 ;
 }
