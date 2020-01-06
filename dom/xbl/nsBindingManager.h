@@ -649,14 +649,14 @@ std
 :
 function
 <
-void
+bool
 (
 nsXBLBinding
 *
 )
 >
 ;
-void
+bool
 EnumerateBoundContentBindings
 (
 const
