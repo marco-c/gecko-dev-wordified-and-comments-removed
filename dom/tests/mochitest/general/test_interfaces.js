@@ -1383,9 +1383,9 @@ true
 desktop
 :
 true
-windows
+android
 :
-true
+false
 }
 "
 PopStateEvent

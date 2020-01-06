@@ -39288,9 +39288,10 @@ enabled
 endif
 #
 if
+!
 defined
 (
-XP_WIN
+ANDROID
 )
 &
 &
