@@ -2396,14 +2396,6 @@ content
 color1
 )
 ;
-box
--
-sizing
-:
-border
--
-box
-;
 }
 .
 jsterm
@@ -6576,6 +6568,12 @@ relative
 html
 body
 {
+display
+:
+block
+!
+important
+;
 height
 :
 100
