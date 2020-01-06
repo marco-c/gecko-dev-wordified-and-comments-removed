@@ -198,15 +198,6 @@ private
 :
 RefPtr
 <
-DecodePromise
->
-ProcessDrain
-(
-)
-override
-;
-RefPtr
-<
 FlushPromise
 >
 ProcessFlush
@@ -344,9 +335,6 @@ mLastDts
 ;
 PtsCorrectionContext
 mPtsContext
-;
-int64_t
-mLastInputDts
 ;
 DurationMap
 mDurationMap

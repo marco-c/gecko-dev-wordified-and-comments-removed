@@ -113,15 +113,6 @@ decoder
 }
 private
 :
-RefPtr
-<
-DecodePromise
->
-ProcessDrain
-(
-)
-override
-;
 MediaResult
 DoDecode
 (
