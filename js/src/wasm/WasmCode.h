@@ -1301,6 +1301,9 @@ debugEnabled
 (
 false
 )
+debugHash
+(
+)
 {
 }
 virtual
@@ -1436,9 +1439,6 @@ customSections
 CacheableChars
 filename
 ;
-ModuleHash
-hash
-;
 bool
 debugEnabled
 ;
@@ -1447,6 +1447,9 @@ debugFuncArgTypes
 ;
 FuncReturnTypesVector
 debugFuncReturnTypes
+;
+ModuleHash
+debugHash
 ;
 bool
 usesMemory
