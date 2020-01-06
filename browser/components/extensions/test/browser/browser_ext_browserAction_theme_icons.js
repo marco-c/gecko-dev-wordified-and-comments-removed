@@ -242,7 +242,7 @@ png
 "
 :
 "
-light
+dark
 .
 png
 "
@@ -810,7 +810,7 @@ png
 size
 "
 :
-19
+16
 }
 ]
 }
