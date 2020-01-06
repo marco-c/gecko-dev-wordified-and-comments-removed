@@ -863,6 +863,18 @@ startswith
 {
 '
 )
+or
+line
+.
+strip
+(
+)
+=
+=
+"
+{
+}
+"
 :
                 
 if
@@ -886,6 +898,20 @@ fileAnnot
 )
 )
                 
+if
+line
+.
+strip
+(
+)
+!
+=
+"
+{
+}
+"
+:
+                    
 code_section
 =
 True
