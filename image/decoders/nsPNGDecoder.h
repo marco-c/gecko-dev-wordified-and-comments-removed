@@ -63,11 +63,10 @@ nsPNGDecoder
 )
 ;
 bool
-IsValidICOResource
+IsValidICO
 (
 )
 const
-override
 ;
 protected
 :

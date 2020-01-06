@@ -686,17 +686,6 @@ return
 mInFrame
 ;
 }
-virtual
-bool
-IsValidICOResource
-(
-)
-const
-{
-return
-false
-;
-}
 enum
 DecodeStyle
 {
