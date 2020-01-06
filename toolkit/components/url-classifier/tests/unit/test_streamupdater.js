@@ -1596,8 +1596,6 @@ prototype
 =
 {
 QueryInterface
-:
-function
 (
 iid
 )

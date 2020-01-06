@@ -269,7 +269,6 @@ prefix
 )
 ;
 }
-;
 function
 doRandomLookups
 (
@@ -919,9 +918,9 @@ dirSvc
 .
 get
 (
-'
+"
 ProfLD
-'
+"
 Ci
 .
 nsIFile
@@ -1166,9 +1165,9 @@ dirSvc
 .
 get
 (
-'
+"
 ProfLD
-'
+"
 Ci
 .
 nsIFile

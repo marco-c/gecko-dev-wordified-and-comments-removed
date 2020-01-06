@@ -254,8 +254,6 @@ flashSubDocExceptTable
 }
 ]
 setPrefs
-:
-function
 (
 {
 setDBs
@@ -399,8 +397,6 @@ true
 ;
 }
 unsetPrefs
-:
-function
 (
 )
 {
@@ -1224,8 +1220,6 @@ unknown
 }
 ]
 expectedPluginFallbackType
-:
-function
 (
 classification
 flashSetting
@@ -1349,8 +1343,6 @@ setting
 ;
 }
 expectedActivated
-:
-function
 (
 classification
 flashSetting
@@ -1415,8 +1407,6 @@ setting
 ;
 }
 expectedHasRunningPlugin
-:
-function
 (
 classification
 flashSetting
@@ -1481,8 +1471,6 @@ setting
 ;
 }
 expectedPluginListed
-:
-function
 (
 classification
 flashSetting
@@ -1504,13 +1492,13 @@ prefs
 .
 getCharPref
 (
-'
+"
 plugins
 .
 navigator
 .
 hidden_ctp_plugin
-'
+"
 )
 =
 =
@@ -1573,8 +1561,6 @@ setting
 ;
 }
 buildTestCaseInNewTab
-:
-function
 (
 browser
 testCase
@@ -1696,10 +1682,6 @@ classifierTester
 .
 IFRAME_ID
 url
-:
-url
-depth
-:
 depth
 }
 async
@@ -1779,8 +1761,6 @@ tab
 ;
 }
 getPluginInfo
-:
-function
 (
 browser
 depth
@@ -1798,8 +1778,6 @@ iframeId
 classifierTester
 .
 IFRAME_ID
-depth
-:
 depth
 }
 async
@@ -1945,8 +1923,6 @@ documentFlashClassification
 ;
 }
 checkPluginInfo
-:
-function
 (
 pluginInfo
 expectedClassification
