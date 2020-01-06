@@ -288,15 +288,6 @@ mozilla
 gecko
 .
 BrowserApp
-MOZ_ANDROID_SEARCH_INTENT_CLASS
-=
-org
-.
-mozilla
-.
-search
-.
-SearchActivity
 MOZ_NO_SMART_CARDS
 =
 1

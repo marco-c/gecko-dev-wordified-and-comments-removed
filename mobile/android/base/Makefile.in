@@ -882,17 +882,6 @@ jar
 NULL
 )
 ifdef
-MOZ_ANDROID_SEARCH_ACTIVITY
-FENNEC_JARS
-+
-=
-search
--
-activity
-.
-jar
-endif
-ifdef
 MOZ_ANDROID_MLS_STUMBLER
 FENNEC_JARS
 +
