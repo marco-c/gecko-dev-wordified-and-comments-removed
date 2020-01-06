@@ -27,10 +27,6 @@ AccEventGen
 .
 py
 -
-addon
--
-sdk
--
 browser
 -
 build
