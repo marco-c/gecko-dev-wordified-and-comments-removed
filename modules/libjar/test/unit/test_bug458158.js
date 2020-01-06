@@ -59,7 +59,11 @@ here
 catch
 (
 e
+)
+{
 if
+(
+!
 (
 e
 instanceof
@@ -83,5 +87,9 @@ NS_ERROR_NULL_POINTER
 )
 )
 {
+throw
+e
+;
+}
 }
 }
