@@ -100,11 +100,6 @@ nsIArrayExtensions
 idl
 '
 '
-nsIAtom
-.
-idl
-'
-'
 nsIHashable
 .
 idl
@@ -319,6 +314,11 @@ h
 '
 '
 nsHashPropertyBag
+.
+h
+'
+'
+nsIAtom
 .
 h
 '
