@@ -15,6 +15,9 @@ PStunAddrsRequestChild
 .
 h
 "
+class
+nsIEventTarget
+;
 namespace
 mozilla
 {
@@ -84,6 +87,9 @@ StunAddrsRequestChild
 StunAddrsListener
 *
 listener
+nsIEventTarget
+*
+mainThreadEventTarget
 )
 ;
 NS_IMETHOD_
