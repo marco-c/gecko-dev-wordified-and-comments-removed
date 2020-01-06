@@ -2377,6 +2377,9 @@ components
 nsSidebar
 .
 js
+#
+ifdef
+NIGHTLY_BUILD
 RESPATH
 /
 components
@@ -2391,6 +2394,8 @@ components
 paymentUIService
 .
 js
+#
+endif
 RESPATH
 /
 components

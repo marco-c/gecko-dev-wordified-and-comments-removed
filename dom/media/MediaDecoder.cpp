@@ -4016,15 +4016,6 @@ Invalidate
 (
 )
 ;
-GetResource
-(
-)
--
->
-EnsureCacheUpToDate
-(
-)
-;
 if
 (
 mPlayState
@@ -4039,10 +4030,6 @@ mNextState
 )
 ;
 }
-NotifySuspendedStatusChanged
-(
-)
-;
 if
 (
 aEventVisibility

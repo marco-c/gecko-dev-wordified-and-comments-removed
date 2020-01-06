@@ -1048,6 +1048,16 @@ asr
 ;
 }
 }
+{
+ScrollingLayersHelper
+clip
+(
+item
+aBuilder
+aSc
+mClipIdCache
+)
+;
 if
 (
 !
@@ -1072,6 +1082,7 @@ aSc
 aDisplayListBuilder
 )
 ;
+}
 }
 if
 (
@@ -3173,6 +3184,12 @@ i
 ;
 }
 mLayerScrollData
+.
+clear
+(
+)
+;
+mClipIdCache
 .
 clear
 (

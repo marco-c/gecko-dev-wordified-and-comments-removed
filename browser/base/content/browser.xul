@@ -10621,7 +10621,9 @@ PlacesChevron
 class
 =
 "
-chevron
+toolbarbutton
+-
+1
 "
 mousethrough
 =
