@@ -10597,7 +10597,7 @@ aLength
 )
 ;
 const
-nsAFlatCString
+nsCString
 &
 value
 =
