@@ -88,6 +88,9 @@ class
 Connection
 ;
 class
+StatementParamsHolder
+;
+class
 StatementRowHolder
 ;
 class
@@ -195,7 +198,7 @@ mParamsArray
 ;
 nsMainThreadPtrHandle
 <
-nsIXPConnectJSObjectHolder
+StatementParamsHolder
 >
 mStatementParamsHolder
 ;

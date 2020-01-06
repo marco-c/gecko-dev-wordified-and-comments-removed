@@ -4330,6 +4330,16 @@ MozSelfSupport
 webidl
 '
 '
+MozStorageAsyncStatementParams
+.
+webidl
+'
+'
+MozStorageStatementParams
+.
+webidl
+'
+'
 MozStorageStatementRow
 .
 webidl

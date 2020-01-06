@@ -62,9 +62,6 @@ Attributes
 .
 h
 "
-class
-nsIXPConnectJSObjectHolder
-;
 namespace
 mozilla
 {
@@ -73,6 +70,9 @@ storage
 {
 class
 AsyncStatementJSHelper
+;
+class
+AsyncStatementParamsHolder
 ;
 class
 Connection
@@ -153,7 +153,7 @@ mParamsArray
 ;
 nsMainThreadPtrHandle
 <
-nsIXPConnectJSObjectHolder
+AsyncStatementParamsHolder
 >
 mStatementParamsHolder
 ;
