@@ -6210,8 +6210,10 @@ PROFILER_MARKER_PAYLOAD
 "
 DOMEvent
 "
-new
+MakeUnique
+<
 DOMEventMarkerPayload
+>
 (
 typeStr
 phase

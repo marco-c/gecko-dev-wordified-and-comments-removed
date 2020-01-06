@@ -1705,8 +1705,10 @@ profiler_add_marker
 "
 M2
 "
-new
+MakeUnique
+<
 ProfilerMarkerTracing
+>
 (
 "
 C
@@ -1727,8 +1729,10 @@ PROFILER_MARKER_PAYLOAD
 "
 M4
 "
-new
+MakeUnique
+<
 ProfilerMarkerTracing
+>
 (
 "
 C
@@ -1761,8 +1765,10 @@ PROFILER_MARKER_PAYLOAD
 "
 M5
 "
-new
+MakeUnique
+<
 GTestPayload
+>
 (
 i
 )
@@ -1928,8 +1934,10 @@ PROFILER_MARKER_PAYLOAD
 "
 M5
 "
-new
+MakeUnique
+<
 GTestPayload
+>
 (
 i
 )
