@@ -1,11 +1,11 @@
 use
-serialize
+rustc_serialize
 :
 :
 json
 ;
 use
-serialize
+rustc_serialize
 :
 :
 json
@@ -185,7 +185,7 @@ to_string
 [
 derive
 (
-Encodable
+RustcEncodable
 Show
 )
 ]
@@ -239,7 +239,7 @@ session_id
 [
 derive
 (
-Encodable
+RustcEncodable
 Show
 )
 ]
@@ -284,7 +284,7 @@ value
 [
 derive
 (
-Encodable
+RustcEncodable
 Show
 )
 ]
@@ -332,7 +332,7 @@ height
 [
 derive
 (
-Encodable
+RustcEncodable
 Show
 )
 ]
@@ -398,7 +398,7 @@ height
 [
 derive
 (
-Encodable
+RustcEncodable
 PartialEq
 Show
 )
@@ -469,7 +469,7 @@ to_json
 [
 derive
 (
-Encodable
+RustcEncodable
 PartialEq
 Show
 )
@@ -590,7 +590,7 @@ http_only
 [
 derive
 (
-Encodable
+RustcEncodable
 Show
 )
 ]

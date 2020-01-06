@@ -1,11 +1,11 @@
 use
-serialize
+rustc_serialize
 :
 :
 json
 ;
 use
-serialize
+rustc_serialize
 :
 :
 json
@@ -182,7 +182,7 @@ try_opt
 try
 !
 (
-json
+Json
 :
 :
 from_str

@@ -8,7 +8,7 @@ num
 ToPrimitive
 ;
 use
-serialize
+rustc_serialize
 :
 :
 json
@@ -21,11 +21,10 @@ ParserError
 }
 ;
 use
-serialize
+rustc_serialize
 :
 :
 {
-json
 Encodable
 Encoder
 }
@@ -170,10 +169,6 @@ message
 message
 .
 to_string
-(
-)
-.
-clone
 (
 )
 }
