@@ -10,6 +10,8 @@ tests
 perf
 -
 reftest
+-
+singletons
 /
 bloom
 -
