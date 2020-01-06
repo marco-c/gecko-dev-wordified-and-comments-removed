@@ -7301,13 +7301,6 @@ focus
 (
 )
 ;
-if
-(
-droppedItem
-instanceof
-URL
-)
-{
 this
 .
 handleCommand
@@ -7334,7 +7327,6 @@ URLBarSetURI
 (
 )
 ;
-}
 }
 ]
 ]
