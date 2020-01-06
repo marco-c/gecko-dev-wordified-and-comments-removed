@@ -1166,7 +1166,7 @@ equal
 e
 .
 status
-AddonUpdateChecker
+AddonManager
 .
 ERROR_PARSE_ERROR
 )
