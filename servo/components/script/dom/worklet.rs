@@ -918,13 +918,6 @@ promise
 .
 reject_error
 (
-self
-.
-window
-.
-get_cx
-(
-)
 Error
 :
 :

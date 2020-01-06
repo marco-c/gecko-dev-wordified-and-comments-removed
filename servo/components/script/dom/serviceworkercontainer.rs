@@ -467,23 +467,6 @@ global
 )
 ;
 let
-ctx
-=
-(
-&
-*
-self
-.
-global
-(
-)
-)
-.
-get_cx
-(
-)
-;
-let
 USVString
 (
 ref
@@ -542,7 +525,6 @@ promise
 .
 reject_error
 (
-ctx
 Error
 :
 :
@@ -598,7 +580,6 @@ promise
 .
 reject_error
 (
-ctx
 Error
 :
 :
@@ -671,7 +652,6 @@ promise
 .
 reject_error
 (
-ctx
 Error
 :
 :
@@ -755,7 +735,6 @@ promise
 .
 reject_error
 (
-ctx
 Error
 :
 :
@@ -829,7 +808,6 @@ promise
 .
 reject_error
 (
-ctx
 Error
 :
 :
@@ -902,7 +880,6 @@ promise
 .
 reject_error
 (
-ctx
 Error
 :
 :

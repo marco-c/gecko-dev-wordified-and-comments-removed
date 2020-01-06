@@ -306,15 +306,6 @@ promise
 .
 reject_error
 (
-promise
-.
-global
-(
-)
-.
-get_cx
-(
-)
 Error
 :
 :
@@ -430,19 +421,6 @@ get_mime_type
 )
 )
 ;
-let
-cx
-=
-promise
-.
-global
-(
-)
-.
-get_cx
-(
-)
-;
 match
 pkg_data_results
 {
@@ -469,7 +447,6 @@ promise
 .
 resolve_native
 (
-cx
 &
 USVString
 (
@@ -489,7 +466,6 @@ promise
 .
 resolve_native
 (
-cx
 &
 j
 )
@@ -506,7 +482,6 @@ promise
 .
 resolve_native
 (
-cx
 &
 b
 )
@@ -523,7 +498,6 @@ promise
 .
 resolve_native
 (
-cx
 &
 f
 )
@@ -540,7 +514,6 @@ promise
 .
 reject_error
 (
-cx
 err
 )
 }
