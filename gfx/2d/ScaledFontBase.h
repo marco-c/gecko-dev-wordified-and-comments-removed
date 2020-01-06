@@ -206,6 +206,7 @@ PopulateCairoScaledFont
 (
 )
 ;
+virtual
 cairo_scaled_font_t
 *
 GetCairoScaledFont
@@ -216,6 +217,7 @@ return
 mScaledFont
 ;
 }
+virtual
 void
 SetCairoScaledFont
 (
