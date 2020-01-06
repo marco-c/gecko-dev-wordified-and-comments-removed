@@ -10158,7 +10158,7 @@ int32_t
 aStartOffset
 nsINode
 *
-aEndNode
+aEndContainer
 int32_t
 aEndOffset
 )
@@ -10178,7 +10178,7 @@ aStartOffset
 =
 0
 ;
-aEndNode
+aEndContainer
 =
 &
 aFragment
@@ -10208,7 +10208,7 @@ CreateRange
 (
 aStartContainer
 aStartOffset
-aEndNode
+aEndContainer
 aEndOffset
 getter_AddRefs
 (

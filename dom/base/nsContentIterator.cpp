@@ -162,7 +162,7 @@ int32_t
 aStartOffset
 nsINode
 *
-aEndNode
+aEndContainer
 int32_t
 aEndOffset
 )
@@ -179,7 +179,7 @@ aStartContainer
 NS_WARN_IF
 (
 !
-aEndNode
+aEndContainer
 )
 |
 |
@@ -205,7 +205,7 @@ aStartContainer
 aNode
 =
 =
-aEndNode
+aEndContainer
 )
 {
 if
@@ -273,13 +273,13 @@ MOZ_ASSERT
 aNode
 !
 =
-aEndNode
+aEndContainer
 |
 |
 !
 aEndOffset
 "
-aStartContainer
+aEndContainer
 doesn
 '
 t
@@ -292,7 +292,7 @@ data
 node
 "
 "
-aStartOffset
+aEndOffset
 should
 be
 0
@@ -381,7 +381,7 @@ nsContentUtils
 :
 ComparePoints
 (
-aEndNode
+aEndContainer
 aEndOffset
 parent
 indx

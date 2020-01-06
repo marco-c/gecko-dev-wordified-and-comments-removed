@@ -2245,7 +2245,7 @@ int32_t
 aStartOffset
 nsINode
 *
-aEndNode
+aEndContainer
 int32_t
 aEndOffset
 )
