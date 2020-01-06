@@ -160,6 +160,9 @@ PopupNotifications
 whereToOpenLink
 "
 "
+openLinkIn
+"
+"
 gBrowser
 "
 ]
