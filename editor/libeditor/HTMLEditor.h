@@ -1222,6 +1222,14 @@ int32_t
 ioOffset
 bool
 aNoEmptyNodes
+nsCOMPtr
+<
+nsIDOMNode
+>
+*
+ioChildAtOffset
+=
+nullptr
 )
 ;
 void
