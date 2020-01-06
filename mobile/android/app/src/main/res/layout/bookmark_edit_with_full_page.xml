@@ -583,7 +583,7 @@ android
 inputType
 =
 "
-textNoSuggestions
+textUri
 "
 android
 :
