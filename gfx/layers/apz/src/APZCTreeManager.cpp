@@ -456,11 +456,12 @@ mNodesToDestroy
 std
 :
 :
-map
+unordered_map
 <
 ScrollableLayerGuid
 AsyncPanZoomController
 *
+ScrollableLayerGuidHash
 >
 mApzcMap
 ;
@@ -1757,11 +1758,12 @@ mTreeLock
 std
 :
 :
-map
+unordered_map
 <
 ScrollableLayerGuid
 HitTestingTreeNode
 *
+ScrollableLayerGuidHash
 >
 httnMap
 ;
