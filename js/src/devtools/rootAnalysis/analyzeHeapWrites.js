@@ -30,6 +30,15 @@ js
 '
 )
 ;
+loadRelativeToScript
+(
+'
+dumpCFG
+.
+js
+'
+)
+;
 function
 checkExternalFunction
 (
