@@ -283,6 +283,11 @@ WorkerHolder
 .
 h
 '
+'
+WorkerHolderToken
+.
+h
+'
 ]
 XPIDL_MODULE
 =
@@ -470,6 +475,11 @@ cpp
 '
 '
 WorkerHolder
+.
+cpp
+'
+'
+WorkerHolderToken
 .
 cpp
 '
