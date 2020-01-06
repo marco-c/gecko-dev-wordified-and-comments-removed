@@ -1602,15 +1602,6 @@ extlangMappings
 )
 )
 {
-subtag
-=
-extlangMappings
-[
-subtag
-]
-.
-preferred
-;
 if
 (
 i
@@ -1624,8 +1615,6 @@ extlangMappings
 [
 subtag
 ]
-.
-prefix
 =
 =
 =
