@@ -204,7 +204,6 @@ StopPresentation
 =
 0
 ;
-virtual
 void
 NotifyVSync
 (
