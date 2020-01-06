@@ -1447,7 +1447,7 @@ included
 /
 attribute
 AUTF8String
-path
+pathQueryRef
 ;
 /
 *

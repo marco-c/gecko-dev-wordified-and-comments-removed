@@ -4279,7 +4279,7 @@ resolvedPath
 chromeuri
 -
 >
-GetPath
+GetPathQueryRef
 (
 chromePath
 )
@@ -4287,7 +4287,7 @@ chromePath
 resolveduri
 -
 >
-GetPath
+GetPathQueryRef
 (
 resolvedPath
 )

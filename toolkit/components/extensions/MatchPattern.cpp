@@ -646,7 +646,7 @@ URINoRef
 )
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

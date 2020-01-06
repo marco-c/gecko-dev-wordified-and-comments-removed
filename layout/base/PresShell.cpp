@@ -46635,7 +46635,7 @@ uri
 uri
 -
 >
-GetPath
+GetPathQueryRef
 (
 uriStr
 )

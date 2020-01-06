@@ -1597,7 +1597,7 @@ NS_IMETHODIMP
 nsJARURI
 :
 :
-GetPath
+GetPathQueryRef
 (
 nsACString
 &
@@ -1628,7 +1628,7 @@ NS_IMETHODIMP
 nsJARURI
 :
 :
-SetPath
+SetPathQueryRef
 (
 const
 nsACString

@@ -4970,7 +4970,7 @@ rv
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 newPath
 )
@@ -5031,7 +5031,7 @@ newPath
 aURI
 -
 >
-SetPath
+SetPathQueryRef
 (
 newPath
 )

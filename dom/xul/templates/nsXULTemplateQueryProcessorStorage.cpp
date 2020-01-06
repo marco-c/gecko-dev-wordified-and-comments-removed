@@ -785,7 +785,7 @@ rv
 uri
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

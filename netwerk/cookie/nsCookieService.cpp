@@ -14704,7 +14704,7 @@ rv
 aHostURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 pathFromURI
 )
@@ -18600,7 +18600,7 @@ else
 aHostURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -18704,7 +18704,7 @@ NS_FAILED
 aHostURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 pathFromURI
 )

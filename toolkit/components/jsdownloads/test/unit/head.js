@@ -1120,7 +1120,7 @@ match
 =
 sourceURI
 .
-path
+pathQueryRef
 .
 match
 (

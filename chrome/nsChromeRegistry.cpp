@@ -678,7 +678,7 @@ rv
 aChromeURL
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -1051,7 +1051,7 @@ NS_ERROR_INVALID_ARG
 aChromeURL
 -
 >
-SetPath
+SetPathQueryRef
 (
 path
 )

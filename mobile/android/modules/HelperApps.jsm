@@ -821,7 +821,7 @@ exec
 (
 uri
 .
-path
+pathQueryRef
 )
 ;
 if

@@ -224,7 +224,7 @@ install
 .
 sourceURI
 .
-path
+pathQueryRef
 .
 endsWith
 (

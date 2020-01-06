@@ -161,7 +161,7 @@ channelID
 :
 uri
 .
-path
+pathQueryRef
 pushEndpoint
 :
 '
@@ -178,7 +178,7 @@ push
 +
 uri
 .
-path
+pathQueryRef
 scope
 :
 uri

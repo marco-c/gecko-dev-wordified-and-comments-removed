@@ -72,7 +72,7 @@ do_check_eq
 (
 newURI
 .
-path
+pathQueryRef
 "
 /
 folder

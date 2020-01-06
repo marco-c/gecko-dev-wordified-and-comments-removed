@@ -1548,7 +1548,7 @@ n
 +
 uri
 .
-path
+pathQueryRef
 +
 "
 \
@@ -2042,7 +2042,7 @@ resource
 :
 uri
 .
-path
+pathQueryRef
 host
 :
 uri

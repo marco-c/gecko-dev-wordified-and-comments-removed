@@ -476,7 +476,7 @@ rv
 mURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -766,7 +766,7 @@ return
 mURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 aBaseDomain
 )

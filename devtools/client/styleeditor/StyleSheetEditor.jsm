@@ -3619,7 +3619,7 @@ split
 (
 origUri
 .
-path
+pathQueryRef
 )
 .
 components
@@ -3634,7 +3634,7 @@ split
 (
 uri
 .
-path
+pathQueryRef
 )
 .
 components

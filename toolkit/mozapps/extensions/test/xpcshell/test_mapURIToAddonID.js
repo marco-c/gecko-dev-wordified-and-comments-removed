@@ -1477,7 +1477,7 @@ clone
 ;
 u2
 .
-path
+pathQueryRef
 =
 "
 notmapped

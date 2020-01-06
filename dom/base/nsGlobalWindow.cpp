@@ -38364,7 +38364,7 @@ NS_FAILED
 originURI
 -
 >
-SetPath
+SetPathQueryRef
 (
 EmptyCString
 (

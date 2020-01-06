@@ -950,7 +950,7 @@ rv
 uri
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -1226,7 +1226,7 @@ rv
 uri
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -1296,7 +1296,7 @@ rv
 uri
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -1346,7 +1346,7 @@ Append
 uri
 -
 >
-SetPath
+SetPathQueryRef
 (
 path
 )

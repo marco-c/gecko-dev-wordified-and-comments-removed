@@ -327,7 +327,7 @@ ASSERT_EQ
 url
 -
 >
-SetPath
+SetPathQueryRef
 (
 NS_LITERAL_CSTRING
 (
@@ -367,7 +367,7 @@ ASSERT_EQ
 url
 -
 >
-GetPath
+GetPathQueryRef
 (
 out
 )
@@ -2382,7 +2382,7 @@ out
 url
 -
 >
-SetPath
+SetPathQueryRef
 (
 NS_LITERAL_CSTRING
 (
@@ -2418,7 +2418,7 @@ you
 url
 -
 >
-GetPath
+GetPathQueryRef
 (
 out
 )

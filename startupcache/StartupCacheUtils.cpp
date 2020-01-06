@@ -1112,7 +1112,7 @@ rv
 baseFileURL
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

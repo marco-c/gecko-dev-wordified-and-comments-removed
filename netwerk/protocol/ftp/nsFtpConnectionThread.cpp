@@ -7140,7 +7140,7 @@ URI
 )
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -7185,7 +7185,7 @@ URI
 )
 -
 >
-SetPath
+SetPathQueryRef
 (
 path
 )

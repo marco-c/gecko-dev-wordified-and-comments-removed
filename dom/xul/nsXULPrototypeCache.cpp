@@ -1218,7 +1218,7 @@ Key
 )
 -
 >
-GetPath
+GetPathQueryRef
 (
 str
 )
@@ -1300,7 +1300,7 @@ GetSheetURI
 )
 -
 >
-GetPath
+GetPathQueryRef
 (
 str
 )
@@ -2220,7 +2220,7 @@ path
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

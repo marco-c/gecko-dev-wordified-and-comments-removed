@@ -234,7 +234,7 @@ chrome
 &
 filenameURI
 .
-path
+pathQueryRef
 .
 indexOf
 (

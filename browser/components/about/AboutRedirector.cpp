@@ -697,7 +697,7 @@ path
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

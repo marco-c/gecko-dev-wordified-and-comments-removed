@@ -6520,7 +6520,7 @@ fullPath
 =
 uri
 .
-path
+pathQueryRef
 ;
 scheme
 =

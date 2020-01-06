@@ -761,7 +761,7 @@ cloneIgnoringRef
 (
 )
 .
-path
+pathQueryRef
 )
 )
 )

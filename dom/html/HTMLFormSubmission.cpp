@@ -1092,7 +1092,7 @@ rv
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -1156,7 +1156,7 @@ rv
 aURI
 -
 >
-SetPath
+SetPathQueryRef
 (
 path
 )
@@ -1342,7 +1342,7 @@ rv
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -1449,7 +1449,7 @@ namedAnchor
 aURI
 -
 >
-SetPath
+SetPathQueryRef
 (
 path
 )
@@ -2959,7 +2959,7 @@ rv
 aURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
@@ -3026,7 +3026,7 @@ rv
 aURI
 -
 >
-SetPath
+SetPathQueryRef
 (
 path
 )

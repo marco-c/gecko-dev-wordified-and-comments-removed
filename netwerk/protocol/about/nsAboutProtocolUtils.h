@@ -106,7 +106,7 @@ rv
 aAboutURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 aModule
 )

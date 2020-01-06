@@ -1708,7 +1708,7 @@ channel
 .
 URI
 .
-path
+pathQueryRef
 realm
 :
 httpRealm

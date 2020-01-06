@@ -1065,7 +1065,7 @@ NS_IMETHODIMP
 RustURL
 :
 :
-GetPath
+GetPathQueryRef
 (
 nsACString
 &
@@ -1089,7 +1089,7 @@ NS_IMETHODIMP
 RustURL
 :
 :
-SetPath
+SetPathQueryRef
 (
 const
 nsACString

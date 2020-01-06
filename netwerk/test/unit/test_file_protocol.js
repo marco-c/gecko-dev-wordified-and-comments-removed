@@ -1423,12 +1423,12 @@ chan
 .
 URI
 .
-path
+pathQueryRef
 chan
 .
 originalURI
 .
-path
+pathQueryRef
 )
 ;
 var
@@ -1464,7 +1464,7 @@ chan
 .
 originalURI
 .
-path
+pathQueryRef
 ios
 .
 newFileURI
@@ -1472,7 +1472,7 @@ newFileURI
 file
 )
 .
-path
+pathQueryRef
 )
 ;
 }

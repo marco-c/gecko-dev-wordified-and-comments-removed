@@ -1885,7 +1885,7 @@ if
 (
 uri
 .
-path
+pathQueryRef
 .
 endsWith
 (

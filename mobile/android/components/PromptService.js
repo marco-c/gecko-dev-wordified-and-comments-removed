@@ -3573,7 +3573,7 @@ if
 (
 uri
 .
-path
+pathQueryRef
 !
 =
 "
@@ -3584,7 +3584,7 @@ pathname
 =
 uri
 .
-path
+pathQueryRef
 ;
 let
 formattedHostname

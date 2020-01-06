@@ -697,7 +697,7 @@ channel
 .
 URI
 .
-path
+pathQueryRef
 .
 indexOf
 (
@@ -717,7 +717,7 @@ channel
 .
 URI
 .
-path
+pathQueryRef
 .
 indexOf
 (

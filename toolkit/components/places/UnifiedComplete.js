@@ -8065,7 +8065,7 @@ endsWith
 |
 uri
 .
-path
+pathQueryRef
 .
 length
 >

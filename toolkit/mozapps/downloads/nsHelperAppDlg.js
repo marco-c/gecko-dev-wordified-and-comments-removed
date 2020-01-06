@@ -1990,7 +1990,7 @@ fname
 =
 url
 .
-path
+pathQueryRef
 ;
 this
 .
@@ -1999,7 +1999,7 @@ mSourcePath
 =
 url
 .
-path
+pathQueryRef
 ;
 }
 if

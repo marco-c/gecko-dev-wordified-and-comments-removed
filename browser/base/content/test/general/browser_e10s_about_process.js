@@ -158,7 +158,7 @@ if
 (
 aURI
 .
-path
+pathQueryRef
 .
 startsWith
 (

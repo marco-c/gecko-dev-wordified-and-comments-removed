@@ -823,7 +823,7 @@ decodeURIComponent
 (
 uri
 .
-path
+pathQueryRef
 )
 path
 +
@@ -1185,7 +1185,7 @@ decodeURIComponent
 (
 uri
 .
-path
+pathQueryRef
 )
 path
 +

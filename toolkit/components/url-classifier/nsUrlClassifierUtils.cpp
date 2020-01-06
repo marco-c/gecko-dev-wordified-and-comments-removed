@@ -876,7 +876,7 @@ rv
 innerURI
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )

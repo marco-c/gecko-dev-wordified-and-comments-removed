@@ -2300,7 +2300,7 @@ DocURI
 )
 -
 >
-GetPath
+GetPathQueryRef
 (
 path
 )
