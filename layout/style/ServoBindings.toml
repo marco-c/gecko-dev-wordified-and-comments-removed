@@ -3028,6 +3028,9 @@ nsCSSPropertyID
 nsCSSPropertyIDSet
 "
 "
+nsCSSRect
+"
+"
 nsCSSShadowArray
 "
 "
