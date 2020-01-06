@@ -53,7 +53,7 @@ const
 uint16_t
 kMajorRevision
 =
-9
+10
 ;
 const
 uint16_t
@@ -551,14 +551,6 @@ virtual
 DrawTarget
 *
 GetReferenceDrawTarget
-(
-)
-=
-0
-;
-virtual
-FontType
-GetDesiredFontType
 (
 )
 =
