@@ -265,6 +265,12 @@ MediaSourceResource
 >
 mResource
 ;
+RefPtr
+<
+nsIPrincipal
+>
+mPrincipal
+;
 dom
 :
 :
