@@ -3363,9 +3363,6 @@ Buffer
 ;
 #
 endif
-#
-ifdef
-MOZ_GECKO_PROFILER
 AutoProfilerLabel
 label
 (
@@ -3379,8 +3376,6 @@ dllName
 __LINE__
 )
 ;
-#
-endif
 #
 ifdef
 _M_AMD64

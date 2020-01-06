@@ -5,9 +5,6 @@ mozilla_AutoProfilerLabel_h
 define
 mozilla_AutoProfilerLabel_h
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 mozilla
@@ -121,7 +118,5 @@ mPseudoStack
 #
 endif
 }
-#
-endif
 #
 endif

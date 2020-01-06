@@ -17747,9 +17747,6 @@ called
 "
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 static
 const
 EnumeratedArray
@@ -17812,8 +17809,6 @@ flushType
 ]
 )
 ;
-#
-endif
 #
 ifdef
 ACCESSIBILITY
@@ -28034,9 +28029,6 @@ uint32_t
 aFlags
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 nsIURI
 *
 uri
@@ -28117,8 +28109,6 @@ get
 )
 )
 ;
-#
-endif
 Maybe
 <
 js
@@ -41183,9 +41173,6 @@ parent
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 nsIURI
 *
 uri
@@ -41243,8 +41230,6 @@ get
 )
 )
 ;
-#
-endif
 nsDocShell
 *
 docShell

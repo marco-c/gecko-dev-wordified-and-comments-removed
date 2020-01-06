@@ -2103,6 +2103,9 @@ init
 bool
 ok2
 =
+AutoProfilerLabel
+:
+:
 sPseudoStack
 .
 init
@@ -2174,6 +2177,9 @@ Stack
 )
 {
 return
+AutoProfilerLabel
+:
+:
 sPseudoStack
 .
 get
@@ -2198,6 +2204,9 @@ set
 aInfo
 )
 ;
+AutoProfilerLabel
+:
+:
 sPseudoStack
 .
 set
@@ -2246,6 +2255,9 @@ MOZ_THREAD_LOCAL
 PseudoStack
 *
 )
+AutoProfilerLabel
+:
+:
 sPseudoStack
 ;
 static
@@ -9153,6 +9165,9 @@ PseudoStack
 *
 pseudoStack
 =
+AutoProfilerLabel
+:
+:
 sPseudoStack
 .
 get

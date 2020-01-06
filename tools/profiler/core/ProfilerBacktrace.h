@@ -25,6 +25,13 @@ ThreadInfo
 class
 UniqueStacks
 ;
+namespace
+mozilla
+{
+class
+TimeStamp
+;
+}
 class
 ProfilerBacktrace
 {
