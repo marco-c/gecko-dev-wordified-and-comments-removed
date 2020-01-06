@@ -302,6 +302,12 @@ mCurrentConfig
 ;
 RefPtr
 <
+MediaByteBuffer
+>
+mOriginalExtraData
+;
+RefPtr
+<
 layers
 :
 :
