@@ -1,7 +1,3 @@
-getReferrerTest
-=
-getRemovedReferrerTest
-;
 function
 startNewPrivateWindowTestCase
 (
