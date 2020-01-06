@@ -5988,9 +5988,7 @@ DenseElementResult
 :
 Failure
 ;
-const
 Value
-&
 elem
 =
 GetBoxedOrUnboxedDenseElement
