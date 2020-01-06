@@ -94,16 +94,6 @@ nsPrintingPromptService
 .
 cpp
 '
-'
-nsPrintProgress
-.
-cpp
-'
-'
-nsPrintProgressParams
-.
-cpp
-'
 ]
 FINAL_LIBRARY
 =
