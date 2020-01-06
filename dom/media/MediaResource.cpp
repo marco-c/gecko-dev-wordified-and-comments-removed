@@ -389,10 +389,6 @@ Destroy
 (
 )
 )
-NS_IMPL_QUERY_INTERFACE0
-(
-MediaResource
-)
 ChannelMediaResource
 :
 :
