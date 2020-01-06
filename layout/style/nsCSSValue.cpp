@@ -16402,6 +16402,7 @@ GetRustString
 )
 const
 {
+const
 uint8_t
 *
 chars
