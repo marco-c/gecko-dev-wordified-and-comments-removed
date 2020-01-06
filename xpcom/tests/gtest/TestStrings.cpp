@@ -4973,10 +4973,6 @@ const
 nsAString
 &
 result
-uint32_t
-offset
-=
-0
 )
 {
 nsAutoString
@@ -4990,7 +4986,6 @@ data
 StripChars
 (
 strip
-offset
 )
 ;
 EXPECT_TRUE
@@ -5133,7 +5128,6 @@ NS_LITERAL_STRING
 foo
 "
 )
-1
 )
 ;
 }
