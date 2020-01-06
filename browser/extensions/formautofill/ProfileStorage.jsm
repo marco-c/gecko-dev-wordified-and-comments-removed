@@ -744,7 +744,7 @@ if
 (
 this
 .
-data
+_data
 .
 reduce
 (
@@ -775,7 +775,7 @@ _schemaVersion
 ;
 }
 get
-data
+_data
 (
 )
 {
@@ -904,7 +904,7 @@ existing
 =
 this
 .
-data
+_data
 [
 index
 ]
@@ -918,7 +918,7 @@ deleted
 {
 this
 .
-data
+_data
 .
 splice
 (
@@ -1174,7 +1174,7 @@ changeCounter
 }
 this
 .
-data
+_data
 .
 push
 (
@@ -1342,7 +1342,7 @@ _clone
 (
 this
 .
-data
+_data
 [
 recordFoundIndex
 ]
@@ -1532,7 +1532,7 @@ recordFound
 ;
 this
 .
-data
+_data
 [
 recordFoundIndex
 ]
@@ -1780,7 +1780,7 @@ existing
 =
 this
 .
-data
+_data
 [
 index
 ]
@@ -1812,7 +1812,7 @@ existingSync
 {
 this
 .
-data
+_data
 [
 index
 ]
@@ -1845,7 +1845,7 @@ else
 {
 this
 .
-data
+_data
 .
 splice
 (
@@ -2006,7 +2006,7 @@ records
 =
 this
 .
-data
+_data
 .
 filter
 (
@@ -2415,7 +2415,7 @@ localRecord
 =
 this
 .
-data
+_data
 [
 index
 ]
@@ -2439,7 +2439,7 @@ newRecord
 ;
 this
 .
-data
+_data
 [
 index
 ]
@@ -2620,7 +2620,7 @@ forkedLocalRecord
 ;
 this
 .
-data
+_data
 .
 push
 (
@@ -2706,7 +2706,7 @@ localRecord
 =
 this
 .
-data
+_data
 [
 localIndex
 ]
@@ -2940,7 +2940,7 @@ changeCounter
 ;
 this
 .
-data
+_data
 .
 push
 (
@@ -2955,7 +2955,7 @@ existing
 =
 this
 .
-data
+_data
 [
 index
 ]
@@ -3028,7 +3028,7 @@ return
 }
 this
 .
-data
+_data
 [
 index
 ]
@@ -3066,7 +3066,7 @@ profiles
 =
 this
 .
-data
+_data
 ;
 for
 (
@@ -3305,7 +3305,7 @@ record
 of
 this
 .
-data
+_data
 )
 {
 delete
@@ -3421,7 +3421,7 @@ profile
 =
 this
 .
-data
+_data
 [
 index
 ]
@@ -3595,7 +3595,7 @@ localRecords
 =
 this
 .
-data
+_data
 ;
 for
 (
@@ -3906,7 +3906,7 @@ undefined
 :
 this
 .
-data
+_data
 [
 found
 ]
@@ -3928,7 +3928,7 @@ false
 return
 this
 .
-data
+_data
 .
 findIndex
 (
@@ -4246,7 +4246,7 @@ record
 of
 this
 .
-data
+_data
 )
 {
 if
@@ -7125,7 +7125,7 @@ creditCard
 of
 this
 .
-data
+_data
 )
 {
 let
