@@ -853,7 +853,7 @@ c
 "
 console
 .
-map
+log
 (
 '
 mymap
