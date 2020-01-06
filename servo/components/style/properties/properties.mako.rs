@@ -2185,6 +2185,7 @@ properties
 derive
 (
 Clone
+PartialEq
 )
 ]
 pub
@@ -7153,13 +7154,7 @@ Err
 /
 /
 Returns
-a
-property
-id
-from
-Gecko
-'
-s
+an
 nsCSSPropertyID
 .
 #
