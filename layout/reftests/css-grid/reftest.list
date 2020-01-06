@@ -6206,12 +6206,6 @@ fragmentation
 ref
 .
 html
-skip
--
-if
-(
-styloVsGecko
-)
 =
 =
 grid
