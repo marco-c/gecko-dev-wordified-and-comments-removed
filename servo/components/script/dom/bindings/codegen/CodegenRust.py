@@ -9889,12 +9889,7 @@ result
 CGGeneric
 (
 "
-NonZero
-<
-*
-mut
-JSObject
->
+NonNullJSObjectPtr
 "
 )
         
@@ -16229,6 +16224,19 @@ error
 :
 :
 throw_not_in_union
+'
+        
+'
+dom
+:
+:
+bindings
+:
+:
+nonnull
+:
+:
+NonNullJSObjectPtr
 '
         
 '
@@ -27466,13 +27474,10 @@ depth
                     
 _bitfield_1
 :
-                        
-JSJitInfo
-:
-:
-new_bitfield_1
+new_jsjitinfo_bitfield_1
+!
 (
-                            
+                        
 JSJitInfo_OpType
 :
 :
@@ -27481,7 +27486,7 @@ opType
 }
 as
 u8
-                            
+                        
 JSJitInfo_AliasSet
 :
 :
@@ -27490,7 +27495,7 @@ aliasSet
 }
 as
 u8
-                            
+                        
 JSValueType
 :
 :
@@ -27499,37 +27504,35 @@ returnType
 }
 as
 u8
-                            
+                        
 {
 isInfallible
 }
-                            
+                        
 {
 isMovable
 }
-                            
+                        
 {
 isEliminatable
 }
-                            
+                        
 {
 isAlwaysInSlot
 }
-                            
+                        
 {
 isLazilyCachedInSlot
 }
-                            
+                        
 {
 isTypedMethod
 }
-                            
+                        
 {
 slotIndex
 }
-as
-u16
-                        
+                    
 )
                 
 }
@@ -42330,16 +42333,6 @@ typedefs
 [
         
 '
-core
-:
-:
-nonzero
-:
-:
-NonZero
-'
-        
-'
 js
 '
         
@@ -44686,6 +44679,19 @@ mozmap
 :
 :
 MozMap
+'
+        
+'
+dom
+:
+:
+bindings
+:
+:
+nonnull
+:
+:
+NonNullJSObjectPtr
 '
         
 '

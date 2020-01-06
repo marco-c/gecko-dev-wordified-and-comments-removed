@@ -8,7 +8,7 @@ use
 nonzero
 :
 :
-NonZeroU32
+NonZero
 ;
 use
 offscreen_gl_context
@@ -1417,7 +1417,10 @@ pub
 struct
 name
 (
-NonZeroU32
+NonZero
+<
+u32
+>
 )
 ;
 impl
@@ -1449,7 +1452,7 @@ Self
 {
 name
 (
-NonZeroU32
+NonZero
 :
 :
 new_unchecked

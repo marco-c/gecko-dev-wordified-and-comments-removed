@@ -143,6 +143,11 @@ profile
 /
 unstable
 "
+"
+script
+/
+unstable
+"
 ]
 [
 dependencies

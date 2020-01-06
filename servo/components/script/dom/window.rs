@@ -4707,6 +4707,17 @@ Trap
 self
 )
 {
+#
+[
+cfg
+(
+feature
+=
+"
+unstable
+"
+)
+]
 unsafe
 {
 :

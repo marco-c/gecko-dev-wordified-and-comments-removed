@@ -11,7 +11,6 @@ test
 [
 feature
 (
-plugin
 test
 )
 ]

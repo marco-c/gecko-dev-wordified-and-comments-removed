@@ -1,13 +1,4 @@
 use
-core
-:
-:
-nonzero
-:
-:
-NonZero
-;
-use
 dom
 :
 :
@@ -76,6 +67,12 @@ libc
 :
 :
 c_void
+;
+use
+nonzero
+:
+:
+NonZero
 ;
 use
 std

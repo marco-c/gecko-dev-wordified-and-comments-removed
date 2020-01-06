@@ -68,6 +68,10 @@ namespace
 ;
 pub
 mod
+nonnull
+;
+pub
+mod
 num
 ;
 pub
