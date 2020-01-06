@@ -1000,6 +1000,11 @@ features
 "
 chrome
 "
+"
+dialog
+=
+no
+"
 ]
 ;
 if
@@ -1028,11 +1033,6 @@ features
 push
 (
 "
-dialog
-=
-no
-"
-"
 all
 "
 )
@@ -1044,9 +1044,6 @@ features
 .
 push
 (
-"
-dialog
-"
 "
 resizable
 "
