@@ -6646,6 +6646,12 @@ FEATURE_FAILURE_D3D11_NEED_HWCOMP
 return
 ;
 }
+d3d11
+.
+EnableByDefault
+(
+)
+;
 if
 (
 !
@@ -6765,12 +6771,6 @@ true
 endif
 }
 }
-d3d11
-.
-EnableByDefault
-(
-)
-;
 nsCString
 message
 ;
