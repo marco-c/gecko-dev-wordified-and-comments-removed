@@ -497,6 +497,14 @@ Data
 ;
 if
 (
+source
+-
+>
+IsFrozen
+(
+)
+|
+|
 !
 MatchPrincipalInfo
 (
