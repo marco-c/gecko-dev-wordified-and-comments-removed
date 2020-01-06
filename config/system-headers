@@ -5247,6 +5247,11 @@ udatpg
 h
 unicode
 /
+udisplaycontext
+.
+h
+unicode
+/
 uenum
 .
 h
@@ -5268,6 +5273,11 @@ h
 unicode
 /
 upluralrules
+.
+h
+unicode
+/
+ureldatefmt
 .
 h
 unicode
