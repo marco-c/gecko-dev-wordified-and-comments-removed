@@ -40,6 +40,10 @@ libffi
 -
 dev
 \
+liblzma
+-
+dev
+\
 libssl
 -
 dev
