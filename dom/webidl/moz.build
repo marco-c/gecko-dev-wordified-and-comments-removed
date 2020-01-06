@@ -2925,11 +2925,6 @@ BrowserElement
 webidl
 '
 '
-BrowserElementAudioChannel
-.
-webidl
-'
-'
 BrowserElementDictionaries
 .
 webidl
