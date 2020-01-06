@@ -102,24 +102,10 @@ lstrip
 def
 filter_action
 (
-actions
+action
 lines
 )
 :
-    
-if
-isinstance
-(
-actions
-basestring
-)
-:
-        
-actions
-=
-(
-actions
-)
     
 return
 filter
@@ -133,8 +119,9 @@ x
 action
 '
 ]
-in
-actions
+=
+=
+action
 lines
 )
 def
