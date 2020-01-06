@@ -3051,6 +3051,15 @@ frame_size
 self
 .
 window_rect
+self
+.
+hidpi_factor
+(
+)
+.
+get
+(
+)
 )
 ;
 let
