@@ -23603,7 +23603,7 @@ input_event_queue
 .
 supported
 "
-false
+true
 )
 ;
 #
