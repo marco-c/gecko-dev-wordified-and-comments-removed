@@ -55,6 +55,7 @@ EValueRule
 {
 eNoValue
 eHasValueMinMax
+eHasValueMinMaxIfFocusable
 }
 ;
 enum

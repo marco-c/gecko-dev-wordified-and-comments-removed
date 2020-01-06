@@ -1740,7 +1740,7 @@ roles
 :
 SEPARATOR
 kUseMapRole
-eNoValue
+eHasValueMinMaxIfFocusable
 eNoAction
 eNoLiveAttr
 kGenericAccType
