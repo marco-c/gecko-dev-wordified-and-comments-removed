@@ -16,6 +16,15 @@ include
 "
 js
 /
+GCAPI
+.
+h
+"
+#
+include
+"
+js
+/
 TracingAPI
 .
 h

@@ -556,6 +556,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 nsNodeInfoManager
 .
 h

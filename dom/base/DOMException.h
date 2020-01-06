@@ -42,6 +42,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

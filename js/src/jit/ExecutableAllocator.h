@@ -135,6 +135,15 @@ include
 "
 js
 /
+GCAPI
+.
+h
+"
+#
+include
+"
+js
+/
 HashTable
 .
 h
@@ -301,9 +310,6 @@ h
 >
 #
 endif
-struct
-JSRuntime
-;
 namespace
 JS
 {

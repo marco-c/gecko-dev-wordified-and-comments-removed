@@ -64,6 +64,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 vm
 /
 Debugger
