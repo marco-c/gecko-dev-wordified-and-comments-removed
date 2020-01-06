@@ -584,9 +584,6 @@ grouping
 .
 *
 /
-[
-noscript
-]
 readonly
 attribute
 unsigned
