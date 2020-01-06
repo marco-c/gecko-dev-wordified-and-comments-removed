@@ -87,7 +87,7 @@ testActor
 .
 eval
 (
-content
+window
 .
 location
 =

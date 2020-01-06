@@ -584,8 +584,6 @@ eval
 let
 node
 =
-content
-.
 document
 .
 querySelector
@@ -627,7 +625,7 @@ rect
 top
 <
 =
-content
+window
 .
 innerHeight
 &
@@ -637,7 +635,7 @@ rect
 left
 <
 =
-content
+window
 .
 innerWidth
 ;
