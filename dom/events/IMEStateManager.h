@@ -541,6 +541,11 @@ nsIWidget
 aWidget
 InputContextAction
 aAction
+InputContext
+:
+:
+Origin
+aOrigin
 )
 ;
 static
@@ -678,6 +683,13 @@ static
 TextCompositionArray
 *
 sTextCompositions
+;
+static
+InputContext
+:
+:
+Origin
+sOrigin
 ;
 static
 bool
