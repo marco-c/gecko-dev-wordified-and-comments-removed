@@ -1364,6 +1364,14 @@ WidgetCompositionEvent
 aCompositionEvent
 )
 ;
+already_AddRefed
+<
+nsISelectionController
+>
+GetSelectionController
+(
+)
+;
 nsresult
 GetSelection
 (
