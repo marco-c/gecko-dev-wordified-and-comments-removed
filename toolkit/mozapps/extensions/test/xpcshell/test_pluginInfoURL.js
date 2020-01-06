@@ -236,8 +236,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_infoURL
 (
 )
@@ -294,8 +294,8 @@ available
 ;
 add_task
 (
+async
 function
-*
 test_altInfoURL
 (
 )
@@ -348,8 +348,8 @@ infoURL
 ;
 add_task
 (
+async
 function
-*
 test_infoURL_missing
 (
 )
@@ -389,8 +389,8 @@ available
 ;
 add_task
 (
+async
 function
-*
 test_intoURL_newVersion
 (
 )

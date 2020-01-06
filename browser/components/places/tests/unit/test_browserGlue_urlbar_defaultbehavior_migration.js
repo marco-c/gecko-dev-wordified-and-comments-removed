@@ -240,8 +240,8 @@ TOPICDATA_BROWSERGLUE_TEST
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -374,8 +374,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -508,8 +508,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -642,8 +642,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -775,8 +775,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -908,8 +908,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1041,8 +1041,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1174,8 +1174,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

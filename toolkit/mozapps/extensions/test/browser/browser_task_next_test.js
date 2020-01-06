@@ -1,7 +1,7 @@
 add_task
 (
+async
 function
-*
 run_next_throws
 (
 )

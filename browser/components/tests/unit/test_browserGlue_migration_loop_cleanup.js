@@ -70,8 +70,8 @@ UI_VERSION
 ;
 add_task
 (
+async
 function
-*
 test_check_cleanup_loop_prefs
 (
 )

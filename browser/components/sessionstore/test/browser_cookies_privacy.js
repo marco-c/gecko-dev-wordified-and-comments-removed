@@ -213,8 +213,8 @@ value
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -272,8 +272,8 @@ removeAll
 ;
 add_task
 (
+async
 function
-*
 test_level_none
 (
 )
@@ -393,8 +393,8 @@ removeAll
 ;
 add_task
 (
+async
 function
-*
 test_level_encrypted
 (
 )
@@ -518,8 +518,8 @@ removeAll
 ;
 add_task
 (
+async
 function
-*
 test_level_full
 (
 )

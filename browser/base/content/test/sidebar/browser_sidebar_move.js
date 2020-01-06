@@ -172,12 +172,12 @@ ordinal
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SidebarUI
 .
 show

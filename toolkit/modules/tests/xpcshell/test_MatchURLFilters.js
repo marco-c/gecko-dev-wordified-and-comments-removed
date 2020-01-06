@@ -201,8 +201,8 @@ logData
 }
 add_task
 (
+async
 function
-*
 test_match_url_filters
 (
 )

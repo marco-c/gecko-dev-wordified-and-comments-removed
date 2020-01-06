@@ -281,8 +281,8 @@ nsIFactory
 ;
 add_task
 (
+async
 function
-*
 init
 (
 )
@@ -619,8 +619,8 @@ process
 }
 add_task
 (
+async
 function
-*
 test_chrome
 (
 )
@@ -644,8 +644,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_any
 (
 )
@@ -669,8 +669,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_remote
 (
 )

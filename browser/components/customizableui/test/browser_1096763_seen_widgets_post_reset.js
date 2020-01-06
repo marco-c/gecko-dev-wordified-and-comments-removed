@@ -18,8 +18,8 @@ reset
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

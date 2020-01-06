@@ -180,8 +180,8 @@ onFilterBlur
 ;
 add_task
 (
+async
 function
-*
 testInitUninit
 (
 )
@@ -594,8 +594,8 @@ uninit
 ;
 add_task
 (
+async
 function
-*
 testActions
 (
 )

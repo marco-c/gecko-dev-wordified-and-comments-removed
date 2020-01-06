@@ -3844,8 +3844,8 @@ cleanUpSuggestions
 ;
 add_task
 (
+async
 function
-*
 avoid_http_url_suggestions
 (
 )
@@ -3878,7 +3878,7 @@ ed
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -3964,7 +3964,7 @@ icon
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4001,7 +4001,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4038,7 +4038,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4075,7 +4075,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4161,7 +4161,7 @@ icon
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4236,7 +4236,7 @@ http
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4311,7 +4311,7 @@ https
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4386,7 +4386,7 @@ ftp
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4463,7 +4463,7 @@ http
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4540,7 +4540,7 @@ https
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4617,7 +4617,7 @@ ftp
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4660,7 +4660,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4703,7 +4703,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4746,7 +4746,7 @@ true
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4827,7 +4827,7 @@ www
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4908,7 +4908,7 @@ www
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -4989,7 +4989,7 @@ test
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -5070,7 +5070,7 @@ test
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -5151,7 +5151,7 @@ test
 }
 )
 ;
-yield
+await
 check_autocomplete
 (
 {
@@ -5240,7 +5240,7 @@ test
 }
 )
 ;
-yield
+await
 cleanUpSuggestions
 (
 )

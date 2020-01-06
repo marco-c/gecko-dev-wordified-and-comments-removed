@@ -130,8 +130,8 @@ updateAppInfo
 ;
 add_task
 (
+async
 function
-*
 test_page_applies
 (
 )
@@ -1047,8 +1047,8 @@ clearAllPagePrefs
 ;
 add_task
 (
+async
 function
-*
 test_get_URL
 (
 )
@@ -1351,8 +1351,8 @@ clearAllPagePrefs
 ;
 add_task
 (
+async
 function
-*
 test_insecure_urls
 (
 )
@@ -1477,8 +1477,8 @@ clearAllPagePrefs
 ;
 add_task
 (
+async
 function
-*
 test_dynamic_pref_getter_setter
 (
 )

@@ -80,8 +80,8 @@ properties
 ;
 add_task
 (
+async
 function
-*
 test_initialize
 (
 )
@@ -111,8 +111,8 @@ login
 ;
 add_task
 (
+async
 function
-*
 test_contextMenuAddAndRemoveLogins
 (
 )

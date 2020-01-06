@@ -501,8 +501,8 @@ testcase
 {
 add_task
 (
+async
 function
-*
 (
 )
 {

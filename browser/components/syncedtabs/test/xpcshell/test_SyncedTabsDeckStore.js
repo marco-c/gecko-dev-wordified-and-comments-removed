@@ -32,8 +32,8 @@ js
 ;
 add_task
 (
+async
 function
-*
 testSelectUnkownPanel
 (
 )
@@ -89,8 +89,8 @@ called
 ;
 add_task
 (
+async
 function
-*
 testSetPanels
 (
 )
@@ -181,8 +181,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 testSelectPanel
 (
 )
@@ -309,8 +309,8 @@ changes
 ;
 add_task
 (
+async
 function
-*
 testSetPanelsSameArray
 (
 )

@@ -404,8 +404,8 @@ strings
 }
 add_task
 (
+async
 function
-*
 test_recording_state
 (
 )
@@ -882,8 +882,8 @@ second
 ;
 add_task
 (
+async
 function
-*
 recording_setup
 (
 )
@@ -919,8 +919,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_recording
 (
 )
@@ -1744,8 +1744,8 @@ filtered
 ;
 add_task
 (
+async
 function
-*
 test_clear
 (
 )
@@ -1907,8 +1907,8 @@ events
 ;
 add_task
 (
+async
 function
-*
 test_expiry
 (
 )
@@ -2103,8 +2103,8 @@ expired
 ;
 add_task
 (
+async
 function
-*
 test_invalidParams
 (
 )
@@ -2373,8 +2373,8 @@ passed
 ;
 add_task
 (
+async
 function
-*
 test_storageLimit
 (
 )
@@ -2539,8 +2539,8 @@ limit
 ;
 add_task
 (
+async
 function
-*
 test_valueLimits
 (
 )
@@ -2998,8 +2998,8 @@ data
 ;
 add_task
 (
+async
 function
-*
 test_unicodeValues
 (
 )

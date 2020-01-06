@@ -98,8 +98,8 @@ PREF_LWTHEME_USED_THEMES
 ;
 add_task
 (
+async
 function
-*
 startTests
 (
 )
@@ -470,8 +470,8 @@ blue
 }
 add_task
 (
+async
 function
-*
 testLightweightThemePreview
 (
 )

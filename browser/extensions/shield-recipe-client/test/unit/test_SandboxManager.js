@@ -28,8 +28,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -141,7 +141,7 @@ equal
 const
 sandboxResult
 =
-yield
+await
 new
 Promise
 (
@@ -307,7 +307,7 @@ sandbox
 "
 )
 ;
-yield
+await
 manager
 .
 evalInSandbox
@@ -363,8 +363,8 @@ testing
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -483,7 +483,7 @@ deepEqual
 deepEqual
 )
 ;
-yield
+await
 new
 Promise
 (

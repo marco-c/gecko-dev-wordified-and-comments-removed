@@ -101,8 +101,8 @@ TestPartnerB
 ;
 add_task
 (
+async
 function
-*
 test_updatechannel
 (
 )

@@ -227,8 +227,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_sends_serialized_data
 (
 )
@@ -368,8 +368,8 @@ EVENT_NAME
 ;
 add_task
 (
+async
 function
-*
 test_parsing_fails_if_devices_contains_comma
 (
 )
@@ -525,8 +525,8 @@ devices
 ;
 add_task
 (
+async
 function
-*
 test_empty_values_are_ignored
 (
 )
@@ -676,8 +676,8 @@ EVENT_NAME
 ;
 add_task
 (
+async
 function
-*
 test_empty_devices_are_ignored
 (
 )
@@ -827,8 +827,8 @@ EVENT_NAME
 ;
 add_task
 (
+async
 function
-*
 test_version_range_default_values
 (
 )
@@ -1222,8 +1222,8 @@ maxVersion
 ;
 add_task
 (
+async
 function
-*
 test_blockid_attribute
 (
 )

@@ -944,8 +944,8 @@ split
 }
 add_task
 (
+async
 function
-*
 test_product
 (
 )
@@ -991,8 +991,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_version
 (
 )
@@ -1038,8 +1038,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_build_id
 (
 )
@@ -1085,8 +1085,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_build_target
 (
 )
@@ -1255,8 +1255,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_locale
 (
 )
@@ -1306,8 +1306,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_channel
 (
 )
@@ -1360,8 +1360,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_channel_distribution
 (
 )
@@ -1441,8 +1441,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_platform_version
 (
 )
@@ -1488,8 +1488,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_os_version
 (
 )
@@ -1748,8 +1748,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_distribution
 (
 )
@@ -1805,8 +1805,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_distribution_version
 (
 )
@@ -1862,8 +1862,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_custom
 (
 )
@@ -1928,8 +1928,8 @@ MSG_SHOULD_EQUAL
 ;
 add_task
 (
+async
 function
-*
 test_systemCapabilities
 (
 )

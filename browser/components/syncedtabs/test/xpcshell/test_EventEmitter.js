@@ -32,8 +32,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 testSingleListener
 (
 )
@@ -139,8 +139,8 @@ calledOnce
 ;
 add_task
 (
+async
 function
-*
 testMultipleListeners
 (
 )

@@ -32,8 +32,8 @@ nsIAddonContentPolicy
 ;
 add_task
 (
+async
 function
-*
 test_csp_validator
 (
 )

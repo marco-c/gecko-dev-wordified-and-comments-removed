@@ -18,8 +18,8 @@ PROCESS_TYPE_CONTENT
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

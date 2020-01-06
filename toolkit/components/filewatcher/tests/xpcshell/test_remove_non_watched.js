@@ -19,8 +19,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_remove_not_watched
 (
 )

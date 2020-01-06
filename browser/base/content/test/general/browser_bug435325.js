@@ -176,8 +176,8 @@ spawn
 (
 browser
 null
+async
 function
-*
 (
 )
 {

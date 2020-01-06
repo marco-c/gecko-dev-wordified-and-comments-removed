@@ -55,8 +55,8 @@ spawn
 (
 browser
 aMs
+async
 function
-*
 (
 ms
 )

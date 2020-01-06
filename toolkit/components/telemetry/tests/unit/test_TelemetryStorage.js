@@ -161,8 +161,8 @@ options
 }
 add_task
 (
+async
 function
-*
 test_setup
 (
 )
@@ -176,8 +176,8 @@ do_get_profile
 ;
 add_task
 (
+async
 function
-*
 test_pendingLoadTime
 (
 )
@@ -295,8 +295,8 @@ histogram
 ;
 add_task
 (
+async
 function
-*
 test_archiveLoadTime
 (
 )

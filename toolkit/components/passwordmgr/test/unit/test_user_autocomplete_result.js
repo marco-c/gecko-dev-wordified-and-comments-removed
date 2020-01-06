@@ -1964,8 +1964,8 @@ items
 ;
 add_task
 (
+async
 function
-*
 test_all_patterns
 (
 )

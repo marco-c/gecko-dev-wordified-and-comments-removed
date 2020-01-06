@@ -656,12 +656,12 @@ deferredTask
 new
 DeferredTask
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 Promise
 .
 resolve

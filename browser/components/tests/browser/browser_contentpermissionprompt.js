@@ -190,8 +190,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 test_empty_types
 (
 )
@@ -257,8 +257,8 @@ request
 ;
 add_task
 (
+async
 function
-*
 test_multiple_types
 (
 )
@@ -331,8 +331,8 @@ request
 ;
 add_task
 (
+async
 function
-*
 test_not_permission_type
 (
 )
@@ -405,8 +405,8 @@ request
 ;
 add_task
 (
+async
 function
-*
 test_unrecognized_type
 (
 )
@@ -472,8 +472,8 @@ request
 ;
 add_task
 (
+async
 function
-*
 test_working_request
 (
 )
