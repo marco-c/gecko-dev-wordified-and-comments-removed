@@ -993,6 +993,14 @@ asMasm
 callWithABI
 (
 handler
+MoveOp
+:
+:
+GENERAL
+CheckUnsafeCallWithABI
+:
+:
+DontCheckHasExitFrame
 )
 ;
 Label

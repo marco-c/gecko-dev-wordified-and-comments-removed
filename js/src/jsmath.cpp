@@ -830,6 +830,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -858,6 +861,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -1000,6 +1006,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -1028,6 +1037,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -1170,6 +1182,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -1198,6 +1213,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -1339,6 +1357,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -1480,6 +1501,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -1737,6 +1761,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -1762,6 +1789,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cos
 (
@@ -1901,6 +1931,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -1929,6 +1962,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -2068,6 +2104,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -2526,6 +2565,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -2551,6 +2593,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -2716,6 +2761,9 @@ double
 y
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 if
 (
 x
@@ -2860,6 +2908,9 @@ double
 y
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 if
 (
 x
@@ -3086,6 +3137,9 @@ int
 y
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 unsigned
 n
 =
@@ -3213,6 +3267,9 @@ double
 y
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 int32_t
 yi
 ;
@@ -4020,6 +4077,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 int32_t
 ignored
 ;
@@ -4104,6 +4164,9 @@ float
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 int32_t
 ignored
 ;
@@ -4258,6 +4321,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -4283,6 +4349,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 #
 ifdef
 _WIN64
@@ -4467,6 +4536,9 @@ double
 cos
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 #
 if
 defined
@@ -4539,6 +4611,9 @@ double
 cos
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 unsigned
 indexSin
 ;
@@ -4833,6 +4908,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -4858,6 +4936,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 tan
 (
@@ -5135,6 +5216,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5163,6 +5247,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5214,6 +5301,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5242,6 +5332,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5293,6 +5386,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5321,6 +5417,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5372,6 +5471,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5400,6 +5502,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5451,6 +5556,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5479,6 +5587,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5530,6 +5641,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5558,6 +5672,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5609,6 +5726,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5637,6 +5757,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5688,6 +5811,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5716,6 +5842,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5767,6 +5896,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5795,6 +5927,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5846,6 +5981,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -5874,6 +6012,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -5924,6 +6065,9 @@ double
 y
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -6033,6 +6177,9 @@ double
 w
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 if
 (
 mozilla
@@ -6184,6 +6331,9 @@ double
 z
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 hypot4
 (
@@ -6467,6 +6617,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -6495,6 +6648,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
@@ -6587,6 +6743,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -6612,6 +6771,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 sign
 (
@@ -6660,6 +6822,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 cache
 -
@@ -6688,6 +6853,9 @@ double
 x
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 return
 fdlibm
 :
