@@ -138,6 +138,11 @@ nsNSSShutDownPreventionLock
 (
 )
 ;
+private
+:
+bool
+mEnteredActivityState
+;
 }
 ;
 class
@@ -197,6 +202,9 @@ static
 void
 enterActivityState
 (
+bool
+&
+enteredActivityState
 )
 ;
 static
