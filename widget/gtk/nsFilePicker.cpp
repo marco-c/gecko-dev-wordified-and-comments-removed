@@ -1424,7 +1424,7 @@ mRunning
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsXPIDLCString
+nsCString
 title
 ;
 title
@@ -1513,6 +1513,10 @@ file_chooser
 gtk_file_chooser_dialog_new
 (
 title
+.
+get
+(
+)
 parent_widget
 action
 GTK_STOCK_CANCEL

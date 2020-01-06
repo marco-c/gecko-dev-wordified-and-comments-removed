@@ -4995,7 +4995,7 @@ tr
 "
 )
 ;
-nsXPIDLCString
+nsCString
 loc
 ;
 aIndex
@@ -5163,6 +5163,10 @@ Adopt
 nsEscapeHTML
 (
 loc
+.
+get
+(
+)
 )
 )
 ;
