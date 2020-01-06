@@ -125,11 +125,7 @@ message
 -
 types
 /
-console
--
-api
--
-call
+ConsoleApiCall
 "
 )
 )
@@ -181,9 +177,7 @@ output
 /
 components
 /
-message
--
-indent
+MessageIndent
 "
 )
 ;

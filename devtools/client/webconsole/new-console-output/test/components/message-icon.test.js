@@ -47,9 +47,7 @@ output
 /
 components
 /
-message
--
-icon
+MessageIcon
 "
 )
 ;

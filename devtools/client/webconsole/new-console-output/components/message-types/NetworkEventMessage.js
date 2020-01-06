@@ -49,7 +49,7 @@ output
 /
 components
 /
-message
+Message
 "
 )
 )

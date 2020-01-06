@@ -122,9 +122,7 @@ output
 /
 components
 /
-collapse
--
-button
+CollapseButton
 "
 )
 ;
@@ -148,9 +146,7 @@ output
 /
 components
 /
-message
--
-indent
+MessageIndent
 "
 )
 .
@@ -176,9 +172,7 @@ output
 /
 components
 /
-message
--
-icon
+MessageIcon
 "
 )
 ;
@@ -202,9 +196,7 @@ output
 /
 components
 /
-message
--
-repeat
+MessageRepeat
 "
 )
 ;

@@ -123,9 +123,7 @@ message
 -
 types
 /
-page
--
-error
+PageError
 "
 )
 ;
@@ -176,9 +174,7 @@ output
 /
 components
 /
-message
--
-indent
+MessageIndent
 "
 )
 ;

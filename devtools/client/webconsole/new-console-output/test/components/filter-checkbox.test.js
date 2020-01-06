@@ -67,9 +67,7 @@ output
 /
 components
 /
-filter
--
-checkbox
+FilterCheckbox
 "
 )
 )

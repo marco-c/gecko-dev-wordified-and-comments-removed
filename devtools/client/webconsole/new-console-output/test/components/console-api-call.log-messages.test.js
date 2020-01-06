@@ -71,11 +71,7 @@ message
 -
 types
 /
-console
--
-api
--
-call
+ConsoleApiCall
 "
 )
 )

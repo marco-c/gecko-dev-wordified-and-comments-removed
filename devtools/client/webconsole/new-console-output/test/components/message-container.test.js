@@ -62,9 +62,7 @@ output
 /
 components
 /
-message
--
-container
+MessageContainer
 "
 )
 ;
@@ -92,11 +90,7 @@ message
 -
 types
 /
-console
--
-api
--
-call
+ConsoleApiCall
 "
 )
 ;
@@ -124,9 +118,7 @@ message
 -
 types
 /
-evaluation
--
-result
+EvaluationResult
 "
 )
 ;
@@ -154,9 +146,7 @@ message
 -
 types
 /
-page
--
-error
+PageError
 "
 )
 ;

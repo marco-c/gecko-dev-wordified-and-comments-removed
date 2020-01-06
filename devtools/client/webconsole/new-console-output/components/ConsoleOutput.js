@@ -103,9 +103,7 @@ output
 /
 components
 /
-message
--
-container
+MessageContainer
 "
 )
 .

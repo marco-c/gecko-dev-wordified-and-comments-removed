@@ -181,9 +181,7 @@ output
 /
 components
 /
-console
--
-output
+ConsoleOutput
 "
 )
 )
@@ -212,9 +210,7 @@ output
 /
 components
 /
-filter
--
-bar
+FilterBar
 "
 )
 )
