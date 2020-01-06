@@ -21,12 +21,6 @@ error_reporting
 ParseErrorReporter
 ;
 use
-parking_lot
-:
-:
-RwLock
-;
-use
 style_traits
 :
 :
@@ -451,10 +445,7 @@ Option
 &
 '
 a
-RwLock
-<
 Namespaces
->
 >
 }
 impl
