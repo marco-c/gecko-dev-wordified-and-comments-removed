@@ -574,6 +574,11 @@ SVGViewElement
 .
 h
 '
+'
+SVGViewportElement
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -1291,6 +1296,11 @@ cpp
 '
 '
 SVGViewElement
+.
+cpp
+'
+'
+SVGViewportElement
 .
 cpp
 '

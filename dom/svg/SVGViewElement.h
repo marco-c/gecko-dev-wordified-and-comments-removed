@@ -102,7 +102,7 @@ namespace
 dom
 {
 class
-SVGSVGElement
+SVGViewportElement
 ;
 class
 SVGViewElement
@@ -122,6 +122,10 @@ SVGFragmentIdentifier
 friend
 class
 SVGSVGElement
+;
+friend
+class
+SVGViewportElement
 ;
 friend
 class
