@@ -541,6 +541,16 @@ aPart
 '
 )
 {
+static
+wchar_t
+kEmpty
+[
+]
+=
+L
+"
+"
+;
 aResult
 .
 numA
@@ -551,9 +561,7 @@ aResult
 .
 strB
 =
-L
-"
-"
+kEmpty
 ;
 }
 else
