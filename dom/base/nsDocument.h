@@ -452,6 +452,13 @@ Maybe
 h
 "
 #
+include
+"
+nsIURIClassifier
+.
+h
+"
+#
 define
 XML_DECLARATION_BITS_DECLARATION_EXISTS
 (
@@ -2099,6 +2106,9 @@ bool
 mHaveShutDown
 ;
 }
+;
+class
+PrincipalFlashClassifier
 ;
 class
 nsDocument
@@ -5834,6 +5844,12 @@ mFullScreenStack
 ;
 nsWeakPtr
 mFullscreenRoot
+;
+RefPtr
+<
+PrincipalFlashClassifier
+>
+mPrincipalFlashClassifier
 ;
 mozilla
 :
