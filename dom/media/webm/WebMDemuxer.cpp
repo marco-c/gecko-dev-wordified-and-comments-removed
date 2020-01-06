@@ -5844,6 +5844,9 @@ aData
 {
 nsresult
 rv
+=
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
+;
 ;
 while
 (
