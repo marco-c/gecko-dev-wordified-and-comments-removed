@@ -823,9 +823,7 @@ EmptyString
 (
 )
 true
-EmptyString
-(
-)
+nullptr
 0
 &
 allowsInlineScript

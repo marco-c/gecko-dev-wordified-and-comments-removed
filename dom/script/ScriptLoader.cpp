@@ -5469,17 +5469,6 @@ dom
 :
 NOT_FROM_PARSER
 ;
-nsAutoString
-scriptText
-;
-aElement
--
->
-GetScriptText
-(
-scriptText
-)
-;
 bool
 allowInlineScript
 =
@@ -5498,7 +5487,7 @@ nsIContentPolicy
 TYPE_SCRIPT
 nonce
 parserCreated
-scriptText
+aElement
 aElement
 -
 >
