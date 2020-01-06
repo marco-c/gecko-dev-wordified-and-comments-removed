@@ -728,9 +728,6 @@ tests
 "
 bloom_basic
 "
-"
-bloom_basic_ref
-"
 ]
 }
 "
@@ -749,9 +746,6 @@ tests
 [
 "
 bloom_basic
-"
-"
-bloom_basic_ref
 "
 ]
 }
