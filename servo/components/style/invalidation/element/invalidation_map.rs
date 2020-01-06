@@ -452,6 +452,7 @@ selector_offset
 derive
 (
 Clone
+Debug
 )
 ]
 #
@@ -509,6 +510,13 @@ selector
 )
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 #
 [
 cfg_attr

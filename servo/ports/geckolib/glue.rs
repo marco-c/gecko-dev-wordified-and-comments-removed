@@ -21342,11 +21342,7 @@ data
 .
 stylist
 .
-animations
-(
-)
-.
-get
+get_animation
 (
 &
 name
