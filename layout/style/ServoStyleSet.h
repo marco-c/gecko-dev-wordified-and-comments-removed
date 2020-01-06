@@ -157,6 +157,9 @@ ServoElementSnapshotTable
 ;
 }
 class
+nsCSSCounterStyleRule
+;
+class
 nsIContent
 ;
 class
@@ -852,6 +855,15 @@ nsFontFaceRuleContainer
 >
 &
 aArray
+)
+;
+nsCSSCounterStyleRule
+*
+CounterStyleRuleForName
+(
+nsIAtom
+*
+aName
 )
 ;
 already_AddRefed
