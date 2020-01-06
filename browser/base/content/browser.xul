@@ -11607,6 +11607,9 @@ close
 class
 =
 "
+close
+-
+icon
 tabbable
 "
 tooltiptext
