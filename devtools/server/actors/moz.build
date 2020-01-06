@@ -95,9 +95,6 @@ highlighters
 '
 utils
 '
-'
-webconsole
-'
 ]
 DevToolsModules
 (
