@@ -421,7 +421,10 @@ self
 transform
 :
 :
+{
+TimingFunction
 TransformOrigin
+}
 ;
 #
 [

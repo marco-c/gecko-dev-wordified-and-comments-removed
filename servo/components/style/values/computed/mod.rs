@@ -362,7 +362,10 @@ self
 transform
 :
 :
+{
+TimingFunction
 TransformOrigin
+}
 ;
 pub
 mod
