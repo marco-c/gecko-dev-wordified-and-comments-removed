@@ -11540,7 +11540,7 @@ BooleanValue
 AtomicOperations
 :
 :
-isLockfree
+isLockfreeJS
 (
 i
 )

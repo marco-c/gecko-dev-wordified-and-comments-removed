@@ -26762,7 +26762,7 @@ writeInt32Lit
 AtomicOperations
 :
 :
-isLockfree
+isLockfreeJS
 (
 size
 )

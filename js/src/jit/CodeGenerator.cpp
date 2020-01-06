@@ -72817,7 +72817,7 @@ MOZ_ASSERT
 AtomicOperations
 :
 :
-isLockfree
+isLockfreeJS
 (
 1
 )
@@ -72828,7 +72828,7 @@ MOZ_ASSERT
 AtomicOperations
 :
 :
-isLockfree
+isLockfreeJS
 (
 2
 )
@@ -72839,7 +72839,7 @@ MOZ_ASSERT
 AtomicOperations
 :
 :
-isLockfree
+isLockfreeJS
 (
 4
 )
@@ -72851,7 +72851,7 @@ MOZ_ASSERT
 AtomicOperations
 :
 :
-isLockfree
+isLockfreeJS
 (
 8
 )
