@@ -1486,11 +1486,8 @@ global
 -
 platform
 /
-unix
+gtk
 /
-os
-=
-LikeUnix
 %
 locale
 global
@@ -1566,7 +1563,7 @@ global
 -
 platform
 /
-unix
+gtk
 /
 platformKeys
 .
@@ -1647,7 +1644,7 @@ global
 -
 platform
 /
-unix
+gtk
 /
 intl
 .

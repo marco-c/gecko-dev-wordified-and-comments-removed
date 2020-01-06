@@ -567,7 +567,7 @@ global
 -
 platform
 /
-unix
+gtk
 /
 accessible
 .
