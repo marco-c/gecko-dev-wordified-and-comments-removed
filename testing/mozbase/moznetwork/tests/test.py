@@ -436,14 +436,10 @@ get_ip
 (
 )
         
-self
-.
-assertTrue
-(
+assert
 verify_ip_in_list
 (
 ip
-)
 )
     
 def
@@ -516,14 +512,10 @@ get_ip
 (
 )
                 
-self
-.
-assertTrue
-(
+assert
 verify_ip_in_list
 (
 ip
-)
 )
 if
 __name__
