@@ -1190,6 +1190,17 @@ guid
 undefined
 )
 ;
+do_check_eq
+(
+addresses
+[
+0
+]
+.
+version
+1
+)
+;
 do_check_neq
 (
 addresses

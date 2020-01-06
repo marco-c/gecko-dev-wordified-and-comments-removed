@@ -1180,6 +1180,17 @@ guid
 undefined
 )
 ;
+do_check_eq
+(
+creditCards
+[
+0
+]
+.
+version
+1
+)
+;
 do_check_neq
 (
 creditCards
