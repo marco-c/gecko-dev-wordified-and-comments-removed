@@ -13412,6 +13412,13 @@ mIsCoveringTitlebar
 |
 |
 mIsFullscreen
+|
+|
+mTitlebarRect
+.
+IsEmpty
+(
+)
 )
 {
 return
