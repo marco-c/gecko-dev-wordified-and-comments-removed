@@ -4844,7 +4844,6 @@ while
 define
 rb_wrap
 (
-a_attr
 a_prefix
 a_tree_type
 a_type
@@ -4852,7 +4851,7 @@ a_field
 a_cmp
 )
 \
-a_attr
+static
 void
 \
 a_prefix
@@ -4876,7 +4875,7 @@ tree
 \
 }
 \
-a_attr
+static
 a_type
 *
 \
@@ -4913,7 +4912,7 @@ ret
 \
 }
 \
-a_attr
+static
 a_type
 *
 \
@@ -4950,7 +4949,7 @@ ret
 \
 }
 \
-a_attr
+static
 a_type
 *
 \
@@ -4992,7 +4991,7 @@ ret
 \
 }
 \
-a_attr
+static
 a_type
 *
 \
@@ -5034,7 +5033,7 @@ ret
 \
 }
 \
-a_attr
+static
 a_type
 *
 \
@@ -5076,7 +5075,7 @@ ret
 \
 }
 \
-a_attr
+static
 a_type
 *
 \
@@ -5118,7 +5117,7 @@ ret
 \
 }
 \
-a_attr
+static
 void
 \
 a_prefix
@@ -5147,7 +5146,7 @@ node
 \
 }
 \
-a_attr
+static
 void
 \
 a_prefix
