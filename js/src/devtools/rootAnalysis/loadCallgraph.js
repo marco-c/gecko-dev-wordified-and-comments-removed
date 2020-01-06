@@ -821,6 +821,7 @@ extraGCFunctions
 (
 )
 )
+{
 addGCFunction
 (
 func
@@ -829,6 +830,7 @@ annotation
 "
 )
 ;
+}
 var
 worklist
 =
