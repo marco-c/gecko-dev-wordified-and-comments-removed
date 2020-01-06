@@ -2371,7 +2371,7 @@ nsSidebar
 js
 #
 if
-define
+defined
 (
 NIGHTLY_BUILD
 )
