@@ -7494,6 +7494,9 @@ new
 DoorHangerPopup
 (
 this
+getAppEventDispatcher
+(
+)
 )
 ;
 mDoorHangerPopup
