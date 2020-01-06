@@ -235,9 +235,6 @@ GetUnit
 eCSSUnit_URL
 )
 {
-#
-ifdef
-MOZ_ENABLE_MASK_AS_SHORTHAND
 if
 (
 aProperty
@@ -329,8 +326,6 @@ return
 }
 }
 }
-#
-endif
 aValue
 .
 StartImageLoad

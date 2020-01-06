@@ -1720,9 +1720,6 @@ DoGetMask
 (
 )
 ;
-#
-ifdef
-MOZ_ENABLE_MASK_AS_SHORTHAND
 already_AddRefed
 <
 CSSValue
@@ -1803,8 +1800,6 @@ DoGetMaskComposite
 (
 )
 ;
-#
-endif
 already_AddRefed
 <
 CSSValue

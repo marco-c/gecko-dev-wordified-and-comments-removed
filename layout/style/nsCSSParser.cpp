@@ -50063,9 +50063,6 @@ ParseScrollSnapType
 (
 )
 ;
-#
-ifdef
-MOZ_ENABLE_MASK_AS_SHORTHAND
 case
 eCSSProperty_mask
 :
@@ -50124,8 +50121,6 @@ ParseImageLayerSize
 eCSSProperty_mask_size
 )
 ;
-#
-endif
 case
 eCSSProperty__webkit_text_stroke
 :
