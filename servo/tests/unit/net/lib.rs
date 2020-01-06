@@ -210,10 +210,7 @@ net
 connector
 :
 :
-{
-create_http_connector
 create_ssl_client
-}
 ;
 use
 net
