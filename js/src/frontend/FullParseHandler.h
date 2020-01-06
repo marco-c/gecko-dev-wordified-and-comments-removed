@@ -4978,8 +4978,6 @@ const
 TokenPos
 &
 pos
-JSOp
-op
 )
 {
 MOZ_ASSERT
@@ -4997,7 +4995,7 @@ ListNode
 >
 (
 kind
-op
+JSOP_NOP
 pos
 )
 ;

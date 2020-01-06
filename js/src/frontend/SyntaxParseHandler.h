@@ -1885,10 +1885,6 @@ const
 TokenPos
 &
 pos
-JSOp
-op
-=
-JSOP_NOP
 )
 {
 if

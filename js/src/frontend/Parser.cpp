@@ -23497,9 +23497,6 @@ kind
 PNK_CONST
 )
 ;
-JSOp
-op
-;
 DeclarationKind
 declKind
 ;
@@ -23511,10 +23508,6 @@ kind
 case
 PNK_VAR
 :
-op
-=
-JSOP_DEFVAR
-;
 declKind
 =
 DeclarationKind
@@ -23527,10 +23520,6 @@ break
 case
 PNK_CONST
 :
-op
-=
-JSOP_DEFCONST
-;
 declKind
 =
 DeclarationKind
@@ -23543,10 +23532,6 @@ break
 case
 PNK_LET
 :
-op
-=
-JSOP_DEFLET
-;
 declKind
 =
 DeclarationKind
@@ -23579,7 +23564,6 @@ kind
 pos
 (
 )
-op
 )
 ;
 if
