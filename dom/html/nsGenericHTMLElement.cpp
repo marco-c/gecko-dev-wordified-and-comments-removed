@@ -11199,6 +11199,14 @@ prev
 =
 nullptr
 ;
+nsIContent
+*
+bindingParent
+=
+GetBindingParent
+(
+)
+;
 for
 (
 parent
@@ -11208,6 +11216,12 @@ GetParent
 )
 ;
 parent
+&
+&
+parent
+!
+=
+bindingParent
 ;
 prev
 =
