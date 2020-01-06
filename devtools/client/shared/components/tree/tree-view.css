@@ -231,7 +231,7 @@ out
 .
 treeTable
 .
-treeLabel
+treeLabelCell
 {
 cursor
 :
@@ -988,7 +988,7 @@ theme
 -
 highlight
 -
-pink
+blue
 )
 ;
 }
@@ -1039,7 +1039,7 @@ theme
 -
 highlight
 -
-pink
+blue
 )
 ;
 }
