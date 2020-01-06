@@ -14,6 +14,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 vm
 /
 BooleanObject
@@ -41,6 +48,9 @@ JSObject
 obj
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 JSObject
 *
 actual

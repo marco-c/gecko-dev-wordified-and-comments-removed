@@ -4564,6 +4564,9 @@ bool
 rv
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 BaselineDebugModeOSRInfo
 *
 info
@@ -4753,6 +4756,9 @@ BaselineFrame
 frame
 )
 {
+AutoUnsafeCallWithABI
+unsafe
+;
 frame
 -
 >
