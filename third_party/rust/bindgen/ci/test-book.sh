@@ -27,6 +27,17 @@ book
 cargo
 install
 mdbook
+-
+-
+vers
+"
+^
+0
+.
+0
+.
+22
+"
 |
 |
 true

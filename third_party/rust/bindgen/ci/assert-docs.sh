@@ -23,7 +23,7 @@ dirname
 .
 "
 cargo
-build
+check
 -
 -
 features

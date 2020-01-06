@@ -4,7 +4,15 @@ annotations
 ;
 pub
 mod
+analysis
+;
+pub
+mod
 comp
+;
+pub
+mod
+comment
 ;
 pub
 mod
@@ -45,10 +53,6 @@ layout
 pub
 mod
 module
-;
-pub
-mod
-named
 ;
 pub
 mod

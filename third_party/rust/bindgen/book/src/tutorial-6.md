@@ -153,7 +153,7 @@ com
 /
 fitzgen
 /
-libbindgen
+bindgen
 -
 tutorial
 -

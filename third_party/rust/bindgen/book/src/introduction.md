@@ -14,7 +14,11 @@ github
 .
 com
 /
-servo
+rust
+-
+lang
+-
+nursery
 /
 rust
 -

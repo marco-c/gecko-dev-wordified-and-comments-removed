@@ -16,7 +16,7 @@ derive
 :
 {
 CanDeriveCopy
-CanDeriveDebug
+CanTriviallyDeriveDebug
 CanDeriveDefault
 }
 ;
@@ -493,7 +493,7 @@ None
 }
 }
 impl
-CanDeriveDebug
+CanTriviallyDeriveDebug
 for
 Opaque
 {
@@ -504,7 +504,7 @@ Extra
 )
 ;
 fn
-can_derive_debug
+can_trivially_derive_debug
 (
 &
 self
@@ -541,7 +541,15 @@ RUST_DERIVE_IN_ARRAY_LIMIT
 }
 }
 impl
+<
+'
+a
+>
 CanDeriveDefault
+<
+'
+a
+>
 for
 Opaque
 {

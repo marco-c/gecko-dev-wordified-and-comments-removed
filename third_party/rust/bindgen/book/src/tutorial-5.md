@@ -1139,7 +1139,7 @@ bash
 cargo
 test
 Compiling
-libbindgen
+bindgen
 -
 tutorial
 -
@@ -1174,7 +1174,7 @@ debug
 /
 deps
 /
-libbindgen_tutorial_bzip2_sys
+bindgen_tutorial_bzip2_sys
 -
 1c5626bbc4401c3a
 running
@@ -1553,7 +1553,7 @@ measured
 Doc
 -
 tests
-libbindgen
+bindgen
 -
 tutorial
 -

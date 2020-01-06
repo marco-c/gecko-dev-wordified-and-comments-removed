@@ -270,6 +270,14 @@ whitelisted_items
 (
 )
 .
+iter
+(
+)
+.
+cloned
+(
+)
+.
 map
 (
 |

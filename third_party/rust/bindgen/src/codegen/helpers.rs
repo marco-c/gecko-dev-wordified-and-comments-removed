@@ -273,8 +273,7 @@ doc
 (
 comment
 :
-&
-str
+String
 )
 -
 >
@@ -299,6 +298,8 @@ attr
 .
 doc
 (
+&
+*
 comment
 )
 }

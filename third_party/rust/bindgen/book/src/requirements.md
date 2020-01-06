@@ -165,9 +165,6 @@ bash
 brew
 install
 llvm
-3
-.
-9
 If
 you
 use

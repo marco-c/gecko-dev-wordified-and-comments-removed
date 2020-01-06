@@ -103,7 +103,7 @@ debug
 /
 build
 /
-libbindgen
+bindgen
 -
 tutorial
 -

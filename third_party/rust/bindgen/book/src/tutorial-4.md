@@ -136,7 +136,7 @@ bash
 cargo
 build
 Compiling
-libbindgen
+bindgen
 -
 tutorial
 -
@@ -196,7 +196,7 @@ bash
 cargo
 test
 Compiling
-libbindgen
+bindgen
 -
 tutorial
 -
@@ -340,7 +340,7 @@ measured
 Doc
 -
 tests
-libbindgen
+bindgen
 -
 tutorial
 -
