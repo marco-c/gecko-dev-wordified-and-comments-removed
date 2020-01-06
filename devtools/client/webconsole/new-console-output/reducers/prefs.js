@@ -32,6 +32,9 @@ Record
 logLimit
 :
 1000
+sidebarToggle
+:
+false
 }
 )
 ;
