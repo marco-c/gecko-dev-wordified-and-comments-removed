@@ -113921,7 +113921,7 @@ details
 "
 }
 "
-SANDBOX_FAILED_LAUNCH
+SANDBOX_FAILED_LAUNCH_KEYED
 "
 :
 {
@@ -113951,7 +113951,7 @@ expires_in_version
 "
 :
 "
-60
+never
 "
 "
 kind
@@ -113960,6 +113960,11 @@ kind
 "
 enumerated
 "
+"
+keyed
+"
+:
+true
 "
 n_values
 "
@@ -113994,6 +113999,14 @@ process
 fails
 to
 launch
+keyed
+by
+process
+type
+and
+Windows
+error
+code
 .
 See
 https
