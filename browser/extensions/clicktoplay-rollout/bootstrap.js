@@ -309,6 +309,13 @@ case
 undefined
 :
 case
+null
+:
+case
+"
+"
+:
+case
 "
 test
 "
