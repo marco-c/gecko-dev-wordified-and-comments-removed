@@ -1650,6 +1650,16 @@ SetPopupWindowLevel
 (
 )
 ;
+bool
+InFullScreenMode
+(
+)
+const
+{
+return
+mInFullScreenMode
+;
+}
 protected
 :
 virtual
