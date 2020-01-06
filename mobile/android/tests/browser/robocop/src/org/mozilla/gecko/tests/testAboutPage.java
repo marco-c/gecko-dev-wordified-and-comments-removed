@@ -38,6 +38,10 @@ url
 mStringHelper
 .
 ABOUT_SCHEME
++
+"
+firefox
+"
 ;
 loadAndPaint
 (
@@ -149,6 +153,10 @@ verifyUrlInContentDescription
 mStringHelper
 .
 ABOUT_SCHEME
++
+"
+firefox
+"
 )
 ;
 }
