@@ -1232,10 +1232,10 @@ char
 mKey
 ;
 PrefValue
-mDefaultPref
+mDefaultValue
 ;
 PrefValue
-mUserPref
+mUserValue
 ;
 size_t
 SizeOfExcludingThis
@@ -1272,7 +1272,7 @@ n
 =
 aMallocSizeOf
 (
-mDefaultPref
+mDefaultValue
 .
 mStringVal
 )
@@ -1292,7 +1292,7 @@ n
 =
 aMallocSizeOf
 (
-mUserPref
+mUserValue
 .
 mStringVal
 )
@@ -1352,7 +1352,7 @@ char
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 .
 mStringVal
 )
@@ -1369,7 +1369,7 @@ char
 pref
 -
 >
-mUserPref
+mUserValue
 .
 mStringVal
 )
@@ -1862,7 +1862,7 @@ Get
 ;
 PrefValue
 *
-sourcePref
+sourceValue
 ;
 if
 (
@@ -1882,11 +1882,11 @@ pref_ValueChanged
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 pref
 -
 >
-mUserPref
+mUserValue
 pref
 -
 >
@@ -1920,13 +1920,13 @@ IsSticky
 )
 )
 {
-sourcePref
+sourceValue
 =
 &
 pref
 -
 >
-mUserPref
+mUserValue
 ;
 }
 else
@@ -1963,7 +1963,7 @@ IsTypeString
 {
 StrEscape
 (
-sourcePref
+sourceValue
 -
 >
 mStringVal
@@ -1988,7 +1988,7 @@ prefValue
 .
 AppendInt
 (
-sourcePref
+sourceValue
 -
 >
 mIntVal
@@ -2010,7 +2010,7 @@ IsTypeBool
 {
 prefValue
 =
-sourcePref
+sourceValue
 -
 >
 mBoolVal
@@ -2114,7 +2114,7 @@ stringVal
 aHashEntry
 -
 >
-mDefaultPref
+mDefaultValue
 .
 mStringVal
 ;
@@ -2150,7 +2150,7 @@ stringVal
 aHashEntry
 -
 >
-mUserPref
+mUserValue
 .
 mStringVal
 ;
@@ -2218,7 +2218,7 @@ value
 aHashEntry
 -
 >
-mUserPref
+mUserValue
 ;
 aPref
 -
@@ -2257,7 +2257,7 @@ value
 aHashEntry
 -
 >
-mDefaultPref
+mDefaultValue
 ;
 aPref
 -
@@ -3535,14 +3535,14 @@ memset
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 0
 sizeof
 (
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 )
 )
 ;
@@ -3552,14 +3552,14 @@ memset
 pref
 -
 >
-mUserPref
+mUserValue
 0
 sizeof
 (
 pref
 -
 >
-mUserPref
+mUserValue
 )
 )
 ;
@@ -3680,7 +3680,7 @@ pref_ValueChanged
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 aValue
 aType
 )
@@ -3703,7 +3703,7 @@ pref_SetValue
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 pref
 -
 >
@@ -3810,7 +3810,7 @@ pref_ValueChanged
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 aValue
 aType
 )
@@ -3904,7 +3904,7 @@ pref_ValueChanged
 pref
 -
 >
-mUserPref
+mUserValue
 aValue
 aType
 )
@@ -3916,7 +3916,7 @@ pref_SetValue
 pref
 -
 >
-mUserPref
+mUserValue
 pref
 -
 >
@@ -19681,7 +19681,7 @@ aResult
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 .
 mBoolVal
 ;
@@ -19694,7 +19694,7 @@ aResult
 pref
 -
 >
-mUserPref
+mUserValue
 .
 mBoolVal
 ;
@@ -19825,7 +19825,7 @@ aResult
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 .
 mIntVal
 ;
@@ -19838,7 +19838,7 @@ aResult
 pref
 -
 >
-mUserPref
+mUserValue
 .
 mIntVal
 ;
@@ -20039,7 +20039,7 @@ stringVal
 pref
 -
 >
-mDefaultPref
+mDefaultValue
 .
 mStringVal
 ;
@@ -20051,7 +20051,7 @@ stringVal
 pref
 -
 >
-mUserPref
+mUserValue
 .
 mStringVal
 ;
