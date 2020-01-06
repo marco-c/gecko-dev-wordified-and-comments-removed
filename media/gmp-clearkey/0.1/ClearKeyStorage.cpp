@@ -65,7 +65,7 @@ static
 void
 Write
 (
-Host_8
+Host_9
 *
 aHost
 string
@@ -273,7 +273,7 @@ const
 string
 &
 aName
-Host_8
+Host_9
 *
 aHost
 )
@@ -390,7 +390,7 @@ mData
 void
 WriteData
 (
-Host_8
+Host_9
 *
 aHost
 string
@@ -454,7 +454,7 @@ static
 void
 Read
 (
-Host_8
+Host_9
 *
 aHost
 string
@@ -642,7 +642,7 @@ const
 string
 &
 aName
-Host_8
+Host_9
 *
 aHost
 )
@@ -764,7 +764,7 @@ mOnFailure
 void
 ReadData
 (
-Host_8
+Host_9
 *
 mHost
 string
