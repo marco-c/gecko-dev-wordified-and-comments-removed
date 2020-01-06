@@ -113,7 +113,7 @@ permissions
 :
 {
 async
-request_parent
+request
 (
 perms
 )

@@ -372,17 +372,6 @@ ext
 -
 c
 -
-permissions
-.
-js
-content
-/
-extensions
-/
-ext
--
-c
--
 runtime
 .
 js

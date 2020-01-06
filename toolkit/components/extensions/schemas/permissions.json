@@ -443,6 +443,11 @@ async
 callback
 "
 "
+requireUserInput
+"
+:
+true
+"
 description
 "
 :
