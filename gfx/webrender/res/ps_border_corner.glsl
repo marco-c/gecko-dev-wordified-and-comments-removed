@@ -2124,6 +2124,9 @@ write_transform_vertex
 segment_rect
 prim
 .
+local_rect
+prim
+.
 local_clip_rect
 vec4
 (

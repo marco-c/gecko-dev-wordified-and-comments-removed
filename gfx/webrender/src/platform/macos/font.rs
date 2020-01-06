@@ -3620,6 +3620,7 @@ font
 .
 get_glyph_format
 (
+true
 )
 bytes
 :

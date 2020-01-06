@@ -601,6 +601,7 @@ renderer
 :
 :
 {
+RendererStats
 ThreadListener
 }
 ;

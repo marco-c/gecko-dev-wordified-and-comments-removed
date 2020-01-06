@@ -118,6 +118,9 @@ prim
 local_rect
 prim
 .
+local_rect
+prim
+.
 local_clip_rect
 rect
 .
