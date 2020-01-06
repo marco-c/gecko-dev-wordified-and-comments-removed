@@ -4,6 +4,11 @@ strict
 "
 ;
 var
+typedefFrom
+=
+interfaceFrom
+;
+var
 dictionaryFrom
 =
 interfaceFrom

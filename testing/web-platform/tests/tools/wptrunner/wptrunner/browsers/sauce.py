@@ -1101,8 +1101,9 @@ def
 __exit__
 (
 self
-*
-args
+exc_type
+exc_val
+exc_tb
 )
 :
         

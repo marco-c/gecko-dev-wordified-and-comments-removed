@@ -274,7 +274,6 @@ minimized
 or
 fullscreened
 state
-.
     
 "
 "

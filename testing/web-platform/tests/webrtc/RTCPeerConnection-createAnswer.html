@@ -281,10 +281,12 @@ RTCPeerConnection
 )
 ;
 return
-generateOffer
+pc
+.
+createOffer
 (
 {
-video
+offerToReceiveVideo
 :
 true
 }
@@ -392,6 +394,7 @@ return
 generateOffer
 (
 {
+pc
 data
 :
 true
