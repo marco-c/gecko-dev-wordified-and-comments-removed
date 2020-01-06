@@ -701,12 +701,6 @@ LOCAL_INCLUDES
 .
 .
 '
-'
-.
-.
-/
-build
-'
 ]
 if
 CONFIG
