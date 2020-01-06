@@ -594,6 +594,15 @@ use
 renderer
 :
 :
+{
+ThreadListener
+}
+;
+pub
+use
+renderer
+:
+:
 MAX_VERTEX_TEXTURE_WIDTH
 ;
 pub

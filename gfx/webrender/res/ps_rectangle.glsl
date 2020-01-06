@@ -119,6 +119,9 @@ local_rect
 prim
 .
 local_clip_rect
+rect
+.
+edge_aa_segment_mask
 prim
 .
 z
@@ -128,9 +131,6 @@ layer
 prim
 .
 task
-prim
-.
-local_rect
 )
 ;
 vLocalPos

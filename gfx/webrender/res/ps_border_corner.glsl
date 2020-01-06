@@ -2136,6 +2136,12 @@ segment_rect
 prim
 .
 local_clip_rect
+vec4
+(
+1
+.
+0
+)
 prim
 .
 z
@@ -2145,9 +2151,6 @@ layer
 prim
 .
 task
-prim
-.
-local_rect
 )
 ;
 #
