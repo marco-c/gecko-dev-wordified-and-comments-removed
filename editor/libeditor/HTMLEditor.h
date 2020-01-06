@@ -1208,8 +1208,8 @@ ioParent
 int32_t
 *
 ioOffset
-bool
-aNoEmptyNodes
+SplitAtEdges
+aSplitAtEdges
 nsCOMPtr
 <
 nsIDOMNode

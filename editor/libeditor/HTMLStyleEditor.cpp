@@ -2718,10 +2718,10 @@ AsContent
 )
 *
 aOffset
-EmptyContainers
+SplitAtEdges
 :
 :
-yes
+eAllowToCreateEmptyContainer
 aOutLeftNode
 aOutRightNode
 )
