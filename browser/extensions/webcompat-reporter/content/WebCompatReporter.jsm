@@ -708,6 +708,15 @@ reporter
 inBackground
 :
 false
+triggeringPrincipal
+:
+Services
+.
+securityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;

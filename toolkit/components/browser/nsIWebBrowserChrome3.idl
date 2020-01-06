@@ -424,6 +424,16 @@ the
 prerender
 .
 *
+param
+aTriggeringPrincipal
+The
+Principal
+that
+initiated
+to
+load
+aHref
+*
 /
 void
 startPrerenderingDocument
@@ -434,6 +444,9 @@ aHref
 in
 nsIURI
 aReferrer
+in
+nsIPrincipal
+aTriggeringPrincipal
 )
 ;
 /
