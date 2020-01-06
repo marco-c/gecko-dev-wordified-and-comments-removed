@@ -830,10 +830,6 @@ aMedia
 ImportRule
 *
 aGeckoParentRule
-const
-RawServoStyleSheet
-*
-aServoChildSheet
 LoaderReusableStyleSheets
 *
 aSavedSheets
@@ -1192,10 +1188,6 @@ aParentSheet
 ImportRule
 *
 aGeckoParentRule
-const
-RawServoStyleSheet
-*
-aServoChildSheet
 )
 ;
 nsresult

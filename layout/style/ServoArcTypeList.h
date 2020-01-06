@@ -5,8 +5,8 @@ ServoCssRules
 )
 SERVO_ARC_TYPE
 (
-StyleSheet
-RawServoStyleSheet
+StyleSheetContents
+RawServoStyleSheetContents
 )
 SERVO_ARC_TYPE
 (

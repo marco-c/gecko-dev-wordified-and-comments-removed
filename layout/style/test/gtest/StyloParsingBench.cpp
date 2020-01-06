@@ -145,7 +145,7 @@ i
 {
 RefPtr
 <
-RawServoStyleSheet
+RawServoStyleSheetContents
 >
 stylesheet
 =
@@ -156,7 +156,6 @@ nullptr
 &
 css
 eAuthorSheetFeatures
-nullptr
 data
 0
 eCompatibility_FullStandards

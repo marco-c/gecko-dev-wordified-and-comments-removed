@@ -721,8 +721,6 @@ css
 LoaderReusableStyleSheets
 *
 reusable_sheets
-RawServoStyleSheetBorrowed
-child_sheet
 RawGeckoURLExtraData
 *
 base_url_data
