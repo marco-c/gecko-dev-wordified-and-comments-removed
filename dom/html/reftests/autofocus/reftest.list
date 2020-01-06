@@ -184,6 +184,12 @@ skiaContent
 needs
 -
 focus
+fails
+-
+if
+(
+styloVsGecko
+)
 =
 =
 textarea
@@ -207,6 +213,12 @@ skiaContent
 needs
 -
 focus
+fails
+-
+if
+(
+styloVsGecko
+)
 =
 =
 textarea
