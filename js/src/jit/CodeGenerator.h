@@ -1513,14 +1513,6 @@ lir
 )
 ;
 void
-visitInitProp
-(
-LInitProp
-*
-lir
-)
-;
-void
 visitInitPropGetterSetter
 (
 LInitPropGetterSetter

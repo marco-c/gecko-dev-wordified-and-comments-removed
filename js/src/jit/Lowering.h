@@ -514,14 +514,6 @@ ins
 )
 ;
 void
-visitInitProp
-(
-MInitProp
-*
-ins
-)
-;
-void
 visitInitPropGetterSetter
 (
 MInitPropGetterSetter
