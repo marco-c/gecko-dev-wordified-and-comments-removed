@@ -38,7 +38,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -80,7 +80,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -128,7 +128,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =

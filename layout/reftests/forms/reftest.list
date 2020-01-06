@@ -10,7 +10,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 HTTP
 (
@@ -158,7 +158,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -186,7 +186,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =

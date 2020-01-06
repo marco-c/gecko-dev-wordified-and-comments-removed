@@ -75,7 +75,7 @@ random
 -
 if
 (
-stylo
+styloVsGecko
 )
 !
 =
@@ -129,7 +129,7 @@ fuzzy
 -
 if
 (
-stylo
+styloVsGecko
 1
 1
 )
@@ -346,7 +346,7 @@ random
 -
 if
 (
-stylo
+styloVsGecko
 )
 !
 =
@@ -443,7 +443,7 @@ fuzzy
 -
 if
 (
-stylo
+styloVsGecko
 1
 1
 )

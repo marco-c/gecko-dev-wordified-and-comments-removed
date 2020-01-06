@@ -10,7 +10,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 |
 |
 webrender
@@ -45,7 +45,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 |
 |
 webrender

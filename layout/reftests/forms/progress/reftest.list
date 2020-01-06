@@ -58,7 +58,7 @@ random
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -403,7 +403,7 @@ OSX
 &
 &
 !
-stylo
+styloVsGecko
 )
 !
 =

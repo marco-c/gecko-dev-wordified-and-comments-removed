@@ -124,7 +124,7 @@ fails
 if
 (
 !
-stylo
+styloVsGecko
 )
 =
 =
@@ -145,7 +145,7 @@ fails
 if
 (
 !
-stylo
+styloVsGecko
 )
 =
 =
@@ -221,7 +221,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -252,7 +252,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -716,7 +716,7 @@ gtkWidget
 &
 &
 !
-stylo
+styloVsGecko
 )
 =
 =
@@ -745,7 +745,7 @@ gtkWidget
 &
 &
 !
-stylo
+styloVsGecko
 )
 =
 =
@@ -1437,7 +1437,7 @@ fails
 if
 (
 !
-stylo
+styloVsGecko
 )
 =
 =
@@ -2125,7 +2125,7 @@ gtkWidget
 &
 &
 !
-stylo
+styloVsGecko
 )
 random
 -
@@ -3672,7 +3672,7 @@ fails
 if
 (
 !
-stylo
+styloVsGecko
 )
 =
 =
@@ -5433,7 +5433,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -5495,7 +5495,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -5518,7 +5518,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -6841,7 +6841,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =

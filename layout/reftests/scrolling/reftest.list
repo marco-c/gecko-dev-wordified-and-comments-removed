@@ -2,7 +2,7 @@ skip
 -
 if
 (
-stylo
+styloVsGecko
 )
 HTTP
 =
@@ -928,7 +928,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -971,7 +971,7 @@ skip
 -
 if
 (
-stylo
+styloVsGecko
 )
 HTTP
 =

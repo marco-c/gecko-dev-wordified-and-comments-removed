@@ -740,7 +740,7 @@ fails
 if
 (
 !
-stylo
+styloVsGecko
 )
 =
 =

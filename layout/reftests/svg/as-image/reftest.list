@@ -699,7 +699,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -752,7 +752,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -791,7 +791,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -842,7 +842,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 fuzzy
 -
@@ -887,7 +887,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -930,7 +930,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -965,7 +965,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -1033,7 +1033,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -1091,7 +1091,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -1144,7 +1144,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -1183,7 +1183,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -1234,7 +1234,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 fuzzy
 -
@@ -1279,7 +1279,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -1322,7 +1322,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -
@@ -1421,7 +1421,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 test
 -

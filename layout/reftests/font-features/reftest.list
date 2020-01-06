@@ -420,7 +420,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 HTTP
 (
@@ -490,7 +490,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 HTTP
 (
@@ -696,7 +696,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 HTTP
 (
@@ -787,7 +787,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 HTTP
 (

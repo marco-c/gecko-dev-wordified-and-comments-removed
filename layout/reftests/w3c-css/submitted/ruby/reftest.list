@@ -10,7 +10,7 @@ skip
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -38,7 +38,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -88,7 +88,7 @@ skip
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -116,7 +116,7 @@ skip
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -234,7 +234,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -266,7 +266,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =
@@ -294,12 +294,6 @@ upright
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 ruby
@@ -326,12 +320,6 @@ upright
 ref
 .
 html
-fails
--
-if
-(
-stylo
-)
 =
 =
 ruby
@@ -367,7 +355,7 @@ fails
 -
 if
 (
-stylo
+styloVsGecko
 )
 =
 =

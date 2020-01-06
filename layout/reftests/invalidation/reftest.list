@@ -1218,7 +1218,7 @@ skip
 -
 if
 (
-stylo
+styloVsGecko
 )
 !
 =
@@ -1238,7 +1238,7 @@ blank
 Bug
 1352628
 (
-stylo
+styloVsGecko
 )
 fails
 -
