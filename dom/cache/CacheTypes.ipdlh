@@ -231,7 +231,7 @@ nullable
 PCacheStreamControl
 control
 ;
-IPCStream
+OptionalIPCStream
 stream
 ;
 }
