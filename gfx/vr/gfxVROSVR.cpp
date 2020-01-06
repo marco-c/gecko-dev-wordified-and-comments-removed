@@ -2265,7 +2265,7 @@ m_ctx
 )
 ;
 }
-void
+bool
 VRSystemManagerOSVR
 :
 :
@@ -2295,6 +2295,7 @@ Init
 )
 {
 return
+false
 ;
 }
 mHMDInfo
@@ -2322,7 +2323,13 @@ AppendElement
 mHMDInfo
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 bool
 VRSystemManagerOSVR
