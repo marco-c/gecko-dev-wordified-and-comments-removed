@@ -13584,6 +13584,9 @@ mWindowDragging
 uint8_t
 mWindowShadow
 ;
+float
+mWindowOpacity
+;
 }
 ;
 struct

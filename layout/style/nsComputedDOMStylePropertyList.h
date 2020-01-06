@@ -1185,6 +1185,11 @@ WindowShadow
 )
 COMPUTED_STYLE_PROP
 (
+_moz_window_opacity
+WindowOpacity
+)
+COMPUTED_STYLE_PROP
+(
 _webkit_text_fill_color
 WebkitTextFillColor
 )
