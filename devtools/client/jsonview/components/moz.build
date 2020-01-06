@@ -121,6 +121,11 @@ JsonToolbar
 js
 '
 '
+LiveText
+.
+js
+'
+'
 MainTabbedArea
 .
 js

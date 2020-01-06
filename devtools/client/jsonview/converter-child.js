@@ -829,6 +829,14 @@ Text
 (
 )
 ;
+data
+.
+readyState
+=
+"
+uninitialized
+"
+;
 let
 Locale
 =
@@ -1270,9 +1278,6 @@ config
 .
 js
 "
-defer
-:
-true
 }
 )
 ]
