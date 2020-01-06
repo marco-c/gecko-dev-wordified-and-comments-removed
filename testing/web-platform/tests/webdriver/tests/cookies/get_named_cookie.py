@@ -38,11 +38,6 @@ html
 "
 )
     
-clear_all_cookies
-(
-session
-)
-    
 session
 .
 execute_script
