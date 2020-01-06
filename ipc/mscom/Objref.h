@@ -39,6 +39,17 @@ uint64_t
 aEnd
 )
 ;
+uint32_t
+GetOBJREFSize
+(
+NotNull
+<
+IStream
+*
+>
+aStream
+)
+;
 }
 }
 #
