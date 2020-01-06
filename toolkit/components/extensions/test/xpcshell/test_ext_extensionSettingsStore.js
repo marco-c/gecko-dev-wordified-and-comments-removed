@@ -705,6 +705,13 @@ control
 )
 ;
 }
+await
+ExtensionSettingsStore
+.
+_reloadFile
+(
+)
+;
 for
 (
 let
