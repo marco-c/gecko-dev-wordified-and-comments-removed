@@ -3898,7 +3898,7 @@ GetCurrentAsyncTransform
 AsyncPanZoomController
 :
 :
-RESPECT_FORCE_DISABLE
+eForCompositing
 )
 ;
 AsyncTransformComponentMatrix
@@ -3912,7 +3912,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-RESPECT_FORCE_DISABLE
+eForCompositing
 )
 ;
 AsyncTransformComponentMatrix
@@ -4811,7 +4811,7 @@ GetCurrentAsyncTransform
 AsyncPanZoomController
 :
 :
-RESPECT_FORCE_DISABLE
+eForCompositing
 )
 ;
 AsyncTransformComponentMatrix
@@ -5213,7 +5213,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-RESPECT_FORCE_DISABLE
+eForCompositing
 )
 ;
 Matrix4x4

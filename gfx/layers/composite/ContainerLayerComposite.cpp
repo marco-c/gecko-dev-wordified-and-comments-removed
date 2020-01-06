@@ -1577,7 +1577,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-RESPECT_FORCE_DISABLE
+eForCompositing
 )
 ;
 const
@@ -2848,7 +2848,7 @@ GetCurrentAsyncTransformWithOverscroll
 AsyncPanZoomController
 :
 :
-RESPECT_FORCE_DISABLE
+eForCompositing
 )
 .
 ToUnknownMatrix
@@ -3669,7 +3669,7 @@ GetCurrentAsyncTransform
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 )
 .

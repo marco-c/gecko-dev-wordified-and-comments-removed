@@ -1453,7 +1453,7 @@ GetCurrentAsyncTransform
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 ;
 }
@@ -1464,7 +1464,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 ;
 return

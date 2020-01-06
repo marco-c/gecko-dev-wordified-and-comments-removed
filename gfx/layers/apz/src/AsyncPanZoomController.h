@@ -1394,16 +1394,16 @@ mLastContentPaintMetrics
 public
 :
 enum
-AsyncMode
+AsyncTransformConsumer
 {
-NORMAL
-RESPECT_FORCE_DISABLE
+eForHitTesting
+eForCompositing
 }
 ;
 ParentLayerPoint
 GetCurrentAsyncScrollOffset
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const
@@ -1411,7 +1411,7 @@ const
 CSSPoint
 GetCurrentAsyncScrollOffsetInCssPixels
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const
@@ -1419,7 +1419,7 @@ const
 AsyncTransformComponentMatrix
 GetOverscrollTransform
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const
@@ -1427,7 +1427,7 @@ const
 AsyncTransform
 GetCurrentAsyncTransform
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const
@@ -1435,7 +1435,7 @@ const
 AsyncTransformComponentMatrix
 GetCurrentAsyncTransformWithOverscroll
 (
-AsyncMode
+AsyncTransformConsumer
 aMode
 )
 const

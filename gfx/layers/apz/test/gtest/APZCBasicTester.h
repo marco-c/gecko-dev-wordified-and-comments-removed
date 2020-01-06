@@ -390,7 +390,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-NORMAL
+eForHitTesting
 )
 ;
 if
