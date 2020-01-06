@@ -1,3 +1,14 @@
+#
+[
+cfg
+(
+target_os
+=
+"
+macos
+"
+)
+]
 use
 msg
 :
@@ -7,7 +18,6 @@ constellation_msg
 :
 {
 ALT
-CONTROL
 SUPER
 }
 ;
@@ -21,6 +31,7 @@ constellation_msg
 {
 Key
 KeyModifiers
+CONTROL
 }
 ;
 use
