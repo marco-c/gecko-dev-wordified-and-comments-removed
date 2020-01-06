@@ -918,6 +918,7 @@ android
 sdk
 -
 {
+0
 }
 '
 .
@@ -1147,6 +1148,7 @@ sdk
 tools
 -
 {
+0
 }
 -
 3859397
@@ -1209,6 +1211,7 @@ android
 sdk
 -
 {
+0
 }
 '
 .
@@ -1307,6 +1310,7 @@ write
 \
 n
 {
+0
 }
 \
 n
@@ -1517,6 +1521,7 @@ android
 sdk
 -
 {
+0
 }
 '
 .
@@ -1625,6 +1630,7 @@ sdkmanager_tool
 package_file
 =
 {
+0
 }
 '
 .
@@ -1978,6 +1984,7 @@ NDK
 "
 on
 {
+0
 }
 yet
 !
