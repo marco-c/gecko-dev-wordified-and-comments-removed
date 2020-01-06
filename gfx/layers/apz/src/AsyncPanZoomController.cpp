@@ -2802,6 +2802,11 @@ thumbRect
 if
 (
 thumbWidth
+>
+0
+&
+&
+thumbWidth
 *
 snapMultiplier
 <
