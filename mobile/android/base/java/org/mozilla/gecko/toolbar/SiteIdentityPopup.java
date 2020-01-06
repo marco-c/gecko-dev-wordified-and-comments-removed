@@ -564,6 +564,7 @@ ContentNotificationButtonListener
 )
 ;
 }
+public
 void
 registerListeners
 (
@@ -3138,6 +3139,7 @@ destroy
 )
 {
 }
+public
 void
 unregisterListeners
 (

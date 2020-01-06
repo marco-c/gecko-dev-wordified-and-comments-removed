@@ -1310,6 +1310,12 @@ PinReason
 CUSTOM_TAB
 )
 ;
+actionBarPresenter
+.
+onResume
+(
+)
+;
 }
 Override
 public
@@ -1336,6 +1342,12 @@ false
 PinReason
 .
 CUSTOM_TAB
+)
+;
+actionBarPresenter
+.
+onPause
+(
 )
 ;
 }
