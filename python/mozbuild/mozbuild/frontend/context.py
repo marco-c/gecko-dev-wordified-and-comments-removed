@@ -3897,6 +3897,9 @@ iterable
 =
 [
 ]
+*
+*
+kwargs
 )
 :
             
@@ -3915,6 +3918,9 @@ self
 __init__
 (
 iterable
+*
+*
+kwargs
 )
         
 def
@@ -4712,7 +4718,7 @@ child
 return
 _TypedListWithItems
 def
-OrderedListWithAction
+OrderedPathListWithAction
 (
 action
 )
@@ -4786,9 +4792,12 @@ mode
 class
 _OrderedListWithAction
 (
-ContextDerivedValue
+ContextDerivedTypedList
+(
+SourcePath
                                  
 StrictOrderingOnAppendListWithAction
+)
 )
 :
         
@@ -4825,6 +4834,7 @@ self
 .
 __init__
 (
+context
 action
 =
 _action
@@ -4992,13 +5002,13 @@ unicode
 )
 ManifestparserManifestList
 =
-OrderedListWithAction
+OrderedPathListWithAction
 (
 read_manifestparser_manifest
 )
 ReftestManifestList
 =
-OrderedListWithAction
+OrderedPathListWithAction
 (
 read_reftest_manifest
 )

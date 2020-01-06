@@ -3413,20 +3413,9 @@ manifest_path
     
 path
 =
-mozpath
-.
-normpath
-(
-mozpath
-.
-join
-(
-context
-.
-srcdir
 manifest_path
-)
-)
+.
+full_path
     
 return
 manifestparser
@@ -3473,20 +3462,9 @@ reftest
     
 path
 =
-mozpath
-.
-normpath
-(
-mozpath
-.
-join
-(
-context
-.
-srcdir
 manifest_path
-)
-)
+.
+full_path
     
 manifest
 =
