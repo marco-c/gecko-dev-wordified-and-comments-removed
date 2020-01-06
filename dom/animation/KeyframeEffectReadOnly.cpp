@@ -2260,7 +2260,6 @@ mTarget
 -
 >
 mElement
-nullptr
 aPresContext
 nullptr
 aPseudoType

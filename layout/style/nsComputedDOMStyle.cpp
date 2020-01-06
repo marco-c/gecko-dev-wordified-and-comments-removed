@@ -2762,7 +2762,6 @@ AsServo
 GetBaseContextForElement
 (
 aElement
-nullptr
 presContext
 aPseudo
 pseudoType
@@ -2895,7 +2894,6 @@ servoSet
 GetBaseContextForElement
 (
 aElement
-nullptr
 presContext
 aPseudo
 pseudoType
