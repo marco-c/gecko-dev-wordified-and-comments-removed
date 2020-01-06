@@ -266,13 +266,3 @@ keep
 artifacts
 :
 false
-toolchains
-:
--
-linux64
--
-clang
--
-linux64
--
-gcc
