@@ -58,6 +58,13 @@ validateD3DNV12Texture
 void
 *
 pointer
+const
+egl
+:
+:
+AttributeMap
+&
+attributes
 )
 const
 =
