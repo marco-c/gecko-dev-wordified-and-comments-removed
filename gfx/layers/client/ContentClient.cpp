@@ -1178,14 +1178,11 @@ UpdateDestinationFrom
 (
 *
 mBuffer
-nsIntRegion
-(
 newBuffer
 -
 >
 BufferRect
 (
-)
 )
 )
 ;
@@ -4675,6 +4672,10 @@ UpdateDestinationFrom
 *
 mFrontBuffer
 updateRegion
+.
+GetBounds
+(
+)
 )
 ;
 mFrontBuffer
