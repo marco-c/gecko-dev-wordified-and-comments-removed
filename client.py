@@ -901,6 +901,17 @@ warn_if_patch_exists
 permanent_patch_dir
 )
   
+if
+os
+.
+path
+.
+exists
+(
+permanent_patch_dir
+)
+:
+    
 shutil
 .
 move
@@ -1047,6 +1058,17 @@ w
 )
 tag
   
+if
+os
+.
+path
+.
+exists
+(
+temporary_patch_dir
+)
+:
+    
 shutil
 .
 move
