@@ -33,12 +33,6 @@ clang
 fgnu89
 -
 inline
--
-fsanitize
--
-coverage
-=
-edge
 "
 export
 CXX
@@ -53,12 +47,6 @@ bin
 clang
 +
 +
--
-fsanitize
--
-coverage
-=
-edge
 "
 export
 LLVM_SYMBOLIZER
