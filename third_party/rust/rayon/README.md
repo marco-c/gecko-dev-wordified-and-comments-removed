@@ -522,11 +522,13 @@ dependencies
 ]
 rayon
 =
+"
 0
 .
 8
 .
-1
+2
+"
 and
 then
 add
