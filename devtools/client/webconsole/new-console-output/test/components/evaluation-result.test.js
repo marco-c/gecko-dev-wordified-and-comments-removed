@@ -266,6 +266,7 @@ EvaluationResult
 (
 {
 message
+serviceContainer
 }
 )
 )
@@ -367,6 +368,7 @@ EvaluationResult
 (
 {
 message
+serviceContainer
 }
 )
 )
@@ -471,6 +473,7 @@ EvaluationResult
 (
 {
 message
+serviceContainer
 }
 )
 )
@@ -583,6 +586,7 @@ EvaluationResult
 (
 {
 message
+serviceContainer
 }
 )
 )
@@ -859,6 +863,7 @@ message
 indent
 }
 )
+serviceContainer
 }
 )
 )
@@ -929,6 +934,7 @@ EvaluationResult
 (
 {
 message
+serviceContainer
 }
 )
 )
@@ -1020,6 +1026,7 @@ EvaluationResult
 (
 {
 message
+serviceContainer
 }
 )
 )
@@ -1117,6 +1124,7 @@ EvaluationResult
 (
 {
 message
+serviceContainer
 timestampsVisible
 :
 true
@@ -1218,6 +1226,7 @@ EvaluationResult
 (
 {
 message
+serviceContainer
 timestampsVisible
 :
 false
