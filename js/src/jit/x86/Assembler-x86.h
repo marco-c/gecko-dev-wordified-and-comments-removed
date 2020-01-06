@@ -783,6 +783,13 @@ defined
 (
 __GNUC__
 )
+&
+&
+!
+defined
+(
+__MINGW32__
+)
 static
 constexpr
 uint32_t
