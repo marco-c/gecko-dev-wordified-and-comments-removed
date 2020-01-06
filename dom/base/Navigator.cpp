@@ -2580,8 +2580,12 @@ permMgr
 >
 CanAccess
 (
-codebaseURI
-nullptr
+doc
+-
+>
+NodePrincipal
+(
+)
 &
 access
 )
