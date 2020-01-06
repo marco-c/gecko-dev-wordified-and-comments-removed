@@ -725,7 +725,6 @@ Nothing
 )
 ;
 }
-static
 void
 TransformLayerGeometry
 (

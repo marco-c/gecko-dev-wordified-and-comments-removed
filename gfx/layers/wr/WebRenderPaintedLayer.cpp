@@ -28,6 +28,17 @@ mozilla
 /
 layers
 /
+ImageClient
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ScrollingLayersHelper
 .
 h
