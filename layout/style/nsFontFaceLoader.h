@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsIRequestObserver
+.
+h
+"
+#
+include
+"
 gfxUserFontSet
 .
 h
@@ -79,6 +86,8 @@ nsFontFaceLoader
 :
 public
 nsIStreamLoaderObserver
+public
+nsIRequestObserver
 {
 public
 :
@@ -106,6 +115,7 @@ aChannel
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTREAMLOADEROBSERVER
+NS_DECL_NSIREQUESTOBSERVER
 nsresult
 Init
 (

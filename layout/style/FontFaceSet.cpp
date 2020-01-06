@@ -3385,6 +3385,7 @@ getter_AddRefs
 streamLoader
 )
 fontLoader
+fontLoader
 )
 ;
 NS_ENSURE_SUCCESS
