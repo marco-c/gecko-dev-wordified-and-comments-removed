@@ -153,7 +153,7 @@ face
 =
 cairo_scaled_font_get_font_face
 (
-CairoScaledFont
+GetCairoScaledFont
 (
 )
 )
@@ -401,7 +401,7 @@ y
 ;
 cairo_scaled_font_glyph_extents
 (
-CairoScaledFont
+GetCairoScaledFont
 (
 )
 glyphs
@@ -2220,7 +2220,7 @@ cairo_scaled_font_t
 *
 cairoFont
 =
-CairoScaledFont
+GetCairoScaledFont
 (
 )
 ;

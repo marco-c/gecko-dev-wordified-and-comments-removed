@@ -105,16 +105,6 @@ return
 mFontFace
 ;
 }
-cairo_scaled_font_t
-*
-CairoScaledFont
-(
-)
-{
-return
-mScaledFont
-;
-}
 virtual
 uint32_t
 GetSpaceGlyph
