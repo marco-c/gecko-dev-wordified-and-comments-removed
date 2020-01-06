@@ -150,11 +150,6 @@ nsHtml5ByteReadable
 h
 '
 '
-nsHtml5ContentCreatorFunction
-.
-h
-'
-'
 nsHtml5DependentUTF16Buffer
 .
 h
