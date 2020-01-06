@@ -4178,9 +4178,9 @@ void
 LIRGeneratorMIPSShared
 :
 :
-visitAsmJSCompareExchangeHeap
+visitWasmCompareExchangeHeap
 (
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 ins
 )
@@ -4248,7 +4248,7 @@ MIRType
 Int32
 )
 ;
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 *
 lir
 =
@@ -4258,7 +4258,7 @@ alloc
 (
 )
 )
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 (
 useRegister
 (
@@ -4304,9 +4304,9 @@ void
 LIRGeneratorMIPSShared
 :
 :
-visitAsmJSAtomicExchangeHeap
+visitWasmAtomicExchangeHeap
 (
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 *
 ins
 )
@@ -4377,7 +4377,7 @@ value
 )
 )
 ;
-LAsmJSAtomicExchangeHeap
+LWasmAtomicExchangeHeap
 *
 lir
 =
@@ -4387,7 +4387,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicExchangeHeap
+LWasmAtomicExchangeHeap
 (
 base
 value
@@ -4413,9 +4413,9 @@ void
 LIRGeneratorMIPSShared
 :
 :
-visitAsmJSAtomicBinopHeap
+visitWasmAtomicBinopHeap
 (
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 ins
 )
@@ -4494,7 +4494,7 @@ hasUses
 )
 )
 {
-LAsmJSAtomicBinopHeapForEffect
+LWasmAtomicBinopHeapForEffect
 *
 lir
 =
@@ -4504,7 +4504,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicBinopHeapForEffect
+LWasmAtomicBinopHeapForEffect
 (
 useRegister
 (
@@ -4542,7 +4542,7 @@ ins
 return
 ;
 }
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 *
 lir
 =
@@ -4552,7 +4552,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 (
 useRegister
 (

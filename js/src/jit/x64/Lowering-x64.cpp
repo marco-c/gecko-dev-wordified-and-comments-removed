@@ -1659,9 +1659,9 @@ void
 LIRGeneratorX64
 :
 :
-visitAsmJSCompareExchangeHeap
+visitWasmCompareExchangeHeap
 (
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 ins
 )
@@ -1721,7 +1721,7 @@ newValue
 )
 )
 ;
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 *
 lir
 =
@@ -1731,7 +1731,7 @@ alloc
 (
 )
 )
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 (
 useRegister
 (
@@ -1759,9 +1759,9 @@ void
 LIRGeneratorX64
 :
 :
-visitAsmJSAtomicExchangeHeap
+visitWasmAtomicExchangeHeap
 (
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 *
 ins
 )
@@ -1815,7 +1815,7 @@ value
 )
 )
 ;
-LAsmJSAtomicExchangeHeap
+LWasmAtomicExchangeHeap
 *
 lir
 =
@@ -1825,7 +1825,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicExchangeHeap
+LWasmAtomicExchangeHeap
 (
 base
 value
@@ -1842,9 +1842,9 @@ void
 LIRGeneratorX64
 :
 :
-visitAsmJSAtomicBinopHeap
+visitWasmAtomicBinopHeap
 (
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 ins
 )
@@ -1932,7 +1932,7 @@ value
 )
 )
 ;
-LAsmJSAtomicBinopHeapForEffect
+LWasmAtomicBinopHeapForEffect
 *
 lir
 =
@@ -1942,7 +1942,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicBinopHeapForEffect
+LWasmAtomicBinopHeapForEffect
 (
 useRegister
 (
@@ -2067,7 +2067,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 (
 useRegister
 (
@@ -2096,7 +2096,7 @@ defineReuseInput
 (
 lir
 ins
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 :
 :
 valueOp

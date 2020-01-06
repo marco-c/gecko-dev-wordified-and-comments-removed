@@ -5074,7 +5074,7 @@ MInstruction
 *
 cas
 =
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 :
 :
 New
@@ -5221,7 +5221,7 @@ MInstruction
 *
 xchg
 =
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 :
 :
 New
@@ -5369,7 +5369,7 @@ MInstruction
 *
 binop
 =
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 :
 :
 New

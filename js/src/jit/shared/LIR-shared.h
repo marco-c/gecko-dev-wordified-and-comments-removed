@@ -33763,7 +33763,7 @@ getOperand
 }
 ;
 class
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 :
 public
 LInstructionHelper
@@ -33777,10 +33777,10 @@ public
 :
 LIR_HEADER
 (
-AsmJSCompareExchangeHeap
+WasmCompareExchangeHeap
 )
 ;
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 (
 const
 LAllocation
@@ -33840,7 +33840,7 @@ BogusTemp
 )
 ;
 }
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 (
 const
 LAllocation
@@ -34052,7 +34052,7 @@ getTemp
 )
 ;
 }
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 mir
 (
@@ -34063,7 +34063,7 @@ return
 mir_
 -
 >
-toAsmJSCompareExchangeHeap
+toWasmCompareExchangeHeap
 (
 )
 ;
@@ -34071,7 +34071,7 @@ toAsmJSCompareExchangeHeap
 }
 ;
 class
-LAsmJSAtomicExchangeHeap
+LWasmAtomicExchangeHeap
 :
 public
 LInstructionHelper
@@ -34085,10 +34085,10 @@ public
 :
 LIR_HEADER
 (
-AsmJSAtomicExchangeHeap
+WasmAtomicExchangeHeap
 )
 ;
-LAsmJSAtomicExchangeHeap
+LWasmAtomicExchangeHeap
 (
 const
 LAllocation
@@ -34138,7 +34138,7 @@ BogusTemp
 )
 ;
 }
-LAsmJSAtomicExchangeHeap
+LWasmAtomicExchangeHeap
 (
 const
 LAllocation
@@ -34326,7 +34326,7 @@ getTemp
 )
 ;
 }
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 *
 mir
 (
@@ -34337,7 +34337,7 @@ return
 mir_
 -
 >
-toAsmJSAtomicExchangeHeap
+toWasmAtomicExchangeHeap
 (
 )
 ;
@@ -34345,7 +34345,7 @@ toAsmJSAtomicExchangeHeap
 }
 ;
 class
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 :
 public
 LInstructionHelper
@@ -34359,7 +34359,7 @@ public
 :
 LIR_HEADER
 (
-AsmJSAtomicBinopHeap
+WasmAtomicBinopHeap
 )
 ;
 static
@@ -34369,7 +34369,7 @@ valueOp
 =
 1
 ;
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 (
 const
 LAllocation
@@ -34446,7 +34446,7 @@ flagTemp
 )
 ;
 }
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 (
 const
 LAllocation
@@ -34690,7 +34690,7 @@ getTemp
 )
 ;
 }
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 mir
 (
@@ -34701,7 +34701,7 @@ return
 mir_
 -
 >
-toAsmJSAtomicBinopHeap
+toWasmAtomicBinopHeap
 (
 )
 ;
@@ -34709,7 +34709,7 @@ toAsmJSAtomicBinopHeap
 }
 ;
 class
-LAsmJSAtomicBinopHeapForEffect
+LWasmAtomicBinopHeapForEffect
 :
 public
 LInstructionHelper
@@ -34723,10 +34723,10 @@ public
 :
 LIR_HEADER
 (
-AsmJSAtomicBinopHeapForEffect
+WasmAtomicBinopHeapForEffect
 )
 ;
-LAsmJSAtomicBinopHeapForEffect
+LWasmAtomicBinopHeapForEffect
 (
 const
 LAllocation
@@ -34793,7 +34793,7 @@ flagTemp
 )
 ;
 }
-LAsmJSAtomicBinopHeapForEffect
+LWasmAtomicBinopHeapForEffect
 (
 const
 LAllocation
@@ -35005,7 +35005,7 @@ getTemp
 )
 ;
 }
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 mir
 (
@@ -35016,7 +35016,7 @@ return
 mir_
 -
 >
-toAsmJSAtomicBinopHeap
+toWasmAtomicBinopHeap
 (
 )
 ;
