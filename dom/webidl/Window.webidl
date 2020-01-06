@@ -2826,6 +2826,7 @@ extraArguments
 )
 ;
 [
+ChromeOnly
 Replaceable
 Throws
 NeedsCallerType
