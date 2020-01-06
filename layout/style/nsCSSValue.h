@@ -7224,6 +7224,13 @@ aOther
 )
 const
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 bool
 eq
 ;
