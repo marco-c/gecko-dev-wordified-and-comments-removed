@@ -50,9 +50,6 @@ jemalloc_bool
 opt_junk
 ;
 jemalloc_bool
-opt_sysv
-;
-jemalloc_bool
 opt_xmalloc
 ;
 jemalloc_bool
