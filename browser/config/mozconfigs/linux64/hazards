@@ -265,6 +265,14 @@ ac_add_options
 without
 -
 ccache
+ac_add_options
+-
+-
+disable
+-
+replace
+-
+malloc
 CFLAGS
 =
 "
