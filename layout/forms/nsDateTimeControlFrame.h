@@ -280,6 +280,11 @@ bool
 aOpen
 )
 ;
+bool
+HasBadInput
+(
+)
+;
 private
 :
 class
