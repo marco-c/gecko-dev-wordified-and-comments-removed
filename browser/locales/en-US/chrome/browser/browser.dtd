@@ -3738,6 +3738,16 @@ Sidebar
 ENTITY
 appMenuHelp
 .
+label
+"
+Help
+"
+>
+<
+!
+ENTITY
+appMenuHelp
+.
 tooltip
 "
 Open
