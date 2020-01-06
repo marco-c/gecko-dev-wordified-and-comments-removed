@@ -3382,7 +3382,6 @@ WriteCachedScript
 cache
 cachePath
 cx
-mSystemPrincipal
 script
 )
 ;
