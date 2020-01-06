@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
@@ -43,9 +36,6 @@ h
 define
 RECENTLY_USED_PARSER_ATOMS_SIZE
 31
-class
-nsHtml5Atom
-;
 class
 nsHtml5AtomEntry
 :
@@ -75,7 +65,7 @@ nsHtml5AtomEntry
 )
 ;
 inline
-nsHtml5Atom
+nsAtom
 *
 GetAtom
 (
@@ -87,10 +77,8 @@ mAtom
 }
 private
 :
-nsAutoPtr
-<
-nsHtml5Atom
->
+nsAtom
+*
 mAtom
 ;
 }

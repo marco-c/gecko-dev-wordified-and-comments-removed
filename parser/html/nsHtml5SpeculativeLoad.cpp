@@ -12,6 +12,15 @@ nsHtml5TreeOpExecutor
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Encoding
+.
+h
+"
 nsHtml5SpeculativeLoad
 :
 :

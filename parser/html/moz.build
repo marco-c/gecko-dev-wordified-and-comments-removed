@@ -315,11 +315,6 @@ UNIFIED_SOURCES
 =
 [
 '
-nsHtml5Atom
-.
-cpp
-'
-'
 nsHtml5AtomTable
 .
 cpp
