@@ -1100,6 +1100,9 @@ Shutdown
 {
 if
 (
+mDoc
+&
+&
 !
 mDoc
 -
