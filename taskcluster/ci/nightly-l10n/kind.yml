@@ -350,12 +350,6 @@ api
 nightly
 :
 -
-android
--
-sdk
--
-linux
--
 proguard
 -
 jar

@@ -313,12 +313,6 @@ api
 l10n
 :
 -
-android
--
-sdk
--
-linux
--
 proguard
 -
 jar
