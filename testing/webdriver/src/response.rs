@@ -5,15 +5,6 @@ rustc_serialize
 json
 ;
 use
-rustc_serialize
-:
-:
-json
-:
-:
-ToJson
-;
-use
 common
 :
 :
@@ -26,7 +17,7 @@ Date
 [
 derive
 (
-Show
+Debug
 )
 ]
 pub
@@ -69,6 +60,7 @@ self
 >
 String
 {
+(
 match
 self
 {
@@ -95,6 +87,8 @@ WebDriverResponse
 DeleteSession
 =
 >
+Ok
+(
 "
 {
 }
@@ -102,6 +96,7 @@ DeleteSession
 .
 to_string
 (
+)
 )
 WebDriverResponse
 :
@@ -177,6 +172,8 @@ WebDriverResponse
 Void
 =
 >
+Ok
+(
 "
 {
 }
@@ -185,7 +182,13 @@ Void
 to_string
 (
 )
+)
 }
+)
+.
+unwrap
+(
+)
 }
 }
 #
@@ -193,7 +196,7 @@ to_string
 derive
 (
 RustcEncodable
-Show
+Debug
 )
 ]
 pub
@@ -249,7 +252,7 @@ session_id
 derive
 (
 RustcEncodable
-Show
+Debug
 )
 ]
 pub
@@ -294,7 +297,7 @@ value
 derive
 (
 RustcEncodable
-Show
+Debug
 )
 ]
 pub
@@ -342,7 +345,7 @@ height
 derive
 (
 RustcEncodable
-Show
+Debug
 )
 ]
 pub
@@ -409,7 +412,7 @@ derive
 (
 RustcEncodable
 PartialEq
-Show
+Debug
 )
 ]
 pub
@@ -529,7 +532,7 @@ http_only
 derive
 (
 RustcEncodable
-Show
+Debug
 )
 ]
 pub

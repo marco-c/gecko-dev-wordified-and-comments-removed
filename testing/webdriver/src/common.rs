@@ -1,13 +1,4 @@
 use
-core
-:
-:
-num
-:
-:
-ToPrimitive
-;
-use
 rustc_serialize
 :
 :
@@ -17,7 +8,6 @@ json
 {
 Json
 ToJson
-ParserError
 }
 ;
 use
@@ -49,6 +39,15 @@ error
 Error
 FromError
 }
+;
+use
+std
+:
+:
+num
+:
+:
+ToPrimitive
 ;
 use
 error
@@ -86,7 +85,7 @@ derive
 (
 RustcEncodable
 PartialEq
-Show
+Debug
 )
 ]
 pub
@@ -154,7 +153,7 @@ derive
 (
 PartialEq
 Clone
-Show
+Debug
 )
 ]
 pub

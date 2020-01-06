@@ -368,6 +368,7 @@ ErrorStatus
 :
 :
 InvalidArgument
+&
 format
 !
 (
@@ -385,10 +386,10 @@ json
 "
 body
 )
+[
 .
-as_slice
-(
-)
+.
+]
 )
 )
 }
