@@ -1117,6 +1117,13 @@ FontFace
 >
 FontFaceRule
 )
+effective_font_face_feature_values_rules
+(
+FontFeatureValues
+=
+>
+FontFeatureValuesRule
+)
 effective_counter_style_rules
 (
 CounterStyle

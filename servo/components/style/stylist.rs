@@ -4155,6 +4155,15 @@ Document
 .
 .
 )
+|
+CssRule
+:
+:
+FontFeatureValues
+(
+.
+.
+)
 =
 >
 {
