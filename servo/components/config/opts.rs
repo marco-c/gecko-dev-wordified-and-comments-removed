@@ -1882,6 +1882,13 @@ UserAgent
 {
 Desktop
 Android
+#
+[
+allow
+(
+non_camel_case_types
+)
+]
 iOS
 }
 fn
