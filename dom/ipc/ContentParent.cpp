@@ -9976,9 +9976,9 @@ nsIPrefBranch
 PREF_STRING
 :
 {
-nsAdoptingCString
+nsAutoCString
 value
-(
+;
 Preferences
 :
 :
@@ -9991,7 +9991,7 @@ GetContentPref
 (
 i
 )
-)
+value
 )
 ;
 stringPrefs

@@ -6809,9 +6809,9 @@ emplace
 (
 )
 ;
-auto
+nsAutoCString
 policies
-=
+;
 mozilla
 :
 :
@@ -6827,6 +6827,7 @@ policy
 .
 policynames
 "
+policies
 )
 ;
 for
@@ -6978,9 +6979,9 @@ sites
 "
 )
 ;
-auto
+nsAutoCString
 siteList
-=
+;
 Preferences
 :
 :
@@ -6991,6 +6992,7 @@ domainPrefName
 get
 (
 )
+siteList
 )
 ;
 AddSitesToFileURIWhitelist
