@@ -1097,7 +1097,11 @@ prefs
 .
 setBoolPref
 (
-PREF_TELEMETRY_ENABLED
+TelemetryUtils
+.
+Preferences
+.
+TelemetryEnabled
 true
 )
 ;

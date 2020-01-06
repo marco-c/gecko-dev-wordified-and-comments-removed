@@ -729,13 +729,11 @@ Preferences
 .
 set
 (
-"
-toolkit
+TelemetryUtils
 .
-telemetry
+Preferences
 .
-server
-"
+Server
 "
 http
 :
