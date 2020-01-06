@@ -201,7 +201,6 @@ get
 PREF_TOURSET_VERSION
 )
 TOURSET_VERSION
-)
 "
 tourset
 version
@@ -209,6 +208,7 @@ should
 not
 change
 "
+)
 ;
 do_check_eq
 (
@@ -322,7 +322,6 @@ get
 PREF_TOURSET_VERSION
 )
 TOURSET_VERSION
-)
 "
 tourset
 version
@@ -330,6 +329,7 @@ should
 not
 change
 "
+)
 ;
 do_check_eq
 (
@@ -452,7 +452,6 @@ get
 PREF_TOURSET_VERSION
 )
 NEXT_TOURSET_VERSION
-)
 "
 tourset
 version
@@ -460,6 +459,7 @@ should
 not
 change
 "
+)
 ;
 do_check_eq
 (
@@ -587,7 +587,6 @@ get
 PREF_TOURSET_VERSION
 )
 NEXT_TOURSET_VERSION
-)
 "
 tourset
 version
@@ -595,6 +594,7 @@ should
 not
 change
 "
+)
 ;
 do_check_eq
 (
@@ -686,7 +686,6 @@ get
 PREF_TOURSET_VERSION
 )
 TOURSET_VERSION
-)
 "
 tourset
 version
@@ -694,6 +693,7 @@ should
 not
 change
 "
+)
 ;
 do_check_eq
 (
