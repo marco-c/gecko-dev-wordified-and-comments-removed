@@ -934,7 +934,7 @@ nsIRunnable
 aTask
 uint32_t
 aTimeoutMs
-nsIThread
+nsIEventTarget
 *
 aTarget
 =
@@ -972,7 +972,7 @@ nsIRunnable
 aTask
 uint32_t
 aTimeoutMs
-nsIThread
+nsIEventTarget
 *
 aTarget
 )

@@ -80,9 +80,9 @@ GMPTimerParent
 explicit
 GMPTimerParent
 (
-nsIThread
+nsISerialEventTarget
 *
-aGMPThread
+aGMPEventTarget
 )
 ;
 void
@@ -200,9 +200,9 @@ mTimers
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mGMPThread
+mGMPEventTarget
 ;
 bool
 mIsOpen

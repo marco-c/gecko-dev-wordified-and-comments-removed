@@ -788,11 +788,11 @@ return
 }
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mainThread
+mainTarget
 =
-do_GetMainThread
+GetMainThreadEventTarget
 (
 )
 ;
@@ -843,7 +843,7 @@ SyncRunnable
 :
 DispatchToThread
 (
-mainThread
+mainTarget
 runnable
 )
 ;

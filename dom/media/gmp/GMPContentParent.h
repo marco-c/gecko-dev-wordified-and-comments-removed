@@ -146,9 +146,9 @@ aCDM
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-GMPThread
+GMPEventTarget
 (
 )
 ;
@@ -408,9 +408,9 @@ mChromiumCDMs
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mGMPThread
+mGMPEventTarget
 ;
 RefPtr
 <

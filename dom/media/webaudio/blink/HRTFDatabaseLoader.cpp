@@ -408,11 +408,11 @@ ProxyRelease
 {
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mainThread
+mainTarget
 =
-do_GetMainThread
+GetMainThreadEventTarget
 (
 )
 ;
@@ -420,7 +420,7 @@ if
 (
 MOZ_LIKELY
 (
-mainThread
+mainTarget
 )
 )
 {
@@ -442,7 +442,7 @@ nsresult
 >
 rv
 =
-mainThread
+mainTarget
 -
 >
 Dispatch
