@@ -1433,8 +1433,27 @@ minidumps
 '
 )
             
+crash_dir_found
+=
+False
+            
+for
+wait_time
+in
+xrange
+(
+60
+)
+:
+                
+time
+.
+sleep
+(
+1
+)
+                
 if
-not
 self
 .
 dm
@@ -1443,6 +1462,17 @@ dirExists
 (
 remote_dir
 )
+:
+                    
+crash_dir_found
+=
+True
+                    
+break
+            
+if
+not
+crash_dir_found
 :
                 
 print
