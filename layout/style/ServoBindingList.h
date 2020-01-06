@@ -150,10 +150,7 @@ sheet
 SERVO_BINDING_FUNC
 (
 Servo_StyleSheet_GetOrigin
-mozilla
-:
-:
-OriginFlags
+uint8_t
 RawServoStyleSheetContentsBorrowed
 sheet
 )
