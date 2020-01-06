@@ -813,6 +813,10 @@ pulseaudio
 libs
 -
 devel
+clang
+clang
+-
+libs
 #
 #
 #
@@ -911,6 +915,10 @@ pulseaudio
 libs
 -
 devel
+clang
+clang
+-
+libs
 #
 #
 #
@@ -1000,6 +1008,10 @@ build
 glu
 -
 devel
+llvm
+-
+clang
+libclang
 #
 #
 #
