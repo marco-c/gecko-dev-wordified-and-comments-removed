@@ -748,7 +748,7 @@ test_bug798843_pref
 .
 html
 [
-5
+3
 ]
 *
 Incorrect
@@ -829,7 +829,7 @@ test_system_font_serialization
 .
 html
 [
-3
+5
 ]
 *
 serialize
