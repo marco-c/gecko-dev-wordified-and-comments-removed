@@ -1179,7 +1179,7 @@ uint32_t
 startIndx
 nsINode
 *
-endNode
+aEndContainer
 uint32_t
 endIndx
 )
@@ -1192,7 +1192,7 @@ nsContentUtils
 GetCommonAncestor
 (
 aStartContainer
-endNode
+aEndContainer
 )
 ;
 if
@@ -1227,7 +1227,7 @@ if
 aStartContainer
 =
 =
-endNode
+aEndContainer
 )
 {
 if
@@ -1463,7 +1463,7 @@ mFirst
 mPre
 aStartContainer
 startIndx
-endNode
+aEndContainer
 endIndx
 )
 )
@@ -1566,7 +1566,7 @@ mFirst
 mPre
 aStartContainer
 startIndx
-endNode
+aEndContainer
 endIndx
 )
 )
@@ -1581,7 +1581,7 @@ nullptr
 bool
 endIsData
 =
-endNode
+aEndContainer
 -
 >
 IsNodeOfType
@@ -1598,7 +1598,7 @@ endIsData
 |
 |
 !
-endNode
+aEndContainer
 -
 >
 HasChildren
@@ -1622,7 +1622,7 @@ if
 NS_WARN_IF
 (
 !
-endNode
+aEndContainer
 -
 >
 IsContent
@@ -1645,7 +1645,7 @@ true
 ;
 if
 (
-endNode
+aEndContainer
 -
 >
 IsHTMLElement
@@ -1671,7 +1671,7 @@ nsIAtom
 *
 name
 =
-endNode
+aEndContainer
 -
 >
 NodeInfo
@@ -1718,7 +1718,7 @@ mLast
 =
 PrevNode
 (
-endNode
+aEndContainer
 )
 ;
 NS_WARNING_ASSERTION
@@ -1751,7 +1751,7 @@ mLast
 mPre
 mFirst
 0
-endNode
+aEndContainer
 endIndx
 )
 )
@@ -1767,7 +1767,7 @@ else
 {
 mLast
 =
-endNode
+aEndContainer
 -
 >
 AsContent
@@ -1789,7 +1789,7 @@ mLast
 =
 GetPrevSibling
 (
-endNode
+aEndContainer
 )
 ;
 NS_WARNING_ASSERTION
@@ -1811,7 +1811,7 @@ mLast
 mPre
 aStartContainer
 startIndx
-endNode
+aEndContainer
 endIndx
 )
 )
@@ -1826,7 +1826,7 @@ else
 {
 mLast
 =
-endNode
+aEndContainer
 -
 >
 AsContent
@@ -1845,7 +1845,7 @@ endIndx
 ;
 cChild
 =
-endNode
+aEndContainer
 -
 >
 GetChildAt
@@ -1911,7 +1911,7 @@ mLast
 mPre
 aStartContainer
 startIndx
-endNode
+aEndContainer
 endIndx
 )
 )
