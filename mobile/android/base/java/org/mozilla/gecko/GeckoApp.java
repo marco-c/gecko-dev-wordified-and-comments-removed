@@ -3434,17 +3434,6 @@ false
 }
 Override
 public
-boolean
-areTabsShown
-(
-)
-{
-return
-false
-;
-}
-Override
-public
 void
 handleMessage
 (

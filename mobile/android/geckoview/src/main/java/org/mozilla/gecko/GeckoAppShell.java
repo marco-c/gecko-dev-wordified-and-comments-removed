@@ -9103,12 +9103,6 @@ listener
 )
 ;
 public
-boolean
-areTabsShown
-(
-)
-;
-public
 void
 invalidateOptionsMenu
 (

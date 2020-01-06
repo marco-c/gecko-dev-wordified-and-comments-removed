@@ -120,17 +120,6 @@ listener
 }
 Override
 public
-boolean
-areTabsShown
-(
-)
-{
-return
-false
-;
-}
-Override
-public
 void
 invalidateOptionsMenu
 (
