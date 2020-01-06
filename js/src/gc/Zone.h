@@ -814,11 +814,6 @@ isGCScheduled
 {
 return
 gcScheduled_
-&
-&
-canCollect
-(
-)
 ;
 }
 void
