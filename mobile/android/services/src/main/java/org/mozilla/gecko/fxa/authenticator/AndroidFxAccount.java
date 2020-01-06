@@ -400,7 +400,7 @@ getSimpleName
 (
 )
 ;
-public
+private
 static
 final
 int
@@ -408,7 +408,7 @@ CURRENT_SYNC_PREFS_VERSION
 =
 1
 ;
-public
+private
 static
 final
 int
@@ -424,7 +424,7 @@ CURRENT_ACCOUNT_VERSION
 =
 3
 ;
-public
+private
 static
 final
 String
@@ -434,7 +434,7 @@ ACCOUNT_KEY_ACCOUNT_VERSION
 version
 "
 ;
-public
+private
 static
 final
 String
@@ -444,7 +444,7 @@ ACCOUNT_KEY_PROFILE
 profile
 "
 ;
-public
+private
 static
 final
 String
@@ -464,7 +464,7 @@ ACCOUNT_KEY_PROFILE_SERVER
 profileServerURI
 "
 ;
-public
+private
 static
 final
 String
@@ -474,7 +474,7 @@ ACCOUNT_KEY_TOKEN_SERVER
 tokenServerURI
 "
 ;
-public
+private
 static
 final
 String
@@ -484,7 +484,7 @@ ACCOUNT_KEY_DESCRIPTOR
 descriptor
 "
 ;
-public
+private
 static
 final
 int
@@ -492,7 +492,7 @@ CURRENT_BUNDLE_VERSION
 =
 2
 ;
-public
+private
 static
 final
 String
@@ -502,7 +502,6 @@ BUNDLE_KEY_BUNDLE_VERSION
 version
 "
 ;
-public
 static
 final
 String
@@ -512,7 +511,6 @@ BUNDLE_KEY_STATE_LABEL
 stateLabel
 "
 ;
-public
 static
 final
 String
@@ -522,7 +520,7 @@ BUNDLE_KEY_STATE
 state
 "
 ;
-public
+private
 static
 final
 String
@@ -532,7 +530,7 @@ BUNDLE_KEY_PROFILE_JSON
 profile
 "
 ;
-public
+private
 static
 final
 String
@@ -542,7 +540,7 @@ ACCOUNT_KEY_DEVICE_ID
 deviceId
 "
 ;
-public
+private
 static
 final
 String
@@ -582,7 +580,7 @@ ACCOUNT_KEY_DEVICE_PUSH_REGISTRATION_ERROR_TIME
 devicePushRegistrationErrorTime
 "
 ;
-public
+private
 static
 final
 String
@@ -701,7 +699,7 @@ final
 Context
 context
 ;
-protected
+private
 final
 AccountManager
 accountManager
@@ -711,7 +709,7 @@ final
 Account
 account
 ;
-protected
+private
 static
 final
 ConcurrentHashMap
@@ -855,7 +853,7 @@ this
 account
 ;
 }
-protected
+private
 int
 getAccountVersion
 (
@@ -907,7 +905,7 @@ return
 ;
 }
 }
-protected
+private
 synchronized
 void
 persistBundle
@@ -940,7 +938,6 @@ toJSONString
 )
 ;
 }
-protected
 ExtendedJSONObject
 unbundle
 (
@@ -953,7 +950,7 @@ true
 )
 ;
 }
-protected
+private
 synchronized
 ExtendedJSONObject
 unbundle
@@ -1098,7 +1095,7 @@ return
 bundle
 ;
 }
-protected
+private
 String
 getBundleData
 (
@@ -1227,7 +1224,7 @@ key
 )
 ;
 }
-protected
+private
 void
 updateBundleValues
 (
@@ -1506,7 +1503,6 @@ return
 profileURI
 ;
 }
-public
 String
 getOAuthServerURI
 (
@@ -1689,7 +1685,7 @@ version
 )
 ;
 }
-public
+private
 String
 getSyncPrefsPath
 (
@@ -1760,7 +1756,7 @@ tokenServerURI
 )
 ;
 }
-public
+private
 String
 getReadingListPrefsPath
 (
@@ -1821,7 +1817,7 @@ SHARED_PREFERENCES_MODE
 )
 ;
 }
-public
+private
 SharedPreferences
 getReadingListPrefs
 (
@@ -1994,7 +1990,6 @@ null
 )
 ;
 }
-public
 static
 AndroidFxAccount
 addAndroidAccount
@@ -2428,7 +2423,7 @@ return
 fxAccount
 ;
 }
-public
+private
 void
 clearSyncPrefs
 (
@@ -2454,7 +2449,7 @@ commit
 )
 ;
 }
-public
+private
 void
 setAuthoritiesToSyncAutomaticallyMap
 (
@@ -2558,7 +2553,6 @@ authorityEnabled
 ;
 }
 }
-public
 Map
 <
 String
@@ -2805,7 +2799,7 @@ broadcastAccountStateChangedIntent
 )
 ;
 }
-protected
+private
 void
 broadcastAccountStateChangedIntent
 (
@@ -3108,7 +3102,6 @@ name
 )
 ;
 }
-public
 Intent
 populateDeletedAccountIntent
 (
@@ -3481,7 +3474,7 @@ STAGE_PROFILE_SERVER_ENDPOINT
 )
 ;
 }
-protected
+private
 void
 unsafeTransitionToStageEndpoints
 (
@@ -4086,7 +4079,7 @@ id
 )
 ;
 }
-public
+private
 synchronized
 void
 setDeviceRegistrationVersion
@@ -4264,7 +4257,6 @@ ProfileResultReceiver
 extends
 ResultReceiver
 {
-public
 ProfileResultReceiver
 (
 Handler
@@ -4334,7 +4326,7 @@ LOG_TAG
 Profile
 JSON
 fetch
-succeeeded
+succeeded
 !
 "
 )
@@ -4418,7 +4410,7 @@ break
 }
 }
 }
-protected
+private
 static
 final
 Semaphore
@@ -4431,7 +4423,7 @@ Semaphore
 true
 )
 ;
-protected
+private
 String
 lockTag
 =
