@@ -1424,6 +1424,11 @@ output
 classes
 .
 dex
+-
+-
+force
+-
+jumbo
 jars
 -
 proguarded
