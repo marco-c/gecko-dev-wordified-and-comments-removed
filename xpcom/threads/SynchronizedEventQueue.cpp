@@ -5,6 +5,13 @@ SynchronizedEventQueue
 .
 h
 "
+#
+include
+"
+nsIThreadInternal
+.
+h
+"
 using
 namespace
 mozilla
