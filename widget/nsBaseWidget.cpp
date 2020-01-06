@@ -3549,6 +3549,14 @@ eWindowType_popup
 HasRemoteContent
 (
 )
+&
+&
+gfxPrefs
+:
+:
+APZPopupsEnabled
+(
+)
 )
 )
 )
