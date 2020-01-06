@@ -7463,7 +7463,7 @@ FlushPendingNotifications
 FlushType
 :
 :
-Frames
+EnsurePresShellInitAndFrames
 )
 ;
 nsIPresShell
