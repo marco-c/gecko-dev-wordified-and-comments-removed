@@ -717,6 +717,7 @@ FirstElement
 ;
 if
 (
+!
 IsReadyToRun
 (
 entry
@@ -726,6 +727,10 @@ nullptr
 )
 )
 {
+return
+nullptr
+;
+}
 PopEpoch
 (
 )
@@ -768,7 +773,6 @@ forget
 (
 )
 ;
-}
 }
 if
 (
