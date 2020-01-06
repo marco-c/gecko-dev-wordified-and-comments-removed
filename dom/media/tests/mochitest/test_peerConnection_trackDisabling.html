@@ -408,8 +408,6 @@ h
 waitForPixel
 (
 video
-offsetX
-offsetY
 px
 =
 >
@@ -431,6 +429,10 @@ black
 threshold
 )
 )
+{
+offsetX
+offsetY
+}
 )
 ;
 var
@@ -444,8 +446,6 @@ h
 waitForPixel
 (
 video
-offsetX
-offsetY
 px
 =
 >
@@ -465,14 +465,12 @@ h
 .
 black
 threshold
+)
+)
+{
 offsetX
-*
-2
 offsetY
-*
-2
-)
-)
+}
 )
 ;
 return

@@ -360,13 +360,18 @@ then
 >
 h
 .
-waitForPixelColor
+pixelMustBecome
 (
 video
 h
 .
 grey
+{
+threshold
+:
 5
+infoString
+:
 "
 The
 canvas
@@ -379,6 +384,7 @@ the
 media
 element
 "
+}
 )
 )
 .
