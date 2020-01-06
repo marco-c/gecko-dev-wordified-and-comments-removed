@@ -518,6 +518,7 @@ AddRef
 AccessibleCaretEventHubTester
 (
 )
+override
 {
 mHub
 .

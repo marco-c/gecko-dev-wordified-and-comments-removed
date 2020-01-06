@@ -342,6 +342,7 @@ nsIFrame
 *
 aEndFrame
 )
+override
 {
 if
 (
