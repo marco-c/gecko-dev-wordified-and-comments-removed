@@ -11685,6 +11685,7 @@ c_compiler
 flags
 lld
 =
+[
 "
 -
 fuse
@@ -11694,13 +11695,12 @@ ld
 "
 +
 linker
+]
 cmd
 =
 cmd_base
 +
-[
 lld
-]
 +
 version_check
 if
