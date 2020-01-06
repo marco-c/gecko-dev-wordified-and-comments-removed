@@ -12,6 +12,15 @@ Array
 length
 )
 ;
+Array
+.
+prototype
+[
+0
+]
+=
+0
+;
 array
 .
 splice
