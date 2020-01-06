@@ -412,6 +412,7 @@ promiseBrowserLoaded
 (
 browser
 url
+redirectUrl
 )
 {
 return
@@ -477,11 +478,20 @@ webProgress
 isTopLevel
 &
 &
+(
 requestUrl
 =
 =
 =
 url
+|
+|
+requestUrl
+=
+=
+=
+redirectUrl
+)
 &
 &
 (
@@ -807,6 +817,9 @@ async
 loadURL
 (
 url
+redirectUrl
+=
+undefined
 )
 {
 await
@@ -830,6 +843,7 @@ this
 .
 browser
 url
+redirectUrl
 )
 ;
 }
@@ -3681,6 +3695,9 @@ url
 remote
 =
 undefined
+redirectUrl
+=
+undefined
 )
 {
 let
@@ -3698,6 +3715,7 @@ contentPage
 loadURL
 (
 url
+redirectUrl
 )
 .
 then
