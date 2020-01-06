@@ -294,6 +294,10 @@ MOZ_ANDROID_GCM_SENDERID
 '
                 
 '
+MOZ_MMA_GCM_SENDERID
+'
+                
+'
 MOZ_ANDROID_MAX_SDK_VERSION
 '
                 
