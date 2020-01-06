@@ -239,12 +239,6 @@ mShutdown
 (
 false
 )
-mResource
-(
-aInit
-.
-mResource
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -312,13 +306,6 @@ MOZ_ASSERT
 OnTaskQueue
 (
 )
-)
-;
-mDuration
-=
-Some
-(
-aDuration
 )
 ;
 UpdateBuffered

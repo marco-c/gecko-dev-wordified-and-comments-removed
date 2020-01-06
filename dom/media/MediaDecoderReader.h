@@ -850,12 +850,6 @@ TimeIntervals
 >
 mBuffered
 ;
-media
-:
-:
-NullableTimeUnit
-mDuration
-;
 bool
 mShutdown
 ;
@@ -898,12 +892,6 @@ MediaEventProducer
 MediaResult
 >
 mOnDecodeWarning
-;
-RefPtr
-<
-MediaResource
->
-mResource
 ;
 private
 :
