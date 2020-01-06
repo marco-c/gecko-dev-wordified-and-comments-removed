@@ -105,12 +105,6 @@ GetParentObject
 =
 0
 ;
-using
-nsIDOMHTMLCollection
-:
-:
-Item
-;
 uint32_t
 Length
 (

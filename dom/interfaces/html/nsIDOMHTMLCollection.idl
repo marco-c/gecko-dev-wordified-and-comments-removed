@@ -218,14 +218,5 @@ unsigned
 long
 length
 ;
-nsIDOMNode
-item
-(
-in
-unsigned
-long
-index
-)
-;
 }
 ;
