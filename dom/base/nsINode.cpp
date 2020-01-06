@@ -13792,10 +13792,10 @@ xpc
 :
 UseContentXBLScope
 (
-js
+JS
 :
 :
-GetObjectCompartment
+GetObjectRealmOrNull
 (
 obj
 )
