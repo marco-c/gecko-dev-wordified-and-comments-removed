@@ -1032,7 +1032,7 @@ DivertCompleteEvent
 ;
 RefPtr
 <
-nsHttpChannel
+HttpBaseChannel
 >
 mChannel
 ;
