@@ -1089,6 +1089,10 @@ toolchains
 linux64
 -
 clang
+-
+3
+.
+9
 linux64
 -
 hfsplus
@@ -1230,6 +1234,10 @@ toolchains
 linux64
 -
 clang
+-
+3
+.
+9
 linux64
 -
 libdmg
@@ -1474,3 +1482,7 @@ toolchains
 linux64
 -
 clang
+-
+3
+.
+9
