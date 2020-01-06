@@ -8,7 +8,10 @@ use
 style
 :
 :
-supports
+stylesheets
+:
+:
+supports_rule
 :
 :
 SupportsCondition

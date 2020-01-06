@@ -1,11 +1,3 @@
-#
-!
-[
-deny
-(
-missing_docs
-)
-]
 use
 app_units
 :
