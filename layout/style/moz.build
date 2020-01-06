@@ -266,6 +266,11 @@ nsCSSCounterDescList
 h
 '
 '
+nsCSSCounterStyleRule
+.
+h
+'
+'
 nsCSSFontDescList
 .
 h

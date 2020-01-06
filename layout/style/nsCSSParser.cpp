@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsCSSCounterStyleRule
+.
+h
+"
+#
+include
+"
 nsCSSFontFaceRule
 .
 h
