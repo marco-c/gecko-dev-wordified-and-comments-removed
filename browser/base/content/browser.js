@@ -26003,16 +26003,6 @@ ensureInitialized
 !
 this
 .
-_shouldSwitch
-(
-aRequest
-aWebProgress
-)
-|
-|
-!
-this
-.
 reload
 .
 hasAttribute
@@ -32021,7 +32011,7 @@ replace
 ?
 :
 \
-s
+W
 *
 javascript
 :
