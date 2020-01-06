@@ -224,7 +224,7 @@ hud
 .
 loglimit
 "
-1000
+10000
 )
 ;
 pref
