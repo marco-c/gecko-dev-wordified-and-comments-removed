@@ -849,6 +849,12 @@ size
 :
 16px
 ;
+overflow
+-
+y
+:
+scroll
+;
 }
 h1
 h2
