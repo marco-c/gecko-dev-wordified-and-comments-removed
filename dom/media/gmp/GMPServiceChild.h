@@ -14,6 +14,13 @@ h
 #
 include
 "
+MediaResult
+.
+h
+"
+#
+include
+"
 base
 /
 process
@@ -259,7 +266,7 @@ MozPromise
 <
 GMPServiceChild
 *
-nsresult
+MediaResult
 true
 >
 GetServiceChildPromise
