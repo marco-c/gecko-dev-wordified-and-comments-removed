@@ -178,11 +178,6 @@ gfxVROSVR
 cpp
 '
 '
-gfxVRPuppet
-.
-cpp
-'
-'
 ipc
 /
 VRLayerChild
@@ -260,6 +255,11 @@ SOURCES
 +
 =
 [
+'
+gfxVRPuppet
+.
+cpp
+'
 '
 VRDisplayHost
 .
