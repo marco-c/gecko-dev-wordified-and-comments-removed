@@ -405,6 +405,16 @@ mozilla
 dom
 :
 :
+indexedDB
+;
+using
+namespace
+mozilla
+:
+:
+dom
+:
+:
 quota
 ;
 using

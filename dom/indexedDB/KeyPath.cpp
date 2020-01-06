@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h
