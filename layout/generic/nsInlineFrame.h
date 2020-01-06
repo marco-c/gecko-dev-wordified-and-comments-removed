@@ -646,9 +646,6 @@ DrainSelfOverflowListInternal
 (
 DrainFlags
 aFlags
-nsIFrame
-*
-aLineContainer
 )
 ;
 protected
