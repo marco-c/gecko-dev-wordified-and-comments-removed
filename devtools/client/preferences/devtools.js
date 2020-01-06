@@ -512,7 +512,7 @@ shapesHighlighter
 .
 enabled
 "
-true
+false
 )
 ;
 pref
