@@ -688,16 +688,6 @@ UpdateImageContainer
 (
 )
 ;
-#
-ifdef
-DEBUG
-void
-NotifyDrawingObservers
-(
-)
-;
-#
-endif
 bool
 Decode
 (

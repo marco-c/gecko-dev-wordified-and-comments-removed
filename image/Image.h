@@ -1061,6 +1061,16 @@ uint32_t
 aFlags
 )
 ;
+#
+ifdef
+DEBUG
+void
+NotifyDrawingObservers
+(
+)
+;
+#
+endif
 RefPtr
 <
 ProgressTracker
