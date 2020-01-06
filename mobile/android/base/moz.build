@@ -5486,13 +5486,6 @@ java
 '
 firstrun
 /
-LastPanel
-.
-java
-'
-'
-firstrun
-/
 RestrictedWelcomePanel
 .
 java

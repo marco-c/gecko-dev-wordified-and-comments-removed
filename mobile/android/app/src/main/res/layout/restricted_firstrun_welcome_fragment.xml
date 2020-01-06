@@ -418,13 +418,6 @@ button_background_action_blue_round
 "
 android
 :
-textAllCaps
-=
-"
-true
-"
-android
-:
 text
 =
 "

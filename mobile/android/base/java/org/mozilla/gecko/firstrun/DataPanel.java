@@ -184,13 +184,13 @@ R
 .
 drawable
 .
-firstrun_data
+firstrun_data_on
 :
 R
 .
 drawable
 .
-firstrun_data
+firstrun_data_off
 ;
 (
 (

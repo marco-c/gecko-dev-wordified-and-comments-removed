@@ -8124,7 +8124,7 @@ textColor
 >
 color
 /
-ob_title
+text_and_tabs_tray_grey
 <
 /
 item
@@ -8172,7 +8172,7 @@ textColor
 >
 color
 /
-ob_subtitle
+placeholder_grey
 <
 /
 item
@@ -8237,7 +8237,7 @@ textColor
 >
 color
 /
-ob_click
+link_blue
 <
 /
 item

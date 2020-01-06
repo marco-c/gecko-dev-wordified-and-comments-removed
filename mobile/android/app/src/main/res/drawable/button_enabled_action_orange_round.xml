@@ -118,7 +118,7 @@ color
 "
 color
 /
-ob_press
+action_orange
 "
 /
 >
@@ -129,7 +129,9 @@ android
 radius
 =
 "
-5dp
+dimen
+/
+standard_corner_radius
 "
 /
 >

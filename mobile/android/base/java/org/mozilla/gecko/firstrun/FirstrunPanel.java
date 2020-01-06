@@ -141,7 +141,6 @@ container
 false
 )
 ;
-final
 Bundle
 args
 =
