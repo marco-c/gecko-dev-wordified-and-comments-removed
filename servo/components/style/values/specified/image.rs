@@ -6588,7 +6588,7 @@ i
 t
 >
 (
-context
+_context
 :
 &
 ParserContext
@@ -6686,7 +6686,6 @@ SpecifiedValue
 :
 parse
 (
-context
 input
 )
 ?
@@ -6708,10 +6707,6 @@ Ok
 PaintWorklet
 {
 name
-:
-name
-arguments
-:
 arguments
 }
 )
