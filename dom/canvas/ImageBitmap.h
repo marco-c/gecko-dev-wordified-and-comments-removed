@@ -67,6 +67,13 @@ h
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
