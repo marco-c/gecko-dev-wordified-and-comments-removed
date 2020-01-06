@@ -189,6 +189,7 @@ onUrlOpenInBackgroundListener
 super
 (
 context
+anchor
 telemetryExtraBuilder
 mode
 item
