@@ -5310,11 +5310,11 @@ initialising
 ;
 if
 (
-:
-:
-IsIconic
+mWidget
+-
+>
+IsHidden
 (
-mHwnd
 )
 )
 {

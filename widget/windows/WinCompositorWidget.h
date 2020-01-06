@@ -263,6 +263,13 @@ return
 this
 ;
 }
+bool
+IsHidden
+(
+)
+const
+override
+;
 void
 EnterPresentLock
 (

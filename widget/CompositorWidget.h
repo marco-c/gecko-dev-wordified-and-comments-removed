@@ -499,6 +499,17 @@ mOptions
 ;
 }
 virtual
+bool
+IsHidden
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 RefPtr
 <
 VsyncObserver
