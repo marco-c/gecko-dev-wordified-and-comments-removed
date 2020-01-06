@@ -3410,6 +3410,16 @@ sanity
 ref
 .
 html
+skip
+-
+if
+(
+winWidget
+&
+&
+!
+isDebugBuild
+)
 HTTP
 (
 .
