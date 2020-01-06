@@ -3868,7 +3868,10 @@ Au
 pub
 border_radius
 :
+BorderRadii
+<
 Au
+>
 pub
 clip_mode
 :
