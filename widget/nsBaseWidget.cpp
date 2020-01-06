@@ -3528,8 +3528,7 @@ WindowType
 eWindowType_popup
 &
 &
-!
-IsSmallPopup
+HasRemoteContent
 (
 )
 )
