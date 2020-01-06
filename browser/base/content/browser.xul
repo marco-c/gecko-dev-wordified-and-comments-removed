@@ -3601,9 +3601,9 @@ oncommand
 "
 RecentBookmarksMenuUI
 .
-hideRecentlyBookmarked
-(
-)
+visible
+=
+false
 ;
 "
 closemenu
@@ -3653,9 +3653,9 @@ oncommand
 "
 RecentBookmarksMenuUI
 .
-showRecentlyBookmarked
-(
-)
+visible
+=
+true
 ;
 "
 closemenu
