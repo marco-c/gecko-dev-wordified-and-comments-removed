@@ -2721,8 +2721,11 @@ LdrUnloadDll
 )
 &
 &
-TestHook
+MaybeTestHook
 (
+IsWin8OrLater
+(
+)
 TestLdrResolveDelayLoadedAPI
 "
 ntdll

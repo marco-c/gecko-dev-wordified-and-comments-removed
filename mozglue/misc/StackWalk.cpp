@@ -759,6 +759,15 @@ StackWalk_windows
 h
 "
 #
+include
+"
+mozilla
+/
+WindowsVersion
+.
+h
+"
+#
 ifdef
 MOZ_STATIC_JS
 #
@@ -1430,6 +1439,13 @@ void
 stub_LdrUnloadDll
 )
 ;
+if
+(
+IsWin8OrLater
+(
+)
+)
+{
 NtDllInterceptor
 .
 AddHook
@@ -1453,6 +1469,7 @@ void
 stub_LdrResolveDelayLoadedAPI
 )
 ;
+}
 #
 endif
 InitializeDbgHelpCriticalSection
