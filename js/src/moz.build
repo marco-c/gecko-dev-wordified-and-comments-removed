@@ -2772,6 +2772,13 @@ cpp
 '
 wasm
 /
+WasmProcess
+.
+cpp
+'
+'
+wasm
+/
 WasmSignalHandlers
 .
 cpp

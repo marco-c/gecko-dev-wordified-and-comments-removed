@@ -36,6 +36,15 @@ include
 "
 wasm
 /
+WasmProcess
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmTable
 .
 h
