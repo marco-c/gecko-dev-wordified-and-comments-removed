@@ -1134,6 +1134,8 @@ ifdef
 DEBUG
 uint64_t
 mVersion
+=
+0
 ;
 #
 endif
