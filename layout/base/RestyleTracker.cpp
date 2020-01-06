@@ -455,6 +455,11 @@ StyleContext
 )
 -
 >
+AsGecko
+(
+)
+-
+>
 LogStyleContextTree
 (
 LoggingDepth
