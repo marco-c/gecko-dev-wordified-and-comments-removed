@@ -9893,6 +9893,12 @@ x86
 '
 ia64
 '
+'
+mips32
+'
+'
+mips64
+'
 )
 or
 target
