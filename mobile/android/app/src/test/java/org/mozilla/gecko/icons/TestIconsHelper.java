@@ -157,6 +157,7 @@ assertEquals
 "
 about
 :
+firefox
 "
 IconsHelper
 .
@@ -165,6 +166,7 @@ guessDefaultFaviconURL
 "
 about
 :
+firefox
 "
 )
 )
