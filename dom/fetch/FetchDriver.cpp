@@ -364,6 +364,10 @@ false
 #
 endif
 {
+AssertIsOnMainThread
+(
+)
+;
 MOZ_ASSERT
 (
 aRequest
@@ -388,6 +392,10 @@ FetchDriver
 (
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 MOZ_ASSERT
 (
 mResponseAvailableCalled
@@ -4007,7 +4015,7 @@ CheckListenerChain
 )
 {
 return
-NS_ERROR_NO_INTERFACE
+NS_OK
 ;
 }
 NS_IMETHODIMP
