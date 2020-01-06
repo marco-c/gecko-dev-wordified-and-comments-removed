@@ -52,7 +52,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 StripSpaces
 (

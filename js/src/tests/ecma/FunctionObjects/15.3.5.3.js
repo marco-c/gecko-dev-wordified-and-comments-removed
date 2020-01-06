@@ -54,7 +54,6 @@ arguments
 new
 TestCase
 (
-SECTION
 "
 var
 MYFUNCTION

@@ -96,7 +96,6 @@ call
 new
 TestCase
 (
-SECTION
 "
 var
 o

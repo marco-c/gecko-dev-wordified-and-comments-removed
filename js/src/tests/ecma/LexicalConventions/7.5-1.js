@@ -36,7 +36,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 123
@@ -60,7 +59,6 @@ var
 new
 TestCase
 (
-SECTION
 "
 var
 _123

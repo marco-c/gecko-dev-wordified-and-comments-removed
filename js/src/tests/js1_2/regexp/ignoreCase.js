@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 /
 xyz
@@ -81,7 +80,6 @@ ignoreCase
 new
 TestCase
 (
-SECTION
 "
 /
 xyz
@@ -100,7 +98,6 @@ ignoreCase
 new
 TestCase
 (
-SECTION
 "
 '
 ABC
@@ -161,7 +158,6 @@ ig
 new
 TestCase
 (
-SECTION
 "
 '
 ABC
@@ -216,7 +212,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 ABC
@@ -281,7 +276,6 @@ ig
 new
 TestCase
 (
-SECTION
 "
 '
 ABC
@@ -343,7 +337,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 ABC
@@ -396,7 +389,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -433,7 +425,6 @@ ignoreCase
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -464,7 +455,6 @@ ignoreCase
 new
 TestCase
 (
-SECTION
 "
 '
 ABC
@@ -537,7 +527,6 @@ ig
 new
 TestCase
 (
-SECTION
 "
 '
 ABC
@@ -604,7 +593,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 ABC
@@ -681,7 +669,6 @@ ig
 new
 TestCase
 (
-SECTION
 "
 '
 ABC
@@ -755,7 +742,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 ABC

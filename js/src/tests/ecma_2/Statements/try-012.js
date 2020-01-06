@@ -210,7 +210,6 @@ PASS
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -235,7 +234,6 @@ innerFinally
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -260,7 +258,6 @@ outerCatch
 new
 TestCase
 (
-SECTION
 "
 eval
 (

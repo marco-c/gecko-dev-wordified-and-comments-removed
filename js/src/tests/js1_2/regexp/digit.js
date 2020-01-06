@@ -117,7 +117,6 @@ digits
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -170,7 +169,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -223,7 +221,6 @@ D
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -266,7 +263,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -316,7 +312,6 @@ digits
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -376,7 +371,6 @@ non_digits
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -464,7 +458,6 @@ cd
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -518,7 +511,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -596,7 +588,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -650,7 +641,6 @@ D
 new
 TestCase
 (
-SECTION
 "
 '
 "

@@ -104,7 +104,6 @@ finally
 new
 TestCase
 (
-SECTION
 "
 eval
 (

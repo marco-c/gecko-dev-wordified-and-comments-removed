@@ -135,7 +135,6 @@ true
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -147,7 +146,6 @@ match1
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -159,7 +157,6 @@ match2
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -234,7 +231,6 @@ break
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -246,7 +242,6 @@ match1
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -258,7 +253,6 @@ match2
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -270,7 +264,6 @@ match3
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -282,7 +275,6 @@ match4
 new
 TestCase
 (
-SECTION
 '
 switch
 statement

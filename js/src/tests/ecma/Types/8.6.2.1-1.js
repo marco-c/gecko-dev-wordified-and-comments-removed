@@ -39,7 +39,6 @@ Value
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -81,7 +80,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ
@@ -129,7 +127,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 var
 OBJ

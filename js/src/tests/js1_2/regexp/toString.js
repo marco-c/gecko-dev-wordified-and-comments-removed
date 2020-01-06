@@ -68,7 +68,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 var
 re
@@ -109,7 +108,6 @@ re
 new
 TestCase
 (
-SECTION
 "
 re
 =
@@ -147,7 +145,6 @@ gi
 new
 TestCase
 (
-SECTION
 "
 re
 =
@@ -185,7 +182,6 @@ ig
 new
 TestCase
 (
-SECTION
 "
 re
 =

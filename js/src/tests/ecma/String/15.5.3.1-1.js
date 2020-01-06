@@ -44,7 +44,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -63,7 +62,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 str

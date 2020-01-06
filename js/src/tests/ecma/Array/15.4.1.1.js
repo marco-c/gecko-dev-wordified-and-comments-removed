@@ -43,7 +43,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 typeof
 Array
@@ -66,7 +65,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -97,7 +95,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -166,7 +163,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -193,7 +189,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -237,7 +232,6 @@ arr
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -281,7 +275,6 @@ arr
 new
 TestCase
 (
-SECTION
 "
 var
 arr

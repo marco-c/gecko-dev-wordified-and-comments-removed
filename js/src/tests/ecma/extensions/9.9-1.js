@@ -31,7 +31,6 @@ ToObject
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -58,7 +57,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -85,7 +83,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -112,7 +109,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -141,7 +137,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -168,7 +163,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -197,7 +191,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -228,7 +221,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -259,7 +251,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -290,7 +281,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -321,7 +311,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -352,7 +341,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -385,7 +373,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -414,7 +401,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object
@@ -479,7 +465,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -522,7 +507,6 @@ __proto__
 new
 TestCase
 (
-SECTION
 "
 (
 Object

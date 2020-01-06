@@ -53,7 +53,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -79,7 +78,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -129,7 +127,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 Date
 .

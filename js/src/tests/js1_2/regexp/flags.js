@@ -69,7 +69,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 aBCdEfGHijKLmno
@@ -110,7 +109,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 aBCdEfGHijKLmno
@@ -163,7 +161,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 xa
@@ -231,7 +228,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 xa
@@ -311,7 +307,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 xa
@@ -379,7 +374,6 @@ gi
 new
 TestCase
 (
-SECTION
 "
 '
 xa
@@ -459,7 +453,6 @@ gi
 new
 TestCase
 (
-SECTION
 "
 '
 xa
@@ -527,7 +520,6 @@ ig
 new
 TestCase
 (
-SECTION
 "
 '
 xa

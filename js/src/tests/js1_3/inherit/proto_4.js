@@ -254,7 +254,6 @@ Engineer
 new
 TestCase
 (
-SECTION
 "
 jim
 =
@@ -278,7 +277,6 @@ specialty
 new
 TestCase
 (
-SECTION
 "
 terry
 =
@@ -302,7 +300,6 @@ specialty
 new
 TestCase
 (
-SECTION
 "
 sean
 =
@@ -326,7 +323,6 @@ specialty
 new
 TestCase
 (
-SECTION
 "
 wally
 =
@@ -350,7 +346,6 @@ specialty
 new
 TestCase
 (
-SECTION
 "
 furry
 =
@@ -374,7 +369,6 @@ specialty
 new
 TestCase
 (
-SECTION
 "
 pat
 =
@@ -398,7 +392,6 @@ specialty
 new
 TestCase
 (
-SECTION
 "
 leslie
 =
@@ -422,7 +415,6 @@ specialty
 new
 TestCase
 (
-SECTION
 "
 bubbles
 =
@@ -446,7 +438,6 @@ specialty
 new
 TestCase
 (
-SECTION
 "
 chris
 =

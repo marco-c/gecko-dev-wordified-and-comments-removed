@@ -69,7 +69,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 try
 =

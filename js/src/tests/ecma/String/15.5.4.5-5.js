@@ -77,7 +77,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -139,7 +138,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -201,7 +199,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -263,7 +260,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -325,7 +321,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -389,7 +384,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -455,7 +449,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -517,7 +510,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -579,7 +571,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -621,7 +612,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -663,7 +653,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -707,7 +696,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -751,7 +739,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -797,7 +784,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -859,7 +845,6 @@ j
 new
 TestCase
 (
-SECTION
 "
 TEST_STRING
 .

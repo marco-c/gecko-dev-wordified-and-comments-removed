@@ -98,7 +98,6 @@ actual
 new
 TestCase
 (
-SECTION
 "
 var
 enum

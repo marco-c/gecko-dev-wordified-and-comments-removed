@@ -67,7 +67,6 @@ p
 new
 TestCase
 (
-SECTION
 "
 delete
 all

@@ -42,7 +42,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -76,7 +75,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 delete
 (

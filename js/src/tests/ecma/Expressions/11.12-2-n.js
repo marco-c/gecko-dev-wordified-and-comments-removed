@@ -57,7 +57,6 @@ MYVAR
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR

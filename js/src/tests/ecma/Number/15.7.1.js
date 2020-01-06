@@ -42,7 +42,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -57,7 +56,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -78,7 +76,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -95,7 +92,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -110,7 +106,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -133,7 +128,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -150,7 +144,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -167,7 +160,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -187,7 +179,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -208,7 +199,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -231,7 +221,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -254,7 +243,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -273,7 +261,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 Number
 (
@@ -294,7 +281,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 Number
 (

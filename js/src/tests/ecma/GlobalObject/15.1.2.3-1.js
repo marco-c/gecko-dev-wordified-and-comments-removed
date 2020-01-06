@@ -43,7 +43,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 .
@@ -58,7 +57,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 .
@@ -90,7 +88,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 MYPROPS
@@ -147,7 +144,6 @@ MYPROPS
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -164,28 +160,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
-"
-parseFloat
-(
-'
-'
-)
-"
-Number
-.
-NaN
-parseFloat
-(
-'
-'
-)
-)
-;
-new
-TestCase
-(
-SECTION
 "
 parseFloat
 (
@@ -206,7 +180,26 @@ parseFloat
 new
 TestCase
 (
-SECTION
+"
+parseFloat
+(
+'
+'
+)
+"
+Number
+.
+NaN
+parseFloat
+(
+'
+'
+)
+)
+;
+new
+TestCase
+(
 "
 parseFloat
 (
@@ -225,7 +218,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -244,7 +236,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -267,7 +258,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -288,7 +278,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -309,7 +298,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -330,7 +318,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -347,7 +334,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -371,7 +357,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -395,7 +380,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -419,7 +403,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -439,7 +422,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -460,7 +442,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -484,7 +465,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -507,7 +487,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -528,7 +507,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -552,7 +530,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -575,7 +552,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -596,7 +572,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -620,7 +595,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -643,7 +617,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -664,7 +637,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -688,7 +660,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -711,7 +682,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -732,7 +702,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -756,7 +725,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -779,7 +747,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -800,7 +767,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -824,7 +790,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -847,7 +812,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -868,7 +832,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -892,7 +855,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -915,7 +877,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -936,7 +897,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -960,7 +920,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -983,7 +942,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1004,7 +962,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1028,7 +985,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1051,7 +1007,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1072,7 +1027,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1096,7 +1050,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1119,7 +1072,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1146,7 +1098,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1176,7 +1127,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1205,7 +1155,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1228,7 +1177,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1254,7 +1202,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1279,7 +1226,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1304,7 +1250,6 @@ e1
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1332,7 +1277,6 @@ e1
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1359,7 +1303,6 @@ e1
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1388,7 +1331,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1420,7 +1362,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1451,7 +1392,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1481,7 +1421,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1514,7 +1453,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1546,7 +1484,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1571,7 +1508,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1598,7 +1534,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1627,7 +1562,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1650,7 +1584,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1675,7 +1608,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1701,7 +1633,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1728,7 +1659,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1757,7 +1687,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1787,7 +1716,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1816,7 +1744,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1847,7 +1774,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1879,7 +1805,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1900,7 +1825,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1923,7 +1847,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1947,7 +1870,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1972,7 +1894,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -1999,7 +1920,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2027,7 +1947,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2054,7 +1973,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2083,7 +2001,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2113,7 +2030,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2130,7 +2046,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2150,7 +2065,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2167,7 +2081,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2187,7 +2100,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2204,7 +2116,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2224,7 +2135,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2241,7 +2151,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2261,7 +2170,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2278,7 +2186,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2298,7 +2205,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2315,7 +2221,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2335,7 +2240,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2352,7 +2256,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2372,7 +2275,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2389,7 +2291,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2409,7 +2310,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2426,7 +2326,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2446,7 +2345,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2463,7 +2361,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2483,7 +2380,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2506,7 +2402,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2532,7 +2427,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2551,7 +2445,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2573,7 +2466,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2594,7 +2486,6 @@ e1
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2618,7 +2509,6 @@ e1
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2643,7 +2533,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2671,7 +2560,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2697,7 +2585,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2726,7 +2613,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2747,7 +2633,6 @@ E1
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2771,7 +2656,6 @@ E1
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2796,7 +2680,6 @@ E
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2824,7 +2707,6 @@ E
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2850,7 +2732,6 @@ E
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2879,7 +2760,6 @@ E
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2900,7 +2780,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2925,7 +2804,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2944,7 +2822,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2966,7 +2843,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -2989,7 +2865,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3015,7 +2890,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3040,7 +2914,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3068,7 +2941,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3085,7 +2957,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3105,7 +2976,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3126,7 +2996,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3150,7 +3019,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3173,7 +3041,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3199,7 +3066,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3220,7 +3086,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3241,7 +3106,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3262,7 +3126,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3283,7 +3146,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3304,7 +3166,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3325,7 +3186,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3346,7 +3206,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3367,7 +3226,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3388,7 +3246,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3409,7 +3266,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3430,7 +3286,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3451,7 +3306,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3472,7 +3326,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3493,7 +3346,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3514,7 +3366,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3535,7 +3386,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3556,7 +3406,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3577,7 +3426,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3598,7 +3446,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3619,7 +3466,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3640,7 +3486,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3661,7 +3506,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3682,7 +3526,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3703,7 +3546,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3724,7 +3566,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3745,7 +3586,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3766,7 +3606,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3787,7 +3626,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3808,7 +3646,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3829,7 +3666,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3850,7 +3686,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3871,7 +3706,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3892,7 +3726,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3913,7 +3746,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3934,7 +3766,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3955,7 +3786,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3976,7 +3806,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -3997,7 +3826,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4018,7 +3846,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4039,7 +3866,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4060,7 +3886,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4081,7 +3906,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4102,7 +3926,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4123,7 +3946,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4144,7 +3966,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4161,7 +3982,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4178,7 +3998,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4195,7 +4014,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4212,7 +4030,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4229,7 +4046,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4246,7 +4062,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4263,7 +4078,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4280,7 +4094,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4297,7 +4110,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4314,7 +4126,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4331,7 +4142,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4348,7 +4158,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4365,7 +4174,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4382,7 +4190,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4399,7 +4206,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4416,7 +4222,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4433,7 +4238,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4450,7 +4254,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4467,7 +4270,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4484,7 +4286,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4501,7 +4302,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4518,7 +4318,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4535,7 +4334,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4552,7 +4350,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4569,7 +4366,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4586,7 +4382,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4603,7 +4398,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4620,7 +4414,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4637,7 +4430,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4654,7 +4446,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4671,7 +4462,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4688,7 +4478,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4705,7 +4494,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4722,7 +4510,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4739,7 +4526,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4756,7 +4542,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4773,7 +4558,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4790,7 +4574,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4807,7 +4590,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4824,7 +4606,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4841,7 +4622,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4858,7 +4638,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4875,7 +4654,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4892,7 +4670,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4913,7 +4690,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4934,7 +4710,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4955,7 +4730,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4976,7 +4750,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -4997,7 +4770,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5018,7 +4790,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5039,7 +4810,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5060,7 +4830,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5081,7 +4850,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5102,7 +4870,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5123,7 +4890,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5144,7 +4910,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5165,7 +4930,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5182,7 +4946,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5199,7 +4962,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5216,7 +4978,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5233,7 +4994,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5250,7 +5010,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5267,7 +5026,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5284,7 +5042,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5301,7 +5058,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5318,7 +5074,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5335,7 +5090,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5352,7 +5106,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5369,7 +5122,6 @@ parseFloat
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5392,7 +5144,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5415,7 +5166,6 @@ LN2
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5438,7 +5188,6 @@ LN10
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5461,7 +5210,6 @@ LOG2E
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5484,7 +5232,6 @@ LOG10E
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5507,7 +5254,6 @@ SQRT2
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5530,7 +5276,6 @@ SQRT1_2
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5559,7 +5304,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5588,7 +5332,6 @@ LN2
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5617,7 +5360,6 @@ LN10
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5646,7 +5388,6 @@ LOG2E
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5675,7 +5416,6 @@ LOG10E
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (
@@ -5704,7 +5444,6 @@ SQRT2
 new
 TestCase
 (
-SECTION
 "
 parseFloat
 (

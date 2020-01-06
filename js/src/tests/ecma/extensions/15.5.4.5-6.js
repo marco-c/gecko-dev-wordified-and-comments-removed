@@ -44,7 +44,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -168,7 +167,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 var
 obj
@@ -292,7 +290,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 var
 obj

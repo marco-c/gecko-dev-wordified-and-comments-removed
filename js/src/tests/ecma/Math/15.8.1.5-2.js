@@ -42,7 +42,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 delete
 Math
@@ -74,7 +73,6 @@ LOG10E
 new
 TestCase
 (
-SECTION
 "
 delete
 Math

@@ -110,7 +110,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -160,7 +159,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -210,7 +208,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -260,7 +257,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -309,7 +305,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -358,7 +353,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -408,7 +402,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -458,7 +451,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -508,7 +500,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -558,7 +549,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -608,7 +598,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -658,7 +647,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -709,7 +697,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -760,7 +747,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -810,7 +796,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -860,7 +845,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -910,7 +894,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -960,7 +943,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -1010,7 +992,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -1061,7 +1042,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -1112,7 +1092,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -1162,7 +1141,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -1212,7 +1190,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (
@@ -1263,7 +1240,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 Date
 (

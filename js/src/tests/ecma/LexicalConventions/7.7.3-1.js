@@ -51,7 +51,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 0x12345678
 "
@@ -62,7 +61,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x80000000
 "
@@ -73,7 +71,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0xffffffff
 "
@@ -84,7 +81,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x100000000
 "
@@ -95,7 +91,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 077777777777777777
 "
@@ -106,7 +101,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 077777777777777776
 "
@@ -117,7 +111,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1fffffffffffff
 "
@@ -128,7 +121,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20000000000000
 "
@@ -139,7 +131,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20123456789abc
 "
@@ -150,7 +141,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20123456789abd
 "
@@ -161,7 +151,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20123456789abe
 "
@@ -172,7 +161,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x20123456789abf
 "
@@ -183,7 +171,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000080
 "
@@ -194,7 +181,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000081
 "
@@ -205,7 +191,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000100
 "
@@ -216,7 +201,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x100000000000017f
 "
@@ -227,7 +211,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000180
 "
@@ -238,7 +221,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000181
 "
@@ -249,7 +231,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x10000000000001f0
 "
@@ -260,7 +241,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000200
 "
@@ -271,7 +251,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x100000000000027f
 "
@@ -282,7 +261,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000280
 "
@@ -293,7 +271,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000281
 "
@@ -304,7 +281,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x10000000000002ff
 "
@@ -315,7 +291,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x1000000000000300
 "
@@ -326,7 +301,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 0x10000000000000000
 "

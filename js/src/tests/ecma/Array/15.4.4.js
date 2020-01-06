@@ -41,7 +41,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -60,7 +59,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 typeof
 Array
@@ -79,7 +77,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Array
 .

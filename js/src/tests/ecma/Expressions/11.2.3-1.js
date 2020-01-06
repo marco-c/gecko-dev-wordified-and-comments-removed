@@ -44,7 +44,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 OBJECT
 .
@@ -65,7 +64,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -104,7 +102,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -137,7 +134,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new

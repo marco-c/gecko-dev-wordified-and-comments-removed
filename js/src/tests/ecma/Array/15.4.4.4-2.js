@@ -45,7 +45,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -68,7 +67,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -145,7 +143,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 A
 [

@@ -42,7 +42,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -65,7 +64,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -95,7 +93,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -127,7 +124,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -163,7 +159,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -215,7 +210,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -263,7 +257,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -365,7 +358,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 MYARR
 .

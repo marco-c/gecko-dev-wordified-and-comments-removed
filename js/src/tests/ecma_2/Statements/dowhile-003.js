@@ -174,7 +174,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 loop
 iterations
@@ -188,7 +187,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 object
 .

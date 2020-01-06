@@ -42,7 +42,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -63,7 +62,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -88,7 +86,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -109,7 +106,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -134,7 +130,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -161,7 +156,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -186,7 +180,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -215,7 +208,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -247,7 +239,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -282,7 +273,6 @@ SQRT1_2
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -320,7 +310,6 @@ SQRT1_2
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -347,7 +336,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -376,7 +364,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -397,7 +384,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -421,7 +407,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -449,7 +434,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -474,7 +458,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -502,7 +485,6 @@ asin
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -532,7 +514,6 @@ SQRT1_2
 new
 TestCase
 (
-SECTION
 "
 Math
 .

@@ -127,7 +127,6 @@ false
 new
 TestCase
 (
-SECTION
 string
 expect
 result

@@ -37,7 +37,6 @@ Constructor
 new
 TestCase
 (
-SECTION
 "
 String
 .

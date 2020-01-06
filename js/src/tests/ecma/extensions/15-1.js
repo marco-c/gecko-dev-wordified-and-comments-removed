@@ -36,7 +36,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Function
 .
@@ -65,7 +64,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -94,7 +92,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -123,7 +120,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .
@@ -152,7 +148,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -181,7 +176,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -210,7 +204,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 TestCase
 .
@@ -239,7 +232,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .

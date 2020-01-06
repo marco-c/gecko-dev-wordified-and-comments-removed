@@ -68,7 +68,6 @@ TIME_2000
 new
 TestCase
 (
-SECTION
 "
 MYDATE
 .

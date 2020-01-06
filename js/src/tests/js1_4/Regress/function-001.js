@@ -81,7 +81,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -130,7 +129,6 @@ f1
 new
 TestCase
 (
-SECTION
 "
 typeof
 f1
@@ -153,7 +151,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 f2
@@ -168,7 +165,6 @@ f2
 new
 TestCase
 (
-SECTION
 "
 typeof
 f2

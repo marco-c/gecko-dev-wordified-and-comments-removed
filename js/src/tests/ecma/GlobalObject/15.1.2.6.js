@@ -41,7 +41,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 isNaN
 .
@@ -56,7 +55,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 MYPROPS
@@ -113,7 +111,6 @@ MYPROPS
 new
 TestCase
 (
-SECTION
 "
 isNaN
 .
@@ -145,7 +142,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -160,7 +156,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -177,7 +172,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -196,7 +190,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -213,7 +206,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -230,7 +222,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -249,7 +240,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -266,7 +256,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -283,7 +272,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -300,7 +288,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -317,7 +304,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -334,7 +320,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -351,7 +336,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -368,7 +352,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -385,7 +368,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -402,7 +384,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -419,7 +400,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -440,7 +420,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -461,7 +440,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -482,7 +460,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -503,7 +480,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -524,7 +500,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -545,7 +520,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -566,7 +540,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -587,7 +560,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -608,7 +580,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -629,7 +600,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -646,7 +616,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -663,7 +632,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -680,7 +648,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -697,7 +664,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -718,7 +684,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -739,7 +704,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -760,7 +724,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -781,7 +744,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -798,7 +760,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -819,7 +780,6 @@ isNaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -840,7 +800,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -861,7 +820,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -882,7 +840,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -903,7 +860,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -924,7 +880,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -941,7 +896,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -958,7 +912,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (
@@ -979,7 +932,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 isNaN
 (

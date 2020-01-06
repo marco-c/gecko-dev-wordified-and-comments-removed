@@ -140,7 +140,6 @@ finally
 new
 TestCase
 (
-SECTION
 "
 new
 MyObject

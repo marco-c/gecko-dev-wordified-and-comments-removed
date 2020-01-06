@@ -44,7 +44,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -67,7 +66,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -91,7 +89,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -121,7 +118,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -157,7 +153,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -193,7 +188,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -244,7 +238,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 (
 new

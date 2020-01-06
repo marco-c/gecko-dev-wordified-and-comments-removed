@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 ^
@@ -106,7 +105,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -147,7 +145,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -186,7 +183,6 @@ ghi
 new
 TestCase
 (
-SECTION
 "
 '
 eeeefghi
@@ -227,7 +223,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 abcdeeeefghi
@@ -268,7 +263,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -311,7 +305,6 @@ de
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -354,7 +347,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 abcewirjskjdabciewjsdf
@@ -410,7 +402,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -453,7 +444,6 @@ def
 new
 TestCase
 (
-SECTION
 "
 '
 abcdeeeefghi
@@ -498,7 +488,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 abcdeeeefghi
@@ -543,7 +532,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 abcdeeeefghi
@@ -590,7 +578,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -637,7 +624,6 @@ fgh
 new
 TestCase
 (
-SECTION
 "
 '
 netscape
@@ -690,7 +676,6 @@ ca
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghi
@@ -739,7 +724,6 @@ fgh
 new
 TestCase
 (
-SECTION
 "
 '
 netscape
@@ -794,7 +778,6 @@ ca
 new
 TestCase
 (
-SECTION
 "
 '
 this
@@ -861,7 +844,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 '
 today
@@ -925,7 +907,6 @@ now
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -977,7 +958,6 @@ dog
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1029,7 +1009,6 @@ dog
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1082,7 +1061,6 @@ fb
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1135,7 +1113,6 @@ nb
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1188,7 +1165,6 @@ rb
 new
 TestCase
 (
-SECTION
 "
 '
 xa
@@ -1265,7 +1241,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1324,7 +1299,6 @@ Sb
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1389,7 +1363,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -1454,7 +1427,6 @@ v
 new
 TestCase
 (
-SECTION
 "
 '
 %
@@ -1499,7 +1471,6 @@ w
 new
 TestCase
 (
-SECTION
 "
 '
 azx
@@ -1552,7 +1523,6 @@ W
 new
 TestCase
 (
-SECTION
 "
 '
 test
@@ -1605,7 +1575,6 @@ es
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -1650,7 +1619,6 @@ x64
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef

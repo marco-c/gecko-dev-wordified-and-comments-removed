@@ -46,7 +46,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 valof
 =
@@ -112,7 +111,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 valof
 =

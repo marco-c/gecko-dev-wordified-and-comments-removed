@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 abcde
@@ -111,7 +110,6 @@ de
 new
 TestCase
 (
-SECTION
 "
 '
 line
@@ -169,7 +167,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 this
@@ -233,7 +230,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 '
 this
@@ -306,7 +302,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 .
@@ -364,7 +359,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefghijklmnopqrstuvwxyz
@@ -413,7 +407,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -462,7 +455,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 1234567890
@@ -550,7 +542,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 |
@@ -650,7 +641,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 |

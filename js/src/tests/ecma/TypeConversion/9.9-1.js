@@ -31,7 +31,6 @@ ToObject
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -58,7 +57,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -79,7 +77,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -106,7 +103,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -127,7 +123,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -154,7 +149,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -175,7 +169,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -205,7 +198,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -228,7 +220,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -255,7 +246,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -276,7 +266,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -306,7 +295,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -329,7 +317,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -362,7 +349,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -387,7 +373,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -420,7 +405,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -445,7 +429,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -478,7 +461,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -503,7 +485,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -536,7 +517,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -561,7 +541,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -594,7 +573,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -619,7 +597,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -655,7 +632,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -684,7 +660,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -714,7 +689,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -739,7 +713,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -811,7 +784,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -872,7 +844,6 @@ f
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -924,7 +895,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -963,7 +933,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 Object
 (
@@ -1001,7 +970,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -1035,7 +1003,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 (
 Object

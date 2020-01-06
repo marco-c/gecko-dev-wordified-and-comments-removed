@@ -150,7 +150,6 @@ pass
 new
 TestCase
 (
-SECTION
 "
 do
 while
@@ -175,7 +174,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 breaking
 out
@@ -197,7 +195,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 breaking
 out

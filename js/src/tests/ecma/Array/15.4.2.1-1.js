@@ -52,7 +52,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -77,7 +76,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -110,7 +108,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -181,7 +178,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -210,7 +206,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -256,7 +251,6 @@ arr
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -302,7 +296,6 @@ arr
 new
 TestCase
 (
-SECTION
 "
 var
 arr

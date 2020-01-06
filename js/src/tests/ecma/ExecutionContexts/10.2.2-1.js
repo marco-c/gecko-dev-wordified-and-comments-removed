@@ -49,7 +49,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 this
 +
@@ -113,7 +112,6 @@ i
 new
 TestCase
 (
-SECTION
 GLOBAL_PROPERTIES
 [
 i
@@ -170,7 +168,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -197,7 +194,6 @@ THIS
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -218,7 +214,6 @@ RESULT
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -245,7 +240,6 @@ THIS
 new
 TestCase
 (
-SECTION
 "
 eval
 (

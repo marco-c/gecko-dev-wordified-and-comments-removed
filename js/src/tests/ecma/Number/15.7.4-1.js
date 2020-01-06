@@ -35,7 +35,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -58,7 +57,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -81,7 +79,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Number
 .

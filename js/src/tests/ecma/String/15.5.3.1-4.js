@@ -44,7 +44,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 delete
 (

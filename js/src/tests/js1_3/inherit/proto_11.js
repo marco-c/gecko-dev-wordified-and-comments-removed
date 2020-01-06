@@ -269,7 +269,6 @@ indy
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -284,7 +283,6 @@ id
 new
 TestCase
 (
-SECTION
 "
 terry
 .
@@ -299,7 +297,6 @@ id
 new
 TestCase
 (
-SECTION
 "
 les
 .

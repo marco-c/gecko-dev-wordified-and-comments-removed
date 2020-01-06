@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 adddb
@@ -97,7 +96,6 @@ XX
 new
 TestCase
 (
-SECTION
 "
 '
 adddb
@@ -134,7 +132,6 @@ XX
 new
 TestCase
 (
-SECTION
 "
 '
 34
@@ -203,7 +200,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 34
@@ -269,7 +265,6 @@ XX
 new
 TestCase
 (
-SECTION
 "
 '
 original
@@ -308,7 +303,6 @@ XX
 new
 TestCase
 (
-SECTION
 "
 '
 qwe
@@ -445,7 +439,6 @@ lmn
 new
 TestCase
 (
-SECTION
 "
 (
 stringA
@@ -490,7 +483,6 @@ aa
 new
 TestCase
 (
-SECTION
 "
 (
 stringA
@@ -537,7 +529,6 @@ AA
 new
 TestCase
 (
-SECTION
 "
 (
 stringA
@@ -584,7 +575,6 @@ AA
 new
 TestCase
 (
-SECTION
 "
 (
 stringA
@@ -631,7 +621,6 @@ AA
 new
 TestCase
 (
-SECTION
 "
 (
 stringA
@@ -678,7 +667,6 @@ AA
 new
 TestCase
 (
-SECTION
 "
 (
 stringA
@@ -725,7 +713,6 @@ AA
 new
 TestCase
 (
-SECTION
 "
 (
 stringC
@@ -768,7 +755,6 @@ AA
 new
 TestCase
 (
-SECTION
 "
 (
 stringC
@@ -809,7 +795,6 @@ AA
 new
 TestCase
 (
-SECTION
 "
 (
 stringC
@@ -852,7 +837,6 @@ AA
 new
 TestCase
 (
-SECTION
 "
 (
 stringC

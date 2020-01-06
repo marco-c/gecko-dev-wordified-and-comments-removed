@@ -38,7 +38,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 with
 (
@@ -78,7 +77,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -128,7 +126,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -174,7 +171,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -222,7 +218,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -272,7 +267,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -326,7 +320,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB

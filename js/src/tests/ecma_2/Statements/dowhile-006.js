@@ -220,7 +220,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 hit
 code
@@ -250,7 +249,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 hit
 code

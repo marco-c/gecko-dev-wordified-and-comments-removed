@@ -191,7 +191,6 @@ break
 new
 TestCase
 (
-SECTION
 "
 (
 "

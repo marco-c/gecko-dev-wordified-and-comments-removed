@@ -44,7 +44,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 tostr
@@ -113,7 +112,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 tostr
@@ -185,7 +183,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 tostr
@@ -261,7 +258,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 tostr

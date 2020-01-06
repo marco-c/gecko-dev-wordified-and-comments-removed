@@ -46,7 +46,6 @@ continue
 new
 TestCase
 (
-SECTION
 "
 continue
 "

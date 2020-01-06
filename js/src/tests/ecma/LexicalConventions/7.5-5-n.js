@@ -45,7 +45,6 @@ var
 new
 TestCase
 (
-SECTION
 "
 var
 3abc

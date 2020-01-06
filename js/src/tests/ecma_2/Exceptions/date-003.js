@@ -103,7 +103,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 OBJ
 =

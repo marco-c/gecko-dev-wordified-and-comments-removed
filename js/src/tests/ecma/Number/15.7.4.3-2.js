@@ -38,7 +38,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 v
 =

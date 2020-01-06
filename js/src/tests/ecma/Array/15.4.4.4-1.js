@@ -57,7 +57,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -80,7 +79,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -145,7 +143,6 @@ A
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -231,7 +228,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -306,7 +302,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -383,7 +378,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -472,7 +466,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -653,7 +646,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -782,7 +774,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -867,7 +858,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -942,7 +932,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 A
 [

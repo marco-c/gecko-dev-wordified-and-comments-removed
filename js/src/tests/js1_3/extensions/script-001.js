@@ -58,7 +58,6 @@ defined
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -113,7 +112,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -136,7 +134,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 .

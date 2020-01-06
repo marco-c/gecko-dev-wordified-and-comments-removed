@@ -49,7 +49,6 @@ TIME_1970
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -80,7 +79,6 @@ getDate
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -154,7 +152,6 @@ msPerDay
 new
 TestCase
 (
-SECTION
 "
 (
 new

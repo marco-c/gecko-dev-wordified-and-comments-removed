@@ -43,7 +43,6 @@ Date
 new
 TestCase
 (
-SECTION
 "
 var
 DATE1
@@ -76,7 +75,6 @@ DATE1
 new
 TestCase
 (
-SECTION
 "
 var
 DATE1
@@ -105,7 +103,6 @@ DATE1
 new
 TestCase
 (
-SECTION
 "
 var
 DATE1
@@ -142,7 +139,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 var
 DATE1
@@ -173,7 +169,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 DATE1
@@ -212,7 +207,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 DATE1
@@ -260,7 +254,6 @@ DATE1
 new
 TestCase
 (
-SECTION
 "
 MYOB1
 =
@@ -297,7 +290,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 MYOB1
 =
@@ -326,7 +318,6 @@ MYOB1
 new
 TestCase
 (
-SECTION
 "
 MYOB1
 =

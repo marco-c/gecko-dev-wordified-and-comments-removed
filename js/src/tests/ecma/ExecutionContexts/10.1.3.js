@@ -49,7 +49,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 function
 t
@@ -129,7 +128,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 var
 t
@@ -173,7 +171,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 function
 t1
@@ -222,7 +219,6 @@ t1
 new
 TestCase
 (
-SECTION
 "
 function
 t1
@@ -269,7 +265,6 @@ t1
 new
 TestCase
 (
-SECTION
 "
 function
 t1
@@ -315,7 +310,6 @@ t1
 new
 TestCase
 (
-SECTION
 "
 function
 t1
@@ -366,7 +360,6 @@ t1
 new
 TestCase
 (
-SECTION
 "
 function
 t1
@@ -416,7 +409,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 function
 t1
@@ -466,7 +458,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 function
 t1
@@ -520,7 +511,6 @@ t1
 new
 TestCase
 (
-SECTION
 "
 function
 t1
@@ -574,7 +564,6 @@ t1
 new
 TestCase
 (
-SECTION
 "
 function
 t
@@ -640,7 +629,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 function
 t1
@@ -698,7 +686,6 @@ t1
 new
 TestCase
 (
-SECTION
 "
 function
 t2
@@ -768,7 +755,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 function
 t2
@@ -838,7 +824,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 function
 t2
@@ -925,7 +910,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 function
 t2

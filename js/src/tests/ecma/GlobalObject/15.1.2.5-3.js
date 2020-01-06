@@ -72,7 +72,6 @@ NONHEXCHARCODE
 new
 TestCase
 (
-SECTION
 "
 unescape
 (
@@ -205,7 +204,6 @@ NONHEXCHARCODE
 new
 TestCase
 (
-SECTION
 "
 unescape
 (
@@ -342,7 +340,6 @@ NONHEXCHARCODE
 new
 TestCase
 (
-SECTION
 "
 unescape
 (

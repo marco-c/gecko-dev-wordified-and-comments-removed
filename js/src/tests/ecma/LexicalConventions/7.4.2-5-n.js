@@ -49,7 +49,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 continue

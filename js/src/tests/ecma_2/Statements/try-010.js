@@ -270,7 +270,6 @@ result
 new
 TestCase
 (
-SECTION
 object
 .
 description

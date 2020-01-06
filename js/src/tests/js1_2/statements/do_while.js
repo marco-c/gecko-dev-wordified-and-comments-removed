@@ -92,7 +92,6 @@ done
 new
 TestCase
 (
-SECTION
 "
 do_while
 "

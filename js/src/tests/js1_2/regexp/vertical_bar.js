@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -111,7 +110,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 this
@@ -176,7 +174,6 @@ homework
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -231,7 +228,6 @@ xyz
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -293,7 +289,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 color
@@ -367,7 +362,6 @@ y
 new
 TestCase
 (
-SECTION
 "
 '
 no
@@ -414,7 +408,6 @@ blue
 new
 TestCase
 (
-SECTION
 "
 '
 Hi
@@ -497,7 +490,6 @@ Bobby
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -556,7 +548,6 @@ def
 new
 TestCase
 (
-SECTION
 "
 '
 Hi
@@ -631,7 +622,6 @@ Bobby
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef

@@ -46,7 +46,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 ConvertToString
 .
@@ -69,7 +68,6 @@ this
 new
 TestCase
 (
-SECTION
 "
 ConvertToString
 .
@@ -98,7 +96,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 ConvertToString
 .

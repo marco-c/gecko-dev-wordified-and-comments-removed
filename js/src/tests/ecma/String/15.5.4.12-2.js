@@ -124,7 +124,6 @@ toUpperCase
 new
 TestCase
 (
-SECTION
 "
 isEqual
 "

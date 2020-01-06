@@ -193,7 +193,6 @@ Engineer
 new
 TestCase
 (
-SECTION
 "
 employee
 .
@@ -218,7 +217,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 manager
 .
@@ -243,7 +241,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 workerbee
 .
@@ -268,7 +265,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 salesperson
 .
@@ -293,7 +289,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 engineer
 .

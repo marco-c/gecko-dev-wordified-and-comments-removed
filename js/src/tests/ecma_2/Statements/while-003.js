@@ -250,7 +250,6 @@ break
 new
 TestCase
 (
-SECTION
 "
 verify
 that
@@ -310,7 +309,6 @@ fail
 new
 TestCase
 (
-SECTION
 object
 .
 description

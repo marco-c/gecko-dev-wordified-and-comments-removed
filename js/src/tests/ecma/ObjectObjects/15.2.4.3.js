@@ -185,7 +185,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 Object
 .
@@ -208,7 +207,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 myarray
 =
@@ -244,7 +242,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 myboolean
 =
@@ -280,7 +277,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 myfunction
 =
@@ -316,7 +312,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 myobject
 =
@@ -352,7 +347,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 mymath
 =
@@ -385,7 +379,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 mynumber
 =
@@ -421,7 +414,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 mystring
 =
@@ -457,7 +449,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 mydate
 =

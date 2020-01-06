@@ -120,7 +120,6 @@ finally
 new
 TestCase
 (
-SECTION
 "
 string
 =

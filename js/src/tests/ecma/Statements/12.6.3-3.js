@@ -86,7 +86,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 for
 (

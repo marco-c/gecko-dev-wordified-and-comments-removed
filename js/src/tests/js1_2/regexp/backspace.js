@@ -63,7 +63,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -128,7 +127,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -183,7 +181,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -266,7 +263,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -341,7 +337,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -412,7 +407,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef

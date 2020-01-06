@@ -33,7 +33,6 @@ operator
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR

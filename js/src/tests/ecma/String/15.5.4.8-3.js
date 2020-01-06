@@ -58,7 +58,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -102,7 +101,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -149,7 +147,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -197,7 +194,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -245,7 +241,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -293,7 +288,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -344,7 +338,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -396,7 +389,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -451,7 +443,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -503,7 +494,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -558,7 +548,6 @@ split
 new
 TestCase
 (
-SECTION
 "
 \
 "
@@ -593,7 +582,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 \
 "
@@ -630,7 +618,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 \
 "

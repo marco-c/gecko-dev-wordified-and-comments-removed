@@ -39,7 +39,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 true
 .

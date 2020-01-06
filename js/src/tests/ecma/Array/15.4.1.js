@@ -42,7 +42,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Array
 (
@@ -64,7 +63,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 typeof
 Array
@@ -83,7 +81,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -146,7 +143,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -194,7 +190,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Array
 (
@@ -213,7 +208,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 Array
 (
@@ -244,7 +238,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 typeof
 Array
@@ -269,7 +262,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -338,7 +330,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -392,7 +383,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Array
 (
@@ -417,7 +407,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 typeof
 Array
@@ -438,7 +427,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -503,7 +491,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -561,7 +548,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Array
 (

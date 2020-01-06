@@ -121,7 +121,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Assigning
 Number

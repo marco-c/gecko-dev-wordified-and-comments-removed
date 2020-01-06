@@ -56,7 +56,6 @@ Math
 new
 TestCase
 (
-SECTION
 "
 var
 m

@@ -76,7 +76,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 typeof
 f

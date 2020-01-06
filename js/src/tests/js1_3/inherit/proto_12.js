@@ -298,7 +298,6 @@ goat
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -316,7 +315,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -345,7 +343,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -373,7 +370,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -396,7 +392,6 @@ projects
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -413,7 +408,6 @@ machine
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -430,7 +424,6 @@ hobby
 new
 TestCase
 (
-SECTION
 "
 les
 .

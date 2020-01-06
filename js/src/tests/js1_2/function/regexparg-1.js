@@ -120,7 +120,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 function
 f
@@ -147,7 +146,6 @@ f
 new
 TestCase
 (
-SECTION
 "
 f
 (
@@ -172,7 +170,6 @@ hi
 new
 TestCase
 (
-SECTION
 "
 new
 f
@@ -205,7 +202,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 f
 (
@@ -237,7 +233,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 typeof
 f
@@ -262,7 +257,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -289,7 +283,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 x
 =

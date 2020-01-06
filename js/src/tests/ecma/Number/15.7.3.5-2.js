@@ -42,7 +42,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -68,7 +67,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 delete
 (

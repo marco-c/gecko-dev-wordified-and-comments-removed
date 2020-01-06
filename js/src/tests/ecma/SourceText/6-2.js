@@ -35,7 +35,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -76,7 +75,6 @@ s
 new
 TestCase
 (
-SECTION
 '
 var
 s
@@ -117,7 +115,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -158,7 +155,6 @@ s
 new
 TestCase
 (
-SECTION
 '
 var
 s
@@ -208,7 +204,6 @@ u0027SED
 new
 TestCase
 (
-SECTION
 '
 var
 s
@@ -243,7 +238,6 @@ u0022SED
 new
 TestCase
 (
-SECTION
 '
 var
 s

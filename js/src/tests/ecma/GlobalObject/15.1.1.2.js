@@ -38,7 +38,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Infinity
 "
@@ -51,7 +50,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 this
 .
@@ -68,7 +66,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 typeof
 Infinity

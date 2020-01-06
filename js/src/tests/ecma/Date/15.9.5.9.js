@@ -79,7 +79,6 @@ UTC_JAN_1_2005
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -110,7 +109,6 @@ getUTCMonth
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -176,7 +174,6 @@ leap
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -214,7 +211,6 @@ getUTCMonth
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -260,7 +256,6 @@ getUTCMonth
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -306,7 +301,6 @@ getUTCMonth
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -352,7 +346,6 @@ getUTCMonth
 new
 TestCase
 (
-SECTION
 "
 (
 new

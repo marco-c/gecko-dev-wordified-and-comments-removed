@@ -43,7 +43,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 x

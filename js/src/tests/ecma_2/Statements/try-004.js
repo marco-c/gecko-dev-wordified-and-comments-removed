@@ -129,7 +129,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 eval
 (

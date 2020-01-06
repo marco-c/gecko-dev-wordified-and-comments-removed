@@ -45,7 +45,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -68,7 +67,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -109,7 +107,6 @@ join
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -154,7 +151,6 @@ join
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -245,7 +241,6 @@ join
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -326,7 +321,6 @@ join
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -409,7 +403,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -488,7 +481,6 @@ join
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -586,7 +578,6 @@ v
 new
 TestCase
 (
-SECTION
 "
 var
 TEST_ARRAY
@@ -743,7 +734,6 @@ ARGUMENTS
 new
 TestCase
 (
-SECTION
 "
 TEST_ARRAY
 .
@@ -768,7 +758,6 @@ SEPARATOR
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -852,7 +841,6 @@ join
 new
 TestCase
 (
-SECTION
 "
 var
 OB

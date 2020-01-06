@@ -130,7 +130,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -146,7 +145,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -163,7 +161,6 @@ dept
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -189,7 +186,6 @@ getClass
 new
 TestCase
 (
-SECTION
 "
 pat
 .

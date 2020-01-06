@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 abcddddefg
@@ -108,7 +107,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abcddddefg
@@ -157,7 +155,6 @@ cd
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -208,7 +205,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 xxxxxxx
@@ -275,7 +271,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 '
 1234567890
@@ -350,7 +345,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 1234567890
@@ -431,7 +425,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 xxxxxxx
@@ -497,7 +490,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 '
 xxxxxxyyyyyy
@@ -550,7 +542,6 @@ y
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -613,7 +604,6 @@ bc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -678,7 +668,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 a1b2c3
@@ -719,7 +708,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 a0

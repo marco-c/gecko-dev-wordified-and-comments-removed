@@ -172,7 +172,6 @@ result
 new
 TestCase
 (
-SECTION
 "
 switch
 with

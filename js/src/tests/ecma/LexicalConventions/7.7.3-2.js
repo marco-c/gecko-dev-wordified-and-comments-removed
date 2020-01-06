@@ -51,7 +51,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 9
 "
@@ -62,7 +61,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 09
 "
@@ -73,7 +71,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 099
 "
@@ -84,7 +81,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 077
 "

@@ -58,7 +58,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 Sally
@@ -134,7 +133,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 test123W
@@ -238,7 +236,6 @@ xyz
 new
 TestCase
 (
-SECTION
 "
 '
 number
@@ -350,7 +347,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 '
 See
@@ -400,7 +396,6 @@ simpleSentence
 new
 TestCase
 (
-SECTION
 "
 '
 I
@@ -478,7 +473,6 @@ simpleSentence
 new
 TestCase
 (
-SECTION
 "
 '
 the

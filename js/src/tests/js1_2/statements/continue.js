@@ -97,7 +97,6 @@ j
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -183,7 +182,6 @@ j
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -240,7 +238,6 @@ j
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -333,7 +330,6 @@ i
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -393,7 +389,6 @@ j
 new
 TestCase
 (
-SECTION
 '
 "
 continue
@@ -490,7 +485,6 @@ i
 new
 TestCase
 (
-SECTION
 '
 "
 continue

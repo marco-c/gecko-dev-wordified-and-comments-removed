@@ -49,7 +49,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 var
 props
@@ -102,7 +101,6 @@ props
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -134,7 +132,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 delete
 Array
@@ -151,7 +148,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 delete
 Array

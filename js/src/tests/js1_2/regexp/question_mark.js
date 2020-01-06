@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -111,7 +110,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 abcdef
@@ -162,7 +160,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 pqrstuvw
@@ -213,7 +210,6 @@ pqrst
 new
 TestCase
 (
-SECTION
 "
 '
 abcd
@@ -269,7 +265,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 '
 abcd
@@ -328,7 +323,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 abcd
@@ -379,7 +373,6 @@ c
 new
 TestCase
 (
-SECTION
 "
 '
 abbbbc
@@ -438,7 +431,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 123az789
@@ -505,7 +497,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 '
 123az789
@@ -564,7 +555,6 @@ z
 new
 TestCase
 (
-SECTION
 "
 '
 ?
@@ -661,7 +651,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 test

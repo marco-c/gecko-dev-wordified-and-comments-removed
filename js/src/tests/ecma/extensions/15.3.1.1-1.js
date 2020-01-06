@@ -122,7 +122,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .

@@ -155,7 +155,6 @@ testString
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -295,7 +294,6 @@ testString
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -432,7 +430,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -554,7 +551,6 @@ ABC
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -639,7 +635,6 @@ ABC
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -693,7 +688,6 @@ testPattern
 new
 TestCase
 (
-SECTION
 "
 '
 canthisbeFOUND
@@ -754,7 +748,6 @@ A
 new
 TestCase
 (
-SECTION
 "
 '
 canthisbeFOUND
@@ -819,7 +812,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 canthisbeFOUND

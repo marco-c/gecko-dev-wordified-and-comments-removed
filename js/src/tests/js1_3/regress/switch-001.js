@@ -106,7 +106,6 @@ statement
 new
 TestCase
 (
-SECTION
 "
 switch
 /

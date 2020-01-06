@@ -44,7 +44,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -67,7 +66,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -90,7 +88,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -113,7 +110,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -136,7 +132,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -159,7 +154,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -182,7 +176,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -205,7 +198,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -228,7 +220,6 @@ yz
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -251,7 +242,6 @@ yz
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -274,7 +264,6 @@ yz
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -297,7 +286,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -323,7 +311,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -350,7 +337,6 @@ u2000
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -371,7 +357,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -394,7 +379,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -415,7 +399,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -440,7 +423,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -461,7 +443,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -484,7 +465,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -505,7 +485,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -528,7 +507,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -551,7 +529,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -572,7 +549,6 @@ parseInt
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -605,7 +581,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -644,7 +619,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -682,7 +656,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -717,7 +690,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -749,7 +721,6 @@ s
 new
 TestCase
 (
-SECTION
 "
 s
 =
@@ -771,7 +742,6 @@ s
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -788,7 +758,6 @@ s
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (
@@ -807,7 +776,6 @@ s
 new
 TestCase
 (
-SECTION
 '
 parseInt
 (

@@ -41,7 +41,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -62,7 +61,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 Object
 .
@@ -90,7 +88,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new

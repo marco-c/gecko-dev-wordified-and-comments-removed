@@ -40,7 +40,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 (
 new

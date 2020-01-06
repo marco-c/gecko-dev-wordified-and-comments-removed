@@ -43,7 +43,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .

@@ -43,7 +43,6 @@ error
 new
 TestCase
 (
-SECTION
 "
 \
 rb

@@ -97,7 +97,6 @@ MyObject
 new
 TestCase
 (
-SECTION
 "
 for
 (
@@ -143,7 +142,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 for
 (
@@ -195,7 +193,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 value
 =
@@ -253,7 +250,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 value
 =
@@ -319,7 +315,6 @@ ob
 new
 TestCase
 (
-SECTION
 "
 ob
 =
@@ -392,7 +387,6 @@ ob
 new
 TestCase
 (
-SECTION
 "
 value
 =
@@ -472,7 +466,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 ob
 =
@@ -545,7 +538,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 value
 =
@@ -612,7 +604,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 value
 =

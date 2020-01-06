@@ -61,7 +61,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 abcde
@@ -110,7 +109,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 ab
@@ -170,7 +168,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 ab
@@ -220,7 +217,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 before
@@ -378,7 +374,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 before

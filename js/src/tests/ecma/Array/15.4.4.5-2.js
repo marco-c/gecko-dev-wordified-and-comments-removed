@@ -317,7 +317,6 @@ A
 new
 TestCase
 (
-SECTION
 S
 +
 "
@@ -377,7 +376,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 A
 [
@@ -435,7 +433,6 @@ undefined
 new
 TestCase
 (
-SECTION
 "
 typeof
 A

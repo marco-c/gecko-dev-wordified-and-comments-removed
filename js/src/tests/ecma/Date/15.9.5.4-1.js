@@ -84,7 +84,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -118,7 +117,6 @@ getTime
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -160,7 +158,6 @@ getTime
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -202,7 +199,6 @@ getTime
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -244,7 +240,6 @@ getTime
 new
 TestCase
 (
-SECTION
 "
 (
 new

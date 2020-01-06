@@ -62,7 +62,6 @@ sil
 new
 TestCase
 (
-SECTION
 "
 \
 "

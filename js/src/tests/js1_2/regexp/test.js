@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 /
 [
@@ -113,7 +112,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 /
 [
@@ -166,7 +164,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 /
 \
@@ -215,7 +212,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 /
 \
@@ -262,7 +258,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -327,7 +322,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -392,7 +386,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -465,7 +458,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 (
 new

@@ -41,7 +41,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Function
 .

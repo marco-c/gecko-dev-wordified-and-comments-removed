@@ -71,7 +71,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 abc123xyz
@@ -110,7 +109,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 abc123xyz
@@ -149,7 +147,6 @@ abc123xyz
 new
 TestCase
 (
-SECTION
 "
 '
 abc123xyz
@@ -186,7 +183,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 xxxx
@@ -224,7 +220,6 @@ match
 new
 TestCase
 (
-SECTION
 "
 '
 test
@@ -265,7 +260,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 xxxx
@@ -311,7 +305,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 test

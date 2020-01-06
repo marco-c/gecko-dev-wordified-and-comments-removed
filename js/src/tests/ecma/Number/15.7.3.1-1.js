@@ -42,7 +42,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 NUM_PROT
@@ -96,7 +95,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 delete
 (

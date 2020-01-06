@@ -38,7 +38,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -63,7 +62,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Math
 .

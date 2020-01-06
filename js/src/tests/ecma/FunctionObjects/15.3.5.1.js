@@ -75,7 +75,6 @@ length
 new
 TestCase
 (
-SECTION
 '
 var
 f
@@ -113,7 +112,6 @@ f
 new
 TestCase
 (
-SECTION
 '
 var
 f

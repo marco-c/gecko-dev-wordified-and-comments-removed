@@ -142,7 +142,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc1
 =
@@ -191,7 +190,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc1
 .
@@ -206,7 +204,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 myfunc1
 .
@@ -234,7 +231,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc1
 .
@@ -253,7 +249,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 myfunc1
 .
@@ -268,7 +263,6 @@ arguments
 new
 TestCase
 (
-SECTION
 "
 myfunc1
 (
@@ -289,7 +283,6 @@ myfunc1
 new
 TestCase
 (
-SECTION
 "
 var
 MYPROPS
@@ -352,7 +345,6 @@ MYPROPS
 new
 TestCase
 (
-SECTION
 "
 myfunc2
 =
@@ -401,7 +393,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc2
 .
@@ -416,7 +407,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 myfunc2
 .
@@ -444,7 +434,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc2
 .
@@ -463,7 +452,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 myfunc2
 .
@@ -478,7 +466,6 @@ arguments
 new
 TestCase
 (
-SECTION
 "
 myfunc2
 (
@@ -499,7 +486,6 @@ myfunc2
 new
 TestCase
 (
-SECTION
 "
 var
 MYPROPS
@@ -562,7 +548,6 @@ MYPROPS
 new
 TestCase
 (
-SECTION
 "
 myfunc3
 =
@@ -611,7 +596,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc3
 .
@@ -626,7 +610,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 myfunc3
 .
@@ -654,7 +637,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 myfunc3
 .
@@ -688,7 +670,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 myfunc3
 .
@@ -707,7 +688,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 myfunc3
 .
@@ -722,7 +702,6 @@ arguments
 new
 TestCase
 (
-SECTION
 "
 myfunc3
 (
@@ -747,7 +726,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 var
 MYPROPS

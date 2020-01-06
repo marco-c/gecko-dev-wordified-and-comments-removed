@@ -81,7 +81,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -108,7 +107,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -139,7 +137,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -204,7 +201,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -235,7 +231,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -258,7 +253,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -289,7 +283,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -354,7 +347,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -385,7 +377,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -408,7 +399,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -441,7 +431,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -508,7 +497,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -541,7 +529,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -566,7 +553,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -601,7 +587,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -670,7 +655,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -705,7 +689,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -732,7 +715,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -767,7 +749,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -836,7 +817,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -871,7 +851,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -898,7 +877,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -935,7 +913,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -1006,7 +983,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1043,7 +1019,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1072,7 +1047,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1111,7 +1085,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -1184,7 +1157,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1223,7 +1195,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1254,7 +1225,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1289,7 +1259,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -1358,7 +1327,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1393,7 +1361,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1420,7 +1387,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1451,7 +1417,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -1516,7 +1481,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1547,7 +1511,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1570,7 +1533,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1603,7 +1565,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -1670,7 +1631,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1703,7 +1663,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1728,7 +1687,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1763,7 +1721,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -1832,7 +1789,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1867,7 +1823,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -1894,7 +1849,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -1929,7 +1883,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 TESTBOOL
 =
@@ -1998,7 +1951,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -2033,7 +1985,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 new
@@ -2060,7 +2011,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -2095,15 +2045,6 @@ constructor
 new
 TestCase
 (
-"
-15
-.
-6
-.
-2
-.
-2
-"
 "
 TESTBOOL
 =
@@ -2167,15 +2108,6 @@ new
 TestCase
 (
 "
-15
-.
-6
-.
-2
-.
-2
-"
-"
 (
 new
 Boolean
@@ -2203,15 +2135,6 @@ valueOf
 new
 TestCase
 (
-"
-15
-.
-6
-.
-2
-.
-2
-"
 "
 typeof
 new

@@ -49,7 +49,6 @@ MIN_VAL
 new
 TestCase
 (
-SECTION
 "
 Number
 .

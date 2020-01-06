@@ -56,7 +56,6 @@ undefined
 new
 TestCase
 (
-SECTION
 "
 throw
 undefined

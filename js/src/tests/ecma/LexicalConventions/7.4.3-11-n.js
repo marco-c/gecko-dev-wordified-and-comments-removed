@@ -51,7 +51,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 finally

@@ -60,7 +60,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 unescape
 (
@@ -141,7 +140,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 unescape
 (
@@ -225,7 +223,6 @@ CHARCODE
 new
 TestCase
 (
-SECTION
 "
 unescape
 (

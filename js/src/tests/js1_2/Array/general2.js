@@ -200,7 +200,6 @@ pop
 new
 TestCase
 (
-SECTION
 "
 Array
 .
@@ -239,7 +238,6 @@ sort
 new
 TestCase
 (
-SECTION
 "
 Array
 .

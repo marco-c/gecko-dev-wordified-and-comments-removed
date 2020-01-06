@@ -267,7 +267,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 MyFunc
 .
@@ -282,7 +281,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 MY_OB
@@ -321,7 +319,6 @@ MY_OB
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .
@@ -336,7 +333,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 FUN1
 =
@@ -400,7 +396,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 FUN1
 =
@@ -464,7 +459,6 @@ FUN1
 new
 TestCase
 (
-SECTION
 "
 FUN1
 =

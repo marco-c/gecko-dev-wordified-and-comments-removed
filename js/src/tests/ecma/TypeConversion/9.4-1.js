@@ -36,7 +36,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -82,7 +81,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -126,7 +124,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -171,7 +168,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -214,7 +210,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -254,7 +249,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -298,7 +292,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -342,7 +335,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -389,7 +381,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -433,7 +424,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -475,7 +465,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -520,7 +509,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -560,7 +548,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -600,7 +587,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -652,7 +638,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -704,7 +689,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -750,7 +734,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -799,7 +782,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =
@@ -847,7 +829,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 td
 =

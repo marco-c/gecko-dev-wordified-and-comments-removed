@@ -75,7 +75,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 aString
 .
@@ -119,7 +118,6 @@ test
 new
 TestCase
 (
-SECTION
 "
 aString
 .

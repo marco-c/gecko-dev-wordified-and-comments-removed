@@ -49,7 +49,6 @@ pass
 new
 TestCase
 (
-SECTION
 "
 source
 text

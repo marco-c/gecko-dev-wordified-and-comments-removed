@@ -67,7 +67,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 o
 =

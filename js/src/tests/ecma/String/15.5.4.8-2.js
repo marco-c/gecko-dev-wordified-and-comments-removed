@@ -55,7 +55,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -129,7 +128,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -215,7 +213,6 @@ TEST_STRING
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -289,7 +286,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -386,7 +382,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -458,7 +453,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -553,7 +547,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -625,7 +618,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -720,7 +712,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -792,7 +783,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -887,7 +877,6 @@ object
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -959,7 +948,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1047,7 +1035,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1103,7 +1090,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1183,7 +1169,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1239,7 +1224,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1318,7 +1302,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -1392,7 +1375,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s

@@ -103,7 +103,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -134,7 +133,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -182,7 +180,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -221,7 +218,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -260,7 +256,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 "
@@ -299,7 +294,6 @@ TZ_ADJUST
 new
 TestCase
 (
-SECTION
 "
 (
 "

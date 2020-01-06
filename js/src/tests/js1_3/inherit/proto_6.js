@@ -261,7 +261,6 @@ Marketing
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -279,7 +278,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -296,7 +294,6 @@ dept
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -315,7 +312,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -338,7 +334,6 @@ projects
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -361,7 +356,6 @@ projects
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -378,7 +372,6 @@ machine
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -396,7 +389,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -413,7 +405,6 @@ dept
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -432,7 +423,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 les
 .
@@ -455,7 +445,6 @@ projects
 new
 TestCase
 (
-SECTION
 "
 terry
 .
@@ -473,7 +462,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 terry
 .

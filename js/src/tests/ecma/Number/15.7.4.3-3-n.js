@@ -75,15 +75,6 @@ new
 TestCase
 (
 "
-15
-.
-7
-.
-4
-.
-1
-"
-"
 v
 =
 Number

@@ -43,7 +43,6 @@ pass
 new
 TestCase
 (
-SECTION
 "
 multiline
 comment

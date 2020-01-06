@@ -53,7 +53,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 null
 .

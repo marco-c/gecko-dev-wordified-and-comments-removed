@@ -51,7 +51,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 delete
 (

@@ -120,7 +120,6 @@ _abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -173,7 +172,6 @@ w
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -226,7 +224,6 @@ W
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -269,7 +266,6 @@ w
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -319,7 +315,6 @@ alphanumeric
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -378,7 +373,6 @@ non_alphanumeric
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -431,7 +425,6 @@ W
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -480,7 +473,6 @@ non_alphanumeric
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -533,7 +525,6 @@ abcd
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -638,7 +629,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 "
@@ -744,7 +734,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 '
 "

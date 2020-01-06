@@ -89,7 +89,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 result
 =

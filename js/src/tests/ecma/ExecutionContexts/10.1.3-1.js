@@ -105,7 +105,6 @@ a
 new
 TestCase
 (
-SECTION
 String
 (
 myfun2
@@ -132,7 +131,6 @@ myfun2
 new
 TestCase
 (
-SECTION
 "
 myfun2
 (
@@ -152,7 +150,6 @@ myfun2
 new
 TestCase
 (
-SECTION
 String
 (
 myfun3
@@ -179,7 +176,6 @@ myfun3
 new
 TestCase
 (
-SECTION
 "
 myfun3
 (

@@ -64,7 +64,6 @@ NUMBER
 new
 TestCase
 (
-SECTION
 "
 NUMBER
 =

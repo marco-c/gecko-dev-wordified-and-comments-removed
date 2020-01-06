@@ -96,7 +96,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 for
 (

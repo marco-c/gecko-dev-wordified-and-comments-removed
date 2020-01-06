@@ -75,7 +75,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 var
 result

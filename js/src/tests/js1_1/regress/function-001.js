@@ -64,7 +64,6 @@ passed
 new
 TestCase
 (
-SECTION
 "
 eval
 (

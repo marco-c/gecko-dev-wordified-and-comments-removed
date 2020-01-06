@@ -51,7 +51,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 for
 (

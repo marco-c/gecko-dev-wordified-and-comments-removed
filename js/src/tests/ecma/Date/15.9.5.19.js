@@ -79,7 +79,6 @@ UTC_JAN_1_2005
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -110,7 +109,6 @@ getUTCSeconds
 new
 TestCase
 (
-SECTION
 "
 Date
 .
@@ -165,7 +163,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 (
 new

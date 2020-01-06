@@ -28,7 +28,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 0
 <
@@ -45,7 +44,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -64,7 +62,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 Infinity
 <
@@ -83,7 +80,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 -
 Infinity
@@ -104,7 +100,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -125,7 +120,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -146,7 +140,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -167,7 +160,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -188,7 +180,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 -
 Number
@@ -211,7 +202,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 0
 .
@@ -232,7 +222,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -255,7 +244,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 <
@@ -272,7 +260,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 .
@@ -293,7 +280,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -316,7 +302,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 2147483647
 <
@@ -336,7 +321,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 2147483648
 <
@@ -356,7 +340,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 2147483649
 <
@@ -376,7 +359,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 (
 Math
@@ -416,7 +398,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -448,7 +429,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 (
 Math
@@ -488,7 +468,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 (
 Math
@@ -528,7 +507,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 (
 Math
@@ -564,7 +542,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 (
 Math
@@ -604,7 +581,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 4294967295
 <
@@ -624,7 +600,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 4294967296
 <
@@ -644,7 +619,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 4294967297
 <
@@ -664,7 +638,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 '
 2147483647
@@ -688,7 +661,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 '
 2147483648
@@ -712,7 +684,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 '
 2147483649
@@ -736,7 +707,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 '
 4294967295
@@ -760,7 +730,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 '
 4294967296
@@ -784,7 +753,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 '
 4294967297
@@ -808,7 +776,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 2147483647
@@ -831,7 +798,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 2147483648
@@ -854,7 +820,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 2147483649
@@ -877,7 +842,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 4294967295
@@ -900,7 +864,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 4294967296
@@ -923,7 +886,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 4294967297
@@ -946,7 +908,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 2147483648
 .
@@ -972,7 +933,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 2147483648
 .
@@ -998,7 +958,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 2147483648
 .
@@ -1024,7 +983,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 4294967295
 .
@@ -1050,7 +1008,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 4294967295
 .
@@ -1076,7 +1033,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 4294967295
 .
@@ -1102,7 +1058,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 3000000000
 .
@@ -1128,7 +1083,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 3000000000
 .
@@ -1154,7 +1108,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 3000000000
 .
@@ -1180,7 +1133,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 2147483648
@@ -1209,7 +1161,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 2147483648
@@ -1238,7 +1189,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 2147483648
@@ -1267,7 +1217,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 4294967295
@@ -1296,7 +1245,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 4294967295
@@ -1325,7 +1273,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 4294967295
@@ -1354,7 +1301,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 3000000000
@@ -1383,7 +1329,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 3000000000
@@ -1412,7 +1357,6 @@ ToInt32
 new
 TestCase
 (
-SECTION
 "
 -
 3000000000

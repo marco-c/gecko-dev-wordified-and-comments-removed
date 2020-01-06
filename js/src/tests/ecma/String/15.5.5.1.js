@@ -40,7 +40,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -76,7 +75,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -124,7 +122,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -199,7 +196,6 @@ props
 new
 TestCase
 (
-SECTION
 "
 var
 s
@@ -237,7 +233,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 s

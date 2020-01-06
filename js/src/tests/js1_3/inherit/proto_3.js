@@ -184,7 +184,6 @@ bonus
 new
 TestCase
 (
-SECTION
 "
 jim
 =
@@ -212,7 +211,6 @@ bonus
 new
 TestCase
 (
-SECTION
 "
 pat
 =

@@ -44,7 +44,6 @@ PASSED
 new
 TestCase
 (
-SECTION
 "
 /
 /
@@ -81,7 +80,6 @@ PASSED
 new
 TestCase
 (
-SECTION
 "
 /
 /
@@ -122,7 +120,6 @@ PASSED
 new
 TestCase
 (
-SECTION
 "
 /
 /
@@ -163,7 +160,6 @@ PASSED
 new
 TestCase
 (
-SECTION
 "
 /
 /
@@ -203,7 +199,6 @@ PASSED
 new
 TestCase
 (
-SECTION
 "
 /
 /

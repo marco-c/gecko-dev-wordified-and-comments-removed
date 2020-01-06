@@ -275,7 +275,6 @@ addTestCase
 new
 TestCase
 (
-SECTION
 status
 expect
 actual

@@ -89,7 +89,6 @@ break
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -173,7 +172,6 @@ j
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -221,7 +219,6 @@ i
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -306,7 +303,6 @@ i
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -356,7 +352,6 @@ i
 new
 TestCase
 (
-SECTION
 '
 breaking
 out
@@ -445,7 +440,6 @@ i
 new
 TestCase
 (
-SECTION
 '
 breaking
 out

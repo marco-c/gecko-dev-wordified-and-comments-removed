@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 /
 xyz
@@ -81,7 +80,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 /
 xyz
@@ -100,7 +98,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -156,7 +153,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -216,7 +212,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -264,7 +259,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -309,7 +303,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -354,7 +347,6 @@ global
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -425,7 +417,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 123
@@ -500,7 +491,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 123

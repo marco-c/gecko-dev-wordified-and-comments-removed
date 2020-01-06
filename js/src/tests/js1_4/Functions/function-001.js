@@ -55,7 +55,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 return
 function
@@ -91,7 +90,6 @@ S
 new
 TestCase
 (
-SECTION
 "
 return
 arguments
@@ -125,7 +123,6 @@ S
 new
 TestCase
 (
-SECTION
 "
 return
 arguments
@@ -162,7 +159,6 @@ S
 new
 TestCase
 (
-SECTION
 "
 return
 function

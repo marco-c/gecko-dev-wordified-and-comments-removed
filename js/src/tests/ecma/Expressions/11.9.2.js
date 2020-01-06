@@ -46,7 +46,6 @@ operator
 new
 TestCase
 (
-SECTION
 "
 void
 0
@@ -67,7 +66,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 null
 =
@@ -84,7 +82,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 NaN
 !
@@ -105,7 +102,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 NaN
 !
@@ -124,7 +120,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 0
 !
@@ -143,7 +138,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 NaN
 !
@@ -164,7 +158,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Infinity
 !
@@ -185,7 +178,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -210,7 +202,6 @@ MAX_VALUE
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -235,7 +226,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -260,7 +250,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -285,7 +274,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 0
 !
@@ -302,7 +290,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 0
 !
@@ -321,7 +308,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -340,7 +326,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -361,7 +346,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 0
 .
@@ -382,7 +366,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 0
 .
@@ -403,7 +386,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 0
 .
@@ -424,7 +406,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 0
 .
@@ -445,7 +426,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 '
 hello
@@ -470,7 +450,6 @@ hello
 new
 TestCase
 (
-SECTION
 "
 true
 !
@@ -487,7 +466,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 false
 !
@@ -504,7 +482,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 true
 !
@@ -521,7 +498,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 false
 !
@@ -538,7 +514,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 MyObject
@@ -571,7 +546,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -604,7 +578,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -637,7 +610,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -691,7 +663,6 @@ y
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -745,7 +716,6 @@ y
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -799,7 +769,6 @@ y
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -853,7 +822,6 @@ y
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -886,7 +854,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -919,7 +886,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 null
 !
@@ -938,7 +904,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 void
 0
@@ -957,7 +922,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 1
 !
@@ -978,7 +942,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 255
 !
@@ -999,7 +962,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 0
 !
@@ -1022,7 +984,6 @@ r
 new
 TestCase
 (
-SECTION
 "
 1e19
 !
@@ -1043,7 +1004,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -1068,7 +1028,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 MyObject
@@ -1093,7 +1052,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 new
 Boolean
@@ -1118,7 +1076,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 new
 MyObject
@@ -1143,7 +1100,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 true
 !
@@ -1168,7 +1124,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 true
 !
@@ -1193,7 +1148,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 false
 !
@@ -1218,7 +1172,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 false
 !

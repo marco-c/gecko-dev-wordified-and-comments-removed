@@ -854,7 +854,6 @@ DateCase
 new
 TestCase
 (
-SECTION
 DateString
 ExpectDate
 .
@@ -865,7 +864,6 @@ DateCase
 new
 TestCase
 (
-SECTION
 DateString
 ExpectDate
 .

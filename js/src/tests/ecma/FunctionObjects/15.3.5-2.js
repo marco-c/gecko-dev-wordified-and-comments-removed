@@ -102,7 +102,6 @@ value
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .
@@ -117,7 +116,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 typeof
 MyObject
@@ -136,7 +134,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 typeof
 MyObject
@@ -159,7 +156,6 @@ constructor
 new
 TestCase
 (
-SECTION
 "
 MyObject
 .

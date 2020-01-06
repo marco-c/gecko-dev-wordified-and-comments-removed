@@ -34,7 +34,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 typeof
 Boolean
@@ -65,7 +64,6 @@ Boolean
 new
 TestCase
 (
-SECTION
 "
 typeof
 (
@@ -88,7 +86,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .
@@ -145,7 +142,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .

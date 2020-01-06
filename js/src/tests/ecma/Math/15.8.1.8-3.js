@@ -36,7 +36,6 @@ DontDelete
 new
 TestCase
 (
-SECTION
 "
 delete
 Math

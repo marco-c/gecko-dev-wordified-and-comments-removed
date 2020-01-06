@@ -38,7 +38,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -94,7 +93,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -150,7 +148,6 @@ PASSED
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -214,7 +211,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -278,7 +274,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR
@@ -334,7 +329,6 @@ FAILED
 new
 TestCase
 (
-SECTION
 "
 var
 MYVAR

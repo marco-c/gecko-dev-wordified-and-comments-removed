@@ -41,15 +41,6 @@ new
 TestCase
 (
 "
-12
-.
-6
-.
-2
--
-1
-"
-"
 for
 statement
 "

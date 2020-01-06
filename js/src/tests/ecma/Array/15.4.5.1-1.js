@@ -49,7 +49,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -97,7 +96,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -162,7 +160,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -222,7 +219,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -282,7 +278,6 @@ A
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -453,7 +448,6 @@ LENGTH
 new
 TestCase
 (
-SECTION
 TEST_STRING
 +
 "
@@ -499,7 +493,6 @@ A
 new
 TestCase
 (
-SECTION
 TEST_STRING
 +
 "
@@ -542,7 +535,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -592,7 +584,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -686,7 +677,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -757,7 +747,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 A
@@ -813,7 +802,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 A

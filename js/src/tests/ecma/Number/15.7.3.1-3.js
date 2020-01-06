@@ -46,7 +46,6 @@ Attribute
 new
 TestCase
 (
-SECTION
 "
 var
 string

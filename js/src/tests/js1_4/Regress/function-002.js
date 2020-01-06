@@ -116,7 +116,6 @@ dec2
 new
 TestCase
 (
-SECTION
 "
 typeof
 f1
@@ -131,7 +130,6 @@ f1
 new
 TestCase
 (
-SECTION
 "
 f1
 .
@@ -162,7 +160,6 @@ dec1
 new
 TestCase
 (
-SECTION
 "
 typeof
 f2
@@ -177,7 +174,6 @@ f2
 new
 TestCase
 (
-SECTION
 "
 f2
 .

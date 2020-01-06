@@ -115,7 +115,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 if
 (

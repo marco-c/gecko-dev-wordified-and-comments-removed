@@ -38,7 +38,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 x
 =
@@ -82,7 +81,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -106,7 +104,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 var
 abc
@@ -124,7 +121,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 var
 OB

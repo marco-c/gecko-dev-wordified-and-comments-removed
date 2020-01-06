@@ -88,7 +88,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 continue
 outside

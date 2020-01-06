@@ -98,7 +98,6 @@ hello
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -130,7 +129,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -162,7 +160,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -194,7 +191,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -226,7 +222,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -258,7 +253,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -294,7 +288,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 foo
@@ -337,7 +330,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -367,7 +359,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -397,7 +388,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -427,7 +417,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 boo
@@ -468,7 +457,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -500,7 +488,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -532,7 +519,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -564,7 +550,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -596,7 +581,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -628,7 +612,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -660,7 +643,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -701,7 +683,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -731,7 +712,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -761,7 +741,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -791,7 +770,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -821,7 +799,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -861,7 +838,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -892,7 +868,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -923,7 +898,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -954,7 +928,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo
@@ -985,7 +958,6 @@ charCodeAt
 new
 TestCase
 (
-SECTION
 "
 var
 noo

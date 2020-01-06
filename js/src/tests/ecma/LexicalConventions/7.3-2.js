@@ -43,7 +43,6 @@ pass
 new
 TestCase
 (
-SECTION
 "
 a
 comment

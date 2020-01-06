@@ -60,7 +60,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 /
 xyz
@@ -83,7 +82,6 @@ source
 new
 TestCase
 (
-SECTION
 "
 /
 xyz
@@ -104,7 +102,6 @@ source
 new
 TestCase
 (
-SECTION
 "
 /
 abc
@@ -138,7 +135,6 @@ source
 new
 TestCase
 (
-SECTION
 "
 /
 abc
@@ -176,7 +172,6 @@ source
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -209,7 +204,6 @@ source
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -248,7 +242,6 @@ source
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -300,7 +293,6 @@ source
 new
 TestCase
 (
-SECTION
 "
 (
 new

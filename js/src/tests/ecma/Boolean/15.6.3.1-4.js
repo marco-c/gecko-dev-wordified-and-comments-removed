@@ -45,7 +45,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 var
 BOOL_PROTO
@@ -97,7 +96,6 @@ BOOL_PROTO
 new
 TestCase
 (
-SECTION
 "
 var
 BOOL_PROTO

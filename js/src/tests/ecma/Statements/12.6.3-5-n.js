@@ -53,7 +53,6 @@ expression
 new
 TestCase
 (
-SECTION
 "
 more
 than

@@ -81,7 +81,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s

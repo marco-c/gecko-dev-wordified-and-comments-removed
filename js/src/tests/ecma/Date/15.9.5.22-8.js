@@ -44,7 +44,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 (
 new
@@ -75,7 +74,6 @@ getTimezoneOffset
 new
 TestCase
 (
-SECTION
 "
 Date
 .

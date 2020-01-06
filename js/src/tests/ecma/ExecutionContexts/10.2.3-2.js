@@ -52,7 +52,6 @@ hello
 new
 TestCase
 (
-SECTION
 "
 MyFunction
 (
@@ -87,7 +86,6 @@ MyFunction
 new
 TestCase
 (
-SECTION
 "
 MyOtherFunction
 (

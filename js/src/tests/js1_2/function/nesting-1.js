@@ -70,7 +70,6 @@ f
 new
 TestCase
 (
-SECTION
 '
 function
 f

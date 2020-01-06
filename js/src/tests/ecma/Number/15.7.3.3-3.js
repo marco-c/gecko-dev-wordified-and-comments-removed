@@ -45,7 +45,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Number
 .

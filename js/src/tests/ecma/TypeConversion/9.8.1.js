@@ -33,7 +33,6 @@ type
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -53,7 +52,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 0
 "
@@ -69,7 +67,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 0
@@ -87,7 +84,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -107,7 +103,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -128,7 +123,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -147,7 +141,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 "
@@ -163,7 +156,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 10
 "
@@ -179,7 +171,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 100
 "
@@ -195,7 +186,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1000
 "
@@ -211,7 +201,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 10000
 "
@@ -227,7 +216,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 10000000000
 "
@@ -243,7 +231,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 10000000000000000000
 "
@@ -259,7 +246,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 100000000000000000000
 "
@@ -275,7 +261,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 12345
 "
@@ -291,7 +276,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1234567890
 "
@@ -307,7 +291,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 1
@@ -326,7 +309,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 10
@@ -345,7 +327,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 100
@@ -364,7 +345,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 1000
@@ -383,7 +363,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 1000000000
@@ -402,7 +381,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 1000000000000000
@@ -421,7 +399,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 100000000000000000000
@@ -440,7 +417,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 1000000000000000000000
@@ -461,7 +437,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 12345
@@ -480,7 +455,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 -
 1234567890
@@ -499,7 +473,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 .
@@ -521,7 +494,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1000000000000000000000
 "
@@ -539,7 +511,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 10000000000000000000000
 "
@@ -557,7 +528,6 @@ SECTION
 new
 TestCase
 (
-SECTION
 "
 1
 .
@@ -579,7 +549,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 1
 .
@@ -601,7 +570,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 .
 12345
@@ -621,7 +589,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 .
 012345
@@ -641,7 +608,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 .
 0012345
@@ -661,7 +627,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 .
 00012345
@@ -681,7 +646,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 .
 000012345
@@ -701,7 +665,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 .
 0000012345
@@ -721,7 +684,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 .
 00000012345
@@ -743,7 +705,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 -
 1e21

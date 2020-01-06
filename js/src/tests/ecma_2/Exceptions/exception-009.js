@@ -91,7 +91,6 @@ finally
 new
 TestCase
 (
-SECTION
 "
 nested
 try

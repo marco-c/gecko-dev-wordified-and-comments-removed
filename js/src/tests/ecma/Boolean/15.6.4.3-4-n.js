@@ -81,7 +81,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 valof
 =

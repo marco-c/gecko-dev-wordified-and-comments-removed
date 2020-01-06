@@ -113,7 +113,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 TEST_STRING
 .
@@ -162,7 +161,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 TEST_STRING
 .
@@ -220,7 +218,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 String
 .

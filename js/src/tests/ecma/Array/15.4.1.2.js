@@ -48,7 +48,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -71,7 +70,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -96,7 +94,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -121,7 +118,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -146,7 +142,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -175,7 +170,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -200,7 +194,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -229,7 +222,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -257,7 +249,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -309,7 +300,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -355,7 +345,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -407,7 +396,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -436,7 +424,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -465,7 +452,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -493,7 +479,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array
@@ -521,7 +506,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 (
 Array

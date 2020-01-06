@@ -551,7 +551,6 @@ break
 new
 TestCase
 (
-SECTION
 "
 switch
 with

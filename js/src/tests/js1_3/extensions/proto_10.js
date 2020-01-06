@@ -249,7 +249,6 @@ Engineer
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -274,7 +273,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -303,7 +301,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -336,7 +333,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -373,7 +369,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -410,7 +405,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 InstanceOf
 (
@@ -429,7 +423,6 @@ Engineer
 new
 TestCase
 (
-SECTION
 "
 InstanceOf
 (
@@ -448,7 +441,6 @@ WorkerBee
 new
 TestCase
 (
-SECTION
 "
 InstanceOf
 (
@@ -467,7 +459,6 @@ Employee
 new
 TestCase
 (
-SECTION
 "
 InstanceOf
 (
@@ -486,7 +477,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 InstanceOf
 (

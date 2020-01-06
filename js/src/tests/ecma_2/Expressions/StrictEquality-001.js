@@ -138,7 +138,6 @@ y
 new
 TestCase
 (
-SECTION
 x
 +
 "

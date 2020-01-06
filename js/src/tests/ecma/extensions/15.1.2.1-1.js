@@ -43,7 +43,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 eval
 .
@@ -58,7 +57,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 PROPS
@@ -113,7 +111,6 @@ PROPS
 new
 TestCase
 (
-SECTION
 "
 eval
 .
@@ -145,7 +142,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -161,7 +157,6 @@ eval
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -181,7 +176,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -198,7 +192,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -215,7 +208,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -232,7 +224,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 typeof
 eval
@@ -270,7 +261,6 @@ Infinity
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -311,7 +301,6 @@ eval
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -347,7 +336,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -364,7 +352,6 @@ eval
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -381,7 +368,6 @@ eval
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -401,7 +387,6 @@ eval
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -424,7 +409,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -447,7 +431,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -473,7 +456,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -496,7 +478,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -519,7 +500,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 eval
 (
@@ -536,7 +516,6 @@ eval
 new
 TestCase
 (
-SECTION
 "
 eval
 (

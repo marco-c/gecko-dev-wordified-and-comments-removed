@@ -91,7 +91,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 break
 =

@@ -407,7 +407,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 testarr1
 [
@@ -450,7 +449,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 testarr2
 [
@@ -493,7 +491,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 testarr3
 [
@@ -536,7 +533,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 testarr4
 [

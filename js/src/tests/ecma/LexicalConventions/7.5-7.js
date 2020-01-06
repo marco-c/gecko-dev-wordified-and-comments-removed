@@ -36,7 +36,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 0abc

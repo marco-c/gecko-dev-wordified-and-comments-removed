@@ -42,7 +42,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 NUM_PROT
@@ -94,7 +93,6 @@ NUM_PROT
 new
 TestCase
 (
-SECTION
 "
 Number
 .

@@ -150,7 +150,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 line
 breaks

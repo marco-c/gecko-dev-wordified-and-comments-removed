@@ -46,7 +46,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 String
 .
@@ -95,7 +94,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 var
 s

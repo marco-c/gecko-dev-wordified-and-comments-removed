@@ -31,7 +31,6 @@ operator
 new
 TestCase
 (
-SECTION
 "
 true
 false
@@ -49,7 +48,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =
@@ -75,7 +73,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 VAR1
 =

@@ -186,7 +186,6 @@ none
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -204,7 +203,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -221,7 +219,6 @@ dept
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -240,7 +237,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -263,7 +259,6 @@ projects
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -286,7 +281,6 @@ projects
 new
 TestCase
 (
-SECTION
 "
 pat
 .
@@ -303,7 +297,6 @@ machine
 new
 TestCase
 (
-SECTION
 "
 pat
 .

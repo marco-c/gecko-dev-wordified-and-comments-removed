@@ -41,7 +41,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Number
 .
@@ -98,7 +97,6 @@ toString
 new
 TestCase
 (
-SECTION
 "
 typeof
 Number
@@ -117,7 +115,6 @@ prototype
 new
 TestCase
 (
-SECTION
 "
 Number
 .

@@ -167,7 +167,6 @@ Employee
 new
 TestCase
 (
-SECTION
 "
 jim
 =
@@ -190,7 +189,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 jim
 =
@@ -222,7 +220,6 @@ Manager
 new
 TestCase
 (
-SECTION
 "
 sally
 =
@@ -245,7 +242,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 sally
 =
@@ -269,7 +265,6 @@ dept
 new
 TestCase
 (
-SECTION
 "
 sally
 =
@@ -295,7 +290,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 sally
 =
@@ -329,7 +323,6 @@ SalesPerson
 new
 TestCase
 (
-SECTION
 "
 fred
 =
@@ -352,7 +345,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 fred
 =
@@ -376,7 +368,6 @@ dept
 new
 TestCase
 (
-SECTION
 "
 fred
 =
@@ -398,7 +389,6 @@ quota
 new
 TestCase
 (
-SECTION
 "
 fred
 =
@@ -432,7 +422,6 @@ Engineer
 new
 TestCase
 (
-SECTION
 "
 jane
 =
@@ -455,7 +444,6 @@ name
 new
 TestCase
 (
-SECTION
 "
 jane
 =
@@ -479,7 +467,6 @@ dept
 new
 TestCase
 (
-SECTION
 "
 jane
 =
@@ -505,7 +492,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 jane
 =

@@ -41,7 +41,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -58,7 +57,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -82,7 +80,6 @@ x
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -101,7 +98,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -118,7 +114,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -135,7 +130,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -153,7 +147,6 @@ eval
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -170,7 +163,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -189,7 +181,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -208,7 +199,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -227,7 +217,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -247,7 +236,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -268,7 +256,6 @@ PI
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -285,7 +272,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -304,7 +290,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -323,7 +308,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -346,7 +330,6 @@ t
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -367,7 +350,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -388,7 +370,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -415,7 +396,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -444,7 +424,6 @@ string
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -467,7 +446,6 @@ String
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -492,7 +470,6 @@ true
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -517,7 +494,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -540,7 +516,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -568,7 +543,6 @@ Array
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -591,7 +565,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -616,7 +589,6 @@ Number
 new
 TestCase
 (
-SECTION
 "
 !
 (
@@ -643,7 +615,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 !
 (

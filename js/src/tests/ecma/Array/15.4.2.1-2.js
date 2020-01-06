@@ -151,7 +151,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 [
 "
@@ -172,7 +171,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 new
 Array

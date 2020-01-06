@@ -55,7 +55,6 @@ item
 new
 TestCase
 (
-SECTION
 "
 var
 str

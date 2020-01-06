@@ -59,7 +59,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 abcde
@@ -106,7 +105,6 @@ de
 new
 TestCase
 (
-SECTION
 "
 '
 ab
@@ -151,7 +149,6 @@ e
 new
 TestCase
 (
-SECTION
 "
 '
 yyyyy
@@ -188,7 +185,6 @@ xxx
 new
 TestCase
 (
-SECTION
 "
 '
 a
@@ -238,7 +234,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 a

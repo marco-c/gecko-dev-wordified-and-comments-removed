@@ -162,7 +162,6 @@ label
 new
 TestCase
 (
-SECTION
 "
 number
 of
@@ -176,7 +175,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 break
 out
@@ -193,7 +191,6 @@ result1
 new
 TestCase
 (
-SECTION
 "
 break
 out

@@ -65,7 +65,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 throw
 null

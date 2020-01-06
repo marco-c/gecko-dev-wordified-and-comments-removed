@@ -47,7 +47,6 @@ Object
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB
@@ -73,7 +72,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 typeof
 Object
@@ -95,7 +93,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 var
 MYOB

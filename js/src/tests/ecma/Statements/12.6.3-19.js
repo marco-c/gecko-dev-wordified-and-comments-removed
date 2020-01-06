@@ -105,7 +105,6 @@ p
 new
 TestCase
 (
-SECTION
 "
 count
 =
@@ -194,7 +193,6 @@ count
 new
 TestCase
 (
-SECTION
 "
 result
 "

@@ -49,7 +49,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 0
 ?
@@ -102,7 +101,6 @@ false
 new
 TestCase
 (
-SECTION
 "
 bar
 =

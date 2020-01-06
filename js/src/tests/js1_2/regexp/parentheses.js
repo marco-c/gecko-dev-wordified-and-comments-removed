@@ -61,7 +61,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 abc
@@ -115,7 +114,6 @@ abc
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -184,7 +182,6 @@ g
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -259,7 +256,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 aabcdaabcd
@@ -321,7 +317,6 @@ bcd
 new
 TestCase
 (
-SECTION
 "
 '
 aabcdaabcd
@@ -385,7 +380,6 @@ aa
 new
 TestCase
 (
-SECTION
 "
 '
 aabcdaabcd
@@ -455,7 +449,6 @@ RegExp
 new
 TestCase
 (
-SECTION
 "
 '
 123456123456
@@ -550,7 +543,6 @@ d
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -623,7 +615,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 '
 abcdefg
@@ -688,7 +679,6 @@ a
 new
 TestCase
 (
-SECTION
 "
 '
 xabcdefg
@@ -787,7 +777,6 @@ f
 new
 TestCase
 (
-SECTION
 "
 '
 xabcdefbcefg
@@ -898,7 +887,6 @@ f
 new
 TestCase
 (
-SECTION
 "
 '
 abcd
@@ -975,7 +963,6 @@ b
 new
 TestCase
 (
-SECTION
 "
 '
 abcd

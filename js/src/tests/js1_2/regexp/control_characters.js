@@ -72,7 +72,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 '
 O
@@ -136,7 +135,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 string1
 =
@@ -202,7 +200,6 @@ i
 new
 TestCase
 (
-SECTION
 "
 string1
 =

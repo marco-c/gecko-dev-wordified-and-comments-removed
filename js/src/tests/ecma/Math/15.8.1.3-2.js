@@ -49,7 +49,6 @@ MATH_LN2
 new
 TestCase
 (
-SECTION
 "
 delete
 (
@@ -75,7 +74,6 @@ LN2
 new
 TestCase
 (
-SECTION
 "
 delete
 (

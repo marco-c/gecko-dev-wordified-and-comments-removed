@@ -43,7 +43,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -62,7 +61,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -87,7 +85,6 @@ NaN
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -108,7 +105,6 @@ null
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -129,7 +125,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -154,7 +149,6 @@ void
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -179,7 +173,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -207,7 +200,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -236,7 +228,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -268,7 +259,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -289,7 +279,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -313,7 +302,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -338,7 +326,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -366,7 +353,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -391,7 +377,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -417,7 +402,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -445,7 +429,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -477,7 +460,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -498,7 +480,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -522,7 +503,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -550,7 +530,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Infinity
 /
@@ -582,7 +561,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -607,7 +585,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -635,7 +612,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -660,7 +636,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -690,7 +665,6 @@ POSITIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -720,7 +694,6 @@ NEGATIVE_INFINITY
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -755,7 +728,6 @@ MIN_VALUE
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -783,7 +755,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -812,7 +783,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -847,7 +817,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -881,7 +850,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .
@@ -916,7 +884,6 @@ ceil
 new
 TestCase
 (
-SECTION
 "
 Math
 .

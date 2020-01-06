@@ -44,7 +44,6 @@ nb
 new
 TestCase
 (
-SECTION
 "
 \
 nb

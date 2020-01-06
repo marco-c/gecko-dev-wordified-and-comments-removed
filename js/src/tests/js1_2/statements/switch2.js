@@ -126,7 +126,6 @@ return
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -146,7 +145,6 @@ ab
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -166,7 +164,6 @@ ab
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -186,7 +183,6 @@ ab
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -205,7 +201,6 @@ c
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -278,7 +273,6 @@ return
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -298,7 +292,6 @@ ab
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -318,7 +311,6 @@ ab
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -338,7 +330,6 @@ ab
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -357,7 +348,6 @@ c
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -407,7 +397,6 @@ return
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -422,7 +411,6 @@ f2
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -437,7 +425,6 @@ f2
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -452,7 +439,6 @@ f2
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -480,7 +466,6 @@ se
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -508,7 +493,6 @@ se
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -559,7 +543,6 @@ se
 new
 TestCase
 (
-SECTION
 '
 switch
 statement
@@ -601,7 +584,6 @@ break
 new
 TestCase
 (
-SECTION
 '
 switch
 statement

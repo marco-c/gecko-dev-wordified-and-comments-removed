@@ -37,7 +37,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -127,7 +126,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -207,7 +205,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -297,7 +294,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -377,7 +373,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -467,7 +462,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -547,7 +541,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -637,7 +630,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -715,7 +707,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -797,7 +788,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -873,7 +863,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 myarr
@@ -963,7 +952,6 @@ pow
 new
 TestCase
 (
-SECTION
 "
 var
 myarr

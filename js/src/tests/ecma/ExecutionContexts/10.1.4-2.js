@@ -92,9 +92,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 with
 MyObject
 eval

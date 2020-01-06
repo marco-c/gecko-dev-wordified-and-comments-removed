@@ -36,9 +36,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Anonymous
 Code
 check
@@ -58,9 +55,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Anonymous
 Code
@@ -82,9 +76,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Anonymous
 Code
 check
@@ -104,9 +95,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Anonymous
 Code
@@ -128,9 +116,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Anonymous
 Code
 check
@@ -150,9 +135,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Anonymous
 Code
@@ -174,9 +156,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Anonymous
 Code
 check
@@ -196,9 +175,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Anonymous
 Code
@@ -220,9 +196,6 @@ new
 TestCase
 (
 "
-SECTION
-"
-"
 Anonymous
 Code
 check
@@ -242,9 +215,6 @@ null
 new
 TestCase
 (
-"
-SECTION
-"
 "
 Anonymous
 Code

@@ -40,7 +40,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .
@@ -63,7 +62,6 @@ valueOf
 new
 TestCase
 (
-SECTION
 "
 Boolean
 .

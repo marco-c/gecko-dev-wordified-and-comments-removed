@@ -37,7 +37,6 @@ TITLE
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -111,7 +110,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -189,7 +187,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -265,7 +262,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -339,7 +335,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -417,7 +412,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -493,7 +487,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -567,7 +560,6 @@ length
 new
 TestCase
 (
-SECTION
 "
 var
 arr
@@ -632,7 +624,6 @@ arr
 new
 TestCase
 (
-SECTION
 "
 var
 arr
