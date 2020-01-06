@@ -1160,6 +1160,15 @@ SourceSurfaceSkia
 *
 mSnapshot
 ;
+std
+:
+:
+shared_ptr
+<
+Mutex
+>
+mSnapshotLock
+;
 #
 ifdef
 MOZ_WIDGET_COCOA
