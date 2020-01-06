@@ -1085,12 +1085,10 @@ mSuccess
 ;
 const
 T
-&
 mFailureValue
 ;
 const
 T
-&
 mSuccessValue
 ;
 }
