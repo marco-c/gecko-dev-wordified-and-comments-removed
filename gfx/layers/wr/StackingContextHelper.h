@@ -180,7 +180,7 @@ gfx
 :
 :
 Matrix4x4
-TransformToParentSC
+TransformToRoot
 (
 )
 const
@@ -196,9 +196,6 @@ mBuilder
 ;
 LayerPoint
 mOrigin
-;
-WrPoint
-mOffsetToParent
 ;
 gfx
 :
