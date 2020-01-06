@@ -3017,7 +3017,7 @@ return
 DrawResult
 :
 :
-BAD_IMAGE
+NOT_READY
 ;
 }
 Maybe
