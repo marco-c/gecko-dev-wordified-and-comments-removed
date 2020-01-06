@@ -549,7 +549,7 @@ target
 contains
 (
 "
-macos
+darwin
 "
 )
 |
