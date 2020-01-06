@@ -220,10 +220,6 @@ tests
 -
 client
 -
-test
--
-verify
--
 xpcshell
 web
 -
@@ -1020,6 +1016,10 @@ perf
 reftest
 -
 singletons
+-
+talos
+-
+tp6
 linux32
 -
 tests
@@ -1243,6 +1243,12 @@ tests
 mochitest
 -
 browser
+-
+chrome
+-
+mochitest
+-
+devtools
 -
 chrome
 -
