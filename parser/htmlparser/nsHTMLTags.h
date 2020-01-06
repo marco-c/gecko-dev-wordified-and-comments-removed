@@ -7,6 +7,13 @@ nsHTMLTags_h___
 #
 include
 "
+nsStaticAtom
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -18,9 +25,6 @@ plhash
 .
 h
 "
-class
-nsAtom
-;
 #
 define
 HTML_TAG
