@@ -586,12 +586,6 @@ return
 mAudioContextState
 ;
 }
-bool
-IsRunning
-(
-)
-const
-;
 already_AddRefed
 <
 Promise
