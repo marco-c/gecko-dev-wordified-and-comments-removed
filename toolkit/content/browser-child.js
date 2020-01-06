@@ -3296,6 +3296,11 @@ contentViewer
 .
 permitUnload
 (
+msg
+.
+data
+.
+aPermitUnloadFlags
 )
 ;
 }

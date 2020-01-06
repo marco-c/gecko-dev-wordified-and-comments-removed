@@ -1952,6 +1952,15 @@ permitUnload
 "
 >
 <
+parameter
+name
+=
+"
+aPermitUnloadFlags
+"
+/
+>
+<
 body
 >
 <
@@ -2176,6 +2185,7 @@ PermitUnload
 "
 {
 id
+aPermitUnloadFlags
 }
 )
 ;
