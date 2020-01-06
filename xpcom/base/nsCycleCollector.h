@@ -98,6 +98,12 @@ aCB
 void
 nsCycleCollector_forgetSkippable
 (
+js
+:
+:
+SliceBudget
+&
+aBudget
 bool
 aRemoveChildlessNodes
 =
