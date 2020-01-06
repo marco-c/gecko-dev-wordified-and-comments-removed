@@ -69,6 +69,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 pkix
 /
 pkixtypes
@@ -472,8 +479,8 @@ void
 *
 pinarg
 const
-char
-*
+nsACString
+&
 hostname
 UniqueCERTCertList
 &
