@@ -251,6 +251,14 @@ ErrorResult
 aError
 )
 ;
+already_AddRefed
+<
+nsIURI
+>
+GetCurrentRequestFinalURI
+(
+)
+;
 void
 ForceReload
 (
