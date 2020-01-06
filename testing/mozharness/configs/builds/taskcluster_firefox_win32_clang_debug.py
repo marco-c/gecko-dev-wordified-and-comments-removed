@@ -203,6 +203,18 @@ max_build_output_timeout
 80
     
 '
+perfherder_extra_options
+'
+:
+[
+'
+static
+-
+analysis
+'
+]
+    
+'
 base_name
 '
 :
