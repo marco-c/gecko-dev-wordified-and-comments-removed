@@ -205,11 +205,6 @@ actions
 :
 [
 build
-generate
--
-build
--
-stats
 update
 ]
 config
@@ -362,11 +357,6 @@ actions
 :
 [
 build
-generate
--
-build
--
-stats
 update
 ]
 config
@@ -510,11 +500,6 @@ actions
 :
 [
 build
-generate
--
-build
--
-stats
 ]
 config
 :
@@ -639,11 +624,6 @@ actions
 :
 [
 build
-generate
--
-build
--
-stats
 ]
 config
 :

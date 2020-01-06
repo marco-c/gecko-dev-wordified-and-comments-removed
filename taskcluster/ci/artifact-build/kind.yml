@@ -187,11 +187,6 @@ get
 -
 secrets
 build
-generate
--
-build
--
-stats
 ]
 config
 :

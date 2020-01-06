@@ -189,11 +189,6 @@ get
 -
 secrets
 build
-generate
--
-build
--
-stats
 valgrind
 -
 test
