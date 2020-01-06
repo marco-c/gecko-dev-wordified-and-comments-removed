@@ -1205,7 +1205,7 @@ mNextRecomputeVisibilityTick
 ObserverArray
 mObservers
 [
-3
+4
 ]
 ;
 RequestTable

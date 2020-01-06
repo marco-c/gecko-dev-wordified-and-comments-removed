@@ -157,6 +157,11 @@ CoalescedInputData
 h
 '
 '
+CoalescedMouseData
+.
+h
+'
+'
 CoalescedWheelData
 .
 h
@@ -293,6 +298,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+CoalescedMouseData
+.
+cpp
+'
 '
 CoalescedWheelData
 .
