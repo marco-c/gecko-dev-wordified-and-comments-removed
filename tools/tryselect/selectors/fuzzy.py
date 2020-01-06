@@ -1416,6 +1416,11 @@ generate_tasks
 (
 parameters
 full
+root
+=
+vcs
+.
+root
 )
     
 key_shortcuts

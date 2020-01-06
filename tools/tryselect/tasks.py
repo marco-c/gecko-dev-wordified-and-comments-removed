@@ -157,6 +157,7 @@ def
 invalidate
 (
 cache
+root
 )
 :
     
@@ -182,9 +183,7 @@ path
 .
 join
 (
-build
-.
-topsrcdir
+root
 '
 taskcluster
 '
@@ -247,11 +246,8 @@ def
 generate_tasks
 (
 params
-=
-None
 full
-=
-False
+root
 )
 :
     
@@ -316,6 +312,7 @@ attr
 invalidate
 (
 cache
+root
 )
     
 if
@@ -469,9 +466,7 @@ path
 .
 join
 (
-build
-.
-topsrcdir
+root
 '
 taskcluster
 '
