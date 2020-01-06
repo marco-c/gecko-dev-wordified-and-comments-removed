@@ -488,11 +488,11 @@ location
                 
 continue
             
-project
+props
 =
 self
 .
-_find_project_name
+_project_properties
 (
 docdir
 )
@@ -506,7 +506,12 @@ path
 join
 (
 format_outdir
+props
+[
+'
 project
+'
+]
 )
             
 args
@@ -596,7 +601,12 @@ tar
 gz
 '
 %
+props
+[
+'
 project
+'
+]
 )
                 
 moztreedocs
@@ -628,6 +638,18 @@ self
 _s3_upload
 (
 savedir
+props
+[
+'
+project
+'
+]
+props
+[
+'
+version
+'
+]
 )
             
 index_path
@@ -859,7 +881,7 @@ True
 )
     
 def
-_find_project_name
+_project_properties
 (
 self
 path
@@ -923,7 +945,24 @@ PY_SOURCE
 )
 )
         
-return
+project
+=
+getattr
+(
+conf
+'
+moz_project_name
+'
+None
+)
+        
+if
+not
+project
+:
+            
+project
+=
 conf
 .
 project
@@ -936,6 +975,30 @@ replace
 _
 '
 )
+        
+return
+{
+            
+'
+project
+'
+:
+project
+            
+'
+version
+'
+:
+getattr
+(
+conf
+'
+version
+'
+None
+)
+        
+}
     
 def
 _find_doc_dir
@@ -1005,6 +1068,10 @@ _s3_upload
 (
 self
 root
+project
+version
+=
+None
 )
 :
         
@@ -1040,11 +1107,61 @@ s3_upload
         
 files
 =
+list
+(
 distribution_files
 (
 root
 )
+)
         
+s3_upload
+(
+files
+key_prefix
+=
+'
+%
+s
+/
+latest
+'
+%
+project
+)
+        
+if
+version
+:
+            
+s3_upload
+(
+files
+key_prefix
+=
+'
+%
+s
+/
+%
+s
+'
+%
+(
+project
+version
+)
+)
+        
+if
+project
+=
+=
+'
+main
+'
+:
+            
 s3_upload
 (
 files

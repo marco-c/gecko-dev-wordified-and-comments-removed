@@ -406,3 +406,8 @@ htmlhelp_basename
 '
 MozillaTreeDocs
 '
+moz_project_name
+=
+'
+main
+'
