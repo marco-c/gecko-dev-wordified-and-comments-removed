@@ -1733,7 +1733,7 @@ mEndReasonNode
 &
 &
 !
-IsVisBreak
+IsVisibleBRElement
 (
 wsObj
 .
@@ -2959,7 +2959,7 @@ br
 if
 (
 !
-IsVisBreak
+IsVisibleBRElement
 (
 wsRunObj
 .

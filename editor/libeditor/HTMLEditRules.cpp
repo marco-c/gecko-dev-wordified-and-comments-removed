@@ -10274,7 +10274,7 @@ mHTMLEditor
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 visNode
 )
@@ -12200,7 +12200,7 @@ br
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 somenode
 )
@@ -12989,7 +12989,7 @@ br
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 &
 aNode
@@ -25410,7 +25410,7 @@ if
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 wsObj
 .
@@ -26840,7 +26840,7 @@ GetParentNode
 htmlEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 priorNode
 )
@@ -27214,7 +27214,7 @@ if
 htmlEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 nextNode
 )
@@ -31562,7 +31562,7 @@ mHTMLEditor
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 sibling
 )
@@ -31640,7 +31640,7 @@ mHTMLEditor
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 sibling
 )
@@ -31775,7 +31775,7 @@ nearNode
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 nearNode
 )
@@ -31824,7 +31824,7 @@ nearNode
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 nearNode
 )
@@ -32130,7 +32130,7 @@ if
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 aBRNode
 )
@@ -37043,7 +37043,7 @@ if
 mHTMLEditor
 -
 >
-IsVisBreak
+IsVisibleBRElement
 (
 nearNode
 )

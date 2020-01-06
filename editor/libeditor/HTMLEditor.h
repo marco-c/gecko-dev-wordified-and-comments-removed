@@ -2368,7 +2368,7 @@ aHighWaterMark
 )
 ;
 bool
-IsVisBreak
+IsVisibleBRElement
 (
 nsINode
 *
