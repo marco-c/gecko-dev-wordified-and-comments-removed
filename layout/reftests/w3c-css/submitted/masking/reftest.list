@@ -825,6 +825,12 @@ clip
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 mask
@@ -1207,6 +1213,12 @@ html
 #
 bug
 1260094
+fails
+-
+if
+(
+webrender
+)
 =
 =
 mask

@@ -241,6 +241,12 @@ continuation
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 element
@@ -1058,6 +1064,12 @@ html
 ref
 .
 svg
+fails
+-
+if
+(
+webrender
+)
 =
 =
 pattern
