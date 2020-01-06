@@ -243,6 +243,9 @@ mIsPresenting
 (
 false
 )
+mSensorState
+{
+}
 {
 MOZ_COUNT_CTOR_INHERITED
 (

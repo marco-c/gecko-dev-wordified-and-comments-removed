@@ -1618,6 +1618,8 @@ m_ctx
 ;
 VRHMDSensorState
 result
+{
+}
 ;
 OSVR_TimeValue
 timestamp

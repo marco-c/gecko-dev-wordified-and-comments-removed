@@ -77,6 +77,12 @@ mDeviceID
 (
 aDeviceID
 )
+mDisplayInfo
+{
+}
+mSensorState
+{
+}
 mTimestamp
 (
 TimeStamp
