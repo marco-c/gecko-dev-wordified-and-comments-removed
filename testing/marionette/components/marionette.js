@@ -685,6 +685,9 @@ generateQI
 Ci
 .
 nsICommandLineHandler
+Ci
+.
+nsIMarionette
 ]
 )
 _xpcom_categories
