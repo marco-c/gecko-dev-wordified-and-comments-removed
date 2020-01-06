@@ -633,7 +633,7 @@ transitioning
 <
 xul
 :
-box
+stack
 anonid
 =
 "
@@ -667,7 +667,7 @@ panelview
 /
 xul
 :
-box
+stack
 >
 <
 /
