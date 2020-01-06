@@ -1391,7 +1391,7 @@ mDWriteFactory
 uint32_t
 mDeviceSeq
 ;
-void
+bool
 EnsureLuminanceEffect
 (
 )
