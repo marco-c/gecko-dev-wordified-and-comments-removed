@@ -1019,7 +1019,9 @@ view
 =
 target
 .
-ownerGlobal
+ownerDocument
+.
+defaultView
 ;
 let
 {
@@ -1429,7 +1431,9 @@ ownerDocument
 ?
 target
 .
-ownerGlobal
+ownerDocument
+.
+defaultView
 :
 null
 ;
