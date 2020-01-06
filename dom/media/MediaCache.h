@@ -91,6 +91,11 @@ MediaCache
 class
 MediaCacheStream
 {
+using
+AutoLock
+=
+ReentrantMonitorAutoEnter
+;
 public
 :
 static
@@ -324,6 +329,8 @@ aBytesPerSecond
 bool
 AreAllStreamsForResourceSuspended
 (
+AutoLock
+&
 )
 ;
 nsresult
@@ -629,6 +636,8 @@ mCount
 uint32_t
 ReadPartialBlock
 (
+AutoLock
+&
 int64_t
 aOffset
 Span
@@ -645,6 +654,8 @@ nsresult
 >
 ReadBlockFromCache
 (
+AutoLock
+&
 int64_t
 aOffset
 Span
@@ -661,6 +672,8 @@ false
 nsresult
 Seek
 (
+AutoLock
+&
 int64_t
 aOffset
 )
@@ -668,6 +681,8 @@ aOffset
 int64_t
 GetCachedDataEndInternal
 (
+AutoLock
+&
 int64_t
 aOffset
 )
@@ -675,6 +690,8 @@ aOffset
 int64_t
 GetNextCachedDataInternal
 (
+AutoLock
+&
 int64_t
 aOffset
 )
@@ -682,11 +699,10 @@ aOffset
 void
 FlushPartialBlockInternal
 (
+AutoLock
+&
 bool
 aNotify
-ReentrantMonitorAutoEnter
-&
-aReentrantMonitor
 )
 ;
 void
