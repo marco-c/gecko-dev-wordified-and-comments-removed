@@ -426,9 +426,7 @@ GLContext
 static
 MOZ_THREAD_LOCAL
 (
-const
-GLContext
-*
+uintptr_t
 )
 sCurrentContext
 ;
