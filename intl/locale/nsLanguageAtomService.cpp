@@ -452,6 +452,11 @@ ToUTF8String
 langStr
 )
 ;
+ToLowerCase
+(
+langStr
+)
+;
 nsAutoCString
 langGroupStr
 ;
