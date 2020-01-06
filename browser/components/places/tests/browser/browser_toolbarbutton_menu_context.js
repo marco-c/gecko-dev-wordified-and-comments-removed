@@ -117,15 +117,9 @@ position
 let
 target
 =
-gPhotonStructure
-?
 CustomizableUI
 .
 AREA_FIXED_OVERFLOW_PANEL
-:
-CustomizableUI
-.
-AREA_PANEL
 ;
 CustomizableUI
 .
