@@ -5166,7 +5166,7 @@ id
 .
 home
 :
-finishChoosingTransition
+onBackPressed
 (
 )
 ;
