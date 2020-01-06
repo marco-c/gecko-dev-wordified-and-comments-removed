@@ -56,6 +56,9 @@ struct
 LinkData
 ;
 struct
+LinkDataTier
+;
+struct
 MetadataTier
 ;
 class
