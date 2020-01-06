@@ -600,6 +600,10 @@ libdbus
 1
 -
 dev
+\
+libpulse
+-
+dev
 If
 you
 using
@@ -782,6 +786,11 @@ devel
 ncurses
 -
 devel
+pulseaudio
+-
+libs
+-
+devel
 #
 #
 #
@@ -875,6 +884,11 @@ ncurses
 -
 devel
 python34
+pulseaudio
+-
+libs
+-
+devel
 #
 #
 #
