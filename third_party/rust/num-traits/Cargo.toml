@@ -64,6 +64,16 @@ mathematics
 numerics
 "
 ]
+categories
+=
+[
+"
+algorithms
+"
+"
+science
+"
+]
 license
 =
 "
@@ -106,7 +116,7 @@ version
 .
 1
 .
-39
+40
 "
 [
 dependencies

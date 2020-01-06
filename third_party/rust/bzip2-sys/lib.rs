@@ -349,7 +349,15 @@ ret
 [
 cfg
 (
+any
+(
 unix
+target_os
+=
+"
+redox
+"
+)
 )
 ]
 extern

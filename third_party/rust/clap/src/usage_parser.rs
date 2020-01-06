@@ -1,10 +1,4 @@
 use
-vec_map
-:
-:
-VecMap
-;
-use
 INTERNAL_ERROR_MSG
 ;
 use
@@ -21,6 +15,12 @@ settings
 :
 :
 ArgSettings
+;
+use
+map
+:
+:
+VecMap
 ;
 #
 [

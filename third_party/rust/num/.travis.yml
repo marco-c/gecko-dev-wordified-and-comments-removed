@@ -82,3 +82,15 @@ email
 on_success
 :
 never
+branches
+:
+only
+:
+-
+master
+-
+next
+-
+staging
+-
+trying
