@@ -1084,6 +1084,7 @@ awaitLoad
 awaitBrowserLoaded
 (
 browser
+awaitLoad
 )
 ]
 )
@@ -1350,12 +1351,16 @@ forWindow
 win
 )
 ;
+EventUtils
+.
+synthesizeMouseAtCenter
+(
 widget
 .
 node
-.
-click
-(
+{
+}
+win
 )
 ;
 }
