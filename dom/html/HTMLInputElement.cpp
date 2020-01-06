@@ -5333,6 +5333,10 @@ mIsPreviewEnabled
 (
 false
 )
+mHasPatternAttribute
+(
+false
+)
 {
 static_assert
 (
@@ -6652,8 +6656,16 @@ nsGkAtoms
 :
 :
 pattern
-&
-&
+)
+{
+mHasPatternAttribute
+=
+!
+!
+aValue
+;
+if
+(
 mDoneCreating
 )
 {
@@ -6661,6 +6673,7 @@ UpdatePatternMismatchValidityState
 (
 )
 ;
+}
 }
 else
 if
