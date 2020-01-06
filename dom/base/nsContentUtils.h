@@ -3770,6 +3770,12 @@ aRunnable
 )
 ;
 static
+bool
+IsInStableOrMetaStableState
+(
+)
+;
+static
 nsISerialEventTarget
 *
 GetStableStateEventTarget

@@ -777,6 +777,15 @@ MicroTaskRunnable
 aRunnable
 )
 ;
+bool
+IsInStableOrMetaStableState
+(
+)
+{
+return
+mDoingStableStates
+;
+}
 JS
 :
 :
