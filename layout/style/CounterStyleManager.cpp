@@ -2203,14 +2203,12 @@ asciiStringLength
 {
 asciiNumberString
 .
-Insert
+InsertLiteral
 (
-NS_LITERAL_STRING
-(
+u
 "
 0
 "
-)
 0
 )
 ;

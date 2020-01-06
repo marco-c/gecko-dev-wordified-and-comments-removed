@@ -5292,14 +5292,12 @@ rv
 ;
 newFilename
 .
-Insert
+InsertLiteral
 (
-NS_LITERAL_STRING
-(
+u
 "
 Invalid
 "
-)
 0
 )
 ;
