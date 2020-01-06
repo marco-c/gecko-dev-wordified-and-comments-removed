@@ -85,7 +85,7 @@ MPL
 0
 /
 .
-ReplaceMalloc
+SharedLibrary
 (
 '
 logalloc

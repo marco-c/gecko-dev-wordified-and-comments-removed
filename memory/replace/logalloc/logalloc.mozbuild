@@ -103,6 +103,9 @@ cpp
 DisableStlWrapping
 (
 )
+USE_STATIC_LIBS
+=
+True
 NO_PGO
 =
 True
@@ -261,8 +264,6 @@ OS_TARGET
 '
 Android
 '
-and
-FORCE_SHARED_LIB
 :
 USE_LIBS
 +

@@ -94,8 +94,6 @@ LOGALLOC_VAR
 LD_PRELOAD
 endif
 endif
-ifndef
-MOZ_REPLACE_MALLOC_STATIC
 LOGALLOC
 =
 (
@@ -116,7 +114,6 @@ logalloc
 (
 DLL_SUFFIX
 )
-endif
 LOGALLOC_MINIMAL
 =
 (

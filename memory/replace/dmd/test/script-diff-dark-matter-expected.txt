@@ -134,10 +134,8 @@ Invocation
 2
 {
 DMD
-=
-'
-1
-'
+is
+undefined
 Mode
 =
 '

@@ -11438,6 +11438,12 @@ debugger
 =
 debugger
             
+dmdPath
+=
+options
+.
+dmdPath
+            
 lsanPath
 =
 lsanPath
@@ -11505,33 +11511,6 @@ MOZ_HEADLESS
 '
 1
 '
-        
-if
-options
-.
-dmd
-:
-            
-browserEnv
-[
-"
-DMD
-"
-]
-=
-os
-.
-environ
-.
-get
-(
-'
-DMD
-'
-'
-1
-'
-)
         
 browserEnv
 [
