@@ -502,11 +502,11 @@ aWriter
 StringProperty
 (
 "
-type
+eventType
 "
 NS_ConvertUTF16toUTF8
 (
-mType
+mEventType
 )
 .
 get
