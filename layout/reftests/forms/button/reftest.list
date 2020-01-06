@@ -584,12 +584,6 @@ rtl
 ref
 .
 html
-fails
--
-if
-(
-styloVsGecko
-)
 =
 =
 display
