@@ -19,17 +19,6 @@ jsm
 "
 )
 ;
-const
-FINISHED_MAINTENANCE_NOTIFICATION_TOPIC
-=
-"
-places
--
-maintenance
--
-finished
-"
-;
 var
 hs
 =

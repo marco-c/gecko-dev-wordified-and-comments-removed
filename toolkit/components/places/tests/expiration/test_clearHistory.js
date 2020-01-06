@@ -1,11 +1,4 @@
 var
-hs
-=
-PlacesUtils
-.
-history
-;
-var
 as
 =
 PlacesUtils

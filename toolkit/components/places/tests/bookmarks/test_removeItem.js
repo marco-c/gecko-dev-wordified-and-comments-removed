@@ -1,9 +1,3 @@
-var
-tests
-=
-[
-]
-;
 const
 DEFAULT_INDEX
 =
