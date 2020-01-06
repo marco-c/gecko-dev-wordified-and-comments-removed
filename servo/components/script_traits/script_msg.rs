@@ -403,7 +403,7 @@ u8
 MozBrowserEvent
 (
 PipelineId
-PipelineId
+TopLevelBrowsingContextId
 MozBrowserEvent
 )
 TraverseHistory
