@@ -31774,13 +31774,10 @@ IsEmpty
 {
 mHandledTokens
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 "
-)
 )
 ;
 }

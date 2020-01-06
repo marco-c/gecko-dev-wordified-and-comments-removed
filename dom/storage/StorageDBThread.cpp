@@ -391,9 +391,7 @@ IsEmpty
 {
 result
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 0
@@ -401,7 +399,6 @@ NS_LITERAL_CSTRING
 f
 :
 "
-)
 )
 ;
 }
