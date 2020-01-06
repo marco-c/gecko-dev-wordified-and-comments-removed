@@ -38,17 +38,6 @@ is
 (
 bpLineNumber
 lineNumber
-"
-Breakpoint
-is
-on
-the
-correct
-line
-in
-the
-gutter
-"
 )
 ;
 }

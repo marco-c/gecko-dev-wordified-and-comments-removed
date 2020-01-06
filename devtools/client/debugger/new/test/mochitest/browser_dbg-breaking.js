@@ -79,6 +79,14 @@ resume
 dbg
 )
 ;
+const
+paused
+=
+waitForPaused
+(
+dbg
+)
+;
 invokeInTab
 (
 "
@@ -87,10 +95,7 @@ doEval
 )
 ;
 await
-waitForPaused
-(
-dbg
-)
+paused
 ;
 await
 resume

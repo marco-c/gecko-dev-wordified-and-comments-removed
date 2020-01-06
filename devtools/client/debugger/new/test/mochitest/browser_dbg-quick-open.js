@@ -639,7 +639,9 @@ result
 .
 textContent
 "
-x13
+x
+:
+13
 "
 )
 )
