@@ -103,6 +103,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes
