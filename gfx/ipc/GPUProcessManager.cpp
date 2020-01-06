@@ -467,6 +467,10 @@ mProcess
 (
 nullptr
 )
+mProcessToken
+(
+0
+)
 mGPUChild
 (
 nullptr
