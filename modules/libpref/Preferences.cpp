@@ -1080,7 +1080,7 @@ aSetOrUnset
 ;
 }
 bool
-HasStickyDefault
+IsSticky
 (
 )
 const
@@ -1088,11 +1088,11 @@ const
 return
 mValue
 &
-PREF_FLAG_STICKY_DEFAULT
+PREF_FLAG_STICKY
 ;
 }
 void
-SetHasStickyDefault
+SetIsSticky
 (
 bool
 aSetOrUnset
@@ -1100,7 +1100,7 @@ aSetOrUnset
 {
 SetFlag
 (
-PREF_FLAG_STICKY_DEFAULT
+PREF_FLAG_STICKY
 aSetOrUnset
 )
 ;
@@ -1208,7 +1208,7 @@ PREF_FLAG_HAS_USER_VALUE
 PREF_FLAG_HAS_DEFAULT_VALUE
 =
 16
-PREF_FLAG_STICKY_DEFAULT
+PREF_FLAG_STICKY
 =
 32
 }
@@ -1604,7 +1604,7 @@ kPrefSetDefault
 kPrefForceSet
 =
 2
-kPrefStickyDefault
+kPrefSticky
 =
 4
 }
@@ -1914,7 +1914,7 @@ pref
 >
 mPrefFlags
 .
-HasStickyDefault
+IsSticky
 (
 )
 )
@@ -3740,7 +3740,7 @@ if
 (
 aFlags
 &
-kPrefStickyDefault
+kPrefSticky
 )
 {
 pref
@@ -3748,7 +3748,7 @@ pref
 >
 mPrefFlags
 .
-SetHasStickyDefault
+SetIsSticky
 (
 true
 )
@@ -3798,7 +3798,7 @@ pref
 >
 mPrefFlags
 .
-HasStickyDefault
+IsSticky
 (
 )
 )
@@ -4699,7 +4699,7 @@ aType
 bool
 aIsDefault
 bool
-aIsStickyDefault
+aIsSticky
 )
 {
 uint32_t
@@ -4719,13 +4719,13 @@ kPrefSetDefault
 ;
 if
 (
-aIsStickyDefault
+aIsSticky
 )
 {
 flags
 |
 =
-kPrefStickyDefault
+kPrefSticky
 ;
 }
 }
@@ -4767,7 +4767,7 @@ aType
 bool
 aIsDefault
 bool
-aIsStickyDefault
+aIsSticky
 )
 ;
 typedef
@@ -4855,7 +4855,7 @@ bool
 mIsDefault
 ;
 bool
-mIsStickyDefault
+mIsSticky
 ;
 }
 ;
@@ -5397,7 +5397,7 @@ false
 aPS
 -
 >
-mIsStickyDefault
+mIsSticky
 =
 false
 ;
@@ -5752,7 +5752,7 @@ kStickyPref
 aPS
 -
 >
-mIsStickyDefault
+mIsSticky
 =
 (
 aPS
@@ -7598,7 +7598,7 @@ mIsDefault
 aPS
 -
 >
-mIsStickyDefault
+mIsSticky
 )
 ;
 state
