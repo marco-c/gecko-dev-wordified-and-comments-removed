@@ -818,7 +818,6 @@ same
 (
 guard
 )
-None
 document_element
 )
 }

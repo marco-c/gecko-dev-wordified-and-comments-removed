@@ -210,12 +210,12 @@ user_or_user_agent_stylesheets
 :
 Vec
 <
-Stylesheet
+DocumentStyleSheet
 >
 pub
 quirks_mode_stylesheet
 :
-Stylesheet
+DocumentStyleSheet
 }
 #
 [
