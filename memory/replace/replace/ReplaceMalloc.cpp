@@ -1027,7 +1027,7 @@ jemalloc_free_dirty_pages_hook
 void
 replace_jemalloc_thread_local_arena
 (
-jemalloc_bool
+bool
 aEnabled
 )
 {
