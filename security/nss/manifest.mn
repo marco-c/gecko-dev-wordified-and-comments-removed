@@ -79,4 +79,5 @@ DIRS
 coreconf
 lib
 cmd
+cpputil
 gtests

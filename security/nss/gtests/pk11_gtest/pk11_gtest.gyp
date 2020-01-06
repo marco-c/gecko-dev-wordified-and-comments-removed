@@ -114,6 +114,11 @@ pk11_aeskeywrap_unittest
 cc
 '
 '
+pk11_aes_gcm_unittest
+.
+cc
+'
+'
 pk11_chacha20poly1305_unittest
 .
 cc
@@ -145,6 +150,11 @@ cc
 '
 '
 pk11_rsapss_unittest
+.
+cc
+'
+'
+pk11_der_private_key_import_unittest
 .
 cc
 '

@@ -31,9 +31,6 @@ unsigned
 char
 *
 iv
-unsigned
-int
-blocksize
 )
 ;
 void

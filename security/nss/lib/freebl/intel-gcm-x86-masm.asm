@@ -2436,8 +2436,7 @@ textequ
 DWORD
 PTR
 [
--
-40
+244
 +
 KS
 ]
@@ -2769,13 +2768,6 @@ KS
 16
 +
 Gctx
-]
-lea
-KS
-[
-44
-+
-KS
 ]
 mov
 aluCTR
@@ -5525,13 +5517,6 @@ KS
 16
 +
 Gctx
-]
-lea
-KS
-[
-44
-+
-KS
 ]
 mov
 aluCTR

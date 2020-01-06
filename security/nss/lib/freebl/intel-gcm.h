@@ -31,9 +31,6 @@ unsigned
 char
 *
 params
-unsigned
-int
-blocksize
 )
 ;
 void

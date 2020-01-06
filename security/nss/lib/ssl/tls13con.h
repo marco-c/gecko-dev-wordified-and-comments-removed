@@ -263,7 +263,7 @@ tls13_HandlePostHelloHandshakeMessage
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -279,7 +279,7 @@ tls13_HandleHelloRetryRequest
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -367,7 +367,7 @@ cwSpec
 SSL3ContentType
 type
 const
-SSL3Opaque
+PRUint8
 *
 pIn
 PRUint32

@@ -83,8 +83,16 @@ ext
 )
 ;
 void
-SSLInt_ClearSessionTicketKey
+SSLInt_ClearSelfEncryptKey
 (
+)
+;
+void
+SSLInt_SetSelfEncryptMacKey
+(
+PK11SymKey
+*
+key
 )
 ;
 PRInt32

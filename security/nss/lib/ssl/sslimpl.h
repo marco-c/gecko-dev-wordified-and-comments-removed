@@ -1378,7 +1378,7 @@ sslSocket
 typedef
 struct
 {
-SSL3Opaque
+PRUint8
 wrapped_master_secret
 [
 48
@@ -1423,7 +1423,7 @@ write_iv_item
 SECItem
 write_mac_key_item
 ;
-SSL3Opaque
+PRUint8
 write_iv
 [
 MAX_IV_LENGTH
@@ -1781,7 +1781,7 @@ struct
 PRUint8
 sessionIDLength
 ;
-SSL3Opaque
+PRUint8
 sessionID
 [
 SSL3_SESSIONID_BYTES
@@ -2238,7 +2238,7 @@ sFinished
 2
 ]
 ;
-SSL3Opaque
+PRUint8
 data
 [
 72
@@ -2572,7 +2572,7 @@ typedef
 struct
 SSLWrappedSymWrappingKeyStr
 {
-SSL3Opaque
+PRUint8
 wrappedSymmetricWrappingkey
 [
 512
@@ -2638,7 +2638,7 @@ msWrapMech
 PRUint16
 ms_length
 ;
-SSL3Opaque
+PRUint8
 master_secret
 [
 48
@@ -3012,6 +3012,33 @@ SSLProtocolVariant
 protocolVariant
 ;
 }
+;
+struct
+sslSelfEncryptKeysStr
+{
+PRCallOnceType
+setup
+;
+PRUint8
+keyName
+[
+SELF_ENCRYPT_KEY_NAME_LEN
+]
+;
+PK11SymKey
+*
+encKey
+;
+PK11SymKey
+*
+macKey
+;
+}
+;
+typedef
+struct
+sslSelfEncryptKeysStr
+sslSelfEncryptKeys
 ;
 extern
 char
@@ -3966,7 +3993,7 @@ cwSpec
 SSL3ContentType
 type
 const
-SSL3Opaque
+PRUint8
 *
 pIn
 PRInt32
@@ -5269,7 +5296,7 @@ ssl3_HandleHandshakeMessage
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -5294,7 +5321,7 @@ ssl_ClientReadVersion
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 *
 b
@@ -5347,7 +5374,7 @@ ssl3_HandleECDHServerKeyExchange
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -5361,7 +5388,7 @@ ssl3_HandleECDHClientKeyExchange
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -5390,7 +5417,7 @@ ss
 SECKEYPublicKey
 *
 peerKey
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -5503,7 +5530,7 @@ sslSocket
 *
 ss
 const
-SSL3Opaque
+PRUint8
 *
 src
 PRInt32
@@ -5537,7 +5564,7 @@ void
 v
 PRUint32
 bytes
-SSL3Opaque
+PRUint8
 *
 *
 b
@@ -5558,7 +5585,7 @@ PRUint32
 num
 PRUint32
 bytes
-SSL3Opaque
+PRUint8
 *
 *
 b
@@ -5579,7 +5606,7 @@ SECItem
 i
 PRUint32
 bytes
-SSL3Opaque
+PRUint8
 *
 *
 b
@@ -5662,7 +5689,7 @@ ssl_ConsumeSignatureScheme
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 *
 b
@@ -5761,7 +5788,7 @@ ticket_data
 )
 ;
 SECStatus
-ssl_MaybeSetSessionTicketKeyPair
+ssl_MaybeSetSelfEncryptKeyPair
 (
 const
 sslKeyPair
@@ -5770,7 +5797,7 @@ keyPair
 )
 ;
 SECStatus
-ssl_GetSessionTicketKeys
+ssl_GetSelfEncryptKeys
 (
 sslSocket
 *
@@ -5790,7 +5817,7 @@ macKey
 )
 ;
 void
-ssl_ResetSessionTicketKeys
+ssl_ResetSelfEncryptKeys
 (
 )
 ;
@@ -5935,7 +5962,7 @@ dtls_HandleHelloVerifyRequest
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -5961,7 +5988,7 @@ ss
 SSL3ContentType
 type
 const
-SSL3Opaque
+PRUint8
 *
 pIn
 PRInt32
@@ -6177,7 +6204,7 @@ ssl3_CompleteHandleCertificate
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -6240,7 +6267,7 @@ ssl_ReadCertificateStatus
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32
@@ -6290,7 +6317,7 @@ ssl3_ParseCertificateRequestCAs
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 *
 b

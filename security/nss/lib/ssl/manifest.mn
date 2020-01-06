@@ -135,6 +135,10 @@ ssldef
 .
 c
 \
+ssl3encode
+.
+c
+\
 sslenum
 .
 c
@@ -196,6 +200,10 @@ authcert
 c
 \
 cmpcert
+.
+c
+\
+selfencrypt
 .
 c
 \

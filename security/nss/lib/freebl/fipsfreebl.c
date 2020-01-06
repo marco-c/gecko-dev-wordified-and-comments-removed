@@ -7080,6 +7080,7 @@ if
 (
 freebl_only
 &
+&
 self_tests_freebl_success
 )
 {

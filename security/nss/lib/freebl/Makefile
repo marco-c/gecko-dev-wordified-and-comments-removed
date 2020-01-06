@@ -1217,6 +1217,13 @@ DEFINES
 =
 -
 DNSS_X86_OR_X64
+CFLAGS
++
+=
+-
+mpclmul
+-
+maes
 ifneq
 (
 (

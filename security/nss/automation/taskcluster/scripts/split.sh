@@ -129,6 +129,7 @@ DIRS
 /
 s
 /
+cpputil
 gtests
 /
 /
@@ -201,6 +202,12 @@ rf
 dstdir
 /
 gtests
+rm
+-
+rf
+dstdir
+/
+cpputil
 rm
 -
 rf
@@ -420,6 +427,7 @@ DIRS
 /
 s
 /
+cpputil
 gtests
 /
 /
@@ -498,6 +506,12 @@ rf
 dstdir
 /
 gtests
+rm
+-
+rf
+dstdir
+/
+cpputil
 rm
 -
 rf

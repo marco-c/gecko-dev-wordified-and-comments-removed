@@ -17,7 +17,7 @@ h
 #
 include
 "
-scoped_ptrs
+scoped_ptrs_util
 .
 h
 "
@@ -39,6 +39,13 @@ h
 include
 "
 secasn1
+.
+h
+"
+#
+include
+"
+secder
 .
 h
 "

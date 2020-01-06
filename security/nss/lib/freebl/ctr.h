@@ -77,9 +77,6 @@ unsigned
 char
 *
 param
-unsigned
-int
-blocksize
 )
 ;
 CTRContext
@@ -96,9 +93,6 @@ unsigned
 char
 *
 param
-unsigned
-int
-blocksize
 )
 ;
 void

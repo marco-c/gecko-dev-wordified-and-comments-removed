@@ -447,6 +447,9 @@ TRUE
 ;
 then
 cd
+.
+.
+/
 common
 .
 .

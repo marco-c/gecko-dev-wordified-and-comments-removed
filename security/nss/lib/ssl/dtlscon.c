@@ -803,7 +803,7 @@ dtls_HandleHandshakeMessage
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 data
 PRBool
@@ -1829,7 +1829,7 @@ ss
 SSL3ContentType
 type
 const
-SSL3Opaque
+PRUint8
 *
 pIn
 PRInt32
@@ -3527,7 +3527,7 @@ dtls_HandleHelloVerifyRequest
 sslSocket
 *
 ss
-SSL3Opaque
+PRUint8
 *
 b
 PRUint32

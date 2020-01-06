@@ -1218,7 +1218,7 @@ ssl_auth_rsa_decrypt
 {
 if
 (
-ssl_MaybeSetSessionTicketKeyPair
+ssl_MaybeSetSelfEncryptKeyPair
 (
 keyPair
 )

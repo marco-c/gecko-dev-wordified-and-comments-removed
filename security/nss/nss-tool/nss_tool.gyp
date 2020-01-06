@@ -138,6 +138,13 @@ enctool
 .
 cc
 '
+'
+digest
+/
+digesttool
+.
+cc
+'
 ]
 '
 include_dirs
