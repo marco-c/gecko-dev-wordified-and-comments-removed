@@ -796,6 +796,8 @@ AutoLockHelperThreadState
 &
 )
 ;
+private
+:
 void
 scheduleCompressionTasks
 (
@@ -804,6 +806,8 @@ AutoLockHelperThreadState
 &
 )
 ;
+public
+:
 bool
 pendingIonCompileHasSufficientPriority
 (
@@ -1157,6 +1161,10 @@ checkTaskThreadLimit
 (
 size_t
 maxThreads
+bool
+isMaster
+=
+false
 )
 const
 ;
