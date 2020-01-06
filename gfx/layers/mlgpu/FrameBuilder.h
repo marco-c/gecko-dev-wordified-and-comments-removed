@@ -45,6 +45,13 @@ h
 #
 include
 "
+MLGDevice
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h
