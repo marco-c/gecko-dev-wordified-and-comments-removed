@@ -1932,9 +1932,15 @@ Custom
 StyleParseError
 :
 :
+PropertyDeclaration
+(
+PropertyDeclarationParseError
+:
+:
 UnknownProperty
 (
 property
+)
 )
 )
 )
