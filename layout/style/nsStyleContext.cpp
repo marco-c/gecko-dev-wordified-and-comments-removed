@@ -2825,7 +2825,7 @@ this
 }
 already_AddRefed
 <
-nsStyleContext
+GeckoStyleContext
 >
 NS_NewStyleContext
 (
@@ -2854,7 +2854,7 @@ aRuleNode
 ;
 RefPtr
 <
-nsStyleContext
+GeckoStyleContext
 >
 context
 =

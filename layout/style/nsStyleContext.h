@@ -1454,7 +1454,10 @@ endif
 ;
 already_AddRefed
 <
-nsStyleContext
+mozilla
+:
+:
+GeckoStyleContext
 >
 NS_NewStyleContext
 (

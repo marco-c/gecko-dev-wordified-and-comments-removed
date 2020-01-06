@@ -225,6 +225,9 @@ TimingParams
 class
 EffectSet
 ;
+class
+ServoStyleContext
+;
 namespace
 dom
 {
@@ -1255,8 +1258,10 @@ ServoComputedValues
 aComputedValues
 RefPtr
 <
-const
-ServoComputedValues
+mozilla
+:
+:
+ServoStyleContext
 >
 &
 aBaseComputedValues
