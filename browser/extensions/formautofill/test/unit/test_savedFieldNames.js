@@ -70,6 +70,15 @@ init
 (
 )
 ;
+await
+formAutofillParent
+.
+profileStorage
+.
+initialize
+(
+)
+;
 do_check_eq
 (
 formAutofillParent
