@@ -188,8 +188,13 @@ registry
 .
 register_later
 (
-box
+Box
+:
+:
+new
+(
 actor
+)
 )
 ;
 name

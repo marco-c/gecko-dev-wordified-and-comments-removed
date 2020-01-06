@@ -352,7 +352,11 @@ system_reporter_receiver
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 |
 message
 |
@@ -380,6 +384,7 @@ collect_reports
 request
 )
 }
+)
 )
 ;
 mem_profiler_chan

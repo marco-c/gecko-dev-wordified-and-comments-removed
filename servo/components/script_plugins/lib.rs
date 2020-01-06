@@ -11,14 +11,6 @@ unsafe_code
 [
 feature
 (
-box_syntax
-)
-]
-#
-!
-[
-feature
-(
 plugin
 )
 ]
@@ -97,7 +89,11 @@ reg
 .
 register_late_lint_pass
 (
-box
+Box
+:
+:
+new
+(
 unrooted_must_root
 :
 :
@@ -106,6 +102,7 @@ UnrootedPass
 :
 new
 (
+)
 )
 )
 ;

@@ -356,7 +356,11 @@ ipc_receiver
 to_opaque
 (
 )
-box
+Box
+:
+:
+new
+(
 move
 |
 message
@@ -429,6 +433,7 @@ e
 }
 ;
 }
+)
 )
 ;
 if
@@ -683,16 +688,6 @@ _
 =
 >
 {
-/
-/
-Response
-should
-be
-processed
-by
-script
-thread
-.
 self
 .
 should_send

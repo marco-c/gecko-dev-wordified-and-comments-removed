@@ -253,8 +253,13 @@ registry
 .
 register_later
 (
-box
+Box
+:
+:
+new
+(
 actor
+)
 )
 ;
 actor_name

@@ -11,14 +11,6 @@ unsafe_code
 [
 feature
 (
-box_syntax
-)
-]
-#
-!
-[
-feature
-(
 conservative_impl_trait
 )
 ]

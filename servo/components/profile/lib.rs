@@ -20,14 +20,6 @@ alloc_jemalloc
 #
 !
 [
-feature
-(
-box_syntax
-)
-]
-#
-!
-[
 deny
 (
 unsafe_code

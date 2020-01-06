@@ -11,14 +11,6 @@ non_camel_case_types
 [
 feature
 (
-box_syntax
-)
-]
-#
-!
-[
-feature
-(
 core_intrinsics
 )
 ]
