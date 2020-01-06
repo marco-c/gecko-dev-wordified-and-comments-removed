@@ -361,13 +361,6 @@ ToCss
 }
 ;
 pub
-use
-viewport
-:
-:
-HasViewportPercentage
-;
-pub
 type
 ParseError
 <

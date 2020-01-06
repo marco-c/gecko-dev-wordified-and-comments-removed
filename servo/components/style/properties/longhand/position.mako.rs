@@ -2807,12 +2807,6 @@ dense
 bool
 }
 }
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
-;
 impl
 ComputedValueAsSpecified
 for
@@ -3658,12 +3652,6 @@ Range
 u32
 >
 }
-no_viewport_percentage
-!
-(
-TemplateAreas
-)
-;
 impl
 ComputedValueAsSpecified
 for

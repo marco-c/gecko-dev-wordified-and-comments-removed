@@ -105,7 +105,6 @@ derive
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 )
 ]
@@ -146,7 +145,6 @@ Clone
 Copy
 Debug
 Eq
-HasViewportPercentage
 PartialEq
 )
 ]

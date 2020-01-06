@@ -58,7 +58,6 @@ Debug
 [
 derive
 (
-HasViewportPercentage
 PartialEq
 ToComputedValue
 )

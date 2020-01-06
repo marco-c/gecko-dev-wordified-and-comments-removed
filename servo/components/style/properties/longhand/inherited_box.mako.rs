@@ -660,12 +660,6 @@ specified
 :
 Angle
 ;
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
-;
 use
 std
 :
@@ -2015,12 +2009,6 @@ computed
 :
 :
 ComputedValueAsSpecified
-;
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
 ;
 #
 [

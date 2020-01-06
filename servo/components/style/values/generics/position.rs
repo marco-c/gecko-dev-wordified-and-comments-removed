@@ -28,7 +28,6 @@ Debug
 [
 derive
 (
-HasViewportPercentage
 PartialEq
 ToAnimatedZero
 ToComputedValue

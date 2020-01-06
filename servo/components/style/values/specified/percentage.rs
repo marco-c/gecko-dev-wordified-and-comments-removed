@@ -140,12 +140,6 @@ Option
 AllowedNumericType
 >
 }
-no_viewport_percentage
-!
-(
-Percentage
-)
-;
 impl
 ToCss
 for

@@ -471,12 +471,6 @@ for
 name
 {
 }
-no_viewport_percentage
-!
-(
-name
-)
-;
 }
 ;
 }
@@ -699,12 +693,6 @@ for
 name
 {
 }
-no_viewport_percentage
-!
-(
-name
-)
-;
 }
 ;
 }

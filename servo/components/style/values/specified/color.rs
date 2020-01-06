@@ -208,12 +208,6 @@ gecko
 ]
 InheritFromBodyQuirk
 }
-no_viewport_percentage
-!
-(
-Color
-)
-;
 #
 [
 cfg
@@ -2001,12 +1995,6 @@ RGBAColor
 (
 pub
 Color
-)
-;
-no_viewport_percentage
-!
-(
-RGBAColor
 )
 ;
 impl

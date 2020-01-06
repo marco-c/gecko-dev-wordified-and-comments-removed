@@ -2108,12 +2108,6 @@ Ok
 )
 }
 }
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
-;
 impl
 ComputedValueAsSpecified
 for
@@ -2182,12 +2176,6 @@ computed
 :
 :
 ComputedValueAsSpecified
-;
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
 ;
 impl
 ComputedValueAsSpecified

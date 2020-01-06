@@ -136,12 +136,6 @@ for
 SpecifiedValue
 {
 }
-no_viewport_percentage
-!
-(
-SpecifiedValue
-)
-;
 pub
 mod
 computed_value

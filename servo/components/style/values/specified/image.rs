@@ -433,7 +433,6 @@ derive
 (
 Clone
 Debug
-HasViewportPercentage
 PartialEq
 )
 ]
@@ -502,7 +501,6 @@ derive
 (
 Clone
 Debug
-HasViewportPercentage
 PartialEq
 ToCss
 )

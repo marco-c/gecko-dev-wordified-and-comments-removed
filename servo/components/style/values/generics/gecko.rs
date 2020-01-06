@@ -5,7 +5,6 @@ derive
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 ToComputedValue
 ToCss

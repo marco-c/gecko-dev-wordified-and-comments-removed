@@ -270,7 +270,6 @@ derive
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 ToComputedValue
 ToCss
@@ -359,7 +358,6 @@ Animate
 Clone
 ComputeSquaredDistance
 Copy
-HasViewportPercentage
 )
 ]
 #
@@ -1330,11 +1328,5 @@ available
 =
 >
 FillAvailable
-)
-;
-no_viewport_percentage
-!
-(
-ExtremumLength
 )
 ;

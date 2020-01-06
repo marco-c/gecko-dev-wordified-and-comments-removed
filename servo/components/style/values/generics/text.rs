@@ -69,7 +69,6 @@ derive
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 ToComputedValue
 ToCss
@@ -145,7 +144,6 @@ derive
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 ToComputedValue
 ToCss
@@ -666,7 +664,6 @@ Debug
 [
 derive
 (
-HasViewportPercentage
 PartialEq
 ToAnimatedValue
 ToCss

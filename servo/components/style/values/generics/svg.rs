@@ -606,7 +606,6 @@ derive
 Clone
 Copy
 Debug
-HasViewportPercentage
 PartialEq
 ToAnimatedValue
 )
@@ -1086,7 +1085,6 @@ PartialEq
 [
 derive
 (
-HasViewportPercentage
 ToAnimatedValue
 ToAnimatedZero
 )
@@ -1134,7 +1132,6 @@ derive
 Clone
 ComputeSquaredDistance
 Debug
-HasViewportPercentage
 PartialEq
 ToAnimatedValue
 ToComputedValue
@@ -1331,7 +1328,6 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
-HasViewportPercentage
 )
 ]
 #
