@@ -1025,8 +1025,16 @@ traversal
 {
 DomTraversal
 TraversalDriver
-TraversalFlags
 }
+;
+use
+style
+:
+:
+traversal_flags
+:
+:
+TraversalFlags
 ;
 pub
 struct

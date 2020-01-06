@@ -258,7 +258,7 @@ use
 thread_state
 ;
 use
-traversal
+traversal_flags
 :
 :
 TraversalFlags

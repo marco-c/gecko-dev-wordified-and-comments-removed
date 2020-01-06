@@ -254,10 +254,13 @@ use
 traversal
 :
 :
-{
 DomTraversal
+;
+use
+traversal_flags
+:
+:
 TraversalFlags
-}
 ;
 pub
 use
