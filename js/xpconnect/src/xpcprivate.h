@@ -3820,7 +3820,15 @@ IsAddonScope
 )
 {
 return
-mIsAddonScope
+xpc
+:
+:
+IsAddonCompartment
+(
+Compartment
+(
+)
+)
 ;
 }
 inline
@@ -4012,9 +4020,6 @@ JSObject
 *
 >
 mXrayExpandos
-;
-bool
-mIsAddonScope
 ;
 bool
 mAllowContentXBLScope
@@ -11476,6 +11481,9 @@ allowCPOWs
 ;
 bool
 isContentXBLCompartment
+;
+bool
+isAddonCompartment
 ;
 bool
 universalXPConnectEnabled

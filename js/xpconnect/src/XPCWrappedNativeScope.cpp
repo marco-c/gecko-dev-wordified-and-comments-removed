@@ -373,10 +373,6 @@ mGlobalJSObject
 (
 aGlobal
 )
-mIsAddonScope
-(
-false
-)
 {
 {
 MOZ_ASSERT
@@ -1883,7 +1879,9 @@ IsContentXBLScope
 MOZ_ASSERT
 (
 !
-mIsAddonScope
+IsAddonScope
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -2063,10 +2061,7 @@ toObject
 )
 -
 >
-scope
--
->
-mIsAddonScope
+isAddonCompartment
 =
 true
 ;
