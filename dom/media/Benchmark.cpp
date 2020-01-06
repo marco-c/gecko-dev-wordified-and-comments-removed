@@ -502,7 +502,7 @@ QueueObject
 AbstractThread
 :
 :
-GetCurrent
+MainThread
 (
 )
 )
