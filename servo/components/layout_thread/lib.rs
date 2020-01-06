@@ -560,15 +560,6 @@ use
 script_layout_interface
 :
 :
-reporter
-:
-:
-CSSErrorReporter
-;
-use
-script_layout_interface
-:
-:
 rpc
 :
 :
