@@ -10748,7 +10748,7 @@ if
 (
 len
 >
-100
+SourceDeflateLimit
 &
 &
 !

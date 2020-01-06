@@ -1357,6 +1357,13 @@ movePendingCompressedSource
 ;
 public
 :
+static
+const
+size_t
+SourceDeflateLimit
+=
+100
+;
 explicit
 ScriptSource
 (
