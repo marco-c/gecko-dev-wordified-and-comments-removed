@@ -280,13 +280,6 @@ onboarding
 -
 tour
 -
-search
-"
-"
-onboarding
--
-tour
--
 singlesearch
 "
 "
