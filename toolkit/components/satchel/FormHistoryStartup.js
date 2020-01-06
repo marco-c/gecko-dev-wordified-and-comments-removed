@@ -638,6 +638,7 @@ let
 {
 inputName
 value
+guid
 }
 =
 message
@@ -658,6 +659,7 @@ fieldname
 :
 inputName
 value
+guid
 }
 )
 ;
