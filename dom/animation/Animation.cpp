@@ -5404,6 +5404,10 @@ MaybeReject
 NS_ERROR_DOM_ABORT_ERR
 )
 ;
+mReady
+=
+nullptr
+;
 }
 }
 bool
