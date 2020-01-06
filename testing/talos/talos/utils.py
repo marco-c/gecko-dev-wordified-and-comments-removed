@@ -93,25 +93,6 @@ Microsoft
         
 if
 '
-5
-.
-1
-'
-in
-platform
-.
-version
-(
-)
-:
-            
-return
-'
-win_
-'
-        
-elif
-'
 6
 .
 1

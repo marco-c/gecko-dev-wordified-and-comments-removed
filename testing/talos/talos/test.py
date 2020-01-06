@@ -4,7 +4,6 @@ from
 talos
 import
 filter
-utils
 "
 "
 "
@@ -1752,18 +1751,6 @@ tabswitch
 maxurls
 '
 :
-            
-45
-if
-utils
-.
-PLATFORM_TYPE
-=
-=
-'
-win_
-'
-else
 -
 1
     
