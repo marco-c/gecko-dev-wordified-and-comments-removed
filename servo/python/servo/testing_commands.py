@@ -8113,19 +8113,14 @@ CommandArgument
 -
 version
 '
-action
-=
-'
-store_true
-'
 default
 =
 '
-1
+2
 .
 0
 .
-3
+0
 '
                      
 help
