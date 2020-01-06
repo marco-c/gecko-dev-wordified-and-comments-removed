@@ -254,7 +254,7 @@ CC_TYPE
 clang
 '
 :
-CFLAGS
+CXXFLAGS
 +
 =
 [
