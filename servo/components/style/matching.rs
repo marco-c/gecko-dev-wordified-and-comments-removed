@@ -15,6 +15,12 @@ missing_docs
 )
 ]
 use
+applicable_declarations
+:
+:
+ApplicableDeclarationList
+;
+use
 cascade_info
 :
 :
@@ -186,10 +192,7 @@ use
 stylist
 :
 :
-{
-ApplicableDeclarationList
 RuleInclusion
-}
 ;
 enum
 InheritMode

@@ -16,6 +16,14 @@ Hash
 Hasher
 }
 ;
+pub
+const
+BLOOM_HASH_MASK
+:
+u32
+=
+0x00ffffff
+;
 const
 KEY_SIZE
 :
@@ -46,13 +54,6 @@ KEY_SIZE
 )
 -
 1
-;
-const
-KEY_SHIFT
-:
-usize
-=
-16
 ;
 pub
 struct
@@ -672,7 +673,7 @@ u32
 hash
 >
 >
-KEY_SHIFT
+KEY_SIZE
 )
 &
 KEY_MASK

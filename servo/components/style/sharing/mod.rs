@@ -2,6 +2,12 @@ use
 Atom
 ;
 use
+applicable_declarations
+:
+:
+ApplicableDeclarationBlock
+;
+use
 bit_vec
 :
 :
@@ -109,10 +115,7 @@ use
 stylist
 :
 :
-{
-ApplicableDeclarationBlock
 Stylist
-}
 ;
 mod
 checks

@@ -415,6 +415,10 @@ pub
 mod
 animation
 ;
+pub
+mod
+applicable_declarations
+;
 #
 [
 allow

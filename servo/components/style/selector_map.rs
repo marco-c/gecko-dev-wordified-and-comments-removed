@@ -5,6 +5,12 @@ LocalName
 }
 ;
 use
+applicable_declarations
+:
+:
+ApplicableDeclarationBlock
+;
+use
 dom
 :
 :
@@ -110,10 +116,7 @@ use
 stylist
 :
 :
-{
-ApplicableDeclarationBlock
 Rule
-}
 ;
 pub
 trait
@@ -617,6 +620,8 @@ specificity
 block
 .
 source_order
+(
+)
 )
 )
 ;
@@ -752,6 +757,8 @@ specificity
 block
 .
 source_order
+(
+)
 )
 )
 ;
