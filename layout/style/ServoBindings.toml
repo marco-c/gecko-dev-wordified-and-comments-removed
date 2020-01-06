@@ -575,6 +575,13 @@ h
 "
 mozilla
 /
+StylePrefs
+.
+h
+"
+"
+mozilla
+/
 ServoBindings
 .
 h
@@ -1035,6 +1042,12 @@ mozilla
 :
 :
 ServoTraversalFlags
+"
+"
+mozilla
+:
+:
+StylePrefs
 "
 "
 mozilla

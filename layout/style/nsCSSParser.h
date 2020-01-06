@@ -158,12 +158,6 @@ nsCSSParser
 ;
 static
 void
-Startup
-(
-)
-;
-static
-void
 Shutdown
 (
 )
