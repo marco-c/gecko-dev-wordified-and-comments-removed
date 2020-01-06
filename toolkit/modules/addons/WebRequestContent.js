@@ -123,6 +123,10 @@ IS_HTTP
 https
 ?
 :
+|
+wss
+?
+:
 /
 ;
 var
