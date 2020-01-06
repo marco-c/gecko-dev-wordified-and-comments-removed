@@ -384,10 +384,6 @@ toolchains
 linux64
 -
 gcc
--
-4
-.
-8
 linux64
 -
 clang
