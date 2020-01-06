@@ -574,10 +574,8 @@ set
 "
 test_set_unsupported_pref
 "
-new
-Array
-(
-)
+[
+]
 )
 ;
 do_check_true

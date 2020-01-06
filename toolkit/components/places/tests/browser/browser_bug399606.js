@@ -235,9 +235,8 @@ historyObserver
 {
 visitCount
 :
-Array
-(
-)
+[
+]
 onBeginUpdateBatch
 (
 )

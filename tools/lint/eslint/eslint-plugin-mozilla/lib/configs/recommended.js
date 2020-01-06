@@ -522,6 +522,17 @@ error
 "
 no
 -
+array
+-
+constructor
+"
+:
+"
+error
+"
+"
+no
+-
 cond
 -
 assign

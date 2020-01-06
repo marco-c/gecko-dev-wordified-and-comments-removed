@@ -296,17 +296,6 @@ error
 "
 no
 -
-array
--
-constructor
-"
-:
-"
-error
-"
-"
-no
--
 unused
 -
 expressions

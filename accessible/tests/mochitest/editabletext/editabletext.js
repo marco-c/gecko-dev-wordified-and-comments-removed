@@ -49,10 +49,8 @@ this
 .
 seq
 =
-new
-Array
-(
-)
+[
+]
 ;
 this
 .

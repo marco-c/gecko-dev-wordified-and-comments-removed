@@ -3140,8 +3140,8 @@ nsIProperties
 let
 filePaths
 =
-new
-Array
+[
+]
 ;
 if
 (
@@ -3155,8 +3155,8 @@ this
 .
 _createdFiles
 =
-new
-Array
+[
+]
 ;
 }
 let

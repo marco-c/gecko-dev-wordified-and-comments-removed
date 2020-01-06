@@ -140,17 +140,6 @@ error
 "
 no
 -
-array
--
-constructor
-"
-:
-"
-error
-"
-"
-no
--
 control
 -
 regex
