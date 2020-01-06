@@ -75,7 +75,7 @@ media
 TimeUnit
 ;
 namespace
-mp4_demuxer
+mozilla
 {
 mozilla
 :

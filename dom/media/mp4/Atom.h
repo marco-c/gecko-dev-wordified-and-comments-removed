@@ -5,7 +5,7 @@ ATOM_H_
 define
 ATOM_H_
 namespace
-mp4_demuxer
+mozilla
 {
 class
 Atom

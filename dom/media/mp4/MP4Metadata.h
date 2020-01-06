@@ -72,7 +72,7 @@ mp4parse
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 class
 IndiceWrapper
@@ -94,6 +94,9 @@ GetIndice
 (
 size_t
 aIndex
+mp4_demuxer
+:
+:
 Index
 :
 :
@@ -143,6 +146,9 @@ public
 explicit
 StreamAdaptor
 (
+mp4_demuxer
+:
+:
 Stream
 *
 aSource
@@ -179,6 +185,9 @@ bytes_read
 ;
 private
 :
+mp4_demuxer
+:
+:
 Stream
 *
 mSource
@@ -199,6 +208,9 @@ public
 explicit
 MP4Metadata
 (
+mp4_demuxer
+:
+:
 Stream
 *
 aSource
@@ -366,6 +378,9 @@ static
 ResultAndByteBuffer
 Metadata
 (
+mp4_demuxer
+:
+:
 Stream
 *
 aSource
@@ -519,6 +534,9 @@ mCrypto
 ;
 RefPtr
 <
+mp4_demuxer
+:
+:
 Stream
 >
 mSource
