@@ -5950,15 +5950,6 @@ aPrerenderSize
 ;
 static
 bool
-SupportsServoStyleBackend
-(
-nsIDocument
-*
-aDocument
-)
-;
-static
-bool
 IsInvisibleBreak
 (
 nsINode
