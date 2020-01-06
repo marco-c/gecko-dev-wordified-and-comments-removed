@@ -83,7 +83,7 @@ JNIObject
 public
 final
 class
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 {
 private
 static
@@ -92,7 +92,7 @@ String
 LOGTAG
 =
 "
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 "
 ;
 private
@@ -160,7 +160,7 @@ null
 public
 static
 class
-HlsDemuxerCallbacks
+Callbacks
 extends
 JNIObject
 implements
@@ -176,7 +176,7 @@ calledFrom
 gecko
 "
 )
-HlsDemuxerCallbacks
+Callbacks
 (
 )
 {
@@ -372,7 +372,7 @@ gecko
 )
 public
 static
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 create
 (
 GeckoHlsPlayer
@@ -385,7 +385,7 @@ callback
 {
 return
 new
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 (
 player
 callback
@@ -727,7 +727,7 @@ seekTime
 )
 ;
 }
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 (
 GeckoHlsPlayer
 player
@@ -748,7 +748,7 @@ d
 LOGTAG
 "
 Constructing
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 .
 .
 .
@@ -802,7 +802,7 @@ e
 LOGTAG
 "
 Constructing
-GeckoHlsDemuxerWrapper
+GeckoHLSDemuxerWrapper
 .
 .
 .
