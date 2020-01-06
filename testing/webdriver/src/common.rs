@@ -74,6 +74,7 @@ derive
 (
 RustcEncodable
 PartialEq
+Clone
 Debug
 )
 ]
