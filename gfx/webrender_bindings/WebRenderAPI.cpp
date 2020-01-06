@@ -2497,6 +2497,11 @@ LayoutSize
 &
 aContentSize
 )
+:
+mMaskClipCount
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -2982,7 +2987,7 @@ WrClipId
 &
 aClipId
 bool
-aRecordInStack
+aMask
 )
 {
 wr_dp_push_clip
@@ -3014,7 +3019,8 @@ id
 ;
 if
 (
-aRecordInStack
+!
+aMask
 )
 {
 mClipIdStack
@@ -3025,6 +3031,13 @@ aClipId
 )
 ;
 }
+else
+{
+mMaskClipCount
++
++
+;
+}
 }
 void
 DisplayListBuilder
@@ -3033,7 +3046,7 @@ DisplayListBuilder
 PopClip
 (
 bool
-aRecordInStack
+aMask
 )
 {
 WRDL_LOG
@@ -3061,7 +3074,8 @@ id
 ;
 if
 (
-aRecordInStack
+!
+aMask
 )
 {
 mClipIdStack
@@ -3069,6 +3083,13 @@ mClipIdStack
 pop_back
 (
 )
+;
+}
+else
+{
+mMaskClipCount
+-
+-
 ;
 }
 wr_dp_pop_clip
