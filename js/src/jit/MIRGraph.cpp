@@ -150,10 +150,6 @@ abortedPreliminaryGroups_
 *
 alloc_
 )
-pauseBuild_
-(
-nullptr
-)
 cancelBuild_
 (
 false
