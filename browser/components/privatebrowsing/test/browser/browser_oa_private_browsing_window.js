@@ -82,7 +82,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 DUMMY_PAGE
 )
 ;

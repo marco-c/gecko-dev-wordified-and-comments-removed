@@ -43,7 +43,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 "
 http
 :

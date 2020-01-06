@@ -74,7 +74,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 url
 )
 ;

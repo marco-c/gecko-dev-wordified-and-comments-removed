@@ -454,7 +454,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 TARGET_URL
 )
 ;

@@ -1806,9 +1806,6 @@ progressListener
 async
 waitForNewWindow
 (
-delayedStartup
-=
-true
 initialBrowserLoaded
 =
 null

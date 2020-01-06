@@ -34,7 +34,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 "
 about
 :

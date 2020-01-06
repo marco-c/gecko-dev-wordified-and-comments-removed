@@ -891,7 +891,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 START_URL
 )
 ;

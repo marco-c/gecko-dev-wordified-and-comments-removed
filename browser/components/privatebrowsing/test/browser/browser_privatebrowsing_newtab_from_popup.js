@@ -212,7 +212,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-true
 POPUP_LINK
 )
 ;
