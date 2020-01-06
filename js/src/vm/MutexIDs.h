@@ -187,6 +187,12 @@ WasmModuleTieringLock
 500
 )
 \
+_
+(
+WasmCompileTaskState
+500
+)
+\
 \
 _
 (
