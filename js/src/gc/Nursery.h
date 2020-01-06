@@ -883,6 +883,17 @@ nbytes
 ;
 void
 *
+allocateBufferSameLocation
+(
+JSObject
+*
+obj
+size_t
+nbytes
+)
+;
+void
+*
 reallocateBuffer
 (
 JSObject
