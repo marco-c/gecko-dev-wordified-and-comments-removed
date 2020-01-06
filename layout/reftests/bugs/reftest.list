@@ -30025,7 +30025,7 @@ html
 ref
 .
 html
-random
+skip
 -
 if
 (
@@ -30045,6 +30045,18 @@ html
 ref
 .
 html
+#
+skip
+styloVsGecko
+for
+imperceptible
+pixel
+rounding
+differences
+between
+Stylo
+and
+Gecko
 fuzzy
 -
 if
