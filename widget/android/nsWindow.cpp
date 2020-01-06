@@ -4701,6 +4701,8 @@ GetGeckoThreadEnv
 (
 )
 ;
+if
+(
 LayerViewSupport
 *
 const
@@ -4720,7 +4722,8 @@ env
 mCompositor
 )
 )
-;
+)
+{
 MOZ_CATCH_JNI_EXCEPTION
 (
 env
@@ -4733,6 +4736,7 @@ OnResumedCompositor
 (
 )
 ;
+}
 }
 }
 ;
