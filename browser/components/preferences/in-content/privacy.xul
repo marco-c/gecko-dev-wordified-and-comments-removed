@@ -6647,7 +6647,7 @@ label
 =
 "
 &
-enableHealthReport1
+enableHealthReport2
 .
 label
 ;
@@ -6656,7 +6656,7 @@ accesskey
 =
 "
 &
-enableHealthReport1
+enableHealthReport2
 .
 accesskey
 ;

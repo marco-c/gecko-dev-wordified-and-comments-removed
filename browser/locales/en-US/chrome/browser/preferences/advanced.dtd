@@ -308,7 +308,7 @@ configuration
 <
 !
 ENTITY
-enableHealthReport1
+enableHealthReport2
 .
 label
 "
@@ -317,7 +317,6 @@ Allow
 brandShortName
 ;
 to
-automatically
 send
 technical
 and
@@ -330,7 +329,7 @@ Mozilla
 <
 !
 ENTITY
-enableHealthReport1
+enableHealthReport2
 .
 accesskey
 "
