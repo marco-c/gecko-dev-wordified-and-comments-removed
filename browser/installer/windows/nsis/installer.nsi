@@ -2995,7 +2995,7 @@ LogStartMenuShortcut
 }
 "
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3005,7 +3005,7 @@ LogQuickLaunchShortcut
 }
 "
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3015,7 +3015,7 @@ LogDesktopShortcut
 }
 "
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3232,7 +3232,7 @@ CreateShortCut
 SMPROGRAMS
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3254,7 +3254,7 @@ FileExists
 SMPROGRAMS
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3267,7 +3267,7 @@ SetShortCutWorkingDirectory
 SMPROGRAMS
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3300,7 +3300,7 @@ Set
 SMPROGRAMS
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3324,7 +3324,7 @@ Shortcut
 SMPROGRAMS
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3345,7 +3345,7 @@ Shortcut
 SMPROGRAMS
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3452,7 +3452,7 @@ CreateShortCut
 DESKTOP
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3474,7 +3474,7 @@ FileExists
 DESKTOP
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3487,7 +3487,7 @@ SetShortCutWorkingDirectory
 DESKTOP
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3520,7 +3520,7 @@ Set
 DESKTOP
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3544,7 +3544,7 @@ Shortcut
 DESKTOP
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3565,7 +3565,7 @@ Shortcut
 DESKTOP
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3641,7 +3641,7 @@ Shortcut
 QUICKLAUNCH
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -3696,7 +3696,7 @@ Launch
 Shortcut
 :
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -5062,7 +5062,7 @@ CreateShortCut
 QUICKLAUNCH
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -5084,7 +5084,7 @@ FileExists
 QUICKLAUNCH
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
@@ -5097,7 +5097,7 @@ SetShortCutWorkingDirectory
 QUICKLAUNCH
 \
 {
-BrandFullName
+BrandShortName
 }
 .
 lnk
