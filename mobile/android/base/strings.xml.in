@@ -8055,11 +8055,11 @@ string
 name
 =
 "
-activity_stream_dismiss
+activity_stream_remove
 "
 >
 &
-activity_stream_dismiss
+activity_stream_remove
 ;
 <
 /
