@@ -642,6 +642,9 @@ boxed
 "
 True
 "
+allow_quirks
+=
+True
 spec
 =
 "
