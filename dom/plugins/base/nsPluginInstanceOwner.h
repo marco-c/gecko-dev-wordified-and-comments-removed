@@ -1060,11 +1060,6 @@ NotifyHostAsyncInitFailed
 (
 )
 ;
-void
-NotifyDestroyPending
-(
-)
-;
 bool
 GetCompositionString
 (
