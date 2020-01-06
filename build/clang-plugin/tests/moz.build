@@ -127,11 +127,6 @@ TestCustomHeap
 cpp
 '
 '
-TestDanglingOnTemporary
-.
-cpp
-'
-'
 TestExplicitOperatorBool
 .
 cpp
