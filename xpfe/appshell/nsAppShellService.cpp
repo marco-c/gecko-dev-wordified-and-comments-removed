@@ -2903,17 +2903,6 @@ IsAppLocaleRTL
 (
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GONK
-widgetInitData
-.
-mScreenId
-=
-mScreenId
-;
-#
-endif
 nsresult
 rv
 =

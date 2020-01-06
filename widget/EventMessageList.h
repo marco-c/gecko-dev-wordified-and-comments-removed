@@ -861,12 +861,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-|
-|
-defined
-(
-MOZ_WIDGET_GONK
-)
 NS_EVENT_MESSAGE
 (
 eOrientationChange
