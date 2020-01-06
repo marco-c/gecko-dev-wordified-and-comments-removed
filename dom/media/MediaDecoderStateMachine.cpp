@@ -14404,6 +14404,15 @@ MediaPrefs
 MDSMSuspendBackgroundVideoEnabled
 (
 )
+&
+&
+aMode
+=
+=
+VideoDecodeMode
+:
+:
+Suspend
 )
 {
 return
