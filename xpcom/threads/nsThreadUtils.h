@@ -747,8 +747,9 @@ NS_DECL_NSINAMED
 Runnable
 (
 )
-{
-}
+=
+delete
+;
 #
 ifdef
 RELEASE_OR_BETA
@@ -861,8 +862,9 @@ override
 CancelableRunnable
 (
 )
-{
-}
+=
+delete
+;
 explicit
 CancelableRunnable
 (
