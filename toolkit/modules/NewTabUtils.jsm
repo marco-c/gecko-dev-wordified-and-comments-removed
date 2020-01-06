@@ -3074,6 +3074,7 @@ iconuri
 len
 data
 mime
+size
 )
 =
 >
@@ -3093,6 +3094,12 @@ null
 link
 .
 mimeType
+=
+null
+;
+link
+.
+faviconSize
 =
 null
 ;
@@ -3117,6 +3124,12 @@ faviconLength
 =
 len
 ;
+link
+.
+faviconSize
+=
+size
+;
 }
 return
 resolve
@@ -3125,6 +3138,7 @@ link
 )
 ;
 }
+0
 )
 ;
 }
@@ -3146,6 +3160,12 @@ null
 link
 .
 mimeType
+=
+null
+;
+link
+.
+faviconSize
 =
 null
 ;
