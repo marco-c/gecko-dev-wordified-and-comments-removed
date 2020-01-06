@@ -37,6 +37,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 blessings
@@ -44,6 +46,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 compare
@@ -53,6 +57,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 configobj
@@ -60,6 +66,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 dlmanager
@@ -67,6 +75,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 futures
@@ -74,6 +84,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 jsmin
@@ -83,6 +95,8 @@ setup
 .
 py
 :
+third_party
+/
 python
 /
 psutil
@@ -96,6 +110,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 psutil
@@ -103,6 +119,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 pylru
@@ -110,6 +128,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 which
@@ -117,6 +137,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 pystache
@@ -124,6 +146,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 pyyaml
@@ -133,6 +157,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 requests
@@ -140,6 +166,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 slugid
@@ -147,6 +175,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 py
@@ -154,6 +184,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 pytest
@@ -161,6 +193,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 pytoml
@@ -168,6 +202,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 redo
@@ -175,6 +211,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 voluptuous
@@ -407,6 +445,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 mock
@@ -453,6 +493,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 pyasn1
@@ -460,6 +502,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 pyasn1
@@ -469,6 +513,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 rsa
@@ -476,6 +522,8 @@ mozilla
 .
 pth
 :
+third_party
+/
 python
 /
 PyECC
