@@ -2050,7 +2050,6 @@ time
 async
 _coldInspectorOpen
 (
-url
 )
 {
 await
@@ -2058,7 +2057,7 @@ this
 .
 testSetup
 (
-url
+SIMPLE_URL
 )
 ;
 await
