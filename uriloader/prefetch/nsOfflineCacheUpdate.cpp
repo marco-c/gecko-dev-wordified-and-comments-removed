@@ -7042,12 +7042,6 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
-"
-nsOfflineCacheUpdate
-:
-:
-AsyncFinishWithError
-"
 this
 &
 nsOfflineCacheUpdate

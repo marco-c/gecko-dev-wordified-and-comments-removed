@@ -331,12 +331,6 @@ nsCString
 nsresult
 >
 (
-"
-nsIWebBrowserPersistWriteCompletion
-:
-:
-OnFinish
-"
 mFinish
 &
 nsIWebBrowserPersistWriteCompletion

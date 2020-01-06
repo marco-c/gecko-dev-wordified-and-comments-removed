@@ -1150,12 +1150,6 @@ NS_DispatchToCurrentThread
 (
 NewRunnableMethod
 (
-"
-nsDeviceContextSpecGTK
-:
-:
-StartPrintJob
-"
 spec
 &
 nsDeviceContextSpecGTK
@@ -1334,12 +1328,6 @@ NS_DispatchToCurrentThread
 (
 NewRunnableMethod
 (
-"
-nsDeviceContextSpecGTK
-:
-:
-EnumeratePrinters
-"
 this
 &
 nsDeviceContextSpecGTK

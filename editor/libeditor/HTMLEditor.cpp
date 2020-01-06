@@ -14413,12 +14413,6 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
-"
-HTMLEditor
-:
-:
-ResetRootElementAndEventTarget
-"
 this
 &
 HTMLEditor
@@ -14640,12 +14634,6 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
-"
-HTMLEditor
-:
-:
-ResetRootElementAndEventTarget
-"
 this
 &
 HTMLEditor

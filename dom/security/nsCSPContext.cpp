@@ -4544,15 +4544,6 @@ nsCSPContext
 aCSPContext
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-CSPReportSenderRunnable
-"
-)
 mBlockedContentSource
 (
 aBlockedContentSource

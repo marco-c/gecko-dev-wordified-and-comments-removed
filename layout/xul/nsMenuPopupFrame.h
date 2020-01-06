@@ -306,15 +306,6 @@ nsPresContext
 aPresContext
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-nsXULPopupShownEvent
-"
-)
 mPopup
 (
 aPopup

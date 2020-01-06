@@ -265,12 +265,6 @@ SocketTransportServiceTest
 test
 )
 :
-Runnable
-(
-"
-EventReceived
-"
-)
 test_
 (
 test
@@ -316,12 +310,6 @@ SocketTransportServiceTest
 test
 )
 :
-Runnable
-(
-"
-RegisterEvent
-"
-)
 test_
 (
 test

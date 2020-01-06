@@ -518,12 +518,6 @@ AndroidMediaResourceServer
 aServer
 )
 :
-Runnable
-(
-"
-ServeResourceEvent
-"
-)
 mInput
 (
 aInput
@@ -1790,12 +1784,6 @@ AndroidMediaResourceServer
 (
 )
 :
-Runnable
-(
-"
-AndroidMediaResourceServer
-"
-)
 mMutex
 (
 "

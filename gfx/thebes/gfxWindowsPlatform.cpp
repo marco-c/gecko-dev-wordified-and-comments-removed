@@ -8208,12 +8208,6 @@ PostTask
 (
 NewRunnableMethod
 (
-"
-D3DVsyncDisplay
-:
-:
-VBlankLoop
-"
 this
 &
 D3DVsyncDisplay
@@ -8387,12 +8381,6 @@ PostDelayedTask
 (
 NewRunnableMethod
 (
-"
-D3DVsyncDisplay
-:
-:
-VBlankLoop
-"
 this
 &
 D3DVsyncDisplay

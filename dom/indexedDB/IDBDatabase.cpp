@@ -496,15 +496,6 @@ nsIRunnable
 aRunnable
 )
 :
-CancelableRunnable
-(
-"
-dom
-:
-:
-CancelableRunnableWrapper
-"
-)
 mRunnable
 (
 aRunnable

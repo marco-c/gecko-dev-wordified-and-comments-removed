@@ -177,12 +177,6 @@ r
 =
 NS_NewRunnableFunction
 (
-"
-NamedPipeService
-:
-:
-Init
-"
 [
 self
 =

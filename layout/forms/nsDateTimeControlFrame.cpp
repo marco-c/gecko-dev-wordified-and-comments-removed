@@ -1753,12 +1753,6 @@ AddScriptRunner
 (
 NewRunnableMethod
 (
-"
-nsIDateTimeInputArea
-:
-:
-NotifyInputElementValueChanged
-"
 inputAreaContent
 &
 nsIDateTimeInputArea

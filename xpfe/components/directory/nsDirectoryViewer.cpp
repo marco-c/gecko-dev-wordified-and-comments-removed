@@ -3763,7 +3763,7 @@ rv
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 nsHTTPIndex
 :
@@ -3775,12 +3775,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsHTTPIndex
-:
-:
-GetTargets
-"
 )
 ;
 }
@@ -3910,7 +3904,7 @@ rv
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 nsHTTPIndex
 :
@@ -3922,12 +3916,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsHTTPIndex
-:
-:
-AddElement
-"
 )
 ;
 }
@@ -4518,7 +4506,7 @@ httpIndex
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 nsHTTPIndex
 :
@@ -4530,12 +4518,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-nsHTTPIndex
-:
-:
-FireTimer
-"
 )
 ;
 }

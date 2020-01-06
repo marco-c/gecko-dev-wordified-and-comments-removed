@@ -6845,12 +6845,6 @@ ev
 =
 NewRunnableMethod
 (
-"
-nsXMLContentSink
-:
-:
-ContinueInterruptedParsingIfEnabled
-"
 this
 &
 nsXMLContentSink

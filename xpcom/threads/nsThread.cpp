@@ -948,15 +948,6 @@ uint32_t
 aDelay
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-DelayedRunnable
-"
-)
 mTargetThread
 (
 aTargetThread

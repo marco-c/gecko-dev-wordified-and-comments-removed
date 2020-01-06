@@ -213,15 +213,6 @@ task
 =
 NS_NewRunnableFunction
 (
-"
-layers
-:
-:
-CheckerboardEventStorage
-:
-:
-Report
-"
 [
 aSeverity
 aLog

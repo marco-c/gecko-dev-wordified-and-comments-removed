@@ -1039,15 +1039,6 @@ bool
 aSelectFirstItem
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-nsMenuBarSwitchMenu
-"
-)
 mMenuBar
 (
 aMenuBar

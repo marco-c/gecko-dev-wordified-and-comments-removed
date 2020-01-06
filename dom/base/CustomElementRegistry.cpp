@@ -2079,15 +2079,6 @@ runnable
 =
 NS_NewRunnableFunction
 (
-"
-dom
-:
-:
-CustomElementRegistry
-:
-:
-EnqueueLifecycleCallback
-"
 &
 CustomElementRegistry
 :

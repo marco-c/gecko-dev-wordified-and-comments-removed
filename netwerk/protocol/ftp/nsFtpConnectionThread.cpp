@@ -7775,15 +7775,6 @@ nsString
 aResponseMsg
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-nsFtpAsyncAlert
-"
-)
 mPrompter
 (
 aPrompter

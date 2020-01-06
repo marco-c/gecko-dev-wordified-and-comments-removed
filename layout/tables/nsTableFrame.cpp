@@ -24275,15 +24275,6 @@ nsIFrame
 aFrame
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-nsDelayedCalcBCBorders
-"
-)
 mFrame
 (
 aFrame

@@ -372,9 +372,6 @@ PostTaskToUiThread
 (
 NS_NewRunnableFunction
 (
-"
-PumpEvents
-"
 &
 PumpEvents
 )
@@ -429,13 +426,6 @@ public
 :
 CreateOnUiThread
 (
-)
-:
-Runnable
-(
-"
-CreateOnUiThread
-"
 )
 {
 }
@@ -528,12 +518,6 @@ DestroyOnUiThread
 (
 )
 :
-Runnable
-(
-"
-DestroyOnUiThread
-"
-)
 mDestroyed
 (
 false

@@ -2582,15 +2582,6 @@ PGMPServiceChild
 aEndpoint
 )
 :
-Runnable
-(
-"
-gmp
-:
-:
-OpenPGMPServiceChild
-"
-)
 mGMPServiceChild
 (
 Move

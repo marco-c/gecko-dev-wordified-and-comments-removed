@@ -171,15 +171,6 @@ AppendElement
 (
 NewRunnableMethod
 (
-"
-layers
-:
-:
-AsyncPanZoomController
-:
-:
-ScrollSnap
-"
 &
 mApzc
 &

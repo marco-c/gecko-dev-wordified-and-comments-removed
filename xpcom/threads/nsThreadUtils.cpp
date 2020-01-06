@@ -1338,7 +1338,7 @@ aTarget
 mTimer
 -
 >
-InitWithNamedFuncCallback
+InitWithFuncCallback
 (
 TimedOut
 this
@@ -1347,12 +1347,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-IdleRunnableWrapper
-:
-:
-SetTimer
-"
 )
 ;
 }

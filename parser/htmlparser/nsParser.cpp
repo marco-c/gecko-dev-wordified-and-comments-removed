@@ -297,15 +297,6 @@ nsParser
 aParser
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-nsParserContinueEvent
-"
-)
 mParser
 (
 aParser

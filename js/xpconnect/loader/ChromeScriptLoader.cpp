@@ -164,15 +164,6 @@ Promise
 aPromise
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-AsyncScriptCompiler
-"
-)
 mOptions
 (
 aCx

@@ -3890,12 +3890,6 @@ nsAString
 wtm
 )
 :
-Runnable
-(
-"
-nsContentTitleSettingEvent
-"
-)
 mElement
 (
 dse

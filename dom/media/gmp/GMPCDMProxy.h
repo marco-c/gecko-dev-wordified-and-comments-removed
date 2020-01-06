@@ -709,15 +709,6 @@ nsCString
 aReason
 )
 :
-Runnable
-(
-"
-GMPCDMProxy
-:
-:
-RejectPromiseTask
-"
-)
 mProxy
 (
 aProxy

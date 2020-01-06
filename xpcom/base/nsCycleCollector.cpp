@@ -4947,15 +4947,6 @@ nsAString
 aMsg
 )
 :
-mozilla
-:
-:
-CancelableRunnable
-(
-"
-LogStringMessageAsync
-"
-)
 mMsg
 (
 aMsg

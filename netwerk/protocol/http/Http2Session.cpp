@@ -11846,15 +11846,6 @@ nsIInterfaceRequestor
 callbacks
 )
 :
-Runnable
-(
-"
-net
-:
-:
-UpdateAltSvcEvent
-"
-)
 mHeader
 (
 header

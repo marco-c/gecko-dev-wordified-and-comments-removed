@@ -243,16 +243,6 @@ nsInputStreamTee
 *
 aTee
 )
-:
-mozilla
-:
-:
-Runnable
-(
-"
-nsInputStreamTeeWriteEvent
-"
-)
 {
 mBuf
 =

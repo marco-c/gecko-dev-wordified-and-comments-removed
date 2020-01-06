@@ -147,11 +147,6 @@ event
 =
 new
 Runnable
-(
-"
-NS_DispatchEventualMemoryPressure
-"
-)
 ;
 return
 NS_DispatchToMainThread

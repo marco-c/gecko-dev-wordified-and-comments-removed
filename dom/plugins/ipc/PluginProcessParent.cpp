@@ -583,15 +583,6 @@ PostTask
 (
 NewNonOwningRunnableMethod
 (
-"
-plugins
-:
-:
-PluginProcessParent
-:
-:
-Delete
-"
 this
 &
 PluginProcessParent

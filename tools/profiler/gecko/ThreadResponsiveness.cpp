@@ -77,15 +77,6 @@ CheckResponsivenessTask
 (
 )
 :
-mozilla
-:
-:
-Runnable
-(
-"
-CheckResponsivenessTask
-"
-)
 mLastTracerTime
 (
 TimeStamp

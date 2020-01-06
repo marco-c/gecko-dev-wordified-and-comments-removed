@@ -124,15 +124,6 @@ LaunchCompleteTask
 (
 )
 :
-Runnable
-(
-"
-plugins
-:
-:
-LaunchCompleteTask
-"
-)
 mLaunchSucceeded
 (
 false

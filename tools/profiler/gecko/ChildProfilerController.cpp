@@ -150,12 +150,6 @@ PProfilerChild
 &
 >
 (
-"
-ChildProfilerController
-:
-:
-SetupProfilerChild
-"
 this
 &
 ChildProfilerController
@@ -234,12 +228,6 @@ nsCString
 *
 >
 (
-"
-ChildProfilerController
-:
-:
-ShutdownProfilerChild
-"
 this
 &
 ChildProfilerController

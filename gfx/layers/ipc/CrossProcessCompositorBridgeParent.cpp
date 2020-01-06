@@ -358,15 +358,6 @@ PostTask
 (
 NewRunnableMethod
 (
-"
-layers
-:
-:
-CrossProcessCompositorBridgeParent
-:
-:
-DeferredDestroy
-"
 this
 &
 CrossProcessCompositorBridgeParent

@@ -5685,15 +5685,6 @@ nsIIOServiceInternal
 ioService
 )
 :
-Runnable
-(
-"
-net
-:
-:
-nsWakeupNotifier
-"
-)
 mIOService
 (
 ioService

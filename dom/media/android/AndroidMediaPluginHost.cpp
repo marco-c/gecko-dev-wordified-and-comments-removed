@@ -238,12 +238,6 @@ int32_t
 aResult
 )
 :
-Runnable
-(
-"
-GetIntPrefEvent
-"
-)
 mPref
 (
 aPref

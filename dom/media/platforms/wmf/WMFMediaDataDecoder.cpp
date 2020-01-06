@@ -263,9 +263,6 @@ runnable
 =
 NS_NewRunnableFunction
 (
-"
-SendTelemetry
-"
 [
 sample
 ]
@@ -1066,12 +1063,6 @@ runnable
 =
 NS_NewRunnableFunction
 (
-"
-WMFMediaDataDecoder
-:
-:
-SetSeekThreshold
-"
 [
 self
 aTime

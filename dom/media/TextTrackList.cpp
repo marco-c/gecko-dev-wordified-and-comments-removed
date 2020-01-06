@@ -657,15 +657,6 @@ nsIDOMEvent
 aEvent
 )
 :
-Runnable
-(
-"
-dom
-:
-:
-TrackEventRunner
-"
-)
 mList
 (
 aList
