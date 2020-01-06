@@ -183,11 +183,6 @@ RunDOMEventWhenSafe
 (
 )
 ;
-void
-RequireNodeInDocument
-(
-)
-;
 nsCOMPtr
 <
 dom
@@ -218,11 +213,6 @@ false
 ;
 bool
 mCanceled
-=
-false
-;
-bool
-mCheckStillInDoc
 =
 false
 ;
