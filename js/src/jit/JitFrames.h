@@ -902,15 +902,6 @@ JSTracer
 trc
 )
 ;
-JSCompartment
-*
-TopmostIonActivationCompartment
-(
-JSContext
-*
-cx
-)
-;
 void
 UpdateJitActivationsForMinorGC
 (

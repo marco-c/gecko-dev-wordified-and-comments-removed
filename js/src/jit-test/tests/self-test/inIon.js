@@ -40,6 +40,10 @@ inIon
 )
 gc
 (
+this
+'
+shrinking
+'
 )
 ;
 }
