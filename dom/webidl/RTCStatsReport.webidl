@@ -921,6 +921,16 @@ long
 iceRollbacks
 ;
 boolean
+offerer
+;
+/
+/
+Is
+the
+PC
+the
+offerer
+boolean
 closed
 ;
 /
