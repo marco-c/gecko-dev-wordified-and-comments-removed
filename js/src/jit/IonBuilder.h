@@ -336,7 +336,7 @@ TemporaryTypeSet
 calleeTypes
 bool
 constructing
-ObjectVector
+InliningTargets
 &
 targets
 uint32_t
@@ -4120,7 +4120,7 @@ Ok
 selectInliningTargets
 (
 const
-ObjectVector
+InliningTargets
 &
 targets
 CallInfo
@@ -5212,7 +5212,7 @@ InliningResult
 inlineCallsite
 (
 const
-ObjectVector
+InliningTargets
 &
 targets
 CallInfo
@@ -5230,7 +5230,7 @@ CallInfo
 &
 callInfo
 const
-ObjectVector
+InliningTargets
 &
 targets
 BoolVector
