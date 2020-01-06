@@ -1507,11 +1507,6 @@ TOpSetDiagnosticTypes
 mLayerManager
 -
 >
-GetCompositor
-(
-)
--
->
 SetDiagnosticTypes
 (
 edit
