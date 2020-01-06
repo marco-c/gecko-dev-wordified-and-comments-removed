@@ -1308,7 +1308,7 @@ aConnection
 )
 ;
 nsresult
-UpgradeStorageFrom2_0To3_0
+UpgradeStorageFrom2_0To2_1
 (
 mozIStorageConnection
 *
