@@ -624,6 +624,13 @@ DYNAMIC_LIB_EXT
 dll
 "
 #
+define
+PROGRAM_EXT
+"
+.
+exe
+"
+#
 ifdef
 _WIN64
 #
@@ -662,6 +669,11 @@ PLATSUBDIR
 osx32
 "
 #
+define
+PROGRAM_EXT
+"
+"
+#
 elif
 defined
 (
@@ -673,6 +685,11 @@ DYNAMIC_LIB_EXT
 "
 .
 so
+"
+#
+define
+PROGRAM_EXT
+"
 "
 #
 if
