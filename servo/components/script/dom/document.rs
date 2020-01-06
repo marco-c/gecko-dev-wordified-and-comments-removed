@@ -2659,7 +2659,7 @@ self
 .
 window
 .
-maybe_window_proxy
+undiscarded_window_proxy
 (
 )
 }
