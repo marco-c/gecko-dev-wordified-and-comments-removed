@@ -2405,11 +2405,8 @@ into_str
 let
 source
 =
-input
-.
-current_line
-(
-)
+"
+"
 ;
 unsafe
 {
