@@ -26209,6 +26209,17 @@ uint32_t
 aNativeKeyCode
 )
 {
+if
+(
+!
+aEvent
+.
+mNativeKeyEvent
+)
+{
+return
+;
+}
 WidgetKeyboardEvent
 modifiedEvent
 (
@@ -26249,7 +26260,6 @@ GetInstance
 aType
 )
 ;
-return
 keyBindings
 -
 >
