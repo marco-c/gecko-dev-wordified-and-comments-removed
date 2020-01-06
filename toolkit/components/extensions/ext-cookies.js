@@ -245,7 +245,7 @@ extension
 .
 whiteListedHosts
 .
-matchesIgnoringPath
+matches
 (
 uri
 )

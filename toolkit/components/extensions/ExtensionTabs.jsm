@@ -1247,8 +1247,16 @@ extension
 .
 whiteListedHosts
 .
-serialize
+patterns
+.
+map
 (
+host
+=
+>
+host
+.
+pattern
 )
 ;
 }

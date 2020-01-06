@@ -201,7 +201,11 @@ optionalOrigins
 .
 subsumes
 (
+new
+MatchPattern
+(
 origin
+)
 )
 )
 {
@@ -405,7 +409,11 @@ whiteListedHosts
 .
 subsumes
 (
+new
+MatchPattern
+(
 origin
+)
 )
 )
 {
