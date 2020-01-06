@@ -41,3 +41,15 @@ light
 ;
 #
 endif
+pref
+(
+"
+devtools
+.
+toolbar
+.
+visible
+"
+false
+)
+;
