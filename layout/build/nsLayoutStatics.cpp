@@ -323,7 +323,7 @@ h
 #
 include
 "
-nsCSSRuleProcessor
+nsMediaFeatures
 .
 h
 "
@@ -1819,7 +1819,7 @@ Shutdown
 (
 )
 ;
-nsCSSRuleProcessor
+nsMediaFeatures
 :
 :
 Shutdown

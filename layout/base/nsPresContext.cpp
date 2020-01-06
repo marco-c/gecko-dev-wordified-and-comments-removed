@@ -270,7 +270,7 @@ h
 #
 include
 "
-nsCSSRuleProcessor
+nsMediaFeatures
 .
 h
 "
@@ -8218,7 +8218,7 @@ RefreshSystemMetrics
 (
 )
 {
-nsCSSRuleProcessor
+nsMediaFeatures
 :
 :
 FreeSystemMetrics
