@@ -718,7 +718,7 @@ urlHistory
 ;
 log
 .
-debug
+trace
 (
 "
 remote
