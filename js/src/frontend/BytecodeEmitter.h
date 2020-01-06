@@ -831,6 +831,7 @@ const
 EmitterMode
 emitterMode
 ;
+MOZ_INIT_OUTSIDE_CTOR
 uint32_t
 functionBodyEndPos
 ;
