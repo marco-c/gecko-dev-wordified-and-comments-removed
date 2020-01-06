@@ -2742,11 +2742,6 @@ output
 ;
 }
 }
-return
-testcase
-.
-passed
-;
 }
 global
 .
@@ -2938,11 +2933,6 @@ output
 ;
 }
 }
-return
-testcase
-.
-passed
-;
 }
 global
 .
