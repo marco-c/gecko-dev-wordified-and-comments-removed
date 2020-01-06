@@ -766,7 +766,7 @@ MOZ_REQUIRE_SIGNING
 d
 [
 '
-no_legacy_extensions
+allow_legacy_extensions
 '
 ]
 =
@@ -781,7 +781,7 @@ MOZ_ALLOW_LEGACY_EXTENSIONS
 =
 =
 '
-0
+1
 '
     
 d
