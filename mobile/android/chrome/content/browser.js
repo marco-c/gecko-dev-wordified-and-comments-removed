@@ -30198,9 +30198,6 @@ new
 Prompt
 (
 {
-window
-:
-window
 title
 :
 Strings
@@ -30373,9 +30370,6 @@ new
 Prompt
 (
 {
-window
-:
-window
 title
 :
 Strings
@@ -30454,9 +30448,6 @@ new
 Prompt
 (
 {
-window
-:
-window
 title
 :
 Strings
@@ -36962,9 +36953,6 @@ prompt
 (
 apps
 {
-window
-:
-window
 title
 :
 Strings

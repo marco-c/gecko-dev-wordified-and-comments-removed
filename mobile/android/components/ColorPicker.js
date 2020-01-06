@@ -188,11 +188,6 @@ new
 Prompt
 (
 {
-window
-:
-this
-.
-_domWin
 title
 :
 this

@@ -2824,7 +2824,6 @@ prompt
 :
 function
 (
-aWindow
 aCallback
 aFilterFunc
 )
@@ -2916,9 +2915,6 @@ new
 Prompt
 (
 {
-window
-:
-aWindow
 title
 :
 Strings
@@ -3116,11 +3112,6 @@ this
 .
 prompt
 (
-aVideo
-.
-element
-.
-ownerGlobal
 aService
 =
 >
