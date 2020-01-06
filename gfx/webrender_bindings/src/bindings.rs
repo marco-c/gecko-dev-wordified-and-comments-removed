@@ -66,7 +66,7 @@ gleam
 gl
 ;
 use
-webrender_traits
+webrender_api
 :
 :
 *
@@ -147,7 +147,7 @@ rayon
 ;
 extern
 crate
-webrender_traits
+webrender_api
 ;
 static
 ENABLE_RECORDING
@@ -3575,7 +3575,7 @@ usize
 ;
 }
 impl
-webrender_traits
+webrender_api
 :
 :
 RenderNotifier
@@ -6081,7 +6081,7 @@ WrPipelineId
 pub
 dl_builder
 :
-webrender_traits
+webrender_api
 :
 :
 DisplayListBuilder
@@ -6118,7 +6118,7 @@ root_pipeline_id
 root_pipeline_id
 dl_builder
 :
-webrender_traits
+webrender_api
 :
 :
 DisplayListBuilder
@@ -6368,7 +6368,7 @@ dl_builder
 .
 push_stacking_context
 (
-webrender_traits
+webrender_api
 :
 :
 ScrollPolicy
@@ -6854,7 +6854,7 @@ dl_builder
 .
 push_stacking_context
 (
-webrender_traits
+webrender_api
 :
 :
 ScrollPolicy
