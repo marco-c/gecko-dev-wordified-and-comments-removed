@@ -220,6 +220,12 @@ FooterSize
 )
 const
 ;
+uint32_t
+TotalTagSize
+(
+)
+const
+;
 bool
 IsValid
 (
