@@ -1259,7 +1259,7 @@ CHECK
 cell
 -
 >
-isMarkedAny
+isMarkedBlack
 (
 )
 )
@@ -1269,7 +1269,7 @@ CHECK
 cell2
 -
 >
-isMarkedAny
+isMarkedBlack
 (
 )
 )

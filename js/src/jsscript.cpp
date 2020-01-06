@@ -19936,10 +19936,6 @@ sourceObject
 )
 -
 >
-asTenured
-(
-)
-.
 isMarkedGray
 (
 )

@@ -3711,16 +3711,7 @@ return
 tc
 -
 >
-isMarkedAny
-(
-)
-&
-&
-!
-tc
--
->
-isMarkedGray
+isMarkedBlack
 (
 )
 ;

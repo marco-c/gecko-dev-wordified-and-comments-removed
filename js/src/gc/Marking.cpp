@@ -5795,7 +5795,7 @@ BLACK
 shape
 -
 >
-isMarkedAny
+isMarkedBlack
 (
 )
 )
@@ -13469,7 +13469,7 @@ obj
 )
 -
 >
-isMarkedAny
+isMarkedBlack
 (
 )
 )
@@ -18373,18 +18373,8 @@ thing
 )
 override
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-thing
-.
-asCell
-(
-)
--
->
-isTenured
-(
-)
 !
 thing
 .
@@ -18393,10 +18383,6 @@ asCell
 )
 -
 >
-asTenured
-(
-)
-.
 isMarkedGray
 (
 )
@@ -18984,7 +18970,7 @@ if
 cell
 -
 >
-isMarkedAny
+isMarkedBlack
 (
 )
 )
