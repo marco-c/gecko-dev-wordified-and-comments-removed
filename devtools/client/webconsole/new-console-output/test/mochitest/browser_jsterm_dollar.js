@@ -73,6 +73,15 @@ test
 hud
 )
 ;
+yield
+hud
+.
+jsterm
+.
+clearHistory
+(
+)
+;
 }
 )
 ;
