@@ -224,9 +224,6 @@ attribute
 boolean
 defaultSelected
 ;
-[
-SetterThrows
-]
 attribute
 boolean
 selected
