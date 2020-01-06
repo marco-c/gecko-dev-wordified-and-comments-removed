@@ -335,10 +335,6 @@ dom
 Element
 *
 aElement
-const
-TreeMatchContext
-&
-aTreeMatchContext
 nsRuleWalker
 :
 :
