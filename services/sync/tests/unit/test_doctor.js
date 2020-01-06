@@ -745,8 +745,6 @@ validationInfo
 flowID
 )
 {
-assert
-.
 ok
 (
 false

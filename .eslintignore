@@ -2659,15 +2659,6 @@ offline
 client
 .
 js
-services
-/
-sync
-/
-tps
-/
-extensions
-/
-mozmill
 #
 toolkit
 /
