@@ -710,6 +710,12 @@ aApzc
 )
 const
 ;
+ScreenPoint
+GetCurrentMousePosition
+(
+)
+const
+;
 void
 ProcessTouchVelocity
 (
@@ -1084,6 +1090,9 @@ mRetainedTouchIdentifier
 ;
 TouchCounter
 mTouchCounter
+;
+ScreenPoint
+mCurrentMousePosition
 ;
 gfx
 :
