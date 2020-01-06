@@ -1193,6 +1193,8 @@ build
 '
 :
 '
+build
+-
 signing
 -
 {
