@@ -159,7 +159,6 @@ podcast
 Servo
 is
 a
-prototype
 web
 browser
 engine
