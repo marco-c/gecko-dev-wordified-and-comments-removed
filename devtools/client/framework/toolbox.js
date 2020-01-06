@@ -7026,6 +7026,16 @@ toolId
 {
 if
 (
+this
+.
+_destroyer
+)
+{
+return
+;
+}
+if
+(
 !
 this
 .
