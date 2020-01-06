@@ -98,6 +98,11 @@ ReleaseEMFHandle
 (
 )
 ;
+void
+ReleaseAllResource
+(
+)
+;
 HENHMETAFILE
 mEmf
 ;
