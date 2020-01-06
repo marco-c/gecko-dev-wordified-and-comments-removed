@@ -54,6 +54,7 @@ const
 {
 getAllMessagesUiById
 getAllMessagesTableDataById
+getAllNetworkMessagesUpdateById
 getVisibleMessages
 getAllRepeatById
 }
@@ -179,6 +180,13 @@ object
 .
 isRequired
 messagesRepeat
+:
+PropTypes
+.
+object
+.
+isRequired
+networkMessagesUpdate
 :
 PropTypes
 .
@@ -360,6 +368,7 @@ visibleMessages
 messagesUi
 messagesTableData
 messagesRepeat
+networkMessagesUpdate
 serviceContainer
 timestampsVisible
 }
@@ -423,6 +432,14 @@ timestampsVisible
 repeat
 :
 messagesRepeat
+[
+message
+.
+id
+]
+networkMessageUpdate
+:
+networkMessagesUpdate
 [
 message
 .
@@ -562,6 +579,12 @@ state
 messagesRepeat
 :
 getAllRepeatById
+(
+state
+)
+networkMessagesUpdate
+:
+getAllNetworkMessagesUpdateById
 (
 state
 )
