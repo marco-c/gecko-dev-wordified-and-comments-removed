@@ -1494,6 +1494,13 @@ Map
 (
 )
 ;
+EventEmitter
+.
+decorate
+(
+this
+)
+;
 GlobalEventDispatcher
 .
 registerListener
@@ -1511,13 +1518,6 @@ Tab
 Closed
 "
 ]
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 }
