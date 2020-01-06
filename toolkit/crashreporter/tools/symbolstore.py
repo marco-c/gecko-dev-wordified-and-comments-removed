@@ -2767,8 +2767,6 @@ projects
 /
 rust
 /
-src
-/
 '
         
 elif
@@ -2796,8 +2794,6 @@ lang
 /
 rust
 /
-src
-/
 '
         
 elif
@@ -2814,8 +2810,6 @@ rust_srcdir
 '
 /
 checkout
-/
-src
 /
 '
         
@@ -2869,8 +2863,6 @@ rust
 lang
 /
 rust
-/
-src
 /
 '
 )
