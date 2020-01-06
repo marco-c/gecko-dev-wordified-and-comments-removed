@@ -690,6 +690,11 @@ SetShortHeadersEnabled
 )
 ;
 void
+SetAltHandshakeTypeEnabled
+(
+)
+;
+void
 SetVersionRange
 (
 uint16_t

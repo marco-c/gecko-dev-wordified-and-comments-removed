@@ -2248,6 +2248,17 @@ PRErrorCode
 error
 )
 ;
+SSL_IMPORT
+void
+*
+SSL_GetExperimentalAPI
+(
+const
+char
+*
+name
+)
+;
 SEC_END_PROTOS
 #
 endif

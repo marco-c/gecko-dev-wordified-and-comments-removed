@@ -113,6 +113,8 @@ certhigh_gtest
 \
 pk11_gtest
 \
+softoken_gtest
+\
 ssl_gtest
 \
 nss_bogo_shim
