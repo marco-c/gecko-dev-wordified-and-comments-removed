@@ -737,6 +737,13 @@ updatedSource
 "
 updatedSource
 "
+"
+inspectObject
+"
+:
+"
+inspectObject
+"
 }
 ;
 const

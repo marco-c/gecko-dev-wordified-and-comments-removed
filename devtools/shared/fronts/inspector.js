@@ -1953,7 +1953,7 @@ actor
 =
 DebuggerServer
 .
-_searchAllConnectionsForActor
+searchAllConnectionsForActor
 (
 this
 .
@@ -4065,7 +4065,7 @@ walkerActor
 =
 DebuggerServer
 .
-_searchAllConnectionsForActor
+searchAllConnectionsForActor
 (
 this
 .
@@ -4209,7 +4209,7 @@ add
 (
 DebuggerServer
 .
-_searchAllConnectionsForActor
+searchAllConnectionsForActor
 (
 top
 .
