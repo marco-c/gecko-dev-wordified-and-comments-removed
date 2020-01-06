@@ -2826,6 +2826,12 @@ extraArguments
 )
 ;
 [
+#
+ifdef
+NIGHTLY_BUILD
+ChromeOnly
+#
+endif
 Replaceable
 Throws
 NeedsCallerType

@@ -527,7 +527,7 @@ fn
 )
 {
 return
-content
+win
 .
 requestAnimationFrame
 (
