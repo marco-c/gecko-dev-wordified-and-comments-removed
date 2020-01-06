@@ -573,7 +573,7 @@ kNumEntries
 mozilla
 :
 :
-WeakPtr
+ThreadSafeWeakPtr
 <
 mozilla
 :
@@ -581,7 +581,7 @@ mozilla
 gfx
 :
 :
-UnscaledFont
+UnscaledFontFontconfig
 >
 mUnscaledFonts
 [
