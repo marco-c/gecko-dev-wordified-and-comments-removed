@@ -4003,6 +4003,17 @@ true
 ;
 sandbox
 .
+advancedLayers
+=
+gWindowUtils
+.
+usingAdvancedLayers
+=
+=
+true
+;
+sandbox
+.
 Android
 =
 xr
