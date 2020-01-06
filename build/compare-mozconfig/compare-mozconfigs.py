@@ -5,10 +5,6 @@ unicode_literals
 import
 logging
 import
-os
-import
-site
-import
 sys
 import
 urllib2
