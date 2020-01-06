@@ -4080,10 +4080,6 @@ nsIPrefBranch
 branch
 )
 :
-mHardwareH264Enabled
-(
-false
-)
 mHardwareH264Supported
 (
 false
@@ -4778,9 +4774,6 @@ kMessage
 }
 private
 :
-bool
-mHardwareH264Enabled
-;
 bool
 mHardwareH264Supported
 ;
