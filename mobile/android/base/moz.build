@@ -6210,6 +6210,15 @@ icons
 /
 processing
 /
+MinimumSizeProcessor
+.
+java
+'
+'
+icons
+/
+processing
+/
 Processor
 .
 java
