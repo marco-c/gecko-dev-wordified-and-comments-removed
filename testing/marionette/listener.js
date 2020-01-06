@@ -162,7 +162,7 @@ marionette
 /
 content
 /
-cookies
+cookie
 .
 js
 "
