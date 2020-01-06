@@ -621,10 +621,7 @@ function
 (
 obj
 seenEls
-win
-shadowRoot
-=
-undefined
+window
 )
 {
 switch
@@ -696,8 +693,7 @@ fromJSON
 (
 e
 seenEls
-win
-shadowRoot
+window
 )
 )
 ;
@@ -761,6 +757,7 @@ seenEls
 get
 (
 uuid
+window
 )
 ;
 if
@@ -814,8 +811,7 @@ obj
 prop
 ]
 seenEls
-win
-shadowRoot
+window
 )
 ;
 }
