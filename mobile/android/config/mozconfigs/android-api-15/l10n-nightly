@@ -185,6 +185,16 @@ adjust
 sdk
 -
 keyfile
+ac_add_options
+-
+-
+without
+-
+leanplum
+-
+sdk
+-
+keyfile
 .
 "
 topsrcdir
