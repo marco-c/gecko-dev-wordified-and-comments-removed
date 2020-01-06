@@ -109,7 +109,7 @@ final
 int
 DEFAULT_COLOR
 =
-0
+0xFFB1B1B3
 ;
 Override
 public
