@@ -3452,12 +3452,6 @@ idType
 =
 =
 IDTYPE_RESTRICTED
-|
-|
-idType
-=
-=
-IDTYPE_ASPIRATIONAL
 )
 {
 return
