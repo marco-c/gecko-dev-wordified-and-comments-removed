@@ -451,6 +451,8 @@ bool
 isTracking
 bool
 couldVary
+bool
+isNoStore
 Predictor
 *
 predictor
@@ -475,6 +477,10 @@ isTracking
 mCouldVary
 (
 couldVary
+)
+mIsNoStore
+(
+isNoStore
 )
 mPredictor
 (
@@ -508,6 +514,9 @@ mIsTracking
 ;
 bool
 mCouldVary
+;
+bool
+mIsNoStore
 ;
 RefPtr
 <
@@ -1070,6 +1079,8 @@ bool
 isTracking
 bool
 couldVary
+bool
+isNoStore
 )
 ;
 void
