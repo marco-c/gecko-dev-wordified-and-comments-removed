@@ -3906,6 +3906,10 @@ MOZ_ASSERT
 mObserved
 )
 ;
+mIsBeingDestroyed
+=
+true
+;
 Destroy
 (
 )
