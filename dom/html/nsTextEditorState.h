@@ -322,6 +322,12 @@ eSetValue_MoveCursorToEndIfValueChanged
 <
 <
 3
+eSetValue_ForXUL
+=
+1
+<
+<
+4
 }
 ;
 MOZ_MUST_USE

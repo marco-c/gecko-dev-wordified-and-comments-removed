@@ -10297,7 +10297,11 @@ if
 (
 aFlags
 &
+(
 eSetValue_BySetUserInput
+|
+eSetValue_ForXUL
+)
 )
 {
 nsCOMPtr
