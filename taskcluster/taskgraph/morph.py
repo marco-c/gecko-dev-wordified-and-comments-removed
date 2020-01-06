@@ -1952,7 +1952,7 @@ def
 __init__
 (
 self
-templates
+try_task_config
 )
 :
         
@@ -1960,7 +1960,27 @@ self
 .
 templates
 =
+try_task_config
+.
+get
+(
+'
 templates
+'
+)
+        
+self
+.
+target_tasks
+=
+try_task_config
+.
+get
+(
+'
+tasks
+'
+)
     
 def
 __call__
@@ -2057,6 +2077,22 @@ attributes
 task
 .
 attributes
+                    
+'
+label
+'
+:
+task
+.
+label
+                    
+'
+target_tasks
+'
+:
+self
+.
+target_tasks
                 
 }
                 
@@ -2197,13 +2233,6 @@ parameters
 try_task_config
 '
 ]
-.
-get
-(
-'
-templates
-'
-)
 )
 )
     
