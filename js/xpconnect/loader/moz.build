@@ -119,6 +119,11 @@ ScriptPreloader
 .
 cpp
 '
+'
+URLPreloader
+.
+cpp
+'
 ]
 #
 mozJSComponentLoader
@@ -165,6 +170,11 @@ mozilla
 [
 '
 ScriptPreloader
+.
+h
+'
+'
+URLPreloader
 .
 h
 '
