@@ -1001,6 +1001,12 @@ true
 }
 #
 endif
+RefPtr
+<
+CookieServiceChild
+>
+cookieService
+=
 CookieServiceChild
 :
 :

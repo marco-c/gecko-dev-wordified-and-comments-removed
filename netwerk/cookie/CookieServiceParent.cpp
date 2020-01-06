@@ -309,17 +309,11 @@ NS_COOKIESERVICE_CONTRACTID
 ;
 mCookieService
 =
-already_AddRefed
-<
-nsCookieService
->
-(
 nsCookieService
 :
 :
 GetSingleton
 (
-)
 )
 ;
 NS_ASSERTION

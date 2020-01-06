@@ -622,8 +622,10 @@ nsCookieService
 )
 ;
 static
+already_AddRefed
+<
 nsICookieService
-*
+>
 GetXPCOMSingleton
 (
 )
@@ -1525,8 +1527,10 @@ class
 CloseCookieDBListener
 ;
 static
+already_AddRefed
+<
 nsCookieService
-*
+>
 GetSingleton
 (
 )
