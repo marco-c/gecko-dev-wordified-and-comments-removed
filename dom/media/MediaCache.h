@@ -753,6 +753,12 @@ mLoadID
 =
 0
 ;
+int64_t
+mSeekTarget
+=
+-
+1
+;
 bool
 mThrottleReadahead
 =
