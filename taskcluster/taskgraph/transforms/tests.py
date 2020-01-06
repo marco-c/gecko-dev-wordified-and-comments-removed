@@ -3181,6 +3181,16 @@ coverage
 test
 [
 '
+when
+'
+]
+=
+{
+}
+            
+test
+[
+'
 instance
 -
 size
