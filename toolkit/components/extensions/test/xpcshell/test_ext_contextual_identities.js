@@ -948,7 +948,7 @@ foobar
 "
 Invalid
 contextual
-identitiy
+identity
 :
 foobar
 "
@@ -987,7 +987,7 @@ testing
 "
 Invalid
 contextual
-identitiy
+identity
 :
 foobar
 "
@@ -1021,7 +1021,7 @@ foobar
 "
 Invalid
 contextual
-identitiy
+identity
 :
 foobar
 "
