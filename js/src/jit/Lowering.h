@@ -2130,6 +2130,14 @@ ins
 )
 ;
 void
+visitIsArray
+(
+MIsArray
+*
+ins
+)
+;
+void
 visitIsObject
 (
 MIsObject
