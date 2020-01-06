@@ -26,7 +26,7 @@ WORKSPACE
 :
 =
 /
-home
+builds
 /
 worker
 /
@@ -47,7 +47,7 @@ nexus
 conf
 cp
 /
-home
+builds
 /
 worker
 /
@@ -86,7 +86,7 @@ xml
 #
 Populate
 /
-home
+builds
 /
 worker
 /
@@ -164,7 +164,7 @@ bin
 #
 Populate
 /
-home
+builds
 /
 worker
 /
@@ -180,12 +180,7 @@ linux
 python2
 .
 7
-/
-home
-/
-worker
-/
-workspace
+WORKSPACE
 /
 build
 /

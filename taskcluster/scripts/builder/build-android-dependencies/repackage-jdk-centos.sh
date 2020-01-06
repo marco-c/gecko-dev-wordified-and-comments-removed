@@ -18,7 +18,7 @@ WORKSPACE
 :
 =
 /
-home
+builds
 /
 worker
 /

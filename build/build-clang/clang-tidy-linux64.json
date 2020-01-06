@@ -199,7 +199,7 @@ gcc_dir
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -217,7 +217,7 @@ cc
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -239,7 +239,7 @@ cxx
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -263,7 +263,7 @@ as
 :
 "
 /
-home
+builds
 /
 worker
 /

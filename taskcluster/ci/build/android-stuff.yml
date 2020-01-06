@@ -96,7 +96,7 @@ GRADLE_USER_HOME
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -138,6 +138,16 @@ releng
 .
 manifest
 "
+WORKSPACE
+:
+"
+/
+builds
+/
+worker
+/
+workspace
+"
 artifacts
 :
 -
@@ -149,7 +159,7 @@ build
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -169,7 +179,7 @@ sdk
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -190,7 +200,7 @@ java_home
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -446,7 +456,7 @@ GRADLE_USER_HOME
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -497,7 +507,7 @@ unittest
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -536,7 +546,7 @@ build
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -751,7 +761,7 @@ GRADLE_USER_HOME
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -810,7 +820,7 @@ html
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -865,7 +875,7 @@ xml
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -918,7 +928,7 @@ officialAustralisDebug_files
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -971,7 +981,7 @@ html
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1026,7 +1036,7 @@ xml
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1079,7 +1089,7 @@ officialPhotonDebug_files
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1122,7 +1132,7 @@ build
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1420,7 +1430,7 @@ GRADLE_USER_HOME
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -1475,7 +1485,7 @@ html
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1524,7 +1534,7 @@ xml
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1567,7 +1577,7 @@ build
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1808,7 +1818,7 @@ GRADLE_USER_HOME
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -1867,7 +1877,7 @@ html
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1924,7 +1934,7 @@ xml
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -1981,7 +1991,7 @@ html
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -2038,7 +2048,7 @@ xml
 path
 :
 /
-home
+builds
 /
 worker
 /
@@ -2085,7 +2095,7 @@ build
 path
 :
 /
-home
+builds
 /
 worker
 /

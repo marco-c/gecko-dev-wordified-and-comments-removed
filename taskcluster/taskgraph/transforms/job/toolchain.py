@@ -713,7 +713,7 @@ command
         
 '
 /
-home
+builds
 /
 worker
 /
@@ -732,7 +732,7 @@ vcs
 checkout
 =
 /
-home
+builds
 /
 worker
 /
@@ -760,7 +760,7 @@ c
 '
 cd
 /
-home
+builds
 /
 worker
 &

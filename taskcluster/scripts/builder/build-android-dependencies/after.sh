@@ -26,7 +26,7 @@ WORKSPACE
 :
 =
 /
-home
+builds
 /
 worker
 /
@@ -58,7 +58,7 @@ cp
 -
 R
 /
-home
+builds
 /
 worker
 /
@@ -106,7 +106,7 @@ mkdir
 -
 p
 /
-home
+builds
 /
 worker
 /
@@ -126,7 +126,7 @@ tar
 .
 xz
 /
-home
+builds
 /
 worker
 /
@@ -167,7 +167,7 @@ mkdir
 -
 p
 /
-home
+builds
 /
 worker
 /
@@ -181,7 +181,7 @@ tar
 .
 xz
 /
-home
+builds
 /
 worker
 /
@@ -373,7 +373,7 @@ mkdir
 -
 p
 /
-home
+builds
 /
 worker
 /
@@ -385,7 +385,7 @@ tar
 .
 xz
 /
-home
+builds
 /
 worker
 /
@@ -397,7 +397,7 @@ tar
 .
 xz
 /
-home
+builds
 /
 worker
 /
@@ -411,7 +411,7 @@ tar
 .
 xz
 /
-home
+builds
 /
 worker
 /

@@ -272,7 +272,7 @@ head_rev
 HG_STORE_PATH
 :
 /
-home
+builds
 /
 worker
 /
@@ -294,7 +294,7 @@ level
 checkouts
 :
 /
-home
+builds
 /
 worker
 /
@@ -396,7 +396,7 @@ command
 :
 -
 /
-home
+builds
 /
 worker
 /
@@ -414,7 +414,7 @@ vcs
 checkout
 =
 /
-home
+builds
 /
 worker
 /
@@ -436,7 +436,7 @@ cx
 >
 cd
 /
-home
+builds
 /
 worker
 /
@@ -449,7 +449,7 @@ ln
 -
 s
 /
-home
+builds
 /
 worker
 /
@@ -493,7 +493,7 @@ path
 :
 '
 /
-home
+builds
 /
 worker
 /

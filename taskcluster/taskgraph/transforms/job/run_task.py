@@ -239,7 +239,7 @@ vcs
 checkout
 =
 /
-home
+builds
 /
 worker
 /
@@ -402,7 +402,7 @@ point
 :
 '
 /
-home
+builds
 /
 worker
 /
@@ -456,7 +456,7 @@ command
 [
 '
 /
-home
+builds
 /
 worker
 /

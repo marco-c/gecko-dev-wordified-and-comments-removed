@@ -262,7 +262,7 @@ point
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -451,7 +451,7 @@ command
         
 '
 /
-home
+builds
 /
 worker
 /
@@ -471,7 +471,7 @@ checkout
 '
 '
 /
-home
+builds
 /
 worker
 /
@@ -502,7 +502,7 @@ c
 '
 cd
 /
-home
+builds
 /
 worker
 &

@@ -13,6 +13,10 @@ mozilla
 .
 com
 >
+RUN
+mkdir
+/
+builds
 #
 #
 #
@@ -28,7 +32,7 @@ useradd
 -
 d
 /
-home
+builds
 /
 worker
 -
@@ -47,7 +51,7 @@ working
 folder
 WORKDIR
 /
-home
+builds
 /
 worker
 #
@@ -85,14 +89,14 @@ bug
 .
 VOLUME
 /
-home
+builds
 /
 worker
 /
 workspace
 VOLUME
 /
-home
+builds
 /
 worker
 /
@@ -176,7 +180,7 @@ enabled
 ADD
 hgrc
 /
-home
+builds
 /
 worker
 /
@@ -190,7 +194,7 @@ worker
 :
 worker
 /
-home
+builds
 /
 worker
 /
@@ -219,7 +223,7 @@ manual
 ENV
 HOME
 /
-home
+builds
 /
 worker
 ENV

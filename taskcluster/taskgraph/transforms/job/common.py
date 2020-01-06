@@ -216,7 +216,7 @@ point
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -356,7 +356,7 @@ point
 :
 "
 /
-home
+builds
 /
 worker
 /
@@ -457,7 +457,7 @@ path
 =
 '
 /
-home
+builds
 /
 worker
 /
@@ -772,7 +772,7 @@ point
 :
 '
 /
-home
+builds
 /
 worker
 /
@@ -847,7 +847,7 @@ HG_STORE_PATH
 :
 '
 /
-home
+builds
 /
 worker
 /
@@ -1263,7 +1263,7 @@ point
 :
 '
 /
-home
+builds
 /
 worker
 /
@@ -1301,7 +1301,7 @@ TOOLTOOL_CACHE
 :
 '
 /
-home
+builds
 /
 worker
 /

@@ -16,11 +16,15 @@ gmail
 com
 >
 RUN
+mkdir
+/
+builds
+RUN
 useradd
 -
 d
 /
-home
+builds
 /
 worker
 -
@@ -34,7 +38,7 @@ m
 worker
 WORKDIR
 /
-home
+builds
 /
 worker
 #
@@ -71,7 +75,7 @@ slowness
 .
 VOLUME
 /
-home
+builds
 /
 worker
 /
@@ -79,14 +83,14 @@ worker
 cache
 VOLUME
 /
-home
+builds
 /
 worker
 /
 checkouts
 VOLUME
 /
-home
+builds
 /
 worker
 /
@@ -95,7 +99,7 @@ tooltool
 cache
 VOLUME
 /
-home
+builds
 /
 worker
 /
@@ -411,7 +415,7 @@ xvfb
 .
 sh
 /
-home
+builds
 /
 worker
 /
@@ -445,7 +449,7 @@ run
 -
 task
 /
-home
+builds
 /
 worker
 /
@@ -483,7 +487,7 @@ linux
 .
 sh
 /
-home
+builds
 /
 worker
 /
@@ -517,7 +521,7 @@ manual
 ENV
 HOME
 /
-home
+builds
 /
 worker
 ENV
@@ -563,7 +567,7 @@ files
 /
 config
 /
-home
+builds
 /
 worker
 /
@@ -576,7 +580,7 @@ files
 /
 pulse
 /
-home
+builds
 /
 worker
 /
@@ -603,7 +607,7 @@ buildprops
 .
 json
 /
-home
+builds
 /
 worker
 /
@@ -651,7 +655,7 @@ master
 /
 buildbot_step
 /
-home
+builds
 /
 worker
 /
@@ -664,7 +668,7 @@ u
 +
 x
 /
-home
+builds
 /
 worker
 /
@@ -759,7 +763,7 @@ PATH
 PATH
 :
 /
-home
+builds
 /
 worker
 /
@@ -994,7 +998,7 @@ fonts
 .
 conf
 /
-home
+builds
 /
 worker
 /
@@ -1054,7 +1058,7 @@ worker
 :
 worker
 /
-home
+builds
 /
 worker
 #
