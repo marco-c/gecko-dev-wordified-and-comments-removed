@@ -9006,6 +9006,9 @@ requested
 ;
 break
 ;
+#
+ifndef
+U_HIDE_DEPRECATED_API
 case
 UNUM_FIELD_COUNT
 :
@@ -9027,6 +9030,8 @@ iterator
 ;
 break
 ;
+#
+endif
 }
 MOZ_ASSERT_UNREACHABLE
 (
@@ -15587,17 +15592,12 @@ UDAT_RELATED_YEAR_FIELD
 :
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 case
 UDAT_AM_PM_MIDNIGHT_NOON_FIELD
 :
 case
 UDAT_FLEXIBLE_DAY_PERIOD_FIELD
 :
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -15609,6 +15609,9 @@ endif
 return
 nullptr
 ;
+#
+ifndef
+U_HIDE_DEPRECATED_API
 case
 UDAT_FIELD_COUNT
 :
@@ -15628,6 +15631,8 @@ iterator
 "
 )
 ;
+#
+endif
 }
 MOZ_ASSERT_UNREACHABLE
 (
