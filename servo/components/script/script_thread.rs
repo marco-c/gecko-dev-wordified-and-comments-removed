@@ -1125,6 +1125,12 @@ use
 webdriver_handlers
 ;
 use
+webrender_api
+:
+:
+DocumentId
+;
+use
 webvr_traits
 :
 :
@@ -2898,6 +2904,9 @@ Node
 custom_element_reaction_stack
 :
 CustomElementReactionStack
+webrender_document
+:
+DocumentId
 }
 struct
 ScriptMemoryFailsafe
@@ -5300,6 +5309,11 @@ CustomElementReactionStack
 new
 (
 )
+webrender_document
+:
+state
+.
+webrender_document
 }
 }
 pub
@@ -13242,6 +13256,9 @@ microtask_queue
 clone
 (
 )
+self
+.
+webrender_document
 )
 ;
 let

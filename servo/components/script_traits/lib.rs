@@ -421,6 +421,7 @@ webrender_api
 {
 ClipId
 DevicePixel
+DocumentId
 ImageKey
 }
 ;
@@ -2134,6 +2135,10 @@ IpcSender
 WebVRMsg
 >
 >
+pub
+webrender_document
+:
+DocumentId
 }
 pub
 trait

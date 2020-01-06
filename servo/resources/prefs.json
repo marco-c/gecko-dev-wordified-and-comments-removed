@@ -156,6 +156,17 @@ false
 "
 dom
 .
+webgl
+.
+dom_to_texture
+.
+enabled
+"
+:
+false
+"
+dom
+.
 webvr
 .
 enabled

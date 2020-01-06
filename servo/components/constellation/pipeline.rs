@@ -2449,6 +2449,11 @@ webvr_chan
 self
 .
 webvr_chan
+webrender_document
+:
+self
+.
+webrender_document
 }
 self
 .

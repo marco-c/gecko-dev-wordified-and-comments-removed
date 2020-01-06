@@ -56,6 +56,10 @@ offscreen_gl_context
 ;
 extern
 crate
+servo_config
+;
+extern
+crate
 webrender
 ;
 extern

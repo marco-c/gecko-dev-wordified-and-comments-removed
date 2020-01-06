@@ -874,7 +874,10 @@ use
 webrender_api
 :
 :
+{
+DocumentId
 ImageKey
+}
 ;
 use
 webvr_traits
@@ -2596,6 +2599,12 @@ unsafe_no_jsmanaged_fields
 !
 (
 DrawAPaintImageResult
+)
+;
+unsafe_no_jsmanaged_fields
+!
+(
+DocumentId
 )
 ;
 unsafe_no_jsmanaged_fields
