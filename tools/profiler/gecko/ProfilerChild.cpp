@@ -344,8 +344,6 @@ static
 nsCString
 CollectProfileOrEmptyString
 (
-bool
-aIsShuttingDown
 )
 {
 nsCString
@@ -361,8 +359,6 @@ profile
 =
 profiler_get_profile
 (
-0
-aIsShuttingDown
 )
 ;
 if
@@ -425,7 +421,6 @@ aResolve
 (
 CollectProfileOrEmptyString
 (
-false
 )
 )
 ;
@@ -481,7 +476,6 @@ GrabShutdownProfile
 return
 CollectProfileOrEmptyString
 (
-true
 )
 ;
 }
