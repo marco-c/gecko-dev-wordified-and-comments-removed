@@ -19098,6 +19098,17 @@ iter
 IsDone
 (
 )
+&
+&
+iter
+-
+>
+GetCurrentNode
+(
+)
+=
+=
+startNode
 )
 {
 iter
