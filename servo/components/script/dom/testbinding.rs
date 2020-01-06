@@ -4364,9 +4364,6 @@ true
 seqDict
 :
 None
-elementSequence
-:
-None
 shortValue
 :
 None
