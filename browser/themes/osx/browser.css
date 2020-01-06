@@ -2091,6 +2091,16 @@ inc
 .
 css
 #
+PopupAutoCompleteRichResult
+{
+margin
+-
+top
+:
+1px
+;
+}
+#
 PopupAutoComplete
 >
 richlistbox
