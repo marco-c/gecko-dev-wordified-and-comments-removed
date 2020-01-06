@@ -6926,7 +6926,7 @@ gfx
 :
 :
 IntRect
-&
+*
 aRect
 )
 {

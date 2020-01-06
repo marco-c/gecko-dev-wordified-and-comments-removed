@@ -1092,7 +1092,12 @@ gfx
 :
 :
 IntRect
-&
+*
+aRect
+)
+{
+if
+(
 aRect
 )
 {
@@ -1111,6 +1116,7 @@ mInvalidRect
 .
 SafeUnion
 (
+*
 aRect
 )
 )
@@ -1123,6 +1129,14 @@ value
 (
 )
 ;
+}
+else
+{
+mInvalidateEntireSurface
+=
+true
+;
+}
 }
 else
 {
