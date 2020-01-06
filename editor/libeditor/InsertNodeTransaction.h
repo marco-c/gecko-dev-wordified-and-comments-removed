@@ -69,9 +69,6 @@ aOffset
 EditorBase
 &
 aEditorBase
-nsIContent
-*
-aChildAtOffset
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -109,12 +106,6 @@ RefPtr
 EditorBase
 >
 mEditorBase
-;
-nsCOMPtr
-<
-nsIContent
->
-mRefNode
 ;
 }
 ;
