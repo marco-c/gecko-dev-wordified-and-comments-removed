@@ -747,14 +747,6 @@ endif
 #
 endif
 #
-ifdef
-XP_WIN
-#
-define
-RB_NO_C99_VARARRAYS
-#
-endif
-#
 include
 "
 rb
