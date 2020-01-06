@@ -10395,7 +10395,6 @@ return
 FinishDecoderSetup
 (
 decoder
-nullptr
 )
 ;
 }
@@ -20227,7 +20226,6 @@ return
 FinishDecoderSetup
 (
 decoder
-nullptr
 )
 ;
 }
@@ -20571,7 +20569,6 @@ rv
 FinishDecoderSetup
 (
 decoder
-aListener
 )
 ;
 if
@@ -20624,10 +20621,6 @@ FinishDecoderSetup
 MediaDecoder
 *
 aDecoder
-nsIStreamListener
-*
-*
-aListener
 )
 {
 ChangeNetworkState

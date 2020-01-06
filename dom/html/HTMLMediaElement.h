@@ -2571,10 +2571,6 @@ FinishDecoderSetup
 MediaDecoder
 *
 aDecoder
-nsIStreamListener
-*
-*
-aListener
 )
 ;
 void
