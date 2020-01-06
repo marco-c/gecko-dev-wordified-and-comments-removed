@@ -87,7 +87,7 @@ js
 ;
 const
 {
-wait
+PollPromise
 }
 =
 Cu
@@ -710,9 +710,8 @@ reject
 let
 findElements
 =
-wait
-.
-until
+new
+PollPromise
 (
 (
 resolve
