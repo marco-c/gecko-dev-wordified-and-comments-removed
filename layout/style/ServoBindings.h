@@ -2801,6 +2801,14 @@ nsCSSPropertyIDSetBorrowedMut
 nsCSSPropertyID
 )
 ;
+int32_t
+Gecko_RegisterNamespace
+(
+nsIAtom
+*
+ns
+)
+;
 #
 define
 STYLE_STRUCT
