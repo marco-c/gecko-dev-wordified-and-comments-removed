@@ -4256,6 +4256,17 @@ Sidebar
 <
 !
 ENTITY
+appMenuRecentHighlights
+.
+label
+"
+Recent
+Highlights
+"
+>
+<
+!
+ENTITY
 customizeMenu
 .
 addToToolbar
