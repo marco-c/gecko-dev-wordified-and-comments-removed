@@ -1,8 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
 import
 logging
 import
@@ -1044,7 +1039,6 @@ remoteMinidumpDir
 :
             
 print
-(
 "
 Automation
 Error
@@ -1065,7 +1059,6 @@ device
 self
 .
 remoteMinidumpDir
-)
             
 return
 True
@@ -2581,7 +2574,6 @@ detail
 :
                 
 print
-(
 "
 unable
 to
@@ -2594,7 +2586,6 @@ root
 str
 (
 detail
-)
 )
                 
 pass
@@ -3681,7 +3672,6 @@ self
 :
         
 print
-(
 '
 pushing
 %
@@ -3691,7 +3681,6 @@ s
 self
 .
 xpcDir
-)
         
 try
 :

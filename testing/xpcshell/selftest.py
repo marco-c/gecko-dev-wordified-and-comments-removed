@@ -1,7 +1,3 @@
-from
-__future__
-import
-absolute_import
 import
 mozinfo
 import
@@ -7722,7 +7718,6 @@ True
         
 except
 Exception
-as
 ex
 :
             
