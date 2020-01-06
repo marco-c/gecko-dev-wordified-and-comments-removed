@@ -135,7 +135,7 @@ panels
 ]
 ]
 }
-contextMenus
+menusInternal
 :
 {
 url
@@ -153,7 +153,7 @@ ext
 -
 c
 -
-contextMenus
+menus
 .
 js
 "
@@ -170,6 +170,11 @@ paths
 [
 "
 contextMenus
+"
+]
+[
+"
+menus
 "
 ]
 ]
