@@ -92,9 +92,6 @@ DIRS
 '
 logalloc
 '
-'
-replace
-'
 ]
 if
 CONFIG
