@@ -249,6 +249,9 @@ all
 dialog
 =
 no
+non
+-
+remote
 "
 ;
 var
