@@ -278,9 +278,15 @@ parameters
 -
 p
 '
-required
+default
 =
-True
+"
+project
+=
+mozilla
+-
+central
+"
                             
 help
 =
@@ -2803,6 +2809,11 @@ parameters
 load_parameters_file
 (
 options
+[
+'
+parameters
+'
+]
 )
             
 parameters
