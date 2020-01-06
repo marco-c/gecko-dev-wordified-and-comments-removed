@@ -256,7 +256,7 @@ ifndef
 XP_WIN
 #
 ifndef
-MOZ_MEMORY_SOLARIS
+XP_SOLARIS
 #
 include
 <
@@ -327,7 +327,7 @@ if
 !
 defined
 (
-MOZ_MEMORY_SOLARIS
+XP_SOLARIS
 )
 &
 &
