@@ -176,7 +176,9 @@ const
 return
 mTiming
 .
-mDelay
+Delay
+(
+)
 .
 ToMilliseconds
 (
@@ -192,7 +194,9 @@ const
 return
 mTiming
 .
-mEndDelay
+EndDelay
+(
+)
 .
 ToMilliseconds
 (
@@ -208,7 +212,9 @@ const
 return
 mTiming
 .
-mFill
+Fill
+(
+)
 ;
 }
 double
@@ -220,7 +226,9 @@ const
 return
 mTiming
 .
-mIterationStart
+IterationStart
+(
+)
 ;
 }
 double
@@ -232,7 +240,9 @@ const
 return
 mTiming
 .
-mIterations
+Iterations
+(
+)
 ;
 }
 void
@@ -253,7 +263,9 @@ const
 return
 mTiming
 .
-mDirection
+Direction
+(
+)
 ;
 }
 void
