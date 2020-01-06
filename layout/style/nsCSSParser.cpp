@@ -27915,6 +27915,17 @@ rgba
 )
 )
 {
+nsContentUtils
+:
+:
+ASCIIToLower
+(
+tk
+-
+>
+mIdent
+)
+;
 aValue
 .
 SetStringValue
