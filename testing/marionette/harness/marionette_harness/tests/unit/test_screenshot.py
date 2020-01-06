@@ -1321,17 +1321,25 @@ self
 start_window
 )
     
-skip_if_mobile
+skip
 (
 "
-Fennec
-doesn
+Bug
+1329424
+-
+AssertionError
+:
+u
 '
-t
-support
-other
-chrome
-windows
+iVBORw0KGgoA
+.
+.
+.
+(
+images
+unexpectedly
+equal
+)
 "
 )
     
