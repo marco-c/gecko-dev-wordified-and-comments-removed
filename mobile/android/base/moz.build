@@ -3802,6 +3802,11 @@ VsyncSource
 java
 '
 '
+HapticFeedbackDelegate
+.
+java
+'
+'
 InputConnectionListener
 .
 java
