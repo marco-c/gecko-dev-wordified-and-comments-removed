@@ -324,8 +324,10 @@ NoteStoppedControllingDocuments
 )
 ;
 void
-Activated
+UpdateState
 (
+ServiceWorkerState
+aState
 )
 ;
 nsresult

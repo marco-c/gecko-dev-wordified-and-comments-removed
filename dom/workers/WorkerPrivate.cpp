@@ -6986,10 +6986,6 @@ mWindowID
 (
 UINT64_MAX
 )
-mServiceWorkerID
-(
-0
-)
 mReferrerPolicy
 (
 net
@@ -7241,6 +7237,12 @@ aOther
 .
 mServiceWorkerCacheName
 ;
+mServiceWorkerDescriptor
+=
+aOther
+.
+mServiceWorkerDescriptor
+;
 mLoadFlags
 =
 aOther
@@ -7252,12 +7254,6 @@ mWindowID
 aOther
 .
 mWindowID
-;
-mServiceWorkerID
-=
-aOther
-.
-mServiceWorkerID
 ;
 mReferrerPolicy
 =
@@ -11361,10 +11357,6 @@ aScriptURL
 mWorkerName
 (
 aWorkerName
-)
-mServiceWorkerScope
-(
-aServiceWorkerScope
 )
 mLoadingWorkerScript
 (
