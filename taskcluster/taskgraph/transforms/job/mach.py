@@ -138,7 +138,10 @@ command
 =
 '
 cd
-~
+/
+home
+/
+worker
 /
 checkouts
 /

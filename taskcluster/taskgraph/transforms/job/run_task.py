@@ -395,7 +395,10 @@ vcs
 -
 checkout
 =
-~
+/
+home
+/
+worker
 /
 checkouts
 /
@@ -646,7 +649,10 @@ vcs
 -
 checkout
 =
-~
+/
+home
+/
+worker
 /
 checkouts
 /

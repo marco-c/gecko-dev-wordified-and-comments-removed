@@ -856,7 +856,10 @@ HG_STORE_PATH
 '
 :
 '
-~
+/
+home
+/
+worker
 /
 checkouts
 /
