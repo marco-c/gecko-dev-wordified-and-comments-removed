@@ -636,6 +636,10 @@ static
 bool
 sImgCrossOriginAuthAllowPref
 ;
+static
+bool
+sNonWebContentTriggeredAuthAllow
+;
 nsCOMPtr
 <
 nsICancelable
