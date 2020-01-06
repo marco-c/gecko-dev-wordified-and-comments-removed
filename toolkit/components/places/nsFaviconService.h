@@ -477,6 +477,9 @@ UnassociatedIconHashKey
 >
 mUnassociatedIcons
 ;
+uint16_t
+mDefaultIconURIPreferredSize
+;
 }
 ;
 #
