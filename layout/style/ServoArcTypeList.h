@@ -35,6 +35,16 @@ RawServoAnimationValue
 )
 SERVO_ARC_TYPE
 (
+Keyframe
+RawServoKeyframe
+)
+SERVO_ARC_TYPE
+(
+KeyframesRule
+RawServoKeyframesRule
+)
+SERVO_ARC_TYPE
+(
 MediaList
 RawServoMediaList
 )
