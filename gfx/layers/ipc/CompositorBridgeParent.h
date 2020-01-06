@@ -320,6 +320,9 @@ class
 AsyncCompositionManager
 ;
 class
+AsyncImagePipelineManager
+;
+class
 Compositor
 ;
 class
@@ -2571,6 +2574,12 @@ RefPtr
 AsyncCompositionManager
 >
 mCompositionManager
+;
+RefPtr
+<
+AsyncImagePipelineManager
+>
+mAsyncImageManager
 ;
 RefPtr
 <

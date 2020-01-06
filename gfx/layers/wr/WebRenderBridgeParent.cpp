@@ -4114,7 +4114,6 @@ mAsyncImageManager
 >
 RemoveAsyncImagePipeline
 (
-mApi
 aPipelineId
 )
 ;
@@ -5645,7 +5644,6 @@ mAsyncImageManager
 >
 ApplyAsyncImages
 (
-mApi
 )
 ;
 SampleAnimations
@@ -6634,7 +6632,6 @@ mAsyncImageManager
 >
 RemoveAsyncImagePipeline
 (
-mApi
 pipelineId
 )
 ;
@@ -6728,6 +6725,10 @@ mAnimStorage
 nullptr
 ;
 mCompositorScheduler
+=
+nullptr
+;
+mAsyncImageManager
 =
 nullptr
 ;
@@ -7164,6 +7165,14 @@ MOZ_ASSERT
 mWidget
 )
 ;
+if
+(
+mDestroyed
+)
+{
+return
+;
+}
 mAsyncImageManager
 -
 >
