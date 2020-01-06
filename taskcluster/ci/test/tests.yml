@@ -745,9 +745,6 @@ run
 time
 :
 5400
-tier
-:
-1
 docker
 -
 image
