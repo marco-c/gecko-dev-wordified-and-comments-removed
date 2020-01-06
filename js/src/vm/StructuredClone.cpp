@@ -663,6 +663,7 @@ Done
 )
 ;
 }
+MOZ_MUST_USE
 bool
 readBytes
 (
@@ -1084,6 +1085,7 @@ return
 cx
 ;
 }
+MOZ_MUST_USE
 bool
 write
 (
@@ -1091,6 +1093,7 @@ uint64_t
 u
 )
 ;
+MOZ_MUST_USE
 bool
 writePair
 (
@@ -1100,6 +1103,7 @@ uint32_t
 data
 )
 ;
+MOZ_MUST_USE
 bool
 writeDouble
 (
@@ -1107,6 +1111,7 @@ double
 d
 )
 ;
+MOZ_MUST_USE
 bool
 writeBytes
 (
@@ -1118,6 +1123,7 @@ size_t
 nbytes
 )
 ;
+MOZ_MUST_USE
 bool
 writeChars
 (
@@ -1129,6 +1135,7 @@ size_t
 nchars
 )
 ;
+MOZ_MUST_USE
 bool
 writeChars
 (
@@ -1140,6 +1147,7 @@ size_t
 nchars
 )
 ;
+MOZ_MUST_USE
 bool
 writePtr
 (
@@ -1153,6 +1161,7 @@ template
 class
 T
 >
+MOZ_MUST_USE
 bool
 writeArray
 (
@@ -1164,6 +1173,7 @@ size_t
 nbytes
 )
 ;
+MOZ_MUST_USE
 bool
 extractBuffer
 (
@@ -1328,6 +1338,7 @@ uint32_t
 datap
 )
 ;
+MOZ_MUST_USE
 bool
 read
 (
@@ -1336,6 +1347,7 @@ uint64_t
 p
 )
 ;
+MOZ_MUST_USE
 bool
 readNativeEndian
 (
@@ -1344,6 +1356,7 @@ uint64_t
 p
 )
 ;
+MOZ_MUST_USE
 bool
 readPair
 (
@@ -1355,6 +1368,7 @@ uint32_t
 datap
 )
 ;
+MOZ_MUST_USE
 bool
 readDouble
 (
@@ -1363,6 +1377,7 @@ double
 p
 )
 ;
+MOZ_MUST_USE
 bool
 readBytes
 (
@@ -1373,6 +1388,7 @@ size_t
 nbytes
 )
 ;
+MOZ_MUST_USE
 bool
 readChars
 (
@@ -1383,6 +1399,7 @@ size_t
 nchars
 )
 ;
+MOZ_MUST_USE
 bool
 readChars
 (
@@ -1393,6 +1410,7 @@ size_t
 nchars
 )
 ;
+MOZ_MUST_USE
 bool
 readPtr
 (
@@ -1401,6 +1419,7 @@ void
 *
 )
 ;
+MOZ_MUST_USE
 bool
 get
 (
@@ -1409,6 +1428,7 @@ uint64_t
 p
 )
 ;
+MOZ_MUST_USE
 bool
 getPair
 (
@@ -1464,6 +1484,7 @@ template
 class
 T
 >
+MOZ_MUST_USE
 bool
 readArray
 (
@@ -1664,6 +1685,7 @@ double
 d
 )
 ;
+MOZ_MUST_USE
 bool
 readTypedArray
 (
@@ -1679,6 +1701,7 @@ v1Read
 false
 )
 ;
+MOZ_MUST_USE
 bool
 readDataView
 (
@@ -1688,6 +1711,7 @@ MutableHandleValue
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 readArrayBuffer
 (
@@ -1697,6 +1721,7 @@ MutableHandleValue
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 readSharedArrayBuffer
 (
@@ -1706,6 +1731,7 @@ MutableHandleValue
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 readV1ArrayBuffer
 (
@@ -1725,6 +1751,7 @@ uint32_t
 principalsTag
 )
 ;
+MOZ_MUST_USE
 bool
 startRead
 (
@@ -3009,6 +3036,8 @@ false
 uint64_t
 u
 ;
+MOZ_ALWAYS_TRUE
+(
 data
 .
 ReadBytes
@@ -3026,6 +3055,7 @@ u
 sizeof
 (
 u
+)
 )
 )
 ;
@@ -9759,6 +9789,9 @@ vp
 intptr_t
 p
 ;
+if
+(
+!
 in
 .
 readBytes
@@ -9769,6 +9802,13 @@ sizeof
 (
 p
 )
+)
+)
+return
+in
+.
+reportTruncated
+(
 )
 ;
 SharedArrayRawBuffer
