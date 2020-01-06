@@ -445,6 +445,7 @@ MAX_TIMELINE_ITEM_LINES
 ;
 private
 static
+final
 boolean
 DEBUG
 =
@@ -3490,6 +3491,7 @@ mIsTimelineStatic
 }
 Override
 public
+synchronized
 ConcurrentLinkedQueue
 <
 GeckoHLSSample
@@ -4158,6 +4160,7 @@ nextKeyFrameTime
 }
 Override
 public
+synchronized
 void
 suspend
 (
@@ -4215,6 +4218,7 @@ false
 }
 Override
 public
+synchronized
 void
 resume
 (
