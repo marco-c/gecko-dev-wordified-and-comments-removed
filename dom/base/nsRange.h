@@ -1527,6 +1527,11 @@ nsRange
 aOutRanges
 )
 ;
+void
+NotifySelectionListenersAfterRangeSet
+(
+)
+;
 typedef
 nsTHashtable
 <
