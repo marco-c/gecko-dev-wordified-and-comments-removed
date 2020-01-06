@@ -45,10 +45,8 @@ reset
 ;
 token
 .
-changePassword
+initPassword
 (
-"
-"
 "
 "
 )
