@@ -17,6 +17,14 @@ statistics
 import
 median
 StatisticsError
+from
+urllib
+.
+parse
+import
+urlsplit
+urlunsplit
+urljoin
 def
 load_manifest
 (
@@ -173,6 +181,56 @@ False
 return
 output
 def
+testcase_url
+(
+base
+testcase
+)
+:
+    
+(
+scheme
+netloc
+path
+query
+fragment
+)
+=
+urlsplit
+(
+testcase
+)
+    
+relative_url
+=
+urlunsplit
+(
+(
+'
+'
+'
+'
+'
+.
+'
++
+path
+query
+fragment
+)
+)
+    
+absolute_url
+=
+urljoin
+(
+base
+relative_url
+)
+    
+return
+absolute_url
+def
 execute_test
 (
 url
@@ -288,6 +346,7 @@ return
 def
 run_servo_test
 (
+testcase
 url
 timeout
 is_async
@@ -316,6 +375,7 @@ parse_log
 (
 "
 "
+testcase
 url
 )
     
@@ -496,7 +556,7 @@ timeout
 .
 format
 (
-url
+testcase
 )
 )
     
@@ -504,6 +564,7 @@ return
 parse_log
 (
 log
+testcase
 url
 )
 def
@@ -511,6 +572,7 @@ parse_log
 (
 log
 testcase
+url
 )
 :
     
@@ -786,7 +848,7 @@ def
 valid_timing
 (
 timing
-testcase
+url
 =
 None
 )
@@ -830,7 +892,7 @@ testcase
 )
 !
 =
-testcase
+url
 )
 :
             
@@ -1014,11 +1076,43 @@ domComplete
         
 }
     
+def
+set_testcase
+(
+timing
+testcase
+=
+None
+)
+:
+        
+timing
+[
+'
+testcase
+'
+]
+=
+testcase
+        
+return
+timing
+    
 valid_timing_for_case
 =
 partial
 (
 valid_timing
+url
+=
+url
+)
+    
+set_testcase_for_case
+=
+partial
+(
+set_testcase
 testcase
 =
 testcase
@@ -1028,6 +1122,9 @@ timings
 =
 list
 (
+map
+(
+set_testcase_for_case
 filter
 (
 valid_timing_for_case
@@ -1035,6 +1132,7 @@ map
 (
 parse_block
 blocks
+)
 )
 )
 )
@@ -1124,6 +1222,7 @@ filter_result_by_manifest
 (
 result_json
 manifest
+base
 )
 :
     
@@ -1138,6 +1237,14 @@ is_async
 in
 manifest
 :
+        
+url
+=
+testcase_url
+(
+base
+name
+)
         
 match
 =
@@ -1156,7 +1263,7 @@ testcase
 ]
 =
 =
-name
+url
 ]
         
 if
@@ -1412,6 +1519,7 @@ results
 filename
 manifest
 expected_runs
+base
 )
 :
     
@@ -1421,6 +1529,7 @@ filter_result_by_manifest
 (
 results
 manifest
+base
 )
     
 results
@@ -1827,6 +1936,55 @@ add_argument
 "
 -
 -
+base
+"
+                        
+type
+=
+str
+                        
+default
+=
+'
+http
+:
+/
+/
+localhost
+:
+8000
+/
+'
+                        
+help
+=
+"
+the
+base
+URL
+for
+tests
+.
+Default
+:
+http
+:
+/
+/
+localhost
+:
+8000
+/
+"
+)
+    
+parser
+.
+add_argument
+(
+"
+-
+-
 runs
 "
                         
@@ -2014,6 +2172,16 @@ in
 testcases
 :
             
+url
+=
+testcase_url
+(
+args
+.
+base
+testcase
+)
+            
 for
 run
 in
@@ -2050,7 +2218,7 @@ args
 .
 runs
                                                         
-testcase
+url
 )
 )
                 
@@ -2060,6 +2228,7 @@ results
 run_test
 (
 testcase
+url
 args
 .
 timeout
@@ -2091,6 +2260,9 @@ testcases
 args
 .
 runs
+args
+.
+base
 )
     
 except
