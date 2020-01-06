@@ -231,12 +231,6 @@ NextFrameBufferedStatus
 override
 ;
 bool
-CanPlayThrough
-(
-)
-override
-;
-bool
 IsMSE
 (
 )
@@ -275,6 +269,12 @@ TimeInterval
 &
 aInterval
 )
+;
+bool
+CanPlayThroughImpl
+(
+)
+override
 ;
 RefPtr
 <

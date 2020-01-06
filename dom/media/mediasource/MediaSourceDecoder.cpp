@@ -1521,7 +1521,7 @@ bool
 MediaSourceDecoder
 :
 :
-CanPlayThrough
+CanPlayThroughImpl
 (
 )
 {

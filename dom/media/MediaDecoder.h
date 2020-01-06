@@ -814,7 +814,6 @@ ComputePlaybackRate
 (
 )
 ;
-virtual
 bool
 CanPlayThrough
 (
@@ -1372,6 +1371,12 @@ DisconnectMirrors
 (
 )
 ;
+virtual
+bool
+CanPlayThroughImpl
+(
+)
+;
 RefPtr
 <
 MediaDecoderStateMachine
@@ -1860,6 +1865,11 @@ mTelemetryReported
 const
 MediaContainerType
 mContainerType
+;
+bool
+mCanPlayThrough
+=
+false
 ;
 }
 ;
