@@ -226,6 +226,18 @@ MOZ_ANDROID_MLS_STUMBLER
 '
                 
 '
+MOZ_ANDROID_MMA
+'
+                
+'
+MOZ_LEANPLUM_SDK_KEY
+'
+                
+'
+MOZ_LEANPLUM_SDK_CLIENTID
+'
+                
+'
 MOZ_ANDROID_SEARCH_ACTIVITY
 '
                 

@@ -371,6 +371,7 @@ KEY_MAX
 max
 "
 ;
+public
 static
 void
 loadConfig
