@@ -140,6 +140,13 @@ open
 -
 -
 archive
+sparse
+-
+profile
+:
+sphinx
+-
+docs
 when
 :
 files
@@ -291,6 +298,13 @@ upload
 no
 -
 open
+sparse
+-
+profile
+:
+sphinx
+-
+docs
 scopes
 :
 -
