@@ -1148,3 +1148,17 @@ js_wrapper
 .
 sh
 "
+export
+PROGUARD_JAR
+=
+"
+topsrcdir
+/
+proguard
+/
+lib
+/
+proguard
+.
+jar
+"
