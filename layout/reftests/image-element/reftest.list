@@ -241,6 +241,12 @@ continuation
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+)
 =
 =
 element
@@ -381,6 +387,12 @@ if
 skiaContent
 255
 4
+)
+fails
+-
+if
+(
+webrender
 )
 =
 =
