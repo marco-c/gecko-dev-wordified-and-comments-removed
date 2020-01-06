@@ -1166,15 +1166,12 @@ pub
 enum
 BoxShadowClipMode
 {
-None
-=
-0
 Outset
 =
-1
+0
 Inset
 =
-2
+1
 }
 #
 [
