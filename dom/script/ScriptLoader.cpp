@@ -10621,10 +10621,7 @@ script
 }
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
+script
 &
 &
 encodeBytecode
