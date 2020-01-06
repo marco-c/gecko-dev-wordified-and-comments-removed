@@ -864,6 +864,15 @@ DiscardLocalImages
 (
 )
 ;
+WrBridge
+(
+)
+-
+>
+ProcessWebRenderParentCommands
+(
+)
+;
 return
 false
 ;

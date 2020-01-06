@@ -558,6 +558,15 @@ WebRenderScrollData
 aScrollData
 )
 ;
+async
+ParentCommands
+(
+WebRenderParentCommand
+[
+]
+commands
+)
+;
 sync
 DPGetSnapshot
 (
