@@ -151,8 +151,6 @@ prim
 .
 task
 local_rect
-.
-p0
 )
 ;
 vLocalPos
@@ -207,8 +205,6 @@ prim
 .
 task
 local_rect
-.
-p0
 )
 ;
 vec2

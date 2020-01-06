@@ -238,15 +238,7 @@ webrender_traits
 :
 :
 {
-WorldPoint4D
 WorldToLayerTransform
-}
-;
-use
-webrender_traits
-:
-:
-{
 YuvColorSpace
 YuvFormat
 }

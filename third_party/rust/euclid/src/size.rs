@@ -1360,7 +1360,7 @@ unwrap
 }
 pub
 fn
-to_uint
+to_usize
 (
 &
 self

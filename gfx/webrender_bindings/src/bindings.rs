@@ -7202,6 +7202,9 @@ WrImageKey
 color_space
 :
 WrYuvColorSpace
+image_rendering
+:
+WrImageRendering
 )
 {
 assert
@@ -7243,6 +7246,7 @@ image_key_1
 image_key_2
 )
 color_space
+image_rendering
 )
 ;
 }
@@ -7278,6 +7282,9 @@ WrImageKey
 color_space
 :
 WrYuvColorSpace
+image_rendering
+:
+WrImageRendering
 )
 {
 assert
@@ -7318,6 +7325,7 @@ image_key_0
 image_key_1
 )
 color_space
+image_rendering
 )
 ;
 }
@@ -7350,6 +7358,9 @@ WrImageKey
 color_space
 :
 WrYuvColorSpace
+image_rendering
+:
+WrImageRendering
 )
 {
 assert
@@ -7389,6 +7400,7 @@ InterleavedYCbCr
 image_key_0
 )
 color_space
+image_rendering
 )
 ;
 }

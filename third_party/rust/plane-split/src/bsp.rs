@@ -211,7 +211,7 @@ debug
 \
 t
 \
-tcoplanar
+tCoplanar
 and
 matching
 "
@@ -244,7 +244,7 @@ debug
 \
 t
 \
-tcoplanar
+tCoplanar
 at
 {
 :
@@ -415,7 +415,7 @@ debug
 \
 t
 \
-tcut
+tCut
 across
 {
 :

@@ -1918,7 +1918,7 @@ debug
 \
 t
 \
-toutside
+tOutside
 "
 )
 ;
@@ -1964,7 +1964,7 @@ debug
 \
 t
 \
-tcoplanar
+tCoplanar
 "
 )
 ;
@@ -2013,7 +2013,7 @@ debug
 \
 t
 \
-tprojection
+tProjection
 outside
 "
 )

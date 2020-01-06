@@ -1432,6 +1432,10 @@ pub
 color_space
 :
 YuvColorSpace
+pub
+image_rendering
+:
+ImageRendering
 }
 #
 [

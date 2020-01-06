@@ -67,6 +67,9 @@ mod
 geometry
 ;
 mod
+glyph_rasterizer
+;
+mod
 gpu_store
 ;
 mod

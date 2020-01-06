@@ -2606,6 +2606,8 @@ WrImageKey
 aImageKey1
 WrYuvColorSpace
 aColorSpace
+WrImageRendering
+aImageRendering
 )
 WR_FUNC
 ;
@@ -2624,6 +2626,8 @@ WrImageKey
 aImageKey0
 WrYuvColorSpace
 aColorSpace
+WrImageRendering
+aImageRendering
 )
 WR_FUNC
 ;
@@ -2646,6 +2650,8 @@ WrImageKey
 aImageKey2
 WrYuvColorSpace
 aColorSpace
+WrImageRendering
+aImageRendering
 )
 WR_FUNC
 ;

@@ -87,6 +87,7 @@ webrender_traits
 ImageData
 ImageDescriptor
 ImageFormat
+ImageRendering
 }
 ;
 use
@@ -1828,6 +1829,10 @@ YuvColorSpace
 :
 :
 Rec601
+ImageRendering
+:
+:
+Auto
 )
 ;
 let
@@ -1894,6 +1899,10 @@ YuvColorSpace
 :
 :
 Rec601
+ImageRendering
+:
+:
+Auto
 )
 ;
 builder

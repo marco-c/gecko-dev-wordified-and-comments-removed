@@ -2893,6 +2893,11 @@ ImageKey
 aImageChannel2
 WrYuvColorSpace
 aColorSpace
+wr
+:
+:
+ImageRendering
+aRendering
 )
 {
 wr_dp_push_yuv_planar_image
@@ -2904,6 +2909,7 @@ aImageChannel0
 aImageChannel1
 aImageChannel2
 aColorSpace
+aRendering
 )
 ;
 }
@@ -2932,6 +2938,11 @@ ImageKey
 aImageChannel1
 WrYuvColorSpace
 aColorSpace
+wr
+:
+:
+ImageRendering
+aRendering
 )
 {
 wr_dp_push_yuv_NV12_image
@@ -2942,6 +2953,7 @@ aClip
 aImageChannel0
 aImageChannel1
 aColorSpace
+aRendering
 )
 ;
 }
@@ -2965,6 +2977,11 @@ ImageKey
 aImageChannel0
 WrYuvColorSpace
 aColorSpace
+wr
+:
+:
+ImageRendering
+aRendering
 )
 {
 wr_dp_push_yuv_interleaved_image
@@ -2974,6 +2991,7 @@ aBounds
 aClip
 aImageChannel0
 aColorSpace
+aRendering
 )
 ;
 }
