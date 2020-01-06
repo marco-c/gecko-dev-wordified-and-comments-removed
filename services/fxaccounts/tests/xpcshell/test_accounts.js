@@ -194,17 +194,6 @@ Trace
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-atob
-"
-]
-)
-;
 var
 log
 =

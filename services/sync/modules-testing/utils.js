@@ -9,9 +9,6 @@ EXPORTED_SYMBOLS
 =
 [
 "
-btoa
-"
-"
 encryptPayload
 "
 "

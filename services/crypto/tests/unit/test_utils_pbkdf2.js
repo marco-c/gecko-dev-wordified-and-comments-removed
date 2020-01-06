@@ -1,16 +1,5 @@
 Cu
 .
-importGlobalProperties
-(
-[
-"
-btoa
-"
-]
-)
-;
-Cu
-.
 import
 (
 "
