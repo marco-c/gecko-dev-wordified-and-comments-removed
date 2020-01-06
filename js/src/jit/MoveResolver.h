@@ -943,6 +943,10 @@ type_
 (
 type
 )
+endCycleType_
+(
+GENERAL
+)
 {
 }
 bool
