@@ -33,7 +33,7 @@ html
 "
 ;
 var
-expectedURL
+useOldPrefs
 =
 Services
 .
@@ -49,6 +49,11 @@ preferences
 useOldOrganization
 "
 )
+;
+var
+expectedURL
+=
+useOldPrefs
 ?
 "
 about
@@ -122,6 +127,9 @@ aBrowser
 let
 syncPaneLoadedPromise
 =
+useOldPrefs
+|
+|
 TestUtils
 .
 topicObserved
@@ -313,6 +321,9 @@ aBrowser
 let
 syncPaneLoadedPromise
 =
+useOldPrefs
+|
+|
 TestUtils
 .
 topicObserved
