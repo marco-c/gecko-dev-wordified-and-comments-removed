@@ -425,21 +425,6 @@ prefs
 interpolation
 )
             
-prefs
-[
-'
-toolkit
-.
-telemetry
-.
-newProfilePing
-.
-enabled
-'
-]
-=
-False
-            
 for
 pref
 in
