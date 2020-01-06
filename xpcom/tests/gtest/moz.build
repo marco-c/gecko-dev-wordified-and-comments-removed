@@ -210,6 +210,11 @@ TestRacingServiceManager
 cpp
 '
 '
+TestRWLock
+.
+cpp
+'
+'
 TestSlicedInputStream
 .
 cpp
