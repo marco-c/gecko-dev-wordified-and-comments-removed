@@ -3832,6 +3832,8 @@ nsStyleCoord
 >
 &
 aBoxValues
+bool
+aClampNegativeCalc
 )
 ;
 void
