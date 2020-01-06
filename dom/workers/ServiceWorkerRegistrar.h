@@ -32,6 +32,13 @@ h
 #
 include
 "
+nsIAsyncShutdown
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -113,6 +120,8 @@ ServiceWorkerRegistrar
 :
 public
 nsIObserver
+public
+nsIAsyncShutdownBlocker
 {
 friend
 class
@@ -122,6 +131,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
+NS_DECL_NSIASYNCSHUTDOWNBLOCKER
 static
 void
 Initialize
@@ -264,6 +274,15 @@ MaybeScheduleShutdownCompleted
 (
 )
 ;
+nsCOMPtr
+<
+nsIAsyncShutdownClient
+>
+GetShutdownPhase
+(
+)
+const
+;
 bool
 IsSupportedVersion
 (
@@ -299,10 +318,6 @@ mDataLoaded
 ;
 bool
 mShuttingDown
-;
-bool
-*
-mShutdownCompleteFlag
 ;
 uint32_t
 mRunnableCounter
