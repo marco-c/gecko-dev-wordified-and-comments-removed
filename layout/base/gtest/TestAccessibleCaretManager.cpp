@@ -132,7 +132,6 @@ nullptr
 )
 {
 }
-virtual
 void
 SetAppearance
 (
@@ -146,7 +145,6 @@ mAppearance
 aAppearance
 ;
 }
-virtual
 void
 SetSelectionBarEnabled
 (
@@ -285,7 +283,6 @@ mSecondCaret
 )
 ;
 }
-virtual
 bool
 CompareTreePosition
 (
@@ -303,7 +300,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsCaretDisplayableInCursorMode
 (
@@ -326,7 +322,6 @@ return
 true
 ;
 }
-virtual
 bool
 UpdateCaretsForOverlappingTilt
 (
@@ -337,7 +332,6 @@ return
 true
 ;
 }
-virtual
 void
 UpdateCaretsForAlwaysTilt
 (
@@ -394,7 +388,6 @@ Right
 ;
 }
 }
-virtual
 bool
 IsTerminated
 (

@@ -206,7 +206,6 @@ State
 {
 public
 :
-virtual
 const
 char
 *
@@ -222,7 +221,6 @@ NoActionState
 "
 ;
 }
-virtual
 nsEventStatus
 OnPress
 (
@@ -315,7 +313,6 @@ return
 rv
 ;
 }
-virtual
 void
 OnScrollStart
 (
@@ -349,7 +346,6 @@ ScrollState
 )
 ;
 }
-virtual
 void
 OnScrollPositionChanged
 (
@@ -370,7 +366,6 @@ OnScrollPositionChanged
 )
 ;
 }
-virtual
 void
 OnSelectionChanged
 (
@@ -402,7 +397,6 @@ aReason
 )
 ;
 }
-virtual
 void
 OnBlur
 (
@@ -425,7 +419,6 @@ OnBlur
 )
 ;
 }
-virtual
 void
 OnReflow
 (
@@ -446,7 +439,6 @@ OnReflow
 )
 ;
 }
-virtual
 void
 Enter
 (
@@ -491,7 +483,6 @@ State
 {
 public
 :
-virtual
 const
 char
 *
@@ -507,7 +498,6 @@ PressCaretState
 "
 ;
 }
-virtual
 nsEventStatus
 OnMove
 (
@@ -568,7 +558,6 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
-virtual
 nsEventStatus
 OnRelease
 (
@@ -619,7 +608,6 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
-virtual
 nsEventStatus
 OnLongTap
 (
@@ -653,7 +641,6 @@ State
 {
 public
 :
-virtual
 const
 char
 *
@@ -669,7 +656,6 @@ DragCaretState
 "
 ;
 }
-virtual
 nsEventStatus
 OnMove
 (
@@ -698,7 +684,6 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
-virtual
 nsEventStatus
 OnRelease
 (
@@ -751,7 +736,6 @@ State
 {
 public
 :
-virtual
 const
 char
 *
@@ -767,7 +751,6 @@ PressNoCaretState
 "
 ;
 }
-virtual
 nsEventStatus
 OnMove
 (
@@ -810,7 +793,6 @@ return
 nsEventStatus_eIgnore
 ;
 }
-virtual
 nsEventStatus
 OnRelease
 (
@@ -837,7 +819,6 @@ return
 nsEventStatus_eIgnore
 ;
 }
-virtual
 nsEventStatus
 OnLongTap
 (
@@ -880,7 +861,6 @@ aPoint
 )
 ;
 }
-virtual
 void
 OnScrollStart
 (
@@ -914,7 +894,6 @@ ScrollState
 )
 ;
 }
-virtual
 void
 OnBlur
 (
@@ -956,7 +935,6 @@ NoActionState
 ;
 }
 }
-virtual
 void
 OnSelectionChanged
 (
@@ -988,7 +966,6 @@ aReason
 )
 ;
 }
-virtual
 void
 OnReflow
 (
@@ -1009,7 +986,6 @@ OnReflow
 )
 ;
 }
-virtual
 void
 Enter
 (
@@ -1027,7 +1003,6 @@ LaunchLongTapInjector
 )
 ;
 }
-virtual
 void
 Leave
 (
@@ -1061,7 +1036,6 @@ State
 {
 public
 :
-virtual
 const
 char
 *
@@ -1077,7 +1051,6 @@ ScrollState
 "
 ;
 }
-virtual
 void
 OnScrollEnd
 (
@@ -1101,7 +1074,6 @@ PostScrollState
 )
 ;
 }
-virtual
 void
 OnScrollPositionChanged
 (
@@ -1122,7 +1094,6 @@ OnScrollPositionChanged
 )
 ;
 }
-virtual
 void
 OnBlur
 (
@@ -1180,7 +1151,6 @@ State
 {
 public
 :
-virtual
 const
 char
 *
@@ -1196,7 +1166,6 @@ PostScrollState
 "
 ;
 }
-virtual
 nsEventStatus
 OnPress
 (
@@ -1255,7 +1224,6 @@ aEventClass
 )
 ;
 }
-virtual
 void
 OnScrollStart
 (
@@ -1279,7 +1247,6 @@ ScrollState
 )
 ;
 }
-virtual
 void
 OnScrollEnd
 (
@@ -1313,7 +1280,6 @@ NoActionState
 )
 ;
 }
-virtual
 void
 OnBlur
 (
@@ -1355,7 +1321,6 @@ NoActionState
 ;
 }
 }
-virtual
 void
 Enter
 (
@@ -1373,7 +1338,6 @@ LaunchScrollEndInjector
 )
 ;
 }
-virtual
 void
 Leave
 (
@@ -1407,7 +1371,6 @@ State
 {
 public
 :
-virtual
 const
 char
 *
@@ -1423,7 +1386,6 @@ LongTapState
 "
 ;
 }
-virtual
 nsEventStatus
 OnLongTap
 (
@@ -1452,7 +1414,6 @@ return
 nsEventStatus_eIgnore
 ;
 }
-virtual
 nsEventStatus
 OnRelease
 (
@@ -1479,7 +1440,6 @@ return
 nsEventStatus_eIgnore
 ;
 }
-virtual
 void
 OnScrollStart
 (
@@ -1513,7 +1473,6 @@ ScrollState
 )
 ;
 }
-virtual
 void
 OnReflow
 (
