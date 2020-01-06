@@ -18,6 +18,18 @@ x86_64
 pc
 -
 mingw32
+if
+[
+-
+d
+"
+topsrcdir
+/
+clang
+"
+]
+;
+then
 CLANG_LIB_DIR
 =
 "
@@ -102,6 +114,7 @@ x86_64
 .
 dll
 "
+fi
 #
 Enable
 ASan
