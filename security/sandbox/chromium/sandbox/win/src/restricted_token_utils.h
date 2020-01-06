@@ -78,6 +78,8 @@ TokenType
 token_type
 bool
 lockdown_default_dacl
+bool
+use_restricting_sids
 base
 :
 :

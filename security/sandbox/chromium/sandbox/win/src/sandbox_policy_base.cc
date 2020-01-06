@@ -973,6 +973,19 @@ return
 lockdown_level_
 ;
 }
+void
+PolicyBase
+:
+:
+SetDoNotUseRestrictingSIDs
+(
+)
+{
+use_restricting_sids_
+=
+false
+;
+}
 ResultCode
 PolicyBase
 :
@@ -2026,6 +2039,7 @@ lockdown_level_
 integrity_level_
 PRIMARY
 lockdown_default_dacl_
+use_restricting_sids_
 lockdown
 )
 ;
@@ -2250,6 +2264,7 @@ initial_level_
 integrity_level_
 IMPERSONATION
 lockdown_default_dacl_
+use_restricting_sids_
 initial
 )
 ;

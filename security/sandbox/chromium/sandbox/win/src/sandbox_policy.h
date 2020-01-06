@@ -142,6 +142,14 @@ const
 0
 ;
 virtual
+void
+SetDoNotUseRestrictingSIDs
+(
+)
+=
+0
+;
+virtual
 ResultCode
 SetJobLevel
 (

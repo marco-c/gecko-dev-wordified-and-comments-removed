@@ -127,6 +127,8 @@ TokenType
 token_type
 bool
 lockdown_default_dacl
+bool
+use_restricting_sids
 base
 :
 :
@@ -230,6 +232,11 @@ remove_privileges
 =
 false
 ;
+if
+(
+use_restricting_sids
+)
+{
 unsigned
 err_code
 =
@@ -246,9 +253,12 @@ ERROR_SUCCESS
 =
 err_code
 )
+{
 return
 err_code
 ;
+}
+}
 break
 ;
 }
@@ -372,6 +382,11 @@ push_back
 SE_CHANGE_NOTIFY_NAME
 )
 ;
+if
+(
+use_restricting_sids
+)
+{
 restricted_token
 .
 AddRestrictingSid
@@ -405,6 +420,7 @@ AddRestrictingSidLogonSession
 (
 )
 ;
+}
 break
 ;
 }
@@ -440,6 +456,11 @@ push_back
 SE_CHANGE_NOTIFY_NAME
 )
 ;
+if
+(
+use_restricting_sids
+)
+{
 restricted_token
 .
 AddRestrictingSid
@@ -467,6 +488,7 @@ AddRestrictingSidLogonSession
 (
 )
 ;
+}
 break
 ;
 }
@@ -487,6 +509,11 @@ AddUserSidForDenyOnly
 (
 )
 ;
+if
+(
+use_restricting_sids
+)
+{
 restricted_token
 .
 AddRestrictingSid
@@ -494,6 +521,7 @@ AddRestrictingSid
 WinRestrictedCodeSid
 )
 ;
+}
 break
 ;
 }
@@ -507,6 +535,11 @@ AddUserSidForDenyOnly
 (
 )
 ;
+if
+(
+use_restricting_sids
+)
+{
 restricted_token
 .
 AddRestrictingSid
@@ -514,6 +547,7 @@ AddRestrictingSid
 WinNullSid
 )
 ;
+}
 break
 ;
 }
