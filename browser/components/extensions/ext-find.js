@@ -195,7 +195,6 @@ params
 )
 ;
 }
-;
 this
 .
 find
