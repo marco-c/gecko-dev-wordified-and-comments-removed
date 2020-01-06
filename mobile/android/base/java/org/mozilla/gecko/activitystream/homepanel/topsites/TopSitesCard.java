@@ -480,7 +480,6 @@ MenuMode
 .
 TOPSITE
 topSite
-false
 onUrlOpenListener
 onUrlOpenInBackgroundListener
 faviconView

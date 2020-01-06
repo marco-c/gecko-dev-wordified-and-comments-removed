@@ -204,6 +204,17 @@ util
 ViewUtil
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+FaviconView
+;
+import
 java
 .
 lang
@@ -281,7 +292,7 @@ position
 ;
 private
 final
-StreamOverridablePageIconLayout
+StreamPageIconLayout
 pageIconLayout
 ;
 private
@@ -367,7 +378,7 @@ card_history_label
 pageIconLayout
 =
 (
-StreamOverridablePageIconLayout
+StreamPageIconLayout
 )
 itemView
 .
@@ -563,7 +574,6 @@ MenuMode
 .
 HIGHLIGHT
 highlight
-true
 onUrlOpenListener
 onUrlOpenInBackgroundListener
 pageIconLayout
@@ -735,6 +745,10 @@ getUrl
 (
 )
 highlight
+.
+getMetadataSlow
+(
+)
 .
 getImageUrl
 (

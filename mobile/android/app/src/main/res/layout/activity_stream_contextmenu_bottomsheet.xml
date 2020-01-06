@@ -162,13 +162,9 @@ mozilla
 .
 gecko
 .
-activitystream
+widget
 .
-homepanel
-.
-stream
-.
-StreamOverridablePageIconLayout
+FaviconView
 android
 :
 id
@@ -177,7 +173,7 @@ id
 +
 id
 /
-page_icon_layout
+icon
 "
 android
 :
@@ -203,6 +199,13 @@ layout_gravity
 =
 "
 center
+"
+gecko
+:
+enableRoundCorners
+=
+"
+false
 "
 tools
 :
@@ -248,7 +251,7 @@ layout_toEndOf
 "
 id
 /
-page_icon_layout
+icon
 "
 android
 :
@@ -257,7 +260,7 @@ layout_toRightOf
 "
 id
 /
-page_icon_layout
+icon
 "
 android
 :
@@ -344,7 +347,7 @@ layout_toEndOf
 "
 id
 /
-page_icon_layout
+icon
 "
 android
 :
@@ -353,7 +356,7 @@ layout_toRightOf
 "
 id
 /
-page_icon_layout
+icon
 "
 android
 :

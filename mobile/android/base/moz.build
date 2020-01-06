@@ -4537,7 +4537,7 @@ homepanel
 /
 stream
 /
-StreamOverridablePageIconLayout
+StreamPageIconLayout
 .
 java
 '
