@@ -500,6 +500,14 @@ debug
 '
 linux64
 -
+searchfox
+-
+debug
+'
+    
+'
+linux64
+-
 st
 -
 an
@@ -629,6 +637,14 @@ st
 an
 -
 opt
+'
+    
+'
+macosx64
+-
+searchfox
+-
+debug
 '
     
 '
@@ -901,6 +917,14 @@ win32
 rusttests
 -
 opt
+'
+    
+'
+win32
+-
+searchfox
+-
+debug
 '
     
 '
