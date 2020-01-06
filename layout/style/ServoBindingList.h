@@ -438,6 +438,8 @@ RawGeckoElement
 *
 RawGeckoNodeBorrowed
 RawServoSelectorListBorrowed
+bool
+may_use_invalidation
 )
 SERVO_BINDING_FUNC
 (
@@ -448,6 +450,8 @@ RawServoSelectorListBorrowed
 nsSimpleContentList
 *
 content_list
+bool
+may_use_invalidation
 )
 SERVO_BINDING_FUNC
 (
