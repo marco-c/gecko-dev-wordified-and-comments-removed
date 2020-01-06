@@ -6413,7 +6413,7 @@ media
 .
 cubeb
 .
-log_level
+logging_level
 "
 "
 "
@@ -44069,16 +44069,6 @@ plugins
 rewrite_youtube_embeds
 "
 true
-)
-;
-pref
-(
-"
-plugins
-.
-navigator_hide_disabled_flash
-"
-false
 )
 ;
 pref
