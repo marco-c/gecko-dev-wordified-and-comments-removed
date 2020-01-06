@@ -66,6 +66,9 @@ idl
 interface
 nsIFrameLoader
 ;
+interface
+nsIPrincipal
+;
 [
 scriptable
 uuid
@@ -239,6 +242,9 @@ linksCount
 in
 wstring
 links
+in
+nsIPrincipal
+aTriggeringPrincipal
 )
 ;
 /

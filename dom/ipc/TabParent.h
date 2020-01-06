@@ -3052,6 +3052,17 @@ mTabSetsCursor
 bool
 mHasContentOpener
 ;
+bool
+QueryDropLinksForVerification
+(
+)
+;
+nsTArray
+<
+nsString
+>
+mVerifyDropLinks
+;
 #
 ifdef
 DEBUG

@@ -10227,6 +10227,15 @@ aLinks
 /
 >
 <
+parameter
+name
+=
+"
+aTriggeringPrincipal
+"
+/
+>
+<
 body
 >
 <
@@ -10306,6 +10315,7 @@ droppedLinkHandler
 (
 null
 links
+aTriggeringPrincipal
 )
 ;
 return
