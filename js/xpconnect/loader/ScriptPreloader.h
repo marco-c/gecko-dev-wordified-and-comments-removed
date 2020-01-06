@@ -1189,6 +1189,11 @@ PrepareCacheWrite
 (
 )
 ;
+void
+PrepareCacheWriteInternal
+(
+)
+;
 Result
 <
 nsCOMPtr
@@ -1381,6 +1386,11 @@ false
 ;
 bool
 mCacheInvalidated
+=
+false
+;
+bool
+mBlockedOnSyncDispatch
 =
 false
 ;
