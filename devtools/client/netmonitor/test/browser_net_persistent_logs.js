@@ -51,7 +51,7 @@ setBoolPref
 "
 devtools
 .
-webconsole
+netmonitor
 .
 persistlog
 "
@@ -144,7 +144,7 @@ setBoolPref
 "
 devtools
 .
-webconsole
+netmonitor
 .
 persistlog
 "
@@ -199,7 +199,7 @@ setBoolPref
 "
 devtools
 .
-webconsole
+netmonitor
 .
 persistlog
 "
