@@ -462,7 +462,9 @@ cmd_CustomizeToolbars
 oncommand
 =
 "
-BrowserCustomizeToolbar
+gCustomizeMode
+.
+enter
 (
 )
 "
