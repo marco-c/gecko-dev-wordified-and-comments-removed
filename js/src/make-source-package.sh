@@ -1440,14 +1440,6 @@ memory
 mozalloc
 \
 {
-TOPSRCDIR
-}
-/
-memory
-/
-mozjemalloc
-\
-{
 tgtpath
 }
 /

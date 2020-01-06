@@ -169,9 +169,6 @@ DIRS
 '
 build
 '
-'
-mozjemalloc
-'
 ]
 if
 CONFIG
