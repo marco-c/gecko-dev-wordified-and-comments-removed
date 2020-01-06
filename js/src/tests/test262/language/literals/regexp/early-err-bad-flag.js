@@ -11,12 +11,6 @@ evaluated
 .
 "
 ;
-throw
-new
-Test262Error
-(
-)
-;
 /
 .
 /

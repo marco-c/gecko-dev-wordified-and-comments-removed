@@ -10,9 +10,6 @@ function
 eval
 (
 "
-var
-regExp
-=
 /
 \
 \
