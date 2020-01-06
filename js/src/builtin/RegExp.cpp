@@ -6681,17 +6681,6 @@ ArrayObject
 >
 (
 )
-|
-|
-matchResult
--
->
-is
-<
-UnboxedArrayObject
->
-(
-)
 )
 ;
 uint32_t

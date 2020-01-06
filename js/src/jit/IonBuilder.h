@@ -852,8 +852,6 @@ obj
 MDefinition
 *
 elements
-JSValueType
-unboxedType
 )
 ;
 MInstruction
@@ -863,8 +861,6 @@ setInitializedLength
 MDefinition
 *
 obj
-JSValueType
-unboxedType
 size_t
 count
 )
@@ -2682,8 +2678,6 @@ index
 MDefinition
 *
 value
-JSValueType
-unboxedType
 bool
 addResumePointAndIncrementInitializedLength
 )
@@ -3516,8 +3510,6 @@ obj
 MDefinition
 *
 index
-JSValueType
-unboxedType
 )
 ;
 AbortReasonOr
@@ -3567,8 +3559,6 @@ index
 MDefinition
 *
 value
-JSValueType
-unboxedType
 bool
 writeHole
 bool

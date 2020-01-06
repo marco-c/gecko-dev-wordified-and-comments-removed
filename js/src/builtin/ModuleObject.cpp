@@ -5797,17 +5797,6 @@ ArrayObject
 >
 (
 )
-|
-|
-exports
--
->
-is
-<
-UnboxedArrayObject
->
-(
-)
 )
 ;
 RootedModuleNamespaceObject

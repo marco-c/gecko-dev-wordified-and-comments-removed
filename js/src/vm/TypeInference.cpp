@@ -12997,16 +12997,6 @@ UnboxedPlainObject
 :
 :
 class_
-|
-|
-clasp
-=
-=
-&
-UnboxedArrayObject
-:
-:
-class_
 )
 return
 false

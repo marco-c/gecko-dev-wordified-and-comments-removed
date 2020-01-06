@@ -2651,16 +2651,6 @@ ArrayObject
 :
 :
 class_
-|
-|
-clasp
-=
-=
-&
-UnboxedArrayObject
-:
-:
-class_
 )
 return
 cx

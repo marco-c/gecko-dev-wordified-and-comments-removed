@@ -1384,17 +1384,6 @@ ArrayObject
 >
 (
 )
-|
-|
-obj
--
->
-is
-<
-UnboxedArrayObject
->
-(
-)
 )
 *
 cls
