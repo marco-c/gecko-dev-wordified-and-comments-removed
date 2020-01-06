@@ -141,6 +141,15 @@ nsChangeHint
 0
 )
 )
+#
+ifdef
+DEBUG
+mAssertWrapperRestyleLength
+(
+false
+)
+#
+endif
 {
 }
 enum
@@ -429,8 +438,6 @@ DEBUG
 const
 bool
 mAssertWrapperRestyleLength
-=
-true
 ;
 #
 endif
