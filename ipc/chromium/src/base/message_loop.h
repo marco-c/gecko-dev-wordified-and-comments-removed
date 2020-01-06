@@ -117,10 +117,10 @@ nsThreadUtils
 h
 "
 class
-nsISerialEventTarget
+nsIEventTarget
 ;
 class
-nsIThread
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -324,9 +324,9 @@ Type
 type
 =
 TYPE_DEFAULT
-nsIThread
+nsIEventTarget
 *
-aThread
+aEventTarget
 =
 nullptr
 )
