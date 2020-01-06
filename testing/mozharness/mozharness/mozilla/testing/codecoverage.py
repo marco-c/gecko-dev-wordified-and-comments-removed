@@ -275,6 +275,10 @@ return
 True
             
 return
+'
+ccov
+'
+in
 self
 .
 buildbot_config
@@ -288,14 +292,6 @@ properties
 stage_platform
 '
 ]
-in
-(
-'
-linux64
--
-ccov
-'
-)
         
 except
 (
@@ -379,6 +375,10 @@ return
 True
             
 return
+'
+jsdcov
+'
+in
 self
 .
 buildbot_config
@@ -392,14 +392,6 @@ properties
 stage_platform
 '
 ]
-in
-(
-'
-linux64
--
-jsdcov
-'
-)
         
 except
 (
@@ -1036,7 +1028,10 @@ root
                     
 break
             
-else
+if
+rel_topsrcdir
+is
+None
 :
                 
 self
@@ -1052,9 +1047,6 @@ topsrcdir
 in
 code
 coverage
-"
-                           
-"
 data
 !
 "
@@ -1076,7 +1068,6 @@ path
 .
 join
 (
-                
 dirs
 [
 '
@@ -1094,8 +1085,10 @@ zip
 '
 )
             
-command
-=
+self
+.
+run_command
+(
 [
 '
 zip
@@ -1109,23 +1102,9 @@ file_path_gcda
 .
 '
 ]
-            
-self
-.
-run_command
-(
-command
 cwd
 =
 rel_topsrcdir
-)
-            
-dirs
-=
-self
-.
-query_abs_dirs
-(
 )
             
 file_path_jsvm
@@ -1136,7 +1115,6 @@ path
 .
 join
 (
-                
 dirs
 [
 '
@@ -1154,8 +1132,10 @@ zip
 '
 )
             
-command
-=
+self
+.
+run_command
+(
 [
 '
 zip
@@ -1169,12 +1149,6 @@ file_path_jsvm
 .
 '
 ]
-            
-self
-.
-run_command
-(
-command
 cwd
 =
 self
@@ -1198,6 +1172,58 @@ self
 .
 grcov_dir
 )
+            
+if
+mozinfo
+.
+os
+=
+=
+'
+linux
+'
+:
+                
+prefix
+=
+'
+/
+builds
+/
+worker
+/
+workspace
+/
+build
+/
+src
+/
+'
+            
+elif
+mozinfo
+.
+os
+=
+=
+'
+win
+'
+:
+                
+prefix
+=
+'
+z
+:
+/
+build
+/
+build
+/
+src
+/
+'
             
 grcov_command
 =
@@ -1229,19 +1255,7 @@ lcov
 -
 p
 '
-'
-/
-builds
-/
-worker
-/
-workspace
-/
-build
-/
-src
-/
-'
+prefix
                 
 '
 -
@@ -1285,17 +1299,19 @@ self
 .
 get_output_from_command
 (
+                
 grcov_command
+                
 cwd
 =
 self
 .
 grcov_dir
-\
                 
 silent
 =
 True
+                
 tmpfile_base_path
 =
 os
@@ -1311,16 +1327,17 @@ grcov_dir
 grcov_lcov_output
 '
 )
-\
                 
 save_tmpfiles
 =
 True
+                
 return_type
 =
 '
 files
 '
+            
 )
             
 new_output_name
@@ -1346,8 +1363,11 @@ grcov_output
 new_output_name
 )
             
-command
-=
+self
+.
+run_command
+(
+                
 [
 '
 zip
@@ -1376,17 +1396,13 @@ zip
 )
 new_output_name
 ]
-            
-self
-.
-run_command
-(
-command
+                
 cwd
 =
 self
 .
 grcov_dir
+            
 )
         
 shutil
