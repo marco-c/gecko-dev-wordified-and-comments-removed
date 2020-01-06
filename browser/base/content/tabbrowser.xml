@@ -23387,7 +23387,7 @@ tabContainer
 .
 _handleTabSelect
 (
-false
+true
 )
 ;
 ]
@@ -24811,7 +24811,7 @@ tabContainer
 .
 _handleTabSelect
 (
-false
+true
 )
 ;
 if
@@ -39482,7 +39482,7 @@ tabs
 .
 _handleTabSelect
 (
-false
+true
 )
 ;
 ]
@@ -42142,7 +42142,7 @@ parameter
 name
 =
 "
-aSmoothScroll
+aInstant
 "
 /
 >
@@ -42179,7 +42179,7 @@ ensureElementIsVisible
 this
 .
 selectedItem
-aSmoothScroll
+aInstant
 )
 ;
 ]

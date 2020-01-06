@@ -3125,7 +3125,7 @@ _scrollBox
 scrollByIndex
 (
 scrollDir
-false
+true
 )
 ;
 }
