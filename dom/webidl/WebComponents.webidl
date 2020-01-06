@@ -160,7 +160,7 @@ void
 )
 ;
 callback
-LifecycleAttachedCallback
+LifecycleConnectedCallback
 =
 void
 (
@@ -198,9 +198,9 @@ LifecycleCreatedCallback
 ?
 createdCallback
 ;
-LifecycleAttachedCallback
+LifecycleConnectedCallback
 ?
-attachedCallback
+connectedCallback
 ;
 LifecycleDetachedCallback
 ?
