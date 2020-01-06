@@ -277,15 +277,10 @@ mFPDF_ClosePage
 FPDF_RenderPage_Pfn
 mFPDF_RenderPage
 ;
-#
-ifdef
-USE_EXTERNAL_PDFIUM
 PRLibrary
 *
 mPRLibrary
 ;
-#
-endif
 }
 ;
 }
