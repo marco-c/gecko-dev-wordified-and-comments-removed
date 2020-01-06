@@ -689,6 +689,7 @@ aGuid
 GuidComparator
 aComparator
 )
+const
 ;
 HitTestingTreeNode
 *
