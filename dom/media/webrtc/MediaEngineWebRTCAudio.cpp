@@ -2526,11 +2526,11 @@ Get
 true
 )
 ;
-if
+MOZ_ASSERT
 (
 mAudioOutputObserver
 )
-{
+;
 mAudioOutputObserver
 -
 >
@@ -2538,7 +2538,6 @@ Clear
 (
 )
 ;
-}
 if
 (
 mVoEBase
