@@ -28,6 +28,8 @@ build
 "
 then
 :
+task
+:
 mergeDeep
 :
 -
@@ -54,13 +56,3 @@ eval
 input
 .
 enabled
-else
-:
-eval
-:
-task
-else
-:
-eval
-:
-task

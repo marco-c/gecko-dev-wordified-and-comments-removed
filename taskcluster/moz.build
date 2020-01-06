@@ -248,3 +248,11 @@ taskcluster
 '
 docs
 '
+SPHINX_PYTHON_PACKAGE_DIRS
++
+=
+[
+'
+taskgraph
+'
+]
