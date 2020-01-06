@@ -434,7 +434,8 @@ private
 TextComposition
 (
 )
-;
+{
+}
 static
 bool
 sHandlingSelectionEvent
@@ -515,9 +516,6 @@ mAllowControlCharacters
 bool
 mWasCompositionStringEmpty
 ;
-bool
-mHasDispatchedCompositionEvents
-;
 TextComposition
 (
 )
@@ -573,10 +571,6 @@ false
 mWasCompositionStringEmpty
 (
 true
-)
-mHasDispatchedCompositionEvents
-(
-false
 )
 {
 }
