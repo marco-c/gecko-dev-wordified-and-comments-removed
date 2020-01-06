@@ -134,12 +134,10 @@ nullptr
 bool
 TranslateRecording
 (
-std
-:
-:
-istream
-&
-aRecording
+char
+*
+size_t
+len
 )
 ;
 DrawTarget
