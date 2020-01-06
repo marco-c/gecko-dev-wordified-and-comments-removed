@@ -483,10 +483,10 @@ format
 "
 {
 }
-was
+is
 not
 a
-boolean
+string
 "
 x
 )
