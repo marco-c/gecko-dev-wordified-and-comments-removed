@@ -475,7 +475,6 @@ ObtainGit
 static
 IGlobalInterfaceTable
 *
-const
 sGit
 =
 [
@@ -486,7 +485,6 @@ sGit
 >
 IGlobalInterfaceTable
 *
-const
 {
 IGlobalInterfaceTable
 *
