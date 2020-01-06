@@ -58,6 +58,13 @@ version
 0
 "
 }
+bincode
+=
+"
+0
+.
+8
+"
 rayon
 =
 "

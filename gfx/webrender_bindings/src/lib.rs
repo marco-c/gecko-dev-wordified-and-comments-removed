@@ -34,6 +34,10 @@ extern
 crate
 thread_profiler
 ;
+extern
+crate
+bincode
+;
 #
 [
 allow

@@ -503,6 +503,13 @@ aSize
 )
 ;
 async
+UpdateResources
+(
+ByteBuffer
+aUpdates
+)
+;
+async
 AddImage
 (
 ImageKey
@@ -602,14 +609,7 @@ aInstanceKey
 )
 ;
 async
-DPBegin
-(
-IntSize
-aSize
-)
-;
-async
-DPEnd
+SetDisplayList
 (
 IntSize
 aSize
@@ -633,6 +633,8 @@ BuiltDisplayListDescriptor
 aDLDesc
 WebRenderScrollData
 aScrollData
+ByteBuffer
+aResourceUpdates
 IdNamespace
 aIdNamespace
 TimeStamp
@@ -642,7 +644,7 @@ fwdTime
 )
 ;
 sync
-DPSyncEnd
+SetDisplayListSync
 (
 IntSize
 aSize
@@ -666,6 +668,8 @@ BuiltDisplayListDescriptor
 aDLDesc
 WebRenderScrollData
 aScrollData
+ByteBuffer
+aResourceUpdates
 IdNamespace
 aIdNamespace
 TimeStamp
@@ -684,7 +688,7 @@ commands
 )
 ;
 sync
-DPGetSnapshot
+GetSnapshot
 (
 PTexture
 texture
