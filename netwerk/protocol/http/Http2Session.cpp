@@ -5765,9 +5765,15 @@ trash
 cache
 -
 >
-RemovePushedStreamHttp2
+RemovePushedStreamHttp2ByID
 (
 hashKey
+aStream
+-
+>
+StreamID
+(
+)
 )
 ;
 LOG3
