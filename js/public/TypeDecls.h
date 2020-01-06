@@ -46,6 +46,9 @@ class
 JSAddonId
 ;
 struct
+JSFreeOp
+;
+struct
 jsid
 ;
 namespace
