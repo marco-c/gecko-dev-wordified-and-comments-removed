@@ -50169,6 +50169,7 @@ ltr
 )
 *
 pixelsToScroll
+true
 )
 ;
 }
