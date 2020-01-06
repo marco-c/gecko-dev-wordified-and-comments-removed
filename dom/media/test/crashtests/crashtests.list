@@ -101,6 +101,12 @@ skip
 -
 if
 (
+Android
+)
+skip
+-
+if
+(
 webrender
 )
 load
@@ -114,6 +120,8 @@ bug
 1366502
 comment
 42
+bug
+1374405
 skip
 -
 if
