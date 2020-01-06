@@ -408,7 +408,7 @@ ctx
 =
 SGN_NewContext
 (
-SEC_OID_ISO_SHA1_WITH_RSA_SIGNATURE
+SEC_OID_PKCS1_SHA384_WITH_RSA_ENCRYPTION
 *
 privKey
 )
@@ -4599,7 +4599,7 @@ signatureAlgorithmID
 =
 htonl
 (
-1
+2
 )
 ;
 if
