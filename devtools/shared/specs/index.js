@@ -1091,9 +1091,6 @@ types
 :
 [
 "
-originalsource
-"
-"
 mediarule
 "
 "
