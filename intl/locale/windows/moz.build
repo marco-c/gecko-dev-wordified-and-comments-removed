@@ -90,11 +90,6 @@ SOURCES
 =
 [
 '
-nsWin32Locale
-.
-cpp
-'
-'
 nsWinCharset
 .
 cpp

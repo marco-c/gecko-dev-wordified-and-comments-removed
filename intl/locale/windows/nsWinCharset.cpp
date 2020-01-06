@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsWin32Locale
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

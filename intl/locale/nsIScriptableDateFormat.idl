@@ -797,12 +797,12 @@ code
 as
 described
 in
-nsILocale
+nsILocaleService
 as
 the
 locale
-parameter
 *
+parameter
 (
 e
 .
@@ -822,9 +822,9 @@ If
 the
 given
 locale
+*
 is
 not
-*
 available
 a
 fallback

@@ -85,16 +85,6 @@ MPL
 0
 /
 .
-SOURCES
-+
-=
-[
-'
-nsPosixLocale
-.
-cpp
-'
-]
 if
 CONFIG
 [
