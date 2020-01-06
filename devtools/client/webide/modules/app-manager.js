@@ -92,7 +92,6 @@ emitter
 ;
 const
 {
-TextEncoder
 OS
 }
 =

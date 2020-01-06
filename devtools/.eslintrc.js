@@ -138,6 +138,16 @@ uneval
 :
 true
 "
+TextDecoder
+"
+:
+true
+"
+TextEncoder
+"
+:
+true
+"
 URL
 "
 :

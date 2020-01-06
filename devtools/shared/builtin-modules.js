@@ -113,6 +113,8 @@ ThreadSafeChromeUtils
 HeapSnapshot
 atob
 btoa
+TextEncoder
+TextDecoder
 }
 =
 jsmScope
@@ -748,6 +750,12 @@ atob
 btoa
 :
 btoa
+TextEncoder
+:
+TextEncoder
+TextDecoder
+:
+TextDecoder
 URL
 loader
 :
