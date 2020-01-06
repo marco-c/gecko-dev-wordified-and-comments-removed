@@ -517,7 +517,7 @@ JSContext
 cx
 HandleObject
 obj
-double
+uint32_t
 length
 )
 ;
