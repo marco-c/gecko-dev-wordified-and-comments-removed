@@ -812,6 +812,11 @@ grip
 this
 )
 ;
+if
+(
+sDataChannelShutdown
+)
+{
 sDataChannelShutdown
 -
 >
@@ -820,6 +825,7 @@ RemoveConnectionShutdown
 this
 )
 ;
+}
 return
 NS_OK
 ;
