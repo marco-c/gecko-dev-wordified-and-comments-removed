@@ -173,11 +173,6 @@ robocop
 ini
 '
 '
-robocop_autophone
-.
-ini
-'
-'
 robocop_autophone2
 .
 ini
