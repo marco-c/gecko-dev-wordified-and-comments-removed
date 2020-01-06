@@ -331,6 +331,10 @@ unsigned
 long
 discardedPackets
 ;
+unsigned
+long
+framesDecoded
+;
 }
 ;
 dictionary

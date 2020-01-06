@@ -998,6 +998,9 @@ bitrateStdDev
 uint32_t
 *
 discardedPackets
+uint32_t
+*
+framesDecoded
 )
 override
 ;
@@ -1219,6 +1222,15 @@ aOutDiscPackets
 const
 ;
 void
+FramesDecoded
+(
+uint32_t
+&
+aFramesDecoded
+)
+const
+;
+void
 Update
 (
 const
@@ -1237,6 +1249,11 @@ private
 :
 uint32_t
 mDiscardedPackets
+=
+0
+;
+uint32_t
+mFramesDecoded
 =
 0
 ;

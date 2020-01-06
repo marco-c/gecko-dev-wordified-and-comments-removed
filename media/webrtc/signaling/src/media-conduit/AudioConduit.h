@@ -700,6 +700,9 @@ bitrateStdDev
 uint32_t
 *
 discardedPackets
+uint32_t
+*
+framesDecoded
 )
 override
 {
