@@ -456,6 +456,11 @@ gfxFontConstants
 h
 "
 "
+gfxFontFeatures
+.
+h
+"
+"
 nsThemeConstants
 .
 h
@@ -1173,6 +1178,9 @@ gfxAlternateValue
 "
 "
 gfxFontFeature
+"
+"
+gfxFontFeatureValueSet
 "
 "
 gfxFontVariation
@@ -2731,6 +2739,9 @@ StyleShapeSource
 "
 "
 StyleTransition
+"
+"
+gfxFontFeatureValueSet
 "
 "
 nsBorderColors
