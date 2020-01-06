@@ -409,7 +409,7 @@ if
 uri
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -549,7 +549,7 @@ i
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1173,7 +1173,7 @@ i
 ;
 }
 }
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1512,7 +1512,7 @@ get
 ;
 #
 endif
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1697,7 +1697,7 @@ ToLowerCase
 value
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -1708,7 +1708,7 @@ NS_Atomize
 alias
 )
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >

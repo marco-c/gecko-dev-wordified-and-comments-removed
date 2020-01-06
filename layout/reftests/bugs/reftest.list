@@ -22119,14 +22119,6 @@ if
 cocoaWidget
 |
 |
-(
-gtkWidget
-&
-&
-webrender
-)
-|
-|
 winWidget
 )
 =

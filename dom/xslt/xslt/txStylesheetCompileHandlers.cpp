@@ -1279,7 +1279,7 @@ aRes
 =
 eNotSet
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -4060,7 +4060,7 @@ ns
 =
 kNameSpaceID_None
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -7744,7 +7744,7 @@ rv
 =
 NS_OK
 ;
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
@@ -11307,7 +11307,7 @@ aCount
 i
 )
 {
-nsCOMPtr
+RefPtr
 <
 nsIAtom
 >
