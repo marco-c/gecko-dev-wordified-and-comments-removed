@@ -4676,6 +4676,10 @@ if
 (
 !
 styloVsGecko
+&
+&
+!
+webrender
 )
 =
 =
@@ -4796,6 +4800,10 @@ if
 (
 !
 styloVsGecko
+&
+&
+!
+webrender
 )
 =
 =
