@@ -431,6 +431,12 @@ if
 (
 !
 aUri
+|
+|
+!
+this
+.
+isRegistered
 )
 {
 return
@@ -452,7 +458,7 @@ uri
 :
 aUri
 .
-displaySpec
+spec
 where
 :
 aWhere
@@ -1024,7 +1030,7 @@ uri
 :
 fixedURI
 .
-displaySpec
+spec
 canGoBack
 :
 this
