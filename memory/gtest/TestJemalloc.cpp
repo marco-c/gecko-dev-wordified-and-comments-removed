@@ -193,7 +193,6 @@ b
 endif
 #
 endif
-q
 using
 namespace
 mozilla
