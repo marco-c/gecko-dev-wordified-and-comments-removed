@@ -2062,6 +2062,16 @@ public
 static
 final
 String
+HISTORY_GUID
+=
+"
+history_guid
+"
+;
+public
+static
+final
+String
 REMOTE_VISITS_COUNT
 =
 "
