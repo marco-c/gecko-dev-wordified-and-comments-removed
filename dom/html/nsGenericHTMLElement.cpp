@@ -13965,7 +13965,6 @@ CSSPseudoElementType
 :
 :
 NotPseudo
-nullptr
 )
 ;
 }

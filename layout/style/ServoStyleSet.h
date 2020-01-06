@@ -578,9 +578,6 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsAtom
-*
-aPseudoTag
 StyleRuleInclusion
 aRules
 =
@@ -1335,9 +1332,6 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsAtom
-*
-aPseudoTag
 StyleRuleInclusion
 aRules
 =

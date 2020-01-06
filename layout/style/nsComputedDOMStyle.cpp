@@ -2867,7 +2867,6 @@ ResolveStyleLazily
 (
 aElement
 pseudoType
-aPseudo
 rules
 )
 ;
