@@ -70,6 +70,13 @@ h
 #
 include
 "
+MediaBlockCacheBase
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
@@ -1248,7 +1255,7 @@ mBlockOwnersWatermark
 ;
 RefPtr
 <
-FileBlockCache
+MediaBlockCacheBase
 >
 mFileCache
 ;
@@ -2997,7 +3004,7 @@ AssertCurrentThreadIn
 ;
 RefPtr
 <
-FileBlockCache
+MediaBlockCacheBase
 >
 fileCache
 =
