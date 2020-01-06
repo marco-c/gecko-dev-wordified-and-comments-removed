@@ -84,7 +84,7 @@ mozinfo
 .
 isMac
 :
-  
+    
 xpcshellBin
 =
 os
@@ -103,6 +103,7 @@ substs
 MOZ_MACBUNDLE_NAME
 '
 ]
+                               
 "
 Contents
 "
@@ -115,7 +116,7 @@ xpcshell
 )
 else
 :
-  
+    
 xpcshellBin
 =
 os
@@ -135,7 +136,7 @@ bin
 xpcshell
 "
 )
-  
+    
 if
 sys
 .
@@ -146,7 +147,7 @@ platform
 win32
 "
 :
-    
+        
 xpcshellBin
 +
 =
@@ -2561,7 +2562,7 @@ candidate_path
 )
 )
 :
-          
+            
 self
 .
 symbols_path
@@ -3724,6 +3725,7 @@ n
 s
 "
 %
+                         
 pprint
 .
 pformat
@@ -3767,6 +3769,7 @@ n
 s
 "
 %
+                        
 pprint
 .
 pformat
@@ -6232,7 +6235,7 @@ RELEASE_OR_BETA
 '
 )
 :
-          
+            
 self
 .
 assertInLog
@@ -7041,7 +7044,7 @@ test_add_task_multiple
 .
 js
 "
-            
+                       
 ADD_TASK_MULTIPLE
 )
         
@@ -7133,7 +7136,7 @@ test_add_task_rejected
 .
 js
 "
-            
+                       
 ADD_TASK_REJECTED
 )
         
@@ -7227,7 +7230,7 @@ test_add_task_failure_inside
 .
 js
 "
-            
+                       
 ADD_TASK_FAILURE_INSIDE
 )
         
@@ -7325,7 +7328,7 @@ test_add_task_run_next_test
 .
 js
 "
-            
+                       
 ADD_TASK_RUN_NEXT_TEST
 )
         
@@ -7434,7 +7437,7 @@ test_add_task_stack_trace
 .
 js
 "
-            
+                       
 ADD_TASK_STACK_TRACE
 )
         

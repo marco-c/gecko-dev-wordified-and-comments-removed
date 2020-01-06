@@ -5,8 +5,6 @@ absolute_import
 unicode_literals
 print_function
 import
-argparse
-import
 errno
 import
 os

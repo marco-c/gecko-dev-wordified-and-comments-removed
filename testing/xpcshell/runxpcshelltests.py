@@ -6,15 +6,9 @@ print_function
 import
 copy
 import
-importlib
-import
 json
 import
-math
-import
 mozdebug
-import
-mozinfo
 import
 os
 import
@@ -36,7 +30,6 @@ traceback
 from
 argparse
 import
-ArgumentParser
 Namespace
 from
 collections
@@ -543,7 +536,7 @@ False
 usingTSan
 =
 False
-            
+                 
 *
 *
 kwargs
@@ -1599,7 +1592,7 @@ stdout
 stderr
 =
 stderr
-                    
+                          
 env
 =
 env
@@ -2248,7 +2241,7 @@ s
 ;
 '
 %
-                  
+                
 name
 .
 replace
@@ -2692,6 +2685,7 @@ quoting
 issues
 over
 a
+          
 secondary
 command
 line
@@ -2729,7 +2723,7 @@ replace
 '
 "
 '
-                       
+                         
 for
 f
 in
@@ -2756,9 +2750,8 @@ port
 return
 xpcscmd
 +
-\
-                
 [
+            
 '
 -
 e
@@ -2771,7 +2764,7 @@ _SERVER_ADDR
 localhost
 "
 '
-                 
+            
 '
 -
 e
@@ -2788,7 +2781,7 @@ s
 '
 %
 cmdH
-                 
+            
 '
 -
 e
@@ -2803,7 +2796,7 @@ d
 '
 %
 dbgport
-                
+        
 ]
     
 def
@@ -3027,11 +3020,11 @@ path
 before
 other
 head
+          
 and
 test
 files
 .
-          
 On
 a
 remote
@@ -3043,6 +3036,7 @@ to
 add
 additional
 command
+          
 line
 arguments
 so
@@ -4099,7 +4093,7 @@ TEST
 STARTED
 '
 :
-             
+            
 self
 .
 saw_proc_start
@@ -4930,7 +4924,7 @@ launchProcess
 self
 .
 complete_command
-                
+                                      
 stdout
 =
 self
@@ -4941,6 +4935,7 @@ stderr
 self
 .
 pStderr
+                                      
 env
 =
 self
@@ -4949,6 +4944,7 @@ env
 cwd
 =
 test_dir
+                                      
 timeout
 =
 testTimeoutInterval
@@ -5788,6 +5784,7 @@ os
 path
 .
 basename
+                                           
 (
 test_object
 [
@@ -6337,10 +6334,10 @@ httpdjspath
 and
 xrepath
 .
-          
 These
 3
 variables
+          
 depend
 on
 input
@@ -6497,6 +6494,7 @@ self
 xpcshell
 )
 )
+                                             
 '
 Resources
 '
@@ -6683,6 +6681,7 @@ across
 all
 platforms
 including
+          
 remote
 systems
 .
@@ -6870,11 +6869,11 @@ all
 the
 appropriate
 env
+          
 variables
 and
 values
 .
-          
 On
 a
 remote
@@ -6885,6 +6884,7 @@ this
 to
 set
 different
+          
 values
 and
 are
@@ -7064,10 +7064,10 @@ else
 :
             
 if
-not
 "
 LD_LIBRARY_PATH
 "
+not
 in
 self
 .
@@ -7264,6 +7264,7 @@ TSAN_OPTIONS
 "
 ]
 =
+(
 "
 external_symbolizer_path
 =
@@ -7276,7 +7277,9 @@ external_symbolizer_path
 format
 (
 llvmsym
+                                                
 oldTSanOptions
+)
 )
                 
 self
@@ -7320,6 +7323,9 @@ runxpcshelltests
 .
 py
 |
+"
+                               
+"
 Failed
 to
 find
@@ -7591,6 +7597,9 @@ variable
 not
 set
 .
+'
+                                 
+'
 Tests
 requiring
 http
@@ -7634,6 +7643,9 @@ variable
 not
 set
 .
+'
+                             
+'
 Tests
 requiring
 http
@@ -7809,7 +7821,7 @@ PIPE
 stdout
 =
 PIPE
-                        
+                                
 stderr
 =
 PIPE
@@ -7880,7 +7892,7 @@ msg
 if
 searchObj
 :
-                      
+                        
 self
 .
 env
@@ -8112,7 +8124,6 @@ firstTime
 firstTime
 =
 False
-;
                         
 self
 .
@@ -8196,7 +8207,7 @@ self
 xpcsRunArgs
 =
 [
-            
+                
 '
 -
 e
@@ -8221,11 +8232,12 @@ _execute_test
 )
 ;
 '
-            
+                
 '
 -
 i
 '
+            
 ]
         
 else
@@ -8348,6 +8360,9 @@ s
 .
 Perhaps
 you
+"
+                               
+"
 need
 to
 use
@@ -8599,6 +8614,7 @@ os
 path
 .
 dirname
+                                              
 (
 options
 [
@@ -8638,10 +8654,6 @@ failure_manifest
 '
 ]
 )
-                
-manifest
-=
-rerun_manifest
             
 else
 :
@@ -8777,7 +8789,7 @@ get
 debugger
 '
 )
-                
+                                                           
 options
 .
 get
@@ -8786,6 +8798,7 @@ get
 debuggerArgs
 '
 )
+                                                           
 options
 .
 get
@@ -9229,6 +9242,7 @@ get_stack_fixer_function
 self
 .
 utility_path
+                                                                 
 self
 .
 symbolsPath
@@ -9305,6 +9319,7 @@ get
 testPaths
 '
 )
+                           
 options
 .
 get
@@ -9698,6 +9713,9 @@ launch
 command
 instead
 of
+"
+                              
+"
 the
 '
 run
@@ -9847,8 +9865,9 @@ test
 =
 testClass
 (
+                    
 test_object
-                        
+                    
 verbose
 =
 self
@@ -9868,11 +9887,10 @@ verbose
 "
 true
 "
-                        
+                    
 usingTSan
 =
 usingTSan
-                        
 mobileArgs
 =
 mobileArgs
@@ -9921,7 +9939,7 @@ runTestList
 tests_queue
 sequential_tests
 testClass
-                
+                                      
 mobileArgs
 *
 *
@@ -9966,7 +9984,7 @@ test_object
 retry
 =
 False
-                        
+                                     
 mobileArgs
 =
 mobileArgs
@@ -9990,7 +10008,7 @@ runTestList
 (
 tests_queue
 sequential_tests
-                    
+                                          
 testClass
 mobileArgs
 *
@@ -10151,6 +10169,9 @@ checks
 passed
 but
 not
+"
+                                      
+"
 all
 checks
 were
@@ -10221,8 +10242,8 @@ step
                     
 if
 status
-!
-=
+is
+not
 True
 :
                         
@@ -10400,7 +10421,7 @@ self
 tests_queue
 sequential_tests
 testClass
-            
+                    
 mobileArgs
 *
 *
@@ -10737,13 +10758,12 @@ control
 C
 )
 so
+"
+                                   
+"
 stopped
 run
 .
-"
-\
-                                   
-"
 (
 Use
 -
@@ -10755,6 +10775,9 @@ to
 keep
 running
 tests
+"
+                                   
+"
 after
 killing
 one
@@ -10861,21 +10884,21 @@ test
 testClass
 (
 test_object
-                    
+                             
 retry
 =
 False
-                    
+                             
 verbose
 =
 self
 .
 verbose
-                    
+                             
 mobileArgs
 =
 mobileArgs
-                    
+                             
 *
 *
 kwargs
@@ -11173,7 +11196,7 @@ if
 gotSIGINT
 and
 not
-keepGoing
+keep_going
 :
             
 self
@@ -11201,7 +11224,6 @@ stopped
 run
 .
 "
-\
                            
 "
 (
@@ -11216,6 +11238,9 @@ keep
 running
 tests
 after
+"
+                           
+"
 killing
 one
 with
