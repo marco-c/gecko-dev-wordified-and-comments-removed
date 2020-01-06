@@ -607,9 +607,8 @@ CharacterDataChangeInfo
 aInfo
 )
 ;
-nsIFrame
-*
-EnsureFrameForTextNode
+bool
+EnsureFrameForTextNodeIsCreatedAfterFlush
 (
 nsGenericDOMDataNode
 *
