@@ -727,14 +727,9 @@ LayerActivity
 *
 layerActivity
 =
+GetLayerActivity
+(
 aFrame
--
->
-GetProperty
-(
-LayerActivityProperty
-(
-)
 )
 ;
 if
