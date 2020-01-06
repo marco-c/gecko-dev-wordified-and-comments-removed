@@ -36,10 +36,8 @@ opt
 build
 -
 win32
--
-pgo
 /
-opt
+pgo
 '
     
 '
@@ -60,10 +58,8 @@ opt
 build
 -
 win64
--
-pgo
 /
-opt
+pgo
 '
 )
 def
