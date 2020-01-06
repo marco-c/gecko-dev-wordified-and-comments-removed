@@ -148,6 +148,7 @@ UniqueStacks
 &
 aUniqueStacks
 )
+const
 ;
 void
 StreamMarkersToJSON
@@ -170,6 +171,7 @@ UniqueStacks
 &
 aUniqueStacks
 )
+const
 ;
 bool
 DuplicateLastSample
@@ -229,6 +231,7 @@ LastSample
 &
 aLS
 )
+const
 ;
 public
 :
