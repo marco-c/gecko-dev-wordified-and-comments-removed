@@ -537,12 +537,6 @@ aStatus
 override
 ;
 void
-EnsureUniqueInner
-(
-)
-override
-;
-void
 AppendAllChildSheets
 (
 nsTArray

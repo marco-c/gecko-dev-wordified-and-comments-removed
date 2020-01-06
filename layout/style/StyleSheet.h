@@ -357,7 +357,6 @@ return
 mDirty
 ;
 }
-virtual
 void
 EnsureUniqueInner
 (
