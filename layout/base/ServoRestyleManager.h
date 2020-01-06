@@ -436,6 +436,12 @@ true
 endif
 }
 ;
+enum
+class
+ServoPostTraversalFlags
+:
+uint32_t
+;
 class
 ServoRestyleManager
 :
@@ -652,8 +658,8 @@ aParentContext
 ServoRestyleState
 &
 aRestyleState
-bool
-aParentWasRestyled
+ServoPostTraversalFlags
+aFlags
 )
 ;
 struct
@@ -671,8 +677,8 @@ aState
 ServoRestyleState
 &
 aRestyleState
-bool
-aParentWasRestyled
+ServoPostTraversalFlags
+aFlags
 )
 ;
 inline
