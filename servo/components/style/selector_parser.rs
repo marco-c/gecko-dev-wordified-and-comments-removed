@@ -373,7 +373,7 @@ UserAgent
 }
 pub
 fn
-in_chrome_stylesheet
+chrome_rules_enabled
 (
 &
 self
@@ -398,6 +398,17 @@ is_chrome
 (
 )
 )
+|
+|
+self
+.
+stylesheet_origin
+=
+=
+Origin
+:
+:
+User
 }
 }
 #

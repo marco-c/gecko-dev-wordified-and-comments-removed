@@ -506,7 +506,7 @@ error
 }
 pub
 fn
-in_chrome_stylesheet
+chrome_rules_enabled
 (
 &
 self
@@ -522,6 +522,17 @@ url_data
 is_chrome
 (
 )
+|
+|
+self
+.
+stylesheet_origin
+=
+=
+Origin
+:
+:
+User
 }
 }
 pub

@@ -8491,7 +8491,7 @@ default
 =
 PropertyParserContext
 {
-in_chrome_stylesheet
+chrome_rules_enabled
 :
 false
 stylesheet_origin
@@ -9901,7 +9901,7 @@ Ok
 if
 context
 .
-in_chrome_stylesheet
+chrome_rules_enabled
 &
 &
 ENABLED_IN_CHROME
@@ -9954,7 +9954,7 @@ chrome
 stylesheet
 .
 pub
-in_chrome_stylesheet
+chrome_rules_enabled
 :
 bool
 /
@@ -10032,11 +10032,11 @@ Self
 {
 Self
 {
-in_chrome_stylesheet
+chrome_rules_enabled
 :
 context
 .
-in_chrome_stylesheet
+chrome_rules_enabled
 (
 )
 stylesheet_origin
