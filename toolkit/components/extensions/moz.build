@@ -271,6 +271,11 @@ MatchPattern
 .
 h
 '
+'
+WebExtensionPolicy
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -278,6 +283,11 @@ UNIFIED_SOURCES
 [
 '
 MatchPattern
+.
+cpp
+'
+'
+WebExtensionPolicy
 .
 cpp
 '
