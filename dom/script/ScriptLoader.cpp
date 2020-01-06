@@ -1674,7 +1674,10 @@ u
 )
 "
 aRequest
+unsigned
+(
 aResult
+)
 )
 )
 ;
