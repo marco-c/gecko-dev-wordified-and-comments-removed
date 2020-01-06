@@ -170,6 +170,7 @@ windows
 .
 png
 )
+*
 skin
 /
 windows
@@ -180,7 +181,7 @@ css
 (
 skin
 /
-shared
+windows
 /
 pocket
 .
@@ -202,6 +203,7 @@ osx
 .
 png
 )
+*
 skin
 /
 osx
@@ -233,6 +235,7 @@ linux
 .
 png
 )
+*
 skin
 /
 linux
@@ -243,7 +246,7 @@ css
 (
 skin
 /
-shared
+linux
 /
 pocket
 .
