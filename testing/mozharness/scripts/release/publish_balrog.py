@@ -587,14 +587,9 @@ cmd
 =
 [
             
-self
+sys
 .
-query_exe
-(
-"
-python
-"
-)
+executable
             
 os
 .
