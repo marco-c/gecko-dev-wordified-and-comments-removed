@@ -3777,6 +3777,12 @@ return
 NS_OK
 ;
 }
+AutoTransactionsConserveSelection
+dontSpazMySelection
+(
+textEditor
+)
+;
 nsresult
 rv
 =
