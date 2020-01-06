@@ -1408,6 +1408,12 @@ params
 message
 '
 ]
+or
+'
+no
+commit
+message
+'
     
 if
 not
