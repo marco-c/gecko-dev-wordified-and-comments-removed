@@ -2503,6 +2503,25 @@ TIMEOUT
 )
 '
         
+result
++
+=
+'
+[
+{
+:
+.
+1f
+}
+s
+]
+'
+.
+format
+(
+time
+)
+        
 print
 (
 result
