@@ -492,12 +492,15 @@ indexOf
 const
 channel
 =
+Number
+(
 tag
 .
 substr
 (
 0
 pos
+)
 )
 ;
 const
