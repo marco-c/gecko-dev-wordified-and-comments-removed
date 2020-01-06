@@ -262,7 +262,7 @@ value
 =
 gPermURI
 .
-prePath
+displayPrePath
 ;
 for
 (
