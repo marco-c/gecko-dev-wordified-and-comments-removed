@@ -1632,6 +1632,17 @@ ParentLayerPixel
 >
 ParentLayerToParentLayerMatrix4x4
 ;
+typedef
+gfx
+:
+:
+Matrix4x4Typed
+<
+ParentLayerPixel
+RenderTargetPixel
+>
+ParentLayerToRenderTargetMatrix4x4
+;
 struct
 CSSPixel
 {

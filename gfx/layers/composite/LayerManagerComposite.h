@@ -1375,6 +1375,13 @@ aVisibleRegion
 const
 Maybe
 <
+RenderTargetIntRect
+>
+&
+aRenderTargetClip
+const
+Maybe
+<
 ParentLayerIntRect
 >
 &
